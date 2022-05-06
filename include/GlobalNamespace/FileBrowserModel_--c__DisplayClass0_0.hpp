@@ -39,15 +39,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class FileBrowserModel::$$c__DisplayClass0_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public FileBrowserItem[] items
     // Size: 0x8
     // Offset: 0x10
@@ -74,34 +66,36 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action_1<::ArrayW<::GlobalNamespace::FileBrowserItem*>>*) == 0x8);
     public:
     // Get instance field reference: public FileBrowserItem[] items
-    ::ArrayW<::GlobalNamespace::FileBrowserItem*>& dyn_items();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::FileBrowserItem*>& dyn_items();
     // Get instance field reference: public System.String direcotryPath
-    ::StringW& dyn_direcotryPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_direcotryPath();
     // Get instance field reference: public System.String[] extensions
-    ::ArrayW<::StringW>& dyn_extensions();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_extensions();
     // Get instance field reference: public System.Action`1<FileBrowserItem[]> callback
-    ::System::Action_1<::ArrayW<::GlobalNamespace::FileBrowserItem*>>*& dyn_callback();
-    // System.Void <GetContentOfDirectory>b__0()
-    // Offset: 0x138B6B4
-    void $GetContentOfDirectory$b__0();
-    // System.Void <GetContentOfDirectory>b__1()
-    // Offset: 0x138B6E0
-    void $GetContentOfDirectory$b__1();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::ArrayW<::GlobalNamespace::FileBrowserItem*>>*& dyn_callback();
     // public System.Void .ctor()
-    // Offset: 0x138B21C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1372D30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileBrowserModel::$$c__DisplayClass0_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileBrowserModel::$$c__DisplayClass0_0*, creationType>()));
     }
+    // System.Void <GetContentOfDirectory>b__0()
+    // Offset: 0x13731C8
+    void $GetContentOfDirectory$b__0();
+    // System.Void <GetContentOfDirectory>b__1()
+    // Offset: 0x13731F4
+    void $GetContentOfDirectory$b__1();
   }; // FileBrowserModel/<>c__DisplayClass0_0
   #pragma pack(pop)
   static check_size<sizeof(FileBrowserModel::$$c__DisplayClass0_0), 40 + sizeof(::System::Action_1<::ArrayW<::GlobalNamespace::FileBrowserItem*>>*)> __GlobalNamespace_FileBrowserModel_$$c__DisplayClass0_0SizeCheck;
   static_assert(sizeof(FileBrowserModel::$$c__DisplayClass0_0) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0::$GetContentOfDirectory$b__0
 // Il2CppName: <GetContentOfDirectory>b__0
 template<>
@@ -118,7 +112,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0*), "<GetContentOfDirectory>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

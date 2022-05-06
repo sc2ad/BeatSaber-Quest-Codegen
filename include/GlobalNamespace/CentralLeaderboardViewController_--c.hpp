@@ -57,26 +57,24 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<GameplayModifierParamsSO,System.String> <>9__37_0
     static void _set_$$9__37_0(::System::Func_2<::GlobalNamespace::GameplayModifierParamsSO*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x135445C
+    // Offset: 0x133D6A4
     static void _cctor();
-    // System.String <DidActivate>b__26_1(CentralLeaderboardViewController/LeaderboardPanel x)
-    // Offset: 0x13544C8
-    ::StringW $DidActivate$b__26_1(::GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel* x);
-    // HMUI.IconSegmentedControl/HMUI.DataItem <DidActivate>b__26_2(CentralLeaderboardViewController/ScoreScopeInfo x)
-    // Offset: 0x13544E0
-    ::HMUI::IconSegmentedControl::DataItem* $DidActivate$b__26_2(::GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo* x);
-    // System.String <LoadScoresAsync>b__37_0(GameplayModifierParamsSO m)
-    // Offset: 0x135455C
-    ::StringW $LoadScoresAsync$b__37_0(::GlobalNamespace::GameplayModifierParamsSO* m);
     // public System.Void .ctor()
-    // Offset: 0x13544C0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x133D708
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CentralLeaderboardViewController::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CentralLeaderboardViewController::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CentralLeaderboardViewController::$$c*, creationType>()));
     }
+    // System.String <DidActivate>b__26_1(CentralLeaderboardViewController/LeaderboardPanel x)
+    // Offset: 0x133D710
+    ::StringW $DidActivate$b__26_1(::GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel* x);
+    // HMUI.IconSegmentedControl/HMUI.DataItem <DidActivate>b__26_2(CentralLeaderboardViewController/ScoreScopeInfo x)
+    // Offset: 0x133D728
+    ::HMUI::IconSegmentedControl::DataItem* $DidActivate$b__26_2(::GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo* x);
+    // System.String <LoadScoresAsync>b__37_0(GameplayModifierParamsSO m)
+    // Offset: 0x133D7A4
+    ::StringW $LoadScoresAsync$b__37_0(::GlobalNamespace::GameplayModifierParamsSO* m);
   }; // CentralLeaderboardViewController/<>c
   #pragma pack(pop)
 }
@@ -89,6 +87,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CentralLeaderboardViewController::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::CentralLeaderboardViewController::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CentralLeaderboardViewController::$$c::$DidActivate$b__26_1
 // Il2CppName: <DidActivate>b__26_1
 template<>
@@ -116,7 +118,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CentralLeaderboardViewController::$$c*), "<LoadScoresAsync>b__37_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CentralLeaderboardViewController::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

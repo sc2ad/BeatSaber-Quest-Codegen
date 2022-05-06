@@ -24,15 +24,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
   // [TokenAttribute] Offset: FFFFFFFF
   class Ed448::PointExt : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.UInt32[] x
     // Size: 0x8
     // Offset: 0x10
@@ -53,15 +45,13 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     static_assert(sizeof(::ArrayW<uint>) == 0x8);
     public:
     // Get instance field reference: System.UInt32[] x
-    ::ArrayW<uint>& dyn_x();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_x();
     // Get instance field reference: System.UInt32[] y
-    ::ArrayW<uint>& dyn_y();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_y();
     // Get instance field reference: System.UInt32[] z
-    ::ArrayW<uint>& dyn_z();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_z();
     // public System.Void .ctor()
-    // Offset: 0x229B7E8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x22E605C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ed448::PointExt* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt::.ctor");

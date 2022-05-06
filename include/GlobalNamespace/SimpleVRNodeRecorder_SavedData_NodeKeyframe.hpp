@@ -27,15 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SimpleVRNodeRecorder::SavedData::NodeKeyframe : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single posX
     // Size: 0x4
     // Offset: 0x10
@@ -86,29 +78,29 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public System.Single posX
-    float& dyn_posX();
+    [[deprecated("Use field access instead!")]] float& dyn_posX();
     // Get instance field reference: public System.Single posY
-    float& dyn_posY();
+    [[deprecated("Use field access instead!")]] float& dyn_posY();
     // Get instance field reference: public System.Single posZ
-    float& dyn_posZ();
+    [[deprecated("Use field access instead!")]] float& dyn_posZ();
     // Get instance field reference: public System.Single rotX
-    float& dyn_rotX();
+    [[deprecated("Use field access instead!")]] float& dyn_rotX();
     // Get instance field reference: public System.Single rotY
-    float& dyn_rotY();
+    [[deprecated("Use field access instead!")]] float& dyn_rotY();
     // Get instance field reference: public System.Single rotZ
-    float& dyn_rotZ();
+    [[deprecated("Use field access instead!")]] float& dyn_rotZ();
     // Get instance field reference: public System.Single rotW
-    float& dyn_rotW();
+    [[deprecated("Use field access instead!")]] float& dyn_rotW();
     // Get instance field reference: public System.Single time
-    float& dyn_time();
+    [[deprecated("Use field access instead!")]] float& dyn_time();
     // public UnityEngine.Vector3 get_pos()
-    // Offset: 0x2A9BDDC
+    // Offset: 0x1382A00
     ::UnityEngine::Vector3 get_pos();
     // public UnityEngine.Quaternion get_rot()
-    // Offset: 0x2A9BE18
+    // Offset: 0x1382A3C
     ::UnityEngine::Quaternion get_rot();
     // public System.Void .ctor(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot, System.Single time)
-    // Offset: 0x2A9BE50
+    // Offset: 0x1382480
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleVRNodeRecorder::SavedData::NodeKeyframe* New_ctor(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot, float time) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::.ctor");

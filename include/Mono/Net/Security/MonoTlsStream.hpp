@@ -55,15 +55,7 @@ namespace Mono::Net::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoTlsStream : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Mono.Security.Interface.MonoTlsProvider provider
     // Size: 0x8
     // Offset: 0x10
@@ -108,40 +100,40 @@ namespace Mono::Net::Security {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private readonly Mono.Security.Interface.MonoTlsProvider provider
-    ::Mono::Security::Interface::MonoTlsProvider*& dyn_provider();
+    [[deprecated("Use field access instead!")]] ::Mono::Security::Interface::MonoTlsProvider*& dyn_provider();
     // Get instance field reference: private readonly System.Net.Sockets.NetworkStream networkStream
-    ::System::Net::Sockets::NetworkStream*& dyn_networkStream();
+    [[deprecated("Use field access instead!")]] ::System::Net::Sockets::NetworkStream*& dyn_networkStream();
     // Get instance field reference: private readonly System.Net.HttpWebRequest request
-    ::System::Net::HttpWebRequest*& dyn_request();
+    [[deprecated("Use field access instead!")]] ::System::Net::HttpWebRequest*& dyn_request();
     // Get instance field reference: private readonly Mono.Security.Interface.MonoTlsSettings settings
-    ::Mono::Security::Interface::MonoTlsSettings*& dyn_settings();
+    [[deprecated("Use field access instead!")]] ::Mono::Security::Interface::MonoTlsSettings*& dyn_settings();
     // Get instance field reference: private Mono.Security.Interface.IMonoSslStream sslStream
-    ::Mono::Security::Interface::IMonoSslStream*& dyn_sslStream();
+    [[deprecated("Use field access instead!")]] ::Mono::Security::Interface::IMonoSslStream*& dyn_sslStream();
     // Get instance field reference: private System.Net.WebExceptionStatus status
-    ::System::Net::WebExceptionStatus& dyn_status();
+    [[deprecated("Use field access instead!")]] ::System::Net::WebExceptionStatus& dyn_status();
     // Get instance field reference: private System.Boolean <CertificateValidationFailed>k__BackingField
-    bool& dyn_$CertificateValidationFailed$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$CertificateValidationFailed$k__BackingField();
     // System.Net.HttpWebRequest get_Request()
-    // Offset: 0x1AA2D44
+    // Offset: 0x1ADD32C
     ::System::Net::HttpWebRequest* get_Request();
     // System.Net.WebExceptionStatus get_ExceptionStatus()
-    // Offset: 0x1AA2D4C
+    // Offset: 0x1ADD334
     ::System::Net::WebExceptionStatus get_ExceptionStatus();
     // System.Boolean get_CertificateValidationFailed()
-    // Offset: 0x1AA2D54
+    // Offset: 0x1ADD33C
     bool get_CertificateValidationFailed();
     // System.Void set_CertificateValidationFailed(System.Boolean value)
-    // Offset: 0x1AA2D5C
+    // Offset: 0x1ADD344
     void set_CertificateValidationFailed(bool value);
     // public System.Void .ctor(System.Net.HttpWebRequest request, System.Net.Sockets.NetworkStream networkStream)
-    // Offset: 0x1AA2D68
+    // Offset: 0x1ADD350
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoTlsStream* New_ctor(::System::Net::HttpWebRequest* request, ::System::Net::Sockets::NetworkStream* networkStream) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::Security::MonoTlsStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoTlsStream*, creationType>(request, networkStream)));
     }
     // System.IO.Stream CreateStream(System.Byte[] buffer)
-    // Offset: 0x1AA2E1C
+    // Offset: 0x1ADD404
     ::System::IO::Stream* CreateStream(::ArrayW<uint8_t> buffer);
   }; // Mono.Net.Security.MonoTlsStream
   #pragma pack(pop)

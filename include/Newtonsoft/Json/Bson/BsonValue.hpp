@@ -31,15 +31,7 @@ namespace Newtonsoft::Json::Bson {
   // [PreserveAttribute] Offset: FFFFFFFF
   class BsonValue : public ::Newtonsoft::Json::Bson::BsonToken {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Object _value
     // Size: 0x8
     // Offset: 0x18
@@ -56,18 +48,18 @@ namespace Newtonsoft::Json::Bson {
     // Deleting conversion operator: operator ::Newtonsoft::Json::Bson::BsonToken*
     constexpr operator ::Newtonsoft::Json::Bson::BsonToken*() const noexcept = delete;
     // Get instance field reference: private readonly System.Object _value
-    ::Il2CppObject*& dyn__value();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__value();
     // Get instance field reference: private readonly Newtonsoft.Json.Bson.BsonType _type
-    ::Newtonsoft::Json::Bson::BsonType& dyn__type();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Bson::BsonType& dyn__type();
     // public System.Void .ctor(System.Object value, Newtonsoft.Json.Bson.BsonType type)
-    // Offset: 0x17799F0
+    // Offset: 0x17B3300
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BsonValue* New_ctor(::Il2CppObject* value, ::Newtonsoft::Json::Bson::BsonType type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Bson::BsonValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BsonValue*, creationType>(value, type)));
     }
     // public override Newtonsoft.Json.Bson.BsonType get_Type()
-    // Offset: 0x1779A34
+    // Offset: 0x17B3344
     // Implemented from: Newtonsoft.Json.Bson.BsonToken
     // Base method: Newtonsoft.Json.Bson.BsonType BsonToken::get_Type()
     ::Newtonsoft::Json::Bson::BsonType get_Type();

@@ -51,7 +51,7 @@ namespace BeatmapSaveDataVersion3 {
     // Set static field: static public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.Axis Y
     static void _set_Y(::BeatmapSaveDataVersion3::BeatmapSaveData::Axis value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.Axis
   #pragma pack(pop)
   static check_size<sizeof(BeatmapSaveData::Axis), 0 + sizeof(int)> __BeatmapSaveDataVersion3_BeatmapSaveData_AxisSizeCheck;

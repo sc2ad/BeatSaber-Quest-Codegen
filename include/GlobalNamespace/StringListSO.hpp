@@ -30,16 +30,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StringListSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [ReorderableAttribute] Offset: 0x1225D60
+    // [ReorderableAttribute] Offset: 0x10AA778
     // private System.String[] _strings
     // Size: 0x8
     // Offset: 0x18
@@ -50,17 +42,14 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String[] _strings
-    ::ArrayW<::StringW>& dyn__strings();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn__strings();
     // public System.String[] get_strings()
-    // Offset: 0x29D7CA8
+    // Offset: 0x2A2A1B8
     ::ArrayW<::StringW> get_strings();
     // public System.Void .ctor()
-    // Offset: 0x29D7CB0
+    // Offset: 0x2A2A1C0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringListSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StringListSO::.ctor");

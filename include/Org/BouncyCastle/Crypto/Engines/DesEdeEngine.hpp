@@ -37,15 +37,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class DesEdeEngine : public ::Org::BouncyCastle::Crypto::Engines::DesEngine {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32[] workingKey1
     // Size: 0x8
     // Offset: 0x18
@@ -74,45 +66,44 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Deleting conversion operator: operator ::ArrayW<int>
     constexpr operator ::ArrayW<int>() const noexcept = delete;
     // Get instance field reference: private System.Int32[] workingKey1
-    ::ArrayW<int>& dyn_workingKey1();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_workingKey1();
     // Get instance field reference: private System.Int32[] workingKey2
-    ::ArrayW<int>& dyn_workingKey2();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_workingKey2();
     // Get instance field reference: private System.Int32[] workingKey3
-    ::ArrayW<int>& dyn_workingKey3();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_workingKey3();
     // Get instance field reference: private System.Boolean forEncryption
-    bool& dyn_forEncryption();
+    [[deprecated("Use field access instead!")]] bool& dyn_forEncryption();
     // public override System.String get_AlgorithmName()
-    // Offset: 0x2328950
+    // Offset: 0x23721C4
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.String DesEngine::get_AlgorithmName()
     ::StringW get_AlgorithmName();
     // public System.Void .ctor()
-    // Offset: 0x2328FD0
+    // Offset: 0x2372844
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.Void DesEngine::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DesEdeEngine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::DesEdeEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DesEdeEngine*, creationType>()));
     }
     // public override System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x2328138
+    // Offset: 0x23719AC
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.Void DesEngine::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public override System.Int32 GetBlockSize()
-    // Offset: 0x2328998
+    // Offset: 0x237220C
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.Int32 DesEngine::GetBlockSize()
     int GetBlockSize();
     // public override System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x23289A0
+    // Offset: 0x2372214
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.Int32 DesEngine::ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public override System.Void Reset()
-    // Offset: 0x2328FCC
+    // Offset: 0x2372840
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.Void DesEngine::Reset()
     void Reset();

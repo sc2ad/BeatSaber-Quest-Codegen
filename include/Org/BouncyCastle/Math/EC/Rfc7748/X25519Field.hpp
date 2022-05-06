@@ -28,76 +28,76 @@ namespace Org::BouncyCastle::Math::EC::Rfc7748 {
     // Set static field: static private readonly System.Int32[] RootNegOne
     static void _set_RootNegOne(::ArrayW<int> value);
     // static private System.Void .cctor()
-    // Offset: 0x2293D60
+    // Offset: 0x22DE5D4
     static void _cctor();
     // static public System.Void Add(System.Int32[] x, System.Int32[] y, System.Int32[] z)
-    // Offset: 0x2292740
+    // Offset: 0x22DCFB4
     static void Add(::ArrayW<int> x, ::ArrayW<int> y, ::ArrayW<int> z);
     // static public System.Void AddOne(System.Int32[] z)
-    // Offset: 0x22927C0
+    // Offset: 0x22DD034
     static void AddOne(::ArrayW<int> z);
     // static public System.Void Apm(System.Int32[] x, System.Int32[] y, System.Int32[] zp, System.Int32[] zm)
-    // Offset: 0x22927F8
+    // Offset: 0x22DD06C
     static void Apm(::ArrayW<int> x, ::ArrayW<int> y, ::ArrayW<int> zp, ::ArrayW<int> zm);
     // static public System.Void Carry(System.Int32[] z)
-    // Offset: 0x2292894
+    // Offset: 0x22DD108
     static void Carry(::ArrayW<int> z);
     // static public System.Void CMov(System.Int32 cond, System.Int32[] x, System.Int32 xOff, System.Int32[] z, System.Int32 zOff)
-    // Offset: 0x22929AC
+    // Offset: 0x22DD220
     static void CMov(int cond, ::ArrayW<int> x, int xOff, ::ArrayW<int> z, int zOff);
     // static public System.Void CNegate(System.Int32 negate, System.Int32[] z)
-    // Offset: 0x2292A38
+    // Offset: 0x22DD2AC
     static void CNegate(int negate, ::ArrayW<int> z);
     // static public System.Void Copy(System.Int32[] x, System.Int32 xOff, System.Int32[] z, System.Int32 zOff)
-    // Offset: 0x2292A94
+    // Offset: 0x22DD308
     static void Copy(::ArrayW<int> x, int xOff, ::ArrayW<int> z, int zOff);
     // static public System.Int32[] Create()
-    // Offset: 0x2292B10
+    // Offset: 0x22DD384
     static ::ArrayW<int> Create();
     // static public System.Void CSwap(System.Int32 swap, System.Int32[] a, System.Int32[] b)
-    // Offset: 0x2292B5C
+    // Offset: 0x22DD3D0
     static void CSwap(int swap, ::ArrayW<int> a, ::ArrayW<int> b);
     // static public System.Void Encode(System.Int32[] x, System.Byte[] z, System.Int32 zOff)
-    // Offset: 0x2292BE8
+    // Offset: 0x22DD45C
     static void Encode(::ArrayW<int> x, ::ArrayW<uint8_t> z, int zOff);
     // static private System.Void Encode128(System.Int32[] x, System.Int32 xOff, System.Byte[] bs, System.Int32 off)
-    // Offset: 0x2292C7C
+    // Offset: 0x22DD4F0
     static void Encode128(::ArrayW<int> x, int xOff, ::ArrayW<uint8_t> bs, int off);
     // static private System.Void Encode32(System.UInt32 n, System.Byte[] bs, System.Int32 off)
-    // Offset: 0x2292DC4
+    // Offset: 0x22DD638
     static void Encode32(uint n, ::ArrayW<uint8_t> bs, int off);
     // static public System.Void Inv(System.Int32[] x, System.Int32[] z)
-    // Offset: 0x2292E50
+    // Offset: 0x22DD6C4
     static void Inv(::ArrayW<int> x, ::ArrayW<int> z);
     // static public System.Int32 IsZero(System.Int32[] x)
-    // Offset: 0x22936F0
+    // Offset: 0x22DDF64
     static int IsZero(::ArrayW<int> x);
     // static public System.Void Mul(System.Int32[] x, System.Int32[] y, System.Int32[] z)
-    // Offset: 0x2293194
+    // Offset: 0x22DDA08
     static void Mul(::ArrayW<int> x, ::ArrayW<int> y, ::ArrayW<int> z);
     // static public System.Void Normalize(System.Int32[] z)
-    // Offset: 0x2293750
+    // Offset: 0x22DDFC4
     static void Normalize(::ArrayW<int> z);
     // static public System.Void One(System.Int32[] z)
-    // Offset: 0x22938B4
+    // Offset: 0x22DE128
     static void One(::ArrayW<int> z);
     // static private System.Void PowPm5d8(System.Int32[] x, System.Int32[] rx2, System.Int32[] rz)
-    // Offset: 0x2292EF8
+    // Offset: 0x22DD76C
     static void PowPm5d8(::ArrayW<int> x, ::ArrayW<int> rx2, ::ArrayW<int> rz);
     // static private System.Void Reduce(System.Int32[] z, System.Int32 x)
-    // Offset: 0x22937EC
+    // Offset: 0x22DE060
     static void Reduce(::ArrayW<int> z, int x);
     // static public System.Void Sqr(System.Int32[] x, System.Int32[] z)
-    // Offset: 0x2293910
+    // Offset: 0x22DE184
     static void Sqr(::ArrayW<int> x, ::ArrayW<int> z);
     // static public System.Void Sqr(System.Int32[] x, System.Int32 n, System.Int32[] z)
-    // Offset: 0x22930DC
+    // Offset: 0x22DD950
     static void Sqr(::ArrayW<int> x, int n, ::ArrayW<int> z);
     // static public System.Void Sub(System.Int32[] x, System.Int32[] y, System.Int32[] z)
-    // Offset: 0x2293C94
+    // Offset: 0x22DE508
     static void Sub(::ArrayW<int> x, ::ArrayW<int> y, ::ArrayW<int> z);
     // static public System.Void Zero(System.Int32[] z)
-    // Offset: 0x2293D14
+    // Offset: 0x22DE588
     static void Zero(::ArrayW<int> z);
   }; // Org.BouncyCastle.Math.EC.Rfc7748.X25519Field
   #pragma pack(pop)

@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class LevelFilteringNavigationController::$$c__DisplayClass53_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public IBeatmapLevelPack levelPack
     // Size: 0x8
     // Offset: 0x10
@@ -53,25 +45,27 @@ namespace GlobalNamespace {
       return levelPack;
     }
     // Get instance field reference: public IBeatmapLevelPack levelPack
-    ::GlobalNamespace::IBeatmapLevelPack*& dyn_levelPack();
-    // System.Boolean <SelectAnnotatedBeatmapLevelCollection>b__1(System.String packID)
-    // Offset: 0x13C1258
-    bool $SelectAnnotatedBeatmapLevelCollection$b__1(::StringW packID);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatmapLevelPack*& dyn_levelPack();
     // public System.Void .ctor()
-    // Offset: 0x13C0F70
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13BC41C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelFilteringNavigationController::$$c__DisplayClass53_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass53_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelFilteringNavigationController::$$c__DisplayClass53_0*, creationType>()));
     }
+    // System.Boolean <SelectAnnotatedBeatmapLevelCollection>b__1(System.String packID)
+    // Offset: 0x13BC704
+    bool $SelectAnnotatedBeatmapLevelCollection$b__1(::StringW packID);
   }; // LevelFilteringNavigationController/<>c__DisplayClass53_0
   #pragma pack(pop)
   static check_size<sizeof(LevelFilteringNavigationController::$$c__DisplayClass53_0), 16 + sizeof(::GlobalNamespace::IBeatmapLevelPack*)> __GlobalNamespace_LevelFilteringNavigationController_$$c__DisplayClass53_0SizeCheck;
   static_assert(sizeof(LevelFilteringNavigationController::$$c__DisplayClass53_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass53_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass53_0::$SelectAnnotatedBeatmapLevelCollection$b__1
 // Il2CppName: <SelectAnnotatedBeatmapLevelCollection>b__1
 template<>
@@ -81,7 +75,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass53_0*), "<SelectAnnotatedBeatmapLevelCollection>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packID});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass53_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

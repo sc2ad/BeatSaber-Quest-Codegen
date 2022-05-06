@@ -57,7 +57,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HEU_HoudiniAsset/HoudiniEngineUnity.AssetInstantiationMethod UNDO
     static void _set_UNDO(::HoudiniEngineUnity::HEU_HoudiniAsset::AssetInstantiationMethod value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HEU_HoudiniAsset/HoudiniEngineUnity.AssetInstantiationMethod
   #pragma pack(pop)
   static check_size<sizeof(HEU_HoudiniAsset::AssetInstantiationMethod), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_HoudiniAsset_AssetInstantiationMethodSizeCheck;

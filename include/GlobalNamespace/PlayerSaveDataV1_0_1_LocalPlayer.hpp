@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveDataV1_0_1::LocalPlayer : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String playerId
     // Size: 0x8
     // Offset: 0x10
@@ -105,29 +97,27 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData*) == 0x8);
     public:
     // Get instance field reference: public System.String playerId
-    ::StringW& dyn_playerId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_playerId();
     // Get instance field reference: public System.String playerName
-    ::StringW& dyn_playerName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_playerName();
     // Get instance field reference: public System.Boolean shouldShowTutorialPrompt
-    bool& dyn_shouldShowTutorialPrompt();
+    [[deprecated("Use field access instead!")]] bool& dyn_shouldShowTutorialPrompt();
     // Get instance field reference: public PlayerSaveDataV1_0_1/GameplayModifiers gameplayModifiers
-    ::GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers*& dyn_gameplayModifiers();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers*& dyn_gameplayModifiers();
     // Get instance field reference: public PlayerSaveDataV1_0_1/PlayerSpecificSettings playerSpecificSettings
-    ::GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings*& dyn_playerSpecificSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings*& dyn_playerSpecificSettings();
     // Get instance field reference: public PlayerSaveDataV1_0_1/PlayerAllOverallStatsData playerAllOverallStatsData
-    ::GlobalNamespace::PlayerSaveDataV1_0_1::PlayerAllOverallStatsData*& dyn_playerAllOverallStatsData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSaveDataV1_0_1::PlayerAllOverallStatsData*& dyn_playerAllOverallStatsData();
     // Get instance field reference: public System.Collections.Generic.List`1<PlayerSaveDataV1_0_1/PlayerLevelStatsData> levelsStatsData
-    ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveDataV1_0_1::PlayerLevelStatsData*>*& dyn_levelsStatsData();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveDataV1_0_1::PlayerLevelStatsData*>*& dyn_levelsStatsData();
     // Get instance field reference: public System.Collections.Generic.List`1<PlayerSaveDataV1_0_1/PlayerMissionStatsData> missionsStatsData
-    ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveDataV1_0_1::PlayerMissionStatsData*>*& dyn_missionsStatsData();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveDataV1_0_1::PlayerMissionStatsData*>*& dyn_missionsStatsData();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> showedMissionHelpIds
-    ::System::Collections::Generic::List_1<::StringW>*& dyn_showedMissionHelpIds();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn_showedMissionHelpIds();
     // Get instance field reference: public PlayerSaveDataV1_0_1/AchievementsData achievementsData
-    ::GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData*& dyn_achievementsData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData*& dyn_achievementsData();
     // public System.Void .ctor()
-    // Offset: 0x13716FC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D8D58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveDataV1_0_1::LocalPlayer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveDataV1_0_1::LocalPlayer::.ctor");

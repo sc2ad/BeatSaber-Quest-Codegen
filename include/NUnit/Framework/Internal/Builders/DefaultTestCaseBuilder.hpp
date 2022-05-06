@@ -53,15 +53,7 @@ namespace NUnit::Framework::Internal::Builders {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultTestCaseBuilder : public ::Il2CppObject/*, public ::NUnit::Framework::Interfaces::ITestCaseBuilder*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private NUnit.Framework.Internal.Builders.NUnitTestCaseBuilder _nunitTestCaseBuilder
     // Size: 0x8
     // Offset: 0x10
@@ -78,37 +70,39 @@ namespace NUnit::Framework::Internal::Builders {
       return nunitTestCaseBuilder;
     }
     // Get instance field reference: private NUnit.Framework.Internal.Builders.NUnitTestCaseBuilder _nunitTestCaseBuilder
-    ::NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*& dyn__nunitTestCaseBuilder();
-    // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.IMethodInfo method)
-    // Offset: 0x1C49814
-    bool CanBuildFrom(::NUnit::Framework::Interfaces::IMethodInfo* method);
-    // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite)
-    // Offset: 0x1C49974
-    bool CanBuildFrom(::NUnit::Framework::Interfaces::IMethodInfo* method, ::NUnit::Framework::Internal::Test* parentSuite);
-    // public NUnit.Framework.Internal.Test BuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite)
-    // Offset: 0x1C49978
-    ::NUnit::Framework::Internal::Test* BuildFrom(::NUnit::Framework::Interfaces::IMethodInfo* method, ::NUnit::Framework::Internal::Test* parentSuite);
-    // private NUnit.Framework.Internal.Test BuildParameterizedMethodSuite(NUnit.Framework.Interfaces.IMethodInfo method, System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestMethod> tests)
-    // Offset: 0x1C4A17C
-    ::NUnit::Framework::Internal::Test* BuildParameterizedMethodSuite(::NUnit::Framework::Interfaces::IMethodInfo* method, ::System::Collections::Generic::IEnumerable_1<::NUnit::Framework::Internal::TestMethod*>* tests);
-    // private NUnit.Framework.Internal.Test BuildSingleTestMethod(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test suite)
-    // Offset: 0x1C49FF0
-    ::NUnit::Framework::Internal::Test* BuildSingleTestMethod(::NUnit::Framework::Interfaces::IMethodInfo* method, ::NUnit::Framework::Internal::Test* suite);
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*& dyn__nunitTestCaseBuilder();
     // public System.Void .ctor()
-    // Offset: 0x1C4A480
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1CA2A18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultTestCaseBuilder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultTestCaseBuilder*, creationType>()));
     }
+    // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.IMethodInfo method)
+    // Offset: 0x1CA1DAC
+    bool CanBuildFrom(::NUnit::Framework::Interfaces::IMethodInfo* method);
+    // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite)
+    // Offset: 0x1CA1F0C
+    bool CanBuildFrom(::NUnit::Framework::Interfaces::IMethodInfo* method, ::NUnit::Framework::Internal::Test* parentSuite);
+    // public NUnit.Framework.Internal.Test BuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite)
+    // Offset: 0x1CA1F10
+    ::NUnit::Framework::Internal::Test* BuildFrom(::NUnit::Framework::Interfaces::IMethodInfo* method, ::NUnit::Framework::Internal::Test* parentSuite);
+    // private NUnit.Framework.Internal.Test BuildParameterizedMethodSuite(NUnit.Framework.Interfaces.IMethodInfo method, System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestMethod> tests)
+    // Offset: 0x1CA2714
+    ::NUnit::Framework::Internal::Test* BuildParameterizedMethodSuite(::NUnit::Framework::Interfaces::IMethodInfo* method, ::System::Collections::Generic::IEnumerable_1<::NUnit::Framework::Internal::TestMethod*>* tests);
+    // private NUnit.Framework.Internal.Test BuildSingleTestMethod(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test suite)
+    // Offset: 0x1CA2588
+    ::NUnit::Framework::Internal::Test* BuildSingleTestMethod(::NUnit::Framework::Interfaces::IMethodInfo* method, ::NUnit::Framework::Internal::Test* suite);
   }; // NUnit.Framework.Internal.Builders.DefaultTestCaseBuilder
   #pragma pack(pop)
   static check_size<sizeof(DefaultTestCaseBuilder), 16 + sizeof(::NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*)> __NUnit_Framework_Internal_Builders_DefaultTestCaseBuilderSizeCheck;
   static_assert(sizeof(DefaultTestCaseBuilder) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder::CanBuildFrom
 // Il2CppName: CanBuildFrom
 template<>
@@ -158,7 +152,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Fr
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder*), "BuildSingleTestMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method, suite});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

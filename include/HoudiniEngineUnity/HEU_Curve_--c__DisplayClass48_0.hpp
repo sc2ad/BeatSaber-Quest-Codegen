@@ -39,15 +39,7 @@ namespace HoudiniEngineUnity {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class HEU_Curve::$$c__DisplayClass48_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Collections.Generic.List`1<UnityEngine.Vector3> points
     // Size: 0x8
     // Offset: 0x10
@@ -60,25 +52,27 @@ namespace HoudiniEngineUnity {
       return points;
     }
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector3> points
-    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn_points();
-    // System.Void <GetAllPoints>b__0(HoudiniEngineUnity.CurveNodeData transform)
-    // Offset: 0x1749258
-    void $GetAllPoints$b__0(::HoudiniEngineUnity::CurveNodeData* transform);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn_points();
     // public System.Void .ctor()
-    // Offset: 0x1749250
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1781B60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_Curve::$$c__DisplayClass48_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass48_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_Curve::$$c__DisplayClass48_0*, creationType>()));
     }
+    // System.Void <GetAllPoints>b__0(HoudiniEngineUnity.CurveNodeData transform)
+    // Offset: 0x1781B68
+    void $GetAllPoints$b__0(::HoudiniEngineUnity::CurveNodeData* transform);
   }; // HoudiniEngineUnity.HEU_Curve/HoudiniEngineUnity.<>c__DisplayClass48_0
   #pragma pack(pop)
   static check_size<sizeof(HEU_Curve::$$c__DisplayClass48_0), 16 + sizeof(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*)> __HoudiniEngineUnity_HEU_Curve_$$c__DisplayClass48_0SizeCheck;
   static_assert(sizeof(HEU_Curve::$$c__DisplayClass48_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass48_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass48_0::$GetAllPoints$b__0
 // Il2CppName: <GetAllPoints>b__0
 template<>
@@ -88,7 +82,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass48_0*), "<GetAllPoints>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transform});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass48_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

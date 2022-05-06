@@ -41,15 +41,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerConnectedPlayerEffectsSpawner : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private NoteDebrisSpawner _noteDebrisSpawner
     // Size: 0x8
     // Offset: 0x18
@@ -62,7 +54,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BombExplosionEffect* bombExplosionEffect;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BombExplosionEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253820
+    // [InjectAttribute] Offset: 0x10D8404
     // private readonly IConnectedPlayerBeatmapObjectEventManager _beatmapObjectEventManager
     // Size: 0x8
     // Offset: 0x28
@@ -73,39 +65,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private NoteDebrisSpawner _noteDebrisSpawner
-    ::GlobalNamespace::NoteDebrisSpawner*& dyn__noteDebrisSpawner();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteDebrisSpawner*& dyn__noteDebrisSpawner();
     // Get instance field reference: private BombExplosionEffect _bombExplosionEffect
-    ::GlobalNamespace::BombExplosionEffect*& dyn__bombExplosionEffect();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BombExplosionEffect*& dyn__bombExplosionEffect();
     // Get instance field reference: private readonly IConnectedPlayerBeatmapObjectEventManager _beatmapObjectEventManager
-    ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*& dyn__beatmapObjectEventManager();
-    // protected System.Void Start()
-    // Offset: 0x13D320C
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13D3300
-    void OnDestroy();
-    // private System.Void HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut(NoteCutInfoNetSerializable noteCutInfo)
-    // Offset: 0x13D3400
-    void HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut(::GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*& dyn__beatmapObjectEventManager();
     // public System.Void .ctor()
-    // Offset: 0x13D360C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13CFAB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerEffectsSpawner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerEffectsSpawner*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x13CF6B8
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13CF7AC
+    void OnDestroy();
+    // private System.Void HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut(NoteCutInfoNetSerializable noteCutInfo)
+    // Offset: 0x13CF8AC
+    void HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut(::GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
   }; // MultiplayerConnectedPlayerEffectsSpawner
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerEffectsSpawner), 40 + sizeof(::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*)> __GlobalNamespace_MultiplayerConnectedPlayerEffectsSpawnerSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerEffectsSpawner) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::Start
 // Il2CppName: Start
 template<>
@@ -131,7 +121,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner*), "HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteCutInfo});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

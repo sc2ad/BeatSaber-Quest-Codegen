@@ -78,7 +78,7 @@ namespace GlobalNamespace {
       // Set static field: static public LevelDataAssetDownloadUpdate/AssetDownloadingState Completed
       static void _set_Completed(::GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // LevelDataAssetDownloadUpdate/AssetDownloadingState
     #pragma pack(pop)
     static check_size<sizeof(LevelDataAssetDownloadUpdate::AssetDownloadingState), 0 + sizeof(int)> __GlobalNamespace_LevelDataAssetDownloadUpdate_AssetDownloadingStateSizeCheck;
@@ -116,15 +116,15 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public readonly System.String levelID
-    ::StringW& dyn_levelID();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_levelID();
     // Get instance field reference: public readonly System.UInt32 bytesTotal
-    uint& dyn_bytesTotal();
+    [[deprecated("Use field access instead!")]] uint& dyn_bytesTotal();
     // Get instance field reference: public readonly System.UInt32 bytesTransferred
-    uint& dyn_bytesTransferred();
+    [[deprecated("Use field access instead!")]] uint& dyn_bytesTransferred();
     // Get instance field reference: public readonly LevelDataAssetDownloadUpdate/AssetDownloadingState assetDownloadingState
-    ::GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState& dyn_assetDownloadingState();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState& dyn_assetDownloadingState();
     // public System.Void .ctor(System.String levelID, System.UInt32 bytesTotal, System.UInt32 bytesTransferred, LevelDataAssetDownloadUpdate/AssetDownloadingState assetDownloadingState)
-    // Offset: 0x13BEE94
+    // Offset: 0x13BA340
     // ABORTED: conflicts with another method.  LevelDataAssetDownloadUpdate(::StringW levelID, uint bytesTotal, uint bytesTransferred, ::GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState);
   }; // LevelDataAssetDownloadUpdate
   #pragma pack(pop)

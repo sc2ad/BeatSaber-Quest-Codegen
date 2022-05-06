@@ -45,6 +45,13 @@ namespace System::Xml::Schema {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlValueConverter : public ::Il2CppObject {
     public:
+    // protected System.Void .ctor()
+    // Offset: 0x2062928
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static XmlValueConverter* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlValueConverter::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<XmlValueConverter*, creationType>()));
+    }
     // public System.Boolean ToBoolean(System.Int64 value)
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool ToBoolean(int64_t value);
@@ -219,19 +226,14 @@ namespace System::Xml::Schema {
     // public System.Object ChangeType(System.Object value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* ChangeType(::Il2CppObject* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
-    // protected System.Void .ctor()
-    // Offset: 0x20190B4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlValueConverter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlValueConverter::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<XmlValueConverter*, creationType>()));
-    }
   }; // System.Xml.Schema.XmlValueConverter
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ToBoolean
 // Il2CppName: ToBoolean
 template<>
@@ -766,7 +768,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlValueConverter*), "ChangeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, destinationType, nsResolver});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

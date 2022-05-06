@@ -35,15 +35,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class FBIKChain::ChildConstraint : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single pushElasticity
     // Size: 0x4
     // Offset: 0x10
@@ -108,52 +100,52 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public System.Single pushElasticity
-    float& dyn_pushElasticity();
+    [[deprecated("Use field access instead!")]] float& dyn_pushElasticity();
     // Get instance field reference: public System.Single pullElasticity
-    float& dyn_pullElasticity();
+    [[deprecated("Use field access instead!")]] float& dyn_pullElasticity();
     // Get instance field reference: private UnityEngine.Transform bone1
-    ::UnityEngine::Transform*& dyn_bone1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_bone1();
     // Get instance field reference: private UnityEngine.Transform bone2
-    ::UnityEngine::Transform*& dyn_bone2();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_bone2();
     // Get instance field reference: private System.Single <nominalDistance>k__BackingField
-    float& dyn_$nominalDistance$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$nominalDistance$k__BackingField();
     // Get instance field reference: private System.Boolean <isRigid>k__BackingField
-    bool& dyn_$isRigid$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$isRigid$k__BackingField();
     // Get instance field reference: private System.Single crossFade
-    float& dyn_crossFade();
+    [[deprecated("Use field access instead!")]] float& dyn_crossFade();
     // Get instance field reference: private System.Single inverseCrossFade
-    float& dyn_inverseCrossFade();
+    [[deprecated("Use field access instead!")]] float& dyn_inverseCrossFade();
     // Get instance field reference: private System.Int32 chain1Index
-    int& dyn_chain1Index();
+    [[deprecated("Use field access instead!")]] int& dyn_chain1Index();
     // Get instance field reference: private System.Int32 chain2Index
-    int& dyn_chain2Index();
+    [[deprecated("Use field access instead!")]] int& dyn_chain2Index();
     // public System.Single get_nominalDistance()
-    // Offset: 0x220C878
+    // Offset: 0x225A0EC
     float get_nominalDistance();
     // private System.Void set_nominalDistance(System.Single value)
-    // Offset: 0x220C880
+    // Offset: 0x225A0F4
     void set_nominalDistance(float value);
     // public System.Boolean get_isRigid()
-    // Offset: 0x220C888
+    // Offset: 0x225A0FC
     bool get_isRigid();
     // private System.Void set_isRigid(System.Boolean value)
-    // Offset: 0x220C890
+    // Offset: 0x225A104
     void set_isRigid(bool value);
     // public System.Void .ctor(UnityEngine.Transform bone1, UnityEngine.Transform bone2, System.Single pushElasticity, System.Single pullElasticity)
-    // Offset: 0x220C89C
+    // Offset: 0x225A110
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FBIKChain::ChildConstraint* New_ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, float pushElasticity, float pullElasticity) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::FBIKChain::ChildConstraint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FBIKChain::ChildConstraint*, creationType>(bone1, bone2, pushElasticity, pullElasticity)));
     }
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x220A5FC
+    // Offset: 0x2257E70
     void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void OnPreSolve(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x220AB3C
+    // Offset: 0x22583B0
     void OnPreSolve(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void Solve(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x220C574
+    // Offset: 0x2259DE8
     void Solve(::RootMotion::FinalIK::IKSolverFullBody* solver);
   }; // RootMotion.FinalIK.FBIKChain/RootMotion.FinalIK.ChildConstraint
   #pragma pack(pop)

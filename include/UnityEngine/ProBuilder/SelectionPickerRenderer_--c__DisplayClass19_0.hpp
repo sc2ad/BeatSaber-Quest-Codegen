@@ -34,15 +34,7 @@ namespace UnityEngine::ProBuilder {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SelectionPickerRenderer::$$c__DisplayClass19_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Vector3[] positions
     // Size: 0x8
     // Offset: 0x10
@@ -57,27 +49,29 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(::ArrayW<::UnityEngine::ProBuilder::SharedVertex*>) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.Vector3[] positions
-    ::ArrayW<::UnityEngine::Vector3>& dyn_positions();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn_positions();
     // Get instance field reference: public UnityEngine.ProBuilder.SharedVertex[] sharedVertices
-    ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*>& dyn_sharedVertices();
-    // System.Int32 <PickVerticesInRect>b__0(System.Int32 x)
-    // Offset: 0x1991BA8
-    int $PickVerticesInRect$b__0(int x);
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*>& dyn_sharedVertices();
     // public System.Void .ctor()
-    // Offset: 0x198FAF0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x19C90D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectionPickerRenderer::$$c__DisplayClass19_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::SelectionPickerRenderer::$$c__DisplayClass19_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectionPickerRenderer::$$c__DisplayClass19_0*, creationType>()));
     }
+    // System.Int32 <PickVerticesInRect>b__0(System.Int32 x)
+    // Offset: 0x19CB190
+    int $PickVerticesInRect$b__0(int x);
   }; // UnityEngine.ProBuilder.SelectionPickerRenderer/UnityEngine.ProBuilder.<>c__DisplayClass19_0
   #pragma pack(pop)
   static check_size<sizeof(SelectionPickerRenderer::$$c__DisplayClass19_0), 24 + sizeof(::ArrayW<::UnityEngine::ProBuilder::SharedVertex*>)> __UnityEngine_ProBuilder_SelectionPickerRenderer_$$c__DisplayClass19_0SizeCheck;
   static_assert(sizeof(SelectionPickerRenderer::$$c__DisplayClass19_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::$$c__DisplayClass19_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::$$c__DisplayClass19_0::$PickVerticesInRect$b__0
 // Il2CppName: <PickVerticesInRect>b__0
 template<>
@@ -87,7 +81,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectionPickerRenderer::$$c__DisplayClass19_0*), "<PickVerticesInRect>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::$$c__DisplayClass19_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

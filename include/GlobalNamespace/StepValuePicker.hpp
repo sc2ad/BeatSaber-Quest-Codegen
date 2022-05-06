@@ -46,15 +46,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StepValuePicker : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Button _decButton
     // Size: 0x8
     // Offset: 0x18
@@ -89,64 +81,58 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Button _decButton
-    ::UnityEngine::UI::Button*& dyn__decButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__decButton();
     // Get instance field reference: private UnityEngine.UI.Button _incButton
-    ::UnityEngine::UI::Button*& dyn__incButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__incButton();
     // Get instance field reference: private TMPro.TextMeshProUGUI _valueText
-    ::TMPro::TextMeshProUGUI*& dyn__valueText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__valueText();
     // Get instance field reference: private System.Action decButtonWasPressedEvent
-    ::System::Action*& dyn_decButtonWasPressedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_decButtonWasPressedEvent();
     // Get instance field reference: private System.Action incButtonWasPressedEvent
-    ::System::Action*& dyn_incButtonWasPressedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_incButtonWasPressedEvent();
     // public System.String get_text()
-    // Offset: 0x1337EC0
+    // Offset: 0x1419DF0
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x1337EDC
+    // Offset: 0x1419E0C
     void set_text(::StringW value);
     // public System.Void set_decButtonInteractable(System.Boolean value)
-    // Offset: 0x1337EF8
+    // Offset: 0x1419E28
     void set_decButtonInteractable(bool value);
     // public System.Void set_incButtonInteractable(System.Boolean value)
-    // Offset: 0x1337F18
+    // Offset: 0x1419E48
     void set_incButtonInteractable(bool value);
     // public System.Void add_decButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1337C30
+    // Offset: 0x1419B60
     void add_decButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_decButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1337CD4
+    // Offset: 0x1419C04
     void remove_decButtonWasPressedEvent(::System::Action* value);
     // public System.Void add_incButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1337D78
+    // Offset: 0x1419CA8
     void add_incButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_incButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1337E1C
+    // Offset: 0x1419D4C
     void remove_incButtonWasPressedEvent(::System::Action* value);
-    // protected System.Void OnEnable()
-    // Offset: 0x1337F38
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x1338010
-    void OnDisable();
-    // private System.Void IncButtonPressed()
-    // Offset: 0x13380E8
-    void IncButtonPressed();
-    // private System.Void DecButtonPressed()
-    // Offset: 0x13380FC
-    void DecButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0x1338110
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x141A040
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StepValuePicker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StepValuePicker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StepValuePicker*, creationType>()));
     }
+    // protected System.Void OnEnable()
+    // Offset: 0x1419E68
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x1419F40
+    void OnDisable();
+    // private System.Void IncButtonPressed()
+    // Offset: 0x141A018
+    void IncButtonPressed();
+    // private System.Void DecButtonPressed()
+    // Offset: 0x141A02C
+    void DecButtonPressed();
   }; // StepValuePicker
   #pragma pack(pop)
   static check_size<sizeof(StepValuePicker), 56 + sizeof(::System::Action*)> __GlobalNamespace_StepValuePickerSizeCheck;
@@ -224,6 +210,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), "remove_incButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -256,7 +246,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), "DecButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

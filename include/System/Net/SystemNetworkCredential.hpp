@@ -32,22 +32,24 @@ namespace System::Net {
     static ::System::Net::SystemNetworkCredential* _get_defaultCredential();
     // Set static field: static readonly System.Net.SystemNetworkCredential defaultCredential
     static void _set_defaultCredential(::System::Net::SystemNetworkCredential* value);
-    // static private System.Void .cctor()
-    // Offset: 0x1B1444C
-    static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x1B143E8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B4E9D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SystemNetworkCredential* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::SystemNetworkCredential::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SystemNetworkCredential*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1B4EA34
+    static void _cctor();
   }; // System.Net.SystemNetworkCredential
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Net::SystemNetworkCredential::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::SystemNetworkCredential::_cctor
 // Il2CppName: .cctor
 template<>
@@ -56,7 +58,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(System::Net::SystemNetworkCredential*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Net::SystemNetworkCredential::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -114,32 +114,32 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public MasterServerConnectionManager <>4__this
-    ::GlobalNamespace::MasterServerConnectionManager*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MasterServerConnectionManager*& dyn_$$4__this();
     // Get instance field reference: public System.Net.IPEndPoint remoteEndPoint
-    ::System::Net::IPEndPoint*& dyn_remoteEndPoint();
+    [[deprecated("Use field access instead!")]] ::System::Net::IPEndPoint*& dyn_remoteEndPoint();
     // Get instance field reference: public System.Byte[] preMasterSecret
-    ::ArrayW<uint8_t>& dyn_preMasterSecret();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_preMasterSecret();
     // Get instance field reference: public System.Byte[] remoteRandom
-    ::ArrayW<uint8_t>& dyn_remoteRandom();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_remoteRandom();
     // Get instance field reference: public System.Byte[] myRandom
-    ::ArrayW<uint8_t>& dyn_myRandom();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_myRandom();
     // Get instance field reference: public System.String remoteUserId
-    ::StringW& dyn_remoteUserId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_remoteUserId();
     // Get instance field reference: public System.String remoteUserName
-    ::StringW& dyn_remoteUserName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_remoteUserName();
     // Get instance field reference: public System.Boolean remoteUserIsConnectionOwner
-    bool& dyn_remoteUserIsConnectionOwner();
+    [[deprecated("Use field access instead!")]] bool& dyn_remoteUserIsConnectionOwner();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<EncryptionUtility/IEncryptionState> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EncryptionUtility::IEncryptionState*>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EncryptionUtility::IEncryptionState*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x16F9674
+    // Offset: 0x1731F84
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x16F99C4
+    // Offset: 0x17322D4
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServerConnectionManager/<ConnectToEndPoint>d__87
   // WARNING Not writing size check since size may be invalid!

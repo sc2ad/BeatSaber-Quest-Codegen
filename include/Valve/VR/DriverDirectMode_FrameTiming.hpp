@@ -62,15 +62,15 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt32 m_nSize
-    uint& dyn_m_nSize();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nSize();
     // Get instance field reference: public System.UInt32 m_nNumFramePresents
-    uint& dyn_m_nNumFramePresents();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nNumFramePresents();
     // Get instance field reference: public System.UInt32 m_nNumMisPresented
-    uint& dyn_m_nNumMisPresented();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nNumMisPresented();
     // Get instance field reference: public System.UInt32 m_nNumDroppedFrames
-    uint& dyn_m_nNumDroppedFrames();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nNumDroppedFrames();
     // Get instance field reference: public System.UInt32 m_nReprojectionFlags
-    uint& dyn_m_nReprojectionFlags();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nReprojectionFlags();
   }; // Valve.VR.DriverDirectMode_FrameTiming
   #pragma pack(pop)
   static check_size<sizeof(DriverDirectMode_FrameTiming), 16 + sizeof(uint)> __Valve_VR_DriverDirectMode_FrameTimingSizeCheck;

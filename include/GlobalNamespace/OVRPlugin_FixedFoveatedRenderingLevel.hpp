@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/FixedFoveatedRenderingLevel EnumSize
     static void _set_EnumSize(::GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVRPlugin/FixedFoveatedRenderingLevel
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::FixedFoveatedRenderingLevel), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_FixedFoveatedRenderingLevelSizeCheck;

@@ -38,15 +38,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BasicConnectionRequestHandler : public ::Il2CppObject/*, public ::GlobalNamespace::IConnectionRequestHandler*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String <secret>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -63,28 +55,26 @@ namespace GlobalNamespace {
       return secret;
     }
     // Get instance field reference: private System.String <secret>k__BackingField
-    ::StringW& dyn_$secret$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$secret$k__BackingField();
     // public System.String get_secret()
-    // Offset: 0x1503574
+    // Offset: 0x153AE7C
     ::StringW get_secret();
     // public System.Void set_secret(System.String value)
-    // Offset: 0x150357C
+    // Offset: 0x153AE84
     void set_secret(::StringW value);
-    // public System.Void GetConnectionMessage(LiteNetLib.Utils.NetDataWriter writer, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x1503584
-    void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
-    // public System.Boolean ValidateConnectionMessage(LiteNetLib.Utils.NetDataReader reader, out System.String userId, out System.String userName, out System.Boolean isConnectionOwner)
-    // Offset: 0x15035F8
-    bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner);
     // public System.Void .ctor()
-    // Offset: 0x15036B8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x153AFC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicConnectionRequestHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BasicConnectionRequestHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BasicConnectionRequestHandler*, creationType>()));
     }
+    // public System.Void GetConnectionMessage(LiteNetLib.Utils.NetDataWriter writer, System.String userId, System.String userName, System.Boolean isConnectionOwner)
+    // Offset: 0x153AE8C
+    void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
+    // public System.Boolean ValidateConnectionMessage(LiteNetLib.Utils.NetDataReader reader, out System.String userId, out System.String userName, out System.Boolean isConnectionOwner)
+    // Offset: 0x153AF00
+    bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner);
   }; // BasicConnectionRequestHandler
   #pragma pack(pop)
   static check_size<sizeof(BasicConnectionRequestHandler), 16 + sizeof(::StringW)> __GlobalNamespace_BasicConnectionRequestHandlerSizeCheck;
@@ -108,6 +98,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BasicConnectionRequestHandler*), "set_secret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BasicConnectionRequestHandler::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BasicConnectionRequestHandler::GetConnectionMessage
 // Il2CppName: GetConnectionMessage
 template<>
@@ -132,7 +126,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BasicConnectionRequestHandler*), "ValidateConnectionMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader, userId, userName, isConnectionOwner});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BasicConnectionRequestHandler::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

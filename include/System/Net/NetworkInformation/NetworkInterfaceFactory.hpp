@@ -42,25 +42,27 @@ namespace System::Net::NetworkInformation {
     class LinuxNetworkInterfaceAPI;
     // Nested type: ::System::Net::NetworkInformation::NetworkInterfaceFactory::Win32NetworkInterfaceAPI
     class Win32NetworkInterfaceAPI;
-    // public System.Net.NetworkInformation.NetworkInterface[] GetAllNetworkInterfaces()
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();
-    // static public System.Net.NetworkInformation.NetworkInterfaceFactory Create()
-    // Offset: 0x1B2AB58
-    static ::System::Net::NetworkInformation::NetworkInterfaceFactory* Create();
     // protected System.Void .ctor()
-    // Offset: 0x1B2AC88
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B65270
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkInterfaceFactory* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::NetworkInterfaceFactory::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkInterfaceFactory*, creationType>()));
     }
+    // public System.Net.NetworkInformation.NetworkInterface[] GetAllNetworkInterfaces()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();
+    // static public System.Net.NetworkInformation.NetworkInterfaceFactory Create()
+    // Offset: 0x1B65140
+    static ::System::Net::NetworkInformation::NetworkInterfaceFactory* Create();
   }; // System.Net.NetworkInformation.NetworkInterfaceFactory
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterfaceFactory::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterfaceFactory::GetAllNetworkInterfaces
 // Il2CppName: GetAllNetworkInterfaces
 template<>
@@ -77,7 +79,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::N
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterfaceFactory*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterfaceFactory::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

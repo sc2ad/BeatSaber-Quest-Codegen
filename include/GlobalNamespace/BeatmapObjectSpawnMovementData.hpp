@@ -56,24 +56,16 @@ namespace GlobalNamespace {
     struct SliderSpawnData;
     // Nested type: ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpValueType
     struct NoteJumpValueType;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [HeaderAttribute] Offset: 0x124ECFC
+    // [HeaderAttribute] Offset: 0x10D3830
     // private UnityEngine.Vector3 _centerPos
     // Size: 0xC
     // Offset: 0x10
     ::UnityEngine::Vector3 centerPos;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [HeaderAttribute] Offset: 0x124ED48
-    // [TooltipAttribute] Offset: 0x124ED48
+    // [HeaderAttribute] Offset: 0x10D387C
+    // [TooltipAttribute] Offset: 0x10D387C
     // private System.Single _maxHalfJumpDistance
     // Size: 0x4
     // Offset: 0x1C
@@ -104,7 +96,7 @@ namespace GlobalNamespace {
     float topLinesHighestJumpPosY;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x124EDF8
+    // [HeaderAttribute] Offset: 0x10D392C
     // private System.Single _moveSpeed
     // Size: 0x4
     // Offset: 0x30
@@ -117,7 +109,7 @@ namespace GlobalNamespace {
     float moveDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x124EE54
+    // [HeaderAttribute] Offset: 0x10D3988
     // private System.Single _verticalObstaclePosY
     // Size: 0x4
     // Offset: 0x38
@@ -222,126 +214,124 @@ namespace GlobalNamespace {
     // Set static field: static public System.Single kDefaultStartHalfJumpDurationInBeats
     static void _set_kDefaultStartHalfJumpDurationInBeats(float value);
     // Get instance field reference: private UnityEngine.Vector3 _centerPos
-    ::UnityEngine::Vector3& dyn__centerPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__centerPos();
     // Get instance field reference: private System.Single _maxHalfJumpDistance
-    float& dyn__maxHalfJumpDistance();
+    [[deprecated("Use field access instead!")]] float& dyn__maxHalfJumpDistance();
     // Get instance field reference: private System.Single _startHalfJumpDurationInBeats
-    float& dyn__startHalfJumpDurationInBeats();
+    [[deprecated("Use field access instead!")]] float& dyn__startHalfJumpDurationInBeats();
     // Get instance field reference: private System.Single _baseLinesHighestJumpPosY
-    float& dyn__baseLinesHighestJumpPosY();
+    [[deprecated("Use field access instead!")]] float& dyn__baseLinesHighestJumpPosY();
     // Get instance field reference: private System.Single _upperLinesHighestJumpPosY
-    float& dyn__upperLinesHighestJumpPosY();
+    [[deprecated("Use field access instead!")]] float& dyn__upperLinesHighestJumpPosY();
     // Get instance field reference: private System.Single _topLinesHighestJumpPosY
-    float& dyn__topLinesHighestJumpPosY();
+    [[deprecated("Use field access instead!")]] float& dyn__topLinesHighestJumpPosY();
     // Get instance field reference: private System.Single _moveSpeed
-    float& dyn__moveSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__moveSpeed();
     // Get instance field reference: private System.Single _moveDuration
-    float& dyn__moveDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__moveDuration();
     // Get instance field reference: private System.Single _verticalObstaclePosY
-    float& dyn__verticalObstaclePosY();
+    [[deprecated("Use field access instead!")]] float& dyn__verticalObstaclePosY();
     // Get instance field reference: private System.Single _obstacleTopPosY
-    float& dyn__obstacleTopPosY();
+    [[deprecated("Use field access instead!")]] float& dyn__obstacleTopPosY();
     // Get instance field reference: private System.Single _spawnAheadTime
-    float& dyn__spawnAheadTime();
+    [[deprecated("Use field access instead!")]] float& dyn__spawnAheadTime();
     // Get instance field reference: private System.Single _jumpDuration
-    float& dyn__jumpDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__jumpDuration();
     // Get instance field reference: private System.Single _noteJumpStartBeatOffset
-    float& dyn__noteJumpStartBeatOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__noteJumpStartBeatOffset();
     // Get instance field reference: private System.Single _noteJumpMovementSpeed
-    float& dyn__noteJumpMovementSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__noteJumpMovementSpeed();
     // Get instance field reference: private System.Single _jumpDistance
-    float& dyn__jumpDistance();
+    [[deprecated("Use field access instead!")]] float& dyn__jumpDistance();
     // Get instance field reference: private System.Single _moveDistance
-    float& dyn__moveDistance();
+    [[deprecated("Use field access instead!")]] float& dyn__moveDistance();
     // Get instance field reference: private UnityEngine.Vector3 _moveStartPos
-    ::UnityEngine::Vector3& dyn__moveStartPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__moveStartPos();
     // Get instance field reference: private UnityEngine.Vector3 _moveEndPos
-    ::UnityEngine::Vector3& dyn__moveEndPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__moveEndPos();
     // Get instance field reference: private UnityEngine.Vector3 _jumpEndPos
-    ::UnityEngine::Vector3& dyn__jumpEndPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__jumpEndPos();
     // Get instance field reference: private System.Int32 _noteLinesCount
-    int& dyn__noteLinesCount();
+    [[deprecated("Use field access instead!")]] int& dyn__noteLinesCount();
     // Get instance field reference: private IJumpOffsetYProvider _jumpOffsetYProvider
-    ::GlobalNamespace::IJumpOffsetYProvider*& dyn__jumpOffsetYProvider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IJumpOffsetYProvider*& dyn__jumpOffsetYProvider();
     // Get instance field reference: private UnityEngine.Vector3 _rightVec
-    ::UnityEngine::Vector3& dyn__rightVec();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__rightVec();
     // Get instance field reference: private UnityEngine.Vector3 _forwardVec
-    ::UnityEngine::Vector3& dyn__forwardVec();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__forwardVec();
     // public System.Single get_spawnAheadTime()
-    // Offset: 0x14D9DD4
+    // Offset: 0x15116DC
     float get_spawnAheadTime();
     // public System.Single get_moveDuration()
-    // Offset: 0x14D9DDC
+    // Offset: 0x15116E4
     float get_moveDuration();
     // public System.Single get_jumpDuration()
-    // Offset: 0x14D9DE4
+    // Offset: 0x15116EC
     float get_jumpDuration();
     // public System.Single get_noteLinesDistance()
-    // Offset: 0x14D89C4
+    // Offset: 0x15102CC
     float get_noteLinesDistance();
     // public System.Single get_verticalLayersDistance()
-    // Offset: 0x14D897C
+    // Offset: 0x1510284
     float get_verticalLayersDistance();
     // public System.Single get_jumpDistance()
-    // Offset: 0x14D9DEC
+    // Offset: 0x15116F4
     float get_jumpDistance();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x14D9DF4
+    // Offset: 0x15116FC
     float get_noteJumpMovementSpeed();
     // public System.Int32 get_noteLinesCount()
-    // Offset: 0x14D9DFC
+    // Offset: 0x1511704
     int get_noteLinesCount();
     // public UnityEngine.Vector3 get_centerPos()
-    // Offset: 0x14D9E04
+    // Offset: 0x151170C
     ::UnityEngine::Vector3 get_centerPos();
     // public System.Single get_jumpOffsetY()
-    // Offset: 0x14D8858
+    // Offset: 0x1510160
     float get_jumpOffsetY();
-    // public System.Void Init(System.Int32 noteLinesCount, System.Single startNoteJumpMovementSpeed, System.Single startBpm, BeatmapObjectSpawnMovementData/NoteJumpValueType noteJumpValueType, System.Single noteJumpValue, IJumpOffsetYProvider jumpOffsetYProvider, UnityEngine.Vector3 rightVec, UnityEngine.Vector3 forwardVec)
-    // Offset: 0x14D8E14
-    void Init(int noteLinesCount, float startNoteJumpMovementSpeed, float startBpm, ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpValueType noteJumpValueType, float noteJumpValue, ::GlobalNamespace::IJumpOffsetYProvider* jumpOffsetYProvider, ::UnityEngine::Vector3 rightVec, ::UnityEngine::Vector3 forwardVec);
-    // public BeatmapObjectSpawnMovementData/ObstacleSpawnData GetObstacleSpawnData(ObstacleData obstacleData)
-    // Offset: 0x14D920C
-    ::GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData GetObstacleSpawnData(::GlobalNamespace::ObstacleData* obstacleData);
-    // public BeatmapObjectSpawnMovementData/NoteSpawnData GetJumpingNoteSpawnData(NoteData noteData)
-    // Offset: 0x14D9594
-    ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData GetJumpingNoteSpawnData(::GlobalNamespace::NoteData* noteData);
-    // public BeatmapObjectSpawnMovementData/SliderSpawnData GetSliderSpawnData(SliderData sliderData)
-    // Offset: 0x14D98C4
-    ::GlobalNamespace::BeatmapObjectSpawnMovementData::SliderSpawnData GetSliderSpawnData(::GlobalNamespace::SliderData* sliderData);
-    // public UnityEngine.Vector3 GetNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x14D9F40
-    ::UnityEngine::Vector3 GetNoteOffset(int noteLineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
-    // public UnityEngine.Vector3 GetObstacleOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x14D9E10
-    ::UnityEngine::Vector3 GetObstacleOffset(int noteLineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
-    // public UnityEngine.Vector2 Get2DNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x14D9B9C
-    ::UnityEngine::Vector2 Get2DNoteOffset(int noteLineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
-    // public System.Single JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(NoteLineLayer lineLayer, System.Single distanceFromPlayer)
-    // Offset: 0x14D9BC8
-    float JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(::GlobalNamespace::NoteLineLayer lineLayer, float distanceFromPlayer);
-    // private System.Single HighestJumpPosYForLineLayer(NoteLineLayer lineLayer)
-    // Offset: 0x14DA128
-    float HighestJumpPosYForLineLayer(::GlobalNamespace::NoteLineLayer lineLayer);
-    // private System.Single HighestJumpPosYForLineLayerWithoutJumpOffset(NoteLineLayer lineLayer)
-    // Offset: 0x14DA2A4
-    float HighestJumpPosYForLineLayerWithoutJumpOffset(::GlobalNamespace::NoteLineLayer lineLayer);
-    // private System.Single NoteJumpGravityForLineLayer(NoteLineLayer lineLayer, NoteLineLayer beforeJumpLineLayer)
-    // Offset: 0x14DA068
-    float NoteJumpGravityForLineLayer(::GlobalNamespace::NoteLineLayer lineLayer, ::GlobalNamespace::NoteLineLayer beforeJumpLineLayer);
-    // private System.Single NoteJumpGravityForLineLayerWithoutJumpOffset(NoteLineLayer lineLayer, NoteLineLayer beforeJumpLineLayer)
-    // Offset: 0x14DA0C0
-    float NoteJumpGravityForLineLayerWithoutJumpOffset(::GlobalNamespace::NoteLineLayer lineLayer, ::GlobalNamespace::NoteLineLayer beforeJumpLineLayer);
     // public System.Void .ctor()
-    // Offset: 0x14D9CA8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15115B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectSpawnMovementData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectSpawnMovementData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectSpawnMovementData*, creationType>()));
     }
+    // public System.Void Init(System.Int32 noteLinesCount, System.Single startNoteJumpMovementSpeed, System.Single startBpm, BeatmapObjectSpawnMovementData/NoteJumpValueType noteJumpValueType, System.Single noteJumpValue, IJumpOffsetYProvider jumpOffsetYProvider, UnityEngine.Vector3 rightVec, UnityEngine.Vector3 forwardVec)
+    // Offset: 0x151071C
+    void Init(int noteLinesCount, float startNoteJumpMovementSpeed, float startBpm, ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpValueType noteJumpValueType, float noteJumpValue, ::GlobalNamespace::IJumpOffsetYProvider* jumpOffsetYProvider, ::UnityEngine::Vector3 rightVec, ::UnityEngine::Vector3 forwardVec);
+    // public BeatmapObjectSpawnMovementData/ObstacleSpawnData GetObstacleSpawnData(ObstacleData obstacleData)
+    // Offset: 0x1510B14
+    ::GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData GetObstacleSpawnData(::GlobalNamespace::ObstacleData* obstacleData);
+    // public BeatmapObjectSpawnMovementData/NoteSpawnData GetJumpingNoteSpawnData(NoteData noteData)
+    // Offset: 0x1510E9C
+    ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData GetJumpingNoteSpawnData(::GlobalNamespace::NoteData* noteData);
+    // public BeatmapObjectSpawnMovementData/SliderSpawnData GetSliderSpawnData(SliderData sliderData)
+    // Offset: 0x15111CC
+    ::GlobalNamespace::BeatmapObjectSpawnMovementData::SliderSpawnData GetSliderSpawnData(::GlobalNamespace::SliderData* sliderData);
+    // public UnityEngine.Vector3 GetNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
+    // Offset: 0x1511848
+    ::UnityEngine::Vector3 GetNoteOffset(int noteLineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
+    // public UnityEngine.Vector3 GetObstacleOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
+    // Offset: 0x1511718
+    ::UnityEngine::Vector3 GetObstacleOffset(int noteLineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
+    // public UnityEngine.Vector2 Get2DNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
+    // Offset: 0x15114A4
+    ::UnityEngine::Vector2 Get2DNoteOffset(int noteLineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
+    // public System.Single JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(NoteLineLayer lineLayer, System.Single distanceFromPlayer)
+    // Offset: 0x15114D0
+    float JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(::GlobalNamespace::NoteLineLayer lineLayer, float distanceFromPlayer);
+    // private System.Single HighestJumpPosYForLineLayer(NoteLineLayer lineLayer)
+    // Offset: 0x1511A30
+    float HighestJumpPosYForLineLayer(::GlobalNamespace::NoteLineLayer lineLayer);
+    // private System.Single HighestJumpPosYForLineLayerWithoutJumpOffset(NoteLineLayer lineLayer)
+    // Offset: 0x1511BAC
+    float HighestJumpPosYForLineLayerWithoutJumpOffset(::GlobalNamespace::NoteLineLayer lineLayer);
+    // private System.Single NoteJumpGravityForLineLayer(NoteLineLayer lineLayer, NoteLineLayer beforeJumpLineLayer)
+    // Offset: 0x1511970
+    float NoteJumpGravityForLineLayer(::GlobalNamespace::NoteLineLayer lineLayer, ::GlobalNamespace::NoteLineLayer beforeJumpLineLayer);
+    // private System.Single NoteJumpGravityForLineLayerWithoutJumpOffset(NoteLineLayer lineLayer, NoteLineLayer beforeJumpLineLayer)
+    // Offset: 0x15119C8
+    float NoteJumpGravityForLineLayerWithoutJumpOffset(::GlobalNamespace::NoteLineLayer lineLayer, ::GlobalNamespace::NoteLineLayer beforeJumpLineLayer);
   }; // BeatmapObjectSpawnMovementData
   #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectSpawnMovementData), 148 + sizeof(::UnityEngine::Vector3)> __GlobalNamespace_BeatmapObjectSpawnMovementDataSizeCheck;
@@ -428,6 +418,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "get_jumpOffsetY", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::Init
 // Il2CppName: Init
 template<>
@@ -549,7 +543,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "NoteJumpGravityForLineLayerWithoutJumpOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lineLayer, beforeJumpLineLayer});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

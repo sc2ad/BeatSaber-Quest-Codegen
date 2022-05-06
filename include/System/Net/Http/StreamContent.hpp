@@ -47,15 +47,7 @@ namespace System::Net::Http {
   // [TokenAttribute] Offset: FFFFFFFF
   class StreamContent : public ::System::Net::Http::HttpContent {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.IO.Stream content
     // Size: 0x8
     // Offset: 0x28
@@ -90,48 +82,48 @@ namespace System::Net::Http {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private readonly System.IO.Stream content
-    ::System::IO::Stream*& dyn_content();
+    [[deprecated("Use field access instead!")]] ::System::IO::Stream*& dyn_content();
     // Get instance field reference: private readonly System.Int32 bufferSize
-    int& dyn_bufferSize();
+    [[deprecated("Use field access instead!")]] int& dyn_bufferSize();
     // Get instance field reference: private readonly System.Threading.CancellationToken cancellationToken
-    ::System::Threading::CancellationToken& dyn_cancellationToken();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: private readonly System.Int64 startPosition
-    int64_t& dyn_startPosition();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_startPosition();
     // Get instance field reference: private System.Boolean contentCopied
-    bool& dyn_contentCopied();
+    [[deprecated("Use field access instead!")]] bool& dyn_contentCopied();
     // public System.Void .ctor(System.IO.Stream content)
-    // Offset: 0x1967A8C
+    // Offset: 0x19A0074
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamContent* New_ctor(::System::IO::Stream* content) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::StreamContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamContent*, creationType>(content)));
     }
     // public System.Void .ctor(System.IO.Stream content, System.Int32 bufferSize)
-    // Offset: 0x1967A94
+    // Offset: 0x19A007C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamContent* New_ctor(::System::IO::Stream* content, int bufferSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::StreamContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamContent*, creationType>(content, bufferSize)));
     }
     // System.Void .ctor(System.IO.Stream content, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1964B8C
+    // Offset: 0x199D174
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamContent* New_ctor(::System::IO::Stream* content, ::System::Threading::CancellationToken cancellationToken) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::StreamContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamContent*, creationType>(content, cancellationToken)));
     }
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1967B94
+    // Offset: 0x19A017C
     // Implemented from: System.Net.Http.HttpContent
     // Base method: System.Void HttpContent::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // protected internal override System.Threading.Tasks.Task SerializeToStreamAsync(System.IO.Stream stream, System.Net.TransportContext context)
-    // Offset: 0x1967BF0
+    // Offset: 0x19A01D8
     // Implemented from: System.Net.Http.HttpContent
     // Base method: System.Threading.Tasks.Task HttpContent::SerializeToStreamAsync(System.IO.Stream stream, System.Net.TransportContext context)
     ::System::Threading::Tasks::Task* SerializeToStreamAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
     // protected internal override System.Boolean TryComputeLength(out System.Int64 length)
-    // Offset: 0x1967CF0
+    // Offset: 0x19A02D8
     // Implemented from: System.Net.Http.HttpContent
     // Base method: System.Boolean HttpContent::TryComputeLength(out System.Int64 length)
     bool TryComputeLength(ByRef<int64_t> length);

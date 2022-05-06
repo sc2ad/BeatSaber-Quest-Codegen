@@ -96,7 +96,7 @@ namespace GlobalNamespace {
     // Set static field: static public OffsetDirection None
     static void _set_None(::GlobalNamespace::OffsetDirection value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OffsetDirection
   #pragma pack(pop)
   static check_size<sizeof(OffsetDirection), 0 + sizeof(int)> __GlobalNamespace_OffsetDirectionSizeCheck;

@@ -30,15 +30,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConsoleCancelEventArgs : public ::System::EventArgs {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.ConsoleSpecialKey _type
     // Size: 0x4
     // Offset: 0x10
@@ -53,21 +45,21 @@ namespace System {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.ConsoleSpecialKey _type
-    ::System::ConsoleSpecialKey& dyn__type();
+    [[deprecated("Use field access instead!")]] ::System::ConsoleSpecialKey& dyn__type();
     // Get instance field reference: private System.Boolean _cancel
-    bool& dyn__cancel();
+    [[deprecated("Use field access instead!")]] bool& dyn__cancel();
     // public System.Boolean get_Cancel()
-    // Offset: 0x1CCB6D0
+    // Offset: 0x1D06C28
     bool get_Cancel();
     // System.Void .ctor(System.ConsoleSpecialKey type)
-    // Offset: 0x1CCAB10
+    // Offset: 0x1D06068
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConsoleCancelEventArgs* New_ctor(::System::ConsoleSpecialKey type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ConsoleCancelEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConsoleCancelEventArgs*, creationType>(type)));
     }
     // System.Void .ctor()
-    // Offset: 0x1CCB6D8
+    // Offset: 0x1D06C30
     // Implemented from: System.EventArgs
     // Base method: System.Void EventArgs::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SongPreviewPlayer::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Single ambientVolumeScale
     // Size: 0x4
     // Offset: 0x10
@@ -44,9 +36,9 @@ namespace GlobalNamespace {
       return ambientVolumeScale;
     }
     // Get instance field reference: public readonly System.Single ambientVolumeScale
-    float& dyn_ambientVolumeScale();
+    [[deprecated("Use field access instead!")]] float& dyn_ambientVolumeScale();
     // public System.Void .ctor(System.Single ambientVolumeScale)
-    // Offset: 0x2AA7ED0
+    // Offset: 0x138EAF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPreviewPlayer::InitData* New_ctor(float ambientVolumeScale) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongPreviewPlayer::InitData::.ctor");

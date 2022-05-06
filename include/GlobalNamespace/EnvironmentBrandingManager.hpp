@@ -41,15 +41,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::EnvironmentBrandingManager::InitData
     class InitData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.GameObject[] _brandingObjects
     // Size: 0x8
     // Offset: 0x18
@@ -62,7 +54,7 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::GameObject*> replacementBrandingObjects;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::GameObject*>) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0x124E8F4
+    // [InjectOptionalAttribute] Offset: 0x10D3428
     // private readonly EnvironmentBrandingManager/InitData _initData
     // Size: 0x8
     // Offset: 0x28
@@ -73,33 +65,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.GameObject[] _brandingObjects
-    ::ArrayW<::UnityEngine::GameObject*>& dyn__brandingObjects();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::GameObject*>& dyn__brandingObjects();
     // Get instance field reference: private UnityEngine.GameObject[] _replacementBrandingObjects
-    ::ArrayW<::UnityEngine::GameObject*>& dyn__replacementBrandingObjects();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::GameObject*>& dyn__replacementBrandingObjects();
     // Get instance field reference: private readonly EnvironmentBrandingManager/InitData _initData
-    ::GlobalNamespace::EnvironmentBrandingManager::InitData*& dyn__initData();
-    // protected System.Void Start()
-    // Offset: 0x138370C
-    void Start();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentBrandingManager::InitData*& dyn__initData();
     // public System.Void .ctor()
-    // Offset: 0x13837E4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x136B3C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentBrandingManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentBrandingManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentBrandingManager*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x136B2E8
+    void Start();
   }; // EnvironmentBrandingManager
   #pragma pack(pop)
   static check_size<sizeof(EnvironmentBrandingManager), 40 + sizeof(::GlobalNamespace::EnvironmentBrandingManager::InitData*)> __GlobalNamespace_EnvironmentBrandingManagerSizeCheck;
   static_assert(sizeof(EnvironmentBrandingManager) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentBrandingManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentBrandingManager::Start
 // Il2CppName: Start
 template<>
@@ -108,7 +98,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentBrandingManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::EnvironmentBrandingManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

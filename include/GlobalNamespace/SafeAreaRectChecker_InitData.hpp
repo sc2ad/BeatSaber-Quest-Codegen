@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SafeAreaRectChecker::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Boolean checkingEnabled
     // Size: 0x1
     // Offset: 0x10
@@ -44,9 +36,9 @@ namespace GlobalNamespace {
       return checkingEnabled;
     }
     // Get instance field reference: public readonly System.Boolean checkingEnabled
-    bool& dyn_checkingEnabled();
+    [[deprecated("Use field access instead!")]] bool& dyn_checkingEnabled();
     // public System.Void .ctor(System.Boolean checkingEnabled)
-    // Offset: 0x1420C80
+    // Offset: 0x1462338
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeAreaRectChecker::InitData* New_ctor(bool checkingEnabled) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SafeAreaRectChecker::InitData::.ctor");

@@ -44,15 +44,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X9FieldID : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id
     // Size: 0x8
     // Offset: 0x10
@@ -67,48 +59,48 @@ namespace Org::BouncyCastle::Asn1::X9 {
     static_assert(sizeof(::Org::BouncyCastle::Asn1::Asn1Object*) == 0x8);
     public:
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id
-    ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_id();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_id();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Object parameters
-    ::Org::BouncyCastle::Asn1::Asn1Object*& dyn_parameters();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1Object*& dyn_parameters();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_Identifier()
-    // Offset: 0x1ED67A8
+    // Offset: 0x1F23CE0
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Identifier();
     // public Org.BouncyCastle.Asn1.Asn1Object get_Parameters()
-    // Offset: 0x1ED67B0
+    // Offset: 0x1F23CE8
     ::Org::BouncyCastle::Asn1::Asn1Object* get_Parameters();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger primeP)
-    // Offset: 0x1ED5CD4
+    // Offset: 0x1F2320C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9FieldID* New_ctor(::Org::BouncyCastle::Math::BigInteger* primeP) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X9::X9FieldID::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9FieldID*, creationType>(primeP)));
     }
     // public System.Void .ctor(System.Int32 m, System.Int32 k1)
-    // Offset: 0x1ED5D80
+    // Offset: 0x1F232B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9FieldID* New_ctor(int m, int k1) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X9::X9FieldID::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9FieldID*, creationType>(m, k1)));
     }
     // public System.Void .ctor(System.Int32 m, System.Int32 k1, System.Int32 k2, System.Int32 k3)
-    // Offset: 0x1ED5D8C
+    // Offset: 0x1F232C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9FieldID* New_ctor(int m, int k1, int k2, int k3) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X9::X9FieldID::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9FieldID*, creationType>(m, k1, k2, k3)));
     }
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1ED66D4
+    // Offset: 0x1F23C0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9FieldID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X9::X9FieldID::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9FieldID*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X9.X9FieldID GetInstance(System.Object obj)
-    // Offset: 0x1ED5BEC
+    // Offset: 0x1F23124
     static ::Org::BouncyCastle::Asn1::X9::X9FieldID* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1ED67B8
+    // Offset: 0x1F23CF0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

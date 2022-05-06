@@ -35,15 +35,7 @@ namespace System::Runtime::Remoting {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnvoyInfo : public ::Il2CppObject/*, public ::System::Runtime::Remoting::IEnvoyInfo*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Runtime.Remoting.Messaging.IMessageSink envoySinks
     // Size: 0x8
     // Offset: 0x10
@@ -60,12 +52,12 @@ namespace System::Runtime::Remoting {
       return envoySinks;
     }
     // Get instance field reference: private System.Runtime.Remoting.Messaging.IMessageSink envoySinks
-    ::System::Runtime::Remoting::Messaging::IMessageSink*& dyn_envoySinks();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Messaging::IMessageSink*& dyn_envoySinks();
     // public System.Runtime.Remoting.Messaging.IMessageSink get_EnvoySinks()
-    // Offset: 0x1C601B0
+    // Offset: 0x1C7D4BC
     ::System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySinks();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMessageSink sinks)
-    // Offset: 0x1C60184
+    // Offset: 0x1C7D490
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvoyInfo* New_ctor(::System::Runtime::Remoting::Messaging::IMessageSink* sinks) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::EnvoyInfo::.ctor");

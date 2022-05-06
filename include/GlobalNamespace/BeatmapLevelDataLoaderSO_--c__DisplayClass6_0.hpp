@@ -45,15 +45,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.AssetBundleCreateRequest assetBundleCreateRequest
     // Size: 0x8
     // Offset: 0x10
@@ -74,29 +66,31 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::BeatmapLevelDataSO*>*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.AssetBundleCreateRequest assetBundleCreateRequest
-    ::UnityEngine::AssetBundleCreateRequest*& dyn_assetBundleCreateRequest();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AssetBundleCreateRequest*& dyn_assetBundleCreateRequest();
     // Get instance field reference: public System.String levelDataAssetName
-    ::StringW& dyn_levelDataAssetName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_levelDataAssetName();
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<BeatmapLevelDataSO> taskSource
-    ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::BeatmapLevelDataSO*>*& dyn_taskSource();
-    // System.Void <LoadBeatmapLevelDataAsync>b__0(UnityEngine.AsyncOperation asyncOperation)
-    // Offset: 0x14CBC50
-    void $LoadBeatmapLevelDataAsync$b__0(::UnityEngine::AsyncOperation* asyncOperation);
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::BeatmapLevelDataSO*>*& dyn_taskSource();
     // public System.Void .ctor()
-    // Offset: 0x14CBC48
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1503550
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0*, creationType>()));
     }
+    // System.Void <LoadBeatmapLevelDataAsync>b__0(UnityEngine.AsyncOperation asyncOperation)
+    // Offset: 0x1503558
+    void $LoadBeatmapLevelDataAsync$b__0(::UnityEngine::AsyncOperation* asyncOperation);
   }; // BeatmapLevelDataLoaderSO/<>c__DisplayClass6_0
   #pragma pack(pop)
   static check_size<sizeof(BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0), 32 + sizeof(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::BeatmapLevelDataSO*>*)> __GlobalNamespace_BeatmapLevelDataLoaderSO_$$c__DisplayClass6_0SizeCheck;
   static_assert(sizeof(BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0::$LoadBeatmapLevelDataAsync$b__0
 // Il2CppName: <LoadBeatmapLevelDataAsync>b__0
 template<>
@@ -106,7 +100,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0*), "<LoadBeatmapLevelDataAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncOperation});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

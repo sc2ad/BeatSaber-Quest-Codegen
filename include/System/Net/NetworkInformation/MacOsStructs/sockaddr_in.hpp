@@ -57,13 +57,13 @@ namespace System::Net::NetworkInformation::MacOsStructs {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Byte sin_len
-    uint8_t& dyn_sin_len();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_sin_len();
     // Get instance field reference: public System.Byte sin_family
-    uint8_t& dyn_sin_family();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_sin_family();
     // Get instance field reference: public System.UInt16 sin_port
-    uint16_t& dyn_sin_port();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_sin_port();
     // Get instance field reference: public System.UInt32 sin_addr
-    uint& dyn_sin_addr();
+    [[deprecated("Use field access instead!")]] uint& dyn_sin_addr();
   }; // System.Net.NetworkInformation.MacOsStructs.sockaddr_in
   #pragma pack(pop)
   static check_size<sizeof(sockaddr_in), 4 + sizeof(uint)> __System_Net_NetworkInformation_MacOsStructs_sockaddr_inSizeCheck;

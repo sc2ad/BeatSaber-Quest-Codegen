@@ -51,7 +51,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     // Set static field: static public Org.BouncyCastle.Math.EC.Rfc8032.Ed448/Org.BouncyCastle.Math.EC.Rfc8032.Algorithm Ed448ph
     static void _set_Ed448ph(::Org::BouncyCastle::Math::EC::Rfc8032::Ed448::Algorithm value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Org.BouncyCastle.Math.EC.Rfc8032.Ed448/Org.BouncyCastle.Math.EC.Rfc8032.Algorithm
   #pragma pack(pop)
   static check_size<sizeof(Ed448::Algorithm), 0 + sizeof(int)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed448_AlgorithmSizeCheck;

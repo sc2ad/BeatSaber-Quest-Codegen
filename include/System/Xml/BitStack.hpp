@@ -27,15 +27,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class BitStack : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.UInt32[] bitStack
     // Size: 0x8
     // Offset: 0x10
@@ -56,41 +48,43 @@ namespace System::Xml {
     static_assert(sizeof(uint) == 0x4);
     public:
     // Get instance field reference: private System.UInt32[] bitStack
-    ::ArrayW<uint>& dyn_bitStack();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_bitStack();
     // Get instance field reference: private System.Int32 stackPos
-    int& dyn_stackPos();
+    [[deprecated("Use field access instead!")]] int& dyn_stackPos();
     // Get instance field reference: private System.UInt32 curr
-    uint& dyn_curr();
-    // public System.Void PushBit(System.Boolean bit)
-    // Offset: 0x1A806AC
-    void PushBit(bool bit);
-    // public System.Boolean PopBit()
-    // Offset: 0x1A807DC
-    bool PopBit();
-    // public System.Boolean PeekBit()
-    // Offset: 0x1A80860
-    bool PeekBit();
-    // private System.Void PushCurr()
-    // Offset: 0x1A806E8
-    void PushCurr();
-    // private System.Void PopCurr()
-    // Offset: 0x1A80810
-    void PopCurr();
+    [[deprecated("Use field access instead!")]] uint& dyn_curr();
     // public System.Void .ctor()
-    // Offset: 0x1A80680
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1ABAC68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BitStack* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::BitStack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitStack*, creationType>()));
     }
+    // public System.Void PushBit(System.Boolean bit)
+    // Offset: 0x1ABAC94
+    void PushBit(bool bit);
+    // public System.Boolean PopBit()
+    // Offset: 0x1ABADC4
+    bool PopBit();
+    // public System.Boolean PeekBit()
+    // Offset: 0x1ABAE48
+    bool PeekBit();
+    // private System.Void PushCurr()
+    // Offset: 0x1ABACD0
+    void PushCurr();
+    // private System.Void PopCurr()
+    // Offset: 0x1ABADF8
+    void PopCurr();
   }; // System.Xml.BitStack
   #pragma pack(pop)
   static check_size<sizeof(BitStack), 28 + sizeof(uint)> __System_Xml_BitStackSizeCheck;
   static_assert(sizeof(BitStack) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Xml::BitStack::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::BitStack::PushBit
 // Il2CppName: PushBit
 template<>
@@ -132,7 +126,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Xml::BitStack*), "PopCurr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Xml::BitStack::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

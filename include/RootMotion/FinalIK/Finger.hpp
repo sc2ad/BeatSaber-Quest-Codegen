@@ -84,44 +84,36 @@ namespace RootMotion::FinalIK {
       // Set static field: static public RootMotion.FinalIK.Finger/RootMotion.FinalIK.DOF Three
       static void _set_Three(::RootMotion::FinalIK::Finger::DOF value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // RootMotion.FinalIK.Finger/RootMotion.FinalIK.DOF
     #pragma pack(pop)
     static check_size<sizeof(Finger::DOF), 0 + sizeof(int)> __RootMotion_FinalIK_Finger_DOFSizeCheck;
     static_assert(sizeof(Finger::DOF) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x1272DCC
-    // [RangeAttribute] Offset: 0x1272DCC
+    // [TooltipAttribute] Offset: 0x10F7A84
+    // [RangeAttribute] Offset: 0x10F7A84
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x10
     float weight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1272E20
-    // [RangeAttribute] Offset: 0x1272E20
+    // [TooltipAttribute] Offset: 0x10F7AD8
+    // [RangeAttribute] Offset: 0x10F7AD8
     // public System.Single rotationWeight
     // Size: 0x4
     // Offset: 0x14
     float rotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1272E74
+    // [TooltipAttribute] Offset: 0x10F7B2C
     // public RootMotion.FinalIK.Finger/RootMotion.FinalIK.DOF rotationDOF
     // Size: 0x4
     // Offset: 0x18
     ::RootMotion::FinalIK::Finger::DOF rotationDOF;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::Finger::DOF) == 0x4);
-    // [TooltipAttribute] Offset: 0x1272EAC
+    // [TooltipAttribute] Offset: 0x10F7B64
     // public System.Boolean fixBone1Twist
     // Size: 0x1
     // Offset: 0x1C
@@ -130,35 +122,35 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: fixBone1Twist and: bone1
     char __padding3[0x3] = {};
-    // [TooltipAttribute] Offset: 0x1272EE4
+    // [TooltipAttribute] Offset: 0x10F7B9C
     // public UnityEngine.Transform bone1
     // Size: 0x8
     // Offset: 0x20
     ::UnityEngine::Transform* bone1;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1272F1C
+    // [TooltipAttribute] Offset: 0x10F7BD4
     // public UnityEngine.Transform bone2
     // Size: 0x8
     // Offset: 0x28
     ::UnityEngine::Transform* bone2;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1272F54
+    // [TooltipAttribute] Offset: 0x10F7C0C
     // public UnityEngine.Transform bone3
     // Size: 0x8
     // Offset: 0x30
     ::UnityEngine::Transform* bone3;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1272F8C
+    // [TooltipAttribute] Offset: 0x10F7C44
     // public UnityEngine.Transform tip
     // Size: 0x8
     // Offset: 0x38
     ::UnityEngine::Transform* tip;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1272FC4
+    // [TooltipAttribute] Offset: 0x10F7C7C
     // public UnityEngine.Transform target
     // Size: 0x8
     // Offset: 0x40
@@ -217,81 +209,79 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: public System.Single weight
-    float& dyn_weight();
+    [[deprecated("Use field access instead!")]] float& dyn_weight();
     // Get instance field reference: public System.Single rotationWeight
-    float& dyn_rotationWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_rotationWeight();
     // Get instance field reference: public RootMotion.FinalIK.Finger/RootMotion.FinalIK.DOF rotationDOF
-    ::RootMotion::FinalIK::Finger::DOF& dyn_rotationDOF();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::Finger::DOF& dyn_rotationDOF();
     // Get instance field reference: public System.Boolean fixBone1Twist
-    bool& dyn_fixBone1Twist();
+    [[deprecated("Use field access instead!")]] bool& dyn_fixBone1Twist();
     // Get instance field reference: public UnityEngine.Transform bone1
-    ::UnityEngine::Transform*& dyn_bone1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_bone1();
     // Get instance field reference: public UnityEngine.Transform bone2
-    ::UnityEngine::Transform*& dyn_bone2();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_bone2();
     // Get instance field reference: public UnityEngine.Transform bone3
-    ::UnityEngine::Transform*& dyn_bone3();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_bone3();
     // Get instance field reference: public UnityEngine.Transform tip
-    ::UnityEngine::Transform*& dyn_tip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_tip();
     // Get instance field reference: public UnityEngine.Transform target
-    ::UnityEngine::Transform*& dyn_target();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_target();
     // Get instance field reference: private System.Boolean <initiated>k__BackingField
-    bool& dyn_$initiated$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$initiated$k__BackingField();
     // Get instance field reference: private RootMotion.FinalIK.IKSolverLimb solver
-    ::RootMotion::FinalIK::IKSolverLimb*& dyn_solver();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKSolverLimb*& dyn_solver();
     // Get instance field reference: private UnityEngine.Quaternion bone3RelativeToTarget
-    ::UnityEngine::Quaternion& dyn_bone3RelativeToTarget();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_bone3RelativeToTarget();
     // Get instance field reference: private UnityEngine.Vector3 bone3DefaultLocalPosition
-    ::UnityEngine::Vector3& dyn_bone3DefaultLocalPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_bone3DefaultLocalPosition();
     // Get instance field reference: private UnityEngine.Quaternion bone3DefaultLocalRotation
-    ::UnityEngine::Quaternion& dyn_bone3DefaultLocalRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_bone3DefaultLocalRotation();
     // Get instance field reference: private UnityEngine.Vector3 bone1Axis
-    ::UnityEngine::Vector3& dyn_bone1Axis();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_bone1Axis();
     // Get instance field reference: private UnityEngine.Vector3 tipAxis
-    ::UnityEngine::Vector3& dyn_tipAxis();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_tipAxis();
     // Get instance field reference: private UnityEngine.Vector3 bone1TwistAxis
-    ::UnityEngine::Vector3& dyn_bone1TwistAxis();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_bone1TwistAxis();
     // public System.Boolean get_initiated()
-    // Offset: 0x220C8E8
+    // Offset: 0x225A15C
     bool get_initiated();
     // private System.Void set_initiated(System.Boolean value)
-    // Offset: 0x220C8F0
+    // Offset: 0x225A164
     void set_initiated(bool value);
     // public UnityEngine.Vector3 get_IKPosition()
-    // Offset: 0x220C8FC
+    // Offset: 0x225A170
     ::UnityEngine::Vector3 get_IKPosition();
     // public System.Void set_IKPosition(UnityEngine.Vector3 value)
-    // Offset: 0x220C91C
+    // Offset: 0x225A190
     void set_IKPosition(::UnityEngine::Vector3 value);
     // public UnityEngine.Quaternion get_IKRotation()
-    // Offset: 0x220C93C
+    // Offset: 0x225A1B0
     ::UnityEngine::Quaternion get_IKRotation();
     // public System.Void set_IKRotation(UnityEngine.Quaternion value)
-    // Offset: 0x220C95C
+    // Offset: 0x225A1D0
     void set_IKRotation(::UnityEngine::Quaternion value);
-    // public System.Boolean IsValid(ref System.String errorMessage)
-    // Offset: 0x220C97C
-    bool IsValid(ByRef<::StringW> errorMessage);
-    // public System.Void Initiate(UnityEngine.Transform hand, System.Int32 index)
-    // Offset: 0x220CA7C
-    void Initiate(::UnityEngine::Transform* hand, int index);
-    // public System.Void FixTransforms()
-    // Offset: 0x220D010
-    void FixTransforms();
-    // public System.Void StoreDefaultLocalState()
-    // Offset: 0x220D0EC
-    void StoreDefaultLocalState();
-    // public System.Void Update(System.Single masterWeight)
-    // Offset: 0x220D1B4
-    void Update(float masterWeight);
     // public System.Void .ctor()
-    // Offset: 0x220D8F8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x225B16C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Finger* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::Finger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Finger*, creationType>()));
     }
+    // public System.Boolean IsValid(ref System.String errorMessage)
+    // Offset: 0x225A1F0
+    bool IsValid(ByRef<::StringW> errorMessage);
+    // public System.Void Initiate(UnityEngine.Transform hand, System.Int32 index)
+    // Offset: 0x225A2F0
+    void Initiate(::UnityEngine::Transform* hand, int index);
+    // public System.Void FixTransforms()
+    // Offset: 0x225A884
+    void FixTransforms();
+    // public System.Void StoreDefaultLocalState()
+    // Offset: 0x225A960
+    void StoreDefaultLocalState();
+    // public System.Void Update(System.Single masterWeight)
+    // Offset: 0x225AA28
+    void Update(float masterWeight);
   }; // RootMotion.FinalIK.Finger
   #pragma pack(pop)
   static check_size<sizeof(Finger), 156 + sizeof(::UnityEngine::Vector3)> __RootMotion_FinalIK_FingerSizeCheck;
@@ -351,6 +341,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Finger*), "set_IKRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: RootMotion::FinalIK::Finger::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::Finger::IsValid
 // Il2CppName: IsValid
 template<>
@@ -395,7 +389,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Finger*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{masterWeight});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::Finger::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class EditAvatarViewController::$$c__DisplayClass60_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public EditAvatarViewController <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -88,38 +80,40 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action_1<::UnityEngine::Color>*) == 0x8);
     public:
     // Get instance field reference: public EditAvatarViewController <>4__this
-    ::GlobalNamespace::EditAvatarViewController*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EditAvatarViewController*& dyn_$$4__this();
     // Get instance field reference: public System.Action`1<UnityEngine.Color> colorSetter
-    ::System::Action_1<::UnityEngine::Color>*& dyn_colorSetter();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::UnityEngine::Color>*& dyn_colorSetter();
     // Get instance field reference: public EditAvatarViewController/AvatarEditPart avatarEditPart
-    ::GlobalNamespace::EditAvatarViewController::AvatarEditPart& dyn_avatarEditPart();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EditAvatarViewController::AvatarEditPart& dyn_avatarEditPart();
     // Get instance field reference: public System.Func`1<UnityEngine.Color> currentColor
-    ::System::Func_1<::UnityEngine::Color>*& dyn_currentColor();
+    [[deprecated("Use field access instead!")]] ::System::Func_1<::UnityEngine::Color>*& dyn_currentColor();
     // Get instance field reference: public System.Int32 uvSegment
-    int& dyn_uvSegment();
+    [[deprecated("Use field access instead!")]] int& dyn_uvSegment();
     // Get instance field reference: public System.Action`1<UnityEngine.Color> <>9__1
-    ::System::Action_1<::UnityEngine::Color>*& dyn_$$9__1();
-    // System.Void <SetupColorButton>b__0()
-    // Offset: 0x1414D4C
-    void $SetupColorButton$b__0();
-    // System.Void <SetupColorButton>b__1(UnityEngine.Color c)
-    // Offset: 0x1414E2C
-    void $SetupColorButton$b__1(::UnityEngine::Color c);
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::UnityEngine::Color>*& dyn_$$9__1();
     // public System.Void .ctor()
-    // Offset: 0x1414A54
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1434800
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EditAvatarViewController::$$c__DisplayClass60_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EditAvatarViewController::$$c__DisplayClass60_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EditAvatarViewController::$$c__DisplayClass60_0*, creationType>()));
     }
+    // System.Void <SetupColorButton>b__0()
+    // Offset: 0x1434AF8
+    void $SetupColorButton$b__0();
+    // System.Void <SetupColorButton>b__1(UnityEngine.Color c)
+    // Offset: 0x1434BD8
+    void $SetupColorButton$b__1(::UnityEngine::Color c);
   }; // EditAvatarViewController/<>c__DisplayClass60_0
   #pragma pack(pop)
   static check_size<sizeof(EditAvatarViewController::$$c__DisplayClass60_0), 56 + sizeof(::System::Action_1<::UnityEngine::Color>*)> __GlobalNamespace_EditAvatarViewController_$$c__DisplayClass60_0SizeCheck;
   static_assert(sizeof(EditAvatarViewController::$$c__DisplayClass60_0) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::$$c__DisplayClass60_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::$$c__DisplayClass60_0::$SetupColorButton$b__0
 // Il2CppName: <SetupColorButton>b__0
 template<>
@@ -137,7 +131,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController::$$c__DisplayClass60_0*), "<SetupColorButton>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::$$c__DisplayClass60_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

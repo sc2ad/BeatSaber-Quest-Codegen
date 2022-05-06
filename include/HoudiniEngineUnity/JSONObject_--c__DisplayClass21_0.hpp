@@ -38,15 +38,7 @@ namespace HoudiniEngineUnity {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class JSONObject::$$c__DisplayClass21_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public HoudiniEngineUnity.JSONNode aNode
     // Size: 0x8
     // Offset: 0x10
@@ -59,25 +51,27 @@ namespace HoudiniEngineUnity {
       return aNode;
     }
     // Get instance field reference: public HoudiniEngineUnity.JSONNode aNode
-    ::HoudiniEngineUnity::JSONNode*& dyn_aNode();
-    // System.Boolean <Remove>b__0(System.Collections.Generic.KeyValuePair`2<System.String,HoudiniEngineUnity.JSONNode> k)
-    // Offset: 0x19E1BC8
-    bool $Remove$b__0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*> k);
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::JSONNode*& dyn_aNode();
     // public System.Void .ctor()
-    // Offset: 0x19E183C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1A1AE24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JSONObject::$$c__DisplayClass21_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::JSONObject::$$c__DisplayClass21_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONObject::$$c__DisplayClass21_0*, creationType>()));
     }
+    // System.Boolean <Remove>b__0(System.Collections.Generic.KeyValuePair`2<System.String,HoudiniEngineUnity.JSONNode> k)
+    // Offset: 0x1A1B1B0
+    bool $Remove$b__0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*> k);
   }; // HoudiniEngineUnity.JSONObject/HoudiniEngineUnity.<>c__DisplayClass21_0
   #pragma pack(pop)
   static check_size<sizeof(JSONObject::$$c__DisplayClass21_0), 16 + sizeof(::HoudiniEngineUnity::JSONNode*)> __HoudiniEngineUnity_JSONObject_$$c__DisplayClass21_0SizeCheck;
   static_assert(sizeof(JSONObject::$$c__DisplayClass21_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::JSONObject::$$c__DisplayClass21_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONObject::$$c__DisplayClass21_0::$Remove$b__0
 // Il2CppName: <Remove>b__0
 template<>
@@ -87,7 +81,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONObject::$$c__DisplayClass21_0*), "<Remove>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{k});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::JSONObject::$$c__DisplayClass21_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -131,35 +131,35 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Boolean splitGeosByGroup
-    bool& dyn_splitGeosByGroup();
+    [[deprecated("Use field access instead!")]] bool& dyn_splitGeosByGroup();
     // Get instance field reference: public System.Boolean splitGeosByAttribute
-    bool& dyn_splitGeosByAttribute();
+    [[deprecated("Use field access instead!")]] bool& dyn_splitGeosByAttribute();
     // Get instance field reference: public System.Int32 splitAttrSH
-    int& dyn_splitAttrSH();
+    [[deprecated("Use field access instead!")]] int& dyn_splitAttrSH();
     // Get instance field reference: public System.Int32 maxVerticesPerPrimitive
-    int& dyn_maxVerticesPerPrimitive();
+    [[deprecated("Use field access instead!")]] int& dyn_maxVerticesPerPrimitive();
     // Get instance field reference: public System.Boolean refineCurveToLinear
-    bool& dyn_refineCurveToLinear();
+    [[deprecated("Use field access instead!")]] bool& dyn_refineCurveToLinear();
     // Get instance field reference: public System.Single curveRefineLOD
-    float& dyn_curveRefineLOD();
+    [[deprecated("Use field access instead!")]] float& dyn_curveRefineLOD();
     // Get instance field reference: public System.Boolean clearErrorsAndWarnings
-    bool& dyn_clearErrorsAndWarnings();
+    [[deprecated("Use field access instead!")]] bool& dyn_clearErrorsAndWarnings();
     // Get instance field reference: public System.Boolean cookTemplatedGeos
-    bool& dyn_cookTemplatedGeos();
+    [[deprecated("Use field access instead!")]] bool& dyn_cookTemplatedGeos();
     // Get instance field reference: public System.Boolean splitPointsByVertexAttributes
-    bool& dyn_splitPointsByVertexAttributes();
+    [[deprecated("Use field access instead!")]] bool& dyn_splitPointsByVertexAttributes();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_PackedPrimInstancingMode packedPrimInstancingMode
-    ::HoudiniEngineUnity::HAPI_PackedPrimInstancingMode& dyn_packedPrimInstancingMode();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_PackedPrimInstancingMode& dyn_packedPrimInstancingMode();
     // Get instance field reference: public System.Boolean handleBoxPartTypes
-    bool& dyn_handleBoxPartTypes();
+    [[deprecated("Use field access instead!")]] bool& dyn_handleBoxPartTypes();
     // Get instance field reference: public System.Boolean handleSpherePartTypes
-    bool& dyn_handleSpherePartTypes();
+    [[deprecated("Use field access instead!")]] bool& dyn_handleSpherePartTypes();
     // Get instance field reference: public System.Boolean checkPartChanges
-    bool& dyn_checkPartChanges();
+    [[deprecated("Use field access instead!")]] bool& dyn_checkPartChanges();
     // Get instance field reference: public System.Boolean cacheMeshTopology
-    bool& dyn_cacheMeshTopology();
+    [[deprecated("Use field access instead!")]] bool& dyn_cacheMeshTopology();
     // Get instance field reference: public System.Int32 extraFlags
-    int& dyn_extraFlags();
+    [[deprecated("Use field access instead!")]] int& dyn_extraFlags();
   }; // HoudiniEngineUnity.HAPI_CookOptions
   #pragma pack(pop)
   static check_size<sizeof(HAPI_CookOptions), 32 + sizeof(int)> __HoudiniEngineUnity_HAPI_CookOptionsSizeCheck;

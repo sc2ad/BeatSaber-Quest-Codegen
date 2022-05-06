@@ -72,7 +72,7 @@ namespace GlobalNamespace {
       // Set static field: static public PlayerSaveData/PlayerSpecificSettings/EnvironmentEffectsFilterPresetSaveData NoEffects
       static void _set_NoEffects(::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // PlayerSaveData/PlayerSpecificSettings/EnvironmentEffectsFilterPresetSaveData
     #pragma pack(pop)
     static check_size<sizeof(PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData), 0 + sizeof(int)> __GlobalNamespace_PlayerSaveData_PlayerSpecificSettings_EnvironmentEffectsFilterPresetSaveDataSizeCheck;
@@ -114,20 +114,12 @@ namespace GlobalNamespace {
       // Set static field: static public PlayerSaveData/PlayerSpecificSettings/NoteJumpDurationTypeSettingsSaveData Static
       static void _set_Static(::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::NoteJumpDurationTypeSettingsSaveData value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // PlayerSaveData/PlayerSpecificSettings/NoteJumpDurationTypeSettingsSaveData
     #pragma pack(pop)
     static check_size<sizeof(PlayerSaveData::PlayerSpecificSettings::NoteJumpDurationTypeSettingsSaveData), 0 + sizeof(int)> __GlobalNamespace_PlayerSaveData_PlayerSpecificSettings_NoteJumpDurationTypeSettingsSaveDataSizeCheck;
     static_assert(sizeof(PlayerSaveData::PlayerSpecificSettings::NoteJumpDurationTypeSettingsSaveData) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean staticLights
     // Size: 0x1
     // Offset: 0x10
@@ -248,45 +240,43 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData) == 0x4);
     public:
     // Get instance field reference: public System.Boolean staticLights
-    bool& dyn_staticLights();
+    [[deprecated("Use field access instead!")]] bool& dyn_staticLights();
     // Get instance field reference: public System.Boolean leftHanded
-    bool& dyn_leftHanded();
+    [[deprecated("Use field access instead!")]] bool& dyn_leftHanded();
     // Get instance field reference: public System.Single playerHeight
-    float& dyn_playerHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_playerHeight();
     // Get instance field reference: public System.Boolean automaticPlayerHeight
-    bool& dyn_automaticPlayerHeight();
+    [[deprecated("Use field access instead!")]] bool& dyn_automaticPlayerHeight();
     // Get instance field reference: public System.Single sfxVolume
-    float& dyn_sfxVolume();
+    [[deprecated("Use field access instead!")]] float& dyn_sfxVolume();
     // Get instance field reference: public System.Boolean reduceDebris
-    bool& dyn_reduceDebris();
+    [[deprecated("Use field access instead!")]] bool& dyn_reduceDebris();
     // Get instance field reference: public System.Boolean noTextsAndHuds
-    bool& dyn_noTextsAndHuds();
+    [[deprecated("Use field access instead!")]] bool& dyn_noTextsAndHuds();
     // Get instance field reference: public System.Boolean advancedHud
-    bool& dyn_advancedHud();
+    [[deprecated("Use field access instead!")]] bool& dyn_advancedHud();
     // Get instance field reference: public System.Single saberTrailIntensity
-    float& dyn_saberTrailIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn_saberTrailIntensity();
     // Get instance field reference: public PlayerSaveData/PlayerSpecificSettings/NoteJumpDurationTypeSettingsSaveData _noteJumpDurationTypeSettingsSaveData
-    ::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::NoteJumpDurationTypeSettingsSaveData& dyn__noteJumpDurationTypeSettingsSaveData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::NoteJumpDurationTypeSettingsSaveData& dyn__noteJumpDurationTypeSettingsSaveData();
     // Get instance field reference: public System.Single noteJumpFixedDuration
-    float& dyn_noteJumpFixedDuration();
+    [[deprecated("Use field access instead!")]] float& dyn_noteJumpFixedDuration();
     // Get instance field reference: public System.Boolean autoRestart
-    bool& dyn_autoRestart();
+    [[deprecated("Use field access instead!")]] bool& dyn_autoRestart();
     // Get instance field reference: public System.Boolean noFailEffects
-    bool& dyn_noFailEffects();
+    [[deprecated("Use field access instead!")]] bool& dyn_noFailEffects();
     // Get instance field reference: public System.Single noteJumpBeatOffset
-    float& dyn_noteJumpBeatOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_noteJumpBeatOffset();
     // Get instance field reference: public System.Boolean hideNoteSpawnEffect
-    bool& dyn_hideNoteSpawnEffect();
+    [[deprecated("Use field access instead!")]] bool& dyn_hideNoteSpawnEffect();
     // Get instance field reference: public System.Boolean adaptiveSfx
-    bool& dyn_adaptiveSfx();
+    [[deprecated("Use field access instead!")]] bool& dyn_adaptiveSfx();
     // Get instance field reference: public PlayerSaveData/PlayerSpecificSettings/EnvironmentEffectsFilterPresetSaveData environmentEffectsFilterDefaultPreset
-    ::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData& dyn_environmentEffectsFilterDefaultPreset();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData& dyn_environmentEffectsFilterDefaultPreset();
     // Get instance field reference: public PlayerSaveData/PlayerSpecificSettings/EnvironmentEffectsFilterPresetSaveData environmentEffectsFilterExpertPlusPreset
-    ::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData& dyn_environmentEffectsFilterExpertPlusPreset();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData& dyn_environmentEffectsFilterExpertPlusPreset();
     // public System.Void .ctor()
-    // Offset: 0x1371648
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D46A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::PlayerSpecificSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::.ctor");

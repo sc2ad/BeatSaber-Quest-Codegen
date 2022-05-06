@@ -56,23 +56,21 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Vertex,UnityEngine.Vector3> <>9__3_0
     static void _set_$$9__3_0(::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1C0900C
+    // Offset: 0x1C435F4
     static void _cctor();
-    // UnityEngine.ProBuilder.Face <ToTriangles>b__0_0(UnityEngine.ProBuilder.FaceRebuildData x)
-    // Offset: 0x1C09078
-    ::UnityEngine::ProBuilder::Face* $ToTriangles$b__0_0(::UnityEngine::ProBuilder::FaceRebuildData* x);
-    // UnityEngine.Vector3 <GetWindingOrder>b__3_0(UnityEngine.ProBuilder.Vertex x)
-    // Offset: 0x1C09090
-    ::UnityEngine::Vector3 $GetWindingOrder$b__3_0(::UnityEngine::ProBuilder::Vertex* x);
     // public System.Void .ctor()
-    // Offset: 0x1C09070
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C43658
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SurfaceTopology::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SurfaceTopology::$$c*, creationType>()));
     }
+    // UnityEngine.ProBuilder.Face <ToTriangles>b__0_0(UnityEngine.ProBuilder.FaceRebuildData x)
+    // Offset: 0x1C43660
+    ::UnityEngine::ProBuilder::Face* $ToTriangles$b__0_0(::UnityEngine::ProBuilder::FaceRebuildData* x);
+    // UnityEngine.Vector3 <GetWindingOrder>b__3_0(UnityEngine.ProBuilder.Vertex x)
+    // Offset: 0x1C43678
+    ::UnityEngine::Vector3 $GetWindingOrder$b__3_0(::UnityEngine::ProBuilder::Vertex* x);
   }; // UnityEngine.ProBuilder.MeshOperations.SurfaceTopology/UnityEngine.ProBuilder.MeshOperations.<>c
   #pragma pack(pop)
 }
@@ -85,6 +83,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c::$ToTriangles$b__0_0
 // Il2CppName: <ToTriangles>b__0_0
 template<>
@@ -103,7 +105,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c*), "<GetWindingOrder>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

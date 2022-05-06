@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EulaViewController::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Boolean showDoNotAgreeButton
     // Size: 0x1
     // Offset: 0x10
@@ -44,9 +36,9 @@ namespace GlobalNamespace {
       return showDoNotAgreeButton;
     }
     // Get instance field reference: public readonly System.Boolean showDoNotAgreeButton
-    bool& dyn_showDoNotAgreeButton();
+    [[deprecated("Use field access instead!")]] bool& dyn_showDoNotAgreeButton();
     // public System.Void .ctor(System.Boolean showDoNotAgreeButton)
-    // Offset: 0x1386C70
+    // Offset: 0x136E84C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EulaViewController::InitData* New_ctor(bool showDoNotAgreeButton) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EulaViewController::InitData::.ctor");

@@ -34,15 +34,7 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class SignalBindingBindInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Object <Identifier>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -57,23 +49,23 @@ namespace Zenject {
     static_assert(sizeof(::System::Type*) == 0x8);
     public:
     // Get instance field reference: private System.Object <Identifier>k__BackingField
-    ::Il2CppObject*& dyn_$Identifier$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$Identifier$k__BackingField();
     // Get instance field reference: private System.Type <SignalType>k__BackingField
-    ::System::Type*& dyn_$SignalType$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_$SignalType$k__BackingField();
     // public System.Object get_Identifier()
-    // Offset: 0x1CDE0FC
+    // Offset: 0x1D19654
     ::Il2CppObject* get_Identifier();
     // public System.Void set_Identifier(System.Object value)
-    // Offset: 0x1CDE104
+    // Offset: 0x1D1965C
     void set_Identifier(::Il2CppObject* value);
     // public System.Type get_SignalType()
-    // Offset: 0x1CDE10C
+    // Offset: 0x1D19664
     ::System::Type* get_SignalType();
     // private System.Void set_SignalType(System.Type value)
-    // Offset: 0x1CDE114
+    // Offset: 0x1D1966C
     void set_SignalType(::System::Type* value);
     // public System.Void .ctor(System.Type signalType)
-    // Offset: 0x1CDE0D0
+    // Offset: 0x1D19628
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalBindingBindInfo* New_ctor(::System::Type* signalType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalBindingBindInfo::.ctor");

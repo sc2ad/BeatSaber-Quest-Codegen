@@ -29,24 +29,24 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_InputValidator : public ::UnityEngine::ScriptableObject {
     public:
-    // public System.Char Validate(ref System.String text, ref System.Int32 pos, System.Char ch)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    ::Il2CppChar Validate(ByRef<::StringW> text, ByRef<int> pos, ::Il2CppChar ch);
     // protected System.Void .ctor()
-    // Offset: 0x144C128
-    // Implemented from: UnityEngine.ScriptableObject
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x146CFA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_InputValidator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_InputValidator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_InputValidator*, creationType>()));
     }
+    // public System.Char Validate(ref System.String text, ref System.Int32 pos, System.Char ch)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    ::Il2CppChar Validate(ByRef<::StringW> text, ByRef<int> pos, ::Il2CppChar ch);
   }; // TMPro.TMP_InputValidator
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: TMPro::TMP_InputValidator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: TMPro::TMP_InputValidator::Validate
 // Il2CppName: Validate
 template<>
@@ -58,7 +58,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_InputValidator*), "Validate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text, pos, ch});
   }
 };
-// Writing MetadataGetter for method: TMPro::TMP_InputValidator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

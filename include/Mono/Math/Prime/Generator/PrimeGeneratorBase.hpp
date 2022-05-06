@@ -41,26 +41,24 @@ namespace Mono::Math::Prime::Generator {
   class PrimeGeneratorBase : public ::Il2CppObject {
     public:
     // public Mono.Math.Prime.ConfidenceFactor get_Confidence()
-    // Offset: 0x22F2C08
+    // Offset: 0x233C47C
     ::Mono::Math::Prime::ConfidenceFactor get_Confidence();
     // public Mono.Math.Prime.PrimalityTest get_PrimalityTest()
-    // Offset: 0x22F2C10
+    // Offset: 0x233C484
     ::Mono::Math::Prime::PrimalityTest* get_PrimalityTest();
     // public System.Int32 get_TrialDivisionBounds()
-    // Offset: 0x22F2C84
+    // Offset: 0x233C4F8
     int get_TrialDivisionBounds();
-    // public Mono.Math.BigInteger GenerateNewPrime(System.Int32 bits)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    ::Mono::Math::BigInteger* GenerateNewPrime(int bits);
     // protected System.Void .ctor()
-    // Offset: 0x22F2C8C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x233C500
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrimeGeneratorBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Math::Prime::Generator::PrimeGeneratorBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrimeGeneratorBase*, creationType>()));
     }
+    // public Mono.Math.BigInteger GenerateNewPrime(System.Int32 bits)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    ::Mono::Math::BigInteger* GenerateNewPrime(int bits);
   }; // Mono.Math.Prime.Generator.PrimeGeneratorBase
   #pragma pack(pop)
 }
@@ -89,6 +87,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::Prime::Generator::PrimeGeneratorBase*), "get_TrialDivisionBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Mono::Math::Prime::Generator::PrimeGeneratorBase::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Math::Prime::Generator::PrimeGeneratorBase::GenerateNewPrime
 // Il2CppName: GenerateNewPrime
 template<>
@@ -98,7 +100,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Mat
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::Prime::Generator::PrimeGeneratorBase*), "GenerateNewPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bits});
   }
 };
-// Writing MetadataGetter for method: Mono::Math::Prime::Generator::PrimeGeneratorBase::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

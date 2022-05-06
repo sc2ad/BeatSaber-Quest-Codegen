@@ -44,9 +44,9 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.IntPtr Samples
-    ::System::IntPtr& dyn_Samples();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Samples();
     // Get instance field reference: public System.Int32 SamplesCount
-    int& dyn_SamplesCount();
+    [[deprecated("Use field access instead!")]] int& dyn_SamplesCount();
   }; // OVRPlugin/HapticsBuffer
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::HapticsBuffer), 8 + sizeof(int)> __GlobalNamespace_OVRPlugin_HapticsBufferSizeCheck;

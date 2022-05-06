@@ -58,13 +58,13 @@ namespace Oculus::Platform {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.IntPtr dataArray
-    ::System::IntPtr& dyn_dataArray();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_dataArray();
     // Get instance field reference: public System.UInt32 dataArrayCount
-    uint& dyn_dataArrayCount();
+    [[deprecated("Use field access instead!")]] uint& dyn_dataArrayCount();
     // Get instance field reference: public System.IntPtr criterionArray
-    ::System::IntPtr& dyn_criterionArray();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_criterionArray();
     // Get instance field reference: public System.UInt32 criterionArrayCount
-    uint& dyn_criterionArrayCount();
+    [[deprecated("Use field access instead!")]] uint& dyn_criterionArrayCount();
   }; // Oculus.Platform.CAPI/Oculus.Platform.ovrMatchmakingCustomQueryData
   #pragma pack(pop)
   static check_size<sizeof(CAPI::ovrMatchmakingCustomQueryData), 24 + sizeof(uint)> __Oculus_Platform_CAPI_ovrMatchmakingCustomQueryDataSizeCheck;

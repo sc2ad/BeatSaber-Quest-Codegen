@@ -42,29 +42,21 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLobbyCenterStageManager : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Transform _centerObjectTransform
     // Size: 0x8
     // Offset: 0x18
     ::UnityEngine::Transform* centerObjectTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125A1A0
+    // [SpaceAttribute] Offset: 0x10DED84
     // private CenterStageScreenController _centerStageScreenController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::CenterStageScreenController* centerStageScreenController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::CenterStageScreenController*) == 0x8);
-    // [InjectAttribute] Offset: 0x125A1D8
+    // [InjectAttribute] Offset: 0x10DEDBC
     // private readonly ILobbyStateDataModel _lobbyStateDataModel
     // Size: 0x8
     // Offset: 0x28
@@ -87,46 +79,44 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform _centerObjectTransform
-    ::UnityEngine::Transform*& dyn__centerObjectTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__centerObjectTransform();
     // Get instance field reference: private CenterStageScreenController _centerStageScreenController
-    ::GlobalNamespace::CenterStageScreenController*& dyn__centerStageScreenController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::CenterStageScreenController*& dyn__centerStageScreenController();
     // Get instance field reference: private readonly ILobbyStateDataModel _lobbyStateDataModel
-    ::GlobalNamespace::ILobbyStateDataModel*& dyn__lobbyStateDataModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ILobbyStateDataModel*& dyn__lobbyStateDataModel();
     // Get instance field reference: private System.Single _innerCircleRadius
-    float& dyn__innerCircleRadius();
+    [[deprecated("Use field access instead!")]] float& dyn__innerCircleRadius();
     // Get instance field reference: private System.Single _minOuterCircleRadius
-    float& dyn__minOuterCircleRadius();
-    // public System.Void Init(System.Single innerCircleRadius, System.Single minOuterCircleRadius)
-    // Offset: 0x13FB8F8
-    void Init(float innerCircleRadius, float minOuterCircleRadius);
-    // public System.Void ActivateCenterStageManager()
-    // Offset: 0x13FB900
-    void ActivateCenterStageManager();
-    // public System.Void DeactivateCenterStageManager()
-    // Offset: 0x13FBA8C
-    void DeactivateCenterStageManager();
-    // private System.Void RecalculateCenterPosition()
-    // Offset: 0x13FB930
-    void RecalculateCenterPosition();
+    [[deprecated("Use field access instead!")]] float& dyn__minOuterCircleRadius();
     // public System.Void .ctor()
-    // Offset: 0x13FBABC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x140855C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLobbyCenterStageManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLobbyCenterStageManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLobbyCenterStageManager*, creationType>()));
     }
+    // public System.Void Init(System.Single innerCircleRadius, System.Single minOuterCircleRadius)
+    // Offset: 0x1408398
+    void Init(float innerCircleRadius, float minOuterCircleRadius);
+    // public System.Void ActivateCenterStageManager()
+    // Offset: 0x14083A0
+    void ActivateCenterStageManager();
+    // public System.Void DeactivateCenterStageManager()
+    // Offset: 0x140852C
+    void DeactivateCenterStageManager();
+    // private System.Void RecalculateCenterPosition()
+    // Offset: 0x14083D0
+    void RecalculateCenterPosition();
   }; // MultiplayerLobbyCenterStageManager
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLobbyCenterStageManager), 52 + sizeof(float)> __GlobalNamespace_MultiplayerLobbyCenterStageManagerSizeCheck;
   static_assert(sizeof(MultiplayerLobbyCenterStageManager) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyCenterStageManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyCenterStageManager::Init
 // Il2CppName: Init
 template<>
@@ -161,7 +151,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyCenterStageManager*), "RecalculateCenterPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyCenterStageManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -54,7 +54,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.PivotLocation FirstVertex
     static void _set_FirstVertex(::UnityEngine::ProBuilder::PivotLocation value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.ProBuilder.PivotLocation
   #pragma pack(pop)
   static check_size<sizeof(PivotLocation), 0 + sizeof(int)> __UnityEngine_ProBuilder_PivotLocationSizeCheck;

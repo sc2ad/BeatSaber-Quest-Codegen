@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoteTrailParticleSystem : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.ParticleSystem _particleSystem
     // Size: 0x8
     // Offset: 0x18
@@ -62,34 +54,32 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem _particleSystem
-    ::UnityEngine::ParticleSystem*& dyn__particleSystem();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn__particleSystem();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _emitParams
-    ::UnityEngine::ParticleSystem::EmitParams& dyn__emitParams();
-    // protected System.Void Awake()
-    // Offset: 0x147D2C0
-    void Awake();
-    // public System.Void Emit(UnityEngine.Vector3 startPos, UnityEngine.Vector3 endPos, System.Int32 count)
-    // Offset: 0x147D13C
-    void Emit(::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 endPos, int count);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::EmitParams& dyn__emitParams();
     // public System.Void .ctor()
-    // Offset: 0x147D2D0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14B3AB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteTrailParticleSystem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteTrailParticleSystem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteTrailParticleSystem*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x14B3AA8
+    void Awake();
+    // public System.Void Emit(UnityEngine.Vector3 startPos, UnityEngine.Vector3 endPos, System.Int32 count)
+    // Offset: 0x14B3924
+    void Emit(::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 endPos, int count);
   }; // NoteTrailParticleSystem
   #pragma pack(pop)
   static check_size<sizeof(NoteTrailParticleSystem), 32 + sizeof(::UnityEngine::ParticleSystem::EmitParams)> __GlobalNamespace_NoteTrailParticleSystemSizeCheck;
   static_assert(sizeof(NoteTrailParticleSystem) == 0xAF);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::NoteTrailParticleSystem::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NoteTrailParticleSystem::Awake
 // Il2CppName: Awake
 template<>
@@ -109,7 +99,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteTrailParticleSystem*), "Emit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{startPos, endPos, count});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NoteTrailParticleSystem::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

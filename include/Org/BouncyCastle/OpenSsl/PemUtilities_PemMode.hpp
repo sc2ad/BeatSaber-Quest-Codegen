@@ -63,7 +63,7 @@ namespace Org::BouncyCastle::OpenSsl {
     // Set static field: static public Org.BouncyCastle.OpenSsl.PemUtilities/Org.BouncyCastle.OpenSsl.PemMode OFB
     static void _set_OFB(::Org::BouncyCastle::OpenSsl::PemUtilities::PemMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Org.BouncyCastle.OpenSsl.PemUtilities/Org.BouncyCastle.OpenSsl.PemMode
   #pragma pack(pop)
   static check_size<sizeof(PemUtilities::PemMode), 0 + sizeof(int)> __Org_BouncyCastle_OpenSsl_PemUtilities_PemModeSizeCheck;

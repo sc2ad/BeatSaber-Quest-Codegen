@@ -43,20 +43,20 @@ namespace UnityEngine::Experimental::TerrainAPI {
   class TerrainCallbacks::TextureChangedCallback : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2A5F538
+    // Offset: 0x2AB6920
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TerrainCallbacks::TextureChangedCallback* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::TextureChangedCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TerrainCallbacks::TextureChangedCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngine.Terrain terrain, System.String textureName, UnityEngine.RectInt texelRegion, System.Boolean synched)
-    // Offset: 0x2A5EFF0
+    // Offset: 0x2AB63D8
     void Invoke(::UnityEngine::Terrain* terrain, ::StringW textureName, ::UnityEngine::RectInt texelRegion, bool synched);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Terrain terrain, System.String textureName, UnityEngine.RectInt texelRegion, System.Boolean synched, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2A5F548
+    // Offset: 0x2AB6930
     ::System::IAsyncResult* BeginInvoke(::UnityEngine::Terrain* terrain, ::StringW textureName, ::UnityEngine::RectInt texelRegion, bool synched, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2A5F60C
+    // Offset: 0x2AB69F4
     void EndInvoke(::System::IAsyncResult* result);
   }; // UnityEngine.Experimental.TerrainAPI.TerrainCallbacks/UnityEngine.Experimental.TerrainAPI.TextureChangedCallback
   #pragma pack(pop)

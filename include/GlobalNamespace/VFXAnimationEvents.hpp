@@ -48,15 +48,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent
     class VFXAnimationEvent;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Animation _animation
     // Size: 0x8
     // Offset: 0x18
@@ -91,61 +83,55 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Animation _animation
-    ::UnityEngine::Animation*& dyn__animation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Animation*& dyn__animation();
     // Get instance field reference: private VFXAnimationEvents/VFXAnimationEvent[] _animationEvents
-    ::ArrayW<::GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*>& dyn__animationEvents();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*>& dyn__animationEvents();
     // Get instance field reference: private System.Action animationDidPauseEvent
-    ::System::Action*& dyn_animationDidPauseEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_animationDidPauseEvent();
     // Get instance field reference: private System.Action spawnCharacterEvent
-    ::System::Action*& dyn_spawnCharacterEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_spawnCharacterEvent();
     // Get instance field reference: private System.Action despawnCharacterEvent
-    ::System::Action*& dyn_despawnCharacterEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_despawnCharacterEvent();
     // public System.Void add_animationDidPauseEvent(System.Action value)
-    // Offset: 0x29D9780
+    // Offset: 0x2A2BC90
     void add_animationDidPauseEvent(::System::Action* value);
     // public System.Void remove_animationDidPauseEvent(System.Action value)
-    // Offset: 0x29D9824
+    // Offset: 0x2A2BD34
     void remove_animationDidPauseEvent(::System::Action* value);
     // public System.Void add_spawnCharacterEvent(System.Action value)
-    // Offset: 0x29D98C8
+    // Offset: 0x2A2BDD8
     void add_spawnCharacterEvent(::System::Action* value);
     // public System.Void remove_spawnCharacterEvent(System.Action value)
-    // Offset: 0x29D996C
+    // Offset: 0x2A2BE7C
     void remove_spawnCharacterEvent(::System::Action* value);
     // public System.Void add_despawnCharacterEvent(System.Action value)
-    // Offset: 0x29D9A10
+    // Offset: 0x2A2BF20
     void add_despawnCharacterEvent(::System::Action* value);
     // public System.Void remove_despawnCharacterEvent(System.Action value)
-    // Offset: 0x29D9AB4
+    // Offset: 0x2A2BFC4
     void remove_despawnCharacterEvent(::System::Action* value);
-    // private System.Void PlayEvent(System.String eventName)
-    // Offset: 0x29D9B58
-    void PlayEvent(::StringW eventName);
-    // private System.Void PauseAnimation()
-    // Offset: 0x29D9C30
-    void PauseAnimation();
-    // private System.Void SpawnCharacterEvent()
-    // Offset: 0x29D9E70
-    void SpawnCharacterEvent();
-    // private System.Void DeSpawnCharacterEvent()
-    // Offset: 0x29D9E84
-    void DeSpawnCharacterEvent();
-    // public System.Void ResumeAnimation()
-    // Offset: 0x29D9E98
-    void ResumeAnimation();
     // public System.Void .ctor()
-    // Offset: 0x29DA0C8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A2C5D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VFXAnimationEvents* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VFXAnimationEvents::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VFXAnimationEvents*, creationType>()));
     }
+    // private System.Void PlayEvent(System.String eventName)
+    // Offset: 0x2A2C068
+    void PlayEvent(::StringW eventName);
+    // private System.Void PauseAnimation()
+    // Offset: 0x2A2C140
+    void PauseAnimation();
+    // private System.Void SpawnCharacterEvent()
+    // Offset: 0x2A2C380
+    void SpawnCharacterEvent();
+    // private System.Void DeSpawnCharacterEvent()
+    // Offset: 0x2A2C394
+    void DeSpawnCharacterEvent();
+    // public System.Void ResumeAnimation()
+    // Offset: 0x2A2C3A8
+    void ResumeAnimation();
   }; // VFXAnimationEvents
   #pragma pack(pop)
   static check_size<sizeof(VFXAnimationEvents), 56 + sizeof(::System::Action*)> __GlobalNamespace_VFXAnimationEventsSizeCheck;
@@ -206,6 +192,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VFXAnimationEvents*), "remove_despawnCharacterEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::VFXAnimationEvents::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::VFXAnimationEvents::PlayEvent
 // Il2CppName: PlayEvent
 template<>
@@ -247,7 +237,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VFXAnimationEvents*), "ResumeAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::VFXAnimationEvents::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

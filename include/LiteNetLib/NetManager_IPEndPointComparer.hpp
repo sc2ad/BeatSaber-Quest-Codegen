@@ -36,25 +36,27 @@ namespace LiteNetLib {
     operator ::System::Collections::Generic::IEqualityComparer_1<::System::Net::IPEndPoint*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEqualityComparer_1<::System::Net::IPEndPoint*>*>(this);
     }
-    // public System.Boolean Equals(System.Net.IPEndPoint x, System.Net.IPEndPoint y)
-    // Offset: 0x216B2EC
-    bool Equals(::System::Net::IPEndPoint* x, ::System::Net::IPEndPoint* y);
-    // public System.Int32 GetHashCode(System.Net.IPEndPoint obj)
-    // Offset: 0x216B34C
-    int GetHashCode(::System::Net::IPEndPoint* obj);
     // public System.Void .ctor()
-    // Offset: 0x2165C6C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x21B14E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetManager::IPEndPointComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetManager::IPEndPointComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetManager::IPEndPointComparer*, creationType>()));
     }
+    // public System.Boolean Equals(System.Net.IPEndPoint x, System.Net.IPEndPoint y)
+    // Offset: 0x21B6B60
+    bool Equals(::System::Net::IPEndPoint* x, ::System::Net::IPEndPoint* y);
+    // public System.Int32 GetHashCode(System.Net.IPEndPoint obj)
+    // Offset: 0x21B6BC0
+    int GetHashCode(::System::Net::IPEndPoint* obj);
   }; // LiteNetLib.NetManager/LiteNetLib.IPEndPointComparer
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: LiteNetLib::NetManager::IPEndPointComparer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: LiteNetLib::NetManager::IPEndPointComparer::Equals
 // Il2CppName: Equals
 template<>
@@ -74,7 +76,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNe
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetManager::IPEndPointComparer*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
-// Writing MetadataGetter for method: LiteNetLib::NetManager::IPEndPointComparer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

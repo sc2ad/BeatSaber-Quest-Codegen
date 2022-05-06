@@ -59,15 +59,7 @@ namespace Zenject {
     class $$c__DisplayClass1_0;
     // Nested type: ::Zenject::GuiRenderableManager::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.List`1<Zenject.GuiRenderableManager/Zenject.RenderableInfo> _renderables
     // Size: 0x8
     // Offset: 0x10
@@ -80,22 +72,22 @@ namespace Zenject {
       return renderables;
     }
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.GuiRenderableManager/Zenject.RenderableInfo> _renderables
-    ::System::Collections::Generic::List_1<::Zenject::GuiRenderableManager::RenderableInfo*>*& dyn__renderables();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Zenject::GuiRenderableManager::RenderableInfo*>*& dyn__renderables();
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.IGuiRenderable> renderables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities)
-    // Offset: 0x1DEC1DC
+    // Offset: 0x1E26AA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GuiRenderableManager* New_ctor(::System::Collections::Generic::List_1<::Zenject::IGuiRenderable*>* renderables, ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int>*>* priorities) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GuiRenderableManager*, creationType>(renderables, priorities)));
     }
     // public System.Void OnGui()
-    // Offset: 0x1DEC654
+    // Offset: 0x1E26F20
     void OnGui();
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1DEC938
+    // Offset: 0x1E27204
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1DECA50
+    // Offset: 0x1E2731C
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.GuiRenderableManager
   #pragma pack(pop)

@@ -24,15 +24,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class RC5Parameters : public ::Org::BouncyCastle::Crypto::Parameters::KeyParameter {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Int32 rounds
     // Size: 0x4
     // Offset: 0x18
@@ -43,9 +35,9 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Deleting conversion operator: operator ::ArrayW<uint8_t>
     constexpr operator ::ArrayW<uint8_t>() const noexcept = delete;
     // Get instance field reference: private readonly System.Int32 rounds
-    int& dyn_rounds();
+    [[deprecated("Use field access instead!")]] int& dyn_rounds();
     // public System.Int32 get_Rounds()
-    // Offset: 0x15C3B74
+    // Offset: 0x15F9484
     int get_Rounds();
   }; // Org.BouncyCastle.Crypto.Parameters.RC5Parameters
   #pragma pack(pop)

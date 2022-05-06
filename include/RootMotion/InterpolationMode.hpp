@@ -204,7 +204,7 @@ namespace RootMotion {
     // Set static field: static public RootMotion.InterpolationMode BackInQuartic
     static void _set_BackInQuartic(::RootMotion::InterpolationMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // RootMotion.InterpolationMode
   #pragma pack(pop)
   static check_size<sizeof(InterpolationMode), 0 + sizeof(int)> __RootMotion_InterpolationModeSizeCheck;

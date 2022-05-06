@@ -56,13 +56,13 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 handleParmNameSH
-    int& dyn_handleParmNameSH();
+    [[deprecated("Use field access instead!")]] int& dyn_handleParmNameSH();
     // Get instance field reference: public System.Int32 assetParmNameSH
-    int& dyn_assetParmNameSH();
+    [[deprecated("Use field access instead!")]] int& dyn_assetParmNameSH();
     // Get instance field reference: public System.Int32 assetParmId
-    int& dyn_assetParmId();
+    [[deprecated("Use field access instead!")]] int& dyn_assetParmId();
     // Get instance field reference: public System.Int32 assetParmIndex
-    int& dyn_assetParmIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_assetParmIndex();
   }; // HoudiniEngineUnity.HAPI_HandleBindingInfo
   #pragma pack(pop)
   static check_size<sizeof(HAPI_HandleBindingInfo), 12 + sizeof(int)> __HoudiniEngineUnity_HAPI_HandleBindingInfoSizeCheck;

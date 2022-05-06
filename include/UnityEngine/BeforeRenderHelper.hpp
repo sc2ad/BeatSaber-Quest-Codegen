@@ -69,9 +69,9 @@ namespace UnityEngine {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: System.Int32 order
-      int& dyn_order();
+      [[deprecated("Use field access instead!")]] int& dyn_order();
       // Get instance field reference: UnityEngine.Events.UnityAction callback
-      ::UnityEngine::Events::UnityAction*& dyn_callback();
+      [[deprecated("Use field access instead!")]] ::UnityEngine::Events::UnityAction*& dyn_callback();
     }; // UnityEngine.BeforeRenderHelper/UnityEngine.OrderBlock
     #pragma pack(pop)
     static check_size<sizeof(BeforeRenderHelper::OrderBlock), 8 + sizeof(::UnityEngine::Events::UnityAction*)> __UnityEngine_BeforeRenderHelper_OrderBlockSizeCheck;
@@ -81,19 +81,19 @@ namespace UnityEngine {
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/UnityEngine.OrderBlock> s_OrderBlocks
     static void _set_s_OrderBlocks(::System::Collections::Generic::List_1<::UnityEngine::BeforeRenderHelper::OrderBlock>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1F25FA8
+    // Offset: 0x1F8CC64
     static void _cctor();
     // static private System.Int32 GetUpdateOrder(UnityEngine.Events.UnityAction callback)
-    // Offset: 0x1F25C88
+    // Offset: 0x1F8C944
     static int GetUpdateOrder(::UnityEngine::Events::UnityAction* callback);
     // static public System.Void RegisterCallback(UnityEngine.Events.UnityAction callback)
-    // Offset: 0x1F23A94
+    // Offset: 0x1F8A750
     static void RegisterCallback(::UnityEngine::Events::UnityAction* callback);
     // static public System.Void UnregisterCallback(UnityEngine.Events.UnityAction callback)
-    // Offset: 0x1F23E34
+    // Offset: 0x1F8AAF0
     static void UnregisterCallback(::UnityEngine::Events::UnityAction* callback);
     // static public System.Void Invoke()
-    // Offset: 0x1F244F4
+    // Offset: 0x1F8B1B0
     static void Invoke();
   }; // UnityEngine.BeforeRenderHelper
   #pragma pack(pop)

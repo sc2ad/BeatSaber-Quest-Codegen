@@ -54,7 +54,7 @@ namespace System::Xml::Schema {
     // Set static field: static public System.Xml.Schema.XmlSeverityType Warning
     static void _set_Warning(::System::Xml::Schema::XmlSeverityType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Xml.Schema.XmlSeverityType
   #pragma pack(pop)
   static check_size<sizeof(XmlSeverityType), 0 + sizeof(int)> __System_Xml_Schema_XmlSeverityTypeSizeCheck;

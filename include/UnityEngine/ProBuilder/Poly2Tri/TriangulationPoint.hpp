@@ -40,15 +40,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [TokenAttribute] Offset: FFFFFFFF
   class TriangulationPoint : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint> <Edges>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -75,34 +67,34 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint> <Edges>k__BackingField
-    ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>*& dyn_$Edges$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>*& dyn_$Edges$k__BackingField();
     // Get instance field reference: public System.Double X
-    double& dyn_X();
+    [[deprecated("Use field access instead!")]] double& dyn_X();
     // Get instance field reference: public System.Double Y
-    double& dyn_Y();
+    [[deprecated("Use field access instead!")]] double& dyn_Y();
     // Get instance field reference: public System.Int32 Index
-    int& dyn_Index();
+    [[deprecated("Use field access instead!")]] int& dyn_Index();
     // public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint> get_Edges()
-    // Offset: 0x2A3CB34
+    // Offset: 0x2A92F1C
     ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* get_Edges();
     // private System.Void set_Edges(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint> value)
-    // Offset: 0x2A3CB3C
+    // Offset: 0x2A92F24
     void set_Edges(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* value);
     // public System.Boolean get_HasEdges()
-    // Offset: 0x2A3702C
+    // Offset: 0x2A8D414
     bool get_HasEdges();
     // public System.Void .ctor(System.Double x, System.Double y, System.Int32 index)
-    // Offset: 0x2A3B2BC
+    // Offset: 0x2A916A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TriangulationPoint* New_ctor(double x, double y, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TriangulationPoint*, creationType>(x, y, index)));
     }
     // public System.Void AddEdge(UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint e)
-    // Offset: 0x2A3AB44
+    // Offset: 0x2A90F2C
     void AddEdge(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* e);
     // public override System.String ToString()
-    // Offset: 0x2A3CB44
+    // Offset: 0x2A92F2C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

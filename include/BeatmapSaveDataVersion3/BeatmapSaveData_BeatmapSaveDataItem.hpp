@@ -25,15 +25,7 @@ namespace BeatmapSaveDataVersion3 {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapSaveData::BeatmapSaveDataItem : public ::Il2CppObject/*, public ::System::IComparable_1<::BeatmapSaveDataVersion3::BeatmapSaveData::BeatmapSaveDataItem*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single b
     // Size: 0x4
     // Offset: 0x10
@@ -50,19 +42,19 @@ namespace BeatmapSaveDataVersion3 {
       return b;
     }
     // Get instance field reference: private System.Single b
-    float& dyn_b();
+    [[deprecated("Use field access instead!")]] float& dyn_b();
     // public System.Single get_beat()
-    // Offset: 0x281B1D0
+    // Offset: 0x286D790
     float get_beat();
     // protected System.Void .ctor(System.Single beat)
-    // Offset: 0x281B16C
+    // Offset: 0x286D72C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::BeatmapSaveDataItem* New_ctor(float beat) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::BeatmapSaveDataItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::BeatmapSaveDataItem*, creationType>(beat)));
     }
     // public System.Int32 CompareTo(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.BeatmapSaveDataItem other)
-    // Offset: 0x281B1D8
+    // Offset: 0x286D798
     int CompareTo(::BeatmapSaveDataVersion3::BeatmapSaveData::BeatmapSaveDataItem* other);
   }; // BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.BeatmapSaveDataItem
   #pragma pack(pop)

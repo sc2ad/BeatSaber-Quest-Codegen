@@ -28,23 +28,24 @@ namespace Mono::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class MD2 : public ::System::Security::Cryptography::HashAlgorithm {
     public:
-    // static public Mono.Security.Cryptography.MD2 Create()
-    // Offset: 0x22F7C74
-    static ::Mono::Security::Cryptography::MD2* Create();
     // protected System.Void .ctor()
-    // Offset: 0x22F7C48
-    // Implemented from: System.Security.Cryptography.HashAlgorithm
-    // Base method: System.Void HashAlgorithm::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x23414BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MD2* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Cryptography::MD2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MD2*, creationType>()));
     }
+    // static public Mono.Security.Cryptography.MD2 Create()
+    // Offset: 0x23414E8
+    static ::Mono::Security::Cryptography::MD2* Create();
   }; // Mono.Security.Cryptography.MD2
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Mono::Security::Cryptography::MD2::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Security::Cryptography::MD2::Create
 // Il2CppName: Create
 template<>
@@ -53,7 +54,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Sec
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD2*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Mono::Security::Cryptography::MD2::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

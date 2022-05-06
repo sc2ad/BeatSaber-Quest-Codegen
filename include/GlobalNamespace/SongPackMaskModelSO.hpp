@@ -56,15 +56,7 @@ namespace GlobalNamespace {
     struct SongPackDataType;
     // Nested type: ::GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem
     class SongPackMaskItem;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.List`1<System.String> _defaultSongPackMaskItems
     // Size: 0x8
     // Offset: 0x18
@@ -77,7 +69,7 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*> customSongPackMaskItems;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x124D864
+    // [SpaceAttribute] Offset: 0x10D235C
     // private BeatmapLevelPackCollectionSO _ostAndExtrasCollection
     // Size: 0x8
     // Offset: 0x28
@@ -98,7 +90,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Polyglot::Language) == 0x4);
     // Padding between fields: currentLocalizedLanguage and: songPackSerializedNameToLocalizedNameDict
     char __padding4[0x4] = {};
-    // [TupleElementNamesAttribute] Offset: 0x124D8AC
+    // [TupleElementNamesAttribute] Offset: 0x10D23A4
     // private System.Collections.Generic.Dictionary`2<System.String,System.ValueTuple`2<System.String,System.Boolean>> _songPackSerializedNameToLocalizedNameDict
     // Size: 0x8
     // Offset: 0x40
@@ -121,66 +113,61 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> _defaultSongPackMaskItems
-    ::System::Collections::Generic::List_1<::StringW>*& dyn__defaultSongPackMaskItems();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn__defaultSongPackMaskItems();
     // Get instance field reference: private SongPackMaskModelSO/SongPackMaskItem[] _customSongPackMaskItems
-    ::ArrayW<::GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*>& dyn__customSongPackMaskItems();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*>& dyn__customSongPackMaskItems();
     // Get instance field reference: private BeatmapLevelPackCollectionSO _ostAndExtrasCollection
-    ::GlobalNamespace::BeatmapLevelPackCollectionSO*& dyn__ostAndExtrasCollection();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelPackCollectionSO*& dyn__ostAndExtrasCollection();
     // Get instance field reference: private BeatmapLevelPackCollectionSO _dlcCollection
-    ::GlobalNamespace::BeatmapLevelPackCollectionSO*& dyn__dlcCollection();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelPackCollectionSO*& dyn__dlcCollection();
     // Get instance field reference: private Polyglot.Language _currentLocalizedLanguage
-    ::Polyglot::Language& dyn__currentLocalizedLanguage();
+    [[deprecated("Use field access instead!")]] ::Polyglot::Language& dyn__currentLocalizedLanguage();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.ValueTuple`2<System.String,System.Boolean>> _songPackSerializedNameToLocalizedNameDict
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::System::ValueTuple_2<::StringW, bool>>*& dyn__songPackSerializedNameToLocalizedNameDict();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::System::ValueTuple_2<::StringW, bool>>*& dyn__songPackSerializedNameToLocalizedNameDict();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,SongPackMask> _songPackSerializedNameToMaskDict
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SongPackMask>*& dyn__songPackSerializedNameToMaskDict();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SongPackMask>*& dyn__songPackSerializedNameToMaskDict();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<SongPackMask,System.String> _songPackMaskToSerializedNameDict
-    ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SongPackMask, ::StringW>*& dyn__songPackMaskToSerializedNameDict();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SongPackMask, ::StringW>*& dyn__songPackMaskToSerializedNameDict();
     // public System.Collections.Generic.List`1<System.String> get_defaultSongPackMaskItems()
-    // Offset: 0x2AA54E8
+    // Offset: 0x138C10C
     ::System::Collections::Generic::List_1<::StringW>* get_defaultSongPackMaskItems();
     // public SongPackMaskModelSO/SongPackMaskItem[] get_customSongPackMaskItems()
-    // Offset: 0x2AA54F0
+    // Offset: 0x138C114
     ::ArrayW<::GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*> get_customSongPackMaskItems();
     // public BeatmapLevelPackCollectionSO get_ostAndExtrasCollection()
-    // Offset: 0x2AA54F8
+    // Offset: 0x138C11C
     ::GlobalNamespace::BeatmapLevelPackCollectionSO* get_ostAndExtrasCollection();
     // public BeatmapLevelPackCollectionSO get_dlcCollection()
-    // Offset: 0x2AA5500
+    // Offset: 0x138C124
     ::GlobalNamespace::BeatmapLevelPackCollectionSO* get_dlcCollection();
-    // public System.String ToLocalizedName(System.String serializedName)
-    // Offset: 0x2AA5508
-    ::StringW ToLocalizedName(::StringW serializedName);
-    // public System.String ToLocalizedName(System.String serializedName, out System.Boolean plural)
-    // Offset: 0x2AA552C
-    ::StringW ToLocalizedName(::StringW serializedName, ByRef<bool> plural);
-    // public System.Boolean ToSongPackMask(System.String serializedName, out SongPackMask songPackMask)
-    // Offset: 0x2AA5CCC
-    bool ToSongPackMask(::StringW serializedName, ByRef<::GlobalNamespace::SongPackMask> songPackMask);
-    // public SongPackMask ToSongPackMask(System.String serializedName)
-    // Offset: 0x2AA5D44
-    ::GlobalNamespace::SongPackMask ToSongPackMask(::StringW serializedName);
-    // public System.Boolean ToSerializedName(SongPackMask songPackMask, out System.String serializedName)
-    // Offset: 0x2AA5D7C
-    bool ToSerializedName(::GlobalNamespace::SongPackMask songPackMask, ByRef<::StringW> serializedName);
-    // public System.String ToSerializedName(SongPackMask songPackMask)
-    // Offset: 0x2AA5E04
-    ::StringW ToSerializedName(::GlobalNamespace::SongPackMask songPackMask);
-    // private System.Void LazyInit()
-    // Offset: 0x2AA55E8
-    void LazyInit();
     // public System.Void .ctor()
-    // Offset: 0x2AA6268
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x138CE8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPackMaskModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongPackMaskModelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongPackMaskModelSO*, creationType>()));
     }
+    // public System.String ToLocalizedName(System.String serializedName)
+    // Offset: 0x138C12C
+    ::StringW ToLocalizedName(::StringW serializedName);
+    // public System.String ToLocalizedName(System.String serializedName, out System.Boolean plural)
+    // Offset: 0x138C150
+    ::StringW ToLocalizedName(::StringW serializedName, ByRef<bool> plural);
+    // public System.Boolean ToSongPackMask(System.String serializedName, out SongPackMask songPackMask)
+    // Offset: 0x138C8F0
+    bool ToSongPackMask(::StringW serializedName, ByRef<::GlobalNamespace::SongPackMask> songPackMask);
+    // public SongPackMask ToSongPackMask(System.String serializedName)
+    // Offset: 0x138C968
+    ::GlobalNamespace::SongPackMask ToSongPackMask(::StringW serializedName);
+    // public System.Boolean ToSerializedName(SongPackMask songPackMask, out System.String serializedName)
+    // Offset: 0x138C9A0
+    bool ToSerializedName(::GlobalNamespace::SongPackMask songPackMask, ByRef<::StringW> serializedName);
+    // public System.String ToSerializedName(SongPackMask songPackMask)
+    // Offset: 0x138CA28
+    ::StringW ToSerializedName(::GlobalNamespace::SongPackMask songPackMask);
+    // private System.Void LazyInit()
+    // Offset: 0x138C20C
+    void LazyInit();
   }; // SongPackMaskModelSO
   #pragma pack(pop)
   static check_size<sizeof(SongPackMaskModelSO), 80 + sizeof(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SongPackMask, ::StringW>*)> __GlobalNamespace_SongPackMaskModelSOSizeCheck;
@@ -219,6 +206,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO*), "get_dlcCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::ToLocalizedName
 // Il2CppName: ToLocalizedName
 template<>
@@ -284,7 +275,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO*), "LazyInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

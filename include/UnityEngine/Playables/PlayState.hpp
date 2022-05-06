@@ -53,7 +53,7 @@ namespace UnityEngine::Playables {
     static ::UnityEngine::Playables::PlayState _get_Playing();
     // Set static field: static public UnityEngine.Playables.PlayState Playing
     static void _set_Playing(::UnityEngine::Playables::PlayState value);
-    // [ObsoleteAttribute] Offset: 0x11C5608
+    // [ObsoleteAttribute] Offset: 0x104B020
     // static field const value: static public UnityEngine.Playables.PlayState Delayed
     static constexpr const int Delayed = 2;
     // Get static field: static public UnityEngine.Playables.PlayState Delayed
@@ -61,7 +61,7 @@ namespace UnityEngine::Playables {
     // Set static field: static public UnityEngine.Playables.PlayState Delayed
     static void _set_Delayed(::UnityEngine::Playables::PlayState value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.Playables.PlayState
   #pragma pack(pop)
   static check_size<sizeof(PlayState), 0 + sizeof(int)> __UnityEngine_Playables_PlayStateSizeCheck;

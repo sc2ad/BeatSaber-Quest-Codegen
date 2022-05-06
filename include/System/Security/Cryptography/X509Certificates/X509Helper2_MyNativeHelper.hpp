@@ -38,22 +38,24 @@ namespace System::Security::Cryptography::X509Certificates {
     operator ::System::Security::Cryptography::X509Certificates::INativeCertificateHelper() noexcept {
       return *reinterpret_cast<::System::Security::Cryptography::X509Certificates::INativeCertificateHelper*>(this);
     }
-    // public System.Security.Cryptography.X509Certificates.X509CertificateImpl Import(System.Security.Cryptography.X509Certificates.X509Certificate cert)
-    // Offset: 0x1BC0D74
-    ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
     // public System.Void .ctor()
-    // Offset: 0x1BC0CDC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1BFB2C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Helper2::MyNativeHelper* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509Helper2::MyNativeHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Helper2::MyNativeHelper*, creationType>()));
     }
+    // public System.Security.Cryptography.X509Certificates.X509CertificateImpl Import(System.Security.Cryptography.X509Certificates.X509Certificate cert)
+    // Offset: 0x1BFB35C
+    ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
   }; // System.Security.Cryptography.X509Certificates.X509Helper2/System.Security.Cryptography.X509Certificates.MyNativeHelper
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Helper2::MyNativeHelper::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Helper2::MyNativeHelper::Import
 // Il2CppName: Import
 template<>
@@ -63,7 +65,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::S
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Helper2::MyNativeHelper*), "Import", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cert});
   }
 };
-// Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Helper2::MyNativeHelper::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -29,15 +29,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SceneInfo : public ::GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _sceneName
     // Size: 0x8
     // Offset: 0x18
@@ -54,22 +46,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _sceneName
-    ::StringW& dyn__sceneName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__sceneName();
     // Get instance field reference: private System.Boolean _disabledRootObjects
-    bool& dyn__disabledRootObjects();
+    [[deprecated("Use field access instead!")]] bool& dyn__disabledRootObjects();
     // public System.String get_sceneName()
-    // Offset: 0x29D5084
+    // Offset: 0x2A27594
     ::StringW get_sceneName();
     // public System.Boolean get_disabledRootObjects()
-    // Offset: 0x29D508C
+    // Offset: 0x2A2759C
     bool get_disabledRootObjects();
     // public System.Void .ctor()
-    // Offset: 0x29D5094
+    // Offset: 0x2A275A4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SceneInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SceneInfo::.ctor");

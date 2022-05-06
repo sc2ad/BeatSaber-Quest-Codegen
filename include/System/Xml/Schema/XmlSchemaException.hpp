@@ -20,14 +20,14 @@ namespace System::Xml::Schema {
   // Forward declaring type: XmlSchemaObject
   class XmlSchemaObject;
 }
-// Forward declaring namespace: System
-namespace System {
-  // Skipping declaration: Exception because it is already included!
-}
 // Forward declaring namespace: System::Runtime::Serialization
 namespace System::Runtime::Serialization {
   // Forward declaring type: SerializationInfo
   class SerializationInfo;
+}
+// Forward declaring namespace: System
+namespace System {
+  // Skipping declaration: Exception because it is already included!
 }
 // Completed forward declares
 // Type namespace: System.Xml.Schema
@@ -46,15 +46,7 @@ namespace System::Xml::Schema {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlSchemaException : public ::System::SystemException {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String res
     // Size: 0x8
     // Offset: 0x88
@@ -99,98 +91,85 @@ namespace System::Xml::Schema {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String res
-    ::StringW& dyn_res();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_res();
     // Get instance field reference: private System.String[] args
-    ::ArrayW<::StringW>& dyn_args();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_args();
     // Get instance field reference: private System.String sourceUri
-    ::StringW& dyn_sourceUri();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_sourceUri();
     // Get instance field reference: private System.Int32 lineNumber
-    int& dyn_lineNumber();
+    [[deprecated("Use field access instead!")]] int& dyn_lineNumber();
     // Get instance field reference: private System.Int32 linePosition
-    int& dyn_linePosition();
+    [[deprecated("Use field access instead!")]] int& dyn_linePosition();
     // Get instance field reference: private System.Xml.Schema.XmlSchemaObject sourceSchemaObject
-    ::System::Xml::Schema::XmlSchemaObject*& dyn_sourceSchemaObject();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaObject*& dyn_sourceSchemaObject();
     // Get instance field reference: private System.String message
-    ::StringW& dyn_message();
-    // public System.Void .ctor(System.String message, System.Exception innerException, System.Int32 lineNumber, System.Int32 linePosition)
-    // Offset: 0x2011384
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlSchemaException* New_ctor(::StringW message, ::System::Exception* innerException, int lineNumber, int linePosition) {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaException::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaException*, creationType>(message, innerException, lineNumber, linePosition)));
-    }
-    // System.Void .ctor(System.String res, System.String arg)
-    // Offset: 0x201153C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlSchemaException* New_ctor(::StringW res, ::StringW arg) {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaException::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaException*, creationType>(res, arg)));
-    }
-    // System.Void .ctor(System.String res, System.String arg, System.String sourceUri, System.Int32 lineNumber, System.Int32 linePosition)
-    // Offset: 0x2011620
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlSchemaException* New_ctor(::StringW res, ::StringW arg, ::StringW sourceUri, int lineNumber, int linePosition) {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaException::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaException*, creationType>(res, arg, sourceUri, lineNumber, linePosition)));
-    }
-    // System.Void .ctor(System.String res, System.String[] args, System.Exception innerException, System.String sourceUri, System.Int32 lineNumber, System.Int32 linePosition, System.Xml.Schema.XmlSchemaObject source)
-    // Offset: 0x20114B0
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlSchemaException* New_ctor(::StringW res, ::ArrayW<::StringW> args, ::System::Exception* innerException, ::StringW sourceUri, int lineNumber, int linePosition, ::System::Xml::Schema::XmlSchemaObject* source) {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaException::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaException*, creationType>(res, args, innerException, sourceUri, lineNumber, linePosition, source)));
-    }
-    // static System.String CreateMessage(System.String res, System.String[] args)
-    // Offset: 0x2011140
-    static ::StringW CreateMessage(::StringW res, ::ArrayW<::StringW> args);
-    // public override System.String get_Message()
-    // Offset: 0x2011724
-    // Implemented from: System.Exception
-    // Base method: System.String Exception::get_Message()
-    ::StringW get_Message();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_message();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x2010E64
-    // Implemented from: System.SystemException
-    // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
+    // Offset: 0x205A6D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaException*, creationType>(info, context)));
     }
     // public System.Void .ctor()
-    // Offset: 0x2011360
-    // Implemented from: System.SystemException
-    // Base method: System.Void SystemException::.ctor()
-    // Base method: System.Void Exception::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x205ABD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaException* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x2011374
-    // Implemented from: System.SystemException
-    // Base method: System.Void SystemException::.ctor(System.String message)
-    // Base method: System.Void Exception::.ctor(System.String message)
+    // Offset: 0x205ABE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x20114A4
-    // Implemented from: System.SystemException
-    // Base method: System.Void SystemException::.ctor(System.String message, System.Exception innerException)
-    // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
+    // Offset: 0x205AD18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaException* New_ctor(::StringW message, ::System::Exception* innerException) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaException*, creationType>(message, innerException)));
     }
+    // public System.Void .ctor(System.String message, System.Exception innerException, System.Int32 lineNumber, System.Int32 linePosition)
+    // Offset: 0x205ABF8
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static XmlSchemaException* New_ctor(::StringW message, ::System::Exception* innerException, int lineNumber, int linePosition) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaException::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaException*, creationType>(message, innerException, lineNumber, linePosition)));
+    }
+    // System.Void .ctor(System.String res, System.String arg)
+    // Offset: 0x205ADB0
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static XmlSchemaException* New_ctor(::StringW res, ::StringW arg) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaException::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaException*, creationType>(res, arg)));
+    }
+    // System.Void .ctor(System.String res, System.String arg, System.String sourceUri, System.Int32 lineNumber, System.Int32 linePosition)
+    // Offset: 0x205AE94
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static XmlSchemaException* New_ctor(::StringW res, ::StringW arg, ::StringW sourceUri, int lineNumber, int linePosition) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaException::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaException*, creationType>(res, arg, sourceUri, lineNumber, linePosition)));
+    }
+    // System.Void .ctor(System.String res, System.String[] args, System.Exception innerException, System.String sourceUri, System.Int32 lineNumber, System.Int32 linePosition, System.Xml.Schema.XmlSchemaObject source)
+    // Offset: 0x205AD24
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static XmlSchemaException* New_ctor(::StringW res, ::ArrayW<::StringW> args, ::System::Exception* innerException, ::StringW sourceUri, int lineNumber, int linePosition, ::System::Xml::Schema::XmlSchemaObject* source) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaException::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaException*, creationType>(res, args, innerException, sourceUri, lineNumber, linePosition, source)));
+    }
+    // static System.String CreateMessage(System.String res, System.String[] args)
+    // Offset: 0x205A9B4
+    static ::StringW CreateMessage(::StringW res, ::ArrayW<::StringW> args);
+    // public override System.String get_Message()
+    // Offset: 0x205AF98
+    // Implemented from: System.Exception
+    // Base method: System.String Exception::get_Message()
+    ::StringW get_Message();
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x2011238
+    // Offset: 0x205AAAC
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
@@ -200,6 +179,22 @@ namespace System::Xml::Schema {
   static_assert(sizeof(XmlSchemaException) == 0xB8);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaException::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaException::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaException::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaException::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -234,22 +229,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaException*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaException::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaException::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaException::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaException::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaException::GetObjectData
 // Il2CppName: GetObjectData
 template<>

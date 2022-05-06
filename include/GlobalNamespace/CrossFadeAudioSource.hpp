@@ -50,15 +50,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CrossFadeAudioSource : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _duration
     // Size: 0x4
     // Offset: 0x18
@@ -91,7 +83,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AudioPitchGainEffect* audioPitchGainEffect2;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioPitchGainEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0x124A710
+    // [InjectAttribute] Offset: 0x10CF208
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x40
@@ -138,93 +130,87 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _duration
-    float& dyn__duration();
+    [[deprecated("Use field access instead!")]] float& dyn__duration();
     // Get instance field reference: private UnityEngine.AudioSource _audioSource1
-    ::UnityEngine::AudioSource*& dyn__audioSource1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioSource*& dyn__audioSource1();
     // Get instance field reference: private UnityEngine.AudioSource _audioSource2
-    ::UnityEngine::AudioSource*& dyn__audioSource2();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioSource*& dyn__audioSource2();
     // Get instance field reference: private AudioPitchGainEffect _audioPitchGainEffect1
-    ::GlobalNamespace::AudioPitchGainEffect*& dyn__audioPitchGainEffect1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioPitchGainEffect*& dyn__audioPitchGainEffect1();
     // Get instance field reference: private AudioPitchGainEffect _audioPitchGainEffect2
-    ::GlobalNamespace::AudioPitchGainEffect*& dyn__audioPitchGainEffect2();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioPitchGainEffect*& dyn__audioPitchGainEffect2();
     // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
-    ::Tweening::TimeTweeningManager*& dyn__tweeningManager();
+    [[deprecated("Use field access instead!")]] ::Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private UnityEngine.AudioSource _activeAudioSource
-    ::UnityEngine::AudioSource*& dyn__activeAudioSource();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioSource*& dyn__activeAudioSource();
     // Get instance field reference: private UnityEngine.AudioSource _inactiveAudioSource
-    ::UnityEngine::AudioSource*& dyn__inactiveAudioSource();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioSource*& dyn__inactiveAudioSource();
     // Get instance field reference: private Tweening.Tween`1<System.Single> _volumeDownTween
-    ::Tweening::Tween_1<float>*& dyn__volumeDownTween();
+    [[deprecated("Use field access instead!")]] ::Tweening::Tween_1<float>*& dyn__volumeDownTween();
     // Get instance field reference: private Tweening.Tween`1<System.Single> _volumeUpTween
-    ::Tweening::Tween_1<float>*& dyn__volumeUpTween();
+    [[deprecated("Use field access instead!")]] ::Tweening::Tween_1<float>*& dyn__volumeUpTween();
     // Get instance field reference: private AudioPitchGainEffect _activePitchGainEffect
-    ::GlobalNamespace::AudioPitchGainEffect*& dyn__activePitchGainEffect();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioPitchGainEffect*& dyn__activePitchGainEffect();
     // Get instance field reference: private AudioPitchGainEffect _inactivePitchGainEffect
-    ::GlobalNamespace::AudioPitchGainEffect*& dyn__inactivePitchGainEffect();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioPitchGainEffect*& dyn__inactivePitchGainEffect();
     // public UnityEngine.AudioClip get_clip()
-    // Offset: 0x140843C
+    // Offset: 0x14281E8
     ::UnityEngine::AudioClip* get_clip();
     // public System.Void set_clip(UnityEngine.AudioClip value)
-    // Offset: 0x1408458
+    // Offset: 0x1428204
     void set_clip(::UnityEngine::AudioClip* value);
     // public System.Void set_pitch(System.Single value)
-    // Offset: 0x140849C
+    // Offset: 0x1428248
     void set_pitch(float value);
     // public System.Void set_time(System.Single value)
-    // Offset: 0x14084E8
+    // Offset: 0x1428294
     void set_time(float value);
     // public System.Boolean get_isPlaying()
-    // Offset: 0x1408534
+    // Offset: 0x14282E0
     bool get_isPlaying();
-    // protected System.Void Awake()
-    // Offset: 0x1408550
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x14086A8
-    void OnDestroy();
-    // public System.Void PlayPitchGainEffect(System.Single volumeScale)
-    // Offset: 0x1408740
-    void PlayPitchGainEffect(float volumeScale);
-    // public System.Void InterruptLastPitchGainEffect()
-    // Offset: 0x1408760
-    void InterruptLastPitchGainEffect();
-    // public System.Void CrossFade(System.Single toSongTime, System.Single toVolume)
-    // Offset: 0x140877C
-    void CrossFade(float toSongTime, float toVolume);
-    // public System.Void Play()
-    // Offset: 0x140894C
-    void Play();
-    // public System.Void Stop()
-    // Offset: 0x1408968
-    void Stop();
-    // private System.Void <Awake>b__21_0(System.Single val)
-    // Offset: 0x14089D8
-    void $Awake$b__21_0(float val);
-    // private System.Void <Awake>b__21_1(System.Single val)
-    // Offset: 0x14089F4
-    void $Awake$b__21_1(float val);
-    // private System.Void <CrossFade>b__25_0(System.Single val)
-    // Offset: 0x1408A10
-    void $CrossFade$b__25_0(float val);
-    // private System.Void <CrossFade>b__25_1(System.Single val)
-    // Offset: 0x1408A2C
-    void $CrossFade$b__25_1(float val);
-    // private System.Void <CrossFade>b__25_2()
-    // Offset: 0x1408A48
-    void $CrossFade$b__25_2();
     // public System.Void .ctor()
-    // Offset: 0x14089C4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1428770
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrossFadeAudioSource* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CrossFadeAudioSource::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrossFadeAudioSource*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x14282FC
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1428454
+    void OnDestroy();
+    // public System.Void PlayPitchGainEffect(System.Single volumeScale)
+    // Offset: 0x14284EC
+    void PlayPitchGainEffect(float volumeScale);
+    // public System.Void InterruptLastPitchGainEffect()
+    // Offset: 0x142850C
+    void InterruptLastPitchGainEffect();
+    // public System.Void CrossFade(System.Single toSongTime, System.Single toVolume)
+    // Offset: 0x1428528
+    void CrossFade(float toSongTime, float toVolume);
+    // public System.Void Play()
+    // Offset: 0x14286F8
+    void Play();
+    // public System.Void Stop()
+    // Offset: 0x1428714
+    void Stop();
+    // private System.Void <Awake>b__21_0(System.Single val)
+    // Offset: 0x1428784
+    void $Awake$b__21_0(float val);
+    // private System.Void <Awake>b__21_1(System.Single val)
+    // Offset: 0x14287A0
+    void $Awake$b__21_1(float val);
+    // private System.Void <CrossFade>b__25_0(System.Single val)
+    // Offset: 0x14287BC
+    void $CrossFade$b__25_0(float val);
+    // private System.Void <CrossFade>b__25_1(System.Single val)
+    // Offset: 0x14287D8
+    void $CrossFade$b__25_1(float val);
+    // private System.Void <CrossFade>b__25_2()
+    // Offset: 0x14287F4
+    void $CrossFade$b__25_2();
   }; // CrossFadeAudioSource
   #pragma pack(pop)
   static check_size<sizeof(CrossFadeAudioSource), 112 + sizeof(::GlobalNamespace::AudioPitchGainEffect*)> __GlobalNamespace_CrossFadeAudioSourceSizeCheck;
@@ -274,6 +260,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CrossFadeAudioSource*), "get_isPlaying", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::CrossFadeAudioSource::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CrossFadeAudioSource::Awake
 // Il2CppName: Awake
 template<>
@@ -377,7 +367,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CrossFadeAudioSource*), "<CrossFade>b__25_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CrossFadeAudioSource::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

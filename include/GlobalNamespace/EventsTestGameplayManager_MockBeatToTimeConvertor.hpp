@@ -25,15 +25,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EventsTestGameplayManager::MockBeatToTimeConvertor : public ::Il2CppObject/*, public ::GlobalNamespace::IBeatToTimeConvertor*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Single _bpm
     // Size: 0x4
     // Offset: 0x10
@@ -50,16 +42,16 @@ namespace GlobalNamespace {
       return bpm;
     }
     // Get instance field reference: private readonly System.Single _bpm
-    float& dyn__bpm();
+    [[deprecated("Use field access instead!")]] float& dyn__bpm();
     // public System.Void .ctor(System.Single bpm)
-    // Offset: 0x1386DB8
+    // Offset: 0x136E994
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventsTestGameplayManager::MockBeatToTimeConvertor* New_ctor(float bpm) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EventsTestGameplayManager::MockBeatToTimeConvertor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventsTestGameplayManager::MockBeatToTimeConvertor*, creationType>(bpm)));
     }
     // public System.Single ConvertBeatToTime(System.Single beat)
-    // Offset: 0x1389544
+    // Offset: 0x137111C
     float ConvertBeatToTime(float beat);
   }; // EventsTestGameplayManager/MockBeatToTimeConvertor
   #pragma pack(pop)

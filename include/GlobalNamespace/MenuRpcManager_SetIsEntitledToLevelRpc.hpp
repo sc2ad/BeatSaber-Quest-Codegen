@@ -26,11 +26,10 @@ namespace GlobalNamespace {
   class MenuRpcManager::SetIsEntitledToLevelRpc : public ::GlobalNamespace::RemoteProcedureCall_2<::StringW, int> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x170057C
+    // Offset: 0x1738E8C
     // Implemented from: RemoteProcedureCall`2
     // Base method: System.Void RemoteProcedureCall_2::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuRpcManager::SetIsEntitledToLevelRpc* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuRpcManager::SetIsEntitledToLevelRpc::.ctor");

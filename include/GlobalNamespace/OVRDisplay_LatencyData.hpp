@@ -60,15 +60,15 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single render
-    float& dyn_render();
+    [[deprecated("Use field access instead!")]] float& dyn_render();
     // Get instance field reference: public System.Single timeWarp
-    float& dyn_timeWarp();
+    [[deprecated("Use field access instead!")]] float& dyn_timeWarp();
     // Get instance field reference: public System.Single postPresent
-    float& dyn_postPresent();
+    [[deprecated("Use field access instead!")]] float& dyn_postPresent();
     // Get instance field reference: public System.Single renderError
-    float& dyn_renderError();
+    [[deprecated("Use field access instead!")]] float& dyn_renderError();
     // Get instance field reference: public System.Single timeWarpError
-    float& dyn_timeWarpError();
+    [[deprecated("Use field access instead!")]] float& dyn_timeWarpError();
   }; // OVRDisplay/LatencyData
   #pragma pack(pop)
   static check_size<sizeof(OVRDisplay::LatencyData), 16 + sizeof(float)> __GlobalNamespace_OVRDisplay_LatencyDataSizeCheck;

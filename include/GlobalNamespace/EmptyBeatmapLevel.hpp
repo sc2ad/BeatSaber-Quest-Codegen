@@ -64,15 +64,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EmptyBeatmapLevel : public ::Il2CppObject/*, public ::GlobalNamespace::IBeatmapLevel*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly IBeatmapLevelData <beatmapLevelData>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -89,70 +81,68 @@ namespace GlobalNamespace {
       return beatmapLevelData;
     }
     // Get instance field reference: private readonly IBeatmapLevelData <beatmapLevelData>k__BackingField
-    ::GlobalNamespace::IBeatmapLevelData*& dyn_$beatmapLevelData$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatmapLevelData*& dyn_$beatmapLevelData$k__BackingField();
     // public System.String get_levelID()
-    // Offset: 0x1416364
+    // Offset: 0x1436110
     ::StringW get_levelID();
     // public System.String get_songName()
-    // Offset: 0x141636C
+    // Offset: 0x1436118
     ::StringW get_songName();
     // public System.String get_songSubName()
-    // Offset: 0x1416374
+    // Offset: 0x1436120
     ::StringW get_songSubName();
     // public System.String get_songAuthorName()
-    // Offset: 0x141637C
+    // Offset: 0x1436128
     ::StringW get_songAuthorName();
     // public System.String get_levelAuthorName()
-    // Offset: 0x1416384
+    // Offset: 0x1436130
     ::StringW get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
-    // Offset: 0x141638C
+    // Offset: 0x1436138
     float get_beatsPerMinute();
     // public System.Single get_songTimeOffset()
-    // Offset: 0x1416394
+    // Offset: 0x1436140
     float get_songTimeOffset();
     // public System.Single get_shuffle()
-    // Offset: 0x141639C
+    // Offset: 0x1436148
     float get_shuffle();
     // public System.Single get_shufflePeriod()
-    // Offset: 0x14163A4
+    // Offset: 0x1436150
     float get_shufflePeriod();
     // public System.Single get_previewStartTime()
-    // Offset: 0x14163AC
+    // Offset: 0x1436158
     float get_previewStartTime();
     // public System.Single get_previewDuration()
-    // Offset: 0x14163B4
+    // Offset: 0x1436160
     float get_previewDuration();
     // public System.Single get_songDuration()
-    // Offset: 0x14163BC
+    // Offset: 0x1436168
     float get_songDuration();
     // public EnvironmentInfoSO get_environmentInfo()
-    // Offset: 0x14163C4
+    // Offset: 0x1436170
     ::GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
     // public EnvironmentInfoSO get_allDirectionsEnvironmentInfo()
-    // Offset: 0x14163CC
+    // Offset: 0x1436178
     ::GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
     // public System.Collections.Generic.IReadOnlyList`1<PreviewDifficultyBeatmapSet> get_previewDifficultyBeatmapSets()
-    // Offset: 0x14163D4
+    // Offset: 0x1436180
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
     // public IBeatmapLevelData get_beatmapLevelData()
-    // Offset: 0x141649C
+    // Offset: 0x1436248
     ::GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
-    // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> GetPreviewAudioClipAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x14163DC
-    ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* GetPreviewAudioClipAsync(::System::Threading::CancellationToken cancellationToken);
-    // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x141643C
-    ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x14164A4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1436250
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EmptyBeatmapLevel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EmptyBeatmapLevel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmptyBeatmapLevel*, creationType>()));
     }
+    // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> GetPreviewAudioClipAsync(System.Threading.CancellationToken cancellationToken)
+    // Offset: 0x1436188
+    ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* GetPreviewAudioClipAsync(::System::Threading::CancellationToken cancellationToken);
+    // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
+    // Offset: 0x14361E8
+    ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken);
   }; // EmptyBeatmapLevel
   #pragma pack(pop)
   static check_size<sizeof(EmptyBeatmapLevel), 16 + sizeof(::GlobalNamespace::IBeatmapLevelData*)> __GlobalNamespace_EmptyBeatmapLevelSizeCheck;
@@ -287,6 +277,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EmptyBeatmapLevel*), "get_beatmapLevelData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::EmptyBeatmapLevel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EmptyBeatmapLevel::GetPreviewAudioClipAsync
 // Il2CppName: GetPreviewAudioClipAsync
 template<>
@@ -305,7 +299,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EmptyBeatmapLevel*), "GetCoverImageAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::EmptyBeatmapLevel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

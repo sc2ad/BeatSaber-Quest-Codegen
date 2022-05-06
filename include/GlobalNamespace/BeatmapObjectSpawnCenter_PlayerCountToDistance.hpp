@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapObjectSpawnCenter::PlayerCountToDistance : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _playerCount
     // Size: 0x4
     // Offset: 0x10
@@ -46,19 +38,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private System.Int32 _playerCount
-    int& dyn__playerCount();
+    [[deprecated("Use field access instead!")]] int& dyn__playerCount();
     // Get instance field reference: private System.Single _distance
-    float& dyn__distance();
+    [[deprecated("Use field access instead!")]] float& dyn__distance();
     // public System.Int32 get_playerCount()
-    // Offset: 0x14D880C
+    // Offset: 0x1510114
     int get_playerCount();
     // public System.Single get_distance()
-    // Offset: 0x14D8814
+    // Offset: 0x151011C
     float get_distance();
     // public System.Void .ctor()
-    // Offset: 0x14D881C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1510124
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectSpawnCenter::PlayerCountToDistance* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance::.ctor");

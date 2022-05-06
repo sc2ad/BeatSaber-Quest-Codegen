@@ -46,15 +46,7 @@ namespace BGNet::Core::Messages {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnconnectedMessageHandler::MultipartMessageWaiter : public ::BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiter {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly SmallBufferPool _bufferPool
     // Size: 0x8
     // Offset: 0x10
@@ -75,7 +67,7 @@ namespace BGNet::Core::Messages {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: length and: ranges
     char __padding2[0x4] = {};
-    // [TupleElementNamesAttribute] Offset: 0x12329A8
+    // [TupleElementNamesAttribute] Offset: 0x10B6400
     // private readonly System.Collections.Generic.List`1<System.ValueTuple`2<System.Int32,System.Int32>> _ranges
     // Size: 0x8
     // Offset: 0x28
@@ -96,38 +88,38 @@ namespace BGNet::Core::Messages {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private readonly SmallBufferPool _bufferPool
-    ::GlobalNamespace::SmallBufferPool*& dyn__bufferPool();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SmallBufferPool*& dyn__bufferPool();
     // Get instance field reference: private System.Byte[] _buffer
-    ::ArrayW<uint8_t>& dyn__buffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__buffer();
     // Get instance field reference: private System.Int32 _length
-    int& dyn__length();
+    [[deprecated("Use field access instead!")]] int& dyn__length();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.ValueTuple`2<System.Int32,System.Int32>> _ranges
-    ::System::Collections::Generic::List_1<::System::ValueTuple_2<int, int>>*& dyn__ranges();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::ValueTuple_2<int, int>>*& dyn__ranges();
     // Get instance field reference: private System.Boolean _isComplete
-    bool& dyn__isComplete();
+    [[deprecated("Use field access instead!")]] bool& dyn__isComplete();
     // Get instance field reference: private System.Boolean _isDisposed
-    bool& dyn__isDisposed();
+    [[deprecated("Use field access instead!")]] bool& dyn__isDisposed();
     // public System.Boolean get_isWaiting()
-    // Offset: 0x1502FDC
+    // Offset: 0x153A8E4
     bool get_isWaiting();
     // public System.Byte[] get_data()
-    // Offset: 0x1502FFC
+    // Offset: 0x153A904
     ::ArrayW<uint8_t> get_data();
     // public System.Int32 get_length()
-    // Offset: 0x1503004
+    // Offset: 0x153A90C
     int get_length();
     // public System.Void .ctor(SmallBufferPool bufferPool)
-    // Offset: 0x1502854
+    // Offset: 0x153A15C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnconnectedMessageHandler::MultipartMessageWaiter* New_ctor(::GlobalNamespace::SmallBufferPool* bufferPool) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::MultipartMessageWaiter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnconnectedMessageHandler::MultipartMessageWaiter*, creationType>(bufferPool)));
     }
     // public System.Void Append(BGNet.Core.Messages.IUnconnectedMultipartMessage packet)
-    // Offset: 0x1502924
+    // Offset: 0x153A22C
     void Append(::BGNet::Core::Messages::IUnconnectedMultipartMessage* packet);
     // public override System.Void Dispose()
-    // Offset: 0x15028E0
+    // Offset: 0x153A1E8
     // Implemented from: BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.RequestWaiter
     // Base method: System.Void RequestWaiter::Dispose()
     void Dispose();

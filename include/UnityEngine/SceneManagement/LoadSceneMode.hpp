@@ -54,7 +54,7 @@ namespace UnityEngine::SceneManagement {
     // Set static field: static public UnityEngine.SceneManagement.LoadSceneMode Additive
     static void _set_Additive(::UnityEngine::SceneManagement::LoadSceneMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.SceneManagement.LoadSceneMode
   #pragma pack(pop)
   static check_size<sizeof(LoadSceneMode), 0 + sizeof(int)> __UnityEngine_SceneManagement_LoadSceneModeSizeCheck;

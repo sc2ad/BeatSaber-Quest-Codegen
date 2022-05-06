@@ -47,15 +47,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::TweenPosition::$AnimateToNewPosCoroutine$d__11
     class $AnimateToNewPosCoroutine$d__11;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean _unscaledTime
     // Size: 0x1
     // Offset: 0x18
@@ -98,45 +90,39 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Boolean _unscaledTime
-    bool& dyn__unscaledTime();
+    [[deprecated("Use field access instead!")]] bool& dyn__unscaledTime();
     // Get instance field reference: public System.Boolean _localPosition
-    bool& dyn__localPosition();
+    [[deprecated("Use field access instead!")]] bool& dyn__localPosition();
     // Get instance field reference: public System.Single _duration
-    float& dyn__duration();
+    [[deprecated("Use field access instead!")]] float& dyn__duration();
     // Get instance field reference: public UnityEngine.AnimationCurve _animationCurve
-    ::UnityEngine::AnimationCurve*& dyn__animationCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__animationCurve();
     // Get instance field reference: private UnityEngine.Transform _transform
-    ::UnityEngine::Transform*& dyn__transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // Get instance field reference: private UnityEngine.Vector3 _targetPos
-    ::UnityEngine::Vector3& dyn__targetPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__targetPos();
     // public UnityEngine.Vector3 get_TargetPos()
-    // Offset: 0x29D9278
+    // Offset: 0x2A2B788
     ::UnityEngine::Vector3 get_TargetPos();
     // public System.Void set_TargetPos(UnityEngine.Vector3 value)
-    // Offset: 0x29D90E8
+    // Offset: 0x2A2B5F8
     void set_TargetPos(::UnityEngine::Vector3 value);
-    // protected System.Void Awake()
-    // Offset: 0x29D9284
-    void Awake();
-    // private System.Void AnimateToNewPos(UnityEngine.Vector3 pos)
-    // Offset: 0x29D91C8
-    void AnimateToNewPos(::UnityEngine::Vector3 pos);
-    // private System.Collections.IEnumerator AnimateToNewPosCoroutine(UnityEngine.Vector3 pos)
-    // Offset: 0x29D92AC
-    ::System::Collections::IEnumerator* AnimateToNewPosCoroutine(::UnityEngine::Vector3 pos);
     // public System.Void .ctor()
-    // Offset: 0x29D9348
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A2B858
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TweenPosition* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TweenPosition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TweenPosition*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x2A2B794
+    void Awake();
+    // private System.Void AnimateToNewPos(UnityEngine.Vector3 pos)
+    // Offset: 0x2A2B6D8
+    void AnimateToNewPos(::UnityEngine::Vector3 pos);
+    // private System.Collections.IEnumerator AnimateToNewPosCoroutine(UnityEngine.Vector3 pos)
+    // Offset: 0x2A2B7BC
+    ::System::Collections::IEnumerator* AnimateToNewPosCoroutine(::UnityEngine::Vector3 pos);
   }; // TweenPosition
   #pragma pack(pop)
   static check_size<sizeof(TweenPosition), 48 + sizeof(::UnityEngine::Vector3)> __GlobalNamespace_TweenPositionSizeCheck;
@@ -160,6 +146,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TweenPosition*), "set_TargetPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::TweenPosition::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TweenPosition::Awake
 // Il2CppName: Awake
 template<>
@@ -186,7 +176,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TweenPosition*), "AnimateToNewPosCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pos});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TweenPosition::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -43,25 +43,27 @@ namespace Org::BouncyCastle::Utilities::Collections {
     static ::System::Collections::IEnumerable* _get_Instance();
     // Set static field: static public readonly System.Collections.IEnumerable Instance
     static void _set_Instance(::System::Collections::IEnumerable* value);
-    // static private System.Void .cctor()
-    // Offset: 0x17D0120
-    static void _cctor();
-    // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x17D00B8
-    ::System::Collections::IEnumerator* GetEnumerator();
     // private System.Void .ctor()
-    // Offset: 0x17D00B0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18099C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EmptyEnumerable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::Collections::EmptyEnumerable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmptyEnumerable*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1809A30
+    static void _cctor();
+    // public System.Collections.IEnumerator GetEnumerator()
+    // Offset: 0x18099C8
+    ::System::Collections::IEnumerator* GetEnumerator();
   }; // Org.BouncyCastle.Utilities.Collections.EmptyEnumerable
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::EmptyEnumerable::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::EmptyEnumerable::_cctor
 // Il2CppName: .cctor
 template<>
@@ -78,7 +80,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::EmptyEnumerable*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::EmptyEnumerable::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

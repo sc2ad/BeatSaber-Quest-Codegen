@@ -90,7 +90,7 @@ namespace UnityOpus {
     // Set static field: static public UnityOpus.ErrorCode AllocFail
     static void _set_AllocFail(::UnityOpus::ErrorCode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityOpus.ErrorCode
   #pragma pack(pop)
   static check_size<sizeof(ErrorCode), 0 + sizeof(int)> __UnityOpus_ErrorCodeSizeCheck;

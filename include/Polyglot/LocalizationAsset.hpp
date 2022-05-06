@@ -35,15 +35,7 @@ namespace Polyglot {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalizationAsset : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.TextAsset textAsset
     // Size: 0x8
     // Offset: 0x10
@@ -58,25 +50,23 @@ namespace Polyglot {
     static_assert(sizeof(::Polyglot::GoogleDriveDownloadFormat) == 0x4);
     public:
     // Get instance field reference: private UnityEngine.TextAsset textAsset
-    ::UnityEngine::TextAsset*& dyn_textAsset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TextAsset*& dyn_textAsset();
     // Get instance field reference: private Polyglot.GoogleDriveDownloadFormat format
-    ::Polyglot::GoogleDriveDownloadFormat& dyn_format();
+    [[deprecated("Use field access instead!")]] ::Polyglot::GoogleDriveDownloadFormat& dyn_format();
     // public UnityEngine.TextAsset get_TextAsset()
-    // Offset: 0x29DF7D8
+    // Offset: 0x2A350CC
     ::UnityEngine::TextAsset* get_TextAsset();
     // public System.Void set_TextAsset(UnityEngine.TextAsset value)
-    // Offset: 0x29DF7E0
+    // Offset: 0x2A350D4
     void set_TextAsset(::UnityEngine::TextAsset* value);
     // public Polyglot.GoogleDriveDownloadFormat get_Format()
-    // Offset: 0x29DF7E8
+    // Offset: 0x2A350DC
     ::Polyglot::GoogleDriveDownloadFormat get_Format();
     // public System.Void set_Format(Polyglot.GoogleDriveDownloadFormat value)
-    // Offset: 0x29DF7F0
+    // Offset: 0x2A350E4
     void set_Format(::Polyglot::GoogleDriveDownloadFormat value);
     // public System.Void .ctor()
-    // Offset: 0x29DF7F8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A350EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizationAsset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Polyglot::LocalizationAsset::.ctor");

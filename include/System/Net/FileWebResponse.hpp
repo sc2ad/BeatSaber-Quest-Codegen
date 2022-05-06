@@ -58,15 +58,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class FileWebResponse : public ::System::Net::WebResponse/*, public ::System::Net::ICloseEx*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean m_closed
     // Size: 0x1
     // Offset: 0x18
@@ -115,45 +107,45 @@ namespace System::Net {
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get instance field reference: private System.Boolean m_closed
-    bool& dyn_m_closed();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_closed();
     // Get instance field reference: private System.Int64 m_contentLength
-    int64_t& dyn_m_contentLength();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_m_contentLength();
     // Get instance field reference: private System.IO.FileAccess m_fileAccess
-    ::System::IO::FileAccess& dyn_m_fileAccess();
+    [[deprecated("Use field access instead!")]] ::System::IO::FileAccess& dyn_m_fileAccess();
     // Get instance field reference: private System.Net.WebHeaderCollection m_headers
-    ::System::Net::WebHeaderCollection*& dyn_m_headers();
+    [[deprecated("Use field access instead!")]] ::System::Net::WebHeaderCollection*& dyn_m_headers();
     // Get instance field reference: private System.IO.Stream m_stream
-    ::System::IO::Stream*& dyn_m_stream();
+    [[deprecated("Use field access instead!")]] ::System::IO::Stream*& dyn_m_stream();
     // Get instance field reference: private System.Uri m_uri
-    ::System::Uri*& dyn_m_uri();
+    [[deprecated("Use field access instead!")]] ::System::Uri*& dyn_m_uri();
     // System.Void .ctor(System.Net.FileWebRequest request, System.Uri uri, System.IO.FileAccess access, System.Boolean asyncHint)
-    // Offset: 0x1A46994
+    // Offset: 0x1A7FF7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileWebResponse* New_ctor(::System::Net::FileWebRequest* request, ::System::Uri* uri, ::System::IO::FileAccess access, bool asyncHint) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::FileWebResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileWebResponse*, creationType>(request, uri, access, asyncHint)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1A4745C
+    // Offset: 0x1A80A44
     void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
     // private System.Void CheckDisposed()
-    // Offset: 0x1A475F8
+    // Offset: 0x1A80BE0
     void CheckDisposed();
     // private System.Void System.Net.ICloseEx.CloseEx(System.Net.CloseExState closeState)
-    // Offset: 0x1A47770
+    // Offset: 0x1A80D58
     void System_Net_ICloseEx_CloseEx(::System::Net::CloseExState closeState);
     // public override System.Net.WebHeaderCollection get_Headers()
-    // Offset: 0x1A475D4
+    // Offset: 0x1A80BBC
     // Implemented from: System.Net.WebResponse
     // Base method: System.Net.WebHeaderCollection WebResponse::get_Headers()
     ::System::Net::WebHeaderCollection* get_Headers();
     // public override System.Uri get_ResponseUri()
-    // Offset: 0x1A476A4
+    // Offset: 0x1A80C8C
     // Implemented from: System.Net.WebResponse
     // Base method: System.Uri WebResponse::get_ResponseUri()
     ::System::Uri* get_ResponseUri();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1A472A8
+    // Offset: 0x1A80890
     // Implemented from: System.Net.WebResponse
     // Base method: System.Void WebResponse::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -162,17 +154,17 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<FileWebResponse*, creationType>(serializationInfo, streamingContext)));
     }
     // protected override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1A47468
+    // Offset: 0x1A80A50
     // Implemented from: System.Net.WebResponse
     // Base method: System.Void WebResponse::GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
     // public override System.Void Close()
-    // Offset: 0x1A476C8
+    // Offset: 0x1A80CB0
     // Implemented from: System.Net.WebResponse
     // Base method: System.Void WebResponse::Close()
     void Close();
     // public override System.IO.Stream GetResponseStream()
-    // Offset: 0x1A478E8
+    // Offset: 0x1A80ED0
     // Implemented from: System.Net.WebResponse
     // Base method: System.IO.Stream WebResponse::GetResponseStream()
     ::System::IO::Stream* GetResponseStream();

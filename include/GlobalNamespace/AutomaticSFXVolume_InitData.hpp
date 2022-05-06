@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AutomaticSFXVolume::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Single volumeOffset
     // Size: 0x4
     // Offset: 0x10
@@ -52,13 +44,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public readonly System.Single volumeOffset
-    float& dyn_volumeOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_volumeOffset();
     // Get instance field reference: public readonly System.Single maxVolume
-    float& dyn_maxVolume();
+    [[deprecated("Use field access instead!")]] float& dyn_maxVolume();
     // Get instance field reference: public readonly System.Boolean adaptiveSfx
-    bool& dyn_adaptiveSfx();
+    [[deprecated("Use field access instead!")]] bool& dyn_adaptiveSfx();
     // public System.Void .ctor(System.Single volumeOffset, System.Boolean adaptiveSfx, System.Single maxVolume)
-    // Offset: 0x14BB5B0
+    // Offset: 0x14F2E68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AutomaticSFXVolume::InitData* New_ctor(float volumeOffset, bool adaptiveSfx, float maxVolume) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AutomaticSFXVolume::InitData::.ctor");

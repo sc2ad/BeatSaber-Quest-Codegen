@@ -37,15 +37,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class MatchmakingBrowseResult : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly Oculus.Platform.Models.MatchmakingEnqueueResult EnqueueResult
     // Size: 0x8
     // Offset: 0x10
@@ -60,11 +52,11 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Oculus::Platform::Models::RoomList*) == 0x8);
     public:
     // Get instance field reference: public readonly Oculus.Platform.Models.MatchmakingEnqueueResult EnqueueResult
-    ::Oculus::Platform::Models::MatchmakingEnqueueResult*& dyn_EnqueueResult();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::MatchmakingEnqueueResult*& dyn_EnqueueResult();
     // Get instance field reference: public readonly Oculus.Platform.Models.RoomList Rooms
-    ::Oculus::Platform::Models::RoomList*& dyn_Rooms();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::RoomList*& dyn_Rooms();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19AF418
+    // Offset: 0x19E8A00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchmakingBrowseResult* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::MatchmakingBrowseResult::.ctor");

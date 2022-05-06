@@ -39,15 +39,7 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class CIELabColor : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single L
     // Size: 0x4
     // Offset: 0x10
@@ -68,26 +60,26 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public System.Single L
-    float& dyn_L();
+    [[deprecated("Use field access instead!")]] float& dyn_L();
     // Get instance field reference: public System.Single a
-    float& dyn_a();
+    [[deprecated("Use field access instead!")]] float& dyn_a();
     // Get instance field reference: public System.Single b
-    float& dyn_b();
+    [[deprecated("Use field access instead!")]] float& dyn_b();
     // public System.Void .ctor(System.Single L, System.Single a, System.Single b)
-    // Offset: 0x24B52E0
+    // Offset: 0x2500DA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CIELabColor* New_ctor(float L, float a, float b) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::CIELabColor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CIELabColor*, creationType>(L, a, b)));
     }
     // static public UnityEngine.ProBuilder.CIELabColor FromXYZ(UnityEngine.ProBuilder.XYZColor xyz)
-    // Offset: 0x24B5328
+    // Offset: 0x2500DEC
     static ::UnityEngine::ProBuilder::CIELabColor* FromXYZ(::UnityEngine::ProBuilder::XYZColor* xyz);
     // static public UnityEngine.ProBuilder.CIELabColor FromRGB(UnityEngine.Color col)
-    // Offset: 0x24B5580
+    // Offset: 0x2501044
     static ::UnityEngine::ProBuilder::CIELabColor* FromRGB(::UnityEngine::Color col);
     // public override System.String ToString()
-    // Offset: 0x24B5620
+    // Offset: 0x25010E4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

@@ -48,7 +48,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EChaperoneImportFlags EChaperoneImport_BoundsOnly
     static void _set_EChaperoneImport_BoundsOnly(::OVR::OpenVR::EChaperoneImportFlags value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVR.OpenVR.EChaperoneImportFlags
   #pragma pack(pop)
   static check_size<sizeof(EChaperoneImportFlags), 0 + sizeof(int)> __OVR_OpenVR_EChaperoneImportFlagsSizeCheck;

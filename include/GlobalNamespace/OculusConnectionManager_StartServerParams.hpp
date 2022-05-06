@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OculusConnectionManager::StartServerParams : public ::Il2CppObject/*, public ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::OculusConnectionManager*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public OculusNetworkPlayerModel oculusNetworkPlayerModel
     // Size: 0x8
     // Offset: 0x10
@@ -57,11 +49,9 @@ namespace GlobalNamespace {
       return oculusNetworkPlayerModel;
     }
     // Get instance field reference: public OculusNetworkPlayerModel oculusNetworkPlayerModel
-    ::GlobalNamespace::OculusNetworkPlayerModel*& dyn_oculusNetworkPlayerModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OculusNetworkPlayerModel*& dyn_oculusNetworkPlayerModel();
     // public System.Void .ctor()
-    // Offset: 0x150D8CC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15451D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusConnectionManager::StartServerParams* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusConnectionManager::StartServerParams::.ctor");

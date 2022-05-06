@@ -120,7 +120,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HAPI_TransformComponent HAPI_TRANSFORM_SZ
     static void _set_HAPI_TRANSFORM_SZ(::HoudiniEngineUnity::HAPI_TransformComponent value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HAPI_TransformComponent
   #pragma pack(pop)
   static check_size<sizeof(HAPI_TransformComponent), 0 + sizeof(int)> __HoudiniEngineUnity_HAPI_TransformComponentSizeCheck;

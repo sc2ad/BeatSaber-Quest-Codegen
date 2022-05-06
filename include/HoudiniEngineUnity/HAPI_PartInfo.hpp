@@ -113,59 +113,59 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 id
-    int& dyn_id();
+    [[deprecated("Use field access instead!")]] int& dyn_id();
     // Get instance field reference: public System.Int32 nameSH
-    int& dyn_nameSH();
+    [[deprecated("Use field access instead!")]] int& dyn_nameSH();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_PartType type
-    ::HoudiniEngineUnity::HAPI_PartType& dyn_type();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_PartType& dyn_type();
     // Get instance field reference: public System.Int32 faceCount
-    int& dyn_faceCount();
+    [[deprecated("Use field access instead!")]] int& dyn_faceCount();
     // Get instance field reference: public System.Int32 vertexCount
-    int& dyn_vertexCount();
+    [[deprecated("Use field access instead!")]] int& dyn_vertexCount();
     // Get instance field reference: public System.Int32 pointCount
-    int& dyn_pointCount();
+    [[deprecated("Use field access instead!")]] int& dyn_pointCount();
     // Get instance field reference: public System.Int32[] attributeCounts
-    ::ArrayW<int>& dyn_attributeCounts();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_attributeCounts();
     // Get instance field reference: public System.Boolean isInstanced
-    bool& dyn_isInstanced();
+    [[deprecated("Use field access instead!")]] bool& dyn_isInstanced();
     // Get instance field reference: public System.Int32 instancedPartCount
-    int& dyn_instancedPartCount();
+    [[deprecated("Use field access instead!")]] int& dyn_instancedPartCount();
     // Get instance field reference: public System.Int32 instanceCount
-    int& dyn_instanceCount();
+    [[deprecated("Use field access instead!")]] int& dyn_instanceCount();
     // Get instance field reference: public System.Boolean hasChanged
-    bool& dyn_hasChanged();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasChanged();
     // public System.Int32 get_pointAttributeCount()
-    // Offset: 0x16A87BC
+    // Offset: 0x16E00CC
     int get_pointAttributeCount();
     // public System.Void set_pointAttributeCount(System.Int32 value)
-    // Offset: 0x16AA3B4
+    // Offset: 0x16E1CC4
     void set_pointAttributeCount(int value);
     // public System.Int32 get_primitiveAttributeCount()
-    // Offset: 0x16A8774
+    // Offset: 0x16E0084
     int get_primitiveAttributeCount();
     // public System.Void set_primitiveAttributeCount(System.Int32 value)
-    // Offset: 0x16AA400
+    // Offset: 0x16E1D10
     void set_primitiveAttributeCount(int value);
     // public System.Int32 get_vertexAttributeCount()
-    // Offset: 0x16A8804
+    // Offset: 0x16E0114
     int get_vertexAttributeCount();
     // public System.Void set_vertexAttributeCount(System.Int32 value)
-    // Offset: 0x16AA44C
+    // Offset: 0x16E1D5C
     void set_vertexAttributeCount(int value);
     // public System.Int32 get_detailAttributeCount()
-    // Offset: 0x16A84C0
+    // Offset: 0x16DFDD0
     int get_detailAttributeCount();
     // public System.Void set_detailAttributeCount(System.Int32 value)
-    // Offset: 0x16AA494
+    // Offset: 0x16E1DA4
     void set_detailAttributeCount(int value);
     // public System.Int32 getElementCountByAttributeOwner(HoudiniEngineUnity.HAPI_AttributeOwner owner)
-    // Offset: 0x16AA2E4
+    // Offset: 0x16E1BF4
     int getElementCountByAttributeOwner(::HoudiniEngineUnity::HAPI_AttributeOwner owner);
     // public System.Int32 getElementCountByGroupType(HoudiniEngineUnity.HAPI_GroupType type)
-    // Offset: 0x16AA32C
+    // Offset: 0x16E1C3C
     int getElementCountByGroupType(::HoudiniEngineUnity::HAPI_GroupType type);
     // public System.Void init()
-    // Offset: 0x16AA354
+    // Offset: 0x16E1C64
     void init();
   }; // HoudiniEngineUnity.HAPI_PartInfo
   #pragma pack(pop)

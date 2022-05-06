@@ -54,7 +54,7 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Set static field: static public UnityEngine.Experimental.GlobalIllumination.AngularFalloffType AnalyticAndInnerAngle
     static void _set_AnalyticAndInnerAngle(::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType value);
     // Get instance field reference: public System.Byte value__
-    uint8_t& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_value__();
   }; // UnityEngine.Experimental.GlobalIllumination.AngularFalloffType
   #pragma pack(pop)
   static check_size<sizeof(AngularFalloffType), 0 + sizeof(uint8_t)> __UnityEngine_Experimental_GlobalIllumination_AngularFalloffTypeSizeCheck;

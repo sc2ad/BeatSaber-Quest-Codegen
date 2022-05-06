@@ -51,15 +51,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState
     struct ConnectionState;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Action connectionStateChangedCallback
     // Size: 0x8
     // Offset: 0x10
@@ -104,49 +96,47 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Threading::ManualResetEvent*) == 0x8);
     public:
     // Get instance field reference: public System.Action connectionStateChangedCallback
-    ::System::Action*& dyn_connectionStateChangedCallback();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_connectionStateChangedCallback();
     // Get instance field reference: public System.Action`4<System.Int32,System.Byte[],System.Int32,System.Int32> payloadReceivedCallback
-    ::System::Action_4<int, ::ArrayW<uint8_t>, int, int>*& dyn_payloadReceivedCallback();
+    [[deprecated("Use field access instead!")]] ::System::Action_4<int, ::ArrayW<uint8_t>, int, int>*& dyn_payloadReceivedCallback();
     // Get instance field reference: private System.Net.Sockets.TcpClient tcpClient
-    ::System::Net::Sockets::TcpClient*& dyn_tcpClient();
+    [[deprecated("Use field access instead!")]] ::System::Net::Sockets::TcpClient*& dyn_tcpClient();
     // Get instance field reference: private System.Byte[][] receivedBuffers
-    ::ArrayW<::ArrayW<uint8_t>>& dyn_receivedBuffers();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::ArrayW<uint8_t>>& dyn_receivedBuffers();
     // Get instance field reference: private System.Int32 receivedBufferIndex
-    int& dyn_receivedBufferIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_receivedBufferIndex();
     // Get instance field reference: private System.Int32 receivedBufferDataSize
-    int& dyn_receivedBufferDataSize();
+    [[deprecated("Use field access instead!")]] int& dyn_receivedBufferDataSize();
     // Get instance field reference: private System.Threading.ManualResetEvent readyReceiveDataEvent
-    ::System::Threading::ManualResetEvent*& dyn_readyReceiveDataEvent();
+    [[deprecated("Use field access instead!")]] ::System::Threading::ManualResetEvent*& dyn_readyReceiveDataEvent();
     // public OVRNetwork/OVRNetworkTcpClient/ConnectionState get_connectionState()
-    // Offset: 0x16C29B4
+    // Offset: 0x16FA2C4
     ::GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState get_connectionState();
     // public System.Boolean get_Connected()
-    // Offset: 0x16C29E0
+    // Offset: 0x16FA2F0
     bool get_Connected();
-    // public System.Void Connect(System.Int32 listeningPort)
-    // Offset: 0x16C29F4
-    void Connect(int listeningPort);
-    // private System.Void ConnectCallback(System.IAsyncResult ar)
-    // Offset: 0x16C2B48
-    void ConnectCallback(::System::IAsyncResult* ar);
-    // public System.Void Disconnect()
-    // Offset: 0x16C2E48
-    void Disconnect();
-    // public System.Void Tick()
-    // Offset: 0x16C309C
-    void Tick();
-    // private System.Void OnReadDataCallback(System.IAsyncResult ar)
-    // Offset: 0x16C32A0
-    void OnReadDataCallback(::System::IAsyncResult* ar);
     // public System.Void .ctor()
-    // Offset: 0x16C3784
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16FB094
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRNetwork::OVRNetworkTcpClient* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRNetwork::OVRNetworkTcpClient*, creationType>()));
     }
+    // public System.Void Connect(System.Int32 listeningPort)
+    // Offset: 0x16FA304
+    void Connect(int listeningPort);
+    // private System.Void ConnectCallback(System.IAsyncResult ar)
+    // Offset: 0x16FA458
+    void ConnectCallback(::System::IAsyncResult* ar);
+    // public System.Void Disconnect()
+    // Offset: 0x16FA758
+    void Disconnect();
+    // public System.Void Tick()
+    // Offset: 0x16FA9AC
+    void Tick();
+    // private System.Void OnReadDataCallback(System.IAsyncResult ar)
+    // Offset: 0x16FABB0
+    void OnReadDataCallback(::System::IAsyncResult* ar);
   }; // OVRNetwork/OVRNetworkTcpClient
   #pragma pack(pop)
   static check_size<sizeof(OVRNetwork::OVRNetworkTcpClient), 56 + sizeof(::System::Threading::ManualResetEvent*)> __GlobalNamespace_OVRNetwork_OVRNetworkTcpClientSizeCheck;
@@ -169,6 +159,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNetwork::OVRNetworkTcpClient*), "get_Connected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::Connect
 // Il2CppName: Connect
 template<>
@@ -212,7 +206,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNetwork::OVRNetworkTcpClient*), "OnReadDataCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ar});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

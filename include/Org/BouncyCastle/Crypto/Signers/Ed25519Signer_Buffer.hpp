@@ -33,28 +33,27 @@ namespace Org::BouncyCastle::Crypto::Signers {
   // [TokenAttribute] Offset: FFFFFFFF
   class Ed25519Signer::Buffer : public ::System::IO::MemoryStream {
     public:
-    // System.Byte[] GenerateSignature(Org.BouncyCastle.Crypto.Parameters.Ed25519PrivateKeyParameters privateKey)
-    // Offset: 0x15C8878
-    ::ArrayW<uint8_t> GenerateSignature(::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* privateKey);
-    // System.Void Reset()
-    // Offset: 0x15C89EC
-    void Reset();
     // public System.Void .ctor()
-    // Offset: 0x15C86FC
-    // Implemented from: System.IO.MemoryStream
-    // Base method: System.Void MemoryStream::.ctor()
-    // Base method: System.Void Stream::.ctor()
-    // Base method: System.Void MarshalByRefObject::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15FE00C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ed25519Signer::Buffer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Signers::Ed25519Signer::Buffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Ed25519Signer::Buffer*, creationType>()));
     }
+    // System.Byte[] GenerateSignature(Org.BouncyCastle.Crypto.Parameters.Ed25519PrivateKeyParameters privateKey)
+    // Offset: 0x15FE188
+    ::ArrayW<uint8_t> GenerateSignature(::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* privateKey);
+    // System.Void Reset()
+    // Offset: 0x15FE2FC
+    void Reset();
   }; // Org.BouncyCastle.Crypto.Signers.Ed25519Signer/Org.BouncyCastle.Crypto.Signers.Buffer
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::Ed25519Signer::Buffer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::Ed25519Signer::Buffer::GenerateSignature
 // Il2CppName: GenerateSignature
 template<>
@@ -72,7 +71,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::Ed25519Signer::Buffer*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::Ed25519Signer::Buffer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

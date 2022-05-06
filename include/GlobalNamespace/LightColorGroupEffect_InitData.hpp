@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightColorGroupEffect::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Int32 groupId
     // Size: 0x4
     // Offset: 0x10
@@ -52,13 +44,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public readonly System.Int32 groupId
-    int& dyn_groupId();
+    [[deprecated("Use field access instead!")]] int& dyn_groupId();
     // Get instance field reference: public readonly System.Int32 elementId
-    int& dyn_elementId();
+    [[deprecated("Use field access instead!")]] int& dyn_elementId();
     // Get instance field reference: public readonly System.Int32 lightId
-    int& dyn_lightId();
+    [[deprecated("Use field access instead!")]] int& dyn_lightId();
     // public System.Void .ctor(System.Int32 groupId, System.Int32 elementId, System.Int32 lightId)
-    // Offset: 0x148C68C
+    // Offset: 0x14C2F0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightColorGroupEffect::InitData* New_ctor(int groupId, int elementId, int lightId) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightColorGroupEffect::InitData::.ctor");

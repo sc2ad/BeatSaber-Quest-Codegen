@@ -48,15 +48,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class RoomAdjustSettingsViewController : public ::HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Vector3SO _roomCenter
     // Size: 0x8
     // Offset: 0x70
@@ -69,7 +61,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::FloatSO* roomRotation;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125D3B8
+    // [SpaceAttribute] Offset: 0x10E1F9C
     // private StepValuePicker _xStepValuePicker
     // Size: 0x8
     // Offset: 0x80
@@ -120,74 +112,67 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kRotationStep
     static void _set_kRotationStep(float value);
     // Get instance field reference: private Vector3SO _roomCenter
-    ::GlobalNamespace::Vector3SO*& dyn__roomCenter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3SO*& dyn__roomCenter();
     // Get instance field reference: private FloatSO _roomRotation
-    ::GlobalNamespace::FloatSO*& dyn__roomRotation();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FloatSO*& dyn__roomRotation();
     // Get instance field reference: private StepValuePicker _xStepValuePicker
-    ::GlobalNamespace::StepValuePicker*& dyn__xStepValuePicker();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::StepValuePicker*& dyn__xStepValuePicker();
     // Get instance field reference: private StepValuePicker _yStepValuePicker
-    ::GlobalNamespace::StepValuePicker*& dyn__yStepValuePicker();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::StepValuePicker*& dyn__yStepValuePicker();
     // Get instance field reference: private StepValuePicker _zStepValuePicker
-    ::GlobalNamespace::StepValuePicker*& dyn__zStepValuePicker();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::StepValuePicker*& dyn__zStepValuePicker();
     // Get instance field reference: private StepValuePicker _rotStepValuePicker
-    ::GlobalNamespace::StepValuePicker*& dyn__rotStepValuePicker();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::StepValuePicker*& dyn__rotStepValuePicker();
     // Get instance field reference: private UnityEngine.UI.Button _resetButton
-    ::UnityEngine::UI::Button*& dyn__resetButton();
-    // private System.Void Move(UnityEngine.Vector3 move)
-    // Offset: 0x1380DF0
-    void Move(::UnityEngine::Vector3 move);
-    // private System.Void Rotate(System.Single rotation)
-    // Offset: 0x1380EC0
-    void Rotate(float rotation);
-    // private System.Void ResetRoom()
-    // Offset: 0x1380F44
-    void ResetRoom();
-    // private System.Void RefreshTexts()
-    // Offset: 0x1380C74
-    void RefreshTexts();
-    // private System.Void <DidActivate>b__10_0()
-    // Offset: 0x1381000
-    void $DidActivate$b__10_0();
-    // private System.Void <DidActivate>b__10_1()
-    // Offset: 0x1381058
-    void $DidActivate$b__10_1();
-    // private System.Void <DidActivate>b__10_2()
-    // Offset: 0x13810B0
-    void $DidActivate$b__10_2();
-    // private System.Void <DidActivate>b__10_3()
-    // Offset: 0x1381108
-    void $DidActivate$b__10_3();
-    // private System.Void <DidActivate>b__10_4()
-    // Offset: 0x1381160
-    void $DidActivate$b__10_4();
-    // private System.Void <DidActivate>b__10_5()
-    // Offset: 0x13811B8
-    void $DidActivate$b__10_5();
-    // private System.Void <DidActivate>b__10_6()
-    // Offset: 0x1381210
-    void $DidActivate$b__10_6();
-    // private System.Void <DidActivate>b__10_7()
-    // Offset: 0x1381218
-    void $DidActivate$b__10_7();
-    // private System.Void <DidActivate>b__10_8()
-    // Offset: 0x1381220
-    void $DidActivate$b__10_8();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__resetButton();
     // public System.Void .ctor()
-    // Offset: 0x1380FF8
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1458EE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RoomAdjustSettingsViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RoomAdjustSettingsViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RoomAdjustSettingsViewController*, creationType>()));
     }
+    // private System.Void Move(UnityEngine.Vector3 move)
+    // Offset: 0x1458CD8
+    void Move(::UnityEngine::Vector3 move);
+    // private System.Void Rotate(System.Single rotation)
+    // Offset: 0x1458DA8
+    void Rotate(float rotation);
+    // private System.Void ResetRoom()
+    // Offset: 0x1458E2C
+    void ResetRoom();
+    // private System.Void RefreshTexts()
+    // Offset: 0x1458B5C
+    void RefreshTexts();
+    // private System.Void <DidActivate>b__10_0()
+    // Offset: 0x1458EE8
+    void $DidActivate$b__10_0();
+    // private System.Void <DidActivate>b__10_1()
+    // Offset: 0x1458F40
+    void $DidActivate$b__10_1();
+    // private System.Void <DidActivate>b__10_2()
+    // Offset: 0x1458F98
+    void $DidActivate$b__10_2();
+    // private System.Void <DidActivate>b__10_3()
+    // Offset: 0x1458FF0
+    void $DidActivate$b__10_3();
+    // private System.Void <DidActivate>b__10_4()
+    // Offset: 0x1459048
+    void $DidActivate$b__10_4();
+    // private System.Void <DidActivate>b__10_5()
+    // Offset: 0x14590A0
+    void $DidActivate$b__10_5();
+    // private System.Void <DidActivate>b__10_6()
+    // Offset: 0x14590F8
+    void $DidActivate$b__10_6();
+    // private System.Void <DidActivate>b__10_7()
+    // Offset: 0x1459100
+    void $DidActivate$b__10_7();
+    // private System.Void <DidActivate>b__10_8()
+    // Offset: 0x1459108
+    void $DidActivate$b__10_8();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13809F0
+    // Offset: 0x14588D8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -197,6 +182,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(RoomAdjustSettingsViewController) == 0xA8);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::RoomAdjustSettingsViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::RoomAdjustSettingsViewController::Move
 // Il2CppName: Move
 template<>
@@ -303,10 +292,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RoomAdjustSettingsViewController*), "<DidActivate>b__10_8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::RoomAdjustSettingsViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::RoomAdjustSettingsViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

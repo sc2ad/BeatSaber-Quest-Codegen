@@ -50,15 +50,7 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   class OpenVR::COpenVRContext : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Valve.VR.CVRSystem m_pVRSystem
     // Size: 0x8
     // Offset: 0x10
@@ -127,81 +119,83 @@ namespace Valve::VR {
     static_assert(sizeof(::Valve::VR::CVRTrackedCamera*) == 0x8);
     public:
     // Get instance field reference: private Valve.VR.CVRSystem m_pVRSystem
-    ::Valve::VR::CVRSystem*& dyn_m_pVRSystem();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::CVRSystem*& dyn_m_pVRSystem();
     // Get instance field reference: private Valve.VR.CVRChaperone m_pVRChaperone
-    ::Valve::VR::CVRChaperone*& dyn_m_pVRChaperone();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::CVRChaperone*& dyn_m_pVRChaperone();
     // Get instance field reference: private Valve.VR.CVRChaperoneSetup m_pVRChaperoneSetup
-    ::Valve::VR::CVRChaperoneSetup*& dyn_m_pVRChaperoneSetup();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::CVRChaperoneSetup*& dyn_m_pVRChaperoneSetup();
     // Get instance field reference: private Valve.VR.CVRCompositor m_pVRCompositor
-    ::Valve::VR::CVRCompositor*& dyn_m_pVRCompositor();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::CVRCompositor*& dyn_m_pVRCompositor();
     // Get instance field reference: private Valve.VR.CVROverlay m_pVROverlay
-    ::Valve::VR::CVROverlay*& dyn_m_pVROverlay();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::CVROverlay*& dyn_m_pVROverlay();
     // Get instance field reference: private Valve.VR.CVRRenderModels m_pVRRenderModels
-    ::Valve::VR::CVRRenderModels*& dyn_m_pVRRenderModels();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::CVRRenderModels*& dyn_m_pVRRenderModels();
     // Get instance field reference: private Valve.VR.CVRExtendedDisplay m_pVRExtendedDisplay
-    ::Valve::VR::CVRExtendedDisplay*& dyn_m_pVRExtendedDisplay();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::CVRExtendedDisplay*& dyn_m_pVRExtendedDisplay();
     // Get instance field reference: private Valve.VR.CVRSettings m_pVRSettings
-    ::Valve::VR::CVRSettings*& dyn_m_pVRSettings();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::CVRSettings*& dyn_m_pVRSettings();
     // Get instance field reference: private Valve.VR.CVRApplications m_pVRApplications
-    ::Valve::VR::CVRApplications*& dyn_m_pVRApplications();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::CVRApplications*& dyn_m_pVRApplications();
     // Get instance field reference: private Valve.VR.CVRScreenshots m_pVRScreenshots
-    ::Valve::VR::CVRScreenshots*& dyn_m_pVRScreenshots();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::CVRScreenshots*& dyn_m_pVRScreenshots();
     // Get instance field reference: private Valve.VR.CVRTrackedCamera m_pVRTrackedCamera
-    ::Valve::VR::CVRTrackedCamera*& dyn_m_pVRTrackedCamera();
-    // public System.Void Clear()
-    // Offset: 0x2A4FE9C
-    void Clear();
-    // private System.Void CheckClear()
-    // Offset: 0x2A4FEBC
-    void CheckClear();
-    // public Valve.VR.CVRSystem VRSystem()
-    // Offset: 0x2A4FFF8
-    ::Valve::VR::CVRSystem* VRSystem();
-    // public Valve.VR.CVRChaperone VRChaperone()
-    // Offset: 0x2A50160
-    ::Valve::VR::CVRChaperone* VRChaperone();
-    // public Valve.VR.CVRChaperoneSetup VRChaperoneSetup()
-    // Offset: 0x2A50220
-    ::Valve::VR::CVRChaperoneSetup* VRChaperoneSetup();
-    // public Valve.VR.CVRCompositor VRCompositor()
-    // Offset: 0x2A502E0
-    ::Valve::VR::CVRCompositor* VRCompositor();
-    // public Valve.VR.CVROverlay VROverlay()
-    // Offset: 0x2A503A0
-    ::Valve::VR::CVROverlay* VROverlay();
-    // public Valve.VR.CVRRenderModels VRRenderModels()
-    // Offset: 0x2A50460
-    ::Valve::VR::CVRRenderModels* VRRenderModels();
-    // public Valve.VR.CVRExtendedDisplay VRExtendedDisplay()
-    // Offset: 0x2A50520
-    ::Valve::VR::CVRExtendedDisplay* VRExtendedDisplay();
-    // public Valve.VR.CVRSettings VRSettings()
-    // Offset: 0x2A505E0
-    ::Valve::VR::CVRSettings* VRSettings();
-    // public Valve.VR.CVRApplications VRApplications()
-    // Offset: 0x2A506A0
-    ::Valve::VR::CVRApplications* VRApplications();
-    // public Valve.VR.CVRScreenshots VRScreenshots()
-    // Offset: 0x2A50760
-    ::Valve::VR::CVRScreenshots* VRScreenshots();
-    // public Valve.VR.CVRTrackedCamera VRTrackedCamera()
-    // Offset: 0x2A50820
-    ::Valve::VR::CVRTrackedCamera* VRTrackedCamera();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::CVRTrackedCamera*& dyn_m_pVRTrackedCamera();
     // public System.Void .ctor()
-    // Offset: 0x2A4FE6C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2AA7254
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OpenVR::COpenVRContext* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Valve::VR::OpenVR::COpenVRContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OpenVR::COpenVRContext*, creationType>()));
     }
+    // public System.Void Clear()
+    // Offset: 0x2AA7284
+    void Clear();
+    // private System.Void CheckClear()
+    // Offset: 0x2AA72A4
+    void CheckClear();
+    // public Valve.VR.CVRSystem VRSystem()
+    // Offset: 0x2AA73E0
+    ::Valve::VR::CVRSystem* VRSystem();
+    // public Valve.VR.CVRChaperone VRChaperone()
+    // Offset: 0x2AA7548
+    ::Valve::VR::CVRChaperone* VRChaperone();
+    // public Valve.VR.CVRChaperoneSetup VRChaperoneSetup()
+    // Offset: 0x2AA7608
+    ::Valve::VR::CVRChaperoneSetup* VRChaperoneSetup();
+    // public Valve.VR.CVRCompositor VRCompositor()
+    // Offset: 0x2AA76C8
+    ::Valve::VR::CVRCompositor* VRCompositor();
+    // public Valve.VR.CVROverlay VROverlay()
+    // Offset: 0x2AA7788
+    ::Valve::VR::CVROverlay* VROverlay();
+    // public Valve.VR.CVRRenderModels VRRenderModels()
+    // Offset: 0x2AA7848
+    ::Valve::VR::CVRRenderModels* VRRenderModels();
+    // public Valve.VR.CVRExtendedDisplay VRExtendedDisplay()
+    // Offset: 0x2AA7908
+    ::Valve::VR::CVRExtendedDisplay* VRExtendedDisplay();
+    // public Valve.VR.CVRSettings VRSettings()
+    // Offset: 0x2AA79C8
+    ::Valve::VR::CVRSettings* VRSettings();
+    // public Valve.VR.CVRApplications VRApplications()
+    // Offset: 0x2AA7A88
+    ::Valve::VR::CVRApplications* VRApplications();
+    // public Valve.VR.CVRScreenshots VRScreenshots()
+    // Offset: 0x2AA7B48
+    ::Valve::VR::CVRScreenshots* VRScreenshots();
+    // public Valve.VR.CVRTrackedCamera VRTrackedCamera()
+    // Offset: 0x2AA7C08
+    ::Valve::VR::CVRTrackedCamera* VRTrackedCamera();
   }; // Valve.VR.OpenVR/Valve.VR.COpenVRContext
   #pragma pack(pop)
   static check_size<sizeof(OpenVR::COpenVRContext), 96 + sizeof(::Valve::VR::CVRTrackedCamera*)> __Valve_VR_OpenVR_COpenVRContextSizeCheck;
   static_assert(sizeof(OpenVR::COpenVRContext) == 0x68);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Valve::VR::OpenVR::COpenVRContext::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Valve::VR::OpenVR::COpenVRContext::Clear
 // Il2CppName: Clear
 template<>
@@ -306,7 +300,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVR::COpenVRContext*), "VRTrackedCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Valve::VR::OpenVR::COpenVRContext::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -46,15 +46,7 @@ namespace GlobalNamespace {
     char ___base_padding[0x7] = {};
     // Nested type: ::GlobalNamespace::LevelScenesTransitionSetupDataSO::$BeforeScenesWillBeActivatedAsync$d__6
     struct $BeforeScenesWillBeActivatedAsync$d__6;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private GameplayCoreSceneSetupData <gameplayCoreSceneSetupData>k__BackingField
     // Size: 0x8
     // Offset: 0x30
@@ -63,31 +55,25 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
     public:
     // Get instance field reference: private GameplayCoreSceneSetupData <gameplayCoreSceneSetupData>k__BackingField
-    ::GlobalNamespace::GameplayCoreSceneSetupData*& dyn_$gameplayCoreSceneSetupData$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayCoreSceneSetupData*& dyn_$gameplayCoreSceneSetupData$k__BackingField();
     // public IReadonlyBeatmapData get_transformedBeatmapData()
-    // Offset: 0x14873F4
+    // Offset: 0x14BDC74
     ::GlobalNamespace::IReadonlyBeatmapData* get_transformedBeatmapData();
     // protected GameplayCoreSceneSetupData get_gameplayCoreSceneSetupData()
-    // Offset: 0x1487410
+    // Offset: 0x14BDC90
     ::GlobalNamespace::GameplayCoreSceneSetupData* get_gameplayCoreSceneSetupData();
     // protected System.Void set_gameplayCoreSceneSetupData(GameplayCoreSceneSetupData value)
-    // Offset: 0x1487418
+    // Offset: 0x14BDC98
     void set_gameplayCoreSceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
     // protected System.Void .ctor()
-    // Offset: 0x1487510
-    // Implemented from: ScenesTransitionSetupDataSO
-    // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14BDD90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelScenesTransitionSetupDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelScenesTransitionSetupDataSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelScenesTransitionSetupDataSO*, creationType>()));
     }
     // protected override System.Threading.Tasks.Task BeforeScenesWillBeActivatedAsync()
-    // Offset: 0x1487420
+    // Offset: 0x14BDCA0
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Threading.Tasks.Task ScenesTransitionSetupDataSO::BeforeScenesWillBeActivatedAsync()
     ::System::Threading::Tasks::Task* BeforeScenesWillBeActivatedAsync();

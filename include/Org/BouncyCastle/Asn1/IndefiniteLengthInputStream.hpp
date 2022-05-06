@@ -35,15 +35,7 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class IndefiniteLengthInputStream : public ::Org::BouncyCastle::Asn1::LimitedInputStream {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _lookAhead
     // Size: 0x4
     // Offset: 0x3C
@@ -58,20 +50,20 @@ namespace Org::BouncyCastle::Asn1 {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Int32 _lookAhead
-    int& dyn__lookAhead();
+    [[deprecated("Use field access instead!")]] int& dyn__lookAhead();
     // Get instance field reference: private System.Boolean _eofOn00
-    bool& dyn__eofOn00();
+    [[deprecated("Use field access instead!")]] bool& dyn__eofOn00();
     // System.Void SetEofOn00(System.Boolean eofOn00)
-    // Offset: 0x1C8B99C
+    // Offset: 0x1CC7EF4
     void SetEofOn00(bool eofOn00);
     // private System.Boolean CheckForEof()
-    // Offset: 0x1C8B8DC
+    // Offset: 0x1CC7E34
     bool CheckForEof();
     // private System.Int32 RequireByte()
-    // Offset: 0x1C8B84C
+    // Offset: 0x1CC7DA4
     int RequireByte();
     // System.Void .ctor(System.IO.Stream inStream, System.Int32 limit)
-    // Offset: 0x1C8B7BC
+    // Offset: 0x1CC7D14
     // Implemented from: Org.BouncyCastle.Asn1.LimitedInputStream
     // Base method: System.Void LimitedInputStream::.ctor(System.IO.Stream inStream, System.Int32 limit)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -80,12 +72,12 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<IndefiniteLengthInputStream*, creationType>(inStream, limit)));
     }
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1C8B9B0
+    // Offset: 0x1CC7F08
     // Implemented from: Org.BouncyCastle.Utilities.IO.BaseInputStream
     // Base method: System.Int32 BaseInputStream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     int Read(::ArrayW<uint8_t> buffer, int offset, int count);
     // public override System.Int32 ReadByte()
-    // Offset: 0x1C8BAF0
+    // Offset: 0x1CC8048
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::ReadByte()
     int ReadByte();

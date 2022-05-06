@@ -47,15 +47,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0
     class $$c__DisplayClass4_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private PlatformAchievementsModelSO _platformAchievementsModel
     // Size: 0x8
     // Offset: 0x18
@@ -78,38 +70,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private PlatformAchievementsModelSO _platformAchievementsModel
-    ::GlobalNamespace::PlatformAchievementsModelSO*& dyn__platformAchievementsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlatformAchievementsModelSO*& dyn__platformAchievementsModel();
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.String> _unlockedAchievementIds
-    ::System::Collections::Generic::HashSet_1<::StringW>*& dyn__unlockedAchievementIds();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::StringW>*& dyn__unlockedAchievementIds();
     // Get instance field reference: private System.Boolean _initialized
-    bool& dyn__initialized();
-    // public System.Void Initialize()
-    // Offset: 0x14AF208
-    void Initialize();
-    // public System.Void UnlockAchievement(AchievementSO achievement)
-    // Offset: 0x14B0180
-    void UnlockAchievement(::GlobalNamespace::AchievementSO* achievement);
-    // private System.Void <Initialize>b__3_0(PlatformAchievementsModelSO/GetUnlockedAchievementsResult result, System.String[] achievementIds)
-    // Offset: 0x14B0304
-    void $Initialize$b__3_0(::GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::ArrayW<::StringW> achievementIds);
+    [[deprecated("Use field access instead!")]] bool& dyn__initialized();
     // public System.Void .ctor()
-    // Offset: 0x14B0294
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14E7B4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AchievementsModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AchievementsModelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AchievementsModelSO*, creationType>()));
     }
+    // public System.Void Initialize()
+    // Offset: 0x14E6AC0
+    void Initialize();
+    // public System.Void UnlockAchievement(AchievementSO achievement)
+    // Offset: 0x14E7A38
+    void UnlockAchievement(::GlobalNamespace::AchievementSO* achievement);
+    // private System.Void <Initialize>b__3_0(PlatformAchievementsModelSO/GetUnlockedAchievementsResult result, System.String[] achievementIds)
+    // Offset: 0x14E7BBC
+    void $Initialize$b__3_0(::GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::ArrayW<::StringW> achievementIds);
   }; // AchievementsModelSO
   #pragma pack(pop)
   static check_size<sizeof(AchievementsModelSO), 40 + sizeof(bool)> __GlobalNamespace_AchievementsModelSOSizeCheck;
   static_assert(sizeof(AchievementsModelSO) == 0x29);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::AchievementsModelSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AchievementsModelSO::Initialize
 // Il2CppName: Initialize
 template<>
@@ -137,7 +128,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsModelSO*), "<Initialize>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result, achievementIds});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AchievementsModelSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

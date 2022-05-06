@@ -32,22 +32,24 @@ namespace HoudiniEngineUnity {
     operator ::System::Collections::IComparer() noexcept {
       return *reinterpret_cast<::System::Collections::IComparer*>(this);
     }
-    // public System.Int32 Compare(System.Object x, System.Object y)
-    // Offset: 0x19E21AC
-    int Compare(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Void .ctor()
-    // Offset: 0x19E222C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1A1B814
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReverseCompare* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::ReverseCompare::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReverseCompare*, creationType>()));
     }
+    // public System.Int32 Compare(System.Object x, System.Object y)
+    // Offset: 0x1A1B794
+    int Compare(::Il2CppObject* x, ::Il2CppObject* y);
   }; // HoudiniEngineUnity.ReverseCompare
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::ReverseCompare::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::ReverseCompare::Compare
 // Il2CppName: Compare
 template<>
@@ -58,7 +60,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Houdin
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::ReverseCompare*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::ReverseCompare::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

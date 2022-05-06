@@ -31,15 +31,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private PreviewBeatmapLevelSO _previewLevel
     // Size: 0x8
     // Offset: 0x10
@@ -54,19 +46,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private PreviewBeatmapLevelSO _previewLevel
-    ::GlobalNamespace::PreviewBeatmapLevelSO*& dyn__previewLevel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PreviewBeatmapLevelSO*& dyn__previewLevel();
     // Get instance field reference: private System.Single _relativeSfxVolume
-    float& dyn__relativeSfxVolume();
+    [[deprecated("Use field access instead!")]] float& dyn__relativeSfxVolume();
     // public System.String get_levelId()
-    // Offset: 0x137D82C
+    // Offset: 0x1455680
     ::StringW get_levelId();
     // public System.Single get_relativeSfxVolume()
-    // Offset: 0x137D8DC
+    // Offset: 0x1455730
     float get_relativeSfxVolume();
     // public System.Void .ctor()
-    // Offset: 0x137D8E4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1455738
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair::.ctor");

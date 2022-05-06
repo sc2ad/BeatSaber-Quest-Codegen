@@ -267,77 +267,77 @@ namespace System::Net::NetworkInformation {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Net.NetworkInformation.AlignmentUnion Alignment
-    ::System::Net::NetworkInformation::AlignmentUnion& dyn_Alignment();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::AlignmentUnion& dyn_Alignment();
     // Get instance field reference: public System.IntPtr Next
-    ::System::IntPtr& dyn_Next();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Next();
     // Get instance field reference: public System.String AdapterName
-    ::StringW& dyn_AdapterName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_AdapterName();
     // Get instance field reference: public System.IntPtr FirstUnicastAddress
-    ::System::IntPtr& dyn_FirstUnicastAddress();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_FirstUnicastAddress();
     // Get instance field reference: public System.IntPtr FirstAnycastAddress
-    ::System::IntPtr& dyn_FirstAnycastAddress();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_FirstAnycastAddress();
     // Get instance field reference: public System.IntPtr FirstMulticastAddress
-    ::System::IntPtr& dyn_FirstMulticastAddress();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_FirstMulticastAddress();
     // Get instance field reference: public System.IntPtr FirstDnsServerAddress
-    ::System::IntPtr& dyn_FirstDnsServerAddress();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_FirstDnsServerAddress();
     // Get instance field reference: public System.String DnsSuffix
-    ::StringW& dyn_DnsSuffix();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_DnsSuffix();
     // Get instance field reference: public System.String Description
-    ::StringW& dyn_Description();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Description();
     // Get instance field reference: public System.String FriendlyName
-    ::StringW& dyn_FriendlyName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_FriendlyName();
     // Get instance field reference: public System.Byte[] PhysicalAddress
-    ::ArrayW<uint8_t>& dyn_PhysicalAddress();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_PhysicalAddress();
     // Get instance field reference: public System.UInt32 PhysicalAddressLength
-    uint& dyn_PhysicalAddressLength();
+    [[deprecated("Use field access instead!")]] uint& dyn_PhysicalAddressLength();
     // Get instance field reference: public System.UInt32 Flags
-    uint& dyn_Flags();
+    [[deprecated("Use field access instead!")]] uint& dyn_Flags();
     // Get instance field reference: public System.UInt32 Mtu
-    uint& dyn_Mtu();
+    [[deprecated("Use field access instead!")]] uint& dyn_Mtu();
     // Get instance field reference: public System.Net.NetworkInformation.NetworkInterfaceType IfType
-    ::System::Net::NetworkInformation::NetworkInterfaceType& dyn_IfType();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::NetworkInterfaceType& dyn_IfType();
     // Get instance field reference: public System.Net.NetworkInformation.OperationalStatus OperStatus
-    ::System::Net::NetworkInformation::OperationalStatus& dyn_OperStatus();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::OperationalStatus& dyn_OperStatus();
     // Get instance field reference: public System.Int32 Ipv6IfIndex
-    int& dyn_Ipv6IfIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_Ipv6IfIndex();
     // Get instance field reference: public System.UInt32[] ZoneIndices
-    ::ArrayW<uint>& dyn_ZoneIndices();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_ZoneIndices();
     // Get instance field reference: public System.IntPtr FirstPrefix
-    ::System::IntPtr& dyn_FirstPrefix();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_FirstPrefix();
     // Get instance field reference: public System.UInt64 TransmitLinkSpeed
-    uint64_t& dyn_TransmitLinkSpeed();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_TransmitLinkSpeed();
     // Get instance field reference: public System.UInt64 ReceiveLinkSpeed
-    uint64_t& dyn_ReceiveLinkSpeed();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_ReceiveLinkSpeed();
     // Get instance field reference: public System.IntPtr FirstWinsServerAddress
-    ::System::IntPtr& dyn_FirstWinsServerAddress();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_FirstWinsServerAddress();
     // Get instance field reference: public System.IntPtr FirstGatewayAddress
-    ::System::IntPtr& dyn_FirstGatewayAddress();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_FirstGatewayAddress();
     // Get instance field reference: public System.UInt32 Ipv4Metric
-    uint& dyn_Ipv4Metric();
+    [[deprecated("Use field access instead!")]] uint& dyn_Ipv4Metric();
     // Get instance field reference: public System.UInt32 Ipv6Metric
-    uint& dyn_Ipv6Metric();
+    [[deprecated("Use field access instead!")]] uint& dyn_Ipv6Metric();
     // Get instance field reference: public System.UInt64 Luid
-    uint64_t& dyn_Luid();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_Luid();
     // Get instance field reference: public System.Net.NetworkInformation.Win32_SOCKET_ADDRESS Dhcpv4Server
-    ::System::Net::NetworkInformation::Win32_SOCKET_ADDRESS& dyn_Dhcpv4Server();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::Win32_SOCKET_ADDRESS& dyn_Dhcpv4Server();
     // Get instance field reference: public System.UInt32 CompartmentId
-    uint& dyn_CompartmentId();
+    [[deprecated("Use field access instead!")]] uint& dyn_CompartmentId();
     // Get instance field reference: public System.UInt64 NetworkGuid
-    uint64_t& dyn_NetworkGuid();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_NetworkGuid();
     // Get instance field reference: public System.Int32 ConnectionType
-    int& dyn_ConnectionType();
+    [[deprecated("Use field access instead!")]] int& dyn_ConnectionType();
     // Get instance field reference: public System.Int32 TunnelType
-    int& dyn_TunnelType();
+    [[deprecated("Use field access instead!")]] int& dyn_TunnelType();
     // Get instance field reference: public System.Net.NetworkInformation.Win32_SOCKET_ADDRESS Dhcpv6Server
-    ::System::Net::NetworkInformation::Win32_SOCKET_ADDRESS& dyn_Dhcpv6Server();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::Win32_SOCKET_ADDRESS& dyn_Dhcpv6Server();
     // Get instance field reference: public System.Byte[] Dhcpv6ClientDuid
-    ::ArrayW<uint8_t>& dyn_Dhcpv6ClientDuid();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_Dhcpv6ClientDuid();
     // Get instance field reference: public System.UInt64 Dhcpv6ClientDuidLength
-    uint64_t& dyn_Dhcpv6ClientDuidLength();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_Dhcpv6ClientDuidLength();
     // Get instance field reference: public System.UInt64 Dhcpv6Iaid
-    uint64_t& dyn_Dhcpv6Iaid();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_Dhcpv6Iaid();
     // Get instance field reference: public System.IntPtr FirstDnsSuffix
-    ::System::IntPtr& dyn_FirstDnsSuffix();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_FirstDnsSuffix();
   }; // System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES
   #pragma pack(pop)
   static check_size<sizeof(Win32_IP_ADAPTER_ADDRESSES), 256 + sizeof(::System::IntPtr)> __System_Net_NetworkInformation_Win32_IP_ADAPTER_ADDRESSESSizeCheck;

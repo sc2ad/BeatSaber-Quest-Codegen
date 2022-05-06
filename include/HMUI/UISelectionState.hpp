@@ -72,7 +72,7 @@ namespace HMUI {
     // Set static field: static public HMUI.UISelectionState Disabled
     static void _set_Disabled(::HMUI::UISelectionState value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HMUI.UISelectionState
   #pragma pack(pop)
   static check_size<sizeof(UISelectionState), 0 + sizeof(int)> __HMUI_UISelectionStateSizeCheck;

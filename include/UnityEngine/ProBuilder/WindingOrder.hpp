@@ -60,7 +60,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.WindingOrder CounterClockwise
     static void _set_CounterClockwise(::UnityEngine::ProBuilder::WindingOrder value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.ProBuilder.WindingOrder
   #pragma pack(pop)
   static check_size<sizeof(WindingOrder), 0 + sizeof(int)> __UnityEngine_ProBuilder_WindingOrderSizeCheck;

@@ -52,15 +52,7 @@ namespace GlobalNamespace {
     struct $BeforeScenesWillBeActivated$d__10;
     // Nested type: ::GlobalNamespace::ScenesTransitionSetupDataSO::$$BeforeScenesWillBeActivated$b__10_0$d
     struct $$BeforeScenesWillBeActivated$b__10_0$d;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private SceneInfo[] <scenes>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -83,45 +75,42 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private SceneInfo[] <scenes>k__BackingField
-    ::ArrayW<::GlobalNamespace::SceneInfo*>& dyn_$scenes$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::SceneInfo*>& dyn_$scenes$k__BackingField();
     // Get instance field reference: private SceneSetupData[] _sceneSetupDataArray
-    ::ArrayW<::GlobalNamespace::SceneSetupData*>& dyn__sceneSetupDataArray();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::SceneSetupData*>& dyn__sceneSetupDataArray();
     // Get instance field reference: private System.Boolean <beforeScenesWillBeActivatedTaskIsComplete>k__BackingField
-    bool& dyn_$beforeScenesWillBeActivatedTaskIsComplete$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$beforeScenesWillBeActivatedTaskIsComplete$k__BackingField();
     // public SceneInfo[] get_scenes()
-    // Offset: 0x29D53EC
+    // Offset: 0x2A278FC
     ::ArrayW<::GlobalNamespace::SceneInfo*> get_scenes();
     // private System.Void set_scenes(SceneInfo[] value)
-    // Offset: 0x29D53F4
+    // Offset: 0x2A27904
     void set_scenes(::ArrayW<::GlobalNamespace::SceneInfo*> value);
     // public System.Boolean get_beforeScenesWillBeActivatedTaskIsComplete()
-    // Offset: 0x29D53FC
+    // Offset: 0x2A2790C
     bool get_beforeScenesWillBeActivatedTaskIsComplete();
     // private System.Void set_beforeScenesWillBeActivatedTaskIsComplete(System.Boolean value)
-    // Offset: 0x29D5404
+    // Offset: 0x2A27914
     void set_beforeScenesWillBeActivatedTaskIsComplete(bool value);
     // protected System.Void Init(SceneInfo[] scenes, SceneSetupData[] sceneSetupData)
-    // Offset: 0x29D5410
+    // Offset: 0x2A27920
     void Init(::ArrayW<::GlobalNamespace::SceneInfo*> scenes, ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData);
     // public System.Void BeforeScenesWillBeActivated(System.Boolean runAsync)
-    // Offset: 0x29D541C
+    // Offset: 0x2A2792C
     void BeforeScenesWillBeActivated(bool runAsync);
     // protected System.Threading.Tasks.Task BeforeScenesWillBeActivatedAsync()
-    // Offset: 0x29D54E8
+    // Offset: 0x2A279F8
     ::System::Threading::Tasks::Task* BeforeScenesWillBeActivatedAsync();
     // public System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x29D5548
+    // Offset: 0x2A27A58
     void InstallBindings(::Zenject::DiContainer* container);
     // private System.Threading.Tasks.Task <BeforeScenesWillBeActivated>b__10_0()
-    // Offset: 0x29D568C
+    // Offset: 0x2A27B9C
     ::System::Threading::Tasks::Task* $BeforeScenesWillBeActivated$b__10_0();
     // protected System.Void .ctor()
-    // Offset: 0x29D5684
+    // Offset: 0x2A27B94
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScenesTransitionSetupDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScenesTransitionSetupDataSO::.ctor");

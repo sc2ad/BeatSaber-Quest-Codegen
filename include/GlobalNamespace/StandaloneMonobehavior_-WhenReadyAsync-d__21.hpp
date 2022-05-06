@@ -85,22 +85,22 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public StandaloneMonobehavior <>4__this
-    ::GlobalNamespace::StandaloneMonobehavior*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::StandaloneMonobehavior*& dyn_$$4__this();
     // Get instance field reference: public System.Func`1<System.Threading.Tasks.Task> action
-    ::System::Func_1<::System::Threading::Tasks::Task*>*& dyn_action();
+    [[deprecated("Use field access instead!")]] ::System::Func_1<::System::Threading::Tasks::Task*>*& dyn_action();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<bool>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<bool>& dyn_$$u__1();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__2
-    ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__2();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x25F046C
+    // Offset: 0x263CA9C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x25F06E8
+    // Offset: 0x263CD18
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // StandaloneMonobehavior/<WhenReadyAsync>d__21
   // WARNING Not writing size check since size may be invalid!

@@ -66,7 +66,7 @@ namespace System::Xml::Schema {
     // Set static field: static public System.Xml.Schema.SchemaType XSD
     static void _set_XSD(::System::Xml::Schema::SchemaType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Xml.Schema.SchemaType
   #pragma pack(pop)
   static check_size<sizeof(SchemaType), 0 + sizeof(int)> __System_Xml_Schema_SchemaTypeSizeCheck;

@@ -55,11 +55,11 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt16 unWidth
-    uint16_t& dyn_unWidth();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_unWidth();
     // Get instance field reference: public System.UInt16 unHeight
-    uint16_t& dyn_unHeight();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_unHeight();
     // Get instance field reference: public System.IntPtr rubTextureMapData
-    ::System::IntPtr& dyn_rubTextureMapData();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_rubTextureMapData();
   }; // OVR.OpenVR.RenderModel_TextureMap_t
   #pragma pack(pop)
   static check_size<sizeof(RenderModel_TextureMap_t), 8 + sizeof(::System::IntPtr)> __OVR_OpenVR_RenderModel_TextureMap_tSizeCheck;

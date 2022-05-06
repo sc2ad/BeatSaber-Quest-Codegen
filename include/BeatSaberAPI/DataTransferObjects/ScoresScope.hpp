@@ -60,7 +60,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Set static field: static public BeatSaberAPI.DataTransferObjects.ScoresScope Friends
     static void _set_Friends(::BeatSaberAPI::DataTransferObjects::ScoresScope value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // BeatSaberAPI.DataTransferObjects.ScoresScope
   #pragma pack(pop)
   static check_size<sizeof(ScoresScope), 0 + sizeof(int)> __BeatSaberAPI_DataTransferObjects_ScoresScopeSizeCheck;

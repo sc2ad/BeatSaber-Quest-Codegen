@@ -36,15 +36,7 @@ namespace System::Runtime::Remoting {
   // [TokenAttribute] Offset: FFFFFFFF
   class ChannelData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.String Ref
     // Size: 0x8
     // Offset: 0x10
@@ -89,33 +81,33 @@ namespace System::Runtime::Remoting {
     static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     public:
     // Get instance field reference: System.String Ref
-    ::StringW& dyn_Ref();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Ref();
     // Get instance field reference: System.String Type
-    ::StringW& dyn_Type();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Type();
     // Get instance field reference: System.String Id
-    ::StringW& dyn_Id();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Id();
     // Get instance field reference: System.String DelayLoadAsClientChannel
-    ::StringW& dyn_DelayLoadAsClientChannel();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_DelayLoadAsClientChannel();
     // Get instance field reference: private System.Collections.ArrayList _serverProviders
-    ::System::Collections::ArrayList*& dyn__serverProviders();
+    [[deprecated("Use field access instead!")]] ::System::Collections::ArrayList*& dyn__serverProviders();
     // Get instance field reference: private System.Collections.ArrayList _clientProviders
-    ::System::Collections::ArrayList*& dyn__clientProviders();
+    [[deprecated("Use field access instead!")]] ::System::Collections::ArrayList*& dyn__clientProviders();
     // Get instance field reference: private System.Collections.Hashtable _customProperties
-    ::System::Collections::Hashtable*& dyn__customProperties();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn__customProperties();
     // System.Collections.ArrayList get_ServerProviders()
-    // Offset: 0x1D4E3F0
+    // Offset: 0x1D89948
     ::System::Collections::ArrayList* get_ServerProviders();
     // public System.Collections.ArrayList get_ClientProviders()
-    // Offset: 0x1D4E45C
+    // Offset: 0x1D899B4
     ::System::Collections::ArrayList* get_ClientProviders();
     // public System.Collections.Hashtable get_CustomProperties()
-    // Offset: 0x1D4E4C8
+    // Offset: 0x1D89A20
     ::System::Collections::Hashtable* get_CustomProperties();
     // public System.Void CopyFrom(System.Runtime.Remoting.ChannelData other)
-    // Offset: 0x1D4E534
+    // Offset: 0x1D89A8C
     void CopyFrom(::System::Runtime::Remoting::ChannelData* other);
     // public System.Void .ctor()
-    // Offset: 0x1D4ED88
+    // Offset: 0x1D8A2E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

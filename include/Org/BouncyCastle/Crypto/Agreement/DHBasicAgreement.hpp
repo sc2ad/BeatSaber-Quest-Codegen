@@ -47,15 +47,7 @@ namespace Org::BouncyCastle::Crypto::Agreement {
   // [TokenAttribute] Offset: FFFFFFFF
   class DHBasicAgreement : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IBasicAgreement*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Org.BouncyCastle.Crypto.Parameters.DHPrivateKeyParameters key
     // Size: 0x8
     // Offset: 0x10
@@ -74,33 +66,35 @@ namespace Org::BouncyCastle::Crypto::Agreement {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IBasicAgreement*>(this);
     }
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.DHPrivateKeyParameters key
-    ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*& dyn_key();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*& dyn_key();
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.DHParameters dhParams
-    ::Org::BouncyCastle::Crypto::Parameters::DHParameters*& dyn_dhParams();
-    // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1ED7404
-    void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-    // public System.Int32 GetFieldSize()
-    // Offset: 0x1ED750C
-    int GetFieldSize();
-    // public Org.BouncyCastle.Math.BigInteger CalculateAgreement(Org.BouncyCastle.Crypto.ICipherParameters pubKey)
-    // Offset: 0x1ED7554
-    ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::DHParameters*& dyn_dhParams();
     // public System.Void .ctor()
-    // Offset: 0x1ED77B8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1F24CF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHBasicAgreement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHBasicAgreement*, creationType>()));
     }
+    // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
+    // Offset: 0x1F2493C
+    void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // public System.Int32 GetFieldSize()
+    // Offset: 0x1F24A44
+    int GetFieldSize();
+    // public Org.BouncyCastle.Math.BigInteger CalculateAgreement(Org.BouncyCastle.Crypto.ICipherParameters pubKey)
+    // Offset: 0x1F24A8C
+    ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
   }; // Org.BouncyCastle.Crypto.Agreement.DHBasicAgreement
   #pragma pack(pop)
   static check_size<sizeof(DHBasicAgreement), 24 + sizeof(::Org::BouncyCastle::Crypto::Parameters::DHParameters*)> __Org_BouncyCastle_Crypto_Agreement_DHBasicAgreementSizeCheck;
   static_assert(sizeof(DHBasicAgreement) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::Init
 // Il2CppName: Init
 template<>
@@ -127,7 +121,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::Boun
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*), "CalculateAgreement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pubKey});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

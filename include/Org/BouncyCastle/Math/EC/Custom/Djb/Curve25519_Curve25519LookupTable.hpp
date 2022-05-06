@@ -33,15 +33,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Djb {
   // [TokenAttribute] Offset: FFFFFFFF
   class Curve25519::Curve25519LookupTable : public ::Org::BouncyCastle::Math::EC::AbstractECLookupTable {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519 m_outer
     // Size: 0x8
     // Offset: 0x10
@@ -62,33 +54,33 @@ namespace Org::BouncyCastle::Math::EC::Custom::Djb {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519 m_outer
-    ::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519*& dyn_m_outer();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519*& dyn_m_outer();
     // Get instance field reference: private readonly System.UInt32[] m_table
-    ::ArrayW<uint>& dyn_m_table();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_m_table();
     // Get instance field reference: private readonly System.Int32 m_size
-    int& dyn_m_size();
+    [[deprecated("Use field access instead!")]] int& dyn_m_size();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519 outer, System.UInt32[] table, System.Int32 size)
-    // Offset: 0x2274364
+    // Offset: 0x22BEBD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Curve25519::Curve25519LookupTable* New_ctor(::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519* outer, ::ArrayW<uint> table, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Curve25519::Curve25519LookupTable*, creationType>(outer, table, size)));
     }
     // private Org.BouncyCastle.Math.EC.ECPoint CreatePoint(System.UInt32[] x, System.UInt32[] y)
-    // Offset: 0x2274860
+    // Offset: 0x22BF0D4
     ::Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::ArrayW<uint> x, ::ArrayW<uint> y);
     // public override System.Int32 get_Size()
-    // Offset: 0x227471C
+    // Offset: 0x22BEF90
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
     // Base method: System.Int32 AbstractECLookupTable::get_Size()
     int get_Size();
     // public override Org.BouncyCastle.Math.EC.ECPoint Lookup(System.Int32 index)
-    // Offset: 0x2274724
+    // Offset: 0x22BEF98
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECLookupTable::Lookup(System.Int32 index)
     ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int index);
     // public override Org.BouncyCastle.Math.EC.ECPoint LookupVar(System.Int32 index)
-    // Offset: 0x2274944
+    // Offset: 0x22BF1B8
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECLookupTable::LookupVar(System.Int32 index)
     ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int index);

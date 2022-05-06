@@ -49,20 +49,18 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,ILobbyPlayerData>,System.Boolean> <>9__99_0
     static void _set_$$9__99_0(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x14973B0
+    // Offset: 0x14CDC68
     static void _cctor();
-    // System.Boolean <PredictCountdownEndTime>b__99_0(System.Collections.Generic.KeyValuePair`2<System.String,ILobbyPlayerData> pair)
-    // Offset: 0x149741C
-    bool $PredictCountdownEndTime$b__99_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*> pair);
     // public System.Void .ctor()
-    // Offset: 0x1497414
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14CDCCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LobbyGameStateController::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LobbyGameStateController::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LobbyGameStateController::$$c*, creationType>()));
     }
+    // System.Boolean <PredictCountdownEndTime>b__99_0(System.Collections.Generic.KeyValuePair`2<System.String,ILobbyPlayerData> pair)
+    // Offset: 0x14CDCD4
+    bool $PredictCountdownEndTime$b__99_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*> pair);
   }; // LobbyGameStateController/<>c
   #pragma pack(pop)
 }
@@ -75,6 +73,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyGameStateController::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateController::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateController::$$c::$PredictCountdownEndTime$b__99_0
 // Il2CppName: <PredictCountdownEndTime>b__99_0
 template<>
@@ -84,7 +86,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyGameStateController::$$c*), "<PredictCountdownEndTime>b__99_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pair});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateController::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

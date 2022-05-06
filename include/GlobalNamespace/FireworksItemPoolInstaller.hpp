@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FireworksItemPoolInstaller : public ::Zenject::MonoInstaller {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private FireworksController _fireworksController
     // Size: 0x8
     // Offset: 0x20
@@ -60,26 +52,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::FireworkItemController*) == 0x8);
     public:
     // Get instance field reference: private FireworksController _fireworksController
-    ::GlobalNamespace::FireworksController*& dyn__fireworksController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FireworksController*& dyn__fireworksController();
     // Get instance field reference: private FireworkItemController _fireworkItemControllerPrefab
-    ::GlobalNamespace::FireworkItemController*& dyn__fireworkItemControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FireworkItemController*& dyn__fireworkItemControllerPrefab();
     // public System.Void .ctor()
-    // Offset: 0x138EF3C
-    // Implemented from: Zenject.MonoInstaller
-    // Base method: System.Void MonoInstaller::.ctor()
-    // Base method: System.Void MonoInstallerBase::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1376A50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FireworksItemPoolInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FireworksItemPoolInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FireworksItemPoolInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x138EEAC
+    // Offset: 0x13769C0
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

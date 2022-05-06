@@ -40,15 +40,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DateConditionalSpriteSwitcher : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _day
     // Size: 0x4
     // Offset: 0x18
@@ -61,7 +53,7 @@ namespace GlobalNamespace {
     int month;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [SpaceAttribute] Offset: 0x1256E50
+    // [SpaceAttribute] Offset: 0x10DBA34
     // private UnityEngine.Sprite _falseSprite
     // Size: 0x8
     // Offset: 0x20
@@ -74,7 +66,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Sprite* trueSprite;
     // Field size check
     static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1256E98
+    // [SpaceAttribute] Offset: 0x10DBA7C
     // private ConditionalSpriteSwitcher _conditionalSpriteSwitcher
     // Size: 0x8
     // Offset: 0x30
@@ -85,37 +77,35 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _day
-    int& dyn__day();
+    [[deprecated("Use field access instead!")]] int& dyn__day();
     // Get instance field reference: private System.Int32 _month
-    int& dyn__month();
+    [[deprecated("Use field access instead!")]] int& dyn__month();
     // Get instance field reference: private UnityEngine.Sprite _falseSprite
-    ::UnityEngine::Sprite*& dyn__falseSprite();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__falseSprite();
     // Get instance field reference: private UnityEngine.Sprite _trueSprite
-    ::UnityEngine::Sprite*& dyn__trueSprite();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__trueSprite();
     // Get instance field reference: private ConditionalSpriteSwitcher _conditionalSpriteSwitcher
-    ::GlobalNamespace::ConditionalSpriteSwitcher*& dyn__conditionalSpriteSwitcher();
-    // protected System.Void Awake()
-    // Offset: 0x140D8F8
-    void Awake();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ConditionalSpriteSwitcher*& dyn__conditionalSpriteSwitcher();
     // public System.Void .ctor()
-    // Offset: 0x140D9D0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x142D77C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DateConditionalSpriteSwitcher* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DateConditionalSpriteSwitcher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DateConditionalSpriteSwitcher*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x142D6A4
+    void Awake();
   }; // DateConditionalSpriteSwitcher
   #pragma pack(pop)
   static check_size<sizeof(DateConditionalSpriteSwitcher), 48 + sizeof(::GlobalNamespace::ConditionalSpriteSwitcher*)> __GlobalNamespace_DateConditionalSpriteSwitcherSizeCheck;
   static_assert(sizeof(DateConditionalSpriteSwitcher) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::DateConditionalSpriteSwitcher::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::DateConditionalSpriteSwitcher::Awake
 // Il2CppName: Awake
 template<>
@@ -124,7 +114,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DateConditionalSpriteSwitcher*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::DateConditionalSpriteSwitcher::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

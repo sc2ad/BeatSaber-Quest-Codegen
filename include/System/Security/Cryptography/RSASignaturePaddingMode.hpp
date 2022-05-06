@@ -54,7 +54,7 @@ namespace System::Security::Cryptography {
     // Set static field: static public System.Security.Cryptography.RSASignaturePaddingMode Pss
     static void _set_Pss(::System::Security::Cryptography::RSASignaturePaddingMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Security.Cryptography.RSASignaturePaddingMode
   #pragma pack(pop)
   static check_size<sizeof(RSASignaturePaddingMode), 0 + sizeof(int)> __System_Security_Cryptography_RSASignaturePaddingModeSizeCheck;

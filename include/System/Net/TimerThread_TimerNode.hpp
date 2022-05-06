@@ -78,20 +78,12 @@ namespace System::Net {
       // Set static field: static public System.Net.TimerThread/System.Net.TimerNode/System.Net.TimerState Sentinel
       static void _set_Sentinel(::System::Net::TimerThread::TimerNode::TimerState value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // System.Net.TimerThread/System.Net.TimerNode/System.Net.TimerState
     #pragma pack(pop)
     static check_size<sizeof(TimerThread::TimerNode::TimerState), 0 + sizeof(int)> __System_Net_TimerThread_TimerNode_TimerStateSizeCheck;
     static_assert(sizeof(TimerThread::TimerNode::TimerState) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Net.TimerThread/System.Net.TimerNode/System.Net.TimerState m_TimerState
     // Size: 0x4
     // Offset: 0x18
@@ -132,40 +124,38 @@ namespace System::Net {
     static_assert(sizeof(::System::Net::TimerThread::TimerNode*) == 0x8);
     public:
     // Get instance field reference: private System.Net.TimerThread/System.Net.TimerNode/System.Net.TimerState m_TimerState
-    ::System::Net::TimerThread::TimerNode::TimerState& dyn_m_TimerState();
+    [[deprecated("Use field access instead!")]] ::System::Net::TimerThread::TimerNode::TimerState& dyn_m_TimerState();
     // Get instance field reference: private System.Net.TimerThread/System.Net.Callback m_Callback
-    ::System::Net::TimerThread::Callback*& dyn_m_Callback();
+    [[deprecated("Use field access instead!")]] ::System::Net::TimerThread::Callback*& dyn_m_Callback();
     // Get instance field reference: private System.Object m_Context
-    ::Il2CppObject*& dyn_m_Context();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_m_Context();
     // Get instance field reference: private System.Object m_QueueLock
-    ::Il2CppObject*& dyn_m_QueueLock();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_m_QueueLock();
     // Get instance field reference: private System.Net.TimerThread/System.Net.TimerNode next
-    ::System::Net::TimerThread::TimerNode*& dyn_next();
+    [[deprecated("Use field access instead!")]] ::System::Net::TimerThread::TimerNode*& dyn_next();
     // Get instance field reference: private System.Net.TimerThread/System.Net.TimerNode prev
-    ::System::Net::TimerThread::TimerNode*& dyn_prev();
+    [[deprecated("Use field access instead!")]] ::System::Net::TimerThread::TimerNode*& dyn_prev();
     // System.Net.TimerThread/System.Net.TimerNode get_Next()
-    // Offset: 0x1B1506C
+    // Offset: 0x1B4F654
     ::System::Net::TimerThread::TimerNode* get_Next();
     // System.Void set_Next(System.Net.TimerThread/System.Net.TimerNode value)
-    // Offset: 0x1B15074
+    // Offset: 0x1B4F65C
     void set_Next(::System::Net::TimerThread::TimerNode* value);
     // System.Net.TimerThread/System.Net.TimerNode get_Prev()
-    // Offset: 0x1B1507C
+    // Offset: 0x1B4F664
     ::System::Net::TimerThread::TimerNode* get_Prev();
     // System.Void set_Prev(System.Net.TimerThread/System.Net.TimerNode value)
-    // Offset: 0x1B15084
+    // Offset: 0x1B4F66C
     void set_Prev(::System::Net::TimerThread::TimerNode* value);
     // System.Void .ctor()
-    // Offset: 0x1B15030
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B4F618
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimerThread::TimerNode* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::TimerThread::TimerNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimerThread::TimerNode*, creationType>()));
     }
     // override System.Boolean Cancel()
-    // Offset: 0x1B1508C
+    // Offset: 0x1B4F674
     // Implemented from: System.Net.TimerThread/System.Net.Timer
     // Base method: System.Boolean Timer::Cancel()
     bool Cancel();

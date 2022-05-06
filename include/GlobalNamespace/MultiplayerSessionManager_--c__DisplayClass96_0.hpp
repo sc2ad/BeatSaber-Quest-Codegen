@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MultiplayerSessionManager::$$c__DisplayClass96_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String userId
     // Size: 0x8
     // Offset: 0x10
@@ -53,25 +45,27 @@ namespace GlobalNamespace {
       return userId;
     }
     // Get instance field reference: public System.String userId
-    ::StringW& dyn_userId();
-    // System.Boolean <GetPlayerByUserId>b__0(IConnectedPlayer player)
-    // Offset: 0x1705768
-    bool $GetPlayerByUserId$b__0(::GlobalNamespace::IConnectedPlayer* player);
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_userId();
     // public System.Void .ctor()
-    // Offset: 0x1705320
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x173DC30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerSessionManager::$$c__DisplayClass96_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerSessionManager::$$c__DisplayClass96_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerSessionManager::$$c__DisplayClass96_0*, creationType>()));
     }
+    // System.Boolean <GetPlayerByUserId>b__0(IConnectedPlayer player)
+    // Offset: 0x173E078
+    bool $GetPlayerByUserId$b__0(::GlobalNamespace::IConnectedPlayer* player);
   }; // MultiplayerSessionManager/<>c__DisplayClass96_0
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerSessionManager::$$c__DisplayClass96_0), 16 + sizeof(::StringW)> __GlobalNamespace_MultiplayerSessionManager_$$c__DisplayClass96_0SizeCheck;
   static_assert(sizeof(MultiplayerSessionManager::$$c__DisplayClass96_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::$$c__DisplayClass96_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::$$c__DisplayClass96_0::$GetPlayerByUserId$b__0
 // Il2CppName: <GetPlayerByUserId>b__0
 template<>
@@ -81,7 +75,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager::$$c__DisplayClass96_0*), "<GetPlayerByUserId>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{player});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::$$c__DisplayClass96_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

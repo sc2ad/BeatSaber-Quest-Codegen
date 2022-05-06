@@ -41,15 +41,7 @@ namespace OVRSimpleJSON {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class JSONObject::$get_Children$d__23 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerable_1<::OVRSimpleJSON::JSONNode*>, public ::System::Collections::Generic::IEnumerator_1<::OVRSimpleJSON::JSONNode*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -88,45 +80,45 @@ namespace OVRSimpleJSON {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::OVRSimpleJSON::JSONNode*>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private OVRSimpleJSON.JSONNode <>2__current
-    ::OVRSimpleJSON::JSONNode*& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::OVRSimpleJSON::JSONNode*& dyn_$$2__current();
     // Get instance field reference: private System.Int32 <>l__initialThreadId
-    int& dyn_$$l__initialThreadId();
+    [[deprecated("Use field access instead!")]] int& dyn_$$l__initialThreadId();
     // Get instance field reference: public OVRSimpleJSON.JSONObject <>4__this
-    ::OVRSimpleJSON::JSONObject*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::OVRSimpleJSON::JSONObject*& dyn_$$4__this();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,OVRSimpleJSON.JSONNode> <>7__wrap1
-    typename ::System::Collections::Generic::Dictionary_2<::StringW, ::OVRSimpleJSON::JSONNode*>::Enumerator& dyn_$$7__wrap1();
+    [[deprecated("Use field access instead!")]] typename ::System::Collections::Generic::Dictionary_2<::StringW, ::OVRSimpleJSON::JSONNode*>::Enumerator& dyn_$$7__wrap1();
     // private OVRSimpleJSON.JSONNode System.Collections.Generic.IEnumerator<OVRSimpleJSON.JSONNode>.get_Current()
-    // Offset: 0x2454C54
+    // Offset: 0x249E718
     ::OVRSimpleJSON::JSONNode* System_Collections_Generic_IEnumerator$OVRSimpleJSON_JSONNode$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x2454CBC
+    // Offset: 0x249E780
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x2454670
+    // Offset: 0x249E134
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JSONObject::$get_Children$d__23* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::OVRSimpleJSON::JSONObject::$get_Children$d__23::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONObject::$get_Children$d__23*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x2454A84
+    // Offset: 0x249E548
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x2454AF8
+    // Offset: 0x249E5BC
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x2454AA0
+    // Offset: 0x249E564
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x2454C5C
+    // Offset: 0x249E720
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<OVRSimpleJSON.JSONNode> System.Collections.Generic.IEnumerable<OVRSimpleJSON.JSONNode>.GetEnumerator()
-    // Offset: 0x2454CC4
+    // Offset: 0x249E788
     ::System::Collections::Generic::IEnumerator_1<::OVRSimpleJSON::JSONNode*>* System_Collections_Generic_IEnumerable$OVRSimpleJSON_JSONNode$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x2454D70
+    // Offset: 0x249E834
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // OVRSimpleJSON.JSONObject/OVRSimpleJSON.<get_Children>d__23
   // WARNING Not writing size check since size may be invalid!

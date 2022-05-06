@@ -41,15 +41,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FileBrowserTableCell : public ::HMUI::TableCell {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _text
     // Size: 0x8
     // Offset: 0x58
@@ -70,40 +62,31 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::UI::Image*) == 0x8);
     public:
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
-    ::TMPro::TextMeshProUGUI*& dyn__text();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__text();
     // Get instance field reference: private UnityEngine.UI.Image _bgImage
-    ::UnityEngine::UI::Image*& dyn__bgImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__bgImage();
     // Get instance field reference: private UnityEngine.UI.Image _highlightImage
-    ::UnityEngine::UI::Image*& dyn__highlightImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__highlightImage();
     // public System.String get_text()
-    // Offset: 0x138B758
+    // Offset: 0x137326C
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x138B73C
+    // Offset: 0x1373250
     void set_text(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x138B848
-    // Implemented from: HMUI.TableCell
-    // Base method: System.Void TableCell::.ctor()
-    // Base method: System.Void SelectableCell::.ctor()
-    // Base method: System.Void Interactable::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x137335C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileBrowserTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FileBrowserTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileBrowserTableCell*, creationType>()));
     }
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x138B774
+    // Offset: 0x1373288
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(::HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x138B80C
+    // Offset: 0x1373320
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(::HMUI::SelectableCell::TransitionType transitionType);

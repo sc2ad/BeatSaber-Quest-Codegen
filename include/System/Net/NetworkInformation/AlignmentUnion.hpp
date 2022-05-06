@@ -59,11 +59,11 @@ namespace System::Net::NetworkInformation {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt64 Alignment
-    uint64_t& dyn_Alignment();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_Alignment();
     // Get instance field reference: public System.Int32 Length
-    int& dyn_Length();
+    [[deprecated("Use field access instead!")]] int& dyn_Length();
     // Get instance field reference: public System.Int32 IfIndex
-    int& dyn_IfIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_IfIndex();
   }; // System.Net.NetworkInformation.AlignmentUnion
   #pragma pack(pop)
   static check_size<sizeof(AlignmentUnion), 4 + sizeof(int)> __System_Net_NetworkInformation_AlignmentUnionSizeCheck;

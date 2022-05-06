@@ -84,7 +84,7 @@ namespace UnityEngine::Timeline {
     // Set static field: static public UnityEngine.Timeline.AppliedOffsetMode SceneOffsetLegacyEditor
     static void _set_SceneOffsetLegacyEditor(::UnityEngine::Timeline::AppliedOffsetMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.Timeline.AppliedOffsetMode
   #pragma pack(pop)
   static check_size<sizeof(AppliedOffsetMode), 0 + sizeof(int)> __UnityEngine_Timeline_AppliedOffsetModeSizeCheck;

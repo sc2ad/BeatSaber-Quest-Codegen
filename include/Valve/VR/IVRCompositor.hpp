@@ -381,91 +381,91 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._SetTrackingSpace SetTrackingSpace
-    ::Valve::VR::IVRCompositor::_SetTrackingSpace*& dyn_SetTrackingSpace();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_SetTrackingSpace*& dyn_SetTrackingSpace();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetTrackingSpace GetTrackingSpace
-    ::Valve::VR::IVRCompositor::_GetTrackingSpace*& dyn_GetTrackingSpace();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_GetTrackingSpace*& dyn_GetTrackingSpace();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._WaitGetPoses WaitGetPoses
-    ::Valve::VR::IVRCompositor::_WaitGetPoses*& dyn_WaitGetPoses();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_WaitGetPoses*& dyn_WaitGetPoses();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetLastPoses GetLastPoses
-    ::Valve::VR::IVRCompositor::_GetLastPoses*& dyn_GetLastPoses();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_GetLastPoses*& dyn_GetLastPoses();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetLastPoseForTrackedDeviceIndex GetLastPoseForTrackedDeviceIndex
-    ::Valve::VR::IVRCompositor::_GetLastPoseForTrackedDeviceIndex*& dyn_GetLastPoseForTrackedDeviceIndex();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_GetLastPoseForTrackedDeviceIndex*& dyn_GetLastPoseForTrackedDeviceIndex();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._Submit Submit
-    ::Valve::VR::IVRCompositor::_Submit*& dyn_Submit();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_Submit*& dyn_Submit();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._ClearLastSubmittedFrame ClearLastSubmittedFrame
-    ::Valve::VR::IVRCompositor::_ClearLastSubmittedFrame*& dyn_ClearLastSubmittedFrame();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_ClearLastSubmittedFrame*& dyn_ClearLastSubmittedFrame();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._PostPresentHandoff PostPresentHandoff
-    ::Valve::VR::IVRCompositor::_PostPresentHandoff*& dyn_PostPresentHandoff();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_PostPresentHandoff*& dyn_PostPresentHandoff();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetFrameTiming GetFrameTiming
-    ::Valve::VR::IVRCompositor::_GetFrameTiming*& dyn_GetFrameTiming();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_GetFrameTiming*& dyn_GetFrameTiming();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetFrameTimings GetFrameTimings
-    ::Valve::VR::IVRCompositor::_GetFrameTimings*& dyn_GetFrameTimings();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_GetFrameTimings*& dyn_GetFrameTimings();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetFrameTimeRemaining GetFrameTimeRemaining
-    ::Valve::VR::IVRCompositor::_GetFrameTimeRemaining*& dyn_GetFrameTimeRemaining();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_GetFrameTimeRemaining*& dyn_GetFrameTimeRemaining();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetCumulativeStats GetCumulativeStats
-    ::Valve::VR::IVRCompositor::_GetCumulativeStats*& dyn_GetCumulativeStats();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_GetCumulativeStats*& dyn_GetCumulativeStats();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._FadeToColor FadeToColor
-    ::Valve::VR::IVRCompositor::_FadeToColor*& dyn_FadeToColor();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_FadeToColor*& dyn_FadeToColor();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetCurrentFadeColor GetCurrentFadeColor
-    ::Valve::VR::IVRCompositor::_GetCurrentFadeColor*& dyn_GetCurrentFadeColor();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_GetCurrentFadeColor*& dyn_GetCurrentFadeColor();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._FadeGrid FadeGrid
-    ::Valve::VR::IVRCompositor::_FadeGrid*& dyn_FadeGrid();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_FadeGrid*& dyn_FadeGrid();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetCurrentGridAlpha GetCurrentGridAlpha
-    ::Valve::VR::IVRCompositor::_GetCurrentGridAlpha*& dyn_GetCurrentGridAlpha();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_GetCurrentGridAlpha*& dyn_GetCurrentGridAlpha();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._SetSkyboxOverride SetSkyboxOverride
-    ::Valve::VR::IVRCompositor::_SetSkyboxOverride*& dyn_SetSkyboxOverride();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_SetSkyboxOverride*& dyn_SetSkyboxOverride();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._ClearSkyboxOverride ClearSkyboxOverride
-    ::Valve::VR::IVRCompositor::_ClearSkyboxOverride*& dyn_ClearSkyboxOverride();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_ClearSkyboxOverride*& dyn_ClearSkyboxOverride();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._CompositorBringToFront CompositorBringToFront
-    ::Valve::VR::IVRCompositor::_CompositorBringToFront*& dyn_CompositorBringToFront();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_CompositorBringToFront*& dyn_CompositorBringToFront();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._CompositorGoToBack CompositorGoToBack
-    ::Valve::VR::IVRCompositor::_CompositorGoToBack*& dyn_CompositorGoToBack();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_CompositorGoToBack*& dyn_CompositorGoToBack();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._CompositorQuit CompositorQuit
-    ::Valve::VR::IVRCompositor::_CompositorQuit*& dyn_CompositorQuit();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_CompositorQuit*& dyn_CompositorQuit();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._IsFullscreen IsFullscreen
-    ::Valve::VR::IVRCompositor::_IsFullscreen*& dyn_IsFullscreen();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_IsFullscreen*& dyn_IsFullscreen();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetCurrentSceneFocusProcess GetCurrentSceneFocusProcess
-    ::Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess*& dyn_GetCurrentSceneFocusProcess();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess*& dyn_GetCurrentSceneFocusProcess();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetLastFrameRenderer GetLastFrameRenderer
-    ::Valve::VR::IVRCompositor::_GetLastFrameRenderer*& dyn_GetLastFrameRenderer();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_GetLastFrameRenderer*& dyn_GetLastFrameRenderer();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._CanRenderScene CanRenderScene
-    ::Valve::VR::IVRCompositor::_CanRenderScene*& dyn_CanRenderScene();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_CanRenderScene*& dyn_CanRenderScene();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._ShowMirrorWindow ShowMirrorWindow
-    ::Valve::VR::IVRCompositor::_ShowMirrorWindow*& dyn_ShowMirrorWindow();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_ShowMirrorWindow*& dyn_ShowMirrorWindow();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._HideMirrorWindow HideMirrorWindow
-    ::Valve::VR::IVRCompositor::_HideMirrorWindow*& dyn_HideMirrorWindow();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_HideMirrorWindow*& dyn_HideMirrorWindow();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._IsMirrorWindowVisible IsMirrorWindowVisible
-    ::Valve::VR::IVRCompositor::_IsMirrorWindowVisible*& dyn_IsMirrorWindowVisible();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_IsMirrorWindowVisible*& dyn_IsMirrorWindowVisible();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._CompositorDumpImages CompositorDumpImages
-    ::Valve::VR::IVRCompositor::_CompositorDumpImages*& dyn_CompositorDumpImages();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_CompositorDumpImages*& dyn_CompositorDumpImages();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._ShouldAppRenderWithLowResources ShouldAppRenderWithLowResources
-    ::Valve::VR::IVRCompositor::_ShouldAppRenderWithLowResources*& dyn_ShouldAppRenderWithLowResources();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_ShouldAppRenderWithLowResources*& dyn_ShouldAppRenderWithLowResources();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._ForceInterleavedReprojectionOn ForceInterleavedReprojectionOn
-    ::Valve::VR::IVRCompositor::_ForceInterleavedReprojectionOn*& dyn_ForceInterleavedReprojectionOn();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_ForceInterleavedReprojectionOn*& dyn_ForceInterleavedReprojectionOn();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._ForceReconnectProcess ForceReconnectProcess
-    ::Valve::VR::IVRCompositor::_ForceReconnectProcess*& dyn_ForceReconnectProcess();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_ForceReconnectProcess*& dyn_ForceReconnectProcess();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._SuspendRendering SuspendRendering
-    ::Valve::VR::IVRCompositor::_SuspendRendering*& dyn_SuspendRendering();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_SuspendRendering*& dyn_SuspendRendering();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetMirrorTextureD3D11 GetMirrorTextureD3D11
-    ::Valve::VR::IVRCompositor::_GetMirrorTextureD3D11*& dyn_GetMirrorTextureD3D11();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_GetMirrorTextureD3D11*& dyn_GetMirrorTextureD3D11();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._ReleaseMirrorTextureD3D11 ReleaseMirrorTextureD3D11
-    ::Valve::VR::IVRCompositor::_ReleaseMirrorTextureD3D11*& dyn_ReleaseMirrorTextureD3D11();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_ReleaseMirrorTextureD3D11*& dyn_ReleaseMirrorTextureD3D11();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetMirrorTextureGL GetMirrorTextureGL
-    ::Valve::VR::IVRCompositor::_GetMirrorTextureGL*& dyn_GetMirrorTextureGL();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_GetMirrorTextureGL*& dyn_GetMirrorTextureGL();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._ReleaseSharedGLTexture ReleaseSharedGLTexture
-    ::Valve::VR::IVRCompositor::_ReleaseSharedGLTexture*& dyn_ReleaseSharedGLTexture();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_ReleaseSharedGLTexture*& dyn_ReleaseSharedGLTexture();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._LockGLSharedTextureForAccess LockGLSharedTextureForAccess
-    ::Valve::VR::IVRCompositor::_LockGLSharedTextureForAccess*& dyn_LockGLSharedTextureForAccess();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_LockGLSharedTextureForAccess*& dyn_LockGLSharedTextureForAccess();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._UnlockGLSharedTextureForAccess UnlockGLSharedTextureForAccess
-    ::Valve::VR::IVRCompositor::_UnlockGLSharedTextureForAccess*& dyn_UnlockGLSharedTextureForAccess();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_UnlockGLSharedTextureForAccess*& dyn_UnlockGLSharedTextureForAccess();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetVulkanInstanceExtensionsRequired GetVulkanInstanceExtensionsRequired
-    ::Valve::VR::IVRCompositor::_GetVulkanInstanceExtensionsRequired*& dyn_GetVulkanInstanceExtensionsRequired();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_GetVulkanInstanceExtensionsRequired*& dyn_GetVulkanInstanceExtensionsRequired();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._GetVulkanDeviceExtensionsRequired GetVulkanDeviceExtensionsRequired
-    ::Valve::VR::IVRCompositor::_GetVulkanDeviceExtensionsRequired*& dyn_GetVulkanDeviceExtensionsRequired();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_GetVulkanDeviceExtensionsRequired*& dyn_GetVulkanDeviceExtensionsRequired();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._SetExplicitTimingMode SetExplicitTimingMode
-    ::Valve::VR::IVRCompositor::_SetExplicitTimingMode*& dyn_SetExplicitTimingMode();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_SetExplicitTimingMode*& dyn_SetExplicitTimingMode();
     // Get instance field reference: Valve.VR.IVRCompositor/Valve.VR._SubmitExplicitTimingData SubmitExplicitTimingData
-    ::Valve::VR::IVRCompositor::_SubmitExplicitTimingData*& dyn_SubmitExplicitTimingData();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor::_SubmitExplicitTimingData*& dyn_SubmitExplicitTimingData();
   }; // Valve.VR.IVRCompositor
   #pragma pack(pop)
   static check_size<sizeof(IVRCompositor), 336 + sizeof(::Valve::VR::IVRCompositor::_SubmitExplicitTimingData*)> __Valve_VR_IVRCompositorSizeCheck;

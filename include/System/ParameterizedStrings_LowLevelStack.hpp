@@ -24,15 +24,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParameterizedStrings::LowLevelStack : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.ParameterizedStrings/System.FormatParam[] _arr
     // Size: 0x8
     // Offset: 0x10
@@ -47,20 +39,20 @@ namespace System {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.ParameterizedStrings/System.FormatParam[] _arr
-    ::ArrayW<::System::ParameterizedStrings::FormatParam>& dyn__arr();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::ParameterizedStrings::FormatParam>& dyn__arr();
     // Get instance field reference: private System.Int32 _count
-    int& dyn__count();
+    [[deprecated("Use field access instead!")]] int& dyn__count();
     // public System.ParameterizedStrings/System.FormatParam Pop()
-    // Offset: 0x21B954C
+    // Offset: 0x2206DC0
     ::System::ParameterizedStrings::FormatParam Pop();
     // public System.Void Push(System.ParameterizedStrings/System.FormatParam item)
-    // Offset: 0x21B98E8
+    // Offset: 0x220715C
     void Push(::System::ParameterizedStrings::FormatParam item);
     // public System.Void Clear()
-    // Offset: 0x21B8C70
+    // Offset: 0x22064E4
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0x21B8C18
+    // Offset: 0x220648C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

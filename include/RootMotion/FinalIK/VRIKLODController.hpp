@@ -40,15 +40,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRIKLODController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Renderer LODRenderer
     // Size: 0x8
     // Offset: 0x18
@@ -79,41 +71,39 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Renderer LODRenderer
-    ::UnityEngine::Renderer*& dyn_LODRenderer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Renderer*& dyn_LODRenderer();
     // Get instance field reference: public System.Single LODDistance
-    float& dyn_LODDistance();
+    [[deprecated("Use field access instead!")]] float& dyn_LODDistance();
     // Get instance field reference: public System.Boolean allowCulled
-    bool& dyn_allowCulled();
+    [[deprecated("Use field access instead!")]] bool& dyn_allowCulled();
     // Get instance field reference: private RootMotion.FinalIK.VRIK ik
-    ::RootMotion::FinalIK::VRIK*& dyn_ik();
-    // private System.Void Start()
-    // Offset: 0x1F7D474
-    void Start();
-    // private System.Void Update()
-    // Offset: 0x1F7D4CC
-    void Update();
-    // private System.Int32 GetLODLevel()
-    // Offset: 0x1F7D500
-    int GetLODLevel();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::VRIK*& dyn_ik();
     // public System.Void .ctor()
-    // Offset: 0x1F7D688
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FC9EFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRIKLODController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::VRIKLODController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRIKLODController*, creationType>()));
     }
+    // private System.Void Start()
+    // Offset: 0x1FC9CE8
+    void Start();
+    // private System.Void Update()
+    // Offset: 0x1FC9D40
+    void Update();
+    // private System.Int32 GetLODLevel()
+    // Offset: 0x1FC9D74
+    int GetLODLevel();
   }; // RootMotion.FinalIK.VRIKLODController
   #pragma pack(pop)
   static check_size<sizeof(VRIKLODController), 40 + sizeof(::RootMotion::FinalIK::VRIK*)> __RootMotion_FinalIK_VRIKLODControllerSizeCheck;
   static_assert(sizeof(VRIKLODController) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::VRIKLODController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::VRIKLODController::Start
 // Il2CppName: Start
 template<>
@@ -138,7 +128,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RootMo
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKLODController*), "GetLODLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::VRIKLODController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

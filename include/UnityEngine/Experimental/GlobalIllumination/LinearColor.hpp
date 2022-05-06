@@ -63,18 +63,18 @@ namespace UnityEngine::Experimental::GlobalIllumination {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private System.Single m_red
-    float& dyn_m_red();
+    [[deprecated("Use field access instead!")]] float& dyn_m_red();
     // Get instance field reference: private System.Single m_green
-    float& dyn_m_green();
+    [[deprecated("Use field access instead!")]] float& dyn_m_green();
     // Get instance field reference: private System.Single m_blue
-    float& dyn_m_blue();
+    [[deprecated("Use field access instead!")]] float& dyn_m_blue();
     // Get instance field reference: private System.Single m_intensity
-    float& dyn_m_intensity();
+    [[deprecated("Use field access instead!")]] float& dyn_m_intensity();
     // static public UnityEngine.Experimental.GlobalIllumination.LinearColor Convert(UnityEngine.Color color, System.Single intensity)
-    // Offset: 0x1F332D4
+    // Offset: 0x1F99F90
     static ::UnityEngine::Experimental::GlobalIllumination::LinearColor Convert(::UnityEngine::Color color, float intensity);
     // static public UnityEngine.Experimental.GlobalIllumination.LinearColor Black()
-    // Offset: 0x1F3459C
+    // Offset: 0x1F9B258
     static ::UnityEngine::Experimental::GlobalIllumination::LinearColor Black();
   }; // UnityEngine.Experimental.GlobalIllumination.LinearColor
   #pragma pack(pop)

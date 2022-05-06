@@ -45,15 +45,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::ShowHideAnimationController::$DeactivateSelfAfterDelayCoroutine$d__9
     class $DeactivateSelfAfterDelayCoroutine$d__9;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Animator _animator
     // Size: 0x8
     // Offset: 0x18
@@ -92,40 +84,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Animator _animator
-    ::UnityEngine::Animator*& dyn__animator();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Animator*& dyn__animator();
     // Get instance field reference: public System.Boolean _deactivateSelfAfterDelay
-    bool& dyn__deactivateSelfAfterDelay();
+    [[deprecated("Use field access instead!")]] bool& dyn__deactivateSelfAfterDelay();
     // Get instance field reference: public System.Single _deactivationDelay
-    float& dyn__deactivationDelay();
+    [[deprecated("Use field access instead!")]] float& dyn__deactivationDelay();
     // Get instance field reference: private System.Boolean _show
-    bool& dyn__show();
+    [[deprecated("Use field access instead!")]] bool& dyn__show();
     // Get instance field reference: private System.Int32 _showAnimatorParam
-    int& dyn__showAnimatorParam();
+    [[deprecated("Use field access instead!")]] int& dyn__showAnimatorParam();
     // public System.Boolean get_Show()
-    // Offset: 0x29D63D4
+    // Offset: 0x2A288E4
     bool get_Show();
     // public System.Void set_Show(System.Boolean value)
-    // Offset: 0x29D6274
+    // Offset: 0x2A28784
     void set_Show(bool value);
-    // protected System.Void Awake()
-    // Offset: 0x29D63DC
-    void Awake();
-    // private System.Collections.IEnumerator DeactivateSelfAfterDelayCoroutine(System.Single delay)
-    // Offset: 0x29D6458
-    ::System::Collections::IEnumerator* DeactivateSelfAfterDelayCoroutine(float delay);
     // public System.Void .ctor()
-    // Offset: 0x29D6504
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A28A14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShowHideAnimationController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ShowHideAnimationController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShowHideAnimationController*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x2A288EC
+    void Awake();
+    // private System.Collections.IEnumerator DeactivateSelfAfterDelayCoroutine(System.Single delay)
+    // Offset: 0x2A28968
+    ::System::Collections::IEnumerator* DeactivateSelfAfterDelayCoroutine(float delay);
   }; // ShowHideAnimationController
   #pragma pack(pop)
   static check_size<sizeof(ShowHideAnimationController), 44 + sizeof(int)> __GlobalNamespace_ShowHideAnimationControllerSizeCheck;
@@ -149,6 +135,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShowHideAnimationController*), "set_Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ShowHideAnimationController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ShowHideAnimationController::Awake
 // Il2CppName: Awake
 template<>
@@ -166,7 +156,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShowHideAnimationController*), "DeactivateSelfAfterDelayCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delay});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ShowHideAnimationController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

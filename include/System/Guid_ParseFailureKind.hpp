@@ -75,7 +75,7 @@ namespace System {
     // Set static field: static public System.Guid/System.ParseFailureKind FormatWithInnerException
     static void _set_FormatWithInnerException(::System::Guid::ParseFailureKind value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Guid/System.ParseFailureKind
   #pragma pack(pop)
   static check_size<sizeof(Guid::ParseFailureKind), 0 + sizeof(int)> __System_Guid_ParseFailureKindSizeCheck;

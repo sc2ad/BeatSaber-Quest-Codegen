@@ -44,15 +44,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TutorialInstaller : public ::Zenject::MonoInstaller {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.AudioClip _audioClip
     // Size: 0x8
     // Offset: 0x20
@@ -67,7 +59,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: songBPM and: playerHeightDetectorPrefab
     char __padding1[0x4] = {};
-    // [SpaceAttribute] Offset: 0x1257538
+    // [SpaceAttribute] Offset: 0x10DC11C
     // private PlayerHeightDetector _playerHeightDetectorPrefab
     // Size: 0x8
     // Offset: 0x30
@@ -80,7 +72,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::EffectPoolsManualInstaller* effectPoolsManualInstaller;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EffectPoolsManualInstaller*) == 0x8);
-    // [InjectAttribute] Offset: 0x1257580
+    // [InjectAttribute] Offset: 0x10DC164
     // private readonly TutorialSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x40
@@ -89,32 +81,24 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::TutorialSceneSetupData*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.AudioClip _audioClip
-    ::UnityEngine::AudioClip*& dyn__audioClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioClip*& dyn__audioClip();
     // Get instance field reference: private System.Single _songBPM
-    float& dyn__songBPM();
+    [[deprecated("Use field access instead!")]] float& dyn__songBPM();
     // Get instance field reference: private PlayerHeightDetector _playerHeightDetectorPrefab
-    ::GlobalNamespace::PlayerHeightDetector*& dyn__playerHeightDetectorPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerHeightDetector*& dyn__playerHeightDetectorPrefab();
     // Get instance field reference: private EffectPoolsManualInstaller _effectPoolsManualInstaller
-    ::GlobalNamespace::EffectPoolsManualInstaller*& dyn__effectPoolsManualInstaller();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EffectPoolsManualInstaller*& dyn__effectPoolsManualInstaller();
     // Get instance field reference: private readonly TutorialSceneSetupData _sceneSetupData
-    ::GlobalNamespace::TutorialSceneSetupData*& dyn__sceneSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TutorialSceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()
-    // Offset: 0x134418C
-    // Implemented from: Zenject.MonoInstaller
-    // Base method: System.Void MonoInstaller::.ctor()
-    // Base method: System.Void MonoInstallerBase::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x149069C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TutorialInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1343780
+    // Offset: 0x148FC54
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

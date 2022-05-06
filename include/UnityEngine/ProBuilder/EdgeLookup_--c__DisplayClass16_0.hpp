@@ -37,15 +37,7 @@ namespace UnityEngine::ProBuilder {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class EdgeLookup::$$c__DisplayClass16_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup
     // Size: 0x8
     // Offset: 0x10
@@ -58,25 +50,27 @@ namespace UnityEngine::ProBuilder {
       return lookup;
     }
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup
-    ::System::Collections::Generic::Dictionary_2<int, int>*& dyn_lookup();
-    // UnityEngine.ProBuilder.EdgeLookup <GetEdgeLookup>b__0(UnityEngine.ProBuilder.Edge x)
-    // Offset: 0x1F858F4
-    ::UnityEngine::ProBuilder::EdgeLookup $GetEdgeLookup$b__0(::UnityEngine::ProBuilder::Edge x);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, int>*& dyn_lookup();
     // public System.Void .ctor()
-    // Offset: 0x1F855D8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FD0E4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EdgeLookup::$$c__DisplayClass16_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::EdgeLookup::$$c__DisplayClass16_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EdgeLookup::$$c__DisplayClass16_0*, creationType>()));
     }
+    // UnityEngine.ProBuilder.EdgeLookup <GetEdgeLookup>b__0(UnityEngine.ProBuilder.Edge x)
+    // Offset: 0x1FD1168
+    ::UnityEngine::ProBuilder::EdgeLookup $GetEdgeLookup$b__0(::UnityEngine::ProBuilder::Edge x);
   }; // UnityEngine.ProBuilder.EdgeLookup/UnityEngine.ProBuilder.<>c__DisplayClass16_0
   #pragma pack(pop)
   static check_size<sizeof(EdgeLookup::$$c__DisplayClass16_0), 16 + sizeof(::System::Collections::Generic::Dictionary_2<int, int>*)> __UnityEngine_ProBuilder_EdgeLookup_$$c__DisplayClass16_0SizeCheck;
   static_assert(sizeof(EdgeLookup::$$c__DisplayClass16_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeLookup::$$c__DisplayClass16_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeLookup::$$c__DisplayClass16_0::$GetEdgeLookup$b__0
 // Il2CppName: <GetEdgeLookup>b__0
 template<>
@@ -86,7 +80,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeLookup::$$c__DisplayClass16_0*), "<GetEdgeLookup>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeLookup::$$c__DisplayClass16_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

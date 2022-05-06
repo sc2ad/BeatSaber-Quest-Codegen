@@ -55,15 +55,7 @@ namespace BGNet::Core::Messages {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class BaseClientUnconnectedMessageHandler::$$c__DisplayClass32_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public BGNet.Core.Messages.BaseClientUnconnectedMessageHandler <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -78,30 +70,32 @@ namespace BGNet::Core::Messages {
     static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     public:
     // Get instance field reference: public BGNet.Core.Messages.BaseClientUnconnectedMessageHandler <>4__this
-    ::BGNet::Core::Messages::BaseClientUnconnectedMessageHandler*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::BGNet::Core::Messages::BaseClientUnconnectedMessageHandler*& dyn_$$4__this();
     // Get instance field reference: public System.Byte[] serverPublicKey
-    ::ArrayW<uint8_t>& dyn_serverPublicKey();
-    // System.Threading.Tasks.Task`1<BGNet.Core.Messages.HelloVerifyRequest> <AuthenticateWithServerAsyncInternal>b__0(System.UInt32 protocolVersion, System.Net.IPEndPoint ep, BGNet.Core.Messages.IUnconnectedReliableRequest request, System.Threading.CancellationToken ct)
-    // Offset: 0x14F6F54
-    ::System::Threading::Tasks::Task_1<::BGNet::Core::Messages::HelloVerifyRequest*>* $AuthenticateWithServerAsyncInternal$b__0(uint protocolVersion, ::System::Net::IPEndPoint* ep, ::BGNet::Core::Messages::IUnconnectedReliableRequest* request, ::System::Threading::CancellationToken ct);
-    // System.Threading.Tasks.Task`1<System.Byte[]> <AuthenticateWithServerAsyncInternal>b__1(System.Threading.Tasks.Task`1<IDiffieHellmanKeyPair> result)
-    // Offset: 0x14F700C
-    ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* $AuthenticateWithServerAsyncInternal$b__1(::System::Threading::Tasks::Task_1<::GlobalNamespace::IDiffieHellmanKeyPair*>* result);
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_serverPublicKey();
     // public System.Void .ctor()
-    // Offset: 0x14F6F4C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x152E854
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseClientUnconnectedMessageHandler::$$c__DisplayClass32_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::BaseClientUnconnectedMessageHandler::$$c__DisplayClass32_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseClientUnconnectedMessageHandler::$$c__DisplayClass32_0*, creationType>()));
     }
+    // System.Threading.Tasks.Task`1<BGNet.Core.Messages.HelloVerifyRequest> <AuthenticateWithServerAsyncInternal>b__0(System.UInt32 protocolVersion, System.Net.IPEndPoint ep, BGNet.Core.Messages.IUnconnectedReliableRequest request, System.Threading.CancellationToken ct)
+    // Offset: 0x152E85C
+    ::System::Threading::Tasks::Task_1<::BGNet::Core::Messages::HelloVerifyRequest*>* $AuthenticateWithServerAsyncInternal$b__0(uint protocolVersion, ::System::Net::IPEndPoint* ep, ::BGNet::Core::Messages::IUnconnectedReliableRequest* request, ::System::Threading::CancellationToken ct);
+    // System.Threading.Tasks.Task`1<System.Byte[]> <AuthenticateWithServerAsyncInternal>b__1(System.Threading.Tasks.Task`1<IDiffieHellmanKeyPair> result)
+    // Offset: 0x152E914
+    ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* $AuthenticateWithServerAsyncInternal$b__1(::System::Threading::Tasks::Task_1<::GlobalNamespace::IDiffieHellmanKeyPair*>* result);
   }; // BGNet.Core.Messages.BaseClientUnconnectedMessageHandler/BGNet.Core.Messages.<>c__DisplayClass32_0
   #pragma pack(pop)
   static check_size<sizeof(BaseClientUnconnectedMessageHandler::$$c__DisplayClass32_0), 24 + sizeof(::ArrayW<uint8_t>)> __BGNet_Core_Messages_BaseClientUnconnectedMessageHandler_$$c__DisplayClass32_0SizeCheck;
   static_assert(sizeof(BaseClientUnconnectedMessageHandler::$$c__DisplayClass32_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: BGNet::Core::Messages::BaseClientUnconnectedMessageHandler::$$c__DisplayClass32_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: BGNet::Core::Messages::BaseClientUnconnectedMessageHandler::$$c__DisplayClass32_0::$AuthenticateWithServerAsyncInternal$b__0
 // Il2CppName: <AuthenticateWithServerAsyncInternal>b__0
 template<>
@@ -123,7 +117,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(BGNet::Core::Messages::BaseClientUnconnectedMessageHandler::$$c__DisplayClass32_0*), "<AuthenticateWithServerAsyncInternal>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };
-// Writing MetadataGetter for method: BGNet::Core::Messages::BaseClientUnconnectedMessageHandler::$$c__DisplayClass32_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

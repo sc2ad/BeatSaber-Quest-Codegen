@@ -77,15 +77,7 @@ namespace GlobalNamespace {
     class $$c__DisplayClass24_0;
     // Nested type: ::GlobalNamespace::LevelCollectionViewController::$SongPlayerCrossfadeToLevelAsync$d__24
     struct $SongPlayerCrossfadeToLevelAsync$d__24;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private LevelCollectionTableView _levelCollectionTableView
     // Size: 0x8
     // Offset: 0x70
@@ -98,43 +90,43 @@ namespace GlobalNamespace {
     ::UnityEngine::RectTransform* noDataInfoContainer;
     // Field size check
     static_assert(sizeof(::UnityEngine::RectTransform*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125B774
-    // [InjectAttribute] Offset: 0x125B774
+    // [SpaceAttribute] Offset: 0x10E0358
+    // [InjectAttribute] Offset: 0x10E0358
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x80
     ::GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x125B7AC
+    // [InjectAttribute] Offset: 0x10E0390
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x88
     ::Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(::Zenject::DiContainer*) == 0x8);
-    // [InjectAttribute] Offset: 0x125B7BC
+    // [InjectAttribute] Offset: 0x10E03A0
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x90
     ::GlobalNamespace::AdditionalContentModel* additionalContentModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AdditionalContentModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x125B7CC
+    // [InjectAttribute] Offset: 0x10E03B0
     // private readonly SongPreviewPlayer _songPreviewPlayer
     // Size: 0x8
     // Offset: 0x98
     ::GlobalNamespace::SongPreviewPlayer* songPreviewPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SongPreviewPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0x125B7DC
+    // [InjectAttribute] Offset: 0x10E03C0
     // private readonly PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
     // Size: 0x8
     // Offset: 0xA0
     ::GlobalNamespace::PerceivedLoudnessPerLevelModel* perceivedLoudnessPerLevelModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PerceivedLoudnessPerLevelModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x125B7EC
+    // [InjectAttribute] Offset: 0x10E03D0
     // private readonly AudioClipAsyncLoader _audioClipAsyncLoader
     // Size: 0x8
     // Offset: 0xA8
@@ -181,87 +173,80 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::IPreviewBeatmapLevel*) == 0x8);
     public:
     // Get instance field reference: private LevelCollectionTableView _levelCollectionTableView
-    ::GlobalNamespace::LevelCollectionTableView*& dyn__levelCollectionTableView();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelCollectionTableView*& dyn__levelCollectionTableView();
     // Get instance field reference: private UnityEngine.RectTransform _noDataInfoContainer
-    ::UnityEngine::RectTransform*& dyn__noDataInfoContainer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__noDataInfoContainer();
     // Get instance field reference: private readonly PlayerDataModel _playerDataModel
-    ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
     // Get instance field reference: private readonly Zenject.DiContainer _container
-    ::Zenject::DiContainer*& dyn__container();
+    [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn__container();
     // Get instance field reference: private readonly AdditionalContentModel _additionalContentModel
-    ::GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
     // Get instance field reference: private readonly SongPreviewPlayer _songPreviewPlayer
-    ::GlobalNamespace::SongPreviewPlayer*& dyn__songPreviewPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongPreviewPlayer*& dyn__songPreviewPlayer();
     // Get instance field reference: private readonly PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
-    ::GlobalNamespace::PerceivedLoudnessPerLevelModel*& dyn__perceivedLoudnessPerLevelModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PerceivedLoudnessPerLevelModel*& dyn__perceivedLoudnessPerLevelModel();
     // Get instance field reference: private readonly AudioClipAsyncLoader _audioClipAsyncLoader
-    ::GlobalNamespace::AudioClipAsyncLoader*& dyn__audioClipAsyncLoader();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioClipAsyncLoader*& dyn__audioClipAsyncLoader();
     // Get instance field reference: private System.Action`2<LevelCollectionViewController,IPreviewBeatmapLevel> didSelectLevelEvent
-    ::System::Action_2<::GlobalNamespace::LevelCollectionViewController*, ::GlobalNamespace::IPreviewBeatmapLevel*>*& dyn_didSelectLevelEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::LevelCollectionViewController*, ::GlobalNamespace::IPreviewBeatmapLevel*>*& dyn_didSelectLevelEvent();
     // Get instance field reference: private System.Action`1<LevelCollectionViewController> didSelectHeaderEvent
-    ::System::Action_1<::GlobalNamespace::LevelCollectionViewController*>*& dyn_didSelectHeaderEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::LevelCollectionViewController*>*& dyn_didSelectHeaderEvent();
     // Get instance field reference: private System.Boolean _showHeader
-    bool& dyn__showHeader();
+    [[deprecated("Use field access instead!")]] bool& dyn__showHeader();
     // Get instance field reference: private System.String _songPlayerCrossFadingToLevelId
-    ::StringW& dyn__songPlayerCrossFadingToLevelId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__songPlayerCrossFadingToLevelId();
     // Get instance field reference: private UnityEngine.GameObject _noDataInfoGO
-    ::UnityEngine::GameObject*& dyn__noDataInfoGO();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__noDataInfoGO();
     // Get instance field reference: private IPreviewBeatmapLevel _previewBeatmapLevelToBeSelected
-    ::GlobalNamespace::IPreviewBeatmapLevel*& dyn__previewBeatmapLevelToBeSelected();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPreviewBeatmapLevel*& dyn__previewBeatmapLevelToBeSelected();
     // public System.Void add_didSelectLevelEvent(System.Action`2<LevelCollectionViewController,IPreviewBeatmapLevel> value)
-    // Offset: 0x13BA8DC
+    // Offset: 0x13B5D88
     void add_didSelectLevelEvent(::System::Action_2<::GlobalNamespace::LevelCollectionViewController*, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // public System.Void remove_didSelectLevelEvent(System.Action`2<LevelCollectionViewController,IPreviewBeatmapLevel> value)
-    // Offset: 0x13BACE8
+    // Offset: 0x13B6194
     void remove_didSelectLevelEvent(::System::Action_2<::GlobalNamespace::LevelCollectionViewController*, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // public System.Void add_didSelectHeaderEvent(System.Action`1<LevelCollectionViewController> value)
-    // Offset: 0x13BA980
+    // Offset: 0x13B5E2C
     void add_didSelectHeaderEvent(::System::Action_1<::GlobalNamespace::LevelCollectionViewController*>* value);
     // public System.Void remove_didSelectHeaderEvent(System.Action`1<LevelCollectionViewController> value)
-    // Offset: 0x13BAD8C
+    // Offset: 0x13B6238
     void remove_didSelectHeaderEvent(::System::Action_1<::GlobalNamespace::LevelCollectionViewController*>* value);
-    // public System.Void SetData(IBeatmapLevelCollection beatmapLevelCollection, System.String headerText, UnityEngine.Sprite headerSprite, System.Boolean sortLevels, UnityEngine.GameObject noDataInfoPrefab)
-    // Offset: 0x13BAE30
-    void SetData(::GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection, ::StringW headerText, ::UnityEngine::Sprite* headerSprite, bool sortLevels, ::UnityEngine::GameObject* noDataInfoPrefab);
-    // public System.Void SelectLevel(IPreviewBeatmapLevel beatmapLevel)
-    // Offset: 0x13BA29C
-    void SelectLevel(::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
-    // public System.Void RefreshFavorites()
-    // Offset: 0x13BB9C4
-    void RefreshFavorites();
-    // private System.Void HandleLevelCollectionTableViewDidSelectLevel(LevelCollectionTableView tableView, IPreviewBeatmapLevel level)
-    // Offset: 0x13BD868
-    void HandleLevelCollectionTableViewDidSelectLevel(::GlobalNamespace::LevelCollectionTableView* tableView, ::GlobalNamespace::IPreviewBeatmapLevel* level);
-    // private System.Void SongPlayerCrossfadeToLevelAsync(IPreviewBeatmapLevel level)
-    // Offset: 0x13BD8F0
-    void SongPlayerCrossfadeToLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* level);
-    // private System.Void HandleLevelCollectionTableViewDidSelectPack(LevelCollectionTableView tableView)
-    // Offset: 0x13BD9B4
-    void HandleLevelCollectionTableViewDidSelectPack(::GlobalNamespace::LevelCollectionTableView* tableView);
-    // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x13BDA2C
-    void HandleAdditionalContentModelDidInvalidateData();
     // public System.Void .ctor()
-    // Offset: 0x13BDA44
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13B8EF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelCollectionViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelCollectionViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelCollectionViewController*, creationType>()));
     }
+    // public System.Void SetData(IBeatmapLevelCollection beatmapLevelCollection, System.String headerText, UnityEngine.Sprite headerSprite, System.Boolean sortLevels, UnityEngine.GameObject noDataInfoPrefab)
+    // Offset: 0x13B62DC
+    void SetData(::GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection, ::StringW headerText, ::UnityEngine::Sprite* headerSprite, bool sortLevels, ::UnityEngine::GameObject* noDataInfoPrefab);
+    // public System.Void SelectLevel(IPreviewBeatmapLevel beatmapLevel)
+    // Offset: 0x13B5748
+    void SelectLevel(::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
+    // public System.Void RefreshFavorites()
+    // Offset: 0x13B6E70
+    void RefreshFavorites();
+    // private System.Void HandleLevelCollectionTableViewDidSelectLevel(LevelCollectionTableView tableView, IPreviewBeatmapLevel level)
+    // Offset: 0x13B8D14
+    void HandleLevelCollectionTableViewDidSelectLevel(::GlobalNamespace::LevelCollectionTableView* tableView, ::GlobalNamespace::IPreviewBeatmapLevel* level);
+    // private System.Void SongPlayerCrossfadeToLevelAsync(IPreviewBeatmapLevel level)
+    // Offset: 0x13B8D9C
+    void SongPlayerCrossfadeToLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* level);
+    // private System.Void HandleLevelCollectionTableViewDidSelectPack(LevelCollectionTableView tableView)
+    // Offset: 0x13B8E60
+    void HandleLevelCollectionTableViewDidSelectPack(::GlobalNamespace::LevelCollectionTableView* tableView);
+    // private System.Void HandleAdditionalContentModelDidInvalidateData()
+    // Offset: 0x13B8ED8
+    void HandleAdditionalContentModelDidInvalidateData();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13BD5C0
+    // Offset: 0x13B8A6C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x13BD728
+    // Offset: 0x13B8BD4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
@@ -307,6 +292,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionViewController*), "remove_didSelectHeaderEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LevelCollectionViewController::SetData
 // Il2CppName: SetData
 template<>
@@ -373,10 +362,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionViewController*), "HandleAdditionalContentModelDidInvalidateData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LevelCollectionViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

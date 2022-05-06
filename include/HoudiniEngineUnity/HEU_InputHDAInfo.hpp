@@ -35,15 +35,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputHDAInfo : public ::Il2CppObject/*, public ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.GameObject _pendingGO
     // Size: 0x8
     // Offset: 0x10
@@ -68,32 +60,34 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>*>(this);
     }
     // Get instance field reference: public UnityEngine.GameObject _pendingGO
-    ::UnityEngine::GameObject*& dyn__pendingGO();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__pendingGO();
     // Get instance field reference: public UnityEngine.GameObject _connectedGO
-    ::UnityEngine::GameObject*& dyn__connectedGO();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__connectedGO();
     // Get instance field reference: public System.Int32 _connectedInputNodeID
-    int& dyn__connectedInputNodeID();
-    // public System.Void CopyTo(HoudiniEngineUnity.HEU_InputHDAInfo destInfo)
-    // Offset: 0x184D628
-    void CopyTo(::HoudiniEngineUnity::HEU_InputHDAInfo* destInfo);
-    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_InputHDAInfo other)
-    // Offset: 0x184D654
-    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InputHDAInfo* other);
+    [[deprecated("Use field access instead!")]] int& dyn__connectedInputNodeID();
     // public System.Void .ctor()
-    // Offset: 0x184D7C8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18870D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputHDAInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputHDAInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_InputHDAInfo*, creationType>()));
     }
+    // public System.Void CopyTo(HoudiniEngineUnity.HEU_InputHDAInfo destInfo)
+    // Offset: 0x1886F38
+    void CopyTo(::HoudiniEngineUnity::HEU_InputHDAInfo* destInfo);
+    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_InputHDAInfo other)
+    // Offset: 0x1886F64
+    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InputHDAInfo* other);
   }; // HoudiniEngineUnity.HEU_InputHDAInfo
   #pragma pack(pop)
   static check_size<sizeof(HEU_InputHDAInfo), 32 + sizeof(int)> __HoudiniEngineUnity_HEU_InputHDAInfoSizeCheck;
   static_assert(sizeof(HEU_InputHDAInfo) == 0x24);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputHDAInfo::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputHDAInfo::CopyTo
 // Il2CppName: CopyTo
 template<>
@@ -112,7 +106,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InputHDAInfo*), "IsEquivalentTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputHDAInfo::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

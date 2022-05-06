@@ -94,26 +94,26 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public MultiplayerModeSelectionFlowCoordinator <>4__this
-    ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: private MultiplayerStatusData <multiplayerStatusData>5__2
-    ::GlobalNamespace::MultiplayerStatusData*& dyn_$multiplayerStatusData$5__2();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerStatusData*& dyn_$multiplayerStatusData$5__2();
     // Get instance field reference: private System.Exception <exception>5__3
-    ::System::Exception*& dyn_$exception$5__3();
+    [[deprecated("Use field access instead!")]] ::System::Exception*& dyn_$exception$5__3();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<bool>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<bool>& dyn_$$u__1();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<MultiplayerStatusData> <>u__2
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::MultiplayerStatusData*>& dyn_$$u__2();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::MultiplayerStatusData*>& dyn_$$u__2();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<QuickPlaySetupData> <>u__3
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::QuickPlaySetupData*>& dyn_$$u__3();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::QuickPlaySetupData*>& dyn_$$u__3();
     // private System.Void MoveNext()
-    // Offset: 0x139DA6C
+    // Offset: 0x1399F18
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x139E838
+    // Offset: 0x139ACE4
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MultiplayerModeSelectionFlowCoordinator/<TryShowModeSelection>d__49
   // WARNING Not writing size check since size may be invalid!

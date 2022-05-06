@@ -39,15 +39,7 @@ namespace Zenject {
     public:
     // Nested type: ::Zenject::ZenjectSettings::SignalSettings
     class SignalSettings;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean _ensureDeterministicDestructionOrderOnApplicationQuit
     // Size: 0x1
     // Offset: 0x10
@@ -88,49 +80,47 @@ namespace Zenject {
     // Set static field: static public Zenject.ZenjectSettings Default
     static void _set_Default(::Zenject::ZenjectSettings* value);
     // Get instance field reference: private System.Boolean _ensureDeterministicDestructionOrderOnApplicationQuit
-    bool& dyn__ensureDeterministicDestructionOrderOnApplicationQuit();
+    [[deprecated("Use field access instead!")]] bool& dyn__ensureDeterministicDestructionOrderOnApplicationQuit();
     // Get instance field reference: private System.Boolean _displayWarningWhenResolvingDuringInstall
-    bool& dyn__displayWarningWhenResolvingDuringInstall();
+    [[deprecated("Use field access instead!")]] bool& dyn__displayWarningWhenResolvingDuringInstall();
     // Get instance field reference: private Zenject.RootResolveMethods _validationRootResolveMethod
-    ::Zenject::RootResolveMethods& dyn__validationRootResolveMethod();
+    [[deprecated("Use field access instead!")]] ::Zenject::RootResolveMethods& dyn__validationRootResolveMethod();
     // Get instance field reference: private Zenject.ValidationErrorResponses _validationErrorResponse
-    ::Zenject::ValidationErrorResponses& dyn__validationErrorResponse();
+    [[deprecated("Use field access instead!")]] ::Zenject::ValidationErrorResponses& dyn__validationErrorResponse();
     // Get instance field reference: private Zenject.ZenjectSettings/Zenject.SignalSettings _signalSettings
-    ::Zenject::ZenjectSettings::SignalSettings*& dyn__signalSettings();
+    [[deprecated("Use field access instead!")]] ::Zenject::ZenjectSettings::SignalSettings*& dyn__signalSettings();
     // public Zenject.ZenjectSettings/Zenject.SignalSettings get_Signals()
-    // Offset: 0x1CF03A0
+    // Offset: 0x1D2B8F8
     ::Zenject::ZenjectSettings::SignalSettings* get_Signals();
     // public Zenject.ValidationErrorResponses get_ValidationErrorResponse()
-    // Offset: 0x1CF03A8
+    // Offset: 0x1D2B900
     ::Zenject::ValidationErrorResponses get_ValidationErrorResponse();
     // public Zenject.RootResolveMethods get_ValidationRootResolveMethod()
-    // Offset: 0x1CF03B0
+    // Offset: 0x1D2B908
     ::Zenject::RootResolveMethods get_ValidationRootResolveMethod();
     // public System.Boolean get_DisplayWarningWhenResolvingDuringInstall()
-    // Offset: 0x1CF03B8
+    // Offset: 0x1D2B910
     bool get_DisplayWarningWhenResolvingDuringInstall();
     // public System.Boolean get_EnsureDeterministicDestructionOrderOnApplicationQuit()
-    // Offset: 0x1CF03C0
+    // Offset: 0x1D2B918
     bool get_EnsureDeterministicDestructionOrderOnApplicationQuit();
     // public System.Void .ctor(Zenject.ValidationErrorResponses validationErrorResponse, Zenject.RootResolveMethods validationRootResolveMethod, System.Boolean displayWarningWhenResolvingDuringInstall, System.Boolean ensureDeterministicDestructionOrderOnApplicationQuit, Zenject.ZenjectSettings/Zenject.SignalSettings signalSettings)
-    // Offset: 0x1CF02C8
+    // Offset: 0x1D2B820
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenjectSettings* New_ctor(::Zenject::ValidationErrorResponses validationErrorResponse, ::Zenject::RootResolveMethods validationRootResolveMethod, bool displayWarningWhenResolvingDuringInstall, bool ensureDeterministicDestructionOrderOnApplicationQuit, ::Zenject::ZenjectSettings::SignalSettings* signalSettings) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectSettings*, creationType>(validationErrorResponse, validationRootResolveMethod, displayWarningWhenResolvingDuringInstall, ensureDeterministicDestructionOrderOnApplicationQuit, signalSettings)));
     }
-    // static private System.Void .cctor()
-    // Offset: 0x1CF03C8
-    static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1CF0388
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1D2B8E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenjectSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectSettings*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1D2B920
+    static void _cctor();
   }; // Zenject.ZenjectSettings
   #pragma pack(pop)
   static check_size<sizeof(ZenjectSettings), 32 + sizeof(::Zenject::ZenjectSettings::SignalSettings*)> __Zenject_ZenjectSettingsSizeCheck;
@@ -181,6 +171,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: Zenject::ZenjectSettings::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::ZenjectSettings::_cctor
 // Il2CppName: .cctor
 template<>
@@ -189,7 +183,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::ZenjectSettings::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -33,15 +33,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardScoreUploader::ScoreData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String <playerId>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -118,91 +110,91 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.String <playerId>k__BackingField
-    ::StringW& dyn_$playerId$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$playerId$k__BackingField();
     // Get instance field reference: private IDifficultyBeatmap <beatmap>k__BackingField
-    ::GlobalNamespace::IDifficultyBeatmap*& dyn_$beatmap$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IDifficultyBeatmap*& dyn_$beatmap$k__BackingField();
     // Get instance field reference: private GameplayModifiers <gameplayModifiers>k__BackingField
-    ::GlobalNamespace::GameplayModifiers*& dyn_$gameplayModifiers$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers*& dyn_$gameplayModifiers$k__BackingField();
     // Get instance field reference: private System.Int32 <multipliedScore>k__BackingField
-    int& dyn_$multipliedScore$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$multipliedScore$k__BackingField();
     // Get instance field reference: private System.Int32 <modifiedScore>k__BackingField
-    int& dyn_$modifiedScore$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$modifiedScore$k__BackingField();
     // Get instance field reference: private System.Boolean <fullCombo>k__BackingField
-    bool& dyn_$fullCombo$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$fullCombo$k__BackingField();
     // Get instance field reference: private System.Int32 <goodCutsCount>k__BackingField
-    int& dyn_$goodCutsCount$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$goodCutsCount$k__BackingField();
     // Get instance field reference: private System.Int32 <badCutsCount>k__BackingField
-    int& dyn_$badCutsCount$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$badCutsCount$k__BackingField();
     // Get instance field reference: private System.Int32 <missedCount>k__BackingField
-    int& dyn_$missedCount$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$missedCount$k__BackingField();
     // Get instance field reference: private System.Int32 <maxCombo>k__BackingField
-    int& dyn_$maxCombo$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$maxCombo$k__BackingField();
     // Get instance field reference: public System.Int32 uploadAttemptCount
-    int& dyn_uploadAttemptCount();
+    [[deprecated("Use field access instead!")]] int& dyn_uploadAttemptCount();
     // Get instance field reference: public System.Int32 currentUploadAttemptCount
-    int& dyn_currentUploadAttemptCount();
+    [[deprecated("Use field access instead!")]] int& dyn_currentUploadAttemptCount();
     // public System.String get_playerId()
-    // Offset: 0x13B7788
+    // Offset: 0x13B2C34
     ::StringW get_playerId();
     // private System.Void set_playerId(System.String value)
-    // Offset: 0x13B7790
+    // Offset: 0x13B2C3C
     void set_playerId(::StringW value);
     // public IDifficultyBeatmap get_beatmap()
-    // Offset: 0x13B7798
+    // Offset: 0x13B2C44
     ::GlobalNamespace::IDifficultyBeatmap* get_beatmap();
     // private System.Void set_beatmap(IDifficultyBeatmap value)
-    // Offset: 0x13B77A0
+    // Offset: 0x13B2C4C
     void set_beatmap(::GlobalNamespace::IDifficultyBeatmap* value);
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x13B77A8
+    // Offset: 0x13B2C54
     ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // private System.Void set_gameplayModifiers(GameplayModifiers value)
-    // Offset: 0x13B77B0
+    // Offset: 0x13B2C5C
     void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
     // public System.Int32 get_multipliedScore()
-    // Offset: 0x13B77B8
+    // Offset: 0x13B2C64
     int get_multipliedScore();
     // private System.Void set_multipliedScore(System.Int32 value)
-    // Offset: 0x13B77C0
+    // Offset: 0x13B2C6C
     void set_multipliedScore(int value);
     // public System.Int32 get_modifiedScore()
-    // Offset: 0x13B77C8
+    // Offset: 0x13B2C74
     int get_modifiedScore();
     // private System.Void set_modifiedScore(System.Int32 value)
-    // Offset: 0x13B77D0
+    // Offset: 0x13B2C7C
     void set_modifiedScore(int value);
     // public System.Boolean get_fullCombo()
-    // Offset: 0x13B77D8
+    // Offset: 0x13B2C84
     bool get_fullCombo();
     // private System.Void set_fullCombo(System.Boolean value)
-    // Offset: 0x13B77E0
+    // Offset: 0x13B2C8C
     void set_fullCombo(bool value);
     // public System.Int32 get_goodCutsCount()
-    // Offset: 0x13B77EC
+    // Offset: 0x13B2C98
     int get_goodCutsCount();
     // private System.Void set_goodCutsCount(System.Int32 value)
-    // Offset: 0x13B77F4
+    // Offset: 0x13B2CA0
     void set_goodCutsCount(int value);
     // public System.Int32 get_badCutsCount()
-    // Offset: 0x13B77FC
+    // Offset: 0x13B2CA8
     int get_badCutsCount();
     // private System.Void set_badCutsCount(System.Int32 value)
-    // Offset: 0x13B7804
+    // Offset: 0x13B2CB0
     void set_badCutsCount(int value);
     // public System.Int32 get_missedCount()
-    // Offset: 0x13B780C
+    // Offset: 0x13B2CB8
     int get_missedCount();
     // private System.Void set_missedCount(System.Int32 value)
-    // Offset: 0x13B7814
+    // Offset: 0x13B2CC0
     void set_missedCount(int value);
     // public System.Int32 get_maxCombo()
-    // Offset: 0x13B781C
+    // Offset: 0x13B2CC8
     int get_maxCombo();
     // private System.Void set_maxCombo(System.Int32 value)
-    // Offset: 0x13B7824
+    // Offset: 0x13B2CD0
     void set_maxCombo(int value);
     // public System.Void .ctor(System.String playerId, IDifficultyBeatmap beatmap, System.Int32 multipliedScore, System.Int32 modifiedScore, System.Boolean fullCombo, System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCount, System.Int32 maxCombo, GameplayModifiers gameplayModifiers)
-    // Offset: 0x13B782C
+    // Offset: 0x13B2CD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardScoreUploader::ScoreData* New_ctor(::StringW playerId, ::GlobalNamespace::IDifficultyBeatmap* beatmap, int multipliedScore, int modifiedScore, bool fullCombo, int goodCutsCount, int badCutsCount, int missedCount, int maxCombo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardScoreUploader::ScoreData::.ctor");

@@ -54,7 +54,7 @@ namespace OnlineServices::API {
     // Set static field: static public OnlineServices.API.Response UnknownError
     static void _set_UnknownError(::OnlineServices::API::Response value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OnlineServices.API.Response
   #pragma pack(pop)
   static check_size<sizeof(Response), 0 + sizeof(int)> __OnlineServices_API_ResponseSizeCheck;

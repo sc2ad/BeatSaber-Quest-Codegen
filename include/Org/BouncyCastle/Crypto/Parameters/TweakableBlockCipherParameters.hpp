@@ -32,15 +32,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class TweakableBlockCipherParameters : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::ICipherParameters*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Byte[] tweak
     // Size: 0x8
     // Offset: 0x10
@@ -59,14 +51,14 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
     // Get instance field reference: private readonly System.Byte[] tweak
-    ::ArrayW<uint8_t>& dyn_tweak();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_tweak();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Parameters.KeyParameter key
-    ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*& dyn_key();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*& dyn_key();
     // public Org.BouncyCastle.Crypto.Parameters.KeyParameter get_Key()
-    // Offset: 0x15C4BD4
+    // Offset: 0x15FA4E4
     ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();
     // public System.Byte[] get_Tweak()
-    // Offset: 0x15C4BDC
+    // Offset: 0x15FA4EC
     ::ArrayW<uint8_t> get_Tweak();
   }; // Org.BouncyCastle.Crypto.Parameters.TweakableBlockCipherParameters
   #pragma pack(pop)

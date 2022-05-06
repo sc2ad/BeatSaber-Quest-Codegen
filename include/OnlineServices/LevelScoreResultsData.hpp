@@ -101,28 +101,28 @@ namespace OnlineServices {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public readonly IDifficultyBeatmap difficultyBeatmap
-    ::GlobalNamespace::IDifficultyBeatmap*& dyn_difficultyBeatmap();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IDifficultyBeatmap*& dyn_difficultyBeatmap();
     // Get instance field reference: public readonly System.Int32 multipliedScore
-    int& dyn_multipliedScore();
+    [[deprecated("Use field access instead!")]] int& dyn_multipliedScore();
     // Get instance field reference: public readonly System.Int32 modifiedScore
-    int& dyn_modifiedScore();
+    [[deprecated("Use field access instead!")]] int& dyn_modifiedScore();
     // Get instance field reference: public readonly System.Boolean fullCombo
-    bool& dyn_fullCombo();
+    [[deprecated("Use field access instead!")]] bool& dyn_fullCombo();
     // Get instance field reference: public readonly System.Int32 goodCutsCount
-    int& dyn_goodCutsCount();
+    [[deprecated("Use field access instead!")]] int& dyn_goodCutsCount();
     // Get instance field reference: public readonly System.Int32 badCutsCount
-    int& dyn_badCutsCount();
+    [[deprecated("Use field access instead!")]] int& dyn_badCutsCount();
     // Get instance field reference: public readonly System.Int32 missedCount
-    int& dyn_missedCount();
+    [[deprecated("Use field access instead!")]] int& dyn_missedCount();
     // Get instance field reference: public readonly System.Int32 maxCombo
-    int& dyn_maxCombo();
+    [[deprecated("Use field access instead!")]] int& dyn_maxCombo();
     // Get instance field reference: public readonly GameplayModifiers gameplayModifiers
-    ::GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
     // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap, System.Int32 multipliedScore, System.Int32 modifiedScore, System.Boolean fullCombo, System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCount, System.Int32 maxCombo, GameplayModifiers gameplayModifiers)
-    // Offset: 0x12E6618
+    // Offset: 0x13575B8
     // ABORTED: conflicts with another method.  LevelScoreResultsData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, int multipliedScore, int modifiedScore, bool fullCombo, int goodCutsCount, int badCutsCount, int missedCount, int maxCombo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public override System.String ToString()
-    // Offset: 0x12E6640
+    // Offset: 0x13575E0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

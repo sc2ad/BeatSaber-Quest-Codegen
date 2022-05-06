@@ -102,7 +102,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HAPI_PDG_WorkitemState HAPI_PDG_WORKITEM_DIRTY
     static void _set_HAPI_PDG_WORKITEM_DIRTY(::HoudiniEngineUnity::HAPI_PDG_WorkitemState value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HAPI_PDG_WorkitemState
   #pragma pack(pop)
   static check_size<sizeof(HAPI_PDG_WorkitemState), 0 + sizeof(int)> __HoudiniEngineUnity_HAPI_PDG_WorkitemStateSizeCheck;

@@ -68,15 +68,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerScoreRingManager : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _delayBetweenScoreUpdates
     // Size: 0x4
     // Offset: 0x18
@@ -89,49 +81,49 @@ namespace GlobalNamespace {
     float centerDistanceOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x1255574
+    // [InjectAttribute] Offset: 0x10DA158
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::MultiplayerController* multiplayerController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1255584
+    // [InjectAttribute] Offset: 0x10DA168
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1255594
+    // [InjectAttribute] Offset: 0x10DA178
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x12555A4
+    // [InjectAttribute] Offset: 0x10DA188
     // private readonly BeatmapObjectSpawnCenter _spawnCenter
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::BeatmapObjectSpawnCenter* spawnCenter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectSpawnCenter*) == 0x8);
-    // [InjectAttribute] Offset: 0x12555B4
+    // [InjectAttribute] Offset: 0x10DA198
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x12555C4
+    // [InjectAttribute] Offset: 0x10DA1A8
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x12555D4
+    // [InjectAttribute] Offset: 0x10DA1B8
     // private readonly MultiplayerScoreRingItem/Pool _scoreRingItemPool
     // Size: 0x8
     // Offset: 0x50
@@ -184,104 +176,102 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _delayBetweenScoreUpdates
-    float& dyn__delayBetweenScoreUpdates();
+    [[deprecated("Use field access instead!")]] float& dyn__delayBetweenScoreUpdates();
     // Get instance field reference: private System.Single _centerDistanceOffset
-    float& dyn__centerDistanceOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__centerDistanceOffset();
     // Get instance field reference: private readonly MultiplayerController _multiplayerController
-    ::GlobalNamespace::MultiplayerController*& dyn__multiplayerController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerController*& dyn__multiplayerController();
     // Get instance field reference: private readonly MultiplayerPlayersManager _multiplayerPlayersManager
-    ::GlobalNamespace::MultiplayerPlayersManager*& dyn__multiplayerPlayersManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerPlayersManager*& dyn__multiplayerPlayersManager();
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // Get instance field reference: private readonly BeatmapObjectSpawnCenter _spawnCenter
-    ::GlobalNamespace::BeatmapObjectSpawnCenter*& dyn__spawnCenter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectSpawnCenter*& dyn__spawnCenter();
     // Get instance field reference: private readonly MultiplayerLayoutProvider _layoutProvider
-    ::GlobalNamespace::MultiplayerLayoutProvider*& dyn__layoutProvider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLayoutProvider*& dyn__layoutProvider();
     // Get instance field reference: private readonly MultiplayerScoreProvider _scoreProvider
-    ::GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreProvider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreProvider();
     // Get instance field reference: private readonly MultiplayerScoreRingItem/Pool _scoreRingItemPool
-    ::GlobalNamespace::MultiplayerScoreRingItem::Pool*& dyn__scoreRingItemPool();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerScoreRingItem::Pool*& dyn__scoreRingItemPool();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerScoreRingItem> _scoreRingItems
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerScoreRingItem*>*& dyn__scoreRingItems();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerScoreRingItem*>*& dyn__scoreRingItems();
     // Get instance field reference: private System.Collections.Generic.List`1<IConnectedPlayer> _allActivePlayers
-    ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>*& dyn__allActivePlayers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>*& dyn__allActivePlayers();
     // Get instance field reference: private System.Int32 _currentlyScoreUpdateIndex
-    int& dyn__currentlyScoreUpdateIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__currentlyScoreUpdateIndex();
     // Get instance field reference: private System.Single _timeSinceLastScoreUpdate
-    float& dyn__timeSinceLastScoreUpdate();
+    [[deprecated("Use field access instead!")]] float& dyn__timeSinceLastScoreUpdate();
     // Get instance field reference: private MultiplayerScoreRingItem _firstPlayerItem
-    ::GlobalNamespace::MultiplayerScoreRingItem*& dyn__firstPlayerItem();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerScoreRingItem*& dyn__firstPlayerItem();
     // Get instance field reference: private System.Boolean _spawnCenterDistanceFound
-    bool& dyn__spawnCenterDistanceFound();
+    [[deprecated("Use field access instead!")]] bool& dyn__spawnCenterDistanceFound();
     // Get instance field reference: private System.Boolean _playersSpawned
-    bool& dyn__playersSpawned();
-    // protected System.Void Start()
-    // Offset: 0x13A996C
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13AA01C
-    void OnDestroy();
-    // protected System.Void Update()
-    // Offset: 0x13AA33C
-    void Update();
-    // private System.Void UpdateScore(IConnectedPlayer playerToUpdate)
-    // Offset: 0x13AA420
-    void UpdateScore(::GlobalNamespace::IConnectedPlayer* playerToUpdate);
-    // public System.Void AnimateColorsForPlayer(System.String userId, UnityEngine.Color nameColor, UnityEngine.Color scoreColor, System.Single duration, EaseType easeType)
-    // Offset: 0x13AA604
-    void AnimateColorsForPlayer(::StringW userId, ::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float duration, ::GlobalNamespace::EaseType easeType);
-    // public MultiplayerScoreRingItem GetScoreRingItem(System.String userId)
-    // Offset: 0x13AA770
-    ::GlobalNamespace::MultiplayerScoreRingItem* GetScoreRingItem(::StringW userId);
-    // public UnityEngine.GameObject[] GetScoreRingItems()
-    // Offset: 0x13A1408
-    ::ArrayW<::UnityEngine::GameObject*> GetScoreRingItems();
-    // public System.Void AnimateColorsForAllPlayers(UnityEngine.Color nameColor, UnityEngine.Color scoreColor, System.Single duration, EaseType easeType)
-    // Offset: 0x13AA860
-    void AnimateColorsForAllPlayers(::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float duration, ::GlobalNamespace::EaseType easeType);
-    // private System.Void SetPlayerToFailedState(IConnectedPlayer player)
-    // Offset: 0x13AA9D8
-    void SetPlayerToFailedState(::GlobalNamespace::IConnectedPlayer* player);
-    // private System.Void TrySpawnTexts()
-    // Offset: 0x13AAAE8
-    void TrySpawnTexts();
-    // private System.Void SpawnTexts()
-    // Offset: 0x13AAB00
-    void SpawnTexts();
-    // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x13A9B28
-    void HandleStateChanged(::GlobalNamespace::MultiplayerController::State state);
-    // private System.Void HandleSpawnCenterDistanceWasFound(System.Single spawnCenterDistance)
-    // Offset: 0x13A9AF8
-    void HandleSpawnCenterDistanceWasFound(float spawnCenterDistance);
-    // private System.Void HandlePlayerSpawningDidFinish()
-    // Offset: 0x13A9B10
-    void HandlePlayerSpawningDidFinish();
-    // private System.Void HandlePlayerStateChanged(IConnectedPlayer player)
-    // Offset: 0x13AB118
-    void HandlePlayerStateChanged(::GlobalNamespace::IConnectedPlayer* player);
-    // private System.Void HandlePlayerDisconnected(IConnectedPlayer player)
-    // Offset: 0x13AB15C
-    void HandlePlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player);
+    [[deprecated("Use field access instead!")]] bool& dyn__playersSpawned();
     // public System.Void .ctor()
-    // Offset: 0x13AB160
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13A760C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerScoreRingManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerScoreRingManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerScoreRingManager*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x13A5E18
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13A64C8
+    void OnDestroy();
+    // protected System.Void Update()
+    // Offset: 0x13A67E8
+    void Update();
+    // private System.Void UpdateScore(IConnectedPlayer playerToUpdate)
+    // Offset: 0x13A68CC
+    void UpdateScore(::GlobalNamespace::IConnectedPlayer* playerToUpdate);
+    // public System.Void AnimateColorsForPlayer(System.String userId, UnityEngine.Color nameColor, UnityEngine.Color scoreColor, System.Single duration, EaseType easeType)
+    // Offset: 0x13A6AB0
+    void AnimateColorsForPlayer(::StringW userId, ::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float duration, ::GlobalNamespace::EaseType easeType);
+    // public MultiplayerScoreRingItem GetScoreRingItem(System.String userId)
+    // Offset: 0x13A6C1C
+    ::GlobalNamespace::MultiplayerScoreRingItem* GetScoreRingItem(::StringW userId);
+    // public UnityEngine.GameObject[] GetScoreRingItems()
+    // Offset: 0x139D8B4
+    ::ArrayW<::UnityEngine::GameObject*> GetScoreRingItems();
+    // public System.Void AnimateColorsForAllPlayers(UnityEngine.Color nameColor, UnityEngine.Color scoreColor, System.Single duration, EaseType easeType)
+    // Offset: 0x13A6D0C
+    void AnimateColorsForAllPlayers(::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float duration, ::GlobalNamespace::EaseType easeType);
+    // private System.Void SetPlayerToFailedState(IConnectedPlayer player)
+    // Offset: 0x13A6E84
+    void SetPlayerToFailedState(::GlobalNamespace::IConnectedPlayer* player);
+    // private System.Void TrySpawnTexts()
+    // Offset: 0x13A6F94
+    void TrySpawnTexts();
+    // private System.Void SpawnTexts()
+    // Offset: 0x13A6FAC
+    void SpawnTexts();
+    // private System.Void HandleStateChanged(MultiplayerController/State state)
+    // Offset: 0x13A5FD4
+    void HandleStateChanged(::GlobalNamespace::MultiplayerController::State state);
+    // private System.Void HandleSpawnCenterDistanceWasFound(System.Single spawnCenterDistance)
+    // Offset: 0x13A5FA4
+    void HandleSpawnCenterDistanceWasFound(float spawnCenterDistance);
+    // private System.Void HandlePlayerSpawningDidFinish()
+    // Offset: 0x13A5FBC
+    void HandlePlayerSpawningDidFinish();
+    // private System.Void HandlePlayerStateChanged(IConnectedPlayer player)
+    // Offset: 0x13A75C4
+    void HandlePlayerStateChanged(::GlobalNamespace::IConnectedPlayer* player);
+    // private System.Void HandlePlayerDisconnected(IConnectedPlayer player)
+    // Offset: 0x13A7608
+    void HandlePlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player);
   }; // MultiplayerScoreRingManager
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerScoreRingManager), 121 + sizeof(bool)> __GlobalNamespace_MultiplayerScoreRingManagerSizeCheck;
   static_assert(sizeof(MultiplayerScoreRingManager) == 0x7A);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreRingManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreRingManager::Start
 // Il2CppName: Start
 template<>
@@ -426,7 +416,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreRingManager*), "HandlePlayerDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{player});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreRingManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

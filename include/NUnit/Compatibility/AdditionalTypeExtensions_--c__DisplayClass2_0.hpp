@@ -36,15 +36,7 @@ namespace NUnit::Compatibility {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class AdditionalTypeExtensions::$$c__DisplayClass2_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Type to
     // Size: 0x8
     // Offset: 0x10
@@ -57,25 +49,27 @@ namespace NUnit::Compatibility {
       return to;
     }
     // Get instance field reference: public System.Type to
-    ::System::Type*& dyn_to();
-    // System.Boolean <IsCastableFrom>b__0(System.Reflection.MethodInfo m)
-    // Offset: 0x1C37FBC
-    bool $IsCastableFrom$b__0(::System::Reflection::MethodInfo* m);
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_to();
     // public System.Void .ctor()
-    // Offset: 0x1C37590
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C8FB04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AdditionalTypeExtensions::$$c__DisplayClass2_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AdditionalTypeExtensions::$$c__DisplayClass2_0*, creationType>()));
     }
+    // System.Boolean <IsCastableFrom>b__0(System.Reflection.MethodInfo m)
+    // Offset: 0x1C90530
+    bool $IsCastableFrom$b__0(::System::Reflection::MethodInfo* m);
   }; // NUnit.Compatibility.AdditionalTypeExtensions/NUnit.Compatibility.<>c__DisplayClass2_0
   #pragma pack(pop)
   static check_size<sizeof(AdditionalTypeExtensions::$$c__DisplayClass2_0), 16 + sizeof(::System::Type*)> __NUnit_Compatibility_AdditionalTypeExtensions_$$c__DisplayClass2_0SizeCheck;
   static_assert(sizeof(AdditionalTypeExtensions::$$c__DisplayClass2_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0::$IsCastableFrom$b__0
 // Il2CppName: <IsCastableFrom>b__0
 template<>
@@ -85,7 +79,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
     return ::il2cpp_utils::FindMethod(classof(NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0*), "<IsCastableFrom>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m});
   }
 };
-// Writing MetadataGetter for method: NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

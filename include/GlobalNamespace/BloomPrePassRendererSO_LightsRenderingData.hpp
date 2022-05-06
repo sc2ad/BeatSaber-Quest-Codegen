@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassRendererSO::LightsRenderingData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Mesh mesh
     // Size: 0x8
     // Offset: 0x10
@@ -78,19 +70,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<::UnityEngine::Vector4>) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.Mesh mesh
-    ::UnityEngine::Mesh*& dyn_mesh();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Mesh*& dyn_mesh();
     // Get instance field reference: public UnityEngine.Vector3[] vertices
-    ::ArrayW<::UnityEngine::Vector3>& dyn_vertices();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn_vertices();
     // Get instance field reference: public UnityEngine.Vector3[] uvs
-    ::ArrayW<::UnityEngine::Vector3>& dyn_uvs();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn_uvs();
     // Get instance field reference: public UnityEngine.Color[] colors
-    ::ArrayW<::UnityEngine::Color>& dyn_colors();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Color>& dyn_colors();
     // Get instance field reference: public UnityEngine.Vector4[] viewPos
-    ::ArrayW<::UnityEngine::Vector4>& dyn_viewPos();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector4>& dyn_viewPos();
     // public System.Void .ctor()
-    // Offset: 0x2ACE080
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E77448
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassRendererSO::LightsRenderingData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData::.ctor");

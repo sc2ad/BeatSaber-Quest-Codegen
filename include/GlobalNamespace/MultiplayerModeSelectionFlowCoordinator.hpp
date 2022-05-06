@@ -116,15 +116,7 @@ namespace GlobalNamespace {
     struct $TryShowModeSelection$d__49;
     // Nested type: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::$ResolveAndPresentNextFlowCoordinator$d__50
     struct $ResolveAndPresentNextFlowCoordinator$d__50;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.AudioClip _ambienceAudioClip
     // Size: 0x8
     // Offset: 0xA8
@@ -137,140 +129,140 @@ namespace GlobalNamespace {
     ::GlobalNamespace::SongPackMaskModelSO* songPackMaskModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SongPackMaskModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x125951C
+    // [InjectAttribute] Offset: 0x10DE100
     // private readonly GameServerBrowserFlowCoordinator _gameServerBrowserFlowCoordinator
     // Size: 0x8
     // Offset: 0xB8
     ::GlobalNamespace::GameServerBrowserFlowCoordinator* gameServerBrowserFlowCoordinator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameServerBrowserFlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0x125952C
+    // [InjectAttribute] Offset: 0x10DE110
     // private readonly GameServerLobbyFlowCoordinator _gameServerLobbyFlowCoordinator
     // Size: 0x8
     // Offset: 0xC0
     ::GlobalNamespace::GameServerLobbyFlowCoordinator* gameServerLobbyFlowCoordinator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameServerLobbyFlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0x125953C
+    // [InjectAttribute] Offset: 0x10DE120
     // private readonly MultiplayerModeSelectionViewController _multiplayerModeSelectionViewController
     // Size: 0x8
     // Offset: 0xC8
     ::GlobalNamespace::MultiplayerModeSelectionViewController* multiplayerModeSelectionViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerModeSelectionViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x125954C
+    // [InjectAttribute] Offset: 0x10DE130
     // private readonly CreateServerViewController _createServerViewController
     // Size: 0x8
     // Offset: 0xD0
     ::GlobalNamespace::CreateServerViewController* createServerViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::CreateServerViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x125955C
+    // [InjectAttribute] Offset: 0x10DE140
     // private readonly JoinQuickPlayViewController _joinQuickPlayViewController
     // Size: 0x8
     // Offset: 0xD8
     ::GlobalNamespace::JoinQuickPlayViewController* joinQuickPlayViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::JoinQuickPlayViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x125956C
+    // [InjectAttribute] Offset: 0x10DE150
     // private readonly ServerCodeEntryViewController _serverCodeEntryViewController
     // Size: 0x8
     // Offset: 0xE0
     ::GlobalNamespace::ServerCodeEntryViewController* serverCodeEntryViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ServerCodeEntryViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x125957C
+    // [InjectAttribute] Offset: 0x10DE160
     // private readonly SimpleDialogPromptViewController _simpleDialogPromptViewController
     // Size: 0x8
     // Offset: 0xE8
     ::GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SimpleDialogPromptViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x125958C
+    // [InjectAttribute] Offset: 0x10DE170
     // private readonly JoiningLobbyViewController _joiningLobbyViewController
     // Size: 0x8
     // Offset: 0xF0
     ::GlobalNamespace::JoiningLobbyViewController* joiningLobbyViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::JoiningLobbyViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x125959C
+    // [InjectAttribute] Offset: 0x10DE180
     // private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
     // Size: 0x8
     // Offset: 0xF8
     ::GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IUnifiedNetworkPlayerModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x12595AC
+    // [InjectAttribute] Offset: 0x10DE190
     // private readonly AvatarDataModel _avatarDataModel
     // Size: 0x8
     // Offset: 0x100
     ::GlobalNamespace::AvatarDataModel* avatarDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AvatarDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x12595BC
+    // [InjectAttribute] Offset: 0x10DE1A0
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x108
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x12595CC
+    // [InjectAttribute] Offset: 0x10DE1B0
     // private readonly FadeInOutController _fadeInOutController
     // Size: 0x8
     // Offset: 0x110
     ::GlobalNamespace::FadeInOutController* fadeInOutController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FadeInOutController*) == 0x8);
-    // [InjectAttribute] Offset: 0x12595DC
+    // [InjectAttribute] Offset: 0x10DE1C0
     // private readonly LobbyDataModelsManager _lobbyDataModelsManager
     // Size: 0x8
     // Offset: 0x118
     ::GlobalNamespace::LobbyDataModelsManager* lobbyDataModelsManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LobbyDataModelsManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x12595EC
+    // [InjectAttribute] Offset: 0x10DE1D0
     // private readonly MultiplayerLobbyConnectionController _multiplayerLobbyConnectionController
     // Size: 0x8
     // Offset: 0x120
     ::GlobalNamespace::MultiplayerLobbyConnectionController* multiplayerLobbyConnectionController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLobbyConnectionController*) == 0x8);
-    // [InjectAttribute] Offset: 0x12595FC
+    // [InjectAttribute] Offset: 0x10DE1E0
     // private readonly IMultiplayerStatusModel _multiplayerStatusModel
     // Size: 0x8
     // Offset: 0x128
     ::GlobalNamespace::IMultiplayerStatusModel* multiplayerStatusModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerStatusModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x125960C
+    // [InjectAttribute] Offset: 0x10DE1F0
     // private readonly IQuickPlaySetupModel _quickPlaySetupModel
     // Size: 0x8
     // Offset: 0x130
     ::GlobalNamespace::IQuickPlaySetupModel* quickPlaySetupModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IQuickPlaySetupModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x125961C
+    // [InjectAttribute] Offset: 0x10DE200
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x138
     ::GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x125962C
+    // [InjectAttribute] Offset: 0x10DE210
     // private readonly SongPreviewPlayer _songPreviewPlayer
     // Size: 0x8
     // Offset: 0x140
     ::GlobalNamespace::SongPreviewPlayer* songPreviewPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SongPreviewPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0x125963C
+    // [InjectAttribute] Offset: 0x10DE220
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x148
     ::GlobalNamespace::IAnalyticsModel* analyticsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAnalyticsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x125964C
+    // [InjectAttribute] Offset: 0x10DE230
     // private readonly ILobbyGameStateController _lobbyGameStateController
     // Size: 0x8
     // Offset: 0x150
@@ -315,174 +307,167 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::SelectMultiplayerLobbyDestination*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.AudioClip _ambienceAudioClip
-    ::UnityEngine::AudioClip*& dyn__ambienceAudioClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioClip*& dyn__ambienceAudioClip();
     // Get instance field reference: private SongPackMaskModelSO _songPackMaskModel
-    ::GlobalNamespace::SongPackMaskModelSO*& dyn__songPackMaskModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongPackMaskModelSO*& dyn__songPackMaskModel();
     // Get instance field reference: private readonly GameServerBrowserFlowCoordinator _gameServerBrowserFlowCoordinator
-    ::GlobalNamespace::GameServerBrowserFlowCoordinator*& dyn__gameServerBrowserFlowCoordinator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameServerBrowserFlowCoordinator*& dyn__gameServerBrowserFlowCoordinator();
     // Get instance field reference: private readonly GameServerLobbyFlowCoordinator _gameServerLobbyFlowCoordinator
-    ::GlobalNamespace::GameServerLobbyFlowCoordinator*& dyn__gameServerLobbyFlowCoordinator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameServerLobbyFlowCoordinator*& dyn__gameServerLobbyFlowCoordinator();
     // Get instance field reference: private readonly MultiplayerModeSelectionViewController _multiplayerModeSelectionViewController
-    ::GlobalNamespace::MultiplayerModeSelectionViewController*& dyn__multiplayerModeSelectionViewController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerModeSelectionViewController*& dyn__multiplayerModeSelectionViewController();
     // Get instance field reference: private readonly CreateServerViewController _createServerViewController
-    ::GlobalNamespace::CreateServerViewController*& dyn__createServerViewController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::CreateServerViewController*& dyn__createServerViewController();
     // Get instance field reference: private readonly JoinQuickPlayViewController _joinQuickPlayViewController
-    ::GlobalNamespace::JoinQuickPlayViewController*& dyn__joinQuickPlayViewController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::JoinQuickPlayViewController*& dyn__joinQuickPlayViewController();
     // Get instance field reference: private readonly ServerCodeEntryViewController _serverCodeEntryViewController
-    ::GlobalNamespace::ServerCodeEntryViewController*& dyn__serverCodeEntryViewController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ServerCodeEntryViewController*& dyn__serverCodeEntryViewController();
     // Get instance field reference: private readonly SimpleDialogPromptViewController _simpleDialogPromptViewController
-    ::GlobalNamespace::SimpleDialogPromptViewController*& dyn__simpleDialogPromptViewController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SimpleDialogPromptViewController*& dyn__simpleDialogPromptViewController();
     // Get instance field reference: private readonly JoiningLobbyViewController _joiningLobbyViewController
-    ::GlobalNamespace::JoiningLobbyViewController*& dyn__joiningLobbyViewController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::JoiningLobbyViewController*& dyn__joiningLobbyViewController();
     // Get instance field reference: private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
-    ::GlobalNamespace::IUnifiedNetworkPlayerModel*& dyn__unifiedNetworkPlayerModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IUnifiedNetworkPlayerModel*& dyn__unifiedNetworkPlayerModel();
     // Get instance field reference: private readonly AvatarDataModel _avatarDataModel
-    ::GlobalNamespace::AvatarDataModel*& dyn__avatarDataModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarDataModel*& dyn__avatarDataModel();
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // Get instance field reference: private readonly FadeInOutController _fadeInOutController
-    ::GlobalNamespace::FadeInOutController*& dyn__fadeInOutController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FadeInOutController*& dyn__fadeInOutController();
     // Get instance field reference: private readonly LobbyDataModelsManager _lobbyDataModelsManager
-    ::GlobalNamespace::LobbyDataModelsManager*& dyn__lobbyDataModelsManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LobbyDataModelsManager*& dyn__lobbyDataModelsManager();
     // Get instance field reference: private readonly MultiplayerLobbyConnectionController _multiplayerLobbyConnectionController
-    ::GlobalNamespace::MultiplayerLobbyConnectionController*& dyn__multiplayerLobbyConnectionController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLobbyConnectionController*& dyn__multiplayerLobbyConnectionController();
     // Get instance field reference: private readonly IMultiplayerStatusModel _multiplayerStatusModel
-    ::GlobalNamespace::IMultiplayerStatusModel*& dyn__multiplayerStatusModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerStatusModel*& dyn__multiplayerStatusModel();
     // Get instance field reference: private readonly IQuickPlaySetupModel _quickPlaySetupModel
-    ::GlobalNamespace::IQuickPlaySetupModel*& dyn__quickPlaySetupModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IQuickPlaySetupModel*& dyn__quickPlaySetupModel();
     // Get instance field reference: private readonly PlayerDataModel _playerDataModel
-    ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
     // Get instance field reference: private readonly SongPreviewPlayer _songPreviewPlayer
-    ::GlobalNamespace::SongPreviewPlayer*& dyn__songPreviewPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongPreviewPlayer*& dyn__songPreviewPlayer();
     // Get instance field reference: private readonly IAnalyticsModel _analyticsModel
-    ::GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
     // Get instance field reference: private readonly ILobbyGameStateController _lobbyGameStateController
-    ::GlobalNamespace::ILobbyGameStateController*& dyn__lobbyGameStateController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ILobbyGameStateController*& dyn__lobbyGameStateController();
     // Get instance field reference: private System.Action`1<MultiplayerModeSelectionFlowCoordinator> didFinishEvent
-    ::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>*& dyn_didFinishEvent();
     // Get instance field reference: private System.Threading.CancellationTokenSource _joiningLobbyCancellationTokenSource
-    ::System::Threading::CancellationTokenSource*& dyn__joiningLobbyCancellationTokenSource();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationTokenSource*& dyn__joiningLobbyCancellationTokenSource();
     // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    ::System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // Get instance field reference: private System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> _transitionFinishedTaskSource
-    ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& dyn__transitionFinishedTaskSource();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& dyn__transitionFinishedTaskSource();
     // Get instance field reference: private QuickPlaySetupData _quickPlaySetupData
-    ::GlobalNamespace::QuickPlaySetupData*& dyn__quickPlaySetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::QuickPlaySetupData*& dyn__quickPlaySetupData();
     // Get instance field reference: private SelectMultiplayerLobbyDestination _lobbyDestination
-    ::GlobalNamespace::SelectMultiplayerLobbyDestination*& dyn__lobbyDestination();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SelectMultiplayerLobbyDestination*& dyn__lobbyDestination();
     // public System.Void add_didFinishEvent(System.Action`1<MultiplayerModeSelectionFlowCoordinator> value)
-    // Offset: 0x139A648
+    // Offset: 0x1396AF4
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<MultiplayerModeSelectionFlowCoordinator> value)
-    // Offset: 0x139A6F0
+    // Offset: 0x1396B9C
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* value);
-    // public System.Void Setup(SelectMultiplayerLobbyDestination lobbyDestination)
-    // Offset: 0x139A798
-    void Setup(::GlobalNamespace::SelectMultiplayerLobbyDestination* lobbyDestination);
-    // private System.Void HandleMultiplayerLobbyConnectionControllerConnectionSuccessActivateModel()
-    // Offset: 0x139BC44
-    void HandleMultiplayerLobbyConnectionControllerConnectionSuccessActivateModel();
-    // private System.Void HandleMultiplayerLobbyConnectionControllerConnectionSuccess()
-    // Offset: 0x139BC60
-    void HandleMultiplayerLobbyConnectionControllerConnectionSuccess();
-    // private System.Void HandleMultiplayerLobbyConnectionControllerConnectionFailed(MultiplayerLobbyConnectionController/LobbyConnectionType connectionType, ConnectionFailedReason reason)
-    // Offset: 0x139BC64
-    void HandleMultiplayerLobbyConnectionControllerConnectionFailed(::GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType connectionType, ::GlobalNamespace::ConnectionFailedReason reason);
-    // private System.Void HandleMultiplayerLobbyControllerDidFinish(MultiplayerModeSelectionViewController viewController, MultiplayerModeSelectionViewController/MenuButton menuButton)
-    // Offset: 0x139BD38
-    void HandleMultiplayerLobbyControllerDidFinish(::GlobalNamespace::MultiplayerModeSelectionViewController* viewController, ::GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton menuButton);
-    // private System.Void HandleGameServerBrowserFlowCoordinatorDidFinish(GameServerBrowserFlowCoordinator flowCoordinator)
-    // Offset: 0x139C28C
-    void HandleGameServerBrowserFlowCoordinatorDidFinish(::GlobalNamespace::GameServerBrowserFlowCoordinator* flowCoordinator);
-    // private System.Void HandleJoiningLobbyViewControllerDidCancel()
-    // Offset: 0x139C2A0
-    void HandleJoiningLobbyViewControllerDidCancel();
-    // private System.Void HandleJoinQuickPlayViewControllerDidFinish(System.Boolean success)
-    // Offset: 0x139C374
-    void HandleJoinQuickPlayViewControllerDidFinish(bool success);
-    // private System.Void HandleServerCodeEntryViewControllerDidFinish(System.Boolean success, System.String code)
-    // Offset: 0x139C6A0
-    void HandleServerCodeEntryViewControllerDidFinish(bool success, ::StringW code);
-    // private System.Void HandleCreateServerViewControllerDidFinish(System.Boolean success, CreateServerFormData data)
-    // Offset: 0x139C7BC
-    void HandleCreateServerViewControllerDidFinish(bool success, ::GlobalNamespace::CreateServerFormData data);
-    // private System.Void HandleGameServerLobbyFlowCoordinatorDidFinish()
-    // Offset: 0x139CABC
-    void HandleGameServerLobbyFlowCoordinatorDidFinish();
-    // private System.Void HandleGameServerLobbyFlowCoordinatorWillFinish()
-    // Offset: 0x139CCFC
-    void HandleGameServerLobbyFlowCoordinatorWillFinish();
-    // private System.Void HandleConnectedPlayerManagerCreated(INetworkPlayerModel networkPlayerModel)
-    // Offset: 0x139CD98
-    void HandleConnectedPlayerManagerCreated(::GlobalNamespace::INetworkPlayerModel* networkPlayerModel);
-    // private System.Void TryShowModeSelection(System.Boolean shouldProvideInitialViewControllers)
-    // Offset: 0x139AC14
-    void TryShowModeSelection(bool shouldProvideInitialViewControllers);
-    // private System.Void ResolveAndPresentNextFlowCoordinator()
-    // Offset: 0x139B798
-    void ResolveAndPresentNextFlowCoordinator();
-    // private System.Void PresentConnectionErrorDialog(MultiplayerLobbyConnectionController/LobbyConnectionType connectionType, ConnectionFailedReason reason)
-    // Offset: 0x139B858
-    void PresentConnectionErrorDialog(::GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType connectionType, ::GlobalNamespace::ConnectionFailedReason reason);
-    // private System.Void PresentMasterServerUnavailableErrorDialog(MultiplayerUnavailableReason reason, System.Exception exception, System.Nullable`1<System.Int64> maintenanceWindowEndTime, System.String remoteLocalizedMessage)
-    // Offset: 0x139CF8C
-    void PresentMasterServerUnavailableErrorDialog(::GlobalNamespace::MultiplayerUnavailableReason reason, ::System::Exception* exception, ::System::Nullable_1<int64_t> maintenanceWindowEndTime, ::StringW remoteLocalizedMessage);
-    // private System.Void ProcessDeeplinkingToLobby()
-    // Offset: 0x139D400
-    void ProcessDeeplinkingToLobby();
-    // private System.Void <ResolveAndPresentNextFlowCoordinator>b__50_0()
-    // Offset: 0x139D4F4
-    void $ResolveAndPresentNextFlowCoordinator$b__50_0();
-    // private System.Void <PresentConnectionErrorDialog>b__51_0(System.Int32 btnId)
-    // Offset: 0x139D65C
-    void $PresentConnectionErrorDialog$b__51_0(int btnId);
-    // private System.Void <PresentConnectionErrorDialog>b__51_1(System.Int32 btnId)
-    // Offset: 0x139D674
-    void $PresentConnectionErrorDialog$b__51_1(int btnId);
-    // private System.Void <PresentMasterServerUnavailableErrorDialog>b__52_0(System.Int32 btnId)
-    // Offset: 0x139D68C
-    void $PresentMasterServerUnavailableErrorDialog$b__52_0(int btnId);
     // public System.Void .ctor()
-    // Offset: 0x139D4EC
-    // Implemented from: HMUI.FlowCoordinator
-    // Base method: System.Void FlowCoordinator::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1399998
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerModeSelectionFlowCoordinator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerModeSelectionFlowCoordinator*, creationType>()));
     }
+    // public System.Void Setup(SelectMultiplayerLobbyDestination lobbyDestination)
+    // Offset: 0x1396C44
+    void Setup(::GlobalNamespace::SelectMultiplayerLobbyDestination* lobbyDestination);
+    // private System.Void HandleMultiplayerLobbyConnectionControllerConnectionSuccessActivateModel()
+    // Offset: 0x13980F0
+    void HandleMultiplayerLobbyConnectionControllerConnectionSuccessActivateModel();
+    // private System.Void HandleMultiplayerLobbyConnectionControllerConnectionSuccess()
+    // Offset: 0x139810C
+    void HandleMultiplayerLobbyConnectionControllerConnectionSuccess();
+    // private System.Void HandleMultiplayerLobbyConnectionControllerConnectionFailed(MultiplayerLobbyConnectionController/LobbyConnectionType connectionType, ConnectionFailedReason reason)
+    // Offset: 0x1398110
+    void HandleMultiplayerLobbyConnectionControllerConnectionFailed(::GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType connectionType, ::GlobalNamespace::ConnectionFailedReason reason);
+    // private System.Void HandleMultiplayerLobbyControllerDidFinish(MultiplayerModeSelectionViewController viewController, MultiplayerModeSelectionViewController/MenuButton menuButton)
+    // Offset: 0x13981E4
+    void HandleMultiplayerLobbyControllerDidFinish(::GlobalNamespace::MultiplayerModeSelectionViewController* viewController, ::GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton menuButton);
+    // private System.Void HandleGameServerBrowserFlowCoordinatorDidFinish(GameServerBrowserFlowCoordinator flowCoordinator)
+    // Offset: 0x1398738
+    void HandleGameServerBrowserFlowCoordinatorDidFinish(::GlobalNamespace::GameServerBrowserFlowCoordinator* flowCoordinator);
+    // private System.Void HandleJoiningLobbyViewControllerDidCancel()
+    // Offset: 0x139874C
+    void HandleJoiningLobbyViewControllerDidCancel();
+    // private System.Void HandleJoinQuickPlayViewControllerDidFinish(System.Boolean success)
+    // Offset: 0x1398820
+    void HandleJoinQuickPlayViewControllerDidFinish(bool success);
+    // private System.Void HandleServerCodeEntryViewControllerDidFinish(System.Boolean success, System.String code)
+    // Offset: 0x1398B4C
+    void HandleServerCodeEntryViewControllerDidFinish(bool success, ::StringW code);
+    // private System.Void HandleCreateServerViewControllerDidFinish(System.Boolean success, CreateServerFormData data)
+    // Offset: 0x1398C68
+    void HandleCreateServerViewControllerDidFinish(bool success, ::GlobalNamespace::CreateServerFormData data);
+    // private System.Void HandleGameServerLobbyFlowCoordinatorDidFinish()
+    // Offset: 0x1398F68
+    void HandleGameServerLobbyFlowCoordinatorDidFinish();
+    // private System.Void HandleGameServerLobbyFlowCoordinatorWillFinish()
+    // Offset: 0x13991A8
+    void HandleGameServerLobbyFlowCoordinatorWillFinish();
+    // private System.Void HandleConnectedPlayerManagerCreated(INetworkPlayerModel networkPlayerModel)
+    // Offset: 0x1399244
+    void HandleConnectedPlayerManagerCreated(::GlobalNamespace::INetworkPlayerModel* networkPlayerModel);
+    // private System.Void TryShowModeSelection(System.Boolean shouldProvideInitialViewControllers)
+    // Offset: 0x13970C0
+    void TryShowModeSelection(bool shouldProvideInitialViewControllers);
+    // private System.Void ResolveAndPresentNextFlowCoordinator()
+    // Offset: 0x1397C44
+    void ResolveAndPresentNextFlowCoordinator();
+    // private System.Void PresentConnectionErrorDialog(MultiplayerLobbyConnectionController/LobbyConnectionType connectionType, ConnectionFailedReason reason)
+    // Offset: 0x1397D04
+    void PresentConnectionErrorDialog(::GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType connectionType, ::GlobalNamespace::ConnectionFailedReason reason);
+    // private System.Void PresentMasterServerUnavailableErrorDialog(MultiplayerUnavailableReason reason, System.Exception exception, System.Nullable`1<System.Int64> maintenanceWindowEndTime, System.String remoteLocalizedMessage)
+    // Offset: 0x1399438
+    void PresentMasterServerUnavailableErrorDialog(::GlobalNamespace::MultiplayerUnavailableReason reason, ::System::Exception* exception, ::System::Nullable_1<int64_t> maintenanceWindowEndTime, ::StringW remoteLocalizedMessage);
+    // private System.Void ProcessDeeplinkingToLobby()
+    // Offset: 0x13998AC
+    void ProcessDeeplinkingToLobby();
+    // private System.Void <ResolveAndPresentNextFlowCoordinator>b__50_0()
+    // Offset: 0x13999A0
+    void $ResolveAndPresentNextFlowCoordinator$b__50_0();
+    // private System.Void <PresentConnectionErrorDialog>b__51_0(System.Int32 btnId)
+    // Offset: 0x1399B08
+    void $PresentConnectionErrorDialog$b__51_0(int btnId);
+    // private System.Void <PresentConnectionErrorDialog>b__51_1(System.Int32 btnId)
+    // Offset: 0x1399B20
+    void $PresentConnectionErrorDialog$b__51_1(int btnId);
+    // private System.Void <PresentMasterServerUnavailableErrorDialog>b__52_0(System.Int32 btnId)
+    // Offset: 0x1399B38
+    void $PresentMasterServerUnavailableErrorDialog$b__52_0(int btnId);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x139A7A0
+    // Offset: 0x1396C4C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x139ACCC
+    // Offset: 0x1397178
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0x139B0CC
+    // Offset: 0x1397578
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
     void BackButtonWasPressed(::HMUI::ViewController* topViewController);
     // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/HMUI.AnimationType animationType)
-    // Offset: 0x139B1B8
+    // Offset: 0x1397664
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/HMUI.AnimationType animationType)
     void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::ViewController::AnimationType animationType);
     // protected override System.Void TransitionDidStart()
-    // Offset: 0x139B3F4
+    // Offset: 0x13978A0
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TransitionDidStart()
     void TransitionDidStart();
     // protected override System.Void TransitionDidFinish()
-    // Offset: 0x139B534
+    // Offset: 0x13979E0
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TransitionDidFinish()
     void TransitionDidFinish();
@@ -510,6 +495,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::Setup
 // Il2CppName: Setup
 template<>
@@ -708,10 +697,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*), "<PresentMasterServerUnavailableErrorDialog>b__52_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{btnId});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::DidActivate
 // Il2CppName: DidActivate
 template<>

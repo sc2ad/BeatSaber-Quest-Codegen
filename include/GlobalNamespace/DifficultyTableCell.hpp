@@ -46,15 +46,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DifficultyTableCell : public ::HMUI::TableCell {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _difficultyText
     // Size: 0x8
     // Offset: 0x58
@@ -81,45 +73,36 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::FillIndicator*) == 0x8);
     public:
     // Get instance field reference: private TMPro.TextMeshProUGUI _difficultyText
-    ::TMPro::TextMeshProUGUI*& dyn__difficultyText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__difficultyText();
     // Get instance field reference: private UnityEngine.UI.Image _bgImage
-    ::UnityEngine::UI::Image*& dyn__bgImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__bgImage();
     // Get instance field reference: private UnityEngine.UI.Image _highlightImage
-    ::UnityEngine::UI::Image*& dyn__highlightImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__highlightImage();
     // Get instance field reference: private FillIndicator _fillIndicator
-    ::GlobalNamespace::FillIndicator*& dyn__fillIndicator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FillIndicator*& dyn__fillIndicator();
     // public System.String get_difficultyText()
-    // Offset: 0x140EDC8
+    // Offset: 0x142EB74
     ::StringW get_difficultyText();
     // public System.Void set_difficultyText(System.String value)
-    // Offset: 0x140EDAC
+    // Offset: 0x142EB58
     void set_difficultyText(::StringW value);
     // public System.Void set_difficultyValue(System.Int32 value)
-    // Offset: 0x140EDE4
+    // Offset: 0x142EB90
     void set_difficultyValue(int value);
     // public System.Void .ctor()
-    // Offset: 0x140EF54
-    // Implemented from: HMUI.TableCell
-    // Base method: System.Void TableCell::.ctor()
-    // Base method: System.Void SelectableCell::.ctor()
-    // Base method: System.Void Interactable::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x142ED00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DifficultyTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DifficultyTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DifficultyTableCell*, creationType>()));
     }
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x140EE80
+    // Offset: 0x142EC2C
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(::HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x140EF18
+    // Offset: 0x142ECC4
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(::HMUI::SelectableCell::TransitionType transitionType);

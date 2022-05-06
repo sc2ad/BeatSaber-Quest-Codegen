@@ -40,15 +40,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
   // [TokenAttribute] Offset: FFFFFFFF
   class Gost3410DigestSigner : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::ISigner*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Crypto.IDigest digest
     // Size: 0x8
     // Offset: 0x10
@@ -85,33 +77,33 @@ namespace Org::BouncyCastle::Crypto::Signers {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::ISigner*>(this);
     }
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IDigest digest
-    ::Org::BouncyCastle::Crypto::IDigest*& dyn_digest();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::IDigest*& dyn_digest();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IDsa dsaSigner
-    ::Org::BouncyCastle::Crypto::IDsa*& dyn_dsaSigner();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::IDsa*& dyn_dsaSigner();
     // Get instance field reference: private readonly System.Int32 size
-    int& dyn_size();
+    [[deprecated("Use field access instead!")]] int& dyn_size();
     // Get instance field reference: private System.Int32 halfSize
-    int& dyn_halfSize();
+    [[deprecated("Use field access instead!")]] int& dyn_halfSize();
     // Get instance field reference: private System.Boolean forSigning
-    bool& dyn_forSigning();
+    [[deprecated("Use field access instead!")]] bool& dyn_forSigning();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDsa signer, Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x15C9D9C
+    // Offset: 0x15FF6AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3410DigestSigner* New_ctor(::Org::BouncyCastle::Crypto::IDsa* signer, ::Org::BouncyCastle::Crypto::IDigest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3410DigestSigner*, creationType>(signer, digest)));
     }
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x15C9E78
+    // Offset: 0x15FF788
     void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x15CA080
+    // Offset: 0x15FF990
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int length);
     // public System.Byte[] GenerateSignature()
-    // Offset: 0x15CA15C
+    // Offset: 0x15FFA6C
     ::ArrayW<uint8_t> GenerateSignature();
     // public System.Void Reset()
-    // Offset: 0x15CA520
+    // Offset: 0x15FFE30
     void Reset();
   }; // Org.BouncyCastle.Crypto.Signers.Gost3410DigestSigner
   #pragma pack(pop)

@@ -63,29 +63,21 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::HealthWarningViewController::$DismissHealthAndSafety$d__14
     class $DismissHealthAndSafety$d__14;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Button _continueButton
     // Size: 0x8
     // Offset: 0x70
     ::UnityEngine::UI::Button* continueButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [HeaderAttribute] Offset: 0x125B3B8
+    // [HeaderAttribute] Offset: 0x10DFF9C
     // private SafeAreaRectChecker _safeAreaRectChecker
     // Size: 0x8
     // Offset: 0x78
     ::GlobalNamespace::SafeAreaRectChecker* safeAreaRectChecker;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SafeAreaRectChecker*) == 0x8);
-    // [HeaderAttribute] Offset: 0x125B404
+    // [HeaderAttribute] Offset: 0x10DFFE8
     // private System.Single _duration
     // Size: 0x4
     // Offset: 0x80
@@ -94,21 +86,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: duration and: healthAndSafetyTextMesh
     char __padding2[0x4] = {};
-    // [HeaderAttribute] Offset: 0x125B450
+    // [HeaderAttribute] Offset: 0x10E0034
     // private TMPro.TextMeshProUGUI _healthAndSafetyTextMesh
     // Size: 0x8
     // Offset: 0x88
     ::TMPro::TextMeshProUGUI* healthAndSafetyTextMesh;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0x125B49C
+    // [LocalizationKeyAttribute] Offset: 0x10E0080
     // private System.String _healthAndSafetyFullLocalizationKey
     // Size: 0x8
     // Offset: 0x90
     ::StringW healthAndSafetyFullLocalizationKey;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0x125B4D4
+    // [LocalizationKeyAttribute] Offset: 0x10E00B8
     // private System.String _healthAndSafetyShortLocalizationKey
     // Size: 0x8
     // Offset: 0x98
@@ -137,59 +129,52 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Coroutine*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.UI.Button _continueButton
-    ::UnityEngine::UI::Button*& dyn__continueButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__continueButton();
     // Get instance field reference: private SafeAreaRectChecker _safeAreaRectChecker
-    ::GlobalNamespace::SafeAreaRectChecker*& dyn__safeAreaRectChecker();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SafeAreaRectChecker*& dyn__safeAreaRectChecker();
     // Get instance field reference: private System.Single _duration
-    float& dyn__duration();
+    [[deprecated("Use field access instead!")]] float& dyn__duration();
     // Get instance field reference: private TMPro.TextMeshProUGUI _healthAndSafetyTextMesh
-    ::TMPro::TextMeshProUGUI*& dyn__healthAndSafetyTextMesh();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__healthAndSafetyTextMesh();
     // Get instance field reference: private System.String _healthAndSafetyFullLocalizationKey
-    ::StringW& dyn__healthAndSafetyFullLocalizationKey();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__healthAndSafetyFullLocalizationKey();
     // Get instance field reference: private System.String _healthAndSafetyShortLocalizationKey
-    ::StringW& dyn__healthAndSafetyShortLocalizationKey();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__healthAndSafetyShortLocalizationKey();
     // Get instance field reference: private System.Action didFinishEvent
-    ::System::Action*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didFinishEvent();
     // Get instance field reference: private System.Boolean _showShortHealthAndSafety
-    bool& dyn__showShortHealthAndSafety();
+    [[deprecated("Use field access instead!")]] bool& dyn__showShortHealthAndSafety();
     // Get instance field reference: private UnityEngine.Coroutine _dismissCoroutine
-    ::UnityEngine::Coroutine*& dyn__dismissCoroutine();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Coroutine*& dyn__dismissCoroutine();
     // public System.Void add_didFinishEvent(System.Action value)
-    // Offset: 0x13B0C18
+    // Offset: 0x13AC0C4
     void add_didFinishEvent(::System::Action* value);
     // public System.Void remove_didFinishEvent(System.Action value)
-    // Offset: 0x13B0EF0
+    // Offset: 0x13AC39C
     void remove_didFinishEvent(::System::Action* value);
-    // public System.Void Init(System.Boolean showShortHealthAndSafety)
-    // Offset: 0x13B19F0
-    void Init(bool showShortHealthAndSafety);
-    // private System.Collections.IEnumerator DismissHealthAndSafety()
-    // Offset: 0x13B18AC
-    ::System::Collections::IEnumerator* DismissHealthAndSafety();
-    // private System.Void <DidActivate>b__11_0()
-    // Offset: 0x13B1A30
-    void $DidActivate$b__11_0();
     // public System.Void .ctor()
-    // Offset: 0x13B1A28
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13ACED4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HealthWarningViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HealthWarningViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningViewController*, creationType>()));
     }
+    // public System.Void Init(System.Boolean showShortHealthAndSafety)
+    // Offset: 0x13ACE9C
+    void Init(bool showShortHealthAndSafety);
+    // private System.Collections.IEnumerator DismissHealthAndSafety()
+    // Offset: 0x13ACD58
+    ::System::Collections::IEnumerator* DismissHealthAndSafety();
+    // private System.Void <DidActivate>b__11_0()
+    // Offset: 0x13ACEDC
+    void $DidActivate$b__11_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13B1718
+    // Offset: 0x13ACBC4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x13B191C
+    // Offset: 0x13ACDC8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
@@ -217,6 +202,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::HealthWarningViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::HealthWarningViewController::Init
 // Il2CppName: Init
 template<>
@@ -242,10 +231,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningViewController*), "<DidActivate>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::HealthWarningViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::HealthWarningViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

@@ -35,30 +35,27 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardViewController : public ::HMUI::ViewController {
     public:
-    // public System.Void SetData(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    void SetData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
-    // public System.Void RefreshLevelStats()
-    // Offset: 0x13B7F04
-    void RefreshLevelStats();
     // protected System.Void .ctor()
-    // Offset: 0x13B7F08
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13B33B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardViewController*, creationType>()));
     }
+    // public System.Void SetData(IDifficultyBeatmap difficultyBeatmap)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    void SetData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
+    // public System.Void RefreshLevelStats()
+    // Offset: 0x13B33B0
+    void RefreshLevelStats();
   }; // LeaderboardViewController
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardViewController::SetData
 // Il2CppName: SetData
 template<>
@@ -76,7 +73,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardViewController*), "RefreshLevelStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LeaderboardViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

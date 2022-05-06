@@ -55,36 +55,28 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::BTSCharacterSpawnController::$TimelineStoppedDelayed$d__19
     class $TimelineStoppedDelayed$d__19;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BTSCharacterSpawnAnimationController _characterSpawnAnimationController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::BTSCharacterSpawnAnimationController* characterSpawnAnimationController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BTSCharacterSpawnAnimationController*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1248A18
+    // [SpaceAttribute] Offset: 0x10CD510
     // private BTSCharacterSpawnEventEffect _btsCharacterSpawnEventEffect
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::BTSCharacterSpawnEventEffect* btsCharacterSpawnEventEffect;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BTSCharacterSpawnEventEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0x1248A50
+    // [InjectAttribute] Offset: 0x10CD548
     // private readonly IGamePause _gamePause
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::IGamePause* gamePause;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IGamePause*) == 0x8);
-    // [InjectAttribute] Offset: 0x1248A60
+    // [InjectAttribute] Offset: 0x10CD558
     // private readonly ILevelEndActions _levelEndActions
     // Size: 0x8
     // Offset: 0x30
@@ -123,64 +115,58 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BTSCharacterSpawnAnimationController _characterSpawnAnimationController
-    ::GlobalNamespace::BTSCharacterSpawnAnimationController*& dyn__characterSpawnAnimationController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BTSCharacterSpawnAnimationController*& dyn__characterSpawnAnimationController();
     // Get instance field reference: private BTSCharacterSpawnEventEffect _btsCharacterSpawnEventEffect
-    ::GlobalNamespace::BTSCharacterSpawnEventEffect*& dyn__btsCharacterSpawnEventEffect();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BTSCharacterSpawnEventEffect*& dyn__btsCharacterSpawnEventEffect();
     // Get instance field reference: private readonly IGamePause _gamePause
-    ::GlobalNamespace::IGamePause*& dyn__gamePause();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IGamePause*& dyn__gamePause();
     // Get instance field reference: private readonly ILevelEndActions _levelEndActions
-    ::GlobalNamespace::ILevelEndActions*& dyn__levelEndActions();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ILevelEndActions*& dyn__levelEndActions();
     // Get instance field reference: private System.Boolean _characterSpawned
-    bool& dyn__characterSpawned();
+    [[deprecated("Use field access instead!")]] bool& dyn__characterSpawned();
     // Get instance field reference: private System.Double _playableDirectorTimeBeforePause
-    double& dyn__playableDirectorTimeBeforePause();
+    [[deprecated("Use field access instead!")]] double& dyn__playableDirectorTimeBeforePause();
     // Get instance field reference: private System.Single _animatorNormalizedTimeBeforePause
-    float& dyn__animatorNormalizedTimeBeforePause();
+    [[deprecated("Use field access instead!")]] float& dyn__animatorNormalizedTimeBeforePause();
     // Get instance field reference: private UnityEngine.Coroutine _despawnCharacterCoroutine
-    ::UnityEngine::Coroutine*& dyn__despawnCharacterCoroutine();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Coroutine*& dyn__despawnCharacterCoroutine();
     // public System.Boolean get_isCharacterVisible()
-    // Offset: 0x135AD20
+    // Offset: 0x1342FA0
     bool get_isCharacterVisible();
     // public System.Boolean get_isSpawned()
-    // Offset: 0x135AD3C
+    // Offset: 0x1342FBC
     bool get_isSpawned();
-    // protected System.Void Start()
-    // Offset: 0x135AD44
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x135B0E4
-    void OnDestroy();
-    // private System.Void HandleStartCharacterAnimation(BTSCharacter btsCharacter)
-    // Offset: 0x135B4F4
-    void HandleStartCharacterAnimation(::GlobalNamespace::BTSCharacter* btsCharacter);
-    // private System.Void HandleGamePauseDidPause()
-    // Offset: 0x135B644
-    void HandleGamePauseDidPause();
-    // private System.Void HandleGamePauseWillResume()
-    // Offset: 0x135B694
-    void HandleGamePauseWillResume();
-    // private System.Void HandleGamePauseDidResume()
-    // Offset: 0x135B6EC
-    void HandleGamePauseDidResume();
-    // private System.Void HandleLevelEndActionsLevelFailed()
-    // Offset: 0x135B714
-    void HandleLevelEndActionsLevelFailed();
-    // private System.Collections.IEnumerator TimelineStoppedDelayed()
-    // Offset: 0x135B5D4
-    ::System::Collections::IEnumerator* TimelineStoppedDelayed();
     // public System.Void .ctor()
-    // Offset: 0x135B768
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13439E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterSpawnController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSCharacterSpawnController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterSpawnController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x1342FC4
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1343364
+    void OnDestroy();
+    // private System.Void HandleStartCharacterAnimation(BTSCharacter btsCharacter)
+    // Offset: 0x1343774
+    void HandleStartCharacterAnimation(::GlobalNamespace::BTSCharacter* btsCharacter);
+    // private System.Void HandleGamePauseDidPause()
+    // Offset: 0x13438C4
+    void HandleGamePauseDidPause();
+    // private System.Void HandleGamePauseWillResume()
+    // Offset: 0x1343914
+    void HandleGamePauseWillResume();
+    // private System.Void HandleGamePauseDidResume()
+    // Offset: 0x134396C
+    void HandleGamePauseDidResume();
+    // private System.Void HandleLevelEndActionsLevelFailed()
+    // Offset: 0x1343994
+    void HandleLevelEndActionsLevelFailed();
+    // private System.Collections.IEnumerator TimelineStoppedDelayed()
+    // Offset: 0x1343854
+    ::System::Collections::IEnumerator* TimelineStoppedDelayed();
   }; // BTSCharacterSpawnController
   #pragma pack(pop)
   static check_size<sizeof(BTSCharacterSpawnController), 80 + sizeof(::UnityEngine::Coroutine*)> __GlobalNamespace_BTSCharacterSpawnControllerSizeCheck;
@@ -203,6 +189,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnController*), "get_isSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnController::Start
 // Il2CppName: Start
 template<>
@@ -268,7 +258,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnController*), "TimelineStoppedDelayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

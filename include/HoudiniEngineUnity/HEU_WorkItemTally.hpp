@@ -27,15 +27,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_WorkItemTally : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 _totalWorkItems
     // Size: 0x4
     // Offset: 0x10
@@ -74,47 +66,49 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public System.Int32 _totalWorkItems
-    int& dyn__totalWorkItems();
+    [[deprecated("Use field access instead!")]] int& dyn__totalWorkItems();
     // Get instance field reference: public System.Int32 _waitingWorkItems
-    int& dyn__waitingWorkItems();
+    [[deprecated("Use field access instead!")]] int& dyn__waitingWorkItems();
     // Get instance field reference: public System.Int32 _scheduledWorkItems
-    int& dyn__scheduledWorkItems();
+    [[deprecated("Use field access instead!")]] int& dyn__scheduledWorkItems();
     // Get instance field reference: public System.Int32 _cookingWorkItems
-    int& dyn__cookingWorkItems();
+    [[deprecated("Use field access instead!")]] int& dyn__cookingWorkItems();
     // Get instance field reference: public System.Int32 _cookedWorkItems
-    int& dyn__cookedWorkItems();
+    [[deprecated("Use field access instead!")]] int& dyn__cookedWorkItems();
     // Get instance field reference: public System.Int32 _erroredWorkItems
-    int& dyn__erroredWorkItems();
-    // public System.Void ZeroAll()
-    // Offset: 0x19D9908
-    void ZeroAll();
-    // public System.Boolean AreAllWorkItemsComplete()
-    // Offset: 0x19D9914
-    bool AreAllWorkItemsComplete();
-    // public System.Boolean AnyWorkItemsFailed()
-    // Offset: 0x19D994C
-    bool AnyWorkItemsFailed();
-    // public System.Boolean AnyWorkItemsPending()
-    // Offset: 0x19D995C
-    bool AnyWorkItemsPending();
-    // public System.String ProgressRatio()
-    // Offset: 0x19D99A0
-    ::StringW ProgressRatio();
+    [[deprecated("Use field access instead!")]] int& dyn__erroredWorkItems();
     // public System.Void .ctor()
-    // Offset: 0x19D9A7C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1A13064
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_WorkItemTally* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_WorkItemTally::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_WorkItemTally*, creationType>()));
     }
+    // public System.Void ZeroAll()
+    // Offset: 0x1A12EF0
+    void ZeroAll();
+    // public System.Boolean AreAllWorkItemsComplete()
+    // Offset: 0x1A12EFC
+    bool AreAllWorkItemsComplete();
+    // public System.Boolean AnyWorkItemsFailed()
+    // Offset: 0x1A12F34
+    bool AnyWorkItemsFailed();
+    // public System.Boolean AnyWorkItemsPending()
+    // Offset: 0x1A12F44
+    bool AnyWorkItemsPending();
+    // public System.String ProgressRatio()
+    // Offset: 0x1A12F88
+    ::StringW ProgressRatio();
   }; // HoudiniEngineUnity.HEU_WorkItemTally
   #pragma pack(pop)
   static check_size<sizeof(HEU_WorkItemTally), 36 + sizeof(int)> __HoudiniEngineUnity_HEU_WorkItemTallySizeCheck;
   static_assert(sizeof(HEU_WorkItemTally) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_WorkItemTally::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_WorkItemTally::ZeroAll
 // Il2CppName: ZeroAll
 template<>
@@ -155,7 +149,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_WorkItemTally*), "ProgressRatio", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_WorkItemTally::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

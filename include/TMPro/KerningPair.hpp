@@ -28,16 +28,8 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class KerningPair : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [FormerlySerializedAsAttribute] Offset: 0x120A118
+    // [FormerlySerializedAsAttribute] Offset: 0x108FB30
     // private System.UInt32 m_FirstGlyph
     // Size: 0x4
     // Offset: 0x10
@@ -50,7 +42,7 @@ namespace TMPro {
     ::TMPro::GlyphValueRecord_Legacy m_FirstGlyphAdjustments;
     // Field size check
     static_assert(sizeof(::TMPro::GlyphValueRecord_Legacy) == 0x10);
-    // [FormerlySerializedAsAttribute] Offset: 0x120A174
+    // [FormerlySerializedAsAttribute] Offset: 0x108FB8C
     // private System.UInt32 m_SecondGlyph
     // Size: 0x4
     // Offset: 0x24
@@ -63,7 +55,7 @@ namespace TMPro {
     ::TMPro::GlyphValueRecord_Legacy m_SecondGlyphAdjustments;
     // Field size check
     static_assert(sizeof(::TMPro::GlyphValueRecord_Legacy) == 0x10);
-    // [FormerlySerializedAsAttribute] Offset: 0x120A1D0
+    // [FormerlySerializedAsAttribute] Offset: 0x108FBE8
     // public System.Single xOffset
     // Size: 0x4
     // Offset: 0x38
@@ -82,67 +74,65 @@ namespace TMPro {
     // Set static field: static TMPro.KerningPair empty
     static void _set_empty(::TMPro::KerningPair* value);
     // Get instance field reference: private System.UInt32 m_FirstGlyph
-    uint& dyn_m_FirstGlyph();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_FirstGlyph();
     // Get instance field reference: private TMPro.GlyphValueRecord_Legacy m_FirstGlyphAdjustments
-    ::TMPro::GlyphValueRecord_Legacy& dyn_m_FirstGlyphAdjustments();
+    [[deprecated("Use field access instead!")]] ::TMPro::GlyphValueRecord_Legacy& dyn_m_FirstGlyphAdjustments();
     // Get instance field reference: private System.UInt32 m_SecondGlyph
-    uint& dyn_m_SecondGlyph();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_SecondGlyph();
     // Get instance field reference: private TMPro.GlyphValueRecord_Legacy m_SecondGlyphAdjustments
-    ::TMPro::GlyphValueRecord_Legacy& dyn_m_SecondGlyphAdjustments();
+    [[deprecated("Use field access instead!")]] ::TMPro::GlyphValueRecord_Legacy& dyn_m_SecondGlyphAdjustments();
     // Get instance field reference: public System.Single xOffset
-    float& dyn_xOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_xOffset();
     // Get instance field reference: private System.Boolean m_IgnoreSpacingAdjustments
-    bool& dyn_m_IgnoreSpacingAdjustments();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_IgnoreSpacingAdjustments();
     // public System.UInt32 get_firstGlyph()
-    // Offset: 0x142F108
+    // Offset: 0x1438348
     uint get_firstGlyph();
     // public System.Void set_firstGlyph(System.UInt32 value)
-    // Offset: 0x142F110
+    // Offset: 0x1438350
     void set_firstGlyph(uint value);
     // public TMPro.GlyphValueRecord_Legacy get_firstGlyphAdjustments()
-    // Offset: 0x142F118
+    // Offset: 0x1438358
     ::TMPro::GlyphValueRecord_Legacy get_firstGlyphAdjustments();
     // public System.UInt32 get_secondGlyph()
-    // Offset: 0x142F124
+    // Offset: 0x1438364
     uint get_secondGlyph();
     // public System.Void set_secondGlyph(System.UInt32 value)
-    // Offset: 0x142F12C
+    // Offset: 0x143836C
     void set_secondGlyph(uint value);
     // public TMPro.GlyphValueRecord_Legacy get_secondGlyphAdjustments()
-    // Offset: 0x142F134
+    // Offset: 0x1438374
     ::TMPro::GlyphValueRecord_Legacy get_secondGlyphAdjustments();
     // public System.Boolean get_ignoreSpacingAdjustments()
-    // Offset: 0x142F140
+    // Offset: 0x1438380
     bool get_ignoreSpacingAdjustments();
+    // public System.Void .ctor()
+    // Offset: 0x1438388
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static KerningPair* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::KerningPair::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<KerningPair*, creationType>()));
+    }
     // public System.Void .ctor(System.UInt32 left, System.UInt32 right, System.Single offset)
-    // Offset: 0x142F178
+    // Offset: 0x14383B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KerningPair* New_ctor(uint left, uint right, float offset) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::KerningPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KerningPair*, creationType>(left, right, offset)));
     }
     // public System.Void .ctor(System.UInt32 firstGlyph, TMPro.GlyphValueRecord_Legacy firstGlyphAdjustments, System.UInt32 secondGlyph, TMPro.GlyphValueRecord_Legacy secondGlyphAdjustments)
-    // Offset: 0x142F1C4
+    // Offset: 0x1438404
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KerningPair* New_ctor(uint firstGlyph, ::TMPro::GlyphValueRecord_Legacy firstGlyphAdjustments, uint secondGlyph, ::TMPro::GlyphValueRecord_Legacy secondGlyphAdjustments) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::KerningPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KerningPair*, creationType>(firstGlyph, firstGlyphAdjustments, secondGlyph, secondGlyphAdjustments)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x142F25C
+    // Offset: 0x143849C
     static void _cctor();
     // System.Void ConvertLegacyKerningData()
-    // Offset: 0x142F250
+    // Offset: 0x1438490
     void ConvertLegacyKerningData();
-    // public System.Void .ctor()
-    // Offset: 0x142F148
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static KerningPair* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::KerningPair::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<KerningPair*, creationType>()));
-    }
   }; // TMPro.KerningPair
   #pragma pack(pop)
   static check_size<sizeof(KerningPair), 60 + sizeof(bool)> __TMPro_KerningPairSizeCheck;
@@ -215,6 +205,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: TMPro::KerningPair::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: TMPro::KerningPair::_cctor
 // Il2CppName: .cctor
 template<>
@@ -231,7 +225,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
     return ::il2cpp_utils::FindMethod(classof(TMPro::KerningPair*), "ConvertLegacyKerningData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMPro::KerningPair::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

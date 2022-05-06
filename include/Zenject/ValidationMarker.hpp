@@ -34,15 +34,7 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class ValidationMarker : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean <InstantiateFailed>k__BackingField
     // Size: 0x1
     // Offset: 0x10
@@ -59,30 +51,30 @@ namespace Zenject {
     static_assert(sizeof(::System::Type*) == 0x8);
     public:
     // Get instance field reference: private System.Boolean <InstantiateFailed>k__BackingField
-    bool& dyn_$InstantiateFailed$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$InstantiateFailed$k__BackingField();
     // Get instance field reference: private System.Type <MarkedType>k__BackingField
-    ::System::Type*& dyn_$MarkedType$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_$MarkedType$k__BackingField();
     // public System.Boolean get_InstantiateFailed()
-    // Offset: 0x1CEE7BC
+    // Offset: 0x1D29D14
     bool get_InstantiateFailed();
     // private System.Void set_InstantiateFailed(System.Boolean value)
-    // Offset: 0x1CEE7C4
+    // Offset: 0x1D29D1C
     void set_InstantiateFailed(bool value);
     // public System.Type get_MarkedType()
-    // Offset: 0x1CEE7D0
+    // Offset: 0x1D29D28
     ::System::Type* get_MarkedType();
     // private System.Void set_MarkedType(System.Type value)
-    // Offset: 0x1CEE7D8
+    // Offset: 0x1D29D30
     void set_MarkedType(::System::Type* value);
     // public System.Void .ctor(System.Type markedType, System.Boolean instantiateFailed)
-    // Offset: 0x1CEE74C
+    // Offset: 0x1D29CA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValidationMarker* New_ctor(::System::Type* markedType, bool instantiateFailed) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ValidationMarker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValidationMarker*, creationType>(markedType, instantiateFailed)));
     }
     // public System.Void .ctor(System.Type markedType)
-    // Offset: 0x1CEE78C
+    // Offset: 0x1D29CE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValidationMarker* New_ctor(::System::Type* markedType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ValidationMarker::.ctor");

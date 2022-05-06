@@ -37,15 +37,7 @@ namespace BGNet::Core::Messages {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseReliableRequest : public ::Il2CppObject/*, public ::BGNet::Core::Messages::IUnconnectedReliableRequest*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.UInt32 <requestId>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -62,34 +54,32 @@ namespace BGNet::Core::Messages {
       return requestId;
     }
     // Get instance field reference: private System.UInt32 <requestId>k__BackingField
-    uint& dyn_$requestId$k__BackingField();
+    [[deprecated("Use field access instead!")]] uint& dyn_$requestId$k__BackingField();
     // public System.UInt32 get_requestId()
-    // Offset: 0x14FA0C8
+    // Offset: 0x15319D0
     uint get_requestId();
     // private System.Void set_requestId(System.UInt32 value)
-    // Offset: 0x14FA0D0
+    // Offset: 0x15319D8
     void set_requestId(uint value);
-    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x14F9EA0
-    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
-    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x14FA02C
-    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
-    // public System.Void Release()
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    void Release();
-    // private BGNet.Core.Messages.IUnconnectedReliableRequest BGNet.Core.Messages.IUnconnectedReliableRequest.WithRequestId(System.UInt32 requestId)
-    // Offset: 0x14FA0D8
-    ::BGNet::Core::Messages::IUnconnectedReliableRequest* BGNet_Core_Messages_IUnconnectedReliableRequest_WithRequestId(uint requestId);
     // protected System.Void .ctor()
-    // Offset: 0x14FA0C0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15319C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseReliableRequest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::BaseReliableRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseReliableRequest*, creationType>()));
     }
+    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x15317A8
+    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x1531934
+    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
+    // public System.Void Release()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    void Release();
+    // private BGNet.Core.Messages.IUnconnectedReliableRequest BGNet.Core.Messages.IUnconnectedReliableRequest.WithRequestId(System.UInt32 requestId)
+    // Offset: 0x15319E0
+    ::BGNet::Core::Messages::IUnconnectedReliableRequest* BGNet_Core_Messages_IUnconnectedReliableRequest_WithRequestId(uint requestId);
   }; // BGNet.Core.Messages.BaseReliableRequest
   #pragma pack(pop)
   static check_size<sizeof(BaseReliableRequest), 16 + sizeof(uint)> __BGNet_Core_Messages_BaseReliableRequestSizeCheck;
@@ -113,6 +103,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BGNet
     return ::il2cpp_utils::FindMethod(classof(BGNet::Core::Messages::BaseReliableRequest*), "set_requestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: BGNet::Core::Messages::BaseReliableRequest::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: BGNet::Core::Messages::BaseReliableRequest::Serialize
 // Il2CppName: Serialize
 template<>
@@ -148,7 +142,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGNet::Co
     return ::il2cpp_utils::FindMethod(classof(BGNet::Core::Messages::BaseReliableRequest*), "BGNet.Core.Messages.IUnconnectedReliableRequest.WithRequestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{requestId});
   }
 };
-// Writing MetadataGetter for method: BGNet::Core::Messages::BaseReliableRequest::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

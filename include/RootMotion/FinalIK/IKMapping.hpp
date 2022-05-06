@@ -47,31 +47,33 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: ::RootMotion::FinalIK::IKMapping::BoneMap
     class BoneMap;
-    // public System.Boolean IsValid(RootMotion.FinalIK.IKSolver solver, ref System.String message)
-    // Offset: 0x21D90AC
-    bool IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message);
-    // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x21D90B4
-    void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
-    // protected System.Boolean BoneIsValid(UnityEngine.Transform bone, RootMotion.FinalIK.IKSolver solver, ref System.String message, RootMotion.Warning/RootMotion.Logger logger)
-    // Offset: 0x21D90B8
-    bool BoneIsValid(::UnityEngine::Transform* bone, ::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message, ::RootMotion::Warning::Logger* logger);
-    // protected UnityEngine.Vector3 SolveFABRIKJoint(UnityEngine.Vector3 pos1, UnityEngine.Vector3 pos2, System.Single length)
-    // Offset: 0x21D91DC
-    ::UnityEngine::Vector3 SolveFABRIKJoint(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float length);
     // public System.Void .ctor()
-    // Offset: 0x21D92E4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2226B58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKMapping* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKMapping::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKMapping*, creationType>()));
     }
+    // public System.Boolean IsValid(RootMotion.FinalIK.IKSolver solver, ref System.String message)
+    // Offset: 0x2226920
+    bool IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message);
+    // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
+    // Offset: 0x2226928
+    void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
+    // protected System.Boolean BoneIsValid(UnityEngine.Transform bone, RootMotion.FinalIK.IKSolver solver, ref System.String message, RootMotion.Warning/RootMotion.Logger logger)
+    // Offset: 0x222692C
+    bool BoneIsValid(::UnityEngine::Transform* bone, ::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message, ::RootMotion::Warning::Logger* logger);
+    // protected UnityEngine.Vector3 SolveFABRIKJoint(UnityEngine.Vector3 pos1, UnityEngine.Vector3 pos2, System.Single length)
+    // Offset: 0x2226A50
+    ::UnityEngine::Vector3 SolveFABRIKJoint(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float length);
   }; // RootMotion.FinalIK.IKMapping
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::IsValid
 // Il2CppName: IsValid
 template<>
@@ -114,7 +116,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKMapping*), "SolveFABRIKJoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pos1, pos2, length});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

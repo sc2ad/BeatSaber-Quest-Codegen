@@ -28,15 +28,7 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class AsymmetricKeyParameter : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::ICipherParameters*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Boolean privateKey
     // Size: 0x1
     // Offset: 0x10
@@ -53,27 +45,27 @@ namespace Org::BouncyCastle::Crypto {
       return privateKey;
     }
     // Get instance field reference: private readonly System.Boolean privateKey
-    bool& dyn_privateKey();
+    [[deprecated("Use field access instead!")]] bool& dyn_privateKey();
     // public System.Boolean get_IsPrivate()
-    // Offset: 0x1ED8294
+    // Offset: 0x1F257CC
     bool get_IsPrivate();
     // protected System.Void .ctor(System.Boolean privateKey)
-    // Offset: 0x1ED8264
+    // Offset: 0x1F2579C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsymmetricKeyParameter* New_ctor(bool privateKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::AsymmetricKeyParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsymmetricKeyParameter*, creationType>(privateKey)));
     }
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.AsymmetricKeyParameter other)
-    // Offset: 0x1ED8350
+    // Offset: 0x1F25888
     bool Equals(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1ED829C
+    // Offset: 0x1F257D4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1ED8380
+    // Offset: 0x1F258B8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

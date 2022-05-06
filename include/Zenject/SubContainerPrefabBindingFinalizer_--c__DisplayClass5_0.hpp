@@ -41,15 +41,7 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Zenject.SubContainerPrefabBindingFinalizer <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -64,33 +56,35 @@ namespace Zenject {
     static_assert(sizeof(::Zenject::DiContainer*) == 0x8);
     public:
     // Get instance field reference: public Zenject.SubContainerPrefabBindingFinalizer <>4__this
-    ::Zenject::SubContainerPrefabBindingFinalizer*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::Zenject::SubContainerPrefabBindingFinalizer*& dyn_$$4__this();
     // Get instance field reference: public Zenject.DiContainer container
-    ::Zenject::DiContainer*& dyn_container();
-    // Zenject.IProvider <FinalizeBindingConcrete>b__0(Zenject.DiContainer _, System.Type concreteType)
-    // Offset: 0x1CE9468
-    ::Zenject::IProvider* $FinalizeBindingConcrete$b__0(::Zenject::DiContainer* _, ::System::Type* concreteType);
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1CE9524
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CE9580
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn_container();
     // public System.Void .ctor()
-    // Offset: 0x1CE9448
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1D249A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0*, creationType>()));
     }
+    // Zenject.IProvider <FinalizeBindingConcrete>b__0(Zenject.DiContainer _, System.Type concreteType)
+    // Offset: 0x1D249C0
+    ::Zenject::IProvider* $FinalizeBindingConcrete$b__0(::Zenject::DiContainer* _, ::System::Type* concreteType);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1D24A7C
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1D24AD8
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.SubContainerPrefabBindingFinalizer/Zenject.<>c__DisplayClass5_0
   #pragma pack(pop)
   static check_size<sizeof(SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0), 24 + sizeof(::Zenject::DiContainer*)> __Zenject_SubContainerPrefabBindingFinalizer_$$c__DisplayClass5_0SizeCheck;
   static_assert(sizeof(SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0::$FinalizeBindingConcrete$b__0
 // Il2CppName: <FinalizeBindingConcrete>b__0
 template<>
@@ -118,7 +112,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

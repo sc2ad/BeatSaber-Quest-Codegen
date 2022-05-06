@@ -32,11 +32,7 @@ namespace GlobalNamespace {
   class MultiplayerResultsPyramidViewAvatar::Factory : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13A67AC
-    // Implemented from: Zenject.PlaceholderFactory`2
-    // Base method: System.Void PlaceholderFactory_2::.ctor()
-    // Base method: System.Void PlaceholderFactoryBase_1::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13A2C58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerResultsPyramidViewAvatar::Factory* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Factory::.ctor");

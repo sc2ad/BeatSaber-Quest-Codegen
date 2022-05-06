@@ -36,15 +36,7 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class Interactable : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean _interactable
     // Size: 0x1
     // Offset: 0x18
@@ -63,29 +55,23 @@ namespace HMUI {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean _interactable
-    bool& dyn__interactable();
+    [[deprecated("Use field access instead!")]] bool& dyn__interactable();
     // Get instance field reference: private System.Action`2<HMUI.Interactable,System.Boolean> interactableChangeEvent
-    ::System::Action_2<::HMUI::Interactable*, bool>*& dyn_interactableChangeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::HMUI::Interactable*, bool>*& dyn_interactableChangeEvent();
     // public System.Boolean get_interactable()
-    // Offset: 0x1682F14
+    // Offset: 0x16B9824
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0x1682F1C
+    // Offset: 0x16B982C
     void set_interactable(bool value);
     // public System.Void add_interactableChangeEvent(System.Action`2<HMUI.Interactable,System.Boolean> value)
-    // Offset: 0x1682DCC
+    // Offset: 0x16B96DC
     void add_interactableChangeEvent(::System::Action_2<::HMUI::Interactable*, bool>* value);
     // public System.Void remove_interactableChangeEvent(System.Action`2<HMUI.Interactable,System.Boolean> value)
-    // Offset: 0x1682E70
+    // Offset: 0x16B9780
     void remove_interactableChangeEvent(::System::Action_2<::HMUI::Interactable*, bool>* value);
     // public System.Void .ctor()
-    // Offset: 0x1682FAC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16B98BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Interactable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::Interactable::.ctor");

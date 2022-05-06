@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SliderIntensityEffect::FadeElement : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single duration
     // Size: 0x4
     // Offset: 0x10
@@ -73,17 +65,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action*) == 0x8);
     public:
     // Get instance field reference: public System.Single duration
-    float& dyn_duration();
+    [[deprecated("Use field access instead!")]] float& dyn_duration();
     // Get instance field reference: public readonly System.Single startIntensity
-    float& dyn_startIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn_startIntensity();
     // Get instance field reference: public readonly System.Single endIntensity
-    float& dyn_endIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn_endIntensity();
     // Get instance field reference: public readonly EaseType easeType
-    ::GlobalNamespace::EaseType& dyn_easeType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EaseType& dyn_easeType();
     // Get instance field reference: public readonly System.Action startCallback
-    ::System::Action*& dyn_startCallback();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_startCallback();
     // public System.Void .ctor(EaseType easeType, System.Single startIntensity, System.Single endIntensity, System.Action startCallback)
-    // Offset: 0x2AA0B74
+    // Offset: 0x1387798
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderIntensityEffect::FadeElement* New_ctor(::GlobalNamespace::EaseType easeType, float startIntensity, float endIntensity, ::System::Action* startCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderIntensityEffect::FadeElement::.ctor");

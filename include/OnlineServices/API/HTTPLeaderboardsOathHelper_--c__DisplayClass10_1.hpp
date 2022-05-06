@@ -37,15 +37,7 @@ namespace OnlineServices::API {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> taskComplitionSource
     // Size: 0x8
     // Offset: 0x10
@@ -60,27 +52,29 @@ namespace OnlineServices::API {
     static_assert(sizeof(::OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0*) == 0x8);
     public:
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> taskComplitionSource
-    ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& dyn_taskComplitionSource();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& dyn_taskComplitionSource();
     // Get instance field reference: public OnlineServices.API.HTTPLeaderboardsOathHelper/OnlineServices.API.<>c__DisplayClass10_0 CS$<>8__locals1
-    ::OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0*& dyn_CS$$$8__locals1();
-    // System.Void <SendWebRequestAsync>b__0(UnityEngine.AsyncOperation asyncOperation2)
-    // Offset: 0x151BDA8
-    void $SendWebRequestAsync$b__0(::UnityEngine::AsyncOperation* asyncOperation2);
+    [[deprecated("Use field access instead!")]] ::OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0*& dyn_CS$$$8__locals1();
     // public System.Void .ctor()
-    // Offset: 0x151BDA0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15536A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1*, creationType>()));
     }
+    // System.Void <SendWebRequestAsync>b__0(UnityEngine.AsyncOperation asyncOperation2)
+    // Offset: 0x15536B0
+    void $SendWebRequestAsync$b__0(::UnityEngine::AsyncOperation* asyncOperation2);
   }; // OnlineServices.API.HTTPLeaderboardsOathHelper/OnlineServices.API.<>c__DisplayClass10_1
   #pragma pack(pop)
   static check_size<sizeof(HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1), 24 + sizeof(::OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0*)> __OnlineServices_API_HTTPLeaderboardsOathHelper_$$c__DisplayClass10_1SizeCheck;
   static_assert(sizeof(HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::$SendWebRequestAsync$b__0
 // Il2CppName: <SendWebRequestAsync>b__0
 template<>
@@ -90,7 +84,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Onlin
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1*), "<SendWebRequestAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncOperation2});
   }
 };
-// Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

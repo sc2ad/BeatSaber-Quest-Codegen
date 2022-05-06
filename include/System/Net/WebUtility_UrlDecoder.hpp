@@ -32,15 +32,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebUtility::UrlDecoder : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _bufferSize
     // Size: 0x4
     // Offset: 0x10
@@ -81,35 +73,35 @@ namespace System::Net {
     static_assert(sizeof(::System::Text::Encoding*) == 0x8);
     public:
     // Get instance field reference: private System.Int32 _bufferSize
-    int& dyn__bufferSize();
+    [[deprecated("Use field access instead!")]] int& dyn__bufferSize();
     // Get instance field reference: private System.Int32 _numChars
-    int& dyn__numChars();
+    [[deprecated("Use field access instead!")]] int& dyn__numChars();
     // Get instance field reference: private System.Char[] _charBuffer
-    ::ArrayW<::Il2CppChar>& dyn__charBuffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppChar>& dyn__charBuffer();
     // Get instance field reference: private System.Int32 _numBytes
-    int& dyn__numBytes();
+    [[deprecated("Use field access instead!")]] int& dyn__numBytes();
     // Get instance field reference: private System.Byte[] _byteBuffer
-    ::ArrayW<uint8_t>& dyn__byteBuffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__byteBuffer();
     // Get instance field reference: private System.Text.Encoding _encoding
-    ::System::Text::Encoding*& dyn__encoding();
+    [[deprecated("Use field access instead!")]] ::System::Text::Encoding*& dyn__encoding();
     // System.Void .ctor(System.Int32 bufferSize, System.Text.Encoding encoding)
-    // Offset: 0x1B278BC
+    // Offset: 0x1B61EA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebUtility::UrlDecoder* New_ctor(int bufferSize, ::System::Text::Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebUtility::UrlDecoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebUtility::UrlDecoder*, creationType>(bufferSize, encoding)));
     }
     // private System.Void FlushBytes()
-    // Offset: 0x1B27C74
+    // Offset: 0x1B6225C
     void FlushBytes();
     // System.Void AddChar(System.Char ch)
-    // Offset: 0x1B27A38
+    // Offset: 0x1B62020
     void AddChar(::Il2CppChar ch);
     // System.Void AddByte(System.Byte b)
-    // Offset: 0x1B27988
+    // Offset: 0x1B61F70
     void AddByte(uint8_t b);
     // System.String GetString()
-    // Offset: 0x1B27AA4
+    // Offset: 0x1B6208C
     ::StringW GetString();
   }; // System.Net.WebUtility/System.Net.UrlDecoder
   #pragma pack(pop)

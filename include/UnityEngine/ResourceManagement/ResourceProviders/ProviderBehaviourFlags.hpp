@@ -54,7 +54,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Set static field: static public UnityEngine.ResourceManagement.ResourceProviders.ProviderBehaviourFlags CanProvideWithFailedDependencies
     static void _set_CanProvideWithFailedDependencies(::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.ResourceManagement.ResourceProviders.ProviderBehaviourFlags
   #pragma pack(pop)
   static check_size<sizeof(ProviderBehaviourFlags), 0 + sizeof(int)> __UnityEngine_ResourceManagement_ResourceProviders_ProviderBehaviourFlagsSizeCheck;

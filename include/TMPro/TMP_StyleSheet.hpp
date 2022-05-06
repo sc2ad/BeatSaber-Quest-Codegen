@@ -44,15 +44,7 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_StyleSheet : public ::UnityEngine::ScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.List`1<TMPro.TMP_Style> m_StyleList
     // Size: 0x8
     // Offset: 0x18
@@ -73,44 +65,40 @@ namespace TMPro {
     // Set static field: static private TMPro.TMP_StyleSheet s_Instance
     static void _set_s_Instance(::TMPro::TMP_StyleSheet* value);
     // Get instance field reference: private System.Collections.Generic.List`1<TMPro.TMP_Style> m_StyleList
-    ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>*& dyn_m_StyleList();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>*& dyn_m_StyleList();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_Style> m_StyleDictionary
-    ::System::Collections::Generic::Dictionary_2<int, ::TMPro::TMP_Style*>*& dyn_m_StyleDictionary();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::TMPro::TMP_Style*>*& dyn_m_StyleDictionary();
     // static public TMPro.TMP_StyleSheet get_instance()
-    // Offset: 0x1454F18
+    // Offset: 0x1475D98
     static ::TMPro::TMP_StyleSheet* get_instance();
-    // static public TMPro.TMP_StyleSheet LoadDefaultStyleSheet()
-    // Offset: 0x14551F8
-    static ::TMPro::TMP_StyleSheet* LoadDefaultStyleSheet();
-    // static public TMPro.TMP_Style GetStyle(System.Int32 hashCode)
-    // Offset: 0x14551FC
-    static ::TMPro::TMP_Style* GetStyle(int hashCode);
-    // private TMPro.TMP_Style GetStyleInternal(System.Int32 hashCode)
-    // Offset: 0x1455228
-    ::TMPro::TMP_Style* GetStyleInternal(int hashCode);
-    // public System.Void UpdateStyleDictionaryKey(System.Int32 old_key, System.Int32 new_key)
-    // Offset: 0x14552A8
-    void UpdateStyleDictionaryKey(int old_key, int new_key);
-    // static public System.Void UpdateStyleSheet()
-    // Offset: 0x1455384
-    static void UpdateStyleSheet();
-    // static public System.Void RefreshStyles()
-    // Offset: 0x14553D4
-    static void RefreshStyles();
-    // private System.Void LoadStyleDictionaryInternal()
-    // Offset: 0x1455080
-    void LoadStyleDictionaryInternal();
     // public System.Void .ctor()
-    // Offset: 0x14553F0
-    // Implemented from: UnityEngine.ScriptableObject
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1476270
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_StyleSheet* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_StyleSheet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_StyleSheet*, creationType>()));
     }
+    // static public TMPro.TMP_StyleSheet LoadDefaultStyleSheet()
+    // Offset: 0x1476078
+    static ::TMPro::TMP_StyleSheet* LoadDefaultStyleSheet();
+    // static public TMPro.TMP_Style GetStyle(System.Int32 hashCode)
+    // Offset: 0x147607C
+    static ::TMPro::TMP_Style* GetStyle(int hashCode);
+    // private TMPro.TMP_Style GetStyleInternal(System.Int32 hashCode)
+    // Offset: 0x14760A8
+    ::TMPro::TMP_Style* GetStyleInternal(int hashCode);
+    // public System.Void UpdateStyleDictionaryKey(System.Int32 old_key, System.Int32 new_key)
+    // Offset: 0x1476128
+    void UpdateStyleDictionaryKey(int old_key, int new_key);
+    // static public System.Void UpdateStyleSheet()
+    // Offset: 0x1476204
+    static void UpdateStyleSheet();
+    // static public System.Void RefreshStyles()
+    // Offset: 0x1476254
+    static void RefreshStyles();
+    // private System.Void LoadStyleDictionaryInternal()
+    // Offset: 0x1475F00
+    void LoadStyleDictionaryInternal();
   }; // TMPro.TMP_StyleSheet
   #pragma pack(pop)
   static check_size<sizeof(TMP_StyleSheet), 32 + sizeof(::System::Collections::Generic::Dictionary_2<int, ::TMPro::TMP_Style*>*)> __TMPro_TMP_StyleSheetSizeCheck;
@@ -125,6 +113,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TM
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_StyleSheet*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: TMPro::TMP_StyleSheet::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: TMPro::TMP_StyleSheet::LoadDefaultStyleSheet
 // Il2CppName: LoadDefaultStyleSheet
 template<>
@@ -185,7 +177,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_StyleSheet*), "LoadStyleDictionaryInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMPro::TMP_StyleSheet::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

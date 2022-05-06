@@ -27,15 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameServerPlayerTableItem : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.String playerName
     // Size: 0x8
     // Offset: 0x10
@@ -62,15 +54,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public readonly System.String playerName
-    ::StringW& dyn_playerName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_playerName();
     // Get instance field reference: public readonly System.String suggestedLevel
-    ::StringW& dyn_suggestedLevel();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_suggestedLevel();
     // Get instance field reference: public readonly System.String suggestedModifiers
-    ::StringW& dyn_suggestedModifiers();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_suggestedModifiers();
     // Get instance field reference: public readonly System.Boolean isReady
-    bool& dyn_isReady();
+    [[deprecated("Use field access instead!")]] bool& dyn_isReady();
     // public System.Void .ctor(System.String playerName, System.String suggestedLevel, System.String suggestedModifiers, System.Boolean isReady)
-    // Offset: 0x13E07DC
+    // Offset: 0x13ED27C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerPlayerTableItem* New_ctor(::StringW playerName, ::StringW suggestedLevel, ::StringW suggestedModifiers, bool isReady) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerPlayerTableItem::.ctor");

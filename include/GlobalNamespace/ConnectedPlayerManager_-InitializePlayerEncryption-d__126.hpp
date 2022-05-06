@@ -80,24 +80,24 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public ConnectedPlayerManager <>4__this
-    ::GlobalNamespace::ConnectedPlayerManager*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ConnectedPlayerManager*& dyn_$$4__this();
     // Get instance field reference: public ConnectedPlayerManager/ConnectedPlayer player
-    ::GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*& dyn_player();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*& dyn_player();
     // Get instance field reference: private System.Boolean <isClient>5__2
-    bool& dyn_$isClient$5__2();
+    [[deprecated("Use field access instead!")]] bool& dyn_$isClient$5__2();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>>& dyn_$$u__1();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<EncryptionUtility/IEncryptionState> <>u__2
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EncryptionUtility::IEncryptionState*>& dyn_$$u__2();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EncryptionUtility::IEncryptionState*>& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x163C24C
+    // Offset: 0x1672B5C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x163C7CC
+    // Offset: 0x16730DC
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // ConnectedPlayerManager/<InitializePlayerEncryption>d__126
   // WARNING Not writing size check since size may be invalid!

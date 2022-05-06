@@ -42,15 +42,7 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class SignalCopyBinder : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.List`1<Zenject.BindInfo> _bindInfos
     // Size: 0x8
     // Offset: 0x10
@@ -63,47 +55,49 @@ namespace Zenject {
       return bindInfos;
     }
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.BindInfo> _bindInfos
-    ::System::Collections::Generic::List_1<::Zenject::BindInfo*>*& dyn__bindInfos();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Zenject::BindInfo*>*& dyn__bindInfos();
+    // public System.Void .ctor()
+    // Offset: 0x1D1C514
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static SignalCopyBinder* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalCopyBinder::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<SignalCopyBinder*, creationType>()));
+    }
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x1CE1030
+    // Offset: 0x1D1C588
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalCopyBinder* New_ctor(::Zenject::BindInfo* bindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalCopyBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalCopyBinder*, creationType>(bindInfo)));
     }
     // public System.Void AddCopyBindInfo(Zenject.BindInfo bindInfo)
-    // Offset: 0x1CE10D0
+    // Offset: 0x1D1C628
     void AddCopyBindInfo(::Zenject::BindInfo* bindInfo);
     // public System.Void CopyIntoAllSubContainers()
-    // Offset: 0x1CE1138
+    // Offset: 0x1D1C690
     void CopyIntoAllSubContainers();
     // public System.Void CopyIntoDirectSubContainers()
-    // Offset: 0x1CE11D8
+    // Offset: 0x1D1C730
     void CopyIntoDirectSubContainers();
     // public System.Void MoveIntoAllSubContainers()
-    // Offset: 0x1CE11E0
+    // Offset: 0x1D1C738
     void MoveIntoAllSubContainers();
     // public System.Void MoveIntoDirectSubContainers()
-    // Offset: 0x1CE11E8
+    // Offset: 0x1D1C740
     void MoveIntoDirectSubContainers();
     // private System.Void SetInheritanceMethod(Zenject.BindingInheritanceMethods method)
-    // Offset: 0x1CE1140
+    // Offset: 0x1D1C698
     void SetInheritanceMethod(::Zenject::BindingInheritanceMethods method);
-    // public System.Void .ctor()
-    // Offset: 0x1CE0FBC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SignalCopyBinder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalCopyBinder::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<SignalCopyBinder*, creationType>()));
-    }
   }; // Zenject.SignalCopyBinder
   #pragma pack(pop)
   static check_size<sizeof(SignalCopyBinder), 16 + sizeof(::System::Collections::Generic::List_1<::Zenject::BindInfo*>*)> __Zenject_SignalCopyBinderSizeCheck;
   static_assert(sizeof(SignalCopyBinder) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::SignalCopyBinder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::SignalCopyBinder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -158,7 +152,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
     return ::il2cpp_utils::FindMethod(classof(Zenject::SignalCopyBinder*), "SetInheritanceMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method});
   }
 };
-// Writing MetadataGetter for method: Zenject::SignalCopyBinder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

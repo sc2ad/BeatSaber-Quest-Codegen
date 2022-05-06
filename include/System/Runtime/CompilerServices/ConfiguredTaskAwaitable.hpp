@@ -75,23 +75,23 @@ namespace System::Runtime::CompilerServices {
         return *reinterpret_cast<::System::Runtime::CompilerServices::ICriticalNotifyCompletion*>(this);
       }
       // Get instance field reference: private readonly System.Threading.Tasks.Task m_task
-      ::System::Threading::Tasks::Task*& dyn_m_task();
+      [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::Task*& dyn_m_task();
       // Get instance field reference: private readonly System.Boolean m_continueOnCapturedContext
-      bool& dyn_m_continueOnCapturedContext();
+      [[deprecated("Use field access instead!")]] bool& dyn_m_continueOnCapturedContext();
       // public System.Boolean get_IsCompleted()
-      // Offset: 0x1D490D8
+      // Offset: 0x1D84630
       bool get_IsCompleted();
       // System.Void .ctor(System.Threading.Tasks.Task task, System.Boolean continueOnCapturedContext)
-      // Offset: 0x1D490BC
+      // Offset: 0x1D84614
       // ABORTED: conflicts with another method.  ConfiguredTaskAwaiter(::System::Threading::Tasks::Task* task, bool continueOnCapturedContext);
       // public System.Void OnCompleted(System.Action continuation)
-      // Offset: 0x1D490F4
+      // Offset: 0x1D8464C
       void OnCompleted(::System::Action* continuation);
       // public System.Void UnsafeOnCompleted(System.Action continuation)
-      // Offset: 0x1D491D4
+      // Offset: 0x1D8472C
       void UnsafeOnCompleted(::System::Action* continuation);
       // public System.Void GetResult()
-      // Offset: 0x1D491E8
+      // Offset: 0x1D84740
       void GetResult();
     }; // System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter
     #pragma pack(pop)
@@ -116,12 +116,12 @@ namespace System::Runtime::CompilerServices {
       return m_configuredTaskAwaiter;
     }
     // Get instance field reference: private readonly System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter m_configuredTaskAwaiter
-    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter& dyn_m_configuredTaskAwaiter();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter& dyn_m_configuredTaskAwaiter();
     // System.Void .ctor(System.Threading.Tasks.Task task, System.Boolean continueOnCapturedContext)
-    // Offset: 0x1D490B0
+    // Offset: 0x1D84608
     ConfiguredTaskAwaitable(::System::Threading::Tasks::Task* task, bool continueOnCapturedContext);
     // public System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter GetAwaiter()
-    // Offset: 0x1D490CC
+    // Offset: 0x1D84624
     ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter GetAwaiter();
   }; // System.Runtime.CompilerServices.ConfiguredTaskAwaitable
   #pragma pack(pop)

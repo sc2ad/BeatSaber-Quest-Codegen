@@ -47,20 +47,18 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<BeatmapCharacteristicSO,System.String> <>9__5_0
     static void _set_$$9__5_0(::System::Func_2<::GlobalNamespace::BeatmapCharacteristicSO*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x136672C
+    // Offset: 0x134E9AC
     static void _cctor();
-    // System.String <Start>b__5_0(BeatmapCharacteristicSO x)
-    // Offset: 0x1366798
-    ::StringW $Start$b__5_0(::GlobalNamespace::BeatmapCharacteristicSO* x);
     // public System.Void .ctor()
-    // Offset: 0x1366790
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x134EA10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCharacteristicsDropdown::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapCharacteristicsDropdown::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCharacteristicsDropdown::$$c*, creationType>()));
     }
+    // System.String <Start>b__5_0(BeatmapCharacteristicSO x)
+    // Offset: 0x134EA18
+    ::StringW $Start$b__5_0(::GlobalNamespace::BeatmapCharacteristicSO* x);
   }; // BeatmapCharacteristicsDropdown/<>c
   #pragma pack(pop)
 }
@@ -73,6 +71,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCharacteristicsDropdown::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicsDropdown::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicsDropdown::$$c::$Start$b__5_0
 // Il2CppName: <Start>b__5_0
 template<>
@@ -82,7 +84,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCharacteristicsDropdown::$$c*), "<Start>b__5_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicsDropdown::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -30,23 +30,20 @@ namespace Org::BouncyCastle::Security {
   class InvalidParameterException : public ::Org::BouncyCastle::Security::KeyException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x17B401C
+    // Offset: 0x17ED92C
     // Implemented from: Org.BouncyCastle.Security.KeyException
     // Base method: System.Void KeyException::.ctor()
     // Base method: System.Void GeneralSecurityException::.ctor()
-    // Base method: System.Void Exception::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidParameterException* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Security::InvalidParameterException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidParameterException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x17B4020
+    // Offset: 0x17ED930
     // Implemented from: Org.BouncyCastle.Security.KeyException
     // Base method: System.Void KeyException::.ctor(System.String message)
     // Base method: System.Void GeneralSecurityException::.ctor(System.String message)
-    // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidParameterException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Security::InvalidParameterException::.ctor");

@@ -37,28 +37,21 @@ namespace NUnit::Framework::Internal {
   class InvalidTestFixtureException : public ::System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x29ACA14
-    // Implemented from: System.Exception
-    // Base method: System.Void Exception::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A08990
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidTestFixtureException* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::InvalidTestFixtureException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidTestFixtureException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x29ACA7C
-    // Implemented from: System.Exception
-    // Base method: System.Void Exception::.ctor(System.String message)
+    // Offset: 0x2A089F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidTestFixtureException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::InvalidTestFixtureException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidTestFixtureException*, creationType>(message)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x29ACAF4
-    // Implemented from: System.Exception
-    // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
+    // Offset: 0x2A08A70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidTestFixtureException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::InvalidTestFixtureException::.ctor");

@@ -29,16 +29,8 @@ namespace UnityEngine::AddressableAssets {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssetLabelReference : public ::Il2CppObject/*, public ::UnityEngine::AddressableAssets::IKeyEvaluator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [FormerlySerializedAsAttribute] Offset: 0x1243124
+    // [FormerlySerializedAsAttribute] Offset: 0x10C7C0C
     // private System.String m_LabelString
     // Size: 0x8
     // Offset: 0x10
@@ -55,30 +47,28 @@ namespace UnityEngine::AddressableAssets {
       return m_LabelString;
     }
     // Get instance field reference: private System.String m_LabelString
-    ::StringW& dyn_m_LabelString();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_LabelString();
     // public System.String get_labelString()
-    // Offset: 0x188C268
+    // Offset: 0x18C5B78
     ::StringW get_labelString();
     // public System.Void set_labelString(System.String value)
-    // Offset: 0x188C270
+    // Offset: 0x18C5B80
     void set_labelString(::StringW value);
     // public System.Object get_RuntimeKey()
-    // Offset: 0x188C278
+    // Offset: 0x18C5B88
     ::Il2CppObject* get_RuntimeKey();
-    // public System.Boolean RuntimeKeyIsValid()
-    // Offset: 0x188C2D8
-    bool RuntimeKeyIsValid();
     // public System.Void .ctor()
-    // Offset: 0x188C330
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18C5C40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetLabelReference* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::AssetLabelReference::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssetLabelReference*, creationType>()));
     }
+    // public System.Boolean RuntimeKeyIsValid()
+    // Offset: 0x18C5BE8
+    bool RuntimeKeyIsValid();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x188C310
+    // Offset: 0x18C5C20
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -113,6 +103,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AssetLabelReference*), "get_RuntimeKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetLabelReference::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetLabelReference::RuntimeKeyIsValid
 // Il2CppName: RuntimeKeyIsValid
 template<>
@@ -121,10 +115,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AssetLabelReference*), "RuntimeKeyIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetLabelReference::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetLabelReference::GetHashCode
 // Il2CppName: GetHashCode
 template<>

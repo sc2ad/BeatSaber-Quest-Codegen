@@ -87,20 +87,12 @@ namespace GlobalNamespace {
       // Set static field: static public MissionObjective/ReferenceValueComparisonType Min
       static void _set_Min(::GlobalNamespace::MissionObjective::ReferenceValueComparisonType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // MissionObjective/ReferenceValueComparisonType
     #pragma pack(pop)
     static check_size<sizeof(MissionObjective::ReferenceValueComparisonType), 0 + sizeof(int)> __GlobalNamespace_MissionObjective_ReferenceValueComparisonTypeSizeCheck;
     static_assert(sizeof(MissionObjective::ReferenceValueComparisonType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MissionObjectiveTypeSO _type
     // Size: 0x8
     // Offset: 0x10
@@ -121,36 +113,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private MissionObjectiveTypeSO _type
-    ::GlobalNamespace::MissionObjectiveTypeSO*& dyn__type();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionObjectiveTypeSO*& dyn__type();
     // Get instance field reference: private MissionObjective/ReferenceValueComparisonType _referenceValueComparisonType
-    ::GlobalNamespace::MissionObjective::ReferenceValueComparisonType& dyn__referenceValueComparisonType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionObjective::ReferenceValueComparisonType& dyn__referenceValueComparisonType();
     // Get instance field reference: private System.Int32 _referenceValue
-    int& dyn__referenceValue();
+    [[deprecated("Use field access instead!")]] int& dyn__referenceValue();
     // public MissionObjectiveTypeSO get_type()
-    // Offset: 0x130AD6C
+    // Offset: 0x1307244
     ::GlobalNamespace::MissionObjectiveTypeSO* get_type();
     // public MissionObjective/ReferenceValueComparisonType get_referenceValueComparisonType()
-    // Offset: 0x130AD74
+    // Offset: 0x130724C
     ::GlobalNamespace::MissionObjective::ReferenceValueComparisonType get_referenceValueComparisonType();
     // public System.Int32 get_referenceValue()
-    // Offset: 0x130AD7C
+    // Offset: 0x1307254
     int get_referenceValue();
     // public System.Void .ctor()
-    // Offset: 0x130AFEC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13074C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionObjective* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionObjective::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionObjective*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x130AE6C
+    // Offset: 0x1307344
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x130AF7C
+    // Offset: 0x1307454
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -159,10 +149,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionObjective), 28 + sizeof(int)> __GlobalNamespace_MissionObjectiveSizeCheck;
   static_assert(sizeof(MissionObjective) == 0x20);
   // static public System.Boolean op_Equality(MissionObjective obj1, MissionObjective obj2)
-  // Offset: 0x130AD84
+  // Offset: 0x130725C
   bool operator ==(::GlobalNamespace::MissionObjective* obj1, ::GlobalNamespace::MissionObjective& obj2);
   // static public System.Boolean op_Inequality(MissionObjective obj1, MissionObjective obj2)
-  // Offset: 0x130AE50
+  // Offset: 0x1307328
   bool operator !=(::GlobalNamespace::MissionObjective* obj1, ::GlobalNamespace::MissionObjective& obj2);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

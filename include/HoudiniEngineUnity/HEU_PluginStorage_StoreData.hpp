@@ -26,15 +26,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_PluginStorage::StoreData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public HoudiniEngineUnity.HEU_PluginStorage/HoudiniEngineUnity.DataType _type
     // Size: 0x4
     // Offset: 0x10
@@ -51,13 +43,11 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public HoudiniEngineUnity.HEU_PluginStorage/HoudiniEngineUnity.DataType _type
-    ::HoudiniEngineUnity::HEU_PluginStorage::DataType& dyn__type();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_PluginStorage::DataType& dyn__type();
     // Get instance field reference: public System.String _valueStr
-    ::StringW& dyn__valueStr();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__valueStr();
     // public System.Void .ctor()
-    // Offset: 0x1AC7468
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B02A50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_PluginStorage::StoreData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_PluginStorage::StoreData::.ctor");

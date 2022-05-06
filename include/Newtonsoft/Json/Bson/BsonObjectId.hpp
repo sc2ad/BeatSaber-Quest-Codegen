@@ -28,15 +28,7 @@ namespace Newtonsoft::Json::Bson {
   // [PreserveAttribute] Offset: FFFFFFFF
   class BsonObjectId : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Byte[] <Value>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -49,15 +41,15 @@ namespace Newtonsoft::Json::Bson {
       return Value;
     }
     // Get instance field reference: private System.Byte[] <Value>k__BackingField
-    ::ArrayW<uint8_t>& dyn_$Value$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_$Value$k__BackingField();
     // public System.Byte[] get_Value()
-    // Offset: 0x1777EAC
+    // Offset: 0x17B17BC
     ::ArrayW<uint8_t> get_Value();
     // private System.Void set_Value(System.Byte[] value)
-    // Offset: 0x1777EB4
+    // Offset: 0x17B17C4
     void set_Value(::ArrayW<uint8_t> value);
     // public System.Void .ctor(System.Byte[] value)
-    // Offset: 0x1777EBC
+    // Offset: 0x17B17CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BsonObjectId* New_ctor(::ArrayW<uint8_t> value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Bson::BsonObjectId::.ctor");

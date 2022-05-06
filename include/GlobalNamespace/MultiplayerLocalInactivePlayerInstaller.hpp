@@ -41,36 +41,28 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLocalInactivePlayerInstaller : public ::Zenject::MonoInstaller {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private AudioManagerSO _audioManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::AudioManagerSO* audioManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioManagerSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x12540C4
+    // [InjectAttribute] Offset: 0x10D8CA8
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0x12540D4
+    // [InjectAttribute] Offset: 0x10D8CB8
     // private readonly PerceivedLoudnessPerLevelModel _beatmapLoudnessModel
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::PerceivedLoudnessPerLevelModel* beatmapLoudnessModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PerceivedLoudnessPerLevelModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x12540E4
+    // [InjectAttribute] Offset: 0x10D8CC8
     // private readonly RelativeSfxVolumePerLevelModel _relativeSfxVolumePerLevelModel
     // Size: 0x8
     // Offset: 0x38
@@ -79,30 +71,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::RelativeSfxVolumePerLevelModel*) == 0x8);
     public:
     // Get instance field reference: private AudioManagerSO _audioManager
-    ::GlobalNamespace::AudioManagerSO*& dyn__audioManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioManagerSO*& dyn__audioManager();
     // Get instance field reference: private readonly GameplayCoreSceneSetupData _sceneSetupData
-    ::GlobalNamespace::GameplayCoreSceneSetupData*& dyn__sceneSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayCoreSceneSetupData*& dyn__sceneSetupData();
     // Get instance field reference: private readonly PerceivedLoudnessPerLevelModel _beatmapLoudnessModel
-    ::GlobalNamespace::PerceivedLoudnessPerLevelModel*& dyn__beatmapLoudnessModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PerceivedLoudnessPerLevelModel*& dyn__beatmapLoudnessModel();
     // Get instance field reference: private readonly RelativeSfxVolumePerLevelModel _relativeSfxVolumePerLevelModel
-    ::GlobalNamespace::RelativeSfxVolumePerLevelModel*& dyn__relativeSfxVolumePerLevelModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::RelativeSfxVolumePerLevelModel*& dyn__relativeSfxVolumePerLevelModel();
     // public System.Void .ctor()
-    // Offset: 0x13990D8
-    // Implemented from: Zenject.MonoInstaller
-    // Base method: System.Void MonoInstaller::.ctor()
-    // Base method: System.Void MonoInstallerBase::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1395584
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalInactivePlayerInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalInactivePlayerInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1398B2C
+    // Offset: 0x1394FD8
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

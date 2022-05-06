@@ -43,34 +43,36 @@ namespace UnityEngine::AddressableAssets {
     static ::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform, ::UnityEngine::AddressableAssets::AddressablesPlatform>* _get_s_RuntimeTargetMapping();
     // Set static field: static readonly System.Collections.Generic.Dictionary`2<UnityEngine.RuntimePlatform,UnityEngine.AddressableAssets.AddressablesPlatform> s_RuntimeTargetMapping
     static void _set_s_RuntimeTargetMapping(::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform, ::UnityEngine::AddressableAssets::AddressablesPlatform>* value);
-    // static private System.Void .cctor()
-    // Offset: 0x1892868
-    static void _cctor();
-    // static UnityEngine.AddressableAssets.AddressablesPlatform GetAddressablesPlatformInternal(UnityEngine.RuntimePlatform platform)
-    // Offset: 0x18925BC
-    static ::UnityEngine::AddressableAssets::AddressablesPlatform GetAddressablesPlatformInternal(::UnityEngine::RuntimePlatform platform);
-    // static System.String GetAddressablesPlatformPathInternal(UnityEngine.RuntimePlatform platform)
-    // Offset: 0x1892690
-    static ::StringW GetAddressablesPlatformPathInternal(::UnityEngine::RuntimePlatform platform);
-    // static public UnityEngine.AddressableAssets.AddressablesPlatform GetPlatform()
-    // Offset: 0x18927F0
-    static ::UnityEngine::AddressableAssets::AddressablesPlatform GetPlatform();
-    // static public System.String GetPlatformPathSubFolder()
-    // Offset: 0x1885558
-    static ::StringW GetPlatformPathSubFolder();
     // public System.Void .ctor()
-    // Offset: 0x1892860
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18CC170
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformMappingService* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::PlatformMappingService::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformMappingService*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x18CC178
+    static void _cctor();
+    // static UnityEngine.AddressableAssets.AddressablesPlatform GetAddressablesPlatformInternal(UnityEngine.RuntimePlatform platform)
+    // Offset: 0x18CBECC
+    static ::UnityEngine::AddressableAssets::AddressablesPlatform GetAddressablesPlatformInternal(::UnityEngine::RuntimePlatform platform);
+    // static System.String GetAddressablesPlatformPathInternal(UnityEngine.RuntimePlatform platform)
+    // Offset: 0x18CBFA0
+    static ::StringW GetAddressablesPlatformPathInternal(::UnityEngine::RuntimePlatform platform);
+    // static public UnityEngine.AddressableAssets.AddressablesPlatform GetPlatform()
+    // Offset: 0x18CC100
+    static ::UnityEngine::AddressableAssets::AddressablesPlatform GetPlatform();
+    // static public System.String GetPlatformPathSubFolder()
+    // Offset: 0x18BEE68
+    static ::StringW GetPlatformPathSubFolder();
   }; // UnityEngine.AddressableAssets.PlatformMappingService
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::PlatformMappingService::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::PlatformMappingService::_cctor
 // Il2CppName: .cctor
 template<>
@@ -113,7 +115,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::PlatformMappingService*), "GetPlatformPathSubFolder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::AddressableAssets::PlatformMappingService::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

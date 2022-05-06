@@ -36,15 +36,7 @@ namespace NUnit::Framework::Internal::Execution {
   // [TokenAttribute] Offset: FFFFFFFF
   class EventListenerTextWriter : public ::System::IO::TextWriter {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.IO.TextWriter _defaultWriter
     // Size: 0x8
     // Offset: 0x28
@@ -59,36 +51,36 @@ namespace NUnit::Framework::Internal::Execution {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.IO.TextWriter _defaultWriter
-    ::System::IO::TextWriter*& dyn__defaultWriter();
+    [[deprecated("Use field access instead!")]] ::System::IO::TextWriter*& dyn__defaultWriter();
     // Get instance field reference: private System.String _streamName
-    ::StringW& dyn__streamName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__streamName();
     // public System.Void .ctor(System.String streamName, System.IO.TextWriter defaultWriter)
-    // Offset: 0x1C50C58
+    // Offset: 0x1CA90B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventListenerTextWriter* New_ctor(::StringW streamName, ::System::IO::TextWriter* defaultWriter) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Execution::EventListenerTextWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventListenerTextWriter*, creationType>(streamName, defaultWriter)));
     }
     // private System.Boolean TrySendToListener(System.String text)
-    // Offset: 0x1C50D30
+    // Offset: 0x1CA9188
     bool TrySendToListener(::StringW text);
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0x1C50F4C
+    // Offset: 0x1CA93A4
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     ::System::Text::Encoding* get_Encoding();
     // public override System.Void Write(System.Char aChar)
-    // Offset: 0x1C50CD8
+    // Offset: 0x1CA9130
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char aChar)
     void Write(::Il2CppChar aChar);
     // public override System.Void Write(System.String aString)
-    // Offset: 0x1C50E8C
+    // Offset: 0x1CA92E4
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String aString)
     void Write(::StringW aString);
     // public override System.Void WriteLine(System.String aString)
-    // Offset: 0x1C50EDC
+    // Offset: 0x1CA9334
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine(System.String aString)
     void WriteLine(::StringW aString);

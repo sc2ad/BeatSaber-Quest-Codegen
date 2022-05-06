@@ -34,15 +34,7 @@ namespace BeatSaberAPI::DataTransferObjects {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardEntries : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public BeatSaberAPI.DataTransferObjects.LeaderboardEntry[] entries
     // Size: 0x8
     // Offset: 0x10
@@ -55,11 +47,9 @@ namespace BeatSaberAPI::DataTransferObjects {
       return entries;
     }
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.LeaderboardEntry[] entries
-    ::ArrayW<::BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>& dyn_entries();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>& dyn_entries();
     // public System.Void .ctor()
-    // Offset: 0x1363A30
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x134BCB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardEntries* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatSaberAPI::DataTransferObjects::LeaderboardEntries::.ctor");

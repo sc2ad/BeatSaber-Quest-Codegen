@@ -36,30 +36,22 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionObject::InteractionEvent : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x12779D8
+    // [TooltipAttribute] Offset: 0x10FC690
     // public System.Single time
     // Size: 0x4
     // Offset: 0x10
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1277A10
+    // [TooltipAttribute] Offset: 0x10FC6C8
     // public System.Boolean pause
     // Size: 0x1
     // Offset: 0x14
     bool pause;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0x1277A48
+    // [TooltipAttribute] Offset: 0x10FC700
     // public System.Boolean pickUp
     // Size: 0x1
     // Offset: 0x15
@@ -68,21 +60,21 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: pickUp and: animations
     char __padding2[0x2] = {};
-    // [TooltipAttribute] Offset: 0x1277A80
+    // [TooltipAttribute] Offset: 0x10FC738
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.AnimatorEvent[] animations
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<::RootMotion::FinalIK::InteractionObject::AnimatorEvent*> animations;
     // Field size check
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::InteractionObject::AnimatorEvent*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x1277AB8
+    // [TooltipAttribute] Offset: 0x10FC770
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.Message[] messages
     // Size: 0x8
     // Offset: 0x20
     ::ArrayW<::RootMotion::FinalIK::InteractionObject::Message*> messages;
     // Field size check
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::InteractionObject::Message*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x1277AF0
+    // [TooltipAttribute] Offset: 0x10FC7A8
     // public UnityEngine.Events.UnityEvent unityEvent
     // Size: 0x8
     // Offset: 0x28
@@ -91,35 +83,37 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::UnityEngine::Events::UnityEvent*) == 0x8);
     public:
     // Get instance field reference: public System.Single time
-    float& dyn_time();
+    [[deprecated("Use field access instead!")]] float& dyn_time();
     // Get instance field reference: public System.Boolean pause
-    bool& dyn_pause();
+    [[deprecated("Use field access instead!")]] bool& dyn_pause();
     // Get instance field reference: public System.Boolean pickUp
-    bool& dyn_pickUp();
+    [[deprecated("Use field access instead!")]] bool& dyn_pickUp();
     // Get instance field reference: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.AnimatorEvent[] animations
-    ::ArrayW<::RootMotion::FinalIK::InteractionObject::AnimatorEvent*>& dyn_animations();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::InteractionObject::AnimatorEvent*>& dyn_animations();
     // Get instance field reference: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.Message[] messages
-    ::ArrayW<::RootMotion::FinalIK::InteractionObject::Message*>& dyn_messages();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::InteractionObject::Message*>& dyn_messages();
     // Get instance field reference: public UnityEngine.Events.UnityEvent unityEvent
-    ::UnityEngine::Events::UnityEvent*& dyn_unityEvent();
-    // public System.Void Activate(UnityEngine.Transform t)
-    // Offset: 0x2355380
-    void Activate(::UnityEngine::Transform* t);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Events::UnityEvent*& dyn_unityEvent();
     // public System.Void .ctor()
-    // Offset: 0x23573D4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x23A0C48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionObject::InteractionEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionObject::InteractionEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionObject::InteractionEvent*, creationType>()));
     }
+    // public System.Void Activate(UnityEngine.Transform t)
+    // Offset: 0x239EBF4
+    void Activate(::UnityEngine::Transform* t);
   }; // RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.InteractionEvent
   #pragma pack(pop)
   static check_size<sizeof(InteractionObject::InteractionEvent), 40 + sizeof(::UnityEngine::Events::UnityEvent*)> __RootMotion_FinalIK_InteractionObject_InteractionEventSizeCheck;
   static_assert(sizeof(InteractionObject::InteractionEvent) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::InteractionEvent::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::InteractionEvent::Activate
 // Il2CppName: Activate
 template<>
@@ -129,7 +123,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject::InteractionEvent*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::InteractionEvent::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

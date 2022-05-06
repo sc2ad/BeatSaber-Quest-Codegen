@@ -56,15 +56,7 @@ namespace Zenject {
     public:
     // Nested type: ::Zenject::SignalDeclaration::Factory
     class Factory;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.List`1<Zenject.SignalSubscription> _subscriptions
     // Size: 0x8
     // Offset: 0x10
@@ -119,61 +111,61 @@ namespace Zenject {
       return *reinterpret_cast<::Zenject::ITickable*>(this);
     }
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.SignalSubscription> _subscriptions
-    ::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>*& dyn__subscriptions();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>*& dyn__subscriptions();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Object> _asyncQueue
-    ::System::Collections::Generic::List_1<::Il2CppObject*>*& dyn__asyncQueue();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Il2CppObject*>*& dyn__asyncQueue();
     // Get instance field reference: private readonly Zenject.BindingId _bindingId
-    ::Zenject::BindingId& dyn__bindingId();
+    [[deprecated("Use field access instead!")]] ::Zenject::BindingId& dyn__bindingId();
     // Get instance field reference: private readonly Zenject.SignalMissingHandlerResponses _missingHandlerResponses
-    ::Zenject::SignalMissingHandlerResponses& dyn__missingHandlerResponses();
+    [[deprecated("Use field access instead!")]] ::Zenject::SignalMissingHandlerResponses& dyn__missingHandlerResponses();
     // Get instance field reference: private readonly System.Boolean _isAsync
-    bool& dyn__isAsync();
+    [[deprecated("Use field access instead!")]] bool& dyn__isAsync();
     // Get instance field reference: private readonly Zenject.ZenjectSettings/Zenject.SignalSettings _settings
-    ::Zenject::ZenjectSettings::SignalSettings*& dyn__settings();
+    [[deprecated("Use field access instead!")]] ::Zenject::ZenjectSettings::SignalSettings*& dyn__settings();
     // Get instance field reference: private System.Int32 <TickPriority>k__BackingField
-    int& dyn_$TickPriority$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$TickPriority$k__BackingField();
     // public System.Int32 get_TickPriority()
-    // Offset: 0x1CE134C
+    // Offset: 0x1D1C8A4
     int get_TickPriority();
     // private System.Void set_TickPriority(System.Int32 value)
-    // Offset: 0x1CE1354
+    // Offset: 0x1D1C8AC
     void set_TickPriority(int value);
     // public System.Boolean get_IsAsync()
-    // Offset: 0x1CE135C
+    // Offset: 0x1D1C8B4
     bool get_IsAsync();
     // public Zenject.BindingId get_BindingId()
-    // Offset: 0x1CE1364
+    // Offset: 0x1D1C8BC
     ::Zenject::BindingId get_BindingId();
     // public System.Void .ctor(Zenject.SignalDeclarationBindInfo bindInfo, Zenject.ZenjectSettings zenjectSettings)
-    // Offset: 0x1CE11F0
+    // Offset: 0x1D1C748
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalDeclaration* New_ctor(::Zenject::SignalDeclarationBindInfo* bindInfo, ::Zenject::ZenjectSettings* zenjectSettings) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalDeclaration::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalDeclaration*, creationType>(bindInfo, zenjectSettings)));
     }
     // public System.Void Dispose()
-    // Offset: 0x1CDE7AC
+    // Offset: 0x1D19D04
     void Dispose();
     // public System.Void Fire(System.Object signal)
-    // Offset: 0x1CDE97C
+    // Offset: 0x1D19ED4
     void Fire(::Il2CppObject* signal);
     // private System.Void FireInternal(System.Collections.Generic.List`1<Zenject.SignalSubscription> subscriptions, System.Object signal)
-    // Offset: 0x1CE1378
+    // Offset: 0x1D1C8D0
     void FireInternal(::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>* subscriptions, ::Il2CppObject* signal);
     // public System.Void Tick()
-    // Offset: 0x1CE15D8
+    // Offset: 0x1D1CB30
     void Tick();
     // public System.Void Add(Zenject.SignalSubscription subscription)
-    // Offset: 0x1CE1814
+    // Offset: 0x1D1CD6C
     void Add(::Zenject::SignalSubscription* subscription);
     // public System.Void Remove(Zenject.SignalSubscription subscription)
-    // Offset: 0x1CE18A8
+    // Offset: 0x1D1CE00
     void Remove(::Zenject::SignalSubscription* subscription);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1CE1908
+    // Offset: 0x1D1CE60
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CE1A20
+    // Offset: 0x1D1CF78
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.SignalDeclaration
   #pragma pack(pop)

@@ -57,9 +57,6 @@ namespace Zenject {
     // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.ScriptableObjectInstallerBase
     // Base method: System.Void ScriptableObjectInstallerBase::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScriptableObjectInstaller_3<TParam1, TParam2, TDerived>* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ScriptableObjectInstaller_3::.ctor");

@@ -27,15 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScoreModel::MaxScoreCounterElement : public ::Il2CppObject/*, public ::System::IComparable_1<::GlobalNamespace::ScoreModel::MaxScoreCounterElement*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly ScoreModel/NoteScoreDefinition noteScoreDefinition
     // Size: 0x8
     // Offset: 0x10
@@ -54,18 +46,18 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::IComparable_1<::GlobalNamespace::ScoreModel::MaxScoreCounterElement*>*>(this);
     }
     // Get instance field reference: public readonly ScoreModel/NoteScoreDefinition noteScoreDefinition
-    ::GlobalNamespace::ScoreModel::NoteScoreDefinition*& dyn_noteScoreDefinition();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ScoreModel::NoteScoreDefinition*& dyn_noteScoreDefinition();
     // Get instance field reference: private readonly System.Single time
-    float& dyn_time();
+    [[deprecated("Use field access instead!")]] float& dyn_time();
     // public System.Void .ctor(NoteData/ScoringType scoringType, System.Single time)
-    // Offset: 0x1424EC0
+    // Offset: 0x14664F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScoreModel::MaxScoreCounterElement* New_ctor(::GlobalNamespace::NoteData::ScoringType scoringType, float time) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScoreModel::MaxScoreCounterElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScoreModel::MaxScoreCounterElement*, creationType>(scoringType, time)));
     }
     // public System.Int32 CompareTo(ScoreModel/MaxScoreCounterElement other)
-    // Offset: 0x14252A4
+    // Offset: 0x14668D8
     int CompareTo(::GlobalNamespace::ScoreModel::MaxScoreCounterElement* other);
   }; // ScoreModel/MaxScoreCounterElement
   #pragma pack(pop)

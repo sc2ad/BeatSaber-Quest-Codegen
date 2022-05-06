@@ -50,11 +50,11 @@ namespace UnityEngine::Rendering {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public readonly System.Int32 offset
-    int& dyn_offset();
+    [[deprecated("Use field access instead!")]] int& dyn_offset();
     // Get instance field reference: public readonly System.Int32 instancesCount
-    int& dyn_instancesCount();
+    [[deprecated("Use field access instead!")]] int& dyn_instancesCount();
     // Get instance field reference: public System.Int32 visibleCount
-    int& dyn_visibleCount();
+    [[deprecated("Use field access instead!")]] int& dyn_visibleCount();
   }; // UnityEngine.Rendering.BatchVisibility
   #pragma pack(pop)
   static check_size<sizeof(BatchVisibility), 8 + sizeof(int)> __UnityEngine_Rendering_BatchVisibilitySizeCheck;

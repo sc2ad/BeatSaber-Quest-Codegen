@@ -49,55 +49,55 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::SteamVR_Utils::SystemFn
     class SystemFn;
     // static public UnityEngine.Quaternion Slerp(UnityEngine.Quaternion A, UnityEngine.Quaternion B, System.Single t)
-    // Offset: 0x1B9E0EC
+    // Offset: 0x1BD86D4
     static ::UnityEngine::Quaternion Slerp(::UnityEngine::Quaternion A, ::UnityEngine::Quaternion B, float t);
     // static public UnityEngine.Vector3 Lerp(UnityEngine.Vector3 A, UnityEngine.Vector3 B, System.Single t)
-    // Offset: 0x1B9E2B4
+    // Offset: 0x1BD889C
     static ::UnityEngine::Vector3 Lerp(::UnityEngine::Vector3 A, ::UnityEngine::Vector3 B, float t);
     // static public System.Single Lerp(System.Single A, System.Single B, System.Single t)
-    // Offset: 0x1B9E30C
+    // Offset: 0x1BD88F4
     static float Lerp(float A, float B, float t);
     // static public System.Double Lerp(System.Double A, System.Double B, System.Double t)
-    // Offset: 0x1B9E31C
+    // Offset: 0x1BD8904
     static double Lerp(double A, double B, double t);
     // static public System.Single InverseLerp(UnityEngine.Vector3 A, UnityEngine.Vector3 B, UnityEngine.Vector3 result)
-    // Offset: 0x1B9E32C
+    // Offset: 0x1BD8914
     static float InverseLerp(::UnityEngine::Vector3 A, ::UnityEngine::Vector3 B, ::UnityEngine::Vector3 result);
     // static public System.Single InverseLerp(System.Single A, System.Single B, System.Single result)
-    // Offset: 0x1B9E430
+    // Offset: 0x1BD8A18
     static float InverseLerp(float A, float B, float result);
     // static public System.Double InverseLerp(System.Double A, System.Double B, System.Double result)
-    // Offset: 0x1B9E440
+    // Offset: 0x1BD8A28
     static double InverseLerp(double A, double B, double result);
     // static public System.Single Saturate(System.Single A)
-    // Offset: 0x1B9E450
+    // Offset: 0x1BD8A38
     static float Saturate(float A);
     // static public UnityEngine.Vector2 Saturate(UnityEngine.Vector2 A)
-    // Offset: 0x1B9E46C
+    // Offset: 0x1BD8A54
     static ::UnityEngine::Vector2 Saturate(::UnityEngine::Vector2 A);
     // static public System.Single Abs(System.Single A)
-    // Offset: 0x1B9E4B8
+    // Offset: 0x1BD8AA0
     static float Abs(float A);
     // static public UnityEngine.Vector2 Abs(UnityEngine.Vector2 A)
-    // Offset: 0x1B9E4C8
+    // Offset: 0x1BD8AB0
     static ::UnityEngine::Vector2 Abs(::UnityEngine::Vector2 A);
     // static private System.Single _copysign(System.Single sizeval, System.Single signval)
-    // Offset: 0x1B9E50C
+    // Offset: 0x1BD8AF4
     static float _copysign(float sizeval, float signval);
     // static public UnityEngine.Quaternion GetRotation(UnityEngine.Matrix4x4 matrix)
-    // Offset: 0x1B9E5C8
+    // Offset: 0x1BD8BB0
     static ::UnityEngine::Quaternion GetRotation(::UnityEngine::Matrix4x4 matrix);
     // static public UnityEngine.Vector3 GetPosition(UnityEngine.Matrix4x4 matrix)
-    // Offset: 0x1B9E794
+    // Offset: 0x1BD8D7C
     static ::UnityEngine::Vector3 GetPosition(::UnityEngine::Matrix4x4 matrix);
     // static public UnityEngine.Vector3 GetScale(UnityEngine.Matrix4x4 m)
-    // Offset: 0x1B9E7D0
+    // Offset: 0x1BD8DB8
     static ::UnityEngine::Vector3 GetScale(::UnityEngine::Matrix4x4 m);
     // static public System.Object CallSystemFn(SteamVR_Utils/SystemFn fn, params System.Object[] args)
-    // Offset: 0x1B9E908
+    // Offset: 0x1BD8EF0
     static ::Il2CppObject* CallSystemFn(::GlobalNamespace::SteamVR_Utils::SystemFn* fn, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void TakeStereoScreenshot(System.UInt32 screenshotHandle, UnityEngine.GameObject target, System.Int32 cellSize, System.Single ipd, ref System.String previewFilename, ref System.String VRFilename)
-    // Offset: 0x1B9EE5C
+    // Offset: 0x1BD9444
     static void TakeStereoScreenshot(uint screenshotHandle, ::UnityEngine::GameObject* target, int cellSize, float ipd, ByRef<::StringW> previewFilename, ByRef<::StringW> VRFilename);
   }; // SteamVR_Utils
   #pragma pack(pop)

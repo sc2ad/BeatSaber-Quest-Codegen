@@ -31,15 +31,7 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class FileSystemEventArgs : public ::System::EventArgs {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.IO.WatcherChangeTypes changeType
     // Size: 0x4
     // Offset: 0x10
@@ -62,13 +54,13 @@ namespace System::IO {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.IO.WatcherChangeTypes changeType
-    ::System::IO::WatcherChangeTypes& dyn_changeType();
+    [[deprecated("Use field access instead!")]] ::System::IO::WatcherChangeTypes& dyn_changeType();
     // Get instance field reference: private System.String directory
-    ::StringW& dyn_directory();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_directory();
     // Get instance field reference: private System.String name
-    ::StringW& dyn_name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_name();
     // public System.Void .ctor(System.IO.WatcherChangeTypes changeType, System.String directory, System.String name)
-    // Offset: 0x1CB61A8
+    // Offset: 0x1CF2700
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileSystemEventArgs* New_ctor(::System::IO::WatcherChangeTypes changeType, ::StringW directory, ::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::FileSystemEventArgs::.ctor");

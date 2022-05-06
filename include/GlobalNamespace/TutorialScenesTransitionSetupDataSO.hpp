@@ -95,20 +95,12 @@ namespace GlobalNamespace {
       // Set static field: static public TutorialScenesTransitionSetupDataSO/TutorialEndStateType Restart
       static void _set_Restart(::GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // TutorialScenesTransitionSetupDataSO/TutorialEndStateType
     #pragma pack(pop)
     static check_size<sizeof(TutorialScenesTransitionSetupDataSO::TutorialEndStateType), 0 + sizeof(int)> __GlobalNamespace_TutorialScenesTransitionSetupDataSO_TutorialEndStateTypeSizeCheck;
     static_assert(sizeof(TutorialScenesTransitionSetupDataSO::TutorialEndStateType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private EnvironmentInfoSO _environmentInfo
     // Size: 0x8
     // Offset: 0x30
@@ -141,46 +133,40 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::PlayerSpecificSettings*) == 0x8);
     public:
     // Get instance field reference: private EnvironmentInfoSO _environmentInfo
-    ::GlobalNamespace::EnvironmentInfoSO*& dyn__environmentInfo();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentInfoSO*& dyn__environmentInfo();
     // Get instance field reference: private SceneInfo _tutorialSceneInfo
-    ::GlobalNamespace::SceneInfo*& dyn__tutorialSceneInfo();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SceneInfo*& dyn__tutorialSceneInfo();
     // Get instance field reference: private SceneInfo _gameCoreSceneInfo
-    ::GlobalNamespace::SceneInfo*& dyn__gameCoreSceneInfo();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SceneInfo*& dyn__gameCoreSceneInfo();
     // Get instance field reference: private System.Action`2<TutorialScenesTransitionSetupDataSO,TutorialScenesTransitionSetupDataSO/TutorialEndStateType> didFinishEvent
-    ::System::Action_2<::GlobalNamespace::TutorialScenesTransitionSetupDataSO*, ::GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::TutorialScenesTransitionSetupDataSO*, ::GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>*& dyn_didFinishEvent();
     // Get instance field reference: private PlayerSpecificSettings <playerSpecificSettings>k__BackingField
-    ::GlobalNamespace::PlayerSpecificSettings*& dyn_$playerSpecificSettings$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSpecificSettings*& dyn_$playerSpecificSettings$k__BackingField();
     // public PlayerSpecificSettings get_playerSpecificSettings()
-    // Offset: 0x2AB2A70
+    // Offset: 0x1491BE4
     ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
     // private System.Void set_playerSpecificSettings(PlayerSpecificSettings value)
-    // Offset: 0x2AB2A78
+    // Offset: 0x1491BEC
     void set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
     // public System.Void add_didFinishEvent(System.Action`2<TutorialScenesTransitionSetupDataSO,TutorialScenesTransitionSetupDataSO/TutorialEndStateType> value)
-    // Offset: 0x2AB2928
+    // Offset: 0x1491A9C
     void add_didFinishEvent(::System::Action_2<::GlobalNamespace::TutorialScenesTransitionSetupDataSO*, ::GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<TutorialScenesTransitionSetupDataSO,TutorialScenesTransitionSetupDataSO/TutorialEndStateType> value)
-    // Offset: 0x2AB29CC
+    // Offset: 0x1491B40
     void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::TutorialScenesTransitionSetupDataSO*, ::GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>* value);
-    // public System.Void Init(PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0x2AB13FC
-    void Init(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
-    // public System.Void Finish(TutorialScenesTransitionSetupDataSO/TutorialEndStateType endState)
-    // Offset: 0x2AB284C
-    void Finish(::GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType endState);
     // public System.Void .ctor()
-    // Offset: 0x2AB2A80
-    // Implemented from: ScenesTransitionSetupDataSO
-    // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1491BF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialScenesTransitionSetupDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialScenesTransitionSetupDataSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TutorialScenesTransitionSetupDataSO*, creationType>()));
     }
+    // public System.Void Init(PlayerSpecificSettings playerSpecificSettings)
+    // Offset: 0x14906F0
+    void Init(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
+    // public System.Void Finish(TutorialScenesTransitionSetupDataSO/TutorialEndStateType endState)
+    // Offset: 0x148FB6C
+    void Finish(::GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType endState);
   }; // TutorialScenesTransitionSetupDataSO
   #pragma pack(pop)
   static check_size<sizeof(TutorialScenesTransitionSetupDataSO), 80 + sizeof(::GlobalNamespace::PlayerSpecificSettings*)> __GlobalNamespace_TutorialScenesTransitionSetupDataSOSizeCheck;
@@ -224,6 +210,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialScenesTransitionSetupDataSO*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::TutorialScenesTransitionSetupDataSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TutorialScenesTransitionSetupDataSO::Init
 // Il2CppName: Init
 template<>
@@ -242,7 +232,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialScenesTransitionSetupDataSO*), "Finish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{endState});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TutorialScenesTransitionSetupDataSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

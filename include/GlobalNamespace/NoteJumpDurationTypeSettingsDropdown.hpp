@@ -45,17 +45,12 @@ namespace GlobalNamespace {
   class NoteJumpDurationTypeSettingsDropdown : public ::GlobalNamespace::ValueDropdownController_1<::GlobalNamespace::NoteJumpDurationTypeSettings> {
     public:
     // protected System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<NoteJumpDurationTypeSettings,System.String>> GetNamedValues()
-    // Offset: 0x147B9B0
+    // Offset: 0x14B2198
     ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::NoteJumpDurationTypeSettings, ::StringW>*>* GetNamedValues();
     // public System.Void .ctor()
-    // Offset: 0x147BA6C
+    // Offset: 0x14B2254
     // Implemented from: ValueDropdownController`1
     // Base method: System.Void ValueDropdownController_1::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteJumpDurationTypeSettingsDropdown* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::.ctor");

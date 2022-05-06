@@ -30,15 +30,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParametersWithID : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Crypto.ICipherParameters parameters
     // Size: 0x8
     // Offset: 0x10
@@ -53,14 +45,14 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     public:
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.ICipherParameters parameters
-    ::Org::BouncyCastle::Crypto::ICipherParameters*& dyn_parameters();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::ICipherParameters*& dyn_parameters();
     // Get instance field reference: private readonly System.Byte[] id
-    ::ArrayW<uint8_t>& dyn_id();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_id();
     // public Org.BouncyCastle.Crypto.ICipherParameters get_Parameters()
-    // Offset: 0x15C399C
+    // Offset: 0x15F92AC
     ::Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
     // public System.Byte[] GetID()
-    // Offset: 0x15C3994
+    // Offset: 0x15F92A4
     ::ArrayW<uint8_t> GetID();
   }; // Org.BouncyCastle.Crypto.Parameters.ParametersWithID
   #pragma pack(pop)

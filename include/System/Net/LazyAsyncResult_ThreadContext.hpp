@@ -23,15 +23,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class LazyAsyncResult::ThreadContext : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int32 m_NestedIOCount
     // Size: 0x4
     // Offset: 0x10
@@ -44,11 +36,9 @@ namespace System::Net {
       return m_NestedIOCount;
     }
     // Get instance field reference: System.Int32 m_NestedIOCount
-    int& dyn_m_NestedIOCount();
+    [[deprecated("Use field access instead!")]] int& dyn_m_NestedIOCount();
     // public System.Void .ctor()
-    // Offset: 0x1A78D60
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1AB3348
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LazyAsyncResult::ThreadContext* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::LazyAsyncResult::ThreadContext::.ctor");

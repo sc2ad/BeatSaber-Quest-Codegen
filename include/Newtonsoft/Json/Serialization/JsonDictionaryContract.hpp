@@ -64,15 +64,7 @@ namespace Newtonsoft::Json::Serialization {
   // [PreserveAttribute] Offset: FFFFFFFF
   class JsonDictionaryContract : public ::Newtonsoft::Json::Serialization::JsonContainerContract {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Func`2<System.String,System.String> <DictionaryKeyResolver>k__BackingField
     // Size: 0x8
     // Offset: 0xC0
@@ -153,87 +145,87 @@ namespace Newtonsoft::Json::Serialization {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Func`2<System.String,System.String> <DictionaryKeyResolver>k__BackingField
-    ::System::Func_2<::StringW, ::StringW>*& dyn_$DictionaryKeyResolver$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Func_2<::StringW, ::StringW>*& dyn_$DictionaryKeyResolver$k__BackingField();
     // Get instance field reference: private System.Type <DictionaryKeyType>k__BackingField
-    ::System::Type*& dyn_$DictionaryKeyType$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_$DictionaryKeyType$k__BackingField();
     // Get instance field reference: private System.Type <DictionaryValueType>k__BackingField
-    ::System::Type*& dyn_$DictionaryValueType$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_$DictionaryValueType$k__BackingField();
     // Get instance field reference: private Newtonsoft.Json.Serialization.JsonContract <KeyContract>k__BackingField
-    ::Newtonsoft::Json::Serialization::JsonContract*& dyn_$KeyContract$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Serialization::JsonContract*& dyn_$KeyContract$k__BackingField();
     // Get instance field reference: private readonly System.Type _genericCollectionDefinitionType
-    ::System::Type*& dyn__genericCollectionDefinitionType();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn__genericCollectionDefinitionType();
     // Get instance field reference: private System.Type _genericWrapperType
-    ::System::Type*& dyn__genericWrapperType();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn__genericWrapperType();
     // Get instance field reference: private Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> _genericWrapperCreator
-    ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>*& dyn__genericWrapperCreator();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>*& dyn__genericWrapperCreator();
     // Get instance field reference: private System.Func`1<System.Object> _genericTemporaryDictionaryCreator
-    ::System::Func_1<::Il2CppObject*>*& dyn__genericTemporaryDictionaryCreator();
+    [[deprecated("Use field access instead!")]] ::System::Func_1<::Il2CppObject*>*& dyn__genericTemporaryDictionaryCreator();
     // Get instance field reference: private System.Boolean <ShouldCreateWrapper>k__BackingField
-    bool& dyn_$ShouldCreateWrapper$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$ShouldCreateWrapper$k__BackingField();
     // Get instance field reference: private readonly System.Reflection.ConstructorInfo _parameterizedConstructor
-    ::System::Reflection::ConstructorInfo*& dyn__parameterizedConstructor();
+    [[deprecated("Use field access instead!")]] ::System::Reflection::ConstructorInfo*& dyn__parameterizedConstructor();
     // Get instance field reference: private Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> _overrideCreator
-    ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>*& dyn__overrideCreator();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>*& dyn__overrideCreator();
     // Get instance field reference: private Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> _parameterizedCreator
-    ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>*& dyn__parameterizedCreator();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>*& dyn__parameterizedCreator();
     // Get instance field reference: private System.Boolean <HasParameterizedCreator>k__BackingField
-    bool& dyn_$HasParameterizedCreator$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$HasParameterizedCreator$k__BackingField();
     // public System.Func`2<System.String,System.String> get_DictionaryKeyResolver()
-    // Offset: 0x1D252D0
+    // Offset: 0x1D61828
     ::System::Func_2<::StringW, ::StringW>* get_DictionaryKeyResolver();
     // public System.Void set_DictionaryKeyResolver(System.Func`2<System.String,System.String> value)
-    // Offset: 0x1D252D8
+    // Offset: 0x1D61830
     void set_DictionaryKeyResolver(::System::Func_2<::StringW, ::StringW>* value);
     // public System.Type get_DictionaryKeyType()
-    // Offset: 0x1D252E0
+    // Offset: 0x1D61838
     ::System::Type* get_DictionaryKeyType();
     // private System.Void set_DictionaryKeyType(System.Type value)
-    // Offset: 0x1D252E8
+    // Offset: 0x1D61840
     void set_DictionaryKeyType(::System::Type* value);
     // public System.Type get_DictionaryValueType()
-    // Offset: 0x1D252F0
+    // Offset: 0x1D61848
     ::System::Type* get_DictionaryValueType();
     // private System.Void set_DictionaryValueType(System.Type value)
-    // Offset: 0x1D252F8
+    // Offset: 0x1D61850
     void set_DictionaryValueType(::System::Type* value);
     // Newtonsoft.Json.Serialization.JsonContract get_KeyContract()
-    // Offset: 0x1D25300
+    // Offset: 0x1D61858
     ::Newtonsoft::Json::Serialization::JsonContract* get_KeyContract();
     // System.Void set_KeyContract(Newtonsoft.Json.Serialization.JsonContract value)
-    // Offset: 0x1D25308
+    // Offset: 0x1D61860
     void set_KeyContract(::Newtonsoft::Json::Serialization::JsonContract* value);
     // System.Boolean get_ShouldCreateWrapper()
-    // Offset: 0x1D25310
+    // Offset: 0x1D61868
     bool get_ShouldCreateWrapper();
     // private System.Void set_ShouldCreateWrapper(System.Boolean value)
-    // Offset: 0x1D25318
+    // Offset: 0x1D61870
     void set_ShouldCreateWrapper(bool value);
     // Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> get_ParameterizedCreator()
-    // Offset: 0x1D25324
+    // Offset: 0x1D6187C
     ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>* get_ParameterizedCreator();
     // public Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> get_OverrideCreator()
-    // Offset: 0x1D253B0
+    // Offset: 0x1D61908
     ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>* get_OverrideCreator();
     // public System.Void set_OverrideCreator(Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> value)
-    // Offset: 0x1D253B8
+    // Offset: 0x1D61910
     void set_OverrideCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>* value);
     // public System.Boolean get_HasParameterizedCreator()
-    // Offset: 0x1D253C0
+    // Offset: 0x1D61918
     bool get_HasParameterizedCreator();
     // public System.Void set_HasParameterizedCreator(System.Boolean value)
-    // Offset: 0x1D253C8
+    // Offset: 0x1D61920
     void set_HasParameterizedCreator(bool value);
     // System.Boolean get_HasParameterizedCreatorInternal()
-    // Offset: 0x1D253D4
+    // Offset: 0x1D6192C
     bool get_HasParameterizedCreatorInternal();
     // Newtonsoft.Json.Utilities.IWrappedDictionary CreateWrapper(System.Object dictionary)
-    // Offset: 0x1D259D0
+    // Offset: 0x1D61F28
     ::Newtonsoft::Json::Utilities::IWrappedDictionary* CreateWrapper(::Il2CppObject* dictionary);
     // System.Collections.IDictionary CreateTemporaryDictionary()
-    // Offset: 0x1D25C40
+    // Offset: 0x1D62198
     ::System::Collections::IDictionary* CreateTemporaryDictionary();
     // public System.Void .ctor(System.Type underlyingType)
-    // Offset: 0x1D253FC
+    // Offset: 0x1D61954
     // Implemented from: Newtonsoft.Json.Serialization.JsonContainerContract
     // Base method: System.Void JsonContainerContract::.ctor(System.Type underlyingType)
     // Base method: System.Void JsonContract::.ctor(System.Type underlyingType)

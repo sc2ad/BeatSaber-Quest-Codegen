@@ -42,31 +42,33 @@ namespace GlobalNamespace {
     class $$c__DisplayClass0_0;
     // Nested type: ::GlobalNamespace::FileCompressionHelper::$$c__DisplayClass1_0
     class $$c__DisplayClass1_0;
-    // static public System.Void CreateZipFromDirectoryAsync(System.String sourceDirectoryName, System.String destinationArchiveFileName, System.Action`1<System.Boolean> finishCallback)
-    // Offset: 0x156C134
-    static void CreateZipFromDirectoryAsync(::StringW sourceDirectoryName, ::StringW destinationArchiveFileName, ::System::Action_1<bool>* finishCallback);
-    // static public System.Void ExtractZipToDirectoryAsync(System.String sourceArchiveFileName, System.String destinationDirectoryName, System.Action`1<System.Boolean> finishCallback)
-    // Offset: 0x156C40C
-    static void ExtractZipToDirectoryAsync(::StringW sourceArchiveFileName, ::StringW destinationDirectoryName, ::System::Action_1<bool>* finishCallback);
-    // static public System.Boolean CreateZipFromDirectory(System.String sourceDirectoryName, System.String destinationArchiveFileName)
-    // Offset: 0x156C50C
-    static bool CreateZipFromDirectory(::StringW sourceDirectoryName, ::StringW destinationArchiveFileName);
-    // static public System.Boolean ExtractZipToDirectory(System.String sourceArchiveFileName, System.String destinationDirectoryName)
-    // Offset: 0x156C5AC
-    static bool ExtractZipToDirectory(::StringW sourceArchiveFileName, ::StringW destinationDirectoryName);
     // public System.Void .ctor()
-    // Offset: 0x156C64C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15A2F54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileCompressionHelper* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FileCompressionHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileCompressionHelper*, creationType>()));
     }
+    // static public System.Void CreateZipFromDirectoryAsync(System.String sourceDirectoryName, System.String destinationArchiveFileName, System.Action`1<System.Boolean> finishCallback)
+    // Offset: 0x15A2A3C
+    static void CreateZipFromDirectoryAsync(::StringW sourceDirectoryName, ::StringW destinationArchiveFileName, ::System::Action_1<bool>* finishCallback);
+    // static public System.Void ExtractZipToDirectoryAsync(System.String sourceArchiveFileName, System.String destinationDirectoryName, System.Action`1<System.Boolean> finishCallback)
+    // Offset: 0x15A2D14
+    static void ExtractZipToDirectoryAsync(::StringW sourceArchiveFileName, ::StringW destinationDirectoryName, ::System::Action_1<bool>* finishCallback);
+    // static public System.Boolean CreateZipFromDirectory(System.String sourceDirectoryName, System.String destinationArchiveFileName)
+    // Offset: 0x15A2E14
+    static bool CreateZipFromDirectory(::StringW sourceDirectoryName, ::StringW destinationArchiveFileName);
+    // static public System.Boolean ExtractZipToDirectory(System.String sourceArchiveFileName, System.String destinationDirectoryName)
+    // Offset: 0x15A2EB4
+    static bool ExtractZipToDirectory(::StringW sourceArchiveFileName, ::StringW destinationDirectoryName);
   }; // FileCompressionHelper
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::FileCompressionHelper::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FileCompressionHelper::CreateZipFromDirectoryAsync
 // Il2CppName: CreateZipFromDirectoryAsync
 template<>
@@ -109,7 +111,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileCompressionHelper*), "ExtractZipToDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceArchiveFileName, destinationDirectoryName});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FileCompressionHelper::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

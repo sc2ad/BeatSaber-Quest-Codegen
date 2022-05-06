@@ -87,23 +87,23 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Byte cNewInput0
-    uint8_t& dyn_cNewInput0();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_cNewInput0();
     // Get instance field reference: public System.Byte cNewInput1
-    uint8_t& dyn_cNewInput1();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_cNewInput1();
     // Get instance field reference: public System.Byte cNewInput2
-    uint8_t& dyn_cNewInput2();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_cNewInput2();
     // Get instance field reference: public System.Byte cNewInput3
-    uint8_t& dyn_cNewInput3();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_cNewInput3();
     // Get instance field reference: public System.Byte cNewInput4
-    uint8_t& dyn_cNewInput4();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_cNewInput4();
     // Get instance field reference: public System.Byte cNewInput5
-    uint8_t& dyn_cNewInput5();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_cNewInput5();
     // Get instance field reference: public System.Byte cNewInput6
-    uint8_t& dyn_cNewInput6();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_cNewInput6();
     // Get instance field reference: public System.Byte cNewInput7
-    uint8_t& dyn_cNewInput7();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_cNewInput7();
     // Get instance field reference: public System.UInt64 uUserValue
-    uint64_t& dyn_uUserValue();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_uUserValue();
   }; // Valve.VR.VREvent_Keyboard_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Keyboard_t), 8 + sizeof(uint64_t)> __Valve_VR_VREvent_Keyboard_tSizeCheck;

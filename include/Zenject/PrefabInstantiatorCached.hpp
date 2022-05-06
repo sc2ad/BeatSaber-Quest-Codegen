@@ -58,15 +58,7 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class PrefabInstantiatorCached : public ::Il2CppObject/*, public ::Zenject::IPrefabInstantiator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Zenject.IPrefabInstantiator _subInstantiator
     // Size: 0x8
     // Offset: 0x10
@@ -85,30 +77,30 @@ namespace Zenject {
       return *reinterpret_cast<::Zenject::IPrefabInstantiator*>(this);
     }
     // Get instance field reference: private readonly Zenject.IPrefabInstantiator _subInstantiator
-    ::Zenject::IPrefabInstantiator*& dyn__subInstantiator();
+    [[deprecated("Use field access instead!")]] ::Zenject::IPrefabInstantiator*& dyn__subInstantiator();
     // Get instance field reference: private UnityEngine.GameObject _gameObject
-    ::UnityEngine::GameObject*& dyn__gameObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__gameObject();
     // public System.Collections.Generic.List`1<Zenject.TypeValuePair> get_ExtraArguments()
-    // Offset: 0x1BDF878
+    // Offset: 0x1C19E60
     ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* get_ExtraArguments();
     // public System.Type get_ArgumentTarget()
-    // Offset: 0x1BDF92C
+    // Offset: 0x1C19F14
     ::System::Type* get_ArgumentTarget();
     // public Zenject.GameObjectCreationParameters get_GameObjectCreationParameters()
-    // Offset: 0x1BDF9DC
+    // Offset: 0x1C19FC4
     ::Zenject::GameObjectCreationParameters* get_GameObjectCreationParameters();
     // public System.Void .ctor(Zenject.IPrefabInstantiator subInstantiator)
-    // Offset: 0x1BDE1BC
+    // Offset: 0x1C187A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrefabInstantiatorCached* New_ctor(::Zenject::IPrefabInstantiator* subInstantiator) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PrefabInstantiatorCached::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrefabInstantiatorCached*, creationType>(subInstantiator)));
     }
     // public UnityEngine.Object GetPrefab()
-    // Offset: 0x1BDFA90
+    // Offset: 0x1C1A078
     ::UnityEngine::Object* GetPrefab();
     // public UnityEngine.GameObject Instantiate(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction)
-    // Offset: 0x1BDFB44
+    // Offset: 0x1C1A12C
     ::UnityEngine::GameObject* Instantiate(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction);
   }; // Zenject.PrefabInstantiatorCached
   #pragma pack(pop)

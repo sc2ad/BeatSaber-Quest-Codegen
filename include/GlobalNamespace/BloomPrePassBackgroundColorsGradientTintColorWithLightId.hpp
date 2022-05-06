@@ -40,15 +40,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassBackgroundColorsGradientTintColorWithLightId : public ::GlobalNamespace::RuntimeLightWithIds {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BloomPrePassBackgroundColorsGradient _bloomPrePassBackgroundColorsGradient
     // Size: 0x8
     // Offset: 0x48
@@ -63,7 +55,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useGrayscale and: grayscaleFactor
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x12383AC
+    // [DrawIfAttribute] Offset: 0x10BCE64
     // private System.Single grayscaleFactor
     // Size: 0x4
     // Offset: 0x54
@@ -72,28 +64,23 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private BloomPrePassBackgroundColorsGradient _bloomPrePassBackgroundColorsGradient
-    ::GlobalNamespace::BloomPrePassBackgroundColorsGradient*& dyn__bloomPrePassBackgroundColorsGradient();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassBackgroundColorsGradient*& dyn__bloomPrePassBackgroundColorsGradient();
     // Get instance field reference: private System.Boolean _useGrayscale
-    bool& dyn__useGrayscale();
+    [[deprecated("Use field access instead!")]] bool& dyn__useGrayscale();
     // Get instance field reference: private System.Single grayscaleFactor
-    float& dyn_grayscaleFactor();
+    [[deprecated("Use field access instead!")]] float& dyn_grayscaleFactor();
     // public System.Void .ctor()
-    // Offset: 0x2ACB990
+    // Offset: 0x1E74D58
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::.ctor()
     // Base method: System.Void LightWithIds::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassBackgroundColorsGradientTintColorWithLightId* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundColorsGradientTintColorWithLightId*, creationType>()));
     }
     // protected override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x2ACB830
+    // Offset: 0x1E74BF8
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);

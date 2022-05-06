@@ -118,27 +118,27 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Boolean usePassword
-    bool& dyn_usePassword();
+    [[deprecated("Use field access instead!")]] bool& dyn_usePassword();
     // Get instance field reference: public System.String password
-    ::StringW& dyn_password();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_password();
     // Get instance field reference: public System.Int32 maxPlayers
-    int& dyn_maxPlayers();
+    [[deprecated("Use field access instead!")]] int& dyn_maxPlayers();
     // Get instance field reference: public System.Boolean allowInviteOthers
-    bool& dyn_allowInviteOthers();
+    [[deprecated("Use field access instead!")]] bool& dyn_allowInviteOthers();
     // Get instance field reference: public System.Boolean netDiscoverable
-    bool& dyn_netDiscoverable();
+    [[deprecated("Use field access instead!")]] bool& dyn_netDiscoverable();
     // Get instance field reference: public BeatmapDifficultyMask difficulties
-    ::GlobalNamespace::BeatmapDifficultyMask& dyn_difficulties();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficultyMask& dyn_difficulties();
     // Get instance field reference: public GameplayModifierMask modifiers
-    ::GlobalNamespace::GameplayModifierMask& dyn_modifiers();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifierMask& dyn_modifiers();
     // Get instance field reference: public SongPackMask songPacks
-    ::GlobalNamespace::SongPackMask& dyn_songPacks();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongPackMask& dyn_songPacks();
     // Get instance field reference: public GameplayServerMode gameplayServerMode
-    ::GlobalNamespace::GameplayServerMode& dyn_gameplayServerMode();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayServerMode& dyn_gameplayServerMode();
     // Get instance field reference: public SongSelectionMode songSelectionMode
-    ::GlobalNamespace::SongSelectionMode& dyn_songSelectionMode();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongSelectionMode& dyn_songSelectionMode();
     // Get instance field reference: public GameplayServerControlSettings gameplayServerControlSettings
-    ::GlobalNamespace::GameplayServerControlSettings& dyn_gameplayServerControlSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayServerControlSettings& dyn_gameplayServerControlSettings();
   }; // CreateServerFormData
   #pragma pack(pop)
   static check_size<sizeof(CreateServerFormData), 56 + sizeof(::GlobalNamespace::GameplayServerControlSettings)> __GlobalNamespace_CreateServerFormDataSizeCheck;

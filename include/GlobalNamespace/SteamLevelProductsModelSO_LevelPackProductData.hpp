@@ -25,15 +25,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamLevelProductsModelSO::LevelPackProductData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.UInt32 _bundleId
     // Size: 0x4
     // Offset: 0x10
@@ -56,24 +48,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<::GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*>) == 0x8);
     public:
     // Get instance field reference: private System.UInt32 _bundleId
-    uint& dyn__bundleId();
+    [[deprecated("Use field access instead!")]] uint& dyn__bundleId();
     // Get instance field reference: private System.String _levelPackId
-    ::StringW& dyn__levelPackId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__levelPackId();
     // Get instance field reference: private SteamLevelProductsModelSO/LevelProductData[] _levelProductsData
-    ::ArrayW<::GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*>& dyn__levelProductsData();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*>& dyn__levelProductsData();
     // public System.UInt32 get_bundleId()
-    // Offset: 0x1336194
+    // Offset: 0x14180C4
     uint get_bundleId();
     // public System.String get_levelPackId()
-    // Offset: 0x133619C
+    // Offset: 0x14180CC
     ::StringW get_levelPackId();
     // public SteamLevelProductsModelSO/LevelProductData[] get_levelProductsData()
-    // Offset: 0x13361A4
+    // Offset: 0x14180D4
     ::ArrayW<::GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*> get_levelProductsData();
     // public System.Void .ctor()
-    // Offset: 0x13361AC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14180DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamLevelProductsModelSO::LevelPackProductData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData::.ctor");

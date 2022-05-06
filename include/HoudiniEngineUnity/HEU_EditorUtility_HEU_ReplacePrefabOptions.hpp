@@ -57,7 +57,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HEU_EditorUtility/HoudiniEngineUnity.HEU_ReplacePrefabOptions ReplaceNameBased
     static void _set_ReplaceNameBased(::HoudiniEngineUnity::HEU_EditorUtility::HEU_ReplacePrefabOptions value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HEU_EditorUtility/HoudiniEngineUnity.HEU_ReplacePrefabOptions
   #pragma pack(pop)
   static check_size<sizeof(HEU_EditorUtility::HEU_ReplacePrefabOptions), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_EditorUtility_HEU_ReplacePrefabOptionsSizeCheck;

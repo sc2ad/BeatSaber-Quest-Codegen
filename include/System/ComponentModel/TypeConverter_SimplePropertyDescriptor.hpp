@@ -38,15 +38,7 @@ namespace System::ComponentModel {
     public:
     // Writing base type padding for base size: 0x7C to desired offset: 0x80
     char ___base_padding[0x4] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Type componentType
     // Size: 0x8
     // Offset: 0x80
@@ -61,18 +53,18 @@ namespace System::ComponentModel {
     static_assert(sizeof(::System::Type*) == 0x8);
     public:
     // Get instance field reference: private System.Type componentType
-    ::System::Type*& dyn_componentType();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_componentType();
     // Get instance field reference: private System.Type propertyType
-    ::System::Type*& dyn_propertyType();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_propertyType();
     // protected System.Void .ctor(System.Type componentType, System.String name, System.Type propertyType, System.Attribute[] attributes)
-    // Offset: 0x1D58888
+    // Offset: 0x1D93DE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeConverter::SimplePropertyDescriptor* New_ctor(::System::Type* componentType, ::StringW name, ::System::Type* propertyType, ::ArrayW<::System::Attribute*> attributes) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::TypeConverter::SimplePropertyDescriptor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeConverter::SimplePropertyDescriptor*, creationType>(componentType, name, propertyType, attributes)));
     }
     // public override System.Type get_PropertyType()
-    // Offset: 0x1D69D50
+    // Offset: 0x1DA52A8
     // Implemented from: System.ComponentModel.PropertyDescriptor
     // Base method: System.Type PropertyDescriptor::get_PropertyType()
     ::System::Type* get_PropertyType();

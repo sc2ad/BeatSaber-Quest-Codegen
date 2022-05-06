@@ -68,7 +68,7 @@ namespace MasterServer {
     ::MasterServer::GetPublicServersRequest* $$7__wrap2;
     // Field size check
     static_assert(sizeof(::MasterServer::GetPublicServersRequest*) == 0x8);
-    // [TupleElementNamesAttribute] Offset: 0x1232BC8
+    // [TupleElementNamesAttribute] Offset: 0x10B6620
     // private System.Runtime.CompilerServices.TaskAwaiter`1<System.ValueTuple`2<System.String,System.String>> <>u__1
     // Size: 0xFFFFFFFF
     // Offset: 0x38
@@ -89,24 +89,24 @@ namespace MasterServer {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public MasterServer.UserMasterServerMessageHandler/MasterServer.<>c__DisplayClass22_0 <>4__this
-    ::MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass22_0*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass22_0*& dyn_$$4__this();
     // Get instance field reference: private MasterServer.UserMasterServerMessageHandler <>7__wrap1
-    ::MasterServer::UserMasterServerMessageHandler*& dyn_$$7__wrap1();
+    [[deprecated("Use field access instead!")]] ::MasterServer::UserMasterServerMessageHandler*& dyn_$$7__wrap1();
     // Get instance field reference: private MasterServer.GetPublicServersRequest <>7__wrap2
-    ::MasterServer::GetPublicServersRequest*& dyn_$$7__wrap2();
+    [[deprecated("Use field access instead!")]] ::MasterServer::GetPublicServersRequest*& dyn_$$7__wrap2();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.ValueTuple`2<System.String,System.String>> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::StringW, ::StringW>>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::StringW, ::StringW>>& dyn_$$u__1();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.GetPublicServersResponse> <>u__2
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::MasterServer::GetPublicServersResponse*>& dyn_$$u__2();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::MasterServer::GetPublicServersResponse*>& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x16F6A8C
+    // Offset: 0x172F39C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x16F6E48
+    // Offset: 0x172F758
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.UserMasterServerMessageHandler/MasterServer.<>c__DisplayClass22_0/MasterServer.<<GetPublicServers>b__0>d
   // WARNING Not writing size check since size may be invalid!

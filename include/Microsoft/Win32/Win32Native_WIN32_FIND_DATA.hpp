@@ -24,15 +24,7 @@ namespace Microsoft::Win32 {
   // [TokenAttribute] Offset: FFFFFFFF
   class Win32Native::WIN32_FIND_DATA : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int32 dwFileAttributes
     // Size: 0x4
     // Offset: 0x10
@@ -49,11 +41,11 @@ namespace Microsoft::Win32 {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: System.Int32 dwFileAttributes
-    int& dyn_dwFileAttributes();
+    [[deprecated("Use field access instead!")]] int& dyn_dwFileAttributes();
     // Get instance field reference: System.String cFileName
-    ::StringW& dyn_cFileName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_cFileName();
     // public System.Void .ctor()
-    // Offset: 0x1EF6A24
+    // Offset: 0x1F43F5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

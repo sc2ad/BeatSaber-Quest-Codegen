@@ -60,7 +60,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Set static field: static public UnityEngine.ProBuilder.Poly2Tri.Orientation Collinear
     static void _set_Collinear(::UnityEngine::ProBuilder::Poly2Tri::Orientation value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.ProBuilder.Poly2Tri.Orientation
   #pragma pack(pop)
   static check_size<sizeof(Orientation), 0 + sizeof(int)> __UnityEngine_ProBuilder_Poly2Tri_OrientationSizeCheck;

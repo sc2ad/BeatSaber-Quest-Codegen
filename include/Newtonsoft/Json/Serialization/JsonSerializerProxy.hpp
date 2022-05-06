@@ -89,15 +89,7 @@ namespace Newtonsoft::Json::Serialization {
   // [PreserveAttribute] Offset: FFFFFFFF
   class JsonSerializerProxy : public ::Newtonsoft::Json::JsonSerializer {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Newtonsoft.Json.Serialization.JsonSerializerInternalReader _serializerReader
     // Size: 0x8
     // Offset: 0xE0
@@ -118,175 +110,175 @@ namespace Newtonsoft::Json::Serialization {
     static_assert(sizeof(::Newtonsoft::Json::JsonSerializer*) == 0x8);
     public:
     // Get instance field reference: private readonly Newtonsoft.Json.Serialization.JsonSerializerInternalReader _serializerReader
-    ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*& dyn__serializerReader();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*& dyn__serializerReader();
     // Get instance field reference: private readonly Newtonsoft.Json.Serialization.JsonSerializerInternalWriter _serializerWriter
-    ::Newtonsoft::Json::Serialization::JsonSerializerInternalWriter*& dyn__serializerWriter();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Serialization::JsonSerializerInternalWriter*& dyn__serializerWriter();
     // Get instance field reference: private readonly Newtonsoft.Json.JsonSerializer _serializer
-    ::Newtonsoft::Json::JsonSerializer*& dyn__serializer();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::JsonSerializer*& dyn__serializer();
     // public System.Void .ctor(Newtonsoft.Json.Serialization.JsonSerializerInternalReader serializerReader)
-    // Offset: 0x20397B8
+    // Offset: 0x208302C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonSerializerProxy* New_ctor(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* serializerReader) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonSerializerProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonSerializerProxy*, creationType>(serializerReader)));
     }
     // public System.Void .ctor(Newtonsoft.Json.Serialization.JsonSerializerInternalWriter serializerWriter)
-    // Offset: 0x20398BC
+    // Offset: 0x2083130
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonSerializerProxy* New_ctor(::Newtonsoft::Json::Serialization::JsonSerializerInternalWriter* serializerWriter) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonSerializerProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonSerializerProxy*, creationType>(serializerWriter)));
     }
     // Newtonsoft.Json.Serialization.JsonSerializerInternalBase GetInternalSerializer()
-    // Offset: 0x20397A0
+    // Offset: 0x2083014
     ::Newtonsoft::Json::Serialization::JsonSerializerInternalBase* GetInternalSerializer();
     // public override System.Void set_ReferenceResolver(Newtonsoft.Json.Serialization.IReferenceResolver value)
-    // Offset: 0x2039434
+    // Offset: 0x2082CA8
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: System.Void JsonSerializer::set_ReferenceResolver(Newtonsoft.Json.Serialization.IReferenceResolver value)
     void set_ReferenceResolver(::Newtonsoft::Json::Serialization::IReferenceResolver* value);
     // public override Newtonsoft.Json.Serialization.ITraceWriter get_TraceWriter()
-    // Offset: 0x2039454
+    // Offset: 0x2082CC8
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: Newtonsoft.Json.Serialization.ITraceWriter JsonSerializer::get_TraceWriter()
     ::Newtonsoft::Json::Serialization::ITraceWriter* get_TraceWriter();
     // public override System.Void set_TraceWriter(Newtonsoft.Json.Serialization.ITraceWriter value)
-    // Offset: 0x2039474
+    // Offset: 0x2082CE8
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: System.Void JsonSerializer::set_TraceWriter(Newtonsoft.Json.Serialization.ITraceWriter value)
     void set_TraceWriter(::Newtonsoft::Json::Serialization::ITraceWriter* value);
     // public override System.Void set_EqualityComparer(System.Collections.IEqualityComparer value)
-    // Offset: 0x2039494
+    // Offset: 0x2082D08
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: System.Void JsonSerializer::set_EqualityComparer(System.Collections.IEqualityComparer value)
     void set_EqualityComparer(::System::Collections::IEqualityComparer* value);
     // public override Newtonsoft.Json.JsonConverterCollection get_Converters()
-    // Offset: 0x20394B4
+    // Offset: 0x2082D28
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: Newtonsoft.Json.JsonConverterCollection JsonSerializer::get_Converters()
     ::Newtonsoft::Json::JsonConverterCollection* get_Converters();
     // public override System.Void set_DefaultValueHandling(Newtonsoft.Json.DefaultValueHandling value)
-    // Offset: 0x20394D8
+    // Offset: 0x2082D4C
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: System.Void JsonSerializer::set_DefaultValueHandling(Newtonsoft.Json.DefaultValueHandling value)
     void set_DefaultValueHandling(::Newtonsoft::Json::DefaultValueHandling value);
     // public override Newtonsoft.Json.Serialization.IContractResolver get_ContractResolver()
-    // Offset: 0x20394FC
+    // Offset: 0x2082D70
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: Newtonsoft.Json.Serialization.IContractResolver JsonSerializer::get_ContractResolver()
     ::Newtonsoft::Json::Serialization::IContractResolver* get_ContractResolver();
     // public override System.Void set_ContractResolver(Newtonsoft.Json.Serialization.IContractResolver value)
-    // Offset: 0x2039520
+    // Offset: 0x2082D94
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: System.Void JsonSerializer::set_ContractResolver(Newtonsoft.Json.Serialization.IContractResolver value)
     void set_ContractResolver(::Newtonsoft::Json::Serialization::IContractResolver* value);
     // public override System.Void set_MissingMemberHandling(Newtonsoft.Json.MissingMemberHandling value)
-    // Offset: 0x2039544
+    // Offset: 0x2082DB8
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: System.Void JsonSerializer::set_MissingMemberHandling(Newtonsoft.Json.MissingMemberHandling value)
     void set_MissingMemberHandling(::Newtonsoft::Json::MissingMemberHandling value);
     // public override System.Void set_NullValueHandling(Newtonsoft.Json.NullValueHandling value)
-    // Offset: 0x2039568
+    // Offset: 0x2082DDC
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: System.Void JsonSerializer::set_NullValueHandling(Newtonsoft.Json.NullValueHandling value)
     void set_NullValueHandling(::Newtonsoft::Json::NullValueHandling value);
     // public override Newtonsoft.Json.ObjectCreationHandling get_ObjectCreationHandling()
-    // Offset: 0x203958C
+    // Offset: 0x2082E00
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: Newtonsoft.Json.ObjectCreationHandling JsonSerializer::get_ObjectCreationHandling()
     ::Newtonsoft::Json::ObjectCreationHandling get_ObjectCreationHandling();
     // public override System.Void set_ObjectCreationHandling(Newtonsoft.Json.ObjectCreationHandling value)
-    // Offset: 0x20395B0
+    // Offset: 0x2082E24
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: System.Void JsonSerializer::set_ObjectCreationHandling(Newtonsoft.Json.ObjectCreationHandling value)
     void set_ObjectCreationHandling(::Newtonsoft::Json::ObjectCreationHandling value);
     // public override System.Void set_ReferenceLoopHandling(Newtonsoft.Json.ReferenceLoopHandling value)
-    // Offset: 0x20395D4
+    // Offset: 0x2082E48
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: System.Void JsonSerializer::set_ReferenceLoopHandling(Newtonsoft.Json.ReferenceLoopHandling value)
     void set_ReferenceLoopHandling(::Newtonsoft::Json::ReferenceLoopHandling value);
     // public override System.Void set_PreserveReferencesHandling(Newtonsoft.Json.PreserveReferencesHandling value)
-    // Offset: 0x20395F8
+    // Offset: 0x2082E6C
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: System.Void JsonSerializer::set_PreserveReferencesHandling(Newtonsoft.Json.PreserveReferencesHandling value)
     void set_PreserveReferencesHandling(::Newtonsoft::Json::PreserveReferencesHandling value);
     // public override System.Void set_TypeNameHandling(Newtonsoft.Json.TypeNameHandling value)
-    // Offset: 0x203961C
+    // Offset: 0x2082E90
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: System.Void JsonSerializer::set_TypeNameHandling(Newtonsoft.Json.TypeNameHandling value)
     void set_TypeNameHandling(::Newtonsoft::Json::TypeNameHandling value);
     // public override Newtonsoft.Json.MetadataPropertyHandling get_MetadataPropertyHandling()
-    // Offset: 0x203963C
+    // Offset: 0x2082EB0
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: Newtonsoft.Json.MetadataPropertyHandling JsonSerializer::get_MetadataPropertyHandling()
     ::Newtonsoft::Json::MetadataPropertyHandling get_MetadataPropertyHandling();
     // public override System.Void set_MetadataPropertyHandling(Newtonsoft.Json.MetadataPropertyHandling value)
-    // Offset: 0x2039660
+    // Offset: 0x2082ED4
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: System.Void JsonSerializer::set_MetadataPropertyHandling(Newtonsoft.Json.MetadataPropertyHandling value)
     void set_MetadataPropertyHandling(::Newtonsoft::Json::MetadataPropertyHandling value);
     // public override System.Void set_TypeNameAssemblyFormat(System.Runtime.Serialization.Formatters.FormatterAssemblyStyle value)
-    // Offset: 0x2039684
+    // Offset: 0x2082EF8
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: System.Void JsonSerializer::set_TypeNameAssemblyFormat(System.Runtime.Serialization.Formatters.FormatterAssemblyStyle value)
     void set_TypeNameAssemblyFormat(::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle value);
     // public override System.Void set_ConstructorHandling(Newtonsoft.Json.ConstructorHandling value)
-    // Offset: 0x20396A4
+    // Offset: 0x2082F18
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: System.Void JsonSerializer::set_ConstructorHandling(Newtonsoft.Json.ConstructorHandling value)
     void set_ConstructorHandling(::Newtonsoft::Json::ConstructorHandling value);
     // public override System.Void set_Binder(System.Runtime.Serialization.SerializationBinder value)
-    // Offset: 0x20396C8
+    // Offset: 0x2082F3C
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: System.Void JsonSerializer::set_Binder(System.Runtime.Serialization.SerializationBinder value)
     void set_Binder(::System::Runtime::Serialization::SerializationBinder* value);
     // public override System.Runtime.Serialization.StreamingContext get_Context()
-    // Offset: 0x20396E8
+    // Offset: 0x2082F5C
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: System.Runtime.Serialization.StreamingContext JsonSerializer::get_Context()
     ::System::Runtime::Serialization::StreamingContext get_Context();
     // public override System.Void set_Context(System.Runtime.Serialization.StreamingContext value)
-    // Offset: 0x203970C
+    // Offset: 0x2082F80
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: System.Void JsonSerializer::set_Context(System.Runtime.Serialization.StreamingContext value)
     void set_Context(::System::Runtime::Serialization::StreamingContext value);
     // public override Newtonsoft.Json.Formatting get_Formatting()
-    // Offset: 0x2039730
+    // Offset: 0x2082FA4
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: Newtonsoft.Json.Formatting JsonSerializer::get_Formatting()
     ::Newtonsoft::Json::Formatting get_Formatting();
     // public override System.Boolean get_CheckAdditionalContent()
-    // Offset: 0x2039754
+    // Offset: 0x2082FC8
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: System.Boolean JsonSerializer::get_CheckAdditionalContent()
     bool get_CheckAdditionalContent();
     // public override System.Void set_CheckAdditionalContent(System.Boolean value)
-    // Offset: 0x2039778
+    // Offset: 0x2082FEC
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: System.Void JsonSerializer::set_CheckAdditionalContent(System.Boolean value)
     void set_CheckAdditionalContent(bool value);
     // public override System.Void add_Error(System.EventHandler`1<Newtonsoft.Json.Serialization.ErrorEventArgs> value)
-    // Offset: 0x20393F4
+    // Offset: 0x2082C68
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: System.Void JsonSerializer::add_Error(System.EventHandler`1<Newtonsoft.Json.Serialization.ErrorEventArgs> value)
     void add_Error(::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* value);
     // public override System.Void remove_Error(System.EventHandler`1<Newtonsoft.Json.Serialization.ErrorEventArgs> value)
-    // Offset: 0x2039414
+    // Offset: 0x2082C88
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: System.Void JsonSerializer::remove_Error(System.EventHandler`1<Newtonsoft.Json.Serialization.ErrorEventArgs> value)
     void remove_Error(::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* value);
     // override System.Object DeserializeInternal(Newtonsoft.Json.JsonReader reader, System.Type objectType)
-    // Offset: 0x203993C
+    // Offset: 0x20831B0
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: System.Object JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader reader, System.Type objectType)
     ::Il2CppObject* DeserializeInternal(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType);
     // override System.Void PopulateInternal(Newtonsoft.Json.JsonReader reader, System.Object target)
-    // Offset: 0x2039970
+    // Offset: 0x20831E4
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: System.Void JsonSerializer::PopulateInternal(Newtonsoft.Json.JsonReader reader, System.Object target)
     void PopulateInternal(::Newtonsoft::Json::JsonReader* reader, ::Il2CppObject* target);
     // override System.Void SerializeInternal(Newtonsoft.Json.JsonWriter jsonWriter, System.Object value, System.Type rootType)
-    // Offset: 0x20399A0
+    // Offset: 0x2083214
     // Implemented from: Newtonsoft.Json.JsonSerializer
     // Base method: System.Void JsonSerializer::SerializeInternal(Newtonsoft.Json.JsonWriter jsonWriter, System.Object value, System.Type rootType)
     void SerializeInternal(::Newtonsoft::Json::JsonWriter* jsonWriter, ::Il2CppObject* value, ::System::Type* rootType);

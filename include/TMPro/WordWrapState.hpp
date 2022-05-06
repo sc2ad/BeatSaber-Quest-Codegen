@@ -368,115 +368,115 @@ namespace TMPro {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 previous_WordBreak
-    int& dyn_previous_WordBreak();
+    [[deprecated("Use field access instead!")]] int& dyn_previous_WordBreak();
     // Get instance field reference: public System.Int32 total_CharacterCount
-    int& dyn_total_CharacterCount();
+    [[deprecated("Use field access instead!")]] int& dyn_total_CharacterCount();
     // Get instance field reference: public System.Int32 visible_CharacterCount
-    int& dyn_visible_CharacterCount();
+    [[deprecated("Use field access instead!")]] int& dyn_visible_CharacterCount();
     // Get instance field reference: public System.Int32 visible_SpriteCount
-    int& dyn_visible_SpriteCount();
+    [[deprecated("Use field access instead!")]] int& dyn_visible_SpriteCount();
     // Get instance field reference: public System.Int32 visible_LinkCount
-    int& dyn_visible_LinkCount();
+    [[deprecated("Use field access instead!")]] int& dyn_visible_LinkCount();
     // Get instance field reference: public System.Int32 firstCharacterIndex
-    int& dyn_firstCharacterIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_firstCharacterIndex();
     // Get instance field reference: public System.Int32 firstVisibleCharacterIndex
-    int& dyn_firstVisibleCharacterIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_firstVisibleCharacterIndex();
     // Get instance field reference: public System.Int32 lastCharacterIndex
-    int& dyn_lastCharacterIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_lastCharacterIndex();
     // Get instance field reference: public System.Int32 lastVisibleCharIndex
-    int& dyn_lastVisibleCharIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_lastVisibleCharIndex();
     // Get instance field reference: public System.Int32 lineNumber
-    int& dyn_lineNumber();
+    [[deprecated("Use field access instead!")]] int& dyn_lineNumber();
     // Get instance field reference: public System.Single maxCapHeight
-    float& dyn_maxCapHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_maxCapHeight();
     // Get instance field reference: public System.Single maxAscender
-    float& dyn_maxAscender();
+    [[deprecated("Use field access instead!")]] float& dyn_maxAscender();
     // Get instance field reference: public System.Single maxDescender
-    float& dyn_maxDescender();
+    [[deprecated("Use field access instead!")]] float& dyn_maxDescender();
     // Get instance field reference: public System.Single maxLineAscender
-    float& dyn_maxLineAscender();
+    [[deprecated("Use field access instead!")]] float& dyn_maxLineAscender();
     // Get instance field reference: public System.Single maxLineDescender
-    float& dyn_maxLineDescender();
+    [[deprecated("Use field access instead!")]] float& dyn_maxLineDescender();
     // Get instance field reference: public System.Single previousLineAscender
-    float& dyn_previousLineAscender();
+    [[deprecated("Use field access instead!")]] float& dyn_previousLineAscender();
     // Get instance field reference: public System.Single xAdvance
-    float& dyn_xAdvance();
+    [[deprecated("Use field access instead!")]] float& dyn_xAdvance();
     // Get instance field reference: public System.Single preferredWidth
-    float& dyn_preferredWidth();
+    [[deprecated("Use field access instead!")]] float& dyn_preferredWidth();
     // Get instance field reference: public System.Single preferredHeight
-    float& dyn_preferredHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_preferredHeight();
     // Get instance field reference: public System.Single previousLineScale
-    float& dyn_previousLineScale();
+    [[deprecated("Use field access instead!")]] float& dyn_previousLineScale();
     // Get instance field reference: public System.Int32 wordCount
-    int& dyn_wordCount();
+    [[deprecated("Use field access instead!")]] int& dyn_wordCount();
     // Get instance field reference: public TMPro.FontStyles fontStyle
-    ::TMPro::FontStyles& dyn_fontStyle();
+    [[deprecated("Use field access instead!")]] ::TMPro::FontStyles& dyn_fontStyle();
     // Get instance field reference: public System.Single fontScale
-    float& dyn_fontScale();
+    [[deprecated("Use field access instead!")]] float& dyn_fontScale();
     // Get instance field reference: public System.Single fontScaleMultiplier
-    float& dyn_fontScaleMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn_fontScaleMultiplier();
     // Get instance field reference: public System.Single currentFontSize
-    float& dyn_currentFontSize();
+    [[deprecated("Use field access instead!")]] float& dyn_currentFontSize();
     // Get instance field reference: public System.Single baselineOffset
-    float& dyn_baselineOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_baselineOffset();
     // Get instance field reference: public System.Single lineOffset
-    float& dyn_lineOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_lineOffset();
     // Get instance field reference: public TMPro.TMP_TextInfo textInfo
-    ::TMPro::TMP_TextInfo*& dyn_textInfo();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_TextInfo*& dyn_textInfo();
     // Get instance field reference: public TMPro.TMP_LineInfo lineInfo
-    ::TMPro::TMP_LineInfo& dyn_lineInfo();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_LineInfo& dyn_lineInfo();
     // Get instance field reference: public UnityEngine.Color32 vertexColor
-    ::UnityEngine::Color32& dyn_vertexColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color32& dyn_vertexColor();
     // Get instance field reference: public UnityEngine.Color32 underlineColor
-    ::UnityEngine::Color32& dyn_underlineColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color32& dyn_underlineColor();
     // Get instance field reference: public UnityEngine.Color32 strikethroughColor
-    ::UnityEngine::Color32& dyn_strikethroughColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color32& dyn_strikethroughColor();
     // Get instance field reference: public UnityEngine.Color32 highlightColor
-    ::UnityEngine::Color32& dyn_highlightColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color32& dyn_highlightColor();
     // Get instance field reference: public TMPro.TMP_FontStyleStack basicStyleStack
-    ::TMPro::TMP_FontStyleStack& dyn_basicStyleStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_FontStyleStack& dyn_basicStyleStack();
     // Get instance field reference: public TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> colorStack
-    ::TMPro::TMP_RichTextTagStack_1<::UnityEngine::Color32>& dyn_colorStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<::UnityEngine::Color32>& dyn_colorStack();
     // Get instance field reference: public TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> underlineColorStack
-    ::TMPro::TMP_RichTextTagStack_1<::UnityEngine::Color32>& dyn_underlineColorStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<::UnityEngine::Color32>& dyn_underlineColorStack();
     // Get instance field reference: public TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> strikethroughColorStack
-    ::TMPro::TMP_RichTextTagStack_1<::UnityEngine::Color32>& dyn_strikethroughColorStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<::UnityEngine::Color32>& dyn_strikethroughColorStack();
     // Get instance field reference: public TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> highlightColorStack
-    ::TMPro::TMP_RichTextTagStack_1<::UnityEngine::Color32>& dyn_highlightColorStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<::UnityEngine::Color32>& dyn_highlightColorStack();
     // Get instance field reference: public TMPro.TMP_RichTextTagStack`1<TMPro.TMP_ColorGradient> colorGradientStack
-    ::TMPro::TMP_RichTextTagStack_1<::TMPro::TMP_ColorGradient*>& dyn_colorGradientStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<::TMPro::TMP_ColorGradient*>& dyn_colorGradientStack();
     // Get instance field reference: public TMPro.TMP_RichTextTagStack`1<System.Single> sizeStack
-    ::TMPro::TMP_RichTextTagStack_1<float>& dyn_sizeStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<float>& dyn_sizeStack();
     // Get instance field reference: public TMPro.TMP_RichTextTagStack`1<System.Single> indentStack
-    ::TMPro::TMP_RichTextTagStack_1<float>& dyn_indentStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<float>& dyn_indentStack();
     // Get instance field reference: public TMPro.TMP_RichTextTagStack`1<TMPro.FontWeight> fontWeightStack
-    ::TMPro::TMP_RichTextTagStack_1<::TMPro::FontWeight>& dyn_fontWeightStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<::TMPro::FontWeight>& dyn_fontWeightStack();
     // Get instance field reference: public TMPro.TMP_RichTextTagStack`1<System.Int32> styleStack
-    ::TMPro::TMP_RichTextTagStack_1<int>& dyn_styleStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<int>& dyn_styleStack();
     // Get instance field reference: public TMPro.TMP_RichTextTagStack`1<System.Single> baselineStack
-    ::TMPro::TMP_RichTextTagStack_1<float>& dyn_baselineStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<float>& dyn_baselineStack();
     // Get instance field reference: public TMPro.TMP_RichTextTagStack`1<System.Int32> actionStack
-    ::TMPro::TMP_RichTextTagStack_1<int>& dyn_actionStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<int>& dyn_actionStack();
     // Get instance field reference: public TMPro.TMP_RichTextTagStack`1<TMPro.MaterialReference> materialReferenceStack
-    ::TMPro::TMP_RichTextTagStack_1<::TMPro::MaterialReference>& dyn_materialReferenceStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<::TMPro::MaterialReference>& dyn_materialReferenceStack();
     // Get instance field reference: public TMPro.TMP_RichTextTagStack`1<TMPro.TextAlignmentOptions> lineJustificationStack
-    ::TMPro::TMP_RichTextTagStack_1<::TMPro::TextAlignmentOptions>& dyn_lineJustificationStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<::TMPro::TextAlignmentOptions>& dyn_lineJustificationStack();
     // Get instance field reference: public System.Int32 spriteAnimationID
-    int& dyn_spriteAnimationID();
+    [[deprecated("Use field access instead!")]] int& dyn_spriteAnimationID();
     // Get instance field reference: public TMPro.TMP_FontAsset currentFontAsset
-    ::TMPro::TMP_FontAsset*& dyn_currentFontAsset();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_FontAsset*& dyn_currentFontAsset();
     // Get instance field reference: public TMPro.TMP_SpriteAsset currentSpriteAsset
-    ::TMPro::TMP_SpriteAsset*& dyn_currentSpriteAsset();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_SpriteAsset*& dyn_currentSpriteAsset();
     // Get instance field reference: public UnityEngine.Material currentMaterial
-    ::UnityEngine::Material*& dyn_currentMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_currentMaterial();
     // Get instance field reference: public System.Int32 currentMaterialIndex
-    int& dyn_currentMaterialIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_currentMaterialIndex();
     // Get instance field reference: public TMPro.Extents meshExtents
-    ::TMPro::Extents& dyn_meshExtents();
+    [[deprecated("Use field access instead!")]] ::TMPro::Extents& dyn_meshExtents();
     // Get instance field reference: public System.Boolean tagNoParsing
-    bool& dyn_tagNoParsing();
+    [[deprecated("Use field access instead!")]] bool& dyn_tagNoParsing();
     // Get instance field reference: public System.Boolean isNonBreakingSpace
-    bool& dyn_isNonBreakingSpace();
+    [[deprecated("Use field access instead!")]] bool& dyn_isNonBreakingSpace();
   }; // TMPro.WordWrapState
   // WARNING Not writing size check since size may be invalid!
 }

@@ -29,22 +29,24 @@ namespace GlobalNamespace {
     operator ::System::Collections::IComparer() noexcept {
       return *reinterpret_cast<::System::Collections::IComparer*>(this);
     }
-    // public System.Int32 Compare(System.Object p0, System.Object p1)
-    // Offset: 0x1478298
-    int Compare(::Il2CppObject* p0, ::Il2CppObject* p1);
     // public System.Void .ctor()
-    // Offset: 0x1477BC8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14AE3B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutter::CuttableBySaberSortParamsComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutter::CuttableBySaberSortParamsComparer*, creationType>()));
     }
+    // public System.Int32 Compare(System.Object p0, System.Object p1)
+    // Offset: 0x14AEA80
+    int Compare(::Il2CppObject* p0, ::Il2CppObject* p1);
   }; // NoteCutter/CuttableBySaberSortParamsComparer
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer::Compare
 // Il2CppName: Compare
 template<>
@@ -55,7 +57,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p0, p1});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -35,20 +35,18 @@ namespace GlobalNamespace {
     // Set static field: static public Oculus.Platform.Message/Oculus.Platform.Callback <>9__6_0
     static void _set_$$9__6_0(::Oculus::Platform::Message::Callback* value);
     // static private System.Void .cctor()
-    // Offset: 0x150F630
+    // Offset: 0x1546F38
     static void _cctor();
-    // System.Void <InitCallback>b__6_0(Oculus.Platform.Message message)
-    // Offset: 0x150F69C
-    void $InitCallback$b__6_0(::Oculus::Platform::Message* message);
     // public System.Void .ctor()
-    // Offset: 0x150F694
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1546F9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusInit::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusInit::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusInit::$$c*, creationType>()));
     }
+    // System.Void <InitCallback>b__6_0(Oculus.Platform.Message message)
+    // Offset: 0x1546FA4
+    void $InitCallback$b__6_0(::Oculus::Platform::Message* message);
   }; // OculusInit/<>c
   #pragma pack(pop)
 }
@@ -61,6 +59,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusInit::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::OculusInit::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OculusInit::$$c::$InitCallback$b__6_0
 // Il2CppName: <InitCallback>b__6_0
 template<>
@@ -70,7 +72,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusInit::$$c*), "<InitCallback>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OculusInit::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

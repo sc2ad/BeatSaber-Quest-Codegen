@@ -37,10 +37,9 @@ namespace Newtonsoft::Json::Linq::JsonPath {
     // Nested type: ::Newtonsoft::Json::Linq::JsonPath::ArrayIndexFilter::$ExecuteFilter$d__4
     class $ExecuteFilter$d__4;
     // public System.Void .ctor()
-    // Offset: 0x1722AC8
+    // Offset: 0x175B3D8
     // Implemented from: Newtonsoft.Json.Linq.JsonPath.PathFilter
     // Base method: System.Void PathFilter::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArrayIndexFilter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JsonPath::ArrayIndexFilter::.ctor");

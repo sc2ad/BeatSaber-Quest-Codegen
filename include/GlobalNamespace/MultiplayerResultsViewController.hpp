@@ -61,15 +61,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerResultsViewController : public ::HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.GameObject _levelClearedGO
     // Size: 0x8
     // Offset: 0x70
@@ -126,60 +118,53 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.GameObject _levelClearedGO
-    ::UnityEngine::GameObject*& dyn__levelClearedGO();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__levelClearedGO();
     // Get instance field reference: private UnityEngine.GameObject _levelFailedGO
-    ::UnityEngine::GameObject*& dyn__levelFailedGO();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__levelFailedGO();
     // Get instance field reference: private UnityEngine.GameObject _levelResultsGO
-    ::UnityEngine::GameObject*& dyn__levelResultsGO();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__levelResultsGO();
     // Get instance field reference: private LevelBar _levelBar
-    ::GlobalNamespace::LevelBar*& dyn__levelBar();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelBar*& dyn__levelBar();
     // Get instance field reference: private ResultsTableView _resultsTableView
-    ::GlobalNamespace::ResultsTableView*& dyn__resultsTableView();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ResultsTableView*& dyn__resultsTableView();
     // Get instance field reference: private UnityEngine.UI.Button _backToLobbyButton
-    ::UnityEngine::UI::Button*& dyn__backToLobbyButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__backToLobbyButton();
     // Get instance field reference: private UnityEngine.UI.Button _backToMenuButton
-    ::UnityEngine::UI::Button*& dyn__backToMenuButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__backToMenuButton();
     // Get instance field reference: private System.Action`1<MultiplayerResultsViewController> backToLobbyPressedEvent
-    ::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>*& dyn_backToLobbyPressedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>*& dyn_backToLobbyPressedEvent();
     // Get instance field reference: private System.Action`1<MultiplayerResultsViewController> backToMenuPressedEvent
-    ::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>*& dyn_backToMenuPressedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>*& dyn_backToMenuPressedEvent();
     // public System.Void add_backToLobbyPressedEvent(System.Action`1<MultiplayerResultsViewController> value)
-    // Offset: 0x13A82B0
+    // Offset: 0x13A475C
     void add_backToLobbyPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* value);
     // public System.Void remove_backToLobbyPressedEvent(System.Action`1<MultiplayerResultsViewController> value)
-    // Offset: 0x13A8354
+    // Offset: 0x13A4800
     void remove_backToLobbyPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* value);
     // public System.Void add_backToMenuPressedEvent(System.Action`1<MultiplayerResultsViewController> value)
-    // Offset: 0x13A83F8
+    // Offset: 0x13A48A4
     void add_backToMenuPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* value);
     // public System.Void remove_backToMenuPressedEvent(System.Action`1<MultiplayerResultsViewController> value)
-    // Offset: 0x13A849C
+    // Offset: 0x13A4948
     void remove_backToMenuPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* value);
-    // public System.Void Init(MultiplayerResultsData multiplayerResultsData, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, System.Boolean showBackToLobbyButton, System.Boolean showBackToMenuButton)
-    // Offset: 0x13A8540
-    void Init(::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool showBackToLobbyButton, bool showBackToMenuButton);
-    // private System.Void BackToLobbyPressed()
-    // Offset: 0x13A87C0
-    void BackToLobbyPressed();
-    // private System.Void BackToMenuPressed()
-    // Offset: 0x13A8824
-    void BackToMenuPressed();
     // public System.Void .ctor()
-    // Offset: 0x13A8888
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13A4D34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerResultsViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerResultsViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsViewController*, creationType>()));
     }
+    // public System.Void Init(MultiplayerResultsData multiplayerResultsData, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, System.Boolean showBackToLobbyButton, System.Boolean showBackToMenuButton)
+    // Offset: 0x13A49EC
+    void Init(::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool showBackToLobbyButton, bool showBackToMenuButton);
+    // private System.Void BackToLobbyPressed()
+    // Offset: 0x13A4C6C
+    void BackToLobbyPressed();
+    // private System.Void BackToMenuPressed()
+    // Offset: 0x13A4CD0
+    void BackToMenuPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13A86C4
+    // Offset: 0x13A4B70
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -225,6 +210,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsViewController*), "remove_backToMenuPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsViewController::Init
 // Il2CppName: Init
 template<>
@@ -255,10 +244,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsViewController*), "BackToMenuPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

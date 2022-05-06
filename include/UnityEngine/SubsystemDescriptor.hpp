@@ -29,16 +29,8 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class SubsystemDescriptor : public ::Il2CppObject/*, public ::UnityEngine::ISubsystemDescriptor*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [DebuggerBrowsableAttribute] Offset: 0x11D6DF0
+    // [DebuggerBrowsableAttribute] Offset: 0x105C808
     // private System.String <id>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -55,14 +47,12 @@ namespace UnityEngine {
       return id;
     }
     // Get instance field reference: private System.String <id>k__BackingField
-    ::StringW& dyn_$id$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$id$k__BackingField();
     // public System.String get_id()
-    // Offset: 0x2A9313C
+    // Offset: 0x2AE8E88
     ::StringW get_id();
     // protected System.Void .ctor()
-    // Offset: 0x2A93144
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2AE8E90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubsystemDescriptor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::SubsystemDescriptor::.ctor");

@@ -66,7 +66,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EVRApplicationTransitionState VRApplicationTransition_NewAppLaunched
     static void _set_VRApplicationTransition_NewAppLaunched(::Valve::VR::EVRApplicationTransitionState value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Valve.VR.EVRApplicationTransitionState
   #pragma pack(pop)
   static check_size<sizeof(EVRApplicationTransitionState), 0 + sizeof(int)> __Valve_VR_EVRApplicationTransitionStateSizeCheck;

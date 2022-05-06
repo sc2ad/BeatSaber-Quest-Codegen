@@ -60,7 +60,7 @@ namespace LiteNetLib {
     // Set static field: static public LiteNetLib.ShutdownResult WasConnected
     static void _set_WasConnected(::LiteNetLib::ShutdownResult value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // LiteNetLib.ShutdownResult
   #pragma pack(pop)
   static check_size<sizeof(ShutdownResult), 0 + sizeof(int)> __LiteNetLib_ShutdownResultSizeCheck;

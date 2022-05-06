@@ -41,15 +41,7 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class PointLight : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Color color
     // Size: 0x10
     // Offset: 0x18
@@ -76,36 +68,28 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.List`1<PointLight> _lights
     static void _set__lights(::System::Collections::Generic::List_1<::GlobalNamespace::PointLight*>* value);
     // Get instance field reference: public UnityEngine.Color color
-    ::UnityEngine::Color& dyn_color();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_color();
     // Get instance field reference: public System.Single intensity
-    float& dyn_intensity();
+    [[deprecated("Use field access instead!")]] float& dyn_intensity();
     // static public System.Collections.Generic.List`1<PointLight> get_lights()
-    // Offset: 0x2AD85F0
+    // Offset: 0x1E81A00
     static ::System::Collections::Generic::List_1<::GlobalNamespace::PointLight*>* get_lights();
-    // protected System.Void OnEnable()
-    // Offset: 0x2AD8658
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x2AD86DC
-    void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x2AD8760
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E81B70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PointLight* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PointLight::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PointLight*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2AD8768
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x1E81B78
     static void _cctor();
+    // protected System.Void OnEnable()
+    // Offset: 0x1E81A68
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x1E81AEC
+    void OnDisable();
   }; // PointLight
   #pragma pack(pop)
   static check_size<sizeof(PointLight), 40 + sizeof(float)> __GlobalNamespace_PointLightSizeCheck;
@@ -118,6 +102,18 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::PointLight*>* (*)()>(&GlobalNamespace::PointLight::get_lights)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PointLight*), "get_lights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::PointLight::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::PointLight::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::PointLight::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PointLight*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PointLight::OnEnable
@@ -134,17 +130,5 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PointLight::*)()>(&GlobalNamespace::PointLight::OnDisable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PointLight*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::PointLight::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::PointLight::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::PointLight::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PointLight*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

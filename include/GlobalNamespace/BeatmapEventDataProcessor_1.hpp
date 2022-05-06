@@ -47,6 +47,13 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem*>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem*>*>(this);
     }
+    // protected System.Void .ctor()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static BeatmapEventDataProcessor_1<T>* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventDataProcessor_1::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<BeatmapEventDataProcessor_1<T>*, creationType>()));
+    }
     // public System.Void ProcessInsertedData(System.Collections.Generic.LinkedListNode`1<BeatmapDataItem> insertedNode)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void ProcessInsertedData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode) {
@@ -88,15 +95,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventDataProcessor_1::ProcessBeforeDeleteEventDataInternal");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ProcessBeforeDeleteEventDataInternal", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nodeToDelete)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, nodeToDelete);
-    }
-    // protected System.Void .ctor()
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BeatmapEventDataProcessor_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventDataProcessor_1::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<BeatmapEventDataProcessor_1<T>*, creationType>()));
     }
   }; // BeatmapEventDataProcessor`1
   // Could not write size check! Type: BeatmapEventDataProcessor`1 is generic, or has no fields that are valid for size checks!

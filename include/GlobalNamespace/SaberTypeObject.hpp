@@ -30,15 +30,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaberTypeObject : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private SaberType _saberType
     // Size: 0x4
     // Offset: 0x18
@@ -49,18 +41,12 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private SaberType _saberType
-    ::GlobalNamespace::SaberType& dyn__saberType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberType& dyn__saberType();
     // public SaberType get_saberType()
-    // Offset: 0x1420954
+    // Offset: 0x146200C
     ::GlobalNamespace::SaberType get_saberType();
     // public System.Void .ctor()
-    // Offset: 0x142095C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1462014
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberTypeObject* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberTypeObject::.ctor");

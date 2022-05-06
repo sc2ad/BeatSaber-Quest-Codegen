@@ -55,15 +55,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoteCutCoreEffectsSpawner : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _shockWaveYPos
     // Size: 0x4
     // Offset: 0x18
@@ -72,7 +64,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: shockWaveYPos and: noteCutParticlesEffect
     char __padding0[0x4] = {};
-    // [SpaceAttribute] Offset: 0x1250100
+    // [SpaceAttribute] Offset: 0x10D4C34
     // private NoteCutParticlesEffect _noteCutParticlesEffect
     // Size: 0x8
     // Offset: 0x20
@@ -103,21 +95,21 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BombExplosionEffect* bombExplosionEffect;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BombExplosionEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0x1250178
+    // [InjectAttribute] Offset: 0x10D4CAC
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ColorManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1250188
+    // [InjectAttribute] Offset: 0x10D4CBC
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1250198
+    // [InjectAttribute] Offset: 0x10D4CCC
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x58
@@ -152,57 +144,55 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kBurstSliderElementParticlesCount
     static void _set_kBurstSliderElementParticlesCount(int value);
     // Get instance field reference: private System.Single _shockWaveYPos
-    float& dyn__shockWaveYPos();
+    [[deprecated("Use field access instead!")]] float& dyn__shockWaveYPos();
     // Get instance field reference: private NoteCutParticlesEffect _noteCutParticlesEffect
-    ::GlobalNamespace::NoteCutParticlesEffect*& dyn__noteCutParticlesEffect();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutParticlesEffect*& dyn__noteCutParticlesEffect();
     // Get instance field reference: private NoteDebrisSpawner _noteDebrisSpawner
-    ::GlobalNamespace::NoteDebrisSpawner*& dyn__noteDebrisSpawner();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteDebrisSpawner*& dyn__noteDebrisSpawner();
     // Get instance field reference: private NoteCutHapticEffect _noteCutHapticEffect
-    ::GlobalNamespace::NoteCutHapticEffect*& dyn__noteCutHapticEffect();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutHapticEffect*& dyn__noteCutHapticEffect();
     // Get instance field reference: private ShockwaveEffect _shockwaveEffect
-    ::GlobalNamespace::ShockwaveEffect*& dyn__shockwaveEffect();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ShockwaveEffect*& dyn__shockwaveEffect();
     // Get instance field reference: private BombExplosionEffect _bombExplosionEffect
-    ::GlobalNamespace::BombExplosionEffect*& dyn__bombExplosionEffect();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BombExplosionEffect*& dyn__bombExplosionEffect();
     // Get instance field reference: private readonly ColorManager _colorManager
-    ::GlobalNamespace::ColorManager*& dyn__colorManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorManager*& dyn__colorManager();
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
-    ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
-    ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
-    // protected System.Void Start()
-    // Offset: 0x1474C54
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x1474CE0
-    void OnDestroy();
-    // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x1474D78
-    void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
-    // private System.Void SpawnNoteCutEffect(in NoteCutInfo noteCutInfo, NoteController noteController, System.Int32 sparkleParticlesCount, System.Int32 explosionParticlesCount)
-    // Offset: 0x1474F7C
-    void SpawnNoteCutEffect(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController, int sparkleParticlesCount, int explosionParticlesCount);
-    // private System.Void SpawnBombCutEffect(in NoteCutInfo noteCutInfo, NoteController noteController)
-    // Offset: 0x1474EB4
-    void SpawnBombCutEffect(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // public System.Void .ctor()
-    // Offset: 0x14760AC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14AC894
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutCoreEffectsSpawner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutCoreEffectsSpawner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutCoreEffectsSpawner*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x14AB43C
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x14AB4C8
+    void OnDestroy();
+    // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
+    // Offset: 0x14AB560
+    void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+    // private System.Void SpawnNoteCutEffect(in NoteCutInfo noteCutInfo, NoteController noteController, System.Int32 sparkleParticlesCount, System.Int32 explosionParticlesCount)
+    // Offset: 0x14AB764
+    void SpawnNoteCutEffect(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController, int sparkleParticlesCount, int explosionParticlesCount);
+    // private System.Void SpawnBombCutEffect(in NoteCutInfo noteCutInfo, NoteController noteController)
+    // Offset: 0x14AB69C
+    void SpawnBombCutEffect(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController);
   }; // NoteCutCoreEffectsSpawner
   #pragma pack(pop)
   static check_size<sizeof(NoteCutCoreEffectsSpawner), 88 + sizeof(::GlobalNamespace::AudioTimeSyncController*)> __GlobalNamespace_NoteCutCoreEffectsSpawnerSizeCheck;
   static_assert(sizeof(NoteCutCoreEffectsSpawner) == 0x60);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutCoreEffectsSpawner::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutCoreEffectsSpawner::Start
 // Il2CppName: Start
 template<>
@@ -251,7 +241,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutCoreEffectsSpawner*), "SpawnBombCutEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteCutInfo, noteController});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NoteCutCoreEffectsSpawner::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

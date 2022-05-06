@@ -66,15 +66,7 @@ namespace GlobalNamespace {
     class BTSResultCharacterPlaceWithAnimation;
     // Nested type: ::GlobalNamespace::BtsResultsEnvironmentController::$DestroyCharactersDelayed$d__11
     class $DestroyCharactersDelayed$d__11;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.GameObject _btsCharacterAnimationWrapper
     // Size: 0x8
     // Offset: 0x18
@@ -93,7 +85,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Playables::PlayableDirector* btsCharactersResultsAppearPlayableDirector;
     // Field size check
     static_assert(sizeof(::UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1248D20
+    // [SpaceAttribute] Offset: 0x10CD818
     // private BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation[] _resultPlacesWithAnimations
     // Size: 0x8
     // Offset: 0x30
@@ -116,50 +108,45 @@ namespace GlobalNamespace {
     // Set static field: static private BasicBeatmapEventType kCharacterDisplayEventType
     static void _set_kCharacterDisplayEventType(::GlobalNamespace::BasicBeatmapEventType value);
     // Get instance field reference: private UnityEngine.GameObject _btsCharacterAnimationWrapper
-    ::UnityEngine::GameObject*& dyn__btsCharacterAnimationWrapper();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__btsCharacterAnimationWrapper();
     // Get instance field reference: private BTSCharacterDataModel _btsCharacterDataModel
-    ::GlobalNamespace::BTSCharacterDataModel*& dyn__btsCharacterDataModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BTSCharacterDataModel*& dyn__btsCharacterDataModel();
     // Get instance field reference: private UnityEngine.Playables.PlayableDirector _btsCharactersResultsAppearPlayableDirector
-    ::UnityEngine::Playables::PlayableDirector*& dyn__btsCharactersResultsAppearPlayableDirector();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Playables::PlayableDirector*& dyn__btsCharactersResultsAppearPlayableDirector();
     // Get instance field reference: private BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation[] _resultPlacesWithAnimations
-    ::ArrayW<::GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*>& dyn__resultPlacesWithAnimations();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*>& dyn__resultPlacesWithAnimations();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> _handles
-    ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& dyn__handles();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& dyn__handles();
     // private System.Void SpawnBtsCharacters(BTSCharacterDataModel/PrefabWithId btsCharacterPrefabToSpawn, System.Boolean useAlternativeMaterial)
-    // Offset: 0x134DDF4
+    // Offset: 0x133703C
     void SpawnBtsCharacters(::GlobalNamespace::BTSCharacterDataModel::PrefabWithId* btsCharacterPrefabToSpawn, bool useAlternativeMaterial);
     // private System.Collections.IEnumerator DestroyCharactersDelayed()
-    // Offset: 0x134E3A0
+    // Offset: 0x13375E8
     ::System::Collections::IEnumerator* DestroyCharactersDelayed();
     // private System.Void DestroyCharactersAndStopAnimations()
-    // Offset: 0x134E310
+    // Offset: 0x1337558
     void DestroyCharactersAndStopAnimations();
     // public System.Void .ctor()
-    // Offset: 0x134E544
+    // Offset: 0x133778C
     // Implemented from: BaseResultsEnvironmentController
     // Base method: System.Void BaseResultsEnvironmentController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BtsResultsEnvironmentController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BtsResultsEnvironmentController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BtsResultsEnvironmentController*, creationType>()));
     }
     // public override System.Void Setup(IReadonlyBeatmapData beatmapData)
-    // Offset: 0x134D9DC
+    // Offset: 0x1336C24
     // Implemented from: BaseResultsEnvironmentController
     // Base method: System.Void BaseResultsEnvironmentController::Setup(IReadonlyBeatmapData beatmapData)
     void Setup(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
     // public override System.Void Activate(System.Boolean immediately)
-    // Offset: 0x134E0B8
+    // Offset: 0x1337300
     // Implemented from: BaseResultsEnvironmentController
     // Base method: System.Void BaseResultsEnvironmentController::Activate(System.Boolean immediately)
     void Activate(bool immediately);
     // public override System.Void Deactivate(System.Boolean immediately)
-    // Offset: 0x134E160
+    // Offset: 0x13373A8
     // Implemented from: BaseResultsEnvironmentController
     // Base method: System.Void BaseResultsEnvironmentController::Deactivate(System.Boolean immediately)
     void Deactivate(bool immediately);

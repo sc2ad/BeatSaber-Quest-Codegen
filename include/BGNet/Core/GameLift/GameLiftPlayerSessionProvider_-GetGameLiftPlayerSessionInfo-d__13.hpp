@@ -159,42 +159,42 @@ namespace BGNet::Core::GameLift {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<BGNet.Core.GameLift.PlayerSessionInfo> <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BGNet::Core::GameLift::PlayerSessionInfo*>& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BGNet::Core::GameLift::PlayerSessionInfo*>& dyn_$$t__builder();
     // Get instance field reference: public IAuthenticationTokenProvider authenticationTokenProvider
-    ::GlobalNamespace::IAuthenticationTokenProvider*& dyn_authenticationTokenProvider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAuthenticationTokenProvider*& dyn_authenticationTokenProvider();
     // Get instance field reference: public BGNet.Core.GameLift.GameLiftPlayerSessionProvider <>4__this
-    ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*& dyn_$$4__this();
     // Get instance field reference: public System.String userId
-    ::StringW& dyn_userId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_userId();
     // Get instance field reference: public BeatmapLevelSelectionMask beatmapLevelSelectionMask
-    ::GlobalNamespace::BeatmapLevelSelectionMask& dyn_beatmapLevelSelectionMask();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelSelectionMask& dyn_beatmapLevelSelectionMask();
     // Get instance field reference: public GameplayServerConfiguration gameplayServerConfiguration
-    ::GlobalNamespace::GameplayServerConfiguration& dyn_gameplayServerConfiguration();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayServerConfiguration& dyn_gameplayServerConfiguration();
     // Get instance field reference: public System.String secret
-    ::StringW& dyn_secret();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_secret();
     // Get instance field reference: public System.String code
-    ::StringW& dyn_code();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_code();
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
-    ::System::Threading::CancellationToken& dyn_cancellationToken();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: private System.Diagnostics.Stopwatch <stopwatch>5__2
-    ::System::Diagnostics::Stopwatch*& dyn_$stopwatch$5__2();
+    [[deprecated("Use field access instead!")]] ::System::Diagnostics::Stopwatch*& dyn_$stopwatch$5__2();
     // Get instance field reference: private System.String <ticketId>5__3
-    ::StringW& dyn_$ticketId$5__3();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$ticketId$5__3();
     // Get instance field reference: private System.String <placementId>5__4
-    ::StringW& dyn_$placementId$5__4();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$placementId$5__4();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<AuthenticationToken> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AuthenticationToken>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AuthenticationToken>& dyn_$$u__1();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<BGNet.Core.GameLift.GetMultiplayerInstanceResponse> <>u__2
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::GameLift::GetMultiplayerInstanceResponse>& dyn_$$u__2();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::GameLift::GetMultiplayerInstanceResponse>& dyn_$$u__2();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__3
-    ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__3();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__3();
     // private System.Void MoveNext()
-    // Offset: 0x14F3B04
+    // Offset: 0x152B40C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x14F4708
+    // Offset: 0x152C010
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BGNet.Core.GameLift.GameLiftPlayerSessionProvider/BGNet.Core.GameLift.<GetGameLiftPlayerSessionInfo>d__13
   // WARNING Not writing size check since size may be invalid!

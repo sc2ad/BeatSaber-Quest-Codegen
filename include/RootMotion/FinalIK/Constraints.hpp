@@ -35,15 +35,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class Constraints : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
@@ -68,7 +60,7 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Vector3 position;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [RangeAttribute] Offset: 0x1272D9C
+    // [RangeAttribute] Offset: 0x10F7A54
     // public System.Single positionWeight
     // Size: 0x4
     // Offset: 0x38
@@ -87,7 +79,7 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Vector3 rotation;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [RangeAttribute] Offset: 0x1272DB4
+    // [RangeAttribute] Offset: 0x10F7A6C
     // public System.Single rotationWeight
     // Size: 0x4
     // Offset: 0x54
@@ -96,45 +88,47 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public UnityEngine.Transform transform
-    ::UnityEngine::Transform*& dyn_transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public UnityEngine.Transform target
-    ::UnityEngine::Transform*& dyn_target();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_target();
     // Get instance field reference: public UnityEngine.Vector3 positionOffset
-    ::UnityEngine::Vector3& dyn_positionOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_positionOffset();
     // Get instance field reference: public UnityEngine.Vector3 position
-    ::UnityEngine::Vector3& dyn_position();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_position();
     // Get instance field reference: public System.Single positionWeight
-    float& dyn_positionWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_positionWeight();
     // Get instance field reference: public UnityEngine.Vector3 rotationOffset
-    ::UnityEngine::Vector3& dyn_rotationOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_rotationOffset();
     // Get instance field reference: public UnityEngine.Vector3 rotation
-    ::UnityEngine::Vector3& dyn_rotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_rotation();
     // Get instance field reference: public System.Single rotationWeight
-    float& dyn_rotationWeight();
-    // public System.Boolean IsValid()
-    // Offset: 0x22055B0
-    bool IsValid();
-    // public System.Void Initiate(UnityEngine.Transform transform)
-    // Offset: 0x2204034
-    void Initiate(::UnityEngine::Transform* transform);
-    // public System.Void Update()
-    // Offset: 0x2204210
-    void Update();
+    [[deprecated("Use field access instead!")]] float& dyn_rotationWeight();
     // public System.Void .ctor()
-    // Offset: 0x2204938
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x22521AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Constraints* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::Constraints::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Constraints*, creationType>()));
     }
+    // public System.Boolean IsValid()
+    // Offset: 0x2252E24
+    bool IsValid();
+    // public System.Void Initiate(UnityEngine.Transform transform)
+    // Offset: 0x22518A8
+    void Initiate(::UnityEngine::Transform* transform);
+    // public System.Void Update()
+    // Offset: 0x2251A84
+    void Update();
   }; // RootMotion.FinalIK.Constraints
   #pragma pack(pop)
   static check_size<sizeof(Constraints), 84 + sizeof(float)> __RootMotion_FinalIK_ConstraintsSizeCheck;
   static_assert(sizeof(Constraints) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::Constraints::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::Constraints::IsValid
 // Il2CppName: IsValid
 template<>
@@ -160,7 +154,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Constraints*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::Constraints::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

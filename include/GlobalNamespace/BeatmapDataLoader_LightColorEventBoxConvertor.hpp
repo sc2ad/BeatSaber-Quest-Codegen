@@ -38,14 +38,13 @@ namespace GlobalNamespace {
   class BeatmapDataLoader::LightColorEventBoxConvertor : public ::GlobalNamespace::DataItemConvertor_4<::GlobalNamespace::BeatmapEventDataBox*, ::BeatmapSaveDataVersion3::BeatmapSaveData::LightColorEventBox*, ::GlobalNamespace::LightColorBeatmapEventDataBox*, ::GlobalNamespace::EnvironmentLightGroups::LightGroupData*> {
     public:
     // protected LightColorBeatmapEventDataBox Convert(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightColorEventBox saveData, EnvironmentLightGroups/LightGroupData lightGroupData)
-    // Offset: 0x136B8C4
+    // Offset: 0x1353B50
     ::GlobalNamespace::LightColorBeatmapEventDataBox* Convert(::BeatmapSaveDataVersion3::BeatmapSaveData::LightColorEventBox* saveData, ::GlobalNamespace::EnvironmentLightGroups::LightGroupData* lightGroupData);
     // public System.Void .ctor()
-    // Offset: 0x136B324
+    // Offset: 0x13535A8
     // Implemented from: DataItemConvertor`4
     // Base method: System.Void DataItemConvertor_4::.ctor()
     // Base method: System.Void DataItemConvertor_2::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataLoader::LightColorEventBoxConvertor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataLoader::LightColorEventBoxConvertor::.ctor");

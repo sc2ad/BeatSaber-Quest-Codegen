@@ -31,15 +31,7 @@ namespace UnityEngine::AddressableAssets {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class AddressablesImpl::$$c__DisplayClass53_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator loc
     // Size: 0x8
     // Offset: 0x10
@@ -52,25 +44,27 @@ namespace UnityEngine::AddressableAssets {
       return loc;
     }
     // Get instance field reference: public UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator loc
-    ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*& dyn_loc();
-    // System.Boolean <RemoveResourceLocator>b__0(UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo l)
-    // Offset: 0x188B700
-    bool $RemoveResourceLocator$b__0(::UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo* l);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*& dyn_loc();
     // public System.Void .ctor()
-    // Offset: 0x18856AC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18BEFBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddressablesImpl::$$c__DisplayClass53_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass53_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddressablesImpl::$$c__DisplayClass53_0*, creationType>()));
     }
+    // System.Boolean <RemoveResourceLocator>b__0(UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo l)
+    // Offset: 0x18C5010
+    bool $RemoveResourceLocator$b__0(::UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo* l);
   }; // UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.<>c__DisplayClass53_0
   #pragma pack(pop)
   static check_size<sizeof(AddressablesImpl::$$c__DisplayClass53_0), 16 + sizeof(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*)> __UnityEngine_AddressableAssets_AddressablesImpl_$$c__DisplayClass53_0SizeCheck;
   static_assert(sizeof(AddressablesImpl::$$c__DisplayClass53_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass53_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass53_0::$RemoveResourceLocator$b__0
 // Il2CppName: <RemoveResourceLocator>b__0
 template<>
@@ -80,7 +74,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass53_0*), "<RemoveResourceLocator>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{l});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass53_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

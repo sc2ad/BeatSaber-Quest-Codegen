@@ -39,15 +39,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlCachedStream : public ::System::IO::MemoryStream {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Uri uri
     // Size: 0x8
     // Offset: 0x50
@@ -56,9 +48,9 @@ namespace System::Xml {
     static_assert(sizeof(::System::Uri*) == 0x8);
     public:
     // Get instance field reference: private System.Uri uri
-    ::System::Uri*& dyn_uri();
+    [[deprecated("Use field access instead!")]] ::System::Uri*& dyn_uri();
     // System.Void .ctor(System.Uri uri, System.IO.Stream stream)
-    // Offset: 0x1B74D88
+    // Offset: 0x1BAF370
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlCachedStream* New_ctor(::System::Uri* uri, ::System::IO::Stream* stream) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlCachedStream::.ctor");

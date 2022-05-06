@@ -60,7 +60,7 @@ namespace System::Runtime::CompilerServices {
     // Set static field: static public System.Runtime.CompilerServices.LoadHint Sometimes
     static void _set_Sometimes(::System::Runtime::CompilerServices::LoadHint value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Runtime.CompilerServices.LoadHint
   #pragma pack(pop)
   static check_size<sizeof(LoadHint), 0 + sizeof(int)> __System_Runtime_CompilerServices_LoadHintSizeCheck;

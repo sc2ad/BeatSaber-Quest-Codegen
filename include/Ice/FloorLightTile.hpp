@@ -60,15 +60,7 @@ namespace Ice {
     public:
     // Nested type: ::Ice::FloorLightTile::Pool
     class Pool;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MaterialPropertyBlockColorSetter _colorSetter
     // Size: 0x8
     // Offset: 0x18
@@ -81,7 +73,7 @@ namespace Ice {
     ::GlobalNamespace::TubeBloomPrePassLight* tubeBloomPrePassLight;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::TubeBloomPrePassLight*) == 0x8);
-    // [InjectAttribute] Offset: 0x127BC10
+    // [InjectAttribute] Offset: 0x11008C8
     // private readonly Tweening.SongTimeTweeningManager _songTimeTweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -110,54 +102,52 @@ namespace Ice {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MaterialPropertyBlockColorSetter _colorSetter
-    ::GlobalNamespace::MaterialPropertyBlockColorSetter*& dyn__colorSetter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MaterialPropertyBlockColorSetter*& dyn__colorSetter();
     // Get instance field reference: private TubeBloomPrePassLight _tubeBloomPrePassLight
-    ::GlobalNamespace::TubeBloomPrePassLight*& dyn__tubeBloomPrePassLight();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TubeBloomPrePassLight*& dyn__tubeBloomPrePassLight();
     // Get instance field reference: private readonly Tweening.SongTimeTweeningManager _songTimeTweeningManager
-    ::Tweening::SongTimeTweeningManager*& dyn__songTimeTweeningManager();
+    [[deprecated("Use field access instead!")]] ::Tweening::SongTimeTweeningManager*& dyn__songTimeTweeningManager();
     // Get instance field reference: public System.Action`1<Ice.FloorLightTile> didFinish
-    ::System::Action_1<::Ice::FloorLightTile*>*& dyn_didFinish();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::Ice::FloorLightTile*>*& dyn_didFinish();
     // Get instance field reference: private Tweening.ColorTween _fadeInTween
-    ::Tweening::ColorTween*& dyn__fadeInTween();
+    [[deprecated("Use field access instead!")]] ::Tweening::ColorTween*& dyn__fadeInTween();
     // Get instance field reference: private Tweening.ColorTween _fadeOutTween
-    ::Tweening::ColorTween*& dyn__fadeOutTween();
-    // protected System.Void Awake()
-    // Offset: 0x2A6FCE4
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x2A6FF18
-    void OnDestroy();
-    // public System.Void HighlightWithColor(UnityEngine.Color color, System.Single fadeInDuration, System.Single fadeOutDuration)
-    // Offset: 0x2A6FFC8
-    void HighlightWithColor(::UnityEngine::Color color, float fadeInDuration, float fadeOutDuration);
-    // private System.Void HandleFadeInTweenOnCompleted()
-    // Offset: 0x2A700D4
-    void HandleFadeInTweenOnCompleted();
-    // private System.Void HandleFadeOutTweenOnCompleted()
-    // Offset: 0x2A700F8
-    void HandleFadeOutTweenOnCompleted();
-    // private System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x2A7015C
-    void SetColor(::UnityEngine::Color color);
+    [[deprecated("Use field access instead!")]] ::Tweening::ColorTween*& dyn__fadeOutTween();
     // public System.Void .ctor()
-    // Offset: 0x2A701CC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2AC8534
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FloorLightTile* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Ice::FloorLightTile::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FloorLightTile*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x2AC804C
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x2AC8280
+    void OnDestroy();
+    // public System.Void HighlightWithColor(UnityEngine.Color color, System.Single fadeInDuration, System.Single fadeOutDuration)
+    // Offset: 0x2AC8330
+    void HighlightWithColor(::UnityEngine::Color color, float fadeInDuration, float fadeOutDuration);
+    // private System.Void HandleFadeInTweenOnCompleted()
+    // Offset: 0x2AC843C
+    void HandleFadeInTweenOnCompleted();
+    // private System.Void HandleFadeOutTweenOnCompleted()
+    // Offset: 0x2AC8460
+    void HandleFadeOutTweenOnCompleted();
+    // private System.Void SetColor(UnityEngine.Color color)
+    // Offset: 0x2AC84C4
+    void SetColor(::UnityEngine::Color color);
   }; // Ice.FloorLightTile
   #pragma pack(pop)
   static check_size<sizeof(FloorLightTile), 64 + sizeof(::Tweening::ColorTween*)> __Ice_FloorLightTileSizeCheck;
   static_assert(sizeof(FloorLightTile) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Ice::FloorLightTile::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Ice::FloorLightTile::Awake
 // Il2CppName: Awake
 template<>
@@ -210,7 +200,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Ice::
     return ::il2cpp_utils::FindMethod(classof(Ice::FloorLightTile*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
   }
 };
-// Writing MetadataGetter for method: Ice::FloorLightTile::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

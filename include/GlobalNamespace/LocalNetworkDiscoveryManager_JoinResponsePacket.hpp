@@ -39,15 +39,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalNetworkDiscoveryManager::JoinResponsePacket : public ::Il2CppObject/*, public ::LiteNetLib::Utils::INetSerializable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String userId
     // Size: 0x8
     // Offset: 0x10
@@ -98,40 +90,42 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
     // Get instance field reference: public System.String userId
-    ::StringW& dyn_userId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_userId();
     // Get instance field reference: public System.String secret
-    ::StringW& dyn_secret();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_secret();
     // Get instance field reference: public System.Int32 multiplayerPort
-    int& dyn_multiplayerPort();
+    [[deprecated("Use field access instead!")]] int& dyn_multiplayerPort();
     // Get instance field reference: public System.Boolean blocked
-    bool& dyn_blocked();
+    [[deprecated("Use field access instead!")]] bool& dyn_blocked();
     // Get instance field reference: public System.Boolean isPartyOwner
-    bool& dyn_isPartyOwner();
+    [[deprecated("Use field access instead!")]] bool& dyn_isPartyOwner();
     // Get instance field reference: public BeatmapLevelSelectionMask selectionMask
-    ::GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
     // Get instance field reference: public GameplayServerConfiguration configuration
-    ::GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
-    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x152B6B8
-    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
-    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x152B750
-    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
     // public System.Void .ctor()
-    // Offset: 0x15287C0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15600C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalNetworkDiscoveryManager::JoinResponsePacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalNetworkDiscoveryManager::JoinResponsePacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalNetworkDiscoveryManager::JoinResponsePacket*, creationType>()));
     }
+    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x1562FC0
+    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x1563058
+    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
   }; // LocalNetworkDiscoveryManager/JoinResponsePacket
   #pragma pack(pop)
   static check_size<sizeof(LocalNetworkDiscoveryManager::JoinResponsePacket), 64 + sizeof(::GlobalNamespace::GameplayServerConfiguration)> __GlobalNamespace_LocalNetworkDiscoveryManager_JoinResponsePacketSizeCheck;
   static_assert(sizeof(LocalNetworkDiscoveryManager::JoinResponsePacket) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::JoinResponsePacket::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::JoinResponsePacket::Serialize
 // Il2CppName: Serialize
 template<>
@@ -150,7 +144,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager::JoinResponsePacket*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::JoinResponsePacket::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

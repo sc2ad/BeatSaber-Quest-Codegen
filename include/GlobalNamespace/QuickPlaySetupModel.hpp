@@ -60,16 +60,8 @@ namespace GlobalNamespace {
     class QuickPlaySetupDataFB;
     // Nested type: ::GlobalNamespace::QuickPlaySetupModel::$GetQuickPlaySetupInternal$d__10
     struct $GetQuickPlaySetupInternal$d__10;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x124D224
+    // [InjectAttribute] Offset: 0x10D1D1C
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
     // Offset: 0x10
@@ -112,46 +104,48 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kRequestTimeoutSeconds
     static void _set_kRequestTimeoutSeconds(int value);
     // Get instance field reference: private readonly INetworkConfig _networkConfig
-    ::GlobalNamespace::INetworkConfig*& dyn__networkConfig();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::INetworkConfig*& dyn__networkConfig();
     // Get instance field reference: private readonly System.Net.Http.HttpClient _client
-    ::System::Net::Http::HttpClient*& dyn__client();
+    [[deprecated("Use field access instead!")]] ::System::Net::Http::HttpClient*& dyn__client();
     // Get instance field reference: private System.Threading.Tasks.Task`1<QuickPlaySetupData> _request
-    ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>*& dyn__request();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>*& dyn__request();
     // Get instance field reference: private System.DateTime _lastRequestTime
-    ::System::DateTime& dyn__lastRequestTime();
-    // public System.Threading.Tasks.Task`1<QuickPlaySetupData> GetQuickPlaySetupAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x137AA7C
-    ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupAsync(::System::Threading::CancellationToken cancellationToken);
-    // private System.Void Init()
-    // Offset: 0x137AC74
-    void Init();
-    // private System.Void StartRequest()
-    // Offset: 0x137ABFC
-    void StartRequest();
-    // private System.Threading.Tasks.Task`1<QuickPlaySetupData> GetQuickPlaySetupInternal()
-    // Offset: 0x137AC78
-    ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupInternal();
-    // private System.Boolean IsQuickPlaySetupTaskValid()
-    // Offset: 0x137AAF0
-    bool IsQuickPlaySetupTaskValid();
-    // private System.Boolean IsUrlValid(System.String url)
-    // Offset: 0x137AD98
-    bool IsUrlValid(::StringW url);
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn__lastRequestTime();
     // public System.Void .ctor()
-    // Offset: 0x137AE04
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13E214C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static QuickPlaySetupModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::QuickPlaySetupModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<QuickPlaySetupModel*, creationType>()));
     }
+    // public System.Threading.Tasks.Task`1<QuickPlaySetupData> GetQuickPlaySetupAsync(System.Threading.CancellationToken cancellationToken)
+    // Offset: 0x13E1DC4
+    ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupAsync(::System::Threading::CancellationToken cancellationToken);
+    // private System.Void Init()
+    // Offset: 0x13E1FBC
+    void Init();
+    // private System.Void StartRequest()
+    // Offset: 0x13E1F44
+    void StartRequest();
+    // private System.Threading.Tasks.Task`1<QuickPlaySetupData> GetQuickPlaySetupInternal()
+    // Offset: 0x13E1FC0
+    ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupInternal();
+    // private System.Boolean IsQuickPlaySetupTaskValid()
+    // Offset: 0x13E1E38
+    bool IsQuickPlaySetupTaskValid();
+    // private System.Boolean IsUrlValid(System.String url)
+    // Offset: 0x13E20E0
+    bool IsUrlValid(::StringW url);
   }; // QuickPlaySetupModel
   #pragma pack(pop)
   static check_size<sizeof(QuickPlaySetupModel), 40 + sizeof(::System::DateTime)> __GlobalNamespace_QuickPlaySetupModelSizeCheck;
   static_assert(sizeof(QuickPlaySetupModel) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::QuickPlaySetupModel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlaySetupModel::GetQuickPlaySetupAsync
 // Il2CppName: GetQuickPlaySetupAsync
 template<>
@@ -202,7 +196,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlaySetupModel*), "IsUrlValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{url});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::QuickPlaySetupModel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -78,21 +78,21 @@ namespace System {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt16 Scheme
-    uint16_t& dyn_Scheme();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_Scheme();
     // Get instance field reference: public System.UInt16 User
-    uint16_t& dyn_User();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_User();
     // Get instance field reference: public System.UInt16 Host
-    uint16_t& dyn_Host();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_Host();
     // Get instance field reference: public System.UInt16 PortValue
-    uint16_t& dyn_PortValue();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_PortValue();
     // Get instance field reference: public System.UInt16 Path
-    uint16_t& dyn_Path();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_Path();
     // Get instance field reference: public System.UInt16 Query
-    uint16_t& dyn_Query();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_Query();
     // Get instance field reference: public System.UInt16 Fragment
-    uint16_t& dyn_Fragment();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_Fragment();
     // Get instance field reference: public System.UInt16 End
-    uint16_t& dyn_End();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_End();
   }; // System.Uri/System.Offset
   #pragma pack(pop)
   static check_size<sizeof(Uri::Offset), 14 + sizeof(uint16_t)> __System_Uri_OffsetSizeCheck;

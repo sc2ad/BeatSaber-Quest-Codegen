@@ -81,22 +81,22 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<GetAssetBundleFileResult> <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult>& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult>& dyn_$$t__builder();
     // Get instance field reference: public OculusBeatmapDataAssetFileModel <>4__this
-    ::GlobalNamespace::OculusBeatmapDataAssetFileModel*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OculusBeatmapDataAssetFileModel*& dyn_$$4__this();
     // Get instance field reference: public Oculus.Platform.Models.AssetDetails assetDetails
-    ::Oculus::Platform::Models::AssetDetails*& dyn_assetDetails();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::AssetDetails*& dyn_assetDetails();
     // Get instance field reference: public System.String levelId
-    ::StringW& dyn_levelId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_levelId();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<GetAssetBundleFileResult> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x150A9F4
+    // Offset: 0x15422FC
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x150B09C
+    // Offset: 0x15429A4
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusBeatmapDataAssetFileModel/<GetDownloadAssetBundleFileAsync>d__16
   // WARNING Not writing size check since size may be invalid!

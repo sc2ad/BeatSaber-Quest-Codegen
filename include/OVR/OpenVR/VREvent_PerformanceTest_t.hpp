@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
       return m_nFidelityLevel;
     }
     // Get instance field reference: public System.UInt32 m_nFidelityLevel
-    uint& dyn_m_nFidelityLevel();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nFidelityLevel();
   }; // OVR.OpenVR.VREvent_PerformanceTest_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_PerformanceTest_t), 0 + sizeof(uint)> __OVR_OpenVR_VREvent_PerformanceTest_tSizeCheck;

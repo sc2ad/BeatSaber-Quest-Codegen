@@ -49,15 +49,7 @@ namespace System::IO {
     public:
     // Nested type: ::System::IO::Stream::SynchronousAsyncResult::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Object _stateObject
     // Size: 0x8
     // Offset: 0x10
@@ -104,58 +96,58 @@ namespace System::IO {
       return *reinterpret_cast<::System::IAsyncResult*>(this);
     }
     // Get instance field reference: private readonly System.Object _stateObject
-    ::Il2CppObject*& dyn__stateObject();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__stateObject();
     // Get instance field reference: private readonly System.Boolean _isWrite
-    bool& dyn__isWrite();
+    [[deprecated("Use field access instead!")]] bool& dyn__isWrite();
     // Get instance field reference: private System.Threading.ManualResetEvent _waitHandle
-    ::System::Threading::ManualResetEvent*& dyn__waitHandle();
+    [[deprecated("Use field access instead!")]] ::System::Threading::ManualResetEvent*& dyn__waitHandle();
     // Get instance field reference: private System.Runtime.ExceptionServices.ExceptionDispatchInfo _exceptionInfo
-    ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& dyn__exceptionInfo();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& dyn__exceptionInfo();
     // Get instance field reference: private System.Boolean _endXxxCalled
-    bool& dyn__endXxxCalled();
+    [[deprecated("Use field access instead!")]] bool& dyn__endXxxCalled();
     // Get instance field reference: private System.Int32 _bytesRead
-    int& dyn__bytesRead();
+    [[deprecated("Use field access instead!")]] int& dyn__bytesRead();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1B88BC4
+    // Offset: 0x1BC31AC
     bool get_IsCompleted();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x1B88BCC
+    // Offset: 0x1BC31B4
     ::System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Object get_AsyncState()
-    // Offset: 0x1B88CBC
+    // Offset: 0x1BC32A4
     ::Il2CppObject* get_AsyncState();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x1B88CC4
+    // Offset: 0x1BC32AC
     bool get_CompletedSynchronously();
     // System.Void .ctor(System.Int32 bytesRead, System.Object asyncStateObject)
-    // Offset: 0x1B87BF8
+    // Offset: 0x1BC21E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stream::SynchronousAsyncResult* New_ctor(int bytesRead, ::Il2CppObject* asyncStateObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::Stream::SynchronousAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stream::SynchronousAsyncResult*, creationType>(bytesRead, asyncStateObject)));
     }
     // System.Void .ctor(System.Object asyncStateObject)
-    // Offset: 0x1B87D18
+    // Offset: 0x1BC2300
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stream::SynchronousAsyncResult* New_ctor(::Il2CppObject* asyncStateObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::Stream::SynchronousAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stream::SynchronousAsyncResult*, creationType>(asyncStateObject)));
     }
     // System.Void .ctor(System.Exception ex, System.Object asyncStateObject, System.Boolean isWrite)
-    // Offset: 0x1B87C34
+    // Offset: 0x1BC221C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stream::SynchronousAsyncResult* New_ctor(::System::Exception* ex, ::Il2CppObject* asyncStateObject, bool isWrite) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::Stream::SynchronousAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stream::SynchronousAsyncResult*, creationType>(ex, asyncStateObject, isWrite)));
     }
     // System.Void ThrowIfError()
-    // Offset: 0x1B88CCC
+    // Offset: 0x1BC32B4
     void ThrowIfError();
     // static System.Int32 EndRead(System.IAsyncResult asyncResult)
-    // Offset: 0x1B87C88
+    // Offset: 0x1BC2270
     static int EndRead(::System::IAsyncResult* asyncResult);
     // static System.Void EndWrite(System.IAsyncResult asyncResult)
-    // Offset: 0x1B87D4C
+    // Offset: 0x1BC2334
     static void EndWrite(::System::IAsyncResult* asyncResult);
   }; // System.IO.Stream/System.IO.SynchronousAsyncResult
   #pragma pack(pop)

@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PosesRecordingSaveData::PoseSaveData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Single posX
     // Size: 0x4
     // Offset: 0x10
@@ -76,21 +68,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public readonly System.Single posX
-    float& dyn_posX();
+    [[deprecated("Use field access instead!")]] float& dyn_posX();
     // Get instance field reference: public readonly System.Single posY
-    float& dyn_posY();
+    [[deprecated("Use field access instead!")]] float& dyn_posY();
     // Get instance field reference: public readonly System.Single posZ
-    float& dyn_posZ();
+    [[deprecated("Use field access instead!")]] float& dyn_posZ();
     // Get instance field reference: public readonly System.Single rotX
-    float& dyn_rotX();
+    [[deprecated("Use field access instead!")]] float& dyn_rotX();
     // Get instance field reference: public readonly System.Single rotY
-    float& dyn_rotY();
+    [[deprecated("Use field access instead!")]] float& dyn_rotY();
     // Get instance field reference: public readonly System.Single rotZ
-    float& dyn_rotZ();
+    [[deprecated("Use field access instead!")]] float& dyn_rotZ();
     // Get instance field reference: public readonly System.Single rotW
-    float& dyn_rotW();
+    [[deprecated("Use field access instead!")]] float& dyn_rotW();
     // public System.Void .ctor(System.Single posX, System.Single posY, System.Single posZ, System.Single rotX, System.Single rotY, System.Single rotZ, System.Single rotW)
-    // Offset: 0x1375564
+    // Offset: 0x13DC8F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PosesRecordingSaveData::PoseSaveData* New_ctor(float posX, float posY, float posZ, float rotX, float rotY, float rotZ, float rotW) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosesRecordingSaveData::PoseSaveData::.ctor");

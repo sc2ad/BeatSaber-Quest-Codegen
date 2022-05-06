@@ -138,7 +138,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HAPI_AttributeTypeInfo HAPI_ATTRIBUTE_TYPE_MAX
     static void _set_HAPI_ATTRIBUTE_TYPE_MAX(::HoudiniEngineUnity::HAPI_AttributeTypeInfo value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HAPI_AttributeTypeInfo
   #pragma pack(pop)
   static check_size<sizeof(HAPI_AttributeTypeInfo), 0 + sizeof(int)> __HoudiniEngineUnity_HAPI_AttributeTypeInfoSizeCheck;

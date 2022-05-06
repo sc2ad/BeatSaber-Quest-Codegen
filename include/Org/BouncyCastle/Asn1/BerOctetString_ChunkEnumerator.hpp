@@ -33,15 +33,7 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class BerOctetString::ChunkEnumerator : public ::Il2CppObject/*, public ::System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Byte[] octets
     // Size: 0x8
     // Offset: 0x10
@@ -74,28 +66,28 @@ namespace Org::BouncyCastle::Asn1 {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
     // Get instance field reference: private readonly System.Byte[] octets
-    ::ArrayW<uint8_t>& dyn_octets();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_octets();
     // Get instance field reference: private readonly System.Int32 chunkSize
-    int& dyn_chunkSize();
+    [[deprecated("Use field access instead!")]] int& dyn_chunkSize();
     // Get instance field reference: private Org.BouncyCastle.Asn1.DerOctetString currentChunk
-    ::Org::BouncyCastle::Asn1::DerOctetString*& dyn_currentChunk();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerOctetString*& dyn_currentChunk();
     // Get instance field reference: private System.Int32 nextChunkPos
-    int& dyn_nextChunkPos();
+    [[deprecated("Use field access instead!")]] int& dyn_nextChunkPos();
     // public System.Object get_Current()
-    // Offset: 0x1BF21EC
+    // Offset: 0x1C2C7D4
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Byte[] octets, System.Int32 chunkSize)
-    // Offset: 0x1BF1E10
+    // Offset: 0x1C2C3F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BerOctetString::ChunkEnumerator* New_ctor(::ArrayW<uint8_t> octets, int chunkSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerOctetString::ChunkEnumerator*, creationType>(octets, chunkSize)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1BF2264
+    // Offset: 0x1C2C84C
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1BF237C
+    // Offset: 0x1C2C964
     void Reset();
   }; // Org.BouncyCastle.Asn1.BerOctetString/Org.BouncyCastle.Asn1.ChunkEnumerator
   #pragma pack(pop)

@@ -37,26 +37,24 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Set static field: static public readonly System.Collections.IEnumerator Instance
     static void _set_Instance(::System::Collections::IEnumerator* value);
     // public System.Object get_Current()
-    // Offset: 0x17D0198
+    // Offset: 0x1809AA8
     ::Il2CppObject* get_Current();
-    // static private System.Void .cctor()
-    // Offset: 0x17D0204
-    static void _cctor();
-    // public System.Boolean MoveNext()
-    // Offset: 0x17D018C
-    bool MoveNext();
-    // public System.Void Reset()
-    // Offset: 0x17D0194
-    void Reset();
     // private System.Void .ctor()
-    // Offset: 0x17D0184
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1809A94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EmptyEnumerator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmptyEnumerator*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1809B14
+    static void _cctor();
+    // public System.Boolean MoveNext()
+    // Offset: 0x1809A9C
+    bool MoveNext();
+    // public System.Void Reset()
+    // Offset: 0x1809AA4
+    void Reset();
   }; // Org.BouncyCastle.Utilities.Collections.EmptyEnumerator
   #pragma pack(pop)
 }
@@ -69,6 +67,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::EmptyEnumerator*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::_cctor
 // Il2CppName: .cctor
 template<>
@@ -93,7 +95,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::EmptyEnumerator*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

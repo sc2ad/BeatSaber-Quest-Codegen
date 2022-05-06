@@ -66,20 +66,20 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single[] position
-    ::ArrayW<float>& dyn_position();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn_position();
     // Get instance field reference: public System.Single[] rotationQuaternion
-    ::ArrayW<float>& dyn_rotationQuaternion();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn_rotationQuaternion();
     // Get instance field reference: public System.Single[] scale
-    ::ArrayW<float>& dyn_scale();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn_scale();
     // Get instance field reference: public System.Single[] shear
-    ::ArrayW<float>& dyn_shear();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn_shear();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_RSTOrder rstOrder
-    ::HoudiniEngineUnity::HAPI_RSTOrder& dyn_rstOrder();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_RSTOrder& dyn_rstOrder();
     // public System.Void .ctor(System.Boolean initializeFields)
-    // Offset: 0x16AA53C
+    // Offset: 0x16E1E4C
     HAPI_Transform(bool initializeFields);
     // public System.Void Init()
-    // Offset: 0x16AA5F0
+    // Offset: 0x16E1F00
     void Init();
   }; // HoudiniEngineUnity.HAPI_Transform
   #pragma pack(pop)

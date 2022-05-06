@@ -33,15 +33,7 @@ namespace TMPro::SpriteAssetUtilities {
   // [TokenAttribute] Offset: FFFFFFFF
   class TexturePacker::SpriteDataObject : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Collections.Generic.List`1<TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteData> frames
     // Size: 0x8
     // Offset: 0x10
@@ -54,11 +46,9 @@ namespace TMPro::SpriteAssetUtilities {
       return frames;
     }
     // Get instance field reference: public System.Collections.Generic.List`1<TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteData> frames
-    ::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*& dyn_frames();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*& dyn_frames();
     // public System.Void .ctor()
-    // Offset: 0x143327C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x143C4BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TexturePacker::SpriteDataObject* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::SpriteAssetUtilities::TexturePacker::SpriteDataObject::.ctor");

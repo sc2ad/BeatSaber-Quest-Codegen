@@ -25,15 +25,7 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class AnimatedSwitchView::ColorBlock : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Color knobColor
     // Size: 0x10
     // Offset: 0x10
@@ -52,7 +44,7 @@ namespace HMUI {
     ::UnityEngine::Color knobColor1;
     // Field size check
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
-    // [SpaceAttribute] Offset: 0x123C7BC
+    // [SpaceAttribute] Offset: 0x10C1294
     // public UnityEngine.Color backgroundColor
     // Size: 0x10
     // Offset: 0x40
@@ -73,21 +65,19 @@ namespace HMUI {
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
     public:
     // Get instance field reference: public UnityEngine.Color knobColor
-    ::UnityEngine::Color& dyn_knobColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_knobColor();
     // Get instance field reference: public UnityEngine.Color knobColor0
-    ::UnityEngine::Color& dyn_knobColor0();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_knobColor0();
     // Get instance field reference: public UnityEngine.Color knobColor1
-    ::UnityEngine::Color& dyn_knobColor1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_knobColor1();
     // Get instance field reference: public UnityEngine.Color backgroundColor
-    ::UnityEngine::Color& dyn_backgroundColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_backgroundColor();
     // Get instance field reference: public UnityEngine.Color backgroundColor0
-    ::UnityEngine::Color& dyn_backgroundColor0();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_backgroundColor0();
     // Get instance field reference: public UnityEngine.Color backgroundColor1
-    ::UnityEngine::Color& dyn_backgroundColor1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_backgroundColor1();
     // public System.Void .ctor()
-    // Offset: 0x16DF2A0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1716BB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatedSwitchView::ColorBlock* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::AnimatedSwitchView::ColorBlock::.ctor");

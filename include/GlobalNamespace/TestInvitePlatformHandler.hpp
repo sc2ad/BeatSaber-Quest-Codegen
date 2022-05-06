@@ -33,20 +33,18 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IInvitePlatformHandler*>(this);
     }
     // public System.Boolean get_isSupported()
-    // Offset: 0x133AEF4
+    // Offset: 0x141CE24
     bool get_isSupported();
-    // public System.Void OpenInvitePanel()
-    // Offset: 0x133AEFC
-    void OpenInvitePanel();
     // public System.Void .ctor()
-    // Offset: 0x133AF68
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x141CE98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestInvitePlatformHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TestInvitePlatformHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestInvitePlatformHandler*, creationType>()));
     }
+    // public System.Void OpenInvitePanel()
+    // Offset: 0x141CE2C
+    void OpenInvitePanel();
   }; // TestInvitePlatformHandler
   #pragma pack(pop)
 }
@@ -59,6 +57,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestInvitePlatformHandler*), "get_isSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::TestInvitePlatformHandler::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TestInvitePlatformHandler::OpenInvitePanel
 // Il2CppName: OpenInvitePanel
 template<>
@@ -67,7 +69,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestInvitePlatformHandler*), "OpenInvitePanel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TestInvitePlatformHandler::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

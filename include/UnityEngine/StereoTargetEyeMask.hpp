@@ -66,7 +66,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.StereoTargetEyeMask Both
     static void _set_Both(::UnityEngine::StereoTargetEyeMask value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.StereoTargetEyeMask
   #pragma pack(pop)
   static check_size<sizeof(StereoTargetEyeMask), 0 + sizeof(int)> __UnityEngine_StereoTargetEyeMaskSizeCheck;

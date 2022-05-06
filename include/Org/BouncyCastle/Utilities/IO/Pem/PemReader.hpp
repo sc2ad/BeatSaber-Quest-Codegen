@@ -39,15 +39,7 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
   // [TokenAttribute] Offset: FFFFFFFF
   class PemReader : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.IO.TextReader reader
     // Size: 0x8
     // Offset: 0x10
@@ -60,19 +52,19 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
       return reader;
     }
     // Get instance field reference: private readonly System.IO.TextReader reader
-    ::System::IO::TextReader*& dyn_reader();
+    [[deprecated("Use field access instead!")]] ::System::IO::TextReader*& dyn_reader();
     // public System.Void .ctor(System.IO.TextReader reader)
-    // Offset: 0x25A4E6C
+    // Offset: 0x25F049C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PemReader* New_ctor(::System::IO::TextReader* reader) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::IO::Pem::PemReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PemReader*, creationType>(reader)));
     }
     // public Org.BouncyCastle.Utilities.IO.Pem.PemObject ReadPemObject()
-    // Offset: 0x25A4F08
+    // Offset: 0x25F0538
     ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* ReadPemObject();
     // private Org.BouncyCastle.Utilities.IO.Pem.PemObject LoadObject(System.String type)
-    // Offset: 0x25A517C
+    // Offset: 0x25F07AC
     ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* LoadObject(::StringW type);
   }; // Org.BouncyCastle.Utilities.IO.Pem.PemReader
   #pragma pack(pop)

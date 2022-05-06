@@ -49,11 +49,11 @@ namespace System::IO {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: System.Byte[] Buffer
-    ::ArrayW<uint8_t>& dyn_Buffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_Buffer();
     // Get instance field reference: System.Int32 Offset
-    int& dyn_Offset();
+    [[deprecated("Use field access instead!")]] int& dyn_Offset();
     // Get instance field reference: System.Int32 Count
-    int& dyn_Count();
+    [[deprecated("Use field access instead!")]] int& dyn_Count();
   }; // System.IO.Stream/System.IO.ReadWriteParameters
   #pragma pack(pop)
   static check_size<sizeof(Stream::ReadWriteParameters), 12 + sizeof(int)> __System_IO_Stream_ReadWriteParametersSizeCheck;

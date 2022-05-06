@@ -37,15 +37,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputInterfaceTilemap::HEU_InputDataTilemap : public ::HoudiniEngineUnity::HEU_InputData {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Tilemaps.Tilemap _tilemap
     // Size: 0x8
     // Offset: 0x18
@@ -62,14 +54,13 @@ namespace HoudiniEngineUnity {
     // Deleting conversion operator: operator ::UnityEngine::GameObject*
     constexpr operator ::UnityEngine::GameObject*() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Tilemaps.Tilemap _tilemap
-    ::UnityEngine::Tilemaps::Tilemap*& dyn__tilemap();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Tilemaps::Tilemap*& dyn__tilemap();
     // Get instance field reference: public UnityEngine.Transform _transform
-    ::UnityEngine::Transform*& dyn__transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // public System.Void .ctor()
-    // Offset: 0x1854C9C
+    // Offset: 0x188E5AC
     // Implemented from: HoudiniEngineUnity.HEU_InputData
     // Base method: System.Void HEU_InputData::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputInterfaceTilemap::HEU_InputDataTilemap* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputInterfaceTilemap::HEU_InputDataTilemap::.ctor");

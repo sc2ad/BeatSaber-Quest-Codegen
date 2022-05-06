@@ -46,9 +46,9 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public Valve.VR.EVROverlayIntersectionMaskPrimitiveType m_nPrimitiveType
-    ::Valve::VR::EVROverlayIntersectionMaskPrimitiveType& dyn_m_nPrimitiveType();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::EVROverlayIntersectionMaskPrimitiveType& dyn_m_nPrimitiveType();
     // Get instance field reference: public Valve.VR.VROverlayIntersectionMaskPrimitive_Data_t m_Primitive
-    ::Valve::VR::VROverlayIntersectionMaskPrimitive_Data_t& dyn_m_Primitive();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VROverlayIntersectionMaskPrimitive_Data_t& dyn_m_Primitive();
   }; // Valve.VR.VROverlayIntersectionMaskPrimitive_t
   // WARNING Not writing size check since size may be invalid!
 }

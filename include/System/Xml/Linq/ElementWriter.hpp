@@ -61,32 +61,32 @@ namespace System::Xml::Linq {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private System.Xml.XmlWriter writer
-    ::System::Xml::XmlWriter*& dyn_writer();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlWriter*& dyn_writer();
     // Get instance field reference: private System.Xml.Linq.NamespaceResolver resolver
-    ::System::Xml::Linq::NamespaceResolver& dyn_resolver();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Linq::NamespaceResolver& dyn_resolver();
     // public System.Void .ctor(System.Xml.XmlWriter writer)
-    // Offset: 0x2A4789C
+    // Offset: 0x2A9EC84
     ElementWriter(::System::Xml::XmlWriter* writer);
     // public System.Void WriteElement(System.Xml.Linq.XElement e)
-    // Offset: 0x2A478A8
+    // Offset: 0x2A9EC90
     void WriteElement(::System::Xml::Linq::XElement* e);
     // private System.String GetPrefixOfNamespace(System.Xml.Linq.XNamespace ns, System.Boolean allowDefaultNamespace)
-    // Offset: 0x2A47D40
+    // Offset: 0x2A9F128
     ::StringW GetPrefixOfNamespace(::System::Xml::Linq::XNamespace* ns, bool allowDefaultNamespace);
     // private System.Void PushAncestors(System.Xml.Linq.XElement e)
-    // Offset: 0x2A47A48
+    // Offset: 0x2A9EE30
     void PushAncestors(::System::Xml::Linq::XElement* e);
     // private System.Void PushElement(System.Xml.Linq.XElement e)
-    // Offset: 0x2A480E8
+    // Offset: 0x2A9F4D0
     void PushElement(::System::Xml::Linq::XElement* e);
     // private System.Void WriteEndElement()
-    // Offset: 0x2A47CD0
+    // Offset: 0x2A9F0B8
     void WriteEndElement();
     // private System.Void WriteFullEndElement()
-    // Offset: 0x2A47D08
+    // Offset: 0x2A9F0F0
     void WriteFullEndElement();
     // private System.Void WriteStartElement(System.Xml.Linq.XElement e)
-    // Offset: 0x2A47B6C
+    // Offset: 0x2A9EF54
     void WriteStartElement(::System::Xml::Linq::XElement* e);
   }; // System.Xml.Linq.ElementWriter
   #pragma pack(pop)

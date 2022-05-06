@@ -43,15 +43,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlTextReaderImpl::NodeData : public ::Il2CppObject/*, public ::System::IComparable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Xml.XmlNodeType type
     // Size: 0x4
     // Offset: 0x10
@@ -184,127 +176,125 @@ namespace System::Xml {
     // Set static field: static private System.Xml.XmlTextReaderImpl/System.Xml.NodeData s_None
     static void _set_s_None(::System::Xml::XmlTextReaderImpl::NodeData* value);
     // Get instance field reference: System.Xml.XmlNodeType type
-    ::System::Xml::XmlNodeType& dyn_type();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlNodeType& dyn_type();
     // Get instance field reference: System.String localName
-    ::StringW& dyn_localName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_localName();
     // Get instance field reference: System.String prefix
-    ::StringW& dyn_prefix();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_prefix();
     // Get instance field reference: System.String ns
-    ::StringW& dyn_ns();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_ns();
     // Get instance field reference: System.String nameWPrefix
-    ::StringW& dyn_nameWPrefix();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_nameWPrefix();
     // Get instance field reference: private System.String value
-    ::StringW& dyn_value();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_value();
     // Get instance field reference: private System.Char[] chars
-    ::ArrayW<::Il2CppChar>& dyn_chars();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppChar>& dyn_chars();
     // Get instance field reference: private System.Int32 valueStartPos
-    int& dyn_valueStartPos();
+    [[deprecated("Use field access instead!")]] int& dyn_valueStartPos();
     // Get instance field reference: private System.Int32 valueLength
-    int& dyn_valueLength();
+    [[deprecated("Use field access instead!")]] int& dyn_valueLength();
     // Get instance field reference: System.Xml.LineInfo lineInfo
-    ::System::Xml::LineInfo& dyn_lineInfo();
+    [[deprecated("Use field access instead!")]] ::System::Xml::LineInfo& dyn_lineInfo();
     // Get instance field reference: System.Xml.LineInfo lineInfo2
-    ::System::Xml::LineInfo& dyn_lineInfo2();
+    [[deprecated("Use field access instead!")]] ::System::Xml::LineInfo& dyn_lineInfo2();
     // Get instance field reference: System.Char quoteChar
-    ::Il2CppChar& dyn_quoteChar();
+    [[deprecated("Use field access instead!")]] ::Il2CppChar& dyn_quoteChar();
     // Get instance field reference: System.Int32 depth
-    int& dyn_depth();
+    [[deprecated("Use field access instead!")]] int& dyn_depth();
     // Get instance field reference: private System.Boolean isEmptyOrDefault
-    bool& dyn_isEmptyOrDefault();
+    [[deprecated("Use field access instead!")]] bool& dyn_isEmptyOrDefault();
     // Get instance field reference: System.Int32 entityId
-    int& dyn_entityId();
+    [[deprecated("Use field access instead!")]] int& dyn_entityId();
     // Get instance field reference: System.Boolean xmlContextPushed
-    bool& dyn_xmlContextPushed();
+    [[deprecated("Use field access instead!")]] bool& dyn_xmlContextPushed();
     // Get instance field reference: System.Xml.XmlTextReaderImpl/System.Xml.NodeData nextAttrValueChunk
-    ::System::Xml::XmlTextReaderImpl::NodeData*& dyn_nextAttrValueChunk();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlTextReaderImpl::NodeData*& dyn_nextAttrValueChunk();
     // Get instance field reference: System.Object schemaType
-    ::Il2CppObject*& dyn_schemaType();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_schemaType();
     // Get instance field reference: System.Object typedValue
-    ::Il2CppObject*& dyn_typedValue();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_typedValue();
     // static System.Xml.XmlTextReaderImpl/System.Xml.NodeData get_None()
-    // Offset: 0x26BB888
+    // Offset: 0x270AD98
     static ::System::Xml::XmlTextReaderImpl::NodeData* get_None();
     // System.Int32 get_LineNo()
-    // Offset: 0x26BB9E4
+    // Offset: 0x270AEF4
     int get_LineNo();
     // System.Int32 get_LinePos()
-    // Offset: 0x26BB9EC
+    // Offset: 0x270AEFC
     int get_LinePos();
     // System.Boolean get_IsEmptyElement()
-    // Offset: 0x26BB9F4
+    // Offset: 0x270AF04
     bool get_IsEmptyElement();
     // System.Void set_IsEmptyElement(System.Boolean value)
-    // Offset: 0x26BBA18
+    // Offset: 0x270AF28
     void set_IsEmptyElement(bool value);
     // System.Boolean get_IsDefaultAttribute()
-    // Offset: 0x26BBA24
+    // Offset: 0x270AF34
     bool get_IsDefaultAttribute();
     // System.Void set_IsDefaultAttribute(System.Boolean value)
-    // Offset: 0x26BBA48
+    // Offset: 0x270AF58
     void set_IsDefaultAttribute(bool value);
     // System.Boolean get_ValueBuffered()
-    // Offset: 0x26BBA54
+    // Offset: 0x270AF64
     bool get_ValueBuffered();
     // System.String get_StringValue()
-    // Offset: 0x26BBA64
+    // Offset: 0x270AF74
     ::StringW get_StringValue();
-    // System.Void TrimSpacesInValue()
-    // Offset: 0x26BBA9C
-    void TrimSpacesInValue();
-    // System.Void Clear(System.Xml.XmlNodeType type)
-    // Offset: 0x26BB95C
-    void Clear(::System::Xml::XmlNodeType type);
-    // System.Void ClearName()
-    // Offset: 0x26BBAE8
-    void ClearName();
-    // System.Void SetLineInfo(System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x26BBB64
-    void SetLineInfo(int lineNo, int linePos);
-    // System.Void SetLineInfo2(System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x26BBB70
-    void SetLineInfo2(int lineNo, int linePos);
-    // System.Void SetValueNode(System.Xml.XmlNodeType type, System.String value)
-    // Offset: 0x26BBB7C
-    void SetValueNode(::System::Xml::XmlNodeType type, ::StringW value);
-    // System.Void SetValueNode(System.Xml.XmlNodeType type, System.Char[] chars, System.Int32 startPos, System.Int32 len)
-    // Offset: 0x26BBBB0
-    void SetValueNode(::System::Xml::XmlNodeType type, ::ArrayW<::Il2CppChar> chars, int startPos, int len);
-    // System.Void SetNamedNode(System.Xml.XmlNodeType type, System.String localName)
-    // Offset: 0x26BBBF0
-    void SetNamedNode(::System::Xml::XmlNodeType type, ::StringW localName);
-    // System.Void SetNamedNode(System.Xml.XmlNodeType type, System.String localName, System.String prefix, System.String nameWPrefix)
-    // Offset: 0x26BBC64
-    void SetNamedNode(::System::Xml::XmlNodeType type, ::StringW localName, ::StringW prefix, ::StringW nameWPrefix);
-    // System.Void SetValue(System.String value)
-    // Offset: 0x26BBCFC
-    void SetValue(::StringW value);
-    // System.Void SetValue(System.Char[] chars, System.Int32 startPos, System.Int32 len)
-    // Offset: 0x26BBD0C
-    void SetValue(::ArrayW<::Il2CppChar> chars, int startPos, int len);
-    // System.Void OnBufferInvalidated()
-    // Offset: 0x26BBD18
-    void OnBufferInvalidated();
-    // System.Void CopyTo(System.Int32 valueOffset, System.Text.StringBuilder sb)
-    // Offset: 0x26BBD68
-    void CopyTo(int valueOffset, ::System::Text::StringBuilder* sb);
-    // System.String GetNameWPrefix(System.Xml.XmlNameTable nt)
-    // Offset: 0x26BBDEC
-    ::StringW GetNameWPrefix(::System::Xml::XmlNameTable* nt);
-    // System.String CreateNameWPrefix(System.Xml.XmlNameTable nt)
-    // Offset: 0x26BBE00
-    ::StringW CreateNameWPrefix(::System::Xml::XmlNameTable* nt);
-    // private System.Int32 System.IComparable.CompareTo(System.Object obj)
-    // Offset: 0x26BBE9C
-    int System_IComparable_CompareTo(::Il2CppObject* obj);
     // System.Void .ctor()
-    // Offset: 0x26BB928
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x270AE38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlTextReaderImpl::NodeData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlTextReaderImpl::NodeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlTextReaderImpl::NodeData*, creationType>()));
     }
+    // System.Void TrimSpacesInValue()
+    // Offset: 0x270AFAC
+    void TrimSpacesInValue();
+    // System.Void Clear(System.Xml.XmlNodeType type)
+    // Offset: 0x270AE6C
+    void Clear(::System::Xml::XmlNodeType type);
+    // System.Void ClearName()
+    // Offset: 0x270AFF8
+    void ClearName();
+    // System.Void SetLineInfo(System.Int32 lineNo, System.Int32 linePos)
+    // Offset: 0x270B074
+    void SetLineInfo(int lineNo, int linePos);
+    // System.Void SetLineInfo2(System.Int32 lineNo, System.Int32 linePos)
+    // Offset: 0x270B080
+    void SetLineInfo2(int lineNo, int linePos);
+    // System.Void SetValueNode(System.Xml.XmlNodeType type, System.String value)
+    // Offset: 0x270B08C
+    void SetValueNode(::System::Xml::XmlNodeType type, ::StringW value);
+    // System.Void SetValueNode(System.Xml.XmlNodeType type, System.Char[] chars, System.Int32 startPos, System.Int32 len)
+    // Offset: 0x270B0C0
+    void SetValueNode(::System::Xml::XmlNodeType type, ::ArrayW<::Il2CppChar> chars, int startPos, int len);
+    // System.Void SetNamedNode(System.Xml.XmlNodeType type, System.String localName)
+    // Offset: 0x270B100
+    void SetNamedNode(::System::Xml::XmlNodeType type, ::StringW localName);
+    // System.Void SetNamedNode(System.Xml.XmlNodeType type, System.String localName, System.String prefix, System.String nameWPrefix)
+    // Offset: 0x270B174
+    void SetNamedNode(::System::Xml::XmlNodeType type, ::StringW localName, ::StringW prefix, ::StringW nameWPrefix);
+    // System.Void SetValue(System.String value)
+    // Offset: 0x270B20C
+    void SetValue(::StringW value);
+    // System.Void SetValue(System.Char[] chars, System.Int32 startPos, System.Int32 len)
+    // Offset: 0x270B21C
+    void SetValue(::ArrayW<::Il2CppChar> chars, int startPos, int len);
+    // System.Void OnBufferInvalidated()
+    // Offset: 0x270B228
+    void OnBufferInvalidated();
+    // System.Void CopyTo(System.Int32 valueOffset, System.Text.StringBuilder sb)
+    // Offset: 0x270B278
+    void CopyTo(int valueOffset, ::System::Text::StringBuilder* sb);
+    // System.String GetNameWPrefix(System.Xml.XmlNameTable nt)
+    // Offset: 0x270B2FC
+    ::StringW GetNameWPrefix(::System::Xml::XmlNameTable* nt);
+    // System.String CreateNameWPrefix(System.Xml.XmlNameTable nt)
+    // Offset: 0x270B310
+    ::StringW CreateNameWPrefix(::System::Xml::XmlNameTable* nt);
+    // private System.Int32 System.IComparable.CompareTo(System.Object obj)
+    // Offset: 0x270B3AC
+    int System_IComparable_CompareTo(::Il2CppObject* obj);
   }; // System.Xml.XmlTextReaderImpl/System.Xml.NodeData
   #pragma pack(pop)
   static check_size<sizeof(XmlTextReaderImpl::NodeData), 136 + sizeof(::Il2CppObject*)> __System_Xml_XmlTextReaderImpl_NodeDataSizeCheck;
@@ -385,6 +375,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlTextReaderImpl::NodeData*), "get_StringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Xml::XmlTextReaderImpl::NodeData::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::XmlTextReaderImpl::NodeData::TrimSpacesInValue
 // Il2CppName: TrimSpacesInValue
 template<>
@@ -539,7 +533,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlTextReaderImpl::NodeData*), "System.IComparable.CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
-// Writing MetadataGetter for method: System::Xml::XmlTextReaderImpl::NodeData::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRBoundary/Node Head
     static void _set_Head(::GlobalNamespace::OVRBoundary::Node value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVRBoundary/Node
   #pragma pack(pop)
   static check_size<sizeof(OVRBoundary::Node), 0 + sizeof(int)> __GlobalNamespace_OVRBoundary_NodeSizeCheck;

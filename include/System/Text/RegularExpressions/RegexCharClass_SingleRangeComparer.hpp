@@ -29,22 +29,24 @@ namespace System::Text::RegularExpressions {
     operator ::System::Collections::Generic::IComparer_1<::System::Text::RegularExpressions::RegexCharClass::SingleRange*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IComparer_1<::System::Text::RegularExpressions::RegexCharClass::SingleRange*>*>(this);
     }
-    // public System.Int32 Compare(System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.SingleRange x, System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.SingleRange y)
-    // Offset: 0x1D88A48
-    int Compare(::System::Text::RegularExpressions::RegexCharClass::SingleRange* x, ::System::Text::RegularExpressions::RegexCharClass::SingleRange* y);
     // public System.Void .ctor()
-    // Offset: 0x1D88A84
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1DDB368
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexCharClass::SingleRangeComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexCharClass::SingleRangeComparer*, creationType>()));
     }
+    // public System.Int32 Compare(System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.SingleRange x, System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.SingleRange y)
+    // Offset: 0x1DDB32C
+    int Compare(::System::Text::RegularExpressions::RegexCharClass::SingleRange* x, ::System::Text::RegularExpressions::RegexCharClass::SingleRange* y);
   }; // System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.SingleRangeComparer
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer::Compare
 // Il2CppName: Compare
 template<>
@@ -55,7 +57,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y});
   }
 };
-// Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

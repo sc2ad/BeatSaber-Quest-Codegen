@@ -26,15 +26,7 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   class CADArgHolder : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 index
     // Size: 0x4
     // Offset: 0x10
@@ -47,9 +39,9 @@ namespace System::Runtime::Remoting::Messaging {
       return index;
     }
     // Get instance field reference: public System.Int32 index
-    int& dyn_index();
+    [[deprecated("Use field access instead!")]] int& dyn_index();
     // public System.Void .ctor(System.Int32 i)
-    // Offset: 0x1C62DA0
+    // Offset: 0x1C800AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADArgHolder* New_ctor(int i) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::CADArgHolder::.ctor");

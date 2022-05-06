@@ -71,20 +71,20 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<OnlineServices.SendLeaderboardEntryResult> <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OnlineServices::SendLeaderboardEntryResult>& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OnlineServices::SendLeaderboardEntryResult>& dyn_$$t__builder();
     // Get instance field reference: public TestLeaderboardsModel <>4__this
-    ::GlobalNamespace::TestLeaderboardsModel*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TestLeaderboardsModel*& dyn_$$4__this();
     // Get instance field reference: public OnlineServices.LevelScoreResultsData levelScoreResult
-    ::OnlineServices::LevelScoreResultsData& dyn_levelScoreResult();
+    [[deprecated("Use field access instead!")]] ::OnlineServices::LevelScoreResultsData& dyn_levelScoreResult();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x133B754
+    // Offset: 0x141D684
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x133B944
+    // Offset: 0x141D874
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // TestLeaderboardsModel/<SendLevelScoreResultAsync>d__5
   // WARNING Not writing size check since size may be invalid!

@@ -121,32 +121,32 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<IReadonlyBeatmapData> <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*>& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*>& dyn_$$t__builder();
     // Get instance field reference: public BeatmapDifficulty beatmapDifficulty
-    ::GlobalNamespace::BeatmapDifficulty& dyn_beatmapDifficulty();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficulty& dyn_beatmapDifficulty();
     // Get instance field reference: public System.Single beatsPerMinute
-    float& dyn_beatsPerMinute();
+    [[deprecated("Use field access instead!")]] float& dyn_beatsPerMinute();
     // Get instance field reference: public System.Boolean loadingForDesignatedEnvironment
-    bool& dyn_loadingForDesignatedEnvironment();
+    [[deprecated("Use field access instead!")]] bool& dyn_loadingForDesignatedEnvironment();
     // Get instance field reference: public EnvironmentInfoSO environmentInfo
-    ::GlobalNamespace::EnvironmentInfoSO*& dyn_environmentInfo();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentInfoSO*& dyn_environmentInfo();
     // Get instance field reference: public PlayerSpecificSettings playerSpecificSettings
-    ::GlobalNamespace::PlayerSpecificSettings*& dyn_playerSpecificSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSpecificSettings*& dyn_playerSpecificSettings();
     // Get instance field reference: public BeatmapDataSO <>4__this
-    ::GlobalNamespace::BeatmapDataSO*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataSO*& dyn_$$4__this();
     // Get instance field reference: private BeatmapDataSO/<>c__DisplayClass2_0 <>8__1
-    ::GlobalNamespace::BeatmapDataSO::$$c__DisplayClass2_0*& dyn_$$8__1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataSO::$$c__DisplayClass2_0*& dyn_$$8__1();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<BeatmapSaveDataVersion3.BeatmapSaveData> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatmapSaveDataVersion3::BeatmapSaveData*>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatmapSaveDataVersion3::BeatmapSaveData*>& dyn_$$u__1();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__2
-    ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__2();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x136D500
+    // Offset: 0x135578C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x136D868
+    // Offset: 0x1355AF4
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BeatmapDataSO/<GetBeatmapDataAsync>d__2
   // WARNING Not writing size check since size may be invalid!

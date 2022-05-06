@@ -24,15 +24,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PS4LeaderboardIdsModelSO::LeaderboardIdData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.UInt32 _ps4LeaderboardId
     // Size: 0x4
     // Offset: 0x10
@@ -49,17 +41,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.UInt32 _ps4LeaderboardId
-    uint& dyn__ps4LeaderboardId();
+    [[deprecated("Use field access instead!")]] uint& dyn__ps4LeaderboardId();
     // Get instance field reference: private System.String _leaderboardId
-    ::StringW& dyn__leaderboardId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__leaderboardId();
     // public System.UInt32 get_ps4LeaderboardId()
-    // Offset: 0x12EAD50
+    // Offset: 0x135BD08
     uint get_ps4LeaderboardId();
     // public System.String get_leaderboardId()
-    // Offset: 0x12EAD58
+    // Offset: 0x135BD10
     ::StringW get_leaderboardId();
     // public System.Void .ctor(System.UInt32 ps4LeaderboardId, System.String leaderboardId)
-    // Offset: 0x12EAD60
+    // Offset: 0x135BD18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4LeaderboardIdsModelSO::LeaderboardIdData* New_ctor(uint ps4LeaderboardId, ::StringW leaderboardId) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData::.ctor");

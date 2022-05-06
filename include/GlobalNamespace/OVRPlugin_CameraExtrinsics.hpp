@@ -70,15 +70,15 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public OVRPlugin/Bool IsValid
-    ::GlobalNamespace::OVRPlugin::Bool& dyn_IsValid();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bool& dyn_IsValid();
     // Get instance field reference: public System.Double LastChangedTimeSeconds
-    double& dyn_LastChangedTimeSeconds();
+    [[deprecated("Use field access instead!")]] double& dyn_LastChangedTimeSeconds();
     // Get instance field reference: public OVRPlugin/CameraStatus CameraStatusData
-    ::GlobalNamespace::OVRPlugin::CameraStatus& dyn_CameraStatusData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::CameraStatus& dyn_CameraStatusData();
     // Get instance field reference: public OVRPlugin/Node AttachedToNode
-    ::GlobalNamespace::OVRPlugin::Node& dyn_AttachedToNode();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Node& dyn_AttachedToNode();
     // Get instance field reference: public OVRPlugin/Posef RelativePose
-    ::GlobalNamespace::OVRPlugin::Posef& dyn_RelativePose();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Posef& dyn_RelativePose();
   }; // OVRPlugin/CameraExtrinsics
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::CameraExtrinsics), 24 + sizeof(::GlobalNamespace::OVRPlugin::Posef)> __GlobalNamespace_OVRPlugin_CameraExtrinsicsSizeCheck;

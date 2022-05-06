@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveData::ColorSchemesSettings : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean overrideDefaultColors
     // Size: 0x1
     // Offset: 0x10
@@ -63,13 +55,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveData::ColorScheme*>*) == 0x8);
     public:
     // Get instance field reference: public System.Boolean overrideDefaultColors
-    bool& dyn_overrideDefaultColors();
+    [[deprecated("Use field access instead!")]] bool& dyn_overrideDefaultColors();
     // Get instance field reference: public System.String selectedColorSchemeId
-    ::StringW& dyn_selectedColorSchemeId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_selectedColorSchemeId();
     // Get instance field reference: public System.Collections.Generic.List`1<PlayerSaveData/ColorScheme> colorSchemes
-    ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveData::ColorScheme*>*& dyn_colorSchemes();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveData::ColorScheme*>*& dyn_colorSchemes();
     // public System.Void .ctor(System.Boolean overrideDefaultColors, System.String selectedColorSchemeId, System.Collections.Generic.List`1<PlayerSaveData/ColorScheme> colorSchemes)
-    // Offset: 0x1371540
+    // Offset: 0x13D48A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::ColorSchemesSettings* New_ctor(bool overrideDefaultColors, ::StringW selectedColorSchemeId, ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveData::ColorScheme*>* colorSchemes) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::ColorSchemesSettings::.ctor");

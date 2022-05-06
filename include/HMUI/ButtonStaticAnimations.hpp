@@ -37,22 +37,14 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ButtonStaticAnimations : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.NoTransitionsButton _button
     // Size: 0x8
     // Offset: 0x18
     ::HMUI::NoTransitionsButton* button;
     // Field size check
     static_assert(sizeof(::HMUI::NoTransitionsButton*) == 0x8);
-    // [SpaceAttribute] Offset: 0x123B6FC
+    // [SpaceAttribute] Offset: 0x10C01D4
     // private UnityEngine.AnimationClip _normalClip
     // Size: 0x8
     // Offset: 0x20
@@ -87,51 +79,49 @@ namespace HMUI {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.NoTransitionsButton _button
-    ::HMUI::NoTransitionsButton*& dyn__button();
+    [[deprecated("Use field access instead!")]] ::HMUI::NoTransitionsButton*& dyn__button();
     // Get instance field reference: private UnityEngine.AnimationClip _normalClip
-    ::UnityEngine::AnimationClip*& dyn__normalClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationClip*& dyn__normalClip();
     // Get instance field reference: private UnityEngine.AnimationClip _highlightedClip
-    ::UnityEngine::AnimationClip*& dyn__highlightedClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationClip*& dyn__highlightedClip();
     // Get instance field reference: private UnityEngine.AnimationClip _pressedClip
-    ::UnityEngine::AnimationClip*& dyn__pressedClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationClip*& dyn__pressedClip();
     // Get instance field reference: private UnityEngine.AnimationClip _disabledClip
-    ::UnityEngine::AnimationClip*& dyn__disabledClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationClip*& dyn__disabledClip();
     // Get instance field reference: private System.Boolean _didStart
-    bool& dyn__didStart();
-    // protected System.Void Awake()
-    // Offset: 0x16DFC74
-    void Awake();
-    // protected System.Void Start()
-    // Offset: 0x16DFD08
-    void Start();
-    // protected System.Void OnEnable()
-    // Offset: 0x16DFE3C
-    void OnEnable();
-    // protected System.Void OnDestroy()
-    // Offset: 0x16DFE58
-    void OnDestroy();
-    // private System.Void HandleButtonSelectionStateDidChange(HMUI.NoTransitionsButton/HMUI.SelectionState state)
-    // Offset: 0x16DFD2C
-    void HandleButtonSelectionStateDidChange(::HMUI::NoTransitionsButton::SelectionState state);
+    [[deprecated("Use field access instead!")]] bool& dyn__didStart();
     // public System.Void .ctor()
-    // Offset: 0x16DFF34
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1717844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ButtonStaticAnimations* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ButtonStaticAnimations::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ButtonStaticAnimations*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x1717584
+    void Awake();
+    // protected System.Void Start()
+    // Offset: 0x1717618
+    void Start();
+    // protected System.Void OnEnable()
+    // Offset: 0x171774C
+    void OnEnable();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1717768
+    void OnDestroy();
+    // private System.Void HandleButtonSelectionStateDidChange(HMUI.NoTransitionsButton/HMUI.SelectionState state)
+    // Offset: 0x171763C
+    void HandleButtonSelectionStateDidChange(::HMUI::NoTransitionsButton::SelectionState state);
   }; // HMUI.ButtonStaticAnimations
   #pragma pack(pop)
   static check_size<sizeof(ButtonStaticAnimations), 64 + sizeof(bool)> __HMUI_ButtonStaticAnimationsSizeCheck;
   static_assert(sizeof(ButtonStaticAnimations) == 0x41);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HMUI::ButtonStaticAnimations::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::ButtonStaticAnimations::Awake
 // Il2CppName: Awake
 template<>
@@ -173,7 +163,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::ButtonStaticAnimations*), "HandleButtonSelectionStateDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }
 };
-// Writing MetadataGetter for method: HMUI::ButtonStaticAnimations::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassLightTypeSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _renderingPriority
     // Size: 0x4
     // Offset: 0x18
@@ -62,22 +54,17 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _renderingPriority
-    int& dyn__renderingPriority();
+    [[deprecated("Use field access instead!")]] int& dyn__renderingPriority();
     // Get instance field reference: private UnityEngine.Material _material
-    ::UnityEngine::Material*& dyn__material();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__material();
     // public System.Int32 get_renderingPriority()
-    // Offset: 0x2ACDA80
+    // Offset: 0x1E76E48
     int get_renderingPriority();
     // public UnityEngine.Material get_material()
-    // Offset: 0x2ACDA88
+    // Offset: 0x1E76E50
     ::UnityEngine::Material* get_material();
     // public System.Void .ctor()
-    // Offset: 0x2ACDA90
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E76E58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassLightTypeSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassLightTypeSO::.ctor");

@@ -81,53 +81,53 @@ namespace TMPro {
       return *reinterpret_cast<::TMPro::ITweenValue*>(this);
     }
     // Get instance field reference: private TMPro.FloatTween/TMPro.FloatTweenCallback m_Target
-    ::TMPro::FloatTween::FloatTweenCallback*& dyn_m_Target();
+    [[deprecated("Use field access instead!")]] ::TMPro::FloatTween::FloatTweenCallback*& dyn_m_Target();
     // Get instance field reference: private System.Single m_StartValue
-    float& dyn_m_StartValue();
+    [[deprecated("Use field access instead!")]] float& dyn_m_StartValue();
     // Get instance field reference: private System.Single m_TargetValue
-    float& dyn_m_TargetValue();
+    [[deprecated("Use field access instead!")]] float& dyn_m_TargetValue();
     // Get instance field reference: private System.Single m_Duration
-    float& dyn_m_Duration();
+    [[deprecated("Use field access instead!")]] float& dyn_m_Duration();
     // Get instance field reference: private System.Boolean m_IgnoreTimeScale
-    bool& dyn_m_IgnoreTimeScale();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_IgnoreTimeScale();
     // public System.Single get_startValue()
-    // Offset: 0x142ED60
+    // Offset: 0x1437FA0
     float get_startValue();
     // public System.Void set_startValue(System.Single value)
-    // Offset: 0x142ED68
+    // Offset: 0x1437FA8
     void set_startValue(float value);
     // public System.Single get_targetValue()
-    // Offset: 0x142ED70
+    // Offset: 0x1437FB0
     float get_targetValue();
     // public System.Void set_targetValue(System.Single value)
-    // Offset: 0x142ED78
+    // Offset: 0x1437FB8
     void set_targetValue(float value);
     // public System.Single get_duration()
-    // Offset: 0x142ED80
+    // Offset: 0x1437FC0
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x142ED88
+    // Offset: 0x1437FC8
     void set_duration(float value);
     // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0x142ED90
+    // Offset: 0x1437FD0
     bool get_ignoreTimeScale();
     // public System.Void set_ignoreTimeScale(System.Boolean value)
-    // Offset: 0x142ED98
+    // Offset: 0x1437FD8
     void set_ignoreTimeScale(bool value);
     // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0x142EDA4
+    // Offset: 0x1437FE4
     void TweenValue(float floatPercentage);
     // public System.Void AddOnChangedCallback(UnityEngine.Events.UnityAction`1<System.Single> callback)
-    // Offset: 0x142EE74
+    // Offset: 0x14380B4
     void AddOnChangedCallback(::UnityEngine::Events::UnityAction_1<float>* callback);
     // public System.Boolean GetIgnoreTimescale()
-    // Offset: 0x142EF50
+    // Offset: 0x1438190
     bool GetIgnoreTimescale();
     // public System.Single GetDuration()
-    // Offset: 0x142EF58
+    // Offset: 0x1438198
     float GetDuration();
     // public System.Boolean ValidTarget()
-    // Offset: 0x142EE64
+    // Offset: 0x14380A4
     bool ValidTarget();
   }; // TMPro.FloatTween
   #pragma pack(pop)

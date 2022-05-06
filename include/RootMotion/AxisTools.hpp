@@ -42,40 +42,42 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class AxisTools : public ::Il2CppObject {
     public:
-    // static public UnityEngine.Vector3 ToVector3(RootMotion.Axis axis)
-    // Offset: 0x21F709C
-    static ::UnityEngine::Vector3 ToVector3(::RootMotion::Axis axis);
-    // static public RootMotion.Axis ToAxis(UnityEngine.Vector3 v)
-    // Offset: 0x21F7154
-    static ::RootMotion::Axis ToAxis(::UnityEngine::Vector3 v);
-    // static public RootMotion.Axis GetAxisToPoint(UnityEngine.Transform t, UnityEngine.Vector3 worldPosition)
-    // Offset: 0x21F7200
-    static ::RootMotion::Axis GetAxisToPoint(::UnityEngine::Transform* t, ::UnityEngine::Vector3 worldPosition);
-    // static public RootMotion.Axis GetAxisToDirection(UnityEngine.Transform t, UnityEngine.Vector3 direction)
-    // Offset: 0x21F73E4
-    static ::RootMotion::Axis GetAxisToDirection(::UnityEngine::Transform* t, ::UnityEngine::Vector3 direction);
-    // static public UnityEngine.Vector3 GetAxisVectorToPoint(UnityEngine.Transform t, UnityEngine.Vector3 worldPosition)
-    // Offset: 0x21F731C
-    static ::UnityEngine::Vector3 GetAxisVectorToPoint(::UnityEngine::Transform* t, ::UnityEngine::Vector3 worldPosition);
-    // static public UnityEngine.Vector3 GetAxisVectorToDirection(UnityEngine.Transform t, UnityEngine.Vector3 direction)
-    // Offset: 0x21F7500
-    static ::UnityEngine::Vector3 GetAxisVectorToDirection(::UnityEngine::Transform* t, ::UnityEngine::Vector3 direction);
-    // static public UnityEngine.Vector3 GetAxisVectorToDirection(UnityEngine.Quaternion r, UnityEngine.Vector3 direction)
-    // Offset: 0x21F7548
-    static ::UnityEngine::Vector3 GetAxisVectorToDirection(::UnityEngine::Quaternion r, ::UnityEngine::Vector3 direction);
     // public System.Void .ctor()
-    // Offset: 0x21F7810
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2245084
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AxisTools* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::AxisTools::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AxisTools*, creationType>()));
     }
+    // static public UnityEngine.Vector3 ToVector3(RootMotion.Axis axis)
+    // Offset: 0x2244910
+    static ::UnityEngine::Vector3 ToVector3(::RootMotion::Axis axis);
+    // static public RootMotion.Axis ToAxis(UnityEngine.Vector3 v)
+    // Offset: 0x22449C8
+    static ::RootMotion::Axis ToAxis(::UnityEngine::Vector3 v);
+    // static public RootMotion.Axis GetAxisToPoint(UnityEngine.Transform t, UnityEngine.Vector3 worldPosition)
+    // Offset: 0x2244A74
+    static ::RootMotion::Axis GetAxisToPoint(::UnityEngine::Transform* t, ::UnityEngine::Vector3 worldPosition);
+    // static public RootMotion.Axis GetAxisToDirection(UnityEngine.Transform t, UnityEngine.Vector3 direction)
+    // Offset: 0x2244C58
+    static ::RootMotion::Axis GetAxisToDirection(::UnityEngine::Transform* t, ::UnityEngine::Vector3 direction);
+    // static public UnityEngine.Vector3 GetAxisVectorToPoint(UnityEngine.Transform t, UnityEngine.Vector3 worldPosition)
+    // Offset: 0x2244B90
+    static ::UnityEngine::Vector3 GetAxisVectorToPoint(::UnityEngine::Transform* t, ::UnityEngine::Vector3 worldPosition);
+    // static public UnityEngine.Vector3 GetAxisVectorToDirection(UnityEngine.Transform t, UnityEngine.Vector3 direction)
+    // Offset: 0x2244D74
+    static ::UnityEngine::Vector3 GetAxisVectorToDirection(::UnityEngine::Transform* t, ::UnityEngine::Vector3 direction);
+    // static public UnityEngine.Vector3 GetAxisVectorToDirection(UnityEngine.Quaternion r, UnityEngine.Vector3 direction)
+    // Offset: 0x2244DBC
+    static ::UnityEngine::Vector3 GetAxisVectorToDirection(::UnityEngine::Quaternion r, ::UnityEngine::Vector3 direction);
   }; // RootMotion.AxisTools
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::AxisTools::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::AxisTools::ToVector3
 // Il2CppName: ToVector3
 template<>
@@ -144,7 +146,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(RootMotion::AxisTools*), "GetAxisVectorToDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{r, direction});
   }
 };
-// Writing MetadataGetter for method: RootMotion::AxisTools::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

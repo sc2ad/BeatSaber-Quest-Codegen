@@ -52,11 +52,11 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.IntPtr m_pResource
-    ::System::IntPtr& dyn_m_pResource();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_pResource();
     // Get instance field reference: public System.IntPtr m_pCommandQueue
-    ::System::IntPtr& dyn_m_pCommandQueue();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_pCommandQueue();
     // Get instance field reference: public System.UInt32 m_nNodeMask
-    uint& dyn_m_nNodeMask();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nNodeMask();
   }; // Valve.VR.D3D12TextureData_t
   #pragma pack(pop)
   static check_size<sizeof(D3D12TextureData_t), 16 + sizeof(uint)> __Valve_VR_D3D12TextureData_tSizeCheck;

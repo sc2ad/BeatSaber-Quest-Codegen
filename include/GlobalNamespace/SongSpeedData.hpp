@@ -26,15 +26,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SongSpeedData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Single speedMul
     // Size: 0x4
     // Offset: 0x10
@@ -47,9 +39,9 @@ namespace GlobalNamespace {
       return speedMul;
     }
     // Get instance field reference: public readonly System.Single speedMul
-    float& dyn_speedMul();
+    [[deprecated("Use field access instead!")]] float& dyn_speedMul();
     // public System.Void .ctor(System.Single speedMul)
-    // Offset: 0x2AA87F8
+    // Offset: 0x138F41C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongSpeedData* New_ctor(float speedMul) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongSpeedData::.ctor");

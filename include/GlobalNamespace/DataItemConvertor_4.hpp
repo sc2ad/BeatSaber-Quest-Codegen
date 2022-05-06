@@ -62,7 +62,6 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: DataItemConvertor`2
     // Base method: System.Void DataItemConvertor_2::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DataItemConvertor_4<TBase, TIn, TOut, TParam>* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DataItemConvertor_4::.ctor");

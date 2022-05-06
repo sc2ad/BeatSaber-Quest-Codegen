@@ -43,20 +43,20 @@ namespace UnityEngine::ProBuilder {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 begin
-    int& dyn_begin();
+    [[deprecated("Use field access instead!")]] int& dyn_begin();
     // Get instance field reference: public System.Int32 end
-    int& dyn_end();
+    [[deprecated("Use field access instead!")]] int& dyn_end();
     // public System.Void .ctor(System.Int32 begin, System.Int32 end)
-    // Offset: 0x24AF9A0
+    // Offset: 0x24FB464
     // ABORTED: conflicts with another method.  SearchRange(int begin, int end);
     // public System.Boolean Valid()
-    // Offset: 0x24AF9A8
+    // Offset: 0x24FB46C
     bool Valid();
     // public System.Int32 Center()
-    // Offset: 0x24AF9BC
+    // Offset: 0x24FB480
     int Center();
     // public override System.String ToString()
-    // Offset: 0x24AF9D4
+    // Offset: 0x24FB498
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

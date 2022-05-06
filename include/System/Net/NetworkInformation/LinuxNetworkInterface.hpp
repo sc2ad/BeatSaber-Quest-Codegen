@@ -40,15 +40,7 @@ namespace System::Net::NetworkInformation {
     public:
     // Writing base type padding for base size: 0x34 to desired offset: 0x38
     char ___base_padding[0x4] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String iface_path
     // Size: 0x8
     // Offset: 0x38
@@ -69,24 +61,24 @@ namespace System::Net::NetworkInformation {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String iface_path
-    ::StringW& dyn_iface_path();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_iface_path();
     // Get instance field reference: private System.String iface_operstate_path
-    ::StringW& dyn_iface_operstate_path();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_iface_operstate_path();
     // Get instance field reference: private System.String iface_flags_path
-    ::StringW& dyn_iface_flags_path();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_iface_flags_path();
     // System.String get_IfacePath()
-    // Offset: 0x1A7CD34
+    // Offset: 0x1AB731C
     ::StringW get_IfacePath();
     // static System.String ReadLine(System.String path)
-    // Offset: 0x1A7D0EC
+    // Offset: 0x1AB76D4
     static ::StringW ReadLine(::StringW path);
     // public override System.Net.NetworkInformation.OperationalStatus get_OperationalStatus()
-    // Offset: 0x1A7CE70
+    // Offset: 0x1AB7458
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.OperationalStatus NetworkInterface::get_OperationalStatus()
     ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
     // System.Void .ctor(System.String name)
-    // Offset: 0x1A7CD3C
+    // Offset: 0x1AB7324
     // Implemented from: System.Net.NetworkInformation.UnixNetworkInterface
     // Base method: System.Void UnixNetworkInterface::.ctor(System.String name)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -95,7 +87,7 @@ namespace System::Net::NetworkInformation {
       return THROW_UNLESS((::il2cpp_utils::New<LinuxNetworkInterface*, creationType>(name)));
     }
     // public override System.Net.NetworkInformation.IPInterfaceProperties GetIPProperties()
-    // Offset: 0x1A7CDF4
+    // Offset: 0x1AB73DC
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.IPInterfaceProperties NetworkInterface::GetIPProperties()
     ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();

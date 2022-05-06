@@ -47,20 +47,18 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IBeatmapLevelPack,System.String> <>9__43_0
     static void _set_$$9__43_0(::System::Func_2<::GlobalNamespace::IBeatmapLevelPack*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1523058
+    // Offset: 0x155A960
     static void _cctor();
-    // System.String <SetOwnedSongPacks>b__43_0(IBeatmapLevelPack pack)
-    // Offset: 0x15230C4
-    ::StringW $SetOwnedSongPacks$b__43_0(::GlobalNamespace::IBeatmapLevelPack* pack);
     // public System.Void .ctor()
-    // Offset: 0x15230BC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x155A9C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LobbyPlayersDataModel::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LobbyPlayersDataModel::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LobbyPlayersDataModel::$$c*, creationType>()));
     }
+    // System.String <SetOwnedSongPacks>b__43_0(IBeatmapLevelPack pack)
+    // Offset: 0x155A9CC
+    ::StringW $SetOwnedSongPacks$b__43_0(::GlobalNamespace::IBeatmapLevelPack* pack);
   }; // LobbyPlayersDataModel/<>c
   #pragma pack(pop)
 }
@@ -73,6 +71,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyPlayersDataModel::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LobbyPlayersDataModel::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LobbyPlayersDataModel::$$c::$SetOwnedSongPacks$b__43_0
 // Il2CppName: <SetOwnedSongPacks>b__43_0
 template<>
@@ -82,7 +84,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyPlayersDataModel::$$c*), "<SetOwnedSongPacks>b__43_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pack});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LobbyPlayersDataModel::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

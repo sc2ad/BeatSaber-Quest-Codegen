@@ -57,15 +57,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class CookieContainer : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Hashtable m_domainTable
     // Size: 0x8
     // Offset: 0x10
@@ -108,68 +100,70 @@ namespace System::Net {
     // Set static field: static private readonly System.Net.HeaderVariantInfo[] HeaderInfo
     static void _set_HeaderInfo(::ArrayW<::System::Net::HeaderVariantInfo> value);
     // Get instance field reference: private System.Collections.Hashtable m_domainTable
-    ::System::Collections::Hashtable*& dyn_m_domainTable();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn_m_domainTable();
     // Get instance field reference: private System.Int32 m_maxCookieSize
-    int& dyn_m_maxCookieSize();
+    [[deprecated("Use field access instead!")]] int& dyn_m_maxCookieSize();
     // Get instance field reference: private System.Int32 m_maxCookies
-    int& dyn_m_maxCookies();
+    [[deprecated("Use field access instead!")]] int& dyn_m_maxCookies();
     // Get instance field reference: private System.Int32 m_maxCookiesPerDomain
-    int& dyn_m_maxCookiesPerDomain();
+    [[deprecated("Use field access instead!")]] int& dyn_m_maxCookiesPerDomain();
     // Get instance field reference: private System.Int32 m_count
-    int& dyn_m_count();
+    [[deprecated("Use field access instead!")]] int& dyn_m_count();
     // Get instance field reference: private System.String m_fqdnMyDomain
-    ::StringW& dyn_m_fqdnMyDomain();
-    // static private System.Void .cctor()
-    // Offset: 0x1A3DBE4
-    static void _cctor();
-    // private System.Void AddRemoveDomain(System.String key, System.Net.PathList value)
-    // Offset: 0x1A3A04C
-    void AddRemoveDomain(::StringW key, ::System::Net::PathList* value);
-    // System.Void Add(System.Net.Cookie cookie, System.Boolean throwOnError)
-    // Offset: 0x1A3A148
-    void Add(::System::Net::Cookie* cookie, bool throwOnError);
-    // private System.Boolean AgeCookies(System.String domain)
-    // Offset: 0x1A3A8B8
-    bool AgeCookies(::StringW domain);
-    // private System.Int32 ExpireCollection(System.Net.CookieCollection cc)
-    // Offset: 0x1A3BBEC
-    int ExpireCollection(::System::Net::CookieCollection* cc);
-    // System.Boolean IsLocalDomain(System.String host)
-    // Offset: 0x1A3BD24
-    bool IsLocalDomain(::StringW host);
-    // System.Net.CookieCollection CookieCutter(System.Uri uri, System.String headerName, System.String setCookieHeader, System.Boolean isThrow)
-    // Offset: 0x1A3BFEC
-    ::System::Net::CookieCollection* CookieCutter(::System::Uri* uri, ::StringW headerName, ::StringW setCookieHeader, bool isThrow);
-    // System.Net.CookieCollection InternalGetCookies(System.Uri uri)
-    // Offset: 0x1A3CC50
-    ::System::Net::CookieCollection* InternalGetCookies(::System::Uri* uri);
-    // private System.Void BuildCookieCollectionFromDomainMatches(System.Uri uri, System.Boolean isSecure, System.Int32 port, System.Net.CookieCollection cookies, System.Collections.Generic.List`1<System.String> domainAttribute, System.Boolean matchOnlyPlainCookie)
-    // Offset: 0x1A3CF38
-    void BuildCookieCollectionFromDomainMatches(::System::Uri* uri, bool isSecure, int port, ::System::Net::CookieCollection* cookies, ::System::Collections::Generic::List_1<::StringW>* domainAttribute, bool matchOnlyPlainCookie);
-    // private System.Void MergeUpdateCollections(System.Net.CookieCollection destination, System.Net.CookieCollection source, System.Int32 port, System.Boolean isSecure, System.Boolean isPlainOnly)
-    // Offset: 0x1A3D63C
-    void MergeUpdateCollections(::System::Net::CookieCollection* destination, ::System::Net::CookieCollection* source, int port, bool isSecure, bool isPlainOnly);
-    // public System.String GetCookieHeader(System.Uri uri)
-    // Offset: 0x1A3D824
-    ::StringW GetCookieHeader(::System::Uri* uri);
-    // System.String GetCookieHeader(System.Uri uri, out System.String optCookie2)
-    // Offset: 0x1A3D8F4
-    ::StringW GetCookieHeader(::System::Uri* uri, ByRef<::StringW> optCookie2);
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_fqdnMyDomain();
     // public System.Void .ctor()
-    // Offset: 0x1A39F6C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1A73554
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CookieContainer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::CookieContainer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CookieContainer*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1A771CC
+    static void _cctor();
+    // private System.Void AddRemoveDomain(System.String key, System.Net.PathList value)
+    // Offset: 0x1A73634
+    void AddRemoveDomain(::StringW key, ::System::Net::PathList* value);
+    // System.Void Add(System.Net.Cookie cookie, System.Boolean throwOnError)
+    // Offset: 0x1A73730
+    void Add(::System::Net::Cookie* cookie, bool throwOnError);
+    // private System.Boolean AgeCookies(System.String domain)
+    // Offset: 0x1A73EA0
+    bool AgeCookies(::StringW domain);
+    // private System.Int32 ExpireCollection(System.Net.CookieCollection cc)
+    // Offset: 0x1A751D4
+    int ExpireCollection(::System::Net::CookieCollection* cc);
+    // System.Boolean IsLocalDomain(System.String host)
+    // Offset: 0x1A7530C
+    bool IsLocalDomain(::StringW host);
+    // System.Net.CookieCollection CookieCutter(System.Uri uri, System.String headerName, System.String setCookieHeader, System.Boolean isThrow)
+    // Offset: 0x1A755D4
+    ::System::Net::CookieCollection* CookieCutter(::System::Uri* uri, ::StringW headerName, ::StringW setCookieHeader, bool isThrow);
+    // System.Net.CookieCollection InternalGetCookies(System.Uri uri)
+    // Offset: 0x1A76238
+    ::System::Net::CookieCollection* InternalGetCookies(::System::Uri* uri);
+    // private System.Void BuildCookieCollectionFromDomainMatches(System.Uri uri, System.Boolean isSecure, System.Int32 port, System.Net.CookieCollection cookies, System.Collections.Generic.List`1<System.String> domainAttribute, System.Boolean matchOnlyPlainCookie)
+    // Offset: 0x1A76520
+    void BuildCookieCollectionFromDomainMatches(::System::Uri* uri, bool isSecure, int port, ::System::Net::CookieCollection* cookies, ::System::Collections::Generic::List_1<::StringW>* domainAttribute, bool matchOnlyPlainCookie);
+    // private System.Void MergeUpdateCollections(System.Net.CookieCollection destination, System.Net.CookieCollection source, System.Int32 port, System.Boolean isSecure, System.Boolean isPlainOnly)
+    // Offset: 0x1A76C24
+    void MergeUpdateCollections(::System::Net::CookieCollection* destination, ::System::Net::CookieCollection* source, int port, bool isSecure, bool isPlainOnly);
+    // public System.String GetCookieHeader(System.Uri uri)
+    // Offset: 0x1A76E0C
+    ::StringW GetCookieHeader(::System::Uri* uri);
+    // System.String GetCookieHeader(System.Uri uri, out System.String optCookie2)
+    // Offset: 0x1A76EDC
+    ::StringW GetCookieHeader(::System::Uri* uri, ByRef<::StringW> optCookie2);
   }; // System.Net.CookieContainer
   #pragma pack(pop)
   static check_size<sizeof(CookieContainer), 40 + sizeof(::StringW)> __System_Net_CookieContainerSizeCheck;
   static_assert(sizeof(CookieContainer) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Net::CookieContainer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::CookieContainer::_cctor
 // Il2CppName: .cctor
 template<>
@@ -292,7 +286,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(System::Net::CookieContainer*), "GetCookieHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri, optCookie2});
   }
 };
-// Writing MetadataGetter for method: System::Net::CookieContainer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

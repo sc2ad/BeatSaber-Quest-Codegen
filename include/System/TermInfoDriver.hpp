@@ -57,15 +57,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class TermInfoDriver : public ::Il2CppObject/*, public ::System::IConsoleDriver*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.TermInfoReader reader
     // Size: 0x8
     // Offset: 0x10
@@ -338,190 +330,190 @@ namespace System {
     // Set static field: static private readonly System.Int32[] _consoleColorToAnsiCode
     static void _set__consoleColorToAnsiCode(::ArrayW<int> value);
     // Get instance field reference: private System.TermInfoReader reader
-    ::System::TermInfoReader*& dyn_reader();
+    [[deprecated("Use field access instead!")]] ::System::TermInfoReader*& dyn_reader();
     // Get instance field reference: private System.Int32 cursorLeft
-    int& dyn_cursorLeft();
+    [[deprecated("Use field access instead!")]] int& dyn_cursorLeft();
     // Get instance field reference: private System.Int32 cursorTop
-    int& dyn_cursorTop();
+    [[deprecated("Use field access instead!")]] int& dyn_cursorTop();
     // Get instance field reference: private System.String title
-    ::StringW& dyn_title();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_title();
     // Get instance field reference: private System.String titleFormat
-    ::StringW& dyn_titleFormat();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_titleFormat();
     // Get instance field reference: private System.Boolean cursorVisible
-    bool& dyn_cursorVisible();
+    [[deprecated("Use field access instead!")]] bool& dyn_cursorVisible();
     // Get instance field reference: private System.String csrVisible
-    ::StringW& dyn_csrVisible();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_csrVisible();
     // Get instance field reference: private System.String csrInvisible
-    ::StringW& dyn_csrInvisible();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_csrInvisible();
     // Get instance field reference: private System.String clear
-    ::StringW& dyn_clear();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_clear();
     // Get instance field reference: private System.String bell
-    ::StringW& dyn_bell();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_bell();
     // Get instance field reference: private System.String term
-    ::StringW& dyn_term();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_term();
     // Get instance field reference: private System.IO.StreamReader stdin
-    ::System::IO::StreamReader*& dyn_stdin();
+    [[deprecated("Use field access instead!")]] ::System::IO::StreamReader*& dyn_stdin();
     // Get instance field reference: private System.IO.CStreamWriter stdout
-    ::System::IO::CStreamWriter*& dyn_stdout();
+    [[deprecated("Use field access instead!")]] ::System::IO::CStreamWriter*& dyn_stdout();
     // Get instance field reference: private System.Int32 windowWidth
-    int& dyn_windowWidth();
+    [[deprecated("Use field access instead!")]] int& dyn_windowWidth();
     // Get instance field reference: private System.Int32 windowHeight
-    int& dyn_windowHeight();
+    [[deprecated("Use field access instead!")]] int& dyn_windowHeight();
     // Get instance field reference: private System.Int32 bufferHeight
-    int& dyn_bufferHeight();
+    [[deprecated("Use field access instead!")]] int& dyn_bufferHeight();
     // Get instance field reference: private System.Int32 bufferWidth
-    int& dyn_bufferWidth();
+    [[deprecated("Use field access instead!")]] int& dyn_bufferWidth();
     // Get instance field reference: private System.Char[] buffer
-    ::ArrayW<::Il2CppChar>& dyn_buffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppChar>& dyn_buffer();
     // Get instance field reference: private System.Int32 readpos
-    int& dyn_readpos();
+    [[deprecated("Use field access instead!")]] int& dyn_readpos();
     // Get instance field reference: private System.Int32 writepos
-    int& dyn_writepos();
+    [[deprecated("Use field access instead!")]] int& dyn_writepos();
     // Get instance field reference: private System.String keypadXmit
-    ::StringW& dyn_keypadXmit();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_keypadXmit();
     // Get instance field reference: private System.String keypadLocal
-    ::StringW& dyn_keypadLocal();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_keypadLocal();
     // Get instance field reference: private System.Boolean inited
-    bool& dyn_inited();
+    [[deprecated("Use field access instead!")]] bool& dyn_inited();
     // Get instance field reference: private System.Object initLock
-    ::Il2CppObject*& dyn_initLock();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_initLock();
     // Get instance field reference: private System.Boolean initKeys
-    bool& dyn_initKeys();
+    [[deprecated("Use field access instead!")]] bool& dyn_initKeys();
     // Get instance field reference: private System.String origPair
-    ::StringW& dyn_origPair();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_origPair();
     // Get instance field reference: private System.String origColors
-    ::StringW& dyn_origColors();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_origColors();
     // Get instance field reference: private System.String cursorAddress
-    ::StringW& dyn_cursorAddress();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_cursorAddress();
     // Get instance field reference: private System.ConsoleColor fgcolor
-    ::System::ConsoleColor& dyn_fgcolor();
+    [[deprecated("Use field access instead!")]] ::System::ConsoleColor& dyn_fgcolor();
     // Get instance field reference: private System.String setfgcolor
-    ::StringW& dyn_setfgcolor();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_setfgcolor();
     // Get instance field reference: private System.String setbgcolor
-    ::StringW& dyn_setbgcolor();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_setbgcolor();
     // Get instance field reference: private System.Int32 maxColors
-    int& dyn_maxColors();
+    [[deprecated("Use field access instead!")]] int& dyn_maxColors();
     // Get instance field reference: private System.Boolean noGetPosition
-    bool& dyn_noGetPosition();
+    [[deprecated("Use field access instead!")]] bool& dyn_noGetPosition();
     // Get instance field reference: private System.Collections.Hashtable keymap
-    ::System::Collections::Hashtable*& dyn_keymap();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn_keymap();
     // Get instance field reference: private System.ByteMatcher rootmap
-    ::System::ByteMatcher*& dyn_rootmap();
+    [[deprecated("Use field access instead!")]] ::System::ByteMatcher*& dyn_rootmap();
     // Get instance field reference: private System.Int32 rl_startx
-    int& dyn_rl_startx();
+    [[deprecated("Use field access instead!")]] int& dyn_rl_startx();
     // Get instance field reference: private System.Int32 rl_starty
-    int& dyn_rl_starty();
+    [[deprecated("Use field access instead!")]] int& dyn_rl_starty();
     // Get instance field reference: private System.Byte[] control_characters
-    ::ArrayW<uint8_t>& dyn_control_characters();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_control_characters();
     // Get instance field reference: private System.Char[] echobuf
-    ::ArrayW<::Il2CppChar>& dyn_echobuf();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppChar>& dyn_echobuf();
     // Get instance field reference: private System.Int32 echon
-    int& dyn_echon();
+    [[deprecated("Use field access instead!")]] int& dyn_echon();
     // public System.Boolean get_Initialized()
-    // Offset: 0x20E1ED4
+    // Offset: 0x212C748
     bool get_Initialized();
     // public System.Int32 get_WindowHeight()
-    // Offset: 0x20E29C4
+    // Offset: 0x212D238
     int get_WindowHeight();
     // public System.Int32 get_WindowWidth()
-    // Offset: 0x20E298C
+    // Offset: 0x212D200
     int get_WindowWidth();
     // public System.Void .ctor(System.String term)
-    // Offset: 0x20E1890
+    // Offset: 0x212C104
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TermInfoDriver* New_ctor(::StringW term) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::TermInfoDriver::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TermInfoDriver*, creationType>(term)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x20E5EB4
+    // Offset: 0x2130728
     static void _cctor();
     // static private System.String TryTermInfoDir(System.String dir, System.String term)
-    // Offset: 0x20E15AC
+    // Offset: 0x212BE20
     static ::StringW TryTermInfoDir(::StringW dir, ::StringW term);
     // static private System.String SearchTerminfo(System.String term)
-    // Offset: 0x20E16F0
+    // Offset: 0x212BF64
     static ::StringW SearchTerminfo(::StringW term);
     // private System.Void WriteConsole(System.String str)
-    // Offset: 0x20E186C
+    // Offset: 0x212C0E0
     void WriteConsole(::StringW str);
     // public System.Void Init()
-    // Offset: 0x20E1EDC
+    // Offset: 0x212C750
     void Init();
     // private System.Void IncrementX()
-    // Offset: 0x20E291C
+    // Offset: 0x212D190
     void IncrementX();
     // public System.Void WriteSpecialKey(System.ConsoleKeyInfo key)
-    // Offset: 0x20E29FC
+    // Offset: 0x212D270
     void WriteSpecialKey(::System::ConsoleKeyInfo key);
     // public System.Void WriteSpecialKey(System.Char c)
-    // Offset: 0x20E2CD4
+    // Offset: 0x212D548
     void WriteSpecialKey(::Il2CppChar c);
     // public System.Boolean IsSpecialKey(System.ConsoleKeyInfo key)
-    // Offset: 0x20E2E8C
+    // Offset: 0x212D700
     bool IsSpecialKey(::System::ConsoleKeyInfo key);
     // public System.Boolean IsSpecialKey(System.Char c)
-    // Offset: 0x20E2F14
+    // Offset: 0x212D788
     bool IsSpecialKey(::Il2CppChar c);
     // private System.Void GetCursorPosition()
-    // Offset: 0x20E266C
+    // Offset: 0x212CEE0
     void GetCursorPosition();
     // private System.Void CheckWindowDimensions()
-    // Offset: 0x20E3058
+    // Offset: 0x212D8CC
     void CheckWindowDimensions();
     // private System.Void AddToBuffer(System.Int32 b)
-    // Offset: 0x20E2F48
+    // Offset: 0x212D7BC
     void AddToBuffer(int b);
     // private System.Void AdjustBuffer()
-    // Offset: 0x20E31B8
+    // Offset: 0x212DA2C
     void AdjustBuffer();
     // private System.ConsoleKeyInfo CreateKeyInfoFromInt(System.Int32 n, System.Boolean alt)
-    // Offset: 0x20E2D08
+    // Offset: 0x212D57C
     ::System::ConsoleKeyInfo CreateKeyInfoFromInt(int n, bool alt);
     // private System.Object GetKeyFromBuffer(System.Boolean cooked)
-    // Offset: 0x20E31CC
+    // Offset: 0x212DA40
     ::Il2CppObject* GetKeyFromBuffer(bool cooked);
     // private System.ConsoleKeyInfo ReadKeyInternal(out System.Boolean fresh)
-    // Offset: 0x20E34B8
+    // Offset: 0x212DD2C
     ::System::ConsoleKeyInfo ReadKeyInternal(ByRef<bool> fresh);
     // private System.Boolean InputPending()
-    // Offset: 0x20E37F0
+    // Offset: 0x212E064
     bool InputPending();
     // private System.Void QueueEcho(System.Char c)
-    // Offset: 0x20E3820
+    // Offset: 0x212E094
     void QueueEcho(::Il2CppChar c);
     // private System.Void Echo(System.ConsoleKeyInfo key)
-    // Offset: 0x20E3918
+    // Offset: 0x212E18C
     void Echo(::System::ConsoleKeyInfo key);
     // private System.Void EchoFlush()
-    // Offset: 0x20E397C
+    // Offset: 0x212E1F0
     void EchoFlush();
     // public System.Int32 Read(in System.Char[] dest, System.Int32 index, System.Int32 count)
-    // Offset: 0x20E39BC
+    // Offset: 0x212E230
     int Read(ByRef<::ArrayW<::Il2CppChar>> dest, int index, int count);
     // public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
-    // Offset: 0x20E3CE0
+    // Offset: 0x212E554
     ::System::ConsoleKeyInfo ReadKey(bool intercept);
     // public System.String ReadLine()
-    // Offset: 0x20E3D48
+    // Offset: 0x212E5BC
     ::StringW ReadLine();
     // public System.String ReadToEnd()
-    // Offset: 0x20E3F38
+    // Offset: 0x212E7AC
     ::StringW ReadToEnd();
     // private System.String ReadUntilConditionInternal(System.Boolean haltOnNewLine)
-    // Offset: 0x20E3D50
+    // Offset: 0x212E5C4
     ::StringW ReadUntilConditionInternal(bool haltOnNewLine);
     // public System.Void SetCursorPosition(System.Int32 left, System.Int32 top)
-    // Offset: 0x20E2B24
+    // Offset: 0x212D398
     void SetCursorPosition(int left, int top);
     // private System.Void CreateKeyMap()
-    // Offset: 0x20E3F40
+    // Offset: 0x212E7B4
     void CreateKeyMap();
     // private System.Void InitKeys()
-    // Offset: 0x20E368C
+    // Offset: 0x212DF00
     void InitKeys();
     // private System.Void AddStringMapping(System.TermInfoStrings s)
-    // Offset: 0x20E5DC8
+    // Offset: 0x213063C
     void AddStringMapping(::System::TermInfoStrings s);
   }; // System.TermInfoDriver
   #pragma pack(pop)

@@ -50,23 +50,21 @@ namespace TMPro {
     // Set static field: static public System.Func`2<TMPro.TMP_GlyphPairAdjustmentRecord,System.UInt32> <>9__6_1
     static void _set_$$9__6_1(::System::Func_2<::TMPro::TMP_GlyphPairAdjustmentRecord*, uint>* value);
     // static private System.Void .cctor()
-    // Offset: 0x143E8E8
+    // Offset: 0x1447B28
     static void _cctor();
-    // System.UInt32 <SortGlyphPairAdjustmentRecords>b__6_0(TMPro.TMP_GlyphPairAdjustmentRecord s)
-    // Offset: 0x143E954
-    uint $SortGlyphPairAdjustmentRecords$b__6_0(::TMPro::TMP_GlyphPairAdjustmentRecord* s);
-    // System.UInt32 <SortGlyphPairAdjustmentRecords>b__6_1(TMPro.TMP_GlyphPairAdjustmentRecord s)
-    // Offset: 0x143E96C
-    uint $SortGlyphPairAdjustmentRecords$b__6_1(::TMPro::TMP_GlyphPairAdjustmentRecord* s);
     // public System.Void .ctor()
-    // Offset: 0x143E94C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1447B8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_FontFeatureTable::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_FontFeatureTable::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_FontFeatureTable::$$c*, creationType>()));
     }
+    // System.UInt32 <SortGlyphPairAdjustmentRecords>b__6_0(TMPro.TMP_GlyphPairAdjustmentRecord s)
+    // Offset: 0x1447B94
+    uint $SortGlyphPairAdjustmentRecords$b__6_0(::TMPro::TMP_GlyphPairAdjustmentRecord* s);
+    // System.UInt32 <SortGlyphPairAdjustmentRecords>b__6_1(TMPro.TMP_GlyphPairAdjustmentRecord s)
+    // Offset: 0x1447BAC
+    uint $SortGlyphPairAdjustmentRecords$b__6_1(::TMPro::TMP_GlyphPairAdjustmentRecord* s);
   }; // TMPro.TMP_FontFeatureTable/TMPro.<>c
   #pragma pack(pop)
 }
@@ -79,6 +77,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontFeatureTable::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: TMPro::TMP_FontFeatureTable::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: TMPro::TMP_FontFeatureTable::$$c::$SortGlyphPairAdjustmentRecords$b__6_0
 // Il2CppName: <SortGlyphPairAdjustmentRecords>b__6_0
 template<>
@@ -97,7 +99,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontFeatureTable::$$c*), "<SortGlyphPairAdjustmentRecords>b__6_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
 };
-// Writing MetadataGetter for method: TMPro::TMP_FontFeatureTable::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

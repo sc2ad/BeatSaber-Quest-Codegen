@@ -31,15 +31,7 @@ namespace TMPro {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class KerningTable::$$c__DisplayClass5_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 left
     // Size: 0x4
     // Offset: 0x10
@@ -54,27 +46,29 @@ namespace TMPro {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public System.Int32 left
-    int& dyn_left();
+    [[deprecated("Use field access instead!")]] int& dyn_left();
     // Get instance field reference: public System.Int32 right
-    int& dyn_right();
-    // System.Boolean <RemoveKerningPair>b__0(TMPro.KerningPair item)
-    // Offset: 0x142FB90
-    bool $RemoveKerningPair$b__0(::TMPro::KerningPair* item);
+    [[deprecated("Use field access instead!")]] int& dyn_right();
     // public System.Void .ctor()
-    // Offset: 0x142F83C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1438A7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KerningTable::$$c__DisplayClass5_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::KerningTable::$$c__DisplayClass5_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KerningTable::$$c__DisplayClass5_0*, creationType>()));
     }
+    // System.Boolean <RemoveKerningPair>b__0(TMPro.KerningPair item)
+    // Offset: 0x1438DD0
+    bool $RemoveKerningPair$b__0(::TMPro::KerningPair* item);
   }; // TMPro.KerningTable/TMPro.<>c__DisplayClass5_0
   #pragma pack(pop)
   static check_size<sizeof(KerningTable::$$c__DisplayClass5_0), 20 + sizeof(int)> __TMPro_KerningTable_$$c__DisplayClass5_0SizeCheck;
   static_assert(sizeof(KerningTable::$$c__DisplayClass5_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: TMPro::KerningTable::$$c__DisplayClass5_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: TMPro::KerningTable::$$c__DisplayClass5_0::$RemoveKerningPair$b__0
 // Il2CppName: <RemoveKerningPair>b__0
 template<>
@@ -84,7 +78,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
     return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable::$$c__DisplayClass5_0*), "<RemoveKerningPair>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{item});
   }
 };
-// Writing MetadataGetter for method: TMPro::KerningTable::$$c__DisplayClass5_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

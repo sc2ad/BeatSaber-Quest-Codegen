@@ -50,22 +50,14 @@ namespace GlobalNamespace {
     char ___base_padding[0x7] = {};
     // Nested type: ::GlobalNamespace::MirroredSliderController::Pool
     class Pool;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.MeshFilter _meshFilter
     // Size: 0x8
     // Offset: 0x30
     ::UnityEngine::MeshFilter* meshFilter;
     // Field size check
     static_assert(sizeof(::UnityEngine::MeshFilter*) == 0x8);
-    // [InjectAttribute] Offset: 0x124F1C0
+    // [InjectAttribute] Offset: 0x10D3CF4
     // private readonly IBeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x38
@@ -96,51 +88,46 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::ISliderDidStartDissolvingEvent*>(this);
     }
     // Get instance field reference: private UnityEngine.MeshFilter _meshFilter
-    ::UnityEngine::MeshFilter*& dyn__meshFilter();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MeshFilter*& dyn__meshFilter();
     // Get instance field reference: private readonly IBeatmapObjectSpawnController _beatmapObjectSpawnController
-    ::GlobalNamespace::IBeatmapObjectSpawnController*& dyn__beatmapObjectSpawnController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatmapObjectSpawnController*& dyn__beatmapObjectSpawnController();
     // Get instance field reference: private SliderController _followedSlider
-    ::GlobalNamespace::SliderController*& dyn__followedSlider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SliderController*& dyn__followedSlider();
     // Get instance field reference: private UnityEngine.Transform _transform
-    ::UnityEngine::Transform*& dyn__transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // Get instance field reference: private UnityEngine.Transform _followedTransform
-    ::UnityEngine::Transform*& dyn__followedTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__followedTransform();
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x1302E2C
+    // Offset: 0x12FF304
     void set_hide(bool value);
     // protected System.Void Awake()
-    // Offset: 0x1303804
+    // Offset: 0x12FFCDC
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x130382C
+    // Offset: 0x12FFD04
     void Update();
     // protected System.Void OnDestroy()
-    // Offset: 0x1303A0C
+    // Offset: 0x12FFEE4
     void OnDestroy();
     // public System.Void Mirror(SliderController sliderController)
-    // Offset: 0x1302494
+    // Offset: 0x12FE96C
     void Mirror(::GlobalNamespace::SliderController* sliderController);
     // private System.Void UpdateMaterialPropertyBlock(System.Single timeSinceHeadNoteJump)
-    // Offset: 0x13038E0
+    // Offset: 0x12FFDB8
     void UpdateMaterialPropertyBlock(float timeSinceHeadNoteJump);
     // private System.Void RemoveListeners()
-    // Offset: 0x1303A10
+    // Offset: 0x12FFEE8
     void RemoveListeners();
     // public System.Void HandleSliderDidStartDissolving(SliderController sliderController, System.Single duration)
-    // Offset: 0x1303B10
+    // Offset: 0x12FFFE8
     void HandleSliderDidStartDissolving(::GlobalNamespace::SliderController* sliderController, float duration);
     // private System.Void Dissolve(System.Single duration)
-    // Offset: 0x1303B38
+    // Offset: 0x1300010
     void Dissolve(float duration);
     // public System.Void .ctor()
-    // Offset: 0x1303B60
+    // Offset: 0x1300038
     // Implemented from: SliderControllerBase
     // Base method: System.Void SliderControllerBase::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MirroredSliderController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MirroredSliderController::.ctor");

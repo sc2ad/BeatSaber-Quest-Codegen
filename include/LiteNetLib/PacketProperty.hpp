@@ -150,7 +150,7 @@ namespace LiteNetLib {
     // Set static field: static public LiteNetLib.PacketProperty Empty
     static void _set_Empty(::LiteNetLib::PacketProperty value);
     // Get instance field reference: public System.Byte value__
-    uint8_t& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_value__();
   }; // LiteNetLib.PacketProperty
   #pragma pack(pop)
   static check_size<sizeof(PacketProperty), 0 + sizeof(uint8_t)> __LiteNetLib_PacketPropertySizeCheck;

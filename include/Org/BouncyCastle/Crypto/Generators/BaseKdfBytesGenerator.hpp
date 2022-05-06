@@ -38,15 +38,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseKdfBytesGenerator : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IDerivationFunction*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 counterStart
     // Size: 0x4
     // Offset: 0x10
@@ -79,25 +71,25 @@ namespace Org::BouncyCastle::Crypto::Generators {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IDerivationFunction*>(this);
     }
     // Get instance field reference: private System.Int32 counterStart
-    int& dyn_counterStart();
+    [[deprecated("Use field access instead!")]] int& dyn_counterStart();
     // Get instance field reference: private Org.BouncyCastle.Crypto.IDigest digest
-    ::Org::BouncyCastle::Crypto::IDigest*& dyn_digest();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::IDigest*& dyn_digest();
     // Get instance field reference: private System.Byte[] shared
-    ::ArrayW<uint8_t>& dyn_shared();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_shared();
     // Get instance field reference: private System.Byte[] iv
-    ::ArrayW<uint8_t>& dyn_iv();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_iv();
     // public System.Void .ctor(System.Int32 counterStart, Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x1DF3ADC
+    // Offset: 0x1E2E3A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseKdfBytesGenerator* New_ctor(int counterStart, ::Org::BouncyCastle::Crypto::IDigest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseKdfBytesGenerator*, creationType>(counterStart, digest)));
     }
     // public System.Void Init(Org.BouncyCastle.Crypto.IDerivationParameters parameters)
-    // Offset: 0x1DF3B18
+    // Offset: 0x1E2E3E4
     void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
     // public System.Int32 GenerateBytes(System.Byte[] output, System.Int32 outOff, System.Int32 length)
-    // Offset: 0x1DF3C20
+    // Offset: 0x1E2E4EC
     int GenerateBytes(::ArrayW<uint8_t> output, int outOff, int length);
   }; // Org.BouncyCastle.Crypto.Generators.BaseKdfBytesGenerator
   #pragma pack(pop)

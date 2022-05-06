@@ -38,15 +38,7 @@ namespace System::Runtime::Remoting::Activation {
   // [TokenAttribute] Offset: FFFFFFFF
   class AppDomainLevelActivator : public ::Il2CppObject/*, public ::System::Runtime::Remoting::Activation::IActivator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _activationUrl
     // Size: 0x8
     // Offset: 0x10
@@ -65,21 +57,21 @@ namespace System::Runtime::Remoting::Activation {
       return *reinterpret_cast<::System::Runtime::Remoting::Activation::IActivator*>(this);
     }
     // Get instance field reference: private System.String _activationUrl
-    ::StringW& dyn__activationUrl();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__activationUrl();
     // Get instance field reference: private System.Runtime.Remoting.Activation.IActivator _next
-    ::System::Runtime::Remoting::Activation::IActivator*& dyn__next();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Activation::IActivator*& dyn__next();
     // public System.Runtime.Remoting.Activation.IActivator get_NextActivator()
-    // Offset: 0x1D4DAF4
+    // Offset: 0x1D8904C
     ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
     // public System.Void .ctor(System.String activationUrl, System.Runtime.Remoting.Activation.IActivator next)
-    // Offset: 0x1D4D514
+    // Offset: 0x1D88A6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AppDomainLevelActivator* New_ctor(::StringW activationUrl, ::System::Runtime::Remoting::Activation::IActivator* next) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Activation::AppDomainLevelActivator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AppDomainLevelActivator*, creationType>(activationUrl, next)));
     }
     // public System.Runtime.Remoting.Activation.IConstructionReturnMessage Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage ctorCall)
-    // Offset: 0x1D4DAFC
+    // Offset: 0x1D89054
     ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
   }; // System.Runtime.Remoting.Activation.AppDomainLevelActivator
   #pragma pack(pop)

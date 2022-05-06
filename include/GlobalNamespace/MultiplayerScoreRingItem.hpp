@@ -58,15 +58,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::MultiplayerScoreRingItem::Pool
     class Pool;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _scoreText
     // Size: 0x8
     // Offset: 0x18
@@ -79,7 +71,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* nameText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0x1255544
+    // [InjectAttribute] Offset: 0x10DA128
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -102,58 +94,56 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _scoreText
-    ::TMPro::TextMeshProUGUI*& dyn__scoreText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__scoreText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _nameText
-    ::TMPro::TextMeshProUGUI*& dyn__nameText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__nameText();
     // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
-    ::Tweening::TimeTweeningManager*& dyn__tweeningManager();
+    [[deprecated("Use field access instead!")]] ::Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private Tweening.Tween`1<UnityEngine.Color> _nameColorTween
-    ::Tweening::Tween_1<::UnityEngine::Color>*& dyn__nameColorTween();
+    [[deprecated("Use field access instead!")]] ::Tweening::Tween_1<::UnityEngine::Color>*& dyn__nameColorTween();
     // Get instance field reference: private Tweening.Tween`1<UnityEngine.Color> _scoreColorTween
-    ::Tweening::Tween_1<::UnityEngine::Color>*& dyn__scoreColorTween();
-    // protected System.Void Awake()
-    // Offset: 0x13A9488
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13A9650
-    void OnDestroy();
-    // public System.Void SetPositionAndRotation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x13A96E8
-    void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
-    // public System.Void AnimateColors(UnityEngine.Color nameColor, UnityEngine.Color scoreColor, System.Single duration, EaseType easeType)
-    // Offset: 0x13A9764
-    void AnimateColors(::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float duration, ::GlobalNamespace::EaseType easeType);
-    // public System.Void SetName(System.String text)
-    // Offset: 0x13A9894
-    void SetName(::StringW text);
-    // public System.Void SetScore(System.String text)
-    // Offset: 0x13A98B0
-    void SetScore(::StringW text);
-    // private System.Void <Awake>b__6_0(UnityEngine.Color val)
-    // Offset: 0x13A98D4
-    void $Awake$b__6_0(::UnityEngine::Color val);
-    // private System.Void <Awake>b__6_1(UnityEngine.Color val)
-    // Offset: 0x13A98F8
-    void $Awake$b__6_1(::UnityEngine::Color val);
+    [[deprecated("Use field access instead!")]] ::Tweening::Tween_1<::UnityEngine::Color>*& dyn__scoreColorTween();
     // public System.Void .ctor()
-    // Offset: 0x13A98CC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13A5D78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerScoreRingItem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerScoreRingItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerScoreRingItem*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x13A5934
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13A5AFC
+    void OnDestroy();
+    // public System.Void SetPositionAndRotation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
+    // Offset: 0x13A5B94
+    void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
+    // public System.Void AnimateColors(UnityEngine.Color nameColor, UnityEngine.Color scoreColor, System.Single duration, EaseType easeType)
+    // Offset: 0x13A5C10
+    void AnimateColors(::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float duration, ::GlobalNamespace::EaseType easeType);
+    // public System.Void SetName(System.String text)
+    // Offset: 0x13A5D40
+    void SetName(::StringW text);
+    // public System.Void SetScore(System.String text)
+    // Offset: 0x13A5D5C
+    void SetScore(::StringW text);
+    // private System.Void <Awake>b__6_0(UnityEngine.Color val)
+    // Offset: 0x13A5D80
+    void $Awake$b__6_0(::UnityEngine::Color val);
+    // private System.Void <Awake>b__6_1(UnityEngine.Color val)
+    // Offset: 0x13A5DA4
+    void $Awake$b__6_1(::UnityEngine::Color val);
   }; // MultiplayerScoreRingItem
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerScoreRingItem), 56 + sizeof(::Tweening::Tween_1<::UnityEngine::Color>*)> __GlobalNamespace_MultiplayerScoreRingItemSizeCheck;
   static_assert(sizeof(MultiplayerScoreRingItem) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreRingItem::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreRingItem::Awake
 // Il2CppName: Awake
 template<>
@@ -228,7 +218,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreRingItem*), "<Awake>b__6_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreRingItem::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

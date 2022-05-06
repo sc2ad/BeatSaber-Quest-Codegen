@@ -30,15 +30,7 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class ContentRangeHeaderValue : public ::Il2CppObject/*, public ::System::ICloneable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String unit
     // Size: 0x8
     // Offset: 0x10
@@ -63,61 +55,59 @@ namespace System::Net::Http::Headers {
       return *reinterpret_cast<::System::ICloneable*>(this);
     }
     // Get instance field reference: private System.String unit
-    ::StringW& dyn_unit();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_unit();
     // Get instance field reference: private System.Nullable`1<System.Int64> <From>k__BackingField
-    ::System::Nullable_1<int64_t>& dyn_$From$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Nullable_1<int64_t>& dyn_$From$k__BackingField();
     // Get instance field reference: private System.Nullable`1<System.Int64> <Length>k__BackingField
-    ::System::Nullable_1<int64_t>& dyn_$Length$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Nullable_1<int64_t>& dyn_$Length$k__BackingField();
     // Get instance field reference: private System.Nullable`1<System.Int64> <To>k__BackingField
-    ::System::Nullable_1<int64_t>& dyn_$To$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Nullable_1<int64_t>& dyn_$To$k__BackingField();
     // public System.Nullable`1<System.Int64> get_From()
-    // Offset: 0x1956718
+    // Offset: 0x198ED00
     ::System::Nullable_1<int64_t> get_From();
     // private System.Void set_From(System.Nullable`1<System.Int64> value)
-    // Offset: 0x1956724
+    // Offset: 0x198ED0C
     void set_From(::System::Nullable_1<int64_t> value);
     // public System.Nullable`1<System.Int64> get_Length()
-    // Offset: 0x195672C
+    // Offset: 0x198ED14
     ::System::Nullable_1<int64_t> get_Length();
     // private System.Void set_Length(System.Nullable`1<System.Int64> value)
-    // Offset: 0x1956738
+    // Offset: 0x198ED20
     void set_Length(::System::Nullable_1<int64_t> value);
     // public System.Nullable`1<System.Int64> get_To()
-    // Offset: 0x1956740
+    // Offset: 0x198ED28
     ::System::Nullable_1<int64_t> get_To();
     // private System.Void set_To(System.Nullable`1<System.Int64> value)
-    // Offset: 0x195674C
+    // Offset: 0x198ED34
     void set_To(::System::Nullable_1<int64_t> value);
     // public System.String get_Unit()
-    // Offset: 0x1956754
+    // Offset: 0x198ED3C
     ::StringW get_Unit();
-    // private System.Object System.ICloneable.Clone()
-    // Offset: 0x195675C
-    ::Il2CppObject* System_ICloneable_Clone();
-    // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.ContentRangeHeaderValue parsedValue)
-    // Offset: 0x19569A4
-    static bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::ContentRangeHeaderValue*> parsedValue);
     // private System.Void .ctor()
-    // Offset: 0x19566C0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x198ECA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContentRangeHeaderValue* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::ContentRangeHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContentRangeHeaderValue*, creationType>()));
     }
+    // private System.Object System.ICloneable.Clone()
+    // Offset: 0x198ED44
+    ::Il2CppObject* System_ICloneable_Clone();
+    // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.ContentRangeHeaderValue parsedValue)
+    // Offset: 0x198EF8C
+    static bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::ContentRangeHeaderValue*> parsedValue);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1956764
+    // Offset: 0x198ED4C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x19568A8
+    // Offset: 0x198EE90
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1956EC8
+    // Offset: 0x198F4B0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -184,6 +174,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ContentRangeHeaderValue*), "get_Unit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Net::Http::Headers::ContentRangeHeaderValue::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::ContentRangeHeaderValue::System_ICloneable_Clone
 // Il2CppName: System.ICloneable.Clone
 template<>
@@ -202,10 +196,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ContentRangeHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, parsedValue});
   }
 };
-// Writing MetadataGetter for method: System::Net::Http::Headers::ContentRangeHeaderValue::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::ContentRangeHeaderValue::Equals
 // Il2CppName: Equals
 template<>

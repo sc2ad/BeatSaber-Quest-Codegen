@@ -34,15 +34,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class FixedBitArray3::$Enumerate$d__10 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerable_1<bool>, public ::System::Collections::Generic::IEnumerator_1<bool>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -93,44 +85,44 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<bool>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Boolean <>2__current
-    bool& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] bool& dyn_$$2__current();
     // Get instance field reference: private System.Int32 <>l__initialThreadId
-    int& dyn_$$l__initialThreadId();
+    [[deprecated("Use field access instead!")]] int& dyn_$$l__initialThreadId();
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.FixedBitArray3 <>4__this
-    ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3& dyn_$$4__this();
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.FixedBitArray3 <>3__<>4__this
-    ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3& dyn_$$3__$$4__this();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3& dyn_$$3__$$4__this();
     // Get instance field reference: private System.Int32 <i>5__2
-    int& dyn_$i$5__2();
+    [[deprecated("Use field access instead!")]] int& dyn_$i$5__2();
     // private System.Boolean System.Collections.Generic.IEnumerator<System.Boolean>.get_Current()
-    // Offset: 0x2A3B9F4
+    // Offset: 0x2A91DDC
     bool System_Collections_Generic_IEnumerator$System_Boolean$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x2A3BA5C
+    // Offset: 0x2A91E44
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x2A3B880
+    // Offset: 0x2A91C68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixedBitArray3::$Enumerate$d__10* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::$Enumerate$d__10::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FixedBitArray3::$Enumerate$d__10*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x2A3B974
+    // Offset: 0x2A91D5C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x2A3B978
+    // Offset: 0x2A91D60
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x2A3B9FC
+    // Offset: 0x2A91DE4
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.Boolean> System.Collections.Generic.IEnumerable<System.Boolean>.GetEnumerator()
-    // Offset: 0x2A3BAC0
+    // Offset: 0x2A91EA8
     ::System::Collections::Generic::IEnumerator_1<bool>* System_Collections_Generic_IEnumerable$System_Boolean$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x2A3BB74
+    // Offset: 0x2A91F5C
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.ProBuilder.Poly2Tri.FixedBitArray3/UnityEngine.ProBuilder.Poly2Tri.<Enumerate>d__10
   #pragma pack(pop)

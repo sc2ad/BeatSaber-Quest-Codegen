@@ -25,36 +25,28 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SongPreviewPlayer::AudioSourceParams : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Vector3 _position
     // Size: 0xC
     // Offset: 0x10
     ::UnityEngine::Vector3 position;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [RangeAttribute] Offset: 0x1260F90
+    // [RangeAttribute] Offset: 0x10E5C38
     // private System.Single _reverbZoneMix
     // Size: 0x4
     // Offset: 0x1C
     float reverbZoneMix;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x1260FD4
+    // [RangeAttribute] Offset: 0x10E5C7C
     // private System.Single _spatialBlend
     // Size: 0x4
     // Offset: 0x20
     float spatialBlend;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x1261014
+    // [RangeAttribute] Offset: 0x10E5CBC
     // private System.Single _spread
     // Size: 0x4
     // Offset: 0x24
@@ -63,29 +55,27 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private UnityEngine.Vector3 _position
-    ::UnityEngine::Vector3& dyn__position();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__position();
     // Get instance field reference: private System.Single _reverbZoneMix
-    float& dyn__reverbZoneMix();
+    [[deprecated("Use field access instead!")]] float& dyn__reverbZoneMix();
     // Get instance field reference: private System.Single _spatialBlend
-    float& dyn__spatialBlend();
+    [[deprecated("Use field access instead!")]] float& dyn__spatialBlend();
     // Get instance field reference: private System.Single _spread
-    float& dyn__spread();
+    [[deprecated("Use field access instead!")]] float& dyn__spread();
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x2AA7E8C
+    // Offset: 0x138EAB0
     ::UnityEngine::Vector3 get_position();
     // public System.Single get_reverbZoneMix()
-    // Offset: 0x2AA7E98
+    // Offset: 0x138EABC
     float get_reverbZoneMix();
     // public System.Single get_spatialBlend()
-    // Offset: 0x2AA7EA0
+    // Offset: 0x138EAC4
     float get_spatialBlend();
     // public System.Single get_spread()
-    // Offset: 0x2AA7EA8
+    // Offset: 0x138EACC
     float get_spread();
     // public System.Void .ctor()
-    // Offset: 0x2AA7EB0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x138EAD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPreviewPlayer::AudioSourceParams* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongPreviewPlayer::AudioSourceParams::.ctor");

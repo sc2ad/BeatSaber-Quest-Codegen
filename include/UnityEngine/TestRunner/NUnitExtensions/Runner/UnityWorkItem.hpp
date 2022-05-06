@@ -73,15 +73,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnityWorkItem : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected readonly UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory m_Factory
     // Size: 0x8
     // Offset: 0x10
@@ -156,91 +148,91 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Set static field: static protected System.Int32 k_DefaultTimeout
     static void _set_k_DefaultTimeout(int value);
     // Get instance field reference: protected readonly UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory m_Factory
-    ::UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*& dyn_m_Factory();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*& dyn_m_Factory();
     // Get instance field reference: protected System.Boolean m_ExecuteTestStartEvent
-    bool& dyn_m_ExecuteTestStartEvent();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_ExecuteTestStartEvent();
     // Get instance field reference: protected System.Boolean m_DontRunRestoringResult
-    bool& dyn_m_DontRunRestoringResult();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_DontRunRestoringResult();
     // Get instance field reference: private System.EventHandler Completed
-    ::System::EventHandler*& dyn_Completed();
+    [[deprecated("Use field access instead!")]] ::System::EventHandler*& dyn_Completed();
     // Get instance field reference: private System.Boolean <ResultedInDomainReload>k__BackingField
-    bool& dyn_$ResultedInDomainReload$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$ResultedInDomainReload$k__BackingField();
     // Get instance field reference: private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <Context>k__BackingField
-    ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*& dyn_$Context$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*& dyn_$Context$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Internal.Test <Test>k__BackingField
-    ::NUnit::Framework::Internal::Test*& dyn_$Test$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::Test*& dyn_$Test$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Internal.TestResult <Result>k__BackingField
-    ::NUnit::Framework::Internal::TestResult*& dyn_$Result$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::TestResult*& dyn_$Result$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Internal.Execution.WorkItemState <State>k__BackingField
-    ::NUnit::Framework::Internal::Execution::WorkItemState& dyn_$State$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::Execution::WorkItemState& dyn_$State$k__BackingField();
     // Get instance field reference: private System.Collections.Generic.List`1<NUnit.Framework.ITestAction> <Actions>k__BackingField
-    ::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>*& dyn_$Actions$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>*& dyn_$Actions$k__BackingField();
     // public System.Boolean get_ResultedInDomainReload()
-    // Offset: 0x1942E6C
+    // Offset: 0x197AE2C
     bool get_ResultedInDomainReload();
     // System.Void set_ResultedInDomainReload(System.Boolean value)
-    // Offset: 0x1942E74
+    // Offset: 0x197AE34
     void set_ResultedInDomainReload(bool value);
     // public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext get_Context()
-    // Offset: 0x1942E80
+    // Offset: 0x197AE40
     ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* get_Context();
     // private System.Void set_Context(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext value)
-    // Offset: 0x1942E88
+    // Offset: 0x197AE48
     void set_Context(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* value);
     // public NUnit.Framework.Internal.Test get_Test()
-    // Offset: 0x1942E90
+    // Offset: 0x197AE50
     ::NUnit::Framework::Internal::Test* get_Test();
     // private System.Void set_Test(NUnit.Framework.Internal.Test value)
-    // Offset: 0x1942E98
+    // Offset: 0x197AE58
     void set_Test(::NUnit::Framework::Internal::Test* value);
     // public NUnit.Framework.Internal.TestResult get_Result()
-    // Offset: 0x1942EA0
+    // Offset: 0x197AE60
     ::NUnit::Framework::Internal::TestResult* get_Result();
     // protected System.Void set_Result(NUnit.Framework.Internal.TestResult value)
-    // Offset: 0x1942EA8
+    // Offset: 0x197AE68
     void set_Result(::NUnit::Framework::Internal::TestResult* value);
     // public NUnit.Framework.Internal.Execution.WorkItemState get_State()
-    // Offset: 0x1942EB0
+    // Offset: 0x197AE70
     ::NUnit::Framework::Internal::Execution::WorkItemState get_State();
     // private System.Void set_State(NUnit.Framework.Internal.Execution.WorkItemState value)
-    // Offset: 0x1942EB8
+    // Offset: 0x197AE78
     void set_State(::NUnit::Framework::Internal::Execution::WorkItemState value);
     // public System.Collections.Generic.List`1<NUnit.Framework.ITestAction> get_Actions()
-    // Offset: 0x1942EC0
+    // Offset: 0x197AE80
     ::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>* get_Actions();
     // private System.Void set_Actions(System.Collections.Generic.List`1<NUnit.Framework.ITestAction> value)
-    // Offset: 0x1942EC8
+    // Offset: 0x197AE88
     void set_Actions(::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>* value);
     // protected System.Void .ctor(NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory factory)
-    // Offset: 0x193A1C0
+    // Offset: 0x1971E28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityWorkItem* New_ctor(::NUnit::Framework::Internal::Test* test, ::UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory* factory) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityWorkItem*, creationType>(test, factory)));
     }
     // static protected System.Boolean ShouldRestore(NUnit.Framework.Interfaces.ITest loadedTest)
-    // Offset: 0x1942FD0
+    // Offset: 0x197AF90
     static bool ShouldRestore(::NUnit::Framework::Interfaces::ITest* loadedTest);
     // protected System.Boolean ShouldExecuteStartEvent()
-    // Offset: 0x1942ED0
+    // Offset: 0x197AE90
     bool ShouldExecuteStartEvent();
     // protected System.Collections.IEnumerable PerformWork()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::IEnumerable* PerformWork();
     // public System.Void InitializeContext(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x193D644
+    // Offset: 0x19752AC
     void InitializeContext(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
     // public System.Collections.IEnumerable Execute()
-    // Offset: 0x19431F8
+    // Offset: 0x197B1B8
     ::System::Collections::IEnumerable* Execute();
     // protected System.Void WorkItemComplete()
-    // Offset: 0x193C348
+    // Offset: 0x1973FB0
     void WorkItemComplete();
     // public System.Void Cancel(System.Boolean force)
-    // Offset: 0x1943374
+    // Offset: 0x197B334
     void Cancel(bool force);
     // private System.Boolean <ShouldExecuteStartEvent>b__33_0(System.String x)
-    // Offset: 0x194348C
+    // Offset: 0x197B44C
     bool $ShouldExecuteStartEvent$b__33_0(::StringW x);
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem
   #pragma pack(pop)

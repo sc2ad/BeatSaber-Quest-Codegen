@@ -66,7 +66,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EVRTrackedCameraFrameType MAX_CAMERA_FRAME_TYPES
     static void _set_MAX_CAMERA_FRAME_TYPES(::Valve::VR::EVRTrackedCameraFrameType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Valve.VR.EVRTrackedCameraFrameType
   #pragma pack(pop)
   static check_size<sizeof(EVRTrackedCameraFrameType), 0 + sizeof(int)> __Valve_VR_EVRTrackedCameraFrameTypeSizeCheck;

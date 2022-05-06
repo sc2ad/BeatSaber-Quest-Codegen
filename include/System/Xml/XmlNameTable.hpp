@@ -28,6 +28,13 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlNameTable : public ::Il2CppObject {
     public:
+    // protected System.Void .ctor()
+    // Offset: 0x15D70EC
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static XmlNameTable* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlNameTable::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<XmlNameTable*, creationType>()));
+    }
     // public System.String Get(System.String array)
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW Get(::StringW array);
@@ -37,19 +44,14 @@ namespace System::Xml {
     // public System.String Add(System.String array)
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW Add(::StringW array);
-    // protected System.Void .ctor()
-    // Offset: 0x15A17DC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlNameTable* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlNameTable::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<XmlNameTable*, creationType>()));
-    }
   }; // System.Xml.XmlNameTable
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Xml::XmlNameTable::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::XmlNameTable::Get
 // Il2CppName: Get
 template<>
@@ -79,7 +81,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNameTable*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
   }
 };
-// Writing MetadataGetter for method: System::Xml::XmlNameTable::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

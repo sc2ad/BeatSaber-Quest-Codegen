@@ -114,7 +114,7 @@ namespace System::Net::Sockets {
     // Set static field: static public System.Net.Sockets.SocketOperation SendGeneric
     static void _set_SendGeneric(::System::Net::Sockets::SocketOperation value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Net.Sockets.SocketOperation
   #pragma pack(pop)
   static check_size<sizeof(SocketOperation), 0 + sizeof(int)> __System_Net_Sockets_SocketOperationSizeCheck;

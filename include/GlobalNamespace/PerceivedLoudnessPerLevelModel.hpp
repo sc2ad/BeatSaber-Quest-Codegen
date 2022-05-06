@@ -42,15 +42,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PerceivedLoudnessPerLevelModel : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single> _loudnessLevelPerLevelId
     // Size: 0x8
     // Offset: 0x10
@@ -81,25 +73,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kPerceivedLoudnessToMaxSfxLevelDifference
     static void _set_kPerceivedLoudnessToMaxSfxLevelDifference(float value);
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single> _loudnessLevelPerLevelId
-    ::System::Collections::Generic::Dictionary_2<::StringW, float>*& dyn__loudnessLevelPerLevelId();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, float>*& dyn__loudnessLevelPerLevelId();
     // public System.Void .ctor(PerceivedLoudnessPerLevelSO loudnessPerLeveData)
-    // Offset: 0x12F0E2C
+    // Offset: 0x1361DE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PerceivedLoudnessPerLevelModel* New_ctor(::GlobalNamespace::PerceivedLoudnessPerLevelSO* loudnessPerLeveData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PerceivedLoudnessPerLevelModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PerceivedLoudnessPerLevelModel*, creationType>(loudnessPerLeveData)));
     }
     // public System.Boolean ContainsLevelId(System.String levelId)
-    // Offset: 0x12F0F1C
+    // Offset: 0x1361ED4
     bool ContainsLevelId(::StringW levelId);
     // public System.Single GetLoudnessCorrectionByLevelId(System.String levelId)
-    // Offset: 0x12F0F84
+    // Offset: 0x1361F3C
     float GetLoudnessCorrectionByLevelId(::StringW levelId);
     // public System.Single GetMaxSfxVolumeByLevelId(System.String levelId)
-    // Offset: 0x12F109C
+    // Offset: 0x1362054
     float GetMaxSfxVolumeByLevelId(::StringW levelId);
     // private System.Single GetLoudnessByLevelId(System.String levelId)
-    // Offset: 0x12F1018
+    // Offset: 0x1361FD0
     float GetLoudnessByLevelId(::StringW levelId);
   }; // PerceivedLoudnessPerLevelModel
   #pragma pack(pop)

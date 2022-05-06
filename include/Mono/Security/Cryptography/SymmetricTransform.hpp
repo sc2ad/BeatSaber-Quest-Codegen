@@ -40,15 +40,7 @@ namespace Mono::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class SymmetricTransform : public ::Il2CppObject/*, public ::System::Security::Cryptography::ICryptoTransform*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected System.Security.Cryptography.SymmetricAlgorithm algo
     // Size: 0x8
     // Offset: 0x10
@@ -131,98 +123,98 @@ namespace Mono::Security::Cryptography {
       return *reinterpret_cast<::System::Security::Cryptography::ICryptoTransform*>(this);
     }
     // Get instance field reference: protected System.Security.Cryptography.SymmetricAlgorithm algo
-    ::System::Security::Cryptography::SymmetricAlgorithm*& dyn_algo();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::SymmetricAlgorithm*& dyn_algo();
     // Get instance field reference: protected System.Boolean encrypt
-    bool& dyn_encrypt();
+    [[deprecated("Use field access instead!")]] bool& dyn_encrypt();
     // Get instance field reference: protected System.Int32 BlockSizeByte
-    int& dyn_BlockSizeByte();
+    [[deprecated("Use field access instead!")]] int& dyn_BlockSizeByte();
     // Get instance field reference: protected System.Byte[] temp
-    ::ArrayW<uint8_t>& dyn_temp();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_temp();
     // Get instance field reference: protected System.Byte[] temp2
-    ::ArrayW<uint8_t>& dyn_temp2();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_temp2();
     // Get instance field reference: private System.Byte[] workBuff
-    ::ArrayW<uint8_t>& dyn_workBuff();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_workBuff();
     // Get instance field reference: private System.Byte[] workout
-    ::ArrayW<uint8_t>& dyn_workout();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_workout();
     // Get instance field reference: protected System.Security.Cryptography.PaddingMode padmode
-    ::System::Security::Cryptography::PaddingMode& dyn_padmode();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::PaddingMode& dyn_padmode();
     // Get instance field reference: protected System.Int32 FeedBackByte
-    int& dyn_FeedBackByte();
+    [[deprecated("Use field access instead!")]] int& dyn_FeedBackByte();
     // Get instance field reference: private System.Boolean m_disposed
-    bool& dyn_m_disposed();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_disposed();
     // Get instance field reference: protected System.Boolean lastBlock
-    bool& dyn_lastBlock();
+    [[deprecated("Use field access instead!")]] bool& dyn_lastBlock();
     // Get instance field reference: private System.Security.Cryptography.RandomNumberGenerator _rng
-    ::System::Security::Cryptography::RandomNumberGenerator*& dyn__rng();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::RandomNumberGenerator*& dyn__rng();
     // public System.Boolean get_CanTransformMultipleBlocks()
-    // Offset: 0x1F12DF0
+    // Offset: 0x1F5F328
     bool get_CanTransformMultipleBlocks();
     // public System.Int32 get_InputBlockSize()
-    // Offset: 0x1F12DF8
+    // Offset: 0x1F5F330
     int get_InputBlockSize();
     // public System.Int32 get_OutputBlockSize()
-    // Offset: 0x1F12E00
+    // Offset: 0x1F5F338
     int get_OutputBlockSize();
     // private System.Boolean get_KeepLastBlock()
-    // Offset: 0x1F13758
+    // Offset: 0x1F5FC90
     bool get_KeepLastBlock();
     // public System.Void .ctor(System.Security.Cryptography.SymmetricAlgorithm symmAlgo, System.Boolean encryption, System.Byte[] rgbIV)
-    // Offset: 0x1F129D8
+    // Offset: 0x1F5EF10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SymmetricTransform* New_ctor(::System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, bool encryption, ::ArrayW<uint8_t> rgbIV) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Cryptography::SymmetricTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SymmetricTransform*, creationType>(symmAlgo, encryption, rgbIV)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1F12D10
+    // Offset: 0x1F5F248
     void System_IDisposable_Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1F12D8C
+    // Offset: 0x1F5F2C4
     void Dispose(bool disposing);
     // protected System.Void Transform(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1F12E08
+    // Offset: 0x1F5F340
     void Transform(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output);
     // protected System.Void ECB(System.Byte[] input, System.Byte[] output)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void ECB(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output);
     // protected System.Void CBC(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1F12FBC
+    // Offset: 0x1F5F4F4
     void CBC(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output);
     // protected System.Void CFB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1F13134
+    // Offset: 0x1F5F66C
     void CFB(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output);
     // protected System.Void OFB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1F13310
+    // Offset: 0x1F5F848
     void OFB(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output);
     // protected System.Void CTS(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1F1337C
+    // Offset: 0x1F5F8B4
     void CTS(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output);
     // private System.Void CheckInput(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1F133E8
+    // Offset: 0x1F5F920
     void CheckInput(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount);
     // public System.Int32 TransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
-    // Offset: 0x1F13540
+    // Offset: 0x1F5FA78
     int TransformBlock(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount, ::ArrayW<uint8_t> outputBuffer, int outputOffset);
     // private System.Int32 InternalTransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
-    // Offset: 0x1F1377C
+    // Offset: 0x1F5FCB4
     int InternalTransformBlock(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount, ::ArrayW<uint8_t> outputBuffer, int outputOffset);
     // private System.Void Random(System.Byte[] buffer, System.Int32 start, System.Int32 length)
-    // Offset: 0x1F1395C
+    // Offset: 0x1F5FE94
     void Random(::ArrayW<uint8_t> buffer, int start, int length);
     // private System.Void ThrowBadPaddingException(System.Security.Cryptography.PaddingMode padding, System.Int32 length, System.Int32 position)
-    // Offset: 0x1F13A1C
+    // Offset: 0x1F5FF54
     void ThrowBadPaddingException(::System::Security::Cryptography::PaddingMode padding, int length, int position);
     // protected System.Byte[] FinalEncrypt(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1F13B88
+    // Offset: 0x1F600C0
     ::ArrayW<uint8_t> FinalEncrypt(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount);
     // protected System.Byte[] FinalDecrypt(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1F13E2C
+    // Offset: 0x1F60364
     ::ArrayW<uint8_t> FinalDecrypt(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount);
     // public System.Byte[] TransformFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1F140E0
+    // Offset: 0x1F60618
     ::ArrayW<uint8_t> TransformFinalBlock(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount);
     // protected override System.Void Finalize()
-    // Offset: 0x1F12C9C
+    // Offset: 0x1F5F1D4
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

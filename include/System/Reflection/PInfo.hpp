@@ -79,7 +79,7 @@ namespace System::Reflection {
     // Set static field: static public System.Reflection.PInfo Name
     static void _set_Name(::System::Reflection::PInfo value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Reflection.PInfo
   #pragma pack(pop)
   static check_size<sizeof(PInfo), 0 + sizeof(int)> __System_Reflection_PInfoSizeCheck;

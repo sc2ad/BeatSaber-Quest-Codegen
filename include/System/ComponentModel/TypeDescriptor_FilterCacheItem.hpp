@@ -35,15 +35,7 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class TypeDescriptor::FilterCacheItem : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.ComponentModel.Design.ITypeDescriptorFilterService _filterService
     // Size: 0x8
     // Offset: 0x10
@@ -58,18 +50,18 @@ namespace System::ComponentModel {
     static_assert(sizeof(::System::Collections::ICollection*) == 0x8);
     public:
     // Get instance field reference: private System.ComponentModel.Design.ITypeDescriptorFilterService _filterService
-    ::System::ComponentModel::Design::ITypeDescriptorFilterService*& dyn__filterService();
+    [[deprecated("Use field access instead!")]] ::System::ComponentModel::Design::ITypeDescriptorFilterService*& dyn__filterService();
     // Get instance field reference: System.Collections.ICollection FilteredMembers
-    ::System::Collections::ICollection*& dyn_FilteredMembers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::ICollection*& dyn_FilteredMembers();
     // System.Void .ctor(System.ComponentModel.Design.ITypeDescriptorFilterService filterService, System.Collections.ICollection filteredMembers)
-    // Offset: 0x1CA3FD8
+    // Offset: 0x1CE0530
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeDescriptor::FilterCacheItem* New_ctor(::System::ComponentModel::Design::ITypeDescriptorFilterService* filterService, ::System::Collections::ICollection* filteredMembers) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::TypeDescriptor::FilterCacheItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeDescriptor::FilterCacheItem*, creationType>(filterService, filteredMembers)));
     }
     // System.Boolean IsValid(System.ComponentModel.Design.ITypeDescriptorFilterService filterService)
-    // Offset: 0x1CA4010
+    // Offset: 0x1CE0568
     bool IsValid(::System::ComponentModel::Design::ITypeDescriptorFilterService* filterService);
   }; // System.ComponentModel.TypeDescriptor/System.ComponentModel.FilterCacheItem
   #pragma pack(pop)

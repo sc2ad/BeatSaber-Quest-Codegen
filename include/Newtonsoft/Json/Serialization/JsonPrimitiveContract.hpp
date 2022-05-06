@@ -43,15 +43,7 @@ namespace Newtonsoft::Json::Serialization {
   // [PreserveAttribute] Offset: FFFFFFFF
   class JsonPrimitiveContract : public ::Newtonsoft::Json::Serialization::JsonContract {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Newtonsoft.Json.Utilities.PrimitiveTypeCode <TypeCode>k__BackingField
     // Size: 0x4
     // Offset: 0x8C
@@ -68,18 +60,18 @@ namespace Newtonsoft::Json::Serialization {
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,Newtonsoft.Json.ReadType> ReadTypeMap
     static void _set_ReadTypeMap(::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::ReadType>* value);
     // Get instance field reference: private Newtonsoft.Json.Utilities.PrimitiveTypeCode <TypeCode>k__BackingField
-    ::Newtonsoft::Json::Utilities::PrimitiveTypeCode& dyn_$TypeCode$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Utilities::PrimitiveTypeCode& dyn_$TypeCode$k__BackingField();
     // Newtonsoft.Json.Utilities.PrimitiveTypeCode get_TypeCode()
-    // Offset: 0x1D26CBC
+    // Offset: 0x1D63214
     ::Newtonsoft::Json::Utilities::PrimitiveTypeCode get_TypeCode();
     // System.Void set_TypeCode(Newtonsoft.Json.Utilities.PrimitiveTypeCode value)
-    // Offset: 0x1D26CC4
+    // Offset: 0x1D6321C
     void set_TypeCode(::Newtonsoft::Json::Utilities::PrimitiveTypeCode value);
     // static private System.Void .cctor()
-    // Offset: 0x1D26DC0
+    // Offset: 0x1D63318
     static void _cctor();
     // public System.Void .ctor(System.Type underlyingType)
-    // Offset: 0x1D26CCC
+    // Offset: 0x1D63224
     // Implemented from: Newtonsoft.Json.Serialization.JsonContract
     // Base method: System.Void JsonContract::.ctor(System.Type underlyingType)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

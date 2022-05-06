@@ -60,15 +60,7 @@ namespace System::Net::Sockets {
   // [TokenAttribute] Offset: FFFFFFFF
   class SocketAsyncEventArgs : public ::System::EventArgs/*, public ::System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean disposed
     // Size: 0x1
     // Offset: 0x10
@@ -163,99 +155,96 @@ namespace System::Net::Sockets {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get instance field reference: private System.Boolean disposed
-    bool& dyn_disposed();
+    [[deprecated("Use field access instead!")]] bool& dyn_disposed();
     // Get instance field reference: System.Int32 in_progress
-    int& dyn_in_progress();
+    [[deprecated("Use field access instead!")]] int& dyn_in_progress();
     // Get instance field reference: System.Net.EndPoint remote_ep
-    ::System::Net::EndPoint*& dyn_remote_ep();
+    [[deprecated("Use field access instead!")]] ::System::Net::EndPoint*& dyn_remote_ep();
     // Get instance field reference: System.Net.Sockets.Socket current_socket
-    ::System::Net::Sockets::Socket*& dyn_current_socket();
+    [[deprecated("Use field access instead!")]] ::System::Net::Sockets::Socket*& dyn_current_socket();
     // Get instance field reference: System.Net.Sockets.SocketAsyncResult socket_async_result
-    ::System::Net::Sockets::SocketAsyncResult*& dyn_socket_async_result();
+    [[deprecated("Use field access instead!")]] ::System::Net::Sockets::SocketAsyncResult*& dyn_socket_async_result();
     // Get instance field reference: private System.Net.Sockets.Socket <AcceptSocket>k__BackingField
-    ::System::Net::Sockets::Socket*& dyn_$AcceptSocket$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Net::Sockets::Socket*& dyn_$AcceptSocket$k__BackingField();
     // Get instance field reference: System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> m_BufferList
-    ::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>*& dyn_m_BufferList();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>*& dyn_m_BufferList();
     // Get instance field reference: private System.Int32 <BytesTransferred>k__BackingField
-    int& dyn_$BytesTransferred$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$BytesTransferred$k__BackingField();
     // Get instance field reference: private System.Int32 <Count>k__BackingField
-    int& dyn_$Count$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$Count$k__BackingField();
     // Get instance field reference: private System.Net.Sockets.SocketAsyncOperation <LastOperation>k__BackingField
-    ::System::Net::Sockets::SocketAsyncOperation& dyn_$LastOperation$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Net::Sockets::SocketAsyncOperation& dyn_$LastOperation$k__BackingField();
     // Get instance field reference: private System.Int32 <SendPacketsSendSize>k__BackingField
-    int& dyn_$SendPacketsSendSize$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$SendPacketsSendSize$k__BackingField();
     // Get instance field reference: private System.Net.Sockets.SocketError <SocketError>k__BackingField
-    ::System::Net::Sockets::SocketError& dyn_$SocketError$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Net::Sockets::SocketError& dyn_$SocketError$k__BackingField();
     // Get instance field reference: private System.Object <UserToken>k__BackingField
-    ::Il2CppObject*& dyn_$UserToken$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$UserToken$k__BackingField();
     // Get instance field reference: private System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> Completed
-    ::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>*& dyn_Completed();
+    [[deprecated("Use field access instead!")]] ::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>*& dyn_Completed();
     // public System.Net.Sockets.Socket get_AcceptSocket()
-    // Offset: 0x1B12D7C
+    // Offset: 0x1B4D364
     ::System::Net::Sockets::Socket* get_AcceptSocket();
     // public System.Void set_AcceptSocket(System.Net.Sockets.Socket value)
-    // Offset: 0x1B12D84
+    // Offset: 0x1B4D36C
     void set_AcceptSocket(::System::Net::Sockets::Socket* value);
     // public System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> get_BufferList()
-    // Offset: 0x1B12D8C
+    // Offset: 0x1B4D374
     ::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* get_BufferList();
     // System.Void set_BytesTransferred(System.Int32 value)
-    // Offset: 0x1B12D94
+    // Offset: 0x1B4D37C
     void set_BytesTransferred(int value);
     // public System.Int32 get_Count()
-    // Offset: 0x1B12D9C
+    // Offset: 0x1B4D384
     int get_Count();
     // private System.Void set_LastOperation(System.Net.Sockets.SocketAsyncOperation value)
-    // Offset: 0x1B12DA4
+    // Offset: 0x1B4D38C
     void set_LastOperation(::System::Net::Sockets::SocketAsyncOperation value);
     // public System.Void set_SendPacketsSendSize(System.Int32 value)
-    // Offset: 0x1B12DAC
+    // Offset: 0x1B4D394
     void set_SendPacketsSendSize(int value);
     // public System.Net.Sockets.SocketError get_SocketError()
-    // Offset: 0x1B12DB4
+    // Offset: 0x1B4D39C
     ::System::Net::Sockets::SocketError get_SocketError();
     // public System.Void set_SocketError(System.Net.Sockets.SocketError value)
-    // Offset: 0x1B12DBC
+    // Offset: 0x1B4D3A4
     void set_SocketError(::System::Net::Sockets::SocketError value);
     // public System.Object get_UserToken()
-    // Offset: 0x1B12DC4
+    // Offset: 0x1B4D3AC
     ::Il2CppObject* get_UserToken();
     // public System.Void set_UserToken(System.Object value)
-    // Offset: 0x1B12DCC
+    // Offset: 0x1B4D3B4
     void set_UserToken(::Il2CppObject* value);
     // public System.Void add_Completed(System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> value)
-    // Offset: 0x1B12DD4
+    // Offset: 0x1B4D3BC
     void add_Completed(::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* value);
     // public System.Void remove_Completed(System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> value)
-    // Offset: 0x1B12E78
+    // Offset: 0x1B4D460
     void remove_Completed(::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* value);
-    // private System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1B12FC8
-    void Dispose(bool disposing);
-    // public System.Void Dispose()
-    // Offset: 0x1B12FDC
-    void Dispose();
-    // System.Void SetLastOperation(System.Net.Sockets.SocketAsyncOperation op)
-    // Offset: 0x1B13050
-    void SetLastOperation(::System::Net::Sockets::SocketAsyncOperation op);
-    // System.Void Complete()
-    // Offset: 0x1B10F34
-    void Complete();
-    // protected System.Void OnCompleted(System.Net.Sockets.SocketAsyncEventArgs e)
-    // Offset: 0x1B1312C
-    void OnCompleted(::System::Net::Sockets::SocketAsyncEventArgs* e);
     // public System.Void .ctor()
-    // Offset: 0x1B12F1C
-    // Implemented from: System.EventArgs
-    // Base method: System.Void EventArgs::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B4D504
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SocketAsyncEventArgs* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Sockets::SocketAsyncEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SocketAsyncEventArgs*, creationType>()));
     }
+    // private System.Void Dispose(System.Boolean disposing)
+    // Offset: 0x1B4D5B0
+    void Dispose(bool disposing);
+    // public System.Void Dispose()
+    // Offset: 0x1B4D5C4
+    void Dispose();
+    // System.Void SetLastOperation(System.Net.Sockets.SocketAsyncOperation op)
+    // Offset: 0x1B4D638
+    void SetLastOperation(::System::Net::Sockets::SocketAsyncOperation op);
+    // System.Void Complete()
+    // Offset: 0x1B4B51C
+    void Complete();
+    // protected System.Void OnCompleted(System.Net.Sockets.SocketAsyncEventArgs e)
+    // Offset: 0x1B4D714
+    void OnCompleted(::System::Net::Sockets::SocketAsyncEventArgs* e);
     // protected override System.Void Finalize()
-    // Offset: 0x1B12FB8
+    // Offset: 0x1B4D5A0
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -377,6 +366,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncEventArgs*), "remove_Completed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::Dispose
 // Il2CppName: Dispose
 template<>
@@ -420,10 +413,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncEventArgs*), "OnCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
   }
 };
-// Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::Finalize
 // Il2CppName: Finalize
 template<>

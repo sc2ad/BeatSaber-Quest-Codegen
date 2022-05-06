@@ -66,15 +66,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::NetworkPlayersTableView::CellInfo
     class CellInfo;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.TableView _tableView
     // Size: 0x8
     // Offset: 0x18
@@ -159,63 +151,61 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kOptionsCellIdentifier
     static void _set_kOptionsCellIdentifier(::StringW value);
     // Get instance field reference: private HMUI.TableView _tableView
-    ::HMUI::TableView*& dyn__tableView();
+    [[deprecated("Use field access instead!")]] ::HMUI::TableView*& dyn__tableView();
     // Get instance field reference: private NetworkPlayerTableCell _playerCellPrefab
-    ::GlobalNamespace::NetworkPlayerTableCell*& dyn__playerCellPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NetworkPlayerTableCell*& dyn__playerCellPrefab();
     // Get instance field reference: private NetworkPlayerOptionsTableCell _optionsCellPrefab
-    ::GlobalNamespace::NetworkPlayerOptionsTableCell*& dyn__optionsCellPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NetworkPlayerOptionsTableCell*& dyn__optionsCellPrefab();
     // Get instance field reference: private LevelPackHeaderTableCell _headerCellPrefab
-    ::GlobalNamespace::LevelPackHeaderTableCell*& dyn__headerCellPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelPackHeaderTableCell*& dyn__headerCellPrefab();
     // Get instance field reference: private System.Single _rowHeight
-    float& dyn__rowHeight();
+    [[deprecated("Use field access instead!")]] float& dyn__rowHeight();
     // Get instance field reference: private System.Collections.Generic.List`1<NetworkPlayersTableView/CellInfo> _cellInfo
-    ::System::Collections::Generic::List_1<::GlobalNamespace::NetworkPlayersTableView::CellInfo*>*& dyn__cellInfo();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::NetworkPlayersTableView::CellInfo*>*& dyn__cellInfo();
     // Get instance field reference: private System.Int32 _selectedCellIndex
-    int& dyn__selectedCellIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__selectedCellIndex();
     // Get instance field reference: private System.String _selectedPlayerID
-    ::StringW& dyn__selectedPlayerID();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__selectedPlayerID();
     // Get instance field reference: private System.Boolean _selectedCellHasOptions
-    bool& dyn__selectedCellHasOptions();
-    // public System.Single CellSize()
-    // Offset: 0x14704CC
-    float CellSize();
-    // public System.Int32 NumberOfCells()
-    // Offset: 0x14704D4
-    int NumberOfCells();
-    // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x1470524
-    ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int row);
-    // private System.Void AddPlayers(System.Collections.Generic.IEnumerable`1<INetworkPlayer> players, System.String title)
-    // Offset: 0x1470AE4
-    void AddPlayers(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* players, ::StringW title);
-    // public System.Void SetParties(System.Collections.Generic.IEnumerable`1<INetworkPlayer> partyPlayers, System.Collections.Generic.IEnumerable`1<INetworkPlayer> otherPlayers, System.String myPartyTitle, System.String otherPlayersTitle)
-    // Offset: 0x1471398
-    void SetParties(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* partyPlayers, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* otherPlayers, ::StringW myPartyTitle, ::StringW otherPlayersTitle);
-    // private System.Void HandleCellWasPressed(HMUI.TableView tableView, HMUI.TableCell tableCell)
-    // Offset: 0x14714B8
-    void HandleCellWasPressed(::HMUI::TableView* tableView, ::HMUI::TableCell* tableCell);
-    // static private System.Boolean HasVisibleOptions(INetworkPlayer player)
-    // Offset: 0x1471000
-    static bool HasVisibleOptions(::GlobalNamespace::INetworkPlayer* player);
+    [[deprecated("Use field access instead!")]] bool& dyn__selectedCellHasOptions();
     // public System.Void .ctor()
-    // Offset: 0x14714BC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14A7CA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkPlayersTableView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayersTableView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkPlayersTableView*, creationType>()));
     }
+    // public System.Single CellSize()
+    // Offset: 0x14A6CB4
+    float CellSize();
+    // public System.Int32 NumberOfCells()
+    // Offset: 0x14A6CBC
+    int NumberOfCells();
+    // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
+    // Offset: 0x14A6D0C
+    ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int row);
+    // private System.Void AddPlayers(System.Collections.Generic.IEnumerable`1<INetworkPlayer> players, System.String title)
+    // Offset: 0x14A72CC
+    void AddPlayers(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* players, ::StringW title);
+    // public System.Void SetParties(System.Collections.Generic.IEnumerable`1<INetworkPlayer> partyPlayers, System.Collections.Generic.IEnumerable`1<INetworkPlayer> otherPlayers, System.String myPartyTitle, System.String otherPlayersTitle)
+    // Offset: 0x14A7B80
+    void SetParties(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* partyPlayers, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* otherPlayers, ::StringW myPartyTitle, ::StringW otherPlayersTitle);
+    // private System.Void HandleCellWasPressed(HMUI.TableView tableView, HMUI.TableCell tableCell)
+    // Offset: 0x14A7CA0
+    void HandleCellWasPressed(::HMUI::TableView* tableView, ::HMUI::TableCell* tableCell);
+    // static private System.Boolean HasVisibleOptions(INetworkPlayer player)
+    // Offset: 0x14A77E8
+    static bool HasVisibleOptions(::GlobalNamespace::INetworkPlayer* player);
   }; // NetworkPlayersTableView
   #pragma pack(pop)
   static check_size<sizeof(NetworkPlayersTableView), 88 + sizeof(bool)> __GlobalNamespace_NetworkPlayersTableViewSizeCheck;
   static_assert(sizeof(NetworkPlayersTableView) == 0x59);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::NetworkPlayersTableView::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayersTableView::CellSize
 // Il2CppName: CellSize
 template<>
@@ -283,7 +273,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayersTableView*), "HasVisibleOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{player});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NetworkPlayersTableView::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

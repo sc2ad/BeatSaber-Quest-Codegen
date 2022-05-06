@@ -62,29 +62,27 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Func`2<HoudiniEngineUnity.HEU_MaterialData,System.Boolean> <>9__364_2
     static void _set_$$9__364_2(::System::Func_2<::HoudiniEngineUnity::HEU_MaterialData*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x184CAA0
+    // Offset: 0x18863B0
     static void _cctor();
-    // System.Boolean <ClearInvalidCurves>b__309_0(HoudiniEngineUnity.HEU_Curve curve)
-    // Offset: 0x184CB0C
-    bool $ClearInvalidCurves$b__309_0(::HoudiniEngineUnity::HEU_Curve* curve);
-    // System.Boolean <ClearInvalidLists>b__364_0(HoudiniEngineUnity.HEU_ObjectNode node)
-    // Offset: 0x184CB78
-    bool $ClearInvalidLists$b__364_0(::HoudiniEngineUnity::HEU_ObjectNode* node);
-    // System.Boolean <ClearInvalidLists>b__364_1(HoudiniEngineUnity.HEU_Curve curve)
-    // Offset: 0x184CBE4
-    bool $ClearInvalidLists$b__364_1(::HoudiniEngineUnity::HEU_Curve* curve);
-    // System.Boolean <ClearInvalidLists>b__364_2(HoudiniEngineUnity.HEU_MaterialData data)
-    // Offset: 0x184CC50
-    bool $ClearInvalidLists$b__364_2(::HoudiniEngineUnity::HEU_MaterialData* data);
     // public System.Void .ctor()
-    // Offset: 0x184CB04
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1886414
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_HoudiniAsset::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_HoudiniAsset::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_HoudiniAsset::$$c*, creationType>()));
     }
+    // System.Boolean <ClearInvalidCurves>b__309_0(HoudiniEngineUnity.HEU_Curve curve)
+    // Offset: 0x188641C
+    bool $ClearInvalidCurves$b__309_0(::HoudiniEngineUnity::HEU_Curve* curve);
+    // System.Boolean <ClearInvalidLists>b__364_0(HoudiniEngineUnity.HEU_ObjectNode node)
+    // Offset: 0x1886488
+    bool $ClearInvalidLists$b__364_0(::HoudiniEngineUnity::HEU_ObjectNode* node);
+    // System.Boolean <ClearInvalidLists>b__364_1(HoudiniEngineUnity.HEU_Curve curve)
+    // Offset: 0x18864F4
+    bool $ClearInvalidLists$b__364_1(::HoudiniEngineUnity::HEU_Curve* curve);
+    // System.Boolean <ClearInvalidLists>b__364_2(HoudiniEngineUnity.HEU_MaterialData data)
+    // Offset: 0x1886560
+    bool $ClearInvalidLists$b__364_2(::HoudiniEngineUnity::HEU_MaterialData* data);
   }; // HoudiniEngineUnity.HEU_HoudiniAsset/HoudiniEngineUnity.<>c
   #pragma pack(pop)
 }
@@ -97,6 +95,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HoudiniAsset::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::$$c::$ClearInvalidCurves$b__309_0
 // Il2CppName: <ClearInvalidCurves>b__309_0
 template<>
@@ -133,7 +135,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HoudiniAsset::$$c*), "<ClearInvalidLists>b__364_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

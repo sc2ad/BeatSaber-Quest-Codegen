@@ -72,7 +72,7 @@ namespace System {
     // Set static field: static public System.ParseFailureKind FormatBadDateTimeCalendar
     static void _set_FormatBadDateTimeCalendar(::System::ParseFailureKind value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.ParseFailureKind
   #pragma pack(pop)
   static check_size<sizeof(ParseFailureKind), 0 + sizeof(int)> __System_ParseFailureKindSizeCheck;

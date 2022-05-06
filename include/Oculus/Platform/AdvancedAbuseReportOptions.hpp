@@ -38,15 +38,7 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class AdvancedAbuseReportOptions : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.IntPtr Handle
     // Size: 0x8
     // Offset: 0x10
@@ -59,30 +51,28 @@ namespace Oculus::Platform {
       return Handle;
     }
     // Get instance field reference: private System.IntPtr Handle
-    ::System::IntPtr& dyn_Handle();
-    // public System.Void SetObjectType(System.String value)
-    // Offset: 0x2051CA8
-    void SetObjectType(::StringW value);
-    // public System.Void SetReportType(Oculus.Platform.AbuseReportType value)
-    // Offset: 0x2051DCC
-    void SetReportType(::Oculus::Platform::AbuseReportType value);
-    // public System.Void SetVideoMode(Oculus.Platform.AbuseReportVideoMode value)
-    // Offset: 0x2051ED4
-    void SetVideoMode(::Oculus::Platform::AbuseReportVideoMode value);
-    // static public System.IntPtr op_Explicit(Oculus.Platform.AdvancedAbuseReportOptions options)
-    // Offset: 0x2051FDC
-    // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Handle();
     // public System.Void .ctor()
-    // Offset: 0x2051BC0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x209B434
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AdvancedAbuseReportOptions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::AdvancedAbuseReportOptions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AdvancedAbuseReportOptions*, creationType>()));
     }
+    // public System.Void SetObjectType(System.String value)
+    // Offset: 0x209B51C
+    void SetObjectType(::StringW value);
+    // public System.Void SetReportType(Oculus.Platform.AbuseReportType value)
+    // Offset: 0x209B640
+    void SetReportType(::Oculus::Platform::AbuseReportType value);
+    // public System.Void SetVideoMode(Oculus.Platform.AbuseReportVideoMode value)
+    // Offset: 0x209B748
+    void SetVideoMode(::Oculus::Platform::AbuseReportVideoMode value);
+    // static public System.IntPtr op_Explicit(Oculus.Platform.AdvancedAbuseReportOptions options)
+    // Offset: 0x209B850
+    // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
     // protected override System.Void Finalize()
-    // Offset: 0x205202C
+    // Offset: 0x209B8A0
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -92,6 +82,10 @@ namespace Oculus::Platform {
   static_assert(sizeof(AdvancedAbuseReportOptions) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Oculus::Platform::AdvancedAbuseReportOptions::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::AdvancedAbuseReportOptions::SetObjectType
 // Il2CppName: SetObjectType
 template<>
@@ -122,10 +116,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::AdvancedAbuseReportOptions::operator ::System::IntPtr
 // Il2CppName: op_Explicit
 // Cannot perform method pointer template specialization from operators!
-// Writing MetadataGetter for method: Oculus::Platform::AdvancedAbuseReportOptions::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::AdvancedAbuseReportOptions::Finalize
 // Il2CppName: Finalize
 template<>

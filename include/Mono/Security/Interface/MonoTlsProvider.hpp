@@ -88,6 +88,13 @@ namespace Mono::Security::Interface {
     // System.Boolean get_SupportsCleanShutdown()
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_SupportsCleanShutdown();
+    // System.Void .ctor()
+    // Offset: 0x2346108
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static MonoTlsProvider* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Interface::MonoTlsProvider::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<MonoTlsProvider*, creationType>()));
+    }
     // public Mono.Security.Interface.IMonoSslStream CreateSslStream(System.IO.Stream innerStream, System.Boolean leaveInnerStreamOpen, Mono.Security.Interface.MonoTlsSettings settings)
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Mono::Security::Interface::IMonoSslStream* CreateSslStream(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen, ::Mono::Security::Interface::MonoTlsSettings* settings);
@@ -97,15 +104,6 @@ namespace Mono::Security::Interface {
     // System.Boolean ValidateCertificate(Mono.Security.Interface.ICertificateValidator2 validator, System.String targetHost, System.Boolean serverMode, System.Security.Cryptography.X509Certificates.X509CertificateCollection certificates, System.Boolean wantsChain, ref System.Security.Cryptography.X509Certificates.X509Chain chain, ref Mono.Security.Interface.MonoSslPolicyErrors errors, ref System.Int32 status11)
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool ValidateCertificate(::Mono::Security::Interface::ICertificateValidator2* validator, ::StringW targetHost, bool serverMode, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates, bool wantsChain, ByRef<::System::Security::Cryptography::X509Certificates::X509Chain*> chain, ByRef<::Mono::Security::Interface::MonoSslPolicyErrors> errors, ByRef<int> status11);
-    // System.Void .ctor()
-    // Offset: 0x22FC894
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MonoTlsProvider* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Interface::MonoTlsProvider::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<MonoTlsProvider*, creationType>()));
-    }
   }; // Mono.Security.Interface.MonoTlsProvider
   #pragma pack(pop)
 }
@@ -166,6 +164,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsProvider*), "get_SupportsCleanShutdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsProvider::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsProvider::CreateSslStream
 // Il2CppName: CreateSslStream
 template<>
@@ -205,7 +207,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsProvider*), "ValidateCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{validator, targetHost, serverMode, certificates, wantsChain, chain, errors, status11});
   }
 };
-// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsProvider::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -45,15 +45,7 @@ namespace GlobalNamespace {
     class LevelProductData;
     // Nested type: ::GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData
     class LevelPackProductData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private OculusLevelProductsModelSO/LevelPackProductData[] _levelPackProductsData
     // Size: 0x8
     // Offset: 0x18
@@ -82,39 +74,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private OculusLevelProductsModelSO/LevelPackProductData[] _levelPackProductsData
-    ::ArrayW<::GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>& dyn__levelPackProductsData();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>& dyn__levelPackProductsData();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,OculusLevelProductsModelSO/LevelProductData> _levelIdToProductData
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>*& dyn__levelIdToProductData();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>*& dyn__levelIdToProductData();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,OculusLevelProductsModelSO/LevelPackProductData> _levelPackIdToProductData
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>*& dyn__levelPackIdToProductData();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>*& dyn__levelPackIdToProductData();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.String> _assetFileToSku
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn__assetFileToSku();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn__assetFileToSku();
     // public OculusLevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
-    // Offset: 0x150F7E8
+    // Offset: 0x15470F0
     ::ArrayW<::GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*> get_levelPackProductsData();
-    // public OculusLevelProductsModelSO/LevelProductData GetLevelProductData(System.String levelId)
-    // Offset: 0x150B8A0
-    ::GlobalNamespace::OculusLevelProductsModelSO::LevelProductData* GetLevelProductData(::StringW levelId);
-    // public OculusLevelProductsModelSO/LevelPackProductData GetLevelPackProductData(System.String levelPackId)
-    // Offset: 0x150F988
-    ::GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::StringW levelPackId);
-    // public System.String GetLevelSku(System.String assetFile)
-    // Offset: 0x150FA08
-    ::StringW GetLevelSku(::StringW assetFile);
     // public System.Void .ctor()
-    // Offset: 0x150FA88
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1547390
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusLevelProductsModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusLevelProductsModelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusLevelProductsModelSO*, creationType>()));
     }
+    // public OculusLevelProductsModelSO/LevelProductData GetLevelProductData(System.String levelId)
+    // Offset: 0x15431A8
+    ::GlobalNamespace::OculusLevelProductsModelSO::LevelProductData* GetLevelProductData(::StringW levelId);
+    // public OculusLevelProductsModelSO/LevelPackProductData GetLevelPackProductData(System.String levelPackId)
+    // Offset: 0x1547290
+    ::GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::StringW levelPackId);
+    // public System.String GetLevelSku(System.String assetFile)
+    // Offset: 0x1547310
+    ::StringW GetLevelSku(::StringW assetFile);
     // protected override System.Void OnEnable()
-    // Offset: 0x150F7F0
+    // Offset: 0x15470F8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
@@ -132,6 +119,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusLevelProductsModelSO*), "get_levelPackProductsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::OculusLevelProductsModelSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OculusLevelProductsModelSO::GetLevelProductData
 // Il2CppName: GetLevelProductData
 template<>
@@ -159,10 +150,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusLevelProductsModelSO*), "GetLevelSku", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assetFile});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OculusLevelProductsModelSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OculusLevelProductsModelSO::OnEnable
 // Il2CppName: OnEnable
 template<>

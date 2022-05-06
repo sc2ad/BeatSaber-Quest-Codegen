@@ -39,30 +39,22 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerBigAvatarInstaller : public ::Zenject::MonoInstaller {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x1254494
+    // [InjectAttribute] Offset: 0x10D9078
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0x12544A4
+    // [InjectAttribute] Offset: 0x10D9088
     // private readonly SaberManager/InitData _saberManagerInitData
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::SaberManager::InitData* saberManagerInitData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberManager::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x12544B4
+    // [InjectAttribute] Offset: 0x10D9098
     // private readonly PlayersSpecificSettingsAtGameStartModel _playerSpecificSettings
     // Size: 0x8
     // Offset: 0x30
@@ -71,28 +63,20 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*) == 0x8);
     public:
     // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
-    ::GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // Get instance field reference: private readonly SaberManager/InitData _saberManagerInitData
-    ::GlobalNamespace::SaberManager::InitData*& dyn__saberManagerInitData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberManager::InitData*& dyn__saberManagerInitData();
     // Get instance field reference: private readonly PlayersSpecificSettingsAtGameStartModel _playerSpecificSettings
-    ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& dyn__playerSpecificSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& dyn__playerSpecificSettings();
     // public System.Void .ctor()
-    // Offset: 0x13CF810
-    // Implemented from: Zenject.MonoInstaller
-    // Base method: System.Void MonoInstaller::.ctor()
-    // Base method: System.Void MonoInstallerBase::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13CBCBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerBigAvatarInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerBigAvatarInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerBigAvatarInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x13CF628
+    // Offset: 0x13CBAD4
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

@@ -54,7 +54,7 @@ namespace TMPro {
     // Set static field: static public TMPro.Compute_DistanceTransform_EventTypes Completed
     static void _set_Completed(::TMPro::Compute_DistanceTransform_EventTypes value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // TMPro.Compute_DistanceTransform_EventTypes
   #pragma pack(pop)
   static check_size<sizeof(Compute_DistanceTransform_EventTypes), 0 + sizeof(int)> __TMPro_Compute_DistanceTransform_EventTypesSizeCheck;

@@ -138,7 +138,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.VROverlayFlags VisibleInDashboard
     static void _set_VisibleInDashboard(::Valve::VR::VROverlayFlags value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Valve.VR.VROverlayFlags
   #pragma pack(pop)
   static check_size<sizeof(VROverlayFlags), 0 + sizeof(int)> __Valve_VR_VROverlayFlagsSizeCheck;

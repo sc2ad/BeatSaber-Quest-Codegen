@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRNetwork/OVRNetworkTcpClient/ConnectionState Connecting
     static void _set_Connecting(::GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVRNetwork/OVRNetworkTcpClient/ConnectionState
   #pragma pack(pop)
   static check_size<sizeof(OVRNetwork::OVRNetworkTcpClient::ConnectionState), 0 + sizeof(int)> __GlobalNamespace_OVRNetwork_OVRNetworkTcpClient_ConnectionStateSizeCheck;

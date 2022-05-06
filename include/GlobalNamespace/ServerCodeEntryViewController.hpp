@@ -51,15 +51,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ServerCodeEntryViewController : public ::HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.UIKeyboard _uiKeyboard
     // Size: 0x8
     // Offset: 0x70
@@ -98,58 +90,51 @@ namespace GlobalNamespace {
     static_assert(sizeof(::HMUI::InputFieldViewChangeBinder*) == 0x8);
     public:
     // Get instance field reference: private HMUI.UIKeyboard _uiKeyboard
-    ::HMUI::UIKeyboard*& dyn__uiKeyboard();
+    [[deprecated("Use field access instead!")]] ::HMUI::UIKeyboard*& dyn__uiKeyboard();
     // Get instance field reference: private HMUI.InputFieldView _codeInputField
-    ::HMUI::InputFieldView*& dyn__codeInputField();
+    [[deprecated("Use field access instead!")]] ::HMUI::InputFieldView*& dyn__codeInputField();
     // Get instance field reference: private UnityEngine.UI.Button _joinButton
-    ::UnityEngine::UI::Button*& dyn__joinButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__joinButton();
     // Get instance field reference: private UnityEngine.UI.Button _cancelButton
-    ::UnityEngine::UI::Button*& dyn__cancelButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__cancelButton();
     // Get instance field reference: private System.Action`2<System.Boolean,System.String> didFinishEvent
-    ::System::Action_2<bool, ::StringW>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<bool, ::StringW>*& dyn_didFinishEvent();
     // Get instance field reference: private readonly HMUI.InputFieldViewChangeBinder _inputFieldViewChangeBinder
-    ::HMUI::InputFieldViewChangeBinder*& dyn__inputFieldViewChangeBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::InputFieldViewChangeBinder*& dyn__inputFieldViewChangeBinder();
     // public System.Void add_didFinishEvent(System.Action`2<System.Boolean,System.String> value)
-    // Offset: 0x1428110
+    // Offset: 0x1469744
     void add_didFinishEvent(::System::Action_2<bool, ::StringW>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<System.Boolean,System.String> value)
-    // Offset: 0x14281B4
+    // Offset: 0x14697E8
     void remove_didFinishEvent(::System::Action_2<bool, ::StringW>* value);
-    // private System.Void HandleInputFieldChanged(HMUI.InputFieldView obj)
-    // Offset: 0x1428414
-    void HandleInputFieldChanged(::HMUI::InputFieldView* obj);
-    // private System.Void HandleJoinButtonPressed()
-    // Offset: 0x1428484
-    void HandleJoinButtonPressed();
-    // private System.Void HandleCancelButtonPressed()
-    // Offset: 0x14284F8
-    void HandleCancelButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0x1428560
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1469B94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerCodeEntryViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ServerCodeEntryViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerCodeEntryViewController*, creationType>()));
     }
+    // private System.Void HandleInputFieldChanged(HMUI.InputFieldView obj)
+    // Offset: 0x1469A48
+    void HandleInputFieldChanged(::HMUI::InputFieldView* obj);
+    // private System.Void HandleJoinButtonPressed()
+    // Offset: 0x1469AB8
+    void HandleJoinButtonPressed();
+    // private System.Void HandleCancelButtonPressed()
+    // Offset: 0x1469B2C
+    void HandleCancelButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1428258
+    // Offset: 0x146988C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x14283E8
+    // Offset: 0x1469A1C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1428450
+    // Offset: 0x1469A84
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
@@ -177,6 +162,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerCodeEntryViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ServerCodeEntryViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ServerCodeEntryViewController::HandleInputFieldChanged
 // Il2CppName: HandleInputFieldChanged
 template<>
@@ -202,10 +191,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerCodeEntryViewController*), "HandleCancelButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ServerCodeEntryViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ServerCodeEntryViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

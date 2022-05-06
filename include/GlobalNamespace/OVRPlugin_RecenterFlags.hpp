@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/RecenterFlags Count
     static void _set_Count(::GlobalNamespace::OVRPlugin::RecenterFlags value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVRPlugin/RecenterFlags
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::RecenterFlags), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_RecenterFlagsSizeCheck;

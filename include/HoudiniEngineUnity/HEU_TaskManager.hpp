@@ -53,44 +53,42 @@ namespace HoudiniEngineUnity {
     // Set static field: static private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_Task> _pendingRemove
     static void _set__pendingRemove(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1AD037C
+    // Offset: 0x1B0B964
     static void _cctor();
-    // static private System.Void Update()
-    // Offset: 0x1AD0438
-    static void Update();
-    // static public HoudiniEngineUnity.HEU_Task GetTask(System.Guid taskGuid)
-    // Offset: 0x1AD043C
-    static ::HoudiniEngineUnity::HEU_Task* GetTask(::System::Guid taskGuid);
-    // static public System.Void AddTask(HoudiniEngineUnity.HEU_Task task)
-    // Offset: 0x1AD05C4
-    static void AddTask(::HoudiniEngineUnity::HEU_Task* task);
-    // static public System.Void KillTask(HoudiniEngineUnity.HEU_Task task, System.Boolean bRemove)
-    // Offset: 0x1AD06E4
-    static void KillTask(::HoudiniEngineUnity::HEU_Task* task, bool bRemove);
-    // static public System.Void KillTask(System.Guid taskGuid, System.Boolean bRemove)
-    // Offset: 0x1AD08EC
-    static void KillTask(::System::Guid taskGuid, bool bRemove);
-    // static public System.Void RemoveTask(HoudiniEngineUnity.HEU_Task task)
-    // Offset: 0x1AD07D8
-    static void RemoveTask(::HoudiniEngineUnity::HEU_Task* task);
-    // static public System.Void ExecuteTask(HoudiniEngineUnity.HEU_Task task)
-    // Offset: 0x1AD09A0
-    static void ExecuteTask(::HoudiniEngineUnity::HEU_Task* task);
-    // static public System.Void CompleteTask(HoudiniEngineUnity.HEU_Task task, HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskResult result)
-    // Offset: 0x1AD09D4
-    static void CompleteTask(::HoudiniEngineUnity::HEU_Task* task, ::HoudiniEngineUnity::HEU_Task::TaskResult result);
-    // static private System.Void InternalCompleteTask(HoudiniEngineUnity.HEU_Task task)
-    // Offset: 0x1AD09FC
-    static void InternalCompleteTask(::HoudiniEngineUnity::HEU_Task* task);
     // public System.Void .ctor()
-    // Offset: 0x1AD0A60
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B0C048
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_TaskManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TaskManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_TaskManager*, creationType>()));
     }
+    // static private System.Void Update()
+    // Offset: 0x1B0BA20
+    static void Update();
+    // static public HoudiniEngineUnity.HEU_Task GetTask(System.Guid taskGuid)
+    // Offset: 0x1B0BA24
+    static ::HoudiniEngineUnity::HEU_Task* GetTask(::System::Guid taskGuid);
+    // static public System.Void AddTask(HoudiniEngineUnity.HEU_Task task)
+    // Offset: 0x1B0BBAC
+    static void AddTask(::HoudiniEngineUnity::HEU_Task* task);
+    // static public System.Void KillTask(HoudiniEngineUnity.HEU_Task task, System.Boolean bRemove)
+    // Offset: 0x1B0BCCC
+    static void KillTask(::HoudiniEngineUnity::HEU_Task* task, bool bRemove);
+    // static public System.Void KillTask(System.Guid taskGuid, System.Boolean bRemove)
+    // Offset: 0x1B0BED4
+    static void KillTask(::System::Guid taskGuid, bool bRemove);
+    // static public System.Void RemoveTask(HoudiniEngineUnity.HEU_Task task)
+    // Offset: 0x1B0BDC0
+    static void RemoveTask(::HoudiniEngineUnity::HEU_Task* task);
+    // static public System.Void ExecuteTask(HoudiniEngineUnity.HEU_Task task)
+    // Offset: 0x1B0BF88
+    static void ExecuteTask(::HoudiniEngineUnity::HEU_Task* task);
+    // static public System.Void CompleteTask(HoudiniEngineUnity.HEU_Task task, HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskResult result)
+    // Offset: 0x1B0BFBC
+    static void CompleteTask(::HoudiniEngineUnity::HEU_Task* task, ::HoudiniEngineUnity::HEU_Task::TaskResult result);
+    // static private System.Void InternalCompleteTask(HoudiniEngineUnity.HEU_Task task)
+    // Offset: 0x1B0BFE4
+    static void InternalCompleteTask(::HoudiniEngineUnity::HEU_Task* task);
   }; // HoudiniEngineUnity.HEU_TaskManager
   #pragma pack(pop)
 }
@@ -103,6 +101,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_TaskManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TaskManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TaskManager::Update
 // Il2CppName: Update
 template<>
@@ -186,7 +188,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_TaskManager*), "InternalCompleteTask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{task});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TaskManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

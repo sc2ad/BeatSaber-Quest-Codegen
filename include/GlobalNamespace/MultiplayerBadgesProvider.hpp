@@ -51,30 +51,22 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::MultiplayerBadgesProvider::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x1253644
+    // [InjectAttribute] Offset: 0x10D8228
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x10
     ::GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253654
+    // [InjectAttribute] Offset: 0x10D8238
     // private readonly IDifficultyBeatmap _difficultyBeatmap
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IDifficultyBeatmap*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253664
+    // [InjectAttribute] Offset: 0x10D8248
     // private readonly MultiplayerBadgesModelSO _multiplayerBadgesModel
     // Size: 0x8
     // Offset: 0x20
@@ -107,29 +99,31 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMaxRandomMultiplierAmount
     static void _set_kMaxRandomMultiplierAmount(float value);
     // Get instance field reference: private readonly PlayerDataModel _playerDataModel
-    ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
     // Get instance field reference: private readonly IDifficultyBeatmap _difficultyBeatmap
-    ::GlobalNamespace::IDifficultyBeatmap*& dyn__difficultyBeatmap();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IDifficultyBeatmap*& dyn__difficultyBeatmap();
     // Get instance field reference: private readonly MultiplayerBadgesModelSO _multiplayerBadgesModel
-    ::GlobalNamespace::MultiplayerBadgesModelSO*& dyn__multiplayerBadgesModel();
-    // public System.Void SelectBadgesAndPutThemIntoResults(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> playerResults)
-    // Offset: 0x13CDD10
-    void SelectBadgesAndPutThemIntoResults(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* playerResults);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerBadgesModelSO*& dyn__multiplayerBadgesModel();
     // public System.Void .ctor()
-    // Offset: 0x13CEEA4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13CB350
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerBadgesProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerBadgesProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerBadgesProvider*, creationType>()));
     }
+    // public System.Void SelectBadgesAndPutThemIntoResults(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> playerResults)
+    // Offset: 0x13CA1BC
+    void SelectBadgesAndPutThemIntoResults(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* playerResults);
   }; // MultiplayerBadgesProvider
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerBadgesProvider), 32 + sizeof(::GlobalNamespace::MultiplayerBadgesModelSO*)> __GlobalNamespace_MultiplayerBadgesProviderSizeCheck;
   static_assert(sizeof(MultiplayerBadgesProvider) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgesProvider::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgesProvider::SelectBadgesAndPutThemIntoResults
 // Il2CppName: SelectBadgesAndPutThemIntoResults
 template<>
@@ -139,7 +133,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgesProvider*), "SelectBadgesAndPutThemIntoResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playerResults});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgesProvider::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

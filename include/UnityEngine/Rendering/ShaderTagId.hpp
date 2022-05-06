@@ -55,26 +55,26 @@ namespace UnityEngine::Rendering {
     // Set static field: static public readonly UnityEngine.Rendering.ShaderTagId none
     static void _set_none(::UnityEngine::Rendering::ShaderTagId value);
     // Get instance field reference: private System.Int32 m_Id
-    int& dyn_m_Id();
+    [[deprecated("Use field access instead!")]] int& dyn_m_Id();
     // System.Int32 get_id()
-    // Offset: 0x20CDBD8
+    // Offset: 0x211744C
     int get_id();
     // System.Void set_id(System.Int32 value)
-    // Offset: 0x20CDBE0
+    // Offset: 0x2117454
     void set_id(int value);
     // static private System.Void .cctor()
-    // Offset: 0x20CDCA4
+    // Offset: 0x2117518
     static void _cctor();
     // public System.Boolean Equals(UnityEngine.Rendering.ShaderTagId other)
-    // Offset: 0x20CDC70
+    // Offset: 0x21174E4
     bool Equals(::UnityEngine::Rendering::ShaderTagId other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x20CDBE8
+    // Offset: 0x211745C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x20CDC80
+    // Offset: 0x21174F4
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

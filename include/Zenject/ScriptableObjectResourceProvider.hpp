@@ -60,15 +60,7 @@ namespace Zenject {
     public:
     // Nested type: ::Zenject::ScriptableObjectResourceProvider::$$c__DisplayClass13_0
     class $$c__DisplayClass13_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x10
@@ -119,37 +111,37 @@ namespace Zenject {
       return *reinterpret_cast<::Zenject::IProvider*>(this);
     }
     // Get instance field reference: private readonly Zenject.DiContainer _container
-    ::Zenject::DiContainer*& dyn__container();
+    [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn__container();
     // Get instance field reference: private readonly System.Type _resourceType
-    ::System::Type*& dyn__resourceType();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn__resourceType();
     // Get instance field reference: private readonly System.String _resourcePath
-    ::StringW& dyn__resourcePath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__resourcePath();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArguments
-    ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& dyn__extraArguments();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& dyn__extraArguments();
     // Get instance field reference: private readonly System.Boolean _createNew
-    bool& dyn__createNew();
+    [[deprecated("Use field access instead!")]] bool& dyn__createNew();
     // Get instance field reference: private readonly System.Object _concreteIdentifier
-    ::Il2CppObject*& dyn__concreteIdentifier();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__concreteIdentifier();
     // Get instance field reference: private readonly System.Action`2<Zenject.InjectContext,System.Object> _instantiateCallback
-    ::System::Action_2<::Zenject::InjectContext*, ::Il2CppObject*>*& dyn__instantiateCallback();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::Zenject::InjectContext*, ::Il2CppObject*>*& dyn__instantiateCallback();
     // public System.Boolean get_IsCached()
-    // Offset: 0x1CDDBAC
+    // Offset: 0x1D19104
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x1CDDBB4
+    // Offset: 0x1D1910C
     bool get_TypeVariesBasedOnMemberType();
     // public System.Void .ctor(System.String resourcePath, System.Type resourceType, Zenject.DiContainer container, System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArguments, System.Boolean createNew, System.Object concreteIdentifier, System.Action`2<Zenject.InjectContext,System.Object> instantiateCallback)
-    // Offset: 0x1CDDAE4
+    // Offset: 0x1D1903C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScriptableObjectResourceProvider* New_ctor(::StringW resourcePath, ::System::Type* resourceType, ::Zenject::DiContainer* container, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments, bool createNew, ::Il2CppObject* concreteIdentifier, ::System::Action_2<::Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ScriptableObjectResourceProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScriptableObjectResourceProvider*, creationType>(resourcePath, resourceType, container, extraArguments, createNew, concreteIdentifier, instantiateCallback)));
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x1CDDBBC
+    // Offset: 0x1D19114
     ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x1CDDBC4
+    // Offset: 0x1D1911C
     void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.ScriptableObjectResourceProvider
   #pragma pack(pop)

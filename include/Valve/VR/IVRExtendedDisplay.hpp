@@ -61,11 +61,11 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: Valve.VR.IVRExtendedDisplay/Valve.VR._GetWindowBounds GetWindowBounds
-    ::Valve::VR::IVRExtendedDisplay::_GetWindowBounds*& dyn_GetWindowBounds();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRExtendedDisplay::_GetWindowBounds*& dyn_GetWindowBounds();
     // Get instance field reference: Valve.VR.IVRExtendedDisplay/Valve.VR._GetEyeOutputViewport GetEyeOutputViewport
-    ::Valve::VR::IVRExtendedDisplay::_GetEyeOutputViewport*& dyn_GetEyeOutputViewport();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRExtendedDisplay::_GetEyeOutputViewport*& dyn_GetEyeOutputViewport();
     // Get instance field reference: Valve.VR.IVRExtendedDisplay/Valve.VR._GetDXGIOutputInfo GetDXGIOutputInfo
-    ::Valve::VR::IVRExtendedDisplay::_GetDXGIOutputInfo*& dyn_GetDXGIOutputInfo();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRExtendedDisplay::_GetDXGIOutputInfo*& dyn_GetDXGIOutputInfo();
   }; // Valve.VR.IVRExtendedDisplay
   #pragma pack(pop)
   static check_size<sizeof(IVRExtendedDisplay), 16 + sizeof(::Valve::VR::IVRExtendedDisplay::_GetDXGIOutputInfo*)> __Valve_VR_IVRExtendedDisplaySizeCheck;

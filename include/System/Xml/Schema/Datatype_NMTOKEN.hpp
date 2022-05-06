@@ -41,17 +41,17 @@ namespace System::Xml::Schema {
   class Datatype_NMTOKEN : public ::System::Xml::Schema::Datatype_token {
     public:
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1C19594
+    // Offset: 0x1C53B7C
     // Implemented from: System.Xml.Schema.Datatype_token
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_token::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // public override System.Xml.XmlTokenizedType get_TokenizedType()
-    // Offset: 0x1C1959C
+    // Offset: 0x1C53B84
     // Implemented from: System.Xml.Schema.Datatype_string
     // Base method: System.Xml.XmlTokenizedType Datatype_string::get_TokenizedType()
     ::System::Xml::XmlTokenizedType get_TokenizedType();
     // public System.Void .ctor()
-    // Offset: 0x1C1870C
+    // Offset: 0x1C52CF4
     // Implemented from: System.Xml.Schema.Datatype_token
     // Base method: System.Void Datatype_token::.ctor()
     // Base method: System.Void Datatype_normalizedString::.ctor()
@@ -59,7 +59,6 @@ namespace System::Xml::Schema {
     // Base method: System.Void Datatype_anySimpleType::.ctor()
     // Base method: System.Void DatatypeImplementation::.ctor()
     // Base method: System.Void XmlSchemaDatatype::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Datatype_NMTOKEN* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::Datatype_NMTOKEN::.ctor");

@@ -49,15 +49,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::MenuLightsManager::$Start$d__4
     class $Start$d__4;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MenuLightsPresetSO _defaultPreset
     // Size: 0x8
     // Offset: 0x18
@@ -72,7 +64,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: smooth and: lightManager
     char __padding1[0x4] = {};
-    // [InjectAttribute] Offset: 0x1250BD4
+    // [InjectAttribute] Offset: 0x10D5708
     // private LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x28
@@ -89,59 +81,57 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MenuLightsPresetSO _defaultPreset
-    ::GlobalNamespace::MenuLightsPresetSO*& dyn__defaultPreset();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuLightsPresetSO*& dyn__defaultPreset();
     // Get instance field reference: private System.Single _smooth
-    float& dyn__smooth();
+    [[deprecated("Use field access instead!")]] float& dyn__smooth();
     // Get instance field reference: private LightWithIdManager _lightManager
-    ::GlobalNamespace::LightWithIdManager*& dyn__lightManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightWithIdManager*& dyn__lightManager();
     // Get instance field reference: private MenuLightsPresetSO _preset
-    ::GlobalNamespace::MenuLightsPresetSO*& dyn__preset();
-    // protected System.Collections.IEnumerator Start()
-    // Offset: 0x12FEB70
-    ::System::Collections::IEnumerator* Start();
-    // protected System.Void Update()
-    // Offset: 0x12FEC0C
-    void Update();
-    // private System.Boolean IsColorVeryCloseToColor(UnityEngine.Color color0, UnityEngine.Color color1)
-    // Offset: 0x12FEDC4
-    bool IsColorVeryCloseToColor(::UnityEngine::Color color0, ::UnityEngine::Color color1);
-    // private System.Void SetColor(System.Int32 lightId, UnityEngine.Color color)
-    // Offset: 0x12FEEEC
-    void SetColor(int lightId, ::UnityEngine::Color color);
-    // private UnityEngine.Color CurrentColorForID(System.Int32 lightId)
-    // Offset: 0x12FEF08
-    ::UnityEngine::Color CurrentColorForID(int lightId);
-    // private System.Boolean SetColorsFromPreset(MenuLightsPresetSO preset, System.Single interpolationFactor)
-    // Offset: 0x12FEC5C
-    bool SetColorsFromPreset(::GlobalNamespace::MenuLightsPresetSO* preset, float interpolationFactor);
-    // private System.Void RefreshLightsDictForPreset(MenuLightsPresetSO preset)
-    // Offset: 0x12FEF60
-    void RefreshLightsDictForPreset(::GlobalNamespace::MenuLightsPresetSO* preset);
-    // public System.Void SetColorPreset(MenuLightsPresetSO preset, System.Boolean animated)
-    // Offset: 0x12FF038
-    void SetColorPreset(::GlobalNamespace::MenuLightsPresetSO* preset, bool animated);
-    // public System.Void RefreshColors()
-    // Offset: 0x12FF104
-    void RefreshColors();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuLightsPresetSO*& dyn__preset();
     // public System.Void .ctor()
-    // Offset: 0x12FF1AC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x12FB684
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuLightsManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuLightsManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MenuLightsManager*, creationType>()));
     }
+    // protected System.Collections.IEnumerator Start()
+    // Offset: 0x12FB048
+    ::System::Collections::IEnumerator* Start();
+    // protected System.Void Update()
+    // Offset: 0x12FB0E4
+    void Update();
+    // private System.Boolean IsColorVeryCloseToColor(UnityEngine.Color color0, UnityEngine.Color color1)
+    // Offset: 0x12FB29C
+    bool IsColorVeryCloseToColor(::UnityEngine::Color color0, ::UnityEngine::Color color1);
+    // private System.Void SetColor(System.Int32 lightId, UnityEngine.Color color)
+    // Offset: 0x12FB3C4
+    void SetColor(int lightId, ::UnityEngine::Color color);
+    // private UnityEngine.Color CurrentColorForID(System.Int32 lightId)
+    // Offset: 0x12FB3E0
+    ::UnityEngine::Color CurrentColorForID(int lightId);
+    // private System.Boolean SetColorsFromPreset(MenuLightsPresetSO preset, System.Single interpolationFactor)
+    // Offset: 0x12FB134
+    bool SetColorsFromPreset(::GlobalNamespace::MenuLightsPresetSO* preset, float interpolationFactor);
+    // private System.Void RefreshLightsDictForPreset(MenuLightsPresetSO preset)
+    // Offset: 0x12FB438
+    void RefreshLightsDictForPreset(::GlobalNamespace::MenuLightsPresetSO* preset);
+    // public System.Void SetColorPreset(MenuLightsPresetSO preset, System.Boolean animated)
+    // Offset: 0x12FB510
+    void SetColorPreset(::GlobalNamespace::MenuLightsPresetSO* preset, bool animated);
+    // public System.Void RefreshColors()
+    // Offset: 0x12FB5DC
+    void RefreshColors();
   }; // MenuLightsManager
   #pragma pack(pop)
   static check_size<sizeof(MenuLightsManager), 48 + sizeof(::GlobalNamespace::MenuLightsPresetSO*)> __GlobalNamespace_MenuLightsManagerSizeCheck;
   static_assert(sizeof(MenuLightsManager) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MenuLightsManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MenuLightsManager::Start
 // Il2CppName: Start
 template<>
@@ -224,7 +214,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuLightsManager*), "RefreshColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MenuLightsManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -158,42 +158,42 @@ namespace BGNet::Core::Messages {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public BGNet.Core.Messages.UnconnectedMessageHandler <>4__this
-    ::BGNet::Core::Messages::UnconnectedMessageHandler*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::BGNet::Core::Messages::UnconnectedMessageHandler*& dyn_$$4__this();
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
-    ::System::Threading::CancellationToken& dyn_cancellationToken();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: public System.Net.IPEndPoint remoteEndPoint
-    ::System::Net::IPEndPoint*& dyn_remoteEndPoint();
+    [[deprecated("Use field access instead!")]] ::System::Net::IPEndPoint*& dyn_remoteEndPoint();
     // Get instance field reference: public BGNet.Core.Messages.IUnconnectedReliableRequest message
-    ::BGNet::Core::Messages::IUnconnectedReliableRequest*& dyn_message();
+    [[deprecated("Use field access instead!")]] ::BGNet::Core::Messages::IUnconnectedReliableRequest*& dyn_message();
     // Get instance field reference: public System.UInt32 protocolVersion
-    uint& dyn_protocolVersion();
+    [[deprecated("Use field access instead!")]] uint& dyn_protocolVersion();
     // Get instance field reference: public System.Func`5<System.UInt32,System.Net.IPEndPoint,BGNet.Core.Messages.IUnconnectedReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task> onSendFailed
-    ::System::Func_5<uint, ::System::Net::IPEndPoint*, ::BGNet::Core::Messages::IUnconnectedReliableRequest*, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task*>*& dyn_onSendFailed();
+    [[deprecated("Use field access instead!")]] ::System::Func_5<uint, ::System::Net::IPEndPoint*, ::BGNet::Core::Messages::IUnconnectedReliableRequest*, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task*>*& dyn_onSendFailed();
     // Get instance field reference: private BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.SentRequestWaiter <sentRequest>5__2
-    ::BGNet::Core::Messages::UnconnectedMessageHandler::SentRequestWaiter*& dyn_$sentRequest$5__2();
+    [[deprecated("Use field access instead!")]] ::BGNet::Core::Messages::UnconnectedMessageHandler::SentRequestWaiter*& dyn_$sentRequest$5__2();
     // Get instance field reference: private BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.RequestWaiterId <waiterId>5__3
-    ::BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiterId& dyn_$waiterId$5__3();
+    [[deprecated("Use field access instead!")]] ::BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiterId& dyn_$waiterId$5__3();
     // Get instance field reference: private System.Boolean <shouldReleaseMessage>5__4
-    bool& dyn_$shouldReleaseMessage$5__4();
+    [[deprecated("Use field access instead!")]] bool& dyn_$shouldReleaseMessage$5__4();
     // Get instance field reference: private System.Object <>7__wrap4
-    ::Il2CppObject*& dyn_$$7__wrap4();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$$7__wrap4();
     // Get instance field reference: private System.Int32 <>7__wrap5
-    int& dyn_$$7__wrap5();
+    [[deprecated("Use field access instead!")]] int& dyn_$$7__wrap5();
     // Get instance field reference: private System.Int32 <i>5__7
-    int& dyn_$i$5__7();
+    [[deprecated("Use field access instead!")]] int& dyn_$i$5__7();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.Task> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task*>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task*>& dyn_$$u__1();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__2
-    ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__2();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x150143C
+    // Offset: 0x1538D44
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1501FEC
+    // Offset: 0x15398F4
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.<SendMessageWithRetryAsyncInternal>d__74
   // WARNING Not writing size check since size may be invalid!

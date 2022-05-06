@@ -38,15 +38,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset
     class Preset;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MirrorRendererGraphicsSettingsPresets/Preset[] _presets
     // Size: 0x8
     // Offset: 0x18
@@ -57,23 +49,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MirrorRendererGraphicsSettingsPresets/Preset[] _presets
-    ::ArrayW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>& dyn__presets();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>& dyn__presets();
     // public MirrorRendererGraphicsSettingsPresets/Preset[] get_presets()
-    // Offset: 0x13017F0
+    // Offset: 0x12FDCC8
     ::ArrayW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*> get_presets();
     // public override NamedPreset[] get_namedPresets()
-    // Offset: 0x13017F8
+    // Offset: 0x12FDCD0
     // Implemented from: NamedPresetsSO
     // Base method: NamedPreset[] NamedPresetsSO::get_namedPresets()
     ::ArrayW<::GlobalNamespace::NamedPreset*> get_namedPresets();
     // public System.Void .ctor()
-    // Offset: 0x1301800
+    // Offset: 0x12FDCD8
     // Implemented from: NamedPresetsSO
     // Base method: System.Void NamedPresetsSO::.ctor()
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MirrorRendererGraphicsSettingsPresets* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::.ctor");

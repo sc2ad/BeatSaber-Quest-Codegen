@@ -145,38 +145,38 @@ namespace System::Net::Http {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Net.Http.HttpResponseMessage> <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage*>& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage*>& dyn_$$t__builder();
     // Get instance field reference: public System.Net.Http.HttpClientHandler <>4__this
-    ::System::Net::Http::HttpClientHandler*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::System::Net::Http::HttpClientHandler*& dyn_$$4__this();
     // Get instance field reference: public System.Net.Http.HttpRequestMessage request
-    ::System::Net::Http::HttpRequestMessage*& dyn_request();
+    [[deprecated("Use field access instead!")]] ::System::Net::Http::HttpRequestMessage*& dyn_request();
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
-    ::System::Threading::CancellationToken& dyn_cancellationToken();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: private System.Net.HttpWebRequest <wrequest>5__1
-    ::System::Net::HttpWebRequest*& dyn_$wrequest$5__1();
+    [[deprecated("Use field access instead!")]] ::System::Net::HttpWebRequest*& dyn_$wrequest$5__1();
     // Get instance field reference: private System.Net.Http.HttpContent <content>5__2
-    ::System::Net::Http::HttpContent*& dyn_$content$5__2();
+    [[deprecated("Use field access instead!")]] ::System::Net::Http::HttpContent*& dyn_$content$5__2();
     // Get instance field reference: private System.IO.Stream <stream>5__3
-    ::System::IO::Stream*& dyn_$stream$5__3();
+    [[deprecated("Use field access instead!")]] ::System::IO::Stream*& dyn_$stream$5__3();
     // Get instance field reference: private System.Net.HttpWebResponse <wresponse>5__4
-    ::System::Net::HttpWebResponse*& dyn_$wresponse$5__4();
+    [[deprecated("Use field access instead!")]] ::System::Net::HttpWebResponse*& dyn_$wresponse$5__4();
     // Get instance field reference: private System.Threading.CancellationTokenRegistration <>7__wrap1
-    ::System::Threading::CancellationTokenRegistration& dyn_$$7__wrap1();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationTokenRegistration& dyn_$$7__wrap1();
     // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter <>u__1
-    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter& dyn_$$u__1();
     // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.IO.Stream> <>u__2
-    typename ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::System::IO::Stream*>::ConfiguredTaskAwaiter& dyn_$$u__2();
+    [[deprecated("Use field access instead!")]] typename ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::System::IO::Stream*>::ConfiguredTaskAwaiter& dyn_$$u__2();
     // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Net.WebResponse> <>u__3
-    typename ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::System::Net::WebResponse*>::ConfiguredTaskAwaiter& dyn_$$u__3();
+    [[deprecated("Use field access instead!")]] typename ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::System::Net::WebResponse*>::ConfiguredTaskAwaiter& dyn_$$u__3();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Net.Http.HttpResponseMessage> <>u__4
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>& dyn_$$u__4();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>& dyn_$$u__4();
     // private System.Void MoveNext()
-    // Offset: 0x1964FA0
+    // Offset: 0x199D588
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x19661E4
+    // Offset: 0x199E7CC
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // System.Net.Http.HttpClientHandler/System.Net.Http.<SendAsync>d__64
   // WARNING Not writing size check since size may be invalid!

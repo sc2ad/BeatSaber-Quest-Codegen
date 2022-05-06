@@ -26,15 +26,7 @@ namespace System::Xml::Schema {
   // [TokenAttribute] Offset: FFFFFFFF
   class DatatypeImplementation::SchemaDatatypeMap : public ::Il2CppObject/*, public ::System::IComparable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String name
     // Size: 0x8
     // Offset: 0x10
@@ -59,36 +51,36 @@ namespace System::Xml::Schema {
       return *reinterpret_cast<::System::IComparable*>(this);
     }
     // Get instance field reference: private System.String name
-    ::StringW& dyn_name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_name();
     // Get instance field reference: private System.Xml.Schema.DatatypeImplementation type
-    ::System::Xml::Schema::DatatypeImplementation*& dyn_type();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::DatatypeImplementation*& dyn_type();
     // Get instance field reference: private System.Int32 parentIndex
-    int& dyn_parentIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_parentIndex();
     // public System.String get_Name()
-    // Offset: 0x1C18658
+    // Offset: 0x1C52C40
     ::StringW get_Name();
     // public System.Int32 get_ParentIndex()
-    // Offset: 0x1C18660
+    // Offset: 0x1C52C48
     int get_ParentIndex();
     // System.Void .ctor(System.String name, System.Xml.Schema.DatatypeImplementation type)
-    // Offset: 0x1C185C8
+    // Offset: 0x1C52BB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DatatypeImplementation::SchemaDatatypeMap* New_ctor(::StringW name, ::System::Xml::Schema::DatatypeImplementation* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::DatatypeImplementation::SchemaDatatypeMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DatatypeImplementation::SchemaDatatypeMap*, creationType>(name, type)));
     }
     // System.Void .ctor(System.String name, System.Xml.Schema.DatatypeImplementation type, System.Int32 parentIndex)
-    // Offset: 0x1C18600
+    // Offset: 0x1C52BE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DatatypeImplementation::SchemaDatatypeMap* New_ctor(::StringW name, ::System::Xml::Schema::DatatypeImplementation* type, int parentIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::DatatypeImplementation::SchemaDatatypeMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DatatypeImplementation::SchemaDatatypeMap*, creationType>(name, type, parentIndex)));
     }
     // static public System.Xml.Schema.DatatypeImplementation op_Explicit(System.Xml.Schema.DatatypeImplementation/System.Xml.Schema.SchemaDatatypeMap sdm)
-    // Offset: 0x1C18640
+    // Offset: 0x1C52C28
     explicit operator ::System::Xml::Schema::DatatypeImplementation*();
     // public System.Int32 CompareTo(System.Object obj)
-    // Offset: 0x1C18668
+    // Offset: 0x1C52C50
     int CompareTo(::Il2CppObject* obj);
   }; // System.Xml.Schema.DatatypeImplementation/System.Xml.Schema.SchemaDatatypeMap
   #pragma pack(pop)

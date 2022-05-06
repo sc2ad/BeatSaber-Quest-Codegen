@@ -45,15 +45,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class RGBPanelController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.ColorGradientSlider _redSlider
     // Size: 0x8
     // Offset: 0x18
@@ -88,55 +80,49 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.ColorGradientSlider _redSlider
-    ::HMUI::ColorGradientSlider*& dyn__redSlider();
+    [[deprecated("Use field access instead!")]] ::HMUI::ColorGradientSlider*& dyn__redSlider();
     // Get instance field reference: private HMUI.ColorGradientSlider _greenSlider
-    ::HMUI::ColorGradientSlider*& dyn__greenSlider();
+    [[deprecated("Use field access instead!")]] ::HMUI::ColorGradientSlider*& dyn__greenSlider();
     // Get instance field reference: private HMUI.ColorGradientSlider _blueSlider
-    ::HMUI::ColorGradientSlider*& dyn__blueSlider();
+    [[deprecated("Use field access instead!")]] ::HMUI::ColorGradientSlider*& dyn__blueSlider();
     // Get instance field reference: private System.Action`2<UnityEngine.Color,ColorChangeUIEventType> colorDidChangeEvent
-    ::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*& dyn_colorDidChangeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*& dyn_colorDidChangeEvent();
     // Get instance field reference: private UnityEngine.Color _color
-    ::UnityEngine::Color& dyn__color();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // public UnityEngine.Color get_color()
-    // Offset: 0x137C3AC
+    // Offset: 0x13E36F4
     ::UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x137C3B8
+    // Offset: 0x13E3700
     void set_color(::UnityEngine::Color value);
     // public System.Void add_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x137C264
+    // Offset: 0x13E35AC
     void add_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x137C308
+    // Offset: 0x13E3650
     void remove_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
-    // protected System.Void Awake()
-    // Offset: 0x137C5B8
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x137C6BC
-    void OnDestroy();
-    // private System.Void HandleSliderColorDidChange(HMUI.ColorGradientSlider slider, UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x137C890
-    void HandleSliderColorDidChange(::HMUI::ColorGradientSlider* slider, ::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
-    // private System.Void RefreshSlidersValues()
-    // Offset: 0x137C560
-    void RefreshSlidersValues();
-    // private System.Void RefreshSlidersColors()
-    // Offset: 0x137C3E4
-    void RefreshSlidersColors();
     // public System.Void .ctor()
-    // Offset: 0x137C934
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13E3C7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RGBPanelController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RGBPanelController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RGBPanelController*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x13E3900
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13E3A04
+    void OnDestroy();
+    // private System.Void HandleSliderColorDidChange(HMUI.ColorGradientSlider slider, UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
+    // Offset: 0x13E3BD8
+    void HandleSliderColorDidChange(::HMUI::ColorGradientSlider* slider, ::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
+    // private System.Void RefreshSlidersValues()
+    // Offset: 0x13E38A8
+    void RefreshSlidersValues();
+    // private System.Void RefreshSlidersColors()
+    // Offset: 0x13E372C
+    void RefreshSlidersColors();
   }; // RGBPanelController
   #pragma pack(pop)
   static check_size<sizeof(RGBPanelController), 56 + sizeof(::UnityEngine::Color)> __GlobalNamespace_RGBPanelControllerSizeCheck;
@@ -178,6 +164,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RGBPanelController*), "remove_colorDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::RGBPanelController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::RGBPanelController::Awake
 // Il2CppName: Awake
 template<>
@@ -221,7 +211,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RGBPanelController*), "RefreshSlidersColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::RGBPanelController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

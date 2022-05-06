@@ -73,15 +73,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::GameplaySetupViewController::Panel
     class Panel;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.TextSegmentedControl _selectionSegmentedControl
     // Size: 0x8
     // Offset: 0x70
@@ -118,7 +110,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerSettingsPanelController* multiplayerSettingsPanelController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerSettingsPanelController*) == 0x8);
-    // [InjectAttribute] Offset: 0x125B0FC
+    // [InjectAttribute] Offset: 0x10DFCE0
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xA0
@@ -181,98 +173,91 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private HMUI.TextSegmentedControl _selectionSegmentedControl
-    ::HMUI::TextSegmentedControl*& dyn__selectionSegmentedControl();
+    [[deprecated("Use field access instead!")]] ::HMUI::TextSegmentedControl*& dyn__selectionSegmentedControl();
     // Get instance field reference: private PlayerSettingsPanelController _playerSettingsPanelController
-    ::GlobalNamespace::PlayerSettingsPanelController*& dyn__playerSettingsPanelController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSettingsPanelController*& dyn__playerSettingsPanelController();
     // Get instance field reference: private GameplayModifiersPanelController _gameplayModifiersPanelController
-    ::GlobalNamespace::GameplayModifiersPanelController*& dyn__gameplayModifiersPanelController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiersPanelController*& dyn__gameplayModifiersPanelController();
     // Get instance field reference: private EnvironmentOverrideSettingsPanelController _environmentOverrideSettingsPanelController
-    ::GlobalNamespace::EnvironmentOverrideSettingsPanelController*& dyn__environmentOverrideSettingsPanelController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentOverrideSettingsPanelController*& dyn__environmentOverrideSettingsPanelController();
     // Get instance field reference: private ColorsOverrideSettingsPanelController _colorsOverrideSettingsPanelController
-    ::GlobalNamespace::ColorsOverrideSettingsPanelController*& dyn__colorsOverrideSettingsPanelController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorsOverrideSettingsPanelController*& dyn__colorsOverrideSettingsPanelController();
     // Get instance field reference: private MultiplayerSettingsPanelController _multiplayerSettingsPanelController
-    ::GlobalNamespace::MultiplayerSettingsPanelController*& dyn__multiplayerSettingsPanelController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerSettingsPanelController*& dyn__multiplayerSettingsPanelController();
     // Get instance field reference: private readonly PlayerDataModel _playerDataModel
-    ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
     // Get instance field reference: private System.Action didChangeGameplayModifiersEvent
-    ::System::Action*& dyn_didChangeGameplayModifiersEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didChangeGameplayModifiersEvent();
     // Get instance field reference: private System.Collections.Generic.List`1<GameplaySetupViewController/Panel> _panels
-    ::System::Collections::Generic::List_1<::GlobalNamespace::GameplaySetupViewController::Panel*>*& dyn__panels();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::GameplaySetupViewController::Panel*>*& dyn__panels();
     // Get instance field reference: private System.Int32 _activePanelIdx
-    int& dyn__activePanelIdx();
+    [[deprecated("Use field access instead!")]] int& dyn__activePanelIdx();
     // Get instance field reference: private System.Boolean _showModifiers
-    bool& dyn__showModifiers();
+    [[deprecated("Use field access instead!")]] bool& dyn__showModifiers();
     // Get instance field reference: private System.Boolean _showEnvironmentOverrideSettings
-    bool& dyn__showEnvironmentOverrideSettings();
+    [[deprecated("Use field access instead!")]] bool& dyn__showEnvironmentOverrideSettings();
     // Get instance field reference: private System.Boolean _showColorSchemesSettings
-    bool& dyn__showColorSchemesSettings();
+    [[deprecated("Use field access instead!")]] bool& dyn__showColorSchemesSettings();
     // Get instance field reference: private System.Boolean _showMultiplayer
-    bool& dyn__showMultiplayer();
+    [[deprecated("Use field access instead!")]] bool& dyn__showMultiplayer();
     // Get instance field reference: private System.Boolean _shouldRefreshContent
-    bool& dyn__shouldRefreshContent();
+    [[deprecated("Use field access instead!")]] bool& dyn__shouldRefreshContent();
     // Get instance field reference: private System.Boolean _isInitialized
-    bool& dyn__isInitialized();
+    [[deprecated("Use field access instead!")]] bool& dyn__isInitialized();
     // public PlayerSpecificSettings get_playerSettings()
-    // Offset: 0x13E86DC
+    // Offset: 0x13F517C
     ::GlobalNamespace::PlayerSpecificSettings* get_playerSettings();
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x13E86F8
+    // Offset: 0x13F5198
     ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public OverrideEnvironmentSettings get_environmentOverrideSettings()
-    // Offset: 0x13E8714
+    // Offset: 0x13F51B4
     ::GlobalNamespace::OverrideEnvironmentSettings* get_environmentOverrideSettings();
     // public ColorSchemesSettings get_colorSchemesSettings()
-    // Offset: 0x13E873C
+    // Offset: 0x13F51DC
     ::GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();
     // public System.Void add_didChangeGameplayModifiersEvent(System.Action value)
-    // Offset: 0x13E8594
+    // Offset: 0x13F5034
     void add_didChangeGameplayModifiersEvent(::System::Action* value);
     // public System.Void remove_didChangeGameplayModifiersEvent(System.Action value)
-    // Offset: 0x13E8638
+    // Offset: 0x13F50D8
     void remove_didChangeGameplayModifiersEvent(::System::Action* value);
-    // public System.Void Setup(System.Boolean showModifiers, System.Boolean showEnvironmentOverrideSettings, System.Boolean showColorSchemesSettings, System.Boolean showMultiplayer, PlayerSettingsPanelController/PlayerSettingsPanelLayout playerSettingsPanelLayout)
-    // Offset: 0x13D9568
-    void Setup(bool showModifiers, bool showEnvironmentOverrideSettings, bool showColorSchemesSettings, bool showMultiplayer, ::GlobalNamespace::PlayerSettingsPanelController::PlayerSettingsPanelLayout playerSettingsPanelLayout);
-    // private System.Void Init()
-    // Offset: 0x13E8764
-    void Init();
-    // protected System.Void OnDisable()
-    // Offset: 0x13E8DE8
-    void OnDisable();
-    // private System.Void HandleSelectionSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0x13E8ED0
-    void HandleSelectionSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int cellIdx);
-    // private System.Void HandlePlayerSettingsPanelControllerDidChangePlayerSettings()
-    // Offset: 0x13E8F90
-    void HandlePlayerSettingsPanelControllerDidChangePlayerSettings();
-    // private System.Void HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers()
-    // Offset: 0x13E8FD8
-    void HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers();
-    // private System.Void SetActivePanel(System.Int32 panelIdx)
-    // Offset: 0x13E8ED8
-    void SetActivePanel(int panelIdx);
-    // private System.Void RefreshContent()
-    // Offset: 0x13E8804
-    void RefreshContent();
-    // private System.Void RefreshActivePanel()
-    // Offset: 0x13E9034
-    void RefreshActivePanel();
     // public System.Void .ctor()
-    // Offset: 0x13E9160
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13F5C00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplaySetupViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplaySetupViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplaySetupViewController*, creationType>()));
     }
+    // public System.Void Setup(System.Boolean showModifiers, System.Boolean showEnvironmentOverrideSettings, System.Boolean showColorSchemesSettings, System.Boolean showMultiplayer, PlayerSettingsPanelController/PlayerSettingsPanelLayout playerSettingsPanelLayout)
+    // Offset: 0x13E6008
+    void Setup(bool showModifiers, bool showEnvironmentOverrideSettings, bool showColorSchemesSettings, bool showMultiplayer, ::GlobalNamespace::PlayerSettingsPanelController::PlayerSettingsPanelLayout playerSettingsPanelLayout);
+    // private System.Void Init()
+    // Offset: 0x13F5204
+    void Init();
+    // protected System.Void OnDisable()
+    // Offset: 0x13F5888
+    void OnDisable();
+    // private System.Void HandleSelectionSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
+    // Offset: 0x13F5970
+    void HandleSelectionSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int cellIdx);
+    // private System.Void HandlePlayerSettingsPanelControllerDidChangePlayerSettings()
+    // Offset: 0x13F5A30
+    void HandlePlayerSettingsPanelControllerDidChangePlayerSettings();
+    // private System.Void HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers()
+    // Offset: 0x13F5A78
+    void HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers();
+    // private System.Void SetActivePanel(System.Int32 panelIdx)
+    // Offset: 0x13F5978
+    void SetActivePanel(int panelIdx);
+    // private System.Void RefreshContent()
+    // Offset: 0x13F52A4
+    void RefreshContent();
+    // private System.Void RefreshActivePanel()
+    // Offset: 0x13F5AD4
+    void RefreshActivePanel();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13E8C9C
+    // Offset: 0x13F573C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -332,6 +317,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplaySetupViewController*), "remove_didChangeGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::Setup
 // Il2CppName: Setup
 template<>
@@ -412,10 +401,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplaySetupViewController*), "RefreshActivePanel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

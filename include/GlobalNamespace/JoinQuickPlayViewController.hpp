@@ -54,15 +54,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class JoinQuickPlayViewController : public ::HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BeatmapDifficultyDropdown _beatmapDifficultyDropdown
     // Size: 0x8
     // Offset: 0x70
@@ -107,56 +99,49 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::MultiplayerModeSettings*) == 0x8);
     public:
     // Get instance field reference: private BeatmapDifficultyDropdown _beatmapDifficultyDropdown
-    ::GlobalNamespace::BeatmapDifficultyDropdown*& dyn__beatmapDifficultyDropdown();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficultyDropdown*& dyn__beatmapDifficultyDropdown();
     // Get instance field reference: private QuickPlaySongPacksDropdown _songPacksDropdown
-    ::GlobalNamespace::QuickPlaySongPacksDropdown*& dyn__songPacksDropdown();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::QuickPlaySongPacksDropdown*& dyn__songPacksDropdown();
     // Get instance field reference: private UnityEngine.UI.Toggle _levelSelectionToggle
-    ::UnityEngine::UI::Toggle*& dyn__levelSelectionToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__levelSelectionToggle();
     // Get instance field reference: private UnityEngine.UI.Button _joinButton
-    ::UnityEngine::UI::Button*& dyn__joinButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__joinButton();
     // Get instance field reference: private UnityEngine.UI.Button _cancelJoinButton
-    ::UnityEngine::UI::Button*& dyn__cancelJoinButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__cancelJoinButton();
     // Get instance field reference: private System.Action`1<System.Boolean> didFinishEvent
-    ::System::Action_1<bool>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<bool>*& dyn_didFinishEvent();
     // Get instance field reference: private MultiplayerModeSettings _multiplayerModeSettings
-    ::GlobalNamespace::MultiplayerModeSettings*& dyn__multiplayerModeSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerModeSettings*& dyn__multiplayerModeSettings();
     // public MultiplayerModeSettings get_multiplayerModeSettings()
-    // Offset: 0x13B5EF8
+    // Offset: 0x13B13A4
     ::GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x13B5DB0
+    // Offset: 0x13B125C
     void add_didFinishEvent(::System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x13B5E54
+    // Offset: 0x13B1300
     void remove_didFinishEvent(::System::Action_1<bool>* value);
-    // public System.Void Setup(QuickPlaySetupData quickPlaySetupData, MultiplayerModeSettings multiplayerModeSettings)
-    // Offset: 0x13B5F00
-    void Setup(::GlobalNamespace::QuickPlaySetupData* quickPlaySetupData, ::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
-    // private System.Void ButtonPressed(System.Boolean success)
-    // Offset: 0x13B60B8
-    void ButtonPressed(bool success);
-    // private System.Void <DidActivate>b__12_0()
-    // Offset: 0x13B6180
-    void $DidActivate$b__12_0();
-    // private System.Void <DidActivate>b__12_1()
-    // Offset: 0x13B6188
-    void $DidActivate$b__12_1();
     // public System.Void .ctor()
-    // Offset: 0x13B6178
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13B1624
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JoinQuickPlayViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::JoinQuickPlayViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JoinQuickPlayViewController*, creationType>()));
     }
+    // public System.Void Setup(QuickPlaySetupData quickPlaySetupData, MultiplayerModeSettings multiplayerModeSettings)
+    // Offset: 0x13B13AC
+    void Setup(::GlobalNamespace::QuickPlaySetupData* quickPlaySetupData, ::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
+    // private System.Void ButtonPressed(System.Boolean success)
+    // Offset: 0x13B1564
+    void ButtonPressed(bool success);
+    // private System.Void <DidActivate>b__12_0()
+    // Offset: 0x13B162C
+    void $DidActivate$b__12_0();
+    // private System.Void <DidActivate>b__12_1()
+    // Offset: 0x13B1634
+    void $DidActivate$b__12_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13B5F9C
+    // Offset: 0x13B1448
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -192,6 +177,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JoinQuickPlayViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::JoinQuickPlayViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::JoinQuickPlayViewController::Setup
 // Il2CppName: Setup
 template<>
@@ -227,10 +216,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JoinQuickPlayViewController*), "<DidActivate>b__12_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::JoinQuickPlayViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::JoinQuickPlayViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

@@ -31,15 +31,7 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class ThreadPoolWorkQueue::QueueSegment : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // readonly System.Threading.IThreadPoolWorkItem[] nodes
     // Size: 0x8
     // Offset: 0x10
@@ -62,28 +54,28 @@ namespace System::Threading {
     static_assert(sizeof(::System::Threading::ThreadPoolWorkQueue::QueueSegment*) == 0x8);
     public:
     // Get instance field reference: readonly System.Threading.IThreadPoolWorkItem[] nodes
-    ::ArrayW<::System::Threading::IThreadPoolWorkItem*>& dyn_nodes();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Threading::IThreadPoolWorkItem*>& dyn_nodes();
     // Get instance field reference: private System.Int32 indexes
-    int& dyn_indexes();
+    [[deprecated("Use field access instead!")]] int& dyn_indexes();
     // Get instance field reference: public System.Threading.ThreadPoolWorkQueue/System.Threading.QueueSegment Next
-    ::System::Threading::ThreadPoolWorkQueue::QueueSegment*& dyn_Next();
+    [[deprecated("Use field access instead!")]] ::System::Threading::ThreadPoolWorkQueue::QueueSegment*& dyn_Next();
     // private System.Void GetIndexes(out System.Int32 upper, out System.Int32 lower)
-    // Offset: 0x1CF9D98
+    // Offset: 0x1D352F0
     void GetIndexes(ByRef<int> upper, ByRef<int> lower);
     // private System.Boolean CompareExchangeIndexes(ref System.Int32 prevUpper, System.Int32 newUpper, ref System.Int32 prevLower, System.Int32 newLower)
-    // Offset: 0x1CF9DD8
+    // Offset: 0x1D35330
     bool CompareExchangeIndexes(ByRef<int> prevUpper, int newUpper, ByRef<int> prevLower, int newLower);
     // public System.Boolean IsUsedUp()
-    // Offset: 0x1CF973C
+    // Offset: 0x1D34C94
     bool IsUsedUp();
     // public System.Boolean TryEnqueue(System.Threading.IThreadPoolWorkItem node)
-    // Offset: 0x1CF8E3C
+    // Offset: 0x1D34394
     bool TryEnqueue(::System::Threading::IThreadPoolWorkItem* node);
     // public System.Boolean TryDequeue(out System.Threading.IThreadPoolWorkItem node)
-    // Offset: 0x1CF9640
+    // Offset: 0x1D34B98
     bool TryDequeue(ByRef<::System::Threading::IThreadPoolWorkItem*> node);
     // public System.Void .ctor()
-    // Offset: 0x1CF8710
+    // Offset: 0x1D33C68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

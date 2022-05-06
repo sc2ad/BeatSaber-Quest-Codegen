@@ -55,7 +55,7 @@ namespace UnityEngine::SceneManagement {
     // Set static field: static public UnityEngine.SceneManagement.UnloadSceneOptions UnloadAllEmbeddedSceneObjects
     static void _set_UnloadAllEmbeddedSceneObjects(::UnityEngine::SceneManagement::UnloadSceneOptions value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.SceneManagement.UnloadSceneOptions
   #pragma pack(pop)
   static check_size<sizeof(UnloadSceneOptions), 0 + sizeof(int)> __UnityEngine_SceneManagement_UnloadSceneOptionsSizeCheck;

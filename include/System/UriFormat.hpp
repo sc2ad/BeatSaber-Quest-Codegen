@@ -60,7 +60,7 @@ namespace System {
     // Set static field: static public System.UriFormat SafeUnescaped
     static void _set_SafeUnescaped(::System::UriFormat value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.UriFormat
   #pragma pack(pop)
   static check_size<sizeof(UriFormat), 0 + sizeof(int)> __System_UriFormatSizeCheck;

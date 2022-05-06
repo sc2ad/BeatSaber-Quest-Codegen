@@ -413,99 +413,99 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetRecommendedRenderTargetSize GetRecommendedRenderTargetSize
-    ::Valve::VR::IVRSystem::_GetRecommendedRenderTargetSize*& dyn_GetRecommendedRenderTargetSize();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetRecommendedRenderTargetSize*& dyn_GetRecommendedRenderTargetSize();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetProjectionMatrix GetProjectionMatrix
-    ::Valve::VR::IVRSystem::_GetProjectionMatrix*& dyn_GetProjectionMatrix();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetProjectionMatrix*& dyn_GetProjectionMatrix();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetProjectionRaw GetProjectionRaw
-    ::Valve::VR::IVRSystem::_GetProjectionRaw*& dyn_GetProjectionRaw();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetProjectionRaw*& dyn_GetProjectionRaw();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._ComputeDistortion ComputeDistortion
-    ::Valve::VR::IVRSystem::_ComputeDistortion*& dyn_ComputeDistortion();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_ComputeDistortion*& dyn_ComputeDistortion();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetEyeToHeadTransform GetEyeToHeadTransform
-    ::Valve::VR::IVRSystem::_GetEyeToHeadTransform*& dyn_GetEyeToHeadTransform();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetEyeToHeadTransform*& dyn_GetEyeToHeadTransform();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetTimeSinceLastVsync GetTimeSinceLastVsync
-    ::Valve::VR::IVRSystem::_GetTimeSinceLastVsync*& dyn_GetTimeSinceLastVsync();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetTimeSinceLastVsync*& dyn_GetTimeSinceLastVsync();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetD3D9AdapterIndex GetD3D9AdapterIndex
-    ::Valve::VR::IVRSystem::_GetD3D9AdapterIndex*& dyn_GetD3D9AdapterIndex();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetD3D9AdapterIndex*& dyn_GetD3D9AdapterIndex();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetDXGIOutputInfo GetDXGIOutputInfo
-    ::Valve::VR::IVRSystem::_GetDXGIOutputInfo*& dyn_GetDXGIOutputInfo();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetDXGIOutputInfo*& dyn_GetDXGIOutputInfo();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetOutputDevice GetOutputDevice
-    ::Valve::VR::IVRSystem::_GetOutputDevice*& dyn_GetOutputDevice();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetOutputDevice*& dyn_GetOutputDevice();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._IsDisplayOnDesktop IsDisplayOnDesktop
-    ::Valve::VR::IVRSystem::_IsDisplayOnDesktop*& dyn_IsDisplayOnDesktop();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_IsDisplayOnDesktop*& dyn_IsDisplayOnDesktop();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._SetDisplayVisibility SetDisplayVisibility
-    ::Valve::VR::IVRSystem::_SetDisplayVisibility*& dyn_SetDisplayVisibility();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_SetDisplayVisibility*& dyn_SetDisplayVisibility();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetDeviceToAbsoluteTrackingPose GetDeviceToAbsoluteTrackingPose
-    ::Valve::VR::IVRSystem::_GetDeviceToAbsoluteTrackingPose*& dyn_GetDeviceToAbsoluteTrackingPose();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetDeviceToAbsoluteTrackingPose*& dyn_GetDeviceToAbsoluteTrackingPose();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._ResetSeatedZeroPose ResetSeatedZeroPose
-    ::Valve::VR::IVRSystem::_ResetSeatedZeroPose*& dyn_ResetSeatedZeroPose();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_ResetSeatedZeroPose*& dyn_ResetSeatedZeroPose();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetSeatedZeroPoseToStandingAbsoluteTrackingPose GetSeatedZeroPoseToStandingAbsoluteTrackingPose
-    ::Valve::VR::IVRSystem::_GetSeatedZeroPoseToStandingAbsoluteTrackingPose*& dyn_GetSeatedZeroPoseToStandingAbsoluteTrackingPose();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetSeatedZeroPoseToStandingAbsoluteTrackingPose*& dyn_GetSeatedZeroPoseToStandingAbsoluteTrackingPose();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetRawZeroPoseToStandingAbsoluteTrackingPose GetRawZeroPoseToStandingAbsoluteTrackingPose
-    ::Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose*& dyn_GetRawZeroPoseToStandingAbsoluteTrackingPose();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose*& dyn_GetRawZeroPoseToStandingAbsoluteTrackingPose();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetSortedTrackedDeviceIndicesOfClass GetSortedTrackedDeviceIndicesOfClass
-    ::Valve::VR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass*& dyn_GetSortedTrackedDeviceIndicesOfClass();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass*& dyn_GetSortedTrackedDeviceIndicesOfClass();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetTrackedDeviceActivityLevel GetTrackedDeviceActivityLevel
-    ::Valve::VR::IVRSystem::_GetTrackedDeviceActivityLevel*& dyn_GetTrackedDeviceActivityLevel();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetTrackedDeviceActivityLevel*& dyn_GetTrackedDeviceActivityLevel();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._ApplyTransform ApplyTransform
-    ::Valve::VR::IVRSystem::_ApplyTransform*& dyn_ApplyTransform();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_ApplyTransform*& dyn_ApplyTransform();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetTrackedDeviceIndexForControllerRole GetTrackedDeviceIndexForControllerRole
-    ::Valve::VR::IVRSystem::_GetTrackedDeviceIndexForControllerRole*& dyn_GetTrackedDeviceIndexForControllerRole();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetTrackedDeviceIndexForControllerRole*& dyn_GetTrackedDeviceIndexForControllerRole();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetControllerRoleForTrackedDeviceIndex GetControllerRoleForTrackedDeviceIndex
-    ::Valve::VR::IVRSystem::_GetControllerRoleForTrackedDeviceIndex*& dyn_GetControllerRoleForTrackedDeviceIndex();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetControllerRoleForTrackedDeviceIndex*& dyn_GetControllerRoleForTrackedDeviceIndex();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetTrackedDeviceClass GetTrackedDeviceClass
-    ::Valve::VR::IVRSystem::_GetTrackedDeviceClass*& dyn_GetTrackedDeviceClass();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetTrackedDeviceClass*& dyn_GetTrackedDeviceClass();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._IsTrackedDeviceConnected IsTrackedDeviceConnected
-    ::Valve::VR::IVRSystem::_IsTrackedDeviceConnected*& dyn_IsTrackedDeviceConnected();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_IsTrackedDeviceConnected*& dyn_IsTrackedDeviceConnected();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetBoolTrackedDeviceProperty GetBoolTrackedDeviceProperty
-    ::Valve::VR::IVRSystem::_GetBoolTrackedDeviceProperty*& dyn_GetBoolTrackedDeviceProperty();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetBoolTrackedDeviceProperty*& dyn_GetBoolTrackedDeviceProperty();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetFloatTrackedDeviceProperty GetFloatTrackedDeviceProperty
-    ::Valve::VR::IVRSystem::_GetFloatTrackedDeviceProperty*& dyn_GetFloatTrackedDeviceProperty();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetFloatTrackedDeviceProperty*& dyn_GetFloatTrackedDeviceProperty();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetInt32TrackedDeviceProperty GetInt32TrackedDeviceProperty
-    ::Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty*& dyn_GetInt32TrackedDeviceProperty();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty*& dyn_GetInt32TrackedDeviceProperty();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetUint64TrackedDeviceProperty GetUint64TrackedDeviceProperty
-    ::Valve::VR::IVRSystem::_GetUint64TrackedDeviceProperty*& dyn_GetUint64TrackedDeviceProperty();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetUint64TrackedDeviceProperty*& dyn_GetUint64TrackedDeviceProperty();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetMatrix34TrackedDeviceProperty GetMatrix34TrackedDeviceProperty
-    ::Valve::VR::IVRSystem::_GetMatrix34TrackedDeviceProperty*& dyn_GetMatrix34TrackedDeviceProperty();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetMatrix34TrackedDeviceProperty*& dyn_GetMatrix34TrackedDeviceProperty();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetArrayTrackedDeviceProperty GetArrayTrackedDeviceProperty
-    ::Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty*& dyn_GetArrayTrackedDeviceProperty();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty*& dyn_GetArrayTrackedDeviceProperty();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetStringTrackedDeviceProperty GetStringTrackedDeviceProperty
-    ::Valve::VR::IVRSystem::_GetStringTrackedDeviceProperty*& dyn_GetStringTrackedDeviceProperty();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetStringTrackedDeviceProperty*& dyn_GetStringTrackedDeviceProperty();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetPropErrorNameFromEnum GetPropErrorNameFromEnum
-    ::Valve::VR::IVRSystem::_GetPropErrorNameFromEnum*& dyn_GetPropErrorNameFromEnum();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetPropErrorNameFromEnum*& dyn_GetPropErrorNameFromEnum();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._PollNextEvent PollNextEvent
-    ::Valve::VR::IVRSystem::_PollNextEvent*& dyn_PollNextEvent();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_PollNextEvent*& dyn_PollNextEvent();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._PollNextEventWithPose PollNextEventWithPose
-    ::Valve::VR::IVRSystem::_PollNextEventWithPose*& dyn_PollNextEventWithPose();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_PollNextEventWithPose*& dyn_PollNextEventWithPose();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetEventTypeNameFromEnum GetEventTypeNameFromEnum
-    ::Valve::VR::IVRSystem::_GetEventTypeNameFromEnum*& dyn_GetEventTypeNameFromEnum();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetEventTypeNameFromEnum*& dyn_GetEventTypeNameFromEnum();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetHiddenAreaMesh GetHiddenAreaMesh
-    ::Valve::VR::IVRSystem::_GetHiddenAreaMesh*& dyn_GetHiddenAreaMesh();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetHiddenAreaMesh*& dyn_GetHiddenAreaMesh();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetControllerState GetControllerState
-    ::Valve::VR::IVRSystem::_GetControllerState*& dyn_GetControllerState();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetControllerState*& dyn_GetControllerState();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetControllerStateWithPose GetControllerStateWithPose
-    ::Valve::VR::IVRSystem::_GetControllerStateWithPose*& dyn_GetControllerStateWithPose();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetControllerStateWithPose*& dyn_GetControllerStateWithPose();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._TriggerHapticPulse TriggerHapticPulse
-    ::Valve::VR::IVRSystem::_TriggerHapticPulse*& dyn_TriggerHapticPulse();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_TriggerHapticPulse*& dyn_TriggerHapticPulse();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetButtonIdNameFromEnum GetButtonIdNameFromEnum
-    ::Valve::VR::IVRSystem::_GetButtonIdNameFromEnum*& dyn_GetButtonIdNameFromEnum();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetButtonIdNameFromEnum*& dyn_GetButtonIdNameFromEnum();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._GetControllerAxisTypeNameFromEnum GetControllerAxisTypeNameFromEnum
-    ::Valve::VR::IVRSystem::_GetControllerAxisTypeNameFromEnum*& dyn_GetControllerAxisTypeNameFromEnum();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetControllerAxisTypeNameFromEnum*& dyn_GetControllerAxisTypeNameFromEnum();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._IsInputAvailable IsInputAvailable
-    ::Valve::VR::IVRSystem::_IsInputAvailable*& dyn_IsInputAvailable();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_IsInputAvailable*& dyn_IsInputAvailable();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._IsSteamVRDrawingControllers IsSteamVRDrawingControllers
-    ::Valve::VR::IVRSystem::_IsSteamVRDrawingControllers*& dyn_IsSteamVRDrawingControllers();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_IsSteamVRDrawingControllers*& dyn_IsSteamVRDrawingControllers();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._ShouldApplicationPause ShouldApplicationPause
-    ::Valve::VR::IVRSystem::_ShouldApplicationPause*& dyn_ShouldApplicationPause();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_ShouldApplicationPause*& dyn_ShouldApplicationPause();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._ShouldApplicationReduceRenderingWork ShouldApplicationReduceRenderingWork
-    ::Valve::VR::IVRSystem::_ShouldApplicationReduceRenderingWork*& dyn_ShouldApplicationReduceRenderingWork();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_ShouldApplicationReduceRenderingWork*& dyn_ShouldApplicationReduceRenderingWork();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._DriverDebugRequest DriverDebugRequest
-    ::Valve::VR::IVRSystem::_DriverDebugRequest*& dyn_DriverDebugRequest();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_DriverDebugRequest*& dyn_DriverDebugRequest();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._PerformFirmwareUpdate PerformFirmwareUpdate
-    ::Valve::VR::IVRSystem::_PerformFirmwareUpdate*& dyn_PerformFirmwareUpdate();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_PerformFirmwareUpdate*& dyn_PerformFirmwareUpdate();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._AcknowledgeQuit_Exiting AcknowledgeQuit_Exiting
-    ::Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting*& dyn_AcknowledgeQuit_Exiting();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting*& dyn_AcknowledgeQuit_Exiting();
     // Get instance field reference: Valve.VR.IVRSystem/Valve.VR._AcknowledgeQuit_UserPrompt AcknowledgeQuit_UserPrompt
-    ::Valve::VR::IVRSystem::_AcknowledgeQuit_UserPrompt*& dyn_AcknowledgeQuit_UserPrompt();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_AcknowledgeQuit_UserPrompt*& dyn_AcknowledgeQuit_UserPrompt();
   }; // Valve.VR.IVRSystem
   #pragma pack(pop)
   static check_size<sizeof(IVRSystem), 368 + sizeof(::Valve::VR::IVRSystem::_AcknowledgeQuit_UserPrompt*)> __Valve_VR_IVRSystemSizeCheck;

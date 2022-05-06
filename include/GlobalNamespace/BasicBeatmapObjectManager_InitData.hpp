@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BasicBeatmapObjectManager::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Boolean disappearingArrows
     // Size: 0x1
     // Offset: 0x10
@@ -60,15 +52,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public readonly System.Boolean disappearingArrows
-    bool& dyn_disappearingArrows();
+    [[deprecated("Use field access instead!")]] bool& dyn_disappearingArrows();
     // Get instance field reference: public readonly System.Boolean ghostNotes
-    bool& dyn_ghostNotes();
+    [[deprecated("Use field access instead!")]] bool& dyn_ghostNotes();
     // Get instance field reference: public readonly System.Single cutAngleTolerance
-    float& dyn_cutAngleTolerance();
+    [[deprecated("Use field access instead!")]] float& dyn_cutAngleTolerance();
     // Get instance field reference: public readonly System.Single notesUniformScale
-    float& dyn_notesUniformScale();
+    [[deprecated("Use field access instead!")]] float& dyn_notesUniformScale();
     // public System.Void .ctor(System.Boolean disappearingArrows, System.Boolean ghostNotes, System.Single cutAngleTolerance, System.Single notesUniformScale)
-    // Offset: 0x1361A50
+    // Offset: 0x1349CD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicBeatmapObjectManager::InitData* New_ctor(bool disappearingArrows, bool ghostNotes, float cutAngleTolerance, float notesUniformScale) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BasicBeatmapObjectManager::InitData::.ctor");

@@ -56,15 +56,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SearchFilterParamsViewController : public ::HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Toggle _filterByOwnedToggle
     // Size: 0x8
     // Offset: 0x70
@@ -157,77 +149,70 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action_2<::GlobalNamespace::SearchFilterParamsViewController*, ::GlobalNamespace::LevelFilterParams*>*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.UI.Toggle _filterByOwnedToggle
-    ::UnityEngine::UI::Toggle*& dyn__filterByOwnedToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__filterByOwnedToggle();
     // Get instance field reference: private UnityEngine.UI.Toggle _filterByCharacteristicToggle
-    ::UnityEngine::UI::Toggle*& dyn__filterByCharacteristicToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__filterByCharacteristicToggle();
     // Get instance field reference: private BeatmapCharacteristicsDropdown _beatmapCharacteristicsDropdown
-    ::GlobalNamespace::BeatmapCharacteristicsDropdown*& dyn__beatmapCharacteristicsDropdown();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCharacteristicsDropdown*& dyn__beatmapCharacteristicsDropdown();
     // Get instance field reference: private UnityEngine.UI.Toggle _filterByDifficultyToggle
-    ::UnityEngine::UI::Toggle*& dyn__filterByDifficultyToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__filterByDifficultyToggle();
     // Get instance field reference: private BeatmapDifficultyDropdown _beatmapDifficultyDropdown
-    ::GlobalNamespace::BeatmapDifficultyDropdown*& dyn__beatmapDifficultyDropdown();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficultyDropdown*& dyn__beatmapDifficultyDropdown();
     // Get instance field reference: private UnityEngine.UI.Toggle _filterBySongPacksToggle
-    ::UnityEngine::UI::Toggle*& dyn__filterBySongPacksToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__filterBySongPacksToggle();
     // Get instance field reference: private SongPacksDropdown _songPacksDropdown
-    ::GlobalNamespace::SongPacksDropdown*& dyn__songPacksDropdown();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongPacksDropdown*& dyn__songPacksDropdown();
     // Get instance field reference: private UnityEngine.UI.Toggle _filterByNotPlayedYetToggle
-    ::UnityEngine::UI::Toggle*& dyn__filterByNotPlayedYetToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__filterByNotPlayedYetToggle();
     // Get instance field reference: private UnityEngine.UI.Toggle _filterByMinBpmToggle
-    ::UnityEngine::UI::Toggle*& dyn__filterByMinBpmToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__filterByMinBpmToggle();
     // Get instance field reference: private FormattedFloatListSettingsController _minBpmController
-    ::GlobalNamespace::FormattedFloatListSettingsController*& dyn__minBpmController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FormattedFloatListSettingsController*& dyn__minBpmController();
     // Get instance field reference: private UnityEngine.UI.Toggle _filterByMaxBpmToggle
-    ::UnityEngine::UI::Toggle*& dyn__filterByMaxBpmToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__filterByMaxBpmToggle();
     // Get instance field reference: private FormattedFloatListSettingsController _maxBpmController
-    ::GlobalNamespace::FormattedFloatListSettingsController*& dyn__maxBpmController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FormattedFloatListSettingsController*& dyn__maxBpmController();
     // Get instance field reference: private UnityEngine.UI.Button _okButton
-    ::UnityEngine::UI::Button*& dyn__okButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__okButton();
     // Get instance field reference: private LevelFilterParams _currentLevelFilterParams
-    ::GlobalNamespace::LevelFilterParams*& dyn__currentLevelFilterParams();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelFilterParams*& dyn__currentLevelFilterParams();
     // Get instance field reference: private System.Action`2<SearchFilterParamsViewController,LevelFilterParams> didFinishEvent
-    ::System::Action_2<::GlobalNamespace::SearchFilterParamsViewController*, ::GlobalNamespace::LevelFilterParams*>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::SearchFilterParamsViewController*, ::GlobalNamespace::LevelFilterParams*>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<SearchFilterParamsViewController,LevelFilterParams> value)
-    // Offset: 0x1426274
+    // Offset: 0x14678A8
     void add_didFinishEvent(::System::Action_2<::GlobalNamespace::SearchFilterParamsViewController*, ::GlobalNamespace::LevelFilterParams*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<SearchFilterParamsViewController,LevelFilterParams> value)
-    // Offset: 0x1426318
+    // Offset: 0x146794C
     void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::SearchFilterParamsViewController*, ::GlobalNamespace::LevelFilterParams*>* value);
-    // public System.Void Setup(LevelFilterParams levelFilterParams)
-    // Offset: 0x14263BC
-    void Setup(::GlobalNamespace::LevelFilterParams* levelFilterParams);
-    // private System.Void OkButtonPressed()
-    // Offset: 0x14267C0
-    void OkButtonPressed();
-    // private System.Void MinBpmControllerValueDidChange(FormattedFloatListSettingsController minBpmController, System.Single value)
-    // Offset: 0x14269D8
-    void MinBpmControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* minBpmController, float value);
-    // private System.Void MaxBpmControllerValueDidChange(FormattedFloatListSettingsController maxBpmController, System.Single value)
-    // Offset: 0x1426A70
-    void MaxBpmControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* maxBpmController, float value);
-    // private System.Void Refresh(LevelFilterParams levelFilterParams)
-    // Offset: 0x14263C4
-    void Refresh(::GlobalNamespace::LevelFilterParams* levelFilterParams);
     // public System.Void .ctor()
-    // Offset: 0x1426B08
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x146813C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchFilterParamsViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SearchFilterParamsViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SearchFilterParamsViewController*, creationType>()));
     }
+    // public System.Void Setup(LevelFilterParams levelFilterParams)
+    // Offset: 0x14679F0
+    void Setup(::GlobalNamespace::LevelFilterParams* levelFilterParams);
+    // private System.Void OkButtonPressed()
+    // Offset: 0x1467DF4
+    void OkButtonPressed();
+    // private System.Void MinBpmControllerValueDidChange(FormattedFloatListSettingsController minBpmController, System.Single value)
+    // Offset: 0x146800C
+    void MinBpmControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* minBpmController, float value);
+    // private System.Void MaxBpmControllerValueDidChange(FormattedFloatListSettingsController maxBpmController, System.Single value)
+    // Offset: 0x14680A4
+    void MaxBpmControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* maxBpmController, float value);
+    // private System.Void Refresh(LevelFilterParams levelFilterParams)
+    // Offset: 0x14679F8
+    void Refresh(::GlobalNamespace::LevelFilterParams* levelFilterParams);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1426568
+    // Offset: 0x1467B9C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x14266CC
+    // Offset: 0x1467D00
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
@@ -255,6 +240,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SearchFilterParamsViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SearchFilterParamsViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SearchFilterParamsViewController::Setup
 // Il2CppName: Setup
 template<>
@@ -301,10 +290,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SearchFilterParamsViewController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelFilterParams});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SearchFilterParamsViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SearchFilterParamsViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

@@ -75,15 +75,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SimpleLevelStarter : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BeatmapLevelSO _level
     // Size: 0x8
     // Offset: 0x18
@@ -116,42 +108,42 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: overrideStrobeFilterSettingsToAllEffects and: recordingTextAsset
     char __padding4[0x2] = {};
-    // [NullAllowed] Offset: 0x1260B0C
+    // [NullAllowed] Offset: 0x10E57B4
     // private UnityEngine.TextAsset _recordingTextAsset
     // Size: 0x8
     // Offset: 0x30
     ::UnityEngine::TextAsset* recordingTextAsset;
     // Field size check
     static_assert(sizeof(::UnityEngine::TextAsset*) == 0x8);
-    // [NullAllowed] Offset: 0x1260B44
+    // [NullAllowed] Offset: 0x10E57EC
     // private UnityEngine.Component[] _prefabBindings
     // Size: 0x8
     // Offset: 0x38
     ::ArrayW<::UnityEngine::Component*> prefabBindings;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::Component*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x1260B7C
+    // [SpaceAttribute] Offset: 0x10E5824
     // private UnityEngine.UI.Button _button
     // Size: 0x8
     // Offset: 0x40
     ::UnityEngine::UI::Button* button;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [InjectAttribute] Offset: 0x1260BB4
+    // [InjectAttribute] Offset: 0x10E585C
     // private readonly MenuTransitionsHelper _menuTransitionsHelper
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MenuTransitionsHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0x1260BC4
+    // [InjectAttribute] Offset: 0x10E586C
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1260BD4
+    // [InjectAttribute] Offset: 0x10E587C
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x58
@@ -174,71 +166,69 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapLevelSO _level
-    ::GlobalNamespace::BeatmapLevelSO*& dyn__level();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelSO*& dyn__level();
     // Get instance field reference: private BeatmapCharacteristicSO _beatmapCharacteristic
-    ::GlobalNamespace::BeatmapCharacteristicSO*& dyn__beatmapCharacteristic();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCharacteristicSO*& dyn__beatmapCharacteristic();
     // Get instance field reference: private BeatmapDifficulty _beatmapDifficulty
-    ::GlobalNamespace::BeatmapDifficulty& dyn__beatmapDifficulty();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficulty& dyn__beatmapDifficulty();
     // Get instance field reference: private System.Boolean _useTestNoteCutSoundEffects
-    bool& dyn__useTestNoteCutSoundEffects();
+    [[deprecated("Use field access instead!")]] bool& dyn__useTestNoteCutSoundEffects();
     // Get instance field reference: private System.Boolean _overrideStrobeFilterSettingsToAllEffects
-    bool& dyn__overrideStrobeFilterSettingsToAllEffects();
+    [[deprecated("Use field access instead!")]] bool& dyn__overrideStrobeFilterSettingsToAllEffects();
     // Get instance field reference: private UnityEngine.TextAsset _recordingTextAsset
-    ::UnityEngine::TextAsset*& dyn__recordingTextAsset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TextAsset*& dyn__recordingTextAsset();
     // Get instance field reference: private UnityEngine.Component[] _prefabBindings
-    ::ArrayW<::UnityEngine::Component*>& dyn__prefabBindings();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Component*>& dyn__prefabBindings();
     // Get instance field reference: private UnityEngine.UI.Button _button
-    ::UnityEngine::UI::Button*& dyn__button();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__button();
     // Get instance field reference: private readonly MenuTransitionsHelper _menuTransitionsHelper
-    ::GlobalNamespace::MenuTransitionsHelper*& dyn__menuTransitionsHelper();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuTransitionsHelper*& dyn__menuTransitionsHelper();
     // Get instance field reference: private readonly GameScenesManager _gameScenesManager
-    ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // Get instance field reference: private readonly PlayerDataModel _playerDataModel
-    ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
     // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
-    ::HMUI::ButtonBinder*& dyn__buttonBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // Get instance field reference: private readonly GameplayModifiers _gameplayModifiers
-    ::GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
-    // protected System.Void Awake()
-    // Offset: 0x142BD34
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x142BDE4
-    void OnDestroy();
-    // private System.Void StartLevel()
-    // Offset: 0x142BE00
-    void StartLevel();
-    // private System.Void InstallEarlyBindings(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
-    // Offset: 0x142C06C
-    void InstallEarlyBindings(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* container);
-    // private System.Void ButtonPressed()
-    // Offset: 0x142C1AC
-    void ButtonPressed();
-    // private System.Void HandleLevelDidFinish(StandardLevelScenesTransitionSetupDataSO standardLevelSceneSetupData, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x142C1B0
-    void HandleLevelDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
-    // private System.Void <StartLevel>g__AfterSceneSwitchCallback|15_0(Zenject.DiContainer container)
-    // Offset: 0x142C2B0
-    void $StartLevel$g__AfterSceneSwitchCallback_15_0(::Zenject::DiContainer* container);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // public System.Void .ctor()
-    // Offset: 0x142C1D4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1381638
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleLevelStarter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SimpleLevelStarter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleLevelStarter*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x1381198
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1381248
+    void OnDestroy();
+    // private System.Void StartLevel()
+    // Offset: 0x1381264
+    void StartLevel();
+    // private System.Void InstallEarlyBindings(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
+    // Offset: 0x13814D0
+    void InstallEarlyBindings(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* container);
+    // private System.Void ButtonPressed()
+    // Offset: 0x1381610
+    void ButtonPressed();
+    // private System.Void HandleLevelDidFinish(StandardLevelScenesTransitionSetupDataSO standardLevelSceneSetupData, LevelCompletionResults levelCompletionResults)
+    // Offset: 0x1381614
+    void HandleLevelDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
+    // private System.Void <StartLevel>g__AfterSceneSwitchCallback|15_0(Zenject.DiContainer container)
+    // Offset: 0x1381714
+    void $StartLevel$g__AfterSceneSwitchCallback_15_0(::Zenject::DiContainer* container);
   }; // SimpleLevelStarter
   #pragma pack(pop)
   static check_size<sizeof(SimpleLevelStarter), 104 + sizeof(::GlobalNamespace::GameplayModifiers*)> __GlobalNamespace_SimpleLevelStarterSizeCheck;
   static_assert(sizeof(SimpleLevelStarter) == 0x70);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SimpleLevelStarter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SimpleLevelStarter::Awake
 // Il2CppName: Awake
 template<>
@@ -300,7 +290,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleLevelStarter*), "<StartLevel>g__AfterSceneSwitchCallback|15_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SimpleLevelStarter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

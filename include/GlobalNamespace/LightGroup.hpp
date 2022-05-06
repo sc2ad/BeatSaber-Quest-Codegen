@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightGroup : public ::GlobalNamespace::LightIdsRange {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _groupId
     // Size: 0x4
     // Offset: 0x20
@@ -60,27 +52,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action*) == 0x8);
     public:
     // Get instance field reference: private System.Int32 _groupId
-    int& dyn__groupId();
+    [[deprecated("Use field access instead!")]] int& dyn__groupId();
     // Get instance field reference: private System.Action didRefreshContentEvent
-    ::System::Action*& dyn_didRefreshContentEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didRefreshContentEvent();
     // public System.Int32 get_groupId()
-    // Offset: 0x2AD1AC8
+    // Offset: 0x1E7AE90
     int get_groupId();
     // public System.Void add_didRefreshContentEvent(System.Action value)
-    // Offset: 0x2AD1980
+    // Offset: 0x1E7AD48
     void add_didRefreshContentEvent(::System::Action* value);
     // public System.Void remove_didRefreshContentEvent(System.Action value)
-    // Offset: 0x2AD1A24
+    // Offset: 0x1E7ADEC
     void remove_didRefreshContentEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x2AD1AD0
+    // Offset: 0x1E7AE98
     // Implemented from: LightIdsRange
     // Base method: System.Void LightIdsRange::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightGroup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightGroup::.ctor");

@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaberClashChecker : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean _sabersAreClashing
     // Size: 0x1
     // Offset: 0x10
@@ -92,39 +84,41 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kIgnoredTime
     static void _set_kIgnoredTime(float value);
     // Get instance field reference: private System.Boolean _sabersAreClashing
-    bool& dyn__sabersAreClashing();
+    [[deprecated("Use field access instead!")]] bool& dyn__sabersAreClashing();
     // Get instance field reference: private UnityEngine.Vector3 _clashingPoint
-    ::UnityEngine::Vector3& dyn__clashingPoint();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__clashingPoint();
     // Get instance field reference: private Saber _leftSaber
-    ::GlobalNamespace::Saber*& dyn__leftSaber();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Saber*& dyn__leftSaber();
     // Get instance field reference: private Saber _rightSaber
-    ::GlobalNamespace::Saber*& dyn__rightSaber();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Saber*& dyn__rightSaber();
     // Get instance field reference: private System.Int32 _prevGetFrameNum
-    int& dyn__prevGetFrameNum();
-    // private System.Void Init(SaberManager saberManager)
-    // Offset: 0x141BFD0
-    void Init(::GlobalNamespace::SaberManager* saberManager);
-    // public System.Boolean AreSabersClashing(out UnityEngine.Vector3 clashingPoint)
-    // Offset: 0x141BFF4
-    bool AreSabersClashing(ByRef<::UnityEngine::Vector3> clashingPoint);
-    // private System.Single SegmentToSegmentDist(UnityEngine.Vector3 fromA, UnityEngine.Vector3 toA, UnityEngine.Vector3 fromB, UnityEngine.Vector3 toB, out UnityEngine.Vector3 inbetweenPoint)
-    // Offset: 0x141C1CC
-    float SegmentToSegmentDist(::UnityEngine::Vector3 fromA, ::UnityEngine::Vector3 toA, ::UnityEngine::Vector3 fromB, ::UnityEngine::Vector3 toB, ByRef<::UnityEngine::Vector3> inbetweenPoint);
+    [[deprecated("Use field access instead!")]] int& dyn__prevGetFrameNum();
     // public System.Void .ctor()
-    // Offset: 0x141C678
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x145DD50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberClashChecker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberClashChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberClashChecker*, creationType>()));
     }
+    // private System.Void Init(SaberManager saberManager)
+    // Offset: 0x145D6A8
+    void Init(::GlobalNamespace::SaberManager* saberManager);
+    // public System.Boolean AreSabersClashing(out UnityEngine.Vector3 clashingPoint)
+    // Offset: 0x145D6CC
+    bool AreSabersClashing(ByRef<::UnityEngine::Vector3> clashingPoint);
+    // private System.Single SegmentToSegmentDist(UnityEngine.Vector3 fromA, UnityEngine.Vector3 toA, UnityEngine.Vector3 fromB, UnityEngine.Vector3 toB, out UnityEngine.Vector3 inbetweenPoint)
+    // Offset: 0x145D8A4
+    float SegmentToSegmentDist(::UnityEngine::Vector3 fromA, ::UnityEngine::Vector3 toA, ::UnityEngine::Vector3 fromB, ::UnityEngine::Vector3 toB, ByRef<::UnityEngine::Vector3> inbetweenPoint);
   }; // SaberClashChecker
   #pragma pack(pop)
   static check_size<sizeof(SaberClashChecker), 48 + sizeof(int)> __GlobalNamespace_SaberClashCheckerSizeCheck;
   static_assert(sizeof(SaberClashChecker) == 0x34);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SaberClashChecker::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SaberClashChecker::Init
 // Il2CppName: Init
 template<>
@@ -156,7 +150,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberClashChecker*), "SegmentToSegmentDist", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fromA, toA, fromB, toB, inbetweenPoint});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SaberClashChecker::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

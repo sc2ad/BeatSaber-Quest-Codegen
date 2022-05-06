@@ -49,15 +49,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FlyingSpriteSpawner : public ::UnityEngine::MonoBehaviour/*, public ::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Sprite _sprite
     // Size: 0x8
     // Offset: 0x18
@@ -108,7 +100,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: shake and: flyingSpriteEffectPool
     char __padding7[0x7] = {};
-    // [InjectAttribute] Offset: 0x1250020
+    // [InjectAttribute] Offset: 0x10D4B54
     // private readonly FlyingSpriteEffect/Pool _flyingSpriteEffectPool
     // Size: 0x8
     // Offset: 0x50
@@ -123,48 +115,46 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Sprite _sprite
-    ::UnityEngine::Sprite*& dyn__sprite();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__sprite();
     // Get instance field reference: private UnityEngine.Material _material
-    ::UnityEngine::Material*& dyn__material();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__material();
     // Get instance field reference: private System.Single _duration
-    float& dyn__duration();
+    [[deprecated("Use field access instead!")]] float& dyn__duration();
     // Get instance field reference: private System.Single _xSpread
-    float& dyn__xSpread();
+    [[deprecated("Use field access instead!")]] float& dyn__xSpread();
     // Get instance field reference: private System.Single _targetYPos
-    float& dyn__targetYPos();
+    [[deprecated("Use field access instead!")]] float& dyn__targetYPos();
     // Get instance field reference: private System.Single _targetZPos
-    float& dyn__targetZPos();
+    [[deprecated("Use field access instead!")]] float& dyn__targetZPos();
     // Get instance field reference: private UnityEngine.Color _color
-    ::UnityEngine::Color& dyn__color();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // Get instance field reference: private System.Boolean _shake
-    bool& dyn__shake();
+    [[deprecated("Use field access instead!")]] bool& dyn__shake();
     // Get instance field reference: private readonly FlyingSpriteEffect/Pool _flyingSpriteEffectPool
-    ::GlobalNamespace::FlyingSpriteEffect::Pool*& dyn__flyingSpriteEffectPool();
-    // public System.Void SpawnFlyingSprite(UnityEngine.Vector3 pos, UnityEngine.Quaternion rotation, UnityEngine.Quaternion inverseRotation)
-    // Offset: 0x1391C58
-    void SpawnFlyingSprite(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Quaternion inverseRotation);
-    // public System.Void HandleFlyingObjectEffectDidFinish(FlyingObjectEffect flyingObjectEffect)
-    // Offset: 0x1391EC4
-    void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FlyingSpriteEffect::Pool*& dyn__flyingSpriteEffectPool();
     // public System.Void .ctor()
-    // Offset: 0x1391FE0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1379AF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlyingSpriteSpawner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FlyingSpriteSpawner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlyingSpriteSpawner*, creationType>()));
     }
+    // public System.Void SpawnFlyingSprite(UnityEngine.Vector3 pos, UnityEngine.Quaternion rotation, UnityEngine.Quaternion inverseRotation)
+    // Offset: 0x137976C
+    void SpawnFlyingSprite(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Quaternion inverseRotation);
+    // public System.Void HandleFlyingObjectEffectDidFinish(FlyingObjectEffect flyingObjectEffect)
+    // Offset: 0x13799D8
+    void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
   }; // FlyingSpriteSpawner
   #pragma pack(pop)
   static check_size<sizeof(FlyingSpriteSpawner), 80 + sizeof(::GlobalNamespace::FlyingSpriteEffect::Pool*)> __GlobalNamespace_FlyingSpriteSpawnerSizeCheck;
   static_assert(sizeof(FlyingSpriteSpawner) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::FlyingSpriteSpawner::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FlyingSpriteSpawner::SpawnFlyingSprite
 // Il2CppName: SpawnFlyingSprite
 template<>
@@ -185,7 +175,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingSpriteSpawner*), "HandleFlyingObjectEffectDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flyingObjectEffect});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FlyingSpriteSpawner::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

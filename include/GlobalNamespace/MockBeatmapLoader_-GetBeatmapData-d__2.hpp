@@ -90,24 +90,24 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<MockBeatmapData> <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MockBeatmapData*>& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MockBeatmapData*>& dyn_$$t__builder();
     // Get instance field reference: public BeatmapIdentifierNetSerializable beatmap
-    ::GlobalNamespace::BeatmapIdentifierNetSerializable*& dyn_beatmap();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapIdentifierNetSerializable*& dyn_beatmap();
     // Get instance field reference: public MockBeatmapLoader <>4__this
-    ::GlobalNamespace::MockBeatmapLoader*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MockBeatmapLoader*& dyn_$$4__this();
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
-    ::System::Threading::CancellationToken& dyn_cancellationToken();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: private MockBeatmapLoader/<>c__DisplayClass2_0 <>8__1
-    ::GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0*& dyn_$$8__1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0*& dyn_$$8__1();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<BeatmapLevelsModel/GetBeatmapLevelResult> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x13C5054
+    // Offset: 0x13C1500
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x13C55AC
+    // Offset: 0x13C1A58
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MockBeatmapLoader/<GetBeatmapData>d__2
   // WARNING Not writing size check since size may be invalid!

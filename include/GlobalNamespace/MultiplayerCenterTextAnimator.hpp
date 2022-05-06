@@ -56,16 +56,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerCenterTextAnimator : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [SpaceAttribute] Offset: 0x1254514
+    // [SpaceAttribute] Offset: 0x10D90F8
     // private TMPro.TextMeshPro _text
     // Size: 0x8
     // Offset: 0x18
@@ -78,7 +70,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Transform* scalingTarget;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0x125455C
+    // [InjectAttribute] Offset: 0x10D9140
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -119,79 +111,77 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshPro _text
-    ::TMPro::TextMeshPro*& dyn__text();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshPro*& dyn__text();
     // Get instance field reference: private UnityEngine.Transform _scalingTarget
-    ::UnityEngine::Transform*& dyn__scalingTarget();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__scalingTarget();
     // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
-    ::Tweening::TimeTweeningManager*& dyn__tweeningManager();
+    [[deprecated("Use field access instead!")]] ::Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private Tweening.Tween`1<System.Single> _fadeInTween
-    ::Tweening::Tween_1<float>*& dyn__fadeInTween();
+    [[deprecated("Use field access instead!")]] ::Tweening::Tween_1<float>*& dyn__fadeInTween();
     // Get instance field reference: private Tweening.Tween`1<System.Single> _fadeOutTween
-    ::Tweening::Tween_1<float>*& dyn__fadeOutTween();
+    [[deprecated("Use field access instead!")]] ::Tweening::Tween_1<float>*& dyn__fadeOutTween();
     // Get instance field reference: private Tweening.Tween`1<System.Single> _fontSizeTween
-    ::Tweening::Tween_1<float>*& dyn__fontSizeTween();
+    [[deprecated("Use field access instead!")]] ::Tweening::Tween_1<float>*& dyn__fontSizeTween();
     // Get instance field reference: private Tweening.Tween`1<UnityEngine.Color> _colorTween
-    ::Tweening::Tween_1<::UnityEngine::Color>*& dyn__colorTween();
+    [[deprecated("Use field access instead!")]] ::Tweening::Tween_1<::UnityEngine::Color>*& dyn__colorTween();
     // Get instance field reference: private Tweening.Tween`1<UnityEngine.Vector3> _offsetTween
-    ::Tweening::Tween_1<::UnityEngine::Vector3>*& dyn__offsetTween();
-    // protected System.Void Awake()
-    // Offset: 0x13CFBC0
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13CFF50
-    void OnDestroy();
-    // public System.Void AnimateTextColor(UnityEngine.Color color, System.Single duration, EaseType easeType)
-    // Offset: 0x13CFFE8
-    void AnimateTextColor(::UnityEngine::Color color, float duration, ::GlobalNamespace::EaseType easeType);
-    // public System.Void AnimateFontSize(System.Single fontSize, System.Single duration, EaseType easeType)
-    // Offset: 0x13D0098
-    void AnimateFontSize(float fontSize, float duration, ::GlobalNamespace::EaseType easeType);
-    // public System.Void AnimatePositionOffsetSize(UnityEngine.Vector3 offset, System.Single duration, EaseType easeType)
-    // Offset: 0x13D00FC
-    void AnimatePositionOffsetSize(::UnityEngine::Vector3 offset, float duration, ::GlobalNamespace::EaseType easeType);
-    // public System.Void AnimateEnabled(System.Boolean isEnabled, System.Single duration, EaseType easeType)
-    // Offset: 0x13D01A0
-    void AnimateEnabled(bool isEnabled, float duration, ::GlobalNamespace::EaseType easeType);
-    // public System.Void SetText(System.String text)
-    // Offset: 0x13D031C
-    void SetText(::StringW text);
-    // private System.Void <Awake>b__8_0(System.Single val)
-    // Offset: 0x13D0340
-    void $Awake$b__8_0(float val);
-    // private System.Void <Awake>b__8_1(System.Single val)
-    // Offset: 0x13D03D4
-    void $Awake$b__8_1(float val);
-    // private System.Void <Awake>b__8_5()
-    // Offset: 0x13D0468
-    void $Awake$b__8_5();
-    // private System.Void <Awake>b__8_2(System.Single val)
-    // Offset: 0x13D0498
-    void $Awake$b__8_2(float val);
-    // private System.Void <Awake>b__8_3(UnityEngine.Color val)
-    // Offset: 0x13D04B4
-    void $Awake$b__8_3(::UnityEngine::Color val);
-    // private System.Void <Awake>b__8_4(UnityEngine.Vector3 val)
-    // Offset: 0x13D04D8
-    void $Awake$b__8_4(::UnityEngine::Vector3 val);
+    [[deprecated("Use field access instead!")]] ::Tweening::Tween_1<::UnityEngine::Vector3>*& dyn__offsetTween();
     // public System.Void .ctor()
-    // Offset: 0x13D0338
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13CC7E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerCenterTextAnimator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerCenterTextAnimator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerCenterTextAnimator*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x13CC06C
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13CC3FC
+    void OnDestroy();
+    // public System.Void AnimateTextColor(UnityEngine.Color color, System.Single duration, EaseType easeType)
+    // Offset: 0x13CC494
+    void AnimateTextColor(::UnityEngine::Color color, float duration, ::GlobalNamespace::EaseType easeType);
+    // public System.Void AnimateFontSize(System.Single fontSize, System.Single duration, EaseType easeType)
+    // Offset: 0x13CC544
+    void AnimateFontSize(float fontSize, float duration, ::GlobalNamespace::EaseType easeType);
+    // public System.Void AnimatePositionOffsetSize(UnityEngine.Vector3 offset, System.Single duration, EaseType easeType)
+    // Offset: 0x13CC5A8
+    void AnimatePositionOffsetSize(::UnityEngine::Vector3 offset, float duration, ::GlobalNamespace::EaseType easeType);
+    // public System.Void AnimateEnabled(System.Boolean isEnabled, System.Single duration, EaseType easeType)
+    // Offset: 0x13CC64C
+    void AnimateEnabled(bool isEnabled, float duration, ::GlobalNamespace::EaseType easeType);
+    // public System.Void SetText(System.String text)
+    // Offset: 0x13CC7C8
+    void SetText(::StringW text);
+    // private System.Void <Awake>b__8_0(System.Single val)
+    // Offset: 0x13CC7EC
+    void $Awake$b__8_0(float val);
+    // private System.Void <Awake>b__8_1(System.Single val)
+    // Offset: 0x13CC880
+    void $Awake$b__8_1(float val);
+    // private System.Void <Awake>b__8_5()
+    // Offset: 0x13CC914
+    void $Awake$b__8_5();
+    // private System.Void <Awake>b__8_2(System.Single val)
+    // Offset: 0x13CC944
+    void $Awake$b__8_2(float val);
+    // private System.Void <Awake>b__8_3(UnityEngine.Color val)
+    // Offset: 0x13CC960
+    void $Awake$b__8_3(::UnityEngine::Color val);
+    // private System.Void <Awake>b__8_4(UnityEngine.Vector3 val)
+    // Offset: 0x13CC984
+    void $Awake$b__8_4(::UnityEngine::Vector3 val);
   }; // MultiplayerCenterTextAnimator
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerCenterTextAnimator), 80 + sizeof(::Tweening::Tween_1<::UnityEngine::Vector3>*)> __GlobalNamespace_MultiplayerCenterTextAnimatorSizeCheck;
   static_assert(sizeof(MultiplayerCenterTextAnimator) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterTextAnimator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterTextAnimator::Awake
 // Il2CppName: Awake
 template<>
@@ -314,7 +304,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerCenterTextAnimator*), "<Awake>b__8_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterTextAnimator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

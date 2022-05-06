@@ -25,15 +25,7 @@ namespace Mono::Security::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class PKCS12::DeriveBytes : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _hashName
     // Size: 0x8
     // Offset: 0x10
@@ -74,52 +66,50 @@ namespace Mono::Security::X509 {
     // Set static field: static private System.Byte[] macDiversifier
     static void _set_macDiversifier(::ArrayW<uint8_t> value);
     // Get instance field reference: private System.String _hashName
-    ::StringW& dyn__hashName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__hashName();
     // Get instance field reference: private System.Int32 _iterations
-    int& dyn__iterations();
+    [[deprecated("Use field access instead!")]] int& dyn__iterations();
     // Get instance field reference: private System.Byte[] _password
-    ::ArrayW<uint8_t>& dyn__password();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__password();
     // Get instance field reference: private System.Byte[] _salt
-    ::ArrayW<uint8_t>& dyn__salt();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__salt();
     // public System.Void set_HashName(System.String value)
-    // Offset: 0x2A58068
+    // Offset: 0x2AAE450
     void set_HashName(::StringW value);
     // public System.Void set_IterationCount(System.Int32 value)
-    // Offset: 0x2A58070
+    // Offset: 0x2AAE458
     void set_IterationCount(int value);
     // public System.Void set_Password(System.Byte[] value)
-    // Offset: 0x2A58078
+    // Offset: 0x2AAE460
     void set_Password(::ArrayW<uint8_t> value);
     // public System.Void set_Salt(System.Byte[] value)
-    // Offset: 0x2A58118
+    // Offset: 0x2AAE500
     void set_Salt(::ArrayW<uint8_t> value);
-    // static private System.Void .cctor()
-    // Offset: 0x2A58860
-    static void _cctor();
-    // private System.Void Adjust(System.Byte[] a, System.Int32 aOff, System.Byte[] b)
-    // Offset: 0x2A581AC
-    void Adjust(::ArrayW<uint8_t> a, int aOff, ::ArrayW<uint8_t> b);
-    // private System.Byte[] Derive(System.Byte[] diversifier, System.Int32 n)
-    // Offset: 0x2A58294
-    ::ArrayW<uint8_t> Derive(::ArrayW<uint8_t> diversifier, int n);
-    // public System.Byte[] DeriveKey(System.Int32 size)
-    // Offset: 0x2A586E0
-    ::ArrayW<uint8_t> DeriveKey(int size);
-    // public System.Byte[] DeriveIV(System.Int32 size)
-    // Offset: 0x2A58760
-    ::ArrayW<uint8_t> DeriveIV(int size);
-    // public System.Byte[] DeriveMAC(System.Int32 size)
-    // Offset: 0x2A587E0
-    ::ArrayW<uint8_t> DeriveMAC(int size);
     // public System.Void .ctor()
-    // Offset: 0x2A58060
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2AAE448
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS12::DeriveBytes* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::X509::PKCS12::DeriveBytes::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS12::DeriveBytes*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x2AAEC48
+    static void _cctor();
+    // private System.Void Adjust(System.Byte[] a, System.Int32 aOff, System.Byte[] b)
+    // Offset: 0x2AAE594
+    void Adjust(::ArrayW<uint8_t> a, int aOff, ::ArrayW<uint8_t> b);
+    // private System.Byte[] Derive(System.Byte[] diversifier, System.Int32 n)
+    // Offset: 0x2AAE67C
+    ::ArrayW<uint8_t> Derive(::ArrayW<uint8_t> diversifier, int n);
+    // public System.Byte[] DeriveKey(System.Int32 size)
+    // Offset: 0x2AAEAC8
+    ::ArrayW<uint8_t> DeriveKey(int size);
+    // public System.Byte[] DeriveIV(System.Int32 size)
+    // Offset: 0x2AAEB48
+    ::ArrayW<uint8_t> DeriveIV(int size);
+    // public System.Byte[] DeriveMAC(System.Int32 size)
+    // Offset: 0x2AAEBC8
+    ::ArrayW<uint8_t> DeriveMAC(int size);
   }; // Mono.Security.X509.PKCS12/Mono.Security.X509.DeriveBytes
   #pragma pack(pop)
   static check_size<sizeof(PKCS12::DeriveBytes), 40 + sizeof(::ArrayW<uint8_t>)> __Mono_Security_X509_PKCS12_DeriveBytesSizeCheck;
@@ -162,6 +152,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12::DeriveBytes*), "set_Salt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: Mono::Security::X509::PKCS12::DeriveBytes::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::DeriveBytes::_cctor
 // Il2CppName: .cctor
 template<>
@@ -218,7 +212,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12::DeriveBytes*), "DeriveMAC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});
   }
 };
-// Writing MetadataGetter for method: Mono::Security::X509::PKCS12::DeriveBytes::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -31,15 +31,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_DetailPrototype : public ::Il2CppObject/*, public ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String _prototypePrefab
     // Size: 0x8
     // Offset: 0x10
@@ -112,45 +104,47 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>*>(this);
     }
     // Get instance field reference: public System.String _prototypePrefab
-    ::StringW& dyn__prototypePrefab();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__prototypePrefab();
     // Get instance field reference: public System.String _prototypeTexture
-    ::StringW& dyn__prototypeTexture();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__prototypeTexture();
     // Get instance field reference: public System.Single _bendFactor
-    float& dyn__bendFactor();
+    [[deprecated("Use field access instead!")]] float& dyn__bendFactor();
     // Get instance field reference: public UnityEngine.Color _dryColor
-    ::UnityEngine::Color& dyn__dryColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__dryColor();
     // Get instance field reference: public UnityEngine.Color _healthyColor
-    ::UnityEngine::Color& dyn__healthyColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__healthyColor();
     // Get instance field reference: public System.Single _maxHeight
-    float& dyn__maxHeight();
+    [[deprecated("Use field access instead!")]] float& dyn__maxHeight();
     // Get instance field reference: public System.Single _maxWidth
-    float& dyn__maxWidth();
+    [[deprecated("Use field access instead!")]] float& dyn__maxWidth();
     // Get instance field reference: public System.Single _minHeight
-    float& dyn__minHeight();
+    [[deprecated("Use field access instead!")]] float& dyn__minHeight();
     // Get instance field reference: public System.Single _minWidth
-    float& dyn__minWidth();
+    [[deprecated("Use field access instead!")]] float& dyn__minWidth();
     // Get instance field reference: public System.Single _noiseSpread
-    float& dyn__noiseSpread();
+    [[deprecated("Use field access instead!")]] float& dyn__noiseSpread();
     // Get instance field reference: public System.Int32 _renderMode
-    int& dyn__renderMode();
-    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_DetailPrototype other)
-    // Offset: 0x17496DC
-    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_DetailPrototype* other);
+    [[deprecated("Use field access instead!")]] int& dyn__renderMode();
     // public System.Void .ctor()
-    // Offset: 0x17495B4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1781EC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_DetailPrototype* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_DetailPrototype::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_DetailPrototype*, creationType>()));
     }
+    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_DetailPrototype other)
+    // Offset: 0x1781FEC
+    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_DetailPrototype* other);
   }; // HoudiniEngineUnity.HEU_DetailPrototype
   #pragma pack(pop)
   static check_size<sizeof(HEU_DetailPrototype), 88 + sizeof(int)> __HoudiniEngineUnity_HEU_DetailPrototypeSizeCheck;
   static_assert(sizeof(HEU_DetailPrototype) == 0x5C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_DetailPrototype::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_DetailPrototype::IsEquivalentTo
 // Il2CppName: IsEquivalentTo
 template<>
@@ -160,7 +154,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_DetailPrototype*), "IsEquivalentTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_DetailPrototype::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

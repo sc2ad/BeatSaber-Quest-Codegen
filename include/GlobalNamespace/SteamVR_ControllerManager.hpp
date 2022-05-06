@@ -45,15 +45,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_ControllerManager : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.GameObject left
     // Size: 0x8
     // Offset: 0x18
@@ -66,14 +58,14 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* right;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1208B0C
+    // [TooltipAttribute] Offset: 0x108E524
     // public UnityEngine.GameObject[] objects
     // Size: 0x8
     // Offset: 0x28
     ::ArrayW<::UnityEngine::GameObject*> objects;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::GameObject*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x1208B44
+    // [TooltipAttribute] Offset: 0x108E55C
     // public System.Boolean assignAllBeforeIdentified
     // Size: 0x1
     // Offset: 0x30
@@ -140,87 +132,91 @@ namespace GlobalNamespace {
     // Set static field: static private System.String[] labels
     static void _set_labels(::ArrayW<::StringW> value);
     // Get instance field reference: public UnityEngine.GameObject left
-    ::UnityEngine::GameObject*& dyn_left();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_left();
     // Get instance field reference: public UnityEngine.GameObject right
-    ::UnityEngine::GameObject*& dyn_right();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_right();
     // Get instance field reference: public UnityEngine.GameObject[] objects
-    ::ArrayW<::UnityEngine::GameObject*>& dyn_objects();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::GameObject*>& dyn_objects();
     // Get instance field reference: public System.Boolean assignAllBeforeIdentified
-    bool& dyn_assignAllBeforeIdentified();
+    [[deprecated("Use field access instead!")]] bool& dyn_assignAllBeforeIdentified();
     // Get instance field reference: private System.UInt32[] indices
-    ::ArrayW<uint>& dyn_indices();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_indices();
     // Get instance field reference: private System.Boolean[] connected
-    ::ArrayW<bool>& dyn_connected();
+    [[deprecated("Use field access instead!")]] ::ArrayW<bool>& dyn_connected();
     // Get instance field reference: private System.UInt32 leftIndex
-    uint& dyn_leftIndex();
+    [[deprecated("Use field access instead!")]] uint& dyn_leftIndex();
     // Get instance field reference: private System.UInt32 rightIndex
-    uint& dyn_rightIndex();
+    [[deprecated("Use field access instead!")]] uint& dyn_rightIndex();
     // Get instance field reference: private SteamVR_Events/Action inputFocusAction
-    ::GlobalNamespace::SteamVR_Events::Action*& dyn_inputFocusAction();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SteamVR_Events::Action*& dyn_inputFocusAction();
     // Get instance field reference: private SteamVR_Events/Action deviceConnectedAction
-    ::GlobalNamespace::SteamVR_Events::Action*& dyn_deviceConnectedAction();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SteamVR_Events::Action*& dyn_deviceConnectedAction();
     // Get instance field reference: private SteamVR_Events/Action trackedDeviceRoleChangedAction
-    ::GlobalNamespace::SteamVR_Events::Action*& dyn_trackedDeviceRoleChangedAction();
-    // private System.Void SetUniqueObject(UnityEngine.GameObject o, System.Int32 index)
-    // Offset: 0x1868938
-    void SetUniqueObject(::UnityEngine::GameObject* o, int index);
-    // public System.Void UpdateTargets()
-    // Offset: 0x1868A4C
-    void UpdateTargets();
-    // private System.Void Awake()
-    // Offset: 0x1868B88
-    void Awake();
-    // private System.Void OnEnable()
-    // Offset: 0x1868ED0
-    void OnEnable();
-    // private System.Void OnDisable()
-    // Offset: 0x1869470
-    void OnDisable();
-    // private System.Void OnInputFocus(System.Boolean hasFocus)
-    // Offset: 0x18694D4
-    void OnInputFocus(bool hasFocus);
-    // private System.Void HideObject(UnityEngine.Transform t, System.String name)
-    // Offset: 0x1869884
-    void HideObject(::UnityEngine::Transform* t, ::StringW name);
-    // private System.Void ShowObject(UnityEngine.Transform t, System.String name)
-    // Offset: 0x1869790
-    void ShowObject(::UnityEngine::Transform* t, ::StringW name);
-    // private System.Void SetTrackedDeviceIndex(System.Int32 objectIndex, System.UInt32 trackedDeviceIndex)
-    // Offset: 0x18699F4
-    void SetTrackedDeviceIndex(int objectIndex, uint trackedDeviceIndex);
-    // private System.Void OnTrackedDeviceRoleChanged(Valve.VR.VREvent_t vrEvent)
-    // Offset: 0x1869C40
-    void OnTrackedDeviceRoleChanged(::Valve::VR::VREvent_t vrEvent);
-    // private System.Void OnDeviceConnected(System.Int32 index, System.Boolean connected)
-    // Offset: 0x186934C
-    void OnDeviceConnected(int index, bool connected);
-    // public System.Void Refresh()
-    // Offset: 0x18690B0
-    void Refresh();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SteamVR_Events::Action*& dyn_trackedDeviceRoleChangedAction();
     // private System.Void .ctor()
-    // Offset: 0x1868B8C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18A249C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_ControllerManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_ControllerManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_ControllerManager*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1869C44
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x18A3554
     static void _cctor();
+    // private System.Void SetUniqueObject(UnityEngine.GameObject o, System.Int32 index)
+    // Offset: 0x18A2248
+    void SetUniqueObject(::UnityEngine::GameObject* o, int index);
+    // public System.Void UpdateTargets()
+    // Offset: 0x18A235C
+    void UpdateTargets();
+    // private System.Void Awake()
+    // Offset: 0x18A2498
+    void Awake();
+    // private System.Void OnEnable()
+    // Offset: 0x18A27E0
+    void OnEnable();
+    // private System.Void OnDisable()
+    // Offset: 0x18A2D80
+    void OnDisable();
+    // private System.Void OnInputFocus(System.Boolean hasFocus)
+    // Offset: 0x18A2DE4
+    void OnInputFocus(bool hasFocus);
+    // private System.Void HideObject(UnityEngine.Transform t, System.String name)
+    // Offset: 0x18A3194
+    void HideObject(::UnityEngine::Transform* t, ::StringW name);
+    // private System.Void ShowObject(UnityEngine.Transform t, System.String name)
+    // Offset: 0x18A30A0
+    void ShowObject(::UnityEngine::Transform* t, ::StringW name);
+    // private System.Void SetTrackedDeviceIndex(System.Int32 objectIndex, System.UInt32 trackedDeviceIndex)
+    // Offset: 0x18A3304
+    void SetTrackedDeviceIndex(int objectIndex, uint trackedDeviceIndex);
+    // private System.Void OnTrackedDeviceRoleChanged(Valve.VR.VREvent_t vrEvent)
+    // Offset: 0x18A3550
+    void OnTrackedDeviceRoleChanged(::Valve::VR::VREvent_t vrEvent);
+    // private System.Void OnDeviceConnected(System.Int32 index, System.Boolean connected)
+    // Offset: 0x18A2C5C
+    void OnDeviceConnected(int index, bool connected);
+    // public System.Void Refresh()
+    // Offset: 0x18A29C0
+    void Refresh();
   }; // SteamVR_ControllerManager
   #pragma pack(pop)
   static check_size<sizeof(SteamVR_ControllerManager), 96 + sizeof(::GlobalNamespace::SteamVR_Events::Action*)> __GlobalNamespace_SteamVR_ControllerManagerSizeCheck;
   static_assert(sizeof(SteamVR_ControllerManager) == 0x68);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ControllerManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ControllerManager::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SteamVR_ControllerManager::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ControllerManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_ControllerManager::SetUniqueObject
 // Il2CppName: SetUniqueObject
 template<>
@@ -327,17 +323,5 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ControllerManager::*)()>(&GlobalNamespace::SteamVR_ControllerManager::Refresh)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ControllerManager*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ControllerManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ControllerManager::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SteamVR_ControllerManager::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ControllerManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

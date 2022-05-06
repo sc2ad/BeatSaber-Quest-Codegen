@@ -38,15 +38,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class SerObjectInfoInit : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Collections.Hashtable seenBeforeTable
     // Size: 0x8
     // Offset: 0x10
@@ -69,13 +61,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::SerStack*) == 0x8);
     public:
     // Get instance field reference: System.Collections.Hashtable seenBeforeTable
-    ::System::Collections::Hashtable*& dyn_seenBeforeTable();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn_seenBeforeTable();
     // Get instance field reference: System.Int32 objectInfoIdCount
-    int& dyn_objectInfoIdCount();
+    [[deprecated("Use field access instead!")]] int& dyn_objectInfoIdCount();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.SerStack oiPool
-    ::System::Runtime::Serialization::Formatters::Binary::SerStack*& dyn_oiPool();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::Formatters::Binary::SerStack*& dyn_oiPool();
     // public System.Void .ctor()
-    // Offset: 0x15F7B38
+    // Offset: 0x162D448
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

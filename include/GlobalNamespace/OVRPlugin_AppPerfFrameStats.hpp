@@ -114,33 +114,33 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 HmdVsyncIndex
-    int& dyn_HmdVsyncIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_HmdVsyncIndex();
     // Get instance field reference: public System.Int32 AppFrameIndex
-    int& dyn_AppFrameIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_AppFrameIndex();
     // Get instance field reference: public System.Int32 AppDroppedFrameCount
-    int& dyn_AppDroppedFrameCount();
+    [[deprecated("Use field access instead!")]] int& dyn_AppDroppedFrameCount();
     // Get instance field reference: public System.Single AppMotionToPhotonLatency
-    float& dyn_AppMotionToPhotonLatency();
+    [[deprecated("Use field access instead!")]] float& dyn_AppMotionToPhotonLatency();
     // Get instance field reference: public System.Single AppQueueAheadTime
-    float& dyn_AppQueueAheadTime();
+    [[deprecated("Use field access instead!")]] float& dyn_AppQueueAheadTime();
     // Get instance field reference: public System.Single AppCpuElapsedTime
-    float& dyn_AppCpuElapsedTime();
+    [[deprecated("Use field access instead!")]] float& dyn_AppCpuElapsedTime();
     // Get instance field reference: public System.Single AppGpuElapsedTime
-    float& dyn_AppGpuElapsedTime();
+    [[deprecated("Use field access instead!")]] float& dyn_AppGpuElapsedTime();
     // Get instance field reference: public System.Int32 CompositorFrameIndex
-    int& dyn_CompositorFrameIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_CompositorFrameIndex();
     // Get instance field reference: public System.Int32 CompositorDroppedFrameCount
-    int& dyn_CompositorDroppedFrameCount();
+    [[deprecated("Use field access instead!")]] int& dyn_CompositorDroppedFrameCount();
     // Get instance field reference: public System.Single CompositorLatency
-    float& dyn_CompositorLatency();
+    [[deprecated("Use field access instead!")]] float& dyn_CompositorLatency();
     // Get instance field reference: public System.Single CompositorCpuElapsedTime
-    float& dyn_CompositorCpuElapsedTime();
+    [[deprecated("Use field access instead!")]] float& dyn_CompositorCpuElapsedTime();
     // Get instance field reference: public System.Single CompositorGpuElapsedTime
-    float& dyn_CompositorGpuElapsedTime();
+    [[deprecated("Use field access instead!")]] float& dyn_CompositorGpuElapsedTime();
     // Get instance field reference: public System.Single CompositorCpuStartToGpuEndElapsedTime
-    float& dyn_CompositorCpuStartToGpuEndElapsedTime();
+    [[deprecated("Use field access instead!")]] float& dyn_CompositorCpuStartToGpuEndElapsedTime();
     // Get instance field reference: public System.Single CompositorGpuEndToVsyncElapsedTime
-    float& dyn_CompositorGpuEndToVsyncElapsedTime();
+    [[deprecated("Use field access instead!")]] float& dyn_CompositorGpuEndToVsyncElapsedTime();
   }; // OVRPlugin/AppPerfFrameStats
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::AppPerfFrameStats), 52 + sizeof(float)> __GlobalNamespace_OVRPlugin_AppPerfFrameStatsSizeCheck;

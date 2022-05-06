@@ -58,15 +58,7 @@ namespace GlobalNamespace {
     class InitData;
     // Nested type: ::GlobalNamespace::StandardLevelFailedController::$LevelFailedCoroutine$d__13
     class $LevelFailedCoroutine$d__13;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private LevelFailedTextEffect _levelFailedTextEffect
     // Size: 0x8
     // Offset: 0x18
@@ -79,49 +71,49 @@ namespace GlobalNamespace {
     ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x12532E4
+    // [InjectAttribute] Offset: 0x10D7EC8
     // private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PrepareLevelCompletionResults*) == 0x8);
-    // [InjectAttribute] Offset: 0x12532F4
+    // [InjectAttribute] Offset: 0x10D7ED8
     // private readonly StandardLevelFailedController/InitData _initData
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::StandardLevelFailedController::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::StandardLevelFailedController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253304
+    // [InjectAttribute] Offset: 0x10D7EE8
     // private readonly ILevelEndActions _gameplayManager
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::ILevelEndActions* gameplayManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILevelEndActions*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253314
+    // [InjectAttribute] Offset: 0x10D7EF8
     // private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253324
+    // [InjectAttribute] Offset: 0x10D7F08
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253334
+    // [InjectAttribute] Offset: 0x10D7F18
     // private readonly EnvironmentSpawnRotation _environmentSpawnRotation
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::EnvironmentSpawnRotation* environmentSpawnRotation;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EnvironmentSpawnRotation*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253344
+    // [InjectAttribute] Offset: 0x10D7F28
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x58
@@ -132,54 +124,52 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private LevelFailedTextEffect _levelFailedTextEffect
-    ::GlobalNamespace::LevelFailedTextEffect*& dyn__levelFailedTextEffect();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelFailedTextEffect*& dyn__levelFailedTextEffect();
     // Get instance field reference: private StandardLevelScenesTransitionSetupDataSO _standardLevelSceneSetupData
-    ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& dyn__standardLevelSceneSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& dyn__standardLevelSceneSetupData();
     // Get instance field reference: private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
-    ::GlobalNamespace::PrepareLevelCompletionResults*& dyn__prepareLevelCompletionResults();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PrepareLevelCompletionResults*& dyn__prepareLevelCompletionResults();
     // Get instance field reference: private readonly StandardLevelFailedController/InitData _initData
-    ::GlobalNamespace::StandardLevelFailedController::InitData*& dyn__initData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::StandardLevelFailedController::InitData*& dyn__initData();
     // Get instance field reference: private readonly ILevelEndActions _gameplayManager
-    ::GlobalNamespace::ILevelEndActions*& dyn__gameplayManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ILevelEndActions*& dyn__gameplayManager();
     // Get instance field reference: private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
-    ::GlobalNamespace::BeatmapObjectSpawnController*& dyn__beatmapObjectSpawnController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectSpawnController*& dyn__beatmapObjectSpawnController();
     // Get instance field reference: private readonly GameSongController _gameSongController
-    ::GlobalNamespace::GameSongController*& dyn__gameSongController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameSongController*& dyn__gameSongController();
     // Get instance field reference: private readonly EnvironmentSpawnRotation _environmentSpawnRotation
-    ::GlobalNamespace::EnvironmentSpawnRotation*& dyn__environmentSpawnRotation();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentSpawnRotation*& dyn__environmentSpawnRotation();
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
-    ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
-    // protected System.Void Start()
-    // Offset: 0x1333238
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x1333320
-    void OnDestroy();
-    // private System.Void HandleLevelFailed()
-    // Offset: 0x1333418
-    void HandleLevelFailed();
-    // private System.Collections.IEnumerator LevelFailedCoroutine()
-    // Offset: 0x1333444
-    ::System::Collections::IEnumerator* LevelFailedCoroutine();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // public System.Void .ctor()
-    // Offset: 0x13334E0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1415548
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelFailedController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardLevelFailedController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelFailedController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x14152A0
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1415388
+    void OnDestroy();
+    // private System.Void HandleLevelFailed()
+    // Offset: 0x1415480
+    void HandleLevelFailed();
+    // private System.Collections.IEnumerator LevelFailedCoroutine()
+    // Offset: 0x14154AC
+    ::System::Collections::IEnumerator* LevelFailedCoroutine();
   }; // StandardLevelFailedController
   #pragma pack(pop)
   static check_size<sizeof(StandardLevelFailedController), 88 + sizeof(::GlobalNamespace::BeatmapObjectManager*)> __GlobalNamespace_StandardLevelFailedControllerSizeCheck;
   static_assert(sizeof(StandardLevelFailedController) == 0x60);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelFailedController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelFailedController::Start
 // Il2CppName: Start
 template<>
@@ -212,7 +202,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelFailedController*), "LevelFailedCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::StandardLevelFailedController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

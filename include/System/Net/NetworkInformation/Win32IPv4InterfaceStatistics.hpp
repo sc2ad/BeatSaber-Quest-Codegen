@@ -30,15 +30,7 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class Win32IPv4InterfaceStatistics : public ::System::Net::NetworkInformation::IPv4InterfaceStatistics {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Net.NetworkInformation.Win32_MIB_IFROW info
     // Size: 0x70
     // Offset: 0x10
@@ -51,9 +43,9 @@ namespace System::Net::NetworkInformation {
       return info;
     }
     // Get instance field reference: private System.Net.NetworkInformation.Win32_MIB_IFROW info
-    ::System::Net::NetworkInformation::Win32_MIB_IFROW& dyn_info();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::Win32_MIB_IFROW& dyn_info();
     // public System.Void .ctor(System.Net.NetworkInformation.Win32_MIB_IFROW info)
-    // Offset: 0x1B2D8F0
+    // Offset: 0x1B67ED8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32IPv4InterfaceStatistics* New_ctor(::System::Net::NetworkInformation::Win32_MIB_IFROW info) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::Win32IPv4InterfaceStatistics::.ctor");

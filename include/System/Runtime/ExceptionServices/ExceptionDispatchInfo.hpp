@@ -33,15 +33,7 @@ namespace System::Runtime::ExceptionServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class ExceptionDispatchInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Exception m_Exception
     // Size: 0x8
     // Offset: 0x10
@@ -56,27 +48,27 @@ namespace System::Runtime::ExceptionServices {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: private System.Exception m_Exception
-    ::System::Exception*& dyn_m_Exception();
+    [[deprecated("Use field access instead!")]] ::System::Exception*& dyn_m_Exception();
     // Get instance field reference: private System.Object m_stackTrace
-    ::Il2CppObject*& dyn_m_stackTrace();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_m_stackTrace();
     // System.Object get_BinaryStackTraceArray()
-    // Offset: 0x1D4A238
+    // Offset: 0x1D85790
     ::Il2CppObject* get_BinaryStackTraceArray();
     // public System.Exception get_SourceException()
-    // Offset: 0x1D4A240
+    // Offset: 0x1D85798
     ::System::Exception* get_SourceException();
     // private System.Void .ctor(System.Exception exception)
-    // Offset: 0x1D4A10C
+    // Offset: 0x1D85664
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExceptionDispatchInfo* New_ctor(::System::Exception* exception) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::ExceptionServices::ExceptionDispatchInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExceptionDispatchInfo*, creationType>(exception)));
     }
     // static public System.Runtime.ExceptionServices.ExceptionDispatchInfo Capture(System.Exception source)
-    // Offset: 0x1D482D0
+    // Offset: 0x1D83828
     static ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* Capture(::System::Exception* source);
     // public System.Void Throw()
-    // Offset: 0x1D48544
+    // Offset: 0x1D83A9C
     void Throw();
   }; // System.Runtime.ExceptionServices.ExceptionDispatchInfo
   #pragma pack(pop)

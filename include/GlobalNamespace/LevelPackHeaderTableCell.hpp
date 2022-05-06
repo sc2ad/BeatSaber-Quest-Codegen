@@ -43,15 +43,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LevelPackHeaderTableCell : public ::HMUI::TableCell {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _nameText
     // Size: 0x8
     // Offset: 0x58
@@ -64,7 +56,7 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Image* backgroundImage;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Image*) == 0x8);
-    // [SpaceAttribute] Offset: 0x12581BC
+    // [SpaceAttribute] Offset: 0x10DCDA0
     // private UnityEngine.Color _highlightBackgroundColor
     // Size: 0x10
     // Offset: 0x68
@@ -85,44 +77,35 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
     public:
     // Get instance field reference: private TMPro.TextMeshProUGUI _nameText
-    ::TMPro::TextMeshProUGUI*& dyn__nameText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__nameText();
     // Get instance field reference: private UnityEngine.UI.Image _backgroundImage
-    ::UnityEngine::UI::Image*& dyn__backgroundImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__backgroundImage();
     // Get instance field reference: private UnityEngine.Color _highlightBackgroundColor
-    ::UnityEngine::Color& dyn__highlightBackgroundColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__highlightBackgroundColor();
     // Get instance field reference: private UnityEngine.Color _selectedBackgroundColor
-    ::UnityEngine::Color& dyn__selectedBackgroundColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__selectedBackgroundColor();
     // Get instance field reference: private UnityEngine.Color _selectedAndHighlightedBackgroundColor
-    ::UnityEngine::Color& dyn__selectedAndHighlightedBackgroundColor();
-    // public System.Void SetData(System.String headerText)
-    // Offset: 0x14871CC
-    void SetData(::StringW headerText);
-    // private System.Void RefreshVisuals()
-    // Offset: 0x14871EC
-    void RefreshVisuals();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__selectedAndHighlightedBackgroundColor();
     // public System.Void .ctor()
-    // Offset: 0x1487298
-    // Implemented from: HMUI.TableCell
-    // Base method: System.Void TableCell::.ctor()
-    // Base method: System.Void SelectableCell::.ctor()
-    // Base method: System.Void Interactable::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14BDB18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelPackHeaderTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelPackHeaderTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelPackHeaderTableCell*, creationType>()));
     }
+    // public System.Void SetData(System.String headerText)
+    // Offset: 0x14BDA4C
+    void SetData(::StringW headerText);
+    // private System.Void RefreshVisuals()
+    // Offset: 0x14BDA6C
+    void RefreshVisuals();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x14871E8
+    // Offset: 0x14BDA68
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(::HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x1487294
+    // Offset: 0x14BDB14
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(::HMUI::SelectableCell::TransitionType transitionType);
@@ -132,6 +115,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelPackHeaderTableCell) == 0x98);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::LevelPackHeaderTableCell::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LevelPackHeaderTableCell::SetData
 // Il2CppName: SetData
 template<>
@@ -149,10 +136,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelPackHeaderTableCell*), "RefreshVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LevelPackHeaderTableCell::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LevelPackHeaderTableCell::SelectionDidChange
 // Il2CppName: SelectionDidChange
 template<>

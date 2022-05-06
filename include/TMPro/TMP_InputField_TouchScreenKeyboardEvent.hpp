@@ -27,11 +27,7 @@ namespace TMPro {
   class TMP_InputField::TouchScreenKeyboardEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::TouchScreenKeyboard::Status> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x144C0D8
-    // Implemented from: UnityEngine.Events.UnityEvent`1
-    // Base method: System.Void UnityEvent_1::.ctor()
-    // Base method: System.Void UnityEventBase::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x146CF58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_InputField::TouchScreenKeyboardEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_InputField::TouchScreenKeyboardEvent::.ctor");

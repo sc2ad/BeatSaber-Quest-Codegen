@@ -29,15 +29,7 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class Task::WhenAllPromise : public ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult>/*, public ::System::Threading::Tasks::ITaskCompletionAction*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Threading.Tasks.Task[] m_tasks
     // Size: 0x8
     // Offset: 0x58
@@ -56,21 +48,21 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<::System::Threading::Tasks::ITaskCompletionAction*>(this);
     }
     // Get instance field reference: private readonly System.Threading.Tasks.Task[] m_tasks
-    ::ArrayW<::System::Threading::Tasks::Task*>& dyn_m_tasks();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Threading::Tasks::Task*>& dyn_m_tasks();
     // Get instance field reference: private System.Int32 m_count
-    int& dyn_m_count();
+    [[deprecated("Use field access instead!")]] int& dyn_m_count();
     // System.Void .ctor(System.Threading.Tasks.Task[] tasks)
-    // Offset: 0x1CF2674
+    // Offset: 0x1D2DBCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Task::WhenAllPromise* New_ctor(::ArrayW<::System::Threading::Tasks::Task*> tasks) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::Task::WhenAllPromise::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Task::WhenAllPromise*, creationType>(tasks)));
     }
     // public System.Void Invoke(System.Threading.Tasks.Task completedTask)
-    // Offset: 0x1CF2804
+    // Offset: 0x1D2DD5C
     void Invoke(::System::Threading::Tasks::Task* completedTask);
     // override System.Boolean get_ShouldNotifyDebuggerOfWaitCompletion()
-    // Offset: 0x1CF2B08
+    // Offset: 0x1D2E060
     // Implemented from: System.Threading.Tasks.Task
     // Base method: System.Boolean Task::get_ShouldNotifyDebuggerOfWaitCompletion()
     bool get_ShouldNotifyDebuggerOfWaitCompletion();

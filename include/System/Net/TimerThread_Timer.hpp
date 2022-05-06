@@ -25,15 +25,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimerThread::Timer : public ::Il2CppObject/*, public ::System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Int32 m_StartTimeMilliseconds
     // Size: 0x4
     // Offset: 0x10
@@ -52,11 +44,11 @@ namespace System::Net {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get instance field reference: private readonly System.Int32 m_StartTimeMilliseconds
-    int& dyn_m_StartTimeMilliseconds();
+    [[deprecated("Use field access instead!")]] int& dyn_m_StartTimeMilliseconds();
     // Get instance field reference: private readonly System.Int32 m_DurationMilliseconds
-    int& dyn_m_DurationMilliseconds();
+    [[deprecated("Use field access instead!")]] int& dyn_m_DurationMilliseconds();
     // System.Void .ctor(System.Int32 durationMilliseconds)
-    // Offset: 0x1B14FEC
+    // Offset: 0x1B4F5D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimerThread::Timer* New_ctor(int durationMilliseconds) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::TimerThread::Timer::.ctor");
@@ -66,7 +58,7 @@ namespace System::Net {
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool Cancel();
     // public System.Void Dispose()
-    // Offset: 0x1B15024
+    // Offset: 0x1B4F60C
     void Dispose();
   }; // System.Net.TimerThread/System.Net.Timer
   #pragma pack(pop)

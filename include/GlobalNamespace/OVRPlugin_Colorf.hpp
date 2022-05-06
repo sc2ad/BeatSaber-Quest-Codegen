@@ -54,13 +54,13 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single r
-    float& dyn_r();
+    [[deprecated("Use field access instead!")]] float& dyn_r();
     // Get instance field reference: public System.Single g
-    float& dyn_g();
+    [[deprecated("Use field access instead!")]] float& dyn_g();
     // Get instance field reference: public System.Single b
-    float& dyn_b();
+    [[deprecated("Use field access instead!")]] float& dyn_b();
     // Get instance field reference: public System.Single a
-    float& dyn_a();
+    [[deprecated("Use field access instead!")]] float& dyn_a();
   }; // OVRPlugin/Colorf
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Colorf), 12 + sizeof(float)> __GlobalNamespace_OVRPlugin_ColorfSizeCheck;

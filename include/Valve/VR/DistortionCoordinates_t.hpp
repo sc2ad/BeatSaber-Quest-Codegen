@@ -68,17 +68,17 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single rfRed0
-    float& dyn_rfRed0();
+    [[deprecated("Use field access instead!")]] float& dyn_rfRed0();
     // Get instance field reference: public System.Single rfRed1
-    float& dyn_rfRed1();
+    [[deprecated("Use field access instead!")]] float& dyn_rfRed1();
     // Get instance field reference: public System.Single rfGreen0
-    float& dyn_rfGreen0();
+    [[deprecated("Use field access instead!")]] float& dyn_rfGreen0();
     // Get instance field reference: public System.Single rfGreen1
-    float& dyn_rfGreen1();
+    [[deprecated("Use field access instead!")]] float& dyn_rfGreen1();
     // Get instance field reference: public System.Single rfBlue0
-    float& dyn_rfBlue0();
+    [[deprecated("Use field access instead!")]] float& dyn_rfBlue0();
     // Get instance field reference: public System.Single rfBlue1
-    float& dyn_rfBlue1();
+    [[deprecated("Use field access instead!")]] float& dyn_rfBlue1();
   }; // Valve.VR.DistortionCoordinates_t
   #pragma pack(pop)
   static check_size<sizeof(DistortionCoordinates_t), 20 + sizeof(float)> __Valve_VR_DistortionCoordinates_tSizeCheck;

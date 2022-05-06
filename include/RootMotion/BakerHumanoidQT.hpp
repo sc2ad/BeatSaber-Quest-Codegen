@@ -46,15 +46,7 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class BakerHumanoidQT : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
@@ -165,78 +157,78 @@ namespace RootMotion {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private UnityEngine.Transform transform
-    ::UnityEngine::Transform*& dyn_transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: private System.String Qx
-    ::StringW& dyn_Qx();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Qx();
     // Get instance field reference: private System.String Qy
-    ::StringW& dyn_Qy();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Qy();
     // Get instance field reference: private System.String Qz
-    ::StringW& dyn_Qz();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Qz();
     // Get instance field reference: private System.String Qw
-    ::StringW& dyn_Qw();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Qw();
     // Get instance field reference: private System.String Tx
-    ::StringW& dyn_Tx();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Tx();
     // Get instance field reference: private System.String Ty
-    ::StringW& dyn_Ty();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Ty();
     // Get instance field reference: private System.String Tz
-    ::StringW& dyn_Tz();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Tz();
     // Get instance field reference: public UnityEngine.AnimationCurve rotX
-    ::UnityEngine::AnimationCurve*& dyn_rotX();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_rotX();
     // Get instance field reference: public UnityEngine.AnimationCurve rotY
-    ::UnityEngine::AnimationCurve*& dyn_rotY();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_rotY();
     // Get instance field reference: public UnityEngine.AnimationCurve rotZ
-    ::UnityEngine::AnimationCurve*& dyn_rotZ();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_rotZ();
     // Get instance field reference: public UnityEngine.AnimationCurve rotW
-    ::UnityEngine::AnimationCurve*& dyn_rotW();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_rotW();
     // Get instance field reference: public UnityEngine.AnimationCurve posX
-    ::UnityEngine::AnimationCurve*& dyn_posX();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_posX();
     // Get instance field reference: public UnityEngine.AnimationCurve posY
-    ::UnityEngine::AnimationCurve*& dyn_posY();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_posY();
     // Get instance field reference: public UnityEngine.AnimationCurve posZ
-    ::UnityEngine::AnimationCurve*& dyn_posZ();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_posZ();
     // Get instance field reference: private UnityEngine.AvatarIKGoal goal
-    ::UnityEngine::AvatarIKGoal& dyn_goal();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AvatarIKGoal& dyn_goal();
     // Get instance field reference: private UnityEngine.Quaternion lastQ
-    ::UnityEngine::Quaternion& dyn_lastQ();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_lastQ();
     // Get instance field reference: private System.Boolean lastQSet
-    bool& dyn_lastQSet();
+    [[deprecated("Use field access instead!")]] bool& dyn_lastQSet();
     // public System.Void .ctor(System.String name)
-    // Offset: 0x21F7A48
+    // Offset: 0x22452BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakerHumanoidQT* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::BakerHumanoidQT::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakerHumanoidQT*, creationType>(name)));
     }
     // public System.Void .ctor(UnityEngine.Transform transform, UnityEngine.AvatarIKGoal goal, System.String name)
-    // Offset: 0x21F7C94
+    // Offset: 0x2245508
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakerHumanoidQT* New_ctor(::UnityEngine::Transform* transform, ::UnityEngine::AvatarIKGoal goal, ::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::BakerHumanoidQT::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakerHumanoidQT*, creationType>(transform, goal, name)));
     }
     // public System.Void Reset()
-    // Offset: 0x21F7B68
+    // Offset: 0x22453DC
     void Reset();
     // public System.Void SetIKKeyframes(System.Single time, UnityEngine.Avatar avatar, System.Single humanScale, UnityEngine.Vector3 bodyPosition, UnityEngine.Quaternion bodyRotation)
-    // Offset: 0x21F7DCC
+    // Offset: 0x2245640
     void SetIKKeyframes(float time, ::UnityEngine::Avatar* avatar, float humanScale, ::UnityEngine::Vector3 bodyPosition, ::UnityEngine::Quaternion bodyRotation);
     // public System.Void SetKeyframes(System.Single time, UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0x21F8274
+    // Offset: 0x2245AE8
     void SetKeyframes(float time, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
     // public System.Void MoveLastKeyframes(System.Single time)
-    // Offset: 0x21F8370
+    // Offset: 0x2245BE4
     void MoveLastKeyframes(float time);
     // public System.Void SetLoopFrame(System.Single time)
-    // Offset: 0x21F846C
+    // Offset: 0x2245CE0
     void SetLoopFrame(float time);
     // private System.Void MoveLastKeyframe(System.Single time, UnityEngine.AnimationCurve curve)
-    // Offset: 0x21F83E4
+    // Offset: 0x2245C58
     void MoveLastKeyframe(float time, ::UnityEngine::AnimationCurve* curve);
     // public System.Void MultiplyLength(UnityEngine.AnimationCurve curve, System.Single mlp)
-    // Offset: 0x21F872C
+    // Offset: 0x2245FA0
     void MultiplyLength(::UnityEngine::AnimationCurve* curve, float mlp);
     // public System.Void SetCurves(ref UnityEngine.AnimationClip clip, System.Single maxError, System.Single lengthMlp)
-    // Offset: 0x21F87E0
+    // Offset: 0x2246054
     void SetCurves(ByRef<::UnityEngine::AnimationClip*> clip, float maxError, float lengthMlp);
   }; // RootMotion.BakerHumanoidQT
   #pragma pack(pop)

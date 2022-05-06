@@ -39,17 +39,12 @@ namespace GlobalNamespace {
   class LocalLeaderboardTableView : public ::GlobalNamespace::LeaderboardTableView {
     public:
     // public System.Void SetScores(System.Collections.Generic.List`1<LocalLeaderboardsModel/ScoreData> scores, System.Int32 specialScorePos, System.Int32 maxNumberOfCells)
-    // Offset: 0x1525CF8
+    // Offset: 0x155D600
     void SetScores(::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel::ScoreData*>* scores, int specialScorePos, int maxNumberOfCells);
     // public System.Void .ctor()
-    // Offset: 0x1525EC0
+    // Offset: 0x155D7C8
     // Implemented from: LeaderboardTableView
     // Base method: System.Void LeaderboardTableView::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalLeaderboardTableView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalLeaderboardTableView::.ctor");

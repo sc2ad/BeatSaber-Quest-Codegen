@@ -40,16 +40,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SignalOnUIButtonClick : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [SignalSenderAttribute] Offset: 0x1225800
+    // [SignalSenderAttribute] Offset: 0x10AA218
     // private Signal _buttonClickedSignal
     // Size: 0x8
     // Offset: 0x18
@@ -66,37 +58,35 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Signal _buttonClickedSignal
-    ::GlobalNamespace::Signal*& dyn__buttonClickedSignal();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Signal*& dyn__buttonClickedSignal();
     // Get instance field reference: private UnityEngine.UI.Button _button
-    ::UnityEngine::UI::Button*& dyn__button();
-    // private System.Void OnReset()
-    // Offset: 0x29D6948
-    void OnReset();
-    // protected System.Void Start()
-    // Offset: 0x29D69A0
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x29D6A38
-    void OnDestroy();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__button();
     // public System.Void .ctor()
-    // Offset: 0x29D6B14
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A29024
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalOnUIButtonClick* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SignalOnUIButtonClick::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalOnUIButtonClick*, creationType>()));
     }
+    // private System.Void OnReset()
+    // Offset: 0x2A28E58
+    void OnReset();
+    // protected System.Void Start()
+    // Offset: 0x2A28EB0
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x2A28F48
+    void OnDestroy();
   }; // SignalOnUIButtonClick
   #pragma pack(pop)
   static check_size<sizeof(SignalOnUIButtonClick), 32 + sizeof(::UnityEngine::UI::Button*)> __GlobalNamespace_SignalOnUIButtonClickSizeCheck;
   static_assert(sizeof(SignalOnUIButtonClick) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SignalOnUIButtonClick::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SignalOnUIButtonClick::OnReset
 // Il2CppName: OnReset
 template<>
@@ -121,7 +111,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SignalOnUIButtonClick*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SignalOnUIButtonClick::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

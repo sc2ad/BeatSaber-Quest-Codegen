@@ -40,28 +40,30 @@ namespace Org::BouncyCastle::Crypto::Paddings {
     operator ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*>(this);
     }
-    // public System.Void Init(Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x15BD564
-    void Init(::Org::BouncyCastle::Security::SecureRandom* random);
-    // public System.Int32 AddPadding(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x15BD568
-    int AddPadding(::ArrayW<uint8_t> input, int inOff);
-    // public System.Int32 PadCount(System.Byte[] input)
-    // Offset: 0x15BD5C4
-    int PadCount(::ArrayW<uint8_t> input);
     // public System.Void .ctor()
-    // Offset: 0x15BD624
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15F2F34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZeroBytePadding* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Paddings::ZeroBytePadding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZeroBytePadding*, creationType>()));
     }
+    // public System.Void Init(Org.BouncyCastle.Security.SecureRandom random)
+    // Offset: 0x15F2E74
+    void Init(::Org::BouncyCastle::Security::SecureRandom* random);
+    // public System.Int32 AddPadding(System.Byte[] input, System.Int32 inOff)
+    // Offset: 0x15F2E78
+    int AddPadding(::ArrayW<uint8_t> input, int inOff);
+    // public System.Int32 PadCount(System.Byte[] input)
+    // Offset: 0x15F2ED4
+    int PadCount(::ArrayW<uint8_t> input);
   }; // Org.BouncyCastle.Crypto.Paddings.ZeroBytePadding
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::ZeroBytePadding::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::ZeroBytePadding::Init
 // Il2CppName: Init
 template<>
@@ -90,7 +92,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Paddings::ZeroBytePadding*), "PadCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::ZeroBytePadding::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

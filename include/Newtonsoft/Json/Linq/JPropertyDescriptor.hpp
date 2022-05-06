@@ -33,7 +33,7 @@ namespace Newtonsoft::Json::Linq {
   class JPropertyDescriptor : public ::System::ComponentModel::PropertyDescriptor {
     public:
     // public override System.Type get_PropertyType()
-    // Offset: 0x17170FC
+    // Offset: 0x174FA0C
     // Implemented from: System.ComponentModel.PropertyDescriptor
     // Base method: System.Type PropertyDescriptor::get_PropertyType()
     ::System::Type* get_PropertyType();

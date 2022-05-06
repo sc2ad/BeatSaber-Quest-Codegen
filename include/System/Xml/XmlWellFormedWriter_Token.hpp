@@ -129,7 +129,7 @@ namespace System::Xml {
     // Set static field: static public System.Xml.XmlWellFormedWriter/System.Xml.Token Whitespace
     static void _set_Whitespace(::System::Xml::XmlWellFormedWriter::Token value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Xml.XmlWellFormedWriter/System.Xml.Token
   #pragma pack(pop)
   static check_size<sizeof(XmlWellFormedWriter::Token), 0 + sizeof(int)> __System_Xml_XmlWellFormedWriter_TokenSizeCheck;

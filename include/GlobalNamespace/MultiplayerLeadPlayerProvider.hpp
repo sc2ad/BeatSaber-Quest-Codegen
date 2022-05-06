@@ -41,15 +41,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLeadPlayerProvider : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _timeToGainFirstLead
     // Size: 0x4
     // Offset: 0x18
@@ -62,14 +54,14 @@ namespace GlobalNamespace {
     float timeToLooseLead;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x1254BE8
+    // [InjectAttribute] Offset: 0x10D97CC
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x1254BF8
+    // [InjectAttribute] Offset: 0x10D97DC
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x28
@@ -106,61 +98,55 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _timeToGainFirstLead
-    float& dyn__timeToGainFirstLead();
+    [[deprecated("Use field access instead!")]] float& dyn__timeToGainFirstLead();
     // Get instance field reference: private System.Single _timeToLooseLead
-    float& dyn__timeToLooseLead();
+    [[deprecated("Use field access instead!")]] float& dyn__timeToLooseLead();
     // Get instance field reference: private readonly MultiplayerScoreProvider _scoreProvider
-    ::GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreProvider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreProvider();
     // Get instance field reference: private readonly MultiplayerController _multiplayerController
-    ::GlobalNamespace::MultiplayerController*& dyn__multiplayerController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerController*& dyn__multiplayerController();
     // Get instance field reference: private System.Action`1<System.String> newLeaderWasSelectedEvent
-    ::System::Action_1<::StringW>*& dyn_newLeaderWasSelectedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::StringW>*& dyn_newLeaderWasSelectedEvent();
     // Get instance field reference: private System.Single _currentLeadingPlayerStartTime
-    float& dyn__currentLeadingPlayerStartTime();
+    [[deprecated("Use field access instead!")]] float& dyn__currentLeadingPlayerStartTime();
     // Get instance field reference: private MultiplayerScoreProvider/RankedPlayer _currentlyDisplayedUser
-    ::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*& dyn__currentlyDisplayedUser();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*& dyn__currentlyDisplayedUser();
     // Get instance field reference: private MultiplayerScoreProvider/RankedPlayer _currentlyLeadingUser
-    ::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*& dyn__currentlyLeadingUser();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*& dyn__currentlyLeadingUser();
     // public System.Void add_newLeaderWasSelectedEvent(System.Action`1<System.String> value)
-    // Offset: 0x13F2414
+    // Offset: 0x13FEEB4
     void add_newLeaderWasSelectedEvent(::System::Action_1<::StringW>* value);
     // public System.Void remove_newLeaderWasSelectedEvent(System.Action`1<System.String> value)
-    // Offset: 0x13F2370
+    // Offset: 0x13FEE10
     void remove_newLeaderWasSelectedEvent(::System::Action_1<::StringW>* value);
-    // protected System.Void Start()
-    // Offset: 0x13F5574
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13F5640
-    void OnDestroy();
-    // protected System.Void Update()
-    // Offset: 0x13F5794
-    void Update();
-    // private System.Void StopProviding()
-    // Offset: 0x13F5854
-    void StopProviding();
-    // private System.Void StartProviding()
-    // Offset: 0x13F58F8
-    void StartProviding();
-    // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x13F5630
-    void HandleStateChanged(::GlobalNamespace::MultiplayerController::State state);
-    // private System.Void HandleFirstPlayerDidChange(MultiplayerScoreProvider/RankedPlayer firstPlayer)
-    // Offset: 0x13F59A0
-    void HandleFirstPlayerDidChange(::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* firstPlayer);
     // public System.Void .ctor()
-    // Offset: 0x13F5ACC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x140256C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLeadPlayerProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLeadPlayerProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLeadPlayerProvider*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x1402014
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x14020E0
+    void OnDestroy();
+    // protected System.Void Update()
+    // Offset: 0x1402234
+    void Update();
+    // private System.Void StopProviding()
+    // Offset: 0x14022F4
+    void StopProviding();
+    // private System.Void StartProviding()
+    // Offset: 0x1402398
+    void StartProviding();
+    // private System.Void HandleStateChanged(MultiplayerController/State state)
+    // Offset: 0x14020D0
+    void HandleStateChanged(::GlobalNamespace::MultiplayerController::State state);
+    // private System.Void HandleFirstPlayerDidChange(MultiplayerScoreProvider/RankedPlayer firstPlayer)
+    // Offset: 0x1402440
+    void HandleFirstPlayerDidChange(::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* firstPlayer);
   }; // MultiplayerLeadPlayerProvider
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLeadPlayerProvider), 72 + sizeof(::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*)> __GlobalNamespace_MultiplayerLeadPlayerProviderSizeCheck;
@@ -185,6 +171,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLeadPlayerProvider*), "remove_newLeaderWasSelectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLeadPlayerProvider::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLeadPlayerProvider::Start
 // Il2CppName: Start
 template<>
@@ -243,7 +233,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLeadPlayerProvider*), "HandleFirstPlayerDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{firstPlayer});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLeadPlayerProvider::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

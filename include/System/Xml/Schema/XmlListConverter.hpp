@@ -63,15 +63,7 @@ namespace System::Xml::Schema {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlListConverter : public ::System::Xml::Schema::XmlBaseConverter {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected System.Xml.Schema.XmlValueConverter atomicConverter
     // Size: 0x8
     // Offset: 0x28
@@ -84,12 +76,12 @@ namespace System::Xml::Schema {
       return atomicConverter;
     }
     // Get instance field reference: protected System.Xml.Schema.XmlValueConverter atomicConverter
-    ::System::Xml::Schema::XmlValueConverter*& dyn_atomicConverter();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlValueConverter*& dyn_atomicConverter();
     // static public System.Xml.Schema.XmlValueConverter Create(System.Xml.Schema.XmlValueConverter atomicConverter)
-    // Offset: 0x2006518
+    // Offset: 0x204FD8C
     static ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlValueConverter* atomicConverter);
     // private System.Boolean IsListType(System.Type type)
-    // Offset: 0x2007540
+    // Offset: 0x2050DB4
     bool IsListType(::System::Type* type);
     // private T[] ToArray(System.Object list, System.Xml.IXmlNamespaceResolver nsResolver)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -101,16 +93,16 @@ namespace System::Xml::Schema {
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(this, ___generic__method, list, nsResolver);
     }
     // private System.Collections.IList ToList(System.Object list, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0x2007CFC
+    // Offset: 0x2051570
     ::System::Collections::IList* ToList(::Il2CppObject* list, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // private System.Collections.Generic.List`1<System.String> StringAsList(System.String value)
-    // Offset: 0x2007C5C
+    // Offset: 0x20514D0
     ::System::Collections::Generic::List_1<::StringW>* StringAsList(::StringW value);
     // private System.String ListAsString(System.Collections.IEnumerable list, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0x200795C
+    // Offset: 0x20511D0
     ::StringW ListAsString(::System::Collections::IEnumerable* list, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // protected System.Void .ctor(System.Xml.Schema.XmlBaseConverter atomicConverter)
-    // Offset: 0x2006398
+    // Offset: 0x204FC0C
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Void XmlBaseConverter::.ctor(System.Xml.Schema.XmlBaseConverter atomicConverter)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -119,7 +111,7 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<XmlListConverter*, creationType>(atomicConverter)));
     }
     // protected System.Void .ctor(System.Xml.Schema.XmlBaseConverter atomicConverter, System.Type clrTypeDefault)
-    // Offset: 0x2006418
+    // Offset: 0x204FC8C
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Void XmlBaseConverter::.ctor(System.Xml.Schema.XmlBaseConverter atomicConverter, System.Type clrTypeDefault)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -128,7 +120,7 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<XmlListConverter*, creationType>(atomicConverter, clrTypeDefault)));
     }
     // protected System.Void .ctor(System.Xml.Schema.XmlSchemaType schemaType)
-    // Offset: 0x20064A0
+    // Offset: 0x204FD14
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Void XmlBaseConverter::.ctor(System.Xml.Schema.XmlSchemaType schemaType)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -137,17 +129,17 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<XmlListConverter*, creationType>(schemaType)));
     }
     // public override System.Object ChangeType(System.Object value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0x20066CC
+    // Offset: 0x204FF40
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Object XmlValueConverter::ChangeType(System.Object value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
     ::Il2CppObject* ChangeType(::Il2CppObject* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // protected override System.Object ChangeListType(System.Object value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0x20067D4
+    // Offset: 0x2050048
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Object XmlBaseConverter::ChangeListType(System.Object value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
     ::Il2CppObject* ChangeListType(::Il2CppObject* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // private System.Exception CreateInvalidClrMappingException(System.Type sourceType, System.Type destinationType)
-    // Offset: 0x200770C
+    // Offset: 0x2050F80
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Exception XmlBaseConverter::CreateInvalidClrMappingException(System.Type sourceType, System.Type destinationType)
     ::System::Exception* CreateInvalidClrMappingException(::System::Type* sourceType, ::System::Type* destinationType);

@@ -42,30 +42,29 @@ namespace System::Xml::Schema {
   class Datatype_untypedAtomicType : public ::System::Xml::Schema::Datatype_anyAtomicType {
     public:
     // override System.Xml.Schema.XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet()
-    // Offset: 0x1C21C18
+    // Offset: 0x1C5C200
     // Implemented from: System.Xml.Schema.Datatype_anyAtomicType
     // Base method: System.Xml.Schema.XmlSchemaWhiteSpace Datatype_anyAtomicType::get_BuiltInWhitespaceFacet()
     ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1C21C20
+    // Offset: 0x1C5C208
     // Implemented from: System.Xml.Schema.Datatype_anyAtomicType
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_anyAtomicType::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // public System.Void .ctor()
-    // Offset: 0x1C21C28
+    // Offset: 0x1C5C210
     // Implemented from: System.Xml.Schema.Datatype_anyAtomicType
     // Base method: System.Void Datatype_anyAtomicType::.ctor()
     // Base method: System.Void Datatype_anySimpleType::.ctor()
     // Base method: System.Void DatatypeImplementation::.ctor()
     // Base method: System.Void XmlSchemaDatatype::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Datatype_untypedAtomicType* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::Datatype_untypedAtomicType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Datatype_untypedAtomicType*, creationType>()));
     }
     // override System.Xml.Schema.XmlValueConverter CreateValueConverter(System.Xml.Schema.XmlSchemaType schemaType)
-    // Offset: 0x1C21BB0
+    // Offset: 0x1C5C198
     // Implemented from: System.Xml.Schema.Datatype_anyAtomicType
     // Base method: System.Xml.Schema.XmlValueConverter Datatype_anyAtomicType::CreateValueConverter(System.Xml.Schema.XmlSchemaType schemaType)
     ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);

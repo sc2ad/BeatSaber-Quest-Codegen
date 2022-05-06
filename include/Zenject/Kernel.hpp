@@ -53,30 +53,22 @@ namespace Zenject {
   // [DebuggerStepThroughAttribute] Offset: FFFFFFFF
   class Kernel : public ::Il2CppObject/*, public ::System::IDisposable, public ::Zenject::ITickable, public ::Zenject::ILateDisposable, public ::Zenject::IInitializable, public ::Zenject::ILateTickable, public ::Zenject::IFixedTickable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectLocalAttribute] Offset: 0x121FF60
+    // [InjectLocalAttribute] Offset: 0x10A4978
     // private Zenject.TickableManager _tickableManager
     // Size: 0x8
     // Offset: 0x10
     ::Zenject::TickableManager* tickableManager;
     // Field size check
     static_assert(sizeof(::Zenject::TickableManager*) == 0x8);
-    // [InjectLocalAttribute] Offset: 0x121FF70
+    // [InjectLocalAttribute] Offset: 0x10A4988
     // private Zenject.InitializableManager _initializableManager
     // Size: 0x8
     // Offset: 0x18
     ::Zenject::InitializableManager* initializableManager;
     // Field size check
     static_assert(sizeof(::Zenject::InitializableManager*) == 0x8);
-    // [InjectLocalAttribute] Offset: 0x121FF80
+    // [InjectLocalAttribute] Offset: 0x10A4998
     // private Zenject.DisposableManager _disposablesManager
     // Size: 0x8
     // Offset: 0x20
@@ -109,59 +101,61 @@ namespace Zenject {
       return *reinterpret_cast<::Zenject::IFixedTickable*>(this);
     }
     // Get instance field reference: private Zenject.TickableManager _tickableManager
-    ::Zenject::TickableManager*& dyn__tickableManager();
+    [[deprecated("Use field access instead!")]] ::Zenject::TickableManager*& dyn__tickableManager();
     // Get instance field reference: private Zenject.InitializableManager _initializableManager
-    ::Zenject::InitializableManager*& dyn__initializableManager();
+    [[deprecated("Use field access instead!")]] ::Zenject::InitializableManager*& dyn__initializableManager();
     // Get instance field reference: private Zenject.DisposableManager _disposablesManager
-    ::Zenject::DisposableManager*& dyn__disposablesManager();
-    // public System.Void Initialize()
-    // Offset: 0x1BD8F04
-    void Initialize();
-    // public System.Void Dispose()
-    // Offset: 0x1BD8F20
-    void Dispose();
-    // public System.Void LateDispose()
-    // Offset: 0x1BD8F3C
-    void LateDispose();
-    // public System.Void Tick()
-    // Offset: 0x1BD8F58
-    void Tick();
-    // public System.Void LateTick()
-    // Offset: 0x1BD8F74
-    void LateTick();
-    // public System.Void FixedTick()
-    // Offset: 0x1BD8F90
-    void FixedTick();
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1BD8FB4
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private System.Void __zenFieldSetter0(System.Object P_0, System.Object P_1)
-    // Offset: 0x1BD9010
-    static void __zenFieldSetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1);
-    // static private System.Void __zenFieldSetter1(System.Object P_0, System.Object P_1)
-    // Offset: 0x1BD90E4
-    static void __zenFieldSetter1(::Il2CppObject* P_0, ::Il2CppObject* P_1);
-    // static private System.Void __zenFieldSetter2(System.Object P_0, System.Object P_1)
-    // Offset: 0x1BD91B8
-    static void __zenFieldSetter2(::Il2CppObject* P_0, ::Il2CppObject* P_1);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1BD928C
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    [[deprecated("Use field access instead!")]] ::Zenject::DisposableManager*& dyn__disposablesManager();
     // public System.Void .ctor()
-    // Offset: 0x1BD8FAC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C13594
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Kernel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Kernel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Kernel*, creationType>()));
     }
+    // public System.Void Initialize()
+    // Offset: 0x1C134EC
+    void Initialize();
+    // public System.Void Dispose()
+    // Offset: 0x1C13508
+    void Dispose();
+    // public System.Void LateDispose()
+    // Offset: 0x1C13524
+    void LateDispose();
+    // public System.Void Tick()
+    // Offset: 0x1C13540
+    void Tick();
+    // public System.Void LateTick()
+    // Offset: 0x1C1355C
+    void LateTick();
+    // public System.Void FixedTick()
+    // Offset: 0x1C13578
+    void FixedTick();
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1C1359C
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private System.Void __zenFieldSetter0(System.Object P_0, System.Object P_1)
+    // Offset: 0x1C135F8
+    static void __zenFieldSetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1);
+    // static private System.Void __zenFieldSetter1(System.Object P_0, System.Object P_1)
+    // Offset: 0x1C136CC
+    static void __zenFieldSetter1(::Il2CppObject* P_0, ::Il2CppObject* P_1);
+    // static private System.Void __zenFieldSetter2(System.Object P_0, System.Object P_1)
+    // Offset: 0x1C137A0
+    static void __zenFieldSetter2(::Il2CppObject* P_0, ::Il2CppObject* P_1);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1C13874
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.Kernel
   #pragma pack(pop)
   static check_size<sizeof(Kernel), 32 + sizeof(::Zenject::DisposableManager*)> __Zenject_KernelSizeCheck;
   static_assert(sizeof(Kernel) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::Kernel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::Kernel::Initialize
 // Il2CppName: Initialize
 template<>
@@ -257,7 +251,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::Kernel*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::Kernel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -93,20 +93,12 @@ namespace HoudiniEngineUnity {
       // Set static field: static public HoudiniEngineUnity.HEU_ParameterModifier/HoudiniEngineUnity.ModifierAction SET_INT
       static void _set_SET_INT(::HoudiniEngineUnity::HEU_ParameterModifier::ModifierAction value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // HoudiniEngineUnity.HEU_ParameterModifier/HoudiniEngineUnity.ModifierAction
     #pragma pack(pop)
     static check_size<sizeof(HEU_ParameterModifier::ModifierAction), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_ParameterModifier_ModifierActionSizeCheck;
     static_assert(sizeof(HEU_ParameterModifier::ModifierAction) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 _parameterIndex
     // Size: 0x4
     // Offset: 0x10
@@ -149,32 +141,30 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterModifier*>*>(this);
     }
     // Get instance field reference: public System.Int32 _parameterIndex
-    int& dyn__parameterIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__parameterIndex();
     // Get instance field reference: public HoudiniEngineUnity.HEU_ParameterModifier/HoudiniEngineUnity.ModifierAction _action
-    ::HoudiniEngineUnity::HEU_ParameterModifier::ModifierAction& dyn__action();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_ParameterModifier::ModifierAction& dyn__action();
     // Get instance field reference: public System.Int32 _instanceIndex
-    int& dyn__instanceIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__instanceIndex();
     // Get instance field reference: public System.Int32 _modifierValue
-    int& dyn__modifierValue();
+    [[deprecated("Use field access instead!")]] int& dyn__modifierValue();
     // Get instance field reference: public System.Single _floatValue
-    float& dyn__floatValue();
+    [[deprecated("Use field access instead!")]] float& dyn__floatValue();
     // Get instance field reference: public System.Int32 _intValue
-    int& dyn__intValue();
-    // static public HoudiniEngineUnity.HEU_ParameterModifier GetNewModifier(HoudiniEngineUnity.HEU_ParameterModifier/HoudiniEngineUnity.ModifierAction action, System.Int32 parameterIndex, System.Int32 instanceIndex, System.Int32 modifierValue)
-    // Offset: 0x1AB2B78
-    static ::HoudiniEngineUnity::HEU_ParameterModifier* GetNewModifier(::HoudiniEngineUnity::HEU_ParameterModifier::ModifierAction action, int parameterIndex, int instanceIndex, int modifierValue);
-    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_ParameterModifier other)
-    // Offset: 0x1AB2C0C
-    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ParameterModifier* other);
+    [[deprecated("Use field access instead!")]] int& dyn__intValue();
     // public System.Void .ctor()
-    // Offset: 0x1AB2C04
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1AED1EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ParameterModifier* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_ParameterModifier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ParameterModifier*, creationType>()));
     }
+    // static public HoudiniEngineUnity.HEU_ParameterModifier GetNewModifier(HoudiniEngineUnity.HEU_ParameterModifier/HoudiniEngineUnity.ModifierAction action, System.Int32 parameterIndex, System.Int32 instanceIndex, System.Int32 modifierValue)
+    // Offset: 0x1AED160
+    static ::HoudiniEngineUnity::HEU_ParameterModifier* GetNewModifier(::HoudiniEngineUnity::HEU_ParameterModifier::ModifierAction action, int parameterIndex, int instanceIndex, int modifierValue);
+    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_ParameterModifier other)
+    // Offset: 0x1AED1F4
+    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ParameterModifier* other);
   }; // HoudiniEngineUnity.HEU_ParameterModifier
   #pragma pack(pop)
   static check_size<sizeof(HEU_ParameterModifier), 36 + sizeof(int)> __HoudiniEngineUnity_HEU_ParameterModifierSizeCheck;
@@ -183,6 +173,10 @@ namespace HoudiniEngineUnity {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_ParameterModifier::ModifierAction, "HoudiniEngineUnity", "HEU_ParameterModifier/ModifierAction");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterModifier::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterModifier::GetNewModifier
 // Il2CppName: GetNewModifier
 template<>
@@ -204,7 +198,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_ParameterModifier*), "IsEquivalentTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterModifier::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

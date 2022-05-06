@@ -28,15 +28,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AutomaticSFXVolumeParamsSO : public ::UnityEngine::ScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _musicVolumeMultiplier
     // Size: 0x4
     // Offset: 0x18
@@ -89,51 +81,47 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _musicVolumeMultiplier
-    float& dyn__musicVolumeMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__musicVolumeMultiplier();
     // Get instance field reference: private System.Single _threshold
-    float& dyn__threshold();
+    [[deprecated("Use field access instead!")]] float& dyn__threshold();
     // Get instance field reference: private System.Single _impact
-    float& dyn__impact();
+    [[deprecated("Use field access instead!")]] float& dyn__impact();
     // Get instance field reference: private System.Single _attackTime
-    float& dyn__attackTime();
+    [[deprecated("Use field access instead!")]] float& dyn__attackTime();
     // Get instance field reference: private System.Single _releaseTime
-    float& dyn__releaseTime();
+    [[deprecated("Use field access instead!")]] float& dyn__releaseTime();
     // Get instance field reference: private System.Single _minVolume
-    float& dyn__minVolume();
+    [[deprecated("Use field access instead!")]] float& dyn__minVolume();
     // Get instance field reference: private System.Single _maxVolume
-    float& dyn__maxVolume();
+    [[deprecated("Use field access instead!")]] float& dyn__maxVolume();
     // Get instance field reference: private System.Single _volumeSmooth
-    float& dyn__volumeSmooth();
+    [[deprecated("Use field access instead!")]] float& dyn__volumeSmooth();
     // public System.Single get_musicVolumeMultiplier()
-    // Offset: 0x14BB5F4
+    // Offset: 0x14F2EAC
     float get_musicVolumeMultiplier();
     // public System.Single get_threshold()
-    // Offset: 0x14BB5FC
+    // Offset: 0x14F2EB4
     float get_threshold();
     // public System.Single get_impact()
-    // Offset: 0x14BB604
+    // Offset: 0x14F2EBC
     float get_impact();
     // public System.Single get_attackTime()
-    // Offset: 0x14BB60C
+    // Offset: 0x14F2EC4
     float get_attackTime();
     // public System.Single get_releaseTime()
-    // Offset: 0x14BB614
+    // Offset: 0x14F2ECC
     float get_releaseTime();
     // public System.Single get_minVolume()
-    // Offset: 0x14BB61C
+    // Offset: 0x14F2ED4
     float get_minVolume();
     // public System.Single get_maxVolume()
-    // Offset: 0x14BB624
+    // Offset: 0x14F2EDC
     float get_maxVolume();
     // public System.Single get_volumeSmooth()
-    // Offset: 0x14BB62C
+    // Offset: 0x14F2EE4
     float get_volumeSmooth();
     // public System.Void .ctor()
-    // Offset: 0x14BB634
-    // Implemented from: UnityEngine.ScriptableObject
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14F2EEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AutomaticSFXVolumeParamsSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AutomaticSFXVolumeParamsSO::.ctor");

@@ -41,15 +41,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OnlineServicesViewController : public ::HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Button _enableButton
     // Size: 0x8
     // Offset: 0x70
@@ -70,39 +62,32 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action_1<bool>*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.UI.Button _enableButton
-    ::UnityEngine::UI::Button*& dyn__enableButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__enableButton();
     // Get instance field reference: private UnityEngine.UI.Button _dontEnableButton
-    ::UnityEngine::UI::Button*& dyn__dontEnableButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__dontEnableButton();
     // Get instance field reference: private System.Action`1<System.Boolean> didFinishEvent
-    ::System::Action_1<bool>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<bool>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x12E8BDC
+    // Offset: 0x1359B7C
     void add_didFinishEvent(::System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x12E8C80
+    // Offset: 0x1359C20
     void remove_didFinishEvent(::System::Action_1<bool>* value);
-    // private System.Void <DidActivate>b__5_0()
-    // Offset: 0x12E8E28
-    void $DidActivate$b__5_0();
-    // private System.Void <DidActivate>b__5_1()
-    // Offset: 0x12E8E8C
-    void $DidActivate$b__5_1();
     // public System.Void .ctor()
-    // Offset: 0x12E8E20
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1359DC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OnlineServicesViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OnlineServicesViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OnlineServicesViewController*, creationType>()));
     }
+    // private System.Void <DidActivate>b__5_0()
+    // Offset: 0x1359DC8
+    void $DidActivate$b__5_0();
+    // private System.Void <DidActivate>b__5_1()
+    // Offset: 0x1359E2C
+    void $DidActivate$b__5_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x12E8D24
+    // Offset: 0x1359CC4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -130,6 +115,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OnlineServicesViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::OnlineServicesViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OnlineServicesViewController::$DidActivate$b__5_0
 // Il2CppName: <DidActivate>b__5_0
 template<>
@@ -146,10 +135,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OnlineServicesViewController*), "<DidActivate>b__5_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OnlineServicesViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OnlineServicesViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

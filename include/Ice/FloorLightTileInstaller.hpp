@@ -35,15 +35,7 @@ namespace Ice {
   // [TokenAttribute] Offset: FFFFFFFF
   class FloorLightTileInstaller : public ::Zenject::ScriptableObjectInstaller {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Ice.FloorLightTile _floorLightTilePrefab
     // Size: 0x8
     // Offset: 0x20
@@ -52,22 +44,16 @@ namespace Ice {
     static_assert(sizeof(::Ice::FloorLightTile*) == 0x8);
     public:
     // Get instance field reference: private Ice.FloorLightTile _floorLightTilePrefab
-    ::Ice::FloorLightTile*& dyn__floorLightTilePrefab();
+    [[deprecated("Use field access instead!")]] ::Ice::FloorLightTile*& dyn__floorLightTilePrefab();
     // public System.Void .ctor()
-    // Offset: 0x2A702A4
-    // Implemented from: Zenject.ScriptableObjectInstaller
-    // Base method: System.Void ScriptableObjectInstaller::.ctor()
-    // Base method: System.Void ScriptableObjectInstallerBase::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2AC860C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FloorLightTileInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Ice::FloorLightTileInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FloorLightTileInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x2A70224
+    // Offset: 0x2AC858C
     // Implemented from: Zenject.ScriptableObjectInstallerBase
     // Base method: System.Void ScriptableObjectInstallerBase::InstallBindings()
     void InstallBindings();

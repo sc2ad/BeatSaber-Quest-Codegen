@@ -46,11 +46,11 @@ namespace GlobalNamespace {
     // Set static field: static public readonly OVRPlugin/Sizei zero
     static void _set_zero(::GlobalNamespace::OVRPlugin::Sizei value);
     // Get instance field reference: public System.Int32 w
-    int& dyn_w();
+    [[deprecated("Use field access instead!")]] int& dyn_w();
     // Get instance field reference: public System.Int32 h
-    int& dyn_h();
+    [[deprecated("Use field access instead!")]] int& dyn_h();
     // static private System.Void .cctor()
-    // Offset: 0x1AE3810
+    // Offset: 0x1B1DDF8
     static void _cctor();
   }; // OVRPlugin/Sizei
   #pragma pack(pop)

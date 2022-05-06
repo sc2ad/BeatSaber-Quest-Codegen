@@ -45,25 +45,27 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // [TokenAttribute] Offset: FFFFFFFF
   class WorkItemFactory : public ::Il2CppObject {
     public:
-    // public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem Create(NUnit.Framework.Interfaces.ITest loadedTest, NUnit.Framework.Interfaces.ITestFilter filter)
-    // Offset: 0x193B250
-    ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* Create(::NUnit::Framework::Interfaces::ITest* loadedTest, ::NUnit::Framework::Interfaces::ITestFilter* filter);
-    // protected UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem Create(NUnit.Framework.Internal.TestMethod method, NUnit.Framework.Interfaces.ITestFilter filter, NUnit.Framework.Interfaces.ITest loadedTest)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* Create(::NUnit::Framework::Internal::TestMethod* method, ::NUnit::Framework::Interfaces::ITestFilter* filter, ::NUnit::Framework::Interfaces::ITest* loadedTest);
     // protected System.Void .ctor()
-    // Offset: 0x193FD58
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x19779C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WorkItemFactory* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WorkItemFactory*, creationType>()));
     }
+    // public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem Create(NUnit.Framework.Interfaces.ITest loadedTest, NUnit.Framework.Interfaces.ITestFilter filter)
+    // Offset: 0x1972EB8
+    ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* Create(::NUnit::Framework::Interfaces::ITest* loadedTest, ::NUnit::Framework::Interfaces::ITestFilter* filter);
+    // protected UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem Create(NUnit.Framework.Internal.TestMethod method, NUnit.Framework.Interfaces.ITestFilter filter, NUnit.Framework.Interfaces.ITest loadedTest)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* Create(::NUnit::Framework::Internal::TestMethod* method, ::NUnit::Framework::Interfaces::ITestFilter* filter, ::NUnit::Framework::Interfaces::ITest* loadedTest);
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory::Create
 // Il2CppName: Create
 template<>
@@ -85,7 +87,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method, filter, loadedTest});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

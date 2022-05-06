@@ -28,15 +28,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HMAutoincrementedRequestId : public ::Il2CppObject/*, public ::System::IEquatable_1<::GlobalNamespace::HMAutoincrementedRequestId*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.UInt64 _requestId
     // Size: 0x8
     // Offset: 0x10
@@ -57,32 +49,30 @@ namespace GlobalNamespace {
     // Set static field: static private System.UInt64 _nextRequestId
     static void _set__nextRequestId(uint64_t value);
     // Get instance field reference: private readonly System.UInt64 _requestId
-    uint64_t& dyn__requestId();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn__requestId();
     // public System.UInt64 get_RequestId()
-    // Offset: 0x15726E8
+    // Offset: 0x15A8FF8
     uint64_t get_RequestId();
-    // static private System.Void .cctor()
-    // Offset: 0x1572800
-    static void _cctor();
-    // public System.Boolean Equals(HMAutoincrementedRequestId obj)
-    // Offset: 0x15726F0
-    bool Equals(::GlobalNamespace::HMAutoincrementedRequestId* obj);
     // public System.Void .ctor()
-    // Offset: 0x157261C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15A8F2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMAutoincrementedRequestId* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HMAutoincrementedRequestId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMAutoincrementedRequestId*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x15A9110
+    static void _cctor();
+    // public System.Boolean Equals(HMAutoincrementedRequestId obj)
+    // Offset: 0x15A9000
+    bool Equals(::GlobalNamespace::HMAutoincrementedRequestId* obj);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1572710
+    // Offset: 0x15A9020
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x15727D8
+    // Offset: 0x15A90E8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -100,6 +90,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (G
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAutoincrementedRequestId*), "get_RequestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::HMAutoincrementedRequestId::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::HMAutoincrementedRequestId::_cctor
 // Il2CppName: .cctor
 template<>
@@ -117,10 +111,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAutoincrementedRequestId*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::HMAutoincrementedRequestId::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::HMAutoincrementedRequestId::Equals
 // Il2CppName: Equals
 template<>

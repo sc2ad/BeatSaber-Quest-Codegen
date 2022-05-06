@@ -43,22 +43,14 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect
     class RingRotationEffect;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TrackLaneRingsManager _trackLaneRingsManager
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::TrackLaneRingsManager* trackLaneRingsManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::TrackLaneRingsManager*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1252130
+    // [HeaderAttribute] Offset: 0x10D6CBC
     // private System.Single _startupRotationAngle
     // Size: 0x4
     // Offset: 0x20
@@ -105,64 +97,62 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TrackLaneRingsManager _trackLaneRingsManager
-    ::GlobalNamespace::TrackLaneRingsManager*& dyn__trackLaneRingsManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TrackLaneRingsManager*& dyn__trackLaneRingsManager();
     // Get instance field reference: private System.Single _startupRotationAngle
-    float& dyn__startupRotationAngle();
+    [[deprecated("Use field access instead!")]] float& dyn__startupRotationAngle();
     // Get instance field reference: private System.Single _startupRotationStep
-    float& dyn__startupRotationStep();
+    [[deprecated("Use field access instead!")]] float& dyn__startupRotationStep();
     // Get instance field reference: private System.Int32 _startupRotationPropagationSpeed
-    int& dyn__startupRotationPropagationSpeed();
+    [[deprecated("Use field access instead!")]] int& dyn__startupRotationPropagationSpeed();
     // Get instance field reference: private System.Single _startupRotationFlexySpeed
-    float& dyn__startupRotationFlexySpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__startupRotationFlexySpeed();
     // Get instance field reference: private System.Collections.Generic.List`1<TrackLaneRingsRotationEffect/RingRotationEffect> _activeRingRotationEffects
-    ::System::Collections::Generic::List_1<::GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect*>*& dyn__activeRingRotationEffects();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect*>*& dyn__activeRingRotationEffects();
     // Get instance field reference: private System.Collections.Generic.List`1<TrackLaneRingsRotationEffect/RingRotationEffect> _ringRotationEffectsPool
-    ::System::Collections::Generic::List_1<::GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect*>*& dyn__ringRotationEffectsPool();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect*>*& dyn__ringRotationEffectsPool();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Int32> ringRotationEffectsToDelete
-    ::System::Collections::Generic::List_1<int>*& dyn_ringRotationEffectsToDelete();
-    // protected System.Void Awake()
-    // Offset: 0x133EECC
-    void Awake();
-    // protected System.Void Start()
-    // Offset: 0x133EFE4
-    void Start();
-    // protected System.Void FixedUpdate()
-    // Offset: 0x133F090
-    void FixedUpdate();
-    // public System.Void AddRingRotationEffect(System.Single angle, System.Single step, System.Int32 propagationSpeed, System.Single flexySpeed)
-    // Offset: 0x133EFF4
-    void AddRingRotationEffect(float angle, float step, int propagationSpeed, float flexySpeed);
-    // public System.Single GetFirstRingRotationAngle()
-    // Offset: 0x133F30C
-    float GetFirstRingRotationAngle();
-    // public System.Single GetFirstRingDestinationRotationAngle()
-    // Offset: 0x133F350
-    float GetFirstRingDestinationRotationAngle();
-    // private TrackLaneRingsRotationEffect/RingRotationEffect SpawnRingRotationEffect()
-    // Offset: 0x133F274
-    ::GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect* SpawnRingRotationEffect();
-    // private System.Void RecycleRingRotationEffect(TrackLaneRingsRotationEffect/RingRotationEffect ringRotationEffect)
-    // Offset: 0x133F20C
-    void RecycleRingRotationEffect(::GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect* ringRotationEffect);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<int>*& dyn_ringRotationEffectsToDelete();
     // public System.Void .ctor()
-    // Offset: 0x133F394
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14212C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackLaneRingsRotationEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TrackLaneRingsRotationEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrackLaneRingsRotationEffect*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x1420DFC
+    void Awake();
+    // protected System.Void Start()
+    // Offset: 0x1420F14
+    void Start();
+    // protected System.Void FixedUpdate()
+    // Offset: 0x1420FC0
+    void FixedUpdate();
+    // public System.Void AddRingRotationEffect(System.Single angle, System.Single step, System.Int32 propagationSpeed, System.Single flexySpeed)
+    // Offset: 0x1420F24
+    void AddRingRotationEffect(float angle, float step, int propagationSpeed, float flexySpeed);
+    // public System.Single GetFirstRingRotationAngle()
+    // Offset: 0x142123C
+    float GetFirstRingRotationAngle();
+    // public System.Single GetFirstRingDestinationRotationAngle()
+    // Offset: 0x1421280
+    float GetFirstRingDestinationRotationAngle();
+    // private TrackLaneRingsRotationEffect/RingRotationEffect SpawnRingRotationEffect()
+    // Offset: 0x14211A4
+    ::GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect* SpawnRingRotationEffect();
+    // private System.Void RecycleRingRotationEffect(TrackLaneRingsRotationEffect/RingRotationEffect ringRotationEffect)
+    // Offset: 0x142113C
+    void RecycleRingRotationEffect(::GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect* ringRotationEffect);
   }; // TrackLaneRingsRotationEffect
   #pragma pack(pop)
   static check_size<sizeof(TrackLaneRingsRotationEffect), 64 + sizeof(::System::Collections::Generic::List_1<int>*)> __GlobalNamespace_TrackLaneRingsRotationEffectSizeCheck;
   static_assert(sizeof(TrackLaneRingsRotationEffect) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsRotationEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsRotationEffect::Awake
 // Il2CppName: Awake
 template<>
@@ -232,7 +222,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRingsRotationEffect*), "RecycleRingRotationEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ringRotationEffect});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsRotationEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

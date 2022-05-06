@@ -43,15 +43,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class JSONString : public ::HoudiniEngineUnity::JSONNode {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String m_Data
     // Size: 0x8
     // Offset: 0x10
@@ -64,51 +56,51 @@ namespace HoudiniEngineUnity {
       return m_Data;
     }
     // Get instance field reference: private System.String m_Data
-    ::StringW& dyn_m_Data();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_Data();
     // public System.Void .ctor(System.String aData)
-    // Offset: 0x19DBB70
+    // Offset: 0x1A15158
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JSONString* New_ctor(::StringW aData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::JSONString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONString*, creationType>(aData)));
     }
     // public override HoudiniEngineUnity.JSONNodeType get_Tag()
-    // Offset: 0x19E1F30
+    // Offset: 0x1A1B518
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: HoudiniEngineUnity.JSONNodeType JSONNode::get_Tag()
     ::HoudiniEngineUnity::JSONNodeType get_Tag();
     // public override System.Boolean get_IsString()
-    // Offset: 0x19E1F38
+    // Offset: 0x1A1B520
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.Boolean JSONNode::get_IsString()
     bool get_IsString();
     // public override System.String get_Value()
-    // Offset: 0x19E1F60
+    // Offset: 0x1A1B548
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.String JSONNode::get_Value()
     ::StringW get_Value();
     // public override System.Void set_Value(System.String value)
-    // Offset: 0x19E1F68
+    // Offset: 0x1A1B550
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.Void JSONNode::set_Value(System.String value)
     void set_Value(::StringW value);
     // public override HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator GetEnumerator()
-    // Offset: 0x19E1F40
+    // Offset: 0x1A1B528
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator JSONNode::GetEnumerator()
     ::HoudiniEngineUnity::JSONNode::Enumerator GetEnumerator();
     // override System.Void WriteToStringBuilder(System.Text.StringBuilder aSB, System.Int32 aIndent, System.Int32 aIndentInc, HoudiniEngineUnity.JSONTextMode aMode)
-    // Offset: 0x19E1F70
+    // Offset: 0x1A1B558
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.Void JSONNode::WriteToStringBuilder(System.Text.StringBuilder aSB, System.Int32 aIndent, System.Int32 aIndentInc, HoudiniEngineUnity.JSONTextMode aMode)
     void WriteToStringBuilder(::System::Text::StringBuilder* aSB, int aIndent, int aIndentInc, ::HoudiniEngineUnity::JSONTextMode aMode);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x19E2028
+    // Offset: 0x1A1B610
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.Boolean JSONNode::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x19E213C
+    // Offset: 0x1A1B724
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.Int32 JSONNode::GetHashCode()
     int GetHashCode();

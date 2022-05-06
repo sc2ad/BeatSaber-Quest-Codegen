@@ -63,7 +63,7 @@ namespace Newtonsoft::Json::Utilities {
     // Set static field: static public Newtonsoft.Json.Utilities.ConvertUtils/Newtonsoft.Json.Utilities.ConvertResult NoValidConversion
     static void _set_NoValidConversion(::Newtonsoft::Json::Utilities::ConvertUtils::ConvertResult value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Newtonsoft.Json.Utilities.ConvertUtils/Newtonsoft.Json.Utilities.ConvertResult
   #pragma pack(pop)
   static check_size<sizeof(ConvertUtils::ConvertResult), 0 + sizeof(int)> __Newtonsoft_Json_Utilities_ConvertUtils_ConvertResultSizeCheck;

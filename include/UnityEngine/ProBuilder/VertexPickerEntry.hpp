@@ -66,13 +66,13 @@ namespace UnityEngine::ProBuilder {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public UnityEngine.ProBuilder.ProBuilderMesh mesh
-    ::UnityEngine::ProBuilder::ProBuilderMesh*& dyn_mesh();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::ProBuilderMesh*& dyn_mesh();
     // Get instance field reference: public System.Int32 vertex
-    int& dyn_vertex();
+    [[deprecated("Use field access instead!")]] int& dyn_vertex();
     // Get instance field reference: public System.Single screenDistance
-    float& dyn_screenDistance();
+    [[deprecated("Use field access instead!")]] float& dyn_screenDistance();
     // Get instance field reference: public UnityEngine.Vector3 worldPosition
-    ::UnityEngine::Vector3& dyn_worldPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_worldPosition();
   }; // UnityEngine.ProBuilder.VertexPickerEntry
   #pragma pack(pop)
   static check_size<sizeof(VertexPickerEntry), 16 + sizeof(::UnityEngine::Vector3)> __UnityEngine_ProBuilder_VertexPickerEntrySizeCheck;

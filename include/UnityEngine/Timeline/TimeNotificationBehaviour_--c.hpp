@@ -41,20 +41,18 @@ namespace UnityEngine::Timeline {
     // Set static field: static public System.Comparison`1<UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.NotificationEntry> <>9__12_0
     static void _set_$$9__12_0(::System::Comparison_1<::UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1D8387C
+    // Offset: 0x1DBEDD4
     static void _cctor();
-    // System.Int32 <SortNotifications>b__12_0(UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.NotificationEntry x, UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.NotificationEntry y)
-    // Offset: 0x1D838E8
-    int $SortNotifications$b__12_0(::UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry x, ::UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry y);
     // public System.Void .ctor()
-    // Offset: 0x1D838E0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1DBEE38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeNotificationBehaviour::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::TimeNotificationBehaviour::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeNotificationBehaviour::$$c*, creationType>()));
     }
+    // System.Int32 <SortNotifications>b__12_0(UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.NotificationEntry x, UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.NotificationEntry y)
+    // Offset: 0x1DBEE40
+    int $SortNotifications$b__12_0(::UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry x, ::UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry y);
   }; // UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.<>c
   #pragma pack(pop)
 }
@@ -67,6 +65,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeNotificationBehaviour::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::$$c::$SortNotifications$b__12_0
 // Il2CppName: <SortNotifications>b__12_0
 template<>
@@ -77,7 +79,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeNotificationBehaviour::$$c*), "<SortNotifications>b__12_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

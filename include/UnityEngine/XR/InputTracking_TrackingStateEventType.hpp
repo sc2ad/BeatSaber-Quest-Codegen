@@ -63,7 +63,7 @@ namespace UnityEngine::XR {
     // Set static field: static public UnityEngine.XR.InputTracking/UnityEngine.XR.TrackingStateEventType TrackingLost
     static void _set_TrackingLost(::UnityEngine::XR::InputTracking::TrackingStateEventType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.XR.InputTracking/UnityEngine.XR.TrackingStateEventType
   #pragma pack(pop)
   static check_size<sizeof(InputTracking::TrackingStateEventType), 0 + sizeof(int)> __UnityEngine_XR_InputTracking_TrackingStateEventTypeSizeCheck;

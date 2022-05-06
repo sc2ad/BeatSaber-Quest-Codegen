@@ -58,29 +58,27 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<UnityEngine.Vector3,System.Single> <>9__8_2
     static void _set_$$9__8_2(::System::Func_2<::UnityEngine::Vector3, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x134951C
+    // Offset: 0x1332764
     static void _cctor();
-    // System.Int32 <SortSourceData>b__6_0(UnityEngine.Vector3 point1, UnityEngine.Vector3 point2)
-    // Offset: 0x1349588
-    int $SortSourceData$b__6_0(::UnityEngine::Vector3 point1, ::UnityEngine::Vector3 point2);
-    // System.Single <ComputeControlPoints>b__8_0(UnityEngine.Vector3 p)
-    // Offset: 0x13495BC
-    float $ComputeControlPoints$b__8_0(::UnityEngine::Vector3 p);
-    // System.Single <ComputeControlPoints>b__8_1(UnityEngine.Vector3 p)
-    // Offset: 0x13495C0
-    float $ComputeControlPoints$b__8_1(::UnityEngine::Vector3 p);
-    // System.Single <ComputeControlPoints>b__8_2(UnityEngine.Vector3 p)
-    // Offset: 0x13495C8
-    float $ComputeControlPoints$b__8_2(::UnityEngine::Vector3 p);
     // public System.Void .ctor()
-    // Offset: 0x1349580
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13327C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BezierSpline::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BezierSpline::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BezierSpline::$$c*, creationType>()));
     }
+    // System.Int32 <SortSourceData>b__6_0(UnityEngine.Vector3 point1, UnityEngine.Vector3 point2)
+    // Offset: 0x13327D0
+    int $SortSourceData$b__6_0(::UnityEngine::Vector3 point1, ::UnityEngine::Vector3 point2);
+    // System.Single <ComputeControlPoints>b__8_0(UnityEngine.Vector3 p)
+    // Offset: 0x1332804
+    float $ComputeControlPoints$b__8_0(::UnityEngine::Vector3 p);
+    // System.Single <ComputeControlPoints>b__8_1(UnityEngine.Vector3 p)
+    // Offset: 0x1332808
+    float $ComputeControlPoints$b__8_1(::UnityEngine::Vector3 p);
+    // System.Single <ComputeControlPoints>b__8_2(UnityEngine.Vector3 p)
+    // Offset: 0x1332810
+    float $ComputeControlPoints$b__8_2(::UnityEngine::Vector3 p);
   }; // BezierSpline/<>c
   #pragma pack(pop)
 }
@@ -93,6 +91,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSpline::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BezierSpline::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BezierSpline::$$c::$SortSourceData$b__6_0
 // Il2CppName: <SortSourceData>b__6_0
 template<>
@@ -130,7 +132,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSpline::$$c*), "<ComputeControlPoints>b__8_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BezierSpline::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -50,15 +50,7 @@ namespace System::Net::Http {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpRequestMessage : public ::Il2CppObject/*, public ::System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Net.Http.Headers.HttpRequestHeaders headers
     // Size: 0x8
     // Offset: 0x10
@@ -109,64 +101,64 @@ namespace System::Net::Http {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get instance field reference: private System.Net.Http.Headers.HttpRequestHeaders headers
-    ::System::Net::Http::Headers::HttpRequestHeaders*& dyn_headers();
+    [[deprecated("Use field access instead!")]] ::System::Net::Http::Headers::HttpRequestHeaders*& dyn_headers();
     // Get instance field reference: private System.Net.Http.HttpMethod method
-    ::System::Net::Http::HttpMethod*& dyn_method();
+    [[deprecated("Use field access instead!")]] ::System::Net::Http::HttpMethod*& dyn_method();
     // Get instance field reference: private System.Version version
-    ::System::Version*& dyn_version();
+    [[deprecated("Use field access instead!")]] ::System::Version*& dyn_version();
     // Get instance field reference: private System.Uri uri
-    ::System::Uri*& dyn_uri();
+    [[deprecated("Use field access instead!")]] ::System::Uri*& dyn_uri();
     // Get instance field reference: private System.Boolean is_used
-    bool& dyn_is_used();
+    [[deprecated("Use field access instead!")]] bool& dyn_is_used();
     // Get instance field reference: private System.Boolean disposed
-    bool& dyn_disposed();
+    [[deprecated("Use field access instead!")]] bool& dyn_disposed();
     // Get instance field reference: private System.Net.Http.HttpContent <Content>k__BackingField
-    ::System::Net::Http::HttpContent*& dyn_$Content$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Net::Http::HttpContent*& dyn_$Content$k__BackingField();
     // public System.Net.Http.HttpContent get_Content()
-    // Offset: 0x1967308
+    // Offset: 0x199F8F0
     ::System::Net::Http::HttpContent* get_Content();
     // public System.Void set_Content(System.Net.Http.HttpContent value)
-    // Offset: 0x1967310
+    // Offset: 0x199F8F8
     void set_Content(::System::Net::Http::HttpContent* value);
     // public System.Net.Http.Headers.HttpRequestHeaders get_Headers()
-    // Offset: 0x1963178
+    // Offset: 0x199B760
     ::System::Net::Http::Headers::HttpRequestHeaders* get_Headers();
     // public System.Net.Http.HttpMethod get_Method()
-    // Offset: 0x1967318
+    // Offset: 0x199F900
     ::System::Net::Http::HttpMethod* get_Method();
     // public System.Void set_Method(System.Net.Http.HttpMethod value)
-    // Offset: 0x1967258
+    // Offset: 0x199F840
     void set_Method(::System::Net::Http::HttpMethod* value);
     // public System.Uri get_RequestUri()
-    // Offset: 0x1967320
+    // Offset: 0x199F908
     ::System::Uri* get_RequestUri();
     // public System.Void set_RequestUri(System.Uri value)
-    // Offset: 0x1963094
+    // Offset: 0x199B67C
     void set_RequestUri(::System::Uri* value);
     // public System.Version get_Version()
-    // Offset: 0x19648C8
+    // Offset: 0x199CEB0
     ::System::Version* get_Version();
     // public System.Void .ctor(System.Net.Http.HttpMethod method, System.Uri requestUri)
-    // Offset: 0x1962B9C
+    // Offset: 0x199B184
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpRequestMessage* New_ctor(::System::Net::Http::HttpMethod* method, ::System::Uri* requestUri) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::HttpRequestMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpRequestMessage*, creationType>(method, requestUri)));
     }
     // static private System.Boolean IsAllowedAbsoluteUri(System.Uri uri)
-    // Offset: 0x1967328
+    // Offset: 0x199F910
     static bool IsAllowedAbsoluteUri(::System::Uri* uri);
     // public System.Void Dispose()
-    // Offset: 0x1967490
+    // Offset: 0x199FA78
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x19674A0
+    // Offset: 0x199FA88
     void Dispose(bool disposing);
     // System.Boolean SetIsUsed()
-    // Offset: 0x1963074
+    // Offset: 0x199B65C
     bool SetIsUsed();
     // public override System.String ToString()
-    // Offset: 0x19674D4
+    // Offset: 0x199FABC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

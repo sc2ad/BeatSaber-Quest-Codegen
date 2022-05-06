@@ -75,7 +75,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HEU_AssetDatabase/HoudiniEngineUnity.HEU_ImportAssetOptions ForceUncompressedImport
     static void _set_ForceUncompressedImport(::HoudiniEngineUnity::HEU_AssetDatabase::HEU_ImportAssetOptions value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HEU_AssetDatabase/HoudiniEngineUnity.HEU_ImportAssetOptions
   #pragma pack(pop)
   static check_size<sizeof(HEU_AssetDatabase::HEU_ImportAssetOptions), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_AssetDatabase_HEU_ImportAssetOptionsSizeCheck;

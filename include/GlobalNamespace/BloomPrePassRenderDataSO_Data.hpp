@@ -36,15 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassRenderDataSO::Data : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.RenderTexture bloomPrePassRenderTexture
     // Size: 0x8
     // Offset: 0x10
@@ -83,21 +75,19 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::ToneMapping) == 0x4);
     public:
     // Get instance field reference: public UnityEngine.RenderTexture bloomPrePassRenderTexture
-    ::UnityEngine::RenderTexture*& dyn_bloomPrePassRenderTexture();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RenderTexture*& dyn_bloomPrePassRenderTexture();
     // Get instance field reference: public UnityEngine.Vector2 textureToScreenRatio
-    ::UnityEngine::Vector2& dyn_textureToScreenRatio();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_textureToScreenRatio();
     // Get instance field reference: public UnityEngine.Matrix4x4 viewMatrix
-    ::UnityEngine::Matrix4x4& dyn_viewMatrix();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Matrix4x4& dyn_viewMatrix();
     // Get instance field reference: public UnityEngine.Matrix4x4 projectionMatrix
-    ::UnityEngine::Matrix4x4& dyn_projectionMatrix();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Matrix4x4& dyn_projectionMatrix();
     // Get instance field reference: public System.Single stereoCameraEyeOffset
-    float& dyn_stereoCameraEyeOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_stereoCameraEyeOffset();
     // Get instance field reference: public ToneMapping toneMapping
-    ::GlobalNamespace::ToneMapping& dyn_toneMapping();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ToneMapping& dyn_toneMapping();
     // public System.Void .ctor()
-    // Offset: 0x2AC9AE8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E72EB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassRenderDataSO::Data* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassRenderDataSO::Data::.ctor");

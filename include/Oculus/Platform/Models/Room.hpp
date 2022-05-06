@@ -54,15 +54,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class Room : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.UInt64 ApplicationID
     // Size: 0x8
     // Offset: 0x10
@@ -93,7 +85,7 @@ namespace Oculus::Platform::Models {
     ::Oculus::Platform::Models::UserList* InvitedUsersOptional;
     // Field size check
     static_assert(sizeof(::Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0x1241A98
+    // [ObsoleteAttribute] Offset: 0x10C6570
     // public readonly Oculus.Platform.Models.UserList InvitedUsers
     // Size: 0x8
     // Offset: 0x38
@@ -128,7 +120,7 @@ namespace Oculus::Platform::Models {
     ::Oculus::Platform::Models::MatchmakingEnqueuedUserList* MatchedUsersOptional;
     // Field size check
     static_assert(sizeof(::Oculus::Platform::Models::MatchmakingEnqueuedUserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0x1241AD0
+    // [ObsoleteAttribute] Offset: 0x10C65A8
     // public readonly Oculus.Platform.Models.MatchmakingEnqueuedUserList MatchedUsers
     // Size: 0x8
     // Offset: 0x58
@@ -155,7 +147,7 @@ namespace Oculus::Platform::Models {
     ::Oculus::Platform::Models::User* OwnerOptional;
     // Field size check
     static_assert(sizeof(::Oculus::Platform::Models::User*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0x1241B08
+    // [ObsoleteAttribute] Offset: 0x10C65E0
     // public readonly Oculus.Platform.Models.User Owner
     // Size: 0x8
     // Offset: 0x78
@@ -168,7 +160,7 @@ namespace Oculus::Platform::Models {
     ::Oculus::Platform::Models::TeamList* TeamsOptional;
     // Field size check
     static_assert(sizeof(::Oculus::Platform::Models::TeamList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0x1241B40
+    // [ObsoleteAttribute] Offset: 0x10C6618
     // public readonly Oculus.Platform.Models.TeamList Teams
     // Size: 0x8
     // Offset: 0x88
@@ -189,7 +181,7 @@ namespace Oculus::Platform::Models {
     ::Oculus::Platform::Models::UserList* UsersOptional;
     // Field size check
     static_assert(sizeof(::Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0x1241B78
+    // [ObsoleteAttribute] Offset: 0x10C6650
     // public readonly Oculus.Platform.Models.UserList Users
     // Size: 0x8
     // Offset: 0xA0
@@ -204,49 +196,49 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(uint) == 0x4);
     public:
     // Get instance field reference: public readonly System.UInt64 ApplicationID
-    uint64_t& dyn_ApplicationID();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_ApplicationID();
     // Get instance field reference: public readonly System.Collections.Generic.Dictionary`2<System.String,System.String> DataStore
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn_DataStore();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn_DataStore();
     // Get instance field reference: public readonly System.String Description
-    ::StringW& dyn_Description();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Description();
     // Get instance field reference: public readonly System.UInt64 ID
-    uint64_t& dyn_ID();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_ID();
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList InvitedUsersOptional
-    ::Oculus::Platform::Models::UserList*& dyn_InvitedUsersOptional();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::UserList*& dyn_InvitedUsersOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList InvitedUsers
-    ::Oculus::Platform::Models::UserList*& dyn_InvitedUsers();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::UserList*& dyn_InvitedUsers();
     // Get instance field reference: public readonly System.Boolean IsMembershipLocked
-    bool& dyn_IsMembershipLocked();
+    [[deprecated("Use field access instead!")]] bool& dyn_IsMembershipLocked();
     // Get instance field reference: public readonly Oculus.Platform.RoomJoinPolicy JoinPolicy
-    ::Oculus::Platform::RoomJoinPolicy& dyn_JoinPolicy();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::RoomJoinPolicy& dyn_JoinPolicy();
     // Get instance field reference: public readonly Oculus.Platform.RoomJoinability Joinability
-    ::Oculus::Platform::RoomJoinability& dyn_Joinability();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::RoomJoinability& dyn_Joinability();
     // Get instance field reference: public readonly Oculus.Platform.Models.MatchmakingEnqueuedUserList MatchedUsersOptional
-    ::Oculus::Platform::Models::MatchmakingEnqueuedUserList*& dyn_MatchedUsersOptional();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::MatchmakingEnqueuedUserList*& dyn_MatchedUsersOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.MatchmakingEnqueuedUserList MatchedUsers
-    ::Oculus::Platform::Models::MatchmakingEnqueuedUserList*& dyn_MatchedUsers();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::MatchmakingEnqueuedUserList*& dyn_MatchedUsers();
     // Get instance field reference: public readonly System.UInt32 MaxUsers
-    uint& dyn_MaxUsers();
+    [[deprecated("Use field access instead!")]] uint& dyn_MaxUsers();
     // Get instance field reference: public readonly System.String Name
-    ::StringW& dyn_Name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Name();
     // Get instance field reference: public readonly Oculus.Platform.Models.User OwnerOptional
-    ::Oculus::Platform::Models::User*& dyn_OwnerOptional();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::User*& dyn_OwnerOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.User Owner
-    ::Oculus::Platform::Models::User*& dyn_Owner();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::User*& dyn_Owner();
     // Get instance field reference: public readonly Oculus.Platform.Models.TeamList TeamsOptional
-    ::Oculus::Platform::Models::TeamList*& dyn_TeamsOptional();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::TeamList*& dyn_TeamsOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.TeamList Teams
-    ::Oculus::Platform::Models::TeamList*& dyn_Teams();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::TeamList*& dyn_Teams();
     // Get instance field reference: public readonly Oculus.Platform.RoomType Type
-    ::Oculus::Platform::RoomType& dyn_Type();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::RoomType& dyn_Type();
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList UsersOptional
-    ::Oculus::Platform::Models::UserList*& dyn_UsersOptional();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::UserList*& dyn_UsersOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList Users
-    ::Oculus::Platform::Models::UserList*& dyn_Users();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::UserList*& dyn_Users();
     // Get instance field reference: public readonly System.UInt32 Version
-    uint& dyn_Version();
+    [[deprecated("Use field access instead!")]] uint& dyn_Version();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19AF9C8
+    // Offset: 0x19E8FB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Room* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::Room::.ctor");

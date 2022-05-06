@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EmitParticles : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.ParticleSystem _particleSystem
     // Size: 0x8
     // Offset: 0x18
@@ -54,29 +46,27 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem _particleSystem
-    ::UnityEngine::ParticleSystem*& dyn__particleSystem();
-    // public System.Void Emit(System.Int32 count)
-    // Offset: 0x1416340
-    void Emit(int count);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn__particleSystem();
     // public System.Void .ctor()
-    // Offset: 0x141635C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1436108
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EmitParticles* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EmitParticles::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmitParticles*, creationType>()));
     }
+    // public System.Void Emit(System.Int32 count)
+    // Offset: 0x14360EC
+    void Emit(int count);
   }; // EmitParticles
   #pragma pack(pop)
   static check_size<sizeof(EmitParticles), 24 + sizeof(::UnityEngine::ParticleSystem*)> __GlobalNamespace_EmitParticlesSizeCheck;
   static_assert(sizeof(EmitParticles) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::EmitParticles::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EmitParticles::Emit
 // Il2CppName: Emit
 template<>
@@ -86,7 +76,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EmitParticles*), "Emit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{count});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::EmitParticles::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

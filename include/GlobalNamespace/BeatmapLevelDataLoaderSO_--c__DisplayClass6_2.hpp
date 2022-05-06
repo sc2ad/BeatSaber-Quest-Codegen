@@ -33,15 +33,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class BeatmapLevelDataLoaderSO::$$c__DisplayClass6_2 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.AssetBundleRequest assetBundleRequest
     // Size: 0x8
     // Offset: 0x10
@@ -56,27 +48,29 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.AssetBundleRequest assetBundleRequest
-    ::UnityEngine::AssetBundleRequest*& dyn_assetBundleRequest();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AssetBundleRequest*& dyn_assetBundleRequest();
     // Get instance field reference: public BeatmapLevelDataLoaderSO/<>c__DisplayClass6_1 CS$<>8__locals2
-    ::GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1*& dyn_CS$$$8__locals2();
-    // System.Void <LoadBeatmapLevelDataAsync>b__1(UnityEngine.AsyncOperation asyncOperation2)
-    // Offset: 0x14CBE24
-    void $LoadBeatmapLevelDataAsync$b__1(::UnityEngine::AsyncOperation* asyncOperation2);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1*& dyn_CS$$$8__locals2();
     // public System.Void .ctor()
-    // Offset: 0x14CBE1C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1503724
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelDataLoaderSO::$$c__DisplayClass6_2* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelDataLoaderSO::$$c__DisplayClass6_2*, creationType>()));
     }
+    // System.Void <LoadBeatmapLevelDataAsync>b__1(UnityEngine.AsyncOperation asyncOperation2)
+    // Offset: 0x150372C
+    void $LoadBeatmapLevelDataAsync$b__1(::UnityEngine::AsyncOperation* asyncOperation2);
   }; // BeatmapLevelDataLoaderSO/<>c__DisplayClass6_2
   #pragma pack(pop)
   static check_size<sizeof(BeatmapLevelDataLoaderSO::$$c__DisplayClass6_2), 24 + sizeof(::GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1*)> __GlobalNamespace_BeatmapLevelDataLoaderSO_$$c__DisplayClass6_2SizeCheck;
   static_assert(sizeof(BeatmapLevelDataLoaderSO::$$c__DisplayClass6_2) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_2::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_2::$LoadBeatmapLevelDataAsync$b__1
 // Il2CppName: <LoadBeatmapLevelDataAsync>b__1
 template<>
@@ -86,7 +80,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_2*), "<LoadBeatmapLevelDataAsync>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncOperation2});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_2::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

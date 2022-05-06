@@ -27,11 +27,7 @@ namespace UnityEngine::UI {
   class ScrollRect::ScrollRectEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1E8868C
-    // Implemented from: UnityEngine.Events.UnityEvent`1
-    // Base method: System.Void UnityEvent_1::.ctor()
-    // Base method: System.Void UnityEventBase::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1ED6BC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScrollRect::ScrollRectEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::ScrollRect::ScrollRectEvent::.ctor");

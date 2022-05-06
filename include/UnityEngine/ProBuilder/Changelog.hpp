@@ -51,15 +51,7 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class Changelog : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.List`1<UnityEngine.ProBuilder.ChangelogEntry> m_Entries
     // Size: 0x8
     // Offset: 0x10
@@ -90,19 +82,19 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.String k_VersionDatePattern
     static void _set_k_VersionDatePattern(::StringW value);
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ProBuilder.ChangelogEntry> m_Entries
-    ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ChangelogEntry*>*& dyn_m_Entries();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ChangelogEntry*>*& dyn_m_Entries();
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.ProBuilder.ChangelogEntry> get_entries()
-    // Offset: 0x24B56E0
+    // Offset: 0x25011A4
     ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::ProBuilder::ChangelogEntry*>* get_entries();
     // public System.Void .ctor(System.String log)
-    // Offset: 0x24B5750
+    // Offset: 0x2501214
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Changelog* New_ctor(::StringW log) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Changelog::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Changelog*, creationType>(log)));
     }
     // private UnityEngine.ProBuilder.ChangelogEntry CreateEntry(System.String version, System.String contents)
-    // Offset: 0x24B59C4
+    // Offset: 0x2501488
     ::UnityEngine::ProBuilder::ChangelogEntry* CreateEntry(::StringW version, ::StringW contents);
   }; // UnityEngine.ProBuilder.Changelog
   #pragma pack(pop)

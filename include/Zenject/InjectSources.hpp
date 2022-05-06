@@ -66,7 +66,7 @@ namespace Zenject {
     // Set static field: static public Zenject.InjectSources AnyParent
     static void _set_AnyParent(::Zenject::InjectSources value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Zenject.InjectSources
   #pragma pack(pop)
   static check_size<sizeof(InjectSources), 0 + sizeof(int)> __Zenject_InjectSourcesSizeCheck;

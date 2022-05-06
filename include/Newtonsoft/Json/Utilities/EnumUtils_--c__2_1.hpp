@@ -51,8 +51,6 @@ namespace Newtonsoft::Json::Utilities {
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFFFFFFFFFF
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumUtils::$$c__2_1<T>* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::EnumUtils::$$c__2_1::.ctor");

@@ -37,22 +37,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AnniversaryManager : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private FireworksController _fireworksController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::FireworksController* fireworksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FireworksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x124997C
+    // [InjectAttribute] Offset: 0x10CE474
     // private readonly MainMenuViewController _mainMenuViewController
     // Size: 0x8
     // Offset: 0x20
@@ -63,43 +55,41 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FireworksController _fireworksController
-    ::GlobalNamespace::FireworksController*& dyn__fireworksController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FireworksController*& dyn__fireworksController();
     // Get instance field reference: private readonly MainMenuViewController _mainMenuViewController
-    ::GlobalNamespace::MainMenuViewController*& dyn__mainMenuViewController();
-    // protected System.Void Start()
-    // Offset: 0x14B1C98
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x14B1D54
-    void OnDestroy();
-    // private System.Void HandleMainMenuViewControllerDidFinish(MainMenuViewController mainMenuViewController, MainMenuViewController/MenuButton menuButton)
-    // Offset: 0x14B1E30
-    void HandleMainMenuViewControllerDidFinish(::GlobalNamespace::MainMenuViewController* mainMenuViewController, ::GlobalNamespace::MainMenuViewController::MenuButton menuButton);
-    // private System.Void StartFireworks()
-    // Offset: 0x14B1D34
-    void StartFireworks();
-    // private System.Void StopFireworks()
-    // Offset: 0x14B1E34
-    void StopFireworks();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainMenuViewController*& dyn__mainMenuViewController();
     // public System.Void .ctor()
-    // Offset: 0x14B1E54
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14E970C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnniversaryManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AnniversaryManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnniversaryManager*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x14E9550
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x14E960C
+    void OnDestroy();
+    // private System.Void HandleMainMenuViewControllerDidFinish(MainMenuViewController mainMenuViewController, MainMenuViewController/MenuButton menuButton)
+    // Offset: 0x14E96E8
+    void HandleMainMenuViewControllerDidFinish(::GlobalNamespace::MainMenuViewController* mainMenuViewController, ::GlobalNamespace::MainMenuViewController::MenuButton menuButton);
+    // private System.Void StartFireworks()
+    // Offset: 0x14E95EC
+    void StartFireworks();
+    // private System.Void StopFireworks()
+    // Offset: 0x14E96EC
+    void StopFireworks();
   }; // AnniversaryManager
   #pragma pack(pop)
   static check_size<sizeof(AnniversaryManager), 32 + sizeof(::GlobalNamespace::MainMenuViewController*)> __GlobalNamespace_AnniversaryManagerSizeCheck;
   static_assert(sizeof(AnniversaryManager) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::AnniversaryManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AnniversaryManager::Start
 // Il2CppName: Start
 template<>
@@ -142,7 +132,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnniversaryManager*), "StopFireworks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AnniversaryManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -24,15 +24,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MultiplayerController::$$c__DisplayClass42_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public MultiplayerController <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -47,27 +39,29 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public MultiplayerController <>4__this
-    ::GlobalNamespace::MultiplayerController*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerController*& dyn_$$4__this();
     // Get instance field reference: public System.Single introAnimationStartSyncTime
-    float& dyn_introAnimationStartSyncTime();
-    // System.Void <HandleSongStartSyncControllerSyncStartSuccess>b__0()
-    // Offset: 0x13F0050
-    void $HandleSongStartSyncControllerSyncStartSuccess$b__0();
+    [[deprecated("Use field access instead!")]] float& dyn_introAnimationStartSyncTime();
     // public System.Void .ctor()
-    // Offset: 0x13EEA30
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13FB4D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerController::$$c__DisplayClass42_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerController::$$c__DisplayClass42_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerController::$$c__DisplayClass42_0*, creationType>()));
     }
+    // System.Void <HandleSongStartSyncControllerSyncStartSuccess>b__0()
+    // Offset: 0x13FCAF0
+    void $HandleSongStartSyncControllerSyncStartSuccess$b__0();
   }; // MultiplayerController/<>c__DisplayClass42_0
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerController::$$c__DisplayClass42_0), 24 + sizeof(float)> __GlobalNamespace_MultiplayerController_$$c__DisplayClass42_0SizeCheck;
   static_assert(sizeof(MultiplayerController::$$c__DisplayClass42_0) == 0x1C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerController::$$c__DisplayClass42_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerController::$$c__DisplayClass42_0::$HandleSongStartSyncControllerSyncStartSuccess$b__0
 // Il2CppName: <HandleSongStartSyncControllerSyncStartSuccess>b__0
 template<>
@@ -76,7 +70,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerController::$$c__DisplayClass42_0*), "<HandleSongStartSyncControllerSyncStartSuccess>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerController::$$c__DisplayClass42_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

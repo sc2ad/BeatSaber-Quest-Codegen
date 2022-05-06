@@ -25,15 +25,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRControllersRecorderSaveData::NodeInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.XR.XRNode nodeType
     // Size: 0x4
     // Offset: 0x10
@@ -48,13 +40,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public UnityEngine.XR.XRNode nodeType
-    ::UnityEngine::XR::XRNode& dyn_nodeType();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::XR::XRNode& dyn_nodeType();
     // Get instance field reference: public System.Int32 nodeIdx
-    int& dyn_nodeIdx();
+    [[deprecated("Use field access instead!")]] int& dyn_nodeIdx();
     // public System.Void .ctor()
-    // Offset: 0x2AC049C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x149F9F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorderSaveData::NodeInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRControllersRecorderSaveData::NodeInfo::.ctor");

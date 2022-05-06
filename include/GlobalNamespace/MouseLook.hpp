@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MouseLook : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _xSensitivity
     // Size: 0x4
     // Offset: 0x10
@@ -118,63 +110,65 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Single _xSensitivity
-    float& dyn__xSensitivity();
+    [[deprecated("Use field access instead!")]] float& dyn__xSensitivity();
     // Get instance field reference: private System.Single _ySensitivity
-    float& dyn__ySensitivity();
+    [[deprecated("Use field access instead!")]] float& dyn__ySensitivity();
     // Get instance field reference: private System.Boolean _clampVerticalRotation
-    bool& dyn__clampVerticalRotation();
+    [[deprecated("Use field access instead!")]] bool& dyn__clampVerticalRotation();
     // Get instance field reference: private System.Single _minimumX
-    float& dyn__minimumX();
+    [[deprecated("Use field access instead!")]] float& dyn__minimumX();
     // Get instance field reference: private System.Single _maximumX
-    float& dyn__maximumX();
+    [[deprecated("Use field access instead!")]] float& dyn__maximumX();
     // Get instance field reference: private System.Boolean _smooth
-    bool& dyn__smooth();
+    [[deprecated("Use field access instead!")]] bool& dyn__smooth();
     // Get instance field reference: private System.Single _smoothTime
-    float& dyn__smoothTime();
+    [[deprecated("Use field access instead!")]] float& dyn__smoothTime();
     // Get instance field reference: private System.Boolean _lockCursor
-    bool& dyn__lockCursor();
+    [[deprecated("Use field access instead!")]] bool& dyn__lockCursor();
     // Get instance field reference: private UnityEngine.Quaternion _characterTargetRot
-    ::UnityEngine::Quaternion& dyn__characterTargetRot();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__characterTargetRot();
     // Get instance field reference: private UnityEngine.Quaternion _cameraTargetRot
-    ::UnityEngine::Quaternion& dyn__cameraTargetRot();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__cameraTargetRot();
     // Get instance field reference: private System.Boolean _cursorIsLocked
-    bool& dyn__cursorIsLocked();
-    // public System.Void Init(UnityEngine.Transform character, UnityEngine.Transform camera)
-    // Offset: 0x13C9D98
-    void Init(::UnityEngine::Transform* character, ::UnityEngine::Transform* camera);
-    // public System.Void SetRotations(UnityEngine.Quaternion characterRotation, UnityEngine.Quaternion cameraRotation)
-    // Offset: 0x13C9E30
-    void SetRotations(::UnityEngine::Quaternion characterRotation, ::UnityEngine::Quaternion cameraRotation);
-    // public System.Void LookRotation(UnityEngine.Transform character, UnityEngine.Transform camera)
-    // Offset: 0x13C9E44
-    void LookRotation(::UnityEngine::Transform* character, ::UnityEngine::Transform* camera);
-    // public System.Void SetCursorLock(System.Boolean value)
-    // Offset: 0x13CA1F4
-    void SetCursorLock(bool value);
-    // public System.Void UpdateCursorLock()
-    // Offset: 0x13CA1E4
-    void UpdateCursorLock();
-    // private System.Void InternalLockUpdate()
-    // Offset: 0x13CA228
-    void InternalLockUpdate();
-    // private UnityEngine.Quaternion ClampRotationAroundXAxis(UnityEngine.Quaternion q)
-    // Offset: 0x13CA11C
-    ::UnityEngine::Quaternion ClampRotationAroundXAxis(::UnityEngine::Quaternion q);
+    [[deprecated("Use field access instead!")]] bool& dyn__cursorIsLocked();
     // public System.Void .ctor()
-    // Offset: 0x13CA2A4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13C6750
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MouseLook* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MouseLook::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MouseLook*, creationType>()));
     }
+    // public System.Void Init(UnityEngine.Transform character, UnityEngine.Transform camera)
+    // Offset: 0x13C6244
+    void Init(::UnityEngine::Transform* character, ::UnityEngine::Transform* camera);
+    // public System.Void SetRotations(UnityEngine.Quaternion characterRotation, UnityEngine.Quaternion cameraRotation)
+    // Offset: 0x13C62DC
+    void SetRotations(::UnityEngine::Quaternion characterRotation, ::UnityEngine::Quaternion cameraRotation);
+    // public System.Void LookRotation(UnityEngine.Transform character, UnityEngine.Transform camera)
+    // Offset: 0x13C62F0
+    void LookRotation(::UnityEngine::Transform* character, ::UnityEngine::Transform* camera);
+    // public System.Void SetCursorLock(System.Boolean value)
+    // Offset: 0x13C66A0
+    void SetCursorLock(bool value);
+    // public System.Void UpdateCursorLock()
+    // Offset: 0x13C6690
+    void UpdateCursorLock();
+    // private System.Void InternalLockUpdate()
+    // Offset: 0x13C66D4
+    void InternalLockUpdate();
+    // private UnityEngine.Quaternion ClampRotationAroundXAxis(UnityEngine.Quaternion q)
+    // Offset: 0x13C65C8
+    ::UnityEngine::Quaternion ClampRotationAroundXAxis(::UnityEngine::Quaternion q);
   }; // MouseLook
   #pragma pack(pop)
   static check_size<sizeof(MouseLook), 80 + sizeof(bool)> __GlobalNamespace_MouseLookSizeCheck;
   static_assert(sizeof(MouseLook) == 0x51);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MouseLook::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MouseLook::Init
 // Il2CppName: Init
 template<>
@@ -239,7 +233,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MouseLook*), "ClampRotationAroundXAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{q});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MouseLook::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -36,15 +36,7 @@ namespace Newtonsoft::Json::Serialization {
   // [PreserveAttribute] Offset: FFFFFFFF
   class ErrorEventArgs : public ::System::EventArgs {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Object <CurrentObject>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -59,17 +51,17 @@ namespace Newtonsoft::Json::Serialization {
     static_assert(sizeof(::Newtonsoft::Json::Serialization::ErrorContext*) == 0x8);
     public:
     // Get instance field reference: private System.Object <CurrentObject>k__BackingField
-    ::Il2CppObject*& dyn_$CurrentObject$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$CurrentObject$k__BackingField();
     // Get instance field reference: private Newtonsoft.Json.Serialization.ErrorContext <ErrorContext>k__BackingField
-    ::Newtonsoft::Json::Serialization::ErrorContext*& dyn_$ErrorContext$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Serialization::ErrorContext*& dyn_$ErrorContext$k__BackingField();
     // private System.Void set_CurrentObject(System.Object value)
-    // Offset: 0x1D22534
+    // Offset: 0x1D5EA8C
     void set_CurrentObject(::Il2CppObject* value);
     // private System.Void set_ErrorContext(Newtonsoft.Json.Serialization.ErrorContext value)
-    // Offset: 0x1D2253C
+    // Offset: 0x1D5EA94
     void set_ErrorContext(::Newtonsoft::Json::Serialization::ErrorContext* value);
     // public System.Void .ctor(System.Object currentObject, Newtonsoft.Json.Serialization.ErrorContext errorContext)
-    // Offset: 0x1D22544
+    // Offset: 0x1D5EA9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ErrorEventArgs* New_ctor(::Il2CppObject* currentObject, ::Newtonsoft::Json::Serialization::ErrorContext* errorContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::ErrorEventArgs::.ctor");

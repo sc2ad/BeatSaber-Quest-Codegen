@@ -31,15 +31,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class GameScenesManager::$$c__DisplayClass38_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public ScenesTransitionSetupDataSO newScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x10
@@ -52,28 +44,30 @@ namespace GlobalNamespace {
       return newScenesTransitionSetupData;
     }
     // Get instance field reference: public ScenesTransitionSetupDataSO newScenesTransitionSetupData
-    ::GlobalNamespace::ScenesTransitionSetupDataSO*& dyn_newScenesTransitionSetupData();
-    // System.Boolean <ScenesTransitionCoroutine>b__0()
-    // Offset: 0x1570DE8
-    bool $ScenesTransitionCoroutine$b__0();
-    // System.Boolean <ScenesTransitionCoroutine>b__1()
-    // Offset: 0x1570E0C
-    bool $ScenesTransitionCoroutine$b__1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ScenesTransitionSetupDataSO*& dyn_newScenesTransitionSetupData();
     // public System.Void .ctor()
-    // Offset: 0x1570DE0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15A76F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameScenesManager::$$c__DisplayClass38_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameScenesManager::$$c__DisplayClass38_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameScenesManager::$$c__DisplayClass38_0*, creationType>()));
     }
+    // System.Boolean <ScenesTransitionCoroutine>b__0()
+    // Offset: 0x15A76F8
+    bool $ScenesTransitionCoroutine$b__0();
+    // System.Boolean <ScenesTransitionCoroutine>b__1()
+    // Offset: 0x15A771C
+    bool $ScenesTransitionCoroutine$b__1();
   }; // GameScenesManager/<>c__DisplayClass38_0
   #pragma pack(pop)
   static check_size<sizeof(GameScenesManager::$$c__DisplayClass38_0), 16 + sizeof(::GlobalNamespace::ScenesTransitionSetupDataSO*)> __GlobalNamespace_GameScenesManager_$$c__DisplayClass38_0SizeCheck;
   static_assert(sizeof(GameScenesManager::$$c__DisplayClass38_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::$$c__DisplayClass38_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::$$c__DisplayClass38_0::$ScenesTransitionCoroutine$b__0
 // Il2CppName: <ScenesTransitionCoroutine>b__0
 template<>
@@ -90,7 +84,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager::$$c__DisplayClass38_0*), "<ScenesTransitionCoroutine>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::$$c__DisplayClass38_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

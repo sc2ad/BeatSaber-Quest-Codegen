@@ -40,15 +40,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IncDecColorController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private ColorStepValuePicker _stepValuePicker
     // Size: 0x8
     // Offset: 0x18
@@ -59,21 +51,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ColorStepValuePicker _stepValuePicker
-    ::GlobalNamespace::ColorStepValuePicker*& dyn__stepValuePicker();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorStepValuePicker*& dyn__stepValuePicker();
     // protected System.Void set_enableDec(System.Boolean value)
-    // Offset: 0x13B3FDC
+    // Offset: 0x13AF488
     void set_enableDec(bool value);
     // protected System.Void set_enableInc(System.Boolean value)
-    // Offset: 0x13B3FFC
+    // Offset: 0x13AF4A8
     void set_enableInc(bool value);
     // protected System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x13B401C
+    // Offset: 0x13AF4C8
     void set_color(::UnityEngine::Color value);
+    // protected System.Void .ctor()
+    // Offset: 0x13AF6B0
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static IncDecColorController* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IncDecColorController::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<IncDecColorController*, creationType>()));
+    }
     // protected System.Void Awake()
-    // Offset: 0x13B4038
+    // Offset: 0x13AF4E4
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x13B40FC
+    // Offset: 0x13AF5A8
     void OnDestroy();
     // protected System.Void IncButtonPressed()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -81,19 +80,6 @@ namespace GlobalNamespace {
     // protected System.Void DecButtonPressed()
     // Offset: 0xFFFFFFFFFFFFFFFF
     void DecButtonPressed();
-    // protected System.Void .ctor()
-    // Offset: 0x13B4204
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static IncDecColorController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IncDecColorController::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<IncDecColorController*, creationType>()));
-    }
   }; // IncDecColorController
   #pragma pack(pop)
   static check_size<sizeof(IncDecColorController), 24 + sizeof(::GlobalNamespace::ColorStepValuePicker*)> __GlobalNamespace_IncDecColorControllerSizeCheck;
@@ -127,6 +113,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IncDecColorController*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::IncDecColorController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::IncDecColorController::Awake
 // Il2CppName: Awake
 template<>
@@ -159,7 +149,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IncDecColorController*), "DecButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::IncDecColorController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

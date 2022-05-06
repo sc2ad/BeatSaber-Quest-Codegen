@@ -45,15 +45,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PyramidBloomMainEffectSO : public ::GlobalNamespace::MainEffectSO {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private PyramidBloomRendererSO _bloomRenderer
     // Size: 0x8
     // Offset: 0x18
@@ -72,8 +64,8 @@ namespace GlobalNamespace {
     ::UnityEngine::Shader* mainEffectShader;
     // Field size check
     static_assert(sizeof(::UnityEngine::Shader*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1242634
-    // [RangeAttribute] Offset: 0x1242634
+    // [SpaceAttribute] Offset: 0x10C711C
+    // [RangeAttribute] Offset: 0x10C711C
     // private System.Single _bloomBlendFactor
     // Size: 0x4
     // Offset: 0x30
@@ -134,15 +126,15 @@ namespace GlobalNamespace {
     ::GlobalNamespace::PyramidBloomRendererSO::Pass finalUpsamplePass;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PyramidBloomRendererSO::Pass) == 0x4);
-    // [SpaceAttribute] Offset: 0x1242714
+    // [SpaceAttribute] Offset: 0x10C71FC
     // private System.Int32 _bloomTextureWidth
     // Size: 0x4
     // Offset: 0x58
     int bloomTextureWidth;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [SpaceAttribute] Offset: 0x124274C
-    // [RangeAttribute] Offset: 0x124274C
+    // [SpaceAttribute] Offset: 0x10C7234
+    // [RangeAttribute] Offset: 0x10C7234
     // private System.Single _baseColorBoost
     // Size: 0x4
     // Offset: 0x5C
@@ -172,93 +164,87 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12427AC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C7294
     // Get static field: static private readonly System.Int32 _bloomTexID
     static int _get__bloomTexID();
     // Set static field: static private readonly System.Int32 _bloomTexID
     static void _set__bloomTexID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12427BC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C72A4
     // Get static field: static private readonly System.Int32 _bloomIntensityID
     static int _get__bloomIntensityID();
     // Set static field: static private readonly System.Int32 _bloomIntensityID
     static void _set__bloomIntensityID(int value);
     // Get instance field reference: private PyramidBloomRendererSO _bloomRenderer
-    ::GlobalNamespace::PyramidBloomRendererSO*& dyn__bloomRenderer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PyramidBloomRendererSO*& dyn__bloomRenderer();
     // Get instance field reference: private UnityEngine.Shader _fadeShader
-    ::UnityEngine::Shader*& dyn__fadeShader();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Shader*& dyn__fadeShader();
     // Get instance field reference: private UnityEngine.Shader _mainEffectShader
-    ::UnityEngine::Shader*& dyn__mainEffectShader();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Shader*& dyn__mainEffectShader();
     // Get instance field reference: private System.Single _bloomBlendFactor
-    float& dyn__bloomBlendFactor();
+    [[deprecated("Use field access instead!")]] float& dyn__bloomBlendFactor();
     // Get instance field reference: private System.Single _bloomRadius
-    float& dyn__bloomRadius();
+    [[deprecated("Use field access instead!")]] float& dyn__bloomRadius();
     // Get instance field reference: private System.Single _bloomIntensity
-    float& dyn__bloomIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn__bloomIntensity();
     // Get instance field reference: private System.Single _downBloomIntensityOffset
-    float& dyn__downBloomIntensityOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__downBloomIntensityOffset();
     // Get instance field reference: private System.Single _pyramidWeightsParam
-    float& dyn__pyramidWeightsParam();
+    [[deprecated("Use field access instead!")]] float& dyn__pyramidWeightsParam();
     // Get instance field reference: private System.Single _alphaWeights
-    float& dyn__alphaWeights();
+    [[deprecated("Use field access instead!")]] float& dyn__alphaWeights();
     // Get instance field reference: private PyramidBloomRendererSO/Pass _preFilterPass
-    ::GlobalNamespace::PyramidBloomRendererSO::Pass& dyn__preFilterPass();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PyramidBloomRendererSO::Pass& dyn__preFilterPass();
     // Get instance field reference: private PyramidBloomRendererSO/Pass _downsamplePass
-    ::GlobalNamespace::PyramidBloomRendererSO::Pass& dyn__downsamplePass();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PyramidBloomRendererSO::Pass& dyn__downsamplePass();
     // Get instance field reference: private PyramidBloomRendererSO/Pass _upsamplePass
-    ::GlobalNamespace::PyramidBloomRendererSO::Pass& dyn__upsamplePass();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PyramidBloomRendererSO::Pass& dyn__upsamplePass();
     // Get instance field reference: private PyramidBloomRendererSO/Pass _finalUpsamplePass
-    ::GlobalNamespace::PyramidBloomRendererSO::Pass& dyn__finalUpsamplePass();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PyramidBloomRendererSO::Pass& dyn__finalUpsamplePass();
     // Get instance field reference: private System.Int32 _bloomTextureWidth
-    int& dyn__bloomTextureWidth();
+    [[deprecated("Use field access instead!")]] int& dyn__bloomTextureWidth();
     // Get instance field reference: private System.Single _baseColorBoost
-    float& dyn__baseColorBoost();
+    [[deprecated("Use field access instead!")]] float& dyn__baseColorBoost();
     // Get instance field reference: private System.Single _baseColorBoostThreshold
-    float& dyn__baseColorBoostThreshold();
+    [[deprecated("Use field access instead!")]] float& dyn__baseColorBoostThreshold();
     // Get instance field reference: private UnityEngine.Material _fadeMaterial
-    ::UnityEngine::Material*& dyn__fadeMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__fadeMaterial();
     // Get instance field reference: private UnityEngine.Material _mainEffectMaterial
-    ::UnityEngine::Material*& dyn__mainEffectMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__mainEffectMaterial();
+    // static private System.Void .cctor()
+    // Offset: 0x2A420B0
+    static void _cctor();
     // protected System.Void OnDisable()
-    // Offset: 0x29EB420
+    // Offset: 0x2A41D1C
     void OnDisable();
     // private System.Void LazyInitializeMaterials()
-    // Offset: 0x29EB2E8
+    // Offset: 0x2A41BE4
     void LazyInitializeMaterials();
     // public override System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x29EB2B8
+    // Offset: 0x2A41BB4
     // Implemented from: MainEffectSO
     // Base method: System.Boolean MainEffectSO::get_hasPostProcessEffect()
     bool get_hasPostProcessEffect();
     // public System.Void .ctor()
-    // Offset: 0x29EB778
+    // Offset: 0x2A42074
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::.ctor()
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PyramidBloomMainEffectSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PyramidBloomMainEffectSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PyramidBloomMainEffectSO*, creationType>()));
     }
-    // static private System.Void .cctor()
-    // Offset: 0x29EB7B4
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
-    static void _cctor();
     // protected override System.Void OnEnable()
-    // Offset: 0x29EB2C0
+    // Offset: 0x2A41BBC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public override System.Void PreRender()
-    // Offset: 0x29EB45C
+    // Offset: 0x2A41D58
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::PreRender()
     void PreRender();
     // public override System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
-    // Offset: 0x29EB4D0
+    // Offset: 0x2A41DCC
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
     void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float fade);
@@ -268,6 +254,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(PyramidBloomMainEffectSO) == 0x78);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::PyramidBloomMainEffectSO::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::PyramidBloomMainEffectSO::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PyramidBloomMainEffectSO*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PyramidBloomMainEffectSO::OnDisable
 // Il2CppName: OnDisable
 template<>
@@ -296,14 +290,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::PyramidBloomMainEffectSO::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::PyramidBloomMainEffectSO::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PyramidBloomMainEffectSO*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::PyramidBloomMainEffectSO::OnEnable
 // Il2CppName: OnEnable
 template<>

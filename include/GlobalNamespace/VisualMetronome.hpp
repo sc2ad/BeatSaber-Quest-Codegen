@@ -46,15 +46,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VisualMetronome : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.AudioSource _audioSource
     // Size: 0x8
     // Offset: 0x18
@@ -155,77 +147,71 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AudioSource _audioSource
-    ::UnityEngine::AudioSource*& dyn__audioSource();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioSource*& dyn__audioSource();
     // Get instance field reference: private System.Single _leftPadding
-    float& dyn__leftPadding();
+    [[deprecated("Use field access instead!")]] float& dyn__leftPadding();
     // Get instance field reference: private System.Single _rightPadding
-    float& dyn__rightPadding();
+    [[deprecated("Use field access instead!")]] float& dyn__rightPadding();
     // Get instance field reference: private UnityEngine.RectTransform _ticker
-    ::UnityEngine::RectTransform*& dyn__ticker();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__ticker();
     // Get instance field reference: private UnityEngine.RectTransform _movingTicker
-    ::UnityEngine::RectTransform*& dyn__movingTicker();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__movingTicker();
     // Get instance field reference: private UnityEngine.UI.Image _tickerImage
-    ::UnityEngine::UI::Image*& dyn__tickerImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__tickerImage();
     // Get instance field reference: private UnityEngine.UI.Image _movingTickerImage
-    ::UnityEngine::UI::Image*& dyn__movingTickerImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__movingTickerImage();
     // Get instance field reference: private System.Single _metronomeInterval
-    float& dyn__metronomeInterval();
+    [[deprecated("Use field access instead!")]] float& dyn__metronomeInterval();
     // Get instance field reference: private UnityEngine.Vector2 _normalTickerSize
-    ::UnityEngine::Vector2& dyn__normalTickerSize();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn__normalTickerSize();
     // Get instance field reference: private UnityEngine.Vector2 _tickTickerSize0
-    ::UnityEngine::Vector2& dyn__tickTickerSize0();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn__tickTickerSize0();
     // Get instance field reference: private UnityEngine.Vector2 _tickTickerSize1
-    ::UnityEngine::Vector2& dyn__tickTickerSize1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn__tickTickerSize1();
     // Get instance field reference: private System.Single _smooth
-    float& dyn__smooth();
+    [[deprecated("Use field access instead!")]] float& dyn__smooth();
     // Get instance field reference: private System.Single _prevAudioTime
-    float& dyn__prevAudioTime();
+    [[deprecated("Use field access instead!")]] float& dyn__prevAudioTime();
     // Get instance field reference: private System.Single _zeroOffset
-    float& dyn__zeroOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__zeroOffset();
     // Get instance field reference: private System.Single _direction
-    float& dyn__direction();
+    [[deprecated("Use field access instead!")]] float& dyn__direction();
     // Get instance field reference: private System.Boolean _dontTickThisFrame
-    bool& dyn__dontTickThisFrame();
+    [[deprecated("Use field access instead!")]] bool& dyn__dontTickThisFrame();
     // public System.Void set_tickerColor(UnityEngine.Color value)
-    // Offset: 0x2AC4EB8
+    // Offset: 0x2A2EC84
     void set_tickerColor(::UnityEngine::Color value);
     // public System.Void set_movingTickerColor(UnityEngine.Color value)
-    // Offset: 0x2AC4EDC
+    // Offset: 0x2A2ECA8
     void set_movingTickerColor(::UnityEngine::Color value);
     // public System.Single get_zeroOffset()
-    // Offset: 0x2AC4F10
+    // Offset: 0x2A2ECDC
     float get_zeroOffset();
     // public System.Void set_zeroOffset(System.Single value)
-    // Offset: 0x2AC4F00
+    // Offset: 0x2A2ECCC
     void set_zeroOffset(float value);
-    // protected System.Void Awake()
-    // Offset: 0x2AC4F18
-    void Awake();
-    // protected System.Void OnEnable()
-    // Offset: 0x2AC5028
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x2AC507C
-    void OnDisable();
-    // protected System.Void Update()
-    // Offset: 0x2AC50D0
-    void Update();
-    // private System.Void SetMovingTickerNormalizedPosition(System.Single t)
-    // Offset: 0x2AC5294
-    void SetMovingTickerNormalizedPosition(float t);
     // public System.Void .ctor()
-    // Offset: 0x2AC5378
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A2F144
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VisualMetronome* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VisualMetronome::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VisualMetronome*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x2A2ECE4
+    void Awake();
+    // protected System.Void OnEnable()
+    // Offset: 0x2A2EDF4
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x2A2EE48
+    void OnDisable();
+    // protected System.Void Update()
+    // Offset: 0x2A2EE9C
+    void Update();
+    // private System.Void SetMovingTickerNormalizedPosition(System.Single t)
+    // Offset: 0x2A2F060
+    void SetMovingTickerNormalizedPosition(float t);
   }; // VisualMetronome
   #pragma pack(pop)
   static check_size<sizeof(VisualMetronome), 116 + sizeof(bool)> __GlobalNamespace_VisualMetronomeSizeCheck;
@@ -267,6 +253,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VisualMetronome*), "set_zeroOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::VisualMetronome::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::VisualMetronome::Awake
 // Il2CppName: Awake
 template<>
@@ -308,7 +298,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VisualMetronome*), "SetMovingTickerNormalizedPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::VisualMetronome::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

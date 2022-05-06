@@ -54,7 +54,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.PlayMode StopAll
     static void _set_StopAll(::UnityEngine::PlayMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.PlayMode
   #pragma pack(pop)
   static check_size<sizeof(PlayMode), 0 + sizeof(int)> __UnityEngine_PlayModeSizeCheck;

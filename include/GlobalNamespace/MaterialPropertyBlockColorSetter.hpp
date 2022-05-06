@@ -38,15 +38,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MaterialPropertyBlockColorSetter : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean _useTestColor
     // Size: 0x1
     // Offset: 0x18
@@ -55,8 +47,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useTestColor and: testColor
     char __padding0[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x1239574
-    // [ColorUsageAttribute] Offset: 0x1239574
+    // [DrawIfAttribute] Offset: 0x10BE03C
+    // [ColorUsageAttribute] Offset: 0x10BE03C
     // private UnityEngine.Color _testColor
     // Size: 0x10
     // Offset: 0x1C
@@ -107,55 +99,49 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean _useTestColor
-    bool& dyn__useTestColor();
+    [[deprecated("Use field access instead!")]] bool& dyn__useTestColor();
     // Get instance field reference: private UnityEngine.Color _testColor
-    ::UnityEngine::Color& dyn__testColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__testColor();
     // Get instance field reference: private System.String _property
-    ::StringW& dyn__property();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__property();
     // Get instance field reference: protected MaterialPropertyBlockController _materialPropertyBlockController
-    ::GlobalNamespace::MaterialPropertyBlockController*& dyn__materialPropertyBlockController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MaterialPropertyBlockController*& dyn__materialPropertyBlockController();
     // Get instance field reference: private System.Boolean _inverseAlpha
-    bool& dyn__inverseAlpha();
+    [[deprecated("Use field access instead!")]] bool& dyn__inverseAlpha();
     // Get instance field reference: private System.Boolean _multiplyWithAlpha
-    bool& dyn__multiplyWithAlpha();
+    [[deprecated("Use field access instead!")]] bool& dyn__multiplyWithAlpha();
     // Get instance field reference: private System.Int32 _propertyId
-    int& dyn__propertyId();
+    [[deprecated("Use field access instead!")]] int& dyn__propertyId();
     // Get instance field reference: private System.Boolean _isInitialized
-    bool& dyn__isInitialized();
+    [[deprecated("Use field access instead!")]] bool& dyn__isInitialized();
     // public UnityEngine.Color get_color()
-    // Offset: 0x2AD5888
+    // Offset: 0x1E7EC98
     ::UnityEngine::Color get_color();
     // public MaterialPropertyBlockController get_materialPropertyBlockController()
-    // Offset: 0x2AD58C0
+    // Offset: 0x1E7ECD0
     ::GlobalNamespace::MaterialPropertyBlockController* get_materialPropertyBlockController();
     // public System.Void set_materialPropertyBlockController(MaterialPropertyBlockController value)
-    // Offset: 0x2AD58C8
+    // Offset: 0x1E7ECD8
     void set_materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
-    // protected System.Void Awake()
-    // Offset: 0x2AD58D0
-    void Awake();
-    // private System.Void InitIfNeeded()
-    // Offset: 0x2AD5910
-    void InitIfNeeded();
-    // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x2AD5950
-    void SetColor(::UnityEngine::Color color);
-    // protected System.Void OnValidate()
-    // Offset: 0x2AD5A08
-    void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0x2AD5A58
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E7EE68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MaterialPropertyBlockColorSetter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MaterialPropertyBlockColorSetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockColorSetter*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x1E7ECE0
+    void Awake();
+    // private System.Void InitIfNeeded()
+    // Offset: 0x1E7ED20
+    void InitIfNeeded();
+    // public System.Void SetColor(UnityEngine.Color color)
+    // Offset: 0x1E7ED60
+    void SetColor(::UnityEngine::Color color);
+    // protected System.Void OnValidate()
+    // Offset: 0x1E7EE18
+    void OnValidate();
   }; // MaterialPropertyBlockColorSetter
   #pragma pack(pop)
   static check_size<sizeof(MaterialPropertyBlockColorSetter), 72 + sizeof(bool)> __GlobalNamespace_MaterialPropertyBlockColorSetterSizeCheck;
@@ -187,6 +173,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialPropertyBlockColorSetter*), "set_materialPropertyBlockController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyBlockColorSetter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyBlockColorSetter::Awake
 // Il2CppName: Awake
 template<>
@@ -220,7 +210,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialPropertyBlockColorSetter*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyBlockColorSetter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

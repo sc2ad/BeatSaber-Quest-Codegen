@@ -43,15 +43,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_AssetPreset : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Char[] _identifier
     // Size: 0x8
     // Offset: 0x10
@@ -90,14 +82,14 @@ namespace HoudiniEngineUnity {
     ::System::Collections::Generic::List_1<::ArrayW<uint8_t>>* curvePresets;
     // Field size check
     static_assert(sizeof(::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*) == 0x8);
-    // [OptionalFieldAttribute] Offset: 0x127C24C
+    // [OptionalFieldAttribute] Offset: 0x1100F04
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputPreset> inputPresets
     // Size: 0x8
     // Offset: 0x40
     ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>* inputPresets;
     // Field size check
     static_assert(sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>*) == 0x8);
-    // [OptionalFieldAttribute] Offset: 0x127C284
+    // [OptionalFieldAttribute] Offset: 0x1100F3C
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_VolumeCachePreset> volumeCachePresets
     // Size: 0x8
     // Offset: 0x48
@@ -106,25 +98,23 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>*) == 0x8);
     public:
     // Get instance field reference: public System.Char[] _identifier
-    ::ArrayW<::Il2CppChar>& dyn__identifier();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppChar>& dyn__identifier();
     // Get instance field reference: public System.Int32 _version
-    int& dyn__version();
+    [[deprecated("Use field access instead!")]] int& dyn__version();
     // Get instance field reference: public System.String _assetOPName
-    ::StringW& dyn__assetOPName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__assetOPName();
     // Get instance field reference: public System.Byte[] _parameterPreset
-    ::ArrayW<uint8_t>& dyn__parameterPreset();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__parameterPreset();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> _curveNames
-    ::System::Collections::Generic::List_1<::StringW>*& dyn__curveNames();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn__curveNames();
     // Get instance field reference: public System.Collections.Generic.List`1<System.Byte[]> _curvePresets
-    ::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*& dyn__curvePresets();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*& dyn__curvePresets();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputPreset> inputPresets
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>*& dyn_inputPresets();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>*& dyn_inputPresets();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_VolumeCachePreset> volumeCachePresets
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>*& dyn_volumeCachePresets();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>*& dyn_volumeCachePresets();
     // public System.Void .ctor()
-    // Offset: 0x16AC41C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16E3D2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_AssetPreset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_AssetPreset::.ctor");

@@ -69,7 +69,7 @@ namespace Mono::Globalization::Unicode {
     // Set static field: static public Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.ExtenderType Buggy
     static void _set_Buggy(::Mono::Globalization::Unicode::SimpleCollator::ExtenderType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.ExtenderType
   #pragma pack(pop)
   static check_size<sizeof(SimpleCollator::ExtenderType), 0 + sizeof(int)> __Mono_Globalization_Unicode_SimpleCollator_ExtenderTypeSizeCheck;

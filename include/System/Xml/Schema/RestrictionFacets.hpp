@@ -33,15 +33,7 @@ namespace System::Xml::Schema {
   // [TokenAttribute] Offset: FFFFFFFF
   class RestrictionFacets : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int32 Length
     // Size: 0x4
     // Offset: 0x10
@@ -126,31 +118,31 @@ namespace System::Xml::Schema {
     static_assert(sizeof(::System::Xml::Schema::RestrictionFlags) == 0x4);
     public:
     // Get instance field reference: System.Int32 Length
-    int& dyn_Length();
+    [[deprecated("Use field access instead!")]] int& dyn_Length();
     // Get instance field reference: System.Int32 MinLength
-    int& dyn_MinLength();
+    [[deprecated("Use field access instead!")]] int& dyn_MinLength();
     // Get instance field reference: System.Int32 MaxLength
-    int& dyn_MaxLength();
+    [[deprecated("Use field access instead!")]] int& dyn_MaxLength();
     // Get instance field reference: System.Collections.ArrayList Patterns
-    ::System::Collections::ArrayList*& dyn_Patterns();
+    [[deprecated("Use field access instead!")]] ::System::Collections::ArrayList*& dyn_Patterns();
     // Get instance field reference: System.Collections.ArrayList Enumeration
-    ::System::Collections::ArrayList*& dyn_Enumeration();
+    [[deprecated("Use field access instead!")]] ::System::Collections::ArrayList*& dyn_Enumeration();
     // Get instance field reference: System.Xml.Schema.XmlSchemaWhiteSpace WhiteSpace
-    ::System::Xml::Schema::XmlSchemaWhiteSpace& dyn_WhiteSpace();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaWhiteSpace& dyn_WhiteSpace();
     // Get instance field reference: System.Object MaxInclusive
-    ::Il2CppObject*& dyn_MaxInclusive();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_MaxInclusive();
     // Get instance field reference: System.Object MaxExclusive
-    ::Il2CppObject*& dyn_MaxExclusive();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_MaxExclusive();
     // Get instance field reference: System.Object MinInclusive
-    ::Il2CppObject*& dyn_MinInclusive();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_MinInclusive();
     // Get instance field reference: System.Object MinExclusive
-    ::Il2CppObject*& dyn_MinExclusive();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_MinExclusive();
     // Get instance field reference: System.Int32 TotalDigits
-    int& dyn_TotalDigits();
+    [[deprecated("Use field access instead!")]] int& dyn_TotalDigits();
     // Get instance field reference: System.Int32 FractionDigits
-    int& dyn_FractionDigits();
+    [[deprecated("Use field access instead!")]] int& dyn_FractionDigits();
     // Get instance field reference: System.Xml.Schema.RestrictionFlags Flags
-    ::System::Xml::Schema::RestrictionFlags& dyn_Flags();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::RestrictionFlags& dyn_Flags();
   }; // System.Xml.Schema.RestrictionFacets
   #pragma pack(pop)
   static check_size<sizeof(RestrictionFacets), 96 + sizeof(::System::Xml::Schema::RestrictionFlags)> __System_Xml_Schema_RestrictionFacetsSizeCheck;

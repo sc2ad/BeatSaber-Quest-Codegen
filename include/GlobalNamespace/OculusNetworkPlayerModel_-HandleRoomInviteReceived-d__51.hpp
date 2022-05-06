@@ -86,22 +86,22 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public OculusNetworkPlayerModel <>4__this
-    ::GlobalNamespace::OculusNetworkPlayerModel*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OculusNetworkPlayerModel*& dyn_$$4__this();
     // Get instance field reference: public Oculus.Platform.Message`1<Oculus.Platform.Models.RoomInviteNotification> message
-    ::Oculus::Platform::Message_1<::Oculus::Platform::Models::RoomInviteNotification*>*& dyn_message();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Message_1<::Oculus::Platform::Models::RoomInviteNotification*>*& dyn_message();
     // Get instance field reference: private OculusNetworkPlayerModel/<>c__DisplayClass51_0 <>8__1
-    ::GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass51_0*& dyn_$$8__1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass51_0*& dyn_$$8__1();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1512210
+    // Offset: 0x1549B18
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1512570
+    // Offset: 0x1549E78
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusNetworkPlayerModel/<HandleRoomInviteReceived>d__51
   // WARNING Not writing size check since size may be invalid!

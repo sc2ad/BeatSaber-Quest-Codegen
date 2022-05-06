@@ -45,15 +45,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PreviewBeatmapLevelPackSO : public ::GlobalNamespace::PersistentScriptableObject/*, public ::GlobalNamespace::IBeatmapLevelPack*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _packID
     // Size: 0x8
     // Offset: 0x18
@@ -84,7 +76,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Sprite* smallCoverImage;
     // Field size check
     static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124C8C0
+    // [SpaceAttribute] Offset: 0x10D13B8
     // private PreviewBeatmapLevelCollectionSO _previewBeatmapLevelCollection
     // Size: 0x8
     // Offset: 0x40
@@ -99,45 +91,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _packID
-    ::StringW& dyn__packID();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__packID();
     // Get instance field reference: private System.String _packName
-    ::StringW& dyn__packName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__packName();
     // Get instance field reference: private System.String _shortPackName
-    ::StringW& dyn__shortPackName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__shortPackName();
     // Get instance field reference: private UnityEngine.Sprite _coverImage
-    ::UnityEngine::Sprite*& dyn__coverImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__coverImage();
     // Get instance field reference: private UnityEngine.Sprite _smallCoverImage
-    ::UnityEngine::Sprite*& dyn__smallCoverImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__smallCoverImage();
     // Get instance field reference: private PreviewBeatmapLevelCollectionSO _previewBeatmapLevelCollection
-    ::GlobalNamespace::PreviewBeatmapLevelCollectionSO*& dyn__previewBeatmapLevelCollection();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PreviewBeatmapLevelCollectionSO*& dyn__previewBeatmapLevelCollection();
     // public System.String get_packID()
-    // Offset: 0x1378880
+    // Offset: 0x13DFBBC
     ::StringW get_packID();
     // public System.String get_packName()
-    // Offset: 0x1378888
+    // Offset: 0x13DFBC4
     ::StringW get_packName();
     // public System.String get_shortPackName()
-    // Offset: 0x1378890
+    // Offset: 0x13DFBCC
     ::StringW get_shortPackName();
     // public System.String get_collectionName()
-    // Offset: 0x1378898
+    // Offset: 0x13DFBD4
     ::StringW get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x13788A0
+    // Offset: 0x13DFBDC
     ::UnityEngine::Sprite* get_coverImage();
     // public UnityEngine.Sprite get_smallCoverImage()
-    // Offset: 0x13788A8
+    // Offset: 0x13DFBE4
     ::UnityEngine::Sprite* get_smallCoverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x13788B0
+    // Offset: 0x13DFBEC
     ::GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
     // public System.Void .ctor()
-    // Offset: 0x13788B8
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13DFBF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PreviewBeatmapLevelPackSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PreviewBeatmapLevelPackSO::.ctor");

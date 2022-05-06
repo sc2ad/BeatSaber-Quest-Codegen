@@ -360,7 +360,7 @@ namespace TMPro {
     // Set static field: static public TMPro.RichTextTag DEFAULT
     static void _set_DEFAULT(::TMPro::RichTextTag value);
     // Get instance field reference: public System.UInt32 value__
-    uint& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint& dyn_value__();
   }; // TMPro.RichTextTag
   #pragma pack(pop)
   static check_size<sizeof(RichTextTag), 0 + sizeof(uint)> __TMPro_RichTextTagSizeCheck;

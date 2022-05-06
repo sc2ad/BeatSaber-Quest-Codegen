@@ -112,20 +112,12 @@ namespace GlobalNamespace {
       // Set static field: static public MultiplayerConnectedPlayerScoreDiffText/State AnimatingHide
       static void _set_AnimatingHide(::GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::State value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // MultiplayerConnectedPlayerScoreDiffText/State
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerConnectedPlayerScoreDiffText::State), 0 + sizeof(int)> __GlobalNamespace_MultiplayerConnectedPlayerScoreDiffText_StateSizeCheck;
     static_assert(sizeof(MultiplayerConnectedPlayerScoreDiffText::State) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Color _activeTextColor
     // Size: 0x10
     // Offset: 0x18
@@ -144,7 +136,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Color leadingBackgroundColor;
     // Field size check
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
-    // [SpaceAttribute] Offset: 0x1253B5C
+    // [SpaceAttribute] Offset: 0x10D8740
     // private TMPro.TextMeshPro _onPlatformText
     // Size: 0x8
     // Offset: 0x48
@@ -157,21 +149,21 @@ namespace GlobalNamespace {
     ::UnityEngine::SpriteRenderer* backgroundSpriteRenderer;
     // Field size check
     static_assert(sizeof(::UnityEngine::SpriteRenderer*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253BA4
+    // [InjectAttribute] Offset: 0x10D8788
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x58
     ::Tweening::TimeTweeningManager* tweeningManager;
     // Field size check
     static_assert(sizeof(::Tweening::TimeTweeningManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253BB4
+    // [InjectAttribute] Offset: 0x10D8798
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x60
     ::GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253BC4
+    // [InjectAttribute] Offset: 0x10D87A8
     // private readonly MultiplayerLeadPlayerProvider _leadPlayerProvider
     // Size: 0x8
     // Offset: 0x68
@@ -202,67 +194,61 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Color _activeTextColor
-    ::UnityEngine::Color& dyn__activeTextColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__activeTextColor();
     // Get instance field reference: private UnityEngine.Color _normalBackgroundColor
-    ::UnityEngine::Color& dyn__normalBackgroundColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__normalBackgroundColor();
     // Get instance field reference: private UnityEngine.Color _leadingBackgroundColor
-    ::UnityEngine::Color& dyn__leadingBackgroundColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__leadingBackgroundColor();
     // Get instance field reference: private TMPro.TextMeshPro _onPlatformText
-    ::TMPro::TextMeshPro*& dyn__onPlatformText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshPro*& dyn__onPlatformText();
     // Get instance field reference: private UnityEngine.SpriteRenderer _backgroundSpriteRenderer
-    ::UnityEngine::SpriteRenderer*& dyn__backgroundSpriteRenderer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::SpriteRenderer*& dyn__backgroundSpriteRenderer();
     // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
-    ::Tweening::TimeTweeningManager*& dyn__tweeningManager();
+    [[deprecated("Use field access instead!")]] ::Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
-    ::GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // Get instance field reference: private readonly MultiplayerLeadPlayerProvider _leadPlayerProvider
-    ::GlobalNamespace::MultiplayerLeadPlayerProvider*& dyn__leadPlayerProvider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLeadPlayerProvider*& dyn__leadPlayerProvider();
     // Get instance field reference: private UnityEngine.Color _currentBackgroundColor
-    ::UnityEngine::Color& dyn__currentBackgroundColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__currentBackgroundColor();
     // Get instance field reference: private MultiplayerConnectedPlayerScoreDiffText/State _state
-    ::GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::State& dyn__state();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::State& dyn__state();
     // Get instance field reference: private Tweening.FloatTween _onPlatformTextAlphaTween
-    ::Tweening::FloatTween*& dyn__onPlatformTextAlphaTween();
-    // private System.Void Start()
-    // Offset: 0x13D5A78
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13D5BA0
-    void OnDestroy();
-    // public System.Void SetHorizontalPositionRelativeToLocalPlayer(MultiplayerConnectedPlayerScoreDiffText/HorizontalPosition relativePosition)
-    // Offset: 0x13D5CC0
-    void SetHorizontalPositionRelativeToLocalPlayer(::GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::HorizontalPosition relativePosition);
-    // public System.Void AnimateScoreDiff(System.Int32 scoreDiff)
-    // Offset: 0x13D5DD8
-    void AnimateScoreDiff(int scoreDiff);
-    // public System.Void AnimateHide()
-    // Offset: 0x13D5F74
-    void AnimateHide();
-    // private System.Void HandleNewLeaderWasSelected(System.String userId)
-    // Offset: 0x13D6064
-    void HandleNewLeaderWasSelected(::StringW userId);
-    // private System.Void <Start>b__13_0(System.Single val)
-    // Offset: 0x13D61E4
-    void $Start$b__13_0(float val);
-    // private System.Void <AnimateScoreDiff>b__16_0()
-    // Offset: 0x13D624C
-    void $AnimateScoreDiff$b__16_0();
-    // private System.Void <AnimateHide>b__17_0()
-    // Offset: 0x13D6258
-    void $AnimateHide$b__17_0();
+    [[deprecated("Use field access instead!")]] ::Tweening::FloatTween*& dyn__onPlatformTextAlphaTween();
     // public System.Void .ctor()
-    // Offset: 0x13D6190
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D263C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerScoreDiffText* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerScoreDiffText*, creationType>()));
     }
+    // private System.Void Start()
+    // Offset: 0x13D1F24
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13D204C
+    void OnDestroy();
+    // public System.Void SetHorizontalPositionRelativeToLocalPlayer(MultiplayerConnectedPlayerScoreDiffText/HorizontalPosition relativePosition)
+    // Offset: 0x13D216C
+    void SetHorizontalPositionRelativeToLocalPlayer(::GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::HorizontalPosition relativePosition);
+    // public System.Void AnimateScoreDiff(System.Int32 scoreDiff)
+    // Offset: 0x13D2284
+    void AnimateScoreDiff(int scoreDiff);
+    // public System.Void AnimateHide()
+    // Offset: 0x13D2420
+    void AnimateHide();
+    // private System.Void HandleNewLeaderWasSelected(System.String userId)
+    // Offset: 0x13D2510
+    void HandleNewLeaderWasSelected(::StringW userId);
+    // private System.Void <Start>b__13_0(System.Single val)
+    // Offset: 0x13D2690
+    void $Start$b__13_0(float val);
+    // private System.Void <AnimateScoreDiff>b__16_0()
+    // Offset: 0x13D26F8
+    void $AnimateScoreDiff$b__16_0();
+    // private System.Void <AnimateHide>b__17_0()
+    // Offset: 0x13D2704
+    void $AnimateHide$b__17_0();
   }; // MultiplayerConnectedPlayerScoreDiffText
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerScoreDiffText), 136 + sizeof(::Tweening::FloatTween*)> __GlobalNamespace_MultiplayerConnectedPlayerScoreDiffTextSizeCheck;
@@ -271,6 +257,10 @@ namespace GlobalNamespace {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::State, "", "MultiplayerConnectedPlayerScoreDiffText/State");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::Start
 // Il2CppName: Start
 template<>
@@ -347,7 +337,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText*), "<AnimateHide>b__17_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

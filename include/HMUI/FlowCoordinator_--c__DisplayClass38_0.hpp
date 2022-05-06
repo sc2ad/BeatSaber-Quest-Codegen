@@ -31,15 +31,7 @@ namespace HMUI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class FlowCoordinator::$$c__DisplayClass38_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean immediately
     // Size: 0x1
     // Offset: 0x10
@@ -62,15 +54,13 @@ namespace HMUI {
     static_assert(sizeof(::System::Action*) == 0x8);
     public:
     // Get instance field reference: public System.Boolean immediately
-    bool& dyn_immediately();
+    [[deprecated("Use field access instead!")]] bool& dyn_immediately();
     // Get instance field reference: public HMUI.FlowCoordinator <>4__this
-    ::HMUI::FlowCoordinator*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::HMUI::FlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: public System.Action finishedCallback
-    ::System::Action*& dyn_finishedCallback();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_finishedCallback();
     // public System.Void .ctor()
-    // Offset: 0x16E6418
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x171DD28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlowCoordinator::$$c__DisplayClass38_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::FlowCoordinator::$$c__DisplayClass38_0::.ctor");

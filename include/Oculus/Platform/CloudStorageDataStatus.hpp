@@ -41,49 +41,49 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x123F168
+    // [DescriptionAttribute] Offset: 0x10C3C40
     // static field const value: static public Oculus.Platform.CloudStorageDataStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.CloudStorageDataStatus Unknown
     static ::Oculus::Platform::CloudStorageDataStatus _get_Unknown();
     // Set static field: static public Oculus.Platform.CloudStorageDataStatus Unknown
     static void _set_Unknown(::Oculus::Platform::CloudStorageDataStatus value);
-    // [DescriptionAttribute] Offset: 0x123F1A0
+    // [DescriptionAttribute] Offset: 0x10C3C78
     // static field const value: static public Oculus.Platform.CloudStorageDataStatus InSync
     static constexpr const int InSync = 1;
     // Get static field: static public Oculus.Platform.CloudStorageDataStatus InSync
     static ::Oculus::Platform::CloudStorageDataStatus _get_InSync();
     // Set static field: static public Oculus.Platform.CloudStorageDataStatus InSync
     static void _set_InSync(::Oculus::Platform::CloudStorageDataStatus value);
-    // [DescriptionAttribute] Offset: 0x123F1D8
+    // [DescriptionAttribute] Offset: 0x10C3CB0
     // static field const value: static public Oculus.Platform.CloudStorageDataStatus NeedsDownload
     static constexpr const int NeedsDownload = 2;
     // Get static field: static public Oculus.Platform.CloudStorageDataStatus NeedsDownload
     static ::Oculus::Platform::CloudStorageDataStatus _get_NeedsDownload();
     // Set static field: static public Oculus.Platform.CloudStorageDataStatus NeedsDownload
     static void _set_NeedsDownload(::Oculus::Platform::CloudStorageDataStatus value);
-    // [DescriptionAttribute] Offset: 0x123F210
+    // [DescriptionAttribute] Offset: 0x10C3CE8
     // static field const value: static public Oculus.Platform.CloudStorageDataStatus RemoteDownloading
     static constexpr const int RemoteDownloading = 3;
     // Get static field: static public Oculus.Platform.CloudStorageDataStatus RemoteDownloading
     static ::Oculus::Platform::CloudStorageDataStatus _get_RemoteDownloading();
     // Set static field: static public Oculus.Platform.CloudStorageDataStatus RemoteDownloading
     static void _set_RemoteDownloading(::Oculus::Platform::CloudStorageDataStatus value);
-    // [DescriptionAttribute] Offset: 0x123F248
+    // [DescriptionAttribute] Offset: 0x10C3D20
     // static field const value: static public Oculus.Platform.CloudStorageDataStatus NeedsUpload
     static constexpr const int NeedsUpload = 4;
     // Get static field: static public Oculus.Platform.CloudStorageDataStatus NeedsUpload
     static ::Oculus::Platform::CloudStorageDataStatus _get_NeedsUpload();
     // Set static field: static public Oculus.Platform.CloudStorageDataStatus NeedsUpload
     static void _set_NeedsUpload(::Oculus::Platform::CloudStorageDataStatus value);
-    // [DescriptionAttribute] Offset: 0x123F280
+    // [DescriptionAttribute] Offset: 0x10C3D58
     // static field const value: static public Oculus.Platform.CloudStorageDataStatus LocalUploading
     static constexpr const int LocalUploading = 5;
     // Get static field: static public Oculus.Platform.CloudStorageDataStatus LocalUploading
     static ::Oculus::Platform::CloudStorageDataStatus _get_LocalUploading();
     // Set static field: static public Oculus.Platform.CloudStorageDataStatus LocalUploading
     static void _set_LocalUploading(::Oculus::Platform::CloudStorageDataStatus value);
-    // [DescriptionAttribute] Offset: 0x123F2B8
+    // [DescriptionAttribute] Offset: 0x10C3D90
     // static field const value: static public Oculus.Platform.CloudStorageDataStatus InConflict
     static constexpr const int InConflict = 6;
     // Get static field: static public Oculus.Platform.CloudStorageDataStatus InConflict
@@ -91,7 +91,7 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.CloudStorageDataStatus InConflict
     static void _set_InConflict(::Oculus::Platform::CloudStorageDataStatus value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Oculus.Platform.CloudStorageDataStatus
   #pragma pack(pop)
   static check_size<sizeof(CloudStorageDataStatus), 0 + sizeof(int)> __Oculus_Platform_CloudStorageDataStatusSizeCheck;

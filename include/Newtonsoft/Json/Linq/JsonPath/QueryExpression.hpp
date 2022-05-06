@@ -28,9 +28,7 @@ namespace Newtonsoft::Json::Linq::JsonPath {
   class QueryExpression : public ::Il2CppObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x1722AF0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x175B400
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static QueryExpression* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JsonPath::QueryExpression::.ctor");

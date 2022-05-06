@@ -56,15 +56,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::LightColorGroupEffect::InitData
     class InitData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Int32 _lightId
     // Size: 0x4
     // Offset: 0x10
@@ -158,68 +150,68 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1251168
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D5C8C
     // Get static field: static private readonly UnityEngine.Color offColor
     static ::UnityEngine::Color _get_offColor();
     // Set static field: static private readonly UnityEngine.Color offColor
     static void _set_offColor(::UnityEngine::Color value);
     // Get instance field reference: private readonly System.Int32 _lightId
-    int& dyn__lightId();
+    [[deprecated("Use field access instead!")]] int& dyn__lightId();
     // Get instance field reference: private readonly LightWithIdManager _lightManager
-    ::GlobalNamespace::LightWithIdManager*& dyn__lightManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightWithIdManager*& dyn__lightManager();
     // Get instance field reference: private readonly Tweening.SongTimeTweeningManager _tweeningManager
-    ::Tweening::SongTimeTweeningManager*& dyn__tweeningManager();
+    [[deprecated("Use field access instead!")]] ::Tweening::SongTimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private readonly ColorManager _colorManager
-    ::GlobalNamespace::ColorManager*& dyn__colorManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorManager*& dyn__colorManager();
     // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
-    ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
     // Get instance field reference: private readonly IBpmController _bpmController
-    ::GlobalNamespace::IBpmController*& dyn__bpmController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBpmController*& dyn__bpmController();
     // Get instance field reference: private readonly Tweening.FloatTween _floatTween
-    ::Tweening::FloatTween*& dyn__floatTween();
+    [[deprecated("Use field access instead!")]] ::Tweening::FloatTween*& dyn__floatTween();
     // Get instance field reference: private readonly BeatmapDataCallbackWrapper _lightColorBeatmapEventCallbackWrapper
-    ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__lightColorBeatmapEventCallbackWrapper();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__lightColorBeatmapEventCallbackWrapper();
     // Get instance field reference: private System.Single _fromStrobeFrequency
-    float& dyn__fromStrobeFrequency();
+    [[deprecated("Use field access instead!")]] float& dyn__fromStrobeFrequency();
     // Get instance field reference: private System.Single _toStrobeFrequency
-    float& dyn__toStrobeFrequency();
+    [[deprecated("Use field access instead!")]] float& dyn__toStrobeFrequency();
     // Get instance field reference: private UnityEngine.Color _fromColor
-    ::UnityEngine::Color& dyn__fromColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__fromColor();
     // Get instance field reference: private UnityEngine.Color _toColor
-    ::UnityEngine::Color& dyn__toColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__toColor();
     // Get instance field reference: private UnityEngine.Color _alternativeFromColor
-    ::UnityEngine::Color& dyn__alternativeFromColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__alternativeFromColor();
     // Get instance field reference: private UnityEngine.Color _alternativeToColor
-    ::UnityEngine::Color& dyn__alternativeToColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__alternativeToColor();
     // Get instance field reference: private System.Boolean _usingBoostColors
-    bool& dyn__usingBoostColors();
+    [[deprecated("Use field access instead!")]] bool& dyn__usingBoostColors();
     // public System.Void .ctor(LightColorGroupEffect/InitData initData, LightWithIdManager lightManager, Tweening.SongTimeTweeningManager tweeningManager, ColorManager colorManager, BeatmapCallbacksController beatmapCallbacksController, IBpmController bpmController)
-    // Offset: 0x148BC0C
+    // Offset: 0x14C248C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightColorGroupEffect* New_ctor(::GlobalNamespace::LightColorGroupEffect::InitData* initData, ::GlobalNamespace::LightWithIdManager* lightManager, ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::ColorManager* colorManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::IBpmController* bpmController) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightColorGroupEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightColorGroupEffect*, creationType>(initData, lightManager, tweeningManager, colorManager, beatmapCallbacksController, bpmController)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x148C630
+    // Offset: 0x14C2EB0
     static void _cctor();
     // public System.Void Cleanup()
-    // Offset: 0x148BEA4
+    // Offset: 0x14C2724
     void Cleanup();
     // private System.Void HandleColorChangeBeatmapEvent(LightColorBeatmapEventData currentEventData)
-    // Offset: 0x148BF50
+    // Offset: 0x14C27D0
     void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* currentEventData);
     // public System.Void UseBoostColors(System.Boolean useBoostColors)
-    // Offset: 0x148C3C4
+    // Offset: 0x14C2C44
     void UseBoostColors(bool useBoostColors);
     // private System.Void SetData(UnityEngine.Color fromColor, UnityEngine.Color toColor, UnityEngine.Color alternativeFromColor, UnityEngine.Color alternativeToColor, System.Single fromStrobeBeatFrequency, System.Single toStrobeBeatFrequency)
-    // Offset: 0x148C4B0
+    // Offset: 0x14C2D30
     void SetData(::UnityEngine::Color fromColor, ::UnityEngine::Color toColor, ::UnityEngine::Color alternativeFromColor, ::UnityEngine::Color alternativeToColor, float fromStrobeBeatFrequency, float toStrobeBeatFrequency);
     // private UnityEngine.Color GetColor(EnvironmentColorType colorType, System.Boolean colorBoost, System.Single brightness)
-    // Offset: 0x148C248
+    // Offset: 0x14C2AC8
     ::UnityEngine::Color GetColor(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float brightness);
     // private System.Void SetColor(System.Single t)
-    // Offset: 0x148C280
+    // Offset: 0x14C2B00
     void SetColor(float t);
   }; // LightColorGroupEffect
   #pragma pack(pop)

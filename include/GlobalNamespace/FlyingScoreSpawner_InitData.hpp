@@ -25,15 +25,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FlyingScoreSpawner::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly FlyingScoreSpawner/SpawnPosition spawnPosition
     // Size: 0x4
     // Offset: 0x10
@@ -46,9 +38,9 @@ namespace GlobalNamespace {
       return spawnPosition;
     }
     // Get instance field reference: public readonly FlyingScoreSpawner/SpawnPosition spawnPosition
-    ::GlobalNamespace::FlyingScoreSpawner::SpawnPosition& dyn_spawnPosition();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FlyingScoreSpawner::SpawnPosition& dyn_spawnPosition();
     // public System.Void .ctor(FlyingScoreSpawner/SpawnPosition spawnPosition)
-    // Offset: 0x1391A74
+    // Offset: 0x1379588
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlyingScoreSpawner::InitData* New_ctor(::GlobalNamespace::FlyingScoreSpawner::SpawnPosition spawnPosition) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FlyingScoreSpawner::InitData::.ctor");

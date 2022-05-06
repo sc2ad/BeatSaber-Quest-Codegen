@@ -40,20 +40,20 @@ namespace System {
   class IOAsyncCallback : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1CB7CAC
+    // Offset: 0x1CF4204
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IOAsyncCallback* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IOAsyncCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOAsyncCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.IOAsyncResult ioares)
-    // Offset: 0x1CB7CBC
+    // Offset: 0x1CF4214
     void Invoke(::System::IOAsyncResult* ioares);
     // public System.IAsyncResult BeginInvoke(System.IOAsyncResult ioares, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1CB8050
+    // Offset: 0x1CF45A8
     ::System::IAsyncResult* BeginInvoke(::System::IOAsyncResult* ioares, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1CB8074
+    // Offset: 0x1CF45CC
     void EndInvoke(::System::IAsyncResult* result);
   }; // System.IOAsyncCallback
   #pragma pack(pop)

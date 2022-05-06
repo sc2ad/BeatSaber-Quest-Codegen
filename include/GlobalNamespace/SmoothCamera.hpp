@@ -40,22 +40,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SmoothCamera : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Camera _camera
     // Size: 0x8
     // Offset: 0x18
     ::UnityEngine::Camera* camera;
     // Field size check
     static_assert(sizeof(::UnityEngine::Camera*) == 0x8);
-    // [InjectAttribute] Offset: 0x125627C
+    // [InjectAttribute] Offset: 0x10DAE60
     // private MainCamera _mainCamera
     // Size: 0x8
     // Offset: 0x20
@@ -98,50 +90,48 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Camera _camera
-    ::UnityEngine::Camera*& dyn__camera();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Camera*& dyn__camera();
     // Get instance field reference: private MainCamera _mainCamera
-    ::GlobalNamespace::MainCamera*& dyn__mainCamera();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainCamera*& dyn__mainCamera();
     // Get instance field reference: private UnityEngine.Vector3 _thirdPersonPosition
-    ::UnityEngine::Vector3& dyn__thirdPersonPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__thirdPersonPosition();
     // Get instance field reference: private UnityEngine.Vector3 _thirdPersonEulerAngles
-    ::UnityEngine::Vector3& dyn__thirdPersonEulerAngles();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__thirdPersonEulerAngles();
     // Get instance field reference: private System.Boolean _thirdPersonEnabled
-    bool& dyn__thirdPersonEnabled();
+    [[deprecated("Use field access instead!")]] bool& dyn__thirdPersonEnabled();
     // Get instance field reference: private System.Single _rotationSmooth
-    float& dyn__rotationSmooth();
+    [[deprecated("Use field access instead!")]] float& dyn__rotationSmooth();
     // Get instance field reference: private System.Single _positionSmooth
-    float& dyn__positionSmooth();
-    // public System.Void Init(System.Single fieldOfView, System.Single positionSmooth, System.Single rotationSmooth, System.Boolean thirdPersonEnabled, UnityEngine.Vector3 thirdPersonPosition, UnityEngine.Vector3 thirdPersonEulerAngles)
-    // Offset: 0x2AA37A0
-    void Init(float fieldOfView, float positionSmooth, float rotationSmooth, bool thirdPersonEnabled, ::UnityEngine::Vector3 thirdPersonPosition, ::UnityEngine::Vector3 thirdPersonEulerAngles);
-    // protected System.Void OnEnable()
-    // Offset: 0x2AA394C
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x2AA396C
-    void OnDisable();
-    // protected System.Void LateUpdate()
-    // Offset: 0x2AA398C
-    void LateUpdate();
+    [[deprecated("Use field access instead!")]] float& dyn__positionSmooth();
     // public System.Void .ctor()
-    // Offset: 0x2AA3BC8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x138A7EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SmoothCamera* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SmoothCamera::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SmoothCamera*, creationType>()));
     }
+    // public System.Void Init(System.Single fieldOfView, System.Single positionSmooth, System.Single rotationSmooth, System.Boolean thirdPersonEnabled, UnityEngine.Vector3 thirdPersonPosition, UnityEngine.Vector3 thirdPersonEulerAngles)
+    // Offset: 0x138A3C4
+    void Init(float fieldOfView, float positionSmooth, float rotationSmooth, bool thirdPersonEnabled, ::UnityEngine::Vector3 thirdPersonPosition, ::UnityEngine::Vector3 thirdPersonEulerAngles);
+    // protected System.Void OnEnable()
+    // Offset: 0x138A570
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x138A590
+    void OnDisable();
+    // protected System.Void LateUpdate()
+    // Offset: 0x138A5B0
+    void LateUpdate();
   }; // SmoothCamera
   #pragma pack(pop)
   static check_size<sizeof(SmoothCamera), 72 + sizeof(float)> __GlobalNamespace_SmoothCameraSizeCheck;
   static_assert(sizeof(SmoothCamera) == 0x4C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SmoothCamera::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SmoothCamera::Init
 // Il2CppName: Init
 template<>
@@ -180,7 +170,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SmoothCamera*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SmoothCamera::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

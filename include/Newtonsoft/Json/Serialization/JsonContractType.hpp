@@ -97,7 +97,7 @@ namespace Newtonsoft::Json::Serialization {
     // Set static field: static public Newtonsoft.Json.Serialization.JsonContractType Linq
     static void _set_Linq(::Newtonsoft::Json::Serialization::JsonContractType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Newtonsoft.Json.Serialization.JsonContractType
   #pragma pack(pop)
   static check_size<sizeof(JsonContractType), 0 + sizeof(int)> __Newtonsoft_Json_Serialization_JsonContractTypeSizeCheck;

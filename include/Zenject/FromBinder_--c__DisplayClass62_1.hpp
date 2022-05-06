@@ -45,15 +45,7 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class FromBinder::$$c__DisplayClass62_1 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Type concreteType
     // Size: 0x8
     // Offset: 0x10
@@ -68,33 +60,35 @@ namespace Zenject {
     static_assert(sizeof(::Zenject::FromBinder::$$c__DisplayClass62_0*) == 0x8);
     public:
     // Get instance field reference: public System.Type concreteType
-    ::System::Type*& dyn_concreteType();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_concreteType();
     // Get instance field reference: public Zenject.FromBinder/Zenject.<>c__DisplayClass62_0 CS$<>8__locals1
-    ::Zenject::FromBinder::$$c__DisplayClass62_0*& dyn_CS$$$8__locals1();
-    // System.Collections.Generic.IEnumerable`1<System.Object> <FromComponentsInParents>b__1(Zenject.InjectContext ctx)
-    // Offset: 0x1DE7EEC
-    ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* $FromComponentsInParents$b__1(::Zenject::InjectContext* ctx);
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1DE80F8
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1DE8154
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    [[deprecated("Use field access instead!")]] ::Zenject::FromBinder::$$c__DisplayClass62_0*& dyn_CS$$$8__locals1();
     // public System.Void .ctor()
-    // Offset: 0x1DE7D28
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E225F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FromBinder::$$c__DisplayClass62_1* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FromBinder::$$c__DisplayClass62_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FromBinder::$$c__DisplayClass62_1*, creationType>()));
     }
+    // System.Collections.Generic.IEnumerable`1<System.Object> <FromComponentsInParents>b__1(Zenject.InjectContext ctx)
+    // Offset: 0x1E227B8
+    ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* $FromComponentsInParents$b__1(::Zenject::InjectContext* ctx);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1E229C4
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1E22A20
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.FromBinder/Zenject.<>c__DisplayClass62_1
   #pragma pack(pop)
   static check_size<sizeof(FromBinder::$$c__DisplayClass62_1), 24 + sizeof(::Zenject::FromBinder::$$c__DisplayClass62_0*)> __Zenject_FromBinder_$$c__DisplayClass62_1SizeCheck;
   static_assert(sizeof(FromBinder::$$c__DisplayClass62_1) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::FromBinder::$$c__DisplayClass62_1::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c__DisplayClass62_1::$FromComponentsInParents$b__1
 // Il2CppName: <FromComponentsInParents>b__1
 template<>
@@ -121,7 +115,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c__DisplayClass62_1*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::FromBinder::$$c__DisplayClass62_1::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

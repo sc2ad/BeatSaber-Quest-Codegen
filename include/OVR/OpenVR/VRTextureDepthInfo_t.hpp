@@ -56,11 +56,11 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.IntPtr handle
-    ::System::IntPtr& dyn_handle();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_handle();
     // Get instance field reference: public OVR.OpenVR.HmdMatrix44_t mProjection
-    ::OVR::OpenVR::HmdMatrix44_t& dyn_mProjection();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::HmdMatrix44_t& dyn_mProjection();
     // Get instance field reference: public OVR.OpenVR.HmdVector2_t vRange
-    ::OVR::OpenVR::HmdVector2_t& dyn_vRange();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::HmdVector2_t& dyn_vRange();
   }; // OVR.OpenVR.VRTextureDepthInfo_t
   #pragma pack(pop)
   static check_size<sizeof(VRTextureDepthInfo_t), 72 + sizeof(::OVR::OpenVR::HmdVector2_t)> __OVR_OpenVR_VRTextureDepthInfo_tSizeCheck;

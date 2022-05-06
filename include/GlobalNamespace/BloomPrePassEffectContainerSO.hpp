@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassEffectContainerSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BloomPrePassEffectSO _bloomPrePassEffect
     // Size: 0x8
     // Offset: 0x18
@@ -54,25 +46,20 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BloomPrePassEffectSO _bloomPrePassEffect
-    ::GlobalNamespace::BloomPrePassEffectSO*& dyn__bloomPrePassEffect();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassEffectSO*& dyn__bloomPrePassEffect();
     // public BloomPrePassEffectSO get_bloomPrePassEffect()
-    // Offset: 0x2ACD4CC
+    // Offset: 0x1E76894
     ::GlobalNamespace::BloomPrePassEffectSO* get_bloomPrePassEffect();
-    // public System.Void Init(BloomPrePassEffectSO bloomPrePassEffect)
-    // Offset: 0x2ACD4D4
-    void Init(::GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect);
     // public System.Void .ctor()
-    // Offset: 0x2ACD4DC
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E768A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassEffectContainerSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassEffectContainerSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassEffectContainerSO*, creationType>()));
     }
+    // public System.Void Init(BloomPrePassEffectSO bloomPrePassEffect)
+    // Offset: 0x1E7689C
+    void Init(::GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect);
   }; // BloomPrePassEffectContainerSO
   #pragma pack(pop)
   static check_size<sizeof(BloomPrePassEffectContainerSO), 24 + sizeof(::GlobalNamespace::BloomPrePassEffectSO*)> __GlobalNamespace_BloomPrePassEffectContainerSOSizeCheck;
@@ -87,6 +74,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassEffectContainerSO*), "get_bloomPrePassEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassEffectContainerSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassEffectContainerSO::Init
 // Il2CppName: Init
 template<>
@@ -96,7 +87,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassEffectContainerSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bloomPrePassEffect});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassEffectContainerSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

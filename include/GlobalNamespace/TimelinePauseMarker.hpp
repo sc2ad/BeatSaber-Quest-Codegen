@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimelinePauseMarker : public ::UnityEngine::Timeline::Marker/*, public ::UnityEngine::Playables::INotification*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly UnityEngine.PropertyName <id>k__BackingField
     // Size: 0x4
     // Offset: 0x28
@@ -53,17 +45,12 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::UnityEngine::Playables::INotification*>(this);
     }
     // Get instance field reference: private readonly UnityEngine.PropertyName <id>k__BackingField
-    ::UnityEngine::PropertyName& dyn_$id$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::PropertyName& dyn_$id$k__BackingField();
     // public UnityEngine.PropertyName get_id()
-    // Offset: 0x29D8DBC
+    // Offset: 0x2A2B2CC
     ::UnityEngine::PropertyName get_id();
     // public System.Void .ctor()
-    // Offset: 0x29D8DC4
-    // Implemented from: UnityEngine.Timeline.Marker
-    // Base method: System.Void Marker::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A2B2D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimelinePauseMarker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TimelinePauseMarker::.ctor");

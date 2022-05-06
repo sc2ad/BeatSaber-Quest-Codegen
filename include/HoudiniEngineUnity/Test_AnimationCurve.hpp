@@ -35,15 +35,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_AnimationCurve : public ::Il2CppObject/*, public ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_AnimationCurve*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.AnimationCurve self
     // Size: 0x8
     // Offset: 0x10
@@ -60,19 +52,19 @@ namespace HoudiniEngineUnity {
       return self;
     }
     // Get instance field reference: public UnityEngine.AnimationCurve self
-    ::UnityEngine::AnimationCurve*& dyn_self();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_self();
     // public System.Void .ctor(UnityEngine.AnimationCurve self)
-    // Offset: 0x19E223C
+    // Offset: 0x1A1B824
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_AnimationCurve* New_ctor(::UnityEngine::AnimationCurve* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_AnimationCurve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_AnimationCurve*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x19E2268
+    // Offset: 0x1A1B850
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_AnimationCurve other)
-    // Offset: 0x19E2278
+    // Offset: 0x1A1B860
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_AnimationCurve* other);
   }; // HoudiniEngineUnity.Test_AnimationCurve
   #pragma pack(pop)

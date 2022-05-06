@@ -40,15 +40,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
   // [TokenAttribute] Offset: FFFFFFFF
   class Iso9796d2Signer : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::ISigner*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Org.BouncyCastle.Crypto.IDigest digest
     // Size: 0x8
     // Offset: 0x10
@@ -123,51 +115,51 @@ namespace Org::BouncyCastle::Crypto::Signers {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::ISigner*>(this);
     }
     // Get instance field reference: private Org.BouncyCastle.Crypto.IDigest digest
-    ::Org::BouncyCastle::Crypto::IDigest*& dyn_digest();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::IDigest*& dyn_digest();
     // Get instance field reference: private Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher
-    ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& dyn_cipher();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& dyn_cipher();
     // Get instance field reference: private System.Int32 trailer
-    int& dyn_trailer();
+    [[deprecated("Use field access instead!")]] int& dyn_trailer();
     // Get instance field reference: private System.Int32 keyBits
-    int& dyn_keyBits();
+    [[deprecated("Use field access instead!")]] int& dyn_keyBits();
     // Get instance field reference: private System.Byte[] block
-    ::ArrayW<uint8_t>& dyn_block();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_block();
     // Get instance field reference: private System.Byte[] mBuf
-    ::ArrayW<uint8_t>& dyn_mBuf();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_mBuf();
     // Get instance field reference: private System.Int32 messageLength
-    int& dyn_messageLength();
+    [[deprecated("Use field access instead!")]] int& dyn_messageLength();
     // Get instance field reference: private System.Boolean fullMessage
-    bool& dyn_fullMessage();
+    [[deprecated("Use field access instead!")]] bool& dyn_fullMessage();
     // Get instance field reference: private System.Byte[] recoveredMessage
-    ::ArrayW<uint8_t>& dyn_recoveredMessage();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_recoveredMessage();
     // Get instance field reference: private System.Byte[] preSig
-    ::ArrayW<uint8_t>& dyn_preSig();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_preSig();
     // Get instance field reference: private System.Byte[] preBlock
-    ::ArrayW<uint8_t>& dyn_preBlock();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_preBlock();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest digest, System.Boolean isImplicit)
-    // Offset: 0x15CA9C8
+    // Offset: 0x16002D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Iso9796d2Signer* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest, bool isImplicit) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Iso9796d2Signer*, creationType>(cipher, digest, isImplicit)));
     }
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x15CADB4
+    // Offset: 0x16006C4
     void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // private System.Void ClearBlock(System.Byte[] block)
-    // Offset: 0x15CAFBC
+    // Offset: 0x16008CC
     void ClearBlock(::ArrayW<uint8_t> block);
     // public System.Void Update(System.Byte input)
-    // Offset: 0x15CAFE0
+    // Offset: 0x16008F0
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x15CB0E8
+    // Offset: 0x16009F8
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int length);
     // public System.Void Reset()
-    // Offset: 0x15CB244
+    // Offset: 0x1600B54
     void Reset();
     // public System.Byte[] GenerateSignature()
-    // Offset: 0x15CB334
+    // Offset: 0x1600C44
     ::ArrayW<uint8_t> GenerateSignature();
   }; // Org.BouncyCastle.Crypto.Signers.Iso9796d2Signer
   #pragma pack(pop)

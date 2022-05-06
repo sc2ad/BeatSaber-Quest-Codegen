@@ -54,15 +54,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::AudioPitchGainEffect::$StartEffectCoroutine$d__8
     class $StartEffectCoroutine$d__8;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.AudioSource _audioSource
     // Size: 0x8
     // Offset: 0x18
@@ -111,53 +103,51 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AudioSource _audioSource
-    ::UnityEngine::AudioSource*& dyn__audioSource();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioSource*& dyn__audioSource();
     // Get instance field reference: private System.Single _duration
-    float& dyn__duration();
+    [[deprecated("Use field access instead!")]] float& dyn__duration();
     // Get instance field reference: private UnityEngine.AnimationCurve _pitchCurve
-    ::UnityEngine::AnimationCurve*& dyn__pitchCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__pitchCurve();
     // Get instance field reference: private UnityEngine.AnimationCurve _gainCurve
-    ::UnityEngine::AnimationCurve*& dyn__gainCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__gainCurve();
     // Get instance field reference: private UnityEngine.Coroutine _currentCoroutine
-    ::UnityEngine::Coroutine*& dyn__currentCoroutine();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Coroutine*& dyn__currentCoroutine();
     // Get instance field reference: private System.Single _startPitch
-    float& dyn__startPitch();
+    [[deprecated("Use field access instead!")]] float& dyn__startPitch();
     // Get instance field reference: private System.Single _startVolume
-    float& dyn__startVolume();
-    // protected System.Void Start()
-    // Offset: 0x14B9AA4
-    void Start();
-    // private System.Collections.IEnumerator StartEffectCoroutine(System.Single volumeScale, System.Action finishCallback)
-    // Offset: 0x14B9AD8
-    ::System::Collections::IEnumerator* StartEffectCoroutine(float volumeScale, ::System::Action* finishCallback);
-    // public System.Void StartEffect(System.Single volumeScale, System.Action finishCallback)
-    // Offset: 0x14B9B94
-    void StartEffect(float volumeScale, ::System::Action* finishCallback);
-    // public System.Void InterruptEffect()
-    // Offset: 0x14B9BC8
-    void InterruptEffect();
-    // public System.Void SetAudioSource(UnityEngine.AudioSource audioSource)
-    // Offset: 0x14B9C14
-    void SetAudioSource(::UnityEngine::AudioSource* audioSource);
+    [[deprecated("Use field access instead!")]] float& dyn__startVolume();
     // public System.Void .ctor()
-    // Offset: 0x14B9C1C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14F14D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioPitchGainEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AudioPitchGainEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioPitchGainEffect*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x14F135C
+    void Start();
+    // private System.Collections.IEnumerator StartEffectCoroutine(System.Single volumeScale, System.Action finishCallback)
+    // Offset: 0x14F1390
+    ::System::Collections::IEnumerator* StartEffectCoroutine(float volumeScale, ::System::Action* finishCallback);
+    // public System.Void StartEffect(System.Single volumeScale, System.Action finishCallback)
+    // Offset: 0x14F144C
+    void StartEffect(float volumeScale, ::System::Action* finishCallback);
+    // public System.Void InterruptEffect()
+    // Offset: 0x14F1480
+    void InterruptEffect();
+    // public System.Void SetAudioSource(UnityEngine.AudioSource audioSource)
+    // Offset: 0x14F14CC
+    void SetAudioSource(::UnityEngine::AudioSource* audioSource);
   }; // AudioPitchGainEffect
   #pragma pack(pop)
   static check_size<sizeof(AudioPitchGainEffect), 68 + sizeof(float)> __GlobalNamespace_AudioPitchGainEffectSizeCheck;
   static_assert(sizeof(AudioPitchGainEffect) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::AudioPitchGainEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AudioPitchGainEffect::Start
 // Il2CppName: Start
 template<>
@@ -203,7 +193,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioPitchGainEffect*), "SetAudioSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{audioSource});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AudioPitchGainEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

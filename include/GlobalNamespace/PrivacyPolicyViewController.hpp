@@ -86,28 +86,20 @@ namespace GlobalNamespace {
       // Set static field: static public PrivacyPolicyViewController/ButtonType Ok
       static void _set_Ok(::GlobalNamespace::PrivacyPolicyViewController::ButtonType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // PrivacyPolicyViewController/ButtonType
     #pragma pack(pop)
     static check_size<sizeof(PrivacyPolicyViewController::ButtonType), 0 + sizeof(int)> __GlobalNamespace_PrivacyPolicyViewController_ButtonTypeSizeCheck;
     static_assert(sizeof(PrivacyPolicyViewController::ButtonType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [HeaderAttribute] Offset: 0x125D0D0
+    // [HeaderAttribute] Offset: 0x10E1CB4
     // private UnityEngine.UI.Button _okButton
     // Size: 0x8
     // Offset: 0x70
     ::UnityEngine::UI::Button* okButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [HeaderAttribute] Offset: 0x125D11C
+    // [HeaderAttribute] Offset: 0x10E1D00
     // private HMUI.TextPageScrollView _textPageScrollView
     // Size: 0x8
     // Offset: 0x78
@@ -128,38 +120,31 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action_1<::GlobalNamespace::PrivacyPolicyViewController::ButtonType>*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.UI.Button _okButton
-    ::UnityEngine::UI::Button*& dyn__okButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__okButton();
     // Get instance field reference: private HMUI.TextPageScrollView _textPageScrollView
-    ::HMUI::TextPageScrollView*& dyn__textPageScrollView();
+    [[deprecated("Use field access instead!")]] ::HMUI::TextPageScrollView*& dyn__textPageScrollView();
     // Get instance field reference: private LocalizedTextAsset _privacyPolicyLocalizedTextAsset
-    ::GlobalNamespace::LocalizedTextAsset*& dyn__privacyPolicyLocalizedTextAsset();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LocalizedTextAsset*& dyn__privacyPolicyLocalizedTextAsset();
     // Get instance field reference: private System.Action`1<PrivacyPolicyViewController/ButtonType> didFinishEvent
-    ::System::Action_1<::GlobalNamespace::PrivacyPolicyViewController::ButtonType>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::PrivacyPolicyViewController::ButtonType>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<PrivacyPolicyViewController/ButtonType> value)
-    // Offset: 0x1379A90
+    // Offset: 0x13E0DCC
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::PrivacyPolicyViewController::ButtonType>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<PrivacyPolicyViewController/ButtonType> value)
-    // Offset: 0x1379B34
+    // Offset: 0x13E0E70
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::PrivacyPolicyViewController::ButtonType>* value);
-    // private System.Void <DidActivate>b__7_0()
-    // Offset: 0x1379CB4
-    void $DidActivate$b__7_0();
     // public System.Void .ctor()
-    // Offset: 0x1379CAC
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13E0FE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrivacyPolicyViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PrivacyPolicyViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrivacyPolicyViewController*, creationType>()));
     }
+    // private System.Void <DidActivate>b__7_0()
+    // Offset: 0x13E0FF0
+    void $DidActivate$b__7_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1379BD8
+    // Offset: 0x13E0F14
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -189,6 +174,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PrivacyPolicyViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PrivacyPolicyViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PrivacyPolicyViewController::$DidActivate$b__7_0
 // Il2CppName: <DidActivate>b__7_0
 template<>
@@ -197,10 +186,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PrivacyPolicyViewController*), "<DidActivate>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PrivacyPolicyViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PrivacyPolicyViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

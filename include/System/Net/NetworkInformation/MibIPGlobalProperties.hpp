@@ -30,15 +30,7 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class MibIPGlobalProperties : public ::System::Net::NetworkInformation::UnixIPGlobalProperties {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.String StatisticsFile
     // Size: 0x8
     // Offset: 0x10
@@ -81,26 +73,26 @@ namespace System::Net::NetworkInformation {
     // Set static field: static private readonly System.Char[] wsChars
     static void _set_wsChars(::ArrayW<::Il2CppChar> value);
     // Get instance field reference: public readonly System.String StatisticsFile
-    ::StringW& dyn_StatisticsFile();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_StatisticsFile();
     // Get instance field reference: public readonly System.String StatisticsFileIPv6
-    ::StringW& dyn_StatisticsFileIPv6();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_StatisticsFileIPv6();
     // Get instance field reference: public readonly System.String TcpFile
-    ::StringW& dyn_TcpFile();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_TcpFile();
     // Get instance field reference: public readonly System.String Tcp6File
-    ::StringW& dyn_Tcp6File();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Tcp6File();
     // Get instance field reference: public readonly System.String UdpFile
-    ::StringW& dyn_UdpFile();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_UdpFile();
     // Get instance field reference: public readonly System.String Udp6File
-    ::StringW& dyn_Udp6File();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Udp6File();
     // public System.Void .ctor(System.String procDir)
-    // Offset: 0x1B2A508
+    // Offset: 0x1B64AF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MibIPGlobalProperties* New_ctor(::StringW procDir) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::MibIPGlobalProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MibIPGlobalProperties*, creationType>(procDir)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1B2A630
+    // Offset: 0x1B64C18
     static void _cctor();
   }; // System.Net.NetworkInformation.MibIPGlobalProperties
   #pragma pack(pop)

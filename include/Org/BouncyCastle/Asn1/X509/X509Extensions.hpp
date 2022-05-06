@@ -53,15 +53,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509Extensions : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.IDictionary extensions
     // Size: 0x8
     // Offset: 0x10
@@ -204,30 +196,30 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier ExpiredCertsOnCrl
     static void _set_ExpiredCertsOnCrl(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get instance field reference: private readonly System.Collections.IDictionary extensions
-    ::System::Collections::IDictionary*& dyn_extensions();
+    [[deprecated("Use field access instead!")]] ::System::Collections::IDictionary*& dyn_extensions();
     // Get instance field reference: private readonly System.Collections.IList ordering
-    ::System::Collections::IList*& dyn_ordering();
+    [[deprecated("Use field access instead!")]] ::System::Collections::IList*& dyn_ordering();
     // public System.Collections.IEnumerable get_ExtensionOids()
-    // Offset: 0x1ECBD00
+    // Offset: 0x1F19238
     ::System::Collections::IEnumerable* get_ExtensionOids();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1ECB5F4
+    // Offset: 0x1F18B2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extensions* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::X509Extensions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extensions*, creationType>(seq)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1ECC370
+    // Offset: 0x1F198A8
     static void _cctor();
     // static public Org.BouncyCastle.Asn1.X509.X509Extensions GetInstance(System.Object obj)
-    // Offset: 0x1EC40E0
+    // Offset: 0x1F11618
     static ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetInstance(::Il2CppObject* obj);
     // public Org.BouncyCastle.Asn1.X509.X509Extension GetExtension(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x1ECBD68
+    // Offset: 0x1F192A0
     ::Org::BouncyCastle::Asn1::X509::X509Extension* GetExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1ECBE68
+    // Offset: 0x1F193A0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

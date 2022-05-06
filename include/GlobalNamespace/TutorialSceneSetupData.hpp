@@ -38,15 +38,7 @@ namespace GlobalNamespace {
   // [ZenjectAllowDuringValidationAttribute] Offset: FFFFFFFF
   class TutorialSceneSetupData : public ::GlobalNamespace::SceneSetupData {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly ColorScheme colorScheme
     // Size: 0x8
     // Offset: 0x10
@@ -61,11 +53,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::PlayerSpecificSettings*) == 0x8);
     public:
     // Get instance field reference: public readonly ColorScheme colorScheme
-    ::GlobalNamespace::ColorScheme*& dyn_colorScheme();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorScheme*& dyn_colorScheme();
     // Get instance field reference: public readonly PlayerSpecificSettings playerSpecificSettings
-    ::GlobalNamespace::PlayerSpecificSettings*& dyn_playerSpecificSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSpecificSettings*& dyn_playerSpecificSettings();
     // public System.Void .ctor(ColorScheme colorScheme, PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0x2AB28F0
+    // Offset: 0x1491A64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialSceneSetupData* New_ctor(::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialSceneSetupData::.ctor");

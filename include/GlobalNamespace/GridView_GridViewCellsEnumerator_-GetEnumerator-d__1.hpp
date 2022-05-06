@@ -40,15 +40,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class GridView::GridViewCellsEnumerator::$GetEnumerator$d__1 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -81,42 +73,42 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private UnityEngine.MonoBehaviour <>2__current
-    ::UnityEngine::MonoBehaviour*& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MonoBehaviour*& dyn_$$2__current();
     // Get instance field reference: public GridView/GridViewCellsEnumerator <>4__this
-    ::GlobalNamespace::GridView::GridViewCellsEnumerator*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GridView::GridViewCellsEnumerator*& dyn_$$4__this();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2/System.Collections.Generic.KeyCollection/System.Collections.Generic.Enumerator<UnityEngine.MonoBehaviour,System.Collections.Generic.List`1<UnityEngine.MonoBehaviour>> <>7__wrap1
-    typename ::System::Collections::Generic::Dictionary_2<::UnityEngine::MonoBehaviour*, ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*>::KeyCollection::Enumerator& dyn_$$7__wrap1();
+    [[deprecated("Use field access instead!")]] typename ::System::Collections::Generic::Dictionary_2<::UnityEngine::MonoBehaviour*, ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*>::KeyCollection::Enumerator& dyn_$$7__wrap1();
     // Get instance field reference: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<UnityEngine.MonoBehaviour> <>7__wrap2
-    typename ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>::Enumerator& dyn_$$7__wrap2();
+    [[deprecated("Use field access instead!")]] typename ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>::Enumerator& dyn_$$7__wrap2();
     // private UnityEngine.MonoBehaviour System.Collections.Generic.IEnumerator<UnityEngine.MonoBehaviour>.get_Current()
-    // Offset: 0x13EC48C
+    // Offset: 0x13F8F2C
     ::UnityEngine::MonoBehaviour* System_Collections_Generic_IEnumerator$UnityEngine_MonoBehaviour$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x13EC4F4
+    // Offset: 0x13F8F94
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x13EC0F0
+    // Offset: 0x13F8B90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GridView::GridViewCellsEnumerator::$GetEnumerator$d__1* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GridView::GridViewCellsEnumerator::$GetEnumerator$d__1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GridView::GridViewCellsEnumerator::$GetEnumerator$d__1*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x13EC120
+    // Offset: 0x13F8BC0
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x13EC260
+    // Offset: 0x13F8D00
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x13EC208
+    // Offset: 0x13F8CA8
     void $$m__Finally1();
     // private System.Void <>m__Finally2()
-    // Offset: 0x13EC1B0
+    // Offset: 0x13F8C50
     void $$m__Finally2();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x13EC494
+    // Offset: 0x13F8F34
     void System_Collections_IEnumerator_Reset();
   }; // GridView/GridViewCellsEnumerator/<GetEnumerator>d__1
   // WARNING Not writing size check since size may be invalid!

@@ -42,7 +42,7 @@ namespace Valve::VR {
       return m_nFidelityLevel;
     }
     // Get instance field reference: public System.UInt32 m_nFidelityLevel
-    uint& dyn_m_nFidelityLevel();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nFidelityLevel();
   }; // Valve.VR.VREvent_PerformanceTest_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_PerformanceTest_t), 0 + sizeof(uint)> __Valve_VR_VREvent_PerformanceTest_tSizeCheck;

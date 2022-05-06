@@ -27,15 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VersionSaveData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String version
     // Size: 0x8
     // Offset: 0x10
@@ -48,11 +40,9 @@ namespace GlobalNamespace {
       return version;
     }
     // Get instance field reference: public System.String version
-    ::StringW& dyn_version();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_version();
     // public System.Void .ctor()
-    // Offset: 0x2AC2F2C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14A2484
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VersionSaveData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VersionSaveData::.ctor");

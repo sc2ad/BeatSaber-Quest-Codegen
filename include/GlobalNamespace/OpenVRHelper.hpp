@@ -136,21 +136,13 @@ namespace GlobalNamespace {
       // Set static field: static public OpenVRHelper/VRControllerManufacturerName Undefined
       static void _set_Undefined(::GlobalNamespace::OpenVRHelper::VRControllerManufacturerName value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // OpenVRHelper/VRControllerManufacturerName
     #pragma pack(pop)
     static check_size<sizeof(OpenVRHelper::VRControllerManufacturerName), 0 + sizeof(int)> __GlobalNamespace_OpenVRHelper_VRControllerManufacturerNameSizeCheck;
     static_assert(sizeof(OpenVRHelper::VRControllerManufacturerName) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x1225B98
+    // [InjectAttribute] Offset: 0x10AA5B0
     // private readonly IOpenVRHaptics _openVrHaptics
     // Size: 0x8
     // Offset: 0x18
@@ -287,151 +279,145 @@ namespace GlobalNamespace {
     // Set static field: static public System.Single kUpdateIntervalSeconds
     static void _set_kUpdateIntervalSeconds(float value);
     // Get instance field reference: private readonly IOpenVRHaptics _openVrHaptics
-    ::GlobalNamespace::IOpenVRHaptics*& dyn__openVrHaptics();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IOpenVRHaptics*& dyn__openVrHaptics();
     // Get instance field reference: private System.Action inputFocusWasCapturedEvent
-    ::System::Action*& dyn_inputFocusWasCapturedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_inputFocusWasCapturedEvent();
     // Get instance field reference: private System.Action inputFocusWasReleasedEvent
-    ::System::Action*& dyn_inputFocusWasReleasedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_inputFocusWasReleasedEvent();
     // Get instance field reference: private System.Action vrFocusWasCapturedEvent
-    ::System::Action*& dyn_vrFocusWasCapturedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_vrFocusWasCapturedEvent();
     // Get instance field reference: private System.Action vrFocusWasReleasedEvent
-    ::System::Action*& dyn_vrFocusWasReleasedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_vrFocusWasReleasedEvent();
     // Get instance field reference: private System.Action hmdUnmountedEvent
-    ::System::Action*& dyn_hmdUnmountedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_hmdUnmountedEvent();
     // Get instance field reference: private System.Action hmdMountedEvent
-    ::System::Action*& dyn_hmdMountedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_hmdMountedEvent();
     // Get instance field reference: private System.Action joystickWasCenteredThisFrameEvent
-    ::System::Action*& dyn_joystickWasCenteredThisFrameEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_joystickWasCenteredThisFrameEvent();
     // Get instance field reference: private System.Action`1<UnityEngine.Vector2> joystickWasNotCenteredThisFrameEvent
-    ::System::Action_1<::UnityEngine::Vector2>*& dyn_joystickWasNotCenteredThisFrameEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::UnityEngine::Vector2>*& dyn_joystickWasNotCenteredThisFrameEvent();
     // Get instance field reference: private readonly Valve.VR.TrackedDevicePose_t[] _gamePoses
-    ::ArrayW<::Valve::VR::TrackedDevicePose_t>& dyn__gamePoses();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Valve::VR::TrackedDevicePose_t>& dyn__gamePoses();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState> _nodeStates
-    ::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>*& dyn__nodeStates();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>*& dyn__nodeStates();
     // Get instance field reference: private readonly Valve.VR.TrackedDevicePose_t[] _poses
-    ::ArrayW<::Valve::VR::TrackedDevicePose_t>& dyn__poses();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Valve::VR::TrackedDevicePose_t>& dyn__poses();
     // Get instance field reference: private System.Boolean _hasInputFocus
-    bool& dyn__hasInputFocus();
+    [[deprecated("Use field access instead!")]] bool& dyn__hasInputFocus();
     // Get instance field reference: private System.Boolean _didGetNodeStatesThisFrame
-    bool& dyn__didGetNodeStatesThisFrame();
+    [[deprecated("Use field access instead!")]] bool& dyn__didGetNodeStatesThisFrame();
     // Get instance field reference: private UnityEngine.EventSystems.EventSystem _disabledEventSystem
-    ::UnityEngine::EventSystems::EventSystem*& dyn__disabledEventSystem();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::EventSystems::EventSystem*& dyn__disabledEventSystem();
     // Get instance field reference: private OpenVRHelper/VRControllerManufacturerName _vrControllerManufacturerName
-    ::GlobalNamespace::OpenVRHelper::VRControllerManufacturerName& dyn__vrControllerManufacturerName();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OpenVRHelper::VRControllerManufacturerName& dyn__vrControllerManufacturerName();
     // Get instance field reference: private System.Boolean _scrollingLastFrame
-    bool& dyn__scrollingLastFrame();
+    [[deprecated("Use field access instead!")]] bool& dyn__scrollingLastFrame();
     // public System.Boolean get_hasInputFocus()
-    // Offset: 0x157743C
+    // Offset: 0x15ADD4C
     bool get_hasInputFocus();
     // public System.Boolean get_hasVrFocus()
-    // Offset: 0x1577444
+    // Offset: 0x15ADD54
     bool get_hasVrFocus();
     // public System.Boolean get_isAlwaysWireless()
-    // Offset: 0x157744C
+    // Offset: 0x15ADD5C
     bool get_isAlwaysWireless();
     // public VRPlatformSDK get_vrPlatformSDK()
-    // Offset: 0x1577454
+    // Offset: 0x15ADD64
     ::GlobalNamespace::VRPlatformSDK get_vrPlatformSDK();
     // public XRDeviceModel get_currentXRDeviceModel()
-    // Offset: 0x157745C
+    // Offset: 0x15ADD6C
     ::GlobalNamespace::XRDeviceModel get_currentXRDeviceModel();
     // private OpenVRHelper/VRControllerManufacturerName get_vrControllerManufacturerName()
-    // Offset: 0x1577464
+    // Offset: 0x15ADD74
     ::GlobalNamespace::OpenVRHelper::VRControllerManufacturerName get_vrControllerManufacturerName();
     // public System.Void add_inputFocusWasCapturedEvent(System.Action value)
-    // Offset: 0x15769FC
+    // Offset: 0x15AD30C
     void add_inputFocusWasCapturedEvent(::System::Action* value);
     // public System.Void remove_inputFocusWasCapturedEvent(System.Action value)
-    // Offset: 0x1576AA0
+    // Offset: 0x15AD3B0
     void remove_inputFocusWasCapturedEvent(::System::Action* value);
     // public System.Void add_inputFocusWasReleasedEvent(System.Action value)
-    // Offset: 0x1576B44
+    // Offset: 0x15AD454
     void add_inputFocusWasReleasedEvent(::System::Action* value);
     // public System.Void remove_inputFocusWasReleasedEvent(System.Action value)
-    // Offset: 0x1576BE8
+    // Offset: 0x15AD4F8
     void remove_inputFocusWasReleasedEvent(::System::Action* value);
     // public System.Void add_vrFocusWasCapturedEvent(System.Action value)
-    // Offset: 0x1576C8C
+    // Offset: 0x15AD59C
     void add_vrFocusWasCapturedEvent(::System::Action* value);
     // public System.Void remove_vrFocusWasCapturedEvent(System.Action value)
-    // Offset: 0x1576D30
+    // Offset: 0x15AD640
     void remove_vrFocusWasCapturedEvent(::System::Action* value);
     // public System.Void add_vrFocusWasReleasedEvent(System.Action value)
-    // Offset: 0x1576DD4
+    // Offset: 0x15AD6E4
     void add_vrFocusWasReleasedEvent(::System::Action* value);
     // public System.Void remove_vrFocusWasReleasedEvent(System.Action value)
-    // Offset: 0x1576E78
+    // Offset: 0x15AD788
     void remove_vrFocusWasReleasedEvent(::System::Action* value);
     // public System.Void add_hmdUnmountedEvent(System.Action value)
-    // Offset: 0x1576F1C
+    // Offset: 0x15AD82C
     void add_hmdUnmountedEvent(::System::Action* value);
     // public System.Void remove_hmdUnmountedEvent(System.Action value)
-    // Offset: 0x1576FC0
+    // Offset: 0x15AD8D0
     void remove_hmdUnmountedEvent(::System::Action* value);
     // public System.Void add_hmdMountedEvent(System.Action value)
-    // Offset: 0x1577064
+    // Offset: 0x15AD974
     void add_hmdMountedEvent(::System::Action* value);
     // public System.Void remove_hmdMountedEvent(System.Action value)
-    // Offset: 0x1577108
+    // Offset: 0x15ADA18
     void remove_hmdMountedEvent(::System::Action* value);
     // public System.Void add_joystickWasCenteredThisFrameEvent(System.Action value)
-    // Offset: 0x15771AC
+    // Offset: 0x15ADABC
     void add_joystickWasCenteredThisFrameEvent(::System::Action* value);
     // public System.Void remove_joystickWasCenteredThisFrameEvent(System.Action value)
-    // Offset: 0x1577250
+    // Offset: 0x15ADB60
     void remove_joystickWasCenteredThisFrameEvent(::System::Action* value);
     // public System.Void add_joystickWasNotCenteredThisFrameEvent(System.Action`1<UnityEngine.Vector2> value)
-    // Offset: 0x15772F4
+    // Offset: 0x15ADC04
     void add_joystickWasNotCenteredThisFrameEvent(::System::Action_1<::UnityEngine::Vector2>* value);
     // public System.Void remove_joystickWasNotCenteredThisFrameEvent(System.Action`1<UnityEngine.Vector2> value)
-    // Offset: 0x1577398
+    // Offset: 0x15ADCA8
     void remove_joystickWasNotCenteredThisFrameEvent(::System::Action_1<::UnityEngine::Vector2>* value);
-    // private System.Void Awake()
-    // Offset: 0x15775F8
-    void Awake();
-    // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
-    // Offset: 0x157766C
-    void TriggerHapticPulse(::UnityEngine::XR::XRNode node, float duration, float strength, float frequency);
-    // public System.Void StopHaptics(UnityEngine.XR.XRNode node)
-    // Offset: 0x1577754
-    void StopHaptics(::UnityEngine::XR::XRNode node);
-    // public System.Void AdjustControllerTransform(UnityEngine.XR.XRNode node, UnityEngine.Transform transform, UnityEngine.Vector3 position, UnityEngine.Vector3 rotation)
-    // Offset: 0x1577758
-    void AdjustControllerTransform(::UnityEngine::XR::XRNode node, ::UnityEngine::Transform* transform, ::UnityEngine::Vector3 position, ::UnityEngine::Vector3 rotation);
-    // public System.Boolean GetNodePose(UnityEngine.XR.XRNode nodeType, System.Int32 idx, out UnityEngine.Vector3 pos, out UnityEngine.Quaternion rot)
-    // Offset: 0x157797C
-    bool GetNodePose(::UnityEngine::XR::XRNode nodeType, int idx, ByRef<::UnityEngine::Vector3> pos, ByRef<::UnityEngine::Quaternion> rot);
-    // public System.Void Update()
-    // Offset: 0x1577C4C
-    void Update();
-    // public System.Void LateUpdate()
-    // Offset: 0x1578204
-    void LateUpdate();
-    // public System.Void OnDestroy()
-    // Offset: 0x157820C
-    void OnDestroy();
-    // private System.Void DisableEventSystem()
-    // Offset: 0x1578058
-    void DisableEventSystem();
-    // private System.Void EnableEventSystem()
-    // Offset: 0x1578170
-    void EnableEventSystem();
-    // private System.Void OnBeforeRender()
-    // Offset: 0x15782C0
-    void OnBeforeRender();
     // public System.Void .ctor()
-    // Offset: 0x1578344
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15AEC54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OpenVRHelper* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OpenVRHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OpenVRHelper*, creationType>()));
     }
+    // private System.Void Awake()
+    // Offset: 0x15ADF08
+    void Awake();
+    // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
+    // Offset: 0x15ADF7C
+    void TriggerHapticPulse(::UnityEngine::XR::XRNode node, float duration, float strength, float frequency);
+    // public System.Void StopHaptics(UnityEngine.XR.XRNode node)
+    // Offset: 0x15AE064
+    void StopHaptics(::UnityEngine::XR::XRNode node);
+    // public System.Void AdjustControllerTransform(UnityEngine.XR.XRNode node, UnityEngine.Transform transform, UnityEngine.Vector3 position, UnityEngine.Vector3 rotation)
+    // Offset: 0x15AE068
+    void AdjustControllerTransform(::UnityEngine::XR::XRNode node, ::UnityEngine::Transform* transform, ::UnityEngine::Vector3 position, ::UnityEngine::Vector3 rotation);
+    // public System.Boolean GetNodePose(UnityEngine.XR.XRNode nodeType, System.Int32 idx, out UnityEngine.Vector3 pos, out UnityEngine.Quaternion rot)
+    // Offset: 0x15AE28C
+    bool GetNodePose(::UnityEngine::XR::XRNode nodeType, int idx, ByRef<::UnityEngine::Vector3> pos, ByRef<::UnityEngine::Quaternion> rot);
+    // public System.Void Update()
+    // Offset: 0x15AE55C
+    void Update();
+    // public System.Void LateUpdate()
+    // Offset: 0x15AEB14
+    void LateUpdate();
+    // public System.Void OnDestroy()
+    // Offset: 0x15AEB1C
+    void OnDestroy();
+    // private System.Void DisableEventSystem()
+    // Offset: 0x15AE968
+    void DisableEventSystem();
+    // private System.Void EnableEventSystem()
+    // Offset: 0x15AEA80
+    void EnableEventSystem();
+    // private System.Void OnBeforeRender()
+    // Offset: 0x15AEBD0
+    void OnBeforeRender();
   }; // OpenVRHelper
   #pragma pack(pop)
   static check_size<sizeof(OpenVRHelper), 140 + sizeof(bool)> __GlobalNamespace_OpenVRHelperSizeCheck;
@@ -632,6 +618,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OpenVRHelper*), "remove_joystickWasNotCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::OpenVRHelper::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OpenVRHelper::Awake
 // Il2CppName: Awake
 template<>
@@ -733,7 +723,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OpenVRHelper*), "OnBeforeRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OpenVRHelper::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

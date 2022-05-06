@@ -39,23 +39,15 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class ShoulderRotator : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x127615C
+    // [TooltipAttribute] Offset: 0x10FAE14
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
     float weight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1276194
+    // [TooltipAttribute] Offset: 0x10FAE4C
     // public System.Single offset
     // Size: 0x4
     // Offset: 0x1C
@@ -78,47 +70,45 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single weight
-    float& dyn_weight();
+    [[deprecated("Use field access instead!")]] float& dyn_weight();
     // Get instance field reference: public System.Single offset
-    float& dyn_offset();
+    [[deprecated("Use field access instead!")]] float& dyn_offset();
     // Get instance field reference: private RootMotion.FinalIK.FullBodyBipedIK ik
-    ::RootMotion::FinalIK::FullBodyBipedIK*& dyn_ik();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::FullBodyBipedIK*& dyn_ik();
     // Get instance field reference: private System.Boolean skip
-    bool& dyn_skip();
-    // private System.Void Start()
-    // Offset: 0x1F77C38
-    void Start();
-    // private System.Void RotateShoulders()
-    // Offset: 0x1F77D0C
-    void RotateShoulders();
-    // private System.Void RotateShoulder(RootMotion.FinalIK.FullBodyBipedChain chain, System.Single weight, System.Single offset)
-    // Offset: 0x1F77DF8
-    void RotateShoulder(::RootMotion::FinalIK::FullBodyBipedChain chain, float weight, float offset);
-    // private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap GetParentBoneMap(RootMotion.FinalIK.FullBodyBipedChain chain)
-    // Offset: 0x1F78240
-    ::RootMotion::FinalIK::IKMapping::BoneMap* GetParentBoneMap(::RootMotion::FinalIK::FullBodyBipedChain chain);
-    // private System.Void OnDestroy()
-    // Offset: 0x1F78278
-    void OnDestroy();
+    [[deprecated("Use field access instead!")]] bool& dyn_skip();
     // public System.Void .ctor()
-    // Offset: 0x1F78370
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FC4BE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShoulderRotator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::ShoulderRotator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShoulderRotator*, creationType>()));
     }
+    // private System.Void Start()
+    // Offset: 0x1FC44AC
+    void Start();
+    // private System.Void RotateShoulders()
+    // Offset: 0x1FC4580
+    void RotateShoulders();
+    // private System.Void RotateShoulder(RootMotion.FinalIK.FullBodyBipedChain chain, System.Single weight, System.Single offset)
+    // Offset: 0x1FC466C
+    void RotateShoulder(::RootMotion::FinalIK::FullBodyBipedChain chain, float weight, float offset);
+    // private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap GetParentBoneMap(RootMotion.FinalIK.FullBodyBipedChain chain)
+    // Offset: 0x1FC4AB4
+    ::RootMotion::FinalIK::IKMapping::BoneMap* GetParentBoneMap(::RootMotion::FinalIK::FullBodyBipedChain chain);
+    // private System.Void OnDestroy()
+    // Offset: 0x1FC4AEC
+    void OnDestroy();
   }; // RootMotion.FinalIK.ShoulderRotator
   #pragma pack(pop)
   static check_size<sizeof(ShoulderRotator), 40 + sizeof(bool)> __RootMotion_FinalIK_ShoulderRotatorSizeCheck;
   static_assert(sizeof(ShoulderRotator) == 0x29);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::ShoulderRotator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::ShoulderRotator::Start
 // Il2CppName: Start
 template<>
@@ -163,7 +153,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ShoulderRotator*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::ShoulderRotator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

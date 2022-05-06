@@ -54,7 +54,7 @@ namespace Zenject {
     // Set static field: static public Zenject.ValidationErrorResponses Throw
     static void _set_Throw(::Zenject::ValidationErrorResponses value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Zenject.ValidationErrorResponses
   #pragma pack(pop)
   static check_size<sizeof(ValidationErrorResponses), 0 + sizeof(int)> __Zenject_ValidationErrorResponsesSizeCheck;

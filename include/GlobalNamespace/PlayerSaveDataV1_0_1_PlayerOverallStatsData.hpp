@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveDataV1_0_1::PlayerOverallStatsData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 goodCutsCount
     // Size: 0x4
     // Offset: 0x10
@@ -102,42 +94,40 @@ namespace GlobalNamespace {
     static_assert(sizeof(int64_t) == 0x8);
     public:
     // Get instance field reference: public System.Int32 goodCutsCount
-    int& dyn_goodCutsCount();
+    [[deprecated("Use field access instead!")]] int& dyn_goodCutsCount();
     // Get instance field reference: public System.Int32 badCutsCount
-    int& dyn_badCutsCount();
+    [[deprecated("Use field access instead!")]] int& dyn_badCutsCount();
     // Get instance field reference: public System.Int32 missedCutsCount
-    int& dyn_missedCutsCount();
+    [[deprecated("Use field access instead!")]] int& dyn_missedCutsCount();
     // Get instance field reference: public System.Int64 totalScore
-    int64_t& dyn_totalScore();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_totalScore();
     // Get instance field reference: public System.Int32 playedLevelsCount
-    int& dyn_playedLevelsCount();
+    [[deprecated("Use field access instead!")]] int& dyn_playedLevelsCount();
     // Get instance field reference: public System.Int32 cleardLevelsCount
-    int& dyn_cleardLevelsCount();
+    [[deprecated("Use field access instead!")]] int& dyn_cleardLevelsCount();
     // Get instance field reference: public System.Int32 failedLevelsCount
-    int& dyn_failedLevelsCount();
+    [[deprecated("Use field access instead!")]] int& dyn_failedLevelsCount();
     // Get instance field reference: public System.Int32 fullComboCount
-    int& dyn_fullComboCount();
+    [[deprecated("Use field access instead!")]] int& dyn_fullComboCount();
     // Get instance field reference: public System.Single timePlayed
-    float& dyn_timePlayed();
+    [[deprecated("Use field access instead!")]] float& dyn_timePlayed();
     // Get instance field reference: public System.Int32 handDistanceTravelled
-    int& dyn_handDistanceTravelled();
+    [[deprecated("Use field access instead!")]] int& dyn_handDistanceTravelled();
     // Get instance field reference: public System.Int64 cummulativeCutScoreWithoutMultiplier
-    int64_t& dyn_cummulativeCutScoreWithoutMultiplier();
-    // public System.Void .ctor(System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCutsCount, System.Int64 totalScore, System.Int32 playedLevelsCount, System.Int32 cleardLevelsCount, System.Int32 failedLevelsCount, System.Int32 fullComboCount, System.Single timePlayed, System.Int32 handDistanceTravelled, System.Int64 cummulativeCutScoreWithoutMultiplier)
-    // Offset: 0x1371808
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PlayerSaveDataV1_0_1::PlayerOverallStatsData* New_ctor(int goodCutsCount, int badCutsCount, int missedCutsCount, int64_t totalScore, int playedLevelsCount, int cleardLevelsCount, int failedLevelsCount, int fullComboCount, float timePlayed, int handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier) {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveDataV1_0_1::PlayerOverallStatsData*, creationType>(goodCutsCount, badCutsCount, missedCutsCount, totalScore, playedLevelsCount, cleardLevelsCount, failedLevelsCount, fullComboCount, timePlayed, handDistanceTravelled, cummulativeCutScoreWithoutMultiplier)));
-    }
+    [[deprecated("Use field access instead!")]] int64_t& dyn_cummulativeCutScoreWithoutMultiplier();
     // public System.Void .ctor()
-    // Offset: 0x13717B0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D8E0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveDataV1_0_1::PlayerOverallStatsData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveDataV1_0_1::PlayerOverallStatsData*, creationType>()));
+    }
+    // public System.Void .ctor(System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCutsCount, System.Int64 totalScore, System.Int32 playedLevelsCount, System.Int32 cleardLevelsCount, System.Int32 failedLevelsCount, System.Int32 fullComboCount, System.Single timePlayed, System.Int32 handDistanceTravelled, System.Int64 cummulativeCutScoreWithoutMultiplier)
+    // Offset: 0x13D8E64
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static PlayerSaveDataV1_0_1::PlayerOverallStatsData* New_ctor(int goodCutsCount, int badCutsCount, int missedCutsCount, int64_t totalScore, int playedLevelsCount, int cleardLevelsCount, int failedLevelsCount, int fullComboCount, float timePlayed, int handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveDataV1_0_1::PlayerOverallStatsData*, creationType>(goodCutsCount, badCutsCount, missedCutsCount, totalScore, playedLevelsCount, cleardLevelsCount, failedLevelsCount, fullComboCount, timePlayed, handDistanceTravelled, cummulativeCutScoreWithoutMultiplier)));
     }
   }; // PlayerSaveDataV1_0_1/PlayerOverallStatsData
   #pragma pack(pop)

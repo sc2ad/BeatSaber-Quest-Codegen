@@ -45,15 +45,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLocalActiveCenterRingLightsController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single[] _verticalLinePositions
     // Size: 0x8
     // Offset: 0x18
@@ -66,21 +58,21 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::Transform*> horizontalLines;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::Transform*>) == 0x8);
-    // [InjectAttribute] Offset: 0x1253D6C
+    // [InjectAttribute] Offset: 0x10D8950
     // private readonly MultiplayerCenterResizeController _centerResizeController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::MultiplayerCenterResizeController* centerResizeController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerCenterResizeController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253D7C
+    // [InjectAttribute] Offset: 0x10D8960
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253D8C
+    // [InjectAttribute] Offset: 0x10D8970
     // private readonly BeatmapObjectSpawnCenter _beatmapObjectSpawnCenter
     // Size: 0x8
     // Offset: 0x38
@@ -103,56 +95,54 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single[] _verticalLinePositions
-    ::ArrayW<float>& dyn__verticalLinePositions();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn__verticalLinePositions();
     // Get instance field reference: private UnityEngine.Transform[] _horizontalLines
-    ::ArrayW<::UnityEngine::Transform*>& dyn__horizontalLines();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Transform*>& dyn__horizontalLines();
     // Get instance field reference: private readonly MultiplayerCenterResizeController _centerResizeController
-    ::GlobalNamespace::MultiplayerCenterResizeController*& dyn__centerResizeController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerCenterResizeController*& dyn__centerResizeController();
     // Get instance field reference: private readonly MultiplayerLayoutProvider _layoutProvider
-    ::GlobalNamespace::MultiplayerLayoutProvider*& dyn__layoutProvider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLayoutProvider*& dyn__layoutProvider();
     // Get instance field reference: private readonly BeatmapObjectSpawnCenter _beatmapObjectSpawnCenter
-    ::GlobalNamespace::BeatmapObjectSpawnCenter*& dyn__beatmapObjectSpawnCenter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectSpawnCenter*& dyn__beatmapObjectSpawnCenter();
     // Get instance field reference: private System.Boolean _edgeDistanceFromCenterCalculated
-    bool& dyn__edgeDistanceFromCenterCalculated();
+    [[deprecated("Use field access instead!")]] bool& dyn__edgeDistanceFromCenterCalculated();
     // Get instance field reference: private System.Boolean _spawnCenterDistanceFound
-    bool& dyn__spawnCenterDistanceFound();
-    // protected System.Void Start()
-    // Offset: 0x13FD634
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13FD804
-    void OnDestroy();
-    // private System.Void TryResize()
-    // Offset: 0x13FD95C
-    void TryResize();
-    // private System.Void Resize()
-    // Offset: 0x13FD974
-    void Resize();
-    // private System.Void HandleSpawnCenterDistanceWasFound(System.Single spawnCenterDistance)
-    // Offset: 0x13FD7EC
-    void HandleSpawnCenterDistanceWasFound(float spawnCenterDistance);
-    // private System.Void HandleEdgeDistanceFromCenterWasCalculated(System.Single constructEdgeDistanceFromCenter)
-    // Offset: 0x13FD7D4
-    void HandleEdgeDistanceFromCenterWasCalculated(float constructEdgeDistanceFromCenter);
+    [[deprecated("Use field access instead!")]] bool& dyn__spawnCenterDistanceFound();
     // public System.Void .ctor()
-    // Offset: 0x13FDCE4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x140A784
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalActiveCenterRingLightsController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActiveCenterRingLightsController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x140A0D4
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x140A2A4
+    void OnDestroy();
+    // private System.Void TryResize()
+    // Offset: 0x140A3FC
+    void TryResize();
+    // private System.Void Resize()
+    // Offset: 0x140A414
+    void Resize();
+    // private System.Void HandleSpawnCenterDistanceWasFound(System.Single spawnCenterDistance)
+    // Offset: 0x140A28C
+    void HandleSpawnCenterDistanceWasFound(float spawnCenterDistance);
+    // private System.Void HandleEdgeDistanceFromCenterWasCalculated(System.Single constructEdgeDistanceFromCenter)
+    // Offset: 0x140A274
+    void HandleEdgeDistanceFromCenterWasCalculated(float constructEdgeDistanceFromCenter);
   }; // MultiplayerLocalActiveCenterRingLightsController
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalActiveCenterRingLightsController), 65 + sizeof(bool)> __GlobalNamespace_MultiplayerLocalActiveCenterRingLightsControllerSizeCheck;
   static_assert(sizeof(MultiplayerLocalActiveCenterRingLightsController) == 0x42);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::Start
 // Il2CppName: Start
 template<>
@@ -203,7 +193,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController*), "HandleEdgeDistanceFromCenterWasCalculated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{constructEdgeDistanceFromCenter});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

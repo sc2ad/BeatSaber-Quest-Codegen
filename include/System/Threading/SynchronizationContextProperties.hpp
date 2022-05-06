@@ -55,7 +55,7 @@ namespace System::Threading {
     // Set static field: static public System.Threading.SynchronizationContextProperties RequireWaitNotification
     static void _set_RequireWaitNotification(::System::Threading::SynchronizationContextProperties value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Threading.SynchronizationContextProperties
   #pragma pack(pop)
   static check_size<sizeof(SynchronizationContextProperties), 0 + sizeof(int)> __System_Threading_SynchronizationContextPropertiesSizeCheck;

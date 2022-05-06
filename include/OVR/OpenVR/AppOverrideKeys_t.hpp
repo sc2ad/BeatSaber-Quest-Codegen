@@ -46,9 +46,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.IntPtr pchKey
-    ::System::IntPtr& dyn_pchKey();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_pchKey();
     // Get instance field reference: public System.IntPtr pchValue
-    ::System::IntPtr& dyn_pchValue();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_pchValue();
   }; // OVR.OpenVR.AppOverrideKeys_t
   #pragma pack(pop)
   static check_size<sizeof(AppOverrideKeys_t), 8 + sizeof(::System::IntPtr)> __OVR_OpenVR_AppOverrideKeys_tSizeCheck;

@@ -44,7 +44,7 @@ namespace OVR::OpenVR {
       return mAnchorToAbsoluteTracking;
     }
     // Get instance field reference: public OVR.OpenVR.HmdMatrix34_t mAnchorToAbsoluteTracking
-    ::OVR::OpenVR::HmdMatrix34_t& dyn_mAnchorToAbsoluteTracking();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::HmdMatrix34_t& dyn_mAnchorToAbsoluteTracking();
   }; // OVR.OpenVR.SpatialAnchorPose_t
   #pragma pack(pop)
   static check_size<sizeof(SpatialAnchorPose_t), 0 + sizeof(::OVR::OpenVR::HmdMatrix34_t)> __OVR_OpenVR_SpatialAnchorPose_tSizeCheck;

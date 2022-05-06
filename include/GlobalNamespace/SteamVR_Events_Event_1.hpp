@@ -32,6 +32,13 @@ namespace GlobalNamespace {
   template<typename T>
   class SteamVR_Events::Event_1 : public ::UnityEngine::Events::UnityEvent_1<T> {
     public:
+    // public System.Void .ctor()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static SteamVR_Events::Event_1<T>* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Events::Event_1::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Events::Event_1<T>*, creationType>()));
+    }
     // public System.Void Listen(UnityEngine.Events.UnityAction`1<T> action)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Listen(::UnityEngine::Events::UnityAction_1<T>* action) {
@@ -52,17 +59,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Events::Event_1::Send");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Send", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg0)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, arg0);
-    }
-    // public System.Void .ctor()
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    // Implemented from: UnityEngine.Events.UnityEvent`1
-    // Base method: System.Void UnityEvent_1::.ctor()
-    // Base method: System.Void UnityEventBase::.ctor()
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SteamVR_Events::Event_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Events::Event_1::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Events::Event_1<T>*, creationType>()));
     }
   }; // SteamVR_Events/Event`1
   // Could not write size check! Type: SteamVR_Events/Event`1 is generic, or has no fields that are valid for size checks!

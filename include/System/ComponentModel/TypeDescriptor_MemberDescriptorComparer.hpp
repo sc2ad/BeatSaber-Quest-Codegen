@@ -33,25 +33,27 @@ namespace System::ComponentModel {
     static ::System::ComponentModel::TypeDescriptor::MemberDescriptorComparer* _get_Instance();
     // Set static field: static public readonly System.ComponentModel.TypeDescriptor/System.ComponentModel.MemberDescriptorComparer Instance
     static void _set_Instance(::System::ComponentModel::TypeDescriptor::MemberDescriptorComparer* value);
-    // static private System.Void .cctor()
-    // Offset: 0x1CA41A0
-    static void _cctor();
-    // public System.Int32 Compare(System.Object left, System.Object right)
-    // Offset: 0x1CA4020
-    int Compare(::Il2CppObject* left, ::Il2CppObject* right);
     // public System.Void .ctor()
-    // Offset: 0x1CA4198
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1CE06F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeDescriptor::MemberDescriptorComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::TypeDescriptor::MemberDescriptorComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeDescriptor::MemberDescriptorComparer*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1CE06F8
+    static void _cctor();
+    // public System.Int32 Compare(System.Object left, System.Object right)
+    // Offset: 0x1CE0578
+    int Compare(::Il2CppObject* left, ::Il2CppObject* right);
   }; // System.ComponentModel.TypeDescriptor/System.ComponentModel.MemberDescriptorComparer
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::ComponentModel::TypeDescriptor::MemberDescriptorComparer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::ComponentModel::TypeDescriptor::MemberDescriptorComparer::_cctor
 // Il2CppName: .cctor
 template<>
@@ -70,7 +72,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeDescriptor::MemberDescriptorComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{left, right});
   }
 };
-// Writing MetadataGetter for method: System::ComponentModel::TypeDescriptor::MemberDescriptorComparer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

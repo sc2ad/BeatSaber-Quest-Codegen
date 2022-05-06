@@ -98,25 +98,25 @@ namespace System {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: System.Globalization.Calendar calendar
-    ::System::Globalization::Calendar*& dyn_calendar();
+    [[deprecated("Use field access instead!")]] ::System::Globalization::Calendar*& dyn_calendar();
     // Get instance field reference: System.Int32 dayOfWeek
-    int& dyn_dayOfWeek();
+    [[deprecated("Use field access instead!")]] int& dyn_dayOfWeek();
     // Get instance field reference: System.DateTimeParse/System.TM timeMark
-    ::System::DateTimeParse::TM& dyn_timeMark();
+    [[deprecated("Use field access instead!")]] ::System::DateTimeParse::TM& dyn_timeMark();
     // Get instance field reference: System.Boolean fUseHour12
-    bool& dyn_fUseHour12();
+    [[deprecated("Use field access instead!")]] bool& dyn_fUseHour12();
     // Get instance field reference: System.Boolean fUseTwoDigitYear
-    bool& dyn_fUseTwoDigitYear();
+    [[deprecated("Use field access instead!")]] bool& dyn_fUseTwoDigitYear();
     // Get instance field reference: System.Boolean fAllowInnerWhite
-    bool& dyn_fAllowInnerWhite();
+    [[deprecated("Use field access instead!")]] bool& dyn_fAllowInnerWhite();
     // Get instance field reference: System.Boolean fAllowTrailingWhite
-    bool& dyn_fAllowTrailingWhite();
+    [[deprecated("Use field access instead!")]] bool& dyn_fAllowTrailingWhite();
     // Get instance field reference: System.Boolean fCustomNumberParser
-    bool& dyn_fCustomNumberParser();
+    [[deprecated("Use field access instead!")]] bool& dyn_fCustomNumberParser();
     // Get instance field reference: System.DateTimeParse/System.MatchNumberDelegate parseNumberDelegate
-    ::System::DateTimeParse::MatchNumberDelegate*& dyn_parseNumberDelegate();
+    [[deprecated("Use field access instead!")]] ::System::DateTimeParse::MatchNumberDelegate*& dyn_parseNumberDelegate();
     // System.Void Init()
-    // Offset: 0x21BB260
+    // Offset: 0x2208AD4
     void Init();
   }; // System.ParsingInfo
   #pragma pack(pop)

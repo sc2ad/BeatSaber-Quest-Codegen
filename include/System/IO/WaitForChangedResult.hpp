@@ -62,21 +62,21 @@ namespace System::IO {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private System.IO.WatcherChangeTypes changeType
-    ::System::IO::WatcherChangeTypes& dyn_changeType();
+    [[deprecated("Use field access instead!")]] ::System::IO::WatcherChangeTypes& dyn_changeType();
     // Get instance field reference: private System.String name
-    ::StringW& dyn_name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_name();
     // Get instance field reference: private System.String oldName
-    ::StringW& dyn_oldName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_oldName();
     // Get instance field reference: private System.Boolean timedOut
-    bool& dyn_timedOut();
+    [[deprecated("Use field access instead!")]] bool& dyn_timedOut();
     // public System.Void set_ChangeType(System.IO.WatcherChangeTypes value)
-    // Offset: 0x1CB7C94
+    // Offset: 0x1CF41EC
     void set_ChangeType(::System::IO::WatcherChangeTypes value);
     // public System.Void set_Name(System.String value)
-    // Offset: 0x1CB7C9C
+    // Offset: 0x1CF41F4
     void set_Name(::StringW value);
     // public System.Void set_OldName(System.String value)
-    // Offset: 0x1CB7CA4
+    // Offset: 0x1CF41FC
     void set_OldName(::StringW value);
   }; // System.IO.WaitForChangedResult
   #pragma pack(pop)

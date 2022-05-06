@@ -48,12 +48,12 @@ namespace GlobalNamespace {
     static ::StringW _get_kMultiplayer();
     // Set static field: static public System.String kMultiplayer
     static void _set_kMultiplayer(::StringW value);
-    // static field const value: static public System.String kMustAlwaysPass
-    static constexpr const char* kMustAlwaysPass = "MustAlwaysPass";
-    // Get static field: static public System.String kMustAlwaysPass
-    static ::StringW _get_kMustAlwaysPass();
-    // Set static field: static public System.String kMustAlwaysPass
-    static void _set_kMustAlwaysPass(::StringW value);
+    // static field const value: static public System.String kOnlyMustPassBeforeRelease
+    static constexpr const char* kOnlyMustPassBeforeRelease = "OnlyMustPassBeforeRelease";
+    // Get static field: static public System.String kOnlyMustPassBeforeRelease
+    static ::StringW _get_kOnlyMustPassBeforeRelease();
+    // Set static field: static public System.String kOnlyMustPassBeforeRelease
+    static void _set_kOnlyMustPassBeforeRelease(::StringW value);
   }; // TestCategories
   #pragma pack(pop)
 }

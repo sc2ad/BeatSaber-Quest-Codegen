@@ -40,25 +40,27 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class AndroidPlatform : public ::Il2CppObject {
     public:
-    // public System.Boolean Initialize(System.String appId)
-    // Offset: 0x2052160
-    bool Initialize(::StringW appId);
-    // public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> AsyncInitialize(System.String appId)
-    // Offset: 0x20522AC
-    ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
     // public System.Void .ctor()
-    // Offset: 0x205242C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x209BCA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidPlatform* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::AndroidPlatform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidPlatform*, creationType>()));
     }
+    // public System.Boolean Initialize(System.String appId)
+    // Offset: 0x209B9D4
+    bool Initialize(::StringW appId);
+    // public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> AsyncInitialize(System.String appId)
+    // Offset: 0x209BB20
+    ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
   }; // Oculus.Platform.AndroidPlatform
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Oculus::Platform::AndroidPlatform::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::AndroidPlatform::Initialize
 // Il2CppName: Initialize
 template<>
@@ -77,7 +79,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::P
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AndroidPlatform*), "AsyncInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{appId});
   }
 };
-// Writing MetadataGetter for method: Oculus::Platform::AndroidPlatform::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

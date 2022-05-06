@@ -29,15 +29,7 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class InspectorComment : public ::UnityEngine::PropertyAttribute {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String name
     // Size: 0x8
     // Offset: 0x10
@@ -52,18 +44,18 @@ namespace RootMotion {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String name
-    ::StringW& dyn_name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_name();
     // Get instance field reference: public System.String color
-    ::StringW& dyn_color();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_color();
     // public System.Void .ctor(System.String name)
-    // Offset: 0x1F7FF90
+    // Offset: 0x1FCC804
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InspectorComment* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::InspectorComment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InspectorComment*, creationType>(name)));
     }
     // public System.Void .ctor(System.String name, System.String color)
-    // Offset: 0x1F80000
+    // Offset: 0x1FCC874
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InspectorComment* New_ctor(::StringW name, ::StringW color) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::InspectorComment::.ctor");

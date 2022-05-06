@@ -42,15 +42,7 @@ namespace Mono::Security::Cryptography {
     public:
     // Nested type: ::Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler
     class KeyGeneratedEventHandler;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean isCRTpossible
     // Size: 0x1
     // Offset: 0x20
@@ -127,45 +119,45 @@ namespace Mono::Security::Cryptography {
     static_assert(sizeof(::Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler*) == 0x8);
     public:
     // Get instance field reference: private System.Boolean isCRTpossible
-    bool& dyn_isCRTpossible();
+    [[deprecated("Use field access instead!")]] bool& dyn_isCRTpossible();
     // Get instance field reference: private System.Boolean keypairGenerated
-    bool& dyn_keypairGenerated();
+    [[deprecated("Use field access instead!")]] bool& dyn_keypairGenerated();
     // Get instance field reference: private System.Boolean m_disposed
-    bool& dyn_m_disposed();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_disposed();
     // Get instance field reference: private Mono.Math.BigInteger d
-    ::Mono::Math::BigInteger*& dyn_d();
+    [[deprecated("Use field access instead!")]] ::Mono::Math::BigInteger*& dyn_d();
     // Get instance field reference: private Mono.Math.BigInteger p
-    ::Mono::Math::BigInteger*& dyn_p();
+    [[deprecated("Use field access instead!")]] ::Mono::Math::BigInteger*& dyn_p();
     // Get instance field reference: private Mono.Math.BigInteger q
-    ::Mono::Math::BigInteger*& dyn_q();
+    [[deprecated("Use field access instead!")]] ::Mono::Math::BigInteger*& dyn_q();
     // Get instance field reference: private Mono.Math.BigInteger dp
-    ::Mono::Math::BigInteger*& dyn_dp();
+    [[deprecated("Use field access instead!")]] ::Mono::Math::BigInteger*& dyn_dp();
     // Get instance field reference: private Mono.Math.BigInteger dq
-    ::Mono::Math::BigInteger*& dyn_dq();
+    [[deprecated("Use field access instead!")]] ::Mono::Math::BigInteger*& dyn_dq();
     // Get instance field reference: private Mono.Math.BigInteger qInv
-    ::Mono::Math::BigInteger*& dyn_qInv();
+    [[deprecated("Use field access instead!")]] ::Mono::Math::BigInteger*& dyn_qInv();
     // Get instance field reference: private Mono.Math.BigInteger n
-    ::Mono::Math::BigInteger*& dyn_n();
+    [[deprecated("Use field access instead!")]] ::Mono::Math::BigInteger*& dyn_n();
     // Get instance field reference: private Mono.Math.BigInteger e
-    ::Mono::Math::BigInteger*& dyn_e();
+    [[deprecated("Use field access instead!")]] ::Mono::Math::BigInteger*& dyn_e();
     // Get instance field reference: private Mono.Security.Cryptography.RSAManaged/Mono.Security.Cryptography.KeyGeneratedEventHandler KeyGenerated
-    ::Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler*& dyn_KeyGenerated();
+    [[deprecated("Use field access instead!")]] ::Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler*& dyn_KeyGenerated();
     // public System.Boolean get_PublicOnly()
-    // Offset: 0x22FB210
+    // Offset: 0x2344A84
     bool get_PublicOnly();
     // private System.Void GenerateKeyPair()
-    // Offset: 0x22FAB80
+    // Offset: 0x23443F4
     void GenerateKeyPair();
     // private System.Byte[] GetPaddedValue(Mono.Math.BigInteger value, System.Int32 length)
-    // Offset: 0x22FB614
+    // Offset: 0x2344E88
     ::ArrayW<uint8_t> GetPaddedValue(::Mono::Math::BigInteger* value, int length);
     // public override System.Security.Cryptography.RSAParameters ExportParameters(System.Boolean includePrivateParameters)
-    // Offset: 0x22FB2D4
+    // Offset: 0x2344B48
     // Implemented from: System.Security.Cryptography.RSA
     // Base method: System.Security.Cryptography.RSAParameters RSA::ExportParameters(System.Boolean includePrivateParameters)
     ::System::Security::Cryptography::RSAParameters ExportParameters(bool includePrivateParameters);
     // public override System.Void ImportParameters(System.Security.Cryptography.RSAParameters parameters)
-    // Offset: 0x22FB6D4
+    // Offset: 0x2344F48
     // Implemented from: System.Security.Cryptography.RSA
     // Base method: System.Void RSA::ImportParameters(System.Security.Cryptography.RSAParameters parameters)
     void ImportParameters(::System::Security::Cryptography::RSAParameters parameters);

@@ -35,15 +35,7 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class SubContainerCreatorBindInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String <DefaultParentName>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -66,33 +58,31 @@ namespace Zenject {
     static_assert(sizeof(::System::Type*) == 0x8);
     public:
     // Get instance field reference: private System.String <DefaultParentName>k__BackingField
-    ::StringW& dyn_$DefaultParentName$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$DefaultParentName$k__BackingField();
     // Get instance field reference: private System.Boolean <CreateKernel>k__BackingField
-    bool& dyn_$CreateKernel$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$CreateKernel$k__BackingField();
     // Get instance field reference: private System.Type <KernelType>k__BackingField
-    ::System::Type*& dyn_$KernelType$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_$KernelType$k__BackingField();
     // public System.String get_DefaultParentName()
-    // Offset: 0x1CE6E88
+    // Offset: 0x1D223E0
     ::StringW get_DefaultParentName();
     // public System.Void set_DefaultParentName(System.String value)
-    // Offset: 0x1CE6E90
+    // Offset: 0x1D223E8
     void set_DefaultParentName(::StringW value);
     // public System.Boolean get_CreateKernel()
-    // Offset: 0x1CE6E98
+    // Offset: 0x1D223F0
     bool get_CreateKernel();
     // public System.Void set_CreateKernel(System.Boolean value)
-    // Offset: 0x1CE6EA0
+    // Offset: 0x1D223F8
     void set_CreateKernel(bool value);
     // public System.Type get_KernelType()
-    // Offset: 0x1CE6EAC
+    // Offset: 0x1D22404
     ::System::Type* get_KernelType();
     // public System.Void set_KernelType(System.Type value)
-    // Offset: 0x1CE6EB4
+    // Offset: 0x1D2240C
     void set_KernelType(::System::Type* value);
     // public System.Void .ctor()
-    // Offset: 0x1CE3370
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1D1E8C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorBindInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SubContainerCreatorBindInfo::.ctor");

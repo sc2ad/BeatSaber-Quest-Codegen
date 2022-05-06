@@ -77,9 +77,9 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public System.String globalPropertyName
-      ::StringW& dyn_globalPropertyName();
+      [[deprecated("Use field access instead!")]] ::StringW& dyn_globalPropertyName();
       // Get instance field reference: public Noise3DTexturesGenerator/MaterialPropertyNameCouple[] materialPropertyNameCouples
-      ::ArrayW<::GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>& dyn_materialPropertyNameCouples();
+      [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>& dyn_materialPropertyNameCouples();
     }; // Noise3DTexturesGenerator/MaterialTextureParamsCouple
     #pragma pack(pop)
     static check_size<sizeof(Noise3DTexturesGenerator::MaterialTextureParamsCouple), 8 + sizeof(::ArrayW<::GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>)> __GlobalNamespace_Noise3DTexturesGenerator_MaterialTextureParamsCoupleSizeCheck;
@@ -112,22 +112,14 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public System.String texturePropertyName
-      ::StringW& dyn_texturePropertyName();
+      [[deprecated("Use field access instead!")]] ::StringW& dyn_texturePropertyName();
       // Get instance field reference: public UnityEngine.Material material
-      ::UnityEngine::Material*& dyn_material();
+      [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_material();
     }; // Noise3DTexturesGenerator/MaterialPropertyNameCouple
     #pragma pack(pop)
     static check_size<sizeof(Noise3DTexturesGenerator::MaterialPropertyNameCouple), 8 + sizeof(::UnityEngine::Material*)> __GlobalNamespace_Noise3DTexturesGenerator_MaterialPropertyNameCoupleSizeCheck;
     static_assert(sizeof(Noise3DTexturesGenerator::MaterialPropertyNameCouple) == 0x10);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Noise3DTexturesGenerator/MaterialTextureParamsCouple[] _data
     // Size: 0x8
     // Offset: 0x18
@@ -142,31 +134,23 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.Texture3D _texture
     static void _set__texture(::UnityEngine::Texture3D* value);
     // Get instance field reference: private Noise3DTexturesGenerator/MaterialTextureParamsCouple[] _data
-    ::ArrayW<::GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple>& dyn__data();
-    // protected System.Void Awake()
-    // Offset: 0x29EADA4
-    void Awake();
-    // static private UnityEngine.Color32[] CreateNoisePixels(System.Int32 width, System.Int32 height, System.Int32 depth, System.Single scale, System.Int32 repeat, System.Single contrast)
-    // Offset: 0x29EB020
-    static ::ArrayW<::UnityEngine::Color32> CreateNoisePixels(int width, int height, int depth, float scale, int repeat, float contrast);
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple>& dyn__data();
     // public System.Void .ctor()
-    // Offset: 0x29EB2AC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A41BA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Noise3DTexturesGenerator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::Noise3DTexturesGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Noise3DTexturesGenerator*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x29EB2B4
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x2A41BB0
     static void _cctor();
+    // protected System.Void Awake()
+    // Offset: 0x2A416A0
+    void Awake();
+    // static private UnityEngine.Color32[] CreateNoisePixels(System.Int32 width, System.Int32 height, System.Int32 depth, System.Single scale, System.Int32 repeat, System.Single contrast)
+    // Offset: 0x2A4191C
+    static ::ArrayW<::UnityEngine::Color32> CreateNoisePixels(int width, int height, int depth, float scale, int repeat, float contrast);
   }; // Noise3DTexturesGenerator
   #pragma pack(pop)
   static check_size<sizeof(Noise3DTexturesGenerator), 24 + sizeof(::ArrayW<::GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple>)> __GlobalNamespace_Noise3DTexturesGeneratorSizeCheck;
@@ -177,6 +161,18 @@ DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Noise3DTexturesGenerator::MaterialProp
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple, "", "Noise3DTexturesGenerator/MaterialTextureParamsCouple");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::Noise3DTexturesGenerator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::Noise3DTexturesGenerator::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::Noise3DTexturesGenerator::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Noise3DTexturesGenerator*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::Noise3DTexturesGenerator::Awake
 // Il2CppName: Awake
 template<>
@@ -197,17 +193,5 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
     static auto* repeat = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* contrast = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Noise3DTexturesGenerator*), "CreateNoisePixels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{width, height, depth, scale, repeat, contrast});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::Noise3DTexturesGenerator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::Noise3DTexturesGenerator::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::Noise3DTexturesGenerator::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Noise3DTexturesGenerator*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -39,29 +39,21 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerAvatarPoseController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private AvatarPoseController _avatarPoseController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::AvatarPoseController* avatarPoseController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AvatarPoseController*) == 0x8);
-    // [InjectAttribute] Offset: 0x124B478
+    // [InjectAttribute] Offset: 0x10CFF70
     // private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::INodePoseSyncStateManager*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0x124B488
+    // [InjectOptionalAttribute] Offset: 0x10CFF80
     // private IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x28
@@ -72,33 +64,27 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private AvatarPoseController _avatarPoseController
-    ::GlobalNamespace::AvatarPoseController*& dyn__avatarPoseController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarPoseController*& dyn__avatarPoseController();
     // Get instance field reference: private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
-    ::GlobalNamespace::INodePoseSyncStateManager*& dyn__nodePoseSyncStateManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::INodePoseSyncStateManager*& dyn__nodePoseSyncStateManager();
     // Get instance field reference: private IConnectedPlayer _connectedPlayer
-    ::GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // public System.Void set_connectedPlayer(IConnectedPlayer value)
-    // Offset: 0x13CB9C0
+    // Offset: 0x13C7E6C
     void set_connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
-    // protected System.Void Start()
-    // Offset: 0x13CB9C8
-    void Start();
-    // protected System.Void Update()
-    // Offset: 0x13CB9E0
-    void Update();
     // public System.Void .ctor()
-    // Offset: 0x13CBD98
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13C8244
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerAvatarPoseController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerAvatarPoseController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerAvatarPoseController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x13C7E74
+    void Start();
+    // protected System.Void Update()
+    // Offset: 0x13C7E8C
+    void Update();
   }; // MultiplayerAvatarPoseController
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerAvatarPoseController), 40 + sizeof(::GlobalNamespace::IConnectedPlayer*)> __GlobalNamespace_MultiplayerAvatarPoseControllerSizeCheck;
@@ -114,6 +100,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerAvatarPoseController*), "set_connectedPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerAvatarPoseController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerAvatarPoseController::Start
 // Il2CppName: Start
 template<>
@@ -130,7 +120,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerAvatarPoseController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerAvatarPoseController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

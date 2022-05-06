@@ -33,15 +33,7 @@ namespace NUnit::Framework::Constraints {
     class OperatorStack;
     // Nested type: ::NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack
     class ConstraintStack;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.OperatorStack ops
     // Size: 0x8
     // Offset: 0x10
@@ -62,16 +54,16 @@ namespace NUnit::Framework::Constraints {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: private readonly NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.OperatorStack ops
-    ::NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack*& dyn_ops();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack*& dyn_ops();
     // Get instance field reference: private readonly NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.ConstraintStack constraints
-    ::NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack*& dyn_constraints();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack*& dyn_constraints();
     // Get instance field reference: private System.Object lastPushed
-    ::Il2CppObject*& dyn_lastPushed();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_lastPushed();
     // private System.Boolean get_IsResolvable()
-    // Offset: 0x1C3C5E4
+    // Offset: 0x1C94B7C
     bool get_IsResolvable();
     // public NUnit.Framework.Constraints.IConstraint Resolve()
-    // Offset: 0x1C3C438
+    // Offset: 0x1C949D0
     ::NUnit::Framework::Constraints::IConstraint* Resolve();
   }; // NUnit.Framework.Constraints.ConstraintBuilder
   #pragma pack(pop)

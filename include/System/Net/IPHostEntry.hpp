@@ -35,15 +35,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPHostEntry : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String hostName
     // Size: 0x8
     // Offset: 0x10
@@ -70,32 +62,30 @@ namespace System::Net {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.String hostName
-    ::StringW& dyn_hostName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_hostName();
     // Get instance field reference: private System.String[] aliases
-    ::ArrayW<::StringW>& dyn_aliases();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_aliases();
     // Get instance field reference: private System.Net.IPAddress[] addressList
-    ::ArrayW<::System::Net::IPAddress*>& dyn_addressList();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Net::IPAddress*>& dyn_addressList();
     // Get instance field reference: System.Boolean isTrustedHost
-    bool& dyn_isTrustedHost();
+    [[deprecated("Use field access instead!")]] bool& dyn_isTrustedHost();
     // public System.String get_HostName()
-    // Offset: 0x1A78768
+    // Offset: 0x1AB2D50
     ::StringW get_HostName();
     // public System.Void set_HostName(System.String value)
-    // Offset: 0x1A78770
+    // Offset: 0x1AB2D58
     void set_HostName(::StringW value);
     // public System.Void set_Aliases(System.String[] value)
-    // Offset: 0x1A78778
+    // Offset: 0x1AB2D60
     void set_Aliases(::ArrayW<::StringW> value);
     // public System.Net.IPAddress[] get_AddressList()
-    // Offset: 0x1A78780
+    // Offset: 0x1AB2D68
     ::ArrayW<::System::Net::IPAddress*> get_AddressList();
     // public System.Void set_AddressList(System.Net.IPAddress[] value)
-    // Offset: 0x1A78788
+    // Offset: 0x1AB2D70
     void set_AddressList(::ArrayW<::System::Net::IPAddress*> value);
     // public System.Void .ctor()
-    // Offset: 0x1A78790
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1AB2D78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPHostEntry* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::IPHostEntry::.ctor");

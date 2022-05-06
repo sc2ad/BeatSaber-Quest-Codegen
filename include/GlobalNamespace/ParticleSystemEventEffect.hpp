@@ -52,15 +52,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParticleSystemEventEffect : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private ColorSO _lightColor0
     // Size: 0x8
     // Offset: 0x18
@@ -99,14 +91,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BasicBeatmapEventType colorEvent;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BasicBeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0x1251824
+    // [SpaceAttribute] Offset: 0x10D63B0
     // private UnityEngine.ParticleSystem _particleSystem
     // Size: 0x8
     // Offset: 0x40
     ::UnityEngine::ParticleSystem* particleSystem;
     // Field size check
     static_assert(sizeof(::UnityEngine::ParticleSystem*) == 0x8);
-    // [InjectAttribute] Offset: 0x125185C
+    // [InjectAttribute] Offset: 0x10D63E8
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x48
@@ -181,75 +173,73 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ColorSO _lightColor0
-    ::GlobalNamespace::ColorSO*& dyn__lightColor0();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn__lightColor0();
     // Get instance field reference: private ColorSO _lightColor1
-    ::GlobalNamespace::ColorSO*& dyn__lightColor1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn__lightColor1();
     // Get instance field reference: private ColorSO _highlightColor0
-    ::GlobalNamespace::ColorSO*& dyn__highlightColor0();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn__highlightColor0();
     // Get instance field reference: private ColorSO _highlightColor1
-    ::GlobalNamespace::ColorSO*& dyn__highlightColor1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn__highlightColor1();
     // Get instance field reference: private System.Boolean _lightOnStart
-    bool& dyn__lightOnStart();
+    [[deprecated("Use field access instead!")]] bool& dyn__lightOnStart();
     // Get instance field reference: private BasicBeatmapEventType _colorEvent
-    ::GlobalNamespace::BasicBeatmapEventType& dyn__colorEvent();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BasicBeatmapEventType& dyn__colorEvent();
     // Get instance field reference: private UnityEngine.ParticleSystem _particleSystem
-    ::UnityEngine::ParticleSystem*& dyn__particleSystem();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn__particleSystem();
     // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
-    ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
     // Get instance field reference: private System.Boolean _lightIsOn
-    bool& dyn__lightIsOn();
+    [[deprecated("Use field access instead!")]] bool& dyn__lightIsOn();
     // Get instance field reference: private UnityEngine.Color _offColor
-    ::UnityEngine::Color& dyn__offColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__offColor();
     // Get instance field reference: private System.Single _highlightValue
-    float& dyn__highlightValue();
+    [[deprecated("Use field access instead!")]] float& dyn__highlightValue();
     // Get instance field reference: private UnityEngine.Color _afterHighlightColor
-    ::UnityEngine::Color& dyn__afterHighlightColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__afterHighlightColor();
     // Get instance field reference: private UnityEngine.Color _highlightColor
-    ::UnityEngine::Color& dyn__highlightColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__highlightColor();
     // Get instance field reference: private System.Single kFadeSpeed
-    float& dyn_kFadeSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn_kFadeSpeed();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.MainModule _mainModule
-    ::UnityEngine::ParticleSystem::MainModule& dyn__mainModule();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::MainModule& dyn__mainModule();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.Particle[] _particles
-    ::ArrayW<::UnityEngine::ParticleSystem::Particle>& dyn__particles();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::ParticleSystem::Particle>& dyn__particles();
     // Get instance field reference: private UnityEngine.Color _particleColor
-    ::UnityEngine::Color& dyn__particleColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__particleColor();
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
-    ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
-    // protected System.Void Start()
-    // Offset: 0x12EBED8
-    void Start();
-    // private System.Void OnDestroy()
-    // Offset: 0x12EC1D4
-    void OnDestroy();
-    // protected System.Void Update()
-    // Offset: 0x12EC1F0
-    void Update();
-    // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x12EC314
-    void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
-    // private System.Void RefreshParticles()
-    // Offset: 0x12EC098
-    void RefreshParticles();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // public System.Void .ctor()
-    // Offset: 0x12EC4E4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x135D49C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParticleSystemEventEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ParticleSystemEventEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParticleSystemEventEffect*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x135CE90
+    void Start();
+    // private System.Void OnDestroy()
+    // Offset: 0x135D18C
+    void OnDestroy();
+    // protected System.Void Update()
+    // Offset: 0x135D1A8
+    void Update();
+    // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
+    // Offset: 0x135D2CC
+    void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
+    // private System.Void RefreshParticles()
+    // Offset: 0x135D050
+    void RefreshParticles();
   }; // ParticleSystemEventEffect
   #pragma pack(pop)
   static check_size<sizeof(ParticleSystemEventEffect), 176 + sizeof(::GlobalNamespace::BeatmapDataCallbackWrapper*)> __GlobalNamespace_ParticleSystemEventEffectSizeCheck;
   static_assert(sizeof(ParticleSystemEventEffect) == 0xB8);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ParticleSystemEventEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ParticleSystemEventEffect::Start
 // Il2CppName: Start
 template<>
@@ -291,7 +281,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ParticleSystemEventEffect*), "RefreshParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ParticleSystemEventEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

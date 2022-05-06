@@ -39,15 +39,7 @@ namespace System::Runtime::Remoting::Messaging {
     public:
     // Nested type: ::System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader
     struct Reader;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Hashtable m_Datastore
     // Size: 0x8
     // Offset: 0x10
@@ -62,35 +54,35 @@ namespace System::Runtime::Remoting::Messaging {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: private System.Collections.Hashtable m_Datastore
-    ::System::Collections::Hashtable*& dyn_m_Datastore();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn_m_Datastore();
     // Get instance field reference: private System.Object m_HostContext
-    ::Il2CppObject*& dyn_m_HostContext();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_m_HostContext();
     // private System.Collections.Hashtable get_Datastore()
-    // Offset: 0x1C68EB0
+    // Offset: 0x1C861BC
     ::System::Collections::Hashtable* get_Datastore();
     // System.Object get_HostContext()
-    // Offset: 0x1C68F1C
+    // Offset: 0x1C86228
     ::Il2CppObject* get_HostContext();
     // System.Void set_HostContext(System.Object value)
-    // Offset: 0x1C68F24
+    // Offset: 0x1C86230
     void set_HostContext(::Il2CppObject* value);
     // System.Boolean get_HasUserData()
-    // Offset: 0x1C68F2C
+    // Offset: 0x1C86238
     bool get_HasUserData();
     // public System.Void FreeNamedDataSlot(System.String name)
-    // Offset: 0x1C65E10
+    // Offset: 0x1C8311C
     void FreeNamedDataSlot(::StringW name);
     // public System.Object GetData(System.String name)
-    // Offset: 0x1C68F5C
+    // Offset: 0x1C86268
     ::Il2CppObject* GetData(::StringW name);
     // public System.Void SetData(System.String name, System.Object data)
-    // Offset: 0x1C65DD0
+    // Offset: 0x1C830DC
     void SetData(::StringW name, ::Il2CppObject* data);
     // public System.Runtime.Remoting.Messaging.IllogicalCallContext CreateCopy()
-    // Offset: 0x1C68F94
+    // Offset: 0x1C862A0
     ::System::Runtime::Remoting::Messaging::IllogicalCallContext* CreateCopy();
     // public System.Void .ctor()
-    // Offset: 0x1C691EC
+    // Offset: 0x1C864F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

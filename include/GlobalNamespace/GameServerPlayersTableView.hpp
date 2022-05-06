@@ -80,15 +80,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameServerPlayersTableView : public ::UnityEngine::MonoBehaviour/*, public ::HMUI::TableView::IDataSource*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.TableView _tableView
     // Size: 0x8
     // Offset: 0x18
@@ -125,14 +117,14 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* tableHeaderModifiersGo;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0x125DA00
+    // [InjectAttribute] Offset: 0x10E25E4
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x48
     ::Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(::Zenject::DiContainer*) == 0x8);
-    // [InjectAttribute] Offset: 0x125DA10
+    // [InjectAttribute] Offset: 0x10E25F4
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x50
@@ -233,107 +225,101 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kNoModifiersCellId
     static void _set_kNoModifiersCellId(::StringW value);
     // Get instance field reference: private HMUI.TableView _tableView
-    ::HMUI::TableView*& dyn__tableView();
+    [[deprecated("Use field access instead!")]] ::HMUI::TableView*& dyn__tableView();
     // Get instance field reference: private GameServerPlayerTableCell _gameServerPlayerCellPrefab
-    ::GlobalNamespace::GameServerPlayerTableCell*& dyn__gameServerPlayerCellPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameServerPlayerTableCell*& dyn__gameServerPlayerCellPrefab();
     // Get instance field reference: private GameServerPlayerTableCell _gameServerPlayerCellWithoutSongsPrefab
-    ::GlobalNamespace::GameServerPlayerTableCell*& dyn__gameServerPlayerCellWithoutSongsPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameServerPlayerTableCell*& dyn__gameServerPlayerCellWithoutSongsPrefab();
     // Get instance field reference: private GameServerPlayerTableCell _gameServerPlayerCellWithoutModifiersPrefab
-    ::GlobalNamespace::GameServerPlayerTableCell*& dyn__gameServerPlayerCellWithoutModifiersPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameServerPlayerTableCell*& dyn__gameServerPlayerCellWithoutModifiersPrefab();
     // Get instance field reference: private UnityEngine.GameObject _tableHeaderSongGo
-    ::UnityEngine::GameObject*& dyn__tableHeaderSongGo();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__tableHeaderSongGo();
     // Get instance field reference: private UnityEngine.GameObject _tableHeaderModifiersGo
-    ::UnityEngine::GameObject*& dyn__tableHeaderModifiersGo();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__tableHeaderModifiersGo();
     // Get instance field reference: private readonly Zenject.DiContainer _container
-    ::Zenject::DiContainer*& dyn__container();
+    [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn__container();
     // Get instance field reference: private readonly AdditionalContentModel _additionalContentModel
-    ::GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
     // Get instance field reference: private System.Action`1<PreviewDifficultyBeatmap> selectSuggestedLevelEvent
-    ::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*& dyn_selectSuggestedLevelEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*& dyn_selectSuggestedLevelEvent();
     // Get instance field reference: private System.Action`1<GameplayModifiers> selectSuggestedGameplayModifiersEvent
-    ::System::Action_1<::GlobalNamespace::GameplayModifiers*>*& dyn_selectSuggestedGameplayModifiersEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::GameplayModifiers*>*& dyn_selectSuggestedGameplayModifiersEvent();
     // Get instance field reference: private System.Action`1<System.String> kickPlayerEvent
-    ::System::Action_1<::StringW>*& dyn_kickPlayerEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::StringW>*& dyn_kickPlayerEvent();
     // Get instance field reference: private System.Boolean _initialized
-    bool& dyn__initialized();
+    [[deprecated("Use field access instead!")]] bool& dyn__initialized();
     // Get instance field reference: private System.Boolean _hasKickPermissions
-    bool& dyn__hasKickPermissions();
+    [[deprecated("Use field access instead!")]] bool& dyn__hasKickPermissions();
     // Get instance field reference: private System.Boolean _allowSelection
-    bool& dyn__allowSelection();
+    [[deprecated("Use field access instead!")]] bool& dyn__allowSelection();
     // Get instance field reference: private System.Boolean _showSongSelection
-    bool& dyn__showSongSelection();
+    [[deprecated("Use field access instead!")]] bool& dyn__showSongSelection();
     // Get instance field reference: private System.Boolean _showModifierSelection
-    bool& dyn__showModifierSelection();
+    [[deprecated("Use field access instead!")]] bool& dyn__showModifierSelection();
     // Get instance field reference: private IConnectedPlayer _selectedPlayer
-    ::GlobalNamespace::IConnectedPlayer*& dyn__selectedPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayer*& dyn__selectedPlayer();
     // Get instance field reference: private System.Collections.Generic.List`1<IConnectedPlayer> _sortedConnectedPlayers
-    ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>*& dyn__sortedConnectedPlayers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>*& dyn__sortedConnectedPlayers();
     // Get instance field reference: private ILobbyPlayersDataModel _lobbyPlayersDataModel
-    ::GlobalNamespace::ILobbyPlayersDataModel*& dyn__lobbyPlayersDataModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ILobbyPlayersDataModel*& dyn__lobbyPlayersDataModel();
     // private System.String get_currentCellId()
-    // Offset: 0x13E0C64
+    // Offset: 0x13ED704
     ::StringW get_currentCellId();
     // public System.Void add_selectSuggestedLevelEvent(System.Action`1<PreviewDifficultyBeatmap> value)
-    // Offset: 0x13E0830
+    // Offset: 0x13ED2D0
     void add_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* value);
     // public System.Void remove_selectSuggestedLevelEvent(System.Action`1<PreviewDifficultyBeatmap> value)
-    // Offset: 0x13E08D4
+    // Offset: 0x13ED374
     void remove_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* value);
     // public System.Void add_selectSuggestedGameplayModifiersEvent(System.Action`1<GameplayModifiers> value)
-    // Offset: 0x13E0978
+    // Offset: 0x13ED418
     void add_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void remove_selectSuggestedGameplayModifiersEvent(System.Action`1<GameplayModifiers> value)
-    // Offset: 0x13E0A1C
+    // Offset: 0x13ED4BC
     void remove_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void add_kickPlayerEvent(System.Action`1<System.String> value)
-    // Offset: 0x13E0AC0
+    // Offset: 0x13ED560
     void add_kickPlayerEvent(::System::Action_1<::StringW>* value);
     // public System.Void remove_kickPlayerEvent(System.Action`1<System.String> value)
-    // Offset: 0x13E0B64
+    // Offset: 0x13ED604
     void remove_kickPlayerEvent(::System::Action_1<::StringW>* value);
-    // public System.Single CellSize()
-    // Offset: 0x13E0C08
-    float CellSize();
-    // public System.Int32 NumberOfCells()
-    // Offset: 0x13E0C14
-    int NumberOfCells();
-    // private GameServerPlayerTableCell GetCurrentPrefab()
-    // Offset: 0x13E0CD8
-    ::GlobalNamespace::GameServerPlayerTableCell* GetCurrentPrefab();
-    // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x13E0D70
-    ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int idx);
-    // private System.Boolean TryGetLobbyPlayerData(System.Int32 idx, out IConnectedPlayer player, out ILobbyPlayerData playerData)
-    // Offset: 0x13E1204
-    bool TryGetLobbyPlayerData(int idx, ByRef<::GlobalNamespace::IConnectedPlayer*> player, ByRef<::GlobalNamespace::ILobbyPlayerData*> playerData);
-    // private System.Void HandleCellUseBeatmap(System.Int32 idx)
-    // Offset: 0x13E1378
-    void HandleCellUseBeatmap(int idx);
-    // private System.Void HandleCellUseModifiers(System.Int32 idx)
-    // Offset: 0x13E15F4
-    void HandleCellUseModifiers(int idx);
-    // private System.Void HandleCellKickPlayer(System.Int32 idx)
-    // Offset: 0x13E1860
-    void HandleCellKickPlayer(int idx);
-    // public System.Void SetData(System.Collections.Generic.List`1<IConnectedPlayer> sortedPlayers, ILobbyPlayersDataModel lobbyPlayersDataModel, System.Boolean hasKickPermissions, System.Boolean allowSelection, System.Boolean showSongSelection, System.Boolean showModifierSelection, System.Boolean clearSelection)
-    // Offset: 0x13E1974
-    void SetData(::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* sortedPlayers, ::GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel, bool hasKickPermissions, bool allowSelection, bool showSongSelection, bool showModifierSelection, bool clearSelection);
-    // private System.Void Init()
-    // Offset: 0x13E1A38
-    void Init();
     // public System.Void .ctor()
-    // Offset: 0x13E1A70
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13EE510
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerPlayersTableView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerPlayersTableView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServerPlayersTableView*, creationType>()));
     }
+    // public System.Single CellSize()
+    // Offset: 0x13ED6A8
+    float CellSize();
+    // public System.Int32 NumberOfCells()
+    // Offset: 0x13ED6B4
+    int NumberOfCells();
+    // private GameServerPlayerTableCell GetCurrentPrefab()
+    // Offset: 0x13ED778
+    ::GlobalNamespace::GameServerPlayerTableCell* GetCurrentPrefab();
+    // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
+    // Offset: 0x13ED810
+    ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int idx);
+    // private System.Boolean TryGetLobbyPlayerData(System.Int32 idx, out IConnectedPlayer player, out ILobbyPlayerData playerData)
+    // Offset: 0x13EDCA4
+    bool TryGetLobbyPlayerData(int idx, ByRef<::GlobalNamespace::IConnectedPlayer*> player, ByRef<::GlobalNamespace::ILobbyPlayerData*> playerData);
+    // private System.Void HandleCellUseBeatmap(System.Int32 idx)
+    // Offset: 0x13EDE18
+    void HandleCellUseBeatmap(int idx);
+    // private System.Void HandleCellUseModifiers(System.Int32 idx)
+    // Offset: 0x13EE094
+    void HandleCellUseModifiers(int idx);
+    // private System.Void HandleCellKickPlayer(System.Int32 idx)
+    // Offset: 0x13EE300
+    void HandleCellKickPlayer(int idx);
+    // public System.Void SetData(System.Collections.Generic.List`1<IConnectedPlayer> sortedPlayers, ILobbyPlayersDataModel lobbyPlayersDataModel, System.Boolean hasKickPermissions, System.Boolean allowSelection, System.Boolean showSongSelection, System.Boolean showModifierSelection, System.Boolean clearSelection)
+    // Offset: 0x13EE414
+    void SetData(::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* sortedPlayers, ::GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel, bool hasKickPermissions, bool allowSelection, bool showSongSelection, bool showModifierSelection, bool clearSelection);
+    // private System.Void Init()
+    // Offset: 0x13EE4D8
+    void Init();
   }; // GameServerPlayersTableView
   #pragma pack(pop)
   static check_size<sizeof(GameServerPlayersTableView), 136 + sizeof(::GlobalNamespace::ILobbyPlayersDataModel*)> __GlobalNamespace_GameServerPlayersTableViewSizeCheck;
@@ -402,6 +388,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayersTableView*), "remove_kickPlayerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::GameServerPlayersTableView::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameServerPlayersTableView::CellSize
 // Il2CppName: CellSize
 template<>
@@ -497,7 +487,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayersTableView*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameServerPlayersTableView::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

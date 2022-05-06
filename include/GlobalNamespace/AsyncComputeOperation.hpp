@@ -33,15 +33,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AsyncComputeOperation : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Int32 _timeoutMs
     // Size: 0x4
     // Offset: 0x10
@@ -58,17 +50,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Diagnostics::Stopwatch*) == 0x8);
     public:
     // Get instance field reference: private readonly System.Int32 _timeoutMs
-    int& dyn__timeoutMs();
+    [[deprecated("Use field access instead!")]] int& dyn__timeoutMs();
     // Get instance field reference: private readonly System.Diagnostics.Stopwatch _stopwatch
-    ::System::Diagnostics::Stopwatch*& dyn__stopwatch();
+    [[deprecated("Use field access instead!")]] ::System::Diagnostics::Stopwatch*& dyn__stopwatch();
     // public System.Double get_elapsedTime()
-    // Offset: 0x14F2834
+    // Offset: 0x152A13C
     double get_elapsedTime();
     // protected System.Boolean get_hasTimedOut()
-    // Offset: 0x14F28C8
+    // Offset: 0x152A1D0
     bool get_hasTimedOut();
     // protected System.Void .ctor(System.Int32 timeoutMs)
-    // Offset: 0x14F2904
+    // Offset: 0x152A20C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncComputeOperation* New_ctor(int timeoutMs) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncComputeOperation::.ctor");

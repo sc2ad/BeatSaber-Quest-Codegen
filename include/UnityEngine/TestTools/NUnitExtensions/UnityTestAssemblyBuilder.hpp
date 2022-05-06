@@ -61,15 +61,7 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     public:
     // Nested type: ::UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::$BuildAsync$d__3
     class $BuildAsync$d__3;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.String m_ProductName
     // Size: 0x8
     // Offset: 0x18
@@ -80,32 +72,33 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     // Deleting conversion operator: operator ::NUnit::Framework::Interfaces::ISuiteBuilder*
     constexpr operator ::NUnit::Framework::Interfaces::ISuiteBuilder*() const noexcept = delete;
     // Get instance field reference: private readonly System.String m_ProductName
-    ::StringW& dyn_m_ProductName();
-    // public NUnit.Framework.Interfaces.ITest Build(System.Reflection.Assembly[] assemblies, UnityEngine.TestTools.TestPlatform[] testPlatforms, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
-    // Offset: 0x1942A8C
-    ::NUnit::Framework::Interfaces::ITest* Build(::ArrayW<::System::Reflection::Assembly*> assemblies, ::ArrayW<::UnityEngine::TestTools::TestPlatform> testPlatforms, ::System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>* options);
-    // public System.Collections.Generic.IEnumerator`1<NUnit.Framework.Interfaces.ITest> BuildAsync(System.Reflection.Assembly[] assemblies, UnityEngine.TestTools.TestPlatform[] testPlatforms, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
-    // Offset: 0x194C894
-    ::System::Collections::Generic::IEnumerator_1<::NUnit::Framework::Interfaces::ITest*>* BuildAsync(::ArrayW<::System::Reflection::Assembly*> assemblies, ::ArrayW<::UnityEngine::TestTools::TestPlatform> testPlatforms, ::System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>* options);
-    // static public System.Collections.Generic.Dictionary`2<System.String,System.Object> GetNUnitTestBuilderSettings(UnityEngine.TestTools.TestPlatform testPlatform)
-    // Offset: 0x194C950
-    static ::System::Collections::Generic::Dictionary_2<::StringW, ::Il2CppObject*>* GetNUnitTestBuilderSettings(::UnityEngine::TestTools::TestPlatform testPlatform);
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_ProductName();
     // public System.Void .ctor()
-    // Offset: 0x194C81C
-    // Implemented from: NUnit.Framework.Api.DefaultTestAssemblyBuilder
-    // Base method: System.Void DefaultTestAssemblyBuilder::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1984530
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityTestAssemblyBuilder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityTestAssemblyBuilder*, creationType>()));
     }
+    // public NUnit.Framework.Interfaces.ITest Build(System.Reflection.Assembly[] assemblies, UnityEngine.TestTools.TestPlatform[] testPlatforms, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
+    // Offset: 0x197AA4C
+    ::NUnit::Framework::Interfaces::ITest* Build(::ArrayW<::System::Reflection::Assembly*> assemblies, ::ArrayW<::UnityEngine::TestTools::TestPlatform> testPlatforms, ::System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>* options);
+    // public System.Collections.Generic.IEnumerator`1<NUnit.Framework.Interfaces.ITest> BuildAsync(System.Reflection.Assembly[] assemblies, UnityEngine.TestTools.TestPlatform[] testPlatforms, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
+    // Offset: 0x19845A8
+    ::System::Collections::Generic::IEnumerator_1<::NUnit::Framework::Interfaces::ITest*>* BuildAsync(::ArrayW<::System::Reflection::Assembly*> assemblies, ::ArrayW<::UnityEngine::TestTools::TestPlatform> testPlatforms, ::System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>* options);
+    // static public System.Collections.Generic.Dictionary`2<System.String,System.Object> GetNUnitTestBuilderSettings(UnityEngine.TestTools.TestPlatform testPlatform)
+    // Offset: 0x1984664
+    static ::System::Collections::Generic::Dictionary_2<::StringW, ::Il2CppObject*>* GetNUnitTestBuilderSettings(::UnityEngine::TestTools::TestPlatform testPlatform);
   }; // UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder
   #pragma pack(pop)
   static check_size<sizeof(UnityTestAssemblyBuilder), 24 + sizeof(::StringW)> __UnityEngine_TestTools_NUnitExtensions_UnityTestAssemblyBuilderSizeCheck;
   static_assert(sizeof(UnityTestAssemblyBuilder) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::Build
 // Il2CppName: Build
 template<>
@@ -137,7 +130,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*), "GetNUnitTestBuilderSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{testPlatform});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

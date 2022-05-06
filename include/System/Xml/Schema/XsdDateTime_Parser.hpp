@@ -127,63 +127,63 @@ namespace System::Xml::Schema {
     // Set static field: static private System.Int32[] Power10
     static void _set_Power10(::ArrayW<int> value);
     // Get instance field reference: public System.Xml.Schema.XsdDateTime/System.Xml.Schema.DateTimeTypeCode typeCode
-    ::System::Xml::Schema::XsdDateTime::DateTimeTypeCode& dyn_typeCode();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XsdDateTime::DateTimeTypeCode& dyn_typeCode();
     // Get instance field reference: public System.Int32 year
-    int& dyn_year();
+    [[deprecated("Use field access instead!")]] int& dyn_year();
     // Get instance field reference: public System.Int32 month
-    int& dyn_month();
+    [[deprecated("Use field access instead!")]] int& dyn_month();
     // Get instance field reference: public System.Int32 day
-    int& dyn_day();
+    [[deprecated("Use field access instead!")]] int& dyn_day();
     // Get instance field reference: public System.Int32 hour
-    int& dyn_hour();
+    [[deprecated("Use field access instead!")]] int& dyn_hour();
     // Get instance field reference: public System.Int32 minute
-    int& dyn_minute();
+    [[deprecated("Use field access instead!")]] int& dyn_minute();
     // Get instance field reference: public System.Int32 second
-    int& dyn_second();
+    [[deprecated("Use field access instead!")]] int& dyn_second();
     // Get instance field reference: public System.Int32 fraction
-    int& dyn_fraction();
+    [[deprecated("Use field access instead!")]] int& dyn_fraction();
     // Get instance field reference: public System.Xml.Schema.XsdDateTime/System.Xml.Schema.XsdDateTimeKind kind
-    ::System::Xml::Schema::XsdDateTime::XsdDateTimeKind& dyn_kind();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XsdDateTime::XsdDateTimeKind& dyn_kind();
     // Get instance field reference: public System.Int32 zoneHour
-    int& dyn_zoneHour();
+    [[deprecated("Use field access instead!")]] int& dyn_zoneHour();
     // Get instance field reference: public System.Int32 zoneMinute
-    int& dyn_zoneMinute();
+    [[deprecated("Use field access instead!")]] int& dyn_zoneMinute();
     // Get instance field reference: private System.String text
-    ::StringW& dyn_text();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_text();
     // Get instance field reference: private System.Int32 length
-    int& dyn_length();
+    [[deprecated("Use field access instead!")]] int& dyn_length();
     // static private System.Void .cctor()
-    // Offset: 0x201BFF0
+    // Offset: 0x2065864
     static void _cctor();
     // public System.Boolean Parse(System.String text, System.Xml.Schema.XsdDateTimeFlags kinds)
-    // Offset: 0x2019220
+    // Offset: 0x2062A94
     bool Parse(::StringW text, ::System::Xml::Schema::XsdDateTimeFlags kinds);
     // private System.Boolean ParseDate(System.Int32 start)
-    // Offset: 0x201B5E4
+    // Offset: 0x2064E58
     bool ParseDate(int start);
     // private System.Boolean ParseTimeAndZoneAndWhitespace(System.Int32 start)
-    // Offset: 0x201B800
+    // Offset: 0x2065074
     bool ParseTimeAndZoneAndWhitespace(int start);
     // private System.Boolean ParseTimeAndWhitespace(System.Int32 start)
-    // Offset: 0x201BA88
+    // Offset: 0x20652FC
     bool ParseTimeAndWhitespace(int start);
     // private System.Boolean ParseTime(ref System.Int32 start)
-    // Offset: 0x201BCC4
+    // Offset: 0x2065538
     bool ParseTime(ByRef<int> start);
     // private System.Boolean ParseZoneAndWhitespace(System.Int32 start)
-    // Offset: 0x201B848
+    // Offset: 0x20650BC
     bool ParseZoneAndWhitespace(int start);
     // private System.Boolean Parse4Dig(System.Int32 start, ref System.Int32 num)
-    // Offset: 0x201BAE4
+    // Offset: 0x2065358
     bool Parse4Dig(int start, ByRef<int> num);
     // private System.Boolean Parse2Dig(System.Int32 start, ref System.Int32 num)
-    // Offset: 0x201BC10
+    // Offset: 0x2065484
     bool Parse2Dig(int start, ByRef<int> num);
     // private System.Boolean ParseChar(System.Int32 start, System.Char ch)
-    // Offset: 0x201B7B0
+    // Offset: 0x2065024
     bool ParseChar(int start, ::Il2CppChar ch);
     // static private System.Boolean Test(System.Xml.Schema.XsdDateTimeFlags left, System.Xml.Schema.XsdDateTimeFlags right)
-    // Offset: 0x201B5D8
+    // Offset: 0x2064E4C
     static bool Test(::System::Xml::Schema::XsdDateTimeFlags left, ::System::Xml::Schema::XsdDateTimeFlags right);
   }; // System.Xml.Schema.XsdDateTime/System.Xml.Schema.Parser
   #pragma pack(pop)

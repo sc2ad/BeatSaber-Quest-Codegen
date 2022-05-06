@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TutorialBeatmapObjectManager::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Single cutAngleTolerance
     // Size: 0x4
     // Offset: 0x10
@@ -44,9 +36,9 @@ namespace GlobalNamespace {
       return cutAngleTolerance;
     }
     // Get instance field reference: public readonly System.Single cutAngleTolerance
-    float& dyn_cutAngleTolerance();
+    [[deprecated("Use field access instead!")]] float& dyn_cutAngleTolerance();
     // public System.Void .ctor(System.Single cutAngleTolerance)
-    // Offset: 0x1342C10
+    // Offset: 0x148F00C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialBeatmapObjectManager::InitData* New_ctor(float cutAngleTolerance) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialBeatmapObjectManager::InitData::.ctor");

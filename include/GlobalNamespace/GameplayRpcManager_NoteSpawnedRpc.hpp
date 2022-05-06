@@ -32,11 +32,10 @@ namespace GlobalNamespace {
   class GameplayRpcManager::NoteSpawnedRpc : public ::GlobalNamespace::RemoteProcedureCall_2<float, ::GlobalNamespace::NoteSpawnInfoNetSerializable*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x164815C
+    // Offset: 0x167EA6C
     // Implemented from: RemoteProcedureCall`2
     // Base method: System.Void RemoteProcedureCall_2::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayRpcManager::NoteSpawnedRpc* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayRpcManager::NoteSpawnedRpc::.ctor");

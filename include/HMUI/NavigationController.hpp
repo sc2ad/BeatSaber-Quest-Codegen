@@ -100,7 +100,7 @@ namespace HMUI {
       // Set static field: static public HMUI.NavigationController/HMUI.Orientation Vertical
       static void _set_Vertical(::HMUI::NavigationController::Orientation value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // HMUI.NavigationController/HMUI.Orientation
     #pragma pack(pop)
     static check_size<sizeof(NavigationController::Orientation), 0 + sizeof(int)> __HMUI_NavigationController_OrientationSizeCheck;
@@ -148,20 +148,12 @@ namespace HMUI {
       // Set static field: static public HMUI.NavigationController/HMUI.Alignment End
       static void _set_End(::HMUI::NavigationController::Alignment value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // HMUI.NavigationController/HMUI.Alignment
     #pragma pack(pop)
     static check_size<sizeof(NavigationController::Alignment), 0 + sizeof(int)> __HMUI_NavigationController_AlignmentSizeCheck;
     static_assert(sizeof(NavigationController::Alignment) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.NavigationController/HMUI.Orientation _orientation
     // Size: 0x4
     // Offset: 0x80
@@ -196,50 +188,45 @@ namespace HMUI {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private HMUI.NavigationController/HMUI.Orientation _orientation
-    ::HMUI::NavigationController::Orientation& dyn__orientation();
+    [[deprecated("Use field access instead!")]] ::HMUI::NavigationController::Orientation& dyn__orientation();
     // Get instance field reference: private System.Boolean _reversedStacking
-    bool& dyn__reversedStacking();
+    [[deprecated("Use field access instead!")]] bool& dyn__reversedStacking();
     // Get instance field reference: private HMUI.NavigationController/HMUI.Alignment _alignment
-    ::HMUI::NavigationController::Alignment& dyn__alignment();
+    [[deprecated("Use field access instead!")]] ::HMUI::NavigationController::Alignment& dyn__alignment();
     // Get instance field reference: private System.Single _edgeSize
-    float& dyn__edgeSize();
+    [[deprecated("Use field access instead!")]] float& dyn__edgeSize();
     // Get instance field reference: private System.Single _viewControllersSeparator
-    float& dyn__viewControllersSeparator();
+    [[deprecated("Use field access instead!")]] float& dyn__viewControllersSeparator();
     // public System.Void PushViewController(HMUI.ViewController viewController, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x16855E0
+    // Offset: 0x16BBEF0
     void PushViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, bool immediately);
     // public System.Void PopViewController(System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x16856BC
+    // Offset: 0x16BBFCC
     void PopViewController(::System::Action* finishedCallback, bool immediately);
     // public System.Void PopViewControllers(System.Int32 numberOfViewControllersToPop, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x16856D0
+    // Offset: 0x16BBFE0
     void PopViewControllers(int numberOfViewControllersToPop, ::System::Action* finishedCallback, bool immediately);
     // private UnityEngine.Vector3 PositionVector(System.Single pos)
-    // Offset: 0x1685584
+    // Offset: 0x16BBE94
     ::UnityEngine::Vector3 PositionVector(float pos);
     // private System.Void SetupViewControllerRect(HMUI.ViewController viewController)
-    // Offset: 0x1685528
+    // Offset: 0x16BBE38
     void SetupViewControllerRect(::HMUI::ViewController* viewController);
     // private System.Single[] GetNewPositionsForViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers, System.Collections.Generic.HashSet`1<HMUI.ViewController> fixedViewControllers, System.Single fixedEndPos)
-    // Offset: 0x16850A4
+    // Offset: 0x16BB9B4
     ::ArrayW<float> GetNewPositionsForViewControllers(::System::Collections::Generic::List_1<::HMUI::ViewController*>* viewControllers, ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>* fixedViewControllers, float fixedEndPos);
     // public System.Void .ctor()
-    // Offset: 0x16858A4
+    // Offset: 0x16BC1B4
     // Implemented from: HMUI.ContainerViewController
     // Base method: System.Void ContainerViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NavigationController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::NavigationController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NavigationController*, creationType>()));
     }
     // protected override System.Void LayoutViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers)
-    // Offset: 0x1684F70
+    // Offset: 0x16BB880
     // Implemented from: HMUI.ContainerViewController
     // Base method: System.Void ContainerViewController::LayoutViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers)
     void LayoutViewControllers(::System::Collections::Generic::List_1<::HMUI::ViewController*>* viewControllers);

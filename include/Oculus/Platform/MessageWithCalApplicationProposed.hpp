@@ -35,10 +35,10 @@ namespace Oculus::Platform {
   class MessageWithCalApplicationProposed : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::CalApplicationProposed*> {
     public:
     // protected Oculus.Platform.Models.CalApplicationProposed GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x19AB2D8
+    // Offset: 0x19E48C0
     ::Oculus::Platform::Models::CalApplicationProposed* GetDataFromMessage(::System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x19A8204
+    // Offset: 0x19E17EC
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -48,7 +48,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithCalApplicationProposed*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.CalApplicationProposed GetCalApplicationProposed()
-    // Offset: 0x19AB294
+    // Offset: 0x19E487C
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.CalApplicationProposed Message::GetCalApplicationProposed()
     ::Oculus::Platform::Models::CalApplicationProposed* GetCalApplicationProposed();

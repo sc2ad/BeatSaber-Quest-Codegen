@@ -69,22 +69,14 @@ namespace GlobalNamespace {
     class SupportedProperty;
     // Nested type: ::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer::PropertyType
     struct PropertyType;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BloomPrePassBackgroundNonLightRenderer[] _renderers
     // Size: 0x8
     // Offset: 0x20
     ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer*> renderers;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x1237778
+    // [SpaceAttribute] Offset: 0x10BC1D0
     // private BloomPrePassBackgroundNonLightInstancedGroupRenderer/SupportedProperty[] _supportedProperties
     // Size: 0x8
     // Offset: 0x28
@@ -136,7 +128,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::UnityEngine::MaterialPropertyBlock*) == 0x8);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12377B0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BC208
     // Get static field: static private readonly System.Int32 _worldSpaceCameraPosID
     static int _get__worldSpaceCameraPosID();
     // Set static field: static private readonly System.Int32 _worldSpaceCameraPosID
@@ -148,60 +140,54 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kInternalMatricesCachingId
     static void _set_kInternalMatricesCachingId(::StringW value);
     // Get instance field reference: private BloomPrePassBackgroundNonLightRenderer[] _renderers
-    ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer*>& dyn__renderers();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer*>& dyn__renderers();
     // Get instance field reference: private BloomPrePassBackgroundNonLightInstancedGroupRenderer/SupportedProperty[] _supportedProperties
-    ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer::SupportedProperty*>& dyn__supportedProperties();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer::SupportedProperty*>& dyn__supportedProperties();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single[]> _reusableFloatArrays
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<float>>*& dyn__reusableFloatArrays();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<float>>*& dyn__reusableFloatArrays();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Vector4[]> _reusableVectorArrays
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<::UnityEngine::Vector4>>*& dyn__reusableVectorArrays();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<::UnityEngine::Vector4>>*& dyn__reusableVectorArrays();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Matrix4x4[]> _reusableMatrixArrays
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<::UnityEngine::Matrix4x4>>*& dyn__reusableMatrixArrays();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<::UnityEngine::Matrix4x4>>*& dyn__reusableMatrixArrays();
     // Get instance field reference: private System.Int32 _reusableArraysSize
-    int& dyn__reusableArraysSize();
+    [[deprecated("Use field access instead!")]] int& dyn__reusableArraysSize();
     // Get instance field reference: private UnityEngine.Rendering.CommandBuffer _commandBuffer
-    ::UnityEngine::Rendering::CommandBuffer*& dyn__commandBuffer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rendering::CommandBuffer*& dyn__commandBuffer();
     // Get instance field reference: private UnityEngine.MaterialPropertyBlock _reusableSetMaterialPropertyBlock
-    ::UnityEngine::MaterialPropertyBlock*& dyn__reusableSetMaterialPropertyBlock();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MaterialPropertyBlock*& dyn__reusableSetMaterialPropertyBlock();
     // Get instance field reference: private UnityEngine.MaterialPropertyBlock _reusableGetMaterialPropertyBlock
-    ::UnityEngine::MaterialPropertyBlock*& dyn__reusableGetMaterialPropertyBlock();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MaterialPropertyBlock*& dyn__reusableGetMaterialPropertyBlock();
     // protected System.Void Awake()
-    // Offset: 0x2ACBB1C
+    // Offset: 0x1E74EE4
     void Awake();
     // private System.Void InitIfNeeded()
-    // Offset: 0x2ACBB20
+    // Offset: 0x1E74EE8
     void InitIfNeeded();
     // private UnityEngine.Matrix4x4[] GetCachedMatrixArray(System.String propertyName)
-    // Offset: 0x2ACC3F8
+    // Offset: 0x1E757C0
     ::ArrayW<::UnityEngine::Matrix4x4> GetCachedMatrixArray(::StringW propertyName);
     // private System.Single[] GetCachedFloatArray(System.String propertyName)
-    // Offset: 0x2ACC590
+    // Offset: 0x1E75958
     ::ArrayW<float> GetCachedFloatArray(::StringW propertyName);
     // private UnityEngine.Vector4[] GetCachedVectorArray(System.String propertyName)
-    // Offset: 0x2ACC4C4
+    // Offset: 0x1E7588C
     ::ArrayW<::UnityEngine::Vector4> GetCachedVectorArray(::StringW propertyName);
     // public System.Void .ctor()
-    // Offset: 0x2ACC65C
+    // Offset: 0x1E75A24
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassBackgroundNonLightInstancedGroupRenderer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundNonLightInstancedGroupRenderer*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2ACC73C
+    // Offset: 0x1E75B04
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::.cctor()
-    // Base method: System.Void Object::.cctor()
     static void _cctor();
     // public override System.Void Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
-    // Offset: 0x2ACBD8C
+    // Offset: 0x1E75154
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
     void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);

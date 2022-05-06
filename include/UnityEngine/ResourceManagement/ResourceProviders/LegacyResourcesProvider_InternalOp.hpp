@@ -32,15 +32,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   class LegacyResourcesProvider::InternalOp : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.AsyncOperation m_RequestOperation
     // Size: 0x8
     // Offset: 0x10
@@ -55,33 +47,35 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     static_assert(sizeof(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle) == 0x18);
     public:
     // Get instance field reference: private UnityEngine.AsyncOperation m_RequestOperation
-    ::UnityEngine::AsyncOperation*& dyn_m_RequestOperation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AsyncOperation*& dyn_m_RequestOperation();
     // Get instance field reference: private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_ProvideHandle
-    ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& dyn_m_ProvideHandle();
-    // public System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle provideHandle)
-    // Offset: 0x1E9F814
-    void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
-    // private System.Void AsyncOperationCompleted(UnityEngine.AsyncOperation op)
-    // Offset: 0x1E9FA6C
-    void AsyncOperationCompleted(::UnityEngine::AsyncOperation* op);
-    // public System.Single PercentComplete()
-    // Offset: 0x1E9FBD0
-    float PercentComplete();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& dyn_m_ProvideHandle();
     // public System.Void .ctor()
-    // Offset: 0x1E9F80C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1EEDD44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LegacyResourcesProvider::InternalOp* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::InternalOp::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LegacyResourcesProvider::InternalOp*, creationType>()));
     }
+    // public System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle provideHandle)
+    // Offset: 0x1EEDD4C
+    void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
+    // private System.Void AsyncOperationCompleted(UnityEngine.AsyncOperation op)
+    // Offset: 0x1EEDFA4
+    void AsyncOperationCompleted(::UnityEngine::AsyncOperation* op);
+    // public System.Single PercentComplete()
+    // Offset: 0x1EEE108
+    float PercentComplete();
   }; // UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider/UnityEngine.ResourceManagement.ResourceProviders.InternalOp
   #pragma pack(pop)
   static check_size<sizeof(LegacyResourcesProvider::InternalOp), 24 + sizeof(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)> __UnityEngine_ResourceManagement_ResourceProviders_LegacyResourcesProvider_InternalOpSizeCheck;
   static_assert(sizeof(LegacyResourcesProvider::InternalOp) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::InternalOp::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::InternalOp::Start
 // Il2CppName: Start
 template<>
@@ -108,7 +102,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::InternalOp*), "PercentComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::InternalOp::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

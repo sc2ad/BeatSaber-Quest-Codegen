@@ -46,15 +46,7 @@ namespace System::Runtime::Remoting::Contexts {
     public:
     // Nested type: ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::DynamicPropertyReg
     class DynamicPropertyReg;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.ArrayList _properties
     // Size: 0x8
     // Offset: 0x10
@@ -67,24 +59,24 @@ namespace System::Runtime::Remoting::Contexts {
       return properties;
     }
     // Get instance field reference: private System.Collections.ArrayList _properties
-    ::System::Collections::ArrayList*& dyn__properties();
+    [[deprecated("Use field access instead!")]] ::System::Collections::ArrayList*& dyn__properties();
     // public System.Boolean get_HasProperties()
-    // Offset: 0x1C5CBB4
+    // Offset: 0x1C79EC0
     bool get_HasProperties();
     // public System.Boolean RegisterDynamicProperty(System.Runtime.Remoting.Contexts.IDynamicProperty prop)
-    // Offset: 0x1C5CE5C
+    // Offset: 0x1C7A168
     bool RegisterDynamicProperty(::System::Runtime::Remoting::Contexts::IDynamicProperty* prop);
     // public System.Boolean UnregisterDynamicProperty(System.String name)
-    // Offset: 0x1C5D174
+    // Offset: 0x1C7A480
     bool UnregisterDynamicProperty(::StringW name);
     // public System.Void NotifyMessage(System.Boolean start, System.Runtime.Remoting.Messaging.IMessage msg, System.Boolean client_site, System.Boolean async)
-    // Offset: 0x1C5D4B4
+    // Offset: 0x1C7A7C0
     void NotifyMessage(bool start, ::System::Runtime::Remoting::Messaging::IMessage* msg, bool client_site, bool async);
     // private System.Int32 FindProperty(System.String name)
-    // Offset: 0x1C5FE4C
+    // Offset: 0x1C7D158
     int FindProperty(::StringW name);
     // public System.Void .ctor()
-    // Offset: 0x1C5D32C
+    // Offset: 0x1C7A638
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

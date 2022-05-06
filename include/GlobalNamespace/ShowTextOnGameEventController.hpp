@@ -38,15 +38,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::ShowTextOnGameEventController::EventTextBinding
     class EventTextBinding;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TextFadeTransitions _textFadeTransitions
     // Size: 0x8
     // Offset: 0x18
@@ -63,34 +55,32 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TextFadeTransitions _textFadeTransitions
-    ::GlobalNamespace::TextFadeTransitions*& dyn__textFadeTransitions();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TextFadeTransitions*& dyn__textFadeTransitions();
     // Get instance field reference: private ShowTextOnGameEventController/EventTextBinding[] _eventTextBindings
-    ::ArrayW<::GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*>& dyn__eventTextBindings();
-    // protected System.Void Awake()
-    // Offset: 0x142B48C
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x142B598
-    void OnDestroy();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*>& dyn__eventTextBindings();
     // public System.Void .ctor()
-    // Offset: 0x142B68C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1380AF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShowTextOnGameEventController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ShowTextOnGameEventController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShowTextOnGameEventController*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x13808F0
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13809FC
+    void OnDestroy();
   }; // ShowTextOnGameEventController
   #pragma pack(pop)
   static check_size<sizeof(ShowTextOnGameEventController), 32 + sizeof(::ArrayW<::GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*>)> __GlobalNamespace_ShowTextOnGameEventControllerSizeCheck;
   static_assert(sizeof(ShowTextOnGameEventController) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ShowTextOnGameEventController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ShowTextOnGameEventController::Awake
 // Il2CppName: Awake
 template<>
@@ -107,7 +97,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShowTextOnGameEventController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ShowTextOnGameEventController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

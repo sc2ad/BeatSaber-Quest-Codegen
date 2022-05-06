@@ -63,15 +63,7 @@ namespace GlobalNamespace {
     class BloomKernel;
     // Nested type: ::GlobalNamespace::KawaseBlurRendererSO::Pass
     struct Pass;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Shader _kawaseBlurShader
     // Size: 0x8
     // Offset: 0x18
@@ -141,117 +133,110 @@ namespace GlobalNamespace {
     static int _get_kMaxBloomIterations();
     // Set static field: static private System.Int32 kMaxBloomIterations
     static void _set_kMaxBloomIterations(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12382BC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BCD74
     // Get static field: static private readonly System.Single[][] kBloomIterationWeights
     static ::ArrayW<::ArrayW<float>> _get_kBloomIterationWeights();
     // Set static field: static private readonly System.Single[][] kBloomIterationWeights
     static void _set_kBloomIterationWeights(::ArrayW<::ArrayW<float>> value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12382CC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BCD84
     // Get static field: static private readonly System.Int32 _offsetID
     static int _get__offsetID();
     // Set static field: static private readonly System.Int32 _offsetID
     static void _set__offsetID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12382DC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BCD94
     // Get static field: static private readonly System.Int32 _boostID
     static int _get__boostID();
     // Set static field: static private readonly System.Int32 _boostID
     static void _set__boostID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12382EC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BCDA4
     // Get static field: static private readonly System.Int32 _additiveAlphaID
     static int _get__additiveAlphaID();
     // Set static field: static private readonly System.Int32 _additiveAlphaID
     static void _set__additiveAlphaID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12382FC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BCDB4
     // Get static field: static private readonly System.Int32 _alphaID
     static int _get__alphaID();
     // Set static field: static private readonly System.Int32 _alphaID
     static void _set__alphaID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x123830C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BCDC4
     // Get static field: static private readonly System.Int32 _tintColorID
     static int _get__tintColorID();
     // Set static field: static private readonly System.Int32 _tintColorID
     static void _set__tintColorID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x123831C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BCDD4
     // Get static field: static private readonly System.Int32 _alphaWeightsID
     static int _get__alphaWeightsID();
     // Set static field: static private readonly System.Int32 _alphaWeightsID
     static void _set__alphaWeightsID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x123832C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BCDE4
     // Get static field: static private readonly System.Int32 _tempTexture0ID
     static int _get__tempTexture0ID();
     // Set static field: static private readonly System.Int32 _tempTexture0ID
     static void _set__tempTexture0ID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x123833C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BCDF4
     // Get static field: static private readonly System.Int32 _tempTexture1ID
     static int _get__tempTexture1ID();
     // Set static field: static private readonly System.Int32 _tempTexture1ID
     static void _set__tempTexture1ID(int value);
     // Get instance field reference: private UnityEngine.Shader _kawaseBlurShader
-    ::UnityEngine::Shader*& dyn__kawaseBlurShader();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Shader*& dyn__kawaseBlurShader();
     // Get instance field reference: private UnityEngine.Shader _additiveShader
-    ::UnityEngine::Shader*& dyn__additiveShader();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Shader*& dyn__additiveShader();
     // Get instance field reference: private UnityEngine.Shader _tintShader
-    ::UnityEngine::Shader*& dyn__tintShader();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Shader*& dyn__tintShader();
     // Get instance field reference: private UnityEngine.Material _kawaseBlurMaterial
-    ::UnityEngine::Material*& dyn__kawaseBlurMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__kawaseBlurMaterial();
     // Get instance field reference: private UnityEngine.Material _additiveMaterial
-    ::UnityEngine::Material*& dyn__additiveMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__additiveMaterial();
     // Get instance field reference: private UnityEngine.Material _tintMaterial
-    ::UnityEngine::Material*& dyn__tintMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__tintMaterial();
     // Get instance field reference: private UnityEngine.Material _commandBuffersMaterial
-    ::UnityEngine::Material*& dyn__commandBuffersMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__commandBuffersMaterial();
     // Get instance field reference: private System.Int32[][] _kernels
-    ::ArrayW<::ArrayW<int>>& dyn__kernels();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::ArrayW<int>>& dyn__kernels();
     // Get instance field reference: private KawaseBlurRendererSO/BloomKernel[] _bloomKernels
-    ::ArrayW<::GlobalNamespace::KawaseBlurRendererSO::BloomKernel*>& dyn__bloomKernels();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::KawaseBlurRendererSO::BloomKernel*>& dyn__bloomKernels();
     // Get instance field reference: private UnityEngine.RenderTexture[] _blurTextures
-    ::ArrayW<::UnityEngine::RenderTexture*>& dyn__blurTextures();
-    // public System.Int32[] GetBlurKernel(KawaseBlurRendererSO/KernelSize kernelSize)
-    // Offset: 0x2ACFE48
-    ::ArrayW<int> GetBlurKernel(::GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize);
-    // protected System.Void OnDisable()
-    // Offset: 0x2AD03D0
-    void OnDisable();
-    // public System.Void Bloom(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Int32 iterationsStart, System.Int32 iterations, System.Single boost, System.Single alphaWeights, KawaseBlurRendererSO/WeightsType blurStartWeightsType, System.Single[] bloomIterationWeights)
-    // Offset: 0x2AD0418
-    void Bloom(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, int iterationsStart, int iterations, float boost, float alphaWeights, ::GlobalNamespace::KawaseBlurRendererSO::WeightsType blurStartWeightsType, ::ArrayW<float> bloomIterationWeights);
-    // public System.Void DoubleBlur(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, KawaseBlurRendererSO/KernelSize kernelSize0, System.Single boost0, KawaseBlurRendererSO/KernelSize kernelSize1, System.Single boost1, System.Single secondBlurAlpha, System.Int32 downsample, System.Boolean gammaCorrection)
-    // Offset: 0x2AD0E5C
-    void DoubleBlur(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, ::GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize0, float boost0, ::GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize1, float boost1, float secondBlurAlpha, int downsample, bool gammaCorrection);
-    // public UnityEngine.Texture2D Blur(UnityEngine.Texture src, KawaseBlurRendererSO/KernelSize kernelSize, System.Int32 downsample)
-    // Offset: 0x2AD10D4
-    ::UnityEngine::Texture2D* Blur(::UnityEngine::Texture* src, ::GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize, int downsample);
-    // public System.Void Blur(UnityEngine.Texture src, UnityEngine.RenderTexture dest, KawaseBlurRendererSO/KernelSize kernelSize, System.Single boost, System.Int32 downsample)
-    // Offset: 0x2AD119C
-    void Blur(::UnityEngine::Texture* src, ::UnityEngine::RenderTexture* dest, ::GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize, float boost, int downsample);
-    // private System.Void Blur(UnityEngine.Texture src, UnityEngine.RenderTexture dest, System.Int32[] kernel, System.Single boost, System.Int32 downsample, System.Int32 startIdx, System.Int32 length, System.Single alphaWeights, System.Single additiveAlpha, System.Boolean additivelyBlendToDest, System.Boolean gammaCorrection, KawaseBlurRendererSO/WeightsType blurStartWeightsType)
-    // Offset: 0x2AD095C
-    void Blur(::UnityEngine::Texture* src, ::UnityEngine::RenderTexture* dest, ::ArrayW<int> kernel, float boost, int downsample, int startIdx, int length, float alphaWeights, float additiveAlpha, bool additivelyBlendToDest, bool gammaCorrection, ::GlobalNamespace::KawaseBlurRendererSO::WeightsType blurStartWeightsType);
-    // public System.Void AlphaWeights(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x2AD1228
-    void AlphaWeights(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
-    // public UnityEngine.Rendering.CommandBuffer CreateBlurCommandBuffer(System.Int32 width, System.Int32 height, System.String globalTextureName, KawaseBlurRendererSO/KernelSize kernelSize, System.Single boost)
-    // Offset: 0x2AD1334
-    ::UnityEngine::Rendering::CommandBuffer* CreateBlurCommandBuffer(int width, int height, ::StringW globalTextureName, ::GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize, float boost);
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::RenderTexture*>& dyn__blurTextures();
     // public System.Void .ctor()
-    // Offset: 0x2AD1654
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E7AA1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KawaseBlurRendererSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::KawaseBlurRendererSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KawaseBlurRendererSO*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2AD165C
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x1E7AA24
     static void _cctor();
+    // public System.Int32[] GetBlurKernel(KawaseBlurRendererSO/KernelSize kernelSize)
+    // Offset: 0x1E79210
+    ::ArrayW<int> GetBlurKernel(::GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize);
+    // protected System.Void OnDisable()
+    // Offset: 0x1E79798
+    void OnDisable();
+    // public System.Void Bloom(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Int32 iterationsStart, System.Int32 iterations, System.Single boost, System.Single alphaWeights, KawaseBlurRendererSO/WeightsType blurStartWeightsType, System.Single[] bloomIterationWeights)
+    // Offset: 0x1E797E0
+    void Bloom(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, int iterationsStart, int iterations, float boost, float alphaWeights, ::GlobalNamespace::KawaseBlurRendererSO::WeightsType blurStartWeightsType, ::ArrayW<float> bloomIterationWeights);
+    // public System.Void DoubleBlur(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, KawaseBlurRendererSO/KernelSize kernelSize0, System.Single boost0, KawaseBlurRendererSO/KernelSize kernelSize1, System.Single boost1, System.Single secondBlurAlpha, System.Int32 downsample, System.Boolean gammaCorrection)
+    // Offset: 0x1E7A224
+    void DoubleBlur(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, ::GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize0, float boost0, ::GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize1, float boost1, float secondBlurAlpha, int downsample, bool gammaCorrection);
+    // public UnityEngine.Texture2D Blur(UnityEngine.Texture src, KawaseBlurRendererSO/KernelSize kernelSize, System.Int32 downsample)
+    // Offset: 0x1E7A49C
+    ::UnityEngine::Texture2D* Blur(::UnityEngine::Texture* src, ::GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize, int downsample);
+    // public System.Void Blur(UnityEngine.Texture src, UnityEngine.RenderTexture dest, KawaseBlurRendererSO/KernelSize kernelSize, System.Single boost, System.Int32 downsample)
+    // Offset: 0x1E7A564
+    void Blur(::UnityEngine::Texture* src, ::UnityEngine::RenderTexture* dest, ::GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize, float boost, int downsample);
+    // private System.Void Blur(UnityEngine.Texture src, UnityEngine.RenderTexture dest, System.Int32[] kernel, System.Single boost, System.Int32 downsample, System.Int32 startIdx, System.Int32 length, System.Single alphaWeights, System.Single additiveAlpha, System.Boolean additivelyBlendToDest, System.Boolean gammaCorrection, KawaseBlurRendererSO/WeightsType blurStartWeightsType)
+    // Offset: 0x1E79D24
+    void Blur(::UnityEngine::Texture* src, ::UnityEngine::RenderTexture* dest, ::ArrayW<int> kernel, float boost, int downsample, int startIdx, int length, float alphaWeights, float additiveAlpha, bool additivelyBlendToDest, bool gammaCorrection, ::GlobalNamespace::KawaseBlurRendererSO::WeightsType blurStartWeightsType);
+    // public System.Void AlphaWeights(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
+    // Offset: 0x1E7A5F0
+    void AlphaWeights(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
+    // public UnityEngine.Rendering.CommandBuffer CreateBlurCommandBuffer(System.Int32 width, System.Int32 height, System.String globalTextureName, KawaseBlurRendererSO/KernelSize kernelSize, System.Single boost)
+    // Offset: 0x1E7A6FC
+    ::UnityEngine::Rendering::CommandBuffer* CreateBlurCommandBuffer(int width, int height, ::StringW globalTextureName, ::GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize, float boost);
     // protected override System.Void OnEnable()
-    // Offset: 0x2AD0054
+    // Offset: 0x1E7941C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
@@ -261,6 +246,18 @@ namespace GlobalNamespace {
   static_assert(sizeof(KawaseBlurRendererSO) == 0x68);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::KawaseBlurRendererSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::KawaseBlurRendererSO::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::KawaseBlurRendererSO::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBlurRendererSO*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::KawaseBlurRendererSO::GetBlurKernel
 // Il2CppName: GetBlurKernel
 template<>
@@ -376,18 +373,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     static auto* kernelSize = &::il2cpp_utils::GetClassFromName("", "KawaseBlurRendererSO/KernelSize")->byval_arg;
     static auto* boost = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBlurRendererSO*), "CreateBlurCommandBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{width, height, globalTextureName, kernelSize, boost});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::KawaseBlurRendererSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::KawaseBlurRendererSO::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::KawaseBlurRendererSO::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBlurRendererSO*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::KawaseBlurRendererSO::OnEnable

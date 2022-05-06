@@ -33,28 +33,30 @@ namespace System::Xml::Schema {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlSchemaObject : public ::Il2CppObject {
     public:
-    // System.Void OnAdd(System.Xml.Schema.XmlSchemaObjectCollection container, System.Object item)
-    // Offset: 0x2011864
-    void OnAdd(::System::Xml::Schema::XmlSchemaObjectCollection* container, ::Il2CppObject* item);
-    // System.Void OnRemove(System.Xml.Schema.XmlSchemaObjectCollection container, System.Object item)
-    // Offset: 0x2011868
-    void OnRemove(::System::Xml::Schema::XmlSchemaObjectCollection* container, ::Il2CppObject* item);
-    // System.Void OnClear(System.Xml.Schema.XmlSchemaObjectCollection container)
-    // Offset: 0x201186C
-    void OnClear(::System::Xml::Schema::XmlSchemaObjectCollection* container);
     // protected System.Void .ctor()
-    // Offset: 0x200FD08
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x205957C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaObject* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaObject*, creationType>()));
     }
+    // System.Void OnAdd(System.Xml.Schema.XmlSchemaObjectCollection container, System.Object item)
+    // Offset: 0x205B0D8
+    void OnAdd(::System::Xml::Schema::XmlSchemaObjectCollection* container, ::Il2CppObject* item);
+    // System.Void OnRemove(System.Xml.Schema.XmlSchemaObjectCollection container, System.Object item)
+    // Offset: 0x205B0DC
+    void OnRemove(::System::Xml::Schema::XmlSchemaObjectCollection* container, ::Il2CppObject* item);
+    // System.Void OnClear(System.Xml.Schema.XmlSchemaObjectCollection container)
+    // Offset: 0x205B0E0
+    void OnClear(::System::Xml::Schema::XmlSchemaObjectCollection* container);
   }; // System.Xml.Schema.XmlSchemaObject
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaObject::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaObject::OnAdd
 // Il2CppName: OnAdd
 template<>
@@ -84,7 +86,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaObject*), "OnClear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaObject::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

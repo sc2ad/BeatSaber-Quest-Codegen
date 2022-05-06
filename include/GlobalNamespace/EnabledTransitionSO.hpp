@@ -28,15 +28,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnabledTransitionSO : public ::GlobalNamespace::BaseTransitionSO {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean _normalState
     // Size: 0x1
     // Offset: 0x20
@@ -75,43 +67,39 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Boolean _normalState
-    bool& dyn__normalState();
+    [[deprecated("Use field access instead!")]] bool& dyn__normalState();
     // Get instance field reference: private System.Boolean _highlightedState
-    bool& dyn__highlightedState();
+    [[deprecated("Use field access instead!")]] bool& dyn__highlightedState();
     // Get instance field reference: private System.Boolean _pressedState
-    bool& dyn__pressedState();
+    [[deprecated("Use field access instead!")]] bool& dyn__pressedState();
     // Get instance field reference: private System.Boolean _disabledState
-    bool& dyn__disabledState();
+    [[deprecated("Use field access instead!")]] bool& dyn__disabledState();
     // Get instance field reference: private System.Boolean _selectedState
-    bool& dyn__selectedState();
+    [[deprecated("Use field access instead!")]] bool& dyn__selectedState();
     // Get instance field reference: private System.Boolean _selectedAndHighlightedState
-    bool& dyn__selectedAndHighlightedState();
+    [[deprecated("Use field access instead!")]] bool& dyn__selectedAndHighlightedState();
     // public System.Boolean get_normalState()
-    // Offset: 0x138246C
+    // Offset: 0x136A048
     bool get_normalState();
     // public System.Boolean get_highlightedState()
-    // Offset: 0x1382474
+    // Offset: 0x136A050
     bool get_highlightedState();
     // public System.Boolean get_pressedState()
-    // Offset: 0x138247C
+    // Offset: 0x136A058
     bool get_pressedState();
     // public System.Boolean get_disabledState()
-    // Offset: 0x1382484
+    // Offset: 0x136A060
     bool get_disabledState();
     // public System.Boolean get_selectedState()
-    // Offset: 0x138248C
+    // Offset: 0x136A068
     bool get_selectedState();
     // public System.Boolean get_selectedAndHighlightedState()
-    // Offset: 0x1382494
+    // Offset: 0x136A070
     bool get_selectedAndHighlightedState();
     // public System.Void .ctor()
-    // Offset: 0x138249C
+    // Offset: 0x136A078
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnabledTransitionSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnabledTransitionSO::.ctor");

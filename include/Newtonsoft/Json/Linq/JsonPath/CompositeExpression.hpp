@@ -37,15 +37,7 @@ namespace Newtonsoft::Json::Linq::JsonPath {
   // [PreserveAttribute] Offset: FFFFFFFF
   class CompositeExpression : public ::Newtonsoft::Json::Linq::JsonPath::QueryExpression {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.List`1<Newtonsoft.Json.Linq.JsonPath.QueryExpression> <Expressions>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -58,15 +50,14 @@ namespace Newtonsoft::Json::Linq::JsonPath {
       return Expressions;
     }
     // Get instance field reference: private System.Collections.Generic.List`1<Newtonsoft.Json.Linq.JsonPath.QueryExpression> <Expressions>k__BackingField
-    ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>*& dyn_$Expressions$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>*& dyn_$Expressions$k__BackingField();
     // public System.Void set_Expressions(System.Collections.Generic.List`1<Newtonsoft.Json.Linq.JsonPath.QueryExpression> value)
-    // Offset: 0x1722AF8
+    // Offset: 0x175B408
     void set_Expressions(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1722B00
+    // Offset: 0x175B410
     // Implemented from: Newtonsoft.Json.Linq.JsonPath.QueryExpression
     // Base method: System.Void QueryExpression::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompositeExpression* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JsonPath::CompositeExpression::.ctor");

@@ -35,23 +35,21 @@ namespace GlobalNamespace {
     // Set static field: static public OVRHandTest/BoolMonitor/BoolGenerator <>9__14_0
     static void _set_$$9__14_0(::GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator* value);
     // static private System.Void .cctor()
-    // Offset: 0x19BACBC
+    // Offset: 0x19F42A4
     static void _cctor();
-    // System.Boolean <Start>b__14_0()
-    // Offset: 0x19BAD28
-    bool $Start$b__14_0();
-    // System.Boolean <.cctor>b__19_0()
-    // Offset: 0x19BAE04
-    bool $_cctor$b__19_0();
     // public System.Void .ctor()
-    // Offset: 0x19BAD20
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x19F4308
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHandTest::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRHandTest::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHandTest::$$c*, creationType>()));
     }
+    // System.Boolean <Start>b__14_0()
+    // Offset: 0x19F4310
+    bool $Start$b__14_0();
+    // System.Boolean <.cctor>b__19_0()
+    // Offset: 0x19F43EC
+    bool $_cctor$b__19_0();
   }; // OVRHandTest/<>c
   #pragma pack(pop)
 }
@@ -64,6 +62,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHandTest::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::OVRHandTest::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVRHandTest::$$c::$Start$b__14_0
 // Il2CppName: <Start>b__14_0
 template<>
@@ -80,7 +82,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHandTest::$$c*), "<.cctor>b__19_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OVRHandTest::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

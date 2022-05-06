@@ -66,7 +66,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HAPI_StatusType HAPI_STATUS_MAX
     static void _set_HAPI_STATUS_MAX(::HoudiniEngineUnity::HAPI_StatusType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HAPI_StatusType
   #pragma pack(pop)
   static check_size<sizeof(HAPI_StatusType), 0 + sizeof(int)> __HoudiniEngineUnity_HAPI_StatusTypeSizeCheck;

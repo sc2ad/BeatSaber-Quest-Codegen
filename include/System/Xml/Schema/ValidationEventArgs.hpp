@@ -33,15 +33,7 @@ namespace System::Xml::Schema {
   // [TokenAttribute] Offset: FFFFFFFF
   class ValidationEventArgs : public ::System::EventArgs {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Xml.Schema.XmlSchemaException ex
     // Size: 0x8
     // Offset: 0x10
@@ -56,14 +48,14 @@ namespace System::Xml::Schema {
     static_assert(sizeof(::System::Xml::Schema::XmlSeverityType) == 0x4);
     public:
     // Get instance field reference: private System.Xml.Schema.XmlSchemaException ex
-    ::System::Xml::Schema::XmlSchemaException*& dyn_ex();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaException*& dyn_ex();
     // Get instance field reference: private System.Xml.Schema.XmlSeverityType severity
-    ::System::Xml::Schema::XmlSeverityType& dyn_severity();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSeverityType& dyn_severity();
     // public System.Xml.Schema.XmlSeverityType get_Severity()
-    // Offset: 0x1C2B1C4
+    // Offset: 0x1C657AC
     ::System::Xml::Schema::XmlSeverityType get_Severity();
     // public System.Xml.Schema.XmlSchemaException get_Exception()
-    // Offset: 0x1C2B1CC
+    // Offset: 0x1C657B4
     ::System::Xml::Schema::XmlSchemaException* get_Exception();
   }; // System.Xml.Schema.ValidationEventArgs
   #pragma pack(pop)

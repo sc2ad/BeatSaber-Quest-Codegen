@@ -25,15 +25,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class RuntimeLightWithLightGroupIds::LightIntensitiesWithId : public ::GlobalNamespace::LightWithIds::LightWithId {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x30
@@ -46,15 +38,15 @@ namespace GlobalNamespace {
       return intensity;
     }
     // Get instance field reference: private System.Single _intensity
-    float& dyn__intensity();
+    [[deprecated("Use field access instead!")]] float& dyn__intensity();
     // public System.Single get_intensity()
-    // Offset: 0x2AD9C6C
+    // Offset: 0x1E8307C
     float get_intensity();
     // public System.Void set_intensity(System.Single value)
-    // Offset: 0x2AD9C74
+    // Offset: 0x1E83084
     void set_intensity(float value);
     // public System.Void .ctor(System.Int32 lightId, System.Single intensity)
-    // Offset: 0x2AD9978
+    // Offset: 0x1E82D88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeLightWithLightGroupIds::LightIntensitiesWithId* New_ctor(int lightId, float intensity) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RuntimeLightWithLightGroupIds::LightIntensitiesWithId::.ctor");

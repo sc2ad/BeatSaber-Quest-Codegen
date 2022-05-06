@@ -45,8 +45,15 @@ namespace Org::BouncyCastle::Crypto {
     // Set static field: static protected readonly System.Byte[] EmptyBuffer
     static void _set_EmptyBuffer(::ArrayW<uint8_t> value);
     // static private System.Void .cctor()
-    // Offset: 0x2241C50
+    // Offset: 0x228C4C4
     static void _cctor();
+    // protected System.Void .ctor()
+    // Offset: 0x228C528
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static BufferedCipherBase* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::BufferedCipherBase::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<BufferedCipherBase*, creationType>()));
+    }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
@@ -63,32 +70,23 @@ namespace Org::BouncyCastle::Crypto {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<uint8_t> ProcessBytes(::ArrayW<uint8_t> input, int inOff, int length);
     // public System.Int32 ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x2241A54
+    // Offset: 0x228C2C8
     int ProcessBytes(::ArrayW<uint8_t> input, int inOff, int length, ::ArrayW<uint8_t> output, int outOff);
     // public System.Byte[] DoFinal()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<uint8_t> DoFinal();
     // public System.Byte[] DoFinal(System.Byte[] input)
-    // Offset: 0x2241B54
+    // Offset: 0x228C3C8
     ::ArrayW<uint8_t> DoFinal(::ArrayW<uint8_t> input);
     // public System.Byte[] DoFinal(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<uint8_t> DoFinal(::ArrayW<uint8_t> input, int inOff, int length);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x2241B7C
+    // Offset: 0x228C3F0
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Reset();
-    // protected System.Void .ctor()
-    // Offset: 0x2241CB4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BufferedCipherBase* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::BufferedCipherBase::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<BufferedCipherBase*, creationType>()));
-    }
   }; // Org.BouncyCastle.Crypto.BufferedCipherBase
   #pragma pack(pop)
 }
@@ -101,6 +99,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::BufferedCipherBase*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedCipherBase::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedCipherBase::Init
 // Il2CppName: Init
 template<>
@@ -207,7 +209,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::BufferedCipherBase*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedCipherBase::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

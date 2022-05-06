@@ -66,7 +66,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EHiddenAreaMeshType k_eHiddenAreaMesh_Max
     static void _set_k_eHiddenAreaMesh_Max(::Valve::VR::EHiddenAreaMeshType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Valve.VR.EHiddenAreaMeshType
   #pragma pack(pop)
   static check_size<sizeof(EHiddenAreaMeshType), 0 + sizeof(int)> __Valve_VR_EHiddenAreaMeshTypeSizeCheck;

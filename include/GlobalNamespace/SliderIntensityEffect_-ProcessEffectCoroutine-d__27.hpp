@@ -34,15 +34,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SliderIntensityEffect::$ProcessEffectCoroutine$d__27 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -93,43 +85,43 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Object <>2__current
-    ::Il2CppObject*& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$$2__current();
     // Get instance field reference: public System.Collections.Generic.IEnumerable`1<SliderIntensityEffect/FadeElement> fadeElements
-    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SliderIntensityEffect::FadeElement*>*& dyn_fadeElements();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SliderIntensityEffect::FadeElement*>*& dyn_fadeElements();
     // Get instance field reference: public SliderIntensityEffect <>4__this
-    ::GlobalNamespace::SliderIntensityEffect*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SliderIntensityEffect*& dyn_$$4__this();
     // Get instance field reference: private System.Collections.Generic.IEnumerator`1<SliderIntensityEffect/FadeElement> <>7__wrap1
-    ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SliderIntensityEffect::FadeElement*>*& dyn_$$7__wrap1();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SliderIntensityEffect::FadeElement*>*& dyn_$$7__wrap1();
     // Get instance field reference: private SliderIntensityEffect/FadeElement <fadeElement>5__3
-    ::GlobalNamespace::SliderIntensityEffect::FadeElement*& dyn_$fadeElement$5__3();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SliderIntensityEffect::FadeElement*& dyn_$fadeElement$5__3();
     // Get instance field reference: private System.Single <startTime>5__4
-    float& dyn_$startTime$5__4();
+    [[deprecated("Use field access instead!")]] float& dyn_$startTime$5__4();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x2AA1158
+    // Offset: 0x1387D7C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x2AA11C0
+    // Offset: 0x1387DE4
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x2AA0C40
+    // Offset: 0x1387864
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderIntensityEffect::$ProcessEffectCoroutine$d__27* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderIntensityEffect::$ProcessEffectCoroutine$d__27::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderIntensityEffect::$ProcessEffectCoroutine$d__27*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x2AA0CDC
+    // Offset: 0x1387900
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x2AA0DB8
+    // Offset: 0x13879DC
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x2AA0CF8
+    // Offset: 0x138791C
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x2AA1160
+    // Offset: 0x1387D84
     void System_Collections_IEnumerator_Reset();
   }; // SliderIntensityEffect/<ProcessEffectCoroutine>d__27
   #pragma pack(pop)

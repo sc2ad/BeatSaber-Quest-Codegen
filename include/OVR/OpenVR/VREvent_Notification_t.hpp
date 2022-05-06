@@ -45,9 +45,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt64 ulUserValue
-    uint64_t& dyn_ulUserValue();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_ulUserValue();
     // Get instance field reference: public System.UInt32 notificationId
-    uint& dyn_notificationId();
+    [[deprecated("Use field access instead!")]] uint& dyn_notificationId();
   }; // OVR.OpenVR.VREvent_Notification_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Notification_t), 8 + sizeof(uint)> __OVR_OpenVR_VREvent_Notification_tSizeCheck;

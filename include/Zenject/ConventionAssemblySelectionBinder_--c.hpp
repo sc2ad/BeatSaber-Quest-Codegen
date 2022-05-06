@@ -54,26 +54,24 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.Reflection.Assembly> <>9__8_0
     static void _set_$$9__8_0(::System::Func_2<::System::Type*, ::System::Reflection::Assembly*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1739344
+    // Offset: 0x1771C54
     static void _cctor();
-    // System.Reflection.Assembly <FromAssembliesContaining>b__8_0(System.Type t)
-    // Offset: 0x17393B0
-    ::System::Reflection::Assembly* $FromAssembliesContaining$b__8_0(::System::Type* t);
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x17393D4
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1739430
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x17393A8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1771CB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConventionAssemblySelectionBinder::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ConventionAssemblySelectionBinder::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConventionAssemblySelectionBinder::$$c*, creationType>()));
     }
+    // System.Reflection.Assembly <FromAssembliesContaining>b__8_0(System.Type t)
+    // Offset: 0x1771CC0
+    ::System::Reflection::Assembly* $FromAssembliesContaining$b__8_0(::System::Type* t);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1771CE4
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1771D40
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.ConventionAssemblySelectionBinder/Zenject.<>c
   #pragma pack(pop)
 }
@@ -86,6 +84,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionAssemblySelectionBinder::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::$$c::$FromAssembliesContaining$b__8_0
 // Il2CppName: <FromAssembliesContaining>b__8_0
 template<>
@@ -112,7 +114,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionAssemblySelectionBinder::$$c*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

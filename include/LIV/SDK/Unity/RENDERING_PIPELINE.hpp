@@ -78,7 +78,7 @@ namespace LIV::SDK::Unity {
     // Set static field: static public LIV.SDK.Unity.RENDERING_PIPELINE HIGH_DEFINITION
     static void _set_HIGH_DEFINITION(::LIV::SDK::Unity::RENDERING_PIPELINE value);
     // Get instance field reference: public System.UInt32 value__
-    uint& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint& dyn_value__();
   }; // LIV.SDK.Unity.RENDERING_PIPELINE
   #pragma pack(pop)
   static check_size<sizeof(RENDERING_PIPELINE), 0 + sizeof(uint)> __LIV_SDK_Unity_RENDERING_PIPELINESizeCheck;

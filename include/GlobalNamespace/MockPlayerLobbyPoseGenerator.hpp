@@ -42,15 +42,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockPlayerLobbyPoseGenerator : public ::Il2CppObject/*, public ::System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected readonly IMultiplayerSessionManager multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
@@ -69,18 +61,18 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get instance field reference: protected readonly IMultiplayerSessionManager multiplayerSessionManager
-    ::GlobalNamespace::IMultiplayerSessionManager*& dyn_multiplayerSessionManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn_multiplayerSessionManager();
     // Get instance field reference: protected readonly MockNodePoseSyncStateSender mockNodePoseSyncStateSender
-    ::GlobalNamespace::MockNodePoseSyncStateSender*& dyn_mockNodePoseSyncStateSender();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MockNodePoseSyncStateSender*& dyn_mockNodePoseSyncStateSender();
     // protected System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager)
-    // Offset: 0x2A55E6C
+    // Offset: 0x2AAD254
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPlayerLobbyPoseGenerator* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockPlayerLobbyPoseGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockPlayerLobbyPoseGenerator*, creationType>(multiplayerSessionManager)));
     }
     // public System.Void Dispose()
-    // Offset: 0x2A55EE8
+    // Offset: 0x2AAD2D0
     void Dispose();
     // public System.Void SendPoses(System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFFFFFFFFFF

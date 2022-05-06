@@ -57,7 +57,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HEU_InputNode/HoudiniEngineUnity.InternalObjectType UNITY_MESH
     static void _set_UNITY_MESH(::HoudiniEngineUnity::HEU_InputNode::InternalObjectType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HEU_InputNode/HoudiniEngineUnity.InternalObjectType
   #pragma pack(pop)
   static check_size<sizeof(HEU_InputNode::InternalObjectType), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_InputNode_InternalObjectTypeSizeCheck;

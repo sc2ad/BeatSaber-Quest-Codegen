@@ -61,7 +61,7 @@ namespace System::Xml::Linq {
     // Set static field: static public System.Xml.Linq.SaveOptions OmitDuplicateNamespaces
     static void _set_OmitDuplicateNamespaces(::System::Xml::Linq::SaveOptions value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Xml.Linq.SaveOptions
   #pragma pack(pop)
   static check_size<sizeof(SaveOptions), 0 + sizeof(int)> __System_Xml_Linq_SaveOptionsSizeCheck;

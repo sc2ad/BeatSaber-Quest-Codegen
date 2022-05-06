@@ -37,15 +37,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class PrimitiveArray : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code
     // Size: 0x4
     // Offset: 0x10
@@ -122,41 +114,41 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(::ArrayW<uint64_t>) == 0x8);
     public:
     // Get instance field reference: private System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code
-    ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& dyn_code();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& dyn_code();
     // Get instance field reference: private System.Boolean[] booleanA
-    ::ArrayW<bool>& dyn_booleanA();
+    [[deprecated("Use field access instead!")]] ::ArrayW<bool>& dyn_booleanA();
     // Get instance field reference: private System.Char[] charA
-    ::ArrayW<::Il2CppChar>& dyn_charA();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppChar>& dyn_charA();
     // Get instance field reference: private System.Double[] doubleA
-    ::ArrayW<double>& dyn_doubleA();
+    [[deprecated("Use field access instead!")]] ::ArrayW<double>& dyn_doubleA();
     // Get instance field reference: private System.Int16[] int16A
-    ::ArrayW<int16_t>& dyn_int16A();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int16_t>& dyn_int16A();
     // Get instance field reference: private System.Int32[] int32A
-    ::ArrayW<int>& dyn_int32A();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_int32A();
     // Get instance field reference: private System.Int64[] int64A
-    ::ArrayW<int64_t>& dyn_int64A();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int64_t>& dyn_int64A();
     // Get instance field reference: private System.SByte[] sbyteA
-    ::ArrayW<int8_t>& dyn_sbyteA();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int8_t>& dyn_sbyteA();
     // Get instance field reference: private System.Single[] singleA
-    ::ArrayW<float>& dyn_singleA();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn_singleA();
     // Get instance field reference: private System.UInt16[] uint16A
-    ::ArrayW<uint16_t>& dyn_uint16A();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint16_t>& dyn_uint16A();
     // Get instance field reference: private System.UInt32[] uint32A
-    ::ArrayW<uint>& dyn_uint32A();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_uint32A();
     // Get instance field reference: private System.UInt64[] uint64A
-    ::ArrayW<uint64_t>& dyn_uint64A();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint64_t>& dyn_uint64A();
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code, System.Array array)
-    // Offset: 0x15F5DA8
+    // Offset: 0x162B6B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrimitiveArray* New_ctor(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Array* array) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrimitiveArray*, creationType>(code, array)));
     }
     // System.Void Init(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code, System.Array array)
-    // Offset: 0x15F5DE8
+    // Offset: 0x162B6F8
     void Init(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Array* array);
     // System.Void SetValue(System.String value, System.Int32 index)
-    // Offset: 0x15F6070
+    // Offset: 0x162B980
     void SetValue(::StringW value, int index);
   }; // System.Runtime.Serialization.Formatters.Binary.PrimitiveArray
   #pragma pack(pop)

@@ -47,15 +47,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResultsTableCell : public ::GlobalNamespace::TableCellWithSeparator {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.GameObject _border
     // Size: 0x8
     // Offset: 0x60
@@ -88,41 +80,35 @@ namespace GlobalNamespace {
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.GameObject _border
-    ::UnityEngine::GameObject*& dyn__border();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__border();
     // Get instance field reference: private TMPro.TextMeshProUGUI _orderText
-    ::TMPro::TextMeshProUGUI*& dyn__orderText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__orderText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _nameText
-    ::TMPro::TextMeshProUGUI*& dyn__nameText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__nameText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _scoreText
-    ::TMPro::TextMeshProUGUI*& dyn__scoreText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__scoreText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _rankText
-    ::TMPro::TextMeshProUGUI*& dyn__rankText();
-    // public System.Void SetData(System.Int32 order, IConnectedPlayer connectedPlayer, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x137E214
-    void SetData(int order, ::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__rankText();
     // public System.Void .ctor()
-    // Offset: 0x137E534
-    // Implemented from: TableCellWithSeparator
-    // Base method: System.Void TableCellWithSeparator::.ctor()
-    // Base method: System.Void TableCell::.ctor()
-    // Base method: System.Void SelectableCell::.ctor()
-    // Base method: System.Void Interactable::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1456408
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultsTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ResultsTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResultsTableCell*, creationType>()));
     }
+    // public System.Void SetData(System.Int32 order, IConnectedPlayer connectedPlayer, LevelCompletionResults levelCompletionResults)
+    // Offset: 0x1456068
+    void SetData(int order, ::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
   }; // ResultsTableCell
   #pragma pack(pop)
   static check_size<sizeof(ResultsTableCell), 128 + sizeof(::TMPro::TextMeshProUGUI*)> __GlobalNamespace_ResultsTableCellSizeCheck;
   static_assert(sizeof(ResultsTableCell) == 0x88);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ResultsTableCell::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ResultsTableCell::SetData
 // Il2CppName: SetData
 template<>
@@ -134,7 +120,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsTableCell*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{order, connectedPlayer, levelCompletionResults});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ResultsTableCell::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

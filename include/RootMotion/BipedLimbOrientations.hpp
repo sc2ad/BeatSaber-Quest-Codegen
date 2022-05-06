@@ -33,15 +33,7 @@ namespace RootMotion {
     public:
     // Nested type: ::RootMotion::BipedLimbOrientations::LimbOrientation
     class LimbOrientation;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation leftArm
     // Size: 0x8
     // Offset: 0x10
@@ -68,21 +60,21 @@ namespace RootMotion {
     static_assert(sizeof(::RootMotion::BipedLimbOrientations::LimbOrientation*) == 0x8);
     public:
     // Get instance field reference: public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation leftArm
-    ::RootMotion::BipedLimbOrientations::LimbOrientation*& dyn_leftArm();
+    [[deprecated("Use field access instead!")]] ::RootMotion::BipedLimbOrientations::LimbOrientation*& dyn_leftArm();
     // Get instance field reference: public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation rightArm
-    ::RootMotion::BipedLimbOrientations::LimbOrientation*& dyn_rightArm();
+    [[deprecated("Use field access instead!")]] ::RootMotion::BipedLimbOrientations::LimbOrientation*& dyn_rightArm();
     // Get instance field reference: public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation leftLeg
-    ::RootMotion::BipedLimbOrientations::LimbOrientation*& dyn_leftLeg();
+    [[deprecated("Use field access instead!")]] ::RootMotion::BipedLimbOrientations::LimbOrientation*& dyn_leftLeg();
     // Get instance field reference: public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation rightLeg
-    ::RootMotion::BipedLimbOrientations::LimbOrientation*& dyn_rightLeg();
+    [[deprecated("Use field access instead!")]] ::RootMotion::BipedLimbOrientations::LimbOrientation*& dyn_rightLeg();
     // static public RootMotion.BipedLimbOrientations get_UMA()
-    // Offset: 0x21FA3D4
+    // Offset: 0x2247C48
     static ::RootMotion::BipedLimbOrientations* get_UMA();
     // static public RootMotion.BipedLimbOrientations get_MaxBiped()
-    // Offset: 0x21FA6C0
+    // Offset: 0x2247F34
     static ::RootMotion::BipedLimbOrientations* get_MaxBiped();
     // public System.Void .ctor(RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation leftArm, RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation rightArm, RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation leftLeg, RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation rightLeg)
-    // Offset: 0x21FA388
+    // Offset: 0x2247BFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BipedLimbOrientations* New_ctor(::RootMotion::BipedLimbOrientations::LimbOrientation* leftArm, ::RootMotion::BipedLimbOrientations::LimbOrientation* rightArm, ::RootMotion::BipedLimbOrientations::LimbOrientation* leftLeg, ::RootMotion::BipedLimbOrientations::LimbOrientation* rightLeg) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::BipedLimbOrientations::.ctor");

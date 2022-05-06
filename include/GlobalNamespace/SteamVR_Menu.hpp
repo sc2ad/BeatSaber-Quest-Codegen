@@ -51,15 +51,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_Menu : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Texture cursor
     // Size: 0x8
     // Offset: 0x18
@@ -168,85 +160,79 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Texture cursor
-    ::UnityEngine::Texture*& dyn_cursor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Texture*& dyn_cursor();
     // Get instance field reference: public UnityEngine.Texture background
-    ::UnityEngine::Texture*& dyn_background();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Texture*& dyn_background();
     // Get instance field reference: public UnityEngine.Texture logo
-    ::UnityEngine::Texture*& dyn_logo();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Texture*& dyn_logo();
     // Get instance field reference: public System.Single logoHeight
-    float& dyn_logoHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_logoHeight();
     // Get instance field reference: public System.Single menuOffset
-    float& dyn_menuOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_menuOffset();
     // Get instance field reference: public UnityEngine.Vector2 scaleLimits
-    ::UnityEngine::Vector2& dyn_scaleLimits();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_scaleLimits();
     // Get instance field reference: public System.Single scaleRate
-    float& dyn_scaleRate();
+    [[deprecated("Use field access instead!")]] float& dyn_scaleRate();
     // Get instance field reference: private SteamVR_Overlay overlay
-    ::GlobalNamespace::SteamVR_Overlay*& dyn_overlay();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SteamVR_Overlay*& dyn_overlay();
     // Get instance field reference: private UnityEngine.Camera overlayCam
-    ::UnityEngine::Camera*& dyn_overlayCam();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Camera*& dyn_overlayCam();
     // Get instance field reference: private UnityEngine.Vector4 uvOffset
-    ::UnityEngine::Vector4& dyn_uvOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector4& dyn_uvOffset();
     // Get instance field reference: private System.Single distance
-    float& dyn_distance();
+    [[deprecated("Use field access instead!")]] float& dyn_distance();
     // Get instance field reference: private System.Single <scale>k__BackingField
-    float& dyn_$scale$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$scale$k__BackingField();
     // Get instance field reference: private System.String scaleLimitX
-    ::StringW& dyn_scaleLimitX();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_scaleLimitX();
     // Get instance field reference: private System.String scaleLimitY
-    ::StringW& dyn_scaleLimitY();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_scaleLimitY();
     // Get instance field reference: private System.String scaleRateText
-    ::StringW& dyn_scaleRateText();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_scaleRateText();
     // Get instance field reference: private UnityEngine.CursorLockMode savedCursorLockState
-    ::UnityEngine::CursorLockMode& dyn_savedCursorLockState();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::CursorLockMode& dyn_savedCursorLockState();
     // Get instance field reference: private System.Boolean savedCursorVisible
-    bool& dyn_savedCursorVisible();
+    [[deprecated("Use field access instead!")]] bool& dyn_savedCursorVisible();
     // public UnityEngine.RenderTexture get_texture()
-    // Offset: 0x1871094
+    // Offset: 0x18AA9A4
     ::UnityEngine::RenderTexture* get_texture();
     // public System.Single get_scale()
-    // Offset: 0x1871160
+    // Offset: 0x18AAA70
     float get_scale();
     // private System.Void set_scale(System.Single value)
-    // Offset: 0x1871168
+    // Offset: 0x18AAA78
     void set_scale(float value);
-    // private System.Void Awake()
-    // Offset: 0x1871170
-    void Awake();
-    // private System.Void OnGUI()
-    // Offset: 0x18712D8
-    void OnGUI();
-    // public System.Void ShowMenu()
-    // Offset: 0x1872E94
-    void ShowMenu();
-    // public System.Void HideMenu()
-    // Offset: 0x1872D90
-    void HideMenu();
-    // private System.Void Update()
-    // Offset: 0x187324C
-    void Update();
-    // private System.Void SetScale(System.Single scale)
-    // Offset: 0x1872CA4
-    void SetScale(float scale);
-    // private System.Void SaveCursorState()
-    // Offset: 0x18731E4
-    void SaveCursorState();
-    // private System.Void RestoreCursorState()
-    // Offset: 0x187321C
-    void RestoreCursorState();
     // public System.Void .ctor()
-    // Offset: 0x187341C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18ACD2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Menu* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Menu::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Menu*, creationType>()));
     }
+    // private System.Void Awake()
+    // Offset: 0x18AAA80
+    void Awake();
+    // private System.Void OnGUI()
+    // Offset: 0x18AABE8
+    void OnGUI();
+    // public System.Void ShowMenu()
+    // Offset: 0x18AC7A4
+    void ShowMenu();
+    // public System.Void HideMenu()
+    // Offset: 0x18AC6A0
+    void HideMenu();
+    // private System.Void Update()
+    // Offset: 0x18ACB5C
+    void Update();
+    // private System.Void SetScale(System.Single scale)
+    // Offset: 0x18AC5B4
+    void SetScale(float scale);
+    // private System.Void SaveCursorState()
+    // Offset: 0x18ACAF4
+    void SaveCursorState();
+    // private System.Void RestoreCursorState()
+    // Offset: 0x18ACB2C
+    void RestoreCursorState();
   }; // SteamVR_Menu
   #pragma pack(pop)
   static check_size<sizeof(SteamVR_Menu), 140 + sizeof(bool)> __GlobalNamespace_SteamVR_MenuSizeCheck;
@@ -278,6 +264,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Menu*), "set_scale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Menu::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Menu::Awake
 // Il2CppName: Awake
 template<>
@@ -343,7 +333,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Menu*), "RestoreCursorState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Menu::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Set static field: static public HEU_ScriptMeshInputUVLayoutExample/OutputMode REPLACE
     static void _set_REPLACE(::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::OutputMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HEU_ScriptMeshInputUVLayoutExample/OutputMode
   #pragma pack(pop)
   static check_size<sizeof(HEU_ScriptMeshInputUVLayoutExample::OutputMode), 0 + sizeof(int)> __GlobalNamespace_HEU_ScriptMeshInputUVLayoutExample_OutputModeSizeCheck;

@@ -29,15 +29,7 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultTraceListener : public ::System::Diagnostics::TraceListener {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String logFileName
     // Size: 0x8
     // Offset: 0x38
@@ -58,61 +50,58 @@ namespace System::Diagnostics {
     // Set static field: static private readonly System.String MonoTraceFile
     static void _set_MonoTraceFile(::StringW value);
     // Get instance field reference: private System.String logFileName
-    ::StringW& dyn_logFileName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_logFileName();
     // public System.String get_LogFileName()
-    // Offset: 0x1CA76FC
+    // Offset: 0x1CE3C54
     ::StringW get_LogFileName();
     // static private System.Void .cctor()
-    // Offset: 0x1CA7498
+    // Offset: 0x1CE39F0
     static void _cctor();
-    // static private System.String GetPrefix(System.String var, System.String target)
-    // Offset: 0x1CA75C4
-    static ::StringW GetPrefix(::StringW var, ::StringW target);
-    // static private System.Void WriteWindowsDebugString(System.String message)
-    // Offset: 0x1CA78DC
-    static void WriteWindowsDebugString(::StringW message);
-    // private System.Void WriteDebugString(System.String message)
-    // Offset: 0x1CA78E0
-    void WriteDebugString(::StringW message);
-    // private System.Void WriteMonoTrace(System.String message)
-    // Offset: 0x1CA798C
-    void WriteMonoTrace(::StringW message);
-    // private System.Void WritePrefix()
-    // Offset: 0x1CA7D68
-    void WritePrefix();
-    // private System.Void WriteImpl(System.String message)
-    // Offset: 0x1CA7E08
-    void WriteImpl(::StringW message);
-    // private System.Void WriteLogFile(System.String message, System.String logFile)
-    // Offset: 0x1CA7B5C
-    void WriteLogFile(::StringW message, ::StringW logFile);
     // public System.Void .ctor()
-    // Offset: 0x1CA7654
-    // Implemented from: System.MarshalByRefObject
-    // Base method: System.Void MarshalByRefObject::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1CE3BAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultTraceListener* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::DefaultTraceListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultTraceListener*, creationType>()));
     }
+    // static private System.String GetPrefix(System.String var, System.String target)
+    // Offset: 0x1CE3B1C
+    static ::StringW GetPrefix(::StringW var, ::StringW target);
+    // static private System.Void WriteWindowsDebugString(System.String message)
+    // Offset: 0x1CE3E34
+    static void WriteWindowsDebugString(::StringW message);
+    // private System.Void WriteDebugString(System.String message)
+    // Offset: 0x1CE3E38
+    void WriteDebugString(::StringW message);
+    // private System.Void WriteMonoTrace(System.String message)
+    // Offset: 0x1CE3EE4
+    void WriteMonoTrace(::StringW message);
+    // private System.Void WritePrefix()
+    // Offset: 0x1CE42C0
+    void WritePrefix();
+    // private System.Void WriteImpl(System.String message)
+    // Offset: 0x1CE4360
+    void WriteImpl(::StringW message);
+    // private System.Void WriteLogFile(System.String message, System.String logFile)
+    // Offset: 0x1CE40B4
+    void WriteLogFile(::StringW message, ::StringW logFile);
     // public override System.Void Fail(System.String message)
-    // Offset: 0x1CA7704
+    // Offset: 0x1CE3C5C
     // Implemented from: System.Diagnostics.TraceListener
     // Base method: System.Void TraceListener::Fail(System.String message)
     void Fail(::StringW message);
     // public override System.Void Fail(System.String message, System.String detailMessage)
-    // Offset: 0x1CA7724
+    // Offset: 0x1CE3C7C
     // Implemented from: System.Diagnostics.TraceListener
     // Base method: System.Void TraceListener::Fail(System.String message, System.String detailMessage)
     void Fail(::StringW message, ::StringW detailMessage);
     // public override System.Void Write(System.String message)
-    // Offset: 0x1CA7EE8
+    // Offset: 0x1CE4440
     // Implemented from: System.Diagnostics.TraceListener
     // Base method: System.Void TraceListener::Write(System.String message)
     void Write(::StringW message);
     // public override System.Void WriteLine(System.String message)
-    // Offset: 0x1CA7EEC
+    // Offset: 0x1CE4444
     // Implemented from: System.Diagnostics.TraceListener
     // Base method: System.Void TraceListener::WriteLine(System.String message)
     void WriteLine(::StringW message);
@@ -138,6 +127,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::GetPrefix
 // Il2CppName: GetPrefix
 template<>
@@ -202,10 +195,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "WriteLogFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message, logFile});
   }
 };
-// Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::Fail
 // Il2CppName: Fail
 template<>

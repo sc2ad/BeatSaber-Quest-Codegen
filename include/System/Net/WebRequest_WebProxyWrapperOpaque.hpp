@@ -35,15 +35,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebRequest::WebProxyWrapperOpaque : public ::Il2CppObject/*, public ::System::Net::IWebProxy*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected readonly System.Net.WebProxy webProxy
     // Size: 0x8
     // Offset: 0x10
@@ -60,15 +52,15 @@ namespace System::Net {
       return webProxy;
     }
     // Get instance field reference: protected readonly System.Net.WebProxy webProxy
-    ::System::Net::WebProxy*& dyn_webProxy();
+    [[deprecated("Use field access instead!")]] ::System::Net::WebProxy*& dyn_webProxy();
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x1B26C64
+    // Offset: 0x1B6124C
     ::System::Net::ICredentials* get_Credentials();
     // public System.Uri GetProxy(System.Uri destination)
-    // Offset: 0x1B26C34
+    // Offset: 0x1B6121C
     ::System::Uri* GetProxy(::System::Uri* destination);
     // public System.Boolean IsBypassed(System.Uri host)
-    // Offset: 0x1B26C4C
+    // Offset: 0x1B61234
     bool IsBypassed(::System::Uri* host);
   }; // System.Net.WebRequest/System.Net.WebProxyWrapperOpaque
   #pragma pack(pop)

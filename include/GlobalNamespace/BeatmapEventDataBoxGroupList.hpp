@@ -51,15 +51,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapEventDataBoxGroupList : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean updateBeatmapDataOnInsert
     // Size: 0x1
     // Offset: 0x10
@@ -112,40 +104,40 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Collections.Generic.HashSet`1<BeatmapEventDataBoxGroup> _usedBeatmapEventDataBoxes
     static void _set__usedBeatmapEventDataBoxes(::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* value);
     // Get instance field reference: public System.Boolean updateBeatmapDataOnInsert
-    bool& dyn_updateBeatmapDataOnInsert();
+    [[deprecated("Use field access instead!")]] bool& dyn_updateBeatmapDataOnInsert();
     // Get instance field reference: private readonly BeatmapEventDataBoxGroupProcessor _beatmapEventDataBoxGroupProcessor
-    ::GlobalNamespace::BeatmapEventDataBoxGroupProcessor*& dyn__beatmapEventDataBoxGroupProcessor();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapEventDataBoxGroupProcessor*& dyn__beatmapEventDataBoxGroupProcessor();
     // Get instance field reference: private readonly SortedList`2<BeatmapEventDataBoxGroup,BeatmapEventDataBoxGroup> _sortedList
-    ::GlobalNamespace::SortedList_2<::GlobalNamespace::BeatmapEventDataBoxGroup*, ::GlobalNamespace::BeatmapEventDataBoxGroup*>*& dyn__sortedList();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SortedList_2<::GlobalNamespace::BeatmapEventDataBoxGroup*, ::GlobalNamespace::BeatmapEventDataBoxGroup*>*& dyn__sortedList();
     // Get instance field reference: private readonly System.Int32 _groupId
-    int& dyn__groupId();
+    [[deprecated("Use field access instead!")]] int& dyn__groupId();
     // Get instance field reference: private readonly BeatmapData _beatmapData
-    ::GlobalNamespace::BeatmapData*& dyn__beatmapData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapData*& dyn__beatmapData();
     // Get instance field reference: private readonly IBeatToTimeConvertor _beatToTimeConvertor
-    ::GlobalNamespace::IBeatToTimeConvertor*& dyn__beatToTimeConvertor();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatToTimeConvertor*& dyn__beatToTimeConvertor();
     // Get instance field reference: private System.Boolean _nonSyncedInsertsExist
-    bool& dyn__nonSyncedInsertsExist();
+    [[deprecated("Use field access instead!")]] bool& dyn__nonSyncedInsertsExist();
     // public System.Void .ctor(System.Int32 groupId, BeatmapData beatmapData, IBeatToTimeConvertor beatToTimeConvertor)
-    // Offset: 0x14C8540
+    // Offset: 0x14FFE48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEventDataBoxGroupList* New_ctor(int groupId, ::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventDataBoxGroupList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapEventDataBoxGroupList*, creationType>(groupId, beatmapData, beatToTimeConvertor)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x14C8E54
+    // Offset: 0x150075C
     static void _cctor();
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x14C84C4
+    // Offset: 0x14FFDCC
     static void NoDomainReloadInit();
     // public System.Collections.Generic.LinkedListNode`1<BeatmapEventDataBoxGroup> Insert(BeatmapEventDataBoxGroup beatmapEventDataBoxGroup)
-    // Offset: 0x14C866C
+    // Offset: 0x14FFF74
     ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* Insert(::GlobalNamespace::BeatmapEventDataBoxGroup* beatmapEventDataBoxGroup);
     // public System.Void Remove(System.Collections.Generic.LinkedListNode`1<BeatmapEventDataBoxGroup> nodeToDelete)
-    // Offset: 0x14C8A08
+    // Offset: 0x1500310
     void Remove(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* nodeToDelete);
     // public System.Void SyncWithBeatmapData()
-    // Offset: 0x14C8D38
+    // Offset: 0x1500640
     void SyncWithBeatmapData();
   }; // BeatmapEventDataBoxGroupList
   #pragma pack(pop)

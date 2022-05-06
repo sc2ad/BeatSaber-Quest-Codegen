@@ -58,18 +58,18 @@ namespace TMPro {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public UnityEngine.Color topLeft
-    ::UnityEngine::Color& dyn_topLeft();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_topLeft();
     // Get instance field reference: public UnityEngine.Color topRight
-    ::UnityEngine::Color& dyn_topRight();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_topRight();
     // Get instance field reference: public UnityEngine.Color bottomLeft
-    ::UnityEngine::Color& dyn_bottomLeft();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_bottomLeft();
     // Get instance field reference: public UnityEngine.Color bottomRight
-    ::UnityEngine::Color& dyn_bottomRight();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_bottomRight();
     // public System.Void .ctor(UnityEngine.Color color)
-    // Offset: 0x218316C
+    // Offset: 0x21CF9E0
     VertexGradient(::UnityEngine::Color color);
     // public System.Void .ctor(UnityEngine.Color color0, UnityEngine.Color color1, UnityEngine.Color color2, UnityEngine.Color color3)
-    // Offset: 0x2183190
+    // Offset: 0x21CFA04
     // ABORTED: conflicts with another method.  VertexGradient(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3);
   }; // TMPro.VertexGradient
   #pragma pack(pop)

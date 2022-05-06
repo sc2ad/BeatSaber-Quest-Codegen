@@ -38,15 +38,7 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class Logger : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String name
     // Size: 0x8
     // Offset: 0x10
@@ -83,40 +75,40 @@ namespace NUnit::Framework::Internal {
     // Set static field: static private readonly System.String TRACE_FMT
     static void _set_TRACE_FMT(::StringW value);
     // Get instance field reference: private System.String name
-    ::StringW& dyn_name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_name();
     // Get instance field reference: private System.String fullname
-    ::StringW& dyn_fullname();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_fullname();
     // Get instance field reference: private NUnit.Framework.Internal.InternalTraceLevel maxLevel
-    ::NUnit::Framework::Internal::InternalTraceLevel& dyn_maxLevel();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::InternalTraceLevel& dyn_maxLevel();
     // Get instance field reference: private System.IO.TextWriter writer
-    ::System::IO::TextWriter*& dyn_writer();
+    [[deprecated("Use field access instead!")]] ::System::IO::TextWriter*& dyn_writer();
     // public System.Void .ctor(System.String name, NUnit.Framework.Internal.InternalTraceLevel level, System.IO.TextWriter writer)
-    // Offset: 0x29AC858
+    // Offset: 0x2A08B00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Logger* New_ctor(::StringW name, ::NUnit::Framework::Internal::InternalTraceLevel level, ::System::IO::TextWriter* writer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Logger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Logger*, creationType>(name, level, writer)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x29ACEDC
+    // Offset: 0x2A08ED4
     static void _cctor();
     // public System.Void Error(System.String message)
-    // Offset: 0x29ACB84
+    // Offset: 0x2A08B7C
     void Error(::StringW message);
     // public System.Void Debug(System.String message)
-    // Offset: 0x29ACBC4
+    // Offset: 0x2A08BBC
     void Debug(::StringW message);
     // public System.Void Debug(System.String message, params System.Object[] args)
-    // Offset: 0x29ACBE8
+    // Offset: 0x2A08BE0
     void Debug(::StringW message, ::ArrayW<::Il2CppObject*> args);
     // private System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String message)
-    // Offset: 0x29ACBA8
+    // Offset: 0x2A08BA0
     void Log(::NUnit::Framework::Internal::InternalTraceLevel level, ::StringW message);
     // private System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String format, params System.Object[] args)
-    // Offset: 0x29ACBF8
+    // Offset: 0x2A08BF0
     void Log(::NUnit::Framework::Internal::InternalTraceLevel level, ::StringW format, ::ArrayW<::Il2CppObject*> args);
     // private System.Void WriteLog(NUnit.Framework.Internal.InternalTraceLevel level, System.String message)
-    // Offset: 0x29ACC44
+    // Offset: 0x2A08C3C
     void WriteLog(::NUnit::Framework::Internal::InternalTraceLevel level, ::StringW message);
   }; // NUnit.Framework.Internal.Logger
   #pragma pack(pop)

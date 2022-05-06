@@ -50,15 +50,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaberClashEffect : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.ParticleSystem _sparkleParticleSystem
     // Size: 0x8
     // Offset: 0x18
@@ -77,21 +69,21 @@ namespace GlobalNamespace {
     ::Libraries::HM::HMLib::VR::HapticPresetSO* rumblePreset;
     // Field size check
     static_assert(sizeof(::Libraries::HM::HMLib::VR::HapticPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x125193C
+    // [InjectAttribute] Offset: 0x10D64C8
     // private SaberClashChecker _saberClashChecker
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::SaberClashChecker* saberClashChecker;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberClashChecker*) == 0x8);
-    // [InjectAttribute] Offset: 0x125194C
+    // [InjectAttribute] Offset: 0x10D64D8
     // private HapticFeedbackController _hapticFeedbackController
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::HapticFeedbackController* hapticFeedbackController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::HapticFeedbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0x125195C
+    // [InjectAttribute] Offset: 0x10D64E8
     // private ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x40
@@ -120,51 +112,49 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem _sparkleParticleSystem
-    ::UnityEngine::ParticleSystem*& dyn__sparkleParticleSystem();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn__sparkleParticleSystem();
     // Get instance field reference: private UnityEngine.ParticleSystem _glowParticleSystem
-    ::UnityEngine::ParticleSystem*& dyn__glowParticleSystem();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn__glowParticleSystem();
     // Get instance field reference: private Libraries.HM.HMLib.VR.HapticPresetSO _rumblePreset
-    ::Libraries::HM::HMLib::VR::HapticPresetSO*& dyn__rumblePreset();
+    [[deprecated("Use field access instead!")]] ::Libraries::HM::HMLib::VR::HapticPresetSO*& dyn__rumblePreset();
     // Get instance field reference: private SaberClashChecker _saberClashChecker
-    ::GlobalNamespace::SaberClashChecker*& dyn__saberClashChecker();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberClashChecker*& dyn__saberClashChecker();
     // Get instance field reference: private HapticFeedbackController _hapticFeedbackController
-    ::GlobalNamespace::HapticFeedbackController*& dyn__hapticFeedbackController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::HapticFeedbackController*& dyn__hapticFeedbackController();
     // Get instance field reference: private ColorManager _colorManager
-    ::GlobalNamespace::ColorManager*& dyn__colorManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorManager*& dyn__colorManager();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule _sparkleParticleSystemEmmisionModule
-    ::UnityEngine::ParticleSystem::EmissionModule& dyn__sparkleParticleSystemEmmisionModule();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::EmissionModule& dyn__sparkleParticleSystemEmmisionModule();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule _glowParticleSystemEmmisionModule
-    ::UnityEngine::ParticleSystem::EmissionModule& dyn__glowParticleSystemEmmisionModule();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::EmissionModule& dyn__glowParticleSystemEmmisionModule();
     // Get instance field reference: private System.Boolean _sabersAreClashing
-    bool& dyn__sabersAreClashing();
-    // protected System.Void Start()
-    // Offset: 0x141C688
-    void Start();
-    // protected System.Void OnDisable()
-    // Offset: 0x141C84C
-    void OnDisable();
-    // protected System.Void LateUpdate()
-    // Offset: 0x141C85C
-    void LateUpdate();
+    [[deprecated("Use field access instead!")]] bool& dyn__sabersAreClashing();
     // public System.Void .ctor()
-    // Offset: 0x141C960
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x145E038
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberClashEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberClashEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberClashEffect*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x145DD60
+    void Start();
+    // protected System.Void OnDisable()
+    // Offset: 0x145DF24
+    void OnDisable();
+    // protected System.Void LateUpdate()
+    // Offset: 0x145DF34
+    void LateUpdate();
   }; // SaberClashEffect
   #pragma pack(pop)
   static check_size<sizeof(SaberClashEffect), 88 + sizeof(bool)> __GlobalNamespace_SaberClashEffectSizeCheck;
   static_assert(sizeof(SaberClashEffect) == 0x59);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SaberClashEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SaberClashEffect::Start
 // Il2CppName: Start
 template<>
@@ -189,7 +179,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberClashEffect*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SaberClashEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

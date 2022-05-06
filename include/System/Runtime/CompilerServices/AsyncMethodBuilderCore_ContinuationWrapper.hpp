@@ -35,15 +35,7 @@ namespace System::Runtime::CompilerServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class AsyncMethodBuilderCore::ContinuationWrapper : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // readonly System.Action m_continuation
     // Size: 0x8
     // Offset: 0x10
@@ -64,20 +56,20 @@ namespace System::Runtime::CompilerServices {
     static_assert(sizeof(::System::Threading::Tasks::Task*) == 0x8);
     public:
     // Get instance field reference: readonly System.Action m_continuation
-    ::System::Action*& dyn_m_continuation();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_m_continuation();
     // Get instance field reference: private readonly System.Action m_invokeAction
-    ::System::Action*& dyn_m_invokeAction();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_m_invokeAction();
     // Get instance field reference: readonly System.Threading.Tasks.Task m_innerTask
-    ::System::Threading::Tasks::Task*& dyn_m_innerTask();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::Task*& dyn_m_innerTask();
     // System.Void .ctor(System.Action continuation, System.Action invokeAction, System.Threading.Tasks.Task innerTask)
-    // Offset: 0x1D48390
+    // Offset: 0x1D838E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncMethodBuilderCore::ContinuationWrapper* New_ctor(::System::Action* continuation, ::System::Action* invokeAction, ::System::Threading::Tasks::Task* innerTask) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::AsyncMethodBuilderCore::ContinuationWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncMethodBuilderCore::ContinuationWrapper*, creationType>(continuation, invokeAction, innerTask)));
     }
     // System.Void Invoke()
-    // Offset: 0x1D48664
+    // Offset: 0x1D83BBC
     void Invoke();
   }; // System.Runtime.CompilerServices.AsyncMethodBuilderCore/System.Runtime.CompilerServices.ContinuationWrapper
   #pragma pack(pop)

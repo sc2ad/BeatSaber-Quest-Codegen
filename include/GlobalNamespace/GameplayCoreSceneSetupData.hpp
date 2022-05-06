@@ -64,15 +64,7 @@ namespace GlobalNamespace {
     struct $LoadTransformedBeatmapDataAsync$d__13;
     // Nested type: ::GlobalNamespace::GameplayCoreSceneSetupData::$GetTransformedBeatmapDataAsync$d__14
     struct $GetTransformedBeatmapDataAsync$d__14;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly IDifficultyBeatmap difficultyBeatmap
     // Size: 0x8
     // Offset: 0x10
@@ -137,40 +129,40 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::IReadonlyBeatmapData*) == 0x8);
     public:
     // Get instance field reference: public readonly IDifficultyBeatmap difficultyBeatmap
-    ::GlobalNamespace::IDifficultyBeatmap*& dyn_difficultyBeatmap();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IDifficultyBeatmap*& dyn_difficultyBeatmap();
     // Get instance field reference: public readonly IPreviewBeatmapLevel previewBeatmapLevel
-    ::GlobalNamespace::IPreviewBeatmapLevel*& dyn_previewBeatmapLevel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPreviewBeatmapLevel*& dyn_previewBeatmapLevel();
     // Get instance field reference: public readonly GameplayModifiers gameplayModifiers
-    ::GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
     // Get instance field reference: public readonly PlayerSpecificSettings playerSpecificSettings
-    ::GlobalNamespace::PlayerSpecificSettings*& dyn_playerSpecificSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSpecificSettings*& dyn_playerSpecificSettings();
     // Get instance field reference: public readonly PracticeSettings practiceSettings
-    ::GlobalNamespace::PracticeSettings*& dyn_practiceSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PracticeSettings*& dyn_practiceSettings();
     // Get instance field reference: public readonly System.Boolean useTestNoteCutSoundEffects
-    bool& dyn_useTestNoteCutSoundEffects();
+    [[deprecated("Use field access instead!")]] bool& dyn_useTestNoteCutSoundEffects();
     // Get instance field reference: public readonly EnvironmentInfoSO environmentInfo
-    ::GlobalNamespace::EnvironmentInfoSO*& dyn_environmentInfo();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentInfoSO*& dyn_environmentInfo();
     // Get instance field reference: public readonly ColorScheme colorScheme
-    ::GlobalNamespace::ColorScheme*& dyn_colorScheme();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorScheme*& dyn_colorScheme();
     // Get instance field reference: public readonly MainSettingsModelSO mainSettingsModel
-    ::GlobalNamespace::MainSettingsModelSO*& dyn_mainSettingsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainSettingsModelSO*& dyn_mainSettingsModel();
     // Get instance field reference: private IReadonlyBeatmapData _transformedBeatmapData
-    ::GlobalNamespace::IReadonlyBeatmapData*& dyn__transformedBeatmapData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IReadonlyBeatmapData*& dyn__transformedBeatmapData();
     // public IReadonlyBeatmapData get_transformedBeatmapData()
-    // Offset: 0x13E4634
+    // Offset: 0x13F10D4
     ::GlobalNamespace::IReadonlyBeatmapData* get_transformedBeatmapData();
     // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap, IPreviewBeatmapLevel previewBeatmapLevel, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.Boolean useTestNoteCutSoundEffects, EnvironmentInfoSO environmentInfo, ColorScheme colorScheme, MainSettingsModelSO mainSettingsModel)
-    // Offset: 0x13E463C
+    // Offset: 0x13F10DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayCoreSceneSetupData* New_ctor(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayCoreSceneSetupData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayCoreSceneSetupData*, creationType>(difficultyBeatmap, previewBeatmapLevel, gameplayModifiers, playerSpecificSettings, practiceSettings, useTestNoteCutSoundEffects, environmentInfo, colorScheme, mainSettingsModel)));
     }
     // public System.Threading.Tasks.Task LoadTransformedBeatmapDataAsync()
-    // Offset: 0x13E46BC
+    // Offset: 0x13F115C
     ::System::Threading::Tasks::Task* LoadTransformedBeatmapDataAsync();
     // private System.Threading.Tasks.Task`1<IReadonlyBeatmapData> GetTransformedBeatmapDataAsync()
-    // Offset: 0x13E47AC
+    // Offset: 0x13F124C
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* GetTransformedBeatmapDataAsync();
   }; // GameplayCoreSceneSetupData
   #pragma pack(pop)

@@ -30,15 +30,7 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class ListChangedEventArgs : public ::System::EventArgs {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.ComponentModel.ListChangedType listChangedType
     // Size: 0x4
     // Offset: 0x10
@@ -59,20 +51,20 @@ namespace System::ComponentModel {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.ComponentModel.ListChangedType listChangedType
-    ::System::ComponentModel::ListChangedType& dyn_listChangedType();
+    [[deprecated("Use field access instead!")]] ::System::ComponentModel::ListChangedType& dyn_listChangedType();
     // Get instance field reference: private System.Int32 newIndex
-    int& dyn_newIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_newIndex();
     // Get instance field reference: private System.Int32 oldIndex
-    int& dyn_oldIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_oldIndex();
     // public System.Void .ctor(System.ComponentModel.ListChangedType listChangedType, System.Int32 newIndex)
-    // Offset: 0x1D611EC
+    // Offset: 0x1D9C744
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListChangedEventArgs* New_ctor(::System::ComponentModel::ListChangedType listChangedType, int newIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::ListChangedEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListChangedEventArgs*, creationType>(listChangedType, newIndex)));
     }
     // public System.Void .ctor(System.ComponentModel.ListChangedType listChangedType, System.Int32 newIndex, System.Int32 oldIndex)
-    // Offset: 0x1D611F4
+    // Offset: 0x1D9C74C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListChangedEventArgs* New_ctor(::System::ComponentModel::ListChangedType listChangedType, int newIndex, int oldIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::ListChangedEventArgs::.ctor");

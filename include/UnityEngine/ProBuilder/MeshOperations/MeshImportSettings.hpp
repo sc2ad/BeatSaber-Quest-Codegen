@@ -27,15 +27,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [TokenAttribute] Offset: FFFFFFFF
   class MeshImportSettings : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean m_Quads
     // Size: 0x1
     // Offset: 0x10
@@ -58,40 +50,38 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private System.Boolean m_Quads
-    bool& dyn_m_Quads();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_Quads();
     // Get instance field reference: private System.Boolean m_Smoothing
-    bool& dyn_m_Smoothing();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_Smoothing();
     // Get instance field reference: private System.Single m_SmoothingThreshold
-    float& dyn_m_SmoothingThreshold();
+    [[deprecated("Use field access instead!")]] float& dyn_m_SmoothingThreshold();
     // public System.Boolean get_quads()
-    // Offset: 0x1C02A20
+    // Offset: 0x1C3D008
     bool get_quads();
     // public System.Void set_quads(System.Boolean value)
-    // Offset: 0x1C02A28
+    // Offset: 0x1C3D010
     void set_quads(bool value);
     // public System.Boolean get_smoothing()
-    // Offset: 0x1C02A34
+    // Offset: 0x1C3D01C
     bool get_smoothing();
     // public System.Void set_smoothing(System.Boolean value)
-    // Offset: 0x1C02A3C
+    // Offset: 0x1C3D024
     void set_smoothing(bool value);
     // public System.Single get_smoothingAngle()
-    // Offset: 0x1C02A48
+    // Offset: 0x1C3D030
     float get_smoothingAngle();
     // public System.Void set_smoothingAngle(System.Single value)
-    // Offset: 0x1C02A50
+    // Offset: 0x1C3D038
     void set_smoothingAngle(float value);
     // public System.Void .ctor()
-    // Offset: 0x1C02B20
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C3D108
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MeshImportSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeshImportSettings*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x1C02A58
+    // Offset: 0x1C3D040
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

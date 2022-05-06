@@ -39,33 +39,30 @@ namespace GlobalNamespace {
     struct AppInitOverrideStartType;
     // Nested type: ::GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData
     class AppInitSceneSetupData;
-    // public System.Void Init()
-    // Offset: 0x14B6890
-    void Init();
-    // public System.Void InitAsAppStart()
-    // Offset: 0x14B6904
-    void InitAsAppStart();
-    // public System.Void __Init(AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType appInitOverrideStartType, MockPlayersModel mockPlayersModel)
-    // Offset: 0x14B6978
-    void __Init(::GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType appInitOverrideStartType, ::GlobalNamespace::MockPlayersModel* mockPlayersModel);
     // public System.Void .ctor()
-    // Offset: 0x14B69F8
-    // Implemented from: SingleFixedSceneScenesTransitionSetupDataSO
-    // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
-    // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14EE2B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AppInitScenesTransitionSetupDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AppInitScenesTransitionSetupDataSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AppInitScenesTransitionSetupDataSO*, creationType>()));
     }
+    // public System.Void Init()
+    // Offset: 0x14EE148
+    void Init();
+    // public System.Void InitAsAppStart()
+    // Offset: 0x14EE1BC
+    void InitAsAppStart();
+    // public System.Void __Init(AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType appInitOverrideStartType, MockPlayersModel mockPlayersModel)
+    // Offset: 0x14EE230
+    void __Init(::GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType appInitOverrideStartType, ::GlobalNamespace::MockPlayersModel* mockPlayersModel);
   }; // AppInitScenesTransitionSetupDataSO
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::AppInitScenesTransitionSetupDataSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AppInitScenesTransitionSetupDataSO::Init
 // Il2CppName: Init
 template<>
@@ -92,7 +89,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInitScenesTransitionSetupDataSO*), "__Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{appInitOverrideStartType, mockPlayersModel});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AppInitScenesTransitionSetupDataSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

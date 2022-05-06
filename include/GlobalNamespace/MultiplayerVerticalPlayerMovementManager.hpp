@@ -52,16 +52,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerVerticalPlayerMovementManager : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x12555E4
+    // [TooltipAttribute] Offset: 0x10DA1C8
     // private System.Single _movementRange
     // Size: 0x4
     // Offset: 0x18
@@ -98,28 +90,28 @@ namespace GlobalNamespace {
     float minScoreDifference;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x1255680
+    // [InjectAttribute] Offset: 0x10DA264
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1255690
+    // [InjectAttribute] Offset: 0x10DA274
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x12556A0
+    // [InjectAttribute] Offset: 0x10DA284
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x12556B0
+    // [InjectAttribute] Offset: 0x10DA294
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x48
@@ -148,62 +140,60 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _movementRange
-    float& dyn__movementRange();
+    [[deprecated("Use field access instead!")]] float& dyn__movementRange();
     // Get instance field reference: private System.Single _duelMovementRange
-    float& dyn__duelMovementRange();
+    [[deprecated("Use field access instead!")]] float& dyn__duelMovementRange();
     // Get instance field reference: private System.Single _maxMoveSpeedMetersPerSecond
-    float& dyn__maxMoveSpeedMetersPerSecond();
+    [[deprecated("Use field access instead!")]] float& dyn__maxMoveSpeedMetersPerSecond();
     // Get instance field reference: private System.Single _accelerationMetersPerSecondSquared
-    float& dyn__accelerationMetersPerSecondSquared();
+    [[deprecated("Use field access instead!")]] float& dyn__accelerationMetersPerSecondSquared();
     // Get instance field reference: private System.Single _decelerationMetersPerSecondSquared
-    float& dyn__decelerationMetersPerSecondSquared();
+    [[deprecated("Use field access instead!")]] float& dyn__decelerationMetersPerSecondSquared();
     // Get instance field reference: private System.Single _minScoreDifference
-    float& dyn__minScoreDifference();
+    [[deprecated("Use field access instead!")]] float& dyn__minScoreDifference();
     // Get instance field reference: private readonly MultiplayerPlayersManager _multiplayerPlayersManager
-    ::GlobalNamespace::MultiplayerPlayersManager*& dyn__multiplayerPlayersManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerPlayersManager*& dyn__multiplayerPlayersManager();
     // Get instance field reference: private readonly MultiplayerScoreProvider _scoreProvider
-    ::GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreProvider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreProvider();
     // Get instance field reference: private readonly MultiplayerLayoutProvider _layoutProvider
-    ::GlobalNamespace::MultiplayerLayoutProvider*& dyn__layoutProvider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLayoutProvider*& dyn__layoutProvider();
     // Get instance field reference: private readonly MultiplayerController _multiplayerController
-    ::GlobalNamespace::MultiplayerController*& dyn__multiplayerController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerController*& dyn__multiplayerController();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<MultiplayerScoreProvider/RankedPlayer> _reusablePlayersList
-    ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*& dyn__reusablePlayersList();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*& dyn__reusablePlayersList();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<MultiplayerConnectedPlayerFacade,System.Single> _currentSpeedsDictionary
-    ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::MultiplayerConnectedPlayerFacade*, float>*& dyn__currentSpeedsDictionary();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::MultiplayerConnectedPlayerFacade*, float>*& dyn__currentSpeedsDictionary();
     // Get instance field reference: private System.Single _lastFrameBaseScore
-    float& dyn__lastFrameBaseScore();
-    // protected System.Void Start()
-    // Offset: 0x146CD84
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x146CE48
-    void OnDestroy();
-    // protected System.Void Update()
-    // Offset: 0x146CF24
-    void Update();
-    // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x146CE38
-    void HandleStateChanged(::GlobalNamespace::MultiplayerController::State state);
+    [[deprecated("Use field access instead!")]] float& dyn__lastFrameBaseScore();
     // public System.Void .ctor()
-    // Offset: 0x146D808
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14A3FF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerVerticalPlayerMovementManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerVerticalPlayerMovementManager*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x14A356C
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x14A3630
+    void OnDestroy();
+    // protected System.Void Update()
+    // Offset: 0x14A370C
+    void Update();
+    // private System.Void HandleStateChanged(MultiplayerController/State state)
+    // Offset: 0x14A3620
+    void HandleStateChanged(::GlobalNamespace::MultiplayerController::State state);
   }; // MultiplayerVerticalPlayerMovementManager
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerVerticalPlayerMovementManager), 96 + sizeof(float)> __GlobalNamespace_MultiplayerVerticalPlayerMovementManagerSizeCheck;
   static_assert(sizeof(MultiplayerVerticalPlayerMovementManager) == 0x64);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerVerticalPlayerMovementManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerVerticalPlayerMovementManager::Start
 // Il2CppName: Start
 template<>
@@ -237,7 +227,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerVerticalPlayerMovementManager*), "HandleStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerVerticalPlayerMovementManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

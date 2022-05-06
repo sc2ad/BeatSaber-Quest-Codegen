@@ -47,20 +47,18 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Set static field: static public System.Func`2<NUnit.Framework.Interfaces.ITest,System.String> <>9__18_0
     static void _set_$$9__18_0(::System::Func_2<::NUnit::Framework::Interfaces::ITest*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x194639C
+    // Offset: 0x197E484
     static void _cctor();
-    // System.String <.ctor>b__18_0(NUnit.Framework.Interfaces.ITest t)
-    // Offset: 0x1946408
-    ::StringW $_ctor$b__18_0(::NUnit::Framework::Interfaces::ITest* t);
     // public System.Void .ctor()
-    // Offset: 0x1946400
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x197E4E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteTestData::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemoteTestData::$$c*, creationType>()));
     }
+    // System.String <.ctor>b__18_0(NUnit.Framework.Interfaces.ITest t)
+    // Offset: 0x197E4F0
+    ::StringW $_ctor$b__18_0(::NUnit::Framework::Interfaces::ITest* t);
   }; // UnityEngine.TestRunner.TestLaunchers.RemoteTestData/UnityEngine.TestRunner.TestLaunchers.<>c
   #pragma pack(pop)
 }
@@ -73,6 +71,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c::$_ctor$b__18_0
 // Il2CppName: <.ctor>b__18_0
 template<>
@@ -82,7 +84,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c*), "<.ctor>b__18_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

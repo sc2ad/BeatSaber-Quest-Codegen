@@ -39,15 +39,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerObjectInstaller : public ::Zenject::MonoInstaller {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MultiplayerScoreRingItem _inEnvironmentTextsPrefab
     // Size: 0x8
     // Offset: 0x20
@@ -68,28 +60,20 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*) == 0x8);
     public:
     // Get instance field reference: private MultiplayerScoreRingItem _inEnvironmentTextsPrefab
-    ::GlobalNamespace::MultiplayerScoreRingItem*& dyn__inEnvironmentTextsPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerScoreRingItem*& dyn__inEnvironmentTextsPrefab();
     // Get instance field reference: private FireworkItemController _fireworkItemControllerPrefab
-    ::GlobalNamespace::FireworkItemController*& dyn__fireworkItemControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FireworkItemController*& dyn__fireworkItemControllerPrefab();
     // Get instance field reference: private MultiplayerResultsPyramidViewAvatar _multiplayerResultsPyramidViewAvatarPrefab
-    ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*& dyn__multiplayerResultsPyramidViewAvatarPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*& dyn__multiplayerResultsPyramidViewAvatarPrefab();
     // public System.Void .ctor()
-    // Offset: 0x139ECF0
-    // Implemented from: Zenject.MonoInstaller
-    // Base method: System.Void MonoInstaller::.ctor()
-    // Base method: System.Void MonoInstallerBase::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x139B19C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerObjectInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerObjectInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerObjectInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x139EBEC
+    // Offset: 0x139B098
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

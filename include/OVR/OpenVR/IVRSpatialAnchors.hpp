@@ -69,13 +69,13 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: OVR.OpenVR.IVRSpatialAnchors/OVR.OpenVR._CreateSpatialAnchorFromDescriptor CreateSpatialAnchorFromDescriptor
-    ::OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor*& dyn_CreateSpatialAnchorFromDescriptor();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor*& dyn_CreateSpatialAnchorFromDescriptor();
     // Get instance field reference: OVR.OpenVR.IVRSpatialAnchors/OVR.OpenVR._CreateSpatialAnchorFromPose CreateSpatialAnchorFromPose
-    ::OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromPose*& dyn_CreateSpatialAnchorFromPose();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromPose*& dyn_CreateSpatialAnchorFromPose();
     // Get instance field reference: OVR.OpenVR.IVRSpatialAnchors/OVR.OpenVR._GetSpatialAnchorPose GetSpatialAnchorPose
-    ::OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorPose*& dyn_GetSpatialAnchorPose();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorPose*& dyn_GetSpatialAnchorPose();
     // Get instance field reference: OVR.OpenVR.IVRSpatialAnchors/OVR.OpenVR._GetSpatialAnchorDescriptor GetSpatialAnchorDescriptor
-    ::OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorDescriptor*& dyn_GetSpatialAnchorDescriptor();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorDescriptor*& dyn_GetSpatialAnchorDescriptor();
   }; // OVR.OpenVR.IVRSpatialAnchors
   #pragma pack(pop)
   static check_size<sizeof(IVRSpatialAnchors), 24 + sizeof(::OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorDescriptor*)> __OVR_OpenVR_IVRSpatialAnchorsSizeCheck;

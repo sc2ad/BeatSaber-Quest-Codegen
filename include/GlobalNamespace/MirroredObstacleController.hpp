@@ -44,15 +44,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::MirroredObstacleController::Pool
     class Pool;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private StretchableObstacle _stretchableObstacle
     // Size: 0x8
     // Offset: 0x28
@@ -79,46 +71,41 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     public:
     // Get instance field reference: private StretchableObstacle _stretchableObstacle
-    ::GlobalNamespace::StretchableObstacle*& dyn__stretchableObstacle();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::StretchableObstacle*& dyn__stretchableObstacle();
     // Get instance field reference: private ObstacleController _followedObstacle
-    ::GlobalNamespace::ObstacleController*& dyn__followedObstacle();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ObstacleController*& dyn__followedObstacle();
     // Get instance field reference: private UnityEngine.Transform _transform
-    ::UnityEngine::Transform*& dyn__transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // Get instance field reference: private UnityEngine.Transform _followedTransform
-    ::UnityEngine::Transform*& dyn__followedTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__followedTransform();
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x1302DF4
+    // Offset: 0x12FF2CC
     void set_hide(bool value);
     // protected System.Void Awake()
-    // Offset: 0x1303574
+    // Offset: 0x12FFA4C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x130359C
+    // Offset: 0x12FFA74
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x1303674
+    // Offset: 0x12FFB4C
     void Update();
     // private System.Void RemoveListeners()
-    // Offset: 0x13035A0
+    // Offset: 0x12FFA78
     void RemoveListeners();
     // private System.Void UpdatePositionAndRotation()
-    // Offset: 0x1303678
+    // Offset: 0x12FFB50
     void UpdatePositionAndRotation();
     // public System.Void Mirror(ObstacleController obstacleController)
-    // Offset: 0x1302258
+    // Offset: 0x12FE730
     void Mirror(::GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void HandleDidStartDissolving(ObstacleControllerBase obstacleController, System.Single duration)
-    // Offset: 0x13037A0
+    // Offset: 0x12FFC78
     void HandleDidStartDissolving(::GlobalNamespace::ObstacleControllerBase* obstacleController, float duration);
     // public System.Void .ctor()
-    // Offset: 0x13037AC
+    // Offset: 0x12FFC84
     // Implemented from: ObstacleControllerBase
     // Base method: System.Void ObstacleControllerBase::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MirroredObstacleController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MirroredObstacleController::.ctor");

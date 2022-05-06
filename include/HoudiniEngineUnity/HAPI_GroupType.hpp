@@ -72,7 +72,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HAPI_GroupType HAPI_GROUPTYPE_MAX
     static void _set_HAPI_GROUPTYPE_MAX(::HoudiniEngineUnity::HAPI_GroupType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HAPI_GroupType
   #pragma pack(pop)
   static check_size<sizeof(HAPI_GroupType), 0 + sizeof(int)> __HoudiniEngineUnity_HAPI_GroupTypeSizeCheck;

@@ -59,22 +59,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BTSCharacterSpawnAnimationController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Playables.PlayableDirector _spawnCharacterPlayableDirector
     // Size: 0x8
     // Offset: 0x18
     ::UnityEngine::Playables::PlayableDirector* spawnCharacterPlayableDirector;
     // Field size check
     static_assert(sizeof(::UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1248948
+    // [SpaceAttribute] Offset: 0x10CD440
     // private JumpReceiver _jumpReceiver
     // Size: 0x8
     // Offset: 0x20
@@ -93,7 +85,7 @@ namespace GlobalNamespace {
     float disappearAnimationStartTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x12489A0
+    // [SpaceAttribute] Offset: 0x10CD498
     // private MaterialPropertyBlockColorSetter _rimLightColorSetter
     // Size: 0x8
     // Offset: 0x30
@@ -112,7 +104,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MaterialPropertyBlockFloatAnimator* rimLightEdgeStartAnimator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MaterialPropertyBlockFloatAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0x12489F8
+    // [InjectAttribute] Offset: 0x10CD4F0
     // private readonly SongSpeedData _songSpeedData
     // Size: 0x8
     // Offset: 0x48
@@ -161,74 +153,68 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kCharacterActivationStreamName
     static void _set_kCharacterActivationStreamName(::StringW value);
     // Get instance field reference: private UnityEngine.Playables.PlayableDirector _spawnCharacterPlayableDirector
-    ::UnityEngine::Playables::PlayableDirector*& dyn__spawnCharacterPlayableDirector();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Playables::PlayableDirector*& dyn__spawnCharacterPlayableDirector();
     // Get instance field reference: private JumpReceiver _jumpReceiver
-    ::GlobalNamespace::JumpReceiver*& dyn__jumpReceiver();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::JumpReceiver*& dyn__jumpReceiver();
     // Get instance field reference: private System.Single _appearAnimationEndTime
-    float& dyn__appearAnimationEndTime();
+    [[deprecated("Use field access instead!")]] float& dyn__appearAnimationEndTime();
     // Get instance field reference: private System.Single _disappearAnimationStartTime
-    float& dyn__disappearAnimationStartTime();
+    [[deprecated("Use field access instead!")]] float& dyn__disappearAnimationStartTime();
     // Get instance field reference: private MaterialPropertyBlockColorSetter _rimLightColorSetter
-    ::GlobalNamespace::MaterialPropertyBlockColorSetter*& dyn__rimLightColorSetter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MaterialPropertyBlockColorSetter*& dyn__rimLightColorSetter();
     // Get instance field reference: private MaterialPropertyBlockFloatAnimator _rimLightIntensityAnimator
-    ::GlobalNamespace::MaterialPropertyBlockFloatAnimator*& dyn__rimLightIntensityAnimator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MaterialPropertyBlockFloatAnimator*& dyn__rimLightIntensityAnimator();
     // Get instance field reference: private MaterialPropertyBlockFloatAnimator _rimLightEdgeStartAnimator
-    ::GlobalNamespace::MaterialPropertyBlockFloatAnimator*& dyn__rimLightEdgeStartAnimator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MaterialPropertyBlockFloatAnimator*& dyn__rimLightEdgeStartAnimator();
     // Get instance field reference: private readonly SongSpeedData _songSpeedData
-    ::GlobalNamespace::SongSpeedData*& dyn__songSpeedData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongSpeedData*& dyn__songSpeedData();
     // Get instance field reference: private UnityEngine.Timeline.ActivationTrack _characterActivationTrack
-    ::UnityEngine::Timeline::ActivationTrack*& dyn__characterActivationTrack();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Timeline::ActivationTrack*& dyn__characterActivationTrack();
     // Get instance field reference: private BTSCharacter _currentBtsCharacter
-    ::GlobalNamespace::BTSCharacter*& dyn__currentBtsCharacter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BTSCharacter*& dyn__currentBtsCharacter();
     // Get instance field reference: private System.Single _defaultSpawnCharacterDuration
-    float& dyn__defaultSpawnCharacterDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__defaultSpawnCharacterDuration();
     // Get instance field reference: private System.Double _playableDirectorTimeBeforePause
-    double& dyn__playableDirectorTimeBeforePause();
+    [[deprecated("Use field access instead!")]] double& dyn__playableDirectorTimeBeforePause();
     // Get instance field reference: private System.Single _animatorNormalizedTimeBeforePause
-    float& dyn__animatorNormalizedTimeBeforePause();
+    [[deprecated("Use field access instead!")]] float& dyn__animatorNormalizedTimeBeforePause();
     // public System.Boolean get_isCharacterVisible()
-    // Offset: 0x14C2624
+    // Offset: 0x14F9EDC
     bool get_isCharacterVisible();
     // public System.Single get_duration()
-    // Offset: 0x14C2650
+    // Offset: 0x14F9F08
     float get_duration();
     // private UnityEngine.Timeline.ActivationTrack get_characterActivationTrack()
-    // Offset: 0x14C2694
+    // Offset: 0x14F9F4C
     ::UnityEngine::Timeline::ActivationTrack* get_characterActivationTrack();
-    // public System.Void PlayAnimation()
-    // Offset: 0x14C29E4
-    void PlayAnimation();
-    // public System.Void EndEarlyAnimation()
-    // Offset: 0x14C2AB8
-    void EndEarlyAnimation();
-    // public System.Void StopAnimation()
-    // Offset: 0x14C2B3C
-    void StopAnimation();
-    // public System.Void SetCharacter(BTSCharacter btsCharacter)
-    // Offset: 0x14C2B58
-    void SetCharacter(::GlobalNamespace::BTSCharacter* btsCharacter);
-    // public System.Void WillResumeAnimation()
-    // Offset: 0x14C2BF4
-    void WillResumeAnimation();
-    // public System.Void ResumeAnimation()
-    // Offset: 0x14C2C60
-    void ResumeAnimation();
-    // public System.Void PauseAnimation()
-    // Offset: 0x14C2CCC
-    void PauseAnimation();
     // public System.Void .ctor()
-    // Offset: 0x14C2D74
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14FA62C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterSpawnAnimationController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSCharacterSpawnAnimationController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterSpawnAnimationController*, creationType>()));
     }
+    // public System.Void PlayAnimation()
+    // Offset: 0x14FA29C
+    void PlayAnimation();
+    // public System.Void EndEarlyAnimation()
+    // Offset: 0x14FA370
+    void EndEarlyAnimation();
+    // public System.Void StopAnimation()
+    // Offset: 0x14FA3F4
+    void StopAnimation();
+    // public System.Void SetCharacter(BTSCharacter btsCharacter)
+    // Offset: 0x14FA410
+    void SetCharacter(::GlobalNamespace::BTSCharacter* btsCharacter);
+    // public System.Void WillResumeAnimation()
+    // Offset: 0x14FA4AC
+    void WillResumeAnimation();
+    // public System.Void ResumeAnimation()
+    // Offset: 0x14FA518
+    void ResumeAnimation();
+    // public System.Void PauseAnimation()
+    // Offset: 0x14FA584
+    void PauseAnimation();
   }; // BTSCharacterSpawnAnimationController
   #pragma pack(pop)
   static check_size<sizeof(BTSCharacterSpawnAnimationController), 112 + sizeof(float)> __GlobalNamespace_BTSCharacterSpawnAnimationControllerSizeCheck;
@@ -259,6 +245,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnAnimationController*), "get_characterActivationTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnAnimationController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnAnimationController::PlayAnimation
 // Il2CppName: PlayAnimation
 template<>
@@ -316,7 +306,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnAnimationController*), "PauseAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnAnimationController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

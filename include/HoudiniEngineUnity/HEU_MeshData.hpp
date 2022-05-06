@@ -46,15 +46,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_MeshData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Collections.Generic.List`1<System.Int32> _indices
     // Size: 0x8
     // Offset: 0x10
@@ -111,27 +103,25 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::UnityEngine::MeshTopology) == 0x4);
     public:
     // Get instance field reference: public System.Collections.Generic.List`1<System.Int32> _indices
-    ::System::Collections::Generic::List_1<int>*& dyn__indices();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<int>*& dyn__indices();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector3> _vertices
-    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn__vertices();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn__vertices();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Color32> _colors
-    ::System::Collections::Generic::List_1<::UnityEngine::Color32>*& dyn__colors();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Color32>*& dyn__colors();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector3> _normals
-    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn__normals();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn__normals();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector4> _tangents
-    ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& dyn__tangents();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& dyn__tangents();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector4>[] _uvs
-    ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>& dyn__uvs();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>& dyn__uvs();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector3> _triangleNormals
-    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn__triangleNormals();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn__triangleNormals();
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> _pointIndexToMeshIndexMap
-    ::System::Collections::Generic::Dictionary_2<int, int>*& dyn__pointIndexToMeshIndexMap();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, int>*& dyn__pointIndexToMeshIndexMap();
     // Get instance field reference: public UnityEngine.MeshTopology _meshTopology
-    ::UnityEngine::MeshTopology& dyn__meshTopology();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MeshTopology& dyn__meshTopology();
     // public System.Void .ctor()
-    // Offset: 0x185F144
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1898A54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_MeshData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_MeshData::.ctor");

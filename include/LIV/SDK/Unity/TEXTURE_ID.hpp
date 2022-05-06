@@ -66,7 +66,7 @@ namespace LIV::SDK::Unity {
     // Set static field: static public LIV.SDK.Unity.TEXTURE_ID OPTIMIZED_COLOR_BUFFER_ID
     static void _set_OPTIMIZED_COLOR_BUFFER_ID(::LIV::SDK::Unity::TEXTURE_ID value);
     // Get instance field reference: public System.UInt32 value__
-    uint& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint& dyn_value__();
   }; // LIV.SDK.Unity.TEXTURE_ID
   #pragma pack(pop)
   static check_size<sizeof(TEXTURE_ID), 0 + sizeof(uint)> __LIV_SDK_Unity_TEXTURE_IDSizeCheck;

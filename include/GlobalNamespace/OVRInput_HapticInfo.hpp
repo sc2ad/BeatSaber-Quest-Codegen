@@ -25,15 +25,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRInput::HapticInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean playingHaptics
     // Size: 0x1
     // Offset: 0x10
@@ -68,19 +60,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::XR::XRNode) == 0x4);
     public:
     // Get instance field reference: public System.Boolean playingHaptics
-    bool& dyn_playingHaptics();
+    [[deprecated("Use field access instead!")]] bool& dyn_playingHaptics();
     // Get instance field reference: public System.Single hapticsDurationPlayed
-    float& dyn_hapticsDurationPlayed();
+    [[deprecated("Use field access instead!")]] float& dyn_hapticsDurationPlayed();
     // Get instance field reference: public System.Single hapticsDuration
-    float& dyn_hapticsDuration();
+    [[deprecated("Use field access instead!")]] float& dyn_hapticsDuration();
     // Get instance field reference: public System.Single hapticAmplitude
-    float& dyn_hapticAmplitude();
+    [[deprecated("Use field access instead!")]] float& dyn_hapticAmplitude();
     // Get instance field reference: public UnityEngine.XR.XRNode node
-    ::UnityEngine::XR::XRNode& dyn_node();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::XR::XRNode& dyn_node();
     // public System.Void .ctor()
-    // Offset: 0x19C248C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x19FBA74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRInput::HapticInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRInput::HapticInfo::.ctor");

@@ -52,43 +52,35 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData
     class InitData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private CrossFadeAudioSource _audioSource
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::CrossFadeAudioSource* audioSource;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::CrossFadeAudioSource*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1254124
+    // [SpaceAttribute] Offset: 0x10D8D08
     // private FloatSO _audioLatency
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::FloatSO* audioLatency;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x125415C
+    // [InjectAttribute] Offset: 0x10D8D40
     // private readonly MultiplayerLocalInactivePlayerSongSyncController/InitData _initData
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x125416C
+    // [InjectAttribute] Offset: 0x10D8D50
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x125417C
+    // [InjectAttribute] Offset: 0x10D8D60
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x38
@@ -159,83 +151,77 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kReSyncThreshold
     static void _set_kReSyncThreshold(float value);
     // Get instance field reference: private CrossFadeAudioSource _audioSource
-    ::GlobalNamespace::CrossFadeAudioSource*& dyn__audioSource();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::CrossFadeAudioSource*& dyn__audioSource();
     // Get instance field reference: private FloatSO _audioLatency
-    ::GlobalNamespace::FloatSO*& dyn__audioLatency();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FloatSO*& dyn__audioLatency();
     // Get instance field reference: private readonly MultiplayerLocalInactivePlayerSongSyncController/InitData _initData
-    ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData*& dyn__initData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData*& dyn__initData();
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // Get instance field reference: private readonly IVRPlatformHelper _vrPlatformHelper
-    ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // Get instance field reference: private System.Single _timeScale
-    float& dyn__timeScale();
+    [[deprecated("Use field access instead!")]] float& dyn__timeScale();
     // Get instance field reference: private System.Single _startSongTime
-    float& dyn__startSongTime();
+    [[deprecated("Use field access instead!")]] float& dyn__startSongTime();
     // Get instance field reference: private System.Single _songTimeOffset
-    float& dyn__songTimeOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__songTimeOffset();
     // Get instance field reference: private System.Single _songTime
-    float& dyn__songTime();
+    [[deprecated("Use field access instead!")]] float& dyn__songTime();
     // Get instance field reference: private System.Boolean _audioStarted
-    bool& dyn__audioStarted();
+    [[deprecated("Use field access instead!")]] bool& dyn__audioStarted();
     // Get instance field reference: private System.Boolean _currentObservableIsFailed
-    bool& dyn__currentObservableIsFailed();
+    [[deprecated("Use field access instead!")]] bool& dyn__currentObservableIsFailed();
     // Get instance field reference: private IMultiplayerObservable _observable
-    ::GlobalNamespace::IMultiplayerObservable*& dyn__observable();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerObservable*& dyn__observable();
     // Get instance field reference: private System.Single _lastLatencyOffsetTime
-    float& dyn__lastLatencyOffsetTime();
+    [[deprecated("Use field access instead!")]] float& dyn__lastLatencyOffsetTime();
     // public UnityEngine.WaitUntil get_waitUntilIsReadyToStartTheSong()
-    // Offset: 0x1399128
+    // Offset: 0x13955D4
     ::UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
     // private System.Boolean get_isAudioLoaded()
-    // Offset: 0x13991C0
+    // Offset: 0x139566C
     bool get_isAudioLoaded();
-    // protected System.Void Awake()
-    // Offset: 0x139926C
-    void Awake();
-    // protected System.Void Start()
-    // Offset: 0x1399388
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x1399474
-    void OnDestroy();
-    // protected System.Void Update()
-    // Offset: 0x139956C
-    void Update();
-    // public System.Void StartSong(System.Single offsetTime)
-    // Offset: 0x1399994
-    void StartSong(float offsetTime);
-    // public System.Void FollowOffsetSyncTime(IMultiplayerObservable observable, System.Boolean crossFade, System.Boolean forceUpdate)
-    // Offset: 0x1399C5C
-    void FollowOffsetSyncTime(::GlobalNamespace::IMultiplayerObservable* observable, bool crossFade, bool forceUpdate);
-    // private System.Void UpdateOffsetSyncTime(System.Single offsetSyncTime, System.Boolean crossFade, System.Boolean forceUpdate)
-    // Offset: 0x1399834
-    void UpdateOffsetSyncTime(float offsetSyncTime, bool crossFade, bool forceUpdate);
-    // public System.Void SeekTo(System.Single offsetTime)
-    // Offset: 0x1399E6C
-    void SeekTo(float offsetTime);
-    // private System.Void SeekTo(System.Single offsetTime, System.Boolean crossFade, System.Single toVolume)
-    // Offset: 0x1399A90
-    void SeekTo(float offsetTime, bool crossFade, float toVolume);
-    // private System.Void HandleVrFocusWasReleased()
-    // Offset: 0x1399E78
-    void HandleVrFocusWasReleased();
-    // private System.Boolean <get_waitUntilIsReadyToStartTheSong>b__7_0()
-    // Offset: 0x1399E84
-    bool $get_waitUntilIsReadyToStartTheSong$b__7_0();
     // public System.Void .ctor()
-    // Offset: 0x1399E7C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1396328
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalInactivePlayerSongSyncController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalInactivePlayerSongSyncController*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x1395718
+    void Awake();
+    // protected System.Void Start()
+    // Offset: 0x1395834
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1395920
+    void OnDestroy();
+    // protected System.Void Update()
+    // Offset: 0x1395A18
+    void Update();
+    // public System.Void StartSong(System.Single offsetTime)
+    // Offset: 0x1395E40
+    void StartSong(float offsetTime);
+    // public System.Void FollowOffsetSyncTime(IMultiplayerObservable observable, System.Boolean crossFade, System.Boolean forceUpdate)
+    // Offset: 0x1396108
+    void FollowOffsetSyncTime(::GlobalNamespace::IMultiplayerObservable* observable, bool crossFade, bool forceUpdate);
+    // private System.Void UpdateOffsetSyncTime(System.Single offsetSyncTime, System.Boolean crossFade, System.Boolean forceUpdate)
+    // Offset: 0x1395CE0
+    void UpdateOffsetSyncTime(float offsetSyncTime, bool crossFade, bool forceUpdate);
+    // public System.Void SeekTo(System.Single offsetTime)
+    // Offset: 0x1396318
+    void SeekTo(float offsetTime);
+    // private System.Void SeekTo(System.Single offsetTime, System.Boolean crossFade, System.Single toVolume)
+    // Offset: 0x1395F3C
+    void SeekTo(float offsetTime, bool crossFade, float toVolume);
+    // private System.Void HandleVrFocusWasReleased()
+    // Offset: 0x1396324
+    void HandleVrFocusWasReleased();
+    // private System.Boolean <get_waitUntilIsReadyToStartTheSong>b__7_0()
+    // Offset: 0x1396330
+    bool $get_waitUntilIsReadyToStartTheSong$b__7_0();
   }; // MultiplayerLocalInactivePlayerSongSyncController
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalInactivePlayerSongSyncController), 96 + sizeof(float)> __GlobalNamespace_MultiplayerLocalInactivePlayerSongSyncControllerSizeCheck;
@@ -258,6 +244,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController*), "get_isAudioLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::Awake
 // Il2CppName: Awake
 template<>
@@ -357,7 +347,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController*), "<get_waitUntilIsReadyToStartTheSong>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

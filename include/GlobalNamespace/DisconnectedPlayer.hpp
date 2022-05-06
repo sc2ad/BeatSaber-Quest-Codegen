@@ -38,15 +38,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DisconnectedPlayer : public ::Il2CppObject/*, public ::GlobalNamespace::IConnectedPlayer*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String <userId>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -79,67 +71,67 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IConnectedPlayer*>(this);
     }
     // Get instance field reference: private System.String <userId>k__BackingField
-    ::StringW& dyn_$userId$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$userId$k__BackingField();
     // Get instance field reference: private System.String <userName>k__BackingField
-    ::StringW& dyn_$userName$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$userName$k__BackingField();
     // Get instance field reference: private readonly System.Int32 <sortIndex>k__BackingField
-    int& dyn_$sortIndex$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$sortIndex$k__BackingField();
     // Get instance field reference: private readonly MultiplayerAvatarData <multiplayerAvatarData>k__BackingField
-    ::GlobalNamespace::MultiplayerAvatarData& dyn_$multiplayerAvatarData$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerAvatarData& dyn_$multiplayerAvatarData$k__BackingField();
     // public System.Single get_offsetSyncTime()
-    // Offset: 0x163F794
+    // Offset: 0x16760A4
     float get_offsetSyncTime();
     // public System.Boolean get_isFailed()
-    // Offset: 0x163F79C
+    // Offset: 0x16760AC
     bool get_isFailed();
     // public System.Boolean get_isMe()
-    // Offset: 0x163F7A4
+    // Offset: 0x16760B4
     bool get_isMe();
     // public System.String get_userId()
-    // Offset: 0x163F7AC
+    // Offset: 0x16760BC
     ::StringW get_userId();
     // private System.Void set_userId(System.String value)
-    // Offset: 0x163F7B4
+    // Offset: 0x16760C4
     void set_userId(::StringW value);
     // public System.String get_userName()
-    // Offset: 0x163F7BC
+    // Offset: 0x16760CC
     ::StringW get_userName();
     // private System.Void set_userName(System.String value)
-    // Offset: 0x163F7C4
+    // Offset: 0x16760D4
     void set_userName(::StringW value);
     // public System.Boolean get_hasValidLatency()
-    // Offset: 0x163F7CC
+    // Offset: 0x16760DC
     bool get_hasValidLatency();
     // public System.Single get_currentLatency()
-    // Offset: 0x163F7D4
+    // Offset: 0x16760E4
     float get_currentLatency();
     // public System.Boolean get_isConnected()
-    // Offset: 0x163F7DC
+    // Offset: 0x16760EC
     bool get_isConnected();
     // public DisconnectedReason get_disconnectedReason()
-    // Offset: 0x163F7E4
+    // Offset: 0x16760F4
     ::GlobalNamespace::DisconnectedReason get_disconnectedReason();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x163F7EC
+    // Offset: 0x16760FC
     bool get_isConnectionOwner();
     // public System.Int32 get_sortIndex()
-    // Offset: 0x163F7F4
+    // Offset: 0x1676104
     int get_sortIndex();
     // public MultiplayerAvatarData get_multiplayerAvatarData()
-    // Offset: 0x163F7FC
+    // Offset: 0x167610C
     ::GlobalNamespace::MultiplayerAvatarData get_multiplayerAvatarData();
     // public System.Boolean get_isKicked()
-    // Offset: 0x163F80C
+    // Offset: 0x167611C
     bool get_isKicked();
     // public System.Void .ctor(System.String userId, System.String userName, System.Int32 sortIndex)
-    // Offset: 0x163F81C
+    // Offset: 0x167612C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisconnectedPlayer* New_ctor(::StringW userId, ::StringW userName, int sortIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DisconnectedPlayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisconnectedPlayer*, creationType>(userId, userName, sortIndex)));
     }
     // public System.Boolean HasState(System.String state)
-    // Offset: 0x163F814
+    // Offset: 0x1676124
     bool HasState(::StringW state);
   }; // DisconnectedPlayer
   #pragma pack(pop)

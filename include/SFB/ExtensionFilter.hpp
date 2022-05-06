@@ -47,11 +47,11 @@ namespace SFB {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public readonly System.String _name
-    ::StringW& dyn__name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__name();
     // Get instance field reference: public readonly System.String[] _extensions
-    ::ArrayW<::StringW>& dyn__extensions();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn__extensions();
     // public System.Void .ctor(System.String filterName, params System.String[] filterExtensions)
-    // Offset: 0x1417F14
+    // Offset: 0x14595EC
     // ABORTED: conflicts with another method.  ExtensionFilter(::StringW filterName, ::ArrayW<::StringW> filterExtensions);
   }; // SFB.ExtensionFilter
   #pragma pack(pop)

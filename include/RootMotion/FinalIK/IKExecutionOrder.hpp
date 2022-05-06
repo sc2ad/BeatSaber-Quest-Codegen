@@ -41,23 +41,15 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKExecutionOrder : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x1273B9C
+    // [TooltipAttribute] Offset: 0x10F8854
     // public RootMotion.FinalIK.IK[] IKComponents
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<::RootMotion::FinalIK::IK*> IKComponents;
     // Field size check
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::IK*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x1273BD4
+    // [TooltipAttribute] Offset: 0x10F888C
     // public UnityEngine.Animator animator
     // Size: 0x8
     // Offset: 0x20
@@ -74,42 +66,36 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.IK[] IKComponents
-    ::ArrayW<::RootMotion::FinalIK::IK*>& dyn_IKComponents();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::IK*>& dyn_IKComponents();
     // Get instance field reference: public UnityEngine.Animator animator
-    ::UnityEngine::Animator*& dyn_animator();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Animator*& dyn_animator();
     // Get instance field reference: private System.Boolean fixedFrame
-    bool& dyn_fixedFrame();
+    [[deprecated("Use field access instead!")]] bool& dyn_fixedFrame();
     // private System.Boolean get_animatePhysics()
-    // Offset: 0x21D8E14
+    // Offset: 0x2226688
     bool get_animatePhysics();
-    // private System.Void Start()
-    // Offset: 0x21D8EB0
-    void Start();
-    // private System.Void Update()
-    // Offset: 0x21D8F20
-    void Update();
-    // private System.Void FixedUpdate()
-    // Offset: 0x21D8FDC
-    void FixedUpdate();
-    // private System.Void LateUpdate()
-    // Offset: 0x21D9018
-    void LateUpdate();
-    // private System.Void FixTransforms()
-    // Offset: 0x21D8F54
-    void FixTransforms();
     // public System.Void .ctor()
-    // Offset: 0x21D90A4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2226918
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKExecutionOrder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKExecutionOrder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKExecutionOrder*, creationType>()));
     }
+    // private System.Void Start()
+    // Offset: 0x2226724
+    void Start();
+    // private System.Void Update()
+    // Offset: 0x2226794
+    void Update();
+    // private System.Void FixedUpdate()
+    // Offset: 0x2226850
+    void FixedUpdate();
+    // private System.Void LateUpdate()
+    // Offset: 0x222688C
+    void LateUpdate();
+    // private System.Void FixTransforms()
+    // Offset: 0x22267C8
+    void FixTransforms();
   }; // RootMotion.FinalIK.IKExecutionOrder
   #pragma pack(pop)
   static check_size<sizeof(IKExecutionOrder), 40 + sizeof(bool)> __RootMotion_FinalIK_IKExecutionOrderSizeCheck;
@@ -124,6 +110,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKExecutionOrder*), "get_animatePhysics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKExecutionOrder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKExecutionOrder::Start
 // Il2CppName: Start
 template<>
@@ -164,7 +154,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKExecutionOrder*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::IKExecutionOrder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -43,15 +43,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorSchemeColorToggleController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Graphic[] _colorGraphics
     // Size: 0x8
     // Offset: 0x18
@@ -68,26 +60,20 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Graphic[] _colorGraphics
-    ::ArrayW<::UnityEngine::UI::Graphic*>& dyn__colorGraphics();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::UI::Graphic*>& dyn__colorGraphics();
     // Get instance field reference: private UnityEngine.UI.Toggle _toggle
-    ::UnityEngine::UI::Toggle*& dyn__toggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__toggle();
     // public UnityEngine.UI.Toggle get_toggle()
-    // Offset: 0x1356D00
+    // Offset: 0x133FF80
     ::UnityEngine::UI::Toggle* get_toggle();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1356D08
+    // Offset: 0x133FF88
     ::UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x1356D4C
+    // Offset: 0x133FFCC
     void set_color(::UnityEngine::Color value);
     // public System.Void .ctor()
-    // Offset: 0x1356DF0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1340070
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorSchemeColorToggleController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorSchemeColorToggleController::.ctor");

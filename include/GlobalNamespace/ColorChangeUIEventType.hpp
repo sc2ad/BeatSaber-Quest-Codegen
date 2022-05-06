@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Set static field: static public ColorChangeUIEventType PointerUp
     static void _set_PointerUp(::GlobalNamespace::ColorChangeUIEventType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // ColorChangeUIEventType
   #pragma pack(pop)
   static check_size<sizeof(ColorChangeUIEventType), 0 + sizeof(int)> __GlobalNamespace_ColorChangeUIEventTypeSizeCheck;

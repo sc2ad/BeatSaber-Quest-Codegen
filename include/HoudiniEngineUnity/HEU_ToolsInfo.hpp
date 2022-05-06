@@ -89,7 +89,7 @@ namespace HoudiniEngineUnity {
       // Set static field: static public HoudiniEngineUnity.HEU_ToolsInfo/HoudiniEngineUnity.PaintMergeMode MULTIPLY
       static void _set_MULTIPLY(::HoudiniEngineUnity::HEU_ToolsInfo::PaintMergeMode value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // HoudiniEngineUnity.HEU_ToolsInfo/HoudiniEngineUnity.PaintMergeMode
     #pragma pack(pop)
     static check_size<sizeof(HEU_ToolsInfo::PaintMergeMode), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_ToolsInfo_PaintMergeModeSizeCheck;
@@ -137,20 +137,12 @@ namespace HoudiniEngineUnity {
       // Set static field: static public HoudiniEngineUnity.HEU_ToolsInfo/HoudiniEngineUnity.PaintMeshVisibility HIDE
       static void _set_HIDE(::HoudiniEngineUnity::HEU_ToolsInfo::PaintMeshVisibility value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // HoudiniEngineUnity.HEU_ToolsInfo/HoudiniEngineUnity.PaintMeshVisibility
     #pragma pack(pop)
     static check_size<sizeof(HEU_ToolsInfo::PaintMeshVisibility), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_ToolsInfo_PaintMeshVisibilitySizeCheck;
     static_assert(sizeof(HEU_ToolsInfo::PaintMeshVisibility) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single _paintBrushSize
     // Size: 0x4
     // Offset: 0x18
@@ -291,61 +283,57 @@ namespace HoudiniEngineUnity {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single _paintBrushSize
-    float& dyn__paintBrushSize();
+    [[deprecated("Use field access instead!")]] float& dyn__paintBrushSize();
     // Get instance field reference: public System.Single _paintBrushOpacity
-    float& dyn__paintBrushOpacity();
+    [[deprecated("Use field access instead!")]] float& dyn__paintBrushOpacity();
     // Get instance field reference: public System.Int32[] _paintIntValue
-    ::ArrayW<int>& dyn__paintIntValue();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__paintIntValue();
     // Get instance field reference: public System.Single[] _paintFloatValue
-    ::ArrayW<float>& dyn__paintFloatValue();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn__paintFloatValue();
     // Get instance field reference: public System.String[] _paintStringValue
-    ::ArrayW<::StringW>& dyn__paintStringValue();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn__paintStringValue();
     // Get instance field reference: public System.Int32 _lastAttributesGeoID
-    int& dyn__lastAttributesGeoID();
+    [[deprecated("Use field access instead!")]] int& dyn__lastAttributesGeoID();
     // Get instance field reference: public System.Int32 _lastAttributesPartID
-    int& dyn__lastAttributesPartID();
+    [[deprecated("Use field access instead!")]] int& dyn__lastAttributesPartID();
     // Get instance field reference: public System.String _lastAttributeNodeName
-    ::StringW& dyn__lastAttributeNodeName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__lastAttributeNodeName();
     // Get instance field reference: public System.String _lastAttributeName
-    ::StringW& dyn__lastAttributeName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__lastAttributeName();
     // Get instance field reference: public UnityEngine.Color _brushHandleColor
-    ::UnityEngine::Color& dyn__brushHandleColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__brushHandleColor();
     // Get instance field reference: public UnityEngine.Color _affectedAreaPaintColor
-    ::UnityEngine::Color& dyn__affectedAreaPaintColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__affectedAreaPaintColor();
     // Get instance field reference: public System.Boolean _liveUpdate
-    bool& dyn__liveUpdate();
+    [[deprecated("Use field access instead!")]] bool& dyn__liveUpdate();
     // Get instance field reference: public System.Boolean _isPainting
-    bool& dyn__isPainting();
+    [[deprecated("Use field access instead!")]] bool& dyn__isPainting();
     // Get instance field reference: public System.Single _editPointBoxSize
-    float& dyn__editPointBoxSize();
+    [[deprecated("Use field access instead!")]] float& dyn__editPointBoxSize();
     // Get instance field reference: public UnityEngine.Color _editPointBoxUnselectedColor
-    ::UnityEngine::Color& dyn__editPointBoxUnselectedColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__editPointBoxUnselectedColor();
     // Get instance field reference: public UnityEngine.Color _editPointBoxSelectedColor
-    ::UnityEngine::Color& dyn__editPointBoxSelectedColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__editPointBoxSelectedColor();
     // Get instance field reference: public System.Boolean _recacheRequired
-    bool& dyn__recacheRequired();
+    [[deprecated("Use field access instead!")]] bool& dyn__recacheRequired();
     // Get instance field reference: public HoudiniEngineUnity.HEU_ToolsInfo/HoudiniEngineUnity.PaintMergeMode _paintMergeMode
-    ::HoudiniEngineUnity::HEU_ToolsInfo::PaintMergeMode& dyn__paintMergeMode();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_ToolsInfo::PaintMergeMode& dyn__paintMergeMode();
     // Get instance field reference: public System.Boolean _showOnlyEditGeometry
-    bool& dyn__showOnlyEditGeometry();
+    [[deprecated("Use field access instead!")]] bool& dyn__showOnlyEditGeometry();
     // Get instance field reference: public System.Boolean _alwaysCookUpstream
-    bool& dyn__alwaysCookUpstream();
+    [[deprecated("Use field access instead!")]] bool& dyn__alwaysCookUpstream();
     // Get instance field reference: public HoudiniEngineUnity.HEU_ToolsInfo/HoudiniEngineUnity.PaintMeshVisibility _paintMeshVisiblity
-    ::HoudiniEngineUnity::HEU_ToolsInfo::PaintMeshVisibility& dyn__paintMeshVisiblity();
-    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_ToolsInfo other)
-    // Offset: 0x19D4C0C
-    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ToolsInfo* other);
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_ToolsInfo::PaintMeshVisibility& dyn__paintMeshVisiblity();
     // public System.Void .ctor()
-    // Offset: 0x19D50F0
-    // Implemented from: UnityEngine.ScriptableObject
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1A0E6D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ToolsInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_ToolsInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ToolsInfo*, creationType>()));
     }
+    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_ToolsInfo other)
+    // Offset: 0x1A0E1F4
+    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ToolsInfo* other);
   }; // HoudiniEngineUnity.HEU_ToolsInfo
   #pragma pack(pop)
   static check_size<sizeof(HEU_ToolsInfo), 164 + sizeof(::HoudiniEngineUnity::HEU_ToolsInfo::PaintMeshVisibility)> __HoudiniEngineUnity_HEU_ToolsInfoSizeCheck;
@@ -356,6 +344,10 @@ DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_ToolsInfo::PaintMeshVisibility,
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_ToolsInfo::PaintMergeMode, "HoudiniEngineUnity", "HEU_ToolsInfo/PaintMergeMode");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ToolsInfo::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ToolsInfo::IsEquivalentTo
 // Il2CppName: IsEquivalentTo
 template<>
@@ -365,7 +357,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_ToolsInfo*), "IsEquivalentTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ToolsInfo::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

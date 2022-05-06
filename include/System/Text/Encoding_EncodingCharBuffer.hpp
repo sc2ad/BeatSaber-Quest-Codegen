@@ -33,15 +33,7 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class Encoding::EncodingCharBuffer : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Char* chars
     // Size: 0x8
     // Offset: 0x10
@@ -106,58 +98,58 @@ namespace System::Text {
     static_assert(sizeof(::System::Text::DecoderFallbackBuffer*) == 0x8);
     public:
     // Get instance field reference: private System.Char* chars
-    ::Il2CppChar*& dyn_chars();
+    [[deprecated("Use field access instead!")]] ::Il2CppChar*& dyn_chars();
     // Get instance field reference: private System.Char* charStart
-    ::Il2CppChar*& dyn_charStart();
+    [[deprecated("Use field access instead!")]] ::Il2CppChar*& dyn_charStart();
     // Get instance field reference: private System.Char* charEnd
-    ::Il2CppChar*& dyn_charEnd();
+    [[deprecated("Use field access instead!")]] ::Il2CppChar*& dyn_charEnd();
     // Get instance field reference: private System.Int32 charCountResult
-    int& dyn_charCountResult();
+    [[deprecated("Use field access instead!")]] int& dyn_charCountResult();
     // Get instance field reference: private System.Text.Encoding enc
-    ::System::Text::Encoding*& dyn_enc();
+    [[deprecated("Use field access instead!")]] ::System::Text::Encoding*& dyn_enc();
     // Get instance field reference: private System.Text.DecoderNLS decoder
-    ::System::Text::DecoderNLS*& dyn_decoder();
+    [[deprecated("Use field access instead!")]] ::System::Text::DecoderNLS*& dyn_decoder();
     // Get instance field reference: private System.Byte* byteStart
-    uint8_t*& dyn_byteStart();
+    [[deprecated("Use field access instead!")]] uint8_t*& dyn_byteStart();
     // Get instance field reference: private System.Byte* byteEnd
-    uint8_t*& dyn_byteEnd();
+    [[deprecated("Use field access instead!")]] uint8_t*& dyn_byteEnd();
     // Get instance field reference: private System.Byte* bytes
-    uint8_t*& dyn_bytes();
+    [[deprecated("Use field access instead!")]] uint8_t*& dyn_bytes();
     // Get instance field reference: private System.Text.DecoderFallbackBuffer fallbackBuffer
-    ::System::Text::DecoderFallbackBuffer*& dyn_fallbackBuffer();
+    [[deprecated("Use field access instead!")]] ::System::Text::DecoderFallbackBuffer*& dyn_fallbackBuffer();
     // System.Boolean get_MoreData()
-    // Offset: 0x2027178
+    // Offset: 0x20709EC
     bool get_MoreData();
     // System.Int32 get_BytesUsed()
-    // Offset: 0x20271AC
+    // Offset: 0x2070A20
     int get_BytesUsed();
     // System.Int32 get_Count()
-    // Offset: 0x202732C
+    // Offset: 0x2070BA0
     int get_Count();
     // System.Void .ctor(System.Text.Encoding enc, System.Text.DecoderNLS decoder, System.Char* charStart, System.Int32 charCount, System.Byte* byteStart, System.Int32 byteCount)
-    // Offset: 0x2027038
+    // Offset: 0x20708AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Encoding::EncodingCharBuffer* New_ctor(::System::Text::Encoding* enc, ::System::Text::DecoderNLS* decoder, ::Il2CppChar* charStart, int charCount, uint8_t* byteStart, int byteCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::Encoding::EncodingCharBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Encoding::EncodingCharBuffer*, creationType>(enc, decoder, charStart, charCount, byteStart, byteCount)));
     }
     // System.Boolean AddChar(System.Char ch, System.Int32 numBytes)
-    // Offset: 0x20270EC
+    // Offset: 0x2070960
     bool AddChar(::Il2CppChar ch, int numBytes);
     // System.Boolean AddChar(System.Char ch)
-    // Offset: 0x2027160
+    // Offset: 0x20709D4
     bool AddChar(::Il2CppChar ch);
     // System.Void AdjustBytes(System.Int32 count)
-    // Offset: 0x2027168
+    // Offset: 0x20709DC
     void AdjustBytes(int count);
     // System.Byte GetNextByte()
-    // Offset: 0x2027188
+    // Offset: 0x20709FC
     uint8_t GetNextByte();
     // System.Boolean Fallback(System.Byte fallbackByte)
-    // Offset: 0x20271BC
+    // Offset: 0x2070A30
     bool Fallback(uint8_t fallbackByte);
     // System.Boolean Fallback(System.Byte[] byteBuffer)
-    // Offset: 0x2027244
+    // Offset: 0x2070AB8
     bool Fallback(::ArrayW<uint8_t> byteBuffer);
   }; // System.Text.Encoding/System.Text.EncodingCharBuffer
   #pragma pack(pop)

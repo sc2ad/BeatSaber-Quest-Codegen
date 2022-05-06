@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Set static field: static public AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType MultiSceneEditor
     static void _set_MultiSceneEditor(::GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType
   #pragma pack(pop)
   static check_size<sizeof(AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType), 0 + sizeof(int)> __GlobalNamespace_AppInitScenesTransitionSetupDataSO_AppInitOverrideStartTypeSizeCheck;

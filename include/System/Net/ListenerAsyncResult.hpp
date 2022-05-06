@@ -51,15 +51,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class ListenerAsyncResult : public ::Il2CppObject/*, public ::System::IAsyncResult*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Threading.ManualResetEvent handle
     // Size: 0x8
     // Offset: 0x10
@@ -138,63 +130,63 @@ namespace System::Net {
     // Set static field: static private System.Threading.WaitCallback InvokeCB
     static void _set_InvokeCB(::System::Threading::WaitCallback* value);
     // Get instance field reference: private System.Threading.ManualResetEvent handle
-    ::System::Threading::ManualResetEvent*& dyn_handle();
+    [[deprecated("Use field access instead!")]] ::System::Threading::ManualResetEvent*& dyn_handle();
     // Get instance field reference: private System.Boolean synch
-    bool& dyn_synch();
+    [[deprecated("Use field access instead!")]] bool& dyn_synch();
     // Get instance field reference: private System.Boolean completed
-    bool& dyn_completed();
+    [[deprecated("Use field access instead!")]] bool& dyn_completed();
     // Get instance field reference: private System.AsyncCallback cb
-    ::System::AsyncCallback*& dyn_cb();
+    [[deprecated("Use field access instead!")]] ::System::AsyncCallback*& dyn_cb();
     // Get instance field reference: private System.Object state
-    ::Il2CppObject*& dyn_state();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_state();
     // Get instance field reference: private System.Exception exception
-    ::System::Exception*& dyn_exception();
+    [[deprecated("Use field access instead!")]] ::System::Exception*& dyn_exception();
     // Get instance field reference: private System.Net.HttpListenerContext context
-    ::System::Net::HttpListenerContext*& dyn_context();
+    [[deprecated("Use field access instead!")]] ::System::Net::HttpListenerContext*& dyn_context();
     // Get instance field reference: private System.Object locker
-    ::Il2CppObject*& dyn_locker();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_locker();
     // Get instance field reference: private System.Net.ListenerAsyncResult forward
-    ::System::Net::ListenerAsyncResult*& dyn_forward();
+    [[deprecated("Use field access instead!")]] ::System::Net::ListenerAsyncResult*& dyn_forward();
     // Get instance field reference: System.Boolean EndCalled
-    bool& dyn_EndCalled();
+    [[deprecated("Use field access instead!")]] bool& dyn_EndCalled();
     // Get instance field reference: System.Boolean InGet
-    bool& dyn_InGet();
+    [[deprecated("Use field access instead!")]] bool& dyn_InGet();
     // public System.Object get_AsyncState()
-    // Offset: 0x1A798D0
+    // Offset: 0x1AB3EB8
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x1A6B858
+    // Offset: 0x1AA5E40
     ::System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x1A798E4
+    // Offset: 0x1AB3ECC
     bool get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1A6B7AC
+    // Offset: 0x1AA5D94
     bool get_IsCompleted();
     // public System.Void .ctor(System.AsyncCallback cb, System.Object state)
-    // Offset: 0x1A6AE6C
+    // Offset: 0x1AA5454
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListenerAsyncResult* New_ctor(::System::AsyncCallback* cb, ::Il2CppObject* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::ListenerAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListenerAsyncResult*, creationType>(cb, state)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1A798F8
+    // Offset: 0x1AB3EE0
     static void _cctor();
     // System.Void Complete(System.Exception exc)
-    // Offset: 0x1A6AA4C
+    // Offset: 0x1AA5034
     void Complete(::System::Exception* exc);
     // static private System.Void InvokeCallback(System.Object o)
-    // Offset: 0x1A7977C
+    // Offset: 0x1AB3D64
     static void InvokeCallback(::Il2CppObject* o);
     // System.Void Complete(System.Net.HttpListenerContext context)
-    // Offset: 0x1A6BD4C
+    // Offset: 0x1AA6334
     void Complete(::System::Net::HttpListenerContext* context);
     // System.Void Complete(System.Net.HttpListenerContext context, System.Boolean synch)
-    // Offset: 0x1A6AFB8
+    // Offset: 0x1AA55A0
     void Complete(::System::Net::HttpListenerContext* context, bool synch);
     // System.Net.HttpListenerContext GetContext()
-    // Offset: 0x1A6B95C
+    // Offset: 0x1AA5F44
     ::System::Net::HttpListenerContext* GetContext();
   }; // System.Net.ListenerAsyncResult
   #pragma pack(pop)

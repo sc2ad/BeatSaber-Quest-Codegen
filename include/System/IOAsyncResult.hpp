@@ -43,15 +43,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class IOAsyncResult : public ::Il2CppObject/*, public ::System::IAsyncResult*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.AsyncCallback async_callback
     // Size: 0x8
     // Offset: 0x10
@@ -88,58 +80,56 @@ namespace System {
       return *reinterpret_cast<::System::IAsyncResult*>(this);
     }
     // Get instance field reference: private System.AsyncCallback async_callback
-    ::System::AsyncCallback*& dyn_async_callback();
+    [[deprecated("Use field access instead!")]] ::System::AsyncCallback*& dyn_async_callback();
     // Get instance field reference: private System.Object async_state
-    ::Il2CppObject*& dyn_async_state();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_async_state();
     // Get instance field reference: private System.Threading.ManualResetEvent wait_handle
-    ::System::Threading::ManualResetEvent*& dyn_wait_handle();
+    [[deprecated("Use field access instead!")]] ::System::Threading::ManualResetEvent*& dyn_wait_handle();
     // Get instance field reference: private System.Boolean completed_synchronously
-    bool& dyn_completed_synchronously();
+    [[deprecated("Use field access instead!")]] bool& dyn_completed_synchronously();
     // Get instance field reference: private System.Boolean completed
-    bool& dyn_completed();
+    [[deprecated("Use field access instead!")]] bool& dyn_completed();
     // public System.AsyncCallback get_AsyncCallback()
-    // Offset: 0x1CB80E0
+    // Offset: 0x1CF4638
     ::System::AsyncCallback* get_AsyncCallback();
     // public System.Object get_AsyncState()
-    // Offset: 0x1CB80E8
+    // Offset: 0x1CF4640
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x1CB80F0
+    // Offset: 0x1CF4648
     ::System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x1CB81D8
+    // Offset: 0x1CF4730
     bool get_CompletedSynchronously();
     // protected System.Void set_CompletedSynchronously(System.Boolean value)
-    // Offset: 0x1CB81E0
+    // Offset: 0x1CF4738
     void set_CompletedSynchronously(bool value);
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1CB81EC
+    // Offset: 0x1CF4744
     bool get_IsCompleted();
     // protected System.Void set_IsCompleted(System.Boolean value)
-    // Offset: 0x1CB81F4
+    // Offset: 0x1CF474C
     void set_IsCompleted(bool value);
+    // protected System.Void .ctor()
+    // Offset: 0x1CF45D8
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static IOAsyncResult* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::IOAsyncResult::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<IOAsyncResult*, creationType>()));
+    }
     // protected System.Void .ctor(System.AsyncCallback async_callback, System.Object async_state)
-    // Offset: 0x1CB80A8
+    // Offset: 0x1CF4600
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IOAsyncResult* New_ctor(::System::AsyncCallback* async_callback, ::Il2CppObject* async_state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IOAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOAsyncResult*, creationType>(async_callback, async_state)));
     }
     // protected System.Void Init(System.AsyncCallback async_callback, System.Object async_state)
-    // Offset: 0x1CB8088
+    // Offset: 0x1CF45E0
     void Init(::System::AsyncCallback* async_callback, ::Il2CppObject* async_state);
     // System.Void CompleteDisposed()
     // Offset: 0xFFFFFFFFFFFFFFFF
     void CompleteDisposed();
-    // protected System.Void .ctor()
-    // Offset: 0x1CB8080
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static IOAsyncResult* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::IOAsyncResult::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<IOAsyncResult*, creationType>()));
-    }
   }; // System.IOAsyncResult
   #pragma pack(pop)
   static check_size<sizeof(IOAsyncResult), 41 + sizeof(bool)> __System_IOAsyncResultSizeCheck;
@@ -208,6 +198,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: System::IOAsyncResult::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::IOAsyncResult::Init
 // Il2CppName: Init
 template<>
@@ -226,7 +220,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::IOAsyncResult*), "CompleteDisposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::IOAsyncResult::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

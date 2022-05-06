@@ -50,23 +50,15 @@ namespace RootMotion::FinalIK {
     class UpdateDelegate;
     // Nested type: ::RootMotion::FinalIK::IKSolver::IterationDelegate
     class IterationDelegate;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Vector3 IKPosition
     // Size: 0xC
     // Offset: 0x10
     ::UnityEngine::Vector3 IKPosition;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0x12744B0
-    // [RangeAttribute] Offset: 0x12744B0
+    // [TooltipAttribute] Offset: 0x10F9168
+    // [RangeAttribute] Offset: 0x10F9168
     // public System.Single IKPositionWeight
     // Size: 0x4
     // Offset: 0x1C
@@ -121,55 +113,62 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.Vector3 IKPosition
-    ::UnityEngine::Vector3& dyn_IKPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_IKPosition();
     // Get instance field reference: public System.Single IKPositionWeight
-    float& dyn_IKPositionWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_IKPositionWeight();
     // Get instance field reference: private System.Boolean <initiated>k__BackingField
-    bool& dyn_$initiated$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$initiated$k__BackingField();
     // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPreInitiate
-    ::RootMotion::FinalIK::IKSolver::UpdateDelegate*& dyn_OnPreInitiate();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKSolver::UpdateDelegate*& dyn_OnPreInitiate();
     // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPostInitiate
-    ::RootMotion::FinalIK::IKSolver::UpdateDelegate*& dyn_OnPostInitiate();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKSolver::UpdateDelegate*& dyn_OnPostInitiate();
     // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPreUpdate
-    ::RootMotion::FinalIK::IKSolver::UpdateDelegate*& dyn_OnPreUpdate();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKSolver::UpdateDelegate*& dyn_OnPreUpdate();
     // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPostUpdate
-    ::RootMotion::FinalIK::IKSolver::UpdateDelegate*& dyn_OnPostUpdate();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKSolver::UpdateDelegate*& dyn_OnPostUpdate();
     // Get instance field reference: protected System.Boolean firstInitiation
-    bool& dyn_firstInitiation();
+    [[deprecated("Use field access instead!")]] bool& dyn_firstInitiation();
     // Get instance field reference: protected UnityEngine.Transform root
-    ::UnityEngine::Transform*& dyn_root();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_root();
     // public System.Boolean get_initiated()
-    // Offset: 0x21DD3FC
+    // Offset: 0x222AC70
     bool get_initiated();
     // private System.Void set_initiated(System.Boolean value)
-    // Offset: 0x21DD404
+    // Offset: 0x222AC78
     void set_initiated(bool value);
+    // protected System.Void .ctor()
+    // Offset: 0x222B208
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static IKSolver* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolver::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<IKSolver*, creationType>()));
+    }
     // public System.Boolean IsValid()
-    // Offset: 0x21DD2D4
+    // Offset: 0x222AB48
     bool IsValid();
     // public System.Boolean IsValid(ref System.String message)
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool IsValid(ByRef<::StringW> message);
     // public System.Void Initiate(UnityEngine.Transform root)
-    // Offset: 0x21D5D20
+    // Offset: 0x2223594
     void Initiate(::UnityEngine::Transform* root);
     // public System.Void Update()
-    // Offset: 0x21D5C40
+    // Offset: 0x22234B4
     void Update();
     // public UnityEngine.Vector3 GetIKPosition()
-    // Offset: 0x21DD350
+    // Offset: 0x222ABC4
     ::UnityEngine::Vector3 GetIKPosition();
     // public System.Void SetIKPosition(UnityEngine.Vector3 position)
-    // Offset: 0x21DD35C
+    // Offset: 0x222ABD0
     void SetIKPosition(::UnityEngine::Vector3 position);
     // public System.Single GetIKPositionWeight()
-    // Offset: 0x21DD368
+    // Offset: 0x222ABDC
     float GetIKPositionWeight();
     // public System.Void SetIKPositionWeight(System.Single weight)
-    // Offset: 0x21DD370
+    // Offset: 0x222ABE4
     void SetIKPositionWeight(float weight);
     // public UnityEngine.Transform GetRoot()
-    // Offset: 0x21DD3F4
+    // Offset: 0x222AC68
     ::UnityEngine::Transform* GetRoot();
     // public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point[] GetPoints()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -190,26 +189,17 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void OnUpdate();
     // protected System.Void LogWarning(System.String message)
-    // Offset: 0x21DD410
+    // Offset: 0x222AC84
     void LogWarning(::StringW message);
     // static public UnityEngine.Transform ContainsDuplicateBone(RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone[] bones)
-    // Offset: 0x21DD428
+    // Offset: 0x222AC9C
     static ::UnityEngine::Transform* ContainsDuplicateBone(::ArrayW<::RootMotion::FinalIK::IKSolver::Bone*> bones);
     // static public System.Boolean HierarchyIsValid(RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone[] bones)
-    // Offset: 0x21DD564
+    // Offset: 0x222ADD8
     static bool HierarchyIsValid(::ArrayW<::RootMotion::FinalIK::IKSolver::Bone*> bones);
     // static protected System.Single PreSolveBones(ref RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone[] bones)
-    // Offset: 0x21DD610
+    // Offset: 0x222AE84
     static float PreSolveBones(ByRef<::ArrayW<::RootMotion::FinalIK::IKSolver::Bone*>> bones);
-    // protected System.Void .ctor()
-    // Offset: 0x21DD994
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static IKSolver* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolver::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<IKSolver*, creationType>()));
-    }
   }; // RootMotion.FinalIK.IKSolver
   #pragma pack(pop)
   static check_size<sizeof(IKSolver), 80 + sizeof(::UnityEngine::Transform*)> __RootMotion_FinalIK_IKSolverSizeCheck;
@@ -233,6 +223,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolver*), "set_initiated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::IsValid
 // Il2CppName: IsValid
 template<>
@@ -394,7 +388,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(B
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolver*), "PreSolveBones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bones});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

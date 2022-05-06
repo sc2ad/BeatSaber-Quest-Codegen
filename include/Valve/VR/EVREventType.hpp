@@ -858,7 +858,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EVREventType VREvent_VendorSpecific_Reserved_End
     static void _set_VREvent_VendorSpecific_Reserved_End(::Valve::VR::EVREventType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Valve.VR.EVREventType
   #pragma pack(pop)
   static check_size<sizeof(EVREventType), 0 + sizeof(int)> __Valve_VR_EVREventTypeSizeCheck;

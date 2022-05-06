@@ -32,15 +32,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class AeadParameters : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::ICipherParameters*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Byte[] associatedText
     // Size: 0x8
     // Offset: 0x10
@@ -71,24 +63,24 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
     // Get instance field reference: private readonly System.Byte[] associatedText
-    ::ArrayW<uint8_t>& dyn_associatedText();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_associatedText();
     // Get instance field reference: private readonly System.Byte[] nonce
-    ::ArrayW<uint8_t>& dyn_nonce();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_nonce();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Parameters.KeyParameter key
-    ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*& dyn_key();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*& dyn_key();
     // Get instance field reference: private readonly System.Int32 macSize
-    int& dyn_macSize();
+    [[deprecated("Use field access instead!")]] int& dyn_macSize();
     // public Org.BouncyCastle.Crypto.Parameters.KeyParameter get_Key()
-    // Offset: 0x15BD62C
+    // Offset: 0x15F2F3C
     ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();
     // public System.Int32 get_MacSize()
-    // Offset: 0x15BD634
+    // Offset: 0x15F2F44
     int get_MacSize();
     // public System.Byte[] GetAssociatedText()
-    // Offset: 0x15BD63C
+    // Offset: 0x15F2F4C
     ::ArrayW<uint8_t> GetAssociatedText();
     // public System.Byte[] GetNonce()
-    // Offset: 0x15BD644
+    // Offset: 0x15F2F54
     ::ArrayW<uint8_t> GetNonce();
   }; // Org.BouncyCastle.Crypto.Parameters.AeadParameters
   #pragma pack(pop)

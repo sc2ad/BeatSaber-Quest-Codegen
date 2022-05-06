@@ -104,31 +104,31 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt32 ConnectedControllers
-    uint& dyn_ConnectedControllers();
+    [[deprecated("Use field access instead!")]] uint& dyn_ConnectedControllers();
     // Get instance field reference: public System.UInt32 Buttons
-    uint& dyn_Buttons();
+    [[deprecated("Use field access instead!")]] uint& dyn_Buttons();
     // Get instance field reference: public System.UInt32 Touches
-    uint& dyn_Touches();
+    [[deprecated("Use field access instead!")]] uint& dyn_Touches();
     // Get instance field reference: public System.UInt32 NearTouches
-    uint& dyn_NearTouches();
+    [[deprecated("Use field access instead!")]] uint& dyn_NearTouches();
     // Get instance field reference: public System.Single LIndexTrigger
-    float& dyn_LIndexTrigger();
+    [[deprecated("Use field access instead!")]] float& dyn_LIndexTrigger();
     // Get instance field reference: public System.Single RIndexTrigger
-    float& dyn_RIndexTrigger();
+    [[deprecated("Use field access instead!")]] float& dyn_RIndexTrigger();
     // Get instance field reference: public System.Single LHandTrigger
-    float& dyn_LHandTrigger();
+    [[deprecated("Use field access instead!")]] float& dyn_LHandTrigger();
     // Get instance field reference: public System.Single RHandTrigger
-    float& dyn_RHandTrigger();
+    [[deprecated("Use field access instead!")]] float& dyn_RHandTrigger();
     // Get instance field reference: public OVRPlugin/Vector2f LThumbstick
-    ::GlobalNamespace::OVRPlugin::Vector2f& dyn_LThumbstick();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Vector2f& dyn_LThumbstick();
     // Get instance field reference: public OVRPlugin/Vector2f RThumbstick
-    ::GlobalNamespace::OVRPlugin::Vector2f& dyn_RThumbstick();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Vector2f& dyn_RThumbstick();
     // Get instance field reference: public OVRPlugin/Vector2f LTouchpad
-    ::GlobalNamespace::OVRPlugin::Vector2f& dyn_LTouchpad();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Vector2f& dyn_LTouchpad();
     // Get instance field reference: public OVRPlugin/Vector2f RTouchpad
-    ::GlobalNamespace::OVRPlugin::Vector2f& dyn_RTouchpad();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Vector2f& dyn_RTouchpad();
     // public System.Void .ctor(OVRPlugin/ControllerState cs)
-    // Offset: 0x1AD7904
+    // Offset: 0x1B11EEC
     ControllerState2(::GlobalNamespace::OVRPlugin::ControllerState cs);
   }; // OVRPlugin/ControllerState2
   #pragma pack(pop)

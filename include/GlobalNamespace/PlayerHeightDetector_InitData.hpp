@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerHeightDetector::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Single headPosToPlayerHeightOffset
     // Size: 0x4
     // Offset: 0x10
@@ -46,11 +38,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public readonly System.Single headPosToPlayerHeightOffset
-    float& dyn_headPosToPlayerHeightOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_headPosToPlayerHeightOffset();
     // Get instance field reference: public readonly System.Single startPlayerHeight
-    float& dyn_startPlayerHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_startPlayerHeight();
     // public System.Void .ctor(System.Single headPosToPlayerHeightOffset, System.Single startPlayerHeight)
-    // Offset: 0x1370260
+    // Offset: 0x13D7C30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerHeightDetector::InitData* New_ctor(float headPosToPlayerHeightOffset, float startPlayerHeight) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerHeightDetector::InitData::.ctor");

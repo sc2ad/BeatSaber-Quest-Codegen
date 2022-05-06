@@ -31,15 +31,7 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class SemaphoreSlim::TaskNode : public ::System::Threading::Tasks::Task_1<bool> {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Threading.SemaphoreSlim/System.Threading.TaskNode Prev
     // Size: 0x8
     // Offset: 0x58
@@ -54,17 +46,17 @@ namespace System::Threading {
     static_assert(sizeof(::System::Threading::SemaphoreSlim::TaskNode*) == 0x8);
     public:
     // Get instance field reference: System.Threading.SemaphoreSlim/System.Threading.TaskNode Prev
-    ::System::Threading::SemaphoreSlim::TaskNode*& dyn_Prev();
+    [[deprecated("Use field access instead!")]] ::System::Threading::SemaphoreSlim::TaskNode*& dyn_Prev();
     // Get instance field reference: System.Threading.SemaphoreSlim/System.Threading.TaskNode Next
-    ::System::Threading::SemaphoreSlim::TaskNode*& dyn_Next();
+    [[deprecated("Use field access instead!")]] ::System::Threading::SemaphoreSlim::TaskNode*& dyn_Next();
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
-    // Offset: 0x1DCFB5C
+    // Offset: 0x1DD16C0
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // private System.Void System.Threading.IThreadPoolWorkItem.MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x1DCFBB0
+    // Offset: 0x1DD1714
     void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* tae);
     // System.Void .ctor()
-    // Offset: 0x1DCE96C
+    // Offset: 0x1DD04D0
     // Implemented from: System.Threading.Tasks.Task`1
     // Base method: System.Void Task_1::.ctor()
     // Base method: System.Void Task::.ctor()

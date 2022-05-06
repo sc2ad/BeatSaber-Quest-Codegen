@@ -54,7 +54,7 @@ namespace Zenject {
     // Set static field: static public Zenject.SignalDefaultSyncModes Asynchronous
     static void _set_Asynchronous(::Zenject::SignalDefaultSyncModes value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Zenject.SignalDefaultSyncModes
   #pragma pack(pop)
   static check_size<sizeof(SignalDefaultSyncModes), 0 + sizeof(int)> __Zenject_SignalDefaultSyncModesSizeCheck;

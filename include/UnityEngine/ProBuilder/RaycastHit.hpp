@@ -28,15 +28,7 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class RaycastHit : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single distance
     // Size: 0x4
     // Offset: 0x10
@@ -63,15 +55,15 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public System.Single distance
-    float& dyn_distance();
+    [[deprecated("Use field access instead!")]] float& dyn_distance();
     // Get instance field reference: public UnityEngine.Vector3 point
-    ::UnityEngine::Vector3& dyn_point();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_point();
     // Get instance field reference: public UnityEngine.Vector3 normal
-    ::UnityEngine::Vector3& dyn_normal();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_normal();
     // Get instance field reference: public System.Int32 face
-    int& dyn_face();
+    [[deprecated("Use field access instead!")]] int& dyn_face();
     // public System.Void .ctor(System.Single distance, UnityEngine.Vector3 point, UnityEngine.Vector3 normal, System.Int32 face)
-    // Offset: 0x198A17C
+    // Offset: 0x19C3764
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RaycastHit* New_ctor(float distance, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, int face) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::RaycastHit::.ctor");

@@ -43,20 +43,18 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<Zenject.BindingId,System.Boolean> <>9__11_0
     static void _set_$$9__11_0(::System::Func_2<::Zenject::BindingId, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x138AFAC
+    // Offset: 0x1372AC0
     static void _cctor();
-    // System.Boolean <InstallBindings>b__11_0(Zenject.BindingId t)
-    // Offset: 0x138B018
-    bool $InstallBindings$b__11_0(::Zenject::BindingId t);
     // public System.Void .ctor()
-    // Offset: 0x138B010
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1372B24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FakeMirrorObjectsInstaller::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FakeMirrorObjectsInstaller::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FakeMirrorObjectsInstaller::$$c*, creationType>()));
     }
+    // System.Boolean <InstallBindings>b__11_0(Zenject.BindingId t)
+    // Offset: 0x1372B2C
+    bool $InstallBindings$b__11_0(::Zenject::BindingId t);
   }; // FakeMirrorObjectsInstaller/<>c
   #pragma pack(pop)
 }
@@ -69,6 +67,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FakeMirrorObjectsInstaller::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::FakeMirrorObjectsInstaller::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FakeMirrorObjectsInstaller::$$c::$InstallBindings$b__11_0
 // Il2CppName: <InstallBindings>b__11_0
 template<>
@@ -78,7 +80,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FakeMirrorObjectsInstaller::$$c*), "<InstallBindings>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FakeMirrorObjectsInstaller::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

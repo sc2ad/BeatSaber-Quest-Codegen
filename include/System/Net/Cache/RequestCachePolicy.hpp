@@ -24,15 +24,7 @@ namespace System::Net::Cache {
   // [TokenAttribute] Offset: FFFFFFFF
   class RequestCachePolicy : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Net.Cache.RequestCacheLevel m_Level
     // Size: 0x4
     // Offset: 0x10
@@ -45,9 +37,9 @@ namespace System::Net::Cache {
       return m_Level;
     }
     // Get instance field reference: private System.Net.Cache.RequestCacheLevel m_Level
-    ::System::Net::Cache::RequestCacheLevel& dyn_m_Level();
+    [[deprecated("Use field access instead!")]] ::System::Net::Cache::RequestCacheLevel& dyn_m_Level();
     // public System.Net.Cache.RequestCacheLevel get_Level()
-    // Offset: 0x1CBC88C
+    // Offset: 0x1CF8DE4
     ::System::Net::Cache::RequestCacheLevel get_Level();
   }; // System.Net.Cache.RequestCachePolicy
   #pragma pack(pop)

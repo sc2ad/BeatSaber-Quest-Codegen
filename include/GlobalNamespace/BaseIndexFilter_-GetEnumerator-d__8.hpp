@@ -26,15 +26,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class BaseIndexFilter::$GetEnumerator$d__8 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerator_1<int>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -71,36 +63,36 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<int>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Int32 <>2__current
-    int& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] int& dyn_$$2__current();
     // Get instance field reference: public BaseIndexFilter <>4__this
-    ::GlobalNamespace::BaseIndexFilter*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BaseIndexFilter*& dyn_$$4__this();
     // Get instance field reference: private System.Int32 <value>5__2
-    int& dyn_$value$5__2();
+    [[deprecated("Use field access instead!")]] int& dyn_$value$5__2();
     // Get instance field reference: private System.Int32 <i>5__3
-    int& dyn_$i$5__3();
+    [[deprecated("Use field access instead!")]] int& dyn_$i$5__3();
     // private System.Int32 System.Collections.Generic.IEnumerator<System.Int32>.get_Current()
-    // Offset: 0x135F224
+    // Offset: 0x13474A4
     int System_Collections_Generic_IEnumerator$System_Int32$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x135F28C
+    // Offset: 0x134750C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x135F170
+    // Offset: 0x13473F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseIndexFilter::$GetEnumerator$d__8* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BaseIndexFilter::$GetEnumerator$d__8::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseIndexFilter::$GetEnumerator$d__8*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x135F19C
+    // Offset: 0x134741C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x135F1A0
+    // Offset: 0x1347420
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x135F22C
+    // Offset: 0x13474AC
     void System_Collections_IEnumerator_Reset();
   }; // BaseIndexFilter/<GetEnumerator>d__8
   #pragma pack(pop)

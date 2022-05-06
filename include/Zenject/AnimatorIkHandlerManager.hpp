@@ -44,15 +44,7 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class AnimatorIkHandlerManager : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.List`1<Zenject.IAnimatorIkHandler> _handlers
     // Size: 0x8
     // Offset: 0x18
@@ -63,38 +55,36 @@ namespace Zenject {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.IAnimatorIkHandler> _handlers
-    ::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>*& dyn__handlers();
-    // public System.Void Construct(System.Collections.Generic.List`1<Zenject.IAnimatorIkHandler> handlers)
-    // Offset: 0x17313E8
-    void Construct(::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* handlers);
-    // public System.Void OnAnimatorIk()
-    // Offset: 0x17313F0
-    void OnAnimatorIk();
-    // static private System.Void __zenInjectMethod0(System.Object P_0, System.Object[] P_1)
-    // Offset: 0x1731558
-    static void __zenInjectMethod0(::Il2CppObject* P_0, ::ArrayW<::Il2CppObject*> P_1);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1731644
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>*& dyn__handlers();
     // public System.Void .ctor()
-    // Offset: 0x1731550
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1769E60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatorIkHandlerManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AnimatorIkHandlerManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatorIkHandlerManager*, creationType>()));
     }
+    // public System.Void Construct(System.Collections.Generic.List`1<Zenject.IAnimatorIkHandler> handlers)
+    // Offset: 0x1769CF8
+    void Construct(::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* handlers);
+    // public System.Void OnAnimatorIk()
+    // Offset: 0x1769D00
+    void OnAnimatorIk();
+    // static private System.Void __zenInjectMethod0(System.Object P_0, System.Object[] P_1)
+    // Offset: 0x1769E68
+    static void __zenInjectMethod0(::Il2CppObject* P_0, ::ArrayW<::Il2CppObject*> P_1);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1769F54
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.AnimatorIkHandlerManager
   #pragma pack(pop)
   static check_size<sizeof(AnimatorIkHandlerManager), 24 + sizeof(::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>*)> __Zenject_AnimatorIkHandlerManagerSizeCheck;
   static_assert(sizeof(AnimatorIkHandlerManager) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::AnimatorIkHandlerManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::AnimatorIkHandlerManager::Construct
 // Il2CppName: Construct
 template<>
@@ -130,7 +120,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::AnimatorIkHandlerManager*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::AnimatorIkHandlerManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

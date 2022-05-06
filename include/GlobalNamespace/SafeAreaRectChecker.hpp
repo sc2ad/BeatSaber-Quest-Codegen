@@ -45,15 +45,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::SafeAreaRectChecker::InitData
     class InitData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _minAngleX
     // Size: 0x4
     // Offset: 0x18
@@ -102,14 +94,14 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::Vector3> corners;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::Vector3>) == 0x8);
-    // [InjectAttribute] Offset: 0x1258414
+    // [InjectAttribute] Offset: 0x10DCFF8
     // private readonly MainCamera _mainCamera
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::MainCamera* mainCamera;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MainCamera*) == 0x8);
-    // [InjectAttribute] Offset: 0x1258424
+    // [InjectAttribute] Offset: 0x10DD008
     // private readonly SafeAreaRectChecker/InitData _initData
     // Size: 0x8
     // Offset: 0x50
@@ -120,50 +112,48 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _minAngleX
-    float& dyn__minAngleX();
+    [[deprecated("Use field access instead!")]] float& dyn__minAngleX();
     // Get instance field reference: private System.Single _maxAngleX
-    float& dyn__maxAngleX();
+    [[deprecated("Use field access instead!")]] float& dyn__maxAngleX();
     // Get instance field reference: private System.Single _minAngleY
-    float& dyn__minAngleY();
+    [[deprecated("Use field access instead!")]] float& dyn__minAngleY();
     // Get instance field reference: private System.Single _maxAngleY
-    float& dyn__maxAngleY();
+    [[deprecated("Use field access instead!")]] float& dyn__maxAngleY();
     // Get instance field reference: private UnityEngine.GameObject _activeObjectWhenInsideSafeArea
-    ::UnityEngine::GameObject*& dyn__activeObjectWhenInsideSafeArea();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__activeObjectWhenInsideSafeArea();
     // Get instance field reference: private UnityEngine.GameObject _activeObjectWhenNotInsideSafeArea
-    ::UnityEngine::GameObject*& dyn__activeObjectWhenNotInsideSafeArea();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__activeObjectWhenNotInsideSafeArea();
     // Get instance field reference: private UnityEngine.RectTransform _rectTransformToCheck
-    ::UnityEngine::RectTransform*& dyn__rectTransformToCheck();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__rectTransformToCheck();
     // Get instance field reference: private readonly UnityEngine.Vector3[] _corners
-    ::ArrayW<::UnityEngine::Vector3>& dyn__corners();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn__corners();
     // Get instance field reference: private readonly MainCamera _mainCamera
-    ::GlobalNamespace::MainCamera*& dyn__mainCamera();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainCamera*& dyn__mainCamera();
     // Get instance field reference: private readonly SafeAreaRectChecker/InitData _initData
-    ::GlobalNamespace::SafeAreaRectChecker::InitData*& dyn__initData();
-    // public System.Void Start()
-    // Offset: 0x1420964
-    void Start();
-    // protected System.Void Update()
-    // Offset: 0x14209D8
-    void Update();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SafeAreaRectChecker::InitData*& dyn__initData();
     // public System.Void .ctor()
-    // Offset: 0x1420C14
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14622CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeAreaRectChecker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SafeAreaRectChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeAreaRectChecker*, creationType>()));
     }
+    // public System.Void Start()
+    // Offset: 0x146201C
+    void Start();
+    // protected System.Void Update()
+    // Offset: 0x1462090
+    void Update();
   }; // SafeAreaRectChecker
   #pragma pack(pop)
   static check_size<sizeof(SafeAreaRectChecker), 80 + sizeof(::GlobalNamespace::SafeAreaRectChecker::InitData*)> __GlobalNamespace_SafeAreaRectCheckerSizeCheck;
   static_assert(sizeof(SafeAreaRectChecker) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SafeAreaRectChecker::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SafeAreaRectChecker::Start
 // Il2CppName: Start
 template<>
@@ -180,7 +170,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SafeAreaRectChecker*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SafeAreaRectChecker::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

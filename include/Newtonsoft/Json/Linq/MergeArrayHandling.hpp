@@ -67,7 +67,7 @@ namespace Newtonsoft::Json::Linq {
     // Set static field: static public Newtonsoft.Json.Linq.MergeArrayHandling Merge
     static void _set_Merge(::Newtonsoft::Json::Linq::MergeArrayHandling value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Newtonsoft.Json.Linq.MergeArrayHandling
   #pragma pack(pop)
   static check_size<sizeof(MergeArrayHandling), 0 + sizeof(int)> __Newtonsoft_Json_Linq_MergeArrayHandlingSizeCheck;

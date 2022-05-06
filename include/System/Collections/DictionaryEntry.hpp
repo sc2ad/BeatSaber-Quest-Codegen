@@ -47,17 +47,17 @@ namespace System::Collections {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private System.Object _key
-    ::Il2CppObject*& dyn__key();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__key();
     // Get instance field reference: private System.Object _value
-    ::Il2CppObject*& dyn__value();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__value();
     // public System.Object get_Key()
-    // Offset: 0x1E7A2DC
+    // Offset: 0x1EC8814
     ::Il2CppObject* get_Key();
     // public System.Object get_Value()
-    // Offset: 0x1E7A2E4
+    // Offset: 0x1EC881C
     ::Il2CppObject* get_Value();
     // public System.Void .ctor(System.Object key, System.Object value)
-    // Offset: 0x1E7A2D4
+    // Offset: 0x1EC880C
     // ABORTED: conflicts with another method.  DictionaryEntry(::Il2CppObject* key, ::Il2CppObject* value);
   }; // System.Collections.DictionaryEntry
   #pragma pack(pop)

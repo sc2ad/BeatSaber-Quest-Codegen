@@ -66,7 +66,7 @@ namespace JetBrains::Annotations {
     // Set static field: static public JetBrains.Annotations.AssertionConditionType IS_NOT_NULL
     static void _set_IS_NOT_NULL(::JetBrains::Annotations::AssertionConditionType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // JetBrains.Annotations.AssertionConditionType
   #pragma pack(pop)
   static check_size<sizeof(AssertionConditionType), 0 + sizeof(int)> __JetBrains_Annotations_AssertionConditionTypeSizeCheck;

@@ -87,27 +87,27 @@ namespace UnityEngine::Playables {
     // Set static field: static public readonly System.Double DefaultDuration
     static void _set_DefaultDuration(double value);
     // Get instance field reference: private System.String m_StreamName
-    ::StringW& dyn_m_StreamName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_StreamName();
     // Get instance field reference: private UnityEngine.Object m_SourceObject
-    ::UnityEngine::Object*& dyn_m_SourceObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Object*& dyn_m_SourceObject();
     // Get instance field reference: private System.Type m_SourceBindingType
-    ::System::Type*& dyn_m_SourceBindingType();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_m_SourceBindingType();
     // Get instance field reference: private UnityEngine.Playables.PlayableBinding/UnityEngine.Playables.CreateOutputMethod m_CreateOutputMethod
-    ::UnityEngine::Playables::PlayableBinding::CreateOutputMethod*& dyn_m_CreateOutputMethod();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Playables::PlayableBinding::CreateOutputMethod*& dyn_m_CreateOutputMethod();
     // public System.String get_streamName()
-    // Offset: 0x1FFF860
+    // Offset: 0x20490D4
     ::StringW get_streamName();
     // public UnityEngine.Object get_sourceObject()
-    // Offset: 0x1FFF868
+    // Offset: 0x20490DC
     ::UnityEngine::Object* get_sourceObject();
     // static private System.Void .cctor()
-    // Offset: 0x1FFFBBC
+    // Offset: 0x2049430
     static void _cctor();
     // UnityEngine.Playables.PlayableOutput CreateOutput(UnityEngine.Playables.PlayableGraph graph)
-    // Offset: 0x1FFF870
+    // Offset: 0x20490E4
     ::UnityEngine::Playables::PlayableOutput CreateOutput(::UnityEngine::Playables::PlayableGraph graph);
     // static UnityEngine.Playables.PlayableBinding CreateInternal(System.String name, UnityEngine.Object sourceObject, System.Type sourceType, UnityEngine.Playables.PlayableBinding/UnityEngine.Playables.CreateOutputMethod createFunction)
-    // Offset: 0x1FFFBB0
+    // Offset: 0x2049424
     static ::UnityEngine::Playables::PlayableBinding CreateInternal(::StringW name, ::UnityEngine::Object* sourceObject, ::System::Type* sourceType, ::UnityEngine::Playables::PlayableBinding::CreateOutputMethod* createFunction);
   }; // UnityEngine.Playables.PlayableBinding
   #pragma pack(pop)

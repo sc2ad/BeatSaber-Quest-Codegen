@@ -69,7 +69,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HEU_SessionSyncData/HoudiniEngineUnity.Status Connected
     static void _set_Connected(::HoudiniEngineUnity::HEU_SessionSyncData::Status value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HEU_SessionSyncData/HoudiniEngineUnity.Status
   #pragma pack(pop)
   static check_size<sizeof(HEU_SessionSyncData::Status), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_SessionSyncData_StatusSizeCheck;

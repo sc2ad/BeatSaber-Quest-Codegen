@@ -36,15 +36,7 @@ namespace Org::BouncyCastle::Crypto::Paddings {
   // [TokenAttribute] Offset: FFFFFFFF
   class ISO10126d2Padding : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Org.BouncyCastle.Security.SecureRandom random
     // Size: 0x8
     // Offset: 0x10
@@ -61,31 +53,33 @@ namespace Org::BouncyCastle::Crypto::Paddings {
       return random;
     }
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
-    ::Org::BouncyCastle::Security::SecureRandom*& dyn_random();
-    // public System.Void Init(Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x15BC2E4
-    void Init(::Org::BouncyCastle::Security::SecureRandom* random);
-    // public System.Int32 AddPadding(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x15BC364
-    int AddPadding(::ArrayW<uint8_t> input, int inOff);
-    // public System.Int32 PadCount(System.Byte[] input)
-    // Offset: 0x15BC434
-    int PadCount(::ArrayW<uint8_t> input);
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // public System.Void .ctor()
-    // Offset: 0x15BC4E4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15F1DF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ISO10126d2Padding* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ISO10126d2Padding*, creationType>()));
     }
+    // public System.Void Init(Org.BouncyCastle.Security.SecureRandom random)
+    // Offset: 0x15F1BF4
+    void Init(::Org::BouncyCastle::Security::SecureRandom* random);
+    // public System.Int32 AddPadding(System.Byte[] input, System.Int32 inOff)
+    // Offset: 0x15F1C74
+    int AddPadding(::ArrayW<uint8_t> input, int inOff);
+    // public System.Int32 PadCount(System.Byte[] input)
+    // Offset: 0x15F1D44
+    int PadCount(::ArrayW<uint8_t> input);
   }; // Org.BouncyCastle.Crypto.Paddings.ISO10126d2Padding
   #pragma pack(pop)
   static check_size<sizeof(ISO10126d2Padding), 16 + sizeof(::Org::BouncyCastle::Security::SecureRandom*)> __Org_BouncyCastle_Crypto_Paddings_ISO10126d2PaddingSizeCheck;
   static_assert(sizeof(ISO10126d2Padding) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding::Init
 // Il2CppName: Init
 template<>
@@ -114,7 +108,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding*), "PadCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -41,15 +41,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRCubemapCapture : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean autoTriggerAfterLaunch
     // Size: 0x1
     // Offset: 0x18
@@ -92,48 +84,46 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Boolean autoTriggerAfterLaunch
-    bool& dyn_autoTriggerAfterLaunch();
+    [[deprecated("Use field access instead!")]] bool& dyn_autoTriggerAfterLaunch();
     // Get instance field reference: public System.Single autoTriggerDelay
-    float& dyn_autoTriggerDelay();
+    [[deprecated("Use field access instead!")]] float& dyn_autoTriggerDelay();
     // Get instance field reference: private System.Single autoTriggerElapse
-    float& dyn_autoTriggerElapse();
+    [[deprecated("Use field access instead!")]] float& dyn_autoTriggerElapse();
     // Get instance field reference: public UnityEngine.KeyCode triggeredByKey
-    ::UnityEngine::KeyCode& dyn_triggeredByKey();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::KeyCode& dyn_triggeredByKey();
     // Get instance field reference: public System.String pathName
-    ::StringW& dyn_pathName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_pathName();
     // Get instance field reference: public System.Int32 cubemapSize
-    int& dyn_cubemapSize();
-    // private System.Void Update()
-    // Offset: 0x1622334
-    void Update();
-    // static public System.Void TriggerCubemapCapture(UnityEngine.Vector3 capturePos, System.Int32 cubemapSize, System.String pathName)
-    // Offset: 0x16223EC
-    static void TriggerCubemapCapture(::UnityEngine::Vector3 capturePos, int cubemapSize, ::StringW pathName);
-    // static public System.Void RenderIntoCubemap(UnityEngine.Camera ownerCamera, UnityEngine.Cubemap outCubemap)
-    // Offset: 0x1622658
-    static void RenderIntoCubemap(::UnityEngine::Camera* ownerCamera, ::UnityEngine::Cubemap* outCubemap);
-    // static public System.Boolean SaveCubemapCapture(UnityEngine.Cubemap cubemap, System.String pathName)
-    // Offset: 0x1622CB4
-    static bool SaveCubemapCapture(::UnityEngine::Cubemap* cubemap, ::StringW pathName);
+    [[deprecated("Use field access instead!")]] int& dyn_cubemapSize();
     // public System.Void .ctor()
-    // Offset: 0x16233AC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1658CBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRCubemapCapture* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRCubemapCapture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRCubemapCapture*, creationType>()));
     }
+    // private System.Void Update()
+    // Offset: 0x1657C44
+    void Update();
+    // static public System.Void TriggerCubemapCapture(UnityEngine.Vector3 capturePos, System.Int32 cubemapSize, System.String pathName)
+    // Offset: 0x1657CFC
+    static void TriggerCubemapCapture(::UnityEngine::Vector3 capturePos, int cubemapSize, ::StringW pathName);
+    // static public System.Void RenderIntoCubemap(UnityEngine.Camera ownerCamera, UnityEngine.Cubemap outCubemap)
+    // Offset: 0x1657F68
+    static void RenderIntoCubemap(::UnityEngine::Camera* ownerCamera, ::UnityEngine::Cubemap* outCubemap);
+    // static public System.Boolean SaveCubemapCapture(UnityEngine.Cubemap cubemap, System.String pathName)
+    // Offset: 0x16585C4
+    static bool SaveCubemapCapture(::UnityEngine::Cubemap* cubemap, ::StringW pathName);
   }; // OVRCubemapCapture
   #pragma pack(pop)
   static check_size<sizeof(OVRCubemapCapture), 48 + sizeof(int)> __GlobalNamespace_OVRCubemapCaptureSizeCheck;
   static_assert(sizeof(OVRCubemapCapture) == 0x34);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OVRCubemapCapture::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVRCubemapCapture::Update
 // Il2CppName: Update
 template<>
@@ -173,7 +163,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCubemapCapture*), "SaveCubemapCapture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cubemap, pathName});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OVRCubemapCapture::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

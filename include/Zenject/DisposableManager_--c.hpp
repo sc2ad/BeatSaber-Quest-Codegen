@@ -69,35 +69,33 @@ namespace Zenject {
     // Set static field: static public System.Func`2<Zenject.DisposableManager/Zenject.DisposableInfo,System.Int32> <>9__11_0
     static void _set_$$9__11_0(::System::Func_2<::Zenject::DisposableManager::DisposableInfo, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1DDBD64
+    // Offset: 0x1E16630
     static void _cctor();
-    // System.Nullable`1<System.Int32> <.ctor>b__4_1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1DDBDD0
-    ::System::Nullable_1<int> $_ctor$b__4_1(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
-    // System.Nullable`1<System.Int32> <.ctor>b__4_3(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1DDBE40
-    ::System::Nullable_1<int> $_ctor$b__4_3(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
-    // System.Int32 <LateDispose>b__10_0(Zenject.DisposableManager/Zenject.LateDisposableInfo x)
-    // Offset: 0x1DDBEB0
-    int $LateDispose$b__10_0(::Zenject::DisposableManager::LateDisposableInfo* x);
-    // System.Int32 <Dispose>b__11_0(Zenject.DisposableManager/Zenject.DisposableInfo x)
-    // Offset: 0x1DDBEC8
-    int $Dispose$b__11_0(::Zenject::DisposableManager::DisposableInfo x);
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1DDBED0
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1DDBF2C
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1DDBDC8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E16694
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisposableManager::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisposableManager::$$c*, creationType>()));
     }
+    // System.Nullable`1<System.Int32> <.ctor>b__4_1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
+    // Offset: 0x1E1669C
+    ::System::Nullable_1<int> $_ctor$b__4_1(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
+    // System.Nullable`1<System.Int32> <.ctor>b__4_3(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
+    // Offset: 0x1E1670C
+    ::System::Nullable_1<int> $_ctor$b__4_3(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
+    // System.Int32 <LateDispose>b__10_0(Zenject.DisposableManager/Zenject.LateDisposableInfo x)
+    // Offset: 0x1E1677C
+    int $LateDispose$b__10_0(::Zenject::DisposableManager::LateDisposableInfo* x);
+    // System.Int32 <Dispose>b__11_0(Zenject.DisposableManager/Zenject.DisposableInfo x)
+    // Offset: 0x1E16794
+    int $Dispose$b__11_0(::Zenject::DisposableManager::DisposableInfo x);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1E1679C
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1E167F8
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.DisposableManager/Zenject.<>c
   #pragma pack(pop)
 }
@@ -110,6 +108,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(Zenject::DisposableManager::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Zenject::DisposableManager::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::DisposableManager::$$c::$_ctor$b__4_1
 // Il2CppName: <.ctor>b__4_1
 template<>
@@ -163,7 +165,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::DisposableManager::$$c*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::DisposableManager::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

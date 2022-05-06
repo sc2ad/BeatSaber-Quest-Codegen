@@ -51,15 +51,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_LoadBufferVolume : public ::HoudiniEngineUnity::HEU_LoadBufferBase {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 _tileIndex
     // Size: 0x4
     // Offset: 0x30
@@ -166,44 +158,43 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.Int32 _tileIndex
-    int& dyn__tileIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__tileIndex();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_LoadBufferVolumeLayer> _splatLayers
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer*>*& dyn__splatLayers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer*>*& dyn__splatLayers();
     // Get instance field reference: public System.Int32 _heightMapWidth
-    int& dyn__heightMapWidth();
+    [[deprecated("Use field access instead!")]] int& dyn__heightMapWidth();
     // Get instance field reference: public System.Int32 _heightMapHeight
-    int& dyn__heightMapHeight();
+    [[deprecated("Use field access instead!")]] int& dyn__heightMapHeight();
     // Get instance field reference: public System.Single[,] _heightMap
-    ::ArrayW<float>& dyn__heightMap();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn__heightMap();
     // Get instance field reference: public System.Single[,,] _splatMaps
-    ::ArrayW<float>& dyn__splatMaps();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn__splatMaps();
     // Get instance field reference: public System.Single _terrainSizeX
-    float& dyn__terrainSizeX();
+    [[deprecated("Use field access instead!")]] float& dyn__terrainSizeX();
     // Get instance field reference: public System.Single _terrainSizeY
-    float& dyn__terrainSizeY();
+    [[deprecated("Use field access instead!")]] float& dyn__terrainSizeY();
     // Get instance field reference: public System.Single _heightRange
-    float& dyn__heightRange();
+    [[deprecated("Use field access instead!")]] float& dyn__heightRange();
     // Get instance field reference: public UnityEngine.Vector3 _position
-    ::UnityEngine::Vector3& dyn__position();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__position();
     // Get instance field reference: public System.String _terrainDataPath
-    ::StringW& dyn__terrainDataPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__terrainDataPath();
     // Get instance field reference: public System.String _terrainDataExportPath
-    ::StringW& dyn__terrainDataExportPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__terrainDataExportPath();
     // Get instance field reference: public HoudiniEngineUnity.HEU_VolumeScatterTrees _scatterTrees
-    ::HoudiniEngineUnity::HEU_VolumeScatterTrees*& dyn__scatterTrees();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_VolumeScatterTrees*& dyn__scatterTrees();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_DetailPrototype> _detailPrototypes
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>*& dyn__detailPrototypes();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>*& dyn__detailPrototypes();
     // Get instance field reference: public System.Collections.Generic.List`1<System.Int32[,]> _detailMaps
-    ::System::Collections::Generic::List_1<::ArrayW<int>>*& dyn__detailMaps();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::ArrayW<int>>*& dyn__detailMaps();
     // Get instance field reference: public HoudiniEngineUnity.HEU_DetailProperties _detailProperties
-    ::HoudiniEngineUnity::HEU_DetailProperties*& dyn__detailProperties();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_DetailProperties*& dyn__detailProperties();
     // Get instance field reference: public System.String _specifiedTerrainMaterialName
-    ::StringW& dyn__specifiedTerrainMaterialName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__specifiedTerrainMaterialName();
     // public System.Void .ctor()
-    // Offset: 0x185B0E0
+    // Offset: 0x18949F0
     // Implemented from: HoudiniEngineUnity.HEU_LoadBufferBase
     // Base method: System.Void HEU_LoadBufferBase::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_LoadBufferVolume* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_LoadBufferVolume::.ctor");

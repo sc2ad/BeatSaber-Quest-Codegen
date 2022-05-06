@@ -46,9 +46,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public OVR.OpenVR.EVROverlayIntersectionMaskPrimitiveType m_nPrimitiveType
-    ::OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType& dyn_m_nPrimitiveType();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType& dyn_m_nPrimitiveType();
     // Get instance field reference: public OVR.OpenVR.VROverlayIntersectionMaskPrimitive_Data_t m_Primitive
-    ::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t& dyn_m_Primitive();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t& dyn_m_Primitive();
   }; // OVR.OpenVR.VROverlayIntersectionMaskPrimitive_t
   // WARNING Not writing size check since size may be invalid!
 }

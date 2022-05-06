@@ -60,7 +60,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.SelectionModifierBehavior Difference
     static void _set_Difference(::UnityEngine::ProBuilder::SelectionModifierBehavior value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.ProBuilder.SelectionModifierBehavior
   #pragma pack(pop)
   static check_size<sizeof(SelectionModifierBehavior), 0 + sizeof(int)> __UnityEngine_ProBuilder_SelectionModifierBehaviorSizeCheck;

@@ -38,15 +38,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BufferedAudioStream : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.AudioSource audio
     // Size: 0x8
     // Offset: 0x10
@@ -109,30 +101,30 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single playbackDelayTimeSeconds
     static void _set_playbackDelayTimeSeconds(float value);
     // Get instance field reference: private UnityEngine.AudioSource audio
-    ::UnityEngine::AudioSource*& dyn_audio();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioSource*& dyn_audio();
     // Get instance field reference: private System.Single[] audioBuffer
-    ::ArrayW<float>& dyn_audioBuffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn_audioBuffer();
     // Get instance field reference: private System.Int32 writePos
-    int& dyn_writePos();
+    [[deprecated("Use field access instead!")]] int& dyn_writePos();
     // Get instance field reference: private System.Single playbackDelayRemaining
-    float& dyn_playbackDelayRemaining();
+    [[deprecated("Use field access instead!")]] float& dyn_playbackDelayRemaining();
     // Get instance field reference: private System.Single remainingBufferTime
-    float& dyn_remainingBufferTime();
+    [[deprecated("Use field access instead!")]] float& dyn_remainingBufferTime();
     // public System.Void .ctor(UnityEngine.AudioSource audio)
-    // Offset: 0x2050204
+    // Offset: 0x2099A78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BufferedAudioStream* New_ctor(::UnityEngine::AudioSource* audio) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BufferedAudioStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BufferedAudioStream*, creationType>(audio)));
     }
     // public System.Void Update()
-    // Offset: 0x2050314
+    // Offset: 0x2099B88
     void Update();
     // private System.Void Stop()
-    // Offset: 0x20502C4
+    // Offset: 0x2099B38
     void Stop();
     // public System.Void AddData(System.Single[] samples)
-    // Offset: 0x20504EC
+    // Offset: 0x2099D60
     void AddData(::ArrayW<float> samples);
   }; // BufferedAudioStream
   #pragma pack(pop)

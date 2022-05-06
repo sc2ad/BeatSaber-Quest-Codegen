@@ -36,15 +36,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class Grounding::Leg : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean <isGrounded>k__BackingField
     // Size: 0x1
     // Offset: 0x10
@@ -183,158 +175,156 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: private System.Boolean <isGrounded>k__BackingField
-    bool& dyn_$isGrounded$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$isGrounded$k__BackingField();
     // Get instance field reference: private UnityEngine.Vector3 <IKPosition>k__BackingField
-    ::UnityEngine::Vector3& dyn_$IKPosition$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_$IKPosition$k__BackingField();
     // Get instance field reference: public UnityEngine.Quaternion rotationOffset
-    ::UnityEngine::Quaternion& dyn_rotationOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_rotationOffset();
     // Get instance field reference: private System.Boolean <initiated>k__BackingField
-    bool& dyn_$initiated$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$initiated$k__BackingField();
     // Get instance field reference: private System.Single <heightFromGround>k__BackingField
-    float& dyn_$heightFromGround$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$heightFromGround$k__BackingField();
     // Get instance field reference: private UnityEngine.Vector3 <velocity>k__BackingField
-    ::UnityEngine::Vector3& dyn_$velocity$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_$velocity$k__BackingField();
     // Get instance field reference: private UnityEngine.Transform <transform>k__BackingField
-    ::UnityEngine::Transform*& dyn_$transform$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_$transform$k__BackingField();
     // Get instance field reference: private System.Single <IKOffset>k__BackingField
-    float& dyn_$IKOffset$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$IKOffset$k__BackingField();
     // Get instance field reference: public System.Boolean invertFootCenter
-    bool& dyn_invertFootCenter();
+    [[deprecated("Use field access instead!")]] bool& dyn_invertFootCenter();
     // Get instance field reference: private UnityEngine.RaycastHit <heelHit>k__BackingField
-    ::UnityEngine::RaycastHit& dyn_$heelHit$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RaycastHit& dyn_$heelHit$k__BackingField();
     // Get instance field reference: private UnityEngine.RaycastHit <capsuleHit>k__BackingField
-    ::UnityEngine::RaycastHit& dyn_$capsuleHit$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RaycastHit& dyn_$capsuleHit$k__BackingField();
     // Get instance field reference: private RootMotion.FinalIK.Grounding grounding
-    ::RootMotion::FinalIK::Grounding*& dyn_grounding();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::Grounding*& dyn_grounding();
     // Get instance field reference: private System.Single lastTime
-    float& dyn_lastTime();
+    [[deprecated("Use field access instead!")]] float& dyn_lastTime();
     // Get instance field reference: private System.Single deltaTime
-    float& dyn_deltaTime();
+    [[deprecated("Use field access instead!")]] float& dyn_deltaTime();
     // Get instance field reference: private UnityEngine.Vector3 lastPosition
-    ::UnityEngine::Vector3& dyn_lastPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_lastPosition();
     // Get instance field reference: private UnityEngine.Quaternion toHitNormal
-    ::UnityEngine::Quaternion& dyn_toHitNormal();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_toHitNormal();
     // Get instance field reference: private UnityEngine.Quaternion r
-    ::UnityEngine::Quaternion& dyn_r();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_r();
     // Get instance field reference: private UnityEngine.Vector3 up
-    ::UnityEngine::Vector3& dyn_up();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_up();
     // Get instance field reference: private System.Boolean doOverrideFootPosition
-    bool& dyn_doOverrideFootPosition();
+    [[deprecated("Use field access instead!")]] bool& dyn_doOverrideFootPosition();
     // Get instance field reference: private UnityEngine.Vector3 overrideFootPosition
-    ::UnityEngine::Vector3& dyn_overrideFootPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_overrideFootPosition();
     // Get instance field reference: private UnityEngine.Vector3 transformPosition
-    ::UnityEngine::Vector3& dyn_transformPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_transformPosition();
     // public System.Boolean get_isGrounded()
-    // Offset: 0x21D1D08
+    // Offset: 0x221F57C
     bool get_isGrounded();
     // private System.Void set_isGrounded(System.Boolean value)
-    // Offset: 0x21D1D10
+    // Offset: 0x221F584
     void set_isGrounded(bool value);
     // public UnityEngine.Vector3 get_IKPosition()
-    // Offset: 0x21D1D1C
+    // Offset: 0x221F590
     ::UnityEngine::Vector3 get_IKPosition();
     // private System.Void set_IKPosition(UnityEngine.Vector3 value)
-    // Offset: 0x21D1D28
+    // Offset: 0x221F59C
     void set_IKPosition(::UnityEngine::Vector3 value);
     // public System.Boolean get_initiated()
-    // Offset: 0x21D1D34
+    // Offset: 0x221F5A8
     bool get_initiated();
     // private System.Void set_initiated(System.Boolean value)
-    // Offset: 0x21D1D3C
+    // Offset: 0x221F5B0
     void set_initiated(bool value);
     // public System.Single get_heightFromGround()
-    // Offset: 0x21D1D48
+    // Offset: 0x221F5BC
     float get_heightFromGround();
     // private System.Void set_heightFromGround(System.Single value)
-    // Offset: 0x21D1D50
+    // Offset: 0x221F5C4
     void set_heightFromGround(float value);
     // public UnityEngine.Vector3 get_velocity()
-    // Offset: 0x21D1D58
+    // Offset: 0x221F5CC
     ::UnityEngine::Vector3 get_velocity();
     // private System.Void set_velocity(UnityEngine.Vector3 value)
-    // Offset: 0x21D1D64
+    // Offset: 0x221F5D8
     void set_velocity(::UnityEngine::Vector3 value);
     // public UnityEngine.Transform get_transform()
-    // Offset: 0x21D1D70
+    // Offset: 0x221F5E4
     ::UnityEngine::Transform* get_transform();
     // private System.Void set_transform(UnityEngine.Transform value)
-    // Offset: 0x21D1D78
+    // Offset: 0x221F5EC
     void set_transform(::UnityEngine::Transform* value);
     // public System.Single get_IKOffset()
-    // Offset: 0x21D1D80
+    // Offset: 0x221F5F4
     float get_IKOffset();
     // private System.Void set_IKOffset(System.Single value)
-    // Offset: 0x21D1D88
+    // Offset: 0x221F5FC
     void set_IKOffset(float value);
     // public UnityEngine.RaycastHit get_heelHit()
-    // Offset: 0x21D1D90
+    // Offset: 0x221F604
     ::UnityEngine::RaycastHit get_heelHit();
     // private System.Void set_heelHit(UnityEngine.RaycastHit value)
-    // Offset: 0x21D1DA8
+    // Offset: 0x221F61C
     void set_heelHit(::UnityEngine::RaycastHit value);
     // public UnityEngine.RaycastHit get_capsuleHit()
-    // Offset: 0x21D1DC8
+    // Offset: 0x221F63C
     ::UnityEngine::RaycastHit get_capsuleHit();
     // private System.Void set_capsuleHit(UnityEngine.RaycastHit value)
-    // Offset: 0x21D1DE0
+    // Offset: 0x221F654
     void set_capsuleHit(::UnityEngine::RaycastHit value);
     // public UnityEngine.RaycastHit get_GetHitPoint()
-    // Offset: 0x21D1E00
+    // Offset: 0x221F674
     ::UnityEngine::RaycastHit get_GetHitPoint();
     // public System.Single get_stepHeightFromGround()
-    // Offset: 0x21D2BBC
+    // Offset: 0x2220430
     float get_stepHeightFromGround();
     // private System.Single get_rootYOffset()
-    // Offset: 0x21D2E94
+    // Offset: 0x2220708
     float get_rootYOffset();
-    // public System.Void SetFootPosition(UnityEngine.Vector3 position)
-    // Offset: 0x21D1E48
-    void SetFootPosition(::UnityEngine::Vector3 position);
-    // public System.Void Initiate(RootMotion.FinalIK.Grounding grounding, UnityEngine.Transform transform)
-    // Offset: 0x21D0B2C
-    void Initiate(::RootMotion::FinalIK::Grounding* grounding, ::UnityEngine::Transform* transform);
-    // public System.Void OnEnable()
-    // Offset: 0x21D1E5C
-    void OnEnable();
-    // public System.Void Reset()
-    // Offset: 0x21D1828
-    void Reset();
-    // public System.Void Process()
-    // Offset: 0x21D0C38
-    void Process();
-    // private UnityEngine.RaycastHit GetCapsuleHit(UnityEngine.Vector3 offsetFromHeel)
-    // Offset: 0x21D2634
-    ::UnityEngine::RaycastHit GetCapsuleHit(::UnityEngine::Vector3 offsetFromHeel);
-    // private UnityEngine.RaycastHit GetRaycastHit(UnityEngine.Vector3 offsetFromHeel)
-    // Offset: 0x21D1EA8
-    ::UnityEngine::RaycastHit GetRaycastHit(::UnityEngine::Vector3 offsetFromHeel);
-    // private UnityEngine.Vector3 RotateNormal(UnityEngine.Vector3 normal)
-    // Offset: 0x21D2D3C
-    ::UnityEngine::Vector3 RotateNormal(::UnityEngine::Vector3 normal);
-    // private System.Void SetFootToPoint(UnityEngine.Vector3 normal, UnityEngine.Vector3 point)
-    // Offset: 0x21D22E0
-    void SetFootToPoint(::UnityEngine::Vector3 normal, ::UnityEngine::Vector3 point);
-    // private System.Void SetFootToPlane(UnityEngine.Vector3 planeNormal, UnityEngine.Vector3 planePoint, UnityEngine.Vector3 heelHitPoint)
-    // Offset: 0x21D23E8
-    void SetFootToPlane(::UnityEngine::Vector3 planeNormal, ::UnityEngine::Vector3 planePoint, ::UnityEngine::Vector3 heelHitPoint);
-    // private System.Single GetHeightFromGround(UnityEngine.Vector3 hitPoint)
-    // Offset: 0x21D2E38
-    float GetHeightFromGround(::UnityEngine::Vector3 hitPoint);
-    // private System.Void RotateFoot()
-    // Offset: 0x21D2C48
-    void RotateFoot();
-    // private UnityEngine.Quaternion GetRotationOffsetTarget()
-    // Offset: 0x21D2FBC
-    ::UnityEngine::Quaternion GetRotationOffsetTarget();
     // public System.Void .ctor()
-    // Offset: 0x21D0A7C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x221E2F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Grounding::Leg* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::Grounding::Leg::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Grounding::Leg*, creationType>()));
     }
+    // public System.Void SetFootPosition(UnityEngine.Vector3 position)
+    // Offset: 0x221F6BC
+    void SetFootPosition(::UnityEngine::Vector3 position);
+    // public System.Void Initiate(RootMotion.FinalIK.Grounding grounding, UnityEngine.Transform transform)
+    // Offset: 0x221E3A0
+    void Initiate(::RootMotion::FinalIK::Grounding* grounding, ::UnityEngine::Transform* transform);
+    // public System.Void OnEnable()
+    // Offset: 0x221F6D0
+    void OnEnable();
+    // public System.Void Reset()
+    // Offset: 0x221F09C
+    void Reset();
+    // public System.Void Process()
+    // Offset: 0x221E4AC
+    void Process();
+    // private UnityEngine.RaycastHit GetCapsuleHit(UnityEngine.Vector3 offsetFromHeel)
+    // Offset: 0x221FEA8
+    ::UnityEngine::RaycastHit GetCapsuleHit(::UnityEngine::Vector3 offsetFromHeel);
+    // private UnityEngine.RaycastHit GetRaycastHit(UnityEngine.Vector3 offsetFromHeel)
+    // Offset: 0x221F71C
+    ::UnityEngine::RaycastHit GetRaycastHit(::UnityEngine::Vector3 offsetFromHeel);
+    // private UnityEngine.Vector3 RotateNormal(UnityEngine.Vector3 normal)
+    // Offset: 0x22205B0
+    ::UnityEngine::Vector3 RotateNormal(::UnityEngine::Vector3 normal);
+    // private System.Void SetFootToPoint(UnityEngine.Vector3 normal, UnityEngine.Vector3 point)
+    // Offset: 0x221FB54
+    void SetFootToPoint(::UnityEngine::Vector3 normal, ::UnityEngine::Vector3 point);
+    // private System.Void SetFootToPlane(UnityEngine.Vector3 planeNormal, UnityEngine.Vector3 planePoint, UnityEngine.Vector3 heelHitPoint)
+    // Offset: 0x221FC5C
+    void SetFootToPlane(::UnityEngine::Vector3 planeNormal, ::UnityEngine::Vector3 planePoint, ::UnityEngine::Vector3 heelHitPoint);
+    // private System.Single GetHeightFromGround(UnityEngine.Vector3 hitPoint)
+    // Offset: 0x22206AC
+    float GetHeightFromGround(::UnityEngine::Vector3 hitPoint);
+    // private System.Void RotateFoot()
+    // Offset: 0x22204BC
+    void RotateFoot();
+    // private UnityEngine.Quaternion GetRotationOffsetTarget()
+    // Offset: 0x2220830
+    ::UnityEngine::Quaternion GetRotationOffsetTarget();
   }; // RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Leg
   #pragma pack(pop)
   static check_size<sizeof(Grounding::Leg), 264 + sizeof(::UnityEngine::Vector3)> __RootMotion_FinalIK_Grounding_LegSizeCheck;
@@ -518,6 +508,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Root
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Leg*), "get_rootYOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::SetFootPosition
 // Il2CppName: SetFootPosition
 template<>
@@ -634,7 +628,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Leg*), "GetRotationOffsetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

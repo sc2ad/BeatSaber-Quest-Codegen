@@ -45,13 +45,13 @@ namespace HoudiniEngineUnity {
     // Nested type: ::HoudiniEngineUnity::Test_Texture2D_Extensions::$$c
     class $$c;
     // static public HoudiniEngineUnity.Test_Texture2D ToTestObject(UnityEngine.Texture2D self)
-    // Offset: 0x2A4033C
+    // Offset: 0x2A97724
     static ::HoudiniEngineUnity::Test_Texture2D* ToTestObject(::UnityEngine::Texture2D* self);
     // static public HoudiniEngineUnity.Test_Texture2D[] ToTestObject(UnityEngine.Texture2D[] self)
-    // Offset: 0x2A40B34
+    // Offset: 0x2A97F1C
     static ::ArrayW<::HoudiniEngineUnity::Test_Texture2D*> ToTestObject(::ArrayW<::UnityEngine::Texture2D*> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_Texture2D> ToTestObject(System.Collections.Generic.List`1<UnityEngine.Texture2D> self)
-    // Offset: 0x2A40C20
+    // Offset: 0x2A98008
     static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Texture2D*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::Texture2D*>* self);
   }; // HoudiniEngineUnity.Test_Texture2D_Extensions
   #pragma pack(pop)

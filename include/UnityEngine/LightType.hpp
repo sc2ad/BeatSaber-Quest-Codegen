@@ -78,7 +78,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.LightType Disc
     static void _set_Disc(::UnityEngine::LightType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.LightType
   #pragma pack(pop)
   static check_size<sizeof(LightType), 0 + sizeof(int)> __UnityEngine_LightTypeSizeCheck;

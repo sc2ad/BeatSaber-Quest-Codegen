@@ -40,15 +40,7 @@ namespace UnityEngine::TestTools {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeforeAfterTestCommandState : public ::UnityEngine::ScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 NextBeforeStepIndex
     // Size: 0x4
     // Offset: 0x18
@@ -131,55 +123,55 @@ namespace UnityEngine::TestTools {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Int32 NextBeforeStepIndex
-    int& dyn_NextBeforeStepIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_NextBeforeStepIndex();
     // Get instance field reference: public System.Int32 NextBeforeStepPc
-    int& dyn_NextBeforeStepPc();
+    [[deprecated("Use field access instead!")]] int& dyn_NextBeforeStepPc();
     // Get instance field reference: public System.Int32 NextAfterStepIndex
-    int& dyn_NextAfterStepIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_NextAfterStepIndex();
     // Get instance field reference: public System.Int32 NextAfterStepPc
-    int& dyn_NextAfterStepPc();
+    [[deprecated("Use field access instead!")]] int& dyn_NextAfterStepPc();
     // Get instance field reference: public System.Boolean TestHasRun
-    bool& dyn_TestHasRun();
+    [[deprecated("Use field access instead!")]] bool& dyn_TestHasRun();
     // Get instance field reference: public NUnit.Framework.Interfaces.TestStatus CurrentTestResultStatus
-    ::NUnit::Framework::Interfaces::TestStatus& dyn_CurrentTestResultStatus();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Interfaces::TestStatus& dyn_CurrentTestResultStatus();
     // Get instance field reference: public System.String CurrentTestResultLabel
-    ::StringW& dyn_CurrentTestResultLabel();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_CurrentTestResultLabel();
     // Get instance field reference: public NUnit.Framework.Interfaces.FailureSite CurrentTestResultSite
-    ::NUnit::Framework::Interfaces::FailureSite& dyn_CurrentTestResultSite();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Interfaces::FailureSite& dyn_CurrentTestResultSite();
     // Get instance field reference: public System.String CurrentTestMessage
-    ::StringW& dyn_CurrentTestMessage();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_CurrentTestMessage();
     // Get instance field reference: public System.String CurrentTestStrackTrace
-    ::StringW& dyn_CurrentTestStrackTrace();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_CurrentTestStrackTrace();
     // Get instance field reference: public System.Boolean TestAfterStarted
-    bool& dyn_TestAfterStarted();
+    [[deprecated("Use field access instead!")]] bool& dyn_TestAfterStarted();
     // Get instance field reference: public System.Int64 Timestamp
-    int64_t& dyn_Timestamp();
-    // public System.Void Reset()
-    // Offset: 0x1948270
-    void Reset();
-    // public System.Void StoreTestResult(NUnit.Framework.Internal.TestResult result)
-    // Offset: 0x194828C
-    void StoreTestResult(::NUnit::Framework::Internal::TestResult* result);
-    // public System.Void ApplyTestResult(NUnit.Framework.Internal.TestResult result)
-    // Offset: 0x1948324
-    void ApplyTestResult(::NUnit::Framework::Internal::TestResult* result);
+    [[deprecated("Use field access instead!")]] int64_t& dyn_Timestamp();
     // public System.Void .ctor()
-    // Offset: 0x19483C4
-    // Implemented from: UnityEngine.ScriptableObject
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x19805A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeforeAfterTestCommandState* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::BeforeAfterTestCommandState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeforeAfterTestCommandState*, creationType>()));
     }
+    // public System.Void Reset()
+    // Offset: 0x1980450
+    void Reset();
+    // public System.Void StoreTestResult(NUnit.Framework.Internal.TestResult result)
+    // Offset: 0x198046C
+    void StoreTestResult(::NUnit::Framework::Internal::TestResult* result);
+    // public System.Void ApplyTestResult(NUnit.Framework.Internal.TestResult result)
+    // Offset: 0x1980504
+    void ApplyTestResult(::NUnit::Framework::Internal::TestResult* result);
   }; // UnityEngine.TestTools.BeforeAfterTestCommandState
   #pragma pack(pop)
   static check_size<sizeof(BeforeAfterTestCommandState), 88 + sizeof(int64_t)> __UnityEngine_TestTools_BeforeAfterTestCommandStateSizeCheck;
   static_assert(sizeof(BeforeAfterTestCommandState) == 0x60);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::TestTools::BeforeAfterTestCommandState::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::BeforeAfterTestCommandState::Reset
 // Il2CppName: Reset
 template<>
@@ -206,7 +198,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::BeforeAfterTestCommandState*), "ApplyTestResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestTools::BeforeAfterTestCommandState::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

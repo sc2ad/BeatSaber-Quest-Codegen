@@ -36,15 +36,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_LoadBufferVolumeLayer : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String _layerName
     // Size: 0x8
     // Offset: 0x10
@@ -229,67 +221,65 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::HoudiniEngineUnity::HFLayerType) == 0x4);
     public:
     // Get instance field reference: public System.String _layerName
-    ::StringW& dyn__layerName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__layerName();
     // Get instance field reference: public System.Int32 _partID
-    int& dyn__partID();
+    [[deprecated("Use field access instead!")]] int& dyn__partID();
     // Get instance field reference: public System.Int32 _heightMapWidth
-    int& dyn__heightMapWidth();
+    [[deprecated("Use field access instead!")]] int& dyn__heightMapWidth();
     // Get instance field reference: public System.Int32 _heightMapHeight
-    int& dyn__heightMapHeight();
+    [[deprecated("Use field access instead!")]] int& dyn__heightMapHeight();
     // Get instance field reference: public System.Single _strength
-    float& dyn__strength();
+    [[deprecated("Use field access instead!")]] float& dyn__strength();
     // Get instance field reference: public System.String _diffuseTexturePath
-    ::StringW& dyn__diffuseTexturePath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__diffuseTexturePath();
     // Get instance field reference: public System.String _maskTexturePath
-    ::StringW& dyn__maskTexturePath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__maskTexturePath();
     // Get instance field reference: public System.Single _metallic
-    float& dyn__metallic();
+    [[deprecated("Use field access instead!")]] float& dyn__metallic();
     // Get instance field reference: public System.String _normalTexturePath
-    ::StringW& dyn__normalTexturePath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__normalTexturePath();
     // Get instance field reference: public System.Single _normalScale
-    float& dyn__normalScale();
+    [[deprecated("Use field access instead!")]] float& dyn__normalScale();
     // Get instance field reference: public System.Single _smoothness
-    float& dyn__smoothness();
+    [[deprecated("Use field access instead!")]] float& dyn__smoothness();
     // Get instance field reference: public UnityEngine.Color _specularColor
-    ::UnityEngine::Color& dyn__specularColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__specularColor();
     // Get instance field reference: public UnityEngine.Vector2 _tileSize
-    ::UnityEngine::Vector2& dyn__tileSize();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn__tileSize();
     // Get instance field reference: public UnityEngine.Vector2 _tileOffset
-    ::UnityEngine::Vector2& dyn__tileOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn__tileOffset();
     // Get instance field reference: public System.Boolean _uiExpanded
-    bool& dyn__uiExpanded();
+    [[deprecated("Use field access instead!")]] bool& dyn__uiExpanded();
     // Get instance field reference: public System.Int32 _tile
-    int& dyn__tile();
+    [[deprecated("Use field access instead!")]] int& dyn__tile();
     // Get instance field reference: public System.Single[] _normalizedHeights
-    ::ArrayW<float>& dyn__normalizedHeights();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn__normalizedHeights();
     // Get instance field reference: public System.Single _minHeight
-    float& dyn__minHeight();
+    [[deprecated("Use field access instead!")]] float& dyn__minHeight();
     // Get instance field reference: public System.Single _maxHeight
-    float& dyn__maxHeight();
+    [[deprecated("Use field access instead!")]] float& dyn__maxHeight();
     // Get instance field reference: public System.Single _heightRange
-    float& dyn__heightRange();
+    [[deprecated("Use field access instead!")]] float& dyn__heightRange();
     // Get instance field reference: public System.Single _terrainSizeX
-    float& dyn__terrainSizeX();
+    [[deprecated("Use field access instead!")]] float& dyn__terrainSizeX();
     // Get instance field reference: public System.Single _terrainSizeY
-    float& dyn__terrainSizeY();
+    [[deprecated("Use field access instead!")]] float& dyn__terrainSizeY();
     // Get instance field reference: public UnityEngine.Vector3 _position
-    ::UnityEngine::Vector3& dyn__position();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__position();
     // Get instance field reference: public UnityEngine.Vector3 _minBounds
-    ::UnityEngine::Vector3& dyn__minBounds();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__minBounds();
     // Get instance field reference: public UnityEngine.Vector3 _maxBounds
-    ::UnityEngine::Vector3& dyn__maxBounds();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__maxBounds();
     // Get instance field reference: public UnityEngine.Vector3 _center
-    ::UnityEngine::Vector3& dyn__center();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__center();
     // Get instance field reference: public System.String _layerPath
-    ::StringW& dyn__layerPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__layerPath();
     // Get instance field reference: public System.Boolean _hasLayerAttributes
-    bool& dyn__hasLayerAttributes();
+    [[deprecated("Use field access instead!")]] bool& dyn__hasLayerAttributes();
     // Get instance field reference: public HoudiniEngineUnity.HFLayerType _layerType
-    ::HoudiniEngineUnity::HFLayerType& dyn__layerType();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HFLayerType& dyn__layerType();
     // public System.Void .ctor()
-    // Offset: 0x185B1A0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1894AB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_LoadBufferVolumeLayer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer::.ctor");

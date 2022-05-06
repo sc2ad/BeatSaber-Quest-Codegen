@@ -73,20 +73,20 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public StandaloneMonobehavior <>4__this
-    ::GlobalNamespace::StandaloneMonobehavior*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::StandaloneMonobehavior*& dyn_$$4__this();
     // Get instance field reference: public System.Action action
-    ::System::Action*& dyn_action();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_action();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<bool>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<bool>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x25F028C
+    // Offset: 0x263C8BC
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x25F0460
+    // Offset: 0x263CA90
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // StandaloneMonobehavior/<WhenReady>d__20
   // WARNING Not writing size check since size may be invalid!

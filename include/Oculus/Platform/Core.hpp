@@ -48,40 +48,42 @@ namespace Oculus::Platform {
     static bool _get_LogMessages();
     // Set static field: static public System.Boolean LogMessages
     static void _set_LogMessages(bool value);
-    // static private System.Void .cctor()
-    // Offset: 0x19A1124
-    static void _cctor();
-    // static public System.Boolean IsInitialized()
-    // Offset: 0x19A090C
-    static bool IsInitialized();
-    // static System.Void ForceInitialized()
-    // Offset: 0x19A0974
-    static void ForceInitialized();
-    // static private System.String getAppID(System.String appId)
-    // Offset: 0x19A09E0
-    static ::StringW getAppID(::StringW appId);
-    // static public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> AsyncInitialize(System.String appId)
-    // Offset: 0x19A0BA8
-    static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
-    // static public System.Void Initialize(System.String appId)
-    // Offset: 0x19A0E40
-    static void Initialize(::StringW appId);
-    // static private System.String GetAppIDFromConfig()
-    // Offset: 0x19A0B78
-    static ::StringW GetAppIDFromConfig();
     // public System.Void .ctor()
-    // Offset: 0x19A111C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x19DA704
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Core* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Core::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Core*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x19DA70C
+    static void _cctor();
+    // static public System.Boolean IsInitialized()
+    // Offset: 0x19D9EF4
+    static bool IsInitialized();
+    // static System.Void ForceInitialized()
+    // Offset: 0x19D9F5C
+    static void ForceInitialized();
+    // static private System.String getAppID(System.String appId)
+    // Offset: 0x19D9FC8
+    static ::StringW getAppID(::StringW appId);
+    // static public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> AsyncInitialize(System.String appId)
+    // Offset: 0x19DA190
+    static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
+    // static public System.Void Initialize(System.String appId)
+    // Offset: 0x19DA428
+    static void Initialize(::StringW appId);
+    // static private System.String GetAppIDFromConfig()
+    // Offset: 0x19DA160
+    static ::StringW GetAppIDFromConfig();
   }; // Oculus.Platform.Core
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Oculus::Platform::Core::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::Core::_cctor
 // Il2CppName: .cctor
 template<>
@@ -141,7 +143,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Core*), "GetAppIDFromConfig", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Oculus::Platform::Core::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

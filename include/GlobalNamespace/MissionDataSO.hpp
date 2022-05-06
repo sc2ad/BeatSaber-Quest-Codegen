@@ -46,15 +46,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionDataSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BeatmapLevelSO _level
     // Size: 0x8
     // Offset: 0x18
@@ -87,8 +79,8 @@ namespace GlobalNamespace {
     ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayModifiers*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124D0E4
-    // [NullAllowed] Offset: 0x124D0E4
+    // [SpaceAttribute] Offset: 0x10D1BDC
+    // [NullAllowed] Offset: 0x10D1BDC
     // private MissionHelpSO _missionHelp
     // Size: 0x8
     // Offset: 0x40
@@ -99,50 +91,45 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapLevelSO _level
-    ::GlobalNamespace::BeatmapLevelSO*& dyn__level();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelSO*& dyn__level();
     // Get instance field reference: private BeatmapCharacteristicSO _beatmapCharacteristic
-    ::GlobalNamespace::BeatmapCharacteristicSO*& dyn__beatmapCharacteristic();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCharacteristicSO*& dyn__beatmapCharacteristic();
     // Get instance field reference: private BeatmapDifficulty _beatmapDifficulty
-    ::GlobalNamespace::BeatmapDifficulty& dyn__beatmapDifficulty();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficulty& dyn__beatmapDifficulty();
     // Get instance field reference: private MissionObjective[] _missionObjectives
-    ::ArrayW<::GlobalNamespace::MissionObjective*>& dyn__missionObjectives();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MissionObjective*>& dyn__missionObjectives();
     // Get instance field reference: private GameplayModifiers _gameplayModifiers
-    ::GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // Get instance field reference: private MissionHelpSO _missionHelp
-    ::GlobalNamespace::MissionHelpSO*& dyn__missionHelp();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionHelpSO*& dyn__missionHelp();
     // public MissionObjective[] get_missionObjectives()
-    // Offset: 0x1304E54
+    // Offset: 0x130132C
     ::ArrayW<::GlobalNamespace::MissionObjective*> get_missionObjectives();
     // public BeatmapLevelSO get_level()
-    // Offset: 0x1304E5C
+    // Offset: 0x1301334
     ::GlobalNamespace::BeatmapLevelSO* get_level();
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x1304E64
+    // Offset: 0x130133C
     ::GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public BeatmapDifficulty get_beatmapDifficulty()
-    // Offset: 0x1304E6C
+    // Offset: 0x1301344
     ::GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x1304E74
+    // Offset: 0x130134C
     ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public MissionHelpSO get_missionHelp()
-    // Offset: 0x1304E7C
+    // Offset: 0x1301354
     ::GlobalNamespace::MissionHelpSO* get_missionHelp();
-    // private System.Void OnValidate()
-    // Offset: 0x1304E84
-    void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0x1304F28
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1301400
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionDataSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionDataSO*, creationType>()));
     }
+    // private System.Void OnValidate()
+    // Offset: 0x130135C
+    void OnValidate();
   }; // MissionDataSO
   #pragma pack(pop)
   static check_size<sizeof(MissionDataSO), 64 + sizeof(::GlobalNamespace::MissionHelpSO*)> __GlobalNamespace_MissionDataSOSizeCheck;
@@ -197,6 +184,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionDataSO*), "get_missionHelp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MissionDataSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionDataSO::OnValidate
 // Il2CppName: OnValidate
 template<>
@@ -205,7 +196,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionDataSO*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MissionDataSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

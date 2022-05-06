@@ -104,29 +104,29 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single m0
-    float& dyn_m0();
+    [[deprecated("Use field access instead!")]] float& dyn_m0();
     // Get instance field reference: public System.Single m1
-    float& dyn_m1();
+    [[deprecated("Use field access instead!")]] float& dyn_m1();
     // Get instance field reference: public System.Single m2
-    float& dyn_m2();
+    [[deprecated("Use field access instead!")]] float& dyn_m2();
     // Get instance field reference: public System.Single m3
-    float& dyn_m3();
+    [[deprecated("Use field access instead!")]] float& dyn_m3();
     // Get instance field reference: public System.Single m4
-    float& dyn_m4();
+    [[deprecated("Use field access instead!")]] float& dyn_m4();
     // Get instance field reference: public System.Single m5
-    float& dyn_m5();
+    [[deprecated("Use field access instead!")]] float& dyn_m5();
     // Get instance field reference: public System.Single m6
-    float& dyn_m6();
+    [[deprecated("Use field access instead!")]] float& dyn_m6();
     // Get instance field reference: public System.Single m7
-    float& dyn_m7();
+    [[deprecated("Use field access instead!")]] float& dyn_m7();
     // Get instance field reference: public System.Single m8
-    float& dyn_m8();
+    [[deprecated("Use field access instead!")]] float& dyn_m8();
     // Get instance field reference: public System.Single m9
-    float& dyn_m9();
+    [[deprecated("Use field access instead!")]] float& dyn_m9();
     // Get instance field reference: public System.Single m10
-    float& dyn_m10();
+    [[deprecated("Use field access instead!")]] float& dyn_m10();
     // Get instance field reference: public System.Single m11
-    float& dyn_m11();
+    [[deprecated("Use field access instead!")]] float& dyn_m11();
   }; // Valve.VR.HmdMatrix34_t
   #pragma pack(pop)
   static check_size<sizeof(HmdMatrix34_t), 44 + sizeof(float)> __Valve_VR_HmdMatrix34_tSizeCheck;

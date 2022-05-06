@@ -27,15 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class Deeplink : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String Destination
     // Size: 0x8
     // Offset: 0x10
@@ -86,25 +78,23 @@ namespace GlobalNamespace {
     static_assert(sizeof(uint64_t) == 0x8);
     public:
     // Get instance field reference: public System.String Destination
-    ::StringW& dyn_Destination();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Destination();
     // Get instance field reference: public System.String LevelID
-    ::StringW& dyn_LevelID();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_LevelID();
     // Get instance field reference: public System.String PackID
-    ::StringW& dyn_PackID();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_PackID();
     // Get instance field reference: public System.String Difficulty
-    ::StringW& dyn_Difficulty();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Difficulty();
     // Get instance field reference: public System.String Characteristic
-    ::StringW& dyn_Characteristic();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Characteristic();
     // Get instance field reference: public System.String MultiplayerLobbyCode
-    ::StringW& dyn_MultiplayerLobbyCode();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_MultiplayerLobbyCode();
     // Get instance field reference: public System.String MultiplayerSecret
-    ::StringW& dyn_MultiplayerSecret();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_MultiplayerSecret();
     // Get instance field reference: public System.UInt64 MultiplayerRoomId
-    uint64_t& dyn_MultiplayerRoomId();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_MultiplayerRoomId();
     // public System.Void .ctor()
-    // Offset: 0x140DB58
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x142D904
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Deeplink* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::Deeplink::.ctor");

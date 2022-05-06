@@ -53,15 +53,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::SimpleDialogPromptViewController::$$c__DisplayClass5_0
     class $$c__DisplayClass5_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _titleText
     // Size: 0x8
     // Offset: 0x70
@@ -94,45 +86,38 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action_1<int>*) == 0x8);
     public:
     // Get instance field reference: private TMPro.TextMeshProUGUI _titleText
-    ::TMPro::TextMeshProUGUI*& dyn__titleText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__titleText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _messageText
-    ::TMPro::TextMeshProUGUI*& dyn__messageText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__messageText();
     // Get instance field reference: private UnityEngine.UI.Button[] _buttons
-    ::ArrayW<::UnityEngine::UI::Button*>& dyn__buttons();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::UI::Button*>& dyn__buttons();
     // Get instance field reference: private TMPro.TextMeshProUGUI[] _buttonTexts
-    ::ArrayW<::TMPro::TextMeshProUGUI*>& dyn__buttonTexts();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::TMPro::TextMeshProUGUI*>& dyn__buttonTexts();
     // Get instance field reference: private System.Action`1<System.Int32> _didFinishAction
-    ::System::Action_1<int>*& dyn__didFinishAction();
-    // public System.Void Init(System.String title, System.String message, System.String buttonText, System.Action`1<System.Int32> didFinishAction)
-    // Offset: 0x142BADC
-    void Init(::StringW title, ::StringW message, ::StringW buttonText, ::System::Action_1<int>* didFinishAction);
-    // public System.Void Init(System.String title, System.String message, System.String firstButtonText, System.String secondButtonText, System.Action`1<System.Int32> didFinishAction)
-    // Offset: 0x142BCB0
-    void Init(::StringW title, ::StringW message, ::StringW firstButtonText, ::StringW secondButtonText, ::System::Action_1<int>* didFinishAction);
-    // public System.Void Init(System.String title, System.String message, System.String firstButtonText, System.String secondButtonText, System.String thirdButtonText, System.Action`1<System.Int32> didFinishAction)
-    // Offset: 0x142BAEC
-    void Init(::StringW title, ::StringW message, ::StringW firstButtonText, ::StringW secondButtonText, ::StringW thirdButtonText, ::System::Action_1<int>* didFinishAction);
+    [[deprecated("Use field access instead!")]] ::System::Action_1<int>*& dyn__didFinishAction();
     // public System.Void .ctor()
-    // Offset: 0x142BCBC
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1381120
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleDialogPromptViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SimpleDialogPromptViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleDialogPromptViewController*, creationType>()));
     }
+    // public System.Void Init(System.String title, System.String message, System.String buttonText, System.Action`1<System.Int32> didFinishAction)
+    // Offset: 0x1380F40
+    void Init(::StringW title, ::StringW message, ::StringW buttonText, ::System::Action_1<int>* didFinishAction);
+    // public System.Void Init(System.String title, System.String message, System.String firstButtonText, System.String secondButtonText, System.Action`1<System.Int32> didFinishAction)
+    // Offset: 0x1381114
+    void Init(::StringW title, ::StringW message, ::StringW firstButtonText, ::StringW secondButtonText, ::System::Action_1<int>* didFinishAction);
+    // public System.Void Init(System.String title, System.String message, System.String firstButtonText, System.String secondButtonText, System.String thirdButtonText, System.Action`1<System.Int32> didFinishAction)
+    // Offset: 0x1380F50
+    void Init(::StringW title, ::StringW message, ::StringW firstButtonText, ::StringW secondButtonText, ::StringW thirdButtonText, ::System::Action_1<int>* didFinishAction);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x142B9A0
+    // Offset: 0x1380E04
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x142BAD0
+    // Offset: 0x1380F34
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
@@ -142,6 +127,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(SimpleDialogPromptViewController) == 0x98);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SimpleDialogPromptViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SimpleDialogPromptViewController::Init
 // Il2CppName: Init
 template<>
@@ -181,10 +170,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleDialogPromptViewController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{title, message, firstButtonText, secondButtonText, thirdButtonText, didFinishAction});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SimpleDialogPromptViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SimpleDialogPromptViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

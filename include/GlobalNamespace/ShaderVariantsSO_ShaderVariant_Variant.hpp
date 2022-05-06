@@ -26,15 +26,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ShaderVariantsSO::ShaderVariant::Variant : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Rendering.PassType _passType
     // Size: 0x4
     // Offset: 0x10
@@ -51,17 +43,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.Rendering.PassType _passType
-    ::UnityEngine::Rendering::PassType& dyn__passType();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rendering::PassType& dyn__passType();
     // Get instance field reference: private System.String _keywords
-    ::StringW& dyn__keywords();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__keywords();
     // public UnityEngine.Rendering.PassType get_passType()
-    // Offset: 0x29EC300
+    // Offset: 0x2A42BFC
     ::UnityEngine::Rendering::PassType get_passType();
     // public System.String get_keywords()
-    // Offset: 0x29EC308
+    // Offset: 0x2A42C04
     ::StringW get_keywords();
     // public System.Void .ctor(UnityEngine.Rendering.PassType passType, System.String keywords)
-    // Offset: 0x29EC310
+    // Offset: 0x2A42C0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShaderVariantsSO::ShaderVariant::Variant* New_ctor(::UnityEngine::Rendering::PassType passType, ::StringW keywords) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant::.ctor");

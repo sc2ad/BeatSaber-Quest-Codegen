@@ -39,15 +39,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapDataLoader::EventBoxGroupConvertor : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly DataConvertor`2<BeatmapEventDataBox,EnvironmentLightGroups/LightGroupData> _dataConvertor
     // Size: 0x8
     // Offset: 0x10
@@ -62,18 +54,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::EnvironmentLightGroups*) == 0x8);
     public:
     // Get instance field reference: private readonly DataConvertor`2<BeatmapEventDataBox,EnvironmentLightGroups/LightGroupData> _dataConvertor
-    ::GlobalNamespace::DataConvertor_2<::GlobalNamespace::BeatmapEventDataBox*, ::GlobalNamespace::EnvironmentLightGroups::LightGroupData*>*& dyn__dataConvertor();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DataConvertor_2<::GlobalNamespace::BeatmapEventDataBox*, ::GlobalNamespace::EnvironmentLightGroups::LightGroupData*>*& dyn__dataConvertor();
     // Get instance field reference: private readonly EnvironmentLightGroups _lightGroups
-    ::GlobalNamespace::EnvironmentLightGroups*& dyn__lightGroups();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentLightGroups*& dyn__lightGroups();
     // public System.Void .ctor(EnvironmentLightGroups lightGroups)
-    // Offset: 0x136A378
+    // Offset: 0x13525F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataLoader::EventBoxGroupConvertor* New_ctor(::GlobalNamespace::EnvironmentLightGroups* lightGroups) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataLoader::EventBoxGroupConvertor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataLoader::EventBoxGroupConvertor*, creationType>(lightGroups)));
     }
     // public BeatmapEventDataBoxGroup Convert(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBoxGroup eventBoxGroupSaveData)
-    // Offset: 0x136A460
+    // Offset: 0x13526E0
     ::GlobalNamespace::BeatmapEventDataBoxGroup* Convert(::BeatmapSaveDataVersion3::BeatmapSaveData::EventBoxGroup* eventBoxGroupSaveData);
   }; // BeatmapDataLoader/EventBoxGroupConvertor
   #pragma pack(pop)

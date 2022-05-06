@@ -25,15 +25,7 @@ namespace UnityEngine::ProBuilder {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class InternalUtility::$$c__DisplayClass6_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String valid
     // Size: 0x8
     // Offset: 0x10
@@ -46,25 +38,27 @@ namespace UnityEngine::ProBuilder {
       return valid;
     }
     // Get instance field reference: public System.String valid
-    ::StringW& dyn_valid();
-    // System.Boolean <TryParseColor>b__0(System.Char c)
-    // Offset: 0x1F8DE74
-    bool $TryParseColor$b__0(::Il2CppChar c);
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_valid();
     // public System.Void .ctor()
-    // Offset: 0x1F8DB8C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FD9400
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InternalUtility::$$c__DisplayClass6_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::InternalUtility::$$c__DisplayClass6_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InternalUtility::$$c__DisplayClass6_0*, creationType>()));
     }
+    // System.Boolean <TryParseColor>b__0(System.Char c)
+    // Offset: 0x1FD96E8
+    bool $TryParseColor$b__0(::Il2CppChar c);
   }; // UnityEngine.ProBuilder.InternalUtility/UnityEngine.ProBuilder.<>c__DisplayClass6_0
   #pragma pack(pop)
   static check_size<sizeof(InternalUtility::$$c__DisplayClass6_0), 16 + sizeof(::StringW)> __UnityEngine_ProBuilder_InternalUtility_$$c__DisplayClass6_0SizeCheck;
   static_assert(sizeof(InternalUtility::$$c__DisplayClass6_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::InternalUtility::$$c__DisplayClass6_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::InternalUtility::$$c__DisplayClass6_0::$TryParseColor$b__0
 // Il2CppName: <TryParseColor>b__0
 template<>
@@ -74,7 +68,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::InternalUtility::$$c__DisplayClass6_0*), "<TryParseColor>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ProBuilder::InternalUtility::$$c__DisplayClass6_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -44,23 +44,15 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::ShaderWarmupSceneStart::$Start$d__2
     class $Start$d__2;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x1260A9C
+    // [InjectAttribute] Offset: 0x10E5744
     // private readonly ShaderWarmupSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::ShaderWarmupSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ShaderWarmupSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1260AAC
+    // [InjectAttribute] Offset: 0x10E5754
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
@@ -71,31 +63,29 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly ShaderWarmupSceneSetupData _sceneSetupData
-    ::GlobalNamespace::ShaderWarmupSceneSetupData*& dyn__sceneSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ShaderWarmupSceneSetupData*& dyn__sceneSetupData();
     // Get instance field reference: private readonly GameScenesManager _gameScenesManager
-    ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
-    // protected System.Collections.IEnumerator Start()
-    // Offset: 0x142AF28
-    ::System::Collections::IEnumerator* Start();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // public System.Void .ctor()
-    // Offset: 0x142AFC4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1380428
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShaderWarmupSceneStart* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ShaderWarmupSceneStart::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShaderWarmupSceneStart*, creationType>()));
     }
+    // protected System.Collections.IEnumerator Start()
+    // Offset: 0x138038C
+    ::System::Collections::IEnumerator* Start();
   }; // ShaderWarmupSceneStart
   #pragma pack(pop)
   static check_size<sizeof(ShaderWarmupSceneStart), 32 + sizeof(::GlobalNamespace::GameScenesManager*)> __GlobalNamespace_ShaderWarmupSceneStartSizeCheck;
   static_assert(sizeof(ShaderWarmupSceneStart) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ShaderWarmupSceneStart::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ShaderWarmupSceneStart::Start
 // Il2CppName: Start
 template<>
@@ -104,7 +94,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShaderWarmupSceneStart*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ShaderWarmupSceneStart::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Set static field: static public GameServerLobbyFlowCoordinator/LobbyType Party
     static void _set_Party(::GlobalNamespace::GameServerLobbyFlowCoordinator::LobbyType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // GameServerLobbyFlowCoordinator/LobbyType
   #pragma pack(pop)
   static check_size<sizeof(GameServerLobbyFlowCoordinator::LobbyType), 0 + sizeof(int)> __GlobalNamespace_GameServerLobbyFlowCoordinator_LobbyTypeSizeCheck;

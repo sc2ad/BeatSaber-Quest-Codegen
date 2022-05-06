@@ -43,21 +43,20 @@ namespace BGNet::Core::Messages {
       return *reinterpret_cast<::BGNet::Core::Messages::IHandshakeMessage*>(this);
     }
     // static public PacketPool`1<BGNet.Core.Messages.HandshakeMessageReceivedAcknowledge> get_pool()
-    // Offset: 0x14F6228
+    // Offset: 0x152DB30
     static ::GlobalNamespace::PacketPool_1<::BGNet::Core::Messages::HandshakeMessageReceivedAcknowledge*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x14FE700
+    // Offset: 0x1536008
     // Implemented from: BGNet.Core.Messages.BaseAcknowledgeMessage
     // Base method: System.Void BaseAcknowledgeMessage::.ctor()
     // Base method: System.Void BaseResponse::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HandshakeMessageReceivedAcknowledge* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::HandshakeMessageReceivedAcknowledge::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HandshakeMessageReceivedAcknowledge*, creationType>()));
     }
     // public override System.Void Release()
-    // Offset: 0x14FE6A4
+    // Offset: 0x1535FAC
     // Implemented from: BGNet.Core.Messages.BaseResponse
     // Base method: System.Void BaseResponse::Release()
     void Release();

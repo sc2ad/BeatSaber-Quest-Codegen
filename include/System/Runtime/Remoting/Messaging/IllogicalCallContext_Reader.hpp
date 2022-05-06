@@ -41,15 +41,15 @@ namespace System::Runtime::Remoting::Messaging {
       return m_ctx;
     }
     // Get instance field reference: private System.Runtime.Remoting.Messaging.IllogicalCallContext m_ctx
-    ::System::Runtime::Remoting::Messaging::IllogicalCallContext*& dyn_m_ctx();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Messaging::IllogicalCallContext*& dyn_m_ctx();
     // public System.Boolean get_IsNull()
-    // Offset: 0x1C691FC
+    // Offset: 0x1C86508
     bool get_IsNull();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IllogicalCallContext ctx)
-    // Offset: 0x1C691F4
+    // Offset: 0x1C86500
     // ABORTED: conflicts with another method.  Reader(::System::Runtime::Remoting::Messaging::IllogicalCallContext* ctx);
     // public System.Object GetData(System.String name)
-    // Offset: 0x1C65C1C
+    // Offset: 0x1C82F28
     ::Il2CppObject* GetData(::StringW name);
   }; // System.Runtime.Remoting.Messaging.IllogicalCallContext/System.Runtime.Remoting.Messaging.Reader
   #pragma pack(pop)

@@ -77,15 +77,15 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._Open Open
-    ::OVR::OpenVR::IVRIOBuffer::_Open*& dyn_Open();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRIOBuffer::_Open*& dyn_Open();
     // Get instance field reference: OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._Close Close
-    ::OVR::OpenVR::IVRIOBuffer::_Close*& dyn_Close();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRIOBuffer::_Close*& dyn_Close();
     // Get instance field reference: OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._Read Read
-    ::OVR::OpenVR::IVRIOBuffer::_Read*& dyn_Read();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRIOBuffer::_Read*& dyn_Read();
     // Get instance field reference: OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._Write Write
-    ::OVR::OpenVR::IVRIOBuffer::_Write*& dyn_Write();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRIOBuffer::_Write*& dyn_Write();
     // Get instance field reference: OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._PropertyContainer PropertyContainer
-    ::OVR::OpenVR::IVRIOBuffer::_PropertyContainer*& dyn_PropertyContainer();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRIOBuffer::_PropertyContainer*& dyn_PropertyContainer();
   }; // OVR.OpenVR.IVRIOBuffer
   #pragma pack(pop)
   static check_size<sizeof(IVRIOBuffer), 32 + sizeof(::OVR::OpenVR::IVRIOBuffer::_PropertyContainer*)> __OVR_OpenVR_IVRIOBufferSizeCheck;

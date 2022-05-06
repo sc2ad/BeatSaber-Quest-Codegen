@@ -31,15 +31,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ConnectionErrorDialogViewController::$$c__DisplayClass0_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Action buttonAction
     // Size: 0x8
     // Offset: 0x10
@@ -52,25 +44,27 @@ namespace GlobalNamespace {
       return buttonAction;
     }
     // Get instance field reference: public System.Action buttonAction
-    ::System::Action*& dyn_buttonAction();
-    // System.Void <Init>b__0(System.Int32 btnIdx)
-    // Offset: 0x14055D4
-    void $Init$b__0(int btnIdx);
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_buttonAction();
     // public System.Void .ctor()
-    // Offset: 0x14054E0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x142528C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectionErrorDialogViewController::$$c__DisplayClass0_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConnectionErrorDialogViewController::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectionErrorDialogViewController::$$c__DisplayClass0_0*, creationType>()));
     }
+    // System.Void <Init>b__0(System.Int32 btnIdx)
+    // Offset: 0x1425380
+    void $Init$b__0(int btnIdx);
   }; // ConnectionErrorDialogViewController/<>c__DisplayClass0_0
   #pragma pack(pop)
   static check_size<sizeof(ConnectionErrorDialogViewController::$$c__DisplayClass0_0), 16 + sizeof(::System::Action*)> __GlobalNamespace_ConnectionErrorDialogViewController_$$c__DisplayClass0_0SizeCheck;
   static_assert(sizeof(ConnectionErrorDialogViewController::$$c__DisplayClass0_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ConnectionErrorDialogViewController::$$c__DisplayClass0_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectionErrorDialogViewController::$$c__DisplayClass0_0::$Init$b__0
 // Il2CppName: <Init>b__0
 template<>
@@ -80,7 +74,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectionErrorDialogViewController::$$c__DisplayClass0_0*), "<Init>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{btnIdx});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ConnectionErrorDialogViewController::$$c__DisplayClass0_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

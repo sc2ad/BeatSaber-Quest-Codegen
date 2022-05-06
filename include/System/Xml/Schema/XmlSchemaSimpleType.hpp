@@ -37,15 +37,7 @@ namespace System::Xml::Schema {
     public:
     // Writing base type padding for base size: 0x3C to desired offset: 0x40
     char ___base_padding[0x4] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Xml.Schema.XmlSchemaSimpleTypeContent content
     // Size: 0x8
     // Offset: 0x40
@@ -58,20 +50,19 @@ namespace System::Xml::Schema {
       return content;
     }
     // Get instance field reference: private System.Xml.Schema.XmlSchemaSimpleTypeContent content
-    ::System::Xml::Schema::XmlSchemaSimpleTypeContent*& dyn_content();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaSimpleTypeContent*& dyn_content();
     // public System.Xml.Schema.XmlSchemaSimpleTypeContent get_Content()
-    // Offset: 0x2011CF0
+    // Offset: 0x205B564
     ::System::Xml::Schema::XmlSchemaSimpleTypeContent* get_Content();
     // public System.Void set_Content(System.Xml.Schema.XmlSchemaSimpleTypeContent value)
-    // Offset: 0x2011CF8
+    // Offset: 0x205B56C
     void set_Content(::System::Xml::Schema::XmlSchemaSimpleTypeContent* value);
     // public System.Void .ctor()
-    // Offset: 0x2011CEC
+    // Offset: 0x205B560
     // Implemented from: System.Xml.Schema.XmlSchemaType
     // Base method: System.Void XmlSchemaType::.ctor()
     // Base method: System.Void XmlSchemaAnnotated::.ctor()
     // Base method: System.Void XmlSchemaObject::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaSimpleType* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaSimpleType::.ctor");

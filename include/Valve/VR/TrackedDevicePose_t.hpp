@@ -75,17 +75,17 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public Valve.VR.HmdMatrix34_t mDeviceToAbsoluteTracking
-    ::Valve::VR::HmdMatrix34_t& dyn_mDeviceToAbsoluteTracking();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::HmdMatrix34_t& dyn_mDeviceToAbsoluteTracking();
     // Get instance field reference: public Valve.VR.HmdVector3_t vVelocity
-    ::Valve::VR::HmdVector3_t& dyn_vVelocity();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::HmdVector3_t& dyn_vVelocity();
     // Get instance field reference: public Valve.VR.HmdVector3_t vAngularVelocity
-    ::Valve::VR::HmdVector3_t& dyn_vAngularVelocity();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::HmdVector3_t& dyn_vAngularVelocity();
     // Get instance field reference: public Valve.VR.ETrackingResult eTrackingResult
-    ::Valve::VR::ETrackingResult& dyn_eTrackingResult();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::ETrackingResult& dyn_eTrackingResult();
     // Get instance field reference: public System.Boolean bPoseIsValid
-    bool& dyn_bPoseIsValid();
+    [[deprecated("Use field access instead!")]] bool& dyn_bPoseIsValid();
     // Get instance field reference: public System.Boolean bDeviceIsConnected
-    bool& dyn_bDeviceIsConnected();
+    [[deprecated("Use field access instead!")]] bool& dyn_bDeviceIsConnected();
   }; // Valve.VR.TrackedDevicePose_t
   #pragma pack(pop)
   static check_size<sizeof(TrackedDevicePose_t), 77 + sizeof(bool)> __Valve_VR_TrackedDevicePose_tSizeCheck;

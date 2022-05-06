@@ -29,15 +29,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputObjectPreset : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String _gameObjectName
     // Size: 0x8
     // Offset: 0x10
@@ -78,21 +70,19 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: public System.String _gameObjectName
-    ::StringW& dyn__gameObjectName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__gameObjectName();
     // Get instance field reference: public System.Boolean _isSceneObject
-    bool& dyn__isSceneObject();
+    [[deprecated("Use field access instead!")]] bool& dyn__isSceneObject();
     // Get instance field reference: public System.Boolean _useTransformOffset
-    bool& dyn__useTransformOffset();
+    [[deprecated("Use field access instead!")]] bool& dyn__useTransformOffset();
     // Get instance field reference: public UnityEngine.Vector3 _translateOffset
-    ::UnityEngine::Vector3& dyn__translateOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__translateOffset();
     // Get instance field reference: public UnityEngine.Vector3 _rotateOffset
-    ::UnityEngine::Vector3& dyn__rotateOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__rotateOffset();
     // Get instance field reference: public UnityEngine.Vector3 _scaleOffset
-    ::UnityEngine::Vector3& dyn__scaleOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__scaleOffset();
     // public System.Void .ctor()
-    // Offset: 0x185957C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1892E8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputObjectPreset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputObjectPreset::.ctor");

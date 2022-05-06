@@ -29,15 +29,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssetFileDownloadCancelResult : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.UInt64 AssetFileId
     // Size: 0x8
     // Offset: 0x10
@@ -64,15 +56,15 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public readonly System.UInt64 AssetFileId
-    uint64_t& dyn_AssetFileId();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_AssetFileId();
     // Get instance field reference: public readonly System.UInt64 AssetId
-    uint64_t& dyn_AssetId();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_AssetId();
     // Get instance field reference: public readonly System.String Filepath
-    ::StringW& dyn_Filepath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Filepath();
     // Get instance field reference: public readonly System.Boolean Success
-    bool& dyn_Success();
+    [[deprecated("Use field access instead!")]] bool& dyn_Success();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19AAD2C
+    // Offset: 0x19E4314
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetFileDownloadCancelResult* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::AssetFileDownloadCancelResult::.ctor");

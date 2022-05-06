@@ -46,15 +46,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_GeneratedOutputData : public ::Il2CppObject/*, public ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.GameObject _gameObject
     // Size: 0x8
     // Offset: 0x10
@@ -79,29 +71,31 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>*>(this);
     }
     // Get instance field reference: public UnityEngine.GameObject _gameObject
-    ::UnityEngine::GameObject*& dyn__gameObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__gameObject();
     // Get instance field reference: public UnityEngine.Material[] _renderMaterials
-    ::ArrayW<::UnityEngine::Material*>& dyn__renderMaterials();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Material*>& dyn__renderMaterials();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Collider> _colliders
-    ::System::Collections::Generic::List_1<::UnityEngine::Collider*>*& dyn__colliders();
-    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_GeneratedOutputData other)
-    // Offset: 0x175B73C
-    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_GeneratedOutputData* other);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Collider*>*& dyn__colliders();
     // public System.Void .ctor()
-    // Offset: 0x1755088
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x178D998
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_GeneratedOutputData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeneratedOutputData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_GeneratedOutputData*, creationType>()));
     }
+    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_GeneratedOutputData other)
+    // Offset: 0x179404C
+    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_GeneratedOutputData* other);
   }; // HoudiniEngineUnity.HEU_GeneratedOutputData
   #pragma pack(pop)
   static check_size<sizeof(HEU_GeneratedOutputData), 32 + sizeof(::System::Collections::Generic::List_1<::UnityEngine::Collider*>*)> __HoudiniEngineUnity_HEU_GeneratedOutputDataSizeCheck;
   static_assert(sizeof(HEU_GeneratedOutputData) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneratedOutputData::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneratedOutputData::IsEquivalentTo
 // Il2CppName: IsEquivalentTo
 template<>
@@ -111,7 +105,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeneratedOutputData*), "IsEquivalentTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneratedOutputData::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

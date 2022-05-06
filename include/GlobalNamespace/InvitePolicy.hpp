@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Set static field: static public InvitePolicy NobodyCanInvite
     static void _set_NobodyCanInvite(::GlobalNamespace::InvitePolicy value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // InvitePolicy
   #pragma pack(pop)
   static check_size<sizeof(InvitePolicy), 0 + sizeof(int)> __GlobalNamespace_InvitePolicySizeCheck;

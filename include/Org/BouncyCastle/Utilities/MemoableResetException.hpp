@@ -30,11 +30,7 @@ namespace Org::BouncyCastle::Utilities {
   class MemoableResetException : public ::System::InvalidCastException {
     public:
     // public System.Void .ctor(System.String msg)
-    // Offset: 0x25A5AF4
-    // Implemented from: System.InvalidCastException
-    // Base method: System.Void InvalidCastException::.ctor(System.String msg)
-    // Base method: System.Void SystemException::.ctor(System.String msg)
-    // Base method: System.Void Exception::.ctor(System.String msg)
+    // Offset: 0x25F1124
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemoableResetException* New_ctor(::StringW msg) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::MemoableResetException::.ctor");

@@ -55,22 +55,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AutoSetupController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Button _closeButton
     // Size: 0x8
     // Offset: 0x18
     ::UnityEngine::UI::Button* closeButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1259F74
+    // [HeaderAttribute] Offset: 0x10DEB58
     // private UnityEngine.UI.Toggle _selectBasedOnSuggestionsToggle
     // Size: 0x8
     // Offset: 0x20
@@ -123,66 +115,60 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Button _closeButton
-    ::UnityEngine::UI::Button*& dyn__closeButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__closeButton();
     // Get instance field reference: private UnityEngine.UI.Toggle _selectBasedOnSuggestionsToggle
-    ::UnityEngine::UI::Toggle*& dyn__selectBasedOnSuggestionsToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__selectBasedOnSuggestionsToggle();
     // Get instance field reference: private UnityEngine.UI.Toggle _autoStartWhenAllReadyToggle
-    ::UnityEngine::UI::Toggle*& dyn__autoStartWhenAllReadyToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__autoStartWhenAllReadyToggle();
     // Get instance field reference: private UnityEngine.UI.Toggle _forceAutoStartAfterSongSelectionToggle
-    ::UnityEngine::UI::Toggle*& dyn__forceAutoStartAfterSongSelectionToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__forceAutoStartAfterSongSelectionToggle();
     // Get instance field reference: private UnityEngine.UI.Toggle _randomSongIfNoneSuggestedToggle
-    ::UnityEngine::UI::Toggle*& dyn__randomSongIfNoneSuggestedToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__randomSongIfNoneSuggestedToggle();
     // Get instance field reference: private System.Action`1<AutoSetupData> didFinishEvent
-    ::System::Action_1<::GlobalNamespace::AutoSetupData*>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::AutoSetupData*>*& dyn_didFinishEvent();
     // Get instance field reference: private readonly HMUI.ButtonBinder _buttonBinder
-    ::HMUI::ButtonBinder*& dyn__buttonBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // Get instance field reference: private readonly HMUI.ToggleBinder _toggleBinder
-    ::HMUI::ToggleBinder*& dyn__toggleBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ToggleBinder*& dyn__toggleBinder();
     // Get instance field reference: private AutoSetupData _autoSetupData
-    ::GlobalNamespace::AutoSetupData*& dyn__autoSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AutoSetupData*& dyn__autoSetupData();
     // public System.Void add_didFinishEvent(System.Action`1<AutoSetupData> value)
-    // Offset: 0x14BACCC
+    // Offset: 0x14F2584
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<AutoSetupData> value)
-    // Offset: 0x14BAD70
+    // Offset: 0x14F2628
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
-    // public System.Void Setup(AutoSetupData autoSetupData)
-    // Offset: 0x14BAE14
-    void Setup(::GlobalNamespace::AutoSetupData* autoSetupData);
-    // protected System.Void OnEnable()
-    // Offset: 0x14BAE1C
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x14BAFD8
-    void OnDisable();
-    // private System.Void <OnEnable>b__12_0()
-    // Offset: 0x14BB0A4
-    void $OnEnable$b__12_0();
-    // private System.Void <OnEnable>b__12_1(System.Boolean isOn)
-    // Offset: 0x14BB108
-    void $OnEnable$b__12_1(bool isOn);
-    // private System.Void <OnEnable>b__12_2(System.Boolean isOn)
-    // Offset: 0x14BB128
-    void $OnEnable$b__12_2(bool isOn);
-    // private System.Void <OnEnable>b__12_3(System.Boolean isOn)
-    // Offset: 0x14BB148
-    void $OnEnable$b__12_3(bool isOn);
-    // private System.Void <OnEnable>b__12_4(System.Boolean isOn)
-    // Offset: 0x14BB168
-    void $OnEnable$b__12_4(bool isOn);
     // public System.Void .ctor()
-    // Offset: 0x14BAFF4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14F28AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AutoSetupController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AutoSetupController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AutoSetupController*, creationType>()));
     }
+    // public System.Void Setup(AutoSetupData autoSetupData)
+    // Offset: 0x14F26CC
+    void Setup(::GlobalNamespace::AutoSetupData* autoSetupData);
+    // protected System.Void OnEnable()
+    // Offset: 0x14F26D4
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x14F2890
+    void OnDisable();
+    // private System.Void <OnEnable>b__12_0()
+    // Offset: 0x14F295C
+    void $OnEnable$b__12_0();
+    // private System.Void <OnEnable>b__12_1(System.Boolean isOn)
+    // Offset: 0x14F29C0
+    void $OnEnable$b__12_1(bool isOn);
+    // private System.Void <OnEnable>b__12_2(System.Boolean isOn)
+    // Offset: 0x14F29E0
+    void $OnEnable$b__12_2(bool isOn);
+    // private System.Void <OnEnable>b__12_3(System.Boolean isOn)
+    // Offset: 0x14F2A00
+    void $OnEnable$b__12_3(bool isOn);
+    // private System.Void <OnEnable>b__12_4(System.Boolean isOn)
+    // Offset: 0x14F2A20
+    void $OnEnable$b__12_4(bool isOn);
   }; // AutoSetupController
   #pragma pack(pop)
   static check_size<sizeof(AutoSetupController), 88 + sizeof(::GlobalNamespace::AutoSetupData*)> __GlobalNamespace_AutoSetupControllerSizeCheck;
@@ -207,6 +193,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AutoSetupController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::AutoSetupController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AutoSetupController::Setup
 // Il2CppName: Setup
 template<>
@@ -276,7 +266,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AutoSetupController*), "<OnEnable>b__12_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isOn});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AutoSetupController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

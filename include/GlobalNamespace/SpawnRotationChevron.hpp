@@ -42,15 +42,7 @@ namespace GlobalNamespace {
     char ___base_padding[0x7] = {};
     // Nested type: ::GlobalNamespace::SpawnRotationChevron::Pool
     class Pool;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TubeBloomPrePassLight[] _lights
     // Size: 0x8
     // Offset: 0x30
@@ -71,33 +63,26 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private TubeBloomPrePassLight[] _lights
-    ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*>& dyn__lights();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*>& dyn__lights();
     // Get instance field reference: private UnityEngine.Color _color
-    ::UnityEngine::Color& dyn__color();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // Get instance field reference: private System.Single _lightAmount
-    float& dyn__lightAmount();
-    // public System.Void SetLightAmount(System.Single amount)
-    // Offset: 0x2AAA414
-    void SetLightAmount(float amount);
-    // private System.Void UpdateLights()
-    // Offset: 0x2AAA390
-    void UpdateLights();
+    [[deprecated("Use field access instead!")]] float& dyn__lightAmount();
     // public System.Void .ctor()
-    // Offset: 0x2AAA41C
-    // Implemented from: LightWithIdMonoBehaviour
-    // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1391040
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SpawnRotationChevron* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SpawnRotationChevron::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SpawnRotationChevron*, creationType>()));
     }
+    // public System.Void SetLightAmount(System.Single amount)
+    // Offset: 0x1391038
+    void SetLightAmount(float amount);
+    // private System.Void UpdateLights()
+    // Offset: 0x1390FB4
+    void UpdateLights();
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x2AAA384
+    // Offset: 0x1390FA8
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);
@@ -107,6 +92,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(SpawnRotationChevron) == 0x4C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SpawnRotationChevron::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SpawnRotationChevron::SetLightAmount
 // Il2CppName: SetLightAmount
 template<>
@@ -124,10 +113,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpawnRotationChevron*), "UpdateLights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SpawnRotationChevron::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SpawnRotationChevron::ColorWasSet
 // Il2CppName: ColorWasSet
 template<>

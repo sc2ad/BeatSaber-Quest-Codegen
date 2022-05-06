@@ -85,20 +85,12 @@ namespace GlobalNamespace {
       // Set static field: static public FormattedFloatListSettingsController/ValueType InvertedNormalized
       static void _set_InvertedNormalized(::GlobalNamespace::FormattedFloatListSettingsController::ValueType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // FormattedFloatListSettingsController/ValueType
     #pragma pack(pop)
     static check_size<sizeof(FormattedFloatListSettingsController::ValueType), 0 + sizeof(int)> __GlobalNamespace_FormattedFloatListSettingsController_ValueTypeSizeCheck;
     static_assert(sizeof(FormattedFloatListSettingsController::ValueType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single[] _values
     // Size: 0x8
     // Offset: 0x28
@@ -151,66 +143,61 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Single[] _values
-    ::ArrayW<float>& dyn__values();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn__values();
     // Get instance field reference: private System.String _formattingString
-    ::StringW& dyn__formattingString();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__formattingString();
     // Get instance field reference: private FormattedFloatListSettingsController/ValueType valueType
-    ::GlobalNamespace::FormattedFloatListSettingsController::ValueType& dyn_valueType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FormattedFloatListSettingsController::ValueType& dyn_valueType();
     // Get instance field reference: private System.Action`2<FormattedFloatListSettingsController,System.Single> valueDidChangeEvent
-    ::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float>*& dyn_valueDidChangeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float>*& dyn_valueDidChangeEvent();
     // Get instance field reference: private System.Single _value
-    float& dyn__value();
+    [[deprecated("Use field access instead!")]] float& dyn__value();
     // Get instance field reference: private System.Single _min
-    float& dyn__min();
+    [[deprecated("Use field access instead!")]] float& dyn__min();
     // Get instance field reference: private System.Single _max
-    float& dyn__max();
+    [[deprecated("Use field access instead!")]] float& dyn__max();
     // Get instance field reference: private System.Boolean _hasValue
-    bool& dyn__hasValue();
+    [[deprecated("Use field access instead!")]] bool& dyn__hasValue();
     // public System.Single get_value()
-    // Offset: 0x13926B4
+    // Offset: 0x137A1C8
     float get_value();
     // public System.Single[] get_values()
-    // Offset: 0x13926BC
+    // Offset: 0x137A1D0
     ::ArrayW<float> get_values();
     // public System.Void set_values(System.Single[] value)
-    // Offset: 0x13926C4
+    // Offset: 0x137A1D8
     void set_values(::ArrayW<float> value);
     // public System.Void add_valueDidChangeEvent(System.Action`2<FormattedFloatListSettingsController,System.Single> value)
-    // Offset: 0x139256C
+    // Offset: 0x137A080
     void add_valueDidChangeEvent(::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float>* value);
     // public System.Void remove_valueDidChangeEvent(System.Action`2<FormattedFloatListSettingsController,System.Single> value)
-    // Offset: 0x1392610
+    // Offset: 0x137A124
     void remove_valueDidChangeEvent(::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float>* value);
     // public System.Void SetValue(System.Single value, System.Boolean callCallback)
-    // Offset: 0x13926D4
+    // Offset: 0x137A1E8
     void SetValue(float value, bool callCallback);
     // public System.Void .ctor()
-    // Offset: 0x13929D4
+    // Offset: 0x137A4E8
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FormattedFloatListSettingsController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FormattedFloatListSettingsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FormattedFloatListSettingsController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x13926EC
+    // Offset: 0x137A200
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x1392844
+    // Offset: 0x137A358
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x13928E8
+    // Offset: 0x137A3FC
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::StringW TextForValue(int idx);

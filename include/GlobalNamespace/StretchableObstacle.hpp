@@ -49,15 +49,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StretchableObstacle : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _edgeSize
     // Size: 0x4
     // Offset: 0x18
@@ -90,8 +82,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // Padding between fields: fakeGlowOffset and: obstacleCore
     char __padding4[0x4] = {};
-    // [SpaceAttribute] Offset: 0x124F990
-    // [NullAllowed] Offset: 0x124F990
+    // [SpaceAttribute] Offset: 0x10D44C4
+    // [NullAllowed] Offset: 0x10D44C4
     // private UnityEngine.Transform _obstacleCore
     // Size: 0x8
     // Offset: 0x38
@@ -110,7 +102,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::ParametricBoxFrameController* obstacleFrame;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ParametricBoxFrameController*) == 0x8);
-    // [NullAllowed] Offset: 0x124F9F8
+    // [NullAllowed] Offset: 0x10D452C
     // private ParametricBoxFakeGlowController _obstacleFakeGlow
     // Size: 0x8
     // Offset: 0x50
@@ -126,68 +118,60 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x124FA30
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D4564
     // Get static field: static private readonly System.Int32 _uvScaleID
     static int _get__uvScaleID();
     // Set static field: static private readonly System.Int32 _uvScaleID
     static void _set__uvScaleID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x124FA40
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D4574
     // Get static field: static private readonly System.Int32 _tintColorID
     static int _get__tintColorID();
     // Set static field: static private readonly System.Int32 _tintColorID
     static void _set__tintColorID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x124FA50
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D4584
     // Get static field: static private readonly System.Int32 _addColorID
     static int _get__addColorID();
     // Set static field: static private readonly System.Int32 _addColorID
     static void _set__addColorID(int value);
     // Get instance field reference: private System.Single _edgeSize
-    float& dyn__edgeSize();
+    [[deprecated("Use field access instead!")]] float& dyn__edgeSize();
     // Get instance field reference: private System.Single _coreOffset
-    float& dyn__coreOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__coreOffset();
     // Get instance field reference: private System.Single _addColorMultiplier
-    float& dyn__addColorMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__addColorMultiplier();
     // Get instance field reference: private System.Single _obstacleCoreLerpToWhiteFactor
-    float& dyn__obstacleCoreLerpToWhiteFactor();
+    [[deprecated("Use field access instead!")]] float& dyn__obstacleCoreLerpToWhiteFactor();
     // Get instance field reference: private UnityEngine.Vector3 _fakeGlowOffset
-    ::UnityEngine::Vector3& dyn__fakeGlowOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__fakeGlowOffset();
     // Get instance field reference: private UnityEngine.Transform _obstacleCore
-    ::UnityEngine::Transform*& dyn__obstacleCore();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__obstacleCore();
     // Get instance field reference: private MaterialPropertyBlockController[] _materialPropertyBlockControllers
-    ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*>& dyn__materialPropertyBlockControllers();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*>& dyn__materialPropertyBlockControllers();
     // Get instance field reference: private ParametricBoxFrameController _obstacleFrame
-    ::GlobalNamespace::ParametricBoxFrameController*& dyn__obstacleFrame();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ParametricBoxFrameController*& dyn__obstacleFrame();
     // Get instance field reference: private ParametricBoxFakeGlowController _obstacleFakeGlow
-    ::GlobalNamespace::ParametricBoxFakeGlowController*& dyn__obstacleFakeGlow();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ParametricBoxFakeGlowController*& dyn__obstacleFakeGlow();
     // Get instance field reference: private UnityEngine.Bounds _bounds
-    ::UnityEngine::Bounds& dyn__bounds();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Bounds& dyn__bounds();
     // public UnityEngine.Bounds get_bounds()
-    // Offset: 0x1338FBC
+    // Offset: 0x141AEEC
     ::UnityEngine::Bounds get_bounds();
-    // public System.Void SetSizeAndColor(System.Single width, System.Single height, System.Single length, UnityEngine.Color color)
-    // Offset: 0x1338FD0
-    void SetSizeAndColor(float width, float height, float length, ::UnityEngine::Color color);
-    // protected System.Void OnValidate()
-    // Offset: 0x13394C4
-    void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0x133954C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x141B47C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StretchableObstacle* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StretchableObstacle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StretchableObstacle*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13395BC
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x141B4EC
     static void _cctor();
+    // public System.Void SetSizeAndColor(System.Single width, System.Single height, System.Single length, UnityEngine.Color color)
+    // Offset: 0x141AF00
+    void SetSizeAndColor(float width, float height, float length, ::UnityEngine::Color color);
+    // protected System.Void OnValidate()
+    // Offset: 0x141B3F4
+    void OnValidate();
   }; // StretchableObstacle
   #pragma pack(pop)
   static check_size<sizeof(StretchableObstacle), 88 + sizeof(::UnityEngine::Bounds)> __GlobalNamespace_StretchableObstacleSizeCheck;
@@ -200,6 +184,18 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (GlobalNamespace::StretchableObstacle::*)()>(&GlobalNamespace::StretchableObstacle::get_bounds)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StretchableObstacle*), "get_bounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::StretchableObstacle::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::StretchableObstacle::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::StretchableObstacle::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StretchableObstacle*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::StretchableObstacle::SetSizeAndColor
@@ -220,17 +216,5 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StretchableObstacle::*)()>(&GlobalNamespace::StretchableObstacle::OnValidate)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StretchableObstacle*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::StretchableObstacle::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::StretchableObstacle::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::StretchableObstacle::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StretchableObstacle*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

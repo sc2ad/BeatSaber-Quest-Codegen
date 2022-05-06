@@ -36,6 +36,13 @@ namespace Zenject {
   template<typename TParam1, typename TParam2, typename TValue>
   class PoolableStaticMemoryPool_3 : public ::Zenject::StaticMemoryPool_3<TParam1, TParam2, TValue> {
     public:
+    // public System.Void .ctor()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static PoolableStaticMemoryPool_3<TParam1, TParam2, TValue>* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableStaticMemoryPool_3::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<PoolableStaticMemoryPool_3<TParam1, TParam2, TValue>*, creationType>()));
+    }
     // static private System.Void OnSpawned(TParam1 p1, TParam2 p2, TValue value)
     // Offset: 0xFFFFFFFFFFFFFFFF
     static void OnSpawned(TParam1 p1, TParam2 p2, TValue value) {
@@ -49,15 +56,6 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableStaticMemoryPool_3::OnDespawned");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PoolableStaticMemoryPool_3<TParam1, TParam2, TValue>*>::get(), "OnDespawned", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, value);
-    }
-    // public System.Void .ctor()
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PoolableStaticMemoryPool_3<TParam1, TParam2, TValue>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableStaticMemoryPool_3::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<PoolableStaticMemoryPool_3<TParam1, TParam2, TValue>*, creationType>()));
     }
   }; // Zenject.PoolableStaticMemoryPool`3
   // Could not write size check! Type: Zenject.PoolableStaticMemoryPool`3 is generic, or has no fields that are valid for size checks!

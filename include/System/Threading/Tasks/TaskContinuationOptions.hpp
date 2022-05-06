@@ -133,7 +133,7 @@ namespace System::Threading::Tasks {
     // Set static field: static public System.Threading.Tasks.TaskContinuationOptions ExecuteSynchronously
     static void _set_ExecuteSynchronously(::System::Threading::Tasks::TaskContinuationOptions value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Threading.Tasks.TaskContinuationOptions
   #pragma pack(pop)
   static check_size<sizeof(TaskContinuationOptions), 0 + sizeof(int)> __System_Threading_Tasks_TaskContinuationOptionsSizeCheck;

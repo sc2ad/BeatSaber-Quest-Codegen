@@ -35,15 +35,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_MeshIndexFormat : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Rendering.IndexFormat _indexFormat
     // Size: 0x4
     // Offset: 0x10
@@ -56,28 +48,30 @@ namespace HoudiniEngineUnity {
       return indexFormat;
     }
     // Get instance field reference: public UnityEngine.Rendering.IndexFormat _indexFormat
-    ::UnityEngine::Rendering::IndexFormat& dyn__indexFormat();
-    // public System.Void CalculateIndexFormat(System.Int32 numVertices)
-    // Offset: 0x185F2A4
-    void CalculateIndexFormat(int numVertices);
-    // public System.Void SetFormatForMesh(UnityEngine.Mesh mesh)
-    // Offset: 0x185F32C
-    void SetFormatForMesh(::UnityEngine::Mesh* mesh);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rendering::IndexFormat& dyn__indexFormat();
     // public System.Void .ctor()
-    // Offset: 0x185F350
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1898C60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_MeshIndexFormat* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_MeshIndexFormat::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_MeshIndexFormat*, creationType>()));
     }
+    // public System.Void CalculateIndexFormat(System.Int32 numVertices)
+    // Offset: 0x1898BB4
+    void CalculateIndexFormat(int numVertices);
+    // public System.Void SetFormatForMesh(UnityEngine.Mesh mesh)
+    // Offset: 0x1898C3C
+    void SetFormatForMesh(::UnityEngine::Mesh* mesh);
   }; // HoudiniEngineUnity.HEU_MeshIndexFormat
   #pragma pack(pop)
   static check_size<sizeof(HEU_MeshIndexFormat), 16 + sizeof(::UnityEngine::Rendering::IndexFormat)> __HoudiniEngineUnity_HEU_MeshIndexFormatSizeCheck;
   static_assert(sizeof(HEU_MeshIndexFormat) == 0x14);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MeshIndexFormat::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MeshIndexFormat::CalculateIndexFormat
 // Il2CppName: CalculateIndexFormat
 template<>
@@ -96,7 +90,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_MeshIndexFormat*), "SetFormatForMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MeshIndexFormat::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

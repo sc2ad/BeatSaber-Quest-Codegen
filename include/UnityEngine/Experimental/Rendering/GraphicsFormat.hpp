@@ -545,8 +545,8 @@ namespace UnityEngine::Experimental::Rendering {
     static ::UnityEngine::Experimental::Rendering::GraphicsFormat _get_A10R10G10B10_XRUNormPack32();
     // Set static field: static public UnityEngine.Experimental.Rendering.GraphicsFormat A10R10G10B10_XRUNormPack32
     static void _set_A10R10G10B10_XRUNormPack32(::UnityEngine::Experimental::Rendering::GraphicsFormat value);
-    // [EditorBrowsableAttribute] Offset: 0x11C56A0
-    // [ObsoleteAttribute] Offset: 0x11C56A0
+    // [EditorBrowsableAttribute] Offset: 0x104B0B8
+    // [ObsoleteAttribute] Offset: 0x104B0B8
     // static field const value: static public UnityEngine.Experimental.Rendering.GraphicsFormat RGB_DXT1_SRGB
     static constexpr const int RGB_DXT1_SRGB = 96;
     // Get static field: static public UnityEngine.Experimental.Rendering.GraphicsFormat RGB_DXT1_SRGB
@@ -559,8 +559,8 @@ namespace UnityEngine::Experimental::Rendering {
     static ::UnityEngine::Experimental::Rendering::GraphicsFormat _get_RGBA_DXT1_SRGB();
     // Set static field: static public UnityEngine.Experimental.Rendering.GraphicsFormat RGBA_DXT1_SRGB
     static void _set_RGBA_DXT1_SRGB(::UnityEngine::Experimental::Rendering::GraphicsFormat value);
-    // [ObsoleteAttribute] Offset: 0x11C56F4
-    // [EditorBrowsableAttribute] Offset: 0x11C56F4
+    // [ObsoleteAttribute] Offset: 0x104B10C
+    // [EditorBrowsableAttribute] Offset: 0x104B10C
     // static field const value: static public UnityEngine.Experimental.Rendering.GraphicsFormat RGB_DXT1_UNorm
     static constexpr const int RGB_DXT1_UNorm = 97;
     // Get static field: static public UnityEngine.Experimental.Rendering.GraphicsFormat RGB_DXT1_UNorm
@@ -832,7 +832,7 @@ namespace UnityEngine::Experimental::Rendering {
     // Set static field: static public UnityEngine.Experimental.Rendering.GraphicsFormat RGBA_ASTC12X12_UNorm
     static void _set_RGBA_ASTC12X12_UNorm(::UnityEngine::Experimental::Rendering::GraphicsFormat value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.Experimental.Rendering.GraphicsFormat
   #pragma pack(pop)
   static check_size<sizeof(GraphicsFormat), 0 + sizeof(int)> __UnityEngine_Experimental_Rendering_GraphicsFormatSizeCheck;

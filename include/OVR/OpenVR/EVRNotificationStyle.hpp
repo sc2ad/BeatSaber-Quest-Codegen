@@ -72,7 +72,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRNotificationStyle Contact_Active
     static void _set_Contact_Active(::OVR::OpenVR::EVRNotificationStyle value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVR.OpenVR.EVRNotificationStyle
   #pragma pack(pop)
   static check_size<sizeof(EVRNotificationStyle), 0 + sizeof(int)> __OVR_OpenVR_EVRNotificationStyleSizeCheck;

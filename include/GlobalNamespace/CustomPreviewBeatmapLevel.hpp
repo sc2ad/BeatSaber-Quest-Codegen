@@ -68,15 +68,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::CustomPreviewBeatmapLevel::$GetCoverImageAsync$d__60
     struct $GetCoverImageAsync$d__60;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly ISpriteAsyncLoader <spriteAsyncLoader>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -209,114 +201,114 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IFilePathSongPreviewAudioClipProvider*>(this);
     }
     // Get instance field reference: private readonly ISpriteAsyncLoader <spriteAsyncLoader>k__BackingField
-    ::GlobalNamespace::ISpriteAsyncLoader*& dyn_$spriteAsyncLoader$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ISpriteAsyncLoader*& dyn_$spriteAsyncLoader$k__BackingField();
     // Get instance field reference: private readonly StandardLevelInfoSaveData <standardLevelInfoSaveData>k__BackingField
-    ::GlobalNamespace::StandardLevelInfoSaveData*& dyn_$standardLevelInfoSaveData$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::StandardLevelInfoSaveData*& dyn_$standardLevelInfoSaveData$k__BackingField();
     // Get instance field reference: private readonly System.String <customLevelPath>k__BackingField
-    ::StringW& dyn_$customLevelPath$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$customLevelPath$k__BackingField();
     // Get instance field reference: private readonly System.String <levelID>k__BackingField
-    ::StringW& dyn_$levelID$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$levelID$k__BackingField();
     // Get instance field reference: private readonly System.String <songName>k__BackingField
-    ::StringW& dyn_$songName$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$songName$k__BackingField();
     // Get instance field reference: private readonly System.String <songSubName>k__BackingField
-    ::StringW& dyn_$songSubName$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$songSubName$k__BackingField();
     // Get instance field reference: private readonly System.String <songAuthorName>k__BackingField
-    ::StringW& dyn_$songAuthorName$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$songAuthorName$k__BackingField();
     // Get instance field reference: private readonly System.String <levelAuthorName>k__BackingField
-    ::StringW& dyn_$levelAuthorName$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$levelAuthorName$k__BackingField();
     // Get instance field reference: private readonly System.Single <beatsPerMinute>k__BackingField
-    float& dyn_$beatsPerMinute$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$beatsPerMinute$k__BackingField();
     // Get instance field reference: private readonly System.Single <songTimeOffset>k__BackingField
-    float& dyn_$songTimeOffset$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$songTimeOffset$k__BackingField();
     // Get instance field reference: private readonly System.Single <songDuration>k__BackingField
-    float& dyn_$songDuration$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$songDuration$k__BackingField();
     // Get instance field reference: private readonly System.Single <shuffle>k__BackingField
-    float& dyn_$shuffle$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$shuffle$k__BackingField();
     // Get instance field reference: private readonly System.Single <shufflePeriod>k__BackingField
-    float& dyn_$shufflePeriod$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$shufflePeriod$k__BackingField();
     // Get instance field reference: private readonly System.Single <previewStartTime>k__BackingField
-    float& dyn_$previewStartTime$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$previewStartTime$k__BackingField();
     // Get instance field reference: private readonly System.Single <previewDuration>k__BackingField
-    float& dyn_$previewDuration$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$previewDuration$k__BackingField();
     // Get instance field reference: private readonly EnvironmentInfoSO <environmentInfo>k__BackingField
-    ::GlobalNamespace::EnvironmentInfoSO*& dyn_$environmentInfo$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentInfoSO*& dyn_$environmentInfo$k__BackingField();
     // Get instance field reference: private readonly EnvironmentInfoSO <allDirectionsEnvironmentInfo>k__BackingField
-    ::GlobalNamespace::EnvironmentInfoSO*& dyn_$allDirectionsEnvironmentInfo$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentInfoSO*& dyn_$allDirectionsEnvironmentInfo$k__BackingField();
     // Get instance field reference: private readonly UnityEngine.Sprite <defaultCoverImage>k__BackingField
-    ::UnityEngine::Sprite*& dyn_$defaultCoverImage$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn_$defaultCoverImage$k__BackingField();
     // Get instance field reference: private readonly System.Collections.Generic.IReadOnlyList`1<PreviewDifficultyBeatmapSet> <previewDifficultyBeatmapSets>k__BackingField
-    ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>*& dyn_$previewDifficultyBeatmapSets$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>*& dyn_$previewDifficultyBeatmapSets$k__BackingField();
     // Get instance field reference: private UnityEngine.Sprite _coverImage
-    ::UnityEngine::Sprite*& dyn__coverImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__coverImage();
     // public ISpriteAsyncLoader get_spriteAsyncLoader()
-    // Offset: 0x140A398
+    // Offset: 0x142A144
     ::GlobalNamespace::ISpriteAsyncLoader* get_spriteAsyncLoader();
     // public StandardLevelInfoSaveData get_standardLevelInfoSaveData()
-    // Offset: 0x140A3A0
+    // Offset: 0x142A14C
     ::GlobalNamespace::StandardLevelInfoSaveData* get_standardLevelInfoSaveData();
     // public System.String get_customLevelPath()
-    // Offset: 0x140A3A8
+    // Offset: 0x142A154
     ::StringW get_customLevelPath();
     // public System.String get_levelID()
-    // Offset: 0x140A3B0
+    // Offset: 0x142A15C
     ::StringW get_levelID();
     // public System.String get_songName()
-    // Offset: 0x140A3B8
+    // Offset: 0x142A164
     ::StringW get_songName();
     // public System.String get_songSubName()
-    // Offset: 0x140A3C0
+    // Offset: 0x142A16C
     ::StringW get_songSubName();
     // public System.String get_songAuthorName()
-    // Offset: 0x140A3C8
+    // Offset: 0x142A174
     ::StringW get_songAuthorName();
     // public System.String get_levelAuthorName()
-    // Offset: 0x140A3D0
+    // Offset: 0x142A17C
     ::StringW get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
-    // Offset: 0x140A3D8
+    // Offset: 0x142A184
     float get_beatsPerMinute();
     // public System.Single get_songTimeOffset()
-    // Offset: 0x140A3E0
+    // Offset: 0x142A18C
     float get_songTimeOffset();
     // public System.Single get_songDuration()
-    // Offset: 0x140A3E8
+    // Offset: 0x142A194
     float get_songDuration();
     // public System.Single get_shuffle()
-    // Offset: 0x140A3F0
+    // Offset: 0x142A19C
     float get_shuffle();
     // public System.Single get_shufflePeriod()
-    // Offset: 0x140A3F8
+    // Offset: 0x142A1A4
     float get_shufflePeriod();
     // public System.Single get_previewStartTime()
-    // Offset: 0x140A400
+    // Offset: 0x142A1AC
     float get_previewStartTime();
     // public System.Single get_previewDuration()
-    // Offset: 0x140A408
+    // Offset: 0x142A1B4
     float get_previewDuration();
     // public EnvironmentInfoSO get_environmentInfo()
-    // Offset: 0x140A410
+    // Offset: 0x142A1BC
     ::GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
     // public EnvironmentInfoSO get_allDirectionsEnvironmentInfo()
-    // Offset: 0x140A418
+    // Offset: 0x142A1C4
     ::GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
     // public UnityEngine.Sprite get_defaultCoverImage()
-    // Offset: 0x140A420
+    // Offset: 0x142A1CC
     ::UnityEngine::Sprite* get_defaultCoverImage();
     // public System.Collections.Generic.IReadOnlyList`1<PreviewDifficultyBeatmapSet> get_previewDifficultyBeatmapSets()
-    // Offset: 0x140A428
+    // Offset: 0x142A1D4
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
     // public System.String get_songPreviewAudioClipPath()
-    // Offset: 0x14096B8
+    // Offset: 0x1429464
     ::StringW get_songPreviewAudioClipPath();
     // public System.Void .ctor(UnityEngine.Sprite defaultCoverImage, StandardLevelInfoSaveData standardLevelInfoSaveData, System.String customLevelPath, ISpriteAsyncLoader spriteAsyncLoader, System.String levelID, System.String songName, System.String songSubName, System.String songAuthorName, System.String levelAuthorName, System.Single beatsPerMinute, System.Single songTimeOffset, System.Single shuffle, System.Single shufflePeriod, System.Single previewStartTime, System.Single previewDuration, EnvironmentInfoSO environmentInfo, EnvironmentInfoSO allDirectionsEnvironmentInfo, System.Collections.Generic.IReadOnlyList`1<PreviewDifficultyBeatmapSet> previewDifficultyBeatmapSets)
-    // Offset: 0x14097EC
+    // Offset: 0x1429598
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomPreviewBeatmapLevel* New_ctor(::UnityEngine::Sprite* defaultCoverImage, ::GlobalNamespace::StandardLevelInfoSaveData* standardLevelInfoSaveData, ::StringW customLevelPath, ::GlobalNamespace::ISpriteAsyncLoader* spriteAsyncLoader, ::StringW levelID, ::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float beatsPerMinute, float songTimeOffset, float shuffle, float shufflePeriod, float previewStartTime, float previewDuration, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::EnvironmentInfoSO* allDirectionsEnvironmentInfo, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* previewDifficultyBeatmapSets) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CustomPreviewBeatmapLevel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomPreviewBeatmapLevel*, creationType>(defaultCoverImage, standardLevelInfoSaveData, customLevelPath, spriteAsyncLoader, levelID, songName, songSubName, songAuthorName, levelAuthorName, beatsPerMinute, songTimeOffset, shuffle, shufflePeriod, previewStartTime, previewDuration, environmentInfo, allDirectionsEnvironmentInfo, previewDifficultyBeatmapSets)));
     }
     // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x140A430
+    // Offset: 0x142A1DC
     ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken);
   }; // CustomPreviewBeatmapLevel
   #pragma pack(pop)

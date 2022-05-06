@@ -44,20 +44,18 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Environment/System.SpecialFolder,System.String> <>9__3_0
     static void _set_$$9__3_0(::System::Func_2<::System::Environment::SpecialFolder, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x134D430
+    // Offset: 0x1336678
     static void _cctor();
-    // System.String <get_bookmarksFolders>b__3_0(System.Environment/System.SpecialFolder specialFolder)
-    // Offset: 0x134D49C
-    ::StringW $get_bookmarksFolders$b__3_0(::System::Environment::SpecialFolder specialFolder);
     // public System.Void .ctor()
-    // Offset: 0x134D494
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13366DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BookmarksFoldersModel::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BookmarksFoldersModel::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BookmarksFoldersModel::$$c*, creationType>()));
     }
+    // System.String <get_bookmarksFolders>b__3_0(System.Environment/System.SpecialFolder specialFolder)
+    // Offset: 0x13366E4
+    ::StringW $get_bookmarksFolders$b__3_0(::System::Environment::SpecialFolder specialFolder);
   }; // BookmarksFoldersModel/<>c
   #pragma pack(pop)
 }
@@ -70,6 +68,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BookmarksFoldersModel::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BookmarksFoldersModel::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BookmarksFoldersModel::$$c::$get_bookmarksFolders$b__3_0
 // Il2CppName: <get_bookmarksFolders>b__3_0
 template<>
@@ -79,7 +81,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BookmarksFoldersModel::$$c*), "<get_bookmarksFolders>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{specialFolder});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BookmarksFoldersModel::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerIntroCountdownTextController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshPro[] _texts
     // Size: 0x8
     // Offset: 0x18
@@ -56,41 +48,35 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshPro[] _texts
-    ::ArrayW<::TMPro::TextMeshPro*>& dyn__texts();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::TMPro::TextMeshPro*>& dyn__texts();
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x13F40E0
+    // Offset: 0x1400B80
     void set_hide(bool value);
     // public System.Single get_fontSize()
-    // Offset: 0x13F4118
+    // Offset: 0x1400BB8
     float get_fontSize();
     // public System.Void set_fontSize(System.Single value)
-    // Offset: 0x13F45A4
+    // Offset: 0x1401044
     void set_fontSize(float value);
     // public System.Single get_alpha()
-    // Offset: 0x13F415C
+    // Offset: 0x1400BFC
     float get_alpha();
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0x13F4638
+    // Offset: 0x14010D8
     void set_alpha(float value);
-    // public System.Void SetText(System.String text)
-    // Offset: 0x13F5138
-    void SetText(::StringW text);
-    // public System.Void SetDistances(System.Single distance)
-    // Offset: 0x13F4794
-    void SetDistances(float distance);
     // public System.Void .ctor()
-    // Offset: 0x13F5360
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1401E00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerIntroCountdownTextController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerIntroCountdownTextController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerIntroCountdownTextController*, creationType>()));
     }
+    // public System.Void SetText(System.String text)
+    // Offset: 0x1401BD8
+    void SetText(::StringW text);
+    // public System.Void SetDistances(System.Single distance)
+    // Offset: 0x1401234
+    void SetDistances(float distance);
   }; // MultiplayerIntroCountdownTextController
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerIntroCountdownTextController), 24 + sizeof(::ArrayW<::TMPro::TextMeshPro*>)> __GlobalNamespace_MultiplayerIntroCountdownTextControllerSizeCheck;
@@ -140,6 +126,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroCountdownTextController*), "set_alpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdownTextController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdownTextController::SetText
 // Il2CppName: SetText
 template<>
@@ -158,7 +148,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroCountdownTextController*), "SetDistances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{distance});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdownTextController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

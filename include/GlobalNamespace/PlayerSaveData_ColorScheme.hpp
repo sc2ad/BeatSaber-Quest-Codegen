@@ -26,15 +26,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveData::ColorScheme : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String colorSchemeId
     // Size: 0x8
     // Offset: 0x10
@@ -73,19 +65,19 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
     public:
     // Get instance field reference: public System.String colorSchemeId
-    ::StringW& dyn_colorSchemeId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_colorSchemeId();
     // Get instance field reference: public UnityEngine.Color saberAColor
-    ::UnityEngine::Color& dyn_saberAColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_saberAColor();
     // Get instance field reference: public UnityEngine.Color saberBColor
-    ::UnityEngine::Color& dyn_saberBColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_saberBColor();
     // Get instance field reference: public UnityEngine.Color environmentColor0
-    ::UnityEngine::Color& dyn_environmentColor0();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_environmentColor0();
     // Get instance field reference: public UnityEngine.Color environmentColor1
-    ::UnityEngine::Color& dyn_environmentColor1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_environmentColor1();
     // Get instance field reference: public UnityEngine.Color obstaclesColor
-    ::UnityEngine::Color& dyn_obstaclesColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_obstaclesColor();
     // public System.Void .ctor(System.String colorSchemeId, UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environmentColor0, UnityEngine.Color environmentColor1, UnityEngine.Color obstaclesColor)
-    // Offset: 0x137148C
+    // Offset: 0x13D47F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::ColorScheme* New_ctor(::StringW colorSchemeId, ::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1, ::UnityEngine::Color obstaclesColor) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::ColorScheme::.ctor");

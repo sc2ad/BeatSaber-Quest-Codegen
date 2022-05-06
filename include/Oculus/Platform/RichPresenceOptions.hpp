@@ -41,15 +41,7 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class RichPresenceOptions : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.IntPtr Handle
     // Size: 0x8
     // Offset: 0x10
@@ -62,51 +54,49 @@ namespace Oculus::Platform {
       return Handle;
     }
     // Get instance field reference: private System.IntPtr Handle
-    ::System::IntPtr& dyn_Handle();
-    // public System.Void SetApiName(System.String value)
-    // Offset: 0x2A2611C
-    void SetApiName(::StringW value);
-    // public System.Void SetCurrentCapacity(System.UInt32 value)
-    // Offset: 0x2A26198
-    void SetCurrentCapacity(uint value);
-    // public System.Void SetDeeplinkMessageOverride(System.String value)
-    // Offset: 0x2A26214
-    void SetDeeplinkMessageOverride(::StringW value);
-    // public System.Void SetEndTime(System.DateTime value)
-    // Offset: 0x2A26290
-    void SetEndTime(::System::DateTime value);
-    // public System.Void SetExtraContext(Oculus.Platform.RichPresenceExtraContext value)
-    // Offset: 0x2A2630C
-    void SetExtraContext(::Oculus::Platform::RichPresenceExtraContext value);
-    // public System.Void SetInstanceId(System.String value)
-    // Offset: 0x2A26388
-    void SetInstanceId(::StringW value);
-    // public System.Void SetIsIdle(System.Boolean value)
-    // Offset: 0x2A26404
-    void SetIsIdle(bool value);
-    // public System.Void SetIsJoinable(System.Boolean value)
-    // Offset: 0x2A26480
-    void SetIsJoinable(bool value);
-    // public System.Void SetMaxCapacity(System.UInt32 value)
-    // Offset: 0x2A264FC
-    void SetMaxCapacity(uint value);
-    // public System.Void SetStartTime(System.DateTime value)
-    // Offset: 0x2A26578
-    void SetStartTime(::System::DateTime value);
-    // static public System.IntPtr op_Explicit(Oculus.Platform.RichPresenceOptions options)
-    // Offset: 0x2A25ED8
-    // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Handle();
     // public System.Void .ctor()
-    // Offset: 0x2A260A4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A7C48C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RichPresenceOptions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::RichPresenceOptions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RichPresenceOptions*, creationType>()));
     }
+    // public System.Void SetApiName(System.String value)
+    // Offset: 0x2A7C504
+    void SetApiName(::StringW value);
+    // public System.Void SetCurrentCapacity(System.UInt32 value)
+    // Offset: 0x2A7C580
+    void SetCurrentCapacity(uint value);
+    // public System.Void SetDeeplinkMessageOverride(System.String value)
+    // Offset: 0x2A7C5FC
+    void SetDeeplinkMessageOverride(::StringW value);
+    // public System.Void SetEndTime(System.DateTime value)
+    // Offset: 0x2A7C678
+    void SetEndTime(::System::DateTime value);
+    // public System.Void SetExtraContext(Oculus.Platform.RichPresenceExtraContext value)
+    // Offset: 0x2A7C6F4
+    void SetExtraContext(::Oculus::Platform::RichPresenceExtraContext value);
+    // public System.Void SetInstanceId(System.String value)
+    // Offset: 0x2A7C770
+    void SetInstanceId(::StringW value);
+    // public System.Void SetIsIdle(System.Boolean value)
+    // Offset: 0x2A7C7EC
+    void SetIsIdle(bool value);
+    // public System.Void SetIsJoinable(System.Boolean value)
+    // Offset: 0x2A7C868
+    void SetIsJoinable(bool value);
+    // public System.Void SetMaxCapacity(System.UInt32 value)
+    // Offset: 0x2A7C8E4
+    void SetMaxCapacity(uint value);
+    // public System.Void SetStartTime(System.DateTime value)
+    // Offset: 0x2A7C960
+    void SetStartTime(::System::DateTime value);
+    // static public System.IntPtr op_Explicit(Oculus.Platform.RichPresenceOptions options)
+    // Offset: 0x2A7C2C0
+    // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
     // protected override System.Void Finalize()
-    // Offset: 0x2A265F4
+    // Offset: 0x2A7C9DC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -116,6 +106,10 @@ namespace Oculus::Platform {
   static_assert(sizeof(RichPresenceOptions) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Oculus::Platform::RichPresenceOptions::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::RichPresenceOptions::SetApiName
 // Il2CppName: SetApiName
 template<>
@@ -209,10 +203,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::RichPresenceOptions::operator ::System::IntPtr
 // Il2CppName: op_Explicit
 // Cannot perform method pointer template specialization from operators!
-// Writing MetadataGetter for method: Oculus::Platform::RichPresenceOptions::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::RichPresenceOptions::Finalize
 // Il2CppName: Finalize
 template<>

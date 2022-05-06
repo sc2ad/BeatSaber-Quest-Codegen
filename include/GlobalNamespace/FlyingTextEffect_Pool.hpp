@@ -25,12 +25,7 @@ namespace GlobalNamespace {
   class FlyingTextEffect::Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::FlyingTextEffect*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1392160
-    // Implemented from: Zenject.MonoMemoryPool`1
-    // Base method: System.Void MonoMemoryPool_1::.ctor()
-    // Base method: System.Void MemoryPool_1::.ctor()
-    // Base method: System.Void MemoryPoolBase_1::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1379C74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlyingTextEffect::Pool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FlyingTextEffect::Pool::.ctor");

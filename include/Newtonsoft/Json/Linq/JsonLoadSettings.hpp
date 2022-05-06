@@ -31,15 +31,7 @@ namespace Newtonsoft::Json::Linq {
   // [PreserveAttribute] Offset: FFFFFFFF
   class JsonLoadSettings : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Newtonsoft.Json.Linq.CommentHandling _commentHandling
     // Size: 0x4
     // Offset: 0x10
@@ -54,19 +46,17 @@ namespace Newtonsoft::Json::Linq {
     static_assert(sizeof(::Newtonsoft::Json::Linq::LineInfoHandling) == 0x4);
     public:
     // Get instance field reference: private Newtonsoft.Json.Linq.CommentHandling _commentHandling
-    ::Newtonsoft::Json::Linq::CommentHandling& dyn__commentHandling();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Linq::CommentHandling& dyn__commentHandling();
     // Get instance field reference: private Newtonsoft.Json.Linq.LineInfoHandling _lineInfoHandling
-    ::Newtonsoft::Json::Linq::LineInfoHandling& dyn__lineInfoHandling();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Linq::LineInfoHandling& dyn__lineInfoHandling();
     // public Newtonsoft.Json.Linq.CommentHandling get_CommentHandling()
-    // Offset: 0x1722AA8
+    // Offset: 0x175B3B8
     ::Newtonsoft::Json::Linq::CommentHandling get_CommentHandling();
     // public Newtonsoft.Json.Linq.LineInfoHandling get_LineInfoHandling()
-    // Offset: 0x1722AB0
+    // Offset: 0x175B3C0
     ::Newtonsoft::Json::Linq::LineInfoHandling get_LineInfoHandling();
     // public System.Void .ctor()
-    // Offset: 0x1722AB8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x175B3C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonLoadSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JsonLoadSettings::.ctor");

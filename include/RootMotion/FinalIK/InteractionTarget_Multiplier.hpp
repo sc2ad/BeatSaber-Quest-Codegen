@@ -25,23 +25,15 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionTarget::Multiplier : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x1277E00
+    // [TooltipAttribute] Offset: 0x10FCAB8
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type curve
     // Size: 0x4
     // Offset: 0x10
     ::RootMotion::FinalIK::InteractionObject::WeightCurve::Type curve;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::InteractionObject::WeightCurve::Type) == 0x4);
-    // [TooltipAttribute] Offset: 0x1277E38
+    // [TooltipAttribute] Offset: 0x10FCAF0
     // public System.Single multiplier
     // Size: 0x4
     // Offset: 0x14
@@ -50,13 +42,11 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type curve
-    ::RootMotion::FinalIK::InteractionObject::WeightCurve::Type& dyn_curve();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::InteractionObject::WeightCurve::Type& dyn_curve();
     // Get instance field reference: public System.Single multiplier
-    float& dyn_multiplier();
+    [[deprecated("Use field access instead!")]] float& dyn_multiplier();
     // public System.Void .ctor()
-    // Offset: 0x1F6D4CC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FB9D40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionTarget::Multiplier* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionTarget::Multiplier::.ctor");

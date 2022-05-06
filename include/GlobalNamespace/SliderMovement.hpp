@@ -50,23 +50,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SliderMovement : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x124FD40
+    // [InjectAttribute] Offset: 0x10D4874
     // private readonly IAudioTimeSource _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::IAudioTimeSource* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0x124FD50
+    // [InjectAttribute] Offset: 0x10D4884
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x20
@@ -193,105 +185,99 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSyncController
-    ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSyncController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSyncController();
     // Get instance field reference: private readonly PlayerTransforms _playerTransforms
-    ::GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
     // Get instance field reference: private System.Action movementDidFinishEvent
-    ::System::Action*& dyn_movementDidFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_movementDidFinishEvent();
     // Get instance field reference: private System.Action`1<System.Single> movementDidMoveEvent
-    ::System::Action_1<float>*& dyn_movementDidMoveEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<float>*& dyn_movementDidMoveEvent();
     // Get instance field reference: private System.Action headDidMovePastCutMarkEvent
-    ::System::Action*& dyn_headDidMovePastCutMarkEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_headDidMovePastCutMarkEvent();
     // Get instance field reference: private System.Action tailDidMovePastCutMarkEvent
-    ::System::Action*& dyn_tailDidMovePastCutMarkEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_tailDidMovePastCutMarkEvent();
     // Get instance field reference: private UnityEngine.Vector3 _headNoteJumpStartPos
-    ::UnityEngine::Vector3& dyn__headNoteJumpStartPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__headNoteJumpStartPos();
     // Get instance field reference: private UnityEngine.Vector3 _headNoteJumpEndPos
-    ::UnityEngine::Vector3& dyn__headNoteJumpEndPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__headNoteJumpEndPos();
     // Get instance field reference: private System.Single _headNoteTime
-    float& dyn__headNoteTime();
+    [[deprecated("Use field access instead!")]] float& dyn__headNoteTime();
     // Get instance field reference: private System.Single _tailNoteTime
-    float& dyn__tailNoteTime();
+    [[deprecated("Use field access instead!")]] float& dyn__tailNoteTime();
     // Get instance field reference: private UnityEngine.Vector3 _localPosition
-    ::UnityEngine::Vector3& dyn__localPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__localPosition();
     // Get instance field reference: private UnityEngine.Quaternion _worldRotation
-    ::UnityEngine::Quaternion& dyn__worldRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__worldRotation();
     // Get instance field reference: private UnityEngine.Quaternion _inverseWorldRotation
-    ::UnityEngine::Quaternion& dyn__inverseWorldRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__inverseWorldRotation();
     // Get instance field reference: private System.Single _jumpDuration
-    float& dyn__jumpDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__jumpDuration();
     // Get instance field reference: private System.Single _headNoteGravity
-    float& dyn__headNoteGravity();
+    [[deprecated("Use field access instead!")]] float& dyn__headNoteGravity();
     // Get instance field reference: private System.Single _tailNoteGravity
-    float& dyn__tailNoteGravity();
+    [[deprecated("Use field access instead!")]] float& dyn__tailNoteGravity();
     // Get instance field reference: private UnityEngine.Transform _transform
-    ::UnityEngine::Transform*& dyn__transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // Get instance field reference: private System.Boolean _movementEndReported
-    bool& dyn__movementEndReported();
+    [[deprecated("Use field access instead!")]] bool& dyn__movementEndReported();
     // Get instance field reference: private System.Boolean _headDidMovePastCutMarkReported
-    bool& dyn__headDidMovePastCutMarkReported();
+    [[deprecated("Use field access instead!")]] bool& dyn__headDidMovePastCutMarkReported();
     // Get instance field reference: private System.Boolean _tailDidMovePastCutMarkReported
-    bool& dyn__tailDidMovePastCutMarkReported();
+    [[deprecated("Use field access instead!")]] bool& dyn__tailDidMovePastCutMarkReported();
     // Get instance field reference: private System.Single _timeSinceHeadNoteJump
-    float& dyn__timeSinceHeadNoteJump();
+    [[deprecated("Use field access instead!")]] float& dyn__timeSinceHeadNoteJump();
     // public System.Single get_jumpDuration()
-    // Offset: 0x2AA2ABC
+    // Offset: 0x13896E0
     float get_jumpDuration();
     // public System.Single get_headNoteGravity()
-    // Offset: 0x2AA2AC4
+    // Offset: 0x13896E8
     float get_headNoteGravity();
     // public System.Single get_tailNoteGravity()
-    // Offset: 0x2AA2ACC
+    // Offset: 0x13896F0
     float get_tailNoteGravity();
     // public System.Single get_timeSinceHeadNoteJump()
-    // Offset: 0x2AA2AD4
+    // Offset: 0x13896F8
     float get_timeSinceHeadNoteJump();
     // public System.Void add_movementDidFinishEvent(System.Action value)
-    // Offset: 0x2A9E92C
+    // Offset: 0x1385550
     void add_movementDidFinishEvent(::System::Action* value);
     // public System.Void remove_movementDidFinishEvent(System.Action value)
-    // Offset: 0x2A9EF20
+    // Offset: 0x1385B44
     void remove_movementDidFinishEvent(::System::Action* value);
     // public System.Void add_movementDidMoveEvent(System.Action`1<System.Single> value)
-    // Offset: 0x2AA2974
+    // Offset: 0x1389598
     void add_movementDidMoveEvent(::System::Action_1<float>* value);
     // public System.Void remove_movementDidMoveEvent(System.Action`1<System.Single> value)
-    // Offset: 0x2AA2A18
+    // Offset: 0x138963C
     void remove_movementDidMoveEvent(::System::Action_1<float>* value);
     // public System.Void add_headDidMovePastCutMarkEvent(System.Action value)
-    // Offset: 0x2A9E9D0
+    // Offset: 0x13855F4
     void add_headDidMovePastCutMarkEvent(::System::Action* value);
     // public System.Void remove_headDidMovePastCutMarkEvent(System.Action value)
-    // Offset: 0x2A9EFC4
+    // Offset: 0x1385BE8
     void remove_headDidMovePastCutMarkEvent(::System::Action* value);
     // public System.Void add_tailDidMovePastCutMarkEvent(System.Action value)
-    // Offset: 0x2A9EA74
+    // Offset: 0x1385698
     void add_tailDidMovePastCutMarkEvent(::System::Action* value);
     // public System.Void remove_tailDidMovePastCutMarkEvent(System.Action value)
-    // Offset: 0x2A9F068
+    // Offset: 0x1385C8C
     void remove_tailDidMovePastCutMarkEvent(::System::Action* value);
-    // public System.Void Init(System.Single headNoteTime, System.Single tailNoteTime, System.Single worldRotation, UnityEngine.Vector3 headNoteJumpStartPos, UnityEngine.Vector3 headNoteJumpEndPos, System.Single jumpDuration, System.Single headNoteGravity, System.Single tailNoteGravity)
-    // Offset: 0x2A9D844
-    void Init(float headNoteTime, float tailNoteTime, float worldRotation, ::UnityEngine::Vector3 headNoteJumpStartPos, ::UnityEngine::Vector3 headNoteJumpEndPos, float jumpDuration, float headNoteGravity, float tailNoteGravity);
-    // public System.Void StartMovement()
-    // Offset: 0x2A9E7DC
-    void StartMovement();
-    // public System.Void ManualUpdate()
-    // Offset: 0x2A9F264
-    void ManualUpdate();
     // public System.Void .ctor()
-    // Offset: 0x2AA2ADC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1389700
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderMovement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderMovement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderMovement*, creationType>()));
     }
+    // public System.Void Init(System.Single headNoteTime, System.Single tailNoteTime, System.Single worldRotation, UnityEngine.Vector3 headNoteJumpStartPos, UnityEngine.Vector3 headNoteJumpEndPos, System.Single jumpDuration, System.Single headNoteGravity, System.Single tailNoteGravity)
+    // Offset: 0x1384468
+    void Init(float headNoteTime, float tailNoteTime, float worldRotation, ::UnityEngine::Vector3 headNoteJumpStartPos, ::UnityEngine::Vector3 headNoteJumpEndPos, float jumpDuration, float headNoteGravity, float tailNoteGravity);
+    // public System.Void StartMovement()
+    // Offset: 0x1385400
+    void StartMovement();
+    // public System.Void ManualUpdate()
+    // Offset: 0x1385E88
+    void ManualUpdate();
   }; // SliderMovement
   #pragma pack(pop)
   static check_size<sizeof(SliderMovement), 172 + sizeof(float)> __GlobalNamespace_SliderMovementSizeCheck;
@@ -402,6 +388,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SliderMovement*), "remove_tailDidMovePastCutMarkEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SliderMovement::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SliderMovement::Init
 // Il2CppName: Init
 template<>
@@ -434,7 +424,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SliderMovement*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SliderMovement::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -31,15 +31,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class ChunkedInputStream::ReadBufferState : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Byte[] Buffer
     // Size: 0x8
     // Offset: 0x10
@@ -74,17 +66,17 @@ namespace System::Net {
     static_assert(sizeof(::System::Net::HttpStreamAsyncResult*) == 0x8);
     public:
     // Get instance field reference: public System.Byte[] Buffer
-    ::ArrayW<uint8_t>& dyn_Buffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_Buffer();
     // Get instance field reference: public System.Int32 Offset
-    int& dyn_Offset();
+    [[deprecated("Use field access instead!")]] int& dyn_Offset();
     // Get instance field reference: public System.Int32 Count
-    int& dyn_Count();
+    [[deprecated("Use field access instead!")]] int& dyn_Count();
     // Get instance field reference: public System.Int32 InitialCount
-    int& dyn_InitialCount();
+    [[deprecated("Use field access instead!")]] int& dyn_InitialCount();
     // Get instance field reference: public System.Net.HttpStreamAsyncResult Ares
-    ::System::Net::HttpStreamAsyncResult*& dyn_Ares();
+    [[deprecated("Use field access instead!")]] ::System::Net::HttpStreamAsyncResult*& dyn_Ares();
     // public System.Void .ctor(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Net.HttpStreamAsyncResult ares)
-    // Offset: 0x1A35D2C
+    // Offset: 0x1A6F314
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChunkedInputStream::ReadBufferState* New_ctor(::ArrayW<uint8_t> buffer, int offset, int count, ::System::Net::HttpStreamAsyncResult* ares) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::ChunkedInputStream::ReadBufferState::.ctor");

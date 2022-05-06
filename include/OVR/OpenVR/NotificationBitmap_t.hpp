@@ -58,13 +58,13 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.IntPtr m_pImageData
-    ::System::IntPtr& dyn_m_pImageData();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_pImageData();
     // Get instance field reference: public System.Int32 m_nWidth
-    int& dyn_m_nWidth();
+    [[deprecated("Use field access instead!")]] int& dyn_m_nWidth();
     // Get instance field reference: public System.Int32 m_nHeight
-    int& dyn_m_nHeight();
+    [[deprecated("Use field access instead!")]] int& dyn_m_nHeight();
     // Get instance field reference: public System.Int32 m_nBytesPerPixel
-    int& dyn_m_nBytesPerPixel();
+    [[deprecated("Use field access instead!")]] int& dyn_m_nBytesPerPixel();
   }; // OVR.OpenVR.NotificationBitmap_t
   #pragma pack(pop)
   static check_size<sizeof(NotificationBitmap_t), 16 + sizeof(int)> __OVR_OpenVR_NotificationBitmap_tSizeCheck;

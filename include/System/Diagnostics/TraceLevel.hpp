@@ -72,7 +72,7 @@ namespace System::Diagnostics {
     // Set static field: static public System.Diagnostics.TraceLevel Verbose
     static void _set_Verbose(::System::Diagnostics::TraceLevel value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Diagnostics.TraceLevel
   #pragma pack(pop)
   static check_size<sizeof(TraceLevel), 0 + sizeof(int)> __System_Diagnostics_TraceLevelSizeCheck;

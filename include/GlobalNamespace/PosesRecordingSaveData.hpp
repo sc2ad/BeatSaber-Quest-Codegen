@@ -39,15 +39,7 @@ namespace GlobalNamespace {
     class TransformsSaveKeyframe;
     // Nested type: ::GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData
     class ExternalCameraCalibrationSaveData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.String[] objectIds
     // Size: 0x8
     // Offset: 0x10
@@ -68,13 +60,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData*) == 0x8);
     public:
     // Get instance field reference: public readonly System.String[] objectIds
-    ::ArrayW<::StringW>& dyn_objectIds();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_objectIds();
     // Get instance field reference: public readonly PosesRecordingSaveData/TransformsSaveKeyframe[] keyframes
-    ::ArrayW<::GlobalNamespace::PosesRecordingSaveData::TransformsSaveKeyframe*>& dyn_keyframes();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::PosesRecordingSaveData::TransformsSaveKeyframe*>& dyn_keyframes();
     // Get instance field reference: public readonly PosesRecordingSaveData/ExternalCameraCalibrationSaveData externalCameraCalibration
-    ::GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData*& dyn_externalCameraCalibration();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData*& dyn_externalCameraCalibration();
     // public System.Void .ctor(System.String[] objectIds, PosesRecordingSaveData/TransformsSaveKeyframe[] keyframes, PosesRecordingSaveData/ExternalCameraCalibrationSaveData externalCameraCalibration)
-    // Offset: 0x13754C8
+    // Offset: 0x13DC854
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PosesRecordingSaveData* New_ctor(::ArrayW<::StringW> objectIds, ::ArrayW<::GlobalNamespace::PosesRecordingSaveData::TransformsSaveKeyframe*> keyframes, ::GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData* externalCameraCalibration) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosesRecordingSaveData::.ctor");

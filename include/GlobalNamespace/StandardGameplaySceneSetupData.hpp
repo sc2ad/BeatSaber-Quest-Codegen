@@ -43,15 +43,7 @@ namespace GlobalNamespace {
   // [ZenjectAllowDuringValidationAttribute] Offset: FFFFFFFF
   class StandardGameplaySceneSetupData : public ::GlobalNamespace::SceneSetupData {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Boolean autoRestart
     // Size: 0x1
     // Offset: 0x10
@@ -100,21 +92,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public readonly System.Boolean autoRestart
-    bool& dyn_autoRestart();
+    [[deprecated("Use field access instead!")]] bool& dyn_autoRestart();
     // Get instance field reference: public readonly IPreviewBeatmapLevel previewBeatmapLevel
-    ::GlobalNamespace::IPreviewBeatmapLevel*& dyn_previewBeatmapLevel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPreviewBeatmapLevel*& dyn_previewBeatmapLevel();
     // Get instance field reference: public readonly BeatmapDifficulty beatmapDifficulty
-    ::GlobalNamespace::BeatmapDifficulty& dyn_beatmapDifficulty();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficulty& dyn_beatmapDifficulty();
     // Get instance field reference: public readonly BeatmapCharacteristicSO beatmapCharacteristic
-    ::GlobalNamespace::BeatmapCharacteristicSO*& dyn_beatmapCharacteristic();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCharacteristicSO*& dyn_beatmapCharacteristic();
     // Get instance field reference: public readonly System.String backButtonText
-    ::StringW& dyn_backButtonText();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_backButtonText();
     // Get instance field reference: public readonly GameplayModifiers gameplayModifiers
-    ::GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
     // Get instance field reference: public readonly System.Boolean startPaused
-    bool& dyn_startPaused();
+    [[deprecated("Use field access instead!")]] bool& dyn_startPaused();
     // public System.Void .ctor(System.Boolean autoRestart, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, System.String backButtonText, GameplayModifiers gameplayModifiers, System.Boolean startPaused)
-    // Offset: 0x2AAC03C
+    // Offset: 0x140FAF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardGameplaySceneSetupData* New_ctor(bool autoRestart, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::StringW backButtonText, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool startPaused) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardGameplaySceneSetupData::.ctor");

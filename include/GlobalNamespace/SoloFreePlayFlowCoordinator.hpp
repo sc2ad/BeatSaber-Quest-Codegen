@@ -60,15 +60,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::SoloFreePlayFlowCoordinator::$$c__DisplayClass21_0
     class $$c__DisplayClass21_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MenuLightsPresetSO _defaultLightsPreset
     // Size: 0x8
     // Offset: 0x110
@@ -87,28 +79,28 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MenuLightsPresetSO* resultsFailedLightsPreset;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MenuLightsPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x125981C
+    // [InjectAttribute] Offset: 0x10DE400
     // private readonly MenuLightsManager _menuLightsManager
     // Size: 0x8
     // Offset: 0x128
     ::GlobalNamespace::MenuLightsManager* menuLightsManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MenuLightsManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x125982C
+    // [InjectAttribute] Offset: 0x10DE410
     // private readonly ResultsViewController _resultsViewController
     // Size: 0x8
     // Offset: 0x130
     ::GlobalNamespace::ResultsViewController* resultsViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ResultsViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x125983C
+    // [InjectAttribute] Offset: 0x10DE420
     // private readonly PlatformLeaderboardViewController _platformLeaderboardViewController
     // Size: 0x8
     // Offset: 0x138
     ::GlobalNamespace::PlatformLeaderboardViewController* platformLeaderboardViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlatformLeaderboardViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x125984C
+    // [InjectAttribute] Offset: 0x10DE430
     // private readonly PlatformLeaderboardsModel _platformLeaderboardsModel
     // Size: 0x8
     // Offset: 0x140
@@ -117,84 +109,78 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::PlatformLeaderboardsModel*) == 0x8);
     public:
     // Get instance field reference: private MenuLightsPresetSO _defaultLightsPreset
-    ::GlobalNamespace::MenuLightsPresetSO*& dyn__defaultLightsPreset();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuLightsPresetSO*& dyn__defaultLightsPreset();
     // Get instance field reference: private MenuLightsPresetSO _resultsClearedLightsPreset
-    ::GlobalNamespace::MenuLightsPresetSO*& dyn__resultsClearedLightsPreset();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuLightsPresetSO*& dyn__resultsClearedLightsPreset();
     // Get instance field reference: private MenuLightsPresetSO _resultsFailedLightsPreset
-    ::GlobalNamespace::MenuLightsPresetSO*& dyn__resultsFailedLightsPreset();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuLightsPresetSO*& dyn__resultsFailedLightsPreset();
     // Get instance field reference: private readonly MenuLightsManager _menuLightsManager
-    ::GlobalNamespace::MenuLightsManager*& dyn__menuLightsManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuLightsManager*& dyn__menuLightsManager();
     // Get instance field reference: private readonly ResultsViewController _resultsViewController
-    ::GlobalNamespace::ResultsViewController*& dyn__resultsViewController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ResultsViewController*& dyn__resultsViewController();
     // Get instance field reference: private readonly PlatformLeaderboardViewController _platformLeaderboardViewController
-    ::GlobalNamespace::PlatformLeaderboardViewController*& dyn__platformLeaderboardViewController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlatformLeaderboardViewController*& dyn__platformLeaderboardViewController();
     // Get instance field reference: private readonly PlatformLeaderboardsModel _platformLeaderboardsModel
-    ::GlobalNamespace::PlatformLeaderboardsModel*& dyn__platformLeaderboardsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlatformLeaderboardsModel*& dyn__platformLeaderboardsModel();
     // private System.Boolean IsNewHighScore(PlayerLevelStatsData playerLevelStats, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x2AA4AD8
+    // Offset: 0x138B6FC
     bool IsNewHighScore(::GlobalNamespace::PlayerLevelStatsData* playerLevelStats, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // private System.Void HandleResultsViewControllerContinueButtonPressed(ResultsViewController viewController)
-    // Offset: 0x2AA4B50
+    // Offset: 0x138B774
     void HandleResultsViewControllerContinueButtonPressed(::GlobalNamespace::ResultsViewController* viewController);
     // private System.Void HandleResultsViewControllerRestartButtonPressed(ResultsViewController resultsViewController)
-    // Offset: 0x2AA4B98
+    // Offset: 0x138B7BC
     void HandleResultsViewControllerRestartButtonPressed(::GlobalNamespace::ResultsViewController* resultsViewController);
     // public System.Void __SetupFromDestination(RunLevelMenuDestination runLevelMenuDestination)
-    // Offset: 0x2AA4C54
+    // Offset: 0x138B878
     void __SetupFromDestination(::GlobalNamespace::RunLevelMenuDestination* runLevelMenuDestination);
     // protected override System.String get_gameMode()
-    // Offset: 0x2AA4614
+    // Offset: 0x138B238
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: System.String SinglePlayerLevelSelectionFlowCoordinator::get_gameMode()
     ::StringW get_gameMode();
     // protected override LeaderboardViewController get_leaderboardViewController()
-    // Offset: 0x2AA465C
+    // Offset: 0x138B280
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: LeaderboardViewController SinglePlayerLevelSelectionFlowCoordinator::get_leaderboardViewController()
     ::GlobalNamespace::LeaderboardViewController* get_leaderboardViewController();
     // protected override System.Boolean get_showBackButtonForMainViewController()
-    // Offset: 0x2AA4664
+    // Offset: 0x138B288
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Boolean LevelSelectionFlowCoordinator::get_showBackButtonForMainViewController()
     bool get_showBackButtonForMainViewController();
     // protected override System.String get_mainTitle()
-    // Offset: 0x2AA466C
+    // Offset: 0x138B290
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.String LevelSelectionFlowCoordinator::get_mainTitle()
     ::StringW get_mainTitle();
     // public System.Void .ctor()
-    // Offset: 0x2AA4FB4
+    // Offset: 0x138BBD8
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: System.Void SinglePlayerLevelSelectionFlowCoordinator::.ctor()
     // Base method: System.Void LevelSelectionFlowCoordinator::.ctor()
-    // Base method: System.Void FlowCoordinator::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SoloFreePlayFlowCoordinator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SoloFreePlayFlowCoordinator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SoloFreePlayFlowCoordinator*, creationType>()));
     }
     // protected override System.Void SinglePlayerLevelSelectionFlowCoordinatorDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
-    // Offset: 0x2AA46B8
+    // Offset: 0x138B2DC
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: System.Void SinglePlayerLevelSelectionFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
     void SinglePlayerLevelSelectionFlowCoordinatorDidActivate(bool firstActivation, bool addedToHierarchy);
     // protected override System.Void SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate(System.Boolean removedFromHierarchy)
-    // Offset: 0x2AA4830
+    // Offset: 0x138B454
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: System.Void SinglePlayerLevelSelectionFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate(System.Boolean removedFromHierarchy)
     void SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate(bool removedFromHierarchy);
     // protected override System.Void ProcessLevelCompletionResultsAfterLevelDidFinish(LevelCompletionResults levelCompletionResults, IReadonlyBeatmapData transformedBeatmapData, IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, System.Boolean practice)
-    // Offset: 0x2AA495C
+    // Offset: 0x138B580
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: System.Void SinglePlayerLevelSelectionFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish(LevelCompletionResults levelCompletionResults, IReadonlyBeatmapData transformedBeatmapData, IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, System.Boolean practice)
     void ProcessLevelCompletionResultsAfterLevelDidFinish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice);
     // protected override System.Void Refresh()
-    // Offset: 0x2AA4B04
+    // Offset: 0x138B728
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Void LevelSelectionFlowCoordinator::Refresh()
     void Refresh();

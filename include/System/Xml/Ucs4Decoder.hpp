@@ -29,15 +29,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class Ucs4Decoder : public ::System::Text::Decoder {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Byte[] lastBytes
     // Size: 0x8
     // Offset: 0x20
@@ -52,37 +44,34 @@ namespace System::Xml {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: System.Byte[] lastBytes
-    ::ArrayW<uint8_t>& dyn_lastBytes();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_lastBytes();
     // Get instance field reference: System.Int32 lastBytesCount
-    int& dyn_lastBytesCount();
-    // System.Int32 GetFullChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    int GetFullChars(::ArrayW<uint8_t> bytes, int byteIndex, int byteCount, ::ArrayW<::Il2CppChar> chars, int charIndex);
-    // System.Void Ucs4ToUTF16(System.UInt32 code, System.Char[] chars, System.Int32 charIndex)
-    // Offset: 0x1B6D58C
-    void Ucs4ToUTF16(uint code, ::ArrayW<::Il2CppChar> chars, int charIndex);
+    [[deprecated("Use field access instead!")]] int& dyn_lastBytesCount();
     // protected System.Void .ctor()
-    // Offset: 0x1B6D5F4
-    // Implemented from: System.Text.Decoder
-    // Base method: System.Void Decoder::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1BA7BDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ucs4Decoder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Ucs4Decoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Ucs4Decoder*, creationType>()));
     }
+    // System.Int32 GetFullChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    int GetFullChars(::ArrayW<uint8_t> bytes, int byteIndex, int byteCount, ::ArrayW<::Il2CppChar> chars, int charIndex);
+    // System.Void Ucs4ToUTF16(System.UInt32 code, System.Char[] chars, System.Int32 charIndex)
+    // Offset: 0x1BA7B74
+    void Ucs4ToUTF16(uint code, ::ArrayW<::Il2CppChar> chars, int charIndex);
     // public override System.Int32 GetCharCount(System.Byte[] bytes, System.Int32 index, System.Int32 count)
-    // Offset: 0x1B6D1C0
+    // Offset: 0x1BA77A8
     // Implemented from: System.Text.Decoder
     // Base method: System.Int32 Decoder::GetCharCount(System.Byte[] bytes, System.Int32 index, System.Int32 count)
     int GetCharCount(::ArrayW<uint8_t> bytes, int index, int count);
     // public override System.Int32 GetChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex)
-    // Offset: 0x1B6D1DC
+    // Offset: 0x1BA77C4
     // Implemented from: System.Text.Decoder
     // Base method: System.Int32 Decoder::GetChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex)
     int GetChars(::ArrayW<uint8_t> bytes, int byteIndex, int byteCount, ::ArrayW<::Il2CppChar> chars, int charIndex);
     // public override System.Void Convert(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Boolean flush, out System.Int32 bytesUsed, out System.Int32 charsUsed, out System.Boolean completed)
-    // Offset: 0x1B6D368
+    // Offset: 0x1BA7950
     // Implemented from: System.Text.Decoder
     // Base method: System.Void Decoder::Convert(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Boolean flush, out System.Int32 bytesUsed, out System.Int32 charsUsed, out System.Boolean completed)
     void Convert(::ArrayW<uint8_t> bytes, int byteIndex, int byteCount, ::ArrayW<::Il2CppChar> chars, int charIndex, int charCount, bool flush, ByRef<int> bytesUsed, ByRef<int> charsUsed, ByRef<bool> completed);
@@ -92,6 +81,10 @@ namespace System::Xml {
   static_assert(sizeof(Ucs4Decoder) == 0x2C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Xml::Ucs4Decoder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::Ucs4Decoder::GetFullChars
 // Il2CppName: GetFullChars
 template<>
@@ -116,10 +109,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Ucs4Decoder*), "Ucs4ToUTF16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{code, chars, charIndex});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Ucs4Decoder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::Ucs4Decoder::GetCharCount
 // Il2CppName: GetCharCount
 template<>

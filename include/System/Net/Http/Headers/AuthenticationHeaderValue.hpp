@@ -44,15 +44,7 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class AuthenticationHeaderValue : public ::Il2CppObject/*, public ::System::ICloneable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String <Parameter>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -71,54 +63,52 @@ namespace System::Net::Http::Headers {
       return *reinterpret_cast<::System::ICloneable*>(this);
     }
     // Get instance field reference: private System.String <Parameter>k__BackingField
-    ::StringW& dyn_$Parameter$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$Parameter$k__BackingField();
     // Get instance field reference: private System.String <Scheme>k__BackingField
-    ::StringW& dyn_$Scheme$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$Scheme$k__BackingField();
     // public System.String get_Parameter()
-    // Offset: 0x19534D4
+    // Offset: 0x198BABC
     ::StringW get_Parameter();
     // private System.Void set_Parameter(System.String value)
-    // Offset: 0x19534DC
+    // Offset: 0x198BAC4
     void set_Parameter(::StringW value);
     // public System.String get_Scheme()
-    // Offset: 0x19534E4
+    // Offset: 0x198BACC
     ::StringW get_Scheme();
     // private System.Void set_Scheme(System.String value)
-    // Offset: 0x19534EC
+    // Offset: 0x198BAD4
     void set_Scheme(::StringW value);
-    // private System.Object System.ICloneable.Clone()
-    // Offset: 0x19534F4
-    ::Il2CppObject* System_ICloneable_Clone();
-    // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.AuthenticationHeaderValue parsedValue)
-    // Offset: 0x1953644
-    static bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::AuthenticationHeaderValue*> parsedValue);
-    // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.AuthenticationHeaderValue> result)
-    // Offset: 0x1953884
-    static bool TryParse(::StringW input, int minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::AuthenticationHeaderValue*>*> result);
-    // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.AuthenticationHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x195373C
-    static bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::AuthenticationHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
     // private System.Void .ctor()
-    // Offset: 0x19534CC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x198BAB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AuthenticationHeaderValue* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::AuthenticationHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticationHeaderValue*, creationType>()));
     }
+    // private System.Object System.ICloneable.Clone()
+    // Offset: 0x198BADC
+    ::Il2CppObject* System_ICloneable_Clone();
+    // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.AuthenticationHeaderValue parsedValue)
+    // Offset: 0x198BC2C
+    static bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::AuthenticationHeaderValue*> parsedValue);
+    // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.AuthenticationHeaderValue> result)
+    // Offset: 0x198BE6C
+    static bool TryParse(::StringW input, int minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::AuthenticationHeaderValue*>*> result);
+    // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.AuthenticationHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
+    // Offset: 0x198BD24
+    static bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::AuthenticationHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x19534FC
+    // Offset: 0x198BAE4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x19535C4
+    // Offset: 0x198BBAC
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1953CA0
+    // Offset: 0x198C288
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -162,6 +152,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::AuthenticationHeaderValue*), "set_Scheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: System::Net::Http::Headers::AuthenticationHeaderValue::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::AuthenticationHeaderValue::System_ICloneable_Clone
 // Il2CppName: System.ICloneable.Clone
 template<>
@@ -202,10 +196,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::AuthenticationHeaderValue*), "TryParseElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lexer, parsedValue, t});
   }
 };
-// Writing MetadataGetter for method: System::Net::Http::Headers::AuthenticationHeaderValue::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::AuthenticationHeaderValue::Equals
 // Il2CppName: Equals
 template<>

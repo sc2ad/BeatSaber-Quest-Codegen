@@ -44,23 +44,15 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::FadeInOnSceneTransitionFinished::$FadeInAfterSceneTransitionCoroutine$d__3
     class $FadeInAfterSceneTransitionCoroutine$d__3;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x1241FE8
+    // [InjectAttribute] Offset: 0x10C6AD0
     // private FadeInOutController _fadeInOut
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::FadeInOutController* fadeInOut;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FadeInOutController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1241FF8
+    // [InjectAttribute] Offset: 0x10C6AE0
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
@@ -71,34 +63,32 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FadeInOutController _fadeInOut
-    ::GlobalNamespace::FadeInOutController*& dyn__fadeInOut();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FadeInOutController*& dyn__fadeInOut();
     // Get instance field reference: private GameScenesManager _gameScenesManager
-    ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
-    // protected System.Void OnEnable()
-    // Offset: 0x29E775C
-    void OnEnable();
-    // private System.Collections.IEnumerator FadeInAfterSceneTransitionCoroutine()
-    // Offset: 0x29E77B0
-    ::System::Collections::IEnumerator* FadeInAfterSceneTransitionCoroutine();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // public System.Void .ctor()
-    // Offset: 0x29E784C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A3E148
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FadeInOnSceneTransitionFinished* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FadeInOnSceneTransitionFinished::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FadeInOnSceneTransitionFinished*, creationType>()));
     }
+    // protected System.Void OnEnable()
+    // Offset: 0x2A3E058
+    void OnEnable();
+    // private System.Collections.IEnumerator FadeInAfterSceneTransitionCoroutine()
+    // Offset: 0x2A3E0AC
+    ::System::Collections::IEnumerator* FadeInAfterSceneTransitionCoroutine();
   }; // FadeInOnSceneTransitionFinished
   #pragma pack(pop)
   static check_size<sizeof(FadeInOnSceneTransitionFinished), 32 + sizeof(::GlobalNamespace::GameScenesManager*)> __GlobalNamespace_FadeInOnSceneTransitionFinishedSizeCheck;
   static_assert(sizeof(FadeInOnSceneTransitionFinished) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::FadeInOnSceneTransitionFinished::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FadeInOnSceneTransitionFinished::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -115,7 +105,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FadeInOnSceneTransitionFinished*), "FadeInAfterSceneTransitionCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FadeInOnSceneTransitionFinished::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -39,15 +39,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class RotateBySpawnRotation : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _aheadTime
     // Size: 0x4
     // Offset: 0x18
@@ -60,7 +52,7 @@ namespace GlobalNamespace {
     float smooth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x1251EB0
+    // [InjectAttribute] Offset: 0x10D6A3C
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x20
@@ -95,53 +87,51 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _aheadTime
-    float& dyn__aheadTime();
+    [[deprecated("Use field access instead!")]] float& dyn__aheadTime();
     // Get instance field reference: private System.Single _smooth
-    float& dyn__smooth();
+    [[deprecated("Use field access instead!")]] float& dyn__smooth();
     // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
-    ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
-    ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // Get instance field reference: private System.Single _currentRotation
-    float& dyn__currentRotation();
+    [[deprecated("Use field access instead!")]] float& dyn__currentRotation();
     // Get instance field reference: private System.Single _prevRotation
-    float& dyn__prevRotation();
+    [[deprecated("Use field access instead!")]] float& dyn__prevRotation();
     // Get instance field reference: private System.Single _targetRotation
-    float& dyn__targetRotation();
-    // protected System.Void Start()
-    // Offset: 0x1417A34
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x1417B60
-    void OnDestroy();
-    // private System.Void HandleSpawnRotationBeatmapEvent(SpawnRotationBeatmapEventData beatmapEventData)
-    // Offset: 0x1417B7C
-    void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::SpawnRotationBeatmapEventData* beatmapEventData);
-    // protected System.Void FixedUpdate()
-    // Offset: 0x1417C74
-    void FixedUpdate();
-    // protected System.Void LateUpdate()
-    // Offset: 0x1417D44
-    void LateUpdate();
+    [[deprecated("Use field access instead!")]] float& dyn__targetRotation();
     // public System.Void .ctor()
-    // Offset: 0x1417E74
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x145954C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RotateBySpawnRotation* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RotateBySpawnRotation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RotateBySpawnRotation*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x145910C
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1459238
+    void OnDestroy();
+    // private System.Void HandleSpawnRotationBeatmapEvent(SpawnRotationBeatmapEventData beatmapEventData)
+    // Offset: 0x1459254
+    void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::SpawnRotationBeatmapEventData* beatmapEventData);
+    // protected System.Void FixedUpdate()
+    // Offset: 0x145934C
+    void FixedUpdate();
+    // protected System.Void LateUpdate()
+    // Offset: 0x145941C
+    void LateUpdate();
   }; // RotateBySpawnRotation
   #pragma pack(pop)
   static check_size<sizeof(RotateBySpawnRotation), 56 + sizeof(float)> __GlobalNamespace_RotateBySpawnRotationSizeCheck;
   static_assert(sizeof(RotateBySpawnRotation) == 0x3C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::RotateBySpawnRotation::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::RotateBySpawnRotation::Start
 // Il2CppName: Start
 template<>
@@ -183,7 +173,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RotateBySpawnRotation*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::RotateBySpawnRotation::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

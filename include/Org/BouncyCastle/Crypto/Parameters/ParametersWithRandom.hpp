@@ -31,15 +31,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParametersWithRandom : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::ICipherParameters*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Crypto.ICipherParameters parameters
     // Size: 0x8
     // Offset: 0x10
@@ -58,14 +50,14 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.ICipherParameters parameters
-    ::Org::BouncyCastle::Crypto::ICipherParameters*& dyn_parameters();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::ICipherParameters*& dyn_parameters();
     // Get instance field reference: private readonly Org.BouncyCastle.Security.SecureRandom random
-    ::Org::BouncyCastle::Security::SecureRandom*& dyn_random();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // public Org.BouncyCastle.Security.SecureRandom get_Random()
-    // Offset: 0x15C3AB0
+    // Offset: 0x15F93C0
     ::Org::BouncyCastle::Security::SecureRandom* get_Random();
     // public Org.BouncyCastle.Crypto.ICipherParameters get_Parameters()
-    // Offset: 0x15C3AB8
+    // Offset: 0x15F93C8
     ::Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
   }; // Org.BouncyCastle.Crypto.Parameters.ParametersWithRandom
   #pragma pack(pop)

@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MainAudioEffects : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.AudioLowPassFilter _audioLowPassFilter
     // Size: 0x8
     // Offset: 0x18
@@ -80,42 +72,40 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kLowPassCutoffFrequency
     static void _set_kLowPassCutoffFrequency(int value);
     // Get instance field reference: private UnityEngine.AudioLowPassFilter _audioLowPassFilter
-    ::UnityEngine::AudioLowPassFilter*& dyn__audioLowPassFilter();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioLowPassFilter*& dyn__audioLowPassFilter();
     // Get instance field reference: private System.Single _smooth
-    float& dyn__smooth();
+    [[deprecated("Use field access instead!")]] float& dyn__smooth();
     // Get instance field reference: private System.Single _targetFrequency
-    float& dyn__targetFrequency();
-    // protected System.Void Start()
-    // Offset: 0x152FB48
-    void Start();
-    // protected System.Void LateUpdate()
-    // Offset: 0x152FB88
-    void LateUpdate();
-    // public System.Void ResumeNormalSound()
-    // Offset: 0x152FC94
-    void ResumeNormalSound();
-    // public System.Void TriggerLowPass()
-    // Offset: 0x152FCC8
-    void TriggerLowPass();
+    [[deprecated("Use field access instead!")]] float& dyn__targetFrequency();
     // public System.Void .ctor()
-    // Offset: 0x152FD10
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1567618
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainAudioEffects* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainAudioEffects::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainAudioEffects*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x1567450
+    void Start();
+    // protected System.Void LateUpdate()
+    // Offset: 0x1567490
+    void LateUpdate();
+    // public System.Void ResumeNormalSound()
+    // Offset: 0x156759C
+    void ResumeNormalSound();
+    // public System.Void TriggerLowPass()
+    // Offset: 0x15675D0
+    void TriggerLowPass();
   }; // MainAudioEffects
   #pragma pack(pop)
   static check_size<sizeof(MainAudioEffects), 36 + sizeof(float)> __GlobalNamespace_MainAudioEffectsSizeCheck;
   static_assert(sizeof(MainAudioEffects) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MainAudioEffects::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MainAudioEffects::Start
 // Il2CppName: Start
 template<>
@@ -148,7 +138,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainAudioEffects*), "TriggerLowPass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MainAudioEffects::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

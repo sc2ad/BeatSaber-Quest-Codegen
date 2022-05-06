@@ -51,15 +51,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class DigestSession : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.DateTime lastUse
     // Size: 0x8
     // Offset: 0x10
@@ -98,66 +90,64 @@ namespace System::Net {
     // Set static field: static private System.Security.Cryptography.RandomNumberGenerator rng
     static void _set_rng(::System::Security::Cryptography::RandomNumberGenerator* value);
     // Get instance field reference: private System.DateTime lastUse
-    ::System::DateTime& dyn_lastUse();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_lastUse();
     // Get instance field reference: private System.Int32 _nc
-    int& dyn__nc();
+    [[deprecated("Use field access instead!")]] int& dyn__nc();
     // Get instance field reference: private System.Security.Cryptography.HashAlgorithm hash
-    ::System::Security::Cryptography::HashAlgorithm*& dyn_hash();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::HashAlgorithm*& dyn_hash();
     // Get instance field reference: private System.Net.DigestHeaderParser parser
-    ::System::Net::DigestHeaderParser*& dyn_parser();
+    [[deprecated("Use field access instead!")]] ::System::Net::DigestHeaderParser*& dyn_parser();
     // Get instance field reference: private System.String _cnonce
-    ::StringW& dyn__cnonce();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__cnonce();
     // public System.String get_Algorithm()
-    // Offset: 0x1A403C4
+    // Offset: 0x1A799AC
     ::StringW get_Algorithm();
     // public System.String get_Realm()
-    // Offset: 0x1A403DC
+    // Offset: 0x1A799C4
     ::StringW get_Realm();
     // public System.String get_Nonce()
-    // Offset: 0x1A3F44C
+    // Offset: 0x1A78A34
     ::StringW get_Nonce();
     // public System.String get_Opaque()
-    // Offset: 0x1A403F4
+    // Offset: 0x1A799DC
     ::StringW get_Opaque();
     // public System.String get_QOP()
-    // Offset: 0x1A4040C
+    // Offset: 0x1A799F4
     ::StringW get_QOP();
     // public System.String get_CNonce()
-    // Offset: 0x1A40424
+    // Offset: 0x1A79A0C
     ::StringW get_CNonce();
     // public System.DateTime get_LastUse()
-    // Offset: 0x1A409BC
+    // Offset: 0x1A79FA4
     ::System::DateTime get_LastUse();
     // static private System.Void .cctor()
-    // Offset: 0x1A4036C
+    // Offset: 0x1A79954
     static void _cctor();
-    // public System.Boolean Parse(System.String challenge)
-    // Offset: 0x1A3F370
-    bool Parse(::StringW challenge);
-    // private System.String HashToHexString(System.String toBeHashed)
-    // Offset: 0x1A40520
-    ::StringW HashToHexString(::StringW toBeHashed);
-    // private System.String HA1(System.String username, System.String password)
-    // Offset: 0x1A40678
-    ::StringW HA1(::StringW username, ::StringW password);
-    // private System.String HA2(System.Net.HttpWebRequest webRequest)
-    // Offset: 0x1A40798
-    ::StringW HA2(::System::Net::HttpWebRequest* webRequest);
-    // private System.String Response(System.String username, System.String password, System.Net.HttpWebRequest webRequest)
-    // Offset: 0x1A4086C
-    ::StringW Response(::StringW username, ::StringW password, ::System::Net::HttpWebRequest* webRequest);
-    // public System.Net.Authorization Authenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1A3F464
-    ::System::Net::Authorization* Authenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
     // public System.Void .ctor()
-    // Offset: 0x1A3F2F0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1A788D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DigestSession* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::DigestSession::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DigestSession*, creationType>()));
     }
+    // public System.Boolean Parse(System.String challenge)
+    // Offset: 0x1A78958
+    bool Parse(::StringW challenge);
+    // private System.String HashToHexString(System.String toBeHashed)
+    // Offset: 0x1A79B08
+    ::StringW HashToHexString(::StringW toBeHashed);
+    // private System.String HA1(System.String username, System.String password)
+    // Offset: 0x1A79C60
+    ::StringW HA1(::StringW username, ::StringW password);
+    // private System.String HA2(System.Net.HttpWebRequest webRequest)
+    // Offset: 0x1A79D80
+    ::StringW HA2(::System::Net::HttpWebRequest* webRequest);
+    // private System.String Response(System.String username, System.String password, System.Net.HttpWebRequest webRequest)
+    // Offset: 0x1A79E54
+    ::StringW Response(::StringW username, ::StringW password, ::System::Net::HttpWebRequest* webRequest);
+    // public System.Net.Authorization Authenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
+    // Offset: 0x1A78A4C
+    ::System::Net::Authorization* Authenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
   }; // System.Net.DigestSession
   #pragma pack(pop)
   static check_size<sizeof(DigestSession), 48 + sizeof(::StringW)> __System_Net_DigestSessionSizeCheck;
@@ -228,6 +218,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Net::DigestSession::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::DigestSession::Parse
 // Il2CppName: Parse
 template<>
@@ -286,7 +280,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::N
     return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), "Authenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{webRequest, credentials});
   }
 };
-// Writing MetadataGetter for method: System::Net::DigestSession::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -44,22 +44,24 @@ namespace NUnit::Framework::Internal::Builders {
     operator ::NUnit::Framework::Interfaces::IParameterDataProvider() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::IParameterDataProvider*>(this);
     }
-    // public System.Collections.IEnumerable GetDataFor(NUnit.Framework.Interfaces.IParameterInfo parameter)
-    // Offset: 0x1C4CEF0
-    ::System::Collections::IEnumerable* GetDataFor(::NUnit::Framework::Interfaces::IParameterInfo* parameter);
     // public System.Void .ctor()
-    // Offset: 0x1C3A074
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C9260C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParameterDataSourceProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Builders::ParameterDataSourceProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParameterDataSourceProvider*, creationType>()));
     }
+    // public System.Collections.IEnumerable GetDataFor(NUnit.Framework.Interfaces.IParameterInfo parameter)
+    // Offset: 0x1CA5488
+    ::System::Collections::IEnumerable* GetDataFor(::NUnit::Framework::Interfaces::IParameterInfo* parameter);
   }; // NUnit.Framework.Internal.Builders.ParameterDataSourceProvider
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::ParameterDataSourceProvider::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::ParameterDataSourceProvider::GetDataFor
 // Il2CppName: GetDataFor
 template<>
@@ -69,7 +71,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::ParameterDataSourceProvider*), "GetDataFor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parameter});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::ParameterDataSourceProvider::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

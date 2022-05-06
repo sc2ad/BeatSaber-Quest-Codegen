@@ -33,15 +33,7 @@ namespace System::Net {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class HttpWebRequest::$$c__DisplayClass238_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Net.WebAsyncResult aread
     // Size: 0x8
     // Offset: 0x10
@@ -56,27 +48,29 @@ namespace System::Net {
     static_assert(sizeof(::System::Net::HttpWebRequest*) == 0x8);
     public:
     // Get instance field reference: public System.Net.WebAsyncResult aread
-    ::System::Net::WebAsyncResult*& dyn_aread();
+    [[deprecated("Use field access instead!")]] ::System::Net::WebAsyncResult*& dyn_aread();
     // Get instance field reference: public System.Net.HttpWebRequest <>4__this
-    ::System::Net::HttpWebRequest*& dyn_$$4__this();
-    // System.Void <BeginGetResponse>b__0(System.Net.SimpleAsyncResult inner)
-    // Offset: 0x1A75F10
-    void $BeginGetResponse$b__0(::System::Net::SimpleAsyncResult* inner);
+    [[deprecated("Use field access instead!")]] ::System::Net::HttpWebRequest*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x1A7246C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1AACA54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpWebRequest::$$c__DisplayClass238_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::HttpWebRequest::$$c__DisplayClass238_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpWebRequest::$$c__DisplayClass238_0*, creationType>()));
     }
+    // System.Void <BeginGetResponse>b__0(System.Net.SimpleAsyncResult inner)
+    // Offset: 0x1AB04F8
+    void $BeginGetResponse$b__0(::System::Net::SimpleAsyncResult* inner);
   }; // System.Net.HttpWebRequest/System.Net.<>c__DisplayClass238_0
   #pragma pack(pop)
   static check_size<sizeof(HttpWebRequest::$$c__DisplayClass238_0), 24 + sizeof(::System::Net::HttpWebRequest*)> __System_Net_HttpWebRequest_$$c__DisplayClass238_0SizeCheck;
   static_assert(sizeof(HttpWebRequest::$$c__DisplayClass238_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Net::HttpWebRequest::$$c__DisplayClass238_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::HttpWebRequest::$$c__DisplayClass238_0::$BeginGetResponse$b__0
 // Il2CppName: <BeginGetResponse>b__0
 template<>
@@ -86,7 +80,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest::$$c__DisplayClass238_0*), "<BeginGetResponse>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inner});
   }
 };
-// Writing MetadataGetter for method: System::Net::HttpWebRequest::$$c__DisplayClass238_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

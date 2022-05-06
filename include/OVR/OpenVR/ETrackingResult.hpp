@@ -72,7 +72,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.ETrackingResult Running_OutOfRange
     static void _set_Running_OutOfRange(::OVR::OpenVR::ETrackingResult value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVR.OpenVR.ETrackingResult
   #pragma pack(pop)
   static check_size<sizeof(ETrackingResult), 0 + sizeof(int)> __OVR_OpenVR_ETrackingResultSizeCheck;

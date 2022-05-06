@@ -30,15 +30,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BTSCharacterDataModel::PrefabWithId : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _id
     // Size: 0x4
     // Offset: 0x10
@@ -55,19 +47,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::AddressableAssets::AssetReference*) == 0x8);
     public:
     // Get instance field reference: private System.Int32 _id
-    int& dyn__id();
+    [[deprecated("Use field access instead!")]] int& dyn__id();
     // Get instance field reference: private UnityEngine.AddressableAssets.AssetReference _prefabAssetReference
-    ::UnityEngine::AddressableAssets::AssetReference*& dyn__prefabAssetReference();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AddressableAssets::AssetReference*& dyn__prefabAssetReference();
     // public System.Int32 get_id()
-    // Offset: 0x14C24D0
+    // Offset: 0x14F9D88
     int get_id();
     // public UnityEngine.AddressableAssets.AssetReference get_prefabAssetReference()
-    // Offset: 0x14C24D8
+    // Offset: 0x14F9D90
     ::UnityEngine::AddressableAssets::AssetReference* get_prefabAssetReference();
     // public System.Void .ctor()
-    // Offset: 0x14C24E0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14F9D98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterDataModel::PrefabWithId* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSCharacterDataModel::PrefabWithId::.ctor");

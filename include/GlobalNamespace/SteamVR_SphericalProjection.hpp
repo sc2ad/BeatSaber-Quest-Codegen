@@ -43,29 +43,27 @@ namespace GlobalNamespace {
     static ::UnityEngine::Material* _get_material();
     // Set static field: static private UnityEngine.Material material
     static void _set_material(::UnityEngine::Material* value);
-    // public System.Void Set(UnityEngine.Vector3 N, System.Single phi0, System.Single phi1, System.Single theta0, System.Single theta1, UnityEngine.Vector3 uAxis, UnityEngine.Vector3 uOrigin, System.Single uScale, UnityEngine.Vector3 vAxis, UnityEngine.Vector3 vOrigin, System.Single vScale)
-    // Offset: 0x187A1BC
-    void Set(::UnityEngine::Vector3 N, float phi0, float phi1, float theta0, float theta1, ::UnityEngine::Vector3 uAxis, ::UnityEngine::Vector3 uOrigin, float uScale, ::UnityEngine::Vector3 vAxis, ::UnityEngine::Vector3 vOrigin, float vScale);
-    // private System.Void OnRenderImage(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x187A55C
-    void OnRenderImage(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
     // public System.Void .ctor()
-    // Offset: 0x187A5EC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18B3EFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_SphericalProjection* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_SphericalProjection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_SphericalProjection*, creationType>()));
     }
+    // public System.Void Set(UnityEngine.Vector3 N, System.Single phi0, System.Single phi1, System.Single theta0, System.Single theta1, UnityEngine.Vector3 uAxis, UnityEngine.Vector3 uOrigin, System.Single uScale, UnityEngine.Vector3 vAxis, UnityEngine.Vector3 vOrigin, System.Single vScale)
+    // Offset: 0x18B3ACC
+    void Set(::UnityEngine::Vector3 N, float phi0, float phi1, float theta0, float theta1, ::UnityEngine::Vector3 uAxis, ::UnityEngine::Vector3 uOrigin, float uScale, ::UnityEngine::Vector3 vAxis, ::UnityEngine::Vector3 vOrigin, float vScale);
+    // private System.Void OnRenderImage(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
+    // Offset: 0x18B3E6C
+    void OnRenderImage(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
   }; // SteamVR_SphericalProjection
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_SphericalProjection::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_SphericalProjection::Set
 // Il2CppName: Set
 template<>
@@ -95,7 +93,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_SphericalProjection*), "OnRenderImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, dest});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SteamVR_SphericalProjection::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

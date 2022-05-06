@@ -55,11 +55,11 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Boolean bActive
-    bool& dyn_bActive();
+    [[deprecated("Use field access instead!")]] bool& dyn_bActive();
     // Get instance field reference: public System.UInt64 activeOrigin
-    uint64_t& dyn_activeOrigin();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_activeOrigin();
     // Get instance field reference: public OVR.OpenVR.TrackedDevicePose_t pose
-    ::OVR::OpenVR::TrackedDevicePose_t& dyn_pose();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::TrackedDevicePose_t& dyn_pose();
   }; // OVR.OpenVR.InputPoseActionData_t
   #pragma pack(pop)
   static check_size<sizeof(InputPoseActionData_t), 16 + sizeof(::OVR::OpenVR::TrackedDevicePose_t)> __OVR_OpenVR_InputPoseActionData_tSizeCheck;

@@ -99,20 +99,12 @@ namespace GameLift {
       // Set static field: static public GameLift.AuthenticateGameLiftUserResponse/GameLift.Result UnknownError
       static void _set_UnknownError(::GameLift::AuthenticateGameLiftUserResponse::Result value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // GameLift.AuthenticateGameLiftUserResponse/GameLift.Result
     #pragma pack(pop)
     static check_size<sizeof(AuthenticateGameLiftUserResponse::Result), 0 + sizeof(int)> __GameLift_AuthenticateGameLiftUserResponse_ResultSizeCheck;
     static_assert(sizeof(AuthenticateGameLiftUserResponse::Result) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public GameLift.AuthenticateGameLiftUserResponse/GameLift.Result result
     // Size: 0x4
     // Offset: 0x18
@@ -133,48 +125,47 @@ namespace GameLift {
       return result;
     }
     // Get instance field reference: public GameLift.AuthenticateGameLiftUserResponse/GameLift.Result result
-    ::GameLift::AuthenticateGameLiftUserResponse::Result& dyn_result();
+    [[deprecated("Use field access instead!")]] ::GameLift::AuthenticateGameLiftUserResponse::Result& dyn_result();
     // static public PacketPool`1<GameLift.AuthenticateGameLiftUserResponse> get_pool()
-    // Offset: 0x16422A4
+    // Offset: 0x1678BB4
     static ::GlobalNamespace::PacketPool_1<::GameLift::AuthenticateGameLiftUserResponse*>* get_pool();
     // public System.Boolean get_isAuthenticated()
-    // Offset: 0x1642384
+    // Offset: 0x1678C94
     bool get_isAuthenticated();
     // public GameLift.AuthenticateGameLiftUserResponse Init(GameLift.AuthenticateGameLiftUserResponse/GameLift.Result result)
-    // Offset: 0x1642394
+    // Offset: 0x1678CA4
     ::GameLift::AuthenticateGameLiftUserResponse* Init(::GameLift::AuthenticateGameLiftUserResponse::Result result);
     // public override System.Byte get_resultCode()
-    // Offset: 0x16422EC
+    // Offset: 0x1678BFC
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Byte BaseReliableResponse::get_resultCode()
     uint8_t get_resultCode();
     // public override System.String get_resultCodeString()
-    // Offset: 0x16422F4
+    // Offset: 0x1678C04
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.String BaseReliableResponse::get_resultCodeString()
     ::StringW get_resultCodeString();
     // public System.Void .ctor()
-    // Offset: 0x1642478
+    // Offset: 0x1678D88
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AuthenticateGameLiftUserResponse* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GameLift::AuthenticateGameLiftUserResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticateGameLiftUserResponse*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x164239C
+    // Offset: 0x1678CAC
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16423D8
+    // Offset: 0x1678CE8
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x164241C
+    // Offset: 0x1678D2C
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Release()
     void Release();

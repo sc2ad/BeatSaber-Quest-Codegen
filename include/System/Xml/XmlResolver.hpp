@@ -42,31 +42,33 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlResolver : public ::Il2CppObject {
     public:
-    // public System.Object GetEntity(System.Uri absoluteUri, System.String role, System.Type ofObjectToReturn)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    ::Il2CppObject* GetEntity(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
-    // public System.Uri ResolveUri(System.Uri baseUri, System.String relativeUri)
-    // Offset: 0x15A7F50
-    ::System::Uri* ResolveUri(::System::Uri* baseUri, ::StringW relativeUri);
-    // public System.Boolean SupportsType(System.Uri absoluteUri, System.Type type)
-    // Offset: 0x15A812C
-    bool SupportsType(::System::Uri* absoluteUri, ::System::Type* type);
-    // public System.Threading.Tasks.Task`1<System.Object> GetEntityAsync(System.Uri absoluteUri, System.String role, System.Type ofObjectToReturn)
-    // Offset: 0x15A826C
-    ::System::Threading::Tasks::Task_1<::Il2CppObject*>* GetEntityAsync(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
     // protected System.Void .ctor()
-    // Offset: 0x15A82CC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15DDBDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlResolver* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlResolver::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlResolver*, creationType>()));
     }
+    // public System.Object GetEntity(System.Uri absoluteUri, System.String role, System.Type ofObjectToReturn)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    ::Il2CppObject* GetEntity(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
+    // public System.Uri ResolveUri(System.Uri baseUri, System.String relativeUri)
+    // Offset: 0x15DD860
+    ::System::Uri* ResolveUri(::System::Uri* baseUri, ::StringW relativeUri);
+    // public System.Boolean SupportsType(System.Uri absoluteUri, System.Type type)
+    // Offset: 0x15DDA3C
+    bool SupportsType(::System::Uri* absoluteUri, ::System::Type* type);
+    // public System.Threading.Tasks.Task`1<System.Object> GetEntityAsync(System.Uri absoluteUri, System.String role, System.Type ofObjectToReturn)
+    // Offset: 0x15DDB7C
+    ::System::Threading::Tasks::Task_1<::Il2CppObject*>* GetEntityAsync(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
   }; // System.Xml.XmlResolver
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Xml::XmlResolver::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::XmlResolver::GetEntity
 // Il2CppName: GetEntity
 template<>
@@ -109,7 +111,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlResolver*), "GetEntityAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{absoluteUri, role, ofObjectToReturn});
   }
 };
-// Writing MetadataGetter for method: System::Xml::XmlResolver::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

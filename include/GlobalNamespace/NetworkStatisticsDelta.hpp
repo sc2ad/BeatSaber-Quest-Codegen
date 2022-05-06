@@ -112,33 +112,33 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public readonly System.Int64 packetsSentDelta
-    int64_t& dyn_packetsSentDelta();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_packetsSentDelta();
     // Get instance field reference: public readonly System.Int64 packetsReceivedDelta
-    int64_t& dyn_packetsReceivedDelta();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_packetsReceivedDelta();
     // Get instance field reference: public readonly System.Int64 bytesSentDelta
-    int64_t& dyn_bytesSentDelta();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_bytesSentDelta();
     // Get instance field reference: public readonly System.Int64 bytesReceivedDelta
-    int64_t& dyn_bytesReceivedDelta();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_bytesReceivedDelta();
     // Get instance field reference: public readonly System.Int64 packetsLostDelta
-    int64_t& dyn_packetsLostDelta();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_packetsLostDelta();
     // Get instance field reference: public readonly System.Int64 packetsSentEncryptedDelta
-    int64_t& dyn_packetsSentEncryptedDelta();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_packetsSentEncryptedDelta();
     // Get instance field reference: public readonly System.Int64 packetsSentPlaintextDelta
-    int64_t& dyn_packetsSentPlaintextDelta();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_packetsSentPlaintextDelta();
     // Get instance field reference: public readonly System.Int64 packetsSentRejectedDelta
-    int64_t& dyn_packetsSentRejectedDelta();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_packetsSentRejectedDelta();
     // Get instance field reference: public readonly System.Int64 packetsReceivedEncryptedDelta
-    int64_t& dyn_packetsReceivedEncryptedDelta();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_packetsReceivedEncryptedDelta();
     // Get instance field reference: public readonly System.Int64 packetsReceivedPlaintextDelta
-    int64_t& dyn_packetsReceivedPlaintextDelta();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_packetsReceivedPlaintextDelta();
     // Get instance field reference: public readonly System.Int64 packetsReceivedRejectedDelta
-    int64_t& dyn_packetsReceivedRejectedDelta();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_packetsReceivedRejectedDelta();
     // Get instance field reference: public readonly System.Int64 encryptionProcessingTimeDelta
-    int64_t& dyn_encryptionProcessingTimeDelta();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_encryptionProcessingTimeDelta();
     // Get instance field reference: public readonly System.Int64 decryptionProcessingTimeDelta
-    int64_t& dyn_decryptionProcessingTimeDelta();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_decryptionProcessingTimeDelta();
     // public System.Void .ctor(System.Int64 packetsSentDelta, System.Int64 packetsReceivedDelta, System.Int64 bytesSentDelta, System.Int64 bytesReceivedDelta, System.Int64 packetsLostDelta, System.Int64 packetsSentEncryptedDelta, System.Int64 packetsSentPlaintextDelta, System.Int64 packetsSentRejectedDelta, System.Int64 packetsReceivedEncryptedDelta, System.Int64 packetsReceivedPlaintextDelta, System.Int64 packetsReceivedRejectedDelta, System.Int64 encryptionProcessingTimeDelta, System.Int64 decryptionProcessingTimeDelta)
-    // Offset: 0x17059E0
+    // Offset: 0x173E2F0
     // ABORTED: conflicts with another method.  NetworkStatisticsDelta(int64_t packetsSentDelta, int64_t packetsReceivedDelta, int64_t bytesSentDelta, int64_t bytesReceivedDelta, int64_t packetsLostDelta, int64_t packetsSentEncryptedDelta, int64_t packetsSentPlaintextDelta, int64_t packetsSentRejectedDelta, int64_t packetsReceivedEncryptedDelta, int64_t packetsReceivedPlaintextDelta, int64_t packetsReceivedRejectedDelta, int64_t encryptionProcessingTimeDelta, int64_t decryptionProcessingTimeDelta);
   }; // NetworkStatisticsDelta
   #pragma pack(pop)

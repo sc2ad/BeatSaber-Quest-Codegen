@@ -57,11 +57,11 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.IntPtr handle
-    ::System::IntPtr& dyn_handle();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_handle();
     // Get instance field reference: public Valve.VR.ETextureType eType
-    ::Valve::VR::ETextureType& dyn_eType();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::ETextureType& dyn_eType();
     // Get instance field reference: public Valve.VR.EColorSpace eColorSpace
-    ::Valve::VR::EColorSpace& dyn_eColorSpace();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::EColorSpace& dyn_eColorSpace();
   }; // Valve.VR.Texture_t
   #pragma pack(pop)
   static check_size<sizeof(Texture_t), 12 + sizeof(::Valve::VR::EColorSpace)> __Valve_VR_Texture_tSizeCheck;

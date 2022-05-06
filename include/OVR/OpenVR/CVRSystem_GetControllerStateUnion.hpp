@@ -43,9 +43,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public OVR.OpenVR.IVRSystem/OVR.OpenVR._GetControllerState pGetControllerState
-    ::OVR::OpenVR::IVRSystem::_GetControllerState*& dyn_pGetControllerState();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetControllerState*& dyn_pGetControllerState();
     // Get instance field reference: public OVR.OpenVR.CVRSystem/OVR.OpenVR._GetControllerStatePacked pGetControllerStatePacked
-    ::OVR::OpenVR::CVRSystem::_GetControllerStatePacked*& dyn_pGetControllerStatePacked();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::CVRSystem::_GetControllerStatePacked*& dyn_pGetControllerStatePacked();
   }; // OVR.OpenVR.CVRSystem/OVR.OpenVR.GetControllerStateUnion
   // WARNING Not writing size check since size may be invalid!
 }

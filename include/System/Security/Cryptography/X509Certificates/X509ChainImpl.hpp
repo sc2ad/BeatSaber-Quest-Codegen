@@ -61,6 +61,13 @@ namespace System::Security::Cryptography::X509Certificates {
     // public System.Security.Cryptography.X509Certificates.X509ChainStatus[] get_ChainStatus()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus> get_ChainStatus();
+    // protected System.Void .ctor()
+    // Offset: 0x1BF6B4C
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static X509ChainImpl* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509ChainImpl::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<X509ChainImpl*, creationType>()));
+    }
     // public System.Boolean Build(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool Build(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
@@ -68,22 +75,13 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Reset();
     // public System.Void Dispose()
-    // Offset: 0x1BBB6C0
+    // Offset: 0x1BF5CA8
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1BBC4EC
+    // Offset: 0x1BF6AD4
     void Dispose(bool disposing);
-    // protected System.Void .ctor()
-    // Offset: 0x1BBC564
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static X509ChainImpl* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509ChainImpl::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<X509ChainImpl*, creationType>()));
-    }
     // protected override System.Void Finalize()
-    // Offset: 0x1BBC4F0
+    // Offset: 0x1BF6AD8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -132,6 +130,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509ChainImpl*), "get_ChainStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainImpl::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainImpl::Build
 // Il2CppName: Build
 template<>
@@ -166,10 +168,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509ChainImpl*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disposing});
   }
 };
-// Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainImpl::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainImpl::Finalize
 // Il2CppName: Finalize
 template<>

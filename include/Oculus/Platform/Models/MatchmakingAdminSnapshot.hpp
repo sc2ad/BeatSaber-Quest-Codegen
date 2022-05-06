@@ -35,15 +35,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class MatchmakingAdminSnapshot : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly Oculus.Platform.Models.MatchmakingAdminSnapshotCandidateList Candidates
     // Size: 0x8
     // Offset: 0x10
@@ -58,11 +50,11 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(double) == 0x8);
     public:
     // Get instance field reference: public readonly Oculus.Platform.Models.MatchmakingAdminSnapshotCandidateList Candidates
-    ::Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList*& dyn_Candidates();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList*& dyn_Candidates();
     // Get instance field reference: public readonly System.Double MyCurrentThreshold
-    double& dyn_MyCurrentThreshold();
+    [[deprecated("Use field access instead!")]] double& dyn_MyCurrentThreshold();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19AF220
+    // Offset: 0x19E8808
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchmakingAdminSnapshot* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::MatchmakingAdminSnapshot::.ctor");

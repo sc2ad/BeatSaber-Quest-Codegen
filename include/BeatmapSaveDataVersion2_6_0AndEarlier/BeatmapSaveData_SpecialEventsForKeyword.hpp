@@ -32,15 +32,7 @@ namespace BeatmapSaveDataVersion2_6_0AndEarlier {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapSaveData::SpecialEventsForKeyword : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _keyword
     // Size: 0x8
     // Offset: 0x10
@@ -55,17 +47,17 @@ namespace BeatmapSaveDataVersion2_6_0AndEarlier {
     static_assert(sizeof(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::BeatmapEventType>*) == 0x8);
     public:
     // Get instance field reference: private System.String _keyword
-    ::StringW& dyn__keyword();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__keyword();
     // Get instance field reference: private System.Collections.Generic.List`1<BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapEventType> _specialEvents
-    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::BeatmapEventType>*& dyn__specialEvents();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::BeatmapEventType>*& dyn__specialEvents();
     // public System.String get_keyword()
-    // Offset: 0x28194C8
+    // Offset: 0x286BA88
     ::StringW get_keyword();
     // public System.Collections.Generic.List`1<BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapEventType> get_specialEvents()
-    // Offset: 0x28194D0
+    // Offset: 0x286BA90
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::BeatmapEventType>* get_specialEvents();
     // public System.Void .ctor(System.String keyword, System.Collections.Generic.List`1<BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapEventType> specialEvents)
-    // Offset: 0x28194D8
+    // Offset: 0x286BA98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::SpecialEventsForKeyword* New_ctor(::StringW keyword, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::BeatmapEventType>* specialEvents) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::SpecialEventsForKeyword::.ctor");

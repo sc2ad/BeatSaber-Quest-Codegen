@@ -44,15 +44,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PatternFightSceneSetup : public ::Zenject::MonoInstaller {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.AudioClip _testAudioClip
     // Size: 0x8
     // Offset: 0x20
@@ -73,14 +65,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerHeightDetector*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1260664
+    // [SpaceAttribute] Offset: 0x10E530C
     // private AudioManagerSO _audioMixer
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::AudioManagerSO* audioMixer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioManagerSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x126069C
+    // [InjectAttribute] Offset: 0x10E5344
     // private readonly PatternFightSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x40
@@ -89,32 +81,24 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::PatternFightSceneSetupData*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.AudioClip _testAudioClip
-    ::UnityEngine::AudioClip*& dyn__testAudioClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioClip*& dyn__testAudioClip();
     // Get instance field reference: private System.Single _testAudioClipBPM
-    float& dyn__testAudioClipBPM();
+    [[deprecated("Use field access instead!")]] float& dyn__testAudioClipBPM();
     // Get instance field reference: private PlayerHeightDetector _playerHeightDetectorPrefab
-    ::GlobalNamespace::PlayerHeightDetector*& dyn__playerHeightDetectorPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerHeightDetector*& dyn__playerHeightDetectorPrefab();
     // Get instance field reference: private AudioManagerSO _audioMixer
-    ::GlobalNamespace::AudioManagerSO*& dyn__audioMixer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioManagerSO*& dyn__audioMixer();
     // Get instance field reference: private readonly PatternFightSceneSetupData _sceneSetupData
-    ::GlobalNamespace::PatternFightSceneSetupData*& dyn__sceneSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PatternFightSceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()
-    // Offset: 0x12EDE94
-    // Implemented from: Zenject.MonoInstaller
-    // Base method: System.Void MonoInstaller::.ctor()
-    // Base method: System.Void MonoInstallerBase::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x135EE4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PatternFightSceneSetup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PatternFightSceneSetup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PatternFightSceneSetup*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x12ED578
+    // Offset: 0x135E530
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

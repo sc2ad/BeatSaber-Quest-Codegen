@@ -45,15 +45,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   // [TokenAttribute] Offset: FFFFFFFF
   class EncryptedPrivateKeyInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algId
     // Size: 0x8
     // Offset: 0x10
@@ -68,27 +60,27 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     static_assert(sizeof(::Org::BouncyCastle::Asn1::Asn1OctetString*) == 0x8);
     public:
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algId
-    ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& dyn_algId();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& dyn_algId();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1OctetString data
-    ::Org::BouncyCastle::Asn1::Asn1OctetString*& dyn_data();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1OctetString*& dyn_data();
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_EncryptionAlgorithm()
-    // Offset: 0x1C90300
+    // Offset: 0x1CCC858
     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_EncryptionAlgorithm();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1C90080
+    // Offset: 0x1CCC5D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncryptedPrivateKeyInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncryptedPrivateKeyInfo*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.Pkcs.EncryptedPrivateKeyInfo GetInstance(System.Object obj)
-    // Offset: 0x1C90180
+    // Offset: 0x1CCC6D8
     static ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* GetInstance(::Il2CppObject* obj);
     // public System.Byte[] GetEncryptedData()
-    // Offset: 0x1C90308
+    // Offset: 0x1CCC860
     ::ArrayW<uint8_t> GetEncryptedData();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1C90328
+    // Offset: 0x1CCC880
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

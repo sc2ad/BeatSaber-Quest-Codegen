@@ -67,15 +67,7 @@ namespace GlobalNamespace {
     class StarTextSprite;
     // Nested type: ::GlobalNamespace::BTSStarTextEventEffect::StartTextPosition
     class StartTextPosition;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BTSStarTextEventEffect/StarTextSprite[] _starTextSprites
     // Size: 0x8
     // Offset: 0x18
@@ -88,14 +80,14 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*> startTextPositions;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*>) == 0x8);
-    // [InjectAttribute] Offset: 0x1248B7C
+    // [InjectAttribute] Offset: 0x10CD674
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1248B8C
+    // [InjectAttribute] Offset: 0x10CD684
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x30
@@ -136,49 +128,43 @@ namespace GlobalNamespace {
     // Set static field: static private BasicBeatmapEventType kStarTextAppearEventType
     static void _set_kStarTextAppearEventType(::GlobalNamespace::BasicBeatmapEventType value);
     // Get instance field reference: private BTSStarTextEventEffect/StarTextSprite[] _starTextSprites
-    ::ArrayW<::GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*>& dyn__starTextSprites();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*>& dyn__starTextSprites();
     // Get instance field reference: private BTSStarTextEventEffect/StartTextPosition[] _startTextPositions
-    ::ArrayW<::GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*>& dyn__startTextPositions();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*>& dyn__startTextPositions();
     // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
-    ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
-    ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // Get instance field reference: private System.Action`3<UnityEngine.Sprite,UnityEngine.Transform,System.Single> startStarTextAnimationEvent
-    ::System::Action_3<::UnityEngine::Sprite*, ::UnityEngine::Transform*, float>*& dyn_startStarTextAnimationEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_3<::UnityEngine::Sprite*, ::UnityEngine::Transform*, float>*& dyn_startStarTextAnimationEvent();
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
-    ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Int32,BTSStarTextEventEffect/StarTextSprite> _idsToStarTextSpriteDictionary
-    ::System::Collections::Generic::Dictionary_2<int, ::GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*>*& dyn__idsToStarTextSpriteDictionary();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*>*& dyn__idsToStarTextSpriteDictionary();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.Transform> _idsToStarTextPositionDictionary
-    ::System::Collections::Generic::Dictionary_2<int, ::UnityEngine::Transform*>*& dyn__idsToStarTextPositionDictionary();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::UnityEngine::Transform*>*& dyn__idsToStarTextPositionDictionary();
     // public System.Void add_startStarTextAnimationEvent(System.Action`3<UnityEngine.Sprite,UnityEngine.Transform,System.Single> value)
-    // Offset: 0x135CCD0
+    // Offset: 0x1344F50
     void add_startStarTextAnimationEvent(::System::Action_3<::UnityEngine::Sprite*, ::UnityEngine::Transform*, float>* value);
     // public System.Void remove_startStarTextAnimationEvent(System.Action`3<UnityEngine.Sprite,UnityEngine.Transform,System.Single> value)
-    // Offset: 0x135CE04
+    // Offset: 0x1345084
     void remove_startStarTextAnimationEvent(::System::Action_3<::UnityEngine::Sprite*, ::UnityEngine::Transform*, float>* value);
-    // protected System.Void Start()
-    // Offset: 0x135D138
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x135D2F8
-    void OnDestroy();
-    // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x135D310
-    void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x135D504
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1345784
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSStarTextEventEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSStarTextEventEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSStarTextEventEffect*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x13453B8
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1345578
+    void OnDestroy();
+    // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
+    // Offset: 0x1345590
+    void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
   }; // BTSStarTextEventEffect
   #pragma pack(pop)
   static check_size<sizeof(BTSStarTextEventEffect), 80 + sizeof(::System::Collections::Generic::Dictionary_2<int, ::UnityEngine::Transform*>*)> __GlobalNamespace_BTSStarTextEventEffectSizeCheck;
@@ -203,6 +189,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSStarTextEventEffect*), "remove_startStarTextAnimationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventEffect::Start
 // Il2CppName: Start
 template<>
@@ -228,7 +218,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSStarTextEventEffect*), "HandleBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{basicBeatmapEventData});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -72,35 +72,33 @@ namespace ModestTree::Util {
     // Set static field: static public System.Func`2<UnityEngine.GameObject,System.Boolean> <>9__23_0
     static void _set_$$9__23_0(::System::Func_2<::UnityEngine::GameObject*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x172E718
+    // Offset: 0x1767028
     static void _cctor();
-    // System.Boolean <get_AllLoadedScenes>b__3_0(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x172E784
-    bool $get_AllLoadedScenes$b__3_0(::UnityEngine::SceneManagement::Scene scene);
-    // UnityEngine.GameObject <GetRootParentOrSelf>b__15_0(UnityEngine.Transform x)
-    // Offset: 0x172E7B0
-    ::UnityEngine::GameObject* $GetRootParentOrSelf$b__15_0(::UnityEngine::Transform* x);
-    // System.Int32 <GetComponentsInChildrenTopDown>b__18_0(UnityEngine.Component x)
-    // Offset: 0x172E7CC
-    int $GetComponentsInChildrenTopDown$b__18_0(::UnityEngine::Component* x);
-    // System.Int32 <GetComponentsInChildrenBottomUp>b__19_0(UnityEngine.Component x)
-    // Offset: 0x172E864
-    int $GetComponentsInChildrenBottomUp$b__19_0(::UnityEngine::Component* x);
-    // UnityEngine.GameObject <GetAllGameObjects>b__22_0(UnityEngine.Transform x)
-    // Offset: 0x172E8FC
-    ::UnityEngine::GameObject* $GetAllGameObjects$b__22_0(::UnityEngine::Transform* x);
-    // System.Boolean <GetAllRootGameObjects>b__23_0(UnityEngine.GameObject x)
-    // Offset: 0x172E918
-    bool $GetAllRootGameObjects$b__23_0(::UnityEngine::GameObject* x);
     // public System.Void .ctor()
-    // Offset: 0x172E77C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x176708C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityUtil::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::Util::UnityUtil::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityUtil::$$c*, creationType>()));
     }
+    // System.Boolean <get_AllLoadedScenes>b__3_0(UnityEngine.SceneManagement.Scene scene)
+    // Offset: 0x1767094
+    bool $get_AllLoadedScenes$b__3_0(::UnityEngine::SceneManagement::Scene scene);
+    // UnityEngine.GameObject <GetRootParentOrSelf>b__15_0(UnityEngine.Transform x)
+    // Offset: 0x17670C0
+    ::UnityEngine::GameObject* $GetRootParentOrSelf$b__15_0(::UnityEngine::Transform* x);
+    // System.Int32 <GetComponentsInChildrenTopDown>b__18_0(UnityEngine.Component x)
+    // Offset: 0x17670DC
+    int $GetComponentsInChildrenTopDown$b__18_0(::UnityEngine::Component* x);
+    // System.Int32 <GetComponentsInChildrenBottomUp>b__19_0(UnityEngine.Component x)
+    // Offset: 0x1767174
+    int $GetComponentsInChildrenBottomUp$b__19_0(::UnityEngine::Component* x);
+    // UnityEngine.GameObject <GetAllGameObjects>b__22_0(UnityEngine.Transform x)
+    // Offset: 0x176720C
+    ::UnityEngine::GameObject* $GetAllGameObjects$b__22_0(::UnityEngine::Transform* x);
+    // System.Boolean <GetAllRootGameObjects>b__23_0(UnityEngine.GameObject x)
+    // Offset: 0x1767228
+    bool $GetAllRootGameObjects$b__23_0(::UnityEngine::GameObject* x);
   }; // ModestTree.Util.UnityUtil/ModestTree.Util.<>c
   #pragma pack(pop)
 }
@@ -113,6 +111,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: ModestTree::Util::UnityUtil::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::$$c::$get_AllLoadedScenes$b__3_0
 // Il2CppName: <get_AllLoadedScenes>b__3_0
 template<>
@@ -167,7 +169,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Modes
     return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil::$$c*), "<GetAllRootGameObjects>b__23_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: ModestTree::Util::UnityUtil::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -48,7 +48,6 @@ namespace Zenject {
     // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Installer_1<TDerived>* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Installer_1::.ctor");

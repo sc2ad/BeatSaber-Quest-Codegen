@@ -52,15 +52,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GamePause : public ::Il2CppObject/*, public ::GlobalNamespace::IGamePause*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Action didPauseEvent
     // Size: 0x8
     // Offset: 0x10
@@ -79,49 +71,49 @@ namespace GlobalNamespace {
     ::System::Action* didResumeEvent;
     // Field size check
     static_assert(sizeof(::System::Action*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252A94
+    // [InjectAttribute] Offset: 0x10D7678
     // private GameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::GameEnergyCounter* gameEnergyCounter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameEnergyCounter*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252AA4
+    // [InjectAttribute] Offset: 0x10D7688
     // private PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::PlayerHeadAndObstacleInteraction* playerHeadAndObstacleInteraction;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerHeadAndObstacleInteraction*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252AB4
+    // [InjectAttribute] Offset: 0x10D7698
     // private IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252AC4
+    // [InjectAttribute] Offset: 0x10D76A8
     // private BeatmapObjectExecutionRatingsRecorder _beatmapObjectExecutionRatingsRecorder
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* beatmapObjectExecutionRatingsRecorder;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252AD4
+    // [InjectAttribute] Offset: 0x10D76B8
     // private SongController _songController
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::SongController* songController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SongController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252AE4
+    // [InjectAttribute] Offset: 0x10D76C8
     // private SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252AF4
+    // [InjectAttribute] Offset: 0x10D76D8
     // private AudioListenerController _audioListenerController
     // Size: 0x8
     // Offset: 0x58
@@ -140,66 +132,64 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IGamePause*>(this);
     }
     // Get instance field reference: private System.Action didPauseEvent
-    ::System::Action*& dyn_didPauseEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didPauseEvent();
     // Get instance field reference: private System.Action willResumeEvent
-    ::System::Action*& dyn_willResumeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_willResumeEvent();
     // Get instance field reference: private System.Action didResumeEvent
-    ::System::Action*& dyn_didResumeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didResumeEvent();
     // Get instance field reference: private GameEnergyCounter _gameEnergyCounter
-    ::GlobalNamespace::GameEnergyCounter*& dyn__gameEnergyCounter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameEnergyCounter*& dyn__gameEnergyCounter();
     // Get instance field reference: private PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
-    ::GlobalNamespace::PlayerHeadAndObstacleInteraction*& dyn__playerHeadAndObstacleInteraction();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerHeadAndObstacleInteraction*& dyn__playerHeadAndObstacleInteraction();
     // Get instance field reference: private IScoreController _scoreController
-    ::GlobalNamespace::IScoreController*& dyn__scoreController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IScoreController*& dyn__scoreController();
     // Get instance field reference: private BeatmapObjectExecutionRatingsRecorder _beatmapObjectExecutionRatingsRecorder
-    ::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*& dyn__beatmapObjectExecutionRatingsRecorder();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*& dyn__beatmapObjectExecutionRatingsRecorder();
     // Get instance field reference: private SongController _songController
-    ::GlobalNamespace::SongController*& dyn__songController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongController*& dyn__songController();
     // Get instance field reference: private SaberManager _saberManager
-    ::GlobalNamespace::SaberManager*& dyn__saberManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberManager*& dyn__saberManager();
     // Get instance field reference: private AudioListenerController _audioListenerController
-    ::GlobalNamespace::AudioListenerController*& dyn__audioListenerController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioListenerController*& dyn__audioListenerController();
     // Get instance field reference: private System.Boolean _pause
-    bool& dyn__pause();
+    [[deprecated("Use field access instead!")]] bool& dyn__pause();
     // public System.Boolean get_isPaused()
-    // Offset: 0x1397104
+    // Offset: 0x137EB9C
     bool get_isPaused();
     // public System.Void add_didPauseEvent(System.Action value)
-    // Offset: 0x139710C
+    // Offset: 0x137EBA4
     void add_didPauseEvent(::System::Action* value);
     // public System.Void remove_didPauseEvent(System.Action value)
-    // Offset: 0x13971B0
+    // Offset: 0x137EC48
     void remove_didPauseEvent(::System::Action* value);
     // public System.Void add_willResumeEvent(System.Action value)
-    // Offset: 0x1397254
+    // Offset: 0x137ECEC
     void add_willResumeEvent(::System::Action* value);
     // public System.Void remove_willResumeEvent(System.Action value)
-    // Offset: 0x13972F8
+    // Offset: 0x137ED90
     void remove_willResumeEvent(::System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
-    // Offset: 0x139739C
+    // Offset: 0x137EE34
     void add_didResumeEvent(::System::Action* value);
     // public System.Void remove_didResumeEvent(System.Action value)
-    // Offset: 0x1397440
+    // Offset: 0x137EED8
     void remove_didResumeEvent(::System::Action* value);
-    // public System.Void Pause()
-    // Offset: 0x13974E4
-    void Pause();
-    // public System.Void WillResume()
-    // Offset: 0x139763C
-    void WillResume();
-    // public System.Void Resume()
-    // Offset: 0x1397658
-    void Resume();
     // public System.Void .ctor()
-    // Offset: 0x13977AC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x137F244
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GamePause* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GamePause::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GamePause*, creationType>()));
     }
+    // public System.Void Pause()
+    // Offset: 0x137EF7C
+    void Pause();
+    // public System.Void WillResume()
+    // Offset: 0x137F0D4
+    void WillResume();
+    // public System.Void Resume()
+    // Offset: 0x137F0F0
+    void Resume();
   }; // GamePause
   #pragma pack(pop)
   static check_size<sizeof(GamePause), 96 + sizeof(bool)> __GlobalNamespace_GamePauseSizeCheck;
@@ -268,6 +258,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GamePause*), "remove_didResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::GamePause::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GamePause::Pause
 // Il2CppName: Pause
 template<>
@@ -292,7 +286,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GamePause*), "Resume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GamePause::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

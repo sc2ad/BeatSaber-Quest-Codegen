@@ -51,15 +51,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_ObjectInstanceInfo : public ::UnityEngine::ScriptableObject/*, public ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InstancedInput> _instancedInputs
     // Size: 0x8
     // Offset: 0x18
@@ -100,35 +92,35 @@ namespace HoudiniEngineUnity {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InstancedInput> _instancedInputs
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InstancedInput*>*& dyn__instancedInputs();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InstancedInput*>*& dyn__instancedInputs();
     // Get instance field reference: public HoudiniEngineUnity.HEU_PartData _partTarget
-    ::HoudiniEngineUnity::HEU_PartData*& dyn__partTarget();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_PartData*& dyn__partTarget();
     // Get instance field reference: public System.Int32 _instancedObjectNodeID
-    int& dyn__instancedObjectNodeID();
+    [[deprecated("Use field access instead!")]] int& dyn__instancedObjectNodeID();
     // Get instance field reference: public System.String _instancedObjectPath
-    ::StringW& dyn__instancedObjectPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__instancedObjectPath();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.GameObject> _instances
-    ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*& dyn__instances();
-    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_ObjectInstanceInfo other)
-    // Offset: 0x185F9C4
-    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ObjectInstanceInfo* other);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*& dyn__instances();
     // public System.Void .ctor()
-    // Offset: 0x185FADC
-    // Implemented from: UnityEngine.ScriptableObject
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18993EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ObjectInstanceInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_ObjectInstanceInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ObjectInstanceInfo*, creationType>()));
     }
+    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_ObjectInstanceInfo other)
+    // Offset: 0x18992D4
+    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ObjectInstanceInfo* other);
   }; // HoudiniEngineUnity.HEU_ObjectInstanceInfo
   #pragma pack(pop)
   static check_size<sizeof(HEU_ObjectInstanceInfo), 56 + sizeof(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*)> __HoudiniEngineUnity_HEU_ObjectInstanceInfoSizeCheck;
   static_assert(sizeof(HEU_ObjectInstanceInfo) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ObjectInstanceInfo::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ObjectInstanceInfo::IsEquivalentTo
 // Il2CppName: IsEquivalentTo
 template<>
@@ -138,7 +130,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_ObjectInstanceInfo*), "IsEquivalentTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ObjectInstanceInfo::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

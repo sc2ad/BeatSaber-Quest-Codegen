@@ -46,15 +46,7 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class SubContainerCreatorByMethodBase : public ::Il2CppObject/*, public ::Zenject::ISubContainerCreator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x10
@@ -73,11 +65,11 @@ namespace Zenject {
       return *reinterpret_cast<::Zenject::ISubContainerCreator*>(this);
     }
     // Get instance field reference: private readonly Zenject.DiContainer _container
-    ::Zenject::DiContainer*& dyn__container();
+    [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn__container();
     // Get instance field reference: private readonly Zenject.SubContainerCreatorBindInfo _containerBindInfo
-    ::Zenject::SubContainerCreatorBindInfo*& dyn__containerBindInfo();
+    [[deprecated("Use field access instead!")]] ::Zenject::SubContainerCreatorBindInfo*& dyn__containerBindInfo();
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.SubContainerCreatorBindInfo containerBindInfo)
-    // Offset: 0x1CE74F0
+    // Offset: 0x1D22A48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorByMethodBase* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SubContainerCreatorByMethodBase::.ctor");
@@ -87,7 +79,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
     // protected Zenject.DiContainer CreateEmptySubContainer()
-    // Offset: 0x1CE75CC
+    // Offset: 0x1D22B24
     ::Zenject::DiContainer* CreateEmptySubContainer();
   }; // Zenject.SubContainerCreatorByMethodBase
   #pragma pack(pop)

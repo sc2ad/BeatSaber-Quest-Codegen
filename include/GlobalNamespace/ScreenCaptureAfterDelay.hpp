@@ -53,30 +53,22 @@ namespace GlobalNamespace {
     class InitData;
     // Nested type: ::GlobalNamespace::ScreenCaptureAfterDelay::$Start$d__6
     class $Start$d__6;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x1242924
+    // [InjectAttribute] Offset: 0x10C740C
     // private MainEffectController _mainEffectController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::MainEffectController* mainEffectController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MainEffectController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1242934
+    // [InjectAttribute] Offset: 0x10C741C
     // private ScreenCaptureCache _screenCaptureCache
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::ScreenCaptureCache* screenCaptureCache;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ScreenCaptureCache*) == 0x8);
-    // [InjectAttribute] Offset: 0x1242944
+    // [InjectAttribute] Offset: 0x10C742C
     // private ScreenCaptureAfterDelay/InitData _initData
     // Size: 0x8
     // Offset: 0x28
@@ -99,43 +91,41 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MainEffectController _mainEffectController
-    ::GlobalNamespace::MainEffectController*& dyn__mainEffectController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainEffectController*& dyn__mainEffectController();
     // Get instance field reference: private ScreenCaptureCache _screenCaptureCache
-    ::GlobalNamespace::ScreenCaptureCache*& dyn__screenCaptureCache();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ScreenCaptureCache*& dyn__screenCaptureCache();
     // Get instance field reference: private ScreenCaptureAfterDelay/InitData _initData
-    ::GlobalNamespace::ScreenCaptureAfterDelay::InitData*& dyn__initData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ScreenCaptureAfterDelay::InitData*& dyn__initData();
     // Get instance field reference: private UnityEngine.Texture2D _captureTexture
-    ::UnityEngine::Texture2D*& dyn__captureTexture();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Texture2D*& dyn__captureTexture();
     // Get instance field reference: private UnityEngine.RenderTexture _captureRenderTexture
-    ::UnityEngine::RenderTexture*& dyn__captureRenderTexture();
-    // protected System.Collections.IEnumerator Start()
-    // Offset: 0x29EBAA8
-    ::System::Collections::IEnumerator* Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x29EBB44
-    void OnDestroy();
-    // private System.Void HandleMainEffectControllerAfterImageEffectEvent(UnityEngine.RenderTexture renderTexture)
-    // Offset: 0x29EBC28
-    void HandleMainEffectControllerAfterImageEffectEvent(::UnityEngine::RenderTexture* renderTexture);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RenderTexture*& dyn__captureRenderTexture();
     // public System.Void .ctor()
-    // Offset: 0x29EBF20
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A4281C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScreenCaptureAfterDelay* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScreenCaptureAfterDelay::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScreenCaptureAfterDelay*, creationType>()));
     }
+    // protected System.Collections.IEnumerator Start()
+    // Offset: 0x2A423A4
+    ::System::Collections::IEnumerator* Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x2A42440
+    void OnDestroy();
+    // private System.Void HandleMainEffectControllerAfterImageEffectEvent(UnityEngine.RenderTexture renderTexture)
+    // Offset: 0x2A42524
+    void HandleMainEffectControllerAfterImageEffectEvent(::UnityEngine::RenderTexture* renderTexture);
   }; // ScreenCaptureAfterDelay
   #pragma pack(pop)
   static check_size<sizeof(ScreenCaptureAfterDelay), 56 + sizeof(::UnityEngine::RenderTexture*)> __GlobalNamespace_ScreenCaptureAfterDelaySizeCheck;
   static_assert(sizeof(ScreenCaptureAfterDelay) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ScreenCaptureAfterDelay::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ScreenCaptureAfterDelay::Start
 // Il2CppName: Start
 template<>
@@ -161,7 +151,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenCaptureAfterDelay*), "HandleMainEffectControllerAfterImageEffectEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{renderTexture});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ScreenCaptureAfterDelay::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

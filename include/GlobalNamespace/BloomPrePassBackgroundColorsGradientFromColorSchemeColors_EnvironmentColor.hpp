@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Set static field: static public BloomPrePassBackgroundColorsGradientFromColorSchemeColors/EnvironmentColor Color1Boost
     static void _set_Color1Boost(::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::EnvironmentColor value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // BloomPrePassBackgroundColorsGradientFromColorSchemeColors/EnvironmentColor
   #pragma pack(pop)
   static check_size<sizeof(BloomPrePassBackgroundColorsGradientFromColorSchemeColors::EnvironmentColor), 0 + sizeof(int)> __GlobalNamespace_BloomPrePassBackgroundColorsGradientFromColorSchemeColors_EnvironmentColorSizeCheck;

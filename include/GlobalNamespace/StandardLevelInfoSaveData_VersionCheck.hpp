@@ -24,15 +24,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StandardLevelInfoSaveData::VersionCheck : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _version
     // Size: 0x8
     // Offset: 0x10
@@ -45,14 +37,12 @@ namespace GlobalNamespace {
       return version;
     }
     // Get instance field reference: private System.String _version
-    ::StringW& dyn__version();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__version();
     // public System.String get_version()
-    // Offset: 0x1334DC4
+    // Offset: 0x1416E2C
     ::StringW get_version();
     // public System.Void .ctor()
-    // Offset: 0x1334DCC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1416E34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelInfoSaveData::VersionCheck* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardLevelInfoSaveData::VersionCheck::.ctor");

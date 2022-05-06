@@ -47,15 +47,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaberActivityCounter : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _averageWindowDuration
     // Size: 0x4
     // Offset: 0x18
@@ -88,7 +80,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: movementSensitivityThreshold and: saberManager
     char __padding4[0x4] = {};
-    // [InjectAttribute] Offset: 0x1255D18
+    // [InjectAttribute] Offset: 0x10DA8FC
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x30
@@ -187,91 +179,85 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _averageWindowDuration
-    float& dyn__averageWindowDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__averageWindowDuration();
     // Get instance field reference: private System.Single _valuesPerSecond
-    float& dyn__valuesPerSecond();
+    [[deprecated("Use field access instead!")]] float& dyn__valuesPerSecond();
     // Get instance field reference: private System.Single _increaseSpeed
-    float& dyn__increaseSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__increaseSpeed();
     // Get instance field reference: private System.Single _deceraseSpeed
-    float& dyn__deceraseSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__deceraseSpeed();
     // Get instance field reference: private System.Single _movementSensitivityThreshold
-    float& dyn__movementSensitivityThreshold();
+    [[deprecated("Use field access instead!")]] float& dyn__movementSensitivityThreshold();
     // Get instance field reference: private readonly SaberManager _saberManager
-    ::GlobalNamespace::SaberManager*& dyn__saberManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberManager*& dyn__saberManager();
     // Get instance field reference: private System.Action`1<System.Single> totalDistanceDidChangeEvent
-    ::System::Action_1<float>*& dyn_totalDistanceDidChangeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<float>*& dyn_totalDistanceDidChangeEvent();
     // Get instance field reference: private Saber _leftSaber
-    ::GlobalNamespace::Saber*& dyn__leftSaber();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Saber*& dyn__leftSaber();
     // Get instance field reference: private Saber _rightSaber
-    ::GlobalNamespace::Saber*& dyn__rightSaber();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Saber*& dyn__rightSaber();
     // Get instance field reference: private UnityEngine.Vector3 _prevLeftSaberTipPos
-    ::UnityEngine::Vector3& dyn__prevLeftSaberTipPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__prevLeftSaberTipPos();
     // Get instance field reference: private UnityEngine.Vector3 _prevRightSaberTipPos
-    ::UnityEngine::Vector3& dyn__prevRightSaberTipPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__prevRightSaberTipPos();
     // Get instance field reference: private UnityEngine.Vector3 _prevLeftHandPos
-    ::UnityEngine::Vector3& dyn__prevLeftHandPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__prevLeftHandPos();
     // Get instance field reference: private UnityEngine.Vector3 _prevRightHandPos
-    ::UnityEngine::Vector3& dyn__prevRightHandPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__prevRightHandPos();
     // Get instance field reference: private System.Boolean _hasPrevPos
-    bool& dyn__hasPrevPos();
+    [[deprecated("Use field access instead!")]] bool& dyn__hasPrevPos();
     // Get instance field reference: private System.Single _leftSaberMovementDistance
-    float& dyn__leftSaberMovementDistance();
+    [[deprecated("Use field access instead!")]] float& dyn__leftSaberMovementDistance();
     // Get instance field reference: private System.Single _rightSaberMovementDistance
-    float& dyn__rightSaberMovementDistance();
+    [[deprecated("Use field access instead!")]] float& dyn__rightSaberMovementDistance();
     // Get instance field reference: private System.Single _leftHandMovementDistance
-    float& dyn__leftHandMovementDistance();
+    [[deprecated("Use field access instead!")]] float& dyn__leftHandMovementDistance();
     // Get instance field reference: private System.Single _rightHandMovementDistance
-    float& dyn__rightHandMovementDistance();
+    [[deprecated("Use field access instead!")]] float& dyn__rightHandMovementDistance();
     // Get instance field reference: private MovementHistoryRecorder _saberMovementHistoryRecorder
-    ::GlobalNamespace::MovementHistoryRecorder*& dyn__saberMovementHistoryRecorder();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MovementHistoryRecorder*& dyn__saberMovementHistoryRecorder();
     // Get instance field reference: private MovementHistoryRecorder _handMovementHistoryRecorder
-    ::GlobalNamespace::MovementHistoryRecorder*& dyn__handMovementHistoryRecorder();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MovementHistoryRecorder*& dyn__handMovementHistoryRecorder();
     // public System.Single get_leftSaberMovementDistance()
-    // Offset: 0x1419374
+    // Offset: 0x145AA4C
     float get_leftSaberMovementDistance();
     // public System.Single get_rightSaberMovementDistance()
-    // Offset: 0x141937C
+    // Offset: 0x145AA54
     float get_rightSaberMovementDistance();
     // public System.Single get_leftHandMovementDistance()
-    // Offset: 0x1419384
+    // Offset: 0x145AA5C
     float get_leftHandMovementDistance();
     // public System.Single get_rightHandMovementDistance()
-    // Offset: 0x141938C
+    // Offset: 0x145AA64
     float get_rightHandMovementDistance();
     // public AveragingValueRecorder get_saberMovementAveragingValueRecorder()
-    // Offset: 0x1419394
+    // Offset: 0x145AA6C
     ::GlobalNamespace::AveragingValueRecorder* get_saberMovementAveragingValueRecorder();
     // public AveragingValueRecorder get_handMovementAveragingValueRecorder()
-    // Offset: 0x14193B0
+    // Offset: 0x145AA88
     ::GlobalNamespace::AveragingValueRecorder* get_handMovementAveragingValueRecorder();
     // public System.Void add_totalDistanceDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x141922C
+    // Offset: 0x145A904
     void add_totalDistanceDidChangeEvent(::System::Action_1<float>* value);
     // public System.Void remove_totalDistanceDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x14192D0
+    // Offset: 0x145A9A8
     void remove_totalDistanceDidChangeEvent(::System::Action_1<float>* value);
-    // protected System.Void Awake()
-    // Offset: 0x14193CC
-    void Awake();
-    // protected System.Void Start()
-    // Offset: 0x141948C
-    void Start();
-    // protected System.Void Update()
-    // Offset: 0x14194B4
-    void Update();
     // public System.Void .ctor()
-    // Offset: 0x1419864
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x145AF3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberActivityCounter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberActivityCounter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberActivityCounter*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x145AAA4
+    void Awake();
+    // protected System.Void Start()
+    // Offset: 0x145AB64
+    void Start();
+    // protected System.Void Update()
+    // Offset: 0x145AB8C
+    void Update();
   }; // SaberActivityCounter
   #pragma pack(pop)
   static check_size<sizeof(SaberActivityCounter), 160 + sizeof(::GlobalNamespace::MovementHistoryRecorder*)> __GlobalNamespace_SaberActivityCounterSizeCheck;
@@ -344,6 +330,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberActivityCounter*), "remove_totalDistanceDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SaberActivityCounter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SaberActivityCounter::Awake
 // Il2CppName: Awake
 template<>
@@ -368,7 +358,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberActivityCounter*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SaberActivityCounter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

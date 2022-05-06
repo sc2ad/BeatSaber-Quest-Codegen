@@ -51,7 +51,7 @@ namespace UnityEngine::UI {
     // Set static field: static public UnityEngine.UI.Slider/UnityEngine.UI.Axis Vertical
     static void _set_Vertical(::UnityEngine::UI::Slider::Axis value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.UI.Slider/UnityEngine.UI.Axis
   #pragma pack(pop)
   static check_size<sizeof(Slider::Axis), 0 + sizeof(int)> __UnityEngine_UI_Slider_AxisSizeCheck;

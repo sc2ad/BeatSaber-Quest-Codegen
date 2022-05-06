@@ -1438,22 +1438,24 @@ namespace HoudiniEngineUnity {
     static ::StringW _get_HEU_KEY_CTRL();
     // Set static field: static public System.String HEU_KEY_CTRL
     static void _set_HEU_KEY_CTRL(::StringW value);
-    // static private System.Void .cctor()
-    // Offset: 0x17492D0
-    static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x17492C8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1781BD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_Defines* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Defines::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_Defines*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1781BE0
+    static void _cctor();
   }; // HoudiniEngineUnity.HEU_Defines
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Defines::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Defines::_cctor
 // Il2CppName: .cctor
 template<>
@@ -1462,7 +1464,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Defines*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Defines::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

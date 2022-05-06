@@ -51,22 +51,14 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::MissionLevelModifiersViewController::$$c__DisplayClass7_0
     class $$c__DisplayClass7_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private GameplayModifiersModelSO _gameplayModifiersModel
     // Size: 0x8
     // Offset: 0x70
     ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125C094
+    // [SpaceAttribute] Offset: 0x10E0C78
     // private GameplayModifierInfoListItemsList _gameplayModifierInfoListItemsList
     // Size: 0x8
     // Offset: 0x78
@@ -93,37 +85,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::GameplayModifiers*) == 0x8);
     public:
     // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModel
-    ::GlobalNamespace::GameplayModifiersModelSO*& dyn__gameplayModifiersModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiersModelSO*& dyn__gameplayModifiersModel();
     // Get instance field reference: private GameplayModifierInfoListItemsList _gameplayModifierInfoListItemsList
-    ::GlobalNamespace::GameplayModifierInfoListItemsList*& dyn__gameplayModifierInfoListItemsList();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifierInfoListItemsList*& dyn__gameplayModifierInfoListItemsList();
     // Get instance field reference: private UnityEngine.GameObject _modifiersPanel
-    ::UnityEngine::GameObject*& dyn__modifiersPanel();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__modifiersPanel();
     // Get instance field reference: private TMPro.TextMeshProUGUI _titleText
-    ::TMPro::TextMeshProUGUI*& dyn__titleText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__titleText();
     // Get instance field reference: private GameplayModifiers _gameplayModifiers
-    ::GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
-    // public System.Void Setup(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1307924
-    void Setup(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
-    // public System.Void RefreshContent()
-    // Offset: 0x1307960
-    void RefreshContent();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // public System.Void .ctor()
-    // Offset: 0x1307AB8
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1303F90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionLevelModifiersViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionLevelModifiersViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelModifiersViewController*, creationType>()));
     }
+    // public System.Void Setup(GameplayModifiers gameplayModifiers)
+    // Offset: 0x1303DFC
+    void Setup(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+    // public System.Void RefreshContent()
+    // Offset: 0x1303E38
+    void RefreshContent();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1307AAC
+    // Offset: 0x1303F84
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -133,6 +118,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionLevelModifiersViewController) == 0x98);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MissionLevelModifiersViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelModifiersViewController::Setup
 // Il2CppName: Setup
 template<>
@@ -150,10 +139,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionLevelModifiersViewController*), "RefreshContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MissionLevelModifiersViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelModifiersViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

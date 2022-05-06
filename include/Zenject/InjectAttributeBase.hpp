@@ -30,15 +30,7 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class InjectAttributeBase : public ::Zenject::Internal::PreserveAttribute {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean <Optional>k__BackingField
     // Size: 0x1
     // Offset: 0x10
@@ -61,35 +53,33 @@ namespace Zenject {
     static_assert(sizeof(::Zenject::InjectSources) == 0x4);
     public:
     // Get instance field reference: private System.Boolean <Optional>k__BackingField
-    bool& dyn_$Optional$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$Optional$k__BackingField();
     // Get instance field reference: private System.Object <Id>k__BackingField
-    ::Il2CppObject*& dyn_$Id$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$Id$k__BackingField();
     // Get instance field reference: private Zenject.InjectSources <Source>k__BackingField
-    ::Zenject::InjectSources& dyn_$Source$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::Zenject::InjectSources& dyn_$Source$k__BackingField();
     // public System.Boolean get_Optional()
-    // Offset: 0x2A82F30
+    // Offset: 0x2AD8C7C
     bool get_Optional();
     // public System.Void set_Optional(System.Boolean value)
-    // Offset: 0x2A82F38
+    // Offset: 0x2AD8C84
     void set_Optional(bool value);
     // public System.Object get_Id()
-    // Offset: 0x2A82F44
+    // Offset: 0x2AD8C90
     ::Il2CppObject* get_Id();
     // public System.Void set_Id(System.Object value)
-    // Offset: 0x2A82F4C
+    // Offset: 0x2AD8C98
     void set_Id(::Il2CppObject* value);
     // public Zenject.InjectSources get_Source()
-    // Offset: 0x2A82F54
+    // Offset: 0x2AD8CA0
     ::Zenject::InjectSources get_Source();
     // public System.Void set_Source(Zenject.InjectSources value)
-    // Offset: 0x2A82F5C
+    // Offset: 0x2AD8CA8
     void set_Source(::Zenject::InjectSources value);
     // protected System.Void .ctor()
-    // Offset: 0x2A82F28
+    // Offset: 0x2AD8C74
     // Implemented from: Zenject.Internal.PreserveAttribute
     // Base method: System.Void PreserveAttribute::.ctor()
-    // Base method: System.Void Attribute::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InjectAttributeBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InjectAttributeBase::.ctor");

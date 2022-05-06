@@ -35,16 +35,8 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::StaticJumpOffsetYProvider::InitData
     class InitData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x124FED0
+    // [InjectAttribute] Offset: 0x10D4A04
     // private readonly StaticJumpOffsetYProvider/InitData _initData
     // Size: 0x8
     // Offset: 0x10
@@ -61,14 +53,12 @@ namespace GlobalNamespace {
       return initData;
     }
     // Get instance field reference: private readonly StaticJumpOffsetYProvider/InitData _initData
-    ::GlobalNamespace::StaticJumpOffsetYProvider::InitData*& dyn__initData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::StaticJumpOffsetYProvider::InitData*& dyn__initData();
     // public System.Single get_jumpOffsetY()
-    // Offset: 0x1335E20
+    // Offset: 0x1417D50
     float get_jumpOffsetY();
     // public System.Void .ctor()
-    // Offset: 0x1335E3C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1417D6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StaticJumpOffsetYProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StaticJumpOffsetYProvider::.ctor");

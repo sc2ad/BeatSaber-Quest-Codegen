@@ -44,15 +44,7 @@ namespace Org::BouncyCastle::Asn1 {
     public:
     // Writing base type padding for base size: 0x29 to desired offset: 0x30
     char ___base_padding[0x7] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Asn1.Asn1StreamParser _parser
     // Size: 0x8
     // Offset: 0x30
@@ -75,28 +67,28 @@ namespace Org::BouncyCastle::Asn1 {
     static_assert(sizeof(::System::IO::Stream*) == 0x8);
     public:
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1StreamParser _parser
-    ::Org::BouncyCastle::Asn1::Asn1StreamParser*& dyn__parser();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1StreamParser*& dyn__parser();
     // Get instance field reference: private System.Boolean _first
-    bool& dyn__first();
+    [[deprecated("Use field access instead!")]] bool& dyn__first();
     // Get instance field reference: private System.IO.Stream _currentStream
-    ::System::IO::Stream*& dyn__currentStream();
+    [[deprecated("Use field access instead!")]] ::System::IO::Stream*& dyn__currentStream();
     // System.Void .ctor(Org.BouncyCastle.Asn1.Asn1StreamParser parser)
-    // Offset: 0x1BF23F8
+    // Offset: 0x1C2C9E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstructedOctetStream* New_ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::ConstructedOctetStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstructedOctetStream*, creationType>(parser)));
     }
     // private Org.BouncyCastle.Asn1.Asn1OctetStringParser GetNextParser()
-    // Offset: 0x1BF45D4
+    // Offset: 0x1C2EBBC
     ::Org::BouncyCastle::Asn1::Asn1OctetStringParser* GetNextParser();
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1BF43E8
+    // Offset: 0x1C2E9D0
     // Implemented from: Org.BouncyCastle.Utilities.IO.BaseInputStream
     // Base method: System.Int32 BaseInputStream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     int Read(::ArrayW<uint8_t> buffer, int offset, int count);
     // public override System.Int32 ReadByte()
-    // Offset: 0x1BF46EC
+    // Offset: 0x1C2ECD4
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::ReadByte()
     int ReadByte();

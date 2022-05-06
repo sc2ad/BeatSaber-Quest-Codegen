@@ -35,22 +35,24 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DrawHelpers : public ::Il2CppObject {
     public:
-    // static public System.Void DrawTexture(UnityEngine.Texture texture, System.Single x, System.Single y, System.Single w, System.Single h, UnityEngine.Material mat, System.Single sx, System.Single sy, System.Single sw, System.Single sh)
-    // Offset: 0x15695B8
-    static void DrawTexture(::UnityEngine::Texture* texture, float x, float y, float w, float h, ::UnityEngine::Material* mat, float sx, float sy, float sw, float sh);
     // public System.Void .ctor()
-    // Offset: 0x1569764
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15A006C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DrawHelpers* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DrawHelpers::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DrawHelpers*, creationType>()));
     }
+    // static public System.Void DrawTexture(UnityEngine.Texture texture, System.Single x, System.Single y, System.Single w, System.Single h, UnityEngine.Material mat, System.Single sx, System.Single sy, System.Single sw, System.Single sh)
+    // Offset: 0x159FEC0
+    static void DrawTexture(::UnityEngine::Texture* texture, float x, float y, float w, float h, ::UnityEngine::Material* mat, float sx, float sy, float sw, float sh);
   }; // DrawHelpers
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::DrawHelpers::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::DrawHelpers::DrawTexture
 // Il2CppName: DrawTexture
 template<>
@@ -69,7 +71,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DrawHelpers*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{texture, x, y, w, h, mat, sx, sy, sw, sh});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::DrawHelpers::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

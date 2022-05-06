@@ -40,22 +40,24 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::OutputMode
     struct OutputMode;
-    // static public System.Void ApplyUVLayoutTo(UnityEngine.GameObject[] gameObjects, HEU_ScriptMeshInputUVLayoutExample/OutputMode outputMode, System.String output_name_suffix)
-    // Offset: 0x16A8F98
-    static void ApplyUVLayoutTo(::ArrayW<::UnityEngine::GameObject*> gameObjects, ::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::OutputMode outputMode, ::StringW output_name_suffix);
     // public System.Void .ctor()
-    // Offset: 0x16A9764
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16E1074
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ScriptMeshInputUVLayoutExample* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ScriptMeshInputUVLayoutExample*, creationType>()));
     }
+    // static public System.Void ApplyUVLayoutTo(UnityEngine.GameObject[] gameObjects, HEU_ScriptMeshInputUVLayoutExample/OutputMode outputMode, System.String output_name_suffix)
+    // Offset: 0x16E08A8
+    static void ApplyUVLayoutTo(::ArrayW<::UnityEngine::GameObject*> gameObjects, ::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::OutputMode outputMode, ::StringW output_name_suffix);
   }; // HEU_ScriptMeshInputUVLayoutExample
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::ApplyUVLayoutTo
 // Il2CppName: ApplyUVLayoutTo
 template<>
@@ -67,7 +69,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample*), "ApplyUVLayoutTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObjects, outputMode, output_name_suffix});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

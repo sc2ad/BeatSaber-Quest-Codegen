@@ -47,15 +47,7 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PrefabInstantiator::$$c__DisplayClass15_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Zenject.PrefabInstantiator <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -88,39 +80,41 @@ namespace Zenject {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public Zenject.PrefabInstantiator <>4__this
-    ::Zenject::PrefabInstantiator*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::Zenject::PrefabInstantiator*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.Generic.List`1<Zenject.TypeValuePair> args
-    ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& dyn_args();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& dyn_args();
     // Get instance field reference: public UnityEngine.GameObject gameObject
-    ::UnityEngine::GameObject*& dyn_gameObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_gameObject();
     // Get instance field reference: public Zenject.InjectContext context
-    ::Zenject::InjectContext*& dyn_context();
+    [[deprecated("Use field access instead!")]] ::Zenject::InjectContext*& dyn_context();
     // Get instance field reference: public System.Boolean shouldMakeActive
-    bool& dyn_shouldMakeActive();
-    // System.Void <Instantiate>b__0()
-    // Offset: 0x1BDF20C
-    void $Instantiate$b__0();
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1BDF6BC
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1BDF718
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    [[deprecated("Use field access instead!")]] bool& dyn_shouldMakeActive();
     // public System.Void .ctor()
-    // Offset: 0x1BDF204
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C197EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrefabInstantiator::$$c__DisplayClass15_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PrefabInstantiator::$$c__DisplayClass15_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrefabInstantiator::$$c__DisplayClass15_0*, creationType>()));
     }
+    // System.Void <Instantiate>b__0()
+    // Offset: 0x1C197F4
+    void $Instantiate$b__0();
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1C19CA4
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1C19D00
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.PrefabInstantiator/Zenject.<>c__DisplayClass15_0
   #pragma pack(pop)
   static check_size<sizeof(PrefabInstantiator::$$c__DisplayClass15_0), 48 + sizeof(bool)> __Zenject_PrefabInstantiator_$$c__DisplayClass15_0SizeCheck;
   static_assert(sizeof(PrefabInstantiator::$$c__DisplayClass15_0) == 0x31);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::PrefabInstantiator::$$c__DisplayClass15_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::PrefabInstantiator::$$c__DisplayClass15_0::$Instantiate$b__0
 // Il2CppName: <Instantiate>b__0
 template<>
@@ -146,7 +140,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::PrefabInstantiator::$$c__DisplayClass15_0*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::PrefabInstantiator::$$c__DisplayClass15_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

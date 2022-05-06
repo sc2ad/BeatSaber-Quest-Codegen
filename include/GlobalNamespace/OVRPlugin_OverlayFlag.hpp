@@ -105,7 +105,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/OverlayFlag Hidden
     static void _set_Hidden(::GlobalNamespace::OVRPlugin::OverlayFlag value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVRPlugin/OverlayFlag
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::OverlayFlag), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_OverlayFlagSizeCheck;

@@ -36,15 +36,7 @@ namespace System::Xml::Schema {
   // [TokenAttribute] Offset: FFFFFFFF
   class SchemaEntity : public ::Il2CppObject/*, public ::System::Xml::IDtdEntityInfo*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Xml.XmlQualifiedName qname
     // Size: 0x8
     // Offset: 0x10
@@ -131,138 +123,138 @@ namespace System::Xml::Schema {
       return *reinterpret_cast<::System::Xml::IDtdEntityInfo*>(this);
     }
     // Get instance field reference: private System.Xml.XmlQualifiedName qname
-    ::System::Xml::XmlQualifiedName*& dyn_qname();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlQualifiedName*& dyn_qname();
     // Get instance field reference: private System.String url
-    ::StringW& dyn_url();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_url();
     // Get instance field reference: private System.String pubid
-    ::StringW& dyn_pubid();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_pubid();
     // Get instance field reference: private System.String text
-    ::StringW& dyn_text();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_text();
     // Get instance field reference: private System.Xml.XmlQualifiedName ndata
-    ::System::Xml::XmlQualifiedName*& dyn_ndata();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlQualifiedName*& dyn_ndata();
     // Get instance field reference: private System.Int32 lineNumber
-    int& dyn_lineNumber();
+    [[deprecated("Use field access instead!")]] int& dyn_lineNumber();
     // Get instance field reference: private System.Int32 linePosition
-    int& dyn_linePosition();
+    [[deprecated("Use field access instead!")]] int& dyn_linePosition();
     // Get instance field reference: private System.Boolean isParameter
-    bool& dyn_isParameter();
+    [[deprecated("Use field access instead!")]] bool& dyn_isParameter();
     // Get instance field reference: private System.Boolean isExternal
-    bool& dyn_isExternal();
+    [[deprecated("Use field access instead!")]] bool& dyn_isExternal();
     // Get instance field reference: private System.Boolean parsingInProgress
-    bool& dyn_parsingInProgress();
+    [[deprecated("Use field access instead!")]] bool& dyn_parsingInProgress();
     // Get instance field reference: private System.Boolean isDeclaredInExternal
-    bool& dyn_isDeclaredInExternal();
+    [[deprecated("Use field access instead!")]] bool& dyn_isDeclaredInExternal();
     // Get instance field reference: private System.String baseURI
-    ::StringW& dyn_baseURI();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_baseURI();
     // Get instance field reference: private System.String declaredURI
-    ::StringW& dyn_declaredURI();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_declaredURI();
     // private System.String System.Xml.IDtdEntityInfo.get_Name()
-    // Offset: 0x1C29A80
+    // Offset: 0x1C64068
     ::StringW System_Xml_IDtdEntityInfo_get_Name();
     // private System.Boolean System.Xml.IDtdEntityInfo.get_IsExternal()
-    // Offset: 0x1C29A9C
+    // Offset: 0x1C64084
     bool System_Xml_IDtdEntityInfo_get_IsExternal();
     // private System.Boolean System.Xml.IDtdEntityInfo.get_IsDeclaredInExternal()
-    // Offset: 0x1C29AA4
+    // Offset: 0x1C6408C
     bool System_Xml_IDtdEntityInfo_get_IsDeclaredInExternal();
     // private System.Boolean System.Xml.IDtdEntityInfo.get_IsUnparsedEntity()
-    // Offset: 0x1C29AAC
+    // Offset: 0x1C64094
     bool System_Xml_IDtdEntityInfo_get_IsUnparsedEntity();
     // private System.Boolean System.Xml.IDtdEntityInfo.get_IsParameterEntity()
-    // Offset: 0x1C29AD8
+    // Offset: 0x1C640C0
     bool System_Xml_IDtdEntityInfo_get_IsParameterEntity();
     // private System.String System.Xml.IDtdEntityInfo.get_BaseUriString()
-    // Offset: 0x1C29AE0
+    // Offset: 0x1C640C8
     ::StringW System_Xml_IDtdEntityInfo_get_BaseUriString();
     // private System.String System.Xml.IDtdEntityInfo.get_DeclaredUriString()
-    // Offset: 0x1C29B98
+    // Offset: 0x1C64180
     ::StringW System_Xml_IDtdEntityInfo_get_DeclaredUriString();
     // private System.String System.Xml.IDtdEntityInfo.get_SystemId()
-    // Offset: 0x1C29C50
+    // Offset: 0x1C64238
     ::StringW System_Xml_IDtdEntityInfo_get_SystemId();
     // private System.String System.Xml.IDtdEntityInfo.get_PublicId()
-    // Offset: 0x1C29C58
+    // Offset: 0x1C64240
     ::StringW System_Xml_IDtdEntityInfo_get_PublicId();
     // private System.String System.Xml.IDtdEntityInfo.get_Text()
-    // Offset: 0x1C29C60
+    // Offset: 0x1C64248
     ::StringW System_Xml_IDtdEntityInfo_get_Text();
     // private System.Int32 System.Xml.IDtdEntityInfo.get_LineNumber()
-    // Offset: 0x1C29C68
+    // Offset: 0x1C64250
     int System_Xml_IDtdEntityInfo_get_LineNumber();
     // private System.Int32 System.Xml.IDtdEntityInfo.get_LinePosition()
-    // Offset: 0x1C29C70
+    // Offset: 0x1C64258
     int System_Xml_IDtdEntityInfo_get_LinePosition();
     // System.Xml.XmlQualifiedName get_Name()
-    // Offset: 0x1C29C78
+    // Offset: 0x1C64260
     ::System::Xml::XmlQualifiedName* get_Name();
     // System.String get_Url()
-    // Offset: 0x1C29C80
+    // Offset: 0x1C64268
     ::StringW get_Url();
     // System.Void set_Url(System.String value)
-    // Offset: 0x1C29C88
+    // Offset: 0x1C64270
     void set_Url(::StringW value);
     // System.String get_Pubid()
-    // Offset: 0x1C29C98
+    // Offset: 0x1C64280
     ::StringW get_Pubid();
     // System.Void set_Pubid(System.String value)
-    // Offset: 0x1C29CA0
+    // Offset: 0x1C64288
     void set_Pubid(::StringW value);
     // System.Boolean get_IsExternal()
-    // Offset: 0x1C29CA8
+    // Offset: 0x1C64290
     bool get_IsExternal();
     // System.Void set_IsExternal(System.Boolean value)
-    // Offset: 0x1C29CB0
+    // Offset: 0x1C64298
     void set_IsExternal(bool value);
     // System.Boolean get_DeclaredInExternal()
-    // Offset: 0x1C29CBC
+    // Offset: 0x1C642A4
     bool get_DeclaredInExternal();
     // System.Void set_DeclaredInExternal(System.Boolean value)
-    // Offset: 0x1C29CC4
+    // Offset: 0x1C642AC
     void set_DeclaredInExternal(bool value);
     // System.Xml.XmlQualifiedName get_NData()
-    // Offset: 0x1C29CD0
+    // Offset: 0x1C642B8
     ::System::Xml::XmlQualifiedName* get_NData();
     // System.Void set_NData(System.Xml.XmlQualifiedName value)
-    // Offset: 0x1C29CD8
+    // Offset: 0x1C642C0
     void set_NData(::System::Xml::XmlQualifiedName* value);
     // System.String get_Text()
-    // Offset: 0x1C29CE0
+    // Offset: 0x1C642C8
     ::StringW get_Text();
     // System.Void set_Text(System.String value)
-    // Offset: 0x1C29CE8
+    // Offset: 0x1C642D0
     void set_Text(::StringW value);
     // System.Int32 get_Line()
-    // Offset: 0x1C29CF4
+    // Offset: 0x1C642DC
     int get_Line();
     // System.Void set_Line(System.Int32 value)
-    // Offset: 0x1C29CFC
+    // Offset: 0x1C642E4
     void set_Line(int value);
     // System.Int32 get_Pos()
-    // Offset: 0x1C29D04
+    // Offset: 0x1C642EC
     int get_Pos();
     // System.Void set_Pos(System.Int32 value)
-    // Offset: 0x1C29D0C
+    // Offset: 0x1C642F4
     void set_Pos(int value);
     // System.String get_BaseURI()
-    // Offset: 0x1C29B3C
+    // Offset: 0x1C64124
     ::StringW get_BaseURI();
     // System.Void set_BaseURI(System.String value)
-    // Offset: 0x1C29D14
+    // Offset: 0x1C642FC
     void set_BaseURI(::StringW value);
     // System.Boolean get_ParsingInProgress()
-    // Offset: 0x1C29D1C
+    // Offset: 0x1C64304
     bool get_ParsingInProgress();
     // System.Void set_ParsingInProgress(System.Boolean value)
-    // Offset: 0x1C29D24
+    // Offset: 0x1C6430C
     void set_ParsingInProgress(bool value);
     // System.String get_DeclaredURI()
-    // Offset: 0x1C29BF4
+    // Offset: 0x1C641DC
     ::StringW get_DeclaredURI();
     // System.Void set_DeclaredURI(System.String value)
-    // Offset: 0x1C29D30
+    // Offset: 0x1C64318
     void set_DeclaredURI(::StringW value);
     // System.Void .ctor(System.Xml.XmlQualifiedName qname, System.Boolean isParameter)
-    // Offset: 0x1C299E8
+    // Offset: 0x1C63FD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SchemaEntity* New_ctor(::System::Xml::XmlQualifiedName* qname, bool isParameter) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::SchemaEntity::.ctor");

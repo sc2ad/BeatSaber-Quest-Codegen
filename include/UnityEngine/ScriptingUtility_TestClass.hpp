@@ -40,7 +40,7 @@ namespace UnityEngine {
       return value;
     }
     // Get instance field reference: public System.Int32 value
-    int& dyn_value();
+    [[deprecated("Use field access instead!")]] int& dyn_value();
   }; // UnityEngine.ScriptingUtility/UnityEngine.TestClass
   #pragma pack(pop)
   static check_size<sizeof(ScriptingUtility::TestClass), 0 + sizeof(int)> __UnityEngine_ScriptingUtility_TestClassSizeCheck;

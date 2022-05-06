@@ -36,29 +36,27 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRCursor : public ::UnityEngine::MonoBehaviour {
     public:
+    // protected System.Void .ctor()
+    // Offset: 0x1658CE4
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static OVRCursor* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRCursor::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<OVRCursor*, creationType>()));
+    }
     // public System.Void SetCursorRay(UnityEngine.Transform ray)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void SetCursorRay(::UnityEngine::Transform* ray);
     // public System.Void SetCursorStartDest(UnityEngine.Vector3 start, UnityEngine.Vector3 dest, UnityEngine.Vector3 normal)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void SetCursorStartDest(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 dest, ::UnityEngine::Vector3 normal);
-    // protected System.Void .ctor()
-    // Offset: 0x16233D4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static OVRCursor* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRCursor::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<OVRCursor*, creationType>()));
-    }
   }; // OVRCursor
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OVRCursor::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVRCursor::SetCursorRay
 // Il2CppName: SetCursorRay
 template<>
@@ -79,7 +77,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCursor*), "SetCursorStartDest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{start, dest, normal});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OVRCursor::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

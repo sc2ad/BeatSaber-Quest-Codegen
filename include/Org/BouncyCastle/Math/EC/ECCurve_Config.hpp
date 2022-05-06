@@ -35,15 +35,7 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class ECCurve::Config : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected Org.BouncyCastle.Math.EC.ECCurve outer
     // Size: 0x8
     // Offset: 0x10
@@ -72,25 +64,25 @@ namespace Org::BouncyCastle::Math::EC {
     static_assert(sizeof(::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*) == 0x8);
     public:
     // Get instance field reference: protected Org.BouncyCastle.Math.EC.ECCurve outer
-    ::Org::BouncyCastle::Math::EC::ECCurve*& dyn_outer();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::EC::ECCurve*& dyn_outer();
     // Get instance field reference: protected System.Int32 coord
-    int& dyn_coord();
+    [[deprecated("Use field access instead!")]] int& dyn_coord();
     // Get instance field reference: protected Org.BouncyCastle.Math.EC.Endo.ECEndomorphism endomorphism
-    ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*& dyn_endomorphism();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*& dyn_endomorphism();
     // Get instance field reference: protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier multiplier
-    ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*& dyn_multiplier();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*& dyn_multiplier();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve outer, System.Int32 coord, Org.BouncyCastle.Math.EC.Endo.ECEndomorphism endomorphism, Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier multiplier)
-    // Offset: 0x270301C
+    // Offset: 0x275552C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECCurve::Config* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* outer, int coord, ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism, ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* multiplier) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::ECCurve::Config::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECCurve::Config*, creationType>(outer, coord, endomorphism, multiplier)));
     }
     // public Org.BouncyCastle.Math.EC.ECCurve/Org.BouncyCastle.Math.EC.Config SetEndomorphism(Org.BouncyCastle.Math.EC.Endo.ECEndomorphism endomorphism)
-    // Offset: 0x2704700
+    // Offset: 0x2756C10
     ::Org::BouncyCastle::Math::EC::ECCurve::Config* SetEndomorphism(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism);
     // public Org.BouncyCastle.Math.EC.ECCurve Create()
-    // Offset: 0x2704708
+    // Offset: 0x2756C18
     ::Org::BouncyCastle::Math::EC::ECCurve* Create();
   }; // Org.BouncyCastle.Math.EC.ECCurve/Org.BouncyCastle.Math.EC.Config
   #pragma pack(pop)

@@ -37,15 +37,7 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScaleXPointMap : public ::Il2CppObject/*, public ::Org::BouncyCastle::Math::EC::ECPointMap*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected readonly Org.BouncyCastle.Math.EC.ECFieldElement scale
     // Size: 0x8
     // Offset: 0x10
@@ -62,16 +54,16 @@ namespace Org::BouncyCastle::Math::EC {
       return scale;
     }
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.EC.ECFieldElement scale
-    ::Org::BouncyCastle::Math::EC::ECFieldElement*& dyn_scale();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::EC::ECFieldElement*& dyn_scale();
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECFieldElement scale)
-    // Offset: 0x229C7D4
+    // Offset: 0x22E7048
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScaleXPointMap* New_ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* scale) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::ScaleXPointMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScaleXPointMap*, creationType>(scale)));
     }
     // public Org.BouncyCastle.Math.EC.ECPoint Map(Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x229C800
+    // Offset: 0x22E7074
     ::Org::BouncyCastle::Math::EC::ECPoint* Map(::Org::BouncyCastle::Math::EC::ECPoint* p);
   }; // Org.BouncyCastle.Math.EC.ScaleXPointMap
   #pragma pack(pop)

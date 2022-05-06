@@ -40,30 +40,22 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: ::RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink
     class EffectorLink;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x12784D8
+    // [TooltipAttribute] Offset: 0x10FD190
     // public UnityEngine.AnimationCurve offsetInForceDirection
     // Size: 0x8
     // Offset: 0x50
     ::UnityEngine::AnimationCurve* offsetInForceDirection;
     // Field size check
     static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1278510
+    // [TooltipAttribute] Offset: 0x10FD1C8
     // public UnityEngine.AnimationCurve offsetInUpDirection
     // Size: 0x8
     // Offset: 0x58
     ::UnityEngine::AnimationCurve* offsetInUpDirection;
     // Field size check
     static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1278548
+    // [TooltipAttribute] Offset: 0x10FD200
     // public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointEffector/RootMotion.FinalIK.EffectorLink[] effectorLinks
     // Size: 0x8
     // Offset: 0x60
@@ -72,33 +64,32 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink*>) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.AnimationCurve offsetInForceDirection
-    ::UnityEngine::AnimationCurve*& dyn_offsetInForceDirection();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_offsetInForceDirection();
     // Get instance field reference: public UnityEngine.AnimationCurve offsetInUpDirection
-    ::UnityEngine::AnimationCurve*& dyn_offsetInUpDirection();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_offsetInUpDirection();
     // Get instance field reference: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointEffector/RootMotion.FinalIK.EffectorLink[] effectorLinks
-    ::ArrayW<::RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink*>& dyn_effectorLinks();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink*>& dyn_effectorLinks();
     // public System.Void .ctor()
-    // Offset: 0x21D499C
+    // Offset: 0x2222210
     // Implemented from: RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPoint
     // Base method: System.Void HitPoint::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HitReaction::HitPointEffector* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::HitReaction::HitPointEffector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HitReaction::HitPointEffector*, creationType>()));
     }
     // protected override System.Single GetLength()
-    // Offset: 0x21D4484
+    // Offset: 0x2221CF8
     // Implemented from: RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPoint
     // Base method: System.Single HitPoint::GetLength()
     float GetLength();
     // protected override System.Void CrossFadeStart()
-    // Offset: 0x21D45FC
+    // Offset: 0x2221E70
     // Implemented from: RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPoint
     // Base method: System.Void HitPoint::CrossFadeStart()
     void CrossFadeStart();
     // protected override System.Void OnApply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
-    // Offset: 0x21D467C
+    // Offset: 0x2221EF0
     // Implemented from: RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPoint
     // Base method: System.Void HitPoint::OnApply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
     void OnApply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);

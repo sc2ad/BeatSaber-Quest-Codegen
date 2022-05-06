@@ -41,20 +41,18 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`1<System.Boolean> <>9__8_0
     static void _set_$$9__8_0(::System::Func_1<bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x14B65B0
+    // Offset: 0x14EDE68
     static void _cctor();
-    // System.Boolean <StartCoroutine>b__8_0()
-    // Offset: 0x14B661C
-    bool $StartCoroutine$b__8_0();
     // public System.Void .ctor()
-    // Offset: 0x14B6614
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14EDECC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AppInit::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AppInit::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AppInit::$$c*, creationType>()));
     }
+    // System.Boolean <StartCoroutine>b__8_0()
+    // Offset: 0x14EDED4
+    bool $StartCoroutine$b__8_0();
   }; // AppInit/<>c
   #pragma pack(pop)
 }
@@ -67,6 +65,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInit::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::AppInit::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AppInit::$$c::$StartCoroutine$b__8_0
 // Il2CppName: <StartCoroutine>b__8_0
 template<>
@@ -75,7 +77,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInit::$$c*), "<StartCoroutine>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AppInit::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

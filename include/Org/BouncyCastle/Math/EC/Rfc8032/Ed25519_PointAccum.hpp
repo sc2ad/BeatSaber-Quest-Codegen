@@ -24,15 +24,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
   // [TokenAttribute] Offset: FFFFFFFF
   class Ed25519::PointAccum : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int32[] x
     // Size: 0x8
     // Offset: 0x10
@@ -65,19 +57,17 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     static_assert(sizeof(::ArrayW<int>) == 0x8);
     public:
     // Get instance field reference: System.Int32[] x
-    ::ArrayW<int>& dyn_x();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_x();
     // Get instance field reference: System.Int32[] y
-    ::ArrayW<int>& dyn_y();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_y();
     // Get instance field reference: System.Int32[] z
-    ::ArrayW<int>& dyn_z();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_z();
     // Get instance field reference: System.Int32[] u
-    ::ArrayW<int>& dyn_u();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_u();
     // Get instance field reference: System.Int32[] v
-    ::ArrayW<int>& dyn_v();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_v();
     // public System.Void .ctor()
-    // Offset: 0x2298D20
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x22E3594
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ed25519::PointAccum* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum::.ctor");

@@ -44,15 +44,7 @@ namespace UnityEngine::Events {
   // [TokenAttribute] Offset: FFFFFFFF
   class InvokableCallList : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> m_PersistentCalls
     // Size: 0x8
     // Offset: 0x10
@@ -79,43 +71,45 @@ namespace UnityEngine::Events {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> m_PersistentCalls
-    ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*& dyn_m_PersistentCalls();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*& dyn_m_PersistentCalls();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> m_RuntimeCalls
-    ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*& dyn_m_RuntimeCalls();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*& dyn_m_RuntimeCalls();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> m_ExecutingCalls
-    ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*& dyn_m_ExecutingCalls();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*& dyn_m_ExecutingCalls();
     // Get instance field reference: private System.Boolean m_NeedsUpdate
-    bool& dyn_m_NeedsUpdate();
-    // public System.Void AddPersistentInvokableCall(UnityEngine.Events.BaseInvokableCall call)
-    // Offset: 0x1F31624
-    void AddPersistentInvokableCall(::UnityEngine::Events::BaseInvokableCall* call);
-    // public System.Void AddListener(UnityEngine.Events.BaseInvokableCall call)
-    // Offset: 0x1F31698
-    void AddListener(::UnityEngine::Events::BaseInvokableCall* call);
-    // public System.Void RemoveListener(System.Object targetObj, System.Reflection.MethodInfo method)
-    // Offset: 0x1F3170C
-    void RemoveListener(::Il2CppObject* targetObj, ::System::Reflection::MethodInfo* method);
-    // public System.Void ClearPersistent()
-    // Offset: 0x1F31884
-    void ClearPersistent();
-    // public System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> PrepareInvoke()
-    // Offset: 0x1F318E8
-    ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* PrepareInvoke();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_NeedsUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1F31984
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1F98640
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvokableCallList* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Events::InvokableCallList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvokableCallList*, creationType>()));
     }
+    // public System.Void AddPersistentInvokableCall(UnityEngine.Events.BaseInvokableCall call)
+    // Offset: 0x1F982E0
+    void AddPersistentInvokableCall(::UnityEngine::Events::BaseInvokableCall* call);
+    // public System.Void AddListener(UnityEngine.Events.BaseInvokableCall call)
+    // Offset: 0x1F98354
+    void AddListener(::UnityEngine::Events::BaseInvokableCall* call);
+    // public System.Void RemoveListener(System.Object targetObj, System.Reflection.MethodInfo method)
+    // Offset: 0x1F983C8
+    void RemoveListener(::Il2CppObject* targetObj, ::System::Reflection::MethodInfo* method);
+    // public System.Void ClearPersistent()
+    // Offset: 0x1F98540
+    void ClearPersistent();
+    // public System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> PrepareInvoke()
+    // Offset: 0x1F985A4
+    ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* PrepareInvoke();
   }; // UnityEngine.Events.InvokableCallList
   #pragma pack(pop)
   static check_size<sizeof(InvokableCallList), 40 + sizeof(bool)> __UnityEngine_Events_InvokableCallListSizeCheck;
   static_assert(sizeof(InvokableCallList) == 0x29);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::Events::InvokableCallList::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Events::InvokableCallList::AddPersistentInvokableCall
 // Il2CppName: AddPersistentInvokableCall
 template<>
@@ -160,7 +154,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::InvokableCallList*), "PrepareInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::Events::InvokableCallList::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

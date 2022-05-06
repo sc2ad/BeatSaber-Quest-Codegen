@@ -50,29 +50,21 @@ namespace RootMotion::FinalIK {
     class PositionOffset;
     // Nested type: ::RootMotion::FinalIK::HitReactionVRIK::RotationOffset
     class RotationOffset;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.AnimationCurve[] offsetCurves
     // Size: 0x8
     // Offset: 0x30
     ::ArrayW<::UnityEngine::AnimationCurve*> offsetCurves;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::AnimationCurve*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x1275A30
+    // [TooltipAttribute] Offset: 0x10FA6E8
     // public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.PositionOffset[] positionOffsets
     // Size: 0x8
     // Offset: 0x38
     ::ArrayW<::RootMotion::FinalIK::HitReactionVRIK::PositionOffset*> positionOffsets;
     // Field size check
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::HitReactionVRIK::PositionOffset*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x1275A68
+    // [TooltipAttribute] Offset: 0x10FA720
     // public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.RotationOffset[] rotationOffsets
     // Size: 0x8
     // Offset: 0x40
@@ -81,30 +73,25 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::HitReactionVRIK::RotationOffset*>) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.AnimationCurve[] offsetCurves
-    ::ArrayW<::UnityEngine::AnimationCurve*>& dyn_offsetCurves();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::AnimationCurve*>& dyn_offsetCurves();
     // Get instance field reference: public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.PositionOffset[] positionOffsets
-    ::ArrayW<::RootMotion::FinalIK::HitReactionVRIK::PositionOffset*>& dyn_positionOffsets();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::HitReactionVRIK::PositionOffset*>& dyn_positionOffsets();
     // Get instance field reference: public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.RotationOffset[] rotationOffsets
-    ::ArrayW<::RootMotion::FinalIK::HitReactionVRIK::RotationOffset*>& dyn_rotationOffsets();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::HitReactionVRIK::RotationOffset*>& dyn_rotationOffsets();
     // public System.Void Hit(UnityEngine.Collider collider, UnityEngine.Vector3 force, UnityEngine.Vector3 point)
-    // Offset: 0x21D4BD8
+    // Offset: 0x222244C
     void Hit(::UnityEngine::Collider* collider, ::UnityEngine::Vector3 force, ::UnityEngine::Vector3 point);
     // public System.Void .ctor()
-    // Offset: 0x21D4F60
+    // Offset: 0x22227D4
     // Implemented from: RootMotion.FinalIK.OffsetModifierVRIK
     // Base method: System.Void OffsetModifierVRIK::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HitReactionVRIK* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::HitReactionVRIK::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HitReactionVRIK*, creationType>()));
     }
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x21D49B8
+    // Offset: 0x222222C
     // Implemented from: RootMotion.FinalIK.OffsetModifierVRIK
     // Base method: System.Void OffsetModifierVRIK::OnModifyOffset()
     void OnModifyOffset();

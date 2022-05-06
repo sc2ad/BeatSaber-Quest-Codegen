@@ -41,15 +41,7 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseChannel : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public LiteNetLib.BaseChannel Next
     // Size: 0x8
     // Offset: 0x10
@@ -70,23 +62,23 @@ namespace LiteNetLib {
     static_assert(sizeof(::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>*) == 0x8);
     public:
     // Get instance field reference: public LiteNetLib.BaseChannel Next
-    ::LiteNetLib::BaseChannel*& dyn_Next();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::BaseChannel*& dyn_Next();
     // Get instance field reference: protected readonly LiteNetLib.NetPeer Peer
-    ::LiteNetLib::NetPeer*& dyn_Peer();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetPeer*& dyn_Peer();
     // Get instance field reference: protected readonly System.Collections.Generic.Queue`1<LiteNetLib.NetPacket> OutgoingQueue
-    ::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>*& dyn_OutgoingQueue();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>*& dyn_OutgoingQueue();
     // public System.Int32 get_PacketsInQueue()
-    // Offset: 0x215E300
+    // Offset: 0x21A9B74
     int get_PacketsInQueue();
     // protected System.Void .ctor(LiteNetLib.NetPeer peer)
-    // Offset: 0x215E278
+    // Offset: 0x21A9AEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseChannel* New_ctor(::LiteNetLib::NetPeer* peer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::BaseChannel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseChannel*, creationType>(peer)));
     }
     // public System.Void AddToQueue(LiteNetLib.NetPacket packet)
-    // Offset: 0x215E350
+    // Offset: 0x21A9BC4
     void AddToQueue(::LiteNetLib::NetPacket* packet);
     // public System.Void SendNextPackets()
     // Offset: 0xFFFFFFFFFFFFFFFF

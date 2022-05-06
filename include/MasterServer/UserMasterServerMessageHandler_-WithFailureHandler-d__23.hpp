@@ -90,20 +90,20 @@ namespace MasterServer {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public System.Func`1<System.Threading.Tasks.Task> performTask
-    ::System::Func_1<::System::Threading::Tasks::Task*>*& dyn_performTask();
+    [[deprecated("Use field access instead!")]] ::System::Func_1<::System::Threading::Tasks::Task*>*& dyn_performTask();
     // Get instance field reference: public System.Action`1<ConnectionFailedReason> onFailure
-    ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*& dyn_onFailure();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*& dyn_onFailure();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x16F7544
+    // Offset: 0x172FE54
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x16F7920
+    // Offset: 0x1730230
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.UserMasterServerMessageHandler/MasterServer.<WithFailureHandler>d__23
   #pragma pack(pop)

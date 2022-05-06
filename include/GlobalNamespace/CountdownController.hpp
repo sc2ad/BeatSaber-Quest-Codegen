@@ -49,15 +49,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CountdownController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.AudioSource _audioSource
     // Size: 0x8
     // Offset: 0x18
@@ -70,7 +62,7 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::CountdownElementController*> countdownElementControllers;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::CountdownElementController*>) == 0x8);
-    // [InjectAttribute] Offset: 0x125A020
+    // [InjectAttribute] Offset: 0x10DEC04
     // private readonly ITimeProvider _timeProvider
     // Size: 0x8
     // Offset: 0x28
@@ -119,55 +111,53 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kGongTime
     static void _set_kGongTime(float value);
     // Get instance field reference: private UnityEngine.AudioSource _audioSource
-    ::UnityEngine::AudioSource*& dyn__audioSource();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioSource*& dyn__audioSource();
     // Get instance field reference: private CountdownElementController[] _countdownElementControllers
-    ::ArrayW<::GlobalNamespace::CountdownElementController*>& dyn__countdownElementControllers();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::CountdownElementController*>& dyn__countdownElementControllers();
     // Get instance field reference: private readonly ITimeProvider _timeProvider
-    ::GlobalNamespace::ITimeProvider*& dyn__timeProvider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ITimeProvider*& dyn__timeProvider();
     // Get instance field reference: private System.Single _countdownEndTime
-    float& dyn__countdownEndTime();
+    [[deprecated("Use field access instead!")]] float& dyn__countdownEndTime();
     // Get instance field reference: private System.Int32 _currentRemainingSecond
-    int& dyn__currentRemainingSecond();
+    [[deprecated("Use field access instead!")]] int& dyn__currentRemainingSecond();
     // Get instance field reference: private System.Boolean _gongSounded
-    bool& dyn__gongSounded();
+    [[deprecated("Use field access instead!")]] bool& dyn__gongSounded();
     // Get instance field reference: private System.Boolean _countdownRunning
-    bool& dyn__countdownRunning();
+    [[deprecated("Use field access instead!")]] bool& dyn__countdownRunning();
     // Get instance field reference: private readonly System.Collections.Generic.Queue`1<CountdownElementController> _countdownElementControllerQueue
-    ::System::Collections::Generic::Queue_1<::GlobalNamespace::CountdownElementController*>*& dyn__countdownElementControllerQueue();
-    // protected System.Void Awake()
-    // Offset: 0x1406908
-    void Awake();
-    // protected System.Void Update()
-    // Offset: 0x1406920
-    void Update();
-    // public System.Void StartCountdown(System.Single countdownEndTime)
-    // Offset: 0x1406B18
-    void StartCountdown(float countdownEndTime);
-    // public System.Void UpdateCountdown(System.Single countdownEndTime)
-    // Offset: 0x1406C40
-    void UpdateCountdown(float countdownEndTime);
-    // public System.Void StopCountdown()
-    // Offset: 0x1406CBC
-    void StopCountdown();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Queue_1<::GlobalNamespace::CountdownElementController*>*& dyn__countdownElementControllerQueue();
     // public System.Void .ctor()
-    // Offset: 0x1406D48
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1426AF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CountdownController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CountdownController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CountdownController*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x14266B4
+    void Awake();
+    // protected System.Void Update()
+    // Offset: 0x14266CC
+    void Update();
+    // public System.Void StartCountdown(System.Single countdownEndTime)
+    // Offset: 0x14268C4
+    void StartCountdown(float countdownEndTime);
+    // public System.Void UpdateCountdown(System.Single countdownEndTime)
+    // Offset: 0x14269EC
+    void UpdateCountdown(float countdownEndTime);
+    // public System.Void StopCountdown()
+    // Offset: 0x1426A68
+    void StopCountdown();
   }; // CountdownController
   #pragma pack(pop)
   static check_size<sizeof(CountdownController), 64 + sizeof(::System::Collections::Generic::Queue_1<::GlobalNamespace::CountdownElementController*>*)> __GlobalNamespace_CountdownControllerSizeCheck;
   static_assert(sizeof(CountdownController) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::CountdownController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CountdownController::Awake
 // Il2CppName: Awake
 template<>
@@ -210,7 +200,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CountdownController*), "StopCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CountdownController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

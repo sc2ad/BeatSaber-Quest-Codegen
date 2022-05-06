@@ -44,15 +44,7 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class CurvedCanvasSettingsHelper : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Canvas _cachedCanvas
     // Size: 0x8
     // Offset: 0x10
@@ -85,40 +77,42 @@ namespace HMUI {
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,HMUI.CurvedCanvasSettings> _curvedCanvasCache
     static void _set__curvedCanvasCache(::System::Collections::Generic::Dictionary_2<::UnityEngine::Canvas*, ::HMUI::CurvedCanvasSettings*>* value);
     // Get instance field reference: private UnityEngine.Canvas _cachedCanvas
-    ::UnityEngine::Canvas*& dyn__cachedCanvas();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Canvas*& dyn__cachedCanvas();
     // Get instance field reference: private System.Boolean _cachedCanvasIsRootCanvas
-    bool& dyn__cachedCanvasIsRootCanvas();
+    [[deprecated("Use field access instead!")]] bool& dyn__cachedCanvasIsRootCanvas();
     // Get instance field reference: private HMUI.CurvedCanvasSettings _curvedCanvasSettings
-    ::HMUI::CurvedCanvasSettings*& dyn__curvedCanvasSettings();
+    [[deprecated("Use field access instead!")]] ::HMUI::CurvedCanvasSettings*& dyn__curvedCanvasSettings();
     // Get instance field reference: private System.Boolean _hasCachedData
-    bool& dyn__hasCachedData();
-    // static private System.Void .cctor()
-    // Offset: 0x16E3310
-    static void _cctor();
-    // public System.Void Reset()
-    // Offset: 0x16E2FB8
-    void Reset();
-    // public HMUI.CurvedCanvasSettings GetCurvedCanvasSettings(UnityEngine.Canvas canvas)
-    // Offset: 0x16E2FCC
-    ::HMUI::CurvedCanvasSettings* GetCurvedCanvasSettings(::UnityEngine::Canvas* canvas);
-    // static private HMUI.CurvedCanvasSettings GetCurvedCanvasSettingsForCanvas(UnityEngine.Canvas canvas)
-    // Offset: 0x16E31F4
-    static ::HMUI::CurvedCanvasSettings* GetCurvedCanvasSettingsForCanvas(::UnityEngine::Canvas* canvas);
+    [[deprecated("Use field access instead!")]] bool& dyn__hasCachedData();
     // public System.Void .ctor()
-    // Offset: 0x16E3308
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x171AC18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CurvedCanvasSettingsHelper* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::CurvedCanvasSettingsHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CurvedCanvasSettingsHelper*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x171AC20
+    static void _cctor();
+    // public System.Void Reset()
+    // Offset: 0x171A8C8
+    void Reset();
+    // public HMUI.CurvedCanvasSettings GetCurvedCanvasSettings(UnityEngine.Canvas canvas)
+    // Offset: 0x171A8DC
+    ::HMUI::CurvedCanvasSettings* GetCurvedCanvasSettings(::UnityEngine::Canvas* canvas);
+    // static private HMUI.CurvedCanvasSettings GetCurvedCanvasSettingsForCanvas(UnityEngine.Canvas canvas)
+    // Offset: 0x171AB04
+    static ::HMUI::CurvedCanvasSettings* GetCurvedCanvasSettingsForCanvas(::UnityEngine::Canvas* canvas);
   }; // HMUI.CurvedCanvasSettingsHelper
   #pragma pack(pop)
   static check_size<sizeof(CurvedCanvasSettingsHelper), 40 + sizeof(bool)> __HMUI_CurvedCanvasSettingsHelperSizeCheck;
   static_assert(sizeof(CurvedCanvasSettingsHelper) == 0x29);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HMUI::CurvedCanvasSettingsHelper::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::CurvedCanvasSettingsHelper::_cctor
 // Il2CppName: .cctor
 template<>
@@ -153,7 +147,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::Cur
     return ::il2cpp_utils::FindMethod(classof(HMUI::CurvedCanvasSettingsHelper*), "GetCurvedCanvasSettingsForCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{canvas});
   }
 };
-// Writing MetadataGetter for method: HMUI::CurvedCanvasSettingsHelper::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

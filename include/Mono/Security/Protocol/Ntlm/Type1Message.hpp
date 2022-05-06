@@ -30,15 +30,7 @@ namespace Mono::Security::Protocol::Ntlm {
   // [TokenAttribute] Offset: FFFFFFFF
   class Type1Message : public ::Mono::Security::Protocol::Ntlm::MessageBase {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _host
     // Size: 0x8
     // Offset: 0x18
@@ -53,31 +45,29 @@ namespace Mono::Security::Protocol::Ntlm {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String _host
-    ::StringW& dyn__host();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__host();
     // Get instance field reference: private System.String _domain
-    ::StringW& dyn__domain();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__domain();
     // public System.Void set_Domain(System.String value)
-    // Offset: 0x22FFFA0
+    // Offset: 0x2349814
     void set_Domain(::StringW value);
     // public System.Void set_Host(System.String value)
-    // Offset: 0x2300028
+    // Offset: 0x234989C
     void set_Host(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x22FFF0C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2349780
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Type1Message* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Protocol::Ntlm::Type1Message::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Type1Message*, creationType>()));
     }
     // protected override System.Void Decode(System.Byte[] message)
-    // Offset: 0x23000B0
+    // Offset: 0x2349924
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Void MessageBase::Decode(System.Byte[] message)
     void Decode(::ArrayW<uint8_t> message);
     // public override System.Byte[] GetBytes()
-    // Offset: 0x23001A4
+    // Offset: 0x2349A18
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Byte[] MessageBase::GetBytes()
     ::ArrayW<uint8_t> GetBytes();

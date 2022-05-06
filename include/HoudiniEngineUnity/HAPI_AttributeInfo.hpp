@@ -90,23 +90,23 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Boolean exists
-    bool& dyn_exists();
+    [[deprecated("Use field access instead!")]] bool& dyn_exists();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AttributeOwner owner
-    ::HoudiniEngineUnity::HAPI_AttributeOwner& dyn_owner();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_AttributeOwner& dyn_owner();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_StorageType storage
-    ::HoudiniEngineUnity::HAPI_StorageType& dyn_storage();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_StorageType& dyn_storage();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AttributeOwner originalOwner
-    ::HoudiniEngineUnity::HAPI_AttributeOwner& dyn_originalOwner();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_AttributeOwner& dyn_originalOwner();
     // Get instance field reference: public System.Int32 count
-    int& dyn_count();
+    [[deprecated("Use field access instead!")]] int& dyn_count();
     // Get instance field reference: public System.Int32 tupleSize
-    int& dyn_tupleSize();
+    [[deprecated("Use field access instead!")]] int& dyn_tupleSize();
     // Get instance field reference: public System.Int64 totalArrayElements
-    int64_t& dyn_totalArrayElements();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_totalArrayElements();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AttributeTypeInfo typeInfo
-    ::HoudiniEngineUnity::HAPI_AttributeTypeInfo& dyn_typeInfo();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_AttributeTypeInfo& dyn_typeInfo();
     // public System.Void .ctor(System.String ignored)
-    // Offset: 0x16AA170
+    // Offset: 0x16E1A80
     HAPI_AttributeInfo(::StringW ignored);
   }; // HoudiniEngineUnity.HAPI_AttributeInfo
   #pragma pack(pop)

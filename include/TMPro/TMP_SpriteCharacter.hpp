@@ -36,15 +36,7 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_SpriteCharacter : public ::TMPro::TMP_TextElement {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String m_Name
     // Size: 0x8
     // Offset: 0x28
@@ -59,30 +51,29 @@ namespace TMPro {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.String m_Name
-    ::StringW& dyn_m_Name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_Name();
     // Get instance field reference: private System.Int32 m_HashCode
-    int& dyn_m_HashCode();
+    [[deprecated("Use field access instead!")]] int& dyn_m_HashCode();
     // public System.String get_name()
-    // Offset: 0x1454B54
+    // Offset: 0x14759D4
     ::StringW get_name();
     // public System.Void set_name(System.String value)
-    // Offset: 0x1454988
+    // Offset: 0x1475808
     void set_name(::StringW value);
     // public System.Int32 get_hashCode()
-    // Offset: 0x1454B5C
+    // Offset: 0x14759DC
     int get_hashCode();
     // public System.Void .ctor(System.UInt32 unicode, TMPro.TMP_SpriteGlyph glyph)
-    // Offset: 0x1454928
+    // Offset: 0x14757A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_SpriteCharacter* New_ctor(uint unicode, ::TMPro::TMP_SpriteGlyph* glyph) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_SpriteCharacter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_SpriteCharacter*, creationType>(unicode, glyph)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1454B64
+    // Offset: 0x14759E4
     // Implemented from: TMPro.TMP_TextElement
     // Base method: System.Void TMP_TextElement::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_SpriteCharacter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_SpriteCharacter::.ctor");

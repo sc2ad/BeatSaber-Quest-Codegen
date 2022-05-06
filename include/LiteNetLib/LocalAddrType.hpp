@@ -61,7 +61,7 @@ namespace LiteNetLib {
     // Set static field: static public LiteNetLib.LocalAddrType All
     static void _set_All(::LiteNetLib::LocalAddrType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // LiteNetLib.LocalAddrType
   #pragma pack(pop)
   static check_size<sizeof(LocalAddrType), 0 + sizeof(int)> __LiteNetLib_LocalAddrTypeSizeCheck;

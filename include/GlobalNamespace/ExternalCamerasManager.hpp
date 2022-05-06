@@ -42,15 +42,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ExternalCamerasManager : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private OculusMRCManager _oculusMRCManager
     // Size: 0x8
     // Offset: 0x18
@@ -73,39 +65,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private OculusMRCManager _oculusMRCManager
-    ::GlobalNamespace::OculusMRCManager*& dyn__oculusMRCManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OculusMRCManager*& dyn__oculusMRCManager();
     // Get instance field reference: private UnityEngine.Camera _mrcBackgroundCameraPrefab
-    ::UnityEngine::Camera*& dyn__mrcBackgroundCameraPrefab();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Camera*& dyn__mrcBackgroundCameraPrefab();
     // Get instance field reference: private UnityEngine.Camera _mrcForegroundCameraPrefab
-    ::UnityEngine::Camera*& dyn__mrcForegroundCameraPrefab();
-    // protected System.Void OnEnable()
-    // Offset: 0x29E7588
-    void OnEnable();
-    // private UnityEngine.GameObject InstantiateMixedRealityBackgroundCameraGameObject(UnityEngine.GameObject mainCameraGameObject)
-    // Offset: 0x29E764C
-    ::UnityEngine::GameObject* InstantiateMixedRealityBackgroundCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject);
-    // private UnityEngine.GameObject InstantiateMixedRealityForegroundCameraGameObject(UnityEngine.GameObject mainCameraGameObject)
-    // Offset: 0x29E76D0
-    ::UnityEngine::GameObject* InstantiateMixedRealityForegroundCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Camera*& dyn__mrcForegroundCameraPrefab();
     // public System.Void .ctor()
-    // Offset: 0x29E7754
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A3E050
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExternalCamerasManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ExternalCamerasManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExternalCamerasManager*, creationType>()));
     }
+    // protected System.Void OnEnable()
+    // Offset: 0x2A3DE84
+    void OnEnable();
+    // private UnityEngine.GameObject InstantiateMixedRealityBackgroundCameraGameObject(UnityEngine.GameObject mainCameraGameObject)
+    // Offset: 0x2A3DF48
+    ::UnityEngine::GameObject* InstantiateMixedRealityBackgroundCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject);
+    // private UnityEngine.GameObject InstantiateMixedRealityForegroundCameraGameObject(UnityEngine.GameObject mainCameraGameObject)
+    // Offset: 0x2A3DFCC
+    ::UnityEngine::GameObject* InstantiateMixedRealityForegroundCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject);
   }; // ExternalCamerasManager
   #pragma pack(pop)
   static check_size<sizeof(ExternalCamerasManager), 40 + sizeof(::UnityEngine::Camera*)> __GlobalNamespace_ExternalCamerasManagerSizeCheck;
   static_assert(sizeof(ExternalCamerasManager) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ExternalCamerasManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ExternalCamerasManager::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -132,7 +122,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExternalCamerasManager*), "InstantiateMixedRealityForegroundCameraGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mainCameraGameObject});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ExternalCamerasManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

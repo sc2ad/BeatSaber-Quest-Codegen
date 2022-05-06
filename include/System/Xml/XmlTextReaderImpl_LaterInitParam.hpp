@@ -44,15 +44,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlTextReaderImpl::LaterInitParam : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean useAsync
     // Size: 0x1
     // Offset: 0x10
@@ -119,25 +111,25 @@ namespace System::Xml {
     static_assert(sizeof(::System::Xml::XmlTextReaderImpl::InitInputType) == 0x4);
     public:
     // Get instance field reference: public System.Boolean useAsync
-    bool& dyn_useAsync();
+    [[deprecated("Use field access instead!")]] bool& dyn_useAsync();
     // Get instance field reference: public System.IO.Stream inputStream
-    ::System::IO::Stream*& dyn_inputStream();
+    [[deprecated("Use field access instead!")]] ::System::IO::Stream*& dyn_inputStream();
     // Get instance field reference: public System.Byte[] inputBytes
-    ::ArrayW<uint8_t>& dyn_inputBytes();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_inputBytes();
     // Get instance field reference: public System.Int32 inputByteCount
-    int& dyn_inputByteCount();
+    [[deprecated("Use field access instead!")]] int& dyn_inputByteCount();
     // Get instance field reference: public System.Uri inputbaseUri
-    ::System::Uri*& dyn_inputbaseUri();
+    [[deprecated("Use field access instead!")]] ::System::Uri*& dyn_inputbaseUri();
     // Get instance field reference: public System.String inputUriStr
-    ::StringW& dyn_inputUriStr();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_inputUriStr();
     // Get instance field reference: public System.Xml.XmlResolver inputUriResolver
-    ::System::Xml::XmlResolver*& dyn_inputUriResolver();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlResolver*& dyn_inputUriResolver();
     // Get instance field reference: public System.Xml.XmlParserContext inputContext
-    ::System::Xml::XmlParserContext*& dyn_inputContext();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlParserContext*& dyn_inputContext();
     // Get instance field reference: public System.IO.TextReader inputTextReader
-    ::System::IO::TextReader*& dyn_inputTextReader();
+    [[deprecated("Use field access instead!")]] ::System::IO::TextReader*& dyn_inputTextReader();
     // Get instance field reference: public System.Xml.XmlTextReaderImpl/System.Xml.InitInputType initType
-    ::System::Xml::XmlTextReaderImpl::InitInputType& dyn_initType();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlTextReaderImpl::InitInputType& dyn_initType();
   }; // System.Xml.XmlTextReaderImpl/System.Xml.LaterInitParam
   #pragma pack(pop)
   static check_size<sizeof(XmlTextReaderImpl::LaterInitParam), 88 + sizeof(::System::Xml::XmlTextReaderImpl::InitInputType)> __System_Xml_XmlTextReaderImpl_LaterInitParamSizeCheck;

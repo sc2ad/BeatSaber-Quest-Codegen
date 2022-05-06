@@ -25,15 +25,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class KeyboardShortcutsManager::KeyboardShortcut : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.KeyCode mainKey
     // Size: 0x4
     // Offset: 0x10
@@ -54,25 +46,25 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::KeyCode) == 0x4);
     public:
     // Get instance field reference: public UnityEngine.KeyCode mainKey
-    ::UnityEngine::KeyCode& dyn_mainKey();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::KeyCode& dyn_mainKey();
     // Get instance field reference: public UnityEngine.KeyCode combinationKey1
-    ::UnityEngine::KeyCode& dyn_combinationKey1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::KeyCode& dyn_combinationKey1();
     // Get instance field reference: public UnityEngine.KeyCode combinationKey2
-    ::UnityEngine::KeyCode& dyn_combinationKey2();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::KeyCode& dyn_combinationKey2();
     // public System.Void .ctor(UnityEngine.KeyCode mainKey, UnityEngine.KeyCode combinationKey1, UnityEngine.KeyCode combinationKey2)
-    // Offset: 0x1574498
+    // Offset: 0x15AADA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyboardShortcutsManager::KeyboardShortcut* New_ctor(::UnityEngine::KeyCode mainKey, ::UnityEngine::KeyCode combinationKey1, ::UnityEngine::KeyCode combinationKey2) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyboardShortcutsManager::KeyboardShortcut*, creationType>(mainKey, combinationKey1, combinationKey2)));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x15748F4
+    // Offset: 0x15AB204
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1574908
+    // Offset: 0x15AB218
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

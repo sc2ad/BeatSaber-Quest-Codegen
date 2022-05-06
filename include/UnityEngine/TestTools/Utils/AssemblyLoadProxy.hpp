@@ -40,22 +40,24 @@ namespace UnityEngine::TestTools::Utils {
     operator ::UnityEngine::TestTools::Utils::IAssemblyLoadProxy() noexcept {
       return *reinterpret_cast<::UnityEngine::TestTools::Utils::IAssemblyLoadProxy*>(this);
     }
-    // public UnityEngine.TestTools.Utils.IAssemblyWrapper Load(System.String assemblyString)
-    // Offset: 0x2A7CAFC
-    ::UnityEngine::TestTools::Utils::IAssemblyWrapper* Load(::StringW assemblyString);
     // public System.Void .ctor()
-    // Offset: 0x2A7CBBC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2AC686C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyLoadProxy* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::Utils::AssemblyLoadProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyLoadProxy*, creationType>()));
     }
+    // public UnityEngine.TestTools.Utils.IAssemblyWrapper Load(System.String assemblyString)
+    // Offset: 0x2AC67AC
+    ::UnityEngine::TestTools::Utils::IAssemblyWrapper* Load(::StringW assemblyString);
   }; // UnityEngine.TestTools.Utils.AssemblyLoadProxy
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::TestTools::Utils::AssemblyLoadProxy::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::AssemblyLoadProxy::Load
 // Il2CppName: Load
 template<>
@@ -65,7 +67,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Utils::AssemblyLoadProxy*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assemblyString});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestTools::Utils::AssemblyLoadProxy::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

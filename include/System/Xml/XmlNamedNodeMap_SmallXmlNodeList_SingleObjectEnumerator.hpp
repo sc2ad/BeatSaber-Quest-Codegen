@@ -25,15 +25,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlNamedNodeMap::SmallXmlNodeList::SingleObjectEnumerator : public ::Il2CppObject/*, public ::System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Object loneValue
     // Size: 0x8
     // Offset: 0x10
@@ -52,24 +44,24 @@ namespace System::Xml {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
     // Get instance field reference: private System.Object loneValue
-    ::Il2CppObject*& dyn_loneValue();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_loneValue();
     // Get instance field reference: private System.Int32 position
-    int& dyn_position();
+    [[deprecated("Use field access instead!")]] int& dyn_position();
     // public System.Object get_Current()
-    // Offset: 0x15A27AC
+    // Offset: 0x15D80BC
     ::Il2CppObject* get_Current();
     // public System.Void .ctor(System.Object value)
-    // Offset: 0x15A2778
+    // Offset: 0x15D8088
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlNamedNodeMap::SmallXmlNodeList::SingleObjectEnumerator* New_ctor(::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlNamedNodeMap::SmallXmlNodeList::SingleObjectEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlNamedNodeMap::SmallXmlNodeList::SingleObjectEnumerator*, creationType>(value)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x15A2828
+    // Offset: 0x15D8138
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x15A2844
+    // Offset: 0x15D8154
     void Reset();
   }; // System.Xml.XmlNamedNodeMap/System.Xml.SmallXmlNodeList/System.Xml.SingleObjectEnumerator
   #pragma pack(pop)

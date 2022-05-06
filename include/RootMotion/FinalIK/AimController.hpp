@@ -47,24 +47,16 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: ::RootMotion::FinalIK::AimController::$TurnToTarget$d__33
     class $TurnToTarget$d__33;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x1275418
+    // [TooltipAttribute] Offset: 0x10FA0D0
     // public RootMotion.FinalIK.AimIK ik
     // Size: 0x8
     // Offset: 0x18
     ::RootMotion::FinalIK::AimIK* ik;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::AimIK*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1275450
-    // [RangeAttribute] Offset: 0x1275450
+    // [TooltipAttribute] Offset: 0x10FA108
+    // [RangeAttribute] Offset: 0x10FA108
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x20
@@ -73,30 +65,30 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: weight and: target
     char __padding1[0x4] = {};
-    // [HeaderAttribute] Offset: 0x12754A4
-    // [TooltipAttribute] Offset: 0x12754A4
+    // [HeaderAttribute] Offset: 0x10FA15C
+    // [TooltipAttribute] Offset: 0x10FA15C
     // public UnityEngine.Transform target
     // Size: 0x8
     // Offset: 0x28
     ::UnityEngine::Transform* target;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1275504
+    // [TooltipAttribute] Offset: 0x10FA1BC
     // public System.Single targetSwitchSmoothTime
     // Size: 0x4
     // Offset: 0x30
     float targetSwitchSmoothTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x127553C
+    // [TooltipAttribute] Offset: 0x10FA1F4
     // public System.Single weightSmoothTime
     // Size: 0x4
     // Offset: 0x34
     float weightSmoothTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x1275574
-    // [TooltipAttribute] Offset: 0x1275574
+    // [HeaderAttribute] Offset: 0x10FA22C
+    // [TooltipAttribute] Offset: 0x10FA22C
     // public System.Boolean smoothTurnTowardsTarget
     // Size: 0x1
     // Offset: 0x38
@@ -105,58 +97,58 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: smoothTurnTowardsTarget and: maxRadiansDelta
     char __padding5[0x3] = {};
-    // [TooltipAttribute] Offset: 0x12755D4
+    // [TooltipAttribute] Offset: 0x10FA28C
     // public System.Single maxRadiansDelta
     // Size: 0x4
     // Offset: 0x3C
     float maxRadiansDelta;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x127560C
+    // [TooltipAttribute] Offset: 0x10FA2C4
     // public System.Single maxMagnitudeDelta
     // Size: 0x4
     // Offset: 0x40
     float maxMagnitudeDelta;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1275644
+    // [TooltipAttribute] Offset: 0x10FA2FC
     // public System.Single slerpSpeed
     // Size: 0x4
     // Offset: 0x44
     float slerpSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x127567C
+    // [TooltipAttribute] Offset: 0x10FA334
     // public UnityEngine.Vector3 pivotOffsetFromRoot
     // Size: 0xC
     // Offset: 0x48
     ::UnityEngine::Vector3 pivotOffsetFromRoot;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0x12756B4
+    // [TooltipAttribute] Offset: 0x10FA36C
     // public System.Single minDistance
     // Size: 0x4
     // Offset: 0x54
     float minDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x12756EC
+    // [TooltipAttribute] Offset: 0x10FA3A4
     // public UnityEngine.Vector3 offset
     // Size: 0xC
     // Offset: 0x58
     ::UnityEngine::Vector3 offset;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [HeaderAttribute] Offset: 0x1275724
-    // [TooltipAttribute] Offset: 0x1275724
-    // [RangeAttribute] Offset: 0x1275724
+    // [HeaderAttribute] Offset: 0x10FA3DC
+    // [TooltipAttribute] Offset: 0x10FA3DC
+    // [RangeAttribute] Offset: 0x10FA3DC
     // public System.Single maxRootAngle
     // Size: 0x4
     // Offset: 0x64
     float maxRootAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x12757A0
+    // [TooltipAttribute] Offset: 0x10FA458
     // public System.Boolean turnToTarget
     // Size: 0x1
     // Offset: 0x68
@@ -165,15 +157,15 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: turnToTarget and: turnToTargetTime
     char __padding13[0x3] = {};
-    // [TooltipAttribute] Offset: 0x12757D8
+    // [TooltipAttribute] Offset: 0x10FA490
     // public System.Single turnToTargetTime
     // Size: 0x4
     // Offset: 0x6C
     float turnToTargetTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x1275810
-    // [TooltipAttribute] Offset: 0x1275810
+    // [HeaderAttribute] Offset: 0x10FA4C8
+    // [TooltipAttribute] Offset: 0x10FA4C8
     // public System.Boolean useAnimatedAimDirection
     // Size: 0x1
     // Offset: 0x70
@@ -182,7 +174,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useAnimatedAimDirection and: animatedAimDirection
     char __padding15[0x3] = {};
-    // [TooltipAttribute] Offset: 0x1275870
+    // [TooltipAttribute] Offset: 0x10FA528
     // public UnityEngine.Vector3 animatedAimDirection
     // Size: 0xC
     // Offset: 0x74
@@ -255,90 +247,84 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.AimIK ik
-    ::RootMotion::FinalIK::AimIK*& dyn_ik();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::AimIK*& dyn_ik();
     // Get instance field reference: public System.Single weight
-    float& dyn_weight();
+    [[deprecated("Use field access instead!")]] float& dyn_weight();
     // Get instance field reference: public UnityEngine.Transform target
-    ::UnityEngine::Transform*& dyn_target();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_target();
     // Get instance field reference: public System.Single targetSwitchSmoothTime
-    float& dyn_targetSwitchSmoothTime();
+    [[deprecated("Use field access instead!")]] float& dyn_targetSwitchSmoothTime();
     // Get instance field reference: public System.Single weightSmoothTime
-    float& dyn_weightSmoothTime();
+    [[deprecated("Use field access instead!")]] float& dyn_weightSmoothTime();
     // Get instance field reference: public System.Boolean smoothTurnTowardsTarget
-    bool& dyn_smoothTurnTowardsTarget();
+    [[deprecated("Use field access instead!")]] bool& dyn_smoothTurnTowardsTarget();
     // Get instance field reference: public System.Single maxRadiansDelta
-    float& dyn_maxRadiansDelta();
+    [[deprecated("Use field access instead!")]] float& dyn_maxRadiansDelta();
     // Get instance field reference: public System.Single maxMagnitudeDelta
-    float& dyn_maxMagnitudeDelta();
+    [[deprecated("Use field access instead!")]] float& dyn_maxMagnitudeDelta();
     // Get instance field reference: public System.Single slerpSpeed
-    float& dyn_slerpSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn_slerpSpeed();
     // Get instance field reference: public UnityEngine.Vector3 pivotOffsetFromRoot
-    ::UnityEngine::Vector3& dyn_pivotOffsetFromRoot();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_pivotOffsetFromRoot();
     // Get instance field reference: public System.Single minDistance
-    float& dyn_minDistance();
+    [[deprecated("Use field access instead!")]] float& dyn_minDistance();
     // Get instance field reference: public UnityEngine.Vector3 offset
-    ::UnityEngine::Vector3& dyn_offset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_offset();
     // Get instance field reference: public System.Single maxRootAngle
-    float& dyn_maxRootAngle();
+    [[deprecated("Use field access instead!")]] float& dyn_maxRootAngle();
     // Get instance field reference: public System.Boolean turnToTarget
-    bool& dyn_turnToTarget();
+    [[deprecated("Use field access instead!")]] bool& dyn_turnToTarget();
     // Get instance field reference: public System.Single turnToTargetTime
-    float& dyn_turnToTargetTime();
+    [[deprecated("Use field access instead!")]] float& dyn_turnToTargetTime();
     // Get instance field reference: public System.Boolean useAnimatedAimDirection
-    bool& dyn_useAnimatedAimDirection();
+    [[deprecated("Use field access instead!")]] bool& dyn_useAnimatedAimDirection();
     // Get instance field reference: public UnityEngine.Vector3 animatedAimDirection
-    ::UnityEngine::Vector3& dyn_animatedAimDirection();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_animatedAimDirection();
     // Get instance field reference: private UnityEngine.Transform lastTarget
-    ::UnityEngine::Transform*& dyn_lastTarget();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_lastTarget();
     // Get instance field reference: private System.Single switchWeight
-    float& dyn_switchWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_switchWeight();
     // Get instance field reference: private System.Single switchWeightV
-    float& dyn_switchWeightV();
+    [[deprecated("Use field access instead!")]] float& dyn_switchWeightV();
     // Get instance field reference: private System.Single weightV
-    float& dyn_weightV();
+    [[deprecated("Use field access instead!")]] float& dyn_weightV();
     // Get instance field reference: private UnityEngine.Vector3 lastPosition
-    ::UnityEngine::Vector3& dyn_lastPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_lastPosition();
     // Get instance field reference: private UnityEngine.Vector3 dir
-    ::UnityEngine::Vector3& dyn_dir();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_dir();
     // Get instance field reference: private System.Boolean lastSmoothTowardsTarget
-    bool& dyn_lastSmoothTowardsTarget();
+    [[deprecated("Use field access instead!")]] bool& dyn_lastSmoothTowardsTarget();
     // Get instance field reference: private System.Boolean turningToTarget
-    bool& dyn_turningToTarget();
+    [[deprecated("Use field access instead!")]] bool& dyn_turningToTarget();
     // Get instance field reference: private System.Single turnToTargetMlp
-    float& dyn_turnToTargetMlp();
+    [[deprecated("Use field access instead!")]] float& dyn_turnToTargetMlp();
     // Get instance field reference: private System.Single turnToTargetMlpV
-    float& dyn_turnToTargetMlpV();
+    [[deprecated("Use field access instead!")]] float& dyn_turnToTargetMlpV();
     // private UnityEngine.Vector3 get_pivot()
-    // Offset: 0x2201774
+    // Offset: 0x224EFE8
     ::UnityEngine::Vector3 get_pivot();
-    // private System.Void Start()
-    // Offset: 0x2201678
-    void Start();
-    // private System.Void LateUpdate()
-    // Offset: 0x22018C0
-    void LateUpdate();
-    // private System.Void ApplyMinDistance()
-    // Offset: 0x2201FF8
-    void ApplyMinDistance();
-    // private System.Void RootRotation()
-    // Offset: 0x2202194
-    void RootRotation();
-    // private System.Collections.IEnumerator TurnToTarget()
-    // Offset: 0x2202504
-    ::System::Collections::IEnumerator* TurnToTarget();
     // public System.Void .ctor()
-    // Offset: 0x22025A0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x224FE14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AimController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::AimController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AimController*, creationType>()));
     }
+    // private System.Void Start()
+    // Offset: 0x224EEEC
+    void Start();
+    // private System.Void LateUpdate()
+    // Offset: 0x224F134
+    void LateUpdate();
+    // private System.Void ApplyMinDistance()
+    // Offset: 0x224F86C
+    void ApplyMinDistance();
+    // private System.Void RootRotation()
+    // Offset: 0x224FA08
+    void RootRotation();
+    // private System.Collections.IEnumerator TurnToTarget()
+    // Offset: 0x224FD78
+    ::System::Collections::IEnumerator* TurnToTarget();
   }; // RootMotion.FinalIK.AimController
   #pragma pack(pop)
   static check_size<sizeof(AimController), 180 + sizeof(float)> __RootMotion_FinalIK_AimControllerSizeCheck;
@@ -353,6 +339,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::AimController*), "get_pivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: RootMotion::FinalIK::AimController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::AimController::Start
 // Il2CppName: Start
 template<>
@@ -393,7 +383,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::AimController*), "TurnToTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::AimController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

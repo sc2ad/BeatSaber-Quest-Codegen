@@ -40,20 +40,18 @@ namespace GlobalNamespace {
     // Set static field: static public System.Action <>9__23_0
     static void _set_$$9__23_0(::System::Action* value);
     // static private System.Void .cctor()
-    // Offset: 0x13012C4
+    // Offset: 0x12FD79C
     static void _cctor();
-    // System.Void <StartBeatmapEditor>b__23_0()
-    // Offset: 0x1301330
-    void $StartBeatmapEditor$b__23_0();
     // public System.Void .ctor()
-    // Offset: 0x1301328
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x12FD800
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuTransitionsHelper::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuTransitionsHelper::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MenuTransitionsHelper::$$c*, creationType>()));
     }
+    // System.Void <StartBeatmapEditor>b__23_0()
+    // Offset: 0x12FD808
+    void $StartBeatmapEditor$b__23_0();
   }; // MenuTransitionsHelper/<>c
   #pragma pack(pop)
 }
@@ -66,6 +64,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::$$c::$StartBeatmapEditor$b__23_0
 // Il2CppName: <StartBeatmapEditor>b__23_0
 template<>
@@ -74,7 +76,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper::$$c*), "<StartBeatmapEditor>b__23_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

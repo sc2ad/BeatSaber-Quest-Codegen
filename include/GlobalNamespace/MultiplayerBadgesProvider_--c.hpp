@@ -50,23 +50,21 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<MultiplayerPlayerResultsData,System.Int32> <>9__7_1
     static void _set_$$9__7_1(::System::Func_2<::GlobalNamespace::MultiplayerPlayerResultsData*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13CEEAC
+    // Offset: 0x13CB358
     static void _cctor();
-    // System.Boolean <SelectBadgesAndPutThemIntoResults>b__7_0(MultiplayerPlayerResultsData result)
-    // Offset: 0x13CEF18
-    bool $SelectBadgesAndPutThemIntoResults$b__7_0(::GlobalNamespace::MultiplayerPlayerResultsData* result);
-    // System.Int32 <SelectBadgesAndPutThemIntoResults>b__7_1(MultiplayerPlayerResultsData p)
-    // Offset: 0x13CEF3C
-    int $SelectBadgesAndPutThemIntoResults$b__7_1(::GlobalNamespace::MultiplayerPlayerResultsData* p);
     // public System.Void .ctor()
-    // Offset: 0x13CEF10
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13CB3BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerBadgesProvider::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerBadgesProvider::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerBadgesProvider::$$c*, creationType>()));
     }
+    // System.Boolean <SelectBadgesAndPutThemIntoResults>b__7_0(MultiplayerPlayerResultsData result)
+    // Offset: 0x13CB3C4
+    bool $SelectBadgesAndPutThemIntoResults$b__7_0(::GlobalNamespace::MultiplayerPlayerResultsData* result);
+    // System.Int32 <SelectBadgesAndPutThemIntoResults>b__7_1(MultiplayerPlayerResultsData p)
+    // Offset: 0x13CB3E8
+    int $SelectBadgesAndPutThemIntoResults$b__7_1(::GlobalNamespace::MultiplayerPlayerResultsData* p);
   }; // MultiplayerBadgesProvider/<>c
   #pragma pack(pop)
 }
@@ -79,6 +77,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgesProvider::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgesProvider::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgesProvider::$$c::$SelectBadgesAndPutThemIntoResults$b__7_0
 // Il2CppName: <SelectBadgesAndPutThemIntoResults>b__7_0
 template<>
@@ -97,7 +99,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgesProvider::$$c*), "<SelectBadgesAndPutThemIntoResults>b__7_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgesProvider::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

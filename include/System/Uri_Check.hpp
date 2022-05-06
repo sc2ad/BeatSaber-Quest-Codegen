@@ -94,7 +94,7 @@ namespace System {
     // Set static field: static public System.Uri/System.Check FoundNonAscii
     static void _set_FoundNonAscii(::System::Uri::Check value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Uri/System.Check
   #pragma pack(pop)
   static check_size<sizeof(Uri::Check), 0 + sizeof(int)> __System_Uri_CheckSizeCheck;

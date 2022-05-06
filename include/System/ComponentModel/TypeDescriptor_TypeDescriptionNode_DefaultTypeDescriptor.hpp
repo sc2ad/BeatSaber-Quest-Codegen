@@ -70,19 +70,19 @@ namespace System::ComponentModel {
       return *reinterpret_cast<::System::ComponentModel::ICustomTypeDescriptor*>(this);
     }
     // Get instance field reference: private System.ComponentModel.TypeDescriptor/System.ComponentModel.TypeDescriptionNode _node
-    ::System::ComponentModel::TypeDescriptor::TypeDescriptionNode*& dyn__node();
+    [[deprecated("Use field access instead!")]] ::System::ComponentModel::TypeDescriptor::TypeDescriptionNode*& dyn__node();
     // Get instance field reference: private System.Type _objectType
-    ::System::Type*& dyn__objectType();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn__objectType();
     // Get instance field reference: private System.Object _instance
-    ::Il2CppObject*& dyn__instance();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__instance();
     // System.Void .ctor(System.ComponentModel.TypeDescriptor/System.ComponentModel.TypeDescriptionNode node, System.Type objectType, System.Object instance)
-    // Offset: 0x1CA4844
+    // Offset: 0x1CE0D9C
     // ABORTED: conflicts with another method.  DefaultTypeDescriptor(::System::ComponentModel::TypeDescriptor::TypeDescriptionNode* node, ::System::Type* objectType, ::Il2CppObject* instance);
     // private System.ComponentModel.AttributeCollection System.ComponentModel.ICustomTypeDescriptor.GetAttributes()
-    // Offset: 0x1CA4DB8
+    // Offset: 0x1CE1310
     ::System::ComponentModel::AttributeCollection* System_ComponentModel_ICustomTypeDescriptor_GetAttributes();
     // private System.ComponentModel.TypeConverter System.ComponentModel.ICustomTypeDescriptor.GetConverter()
-    // Offset: 0x1CA504C
+    // Offset: 0x1CE15A4
     ::System::ComponentModel::TypeConverter* System_ComponentModel_ICustomTypeDescriptor_GetConverter();
   }; // System.ComponentModel.TypeDescriptor/System.ComponentModel.TypeDescriptionNode/System.ComponentModel.DefaultTypeDescriptor
   #pragma pack(pop)

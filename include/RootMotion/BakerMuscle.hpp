@@ -37,15 +37,7 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class BakerMuscle : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.AnimationCurve curve
     // Size: 0x8
     // Offset: 0x10
@@ -68,35 +60,35 @@ namespace RootMotion {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.AnimationCurve curve
-    ::UnityEngine::AnimationCurve*& dyn_curve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_curve();
     // Get instance field reference: private System.Int32 muscleIndex
-    int& dyn_muscleIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_muscleIndex();
     // Get instance field reference: private System.String propertyName
-    ::StringW& dyn_propertyName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_propertyName();
     // public System.Void .ctor(System.Int32 muscleIndex)
-    // Offset: 0x21F8B18
+    // Offset: 0x224638C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakerMuscle* New_ctor(int muscleIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::BakerMuscle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakerMuscle*, creationType>(muscleIndex)));
     }
     // private System.String MuscleNameToPropertyName(System.String n)
-    // Offset: 0x21F8B88
+    // Offset: 0x22463FC
     ::StringW MuscleNameToPropertyName(::StringW n);
     // public System.Void MultiplyLength(UnityEngine.AnimationCurve curve, System.Single mlp)
-    // Offset: 0x21F9270
+    // Offset: 0x2246AE4
     void MultiplyLength(::UnityEngine::AnimationCurve* curve, float mlp);
     // public System.Void SetCurves(ref UnityEngine.AnimationClip clip, System.Single maxError, System.Single lengthMlp)
-    // Offset: 0x21F9324
+    // Offset: 0x2246B98
     void SetCurves(ByRef<::UnityEngine::AnimationClip*> clip, float maxError, float lengthMlp);
     // public System.Void Reset()
-    // Offset: 0x21F9210
+    // Offset: 0x2246A84
     void Reset();
     // public System.Void SetKeyframe(System.Single time, System.Single[] muscles)
-    // Offset: 0x21F9408
+    // Offset: 0x2246C7C
     void SetKeyframe(float time, ::ArrayW<float> muscles);
     // public System.Void SetLoopFrame(System.Single time)
-    // Offset: 0x21F9450
+    // Offset: 0x2246CC4
     void SetLoopFrame(float time);
   }; // RootMotion.BakerMuscle
   #pragma pack(pop)

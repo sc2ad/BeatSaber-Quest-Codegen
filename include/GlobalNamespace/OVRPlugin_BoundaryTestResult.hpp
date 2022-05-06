@@ -58,13 +58,13 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public OVRPlugin/Bool IsTriggering
-    ::GlobalNamespace::OVRPlugin::Bool& dyn_IsTriggering();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bool& dyn_IsTriggering();
     // Get instance field reference: public System.Single ClosestDistance
-    float& dyn_ClosestDistance();
+    [[deprecated("Use field access instead!")]] float& dyn_ClosestDistance();
     // Get instance field reference: public OVRPlugin/Vector3f ClosestPoint
-    ::GlobalNamespace::OVRPlugin::Vector3f& dyn_ClosestPoint();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Vector3f& dyn_ClosestPoint();
     // Get instance field reference: public OVRPlugin/Vector3f ClosestPointNormal
-    ::GlobalNamespace::OVRPlugin::Vector3f& dyn_ClosestPointNormal();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Vector3f& dyn_ClosestPointNormal();
   }; // OVRPlugin/BoundaryTestResult
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::BoundaryTestResult), 20 + sizeof(::GlobalNamespace::OVRPlugin::Vector3f)> __GlobalNamespace_OVRPlugin_BoundaryTestResultSizeCheck;

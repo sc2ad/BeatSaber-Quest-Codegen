@@ -26,15 +26,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapObjectExecutionRating : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Single <time>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -47,12 +39,12 @@ namespace GlobalNamespace {
       return time;
     }
     // Get instance field reference: private readonly System.Single <time>k__BackingField
-    float& dyn_$time$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$time$k__BackingField();
     // public System.Single get_time()
-    // Offset: 0x14D4BC8
+    // Offset: 0x150C4D0
     float get_time();
     // protected System.Void .ctor(System.Single time)
-    // Offset: 0x14D4BD0
+    // Offset: 0x150C4D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectExecutionRating* New_ctor(float time) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectExecutionRating::.ctor");

@@ -61,6 +61,13 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_PositiveInfinity", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
+    // protected System.Void .ctor()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static TypeMath_1<T>* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<TypeMath_1<T>*, creationType>()));
+    }
     // public System.Int32 Compare(T a, T b)
     // Offset: 0xFFFFFFFFFFFFFFFF
     int Compare(T a, T b) {
@@ -109,15 +116,6 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1::DistanceSquaredBetweenPoints");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "DistanceSquaredBetweenPoints", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b)})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method, a, b);
-    }
-    // protected System.Void .ctor()
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TypeMath_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<TypeMath_1<T>*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.KdTree.Math.TypeMath`1
   // Could not write size check! Type: UnityEngine.ProBuilder.KdTree.Math.TypeMath`1 is generic, or has no fields that are valid for size checks!

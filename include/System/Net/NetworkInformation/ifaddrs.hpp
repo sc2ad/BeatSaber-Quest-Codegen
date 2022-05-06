@@ -76,19 +76,19 @@ namespace System::Net::NetworkInformation {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.IntPtr ifa_next
-    ::System::IntPtr& dyn_ifa_next();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_ifa_next();
     // Get instance field reference: public System.String ifa_name
-    ::StringW& dyn_ifa_name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_ifa_name();
     // Get instance field reference: public System.UInt32 ifa_flags
-    uint& dyn_ifa_flags();
+    [[deprecated("Use field access instead!")]] uint& dyn_ifa_flags();
     // Get instance field reference: public System.IntPtr ifa_addr
-    ::System::IntPtr& dyn_ifa_addr();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_ifa_addr();
     // Get instance field reference: public System.IntPtr ifa_netmask
-    ::System::IntPtr& dyn_ifa_netmask();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_ifa_netmask();
     // Get instance field reference: public System.Net.NetworkInformation.ifa_ifu ifa_ifu
-    ::System::Net::NetworkInformation::ifa_ifu& dyn_ifa_ifu();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::ifa_ifu& dyn_ifa_ifu();
     // Get instance field reference: public System.IntPtr ifa_data
-    ::System::IntPtr& dyn_ifa_data();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_ifa_data();
   }; // System.Net.NetworkInformation.ifaddrs
   // WARNING Not writing size check since size may be invalid!
 }

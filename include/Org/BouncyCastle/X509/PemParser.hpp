@@ -39,15 +39,7 @@ namespace Org::BouncyCastle::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class PemParser : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.String _header1
     // Size: 0x8
     // Offset: 0x10
@@ -74,25 +66,25 @@ namespace Org::BouncyCastle::X509 {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private readonly System.String _header1
-    ::StringW& dyn__header1();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__header1();
     // Get instance field reference: private readonly System.String _header2
-    ::StringW& dyn__header2();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__header2();
     // Get instance field reference: private readonly System.String _footer1
-    ::StringW& dyn__footer1();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__footer1();
     // Get instance field reference: private readonly System.String _footer2
-    ::StringW& dyn__footer2();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__footer2();
     // System.Void .ctor(System.String type)
-    // Offset: 0x25A63BC
+    // Offset: 0x25F19EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PemParser* New_ctor(::StringW type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::X509::PemParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PemParser*, creationType>(type)));
     }
     // private System.String ReadLine(System.IO.Stream inStream)
-    // Offset: 0x25A649C
+    // Offset: 0x25F1ACC
     ::StringW ReadLine(::System::IO::Stream* inStream);
     // Org.BouncyCastle.Asn1.Asn1Sequence ReadPemObject(System.IO.Stream inStream)
-    // Offset: 0x25A6574
+    // Offset: 0x25F1BA4
     ::Org::BouncyCastle::Asn1::Asn1Sequence* ReadPemObject(::System::IO::Stream* inStream);
   }; // Org.BouncyCastle.X509.PemParser
   #pragma pack(pop)

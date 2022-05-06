@@ -50,23 +50,15 @@ namespace GlobalNamespace {
     struct $HandleGetIsEntitledToLevel$d__5;
     // Nested type: ::GlobalNamespace::NetworkPlayerEntitlementChecker::$GetEntitlementStatus$d__6
     struct $GetEntitlementStatus$d__6;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x124DB74
+    // [InjectAttribute] Offset: 0x10D266C
     // private readonly IMenuRpcManager _rpcManager
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::IMenuRpcManager* rpcManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMenuRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x124DB84
+    // [InjectAttribute] Offset: 0x10D267C
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x20
@@ -77,43 +69,41 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly IMenuRpcManager _rpcManager
-    ::GlobalNamespace::IMenuRpcManager*& dyn__rpcManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMenuRpcManager*& dyn__rpcManager();
     // Get instance field reference: private readonly AdditionalContentModel _additionalContentModel
-    ::GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
-    // protected System.Void Start()
-    // Offset: 0x146E76C
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x146E860
-    void OnDestroy();
-    // private System.Void HandleDataInvalidated()
-    // Offset: 0x146E9E0
-    void HandleDataInvalidated();
-    // private System.Void HandleGetIsEntitledToLevel(System.String userId, System.String levelId)
-    // Offset: 0x146EA94
-    void HandleGetIsEntitledToLevel(::StringW userId, ::StringW levelId);
-    // private System.Threading.Tasks.Task`1<EntitlementsStatus> GetEntitlementStatus(System.String levelId)
-    // Offset: 0x146EB58
-    ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementsStatus>* GetEntitlementStatus(::StringW levelId);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
     // public System.Void .ctor()
-    // Offset: 0x146EC7C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14A5464
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkPlayerEntitlementChecker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerEntitlementChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkPlayerEntitlementChecker*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x14A4F54
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x14A5048
+    void OnDestroy();
+    // private System.Void HandleDataInvalidated()
+    // Offset: 0x14A51C8
+    void HandleDataInvalidated();
+    // private System.Void HandleGetIsEntitledToLevel(System.String userId, System.String levelId)
+    // Offset: 0x14A527C
+    void HandleGetIsEntitledToLevel(::StringW userId, ::StringW levelId);
+    // private System.Threading.Tasks.Task`1<EntitlementsStatus> GetEntitlementStatus(System.String levelId)
+    // Offset: 0x14A5340
+    ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementsStatus>* GetEntitlementStatus(::StringW levelId);
   }; // NetworkPlayerEntitlementChecker
   #pragma pack(pop)
   static check_size<sizeof(NetworkPlayerEntitlementChecker), 32 + sizeof(::GlobalNamespace::AdditionalContentModel*)> __GlobalNamespace_NetworkPlayerEntitlementCheckerSizeCheck;
   static_assert(sizeof(NetworkPlayerEntitlementChecker) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerEntitlementChecker::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerEntitlementChecker::Start
 // Il2CppName: Start
 template<>
@@ -157,7 +147,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerEntitlementChecker*), "GetEntitlementStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelId});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerEntitlementChecker::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

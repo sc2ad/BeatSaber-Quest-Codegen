@@ -38,31 +38,33 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PosePrediction : public ::Il2CppObject {
     public:
-    // static public UnityEngine.Pose PredictPose(UnityEngine.Pose prev, System.Single prevTime, UnityEngine.Pose curr, System.Single currTime, System.Single time)
-    // Offset: 0x25EA454
-    static ::UnityEngine::Pose PredictPose(::UnityEngine::Pose prev, float prevTime, ::UnityEngine::Pose curr, float currTime, float time);
-    // static public UnityEngine.Pose InterpolatePose(UnityEngine.Pose prev, UnityEngine.Pose curr, System.Single t)
-    // Offset: 0x25EA55C
-    static ::UnityEngine::Pose InterpolatePose(::UnityEngine::Pose prev, ::UnityEngine::Pose curr, float t);
-    // static public PoseSerializable PredictPoseSerializable(PoseSerializable prev, System.Single prevTime, PoseSerializable curr, System.Single currTime, System.Single time)
-    // Offset: 0x25EAA68
-    static ::GlobalNamespace::PoseSerializable PredictPoseSerializable(::GlobalNamespace::PoseSerializable prev, float prevTime, ::GlobalNamespace::PoseSerializable curr, float currTime, float time);
-    // static public PoseSerializable InterpolatePoseSerializable(PoseSerializable a, PoseSerializable b, System.Single t)
-    // Offset: 0x25EAB54
-    static ::GlobalNamespace::PoseSerializable InterpolatePoseSerializable(::GlobalNamespace::PoseSerializable a, ::GlobalNamespace::PoseSerializable b, float t);
     // public System.Void .ctor()
-    // Offset: 0x25EAC28
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2637258
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PosePrediction* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosePrediction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PosePrediction*, creationType>()));
     }
+    // static public UnityEngine.Pose PredictPose(UnityEngine.Pose prev, System.Single prevTime, UnityEngine.Pose curr, System.Single currTime, System.Single time)
+    // Offset: 0x2636A84
+    static ::UnityEngine::Pose PredictPose(::UnityEngine::Pose prev, float prevTime, ::UnityEngine::Pose curr, float currTime, float time);
+    // static public UnityEngine.Pose InterpolatePose(UnityEngine.Pose prev, UnityEngine.Pose curr, System.Single t)
+    // Offset: 0x2636B8C
+    static ::UnityEngine::Pose InterpolatePose(::UnityEngine::Pose prev, ::UnityEngine::Pose curr, float t);
+    // static public PoseSerializable PredictPoseSerializable(PoseSerializable prev, System.Single prevTime, PoseSerializable curr, System.Single currTime, System.Single time)
+    // Offset: 0x2637098
+    static ::GlobalNamespace::PoseSerializable PredictPoseSerializable(::GlobalNamespace::PoseSerializable prev, float prevTime, ::GlobalNamespace::PoseSerializable curr, float currTime, float time);
+    // static public PoseSerializable InterpolatePoseSerializable(PoseSerializable a, PoseSerializable b, System.Single t)
+    // Offset: 0x2637184
+    static ::GlobalNamespace::PoseSerializable InterpolatePoseSerializable(::GlobalNamespace::PoseSerializable a, ::GlobalNamespace::PoseSerializable b, float t);
   }; // PosePrediction
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::PosePrediction::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PosePrediction::PredictPose
 // Il2CppName: PredictPose
 template<>
@@ -111,7 +113,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PosePrediction*), "InterpolatePoseSerializable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b, t});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PosePrediction::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

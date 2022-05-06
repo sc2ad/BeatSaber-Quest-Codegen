@@ -43,20 +43,18 @@ namespace Zenject {
       return *reinterpret_cast<::Zenject::IBindingFinalizer*>(this);
     }
     // public Zenject.BindingInheritanceMethods get_BindingInheritanceMethod()
-    // Offset: 0x1BDB76C
+    // Offset: 0x1C15D54
     ::Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
-    // public System.Void FinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0x1BDB774
-    void FinalizeBinding(::Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x1BDB778
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C15D60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullBindingFinalizer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::NullBindingFinalizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullBindingFinalizer*, creationType>()));
     }
+    // public System.Void FinalizeBinding(Zenject.DiContainer container)
+    // Offset: 0x1C15D5C
+    void FinalizeBinding(::Zenject::DiContainer* container);
   }; // Zenject.NullBindingFinalizer
   #pragma pack(pop)
 }
@@ -69,6 +67,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::NullBindingFinalizer*), "get_BindingInheritanceMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Zenject::NullBindingFinalizer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::NullBindingFinalizer::FinalizeBinding
 // Il2CppName: FinalizeBinding
 template<>
@@ -78,7 +80,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
     return ::il2cpp_utils::FindMethod(classof(Zenject::NullBindingFinalizer*), "FinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
   }
 };
-// Writing MetadataGetter for method: Zenject::NullBindingFinalizer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

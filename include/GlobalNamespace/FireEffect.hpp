@@ -49,15 +49,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FireEffect : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _groupId
     // Size: 0x4
     // Offset: 0x18
@@ -108,14 +100,14 @@ namespace GlobalNamespace {
     float bloomIntensityMultiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [ColorUsageAttribute] Offset: 0x12497EC
+    // [ColorUsageAttribute] Offset: 0x10CE2E4
     // protected UnityEngine.Color _pointLightColor
     // Size: 0x10
     // Offset: 0x4C
     ::UnityEngine::Color pointLightColor;
     // Field size check
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
-    // [SpaceAttribute] Offset: 0x124982C
+    // [SpaceAttribute] Offset: 0x10CE324
     // private System.Boolean _contributeCustomLightColor
     // Size: 0x1
     // Offset: 0x5C
@@ -124,22 +116,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: contributeCustomLightColor and: customLightColorContribution
     char __padding9[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x1249864
-    // [NullAllowed] Offset: 0x1249864
+    // [DrawIfAttribute] Offset: 0x10CE35C
+    // [NullAllowed] Offset: 0x10CE35C
     // private ColorSO _customLightColorContribution
     // Size: 0x8
     // Offset: 0x60
     ::GlobalNamespace::ColorSO* customLightColorContribution;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ColorSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x124991C
+    // [InjectAttribute] Offset: 0x10CE414
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x68
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x124992C
+    // [InjectAttribute] Offset: 0x10CE424
     // private readonly LightWithIdManager _lightWithIdManager
     // Size: 0x8
     // Offset: 0x70
@@ -156,67 +148,65 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _groupId
-    int& dyn__groupId();
+    [[deprecated("Use field access instead!")]] int& dyn__groupId();
     // Get instance field reference: private System.Int32 _elementId
-    int& dyn__elementId();
+    [[deprecated("Use field access instead!")]] int& dyn__elementId();
     // Get instance field reference: private System.Int32 _lightId
-    int& dyn__lightId();
+    [[deprecated("Use field access instead!")]] int& dyn__lightId();
     // Get instance field reference: protected MaterialPropertyBlockController _flipBookPropertyBlockController
-    ::GlobalNamespace::MaterialPropertyBlockController*& dyn__flipBookPropertyBlockController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MaterialPropertyBlockController*& dyn__flipBookPropertyBlockController();
     // Get instance field reference: protected MaterialPropertyBlockController _bloomPropertyBlockController
-    ::GlobalNamespace::MaterialPropertyBlockController*& dyn__bloomPropertyBlockController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MaterialPropertyBlockController*& dyn__bloomPropertyBlockController();
     // Get instance field reference: protected MaterialPropertyBlockController _privatePointLightPropertyBlockController
-    ::GlobalNamespace::MaterialPropertyBlockController*& dyn__privatePointLightPropertyBlockController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MaterialPropertyBlockController*& dyn__privatePointLightPropertyBlockController();
     // Get instance field reference: protected BloomPrePassBackgroundNonLightRenderer _bloomPrePassRenderer
-    ::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer*& dyn__bloomPrePassRenderer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer*& dyn__bloomPrePassRenderer();
     // Get instance field reference: protected System.Single _bloomIntensityMultiplier
-    float& dyn__bloomIntensityMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__bloomIntensityMultiplier();
     // Get instance field reference: protected UnityEngine.Color _pointLightColor
-    ::UnityEngine::Color& dyn__pointLightColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__pointLightColor();
     // Get instance field reference: private System.Boolean _contributeCustomLightColor
-    bool& dyn__contributeCustomLightColor();
+    [[deprecated("Use field access instead!")]] bool& dyn__contributeCustomLightColor();
     // Get instance field reference: private ColorSO _customLightColorContribution
-    ::GlobalNamespace::ColorSO*& dyn__customLightColorContribution();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn__customLightColorContribution();
     // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
-    ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
     // Get instance field reference: private readonly LightWithIdManager _lightWithIdManager
-    ::GlobalNamespace::LightWithIdManager*& dyn__lightWithIdManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightWithIdManager*& dyn__lightWithIdManager();
     // Get instance field reference: private BeatmapDataCallbackWrapper _lightColorBeatmapEventCallbackWrapper
-    ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__lightColorBeatmapEventCallbackWrapper();
-    // protected System.Void Start()
-    // Offset: 0x138DA74
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x138DB90
-    void OnDestroy();
-    // protected System.Void HandleColorChangeBeatmapEvent(LightColorBeatmapEventData e)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* e);
-    // protected System.Void SetRenderersEnabled(System.Boolean enabled)
-    // Offset: 0x138DBAC
-    void SetRenderersEnabled(bool enabled);
-    // protected System.Void NotifyAlphaWasChanged(System.Single currentAlpha)
-    // Offset: 0x138DC44
-    void NotifyAlphaWasChanged(float currentAlpha);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__lightColorBeatmapEventCallbackWrapper();
     // protected System.Void .ctor()
-    // Offset: 0x138DCB8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13757CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FireEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FireEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FireEffect*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x1375588
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13756A4
+    void OnDestroy();
+    // protected System.Void HandleColorChangeBeatmapEvent(LightColorBeatmapEventData e)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* e);
+    // protected System.Void SetRenderersEnabled(System.Boolean enabled)
+    // Offset: 0x13756C0
+    void SetRenderersEnabled(bool enabled);
+    // protected System.Void NotifyAlphaWasChanged(System.Single currentAlpha)
+    // Offset: 0x1375758
+    void NotifyAlphaWasChanged(float currentAlpha);
   }; // FireEffect
   #pragma pack(pop)
   static check_size<sizeof(FireEffect), 120 + sizeof(::GlobalNamespace::BeatmapDataCallbackWrapper*)> __GlobalNamespace_FireEffectSizeCheck;
   static_assert(sizeof(FireEffect) == 0x80);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::FireEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FireEffect::Start
 // Il2CppName: Start
 template<>
@@ -260,7 +250,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FireEffect*), "NotifyAlphaWasChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{currentAlpha});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FireEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

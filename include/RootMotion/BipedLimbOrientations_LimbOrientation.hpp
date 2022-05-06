@@ -25,15 +25,7 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class BipedLimbOrientations::LimbOrientation : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Vector3 upperBoneForwardAxis
     // Size: 0xC
     // Offset: 0x10
@@ -54,13 +46,13 @@ namespace RootMotion {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: public UnityEngine.Vector3 upperBoneForwardAxis
-    ::UnityEngine::Vector3& dyn_upperBoneForwardAxis();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_upperBoneForwardAxis();
     // Get instance field reference: public UnityEngine.Vector3 lowerBoneForwardAxis
-    ::UnityEngine::Vector3& dyn_lowerBoneForwardAxis();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_lowerBoneForwardAxis();
     // Get instance field reference: public UnityEngine.Vector3 lastBoneLeftAxis
-    ::UnityEngine::Vector3& dyn_lastBoneLeftAxis();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_lastBoneLeftAxis();
     // public System.Void .ctor(UnityEngine.Vector3 upperBoneForwardAxis, UnityEngine.Vector3 lowerBoneForwardAxis, UnityEngine.Vector3 lastBoneLeftAxis)
-    // Offset: 0x21FA648
+    // Offset: 0x2247EBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BipedLimbOrientations::LimbOrientation* New_ctor(::UnityEngine::Vector3 upperBoneForwardAxis, ::UnityEngine::Vector3 lowerBoneForwardAxis, ::UnityEngine::Vector3 lastBoneLeftAxis) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::BipedLimbOrientations::LimbOrientation::.ctor");

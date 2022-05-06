@@ -54,15 +54,7 @@ namespace NUnit::Framework::Internal::Commands {
     public:
     // Nested type: ::NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass3_0
     class $$c__DisplayClass3_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> _setUpTearDownItems
     // Size: 0x8
     // Offset: 0x18
@@ -79,18 +71,18 @@ namespace NUnit::Framework::Internal::Commands {
     // Deleting conversion operator: operator ::NUnit::Framework::Internal::Test*
     constexpr operator ::NUnit::Framework::Internal::Test*() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> _setUpTearDownItems
-    ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::Commands::SetUpTearDownItem*>*& dyn__setUpTearDownItems();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::Commands::SetUpTearDownItem*>*& dyn__setUpTearDownItems();
     // Get instance field reference: private System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.TestActionItem> _actions
-    ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::Commands::TestActionItem*>*& dyn__actions();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::Commands::TestActionItem*>*& dyn__actions();
     // public System.Void .ctor(NUnit.Framework.Internal.TestSuite suite, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> setUpTearDownItems, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.TestActionItem> actions)
-    // Offset: 0x1C4E038
+    // Offset: 0x1CA65D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OneTimeTearDownCommand* New_ctor(::NUnit::Framework::Internal::TestSuite* suite, ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* setUpTearDownItems, ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::Commands::TestActionItem*>* actions) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OneTimeTearDownCommand*, creationType>(suite, setUpTearDownItems, actions)));
     }
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x1C4E078
+    // Offset: 0x1CA6610
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     ::NUnit::Framework::Internal::TestResult* Execute(::NUnit::Framework::Internal::ITestExecutionContext* context);

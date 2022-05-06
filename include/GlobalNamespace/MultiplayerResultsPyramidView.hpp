@@ -59,15 +59,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerResultsPyramidView : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MultiplayerOffsetPositionByLocalPlayerPosition _multiplayerOffsetByLocalPlayerPosition
     // Size: 0x8
     // Offset: 0x18
@@ -94,7 +86,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: evenCountOffset and: avatarsFactory
     char __padding3[0x4] = {};
-    // [InjectAttribute] Offset: 0x1255190
+    // [InjectAttribute] Offset: 0x10D9D74
     // private readonly MultiplayerResultsPyramidViewAvatar/Factory _avatarsFactory
     // Size: 0x8
     // Offset: 0x38
@@ -129,48 +121,42 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MultiplayerOffsetPositionByLocalPlayerPosition _multiplayerOffsetByLocalPlayerPosition
-    ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*& dyn__multiplayerOffsetByLocalPlayerPosition();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*& dyn__multiplayerOffsetByLocalPlayerPosition();
     // Get instance field reference: private UnityEngine.Transform[] _spawnPoints
-    ::ArrayW<::UnityEngine::Transform*>& dyn__spawnPoints();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Transform*>& dyn__spawnPoints();
     // Get instance field reference: private UnityEngine.Transform _spawnPointsParent
-    ::UnityEngine::Transform*& dyn__spawnPointsParent();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__spawnPointsParent();
     // Get instance field reference: private System.Single _evenCountOffset
-    float& dyn__evenCountOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__evenCountOffset();
     // Get instance field reference: private readonly MultiplayerResultsPyramidViewAvatar/Factory _avatarsFactory
-    ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Factory*& dyn__avatarsFactory();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Factory*& dyn__avatarsFactory();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerResultsPyramidViewAvatar> _avatarsDictionary
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*>*& dyn__avatarsDictionary();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*>*& dyn__avatarsDictionary();
     // Get instance field reference: private UnityEngine.GameObject[] _resultAvatarDirectors
-    ::ArrayW<::UnityEngine::GameObject*>& dyn__resultAvatarDirectors();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::GameObject*>& dyn__resultAvatarDirectors();
     // Get instance field reference: private UnityEngine.GameObject[] _badgeTimelines
-    ::ArrayW<::UnityEngine::GameObject*>& dyn__badgeTimelines();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::GameObject*>& dyn__badgeTimelines();
     // Get instance field reference: private MultiplayerResultsPyramidViewAvatar _anyResultsAvatar
-    ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*& dyn__anyResultsAvatar();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*& dyn__anyResultsAvatar();
     // public UnityEngine.GameObject[] get_resultAvatarDirectors()
-    // Offset: 0x13A61CC
+    // Offset: 0x13A2678
     ::ArrayW<::UnityEngine::GameObject*> get_resultAvatarDirectors();
     // public UnityEngine.GameObject[] get_badgeTimelines()
-    // Offset: 0x13A61D4
+    // Offset: 0x13A2680
     ::ArrayW<::UnityEngine::GameObject*> get_badgeTimelines();
-    // public System.Void PrespawnAvatars(System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> activePlayers)
-    // Offset: 0x13A2CA8
-    void PrespawnAvatars(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* activePlayers);
-    // public System.Void SetupResults(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, UnityEngine.Transform badgeStartTransform, UnityEngine.Transform badgeMidTransform)
-    // Offset: 0x13A1EA4
-    void SetupResults(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, ::UnityEngine::Transform* badgeStartTransform, ::UnityEngine::Transform* badgeMidTransform);
     // public System.Void .ctor()
-    // Offset: 0x13A66B8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13A2B64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerResultsPyramidView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerResultsPyramidView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsPyramidView*, creationType>()));
     }
+    // public System.Void PrespawnAvatars(System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> activePlayers)
+    // Offset: 0x139F154
+    void PrespawnAvatars(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* activePlayers);
+    // public System.Void SetupResults(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, UnityEngine.Transform badgeStartTransform, UnityEngine.Transform badgeMidTransform)
+    // Offset: 0x139E350
+    void SetupResults(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, ::UnityEngine::Transform* badgeStartTransform, ::UnityEngine::Transform* badgeMidTransform);
   }; // MultiplayerResultsPyramidView
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerResultsPyramidView), 88 + sizeof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*)> __GlobalNamespace_MultiplayerResultsPyramidViewSizeCheck;
@@ -193,6 +179,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsPyramidView*), "get_badgeTimelines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsPyramidView::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsPyramidView::PrespawnAvatars
 // Il2CppName: PrespawnAvatars
 template<>
@@ -213,7 +203,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsPyramidView*), "SetupResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resultsData, badgeStartTransform, badgeMidTransform});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsPyramidView::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

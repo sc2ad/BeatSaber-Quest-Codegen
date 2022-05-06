@@ -43,15 +43,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PartyMessageHandler::ConnectToMasterServerMessage : public ::Il2CppObject/*, public ::LiteNetLib::Utils::INetSerializable, public ::GlobalNamespace::IPoolablePacket*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String secret
     // Size: 0x8
     // Offset: 0x10
@@ -72,31 +64,29 @@ namespace GlobalNamespace {
       return secret;
     }
     // Get instance field reference: public System.String secret
-    ::StringW& dyn_secret();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_secret();
     // static public PacketPool`1<PartyMessageHandler/ConnectToMasterServerMessage> get_pool()
-    // Offset: 0x25E79D0
+    // Offset: 0x2634000
     static ::GlobalNamespace::PacketPool_1<::GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage*>* get_pool();
-    // public PartyMessageHandler/ConnectToMasterServerMessage Init(System.String secret)
-    // Offset: 0x25E7C14
-    ::GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage* Init(::StringW secret);
-    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x25E808C
-    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
-    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x25E80B0
-    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
-    // public System.Void Release()
-    // Offset: 0x25E7FF0
-    void Release();
     // public System.Void .ctor()
-    // Offset: 0x25E80E4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2634714
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PartyMessageHandler::ConnectToMasterServerMessage* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PartyMessageHandler::ConnectToMasterServerMessage*, creationType>()));
     }
+    // public PartyMessageHandler/ConnectToMasterServerMessage Init(System.String secret)
+    // Offset: 0x2634244
+    ::GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage* Init(::StringW secret);
+    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x26346BC
+    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x26346E0
+    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
+    // public System.Void Release()
+    // Offset: 0x2634620
+    void Release();
   }; // PartyMessageHandler/ConnectToMasterServerMessage
   #pragma pack(pop)
   static check_size<sizeof(PartyMessageHandler::ConnectToMasterServerMessage), 16 + sizeof(::StringW)> __GlobalNamespace_PartyMessageHandler_ConnectToMasterServerMessageSizeCheck;
@@ -111,6 +101,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage::Init
 // Il2CppName: Init
 template<>
@@ -146,7 +140,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -75,21 +75,21 @@ namespace UnityEngine::Scripting::APIUpdating {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.String className
-    ::StringW& dyn_className();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_className();
     // Get instance field reference: public System.String nameSpace
-    ::StringW& dyn_nameSpace();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_nameSpace();
     // Get instance field reference: public System.String assembly
-    ::StringW& dyn_assembly();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_assembly();
     // Get instance field reference: public System.Boolean classHasChanged
-    bool& dyn_classHasChanged();
+    [[deprecated("Use field access instead!")]] bool& dyn_classHasChanged();
     // Get instance field reference: public System.Boolean nameSpaceHasChanged
-    bool& dyn_nameSpaceHasChanged();
+    [[deprecated("Use field access instead!")]] bool& dyn_nameSpaceHasChanged();
     // Get instance field reference: public System.Boolean assemblyHasChanged
-    bool& dyn_assemblyHasChanged();
+    [[deprecated("Use field access instead!")]] bool& dyn_assemblyHasChanged();
     // Get instance field reference: public System.Boolean autoUdpateAPI
-    bool& dyn_autoUdpateAPI();
+    [[deprecated("Use field access instead!")]] bool& dyn_autoUdpateAPI();
     // public System.Void Set(System.Boolean autoUpdateAPI, System.String sourceNamespace, System.String sourceAssembly, System.String sourceClassName)
-    // Offset: 0x20D114C
+    // Offset: 0x211A9C0
     void Set(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName);
   }; // UnityEngine.Scripting.APIUpdating.MovedFromAttributeData
   #pragma pack(pop)

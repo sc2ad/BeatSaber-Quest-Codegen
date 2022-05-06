@@ -46,15 +46,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class CrlEntry : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // Org.BouncyCastle.Asn1.Asn1Sequence seq
     // Size: 0x8
     // Offset: 0x10
@@ -81,31 +73,31 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static_assert(sizeof(::Org::BouncyCastle::Asn1::X509::X509Extensions*) == 0x8);
     public:
     // Get instance field reference: Org.BouncyCastle.Asn1.Asn1Sequence seq
-    ::Org::BouncyCastle::Asn1::Asn1Sequence*& dyn_seq();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1Sequence*& dyn_seq();
     // Get instance field reference: Org.BouncyCastle.Asn1.DerInteger userCertificate
-    ::Org::BouncyCastle::Asn1::DerInteger*& dyn_userCertificate();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerInteger*& dyn_userCertificate();
     // Get instance field reference: Org.BouncyCastle.Asn1.X509.Time revocationDate
-    ::Org::BouncyCastle::Asn1::X509::Time*& dyn_revocationDate();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::X509::Time*& dyn_revocationDate();
     // Get instance field reference: Org.BouncyCastle.Asn1.X509.X509Extensions crlEntryExtensions
-    ::Org::BouncyCastle::Asn1::X509::X509Extensions*& dyn_crlEntryExtensions();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::X509::X509Extensions*& dyn_crlEntryExtensions();
     // public Org.BouncyCastle.Asn1.DerInteger get_UserCertificate()
-    // Offset: 0x1EC5A28
+    // Offset: 0x1F12F60
     ::Org::BouncyCastle::Asn1::DerInteger* get_UserCertificate();
     // public Org.BouncyCastle.Asn1.X509.Time get_RevocationDate()
-    // Offset: 0x1EC5A30
+    // Offset: 0x1F12F68
     ::Org::BouncyCastle::Asn1::X509::Time* get_RevocationDate();
     // public Org.BouncyCastle.Asn1.X509.X509Extensions get_Extensions()
-    // Offset: 0x1EC5A38
+    // Offset: 0x1F12F70
     ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1EC5720
+    // Offset: 0x1F12C58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrlEntry* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::CrlEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrlEntry*, creationType>(seq)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1EC5AF4
+    // Offset: 0x1F1302C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

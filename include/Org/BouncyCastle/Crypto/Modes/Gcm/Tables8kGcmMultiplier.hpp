@@ -29,15 +29,7 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
   // [TokenAttribute] Offset: FFFFFFFF
   class Tables8kGcmMultiplier : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Byte[] H
     // Size: 0x8
     // Offset: 0x10
@@ -56,30 +48,32 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*>(this);
     }
     // Get instance field reference: private System.Byte[] H
-    ::ArrayW<uint8_t>& dyn_H();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_H();
     // Get instance field reference: private System.UInt32[][][] M
-    ::ArrayW<::ArrayW<::ArrayW<uint>>>& dyn_M();
-    // public System.Void Init(System.Byte[] H)
-    // Offset: 0x1E06B84
-    void Init(::ArrayW<uint8_t> H);
-    // public System.Void MultiplyH(System.Byte[] x)
-    // Offset: 0x1E07410
-    void MultiplyH(::ArrayW<uint8_t> x);
+    [[deprecated("Use field access instead!")]] ::ArrayW<::ArrayW<::ArrayW<uint>>>& dyn_M();
     // public System.Void .ctor()
-    // Offset: 0x1E07634
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E41F00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tables8kGcmMultiplier* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tables8kGcmMultiplier*, creationType>()));
     }
+    // public System.Void Init(System.Byte[] H)
+    // Offset: 0x1E41450
+    void Init(::ArrayW<uint8_t> H);
+    // public System.Void MultiplyH(System.Byte[] x)
+    // Offset: 0x1E41CDC
+    void MultiplyH(::ArrayW<uint8_t> x);
   }; // Org.BouncyCastle.Crypto.Modes.Gcm.Tables8kGcmMultiplier
   #pragma pack(pop)
   static check_size<sizeof(Tables8kGcmMultiplier), 24 + sizeof(::ArrayW<::ArrayW<::ArrayW<uint>>>)> __Org_BouncyCastle_Crypto_Modes_Gcm_Tables8kGcmMultiplierSizeCheck;
   static_assert(sizeof(Tables8kGcmMultiplier) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::Init
 // Il2CppName: Init
 template<>
@@ -98,7 +92,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier*), "MultiplyH", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

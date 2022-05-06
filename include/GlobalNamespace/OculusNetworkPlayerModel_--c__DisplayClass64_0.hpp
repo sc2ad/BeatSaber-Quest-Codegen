@@ -43,15 +43,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OculusNetworkPlayerModel::$$c__DisplayClass64_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public OculusNetworkPlayerModel <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -72,29 +64,31 @@ namespace GlobalNamespace {
     static_assert(sizeof(uint64_t) == 0x8);
     public:
     // Get instance field reference: public OculusNetworkPlayerModel <>4__this
-    ::GlobalNamespace::OculusNetworkPlayerModel*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OculusNetworkPlayerModel*& dyn_$$4__this();
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> tcs
-    ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& dyn_tcs();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& dyn_tcs();
     // Get instance field reference: public System.UInt64 userId
-    uint64_t& dyn_userId();
-    // System.Void <ShouldAcceptConnectionFromPlayer>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.Room> result)
-    // Offset: 0x151214C
-    void $ShouldAcceptConnectionFromPlayer$b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::Room*>* result);
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_userId();
     // public System.Void .ctor()
-    // Offset: 0x1511548
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1548E50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusNetworkPlayerModel::$$c__DisplayClass64_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass64_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusNetworkPlayerModel::$$c__DisplayClass64_0*, creationType>()));
     }
+    // System.Void <ShouldAcceptConnectionFromPlayer>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.Room> result)
+    // Offset: 0x1549A54
+    void $ShouldAcceptConnectionFromPlayer$b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::Room*>* result);
   }; // OculusNetworkPlayerModel/<>c__DisplayClass64_0
   #pragma pack(pop)
   static check_size<sizeof(OculusNetworkPlayerModel::$$c__DisplayClass64_0), 32 + sizeof(uint64_t)> __GlobalNamespace_OculusNetworkPlayerModel_$$c__DisplayClass64_0SizeCheck;
   static_assert(sizeof(OculusNetworkPlayerModel::$$c__DisplayClass64_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass64_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass64_0::$ShouldAcceptConnectionFromPlayer$b__0
 // Il2CppName: <ShouldAcceptConnectionFromPlayer>b__0
 template<>
@@ -104,7 +98,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass64_0*), "<ShouldAcceptConnectionFromPlayer>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass64_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -29,15 +29,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   // [TokenAttribute] Offset: FFFFFFFF
   class ValidityPreCompInfo : public ::Il2CppObject/*, public ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean failed
     // Size: 0x1
     // Offset: 0x10
@@ -66,41 +58,39 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Set static field: static readonly System.String PRECOMP_NAME
     static void _set_PRECOMP_NAME(::StringW value);
     // Get instance field reference: private System.Boolean failed
-    bool& dyn_failed();
+    [[deprecated("Use field access instead!")]] bool& dyn_failed();
     // Get instance field reference: private System.Boolean curveEquationPassed
-    bool& dyn_curveEquationPassed();
+    [[deprecated("Use field access instead!")]] bool& dyn_curveEquationPassed();
     // Get instance field reference: private System.Boolean orderPassed
-    bool& dyn_orderPassed();
+    [[deprecated("Use field access instead!")]] bool& dyn_orderPassed();
     // static private System.Void .cctor()
-    // Offset: 0x228F610
+    // Offset: 0x22D9E84
     static void _cctor();
-    // System.Boolean HasFailed()
-    // Offset: 0x228F5D4
-    bool HasFailed();
-    // System.Void ReportFailed()
-    // Offset: 0x228F5DC
-    void ReportFailed();
-    // System.Boolean HasCurveEquationPassed()
-    // Offset: 0x228F5E8
-    bool HasCurveEquationPassed();
-    // System.Void ReportCurveEquationPassed()
-    // Offset: 0x228F5F0
-    void ReportCurveEquationPassed();
-    // System.Boolean HasOrderPassed()
-    // Offset: 0x228F5FC
-    bool HasOrderPassed();
-    // System.Void ReportOrderPassed()
-    // Offset: 0x228F604
-    void ReportOrderPassed();
     // public System.Void .ctor()
-    // Offset: 0x228F66C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x22D9EE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValidityPreCompInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValidityPreCompInfo*, creationType>()));
     }
+    // System.Boolean HasFailed()
+    // Offset: 0x22D9E48
+    bool HasFailed();
+    // System.Void ReportFailed()
+    // Offset: 0x22D9E50
+    void ReportFailed();
+    // System.Boolean HasCurveEquationPassed()
+    // Offset: 0x22D9E5C
+    bool HasCurveEquationPassed();
+    // System.Void ReportCurveEquationPassed()
+    // Offset: 0x22D9E64
+    void ReportCurveEquationPassed();
+    // System.Boolean HasOrderPassed()
+    // Offset: 0x22D9E70
+    bool HasOrderPassed();
+    // System.Void ReportOrderPassed()
+    // Offset: 0x22D9E78
+    void ReportOrderPassed();
   }; // Org.BouncyCastle.Math.EC.Multiplier.ValidityPreCompInfo
   #pragma pack(pop)
   static check_size<sizeof(ValidityPreCompInfo), 18 + sizeof(bool)> __Org_BouncyCastle_Math_EC_Multiplier_ValidityPreCompInfoSizeCheck;
@@ -115,6 +105,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::HasFailed
 // Il2CppName: HasFailed
 template<>
@@ -163,7 +157,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo*), "ReportOrderPassed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

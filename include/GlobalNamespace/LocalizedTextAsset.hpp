@@ -41,15 +41,7 @@ namespace GlobalNamespace {
     class $$c__DisplayClass6_0;
     // Nested type: ::GlobalNamespace::LocalizedTextAsset::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private LocalizedTextAsset/TextInfo[] _textInfos
     // Size: 0x8
     // Offset: 0x18
@@ -66,21 +58,17 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private LocalizedTextAsset/TextInfo[] _textInfos
-    ::ArrayW<::GlobalNamespace::LocalizedTextAsset::TextInfo*>& dyn__textInfos();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::LocalizedTextAsset::TextInfo*>& dyn__textInfos();
     // Get instance field reference: private LocalizedTextAsset/TextInfo _lastTextInfo
-    ::GlobalNamespace::LocalizedTextAsset::TextInfo*& dyn__lastTextInfo();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LocalizedTextAsset::TextInfo*& dyn__lastTextInfo();
     // public LocalizedTextAsset/TextInfo[] get_textInfos()
-    // Offset: 0x152F794
+    // Offset: 0x156709C
     ::ArrayW<::GlobalNamespace::LocalizedTextAsset::TextInfo*> get_textInfos();
     // public System.String get_localizedText()
-    // Offset: 0x152F79C
+    // Offset: 0x15670A4
     ::StringW get_localizedText();
     // public System.Void .ctor()
-    // Offset: 0x152FA88
-    // Implemented from: UnityEngine.ScriptableObject
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1567390
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizedTextAsset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalizedTextAsset::.ctor");

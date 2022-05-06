@@ -32,15 +32,7 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConstraintBuilder::OperatorStack : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.Stack`1<NUnit.Framework.Constraints.ConstraintOperator> stack
     // Size: 0x8
     // Offset: 0x10
@@ -53,12 +45,12 @@ namespace NUnit::Framework::Constraints {
       return stack;
     }
     // Get instance field reference: private readonly System.Collections.Generic.Stack`1<NUnit.Framework.Constraints.ConstraintOperator> stack
-    ::System::Collections::Generic::Stack_1<::NUnit::Framework::Constraints::ConstraintOperator*>*& dyn_stack();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Stack_1<::NUnit::Framework::Constraints::ConstraintOperator*>*& dyn_stack();
     // public System.Boolean get_Empty()
-    // Offset: 0x1C3C6F4
+    // Offset: 0x1C94C8C
     bool get_Empty();
     // public NUnit.Framework.Constraints.ConstraintOperator Pop()
-    // Offset: 0x1C3C69C
+    // Offset: 0x1C94C34
     ::NUnit::Framework::Constraints::ConstraintOperator* Pop();
   }; // NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.OperatorStack
   #pragma pack(pop)

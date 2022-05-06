@@ -42,15 +42,7 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   class AsyncStreamReader : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.IO.Stream stream
     // Size: 0x8
     // Offset: 0x10
@@ -103,29 +95,29 @@ namespace System::Diagnostics {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: private System.IO.Stream stream
-    ::System::IO::Stream*& dyn_stream();
+    [[deprecated("Use field access instead!")]] ::System::IO::Stream*& dyn_stream();
     // Get instance field reference: private System.Text.Encoding encoding
-    ::System::Text::Encoding*& dyn_encoding();
+    [[deprecated("Use field access instead!")]] ::System::Text::Encoding*& dyn_encoding();
     // Get instance field reference: private System.Text.Decoder decoder
-    ::System::Text::Decoder*& dyn_decoder();
+    [[deprecated("Use field access instead!")]] ::System::Text::Decoder*& dyn_decoder();
     // Get instance field reference: private System.Byte[] byteBuffer
-    ::ArrayW<uint8_t>& dyn_byteBuffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_byteBuffer();
     // Get instance field reference: private System.Char[] charBuffer
-    ::ArrayW<::Il2CppChar>& dyn_charBuffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppChar>& dyn_charBuffer();
     // Get instance field reference: private System.Boolean cancelOperation
-    bool& dyn_cancelOperation();
+    [[deprecated("Use field access instead!")]] bool& dyn_cancelOperation();
     // Get instance field reference: private System.Threading.ManualResetEvent eofEvent
-    ::System::Threading::ManualResetEvent*& dyn_eofEvent();
+    [[deprecated("Use field access instead!")]] ::System::Threading::ManualResetEvent*& dyn_eofEvent();
     // Get instance field reference: private System.Object syncObject
-    ::Il2CppObject*& dyn_syncObject();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_syncObject();
     // public System.Void Close()
-    // Offset: 0x1CA710C
+    // Offset: 0x1CE3664
     void Close();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1CA711C
+    // Offset: 0x1CE3674
     void Dispose(bool disposing);
     // System.Void CancelOperation()
-    // Offset: 0x1CA71FC
+    // Offset: 0x1CE3754
     void CancelOperation();
   }; // System.Diagnostics.AsyncStreamReader
   #pragma pack(pop)

@@ -36,52 +36,54 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_Logger : public ::Il2CppObject {
     public:
-    // static public System.Void Log(System.String text)
-    // Offset: 0x185B240
-    static void Log(::StringW text);
-    // static public System.Void LogFormat(System.String text, params System.Object[] args)
-    // Offset: 0x185B2A8
-    static void LogFormat(::StringW text, ::ArrayW<::Il2CppObject*> args);
-    // static public System.Void LogWarning(System.String text)
-    // Offset: 0x1852374
-    static void LogWarning(::StringW text);
-    // static public System.Void LogWarningFormat(System.String text, params System.Object[] args)
-    // Offset: 0x18523E4
-    static void LogWarningFormat(::StringW text, ::ArrayW<::Il2CppObject*> args);
-    // static public System.Void LogError(System.String text)
-    // Offset: 0x184D758
-    static void LogError(::StringW text);
-    // static public System.Void LogErrorFormat(System.String text, params System.Object[] args)
-    // Offset: 0x1852A58
-    static void LogErrorFormat(::StringW text, ::ArrayW<::Il2CppObject*> args);
-    // static public System.Void LogError(System.Exception ex)
-    // Offset: 0x185B3D8
-    static void LogError(::System::Exception* ex);
-    // static public System.Void LogAssertion(System.String text)
-    // Offset: 0x185B474
-    static void LogAssertion(::StringW text);
-    // static public System.Void LogAssertionFormat(System.String text, params System.Object[] args)
-    // Offset: 0x185B478
-    static void LogAssertionFormat(::StringW text, ::ArrayW<::Il2CppObject*> args);
-    // static private System.Void LogToCookLogsIfOn(System.String text)
-    // Offset: 0x185B320
-    static void LogToCookLogsIfOn(::StringW text);
-    // static private System.Void LogToCookLogsIfOnFormat(System.String text, params System.Object[] args)
-    // Offset: 0x185B370
-    static void LogToCookLogsIfOnFormat(::StringW text, ::ArrayW<::Il2CppObject*> args);
     // public System.Void .ctor()
-    // Offset: 0x185B47C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1894D8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_Logger* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Logger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_Logger*, creationType>()));
     }
+    // static public System.Void Log(System.String text)
+    // Offset: 0x1894B50
+    static void Log(::StringW text);
+    // static public System.Void LogFormat(System.String text, params System.Object[] args)
+    // Offset: 0x1894BB8
+    static void LogFormat(::StringW text, ::ArrayW<::Il2CppObject*> args);
+    // static public System.Void LogWarning(System.String text)
+    // Offset: 0x188BC84
+    static void LogWarning(::StringW text);
+    // static public System.Void LogWarningFormat(System.String text, params System.Object[] args)
+    // Offset: 0x188BCF4
+    static void LogWarningFormat(::StringW text, ::ArrayW<::Il2CppObject*> args);
+    // static public System.Void LogError(System.String text)
+    // Offset: 0x1887068
+    static void LogError(::StringW text);
+    // static public System.Void LogErrorFormat(System.String text, params System.Object[] args)
+    // Offset: 0x188C368
+    static void LogErrorFormat(::StringW text, ::ArrayW<::Il2CppObject*> args);
+    // static public System.Void LogError(System.Exception ex)
+    // Offset: 0x1894CE8
+    static void LogError(::System::Exception* ex);
+    // static public System.Void LogAssertion(System.String text)
+    // Offset: 0x1894D84
+    static void LogAssertion(::StringW text);
+    // static public System.Void LogAssertionFormat(System.String text, params System.Object[] args)
+    // Offset: 0x1894D88
+    static void LogAssertionFormat(::StringW text, ::ArrayW<::Il2CppObject*> args);
+    // static private System.Void LogToCookLogsIfOn(System.String text)
+    // Offset: 0x1894C30
+    static void LogToCookLogsIfOn(::StringW text);
+    // static private System.Void LogToCookLogsIfOnFormat(System.String text, params System.Object[] args)
+    // Offset: 0x1894C80
+    static void LogToCookLogsIfOnFormat(::StringW text, ::ArrayW<::Il2CppObject*> args);
   }; // HoudiniEngineUnity.HEU_Logger
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Logger::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Logger::Log
 // Il2CppName: Log
 template<>
@@ -186,7 +188,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Logger*), "LogToCookLogsIfOnFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text, args});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Logger::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -53,22 +53,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoteJump : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Transform _rotatedObject
     // Size: 0x8
     // Offset: 0x18
     ::UnityEngine::Transform* rotatedObject;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124F3A0
+    // [SpaceAttribute] Offset: 0x10D3ED4
     // private System.Single _yAvoidanceUp
     // Size: 0x4
     // Offset: 0x20
@@ -81,7 +73,7 @@ namespace GlobalNamespace {
     float yAvoidanceDown;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x124F3E8
+    // [SpaceAttribute] Offset: 0x10D3F1C
     // private System.Single _endDistanceOffset
     // Size: 0x4
     // Offset: 0x28
@@ -90,21 +82,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: endDistanceOffset and: playerTransforms
     char __padding3[0x4] = {};
-    // [InjectAttribute] Offset: 0x124F420
+    // [InjectAttribute] Offset: 0x10D3F54
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0x124F430
+    // [InjectAttribute] Offset: 0x10D3F64
     // private readonly PlayerSpaceConvertor _playerSpaceConvertor
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::PlayerSpaceConvertor* playerSpaceConvertor;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerSpaceConvertor*) == 0x8);
-    // [InjectAttribute] Offset: 0x124F440
+    // [InjectAttribute] Offset: 0x10D3F74
     // private readonly IAudioTimeSource _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x40
@@ -275,133 +267,127 @@ namespace GlobalNamespace {
     // Set static field: static public System.Single kMissedTimeOffset
     static void _set_kMissedTimeOffset(float value);
     // Get instance field reference: private UnityEngine.Transform _rotatedObject
-    ::UnityEngine::Transform*& dyn__rotatedObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__rotatedObject();
     // Get instance field reference: private System.Single _yAvoidanceUp
-    float& dyn__yAvoidanceUp();
+    [[deprecated("Use field access instead!")]] float& dyn__yAvoidanceUp();
     // Get instance field reference: private System.Single _yAvoidanceDown
-    float& dyn__yAvoidanceDown();
+    [[deprecated("Use field access instead!")]] float& dyn__yAvoidanceDown();
     // Get instance field reference: private System.Single _endDistanceOffset
-    float& dyn__endDistanceOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__endDistanceOffset();
     // Get instance field reference: private readonly PlayerTransforms _playerTransforms
-    ::GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
     // Get instance field reference: private readonly PlayerSpaceConvertor _playerSpaceConvertor
-    ::GlobalNamespace::PlayerSpaceConvertor*& dyn__playerSpaceConvertor();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSpaceConvertor*& dyn__playerSpaceConvertor();
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSyncController
-    ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSyncController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSyncController();
     // Get instance field reference: private System.Action noteJumpDidFinishEvent
-    ::System::Action*& dyn_noteJumpDidFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_noteJumpDidFinishEvent();
     // Get instance field reference: private System.Action noteJumpDidPassMissedMarkerEvent
-    ::System::Action*& dyn_noteJumpDidPassMissedMarkerEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_noteJumpDidPassMissedMarkerEvent();
     // Get instance field reference: private System.Action`1<NoteJump> noteJumpDidPassThreeQuartersEvent
-    ::System::Action_1<::GlobalNamespace::NoteJump*>*& dyn_noteJumpDidPassThreeQuartersEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::NoteJump*>*& dyn_noteJumpDidPassThreeQuartersEvent();
     // Get instance field reference: private System.Action noteJumpDidPassHalfEvent
-    ::System::Action*& dyn_noteJumpDidPassHalfEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_noteJumpDidPassHalfEvent();
     // Get instance field reference: private System.Action`1<System.Single> noteJumpDidUpdateProgressEvent
-    ::System::Action_1<float>*& dyn_noteJumpDidUpdateProgressEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<float>*& dyn_noteJumpDidUpdateProgressEvent();
     // Get instance field reference: private UnityEngine.Vector3 _startPos
-    ::UnityEngine::Vector3& dyn__startPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__startPos();
     // Get instance field reference: private UnityEngine.Vector3 _endPos
-    ::UnityEngine::Vector3& dyn__endPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__endPos();
     // Get instance field reference: private System.Single _jumpDuration
-    float& dyn__jumpDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__jumpDuration();
     // Get instance field reference: private UnityEngine.Vector3 _moveVec
-    ::UnityEngine::Vector3& dyn__moveVec();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__moveVec();
     // Get instance field reference: private System.Single _beatTime
-    float& dyn__beatTime();
+    [[deprecated("Use field access instead!")]] float& dyn__beatTime();
     // Get instance field reference: private System.Single _startVerticalVelocity
-    float& dyn__startVerticalVelocity();
+    [[deprecated("Use field access instead!")]] float& dyn__startVerticalVelocity();
     // Get instance field reference: private UnityEngine.Quaternion _startRotation
-    ::UnityEngine::Quaternion& dyn__startRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__startRotation();
     // Get instance field reference: private UnityEngine.Quaternion _middleRotation
-    ::UnityEngine::Quaternion& dyn__middleRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__middleRotation();
     // Get instance field reference: private UnityEngine.Quaternion _endRotation
-    ::UnityEngine::Quaternion& dyn__endRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__endRotation();
     // Get instance field reference: private System.Single _gravity
-    float& dyn__gravity();
+    [[deprecated("Use field access instead!")]] float& dyn__gravity();
     // Get instance field reference: private System.Single _yAvoidance
-    float& dyn__yAvoidance();
+    [[deprecated("Use field access instead!")]] float& dyn__yAvoidance();
     // Get instance field reference: private System.Single _missedTime
-    float& dyn__missedTime();
+    [[deprecated("Use field access instead!")]] float& dyn__missedTime();
     // Get instance field reference: private System.Boolean _missedMarkReported
-    bool& dyn__missedMarkReported();
+    [[deprecated("Use field access instead!")]] bool& dyn__missedMarkReported();
     // Get instance field reference: private System.Boolean _threeQuartersMarkReported
-    bool& dyn__threeQuartersMarkReported();
+    [[deprecated("Use field access instead!")]] bool& dyn__threeQuartersMarkReported();
     // Get instance field reference: private System.Boolean _halfJumpMarkReported
-    bool& dyn__halfJumpMarkReported();
+    [[deprecated("Use field access instead!")]] bool& dyn__halfJumpMarkReported();
     // Get instance field reference: private UnityEngine.Vector3 _localPosition
-    ::UnityEngine::Vector3& dyn__localPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__localPosition();
     // Get instance field reference: private readonly UnityEngine.Vector3[] _randomRotations
-    ::ArrayW<::UnityEngine::Vector3>& dyn__randomRotations();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn__randomRotations();
     // Get instance field reference: private UnityEngine.Quaternion _worldRotation
-    ::UnityEngine::Quaternion& dyn__worldRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__worldRotation();
     // Get instance field reference: private UnityEngine.Quaternion _inverseWorldRotation
-    ::UnityEngine::Quaternion& dyn__inverseWorldRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__inverseWorldRotation();
     // Get instance field reference: private System.Boolean _rotateTowardsPlayer
-    bool& dyn__rotateTowardsPlayer();
+    [[deprecated("Use field access instead!")]] bool& dyn__rotateTowardsPlayer();
     // public System.Single get_distanceToPlayer()
-    // Offset: 0x147AA28
+    // Offset: 0x14B1210
     float get_distanceToPlayer();
     // public UnityEngine.Vector3 get_beatPos()
-    // Offset: 0x147AB1C
+    // Offset: 0x14B1304
     ::UnityEngine::Vector3 get_beatPos();
     // public System.Single get_jumpDuration()
-    // Offset: 0x147ABC8
+    // Offset: 0x14B13B0
     float get_jumpDuration();
     // public UnityEngine.Vector3 get_moveVec()
-    // Offset: 0x147ABD0
+    // Offset: 0x14B13B8
     ::UnityEngine::Vector3 get_moveVec();
     // public UnityEngine.Vector3 get_localPosition()
-    // Offset: 0x147ABDC
+    // Offset: 0x14B13C4
     ::UnityEngine::Vector3 get_localPosition();
     // public System.Void add_noteJumpDidFinishEvent(System.Action value)
-    // Offset: 0x147A3C0
+    // Offset: 0x14B0BA8
     void add_noteJumpDidFinishEvent(::System::Action* value);
     // public System.Void remove_noteJumpDidFinishEvent(System.Action value)
-    // Offset: 0x147A464
+    // Offset: 0x14B0C4C
     void remove_noteJumpDidFinishEvent(::System::Action* value);
     // public System.Void add_noteJumpDidPassMissedMarkerEvent(System.Action value)
-    // Offset: 0x147A508
+    // Offset: 0x14B0CF0
     void add_noteJumpDidPassMissedMarkerEvent(::System::Action* value);
     // public System.Void remove_noteJumpDidPassMissedMarkerEvent(System.Action value)
-    // Offset: 0x147A5AC
+    // Offset: 0x14B0D94
     void remove_noteJumpDidPassMissedMarkerEvent(::System::Action* value);
     // public System.Void add_noteJumpDidPassThreeQuartersEvent(System.Action`1<NoteJump> value)
-    // Offset: 0x147A650
+    // Offset: 0x14B0E38
     void add_noteJumpDidPassThreeQuartersEvent(::System::Action_1<::GlobalNamespace::NoteJump*>* value);
     // public System.Void remove_noteJumpDidPassThreeQuartersEvent(System.Action`1<NoteJump> value)
-    // Offset: 0x147A6F4
+    // Offset: 0x14B0EDC
     void remove_noteJumpDidPassThreeQuartersEvent(::System::Action_1<::GlobalNamespace::NoteJump*>* value);
     // public System.Void add_noteJumpDidPassHalfEvent(System.Action value)
-    // Offset: 0x147A798
+    // Offset: 0x14B0F80
     void add_noteJumpDidPassHalfEvent(::System::Action* value);
     // public System.Void remove_noteJumpDidPassHalfEvent(System.Action value)
-    // Offset: 0x147A83C
+    // Offset: 0x14B1024
     void remove_noteJumpDidPassHalfEvent(::System::Action* value);
     // public System.Void add_noteJumpDidUpdateProgressEvent(System.Action`1<System.Single> value)
-    // Offset: 0x147A8E0
+    // Offset: 0x14B10C8
     void add_noteJumpDidUpdateProgressEvent(::System::Action_1<float>* value);
     // public System.Void remove_noteJumpDidUpdateProgressEvent(System.Action`1<System.Single> value)
-    // Offset: 0x147A984
+    // Offset: 0x14B116C
     void remove_noteJumpDidUpdateProgressEvent(::System::Action_1<float>* value);
-    // public System.Void Init(System.Single beatTime, System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 endPos, System.Single jumpDuration, System.Single gravity, System.Single flipYSide, System.Single endRotation, System.Boolean rotateTowardsPlayer, System.Boolean useRandomRotation)
-    // Offset: 0x147ABE8
-    void Init(float beatTime, float worldRotation, ::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 endPos, float jumpDuration, float gravity, float flipYSide, float endRotation, bool rotateTowardsPlayer, bool useRandomRotation);
-    // public UnityEngine.Vector3 ManualUpdate()
-    // Offset: 0x147AF2C
-    ::UnityEngine::Vector3 ManualUpdate();
     // public System.Void .ctor()
-    // Offset: 0x147B64C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14B1E34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteJump* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteJump::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteJump*, creationType>()));
     }
+    // public System.Void Init(System.Single beatTime, System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 endPos, System.Single jumpDuration, System.Single gravity, System.Single flipYSide, System.Single endRotation, System.Boolean rotateTowardsPlayer, System.Boolean useRandomRotation)
+    // Offset: 0x14B13D0
+    void Init(float beatTime, float worldRotation, ::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 endPos, float jumpDuration, float gravity, float flipYSide, float endRotation, bool rotateTowardsPlayer, bool useRandomRotation);
+    // public UnityEngine.Vector3 ManualUpdate()
+    // Offset: 0x14B1714
+    ::UnityEngine::Vector3 ManualUpdate();
   }; // NoteJump
   #pragma pack(pop)
   static check_size<sizeof(NoteJump), 280 + sizeof(bool)> __GlobalNamespace_NoteJumpSizeCheck;
@@ -538,6 +524,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJump*), "remove_noteJumpDidUpdateProgressEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::NoteJump::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NoteJump::Init
 // Il2CppName: Init
 template<>
@@ -564,7 +554,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJump*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NoteJump::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

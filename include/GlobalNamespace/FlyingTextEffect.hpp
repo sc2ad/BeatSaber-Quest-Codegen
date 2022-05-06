@@ -50,15 +50,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::FlyingTextEffect::Pool
     class Pool;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshPro _text
     // Size: 0x8
     // Offset: 0x80
@@ -79,30 +71,25 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
     public:
     // Get instance field reference: private TMPro.TextMeshPro _text
-    ::TMPro::TextMeshPro*& dyn__text();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshPro*& dyn__text();
     // Get instance field reference: private UnityEngine.AnimationCurve _fadeAnimationCurve
-    ::UnityEngine::AnimationCurve*& dyn__fadeAnimationCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__fadeAnimationCurve();
     // Get instance field reference: protected UnityEngine.Color _color
-    ::UnityEngine::Color& dyn__color();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // public System.Void InitAndPresent(System.String text, System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, UnityEngine.Color color, System.Single fontSize, System.Boolean shake)
-    // Offset: 0x1392040
+    // Offset: 0x1379B54
     void InitAndPresent(::StringW text, float duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Color color, float fontSize, bool shake);
     // public System.Void .ctor()
-    // Offset: 0x1392124
+    // Offset: 0x1379C38
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlyingTextEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FlyingTextEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlyingTextEffect*, creationType>()));
     }
     // protected override System.Void ManualUpdate(System.Single t)
-    // Offset: 0x13920B4
+    // Offset: 0x1379BC8
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::ManualUpdate(System.Single t)
     void ManualUpdate(float t);

@@ -42,15 +42,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MoveBackWall : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _fadeInRegion
     // Size: 0x4
     // Offset: 0x18
@@ -65,7 +57,7 @@ namespace GlobalNamespace {
     ::UnityEngine::MeshRenderer* meshRenderer;
     // Field size check
     static_assert(sizeof(::UnityEngine::MeshRenderer*) == 0x8);
-    // [InjectAttribute] Offset: 0x1255978
+    // [InjectAttribute] Offset: 0x10DA55C
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x28
@@ -96,42 +88,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _fadeInRegion
-    float& dyn__fadeInRegion();
+    [[deprecated("Use field access instead!")]] float& dyn__fadeInRegion();
     // Get instance field reference: private UnityEngine.MeshRenderer _meshRenderer
-    ::UnityEngine::MeshRenderer*& dyn__meshRenderer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MeshRenderer*& dyn__meshRenderer();
     // Get instance field reference: private readonly PlayerTransforms _playerTransforms
-    ::GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
     // Get instance field reference: private System.Single _thisZ
-    float& dyn__thisZ();
+    [[deprecated("Use field access instead!")]] float& dyn__thisZ();
     // Get instance field reference: private System.Boolean _isVisible
-    bool& dyn__isVisible();
+    [[deprecated("Use field access instead!")]] bool& dyn__isVisible();
     // Get instance field reference: private UnityEngine.Material _material
-    ::UnityEngine::Material*& dyn__material();
-    // protected System.Void Start()
-    // Offset: 0x13CA4B4
-    void Start();
-    // protected System.Void Update()
-    // Offset: 0x13CA514
-    void Update();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__material();
     // public System.Void .ctor()
-    // Offset: 0x13CA644
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13C6AF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MoveBackWall* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MoveBackWall::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MoveBackWall*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x13C6960
+    void Start();
+    // protected System.Void Update()
+    // Offset: 0x13C69C0
+    void Update();
   }; // MoveBackWall
   #pragma pack(pop)
   static check_size<sizeof(MoveBackWall), 56 + sizeof(::UnityEngine::Material*)> __GlobalNamespace_MoveBackWallSizeCheck;
   static_assert(sizeof(MoveBackWall) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MoveBackWall::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MoveBackWall::Start
 // Il2CppName: Start
 template<>
@@ -148,7 +138,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MoveBackWall*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MoveBackWall::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

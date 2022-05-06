@@ -47,15 +47,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Threading.Tasks.TaskCompletionSource`1<GetAssetBundleFileResult> taskSource
     // Size: 0x8
     // Offset: 0x10
@@ -76,29 +68,31 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Oculus::Platform::Models::AssetDetails*) == 0x8);
     public:
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<GetAssetBundleFileResult> taskSource
-    ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*& dyn_taskSource();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*& dyn_taskSource();
     // Get instance field reference: public OculusBeatmapDataAssetFileModel <>4__this
-    ::GlobalNamespace::OculusBeatmapDataAssetFileModel*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OculusBeatmapDataAssetFileModel*& dyn_$$4__this();
     // Get instance field reference: public Oculus.Platform.Models.AssetDetails assetDetails
-    ::Oculus::Platform::Models::AssetDetails*& dyn_assetDetails();
-    // System.Void <GetDownloadAssetBundleFileAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetFileDownloadResult> msg)
-    // Offset: 0x1482340
-    void $GetDownloadAssetBundleFileAsync$b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* msg);
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::AssetDetails*& dyn_assetDetails();
     // public System.Void .ctor()
-    // Offset: 0x1482338
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14B8BB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0*, creationType>()));
     }
+    // System.Void <GetDownloadAssetBundleFileAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetFileDownloadResult> msg)
+    // Offset: 0x14B8BC0
+    void $GetDownloadAssetBundleFileAsync$b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* msg);
   }; // OculusBeatmapDataAssetFileModel/<>c__DisplayClass16_0
   #pragma pack(pop)
   static check_size<sizeof(OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0), 32 + sizeof(::Oculus::Platform::Models::AssetDetails*)> __GlobalNamespace_OculusBeatmapDataAssetFileModel_$$c__DisplayClass16_0SizeCheck;
   static_assert(sizeof(OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0::$GetDownloadAssetBundleFileAsync$b__0
 // Il2CppName: <GetDownloadAssetBundleFileAsync>b__0
 template<>
@@ -108,7 +102,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0*), "<GetDownloadAssetBundleFileAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -49,15 +49,7 @@ namespace TMPro {
     class $$c__DisplayClass5_0;
     // Nested type: ::TMPro::KerningTable::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Collections.Generic.List`1<TMPro.KerningPair> kerningPairs
     // Size: 0x8
     // Offset: 0x10
@@ -70,40 +62,42 @@ namespace TMPro {
       return kerningPairs;
     }
     // Get instance field reference: public System.Collections.Generic.List`1<TMPro.KerningPair> kerningPairs
-    ::System::Collections::Generic::List_1<::TMPro::KerningPair*>*& dyn_kerningPairs();
-    // public System.Void AddKerningPair()
-    // Offset: 0x142F358
-    void AddKerningPair();
-    // public System.Int32 AddKerningPair(System.UInt32 first, System.UInt32 second, System.Single offset)
-    // Offset: 0x142F480
-    int AddKerningPair(uint first, uint second, float offset);
-    // public System.Int32 AddGlyphPairAdjustmentRecord(System.UInt32 first, TMPro.GlyphValueRecord_Legacy firstAdjustments, System.UInt32 second, TMPro.GlyphValueRecord_Legacy secondAdjustments)
-    // Offset: 0x142F5C0
-    int AddGlyphPairAdjustmentRecord(uint first, ::TMPro::GlyphValueRecord_Legacy firstAdjustments, uint second, ::TMPro::GlyphValueRecord_Legacy secondAdjustments);
-    // public System.Void RemoveKerningPair(System.Int32 left, System.Int32 right)
-    // Offset: 0x142F740
-    void RemoveKerningPair(int left, int right);
-    // public System.Void RemoveKerningPair(System.Int32 index)
-    // Offset: 0x142F844
-    void RemoveKerningPair(int index);
-    // public System.Void SortKerningPairs()
-    // Offset: 0x142F8AC
-    void SortKerningPairs();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::TMPro::KerningPair*>*& dyn_kerningPairs();
     // public System.Void .ctor()
-    // Offset: 0x142F2E4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1438524
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KerningTable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::KerningTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KerningTable*, creationType>()));
     }
+    // public System.Void AddKerningPair()
+    // Offset: 0x1438598
+    void AddKerningPair();
+    // public System.Int32 AddKerningPair(System.UInt32 first, System.UInt32 second, System.Single offset)
+    // Offset: 0x14386C0
+    int AddKerningPair(uint first, uint second, float offset);
+    // public System.Int32 AddGlyphPairAdjustmentRecord(System.UInt32 first, TMPro.GlyphValueRecord_Legacy firstAdjustments, System.UInt32 second, TMPro.GlyphValueRecord_Legacy secondAdjustments)
+    // Offset: 0x1438800
+    int AddGlyphPairAdjustmentRecord(uint first, ::TMPro::GlyphValueRecord_Legacy firstAdjustments, uint second, ::TMPro::GlyphValueRecord_Legacy secondAdjustments);
+    // public System.Void RemoveKerningPair(System.Int32 left, System.Int32 right)
+    // Offset: 0x1438980
+    void RemoveKerningPair(int left, int right);
+    // public System.Void RemoveKerningPair(System.Int32 index)
+    // Offset: 0x1438A84
+    void RemoveKerningPair(int index);
+    // public System.Void SortKerningPairs()
+    // Offset: 0x1438AEC
+    void SortKerningPairs();
   }; // TMPro.KerningTable
   #pragma pack(pop)
   static check_size<sizeof(KerningTable), 16 + sizeof(::System::Collections::Generic::List_1<::TMPro::KerningPair*>*)> __TMPro_KerningTableSizeCheck;
   static_assert(sizeof(KerningTable) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: TMPro::KerningTable::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: TMPro::KerningTable::AddKerningPair
 // Il2CppName: AddKerningPair
 template<>
@@ -162,7 +156,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
     return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable*), "SortKerningPairs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMPro::KerningTable::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

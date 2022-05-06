@@ -37,22 +37,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SongPreviewPlayerPauseOnInputFocusLost : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private AudioPlayerBase _songPreviewPlayer
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::AudioPlayerBase* songPreviewPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioPlayerBase*) == 0x8);
-    // [InjectAttribute] Offset: 0x124AC04
+    // [InjectAttribute] Offset: 0x10CF6FC
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x20
@@ -63,40 +55,38 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private AudioPlayerBase _songPreviewPlayer
-    ::GlobalNamespace::AudioPlayerBase*& dyn__songPreviewPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioPlayerBase*& dyn__songPreviewPlayer();
     // Get instance field reference: private readonly IVRPlatformHelper _vrPlatformHelper
-    ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
-    // protected System.Void Start()
-    // Offset: 0x2AA7F04
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x2AA8168
-    void OnDestroy();
-    // private System.Void HandleInputFocusCaptured()
-    // Offset: 0x2AA8114
-    void HandleInputFocusCaptured();
-    // private System.Void HandleInputFocusReleased()
-    // Offset: 0x2AA8304
-    void HandleInputFocusReleased();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // public System.Void .ctor()
-    // Offset: 0x2AA8358
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x138EF7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPreviewPlayerPauseOnInputFocusLost* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongPreviewPlayerPauseOnInputFocusLost*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x138EB28
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x138ED8C
+    void OnDestroy();
+    // private System.Void HandleInputFocusCaptured()
+    // Offset: 0x138ED38
+    void HandleInputFocusCaptured();
+    // private System.Void HandleInputFocusReleased()
+    // Offset: 0x138EF28
+    void HandleInputFocusReleased();
   }; // SongPreviewPlayerPauseOnInputFocusLost
   #pragma pack(pop)
   static check_size<sizeof(SongPreviewPlayerPauseOnInputFocusLost), 32 + sizeof(::GlobalNamespace::IVRPlatformHelper*)> __GlobalNamespace_SongPreviewPlayerPauseOnInputFocusLostSizeCheck;
   static_assert(sizeof(SongPreviewPlayerPauseOnInputFocusLost) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::Start
 // Il2CppName: Start
 template<>
@@ -129,7 +119,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*), "HandleInputFocusReleased", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -63,15 +63,7 @@ namespace GlobalNamespace {
       public:
       // Nested type: ::GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe
       class NodeKeyframe;
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public SimpleVRNodeRecorder/SavedData/NodeKeyframe[] keyframes
       // Size: 0x8
       // Offset: 0x10
@@ -84,11 +76,9 @@ namespace GlobalNamespace {
         return keyframes;
       }
       // Get instance field reference: public SimpleVRNodeRecorder/SavedData/NodeKeyframe[] keyframes
-      ::ArrayW<::GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>& dyn_keyframes();
+      [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>& dyn_keyframes();
       // public System.Void .ctor()
-      // Offset: 0x2A9BDD4
-      // Implemented from: System.Object
-      // Base method: System.Void Object::.ctor()
+      // Offset: 0x1382A74
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static SimpleVRNodeRecorder::SavedData* New_ctor() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SimpleVRNodeRecorder::SavedData::.ctor");
@@ -141,20 +131,12 @@ namespace GlobalNamespace {
       // Set static field: static public SimpleVRNodeRecorder/RecordMode Off
       static void _set_Off(::GlobalNamespace::SimpleVRNodeRecorder::RecordMode value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // SimpleVRNodeRecorder/RecordMode
     #pragma pack(pop)
     static check_size<sizeof(SimpleVRNodeRecorder::RecordMode), 0 + sizeof(int)> __GlobalNamespace_SimpleVRNodeRecorder_RecordModeSizeCheck;
     static_assert(sizeof(SimpleVRNodeRecorder::RecordMode) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private FloatSO _songTime
     // Size: 0x8
     // Offset: 0x18
@@ -197,7 +179,7 @@ namespace GlobalNamespace {
     float forwardOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x125F5B4
+    // [InjectAttribute] Offset: 0x10E425C
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x40
@@ -232,60 +214,54 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FloatSO _songTime
-    ::GlobalNamespace::FloatSO*& dyn__songTime();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FloatSO*& dyn__songTime();
     // Get instance field reference: private System.String _saveFilename
-    ::StringW& dyn__saveFilename();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__saveFilename();
     // Get instance field reference: private SimpleVRNodeRecorder/RecordMode _mode
-    ::GlobalNamespace::SimpleVRNodeRecorder::RecordMode& dyn__mode();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SimpleVRNodeRecorder::RecordMode& dyn__mode();
     // Get instance field reference: private UnityEngine.XR.XRNode _node
-    ::UnityEngine::XR::XRNode& dyn__node();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::XR::XRNode& dyn__node();
     // Get instance field reference: private UnityEngine.Transform _playbackTransform
-    ::UnityEngine::Transform*& dyn__playbackTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__playbackTransform();
     // Get instance field reference: private System.Single _smooth
-    float& dyn__smooth();
+    [[deprecated("Use field access instead!")]] float& dyn__smooth();
     // Get instance field reference: private System.Single _forwardOffset
-    float& dyn__forwardOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__forwardOffset();
     // Get instance field reference: private IVRPlatformHelper _vrPlatformHelper
-    ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // Get instance field reference: private System.Collections.Generic.List`1<SimpleVRNodeRecorder/SavedData/NodeKeyframe> _keyframes
-    ::System::Collections::Generic::List_1<::GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>*& dyn__keyframes();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>*& dyn__keyframes();
     // Get instance field reference: private System.Int32 _keyframeIndex
-    int& dyn__keyframeIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__keyframeIndex();
     // Get instance field reference: private UnityEngine.Vector3 _prevPos
-    ::UnityEngine::Vector3& dyn__prevPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__prevPos();
     // Get instance field reference: private UnityEngine.Quaternion _prevRot
-    ::UnityEngine::Quaternion& dyn__prevRot();
-    // protected System.Void Awake()
-    // Offset: 0x142C9E0
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x142CD80
-    void OnDestroy();
-    // private System.Void RecordNewKeyFrame()
-    // Offset: 0x142CEC4
-    void RecordNewKeyFrame();
-    // protected System.Void Update()
-    // Offset: 0x142D040
-    void Update();
-    // private System.Void Save()
-    // Offset: 0x142CD90
-    void Save();
-    // private System.Void Load()
-    // Offset: 0x142CAD0
-    void Load();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__prevRot();
     // public System.Void .ctor()
-    // Offset: 0x142D538
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1382A7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleVRNodeRecorder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SimpleVRNodeRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleVRNodeRecorder*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x1381E44
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13821E4
+    void OnDestroy();
+    // private System.Void RecordNewKeyFrame()
+    // Offset: 0x1382328
+    void RecordNewKeyFrame();
+    // protected System.Void Update()
+    // Offset: 0x13824F4
+    void Update();
+    // private System.Void Save()
+    // Offset: 0x13821F4
+    void Save();
+    // private System.Void Load()
+    // Offset: 0x1381F34
+    void Load();
   }; // SimpleVRNodeRecorder
   #pragma pack(pop)
   static check_size<sizeof(SimpleVRNodeRecorder), 96 + sizeof(::UnityEngine::Quaternion)> __GlobalNamespace_SimpleVRNodeRecorderSizeCheck;
@@ -297,6 +273,10 @@ DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SimpleVRNodeRecorder::RecordMode, "", 
 NEED_NO_BOX(::GlobalNamespace::SimpleVRNodeRecorder::SavedData);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SimpleVRNodeRecorder::SavedData*, "", "SimpleVRNodeRecorder/SavedData");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SimpleVRNodeRecorder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SimpleVRNodeRecorder::Awake
 // Il2CppName: Awake
 template<>
@@ -345,7 +325,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleVRNodeRecorder*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SimpleVRNodeRecorder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -108,28 +108,20 @@ namespace GlobalNamespace {
       // Set static field: static public MultiplayerLevelLoader/MultiplayerBeatmapLoaderState WaitingForCountdown
       static void _set_WaitingForCountdown(::GlobalNamespace::MultiplayerLevelLoader::MultiplayerBeatmapLoaderState value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // MultiplayerLevelLoader/MultiplayerBeatmapLoaderState
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerLevelLoader::MultiplayerBeatmapLoaderState), 0 + sizeof(int)> __GlobalNamespace_MultiplayerLevelLoader_MultiplayerBeatmapLoaderStateSizeCheck;
     static_assert(sizeof(MultiplayerLevelLoader::MultiplayerBeatmapLoaderState) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x125A338
+    // [InjectAttribute] Offset: 0x10DEF1C
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x125A348
+    // [InjectAttribute] Offset: 0x10DEF2C
     // private readonly BeatmapLevelsModel _beatmapLevelsModel
     // Size: 0x8
     // Offset: 0x18
@@ -198,60 +190,58 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::Zenject::ITickable*>(this);
     }
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // Get instance field reference: private readonly BeatmapLevelsModel _beatmapLevelsModel
-    ::GlobalNamespace::BeatmapLevelsModel*& dyn__beatmapLevelsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelsModel*& dyn__beatmapLevelsModel();
     // Get instance field reference: private System.Action stillDownloadingSongEvent
-    ::System::Action*& dyn_stillDownloadingSongEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_stillDownloadingSongEvent();
     // Get instance field reference: private System.Action`2<ILevelGameplaySetupData,IDifficultyBeatmap> countdownFinishedEvent
-    ::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IDifficultyBeatmap*>*& dyn_countdownFinishedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IDifficultyBeatmap*>*& dyn_countdownFinishedEvent();
     // Get instance field reference: private MultiplayerLevelLoader/MultiplayerBeatmapLoaderState _loaderState
-    ::GlobalNamespace::MultiplayerLevelLoader::MultiplayerBeatmapLoaderState& dyn__loaderState();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLevelLoader::MultiplayerBeatmapLoaderState& dyn__loaderState();
     // Get instance field reference: private System.Threading.CancellationTokenSource _getBeatmapCancellationTokenSource
-    ::System::Threading::CancellationTokenSource*& dyn__getBeatmapCancellationTokenSource();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationTokenSource*& dyn__getBeatmapCancellationTokenSource();
     // Get instance field reference: private System.Threading.Tasks.Task`1<BeatmapLevelsModel/GetBeatmapLevelResult> _getBeatmapLevelResultTask
-    ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult>*& dyn__getBeatmapLevelResultTask();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult>*& dyn__getBeatmapLevelResultTask();
     // Get instance field reference: private ILevelGameplaySetupData _gameplaySetupData
-    ::GlobalNamespace::ILevelGameplaySetupData*& dyn__gameplaySetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ILevelGameplaySetupData*& dyn__gameplaySetupData();
     // Get instance field reference: private IDifficultyBeatmap _difficultyBeatmap
-    ::GlobalNamespace::IDifficultyBeatmap*& dyn__difficultyBeatmap();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IDifficultyBeatmap*& dyn__difficultyBeatmap();
     // Get instance field reference: private System.Single _startTime
-    float& dyn__startTime();
+    [[deprecated("Use field access instead!")]] float& dyn__startTime();
     // Get instance field reference: private System.Boolean _stillDownloadingCalled
-    bool& dyn__stillDownloadingCalled();
+    [[deprecated("Use field access instead!")]] bool& dyn__stillDownloadingCalled();
     // public System.Void add_stillDownloadingSongEvent(System.Action value)
-    // Offset: 0x13F75E0
+    // Offset: 0x1404080
     void add_stillDownloadingSongEvent(::System::Action* value);
     // public System.Void remove_stillDownloadingSongEvent(System.Action value)
-    // Offset: 0x13F7684
+    // Offset: 0x1404124
     void remove_stillDownloadingSongEvent(::System::Action* value);
     // public System.Void add_countdownFinishedEvent(System.Action`2<ILevelGameplaySetupData,IDifficultyBeatmap> value)
-    // Offset: 0x13F7728
+    // Offset: 0x14041C8
     void add_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void remove_countdownFinishedEvent(System.Action`2<ILevelGameplaySetupData,IDifficultyBeatmap> value)
-    // Offset: 0x13F77CC
+    // Offset: 0x140426C
     void remove_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
-    // public System.Void LoadLevel(ILevelGameplaySetupData gameplaySetupData, System.Single initialStartTime)
-    // Offset: 0x13F7870
-    void LoadLevel(::GlobalNamespace::ILevelGameplaySetupData* gameplaySetupData, float initialStartTime);
-    // public System.Void SetNewStartTime(System.Single newStartTime)
-    // Offset: 0x13F7A1C
-    void SetNewStartTime(float newStartTime);
-    // public System.Void ClearLoading()
-    // Offset: 0x13F7A24
-    void ClearLoading();
-    // public System.Void Tick()
-    // Offset: 0x13F7A64
-    void Tick();
     // public System.Void .ctor()
-    // Offset: 0x13F7D60
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1404800
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLevelLoader* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLevelLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLevelLoader*, creationType>()));
     }
+    // public System.Void LoadLevel(ILevelGameplaySetupData gameplaySetupData, System.Single initialStartTime)
+    // Offset: 0x1404310
+    void LoadLevel(::GlobalNamespace::ILevelGameplaySetupData* gameplaySetupData, float initialStartTime);
+    // public System.Void SetNewStartTime(System.Single newStartTime)
+    // Offset: 0x14044BC
+    void SetNewStartTime(float newStartTime);
+    // public System.Void ClearLoading()
+    // Offset: 0x14044C4
+    void ClearLoading();
+    // public System.Void Tick()
+    // Offset: 0x1404504
+    void Tick();
   }; // MultiplayerLevelLoader
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLevelLoader), 92 + sizeof(bool)> __GlobalNamespace_MultiplayerLevelLoaderSizeCheck;
@@ -296,6 +286,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelLoader*), "remove_countdownFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelLoader::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelLoader::LoadLevel
 // Il2CppName: LoadLevel
 template<>
@@ -331,7 +325,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelLoader*), "Tick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelLoader::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

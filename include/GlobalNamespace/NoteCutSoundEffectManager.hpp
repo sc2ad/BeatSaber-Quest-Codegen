@@ -67,22 +67,14 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::NoteCutSoundEffectManager::InitData
     class InitData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private AudioManagerSO _audioManager
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::AudioManagerSO* audioManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioManagerSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124A920
+    // [SpaceAttribute] Offset: 0x10CF418
     // private System.Single _audioSamplesBeatAlignOffset
     // Size: 0x4
     // Offset: 0x20
@@ -103,42 +95,42 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::AudioClip*> shortCutEffectsAudioClips;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::AudioClip*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x124A978
+    // [SpaceAttribute] Offset: 0x10CF470
     // private UnityEngine.AudioClip _testAudioClip
     // Size: 0x8
     // Offset: 0x38
     ::UnityEngine::AudioClip* testAudioClip;
     // Field size check
     static_assert(sizeof(::UnityEngine::AudioClip*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0x124A9B0
+    // [InjectOptionalAttribute] Offset: 0x10CF4A8
     // private readonly NoteCutSoundEffectManager/InitData _initData
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::NoteCutSoundEffectManager::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::NoteCutSoundEffectManager::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x124A9C0
+    // [InjectAttribute] Offset: 0x10CF4B8
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x124A9D0
+    // [InjectAttribute] Offset: 0x10CF4C8
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x124A9E0
+    // [InjectAttribute] Offset: 0x10CF4D8
     // private readonly NoteCutSoundEffect/Pool _noteCutSoundEffectPool
     // Size: 0x8
     // Offset: 0x58
     ::GlobalNamespace::NoteCutSoundEffect::Pool* noteCutSoundEffectPool;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::NoteCutSoundEffect::Pool*) == 0x8);
-    // [InjectAttribute] Offset: 0x124A9F0
+    // [InjectAttribute] Offset: 0x10CF4E8
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x60
@@ -235,82 +227,76 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kDenseNotesVolumeMul
     static void _set_kDenseNotesVolumeMul(float value);
     // Get instance field reference: private AudioManagerSO _audioManager
-    ::GlobalNamespace::AudioManagerSO*& dyn__audioManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioManagerSO*& dyn__audioManager();
     // Get instance field reference: private System.Single _audioSamplesBeatAlignOffset
-    float& dyn__audioSamplesBeatAlignOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__audioSamplesBeatAlignOffset();
     // Get instance field reference: private UnityEngine.AudioClip[] _longCutEffectsAudioClips
-    ::ArrayW<::UnityEngine::AudioClip*>& dyn__longCutEffectsAudioClips();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::AudioClip*>& dyn__longCutEffectsAudioClips();
     // Get instance field reference: private UnityEngine.AudioClip[] _shortCutEffectsAudioClips
-    ::ArrayW<::UnityEngine::AudioClip*>& dyn__shortCutEffectsAudioClips();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::AudioClip*>& dyn__shortCutEffectsAudioClips();
     // Get instance field reference: private UnityEngine.AudioClip _testAudioClip
-    ::UnityEngine::AudioClip*& dyn__testAudioClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioClip*& dyn__testAudioClip();
     // Get instance field reference: private readonly NoteCutSoundEffectManager/InitData _initData
-    ::GlobalNamespace::NoteCutSoundEffectManager::InitData*& dyn__initData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutSoundEffectManager::InitData*& dyn__initData();
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
-    ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // Get instance field reference: private readonly SaberManager _saberManager
-    ::GlobalNamespace::SaberManager*& dyn__saberManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberManager*& dyn__saberManager();
     // Get instance field reference: private readonly NoteCutSoundEffect/Pool _noteCutSoundEffectPool
-    ::GlobalNamespace::NoteCutSoundEffect::Pool*& dyn__noteCutSoundEffectPool();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutSoundEffect::Pool*& dyn__noteCutSoundEffectPool();
     // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
-    ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // Get instance field reference: private System.Boolean <handleWrongSaberTypeAsGood>k__BackingField
-    bool& dyn_$handleWrongSaberTypeAsGood$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$handleWrongSaberTypeAsGood$k__BackingField();
     // Get instance field reference: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomLongCutSoundPicker
-    ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*& dyn__randomLongCutSoundPicker();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*& dyn__randomLongCutSoundPicker();
     // Get instance field reference: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomShortCutSoundPicker
-    ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*& dyn__randomShortCutSoundPicker();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*& dyn__randomShortCutSoundPicker();
     // Get instance field reference: private System.Single _prevNoteATime
-    float& dyn__prevNoteATime();
+    [[deprecated("Use field access instead!")]] float& dyn__prevNoteATime();
     // Get instance field reference: private System.Single _prevNoteBTime
-    float& dyn__prevNoteBTime();
+    [[deprecated("Use field access instead!")]] float& dyn__prevNoteBTime();
     // Get instance field reference: private NoteCutSoundEffect _prevNoteASoundEffect
-    ::GlobalNamespace::NoteCutSoundEffect*& dyn__prevNoteASoundEffect();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutSoundEffect*& dyn__prevNoteASoundEffect();
     // Get instance field reference: private NoteCutSoundEffect _prevNoteBSoundEffect
-    ::GlobalNamespace::NoteCutSoundEffect*& dyn__prevNoteBSoundEffect();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutSoundEffect*& dyn__prevNoteBSoundEffect();
     // Get instance field reference: private System.Single _beatAlignOffset
-    float& dyn__beatAlignOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__beatAlignOffset();
     // Get instance field reference: private System.Boolean _useTestAudioClips
-    bool& dyn__useTestAudioClips();
+    [[deprecated("Use field access instead!")]] bool& dyn__useTestAudioClips();
     // Get instance field reference: private MemoryPoolContainer`1<NoteCutSoundEffect> _noteCutSoundEffectPoolContainer
-    ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::NoteCutSoundEffect*>*& dyn__noteCutSoundEffectPoolContainer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::NoteCutSoundEffect*>*& dyn__noteCutSoundEffectPoolContainer();
     // public System.Boolean get_handleWrongSaberTypeAsGood()
-    // Offset: 0x1476F4C
+    // Offset: 0x14AD734
     bool get_handleWrongSaberTypeAsGood();
     // public System.Void set_handleWrongSaberTypeAsGood(System.Boolean value)
-    // Offset: 0x1476F54
+    // Offset: 0x14AD73C
     void set_handleWrongSaberTypeAsGood(bool value);
-    // protected System.Void Start()
-    // Offset: 0x1476F60
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x1477164
-    void OnDestroy();
-    // private System.Void HandleNoteWasSpawned(NoteController noteController)
-    // Offset: 0x147724C
-    void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
-    // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x1477798
-    void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
-    // public System.Void HandleNoteCutSoundEffectDidFinish(NoteCutSoundEffect noteCutSoundEffect)
-    // Offset: 0x14778F8
-    void HandleNoteCutSoundEffectDidFinish(::GlobalNamespace::NoteCutSoundEffect* noteCutSoundEffect);
-    // private System.Boolean IsSupportedNote(NoteData noteData)
-    // Offset: 0x147775C
-    bool IsSupportedNote(::GlobalNamespace::NoteData* noteData);
     // public System.Void .ctor()
-    // Offset: 0x14779DC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14AE1C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutSoundEffectManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutSoundEffectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutSoundEffectManager*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x14AD748
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x14AD94C
+    void OnDestroy();
+    // private System.Void HandleNoteWasSpawned(NoteController noteController)
+    // Offset: 0x14ADA34
+    void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
+    // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
+    // Offset: 0x14ADF80
+    void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+    // public System.Void HandleNoteCutSoundEffectDidFinish(NoteCutSoundEffect noteCutSoundEffect)
+    // Offset: 0x14AE0E0
+    void HandleNoteCutSoundEffectDidFinish(::GlobalNamespace::NoteCutSoundEffect* noteCutSoundEffect);
+    // private System.Boolean IsSupportedNote(NoteData noteData)
+    // Offset: 0x14ADF44
+    bool IsSupportedNote(::GlobalNamespace::NoteData* noteData);
   }; // NoteCutSoundEffectManager
   #pragma pack(pop)
   static check_size<sizeof(NoteCutSoundEffectManager), 160 + sizeof(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::NoteCutSoundEffect*>*)> __GlobalNamespace_NoteCutSoundEffectManagerSizeCheck;
@@ -334,6 +320,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutSoundEffectManager*), "set_handleWrongSaberTypeAsGood", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutSoundEffectManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutSoundEffectManager::Start
 // Il2CppName: Start
 template<>
@@ -387,7 +377,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutSoundEffectManager*), "IsSupportedNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteData});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NoteCutSoundEffectManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

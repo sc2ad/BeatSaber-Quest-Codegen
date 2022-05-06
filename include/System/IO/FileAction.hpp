@@ -72,7 +72,7 @@ namespace System::IO {
     // Set static field: static public System.IO.FileAction RenamedNewName
     static void _set_RenamedNewName(::System::IO::FileAction value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.IO.FileAction
   #pragma pack(pop)
   static check_size<sizeof(FileAction), 0 + sizeof(int)> __System_IO_FileActionSizeCheck;

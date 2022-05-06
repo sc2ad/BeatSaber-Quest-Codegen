@@ -60,15 +60,7 @@ namespace TMPro {
   // [ExecuteAlways] Offset: FFFFFFFF
   class TMP_SubMeshUI : public ::UnityEngine::UI::MaskableGraphic {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TMP_FontAsset m_fontAsset
     // Size: 0x8
     // Offset: 0xC0
@@ -159,227 +151,216 @@ namespace TMPro {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private TMPro.TMP_FontAsset m_fontAsset
-    ::TMPro::TMP_FontAsset*& dyn_m_fontAsset();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_FontAsset*& dyn_m_fontAsset();
     // Get instance field reference: private TMPro.TMP_SpriteAsset m_spriteAsset
-    ::TMPro::TMP_SpriteAsset*& dyn_m_spriteAsset();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_SpriteAsset*& dyn_m_spriteAsset();
     // Get instance field reference: private UnityEngine.Material m_material
-    ::UnityEngine::Material*& dyn_m_material();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_m_material();
     // Get instance field reference: private UnityEngine.Material m_sharedMaterial
-    ::UnityEngine::Material*& dyn_m_sharedMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_m_sharedMaterial();
     // Get instance field reference: private UnityEngine.Material m_fallbackMaterial
-    ::UnityEngine::Material*& dyn_m_fallbackMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_m_fallbackMaterial();
     // Get instance field reference: private UnityEngine.Material m_fallbackSourceMaterial
-    ::UnityEngine::Material*& dyn_m_fallbackSourceMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_m_fallbackSourceMaterial();
     // Get instance field reference: private System.Boolean m_isDefaultMaterial
-    bool& dyn_m_isDefaultMaterial();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isDefaultMaterial();
     // Get instance field reference: private System.Single m_padding
-    float& dyn_m_padding();
+    [[deprecated("Use field access instead!")]] float& dyn_m_padding();
     // Get instance field reference: private UnityEngine.CanvasRenderer m_canvasRenderer
-    ::UnityEngine::CanvasRenderer*& dyn_m_canvasRenderer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::CanvasRenderer*& dyn_m_canvasRenderer();
     // Get instance field reference: private UnityEngine.Mesh m_mesh
-    ::UnityEngine::Mesh*& dyn_m_mesh();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Mesh*& dyn_m_mesh();
     // Get instance field reference: private TMPro.TextMeshProUGUI m_TextComponent
-    ::TMPro::TextMeshProUGUI*& dyn_m_TextComponent();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn_m_TextComponent();
     // Get instance field reference: private System.Boolean m_isRegisteredForEvents
-    bool& dyn_m_isRegisteredForEvents();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isRegisteredForEvents();
     // Get instance field reference: private System.Boolean m_materialDirty
-    bool& dyn_m_materialDirty();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_materialDirty();
     // Get instance field reference: private System.Int32 m_materialReferenceIndex
-    int& dyn_m_materialReferenceIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_m_materialReferenceIndex();
     // public TMPro.TMP_FontAsset get_fontAsset()
-    // Offset: 0x1456590
+    // Offset: 0x1477410
     ::TMPro::TMP_FontAsset* get_fontAsset();
     // public System.Void set_fontAsset(TMPro.TMP_FontAsset value)
-    // Offset: 0x1456598
+    // Offset: 0x1477418
     void set_fontAsset(::TMPro::TMP_FontAsset* value);
     // public TMPro.TMP_SpriteAsset get_spriteAsset()
-    // Offset: 0x14565A0
+    // Offset: 0x1477420
     ::TMPro::TMP_SpriteAsset* get_spriteAsset();
     // public System.Void set_spriteAsset(TMPro.TMP_SpriteAsset value)
-    // Offset: 0x14565A8
+    // Offset: 0x1477428
     void set_spriteAsset(::TMPro::TMP_SpriteAsset* value);
     // public UnityEngine.Material get_sharedMaterial()
-    // Offset: 0x1456914
+    // Offset: 0x1477794
     ::UnityEngine::Material* get_sharedMaterial();
     // public System.Void set_sharedMaterial(UnityEngine.Material value)
-    // Offset: 0x145691C
+    // Offset: 0x147779C
     void set_sharedMaterial(::UnityEngine::Material* value);
     // public UnityEngine.Material get_fallbackMaterial()
-    // Offset: 0x1456994
+    // Offset: 0x1477814
     ::UnityEngine::Material* get_fallbackMaterial();
     // public System.Void set_fallbackMaterial(UnityEngine.Material value)
-    // Offset: 0x145699C
+    // Offset: 0x147781C
     void set_fallbackMaterial(::UnityEngine::Material* value);
     // public UnityEngine.Material get_fallbackSourceMaterial()
-    // Offset: 0x1456B10
+    // Offset: 0x1477990
     ::UnityEngine::Material* get_fallbackSourceMaterial();
     // public System.Void set_fallbackSourceMaterial(UnityEngine.Material value)
-    // Offset: 0x1456B18
+    // Offset: 0x1477998
     void set_fallbackSourceMaterial(::UnityEngine::Material* value);
     // public System.Boolean get_isDefaultMaterial()
-    // Offset: 0x1456B8C
+    // Offset: 0x1477A0C
     bool get_isDefaultMaterial();
     // public System.Void set_isDefaultMaterial(System.Boolean value)
-    // Offset: 0x1456B94
+    // Offset: 0x1477A14
     void set_isDefaultMaterial(bool value);
     // public System.Single get_padding()
-    // Offset: 0x1456BA0
+    // Offset: 0x1477A20
     float get_padding();
     // public System.Void set_padding(System.Single value)
-    // Offset: 0x1456BA8
+    // Offset: 0x1477A28
     void set_padding(float value);
+    // public UnityEngine.CanvasRenderer get_canvasRenderer()
+    // Offset: 0x1477A30
+    ::UnityEngine::CanvasRenderer* get_canvasRenderer();
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x1456C48
+    // Offset: 0x1477AC8
     ::UnityEngine::Mesh* get_mesh();
     // public System.Void set_mesh(UnityEngine.Mesh value)
-    // Offset: 0x1456CFC
+    // Offset: 0x1477B7C
     void set_mesh(::UnityEngine::Mesh* value);
-    // static public TMPro.TMP_SubMeshUI AddSubTextObject(TMPro.TextMeshProUGUI textComponent, TMPro.MaterialReference materialReference)
-    // Offset: 0x1456D04
-    static ::TMPro::TMP_SubMeshUI* AddSubTextObject(::TMPro::TextMeshProUGUI* textComponent, ::TMPro::MaterialReference materialReference);
-    // public System.Single GetPaddingForMaterial()
-    // Offset: 0x145687C
-    float GetPaddingForMaterial();
-    // public System.Single GetPaddingForMaterial(UnityEngine.Material mat)
-    // Offset: 0x14575A0
-    float GetPaddingForMaterial(::UnityEngine::Material* mat);
-    // public System.Void UpdateMeshPadding(System.Boolean isExtraPadding, System.Boolean isUsingBold)
-    // Offset: 0x1457638
-    void UpdateMeshPadding(bool isExtraPadding, bool isUsingBold);
-    // public System.Void SetPivotDirty()
-    // Offset: 0x14577F4
-    void SetPivotDirty();
-    // public System.Void RefreshMaterial()
-    // Offset: 0x1457944
-    void RefreshMaterial();
-    // private UnityEngine.Material GetMaterial()
-    // Offset: 0x1457A70
-    ::UnityEngine::Material* GetMaterial();
-    // private UnityEngine.Material GetMaterial(UnityEngine.Material mat)
-    // Offset: 0x1456680
-    ::UnityEngine::Material* GetMaterial(::UnityEngine::Material* mat);
-    // private UnityEngine.Material CreateMaterialInstance(UnityEngine.Material source)
-    // Offset: 0x1457A78
-    ::UnityEngine::Material* CreateMaterialInstance(::UnityEngine::Material* source);
-    // private UnityEngine.Material GetSharedMaterial()
-    // Offset: 0x1457B34
-    ::UnityEngine::Material* GetSharedMaterial();
-    // private System.Void SetSharedMaterial(UnityEngine.Material mat)
-    // Offset: 0x1456958
-    void SetSharedMaterial(::UnityEngine::Material* mat);
-    // public override UnityEngine.Texture get_mainTexture()
-    // Offset: 0x14565B0
-    // Implemented from: UnityEngine.UI.Graphic
-    // Base method: UnityEngine.Texture Graphic::get_mainTexture()
-    ::UnityEngine::Texture* get_mainTexture();
-    // public override UnityEngine.Material get_material()
-    // Offset: 0x1456678
-    // Implemented from: UnityEngine.UI.Graphic
-    // Base method: UnityEngine.Material Graphic::get_material()
-    ::UnityEngine::Material* get_material();
-    // public override System.Void set_material(UnityEngine.Material value)
-    // Offset: 0x1456784
-    // Implemented from: UnityEngine.UI.Graphic
-    // Base method: System.Void Graphic::set_material(UnityEngine.Material value)
-    void set_material(::UnityEngine::Material* value);
-    // public override UnityEngine.Material get_materialForRendering()
-    // Offset: 0x1456B20
-    // Implemented from: UnityEngine.UI.Graphic
-    // Base method: UnityEngine.Material Graphic::get_materialForRendering()
-    ::UnityEngine::Material* get_materialForRendering();
-    // public UnityEngine.CanvasRenderer get_canvasRenderer()
-    // Offset: 0x1456BB0
-    // Implemented from: UnityEngine.UI.Graphic
-    // Base method: UnityEngine.CanvasRenderer Graphic::get_canvasRenderer()
-    ::UnityEngine::CanvasRenderer* get_canvasRenderer();
     // public System.Void .ctor()
-    // Offset: 0x1457BDC
-    // Implemented from: UnityEngine.UI.MaskableGraphic
-    // Base method: System.Void MaskableGraphic::.ctor()
-    // Base method: System.Void Graphic::.ctor()
-    // Base method: System.Void UIBehaviour::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1478A5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_SubMeshUI* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_SubMeshUI::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_SubMeshUI*, creationType>()));
     }
+    // static public TMPro.TMP_SubMeshUI AddSubTextObject(TMPro.TextMeshProUGUI textComponent, TMPro.MaterialReference materialReference)
+    // Offset: 0x1477B84
+    static ::TMPro::TMP_SubMeshUI* AddSubTextObject(::TMPro::TextMeshProUGUI* textComponent, ::TMPro::MaterialReference materialReference);
+    // public System.Single GetPaddingForMaterial()
+    // Offset: 0x14776FC
+    float GetPaddingForMaterial();
+    // public System.Single GetPaddingForMaterial(UnityEngine.Material mat)
+    // Offset: 0x1478420
+    float GetPaddingForMaterial(::UnityEngine::Material* mat);
+    // public System.Void UpdateMeshPadding(System.Boolean isExtraPadding, System.Boolean isUsingBold)
+    // Offset: 0x14784B8
+    void UpdateMeshPadding(bool isExtraPadding, bool isUsingBold);
+    // public System.Void SetPivotDirty()
+    // Offset: 0x1478674
+    void SetPivotDirty();
+    // public System.Void RefreshMaterial()
+    // Offset: 0x14787C4
+    void RefreshMaterial();
+    // private UnityEngine.Material GetMaterial()
+    // Offset: 0x14788F0
+    ::UnityEngine::Material* GetMaterial();
+    // private UnityEngine.Material GetMaterial(UnityEngine.Material mat)
+    // Offset: 0x1477500
+    ::UnityEngine::Material* GetMaterial(::UnityEngine::Material* mat);
+    // private UnityEngine.Material CreateMaterialInstance(UnityEngine.Material source)
+    // Offset: 0x14788F8
+    ::UnityEngine::Material* CreateMaterialInstance(::UnityEngine::Material* source);
+    // private UnityEngine.Material GetSharedMaterial()
+    // Offset: 0x14789B4
+    ::UnityEngine::Material* GetSharedMaterial();
+    // private System.Void SetSharedMaterial(UnityEngine.Material mat)
+    // Offset: 0x14777D8
+    void SetSharedMaterial(::UnityEngine::Material* mat);
+    // public override UnityEngine.Texture get_mainTexture()
+    // Offset: 0x1477430
+    // Implemented from: UnityEngine.UI.Graphic
+    // Base method: UnityEngine.Texture Graphic::get_mainTexture()
+    ::UnityEngine::Texture* get_mainTexture();
+    // public override UnityEngine.Material get_material()
+    // Offset: 0x14774F8
+    // Implemented from: UnityEngine.UI.Graphic
+    // Base method: UnityEngine.Material Graphic::get_material()
+    ::UnityEngine::Material* get_material();
+    // public override System.Void set_material(UnityEngine.Material value)
+    // Offset: 0x1477604
+    // Implemented from: UnityEngine.UI.Graphic
+    // Base method: System.Void Graphic::set_material(UnityEngine.Material value)
+    void set_material(::UnityEngine::Material* value);
+    // public override UnityEngine.Material get_materialForRendering()
+    // Offset: 0x14779A0
+    // Implemented from: UnityEngine.UI.Graphic
+    // Base method: UnityEngine.Material Graphic::get_materialForRendering()
+    ::UnityEngine::Material* get_materialForRendering();
     // protected override System.Void OnEnable()
-    // Offset: 0x1457104
+    // Offset: 0x1477F84
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0x145715C
+    // Offset: 0x1477FDC
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::OnDisable()
     void OnDisable();
     // protected override System.Void OnDestroy()
-    // Offset: 0x1457280
+    // Offset: 0x1478100
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnDestroy()
     void OnDestroy();
     // protected override System.Void OnTransformParentChanged()
-    // Offset: 0x14573F8
+    // Offset: 0x1478278
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::OnTransformParentChanged()
     void OnTransformParentChanged();
     // public override UnityEngine.Material GetModifiedMaterial(UnityEngine.Material baseMaterial)
-    // Offset: 0x145745C
+    // Offset: 0x14782DC
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: UnityEngine.Material MaskableGraphic::GetModifiedMaterial(UnityEngine.Material baseMaterial)
     ::UnityEngine::Material* GetModifiedMaterial(::UnityEngine::Material* baseMaterial);
     // public override System.Void SetAllDirty()
-    // Offset: 0x14576C4
+    // Offset: 0x1478544
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::SetAllDirty()
     void SetAllDirty();
     // public override System.Void SetVerticesDirty()
-    // Offset: 0x14576C8
+    // Offset: 0x1478548
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::SetVerticesDirty()
     void SetVerticesDirty();
     // public override System.Void SetLayoutDirty()
-    // Offset: 0x14577A4
+    // Offset: 0x1478624
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::SetLayoutDirty()
     void SetLayoutDirty();
     // public override System.Void SetMaterialDirty()
-    // Offset: 0x14577A8
+    // Offset: 0x1478628
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::SetMaterialDirty()
     void SetMaterialDirty();
     // public override System.Void Cull(UnityEngine.Rect clipRect, System.Boolean validRect)
-    // Offset: 0x1457868
+    // Offset: 0x14786E8
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::Cull(UnityEngine.Rect clipRect, System.Boolean validRect)
     void Cull(::UnityEngine::Rect clipRect, bool validRect);
     // protected override System.Void UpdateGeometry()
-    // Offset: 0x1457894
+    // Offset: 0x1478714
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::UpdateGeometry()
     void UpdateGeometry();
     // public override System.Void Rebuild(UnityEngine.UI.CanvasUpdate update)
-    // Offset: 0x1457900
+    // Offset: 0x1478780
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::Rebuild(UnityEngine.UI.CanvasUpdate update)
     void Rebuild(::UnityEngine::UI::CanvasUpdate update);
     // protected override System.Void UpdateMaterial()
-    // Offset: 0x1457954
+    // Offset: 0x14787D4
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::UpdateMaterial()
     void UpdateMaterial();
     // public override System.Void RecalculateClipping()
-    // Offset: 0x1457A50
+    // Offset: 0x14788D0
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::RecalculateClipping()
     void RecalculateClipping();
     // public override System.Void RecalculateMasking()
-    // Offset: 0x1457A58
+    // Offset: 0x14788D8
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::RecalculateMasking()
     void RecalculateMasking();
@@ -508,6 +489,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "set_padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_canvasRenderer
+// Il2CppName: get_canvasRenderer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::CanvasRenderer* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_canvasRenderer)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_canvasRenderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_mesh
 // Il2CppName: get_mesh
 template<>
@@ -525,6 +514,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "set_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::AddSubTextObject
 // Il2CppName: AddSubTextObject
 template<>
@@ -654,18 +647,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_materialForRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_canvasRenderer
-// Il2CppName: get_canvasRenderer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::CanvasRenderer* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_canvasRenderer)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_canvasRenderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::OnEnable
 // Il2CppName: OnEnable
 template<>

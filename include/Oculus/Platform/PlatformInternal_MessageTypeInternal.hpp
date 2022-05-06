@@ -435,7 +435,7 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.PlatformInternal/Oculus.Platform.MessageTypeInternal User_TestUserCreateDeviceManifest
     static void _set_User_TestUserCreateDeviceManifest(::Oculus::Platform::PlatformInternal::MessageTypeInternal value);
     // Get instance field reference: public System.UInt32 value__
-    uint& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint& dyn_value__();
   }; // Oculus.Platform.PlatformInternal/Oculus.Platform.MessageTypeInternal
   #pragma pack(pop)
   static check_size<sizeof(PlatformInternal::MessageTypeInternal), 0 + sizeof(uint)> __Oculus_Platform_PlatformInternal_MessageTypeInternalSizeCheck;

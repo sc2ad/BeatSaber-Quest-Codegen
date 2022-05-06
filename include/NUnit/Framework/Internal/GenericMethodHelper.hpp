@@ -39,37 +39,29 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class GenericMethodHelper : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [DebuggerBrowsableAttribute] Offset: 0x1244A00
+    // [DebuggerBrowsableAttribute] Offset: 0x10C94E8
     // private System.Reflection.MethodInfo <Method>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::System::Reflection::MethodInfo* Method;
     // Field size check
     static_assert(sizeof(::System::Reflection::MethodInfo*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1244A3C
+    // [DebuggerBrowsableAttribute] Offset: 0x10C9524
     // private System.Type[] <TypeParms>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<::System::Type*> TypeParms;
     // Field size check
     static_assert(sizeof(::ArrayW<::System::Type*>) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1244A78
+    // [DebuggerBrowsableAttribute] Offset: 0x10C9560
     // private System.Type[] <TypeArgs>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     ::ArrayW<::System::Type*> TypeArgs;
     // Field size check
     static_assert(sizeof(::ArrayW<::System::Type*>) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1244AB4
+    // [DebuggerBrowsableAttribute] Offset: 0x10C959C
     // private System.Type[] <ParmTypes>k__BackingField
     // Size: 0x8
     // Offset: 0x28
@@ -78,55 +70,55 @@ namespace NUnit::Framework::Internal {
     static_assert(sizeof(::ArrayW<::System::Type*>) == 0x8);
     public:
     // Get instance field reference: private System.Reflection.MethodInfo <Method>k__BackingField
-    ::System::Reflection::MethodInfo*& dyn_$Method$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Reflection::MethodInfo*& dyn_$Method$k__BackingField();
     // Get instance field reference: private System.Type[] <TypeParms>k__BackingField
-    ::ArrayW<::System::Type*>& dyn_$TypeParms$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Type*>& dyn_$TypeParms$k__BackingField();
     // Get instance field reference: private System.Type[] <TypeArgs>k__BackingField
-    ::ArrayW<::System::Type*>& dyn_$TypeArgs$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Type*>& dyn_$TypeArgs$k__BackingField();
     // Get instance field reference: private System.Type[] <ParmTypes>k__BackingField
-    ::ArrayW<::System::Type*>& dyn_$ParmTypes$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Type*>& dyn_$ParmTypes$k__BackingField();
     // private System.Reflection.MethodInfo get_Method()
-    // Offset: 0x1C52FA0
+    // Offset: 0x1CAB3F8
     ::System::Reflection::MethodInfo* get_Method();
     // private System.Void set_Method(System.Reflection.MethodInfo value)
-    // Offset: 0x1C52FA8
+    // Offset: 0x1CAB400
     void set_Method(::System::Reflection::MethodInfo* value);
     // private System.Type[] get_TypeParms()
-    // Offset: 0x1C52FB0
+    // Offset: 0x1CAB408
     ::ArrayW<::System::Type*> get_TypeParms();
     // private System.Void set_TypeParms(System.Type[] value)
-    // Offset: 0x1C52FB8
+    // Offset: 0x1CAB410
     void set_TypeParms(::ArrayW<::System::Type*> value);
     // private System.Type[] get_TypeArgs()
-    // Offset: 0x1C52FC0
+    // Offset: 0x1CAB418
     ::ArrayW<::System::Type*> get_TypeArgs();
     // private System.Void set_TypeArgs(System.Type[] value)
-    // Offset: 0x1C52FC8
+    // Offset: 0x1CAB420
     void set_TypeArgs(::ArrayW<::System::Type*> value);
     // private System.Type[] get_ParmTypes()
-    // Offset: 0x1C52FD0
+    // Offset: 0x1CAB428
     ::ArrayW<::System::Type*> get_ParmTypes();
     // private System.Void set_ParmTypes(System.Type[] value)
-    // Offset: 0x1C52FD8
+    // Offset: 0x1CAB430
     void set_ParmTypes(::ArrayW<::System::Type*> value);
     // public System.Void .ctor(System.Reflection.MethodInfo method)
-    // Offset: 0x1C4ADD4
+    // Offset: 0x1CA336C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericMethodHelper* New_ctor(::System::Reflection::MethodInfo* method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::GenericMethodHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericMethodHelper*, creationType>(method)));
     }
     // public System.Type[] GetTypeArguments(System.Object[] argList)
-    // Offset: 0x1C4AF78
+    // Offset: 0x1CA3510
     ::ArrayW<::System::Type*> GetTypeArguments(::ArrayW<::Il2CppObject*> argList);
     // private System.Void TryApplyArgType(System.Type parmType, System.Type argType)
-    // Offset: 0x1C52FE0
+    // Offset: 0x1CAB438
     void TryApplyArgType(::System::Type* parmType, ::System::Type* argType);
     // private System.Void ApplyArgType(System.Type parmType, System.Type argType)
-    // Offset: 0x1C53180
+    // Offset: 0x1CAB5D8
     void ApplyArgType(::System::Type* parmType, ::System::Type* argType);
     // private System.Boolean IsAssignableToGenericType(System.Type givenType, System.Type genericType)
-    // Offset: 0x1C53288
+    // Offset: 0x1CAB6E0
     bool IsAssignableToGenericType(::System::Type* givenType, ::System::Type* genericType);
   }; // NUnit.Framework.Internal.GenericMethodHelper
   #pragma pack(pop)

@@ -30,18 +30,16 @@ namespace System::Xml {
   class Ucs4Decoder4321 : public ::System::Xml::Ucs4Decoder {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1B6DF80
+    // Offset: 0x1BA8568
     // Implemented from: System.Xml.Ucs4Decoder
     // Base method: System.Void Ucs4Decoder::.ctor()
-    // Base method: System.Void Decoder::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ucs4Decoder4321* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Ucs4Decoder4321::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Ucs4Decoder4321*, creationType>()));
     }
     // override System.Int32 GetFullChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex)
-    // Offset: 0x1B6DD3C
+    // Offset: 0x1BA8324
     // Implemented from: System.Xml.Ucs4Decoder
     // Base method: System.Int32 Ucs4Decoder::GetFullChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex)
     int GetFullChars(::ArrayW<uint8_t> bytes, int byteIndex, int byteCount, ::ArrayW<::Il2CppChar> chars, int charIndex);

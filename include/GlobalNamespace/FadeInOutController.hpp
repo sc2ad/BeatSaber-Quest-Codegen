@@ -52,15 +52,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::FadeInOutController::$Fade$d__15
     class $Fade$d__15;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private FloatSO _easeValue
     // Size: 0x8
     // Offset: 0x18
@@ -101,66 +93,64 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FloatSO _easeValue
-    ::GlobalNamespace::FloatSO*& dyn__easeValue();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FloatSO*& dyn__easeValue();
     // Get instance field reference: private UnityEngine.AnimationCurve _fadeInCurve
-    ::UnityEngine::AnimationCurve*& dyn__fadeInCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__fadeInCurve();
     // Get instance field reference: private UnityEngine.AnimationCurve _fadeOutCurve
-    ::UnityEngine::AnimationCurve*& dyn__fadeOutCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__fadeOutCurve();
     // Get instance field reference: private System.Single _fadeInStartDelay
-    float& dyn__fadeInStartDelay();
+    [[deprecated("Use field access instead!")]] float& dyn__fadeInStartDelay();
     // Get instance field reference: private System.Single _defaultFadeOutDuration
-    float& dyn__defaultFadeOutDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__defaultFadeOutDuration();
     // Get instance field reference: private System.Single _defaultFadeInDuration
-    float& dyn__defaultFadeInDuration();
-    // public System.Void FadeOutInstant()
-    // Offset: 0x156BC40
-    void FadeOutInstant();
-    // public System.Void FadeIn()
-    // Offset: 0x156BD14
-    void FadeIn();
-    // public System.Void FadeOut()
-    // Offset: 0x156BDF0
-    void FadeOut();
-    // public System.Void FadeIn(System.Single duration)
-    // Offset: 0x156BDFC
-    void FadeIn(float duration);
-    // public System.Void FadeOut(System.Single duration)
-    // Offset: 0x156BE04
-    void FadeOut(float duration);
-    // public System.Void FadeIn(System.Action fadeInCallback)
-    // Offset: 0x156BE0C
-    void FadeIn(::System::Action* fadeInCallback);
-    // public System.Void FadeOut(System.Action fadeOutCallback)
-    // Offset: 0x156BE14
-    void FadeOut(::System::Action* fadeOutCallback);
-    // public System.Void FadeIn(System.Single duration, System.Action fadeInFinishedCallback)
-    // Offset: 0x156BD20
-    void FadeIn(float duration, ::System::Action* fadeInFinishedCallback);
-    // public System.Void FadeOut(System.Single duration, System.Action fadeOutFinishedCallback)
-    // Offset: 0x156BC4C
-    void FadeOut(float duration, ::System::Action* fadeOutFinishedCallback);
-    // private System.Collections.IEnumerator Fade(System.Single fromValue, System.Single toValue, System.Single duration, System.Single startDelay, UnityEngine.AnimationCurve curve, System.Action fadeFinishedCallback)
-    // Offset: 0x156BE1C
-    ::System::Collections::IEnumerator* Fade(float fromValue, float toValue, float duration, float startDelay, ::UnityEngine::AnimationCurve* curve, ::System::Action* fadeFinishedCallback);
+    [[deprecated("Use field access instead!")]] float& dyn__defaultFadeInDuration();
     // public System.Void .ctor()
-    // Offset: 0x156BEFC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15A2804
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FadeInOutController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FadeInOutController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FadeInOutController*, creationType>()));
     }
+    // public System.Void FadeOutInstant()
+    // Offset: 0x15A2548
+    void FadeOutInstant();
+    // public System.Void FadeIn()
+    // Offset: 0x15A261C
+    void FadeIn();
+    // public System.Void FadeOut()
+    // Offset: 0x15A26F8
+    void FadeOut();
+    // public System.Void FadeIn(System.Single duration)
+    // Offset: 0x15A2704
+    void FadeIn(float duration);
+    // public System.Void FadeOut(System.Single duration)
+    // Offset: 0x15A270C
+    void FadeOut(float duration);
+    // public System.Void FadeIn(System.Action fadeInCallback)
+    // Offset: 0x15A2714
+    void FadeIn(::System::Action* fadeInCallback);
+    // public System.Void FadeOut(System.Action fadeOutCallback)
+    // Offset: 0x15A271C
+    void FadeOut(::System::Action* fadeOutCallback);
+    // public System.Void FadeIn(System.Single duration, System.Action fadeInFinishedCallback)
+    // Offset: 0x15A2628
+    void FadeIn(float duration, ::System::Action* fadeInFinishedCallback);
+    // public System.Void FadeOut(System.Single duration, System.Action fadeOutFinishedCallback)
+    // Offset: 0x15A2554
+    void FadeOut(float duration, ::System::Action* fadeOutFinishedCallback);
+    // private System.Collections.IEnumerator Fade(System.Single fromValue, System.Single toValue, System.Single duration, System.Single startDelay, UnityEngine.AnimationCurve curve, System.Action fadeFinishedCallback)
+    // Offset: 0x15A2724
+    ::System::Collections::IEnumerator* Fade(float fromValue, float toValue, float duration, float startDelay, ::UnityEngine::AnimationCurve* curve, ::System::Action* fadeFinishedCallback);
   }; // FadeInOutController
   #pragma pack(pop)
   static check_size<sizeof(FadeInOutController), 56 + sizeof(float)> __GlobalNamespace_FadeInOutControllerSizeCheck;
   static_assert(sizeof(FadeInOutController) == 0x3C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::FadeInOutController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FadeInOutController::FadeOutInstant
 // Il2CppName: FadeOutInstant
 template<>
@@ -255,7 +245,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FadeInOutController*), "Fade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fromValue, toValue, duration, startDelay, curve, fadeFinishedCallback});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FadeInOutController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

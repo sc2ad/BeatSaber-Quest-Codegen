@@ -50,11 +50,11 @@ namespace TMPro {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 startIndex
-    int& dyn_startIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_startIndex();
     // Get instance field reference: public System.Int32 length
-    int& dyn_length();
+    [[deprecated("Use field access instead!")]] int& dyn_length();
     // Get instance field reference: public System.Int32 hashCode
-    int& dyn_hashCode();
+    [[deprecated("Use field access instead!")]] int& dyn_hashCode();
   }; // TMPro.TagAttribute
   #pragma pack(pop)
   static check_size<sizeof(TagAttribute), 8 + sizeof(int)> __TMPro_TagAttributeSizeCheck;

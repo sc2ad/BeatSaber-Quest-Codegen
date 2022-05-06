@@ -31,15 +31,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRIK::References : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Transform root
     // Size: 0x8
     // Offset: 0x10
@@ -58,14 +50,14 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Transform* spine;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1276334
+    // [TooltipAttribute] Offset: 0x10FAFEC
     // public UnityEngine.Transform chest
     // Size: 0x8
     // Offset: 0x28
     ::UnityEngine::Transform* chest;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x127636C
+    // [TooltipAttribute] Offset: 0x10FB024
     // public UnityEngine.Transform neck
     // Size: 0x8
     // Offset: 0x30
@@ -78,7 +70,7 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Transform* head;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x12763A4
+    // [TooltipAttribute] Offset: 0x10FB05C
     // public UnityEngine.Transform leftShoulder
     // Size: 0x8
     // Offset: 0x40
@@ -103,7 +95,7 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Transform* leftHand;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x12763DC
+    // [TooltipAttribute] Offset: 0x10FB094
     // public UnityEngine.Transform rightShoulder
     // Size: 0x8
     // Offset: 0x60
@@ -128,56 +120,56 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Transform* rightHand;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1276414
+    // [TooltipAttribute] Offset: 0x10FB0CC
     // public UnityEngine.Transform leftThigh
     // Size: 0x8
     // Offset: 0x80
     ::UnityEngine::Transform* leftThigh;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x127644C
+    // [TooltipAttribute] Offset: 0x10FB104
     // public UnityEngine.Transform leftCalf
     // Size: 0x8
     // Offset: 0x88
     ::UnityEngine::Transform* leftCalf;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1276484
+    // [TooltipAttribute] Offset: 0x10FB13C
     // public UnityEngine.Transform leftFoot
     // Size: 0x8
     // Offset: 0x90
     ::UnityEngine::Transform* leftFoot;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x12764BC
+    // [TooltipAttribute] Offset: 0x10FB174
     // public UnityEngine.Transform leftToes
     // Size: 0x8
     // Offset: 0x98
     ::UnityEngine::Transform* leftToes;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x12764F4
+    // [TooltipAttribute] Offset: 0x10FB1AC
     // public UnityEngine.Transform rightThigh
     // Size: 0x8
     // Offset: 0xA0
     ::UnityEngine::Transform* rightThigh;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x127652C
+    // [TooltipAttribute] Offset: 0x10FB1E4
     // public UnityEngine.Transform rightCalf
     // Size: 0x8
     // Offset: 0xA8
     ::UnityEngine::Transform* rightCalf;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1276564
+    // [TooltipAttribute] Offset: 0x10FB21C
     // public UnityEngine.Transform rightFoot
     // Size: 0x8
     // Offset: 0xB0
     ::UnityEngine::Transform* rightFoot;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x127659C
+    // [TooltipAttribute] Offset: 0x10FB254
     // public UnityEngine.Transform rightToes
     // Size: 0x8
     // Offset: 0xB8
@@ -186,70 +178,68 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.Transform root
-    ::UnityEngine::Transform*& dyn_root();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_root();
     // Get instance field reference: public UnityEngine.Transform pelvis
-    ::UnityEngine::Transform*& dyn_pelvis();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_pelvis();
     // Get instance field reference: public UnityEngine.Transform spine
-    ::UnityEngine::Transform*& dyn_spine();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_spine();
     // Get instance field reference: public UnityEngine.Transform chest
-    ::UnityEngine::Transform*& dyn_chest();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_chest();
     // Get instance field reference: public UnityEngine.Transform neck
-    ::UnityEngine::Transform*& dyn_neck();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_neck();
     // Get instance field reference: public UnityEngine.Transform head
-    ::UnityEngine::Transform*& dyn_head();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_head();
     // Get instance field reference: public UnityEngine.Transform leftShoulder
-    ::UnityEngine::Transform*& dyn_leftShoulder();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_leftShoulder();
     // Get instance field reference: public UnityEngine.Transform leftUpperArm
-    ::UnityEngine::Transform*& dyn_leftUpperArm();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_leftUpperArm();
     // Get instance field reference: public UnityEngine.Transform leftForearm
-    ::UnityEngine::Transform*& dyn_leftForearm();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_leftForearm();
     // Get instance field reference: public UnityEngine.Transform leftHand
-    ::UnityEngine::Transform*& dyn_leftHand();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_leftHand();
     // Get instance field reference: public UnityEngine.Transform rightShoulder
-    ::UnityEngine::Transform*& dyn_rightShoulder();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_rightShoulder();
     // Get instance field reference: public UnityEngine.Transform rightUpperArm
-    ::UnityEngine::Transform*& dyn_rightUpperArm();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_rightUpperArm();
     // Get instance field reference: public UnityEngine.Transform rightForearm
-    ::UnityEngine::Transform*& dyn_rightForearm();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_rightForearm();
     // Get instance field reference: public UnityEngine.Transform rightHand
-    ::UnityEngine::Transform*& dyn_rightHand();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_rightHand();
     // Get instance field reference: public UnityEngine.Transform leftThigh
-    ::UnityEngine::Transform*& dyn_leftThigh();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_leftThigh();
     // Get instance field reference: public UnityEngine.Transform leftCalf
-    ::UnityEngine::Transform*& dyn_leftCalf();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_leftCalf();
     // Get instance field reference: public UnityEngine.Transform leftFoot
-    ::UnityEngine::Transform*& dyn_leftFoot();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_leftFoot();
     // Get instance field reference: public UnityEngine.Transform leftToes
-    ::UnityEngine::Transform*& dyn_leftToes();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_leftToes();
     // Get instance field reference: public UnityEngine.Transform rightThigh
-    ::UnityEngine::Transform*& dyn_rightThigh();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_rightThigh();
     // Get instance field reference: public UnityEngine.Transform rightCalf
-    ::UnityEngine::Transform*& dyn_rightCalf();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_rightCalf();
     // Get instance field reference: public UnityEngine.Transform rightFoot
-    ::UnityEngine::Transform*& dyn_rightFoot();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_rightFoot();
     // Get instance field reference: public UnityEngine.Transform rightToes
-    ::UnityEngine::Transform*& dyn_rightToes();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_rightToes();
     // public System.Boolean get_isFilled()
-    // Offset: 0x1F799BC
+    // Offset: 0x1FC6230
     bool get_isFilled();
     // public System.Boolean get_isEmpty()
-    // Offset: 0x1F79540
+    // Offset: 0x1FC5DB4
     bool get_isEmpty();
-    // public UnityEngine.Transform[] GetTransforms()
-    // Offset: 0x1F7A040
-    ::ArrayW<::UnityEngine::Transform*> GetTransforms();
-    // static public System.Boolean AutoDetectReferences(UnityEngine.Transform root, out RootMotion.FinalIK.VRIK/RootMotion.FinalIK.References references)
-    // Offset: 0x1F7912C
-    static bool AutoDetectReferences(::UnityEngine::Transform* root, ByRef<::RootMotion::FinalIK::VRIK::References*> references);
     // public System.Void .ctor()
-    // Offset: 0x1F7A038
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FC68AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRIK::References* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::VRIK::References::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRIK::References*, creationType>()));
     }
+    // public UnityEngine.Transform[] GetTransforms()
+    // Offset: 0x1FC68B4
+    ::ArrayW<::UnityEngine::Transform*> GetTransforms();
+    // static public System.Boolean AutoDetectReferences(UnityEngine.Transform root, out RootMotion.FinalIK.VRIK/RootMotion.FinalIK.References references)
+    // Offset: 0x1FC59A0
+    static bool AutoDetectReferences(::UnityEngine::Transform* root, ByRef<::RootMotion::FinalIK::VRIK::References*> references);
   }; // RootMotion.FinalIK.VRIK/RootMotion.FinalIK.References
   #pragma pack(pop)
   static check_size<sizeof(VRIK::References), 184 + sizeof(::UnityEngine::Transform*)> __RootMotion_FinalIK_VRIK_ReferencesSizeCheck;
@@ -272,6 +262,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIK::References*), "get_isEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: RootMotion::FinalIK::VRIK::References::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::VRIK::References::GetTransforms
 // Il2CppName: GetTransforms
 template<>
@@ -290,7 +284,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIK::References*), "AutoDetectReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{root, references});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::VRIK::References::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

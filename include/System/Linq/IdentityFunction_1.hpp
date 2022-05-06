@@ -80,21 +80,19 @@ namespace System::Linq {
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename IdentityFunction_1<TElement>::$$c*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
+      // public System.Void .ctor()
+      // Offset: 0xFFFFFFFFFFFFFFFF
+      template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+      static typename IdentityFunction_1<TElement>::$$c* New_ctor() {
+        static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::IdentityFunction_1::$$c::.ctor");
+        return THROW_UNLESS((::il2cpp_utils::New<typename IdentityFunction_1<TElement>::$$c*, creationType>()));
+      }
       // TElement <get_Instance>b__1_0(TElement x)
       // Offset: 0xFFFFFFFFFFFFFFFF
       TElement $get_Instance$b__1_0(TElement x) {
         static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::IdentityFunction_1::$$c::<get_Instance>b__1_0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<get_Instance>b__1_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
         return ::il2cpp_utils::RunMethodRethrow<TElement, false>(this, ___internal__method, x);
-      }
-      // public System.Void .ctor()
-      // Offset: 0xFFFFFFFFFFFFFFFF
-      // Implemented from: System.Object
-      // Base method: System.Void Object::.ctor()
-      template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-      static typename IdentityFunction_1<TElement>::$$c* New_ctor() {
-        static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::IdentityFunction_1::$$c::.ctor");
-        return THROW_UNLESS((::il2cpp_utils::New<typename IdentityFunction_1<TElement>::$$c*, creationType>()));
       }
     }; // System.Linq.IdentityFunction`1/System.Linq.<>c
     // Could not write size check! Type: System.Linq.IdentityFunction`1/System.Linq.<>c is generic, or has no fields that are valid for size checks!

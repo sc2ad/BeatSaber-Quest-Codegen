@@ -52,9 +52,9 @@ namespace Mono {
       return value;
     }
     // Get instance field reference: private Mono.RuntimeStructs/Mono.RemoteClass* value
-    ::Mono::RuntimeStructs::RemoteClass*& dyn_value();
+    [[deprecated("Use field access instead!")]] ::Mono::RuntimeStructs::RemoteClass*& dyn_value();
     // Mono.RuntimeClassHandle get_ProxyClass()
-    // Offset: 0x1F06250
+    // Offset: 0x1F53788
     ::Mono::RuntimeClassHandle get_ProxyClass();
   }; // Mono.RuntimeRemoteClassHandle
   #pragma pack(pop)

@@ -37,15 +37,7 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509ChainElement : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Security.Cryptography.X509Certificates.X509Certificate2 certificate
     // Size: 0x8
     // Offset: 0x10
@@ -72,40 +64,40 @@ namespace System::Security::Cryptography::X509Certificates {
     static_assert(sizeof(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags) == 0x4);
     public:
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate2 certificate
-    ::System::Security::Cryptography::X509Certificates::X509Certificate2*& dyn_certificate();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509Certificate2*& dyn_certificate();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509ChainStatus[] status
-    ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus>& dyn_status();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus>& dyn_status();
     // Get instance field reference: private System.String info
-    ::StringW& dyn_info();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_info();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509ChainStatusFlags compressed_status_flags
-    ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags& dyn_compressed_status_flags();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags& dyn_compressed_status_flags();
     // public System.Security.Cryptography.X509Certificates.X509Certificate2 get_Certificate()
-    // Offset: 0x1BBB824
+    // Offset: 0x1BF5E0C
     ::System::Security::Cryptography::X509Certificates::X509Certificate2* get_Certificate();
     // public System.Security.Cryptography.X509Certificates.X509ChainStatus[] get_ChainElementStatus()
-    // Offset: 0x1BBB82C
+    // Offset: 0x1BF5E14
     ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus> get_ChainElementStatus();
     // System.Security.Cryptography.X509Certificates.X509ChainStatusFlags get_StatusFlags()
-    // Offset: 0x1BBB834
+    // Offset: 0x1BF5E1C
     ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags get_StatusFlags();
     // System.Void set_StatusFlags(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags value)
-    // Offset: 0x1BBB83C
+    // Offset: 0x1BF5E24
     void set_StatusFlags(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value);
     // System.Void .ctor(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x1BBB7B0
+    // Offset: 0x1BF5D98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ChainElement* New_ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509ChainElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ChainElement*, creationType>(certificate)));
     }
     // private System.Int32 Count(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flags)
-    // Offset: 0x1BBB844
+    // Offset: 0x1BF5E2C
     int Count(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags);
     // private System.Void Set(System.Security.Cryptography.X509Certificates.X509ChainStatus[] status, ref System.Int32 position, System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flags, System.Security.Cryptography.X509Certificates.X509ChainStatusFlags mask)
-    // Offset: 0x1BBB868
+    // Offset: 0x1BF5E50
     void Set(::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus> status, ByRef<int> position, ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags, ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags mask);
     // System.Void UncompressFlags()
-    // Offset: 0x1BBBAA8
+    // Offset: 0x1BF6090
     void UncompressFlags();
   }; // System.Security.Cryptography.X509Certificates.X509ChainElement
   #pragma pack(pop)

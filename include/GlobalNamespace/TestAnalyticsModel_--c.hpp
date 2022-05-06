@@ -44,20 +44,18 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.String>,System.String> <>9__3_0
     static void _set_$$9__3_0(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x133A174
+    // Offset: 0x141C0A4
     static void _cctor();
-    // System.String <LogEvent>b__3_0(System.Collections.Generic.KeyValuePair`2<System.String,System.String> kvp)
-    // Offset: 0x133A1E0
-    ::StringW $LogEvent$b__3_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> kvp);
     // public System.Void .ctor()
-    // Offset: 0x133A1D8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x141C108
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestAnalyticsModel::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TestAnalyticsModel::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestAnalyticsModel::$$c*, creationType>()));
     }
+    // System.String <LogEvent>b__3_0(System.Collections.Generic.KeyValuePair`2<System.String,System.String> kvp)
+    // Offset: 0x141C110
+    ::StringW $LogEvent$b__3_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> kvp);
   }; // TestAnalyticsModel/<>c
   #pragma pack(pop)
 }
@@ -70,6 +68,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestAnalyticsModel::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::TestAnalyticsModel::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TestAnalyticsModel::$$c::$LogEvent$b__3_0
 // Il2CppName: <LogEvent>b__3_0
 template<>
@@ -79,7 +81,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestAnalyticsModel::$$c*), "<LogEvent>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{kvp});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TestAnalyticsModel::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

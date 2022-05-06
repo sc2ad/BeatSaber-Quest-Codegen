@@ -42,15 +42,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class BeatmapDataSO::$$c__DisplayClass2_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public IReadonlyBeatmapData readonlyBeatmapData
     // Size: 0x8
     // Offset: 0x10
@@ -97,37 +89,39 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::PlayerSpecificSettings*) == 0x8);
     public:
     // Get instance field reference: public IReadonlyBeatmapData readonlyBeatmapData
-    ::GlobalNamespace::IReadonlyBeatmapData*& dyn_readonlyBeatmapData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IReadonlyBeatmapData*& dyn_readonlyBeatmapData();
     // Get instance field reference: public BeatmapSaveDataVersion3.BeatmapSaveData beatmapSaveData
-    ::BeatmapSaveDataVersion3::BeatmapSaveData*& dyn_beatmapSaveData();
+    [[deprecated("Use field access instead!")]] ::BeatmapSaveDataVersion3::BeatmapSaveData*& dyn_beatmapSaveData();
     // Get instance field reference: public BeatmapDifficulty beatmapDifficulty
-    ::GlobalNamespace::BeatmapDifficulty& dyn_beatmapDifficulty();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficulty& dyn_beatmapDifficulty();
     // Get instance field reference: public System.Single beatsPerMinute
-    float& dyn_beatsPerMinute();
+    [[deprecated("Use field access instead!")]] float& dyn_beatsPerMinute();
     // Get instance field reference: public System.Boolean loadingForDesignatedEnvironment
-    bool& dyn_loadingForDesignatedEnvironment();
+    [[deprecated("Use field access instead!")]] bool& dyn_loadingForDesignatedEnvironment();
     // Get instance field reference: public EnvironmentInfoSO environmentInfo
-    ::GlobalNamespace::EnvironmentInfoSO*& dyn_environmentInfo();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentInfoSO*& dyn_environmentInfo();
     // Get instance field reference: public PlayerSpecificSettings playerSpecificSettings
-    ::GlobalNamespace::PlayerSpecificSettings*& dyn_playerSpecificSettings();
-    // System.Void <GetBeatmapDataAsync>b__0()
-    // Offset: 0x136D344
-    void $GetBeatmapDataAsync$b__0();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSpecificSettings*& dyn_playerSpecificSettings();
     // public System.Void .ctor()
-    // Offset: 0x136D33C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13555C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataSO::$$c__DisplayClass2_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataSO::$$c__DisplayClass2_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataSO::$$c__DisplayClass2_0*, creationType>()));
     }
+    // System.Void <GetBeatmapDataAsync>b__0()
+    // Offset: 0x13555D0
+    void $GetBeatmapDataAsync$b__0();
   }; // BeatmapDataSO/<>c__DisplayClass2_0
   #pragma pack(pop)
   static check_size<sizeof(BeatmapDataSO::$$c__DisplayClass2_0), 56 + sizeof(::GlobalNamespace::PlayerSpecificSettings*)> __GlobalNamespace_BeatmapDataSO_$$c__DisplayClass2_0SizeCheck;
   static_assert(sizeof(BeatmapDataSO::$$c__DisplayClass2_0) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataSO::$$c__DisplayClass2_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataSO::$$c__DisplayClass2_0::$GetBeatmapDataAsync$b__0
 // Il2CppName: <GetBeatmapDataAsync>b__0
 template<>
@@ -136,7 +130,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataSO::$$c__DisplayClass2_0*), "<GetBeatmapDataAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataSO::$$c__DisplayClass2_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -95,49 +95,41 @@ namespace RootMotion::FinalIK {
       // Set static field: static public RootMotion.FinalIK.FBIKChain/RootMotion.FinalIK.Smoothing Cubic
       static void _set_Cubic(::RootMotion::FinalIK::FBIKChain::Smoothing value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // RootMotion.FinalIK.FBIKChain/RootMotion.FinalIK.Smoothing
     #pragma pack(pop)
     static check_size<sizeof(FBIKChain::Smoothing), 0 + sizeof(int)> __RootMotion_FinalIK_FBIKChain_SmoothingSizeCheck;
     static_assert(sizeof(FBIKChain::Smoothing) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [RangeAttribute] Offset: 0x1274330
+    // [RangeAttribute] Offset: 0x10F8FE8
     // public System.Single pin
     // Size: 0x4
     // Offset: 0x10
     float pin;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x1274348
+    // [RangeAttribute] Offset: 0x10F9000
     // public System.Single pull
     // Size: 0x4
     // Offset: 0x14
     float pull;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x1274360
+    // [RangeAttribute] Offset: 0x10F9018
     // public System.Single push
     // Size: 0x4
     // Offset: 0x18
     float push;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x1274378
+    // [RangeAttribute] Offset: 0x10F9030
     // public System.Single pushParent
     // Size: 0x4
     // Offset: 0x1C
     float pushParent;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x1274390
+    // [RangeAttribute] Offset: 0x10F9048
     // public System.Single reach
     // Size: 0x4
     // Offset: 0x20
@@ -258,119 +250,117 @@ namespace RootMotion::FinalIK {
     // Set static field: static private System.Single maxLimbLength
     static void _set_maxLimbLength(float value);
     // Get instance field reference: public System.Single pin
-    float& dyn_pin();
+    [[deprecated("Use field access instead!")]] float& dyn_pin();
     // Get instance field reference: public System.Single pull
-    float& dyn_pull();
+    [[deprecated("Use field access instead!")]] float& dyn_pull();
     // Get instance field reference: public System.Single push
-    float& dyn_push();
+    [[deprecated("Use field access instead!")]] float& dyn_push();
     // Get instance field reference: public System.Single pushParent
-    float& dyn_pushParent();
+    [[deprecated("Use field access instead!")]] float& dyn_pushParent();
     // Get instance field reference: public System.Single reach
-    float& dyn_reach();
+    [[deprecated("Use field access instead!")]] float& dyn_reach();
     // Get instance field reference: public RootMotion.FinalIK.FBIKChain/RootMotion.FinalIK.Smoothing reachSmoothing
-    ::RootMotion::FinalIK::FBIKChain::Smoothing& dyn_reachSmoothing();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::FBIKChain::Smoothing& dyn_reachSmoothing();
     // Get instance field reference: public RootMotion.FinalIK.FBIKChain/RootMotion.FinalIK.Smoothing pushSmoothing
-    ::RootMotion::FinalIK::FBIKChain::Smoothing& dyn_pushSmoothing();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::FBIKChain::Smoothing& dyn_pushSmoothing();
     // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Node[] nodes
-    ::ArrayW<::RootMotion::FinalIK::IKSolver::Node*>& dyn_nodes();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::IKSolver::Node*>& dyn_nodes();
     // Get instance field reference: public System.Int32[] children
-    ::ArrayW<int>& dyn_children();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_children();
     // Get instance field reference: public RootMotion.FinalIK.FBIKChain/RootMotion.FinalIK.ChildConstraint[] childConstraints
-    ::ArrayW<::RootMotion::FinalIK::FBIKChain::ChildConstraint*>& dyn_childConstraints();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::FBIKChain::ChildConstraint*>& dyn_childConstraints();
     // Get instance field reference: public RootMotion.FinalIK.IKConstraintBend bendConstraint
-    ::RootMotion::FinalIK::IKConstraintBend*& dyn_bendConstraint();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKConstraintBend*& dyn_bendConstraint();
     // Get instance field reference: private System.Single rootLength
-    float& dyn_rootLength();
+    [[deprecated("Use field access instead!")]] float& dyn_rootLength();
     // Get instance field reference: private System.Boolean initiated
-    bool& dyn_initiated();
+    [[deprecated("Use field access instead!")]] bool& dyn_initiated();
     // Get instance field reference: private System.Single length
-    float& dyn_length();
+    [[deprecated("Use field access instead!")]] float& dyn_length();
     // Get instance field reference: private System.Single distance
-    float& dyn_distance();
+    [[deprecated("Use field access instead!")]] float& dyn_distance();
     // Get instance field reference: private RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point p
-    ::RootMotion::FinalIK::IKSolver::Point*& dyn_p();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKSolver::Point*& dyn_p();
     // Get instance field reference: private System.Single reachForce
-    float& dyn_reachForce();
+    [[deprecated("Use field access instead!")]] float& dyn_reachForce();
     // Get instance field reference: private System.Single pullParentSum
-    float& dyn_pullParentSum();
+    [[deprecated("Use field access instead!")]] float& dyn_pullParentSum();
     // Get instance field reference: private System.Single[] crossFades
-    ::ArrayW<float>& dyn_crossFades();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn_crossFades();
     // Get instance field reference: private System.Single sqrMag1
-    float& dyn_sqrMag1();
+    [[deprecated("Use field access instead!")]] float& dyn_sqrMag1();
     // Get instance field reference: private System.Single sqrMag2
-    float& dyn_sqrMag2();
+    [[deprecated("Use field access instead!")]] float& dyn_sqrMag2();
     // Get instance field reference: private System.Single sqrMagDif
-    float& dyn_sqrMagDif();
+    [[deprecated("Use field access instead!")]] float& dyn_sqrMagDif();
+    // public System.Void .ctor()
+    // Offset: 0x22572CC
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static FBIKChain* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::FBIKChain::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<FBIKChain*, creationType>()));
+    }
     // public System.Void .ctor(System.Single pin, System.Single pull, params UnityEngine.Transform[] nodeTransforms)
-    // Offset: 0x2209B24
+    // Offset: 0x2257398
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FBIKChain* New_ctor(float pin, float pull, ::ArrayW<::UnityEngine::Transform*> nodeTransforms) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::FBIKChain::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FBIKChain*, creationType>(pin, pull, nodeTransforms)));
     }
     // public System.Void SetNodes(params UnityEngine.Transform[] boneTransforms)
-    // Offset: 0x2209C30
+    // Offset: 0x22574A4
     void SetNodes(::ArrayW<::UnityEngine::Transform*> boneTransforms);
     // public System.Int32 GetNodeIndex(UnityEngine.Transform boneTransform)
-    // Offset: 0x2209D54
+    // Offset: 0x22575C8
     int GetNodeIndex(::UnityEngine::Transform* boneTransform);
     // public System.Boolean IsValid(ref System.String message)
-    // Offset: 0x2209E30
+    // Offset: 0x22576A4
     bool IsValid(ByRef<::StringW> message);
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x2209F34
+    // Offset: 0x22577A8
     void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void ReadPose(RootMotion.FinalIK.IKSolverFullBody solver, System.Boolean fullBody)
-    // Offset: 0x220A654
+    // Offset: 0x2257EC8
     void ReadPose(::RootMotion::FinalIK::IKSolverFullBody* solver, bool fullBody);
     // private System.Void CalculateBoneLengths(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x220A0C4
+    // Offset: 0x2257938
     void CalculateBoneLengths(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void Reach(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x220AD40
+    // Offset: 0x22585B4
     void Reach(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public UnityEngine.Vector3 Push(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x220B0E4
+    // Offset: 0x2258958
     ::UnityEngine::Vector3 Push(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void SolveTrigonometric(RootMotion.FinalIK.IKSolverFullBody solver, System.Boolean calculateBendDirection)
-    // Offset: 0x220B4C8
+    // Offset: 0x2258D3C
     void SolveTrigonometric(::RootMotion::FinalIK::IKSolverFullBody* solver, bool calculateBendDirection);
     // public System.Void Stage1(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x220BA4C
+    // Offset: 0x22592C0
     void Stage1(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void Stage2(RootMotion.FinalIK.IKSolverFullBody solver, UnityEngine.Vector3 position)
-    // Offset: 0x220C01C
+    // Offset: 0x2259890
     void Stage2(::RootMotion::FinalIK::IKSolverFullBody* solver, ::UnityEngine::Vector3 position);
     // public System.Void SolveConstraintSystems(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x220C2B4
+    // Offset: 0x2259B28
     void SolveConstraintSystems(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // private UnityEngine.Vector3 SolveFABRIKJoint(UnityEngine.Vector3 pos1, UnityEngine.Vector3 pos2, System.Single length)
-    // Offset: 0x220BF14
+    // Offset: 0x2259788
     ::UnityEngine::Vector3 SolveFABRIKJoint(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float length);
     // protected UnityEngine.Vector3 GetDirToBendPoint(UnityEngine.Vector3 direction, UnityEngine.Vector3 bendDirection, System.Single directionMagnitude)
-    // Offset: 0x220B834
+    // Offset: 0x22590A8
     ::UnityEngine::Vector3 GetDirToBendPoint(::UnityEngine::Vector3 direction, ::UnityEngine::Vector3 bendDirection, float directionMagnitude);
     // private System.Void SolveChildConstraints(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x220BE9C
+    // Offset: 0x2259710
     void SolveChildConstraints(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // private System.Void SolveLinearConstraint(RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Node node1, RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Node node2, System.Single crossFade, System.Single distance)
-    // Offset: 0x220C39C
+    // Offset: 0x2259C10
     void SolveLinearConstraint(::RootMotion::FinalIK::IKSolver::Node* node1, ::RootMotion::FinalIK::IKSolver::Node* node2, float crossFade, float distance);
     // public System.Void ForwardReach(UnityEngine.Vector3 position)
-    // Offset: 0x220BDBC
+    // Offset: 0x2259630
     void ForwardReach(::UnityEngine::Vector3 position);
     // private System.Void BackwardReach(UnityEngine.Vector3 position)
-    // Offset: 0x220C19C
+    // Offset: 0x2259A10
     void BackwardReach(::UnityEngine::Vector3 position);
-    // public System.Void .ctor()
-    // Offset: 0x2209A58
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FBIKChain* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::FBIKChain::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<FBIKChain*, creationType>()));
-    }
   }; // RootMotion.FinalIK.FBIKChain
   #pragma pack(pop)
   static check_size<sizeof(FBIKChain), 128 + sizeof(float)> __RootMotion_FinalIK_FBIKChainSizeCheck;
@@ -379,6 +369,10 @@ namespace RootMotion::FinalIK {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::FBIKChain::Smoothing, "RootMotion.FinalIK", "FBIKChain/Smoothing");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBIKChain::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::FBIKChain::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -555,7 +549,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain*), "BackwardReach", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::FBIKChain::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

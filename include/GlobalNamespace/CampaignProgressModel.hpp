@@ -42,16 +42,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CampaignProgressModel : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x124D084
+    // [InjectAttribute] Offset: 0x10D1B7C
     // private PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x18
@@ -88,61 +80,55 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private PlayerDataModel _playerDataModel
-    ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.String> _missionIds
-    ::System::Collections::Generic::HashSet_1<::StringW>*& dyn__missionIds();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::StringW>*& dyn__missionIds();
     // Get instance field reference: private System.String _finalMissionId
-    ::StringW& dyn__finalMissionId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__finalMissionId();
     // Get instance field reference: private System.Boolean _numberOfClearedMissionsDirty
-    bool& dyn__numberOfClearedMissionsDirty();
+    [[deprecated("Use field access instead!")]] bool& dyn__numberOfClearedMissionsDirty();
     // Get instance field reference: private System.Int32 _numberOfClearedMissions
-    int& dyn__numberOfClearedMissions();
+    [[deprecated("Use field access instead!")]] int& dyn__numberOfClearedMissions();
     // public System.Int32 get_numberOfClearedMissions()
-    // Offset: 0x13526A4
+    // Offset: 0x133B8EC
     int get_numberOfClearedMissions();
-    // protected System.Void Awake()
-    // Offset: 0x135280C
-    void Awake();
-    // public System.Boolean IsMissionRegistered(System.String missionId)
-    // Offset: 0x1352874
-    bool IsMissionRegistered(::StringW missionId);
-    // public System.Void RegisterMissionId(System.String missionId)
-    // Offset: 0x13528DC
-    void RegisterMissionId(::StringW missionId);
-    // public System.Boolean IsMissionCleared(System.String missionId)
-    // Offset: 0x1352950
-    bool IsMissionCleared(::StringW missionId);
-    // public System.Boolean IsMissionFinal(System.String missionId)
-    // Offset: 0x1352984
-    bool IsMissionFinal(::StringW missionId);
-    // public System.Void SetFinalMissionId(System.String missionId)
-    // Offset: 0x1352990
-    void SetFinalMissionId(::StringW missionId);
-    // public System.Boolean WillFinishGameAfterThisMission(System.String missionId)
-    // Offset: 0x135241C
-    bool WillFinishGameAfterThisMission(::StringW missionId);
-    // public System.Void SetMissionCleared(System.String missionId)
-    // Offset: 0x1352468
-    void SetMissionCleared(::StringW missionId);
-    // public System.Void __SetMissionCleared(System.String missionId, System.Boolean cleared)
-    // Offset: 0x1352998
-    void __SetMissionCleared(::StringW missionId, bool cleared);
-    // private System.Int32 UpdateNumberOfClearedMissions()
-    // Offset: 0x13526D8
-    int UpdateNumberOfClearedMissions();
     // public System.Void .ctor()
-    // Offset: 0x13529E8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x133BC30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CampaignProgressModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CampaignProgressModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CampaignProgressModel*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x133BA54
+    void Awake();
+    // public System.Boolean IsMissionRegistered(System.String missionId)
+    // Offset: 0x133BABC
+    bool IsMissionRegistered(::StringW missionId);
+    // public System.Void RegisterMissionId(System.String missionId)
+    // Offset: 0x133BB24
+    void RegisterMissionId(::StringW missionId);
+    // public System.Boolean IsMissionCleared(System.String missionId)
+    // Offset: 0x133BB98
+    bool IsMissionCleared(::StringW missionId);
+    // public System.Boolean IsMissionFinal(System.String missionId)
+    // Offset: 0x133BBCC
+    bool IsMissionFinal(::StringW missionId);
+    // public System.Void SetFinalMissionId(System.String missionId)
+    // Offset: 0x133BBD8
+    void SetFinalMissionId(::StringW missionId);
+    // public System.Boolean WillFinishGameAfterThisMission(System.String missionId)
+    // Offset: 0x133B664
+    bool WillFinishGameAfterThisMission(::StringW missionId);
+    // public System.Void SetMissionCleared(System.String missionId)
+    // Offset: 0x133B6B0
+    void SetMissionCleared(::StringW missionId);
+    // public System.Void __SetMissionCleared(System.String missionId, System.Boolean cleared)
+    // Offset: 0x133BBE0
+    void __SetMissionCleared(::StringW missionId, bool cleared);
+    // private System.Int32 UpdateNumberOfClearedMissions()
+    // Offset: 0x133B920
+    int UpdateNumberOfClearedMissions();
   }; // CampaignProgressModel
   #pragma pack(pop)
   static check_size<sizeof(CampaignProgressModel), 52 + sizeof(int)> __GlobalNamespace_CampaignProgressModelSizeCheck;
@@ -157,6 +143,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), "get_numberOfClearedMissions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::CampaignProgressModel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CampaignProgressModel::Awake
 // Il2CppName: Awake
 template<>
@@ -246,7 +236,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), "UpdateNumberOfClearedMissions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CampaignProgressModel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -23,30 +23,22 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionObject::Multiplier : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x1277D58
+    // [TooltipAttribute] Offset: 0x10FCA10
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type curve
     // Size: 0x4
     // Offset: 0x10
     ::RootMotion::FinalIK::InteractionObject::WeightCurve::Type curve;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::InteractionObject::WeightCurve::Type) == 0x4);
-    // [TooltipAttribute] Offset: 0x1277D90
+    // [TooltipAttribute] Offset: 0x10FCA48
     // public System.Single multiplier
     // Size: 0x4
     // Offset: 0x14
     float multiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1277DC8
+    // [TooltipAttribute] Offset: 0x10FCA80
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type result
     // Size: 0x4
     // Offset: 0x18
@@ -55,29 +47,31 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::RootMotion::FinalIK::InteractionObject::WeightCurve::Type) == 0x4);
     public:
     // Get instance field reference: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type curve
-    ::RootMotion::FinalIK::InteractionObject::WeightCurve::Type& dyn_curve();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::InteractionObject::WeightCurve::Type& dyn_curve();
     // Get instance field reference: public System.Single multiplier
-    float& dyn_multiplier();
+    [[deprecated("Use field access instead!")]] float& dyn_multiplier();
     // Get instance field reference: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type result
-    ::RootMotion::FinalIK::InteractionObject::WeightCurve::Type& dyn_result();
-    // public System.Single GetValue(RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve weightCurve, System.Single timer)
-    // Offset: 0x2356F3C
-    float GetValue(::RootMotion::FinalIK::InteractionObject::WeightCurve* weightCurve, float timer);
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::InteractionObject::WeightCurve::Type& dyn_result();
     // public System.Void .ctor()
-    // Offset: 0x23573E4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x23A0C58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionObject::Multiplier* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionObject::Multiplier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionObject::Multiplier*, creationType>()));
     }
+    // public System.Single GetValue(RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve weightCurve, System.Single timer)
+    // Offset: 0x23A07B0
+    float GetValue(::RootMotion::FinalIK::InteractionObject::WeightCurve* weightCurve, float timer);
   }; // RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.Multiplier
   #pragma pack(pop)
   static check_size<sizeof(InteractionObject::Multiplier), 24 + sizeof(::RootMotion::FinalIK::InteractionObject::WeightCurve::Type)> __RootMotion_FinalIK_InteractionObject_MultiplierSizeCheck;
   static_assert(sizeof(InteractionObject::Multiplier) == 0x1C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::Multiplier::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::Multiplier::GetValue
 // Il2CppName: GetValue
 template<>
@@ -88,7 +82,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Root
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject::Multiplier*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{weightCurve, timer});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::Multiplier::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

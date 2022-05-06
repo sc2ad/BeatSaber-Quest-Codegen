@@ -31,25 +31,25 @@ namespace GlobalNamespace {
   class ColorExtensions : public ::Il2CppObject {
     public:
     // static public UnityEngine.Color SaturatedColor(UnityEngine.Color color, System.Single saturation)
-    // Offset: 0x1565C54
+    // Offset: 0x159C55C
     static ::UnityEngine::Color SaturatedColor(::UnityEngine::Color color, float saturation);
     // static public UnityEngine.Color ColorWithAlpha(UnityEngine.Color color, System.Single alpha)
-    // Offset: 0x1565CAC
+    // Offset: 0x159C5B4
     static ::UnityEngine::Color ColorWithAlpha(::UnityEngine::Color color, float alpha);
     // static public UnityEngine.Color ColorWithR(UnityEngine.Color color, System.Single r)
-    // Offset: 0x1565CB4
+    // Offset: 0x159C5BC
     static ::UnityEngine::Color ColorWithR(::UnityEngine::Color color, float r);
     // static public UnityEngine.Color ColorWithG(UnityEngine.Color color, System.Single g)
-    // Offset: 0x1565CBC
+    // Offset: 0x159C5C4
     static ::UnityEngine::Color ColorWithG(::UnityEngine::Color color, float g);
     // static public UnityEngine.Color ColorWithB(UnityEngine.Color color, System.Single b)
-    // Offset: 0x1565CC4
+    // Offset: 0x159C5CC
     static ::UnityEngine::Color ColorWithB(::UnityEngine::Color color, float b);
     // static public UnityEngine.Color ColorWithValue(UnityEngine.Color color, System.Single value)
-    // Offset: 0x1565CCC
+    // Offset: 0x159C5D4
     static ::UnityEngine::Color ColorWithValue(::UnityEngine::Color color, float value);
     // static public UnityEngine.Color LerpRGBUnclamped(UnityEngine.Color a, UnityEngine.Color b, System.Single t)
-    // Offset: 0x1565D20
+    // Offset: 0x159C628
     static ::UnityEngine::Color LerpRGBUnclamped(::UnityEngine::Color a, ::UnityEngine::Color b, float t);
   }; // ColorExtensions
   #pragma pack(pop)

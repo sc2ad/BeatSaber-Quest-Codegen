@@ -41,15 +41,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class CurrentSystemTimeZone : public ::System::TimeZone {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.TimeZoneInfo LocalTimeZone
     // Size: 0x8
     // Offset: 0x10
@@ -62,12 +54,12 @@ namespace System {
       return LocalTimeZone;
     }
     // Get instance field reference: private readonly System.TimeZoneInfo LocalTimeZone
-    ::System::TimeZoneInfo*& dyn_LocalTimeZone();
+    [[deprecated("Use field access instead!")]] ::System::TimeZoneInfo*& dyn_LocalTimeZone();
     // static public System.Boolean GetTimeZoneData(System.Int32 year, out System.Int64[] data, out System.String[] names, out System.Boolean daylight_inverted)
-    // Offset: 0x1CD680C
+    // Offset: 0x1D11D64
     static bool GetTimeZoneData(int year, ByRef<::ArrayW<int64_t>> data, ByRef<::ArrayW<::StringW>> names, ByRef<bool> daylight_inverted);
     // System.Void .ctor()
-    // Offset: 0x1CD66C4
+    // Offset: 0x1D11C1C
     // Implemented from: System.TimeZone
     // Base method: System.Void TimeZone::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -77,7 +69,7 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<CurrentSystemTimeZone*, creationType>()));
     }
     // public override System.TimeSpan GetUtcOffset(System.DateTime dateTime)
-    // Offset: 0x1CD673C
+    // Offset: 0x1D11C94
     // Implemented from: System.TimeZone
     // Base method: System.TimeSpan TimeZone::GetUtcOffset(System.DateTime dateTime)
     ::System::TimeSpan GetUtcOffset(::System::DateTime dateTime);

@@ -61,6 +61,13 @@ namespace HoudiniEngineUnity {
     // Nested type: ::HoudiniEngineUnity::HEU_TestHelpers::RequireClass_1<T>
     template<typename T>
     class RequireClass_1;
+    // public System.Void .ctor()
+    // Offset: 0x1B11268
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static HEU_TestHelpers* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TestHelpers::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<HEU_TestHelpers*, creationType>()));
+    }
     // static public System.Boolean AssertTrueLogEquivalent(T a, T b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3, HoudiniEngineUnity.HEU_TestHelpers/HoudiniEngineUnity.RequireStruct`1<T> _)
     // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
@@ -72,7 +79,7 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3, _);
     }
     // static public System.Boolean AssertTrueLogEquivalent(UnityEngine.GameObject a, UnityEngine.GameObject b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
-    // Offset: 0x1AD4E5C
+    // Offset: 0x1B10444
     static bool AssertTrueLogEquivalent(::UnityEngine::GameObject* a, ::UnityEngine::GameObject* b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3);
     // static public System.Boolean AssertTrueLogEquivalent(HoudiniEngineUnity.IEquivable`1<T> a, HoudiniEngineUnity.IEquivable`1<T> b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -93,7 +100,7 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3);
     }
     // static public System.Boolean AssertTrueLogEquivalent(System.String a, System.String b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
-    // Offset: 0x1AD5A30
+    // Offset: 0x1B11018
     static bool AssertTrueLogEquivalent(::StringW a, ::StringW b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3);
     // static public System.Boolean AssertTrueLogEquivalent(System.Collections.Generic.List`1<T> a, System.Collections.Generic.List`1<T> b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3, HoudiniEngineUnity.HEU_TestHelpers/HoudiniEngineUnity.RequireStruct`1<T> _)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -143,7 +150,7 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3);
     }
     // static public System.Boolean AssertTrueLogEquivalent(System.String[] a, System.String[] b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
-    // Offset: 0x1AD5B28
+    // Offset: 0x1B11110
     static bool AssertTrueLogEquivalent(::ArrayW<::StringW> a, ::ArrayW<::StringW> b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3);
     // static public System.Boolean AssertTrueLogEquivalent(HoudiniEngineUnity.IEquivable`1<T>[] a, HoudiniEngineUnity.IEquivable`1<T>[] b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -164,7 +171,7 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3);
     }
     // static public System.Void PrintTestLogAndSetResult(System.Boolean expression, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
-    // Offset: 0x1AD58DC
+    // Offset: 0x1B10EC4
     static void PrintTestLogAndSetResult(bool expression, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3);
     // static public System.Boolean ShouldBeTested(T a, T b, ref System.Boolean bResult, System.String header, System.String subject)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -176,7 +183,7 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(bResult), header, subject);
     }
     // static public System.Boolean ShouldBeTested(UnityEngine.GameObject a, UnityEngine.GameObject b, ref System.Boolean bResult, System.String header, System.String subject)
-    // Offset: 0x1AD4F80
+    // Offset: 0x1B10568
     static bool ShouldBeTested(::UnityEngine::GameObject* a, ::UnityEngine::GameObject* b, ByRef<bool> bResult, ::StringW header, ::StringW subject);
     // static public System.Boolean ShouldBeTested(HoudiniEngineUnity.IEquivable`1<T> a, HoudiniEngineUnity.IEquivable`1<T> b, ref System.Boolean bResult, System.String header, System.String subject)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -215,24 +222,19 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(bResult), header, subject);
     }
     // static public System.Boolean ShouldBeTested(System.String a, System.String b, ref System.Boolean bResult, System.String header, System.String subject)
-    // Offset: 0x1AD5AD0
+    // Offset: 0x1B110B8
     static bool ShouldBeTested(::StringW a, ::StringW b, ByRef<bool> bResult, ::StringW header, ::StringW subject);
     // static public System.Boolean TestOutputObjectEquivalence(UnityEngine.GameObject a, UnityEngine.GameObject b)
-    // Offset: 0x1AD52EC
+    // Offset: 0x1B108D4
     static bool TestOutputObjectEquivalence(::UnityEngine::GameObject* a, ::UnityEngine::GameObject* b);
-    // public System.Void .ctor()
-    // Offset: 0x1AD5C80
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HEU_TestHelpers* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TestHelpers::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<HEU_TestHelpers*, creationType>()));
-    }
   }; // HoudiniEngineUnity.HEU_TestHelpers
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TestHelpers::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TestHelpers::AssertTrueLogEquivalent
 // Il2CppName: AssertTrueLogEquivalent
 // Cannot write MetadataGetter for generic methods!
@@ -377,7 +379,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_TestHelpers*), "TestOutputObjectEquivalence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TestHelpers::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

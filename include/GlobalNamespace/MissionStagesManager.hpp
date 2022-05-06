@@ -40,15 +40,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::MissionStagesManager::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MissionStageLockView _missionStageLockView
     // Size: 0x8
     // Offset: 0x18
@@ -71,42 +63,36 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionStageLockView _missionStageLockView
-    ::GlobalNamespace::MissionStageLockView*& dyn__missionStageLockView();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionStageLockView*& dyn__missionStageLockView();
     // Get instance field reference: private MissionStage[] _missionStages
-    ::ArrayW<::GlobalNamespace::MissionStage*>& dyn__missionStages();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MissionStage*>& dyn__missionStages();
     // Get instance field reference: private MissionStage _firstLockedMissionStage
-    ::GlobalNamespace::MissionStage*& dyn__firstLockedMissionStage();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionStage*& dyn__firstLockedMissionStage();
     // public MissionStage get_firstLockedMissionStage()
-    // Offset: 0x13C30C4
+    // Offset: 0x13BF570
     ::GlobalNamespace::MissionStage* get_firstLockedMissionStage();
-    // public System.Void UpdateFirtsLockedMissionStage(System.Int32 numberOfClearedMissions)
-    // Offset: 0x13C30CC
-    void UpdateFirtsLockedMissionStage(int numberOfClearedMissions);
-    // public System.Void InitStages()
-    // Offset: 0x13C3164
-    void InitStages();
-    // public System.Void UpdateStageLockPosition()
-    // Offset: 0x13C328C
-    void UpdateStageLockPosition();
-    // public System.Void UpdateStageLockPositionAnimated(System.Boolean animated, System.Single animationDuration)
-    // Offset: 0x13C3298
-    void UpdateStageLockPositionAnimated(bool animated, float animationDuration);
-    // public System.Void UpdateStageLockText(System.Int32 numberOfClearedMissions)
-    // Offset: 0x13C3394
-    void UpdateStageLockText(int numberOfClearedMissions);
     // public System.Void .ctor()
-    // Offset: 0x13C3454
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13BF900
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionStagesManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionStagesManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionStagesManager*, creationType>()));
     }
+    // public System.Void UpdateFirtsLockedMissionStage(System.Int32 numberOfClearedMissions)
+    // Offset: 0x13BF578
+    void UpdateFirtsLockedMissionStage(int numberOfClearedMissions);
+    // public System.Void InitStages()
+    // Offset: 0x13BF610
+    void InitStages();
+    // public System.Void UpdateStageLockPosition()
+    // Offset: 0x13BF738
+    void UpdateStageLockPosition();
+    // public System.Void UpdateStageLockPositionAnimated(System.Boolean animated, System.Single animationDuration)
+    // Offset: 0x13BF744
+    void UpdateStageLockPositionAnimated(bool animated, float animationDuration);
+    // public System.Void UpdateStageLockText(System.Int32 numberOfClearedMissions)
+    // Offset: 0x13BF840
+    void UpdateStageLockText(int numberOfClearedMissions);
   }; // MissionStagesManager
   #pragma pack(pop)
   static check_size<sizeof(MissionStagesManager), 40 + sizeof(::GlobalNamespace::MissionStage*)> __GlobalNamespace_MissionStagesManagerSizeCheck;
@@ -121,6 +107,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionStagesManager*), "get_firstLockedMissionStage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MissionStagesManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionStagesManager::UpdateFirtsLockedMissionStage
 // Il2CppName: UpdateFirtsLockedMissionStage
 template<>
@@ -165,7 +155,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionStagesManager*), "UpdateStageLockText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{numberOfClearedMissions});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MissionStagesManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -31,15 +31,7 @@ namespace NUnit::Framework::Internal::Commands {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OneTimeTearDownCommand::$$c__DisplayClass3_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.IDisposable disposable
     // Size: 0x8
     // Offset: 0x10
@@ -52,25 +44,27 @@ namespace NUnit::Framework::Internal::Commands {
       return disposable;
     }
     // Get instance field reference: public System.IDisposable disposable
-    ::System::IDisposable*& dyn_disposable();
-    // System.Object <Execute>b__0()
-    // Offset: 0x1C4E8BC
-    ::Il2CppObject* $Execute$b__0();
+    [[deprecated("Use field access instead!")]] ::System::IDisposable*& dyn_disposable();
     // public System.Void .ctor()
-    // Offset: 0x1C4E56C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1CA6B04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OneTimeTearDownCommand::$$c__DisplayClass3_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass3_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OneTimeTearDownCommand::$$c__DisplayClass3_0*, creationType>()));
     }
+    // System.Object <Execute>b__0()
+    // Offset: 0x1CA6E54
+    ::Il2CppObject* $Execute$b__0();
   }; // NUnit.Framework.Internal.Commands.OneTimeTearDownCommand/NUnit.Framework.Internal.Commands.<>c__DisplayClass3_0
   #pragma pack(pop)
   static check_size<sizeof(OneTimeTearDownCommand::$$c__DisplayClass3_0), 16 + sizeof(::System::IDisposable*)> __NUnit_Framework_Internal_Commands_OneTimeTearDownCommand_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(OneTimeTearDownCommand::$$c__DisplayClass3_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass3_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass3_0::$Execute$b__0
 // Il2CppName: <Execute>b__0
 template<>
@@ -79,7 +73,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass3_0*), "<Execute>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass3_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

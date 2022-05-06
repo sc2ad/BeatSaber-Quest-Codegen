@@ -42,15 +42,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ObstacleSaberSoundEffect : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private ObstacleSaberSparkleEffectManager _obstacleSaberSparkleEffectManager
     // Size: 0x8
     // Offset: 0x18
@@ -93,49 +85,47 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kSmooth
     static void _set_kSmooth(float value);
     // Get instance field reference: private ObstacleSaberSparkleEffectManager _obstacleSaberSparkleEffectManager
-    ::GlobalNamespace::ObstacleSaberSparkleEffectManager*& dyn__obstacleSaberSparkleEffectManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ObstacleSaberSparkleEffectManager*& dyn__obstacleSaberSparkleEffectManager();
     // Get instance field reference: private SaberType _saberType
-    ::GlobalNamespace::SaberType& dyn__saberType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberType& dyn__saberType();
     // Get instance field reference: private UnityEngine.AudioSource _audioSource
-    ::UnityEngine::AudioSource*& dyn__audioSource();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioSource*& dyn__audioSource();
     // Get instance field reference: private System.Single _volume
-    float& dyn__volume();
+    [[deprecated("Use field access instead!")]] float& dyn__volume();
     // Get instance field reference: private System.Single _targetVolume
-    float& dyn__targetVolume();
-    // protected System.Void Awake()
-    // Offset: 0x147F318
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x147F554
-    void OnDestroy();
-    // protected System.Void LateUpdate()
-    // Offset: 0x147F7B8
-    void LateUpdate();
-    // private System.Void HandleSparkleEffectDidStart(SaberType saberType)
-    // Offset: 0x147F994
-    void HandleSparkleEffectDidStart(::GlobalNamespace::SaberType saberType);
-    // private System.Void HandleSparkleEffecDidEnd(SaberType saberType)
-    // Offset: 0x147FACC
-    void HandleSparkleEffecDidEnd(::GlobalNamespace::SaberType saberType);
+    [[deprecated("Use field access instead!")]] float& dyn__targetVolume();
     // public System.Void .ctor()
-    // Offset: 0x147FAE0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14B6360
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleSaberSoundEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObstacleSaberSoundEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleSaberSoundEffect*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x14B5B98
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x14B5DD4
+    void OnDestroy();
+    // protected System.Void LateUpdate()
+    // Offset: 0x14B6038
+    void LateUpdate();
+    // private System.Void HandleSparkleEffectDidStart(SaberType saberType)
+    // Offset: 0x14B6214
+    void HandleSparkleEffectDidStart(::GlobalNamespace::SaberType saberType);
+    // private System.Void HandleSparkleEffecDidEnd(SaberType saberType)
+    // Offset: 0x14B634C
+    void HandleSparkleEffecDidEnd(::GlobalNamespace::SaberType saberType);
   }; // ObstacleSaberSoundEffect
   #pragma pack(pop)
   static check_size<sizeof(ObstacleSaberSoundEffect), 52 + sizeof(float)> __GlobalNamespace_ObstacleSaberSoundEffectSizeCheck;
   static_assert(sizeof(ObstacleSaberSoundEffect) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSoundEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSoundEffect::Awake
 // Il2CppName: Awake
 template<>
@@ -178,7 +168,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSoundEffect*), "HandleSparkleEffecDidEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saberType});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSoundEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

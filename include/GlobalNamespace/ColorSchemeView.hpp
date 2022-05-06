@@ -40,15 +40,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorSchemeView : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Image _saberAColorImage
     // Size: 0x8
     // Offset: 0x18
@@ -83,37 +75,35 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Image _saberAColorImage
-    ::UnityEngine::UI::Image*& dyn__saberAColorImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__saberAColorImage();
     // Get instance field reference: private UnityEngine.UI.Image _saberBColorImage
-    ::UnityEngine::UI::Image*& dyn__saberBColorImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__saberBColorImage();
     // Get instance field reference: private UnityEngine.UI.Image _environment0ColorImage
-    ::UnityEngine::UI::Image*& dyn__environment0ColorImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__environment0ColorImage();
     // Get instance field reference: private UnityEngine.UI.Image _environment1ColorImage
-    ::UnityEngine::UI::Image*& dyn__environment1ColorImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__environment1ColorImage();
     // Get instance field reference: private UnityEngine.UI.Image _obstacleColorImage
-    ::UnityEngine::UI::Image*& dyn__obstacleColorImage();
-    // public System.Void SetColors(UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environment0Color, UnityEngine.Color environment1Color, UnityEngine.Color obstacleColor)
-    // Offset: 0x1358068
-    void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color, ::UnityEngine::Color obstacleColor);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__obstacleColorImage();
     // public System.Void .ctor()
-    // Offset: 0x1358230
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13414B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorSchemeView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorSchemeView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorSchemeView*, creationType>()));
     }
+    // public System.Void SetColors(UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environment0Color, UnityEngine.Color environment1Color, UnityEngine.Color obstacleColor)
+    // Offset: 0x13412E8
+    void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color, ::UnityEngine::Color obstacleColor);
   }; // ColorSchemeView
   #pragma pack(pop)
   static check_size<sizeof(ColorSchemeView), 56 + sizeof(::UnityEngine::UI::Image*)> __GlobalNamespace_ColorSchemeViewSizeCheck;
   static_assert(sizeof(ColorSchemeView) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ColorSchemeView::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeView::SetColors
 // Il2CppName: SetColors
 template<>
@@ -127,7 +117,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeView*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saberAColor, saberBColor, environment0Color, environment1Color, obstacleColor});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ColorSchemeView::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

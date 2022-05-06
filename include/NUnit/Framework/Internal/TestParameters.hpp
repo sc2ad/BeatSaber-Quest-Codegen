@@ -46,16 +46,8 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestParameters : public ::Il2CppObject/*, public ::NUnit::Framework::Interfaces::IApplyToTest, public ::NUnit::Framework::Interfaces::ITestData*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [DebuggerBrowsableAttribute] Offset: 0x1244AF0
+    // [DebuggerBrowsableAttribute] Offset: 0x10C95D8
     // private NUnit.Framework.Interfaces.RunState <RunState>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -64,28 +56,28 @@ namespace NUnit::Framework::Internal {
     static_assert(sizeof(::NUnit::Framework::Interfaces::RunState) == 0x4);
     // Padding between fields: RunState and: Arguments
     char __padding0[0x4] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0x1244B2C
+    // [DebuggerBrowsableAttribute] Offset: 0x10C9614
     // private System.Object[] <Arguments>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<::Il2CppObject*> Arguments;
     // Field size check
     static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1244B68
+    // [DebuggerBrowsableAttribute] Offset: 0x10C9650
     // private System.String <TestName>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     ::StringW TestName;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1244BA4
+    // [DebuggerBrowsableAttribute] Offset: 0x10C968C
     // private NUnit.Framework.Interfaces.IPropertyBag <Properties>k__BackingField
     // Size: 0x8
     // Offset: 0x28
     ::NUnit::Framework::Interfaces::IPropertyBag* Properties;
     // Field size check
     static_assert(sizeof(::NUnit::Framework::Interfaces::IPropertyBag*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1244BE0
+    // [DebuggerBrowsableAttribute] Offset: 0x10C96C8
     // private System.Object[] <OriginalArguments>k__BackingField
     // Size: 0x8
     // Offset: 0x30
@@ -102,64 +94,62 @@ namespace NUnit::Framework::Internal {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::ITestData*>(this);
     }
     // Get instance field reference: private NUnit.Framework.Interfaces.RunState <RunState>k__BackingField
-    ::NUnit::Framework::Interfaces::RunState& dyn_$RunState$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Interfaces::RunState& dyn_$RunState$k__BackingField();
     // Get instance field reference: private System.Object[] <Arguments>k__BackingField
-    ::ArrayW<::Il2CppObject*>& dyn_$Arguments$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppObject*>& dyn_$Arguments$k__BackingField();
     // Get instance field reference: private System.String <TestName>k__BackingField
-    ::StringW& dyn_$TestName$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$TestName$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Interfaces.IPropertyBag <Properties>k__BackingField
-    ::NUnit::Framework::Interfaces::IPropertyBag*& dyn_$Properties$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Interfaces::IPropertyBag*& dyn_$Properties$k__BackingField();
     // Get instance field reference: private System.Object[] <OriginalArguments>k__BackingField
-    ::ArrayW<::Il2CppObject*>& dyn_$OriginalArguments$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppObject*>& dyn_$OriginalArguments$k__BackingField();
     // public NUnit.Framework.Interfaces.RunState get_RunState()
-    // Offset: 0x29B4468
+    // Offset: 0x2A10460
     ::NUnit::Framework::Interfaces::RunState get_RunState();
     // public System.Void set_RunState(NUnit.Framework.Interfaces.RunState value)
-    // Offset: 0x29B4470
+    // Offset: 0x2A10468
     void set_RunState(::NUnit::Framework::Interfaces::RunState value);
     // public System.Object[] get_Arguments()
-    // Offset: 0x29B4478
+    // Offset: 0x2A10470
     ::ArrayW<::Il2CppObject*> get_Arguments();
     // System.Void set_Arguments(System.Object[] value)
-    // Offset: 0x29B4480
+    // Offset: 0x2A10478
     void set_Arguments(::ArrayW<::Il2CppObject*> value);
     // public System.String get_TestName()
-    // Offset: 0x29B4488
+    // Offset: 0x2A10480
     ::StringW get_TestName();
     // public NUnit.Framework.Interfaces.IPropertyBag get_Properties()
-    // Offset: 0x29B4490
+    // Offset: 0x2A10488
     ::NUnit::Framework::Interfaces::IPropertyBag* get_Properties();
     // private System.Void set_Properties(NUnit.Framework.Interfaces.IPropertyBag value)
-    // Offset: 0x29B4498
+    // Offset: 0x2A10490
     void set_Properties(::NUnit::Framework::Interfaces::IPropertyBag* value);
     // public System.Object[] get_OriginalArguments()
-    // Offset: 0x29B4B3C
+    // Offset: 0x2A10B34
     ::ArrayW<::Il2CppObject*> get_OriginalArguments();
     // private System.Void set_OriginalArguments(System.Object[] value)
-    // Offset: 0x29B4B44
+    // Offset: 0x2A10B3C
     void set_OriginalArguments(::ArrayW<::Il2CppObject*> value);
+    // public System.Void .ctor()
+    // Offset: 0x2A0CE4C
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static TestParameters* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestParameters::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<TestParameters*, creationType>()));
+    }
     // public System.Void .ctor(System.Object[] args)
-    // Offset: 0x29B0EC8
+    // Offset: 0x2A0CEC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestParameters* New_ctor(::ArrayW<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestParameters*, creationType>(args)));
     }
     // private System.Void InitializeAguments(System.Object[] args)
-    // Offset: 0x29B43E4
+    // Offset: 0x2A103DC
     void InitializeAguments(::ArrayW<::Il2CppObject*> args);
     // public System.Void ApplyToTest(NUnit.Framework.Internal.Test test)
-    // Offset: 0x29B44A0
+    // Offset: 0x2A10498
     void ApplyToTest(::NUnit::Framework::Internal::Test* test);
-    // public System.Void .ctor()
-    // Offset: 0x29B0E54
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TestParameters* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestParameters::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<TestParameters*, creationType>()));
-    }
   }; // NUnit.Framework.Internal.TestParameters
   #pragma pack(pop)
   static check_size<sizeof(TestParameters), 48 + sizeof(::ArrayW<::Il2CppObject*>)> __NUnit_Framework_Internal_TestParametersSizeCheck;
@@ -246,6 +236,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: NUnit::Framework::Internal::TestParameters::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestParameters::InitializeAguments
 // Il2CppName: InitializeAguments
 template<>
@@ -264,7 +258,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestParameters*), "ApplyToTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::TestParameters::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

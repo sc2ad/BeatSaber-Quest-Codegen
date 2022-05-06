@@ -53,15 +53,7 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnixIPInterfaceProperties : public ::System::Net::NetworkInformation::IPInterfaceProperties {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected System.Net.NetworkInformation.UnixNetworkInterface iface
     // Size: 0x8
     // Offset: 0x10
@@ -84,21 +76,21 @@ namespace System::Net::NetworkInformation {
     // Set static field: static private System.Text.RegularExpressions.Regex search
     static void _set_search(::System::Text::RegularExpressions::Regex* value);
     // Get instance field reference: protected System.Net.NetworkInformation.UnixNetworkInterface iface
-    ::System::Net::NetworkInformation::UnixNetworkInterface*& dyn_iface();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::UnixNetworkInterface*& dyn_iface();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Net.IPAddress> addresses
-    ::System::Collections::Generic::List_1<::System::Net::IPAddress*>*& dyn_addresses();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Net::IPAddress*>*& dyn_addresses();
     // public System.Void .ctor(System.Net.NetworkInformation.UnixNetworkInterface iface, System.Collections.Generic.List`1<System.Net.IPAddress> addresses)
-    // Offset: 0x1B2CD0C
+    // Offset: 0x1B672F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnixIPInterfaceProperties* New_ctor(::System::Net::NetworkInformation::UnixNetworkInterface* iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::UnixIPInterfaceProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnixIPInterfaceProperties*, creationType>(iface, addresses)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1B2CF4C
+    // Offset: 0x1B67534
     static void _cctor();
     // public override System.Net.NetworkInformation.UnicastIPAddressInformationCollection get_UnicastAddresses()
-    // Offset: 0x1B2CD44
+    // Offset: 0x1B6732C
     // Implemented from: System.Net.NetworkInformation.IPInterfaceProperties
     // Base method: System.Net.NetworkInformation.UnicastIPAddressInformationCollection IPInterfaceProperties::get_UnicastAddresses()
     ::System::Net::NetworkInformation::UnicastIPAddressInformationCollection* get_UnicastAddresses();

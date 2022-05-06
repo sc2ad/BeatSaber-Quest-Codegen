@@ -42,15 +42,7 @@ namespace HMUI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ContainerViewController::$AddViewControllerCoroutine$d__15 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -121,46 +113,46 @@ namespace HMUI {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Object <>2__current
-    ::Il2CppObject*& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$$2__current();
     // Get instance field reference: public HMUI.ContainerViewController <>4__this
-    ::HMUI::ContainerViewController*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::HMUI::ContainerViewController*& dyn_$$4__this();
     // Get instance field reference: public HMUI.ViewController newViewController
-    ::HMUI::ViewController*& dyn_newViewController();
+    [[deprecated("Use field access instead!")]] ::HMUI::ViewController*& dyn_newViewController();
     // Get instance field reference: public System.Boolean immediately
-    bool& dyn_immediately();
+    [[deprecated("Use field access instead!")]] bool& dyn_immediately();
     // Get instance field reference: public System.Action`2<System.Single,HMUI.ViewController[]> animationLayouter
-    ::System::Action_2<float, ::ArrayW<::HMUI::ViewController*>>*& dyn_animationLayouter();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<float, ::ArrayW<::HMUI::ViewController*>>*& dyn_animationLayouter();
     // Get instance field reference: public System.Action finishedCallback
-    ::System::Action*& dyn_finishedCallback();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_finishedCallback();
     // Get instance field reference: private HMUI.ViewController[] <viewControllers>5__2
-    ::ArrayW<::HMUI::ViewController*>& dyn_$viewControllers$5__2();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::HMUI::ViewController*>& dyn_$viewControllers$5__2();
     // Get instance field reference: private System.Single <transitionDuration>5__3
-    float& dyn_$transitionDuration$5__3();
+    [[deprecated("Use field access instead!")]] float& dyn_$transitionDuration$5__3();
     // Get instance field reference: private System.Single <elapsedTime>5__4
-    float& dyn_$elapsedTime$5__4();
+    [[deprecated("Use field access instead!")]] float& dyn_$elapsedTime$5__4();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x16E27D4
+    // Offset: 0x171A0E4
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x16E283C
+    // Offset: 0x171A14C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x16E220C
+    // Offset: 0x1719B1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContainerViewController::$AddViewControllerCoroutine$d__15* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ContainerViewController::$AddViewControllerCoroutine$d__15::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContainerViewController::$AddViewControllerCoroutine$d__15*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x16E2610
+    // Offset: 0x1719F20
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x16E2614
+    // Offset: 0x1719F24
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x16E27DC
+    // Offset: 0x171A0EC
     void System_Collections_IEnumerator_Reset();
   }; // HMUI.ContainerViewController/HMUI.<AddViewControllerCoroutine>d__15
   #pragma pack(pop)

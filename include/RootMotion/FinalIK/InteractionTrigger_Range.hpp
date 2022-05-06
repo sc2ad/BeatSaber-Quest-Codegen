@@ -39,15 +39,7 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: ::RootMotion::FinalIK::InteractionTrigger::Range::Interaction
     class Interaction;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String name
     // Size: 0x8
     // Offset: 0x10
@@ -62,21 +54,21 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: show and: characterPosition
     char __padding1[0x7] = {};
-    // [TooltipAttribute] Offset: 0x12781E4
+    // [TooltipAttribute] Offset: 0x10FCE9C
     // public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.CharacterPosition characterPosition
     // Size: 0x8
     // Offset: 0x20
     ::RootMotion::FinalIK::InteractionTrigger::CharacterPosition* characterPosition;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::InteractionTrigger::CharacterPosition*) == 0x8);
-    // [TooltipAttribute] Offset: 0x127821C
+    // [TooltipAttribute] Offset: 0x10FCED4
     // public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.CameraPosition cameraPosition
     // Size: 0x8
     // Offset: 0x28
     ::RootMotion::FinalIK::InteractionTrigger::CameraPosition* cameraPosition;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::InteractionTrigger::CameraPosition*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1278254
+    // [TooltipAttribute] Offset: 0x10FCF0C
     // public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range/RootMotion.FinalIK.Interaction[] interactions
     // Size: 0x8
     // Offset: 0x30
@@ -85,33 +77,35 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::InteractionTrigger::Range::Interaction*>) == 0x8);
     public:
     // Get instance field reference: public System.String name
-    ::StringW& dyn_name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_name();
     // Get instance field reference: public System.Boolean show
-    bool& dyn_show();
+    [[deprecated("Use field access instead!")]] bool& dyn_show();
     // Get instance field reference: public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.CharacterPosition characterPosition
-    ::RootMotion::FinalIK::InteractionTrigger::CharacterPosition*& dyn_characterPosition();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::InteractionTrigger::CharacterPosition*& dyn_characterPosition();
     // Get instance field reference: public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.CameraPosition cameraPosition
-    ::RootMotion::FinalIK::InteractionTrigger::CameraPosition*& dyn_cameraPosition();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::InteractionTrigger::CameraPosition*& dyn_cameraPosition();
     // Get instance field reference: public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range/RootMotion.FinalIK.Interaction[] interactions
-    ::ArrayW<::RootMotion::FinalIK::InteractionTrigger::Range::Interaction*>& dyn_interactions();
-    // public System.Boolean IsInRange(UnityEngine.Transform character, UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit raycastHit, UnityEngine.Transform trigger, out System.Single maxError)
-    // Offset: 0x1F6D8C4
-    bool IsInRange(::UnityEngine::Transform* character, ::UnityEngine::Transform* raycastFrom, ::UnityEngine::RaycastHit raycastHit, ::UnityEngine::Transform* trigger, ByRef<float> maxError);
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::InteractionTrigger::Range::Interaction*>& dyn_interactions();
     // public System.Void .ctor()
-    // Offset: 0x1F6E720
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FBAF94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionTrigger::Range* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionTrigger::Range::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionTrigger::Range*, creationType>()));
     }
+    // public System.Boolean IsInRange(UnityEngine.Transform character, UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit raycastHit, UnityEngine.Transform trigger, out System.Single maxError)
+    // Offset: 0x1FBA138
+    bool IsInRange(::UnityEngine::Transform* character, ::UnityEngine::Transform* raycastFrom, ::UnityEngine::RaycastHit raycastHit, ::UnityEngine::Transform* trigger, ByRef<float> maxError);
   }; // RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range
   #pragma pack(pop)
   static check_size<sizeof(InteractionTrigger::Range), 48 + sizeof(::ArrayW<::RootMotion::FinalIK::InteractionTrigger::Range::Interaction*>)> __RootMotion_FinalIK_InteractionTrigger_RangeSizeCheck;
   static_assert(sizeof(InteractionTrigger::Range) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::Range::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::Range::IsInRange
 // Il2CppName: IsInRange
 template<>
@@ -125,7 +119,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTrigger::Range*), "IsInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{character, raycastFrom, raycastHit, trigger, maxError});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::Range::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -32,15 +32,7 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class Encoding::EncodingByteBuffer : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Byte* bytes
     // Size: 0x8
     // Offset: 0x10
@@ -105,58 +97,58 @@ namespace System::Text {
     static_assert(sizeof(::System::Text::EncoderFallbackBuffer*) == 0x8);
     public:
     // Get instance field reference: private System.Byte* bytes
-    uint8_t*& dyn_bytes();
+    [[deprecated("Use field access instead!")]] uint8_t*& dyn_bytes();
     // Get instance field reference: private System.Byte* byteStart
-    uint8_t*& dyn_byteStart();
+    [[deprecated("Use field access instead!")]] uint8_t*& dyn_byteStart();
     // Get instance field reference: private System.Byte* byteEnd
-    uint8_t*& dyn_byteEnd();
+    [[deprecated("Use field access instead!")]] uint8_t*& dyn_byteEnd();
     // Get instance field reference: private System.Char* chars
-    ::Il2CppChar*& dyn_chars();
+    [[deprecated("Use field access instead!")]] ::Il2CppChar*& dyn_chars();
     // Get instance field reference: private System.Char* charStart
-    ::Il2CppChar*& dyn_charStart();
+    [[deprecated("Use field access instead!")]] ::Il2CppChar*& dyn_charStart();
     // Get instance field reference: private System.Char* charEnd
-    ::Il2CppChar*& dyn_charEnd();
+    [[deprecated("Use field access instead!")]] ::Il2CppChar*& dyn_charEnd();
     // Get instance field reference: private System.Int32 byteCountResult
-    int& dyn_byteCountResult();
+    [[deprecated("Use field access instead!")]] int& dyn_byteCountResult();
     // Get instance field reference: private System.Text.Encoding enc
-    ::System::Text::Encoding*& dyn_enc();
+    [[deprecated("Use field access instead!")]] ::System::Text::Encoding*& dyn_enc();
     // Get instance field reference: private System.Text.EncoderNLS encoder
-    ::System::Text::EncoderNLS*& dyn_encoder();
+    [[deprecated("Use field access instead!")]] ::System::Text::EncoderNLS*& dyn_encoder();
     // Get instance field reference: System.Text.EncoderFallbackBuffer fallbackBuffer
-    ::System::Text::EncoderFallbackBuffer*& dyn_fallbackBuffer();
+    [[deprecated("Use field access instead!")]] ::System::Text::EncoderFallbackBuffer*& dyn_fallbackBuffer();
     // System.Boolean get_MoreData()
-    // Offset: 0x2026F54
+    // Offset: 0x20707C8
     bool get_MoreData();
     // System.Int32 get_CharsUsed()
-    // Offset: 0x2027018
+    // Offset: 0x207088C
     int get_CharsUsed();
     // System.Int32 get_Count()
-    // Offset: 0x2027030
+    // Offset: 0x20708A4
     int get_Count();
     // System.Void .ctor(System.Text.Encoding inEncoding, System.Text.EncoderNLS inEncoder, System.Byte* inByteStart, System.Int32 inByteCount, System.Char* inCharStart, System.Int32 inCharCount)
-    // Offset: 0x2026BDC
+    // Offset: 0x2070450
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Encoding::EncodingByteBuffer* New_ctor(::System::Text::Encoding* inEncoding, ::System::Text::EncoderNLS* inEncoder, uint8_t* inByteStart, int inByteCount, ::Il2CppChar* inCharStart, int inCharCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::Encoding::EncodingByteBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Encoding::EncodingByteBuffer*, creationType>(inEncoding, inEncoder, inByteStart, inByteCount, inCharStart, inCharCount)));
     }
     // System.Boolean AddByte(System.Byte b, System.Int32 moreBytesExpected)
-    // Offset: 0x2026E14
+    // Offset: 0x2070688
     bool AddByte(uint8_t b, int moreBytesExpected);
     // System.Boolean AddByte(System.Byte b1)
-    // Offset: 0x2026EEC
+    // Offset: 0x2070760
     bool AddByte(uint8_t b1);
     // System.Boolean AddByte(System.Byte b1, System.Byte b2)
-    // Offset: 0x2026EF4
+    // Offset: 0x2070768
     bool AddByte(uint8_t b1, uint8_t b2);
     // System.Boolean AddByte(System.Byte b1, System.Byte b2, System.Int32 moreBytesExpected)
-    // Offset: 0x2026EFC
+    // Offset: 0x2070770
     bool AddByte(uint8_t b1, uint8_t b2, int moreBytesExpected);
     // System.Void MovePrevious(System.Boolean bThrow)
-    // Offset: 0x2026E68
+    // Offset: 0x20706DC
     void MovePrevious(bool bThrow);
     // System.Char GetNextChar()
-    // Offset: 0x2026FA8
+    // Offset: 0x207081C
     ::Il2CppChar GetNextChar();
   }; // System.Text.Encoding/System.Text.EncodingByteBuffer
   #pragma pack(pop)

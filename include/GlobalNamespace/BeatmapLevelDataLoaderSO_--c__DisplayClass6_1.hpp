@@ -31,15 +31,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.AssetBundle assetBundle
     // Size: 0x8
     // Offset: 0x10
@@ -54,13 +46,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.AssetBundle assetBundle
-    ::UnityEngine::AssetBundle*& dyn_assetBundle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AssetBundle*& dyn_assetBundle();
     // Get instance field reference: public BeatmapLevelDataLoaderSO/<>c__DisplayClass6_0 CS$<>8__locals1
-    ::GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0*& dyn_CS$$$8__locals1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0*& dyn_CS$$$8__locals1();
     // public System.Void .ctor()
-    // Offset: 0x14CBE14
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x150371C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1::.ctor");

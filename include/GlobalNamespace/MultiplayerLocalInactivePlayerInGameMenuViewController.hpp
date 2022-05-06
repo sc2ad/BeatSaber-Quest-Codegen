@@ -76,15 +76,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLocalInactivePlayerInGameMenuViewController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Button _disconnectButton
     // Size: 0x8
     // Offset: 0x18
@@ -109,7 +101,7 @@ namespace GlobalNamespace {
     ::UnityEngine::CanvasGroup* globalCanvasGroup;
     // Field size check
     static_assert(sizeof(::UnityEngine::CanvasGroup*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1252DDC
+    // [SpaceAttribute] Offset: 0x10D79C0
     // private UnityEngine.GameObject _mainBar
     // Size: 0x8
     // Offset: 0x38
@@ -122,49 +114,49 @@ namespace GlobalNamespace {
     ::GlobalNamespace::DisconnectPromptView* disconnectPromptView;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::DisconnectPromptView*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1252E24
+    // [SpaceAttribute] Offset: 0x10D7A08
     // private LevelBar _levelBar
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::LevelBar* levelBar;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LevelBar*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1252E5C
+    // [SpaceAttribute] Offset: 0x10D7A40
     // private UnityEngine.GameObject _dontOwnSongGameObject
     // Size: 0x8
     // Offset: 0x50
     ::UnityEngine::GameObject* dontOwnSongGameObject;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1252E94
+    // [SpaceAttribute] Offset: 0x10D7A78
     // private UnityEngine.GameObject _detailsGameObject
     // Size: 0x8
     // Offset: 0x58
     ::UnityEngine::GameObject* detailsGameObject;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252ECC
+    // [InjectAttribute] Offset: 0x10D7AB0
     // private readonly LocalPlayerInGameMenuInitData _localPlayerInGameMenuInitData
     // Size: 0x8
     // Offset: 0x60
     ::GlobalNamespace::LocalPlayerInGameMenuInitData* localPlayerInGameMenuInitData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LocalPlayerInGameMenuInitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252EDC
+    // [InjectAttribute] Offset: 0x10D7AC0
     // private readonly MultiplayerLocalPlayerDisconnectHelper _disconnectHelper
     // Size: 0x8
     // Offset: 0x68
     ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* disconnectHelper;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252EEC
+    // [InjectAttribute] Offset: 0x10D7AD0
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x70
     ::GlobalNamespace::MultiplayerController* multiplayerController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252EFC
+    // [InjectAttribute] Offset: 0x10D7AE0
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x78
@@ -193,89 +185,87 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Button _disconnectButton
-    ::UnityEngine::UI::Button*& dyn__disconnectButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__disconnectButton();
     // Get instance field reference: private Polyglot.LocalizedTextMeshProUGUI _disconnectButtonLocalizedText
-    ::Polyglot::LocalizedTextMeshProUGUI*& dyn__disconnectButtonLocalizedText();
+    [[deprecated("Use field access instead!")]] ::Polyglot::LocalizedTextMeshProUGUI*& dyn__disconnectButtonLocalizedText();
     // Get instance field reference: private UnityEngine.UI.Toggle _detailsToggle
-    ::UnityEngine::UI::Toggle*& dyn__detailsToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__detailsToggle();
     // Get instance field reference: private UnityEngine.CanvasGroup _globalCanvasGroup
-    ::UnityEngine::CanvasGroup*& dyn__globalCanvasGroup();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::CanvasGroup*& dyn__globalCanvasGroup();
     // Get instance field reference: private UnityEngine.GameObject _mainBar
-    ::UnityEngine::GameObject*& dyn__mainBar();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__mainBar();
     // Get instance field reference: private DisconnectPromptView _disconnectPromptView
-    ::GlobalNamespace::DisconnectPromptView*& dyn__disconnectPromptView();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DisconnectPromptView*& dyn__disconnectPromptView();
     // Get instance field reference: private LevelBar _levelBar
-    ::GlobalNamespace::LevelBar*& dyn__levelBar();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelBar*& dyn__levelBar();
     // Get instance field reference: private UnityEngine.GameObject _dontOwnSongGameObject
-    ::UnityEngine::GameObject*& dyn__dontOwnSongGameObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__dontOwnSongGameObject();
     // Get instance field reference: private UnityEngine.GameObject _detailsGameObject
-    ::UnityEngine::GameObject*& dyn__detailsGameObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__detailsGameObject();
     // Get instance field reference: private readonly LocalPlayerInGameMenuInitData _localPlayerInGameMenuInitData
-    ::GlobalNamespace::LocalPlayerInGameMenuInitData*& dyn__localPlayerInGameMenuInitData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LocalPlayerInGameMenuInitData*& dyn__localPlayerInGameMenuInitData();
     // Get instance field reference: private readonly MultiplayerLocalPlayerDisconnectHelper _disconnectHelper
-    ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*& dyn__disconnectHelper();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*& dyn__disconnectHelper();
     // Get instance field reference: private readonly MultiplayerController _multiplayerController
-    ::GlobalNamespace::MultiplayerController*& dyn__multiplayerController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerController*& dyn__multiplayerController();
     // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
-    ::Tweening::TimeTweeningManager*& dyn__tweeningManager();
+    [[deprecated("Use field access instead!")]] ::Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private readonly HMUI.ButtonBinder _buttonBinder
-    ::HMUI::ButtonBinder*& dyn__buttonBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // Get instance field reference: private readonly HMUI.ToggleBinder _toggleBinder
-    ::HMUI::ToggleBinder*& dyn__toggleBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ToggleBinder*& dyn__toggleBinder();
     // Get instance field reference: private Tweening.Tween _fadeOutTween
-    ::Tweening::Tween*& dyn__fadeOutTween();
-    // protected System.Void OnEnable()
-    // Offset: 0x13980B4
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x13981E0
-    void OnDisable();
-    // protected System.Void Start()
-    // Offset: 0x1398294
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x1398448
-    void OnDestroy();
-    // private System.Void DisconnectButtonPressed()
-    // Offset: 0x1398578
-    void DisconnectButtonPressed();
-    // private System.Void DetailsToggleValueChanged(System.Boolean isOn)
-    // Offset: 0x13985B8
-    void DetailsToggleValueChanged(bool isOn);
-    // private System.Void HandleDisconnectPromptViewDidViewFinish(System.Boolean disconnect)
-    // Offset: 0x13985D8
-    void HandleDisconnectPromptViewDidViewFinish(bool disconnect);
-    // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x13988B8
-    void HandleStateChanged(::GlobalNamespace::MultiplayerController::State state);
-    // private System.Void <HandleDisconnectPromptViewDidViewFinish>b__22_0()
-    // Offset: 0x1398AC8
-    void $HandleDisconnectPromptViewDidViewFinish$b__22_0();
-    // private System.Void <HandleStateChanged>b__23_0(System.Single val)
-    // Offset: 0x1398AE8
-    void $HandleStateChanged$b__23_0(float val);
-    // private System.Void <HandleStateChanged>b__23_1()
-    // Offset: 0x1398B04
-    void $HandleStateChanged$b__23_1();
+    [[deprecated("Use field access instead!")]] ::Tweening::Tween*& dyn__fadeOutTween();
     // public System.Void .ctor()
-    // Offset: 0x1398A40
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1394EEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalInactivePlayerInGameMenuViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalInactivePlayerInGameMenuViewController*, creationType>()));
     }
+    // protected System.Void OnEnable()
+    // Offset: 0x1394560
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x139468C
+    void OnDisable();
+    // protected System.Void Start()
+    // Offset: 0x1394740
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13948F4
+    void OnDestroy();
+    // private System.Void DisconnectButtonPressed()
+    // Offset: 0x1394A24
+    void DisconnectButtonPressed();
+    // private System.Void DetailsToggleValueChanged(System.Boolean isOn)
+    // Offset: 0x1394A64
+    void DetailsToggleValueChanged(bool isOn);
+    // private System.Void HandleDisconnectPromptViewDidViewFinish(System.Boolean disconnect)
+    // Offset: 0x1394A84
+    void HandleDisconnectPromptViewDidViewFinish(bool disconnect);
+    // private System.Void HandleStateChanged(MultiplayerController/State state)
+    // Offset: 0x1394D64
+    void HandleStateChanged(::GlobalNamespace::MultiplayerController::State state);
+    // private System.Void <HandleDisconnectPromptViewDidViewFinish>b__22_0()
+    // Offset: 0x1394F74
+    void $HandleDisconnectPromptViewDidViewFinish$b__22_0();
+    // private System.Void <HandleStateChanged>b__23_0(System.Single val)
+    // Offset: 0x1394F94
+    void $HandleStateChanged$b__23_0(float val);
+    // private System.Void <HandleStateChanged>b__23_1()
+    // Offset: 0x1394FB0
+    void $HandleStateChanged$b__23_1();
   }; // MultiplayerLocalInactivePlayerInGameMenuViewController
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalInactivePlayerInGameMenuViewController), 144 + sizeof(::Tweening::Tween*)> __GlobalNamespace_MultiplayerLocalInactivePlayerInGameMenuViewControllerSizeCheck;
   static_assert(sizeof(MultiplayerLocalInactivePlayerInGameMenuViewController) == 0x98);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -368,7 +358,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController*), "<HandleStateChanged>b__23_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

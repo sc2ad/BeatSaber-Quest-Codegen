@@ -35,16 +35,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerOffsetPositionByLocalPlayerPosition : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x1254C48
+    // [InjectAttribute] Offset: 0x10D982C
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x18
@@ -79,46 +71,44 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly MultiplayerPlayersManager _multiplayerPlayersManager
-    ::GlobalNamespace::MultiplayerPlayersManager*& dyn__multiplayerPlayersManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerPlayersManager*& dyn__multiplayerPlayersManager();
     // Get instance field reference: private UnityEngine.Vector3 _positionOffset
-    ::UnityEngine::Vector3& dyn__positionOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__positionOffset();
     // Get instance field reference: private UnityEngine.Quaternion _rotationOffset
-    ::UnityEngine::Quaternion& dyn__rotationOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__rotationOffset();
     // Get instance field reference: private UnityEngine.Vector3 _lastParentPosition
-    ::UnityEngine::Vector3& dyn__lastParentPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__lastParentPosition();
     // Get instance field reference: private UnityEngine.Quaternion _lastParentRotation
-    ::UnityEngine::Quaternion& dyn__lastParentRotation();
-    // protected System.Void Awake()
-    // Offset: 0x139ECF8
-    void Awake();
-    // protected System.Void Update()
-    // Offset: 0x139ED4C
-    void Update();
-    // public System.Void SetEnabled(System.Boolean isEnabled)
-    // Offset: 0x139EFD8
-    void SetEnabled(bool isEnabled);
-    // private System.Void UpdatePositionAndRotationIfNeeded()
-    // Offset: 0x139ED50
-    void UpdatePositionAndRotationIfNeeded();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__lastParentRotation();
     // public System.Void .ctor()
-    // Offset: 0x139F074
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x139B520
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerOffsetPositionByLocalPlayerPosition* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerOffsetPositionByLocalPlayerPosition*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x139B1A4
+    void Awake();
+    // protected System.Void Update()
+    // Offset: 0x139B1F8
+    void Update();
+    // public System.Void SetEnabled(System.Boolean isEnabled)
+    // Offset: 0x139B484
+    void SetEnabled(bool isEnabled);
+    // private System.Void UpdatePositionAndRotationIfNeeded()
+    // Offset: 0x139B1FC
+    void UpdatePositionAndRotationIfNeeded();
   }; // MultiplayerOffsetPositionByLocalPlayerPosition
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerOffsetPositionByLocalPlayerPosition), 72 + sizeof(::UnityEngine::Quaternion)> __GlobalNamespace_MultiplayerOffsetPositionByLocalPlayerPositionSizeCheck;
   static_assert(sizeof(MultiplayerOffsetPositionByLocalPlayerPosition) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::Awake
 // Il2CppName: Awake
 template<>
@@ -152,7 +142,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*), "UpdatePositionAndRotationIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

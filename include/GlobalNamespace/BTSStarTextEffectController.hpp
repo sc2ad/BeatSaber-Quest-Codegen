@@ -52,15 +52,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::BTSStarTextEffectController::Pool
     class Pool;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Transform _transform
     // Size: 0x8
     // Offset: 0x18
@@ -95,32 +87,26 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kAnimationName
     static void _set_kAnimationName(::StringW value);
     // Get instance field reference: private UnityEngine.Transform _transform
-    ::UnityEngine::Transform*& dyn__transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // Get instance field reference: private UnityEngine.SpriteRenderer _spriteRenderer
-    ::UnityEngine::SpriteRenderer*& dyn__spriteRenderer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::SpriteRenderer*& dyn__spriteRenderer();
     // Get instance field reference: private UnityEngine.Animation _animation
-    ::UnityEngine::Animation*& dyn__animation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Animation*& dyn__animation();
     // Get instance field reference: private System.Single _currentAnimationDuration
-    float& dyn__currentAnimationDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__currentAnimationDuration();
     // public System.Single get_animationDuration()
-    // Offset: 0x135CAA0
+    // Offset: 0x1344D20
     float get_animationDuration();
-    // private System.Void Reinitialize(UnityEngine.Sprite sprite, UnityEngine.Transform parentTransform, System.Single desiredAnimationLength)
-    // Offset: 0x135CAA8
-    void Reinitialize(::UnityEngine::Sprite* sprite, ::UnityEngine::Transform* parentTransform, float desiredAnimationLength);
     // public System.Void .ctor()
-    // Offset: 0x135CBB8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1344E38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSStarTextEffectController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSStarTextEffectController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSStarTextEffectController*, creationType>()));
     }
+    // private System.Void Reinitialize(UnityEngine.Sprite sprite, UnityEngine.Transform parentTransform, System.Single desiredAnimationLength)
+    // Offset: 0x1344D28
+    void Reinitialize(::UnityEngine::Sprite* sprite, ::UnityEngine::Transform* parentTransform, float desiredAnimationLength);
   }; // BTSStarTextEffectController
   #pragma pack(pop)
   static check_size<sizeof(BTSStarTextEffectController), 48 + sizeof(float)> __GlobalNamespace_BTSStarTextEffectControllerSizeCheck;
@@ -135,6 +121,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSStarTextEffectController*), "get_animationDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEffectController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEffectController::Reinitialize
 // Il2CppName: Reinitialize
 template<>
@@ -146,7 +136,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSStarTextEffectController*), "Reinitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sprite, parentTransform, desiredAnimationLength});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEffectController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

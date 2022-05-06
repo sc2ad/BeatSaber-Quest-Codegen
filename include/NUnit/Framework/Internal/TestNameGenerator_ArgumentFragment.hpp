@@ -34,15 +34,7 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestNameGenerator::ArgumentFragment : public ::NUnit::Framework::Internal::TestNameGenerator::NameFragment {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _index
     // Size: 0x4
     // Offset: 0x10
@@ -57,18 +49,18 @@ namespace NUnit::Framework::Internal {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Int32 _index
-    int& dyn__index();
+    [[deprecated("Use field access instead!")]] int& dyn__index();
     // Get instance field reference: private System.Int32 _maxStringLength
-    int& dyn__maxStringLength();
+    [[deprecated("Use field access instead!")]] int& dyn__maxStringLength();
     // public System.Void .ctor(System.Int32 index, System.Int32 maxStringLength)
-    // Offset: 0x29B30E8
+    // Offset: 0x2A0F0E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestNameGenerator::ArgumentFragment* New_ctor(int index, int maxStringLength) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestNameGenerator::ArgumentFragment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator::ArgumentFragment*, creationType>(index, maxStringLength)));
     }
     // public override System.String GetText(System.Reflection.MethodInfo method, System.Object[] args)
-    // Offset: 0x29B3C58
+    // Offset: 0x2A0FC50
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.NameFragment
     // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] args)
     ::StringW GetText(::System::Reflection::MethodInfo* method, ::ArrayW<::Il2CppObject*> args);

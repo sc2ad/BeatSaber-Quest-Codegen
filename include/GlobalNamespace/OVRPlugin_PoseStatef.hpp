@@ -74,19 +74,19 @@ namespace GlobalNamespace {
     // Set static field: static public readonly OVRPlugin/PoseStatef identity
     static void _set_identity(::GlobalNamespace::OVRPlugin::PoseStatef value);
     // Get instance field reference: public OVRPlugin/Posef Pose
-    ::GlobalNamespace::OVRPlugin::Posef& dyn_Pose();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Posef& dyn_Pose();
     // Get instance field reference: public OVRPlugin/Vector3f Velocity
-    ::GlobalNamespace::OVRPlugin::Vector3f& dyn_Velocity();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Vector3f& dyn_Velocity();
     // Get instance field reference: public OVRPlugin/Vector3f Acceleration
-    ::GlobalNamespace::OVRPlugin::Vector3f& dyn_Acceleration();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Vector3f& dyn_Acceleration();
     // Get instance field reference: public OVRPlugin/Vector3f AngularVelocity
-    ::GlobalNamespace::OVRPlugin::Vector3f& dyn_AngularVelocity();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Vector3f& dyn_AngularVelocity();
     // Get instance field reference: public OVRPlugin/Vector3f AngularAcceleration
-    ::GlobalNamespace::OVRPlugin::Vector3f& dyn_AngularAcceleration();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Vector3f& dyn_AngularAcceleration();
     // Get instance field reference: public System.Double Time
-    double& dyn_Time();
+    [[deprecated("Use field access instead!")]] double& dyn_Time();
     // static private System.Void .cctor()
-    // Offset: 0x1AE32D8
+    // Offset: 0x1B1D8C0
     static void _cctor();
   }; // OVRPlugin/PoseStatef
   #pragma pack(pop)

@@ -43,15 +43,7 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ConventionAssemblySelectionBinder::$$c__DisplayClass12_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Collections.Generic.IEnumerable`1<System.Reflection.Assembly> assemblies
     // Size: 0x8
     // Offset: 0x10
@@ -64,31 +56,33 @@ namespace Zenject {
       return assemblies;
     }
     // Get instance field reference: public System.Collections.Generic.IEnumerable`1<System.Reflection.Assembly> assemblies
-    ::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>*& dyn_assemblies();
-    // System.Boolean <FromAssemblies>b__0(System.Reflection.Assembly assembly)
-    // Offset: 0x1739590
-    bool $FromAssemblies$b__0(::System::Reflection::Assembly* assembly);
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x17395F0
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x173964C
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>*& dyn_assemblies();
     // public System.Void .ctor()
-    // Offset: 0x17392BC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1771BCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConventionAssemblySelectionBinder::$$c__DisplayClass12_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ConventionAssemblySelectionBinder::$$c__DisplayClass12_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConventionAssemblySelectionBinder::$$c__DisplayClass12_0*, creationType>()));
     }
+    // System.Boolean <FromAssemblies>b__0(System.Reflection.Assembly assembly)
+    // Offset: 0x1771EA0
+    bool $FromAssemblies$b__0(::System::Reflection::Assembly* assembly);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1771F00
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1771F5C
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.ConventionAssemblySelectionBinder/Zenject.<>c__DisplayClass12_0
   #pragma pack(pop)
   static check_size<sizeof(ConventionAssemblySelectionBinder::$$c__DisplayClass12_0), 16 + sizeof(::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>*)> __Zenject_ConventionAssemblySelectionBinder_$$c__DisplayClass12_0SizeCheck;
   static_assert(sizeof(ConventionAssemblySelectionBinder::$$c__DisplayClass12_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::$$c__DisplayClass12_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::$$c__DisplayClass12_0::$FromAssemblies$b__0
 // Il2CppName: <FromAssemblies>b__0
 template<>
@@ -115,7 +109,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionAssemblySelectionBinder::$$c__DisplayClass12_0*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::$$c__DisplayClass12_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

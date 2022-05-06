@@ -72,7 +72,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.TouchPhase Canceled
     static void _set_Canceled(::UnityEngine::TouchPhase value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.TouchPhase
   #pragma pack(pop)
   static check_size<sizeof(TouchPhase), 0 + sizeof(int)> __UnityEngine_TouchPhaseSizeCheck;

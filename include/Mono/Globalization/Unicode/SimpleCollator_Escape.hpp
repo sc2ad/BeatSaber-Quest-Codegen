@@ -61,15 +61,15 @@ namespace Mono::Globalization::Unicode {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.String Source
-    ::StringW& dyn_Source();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Source();
     // Get instance field reference: public System.Int32 Index
-    int& dyn_Index();
+    [[deprecated("Use field access instead!")]] int& dyn_Index();
     // Get instance field reference: public System.Int32 Start
-    int& dyn_Start();
+    [[deprecated("Use field access instead!")]] int& dyn_Start();
     // Get instance field reference: public System.Int32 End
-    int& dyn_End();
+    [[deprecated("Use field access instead!")]] int& dyn_End();
     // Get instance field reference: public System.Int32 Optional
-    int& dyn_Optional();
+    [[deprecated("Use field access instead!")]] int& dyn_Optional();
   }; // Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.Escape
   #pragma pack(pop)
   static check_size<sizeof(SimpleCollator::Escape), 20 + sizeof(int)> __Mono_Globalization_Unicode_SimpleCollator_EscapeSizeCheck;

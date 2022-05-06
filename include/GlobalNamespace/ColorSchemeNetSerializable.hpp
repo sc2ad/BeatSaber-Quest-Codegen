@@ -95,27 +95,27 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
     // Get instance field reference: public ColorNoAlphaSerializable saberAColor
-    ::GlobalNamespace::ColorNoAlphaSerializable& dyn_saberAColor();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorNoAlphaSerializable& dyn_saberAColor();
     // Get instance field reference: public ColorNoAlphaSerializable saberBColor
-    ::GlobalNamespace::ColorNoAlphaSerializable& dyn_saberBColor();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorNoAlphaSerializable& dyn_saberBColor();
     // Get instance field reference: public ColorNoAlphaSerializable obstaclesColor
-    ::GlobalNamespace::ColorNoAlphaSerializable& dyn_obstaclesColor();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorNoAlphaSerializable& dyn_obstaclesColor();
     // Get instance field reference: public ColorNoAlphaSerializable environmentColor0
-    ::GlobalNamespace::ColorNoAlphaSerializable& dyn_environmentColor0();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorNoAlphaSerializable& dyn_environmentColor0();
     // Get instance field reference: public ColorNoAlphaSerializable environmentColor1
-    ::GlobalNamespace::ColorNoAlphaSerializable& dyn_environmentColor1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorNoAlphaSerializable& dyn_environmentColor1();
     // Get instance field reference: public ColorNoAlphaSerializable environmentColor0Boost
-    ::GlobalNamespace::ColorNoAlphaSerializable& dyn_environmentColor0Boost();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorNoAlphaSerializable& dyn_environmentColor0Boost();
     // Get instance field reference: public ColorNoAlphaSerializable environmentColor1Boost
-    ::GlobalNamespace::ColorNoAlphaSerializable& dyn_environmentColor1Boost();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorNoAlphaSerializable& dyn_environmentColor1Boost();
     // public System.Void .ctor(UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color obstaclesColor, UnityEngine.Color environmentColor0, UnityEngine.Color environmentColor1, UnityEngine.Color environmentColor0Boost, UnityEngine.Color environmentColor1Boost)
-    // Offset: 0x1503D8C
+    // Offset: 0x153B694
     ColorSchemeNetSerializable(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1503F18
+    // Offset: 0x153B820
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1503F9C
+    // Offset: 0x153B8A4
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
   }; // ColorSchemeNetSerializable
   #pragma pack(pop)

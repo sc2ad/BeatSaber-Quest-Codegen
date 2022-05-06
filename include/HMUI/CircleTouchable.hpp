@@ -39,15 +39,7 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class CircleTouchable : public ::HMUI::Touchable {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _minRadius
     // Size: 0x4
     // Offset: 0x90
@@ -68,43 +60,36 @@ namespace HMUI {
     static_assert(sizeof(::UnityEngine::RectTransform*) == 0x8);
     public:
     // Get instance field reference: private System.Single _minRadius
-    float& dyn__minRadius();
+    [[deprecated("Use field access instead!")]] float& dyn__minRadius();
     // Get instance field reference: private System.Single _maxRadius
-    float& dyn__maxRadius();
+    [[deprecated("Use field access instead!")]] float& dyn__maxRadius();
     // Get instance field reference: private UnityEngine.RectTransform _containerRect
-    ::UnityEngine::RectTransform*& dyn__containerRect();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__containerRect();
     // private System.Void UpdateCachedReferences()
-    // Offset: 0x16E0BD0
+    // Offset: 0x17184E0
     void UpdateCachedReferences();
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x16E0D1C
+    // Offset: 0x171862C
     void OnDrawGizmosSelected();
     // private System.Void DrawGizmoCircle(UnityEngine.Vector3 center, System.Single radius, System.Int32 steps)
-    // Offset: 0x16E0E9C
+    // Offset: 0x17187AC
     void DrawGizmoCircle(::UnityEngine::Vector3 center, float radius, int steps);
     // public System.Void .ctor()
-    // Offset: 0x16E1078
+    // Offset: 0x1718988
     // Implemented from: HMUI.Touchable
     // Base method: System.Void Touchable::.ctor()
-    // Base method: System.Void Graphic::.ctor()
-    // Base method: System.Void UIBehaviour::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CircleTouchable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::CircleTouchable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CircleTouchable*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x16E0BA8
+    // Offset: 0x17184B8
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnEnable()
     void OnEnable();
     // public override System.Boolean Raycast(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
-    // Offset: 0x16E0C44
+    // Offset: 0x1718554
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Boolean Graphic::Raycast(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
     bool Raycast(::UnityEngine::Vector2 sp, ::UnityEngine::Camera* eventCamera);

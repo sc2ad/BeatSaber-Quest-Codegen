@@ -32,15 +32,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
   // [TokenAttribute] Offset: FFFFFFFF
   class MD2Digest : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IDigest, public ::Org::BouncyCastle::Utilities::IMemoable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Byte[] X
     // Size: 0x8
     // Offset: 0x10
@@ -95,72 +87,70 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Set static field: static private readonly System.Byte[] S
     static void _set_S(::ArrayW<uint8_t> value);
     // Get instance field reference: private System.Byte[] X
-    ::ArrayW<uint8_t>& dyn_X();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_X();
     // Get instance field reference: private System.Int32 xOff
-    int& dyn_xOff();
+    [[deprecated("Use field access instead!")]] int& dyn_xOff();
     // Get instance field reference: private System.Byte[] M
-    ::ArrayW<uint8_t>& dyn_M();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_M();
     // Get instance field reference: private System.Int32 mOff
-    int& dyn_mOff();
+    [[deprecated("Use field access instead!")]] int& dyn_mOff();
     // Get instance field reference: private System.Byte[] C
-    ::ArrayW<uint8_t>& dyn_C();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_C();
     // Get instance field reference: private System.Int32 COff
-    int& dyn_COff();
+    [[deprecated("Use field access instead!")]] int& dyn_COff();
     // public System.String get_AlgorithmName()
-    // Offset: 0x224C8D0
+    // Offset: 0x2297144
     ::StringW get_AlgorithmName();
+    // public System.Void .ctor()
+    // Offset: 0x2296EC0
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static MD2Digest* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::MD2Digest::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<MD2Digest*, creationType>()));
+    }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.MD2Digest t)
-    // Offset: 0x224C798
+    // Offset: 0x229700C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MD2Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::MD2Digest* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::MD2Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MD2Digest*, creationType>(t)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x224CFA8
+    // Offset: 0x229781C
     static void _cctor();
     // private System.Void CopyIn(Org.BouncyCastle.Crypto.Digests.MD2Digest t)
-    // Offset: 0x224C830
+    // Offset: 0x22970A4
     void CopyIn(::Org::BouncyCastle::Crypto::Digests::MD2Digest* t);
     // public System.Int32 GetDigestSize()
-    // Offset: 0x224C918
+    // Offset: 0x229718C
     int GetDigestSize();
     // public System.Int32 GetByteLength()
-    // Offset: 0x224C920
+    // Offset: 0x2297194
     int GetByteLength();
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x224C928
+    // Offset: 0x229719C
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x224C6D4
+    // Offset: 0x2296F48
     void Reset();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x224CCF4
+    // Offset: 0x2297568
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x224CD70
+    // Offset: 0x22975E4
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int length);
     // System.Void ProcessChecksum(System.Byte[] m)
-    // Offset: 0x224C9F8
+    // Offset: 0x229726C
     void ProcessChecksum(::ArrayW<uint8_t> m);
     // System.Void ProcessBlock(System.Byte[] m)
-    // Offset: 0x224CB44
+    // Offset: 0x22973B8
     void ProcessBlock(::ArrayW<uint8_t> m);
     // public Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x224CEB4
+    // Offset: 0x2297728
     ::Org::BouncyCastle::Utilities::IMemoable* Copy();
     // public System.Void Reset(Org.BouncyCastle.Utilities.IMemoable other)
-    // Offset: 0x224CF14
+    // Offset: 0x2297788
     void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
-    // public System.Void .ctor()
-    // Offset: 0x224C64C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MD2Digest* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::MD2Digest::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<MD2Digest*, creationType>()));
-    }
   }; // Org.BouncyCastle.Crypto.Digests.MD2Digest
   #pragma pack(pop)
   static check_size<sizeof(MD2Digest), 56 + sizeof(int)> __Org_BouncyCastle_Crypto_Digests_MD2DigestSizeCheck;
@@ -175,6 +165,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::MD2Digest*), "get_AlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::MD2Digest::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::MD2Digest::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -285,7 +279,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::MD2Digest*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::MD2Digest::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

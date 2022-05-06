@@ -41,15 +41,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   // [TokenAttribute] Offset: FFFFFFFF
   class AttributePkcs : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier attrType
     // Size: 0x8
     // Offset: 0x10
@@ -64,27 +56,27 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     static_assert(sizeof(::Org::BouncyCastle::Asn1::Asn1Set*) == 0x8);
     public:
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier attrType
-    ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_attrType();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_attrType();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Set attrValues
-    ::Org::BouncyCastle::Asn1::Asn1Set*& dyn_attrValues();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1Set*& dyn_attrValues();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_AttrType()
-    // Offset: 0x1C8EDBC
+    // Offset: 0x1CCB314
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_AttrType();
     // public Org.BouncyCastle.Asn1.Asn1Set get_AttrValues()
-    // Offset: 0x1C8EDC4
+    // Offset: 0x1CCB31C
     ::Org::BouncyCastle::Asn1::Asn1Set* get_AttrValues();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1C8EC90
+    // Offset: 0x1CCB1E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AttributePkcs* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Pkcs::AttributePkcs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AttributePkcs*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.Pkcs.AttributePkcs GetInstance(System.Object obj)
-    // Offset: 0x1C8EB44
+    // Offset: 0x1CCB09C
     static ::Org::BouncyCastle::Asn1::Pkcs::AttributePkcs* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1C8EDCC
+    // Offset: 0x1CCB324
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

@@ -35,15 +35,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScalarSplitParameters : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected readonly Org.BouncyCastle.Math.BigInteger m_v1A
     // Size: 0x8
     // Offset: 0x10
@@ -88,49 +80,49 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger m_v1A
-    ::Org::BouncyCastle::Math::BigInteger*& dyn_m_v1A();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_m_v1A();
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger m_v1B
-    ::Org::BouncyCastle::Math::BigInteger*& dyn_m_v1B();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_m_v1B();
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger m_v2A
-    ::Org::BouncyCastle::Math::BigInteger*& dyn_m_v2A();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_m_v2A();
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger m_v2B
-    ::Org::BouncyCastle::Math::BigInteger*& dyn_m_v2B();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_m_v2B();
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger m_g1
-    ::Org::BouncyCastle::Math::BigInteger*& dyn_m_g1();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_m_g1();
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger m_g2
-    ::Org::BouncyCastle::Math::BigInteger*& dyn_m_g2();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_m_g2();
     // Get instance field reference: protected readonly System.Int32 m_bits
-    int& dyn_m_bits();
+    [[deprecated("Use field access instead!")]] int& dyn_m_bits();
     // public Org.BouncyCastle.Math.BigInteger get_V1A()
-    // Offset: 0x2707208
+    // Offset: 0x2759718
     ::Org::BouncyCastle::Math::BigInteger* get_V1A();
     // public Org.BouncyCastle.Math.BigInteger get_V1B()
-    // Offset: 0x2707210
+    // Offset: 0x2759720
     ::Org::BouncyCastle::Math::BigInteger* get_V1B();
     // public Org.BouncyCastle.Math.BigInteger get_V2A()
-    // Offset: 0x2707218
+    // Offset: 0x2759728
     ::Org::BouncyCastle::Math::BigInteger* get_V2A();
     // public Org.BouncyCastle.Math.BigInteger get_V2B()
-    // Offset: 0x2707220
+    // Offset: 0x2759730
     ::Org::BouncyCastle::Math::BigInteger* get_V2B();
     // public Org.BouncyCastle.Math.BigInteger get_G1()
-    // Offset: 0x2707228
+    // Offset: 0x2759738
     ::Org::BouncyCastle::Math::BigInteger* get_G1();
     // public Org.BouncyCastle.Math.BigInteger get_G2()
-    // Offset: 0x2707230
+    // Offset: 0x2759740
     ::Org::BouncyCastle::Math::BigInteger* get_G2();
     // public System.Int32 get_Bits()
-    // Offset: 0x2707238
+    // Offset: 0x2759748
     int get_Bits();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger[] v1, Org.BouncyCastle.Math.BigInteger[] v2, Org.BouncyCastle.Math.BigInteger g1, Org.BouncyCastle.Math.BigInteger g2, System.Int32 bits)
-    // Offset: 0x2707100
+    // Offset: 0x2759610
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScalarSplitParameters* New_ctor(::ArrayW<::Org::BouncyCastle::Math::BigInteger*> v1, ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> v2, ::Org::BouncyCastle::Math::BigInteger* g1, ::Org::BouncyCastle::Math::BigInteger* g2, int bits) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScalarSplitParameters*, creationType>(v1, v2, g1, g2, bits)));
     }
     // static private System.Void CheckVector(Org.BouncyCastle.Math.BigInteger[] v, System.String name)
-    // Offset: 0x2707054
+    // Offset: 0x2759564
     static void CheckVector(::ArrayW<::Org::BouncyCastle::Math::BigInteger*> v, ::StringW name);
   }; // Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters
   #pragma pack(pop)

@@ -56,15 +56,7 @@ namespace System::Threading {
     class InvocationContext;
     // Nested type: ::System::Threading::OSSpecificSynchronizationContext::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Object m_OSSynchronizationContext
     // Size: 0x8
     // Offset: 0x18
@@ -79,41 +71,41 @@ namespace System::Threading {
     // Set static field: static private readonly System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Threading.OSSpecificSynchronizationContext> s_ContextCache
     static void _set_s_ContextCache(::System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, ::System::Threading::OSSpecificSynchronizationContext*>* value);
     // Get instance field reference: private System.Object m_OSSynchronizationContext
-    ::Il2CppObject*& dyn_m_OSSynchronizationContext();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_m_OSSynchronizationContext();
     // private System.Void .ctor(System.Object osContext)
-    // Offset: 0x1DCC220
+    // Offset: 0x1DCDD84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OSSpecificSynchronizationContext* New_ctor(::Il2CppObject* osContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::OSSpecificSynchronizationContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OSSpecificSynchronizationContext*, creationType>(osContext)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1DCC610
+    // Offset: 0x1DCE174
     static void _cctor();
     // static public System.Threading.OSSpecificSynchronizationContext Get()
-    // Offset: 0x1DCC254
+    // Offset: 0x1DCDDB8
     static ::System::Threading::OSSpecificSynchronizationContext* Get();
     // static private System.Void InvocationEntry(System.IntPtr arg)
-    // Offset: 0x1DCC0C4
+    // Offset: 0x1DCDC28
     static void InvocationEntry(::System::IntPtr arg);
     // static private System.Object GetOSContext()
-    // Offset: 0x1DCC3A8
+    // Offset: 0x1DCDF0C
     static ::Il2CppObject* GetOSContext();
     // static private System.Void PostInternal(System.Object osSynchronizationContext, System.IntPtr callback, System.IntPtr arg)
-    // Offset: 0x1DCC5EC
+    // Offset: 0x1DCE150
     static void PostInternal(::Il2CppObject* osSynchronizationContext, ::System::IntPtr callback, ::System::IntPtr arg);
     // public override System.Threading.SynchronizationContext CreateCopy()
-    // Offset: 0x1DCC3AC
+    // Offset: 0x1DCDF10
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Threading.SynchronizationContext SynchronizationContext::CreateCopy()
     ::System::Threading::SynchronizationContext* CreateCopy();
     // public override System.Void Send(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0x1DCC414
+    // Offset: 0x1DCDF78
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::Send(System.Threading.SendOrPostCallback d, System.Object state)
     void Send(::System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
     // public override System.Void Post(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0x1DCC474
+    // Offset: 0x1DCDFD8
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::Post(System.Threading.SendOrPostCallback d, System.Object state)
     void Post(::System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);

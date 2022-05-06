@@ -60,7 +60,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.MixedLightingMode Subtractive
     static void _set_Subtractive(::UnityEngine::MixedLightingMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.MixedLightingMode
   #pragma pack(pop)
   static check_size<sizeof(MixedLightingMode), 0 + sizeof(int)> __UnityEngine_MixedLightingModeSizeCheck;

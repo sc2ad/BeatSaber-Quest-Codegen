@@ -70,15 +70,7 @@ namespace Zenject {
     public:
     // Nested type: ::Zenject::PrefabInstantiator::$$c__DisplayClass15_0
     class $$c__DisplayClass15_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Zenject.IPrefabProvider _prefabProvider
     // Size: 0x8
     // Offset: 0x10
@@ -127,40 +119,40 @@ namespace Zenject {
       return *reinterpret_cast<::Zenject::IPrefabInstantiator*>(this);
     }
     // Get instance field reference: private readonly Zenject.IPrefabProvider _prefabProvider
-    ::Zenject::IPrefabProvider*& dyn__prefabProvider();
+    [[deprecated("Use field access instead!")]] ::Zenject::IPrefabProvider*& dyn__prefabProvider();
     // Get instance field reference: private readonly Zenject.DiContainer _container
-    ::Zenject::DiContainer*& dyn__container();
+    [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn__container();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArguments
-    ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& dyn__extraArguments();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& dyn__extraArguments();
     // Get instance field reference: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
-    ::Zenject::GameObjectCreationParameters*& dyn__gameObjectBindInfo();
+    [[deprecated("Use field access instead!")]] ::Zenject::GameObjectCreationParameters*& dyn__gameObjectBindInfo();
     // Get instance field reference: private readonly System.Type _argumentTarget
-    ::System::Type*& dyn__argumentTarget();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn__argumentTarget();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Type> _instantiateCallbackTypes
-    ::System::Collections::Generic::List_1<::System::Type*>*& dyn__instantiateCallbackTypes();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Type*>*& dyn__instantiateCallbackTypes();
     // Get instance field reference: private readonly System.Action`2<Zenject.InjectContext,System.Object> _instantiateCallback
-    ::System::Action_2<::Zenject::InjectContext*, ::Il2CppObject*>*& dyn__instantiateCallback();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::Zenject::InjectContext*, ::Il2CppObject*>*& dyn__instantiateCallback();
     // public Zenject.GameObjectCreationParameters get_GameObjectCreationParameters()
-    // Offset: 0x1BDEFB0
+    // Offset: 0x1C19598
     ::Zenject::GameObjectCreationParameters* get_GameObjectCreationParameters();
     // public System.Type get_ArgumentTarget()
-    // Offset: 0x1BDEFB8
+    // Offset: 0x1C195A0
     ::System::Type* get_ArgumentTarget();
     // public System.Collections.Generic.List`1<Zenject.TypeValuePair> get_ExtraArguments()
-    // Offset: 0x1BDEFC0
+    // Offset: 0x1C195A8
     ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* get_ExtraArguments();
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.GameObjectCreationParameters gameObjectBindInfo, System.Type argumentTarget, System.Collections.Generic.IEnumerable`1<System.Type> instantiateCallbackTypes, System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArguments, Zenject.IPrefabProvider prefabProvider, System.Action`2<Zenject.InjectContext,System.Object> instantiateCallback)
-    // Offset: 0x1BDE0FC
+    // Offset: 0x1C186E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrefabInstantiator* New_ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Type* argumentTarget, ::System::Collections::Generic::IEnumerable_1<::System::Type*>* instantiateCallbackTypes, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments, ::Zenject::IPrefabProvider* prefabProvider, ::System::Action_2<::Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PrefabInstantiator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrefabInstantiator*, creationType>(container, gameObjectBindInfo, argumentTarget, instantiateCallbackTypes, extraArguments, prefabProvider, instantiateCallback)));
     }
     // public UnityEngine.Object GetPrefab()
-    // Offset: 0x1BDEFC8
+    // Offset: 0x1C195B0
     ::UnityEngine::Object* GetPrefab();
     // public UnityEngine.GameObject Instantiate(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction)
-    // Offset: 0x1BDF078
+    // Offset: 0x1C19660
     ::UnityEngine::GameObject* Instantiate(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction);
   }; // Zenject.PrefabInstantiator
   #pragma pack(pop)

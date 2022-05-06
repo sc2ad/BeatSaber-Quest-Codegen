@@ -27,46 +27,44 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PerlinNoise : public ::Il2CppObject {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1225228
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10A9C40
     // Get static field: static private readonly System.Int32[] permutation
     static ::ArrayW<int> _get_permutation();
     // Set static field: static private readonly System.Int32[] permutation
     static void _set_permutation(::ArrayW<int> value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1225238
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10A9C50
     // Get static field: static private readonly System.Int32[] p
     static ::ArrayW<int> _get_p();
     // Set static field: static private readonly System.Int32[] p
     static void _set_p(::ArrayW<int> value);
     // static private System.Void .cctor()
-    // Offset: 0x29D32D4
+    // Offset: 0x2A257E4
     static void _cctor();
-    // static public System.Single OctavePerlin3D(System.Single x, System.Single y, System.Single z, System.Int32 octaves, System.Single persistence, System.Int32 repeat)
-    // Offset: 0x29D33E0
-    static float OctavePerlin3D(float x, float y, float z, int octaves, float persistence, int repeat);
-    // static public System.Single Perlin3D(System.Single x, System.Single y, System.Single z, System.Int32 repeat)
-    // Offset: 0x29D34D4
-    static float Perlin3D(float x, float y, float z, int repeat);
-    // static private System.Int32 Inc(System.Int32 num, System.Int32 repeat)
-    // Offset: 0x29D3A80
-    static int Inc(int num, int repeat);
-    // static private System.Single Grad3D(System.Int32 hash, System.Single x, System.Single y, System.Single z)
-    // Offset: 0x29D3A98
-    static float Grad3D(int hash, float x, float y, float z);
-    // static private System.Single Fade(System.Single t)
-    // Offset: 0x29D3A54
-    static float Fade(float t);
-    // static private System.Single Lerp(System.Single a, System.Single b, System.Single x)
-    // Offset: 0x29D3B14
-    static float Lerp(float a, float b, float x);
     // public System.Void .ctor()
-    // Offset: 0x29D3B24
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A26034
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PerlinNoise* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PerlinNoise::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PerlinNoise*, creationType>()));
     }
+    // static public System.Single OctavePerlin3D(System.Single x, System.Single y, System.Single z, System.Int32 octaves, System.Single persistence, System.Int32 repeat)
+    // Offset: 0x2A258F0
+    static float OctavePerlin3D(float x, float y, float z, int octaves, float persistence, int repeat);
+    // static public System.Single Perlin3D(System.Single x, System.Single y, System.Single z, System.Int32 repeat)
+    // Offset: 0x2A259E4
+    static float Perlin3D(float x, float y, float z, int repeat);
+    // static private System.Int32 Inc(System.Int32 num, System.Int32 repeat)
+    // Offset: 0x2A25F90
+    static int Inc(int num, int repeat);
+    // static private System.Single Grad3D(System.Int32 hash, System.Single x, System.Single y, System.Single z)
+    // Offset: 0x2A25FA8
+    static float Grad3D(int hash, float x, float y, float z);
+    // static private System.Single Fade(System.Single t)
+    // Offset: 0x2A25F64
+    static float Fade(float t);
+    // static private System.Single Lerp(System.Single a, System.Single b, System.Single x)
+    // Offset: 0x2A26024
+    static float Lerp(float a, float b, float x);
   }; // PerlinNoise
   #pragma pack(pop)
 }
@@ -79,6 +77,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PerlinNoise*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PerlinNoise::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PerlinNoise::OctavePerlin3D
 // Il2CppName: OctavePerlin3D
 template<>
@@ -147,7 +149,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PerlinNoise*), "Lerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b, x});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PerlinNoise::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

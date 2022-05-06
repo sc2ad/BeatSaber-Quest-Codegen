@@ -56,6 +56,13 @@ namespace UnityEngine::ResourceManagement::Util {
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ComponentSingleton_1<T>*>::get(), "get_Instance", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
+    // protected System.Void .ctor()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static ComponentSingleton_1<T>* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Util::ComponentSingleton_1::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<ComponentSingleton_1<T>*, creationType>()));
+    }
     // static private T FindInstance()
     // Offset: 0xFFFFFFFFFFFFFFFF
     static T FindInstance() {
@@ -90,19 +97,6 @@ namespace UnityEngine::ResourceManagement::Util {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Util::ComponentSingleton_1::DestroySingleton");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ComponentSingleton_1<T>*>::get(), "DestroySingleton", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
-    }
-    // protected System.Void .ctor()
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ComponentSingleton_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Util::ComponentSingleton_1::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<ComponentSingleton_1<T>*, creationType>()));
     }
   }; // UnityEngine.ResourceManagement.Util.ComponentSingleton`1
   // Could not write size check! Type: UnityEngine.ResourceManagement.Util.ComponentSingleton`1 is generic, or has no fields that are valid for size checks!

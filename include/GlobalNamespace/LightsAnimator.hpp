@@ -59,15 +59,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::LightsAnimator::$DisableDirectionalLightsCoroutine$d__11
     class $DisableDirectionalLightsCoroutine$d__11;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TubeBloomPrePassLight[] _lights
     // Size: 0x8
     // Offset: 0x18
@@ -80,7 +72,7 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::DirectionalLight*> directionalLights;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::DirectionalLight*>) == 0x8);
-    // [InjectAttribute] Offset: 0x1253D3C
+    // [InjectAttribute] Offset: 0x10D8920
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -97,56 +89,54 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TubeBloomPrePassLight[] _lights
-    ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*>& dyn__lights();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*>& dyn__lights();
     // Get instance field reference: private DirectionalLight[] _directionalLights
-    ::ArrayW<::GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
     // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
-    ::Tweening::TimeTweeningManager*& dyn__tweeningManager();
+    [[deprecated("Use field access instead!")]] ::Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private Tweening.ColorTween _tween
-    ::Tweening::ColorTween*& dyn__tween();
-    // protected System.Void Awake()
-    // Offset: 0x14916D0
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x14917F4
-    void OnDestroy();
-    // public System.Void AnimateToColor(UnityEngine.Color color, System.Single duration, EaseType easeType)
-    // Offset: 0x149188C
-    void AnimateToColor(::UnityEngine::Color color, float duration, ::GlobalNamespace::EaseType easeType);
-    // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x149199C
-    void SetColor(::UnityEngine::Color color);
-    // private System.Void SetLightsColor(UnityEngine.Color color)
-    // Offset: 0x1491A00
-    void SetLightsColor(::UnityEngine::Color color);
-    // public System.Void SetLightsWidth(System.Single width)
-    // Offset: 0x1491B08
-    void SetLightsWidth(float width);
-    // public System.Void DisableDirectionalLights(System.Single delay)
-    // Offset: 0x1491B84
-    void DisableDirectionalLights(float delay);
-    // private System.Collections.IEnumerator DisableDirectionalLightsCoroutine(System.Single delay)
-    // Offset: 0x1491BC4
-    ::System::Collections::IEnumerator* DisableDirectionalLightsCoroutine(float delay);
+    [[deprecated("Use field access instead!")]] ::Tweening::ColorTween*& dyn__tween();
     // public System.Void .ctor()
-    // Offset: 0x1491C70
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14C8528
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightsAnimator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightsAnimator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightsAnimator*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x14C7F88
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x14C80AC
+    void OnDestroy();
+    // public System.Void AnimateToColor(UnityEngine.Color color, System.Single duration, EaseType easeType)
+    // Offset: 0x14C8144
+    void AnimateToColor(::UnityEngine::Color color, float duration, ::GlobalNamespace::EaseType easeType);
+    // public System.Void SetColor(UnityEngine.Color color)
+    // Offset: 0x14C8254
+    void SetColor(::UnityEngine::Color color);
+    // private System.Void SetLightsColor(UnityEngine.Color color)
+    // Offset: 0x14C82B8
+    void SetLightsColor(::UnityEngine::Color color);
+    // public System.Void SetLightsWidth(System.Single width)
+    // Offset: 0x14C83C0
+    void SetLightsWidth(float width);
+    // public System.Void DisableDirectionalLights(System.Single delay)
+    // Offset: 0x14C843C
+    void DisableDirectionalLights(float delay);
+    // private System.Collections.IEnumerator DisableDirectionalLightsCoroutine(System.Single delay)
+    // Offset: 0x14C847C
+    ::System::Collections::IEnumerator* DisableDirectionalLightsCoroutine(float delay);
   }; // LightsAnimator
   #pragma pack(pop)
   static check_size<sizeof(LightsAnimator), 48 + sizeof(::Tweening::ColorTween*)> __GlobalNamespace_LightsAnimatorSizeCheck;
   static_assert(sizeof(LightsAnimator) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::LightsAnimator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LightsAnimator::Awake
 // Il2CppName: Awake
 template<>
@@ -219,7 +209,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightsAnimator*), "DisableDirectionalLightsCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delay});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LightsAnimator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

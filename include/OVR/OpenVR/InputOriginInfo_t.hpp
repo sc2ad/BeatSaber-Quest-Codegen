@@ -814,267 +814,267 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt64 devicePath
-    uint64_t& dyn_devicePath();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_devicePath();
     // Get instance field reference: public System.UInt32 trackedDeviceIndex
-    uint& dyn_trackedDeviceIndex();
+    [[deprecated("Use field access instead!")]] uint& dyn_trackedDeviceIndex();
     // Get instance field reference: public System.Byte rchRenderModelComponentName0
-    uint8_t& dyn_rchRenderModelComponentName0();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName0();
     // Get instance field reference: public System.Byte rchRenderModelComponentName1
-    uint8_t& dyn_rchRenderModelComponentName1();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName1();
     // Get instance field reference: public System.Byte rchRenderModelComponentName2
-    uint8_t& dyn_rchRenderModelComponentName2();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName2();
     // Get instance field reference: public System.Byte rchRenderModelComponentName3
-    uint8_t& dyn_rchRenderModelComponentName3();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName3();
     // Get instance field reference: public System.Byte rchRenderModelComponentName4
-    uint8_t& dyn_rchRenderModelComponentName4();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName4();
     // Get instance field reference: public System.Byte rchRenderModelComponentName5
-    uint8_t& dyn_rchRenderModelComponentName5();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName5();
     // Get instance field reference: public System.Byte rchRenderModelComponentName6
-    uint8_t& dyn_rchRenderModelComponentName6();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName6();
     // Get instance field reference: public System.Byte rchRenderModelComponentName7
-    uint8_t& dyn_rchRenderModelComponentName7();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName7();
     // Get instance field reference: public System.Byte rchRenderModelComponentName8
-    uint8_t& dyn_rchRenderModelComponentName8();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName8();
     // Get instance field reference: public System.Byte rchRenderModelComponentName9
-    uint8_t& dyn_rchRenderModelComponentName9();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName9();
     // Get instance field reference: public System.Byte rchRenderModelComponentName10
-    uint8_t& dyn_rchRenderModelComponentName10();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName10();
     // Get instance field reference: public System.Byte rchRenderModelComponentName11
-    uint8_t& dyn_rchRenderModelComponentName11();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName11();
     // Get instance field reference: public System.Byte rchRenderModelComponentName12
-    uint8_t& dyn_rchRenderModelComponentName12();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName12();
     // Get instance field reference: public System.Byte rchRenderModelComponentName13
-    uint8_t& dyn_rchRenderModelComponentName13();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName13();
     // Get instance field reference: public System.Byte rchRenderModelComponentName14
-    uint8_t& dyn_rchRenderModelComponentName14();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName14();
     // Get instance field reference: public System.Byte rchRenderModelComponentName15
-    uint8_t& dyn_rchRenderModelComponentName15();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName15();
     // Get instance field reference: public System.Byte rchRenderModelComponentName16
-    uint8_t& dyn_rchRenderModelComponentName16();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName16();
     // Get instance field reference: public System.Byte rchRenderModelComponentName17
-    uint8_t& dyn_rchRenderModelComponentName17();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName17();
     // Get instance field reference: public System.Byte rchRenderModelComponentName18
-    uint8_t& dyn_rchRenderModelComponentName18();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName18();
     // Get instance field reference: public System.Byte rchRenderModelComponentName19
-    uint8_t& dyn_rchRenderModelComponentName19();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName19();
     // Get instance field reference: public System.Byte rchRenderModelComponentName20
-    uint8_t& dyn_rchRenderModelComponentName20();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName20();
     // Get instance field reference: public System.Byte rchRenderModelComponentName21
-    uint8_t& dyn_rchRenderModelComponentName21();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName21();
     // Get instance field reference: public System.Byte rchRenderModelComponentName22
-    uint8_t& dyn_rchRenderModelComponentName22();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName22();
     // Get instance field reference: public System.Byte rchRenderModelComponentName23
-    uint8_t& dyn_rchRenderModelComponentName23();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName23();
     // Get instance field reference: public System.Byte rchRenderModelComponentName24
-    uint8_t& dyn_rchRenderModelComponentName24();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName24();
     // Get instance field reference: public System.Byte rchRenderModelComponentName25
-    uint8_t& dyn_rchRenderModelComponentName25();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName25();
     // Get instance field reference: public System.Byte rchRenderModelComponentName26
-    uint8_t& dyn_rchRenderModelComponentName26();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName26();
     // Get instance field reference: public System.Byte rchRenderModelComponentName27
-    uint8_t& dyn_rchRenderModelComponentName27();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName27();
     // Get instance field reference: public System.Byte rchRenderModelComponentName28
-    uint8_t& dyn_rchRenderModelComponentName28();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName28();
     // Get instance field reference: public System.Byte rchRenderModelComponentName29
-    uint8_t& dyn_rchRenderModelComponentName29();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName29();
     // Get instance field reference: public System.Byte rchRenderModelComponentName30
-    uint8_t& dyn_rchRenderModelComponentName30();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName30();
     // Get instance field reference: public System.Byte rchRenderModelComponentName31
-    uint8_t& dyn_rchRenderModelComponentName31();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName31();
     // Get instance field reference: public System.Byte rchRenderModelComponentName32
-    uint8_t& dyn_rchRenderModelComponentName32();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName32();
     // Get instance field reference: public System.Byte rchRenderModelComponentName33
-    uint8_t& dyn_rchRenderModelComponentName33();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName33();
     // Get instance field reference: public System.Byte rchRenderModelComponentName34
-    uint8_t& dyn_rchRenderModelComponentName34();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName34();
     // Get instance field reference: public System.Byte rchRenderModelComponentName35
-    uint8_t& dyn_rchRenderModelComponentName35();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName35();
     // Get instance field reference: public System.Byte rchRenderModelComponentName36
-    uint8_t& dyn_rchRenderModelComponentName36();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName36();
     // Get instance field reference: public System.Byte rchRenderModelComponentName37
-    uint8_t& dyn_rchRenderModelComponentName37();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName37();
     // Get instance field reference: public System.Byte rchRenderModelComponentName38
-    uint8_t& dyn_rchRenderModelComponentName38();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName38();
     // Get instance field reference: public System.Byte rchRenderModelComponentName39
-    uint8_t& dyn_rchRenderModelComponentName39();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName39();
     // Get instance field reference: public System.Byte rchRenderModelComponentName40
-    uint8_t& dyn_rchRenderModelComponentName40();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName40();
     // Get instance field reference: public System.Byte rchRenderModelComponentName41
-    uint8_t& dyn_rchRenderModelComponentName41();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName41();
     // Get instance field reference: public System.Byte rchRenderModelComponentName42
-    uint8_t& dyn_rchRenderModelComponentName42();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName42();
     // Get instance field reference: public System.Byte rchRenderModelComponentName43
-    uint8_t& dyn_rchRenderModelComponentName43();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName43();
     // Get instance field reference: public System.Byte rchRenderModelComponentName44
-    uint8_t& dyn_rchRenderModelComponentName44();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName44();
     // Get instance field reference: public System.Byte rchRenderModelComponentName45
-    uint8_t& dyn_rchRenderModelComponentName45();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName45();
     // Get instance field reference: public System.Byte rchRenderModelComponentName46
-    uint8_t& dyn_rchRenderModelComponentName46();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName46();
     // Get instance field reference: public System.Byte rchRenderModelComponentName47
-    uint8_t& dyn_rchRenderModelComponentName47();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName47();
     // Get instance field reference: public System.Byte rchRenderModelComponentName48
-    uint8_t& dyn_rchRenderModelComponentName48();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName48();
     // Get instance field reference: public System.Byte rchRenderModelComponentName49
-    uint8_t& dyn_rchRenderModelComponentName49();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName49();
     // Get instance field reference: public System.Byte rchRenderModelComponentName50
-    uint8_t& dyn_rchRenderModelComponentName50();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName50();
     // Get instance field reference: public System.Byte rchRenderModelComponentName51
-    uint8_t& dyn_rchRenderModelComponentName51();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName51();
     // Get instance field reference: public System.Byte rchRenderModelComponentName52
-    uint8_t& dyn_rchRenderModelComponentName52();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName52();
     // Get instance field reference: public System.Byte rchRenderModelComponentName53
-    uint8_t& dyn_rchRenderModelComponentName53();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName53();
     // Get instance field reference: public System.Byte rchRenderModelComponentName54
-    uint8_t& dyn_rchRenderModelComponentName54();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName54();
     // Get instance field reference: public System.Byte rchRenderModelComponentName55
-    uint8_t& dyn_rchRenderModelComponentName55();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName55();
     // Get instance field reference: public System.Byte rchRenderModelComponentName56
-    uint8_t& dyn_rchRenderModelComponentName56();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName56();
     // Get instance field reference: public System.Byte rchRenderModelComponentName57
-    uint8_t& dyn_rchRenderModelComponentName57();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName57();
     // Get instance field reference: public System.Byte rchRenderModelComponentName58
-    uint8_t& dyn_rchRenderModelComponentName58();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName58();
     // Get instance field reference: public System.Byte rchRenderModelComponentName59
-    uint8_t& dyn_rchRenderModelComponentName59();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName59();
     // Get instance field reference: public System.Byte rchRenderModelComponentName60
-    uint8_t& dyn_rchRenderModelComponentName60();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName60();
     // Get instance field reference: public System.Byte rchRenderModelComponentName61
-    uint8_t& dyn_rchRenderModelComponentName61();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName61();
     // Get instance field reference: public System.Byte rchRenderModelComponentName62
-    uint8_t& dyn_rchRenderModelComponentName62();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName62();
     // Get instance field reference: public System.Byte rchRenderModelComponentName63
-    uint8_t& dyn_rchRenderModelComponentName63();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName63();
     // Get instance field reference: public System.Byte rchRenderModelComponentName64
-    uint8_t& dyn_rchRenderModelComponentName64();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName64();
     // Get instance field reference: public System.Byte rchRenderModelComponentName65
-    uint8_t& dyn_rchRenderModelComponentName65();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName65();
     // Get instance field reference: public System.Byte rchRenderModelComponentName66
-    uint8_t& dyn_rchRenderModelComponentName66();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName66();
     // Get instance field reference: public System.Byte rchRenderModelComponentName67
-    uint8_t& dyn_rchRenderModelComponentName67();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName67();
     // Get instance field reference: public System.Byte rchRenderModelComponentName68
-    uint8_t& dyn_rchRenderModelComponentName68();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName68();
     // Get instance field reference: public System.Byte rchRenderModelComponentName69
-    uint8_t& dyn_rchRenderModelComponentName69();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName69();
     // Get instance field reference: public System.Byte rchRenderModelComponentName70
-    uint8_t& dyn_rchRenderModelComponentName70();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName70();
     // Get instance field reference: public System.Byte rchRenderModelComponentName71
-    uint8_t& dyn_rchRenderModelComponentName71();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName71();
     // Get instance field reference: public System.Byte rchRenderModelComponentName72
-    uint8_t& dyn_rchRenderModelComponentName72();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName72();
     // Get instance field reference: public System.Byte rchRenderModelComponentName73
-    uint8_t& dyn_rchRenderModelComponentName73();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName73();
     // Get instance field reference: public System.Byte rchRenderModelComponentName74
-    uint8_t& dyn_rchRenderModelComponentName74();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName74();
     // Get instance field reference: public System.Byte rchRenderModelComponentName75
-    uint8_t& dyn_rchRenderModelComponentName75();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName75();
     // Get instance field reference: public System.Byte rchRenderModelComponentName76
-    uint8_t& dyn_rchRenderModelComponentName76();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName76();
     // Get instance field reference: public System.Byte rchRenderModelComponentName77
-    uint8_t& dyn_rchRenderModelComponentName77();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName77();
     // Get instance field reference: public System.Byte rchRenderModelComponentName78
-    uint8_t& dyn_rchRenderModelComponentName78();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName78();
     // Get instance field reference: public System.Byte rchRenderModelComponentName79
-    uint8_t& dyn_rchRenderModelComponentName79();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName79();
     // Get instance field reference: public System.Byte rchRenderModelComponentName80
-    uint8_t& dyn_rchRenderModelComponentName80();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName80();
     // Get instance field reference: public System.Byte rchRenderModelComponentName81
-    uint8_t& dyn_rchRenderModelComponentName81();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName81();
     // Get instance field reference: public System.Byte rchRenderModelComponentName82
-    uint8_t& dyn_rchRenderModelComponentName82();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName82();
     // Get instance field reference: public System.Byte rchRenderModelComponentName83
-    uint8_t& dyn_rchRenderModelComponentName83();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName83();
     // Get instance field reference: public System.Byte rchRenderModelComponentName84
-    uint8_t& dyn_rchRenderModelComponentName84();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName84();
     // Get instance field reference: public System.Byte rchRenderModelComponentName85
-    uint8_t& dyn_rchRenderModelComponentName85();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName85();
     // Get instance field reference: public System.Byte rchRenderModelComponentName86
-    uint8_t& dyn_rchRenderModelComponentName86();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName86();
     // Get instance field reference: public System.Byte rchRenderModelComponentName87
-    uint8_t& dyn_rchRenderModelComponentName87();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName87();
     // Get instance field reference: public System.Byte rchRenderModelComponentName88
-    uint8_t& dyn_rchRenderModelComponentName88();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName88();
     // Get instance field reference: public System.Byte rchRenderModelComponentName89
-    uint8_t& dyn_rchRenderModelComponentName89();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName89();
     // Get instance field reference: public System.Byte rchRenderModelComponentName90
-    uint8_t& dyn_rchRenderModelComponentName90();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName90();
     // Get instance field reference: public System.Byte rchRenderModelComponentName91
-    uint8_t& dyn_rchRenderModelComponentName91();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName91();
     // Get instance field reference: public System.Byte rchRenderModelComponentName92
-    uint8_t& dyn_rchRenderModelComponentName92();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName92();
     // Get instance field reference: public System.Byte rchRenderModelComponentName93
-    uint8_t& dyn_rchRenderModelComponentName93();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName93();
     // Get instance field reference: public System.Byte rchRenderModelComponentName94
-    uint8_t& dyn_rchRenderModelComponentName94();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName94();
     // Get instance field reference: public System.Byte rchRenderModelComponentName95
-    uint8_t& dyn_rchRenderModelComponentName95();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName95();
     // Get instance field reference: public System.Byte rchRenderModelComponentName96
-    uint8_t& dyn_rchRenderModelComponentName96();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName96();
     // Get instance field reference: public System.Byte rchRenderModelComponentName97
-    uint8_t& dyn_rchRenderModelComponentName97();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName97();
     // Get instance field reference: public System.Byte rchRenderModelComponentName98
-    uint8_t& dyn_rchRenderModelComponentName98();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName98();
     // Get instance field reference: public System.Byte rchRenderModelComponentName99
-    uint8_t& dyn_rchRenderModelComponentName99();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName99();
     // Get instance field reference: public System.Byte rchRenderModelComponentName100
-    uint8_t& dyn_rchRenderModelComponentName100();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName100();
     // Get instance field reference: public System.Byte rchRenderModelComponentName101
-    uint8_t& dyn_rchRenderModelComponentName101();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName101();
     // Get instance field reference: public System.Byte rchRenderModelComponentName102
-    uint8_t& dyn_rchRenderModelComponentName102();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName102();
     // Get instance field reference: public System.Byte rchRenderModelComponentName103
-    uint8_t& dyn_rchRenderModelComponentName103();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName103();
     // Get instance field reference: public System.Byte rchRenderModelComponentName104
-    uint8_t& dyn_rchRenderModelComponentName104();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName104();
     // Get instance field reference: public System.Byte rchRenderModelComponentName105
-    uint8_t& dyn_rchRenderModelComponentName105();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName105();
     // Get instance field reference: public System.Byte rchRenderModelComponentName106
-    uint8_t& dyn_rchRenderModelComponentName106();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName106();
     // Get instance field reference: public System.Byte rchRenderModelComponentName107
-    uint8_t& dyn_rchRenderModelComponentName107();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName107();
     // Get instance field reference: public System.Byte rchRenderModelComponentName108
-    uint8_t& dyn_rchRenderModelComponentName108();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName108();
     // Get instance field reference: public System.Byte rchRenderModelComponentName109
-    uint8_t& dyn_rchRenderModelComponentName109();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName109();
     // Get instance field reference: public System.Byte rchRenderModelComponentName110
-    uint8_t& dyn_rchRenderModelComponentName110();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName110();
     // Get instance field reference: public System.Byte rchRenderModelComponentName111
-    uint8_t& dyn_rchRenderModelComponentName111();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName111();
     // Get instance field reference: public System.Byte rchRenderModelComponentName112
-    uint8_t& dyn_rchRenderModelComponentName112();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName112();
     // Get instance field reference: public System.Byte rchRenderModelComponentName113
-    uint8_t& dyn_rchRenderModelComponentName113();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName113();
     // Get instance field reference: public System.Byte rchRenderModelComponentName114
-    uint8_t& dyn_rchRenderModelComponentName114();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName114();
     // Get instance field reference: public System.Byte rchRenderModelComponentName115
-    uint8_t& dyn_rchRenderModelComponentName115();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName115();
     // Get instance field reference: public System.Byte rchRenderModelComponentName116
-    uint8_t& dyn_rchRenderModelComponentName116();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName116();
     // Get instance field reference: public System.Byte rchRenderModelComponentName117
-    uint8_t& dyn_rchRenderModelComponentName117();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName117();
     // Get instance field reference: public System.Byte rchRenderModelComponentName118
-    uint8_t& dyn_rchRenderModelComponentName118();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName118();
     // Get instance field reference: public System.Byte rchRenderModelComponentName119
-    uint8_t& dyn_rchRenderModelComponentName119();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName119();
     // Get instance field reference: public System.Byte rchRenderModelComponentName120
-    uint8_t& dyn_rchRenderModelComponentName120();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName120();
     // Get instance field reference: public System.Byte rchRenderModelComponentName121
-    uint8_t& dyn_rchRenderModelComponentName121();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName121();
     // Get instance field reference: public System.Byte rchRenderModelComponentName122
-    uint8_t& dyn_rchRenderModelComponentName122();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName122();
     // Get instance field reference: public System.Byte rchRenderModelComponentName123
-    uint8_t& dyn_rchRenderModelComponentName123();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName123();
     // Get instance field reference: public System.Byte rchRenderModelComponentName124
-    uint8_t& dyn_rchRenderModelComponentName124();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName124();
     // Get instance field reference: public System.Byte rchRenderModelComponentName125
-    uint8_t& dyn_rchRenderModelComponentName125();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName125();
     // Get instance field reference: public System.Byte rchRenderModelComponentName126
-    uint8_t& dyn_rchRenderModelComponentName126();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName126();
     // Get instance field reference: public System.Byte rchRenderModelComponentName127
-    uint8_t& dyn_rchRenderModelComponentName127();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName127();
     // public System.String get_rchRenderModelComponentName()
-    // Offset: 0x1617E94
+    // Offset: 0x164D7A4
     ::StringW get_rchRenderModelComponentName();
   }; // OVR.OpenVR.InputOriginInfo_t
   #pragma pack(pop)

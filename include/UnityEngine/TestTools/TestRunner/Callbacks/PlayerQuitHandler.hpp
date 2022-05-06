@@ -42,41 +42,39 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerQuitHandler : public ::UnityEngine::MonoBehaviour {
     public:
-    // public System.Void Start()
-    // Offset: 0x194E9F4
-    void Start();
-    // private System.Void ProcessPlayerQuiteMessage(UnityEngine.Networking.PlayerConnection.MessageEventArgs arg0)
-    // Offset: 0x194EAAC
-    void ProcessPlayerQuiteMessage(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* arg0);
-    // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
-    // Offset: 0x194EAF0
-    void RunStarted(::NUnit::Framework::Interfaces::ITest* testsToRun);
-    // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0x194EAF4
-    void RunFinished(::NUnit::Framework::Interfaces::ITestResult* testResults);
-    // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x194EAF8
-    void TestStarted(::NUnit::Framework::Interfaces::ITest* test);
-    // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x194EAFC
-    void TestFinished(::NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void .ctor()
-    // Offset: 0x194EB00
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x19864D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerQuitHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::Callbacks::PlayerQuitHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerQuitHandler*, creationType>()));
     }
+    // public System.Void Start()
+    // Offset: 0x19863C4
+    void Start();
+    // private System.Void ProcessPlayerQuiteMessage(UnityEngine.Networking.PlayerConnection.MessageEventArgs arg0)
+    // Offset: 0x198647C
+    void ProcessPlayerQuiteMessage(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* arg0);
+    // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
+    // Offset: 0x19864C0
+    void RunStarted(::NUnit::Framework::Interfaces::ITest* testsToRun);
+    // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
+    // Offset: 0x19864C4
+    void RunFinished(::NUnit::Framework::Interfaces::ITestResult* testResults);
+    // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
+    // Offset: 0x19864C8
+    void TestStarted(::NUnit::Framework::Interfaces::ITest* test);
+    // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
+    // Offset: 0x19864CC
+    void TestFinished(::NUnit::Framework::Interfaces::ITestResult* result);
   }; // UnityEngine.TestTools.TestRunner.Callbacks.PlayerQuitHandler
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::PlayerQuitHandler::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::PlayerQuitHandler::Start
 // Il2CppName: Start
 template<>
@@ -130,7 +128,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::Callbacks::PlayerQuitHandler*), "TestFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::PlayerQuitHandler::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

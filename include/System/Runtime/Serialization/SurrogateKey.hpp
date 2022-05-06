@@ -35,15 +35,7 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class SurrogateKey : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Type m_type
     // Size: 0x8
     // Offset: 0x10
@@ -58,18 +50,18 @@ namespace System::Runtime::Serialization {
     static_assert(sizeof(::System::Runtime::Serialization::StreamingContext) == 0xC);
     public:
     // Get instance field reference: System.Type m_type
-    ::System::Type*& dyn_m_type();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_m_type();
     // Get instance field reference: System.Runtime.Serialization.StreamingContext m_context
-    ::System::Runtime::Serialization::StreamingContext& dyn_m_context();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::StreamingContext& dyn_m_context();
     // System.Void .ctor(System.Type type, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1609710
+    // Offset: 0x163F020
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SurrogateKey* New_ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::SurrogateKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SurrogateKey*, creationType>(type, context)));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1609750
+    // Offset: 0x163F060
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

@@ -41,28 +41,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x123F2F0
+    // [DescriptionAttribute] Offset: 0x10C3DC8
     // static field const value: static public Oculus.Platform.CloudStorageUpdateStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.CloudStorageUpdateStatus Unknown
     static ::Oculus::Platform::CloudStorageUpdateStatus _get_Unknown();
     // Set static field: static public Oculus.Platform.CloudStorageUpdateStatus Unknown
     static void _set_Unknown(::Oculus::Platform::CloudStorageUpdateStatus value);
-    // [DescriptionAttribute] Offset: 0x123F328
+    // [DescriptionAttribute] Offset: 0x10C3E00
     // static field const value: static public Oculus.Platform.CloudStorageUpdateStatus Ok
     static constexpr const int Ok = 1;
     // Get static field: static public Oculus.Platform.CloudStorageUpdateStatus Ok
     static ::Oculus::Platform::CloudStorageUpdateStatus _get_Ok();
     // Set static field: static public Oculus.Platform.CloudStorageUpdateStatus Ok
     static void _set_Ok(::Oculus::Platform::CloudStorageUpdateStatus value);
-    // [DescriptionAttribute] Offset: 0x123F360
+    // [DescriptionAttribute] Offset: 0x10C3E38
     // static field const value: static public Oculus.Platform.CloudStorageUpdateStatus BetterVersionStored
     static constexpr const int BetterVersionStored = 2;
     // Get static field: static public Oculus.Platform.CloudStorageUpdateStatus BetterVersionStored
     static ::Oculus::Platform::CloudStorageUpdateStatus _get_BetterVersionStored();
     // Set static field: static public Oculus.Platform.CloudStorageUpdateStatus BetterVersionStored
     static void _set_BetterVersionStored(::Oculus::Platform::CloudStorageUpdateStatus value);
-    // [DescriptionAttribute] Offset: 0x123F398
+    // [DescriptionAttribute] Offset: 0x10C3E70
     // static field const value: static public Oculus.Platform.CloudStorageUpdateStatus ManualMergeRequired
     static constexpr const int ManualMergeRequired = 3;
     // Get static field: static public Oculus.Platform.CloudStorageUpdateStatus ManualMergeRequired
@@ -70,7 +70,7 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.CloudStorageUpdateStatus ManualMergeRequired
     static void _set_ManualMergeRequired(::Oculus::Platform::CloudStorageUpdateStatus value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Oculus.Platform.CloudStorageUpdateStatus
   #pragma pack(pop)
   static check_size<sizeof(CloudStorageUpdateStatus), 0 + sizeof(int)> __Oculus_Platform_CloudStorageUpdateStatusSizeCheck;

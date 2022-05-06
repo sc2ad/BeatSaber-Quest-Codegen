@@ -45,15 +45,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SelectLanguageViewController : public ::HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Button _continueButton
     // Size: 0x8
     // Offset: 0x70
@@ -80,52 +72,45 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.UI.Button _continueButton
-    ::UnityEngine::UI::Button*& dyn__continueButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__continueButton();
     // Get instance field reference: private LanguageSettingsController _languageSettingsController
-    ::GlobalNamespace::LanguageSettingsController*& dyn__languageSettingsController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LanguageSettingsController*& dyn__languageSettingsController();
     // Get instance field reference: private System.Action didChangeLanguageEvent
-    ::System::Action*& dyn_didChangeLanguageEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didChangeLanguageEvent();
     // Get instance field reference: private System.Action didPressContinueButtonEvent
-    ::System::Action*& dyn_didPressContinueButtonEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didPressContinueButtonEvent();
     // public System.Void add_didChangeLanguageEvent(System.Action value)
-    // Offset: 0x1426B10
+    // Offset: 0x1468144
     void add_didChangeLanguageEvent(::System::Action* value);
     // public System.Void remove_didChangeLanguageEvent(System.Action value)
-    // Offset: 0x1426BB4
+    // Offset: 0x14681E8
     void remove_didChangeLanguageEvent(::System::Action* value);
     // public System.Void add_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0x1426C58
+    // Offset: 0x146828C
     void add_didPressContinueButtonEvent(::System::Action* value);
     // public System.Void remove_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0x1426CFC
+    // Offset: 0x1468330
     void remove_didPressContinueButtonEvent(::System::Action* value);
-    // private System.Void HandleLanguageSettingsControllerOndropDownValueDidChange()
-    // Offset: 0x1426F68
-    void HandleLanguageSettingsControllerOndropDownValueDidChange();
-    // private System.Void <DidActivate>b__8_0()
-    // Offset: 0x1426F84
-    void $DidActivate$b__8_0();
     // public System.Void .ctor()
-    // Offset: 0x1426F7C
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14685B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectLanguageViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SelectLanguageViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectLanguageViewController*, creationType>()));
     }
+    // private System.Void HandleLanguageSettingsControllerOndropDownValueDidChange()
+    // Offset: 0x146859C
+    void HandleLanguageSettingsControllerOndropDownValueDidChange();
+    // private System.Void <DidActivate>b__8_0()
+    // Offset: 0x14685B8
+    void $DidActivate$b__8_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1426DA0
+    // Offset: 0x14683D4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1426E88
+    // Offset: 0x14684BC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
@@ -171,6 +156,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectLanguageViewController*), "remove_didPressContinueButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SelectLanguageViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SelectLanguageViewController::HandleLanguageSettingsControllerOndropDownValueDidChange
 // Il2CppName: HandleLanguageSettingsControllerOndropDownValueDidChange
 template<>
@@ -187,10 +176,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectLanguageViewController*), "<DidActivate>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SelectLanguageViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SelectLanguageViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

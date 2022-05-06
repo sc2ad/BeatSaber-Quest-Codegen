@@ -25,15 +25,7 @@ namespace BeatmapSaveDataVersion3 {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapSaveData::ObstacleData : public ::BeatmapSaveDataVersion3::BeatmapSaveData::BeatmapSaveDataItem {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 x
     // Size: 0x4
     // Offset: 0x14
@@ -68,32 +60,32 @@ namespace BeatmapSaveDataVersion3 {
     // Deleting conversion operator: operator float
     constexpr operator float() const noexcept = delete;
     // Get instance field reference: private System.Int32 x
-    int& dyn_x();
+    [[deprecated("Use field access instead!")]] int& dyn_x();
     // Get instance field reference: private System.Int32 y
-    int& dyn_y();
+    [[deprecated("Use field access instead!")]] int& dyn_y();
     // Get instance field reference: private System.Single d
-    float& dyn_d();
+    [[deprecated("Use field access instead!")]] float& dyn_d();
     // Get instance field reference: private System.Int32 w
-    int& dyn_w();
+    [[deprecated("Use field access instead!")]] int& dyn_w();
     // Get instance field reference: private System.Int32 h
-    int& dyn_h();
+    [[deprecated("Use field access instead!")]] int& dyn_h();
     // public System.Int32 get_line()
-    // Offset: 0x281BAE0
+    // Offset: 0x286E0A0
     int get_line();
     // public System.Int32 get_layer()
-    // Offset: 0x281BAE8
+    // Offset: 0x286E0A8
     int get_layer();
     // public System.Single get_duration()
-    // Offset: 0x281BAF0
+    // Offset: 0x286E0B0
     float get_duration();
     // public System.Int32 get_width()
-    // Offset: 0x281BAF8
+    // Offset: 0x286E0B8
     int get_width();
     // public System.Int32 get_height()
-    // Offset: 0x281BB00
+    // Offset: 0x286E0C0
     int get_height();
     // public System.Void .ctor(System.Single beat, System.Int32 line, System.Int32 layer, System.Single duration, System.Int32 width, System.Int32 height)
-    // Offset: 0x281AC58
+    // Offset: 0x286D218
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::ObstacleData* New_ctor(float beat, int line, int layer, float duration, int width, int height) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::ObstacleData::.ctor");

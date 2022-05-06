@@ -234,7 +234,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HAPI_ParmType HAPI_PARMTYPE_NONVALUE_END
     static void _set_HAPI_PARMTYPE_NONVALUE_END(::HoudiniEngineUnity::HAPI_ParmType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HAPI_ParmType
   #pragma pack(pop)
   static check_size<sizeof(HAPI_ParmType), 0 + sizeof(int)> __HoudiniEngineUnity_HAPI_ParmTypeSizeCheck;

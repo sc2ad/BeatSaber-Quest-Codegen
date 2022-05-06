@@ -32,15 +32,7 @@ namespace Polyglot {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class LocalizationImporter::$$c__DisplayClass8_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Polyglot.Localization settings
     // Size: 0x8
     // Offset: 0x10
@@ -53,25 +45,27 @@ namespace Polyglot {
       return settings;
     }
     // Get instance field reference: public Polyglot.Localization settings
-    ::Polyglot::Localization*& dyn_settings();
-    // System.Void <DownloadCustomSheet>b__0(System.String s)
-    // Offset: 0x29E0C20
-    void $DownloadCustomSheet$b__0(::StringW s);
+    [[deprecated("Use field access instead!")]] ::Polyglot::Localization*& dyn_settings();
     // public System.Void .ctor()
-    // Offset: 0x29E0254
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A35B48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizationImporter::$$c__DisplayClass8_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Polyglot::LocalizationImporter::$$c__DisplayClass8_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalizationImporter::$$c__DisplayClass8_0*, creationType>()));
     }
+    // System.Void <DownloadCustomSheet>b__0(System.String s)
+    // Offset: 0x2A36514
+    void $DownloadCustomSheet$b__0(::StringW s);
   }; // Polyglot.LocalizationImporter/Polyglot.<>c__DisplayClass8_0
   #pragma pack(pop)
   static check_size<sizeof(LocalizationImporter::$$c__DisplayClass8_0), 16 + sizeof(::Polyglot::Localization*)> __Polyglot_LocalizationImporter_$$c__DisplayClass8_0SizeCheck;
   static_assert(sizeof(LocalizationImporter::$$c__DisplayClass8_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Polyglot::LocalizationImporter::$$c__DisplayClass8_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Polyglot::LocalizationImporter::$$c__DisplayClass8_0::$DownloadCustomSheet$b__0
 // Il2CppName: <DownloadCustomSheet>b__0
 template<>
@@ -81,7 +75,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyg
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationImporter::$$c__DisplayClass8_0*), "<DownloadCustomSheet>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
 };
-// Writing MetadataGetter for method: Polyglot::LocalizationImporter::$$c__DisplayClass8_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -40,15 +40,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetworkConfigSO : public ::GlobalNamespace::PersistentScriptableObject/*, public ::GlobalNamespace::INetworkConfig*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _maxPartySize
     // Size: 0x4
     // Offset: 0x18
@@ -133,77 +125,72 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _maxPartySize
-    int& dyn__maxPartySize();
+    [[deprecated("Use field access instead!")]] int& dyn__maxPartySize();
     // Get instance field reference: private System.Int32 _discoveryPort
-    int& dyn__discoveryPort();
+    [[deprecated("Use field access instead!")]] int& dyn__discoveryPort();
     // Get instance field reference: private System.Int32 _partyPort
-    int& dyn__partyPort();
+    [[deprecated("Use field access instead!")]] int& dyn__partyPort();
     // Get instance field reference: private System.Int32 _multiplayerPort
-    int& dyn__multiplayerPort();
+    [[deprecated("Use field access instead!")]] int& dyn__multiplayerPort();
     // Get instance field reference: private System.Int32 _masterServerPort
-    int& dyn__masterServerPort();
+    [[deprecated("Use field access instead!")]] int& dyn__masterServerPort();
     // Get instance field reference: private System.String _masterServerHostName
-    ::StringW& dyn__masterServerHostName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__masterServerHostName();
     // Get instance field reference: private System.String _multiplayerStatusUrl
-    ::StringW& dyn__multiplayerStatusUrl();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__multiplayerStatusUrl();
     // Get instance field reference: private System.String _quickPlaySetupUrl
-    ::StringW& dyn__quickPlaySetupUrl();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__quickPlaySetupUrl();
     // Get instance field reference: private System.String _graphUrl
-    ::StringW& dyn__graphUrl();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__graphUrl();
     // Get instance field reference: private System.String _graphAppId
-    ::StringW& dyn__graphAppId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__graphAppId();
     // Get instance field reference: private System.Boolean _forceGameLift
-    bool& dyn__forceGameLift();
+    [[deprecated("Use field access instead!")]] bool& dyn__forceGameLift();
     // Get instance field reference: private ServiceEnvironment _serviceEnvironment
-    ::GlobalNamespace::ServiceEnvironment& dyn__serviceEnvironment();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ServiceEnvironment& dyn__serviceEnvironment();
     // public System.Int32 get_maxPartySize()
-    // Offset: 0x146E598
+    // Offset: 0x14A4D80
     int get_maxPartySize();
     // public System.Int32 get_discoveryPort()
-    // Offset: 0x146E5A0
+    // Offset: 0x14A4D88
     int get_discoveryPort();
     // public System.Int32 get_partyPort()
-    // Offset: 0x146E5A8
+    // Offset: 0x14A4D90
     int get_partyPort();
     // public System.Int32 get_multiplayerPort()
-    // Offset: 0x146E5B0
+    // Offset: 0x14A4D98
     int get_multiplayerPort();
     // public DnsEndPoint get_masterServerEndPoint()
-    // Offset: 0x146E5B8
+    // Offset: 0x14A4DA0
     ::GlobalNamespace::DnsEndPoint* get_masterServerEndPoint();
     // public System.String get_multiplayerStatusUrl()
-    // Offset: 0x146E630
+    // Offset: 0x14A4E18
     ::StringW get_multiplayerStatusUrl();
     // public System.String get_quickPlaySetupUrl()
-    // Offset: 0x146E638
+    // Offset: 0x14A4E20
     ::StringW get_quickPlaySetupUrl();
     // public System.String get_graphUrl()
-    // Offset: 0x146E640
+    // Offset: 0x14A4E28
     ::StringW get_graphUrl();
     // public System.String get_graphAccessToken()
-    // Offset: 0x146E648
+    // Offset: 0x14A4E30
     ::StringW get_graphAccessToken();
     // public System.Boolean get_forceGameLift()
-    // Offset: 0x146E6DC
+    // Offset: 0x14A4EC4
     bool get_forceGameLift();
     // public ServiceEnvironment get_serviceEnvironment()
-    // Offset: 0x146E6E4
+    // Offset: 0x14A4ECC
     ::GlobalNamespace::ServiceEnvironment get_serviceEnvironment();
-    // private System.String GetAppId()
-    // Offset: 0x146E6AC
-    ::StringW GetAppId();
     // public System.Void .ctor()
-    // Offset: 0x146E6EC
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14A4ED4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkConfigSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkConfigSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkConfigSO*, creationType>()));
     }
+    // private System.String GetAppId()
+    // Offset: 0x14A4E94
+    ::StringW GetAppId();
   }; // NetworkConfigSO
   #pragma pack(pop)
   static check_size<sizeof(NetworkConfigSO), 92 + sizeof(::GlobalNamespace::ServiceEnvironment)> __GlobalNamespace_NetworkConfigSOSizeCheck;
@@ -298,6 +285,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkConfigSO*), "get_serviceEnvironment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::NetworkConfigSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NetworkConfigSO::GetAppId
 // Il2CppName: GetAppId
 template<>
@@ -306,7 +297,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkConfigSO*), "GetAppId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NetworkConfigSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

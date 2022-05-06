@@ -39,15 +39,7 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class Gost3410PublicKeyAlgParameters : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet
     // Size: 0x8
     // Offset: 0x10
@@ -68,32 +60,32 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
     static_assert(sizeof(::Org::BouncyCastle::Asn1::DerObjectIdentifier*) == 0x8);
     public:
     // Get instance field reference: private Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet
-    ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_publicKeyParamSet();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_publicKeyParamSet();
     // Get instance field reference: private Org.BouncyCastle.Asn1.DerObjectIdentifier digestParamSet
-    ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_digestParamSet();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_digestParamSet();
     // Get instance field reference: private Org.BouncyCastle.Asn1.DerObjectIdentifier encryptionParamSet
-    ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_encryptionParamSet();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_encryptionParamSet();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_PublicKeyParamSet()
-    // Offset: 0x1BF79E4
+    // Offset: 0x1C31FCC
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_DigestParamSet()
-    // Offset: 0x1BF79EC
+    // Offset: 0x1C31FD4
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_DigestParamSet();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_EncryptionParamSet()
-    // Offset: 0x1BF79F4
+    // Offset: 0x1C31FDC
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_EncryptionParamSet();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1BF7888
+    // Offset: 0x1C31E70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3410PublicKeyAlgParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3410PublicKeyAlgParameters*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.CryptoPro.Gost3410PublicKeyAlgParameters GetInstance(System.Object obj)
-    // Offset: 0x1BF77E8
+    // Offset: 0x1C31DD0
     static ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1BF79FC
+    // Offset: 0x1C31FE4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

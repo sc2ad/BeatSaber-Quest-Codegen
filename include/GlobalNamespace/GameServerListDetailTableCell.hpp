@@ -45,15 +45,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameServerListDetailTableCell : public ::HMUI::TableCell {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Button _joinServerButton
     // Size: 0x8
     // Offset: 0x58
@@ -74,38 +66,29 @@ namespace GlobalNamespace {
     static_assert(sizeof(::HMUI::ButtonBinder*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.UI.Button _joinServerButton
-    ::UnityEngine::UI::Button*& dyn__joinServerButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__joinServerButton();
     // Get instance field reference: private System.Action joinServerButtonWasPressedEvent
-    ::System::Action*& dyn_joinServerButtonWasPressedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_joinServerButtonWasPressedEvent();
     // Get instance field reference: private readonly HMUI.ButtonBinder _buttonBinder
-    ::HMUI::ButtonBinder*& dyn__buttonBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // public System.Void add_joinServerButtonWasPressedEvent(System.Action value)
-    // Offset: 0x13D74C0
+    // Offset: 0x13E3F60
     void add_joinServerButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_joinServerButtonWasPressedEvent(System.Action value)
-    // Offset: 0x13D7564
+    // Offset: 0x13E4004
     void remove_joinServerButtonWasPressedEvent(::System::Action* value);
-    // private System.Void <Start>b__5_0()
-    // Offset: 0x13D7710
-    void $Start$b__5_0();
     // public System.Void .ctor()
-    // Offset: 0x13D76A8
-    // Implemented from: HMUI.TableCell
-    // Base method: System.Void TableCell::.ctor()
-    // Base method: System.Void SelectableCell::.ctor()
-    // Base method: System.Void Interactable::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13E4148
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerListDetailTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerListDetailTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServerListDetailTableCell*, creationType>()));
     }
+    // private System.Void <Start>b__5_0()
+    // Offset: 0x13E41B0
+    void $Start$b__5_0();
     // protected override System.Void Start()
-    // Offset: 0x13D7608
+    // Offset: 0x13E40A8
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::Start()
     void Start();
@@ -133,6 +116,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerListDetailTableCell*), "remove_joinServerButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::GameServerListDetailTableCell::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameServerListDetailTableCell::$Start$b__5_0
 // Il2CppName: <Start>b__5_0
 template<>
@@ -141,10 +128,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerListDetailTableCell*), "<Start>b__5_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameServerListDetailTableCell::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameServerListDetailTableCell::Start
 // Il2CppName: Start
 template<>

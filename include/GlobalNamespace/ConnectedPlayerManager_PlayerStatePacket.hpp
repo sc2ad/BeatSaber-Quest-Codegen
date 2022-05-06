@@ -44,15 +44,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConnectedPlayerManager::PlayerStatePacket : public ::Il2CppObject/*, public ::LiteNetLib::Utils::INetSerializable, public ::GlobalNamespace::IPoolablePacket*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public PlayerStateHash playerState
     // Size: 0x10
     // Offset: 0x10
@@ -73,31 +65,29 @@ namespace GlobalNamespace {
       return playerState;
     }
     // Get instance field reference: public PlayerStateHash playerState
-    ::GlobalNamespace::PlayerStateHash& dyn_playerState();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerStateHash& dyn_playerState();
     // static public PacketPool`1<ConnectedPlayerManager/PlayerStatePacket> get_pool()
-    // Offset: 0x163D0C0
+    // Offset: 0x16739D0
     static ::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket*>* get_pool();
-    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x163DEBC
-    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
-    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x163DEC8
-    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
-    // public System.Void Release()
-    // Offset: 0x163DEF4
-    void Release();
-    // public ConnectedPlayerManager/PlayerStatePacket Init(PlayerStateHash states)
-    // Offset: 0x163D108
-    ::GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket* Init(::GlobalNamespace::PlayerStateHash states);
     // public System.Void .ctor()
-    // Offset: 0x163DF50
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1674860
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectedPlayerManager::PlayerStatePacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectedPlayerManager::PlayerStatePacket*, creationType>()));
     }
+    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x16747CC
+    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x16747D8
+    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
+    // public System.Void Release()
+    // Offset: 0x1674804
+    void Release();
+    // public ConnectedPlayerManager/PlayerStatePacket Init(PlayerStateHash states)
+    // Offset: 0x1673A18
+    ::GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket* Init(::GlobalNamespace::PlayerStateHash states);
   }; // ConnectedPlayerManager/PlayerStatePacket
   #pragma pack(pop)
   static check_size<sizeof(ConnectedPlayerManager::PlayerStatePacket), 16 + sizeof(::GlobalNamespace::PlayerStateHash)> __GlobalNamespace_ConnectedPlayerManager_PlayerStatePacketSizeCheck;
@@ -112,6 +102,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket::Serialize
 // Il2CppName: Serialize
 template<>
@@ -147,7 +141,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{states});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

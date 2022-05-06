@@ -24,15 +24,7 @@ namespace System::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class SecurityElement::SecurityAttribute : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _name
     // Size: 0x8
     // Offset: 0x10
@@ -47,17 +39,17 @@ namespace System::Security {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String _name
-    ::StringW& dyn__name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__name();
     // Get instance field reference: private System.String _value
-    ::StringW& dyn__value();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__value();
     // public System.String get_Name()
-    // Offset: 0x20D4C84
+    // Offset: 0x211F4F8
     ::StringW get_Name();
     // public System.String get_Value()
-    // Offset: 0x20D4C8C
+    // Offset: 0x211F500
     ::StringW get_Value();
     // public System.Void .ctor(System.String name, System.String value)
-    // Offset: 0x20D4A0C
+    // Offset: 0x211F280
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityElement::SecurityAttribute* New_ctor(::StringW name, ::StringW value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::SecurityElement::SecurityAttribute::.ctor");

@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SmoothCameraController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MainSettingsModelSO _mainSettingsModel
     // Size: 0x8
     // Offset: 0x18
@@ -62,43 +54,41 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MainSettingsModelSO _mainSettingsModel
-    ::GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
     // Get instance field reference: private SmoothCamera _smoothCamera
-    ::GlobalNamespace::SmoothCamera*& dyn__smoothCamera();
-    // protected System.Void Start()
-    // Offset: 0x2AA3BD0
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x2AA3D60
-    void OnDestroy();
-    // private System.Void HandleDidActivate()
-    // Offset: 0x2AA3D64
-    void HandleDidActivate();
-    // private System.Void HandleDidDeactivate()
-    // Offset: 0x2AA3DB4
-    void HandleDidDeactivate();
-    // private System.Void ActivateSmoothCameraIfNeeded()
-    // Offset: 0x2AA3BD4
-    void ActivateSmoothCameraIfNeeded();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SmoothCamera*& dyn__smoothCamera();
     // public System.Void .ctor()
-    // Offset: 0x2AA3DB8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x138A9DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SmoothCameraController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SmoothCameraController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SmoothCameraController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x138A7F4
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x138A984
+    void OnDestroy();
+    // private System.Void HandleDidActivate()
+    // Offset: 0x138A988
+    void HandleDidActivate();
+    // private System.Void HandleDidDeactivate()
+    // Offset: 0x138A9D8
+    void HandleDidDeactivate();
+    // private System.Void ActivateSmoothCameraIfNeeded()
+    // Offset: 0x138A7F8
+    void ActivateSmoothCameraIfNeeded();
   }; // SmoothCameraController
   #pragma pack(pop)
   static check_size<sizeof(SmoothCameraController), 32 + sizeof(::GlobalNamespace::SmoothCamera*)> __GlobalNamespace_SmoothCameraControllerSizeCheck;
   static_assert(sizeof(SmoothCameraController) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SmoothCameraController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SmoothCameraController::Start
 // Il2CppName: Start
 template<>
@@ -139,7 +129,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SmoothCameraController*), "ActivateSmoothCameraIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SmoothCameraController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

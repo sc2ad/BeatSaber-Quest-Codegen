@@ -51,7 +51,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HEU_Curve/HoudiniEngineUnity.CurveDrawCollision LAYERMASK
     static void _set_LAYERMASK(::HoudiniEngineUnity::HEU_Curve::CurveDrawCollision value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HEU_Curve/HoudiniEngineUnity.CurveDrawCollision
   #pragma pack(pop)
   static check_size<sizeof(HEU_Curve::CurveDrawCollision), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_Curve_CurveDrawCollisionSizeCheck;

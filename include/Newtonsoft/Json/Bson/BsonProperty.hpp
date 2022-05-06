@@ -36,15 +36,7 @@ namespace Newtonsoft::Json::Bson {
   // [PreserveAttribute] Offset: FFFFFFFF
   class BsonProperty : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Newtonsoft.Json.Bson.BsonString <Name>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -59,19 +51,17 @@ namespace Newtonsoft::Json::Bson {
     static_assert(sizeof(::Newtonsoft::Json::Bson::BsonToken*) == 0x8);
     public:
     // Get instance field reference: private Newtonsoft.Json.Bson.BsonString <Name>k__BackingField
-    ::Newtonsoft::Json::Bson::BsonString*& dyn_$Name$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Bson::BsonString*& dyn_$Name$k__BackingField();
     // Get instance field reference: private Newtonsoft.Json.Bson.BsonToken <Value>k__BackingField
-    ::Newtonsoft::Json::Bson::BsonToken*& dyn_$Value$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Bson::BsonToken*& dyn_$Value$k__BackingField();
     // public System.Void set_Name(Newtonsoft.Json.Bson.BsonString value)
-    // Offset: 0x1777F84
+    // Offset: 0x17B1894
     void set_Name(::Newtonsoft::Json::Bson::BsonString* value);
     // public System.Void set_Value(Newtonsoft.Json.Bson.BsonToken value)
-    // Offset: 0x1777F8C
+    // Offset: 0x17B189C
     void set_Value(::Newtonsoft::Json::Bson::BsonToken* value);
     // public System.Void .ctor()
-    // Offset: 0x1777D54
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x17B1664
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BsonProperty* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Bson::BsonProperty::.ctor");

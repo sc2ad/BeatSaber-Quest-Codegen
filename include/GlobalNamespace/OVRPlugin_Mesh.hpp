@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRPlugin::Mesh : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public OVRPlugin/MeshType Type
     // Size: 0x4
     // Offset: 0x10
@@ -102,27 +94,25 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<::GlobalNamespace::OVRPlugin::Vector4f>) == 0x8);
     public:
     // Get instance field reference: public OVRPlugin/MeshType Type
-    ::GlobalNamespace::OVRPlugin::MeshType& dyn_Type();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::MeshType& dyn_Type();
     // Get instance field reference: public System.UInt32 NumVertices
-    uint& dyn_NumVertices();
+    [[deprecated("Use field access instead!")]] uint& dyn_NumVertices();
     // Get instance field reference: public System.UInt32 NumIndices
-    uint& dyn_NumIndices();
+    [[deprecated("Use field access instead!")]] uint& dyn_NumIndices();
     // Get instance field reference: public OVRPlugin/Vector3f[] VertexPositions
-    ::ArrayW<::GlobalNamespace::OVRPlugin::Vector3f>& dyn_VertexPositions();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::OVRPlugin::Vector3f>& dyn_VertexPositions();
     // Get instance field reference: public System.Int16[] Indices
-    ::ArrayW<int16_t>& dyn_Indices();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int16_t>& dyn_Indices();
     // Get instance field reference: public OVRPlugin/Vector3f[] VertexNormals
-    ::ArrayW<::GlobalNamespace::OVRPlugin::Vector3f>& dyn_VertexNormals();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::OVRPlugin::Vector3f>& dyn_VertexNormals();
     // Get instance field reference: public OVRPlugin/Vector2f[] VertexUV0
-    ::ArrayW<::GlobalNamespace::OVRPlugin::Vector2f>& dyn_VertexUV0();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::OVRPlugin::Vector2f>& dyn_VertexUV0();
     // Get instance field reference: public OVRPlugin/Vector4s[] BlendIndices
-    ::ArrayW<::GlobalNamespace::OVRPlugin::Vector4s>& dyn_BlendIndices();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::OVRPlugin::Vector4s>& dyn_BlendIndices();
     // Get instance field reference: public OVRPlugin/Vector4f[] BlendWeights
-    ::ArrayW<::GlobalNamespace::OVRPlugin::Vector4f>& dyn_BlendWeights();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::OVRPlugin::Vector4f>& dyn_BlendWeights();
     // public System.Void .ctor()
-    // Offset: 0x1ADAF50
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B15538
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRPlugin::Mesh* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRPlugin::Mesh::.ctor");

@@ -25,15 +25,7 @@ namespace BeatmapSaveDataVersion3 {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapSaveData::BombNoteData : public ::BeatmapSaveDataVersion3::BeatmapSaveData::BeatmapSaveDataItem {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 x
     // Size: 0x4
     // Offset: 0x14
@@ -50,17 +42,17 @@ namespace BeatmapSaveDataVersion3 {
     // Deleting conversion operator: operator float
     constexpr operator float() const noexcept = delete;
     // Get instance field reference: private System.Int32 x
-    int& dyn_x();
+    [[deprecated("Use field access instead!")]] int& dyn_x();
     // Get instance field reference: private System.Int32 y
-    int& dyn_y();
+    [[deprecated("Use field access instead!")]] int& dyn_y();
     // public System.Int32 get_line()
-    // Offset: 0x281B210
+    // Offset: 0x286D7D0
     int get_line();
     // public System.Int32 get_layer()
-    // Offset: 0x281B218
+    // Offset: 0x286D7D8
     int get_layer();
     // public System.Void .ctor(System.Single beat, System.Int32 line, System.Int32 layer)
-    // Offset: 0x281AB7C
+    // Offset: 0x286D13C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::BombNoteData* New_ctor(float beat, int line, int layer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::BombNoteData::.ctor");

@@ -58,15 +58,7 @@ namespace GlobalNamespace {
     class InitData;
     // Nested type: ::GlobalNamespace::MissionLevelFailedController::$LevelFailedCoroutine$d__13
     class $LevelFailedCoroutine$d__13;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private PrepareLevelCompletionResults _prepareLevelCompletionResults
     // Size: 0x8
     // Offset: 0x18
@@ -91,35 +83,35 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissionObjectiveCheckersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253194
+    // [InjectAttribute] Offset: 0x10D7D78
     // private MissionLevelFailedController/InitData _initData
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::MissionLevelFailedController::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissionLevelFailedController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x12531A4
+    // [InjectAttribute] Offset: 0x10D7D88
     // private BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0x12531B4
+    // [InjectAttribute] Offset: 0x10D7D98
     // private GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0x12531C4
+    // [InjectAttribute] Offset: 0x10D7DA8
     // private ILevelEndActions _gameplayManager
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::ILevelEndActions* gameplayManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILevelEndActions*) == 0x8);
-    // [InjectAttribute] Offset: 0x12531D4
+    // [InjectAttribute] Offset: 0x10D7DB8
     // private BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x58
@@ -130,54 +122,52 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private PrepareLevelCompletionResults _prepareLevelCompletionResults
-    ::GlobalNamespace::PrepareLevelCompletionResults*& dyn__prepareLevelCompletionResults();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PrepareLevelCompletionResults*& dyn__prepareLevelCompletionResults();
     // Get instance field reference: private LevelFailedTextEffect _levelFailedTextEffect
-    ::GlobalNamespace::LevelFailedTextEffect*& dyn__levelFailedTextEffect();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelFailedTextEffect*& dyn__levelFailedTextEffect();
     // Get instance field reference: private MissionLevelScenesTransitionSetupDataSO _missionLevelSceneSetupData
-    ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& dyn__missionLevelSceneSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& dyn__missionLevelSceneSetupData();
     // Get instance field reference: private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
-    ::GlobalNamespace::MissionObjectiveCheckersManager*& dyn__missionObjectiveCheckersManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionObjectiveCheckersManager*& dyn__missionObjectiveCheckersManager();
     // Get instance field reference: private MissionLevelFailedController/InitData _initData
-    ::GlobalNamespace::MissionLevelFailedController::InitData*& dyn__initData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionLevelFailedController::InitData*& dyn__initData();
     // Get instance field reference: private BeatmapObjectSpawnController _beatmapObjectSpawnController
-    ::GlobalNamespace::BeatmapObjectSpawnController*& dyn__beatmapObjectSpawnController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectSpawnController*& dyn__beatmapObjectSpawnController();
     // Get instance field reference: private GameSongController _gameSongController
-    ::GlobalNamespace::GameSongController*& dyn__gameSongController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameSongController*& dyn__gameSongController();
     // Get instance field reference: private ILevelEndActions _gameplayManager
-    ::GlobalNamespace::ILevelEndActions*& dyn__gameplayManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ILevelEndActions*& dyn__gameplayManager();
     // Get instance field reference: private BeatmapObjectManager _beatmapObjectManager
-    ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
-    // protected System.Void Start()
-    // Offset: 0x1306124
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x130620C
-    void OnDestroy();
-    // private System.Void HandleLevelFailed()
-    // Offset: 0x1306304
-    void HandleLevelFailed();
-    // private System.Collections.IEnumerator LevelFailedCoroutine()
-    // Offset: 0x1306330
-    ::System::Collections::IEnumerator* LevelFailedCoroutine();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // public System.Void .ctor()
-    // Offset: 0x13063CC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13028A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionLevelFailedController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionLevelFailedController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelFailedController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x13025FC
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13026E4
+    void OnDestroy();
+    // private System.Void HandleLevelFailed()
+    // Offset: 0x13027DC
+    void HandleLevelFailed();
+    // private System.Collections.IEnumerator LevelFailedCoroutine()
+    // Offset: 0x1302808
+    ::System::Collections::IEnumerator* LevelFailedCoroutine();
   }; // MissionLevelFailedController
   #pragma pack(pop)
   static check_size<sizeof(MissionLevelFailedController), 88 + sizeof(::GlobalNamespace::BeatmapObjectManager*)> __GlobalNamespace_MissionLevelFailedControllerSizeCheck;
   static_assert(sizeof(MissionLevelFailedController) == 0x60);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MissionLevelFailedController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelFailedController::Start
 // Il2CppName: Start
 template<>
@@ -210,7 +200,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionLevelFailedController*), "LevelFailedCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MissionLevelFailedController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -55,15 +55,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::GameEnergyCounter::InitData
     class InitData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _batteryLives
     // Size: 0x4
     // Offset: 0x18
@@ -72,28 +64,28 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: batteryLives and: initData
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0x1255898
+    // [InjectAttribute] Offset: 0x10DA47C
     // private readonly GameEnergyCounter/InitData _initData
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::GameEnergyCounter::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameEnergyCounter::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x12558A8
+    // [InjectAttribute] Offset: 0x10DA48C
     // private readonly SaberClashChecker _saberClashChecker
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::SaberClashChecker* saberClashChecker;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberClashChecker*) == 0x8);
-    // [InjectAttribute] Offset: 0x12558B8
+    // [InjectAttribute] Offset: 0x10DA49C
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x12558C8
+    // [InjectAttribute] Offset: 0x10DA4AC
     // private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
     // Size: 0x8
     // Offset: 0x38
@@ -224,125 +216,119 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kObstacleEnergyDrainPerSecond
     static void _set_kObstacleEnergyDrainPerSecond(float value);
     // Get instance field reference: private System.Int32 _batteryLives
-    int& dyn__batteryLives();
+    [[deprecated("Use field access instead!")]] int& dyn__batteryLives();
     // Get instance field reference: private readonly GameEnergyCounter/InitData _initData
-    ::GlobalNamespace::GameEnergyCounter::InitData*& dyn__initData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameEnergyCounter::InitData*& dyn__initData();
     // Get instance field reference: private readonly SaberClashChecker _saberClashChecker
-    ::GlobalNamespace::SaberClashChecker*& dyn__saberClashChecker();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberClashChecker*& dyn__saberClashChecker();
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
-    ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // Get instance field reference: private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
-    ::GlobalNamespace::PlayerHeadAndObstacleInteraction*& dyn__playerHeadAndObstacleInteraction();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerHeadAndObstacleInteraction*& dyn__playerHeadAndObstacleInteraction();
     // Get instance field reference: private System.Action didInitEvent
-    ::System::Action*& dyn_didInitEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didInitEvent();
     // Get instance field reference: private System.Action gameEnergyDidReach0Event
-    ::System::Action*& dyn_gameEnergyDidReach0Event();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_gameEnergyDidReach0Event();
     // Get instance field reference: private System.Action`1<System.Single> gameEnergyDidChangeEvent
-    ::System::Action_1<float>*& dyn_gameEnergyDidChangeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<float>*& dyn_gameEnergyDidChangeEvent();
     // Get instance field reference: private System.Single <energy>k__BackingField
-    float& dyn_$energy$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$energy$k__BackingField();
     // Get instance field reference: private GameplayModifiers/EnergyType <energyType>k__BackingField
-    ::GlobalNamespace::GameplayModifiers::EnergyType& dyn_$energyType$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers::EnergyType& dyn_$energyType$k__BackingField();
     // Get instance field reference: private System.Boolean <noFail>k__BackingField
-    bool& dyn_$noFail$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$noFail$k__BackingField();
     // Get instance field reference: private System.Boolean <instaFail>k__BackingField
-    bool& dyn_$instaFail$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$instaFail$k__BackingField();
     // Get instance field reference: private System.Boolean <failOnSaberClash>k__BackingField
-    bool& dyn_$failOnSaberClash$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$failOnSaberClash$k__BackingField();
     // Get instance field reference: private System.Boolean _isInitialized
-    bool& dyn__isInitialized();
+    [[deprecated("Use field access instead!")]] bool& dyn__isInitialized();
     // Get instance field reference: private System.Boolean _didReach0Energy
-    bool& dyn__didReach0Energy();
+    [[deprecated("Use field access instead!")]] bool& dyn__didReach0Energy();
     // Get instance field reference: private System.Single _nextFrameEnergyChange
-    float& dyn__nextFrameEnergyChange();
+    [[deprecated("Use field access instead!")]] float& dyn__nextFrameEnergyChange();
     // public System.Boolean get_isInitialized()
-    // Offset: 0x1394578
+    // Offset: 0x137C08C
     bool get_isInitialized();
     // public System.Single get_energy()
-    // Offset: 0x1394580
+    // Offset: 0x137C094
     float get_energy();
     // private System.Void set_energy(System.Single value)
-    // Offset: 0x1394588
+    // Offset: 0x137C09C
     void set_energy(float value);
     // public System.Int32 get_batteryEnergy()
-    // Offset: 0x1394590
+    // Offset: 0x137C0A4
     int get_batteryEnergy();
     // public System.Int32 get_batteryLives()
-    // Offset: 0x1394614
+    // Offset: 0x137C128
     int get_batteryLives();
     // public GameplayModifiers/EnergyType get_energyType()
-    // Offset: 0x139461C
+    // Offset: 0x137C130
     ::GlobalNamespace::GameplayModifiers::EnergyType get_energyType();
     // private System.Void set_energyType(GameplayModifiers/EnergyType value)
-    // Offset: 0x1394624
+    // Offset: 0x137C138
     void set_energyType(::GlobalNamespace::GameplayModifiers::EnergyType value);
     // public System.Boolean get_noFail()
-    // Offset: 0x139462C
+    // Offset: 0x137C140
     bool get_noFail();
     // private System.Void set_noFail(System.Boolean value)
-    // Offset: 0x1394634
+    // Offset: 0x137C148
     void set_noFail(bool value);
     // public System.Boolean get_instaFail()
-    // Offset: 0x1394640
+    // Offset: 0x137C154
     bool get_instaFail();
     // private System.Void set_instaFail(System.Boolean value)
-    // Offset: 0x1394648
+    // Offset: 0x137C15C
     void set_instaFail(bool value);
     // public System.Boolean get_failOnSaberClash()
-    // Offset: 0x1394654
+    // Offset: 0x137C168
     bool get_failOnSaberClash();
     // private System.Void set_failOnSaberClash(System.Boolean value)
-    // Offset: 0x139465C
+    // Offset: 0x137C170
     void set_failOnSaberClash(bool value);
     // public System.Void add_didInitEvent(System.Action value)
-    // Offset: 0x13942E8
+    // Offset: 0x137BDFC
     void add_didInitEvent(::System::Action* value);
     // public System.Void remove_didInitEvent(System.Action value)
-    // Offset: 0x139438C
+    // Offset: 0x137BEA0
     void remove_didInitEvent(::System::Action* value);
     // public System.Void add_gameEnergyDidReach0Event(System.Action value)
-    // Offset: 0x1394430
+    // Offset: 0x137BF44
     void add_gameEnergyDidReach0Event(::System::Action* value);
     // public System.Void remove_gameEnergyDidReach0Event(System.Action value)
-    // Offset: 0x13944D4
+    // Offset: 0x137BFE8
     void remove_gameEnergyDidReach0Event(::System::Action* value);
     // public System.Void add_gameEnergyDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x13829B0
+    // Offset: 0x136A58C
     void add_gameEnergyDidChangeEvent(::System::Action_1<float>* value);
     // public System.Void remove_gameEnergyDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x1382730
+    // Offset: 0x136A30C
     void remove_gameEnergyDidChangeEvent(::System::Action_1<float>* value);
-    // protected System.Void Start()
-    // Offset: 0x1394668
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13947D8
-    void OnDestroy();
-    // protected System.Void LateUpdate()
-    // Offset: 0x13948C0
-    void LateUpdate();
-    // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x1394AF8
-    void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
-    // private System.Void HandleNoteWasMissed(NoteController noteController)
-    // Offset: 0x1394BE4
-    void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
-    // private System.Void ProcessEnergyChange(System.Single energyChange)
-    // Offset: 0x13949C4
-    void ProcessEnergyChange(float energyChange);
     // public System.Void .ctor()
-    // Offset: 0x1394C54
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x137C768
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameEnergyCounter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameEnergyCounter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameEnergyCounter*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x137C17C
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x137C2EC
+    void OnDestroy();
+    // protected System.Void LateUpdate()
+    // Offset: 0x137C3D4
+    void LateUpdate();
+    // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
+    // Offset: 0x137C60C
+    void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+    // private System.Void HandleNoteWasMissed(NoteController noteController)
+    // Offset: 0x137C6F8
+    void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
+    // private System.Void ProcessEnergyChange(System.Single energyChange)
+    // Offset: 0x137C4D8
+    void ProcessEnergyChange(float energyChange);
   }; // GameEnergyCounter
   #pragma pack(pop)
   static check_size<sizeof(GameEnergyCounter), 104 + sizeof(float)> __GlobalNamespace_GameEnergyCounterSizeCheck;
@@ -512,6 +498,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "remove_gameEnergyDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::Start
 // Il2CppName: Start
 template<>
@@ -564,7 +554,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "ProcessEnergyChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{energyChange});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

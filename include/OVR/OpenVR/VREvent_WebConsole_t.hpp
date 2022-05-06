@@ -43,7 +43,7 @@ namespace OVR::OpenVR {
       return webConsoleHandle;
     }
     // Get instance field reference: public System.UInt64 webConsoleHandle
-    uint64_t& dyn_webConsoleHandle();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_webConsoleHandle();
   }; // OVR.OpenVR.VREvent_WebConsole_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_WebConsole_t), 0 + sizeof(uint64_t)> __OVR_OpenVR_VREvent_WebConsole_tSizeCheck;

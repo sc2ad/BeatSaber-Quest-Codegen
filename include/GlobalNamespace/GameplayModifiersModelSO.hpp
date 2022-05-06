@@ -58,15 +58,7 @@ namespace GlobalNamespace {
     class GameplayModifierBoolGetter;
     // Nested type: ::GlobalNamespace::GameplayModifiersModelSO::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private GameplayModifierParamsSO _batteryEnergy
     // Size: 0x8
     // Offset: 0x18
@@ -173,80 +165,75 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private GameplayModifierParamsSO _batteryEnergy
-    ::GlobalNamespace::GameplayModifierParamsSO*& dyn__batteryEnergy();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifierParamsSO*& dyn__batteryEnergy();
     // Get instance field reference: private GameplayModifierParamsSO _instaFail
-    ::GlobalNamespace::GameplayModifierParamsSO*& dyn__instaFail();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifierParamsSO*& dyn__instaFail();
     // Get instance field reference: private GameplayModifierParamsSO _noObstacles
-    ::GlobalNamespace::GameplayModifierParamsSO*& dyn__noObstacles();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifierParamsSO*& dyn__noObstacles();
     // Get instance field reference: private GameplayModifierParamsSO _noBombs
-    ::GlobalNamespace::GameplayModifierParamsSO*& dyn__noBombs();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifierParamsSO*& dyn__noBombs();
     // Get instance field reference: private GameplayModifierParamsSO _fastNotes
-    ::GlobalNamespace::GameplayModifierParamsSO*& dyn__fastNotes();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifierParamsSO*& dyn__fastNotes();
     // Get instance field reference: private GameplayModifierParamsSO _strictAngles
-    ::GlobalNamespace::GameplayModifierParamsSO*& dyn__strictAngles();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifierParamsSO*& dyn__strictAngles();
     // Get instance field reference: private GameplayModifierParamsSO _disappearingArrows
-    ::GlobalNamespace::GameplayModifierParamsSO*& dyn__disappearingArrows();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifierParamsSO*& dyn__disappearingArrows();
     // Get instance field reference: private GameplayModifierParamsSO _fasterSong
-    ::GlobalNamespace::GameplayModifierParamsSO*& dyn__fasterSong();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifierParamsSO*& dyn__fasterSong();
     // Get instance field reference: private GameplayModifierParamsSO _slowerSong
-    ::GlobalNamespace::GameplayModifierParamsSO*& dyn__slowerSong();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifierParamsSO*& dyn__slowerSong();
     // Get instance field reference: private GameplayModifierParamsSO _noArrows
-    ::GlobalNamespace::GameplayModifierParamsSO*& dyn__noArrows();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifierParamsSO*& dyn__noArrows();
     // Get instance field reference: private GameplayModifierParamsSO _ghostNotes
-    ::GlobalNamespace::GameplayModifierParamsSO*& dyn__ghostNotes();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifierParamsSO*& dyn__ghostNotes();
     // Get instance field reference: private GameplayModifierParamsSO _noFailOn0Energy
-    ::GlobalNamespace::GameplayModifierParamsSO*& dyn__noFailOn0Energy();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifierParamsSO*& dyn__noFailOn0Energy();
     // Get instance field reference: private GameplayModifierParamsSO _superFastSong
-    ::GlobalNamespace::GameplayModifierParamsSO*& dyn__superFastSong();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifierParamsSO*& dyn__superFastSong();
     // Get instance field reference: private GameplayModifierParamsSO _proMode
-    ::GlobalNamespace::GameplayModifierParamsSO*& dyn__proMode();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifierParamsSO*& dyn__proMode();
     // Get instance field reference: private GameplayModifierParamsSO _zenMode
-    ::GlobalNamespace::GameplayModifierParamsSO*& dyn__zenMode();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifierParamsSO*& dyn__zenMode();
     // Get instance field reference: private GameplayModifierParamsSO _smallCubes
-    ::GlobalNamespace::GameplayModifierParamsSO*& dyn__smallCubes();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifierParamsSO*& dyn__smallCubes();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<GameplayModifierParamsSO,GameplayModifiersModelSO/GameplayModifierBoolGetter> _gameplayModifierGetters
-    ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::GameplayModifierParamsSO*, ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter*>*& dyn__gameplayModifierGetters();
-    // public GameplayModifiers CreateGameplayModifiers(System.Func`2<GameplayModifierParamsSO,System.Boolean> valueGetter)
-    // Offset: 0x13E70AC
-    ::GlobalNamespace::GameplayModifiers* CreateGameplayModifiers(::System::Func_2<::GlobalNamespace::GameplayModifierParamsSO*, bool>* valueGetter);
-    // public System.Boolean GetModifierBoolValue(GameplayModifiers gameplayModifiers, GameplayModifierParamsSO gameplayModifierParams)
-    // Offset: 0x13E7380
-    bool GetModifierBoolValue(::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams);
-    // public System.Collections.Generic.List`1<GameplayModifierParamsSO> CreateModifierParamsList(GameplayModifiers gameplayModifiers)
-    // Offset: 0x13DFC20
-    ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* CreateModifierParamsList(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
-    // public System.Single GetTotalMultiplier(System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams, System.Single energy)
-    // Offset: 0x13E77C0
-    float GetTotalMultiplier(::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* modifierParams, float energy);
-    // public System.Int32 MaxModifiedScoreForMaxMultipliedScore(System.Int32 maxMultipliedScore, System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams, System.Single energy)
-    // Offset: 0x13E7948
-    int MaxModifiedScoreForMaxMultipliedScore(int maxMultipliedScore, ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* modifierParams, float energy);
-    // public System.Int32 MaxModifiedScoreForMaxMultipliedScore(System.Int32 maxMultipliedScore, System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams, GameplayModifiersModelSO gameplayModifiersModel, System.Single energy)
-    // Offset: 0x13E79E8
-    int MaxModifiedScoreForMaxMultipliedScore(int maxMultipliedScore, ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* modifierParams, ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float energy);
-    // private System.Int32 GetModifiedScoreForGameplayModifiers(System.Int32 multipliedScore, System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams, System.Single energy)
-    // Offset: 0x13E794C
-    int GetModifiedScoreForGameplayModifiers(int multipliedScore, ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* modifierParams, float energy);
-    // public GameplayModifierParamsSO GetGameplayModifierParams(GameplayModifierMask modifier)
-    // Offset: 0x13E5ED0
-    ::GlobalNamespace::GameplayModifierParamsSO* GetGameplayModifierParams(::GlobalNamespace::GameplayModifierMask modifier);
-    // private GameplayModifiers/SongSpeed GetSongSpeedFromValueGetter(System.Func`2<GameplayModifierParamsSO,System.Boolean> valueGetter)
-    // Offset: 0x13E72D0
-    ::GlobalNamespace::GameplayModifiers::SongSpeed GetSongSpeedFromValueGetter(::System::Func_2<::GlobalNamespace::GameplayModifierParamsSO*, bool>* valueGetter);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::GameplayModifierParamsSO*, ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter*>*& dyn__gameplayModifierGetters();
     // public System.Void .ctor()
-    // Offset: 0x13E79EC
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13F448C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayModifiersModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayModifiersModelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifiersModelSO*, creationType>()));
     }
+    // public GameplayModifiers CreateGameplayModifiers(System.Func`2<GameplayModifierParamsSO,System.Boolean> valueGetter)
+    // Offset: 0x13F3B4C
+    ::GlobalNamespace::GameplayModifiers* CreateGameplayModifiers(::System::Func_2<::GlobalNamespace::GameplayModifierParamsSO*, bool>* valueGetter);
+    // public System.Boolean GetModifierBoolValue(GameplayModifiers gameplayModifiers, GameplayModifierParamsSO gameplayModifierParams)
+    // Offset: 0x13F3E20
+    bool GetModifierBoolValue(::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams);
+    // public System.Collections.Generic.List`1<GameplayModifierParamsSO> CreateModifierParamsList(GameplayModifiers gameplayModifiers)
+    // Offset: 0x13EC6C0
+    ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* CreateModifierParamsList(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+    // public System.Single GetTotalMultiplier(System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams, System.Single energy)
+    // Offset: 0x13F4260
+    float GetTotalMultiplier(::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* modifierParams, float energy);
+    // public System.Int32 MaxModifiedScoreForMaxMultipliedScore(System.Int32 maxMultipliedScore, System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams, System.Single energy)
+    // Offset: 0x13F43E8
+    int MaxModifiedScoreForMaxMultipliedScore(int maxMultipliedScore, ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* modifierParams, float energy);
+    // public System.Int32 MaxModifiedScoreForMaxMultipliedScore(System.Int32 maxMultipliedScore, System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams, GameplayModifiersModelSO gameplayModifiersModel, System.Single energy)
+    // Offset: 0x13F4488
+    int MaxModifiedScoreForMaxMultipliedScore(int maxMultipliedScore, ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* modifierParams, ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float energy);
+    // private System.Int32 GetModifiedScoreForGameplayModifiers(System.Int32 multipliedScore, System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams, System.Single energy)
+    // Offset: 0x13F43EC
+    int GetModifiedScoreForGameplayModifiers(int multipliedScore, ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* modifierParams, float energy);
+    // public GameplayModifierParamsSO GetGameplayModifierParams(GameplayModifierMask modifier)
+    // Offset: 0x13F2970
+    ::GlobalNamespace::GameplayModifierParamsSO* GetGameplayModifierParams(::GlobalNamespace::GameplayModifierMask modifier);
+    // private GameplayModifiers/SongSpeed GetSongSpeedFromValueGetter(System.Func`2<GameplayModifierParamsSO,System.Boolean> valueGetter)
+    // Offset: 0x13F3D70
+    ::GlobalNamespace::GameplayModifiers::SongSpeed GetSongSpeedFromValueGetter(::System::Func_2<::GlobalNamespace::GameplayModifierParamsSO*, bool>* valueGetter);
     // protected override System.Void OnEnable()
-    // Offset: 0x13E66C0
+    // Offset: 0x13F3160
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
@@ -256,6 +243,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameplayModifiersModelSO) == 0xA0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::CreateGameplayModifiers
 // Il2CppName: CreateGameplayModifiers
 template<>
@@ -346,10 +337,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO*), "GetSongSpeedFromValueGetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{valueGetter});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::OnEnable
 // Il2CppName: OnEnable
 template<>

@@ -37,15 +37,7 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class UserOptions : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.IntPtr Handle
     // Size: 0x8
     // Offset: 0x10
@@ -58,33 +50,31 @@ namespace Oculus::Platform {
       return Handle;
     }
     // Get instance field reference: private System.IntPtr Handle
-    ::System::IntPtr& dyn_Handle();
-    // public System.Void SetMaxUsers(System.UInt32 value)
-    // Offset: 0x2A29744
-    void SetMaxUsers(uint value);
-    // public System.Void AddServiceProvider(Oculus.Platform.ServiceProvider value)
-    // Offset: 0x2A25658
-    void AddServiceProvider(::Oculus::Platform::ServiceProvider value);
-    // public System.Void ClearServiceProviders()
-    // Offset: 0x2A297C0
-    void ClearServiceProviders();
-    // public System.Void SetTimeWindow(Oculus.Platform.TimeWindow value)
-    // Offset: 0x2A2982C
-    void SetTimeWindow(::Oculus::Platform::TimeWindow value);
-    // static public System.IntPtr op_Explicit(Oculus.Platform.UserOptions options)
-    // Offset: 0x2A256D4
-    // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Handle();
     // public System.Void .ctor()
-    // Offset: 0x2A255E0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A7B9C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserOptions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::UserOptions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UserOptions*, creationType>()));
     }
+    // public System.Void SetMaxUsers(System.UInt32 value)
+    // Offset: 0x2A7FB2C
+    void SetMaxUsers(uint value);
+    // public System.Void AddServiceProvider(Oculus.Platform.ServiceProvider value)
+    // Offset: 0x2A7BA40
+    void AddServiceProvider(::Oculus::Platform::ServiceProvider value);
+    // public System.Void ClearServiceProviders()
+    // Offset: 0x2A7FBA8
+    void ClearServiceProviders();
+    // public System.Void SetTimeWindow(Oculus.Platform.TimeWindow value)
+    // Offset: 0x2A7FC14
+    void SetTimeWindow(::Oculus::Platform::TimeWindow value);
+    // static public System.IntPtr op_Explicit(Oculus.Platform.UserOptions options)
+    // Offset: 0x2A7BABC
+    // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
     // protected override System.Void Finalize()
-    // Offset: 0x2A298A8
+    // Offset: 0x2A7FC90
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -94,6 +84,10 @@ namespace Oculus::Platform {
   static_assert(sizeof(UserOptions) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Oculus::Platform::UserOptions::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::UserOptions::SetMaxUsers
 // Il2CppName: SetMaxUsers
 template<>
@@ -132,10 +126,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::UserOptions::operator ::System::IntPtr
 // Il2CppName: op_Explicit
 // Cannot perform method pointer template specialization from operators!
-// Writing MetadataGetter for method: Oculus::Platform::UserOptions::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::UserOptions::Finalize
 // Il2CppName: Finalize
 template<>

@@ -74,7 +74,7 @@ namespace GlobalNamespace {
       // Set static field: static public PlayerSaveData/GameplayModifiers/EnabledObstacleType None
       static void _set_None(::GlobalNamespace::PlayerSaveData::GameplayModifiers::EnabledObstacleType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // PlayerSaveData/GameplayModifiers/EnabledObstacleType
     #pragma pack(pop)
     static check_size<sizeof(PlayerSaveData::GameplayModifiers::EnabledObstacleType), 0 + sizeof(int)> __GlobalNamespace_PlayerSaveData_GameplayModifiers_EnabledObstacleTypeSizeCheck;
@@ -116,7 +116,7 @@ namespace GlobalNamespace {
       // Set static field: static public PlayerSaveData/GameplayModifiers/EnergyType Battery
       static void _set_Battery(::GlobalNamespace::PlayerSaveData::GameplayModifiers::EnergyType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // PlayerSaveData/GameplayModifiers/EnergyType
     #pragma pack(pop)
     static check_size<sizeof(PlayerSaveData::GameplayModifiers::EnergyType), 0 + sizeof(int)> __GlobalNamespace_PlayerSaveData_GameplayModifiers_EnergyTypeSizeCheck;
@@ -164,20 +164,12 @@ namespace GlobalNamespace {
       // Set static field: static public PlayerSaveData/GameplayModifiers/SongSpeed Slower
       static void _set_Slower(::GlobalNamespace::PlayerSaveData::GameplayModifiers::SongSpeed value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // PlayerSaveData/GameplayModifiers/SongSpeed
     #pragma pack(pop)
     static check_size<sizeof(PlayerSaveData::GameplayModifiers::SongSpeed), 0 + sizeof(int)> __GlobalNamespace_PlayerSaveData_GameplayModifiers_SongSpeedSizeCheck;
     static_assert(sizeof(PlayerSaveData::GameplayModifiers::SongSpeed) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public PlayerSaveData/GameplayModifiers/EnergyType energyType
     // Size: 0x4
     // Offset: 0x10
@@ -274,39 +266,37 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public PlayerSaveData/GameplayModifiers/EnergyType energyType
-    ::GlobalNamespace::PlayerSaveData::GameplayModifiers::EnergyType& dyn_energyType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSaveData::GameplayModifiers::EnergyType& dyn_energyType();
     // Get instance field reference: public System.Boolean instaFail
-    bool& dyn_instaFail();
+    [[deprecated("Use field access instead!")]] bool& dyn_instaFail();
     // Get instance field reference: public System.Boolean failOnSaberClash
-    bool& dyn_failOnSaberClash();
+    [[deprecated("Use field access instead!")]] bool& dyn_failOnSaberClash();
     // Get instance field reference: public PlayerSaveData/GameplayModifiers/EnabledObstacleType enabledObstacleType
-    ::GlobalNamespace::PlayerSaveData::GameplayModifiers::EnabledObstacleType& dyn_enabledObstacleType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSaveData::GameplayModifiers::EnabledObstacleType& dyn_enabledObstacleType();
     // Get instance field reference: public System.Boolean fastNotes
-    bool& dyn_fastNotes();
+    [[deprecated("Use field access instead!")]] bool& dyn_fastNotes();
     // Get instance field reference: public System.Boolean strictAngles
-    bool& dyn_strictAngles();
+    [[deprecated("Use field access instead!")]] bool& dyn_strictAngles();
     // Get instance field reference: public System.Boolean disappearingArrows
-    bool& dyn_disappearingArrows();
+    [[deprecated("Use field access instead!")]] bool& dyn_disappearingArrows();
     // Get instance field reference: public System.Boolean ghostNotes
-    bool& dyn_ghostNotes();
+    [[deprecated("Use field access instead!")]] bool& dyn_ghostNotes();
     // Get instance field reference: public System.Boolean noBombs
-    bool& dyn_noBombs();
+    [[deprecated("Use field access instead!")]] bool& dyn_noBombs();
     // Get instance field reference: public PlayerSaveData/GameplayModifiers/SongSpeed songSpeed
-    ::GlobalNamespace::PlayerSaveData::GameplayModifiers::SongSpeed& dyn_songSpeed();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSaveData::GameplayModifiers::SongSpeed& dyn_songSpeed();
     // Get instance field reference: public System.Boolean noArrows
-    bool& dyn_noArrows();
+    [[deprecated("Use field access instead!")]] bool& dyn_noArrows();
     // Get instance field reference: public System.Boolean noFailOn0Energy
-    bool& dyn_noFailOn0Energy();
+    [[deprecated("Use field access instead!")]] bool& dyn_noFailOn0Energy();
     // Get instance field reference: public System.Boolean proMode
-    bool& dyn_proMode();
+    [[deprecated("Use field access instead!")]] bool& dyn_proMode();
     // Get instance field reference: public System.Boolean zenMode
-    bool& dyn_zenMode();
+    [[deprecated("Use field access instead!")]] bool& dyn_zenMode();
     // Get instance field reference: public System.Boolean smallCubes
-    bool& dyn_smallCubes();
+    [[deprecated("Use field access instead!")]] bool& dyn_smallCubes();
     // public System.Void .ctor()
-    // Offset: 0x1371584
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D4698
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::GameplayModifiers* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::GameplayModifiers::.ctor");

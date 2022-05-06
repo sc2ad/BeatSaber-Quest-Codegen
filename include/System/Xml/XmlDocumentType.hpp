@@ -46,15 +46,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlDocumentType : public ::System::Xml::XmlLinkedNode {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String name
     // Size: 0x8
     // Offset: 0x20
@@ -107,74 +99,74 @@ namespace System::Xml {
     static_assert(sizeof(::System::Xml::Schema::SchemaInfo*) == 0x8);
     public:
     // Get instance field reference: private System.String name
-    ::StringW& dyn_name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_name();
     // Get instance field reference: private System.String publicId
-    ::StringW& dyn_publicId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_publicId();
     // Get instance field reference: private System.String systemId
-    ::StringW& dyn_systemId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_systemId();
     // Get instance field reference: private System.String internalSubset
-    ::StringW& dyn_internalSubset();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_internalSubset();
     // Get instance field reference: private System.Boolean namespaces
-    bool& dyn_namespaces();
+    [[deprecated("Use field access instead!")]] bool& dyn_namespaces();
     // Get instance field reference: private System.Xml.XmlNamedNodeMap entities
-    ::System::Xml::XmlNamedNodeMap*& dyn_entities();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlNamedNodeMap*& dyn_entities();
     // Get instance field reference: private System.Xml.XmlNamedNodeMap notations
-    ::System::Xml::XmlNamedNodeMap*& dyn_notations();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlNamedNodeMap*& dyn_notations();
     // Get instance field reference: private System.Xml.Schema.SchemaInfo schemaInfo
-    ::System::Xml::Schema::SchemaInfo*& dyn_schemaInfo();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::SchemaInfo*& dyn_schemaInfo();
     // public System.Xml.XmlNamedNodeMap get_Entities()
-    // Offset: 0x1B7EE0C
+    // Offset: 0x1BB93F4
     ::System::Xml::XmlNamedNodeMap* get_Entities();
     // public System.Xml.XmlNamedNodeMap get_Notations()
-    // Offset: 0x1B7F4C0
+    // Offset: 0x1BB9AA8
     ::System::Xml::XmlNamedNodeMap* get_Notations();
     // public System.String get_PublicId()
-    // Offset: 0x1B7F530
+    // Offset: 0x1BB9B18
     ::StringW get_PublicId();
     // public System.String get_SystemId()
-    // Offset: 0x1B7F538
+    // Offset: 0x1BB9B20
     ::StringW get_SystemId();
     // public System.String get_InternalSubset()
-    // Offset: 0x1B7F540
+    // Offset: 0x1BB9B28
     ::StringW get_InternalSubset();
     // System.Boolean get_ParseWithNamespaces()
-    // Offset: 0x1B7F548
+    // Offset: 0x1BB9B30
     bool get_ParseWithNamespaces();
     // System.Xml.Schema.SchemaInfo get_DtdSchemaInfo()
-    // Offset: 0x1B7F550
+    // Offset: 0x1BB9B38
     ::System::Xml::Schema::SchemaInfo* get_DtdSchemaInfo();
     // System.Void set_DtdSchemaInfo(System.Xml.Schema.SchemaInfo value)
-    // Offset: 0x1B7F558
+    // Offset: 0x1BB9B40
     void set_DtdSchemaInfo(::System::Xml::Schema::SchemaInfo* value);
     // protected internal System.Void .ctor(System.String name, System.String publicId, System.String systemId, System.String internalSubset, System.Xml.XmlDocument doc)
-    // Offset: 0x1B7D400
+    // Offset: 0x1BB79E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlDocumentType* New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset, ::System::Xml::XmlDocument* doc) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlDocumentType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlDocumentType*, creationType>(name, publicId, systemId, internalSubset, doc)));
     }
     // public override System.String get_Name()
-    // Offset: 0x1B7F458
+    // Offset: 0x1BB9A40
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_Name()
     ::StringW get_Name();
     // public override System.String get_LocalName()
-    // Offset: 0x1B7F460
+    // Offset: 0x1BB9A48
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_LocalName()
     ::StringW get_LocalName();
     // public override System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x1B7F468
+    // Offset: 0x1BB9A50
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNodeType XmlNode::get_NodeType()
     ::System::Xml::XmlNodeType get_NodeType();
     // public override System.Boolean get_IsReadOnly()
-    // Offset: 0x1B7F4B8
+    // Offset: 0x1BB9AA0
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Boolean XmlNode::get_IsReadOnly()
     bool get_IsReadOnly();
     // public override System.Xml.XmlNode CloneNode(System.Boolean deep)
-    // Offset: 0x1B7F470
+    // Offset: 0x1BB9A58
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNode XmlNode::CloneNode(System.Boolean deep)
     ::System::Xml::XmlNode* CloneNode(bool deep);

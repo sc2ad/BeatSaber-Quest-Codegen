@@ -30,15 +30,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InstanceInputUIState : public ::UnityEngine::ScriptableObject/*, public ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstanceInputUIState*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean _showInstanceInputs
     // Size: 0x1
     // Offset: 0x18
@@ -67,34 +59,34 @@ namespace HoudiniEngineUnity {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Boolean _showInstanceInputs
-    bool& dyn__showInstanceInputs();
+    [[deprecated("Use field access instead!")]] bool& dyn__showInstanceInputs();
     // Get instance field reference: public System.Int32 _numInputsToShowUI
-    int& dyn__numInputsToShowUI();
+    [[deprecated("Use field access instead!")]] int& dyn__numInputsToShowUI();
     // Get instance field reference: public System.Int32 _inputsPageIndexUI
-    int& dyn__inputsPageIndexUI();
-    // public System.Void CopyTo(HoudiniEngineUnity.HEU_InstanceInputUIState dest)
-    // Offset: 0x185ACF4
-    void CopyTo(::HoudiniEngineUnity::HEU_InstanceInputUIState* dest);
-    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_InstanceInputUIState other)
-    // Offset: 0x185AD20
-    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InstanceInputUIState* other);
+    [[deprecated("Use field access instead!")]] int& dyn__inputsPageIndexUI();
     // public System.Void .ctor()
-    // Offset: 0x185AEB0
-    // Implemented from: UnityEngine.ScriptableObject
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18947C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InstanceInputUIState* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InstanceInputUIState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_InstanceInputUIState*, creationType>()));
     }
+    // public System.Void CopyTo(HoudiniEngineUnity.HEU_InstanceInputUIState dest)
+    // Offset: 0x1894604
+    void CopyTo(::HoudiniEngineUnity::HEU_InstanceInputUIState* dest);
+    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_InstanceInputUIState other)
+    // Offset: 0x1894630
+    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InstanceInputUIState* other);
   }; // HoudiniEngineUnity.HEU_InstanceInputUIState
   #pragma pack(pop)
   static check_size<sizeof(HEU_InstanceInputUIState), 32 + sizeof(int)> __HoudiniEngineUnity_HEU_InstanceInputUIStateSizeCheck;
   static_assert(sizeof(HEU_InstanceInputUIState) == 0x24);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InstanceInputUIState::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InstanceInputUIState::CopyTo
 // Il2CppName: CopyTo
 template<>
@@ -113,7 +105,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InstanceInputUIState*), "IsEquivalentTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InstanceInputUIState::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

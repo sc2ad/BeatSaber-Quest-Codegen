@@ -62,15 +62,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::TutorialController::$OutroCoroutine$d__19
     class $OutroCoroutine$d__19;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TutorialSongController _tutorialSongController
     // Size: 0x8
     // Offset: 0x18
@@ -95,22 +87,22 @@ namespace GlobalNamespace {
     ::GlobalNamespace::TutorialScenesTransitionSetupDataSO* tutorialSceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::TutorialScenesTransitionSetupDataSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1256510
-    // [SignalSenderAttribute] Offset: 0x1256510
+    // [SpaceAttribute] Offset: 0x10DB0F4
+    // [SignalSenderAttribute] Offset: 0x10DB0F4
     // private Signal _tutorialIntroStartedSignal
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::Signal* tutorialIntroStartedSignal;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Signal*) == 0x8);
-    // [SignalSenderAttribute] Offset: 0x1256558
+    // [SignalSenderAttribute] Offset: 0x10DB13C
     // private Signal _tutorialFinishedSignal
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::Signal* tutorialFinishedSignal;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Signal*) == 0x8);
-    // [InjectAttribute] Offset: 0x1256590
+    // [InjectAttribute] Offset: 0x10DB174
     // private readonly PauseController _pauseController
     // Size: 0x8
     // Offset: 0x48
@@ -149,76 +141,70 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TutorialSongController _tutorialSongController
-    ::GlobalNamespace::TutorialSongController*& dyn__tutorialSongController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TutorialSongController*& dyn__tutorialSongController();
     // Get instance field reference: private IntroTutorialController _introTutorialController
-    ::GlobalNamespace::IntroTutorialController*& dyn__introTutorialController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IntroTutorialController*& dyn__introTutorialController();
     // Get instance field reference: private AudioFading _audioFading
-    ::GlobalNamespace::AudioFading*& dyn__audioFading();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioFading*& dyn__audioFading();
     // Get instance field reference: private TutorialScenesTransitionSetupDataSO _tutorialSceneSetupData
-    ::GlobalNamespace::TutorialScenesTransitionSetupDataSO*& dyn__tutorialSceneSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TutorialScenesTransitionSetupDataSO*& dyn__tutorialSceneSetupData();
     // Get instance field reference: private Signal _tutorialIntroStartedSignal
-    ::GlobalNamespace::Signal*& dyn__tutorialIntroStartedSignal();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Signal*& dyn__tutorialIntroStartedSignal();
     // Get instance field reference: private Signal _tutorialFinishedSignal
-    ::GlobalNamespace::Signal*& dyn__tutorialFinishedSignal();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Signal*& dyn__tutorialFinishedSignal();
     // Get instance field reference: private readonly PauseController _pauseController
-    ::GlobalNamespace::PauseController*& dyn__pauseController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PauseController*& dyn__pauseController();
     // Get instance field reference: private System.Action levelWillStartIntroEvent
-    ::System::Action*& dyn_levelWillStartIntroEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_levelWillStartIntroEvent();
     // Get instance field reference: private System.Action levelDidStartEvent
-    ::System::Action*& dyn_levelDidStartEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_levelDidStartEvent();
     // Get instance field reference: private System.Boolean _paused
-    bool& dyn__paused();
+    [[deprecated("Use field access instead!")]] bool& dyn__paused();
     // Get instance field reference: private System.Boolean _doingOutroTransition
-    bool& dyn__doingOutroTransition();
+    [[deprecated("Use field access instead!")]] bool& dyn__doingOutroTransition();
     // public System.Void add_levelWillStartIntroEvent(System.Action value)
-    // Offset: 0x1342D8C
+    // Offset: 0x148F188
     void add_levelWillStartIntroEvent(::System::Action* value);
     // public System.Void remove_levelWillStartIntroEvent(System.Action value)
-    // Offset: 0x1342E30
+    // Offset: 0x148F22C
     void remove_levelWillStartIntroEvent(::System::Action* value);
     // public System.Void add_levelDidStartEvent(System.Action value)
-    // Offset: 0x1342ED4
+    // Offset: 0x148F2D0
     void add_levelDidStartEvent(::System::Action* value);
     // public System.Void remove_levelDidStartEvent(System.Action value)
-    // Offset: 0x1342F78
+    // Offset: 0x148F374
     void remove_levelDidStartEvent(::System::Action* value);
-    // protected System.Void Start()
-    // Offset: 0x134301C
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x1343204
-    void OnDestroy();
-    // private System.Void HandleIntroTutorialDidFinishEvent()
-    // Offset: 0x1343448
-    void HandleIntroTutorialDidFinishEvent();
-    // private System.Void HandleTutorialSongControllerSongDidFinishEvent()
-    // Offset: 0x1343468
-    void HandleTutorialSongControllerSongDidFinishEvent();
-    // private System.Collections.IEnumerator OutroCoroutine()
-    // Offset: 0x13434B4
-    ::System::Collections::IEnumerator* OutroCoroutine();
-    // private System.Void HandlePauseControllerCanPause(System.Action`1<System.Boolean> canPause)
-    // Offset: 0x1343550
-    void HandlePauseControllerCanPause(::System::Action_1<bool>* canPause);
-    // private System.Void HandlePauseControllerDidPause()
-    // Offset: 0x13435DC
-    void HandlePauseControllerDidPause();
-    // private System.Void HandlePauseControllerDidResume()
-    // Offset: 0x13435E8
-    void HandlePauseControllerDidResume();
     // public System.Void .ctor()
-    // Offset: 0x13435F0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x148FA50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TutorialController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x148F418
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x148F600
+    void OnDestroy();
+    // private System.Void HandleIntroTutorialDidFinishEvent()
+    // Offset: 0x148F844
+    void HandleIntroTutorialDidFinishEvent();
+    // private System.Void HandleTutorialSongControllerSongDidFinishEvent()
+    // Offset: 0x148F8C8
+    void HandleTutorialSongControllerSongDidFinishEvent();
+    // private System.Collections.IEnumerator OutroCoroutine()
+    // Offset: 0x148F914
+    ::System::Collections::IEnumerator* OutroCoroutine();
+    // private System.Void HandlePauseControllerCanPause(System.Action`1<System.Boolean> canPause)
+    // Offset: 0x148F9B0
+    void HandlePauseControllerCanPause(::System::Action_1<bool>* canPause);
+    // private System.Void HandlePauseControllerDidPause()
+    // Offset: 0x148FA3C
+    void HandlePauseControllerDidPause();
+    // private System.Void HandlePauseControllerDidResume()
+    // Offset: 0x148FA48
+    void HandlePauseControllerDidResume();
   }; // TutorialController
   #pragma pack(pop)
   static check_size<sizeof(TutorialController), 97 + sizeof(bool)> __GlobalNamespace_TutorialControllerSizeCheck;
@@ -261,6 +247,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialController*), "remove_levelDidStartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::TutorialController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TutorialController::Start
 // Il2CppName: Start
 template<>
@@ -326,7 +316,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialController*), "HandlePauseControllerDidResume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TutorialController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

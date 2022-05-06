@@ -570,7 +570,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRInitError Steam_SteamInstallationNotFound
     static void _set_Steam_SteamInstallationNotFound(::OVR::OpenVR::EVRInitError value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVR.OpenVR.EVRInitError
   #pragma pack(pop)
   static check_size<sizeof(EVRInitError), 0 + sizeof(int)> __OVR_OpenVR_EVRInitErrorSizeCheck;

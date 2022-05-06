@@ -66,7 +66,7 @@ namespace System::Xml::Schema {
     // Set static field: static public System.Xml.Schema.XmlSchemaContentType Mixed
     static void _set_Mixed(::System::Xml::Schema::XmlSchemaContentType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Xml.Schema.XmlSchemaContentType
   #pragma pack(pop)
   static check_size<sizeof(XmlSchemaContentType), 0 + sizeof(int)> __System_Xml_Schema_XmlSchemaContentTypeSizeCheck;

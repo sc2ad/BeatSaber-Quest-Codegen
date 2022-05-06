@@ -65,15 +65,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
   // [TokenAttribute] Offset: FFFFFFFF
   class ECKeyPairGenerator : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.String algorithm
     // Size: 0x8
     // Offset: 0x10
@@ -100,50 +92,52 @@ namespace Org::BouncyCastle::Crypto::Generators {
     static_assert(sizeof(::Org::BouncyCastle::Security::SecureRandom*) == 0x8);
     public:
     // Get instance field reference: private readonly System.String algorithm
-    ::StringW& dyn_algorithm();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_algorithm();
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.ECDomainParameters parameters
-    ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*& dyn_parameters();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*& dyn_parameters();
     // Get instance field reference: private Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet
-    ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_publicKeyParamSet();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_publicKeyParamSet();
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
-    ::Org::BouncyCastle::Security::SecureRandom*& dyn_random();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Security::SecureRandom*& dyn_random();
+    // public System.Void .ctor()
+    // Offset: 0x1E2EEA8
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static ECKeyPairGenerator* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<ECKeyPairGenerator*, creationType>()));
+    }
     // public System.Void .ctor(System.String algorithm)
-    // Offset: 0x1DF462C
+    // Offset: 0x1E2EEF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECKeyPairGenerator* New_ctor(::StringW algorithm) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECKeyPairGenerator*, creationType>(algorithm)));
     }
     // public System.Void Init(Org.BouncyCastle.Crypto.KeyGenerationParameters parameters)
-    // Offset: 0x1DF46F4
+    // Offset: 0x1E2EFC0
     void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
     // public Org.BouncyCastle.Crypto.AsymmetricCipherKeyPair GenerateKeyPair()
-    // Offset: 0x1DF4A4C
+    // Offset: 0x1E2F318
     ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
     // protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier CreateBasePointMultiplier()
-    // Offset: 0x1DF4D04
+    // Offset: 0x1E2F5D0
     ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
     // static Org.BouncyCastle.Asn1.X9.X9ECParameters FindECCurveByOid(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x1DF49C8
+    // Offset: 0x1E2F294
     static ::Org::BouncyCastle::Asn1::X9::X9ECParameters* FindECCurveByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // static Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters GetCorrespondingPublicKey(Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters privKey)
-    // Offset: 0x1DF4D60
+    // Offset: 0x1E2F62C
     static ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* GetCorrespondingPublicKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privKey);
-    // public System.Void .ctor()
-    // Offset: 0x1DF45DC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ECKeyPairGenerator* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<ECKeyPairGenerator*, creationType>()));
-    }
   }; // Org.BouncyCastle.Crypto.Generators.ECKeyPairGenerator
   #pragma pack(pop)
   static check_size<sizeof(ECKeyPairGenerator), 40 + sizeof(::Org::BouncyCastle::Security::SecureRandom*)> __Org_BouncyCastle_Crypto_Generators_ECKeyPairGeneratorSizeCheck;
   static_assert(sizeof(ECKeyPairGenerator) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -191,7 +185,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::Boun
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator*), "GetCorrespondingPublicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{privKey});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

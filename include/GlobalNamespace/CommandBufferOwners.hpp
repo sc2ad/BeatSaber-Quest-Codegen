@@ -44,15 +44,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CommandBufferOwners : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.HashSet`1<UnityEngine.Object> _owners
     // Size: 0x8
     // Offset: 0x10
@@ -67,30 +59,28 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Rendering::CommandBuffer*) == 0x8);
     public:
     // Get instance field reference: private System.Collections.Generic.HashSet`1<UnityEngine.Object> _owners
-    ::System::Collections::Generic::HashSet_1<::UnityEngine::Object*>*& dyn__owners();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::UnityEngine::Object*>*& dyn__owners();
     // Get instance field reference: public UnityEngine.Rendering.CommandBuffer commandBuffer
-    ::UnityEngine::Rendering::CommandBuffer*& dyn_commandBuffer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rendering::CommandBuffer*& dyn_commandBuffer();
     // public System.Int32 get_NumberOfOwners()
-    // Offset: 0x29E6F74
+    // Offset: 0x2A3D868
     int get_NumberOfOwners();
-    // public System.Void AddOwner(UnityEngine.Object owner)
-    // Offset: 0x29E71C8
-    void AddOwner(::UnityEngine::Object* owner);
-    // public System.Void RemoveOwner(UnityEngine.Object owner)
-    // Offset: 0x29E6F00
-    void RemoveOwner(::UnityEngine::Object* owner);
-    // public System.Boolean ContainsOwner(UnityEngine.Object owner)
-    // Offset: 0x29E7160
-    bool ContainsOwner(::UnityEngine::Object* owner);
     // public System.Void .ctor()
-    // Offset: 0x29E7260
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A3DB54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CommandBufferOwners* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CommandBufferOwners::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CommandBufferOwners*, creationType>()));
     }
+    // public System.Void AddOwner(UnityEngine.Object owner)
+    // Offset: 0x2A3DABC
+    void AddOwner(::UnityEngine::Object* owner);
+    // public System.Void RemoveOwner(UnityEngine.Object owner)
+    // Offset: 0x2A3D7F4
+    void RemoveOwner(::UnityEngine::Object* owner);
+    // public System.Boolean ContainsOwner(UnityEngine.Object owner)
+    // Offset: 0x2A3DA54
+    bool ContainsOwner(::UnityEngine::Object* owner);
   }; // CommandBufferOwners
   #pragma pack(pop)
   static check_size<sizeof(CommandBufferOwners), 24 + sizeof(::UnityEngine::Rendering::CommandBuffer*)> __GlobalNamespace_CommandBufferOwnersSizeCheck;
@@ -105,6 +95,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferOwners*), "get_NumberOfOwners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::CommandBufferOwners::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CommandBufferOwners::AddOwner
 // Il2CppName: AddOwner
 template<>
@@ -132,7 +126,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferOwners*), "ContainsOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{owner});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CommandBufferOwners::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

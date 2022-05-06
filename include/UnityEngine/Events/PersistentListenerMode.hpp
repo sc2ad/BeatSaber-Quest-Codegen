@@ -84,7 +84,7 @@ namespace UnityEngine::Events {
     // Set static field: static public UnityEngine.Events.PersistentListenerMode Bool
     static void _set_Bool(::UnityEngine::Events::PersistentListenerMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.Events.PersistentListenerMode
   #pragma pack(pop)
   static check_size<sizeof(PersistentListenerMode), 0 + sizeof(int)> __UnityEngine_Events_PersistentListenerModeSizeCheck;

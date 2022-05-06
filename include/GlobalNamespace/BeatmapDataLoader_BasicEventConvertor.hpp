@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapDataLoader::BasicEventConvertor : public ::GlobalNamespace::BeatmapDataLoader::BeatmapDataItemConvertor_3<::GlobalNamespace::BeatmapEventData*, ::BeatmapSaveDataVersion3::BeatmapSaveData::BasicEventData*, ::GlobalNamespace::BasicBeatmapEventData*> {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly BeatmapDataLoader/SpecialEventsFilter _specialEventsFilter
     // Size: 0x8
     // Offset: 0x18
@@ -54,19 +46,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::GlobalNamespace::BeatmapDataLoader::BpmTimeProcessor*
     constexpr operator ::GlobalNamespace::BeatmapDataLoader::BpmTimeProcessor*() const noexcept = delete;
     // Get instance field reference: private readonly BeatmapDataLoader/SpecialEventsFilter _specialEventsFilter
-    ::GlobalNamespace::BeatmapDataLoader::SpecialEventsFilter*& dyn__specialEventsFilter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataLoader::SpecialEventsFilter*& dyn__specialEventsFilter();
     // public System.Void .ctor(BeatmapDataLoader/BpmTimeProcessor bpmTimeProcessor, BeatmapDataLoader/SpecialEventsFilter specialEventsFilter)
-    // Offset: 0x136A2AC
+    // Offset: 0x135252C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataLoader::BasicEventConvertor* New_ctor(::GlobalNamespace::BeatmapDataLoader::BpmTimeProcessor* bpmTimeProcessor, ::GlobalNamespace::BeatmapDataLoader::SpecialEventsFilter* specialEventsFilter) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataLoader::BasicEventConvertor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataLoader::BasicEventConvertor*, creationType>(bpmTimeProcessor, specialEventsFilter)));
     }
     // protected BasicBeatmapEventData Convert(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.BasicEventData basicEventSaveData)
-    // Offset: 0x136AC18
+    // Offset: 0x1352E9C
     ::GlobalNamespace::BasicBeatmapEventData* Convert(::BeatmapSaveDataVersion3::BeatmapSaveData::BasicEventData* basicEventSaveData);
     // static private BasicBeatmapEventType ConvertFromBeatmapSaveDataBeatmapEventType(BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapEventType beatmapEventType)
-    // Offset: 0x136AD58
+    // Offset: 0x1352FDC
     static ::GlobalNamespace::BasicBeatmapEventType ConvertFromBeatmapSaveDataBeatmapEventType(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::BeatmapEventType beatmapEventType);
   }; // BeatmapDataLoader/BasicEventConvertor
   // WARNING Not writing size check since size may be invalid!

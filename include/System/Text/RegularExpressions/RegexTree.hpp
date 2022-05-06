@@ -42,15 +42,7 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class RegexTree : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Text.RegularExpressions.RegexNode _root
     // Size: 0x8
     // Offset: 0x10
@@ -95,21 +87,21 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: System.Text.RegularExpressions.RegexNode _root
-    ::System::Text::RegularExpressions::RegexNode*& dyn__root();
+    [[deprecated("Use field access instead!")]] ::System::Text::RegularExpressions::RegexNode*& dyn__root();
     // Get instance field reference: System.Collections.Hashtable _caps
-    ::System::Collections::Hashtable*& dyn__caps();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn__caps();
     // Get instance field reference: System.Int32[] _capnumlist
-    ::ArrayW<int>& dyn__capnumlist();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__capnumlist();
     // Get instance field reference: System.Collections.Hashtable _capnames
-    ::System::Collections::Hashtable*& dyn__capnames();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn__capnames();
     // Get instance field reference: System.String[] _capslist
-    ::ArrayW<::StringW>& dyn__capslist();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn__capslist();
     // Get instance field reference: System.Text.RegularExpressions.RegexOptions _options
-    ::System::Text::RegularExpressions::RegexOptions& dyn__options();
+    [[deprecated("Use field access instead!")]] ::System::Text::RegularExpressions::RegexOptions& dyn__options();
     // Get instance field reference: System.Int32 _captop
-    int& dyn__captop();
+    [[deprecated("Use field access instead!")]] int& dyn__captop();
     // System.Void .ctor(System.Text.RegularExpressions.RegexNode root, System.Collections.Hashtable caps, System.Int32[] capnumlist, System.Int32 captop, System.Collections.Hashtable capnames, System.String[] capslist, System.Text.RegularExpressions.RegexOptions opts)
-    // Offset: 0x1D8E6BC
+    // Offset: 0x1DE0FA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexTree* New_ctor(::System::Text::RegularExpressions::RegexNode* root, ::System::Collections::Hashtable* caps, ::ArrayW<int> capnumlist, int captop, ::System::Collections::Hashtable* capnames, ::ArrayW<::StringW> capslist, ::System::Text::RegularExpressions::RegexOptions opts) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexTree::.ctor");

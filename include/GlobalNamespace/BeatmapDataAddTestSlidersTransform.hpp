@@ -53,25 +53,27 @@ namespace GlobalNamespace {
     static float _get_kMaxTimeDiff();
     // Set static field: static private System.Single kMaxTimeDiff
     static void _set_kMaxTimeDiff(float value);
-    // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData)
-    // Offset: 0x136866C
-    static ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
-    // static private NoteData FindNextSameColorTypeNote(System.Collections.Generic.IReadOnlyList`1<BeatmapDataItem> beatmapDataItems, System.Int32 startIndex, ColorType colorType)
-    // Offset: 0x1368954
-    static ::GlobalNamespace::NoteData* FindNextSameColorTypeNote(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapDataItem*>* beatmapDataItems, int startIndex, ::GlobalNamespace::ColorType colorType);
     // public System.Void .ctor()
-    // Offset: 0x1368B48
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1350DC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataAddTestSlidersTransform* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataAddTestSlidersTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataAddTestSlidersTransform*, creationType>()));
     }
+    // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData)
+    // Offset: 0x13508EC
+    static ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
+    // static private NoteData FindNextSameColorTypeNote(System.Collections.Generic.IReadOnlyList`1<BeatmapDataItem> beatmapDataItems, System.Int32 startIndex, ColorType colorType)
+    // Offset: 0x1350BD4
+    static ::GlobalNamespace::NoteData* FindNextSameColorTypeNote(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapDataItem*>* beatmapDataItems, int startIndex, ::GlobalNamespace::ColorType colorType);
   }; // BeatmapDataAddTestSlidersTransform
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataAddTestSlidersTransform::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataAddTestSlidersTransform::CreateTransformedData
 // Il2CppName: CreateTransformedData
 template<>
@@ -92,7 +94,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataAddTestSlidersTransform*), "FindNextSameColorTypeNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapDataItems, startIndex, colorType});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataAddTestSlidersTransform::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

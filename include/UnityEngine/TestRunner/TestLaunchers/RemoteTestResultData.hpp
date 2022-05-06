@@ -44,15 +44,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     public:
     // Nested type: ::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String testId
     // Size: 0x8
     // Offset: 0x10
@@ -173,49 +165,49 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     public:
     // Get instance field reference: public System.String testId
-    ::StringW& dyn_testId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_testId();
     // Get instance field reference: public System.String name
-    ::StringW& dyn_name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_name();
     // Get instance field reference: public System.String fullName
-    ::StringW& dyn_fullName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_fullName();
     // Get instance field reference: public System.String resultState
-    ::StringW& dyn_resultState();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_resultState();
     // Get instance field reference: public NUnit.Framework.Interfaces.TestStatus testStatus
-    ::NUnit::Framework::Interfaces::TestStatus& dyn_testStatus();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Interfaces::TestStatus& dyn_testStatus();
     // Get instance field reference: public System.Double duration
-    double& dyn_duration();
+    [[deprecated("Use field access instead!")]] double& dyn_duration();
     // Get instance field reference: public System.DateTime startTime
-    ::System::DateTime& dyn_startTime();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_startTime();
     // Get instance field reference: public System.DateTime endTime
-    ::System::DateTime& dyn_endTime();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_endTime();
     // Get instance field reference: public System.String message
-    ::StringW& dyn_message();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_message();
     // Get instance field reference: public System.String stackTrace
-    ::StringW& dyn_stackTrace();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_stackTrace();
     // Get instance field reference: public System.Int32 assertCount
-    int& dyn_assertCount();
+    [[deprecated("Use field access instead!")]] int& dyn_assertCount();
     // Get instance field reference: public System.Int32 failCount
-    int& dyn_failCount();
+    [[deprecated("Use field access instead!")]] int& dyn_failCount();
     // Get instance field reference: public System.Int32 passCount
-    int& dyn_passCount();
+    [[deprecated("Use field access instead!")]] int& dyn_passCount();
     // Get instance field reference: public System.Int32 skipCount
-    int& dyn_skipCount();
+    [[deprecated("Use field access instead!")]] int& dyn_skipCount();
     // Get instance field reference: public System.Int32 inconclusiveCount
-    int& dyn_inconclusiveCount();
+    [[deprecated("Use field access instead!")]] int& dyn_inconclusiveCount();
     // Get instance field reference: public System.Boolean hasChildren
-    bool& dyn_hasChildren();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasChildren();
     // Get instance field reference: public System.String output
-    ::StringW& dyn_output();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_output();
     // Get instance field reference: public System.String xml
-    ::StringW& dyn_xml();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_xml();
     // Get instance field reference: public System.String[] childrenIds
-    ::ArrayW<::StringW>& dyn_childrenIds();
-    // System.Void .ctor(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x19464B4
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_childrenIds();
+    // System.Void .ctor(NUnit.Framework.Interfaces.ITestResult result, System.Boolean isTopLevel)
+    // Offset: 0x197E59C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RemoteTestResultData* New_ctor(::NUnit::Framework::Interfaces::ITestResult* result) {
+    static RemoteTestResultData* New_ctor(::NUnit::Framework::Interfaces::ITestResult* result, bool isTopLevel) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<RemoteTestResultData*, creationType>(result)));
+      return THROW_UNLESS((::il2cpp_utils::New<RemoteTestResultData*, creationType>(result, isTopLevel)));
     }
   }; // UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData
   #pragma pack(pop)

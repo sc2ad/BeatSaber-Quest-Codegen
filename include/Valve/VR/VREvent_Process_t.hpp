@@ -50,11 +50,11 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt32 pid
-    uint& dyn_pid();
+    [[deprecated("Use field access instead!")]] uint& dyn_pid();
     // Get instance field reference: public System.UInt32 oldPid
-    uint& dyn_oldPid();
+    [[deprecated("Use field access instead!")]] uint& dyn_oldPid();
     // Get instance field reference: public System.Boolean bForced
-    bool& dyn_bForced();
+    [[deprecated("Use field access instead!")]] bool& dyn_bForced();
   }; // Valve.VR.VREvent_Process_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Process_t), 8 + sizeof(bool)> __Valve_VR_VREvent_Process_tSizeCheck;

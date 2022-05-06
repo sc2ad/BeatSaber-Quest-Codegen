@@ -49,15 +49,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair
     class MissionHelpGameObjectPair;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Button _okButton
     // Size: 0x8
     // Offset: 0x70
@@ -84,44 +76,37 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::MissionHelpSO*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.UI.Button _okButton
-    ::UnityEngine::UI::Button*& dyn__okButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__okButton();
     // Get instance field reference: private MissionHelpViewController/MissionHelpGameObjectPair[] _missionHelpGameObjectPairs
-    ::ArrayW<::GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*>& dyn__missionHelpGameObjectPairs();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*>& dyn__missionHelpGameObjectPairs();
     // Get instance field reference: private System.Action`1<MissionHelpViewController> didFinishEvent
-    ::System::Action_1<::GlobalNamespace::MissionHelpViewController*>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::MissionHelpViewController*>*& dyn_didFinishEvent();
     // Get instance field reference: private MissionHelpSO _missionHelp
-    ::GlobalNamespace::MissionHelpSO*& dyn__missionHelp();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionHelpSO*& dyn__missionHelp();
     // public System.Void add_didFinishEvent(System.Action`1<MissionHelpViewController> value)
-    // Offset: 0x13053D0
+    // Offset: 0x13018A8
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::MissionHelpViewController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<MissionHelpViewController> value)
-    // Offset: 0x1305474
+    // Offset: 0x130194C
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::MissionHelpViewController*>* value);
-    // public System.Void Setup(MissionHelpSO missionHelp)
-    // Offset: 0x1305518
-    void Setup(::GlobalNamespace::MissionHelpSO* missionHelp);
-    // public System.Void RefreshContent()
-    // Offset: 0x1305554
-    void RefreshContent();
-    // private System.Void OkButtonPressed()
-    // Offset: 0x13056E8
-    void OkButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0x130574C
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1301C24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionHelpViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionHelpViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionHelpViewController*, creationType>()));
     }
+    // public System.Void Setup(MissionHelpSO missionHelp)
+    // Offset: 0x13019F0
+    void Setup(::GlobalNamespace::MissionHelpSO* missionHelp);
+    // public System.Void RefreshContent()
+    // Offset: 0x1301A2C
+    void RefreshContent();
+    // private System.Void OkButtonPressed()
+    // Offset: 0x1301BC0
+    void OkButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1305644
+    // Offset: 0x1301B1C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -149,6 +134,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionHelpViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MissionHelpViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionHelpViewController::Setup
 // Il2CppName: Setup
 template<>
@@ -174,10 +163,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionHelpViewController*), "OkButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MissionHelpViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionHelpViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

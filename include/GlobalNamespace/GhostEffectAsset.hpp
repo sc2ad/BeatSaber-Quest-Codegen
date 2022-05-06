@@ -58,22 +58,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GhostEffectAsset : public ::UnityEngine::Playables::PlayableAsset/*, public ::UnityEngine::Timeline::ITimelineClipAsset*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public GhostEffectBehaviour/GhostEffectType _ghostEffectType
     // Size: 0x4
     // Offset: 0x18
     ::GlobalNamespace::GhostEffectBehaviour::GhostEffectType ghostEffectType;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GhostEffectBehaviour::GhostEffectType) == 0x4);
-    // [NullAllowed] Offset: 0x125FCE4
+    // [NullAllowed] Offset: 0x10E498C
     // public UnityEngine.ExposedReference`1<TimelineArrayReference> arrayReference
     // Size: 0xFFFFFFFF
     // Offset: 0x20
@@ -92,28 +84,23 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public GhostEffectBehaviour/GhostEffectType _ghostEffectType
-    ::GlobalNamespace::GhostEffectBehaviour::GhostEffectType& dyn__ghostEffectType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GhostEffectBehaviour::GhostEffectType& dyn__ghostEffectType();
     // Get instance field reference: public UnityEngine.ExposedReference`1<TimelineArrayReference> arrayReference
-    ::UnityEngine::ExposedReference_1<::GlobalNamespace::TimelineArrayReference*>& dyn_arrayReference();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ExposedReference_1<::GlobalNamespace::TimelineArrayReference*>& dyn_arrayReference();
     // Get instance field reference: public GhostEffectBehaviour template
-    ::GlobalNamespace::GhostEffectBehaviour*& dyn_template();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GhostEffectBehaviour*& dyn_template();
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x13E9DA4
+    // Offset: 0x13F6844
     ::UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public System.Void .ctor()
-    // Offset: 0x13E9EE0
-    // Implemented from: UnityEngine.Playables.PlayableAsset
-    // Base method: System.Void PlayableAsset::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13F6980
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GhostEffectAsset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GhostEffectAsset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GhostEffectAsset*, creationType>()));
     }
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x13E9DAC
+    // Offset: 0x13F684C
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);

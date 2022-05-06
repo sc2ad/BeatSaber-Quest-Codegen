@@ -36,15 +36,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OculusPlatformAchievementHandler::$$c__DisplayClass3_1 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Oculus.Platform.Models.AchievementProgress achievement
     // Size: 0x8
     // Offset: 0x10
@@ -57,25 +49,27 @@ namespace GlobalNamespace {
       return achievement;
     }
     // Get instance field reference: public Oculus.Platform.Models.AchievementProgress achievement
-    ::Oculus::Platform::Models::AchievementProgress*& dyn_achievement();
-    // System.Boolean <GetUnlockedAchievements>b__1(AchievementSO x)
-    // Offset: 0x1513B9C
-    bool $GetUnlockedAchievements$b__1(::GlobalNamespace::AchievementSO* x);
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::AchievementProgress*& dyn_achievement();
     // public System.Void .ctor()
-    // Offset: 0x1513B94
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x154B49C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusPlatformAchievementHandler::$$c__DisplayClass3_1* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusPlatformAchievementHandler::$$c__DisplayClass3_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusPlatformAchievementHandler::$$c__DisplayClass3_1*, creationType>()));
     }
+    // System.Boolean <GetUnlockedAchievements>b__1(AchievementSO x)
+    // Offset: 0x154B4A4
+    bool $GetUnlockedAchievements$b__1(::GlobalNamespace::AchievementSO* x);
   }; // OculusPlatformAchievementHandler/<>c__DisplayClass3_1
   #pragma pack(pop)
   static check_size<sizeof(OculusPlatformAchievementHandler::$$c__DisplayClass3_1), 16 + sizeof(::Oculus::Platform::Models::AchievementProgress*)> __GlobalNamespace_OculusPlatformAchievementHandler_$$c__DisplayClass3_1SizeCheck;
   static_assert(sizeof(OculusPlatformAchievementHandler::$$c__DisplayClass3_1) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OculusPlatformAchievementHandler::$$c__DisplayClass3_1::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OculusPlatformAchievementHandler::$$c__DisplayClass3_1::$GetUnlockedAchievements$b__1
 // Il2CppName: <GetUnlockedAchievements>b__1
 template<>
@@ -85,7 +79,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusPlatformAchievementHandler::$$c__DisplayClass3_1*), "<GetUnlockedAchievements>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OculusPlatformAchievementHandler::$$c__DisplayClass3_1::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

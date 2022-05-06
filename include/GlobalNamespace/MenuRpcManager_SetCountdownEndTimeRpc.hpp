@@ -25,11 +25,10 @@ namespace GlobalNamespace {
   class MenuRpcManager::SetCountdownEndTimeRpc : public ::GlobalNamespace::RemoteProcedureCall_1<float> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x170052C
+    // Offset: 0x1738E3C
     // Implemented from: RemoteProcedureCall`1
     // Base method: System.Void RemoteProcedureCall_1::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuRpcManager::SetCountdownEndTimeRpc* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuRpcManager::SetCountdownEndTimeRpc::.ctor");

@@ -37,15 +37,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
   // [TokenAttribute] Offset: FFFFFFFF
   class DHPublicKey : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Asn1.DerInteger y
     // Size: 0x8
     // Offset: 0x10
@@ -58,22 +50,22 @@ namespace Org::BouncyCastle::Asn1::X9 {
       return y;
     }
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger y
-    ::Org::BouncyCastle::Asn1::DerInteger*& dyn_y();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerInteger*& dyn_y();
     // public Org.BouncyCastle.Asn1.DerInteger get_Y()
-    // Offset: 0x1ED02FC
+    // Offset: 0x1F1D834
     ::Org::BouncyCastle::Asn1::DerInteger* get_Y();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerInteger y)
-    // Offset: 0x1ED0260
+    // Offset: 0x1F1D798
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHPublicKey* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* y) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X9::DHPublicKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHPublicKey*, creationType>(y)));
     }
     // static public Org.BouncyCastle.Asn1.X9.DHPublicKey GetInstance(System.Object obj)
-    // Offset: 0x1ED00E0
+    // Offset: 0x1F1D618
     static ::Org::BouncyCastle::Asn1::X9::DHPublicKey* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1ED0304
+    // Offset: 0x1F1D83C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

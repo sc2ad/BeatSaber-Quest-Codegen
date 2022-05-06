@@ -55,15 +55,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OculusDeeplinkManager : public ::Il2CppObject/*, public ::GlobalNamespace::IDeeplinkManager*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Action`1<Deeplink> didReceiveDeeplinkEvent
     // Size: 0x8
     // Offset: 0x10
@@ -88,47 +80,45 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IDeeplinkManager*>(this);
     }
     // Get instance field reference: private System.Action`1<Deeplink> didReceiveDeeplinkEvent
-    ::System::Action_1<::GlobalNamespace::Deeplink*>*& dyn_didReceiveDeeplinkEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::Deeplink*>*& dyn_didReceiveDeeplinkEvent();
     // Get instance field reference: private Deeplink _currentDeeplink
-    ::GlobalNamespace::Deeplink*& dyn__currentDeeplink();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Deeplink*& dyn__currentDeeplink();
     // Get instance field reference: private System.Boolean _oculusPlatformWasInitialized
-    bool& dyn__oculusPlatformWasInitialized();
+    [[deprecated("Use field access instead!")]] bool& dyn__oculusPlatformWasInitialized();
     // public Deeplink get_currentDeeplink()
-    // Offset: 0x150DA1C
+    // Offset: 0x1545324
     ::GlobalNamespace::Deeplink* get_currentDeeplink();
     // public System.Void add_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0x150D8D4
+    // Offset: 0x15451DC
     void add_didReceiveDeeplinkEvent(::System::Action_1<::GlobalNamespace::Deeplink*>* value);
     // public System.Void remove_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0x150D978
+    // Offset: 0x1545280
     void remove_didReceiveDeeplinkEvent(::System::Action_1<::GlobalNamespace::Deeplink*>* value);
-    // public System.Void Init()
-    // Offset: 0x150DA24
-    void Init();
-    // public System.Void OculusPlatformWasInitialized()
-    // Offset: 0x150DAA0
-    void OculusPlatformWasInitialized();
-    // private System.Void SetJoinIntentReceivedNotificationCallback(Oculus.Platform.Message`1<Oculus.Platform.Models.GroupPresenceJoinIntent> message)
-    // Offset: 0x150DAB8
-    void SetJoinIntentReceivedNotificationCallback(::Oculus::Platform::Message_1<::Oculus::Platform::Models::GroupPresenceJoinIntent*>* message);
-    // private System.Void UpdateDeeplinkMessage(Oculus.Platform.Models.GroupPresenceJoinIntent joinIntent, Oculus.Platform.Models.LaunchDetails launchDetails)
-    // Offset: 0x150DBD8
-    void UpdateDeeplinkMessage(::Oculus::Platform::Models::GroupPresenceJoinIntent* joinIntent, ::Oculus::Platform::Models::LaunchDetails* launchDetails);
-    // private System.Boolean IsAtLeastOneFieldPopulated(Deeplink deeplink)
-    // Offset: 0x150DE2C
-    bool IsAtLeastOneFieldPopulated(::GlobalNamespace::Deeplink* deeplink);
-    // static public System.Void Log(System.String message)
-    // Offset: 0x150DB70
-    static void Log(::StringW message);
     // public System.Void .ctor()
-    // Offset: 0x150DEAC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15457B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusDeeplinkManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusDeeplinkManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusDeeplinkManager*, creationType>()));
     }
+    // public System.Void Init()
+    // Offset: 0x154532C
+    void Init();
+    // public System.Void OculusPlatformWasInitialized()
+    // Offset: 0x15453A8
+    void OculusPlatformWasInitialized();
+    // private System.Void SetJoinIntentReceivedNotificationCallback(Oculus.Platform.Message`1<Oculus.Platform.Models.GroupPresenceJoinIntent> message)
+    // Offset: 0x15453C0
+    void SetJoinIntentReceivedNotificationCallback(::Oculus::Platform::Message_1<::Oculus::Platform::Models::GroupPresenceJoinIntent*>* message);
+    // private System.Void UpdateDeeplinkMessage(Oculus.Platform.Models.GroupPresenceJoinIntent joinIntent, Oculus.Platform.Models.LaunchDetails launchDetails)
+    // Offset: 0x15454E0
+    void UpdateDeeplinkMessage(::Oculus::Platform::Models::GroupPresenceJoinIntent* joinIntent, ::Oculus::Platform::Models::LaunchDetails* launchDetails);
+    // private System.Boolean IsAtLeastOneFieldPopulated(Deeplink deeplink)
+    // Offset: 0x1545734
+    bool IsAtLeastOneFieldPopulated(::GlobalNamespace::Deeplink* deeplink);
+    // static public System.Void Log(System.String message)
+    // Offset: 0x1545478
+    static void Log(::StringW message);
   }; // OculusDeeplinkManager
   #pragma pack(pop)
   static check_size<sizeof(OculusDeeplinkManager), 32 + sizeof(bool)> __GlobalNamespace_OculusDeeplinkManagerSizeCheck;
@@ -161,6 +151,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusDeeplinkManager*), "remove_didReceiveDeeplinkEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::OculusDeeplinkManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OculusDeeplinkManager::Init
 // Il2CppName: Init
 template<>
@@ -214,7 +208,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusDeeplinkManager*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OculusDeeplinkManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

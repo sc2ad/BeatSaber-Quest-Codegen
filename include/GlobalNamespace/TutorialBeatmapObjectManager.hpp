@@ -60,15 +60,7 @@ namespace GlobalNamespace {
     char ___base_padding[0x7] = {};
     // Nested type: ::GlobalNamespace::TutorialBeatmapObjectManager::InitData
     class InitData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MemoryPoolContainer`1<TutorialNoteController> _tutorialNotePoolContainer
     // Size: 0x8
     // Offset: 0x98
@@ -95,58 +87,57 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::TutorialBeatmapObjectManager::InitData*) == 0x8);
     public:
     // Get instance field reference: private MemoryPoolContainer`1<TutorialNoteController> _tutorialNotePoolContainer
-    ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::TutorialNoteController*>*& dyn__tutorialNotePoolContainer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::TutorialNoteController*>*& dyn__tutorialNotePoolContainer();
     // Get instance field reference: private MemoryPoolContainer`1<BombNoteController> _bombNotePoolContainer
-    ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::BombNoteController*>*& dyn__bombNotePoolContainer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::BombNoteController*>*& dyn__bombNotePoolContainer();
     // Get instance field reference: private MemoryPoolContainer`1<ObstacleController> _obstaclePoolContainer
-    ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::ObstacleController*>*& dyn__obstaclePoolContainer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::ObstacleController*>*& dyn__obstaclePoolContainer();
     // Get instance field reference: private TutorialBeatmapObjectManager/InitData _initData
-    ::GlobalNamespace::TutorialBeatmapObjectManager::InitData*& dyn__initData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TutorialBeatmapObjectManager::InitData*& dyn__initData();
     // private System.Void Init(TutorialBeatmapObjectManager/InitData initData, TutorialNoteController/Pool tutorialNotePool, BombNoteController/Pool bombNotePool, ObstacleController/Pool obstaclePool)
-    // Offset: 0x134272C
+    // Offset: 0x148EA24
     void Init(::GlobalNamespace::TutorialBeatmapObjectManager::InitData* initData, ::GlobalNamespace::TutorialNoteController::Pool* tutorialNotePool, ::GlobalNamespace::BombNoteController::Pool* bombNotePool, ::GlobalNamespace::ObstacleController::Pool* obstaclePool);
     // public override System.Collections.Generic.List`1<ObstacleController> get_activeObstacleControllers()
-    // Offset: 0x13426D4
+    // Offset: 0x148E9CC
     // Implemented from: BeatmapObjectManager
     // Base method: System.Collections.Generic.List`1<ObstacleController> BeatmapObjectManager::get_activeObstacleControllers()
     ::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>* get_activeObstacleControllers();
     // public System.Void .ctor()
-    // Offset: 0x1342C08
+    // Offset: 0x148F004
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialBeatmapObjectManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialBeatmapObjectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TutorialBeatmapObjectManager*, creationType>()));
     }
     // public override System.Void ProcessObstacleData(ObstacleData obstacleData, in BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
-    // Offset: 0x1342814
+    // Offset: 0x148EB0C
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::ProcessObstacleData(ObstacleData obstacleData, in BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
     void ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, ByRef<::GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData> obstacleSpawnData, float rotation);
     // public override System.Void ProcessNoteData(NoteData noteData, in BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Boolean forceIsFirstNoteBehaviour)
-    // Offset: 0x1342914
+    // Offset: 0x148EC0C
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::ProcessNoteData(NoteData noteData, in BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Boolean forceIsFirstNoteBehaviour)
     void ProcessNoteData(::GlobalNamespace::NoteData* noteData, ByRef<::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData> noteSpawnData, float rotation, bool forceIsFirstNoteBehaviour);
     // public override System.Void ProcessSliderData(SliderData sliderData, in BeatmapObjectSpawnMovementData/SliderSpawnData sliderSpawnData, System.Single rotation)
-    // Offset: 0x1342AA4
+    // Offset: 0x148EEA0
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::ProcessSliderData(SliderData sliderData, in BeatmapObjectSpawnMovementData/SliderSpawnData sliderSpawnData, System.Single rotation)
     void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ByRef<::GlobalNamespace::BeatmapObjectSpawnMovementData::SliderSpawnData> sliderSpawnData, float rotation);
     // protected override System.Void DespawnInternal(NoteController noteController)
-    // Offset: 0x1342AA8
+    // Offset: 0x148EEA4
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DespawnInternal(NoteController noteController)
     void DespawnInternal(::GlobalNamespace::NoteController* noteController);
     // protected override System.Void DespawnInternal(ObstacleController obstacleController)
-    // Offset: 0x1342B9C
+    // Offset: 0x148EF98
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DespawnInternal(ObstacleController obstacleController)
     void DespawnInternal(::GlobalNamespace::ObstacleController* obstacleController);
     // protected override System.Void DespawnInternal(SliderController sliderNoteController)
-    // Offset: 0x1342C04
+    // Offset: 0x148F000
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DespawnInternal(SliderController sliderNoteController)
     void DespawnInternal(::GlobalNamespace::SliderController* sliderNoteController);

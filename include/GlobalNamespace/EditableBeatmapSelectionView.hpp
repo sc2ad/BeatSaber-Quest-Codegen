@@ -45,16 +45,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EditableBeatmapSelectionView : public ::GlobalNamespace::BeatmapSelectionView {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [SpaceAttribute] Offset: 0x125D8D0
+    // [SpaceAttribute] Offset: 0x10E24B4
     // private UnityEngine.UI.Button _editButton
     // Size: 0x8
     // Offset: 0x28
@@ -87,55 +79,50 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private UnityEngine.UI.Button _editButton
-    ::UnityEngine::UI::Button*& dyn__editButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__editButton();
     // Get instance field reference: private UnityEngine.UI.Button _clearButton
-    ::UnityEngine::UI::Button*& dyn__clearButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__clearButton();
     // Get instance field reference: private UnityEngine.CanvasGroup _levelBarCanvasGroup
-    ::UnityEngine::CanvasGroup*& dyn__levelBarCanvasGroup();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::CanvasGroup*& dyn__levelBarCanvasGroup();
     // Get instance field reference: private System.Boolean _interactable
-    bool& dyn__interactable();
+    [[deprecated("Use field access instead!")]] bool& dyn__interactable();
     // Get instance field reference: private System.Boolean <showClearButton>k__BackingField
-    bool& dyn_$showClearButton$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$showClearButton$k__BackingField();
     // public UnityEngine.UI.Button get_editButton()
-    // Offset: 0x1415EBC
+    // Offset: 0x1435C68
     ::UnityEngine::UI::Button* get_editButton();
     // public UnityEngine.UI.Button get_clearButton()
-    // Offset: 0x1415EC4
+    // Offset: 0x1435C70
     ::UnityEngine::UI::Button* get_clearButton();
     // public System.Boolean get_interactable()
-    // Offset: 0x1415ECC
+    // Offset: 0x1435C78
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0x1415ED4
+    // Offset: 0x1435C80
     void set_interactable(bool value);
     // public System.Boolean get_showClearButton()
-    // Offset: 0x1415F40
+    // Offset: 0x1435CEC
     bool get_showClearButton();
     // public System.Void set_showClearButton(System.Boolean value)
-    // Offset: 0x1415F48
+    // Offset: 0x1435CF4
     void set_showClearButton(bool value);
     // public System.Void SetVisibility(System.Boolean visible)
-    // Offset: 0x1415F54
+    // Offset: 0x1435D00
     void SetVisibility(bool visible);
     // public System.Void Setup(System.Boolean showClearButton)
-    // Offset: 0x1415F88
+    // Offset: 0x1435D34
     void Setup(bool showClearButton);
     // public System.Void .ctor()
-    // Offset: 0x1416004
+    // Offset: 0x1435DB0
     // Implemented from: BeatmapSelectionView
     // Base method: System.Void BeatmapSelectionView::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EditableBeatmapSelectionView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EditableBeatmapSelectionView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EditableBeatmapSelectionView*, creationType>()));
     }
     // public override System.Void SetBeatmap(PreviewDifficultyBeatmap beatmapLevel)
-    // Offset: 0x1415F94
+    // Offset: 0x1435D40
     // Implemented from: BeatmapSelectionView
     // Base method: System.Void BeatmapSelectionView::SetBeatmap(PreviewDifficultyBeatmap beatmapLevel)
     void SetBeatmap(::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel);

@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Set static field: static public NoteJumpDurationTypeSettings Static
     static void _set_Static(::GlobalNamespace::NoteJumpDurationTypeSettings value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // NoteJumpDurationTypeSettings
   #pragma pack(pop)
   static check_size<sizeof(NoteJumpDurationTypeSettings), 0 + sizeof(int)> __GlobalNamespace_NoteJumpDurationTypeSettingsSizeCheck;

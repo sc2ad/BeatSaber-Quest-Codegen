@@ -46,15 +46,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::PlatformAuthenticationTokenProvider::$GetAuthenticationToken$d__10
     struct $GetAuthenticationToken$d__10;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly IPlatformUserModel _platformUserModel
     // Size: 0x8
     // Offset: 0x10
@@ -91,30 +83,30 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IAuthenticationTokenProvider*>(this);
     }
     // Get instance field reference: private readonly IPlatformUserModel _platformUserModel
-    ::GlobalNamespace::IPlatformUserModel*& dyn__platformUserModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPlatformUserModel*& dyn__platformUserModel();
     // Get instance field reference: private readonly System.String _userId
-    ::StringW& dyn__userId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__userId();
     // Get instance field reference: private readonly System.String _userName
-    ::StringW& dyn__userName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__userName();
     // Get instance field reference: private readonly System.String _hashedUserId
-    ::StringW& dyn__hashedUserId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__hashedUserId();
     // Get instance field reference: private readonly AuthenticationToken/Platform _platform
-    ::GlobalNamespace::AuthenticationToken::Platform& dyn__platform();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AuthenticationToken::Platform& dyn__platform();
     // public System.String get_hashedUserId()
-    // Offset: 0x12F219C
+    // Offset: 0x1363154
     ::StringW get_hashedUserId();
     // public System.String get_userName()
-    // Offset: 0x12F21A4
+    // Offset: 0x136315C
     ::StringW get_userName();
     // public System.Void .ctor(IPlatformUserModel platformUserModel, UserInfo userInfo)
-    // Offset: 0x12F21AC
+    // Offset: 0x1363164
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformAuthenticationTokenProvider* New_ctor(::GlobalNamespace::IPlatformUserModel* platformUserModel, ::GlobalNamespace::UserInfo* userInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlatformAuthenticationTokenProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformAuthenticationTokenProvider*, creationType>(platformUserModel, userInfo)));
     }
     // public System.Threading.Tasks.Task`1<AuthenticationToken> GetAuthenticationToken()
-    // Offset: 0x12F2270
+    // Offset: 0x1363228
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
   }; // PlatformAuthenticationTokenProvider
   #pragma pack(pop)

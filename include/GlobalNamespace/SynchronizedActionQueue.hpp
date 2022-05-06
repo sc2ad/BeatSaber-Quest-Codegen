@@ -74,25 +74,17 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public readonly System.Single time
-      float& dyn_time();
+      [[deprecated("Use field access instead!")]] float& dyn_time();
       // Get instance field reference: public readonly System.Action action
-      ::System::Action*& dyn_action();
+      [[deprecated("Use field access instead!")]] ::System::Action*& dyn_action();
       // public System.Void .ctor(System.Single time, System.Action action)
-      // Offset: 0x25F10F0
+      // Offset: 0x263D720
       // ABORTED: conflicts with another method.  SynchronizedAction(float time, ::System::Action* action);
     }; // SynchronizedActionQueue/SynchronizedAction
     #pragma pack(pop)
     static check_size<sizeof(SynchronizedActionQueue::SynchronizedAction), 8 + sizeof(::System::Action*)> __GlobalNamespace_SynchronizedActionQueue_SynchronizedActionSizeCheck;
     static_assert(sizeof(SynchronizedActionQueue::SynchronizedAction) == 0x10);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.List`1<SynchronizedActionQueue/SynchronizedAction> _synchronizedActionQueue
     // Size: 0x8
     // Offset: 0x10
@@ -105,25 +97,23 @@ namespace GlobalNamespace {
       return synchronizedActionQueue;
     }
     // Get instance field reference: private readonly System.Collections.Generic.List`1<SynchronizedActionQueue/SynchronizedAction> _synchronizedActionQueue
-    ::System::Collections::Generic::List_1<::GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>*& dyn__synchronizedActionQueue();
-    // public System.Void Clear()
-    // Offset: 0x25F1020
-    void Clear();
-    // public System.Void EnqueueAction(System.Single time, System.Action action)
-    // Offset: 0x25F1078
-    void EnqueueAction(float time, ::System::Action* action);
-    // public System.Void Update(System.Single time)
-    // Offset: 0x25F10FC
-    void Update(float time);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>*& dyn__synchronizedActionQueue();
     // public System.Void .ctor()
-    // Offset: 0x25F1214
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x263D844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SynchronizedActionQueue* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SynchronizedActionQueue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SynchronizedActionQueue*, creationType>()));
     }
+    // public System.Void Clear()
+    // Offset: 0x263D650
+    void Clear();
+    // public System.Void EnqueueAction(System.Single time, System.Action action)
+    // Offset: 0x263D6A8
+    void EnqueueAction(float time, ::System::Action* action);
+    // public System.Void Update(System.Single time)
+    // Offset: 0x263D72C
+    void Update(float time);
   }; // SynchronizedActionQueue
   #pragma pack(pop)
   static check_size<sizeof(SynchronizedActionQueue), 16 + sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>*)> __GlobalNamespace_SynchronizedActionQueueSizeCheck;
@@ -132,6 +122,10 @@ namespace GlobalNamespace {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SynchronizedActionQueue::SynchronizedAction, "", "SynchronizedActionQueue/SynchronizedAction");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SynchronizedActionQueue::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SynchronizedActionQueue::Clear
 // Il2CppName: Clear
 template<>
@@ -159,7 +153,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SynchronizedActionQueue*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SynchronizedActionQueue::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

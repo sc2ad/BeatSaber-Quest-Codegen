@@ -56,23 +56,15 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::MultiplayerLobbyAvatarManager::$RemovePlayerAndDestroy$d__13
     class $RemovePlayerAndDestroy$d__13;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x124B518
+    // [InjectAttribute] Offset: 0x10D0010
     // private readonly ILobbyStateDataModel _lobbyStateDataModel
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILobbyStateDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x124B528
+    // [InjectAttribute] Offset: 0x10D0020
     // private readonly MultiplayerLobbyAvatarController/Factory _avatarControllerFactory
     // Size: 0x8
     // Offset: 0x20
@@ -107,60 +99,58 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly ILobbyStateDataModel _lobbyStateDataModel
-    ::GlobalNamespace::ILobbyStateDataModel*& dyn__lobbyStateDataModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ILobbyStateDataModel*& dyn__lobbyStateDataModel();
     // Get instance field reference: private readonly MultiplayerLobbyAvatarController/Factory _avatarControllerFactory
-    ::GlobalNamespace::MultiplayerLobbyAvatarController::Factory*& dyn__avatarControllerFactory();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLobbyAvatarController::Factory*& dyn__avatarControllerFactory();
     // Get instance field reference: private System.Single _innerCircleRadius
-    float& dyn__innerCircleRadius();
+    [[deprecated("Use field access instead!")]] float& dyn__innerCircleRadius();
     // Get instance field reference: private System.Single _minOuterCircleRadius
-    float& dyn__minOuterCircleRadius();
+    [[deprecated("Use field access instead!")]] float& dyn__minOuterCircleRadius();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerLobbyAvatarController> _playerIdToAvatarMap
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLobbyAvatarController*>*& dyn__playerIdToAvatarMap();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLobbyAvatarController*>*& dyn__playerIdToAvatarMap();
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<MultiplayerLobbyAvatarController> _inProgressDespawnAnimations
-    ::System::Collections::Generic::HashSet_1<::GlobalNamespace::MultiplayerLobbyAvatarController*>*& dyn__inProgressDespawnAnimations();
-    // public System.Void Init(System.Single innerCircleRadius, System.Single minOuterCircleRadius)
-    // Offset: 0x13F9B20
-    void Init(float innerCircleRadius, float minOuterCircleRadius);
-    // public System.Void ActivateMultiplayerLobbyAvatarManager()
-    // Offset: 0x13F9B28
-    void ActivateMultiplayerLobbyAvatarManager();
-    // public System.Void DeactivateMultiplayerLobbyAvatarManager()
-    // Offset: 0x13FA25C
-    void DeactivateMultiplayerLobbyAvatarManager();
-    // private System.Void HandleLobbyStateDataModelPlayerConnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0x13FA58C
-    void HandleLobbyStateDataModelPlayerConnected(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
-    // private System.Void HandleLobbyStateDataModelPlayerDisconnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0x13FA590
-    void HandleLobbyStateDataModelPlayerDisconnected(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
-    // private System.Void AddPlayer(IConnectedPlayer connectedPlayer)
-    // Offset: 0x13F9DC8
-    void AddPlayer(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
-    // private System.Void RemovePlayer(IConnectedPlayer connectedPlayer)
-    // Offset: 0x13FA594
-    void RemovePlayer(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
-    // private System.Collections.IEnumerator RemovePlayerAndDestroy(System.String userId, MultiplayerLobbyAvatarController multiplayerAvatar)
-    // Offset: 0x13FA70C
-    ::System::Collections::IEnumerator* RemovePlayerAndDestroy(::StringW userId, ::GlobalNamespace::MultiplayerLobbyAvatarController* multiplayerAvatar);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::GlobalNamespace::MultiplayerLobbyAvatarController*>*& dyn__inProgressDespawnAnimations();
     // public System.Void .ctor()
-    // Offset: 0x13FA7BC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x140725C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLobbyAvatarManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLobbyAvatarManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLobbyAvatarManager*, creationType>()));
     }
+    // public System.Void Init(System.Single innerCircleRadius, System.Single minOuterCircleRadius)
+    // Offset: 0x14065C0
+    void Init(float innerCircleRadius, float minOuterCircleRadius);
+    // public System.Void ActivateMultiplayerLobbyAvatarManager()
+    // Offset: 0x14065C8
+    void ActivateMultiplayerLobbyAvatarManager();
+    // public System.Void DeactivateMultiplayerLobbyAvatarManager()
+    // Offset: 0x1406CFC
+    void DeactivateMultiplayerLobbyAvatarManager();
+    // private System.Void HandleLobbyStateDataModelPlayerConnected(IConnectedPlayer connectedPlayer)
+    // Offset: 0x140702C
+    void HandleLobbyStateDataModelPlayerConnected(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
+    // private System.Void HandleLobbyStateDataModelPlayerDisconnected(IConnectedPlayer connectedPlayer)
+    // Offset: 0x1407030
+    void HandleLobbyStateDataModelPlayerDisconnected(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
+    // private System.Void AddPlayer(IConnectedPlayer connectedPlayer)
+    // Offset: 0x1406868
+    void AddPlayer(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
+    // private System.Void RemovePlayer(IConnectedPlayer connectedPlayer)
+    // Offset: 0x1407034
+    void RemovePlayer(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
+    // private System.Collections.IEnumerator RemovePlayerAndDestroy(System.String userId, MultiplayerLobbyAvatarController multiplayerAvatar)
+    // Offset: 0x14071AC
+    ::System::Collections::IEnumerator* RemovePlayerAndDestroy(::StringW userId, ::GlobalNamespace::MultiplayerLobbyAvatarController* multiplayerAvatar);
   }; // MultiplayerLobbyAvatarManager
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLobbyAvatarManager), 56 + sizeof(::System::Collections::Generic::HashSet_1<::GlobalNamespace::MultiplayerLobbyAvatarController*>*)> __GlobalNamespace_MultiplayerLobbyAvatarManagerSizeCheck;
   static_assert(sizeof(MultiplayerLobbyAvatarManager) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarManager::Init
 // Il2CppName: Init
 template<>
@@ -233,7 +223,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarManager*), "RemovePlayerAndDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId, multiplayerAvatar});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

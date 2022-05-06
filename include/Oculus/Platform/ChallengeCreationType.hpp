@@ -41,21 +41,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x123EEC8
+    // [DescriptionAttribute] Offset: 0x10C39A0
     // static field const value: static public Oculus.Platform.ChallengeCreationType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.ChallengeCreationType Unknown
     static ::Oculus::Platform::ChallengeCreationType _get_Unknown();
     // Set static field: static public Oculus.Platform.ChallengeCreationType Unknown
     static void _set_Unknown(::Oculus::Platform::ChallengeCreationType value);
-    // [DescriptionAttribute] Offset: 0x123EF00
+    // [DescriptionAttribute] Offset: 0x10C39D8
     // static field const value: static public Oculus.Platform.ChallengeCreationType UserCreated
     static constexpr const int UserCreated = 1;
     // Get static field: static public Oculus.Platform.ChallengeCreationType UserCreated
     static ::Oculus::Platform::ChallengeCreationType _get_UserCreated();
     // Set static field: static public Oculus.Platform.ChallengeCreationType UserCreated
     static void _set_UserCreated(::Oculus::Platform::ChallengeCreationType value);
-    // [DescriptionAttribute] Offset: 0x123EF38
+    // [DescriptionAttribute] Offset: 0x10C3A10
     // static field const value: static public Oculus.Platform.ChallengeCreationType DeveloperCreated
     static constexpr const int DeveloperCreated = 2;
     // Get static field: static public Oculus.Platform.ChallengeCreationType DeveloperCreated
@@ -63,7 +63,7 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.ChallengeCreationType DeveloperCreated
     static void _set_DeveloperCreated(::Oculus::Platform::ChallengeCreationType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Oculus.Platform.ChallengeCreationType
   #pragma pack(pop)
   static check_size<sizeof(ChallengeCreationType), 0 + sizeof(int)> __Oculus_Platform_ChallengeCreationTypeSizeCheck;

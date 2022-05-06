@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoteCutSoundEffectManager::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Boolean useTestAudioClips
     // Size: 0x1
     // Offset: 0x10
@@ -46,11 +38,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public readonly System.Boolean useTestAudioClips
-    bool& dyn_useTestAudioClips();
+    [[deprecated("Use field access instead!")]] bool& dyn_useTestAudioClips();
     // Get instance field reference: public readonly System.Boolean ignoreBadCuts
-    bool& dyn_ignoreBadCuts();
+    [[deprecated("Use field access instead!")]] bool& dyn_ignoreBadCuts();
     // public System.Void .ctor(System.Boolean useTestAudioClips, System.Boolean ignoreBadCuts)
-    // Offset: 0x1477A5C
+    // Offset: 0x14AE244
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutSoundEffectManager::InitData* New_ctor(bool useTestAudioClips, bool ignoreBadCuts) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutSoundEffectManager::InitData::.ctor");

@@ -36,10 +36,9 @@ namespace HoudiniEngineUnity {
   class HEU_OutputAttributeDictionary : public ::HoudiniEngineUnity::HEU_SerializableDictionary_2<::StringW, ::HoudiniEngineUnity::HEU_OutputAttribute*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1AAE518
+    // Offset: 0x1AE8B00
     // Implemented from: HoudiniEngineUnity.HEU_SerializableDictionary`2
     // Base method: System.Void HEU_SerializableDictionary_2::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_OutputAttributeDictionary* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_OutputAttributeDictionary::.ctor");

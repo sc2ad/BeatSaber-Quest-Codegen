@@ -65,15 +65,15 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single time
-    float& dyn_time();
+    [[deprecated("Use field access instead!")]] float& dyn_time();
     // Get instance field reference: public System.Single segmentAngle
-    float& dyn_segmentAngle();
+    [[deprecated("Use field access instead!")]] float& dyn_segmentAngle();
     // Get instance field reference: public UnityEngine.Vector3 topPos
-    ::UnityEngine::Vector3& dyn_topPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_topPos();
     // Get instance field reference: public UnityEngine.Vector3 bottomPos
-    ::UnityEngine::Vector3& dyn_bottomPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_bottomPos();
     // Get instance field reference: public UnityEngine.Vector3 segmentNormal
-    ::UnityEngine::Vector3& dyn_segmentNormal();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_segmentNormal();
   }; // BladeMovementDataElement
   #pragma pack(pop)
   static check_size<sizeof(BladeMovementDataElement), 32 + sizeof(::UnityEngine::Vector3)> __GlobalNamespace_BladeMovementDataElementSizeCheck;

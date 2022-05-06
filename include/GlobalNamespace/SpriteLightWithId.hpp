@@ -39,22 +39,14 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x29 to desired offset: 0x30
     char ___base_padding[0x7] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.SpriteRenderer _spriteRenderer
     // Size: 0x8
     // Offset: 0x30
     ::UnityEngine::SpriteRenderer* spriteRenderer;
     // Field size check
     static_assert(sizeof(::UnityEngine::SpriteRenderer*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1239214
+    // [SpaceAttribute] Offset: 0x10BDCDC
     // private System.Boolean _hideIfAlphaOutOfRange
     // Size: 0x1
     // Offset: 0x38
@@ -63,21 +55,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hideIfAlphaOutOfRange and: hideAlphaRangeMin
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x123924C
+    // [DrawIfAttribute] Offset: 0x10BDD14
     // private System.Single _hideAlphaRangeMin
     // Size: 0x4
     // Offset: 0x3C
     float hideAlphaRangeMin;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0x12392F4
+    // [DrawIfAttribute] Offset: 0x10BDDBC
     // private System.Single _hideAlphaRangeMax
     // Size: 0x4
     // Offset: 0x40
     float hideAlphaRangeMax;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x123939C
+    // [SpaceAttribute] Offset: 0x10BDE64
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x44
@@ -96,7 +88,7 @@ namespace GlobalNamespace {
     bool setColorOnly;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [SpaceAttribute] Offset: 0x12393F4
+    // [SpaceAttribute] Offset: 0x10BDEBC
     // private System.Boolean _setOnlyOnce
     // Size: 0x1
     // Offset: 0x4D
@@ -105,40 +97,35 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private UnityEngine.SpriteRenderer _spriteRenderer
-    ::UnityEngine::SpriteRenderer*& dyn__spriteRenderer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::SpriteRenderer*& dyn__spriteRenderer();
     // Get instance field reference: private System.Boolean _hideIfAlphaOutOfRange
-    bool& dyn__hideIfAlphaOutOfRange();
+    [[deprecated("Use field access instead!")]] bool& dyn__hideIfAlphaOutOfRange();
     // Get instance field reference: private System.Single _hideAlphaRangeMin
-    float& dyn__hideAlphaRangeMin();
+    [[deprecated("Use field access instead!")]] float& dyn__hideAlphaRangeMin();
     // Get instance field reference: private System.Single _hideAlphaRangeMax
-    float& dyn__hideAlphaRangeMax();
+    [[deprecated("Use field access instead!")]] float& dyn__hideAlphaRangeMax();
     // Get instance field reference: private System.Single _intensity
-    float& dyn__intensity();
+    [[deprecated("Use field access instead!")]] float& dyn__intensity();
     // Get instance field reference: private System.Single _minAlpha
-    float& dyn__minAlpha();
+    [[deprecated("Use field access instead!")]] float& dyn__minAlpha();
     // Get instance field reference: private System.Boolean _setColorOnly
-    bool& dyn__setColorOnly();
+    [[deprecated("Use field access instead!")]] bool& dyn__setColorOnly();
     // Get instance field reference: private System.Boolean _setOnlyOnce
-    bool& dyn__setOnlyOnce();
+    [[deprecated("Use field access instead!")]] bool& dyn__setOnlyOnce();
     // public UnityEngine.Color get_color()
-    // Offset: 0x2AD9C94
+    // Offset: 0x1E830A4
     ::UnityEngine::Color get_color();
     // public System.Void .ctor()
-    // Offset: 0x2AD9E0C
+    // Offset: 0x1E8321C
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SpriteLightWithId* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SpriteLightWithId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SpriteLightWithId*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x2AD9CB0
+    // Offset: 0x1E830C0
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);

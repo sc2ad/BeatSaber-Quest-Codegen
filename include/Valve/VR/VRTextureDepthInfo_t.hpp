@@ -56,11 +56,11 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.IntPtr handle
-    ::System::IntPtr& dyn_handle();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_handle();
     // Get instance field reference: public Valve.VR.HmdMatrix44_t mProjection
-    ::Valve::VR::HmdMatrix44_t& dyn_mProjection();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::HmdMatrix44_t& dyn_mProjection();
     // Get instance field reference: public Valve.VR.HmdVector2_t vRange
-    ::Valve::VR::HmdVector2_t& dyn_vRange();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::HmdVector2_t& dyn_vRange();
   }; // Valve.VR.VRTextureDepthInfo_t
   #pragma pack(pop)
   static check_size<sizeof(VRTextureDepthInfo_t), 72 + sizeof(::Valve::VR::HmdVector2_t)> __Valve_VR_VRTextureDepthInfo_tSizeCheck;

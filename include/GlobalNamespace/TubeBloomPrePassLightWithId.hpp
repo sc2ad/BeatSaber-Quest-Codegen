@@ -42,15 +42,7 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x29 to desired offset: 0x30
     char ___base_padding[0x7] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TubeBloomPrePassLight _tubeBloomPrePassLight
     // Size: 0x8
     // Offset: 0x30
@@ -71,30 +63,25 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private TubeBloomPrePassLight _tubeBloomPrePassLight
-    ::GlobalNamespace::TubeBloomPrePassLight*& dyn__tubeBloomPrePassLight();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TubeBloomPrePassLight*& dyn__tubeBloomPrePassLight();
     // Get instance field reference: private System.Boolean _setOnlyOnce
-    bool& dyn__setOnlyOnce();
+    [[deprecated("Use field access instead!")]] bool& dyn__setOnlyOnce();
     // Get instance field reference: private System.Boolean _setColorOnly
-    bool& dyn__setColorOnly();
+    [[deprecated("Use field access instead!")]] bool& dyn__setColorOnly();
     // public UnityEngine.Color get_color()
-    // Offset: 0x2ADBA40
+    // Offset: 0x1E84E7C
     ::UnityEngine::Color get_color();
     // public System.Void .ctor()
-    // Offset: 0x2ADBAC4
+    // Offset: 0x1E84F00
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TubeBloomPrePassLightWithId* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TubeBloomPrePassLightWithId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TubeBloomPrePassLightWithId*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x2ADBA60
+    // Offset: 0x1E84E9C
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);

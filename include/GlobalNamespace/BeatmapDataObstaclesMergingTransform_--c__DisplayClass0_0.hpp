@@ -34,15 +34,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class BeatmapDataObstaclesMergingTransform::$$c__DisplayClass0_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public ObstacleData[] prevObstacleDataInLines
     // Size: 0x8
     // Offset: 0x10
@@ -55,25 +47,27 @@ namespace GlobalNamespace {
       return prevObstacleDataInLines;
     }
     // Get instance field reference: public ObstacleData[] prevObstacleDataInLines
-    ::ArrayW<::GlobalNamespace::ObstacleData*>& dyn_prevObstacleDataInLines();
-    // BeatmapDataItem <CreateTransformedData>g__ProcessData|0(BeatmapDataItem beatmapDataItem)
-    // Offset: 0x136CC74
-    ::GlobalNamespace::BeatmapDataItem* $CreateTransformedData$g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::ObstacleData*>& dyn_prevObstacleDataInLines();
     // public System.Void .ctor()
-    // Offset: 0x136CBE8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1354E74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataObstaclesMergingTransform::$$c__DisplayClass0_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataObstaclesMergingTransform::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataObstaclesMergingTransform::$$c__DisplayClass0_0*, creationType>()));
     }
+    // BeatmapDataItem <CreateTransformedData>g__ProcessData|0(BeatmapDataItem beatmapDataItem)
+    // Offset: 0x1354F00
+    ::GlobalNamespace::BeatmapDataItem* $CreateTransformedData$g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
   }; // BeatmapDataObstaclesMergingTransform/<>c__DisplayClass0_0
   #pragma pack(pop)
   static check_size<sizeof(BeatmapDataObstaclesMergingTransform::$$c__DisplayClass0_0), 16 + sizeof(::ArrayW<::GlobalNamespace::ObstacleData*>)> __GlobalNamespace_BeatmapDataObstaclesMergingTransform_$$c__DisplayClass0_0SizeCheck;
   static_assert(sizeof(BeatmapDataObstaclesMergingTransform::$$c__DisplayClass0_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataObstaclesMergingTransform::$$c__DisplayClass0_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataObstaclesMergingTransform::$$c__DisplayClass0_0::$CreateTransformedData$g__ProcessData_0
 // Il2CppName: <CreateTransformedData>g__ProcessData|0
 template<>
@@ -83,7 +77,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataObstaclesMergingTransform::$$c__DisplayClass0_0*), "<CreateTransformedData>g__ProcessData|0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapDataItem});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataObstaclesMergingTransform::$$c__DisplayClass0_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

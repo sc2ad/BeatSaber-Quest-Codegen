@@ -27,15 +27,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_UnityMaterialInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String _unityMaterialPath
     // Size: 0x8
     // Offset: 0x10
@@ -56,13 +48,13 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public System.String _unityMaterialPath
-    ::StringW& dyn__unityMaterialPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__unityMaterialPath();
     // Get instance field reference: public System.String _substancePath
-    ::StringW& dyn__substancePath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__substancePath();
     // Get instance field reference: public System.Int32 _substanceIndex
-    int& dyn__substanceIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__substanceIndex();
     // public System.Void .ctor(System.String unityMaterialPath, System.String substancePath, System.Int32 substanceIndex)
-    // Offset: 0x19D5334
+    // Offset: 0x1A0E91C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_UnityMaterialInfo* New_ctor(::StringW unityMaterialPath, ::StringW substancePath, int substanceIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_UnityMaterialInfo::.ctor");

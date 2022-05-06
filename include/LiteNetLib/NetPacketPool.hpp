@@ -41,15 +41,7 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetPacketPool : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly LiteNetLib.NetPacket[] _pool
     // Size: 0x8
     // Offset: 0x10
@@ -70,41 +62,43 @@ namespace LiteNetLib {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private readonly LiteNetLib.NetPacket[] _pool
-    ::ArrayW<::LiteNetLib::NetPacket*>& dyn__pool();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::LiteNetLib::NetPacket*>& dyn__pool();
     // Get instance field reference: private readonly System.Threading.ReaderWriterLockSlim _lock
-    ::System::Threading::ReaderWriterLockSlim*& dyn__lock();
+    [[deprecated("Use field access instead!")]] ::System::Threading::ReaderWriterLockSlim*& dyn__lock();
     // Get instance field reference: private System.Int32 _count
-    int& dyn__count();
-    // public LiteNetLib.NetPacket GetWithData(LiteNetLib.PacketProperty property, System.Byte[] data, System.Int32 start, System.Int32 length)
-    // Offset: 0x2169D98
-    ::LiteNetLib::NetPacket* GetWithData(::LiteNetLib::PacketProperty property, ::ArrayW<uint8_t> data, int start, int length);
-    // public LiteNetLib.NetPacket GetWithProperty(LiteNetLib.PacketProperty property, System.Int32 size)
-    // Offset: 0x2167D5C
-    ::LiteNetLib::NetPacket* GetWithProperty(::LiteNetLib::PacketProperty property, int size);
-    // public LiteNetLib.NetPacket GetWithProperty(LiteNetLib.PacketProperty property)
-    // Offset: 0x21687F8
-    ::LiteNetLib::NetPacket* GetWithProperty(::LiteNetLib::PacketProperty property);
-    // public LiteNetLib.NetPacket GetPacket(System.Int32 size)
-    // Offset: 0x2166438
-    ::LiteNetLib::NetPacket* GetPacket(int size);
-    // public System.Void Recycle(LiteNetLib.NetPacket packet)
-    // Offset: 0x21662B8
-    void Recycle(::LiteNetLib::NetPacket* packet);
+    [[deprecated("Use field access instead!")]] int& dyn__count();
     // public System.Void .ctor()
-    // Offset: 0x2165BE0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x21B1454
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPacketPool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetPacketPool::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPacketPool*, creationType>()));
     }
+    // public LiteNetLib.NetPacket GetWithData(LiteNetLib.PacketProperty property, System.Byte[] data, System.Int32 start, System.Int32 length)
+    // Offset: 0x21B560C
+    ::LiteNetLib::NetPacket* GetWithData(::LiteNetLib::PacketProperty property, ::ArrayW<uint8_t> data, int start, int length);
+    // public LiteNetLib.NetPacket GetWithProperty(LiteNetLib.PacketProperty property, System.Int32 size)
+    // Offset: 0x21B35D0
+    ::LiteNetLib::NetPacket* GetWithProperty(::LiteNetLib::PacketProperty property, int size);
+    // public LiteNetLib.NetPacket GetWithProperty(LiteNetLib.PacketProperty property)
+    // Offset: 0x21B406C
+    ::LiteNetLib::NetPacket* GetWithProperty(::LiteNetLib::PacketProperty property);
+    // public LiteNetLib.NetPacket GetPacket(System.Int32 size)
+    // Offset: 0x21B1CAC
+    ::LiteNetLib::NetPacket* GetPacket(int size);
+    // public System.Void Recycle(LiteNetLib.NetPacket packet)
+    // Offset: 0x21B1B2C
+    void Recycle(::LiteNetLib::NetPacket* packet);
   }; // LiteNetLib.NetPacketPool
   #pragma pack(pop)
   static check_size<sizeof(NetPacketPool), 32 + sizeof(int)> __LiteNetLib_NetPacketPoolSizeCheck;
   static_assert(sizeof(NetPacketPool) == 0x24);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: LiteNetLib::NetPacketPool::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: LiteNetLib::NetPacketPool::GetWithData
 // Il2CppName: GetWithData
 template<>
@@ -154,7 +148,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacketPool*), "Recycle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
   }
 };
-// Writing MetadataGetter for method: LiteNetLib::NetPacketPool::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

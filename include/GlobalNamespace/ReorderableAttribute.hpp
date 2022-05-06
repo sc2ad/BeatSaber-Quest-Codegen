@@ -29,15 +29,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ReorderableAttribute : public ::UnityEngine::PropertyAttribute {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String <ElementHeader>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -58,46 +50,42 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.String <ElementHeader>k__BackingField
-    ::StringW& dyn_$ElementHeader$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$ElementHeader$k__BackingField();
     // Get instance field reference: private System.Boolean <HeaderZeroIndex>k__BackingField
-    bool& dyn_$HeaderZeroIndex$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$HeaderZeroIndex$k__BackingField();
     // Get instance field reference: private System.Boolean <ElementSingleLine>k__BackingField
-    bool& dyn_$ElementSingleLine$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$ElementSingleLine$k__BackingField();
     // public System.String get_ElementHeader()
-    // Offset: 0x29D4AF0
+    // Offset: 0x2A27000
     ::StringW get_ElementHeader();
     // protected System.Void set_ElementHeader(System.String value)
-    // Offset: 0x29D4AF8
+    // Offset: 0x2A27008
     void set_ElementHeader(::StringW value);
     // public System.Boolean get_HeaderZeroIndex()
-    // Offset: 0x29D4B00
+    // Offset: 0x2A27010
     bool get_HeaderZeroIndex();
     // protected System.Void set_HeaderZeroIndex(System.Boolean value)
-    // Offset: 0x29D4B08
+    // Offset: 0x2A27018
     void set_HeaderZeroIndex(bool value);
     // public System.Boolean get_ElementSingleLine()
-    // Offset: 0x29D4B14
+    // Offset: 0x2A27024
     bool get_ElementSingleLine();
     // protected System.Void set_ElementSingleLine(System.Boolean value)
-    // Offset: 0x29D4B1C
+    // Offset: 0x2A2702C
     void set_ElementSingleLine(bool value);
-    // public System.Void .ctor(System.String headerString, System.Boolean isZeroIndex, System.Boolean isSingleLine)
-    // Offset: 0x29D4B90
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ReorderableAttribute* New_ctor(::StringW headerString, bool isZeroIndex, bool isSingleLine) {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ReorderableAttribute::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<ReorderableAttribute*, creationType>(headerString, isZeroIndex, isSingleLine)));
-    }
     // public System.Void .ctor()
-    // Offset: 0x29D4B28
-    // Implemented from: UnityEngine.PropertyAttribute
-    // Base method: System.Void PropertyAttribute::.ctor()
-    // Base method: System.Void Attribute::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A27038
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReorderableAttribute* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ReorderableAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReorderableAttribute*, creationType>()));
+    }
+    // public System.Void .ctor(System.String headerString, System.Boolean isZeroIndex, System.Boolean isSingleLine)
+    // Offset: 0x2A270A0
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static ReorderableAttribute* New_ctor(::StringW headerString, bool isZeroIndex, bool isSingleLine) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ReorderableAttribute::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<ReorderableAttribute*, creationType>(headerString, isZeroIndex, isSingleLine)));
     }
   }; // ReorderableAttribute
   #pragma pack(pop)

@@ -48,15 +48,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightRotationEventEffect : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BasicBeatmapEventType _event
     // Size: 0x4
     // Offset: 0x18
@@ -77,14 +69,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: rotationSpeedMultiplier and: beatmapCallbacksController
     char __padding2[0x4] = {};
-    // [InjectAttribute] Offset: 0x1251574
+    // [InjectAttribute] Offset: 0x10D60F0
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1251584
+    // [InjectAttribute] Offset: 0x10D6100
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x38
@@ -127,54 +119,52 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kSpeedMultiplier
     static void _set_kSpeedMultiplier(float value);
     // Get instance field reference: private BasicBeatmapEventType _event
-    ::GlobalNamespace::BasicBeatmapEventType& dyn__event();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BasicBeatmapEventType& dyn__event();
     // Get instance field reference: private UnityEngine.Vector3 _rotationVector
-    ::UnityEngine::Vector3& dyn__rotationVector();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__rotationVector();
     // Get instance field reference: private System.Single _rotationSpeedMultiplier
-    float& dyn__rotationSpeedMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__rotationSpeedMultiplier();
     // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
-    ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
-    ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // Get instance field reference: private UnityEngine.Transform _transform
-    ::UnityEngine::Transform*& dyn__transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // Get instance field reference: private UnityEngine.Quaternion _startRotation
-    ::UnityEngine::Quaternion& dyn__startRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__startRotation();
     // Get instance field reference: private System.Single _rotationSpeed
-    float& dyn__rotationSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__rotationSpeed();
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
-    ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
-    // protected System.Void Start()
-    // Offset: 0x148EBF8
-    void Start();
-    // protected System.Void Update()
-    // Offset: 0x148ED40
-    void Update();
-    // private System.Void OnDestroy()
-    // Offset: 0x148EE40
-    void OnDestroy();
-    // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x148EE5C
-    void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // public System.Void .ctor()
-    // Offset: 0x148EF90
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14C5818
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightRotationEventEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightRotationEventEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightRotationEventEffect*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x14C5480
+    void Start();
+    // protected System.Void Update()
+    // Offset: 0x14C55C8
+    void Update();
+    // private System.Void OnDestroy()
+    // Offset: 0x14C56C8
+    void OnDestroy();
+    // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
+    // Offset: 0x14C56E4
+    void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
   }; // LightRotationEventEffect
   #pragma pack(pop)
   static check_size<sizeof(LightRotationEventEffect), 96 + sizeof(::GlobalNamespace::BeatmapDataCallbackWrapper*)> __GlobalNamespace_LightRotationEventEffectSizeCheck;
   static_assert(sizeof(LightRotationEventEffect) == 0x68);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::LightRotationEventEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LightRotationEventEffect::Start
 // Il2CppName: Start
 template<>
@@ -208,7 +198,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightRotationEventEffect*), "HandleBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{basicBeatmapEventData});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LightRotationEventEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

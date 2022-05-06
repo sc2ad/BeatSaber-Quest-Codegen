@@ -87,7 +87,7 @@ namespace GlobalNamespace {
     // Set static field: static public KawaseBlurRendererSO/KernelSize Kernel143
     static void _set_Kernel143(::GlobalNamespace::KawaseBlurRendererSO::KernelSize value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // KawaseBlurRendererSO/KernelSize
   #pragma pack(pop)
   static check_size<sizeof(KawaseBlurRendererSO::KernelSize), 0 + sizeof(int)> __GlobalNamespace_KawaseBlurRendererSO_KernelSizeSizeCheck;

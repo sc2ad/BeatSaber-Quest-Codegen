@@ -60,7 +60,7 @@ namespace UnityOpus {
     // Set static field: static public UnityOpus.OpusApplication RestrictedLowDelay
     static void _set_RestrictedLowDelay(::UnityOpus::OpusApplication value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityOpus.OpusApplication
   #pragma pack(pop)
   static check_size<sizeof(OpusApplication), 0 + sizeof(int)> __UnityOpus_OpusApplicationSizeCheck;

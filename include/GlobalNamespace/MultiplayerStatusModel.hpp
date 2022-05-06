@@ -59,16 +59,8 @@ namespace GlobalNamespace {
     class MultiplayerStatusDataFB;
     // Nested type: ::GlobalNamespace::MultiplayerStatusModel::$GetMultiplayerStatusAsyncInternal$d__9
     struct $GetMultiplayerStatusAsyncInternal$d__9;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x124D214
+    // [InjectAttribute] Offset: 0x10D1D0C
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
     // Offset: 0x10
@@ -99,41 +91,43 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kRequestTimeoutSeconds
     static void _set_kRequestTimeoutSeconds(int value);
     // Get instance field reference: private readonly INetworkConfig _networkConfig
-    ::GlobalNamespace::INetworkConfig*& dyn__networkConfig();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::INetworkConfig*& dyn__networkConfig();
     // Get instance field reference: private System.Net.Http.HttpClient _client
-    ::System::Net::Http::HttpClient*& dyn__client();
+    [[deprecated("Use field access instead!")]] ::System::Net::Http::HttpClient*& dyn__client();
     // Get instance field reference: private System.Threading.Tasks.Task`1<MultiplayerStatusData> _request
-    ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>*& dyn__request();
-    // private System.Void Init()
-    // Offset: 0x13ACBD0
-    void Init();
-    // public System.Threading.Tasks.Task`1<MultiplayerStatusData> GetMultiplayerStatusAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13ACC18
-    ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsync(::System::Threading::CancellationToken cancellationToken);
-    // private System.Boolean IsAvailabilityTaskValid()
-    // Offset: 0x13ACC94
-    bool IsAvailabilityTaskValid();
-    // private System.Void StartRequest()
-    // Offset: 0x13ACBF4
-    void StartRequest();
-    // private System.Threading.Tasks.Task`1<MultiplayerStatusData> GetMultiplayerStatusAsyncInternal()
-    // Offset: 0x13ACCFC
-    ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsyncInternal();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>*& dyn__request();
     // public System.Void .ctor()
-    // Offset: 0x13ACE1C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13A92C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerStatusModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerStatusModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerStatusModel*, creationType>()));
     }
+    // private System.Void Init()
+    // Offset: 0x13A907C
+    void Init();
+    // public System.Threading.Tasks.Task`1<MultiplayerStatusData> GetMultiplayerStatusAsync(System.Threading.CancellationToken cancellationToken)
+    // Offset: 0x13A90C4
+    ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsync(::System::Threading::CancellationToken cancellationToken);
+    // private System.Boolean IsAvailabilityTaskValid()
+    // Offset: 0x13A9140
+    bool IsAvailabilityTaskValid();
+    // private System.Void StartRequest()
+    // Offset: 0x13A90A0
+    void StartRequest();
+    // private System.Threading.Tasks.Task`1<MultiplayerStatusData> GetMultiplayerStatusAsyncInternal()
+    // Offset: 0x13A91A8
+    ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsyncInternal();
   }; // MultiplayerStatusModel
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerStatusModel), 32 + sizeof(::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>*)> __GlobalNamespace_MultiplayerStatusModelSizeCheck;
   static_assert(sizeof(MultiplayerStatusModel) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerStatusModel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerStatusModel::Init
 // Il2CppName: Init
 template<>
@@ -175,7 +169,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerStatusModel*), "GetMultiplayerStatusAsyncInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerStatusModel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

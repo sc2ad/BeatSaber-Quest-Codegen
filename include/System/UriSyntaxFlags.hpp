@@ -217,7 +217,7 @@ namespace System {
     // Set static field: static public System.UriSyntaxFlags AllowIriParsing
     static void _set_AllowIriParsing(::System::UriSyntaxFlags value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.UriSyntaxFlags
   #pragma pack(pop)
   static check_size<sizeof(UriSyntaxFlags), 0 + sizeof(int)> __System_UriSyntaxFlagsSizeCheck;

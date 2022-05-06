@@ -96,32 +96,32 @@ namespace LIV::SDK::Unity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public LIV.SDK.Unity.SDKPose pose
-    ::LIV::SDK::Unity::SDKPose& dyn_pose();
+    [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKPose& dyn_pose();
     // Get instance field reference: public LIV.SDK.Unity.SDKClipPlane clipPlane
-    ::LIV::SDK::Unity::SDKClipPlane& dyn_clipPlane();
+    [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKClipPlane& dyn_clipPlane();
     // Get instance field reference: public LIV.SDK.Unity.SDKTransform stageTransform
-    ::LIV::SDK::Unity::SDKTransform& dyn_stageTransform();
+    [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKTransform& dyn_stageTransform();
     // Get instance field reference: public LIV.SDK.Unity.FEATURES features
-    ::LIV::SDK::Unity::FEATURES& dyn_features();
+    [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::FEATURES& dyn_features();
     // Get instance field reference: public LIV.SDK.Unity.SDKClipPlane groundClipPlane
-    ::LIV::SDK::Unity::SDKClipPlane& dyn_groundClipPlane();
+    [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKClipPlane& dyn_groundClipPlane();
     // Get instance field reference: public System.UInt64 frameid
-    uint64_t& dyn_frameid();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_frameid();
     // Get instance field reference: public System.UInt64 referenceframe
-    uint64_t& dyn_referenceframe();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_referenceframe();
     // Get instance field reference: public LIV.SDK.Unity.SDKPriority priority
-    ::LIV::SDK::Unity::SDKPriority& dyn_priority();
+    [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKPriority& dyn_priority();
     // static public LIV.SDK.Unity.SDKInputFrame get_empty()
-    // Offset: 0x29FB104
+    // Offset: 0x2A51B74
     static ::LIV::SDK::Unity::SDKInputFrame get_empty();
     // public System.Void ReleaseControl()
-    // Offset: 0x29FBF78
+    // Offset: 0x2A529E8
     void ReleaseControl();
     // public System.Void ObtainControl()
-    // Offset: 0x29FBF88
+    // Offset: 0x2A529F8
     void ObtainControl();
     // public override System.String ToString()
-    // Offset: 0x29FBF9C
+    // Offset: 0x2A52A0C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

@@ -63,15 +63,7 @@ namespace GlobalNamespace {
     class $$c__DisplayClass25_0;
     // Nested type: ::GlobalNamespace::MultiplayerIntroCountdown::$PhaseRoutine$d__25
     class $PhaseRoutine$d__25;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _textAppearDuration
     // Size: 0x4
     // Offset: 0x18
@@ -108,7 +100,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Vector3 targetLocalPosition;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [SpaceAttribute] Offset: 0x1254A80
+    // [SpaceAttribute] Offset: 0x10D9664
     // private UnityEngine.AudioClip _readyClip
     // Size: 0x8
     // Offset: 0x40
@@ -133,7 +125,7 @@ namespace GlobalNamespace {
     ::UnityEngine::AudioClip* buildUpClip;
     // Field size check
     static_assert(sizeof(::UnityEngine::AudioClip*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1254AE8
+    // [SpaceAttribute] Offset: 0x10D96CC
     // private MultiplayerIntroCountdownTextController _textController0
     // Size: 0x8
     // Offset: 0x60
@@ -152,14 +144,14 @@ namespace GlobalNamespace {
     ::UnityEngine::AudioSource* audioSource;
     // Field size check
     static_assert(sizeof(::UnityEngine::AudioSource*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1254B40
+    // [SpaceAttribute] Offset: 0x10D9724
     // private MultiplayerOffsetPositionByLocalPlayerPosition _multiplayerOffsetByLocalPlayerPosition
     // Size: 0x8
     // Offset: 0x78
     ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* multiplayerOffsetByLocalPlayerPosition;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*) == 0x8);
-    // [InjectAttribute] Offset: 0x1254B78
+    // [InjectAttribute] Offset: 0x10D975C
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x80
@@ -188,75 +180,69 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _textAppearDuration
-    float& dyn__textAppearDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__textAppearDuration();
     // Get instance field reference: private System.Single _textDisappearDuration
-    float& dyn__textDisappearDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__textDisappearDuration();
     // Get instance field reference: private System.Single _goDisappearDuration
-    float& dyn__goDisappearDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__goDisappearDuration();
     // Get instance field reference: private System.Single _partsDistance
-    float& dyn__partsDistance();
+    [[deprecated("Use field access instead!")]] float& dyn__partsDistance();
     // Get instance field reference: private UnityEngine.Vector3 _startLocalPosition
-    ::UnityEngine::Vector3& dyn__startLocalPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__startLocalPosition();
     // Get instance field reference: private UnityEngine.Vector3 _targetLocalPosition
-    ::UnityEngine::Vector3& dyn__targetLocalPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__targetLocalPosition();
     // Get instance field reference: private UnityEngine.AudioClip _readyClip
-    ::UnityEngine::AudioClip*& dyn__readyClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioClip*& dyn__readyClip();
     // Get instance field reference: private UnityEngine.AudioClip _setClip
-    ::UnityEngine::AudioClip*& dyn__setClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioClip*& dyn__setClip();
     // Get instance field reference: private UnityEngine.AudioClip _goClip
-    ::UnityEngine::AudioClip*& dyn__goClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioClip*& dyn__goClip();
     // Get instance field reference: private UnityEngine.AudioClip _buildUpClip
-    ::UnityEngine::AudioClip*& dyn__buildUpClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioClip*& dyn__buildUpClip();
     // Get instance field reference: private MultiplayerIntroCountdownTextController _textController0
-    ::GlobalNamespace::MultiplayerIntroCountdownTextController*& dyn__textController0();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerIntroCountdownTextController*& dyn__textController0();
     // Get instance field reference: private MultiplayerIntroCountdownTextController _textController1
-    ::GlobalNamespace::MultiplayerIntroCountdownTextController*& dyn__textController1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerIntroCountdownTextController*& dyn__textController1();
     // Get instance field reference: private UnityEngine.AudioSource _audioSource
-    ::UnityEngine::AudioSource*& dyn__audioSource();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioSource*& dyn__audioSource();
     // Get instance field reference: private MultiplayerOffsetPositionByLocalPlayerPosition _multiplayerOffsetByLocalPlayerPosition
-    ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*& dyn__multiplayerOffsetByLocalPlayerPosition();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*& dyn__multiplayerOffsetByLocalPlayerPosition();
     // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
-    ::Tweening::TimeTweeningManager*& dyn__tweeningManager();
+    [[deprecated("Use field access instead!")]] ::Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private MultiplayerIntroCountdownTextController _currentTextController
-    ::GlobalNamespace::MultiplayerIntroCountdownTextController*& dyn__currentTextController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerIntroCountdownTextController*& dyn__currentTextController();
     // Get instance field reference: private System.Single _fontSize
-    float& dyn__fontSize();
+    [[deprecated("Use field access instead!")]] float& dyn__fontSize();
     // Get instance field reference: private System.Single _alpha
-    float& dyn__alpha();
+    [[deprecated("Use field access instead!")]] float& dyn__alpha();
     // public System.Single get_textAppearDuration()
-    // Offset: 0x13F4078
+    // Offset: 0x1400B18
     float get_textAppearDuration();
-    // protected System.Void Awake()
-    // Offset: 0x13F4080
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13F41A8
-    void OnDestroy();
-    // public System.Void StartCountdown(System.Single seconds, System.Single delay, System.Single durationMultiplier)
-    // Offset: 0x13F4240
-    void StartCountdown(float seconds, float delay, float durationMultiplier);
-    // private System.Collections.IEnumerator CountdownRoutine(System.Single seconds, System.Single delay, System.Single durationMultiplier)
-    // Offset: 0x13F42BC
-    ::System::Collections::IEnumerator* CountdownRoutine(float seconds, float delay, float durationMultiplier);
-    // private System.Collections.IEnumerator PlayDelayed(UnityEngine.AudioClip audioClip, System.Single delay)
-    // Offset: 0x13F437C
-    ::System::Collections::IEnumerator* PlayDelayed(::UnityEngine::AudioClip* audioClip, float delay);
-    // private System.Collections.IEnumerator PhaseRoutine(System.String text, System.Single appearDuration, System.Single disappearDuration)
-    // Offset: 0x13F4434
-    ::System::Collections::IEnumerator* PhaseRoutine(::StringW text, float appearDuration, float disappearDuration);
     // public System.Void .ctor()
-    // Offset: 0x13F44F0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1400F90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerIntroCountdown* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerIntroCountdown::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerIntroCountdown*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x1400B20
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1400C48
+    void OnDestroy();
+    // public System.Void StartCountdown(System.Single seconds, System.Single delay, System.Single durationMultiplier)
+    // Offset: 0x1400CE0
+    void StartCountdown(float seconds, float delay, float durationMultiplier);
+    // private System.Collections.IEnumerator CountdownRoutine(System.Single seconds, System.Single delay, System.Single durationMultiplier)
+    // Offset: 0x1400D5C
+    ::System::Collections::IEnumerator* CountdownRoutine(float seconds, float delay, float durationMultiplier);
+    // private System.Collections.IEnumerator PlayDelayed(UnityEngine.AudioClip audioClip, System.Single delay)
+    // Offset: 0x1400E1C
+    ::System::Collections::IEnumerator* PlayDelayed(::UnityEngine::AudioClip* audioClip, float delay);
+    // private System.Collections.IEnumerator PhaseRoutine(System.String text, System.Single appearDuration, System.Single disappearDuration)
+    // Offset: 0x1400ED4
+    ::System::Collections::IEnumerator* PhaseRoutine(::StringW text, float appearDuration, float disappearDuration);
   }; // MultiplayerIntroCountdown
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerIntroCountdown), 148 + sizeof(float)> __GlobalNamespace_MultiplayerIntroCountdownSizeCheck;
@@ -271,6 +257,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroCountdown*), "get_textAppearDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdown::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdown::Awake
 // Il2CppName: Awake
 template<>
@@ -330,7 +320,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroCountdown*), "PhaseRoutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text, appearDuration, disappearDuration});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdown::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

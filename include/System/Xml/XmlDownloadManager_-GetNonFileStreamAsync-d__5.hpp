@@ -117,28 +117,28 @@ namespace System::Xml {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.IO.Stream> <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*>& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*>& dyn_$$t__builder();
     // Get instance field reference: public System.Uri uri
-    ::System::Uri*& dyn_uri();
+    [[deprecated("Use field access instead!")]] ::System::Uri*& dyn_uri();
     // Get instance field reference: public System.Net.ICredentials credentials
-    ::System::Net::ICredentials*& dyn_credentials();
+    [[deprecated("Use field access instead!")]] ::System::Net::ICredentials*& dyn_credentials();
     // Get instance field reference: public System.Net.IWebProxy proxy
-    ::System::Net::IWebProxy*& dyn_proxy();
+    [[deprecated("Use field access instead!")]] ::System::Net::IWebProxy*& dyn_proxy();
     // Get instance field reference: public System.Net.Cache.RequestCachePolicy cachePolicy
-    ::System::Net::Cache::RequestCachePolicy*& dyn_cachePolicy();
+    [[deprecated("Use field access instead!")]] ::System::Net::Cache::RequestCachePolicy*& dyn_cachePolicy();
     // Get instance field reference: private System.Net.WebRequest <req>5__1
-    ::System::Net::WebRequest*& dyn_$req$5__1();
+    [[deprecated("Use field access instead!")]] ::System::Net::WebRequest*& dyn_$req$5__1();
     // Get instance field reference: public System.Xml.XmlDownloadManager <>4__this
-    ::System::Xml::XmlDownloadManager*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlDownloadManager*& dyn_$$4__this();
     // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Net.WebResponse> <>u__1
-    typename ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::System::Net::WebResponse*>::ConfiguredTaskAwaiter& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] typename ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::System::Net::WebResponse*>::ConfiguredTaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1B7FED8
+    // Offset: 0x1BBA4C0
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1B80570
+    // Offset: 0x1BBAB58
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // System.Xml.XmlDownloadManager/System.Xml.<GetNonFileStreamAsync>d__5
   // WARNING Not writing size check since size may be invalid!

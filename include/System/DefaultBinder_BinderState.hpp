@@ -24,15 +24,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultBinder::BinderState : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int32[] m_argsMap
     // Size: 0x8
     // Offset: 0x10
@@ -53,13 +45,13 @@ namespace System {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: System.Int32[] m_argsMap
-    ::ArrayW<int>& dyn_m_argsMap();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_m_argsMap();
     // Get instance field reference: System.Int32 m_originalSize
-    int& dyn_m_originalSize();
+    [[deprecated("Use field access instead!")]] int& dyn_m_originalSize();
     // Get instance field reference: System.Boolean m_isParamArray
-    bool& dyn_m_isParamArray();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isParamArray();
     // System.Void .ctor(System.Int32[] argsMap, System.Int32 originalSize, System.Boolean isParamArray)
-    // Offset: 0x191B97C
+    // Offset: 0x195328C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultBinder::BinderState* New_ctor(::ArrayW<int> argsMap, int originalSize, bool isParamArray) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::DefaultBinder::BinderState::.ctor");

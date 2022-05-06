@@ -40,16 +40,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MoveAndRotateWithMainCamera : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x125F244
+    // [InjectAttribute] Offset: 0x10E3E28
     // private readonly MainCamera _mainCamera
     // Size: 0x8
     // Offset: 0x18
@@ -80,38 +72,36 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly MainCamera _mainCamera
-    ::GlobalNamespace::MainCamera*& dyn__mainCamera();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainCamera*& dyn__mainCamera();
     // Get instance field reference: private UnityEngine.Quaternion _rotationOffset
-    ::UnityEngine::Quaternion& dyn__rotationOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__rotationOffset();
     // Get instance field reference: private UnityEngine.Vector3 _positionOffset
-    ::UnityEngine::Vector3& dyn__positionOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__positionOffset();
     // Get instance field reference: private UnityEngine.Transform _transform
-    ::UnityEngine::Transform*& dyn__transform();
-    // protected System.Void Awake()
-    // Offset: 0x13CA2D8
-    void Awake();
-    // protected System.Void LateUpdate()
-    // Offset: 0x13CA330
-    void LateUpdate();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // public System.Void .ctor()
-    // Offset: 0x13CA4AC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13C6958
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MoveAndRotateWithMainCamera* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MoveAndRotateWithMainCamera::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MoveAndRotateWithMainCamera*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x13C6784
+    void Awake();
+    // protected System.Void LateUpdate()
+    // Offset: 0x13C67DC
+    void LateUpdate();
   }; // MoveAndRotateWithMainCamera
   #pragma pack(pop)
   static check_size<sizeof(MoveAndRotateWithMainCamera), 64 + sizeof(::UnityEngine::Transform*)> __GlobalNamespace_MoveAndRotateWithMainCameraSizeCheck;
   static_assert(sizeof(MoveAndRotateWithMainCamera) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MoveAndRotateWithMainCamera::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MoveAndRotateWithMainCamera::Awake
 // Il2CppName: Awake
 template<>
@@ -128,7 +118,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MoveAndRotateWithMainCamera*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MoveAndRotateWithMainCamera::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

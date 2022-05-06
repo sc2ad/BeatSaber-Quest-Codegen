@@ -52,11 +52,11 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public Valve.VR.HmdMatrix34_t mTrackingToComponentRenderModel
-    ::Valve::VR::HmdMatrix34_t& dyn_mTrackingToComponentRenderModel();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::HmdMatrix34_t& dyn_mTrackingToComponentRenderModel();
     // Get instance field reference: public Valve.VR.HmdMatrix34_t mTrackingToComponentLocal
-    ::Valve::VR::HmdMatrix34_t& dyn_mTrackingToComponentLocal();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::HmdMatrix34_t& dyn_mTrackingToComponentLocal();
     // Get instance field reference: public System.UInt32 uProperties
-    uint& dyn_uProperties();
+    [[deprecated("Use field access instead!")]] uint& dyn_uProperties();
   }; // Valve.VR.RenderModel_ComponentState_t
   #pragma pack(pop)
   static check_size<sizeof(RenderModel_ComponentState_t), 96 + sizeof(uint)> __Valve_VR_RenderModel_ComponentState_tSizeCheck;

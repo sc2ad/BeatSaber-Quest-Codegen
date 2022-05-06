@@ -51,15 +51,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SliderSpawnInfoNetSerializable : public ::Il2CppObject/*, public ::LiteNetLib::Utils::INetSerializable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public ColorType colorType
     // Size: 0x4
     // Offset: 0x10
@@ -262,97 +254,99 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
     // Get instance field reference: public ColorType colorType
-    ::GlobalNamespace::ColorType& dyn_colorType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorType& dyn_colorType();
     // Get instance field reference: public SliderData/Type sliderType
-    ::GlobalNamespace::SliderData::Type& dyn_sliderType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SliderData::Type& dyn_sliderType();
     // Get instance field reference: public System.Boolean hasHeadNote
-    bool& dyn_hasHeadNote();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasHeadNote();
     // Get instance field reference: public System.Single headTime
-    float& dyn_headTime();
+    [[deprecated("Use field access instead!")]] float& dyn_headTime();
     // Get instance field reference: public System.Int32 headLineIndex
-    int& dyn_headLineIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_headLineIndex();
     // Get instance field reference: public NoteLineLayer headLineLayer
-    ::GlobalNamespace::NoteLineLayer& dyn_headLineLayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteLineLayer& dyn_headLineLayer();
     // Get instance field reference: public NoteLineLayer headBeforeJumpLineLayer
-    ::GlobalNamespace::NoteLineLayer& dyn_headBeforeJumpLineLayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteLineLayer& dyn_headBeforeJumpLineLayer();
     // Get instance field reference: public System.Single headControlPointLengthMultiplier
-    float& dyn_headControlPointLengthMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn_headControlPointLengthMultiplier();
     // Get instance field reference: public NoteCutDirection headCutDirection
-    ::GlobalNamespace::NoteCutDirection& dyn_headCutDirection();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutDirection& dyn_headCutDirection();
     // Get instance field reference: public System.Single headCutDirectionAngleOffset
-    float& dyn_headCutDirectionAngleOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_headCutDirectionAngleOffset();
     // Get instance field reference: public System.Boolean hasTailNote
-    bool& dyn_hasTailNote();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasTailNote();
     // Get instance field reference: public System.Single tailTime
-    float& dyn_tailTime();
+    [[deprecated("Use field access instead!")]] float& dyn_tailTime();
     // Get instance field reference: public System.Int32 tailLineIndex
-    int& dyn_tailLineIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_tailLineIndex();
     // Get instance field reference: public NoteLineLayer tailLineLayer
-    ::GlobalNamespace::NoteLineLayer& dyn_tailLineLayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteLineLayer& dyn_tailLineLayer();
     // Get instance field reference: public NoteLineLayer tailBeforeJumpLineLayer
-    ::GlobalNamespace::NoteLineLayer& dyn_tailBeforeJumpLineLayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteLineLayer& dyn_tailBeforeJumpLineLayer();
     // Get instance field reference: public System.Single tailControlPointLengthMultiplier
-    float& dyn_tailControlPointLengthMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn_tailControlPointLengthMultiplier();
     // Get instance field reference: public NoteCutDirection tailCutDirection
-    ::GlobalNamespace::NoteCutDirection& dyn_tailCutDirection();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutDirection& dyn_tailCutDirection();
     // Get instance field reference: public System.Single tailCutDirectionAngleOffset
-    float& dyn_tailCutDirectionAngleOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_tailCutDirectionAngleOffset();
     // Get instance field reference: public SliderMidAnchorMode midAnchorMode
-    ::GlobalNamespace::SliderMidAnchorMode& dyn_midAnchorMode();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SliderMidAnchorMode& dyn_midAnchorMode();
     // Get instance field reference: public System.Int32 sliceCount
-    int& dyn_sliceCount();
+    [[deprecated("Use field access instead!")]] int& dyn_sliceCount();
     // Get instance field reference: public System.Single squishAmount
-    float& dyn_squishAmount();
+    [[deprecated("Use field access instead!")]] float& dyn_squishAmount();
     // Get instance field reference: public Vector3Serializable headMoveStartPos
-    ::GlobalNamespace::Vector3Serializable& dyn_headMoveStartPos();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3Serializable& dyn_headMoveStartPos();
     // Get instance field reference: public Vector3Serializable headJumpStartPos
-    ::GlobalNamespace::Vector3Serializable& dyn_headJumpStartPos();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3Serializable& dyn_headJumpStartPos();
     // Get instance field reference: public Vector3Serializable headJumpEndPos
-    ::GlobalNamespace::Vector3Serializable& dyn_headJumpEndPos();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3Serializable& dyn_headJumpEndPos();
     // Get instance field reference: public System.Single headJumpGravity
-    float& dyn_headJumpGravity();
+    [[deprecated("Use field access instead!")]] float& dyn_headJumpGravity();
     // Get instance field reference: public Vector3Serializable tailMoveStartPos
-    ::GlobalNamespace::Vector3Serializable& dyn_tailMoveStartPos();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3Serializable& dyn_tailMoveStartPos();
     // Get instance field reference: public Vector3Serializable tailJumpStartPos
-    ::GlobalNamespace::Vector3Serializable& dyn_tailJumpStartPos();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3Serializable& dyn_tailJumpStartPos();
     // Get instance field reference: public Vector3Serializable tailJumpEndPos
-    ::GlobalNamespace::Vector3Serializable& dyn_tailJumpEndPos();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3Serializable& dyn_tailJumpEndPos();
     // Get instance field reference: public System.Single tailJumpGravity
-    float& dyn_tailJumpGravity();
+    [[deprecated("Use field access instead!")]] float& dyn_tailJumpGravity();
     // Get instance field reference: public System.Single moveDuration
-    float& dyn_moveDuration();
+    [[deprecated("Use field access instead!")]] float& dyn_moveDuration();
     // Get instance field reference: public System.Single jumpDuration
-    float& dyn_jumpDuration();
+    [[deprecated("Use field access instead!")]] float& dyn_jumpDuration();
     // Get instance field reference: public System.Single rotation
-    float& dyn_rotation();
+    [[deprecated("Use field access instead!")]] float& dyn_rotation();
     // public System.Void .ctor(ColorType colorType, SliderData/Type sliderType, System.Boolean hasHeadNote, System.Single headTime, System.Int32 headLineIndex, NoteLineLayer headLineLayer, NoteLineLayer headBeforeJumpLineLayer, System.Single headControlPointLengthMultiplier, NoteCutDirection headCutDirection, System.Single headCutDirectionAngleOffset, System.Boolean hasTailNote, System.Single tailTime, System.Int32 tailLineIndex, NoteLineLayer tailLineLayer, NoteLineLayer tailBeforeJumpLineLayer, System.Single tailControlPointLengthMultiplier, NoteCutDirection tailCutDirection, System.Single tailCutDirectionAngleOffset, SliderMidAnchorMode midAnchorMode, System.Int32 sliceCount, System.Single squishAmount, UnityEngine.Vector3 headMoveStartPos, UnityEngine.Vector3 headJumpStartPos, UnityEngine.Vector3 headJumpEndPos, System.Single headJumpGravity, UnityEngine.Vector3 tailMoveStartPos, UnityEngine.Vector3 tailJumpStartPos, UnityEngine.Vector3 tailJumpEndPos, System.Single tailJumpGravity, System.Single moveDuration, System.Single jumpDuration, System.Single rotation)
-    // Offset: 0x29C36C0
+    // Offset: 0x2A05A34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderSpawnInfoNetSerializable* New_ctor(::GlobalNamespace::ColorType colorType, ::GlobalNamespace::SliderData::Type sliderType, bool hasHeadNote, float headTime, int headLineIndex, ::GlobalNamespace::NoteLineLayer headLineLayer, ::GlobalNamespace::NoteLineLayer headBeforeJumpLineLayer, float headControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection headCutDirection, float headCutDirectionAngleOffset, bool hasTailNote, float tailTime, int tailLineIndex, ::GlobalNamespace::NoteLineLayer tailLineLayer, ::GlobalNamespace::NoteLineLayer tailBeforeJumpLineLayer, float tailControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection tailCutDirection, float tailCutDirectionAngleOffset, ::GlobalNamespace::SliderMidAnchorMode midAnchorMode, int sliceCount, float squishAmount, ::UnityEngine::Vector3 headMoveStartPos, ::UnityEngine::Vector3 headJumpStartPos, ::UnityEngine::Vector3 headJumpEndPos, float headJumpGravity, ::UnityEngine::Vector3 tailMoveStartPos, ::UnityEngine::Vector3 tailJumpStartPos, ::UnityEngine::Vector3 tailJumpEndPos, float tailJumpGravity, float moveDuration, float jumpDuration, float rotation) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderSpawnInfoNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderSpawnInfoNetSerializable*, creationType>(colorType, sliderType, hasHeadNote, headTime, headLineIndex, headLineLayer, headBeforeJumpLineLayer, headControlPointLengthMultiplier, headCutDirection, headCutDirectionAngleOffset, hasTailNote, tailTime, tailLineIndex, tailLineLayer, tailBeforeJumpLineLayer, tailControlPointLengthMultiplier, tailCutDirection, tailCutDirectionAngleOffset, midAnchorMode, sliceCount, squishAmount, headMoveStartPos, headJumpStartPos, headJumpEndPos, headJumpGravity, tailMoveStartPos, tailJumpStartPos, tailJumpEndPos, tailJumpGravity, moveDuration, jumpDuration, rotation)));
     }
-    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x29C39A8
-    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
-    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29C3C80
-    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x29C39A0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A05D14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderSpawnInfoNetSerializable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderSpawnInfoNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderSpawnInfoNetSerializable*, creationType>()));
     }
+    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x2A05D1C
+    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x2A05FF4
+    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
   }; // SliderSpawnInfoNetSerializable
   #pragma pack(pop)
   static check_size<sizeof(SliderSpawnInfoNetSerializable), 188 + sizeof(float)> __GlobalNamespace_SliderSpawnInfoNetSerializableSizeCheck;
   static_assert(sizeof(SliderSpawnInfoNetSerializable) == 0xC0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SliderSpawnInfoNetSerializable::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SliderSpawnInfoNetSerializable::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -375,7 +369,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SliderSpawnInfoNetSerializable*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SliderSpawnInfoNetSerializable::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

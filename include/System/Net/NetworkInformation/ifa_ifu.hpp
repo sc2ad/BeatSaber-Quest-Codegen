@@ -45,9 +45,9 @@ namespace System::Net::NetworkInformation {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.IntPtr ifu_broadaddr
-    ::System::IntPtr& dyn_ifu_broadaddr();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_ifu_broadaddr();
     // Get instance field reference: public System.IntPtr ifu_dstaddr
-    ::System::IntPtr& dyn_ifu_dstaddr();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_ifu_dstaddr();
   }; // System.Net.NetworkInformation.ifa_ifu
   // WARNING Not writing size check since size may be invalid!
 }

@@ -50,9 +50,9 @@ namespace System::Runtime::Remoting::Channels {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Byte[] arrResponse
-    ::ArrayW<uint8_t>& dyn_arrResponse();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_arrResponse();
     // Get instance field reference: public System.Runtime.Remoting.Messaging.CADMethodReturnMessage cadMrm
-    ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage*& dyn_cadMrm();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage*& dyn_cadMrm();
   }; // System.Runtime.Remoting.Channels.CrossAppDomainSink/System.Runtime.Remoting.Channels.ProcessMessageRes
   #pragma pack(pop)
   static check_size<sizeof(CrossAppDomainSink::ProcessMessageRes), 8 + sizeof(::System::Runtime::Remoting::Messaging::CADMethodReturnMessage*)> __System_Runtime_Remoting_Channels_CrossAppDomainSink_ProcessMessageResSizeCheck;

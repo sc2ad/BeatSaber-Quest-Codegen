@@ -27,15 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MaterialPropertyValuesSetter::PropertyNameVectorValuePair : public ::GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Vector4 vector
     // Size: 0x10
     // Offset: 0x1C
@@ -48,12 +40,11 @@ namespace GlobalNamespace {
       return vector;
     }
     // Get instance field reference: public UnityEngine.Vector4 vector
-    ::UnityEngine::Vector4& dyn_vector();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector4& dyn_vector();
     // public System.Void .ctor()
-    // Offset: 0x2AD64CC
+    // Offset: 0x1E7F8DC
     // Implemented from: MaterialPropertyValuesSetter/PropertyValuePairBase
     // Base method: System.Void PropertyValuePairBase::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MaterialPropertyValuesSetter::PropertyNameVectorValuePair* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameVectorValuePair::.ctor");

@@ -28,15 +28,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class SerStack : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Object[] objects
     // Size: 0x8
     // Offset: 0x10
@@ -57,35 +49,35 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: System.Object[] objects
-    ::ArrayW<::Il2CppObject*>& dyn_objects();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppObject*>& dyn_objects();
     // Get instance field reference: System.String stackId
-    ::StringW& dyn_stackId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_stackId();
     // Get instance field reference: System.Int32 top
-    int& dyn_top();
+    [[deprecated("Use field access instead!")]] int& dyn_top();
     // System.Void .ctor(System.String stackId)
-    // Offset: 0x15F7BD0
+    // Offset: 0x162D4E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerStack* New_ctor(::StringW stackId) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::SerStack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerStack*, creationType>(stackId)));
     }
     // System.Void Push(System.Object obj)
-    // Offset: 0x15F7C4C
+    // Offset: 0x162D55C
     void Push(::Il2CppObject* obj);
     // System.Object Pop()
-    // Offset: 0x15F7D94
+    // Offset: 0x162D6A4
     ::Il2CppObject* Pop();
     // System.Void IncreaseCapacity()
-    // Offset: 0x15F7D04
+    // Offset: 0x162D614
     void IncreaseCapacity();
     // System.Object Peek()
-    // Offset: 0x15F7DFC
+    // Offset: 0x162D70C
     ::Il2CppObject* Peek();
     // System.Object PeekPeek()
-    // Offset: 0x15F7E48
+    // Offset: 0x162D758
     ::Il2CppObject* PeekPeek();
     // System.Boolean IsEmpty()
-    // Offset: 0x15F7E98
+    // Offset: 0x162D7A8
     bool IsEmpty();
   }; // System.Runtime.Serialization.Formatters.Binary.SerStack
   #pragma pack(pop)

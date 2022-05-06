@@ -44,9 +44,9 @@ namespace Mono::Unity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_protocol min
-    ::Mono::Unity::UnityTls::unitytls_protocol& dyn_min();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_protocol& dyn_min();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_protocol max
-    ::Mono::Unity::UnityTls::unitytls_protocol& dyn_max();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_protocol& dyn_max();
   }; // Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_protocolrange
   #pragma pack(pop)
   static check_size<sizeof(UnityTls::unitytls_tlsctx_protocolrange), 4 + sizeof(::Mono::Unity::UnityTls::unitytls_protocol)> __Mono_Unity_UnityTls_unitytls_tlsctx_protocolrangeSizeCheck;

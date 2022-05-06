@@ -50,11 +50,11 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 parentParmId
-    int& dyn_parentParmId();
+    [[deprecated("Use field access instead!")]] int& dyn_parentParmId();
     // Get instance field reference: public System.Int32 labelSH
-    int& dyn_labelSH();
+    [[deprecated("Use field access instead!")]] int& dyn_labelSH();
     // Get instance field reference: public System.Int32 valueSH
-    int& dyn_valueSH();
+    [[deprecated("Use field access instead!")]] int& dyn_valueSH();
   }; // HoudiniEngineUnity.HAPI_ParmChoiceInfo
   #pragma pack(pop)
   static check_size<sizeof(HAPI_ParmChoiceInfo), 8 + sizeof(int)> __HoudiniEngineUnity_HAPI_ParmChoiceInfoSizeCheck;

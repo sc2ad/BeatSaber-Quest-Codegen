@@ -54,7 +54,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.JSONTextMode Indent
     static void _set_Indent(::HoudiniEngineUnity::JSONTextMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.JSONTextMode
   #pragma pack(pop)
   static check_size<sizeof(JSONTextMode), 0 + sizeof(int)> __HoudiniEngineUnity_JSONTextModeSizeCheck;

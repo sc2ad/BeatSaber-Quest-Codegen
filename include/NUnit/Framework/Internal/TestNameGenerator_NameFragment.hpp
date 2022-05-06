@@ -42,40 +42,42 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestNameGenerator::NameFragment : public ::Il2CppObject {
     public:
-    // public System.String GetText(NUnit.Framework.Internal.TestMethod testMethod, System.Object[] args)
-    // Offset: 0x29B404C
-    ::StringW GetText(::NUnit::Framework::Internal::TestMethod* testMethod, ::ArrayW<::Il2CppObject*> args);
-    // public System.String GetText(System.Reflection.MethodInfo method, System.Object[] args)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    ::StringW GetText(::System::Reflection::MethodInfo* method, ::ArrayW<::Il2CppObject*> args);
-    // static protected System.Void AppendGenericTypeNames(System.Text.StringBuilder sb, System.Reflection.MethodInfo method)
-    // Offset: 0x29B3E70
-    static void AppendGenericTypeNames(::System::Text::StringBuilder* sb, ::System::Reflection::MethodInfo* method);
-    // static protected System.String GetDisplayString(System.Object arg, System.Int32 stringMax)
-    // Offset: 0x29B32A8
-    static ::StringW GetDisplayString(::Il2CppObject* arg, int stringMax);
-    // static private System.String EscapeSingleChar(System.Char c)
-    // Offset: 0x29B4194
-    static ::StringW EscapeSingleChar(::Il2CppChar c);
-    // static private System.String EscapeCharInString(System.Char c)
-    // Offset: 0x29B412C
-    static ::StringW EscapeCharInString(::Il2CppChar c);
-    // static private System.String EscapeControlChar(System.Char c)
-    // Offset: 0x29B41FC
-    static ::StringW EscapeControlChar(::Il2CppChar c);
     // protected System.Void .ctor()
-    // Offset: 0x29B317C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A0F174
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestNameGenerator::NameFragment* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestNameGenerator::NameFragment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator::NameFragment*, creationType>()));
     }
+    // public System.String GetText(NUnit.Framework.Internal.TestMethod testMethod, System.Object[] args)
+    // Offset: 0x2A10044
+    ::StringW GetText(::NUnit::Framework::Internal::TestMethod* testMethod, ::ArrayW<::Il2CppObject*> args);
+    // public System.String GetText(System.Reflection.MethodInfo method, System.Object[] args)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    ::StringW GetText(::System::Reflection::MethodInfo* method, ::ArrayW<::Il2CppObject*> args);
+    // static protected System.Void AppendGenericTypeNames(System.Text.StringBuilder sb, System.Reflection.MethodInfo method)
+    // Offset: 0x2A0FE68
+    static void AppendGenericTypeNames(::System::Text::StringBuilder* sb, ::System::Reflection::MethodInfo* method);
+    // static protected System.String GetDisplayString(System.Object arg, System.Int32 stringMax)
+    // Offset: 0x2A0F2A0
+    static ::StringW GetDisplayString(::Il2CppObject* arg, int stringMax);
+    // static private System.String EscapeSingleChar(System.Char c)
+    // Offset: 0x2A1018C
+    static ::StringW EscapeSingleChar(::Il2CppChar c);
+    // static private System.String EscapeCharInString(System.Char c)
+    // Offset: 0x2A10124
+    static ::StringW EscapeCharInString(::Il2CppChar c);
+    // static private System.String EscapeControlChar(System.Char c)
+    // Offset: 0x2A101F4
+    static ::StringW EscapeControlChar(::Il2CppChar c);
   }; // NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.NameFragment
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::NameFragment::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::NameFragment::GetText
 // Il2CppName: GetText
 template<>
@@ -143,7 +145,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestNameGenerator::NameFragment*), "EscapeControlChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::NameFragment::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

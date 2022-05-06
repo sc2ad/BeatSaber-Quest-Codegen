@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseViewControllersInstaller : public ::Zenject::ScriptableObjectInstaller {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private SimpleDialogPromptViewController _simpleDialogPromptViewControllerPrefab
     // Size: 0x8
     // Offset: 0x20
@@ -52,22 +44,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::SimpleDialogPromptViewController*) == 0x8);
     public:
     // Get instance field reference: private SimpleDialogPromptViewController _simpleDialogPromptViewControllerPrefab
-    ::GlobalNamespace::SimpleDialogPromptViewController*& dyn__simpleDialogPromptViewControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SimpleDialogPromptViewController*& dyn__simpleDialogPromptViewControllerPrefab();
     // public System.Void .ctor()
-    // Offset: 0x1360BA8
-    // Implemented from: Zenject.ScriptableObjectInstaller
-    // Base method: System.Void ScriptableObjectInstaller::.ctor()
-    // Base method: System.Void ScriptableObjectInstallerBase::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1348E28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseViewControllersInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BaseViewControllersInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseViewControllersInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1360B34
+    // Offset: 0x1348DB4
     // Implemented from: Zenject.ScriptableObjectInstallerBase
     // Base method: System.Void ScriptableObjectInstallerBase::InstallBindings()
     void InstallBindings();

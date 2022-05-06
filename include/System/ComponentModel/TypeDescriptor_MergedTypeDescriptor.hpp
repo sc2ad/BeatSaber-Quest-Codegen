@@ -34,15 +34,7 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class TypeDescriptor::MergedTypeDescriptor : public ::Il2CppObject/*, public ::System::ComponentModel::ICustomTypeDescriptor*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.ComponentModel.ICustomTypeDescriptor _primary
     // Size: 0x8
     // Offset: 0x10
@@ -61,21 +53,21 @@ namespace System::ComponentModel {
       return *reinterpret_cast<::System::ComponentModel::ICustomTypeDescriptor*>(this);
     }
     // Get instance field reference: private System.ComponentModel.ICustomTypeDescriptor _primary
-    ::System::ComponentModel::ICustomTypeDescriptor*& dyn__primary();
+    [[deprecated("Use field access instead!")]] ::System::ComponentModel::ICustomTypeDescriptor*& dyn__primary();
     // Get instance field reference: private System.ComponentModel.ICustomTypeDescriptor _secondary
-    ::System::ComponentModel::ICustomTypeDescriptor*& dyn__secondary();
+    [[deprecated("Use field access instead!")]] ::System::ComponentModel::ICustomTypeDescriptor*& dyn__secondary();
     // System.Void .ctor(System.ComponentModel.ICustomTypeDescriptor primary, System.ComponentModel.ICustomTypeDescriptor secondary)
-    // Offset: 0x1CA4204
+    // Offset: 0x1CE075C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeDescriptor::MergedTypeDescriptor* New_ctor(::System::ComponentModel::ICustomTypeDescriptor* primary, ::System::ComponentModel::ICustomTypeDescriptor* secondary) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::TypeDescriptor::MergedTypeDescriptor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeDescriptor::MergedTypeDescriptor*, creationType>(primary, secondary)));
     }
     // private System.ComponentModel.AttributeCollection System.ComponentModel.ICustomTypeDescriptor.GetAttributes()
-    // Offset: 0x1CA423C
+    // Offset: 0x1CE0794
     ::System::ComponentModel::AttributeCollection* System_ComponentModel_ICustomTypeDescriptor_GetAttributes();
     // private System.ComponentModel.TypeConverter System.ComponentModel.ICustomTypeDescriptor.GetConverter()
-    // Offset: 0x1CA4370
+    // Offset: 0x1CE08C8
     ::System::ComponentModel::TypeConverter* System_ComponentModel_ICustomTypeDescriptor_GetConverter();
   }; // System.ComponentModel.TypeDescriptor/System.ComponentModel.MergedTypeDescriptor
   #pragma pack(pop)

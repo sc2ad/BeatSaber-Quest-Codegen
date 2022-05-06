@@ -51,7 +51,7 @@ namespace BeatmapSaveDataVersion2_6_0AndEarlier {
     // Set static field: static public BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.SliderType Burst
     static void _set_Burst(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::SliderType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.SliderType
   #pragma pack(pop)
   static check_size<sizeof(BeatmapSaveData::SliderType), 0 + sizeof(int)> __BeatmapSaveDataVersion2_6_0AndEarlier_BeatmapSaveData_SliderTypeSizeCheck;

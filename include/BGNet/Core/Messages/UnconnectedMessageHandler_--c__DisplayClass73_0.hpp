@@ -43,15 +43,7 @@ namespace BGNet::Core::Messages {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class UnconnectedMessageHandler::$$c__DisplayClass73_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public BGNet.Core.Messages.UnconnectedMessageHandler <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -80,31 +72,33 @@ namespace BGNet::Core::Messages {
     static_assert(sizeof(::System::Threading::CancellationToken) == 0x8);
     public:
     // Get instance field reference: public BGNet.Core.Messages.UnconnectedMessageHandler <>4__this
-    ::BGNet::Core::Messages::UnconnectedMessageHandler*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::BGNet::Core::Messages::UnconnectedMessageHandler*& dyn_$$4__this();
     // Get instance field reference: public System.UInt32 protocolVersion
-    uint& dyn_protocolVersion();
+    [[deprecated("Use field access instead!")]] uint& dyn_protocolVersion();
     // Get instance field reference: public System.Net.IPEndPoint remoteEndPoint
-    ::System::Net::IPEndPoint*& dyn_remoteEndPoint();
+    [[deprecated("Use field access instead!")]] ::System::Net::IPEndPoint*& dyn_remoteEndPoint();
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
-    ::System::Threading::CancellationToken& dyn_cancellationToken();
-    // System.Threading.Tasks.Task <SendMultipartMessageWithRetryAsync>b__0(BGNet.Core.Messages.IUnconnectedReliableRequest mm)
-    // Offset: 0x1501080
-    ::System::Threading::Tasks::Task* $SendMultipartMessageWithRetryAsync$b__0(::BGNet::Core::Messages::IUnconnectedReliableRequest* mm);
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationToken& dyn_cancellationToken();
     // public System.Void .ctor()
-    // Offset: 0x1501078
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1538980
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnconnectedMessageHandler::$$c__DisplayClass73_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$$c__DisplayClass73_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnconnectedMessageHandler::$$c__DisplayClass73_0*, creationType>()));
     }
+    // System.Threading.Tasks.Task <SendMultipartMessageWithRetryAsync>b__0(BGNet.Core.Messages.IUnconnectedReliableRequest mm)
+    // Offset: 0x1538988
+    ::System::Threading::Tasks::Task* $SendMultipartMessageWithRetryAsync$b__0(::BGNet::Core::Messages::IUnconnectedReliableRequest* mm);
   }; // BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.<>c__DisplayClass73_0
   #pragma pack(pop)
   static check_size<sizeof(UnconnectedMessageHandler::$$c__DisplayClass73_0), 40 + sizeof(::System::Threading::CancellationToken)> __BGNet_Core_Messages_UnconnectedMessageHandler_$$c__DisplayClass73_0SizeCheck;
   static_assert(sizeof(UnconnectedMessageHandler::$$c__DisplayClass73_0) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: BGNet::Core::Messages::UnconnectedMessageHandler::$$c__DisplayClass73_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: BGNet::Core::Messages::UnconnectedMessageHandler::$$c__DisplayClass73_0::$SendMultipartMessageWithRetryAsync$b__0
 // Il2CppName: <SendMultipartMessageWithRetryAsync>b__0
 template<>
@@ -114,7 +108,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(BGNet::Core::Messages::UnconnectedMessageHandler::$$c__DisplayClass73_0*), "<SendMultipartMessageWithRetryAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mm});
   }
 };
-// Writing MetadataGetter for method: BGNet::Core::Messages::UnconnectedMessageHandler::$$c__DisplayClass73_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

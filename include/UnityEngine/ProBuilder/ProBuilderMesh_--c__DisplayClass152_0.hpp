@@ -31,15 +31,7 @@ namespace UnityEngine::ProBuilder {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ProBuilderMesh::$$c__DisplayClass152_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 i
     // Size: 0x4
     // Offset: 0x10
@@ -52,25 +44,27 @@ namespace UnityEngine::ProBuilder {
       return i;
     }
     // Get instance field reference: public System.Int32 i
-    int& dyn_i();
-    // System.Boolean <UnusedElementGroup>b__0(UnityEngine.ProBuilder.Face element)
-    // Offset: 0x19866DC
-    bool $UnusedElementGroup$b__0(::UnityEngine::ProBuilder::Face* element);
+    [[deprecated("Use field access instead!")]] int& dyn_i();
     // public System.Void .ctor()
-    // Offset: 0x1983278
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x19BC860
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProBuilderMesh::$$c__DisplayClass152_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass152_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProBuilderMesh::$$c__DisplayClass152_0*, creationType>()));
     }
+    // System.Boolean <UnusedElementGroup>b__0(UnityEngine.ProBuilder.Face element)
+    // Offset: 0x19BFCC4
+    bool $UnusedElementGroup$b__0(::UnityEngine::ProBuilder::Face* element);
   }; // UnityEngine.ProBuilder.ProBuilderMesh/UnityEngine.ProBuilder.<>c__DisplayClass152_0
   #pragma pack(pop)
   static check_size<sizeof(ProBuilderMesh::$$c__DisplayClass152_0), 16 + sizeof(int)> __UnityEngine_ProBuilder_ProBuilderMesh_$$c__DisplayClass152_0SizeCheck;
   static_assert(sizeof(ProBuilderMesh::$$c__DisplayClass152_0) == 0x14);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass152_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass152_0::$UnusedElementGroup$b__0
 // Il2CppName: <UnusedElementGroup>b__0
 template<>
@@ -80,7 +74,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass152_0*), "<UnusedElementGroup>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{element});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass152_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

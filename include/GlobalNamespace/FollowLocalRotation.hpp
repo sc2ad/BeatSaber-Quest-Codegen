@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FollowLocalRotation : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Transform _target
     // Size: 0x8
     // Offset: 0x18
@@ -60,34 +52,32 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Transform _target
-    ::UnityEngine::Transform*& dyn__target();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__target();
     // Get instance field reference: private UnityEngine.Transform _transform
-    ::UnityEngine::Transform*& dyn__transform();
-    // protected System.Void Awake()
-    // Offset: 0x156DBEC
-    void Awake();
-    // protected System.Void Update()
-    // Offset: 0x156DC14
-    void Update();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // public System.Void .ctor()
-    // Offset: 0x156DC54
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15A4564
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FollowLocalRotation* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FollowLocalRotation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FollowLocalRotation*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x15A44FC
+    void Awake();
+    // protected System.Void Update()
+    // Offset: 0x15A4524
+    void Update();
   }; // FollowLocalRotation
   #pragma pack(pop)
   static check_size<sizeof(FollowLocalRotation), 32 + sizeof(::UnityEngine::Transform*)> __GlobalNamespace_FollowLocalRotationSizeCheck;
   static_assert(sizeof(FollowLocalRotation) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::FollowLocalRotation::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FollowLocalRotation::Awake
 // Il2CppName: Awake
 template<>
@@ -104,7 +94,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FollowLocalRotation*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FollowLocalRotation::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

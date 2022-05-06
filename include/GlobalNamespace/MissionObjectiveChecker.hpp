@@ -103,20 +103,12 @@ namespace GlobalNamespace {
       // Set static field: static public MissionObjectiveChecker/Status Failed
       static void _set_Failed(::GlobalNamespace::MissionObjectiveChecker::Status value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // MissionObjectiveChecker/Status
     #pragma pack(pop)
     static check_size<sizeof(MissionObjectiveChecker::Status), 0 + sizeof(int)> __GlobalNamespace_MissionObjectiveChecker_StatusSizeCheck;
     static_assert(sizeof(MissionObjectiveChecker::Status) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MissionObjectiveTypeSO _missionObjectiveType
     // Size: 0x8
     // Offset: 0x18
@@ -163,74 +155,68 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionObjectiveTypeSO _missionObjectiveType
-    ::GlobalNamespace::MissionObjectiveTypeSO*& dyn__missionObjectiveType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionObjectiveTypeSO*& dyn__missionObjectiveType();
     // Get instance field reference: private System.Action`1<MissionObjectiveChecker> statusDidChangeEvent
-    ::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>*& dyn_statusDidChangeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>*& dyn_statusDidChangeEvent();
     // Get instance field reference: private System.Action`1<MissionObjectiveChecker> checkedValueDidChangeEvent
-    ::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>*& dyn_checkedValueDidChangeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>*& dyn_checkedValueDidChangeEvent();
     // Get instance field reference: private MissionObjectiveChecker/Status _status
-    ::GlobalNamespace::MissionObjectiveChecker::Status& dyn__status();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionObjectiveChecker::Status& dyn__status();
     // Get instance field reference: private System.Int32 _checkedValue
-    int& dyn__checkedValue();
+    [[deprecated("Use field access instead!")]] int& dyn__checkedValue();
     // Get instance field reference: protected MissionObjective _missionObjective
-    ::GlobalNamespace::MissionObjective*& dyn__missionObjective();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionObjective*& dyn__missionObjective();
     // Get instance field reference: private System.Boolean _disableChecking
-    bool& dyn__disableChecking();
+    [[deprecated("Use field access instead!")]] bool& dyn__disableChecking();
     // public MissionObjectiveTypeSO get_missionObjectiveType()
-    // Offset: 0x130B284
+    // Offset: 0x130775C
     ::GlobalNamespace::MissionObjectiveTypeSO* get_missionObjectiveType();
     // public MissionObjective get_missionObjective()
-    // Offset: 0x130B28C
+    // Offset: 0x1307764
     ::GlobalNamespace::MissionObjective* get_missionObjective();
     // public System.Boolean get_disableChecking()
-    // Offset: 0x130B294
+    // Offset: 0x130776C
     bool get_disableChecking();
     // public System.Void set_disableChecking(System.Boolean value)
-    // Offset: 0x130B29C
+    // Offset: 0x1307774
     void set_disableChecking(bool value);
     // public MissionObjectiveChecker/Status get_status()
-    // Offset: 0x130B2A8
+    // Offset: 0x1307780
     ::GlobalNamespace::MissionObjectiveChecker::Status get_status();
     // protected System.Void set_status(MissionObjectiveChecker/Status value)
-    // Offset: 0x1303CB4
+    // Offset: 0x130018C
     void set_status(::GlobalNamespace::MissionObjectiveChecker::Status value);
     // public System.Int32 get_checkedValue()
-    // Offset: 0x130B2B0
+    // Offset: 0x1307788
     int get_checkedValue();
     // protected System.Void set_checkedValue(System.Int32 value)
-    // Offset: 0x1303E40
+    // Offset: 0x1300318
     void set_checkedValue(int value);
     // public System.Void add_statusDidChangeEvent(System.Action`1<MissionObjectiveChecker> value)
-    // Offset: 0x130AFF4
+    // Offset: 0x13074CC
     void add_statusDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* value);
     // public System.Void remove_statusDidChangeEvent(System.Action`1<MissionObjectiveChecker> value)
-    // Offset: 0x130B098
+    // Offset: 0x1307570
     void remove_statusDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* value);
     // public System.Void add_checkedValueDidChangeEvent(System.Action`1<MissionObjectiveChecker> value)
-    // Offset: 0x130B13C
+    // Offset: 0x1307614
     void add_checkedValueDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* value);
     // public System.Void remove_checkedValueDidChangeEvent(System.Action`1<MissionObjectiveChecker> value)
-    // Offset: 0x130B1E0
+    // Offset: 0x13076B8
     void remove_checkedValueDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* value);
-    // public System.Void SetCheckedMissionObjective(MissionObjective missionObjective)
-    // Offset: 0x130B2B8
-    void SetCheckedMissionObjective(::GlobalNamespace::MissionObjective* missionObjective);
-    // protected System.Void Init()
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    void Init();
     // protected System.Void .ctor()
-    // Offset: 0x130B2C8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13077A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionObjectiveChecker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionObjectiveChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionObjectiveChecker*, creationType>()));
     }
+    // public System.Void SetCheckedMissionObjective(MissionObjective missionObjective)
+    // Offset: 0x1307790
+    void SetCheckedMissionObjective(::GlobalNamespace::MissionObjective* missionObjective);
+    // protected System.Void Init()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    void Init();
   }; // MissionObjectiveChecker
   #pragma pack(pop)
   static check_size<sizeof(MissionObjectiveChecker), 64 + sizeof(bool)> __GlobalNamespace_MissionObjectiveCheckerSizeCheck;
@@ -342,6 +328,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "remove_checkedValueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::SetCheckedMissionObjective
 // Il2CppName: SetCheckedMissionObjective
 template<>
@@ -359,7 +349,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

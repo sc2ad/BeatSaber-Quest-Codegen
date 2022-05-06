@@ -11,7 +11,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestTools
@@ -24,10 +23,23 @@ namespace System::Reflection {
   // Forward declaring type: MethodInfo
   class MethodInfo;
 }
+// Forward declaring namespace: System::Collections::Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
+  class Dictionary_2;
+  // Forward declaring type: List`1<T>
+  template<typename T>
+  class List_1;
+}
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Type
   class Type;
+}
+// Forward declaring namespace: NUnit::Framework::Internal::Commands
+namespace NUnit::Framework::Internal::Commands {
+  // Skipping declaration: TestCommand because it is already included!
 }
 // Forward declaring namespace: System::Collections
 namespace System::Collections {
@@ -42,10 +54,6 @@ namespace NUnit::Framework::Internal {
 namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // Forward declaring type: UnityTestExecutionContext
   class UnityTestExecutionContext;
-}
-// Forward declaring namespace: NUnit::Framework::Internal::Commands
-namespace NUnit::Framework::Internal::Commands {
-  // Skipping declaration: TestCommand because it is already included!
 }
 // Completed forward declares
 // Type namespace: UnityEngine.TestTools
@@ -63,46 +71,52 @@ namespace UnityEngine::TestTools {
   // [TokenAttribute] Offset: FFFFFFFF
   class SetUpTearDownCommand : public ::UnityEngine::TestTools::BeforeAfterTestCommandBase_1<::System::Reflection::MethodInfo*> {
     public:
-    // Nested type: ::UnityEngine::TestTools::SetUpTearDownCommand::$$c
-    class $$c;
-    // Nested type: ::UnityEngine::TestTools::SetUpTearDownCommand::$InvokeBefore$d__2
-    class $InvokeBefore$d__2;
-    // Nested type: ::UnityEngine::TestTools::SetUpTearDownCommand::$InvokeAfter$d__3
-    class $InvokeAfter$d__3;
-    // static private System.Reflection.MethodInfo[] GetMethodsWithAttributeFromFixture(System.Type fixtureType, System.Type setUpType)
-    // Offset: 0x194D01C
-    static ::ArrayW<::System::Reflection::MethodInfo*> GetMethodsWithAttributeFromFixture(::System::Type* fixtureType, ::System::Type* setUpType);
-    // protected System.Collections.IEnumerator InvokeBefore(System.Reflection.MethodInfo action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x194D15C
-    ::System::Collections::IEnumerator* InvokeBefore(::System::Reflection::MethodInfo* action, ::NUnit::Framework::Internal::Test* test, ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
-    // protected System.Collections.IEnumerator InvokeAfter(System.Reflection.MethodInfo action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x194D20C
-    ::System::Collections::IEnumerator* InvokeAfter(::System::Reflection::MethodInfo* action, ::NUnit::Framework::Internal::Test* test, ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
+    // Nested type: ::UnityEngine::TestTools::SetUpTearDownCommand::$InvokeBefore$d__3
+    class $InvokeBefore$d__3;
+    // Nested type: ::UnityEngine::TestTools::SetUpTearDownCommand::$InvokeAfter$d__4
+    class $InvokeAfter$d__4;
+    // Get static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.List`1<System.Reflection.MethodInfo>> m_BeforeActionsCache
+    static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*>* _get_m_BeforeActionsCache();
+    // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.List`1<System.Reflection.MethodInfo>> m_BeforeActionsCache
+    static void _set_m_BeforeActionsCache(::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*>* value);
+    // Get static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.List`1<System.Reflection.MethodInfo>> m_AfterActionsCache
+    static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*>* _get_m_AfterActionsCache();
+    // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.List`1<System.Reflection.MethodInfo>> m_AfterActionsCache
+    static void _set_m_AfterActionsCache(::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*>* value);
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
-    // Offset: 0x19404CC
-    // Implemented from: NUnit.Framework.Internal.Commands.DelegatingTestCommand
-    // Base method: System.Void DelegatingTestCommand::.ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
+    // Offset: 0x1978178
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SetUpTearDownCommand* New_ctor(::NUnit::Framework::Internal::Commands::TestCommand* innerCommand) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::SetUpTearDownCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SetUpTearDownCommand*, creationType>(innerCommand)));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1984DD4
+    static void _cctor();
+    // protected System.Collections.IEnumerator InvokeBefore(System.Reflection.MethodInfo action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
+    // Offset: 0x1984C6C
+    ::System::Collections::IEnumerator* InvokeBefore(::System::Reflection::MethodInfo* action, ::NUnit::Framework::Internal::Test* test, ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
+    // protected System.Collections.IEnumerator InvokeAfter(System.Reflection.MethodInfo action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
+    // Offset: 0x1984D1C
+    ::System::Collections::IEnumerator* InvokeAfter(::System::Reflection::MethodInfo* action, ::NUnit::Framework::Internal::Test* test, ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
     // protected override UnityEngine.TestTools.BeforeAfterTestCommandState GetState(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x194D2BC
+    // Offset: 0x1984DCC
     // Implemented from: UnityEngine.TestTools.BeforeAfterTestCommandBase`1
     // Base method: UnityEngine.TestTools.BeforeAfterTestCommandState BeforeAfterTestCommandBase_1::GetState(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
     ::UnityEngine::TestTools::BeforeAfterTestCommandState* GetState(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
   }; // UnityEngine.TestTools.SetUpTearDownCommand
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: UnityEngine::TestTools::SetUpTearDownCommand::GetMethodsWithAttributeFromFixture
-// Il2CppName: GetMethodsWithAttributeFromFixture
+// Writing MetadataGetter for method: UnityEngine::TestTools::SetUpTearDownCommand::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: UnityEngine::TestTools::SetUpTearDownCommand::_cctor
+// Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::MethodInfo*> (*)(::System::Type*, ::System::Type*)>(&UnityEngine::TestTools::SetUpTearDownCommand::GetMethodsWithAttributeFromFixture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::TestTools::SetUpTearDownCommand::_cctor)> {
   static const MethodInfo* get() {
-    static auto* fixtureType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* setUpType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::SetUpTearDownCommand*), "GetMethodsWithAttributeFromFixture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fixtureType, setUpType});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::SetUpTearDownCommand*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::TestTools::SetUpTearDownCommand::InvokeBefore
@@ -127,10 +141,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::SetUpTearDownCommand*), "InvokeAfter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action, test, context});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestTools::SetUpTearDownCommand::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::SetUpTearDownCommand::GetState
 // Il2CppName: GetState
 template<>

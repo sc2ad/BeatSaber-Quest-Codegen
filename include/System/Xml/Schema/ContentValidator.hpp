@@ -28,15 +28,7 @@ namespace System::Xml::Schema {
   // [TokenAttribute] Offset: FFFFFFFF
   class ContentValidator : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Xml.Schema.XmlSchemaContentType contentType
     // Size: 0x4
     // Offset: 0x10
@@ -73,33 +65,33 @@ namespace System::Xml::Schema {
     // Set static field: static public readonly System.Xml.Schema.ContentValidator Any
     static void _set_Any(::System::Xml::Schema::ContentValidator* value);
     // Get instance field reference: private System.Xml.Schema.XmlSchemaContentType contentType
-    ::System::Xml::Schema::XmlSchemaContentType& dyn_contentType();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaContentType& dyn_contentType();
     // Get instance field reference: private System.Boolean isOpen
-    bool& dyn_isOpen();
+    [[deprecated("Use field access instead!")]] bool& dyn_isOpen();
     // Get instance field reference: private System.Boolean isEmptiable
-    bool& dyn_isEmptiable();
+    [[deprecated("Use field access instead!")]] bool& dyn_isEmptiable();
     // public System.Xml.Schema.XmlSchemaContentType get_ContentType()
-    // Offset: 0x1A91570
+    // Offset: 0x1ACBB58
     ::System::Xml::Schema::XmlSchemaContentType get_ContentType();
     // public System.Boolean get_IsOpen()
-    // Offset: 0x1A91578
+    // Offset: 0x1ACBB60
     bool get_IsOpen();
     // public System.Void .ctor(System.Xml.Schema.XmlSchemaContentType contentType)
-    // Offset: 0x1A914F0
+    // Offset: 0x1ACBAD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContentValidator* New_ctor(::System::Xml::Schema::XmlSchemaContentType contentType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::ContentValidator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContentValidator*, creationType>(contentType)));
     }
     // protected System.Void .ctor(System.Xml.Schema.XmlSchemaContentType contentType, System.Boolean isOpen, System.Boolean isEmptiable)
-    // Offset: 0x1A91524
+    // Offset: 0x1ACBB0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContentValidator* New_ctor(::System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::ContentValidator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContentValidator*, creationType>(contentType, isOpen, isEmptiable)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1A9159C
+    // Offset: 0x1ACBB84
     static void _cctor();
   }; // System.Xml.Schema.ContentValidator
   #pragma pack(pop)

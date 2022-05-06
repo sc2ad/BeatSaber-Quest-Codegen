@@ -41,15 +41,7 @@ namespace GlobalNamespace {
     class ResultEnvironmentControllerWithKeyword;
     // Nested type: ::GlobalNamespace::ResultsEnvironmentManager::$$c__DisplayClass3_0
     class $$c__DisplayClass3_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private ResultsEnvironmentManager/ResultEnvironmentControllerWithKeyword[] _resultEnvironmentControllersWithKeyword
     // Size: 0x8
     // Offset: 0x18
@@ -66,37 +58,35 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ResultsEnvironmentManager/ResultEnvironmentControllerWithKeyword[] _resultEnvironmentControllersWithKeyword
-    ::ArrayW<::GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*>& dyn__resultEnvironmentControllersWithKeyword();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*>& dyn__resultEnvironmentControllersWithKeyword();
     // Get instance field reference: private System.String _currentShownKeyword
-    ::StringW& dyn__currentShownKeyword();
-    // public BaseResultsEnvironmentController GetResultEnvironmentControllerForKeyword(System.String keyword)
-    // Offset: 0x137DFA4
-    ::GlobalNamespace::BaseResultsEnvironmentController* GetResultEnvironmentControllerForKeyword(::StringW keyword);
-    // public System.Void ShowResultForKeyword(System.String keyword, System.Boolean immediately)
-    // Offset: 0x137E078
-    void ShowResultForKeyword(::StringW keyword, bool immediately);
-    // public System.Void HideResultForKeyword(System.String keyword, System.Boolean immediately)
-    // Offset: 0x137E128
-    void HideResultForKeyword(::StringW keyword, bool immediately);
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__currentShownKeyword();
     // public System.Void .ctor()
-    // Offset: 0x137E1D0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1456024
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultsEnvironmentManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ResultsEnvironmentManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResultsEnvironmentManager*, creationType>()));
     }
+    // public BaseResultsEnvironmentController GetResultEnvironmentControllerForKeyword(System.String keyword)
+    // Offset: 0x1455DF8
+    ::GlobalNamespace::BaseResultsEnvironmentController* GetResultEnvironmentControllerForKeyword(::StringW keyword);
+    // public System.Void ShowResultForKeyword(System.String keyword, System.Boolean immediately)
+    // Offset: 0x1455ECC
+    void ShowResultForKeyword(::StringW keyword, bool immediately);
+    // public System.Void HideResultForKeyword(System.String keyword, System.Boolean immediately)
+    // Offset: 0x1455F7C
+    void HideResultForKeyword(::StringW keyword, bool immediately);
   }; // ResultsEnvironmentManager
   #pragma pack(pop)
   static check_size<sizeof(ResultsEnvironmentManager), 32 + sizeof(::StringW)> __GlobalNamespace_ResultsEnvironmentManagerSizeCheck;
   static_assert(sizeof(ResultsEnvironmentManager) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ResultsEnvironmentManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ResultsEnvironmentManager::GetResultEnvironmentControllerForKeyword
 // Il2CppName: GetResultEnvironmentControllerForKeyword
 template<>
@@ -126,7 +116,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsEnvironmentManager*), "HideResultForKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keyword, immediately});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ResultsEnvironmentManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

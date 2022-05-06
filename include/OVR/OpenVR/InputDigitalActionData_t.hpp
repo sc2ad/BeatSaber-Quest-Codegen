@@ -67,15 +67,15 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Boolean bActive
-    bool& dyn_bActive();
+    [[deprecated("Use field access instead!")]] bool& dyn_bActive();
     // Get instance field reference: public System.UInt64 activeOrigin
-    uint64_t& dyn_activeOrigin();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_activeOrigin();
     // Get instance field reference: public System.Boolean bState
-    bool& dyn_bState();
+    [[deprecated("Use field access instead!")]] bool& dyn_bState();
     // Get instance field reference: public System.Boolean bChanged
-    bool& dyn_bChanged();
+    [[deprecated("Use field access instead!")]] bool& dyn_bChanged();
     // Get instance field reference: public System.Single fUpdateTime
-    float& dyn_fUpdateTime();
+    [[deprecated("Use field access instead!")]] float& dyn_fUpdateTime();
   }; // OVR.OpenVR.InputDigitalActionData_t
   #pragma pack(pop)
   static check_size<sizeof(InputDigitalActionData_t), 20 + sizeof(float)> __OVR_OpenVR_InputDigitalActionData_tSizeCheck;

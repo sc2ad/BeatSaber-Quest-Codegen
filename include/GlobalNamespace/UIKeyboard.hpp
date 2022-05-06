@@ -50,15 +50,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::UIKeyboard::$$c__DisplayClass21_0
     class $$c__DisplayClass21_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TextMeshProButton _keyButtonPrefab
     // Size: 0x8
     // Offset: 0x18
@@ -117,81 +109,75 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TextMeshProButton _keyButtonPrefab
-    ::GlobalNamespace::TextMeshProButton*& dyn__keyButtonPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TextMeshProButton*& dyn__keyButtonPrefab();
     // Get instance field reference: private System.Action`1<System.Char> textKeyWasPressedEvent
-    ::System::Action_1<::Il2CppChar>*& dyn_textKeyWasPressedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::Il2CppChar>*& dyn_textKeyWasPressedEvent();
     // Get instance field reference: private System.Action deleteButtonWasPressedEvent
-    ::System::Action*& dyn_deleteButtonWasPressedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_deleteButtonWasPressedEvent();
     // Get instance field reference: private System.Action okButtonWasPressedEvent
-    ::System::Action*& dyn_okButtonWasPressedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_okButtonWasPressedEvent();
     // Get instance field reference: private System.Action cancelButtonWasPressedEvent
-    ::System::Action*& dyn_cancelButtonWasPressedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_cancelButtonWasPressedEvent();
     // Get instance field reference: private UnityEngine.UI.Button _okButton
-    ::UnityEngine::UI::Button*& dyn__okButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__okButton();
     // Get instance field reference: private UnityEngine.UI.Button _cancelButton
-    ::UnityEngine::UI::Button*& dyn__cancelButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__cancelButton();
     // Get instance field reference: private System.Boolean _okButtonInteractivity
-    bool& dyn__okButtonInteractivity();
+    [[deprecated("Use field access instead!")]] bool& dyn__okButtonInteractivity();
     // Get instance field reference: private System.Boolean _hideCancelButton
-    bool& dyn__hideCancelButton();
+    [[deprecated("Use field access instead!")]] bool& dyn__hideCancelButton();
     // public System.Void set_enableOkButtonInteractivity(System.Boolean value)
-    // Offset: 0x2AB5558
+    // Offset: 0x1494628
     void set_enableOkButtonInteractivity(bool value);
     // public System.Void set_hideCancelButton(System.Boolean value)
-    // Offset: 0x2AB5608
+    // Offset: 0x14946D8
     void set_hideCancelButton(bool value);
     // public System.Void add_textKeyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0x2AB5038
+    // Offset: 0x1494108
     void add_textKeyWasPressedEvent(::System::Action_1<::Il2CppChar>* value);
     // public System.Void remove_textKeyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0x2AB50DC
+    // Offset: 0x14941AC
     void remove_textKeyWasPressedEvent(::System::Action_1<::Il2CppChar>* value);
     // public System.Void add_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0x2AB5180
+    // Offset: 0x1494250
     void add_deleteButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0x2AB5224
+    // Offset: 0x14942F4
     void remove_deleteButtonWasPressedEvent(::System::Action* value);
     // public System.Void add_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x2AB52C8
+    // Offset: 0x1494398
     void add_okButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x2AB536C
+    // Offset: 0x149443C
     void remove_okButtonWasPressedEvent(::System::Action* value);
     // public System.Void add_cancelButtonWasPressedEvent(System.Action value)
-    // Offset: 0x2AB5410
+    // Offset: 0x14944E0
     void add_cancelButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_cancelButtonWasPressedEvent(System.Action value)
-    // Offset: 0x2AB54B4
+    // Offset: 0x1494584
     void remove_cancelButtonWasPressedEvent(::System::Action* value);
-    // protected System.Void Awake()
-    // Offset: 0x2AB56C8
-    void Awake();
-    // private System.Void <Awake>b__21_0()
-    // Offset: 0x2AB6198
-    void $Awake$b__21_0();
-    // private System.Void <Awake>b__21_1()
-    // Offset: 0x2AB61AC
-    void $Awake$b__21_1();
-    // private System.Void <Awake>b__21_2()
-    // Offset: 0x2AB61C8
-    void $Awake$b__21_2();
-    // private System.Void <Awake>b__21_3()
-    // Offset: 0x2AB61E4
-    void $Awake$b__21_3();
     // public System.Void .ctor()
-    // Offset: 0x2AB6190
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1495260
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UIKeyboard* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::UIKeyboard::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UIKeyboard*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x1494798
+    void Awake();
+    // private System.Void <Awake>b__21_0()
+    // Offset: 0x1495268
+    void $Awake$b__21_0();
+    // private System.Void <Awake>b__21_1()
+    // Offset: 0x149527C
+    void $Awake$b__21_1();
+    // private System.Void <Awake>b__21_2()
+    // Offset: 0x1495298
+    void $Awake$b__21_2();
+    // private System.Void <Awake>b__21_3()
+    // Offset: 0x14952B4
+    void $Awake$b__21_3();
   }; // UIKeyboard
   #pragma pack(pop)
   static check_size<sizeof(UIKeyboard), 81 + sizeof(bool)> __GlobalNamespace_UIKeyboardSizeCheck;
@@ -288,6 +274,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboard*), "remove_cancelButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::UIKeyboard::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::UIKeyboard::Awake
 // Il2CppName: Awake
 template<>
@@ -328,7 +318,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboard*), "<Awake>b__21_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::UIKeyboard::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

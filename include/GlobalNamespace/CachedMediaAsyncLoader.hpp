@@ -57,15 +57,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::CachedMediaAsyncLoader::$LoadSpriteAsync$d__3
     struct $LoadSpriteAsync$d__3;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _maxNumberOfSpriteCachedElements
     // Size: 0x4
     // Offset: 0x18
@@ -88,34 +80,32 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _maxNumberOfSpriteCachedElements
-    int& dyn__maxNumberOfSpriteCachedElements();
+    [[deprecated("Use field access instead!")]] int& dyn__maxNumberOfSpriteCachedElements();
     // Get instance field reference: private AsyncCachedLoader`2<System.String,UnityEngine.Sprite> _spriteAsyncCachedLoader
-    ::GlobalNamespace::AsyncCachedLoader_2<::StringW, ::UnityEngine::Sprite*>*& dyn__spriteAsyncCachedLoader();
-    // public System.Void ClearCache()
-    // Offset: 0x1350B0C
-    void ClearCache();
-    // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> LoadSpriteAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1350B6C
-    ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* LoadSpriteAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AsyncCachedLoader_2<::StringW, ::UnityEngine::Sprite*>*& dyn__spriteAsyncCachedLoader();
     // public System.Void .ctor()
-    // Offset: 0x1350C80
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1339EC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CachedMediaAsyncLoader* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CachedMediaAsyncLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CachedMediaAsyncLoader*, creationType>()));
     }
+    // public System.Void ClearCache()
+    // Offset: 0x1339D54
+    void ClearCache();
+    // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> LoadSpriteAsync(System.String path, System.Threading.CancellationToken cancellationToken)
+    // Offset: 0x1339DB4
+    ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* LoadSpriteAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
   }; // CachedMediaAsyncLoader
   #pragma pack(pop)
   static check_size<sizeof(CachedMediaAsyncLoader), 32 + sizeof(::GlobalNamespace::AsyncCachedLoader_2<::StringW, ::UnityEngine::Sprite*>*)> __GlobalNamespace_CachedMediaAsyncLoaderSizeCheck;
   static_assert(sizeof(CachedMediaAsyncLoader) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::CachedMediaAsyncLoader::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CachedMediaAsyncLoader::ClearCache
 // Il2CppName: ClearCache
 template<>
@@ -134,7 +124,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CachedMediaAsyncLoader*), "LoadSpriteAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path, cancellationToken});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CachedMediaAsyncLoader::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

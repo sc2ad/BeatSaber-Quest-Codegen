@@ -33,25 +33,27 @@ namespace UnityEngine::TestTools {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestCommandPcHelper : public ::Il2CppObject {
     public:
-    // public System.Void SetEnumeratorPC(System.Collections.IEnumerator enumerator, System.Int32 pc)
-    // Offset: 0x194DCAC
-    void SetEnumeratorPC(::System::Collections::IEnumerator* enumerator, int pc);
-    // public System.Int32 GetEnumeratorPC(System.Collections.IEnumerator enumerator)
-    // Offset: 0x194DCB0
-    int GetEnumeratorPC(::System::Collections::IEnumerator* enumerator);
     // public System.Void .ctor()
-    // Offset: 0x194DCB8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x198568C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestCommandPcHelper* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestCommandPcHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestCommandPcHelper*, creationType>()));
     }
+    // public System.Void SetEnumeratorPC(System.Collections.IEnumerator enumerator, System.Int32 pc)
+    // Offset: 0x1985680
+    void SetEnumeratorPC(::System::Collections::IEnumerator* enumerator, int pc);
+    // public System.Int32 GetEnumeratorPC(System.Collections.IEnumerator enumerator)
+    // Offset: 0x1985684
+    int GetEnumeratorPC(::System::Collections::IEnumerator* enumerator);
   }; // UnityEngine.TestTools.TestCommandPcHelper
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestCommandPcHelper::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestCommandPcHelper::SetEnumeratorPC
 // Il2CppName: SetEnumeratorPC
 template<>
@@ -71,7 +73,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestCommandPcHelper*), "GetEnumeratorPC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumerator});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestTools::TestCommandPcHelper::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

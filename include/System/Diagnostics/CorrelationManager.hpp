@@ -34,20 +34,18 @@ namespace System::Diagnostics {
   class CorrelationManager : public ::Il2CppObject {
     public:
     // public System.Collections.Stack get_LogicalOperationStack()
-    // Offset: 0x1CA72F4
+    // Offset: 0x1CE384C
     ::System::Collections::Stack* get_LogicalOperationStack();
-    // private System.Collections.Stack GetLogicalOperationStack()
-    // Offset: 0x1CA72F8
-    ::System::Collections::Stack* GetLogicalOperationStack();
     // System.Void .ctor()
-    // Offset: 0x1CA72EC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1CE3844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CorrelationManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::CorrelationManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CorrelationManager*, creationType>()));
     }
+    // private System.Collections.Stack GetLogicalOperationStack()
+    // Offset: 0x1CE3850
+    ::System::Collections::Stack* GetLogicalOperationStack();
   }; // System.Diagnostics.CorrelationManager
   #pragma pack(pop)
 }
@@ -60,6 +58,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::CorrelationManager*), "get_LogicalOperationStack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Diagnostics::CorrelationManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Diagnostics::CorrelationManager::GetLogicalOperationStack
 // Il2CppName: GetLogicalOperationStack
 template<>
@@ -68,7 +70,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::CorrelationManager*), "GetLogicalOperationStack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Diagnostics::CorrelationManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

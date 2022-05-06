@@ -50,15 +50,7 @@ namespace MasterServer {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
     char ___base_padding[0x4] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String <dedicatedServerId>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -97,55 +89,54 @@ namespace MasterServer {
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // Get instance field reference: private System.String <dedicatedServerId>k__BackingField
-    ::StringW& dyn_$dedicatedServerId$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$dedicatedServerId$k__BackingField();
     // Get instance field reference: private System.Int64 <dedicatedServerCreationTime>k__BackingField
-    int64_t& dyn_$dedicatedServerCreationTime$k__BackingField();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_$dedicatedServerCreationTime$k__BackingField();
     // Get instance field reference: public System.String id
-    ::StringW& dyn_id();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_id();
     // Get instance field reference: public System.Int32 currentPlayerCount
-    int& dyn_currentPlayerCount();
+    [[deprecated("Use field access instead!")]] int& dyn_currentPlayerCount();
     // Get instance field reference: public GameStateType gameState
-    ::GlobalNamespace::GameStateType& dyn_gameState();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameStateType& dyn_gameState();
     // static public PacketPool`1<MasterServer.DedicatedServerInstanceStatusUpdateRequest> get_pool()
-    // Offset: 0x164DF28
+    // Offset: 0x1684838
     static ::GlobalNamespace::PacketPool_1<::MasterServer::DedicatedServerInstanceStatusUpdateRequest*>* get_pool();
     // public System.String get_dedicatedServerId()
-    // Offset: 0x164DF70
+    // Offset: 0x1684880
     ::StringW get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x164DF78
+    // Offset: 0x1684888
     void set_dedicatedServerId(::StringW value);
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x164DF80
+    // Offset: 0x1684890
     int64_t get_dedicatedServerCreationTime();
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x164DF88
+    // Offset: 0x1684898
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.DedicatedServerInstanceStatusUpdateRequest Init(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.String id, GameStateType gameState, System.Int32 currentPlayerCount)
-    // Offset: 0x164E0E8
+    // Offset: 0x16849F8
     ::MasterServer::DedicatedServerInstanceStatusUpdateRequest* Init(::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, ::StringW id, ::GlobalNamespace::GameStateType gameState, int currentPlayerCount);
     // public System.Void .ctor()
-    // Offset: 0x164E0F8
+    // Offset: 0x1684A08
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DedicatedServerInstanceStatusUpdateRequest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::MasterServer::DedicatedServerInstanceStatusUpdateRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DedicatedServerInstanceStatusUpdateRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x164DF90
+    // Offset: 0x16848A0
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x164E00C
+    // Offset: 0x168491C
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x164E08C
+    // Offset: 0x168499C
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Release()
     void Release();

@@ -103,26 +103,26 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public LevelBar <>4__this
-    ::GlobalNamespace::LevelBar*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelBar*& dyn_$$4__this();
     // Get instance field reference: public IPreviewBeatmapLevel previewBeatmapLevel
-    ::GlobalNamespace::IPreviewBeatmapLevel*& dyn_previewBeatmapLevel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPreviewBeatmapLevel*& dyn_previewBeatmapLevel();
     // Get instance field reference: public BeatmapDifficulty beatmapDifficulty
-    ::GlobalNamespace::BeatmapDifficulty& dyn_beatmapDifficulty();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficulty& dyn_beatmapDifficulty();
     // Get instance field reference: public BeatmapCharacteristicSO beatmapCharacteristic
-    ::GlobalNamespace::BeatmapCharacteristicSO*& dyn_beatmapCharacteristic();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCharacteristicSO*& dyn_beatmapCharacteristic();
     // Get instance field reference: private System.Threading.CancellationToken <cancellationToken>5__2
-    ::System::Threading::CancellationToken& dyn_$cancellationToken$5__2();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationToken& dyn_$cancellationToken$5__2();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<UnityEngine.Sprite> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite*>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x13B8D58
+    // Offset: 0x13B4204
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x13B9680
+    // Offset: 0x13B4B2C
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LevelBar/<Setup>d__17
   // WARNING Not writing size check since size may be invalid!

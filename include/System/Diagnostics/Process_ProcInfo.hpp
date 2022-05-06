@@ -77,19 +77,19 @@ namespace System::Diagnostics {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.IntPtr process_handle
-    ::System::IntPtr& dyn_process_handle();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_process_handle();
     // Get instance field reference: public System.Int32 pid
-    int& dyn_pid();
+    [[deprecated("Use field access instead!")]] int& dyn_pid();
     // Get instance field reference: public System.String[] envVariables
-    ::ArrayW<::StringW>& dyn_envVariables();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_envVariables();
     // Get instance field reference: public System.String UserName
-    ::StringW& dyn_UserName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_UserName();
     // Get instance field reference: public System.String Domain
-    ::StringW& dyn_Domain();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Domain();
     // Get instance field reference: public System.IntPtr Password
-    ::System::IntPtr& dyn_Password();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Password();
     // Get instance field reference: public System.Boolean LoadUserProfile
-    bool& dyn_LoadUserProfile();
+    [[deprecated("Use field access instead!")]] bool& dyn_LoadUserProfile();
   }; // System.Diagnostics.Process/System.Diagnostics.ProcInfo
   #pragma pack(pop)
   static check_size<sizeof(Process::ProcInfo), 48 + sizeof(bool)> __System_Diagnostics_Process_ProcInfoSizeCheck;

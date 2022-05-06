@@ -143,20 +143,12 @@ namespace MasterServer {
       // Set static field: static public MasterServer.ConnectToServerResponse/MasterServer.Result UnknownError
       static void _set_UnknownError(::MasterServer::ConnectToServerResponse::Result value);
       // Get instance field reference: public System.Byte value__
-      uint8_t& dyn_value__();
+      [[deprecated("Use field access instead!")]] uint8_t& dyn_value__();
     }; // MasterServer.ConnectToServerResponse/MasterServer.Result
     #pragma pack(pop)
     static check_size<sizeof(ConnectToServerResponse::Result), 0 + sizeof(uint8_t)> __MasterServer_ConnectToServerResponse_ResultSizeCheck;
     static_assert(sizeof(ConnectToServerResponse::Result) == 0x1);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public MasterServer.ConnectToServerResponse/MasterServer.Result result
     // Size: 0x1
     // Offset: 0x18
@@ -245,75 +237,74 @@ namespace MasterServer {
       return *reinterpret_cast<::MasterServer::IUserMasterServerServerToClientMessage*>(this);
     }
     // Get instance field reference: public MasterServer.ConnectToServerResponse/MasterServer.Result result
-    ::MasterServer::ConnectToServerResponse::Result& dyn_result();
+    [[deprecated("Use field access instead!")]] ::MasterServer::ConnectToServerResponse::Result& dyn_result();
     // Get instance field reference: public System.String userId
-    ::StringW& dyn_userId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_userId();
     // Get instance field reference: public System.String userName
-    ::StringW& dyn_userName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_userName();
     // Get instance field reference: public System.String secret
-    ::StringW& dyn_secret();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_secret();
     // Get instance field reference: public System.String code
-    ::StringW& dyn_code();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_code();
     // Get instance field reference: public BeatmapLevelSelectionMask selectionMask
-    ::GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
     // Get instance field reference: public System.Boolean isConnectionOwner
-    bool& dyn_isConnectionOwner();
+    [[deprecated("Use field access instead!")]] bool& dyn_isConnectionOwner();
     // Get instance field reference: public System.Boolean isDedicatedServer
-    bool& dyn_isDedicatedServer();
+    [[deprecated("Use field access instead!")]] bool& dyn_isDedicatedServer();
     // Get instance field reference: public System.Net.IPEndPoint remoteEndPoint
-    ::System::Net::IPEndPoint*& dyn_remoteEndPoint();
+    [[deprecated("Use field access instead!")]] ::System::Net::IPEndPoint*& dyn_remoteEndPoint();
     // Get instance field reference: public readonly ByteArrayNetSerializable random
-    ::GlobalNamespace::ByteArrayNetSerializable*& dyn_random();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ByteArrayNetSerializable*& dyn_random();
     // Get instance field reference: public readonly ByteArrayNetSerializable publicKey
-    ::GlobalNamespace::ByteArrayNetSerializable*& dyn_publicKey();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ByteArrayNetSerializable*& dyn_publicKey();
     // Get instance field reference: public GameplayServerConfiguration configuration
-    ::GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
     // Get instance field reference: public System.String managerId
-    ::StringW& dyn_managerId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_managerId();
     // static public IPacketPool`1<MasterServer.ConnectToServerResponse> get_pool()
-    // Offset: 0x164CC54
+    // Offset: 0x1683564
     static ::GlobalNamespace::IPacketPool_1<::MasterServer::ConnectToServerResponse*>* get_pool();
     // protected System.UInt32 get_version()
-    // Offset: 0x164CD34
+    // Offset: 0x1683644
     uint get_version();
     // public MasterServer.ConnectToServerResponse InitForFailure(MasterServer.ConnectToServerResponse/MasterServer.Result result)
-    // Offset: 0x164CD3C
+    // Offset: 0x168364C
     ::MasterServer::ConnectToServerResponse* InitForFailure(::MasterServer::ConnectToServerResponse::Result result);
     // public MasterServer.ConnectToServerResponse InitForSuccess(System.String userId, System.String userName, System.String secret, System.String code, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.Boolean isConnectionOwner, System.Boolean isDedicatedServer, System.Net.IPEndPoint remoteEndPoint, System.Byte[] random, System.Byte[] publicKey, System.String managerId)
-    // Offset: 0x164CDD4
+    // Offset: 0x16836E4
     ::MasterServer::ConnectToServerResponse* InitForSuccess(::StringW userId, ::StringW userName, ::StringW secret, ::StringW code, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration, bool isConnectionOwner, bool isDedicatedServer, ::System::Net::IPEndPoint* remoteEndPoint, ::ArrayW<uint8_t> random, ::ArrayW<uint8_t> publicKey, ::StringW managerId);
     // public override System.Byte get_resultCode()
-    // Offset: 0x164CC9C
+    // Offset: 0x16835AC
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Byte BaseReliableResponse::get_resultCode()
     uint8_t get_resultCode();
     // public override System.String get_resultCodeString()
-    // Offset: 0x164CCA4
+    // Offset: 0x16835B4
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.String BaseReliableResponse::get_resultCodeString()
     ::StringW get_resultCodeString();
     // public System.Void .ctor()
-    // Offset: 0x164D1D4
+    // Offset: 0x1683AE4
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectToServerResponse* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::MasterServer::ConnectToServerResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectToServerResponse*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x164CE6C
+    // Offset: 0x168377C
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x164CFAC
+    // Offset: 0x16838BC
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x164D0F8
+    // Offset: 0x1683A08
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Release()
     void Release();

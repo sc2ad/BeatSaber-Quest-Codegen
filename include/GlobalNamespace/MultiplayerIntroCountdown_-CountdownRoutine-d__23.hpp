@@ -26,15 +26,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MultiplayerIntroCountdown::$CountdownRoutine$d__23 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -85,40 +77,40 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Object <>2__current
-    ::Il2CppObject*& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$$2__current();
     // Get instance field reference: public MultiplayerIntroCountdown <>4__this
-    ::GlobalNamespace::MultiplayerIntroCountdown*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerIntroCountdown*& dyn_$$4__this();
     // Get instance field reference: public System.Single delay
-    float& dyn_delay();
+    [[deprecated("Use field access instead!")]] float& dyn_delay();
     // Get instance field reference: public System.Single seconds
-    float& dyn_seconds();
+    [[deprecated("Use field access instead!")]] float& dyn_seconds();
     // Get instance field reference: public System.Single durationMultiplier
-    float& dyn_durationMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn_durationMultiplier();
     // Get instance field reference: private System.Single <soundDelayAfterText>5__2
-    float& dyn_$soundDelayAfterText$5__2();
+    [[deprecated("Use field access instead!")]] float& dyn_$soundDelayAfterText$5__2();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x13F4BA4
+    // Offset: 0x1401644
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x13F4C0C
+    // Offset: 0x14016AC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x13F4350
+    // Offset: 0x1400DF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerIntroCountdown::$CountdownRoutine$d__23* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerIntroCountdown::$CountdownRoutine$d__23::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerIntroCountdown::$CountdownRoutine$d__23*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x13F4874
+    // Offset: 0x1401314
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x13F4878
+    // Offset: 0x1401318
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x13F4BAC
+    // Offset: 0x140164C
     void System_Collections_IEnumerator_Reset();
   }; // MultiplayerIntroCountdown/<CountdownRoutine>d__23
   #pragma pack(pop)

@@ -38,15 +38,7 @@ namespace HMUI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class NavigationController::$$c__DisplayClass10_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single[] startPositions
     // Size: 0x8
     // Offset: 0x10
@@ -73,31 +65,33 @@ namespace HMUI {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public System.Single[] startPositions
-    ::ArrayW<float>& dyn_startPositions();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn_startPositions();
     // Get instance field reference: public HMUI.NavigationController <>4__this
-    ::HMUI::NavigationController*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::HMUI::NavigationController*& dyn_$$4__this();
     // Get instance field reference: public System.Single[] endPositions
-    ::ArrayW<float>& dyn_endPositions();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn_endPositions();
     // Get instance field reference: public System.Single moveOffset
-    float& dyn_moveOffset();
-    // System.Void <PopViewControllers>g__AnimationLayouter|0(System.Single t, HMUI.ViewController[] viewControllers, System.Collections.Generic.HashSet`1<HMUI.ViewController> removingViewControllers)
-    // Offset: 0x16858B4
-    void $PopViewControllers$g__AnimationLayouter_0(float t, ::ArrayW<::HMUI::ViewController*> viewControllers, ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>* removingViewControllers);
+    [[deprecated("Use field access instead!")]] float& dyn_moveOffset();
     // public System.Void .ctor()
-    // Offset: 0x168589C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16BC1AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NavigationController::$$c__DisplayClass10_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::NavigationController::$$c__DisplayClass10_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NavigationController::$$c__DisplayClass10_0*, creationType>()));
     }
+    // System.Void <PopViewControllers>g__AnimationLayouter|0(System.Single t, HMUI.ViewController[] viewControllers, System.Collections.Generic.HashSet`1<HMUI.ViewController> removingViewControllers)
+    // Offset: 0x16BC1C4
+    void $PopViewControllers$g__AnimationLayouter_0(float t, ::ArrayW<::HMUI::ViewController*> viewControllers, ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>* removingViewControllers);
   }; // HMUI.NavigationController/HMUI.<>c__DisplayClass10_0
   #pragma pack(pop)
   static check_size<sizeof(NavigationController::$$c__DisplayClass10_0), 40 + sizeof(float)> __HMUI_NavigationController_$$c__DisplayClass10_0SizeCheck;
   static_assert(sizeof(NavigationController::$$c__DisplayClass10_0) == 0x2C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HMUI::NavigationController::$$c__DisplayClass10_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::NavigationController::$$c__DisplayClass10_0::$PopViewControllers$g__AnimationLayouter_0
 // Il2CppName: <PopViewControllers>g__AnimationLayouter|0
 template<>
@@ -109,7 +103,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::NavigationController::$$c__DisplayClass10_0*), "<PopViewControllers>g__AnimationLayouter|0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t, viewControllers, removingViewControllers});
   }
 };
-// Writing MetadataGetter for method: HMUI::NavigationController::$$c__DisplayClass10_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

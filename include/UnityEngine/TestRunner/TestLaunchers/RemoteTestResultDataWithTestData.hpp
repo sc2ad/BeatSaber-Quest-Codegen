@@ -36,15 +36,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   // [TokenAttribute] Offset: FFFFFFFF
   class RemoteTestResultDataWithTestData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData[] results
     // Size: 0x8
     // Offset: 0x10
@@ -59,13 +51,11 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     static_assert(sizeof(::ArrayW<::UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData[] results
-    ::ArrayW<::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>& dyn_results();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>& dyn_results();
     // Get instance field reference: public UnityEngine.TestRunner.TestLaunchers.RemoteTestData[] tests
-    ::ArrayW<::UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>& dyn_tests();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>& dyn_tests();
     // public System.Void .ctor()
-    // Offset: 0x19472BC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x197F3AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteTestResultDataWithTestData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData::.ctor");

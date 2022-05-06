@@ -61,15 +61,7 @@ namespace NUnit::Framework::Internal {
     class ArgListFragment;
     // Nested type: ::NUnit::Framework::Internal::TestNameGenerator::ArgumentFragment
     class ArgumentFragment;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _pattern
     // Size: 0x8
     // Offset: 0x10
@@ -88,40 +80,42 @@ namespace NUnit::Framework::Internal {
     // Set static field: static public System.String DefaultTestNamePattern
     static void _set_DefaultTestNamePattern(::StringW value);
     // Get instance field reference: private System.String _pattern
-    ::StringW& dyn__pattern();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__pattern();
     // Get instance field reference: private System.Collections.Generic.List`1<NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.NameFragment> _fragments
-    ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::TestNameGenerator::NameFragment*>*& dyn__fragments();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::TestNameGenerator::NameFragment*>*& dyn__fragments();
+    // public System.Void .ctor()
+    // Offset: 0x2A0E6F8
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static TestNameGenerator* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestNameGenerator::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator*, creationType>()));
+    }
     // public System.Void .ctor(System.String pattern)
-    // Offset: 0x29B277C
+    // Offset: 0x2A0E774
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestNameGenerator* New_ctor(::StringW pattern) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestNameGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator*, creationType>(pattern)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x29B3120
+    // Offset: 0x2A0F118
     static void _cctor();
     // public System.String GetDisplayName(NUnit.Framework.Internal.TestMethod testMethod, System.Object[] args)
-    // Offset: 0x29B27A8
+    // Offset: 0x2A0E7A0
     ::StringW GetDisplayName(::NUnit::Framework::Internal::TestMethod* testMethod, ::ArrayW<::Il2CppObject*> args);
     // static private System.Collections.Generic.List`1<NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.NameFragment> BuildFragmentList(System.String pattern)
-    // Offset: 0x29B2940
+    // Offset: 0x2A0E938
     static ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::TestNameGenerator::NameFragment*>* BuildFragmentList(::StringW pattern);
-    // public System.Void .ctor()
-    // Offset: 0x29B2700
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TestNameGenerator* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestNameGenerator::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator*, creationType>()));
-    }
   }; // NUnit.Framework.Internal.TestNameGenerator
   #pragma pack(pop)
   static check_size<sizeof(TestNameGenerator), 24 + sizeof(::System::Collections::Generic::List_1<::NUnit::Framework::Internal::TestNameGenerator::NameFragment*>*)> __NUnit_Framework_Internal_TestNameGeneratorSizeCheck;
   static_assert(sizeof(TestNameGenerator) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -153,7 +147,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestNameGenerator*), "BuildFragmentList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pattern});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

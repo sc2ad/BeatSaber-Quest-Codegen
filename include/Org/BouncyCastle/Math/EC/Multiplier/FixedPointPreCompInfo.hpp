@@ -37,15 +37,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   // [TokenAttribute] Offset: FFFFFFFF
   class FixedPointPreCompInfo : public ::Il2CppObject/*, public ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected Org.BouncyCastle.Math.EC.ECPoint m_offset
     // Size: 0x8
     // Offset: 0x10
@@ -70,33 +62,31 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
       return *reinterpret_cast<::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);
     }
     // Get instance field reference: protected Org.BouncyCastle.Math.EC.ECPoint m_offset
-    ::Org::BouncyCastle::Math::EC::ECPoint*& dyn_m_offset();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::EC::ECPoint*& dyn_m_offset();
     // Get instance field reference: protected Org.BouncyCastle.Math.EC.ECLookupTable m_lookupTable
-    ::Org::BouncyCastle::Math::EC::ECLookupTable*& dyn_m_lookupTable();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::EC::ECLookupTable*& dyn_m_lookupTable();
     // Get instance field reference: protected System.Int32 m_width
-    int& dyn_m_width();
+    [[deprecated("Use field access instead!")]] int& dyn_m_width();
     // public Org.BouncyCastle.Math.EC.ECLookupTable get_LookupTable()
-    // Offset: 0x228EC80
+    // Offset: 0x22D94F4
     ::Org::BouncyCastle::Math::EC::ECLookupTable* get_LookupTable();
     // public System.Void set_LookupTable(Org.BouncyCastle.Math.EC.ECLookupTable value)
-    // Offset: 0x228EC88
+    // Offset: 0x22D94FC
     void set_LookupTable(::Org::BouncyCastle::Math::EC::ECLookupTable* value);
     // public Org.BouncyCastle.Math.EC.ECPoint get_Offset()
-    // Offset: 0x228EC90
+    // Offset: 0x22D9504
     ::Org::BouncyCastle::Math::EC::ECPoint* get_Offset();
     // public System.Void set_Offset(Org.BouncyCastle.Math.EC.ECPoint value)
-    // Offset: 0x228EC98
+    // Offset: 0x22D950C
     void set_Offset(::Org::BouncyCastle::Math::EC::ECPoint* value);
     // public System.Int32 get_Width()
-    // Offset: 0x228ECA0
+    // Offset: 0x22D9514
     int get_Width();
     // public System.Void set_Width(System.Int32 value)
-    // Offset: 0x228ECA8
+    // Offset: 0x22D951C
     void set_Width(int value);
     // public System.Void .ctor()
-    // Offset: 0x228ECB0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x22D9524
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixedPointPreCompInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::.ctor");

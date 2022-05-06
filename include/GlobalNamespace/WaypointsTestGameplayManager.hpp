@@ -49,15 +49,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class WaypointsTestGameplayManager : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Vector3 _outerCapsuleStart
     // Size: 0xC
     // Offset: 0x18
@@ -76,7 +68,7 @@ namespace GlobalNamespace {
     float outerCapsuleRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x12529A4
+    // [SpaceAttribute] Offset: 0x10D7588
     // private UnityEngine.Vector3 _innerSphereOffset
     // Size: 0xC
     // Offset: 0x34
@@ -89,35 +81,35 @@ namespace GlobalNamespace {
     float innerSphereRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x12529EC
+    // [SpaceAttribute] Offset: 0x10D75D0
     // private UnityEngine.LayerMask _layersToColliderWith
     // Size: 0x4
     // Offset: 0x44
     ::UnityEngine::LayerMask layersToColliderWith;
     // Field size check
     static_assert(sizeof(::UnityEngine::LayerMask) == 0x4);
-    // [InjectAttribute] Offset: 0x1252A24
+    // [InjectAttribute] Offset: 0x10D7608
     // private readonly BTSCharacterSpawnController _characterSpawnController
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::BTSCharacterSpawnController* characterSpawnController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BTSCharacterSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252A34
+    // [InjectAttribute] Offset: 0x10D7618
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::IAudioTimeSource* audioTimeSource;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252A44
+    // [InjectAttribute] Offset: 0x10D7628
     // private readonly StandardGameplaySceneSetupData _standardSceneSetupData
     // Size: 0x8
     // Offset: 0x58
     ::GlobalNamespace::StandardGameplaySceneSetupData* standardSceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::StandardGameplaySceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252A54
+    // [InjectAttribute] Offset: 0x10D7638
     // private readonly GameplayCoreSceneSetupData _levelSceneSetupData
     // Size: 0x8
     // Offset: 0x60
@@ -184,77 +176,75 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Vector3 _outerCapsuleStart
-    ::UnityEngine::Vector3& dyn__outerCapsuleStart();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__outerCapsuleStart();
     // Get instance field reference: private UnityEngine.Vector3 _outerCapsuleEnd
-    ::UnityEngine::Vector3& dyn__outerCapsuleEnd();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__outerCapsuleEnd();
     // Get instance field reference: private System.Single _outerCapsuleRadius
-    float& dyn__outerCapsuleRadius();
+    [[deprecated("Use field access instead!")]] float& dyn__outerCapsuleRadius();
     // Get instance field reference: private UnityEngine.Vector3 _innerSphereOffset
-    ::UnityEngine::Vector3& dyn__innerSphereOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__innerSphereOffset();
     // Get instance field reference: private System.Single _innerSphereRadius
-    float& dyn__innerSphereRadius();
+    [[deprecated("Use field access instead!")]] float& dyn__innerSphereRadius();
     // Get instance field reference: private UnityEngine.LayerMask _layersToColliderWith
-    ::UnityEngine::LayerMask& dyn__layersToColliderWith();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::LayerMask& dyn__layersToColliderWith();
     // Get instance field reference: private readonly BTSCharacterSpawnController _characterSpawnController
-    ::GlobalNamespace::BTSCharacterSpawnController*& dyn__characterSpawnController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BTSCharacterSpawnController*& dyn__characterSpawnController();
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
-    ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // Get instance field reference: private readonly StandardGameplaySceneSetupData _standardSceneSetupData
-    ::GlobalNamespace::StandardGameplaySceneSetupData*& dyn__standardSceneSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::StandardGameplaySceneSetupData*& dyn__standardSceneSetupData();
     // Get instance field reference: private readonly GameplayCoreSceneSetupData _levelSceneSetupData
-    ::GlobalNamespace::GameplayCoreSceneSetupData*& dyn__levelSceneSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayCoreSceneSetupData*& dyn__levelSceneSetupData();
     // Get instance field reference: private UnityEngine.Transform _target
-    ::UnityEngine::Transform*& dyn__target();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__target();
     // Get instance field reference: private System.Boolean _firstPosSaved
-    bool& dyn__firstPosSaved();
+    [[deprecated("Use field access instead!")]] bool& dyn__firstPosSaved();
     // Get instance field reference: private System.Boolean _speedSaved
-    bool& dyn__speedSaved();
+    [[deprecated("Use field access instead!")]] bool& dyn__speedSaved();
     // Get instance field reference: private UnityEngine.Vector3 _lastFramePos
-    ::UnityEngine::Vector3& dyn__lastFramePos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__lastFramePos();
     // Get instance field reference: private System.Single _lastFrameSpeed
-    float& dyn__lastFrameSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__lastFrameSpeed();
     // Get instance field reference: private System.Single _biggestFrameSpeed
-    float& dyn__biggestFrameSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__biggestFrameSpeed();
     // Get instance field reference: private System.Single _biggestFrameSpeedSongTime
-    float& dyn__biggestFrameSpeedSongTime();
+    [[deprecated("Use field access instead!")]] float& dyn__biggestFrameSpeedSongTime();
     // Get instance field reference: private System.Single _biggestAcceleration
-    float& dyn__biggestAcceleration();
+    [[deprecated("Use field access instead!")]] float& dyn__biggestAcceleration();
     // Get instance field reference: private System.Single _biggestAccelerationSongTime
-    float& dyn__biggestAccelerationSongTime();
-    // protected System.Void Start()
-    // Offset: 0x2AC5434
-    void Start();
-    // protected System.Void LateUpdate()
-    // Offset: 0x2AC5474
-    void LateUpdate();
-    // protected System.Void OnDestroy()
-    // Offset: 0x2AC69CC
-    void OnDestroy();
-    // private System.String GetBar(System.Single songTime)
-    // Offset: 0x2AC67C4
-    ::StringW GetBar(float songTime);
-    // protected System.Void OnDrawGizmos()
-    // Offset: 0x2AC6F10
-    void OnDrawGizmos();
+    [[deprecated("Use field access instead!")]] float& dyn__biggestAccelerationSongTime();
     // public System.Void .ctor()
-    // Offset: 0x2AC71FC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A30FC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WaypointsTestGameplayManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::WaypointsTestGameplayManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WaypointsTestGameplayManager*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x2A2F200
+    void Start();
+    // protected System.Void LateUpdate()
+    // Offset: 0x2A2F240
+    void LateUpdate();
+    // protected System.Void OnDestroy()
+    // Offset: 0x2A30798
+    void OnDestroy();
+    // private System.String GetBar(System.Single songTime)
+    // Offset: 0x2A30590
+    ::StringW GetBar(float songTime);
+    // protected System.Void OnDrawGizmos()
+    // Offset: 0x2A30CDC
+    void OnDrawGizmos();
   }; // WaypointsTestGameplayManager
   #pragma pack(pop)
   static check_size<sizeof(WaypointsTestGameplayManager), 144 + sizeof(float)> __GlobalNamespace_WaypointsTestGameplayManagerSizeCheck;
   static_assert(sizeof(WaypointsTestGameplayManager) == 0x94);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::WaypointsTestGameplayManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::WaypointsTestGameplayManager::Start
 // Il2CppName: Start
 template<>
@@ -296,7 +286,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestGameplayManager*), "OnDrawGizmos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::WaypointsTestGameplayManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

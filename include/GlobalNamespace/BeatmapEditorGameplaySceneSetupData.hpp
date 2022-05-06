@@ -28,15 +28,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapEditorGameplaySceneSetupData : public ::GlobalNamespace::SceneSetupData {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Boolean useFirstPersonFlyingController
     // Size: 0x1
     // Offset: 0x10
@@ -57,13 +49,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public readonly System.Boolean useFirstPersonFlyingController
-    bool& dyn_useFirstPersonFlyingController();
+    [[deprecated("Use field access instead!")]] bool& dyn_useFirstPersonFlyingController();
     // Get instance field reference: public readonly System.Boolean recordVRMovement
-    bool& dyn_recordVRMovement();
+    [[deprecated("Use field access instead!")]] bool& dyn_recordVRMovement();
     // Get instance field reference: public readonly System.Boolean playVRMovement
-    bool& dyn_playVRMovement();
+    [[deprecated("Use field access instead!")]] bool& dyn_playVRMovement();
     // public System.Void .ctor(System.Boolean useFirstPersonFlyingController, System.Boolean recordVRMovement, System.Boolean playVRMovement)
-    // Offset: 0x14C6A90
+    // Offset: 0x14FE398
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEditorGameplaySceneSetupData* New_ctor(bool useFirstPersonFlyingController, bool recordVRMovement, bool playVRMovement) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEditorGameplaySceneSetupData::.ctor");

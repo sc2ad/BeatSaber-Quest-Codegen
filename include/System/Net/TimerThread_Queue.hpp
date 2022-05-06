@@ -23,15 +23,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimerThread::Queue : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Int32 m_DurationMilliseconds
     // Size: 0x4
     // Offset: 0x10
@@ -44,9 +36,9 @@ namespace System::Net {
       return m_DurationMilliseconds;
     }
     // Get instance field reference: private readonly System.Int32 m_DurationMilliseconds
-    int& dyn_m_DurationMilliseconds();
+    [[deprecated("Use field access instead!")]] int& dyn_m_DurationMilliseconds();
     // System.Void .ctor(System.Int32 durationMilliseconds)
-    // Offset: 0x1B14FC0
+    // Offset: 0x1B4F5A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimerThread::Queue* New_ctor(int durationMilliseconds) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::TimerThread::Queue::.ctor");

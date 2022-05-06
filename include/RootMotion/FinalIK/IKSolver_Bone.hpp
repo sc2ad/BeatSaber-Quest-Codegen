@@ -38,15 +38,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKSolver::Bone : public ::RootMotion::FinalIK::IKSolver::Point {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single length
     // Size: 0x4
     // Offset: 0x54
@@ -79,52 +71,51 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.Single length
-    float& dyn_length();
+    [[deprecated("Use field access instead!")]] float& dyn_length();
     // Get instance field reference: public System.Single sqrMag
-    float& dyn_sqrMag();
+    [[deprecated("Use field access instead!")]] float& dyn_sqrMag();
     // Get instance field reference: public UnityEngine.Vector3 axis
-    ::UnityEngine::Vector3& dyn_axis();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_axis();
     // Get instance field reference: private RootMotion.FinalIK.RotationLimit _rotationLimit
-    ::RootMotion::FinalIK::RotationLimit*& dyn__rotationLimit();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::RotationLimit*& dyn__rotationLimit();
     // Get instance field reference: private System.Boolean isLimited
-    bool& dyn_isLimited();
+    [[deprecated("Use field access instead!")]] bool& dyn_isLimited();
     // public RootMotion.FinalIK.RotationLimit get_rotationLimit()
-    // Offset: 0x21DD9AC
+    // Offset: 0x222B220
     ::RootMotion::FinalIK::RotationLimit* get_rotationLimit();
     // public System.Void set_rotationLimit(RootMotion.FinalIK.RotationLimit value)
-    // Offset: 0x21DDAA0
+    // Offset: 0x222B314
     void set_rotationLimit(::RootMotion::FinalIK::RotationLimit* value);
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x21DE45C
+    // Offset: 0x222BCD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolver::Bone* New_ctor(::UnityEngine::Transform* transform) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolver::Bone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolver::Bone*, creationType>(transform)));
     }
     // public System.Void .ctor(UnityEngine.Transform transform, System.Single weight)
-    // Offset: 0x21DE4F4
+    // Offset: 0x222BD68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolver::Bone* New_ctor(::UnityEngine::Transform* transform, float weight) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolver::Bone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolver::Bone*, creationType>(transform, weight)));
     }
     // public System.Void Swing(UnityEngine.Vector3 swingTarget, System.Single weight)
-    // Offset: 0x21DDB28
+    // Offset: 0x222B39C
     void Swing(::UnityEngine::Vector3 swingTarget, float weight);
     // static public System.Void SolverSwing(RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone[] bones, System.Int32 index, UnityEngine.Vector3 swingTarget, System.Single weight)
-    // Offset: 0x21DDDE8
+    // Offset: 0x222B65C
     static void SolverSwing(::ArrayW<::RootMotion::FinalIK::IKSolver::Bone*> bones, int index, ::UnityEngine::Vector3 swingTarget, float weight);
     // public System.Void Swing2D(UnityEngine.Vector3 swingTarget, System.Single weight)
-    // Offset: 0x21DE0C8
+    // Offset: 0x222B93C
     void Swing2D(::UnityEngine::Vector3 swingTarget, float weight);
     // public System.Void SetToSolverPosition()
-    // Offset: 0x21DE330
+    // Offset: 0x222BBA4
     void SetToSolverPosition();
     // public System.Void .ctor()
-    // Offset: 0x21DE358
+    // Offset: 0x222BBCC
     // Implemented from: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point
     // Base method: System.Void Point::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolver::Bone* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolver::Bone::.ctor");

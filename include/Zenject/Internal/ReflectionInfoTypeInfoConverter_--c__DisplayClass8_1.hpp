@@ -37,15 +37,7 @@ namespace Zenject::Internal {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ReflectionInfoTypeInfoConverter::$$c__DisplayClass8_1 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Object injectable
     // Size: 0x8
     // Offset: 0x10
@@ -60,33 +52,35 @@ namespace Zenject::Internal {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: public System.Object injectable
-    ::Il2CppObject*& dyn_injectable();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_injectable();
     // Get instance field reference: public System.Object value
-    ::Il2CppObject*& dyn_value();
-    // System.Void <GetOnlyPropertySetter>b__3(System.Reflection.FieldInfo f)
-    // Offset: 0x1BD3B68
-    void $GetOnlyPropertySetter$b__3(::System::Reflection::FieldInfo* f);
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1BD3B8C
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1BD3BE8
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_value();
     // public System.Void .ctor()
-    // Offset: 0x1BD39A4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C0DF8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionInfoTypeInfoConverter::$$c__DisplayClass8_1* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass8_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionInfoTypeInfoConverter::$$c__DisplayClass8_1*, creationType>()));
     }
+    // System.Void <GetOnlyPropertySetter>b__3(System.Reflection.FieldInfo f)
+    // Offset: 0x1C0E150
+    void $GetOnlyPropertySetter$b__3(::System::Reflection::FieldInfo* f);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1C0E174
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1C0E1D0
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.Internal.ReflectionInfoTypeInfoConverter/Zenject.Internal.<>c__DisplayClass8_1
   #pragma pack(pop)
   static check_size<sizeof(ReflectionInfoTypeInfoConverter::$$c__DisplayClass8_1), 24 + sizeof(::Il2CppObject*)> __Zenject_Internal_ReflectionInfoTypeInfoConverter_$$c__DisplayClass8_1SizeCheck;
   static_assert(sizeof(ReflectionInfoTypeInfoConverter::$$c__DisplayClass8_1) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass8_1::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass8_1::$GetOnlyPropertySetter$b__3
 // Il2CppName: <GetOnlyPropertySetter>b__3
 template<>
@@ -113,7 +107,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass8_1*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass8_1::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

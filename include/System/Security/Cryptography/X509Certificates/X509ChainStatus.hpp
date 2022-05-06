@@ -50,23 +50,23 @@ namespace System::Security::Cryptography::X509Certificates {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509ChainStatusFlags status
-    ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags& dyn_status();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags& dyn_status();
     // Get instance field reference: private System.String info
-    ::StringW& dyn_info();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_info();
     // public System.Security.Cryptography.X509Certificates.X509ChainStatusFlags get_Status()
-    // Offset: 0x1BBFE68
+    // Offset: 0x1BFA450
     ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags get_Status();
     // public System.Void set_Status(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags value)
-    // Offset: 0x1BBFE70
+    // Offset: 0x1BFA458
     void set_Status(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value);
     // public System.Void set_StatusInformation(System.String value)
-    // Offset: 0x1BBFE78
+    // Offset: 0x1BFA460
     void set_StatusInformation(::StringW value);
     // System.Void .ctor(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flag)
-    // Offset: 0x1BBCE60
+    // Offset: 0x1BF7448
     X509ChainStatus(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag);
     // static System.String GetInformation(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flags)
-    // Offset: 0x1BBB8F0
+    // Offset: 0x1BF5ED8
     static ::StringW GetInformation(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags);
   }; // System.Security.Cryptography.X509Certificates.X509ChainStatus
   #pragma pack(pop)

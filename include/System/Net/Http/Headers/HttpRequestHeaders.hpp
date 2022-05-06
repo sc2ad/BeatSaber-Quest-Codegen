@@ -40,15 +40,7 @@ namespace System::Net::Http::Headers {
     public:
     // Nested type: ::System::Net::Http::Headers::HttpRequestHeaders::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Nullable`1<System.Boolean> expectContinue
     // Size: 0xFFFFFFFF
     // Offset: 0x20
@@ -59,36 +51,35 @@ namespace System::Net::Http::Headers {
       return expectContinue;
     }
     // Get instance field reference: private System.Nullable`1<System.Boolean> expectContinue
-    ::System::Nullable_1<bool>& dyn_expectContinue();
+    [[deprecated("Use field access instead!")]] ::System::Nullable_1<bool>& dyn_expectContinue();
     // public System.Net.Http.Headers.HttpHeaderValueCollection`1<System.String> get_Connection()
-    // Offset: 0x195AEA4
+    // Offset: 0x199348C
     ::System::Net::Http::Headers::HttpHeaderValueCollection_1<::StringW>* get_Connection();
     // public System.Nullable`1<System.Boolean> get_ConnectionClose()
-    // Offset: 0x195AF00
+    // Offset: 0x19934E8
     ::System::Nullable_1<bool> get_ConnectionClose();
     // System.Boolean get_ConnectionKeepAlive()
-    // Offset: 0x195B058
+    // Offset: 0x1993640
     bool get_ConnectionKeepAlive();
     // public System.Nullable`1<System.Boolean> get_ExpectContinue()
-    // Offset: 0x195B16C
+    // Offset: 0x1993754
     ::System::Nullable_1<bool> get_ExpectContinue();
     // public System.String get_Host()
-    // Offset: 0x195B314
+    // Offset: 0x19938FC
     ::StringW get_Host();
     // public System.Net.Http.Headers.HttpHeaderValueCollection`1<System.Net.Http.Headers.TransferCodingHeaderValue> get_TransferEncoding()
-    // Offset: 0x195B2B8
+    // Offset: 0x19938A0
     ::System::Net::Http::Headers::HttpHeaderValueCollection_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>* get_TransferEncoding();
     // public System.Nullable`1<System.Boolean> get_TransferEncodingChunked()
-    // Offset: 0x195B370
+    // Offset: 0x1993958
     ::System::Nullable_1<bool> get_TransferEncodingChunked();
     // System.Void AddHeaders(System.Net.Http.Headers.HttpRequestHeaders headers)
-    // Offset: 0x195B4BC
+    // Offset: 0x1993AA4
     void AddHeaders(::System::Net::Http::Headers::HttpRequestHeaders* headers);
     // System.Void .ctor()
-    // Offset: 0x195AE34
+    // Offset: 0x199341C
     // Implemented from: System.Net.Http.Headers.HttpHeaders
     // Base method: System.Void HttpHeaders::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpRequestHeaders* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::HttpRequestHeaders::.ctor");

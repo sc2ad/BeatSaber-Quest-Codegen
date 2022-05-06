@@ -25,15 +25,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MovementBeatmapEventEffect::MovementData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Vector3 _localPositionOffset
     // Size: 0xC
     // Offset: 0x10
@@ -46,14 +38,12 @@ namespace GlobalNamespace {
       return localPositionOffset;
     }
     // Get instance field reference: private UnityEngine.Vector3 _localPositionOffset
-    ::UnityEngine::Vector3& dyn__localPositionOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__localPositionOffset();
     // public UnityEngine.Vector3 get_localPositionOffset()
-    // Offset: 0x13CAC34
+    // Offset: 0x13C70E0
     ::UnityEngine::Vector3 get_localPositionOffset();
     // public System.Void .ctor()
-    // Offset: 0x13CAC40
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13C70EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MovementBeatmapEventEffect::MovementData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MovementBeatmapEventEffect::MovementData::.ctor");

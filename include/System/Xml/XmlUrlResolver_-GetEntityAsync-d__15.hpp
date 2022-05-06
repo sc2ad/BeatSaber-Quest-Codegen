@@ -87,22 +87,22 @@ namespace System::Xml {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Object> <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppObject*>& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppObject*>& dyn_$$t__builder();
     // Get instance field reference: public System.Type ofObjectToReturn
-    ::System::Type*& dyn_ofObjectToReturn();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_ofObjectToReturn();
     // Get instance field reference: public System.Uri absoluteUri
-    ::System::Uri*& dyn_absoluteUri();
+    [[deprecated("Use field access instead!")]] ::System::Uri*& dyn_absoluteUri();
     // Get instance field reference: public System.Xml.XmlUrlResolver <>4__this
-    ::System::Xml::XmlUrlResolver*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlUrlResolver*& dyn_$$4__this();
     // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.IO.Stream> <>u__1
-    typename ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::System::IO::Stream*>::ConfiguredTaskAwaiter& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] typename ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::System::IO::Stream*>::ConfiguredTaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x26BCAA0
+    // Offset: 0x270BFB0
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x26BCDCC
+    // Offset: 0x270C2DC
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // System.Xml.XmlUrlResolver/System.Xml.<GetEntityAsync>d__15
   // WARNING Not writing size check since size may be invalid!

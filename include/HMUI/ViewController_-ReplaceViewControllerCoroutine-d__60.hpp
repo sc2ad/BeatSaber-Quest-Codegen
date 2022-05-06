@@ -37,15 +37,7 @@ namespace HMUI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ViewController::$ReplaceViewControllerCoroutine$d__60 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -96,40 +88,40 @@ namespace HMUI {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Object <>2__current
-    ::Il2CppObject*& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$$2__current();
     // Get instance field reference: public HMUI.ViewController <>4__this
-    ::HMUI::ViewController*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::HMUI::ViewController*& dyn_$$4__this();
     // Get instance field reference: public HMUI.ViewController newViewController
-    ::HMUI::ViewController*& dyn_newViewController();
+    [[deprecated("Use field access instead!")]] ::HMUI::ViewController*& dyn_newViewController();
     // Get instance field reference: public HMUI.ViewController/HMUI.AnimationType animationType
-    ::HMUI::ViewController::AnimationType& dyn_animationType();
+    [[deprecated("Use field access instead!")]] ::HMUI::ViewController::AnimationType& dyn_animationType();
     // Get instance field reference: public HMUI.ViewController/HMUI.AnimationDirection animationDirection
-    ::HMUI::ViewController::AnimationDirection& dyn_animationDirection();
+    [[deprecated("Use field access instead!")]] ::HMUI::ViewController::AnimationDirection& dyn_animationDirection();
     // Get instance field reference: public System.Action finishedCallback
-    ::System::Action*& dyn_finishedCallback();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_finishedCallback();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x29E4468
+    // Offset: 0x2A39D5C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x29E44D0
+    // Offset: 0x2A39DC4
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x29E30E8
+    // Offset: 0x2A389DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ViewController::$ReplaceViewControllerCoroutine$d__60* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ViewController::$ReplaceViewControllerCoroutine$d__60::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ViewController::$ReplaceViewControllerCoroutine$d__60*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x29E41FC
+    // Offset: 0x2A39AF0
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x29E4200
+    // Offset: 0x2A39AF4
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x29E4470
+    // Offset: 0x2A39D64
     void System_Collections_IEnumerator_Reset();
   }; // HMUI.ViewController/HMUI.<ReplaceViewControllerCoroutine>d__60
   #pragma pack(pop)

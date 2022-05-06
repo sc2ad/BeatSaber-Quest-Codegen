@@ -61,65 +61,57 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLocalActiveClient : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x1253D9C
+    // [InjectAttribute] Offset: 0x10D8980
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253DAC
+    // [InjectAttribute] Offset: 0x10D8990
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253DBC
+    // [InjectAttribute] Offset: 0x10D89A0
     // private readonly IScoreSyncStateManager _scoreSyncStateManager
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::IScoreSyncStateManager* scoreSyncStateManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IScoreSyncStateManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253DCC
+    // [InjectAttribute] Offset: 0x10D89B0
     // private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::INodePoseSyncStateManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253DDC
+    // [InjectAttribute] Offset: 0x10D89C0
     // private readonly IGameplayRpcManager _rpcManager
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::IGameplayRpcManager* rpcManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IGameplayRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253DEC
+    // [InjectAttribute] Offset: 0x10D89D0
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253DFC
+    // [InjectAttribute] Offset: 0x10D89E0
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253E0C
+    // [InjectAttribute] Offset: 0x10D89F0
     // private readonly ComboController _comboController
     // Size: 0x8
     // Offset: 0x50
@@ -130,73 +122,71 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly PlayerTransforms _playerTransforms
-    ::GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
     // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
-    ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // Get instance field reference: private readonly IScoreSyncStateManager _scoreSyncStateManager
-    ::GlobalNamespace::IScoreSyncStateManager*& dyn__scoreSyncStateManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IScoreSyncStateManager*& dyn__scoreSyncStateManager();
     // Get instance field reference: private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
-    ::GlobalNamespace::INodePoseSyncStateManager*& dyn__nodePoseSyncStateManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::INodePoseSyncStateManager*& dyn__nodePoseSyncStateManager();
     // Get instance field reference: private readonly IGameplayRpcManager _rpcManager
-    ::GlobalNamespace::IGameplayRpcManager*& dyn__rpcManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IGameplayRpcManager*& dyn__rpcManager();
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
-    ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // Get instance field reference: private readonly IScoreController _scoreController
-    ::GlobalNamespace::IScoreController*& dyn__scoreController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IScoreController*& dyn__scoreController();
     // Get instance field reference: private readonly ComboController _comboController
-    ::GlobalNamespace::ComboController*& dyn__comboController();
-    // protected System.Void Start()
-    // Offset: 0x13FDCEC
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13FE36C
-    void OnDestroy();
-    // protected System.Void LateUpdate()
-    // Offset: 0x13FE70C
-    void LateUpdate();
-    // private System.Void HandleNoteWasAdded(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation)
-    // Offset: 0x13FEA94
-    void HandleNoteWasAdded(::GlobalNamespace::NoteData* noteData, ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation);
-    // private System.Void HandleObstacleWasAdded(ObstacleData obstacleData, BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
-    // Offset: 0x13FEC98
-    void HandleObstacleWasAdded(::GlobalNamespace::ObstacleData* obstacleData, ::GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData obstacleSpawnData, float rotation);
-    // private System.Void HandleSliderWasAdded(SliderData sliderData, BeatmapObjectSpawnMovementData/SliderSpawnData sliderSpawnData, System.Single rotation)
-    // Offset: 0x13FEE5C
-    void HandleSliderWasAdded(::GlobalNamespace::SliderData* sliderData, ::GlobalNamespace::BeatmapObjectSpawnMovementData::SliderSpawnData sliderSpawnData, float rotation);
-    // private System.Void HandleNoteWasMissed(NoteController noteController)
-    // Offset: 0x13FF11C
-    void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
-    // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x13FF234
-    void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
-    // private System.Void HandleComboDidChange(System.Int32 combo)
-    // Offset: 0x13FF404
-    void HandleComboDidChange(int combo);
-    // private System.Void HandleMultiplierDidChange(System.Int32 multiplier, System.Single multiplierProgress)
-    // Offset: 0x13FF4EC
-    void HandleMultiplierDidChange(int multiplier, float multiplierProgress);
-    // private System.Void HandleScoreDidChange(System.Int32 multipliedScore, System.Int32 modifiedScore)
-    // Offset: 0x13FF5D4
-    void HandleScoreDidChange(int multipliedScore, int modifiedScore);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ComboController*& dyn__comboController();
     // public System.Void .ctor()
-    // Offset: 0x13FF850
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x140C2F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalActiveClient* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalActiveClient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActiveClient*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x140A78C
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x140AE0C
+    void OnDestroy();
+    // protected System.Void LateUpdate()
+    // Offset: 0x140B1AC
+    void LateUpdate();
+    // private System.Void HandleNoteWasAdded(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation)
+    // Offset: 0x140B534
+    void HandleNoteWasAdded(::GlobalNamespace::NoteData* noteData, ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation);
+    // private System.Void HandleObstacleWasAdded(ObstacleData obstacleData, BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
+    // Offset: 0x140B738
+    void HandleObstacleWasAdded(::GlobalNamespace::ObstacleData* obstacleData, ::GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData obstacleSpawnData, float rotation);
+    // private System.Void HandleSliderWasAdded(SliderData sliderData, BeatmapObjectSpawnMovementData/SliderSpawnData sliderSpawnData, System.Single rotation)
+    // Offset: 0x140B8FC
+    void HandleSliderWasAdded(::GlobalNamespace::SliderData* sliderData, ::GlobalNamespace::BeatmapObjectSpawnMovementData::SliderSpawnData sliderSpawnData, float rotation);
+    // private System.Void HandleNoteWasMissed(NoteController noteController)
+    // Offset: 0x140BBBC
+    void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
+    // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
+    // Offset: 0x140BCD4
+    void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+    // private System.Void HandleComboDidChange(System.Int32 combo)
+    // Offset: 0x140BEA4
+    void HandleComboDidChange(int combo);
+    // private System.Void HandleMultiplierDidChange(System.Int32 multiplier, System.Single multiplierProgress)
+    // Offset: 0x140BF8C
+    void HandleMultiplierDidChange(int multiplier, float multiplierProgress);
+    // private System.Void HandleScoreDidChange(System.Int32 multipliedScore, System.Int32 modifiedScore)
+    // Offset: 0x140C074
+    void HandleScoreDidChange(int multipliedScore, int modifiedScore);
   }; // MultiplayerLocalActiveClient
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalActiveClient), 80 + sizeof(::GlobalNamespace::ComboController*)> __GlobalNamespace_MultiplayerLocalActiveClientSizeCheck;
   static_assert(sizeof(MultiplayerLocalActiveClient) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActiveClient::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActiveClient::Start
 // Il2CppName: Start
 template<>
@@ -302,7 +292,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActiveClient*), "HandleScoreDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multipliedScore, modifiedScore});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActiveClient::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

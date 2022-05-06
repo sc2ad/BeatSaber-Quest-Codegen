@@ -72,20 +72,20 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<BeatmapLevelDataSO> <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::BeatmapLevelDataSO*>& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::BeatmapLevelDataSO*>& dyn_$$t__builder();
     // Get instance field reference: public System.String levelDataAssetName
-    ::StringW& dyn_levelDataAssetName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_levelDataAssetName();
     // Get instance field reference: public System.String assetBundlePath
-    ::StringW& dyn_assetBundlePath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_assetBundlePath();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<BeatmapLevelDataSO> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataSO*>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataSO*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x14CC3C0
+    // Offset: 0x1503CC8
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x14CC640
+    // Offset: 0x1503F48
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BeatmapLevelDataLoaderSO/<LoadBeatmapLevelDataAsync>d__6
   // WARNING Not writing size check since size may be invalid!

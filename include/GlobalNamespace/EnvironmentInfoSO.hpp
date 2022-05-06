@@ -57,15 +57,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnvironmentInfoSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _environmentName
     // Size: 0x8
     // Offset: 0x18
@@ -130,62 +122,57 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _environmentName
-    ::StringW& dyn__environmentName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__environmentName();
     // Get instance field reference: private ColorSchemeSO _colorScheme
-    ::GlobalNamespace::ColorSchemeSO*& dyn__colorScheme();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSchemeSO*& dyn__colorScheme();
     // Get instance field reference: private SceneInfo _sceneInfo
-    ::GlobalNamespace::SceneInfo*& dyn__sceneInfo();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SceneInfo*& dyn__sceneInfo();
     // Get instance field reference: private System.String _serializedName
-    ::StringW& dyn__serializedName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__serializedName();
     // Get instance field reference: private EnvironmentTypeSO _environmentType
-    ::GlobalNamespace::EnvironmentTypeSO*& dyn__environmentType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentTypeSO*& dyn__environmentType();
     // Get instance field reference: private EnvironmentSizeData _environmentSizeData
-    ::GlobalNamespace::EnvironmentSizeData*& dyn__environmentSizeData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentSizeData*& dyn__environmentSizeData();
     // Get instance field reference: private EnvironmentIntensityReductionOptions _environmentIntensityReductionOptions
-    ::GlobalNamespace::EnvironmentIntensityReductionOptions*& dyn__environmentIntensityReductionOptions();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentIntensityReductionOptions*& dyn__environmentIntensityReductionOptions();
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> _environmentKeywords
-    ::System::Collections::Generic::List_1<::StringW>*& dyn__environmentKeywords();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn__environmentKeywords();
     // Get instance field reference: private EnvironmentLightGroups _lightGroups
-    ::GlobalNamespace::EnvironmentLightGroups*& dyn__lightGroups();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentLightGroups*& dyn__lightGroups();
     // Get instance field reference: private DefaultEnvironmentEvents _defaultEnvironmentEvents
-    ::GlobalNamespace::DefaultEnvironmentEvents*& dyn__defaultEnvironmentEvents();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DefaultEnvironmentEvents*& dyn__defaultEnvironmentEvents();
     // public SceneInfo get_sceneInfo()
-    // Offset: 0x1383B2C
+    // Offset: 0x136B708
     ::GlobalNamespace::SceneInfo* get_sceneInfo();
     // public System.String get_environmentName()
-    // Offset: 0x1383B34
+    // Offset: 0x136B710
     ::StringW get_environmentName();
     // public ColorSchemeSO get_colorScheme()
-    // Offset: 0x1383B3C
+    // Offset: 0x136B718
     ::GlobalNamespace::ColorSchemeSO* get_colorScheme();
     // public System.String get_serializedName()
-    // Offset: 0x1383B44
+    // Offset: 0x136B720
     ::StringW get_serializedName();
     // public EnvironmentTypeSO get_environmentType()
-    // Offset: 0x1383B4C
+    // Offset: 0x136B728
     ::GlobalNamespace::EnvironmentTypeSO* get_environmentType();
     // public EnvironmentSizeData get_environmentSizeData()
-    // Offset: 0x1383B54
+    // Offset: 0x136B730
     ::GlobalNamespace::EnvironmentSizeData* get_environmentSizeData();
     // public EnvironmentIntensityReductionOptions get_environmentIntensityReductionOptions()
-    // Offset: 0x1383B5C
+    // Offset: 0x136B738
     ::GlobalNamespace::EnvironmentIntensityReductionOptions* get_environmentIntensityReductionOptions();
     // public System.Collections.Generic.IReadOnlyList`1<System.String> get_environmentKeywords()
-    // Offset: 0x1383B64
+    // Offset: 0x136B740
     ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_environmentKeywords();
     // public EnvironmentLightGroups get_lightGroups()
-    // Offset: 0x1383B6C
+    // Offset: 0x136B748
     ::GlobalNamespace::EnvironmentLightGroups* get_lightGroups();
     // public DefaultEnvironmentEvents get_defaultEnvironmentEvents()
-    // Offset: 0x1383B74
+    // Offset: 0x136B750
     ::GlobalNamespace::DefaultEnvironmentEvents* get_defaultEnvironmentEvents();
     // public System.Void .ctor()
-    // Offset: 0x1383B7C
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x136B758
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentInfoSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentInfoSO::.ctor");

@@ -75,41 +75,39 @@ namespace Zenject {
     // Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Int32> <>9__19_2
     static void _set_$$9__19_2(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1CEC2F4
+    // Offset: 0x1D2784C
     static void _cctor();
-    // System.Type <InitFixedTickables>b__17_0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1CEC360
-    ::System::Type* $InitFixedTickables$b__17_0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
-    // System.Int32 <InitFixedTickables>b__17_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1CEC378
-    int $InitFixedTickables$b__17_2(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
-    // System.Type <InitTickables>b__18_0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1CEC390
-    ::System::Type* $InitTickables$b__18_0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
-    // System.Int32 <InitTickables>b__18_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1CEC3A8
-    int $InitTickables$b__18_2(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
-    // System.Type <InitLateTickables>b__19_0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1CEC3C0
-    ::System::Type* $InitLateTickables$b__19_0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
-    // System.Int32 <InitLateTickables>b__19_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1CEC3D8
-    int $InitLateTickables$b__19_2(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1CEC3F0
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CEC44C
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1CEC358
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1D278B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TickableManager::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TickableManager::$$c*, creationType>()));
     }
+    // System.Type <InitFixedTickables>b__17_0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
+    // Offset: 0x1D278B8
+    ::System::Type* $InitFixedTickables$b__17_0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
+    // System.Int32 <InitFixedTickables>b__17_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
+    // Offset: 0x1D278D0
+    int $InitFixedTickables$b__17_2(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
+    // System.Type <InitTickables>b__18_0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
+    // Offset: 0x1D278E8
+    ::System::Type* $InitTickables$b__18_0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
+    // System.Int32 <InitTickables>b__18_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
+    // Offset: 0x1D27900
+    int $InitTickables$b__18_2(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
+    // System.Type <InitLateTickables>b__19_0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
+    // Offset: 0x1D27918
+    ::System::Type* $InitLateTickables$b__19_0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
+    // System.Int32 <InitLateTickables>b__19_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
+    // Offset: 0x1D27930
+    int $InitLateTickables$b__19_2(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1D27948
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1D279A4
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.TickableManager/Zenject.<>c
   #pragma pack(pop)
 }
@@ -122,6 +120,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Zenject::TickableManager::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::TickableManager::$$c::$InitFixedTickables$b__17_0
 // Il2CppName: <InitFixedTickables>b__17_0
 template<>
@@ -193,7 +195,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager::$$c*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::TickableManager::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

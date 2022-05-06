@@ -49,15 +49,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class IesEngine : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Crypto.IBasicAgreement agree
     // Size: 0x8
     // Offset: 0x10
@@ -116,41 +108,41 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static_assert(sizeof(::Org::BouncyCastle::Crypto::Parameters::IesParameters*) == 0x8);
     public:
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IBasicAgreement agree
-    ::Org::BouncyCastle::Crypto::IBasicAgreement*& dyn_agree();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::IBasicAgreement*& dyn_agree();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IDerivationFunction kdf
-    ::Org::BouncyCastle::Crypto::IDerivationFunction*& dyn_kdf();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::IDerivationFunction*& dyn_kdf();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IMac mac
-    ::Org::BouncyCastle::Crypto::IMac*& dyn_mac();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::IMac*& dyn_mac();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.BufferedBlockCipher cipher
-    ::Org::BouncyCastle::Crypto::BufferedBlockCipher*& dyn_cipher();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::BufferedBlockCipher*& dyn_cipher();
     // Get instance field reference: private readonly System.Byte[] macBuf
-    ::ArrayW<uint8_t>& dyn_macBuf();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_macBuf();
     // Get instance field reference: private System.Boolean forEncryption
-    bool& dyn_forEncryption();
+    [[deprecated("Use field access instead!")]] bool& dyn_forEncryption();
     // Get instance field reference: private Org.BouncyCastle.Crypto.ICipherParameters privParam
-    ::Org::BouncyCastle::Crypto::ICipherParameters*& dyn_privParam();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::ICipherParameters*& dyn_privParam();
     // Get instance field reference: private Org.BouncyCastle.Crypto.ICipherParameters pubParam
-    ::Org::BouncyCastle::Crypto::ICipherParameters*& dyn_pubParam();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::ICipherParameters*& dyn_pubParam();
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.IesParameters param
-    ::Org::BouncyCastle::Crypto::Parameters::IesParameters*& dyn_param();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::IesParameters*& dyn_param();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBasicAgreement agree, Org.BouncyCastle.Crypto.IDerivationFunction kdf, Org.BouncyCastle.Crypto.IMac mac)
-    // Offset: 0x232D0E8
+    // Offset: 0x237695C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IesEngine* New_ctor(::Org::BouncyCastle::Crypto::IBasicAgreement* agree, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf, ::Org::BouncyCastle::Crypto::IMac* mac) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::IesEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IesEngine*, creationType>(agree, kdf, mac)));
     }
     // private System.Byte[] DecryptBlock(System.Byte[] in_enc, System.Int32 inOff, System.Int32 inLen, System.Byte[] z)
-    // Offset: 0x232D1E8
+    // Offset: 0x2376A5C
     ::ArrayW<uint8_t> DecryptBlock(::ArrayW<uint8_t> in_enc, int inOff, int inLen, ::ArrayW<uint8_t> z);
     // private System.Byte[] EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Int32 inLen, System.Byte[] z)
-    // Offset: 0x232D9FC
+    // Offset: 0x2377270
     ::ArrayW<uint8_t> EncryptBlock(::ArrayW<uint8_t> input, int inOff, int inLen, ::ArrayW<uint8_t> z);
     // private System.Byte[] GenerateKdfBytes(Org.BouncyCastle.Crypto.Parameters.KdfParameters kParam, System.Int32 length)
-    // Offset: 0x232D890
+    // Offset: 0x2377104
     ::ArrayW<uint8_t> GenerateKdfBytes(::Org::BouncyCastle::Crypto::Parameters::KdfParameters* kParam, int length);
     // public System.Byte[] ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x232E000
+    // Offset: 0x2377874
     ::ArrayW<uint8_t> ProcessBlock(::ArrayW<uint8_t> input, int inOff, int inLen);
   }; // Org.BouncyCastle.Crypto.Engines.IesEngine
   #pragma pack(pop)

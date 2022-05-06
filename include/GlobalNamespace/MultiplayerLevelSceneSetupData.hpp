@@ -40,15 +40,7 @@ namespace GlobalNamespace {
   // [ZenjectAllowDuringValidationAttribute] Offset: FFFFFFFF
   class MultiplayerLevelSceneSetupData : public ::GlobalNamespace::SceneSetupData {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly IPreviewBeatmapLevel previewBeatmapLevel
     // Size: 0x8
     // Offset: 0x10
@@ -77,15 +69,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public readonly IPreviewBeatmapLevel previewBeatmapLevel
-    ::GlobalNamespace::IPreviewBeatmapLevel*& dyn_previewBeatmapLevel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPreviewBeatmapLevel*& dyn_previewBeatmapLevel();
     // Get instance field reference: public readonly BeatmapDifficulty beatmapDifficulty
-    ::GlobalNamespace::BeatmapDifficulty& dyn_beatmapDifficulty();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficulty& dyn_beatmapDifficulty();
     // Get instance field reference: public readonly BeatmapCharacteristicSO beatmapCharacteristic
-    ::GlobalNamespace::BeatmapCharacteristicSO*& dyn_beatmapCharacteristic();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCharacteristicSO*& dyn_beatmapCharacteristic();
     // Get instance field reference: public readonly System.Boolean hasSong
-    bool& dyn_hasSong();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasSong();
     // public System.Void .ctor(IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, System.Boolean hasSong)
-    // Offset: 0x13F7D70
+    // Offset: 0x1404810
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLevelSceneSetupData* New_ctor(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool hasSong) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLevelSceneSetupData::.ctor");

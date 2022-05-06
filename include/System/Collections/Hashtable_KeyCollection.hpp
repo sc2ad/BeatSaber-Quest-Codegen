@@ -37,15 +37,7 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class Hashtable::KeyCollection : public ::Il2CppObject/*, public ::System::Collections::ICollection*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Hashtable _hashtable
     // Size: 0x8
     // Offset: 0x10
@@ -62,25 +54,25 @@ namespace System::Collections {
       return hashtable;
     }
     // Get instance field reference: private System.Collections.Hashtable _hashtable
-    ::System::Collections::Hashtable*& dyn__hashtable();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn__hashtable();
     // public System.Object get_SyncRoot()
-    // Offset: 0x1CC212C
+    // Offset: 0x1CFD684
     ::Il2CppObject* get_SyncRoot();
     // public System.Int32 get_Count()
-    // Offset: 0x1CC2150
+    // Offset: 0x1CFD6A8
     int get_Count();
     // System.Void .ctor(System.Collections.Hashtable hashtable)
-    // Offset: 0x1CC09A4
+    // Offset: 0x1CFBEFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable::KeyCollection* New_ctor(::System::Collections::Hashtable* hashtable) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Hashtable::KeyCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable::KeyCollection*, creationType>(hashtable)));
     }
     // public System.Void CopyTo(System.Array array, System.Int32 arrayIndex)
-    // Offset: 0x1CC1F40
+    // Offset: 0x1CFD498
     void CopyTo(::System::Array* array, int arrayIndex);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1CC20C4
+    // Offset: 0x1CFD61C
     ::System::Collections::IEnumerator* GetEnumerator();
   }; // System.Collections.Hashtable/System.Collections.KeyCollection
   #pragma pack(pop)

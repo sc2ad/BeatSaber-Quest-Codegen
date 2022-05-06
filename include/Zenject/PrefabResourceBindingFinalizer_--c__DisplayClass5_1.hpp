@@ -43,15 +43,7 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PrefabResourceBindingFinalizer::$$c__DisplayClass5_1 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Zenject.PrefabInstantiatorCached prefabCreator
     // Size: 0x8
     // Offset: 0x10
@@ -66,33 +58,35 @@ namespace Zenject {
     static_assert(sizeof(::Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass5_0*) == 0x8);
     public:
     // Get instance field reference: public Zenject.PrefabInstantiatorCached prefabCreator
-    ::Zenject::PrefabInstantiatorCached*& dyn_prefabCreator();
+    [[deprecated("Use field access instead!")]] ::Zenject::PrefabInstantiatorCached*& dyn_prefabCreator();
     // Get instance field reference: public Zenject.PrefabResourceBindingFinalizer/Zenject.<>c__DisplayClass5_0 CS$<>8__locals1
-    ::Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass5_0*& dyn_CS$$$8__locals1();
-    // Zenject.IProvider <FinalizeBindingConcrete>b__1(Zenject.DiContainer _, System.Type concreteType)
-    // Offset: 0x1BE06C0
-    ::Zenject::IProvider* $FinalizeBindingConcrete$b__1(::Zenject::DiContainer* _, ::System::Type* concreteType);
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1BE0744
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1BE07A0
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    [[deprecated("Use field access instead!")]] ::Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass5_0*& dyn_CS$$$8__locals1();
     // public System.Void .ctor()
-    // Offset: 0x1BE03D8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C1A9C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrefabResourceBindingFinalizer::$$c__DisplayClass5_1* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass5_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrefabResourceBindingFinalizer::$$c__DisplayClass5_1*, creationType>()));
     }
+    // Zenject.IProvider <FinalizeBindingConcrete>b__1(Zenject.DiContainer _, System.Type concreteType)
+    // Offset: 0x1C1ACA8
+    ::Zenject::IProvider* $FinalizeBindingConcrete$b__1(::Zenject::DiContainer* _, ::System::Type* concreteType);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1C1AD2C
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1C1AD88
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.PrefabResourceBindingFinalizer/Zenject.<>c__DisplayClass5_1
   #pragma pack(pop)
   static check_size<sizeof(PrefabResourceBindingFinalizer::$$c__DisplayClass5_1), 24 + sizeof(::Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass5_0*)> __Zenject_PrefabResourceBindingFinalizer_$$c__DisplayClass5_1SizeCheck;
   static_assert(sizeof(PrefabResourceBindingFinalizer::$$c__DisplayClass5_1) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass5_1::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass5_1::$FinalizeBindingConcrete$b__1
 // Il2CppName: <FinalizeBindingConcrete>b__1
 template<>
@@ -120,7 +114,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass5_1*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass5_1::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

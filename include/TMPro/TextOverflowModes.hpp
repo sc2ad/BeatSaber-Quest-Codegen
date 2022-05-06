@@ -84,7 +84,7 @@ namespace TMPro {
     // Set static field: static public TMPro.TextOverflowModes Linked
     static void _set_Linked(::TMPro::TextOverflowModes value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // TMPro.TextOverflowModes
   #pragma pack(pop)
   static check_size<sizeof(TextOverflowModes), 0 + sizeof(int)> __TMPro_TextOverflowModesSizeCheck;

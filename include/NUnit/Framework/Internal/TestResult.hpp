@@ -65,15 +65,7 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestResult : public ::Il2CppObject/*, public ::NUnit::Framework::Interfaces::ITestResult*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Text.StringBuilder _output
     // Size: 0x8
     // Offset: 0x10
@@ -112,28 +104,28 @@ namespace NUnit::Framework::Internal {
     ::StringW stackTrace;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1244CD0
+    // [DebuggerBrowsableAttribute] Offset: 0x10C97B8
     // private NUnit.Framework.Interfaces.ITest <Test>k__BackingField
     // Size: 0x8
     // Offset: 0x40
     ::NUnit::Framework::Interfaces::ITest* Test;
     // Field size check
     static_assert(sizeof(::NUnit::Framework::Interfaces::ITest*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1244D0C
+    // [DebuggerBrowsableAttribute] Offset: 0x10C97F4
     // private System.DateTime <StartTime>k__BackingField
     // Size: 0x8
     // Offset: 0x48
     ::System::DateTime StartTime;
     // Field size check
     static_assert(sizeof(::System::DateTime) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1244D48
+    // [DebuggerBrowsableAttribute] Offset: 0x10C9830
     // private System.DateTime <EndTime>k__BackingField
     // Size: 0x8
     // Offset: 0x50
     ::System::DateTime EndTime;
     // Field size check
     static_assert(sizeof(::System::DateTime) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1244D84
+    // [DebuggerBrowsableAttribute] Offset: 0x10C986C
     // private System.IO.TextWriter <OutWriter>k__BackingField
     // Size: 0x8
     // Offset: 0x58
@@ -160,75 +152,75 @@ namespace NUnit::Framework::Internal {
     // Set static field: static System.Double MIN_DURATION
     static void _set_MIN_DURATION(double value);
     // Get instance field reference: private System.Text.StringBuilder _output
-    ::System::Text::StringBuilder*& dyn__output();
+    [[deprecated("Use field access instead!")]] ::System::Text::StringBuilder*& dyn__output();
     // Get instance field reference: private System.Double _duration
-    double& dyn__duration();
+    [[deprecated("Use field access instead!")]] double& dyn__duration();
     // Get instance field reference: protected System.Int32 InternalAssertCount
-    int& dyn_InternalAssertCount();
+    [[deprecated("Use field access instead!")]] int& dyn_InternalAssertCount();
     // Get instance field reference: private NUnit.Framework.Interfaces.ResultState _resultState
-    ::NUnit::Framework::Interfaces::ResultState*& dyn__resultState();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Interfaces::ResultState*& dyn__resultState();
     // Get instance field reference: private System.String _message
-    ::StringW& dyn__message();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__message();
     // Get instance field reference: private System.String _stackTrace
-    ::StringW& dyn__stackTrace();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__stackTrace();
     // Get instance field reference: private NUnit.Framework.Interfaces.ITest <Test>k__BackingField
-    ::NUnit::Framework::Interfaces::ITest*& dyn_$Test$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Interfaces::ITest*& dyn_$Test$k__BackingField();
     // Get instance field reference: private System.DateTime <StartTime>k__BackingField
-    ::System::DateTime& dyn_$StartTime$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_$StartTime$k__BackingField();
     // Get instance field reference: private System.DateTime <EndTime>k__BackingField
-    ::System::DateTime& dyn_$EndTime$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_$EndTime$k__BackingField();
     // Get instance field reference: private System.IO.TextWriter <OutWriter>k__BackingField
-    ::System::IO::TextWriter*& dyn_$OutWriter$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::IO::TextWriter*& dyn_$OutWriter$k__BackingField();
     // public NUnit.Framework.Interfaces.ITest get_Test()
-    // Offset: 0x29B4B54
+    // Offset: 0x2A10B4C
     ::NUnit::Framework::Interfaces::ITest* get_Test();
     // private System.Void set_Test(NUnit.Framework.Interfaces.ITest value)
-    // Offset: 0x29B4B5C
+    // Offset: 0x2A10B54
     void set_Test(::NUnit::Framework::Interfaces::ITest* value);
     // public NUnit.Framework.Interfaces.ResultState get_ResultState()
-    // Offset: 0x29B10F8
+    // Offset: 0x2A0D0F0
     ::NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // private System.Void set_ResultState(NUnit.Framework.Interfaces.ResultState value)
-    // Offset: 0x29B4B4C
+    // Offset: 0x2A10B44
     void set_ResultState(::NUnit::Framework::Interfaces::ResultState* value);
     // public System.String get_Name()
-    // Offset: 0x29B4B64
+    // Offset: 0x2A10B5C
     ::StringW get_Name();
     // public System.String get_FullName()
-    // Offset: 0x29B4C18
+    // Offset: 0x2A10C10
     ::StringW get_FullName();
     // public System.Double get_Duration()
-    // Offset: 0x29B4CCC
+    // Offset: 0x2A10CC4
     double get_Duration();
     // public System.Void set_Duration(System.Double value)
-    // Offset: 0x29B4CD4
+    // Offset: 0x2A10CCC
     void set_Duration(double value);
     // public System.DateTime get_StartTime()
-    // Offset: 0x29B4CF8
+    // Offset: 0x2A10CF0
     ::System::DateTime get_StartTime();
     // public System.Void set_StartTime(System.DateTime value)
-    // Offset: 0x29B4D00
+    // Offset: 0x2A10CF8
     void set_StartTime(::System::DateTime value);
     // public System.DateTime get_EndTime()
-    // Offset: 0x29B4D08
+    // Offset: 0x2A10D00
     ::System::DateTime get_EndTime();
     // public System.Void set_EndTime(System.DateTime value)
-    // Offset: 0x29B4D10
+    // Offset: 0x2A10D08
     void set_EndTime(::System::DateTime value);
     // public System.String get_Message()
-    // Offset: 0x29B4D18
+    // Offset: 0x2A10D10
     ::StringW get_Message();
     // private System.Void set_Message(System.String value)
-    // Offset: 0x29B4D20
+    // Offset: 0x2A10D18
     void set_Message(::StringW value);
     // public System.String get_StackTrace()
-    // Offset: 0x29B4D28
+    // Offset: 0x2A10D20
     ::StringW get_StackTrace();
     // private System.Void set_StackTrace(System.String value)
-    // Offset: 0x29B4D30
+    // Offset: 0x2A10D28
     void set_StackTrace(::StringW value);
     // public System.Int32 get_AssertCount()
-    // Offset: 0x29B4D38
+    // Offset: 0x2A10D30
     int get_AssertCount();
     // public System.Int32 get_FailCount()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -249,56 +241,56 @@ namespace NUnit::Framework::Internal {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IEnumerable_1<::NUnit::Framework::Interfaces::ITestResult*>* get_Children();
     // public System.IO.TextWriter get_OutWriter()
-    // Offset: 0x29B4D40
+    // Offset: 0x2A10D38
     ::System::IO::TextWriter* get_OutWriter();
     // private System.Void set_OutWriter(System.IO.TextWriter value)
-    // Offset: 0x29B4D48
+    // Offset: 0x2A10D40
     void set_OutWriter(::System::IO::TextWriter* value);
     // public System.String get_Output()
-    // Offset: 0x29B4D50
+    // Offset: 0x2A10D48
     ::StringW get_Output();
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x29B0FD4
+    // Offset: 0x2A0CFCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestResult* New_ctor(::NUnit::Framework::Interfaces::ITest* test) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestResult*, creationType>(test)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x29B5F50
+    // Offset: 0x2A11F48
     static void _cctor();
     // public NUnit.Framework.Interfaces.TNode ToXml(System.Boolean recursive)
-    // Offset: 0x29B4D70
+    // Offset: 0x2A10D68
     ::NUnit::Framework::Interfaces::TNode* ToXml(bool recursive);
     // public NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0x29B4DFC
+    // Offset: 0x2A10DF4
     ::NUnit::Framework::Interfaces::TNode* AddToXml(::NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
     // public System.Void SetResult(NUnit.Framework.Interfaces.ResultState resultState)
-    // Offset: 0x29B57B0
+    // Offset: 0x2A117A8
     void SetResult(::NUnit::Framework::Interfaces::ResultState* resultState);
     // public System.Void SetResult(NUnit.Framework.Interfaces.ResultState resultState, System.String message)
-    // Offset: 0x29B57C8
+    // Offset: 0x2A117C0
     void SetResult(::NUnit::Framework::Interfaces::ResultState* resultState, ::StringW message);
     // public System.Void SetResult(NUnit.Framework.Interfaces.ResultState resultState, System.String message, System.String stackTrace)
-    // Offset: 0x29B57BC
+    // Offset: 0x2A117B4
     void SetResult(::NUnit::Framework::Interfaces::ResultState* resultState, ::StringW message, ::StringW stackTrace);
     // public System.Void RecordException(System.Exception ex)
-    // Offset: 0x29B57D4
+    // Offset: 0x2A117CC
     void RecordException(::System::Exception* ex);
     // public System.Void RecordException(System.Exception ex, NUnit.Framework.Interfaces.FailureSite site)
-    // Offset: 0x29B59D8
+    // Offset: 0x2A119D0
     void RecordException(::System::Exception* ex, ::NUnit::Framework::Interfaces::FailureSite site);
     // public System.Void RecordTearDownException(System.Exception ex)
-    // Offset: 0x29B5C18
+    // Offset: 0x2A11C10
     void RecordTearDownException(::System::Exception* ex);
     // private NUnit.Framework.Interfaces.TNode AddReasonElement(NUnit.Framework.Interfaces.TNode targetNode)
-    // Offset: 0x29B56AC
+    // Offset: 0x2A116A4
     ::NUnit::Framework::Interfaces::TNode* AddReasonElement(::NUnit::Framework::Interfaces::TNode* targetNode);
     // private NUnit.Framework.Interfaces.TNode AddFailureElement(NUnit.Framework.Interfaces.TNode targetNode)
-    // Offset: 0x29B55C8
+    // Offset: 0x2A115C0
     ::NUnit::Framework::Interfaces::TNode* AddFailureElement(::NUnit::Framework::Interfaces::TNode* targetNode);
     // private NUnit.Framework.Interfaces.TNode AddOutputElement(NUnit.Framework.Interfaces.TNode targetNode)
-    // Offset: 0x29B5730
+    // Offset: 0x2A11728
     ::NUnit::Framework::Interfaces::TNode* AddOutputElement(::NUnit::Framework::Interfaces::TNode* targetNode);
   }; // NUnit.Framework.Internal.TestResult
   #pragma pack(pop)

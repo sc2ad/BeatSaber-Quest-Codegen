@@ -246,7 +246,7 @@ namespace System::Net::Sockets {
     // Set static field: static public System.Net.Sockets.IOControlCode DeleteMulticastGroupFromInterface
     static void _set_DeleteMulticastGroupFromInterface(::System::Net::Sockets::IOControlCode value);
     // Get instance field reference: public System.Int64 value__
-    int64_t& dyn_value__();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_value__();
   }; // System.Net.Sockets.IOControlCode
   #pragma pack(pop)
   static check_size<sizeof(IOControlCode), 0 + sizeof(int64_t)> __System_Net_Sockets_IOControlCodeSizeCheck;

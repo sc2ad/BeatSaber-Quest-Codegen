@@ -49,22 +49,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AchievementsEvaluationHandler : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private AchievementsModelSO _achievementsModel
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::AchievementsModelSO* achievementsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AchievementsModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124B638
+    // [SpaceAttribute] Offset: 0x10D0130
     // private AchievementSO _clearedLevel100Achievement
     // Size: 0x8
     // Offset: 0x20
@@ -89,7 +81,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AchievementSO* kilometersTravelled100Achievement;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AchievementSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124B6A0
+    // [SpaceAttribute] Offset: 0x10D0198
     // private AchievementSO _15ExpertLevelsRankSAchievement
     // Size: 0x8
     // Offset: 0x40
@@ -114,7 +106,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AchievementSO* _15HardLevelsFullComboAchievement;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AchievementSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124B708
+    // [SpaceAttribute] Offset: 0x10D0200
     // private AchievementSO _expertLevelClearedWithoutModifiersAchievement
     // Size: 0x8
     // Offset: 0x60
@@ -133,7 +125,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AchievementSO* goodCuts10000Achievement;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AchievementSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124B760
+    // [SpaceAttribute] Offset: 0x10D0258
     // private AchievementSO _resultMinRankANormalWithoutModifiersAchievement
     // Size: 0x8
     // Offset: 0x78
@@ -152,7 +144,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AchievementSO* resultMinRankSSExpertWithoutModifiersAchievement;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AchievementSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124B7B8
+    // [SpaceAttribute] Offset: 0x10D02B0
     // private AchievementSO _combo50NormalWithoutModifiersAchievement
     // Size: 0x8
     // Offset: 0x90
@@ -171,7 +163,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AchievementSO* combo500ExpertWithoutModifiersAchievement;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AchievementSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124B810
+    // [SpaceAttribute] Offset: 0x10D0308
     // private AchievementSO _clearedLevelWithoutModifiersAchievement
     // Size: 0x8
     // Offset: 0xA8
@@ -202,7 +194,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AchievementSO* clearedLevelWithBatteryEnergyModifierAchievement;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AchievementSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124B888
+    // [SpaceAttribute] Offset: 0x10D0380
     // private AchievementSO _cleared30MissionsAchievement
     // Size: 0x8
     // Offset: 0xD0
@@ -221,14 +213,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AchievementSO* allMissionClearedAchievement;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AchievementSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x124B8E0
+    // [InjectAttribute] Offset: 0x10D03D8
     // private PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xE8
     ::GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x124B8F0
+    // [InjectAttribute] Offset: 0x10D03E8
     // private MissionNodesManager _missionNodesManager
     // Size: 0x8
     // Offset: 0xF0
@@ -239,104 +231,102 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private AchievementsModelSO _achievementsModel
-    ::GlobalNamespace::AchievementsModelSO*& dyn__achievementsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementsModelSO*& dyn__achievementsModel();
     // Get instance field reference: private AchievementSO _clearedLevel100Achievement
-    ::GlobalNamespace::AchievementSO*& dyn__clearedLevel100Achievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__clearedLevel100Achievement();
     // Get instance field reference: private AchievementSO _totalScore100MillionAchievement
-    ::GlobalNamespace::AchievementSO*& dyn__totalScore100MillionAchievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__totalScore100MillionAchievement();
     // Get instance field reference: private AchievementSO _24HoursPlayedAchievement
-    ::GlobalNamespace::AchievementSO*& dyn__24HoursPlayedAchievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__24HoursPlayedAchievement();
     // Get instance field reference: private AchievementSO _kilometersTravelled100Achievement
-    ::GlobalNamespace::AchievementSO*& dyn__kilometersTravelled100Achievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__kilometersTravelled100Achievement();
     // Get instance field reference: private AchievementSO _15ExpertLevelsRankSAchievement
-    ::GlobalNamespace::AchievementSO*& dyn__15ExpertLevelsRankSAchievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__15ExpertLevelsRankSAchievement();
     // Get instance field reference: private AchievementSO _15ExpertLevelsFullComboAchievement
-    ::GlobalNamespace::AchievementSO*& dyn__15ExpertLevelsFullComboAchievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__15ExpertLevelsFullComboAchievement();
     // Get instance field reference: private AchievementSO _15HardLevelsRankSAchievement
-    ::GlobalNamespace::AchievementSO*& dyn__15HardLevelsRankSAchievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__15HardLevelsRankSAchievement();
     // Get instance field reference: private AchievementSO _15HardLevelsFullComboAchievement
-    ::GlobalNamespace::AchievementSO*& dyn__15HardLevelsFullComboAchievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__15HardLevelsFullComboAchievement();
     // Get instance field reference: private AchievementSO _expertLevelClearedWithoutModifiersAchievement
-    ::GlobalNamespace::AchievementSO*& dyn__expertLevelClearedWithoutModifiersAchievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__expertLevelClearedWithoutModifiersAchievement();
     // Get instance field reference: private AchievementSO _fullComboExpertWithoutModifiersAchievement
-    ::GlobalNamespace::AchievementSO*& dyn__fullComboExpertWithoutModifiersAchievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__fullComboExpertWithoutModifiersAchievement();
     // Get instance field reference: private AchievementSO _goodCuts10000Achievement
-    ::GlobalNamespace::AchievementSO*& dyn__goodCuts10000Achievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__goodCuts10000Achievement();
     // Get instance field reference: private AchievementSO _resultMinRankANormalWithoutModifiersAchievement
-    ::GlobalNamespace::AchievementSO*& dyn__resultMinRankANormalWithoutModifiersAchievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__resultMinRankANormalWithoutModifiersAchievement();
     // Get instance field reference: private AchievementSO _resultMinRankSHardWithoutModifiersAchievement
-    ::GlobalNamespace::AchievementSO*& dyn__resultMinRankSHardWithoutModifiersAchievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__resultMinRankSHardWithoutModifiersAchievement();
     // Get instance field reference: private AchievementSO _resultMinRankSSExpertWithoutModifiersAchievement
-    ::GlobalNamespace::AchievementSO*& dyn__resultMinRankSSExpertWithoutModifiersAchievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__resultMinRankSSExpertWithoutModifiersAchievement();
     // Get instance field reference: private AchievementSO _combo50NormalWithoutModifiersAchievement
-    ::GlobalNamespace::AchievementSO*& dyn__combo50NormalWithoutModifiersAchievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__combo50NormalWithoutModifiersAchievement();
     // Get instance field reference: private AchievementSO _combo100HardWithoutModifiersAchievement
-    ::GlobalNamespace::AchievementSO*& dyn__combo100HardWithoutModifiersAchievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__combo100HardWithoutModifiersAchievement();
     // Get instance field reference: private AchievementSO _combo500ExpertWithoutModifiersAchievement
-    ::GlobalNamespace::AchievementSO*& dyn__combo500ExpertWithoutModifiersAchievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__combo500ExpertWithoutModifiersAchievement();
     // Get instance field reference: private AchievementSO _clearedLevelWithoutModifiersAchievement
-    ::GlobalNamespace::AchievementSO*& dyn__clearedLevelWithoutModifiersAchievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__clearedLevelWithoutModifiersAchievement();
     // Get instance field reference: private AchievementSO _clearedLevelWithSongSpeedFasterModifierAchievement
-    ::GlobalNamespace::AchievementSO*& dyn__clearedLevelWithSongSpeedFasterModifierAchievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__clearedLevelWithSongSpeedFasterModifierAchievement();
     // Get instance field reference: private AchievementSO _clearedLevelWithInstaFailModifierAchievement
-    ::GlobalNamespace::AchievementSO*& dyn__clearedLevelWithInstaFailModifierAchievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__clearedLevelWithInstaFailModifierAchievement();
     // Get instance field reference: private AchievementSO _clearedLevelWithDisappearingArrowsModifierAchievement
-    ::GlobalNamespace::AchievementSO*& dyn__clearedLevelWithDisappearingArrowsModifierAchievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__clearedLevelWithDisappearingArrowsModifierAchievement();
     // Get instance field reference: private AchievementSO _clearedLevelWithBatteryEnergyModifierAchievement
-    ::GlobalNamespace::AchievementSO*& dyn__clearedLevelWithBatteryEnergyModifierAchievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__clearedLevelWithBatteryEnergyModifierAchievement();
     // Get instance field reference: private AchievementSO _cleared30MissionsAchievement
-    ::GlobalNamespace::AchievementSO*& dyn__cleared30MissionsAchievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__cleared30MissionsAchievement();
     // Get instance field reference: private AchievementSO _finalMissionClearedAchievement
-    ::GlobalNamespace::AchievementSO*& dyn__finalMissionClearedAchievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__finalMissionClearedAchievement();
     // Get instance field reference: private AchievementSO _allMissionClearedAchievement
-    ::GlobalNamespace::AchievementSO*& dyn__allMissionClearedAchievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__allMissionClearedAchievement();
     // Get instance field reference: private PlayerDataModel _playerDataModel
-    ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
     // Get instance field reference: private MissionNodesManager _missionNodesManager
-    ::GlobalNamespace::MissionNodesManager*& dyn__missionNodesManager();
-    // protected System.Void Start()
-    // Offset: 0x14AF0A8
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x14AF2C4
-    void OnDestroy();
-    // private System.Void HandleSoloFreePlayOverallStatsDataDidUpdate(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x14AF464
-    void HandleSoloFreePlayOverallStatsDataDidUpdate(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
-    // private System.Void HandlePartyFreePlayOverallStatsDataDidUpdate(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x14AFF34
-    void HandlePartyFreePlayOverallStatsDataDidUpdate(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
-    // public System.Void HandleCampaignOverallStatsDataDidUpdate(MissionCompletionResults missionCompletionResults, MissionNode missionNode)
-    // Offset: 0x14AFF44
-    void HandleCampaignOverallStatsDataDidUpdate(::GlobalNamespace::MissionCompletionResults* missionCompletionResults, ::GlobalNamespace::MissionNode* missionNode);
-    // private System.Void ProcessMissionFinishData(MissionNode missionNode, MissionCompletionResults missionCompletionResults)
-    // Offset: 0x14AFFC4
-    void ProcessMissionFinishData(::GlobalNamespace::MissionNode* missionNode, ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
-    // private System.Void ProcessSoloFreePlayLevelFinishData(IDifficultyBeatmap difficultyBeatmap, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x14AFB50
-    void ProcessSoloFreePlayLevelFinishData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
-    // private System.Void ProcessLevelFinishData(IDifficultyBeatmap difficultyBeatmap, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x14AF4A8
-    void ProcessLevelFinishData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionNodesManager*& dyn__missionNodesManager();
     // public System.Void .ctor()
-    // Offset: 0x14B0284
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14E7B3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AchievementsEvaluationHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AchievementsEvaluationHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AchievementsEvaluationHandler*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x14E6960
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x14E6B7C
+    void OnDestroy();
+    // private System.Void HandleSoloFreePlayOverallStatsDataDidUpdate(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap)
+    // Offset: 0x14E6D1C
+    void HandleSoloFreePlayOverallStatsDataDidUpdate(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
+    // private System.Void HandlePartyFreePlayOverallStatsDataDidUpdate(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap)
+    // Offset: 0x14E77EC
+    void HandlePartyFreePlayOverallStatsDataDidUpdate(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
+    // public System.Void HandleCampaignOverallStatsDataDidUpdate(MissionCompletionResults missionCompletionResults, MissionNode missionNode)
+    // Offset: 0x14E77FC
+    void HandleCampaignOverallStatsDataDidUpdate(::GlobalNamespace::MissionCompletionResults* missionCompletionResults, ::GlobalNamespace::MissionNode* missionNode);
+    // private System.Void ProcessMissionFinishData(MissionNode missionNode, MissionCompletionResults missionCompletionResults)
+    // Offset: 0x14E787C
+    void ProcessMissionFinishData(::GlobalNamespace::MissionNode* missionNode, ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
+    // private System.Void ProcessSoloFreePlayLevelFinishData(IDifficultyBeatmap difficultyBeatmap, LevelCompletionResults levelCompletionResults)
+    // Offset: 0x14E7408
+    void ProcessSoloFreePlayLevelFinishData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
+    // private System.Void ProcessLevelFinishData(IDifficultyBeatmap difficultyBeatmap, LevelCompletionResults levelCompletionResults)
+    // Offset: 0x14E6D60
+    void ProcessLevelFinishData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
   }; // AchievementsEvaluationHandler
   #pragma pack(pop)
   static check_size<sizeof(AchievementsEvaluationHandler), 240 + sizeof(::GlobalNamespace::MissionNodesManager*)> __GlobalNamespace_AchievementsEvaluationHandlerSizeCheck;
   static_assert(sizeof(AchievementsEvaluationHandler) == 0xF8);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::AchievementsEvaluationHandler::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AchievementsEvaluationHandler::Start
 // Il2CppName: Start
 template<>
@@ -413,7 +403,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsEvaluationHandler*), "ProcessLevelFinishData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmap, levelCompletionResults});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AchievementsEvaluationHandler::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

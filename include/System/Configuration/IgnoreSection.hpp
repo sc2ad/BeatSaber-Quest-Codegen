@@ -44,42 +44,40 @@ namespace System::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class IgnoreSection : public ::System::Configuration::ConfigurationSection {
     public:
-    // protected internal override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x2A997A8
-    // Implemented from: System.Configuration.ConfigurationElement
-    // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
-    ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
     // public System.Void .ctor()
-    // Offset: 0x2A99768
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2AEF4F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IgnoreSection* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Configuration::IgnoreSection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IgnoreSection*, creationType>()));
     }
+    // protected internal override System.Configuration.ConfigurationPropertyCollection get_Properties()
+    // Offset: 0x2AEF530
+    // Implemented from: System.Configuration.ConfigurationElement
+    // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
+    ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
     // protected internal override System.Void DeserializeSection(System.Xml.XmlReader xmlReader)
-    // Offset: 0x2A997E8
+    // Offset: 0x2AEF570
     // Implemented from: System.Configuration.ConfigurationSection
     // Base method: System.Void ConfigurationSection::DeserializeSection(System.Xml.XmlReader xmlReader)
     void DeserializeSection(::System::Xml::XmlReader* xmlReader);
     // protected internal override System.Boolean IsModified()
-    // Offset: 0x2A99828
+    // Offset: 0x2AEF5B0
     // Implemented from: System.Configuration.ConfigurationSection
     // Base method: System.Boolean ConfigurationSection::IsModified()
     bool IsModified();
     // protected internal override System.Void Reset(System.Configuration.ConfigurationElement parentSection)
-    // Offset: 0x2A99868
+    // Offset: 0x2AEF5F0
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Void ConfigurationElement::Reset(System.Configuration.ConfigurationElement parentSection)
     void Reset(::System::Configuration::ConfigurationElement* parentSection);
     // protected internal override System.Void ResetModified()
-    // Offset: 0x2A998A8
+    // Offset: 0x2AEF630
     // Implemented from: System.Configuration.ConfigurationSection
     // Base method: System.Void ConfigurationSection::ResetModified()
     void ResetModified();
     // protected internal override System.String SerializeSection(System.Configuration.ConfigurationElement parentSection, System.String name, System.Configuration.ConfigurationSaveMode saveMode)
-    // Offset: 0x2A998E8
+    // Offset: 0x2AEF670
     // Implemented from: System.Configuration.ConfigurationSection
     // Base method: System.String ConfigurationSection::SerializeSection(System.Configuration.ConfigurationElement parentSection, System.String name, System.Configuration.ConfigurationSaveMode saveMode)
     ::StringW SerializeSection(::System::Configuration::ConfigurationElement* parentSection, ::StringW name, ::System::Configuration::ConfigurationSaveMode saveMode);
@@ -87,6 +85,10 @@ namespace System::Configuration {
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Configuration::IgnoreSection::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Configuration::IgnoreSection::get_Properties
 // Il2CppName: get_Properties
 template<>
@@ -95,10 +97,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(System::Configuration::IgnoreSection*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Configuration::IgnoreSection::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Configuration::IgnoreSection::DeserializeSection
 // Il2CppName: DeserializeSection
 template<>

@@ -97,20 +97,12 @@ namespace MasterServer {
       // Set static field: static public MasterServer.DedicatedServerPrepareForConnectionResponse/MasterServer.Result UnknownError
       static void _set_UnknownError(::MasterServer::DedicatedServerPrepareForConnectionResponse::Result value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // MasterServer.DedicatedServerPrepareForConnectionResponse/MasterServer.Result
     #pragma pack(pop)
     static check_size<sizeof(DedicatedServerPrepareForConnectionResponse::Result), 0 + sizeof(int)> __MasterServer_DedicatedServerPrepareForConnectionResponse_ResultSizeCheck;
     static_assert(sizeof(DedicatedServerPrepareForConnectionResponse::Result) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public MasterServer.DedicatedServerPrepareForConnectionResponse/MasterServer.Result result
     // Size: 0x4
     // Offset: 0x18
@@ -137,64 +129,63 @@ namespace MasterServer {
       return *reinterpret_cast<::MasterServer::IDedicatedServerMasterServerClientToServerMessage*>(this);
     }
     // Get instance field reference: public MasterServer.DedicatedServerPrepareForConnectionResponse/MasterServer.Result result
-    ::MasterServer::DedicatedServerPrepareForConnectionResponse::Result& dyn_result();
+    [[deprecated("Use field access instead!")]] ::MasterServer::DedicatedServerPrepareForConnectionResponse::Result& dyn_result();
     // Get instance field reference: private System.String <dedicatedServerId>k__BackingField
-    ::StringW& dyn_$dedicatedServerId$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$dedicatedServerId$k__BackingField();
     // Get instance field reference: private System.Int64 <dedicatedServerCreationTime>k__BackingField
-    int64_t& dyn_$dedicatedServerCreationTime$k__BackingField();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_$dedicatedServerCreationTime$k__BackingField();
     // static public PacketPool`1<MasterServer.DedicatedServerPrepareForConnectionResponse> get_pool()
-    // Offset: 0x164E588
+    // Offset: 0x1684E98
     static ::GlobalNamespace::PacketPool_1<::MasterServer::DedicatedServerPrepareForConnectionResponse*>* get_pool();
     // public System.String get_dedicatedServerId()
-    // Offset: 0x164E668
+    // Offset: 0x1684F78
     ::StringW get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x164E670
+    // Offset: 0x1684F80
     void set_dedicatedServerId(::StringW value);
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x164E678
+    // Offset: 0x1684F88
     int64_t get_dedicatedServerCreationTime();
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x164E680
+    // Offset: 0x1684F90
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.DedicatedServerPrepareForConnectionResponse InitForFailure(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, MasterServer.DedicatedServerPrepareForConnectionResponse/MasterServer.Result result)
-    // Offset: 0x164E7A4
+    // Offset: 0x16850B4
     ::MasterServer::DedicatedServerPrepareForConnectionResponse* InitForFailure(::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, ::MasterServer::DedicatedServerPrepareForConnectionResponse::Result result);
     // public MasterServer.DedicatedServerPrepareForConnectionResponse InitForSuccess(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime)
-    // Offset: 0x164E7B0
+    // Offset: 0x16850C0
     ::MasterServer::DedicatedServerPrepareForConnectionResponse* InitForSuccess(::StringW dedicatedServerId, int64_t dedicatedServerCreationTime);
     // public override System.Byte get_resultCode()
-    // Offset: 0x164E5D0
+    // Offset: 0x1684EE0
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Byte BaseReliableResponse::get_resultCode()
     uint8_t get_resultCode();
     // public override System.String get_resultCodeString()
-    // Offset: 0x164E5D8
+    // Offset: 0x1684EE8
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.String BaseReliableResponse::get_resultCodeString()
     ::StringW get_resultCodeString();
     // public System.Void .ctor()
-    // Offset: 0x164E7BC
+    // Offset: 0x16850CC
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DedicatedServerPrepareForConnectionResponse* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::MasterServer::DedicatedServerPrepareForConnectionResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DedicatedServerPrepareForConnectionResponse*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x164E688
+    // Offset: 0x1684F98
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x164E6E4
+    // Offset: 0x1684FF4
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x164E748
+    // Offset: 0x1685058
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Release()
     void Release();

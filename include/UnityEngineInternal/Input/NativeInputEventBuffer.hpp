@@ -56,13 +56,13 @@ namespace UnityEngineInternal::Input {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Void* eventBuffer
-    void*& dyn_eventBuffer();
+    [[deprecated("Use field access instead!")]] void*& dyn_eventBuffer();
     // Get instance field reference: public System.Int32 eventCount
-    int& dyn_eventCount();
+    [[deprecated("Use field access instead!")]] int& dyn_eventCount();
     // Get instance field reference: public System.Int32 sizeInBytes
-    int& dyn_sizeInBytes();
+    [[deprecated("Use field access instead!")]] int& dyn_sizeInBytes();
     // Get instance field reference: public System.Int32 capacityInBytes
-    int& dyn_capacityInBytes();
+    [[deprecated("Use field access instead!")]] int& dyn_capacityInBytes();
   }; // UnityEngineInternal.Input.NativeInputEventBuffer
   #pragma pack(pop)
   static check_size<sizeof(NativeInputEventBuffer), 16 + sizeof(int)> __UnityEngineInternal_Input_NativeInputEventBufferSizeCheck;

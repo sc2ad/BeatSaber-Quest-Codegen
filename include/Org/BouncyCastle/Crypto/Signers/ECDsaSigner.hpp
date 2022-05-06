@@ -61,15 +61,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
   // [TokenAttribute] Offset: FFFFFFFF
   class ECDsaSigner : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IDsaExt*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected readonly Org.BouncyCastle.Crypto.Signers.IDsaKCalculator kCalculator
     // Size: 0x8
     // Offset: 0x10
@@ -98,41 +90,39 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Set static field: static private readonly Org.BouncyCastle.Math.BigInteger Eight
     static void _set_Eight(::Org::BouncyCastle::Math::BigInteger* value);
     // Get instance field reference: protected readonly Org.BouncyCastle.Crypto.Signers.IDsaKCalculator kCalculator
-    ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*& dyn_kCalculator();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*& dyn_kCalculator();
     // Get instance field reference: protected Org.BouncyCastle.Crypto.Parameters.ECKeyParameters key
-    ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*& dyn_key();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*& dyn_key();
     // Get instance field reference: protected Org.BouncyCastle.Security.SecureRandom random
-    ::Org::BouncyCastle::Security::SecureRandom*& dyn_random();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // public Org.BouncyCastle.Math.BigInteger get_Order()
-    // Offset: 0x15C7280
+    // Offset: 0x15FCB90
     ::Org::BouncyCastle::Math::BigInteger* get_Order();
-    // static private System.Void .cctor()
-    // Offset: 0x15C78CC
-    static void _cctor();
-    // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x15C706C
-    void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-    // public Org.BouncyCastle.Math.BigInteger[] GenerateSignature(System.Byte[] message)
-    // Offset: 0x15C72A8
-    ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> GenerateSignature(::ArrayW<uint8_t> message);
-    // protected Org.BouncyCastle.Math.BigInteger CalculateE(Org.BouncyCastle.Math.BigInteger n, System.Byte[] message)
-    // Offset: 0x15C771C
-    ::Org::BouncyCastle::Math::BigInteger* CalculateE(::Org::BouncyCastle::Math::BigInteger* n, ::ArrayW<uint8_t> message);
-    // protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier CreateBasePointMultiplier()
-    // Offset: 0x15C77F0
-    ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
-    // protected Org.BouncyCastle.Security.SecureRandom InitSecureRandom(System.Boolean needed, Org.BouncyCastle.Security.SecureRandom provided)
-    // Offset: 0x15C784C
-    ::Org::BouncyCastle::Security::SecureRandom* InitSecureRandom(bool needed, ::Org::BouncyCastle::Security::SecureRandom* provided);
     // public System.Void .ctor()
-    // Offset: 0x15C6FFC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15FC90C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECDsaSigner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Signers::ECDsaSigner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECDsaSigner*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x15FD1DC
+    static void _cctor();
+    // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
+    // Offset: 0x15FC97C
+    void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // public Org.BouncyCastle.Math.BigInteger[] GenerateSignature(System.Byte[] message)
+    // Offset: 0x15FCBB8
+    ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> GenerateSignature(::ArrayW<uint8_t> message);
+    // protected Org.BouncyCastle.Math.BigInteger CalculateE(Org.BouncyCastle.Math.BigInteger n, System.Byte[] message)
+    // Offset: 0x15FD02C
+    ::Org::BouncyCastle::Math::BigInteger* CalculateE(::Org::BouncyCastle::Math::BigInteger* n, ::ArrayW<uint8_t> message);
+    // protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier CreateBasePointMultiplier()
+    // Offset: 0x15FD100
+    ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
+    // protected Org.BouncyCastle.Security.SecureRandom InitSecureRandom(System.Boolean needed, Org.BouncyCastle.Security.SecureRandom provided)
+    // Offset: 0x15FD15C
+    ::Org::BouncyCastle::Security::SecureRandom* InitSecureRandom(bool needed, ::Org::BouncyCastle::Security::SecureRandom* provided);
   }; // Org.BouncyCastle.Crypto.Signers.ECDsaSigner
   #pragma pack(pop)
   static check_size<sizeof(ECDsaSigner), 32 + sizeof(::Org::BouncyCastle::Security::SecureRandom*)> __Org_BouncyCastle_Crypto_Signers_ECDsaSignerSizeCheck;
@@ -147,6 +137,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::Boun
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::ECDsaSigner*), "get_Order", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::ECDsaSigner::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::ECDsaSigner::_cctor
 // Il2CppName: .cctor
 template<>
@@ -202,7 +196,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::Boun
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::ECDsaSigner*), "InitSecureRandom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{needed, provided});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::ECDsaSigner::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

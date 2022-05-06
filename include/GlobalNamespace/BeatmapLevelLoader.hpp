@@ -86,25 +86,17 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public readonly System.Boolean isError
-      bool& dyn_isError();
+      [[deprecated("Use field access instead!")]] bool& dyn_isError();
       // Get instance field reference: public readonly IBeatmapLevel beatmapLevel
-      ::GlobalNamespace::IBeatmapLevel*& dyn_beatmapLevel();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatmapLevel*& dyn_beatmapLevel();
       // public System.Void .ctor(System.Boolean isError, IBeatmapLevel beatmapLevel)
-      // Offset: 0x14CFCB8
+      // Offset: 0x15075C0
       // ABORTED: conflicts with another method.  LoadBeatmapLevelResult(bool isError, ::GlobalNamespace::IBeatmapLevel* beatmapLevel);
     }; // BeatmapLevelLoader/LoadBeatmapLevelResult
     #pragma pack(pop)
     static check_size<sizeof(BeatmapLevelLoader::LoadBeatmapLevelResult), 8 + sizeof(::GlobalNamespace::IBeatmapLevel*)> __GlobalNamespace_BeatmapLevelLoader_LoadBeatmapLevelResultSizeCheck;
     static_assert(sizeof(BeatmapLevelLoader::LoadBeatmapLevelResult) == 0x10);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BeatmapLevelDataLoaderSO _beatmapLevelDataLoader
     // Size: 0x8
     // Offset: 0x10
@@ -119,18 +111,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::IBeatmapDataAssetFileModel*) == 0x8);
     public:
     // Get instance field reference: private BeatmapLevelDataLoaderSO _beatmapLevelDataLoader
-    ::GlobalNamespace::BeatmapLevelDataLoaderSO*& dyn__beatmapLevelDataLoader();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelDataLoaderSO*& dyn__beatmapLevelDataLoader();
     // Get instance field reference: private IBeatmapDataAssetFileModel _beatmapDataAssetFileModel
-    ::GlobalNamespace::IBeatmapDataAssetFileModel*& dyn__beatmapDataAssetFileModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatmapDataAssetFileModel*& dyn__beatmapDataAssetFileModel();
     // public System.Void .ctor(BeatmapLevelDataLoaderSO beatmapLevelDataLoader, IBeatmapDataAssetFileModel beatmapDataAssetFileModel)
-    // Offset: 0x14CF500
+    // Offset: 0x1506E08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelLoader* New_ctor(::GlobalNamespace::BeatmapLevelDataLoaderSO* beatmapLevelDataLoader, ::GlobalNamespace::IBeatmapDataAssetFileModel* beatmapDataAssetFileModel) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelLoader*, creationType>(beatmapLevelDataLoader, beatmapDataAssetFileModel)));
     }
     // public System.Threading.Tasks.Task`1<BeatmapLevelLoader/LoadBeatmapLevelResult> LoadBeatmapLevelAsync(IPreviewBeatmapLevel previewLevel, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x14CF538
+    // Offset: 0x1506E40
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult>* LoadBeatmapLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* previewLevel, ::System::Threading::CancellationToken cancellationToken);
   }; // BeatmapLevelLoader
   #pragma pack(pop)

@@ -73,22 +73,14 @@ namespace GlobalNamespace {
     class Pool;
     // Nested type: ::GlobalNamespace::ObstacleController::$DissolveCoroutine$d__65
     class $DissolveCoroutine$d__65;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private StretchableObstacle _stretchableObstacle
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::StretchableObstacle* stretchableObstacle;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::StretchableObstacle*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124F6D0
+    // [SpaceAttribute] Offset: 0x10D4204
     // private System.Single _endDistanceOffset
     // Size: 0x4
     // Offset: 0x30
@@ -103,21 +95,21 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::GameObject*> visualWrappers;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::GameObject*>) == 0x8);
-    // [InjectAttribute] Offset: 0x124F718
+    // [InjectAttribute] Offset: 0x10D424C
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0x124F728
+    // [InjectAttribute] Offset: 0x10D425C
     // private readonly IAudioTimeSource _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::IAudioTimeSource* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0x124F738
+    // [InjectAttribute] Offset: 0x10D426C
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x50
@@ -290,157 +282,152 @@ namespace GlobalNamespace {
     // Set static field: static public System.Single kAvoidMarkTimeOffset
     static void _set_kAvoidMarkTimeOffset(float value);
     // Get instance field reference: private StretchableObstacle _stretchableObstacle
-    ::GlobalNamespace::StretchableObstacle*& dyn__stretchableObstacle();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::StretchableObstacle*& dyn__stretchableObstacle();
     // Get instance field reference: private System.Single _endDistanceOffset
-    float& dyn__endDistanceOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__endDistanceOffset();
     // Get instance field reference: private UnityEngine.GameObject[] _visualWrappers
-    ::ArrayW<::UnityEngine::GameObject*>& dyn__visualWrappers();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::GameObject*>& dyn__visualWrappers();
     // Get instance field reference: private readonly PlayerTransforms _playerTransforms
-    ::GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSyncController
-    ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSyncController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSyncController();
     // Get instance field reference: private readonly ColorManager _colorManager
-    ::GlobalNamespace::ColorManager*& dyn__colorManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorManager*& dyn__colorManager();
     // Get instance field reference: private System.Action`1<ObstacleController> finishedMovementEvent
-    ::System::Action_1<::GlobalNamespace::ObstacleController*>*& dyn_finishedMovementEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::ObstacleController*>*& dyn_finishedMovementEvent();
     // Get instance field reference: private System.Action`1<ObstacleController> passedThreeQuartersOfMove2Event
-    ::System::Action_1<::GlobalNamespace::ObstacleController*>*& dyn_passedThreeQuartersOfMove2Event();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::ObstacleController*>*& dyn_passedThreeQuartersOfMove2Event();
     // Get instance field reference: private System.Action`1<ObstacleController> passedAvoidedMarkEvent
-    ::System::Action_1<::GlobalNamespace::ObstacleController*>*& dyn_passedAvoidedMarkEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::ObstacleController*>*& dyn_passedAvoidedMarkEvent();
     // Get instance field reference: private System.Action`1<ObstacleController> didDissolveEvent
-    ::System::Action_1<::GlobalNamespace::ObstacleController*>*& dyn_didDissolveEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::ObstacleController*>*& dyn_didDissolveEvent();
     // Get instance field reference: private System.Action`2<ObstacleController,System.Single> didUpdateProgress
-    ::System::Action_2<::GlobalNamespace::ObstacleController*, float>*& dyn_didUpdateProgress();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::ObstacleController*, float>*& dyn_didUpdateProgress();
     // Get instance field reference: private System.Single _width
-    float& dyn__width();
+    [[deprecated("Use field access instead!")]] float& dyn__width();
     // Get instance field reference: private System.Single _height
-    float& dyn__height();
+    [[deprecated("Use field access instead!")]] float& dyn__height();
     // Get instance field reference: private System.Single _length
-    float& dyn__length();
+    [[deprecated("Use field access instead!")]] float& dyn__length();
     // Get instance field reference: private UnityEngine.Vector3 _startPos
-    ::UnityEngine::Vector3& dyn__startPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__startPos();
     // Get instance field reference: private UnityEngine.Vector3 _midPos
-    ::UnityEngine::Vector3& dyn__midPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__midPos();
     // Get instance field reference: private UnityEngine.Vector3 _endPos
-    ::UnityEngine::Vector3& dyn__endPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__endPos();
     // Get instance field reference: private System.Single _move1Duration
-    float& dyn__move1Duration();
+    [[deprecated("Use field access instead!")]] float& dyn__move1Duration();
     // Get instance field reference: private System.Single _move2Duration
-    float& dyn__move2Duration();
+    [[deprecated("Use field access instead!")]] float& dyn__move2Duration();
     // Get instance field reference: private System.Single _startTimeOffset
-    float& dyn__startTimeOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__startTimeOffset();
     // Get instance field reference: private System.Single _obstacleDuration
-    float& dyn__obstacleDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__obstacleDuration();
     // Get instance field reference: private System.Boolean _passedThreeQuartersOfMove2Reported
-    bool& dyn__passedThreeQuartersOfMove2Reported();
+    [[deprecated("Use field access instead!")]] bool& dyn__passedThreeQuartersOfMove2Reported();
     // Get instance field reference: private System.Boolean _passedAvoidedMarkReported
-    bool& dyn__passedAvoidedMarkReported();
+    [[deprecated("Use field access instead!")]] bool& dyn__passedAvoidedMarkReported();
     // Get instance field reference: private System.Single _passedAvoidedMarkTime
-    float& dyn__passedAvoidedMarkTime();
+    [[deprecated("Use field access instead!")]] float& dyn__passedAvoidedMarkTime();
     // Get instance field reference: private System.Single _finishMovementTime
-    float& dyn__finishMovementTime();
+    [[deprecated("Use field access instead!")]] float& dyn__finishMovementTime();
     // Get instance field reference: private UnityEngine.Bounds _bounds
-    ::UnityEngine::Bounds& dyn__bounds();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Bounds& dyn__bounds();
     // Get instance field reference: private System.Boolean _dissolving
-    bool& dyn__dissolving();
+    [[deprecated("Use field access instead!")]] bool& dyn__dissolving();
     // Get instance field reference: private ObstacleData _obstacleData
-    ::GlobalNamespace::ObstacleData*& dyn__obstacleData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ObstacleData*& dyn__obstacleData();
     // Get instance field reference: private UnityEngine.Color _color
-    ::UnityEngine::Color& dyn__color();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // Get instance field reference: private UnityEngine.Quaternion _worldRotation
-    ::UnityEngine::Quaternion& dyn__worldRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__worldRotation();
     // Get instance field reference: private UnityEngine.Quaternion _inverseWorldRotation
-    ::UnityEngine::Quaternion& dyn__inverseWorldRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__inverseWorldRotation();
     // public UnityEngine.Bounds get_bounds()
-    // Offset: 0x147E250
+    // Offset: 0x14B4AD0
     ::UnityEngine::Bounds get_bounds();
     // public ObstacleData get_obstacleData()
-    // Offset: 0x147E264
+    // Offset: 0x14B4AE4
     ::GlobalNamespace::ObstacleData* get_obstacleData();
     // public System.Boolean get_hasPassedAvoidedMark()
-    // Offset: 0x147E26C
+    // Offset: 0x14B4AEC
     bool get_hasPassedAvoidedMark();
     // public System.Single get_move1Duration()
-    // Offset: 0x147E274
+    // Offset: 0x14B4AF4
     float get_move1Duration();
     // public System.Single get_move2Duration()
-    // Offset: 0x147E27C
+    // Offset: 0x14B4AFC
     float get_move2Duration();
     // public System.Single get_width()
-    // Offset: 0x147E284
+    // Offset: 0x14B4B04
     float get_width();
     // public System.Single get_height()
-    // Offset: 0x147E28C
+    // Offset: 0x14B4B0C
     float get_height();
     // public System.Single get_length()
-    // Offset: 0x147E294
+    // Offset: 0x14B4B14
     float get_length();
     // public UnityEngine.Color get_color()
-    // Offset: 0x147E29C
+    // Offset: 0x14B4B1C
     ::UnityEngine::Color get_color();
     // public System.Void add_finishedMovementEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x147DBE8
+    // Offset: 0x14B4468
     void add_finishedMovementEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void remove_finishedMovementEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x147DC8C
+    // Offset: 0x14B450C
     void remove_finishedMovementEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void add_passedThreeQuartersOfMove2Event(System.Action`1<ObstacleController> value)
-    // Offset: 0x147DD30
+    // Offset: 0x14B45B0
     void add_passedThreeQuartersOfMove2Event(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void remove_passedThreeQuartersOfMove2Event(System.Action`1<ObstacleController> value)
-    // Offset: 0x147DDD4
+    // Offset: 0x14B4654
     void remove_passedThreeQuartersOfMove2Event(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void add_passedAvoidedMarkEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x147DE78
+    // Offset: 0x14B46F8
     void add_passedAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void remove_passedAvoidedMarkEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x147DF1C
+    // Offset: 0x14B479C
     void remove_passedAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void add_didDissolveEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x147DFC0
+    // Offset: 0x14B4840
     void add_didDissolveEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void remove_didDissolveEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x147E064
+    // Offset: 0x14B48E4
     void remove_didDissolveEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void add_didUpdateProgress(System.Action`2<ObstacleController,System.Single> value)
-    // Offset: 0x147E108
+    // Offset: 0x14B4988
     void add_didUpdateProgress(::System::Action_2<::GlobalNamespace::ObstacleController*, float>* value);
     // public System.Void remove_didUpdateProgress(System.Action`2<ObstacleController,System.Single> value)
-    // Offset: 0x147E1AC
+    // Offset: 0x14B4A2C
     void remove_didUpdateProgress(::System::Action_2<::GlobalNamespace::ObstacleController*, float>* value);
     // public System.Void Init(ObstacleData obstacleData, System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 midPos, UnityEngine.Vector3 endPos, System.Single move1Duration, System.Single move2Duration, System.Single singleLineWidth, System.Single height)
-    // Offset: 0x147E2A8
+    // Offset: 0x14B4B28
     void Init(::GlobalNamespace::ObstacleData* obstacleData, float worldRotation, ::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 midPos, ::UnityEngine::Vector3 endPos, float move1Duration, float move2Duration, float singleLineWidth, float height);
     // protected System.Void Update()
-    // Offset: 0x147E654
+    // Offset: 0x14B4ED4
     void Update();
     // public System.Void ManualUpdate()
-    // Offset: 0x147E660
+    // Offset: 0x14B4EE0
     void ManualUpdate();
     // private UnityEngine.Vector3 GetPosForTime(System.Single time)
-    // Offset: 0x147E8A8
+    // Offset: 0x14B5128
     ::UnityEngine::Vector3 GetPosForTime(float time);
     // private System.Collections.IEnumerator DissolveCoroutine(System.Single duration)
-    // Offset: 0x147EA5C
+    // Offset: 0x14B52DC
     ::System::Collections::IEnumerator* DissolveCoroutine(float duration);
     // public System.Void Dissolve(System.Single duration)
-    // Offset: 0x147EB08
+    // Offset: 0x14B5388
     void Dissolve(float duration);
     // public System.Void Hide(System.Boolean hide)
-    // Offset: 0x147EB48
+    // Offset: 0x14B53C8
     void Hide(bool hide);
     // public System.Void Pause(System.Boolean pause)
-    // Offset: 0x147EBC8
+    // Offset: 0x14B5448
     void Pause(bool pause);
     // public System.Void .ctor()
-    // Offset: 0x147EBD8
+    // Offset: 0x14B5458
     // Implemented from: ObstacleControllerBase
     // Base method: System.Void ObstacleControllerBase::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObstacleController::.ctor");

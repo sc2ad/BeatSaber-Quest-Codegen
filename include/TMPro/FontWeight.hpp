@@ -96,7 +96,7 @@ namespace TMPro {
     // Set static field: static public TMPro.FontWeight Black
     static void _set_Black(::TMPro::FontWeight value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // TMPro.FontWeight
   #pragma pack(pop)
   static check_size<sizeof(FontWeight), 0 + sizeof(int)> __TMPro_FontWeightSizeCheck;

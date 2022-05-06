@@ -23,15 +23,7 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class RegexCharClass::SingleRange : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Char _first
     // Size: 0x2
     // Offset: 0x10
@@ -46,11 +38,11 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(::Il2CppChar) == 0x2);
     public:
     // Get instance field reference: System.Char _first
-    ::Il2CppChar& dyn__first();
+    [[deprecated("Use field access instead!")]] ::Il2CppChar& dyn__first();
     // Get instance field reference: System.Char _last
-    ::Il2CppChar& dyn__last();
+    [[deprecated("Use field access instead!")]] ::Il2CppChar& dyn__last();
     // System.Void .ctor(System.Char first, System.Char last)
-    // Offset: 0x1D88A0C
+    // Offset: 0x1DDB2F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexCharClass::SingleRange* New_ctor(::Il2CppChar first, ::Il2CppChar last) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexCharClass::SingleRange::.ctor");

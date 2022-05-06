@@ -67,7 +67,7 @@ namespace NUnit::Framework {
     // Set static field: static public NUnit.Framework.ParallelScope Fixtures
     static void _set_Fixtures(::NUnit::Framework::ParallelScope value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // NUnit.Framework.ParallelScope
   #pragma pack(pop)
   static check_size<sizeof(ParallelScope), 0 + sizeof(int)> __NUnit_Framework_ParallelScopeSizeCheck;

@@ -66,7 +66,7 @@ namespace NUnit::Framework::Interfaces {
     // Set static field: static public NUnit.Framework.Interfaces.TestStatus Failed
     static void _set_Failed(::NUnit::Framework::Interfaces::TestStatus value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // NUnit.Framework.Interfaces.TestStatus
   #pragma pack(pop)
   static check_size<sizeof(TestStatus), 0 + sizeof(int)> __NUnit_Framework_Interfaces_TestStatusSizeCheck;

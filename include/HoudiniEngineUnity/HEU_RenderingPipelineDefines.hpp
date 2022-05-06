@@ -41,35 +41,33 @@ namespace HoudiniEngineUnity {
   class HEU_RenderingPipelineDefines : public ::Il2CppObject {
     public:
     // static private System.Void .cctor()
-    // Offset: 0x1AC8298
+    // Offset: 0x1B03880
     static void _cctor();
-    // static private System.Void UpdateDefines()
-    // Offset: 0x1AC829C
-    static void UpdateDefines();
-    // static public HoudiniEngineUnity.HEU_PipelineType GetPipeline()
-    // Offset: 0x1AC4EF4
-    static ::HoudiniEngineUnity::HEU_PipelineType GetPipeline();
-    // static private System.Void AddDefine(System.String define)
-    // Offset: 0x1AC83BC
-    static void AddDefine(::StringW define);
-    // static public System.Void RemoveDefine(System.String define)
-    // Offset: 0x1AC8488
-    static void RemoveDefine(::StringW define);
-    // static public System.Collections.Generic.List`1<System.String> GetDefines()
-    // Offset: 0x1AC8554
-    static ::System::Collections::Generic::List_1<::StringW>* GetDefines();
-    // static public System.Void SetDefines(System.Collections.Generic.List`1<System.String> definesList)
-    // Offset: 0x1AC85B8
-    static void SetDefines(::System::Collections::Generic::List_1<::StringW>* definesList);
     // public System.Void .ctor()
-    // Offset: 0x1AC85BC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B03BA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_RenderingPipelineDefines* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_RenderingPipelineDefines::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_RenderingPipelineDefines*, creationType>()));
     }
+    // static private System.Void UpdateDefines()
+    // Offset: 0x1B03884
+    static void UpdateDefines();
+    // static public HoudiniEngineUnity.HEU_PipelineType GetPipeline()
+    // Offset: 0x1B004DC
+    static ::HoudiniEngineUnity::HEU_PipelineType GetPipeline();
+    // static private System.Void AddDefine(System.String define)
+    // Offset: 0x1B039A4
+    static void AddDefine(::StringW define);
+    // static public System.Void RemoveDefine(System.String define)
+    // Offset: 0x1B03A70
+    static void RemoveDefine(::StringW define);
+    // static public System.Collections.Generic.List`1<System.String> GetDefines()
+    // Offset: 0x1B03B3C
+    static ::System::Collections::Generic::List_1<::StringW>* GetDefines();
+    // static public System.Void SetDefines(System.Collections.Generic.List`1<System.String> definesList)
+    // Offset: 0x1B03BA0
+    static void SetDefines(::System::Collections::Generic::List_1<::StringW>* definesList);
   }; // HoudiniEngineUnity.HEU_RenderingPipelineDefines
   #pragma pack(pop)
 }
@@ -82,6 +80,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_RenderingPipelineDefines*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_RenderingPipelineDefines::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_RenderingPipelineDefines::UpdateDefines
 // Il2CppName: UpdateDefines
 template<>
@@ -133,7 +135,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_RenderingPipelineDefines*), "SetDefines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{definesList});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_RenderingPipelineDefines::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

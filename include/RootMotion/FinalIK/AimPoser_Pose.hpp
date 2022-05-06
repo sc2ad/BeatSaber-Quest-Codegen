@@ -26,15 +26,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class AimPoser::Pose : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean visualize
     // Size: 0x1
     // Offset: 0x10
@@ -75,38 +67,40 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public System.Boolean visualize
-    bool& dyn_visualize();
+    [[deprecated("Use field access instead!")]] bool& dyn_visualize();
     // Get instance field reference: public System.String name
-    ::StringW& dyn_name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_name();
     // Get instance field reference: public UnityEngine.Vector3 direction
-    ::UnityEngine::Vector3& dyn_direction();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_direction();
     // Get instance field reference: public System.Single yaw
-    float& dyn_yaw();
+    [[deprecated("Use field access instead!")]] float& dyn_yaw();
     // Get instance field reference: public System.Single pitch
-    float& dyn_pitch();
+    [[deprecated("Use field access instead!")]] float& dyn_pitch();
     // Get instance field reference: private System.Single angleBuffer
-    float& dyn_angleBuffer();
-    // public System.Boolean IsInDirection(UnityEngine.Vector3 d)
-    // Offset: 0x2202AD0
-    bool IsInDirection(::UnityEngine::Vector3 d);
-    // public System.Void SetAngleBuffer(System.Single value)
-    // Offset: 0x2202E3C
-    void SetAngleBuffer(float value);
+    [[deprecated("Use field access instead!")]] float& dyn_angleBuffer();
     // public System.Void .ctor()
-    // Offset: 0x2202E44
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x22506B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AimPoser::Pose* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::AimPoser::Pose::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AimPoser::Pose*, creationType>()));
     }
+    // public System.Boolean IsInDirection(UnityEngine.Vector3 d)
+    // Offset: 0x2250344
+    bool IsInDirection(::UnityEngine::Vector3 d);
+    // public System.Void SetAngleBuffer(System.Single value)
+    // Offset: 0x22506B0
+    void SetAngleBuffer(float value);
   }; // RootMotion.FinalIK.AimPoser/RootMotion.FinalIK.Pose
   #pragma pack(pop)
   static check_size<sizeof(AimPoser::Pose), 52 + sizeof(float)> __RootMotion_FinalIK_AimPoser_PoseSizeCheck;
   static_assert(sizeof(AimPoser::Pose) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::AimPoser::Pose::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::AimPoser::Pose::IsInDirection
 // Il2CppName: IsInDirection
 template<>
@@ -125,7 +119,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::AimPoser::Pose*), "SetAngleBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::AimPoser::Pose::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

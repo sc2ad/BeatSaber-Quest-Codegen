@@ -74,7 +74,6 @@ namespace Zenject {
     // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.KeyedFactoryBase`2
     // Base method: System.Void KeyedFactoryBase_2::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyedFactory_3<TBase, TKey, TParam1>* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::KeyedFactory_3::.ctor");

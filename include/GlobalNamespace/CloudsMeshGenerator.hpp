@@ -95,7 +95,7 @@ namespace GlobalNamespace {
       int weight;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      // [HeaderAttribute] Offset: 0x1260EB4
+      // [HeaderAttribute] Offset: 0x10E5B5C
       // public System.Int32 precisionVertexCount
       // Size: 0x4
       // Offset: 0x1C
@@ -122,21 +122,21 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public UnityEngine.Mesh precisionOpaqueMesh
-      ::UnityEngine::Mesh*& dyn_precisionOpaqueMesh();
+      [[deprecated("Use field access instead!")]] ::UnityEngine::Mesh*& dyn_precisionOpaqueMesh();
       // Get instance field reference: public UnityEngine.Mesh lowPolyMesh
-      ::UnityEngine::Mesh*& dyn_lowPolyMesh();
+      [[deprecated("Use field access instead!")]] ::UnityEngine::Mesh*& dyn_lowPolyMesh();
       // Get instance field reference: public System.Single sizeModifier
-      float& dyn_sizeModifier();
+      [[deprecated("Use field access instead!")]] float& dyn_sizeModifier();
       // Get instance field reference: public System.Single bottomThreshold
-      float& dyn_bottomThreshold();
+      [[deprecated("Use field access instead!")]] float& dyn_bottomThreshold();
       // Get instance field reference: public System.Int32 weight
-      int& dyn_weight();
+      [[deprecated("Use field access instead!")]] int& dyn_weight();
       // Get instance field reference: public System.Int32 precisionVertexCount
-      int& dyn_precisionVertexCount();
+      [[deprecated("Use field access instead!")]] int& dyn_precisionVertexCount();
       // Get instance field reference: public System.Int32 lowPolyVertexCount
-      int& dyn_lowPolyVertexCount();
+      [[deprecated("Use field access instead!")]] int& dyn_lowPolyVertexCount();
       // Get instance field reference: public System.Int32 generatedCount
-      int& dyn_generatedCount();
+      [[deprecated("Use field access instead!")]] int& dyn_generatedCount();
     }; // CloudsMeshGenerator/Cloud
     #pragma pack(pop)
     static check_size<sizeof(CloudsMeshGenerator::Cloud), 36 + sizeof(int)> __GlobalNamespace_CloudsMeshGenerator_CloudSizeCheck;
@@ -189,15 +189,15 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public System.Single radius
-      float& dyn_radius();
+      [[deprecated("Use field access instead!")]] float& dyn_radius();
       // Get instance field reference: public System.Single normalizedRadius
-      float& dyn_normalizedRadius();
+      [[deprecated("Use field access instead!")]] float& dyn_normalizedRadius();
       // Get instance field reference: public System.Int32 meshCount
-      int& dyn_meshCount();
+      [[deprecated("Use field access instead!")]] int& dyn_meshCount();
       // Get instance field reference: public System.Int32[] cloudIDs
-      ::ArrayW<int>& dyn_cloudIDs();
+      [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_cloudIDs();
       // Get instance field reference: public System.Single sizeMultiplier
-      float& dyn_sizeMultiplier();
+      [[deprecated("Use field access instead!")]] float& dyn_sizeMultiplier();
     }; // CloudsMeshGenerator/Ring
     #pragma pack(pop)
     static check_size<sizeof(CloudsMeshGenerator::Ring), 24 + sizeof(float)> __GlobalNamespace_CloudsMeshGenerator_RingSizeCheck;
@@ -210,7 +210,7 @@ namespace GlobalNamespace {
     struct ProhibitedRadius/*, public ::System::ValueType*/ {
       public:
       public:
-      // [NullAllowed] Offset: 0x1260EEC
+      // [NullAllowed] Offset: 0x10E5B94
       // public UnityEngine.Transform transform
       // Size: 0x8
       // Offset: 0x0
@@ -223,7 +223,7 @@ namespace GlobalNamespace {
       float distance;
       // Field size check
       static_assert(sizeof(float) == 0x4);
-      // [MinAttribute] Offset: 0x1260EFC
+      // [MinAttribute] Offset: 0x10E5BA4
       // public System.Single radius
       // Size: 0x4
       // Offset: 0xC
@@ -238,11 +238,11 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public UnityEngine.Transform transform
-      ::UnityEngine::Transform*& dyn_transform();
+      [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_transform();
       // Get instance field reference: public System.Single distance
-      float& dyn_distance();
+      [[deprecated("Use field access instead!")]] float& dyn_distance();
       // Get instance field reference: public System.Single radius
-      float& dyn_radius();
+      [[deprecated("Use field access instead!")]] float& dyn_radius();
     }; // CloudsMeshGenerator/ProhibitedRadius
     #pragma pack(pop)
     static check_size<sizeof(CloudsMeshGenerator::ProhibitedRadius), 12 + sizeof(float)> __GlobalNamespace_CloudsMeshGenerator_ProhibitedRadiusSizeCheck;
@@ -287,26 +287,18 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public System.Single normalizedStart
-      float& dyn_normalizedStart();
+      [[deprecated("Use field access instead!")]] float& dyn_normalizedStart();
       // Get instance field reference: public System.Single normalizedEnd
-      float& dyn_normalizedEnd();
+      [[deprecated("Use field access instead!")]] float& dyn_normalizedEnd();
       // Get instance field reference: public System.Single absoluteStart
-      float& dyn_absoluteStart();
+      [[deprecated("Use field access instead!")]] float& dyn_absoluteStart();
       // Get instance field reference: public System.Single absoluteEnd
-      float& dyn_absoluteEnd();
+      [[deprecated("Use field access instead!")]] float& dyn_absoluteEnd();
     }; // CloudsMeshGenerator/RadiusChunk
     #pragma pack(pop)
     static check_size<sizeof(CloudsMeshGenerator::RadiusChunk), 12 + sizeof(float)> __GlobalNamespace_CloudsMeshGenerator_RadiusChunkSizeCheck;
     static_assert(sizeof(CloudsMeshGenerator::RadiusChunk) == 0x10);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.MeshFilter _meshFilter
     // Size: 0x8
     // Offset: 0x18
@@ -319,14 +311,14 @@ namespace GlobalNamespace {
     ::StringW meshName;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [HeaderAttribute] Offset: 0x1248D78
+    // [HeaderAttribute] Offset: 0x10CD870
     // private System.Boolean _pauseGenerator
     // Size: 0x1
     // Offset: 0x28
     bool pauseGenerator;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [HeaderAttribute] Offset: 0x1248DC4
+    // [HeaderAttribute] Offset: 0x10CD8BC
     // private System.Boolean _bottomPushEnabled
     // Size: 0x1
     // Offset: 0x29
@@ -335,28 +327,28 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: bottomPushEnabled and: bottomPushDistance
     char __padding3[0x2] = {};
-    // [DrawIfAttribute] Offset: 0x1248E10
+    // [DrawIfAttribute] Offset: 0x10CD908
     // private System.Single _bottomPushDistance
     // Size: 0x4
     // Offset: 0x2C
     float bottomPushDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0x1248EB8
+    // [DrawIfAttribute] Offset: 0x10CD9B0
     // private UnityEngine.Vector2 _bottomScaleTopBottom
     // Size: 0x8
     // Offset: 0x30
     ::UnityEngine::Vector2 bottomScaleTopBottom;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
-    // [DrawIfAttribute] Offset: 0x1248F60
+    // [DrawIfAttribute] Offset: 0x10CDA58
     // private System.Single _bottomHorizontalScale
     // Size: 0x4
     // Offset: 0x38
     float bottomHorizontalScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x1249008
+    // [HeaderAttribute] Offset: 0x10CDB00
     // private System.Boolean _drawRingGizmos
     // Size: 0x1
     // Offset: 0x3C
@@ -371,30 +363,30 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius> prohibitedRadii;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>) == 0x8);
-    // [HeaderAttribute] Offset: 0x1249064
+    // [HeaderAttribute] Offset: 0x10CDB5C
     // private UnityEngine.Vector2 _meshSize
     // Size: 0x8
     // Offset: 0x48
     ::UnityEngine::Vector2 meshSize;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
-    // [RangeAttribute] Offset: 0x12490B0
+    // [RangeAttribute] Offset: 0x10CDBA8
     // private System.Single _sizeRandomness
     // Size: 0x4
     // Offset: 0x50
     float sizeRandomness;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x12490F0
+    // [RangeAttribute] Offset: 0x10CDBE8
     // private System.Single _ratioRandomness
     // Size: 0x4
     // Offset: 0x54
     float ratioRandomness;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x1249130
-    // [TooltipAttribute] Offset: 0x1249130
-    // [RangeAttribute] Offset: 0x1249130
+    // [HeaderAttribute] Offset: 0x10CDC28
+    // [TooltipAttribute] Offset: 0x10CDC28
+    // [RangeAttribute] Offset: 0x10CDC28
     // private System.Single _perMeshRadiusOffset
     // Size: 0x4
     // Offset: 0x58
@@ -409,7 +401,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Gradient* possibleColors;
     // Field size check
     static_assert(sizeof(::UnityEngine::Gradient*) == 0x8);
-    // [RangeAttribute] Offset: 0x12491D0
+    // [RangeAttribute] Offset: 0x10CDCC8
     // private System.Int32 _randomSeed
     // Size: 0x4
     // Offset: 0x68
@@ -428,7 +420,7 @@ namespace GlobalNamespace {
     float ringRotationRandomness;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [MinAttribute] Offset: 0x1249234
+    // [MinAttribute] Offset: 0x10CDD2C
     // private System.Int32 _ringCount
     // Size: 0x4
     // Offset: 0x74
@@ -441,7 +433,7 @@ namespace GlobalNamespace {
     float meshesPerRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x1249280
+    // [HeaderAttribute] Offset: 0x10CDD78
     // private UnityEngine.Vector2 _radiusCloseFar
     // Size: 0x8
     // Offset: 0x7C
@@ -468,7 +460,7 @@ namespace GlobalNamespace {
     float lowPolyThreshold;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x12492FC
+    // [HeaderAttribute] Offset: 0x10CDDF4
     // private System.Boolean _flipNormals
     // Size: 0x1
     // Offset: 0x9C
@@ -489,7 +481,7 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::CloudsMeshGenerator::Cloud> clouds;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::CloudsMeshGenerator::Cloud>) == 0x8);
-    // [HeaderAttribute] Offset: 0x1249368
+    // [HeaderAttribute] Offset: 0x10CDE60
     // private System.Int32 _meshCount
     // Size: 0x4
     // Offset: 0xA8
@@ -536,79 +528,73 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.MeshFilter _meshFilter
-    ::UnityEngine::MeshFilter*& dyn__meshFilter();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MeshFilter*& dyn__meshFilter();
     // Get instance field reference: private System.String _meshName
-    ::StringW& dyn__meshName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__meshName();
     // Get instance field reference: private System.Boolean _pauseGenerator
-    bool& dyn__pauseGenerator();
+    [[deprecated("Use field access instead!")]] bool& dyn__pauseGenerator();
     // Get instance field reference: private System.Boolean _bottomPushEnabled
-    bool& dyn__bottomPushEnabled();
+    [[deprecated("Use field access instead!")]] bool& dyn__bottomPushEnabled();
     // Get instance field reference: private System.Single _bottomPushDistance
-    float& dyn__bottomPushDistance();
+    [[deprecated("Use field access instead!")]] float& dyn__bottomPushDistance();
     // Get instance field reference: private UnityEngine.Vector2 _bottomScaleTopBottom
-    ::UnityEngine::Vector2& dyn__bottomScaleTopBottom();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn__bottomScaleTopBottom();
     // Get instance field reference: private System.Single _bottomHorizontalScale
-    float& dyn__bottomHorizontalScale();
+    [[deprecated("Use field access instead!")]] float& dyn__bottomHorizontalScale();
     // Get instance field reference: private System.Boolean _drawRingGizmos
-    bool& dyn__drawRingGizmos();
+    [[deprecated("Use field access instead!")]] bool& dyn__drawRingGizmos();
     // Get instance field reference: private CloudsMeshGenerator/ProhibitedRadius[] _prohibitedRadii
-    ::ArrayW<::GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>& dyn__prohibitedRadii();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>& dyn__prohibitedRadii();
     // Get instance field reference: private UnityEngine.Vector2 _meshSize
-    ::UnityEngine::Vector2& dyn__meshSize();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn__meshSize();
     // Get instance field reference: private System.Single _sizeRandomness
-    float& dyn__sizeRandomness();
+    [[deprecated("Use field access instead!")]] float& dyn__sizeRandomness();
     // Get instance field reference: private System.Single _ratioRandomness
-    float& dyn__ratioRandomness();
+    [[deprecated("Use field access instead!")]] float& dyn__ratioRandomness();
     // Get instance field reference: private System.Single _perMeshRadiusOffset
-    float& dyn__perMeshRadiusOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__perMeshRadiusOffset();
     // Get instance field reference: private UnityEngine.Gradient _possibleColors
-    ::UnityEngine::Gradient*& dyn__possibleColors();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Gradient*& dyn__possibleColors();
     // Get instance field reference: private System.Int32 _randomSeed
-    int& dyn__randomSeed();
+    [[deprecated("Use field access instead!")]] int& dyn__randomSeed();
     // Get instance field reference: private System.Single _heightRandomness
-    float& dyn__heightRandomness();
+    [[deprecated("Use field access instead!")]] float& dyn__heightRandomness();
     // Get instance field reference: private System.Single _ringRotationRandomness
-    float& dyn__ringRotationRandomness();
+    [[deprecated("Use field access instead!")]] float& dyn__ringRotationRandomness();
     // Get instance field reference: private System.Int32 _ringCount
-    int& dyn__ringCount();
+    [[deprecated("Use field access instead!")]] int& dyn__ringCount();
     // Get instance field reference: private System.Single _meshesPerRadius
-    float& dyn__meshesPerRadius();
+    [[deprecated("Use field access instead!")]] float& dyn__meshesPerRadius();
     // Get instance field reference: private UnityEngine.Vector2 _radiusCloseFar
-    ::UnityEngine::Vector2& dyn__radiusCloseFar();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn__radiusCloseFar();
     // Get instance field reference: private UnityEngine.Vector2 _sizeCloseFar
-    ::UnityEngine::Vector2& dyn__sizeCloseFar();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn__sizeCloseFar();
     // Get instance field reference: private UnityEngine.AnimationCurve _heightCloseFar
-    ::UnityEngine::AnimationCurve*& dyn__heightCloseFar();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__heightCloseFar();
     // Get instance field reference: private System.Single _lowPolyThreshold
-    float& dyn__lowPolyThreshold();
+    [[deprecated("Use field access instead!")]] float& dyn__lowPolyThreshold();
     // Get instance field reference: private System.Boolean _flipNormals
-    bool& dyn__flipNormals();
+    [[deprecated("Use field access instead!")]] bool& dyn__flipNormals();
     // Get instance field reference: private System.Boolean _curveMesh
-    bool& dyn__curveMesh();
+    [[deprecated("Use field access instead!")]] bool& dyn__curveMesh();
     // Get instance field reference: private CloudsMeshGenerator/Cloud[] _clouds
-    ::ArrayW<::GlobalNamespace::CloudsMeshGenerator::Cloud>& dyn__clouds();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::CloudsMeshGenerator::Cloud>& dyn__clouds();
     // Get instance field reference: private System.Int32 _meshCount
-    int& dyn__meshCount();
+    [[deprecated("Use field access instead!")]] int& dyn__meshCount();
     // Get instance field reference: private System.Int32 _vertexCount
-    int& dyn__vertexCount();
+    [[deprecated("Use field access instead!")]] int& dyn__vertexCount();
     // Get instance field reference: private UnityEngine.Mesh _generatedMesh
-    ::UnityEngine::Mesh*& dyn__generatedMesh();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Mesh*& dyn__generatedMesh();
     // Get instance field reference: private UnityEngine.Bounds _meshBounds
-    ::UnityEngine::Bounds& dyn__meshBounds();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Bounds& dyn__meshBounds();
     // Get instance field reference: private CloudsMeshGenerator/RadiusChunk[] _radiusChunks
-    ::ArrayW<::GlobalNamespace::CloudsMeshGenerator::RadiusChunk>& dyn__radiusChunks();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::CloudsMeshGenerator::RadiusChunk>& dyn__radiusChunks();
     // Get instance field reference: private CloudsMeshGenerator/Ring[] _rings
-    ::ArrayW<::GlobalNamespace::CloudsMeshGenerator::Ring>& dyn__rings();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::CloudsMeshGenerator::Ring>& dyn__rings();
     // Get instance field reference: private CloudsMeshGenerator/ProhibitedRadius[] _sortedProhibitedRadii
-    ::ArrayW<::GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>& dyn__sortedProhibitedRadii();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>& dyn__sortedProhibitedRadii();
     // public System.Void .ctor()
-    // Offset: 0x13550B0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x133E2F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CloudsMeshGenerator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CloudsMeshGenerator::.ctor");

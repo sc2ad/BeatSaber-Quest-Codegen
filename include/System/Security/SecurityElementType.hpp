@@ -60,7 +60,7 @@ namespace System::Security {
     // Set static field: static public System.Security.SecurityElementType Comment
     static void _set_Comment(::System::Security::SecurityElementType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Security.SecurityElementType
   #pragma pack(pop)
   static check_size<sizeof(SecurityElementType), 0 + sizeof(int)> __System_Security_SecurityElementTypeSizeCheck;

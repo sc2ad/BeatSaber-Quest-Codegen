@@ -36,15 +36,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
   // [TokenAttribute] Offset: FFFFFFFF
   class SipHash : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IMac*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected readonly System.Int32 c
     // Size: 0x4
     // Offset: 0x10
@@ -117,79 +109,81 @@ namespace Org::BouncyCastle::Crypto::Macs {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IMac*>(this);
     }
     // Get instance field reference: protected readonly System.Int32 c
-    int& dyn_c();
+    [[deprecated("Use field access instead!")]] int& dyn_c();
     // Get instance field reference: protected readonly System.Int32 d
-    int& dyn_d();
+    [[deprecated("Use field access instead!")]] int& dyn_d();
     // Get instance field reference: protected System.Int64 k0
-    int64_t& dyn_k0();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_k0();
     // Get instance field reference: protected System.Int64 k1
-    int64_t& dyn_k1();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_k1();
     // Get instance field reference: protected System.Int64 v0
-    int64_t& dyn_v0();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_v0();
     // Get instance field reference: protected System.Int64 v1
-    int64_t& dyn_v1();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_v1();
     // Get instance field reference: protected System.Int64 v2
-    int64_t& dyn_v2();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_v2();
     // Get instance field reference: protected System.Int64 v3
-    int64_t& dyn_v3();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_v3();
     // Get instance field reference: protected System.Int64 m
-    int64_t& dyn_m();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_m();
     // Get instance field reference: protected System.Int32 wordPos
-    int& dyn_wordPos();
+    [[deprecated("Use field access instead!")]] int& dyn_wordPos();
     // Get instance field reference: protected System.Int32 wordCount
-    int& dyn_wordCount();
+    [[deprecated("Use field access instead!")]] int& dyn_wordCount();
+    // public System.Void .ctor()
+    // Offset: 0x1E37C00
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static SipHash* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Macs::SipHash::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<SipHash*, creationType>()));
+    }
     // public System.Void .ctor(System.Int32 c, System.Int32 d)
-    // Offset: 0x1DFD368
+    // Offset: 0x1E37C34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SipHash* New_ctor(int c, int d) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Macs::SipHash::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SipHash*, creationType>(c, d)));
     }
     // public System.Int32 GetMacSize()
-    // Offset: 0x1DFD3A4
+    // Offset: 0x1E37C70
     int GetMacSize();
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1DFD3AC
+    // Offset: 0x1E37C78
     void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1DFD4F0
+    // Offset: 0x1E37DBC
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 offset, System.Int32 length)
-    // Offset: 0x1DFD540
+    // Offset: 0x1E37E0C
     void BlockUpdate(::ArrayW<uint8_t> input, int offset, int length);
     // public System.Int64 DoFinal()
-    // Offset: 0x1DFD710
+    // Offset: 0x1E37FDC
     int64_t DoFinal();
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1DFD7B0
+    // Offset: 0x1E3807C
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1DFD7F8
+    // Offset: 0x1E380C4
     void Reset();
     // protected System.Void ProcessMessageWord()
-    // Offset: 0x1DFD85C
+    // Offset: 0x1E38128
     void ProcessMessageWord();
     // protected System.Void ApplySipRounds(System.Int32 n)
-    // Offset: 0x1DFD8B4
+    // Offset: 0x1E38180
     void ApplySipRounds(int n);
     // static protected System.Int64 RotateLeft(System.Int64 x, System.Int32 n)
-    // Offset: 0x1DFD900
+    // Offset: 0x1E381CC
     static int64_t RotateLeft(int64_t x, int n);
-    // public System.Void .ctor()
-    // Offset: 0x1DFD334
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SipHash* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Macs::SipHash::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<SipHash*, creationType>()));
-    }
   }; // Org.BouncyCastle.Crypto.Macs.SipHash
   #pragma pack(pop)
   static check_size<sizeof(SipHash), 84 + sizeof(int)> __Org_BouncyCastle_Crypto_Macs_SipHashSizeCheck;
   static_assert(sizeof(SipHash) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::SipHash::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::SipHash::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -284,7 +278,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Macs::SipHash*), "RotateLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, n});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::SipHash::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

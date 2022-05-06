@@ -55,7 +55,7 @@ namespace Newtonsoft::Json::Linq {
     // Set static field: static public Newtonsoft.Json.Linq.CommentHandling Load
     static void _set_Load(::Newtonsoft::Json::Linq::CommentHandling value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Newtonsoft.Json.Linq.CommentHandling
   #pragma pack(pop)
   static check_size<sizeof(CommentHandling), 0 + sizeof(int)> __Newtonsoft_Json_Linq_CommentHandlingSizeCheck;

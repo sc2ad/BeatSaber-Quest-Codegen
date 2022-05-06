@@ -41,15 +41,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EncryptionUtility::EncryptionState : public ::Il2CppObject/*, public ::GlobalNamespace::EncryptionUtility::IEncryptionState*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean _isValid
     // Size: 0x1
     // Offset: 0x10
@@ -132,69 +124,69 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kReceivedSequencNumBufferLength
     static void _set_kReceivedSequencNumBufferLength(int value);
     // Get instance field reference: private System.Boolean _isValid
-    bool& dyn__isValid();
+    [[deprecated("Use field access instead!")]] bool& dyn__isValid();
     // Get instance field reference: private System.Int32 _lastSentSequenceNum
-    int& dyn__lastSentSequenceNum();
+    [[deprecated("Use field access instead!")]] int& dyn__lastSentSequenceNum();
     // Get instance field reference: private System.Boolean _hasReceivedSequenceNum
-    bool& dyn__hasReceivedSequenceNum();
+    [[deprecated("Use field access instead!")]] bool& dyn__hasReceivedSequenceNum();
     // Get instance field reference: private System.UInt32 _lastReceivedSequenceNum
-    uint& dyn__lastReceivedSequenceNum();
+    [[deprecated("Use field access instead!")]] uint& dyn__lastReceivedSequenceNum();
     // Get instance field reference: private readonly System.Boolean[] _receivedSequenceNumBuffer
-    ::ArrayW<bool>& dyn__receivedSequenceNumBuffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<bool>& dyn__receivedSequenceNumBuffer();
     // Get instance field reference: public readonly System.Byte[] sendKey
-    ::ArrayW<uint8_t>& dyn_sendKey();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_sendKey();
     // Get instance field reference: public readonly System.Byte[] receiveKey
-    ::ArrayW<uint8_t>& dyn_receiveKey();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_receiveKey();
     // Get instance field reference: private readonly System.Byte[] _sendMacKey
-    ::ArrayW<uint8_t>& dyn__sendMacKey();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__sendMacKey();
     // Get instance field reference: private readonly System.Byte[] _receiveMacKey
-    ::ArrayW<uint8_t>& dyn__receiveMacKey();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__receiveMacKey();
     // Get instance field reference: private readonly System.Collections.Concurrent.ConcurrentQueue`1<Org.BouncyCastle.Crypto.Macs.HMac> _sendMacQueue
-    ::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>*& dyn__sendMacQueue();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>*& dyn__sendMacQueue();
     // Get instance field reference: private readonly System.Collections.Concurrent.ConcurrentQueue`1<Org.BouncyCastle.Crypto.Macs.HMac> _receiveMacQueue
-    ::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>*& dyn__receiveMacQueue();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>*& dyn__receiveMacQueue();
     // public System.Boolean get_isValid()
-    // Offset: 0x1641C18
+    // Offset: 0x1678528
     bool get_isValid();
     // public System.Void .ctor(System.Byte[] preMasterSecret, System.Byte[] serverSeed, System.Byte[] clientSeed, System.Boolean isClient)
-    // Offset: 0x163FDE8
+    // Offset: 0x16766F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncryptionUtility::EncryptionState* New_ctor(::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverSeed, ::ArrayW<uint8_t> clientSeed, bool isClient) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EncryptionUtility::EncryptionState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncryptionUtility::EncryptionState*, creationType>(preMasterSecret, serverSeed, clientSeed, isClient)));
     }
     // public System.Void EncryptData(System.Byte[] data, ref System.Int32 offset, ref System.Int32 length, System.Int32 extraPrefixBytes)
-    // Offset: 0x1641C3C
+    // Offset: 0x167854C
     void EncryptData(::ArrayW<uint8_t> data, ByRef<int> offset, ByRef<int> length, int extraPrefixBytes);
     // public System.Boolean TryDecryptData(System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x1641CD0
+    // Offset: 0x16785E0
     bool TryDecryptData(::ArrayW<uint8_t> data, ByRef<int> offset, ByRef<int> length);
     // public System.Byte[] ComputeSendMac(System.Byte[] data, System.Int32 offset, System.Int32 count)
-    // Offset: 0x16406B0
+    // Offset: 0x1676FC0
     ::ArrayW<uint8_t> ComputeSendMac(::ArrayW<uint8_t> data, int offset, int count);
     // public System.Byte[] ComputeReceiveMac(System.Byte[] data, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1641050
+    // Offset: 0x1677960
     ::ArrayW<uint8_t> ComputeReceiveMac(::ArrayW<uint8_t> data, int offset, int count);
     // public System.Boolean IsValidSequenceNum(System.UInt32 sequenceNum)
-    // Offset: 0x1640F50
+    // Offset: 0x1677860
     bool IsValidSequenceNum(uint sequenceNum);
     // public System.Boolean PutSequenceNum(System.UInt32 sequenceNum)
-    // Offset: 0x164125C
+    // Offset: 0x1677B6C
     bool PutSequenceNum(uint sequenceNum);
     // public System.UInt32 GetNextSentSequenceNum()
-    // Offset: 0x16406A4
+    // Offset: 0x1676FB4
     uint GetNextSentSequenceNum();
     // static private System.Byte[] MakeSeed(System.Byte[] baseSeed, System.Byte[] serverSeed, System.Byte[] clientSeed)
-    // Offset: 0x1641D5C
+    // Offset: 0x167866C
     static ::ArrayW<uint8_t> MakeSeed(::ArrayW<uint8_t> baseSeed, ::ArrayW<uint8_t> serverSeed, ::ArrayW<uint8_t> clientSeed);
     // static private System.Byte[] PRF(System.Byte[] key, System.Byte[] seed, System.Int32 length)
-    // Offset: 0x1641E44
+    // Offset: 0x1678754
     static ::ArrayW<uint8_t> PRF(::ArrayW<uint8_t> key, ::ArrayW<uint8_t> seed, int length);
     // static private System.Void PRF_Hash(System.Byte[] key, System.Byte[] seed, ref System.Int32 length)
-    // Offset: 0x1641F34
+    // Offset: 0x1678844
     static void PRF_Hash(::ArrayW<uint8_t> key, ::ArrayW<uint8_t> seed, ByRef<int> length);
     // public System.Void Dispose()
-    // Offset: 0x16420EC
+    // Offset: 0x16789FC
     void Dispose();
   }; // EncryptionUtility/EncryptionState
   #pragma pack(pop)

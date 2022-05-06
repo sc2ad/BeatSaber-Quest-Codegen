@@ -40,15 +40,7 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class RegexFCD : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32[] _intStack
     // Size: 0x8
     // Offset: 0x10
@@ -95,76 +87,78 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Int32[] _intStack
-    ::ArrayW<int>& dyn__intStack();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__intStack();
     // Get instance field reference: private System.Int32 _intDepth
-    int& dyn__intDepth();
+    [[deprecated("Use field access instead!")]] int& dyn__intDepth();
     // Get instance field reference: private System.Text.RegularExpressions.RegexFC[] _fcStack
-    ::ArrayW<::System::Text::RegularExpressions::RegexFC*>& dyn__fcStack();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Text::RegularExpressions::RegexFC*>& dyn__fcStack();
     // Get instance field reference: private System.Int32 _fcDepth
-    int& dyn__fcDepth();
+    [[deprecated("Use field access instead!")]] int& dyn__fcDepth();
     // Get instance field reference: private System.Boolean _skipAllChildren
-    bool& dyn__skipAllChildren();
+    [[deprecated("Use field access instead!")]] bool& dyn__skipAllChildren();
     // Get instance field reference: private System.Boolean _skipchild
-    bool& dyn__skipchild();
+    [[deprecated("Use field access instead!")]] bool& dyn__skipchild();
     // Get instance field reference: private System.Boolean _failed
-    bool& dyn__failed();
-    // static System.Text.RegularExpressions.RegexPrefix FirstChars(System.Text.RegularExpressions.RegexTree t)
-    // Offset: 0x1D88ED4
-    static ::System::Text::RegularExpressions::RegexPrefix* FirstChars(::System::Text::RegularExpressions::RegexTree* t);
-    // static System.Text.RegularExpressions.RegexPrefix Prefix(System.Text.RegularExpressions.RegexTree tree)
-    // Offset: 0x1D89218
-    static ::System::Text::RegularExpressions::RegexPrefix* Prefix(::System::Text::RegularExpressions::RegexTree* tree);
-    // static System.Int32 Anchors(System.Text.RegularExpressions.RegexTree tree)
-    // Offset: 0x1D89554
-    static int Anchors(::System::Text::RegularExpressions::RegexTree* tree);
-    // static private System.Int32 AnchorFromType(System.Int32 type)
-    // Offset: 0x1D89688
-    static int AnchorFromType(int type);
-    // private System.Void PushInt(System.Int32 I)
-    // Offset: 0x1D896F4
-    void PushInt(int I);
-    // private System.Boolean IntIsEmpty()
-    // Offset: 0x1D897D4
-    bool IntIsEmpty();
-    // private System.Int32 PopInt()
-    // Offset: 0x1D897E4
-    int PopInt();
-    // private System.Void PushFC(System.Text.RegularExpressions.RegexFC fc)
-    // Offset: 0x1D8982C
-    void PushFC(::System::Text::RegularExpressions::RegexFC* fc);
-    // private System.Boolean FCIsEmpty()
-    // Offset: 0x1D89934
-    bool FCIsEmpty();
-    // private System.Text.RegularExpressions.RegexFC PopFC()
-    // Offset: 0x1D89944
-    ::System::Text::RegularExpressions::RegexFC* PopFC();
-    // private System.Text.RegularExpressions.RegexFC TopFC()
-    // Offset: 0x1D8998C
-    ::System::Text::RegularExpressions::RegexFC* TopFC();
-    // private System.Text.RegularExpressions.RegexFC RegexFCFromRegexTree(System.Text.RegularExpressions.RegexTree tree)
-    // Offset: 0x1D8906C
-    ::System::Text::RegularExpressions::RegexFC* RegexFCFromRegexTree(::System::Text::RegularExpressions::RegexTree* tree);
-    // private System.Void SkipChild()
-    // Offset: 0x1D89E3C
-    void SkipChild();
-    // private System.Void CalculateFC(System.Int32 NodeType, System.Text.RegularExpressions.RegexNode node, System.Int32 CurIndex)
-    // Offset: 0x1D899D0
-    void CalculateFC(int NodeType, ::System::Text::RegularExpressions::RegexNode* node, int CurIndex);
+    [[deprecated("Use field access instead!")]] bool& dyn__failed();
     // private System.Void .ctor()
-    // Offset: 0x1D88FF0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1DDB8D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexFCD* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexFCD::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexFCD*, creationType>()));
     }
+    // static System.Text.RegularExpressions.RegexPrefix FirstChars(System.Text.RegularExpressions.RegexTree t)
+    // Offset: 0x1DDB7B8
+    static ::System::Text::RegularExpressions::RegexPrefix* FirstChars(::System::Text::RegularExpressions::RegexTree* t);
+    // static System.Text.RegularExpressions.RegexPrefix Prefix(System.Text.RegularExpressions.RegexTree tree)
+    // Offset: 0x1DDBAFC
+    static ::System::Text::RegularExpressions::RegexPrefix* Prefix(::System::Text::RegularExpressions::RegexTree* tree);
+    // static System.Int32 Anchors(System.Text.RegularExpressions.RegexTree tree)
+    // Offset: 0x1DDBE38
+    static int Anchors(::System::Text::RegularExpressions::RegexTree* tree);
+    // static private System.Int32 AnchorFromType(System.Int32 type)
+    // Offset: 0x1DDBF6C
+    static int AnchorFromType(int type);
+    // private System.Void PushInt(System.Int32 I)
+    // Offset: 0x1DDBFD8
+    void PushInt(int I);
+    // private System.Boolean IntIsEmpty()
+    // Offset: 0x1DDC0B8
+    bool IntIsEmpty();
+    // private System.Int32 PopInt()
+    // Offset: 0x1DDC0C8
+    int PopInt();
+    // private System.Void PushFC(System.Text.RegularExpressions.RegexFC fc)
+    // Offset: 0x1DDC110
+    void PushFC(::System::Text::RegularExpressions::RegexFC* fc);
+    // private System.Boolean FCIsEmpty()
+    // Offset: 0x1DDC218
+    bool FCIsEmpty();
+    // private System.Text.RegularExpressions.RegexFC PopFC()
+    // Offset: 0x1DDC228
+    ::System::Text::RegularExpressions::RegexFC* PopFC();
+    // private System.Text.RegularExpressions.RegexFC TopFC()
+    // Offset: 0x1DDC270
+    ::System::Text::RegularExpressions::RegexFC* TopFC();
+    // private System.Text.RegularExpressions.RegexFC RegexFCFromRegexTree(System.Text.RegularExpressions.RegexTree tree)
+    // Offset: 0x1DDB950
+    ::System::Text::RegularExpressions::RegexFC* RegexFCFromRegexTree(::System::Text::RegularExpressions::RegexTree* tree);
+    // private System.Void SkipChild()
+    // Offset: 0x1DDC720
+    void SkipChild();
+    // private System.Void CalculateFC(System.Int32 NodeType, System.Text.RegularExpressions.RegexNode node, System.Int32 CurIndex)
+    // Offset: 0x1DDC2B4
+    void CalculateFC(int NodeType, ::System::Text::RegularExpressions::RegexNode* node, int CurIndex);
   }; // System.Text.RegularExpressions.RegexFCD
   #pragma pack(pop)
   static check_size<sizeof(RegexFCD), 46 + sizeof(bool)> __System_Text_RegularExpressions_RegexFCDSizeCheck;
   static_assert(sizeof(RegexFCD) == 0x2F);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Text::RegularExpressions::RegexFCD::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexFCD::FirstChars
 // Il2CppName: FirstChars
 template<>
@@ -287,7 +281,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexFCD*), "CalculateFC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{NodeType, node, CurIndex});
   }
 };
-// Writing MetadataGetter for method: System::Text::RegularExpressions::RegexFCD::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

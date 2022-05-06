@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PathsHolder : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly BezierPath _bezierPath
     // Size: 0x8
     // Offset: 0x10
@@ -58,24 +50,24 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::VertexPath*) == 0x8);
     public:
     // Get instance field reference: private readonly BezierPath _bezierPath
-    ::GlobalNamespace::BezierPath*& dyn__bezierPath();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BezierPath*& dyn__bezierPath();
     // Get instance field reference: private readonly VertexPath _vertexPath
-    ::GlobalNamespace::VertexPath*& dyn__vertexPath();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VertexPath*& dyn__vertexPath();
     // public BezierPath get_bezierPath()
-    // Offset: 0x12ED1A0
+    // Offset: 0x135E158
     ::GlobalNamespace::BezierPath* get_bezierPath();
     // public VertexPath get_vertexPath()
-    // Offset: 0x12ED1A8
+    // Offset: 0x135E160
     ::GlobalNamespace::VertexPath* get_vertexPath();
     // public System.Void .ctor(System.Int32 numberOfFixedVertexPathSegments)
-    // Offset: 0x12ED1B0
+    // Offset: 0x135E168
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PathsHolder* New_ctor(int numberOfFixedVertexPathSegments) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PathsHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PathsHolder*, creationType>(numberOfFixedVertexPathSegments)));
     }
     // public System.Void UpdateVertexPathByBezierPath()
-    // Offset: 0x12ED2B4
+    // Offset: 0x135E26C
     void UpdateVertexPathByBezierPath();
   }; // PathsHolder
   #pragma pack(pop)

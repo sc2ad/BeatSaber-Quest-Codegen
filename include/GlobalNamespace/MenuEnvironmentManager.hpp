@@ -84,20 +84,12 @@ namespace GlobalNamespace {
       // Set static field: static public MenuEnvironmentManager/MenuEnvironmentType Lobby
       static void _set_Lobby(::GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // MenuEnvironmentManager/MenuEnvironmentType
     #pragma pack(pop)
     static check_size<sizeof(MenuEnvironmentManager::MenuEnvironmentType), 0 + sizeof(int)> __GlobalNamespace_MenuEnvironmentManager_MenuEnvironmentTypeSizeCheck;
     static_assert(sizeof(MenuEnvironmentManager::MenuEnvironmentType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MenuEnvironmentManager/MenuEnvironmentObjects[] _data
     // Size: 0x8
     // Offset: 0x18
@@ -114,28 +106,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MenuEnvironmentManager/MenuEnvironmentObjects[] _data
-    ::ArrayW<::GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*>& dyn__data();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*>& dyn__data();
     // Get instance field reference: private MenuEnvironmentManager/MenuEnvironmentType _prevMenuEnvironmentType
-    ::GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType& dyn__prevMenuEnvironmentType();
-    // private System.Void Start()
-    // Offset: 0x12FE998
-    void Start();
-    // public System.Void ShowEnvironmentType(MenuEnvironmentManager/MenuEnvironmentType menuEnvironmentType)
-    // Offset: 0x12FE9A0
-    void ShowEnvironmentType(::GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType menuEnvironmentType);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType& dyn__prevMenuEnvironmentType();
     // public System.Void .ctor()
-    // Offset: 0x12FEB50
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x12FB028
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuEnvironmentManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuEnvironmentManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MenuEnvironmentManager*, creationType>()));
     }
+    // private System.Void Start()
+    // Offset: 0x12FAE70
+    void Start();
+    // public System.Void ShowEnvironmentType(MenuEnvironmentManager/MenuEnvironmentType menuEnvironmentType)
+    // Offset: 0x12FAE78
+    void ShowEnvironmentType(::GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType menuEnvironmentType);
   }; // MenuEnvironmentManager
   #pragma pack(pop)
   static check_size<sizeof(MenuEnvironmentManager), 32 + sizeof(::GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType)> __GlobalNamespace_MenuEnvironmentManagerSizeCheck;
@@ -144,6 +130,10 @@ namespace GlobalNamespace {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType, "", "MenuEnvironmentManager/MenuEnvironmentType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MenuEnvironmentManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MenuEnvironmentManager::Start
 // Il2CppName: Start
 template<>
@@ -161,7 +151,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuEnvironmentManager*), "ShowEnvironmentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{menuEnvironmentType});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MenuEnvironmentManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

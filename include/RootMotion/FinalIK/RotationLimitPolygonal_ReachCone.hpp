@@ -26,15 +26,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class RotationLimitPolygonal::ReachCone : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Vector3[] tetrahedron
     // Size: 0x8
     // Offset: 0x10
@@ -61,37 +53,37 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: public UnityEngine.Vector3[] tetrahedron
-    ::ArrayW<::UnityEngine::Vector3>& dyn_tetrahedron();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn_tetrahedron();
     // Get instance field reference: public System.Single volume
-    float& dyn_volume();
+    [[deprecated("Use field access instead!")]] float& dyn_volume();
     // Get instance field reference: public UnityEngine.Vector3 S
-    ::UnityEngine::Vector3& dyn_S();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_S();
     // Get instance field reference: public UnityEngine.Vector3 B
-    ::UnityEngine::Vector3& dyn_B();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_B();
     // public UnityEngine.Vector3 get_o()
-    // Offset: 0x1F77610
+    // Offset: 0x1FC3E84
     ::UnityEngine::Vector3 get_o();
     // public UnityEngine.Vector3 get_a()
-    // Offset: 0x1F77648
+    // Offset: 0x1FC3EBC
     ::UnityEngine::Vector3 get_a();
     // public UnityEngine.Vector3 get_b()
-    // Offset: 0x1F77684
+    // Offset: 0x1FC3EF8
     ::UnityEngine::Vector3 get_b();
     // public UnityEngine.Vector3 get_c()
-    // Offset: 0x1F776C0
+    // Offset: 0x1FC3F34
     ::UnityEngine::Vector3 get_c();
     // public System.Boolean get_isValid()
-    // Offset: 0x1F76774
+    // Offset: 0x1FC2FE8
     bool get_isValid();
     // public System.Void .ctor(UnityEngine.Vector3 _o, UnityEngine.Vector3 _a, UnityEngine.Vector3 _b, UnityEngine.Vector3 _c)
-    // Offset: 0x1F76DC0
+    // Offset: 0x1FC3634
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RotationLimitPolygonal::ReachCone* New_ctor(::UnityEngine::Vector3 _o, ::UnityEngine::Vector3 _a, ::UnityEngine::Vector3 _b, ::UnityEngine::Vector3 _c) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RotationLimitPolygonal::ReachCone*, creationType>(_o, _a, _b, _c)));
     }
     // public System.Void Calculate()
-    // Offset: 0x1F76F20
+    // Offset: 0x1FC3794
     void Calculate();
   }; // RootMotion.FinalIK.RotationLimitPolygonal/RootMotion.FinalIK.ReachCone
   #pragma pack(pop)

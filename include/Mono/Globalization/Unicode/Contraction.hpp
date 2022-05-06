@@ -28,15 +28,7 @@ namespace Mono::Globalization::Unicode {
   // [TokenAttribute] Offset: FFFFFFFF
   class Contraction : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 Index
     // Size: 0x4
     // Offset: 0x10
@@ -65,15 +57,15 @@ namespace Mono::Globalization::Unicode {
     static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     public:
     // Get instance field reference: public System.Int32 Index
-    int& dyn_Index();
+    [[deprecated("Use field access instead!")]] int& dyn_Index();
     // Get instance field reference: public readonly System.Char[] Source
-    ::ArrayW<::Il2CppChar>& dyn_Source();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppChar>& dyn_Source();
     // Get instance field reference: public readonly System.String Replacement
-    ::StringW& dyn_Replacement();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Replacement();
     // Get instance field reference: public readonly System.Byte[] SortKey
-    ::ArrayW<uint8_t>& dyn_SortKey();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_SortKey();
     // public System.Void .ctor(System.Int32 index, System.Char[] source, System.String replacement, System.Byte[] sortkey)
-    // Offset: 0x1EF7E70
+    // Offset: 0x1F453A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Contraction* New_ctor(int index, ::ArrayW<::Il2CppChar> source, ::StringW replacement, ::ArrayW<uint8_t> sortkey) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Globalization::Unicode::Contraction::.ctor");

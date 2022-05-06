@@ -41,16 +41,8 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class DirectionalLight : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [ColorUsageAttribute] Offset: 0x1238208
+    // [ColorUsageAttribute] Offset: 0x10BCCC0
     // public UnityEngine.Color color
     // Size: 0x10
     // Offset: 0x18
@@ -87,38 +79,30 @@ namespace GlobalNamespace {
     // Set static field: static private DirectionalLight _mainLight
     static void _set__mainLight(::GlobalNamespace::DirectionalLight* value);
     // Get instance field reference: public UnityEngine.Color color
-    ::UnityEngine::Color& dyn_color();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_color();
     // Get instance field reference: public System.Single intensity
-    float& dyn_intensity();
+    [[deprecated("Use field access instead!")]] float& dyn_intensity();
     // Get instance field reference: public System.Single radius
-    float& dyn_radius();
+    [[deprecated("Use field access instead!")]] float& dyn_radius();
     // static public System.Collections.Generic.List`1<DirectionalLight> get_lights()
-    // Offset: 0x2ACF464
+    // Offset: 0x1E7882C
     static ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLight*>* get_lights();
-    // protected System.Void OnEnable()
-    // Offset: 0x2ACF4CC
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x2ACF550
-    void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x2ACF5D4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E7899C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DirectionalLight* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DirectionalLight::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DirectionalLight*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2ACF5E4
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x1E789AC
     static void _cctor();
+    // protected System.Void OnEnable()
+    // Offset: 0x1E78894
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x1E78918
+    void OnDisable();
   }; // DirectionalLight
   #pragma pack(pop)
   static check_size<sizeof(DirectionalLight), 44 + sizeof(float)> __GlobalNamespace_DirectionalLightSizeCheck;
@@ -131,6 +115,18 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLight*>* (*)()>(&GlobalNamespace::DirectionalLight::get_lights)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DirectionalLight*), "get_lights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::DirectionalLight::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::DirectionalLight::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::DirectionalLight::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DirectionalLight*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::DirectionalLight::OnEnable
@@ -147,17 +143,5 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DirectionalLight::*)()>(&GlobalNamespace::DirectionalLight::OnDisable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DirectionalLight*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::DirectionalLight::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::DirectionalLight::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::DirectionalLight::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DirectionalLight*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

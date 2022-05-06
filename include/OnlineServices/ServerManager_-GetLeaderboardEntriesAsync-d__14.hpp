@@ -90,24 +90,24 @@ namespace OnlineServices {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<OnlineServices.LeaderboardEntriesResult> <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OnlineServices::LeaderboardEntriesResult*>& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OnlineServices::LeaderboardEntriesResult*>& dyn_$$t__builder();
     // Get instance field reference: public OnlineServices.ServerManager <>4__this
-    ::OnlineServices::ServerManager*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::OnlineServices::ServerManager*& dyn_$$4__this();
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
-    ::System::Threading::CancellationToken& dyn_cancellationToken();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: public OnlineServices.GetLeaderboardFilterData leaderboardFilterData
-    ::OnlineServices::GetLeaderboardFilterData& dyn_leaderboardFilterData();
+    [[deprecated("Use field access instead!")]] ::OnlineServices::GetLeaderboardFilterData& dyn_leaderboardFilterData();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.PlatformServicesAvailabilityInfo> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::OnlineServices::PlatformServicesAvailabilityInfo*>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::OnlineServices::PlatformServicesAvailabilityInfo*>& dyn_$$u__1();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.GetLeaderboardEntriesResult> <>u__2
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::OnlineServices::GetLeaderboardEntriesResult>& dyn_$$u__2();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::OnlineServices::GetLeaderboardEntriesResult>& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x12E7F58
+    // Offset: 0x1358EF8
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x12E82C4
+    // Offset: 0x1359264
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.ServerManager/OnlineServices.<GetLeaderboardEntriesAsync>d__14
   // WARNING Not writing size check since size may be invalid!

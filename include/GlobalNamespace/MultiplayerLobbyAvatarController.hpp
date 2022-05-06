@@ -61,15 +61,7 @@ namespace GlobalNamespace {
     class $ShowDespawnAnimationAndDestroy$d__10;
     // Nested type: ::GlobalNamespace::MultiplayerLobbyAvatarController::$DespawnAnimationCoroutine$d__12
     class $DespawnAnimationCoroutine$d__12;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Playables.PlayableDirector _spawnEffect
     // Size: 0x8
     // Offset: 0x18
@@ -112,54 +104,52 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Playables.PlayableDirector _spawnEffect
-    ::UnityEngine::Playables::PlayableDirector*& dyn__spawnEffect();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Playables::PlayableDirector*& dyn__spawnEffect();
     // Get instance field reference: private VFXController _despawnVFXController
-    ::GlobalNamespace::VFXController*& dyn__despawnVFXController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VFXController*& dyn__despawnVFXController();
     // Get instance field reference: private System.Single _spawnAvatarDelay
-    float& dyn__spawnAvatarDelay();
+    [[deprecated("Use field access instead!")]] float& dyn__spawnAvatarDelay();
     // Get instance field reference: private System.Single _despawnAvatarDelay
-    float& dyn__despawnAvatarDelay();
+    [[deprecated("Use field access instead!")]] float& dyn__despawnAvatarDelay();
     // Get instance field reference: private System.Single _destroyAvatarDelay
-    float& dyn__destroyAvatarDelay();
+    [[deprecated("Use field access instead!")]] float& dyn__destroyAvatarDelay();
     // Get instance field reference: private UnityEngine.GameObject[] _visualObjects
-    ::ArrayW<::UnityEngine::GameObject*>& dyn__visualObjects();
-    // public System.Void ShowSpawnAnimation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x13F9390
-    void ShowSpawnAnimation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
-    // private System.Collections.IEnumerator SpawnAnimationCoroutine()
-    // Offset: 0x13F94C8
-    ::System::Collections::IEnumerator* SpawnAnimationCoroutine();
-    // private System.Void ActivateVisualObjects(System.Boolean on)
-    // Offset: 0x13F944C
-    void ActivateVisualObjects(bool on);
-    // public System.Collections.IEnumerator ShowDespawnAnimationAndDestroy()
-    // Offset: 0x13F9564
-    ::System::Collections::IEnumerator* ShowDespawnAnimationAndDestroy();
-    // public System.Void DestroySelf()
-    // Offset: 0x13F9600
-    void DestroySelf();
-    // private System.Collections.IEnumerator DespawnAnimationCoroutine()
-    // Offset: 0x13F967C
-    ::System::Collections::IEnumerator* DespawnAnimationCoroutine();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::GameObject*>& dyn__visualObjects();
     // public System.Void .ctor()
-    // Offset: 0x13F9718
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14061B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLobbyAvatarController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLobbyAvatarController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLobbyAvatarController*, creationType>()));
     }
+    // public System.Void ShowSpawnAnimation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
+    // Offset: 0x1405E30
+    void ShowSpawnAnimation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
+    // private System.Collections.IEnumerator SpawnAnimationCoroutine()
+    // Offset: 0x1405F68
+    ::System::Collections::IEnumerator* SpawnAnimationCoroutine();
+    // private System.Void ActivateVisualObjects(System.Boolean on)
+    // Offset: 0x1405EEC
+    void ActivateVisualObjects(bool on);
+    // public System.Collections.IEnumerator ShowDespawnAnimationAndDestroy()
+    // Offset: 0x1406004
+    ::System::Collections::IEnumerator* ShowDespawnAnimationAndDestroy();
+    // public System.Void DestroySelf()
+    // Offset: 0x14060A0
+    void DestroySelf();
+    // private System.Collections.IEnumerator DespawnAnimationCoroutine()
+    // Offset: 0x140611C
+    ::System::Collections::IEnumerator* DespawnAnimationCoroutine();
   }; // MultiplayerLobbyAvatarController
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLobbyAvatarController), 56 + sizeof(::ArrayW<::UnityEngine::GameObject*>)> __GlobalNamespace_MultiplayerLobbyAvatarControllerSizeCheck;
   static_assert(sizeof(MultiplayerLobbyAvatarController) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarController::ShowSpawnAnimation
 // Il2CppName: ShowSpawnAnimation
 template<>
@@ -211,7 +201,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarController*), "DespawnAnimationCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

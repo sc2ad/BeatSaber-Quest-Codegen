@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BlocksBlade::Element : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 idx
     // Size: 0x4
     // Offset: 0x10
@@ -46,13 +38,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public System.Int32 idx
-    int& dyn_idx();
+    [[deprecated("Use field access instead!")]] int& dyn_idx();
     // Get instance field reference: public System.Single velocity
-    float& dyn_velocity();
+    [[deprecated("Use field access instead!")]] float& dyn_velocity();
     // public System.Void .ctor()
-    // Offset: 0x134A894
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1333ADC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BlocksBlade::Element* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BlocksBlade::Element::.ctor");

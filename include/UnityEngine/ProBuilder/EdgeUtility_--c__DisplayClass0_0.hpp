@@ -33,15 +33,7 @@ namespace UnityEngine::ProBuilder {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class EdgeUtility::$$c__DisplayClass0_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.ProBuilder.ProBuilderMesh mesh
     // Size: 0x8
     // Offset: 0x10
@@ -54,25 +46,27 @@ namespace UnityEngine::ProBuilder {
       return mesh;
     }
     // Get instance field reference: public UnityEngine.ProBuilder.ProBuilderMesh mesh
-    ::UnityEngine::ProBuilder::ProBuilderMesh*& dyn_mesh();
-    // UnityEngine.ProBuilder.Edge <GetSharedVertexHandleEdges>b__0(UnityEngine.ProBuilder.Edge x)
-    // Offset: 0x1F8632C
-    ::UnityEngine::ProBuilder::Edge $GetSharedVertexHandleEdges$b__0(::UnityEngine::ProBuilder::Edge x);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::ProBuilderMesh*& dyn_mesh();
     // public System.Void .ctor()
-    // Offset: 0x1F85A58
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FD12CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EdgeUtility::$$c__DisplayClass0_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::EdgeUtility::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EdgeUtility::$$c__DisplayClass0_0*, creationType>()));
     }
+    // UnityEngine.ProBuilder.Edge <GetSharedVertexHandleEdges>b__0(UnityEngine.ProBuilder.Edge x)
+    // Offset: 0x1FD1BA0
+    ::UnityEngine::ProBuilder::Edge $GetSharedVertexHandleEdges$b__0(::UnityEngine::ProBuilder::Edge x);
   }; // UnityEngine.ProBuilder.EdgeUtility/UnityEngine.ProBuilder.<>c__DisplayClass0_0
   #pragma pack(pop)
   static check_size<sizeof(EdgeUtility::$$c__DisplayClass0_0), 16 + sizeof(::UnityEngine::ProBuilder::ProBuilderMesh*)> __UnityEngine_ProBuilder_EdgeUtility_$$c__DisplayClass0_0SizeCheck;
   static_assert(sizeof(EdgeUtility::$$c__DisplayClass0_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeUtility::$$c__DisplayClass0_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeUtility::$$c__DisplayClass0_0::$GetSharedVertexHandleEdges$b__0
 // Il2CppName: <GetSharedVertexHandleEdges>b__0
 template<>
@@ -82,7 +76,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeUtility::$$c__DisplayClass0_0*), "<GetSharedVertexHandleEdges>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeUtility::$$c__DisplayClass0_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

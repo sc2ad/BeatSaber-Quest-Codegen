@@ -285,67 +285,67 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._AddApplicationManifest AddApplicationManifest
-    ::Valve::VR::IVRApplications::_AddApplicationManifest*& dyn_AddApplicationManifest();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_AddApplicationManifest*& dyn_AddApplicationManifest();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._RemoveApplicationManifest RemoveApplicationManifest
-    ::Valve::VR::IVRApplications::_RemoveApplicationManifest*& dyn_RemoveApplicationManifest();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_RemoveApplicationManifest*& dyn_RemoveApplicationManifest();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._IsApplicationInstalled IsApplicationInstalled
-    ::Valve::VR::IVRApplications::_IsApplicationInstalled*& dyn_IsApplicationInstalled();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_IsApplicationInstalled*& dyn_IsApplicationInstalled();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationCount GetApplicationCount
-    ::Valve::VR::IVRApplications::_GetApplicationCount*& dyn_GetApplicationCount();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_GetApplicationCount*& dyn_GetApplicationCount();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationKeyByIndex GetApplicationKeyByIndex
-    ::Valve::VR::IVRApplications::_GetApplicationKeyByIndex*& dyn_GetApplicationKeyByIndex();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_GetApplicationKeyByIndex*& dyn_GetApplicationKeyByIndex();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationKeyByProcessId GetApplicationKeyByProcessId
-    ::Valve::VR::IVRApplications::_GetApplicationKeyByProcessId*& dyn_GetApplicationKeyByProcessId();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_GetApplicationKeyByProcessId*& dyn_GetApplicationKeyByProcessId();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._LaunchApplication LaunchApplication
-    ::Valve::VR::IVRApplications::_LaunchApplication*& dyn_LaunchApplication();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_LaunchApplication*& dyn_LaunchApplication();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._LaunchTemplateApplication LaunchTemplateApplication
-    ::Valve::VR::IVRApplications::_LaunchTemplateApplication*& dyn_LaunchTemplateApplication();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_LaunchTemplateApplication*& dyn_LaunchTemplateApplication();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._LaunchApplicationFromMimeType LaunchApplicationFromMimeType
-    ::Valve::VR::IVRApplications::_LaunchApplicationFromMimeType*& dyn_LaunchApplicationFromMimeType();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_LaunchApplicationFromMimeType*& dyn_LaunchApplicationFromMimeType();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._LaunchDashboardOverlay LaunchDashboardOverlay
-    ::Valve::VR::IVRApplications::_LaunchDashboardOverlay*& dyn_LaunchDashboardOverlay();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_LaunchDashboardOverlay*& dyn_LaunchDashboardOverlay();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._CancelApplicationLaunch CancelApplicationLaunch
-    ::Valve::VR::IVRApplications::_CancelApplicationLaunch*& dyn_CancelApplicationLaunch();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_CancelApplicationLaunch*& dyn_CancelApplicationLaunch();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._IdentifyApplication IdentifyApplication
-    ::Valve::VR::IVRApplications::_IdentifyApplication*& dyn_IdentifyApplication();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_IdentifyApplication*& dyn_IdentifyApplication();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationProcessId GetApplicationProcessId
-    ::Valve::VR::IVRApplications::_GetApplicationProcessId*& dyn_GetApplicationProcessId();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_GetApplicationProcessId*& dyn_GetApplicationProcessId();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationsErrorNameFromEnum GetApplicationsErrorNameFromEnum
-    ::Valve::VR::IVRApplications::_GetApplicationsErrorNameFromEnum*& dyn_GetApplicationsErrorNameFromEnum();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_GetApplicationsErrorNameFromEnum*& dyn_GetApplicationsErrorNameFromEnum();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationPropertyString GetApplicationPropertyString
-    ::Valve::VR::IVRApplications::_GetApplicationPropertyString*& dyn_GetApplicationPropertyString();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_GetApplicationPropertyString*& dyn_GetApplicationPropertyString();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationPropertyBool GetApplicationPropertyBool
-    ::Valve::VR::IVRApplications::_GetApplicationPropertyBool*& dyn_GetApplicationPropertyBool();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_GetApplicationPropertyBool*& dyn_GetApplicationPropertyBool();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationPropertyUint64 GetApplicationPropertyUint64
-    ::Valve::VR::IVRApplications::_GetApplicationPropertyUint64*& dyn_GetApplicationPropertyUint64();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_GetApplicationPropertyUint64*& dyn_GetApplicationPropertyUint64();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._SetApplicationAutoLaunch SetApplicationAutoLaunch
-    ::Valve::VR::IVRApplications::_SetApplicationAutoLaunch*& dyn_SetApplicationAutoLaunch();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_SetApplicationAutoLaunch*& dyn_SetApplicationAutoLaunch();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationAutoLaunch GetApplicationAutoLaunch
-    ::Valve::VR::IVRApplications::_GetApplicationAutoLaunch*& dyn_GetApplicationAutoLaunch();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_GetApplicationAutoLaunch*& dyn_GetApplicationAutoLaunch();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._SetDefaultApplicationForMimeType SetDefaultApplicationForMimeType
-    ::Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType*& dyn_SetDefaultApplicationForMimeType();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType*& dyn_SetDefaultApplicationForMimeType();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetDefaultApplicationForMimeType GetDefaultApplicationForMimeType
-    ::Valve::VR::IVRApplications::_GetDefaultApplicationForMimeType*& dyn_GetDefaultApplicationForMimeType();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_GetDefaultApplicationForMimeType*& dyn_GetDefaultApplicationForMimeType();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationSupportedMimeTypes GetApplicationSupportedMimeTypes
-    ::Valve::VR::IVRApplications::_GetApplicationSupportedMimeTypes*& dyn_GetApplicationSupportedMimeTypes();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_GetApplicationSupportedMimeTypes*& dyn_GetApplicationSupportedMimeTypes();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationsThatSupportMimeType GetApplicationsThatSupportMimeType
-    ::Valve::VR::IVRApplications::_GetApplicationsThatSupportMimeType*& dyn_GetApplicationsThatSupportMimeType();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_GetApplicationsThatSupportMimeType*& dyn_GetApplicationsThatSupportMimeType();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationLaunchArguments GetApplicationLaunchArguments
-    ::Valve::VR::IVRApplications::_GetApplicationLaunchArguments*& dyn_GetApplicationLaunchArguments();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_GetApplicationLaunchArguments*& dyn_GetApplicationLaunchArguments();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetStartingApplication GetStartingApplication
-    ::Valve::VR::IVRApplications::_GetStartingApplication*& dyn_GetStartingApplication();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_GetStartingApplication*& dyn_GetStartingApplication();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetTransitionState GetTransitionState
-    ::Valve::VR::IVRApplications::_GetTransitionState*& dyn_GetTransitionState();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_GetTransitionState*& dyn_GetTransitionState();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._PerformApplicationPrelaunchCheck PerformApplicationPrelaunchCheck
-    ::Valve::VR::IVRApplications::_PerformApplicationPrelaunchCheck*& dyn_PerformApplicationPrelaunchCheck();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_PerformApplicationPrelaunchCheck*& dyn_PerformApplicationPrelaunchCheck();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetApplicationsTransitionStateNameFromEnum GetApplicationsTransitionStateNameFromEnum
-    ::Valve::VR::IVRApplications::_GetApplicationsTransitionStateNameFromEnum*& dyn_GetApplicationsTransitionStateNameFromEnum();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_GetApplicationsTransitionStateNameFromEnum*& dyn_GetApplicationsTransitionStateNameFromEnum();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._IsQuitUserPromptRequested IsQuitUserPromptRequested
-    ::Valve::VR::IVRApplications::_IsQuitUserPromptRequested*& dyn_IsQuitUserPromptRequested();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_IsQuitUserPromptRequested*& dyn_IsQuitUserPromptRequested();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._LaunchInternalProcess LaunchInternalProcess
-    ::Valve::VR::IVRApplications::_LaunchInternalProcess*& dyn_LaunchInternalProcess();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_LaunchInternalProcess*& dyn_LaunchInternalProcess();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._GetCurrentSceneProcessId GetCurrentSceneProcessId
-    ::Valve::VR::IVRApplications::_GetCurrentSceneProcessId*& dyn_GetCurrentSceneProcessId();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_GetCurrentSceneProcessId*& dyn_GetCurrentSceneProcessId();
   }; // Valve.VR.IVRApplications
   #pragma pack(pop)
   static check_size<sizeof(IVRApplications), 240 + sizeof(::Valve::VR::IVRApplications::_GetCurrentSceneProcessId*)> __Valve_VR_IVRApplicationsSizeCheck;

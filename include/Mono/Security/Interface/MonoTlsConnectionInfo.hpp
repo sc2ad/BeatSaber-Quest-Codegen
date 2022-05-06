@@ -31,15 +31,7 @@ namespace Mono::Security::Interface {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoTlsConnectionInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Mono.Security.Interface.CipherSuiteCode <CipherSuiteCode>k__BackingField
     // Size: 0x2
     // Offset: 0x10
@@ -62,37 +54,35 @@ namespace Mono::Security::Interface {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private Mono.Security.Interface.CipherSuiteCode <CipherSuiteCode>k__BackingField
-    ::Mono::Security::Interface::CipherSuiteCode& dyn_$CipherSuiteCode$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::Mono::Security::Interface::CipherSuiteCode& dyn_$CipherSuiteCode$k__BackingField();
     // Get instance field reference: private Mono.Security.Interface.TlsProtocols <ProtocolVersion>k__BackingField
-    ::Mono::Security::Interface::TlsProtocols& dyn_$ProtocolVersion$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::Mono::Security::Interface::TlsProtocols& dyn_$ProtocolVersion$k__BackingField();
     // Get instance field reference: private System.String <PeerDomainName>k__BackingField
-    ::StringW& dyn_$PeerDomainName$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$PeerDomainName$k__BackingField();
     // public Mono.Security.Interface.CipherSuiteCode get_CipherSuiteCode()
-    // Offset: 0x22FC7C0
+    // Offset: 0x2346034
     ::Mono::Security::Interface::CipherSuiteCode get_CipherSuiteCode();
     // public System.Void set_CipherSuiteCode(Mono.Security.Interface.CipherSuiteCode value)
-    // Offset: 0x22FC7C8
+    // Offset: 0x234603C
     void set_CipherSuiteCode(::Mono::Security::Interface::CipherSuiteCode value);
     // public Mono.Security.Interface.TlsProtocols get_ProtocolVersion()
-    // Offset: 0x22FC7D0
+    // Offset: 0x2346044
     ::Mono::Security::Interface::TlsProtocols get_ProtocolVersion();
     // public System.Void set_ProtocolVersion(Mono.Security.Interface.TlsProtocols value)
-    // Offset: 0x22FC7D8
+    // Offset: 0x234604C
     void set_ProtocolVersion(::Mono::Security::Interface::TlsProtocols value);
     // public System.Void set_PeerDomainName(System.String value)
-    // Offset: 0x22FC7E0
+    // Offset: 0x2346054
     void set_PeerDomainName(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x22FC88C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2346100
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoTlsConnectionInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Interface::MonoTlsConnectionInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoTlsConnectionInfo*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x22FC7E8
+    // Offset: 0x234605C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

@@ -30,21 +30,18 @@ namespace Org::BouncyCastle::Crypto {
   class MaxBytesExceededException : public ::Org::BouncyCastle::Crypto::CryptoException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1DFE5A0
+    // Offset: 0x1E38E6C
     // Implemented from: Org.BouncyCastle.Crypto.CryptoException
     // Base method: System.Void CryptoException::.ctor()
-    // Base method: System.Void Exception::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MaxBytesExceededException* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::MaxBytesExceededException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MaxBytesExceededException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1DFE5A8
+    // Offset: 0x1E38E74
     // Implemented from: Org.BouncyCastle.Crypto.CryptoException
     // Base method: System.Void CryptoException::.ctor(System.String message)
-    // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MaxBytesExceededException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::MaxBytesExceededException::.ctor");

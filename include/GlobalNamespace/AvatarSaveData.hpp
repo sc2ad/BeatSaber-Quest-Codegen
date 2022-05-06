@@ -29,15 +29,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AvatarSaveData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String headTopId
     // Size: 0x8
     // Offset: 0x10
@@ -136,41 +128,39 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
     public:
     // Get instance field reference: public System.String headTopId
-    ::StringW& dyn_headTopId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_headTopId();
     // Get instance field reference: public System.String glassesId
-    ::StringW& dyn_glassesId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_glassesId();
     // Get instance field reference: public System.String facialHairId
-    ::StringW& dyn_facialHairId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_facialHairId();
     // Get instance field reference: public System.String handsId
-    ::StringW& dyn_handsId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_handsId();
     // Get instance field reference: public System.String clothesId
-    ::StringW& dyn_clothesId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_clothesId();
     // Get instance field reference: public System.String skinColorId
-    ::StringW& dyn_skinColorId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_skinColorId();
     // Get instance field reference: public System.String mouthId
-    ::StringW& dyn_mouthId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_mouthId();
     // Get instance field reference: public System.String eyesId
-    ::StringW& dyn_eyesId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_eyesId();
     // Get instance field reference: public UnityEngine.Color headTopPrimaryColor
-    ::UnityEngine::Color& dyn_headTopPrimaryColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_headTopPrimaryColor();
     // Get instance field reference: public UnityEngine.Color headTopSecondaryColor
-    ::UnityEngine::Color& dyn_headTopSecondaryColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_headTopSecondaryColor();
     // Get instance field reference: public UnityEngine.Color glassesColor
-    ::UnityEngine::Color& dyn_glassesColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_glassesColor();
     // Get instance field reference: public UnityEngine.Color facialHairColor
-    ::UnityEngine::Color& dyn_facialHairColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_facialHairColor();
     // Get instance field reference: public UnityEngine.Color handsColor
-    ::UnityEngine::Color& dyn_handsColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_handsColor();
     // Get instance field reference: public UnityEngine.Color clothesPrimaryColor
-    ::UnityEngine::Color& dyn_clothesPrimaryColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_clothesPrimaryColor();
     // Get instance field reference: public UnityEngine.Color clothesSecondaryColor
-    ::UnityEngine::Color& dyn_clothesSecondaryColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_clothesSecondaryColor();
     // Get instance field reference: public UnityEngine.Color clothesDetailColor
-    ::UnityEngine::Color& dyn_clothesDetailColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_clothesDetailColor();
     // public System.Void .ctor()
-    // Offset: 0x14BC13C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14F39F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarSaveData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarSaveData::.ctor");

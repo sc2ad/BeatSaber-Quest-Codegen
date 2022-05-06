@@ -66,7 +66,7 @@ namespace NUnit::Framework::Constraints {
     // Set static field: static public NUnit.Framework.Constraints.ToleranceMode Ulps
     static void _set_Ulps(::NUnit::Framework::Constraints::ToleranceMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // NUnit.Framework.Constraints.ToleranceMode
   #pragma pack(pop)
   static check_size<sizeof(ToleranceMode), 0 + sizeof(int)> __NUnit_Framework_Constraints_ToleranceModeSizeCheck;

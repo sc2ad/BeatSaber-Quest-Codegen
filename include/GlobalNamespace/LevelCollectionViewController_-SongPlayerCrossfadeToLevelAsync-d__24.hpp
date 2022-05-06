@@ -84,22 +84,22 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public LevelCollectionViewController <>4__this
-    ::GlobalNamespace::LevelCollectionViewController*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelCollectionViewController*& dyn_$$4__this();
     // Get instance field reference: public IPreviewBeatmapLevel level
-    ::GlobalNamespace::IPreviewBeatmapLevel*& dyn_level();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPreviewBeatmapLevel*& dyn_level();
     // Get instance field reference: private LevelCollectionViewController/<>c__DisplayClass24_0 <>8__1
-    ::GlobalNamespace::LevelCollectionViewController::$$c__DisplayClass24_0*& dyn_$$8__1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelCollectionViewController::$$c__DisplayClass24_0*& dyn_$$8__1();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<UnityEngine.AudioClip> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AudioClip*>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AudioClip*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x13BDA8C
+    // Offset: 0x13B8F38
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x13BE200
+    // Offset: 0x13B96AC
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LevelCollectionViewController/<SongPlayerCrossfadeToLevelAsync>d__24
   // WARNING Not writing size check since size may be invalid!

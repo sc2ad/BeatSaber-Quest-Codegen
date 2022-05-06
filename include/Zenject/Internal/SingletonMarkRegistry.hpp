@@ -40,15 +40,7 @@ namespace Zenject::Internal {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class SingletonMarkRegistry : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.HashSet`1<System.Type> _boundSingletons
     // Size: 0x8
     // Offset: 0x10
@@ -63,30 +55,32 @@ namespace Zenject::Internal {
     static_assert(sizeof(::System::Collections::Generic::HashSet_1<::System::Type*>*) == 0x8);
     public:
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.Type> _boundSingletons
-    ::System::Collections::Generic::HashSet_1<::System::Type*>*& dyn__boundSingletons();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::System::Type*>*& dyn__boundSingletons();
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.Type> _boundNonSingletons
-    ::System::Collections::Generic::HashSet_1<::System::Type*>*& dyn__boundNonSingletons();
-    // public System.Void MarkNonSingleton(System.Type type)
-    // Offset: 0x1BD6DA4
-    void MarkNonSingleton(::System::Type* type);
-    // public System.Void MarkSingleton(System.Type type)
-    // Offset: 0x1BD6E48
-    void MarkSingleton(::System::Type* type);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::System::Type*>*& dyn__boundNonSingletons();
     // public System.Void .ctor()
-    // Offset: 0x1BD6F08
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C114F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SingletonMarkRegistry* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::SingletonMarkRegistry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SingletonMarkRegistry*, creationType>()));
     }
+    // public System.Void MarkNonSingleton(System.Type type)
+    // Offset: 0x1C1138C
+    void MarkNonSingleton(::System::Type* type);
+    // public System.Void MarkSingleton(System.Type type)
+    // Offset: 0x1C11430
+    void MarkSingleton(::System::Type* type);
   }; // Zenject.Internal.SingletonMarkRegistry
   #pragma pack(pop)
   static check_size<sizeof(SingletonMarkRegistry), 24 + sizeof(::System::Collections::Generic::HashSet_1<::System::Type*>*)> __Zenject_Internal_SingletonMarkRegistrySizeCheck;
   static_assert(sizeof(SingletonMarkRegistry) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::Internal::SingletonMarkRegistry::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::Internal::SingletonMarkRegistry::MarkNonSingleton
 // Il2CppName: MarkNonSingleton
 template<>
@@ -105,7 +99,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::SingletonMarkRegistry*), "MarkSingleton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
 };
-// Writing MetadataGetter for method: Zenject::Internal::SingletonMarkRegistry::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

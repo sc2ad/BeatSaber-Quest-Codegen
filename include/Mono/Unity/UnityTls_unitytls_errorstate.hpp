@@ -50,11 +50,11 @@ namespace Mono::Unity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private System.UInt32 magic
-    uint& dyn_magic();
+    [[deprecated("Use field access instead!")]] uint& dyn_magic();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_error_code code
-    ::Mono::Unity::UnityTls::unitytls_error_code& dyn_code();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_error_code& dyn_code();
     // Get instance field reference: private System.UInt64 reserved
-    uint64_t& dyn_reserved();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_reserved();
   }; // Mono.Unity.UnityTls/Mono.Unity.unitytls_errorstate
   #pragma pack(pop)
   static check_size<sizeof(UnityTls::unitytls_errorstate), 8 + sizeof(uint64_t)> __Mono_Unity_UnityTls_unitytls_errorstateSizeCheck;

@@ -62,15 +62,15 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Boolean _generateUVs
-    bool& dyn__generateUVs();
+    [[deprecated("Use field access instead!")]] bool& dyn__generateUVs();
     // Get instance field reference: public System.Boolean _generateTangents
-    bool& dyn__generateTangents();
+    [[deprecated("Use field access instead!")]] bool& dyn__generateTangents();
     // Get instance field reference: public System.Boolean _generateNormals
-    bool& dyn__generateNormals();
+    [[deprecated("Use field access instead!")]] bool& dyn__generateNormals();
     // Get instance field reference: public System.Boolean _useLODGroups
-    bool& dyn__useLODGroups();
+    [[deprecated("Use field access instead!")]] bool& dyn__useLODGroups();
     // Get instance field reference: public System.Boolean _splitPoints
-    bool& dyn__splitPoints();
+    [[deprecated("Use field access instead!")]] bool& dyn__splitPoints();
   }; // HoudiniEngineUnity.HEU_GenerateOptions
   #pragma pack(pop)
   static check_size<sizeof(HEU_GenerateOptions), 4 + sizeof(bool)> __HoudiniEngineUnity_HEU_GenerateOptionsSizeCheck;

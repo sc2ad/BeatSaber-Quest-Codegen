@@ -54,15 +54,7 @@ namespace NUnit::Framework::Internal::Builders {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultSuiteBuilder : public ::Il2CppObject/*, public ::NUnit::Framework::Interfaces::ISuiteBuilder*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private NUnit.Framework.Internal.Builders.NUnitTestFixtureBuilder _defaultBuilder
     // Size: 0x8
     // Offset: 0x10
@@ -79,37 +71,39 @@ namespace NUnit::Framework::Internal::Builders {
       return defaultBuilder;
     }
     // Get instance field reference: private NUnit.Framework.Internal.Builders.NUnitTestFixtureBuilder _defaultBuilder
-    ::NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*& dyn__defaultBuilder();
-    // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x1C48654
-    bool CanBuildFrom(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
-    // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x1C48928
-    ::NUnit::Framework::Internal::TestSuite* BuildFrom(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
-    // private NUnit.Framework.Internal.TestSuite BuildMultipleFixtures(NUnit.Framework.Interfaces.ITypeInfo typeInfo, System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestSuite> fixtures)
-    // Offset: 0x1C49344
-    ::NUnit::Framework::Internal::TestSuite* BuildMultipleFixtures(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo, ::System::Collections::Generic::IEnumerable_1<::NUnit::Framework::Internal::TestSuite*>* fixtures);
-    // private NUnit.Framework.Interfaces.IFixtureBuilder[] GetFixtureBuilderAttributes(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x1C48FC0
-    ::ArrayW<::NUnit::Framework::Interfaces::IFixtureBuilder*> GetFixtureBuilderAttributes(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
-    // private System.Boolean HasArguments(NUnit.Framework.Interfaces.IFixtureBuilder attr)
-    // Offset: 0x1C49700
-    bool HasArguments(::NUnit::Framework::Interfaces::IFixtureBuilder* attr);
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*& dyn__defaultBuilder();
     // public System.Void .ctor()
-    // Offset: 0x1C38160
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C906D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultSuiteBuilder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultSuiteBuilder*, creationType>()));
     }
+    // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
+    // Offset: 0x1CA0BEC
+    bool CanBuildFrom(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
+    // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
+    // Offset: 0x1CA0EC0
+    ::NUnit::Framework::Internal::TestSuite* BuildFrom(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
+    // private NUnit.Framework.Internal.TestSuite BuildMultipleFixtures(NUnit.Framework.Interfaces.ITypeInfo typeInfo, System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestSuite> fixtures)
+    // Offset: 0x1CA18DC
+    ::NUnit::Framework::Internal::TestSuite* BuildMultipleFixtures(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo, ::System::Collections::Generic::IEnumerable_1<::NUnit::Framework::Internal::TestSuite*>* fixtures);
+    // private NUnit.Framework.Interfaces.IFixtureBuilder[] GetFixtureBuilderAttributes(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
+    // Offset: 0x1CA1558
+    ::ArrayW<::NUnit::Framework::Interfaces::IFixtureBuilder*> GetFixtureBuilderAttributes(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
+    // private System.Boolean HasArguments(NUnit.Framework.Interfaces.IFixtureBuilder attr)
+    // Offset: 0x1CA1C98
+    bool HasArguments(::NUnit::Framework::Interfaces::IFixtureBuilder* attr);
   }; // NUnit.Framework.Internal.Builders.DefaultSuiteBuilder
   #pragma pack(pop)
   static check_size<sizeof(DefaultSuiteBuilder), 16 + sizeof(::NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*)> __NUnit_Framework_Internal_Builders_DefaultSuiteBuilderSizeCheck;
   static_assert(sizeof(DefaultSuiteBuilder) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::CanBuildFrom
 // Il2CppName: CanBuildFrom
 template<>
@@ -156,7 +150,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::DefaultSuiteBuilder*), "HasArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attr});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

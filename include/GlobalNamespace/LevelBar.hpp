@@ -61,15 +61,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::LevelBar::$Setup$d__17
     struct $Setup$d__17;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.ImageView _songArtworkImageView
     // Size: 0x8
     // Offset: 0x18
@@ -88,7 +80,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* authorNameText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125DB40
+    // [SpaceAttribute] Offset: 0x10E2724
     // private System.Boolean _showSongSubName
     // Size: 0x1
     // Offset: 0x30
@@ -97,39 +89,39 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: showSongSubName and: singleLineSongInfoContainer
     char __padding3[0x7] = {};
-    // [DrawIfAttribute] Offset: 0x125DB78
-    // [NullAllowed] Offset: 0x125DB78
+    // [DrawIfAttribute] Offset: 0x10E275C
+    // [NullAllowed] Offset: 0x10E275C
     // private UnityEngine.GameObject _singleLineSongInfoContainer
     // Size: 0x8
     // Offset: 0x38
     ::UnityEngine::GameObject* singleLineSongInfoContainer;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [DrawIfAttribute] Offset: 0x125DC70
-    // [NullAllowed] Offset: 0x125DC70
+    // [DrawIfAttribute] Offset: 0x10E2854
+    // [NullAllowed] Offset: 0x10E2854
     // private UnityEngine.GameObject _multiLineSongInfoContainer
     // Size: 0x8
     // Offset: 0x40
     ::UnityEngine::GameObject* multiLineSongInfoContainer;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [DrawIfAttribute] Offset: 0x125DD68
-    // [NullAllowed] Offset: 0x125DD68
+    // [DrawIfAttribute] Offset: 0x10E294C
+    // [NullAllowed] Offset: 0x10E294C
     // private TMPro.TextMeshProUGUI _multiLineSongNameText
     // Size: 0x8
     // Offset: 0x48
     ::TMPro::TextMeshProUGUI* multiLineSongNameText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [DrawIfAttribute] Offset: 0x125DE60
-    // [NullAllowed] Offset: 0x125DE60
+    // [DrawIfAttribute] Offset: 0x10E2A44
+    // [NullAllowed] Offset: 0x10E2A44
     // private TMPro.TextMeshProUGUI _multiLineAuthorNameText
     // Size: 0x8
     // Offset: 0x50
     ::TMPro::TextMeshProUGUI* multiLineAuthorNameText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125DF58
+    // [SpaceAttribute] Offset: 0x10E2B3C
     // private System.Boolean _showDifficultyAndCharacteristic
     // Size: 0x1
     // Offset: 0x58
@@ -138,16 +130,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: showDifficultyAndCharacteristic and: difficultyText
     char __padding8[0x7] = {};
-    // [DrawIfAttribute] Offset: 0x125DF90
-    // [NullAllowed] Offset: 0x125DF90
+    // [DrawIfAttribute] Offset: 0x10E2B74
+    // [NullAllowed] Offset: 0x10E2B74
     // private TMPro.TextMeshProUGUI _difficultyText
     // Size: 0x8
     // Offset: 0x60
     ::TMPro::TextMeshProUGUI* difficultyText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [DrawIfAttribute] Offset: 0x125E088
-    // [NullAllowed] Offset: 0x125E088
+    // [DrawIfAttribute] Offset: 0x10E2C6C
+    // [NullAllowed] Offset: 0x10E2C6C
     // private HMUI.ImageView _characteristicIconImageView
     // Size: 0x8
     // Offset: 0x68
@@ -162,8 +154,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useArtworkBackground and: artworkBackgroundImage
     char __padding11[0x7] = {};
-    // [DrawIfAttribute] Offset: 0x125E190
-    // [NullAllowed] Offset: 0x125E190
+    // [DrawIfAttribute] Offset: 0x10E2D74
+    // [NullAllowed] Offset: 0x10E2D74
     // private HMUI.ImageView _artworkBackgroundImage
     // Size: 0x8
     // Offset: 0x78
@@ -180,58 +172,52 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.ImageView _songArtworkImageView
-    ::HMUI::ImageView*& dyn__songArtworkImageView();
+    [[deprecated("Use field access instead!")]] ::HMUI::ImageView*& dyn__songArtworkImageView();
     // Get instance field reference: private TMPro.TextMeshProUGUI _songNameText
-    ::TMPro::TextMeshProUGUI*& dyn__songNameText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__songNameText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _authorNameText
-    ::TMPro::TextMeshProUGUI*& dyn__authorNameText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__authorNameText();
     // Get instance field reference: private System.Boolean _showSongSubName
-    bool& dyn__showSongSubName();
+    [[deprecated("Use field access instead!")]] bool& dyn__showSongSubName();
     // Get instance field reference: private UnityEngine.GameObject _singleLineSongInfoContainer
-    ::UnityEngine::GameObject*& dyn__singleLineSongInfoContainer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__singleLineSongInfoContainer();
     // Get instance field reference: private UnityEngine.GameObject _multiLineSongInfoContainer
-    ::UnityEngine::GameObject*& dyn__multiLineSongInfoContainer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__multiLineSongInfoContainer();
     // Get instance field reference: private TMPro.TextMeshProUGUI _multiLineSongNameText
-    ::TMPro::TextMeshProUGUI*& dyn__multiLineSongNameText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__multiLineSongNameText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _multiLineAuthorNameText
-    ::TMPro::TextMeshProUGUI*& dyn__multiLineAuthorNameText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__multiLineAuthorNameText();
     // Get instance field reference: private System.Boolean _showDifficultyAndCharacteristic
-    bool& dyn__showDifficultyAndCharacteristic();
+    [[deprecated("Use field access instead!")]] bool& dyn__showDifficultyAndCharacteristic();
     // Get instance field reference: private TMPro.TextMeshProUGUI _difficultyText
-    ::TMPro::TextMeshProUGUI*& dyn__difficultyText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__difficultyText();
     // Get instance field reference: private HMUI.ImageView _characteristicIconImageView
-    ::HMUI::ImageView*& dyn__characteristicIconImageView();
+    [[deprecated("Use field access instead!")]] ::HMUI::ImageView*& dyn__characteristicIconImageView();
     // Get instance field reference: private System.Boolean _useArtworkBackground
-    bool& dyn__useArtworkBackground();
+    [[deprecated("Use field access instead!")]] bool& dyn__useArtworkBackground();
     // Get instance field reference: private HMUI.ImageView _artworkBackgroundImage
-    ::HMUI::ImageView*& dyn__artworkBackgroundImage();
+    [[deprecated("Use field access instead!")]] ::HMUI::ImageView*& dyn__artworkBackgroundImage();
     // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    ::System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x13B8C1C
+    // Offset: 0x13B40C8
     void set_hide(bool value);
-    // public System.Void Setup(IPreviewBeatmapLevel previewBeatmapLevel)
-    // Offset: 0x13B8C54
-    void Setup(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel);
-    // public System.Void Setup(IPreviewBeatmapLevel previewBeatmapLevel, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
-    // Offset: 0x13B8C60
-    void Setup(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
-    // protected System.Void OnDestroy()
-    // Offset: 0x13B8D3C
-    void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x13B8D50
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13B41FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelBar* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelBar::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelBar*, creationType>()));
     }
+    // public System.Void Setup(IPreviewBeatmapLevel previewBeatmapLevel)
+    // Offset: 0x13B4100
+    void Setup(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel);
+    // public System.Void Setup(IPreviewBeatmapLevel previewBeatmapLevel, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
+    // Offset: 0x13B410C
+    void Setup(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
+    // protected System.Void OnDestroy()
+    // Offset: 0x13B41E8
+    void OnDestroy();
   }; // LevelBar
   #pragma pack(pop)
   static check_size<sizeof(LevelBar), 128 + sizeof(::System::Threading::CancellationTokenSource*)> __GlobalNamespace_LevelBarSizeCheck;
@@ -247,6 +233,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelBar*), "set_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LevelBar::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LevelBar::Setup
 // Il2CppName: Setup
 template<>
@@ -275,7 +265,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelBar*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LevelBar::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

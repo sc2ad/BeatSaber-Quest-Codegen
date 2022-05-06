@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VFXAnimationEvents::VFXAnimationEvent : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _name
     // Size: 0x8
     // Offset: 0x10
@@ -55,19 +47,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<::UnityEngine::ParticleSystem*>) == 0x8);
     public:
     // Get instance field reference: private System.String _name
-    ::StringW& dyn__name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__name();
     // Get instance field reference: private UnityEngine.ParticleSystem[] _particleSystems
-    ::ArrayW<::UnityEngine::ParticleSystem*>& dyn__particleSystems();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::ParticleSystem*>& dyn__particleSystems();
     // public System.String get_name()
-    // Offset: 0x29DA0D0
+    // Offset: 0x2A2C5E0
     ::StringW get_name();
     // public UnityEngine.ParticleSystem[] get_particleSystems()
-    // Offset: 0x29DA0D8
+    // Offset: 0x2A2C5E8
     ::ArrayW<::UnityEngine::ParticleSystem*> get_particleSystems();
     // public System.Void .ctor()
-    // Offset: 0x29DA0E0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A2C5F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VFXAnimationEvents::VFXAnimationEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent::.ctor");

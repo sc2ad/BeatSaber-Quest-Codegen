@@ -24,15 +24,7 @@ namespace OnlineServices::API {
   // [TokenAttribute] Offset: FFFFFFFF
   class HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public OnlineServices.API.HTTPAdminLeaderboardsHelper/OnlineServices.API.LeaderboardsInfoDto[] leaderboardsInfos
     // Size: 0x8
     // Offset: 0x10
@@ -45,11 +37,9 @@ namespace OnlineServices::API {
       return leaderboardsInfos;
     }
     // Get instance field reference: public OnlineServices.API.HTTPAdminLeaderboardsHelper/OnlineServices.API.LeaderboardsInfoDto[] leaderboardsInfos
-    ::ArrayW<::OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>& dyn_leaderboardsInfos();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>& dyn_leaderboardsInfos();
     // public System.Void .ctor()
-    // Offset: 0x151AB20
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1552428
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto::.ctor");

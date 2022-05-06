@@ -34,16 +34,8 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionTrigger::CharacterPosition : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x1277E70
+    // [TooltipAttribute] Offset: 0x10FCB28
     // public System.Boolean use
     // Size: 0x1
     // Offset: 0x10
@@ -52,44 +44,44 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: use and: offset
     char __padding0[0x3] = {};
-    // [TooltipAttribute] Offset: 0x1277EA8
+    // [TooltipAttribute] Offset: 0x10FCB60
     // public UnityEngine.Vector2 offset
     // Size: 0x8
     // Offset: 0x14
     ::UnityEngine::Vector2 offset;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
-    // [TooltipAttribute] Offset: 0x1277EE0
-    // [RangeAttribute] Offset: 0x1277EE0
+    // [TooltipAttribute] Offset: 0x10FCB98
+    // [RangeAttribute] Offset: 0x10FCB98
     // public System.Single angleOffset
     // Size: 0x4
     // Offset: 0x1C
     float angleOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1277F3C
-    // [RangeAttribute] Offset: 0x1277F3C
+    // [TooltipAttribute] Offset: 0x10FCBF4
+    // [RangeAttribute] Offset: 0x10FCBF4
     // public System.Single maxAngle
     // Size: 0x4
     // Offset: 0x20
     float maxAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1277F94
+    // [TooltipAttribute] Offset: 0x10FCC4C
     // public System.Single radius
     // Size: 0x4
     // Offset: 0x24
     float radius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1277FCC
+    // [TooltipAttribute] Offset: 0x10FCC84
     // public System.Boolean orbit
     // Size: 0x1
     // Offset: 0x28
     bool orbit;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0x1278004
+    // [TooltipAttribute] Offset: 0x10FCCBC
     // public System.Boolean fixYAxis
     // Size: 0x1
     // Offset: 0x29
@@ -98,37 +90,35 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.Boolean use
-    bool& dyn_use();
+    [[deprecated("Use field access instead!")]] bool& dyn_use();
     // Get instance field reference: public UnityEngine.Vector2 offset
-    ::UnityEngine::Vector2& dyn_offset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_offset();
     // Get instance field reference: public System.Single angleOffset
-    float& dyn_angleOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_angleOffset();
     // Get instance field reference: public System.Single maxAngle
-    float& dyn_maxAngle();
+    [[deprecated("Use field access instead!")]] float& dyn_maxAngle();
     // Get instance field reference: public System.Single radius
-    float& dyn_radius();
+    [[deprecated("Use field access instead!")]] float& dyn_radius();
     // Get instance field reference: public System.Boolean orbit
-    bool& dyn_orbit();
+    [[deprecated("Use field access instead!")]] bool& dyn_orbit();
     // Get instance field reference: public System.Boolean fixYAxis
-    bool& dyn_fixYAxis();
+    [[deprecated("Use field access instead!")]] bool& dyn_fixYAxis();
     // public UnityEngine.Vector3 get_offset3D()
-    // Offset: 0x1F6DF5C
+    // Offset: 0x1FBA7D0
     ::UnityEngine::Vector3 get_offset3D();
     // public UnityEngine.Vector3 get_direction3D()
-    // Offset: 0x1F6DF98
+    // Offset: 0x1FBA80C
     ::UnityEngine::Vector3 get_direction3D();
-    // public System.Boolean IsInRange(UnityEngine.Transform character, UnityEngine.Transform trigger, out System.Single error)
-    // Offset: 0x1F6E090
-    bool IsInRange(::UnityEngine::Transform* character, ::UnityEngine::Transform* trigger, ByRef<float> error);
     // public System.Void .ctor()
-    // Offset: 0x1F6E70C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FBAF80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionTrigger::CharacterPosition* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionTrigger::CharacterPosition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionTrigger::CharacterPosition*, creationType>()));
     }
+    // public System.Boolean IsInRange(UnityEngine.Transform character, UnityEngine.Transform trigger, out System.Single error)
+    // Offset: 0x1FBA904
+    bool IsInRange(::UnityEngine::Transform* character, ::UnityEngine::Transform* trigger, ByRef<float> error);
   }; // RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.CharacterPosition
   #pragma pack(pop)
   static check_size<sizeof(InteractionTrigger::CharacterPosition), 41 + sizeof(bool)> __RootMotion_FinalIK_InteractionTrigger_CharacterPositionSizeCheck;
@@ -151,6 +141,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTrigger::CharacterPosition*), "get_direction3D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::CharacterPosition::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::CharacterPosition::IsInRange
 // Il2CppName: IsInRange
 template<>
@@ -162,7 +156,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTrigger::CharacterPosition*), "IsInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{character, trigger, error});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::CharacterPosition::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

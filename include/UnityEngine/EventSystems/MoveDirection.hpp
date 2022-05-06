@@ -72,7 +72,7 @@ namespace UnityEngine::EventSystems {
     // Set static field: static public UnityEngine.EventSystems.MoveDirection None
     static void _set_None(::UnityEngine::EventSystems::MoveDirection value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.EventSystems.MoveDirection
   #pragma pack(pop)
   static check_size<sizeof(MoveDirection), 0 + sizeof(int)> __UnityEngine_EventSystems_MoveDirectionSizeCheck;

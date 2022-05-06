@@ -31,18 +31,17 @@ namespace System::Net::NetworkInformation {
   class CommonUnixIPGlobalProperties : public ::System::Net::NetworkInformation::IPGlobalProperties {
     public:
     // static private System.Int32 getdomainname(System.Byte[] name, System.Int32 len)
-    // Offset: 0x1A7BCDC
+    // Offset: 0x1AB62C4
     static int getdomainname(::ArrayW<uint8_t> name, int len);
     // public override System.String get_DomainName()
-    // Offset: 0x1A7BD74
+    // Offset: 0x1AB635C
     // Implemented from: System.Net.NetworkInformation.IPGlobalProperties
     // Base method: System.String IPGlobalProperties::get_DomainName()
     ::StringW get_DomainName();
     // protected System.Void .ctor()
-    // Offset: 0x1A7BEE0
+    // Offset: 0x1AB64C8
     // Implemented from: System.Net.NetworkInformation.IPGlobalProperties
     // Base method: System.Void IPGlobalProperties::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CommonUnixIPGlobalProperties* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::CommonUnixIPGlobalProperties::.ctor");

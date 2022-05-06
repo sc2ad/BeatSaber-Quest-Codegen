@@ -42,31 +42,30 @@ namespace System::Xml::Schema {
     // Set static field: static private readonly System.Xml.Schema.FacetsChecker numeric10FacetsChecker
     static void _set_numeric10FacetsChecker(::System::Xml::Schema::FacetsChecker* value);
     // override System.Xml.Schema.FacetsChecker get_FacetsChecker()
-    // Offset: 0x1C1FB44
+    // Offset: 0x1C5A12C
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Xml.Schema.FacetsChecker Datatype_decimal::get_FacetsChecker()
     ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1C1FBAC
+    // Offset: 0x1C5A194
     // Implemented from: System.Xml.Schema.Datatype_integer
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_integer::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // public System.Void .ctor()
-    // Offset: 0x1C1FBB4
+    // Offset: 0x1C5A19C
     // Implemented from: System.Xml.Schema.Datatype_integer
     // Base method: System.Void Datatype_integer::.ctor()
     // Base method: System.Void Datatype_decimal::.ctor()
     // Base method: System.Void Datatype_anySimpleType::.ctor()
     // Base method: System.Void DatatypeImplementation::.ctor()
     // Base method: System.Void XmlSchemaDatatype::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Datatype_nonNegativeInteger* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::Datatype_nonNegativeInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Datatype_nonNegativeInteger*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1C1FBB8
+    // Offset: 0x1C5A1A0
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Void Datatype_decimal::.cctor()
     // Base method: System.Void Datatype_anySimpleType::.cctor()

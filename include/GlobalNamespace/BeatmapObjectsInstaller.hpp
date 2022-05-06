@@ -49,15 +49,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapObjectsInstaller : public ::Zenject::MonoInstaller {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private GameNoteController _normalBasicNotePrefab
     // Size: 0x8
     // Offset: 0x20
@@ -130,7 +122,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BeatLine* beatLinePrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatLine*) == 0x8);
-    // [InjectAttribute] Offset: 0x1257080
+    // [InjectAttribute] Offset: 0x10DBC64
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x80
@@ -139,48 +131,40 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
     public:
     // Get instance field reference: private GameNoteController _normalBasicNotePrefab
-    ::GlobalNamespace::GameNoteController*& dyn__normalBasicNotePrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameNoteController*& dyn__normalBasicNotePrefab();
     // Get instance field reference: private GameNoteController _proModeNotePrefab
-    ::GlobalNamespace::GameNoteController*& dyn__proModeNotePrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameNoteController*& dyn__proModeNotePrefab();
     // Get instance field reference: private GameNoteController _burstSliderHeadNotePrefab
-    ::GlobalNamespace::GameNoteController*& dyn__burstSliderHeadNotePrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameNoteController*& dyn__burstSliderHeadNotePrefab();
     // Get instance field reference: private BurstSliderGameNoteController _burstSliderNotePrefab
-    ::GlobalNamespace::BurstSliderGameNoteController*& dyn__burstSliderNotePrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BurstSliderGameNoteController*& dyn__burstSliderNotePrefab();
     // Get instance field reference: private BurstSliderGameNoteController _burstSliderFillPrefab
-    ::GlobalNamespace::BurstSliderGameNoteController*& dyn__burstSliderFillPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BurstSliderGameNoteController*& dyn__burstSliderFillPrefab();
     // Get instance field reference: private BombNoteController _bombNotePrefab
-    ::GlobalNamespace::BombNoteController*& dyn__bombNotePrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BombNoteController*& dyn__bombNotePrefab();
     // Get instance field reference: private ObstacleController _obstaclePrefab
-    ::GlobalNamespace::ObstacleController*& dyn__obstaclePrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ObstacleController*& dyn__obstaclePrefab();
     // Get instance field reference: private SliderController _sliderShortPrefab
-    ::GlobalNamespace::SliderController*& dyn__sliderShortPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SliderController*& dyn__sliderShortPrefab();
     // Get instance field reference: private SliderController _sliderMediumPrefab
-    ::GlobalNamespace::SliderController*& dyn__sliderMediumPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SliderController*& dyn__sliderMediumPrefab();
     // Get instance field reference: private SliderController _sliderLongPrefab
-    ::GlobalNamespace::SliderController*& dyn__sliderLongPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SliderController*& dyn__sliderLongPrefab();
     // Get instance field reference: private NoteLineConnectionController _noteLineConnectionControllerPrefab
-    ::GlobalNamespace::NoteLineConnectionController*& dyn__noteLineConnectionControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteLineConnectionController*& dyn__noteLineConnectionControllerPrefab();
     // Get instance field reference: private BeatLine _beatLinePrefab
-    ::GlobalNamespace::BeatLine*& dyn__beatLinePrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatLine*& dyn__beatLinePrefab();
     // Get instance field reference: private readonly GameplayCoreSceneSetupData _sceneSetupData
-    ::GlobalNamespace::GameplayCoreSceneSetupData*& dyn__sceneSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayCoreSceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()
-    // Offset: 0x1346FBC
-    // Implemented from: Zenject.MonoInstaller
-    // Base method: System.Void MonoInstaller::.ctor()
-    // Base method: System.Void MonoInstallerBase::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1330204
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectsInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectsInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1346BBC
+    // Offset: 0x132FE04
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

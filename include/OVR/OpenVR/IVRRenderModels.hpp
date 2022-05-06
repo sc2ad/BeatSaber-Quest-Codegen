@@ -189,43 +189,43 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._LoadRenderModel_Async LoadRenderModel_Async
-    ::OVR::OpenVR::IVRRenderModels::_LoadRenderModel_Async*& dyn_LoadRenderModel_Async();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRRenderModels::_LoadRenderModel_Async*& dyn_LoadRenderModel_Async();
     // Get instance field reference: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._FreeRenderModel FreeRenderModel
-    ::OVR::OpenVR::IVRRenderModels::_FreeRenderModel*& dyn_FreeRenderModel();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRRenderModels::_FreeRenderModel*& dyn_FreeRenderModel();
     // Get instance field reference: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._LoadTexture_Async LoadTexture_Async
-    ::OVR::OpenVR::IVRRenderModels::_LoadTexture_Async*& dyn_LoadTexture_Async();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRRenderModels::_LoadTexture_Async*& dyn_LoadTexture_Async();
     // Get instance field reference: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._FreeTexture FreeTexture
-    ::OVR::OpenVR::IVRRenderModels::_FreeTexture*& dyn_FreeTexture();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRRenderModels::_FreeTexture*& dyn_FreeTexture();
     // Get instance field reference: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._LoadTextureD3D11_Async LoadTextureD3D11_Async
-    ::OVR::OpenVR::IVRRenderModels::_LoadTextureD3D11_Async*& dyn_LoadTextureD3D11_Async();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRRenderModels::_LoadTextureD3D11_Async*& dyn_LoadTextureD3D11_Async();
     // Get instance field reference: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._LoadIntoTextureD3D11_Async LoadIntoTextureD3D11_Async
-    ::OVR::OpenVR::IVRRenderModels::_LoadIntoTextureD3D11_Async*& dyn_LoadIntoTextureD3D11_Async();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRRenderModels::_LoadIntoTextureD3D11_Async*& dyn_LoadIntoTextureD3D11_Async();
     // Get instance field reference: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._FreeTextureD3D11 FreeTextureD3D11
-    ::OVR::OpenVR::IVRRenderModels::_FreeTextureD3D11*& dyn_FreeTextureD3D11();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRRenderModels::_FreeTextureD3D11*& dyn_FreeTextureD3D11();
     // Get instance field reference: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetRenderModelName GetRenderModelName
-    ::OVR::OpenVR::IVRRenderModels::_GetRenderModelName*& dyn_GetRenderModelName();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRRenderModels::_GetRenderModelName*& dyn_GetRenderModelName();
     // Get instance field reference: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetRenderModelCount GetRenderModelCount
-    ::OVR::OpenVR::IVRRenderModels::_GetRenderModelCount*& dyn_GetRenderModelCount();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRRenderModels::_GetRenderModelCount*& dyn_GetRenderModelCount();
     // Get instance field reference: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetComponentCount GetComponentCount
-    ::OVR::OpenVR::IVRRenderModels::_GetComponentCount*& dyn_GetComponentCount();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRRenderModels::_GetComponentCount*& dyn_GetComponentCount();
     // Get instance field reference: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetComponentName GetComponentName
-    ::OVR::OpenVR::IVRRenderModels::_GetComponentName*& dyn_GetComponentName();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRRenderModels::_GetComponentName*& dyn_GetComponentName();
     // Get instance field reference: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetComponentButtonMask GetComponentButtonMask
-    ::OVR::OpenVR::IVRRenderModels::_GetComponentButtonMask*& dyn_GetComponentButtonMask();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRRenderModels::_GetComponentButtonMask*& dyn_GetComponentButtonMask();
     // Get instance field reference: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetComponentRenderModelName GetComponentRenderModelName
-    ::OVR::OpenVR::IVRRenderModels::_GetComponentRenderModelName*& dyn_GetComponentRenderModelName();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRRenderModels::_GetComponentRenderModelName*& dyn_GetComponentRenderModelName();
     // Get instance field reference: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetComponentStateForDevicePath GetComponentStateForDevicePath
-    ::OVR::OpenVR::IVRRenderModels::_GetComponentStateForDevicePath*& dyn_GetComponentStateForDevicePath();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRRenderModels::_GetComponentStateForDevicePath*& dyn_GetComponentStateForDevicePath();
     // Get instance field reference: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetComponentState GetComponentState
-    ::OVR::OpenVR::IVRRenderModels::_GetComponentState*& dyn_GetComponentState();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRRenderModels::_GetComponentState*& dyn_GetComponentState();
     // Get instance field reference: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._RenderModelHasComponent RenderModelHasComponent
-    ::OVR::OpenVR::IVRRenderModels::_RenderModelHasComponent*& dyn_RenderModelHasComponent();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRRenderModels::_RenderModelHasComponent*& dyn_RenderModelHasComponent();
     // Get instance field reference: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetRenderModelThumbnailURL GetRenderModelThumbnailURL
-    ::OVR::OpenVR::IVRRenderModels::_GetRenderModelThumbnailURL*& dyn_GetRenderModelThumbnailURL();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRRenderModels::_GetRenderModelThumbnailURL*& dyn_GetRenderModelThumbnailURL();
     // Get instance field reference: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetRenderModelOriginalPath GetRenderModelOriginalPath
-    ::OVR::OpenVR::IVRRenderModels::_GetRenderModelOriginalPath*& dyn_GetRenderModelOriginalPath();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRRenderModels::_GetRenderModelOriginalPath*& dyn_GetRenderModelOriginalPath();
     // Get instance field reference: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetRenderModelErrorNameFromEnum GetRenderModelErrorNameFromEnum
-    ::OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum*& dyn_GetRenderModelErrorNameFromEnum();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum*& dyn_GetRenderModelErrorNameFromEnum();
   }; // OVR.OpenVR.IVRRenderModels
   #pragma pack(pop)
   static check_size<sizeof(IVRRenderModels), 144 + sizeof(::OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum*)> __OVR_OpenVR_IVRRenderModelsSizeCheck;

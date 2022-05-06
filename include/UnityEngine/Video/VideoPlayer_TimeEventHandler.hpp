@@ -35,20 +35,20 @@ namespace UnityEngine::Video {
   class VideoPlayer::TimeEventHandler : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2A94C58
+    // Offset: 0x2AEA9A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VideoPlayer::TimeEventHandler* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Video::VideoPlayer::TimeEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VideoPlayer::TimeEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngine.Video.VideoPlayer source, System.Double seconds)
-    // Offset: 0x2A9471C
+    // Offset: 0x2AEA468
     void Invoke(::UnityEngine::Video::VideoPlayer* source, double seconds);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Video.VideoPlayer source, System.Double seconds, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2A94C68
+    // Offset: 0x2AEA9B4
     ::System::IAsyncResult* BeginInvoke(::UnityEngine::Video::VideoPlayer* source, double seconds, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2A94D04
+    // Offset: 0x2AEAA50
     void EndInvoke(::System::IAsyncResult* result);
   }; // UnityEngine.Video.VideoPlayer/UnityEngine.Video.TimeEventHandler
   #pragma pack(pop)

@@ -37,15 +37,7 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class CustomTypeDescriptor : public ::Il2CppObject/*, public ::System::ComponentModel::ICustomTypeDescriptor*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.ComponentModel.ICustomTypeDescriptor _parent
     // Size: 0x8
     // Offset: 0x10
@@ -62,28 +54,30 @@ namespace System::ComponentModel {
       return parent;
     }
     // Get instance field reference: private System.ComponentModel.ICustomTypeDescriptor _parent
-    ::System::ComponentModel::ICustomTypeDescriptor*& dyn__parent();
-    // public System.ComponentModel.AttributeCollection GetAttributes()
-    // Offset: 0x1D5B428
-    ::System::ComponentModel::AttributeCollection* GetAttributes();
-    // public System.ComponentModel.TypeConverter GetConverter()
-    // Offset: 0x1D5B50C
-    ::System::ComponentModel::TypeConverter* GetConverter();
+    [[deprecated("Use field access instead!")]] ::System::ComponentModel::ICustomTypeDescriptor*& dyn__parent();
     // protected System.Void .ctor()
-    // Offset: 0x1D5B420
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1D96978
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomTypeDescriptor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::CustomTypeDescriptor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomTypeDescriptor*, creationType>()));
     }
+    // public System.ComponentModel.AttributeCollection GetAttributes()
+    // Offset: 0x1D96980
+    ::System::ComponentModel::AttributeCollection* GetAttributes();
+    // public System.ComponentModel.TypeConverter GetConverter()
+    // Offset: 0x1D96A64
+    ::System::ComponentModel::TypeConverter* GetConverter();
   }; // System.ComponentModel.CustomTypeDescriptor
   #pragma pack(pop)
   static check_size<sizeof(CustomTypeDescriptor), 16 + sizeof(::System::ComponentModel::ICustomTypeDescriptor*)> __System_ComponentModel_CustomTypeDescriptorSizeCheck;
   static_assert(sizeof(CustomTypeDescriptor) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::ComponentModel::CustomTypeDescriptor::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::ComponentModel::CustomTypeDescriptor::GetAttributes
 // Il2CppName: GetAttributes
 template<>
@@ -100,7 +94,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::CustomTypeDescriptor*), "GetConverter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::ComponentModel::CustomTypeDescriptor::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

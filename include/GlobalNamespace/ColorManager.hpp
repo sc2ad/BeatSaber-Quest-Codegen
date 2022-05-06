@@ -44,16 +44,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorManager : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x125EA9C
+    // [InjectAttribute] Offset: 0x10E3680
     // private readonly ColorScheme _colorScheme
     // Size: 0x8
     // Offset: 0x10
@@ -66,34 +58,32 @@ namespace GlobalNamespace {
       return colorScheme;
     }
     // Get instance field reference: private readonly ColorScheme _colorScheme
-    ::GlobalNamespace::ColorScheme*& dyn__colorScheme();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorScheme*& dyn__colorScheme();
     // public UnityEngine.Color get_obstaclesColor()
-    // Offset: 0x1355C68
+    // Offset: 0x133EEB0
     ::UnityEngine::Color get_obstaclesColor();
-    // public UnityEngine.Color ColorForType(EnvironmentColorType type, System.Boolean boost)
-    // Offset: 0x1355C88
-    ::UnityEngine::Color ColorForType(::GlobalNamespace::EnvironmentColorType type, bool boost);
-    // public UnityEngine.Color ColorForType(ColorType type)
-    // Offset: 0x1355D10
-    ::UnityEngine::Color ColorForType(::GlobalNamespace::ColorType type);
-    // public UnityEngine.Color ColorForSaberType(SaberType type)
-    // Offset: 0x1355D60
-    ::UnityEngine::Color ColorForSaberType(::GlobalNamespace::SaberType type);
-    // public UnityEngine.Color EffectsColorForSaberType(SaberType type)
-    // Offset: 0x1355DB4
-    ::UnityEngine::Color EffectsColorForSaberType(::GlobalNamespace::SaberType type);
-    // public UnityEngine.Color GetObstacleEffectColor()
-    // Offset: 0x1355E4C
-    ::UnityEngine::Color GetObstacleEffectColor();
     // public System.Void .ctor()
-    // Offset: 0x1355EB0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x133F130
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorManager*, creationType>()));
     }
+    // public UnityEngine.Color ColorForType(EnvironmentColorType type, System.Boolean boost)
+    // Offset: 0x133EED0
+    ::UnityEngine::Color ColorForType(::GlobalNamespace::EnvironmentColorType type, bool boost);
+    // public UnityEngine.Color ColorForType(ColorType type)
+    // Offset: 0x133EF90
+    ::UnityEngine::Color ColorForType(::GlobalNamespace::ColorType type);
+    // public UnityEngine.Color ColorForSaberType(SaberType type)
+    // Offset: 0x133EFE0
+    ::UnityEngine::Color ColorForSaberType(::GlobalNamespace::SaberType type);
+    // public UnityEngine.Color EffectsColorForSaberType(SaberType type)
+    // Offset: 0x133F034
+    ::UnityEngine::Color EffectsColorForSaberType(::GlobalNamespace::SaberType type);
+    // public UnityEngine.Color GetObstacleEffectColor()
+    // Offset: 0x133F0CC
+    ::UnityEngine::Color GetObstacleEffectColor();
   }; // ColorManager
   #pragma pack(pop)
   static check_size<sizeof(ColorManager), 16 + sizeof(::GlobalNamespace::ColorScheme*)> __GlobalNamespace_ColorManagerSizeCheck;
@@ -108,6 +98,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorManager*), "get_obstaclesColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ColorManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ColorManager::ColorForType
 // Il2CppName: ColorForType
 template<>
@@ -153,7 +147,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorManager*), "GetObstacleEffectColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ColorManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -106,28 +106,28 @@ namespace BGNet::Core::Messages {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public BGNet.Core.Messages.BaseServerUnconnectedMessageHandler <>4__this
-    ::BGNet::Core::Messages::BaseServerUnconnectedMessageHandler*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::BGNet::Core::Messages::BaseServerUnconnectedMessageHandler*& dyn_$$4__this();
     // Get instance field reference: public System.UInt32 protocolVersion
-    uint& dyn_protocolVersion();
+    [[deprecated("Use field access instead!")]] uint& dyn_protocolVersion();
     // Get instance field reference: public System.Net.IPEndPoint endPoint
-    ::System::Net::IPEndPoint*& dyn_endPoint();
+    [[deprecated("Use field access instead!")]] ::System::Net::IPEndPoint*& dyn_endPoint();
     // Get instance field reference: public System.UInt32 requestId
-    uint& dyn_requestId();
+    [[deprecated("Use field access instead!")]] uint& dyn_requestId();
     // Get instance field reference: public System.UInt32 certificateResponseId
-    uint& dyn_certificateResponseId();
+    [[deprecated("Use field access instead!")]] uint& dyn_certificateResponseId();
     // Get instance field reference: public System.Byte[] clientRandom
-    ::ArrayW<uint8_t>& dyn_clientRandom();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_clientRandom();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x14FC87C
+    // Offset: 0x1534184
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x14FCB28
+    // Offset: 0x1534430
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BGNet.Core.Messages.BaseServerUnconnectedMessageHandler/BGNet.Core.Messages.<StartServerAuthenticationFlow>d__19
   #pragma pack(pop)

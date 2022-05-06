@@ -60,7 +60,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EVRMouseButton Middle
     static void _set_Middle(::Valve::VR::EVRMouseButton value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Valve.VR.EVRMouseButton
   #pragma pack(pop)
   static check_size<sizeof(EVRMouseButton), 0 + sizeof(int)> __Valve_VR_EVRMouseButtonSizeCheck;

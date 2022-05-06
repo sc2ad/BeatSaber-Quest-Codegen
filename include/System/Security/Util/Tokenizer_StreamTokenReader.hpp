@@ -32,15 +32,7 @@ namespace System::Security::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   class Tokenizer::StreamTokenReader : public ::Il2CppObject/*, public ::System::Security::Util::Tokenizer::ITokenReader*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.IO.StreamReader _in
     // Size: 0x8
     // Offset: 0x10
@@ -59,21 +51,21 @@ namespace System::Security::Util {
       return *reinterpret_cast<::System::Security::Util::Tokenizer::ITokenReader*>(this);
     }
     // Get instance field reference: System.IO.StreamReader _in
-    ::System::IO::StreamReader*& dyn__in();
+    [[deprecated("Use field access instead!")]] ::System::IO::StreamReader*& dyn__in();
     // Get instance field reference: System.Int32 _numCharRead
-    int& dyn__numCharRead();
+    [[deprecated("Use field access instead!")]] int& dyn__numCharRead();
     // System.Int32 get_NumCharEncountered()
-    // Offset: 0x20D7B84
+    // Offset: 0x21223F8
     int get_NumCharEncountered();
     // System.Void .ctor(System.IO.StreamReader input)
-    // Offset: 0x20D71CC
+    // Offset: 0x2121A40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tokenizer::StreamTokenReader* New_ctor(::System::IO::StreamReader* input) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Util::Tokenizer::StreamTokenReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tokenizer::StreamTokenReader*, creationType>(input)));
     }
     // public System.Int32 Read()
-    // Offset: 0x20D7B3C
+    // Offset: 0x21223B0
     int Read();
   }; // System.Security.Util.Tokenizer/System.Security.Util.StreamTokenReader
   #pragma pack(pop)

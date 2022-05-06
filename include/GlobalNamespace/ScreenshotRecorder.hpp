@@ -105,27 +105,19 @@ namespace GlobalNamespace {
       // Set static field: static public ScreenshotRecorder/RecordingType ScreenshotOnPause
       static void _set_ScreenshotOnPause(::GlobalNamespace::ScreenshotRecorder::RecordingType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // ScreenshotRecorder/RecordingType
     #pragma pack(pop)
     static check_size<sizeof(ScreenshotRecorder::RecordingType), 0 + sizeof(int)> __GlobalNamespace_ScreenshotRecorder_RecordingTypeSizeCheck;
     static_assert(sizeof(ScreenshotRecorder::RecordingType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _directory
     // Size: 0x8
     // Offset: 0x18
     ::StringW directory;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [NullAllowed] Offset: 0x12253D8
+    // [NullAllowed] Offset: 0x10A9DF0
     // private UnityEngine.Camera _camera
     // Size: 0x8
     // Offset: 0x20
@@ -238,81 +230,75 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _directory
-    ::StringW& dyn__directory();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__directory();
     // Get instance field reference: private UnityEngine.Camera _camera
-    ::UnityEngine::Camera*& dyn__camera();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Camera*& dyn__camera();
     // Get instance field reference: private System.Int32 _frameRate
-    int& dyn__frameRate();
+    [[deprecated("Use field access instead!")]] int& dyn__frameRate();
     // Get instance field reference: private System.Boolean _forceFixedFramerate
-    bool& dyn__forceFixedFramerate();
+    [[deprecated("Use field access instead!")]] bool& dyn__forceFixedFramerate();
     // Get instance field reference: private System.Int32 _interval
-    int& dyn__interval();
+    [[deprecated("Use field access instead!")]] int& dyn__interval();
     // Get instance field reference: private ScreenshotRecorder/RecordingType _recordingType
-    ::GlobalNamespace::ScreenshotRecorder::RecordingType& dyn__recordingType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ScreenshotRecorder::RecordingType& dyn__recordingType();
     // Get instance field reference: private System.Boolean _pauseWithPButton
-    bool& dyn__pauseWithPButton();
+    [[deprecated("Use field access instead!")]] bool& dyn__pauseWithPButton();
     // Get instance field reference: private System.Int32 _antiAlias
-    int& dyn__antiAlias();
+    [[deprecated("Use field access instead!")]] int& dyn__antiAlias();
     // Get instance field reference: private System.Int32 _screenshotWidth
-    int& dyn__screenshotWidth();
+    [[deprecated("Use field access instead!")]] int& dyn__screenshotWidth();
     // Get instance field reference: private System.Int32 _screenshotHeight
-    int& dyn__screenshotHeight();
+    [[deprecated("Use field access instead!")]] int& dyn__screenshotHeight();
     // Get instance field reference: private System.Int32 _counter
-    int& dyn__counter();
+    [[deprecated("Use field access instead!")]] int& dyn__counter();
     // Get instance field reference: private System.Single _originalTimeScale
-    float& dyn__originalTimeScale();
+    [[deprecated("Use field access instead!")]] float& dyn__originalTimeScale();
     // Get instance field reference: private System.Boolean _paused
-    bool& dyn__paused();
+    [[deprecated("Use field access instead!")]] bool& dyn__paused();
     // Get instance field reference: private System.Int32 _frameNum
-    int& dyn__frameNum();
+    [[deprecated("Use field access instead!")]] int& dyn__frameNum();
     // Get instance field reference: private UnityEngine.RenderTexture _cubemapLeftEye
-    ::UnityEngine::RenderTexture*& dyn__cubemapLeftEye();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RenderTexture*& dyn__cubemapLeftEye();
     // Get instance field reference: private UnityEngine.RenderTexture _cubemapRighEye
-    ::UnityEngine::RenderTexture*& dyn__cubemapRighEye();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RenderTexture*& dyn__cubemapRighEye();
     // Get instance field reference: private UnityEngine.RenderTexture _equirectTexture
-    ::UnityEngine::RenderTexture*& dyn__equirectTexture();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RenderTexture*& dyn__equirectTexture();
     // Get instance field reference: private UnityEngine.RenderTexture _cameraRenderTexture
-    ::UnityEngine::RenderTexture*& dyn__cameraRenderTexture();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RenderTexture*& dyn__cameraRenderTexture();
     // public System.String get_directory()
-    // Offset: 0x29D5B5C
+    // Offset: 0x2A2806C
     ::StringW get_directory();
     // public System.Void set_directory(System.String value)
-    // Offset: 0x29D5B64
+    // Offset: 0x2A28074
     void set_directory(::StringW value);
-    // protected System.Void OnEnable()
-    // Offset: 0x29D5B6C
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x29D5CF0
-    void OnDisable();
-    // protected System.Void LateUpdate()
-    // Offset: 0x29D5DC4
-    void LateUpdate();
-    // private System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x29D5F28
-    void OnApplicationFocus(bool hasFocus);
-    // private System.Void SaveCameraScreenshot()
-    // Offset: 0x29D5E94
-    void SaveCameraScreenshot();
-    // private System.Void SaveTextureScreenshot(UnityEngine.Texture2D tex)
-    // Offset: 0x29D6064
-    void SaveTextureScreenshot(::UnityEngine::Texture2D* tex);
-    // private UnityEngine.Texture2D ConvertRenderTexture(UnityEngine.RenderTexture renderTexture)
-    // Offset: 0x29D5F40
-    ::UnityEngine::Texture2D* ConvertRenderTexture(::UnityEngine::RenderTexture* renderTexture);
     // public System.Void .ctor()
-    // Offset: 0x29D6174
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A28684
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScreenshotRecorder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScreenshotRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScreenshotRecorder*, creationType>()));
     }
+    // protected System.Void OnEnable()
+    // Offset: 0x2A2807C
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x2A28200
+    void OnDisable();
+    // protected System.Void LateUpdate()
+    // Offset: 0x2A282D4
+    void LateUpdate();
+    // private System.Void OnApplicationFocus(System.Boolean hasFocus)
+    // Offset: 0x2A28438
+    void OnApplicationFocus(bool hasFocus);
+    // private System.Void SaveCameraScreenshot()
+    // Offset: 0x2A283A4
+    void SaveCameraScreenshot();
+    // private System.Void SaveTextureScreenshot(UnityEngine.Texture2D tex)
+    // Offset: 0x2A28574
+    void SaveTextureScreenshot(::UnityEngine::Texture2D* tex);
+    // private UnityEngine.Texture2D ConvertRenderTexture(UnityEngine.RenderTexture renderTexture)
+    // Offset: 0x2A28450
+    ::UnityEngine::Texture2D* ConvertRenderTexture(::UnityEngine::RenderTexture* renderTexture);
   }; // ScreenshotRecorder
   #pragma pack(pop)
   static check_size<sizeof(ScreenshotRecorder), 112 + sizeof(::UnityEngine::RenderTexture*)> __GlobalNamespace_ScreenshotRecorderSizeCheck;
@@ -338,6 +324,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenshotRecorder*), "set_directory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ScreenshotRecorder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ScreenshotRecorder::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -397,7 +387,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenshotRecorder*), "ConvertRenderTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{renderTexture});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ScreenshotRecorder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

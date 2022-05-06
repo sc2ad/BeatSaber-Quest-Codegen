@@ -30,15 +30,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SpawnRotationChevronManager::DirectionData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public SpawnRotationChevron chevron
     // Size: 0x8
     // Offset: 0x10
@@ -67,17 +59,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public SpawnRotationChevron chevron
-    ::GlobalNamespace::SpawnRotationChevron*& dyn_chevron();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SpawnRotationChevron*& dyn_chevron();
     // Get instance field reference: public System.Boolean fullyLid
-    bool& dyn_fullyLid();
+    [[deprecated("Use field access instead!")]] bool& dyn_fullyLid();
     // Get instance field reference: public System.Single fadeOutStartTime
-    float& dyn_fadeOutStartTime();
+    [[deprecated("Use field access instead!")]] float& dyn_fadeOutStartTime();
     // Get instance field reference: public System.Single fadeInEndTime
-    float& dyn_fadeInEndTime();
+    [[deprecated("Use field access instead!")]] float& dyn_fadeInEndTime();
     // public System.Void .ctor()
-    // Offset: 0x2AAB448
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x139206C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SpawnRotationChevronManager::DirectionData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SpawnRotationChevronManager::DirectionData::.ctor");

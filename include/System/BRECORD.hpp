@@ -46,9 +46,9 @@ namespace System {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private System.IntPtr pvRecord
-    ::System::IntPtr& dyn_pvRecord();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_pvRecord();
     // Get instance field reference: private System.IntPtr pRecInfo
-    ::System::IntPtr& dyn_pRecInfo();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_pRecInfo();
   }; // System.BRECORD
   #pragma pack(pop)
   static check_size<sizeof(BRECORD), 8 + sizeof(::System::IntPtr)> __System_BRECORDSizeCheck;

@@ -50,11 +50,11 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single m_flCenterX
-    float& dyn_m_flCenterX();
+    [[deprecated("Use field access instead!")]] float& dyn_m_flCenterX();
     // Get instance field reference: public System.Single m_flCenterY
-    float& dyn_m_flCenterY();
+    [[deprecated("Use field access instead!")]] float& dyn_m_flCenterY();
     // Get instance field reference: public System.Single m_flRadius
-    float& dyn_m_flRadius();
+    [[deprecated("Use field access instead!")]] float& dyn_m_flRadius();
   }; // Valve.VR.IntersectionMaskCircle_t
   #pragma pack(pop)
   static check_size<sizeof(IntersectionMaskCircle_t), 8 + sizeof(float)> __Valve_VR_IntersectionMaskCircle_tSizeCheck;

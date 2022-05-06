@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveData::PracticeSettings : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single startSongTime
     // Size: 0x4
     // Offset: 0x10
@@ -46,13 +38,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public System.Single startSongTime
-    float& dyn_startSongTime();
+    [[deprecated("Use field access instead!")]] float& dyn_startSongTime();
     // Get instance field reference: public System.Single songSpeedMul
-    float& dyn_songSpeedMul();
+    [[deprecated("Use field access instead!")]] float& dyn_songSpeedMul();
     // public System.Void .ctor()
-    // Offset: 0x137167C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D46FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::PracticeSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::PracticeSettings::.ctor");

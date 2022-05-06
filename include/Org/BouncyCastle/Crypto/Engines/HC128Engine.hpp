@@ -37,15 +37,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class HC128Engine : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IStreamCipher*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.UInt32[] p
     // Size: 0x8
     // Offset: 0x10
@@ -104,84 +96,82 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IStreamCipher*>(this);
     }
     // Get instance field reference: private System.UInt32[] p
-    ::ArrayW<uint>& dyn_p();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_p();
     // Get instance field reference: private System.UInt32[] q
-    ::ArrayW<uint>& dyn_q();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_q();
     // Get instance field reference: private System.UInt32 cnt
-    uint& dyn_cnt();
+    [[deprecated("Use field access instead!")]] uint& dyn_cnt();
     // Get instance field reference: private System.Byte[] key
-    ::ArrayW<uint8_t>& dyn_key();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_key();
     // Get instance field reference: private System.Byte[] iv
-    ::ArrayW<uint8_t>& dyn_iv();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_iv();
     // Get instance field reference: private System.Boolean initialised
-    bool& dyn_initialised();
+    [[deprecated("Use field access instead!")]] bool& dyn_initialised();
     // Get instance field reference: private System.Byte[] buf
-    ::ArrayW<uint8_t>& dyn_buf();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_buf();
     // Get instance field reference: private System.Int32 idx
-    int& dyn_idx();
+    [[deprecated("Use field access instead!")]] int& dyn_idx();
     // public System.String get_AlgorithmName()
-    // Offset: 0x232B308
+    // Offset: 0x2374B7C
     ::StringW get_AlgorithmName();
-    // static private System.UInt32 F1(System.UInt32 x)
-    // Offset: 0x232AD08
-    static uint F1(uint x);
-    // static private System.UInt32 F2(System.UInt32 x)
-    // Offset: 0x232AD20
-    static uint F2(uint x);
-    // private System.UInt32 G1(System.UInt32 x, System.UInt32 y, System.UInt32 z)
-    // Offset: 0x232AD30
-    uint G1(uint x, uint y, uint z);
-    // private System.UInt32 G2(System.UInt32 x, System.UInt32 y, System.UInt32 z)
-    // Offset: 0x232AD44
-    uint G2(uint x, uint y, uint z);
-    // static private System.UInt32 RotateLeft(System.UInt32 x, System.Int32 bits)
-    // Offset: 0x232AD58
-    static uint RotateLeft(uint x, int bits);
-    // static private System.UInt32 RotateRight(System.UInt32 x, System.Int32 bits)
-    // Offset: 0x232AD18
-    static uint RotateRight(uint x, int bits);
-    // private System.UInt32 H1(System.UInt32 x)
-    // Offset: 0x232AD64
-    uint H1(uint x);
-    // private System.UInt32 H2(System.UInt32 x)
-    // Offset: 0x232ADBC
-    uint H2(uint x);
-    // static private System.UInt32 Mod1024(System.UInt32 x)
-    // Offset: 0x232AE14
-    static uint Mod1024(uint x);
-    // static private System.UInt32 Mod512(System.UInt32 x)
-    // Offset: 0x232AE1C
-    static uint Mod512(uint x);
-    // static private System.UInt32 Dim(System.UInt32 x, System.UInt32 y)
-    // Offset: 0x232AE24
-    static uint Dim(uint x, uint y);
-    // private System.UInt32 Step()
-    // Offset: 0x232AE30
-    uint Step();
-    // private System.Void Init()
-    // Offset: 0x232AFFC
-    void Init();
-    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x232B350
-    void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-    // private System.Byte GetByte()
-    // Offset: 0x232B520
-    uint8_t GetByte();
-    // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x232B5A0
-    void ProcessBytes(::ArrayW<uint8_t> input, int inOff, int len, ::ArrayW<uint8_t> output, int outOff);
-    // public System.Void Reset()
-    // Offset: 0x232B740
-    void Reset();
     // public System.Void .ctor()
-    // Offset: 0x232B744
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2374FB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HC128Engine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::HC128Engine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HC128Engine*, creationType>()));
     }
+    // static private System.UInt32 F1(System.UInt32 x)
+    // Offset: 0x237457C
+    static uint F1(uint x);
+    // static private System.UInt32 F2(System.UInt32 x)
+    // Offset: 0x2374594
+    static uint F2(uint x);
+    // private System.UInt32 G1(System.UInt32 x, System.UInt32 y, System.UInt32 z)
+    // Offset: 0x23745A4
+    uint G1(uint x, uint y, uint z);
+    // private System.UInt32 G2(System.UInt32 x, System.UInt32 y, System.UInt32 z)
+    // Offset: 0x23745B8
+    uint G2(uint x, uint y, uint z);
+    // static private System.UInt32 RotateLeft(System.UInt32 x, System.Int32 bits)
+    // Offset: 0x23745CC
+    static uint RotateLeft(uint x, int bits);
+    // static private System.UInt32 RotateRight(System.UInt32 x, System.Int32 bits)
+    // Offset: 0x237458C
+    static uint RotateRight(uint x, int bits);
+    // private System.UInt32 H1(System.UInt32 x)
+    // Offset: 0x23745D8
+    uint H1(uint x);
+    // private System.UInt32 H2(System.UInt32 x)
+    // Offset: 0x2374630
+    uint H2(uint x);
+    // static private System.UInt32 Mod1024(System.UInt32 x)
+    // Offset: 0x2374688
+    static uint Mod1024(uint x);
+    // static private System.UInt32 Mod512(System.UInt32 x)
+    // Offset: 0x2374690
+    static uint Mod512(uint x);
+    // static private System.UInt32 Dim(System.UInt32 x, System.UInt32 y)
+    // Offset: 0x2374698
+    static uint Dim(uint x, uint y);
+    // private System.UInt32 Step()
+    // Offset: 0x23746A4
+    uint Step();
+    // private System.Void Init()
+    // Offset: 0x2374870
+    void Init();
+    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
+    // Offset: 0x2374BC4
+    void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // private System.Byte GetByte()
+    // Offset: 0x2374D94
+    uint8_t GetByte();
+    // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
+    // Offset: 0x2374E14
+    void ProcessBytes(::ArrayW<uint8_t> input, int inOff, int len, ::ArrayW<uint8_t> output, int outOff);
+    // public System.Void Reset()
+    // Offset: 0x2374FB4
+    void Reset();
   }; // Org.BouncyCastle.Crypto.Engines.HC128Engine
   #pragma pack(pop)
   static check_size<sizeof(HC128Engine), 72 + sizeof(int)> __Org_BouncyCastle_Crypto_Engines_HC128EngineSizeCheck;
@@ -196,6 +186,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::HC128Engine*), "get_AlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::HC128Engine::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::HC128Engine::F1
 // Il2CppName: F1
 template<>
@@ -357,7 +351,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::HC128Engine*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::HC128Engine::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

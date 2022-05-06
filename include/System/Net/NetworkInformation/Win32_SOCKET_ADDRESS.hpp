@@ -53,11 +53,11 @@ namespace System::Net::NetworkInformation {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.IntPtr Sockaddr
-    ::System::IntPtr& dyn_Sockaddr();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Sockaddr();
     // Get instance field reference: public System.Int32 SockaddrLength
-    int& dyn_SockaddrLength();
+    [[deprecated("Use field access instead!")]] int& dyn_SockaddrLength();
     // public System.Net.IPAddress GetIPAddress()
-    // Offset: 0x1B2D4A8
+    // Offset: 0x1B67A90
     ::System::Net::IPAddress* GetIPAddress();
   }; // System.Net.NetworkInformation.Win32_SOCKET_ADDRESS
   #pragma pack(pop)

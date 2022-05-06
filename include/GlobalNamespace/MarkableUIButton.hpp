@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MarkableUIButton : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Animator _animator
     // Size: 0x8
     // Offset: 0x18
@@ -68,36 +60,30 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Animator _animator
-    ::UnityEngine::Animator*& dyn__animator();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Animator*& dyn__animator();
     // Get instance field reference: private System.Boolean _marked
-    bool& dyn__marked();
+    [[deprecated("Use field access instead!")]] bool& dyn__marked();
     // Get instance field reference: private System.Int32 _markedTriggerId
-    int& dyn__markedTriggerId();
+    [[deprecated("Use field access instead!")]] int& dyn__markedTriggerId();
     // public System.Boolean get_marked()
-    // Offset: 0x1574AA0
+    // Offset: 0x15AB3B0
     bool get_marked();
     // public System.Void set_marked(System.Boolean value)
-    // Offset: 0x1574AA8
+    // Offset: 0x15AB3B8
     void set_marked(bool value);
-    // protected System.Void Awake()
-    // Offset: 0x1574AD4
-    void Awake();
-    // public System.Void ToggleMarked()
-    // Offset: 0x1574B2C
-    void ToggleMarked();
     // public System.Void .ctor()
-    // Offset: 0x1574B3C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15AB44C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MarkableUIButton* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MarkableUIButton::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MarkableUIButton*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x15AB3E4
+    void Awake();
+    // public System.Void ToggleMarked()
+    // Offset: 0x15AB43C
+    void ToggleMarked();
   }; // MarkableUIButton
   #pragma pack(pop)
   static check_size<sizeof(MarkableUIButton), 36 + sizeof(int)> __GlobalNamespace_MarkableUIButtonSizeCheck;
@@ -121,6 +107,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MarkableUIButton*), "set_marked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MarkableUIButton::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MarkableUIButton::Awake
 // Il2CppName: Awake
 template<>
@@ -137,7 +127,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MarkableUIButton*), "ToggleMarked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MarkableUIButton::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

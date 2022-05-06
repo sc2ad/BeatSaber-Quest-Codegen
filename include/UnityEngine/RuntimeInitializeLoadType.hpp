@@ -72,7 +72,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.RuntimeInitializeLoadType SubsystemRegistration
     static void _set_SubsystemRegistration(::UnityEngine::RuntimeInitializeLoadType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.RuntimeInitializeLoadType
   #pragma pack(pop)
   static check_size<sizeof(RuntimeInitializeLoadType), 0 + sizeof(int)> __UnityEngine_RuntimeInitializeLoadTypeSizeCheck;

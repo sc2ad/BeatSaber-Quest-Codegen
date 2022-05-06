@@ -37,22 +37,14 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class InputFieldViewStaticAnimations : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.InputFieldView _inputFieldView
     // Size: 0x8
     // Offset: 0x18
     ::HMUI::InputFieldView* inputFieldView;
     // Field size check
     static_assert(sizeof(::HMUI::InputFieldView*) == 0x8);
-    // [SpaceAttribute] Offset: 0x123BB9C
+    // [SpaceAttribute] Offset: 0x10C0674
     // private UnityEngine.AnimationClip _normalClip
     // Size: 0x8
     // Offset: 0x20
@@ -93,53 +85,51 @@ namespace HMUI {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.InputFieldView _inputFieldView
-    ::HMUI::InputFieldView*& dyn__inputFieldView();
+    [[deprecated("Use field access instead!")]] ::HMUI::InputFieldView*& dyn__inputFieldView();
     // Get instance field reference: private UnityEngine.AnimationClip _normalClip
-    ::UnityEngine::AnimationClip*& dyn__normalClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationClip*& dyn__normalClip();
     // Get instance field reference: private UnityEngine.AnimationClip _highlightedClip
-    ::UnityEngine::AnimationClip*& dyn__highlightedClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationClip*& dyn__highlightedClip();
     // Get instance field reference: private UnityEngine.AnimationClip _pressedClip
-    ::UnityEngine::AnimationClip*& dyn__pressedClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationClip*& dyn__pressedClip();
     // Get instance field reference: private UnityEngine.AnimationClip _disabledClip
-    ::UnityEngine::AnimationClip*& dyn__disabledClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationClip*& dyn__disabledClip();
     // Get instance field reference: private UnityEngine.AnimationClip _selectedClip
-    ::UnityEngine::AnimationClip*& dyn__selectedClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationClip*& dyn__selectedClip();
     // Get instance field reference: private System.Boolean _didStart
-    bool& dyn__didStart();
-    // protected System.Void Awake()
-    // Offset: 0x1682B04
-    void Awake();
-    // protected System.Void Start()
-    // Offset: 0x1682B94
-    void Start();
-    // protected System.Void OnEnable()
-    // Offset: 0x1682CD0
-    void OnEnable();
-    // protected System.Void OnDestroy()
-    // Offset: 0x1682CEC
-    void OnDestroy();
-    // private System.Void HandleInputFieldViewSelectionStateDidChange(HMUI.InputFieldView/HMUI.SelectionState state)
-    // Offset: 0x1682BB8
-    void HandleInputFieldViewSelectionStateDidChange(::HMUI::InputFieldView::SelectionState state);
+    [[deprecated("Use field access instead!")]] bool& dyn__didStart();
     // public System.Void .ctor()
-    // Offset: 0x1682DC4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16B96D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InputFieldViewStaticAnimations* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::InputFieldViewStaticAnimations::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InputFieldViewStaticAnimations*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x16B9414
+    void Awake();
+    // protected System.Void Start()
+    // Offset: 0x16B94A4
+    void Start();
+    // protected System.Void OnEnable()
+    // Offset: 0x16B95E0
+    void OnEnable();
+    // protected System.Void OnDestroy()
+    // Offset: 0x16B95FC
+    void OnDestroy();
+    // private System.Void HandleInputFieldViewSelectionStateDidChange(HMUI.InputFieldView/HMUI.SelectionState state)
+    // Offset: 0x16B94C8
+    void HandleInputFieldViewSelectionStateDidChange(::HMUI::InputFieldView::SelectionState state);
   }; // HMUI.InputFieldViewStaticAnimations
   #pragma pack(pop)
   static check_size<sizeof(InputFieldViewStaticAnimations), 72 + sizeof(bool)> __HMUI_InputFieldViewStaticAnimationsSizeCheck;
   static_assert(sizeof(InputFieldViewStaticAnimations) == 0x49);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HMUI::InputFieldViewStaticAnimations::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::InputFieldViewStaticAnimations::Awake
 // Il2CppName: Awake
 template<>
@@ -181,7 +171,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldViewStaticAnimations*), "HandleInputFieldViewSelectionStateDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }
 };
-// Writing MetadataGetter for method: HMUI::InputFieldViewStaticAnimations::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

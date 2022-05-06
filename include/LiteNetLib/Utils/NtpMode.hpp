@@ -54,7 +54,7 @@ namespace LiteNetLib::Utils {
     // Set static field: static public LiteNetLib.Utils.NtpMode Server
     static void _set_Server(::LiteNetLib::Utils::NtpMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // LiteNetLib.Utils.NtpMode
   #pragma pack(pop)
   static check_size<sizeof(NtpMode), 0 + sizeof(int)> __LiteNetLib_Utils_NtpModeSizeCheck;

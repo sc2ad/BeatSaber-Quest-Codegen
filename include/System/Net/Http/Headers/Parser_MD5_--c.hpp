@@ -30,20 +30,18 @@ namespace System::Net::Http::Headers {
     // Set static field: static public readonly System.Net.Http.Headers.Parser/System.Net.Http.Headers.MD5/System.Net.Http.Headers.<>c <>9
     static void _set_$$9(::System::Net::Http::Headers::Parser::MD5::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x195E0AC
+    // Offset: 0x1996694
     static void _cctor();
-    // System.String <.cctor>b__2_0(System.Object l)
-    // Offset: 0x195E118
-    ::StringW $_cctor$b__2_0(::Il2CppObject* l);
     // public System.Void .ctor()
-    // Offset: 0x195E110
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x19966F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Parser::MD5::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::Parser::MD5::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Parser::MD5::$$c*, creationType>()));
     }
+    // System.String <.cctor>b__2_0(System.Object l)
+    // Offset: 0x1996700
+    ::StringW $_cctor$b__2_0(::Il2CppObject* l);
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.MD5/System.Net.Http.Headers.<>c
   #pragma pack(pop)
 }
@@ -56,6 +54,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Parser::MD5::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Net::Http::Headers::Parser::MD5::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::Parser::MD5::$$c::$_cctor$b__2_0
 // Il2CppName: <.cctor>b__2_0
 template<>
@@ -65,7 +67,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Parser::MD5::$$c*), "<.cctor>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{l});
   }
 };
-// Writing MetadataGetter for method: System::Net::Http::Headers::Parser::MD5::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

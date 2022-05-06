@@ -45,15 +45,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SimpleTextureLoader::$LoadTextureCoroutine$d__2 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -100,41 +92,41 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Object <>2__current
-    ::Il2CppObject*& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$$2__current();
     // Get instance field reference: public System.Boolean useCache
-    bool& dyn_useCache();
+    [[deprecated("Use field access instead!")]] bool& dyn_useCache();
     // Get instance field reference: public System.String filePath
-    ::StringW& dyn_filePath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_filePath();
     // Get instance field reference: public System.Action`1<UnityEngine.Texture2D> finishedCallback
-    ::System::Action_1<::UnityEngine::Texture2D*>*& dyn_finishedCallback();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::UnityEngine::Texture2D*>*& dyn_finishedCallback();
     // Get instance field reference: private UnityEngine.Networking.UnityWebRequest <uwr>5__2
-    ::UnityEngine::Networking::UnityWebRequest*& dyn_$uwr$5__2();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Networking::UnityWebRequest*& dyn_$uwr$5__2();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x142C970
+    // Offset: 0x1381DD4
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x142C9D8
+    // Offset: 0x1381E3C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x142C524
+    // Offset: 0x1381988
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleTextureLoader::$LoadTextureCoroutine$d__2* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SimpleTextureLoader::$LoadTextureCoroutine$d__2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleTextureLoader::$LoadTextureCoroutine$d__2*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x142C5C8
+    // Offset: 0x1381A2C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x142C6A4
+    // Offset: 0x1381B08
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x142C5E4
+    // Offset: 0x1381A48
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x142C978
+    // Offset: 0x1381DDC
     void System_Collections_IEnumerator_Reset();
   }; // SimpleTextureLoader/<LoadTextureCoroutine>d__2
   #pragma pack(pop)

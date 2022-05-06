@@ -45,9 +45,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt64 overlayHandle
-    uint64_t& dyn_overlayHandle();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_overlayHandle();
     // Get instance field reference: public System.UInt32 nVisualMode
-    uint& dyn_nVisualMode();
+    [[deprecated("Use field access instead!")]] uint& dyn_nVisualMode();
   }; // OVR.OpenVR.VREvent_EditingCameraSurface_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_EditingCameraSurface_t), 8 + sizeof(uint)> __OVR_OpenVR_VREvent_EditingCameraSurface_tSizeCheck;

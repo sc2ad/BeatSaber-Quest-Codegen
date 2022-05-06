@@ -40,15 +40,7 @@ namespace GlobalNamespace {
     class LocalizedCustomPack;
     // Nested type: ::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack
     class PredefinedPack;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Collections.Generic.List`1<QuickPlaySetupData/QuickPlaySongPacksOverride/PredefinedPack> predefinedPackIds
     // Size: 0x8
     // Offset: 0x10
@@ -63,13 +55,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack*>*) == 0x8);
     public:
     // Get instance field reference: public System.Collections.Generic.List`1<QuickPlaySetupData/QuickPlaySongPacksOverride/PredefinedPack> predefinedPackIds
-    ::System::Collections::Generic::List_1<::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack*>*& dyn_predefinedPackIds();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack*>*& dyn_predefinedPackIds();
     // Get instance field reference: public System.Collections.Generic.List`1<QuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPack> localizedCustomPacks
-    ::System::Collections::Generic::List_1<::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack*>*& dyn_localizedCustomPacks();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack*>*& dyn_localizedCustomPacks();
     // public System.Void .ctor()
-    // Offset: 0x137A960
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13E1CA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static QuickPlaySetupData::QuickPlaySongPacksOverride* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::.ctor");

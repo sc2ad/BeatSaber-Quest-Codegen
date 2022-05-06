@@ -30,15 +30,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BTSCharacterMaterialSwitcher::MaterialPairs : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 materialIndex
     // Size: 0x4
     // Offset: 0x10
@@ -61,15 +53,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Material*) == 0x8);
     public:
     // Get instance field reference: public System.Int32 materialIndex
-    int& dyn_materialIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_materialIndex();
     // Get instance field reference: public UnityEngine.Material defaultMaterial
-    ::UnityEngine::Material*& dyn_defaultMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_defaultMaterial();
     // Get instance field reference: public UnityEngine.Material alternativeMaterial
-    ::UnityEngine::Material*& dyn_alternativeMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_alternativeMaterial();
     // public System.Void .ctor()
-    // Offset: 0x14C24F0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14F9DA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterMaterialSwitcher::MaterialPairs* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs::.ctor");

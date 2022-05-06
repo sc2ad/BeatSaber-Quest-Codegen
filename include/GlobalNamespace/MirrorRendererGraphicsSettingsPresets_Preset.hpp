@@ -74,20 +74,12 @@ namespace GlobalNamespace {
       // Set static field: static public MirrorRendererGraphicsSettingsPresets/Preset/MirrorType RenderedMirror
       static void _set_RenderedMirror(::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset::MirrorType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // MirrorRendererGraphicsSettingsPresets/Preset/MirrorType
     #pragma pack(pop)
     static check_size<sizeof(MirrorRendererGraphicsSettingsPresets::Preset::MirrorType), 0 + sizeof(int)> __GlobalNamespace_MirrorRendererGraphicsSettingsPresets_Preset_MirrorTypeSizeCheck;
     static_assert(sizeof(MirrorRendererGraphicsSettingsPresets::Preset::MirrorType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public MirrorRendererGraphicsSettingsPresets/Preset/MirrorType mirrorType
     // Size: 0x4
     // Offset: 0x18
@@ -140,26 +132,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::StringW
     constexpr operator ::StringW() const noexcept = delete;
     // Get instance field reference: public MirrorRendererGraphicsSettingsPresets/Preset/MirrorType mirrorType
-    ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset::MirrorType& dyn_mirrorType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset::MirrorType& dyn_mirrorType();
     // Get instance field reference: public UnityEngine.LayerMask reflectLayers
-    ::UnityEngine::LayerMask& dyn_reflectLayers();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::LayerMask& dyn_reflectLayers();
     // Get instance field reference: public System.Int32 stereoTextureWidth
-    int& dyn_stereoTextureWidth();
+    [[deprecated("Use field access instead!")]] int& dyn_stereoTextureWidth();
     // Get instance field reference: public System.Int32 stereoTextureHeight
-    int& dyn_stereoTextureHeight();
+    [[deprecated("Use field access instead!")]] int& dyn_stereoTextureHeight();
     // Get instance field reference: public System.Int32 monoTextureWidth
-    int& dyn_monoTextureWidth();
+    [[deprecated("Use field access instead!")]] int& dyn_monoTextureWidth();
     // Get instance field reference: public System.Int32 monoTextureHeight
-    int& dyn_monoTextureHeight();
+    [[deprecated("Use field access instead!")]] int& dyn_monoTextureHeight();
     // Get instance field reference: public System.Int32 maxAntiAliasing
-    int& dyn_maxAntiAliasing();
+    [[deprecated("Use field access instead!")]] int& dyn_maxAntiAliasing();
     // Get instance field reference: public System.Boolean enableBloomPrePassFog
-    bool& dyn_enableBloomPrePassFog();
+    [[deprecated("Use field access instead!")]] bool& dyn_enableBloomPrePassFog();
     // public System.Void .ctor()
-    // Offset: 0x1301808
+    // Offset: 0x12FDCE0
     // Implemented from: NamedPreset
     // Base method: System.Void NamedPreset::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MirrorRendererGraphicsSettingsPresets::Preset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset::.ctor");

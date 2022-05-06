@@ -93,19 +93,19 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: Valve.VR.IVRScreenshots/Valve.VR._RequestScreenshot RequestScreenshot
-    ::Valve::VR::IVRScreenshots::_RequestScreenshot*& dyn_RequestScreenshot();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRScreenshots::_RequestScreenshot*& dyn_RequestScreenshot();
     // Get instance field reference: Valve.VR.IVRScreenshots/Valve.VR._HookScreenshot HookScreenshot
-    ::Valve::VR::IVRScreenshots::_HookScreenshot*& dyn_HookScreenshot();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRScreenshots::_HookScreenshot*& dyn_HookScreenshot();
     // Get instance field reference: Valve.VR.IVRScreenshots/Valve.VR._GetScreenshotPropertyType GetScreenshotPropertyType
-    ::Valve::VR::IVRScreenshots::_GetScreenshotPropertyType*& dyn_GetScreenshotPropertyType();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRScreenshots::_GetScreenshotPropertyType*& dyn_GetScreenshotPropertyType();
     // Get instance field reference: Valve.VR.IVRScreenshots/Valve.VR._GetScreenshotPropertyFilename GetScreenshotPropertyFilename
-    ::Valve::VR::IVRScreenshots::_GetScreenshotPropertyFilename*& dyn_GetScreenshotPropertyFilename();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRScreenshots::_GetScreenshotPropertyFilename*& dyn_GetScreenshotPropertyFilename();
     // Get instance field reference: Valve.VR.IVRScreenshots/Valve.VR._UpdateScreenshotProgress UpdateScreenshotProgress
-    ::Valve::VR::IVRScreenshots::_UpdateScreenshotProgress*& dyn_UpdateScreenshotProgress();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRScreenshots::_UpdateScreenshotProgress*& dyn_UpdateScreenshotProgress();
     // Get instance field reference: Valve.VR.IVRScreenshots/Valve.VR._TakeStereoScreenshot TakeStereoScreenshot
-    ::Valve::VR::IVRScreenshots::_TakeStereoScreenshot*& dyn_TakeStereoScreenshot();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRScreenshots::_TakeStereoScreenshot*& dyn_TakeStereoScreenshot();
     // Get instance field reference: Valve.VR.IVRScreenshots/Valve.VR._SubmitScreenshot SubmitScreenshot
-    ::Valve::VR::IVRScreenshots::_SubmitScreenshot*& dyn_SubmitScreenshot();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRScreenshots::_SubmitScreenshot*& dyn_SubmitScreenshot();
   }; // Valve.VR.IVRScreenshots
   #pragma pack(pop)
   static check_size<sizeof(IVRScreenshots), 48 + sizeof(::Valve::VR::IVRScreenshots::_SubmitScreenshot*)> __Valve_VR_IVRScreenshotsSizeCheck;

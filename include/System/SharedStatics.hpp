@@ -28,15 +28,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class SharedStatics : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Security.Util.Tokenizer/System.Security.Util.StringMaker _maker
     // Size: 0x8
     // Offset: 0x10
@@ -53,18 +45,18 @@ namespace System {
     // Set static field: static private readonly System.SharedStatics _sharedStatics
     static void _set__sharedStatics(::System::SharedStatics* value);
     // Get instance field reference: private System.Security.Util.Tokenizer/System.Security.Util.StringMaker _maker
-    ::System::Security::Util::Tokenizer::StringMaker*& dyn__maker();
+    [[deprecated("Use field access instead!")]] ::System::Security::Util::Tokenizer::StringMaker*& dyn__maker();
     // static private System.Void .cctor()
-    // Offset: 0x20D7FB0
+    // Offset: 0x2122824
     static void _cctor();
     // static public System.Security.Util.Tokenizer/System.Security.Util.StringMaker GetSharedStringMaker()
-    // Offset: 0x20D6E5C
+    // Offset: 0x21216D0
     static ::System::Security::Util::Tokenizer::StringMaker* GetSharedStringMaker();
     // static public System.Void ReleaseSharedStringMaker(ref System.Security.Util.Tokenizer/System.Security.Util.StringMaker maker)
-    // Offset: 0x20D6FCC
+    // Offset: 0x2121840
     static void ReleaseSharedStringMaker(ByRef<::System::Security::Util::Tokenizer::StringMaker*> maker);
     // private System.Void .ctor()
-    // Offset: 0x20D7FA8
+    // Offset: 0x212281C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

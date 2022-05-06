@@ -109,7 +109,7 @@ namespace GlobalNamespace {
       // Set static field: static public AdditionalContentModel/EntitlementStatus NotOwned
       static void _set_NotOwned(::GlobalNamespace::AdditionalContentModel::EntitlementStatus value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // AdditionalContentModel/EntitlementStatus
     #pragma pack(pop)
     static check_size<sizeof(AdditionalContentModel::EntitlementStatus), 0 + sizeof(int)> __GlobalNamespace_AdditionalContentModel_EntitlementStatusSizeCheck;
@@ -151,7 +151,7 @@ namespace GlobalNamespace {
       // Set static field: static public AdditionalContentModel/OpenProductStoreResult Failed
       static void _set_Failed(::GlobalNamespace::AdditionalContentModel::OpenProductStoreResult value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // AdditionalContentModel/OpenProductStoreResult
     #pragma pack(pop)
     static check_size<sizeof(AdditionalContentModel::OpenProductStoreResult), 0 + sizeof(int)> __GlobalNamespace_AdditionalContentModel_OpenProductStoreResultSizeCheck;
@@ -199,21 +199,13 @@ namespace GlobalNamespace {
       // Set static field: static public AdditionalContentModel/IsPackBetterBuyThanLevelResult Failed
       static void _set_Failed(::GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // AdditionalContentModel/IsPackBetterBuyThanLevelResult
     #pragma pack(pop)
     static check_size<sizeof(AdditionalContentModel::IsPackBetterBuyThanLevelResult), 0 + sizeof(int)> __GlobalNamespace_AdditionalContentModel_IsPackBetterBuyThanLevelResultSizeCheck;
     static_assert(sizeof(AdditionalContentModel::IsPackBetterBuyThanLevelResult) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x124B988
+    // [InjectAttribute] Offset: 0x10D0480
     // private AlwaysOwnedContentContainerSO _alwaysOwnedContentContainer
     // Size: 0x8
     // Offset: 0x18
@@ -230,26 +222,33 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private AlwaysOwnedContentContainerSO _alwaysOwnedContentContainer
-    ::GlobalNamespace::AlwaysOwnedContentContainerSO*& dyn__alwaysOwnedContentContainer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AlwaysOwnedContentContainerSO*& dyn__alwaysOwnedContentContainer();
     // Get instance field reference: private System.Action didInvalidateDataEvent
-    ::System::Action*& dyn_didInvalidateDataEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didInvalidateDataEvent();
     // public System.Void add_didInvalidateDataEvent(System.Action value)
-    // Offset: 0x14B0444
+    // Offset: 0x14E7CFC
     void add_didInvalidateDataEvent(::System::Action* value);
     // public System.Void remove_didInvalidateDataEvent(System.Action value)
-    // Offset: 0x14B04E8
+    // Offset: 0x14E7DA0
     void remove_didInvalidateDataEvent(::System::Action* value);
+    // protected System.Void .ctor()
+    // Offset: 0x14E80E8
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static AdditionalContentModel* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AdditionalContentModel::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<AdditionalContentModel*, creationType>()));
+    }
     // protected System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x14B058C
+    // Offset: 0x14E7E44
     void OnApplicationFocus(bool hasFocus);
     // protected System.Void InvalidateData()
-    // Offset: 0x14B05C8
+    // Offset: 0x14E7E80
     void InvalidateData();
     // public System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> GetLevelEntitlementStatusAsync(System.String levelId, System.Threading.CancellationToken token)
-    // Offset: 0x14B0608
+    // Offset: 0x14E7EC0
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus>* GetLevelEntitlementStatusAsync(::StringW levelId, ::System::Threading::CancellationToken token);
     // public System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> GetPackEntitlementStatusAsync(System.String levelPackId, System.Threading.CancellationToken token)
-    // Offset: 0x14B071C
+    // Offset: 0x14E7FD4
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus>* GetPackEntitlementStatusAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
     // protected System.Void InvalidateDataInternal()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -269,19 +268,6 @@ namespace GlobalNamespace {
     // public System.Threading.Tasks.Task`1<AdditionalContentModel/OpenProductStoreResult> OpenLevelPackProductStoreAsync(System.String levelPackId, System.Threading.CancellationToken token)
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* OpenLevelPackProductStoreAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
-    // protected System.Void .ctor()
-    // Offset: 0x14B0830
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AdditionalContentModel* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AdditionalContentModel::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<AdditionalContentModel*, creationType>()));
-    }
   }; // AdditionalContentModel
   #pragma pack(pop)
   static check_size<sizeof(AdditionalContentModel), 32 + sizeof(::System::Action*)> __GlobalNamespace_AdditionalContentModelSizeCheck;
@@ -312,6 +298,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AdditionalContentModel*), "remove_didInvalidateDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::AdditionalContentModel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AdditionalContentModel::OnApplicationFocus
 // Il2CppName: OnApplicationFocus
 template<>
@@ -407,7 +397,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AdditionalContentModel*), "OpenLevelPackProductStoreAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelPackId, token});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AdditionalContentModel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

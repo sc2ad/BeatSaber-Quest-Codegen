@@ -44,9 +44,9 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt32 pid
-    uint& dyn_pid();
+    [[deprecated("Use field access instead!")]] uint& dyn_pid();
     // Get instance field reference: public System.UInt32 unArgsHandle
-    uint& dyn_unArgsHandle();
+    [[deprecated("Use field access instead!")]] uint& dyn_unArgsHandle();
   }; // Valve.VR.VREvent_ApplicationLaunch_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_ApplicationLaunch_t), 4 + sizeof(uint)> __Valve_VR_VREvent_ApplicationLaunch_tSizeCheck;

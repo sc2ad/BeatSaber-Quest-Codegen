@@ -51,20 +51,18 @@ namespace UnityEngine::TestTools::TestRunner {
     // Set static field: static public System.Func`2<UnityEngine.TestTools.Utils.IAssemblyWrapper,System.Reflection.Assembly> <>9__16_0
     static void _set_$$9__16_0(::System::Func_2<::UnityEngine::TestTools::Utils::IAssemblyWrapper*, ::System::Reflection::Assembly*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1951FBC
+    // Offset: 0x19898F4
     static void _cctor();
-    // System.Reflection.Assembly <Run>b__16_0(UnityEngine.TestTools.Utils.IAssemblyWrapper a)
-    // Offset: 0x1952028
-    ::System::Reflection::Assembly* $Run$b__16_0(::UnityEngine::TestTools::Utils::IAssemblyWrapper* a);
     // public System.Void .ctor()
-    // Offset: 0x1952020
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1989958
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlaymodeTestsController::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlaymodeTestsController::$$c*, creationType>()));
     }
+    // System.Reflection.Assembly <Run>b__16_0(UnityEngine.TestTools.Utils.IAssemblyWrapper a)
+    // Offset: 0x1989960
+    ::System::Reflection::Assembly* $Run$b__16_0(::UnityEngine::TestTools::Utils::IAssemblyWrapper* a);
   }; // UnityEngine.TestTools.TestRunner.PlaymodeTestsController/UnityEngine.TestTools.TestRunner.<>c
   #pragma pack(pop)
 }
@@ -77,6 +75,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c::$Run$b__16_0
 // Il2CppName: <Run>b__16_0
 template<>
@@ -86,7 +88,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::R
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c*), "<Run>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

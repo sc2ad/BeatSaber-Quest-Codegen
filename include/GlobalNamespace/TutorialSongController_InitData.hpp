@@ -30,15 +30,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TutorialSongController::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Single songBpm
     // Size: 0x4
     // Offset: 0x10
@@ -55,11 +47,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::BeatmapData*) == 0x8);
     public:
     // Get instance field reference: public readonly System.Single songBpm
-    float& dyn_songBpm();
+    [[deprecated("Use field access instead!")]] float& dyn_songBpm();
     // Get instance field reference: public readonly BeatmapData beatmapData
-    ::GlobalNamespace::BeatmapData*& dyn_beatmapData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapData*& dyn_beatmapData();
     // public System.Void .ctor(System.Single songBpm, BeatmapData beatmapData)
-    // Offset: 0x2AB394C
+    // Offset: 0x1490660
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialSongController::InitData* New_ctor(float songBpm, ::GlobalNamespace::BeatmapData* beatmapData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialSongController::InitData::.ctor");

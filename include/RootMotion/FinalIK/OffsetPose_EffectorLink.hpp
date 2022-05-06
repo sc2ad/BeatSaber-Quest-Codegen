@@ -39,15 +39,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class OffsetPose::EffectorLink : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public RootMotion.FinalIK.FullBodyBipedEffector effector
     // Size: 0x4
     // Offset: 0x10
@@ -74,31 +66,33 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector effector
-    ::RootMotion::FinalIK::FullBodyBipedEffector& dyn_effector();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::FullBodyBipedEffector& dyn_effector();
     // Get instance field reference: public UnityEngine.Vector3 offset
-    ::UnityEngine::Vector3& dyn_offset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_offset();
     // Get instance field reference: public UnityEngine.Vector3 pin
-    ::UnityEngine::Vector3& dyn_pin();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_pin();
     // Get instance field reference: public UnityEngine.Vector3 pinWeight
-    ::UnityEngine::Vector3& dyn_pinWeight();
-    // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight, UnityEngine.Quaternion rotation)
-    // Offset: 0x1F708C8
-    void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, ::UnityEngine::Quaternion rotation);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_pinWeight();
     // public System.Void .ctor()
-    // Offset: 0x1F70D18
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FBD58C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OffsetPose::EffectorLink* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::OffsetPose::EffectorLink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OffsetPose::EffectorLink*, creationType>()));
     }
+    // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight, UnityEngine.Quaternion rotation)
+    // Offset: 0x1FBD13C
+    void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, ::UnityEngine::Quaternion rotation);
   }; // RootMotion.FinalIK.OffsetPose/RootMotion.FinalIK.EffectorLink
   #pragma pack(pop)
   static check_size<sizeof(OffsetPose::EffectorLink), 44 + sizeof(::UnityEngine::Vector3)> __RootMotion_FinalIK_OffsetPose_EffectorLinkSizeCheck;
   static_assert(sizeof(OffsetPose::EffectorLink) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::OffsetPose::EffectorLink::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::OffsetPose::EffectorLink::Apply
 // Il2CppName: Apply
 template<>
@@ -110,7 +104,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::OffsetPose::EffectorLink*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver, weight, rotation});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::OffsetPose::EffectorLink::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

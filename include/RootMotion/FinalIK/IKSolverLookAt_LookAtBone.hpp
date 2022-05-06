@@ -34,15 +34,7 @@ namespace RootMotion::FinalIK {
     public:
     // Writing base type padding for base size: 0x71 to desired offset: 0x74
     char ___base_padding[0x3] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Vector3 baseForwardOffsetEuler
     // Size: 0xC
     // Offset: 0x74
@@ -55,29 +47,28 @@ namespace RootMotion::FinalIK {
       return baseForwardOffsetEuler;
     }
     // Get instance field reference: public UnityEngine.Vector3 baseForwardOffsetEuler
-    ::UnityEngine::Vector3& dyn_baseForwardOffsetEuler();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_baseForwardOffsetEuler();
     // public UnityEngine.Vector3 get_forward()
-    // Offset: 0x21AAF9C
+    // Offset: 0x21F7810
     ::UnityEngine::Vector3 get_forward();
     // public System.Void Initiate(UnityEngine.Transform root)
-    // Offset: 0x21AA474
+    // Offset: 0x21F6CE8
     void Initiate(::UnityEngine::Transform* root);
     // public System.Void LookAt(UnityEngine.Vector3 direction, System.Single weight)
-    // Offset: 0x21AB3A0
+    // Offset: 0x21F7C14
     void LookAt(::UnityEngine::Vector3 direction, float weight);
     // public System.Void .ctor()
-    // Offset: 0x21AB6E8
+    // Offset: 0x21F7F5C
     // Implemented from: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone
     // Base method: System.Void Bone::.ctor()
     // Base method: System.Void Point::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolverLookAt::LookAtBone* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolverLookAt::LookAtBone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverLookAt::LookAtBone*, creationType>()));
     }
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x21AA138
+    // Offset: 0x21F69AC
     // Implemented from: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone
     // Base method: System.Void Bone::.ctor(UnityEngine.Transform transform)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

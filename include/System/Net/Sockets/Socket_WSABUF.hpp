@@ -46,9 +46,9 @@ namespace System::Net::Sockets {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 len
-    int& dyn_len();
+    [[deprecated("Use field access instead!")]] int& dyn_len();
     // Get instance field reference: public System.IntPtr buf
-    ::System::IntPtr& dyn_buf();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_buf();
   }; // System.Net.Sockets.Socket/System.Net.Sockets.WSABUF
   #pragma pack(pop)
   static check_size<sizeof(Socket::WSABUF), 8 + sizeof(::System::IntPtr)> __System_Net_Sockets_Socket_WSABUFSizeCheck;

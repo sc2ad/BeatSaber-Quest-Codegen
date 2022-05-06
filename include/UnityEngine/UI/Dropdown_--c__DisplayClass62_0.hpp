@@ -24,15 +24,7 @@ namespace UnityEngine::UI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class Dropdown::$$c__DisplayClass62_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownItem item
     // Size: 0x8
     // Offset: 0x10
@@ -47,27 +39,29 @@ namespace UnityEngine::UI {
     static_assert(sizeof(::UnityEngine::UI::Dropdown*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownItem item
-    ::UnityEngine::UI::Dropdown::DropdownItem*& dyn_item();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Dropdown::DropdownItem*& dyn_item();
     // Get instance field reference: public UnityEngine.UI.Dropdown <>4__this
-    ::UnityEngine::UI::Dropdown*& dyn_$$4__this();
-    // System.Void <Show>b__0(System.Boolean x)
-    // Offset: 0x1E20988
-    void $Show$b__0(bool x);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Dropdown*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x1E20980
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E5B24C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Dropdown::$$c__DisplayClass62_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::Dropdown::$$c__DisplayClass62_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Dropdown::$$c__DisplayClass62_0*, creationType>()));
     }
+    // System.Void <Show>b__0(System.Boolean x)
+    // Offset: 0x1E5B254
+    void $Show$b__0(bool x);
   }; // UnityEngine.UI.Dropdown/UnityEngine.UI.<>c__DisplayClass62_0
   #pragma pack(pop)
   static check_size<sizeof(Dropdown::$$c__DisplayClass62_0), 24 + sizeof(::UnityEngine::UI::Dropdown*)> __UnityEngine_UI_Dropdown_$$c__DisplayClass62_0SizeCheck;
   static_assert(sizeof(Dropdown::$$c__DisplayClass62_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::UI::Dropdown::$$c__DisplayClass62_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::$$c__DisplayClass62_0::$Show$b__0
 // Il2CppName: <Show>b__0
 template<>
@@ -77,7 +71,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown::$$c__DisplayClass62_0*), "<Show>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::UI::Dropdown::$$c__DisplayClass62_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -36,15 +36,7 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   class ArgInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32[] _paramMap
     // Size: 0x8
     // Offset: 0x10
@@ -67,20 +59,20 @@ namespace System::Runtime::Remoting::Messaging {
     static_assert(sizeof(::System::Reflection::MethodBase*) == 0x8);
     public:
     // Get instance field reference: private System.Int32[] _paramMap
-    ::ArrayW<int>& dyn__paramMap();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__paramMap();
     // Get instance field reference: private System.Int32 _inoutArgCount
-    int& dyn__inoutArgCount();
+    [[deprecated("Use field access instead!")]] int& dyn__inoutArgCount();
     // Get instance field reference: private System.Reflection.MethodBase _method
-    ::System::Reflection::MethodBase*& dyn__method();
+    [[deprecated("Use field access instead!")]] ::System::Reflection::MethodBase*& dyn__method();
     // public System.Void .ctor(System.Reflection.MethodBase method, System.Runtime.Remoting.Messaging.ArgInfoType type)
-    // Offset: 0x1C62434
+    // Offset: 0x1C7F740
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArgInfo* New_ctor(::System::Reflection::MethodBase* method, ::System::Runtime::Remoting::Messaging::ArgInfoType type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::ArgInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArgInfo*, creationType>(method, type)));
     }
     // public System.Object[] GetInOutArgs(System.Object[] args)
-    // Offset: 0x1C625F8
+    // Offset: 0x1C7F904
     ::ArrayW<::Il2CppObject*> GetInOutArgs(::ArrayW<::Il2CppObject*> args);
   }; // System.Runtime.Remoting.Messaging.ArgInfo
   #pragma pack(pop)

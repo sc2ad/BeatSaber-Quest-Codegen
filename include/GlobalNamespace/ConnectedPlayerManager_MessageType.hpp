@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Set static field: static public ConnectedPlayerManager/MessageType MultiplayerSession
     static void _set_MultiplayerSession(::GlobalNamespace::ConnectedPlayerManager::MessageType value);
     // Get instance field reference: public System.Byte value__
-    uint8_t& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_value__();
   }; // ConnectedPlayerManager/MessageType
   #pragma pack(pop)
   static check_size<sizeof(ConnectedPlayerManager::MessageType), 0 + sizeof(uint8_t)> __GlobalNamespace_ConnectedPlayerManager_MessageTypeSizeCheck;

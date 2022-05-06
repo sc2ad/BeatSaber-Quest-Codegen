@@ -78,7 +78,7 @@ namespace System::Net::NetworkInformation {
     // Set static field: static public System.Net.NetworkInformation.SuffixOrigin Random
     static void _set_Random(::System::Net::NetworkInformation::SuffixOrigin value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Net.NetworkInformation.SuffixOrigin
   #pragma pack(pop)
   static check_size<sizeof(SuffixOrigin), 0 + sizeof(int)> __System_Net_NetworkInformation_SuffixOriginSizeCheck;

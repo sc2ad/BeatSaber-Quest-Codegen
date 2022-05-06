@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Set static field: static public EnvironmentContext BeatmapEditor
     static void _set_BeatmapEditor(::GlobalNamespace::EnvironmentContext value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // EnvironmentContext
   #pragma pack(pop)
   static check_size<sizeof(EnvironmentContext), 0 + sizeof(int)> __GlobalNamespace_EnvironmentContextSizeCheck;

@@ -54,7 +54,7 @@ namespace UnityOpus {
     // Set static field: static public UnityOpus.NumChannels Stereo
     static void _set_Stereo(::UnityOpus::NumChannels value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityOpus.NumChannels
   #pragma pack(pop)
   static check_size<sizeof(NumChannels), 0 + sizeof(int)> __UnityOpus_NumChannelsSizeCheck;

@@ -54,7 +54,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVREye Eye_Right
     static void _set_Eye_Right(::OVR::OpenVR::EVREye value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVR.OpenVR.EVREye
   #pragma pack(pop)
   static check_size<sizeof(EVREye), 0 + sizeof(int)> __OVR_OpenVR_EVREyeSizeCheck;

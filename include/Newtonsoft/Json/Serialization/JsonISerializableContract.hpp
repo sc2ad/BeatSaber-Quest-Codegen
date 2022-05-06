@@ -41,15 +41,7 @@ namespace Newtonsoft::Json::Serialization {
   // [PreserveAttribute] Offset: FFFFFFFF
   class JsonISerializableContract : public ::Newtonsoft::Json::Serialization::JsonContainerContract {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> <ISerializableCreator>k__BackingField
     // Size: 0x8
     // Offset: 0xC0
@@ -62,15 +54,15 @@ namespace Newtonsoft::Json::Serialization {
       return ISerializableCreator;
     }
     // Get instance field reference: private Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> <ISerializableCreator>k__BackingField
-    ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>*& dyn_$ISerializableCreator$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>*& dyn_$ISerializableCreator$k__BackingField();
     // public Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> get_ISerializableCreator()
-    // Offset: 0x1D2631C
+    // Offset: 0x1D62874
     ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>* get_ISerializableCreator();
     // public System.Void set_ISerializableCreator(Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> value)
-    // Offset: 0x1D26324
+    // Offset: 0x1D6287C
     void set_ISerializableCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>* value);
     // public System.Void .ctor(System.Type underlyingType)
-    // Offset: 0x1D2632C
+    // Offset: 0x1D62884
     // Implemented from: Newtonsoft.Json.Serialization.JsonContainerContract
     // Base method: System.Void JsonContainerContract::.ctor(System.Type underlyingType)
     // Base method: System.Void JsonContract::.ctor(System.Type underlyingType)

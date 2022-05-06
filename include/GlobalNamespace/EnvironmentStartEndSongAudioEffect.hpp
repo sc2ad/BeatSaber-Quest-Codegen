@@ -49,15 +49,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnvironmentStartEndSongAudioEffect : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean _playStartSongForNonZeroStartSongTime
     // Size: 0x1
     // Offset: 0x18
@@ -72,7 +64,7 @@ namespace GlobalNamespace {
     float songFinishedAheadTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x124A760
+    // [SpaceAttribute] Offset: 0x10CF258
     // private System.Single _songStartAudioClipVolume
     // Size: 0x4
     // Offset: 0x20
@@ -93,7 +85,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: songFailedAudioClipVolume and: songStartAudioClips
     char __padding4[0x4] = {};
-    // [SpaceAttribute] Offset: 0x124A7B8
+    // [SpaceAttribute] Offset: 0x10CF2B0
     // private UnityEngine.AudioClip[] _songStartAudioClips
     // Size: 0x8
     // Offset: 0x30
@@ -112,35 +104,35 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::AudioClip*> songFailedAudioClips;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::AudioClip*>) == 0x8);
-    // [InjectAttribute] Offset: 0x124A810
+    // [InjectAttribute] Offset: 0x10CF308
     // private readonly ILevelEndActions _levelEndActions
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::ILevelEndActions* levelEndActions;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILevelEndActions*) == 0x8);
-    // [InjectAttribute] Offset: 0x124A820
+    // [InjectAttribute] Offset: 0x10CF318
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::IAudioTimeSource* audioTimeSource;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0x124A830
+    // [InjectAttribute] Offset: 0x10CF328
     // private readonly IGamePause _gamePause
     // Size: 0x8
     // Offset: 0x58
     ::GlobalNamespace::IGamePause* gamePause;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IGamePause*) == 0x8);
-    // [InjectAttribute] Offset: 0x124A840
+    // [InjectAttribute] Offset: 0x10CF338
     // private readonly EnvironmentAudioEffectsPlayer _audioEffectsPlayer
     // Size: 0x8
     // Offset: 0x60
     ::GlobalNamespace::EnvironmentAudioEffectsPlayer* audioEffectsPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EnvironmentAudioEffectsPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0x124A850
+    // [InjectAttribute] Offset: 0x10CF348
     // private readonly EnvironmentContext _environmentContext
     // Size: 0x4
     // Offset: 0x68
@@ -169,75 +161,73 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kSmallSongTime
     static void _set_kSmallSongTime(float value);
     // Get instance field reference: private System.Boolean _playStartSongForNonZeroStartSongTime
-    bool& dyn__playStartSongForNonZeroStartSongTime();
+    [[deprecated("Use field access instead!")]] bool& dyn__playStartSongForNonZeroStartSongTime();
     // Get instance field reference: private System.Single _songFinishedAheadTime
-    float& dyn__songFinishedAheadTime();
+    [[deprecated("Use field access instead!")]] float& dyn__songFinishedAheadTime();
     // Get instance field reference: private System.Single _songStartAudioClipVolume
-    float& dyn__songStartAudioClipVolume();
+    [[deprecated("Use field access instead!")]] float& dyn__songStartAudioClipVolume();
     // Get instance field reference: private System.Single _songFinishedAudioClipVolume
-    float& dyn__songFinishedAudioClipVolume();
+    [[deprecated("Use field access instead!")]] float& dyn__songFinishedAudioClipVolume();
     // Get instance field reference: private System.Single _songFailedAudioClipVolume
-    float& dyn__songFailedAudioClipVolume();
+    [[deprecated("Use field access instead!")]] float& dyn__songFailedAudioClipVolume();
     // Get instance field reference: private UnityEngine.AudioClip[] _songStartAudioClips
-    ::ArrayW<::UnityEngine::AudioClip*>& dyn__songStartAudioClips();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::AudioClip*>& dyn__songStartAudioClips();
     // Get instance field reference: private UnityEngine.AudioClip[] _songFinishedAudioClips
-    ::ArrayW<::UnityEngine::AudioClip*>& dyn__songFinishedAudioClips();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::AudioClip*>& dyn__songFinishedAudioClips();
     // Get instance field reference: private UnityEngine.AudioClip[] _songFailedAudioClips
-    ::ArrayW<::UnityEngine::AudioClip*>& dyn__songFailedAudioClips();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::AudioClip*>& dyn__songFailedAudioClips();
     // Get instance field reference: private readonly ILevelEndActions _levelEndActions
-    ::GlobalNamespace::ILevelEndActions*& dyn__levelEndActions();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ILevelEndActions*& dyn__levelEndActions();
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
-    ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // Get instance field reference: private readonly IGamePause _gamePause
-    ::GlobalNamespace::IGamePause*& dyn__gamePause();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IGamePause*& dyn__gamePause();
     // Get instance field reference: private readonly EnvironmentAudioEffectsPlayer _audioEffectsPlayer
-    ::GlobalNamespace::EnvironmentAudioEffectsPlayer*& dyn__audioEffectsPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentAudioEffectsPlayer*& dyn__audioEffectsPlayer();
     // Get instance field reference: private readonly EnvironmentContext _environmentContext
-    ::GlobalNamespace::EnvironmentContext& dyn__environmentContext();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentContext& dyn__environmentContext();
     // Get instance field reference: private System.Boolean _songFinishedPlayed
-    bool& dyn__songFinishedPlayed();
+    [[deprecated("Use field access instead!")]] bool& dyn__songFinishedPlayed();
     // Get instance field reference: private System.Boolean _isWaitingToPlayStartAudio
-    bool& dyn__isWaitingToPlayStartAudio();
-    // protected System.Void Start()
-    // Offset: 0x1385808
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x1385C80
-    void OnDestroy();
-    // protected System.Void Update()
-    // Offset: 0x1385EC0
-    void Update();
-    // private System.Void LevelWillFinishWithinAheadTime()
-    // Offset: 0x13861A0
-    void LevelWillFinishWithinAheadTime();
-    // private System.Void HandleLevelFailed()
-    // Offset: 0x1386210
-    void HandleLevelFailed();
-    // private System.Void HandleGamePauseDidResume()
-    // Offset: 0x13862B8
-    void HandleGamePauseDidResume();
-    // private System.Void HandleGamePauseDidPause()
-    // Offset: 0x13862E0
-    void HandleGamePauseDidPause();
+    [[deprecated("Use field access instead!")]] bool& dyn__isWaitingToPlayStartAudio();
     // public System.Void .ctor()
-    // Offset: 0x1386308
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x136DEE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentStartEndSongAudioEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentStartEndSongAudioEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentStartEndSongAudioEffect*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x136D3E4
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x136D85C
+    void OnDestroy();
+    // protected System.Void Update()
+    // Offset: 0x136DA9C
+    void Update();
+    // private System.Void LevelWillFinishWithinAheadTime()
+    // Offset: 0x136DD7C
+    void LevelWillFinishWithinAheadTime();
+    // private System.Void HandleLevelFailed()
+    // Offset: 0x136DDEC
+    void HandleLevelFailed();
+    // private System.Void HandleGamePauseDidResume()
+    // Offset: 0x136DE94
+    void HandleGamePauseDidResume();
+    // private System.Void HandleGamePauseDidPause()
+    // Offset: 0x136DEBC
+    void HandleGamePauseDidPause();
   }; // EnvironmentStartEndSongAudioEffect
   #pragma pack(pop)
   static check_size<sizeof(EnvironmentStartEndSongAudioEffect), 109 + sizeof(bool)> __GlobalNamespace_EnvironmentStartEndSongAudioEffectSizeCheck;
   static_assert(sizeof(EnvironmentStartEndSongAudioEffect) == 0x6E);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentStartEndSongAudioEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentStartEndSongAudioEffect::Start
 // Il2CppName: Start
 template<>
@@ -294,7 +284,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentStartEndSongAudioEffect*), "HandleGamePauseDidPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::EnvironmentStartEndSongAudioEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

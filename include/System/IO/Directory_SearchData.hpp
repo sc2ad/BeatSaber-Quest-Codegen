@@ -26,15 +26,7 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class Directory::SearchData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.String fullPath
     // Size: 0x8
     // Offset: 0x10
@@ -55,13 +47,13 @@ namespace System::IO {
     static_assert(sizeof(::System::IO::SearchOption) == 0x4);
     public:
     // Get instance field reference: public readonly System.String fullPath
-    ::StringW& dyn_fullPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_fullPath();
     // Get instance field reference: public readonly System.String userPath
-    ::StringW& dyn_userPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_userPath();
     // Get instance field reference: public readonly System.IO.SearchOption searchOption
-    ::System::IO::SearchOption& dyn_searchOption();
+    [[deprecated("Use field access instead!")]] ::System::IO::SearchOption& dyn_searchOption();
     // public System.Void .ctor(System.String fullPath, System.String userPath, System.IO.SearchOption searchOption)
-    // Offset: 0x1F5DC14
+    // Offset: 0x1FAA488
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Directory::SearchData* New_ctor(::StringW fullPath, ::StringW userPath, ::System::IO::SearchOption searchOption) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::Directory::SearchData::.ctor");

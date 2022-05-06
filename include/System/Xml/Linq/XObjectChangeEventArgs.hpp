@@ -30,15 +30,7 @@ namespace System::Xml::Linq {
   // [TokenAttribute] Offset: FFFFFFFF
   class XObjectChangeEventArgs : public ::System::EventArgs {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Xml.Linq.XObjectChange objectChange
     // Size: 0x4
     // Offset: 0x10
@@ -67,18 +59,16 @@ namespace System::Xml::Linq {
     // Set static field: static public readonly System.Xml.Linq.XObjectChangeEventArgs Value
     static void _set_Value(::System::Xml::Linq::XObjectChangeEventArgs* value);
     // Get instance field reference: private System.Xml.Linq.XObjectChange objectChange
-    ::System::Xml::Linq::XObjectChange& dyn_objectChange();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Linq::XObjectChange& dyn_objectChange();
     // public System.Void .ctor(System.Xml.Linq.XObjectChange objectChange)
-    // Offset: 0x2A4E7D0
+    // Offset: 0x2AA5BB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XObjectChangeEventArgs* New_ctor(::System::Xml::Linq::XObjectChange objectChange) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XObjectChangeEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XObjectChangeEventArgs*, creationType>(objectChange)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2A4E84C
-    // Implemented from: System.EventArgs
-    // Base method: System.Void EventArgs::.cctor()
+    // Offset: 0x2AA5C34
     static void _cctor();
   }; // System.Xml.Linq.XObjectChangeEventArgs
   #pragma pack(pop)

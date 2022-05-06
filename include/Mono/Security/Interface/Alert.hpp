@@ -31,15 +31,7 @@ namespace Mono::Security::Interface {
   // [TokenAttribute] Offset: FFFFFFFF
   class Alert : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Mono.Security.Interface.AlertLevel level
     // Size: 0x1
     // Offset: 0x10
@@ -54,27 +46,27 @@ namespace Mono::Security::Interface {
     static_assert(sizeof(::Mono::Security::Interface::AlertDescription) == 0x1);
     public:
     // Get instance field reference: private Mono.Security.Interface.AlertLevel level
-    ::Mono::Security::Interface::AlertLevel& dyn_level();
+    [[deprecated("Use field access instead!")]] ::Mono::Security::Interface::AlertLevel& dyn_level();
     // Get instance field reference: private Mono.Security.Interface.AlertDescription description
-    ::Mono::Security::Interface::AlertDescription& dyn_description();
+    [[deprecated("Use field access instead!")]] ::Mono::Security::Interface::AlertDescription& dyn_description();
     // public Mono.Security.Interface.AlertLevel get_Level()
-    // Offset: 0x22FBB98
+    // Offset: 0x234540C
     ::Mono::Security::Interface::AlertLevel get_Level();
     // public Mono.Security.Interface.AlertDescription get_Description()
-    // Offset: 0x22FBBA0
+    // Offset: 0x2345414
     ::Mono::Security::Interface::AlertDescription get_Description();
     // public System.Void .ctor(Mono.Security.Interface.AlertDescription description)
-    // Offset: 0x22FBBA8
+    // Offset: 0x234541C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Alert* New_ctor(::Mono::Security::Interface::AlertDescription description) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Interface::Alert::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Alert*, creationType>(description)));
     }
     // private System.Void inferAlertLevel()
-    // Offset: 0x22FBC20
+    // Offset: 0x2345494
     void inferAlertLevel();
     // public override System.String ToString()
-    // Offset: 0x22FBC60
+    // Offset: 0x23454D4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

@@ -45,9 +45,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt64 m_nPreviousUniverse
-    uint64_t& dyn_m_nPreviousUniverse();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_m_nPreviousUniverse();
     // Get instance field reference: public System.UInt64 m_nCurrentUniverse
-    uint64_t& dyn_m_nCurrentUniverse();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_m_nCurrentUniverse();
   }; // OVR.OpenVR.VREvent_Chaperone_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Chaperone_t), 8 + sizeof(uint64_t)> __OVR_OpenVR_VREvent_Chaperone_tSizeCheck;

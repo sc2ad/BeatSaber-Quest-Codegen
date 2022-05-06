@@ -28,15 +28,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerAgreements : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 eulaVersion
     // Size: 0x4
     // Offset: 0x10
@@ -87,51 +79,53 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kCurrentHealthAndSafetyVersion
     static void _set_kCurrentHealthAndSafetyVersion(int value);
     // Get instance field reference: public System.Int32 eulaVersion
-    int& dyn_eulaVersion();
+    [[deprecated("Use field access instead!")]] int& dyn_eulaVersion();
     // Get instance field reference: public System.Int32 privacyPolicyVersion
-    int& dyn_privacyPolicyVersion();
+    [[deprecated("Use field access instead!")]] int& dyn_privacyPolicyVersion();
     // Get instance field reference: public System.Int32 healthAndSafetyVersion
-    int& dyn_healthAndSafetyVersion();
+    [[deprecated("Use field access instead!")]] int& dyn_healthAndSafetyVersion();
+    // public System.Void .ctor()
+    // Offset: 0x1367120
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static PlayerAgreements* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerAgreements::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<PlayerAgreements*, creationType>()));
+    }
     // public System.Void .ctor(System.Int32 eulaVersion, System.Int32 privacyPolicyVersion, System.Int32 healthAndSafetyVersion)
-    // Offset: 0x12F6044
+    // Offset: 0x136714C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerAgreements* New_ctor(int eulaVersion, int privacyPolicyVersion, int healthAndSafetyVersion) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerAgreements::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerAgreements*, creationType>(eulaVersion, privacyPolicyVersion, healthAndSafetyVersion)));
     }
     // public System.Void AgreeToEula()
-    // Offset: 0x12F6084
+    // Offset: 0x136718C
     void AgreeToEula();
     // public System.Void AgreeToPrivacyPolicy()
-    // Offset: 0x12F6090
+    // Offset: 0x1367198
     void AgreeToPrivacyPolicy();
     // public System.Void AgreeToHealthAndSafety()
-    // Offset: 0x12F609C
+    // Offset: 0x13671A4
     void AgreeToHealthAndSafety();
     // public System.Boolean AgreedToEula()
-    // Offset: 0x12F60A8
+    // Offset: 0x13671B0
     bool AgreedToEula();
     // public System.Boolean AgreedToPrivacyPolicy()
-    // Offset: 0x12F60B8
+    // Offset: 0x13671C0
     bool AgreedToPrivacyPolicy();
     // public System.Boolean AgreedToHealthAndSafety()
-    // Offset: 0x12F60C8
+    // Offset: 0x13671D0
     bool AgreedToHealthAndSafety();
-    // public System.Void .ctor()
-    // Offset: 0x12F6018
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PlayerAgreements* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerAgreements::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<PlayerAgreements*, creationType>()));
-    }
   }; // PlayerAgreements
   #pragma pack(pop)
   static check_size<sizeof(PlayerAgreements), 24 + sizeof(int)> __GlobalNamespace_PlayerAgreementsSizeCheck;
   static_assert(sizeof(PlayerAgreements) == 0x1C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::PlayerAgreements::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerAgreements::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -184,7 +178,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAgreements*), "AgreedToHealthAndSafety", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PlayerAgreements::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

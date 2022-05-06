@@ -73,7 +73,7 @@ namespace LIV::SDK::Unity {
     // Set static field: static public LIV.SDK.Unity.INVALIDATION_FLAGS EXCLUDE_BEHAVIOURS
     static void _set_EXCLUDE_BEHAVIOURS(::LIV::SDK::Unity::INVALIDATION_FLAGS value);
     // Get instance field reference: public System.UInt32 value__
-    uint& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint& dyn_value__();
   }; // LIV.SDK.Unity.INVALIDATION_FLAGS
   #pragma pack(pop)
   static check_size<sizeof(INVALIDATION_FLAGS), 0 + sizeof(uint)> __LIV_SDK_Unity_INVALIDATION_FLAGSSizeCheck;

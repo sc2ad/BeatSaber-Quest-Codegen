@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Set static field: static public FakeReflectionDynamicObjectsState Enabled
     static void _set_Enabled(::GlobalNamespace::FakeReflectionDynamicObjectsState value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // FakeReflectionDynamicObjectsState
   #pragma pack(pop)
   static check_size<sizeof(FakeReflectionDynamicObjectsState), 0 + sizeof(int)> __GlobalNamespace_FakeReflectionDynamicObjectsStateSizeCheck;

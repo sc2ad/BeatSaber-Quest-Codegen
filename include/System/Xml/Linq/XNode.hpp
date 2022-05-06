@@ -46,15 +46,7 @@ namespace System::Xml::Linq {
   // [TokenAttribute] Offset: FFFFFFFF
   class XNode : public ::System::Xml::Linq::XObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Xml.Linq.XNode next
     // Size: 0x8
     // Offset: 0x20
@@ -67,34 +59,33 @@ namespace System::Xml::Linq {
       return next;
     }
     // Get instance field reference: System.Xml.Linq.XNode next
-    ::System::Xml::Linq::XNode*& dyn_next();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Linq::XNode*& dyn_next();
     // public System.Void Remove()
-    // Offset: 0x2A4E0A0
+    // Offset: 0x2AA5488
     void Remove();
     // public System.Void WriteTo(System.Xml.XmlWriter writer)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void WriteTo(::System::Xml::XmlWriter* writer);
     // System.Void AppendText(System.Text.StringBuilder sb)
-    // Offset: 0x2A4E5CC
+    // Offset: 0x2AA59B4
     void AppendText(::System::Text::StringBuilder* sb);
     // System.Xml.Linq.XNode CloneNode()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::Linq::XNode* CloneNode();
     // private System.String GetXmlString(System.Xml.Linq.SaveOptions o)
-    // Offset: 0x2A4E238
+    // Offset: 0x2AA5620
     ::StringW GetXmlString(::System::Xml::Linq::SaveOptions o);
     // System.Void .ctor()
-    // Offset: 0x2A49ED8
+    // Offset: 0x2AA12C0
     // Implemented from: System.Xml.Linq.XObject
     // Base method: System.Void XObject::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XNode* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XNode*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x2A4E138
+    // Offset: 0x2AA5520
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

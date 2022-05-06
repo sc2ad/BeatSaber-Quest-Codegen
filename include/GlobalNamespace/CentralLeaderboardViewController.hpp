@@ -103,15 +103,7 @@ namespace GlobalNamespace {
     class $RefreshDelayed$d__36;
     // Nested type: ::GlobalNamespace::CentralLeaderboardViewController::$LoadScoresAsync$d__37
     struct $LoadScoresAsync$d__37;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private LeaderboardTableView _leaderboardTableView
     // Size: 0x8
     // Offset: 0x70
@@ -136,7 +128,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125A9A0
+    // [SpaceAttribute] Offset: 0x10DF584
     // private HMUI.TextSegmentedControl _leaderboardTypeSegmentedControl
     // Size: 0x8
     // Offset: 0x90
@@ -179,7 +171,7 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* leaderboardView;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0x125AA38
+    // [InjectAttribute] Offset: 0x10DF61C
     // private readonly GameplaySetupViewController _gameplaySetupViewController
     // Size: 0x8
     // Offset: 0xC8
@@ -230,114 +222,108 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::GameplayModifiers*) == 0x8);
     public:
     // Get instance field reference: private LeaderboardTableView _leaderboardTableView
-    ::GlobalNamespace::LeaderboardTableView*& dyn__leaderboardTableView();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LeaderboardTableView*& dyn__leaderboardTableView();
     // Get instance field reference: private HMUI.IconSegmentedControl _scopeSegmentedControl
-    ::HMUI::IconSegmentedControl*& dyn__scopeSegmentedControl();
+    [[deprecated("Use field access instead!")]] ::HMUI::IconSegmentedControl*& dyn__scopeSegmentedControl();
     // Get instance field reference: private LoadingControl _loadingControl
-    ::GlobalNamespace::LoadingControl*& dyn__loadingControl();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LoadingControl*& dyn__loadingControl();
     // Get instance field reference: private MainSettingsModelSO _mainSettingsModel
-    ::GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
     // Get instance field reference: private HMUI.TextSegmentedControl _leaderboardTypeSegmentedControl
-    ::HMUI::TextSegmentedControl*& dyn__leaderboardTypeSegmentedControl();
+    [[deprecated("Use field access instead!")]] ::HMUI::TextSegmentedControl*& dyn__leaderboardTypeSegmentedControl();
     // Get instance field reference: private UnityEngine.Sprite _globalLeaderboardIcon
-    ::UnityEngine::Sprite*& dyn__globalLeaderboardIcon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__globalLeaderboardIcon();
     // Get instance field reference: private UnityEngine.Sprite _friendsLeaderboardIcon
-    ::UnityEngine::Sprite*& dyn__friendsLeaderboardIcon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__friendsLeaderboardIcon();
     // Get instance field reference: private UnityEngine.UI.Button _enableOnlineServicesButton
-    ::UnityEngine::UI::Button*& dyn__enableOnlineServicesButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__enableOnlineServicesButton();
     // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModel
-    ::GlobalNamespace::GameplayModifiersModelSO*& dyn__gameplayModifiersModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiersModelSO*& dyn__gameplayModifiersModel();
     // Get instance field reference: private UnityEngine.GameObject _optInOnlineServicesView
-    ::UnityEngine::GameObject*& dyn__optInOnlineServicesView();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__optInOnlineServicesView();
     // Get instance field reference: private UnityEngine.GameObject _leaderboardView
-    ::UnityEngine::GameObject*& dyn__leaderboardView();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__leaderboardView();
     // Get instance field reference: private readonly GameplaySetupViewController _gameplaySetupViewController
-    ::GlobalNamespace::GameplaySetupViewController*& dyn__gameplaySetupViewController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplaySetupViewController*& dyn__gameplaySetupViewController();
     // Get instance field reference: private readonly OnlineServices.ServerManager _serverManager
-    ::OnlineServices::ServerManager*& dyn__serverManager();
+    [[deprecated("Use field access instead!")]] ::OnlineServices::ServerManager*& dyn__serverManager();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> _scores
-    ::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardTableView::ScoreData*>*& dyn__scores();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardTableView::ScoreData*>*& dyn__scores();
     // Get instance field reference: private IDifficultyBeatmap _difficultyBeatmap
-    ::GlobalNamespace::IDifficultyBeatmap*& dyn__difficultyBeatmap();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IDifficultyBeatmap*& dyn__difficultyBeatmap();
     // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    ::System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // Get instance field reference: private CentralLeaderboardViewController/LeaderboardPanel[] _leaderboardPanels
-    ::ArrayW<::GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*>& dyn__leaderboardPanels();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*>& dyn__leaderboardPanels();
     // Get instance field reference: private CentralLeaderboardViewController/ScoreScopeInfo[] _scoreScopeInfos
-    ::ArrayW<::GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*>& dyn__scoreScopeInfos();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*>& dyn__scoreScopeInfos();
     // Get instance field reference: private GameplayModifiers _gameplayModifiers
-    ::GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // private GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x13531C4
+    // Offset: 0x133C40C
     ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // private System.Boolean get_hasScoresData()
-    // Offset: 0x13531E0
+    // Offset: 0x133C428
     bool get_hasScoresData();
     // private System.Void HandleDidPressRefreshButton()
-    // Offset: 0x1354080
+    // Offset: 0x133D2C8
     void HandleDidPressRefreshButton();
     // private System.Void HandleGameplaySetupViewControllerDidChangeGameplayModifiers()
-    // Offset: 0x135408C
+    // Offset: 0x133D2D4
     void HandleGameplaySetupViewControllerDidChangeGameplayModifiers();
     // private System.Void HandlelatformServicesAvailabilityInfoChanged(OnlineServices.PlatformServicesAvailabilityInfo availabilityInfo)
-    // Offset: 0x13540E0
+    // Offset: 0x133D328
     void HandlelatformServicesAvailabilityInfoChanged(::OnlineServices::PlatformServicesAvailabilityInfo* availabilityInfo);
     // private System.Void HanldeLeaderboardTypeSegmentedControlDidSelectCell(HMUI.SegmentedControl control, System.Int32 index)
-    // Offset: 0x1354108
+    // Offset: 0x133D350
     void HanldeLeaderboardTypeSegmentedControlDidSelectCell(::HMUI::SegmentedControl* control, int index);
     // private System.Void HandleScopeSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0x1354184
+    // Offset: 0x133D3CC
     void HandleScopeSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int cellNumber);
     // private System.Void HandleScoreForLeaderboardDidUpload(System.String leaderboardId)
-    // Offset: 0x1354190
+    // Offset: 0x133D3D8
     void HandleScoreForLeaderboardDidUpload(::StringW leaderboardId);
     // private System.Void Refresh(System.Boolean showLoadingIndicator, System.Boolean clear)
-    // Offset: 0x1353314
+    // Offset: 0x133C55C
     void Refresh(bool showLoadingIndicator, bool clear);
     // private System.Collections.IEnumerator RefreshDelayed(System.Boolean showLoadingIndicator, System.Boolean clear)
-    // Offset: 0x13541F0
+    // Offset: 0x133D438
     ::System::Collections::IEnumerator* RefreshDelayed(bool showLoadingIndicator, bool clear);
     // private System.Void LoadScoresAsync()
-    // Offset: 0x13542AC
+    // Offset: 0x133D4F4
     void LoadScoresAsync();
     // private System.Void ClearContent()
-    // Offset: 0x13532A4
+    // Offset: 0x133C4EC
     void ClearContent();
     // private System.Void <DidActivate>b__26_0()
-    // Offset: 0x13543D8
+    // Offset: 0x133D620
     void $DidActivate$b__26_0();
     // public System.Void .ctor()
-    // Offset: 0x1354364
+    // Offset: 0x133D5AC
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::.ctor()
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CentralLeaderboardViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CentralLeaderboardViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CentralLeaderboardViewController*, creationType>()));
     }
     // public override System.Void SetData(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x135323C
+    // Offset: 0x133C484
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::SetData(IDifficultyBeatmap difficultyBeatmap)
     void SetData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1353534
+    // Offset: 0x133C77C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1353C48
+    // Offset: 0x133CE90
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1353E48
+    // Offset: 0x133D090
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();

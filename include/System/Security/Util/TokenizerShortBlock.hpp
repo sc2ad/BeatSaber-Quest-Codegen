@@ -27,15 +27,7 @@ namespace System::Security::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   class TokenizerShortBlock : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int16[] m_block
     // Size: 0x8
     // Offset: 0x10
@@ -50,11 +42,11 @@ namespace System::Security::Util {
     static_assert(sizeof(::System::Security::Util::TokenizerShortBlock*) == 0x8);
     public:
     // Get instance field reference: System.Int16[] m_block
-    ::ArrayW<int16_t>& dyn_m_block();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int16_t>& dyn_m_block();
     // Get instance field reference: System.Security.Util.TokenizerShortBlock m_next
-    ::System::Security::Util::TokenizerShortBlock*& dyn_m_next();
+    [[deprecated("Use field access instead!")]] ::System::Security::Util::TokenizerShortBlock*& dyn_m_next();
     // public System.Void .ctor()
-    // Offset: 0x20D7D90
+    // Offset: 0x2122604
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

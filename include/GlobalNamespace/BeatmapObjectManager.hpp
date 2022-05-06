@@ -86,15 +86,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate
     class NoteWasCutDelegate;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Action`3<NoteData,BeatmapObjectSpawnMovementData/NoteSpawnData,System.Single> noteWasAddedEvent
     // Size: 0x8
     // Offset: 0x10
@@ -231,138 +223,145 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::ISliderDidDissolveEvent*>(this);
     }
     // Get instance field reference: private System.Action`3<NoteData,BeatmapObjectSpawnMovementData/NoteSpawnData,System.Single> noteWasAddedEvent
-    ::System::Action_3<::GlobalNamespace::NoteData*, ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, float>*& dyn_noteWasAddedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_3<::GlobalNamespace::NoteData*, ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, float>*& dyn_noteWasAddedEvent();
     // Get instance field reference: private System.Action`1<NoteController> noteWasSpawnedEvent
-    ::System::Action_1<::GlobalNamespace::NoteController*>*& dyn_noteWasSpawnedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::NoteController*>*& dyn_noteWasSpawnedEvent();
     // Get instance field reference: private System.Action`1<NoteController> noteWasDespawnedEvent
-    ::System::Action_1<::GlobalNamespace::NoteController*>*& dyn_noteWasDespawnedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::NoteController*>*& dyn_noteWasDespawnedEvent();
     // Get instance field reference: private System.Action`1<NoteController> noteWasMissedEvent
-    ::System::Action_1<::GlobalNamespace::NoteController*>*& dyn_noteWasMissedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::NoteController*>*& dyn_noteWasMissedEvent();
     // Get instance field reference: private BeatmapObjectManager/NoteWasCutDelegate noteWasCutEvent
-    ::GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate*& dyn_noteWasCutEvent();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate*& dyn_noteWasCutEvent();
     // Get instance field reference: private System.Action`1<NoteController> noteDidStartJumpEvent
-    ::System::Action_1<::GlobalNamespace::NoteController*>*& dyn_noteDidStartJumpEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::NoteController*>*& dyn_noteDidStartJumpEvent();
     // Get instance field reference: private System.Action`3<ObstacleData,BeatmapObjectSpawnMovementData/ObstacleSpawnData,System.Single> obstacleWasAddedEvent
-    ::System::Action_3<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData, float>*& dyn_obstacleWasAddedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_3<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData, float>*& dyn_obstacleWasAddedEvent();
     // Get instance field reference: private System.Action`1<ObstacleController> obstacleWasSpawnedEvent
-    ::System::Action_1<::GlobalNamespace::ObstacleController*>*& dyn_obstacleWasSpawnedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::ObstacleController*>*& dyn_obstacleWasSpawnedEvent();
     // Get instance field reference: private System.Action`1<ObstacleController> obstacleWasDespawnedEvent
-    ::System::Action_1<::GlobalNamespace::ObstacleController*>*& dyn_obstacleWasDespawnedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::ObstacleController*>*& dyn_obstacleWasDespawnedEvent();
     // Get instance field reference: private System.Action`1<ObstacleController> obstacleDidPassThreeQuartersOfMove2Event
-    ::System::Action_1<::GlobalNamespace::ObstacleController*>*& dyn_obstacleDidPassThreeQuartersOfMove2Event();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::ObstacleController*>*& dyn_obstacleDidPassThreeQuartersOfMove2Event();
     // Get instance field reference: private System.Action`1<ObstacleController> obstacleDidPassAvoidedMarkEvent
-    ::System::Action_1<::GlobalNamespace::ObstacleController*>*& dyn_obstacleDidPassAvoidedMarkEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::ObstacleController*>*& dyn_obstacleDidPassAvoidedMarkEvent();
     // Get instance field reference: private System.Action`3<SliderData,BeatmapObjectSpawnMovementData/SliderSpawnData,System.Single> sliderWasAddedEvent
-    ::System::Action_3<::GlobalNamespace::SliderData*, ::GlobalNamespace::BeatmapObjectSpawnMovementData::SliderSpawnData, float>*& dyn_sliderWasAddedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_3<::GlobalNamespace::SliderData*, ::GlobalNamespace::BeatmapObjectSpawnMovementData::SliderSpawnData, float>*& dyn_sliderWasAddedEvent();
     // Get instance field reference: private System.Action`1<SliderController> sliderWasSpawnedEvent
-    ::System::Action_1<::GlobalNamespace::SliderController*>*& dyn_sliderWasSpawnedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::SliderController*>*& dyn_sliderWasSpawnedEvent();
     // Get instance field reference: private System.Action`1<SliderController> sliderWasDespawnedEvent
-    ::System::Action_1<::GlobalNamespace::SliderController*>*& dyn_sliderWasDespawnedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::SliderController*>*& dyn_sliderWasDespawnedEvent();
     // Get instance field reference: private System.Action`1<System.Boolean> didHideAllBeatmapObjectsEvent
-    ::System::Action_1<bool>*& dyn_didHideAllBeatmapObjectsEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<bool>*& dyn_didHideAllBeatmapObjectsEvent();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<IBeatmapObjectController> _allBeatmapObjects
-    ::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapObjectController*>*& dyn__allBeatmapObjects();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapObjectController*>*& dyn__allBeatmapObjects();
     // Get instance field reference: private System.Boolean <spawnHidden>k__BackingField
-    bool& dyn_$spawnHidden$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$spawnHidden$k__BackingField();
     // public System.Collections.Generic.List`1<ObstacleController> get_activeObstacleControllers()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>* get_activeObstacleControllers();
     // public System.Boolean get_spawnHidden()
-    // Offset: 0x14D68C8
+    // Offset: 0x150E1D0
     bool get_spawnHidden();
     // public System.Void set_spawnHidden(System.Boolean value)
-    // Offset: 0x14D68D0
+    // Offset: 0x150E1D8
     void set_spawnHidden(bool value);
     // public System.Void add_noteWasAddedEvent(System.Action`3<NoteData,BeatmapObjectSpawnMovementData/NoteSpawnData,System.Single> value)
-    // Offset: 0x14D56D8
+    // Offset: 0x150CFE0
     void add_noteWasAddedEvent(::System::Action_3<::GlobalNamespace::NoteData*, ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, float>* value);
     // public System.Void remove_noteWasAddedEvent(System.Action`3<NoteData,BeatmapObjectSpawnMovementData/NoteSpawnData,System.Single> value)
-    // Offset: 0x14D577C
+    // Offset: 0x150D084
     void remove_noteWasAddedEvent(::System::Action_3<::GlobalNamespace::NoteData*, ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, float>* value);
     // public System.Void add_noteWasSpawnedEvent(System.Action`1<NoteController> value)
-    // Offset: 0x14D5820
+    // Offset: 0x150D128
     void add_noteWasSpawnedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
     // public System.Void remove_noteWasSpawnedEvent(System.Action`1<NoteController> value)
-    // Offset: 0x14D58C4
+    // Offset: 0x150D1CC
     void remove_noteWasSpawnedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
     // public System.Void add_noteWasDespawnedEvent(System.Action`1<NoteController> value)
-    // Offset: 0x14D5968
+    // Offset: 0x150D270
     void add_noteWasDespawnedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
     // public System.Void remove_noteWasDespawnedEvent(System.Action`1<NoteController> value)
-    // Offset: 0x14D5A0C
+    // Offset: 0x150D314
     void remove_noteWasDespawnedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
     // public System.Void add_noteWasMissedEvent(System.Action`1<NoteController> value)
-    // Offset: 0x14D5AB0
+    // Offset: 0x150D3B8
     void add_noteWasMissedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
     // public System.Void remove_noteWasMissedEvent(System.Action`1<NoteController> value)
-    // Offset: 0x14D5B54
+    // Offset: 0x150D45C
     void remove_noteWasMissedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
     // public System.Void add_noteWasCutEvent(BeatmapObjectManager/NoteWasCutDelegate value)
-    // Offset: 0x14D5BF8
+    // Offset: 0x150D500
     void add_noteWasCutEvent(::GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate* value);
     // public System.Void remove_noteWasCutEvent(BeatmapObjectManager/NoteWasCutDelegate value)
-    // Offset: 0x14D5C9C
+    // Offset: 0x150D5A4
     void remove_noteWasCutEvent(::GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate* value);
     // public System.Void add_noteDidStartJumpEvent(System.Action`1<NoteController> value)
-    // Offset: 0x14D5D40
+    // Offset: 0x150D648
     void add_noteDidStartJumpEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
     // public System.Void remove_noteDidStartJumpEvent(System.Action`1<NoteController> value)
-    // Offset: 0x14D5DE4
+    // Offset: 0x150D6EC
     void remove_noteDidStartJumpEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
     // public System.Void add_obstacleWasAddedEvent(System.Action`3<ObstacleData,BeatmapObjectSpawnMovementData/ObstacleSpawnData,System.Single> value)
-    // Offset: 0x14D5E88
+    // Offset: 0x150D790
     void add_obstacleWasAddedEvent(::System::Action_3<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData, float>* value);
     // public System.Void remove_obstacleWasAddedEvent(System.Action`3<ObstacleData,BeatmapObjectSpawnMovementData/ObstacleSpawnData,System.Single> value)
-    // Offset: 0x14D5F2C
+    // Offset: 0x150D834
     void remove_obstacleWasAddedEvent(::System::Action_3<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData, float>* value);
     // public System.Void add_obstacleWasSpawnedEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x14D5FD0
+    // Offset: 0x150D8D8
     void add_obstacleWasSpawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void remove_obstacleWasSpawnedEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x14D6074
+    // Offset: 0x150D97C
     void remove_obstacleWasSpawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void add_obstacleWasDespawnedEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x14D6118
+    // Offset: 0x150DA20
     void add_obstacleWasDespawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void remove_obstacleWasDespawnedEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x14D61BC
+    // Offset: 0x150DAC4
     void remove_obstacleWasDespawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void add_obstacleDidPassThreeQuartersOfMove2Event(System.Action`1<ObstacleController> value)
-    // Offset: 0x14D6260
+    // Offset: 0x150DB68
     void add_obstacleDidPassThreeQuartersOfMove2Event(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void remove_obstacleDidPassThreeQuartersOfMove2Event(System.Action`1<ObstacleController> value)
-    // Offset: 0x14D6304
+    // Offset: 0x150DC0C
     void remove_obstacleDidPassThreeQuartersOfMove2Event(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void add_obstacleDidPassAvoidedMarkEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x14D4D8C
+    // Offset: 0x150C694
     void add_obstacleDidPassAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void remove_obstacleDidPassAvoidedMarkEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x14D5000
+    // Offset: 0x150C908
     void remove_obstacleDidPassAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void add_sliderWasAddedEvent(System.Action`3<SliderData,BeatmapObjectSpawnMovementData/SliderSpawnData,System.Single> value)
-    // Offset: 0x14D63A8
+    // Offset: 0x150DCB0
     void add_sliderWasAddedEvent(::System::Action_3<::GlobalNamespace::SliderData*, ::GlobalNamespace::BeatmapObjectSpawnMovementData::SliderSpawnData, float>* value);
     // public System.Void remove_sliderWasAddedEvent(System.Action`3<SliderData,BeatmapObjectSpawnMovementData/SliderSpawnData,System.Single> value)
-    // Offset: 0x14D644C
+    // Offset: 0x150DD54
     void remove_sliderWasAddedEvent(::System::Action_3<::GlobalNamespace::SliderData*, ::GlobalNamespace::BeatmapObjectSpawnMovementData::SliderSpawnData, float>* value);
     // public System.Void add_sliderWasSpawnedEvent(System.Action`1<SliderController> value)
-    // Offset: 0x14D64F0
+    // Offset: 0x150DDF8
     void add_sliderWasSpawnedEvent(::System::Action_1<::GlobalNamespace::SliderController*>* value);
     // public System.Void remove_sliderWasSpawnedEvent(System.Action`1<SliderController> value)
-    // Offset: 0x14D6594
+    // Offset: 0x150DE9C
     void remove_sliderWasSpawnedEvent(::System::Action_1<::GlobalNamespace::SliderController*>* value);
     // public System.Void add_sliderWasDespawnedEvent(System.Action`1<SliderController> value)
-    // Offset: 0x14D6638
+    // Offset: 0x150DF40
     void add_sliderWasDespawnedEvent(::System::Action_1<::GlobalNamespace::SliderController*>* value);
     // public System.Void remove_sliderWasDespawnedEvent(System.Action`1<SliderController> value)
-    // Offset: 0x14D66DC
+    // Offset: 0x150DFE4
     void remove_sliderWasDespawnedEvent(::System::Action_1<::GlobalNamespace::SliderController*>* value);
     // public System.Void add_didHideAllBeatmapObjectsEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x14D6780
+    // Offset: 0x150E088
     void add_didHideAllBeatmapObjectsEvent(::System::Action_1<bool>* value);
     // public System.Void remove_didHideAllBeatmapObjectsEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x14D6824
+    // Offset: 0x150E12C
     void remove_didHideAllBeatmapObjectsEvent(::System::Action_1<bool>* value);
+    // protected System.Void .ctor()
+    // Offset: 0x150FCD4
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static BeatmapObjectManager* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectManager::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectManager*, creationType>()));
+    }
     // public System.Void ProcessObstacleData(ObstacleData obstacleData, in BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, ByRef<::GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData> obstacleSpawnData, float rotation);
@@ -382,95 +381,86 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void DespawnInternal(::GlobalNamespace::SliderController* sliderNoteController);
     // protected System.Void AddSpawnedObstacleController(ObstacleController obstacleController, BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
-    // Offset: 0x14D68DC
+    // Offset: 0x150E1E4
     void AddSpawnedObstacleController(::GlobalNamespace::ObstacleController* obstacleController, ::GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData obstacleSpawnData, float rotation);
     // protected System.Void AddSpawnedNoteController(NoteController noteController, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation)
-    // Offset: 0x14D6B74
+    // Offset: 0x150E47C
     void AddSpawnedNoteController(::GlobalNamespace::NoteController* noteController, ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation);
     // protected System.Void AddSpawnedSliderController(SliderController sliderController, BeatmapObjectSpawnMovementData/SliderSpawnData sliderSpawnData, System.Single rotation)
-    // Offset: 0x14D6F70
+    // Offset: 0x150E878
     void AddSpawnedSliderController(::GlobalNamespace::SliderController* sliderController, ::GlobalNamespace::BeatmapObjectSpawnMovementData::SliderSpawnData sliderSpawnData, float rotation);
     // private System.Void SetNoteControllerEventCallbacks(NoteController noteController)
-    // Offset: 0x14D6CDC
+    // Offset: 0x150E5E4
     void SetNoteControllerEventCallbacks(::GlobalNamespace::NoteController* noteController);
     // private System.Void RemoveNoteControllerEventCallbacks(NoteController noteController)
-    // Offset: 0x14D7208
+    // Offset: 0x150EB10
     void RemoveNoteControllerEventCallbacks(::GlobalNamespace::NoteController* noteController);
     // private System.Void SetSliderNoteControllerEventCallbacks(SliderController sliderNoteController)
-    // Offset: 0x14D70D0
+    // Offset: 0x150E9D8
     void SetSliderNoteControllerEventCallbacks(::GlobalNamespace::SliderController* sliderNoteController);
     // private System.Void RemoveSliderNoteControllerEventCallbacks(SliderController sliderNoteController)
-    // Offset: 0x14D74B0
+    // Offset: 0x150EDB8
     void RemoveSliderNoteControllerEventCallbacks(::GlobalNamespace::SliderController* sliderNoteController);
     // private System.Void SetObstacleEventCallbacks(ObstacleController obstacleController)
-    // Offset: 0x14D6A3C
+    // Offset: 0x150E344
     void SetObstacleEventCallbacks(::GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void RemoveObstacleEventCallbacks(ObstacleController obstacleController)
-    // Offset: 0x14D75F0
+    // Offset: 0x150EEF8
     void RemoveObstacleEventCallbacks(::GlobalNamespace::ObstacleController* obstacleController);
     // protected System.Void Despawn(NoteController noteController)
-    // Offset: 0x14D7728
+    // Offset: 0x150F030
     void Despawn(::GlobalNamespace::NoteController* noteController);
     // private System.Void Despawn(ObstacleController obstacleController)
-    // Offset: 0x14D77E0
+    // Offset: 0x150F0E8
     void Despawn(::GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void Despawn(SliderController sliderNoteController)
-    // Offset: 0x14D7898
+    // Offset: 0x150F1A0
     void Despawn(::GlobalNamespace::SliderController* sliderNoteController);
     // public System.Void HandleNoteControllerNoteDidStartJump(NoteController noteController)
-    // Offset: 0x14D7950
+    // Offset: 0x150F258
     void HandleNoteControllerNoteDidStartJump(::GlobalNamespace::NoteController* noteController);
     // public System.Void HandleNoteControllerNoteWasMissed(NoteController noteController)
-    // Offset: 0x14D79C4
+    // Offset: 0x150F2CC
     void HandleNoteControllerNoteWasMissed(::GlobalNamespace::NoteController* noteController);
     // public System.Void HandleNoteControllerNoteDidFinishJump(NoteController noteController)
-    // Offset: 0x14D7A38
+    // Offset: 0x150F340
     void HandleNoteControllerNoteDidFinishJump(::GlobalNamespace::NoteController* noteController);
     // public System.Void HandleNoteControllerNoteDidDissolve(NoteController noteController)
-    // Offset: 0x14D7A3C
+    // Offset: 0x150F344
     void HandleNoteControllerNoteDidDissolve(::GlobalNamespace::NoteController* noteController);
     // public System.Void HandleNoteControllerNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x14D7A40
+    // Offset: 0x150F348
     void HandleNoteControllerNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
     // private System.Void HandleObstaclePassedThreeQuartersOfMove2(ObstacleController obstacleController)
-    // Offset: 0x14D7E60
+    // Offset: 0x150F768
     void HandleObstaclePassedThreeQuartersOfMove2(::GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void HandleObstaclePassedAvoidedMark(ObstacleController obstacleController)
-    // Offset: 0x14D7ED4
+    // Offset: 0x150F7DC
     void HandleObstaclePassedAvoidedMark(::GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void HandleObstacleFinishedMovement(ObstacleController obstacleController)
-    // Offset: 0x14D7F48
+    // Offset: 0x150F850
     void HandleObstacleFinishedMovement(::GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void HandleObstacleDidDissolve(ObstacleController obstacleController)
-    // Offset: 0x14D7F4C
+    // Offset: 0x150F854
     void HandleObstacleDidDissolve(::GlobalNamespace::ObstacleController* obstacleController);
     // public System.Void HandleSliderDidFinishJump(SliderController sliderController)
-    // Offset: 0x14D7F50
+    // Offset: 0x150F858
     void HandleSliderDidFinishJump(::GlobalNamespace::SliderController* sliderController);
     // public System.Void HandleSliderDidDissolve(SliderController sliderController)
-    // Offset: 0x14D7F54
+    // Offset: 0x150F85C
     void HandleSliderDidDissolve(::GlobalNamespace::SliderController* sliderController);
     // public System.Void DissolveAllObjects()
-    // Offset: 0x14D7F58
+    // Offset: 0x150F860
     void DissolveAllObjects();
     // public System.Void HideAllBeatmapObjects(System.Boolean hide)
-    // Offset: 0x14D80CC
+    // Offset: 0x150F9D4
     void HideAllBeatmapObjects(bool hide);
     // public System.Void PauseAllBeatmapObjects(System.Boolean pause)
-    // Offset: 0x14D825C
+    // Offset: 0x150FB64
     void PauseAllBeatmapObjects(bool pause);
     // private System.Void INoteControllerNoteWasCutEvent.HandleNoteControllerNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x14D843C
+    // Offset: 0x150FD44
     void INoteControllerNoteWasCutEvent_HandleNoteControllerNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
-    // protected System.Void .ctor()
-    // Offset: 0x14D83CC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BeatmapObjectManager* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectManager::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectManager*, creationType>()));
-    }
   }; // BeatmapObjectManager
   #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectManager), 144 + sizeof(bool)> __GlobalNamespace_BeatmapObjectManagerSizeCheck;
@@ -772,6 +762,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectManager*), "remove_didHideAllBeatmapObjectsEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectManager::ProcessObstacleData
 // Il2CppName: ProcessObstacleData
 template<>
@@ -1083,7 +1077,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectManager*), "INoteControllerNoteWasCutEvent.HandleNoteControllerNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteController, noteCutInfo});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

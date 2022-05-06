@@ -42,22 +42,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DelayedMenuButtonTrigger : public ::Il2CppObject/*, public ::Zenject::ITickable, public ::GlobalNamespace::IMenuButtonTrigger*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Action menuButtonTriggeredEvent
     // Size: 0x8
     // Offset: 0x10
     ::System::Action* menuButtonTriggeredEvent;
     // Field size check
     static_assert(sizeof(::System::Action*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252B14
+    // [InjectAttribute] Offset: 0x10D76F8
     // private System.Single _pressDuration
     // Size: 0x4
     // Offset: 0x18
@@ -78,7 +70,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: waitingForButtonRelease and: vrControllersInputManager
     char __padding3[0x7] = {};
-    // [InjectAttribute] Offset: 0x1252B24
+    // [InjectAttribute] Offset: 0x10D7708
     // private VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
     // Offset: 0x28
@@ -95,33 +87,31 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IMenuButtonTrigger*>(this);
     }
     // Get instance field reference: private System.Action menuButtonTriggeredEvent
-    ::System::Action*& dyn_menuButtonTriggeredEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_menuButtonTriggeredEvent();
     // Get instance field reference: private System.Single _pressDuration
-    float& dyn__pressDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__pressDuration();
     // Get instance field reference: private System.Single _timer
-    float& dyn__timer();
+    [[deprecated("Use field access instead!")]] float& dyn__timer();
     // Get instance field reference: private System.Boolean _waitingForButtonRelease
-    bool& dyn__waitingForButtonRelease();
+    [[deprecated("Use field access instead!")]] bool& dyn__waitingForButtonRelease();
     // Get instance field reference: private VRControllersInputManager _vrControllersInputManager
-    ::GlobalNamespace::VRControllersInputManager*& dyn__vrControllersInputManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VRControllersInputManager*& dyn__vrControllersInputManager();
     // public System.Void add_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0x140E890
+    // Offset: 0x142E63C
     void add_menuButtonTriggeredEvent(::System::Action* value);
     // public System.Void remove_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0x140E934
+    // Offset: 0x142E6E0
     void remove_menuButtonTriggeredEvent(::System::Action* value);
-    // public System.Void Tick()
-    // Offset: 0x140E9D8
-    void Tick();
     // public System.Void .ctor()
-    // Offset: 0x140EA68
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x142E814
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DelayedMenuButtonTrigger* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DelayedMenuButtonTrigger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DelayedMenuButtonTrigger*, creationType>()));
     }
+    // public System.Void Tick()
+    // Offset: 0x142E784
+    void Tick();
   }; // DelayedMenuButtonTrigger
   #pragma pack(pop)
   static check_size<sizeof(DelayedMenuButtonTrigger), 40 + sizeof(::GlobalNamespace::VRControllersInputManager*)> __GlobalNamespace_DelayedMenuButtonTriggerSizeCheck;
@@ -146,6 +136,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DelayedMenuButtonTrigger*), "remove_menuButtonTriggeredEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::DelayedMenuButtonTrigger::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::DelayedMenuButtonTrigger::Tick
 // Il2CppName: Tick
 template<>
@@ -154,7 +148,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DelayedMenuButtonTrigger*), "Tick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::DelayedMenuButtonTrigger::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -31,15 +31,7 @@ namespace Polyglot {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaveLanguagePreference : public ::UnityEngine::MonoBehaviour/*, public ::Polyglot::ILocalize*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String preferenceKey
     // Size: 0x8
     // Offset: 0x18
@@ -54,32 +46,30 @@ namespace Polyglot {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String preferenceKey
-    ::StringW& dyn_preferenceKey();
-    // public System.Void Start()
-    // Offset: 0x29E1560
-    void Start();
-    // public System.Void OnLocalize()
-    // Offset: 0x29E15B4
-    void OnLocalize();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_preferenceKey();
     // public System.Void .ctor()
-    // Offset: 0x29E15E8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A36EDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaveLanguagePreference* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Polyglot::SaveLanguagePreference::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaveLanguagePreference*, creationType>()));
     }
+    // public System.Void Start()
+    // Offset: 0x2A36E54
+    void Start();
+    // public System.Void OnLocalize()
+    // Offset: 0x2A36EA8
+    void OnLocalize();
   }; // Polyglot.SaveLanguagePreference
   #pragma pack(pop)
   static check_size<sizeof(SaveLanguagePreference), 24 + sizeof(::StringW)> __Polyglot_SaveLanguagePreferenceSizeCheck;
   static_assert(sizeof(SaveLanguagePreference) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Polyglot::SaveLanguagePreference::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Polyglot::SaveLanguagePreference::Start
 // Il2CppName: Start
 template<>
@@ -96,7 +86,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyg
     return ::il2cpp_utils::FindMethod(classof(Polyglot::SaveLanguagePreference*), "OnLocalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Polyglot::SaveLanguagePreference::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

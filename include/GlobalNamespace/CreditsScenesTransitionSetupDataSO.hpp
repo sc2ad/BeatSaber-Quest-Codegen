@@ -36,15 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CreditsScenesTransitionSetupDataSO : public ::GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Action`1<CreditsScenesTransitionSetupDataSO> didFinishEvent
     // Size: 0x8
     // Offset: 0x38
@@ -53,31 +45,23 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>*) == 0x8);
     public:
     // Get instance field reference: private System.Action`1<CreditsScenesTransitionSetupDataSO> didFinishEvent
-    ::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<CreditsScenesTransitionSetupDataSO> value)
-    // Offset: 0x14082EC
+    // Offset: 0x1428098
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<CreditsScenesTransitionSetupDataSO> value)
-    // Offset: 0x1408390
+    // Offset: 0x142813C
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* value);
-    // public System.Void Finish()
-    // Offset: 0x1407C98
-    void Finish();
     // public System.Void .ctor()
-    // Offset: 0x1408434
-    // Implemented from: NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO
-    // Base method: System.Void NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO::.ctor()
-    // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
-    // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14281E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CreditsScenesTransitionSetupDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CreditsScenesTransitionSetupDataSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CreditsScenesTransitionSetupDataSO*, creationType>()));
     }
+    // public System.Void Finish()
+    // Offset: 0x1427A44
+    void Finish();
   }; // CreditsScenesTransitionSetupDataSO
   #pragma pack(pop)
   static check_size<sizeof(CreditsScenesTransitionSetupDataSO), 56 + sizeof(::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>*)> __GlobalNamespace_CreditsScenesTransitionSetupDataSOSizeCheck;
@@ -102,6 +86,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsScenesTransitionSetupDataSO*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::CreditsScenesTransitionSetupDataSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CreditsScenesTransitionSetupDataSO::Finish
 // Il2CppName: Finish
 template<>
@@ -110,7 +98,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsScenesTransitionSetupDataSO*), "Finish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CreditsScenesTransitionSetupDataSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

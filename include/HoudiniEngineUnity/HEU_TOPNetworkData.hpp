@@ -43,15 +43,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_TOPNetworkData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 _nodeID
     // Size: 0x4
     // Offset: 0x10
@@ -100,23 +92,21 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::HoudiniEngineUnity::TOPNodeTags*) == 0x8);
     public:
     // Get instance field reference: public System.Int32 _nodeID
-    int& dyn__nodeID();
+    [[deprecated("Use field access instead!")]] int& dyn__nodeID();
     // Get instance field reference: public System.String _nodeName
-    ::StringW& dyn__nodeName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__nodeName();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_TOPNodeData> _topNodes
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>*& dyn__topNodes();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>*& dyn__topNodes();
     // Get instance field reference: public System.String[] _topNodeNames
-    ::ArrayW<::StringW>& dyn__topNodeNames();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn__topNodeNames();
     // Get instance field reference: public System.Int32 _selectedTOPIndex
-    int& dyn__selectedTOPIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__selectedTOPIndex();
     // Get instance field reference: public System.String _parentName
-    ::StringW& dyn__parentName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__parentName();
     // Get instance field reference: public HoudiniEngineUnity.TOPNodeTags _tags
-    ::HoudiniEngineUnity::TOPNodeTags*& dyn__tags();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::TOPNodeTags*& dyn__tags();
     // public System.Void .ctor()
-    // Offset: 0x1ACFCD0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B0B2B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_TOPNetworkData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TOPNetworkData::.ctor");

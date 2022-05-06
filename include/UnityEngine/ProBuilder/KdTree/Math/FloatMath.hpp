@@ -29,40 +29,39 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
   class FloatMath : public ::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<float> {
     public:
     // public System.Single get_MinValue()
-    // Offset: 0x2A9B344
+    // Offset: 0x2AF0CB4
     float get_MinValue();
     // public System.Single get_Zero()
-    // Offset: 0x2A9B350
+    // Offset: 0x2AF0CC0
     float get_Zero();
     // public System.Single get_NegativeInfinity()
-    // Offset: 0x2A9B358
+    // Offset: 0x2AF0CC8
     float get_NegativeInfinity();
     // public System.Single get_PositiveInfinity()
-    // Offset: 0x2A9B364
+    // Offset: 0x2AF0CD4
     float get_PositiveInfinity();
     // public System.Int32 Compare(System.Single a, System.Single b)
-    // Offset: 0x2A9B30C
+    // Offset: 0x2AF0C7C
     int Compare(float a, float b);
     // public System.Boolean AreEqual(System.Single a, System.Single b)
-    // Offset: 0x2A9B338
+    // Offset: 0x2AF0CA8
     bool AreEqual(float a, float b);
     // public System.Single Add(System.Single a, System.Single b)
-    // Offset: 0x2A9B370
+    // Offset: 0x2AF0CE0
     float Add(float a, float b);
     // public System.Single Subtract(System.Single a, System.Single b)
-    // Offset: 0x2A9B378
+    // Offset: 0x2AF0CE8
     float Subtract(float a, float b);
     // public System.Single Multiply(System.Single a, System.Single b)
-    // Offset: 0x2A9B380
+    // Offset: 0x2AF0CF0
     float Multiply(float a, float b);
     // public System.Single DistanceSquaredBetweenPoints(System.Single[] a, System.Single[] b)
-    // Offset: 0x2A9B388
+    // Offset: 0x2AF0CF8
     float DistanceSquaredBetweenPoints(::ArrayW<float> a, ::ArrayW<float> b);
     // public System.Void .ctor()
-    // Offset: 0x2A9B49C
+    // Offset: 0x2AF0E0C
     // Implemented from: UnityEngine.ProBuilder.KdTree.Math.TypeMath`1
     // Base method: System.Void TypeMath_1::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FloatMath* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::KdTree::Math::FloatMath::.ctor");

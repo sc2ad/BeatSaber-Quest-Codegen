@@ -50,15 +50,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EffectPoolsManualInstaller : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private FlyingTextEffect _flyingTextEffectPrefab
     // Size: 0x8
     // Offset: 0x18
@@ -71,7 +63,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::FlyingScoreEffect* flyingScoreEffectPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FlyingScoreEffect*) == 0x8);
-    // [SpaceAttribute] Offset: 0x12570C0
+    // [SpaceAttribute] Offset: 0x10DBCA4
     // private BeatEffect _beatEffectPrefab
     // Size: 0x8
     // Offset: 0x28
@@ -84,7 +76,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BeatEffect* shortBeatEffectPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatEffect*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1257108
+    // [SpaceAttribute] Offset: 0x10DBCEC
     // private NoteCutSoundEffect _noteCutSoundEffectPrefab
     // Size: 0x8
     // Offset: 0x38
@@ -107,41 +99,39 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FlyingTextEffect _flyingTextEffectPrefab
-    ::GlobalNamespace::FlyingTextEffect*& dyn__flyingTextEffectPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FlyingTextEffect*& dyn__flyingTextEffectPrefab();
     // Get instance field reference: private FlyingScoreEffect _flyingScoreEffectPrefab
-    ::GlobalNamespace::FlyingScoreEffect*& dyn__flyingScoreEffectPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FlyingScoreEffect*& dyn__flyingScoreEffectPrefab();
     // Get instance field reference: private BeatEffect _beatEffectPrefab
-    ::GlobalNamespace::BeatEffect*& dyn__beatEffectPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatEffect*& dyn__beatEffectPrefab();
     // Get instance field reference: private BeatEffect _shortBeatEffectPrefab
-    ::GlobalNamespace::BeatEffect*& dyn__shortBeatEffectPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatEffect*& dyn__shortBeatEffectPrefab();
     // Get instance field reference: private NoteCutSoundEffect _noteCutSoundEffectPrefab
-    ::GlobalNamespace::NoteCutSoundEffect*& dyn__noteCutSoundEffectPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutSoundEffect*& dyn__noteCutSoundEffectPrefab();
     // Get instance field reference: private BombCutSoundEffect _bombCutSoundEffectPrefab
-    ::GlobalNamespace::BombCutSoundEffect*& dyn__bombCutSoundEffectPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BombCutSoundEffect*& dyn__bombCutSoundEffectPrefab();
     // Get instance field reference: private FlyingSpriteEffect _flyingSpriteEffectPrefab
-    ::GlobalNamespace::FlyingSpriteEffect*& dyn__flyingSpriteEffectPrefab();
-    // public System.Void ManualInstallBindings(Zenject.DiContainer container, System.Boolean shortBeatEffect)
-    // Offset: 0x141616C
-    void ManualInstallBindings(::Zenject::DiContainer* container, bool shortBeatEffect);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FlyingSpriteEffect*& dyn__flyingSpriteEffectPrefab();
     // public System.Void .ctor()
-    // Offset: 0x1416338
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14360E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EffectPoolsManualInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EffectPoolsManualInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EffectPoolsManualInstaller*, creationType>()));
     }
+    // public System.Void ManualInstallBindings(Zenject.DiContainer container, System.Boolean shortBeatEffect)
+    // Offset: 0x1435F18
+    void ManualInstallBindings(::Zenject::DiContainer* container, bool shortBeatEffect);
   }; // EffectPoolsManualInstaller
   #pragma pack(pop)
   static check_size<sizeof(EffectPoolsManualInstaller), 72 + sizeof(::GlobalNamespace::FlyingSpriteEffect*)> __GlobalNamespace_EffectPoolsManualInstallerSizeCheck;
   static_assert(sizeof(EffectPoolsManualInstaller) == 0x50);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::EffectPoolsManualInstaller::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EffectPoolsManualInstaller::ManualInstallBindings
 // Il2CppName: ManualInstallBindings
 template<>
@@ -152,7 +142,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EffectPoolsManualInstaller*), "ManualInstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container, shortBeatEffect});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::EffectPoolsManualInstaller::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

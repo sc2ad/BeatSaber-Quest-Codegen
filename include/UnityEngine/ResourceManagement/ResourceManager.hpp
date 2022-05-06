@@ -206,7 +206,7 @@ namespace UnityEngine::ResourceManagement {
       // Set static field: static public UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType AsyncOperationDestroy
       static void _set_AsyncOperationDestroy(::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType
     #pragma pack(pop)
     static check_size<sizeof(ResourceManager::DiagnosticEventType), 0 + sizeof(int)> __UnityEngine_ResourceManagement_ResourceManager_DiagnosticEventTypeSizeCheck;
@@ -263,51 +263,43 @@ namespace UnityEngine::ResourceManagement {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: private readonly UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle <OperationHandle>k__BackingField
-      ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle& dyn_$OperationHandle$k__BackingField();
+      [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle& dyn_$OperationHandle$k__BackingField();
       // Get instance field reference: private readonly UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType <Type>k__BackingField
-      ::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType& dyn_$Type$k__BackingField();
+      [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType& dyn_$Type$k__BackingField();
       // Get instance field reference: private readonly System.Int32 <EventValue>k__BackingField
-      int& dyn_$EventValue$k__BackingField();
+      [[deprecated("Use field access instead!")]] int& dyn_$EventValue$k__BackingField();
       // Get instance field reference: private readonly UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation <Location>k__BackingField
-      ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& dyn_$Location$k__BackingField();
+      [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& dyn_$Location$k__BackingField();
       // Get instance field reference: private readonly System.Object <Context>k__BackingField
-      ::Il2CppObject*& dyn_$Context$k__BackingField();
+      [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$Context$k__BackingField();
       // Get instance field reference: private readonly System.String <Error>k__BackingField
-      ::StringW& dyn_$Error$k__BackingField();
+      [[deprecated("Use field access instead!")]] ::StringW& dyn_$Error$k__BackingField();
       // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle get_OperationHandle()
-      // Offset: 0x1E9B358
+      // Offset: 0x1EE9890
       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle get_OperationHandle();
       // public UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType get_Type()
-      // Offset: 0x1E9B36C
+      // Offset: 0x1EE98A4
       ::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType get_Type();
       // public System.Int32 get_EventValue()
-      // Offset: 0x1E9B374
+      // Offset: 0x1EE98AC
       int get_EventValue();
       // public UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation get_Location()
-      // Offset: 0x1E9B37C
+      // Offset: 0x1EE98B4
       ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
       // public System.Object get_Context()
-      // Offset: 0x1E9B384
+      // Offset: 0x1EE98BC
       ::Il2CppObject* get_Context();
       // public System.String get_Error()
-      // Offset: 0x1E9B38C
+      // Offset: 0x1EE98C4
       ::StringW get_Error();
       // public System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op, UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType type, System.Int32 eventValue, System.String error, System.Object context)
-      // Offset: 0x1E9B394
+      // Offset: 0x1EE98CC
       DiagnosticEventContext(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op, ::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType type, int eventValue, ::StringW error, ::Il2CppObject* context);
     }; // UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventContext
     #pragma pack(pop)
     static check_size<sizeof(ResourceManager::DiagnosticEventContext), 48 + sizeof(::StringW)> __UnityEngine_ResourceManagement_ResourceManager_DiagnosticEventContextSizeCheck;
     static_assert(sizeof(ResourceManager::DiagnosticEventContext) == 0x38);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Boolean postProfilerEvents
     // Size: 0x1
     // Offset: 0x10
@@ -460,137 +452,137 @@ namespace UnityEngine::ResourceManagement {
     // Set static field: static private System.Int32 s_InstanceOperationTypeHash
     static void _set_s_InstanceOperationTypeHash(int value);
     // Get instance field reference: System.Boolean postProfilerEvents
-    bool& dyn_postProfilerEvents();
+    [[deprecated("Use field access instead!")]] bool& dyn_postProfilerEvents();
     // Get instance field reference: private System.Func`2<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,System.String> <InternalIdTransformFunc>k__BackingField
-    ::System::Func_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>*& dyn_$InternalIdTransformFunc$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Func_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>*& dyn_$InternalIdTransformFunc$k__BackingField();
     // Get instance field reference: System.Boolean CallbackHooksEnabled
-    bool& dyn_CallbackHooksEnabled();
+    [[deprecated("Use field access instead!")]] bool& dyn_CallbackHooksEnabled();
     // Get instance field reference: private ListWithEvents`1<UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider> m_ResourceProviders
-    ::GlobalNamespace::ListWithEvents_1<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>*& dyn_m_ResourceProviders();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ListWithEvents_1<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>*& dyn_m_ResourceProviders();
     // Get instance field reference: private UnityEngine.ResourceManagement.Util.IAllocationStrategy m_allocator
-    ::UnityEngine::ResourceManagement::Util::IAllocationStrategy*& dyn_m_allocator();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::Util::IAllocationStrategy*& dyn_m_allocator();
     // Get instance field reference: private ListWithEvents`1<UnityEngine.ResourceManagement.IUpdateReceiver> m_UpdateReceivers
-    ::GlobalNamespace::ListWithEvents_1<::UnityEngine::ResourceManagement::IUpdateReceiver*>*& dyn_m_UpdateReceivers();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ListWithEvents_1<::UnityEngine::ResourceManagement::IUpdateReceiver*>*& dyn_m_UpdateReceivers();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.IUpdateReceiver> m_UpdateReceiversToRemove
-    ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::IUpdateReceiver*>*& dyn_m_UpdateReceiversToRemove();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::IUpdateReceiver*>*& dyn_m_UpdateReceiversToRemove();
     // Get instance field reference: private System.Boolean m_UpdatingReceivers
-    bool& dyn_m_UpdatingReceivers();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_UpdatingReceivers();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider> m_providerMap
-    ::System::Collections::Generic::Dictionary_2<int, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>*& dyn_m_providerMap();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>*& dyn_m_providerMap();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation> m_AssetOperationCache
-    ::System::Collections::Generic::Dictionary_2<int, ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*& dyn_m_AssetOperationCache();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*& dyn_m_AssetOperationCache();
     // Get instance field reference: private System.Collections.Generic.HashSet`1<UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.InstanceOperation> m_TrackedInstanceOperations
-    ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::ResourceManager::InstanceOperation*>*& dyn_m_TrackedInstanceOperations();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::ResourceManager::InstanceOperation*>*& dyn_m_TrackedInstanceOperations();
     // Get instance field reference: private DelegateList`1<System.Single> m_UpdateCallbacks
-    ::GlobalNamespace::DelegateList_1<float>*& dyn_m_UpdateCallbacks();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DelegateList_1<float>*& dyn_m_UpdateCallbacks();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation> m_DeferredCompleteCallbacks
-    ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*& dyn_m_DeferredCompleteCallbacks();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*& dyn_m_DeferredCompleteCallbacks();
     // Get instance field reference: private System.Action`4<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle,UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType,System.Int32,System.Object> m_obsoleteDiagnosticsHandler
-    ::System::Action_4<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, int, ::Il2CppObject*>*& dyn_m_obsoleteDiagnosticsHandler();
+    [[deprecated("Use field access instead!")]] ::System::Action_4<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, int, ::Il2CppObject*>*& dyn_m_obsoleteDiagnosticsHandler();
     // Get instance field reference: private System.Action`1<UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventContext> m_diagnosticsHandler
-    ::System::Action_1<::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext>*& dyn_m_diagnosticsHandler();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext>*& dyn_m_diagnosticsHandler();
     // Get instance field reference: private System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation> m_ReleaseOpNonCached
-    ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*& dyn_m_ReleaseOpNonCached();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*& dyn_m_ReleaseOpNonCached();
     // Get instance field reference: private System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation> m_ReleaseOpCached
-    ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*& dyn_m_ReleaseOpCached();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*& dyn_m_ReleaseOpCached();
     // Get instance field reference: private System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation> m_ReleaseInstanceOp
-    ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*& dyn_m_ReleaseInstanceOp();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*& dyn_m_ReleaseInstanceOp();
     // Get instance field reference: private UnityEngine.Networking.CertificateHandler <CertificateHandlerInstance>k__BackingField
-    ::UnityEngine::Networking::CertificateHandler*& dyn_$CertificateHandlerInstance$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Networking::CertificateHandler*& dyn_$CertificateHandlerInstance$k__BackingField();
     // Get instance field reference: private System.Boolean m_RegisteredForCallbacks
-    bool& dyn_m_RegisteredForCallbacks();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_RegisteredForCallbacks();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Type,System.Type> m_ProviderOperationTypeCache
-    ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>*& dyn_m_ProviderOperationTypeCache();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>*& dyn_m_ProviderOperationTypeCache();
     // static public System.Action`2<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle,System.Exception> get_ExceptionHandler()
-    // Offset: 0x1E9797C
+    // Offset: 0x1EE5EB4
     static ::System::Action_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::System::Exception*>* get_ExceptionHandler();
     // static public System.Void set_ExceptionHandler(System.Action`2<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle,System.Exception> value)
-    // Offset: 0x1E979E4
+    // Offset: 0x1EE5F1C
     static void set_ExceptionHandler(::System::Action_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::System::Exception*>* value);
     // public System.Func`2<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,System.String> get_InternalIdTransformFunc()
-    // Offset: 0x1E97A50
+    // Offset: 0x1EE5F88
     ::System::Func_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>* get_InternalIdTransformFunc();
     // public System.Void set_InternalIdTransformFunc(System.Func`2<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,System.String> value)
-    // Offset: 0x1E97A58
+    // Offset: 0x1EE5F90
     void set_InternalIdTransformFunc(::System::Func_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>* value);
     // System.Int32 get_OperationCacheCount()
-    // Offset: 0x1E97B40
+    // Offset: 0x1EE6078
     int get_OperationCacheCount();
     // System.Int32 get_InstanceOperationCount()
-    // Offset: 0x1E97B98
+    // Offset: 0x1EE60D0
     int get_InstanceOperationCount();
     // public UnityEngine.ResourceManagement.Util.IAllocationStrategy get_Allocator()
-    // Offset: 0x1E97D40
+    // Offset: 0x1EE6278
     ::UnityEngine::ResourceManagement::Util::IAllocationStrategy* get_Allocator();
     // public System.Void set_Allocator(UnityEngine.ResourceManagement.Util.IAllocationStrategy value)
-    // Offset: 0x1E97D48
+    // Offset: 0x1EE6280
     void set_Allocator(::UnityEngine::ResourceManagement::Util::IAllocationStrategy* value);
     // public System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider> get_ResourceProviders()
-    // Offset: 0x1E97D50
+    // Offset: 0x1EE6288
     ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* get_ResourceProviders();
     // public UnityEngine.Networking.CertificateHandler get_CertificateHandlerInstance()
-    // Offset: 0x1E97D58
+    // Offset: 0x1EE6290
     ::UnityEngine::Networking::CertificateHandler* get_CertificateHandlerInstance();
     // public System.Void set_CertificateHandlerInstance(UnityEngine.Networking.CertificateHandler value)
-    // Offset: 0x1E97D60
+    // Offset: 0x1EE6298
     void set_CertificateHandlerInstance(::UnityEngine::Networking::CertificateHandler* value);
     // public System.Void .ctor(UnityEngine.ResourceManagement.Util.IAllocationStrategy alloc)
-    // Offset: 0x1E97D68
+    // Offset: 0x1EE62A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceManager* New_ctor(::UnityEngine::ResourceManagement::Util::IAllocationStrategy* alloc) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManager*, creationType>(alloc)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E9B288
+    // Offset: 0x1EE97C0
     static void _cctor();
     // public System.String TransformInternalId(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location)
-    // Offset: 0x1E97A60
+    // Offset: 0x1EE5F98
     ::StringW TransformInternalId(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
     // public System.Void AddUpdateReceiver(UnityEngine.ResourceManagement.IUpdateReceiver receiver)
-    // Offset: 0x1E97BE8
+    // Offset: 0x1EE6120
     void AddUpdateReceiver(::UnityEngine::ResourceManagement::IUpdateReceiver* receiver);
     // public System.Void RemoveUpdateReciever(UnityEngine.ResourceManagement.IUpdateReceiver receiver)
-    // Offset: 0x1E97C64
+    // Offset: 0x1EE619C
     void RemoveUpdateReciever(::UnityEngine::ResourceManagement::IUpdateReceiver* receiver);
     // private System.Void OnObjectAdded(System.Object obj)
-    // Offset: 0x1E981FC
+    // Offset: 0x1EE6734
     void OnObjectAdded(::Il2CppObject* obj);
     // private System.Void OnObjectRemoved(System.Object obj)
-    // Offset: 0x1E98278
+    // Offset: 0x1EE67B0
     void OnObjectRemoved(::Il2CppObject* obj);
     // System.Void RegisterForCallbacks()
-    // Offset: 0x1E982F4
+    // Offset: 0x1EE682C
     void RegisterForCallbacks();
     // public System.Void ClearDiagnosticsCallback()
-    // Offset: 0x1E983C0
+    // Offset: 0x1EE68F8
     void ClearDiagnosticsCallback();
     // public System.Void ClearDiagnosticCallbacks()
-    // Offset: 0x1E983C8
+    // Offset: 0x1EE6900
     void ClearDiagnosticCallbacks();
     // public System.Void UnregisterDiagnosticCallback(System.Action`1<UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventContext> func)
-    // Offset: 0x1E983D0
+    // Offset: 0x1EE6908
     void UnregisterDiagnosticCallback(::System::Action_1<::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext>* func);
     // public System.Void RegisterDiagnosticCallback(System.Action`4<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle,UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType,System.Int32,System.Object> func)
-    // Offset: 0x1E98494
+    // Offset: 0x1EE69CC
     void RegisterDiagnosticCallback(::System::Action_4<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, int, ::Il2CppObject*>* func);
     // public System.Void RegisterDiagnosticCallback(System.Action`1<UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventContext> func)
-    // Offset: 0x1E9849C
+    // Offset: 0x1EE69D4
     void RegisterDiagnosticCallback(::System::Action_1<::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext>* func);
     // System.Void PostDiagnosticEvent(UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventContext context)
-    // Offset: 0x1E9851C
+    // Offset: 0x1EE6A54
     void PostDiagnosticEvent(::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext context);
     // public UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider GetResourceProvider(System.Type t, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location)
-    // Offset: 0x1E98674
+    // Offset: 0x1EE6BAC
     ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* GetResourceProvider(::System::Type* t, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
     // private System.Type GetDefaultTypeForLocation(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation loc)
-    // Offset: 0x1E98AC4
+    // Offset: 0x1EE6FFC
     ::System::Type* GetDefaultTypeForLocation(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);
     // private System.Int32 CalculateLocationsHash(System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations, System.Type t)
-    // Offset: 0x1E98C24
+    // Offset: 0x1EE715C
     int CalculateLocationsHash(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, ::System::Type* t);
     // private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle ProvideResource(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, System.Type desiredType, System.Boolean releaseDependenciesOnFailure)
-    // Offset: 0x1E98FE8
+    // Offset: 0x1EE7520
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle ProvideResource(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Type* desiredType, bool releaseDependenciesOnFailure);
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> ProvideResource(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -611,16 +603,16 @@ namespace UnityEngine::ResourceManagement {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___generic__method, operation, dependency);
     }
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle StartOperation(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation operation, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle dependency)
-    // Offset: 0x1E99DAC
+    // Offset: 0x1EE82E4
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle StartOperation(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* operation, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency);
     // private System.Void OnInstanceOperationDestroy(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation o)
-    // Offset: 0x1E99F30
+    // Offset: 0x1EE8468
     void OnInstanceOperationDestroy(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* o);
     // private System.Void OnOperationDestroyNonCached(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation o)
-    // Offset: 0x1E9A074
+    // Offset: 0x1EE85AC
     void OnOperationDestroyNonCached(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* o);
     // private System.Void OnOperationDestroyCached(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation o)
-    // Offset: 0x1E9A160
+    // Offset: 0x1EE8698
     void OnOperationDestroyCached(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* o);
     // T CreateOperation(System.Type actualType, System.Int32 typeHash, System.Int32 operationHash, System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation> onDestroyAction)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -633,16 +625,16 @@ namespace UnityEngine::ResourceManagement {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, actualType, typeHash, operationHash, onDestroyAction);
     }
     // System.Void AddOperationToCache(System.Int32 hash, UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation operation)
-    // Offset: 0x1E9A370
+    // Offset: 0x1EE88A8
     void AddOperationToCache(int hash, ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* operation);
     // System.Boolean RemoveOperationFromCache(System.Int32 hash)
-    // Offset: 0x1E9A2E4
+    // Offset: 0x1EE881C
     bool RemoveOperationFromCache(int hash);
     // System.Boolean IsOperationCached(System.Int32 hash)
-    // Offset: 0x1E9A400
+    // Offset: 0x1EE8938
     bool IsOperationCached(int hash);
     // System.Int32 CachedOperationCount()
-    // Offset: 0x1E9A468
+    // Offset: 0x1EE89A0
     int CachedOperationCount();
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> CreateCompletedOperation(TObject result, System.String errorMsg)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -663,13 +655,13 @@ namespace UnityEngine::ResourceManagement {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___generic__method, result, success, errorMsg, releaseDependenciesOnFailure);
     }
     // public System.Void Release(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle handle)
-    // Offset: 0x1E9A4C0
+    // Offset: 0x1EE89F8
     void Release(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
     // public System.Void Acquire(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle handle)
-    // Offset: 0x1E9A4C8
+    // Offset: 0x1EE8A00
     void Acquire(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
     // private UnityEngine.ResourceManagement.AsyncOperations.GroupOperation AcquireGroupOpFromCache(System.Int32 hash)
-    // Offset: 0x1E9A4EC
+    // Offset: 0x1EE8A24
     ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation* AcquireGroupOpFromCache(int hash);
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>> CreateGroupOperation(System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -690,10 +682,10 @@ namespace UnityEngine::ResourceManagement {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>, false>(this, ___generic__method, locations, allowFailedDependencies);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>> CreateGenericGroupOperation(System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> operations, System.Boolean releasedCachedOpOnComplete)
-    // Offset: 0x1E9A620
+    // Offset: 0x1EE8B58
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> CreateGenericGroupOperation(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* operations, bool releasedCachedOpOnComplete);
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>> ProvideResourceGroupCached(System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations, System.Int32 groupHash, System.Type desiredType, System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> callback, System.Boolean releaseDependenciesOnFailure)
-    // Offset: 0x1E997C8
+    // Offset: 0x1EE7D00
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> ProvideResourceGroupCached(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, int groupHash, ::System::Type* desiredType, ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* callback, bool releaseDependenciesOnFailure);
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<TObject>> ProvideResources(System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations, System.Action`1<TObject> callback)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -750,31 +742,31 @@ namespace UnityEngine::ResourceManagement {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___generic__method, dependentOp, callback, releaseDependenciesOnFailure);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> ProvideScene(UnityEngine.ResourceManagement.ResourceProviders.ISceneProvider sceneProvider, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Boolean activateOnLoad, System.Int32 priority)
-    // Offset: 0x1E9A780
+    // Offset: 0x1EE8CB8
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> ProvideScene(::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider* sceneProvider, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, bool activateOnLoad, int priority);
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> ReleaseScene(UnityEngine.ResourceManagement.ResourceProviders.ISceneProvider sceneProvider, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> sceneLoadHandle)
-    // Offset: 0x1E9A8AC
+    // Offset: 0x1EE8DE4
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> ReleaseScene(::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider* sceneProvider, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> sceneLoadHandle);
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> ProvideInstance(UnityEngine.ResourceManagement.ResourceProviders.IInstanceProvider provider, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters)
-    // Offset: 0x1E9A9EC
+    // Offset: 0x1EE8F24
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> ProvideInstance(::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* provider, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters);
     // public System.Void CleanupSceneInstances(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1E9AC7C
+    // Offset: 0x1EE91B4
     void CleanupSceneInstances(::UnityEngine::SceneManagement::Scene scene);
     // private System.Void ExecuteDeferredCallbacks()
-    // Offset: 0x1E9AF30
+    // Offset: 0x1EE9468
     void ExecuteDeferredCallbacks();
     // System.Void RegisterForDeferredCallback(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation op, System.Boolean incrementRefCount)
-    // Offset: 0x1E9B0D8
+    // Offset: 0x1EE9610
     void RegisterForDeferredCallback(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, bool incrementRefCount);
     // System.Void Update(System.Single unscaledDeltaTime)
-    // Offset: 0x1E94B10
+    // Offset: 0x1EE3048
     void Update(float unscaledDeltaTime);
     // public System.Void Dispose()
-    // Offset: 0x1E9B1C0
+    // Offset: 0x1EE96F8
     void Dispose();
     // private System.Void <.ctor>b__45_0(UnityEngine.ResourceManagement.IUpdateReceiver x)
-    // Offset: 0x1E9B354
+    // Offset: 0x1EE988C
     void $_ctor$b__45_0(::UnityEngine::ResourceManagement::IUpdateReceiver* x);
   }; // UnityEngine.ResourceManagement.ResourceManager
   #pragma pack(pop)

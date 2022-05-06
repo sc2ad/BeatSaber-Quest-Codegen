@@ -54,7 +54,7 @@ namespace LiteNetLib {
     // Set static field: static public LiteNetLib.UnconnectedMessageType Broadcast
     static void _set_Broadcast(::LiteNetLib::UnconnectedMessageType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // LiteNetLib.UnconnectedMessageType
   #pragma pack(pop)
   static check_size<sizeof(UnconnectedMessageType), 0 + sizeof(int)> __LiteNetLib_UnconnectedMessageTypeSizeCheck;

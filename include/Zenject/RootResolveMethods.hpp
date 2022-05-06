@@ -54,7 +54,7 @@ namespace Zenject {
     // Set static field: static public Zenject.RootResolveMethods All
     static void _set_All(::Zenject::RootResolveMethods value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Zenject.RootResolveMethods
   #pragma pack(pop)
   static check_size<sizeof(RootResolveMethods), 0 + sizeof(int)> __Zenject_RootResolveMethodsSizeCheck;

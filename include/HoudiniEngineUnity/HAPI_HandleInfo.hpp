@@ -50,11 +50,11 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 nameSH
-    int& dyn_nameSH();
+    [[deprecated("Use field access instead!")]] int& dyn_nameSH();
     // Get instance field reference: public System.Int32 typeNameSH
-    int& dyn_typeNameSH();
+    [[deprecated("Use field access instead!")]] int& dyn_typeNameSH();
     // Get instance field reference: public System.Int32 bindingsCount
-    int& dyn_bindingsCount();
+    [[deprecated("Use field access instead!")]] int& dyn_bindingsCount();
   }; // HoudiniEngineUnity.HAPI_HandleInfo
   #pragma pack(pop)
   static check_size<sizeof(HAPI_HandleInfo), 8 + sizeof(int)> __HoudiniEngineUnity_HAPI_HandleInfoSizeCheck;

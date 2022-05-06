@@ -44,15 +44,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BTSCharacterResultAnimationController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MaterialPropertyBlockColorSetter _rimLightColorSetter
     // Size: 0x8
     // Offset: 0x18
@@ -71,7 +63,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MaterialPropertyBlockFloatAnimator* rimLightEdgeStartAnimator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MaterialPropertyBlockFloatAnimator*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1248900
+    // [SpaceAttribute] Offset: 0x10CD3F8
     // private UnityEngine.GameObject _collidersGameObject
     // Size: 0x8
     // Offset: 0x30
@@ -82,38 +74,36 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MaterialPropertyBlockColorSetter _rimLightColorSetter
-    ::GlobalNamespace::MaterialPropertyBlockColorSetter*& dyn__rimLightColorSetter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MaterialPropertyBlockColorSetter*& dyn__rimLightColorSetter();
     // Get instance field reference: private MaterialPropertyBlockFloatAnimator _rimLightIntensityAnimator
-    ::GlobalNamespace::MaterialPropertyBlockFloatAnimator*& dyn__rimLightIntensityAnimator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MaterialPropertyBlockFloatAnimator*& dyn__rimLightIntensityAnimator();
     // Get instance field reference: private MaterialPropertyBlockFloatAnimator _rimLightEdgeStartAnimator
-    ::GlobalNamespace::MaterialPropertyBlockFloatAnimator*& dyn__rimLightEdgeStartAnimator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MaterialPropertyBlockFloatAnimator*& dyn__rimLightEdgeStartAnimator();
     // Get instance field reference: private UnityEngine.GameObject _collidersGameObject
-    ::UnityEngine::GameObject*& dyn__collidersGameObject();
-    // public System.Void SetCharacter(BTSCharacter btsCharacter)
-    // Offset: 0x14C258C
-    void SetCharacter(::GlobalNamespace::BTSCharacter* btsCharacter);
-    // public System.Void StopAnimation()
-    // Offset: 0x14C25FC
-    void StopAnimation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__collidersGameObject();
     // public System.Void .ctor()
-    // Offset: 0x14C261C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14F9ED4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterResultAnimationController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSCharacterResultAnimationController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterResultAnimationController*, creationType>()));
     }
+    // public System.Void SetCharacter(BTSCharacter btsCharacter)
+    // Offset: 0x14F9E44
+    void SetCharacter(::GlobalNamespace::BTSCharacter* btsCharacter);
+    // public System.Void StopAnimation()
+    // Offset: 0x14F9EB4
+    void StopAnimation();
   }; // BTSCharacterResultAnimationController
   #pragma pack(pop)
   static check_size<sizeof(BTSCharacterResultAnimationController), 48 + sizeof(::UnityEngine::GameObject*)> __GlobalNamespace_BTSCharacterResultAnimationControllerSizeCheck;
   static_assert(sizeof(BTSCharacterResultAnimationController) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterResultAnimationController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterResultAnimationController::SetCharacter
 // Il2CppName: SetCharacter
 template<>
@@ -131,7 +121,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterResultAnimationController*), "StopAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterResultAnimationController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

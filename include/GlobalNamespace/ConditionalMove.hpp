@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConditionalMove : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Vector3 _offset
     // Size: 0xC
     // Offset: 0x18
@@ -68,33 +60,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Vector3 _offset
-    ::UnityEngine::Vector3& dyn__offset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__offset();
     // Get instance field reference: private BoolSO _value
-    ::GlobalNamespace::BoolSO*& dyn__value();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn__value();
     // Get instance field reference: private System.Boolean _activateOnFalse
-    bool& dyn__activateOnFalse();
-    // protected System.Void Awake()
-    // Offset: 0x14050C0
-    void Awake();
+    [[deprecated("Use field access instead!")]] bool& dyn__activateOnFalse();
     // public System.Void .ctor()
-    // Offset: 0x14051E4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1424F90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConditionalMove* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConditionalMove::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConditionalMove*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x1424E6C
+    void Awake();
   }; // ConditionalMove
   #pragma pack(pop)
   static check_size<sizeof(ConditionalMove), 48 + sizeof(bool)> __GlobalNamespace_ConditionalMoveSizeCheck;
   static_assert(sizeof(ConditionalMove) == 0x31);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ConditionalMove::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ConditionalMove::Awake
 // Il2CppName: Awake
 template<>
@@ -103,7 +93,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConditionalMove*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ConditionalMove::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -115,29 +115,29 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single startAlpha
-    float& dyn_startAlpha();
+    [[deprecated("Use field access instead!")]] float& dyn_startAlpha();
     // Get instance field reference: public UnityEngine.Vector3 startPosition
-    ::UnityEngine::Vector3& dyn_startPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_startPosition();
     // Get instance field reference: public System.Single startSize
-    float& dyn_startSize();
+    [[deprecated("Use field access instead!")]] float& dyn_startSize();
     // Get instance field reference: public System.Single endAlpha
-    float& dyn_endAlpha();
+    [[deprecated("Use field access instead!")]] float& dyn_endAlpha();
     // Get instance field reference: public UnityEngine.Vector3 endPosition
-    ::UnityEngine::Vector3& dyn_endPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_endPosition();
     // Get instance field reference: public System.Single endSize
-    float& dyn_endSize();
+    [[deprecated("Use field access instead!")]] float& dyn_endSize();
     // Get instance field reference: public System.Single duration
-    float& dyn_duration();
+    [[deprecated("Use field access instead!")]] float& dyn_duration();
     // Get instance field reference: public System.Single delay
-    float& dyn_delay();
+    [[deprecated("Use field access instead!")]] float& dyn_delay();
     // Get instance field reference: public EaseType easeType
-    ::GlobalNamespace::EaseType& dyn_easeType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EaseType& dyn_easeType();
     // Get instance field reference: public UnityEngine.AnimationCurve distanceCurve
-    ::UnityEngine::AnimationCurve*& dyn_distanceCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_distanceCurve();
     // Get instance field reference: public System.Single peakDistance
-    float& dyn_peakDistance();
+    [[deprecated("Use field access instead!")]] float& dyn_peakDistance();
     // Get instance field reference: public System.Boolean lastPhase
-    bool& dyn_lastPhase();
+    [[deprecated("Use field access instead!")]] bool& dyn_lastPhase();
   }; // GhostDuplicationEffect/GhostEffectParams
   #pragma pack(pop)
   static check_size<sizeof(GhostDuplicationEffect::GhostEffectParams), 68 + sizeof(bool)> __GlobalNamespace_GhostDuplicationEffect_GhostEffectParamsSizeCheck;

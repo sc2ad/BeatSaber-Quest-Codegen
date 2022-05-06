@@ -38,15 +38,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_OutputAttributesStore : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HoudiniEngineUnity.HEU_OutputAttributeDictionary _attributes
     // Size: 0x8
     // Offset: 0x18
@@ -57,35 +49,33 @@ namespace HoudiniEngineUnity {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HoudiniEngineUnity.HEU_OutputAttributeDictionary _attributes
-    ::HoudiniEngineUnity::HEU_OutputAttributeDictionary*& dyn__attributes();
-    // public System.Void SetAttribute(HoudiniEngineUnity.HEU_OutputAttribute attribute)
-    // Offset: 0x1AAE568
-    void SetAttribute(::HoudiniEngineUnity::HEU_OutputAttribute* attribute);
-    // public HoudiniEngineUnity.HEU_OutputAttribute GetAttribute(System.String name)
-    // Offset: 0x1AAE668
-    ::HoudiniEngineUnity::HEU_OutputAttribute* GetAttribute(::StringW name);
-    // public System.Void Clear()
-    // Offset: 0x1AAE6E0
-    void Clear();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_OutputAttributeDictionary*& dyn__attributes();
     // public System.Void .ctor()
-    // Offset: 0x1AAE738
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1AE8D20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_OutputAttributesStore* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_OutputAttributesStore::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_OutputAttributesStore*, creationType>()));
     }
+    // public System.Void SetAttribute(HoudiniEngineUnity.HEU_OutputAttribute attribute)
+    // Offset: 0x1AE8B50
+    void SetAttribute(::HoudiniEngineUnity::HEU_OutputAttribute* attribute);
+    // public HoudiniEngineUnity.HEU_OutputAttribute GetAttribute(System.String name)
+    // Offset: 0x1AE8C50
+    ::HoudiniEngineUnity::HEU_OutputAttribute* GetAttribute(::StringW name);
+    // public System.Void Clear()
+    // Offset: 0x1AE8CC8
+    void Clear();
   }; // HoudiniEngineUnity.HEU_OutputAttributesStore
   #pragma pack(pop)
   static check_size<sizeof(HEU_OutputAttributesStore), 24 + sizeof(::HoudiniEngineUnity::HEU_OutputAttributeDictionary*)> __HoudiniEngineUnity_HEU_OutputAttributesStoreSizeCheck;
   static_assert(sizeof(HEU_OutputAttributesStore) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_OutputAttributesStore::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_OutputAttributesStore::SetAttribute
 // Il2CppName: SetAttribute
 template<>
@@ -112,7 +102,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_OutputAttributesStore*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_OutputAttributesStore::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

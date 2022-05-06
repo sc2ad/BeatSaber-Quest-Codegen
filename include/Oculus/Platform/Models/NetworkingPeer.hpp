@@ -28,15 +28,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetworkingPeer : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.UInt64 <ID>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -51,23 +43,23 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Oculus::Platform::PeerConnectionState) == 0x4);
     public:
     // Get instance field reference: private System.UInt64 <ID>k__BackingField
-    uint64_t& dyn_$ID$k__BackingField();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_$ID$k__BackingField();
     // Get instance field reference: private Oculus.Platform.PeerConnectionState <State>k__BackingField
-    ::Oculus::Platform::PeerConnectionState& dyn_$State$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::PeerConnectionState& dyn_$State$k__BackingField();
     // public System.UInt64 get_ID()
-    // Offset: 0x19B4D24
+    // Offset: 0x19EE30C
     uint64_t get_ID();
     // private System.Void set_ID(System.UInt64 value)
-    // Offset: 0x19B4D2C
+    // Offset: 0x19EE314
     void set_ID(uint64_t value);
     // public Oculus.Platform.PeerConnectionState get_State()
-    // Offset: 0x19B4D34
+    // Offset: 0x19EE31C
     ::Oculus::Platform::PeerConnectionState get_State();
     // private System.Void set_State(Oculus.Platform.PeerConnectionState value)
-    // Offset: 0x19B4D3C
+    // Offset: 0x19EE324
     void set_State(::Oculus::Platform::PeerConnectionState value);
     // public System.Void .ctor(System.UInt64 id, Oculus.Platform.PeerConnectionState state)
-    // Offset: 0x19B0CAC
+    // Offset: 0x19EA294
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkingPeer* New_ctor(uint64_t id, ::Oculus::Platform::PeerConnectionState state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::NetworkingPeer::.ctor");

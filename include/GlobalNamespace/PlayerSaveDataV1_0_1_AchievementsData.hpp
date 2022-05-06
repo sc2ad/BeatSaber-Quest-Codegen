@@ -25,15 +25,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveDataV1_0_1::AchievementsData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String[] unlockedAchievements
     // Size: 0x8
     // Offset: 0x10
@@ -48,13 +40,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     public:
     // Get instance field reference: public System.String[] unlockedAchievements
-    ::ArrayW<::StringW>& dyn_unlockedAchievements();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_unlockedAchievements();
     // Get instance field reference: public System.String[] unlockedAchievementsToUpload
-    ::ArrayW<::StringW>& dyn_unlockedAchievementsToUpload();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_unlockedAchievementsToUpload();
     // public System.Void .ctor()
-    // Offset: 0x13716E4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D8D40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveDataV1_0_1::AchievementsData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData::.ctor");

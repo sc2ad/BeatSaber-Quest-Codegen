@@ -44,15 +44,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputPreset : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public HoudiniEngineUnity.HEU_InputNode/HoudiniEngineUnity.InputObjectType _inputObjectType
     // Size: 0x4
     // Offset: 0x10
@@ -101,7 +93,7 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: packGeometryBeforeMerging and: inputAssetPresets
     char __padding6[0x6] = {};
-    // [OptionalFieldAttribute] Offset: 0x127C2BC
+    // [OptionalFieldAttribute] Offset: 0x1100F74
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputAssetPreset> _inputAssetPresets
     // Size: 0x8
     // Offset: 0x40
@@ -110,25 +102,23 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset*>*) == 0x8);
     public:
     // Get instance field reference: public HoudiniEngineUnity.HEU_InputNode/HoudiniEngineUnity.InputObjectType _inputObjectType
-    ::HoudiniEngineUnity::HEU_InputNode::InputObjectType& dyn__inputObjectType();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_InputNode::InputObjectType& dyn__inputObjectType();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputObjectPreset> _inputObjectPresets
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectPreset*>*& dyn__inputObjectPresets();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectPreset*>*& dyn__inputObjectPresets();
     // Get instance field reference: public System.String _inputAssetName
-    ::StringW& dyn__inputAssetName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__inputAssetName();
     // Get instance field reference: public System.Int32 _inputIndex
-    int& dyn__inputIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__inputIndex();
     // Get instance field reference: public System.String _inputName
-    ::StringW& dyn__inputName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__inputName();
     // Get instance field reference: public System.Boolean _keepWorldTransform
-    bool& dyn__keepWorldTransform();
+    [[deprecated("Use field access instead!")]] bool& dyn__keepWorldTransform();
     // Get instance field reference: public System.Boolean _packGeometryBeforeMerging
-    bool& dyn__packGeometryBeforeMerging();
+    [[deprecated("Use field access instead!")]] bool& dyn__packGeometryBeforeMerging();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputAssetPreset> _inputAssetPresets
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset*>*& dyn__inputAssetPresets();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset*>*& dyn__inputAssetPresets();
     // public System.Void .ctor()
-    // Offset: 0x185A6E8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1893FF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputPreset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputPreset::.ctor");

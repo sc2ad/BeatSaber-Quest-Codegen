@@ -43,15 +43,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_LoadBufferMesh : public ::HoudiniEngineUnity::HEU_LoadBufferBase {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public HoudiniEngineUnity.HEU_GenerateGeoCache _geoCache
     // Size: 0x8
     // Offset: 0x30
@@ -96,24 +88,23 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public HoudiniEngineUnity.HEU_GenerateGeoCache _geoCache
-    ::HoudiniEngineUnity::HEU_GenerateGeoCache*& dyn__geoCache();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_GenerateGeoCache*& dyn__geoCache();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_GeoGroup> _LODGroupMeshes
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*& dyn__LODGroupMeshes();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*& dyn__LODGroupMeshes();
     // Get instance field reference: public System.Int32 _defaultMaterialKey
-    int& dyn__defaultMaterialKey();
+    [[deprecated("Use field access instead!")]] int& dyn__defaultMaterialKey();
     // Get instance field reference: public System.Boolean _bGenerateUVs
-    bool& dyn__bGenerateUVs();
+    [[deprecated("Use field access instead!")]] bool& dyn__bGenerateUVs();
     // Get instance field reference: public System.Boolean _bGenerateTangents
-    bool& dyn__bGenerateTangents();
+    [[deprecated("Use field access instead!")]] bool& dyn__bGenerateTangents();
     // Get instance field reference: public System.Boolean _bGenerateNormals
-    bool& dyn__bGenerateNormals();
+    [[deprecated("Use field access instead!")]] bool& dyn__bGenerateNormals();
     // Get instance field reference: public System.Boolean _bPartInstanced
-    bool& dyn__bPartInstanced();
+    [[deprecated("Use field access instead!")]] bool& dyn__bPartInstanced();
     // public System.Void .ctor()
-    // Offset: 0x185B0D8
+    // Offset: 0x18949E8
     // Implemented from: HoudiniEngineUnity.HEU_LoadBufferBase
     // Base method: System.Void HEU_LoadBufferBase::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_LoadBufferMesh* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_LoadBufferMesh::.ctor");

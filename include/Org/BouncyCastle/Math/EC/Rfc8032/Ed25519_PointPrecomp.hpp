@@ -24,15 +24,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
   // [TokenAttribute] Offset: FFFFFFFF
   class Ed25519::PointPrecomp : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int32[] ypx_h
     // Size: 0x8
     // Offset: 0x10
@@ -53,15 +45,13 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     static_assert(sizeof(::ArrayW<int>) == 0x8);
     public:
     // Get instance field reference: System.Int32[] ypx_h
-    ::ArrayW<int>& dyn_ypx_h();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_ypx_h();
     // Get instance field reference: System.Int32[] ymx_h
-    ::ArrayW<int>& dyn_ymx_h();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_ymx_h();
     // Get instance field reference: System.Int32[] xyd
-    ::ArrayW<int>& dyn_xyd();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_xyd();
     // public System.Void .ctor()
-    // Offset: 0x2298DB0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x22E3624
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ed25519::PointPrecomp* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointPrecomp::.ctor");

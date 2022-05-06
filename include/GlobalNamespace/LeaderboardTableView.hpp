@@ -57,15 +57,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::LeaderboardTableView::ScoreData
     class ScoreData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.TableView _tableView
     // Size: 0x8
     // Offset: 0x18
@@ -112,46 +104,44 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kCellIdentifier
     static void _set_kCellIdentifier(::StringW value);
     // Get instance field reference: private HMUI.TableView _tableView
-    ::HMUI::TableView*& dyn__tableView();
+    [[deprecated("Use field access instead!")]] ::HMUI::TableView*& dyn__tableView();
     // Get instance field reference: private LeaderboardTableCell _cellPrefab
-    ::GlobalNamespace::LeaderboardTableCell*& dyn__cellPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LeaderboardTableCell*& dyn__cellPrefab();
     // Get instance field reference: private System.Single _rowHeight
-    float& dyn__rowHeight();
+    [[deprecated("Use field access instead!")]] float& dyn__rowHeight();
     // Get instance field reference: private System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> _scores
-    ::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardTableView::ScoreData*>*& dyn__scores();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardTableView::ScoreData*>*& dyn__scores();
     // Get instance field reference: private System.Int32 _specialScorePos
-    int& dyn__specialScorePos();
-    // public System.Single CellSize()
-    // Offset: 0x13B7B60
-    float CellSize();
-    // public System.Int32 NumberOfCells()
-    // Offset: 0x13B7B68
-    int NumberOfCells();
-    // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x13B7BBC
-    ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int row);
-    // public System.Void SetScores(System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> scores, System.Int32 specialScorePos)
-    // Offset: 0x13B7D98
-    void SetScores(::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardTableView::ScoreData*>* scores, int specialScorePos);
+    [[deprecated("Use field access instead!")]] int& dyn__specialScorePos();
     // public System.Void .ctor()
-    // Offset: 0x13B7DC8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13B3274
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardTableView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardTableView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardTableView*, creationType>()));
     }
+    // public System.Single CellSize()
+    // Offset: 0x13B300C
+    float CellSize();
+    // public System.Int32 NumberOfCells()
+    // Offset: 0x13B3014
+    int NumberOfCells();
+    // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
+    // Offset: 0x13B3068
+    ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int row);
+    // public System.Void SetScores(System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> scores, System.Int32 specialScorePos)
+    // Offset: 0x13B3244
+    void SetScores(::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardTableView::ScoreData*>* scores, int specialScorePos);
   }; // LeaderboardTableView
   #pragma pack(pop)
   static check_size<sizeof(LeaderboardTableView), 56 + sizeof(int)> __GlobalNamespace_LeaderboardTableViewSizeCheck;
   static_assert(sizeof(LeaderboardTableView) == 0x3C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardTableView::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardTableView::CellSize
 // Il2CppName: CellSize
 template<>
@@ -188,7 +178,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardTableView*), "SetScores", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scores, specialScorePos});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LeaderboardTableView::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

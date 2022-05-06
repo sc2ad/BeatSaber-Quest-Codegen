@@ -50,15 +50,7 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   class MemberInfoSerializationHolder : public ::Il2CppObject/*, public ::System::Runtime::Serialization::ISerializable, public ::System::Runtime::Serialization::IObjectReference*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String m_memberName
     // Size: 0x8
     // Offset: 0x10
@@ -107,35 +99,35 @@ namespace System::Reflection {
       return *reinterpret_cast<::System::Runtime::Serialization::IObjectReference*>(this);
     }
     // Get instance field reference: private System.String m_memberName
-    ::StringW& dyn_m_memberName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_memberName();
     // Get instance field reference: private System.RuntimeType m_reflectedType
-    ::System::RuntimeType*& dyn_m_reflectedType();
+    [[deprecated("Use field access instead!")]] ::System::RuntimeType*& dyn_m_reflectedType();
     // Get instance field reference: private System.String m_signature
-    ::StringW& dyn_m_signature();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_signature();
     // Get instance field reference: private System.String m_signature2
-    ::StringW& dyn_m_signature2();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_signature2();
     // Get instance field reference: private System.Reflection.MemberTypes m_memberType
-    ::System::Reflection::MemberTypes& dyn_m_memberType();
+    [[deprecated("Use field access instead!")]] ::System::Reflection::MemberTypes& dyn_m_memberType();
     // Get instance field reference: private System.Runtime.Serialization.SerializationInfo m_info
-    ::System::Runtime::Serialization::SerializationInfo*& dyn_m_info();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::SerializationInfo*& dyn_m_info();
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x21C48C0
+    // Offset: 0x2212134
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemberInfoSerializationHolder* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::MemberInfoSerializationHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemberInfoSerializationHolder*, creationType>(info, context)));
     }
     // static public System.Void GetSerializationInfo(System.Runtime.Serialization.SerializationInfo info, System.String name, System.RuntimeType reflectedClass, System.String signature, System.Reflection.MemberTypes type)
-    // Offset: 0x21C4624
+    // Offset: 0x2211E98
     static void GetSerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, ::StringW name, ::System::RuntimeType* reflectedClass, ::StringW signature, ::System::Reflection::MemberTypes type);
     // static public System.Void GetSerializationInfo(System.Runtime.Serialization.SerializationInfo info, System.String name, System.RuntimeType reflectedClass, System.String signature, System.String signature2, System.Reflection.MemberTypes type, System.Type[] genericArguments)
-    // Offset: 0x21C4634
+    // Offset: 0x2211EA8
     static void GetSerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, ::StringW name, ::System::RuntimeType* reflectedClass, ::StringW signature, ::StringW signature2, ::System::Reflection::MemberTypes type, ::ArrayW<::System::Type*> genericArguments);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x21C4B48
+    // Offset: 0x22123BC
     void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // public System.Object GetRealObject(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x21C4BC8
+    // Offset: 0x221243C
     ::Il2CppObject* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
   }; // System.Reflection.MemberInfoSerializationHolder
   #pragma pack(pop)

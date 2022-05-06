@@ -39,15 +39,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaberSound : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Transform _saberTop
     // Size: 0x8
     // Offset: 0x18
@@ -90,7 +82,7 @@ namespace GlobalNamespace {
     float downSmooth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1255EA0
+    // [TooltipAttribute] Offset: 0x10DAA84
     // private System.Single _noSoundTopThresholdSqr
     // Size: 0x4
     // Offset: 0x44
@@ -113,50 +105,48 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform _saberTop
-    ::UnityEngine::Transform*& dyn__saberTop();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__saberTop();
     // Get instance field reference: private UnityEngine.AudioSource _audioSource
-    ::UnityEngine::AudioSource*& dyn__audioSource();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioSource*& dyn__audioSource();
     // Get instance field reference: private UnityEngine.AnimationCurve _pitchBySpeedCurve
-    ::UnityEngine::AnimationCurve*& dyn__pitchBySpeedCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__pitchBySpeedCurve();
     // Get instance field reference: private UnityEngine.AnimationCurve _gainBySpeedCurve
-    ::UnityEngine::AnimationCurve*& dyn__gainBySpeedCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__gainBySpeedCurve();
     // Get instance field reference: private System.Single _speedMultiplier
-    float& dyn__speedMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__speedMultiplier();
     // Get instance field reference: private System.Single _upSmooth
-    float& dyn__upSmooth();
+    [[deprecated("Use field access instead!")]] float& dyn__upSmooth();
     // Get instance field reference: private System.Single _downSmooth
-    float& dyn__downSmooth();
+    [[deprecated("Use field access instead!")]] float& dyn__downSmooth();
     // Get instance field reference: private System.Single _noSoundTopThresholdSqr
-    float& dyn__noSoundTopThresholdSqr();
+    [[deprecated("Use field access instead!")]] float& dyn__noSoundTopThresholdSqr();
     // Get instance field reference: private UnityEngine.Vector3 _prevPos
-    ::UnityEngine::Vector3& dyn__prevPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__prevPos();
     // Get instance field reference: private System.Single _speed
-    float& dyn__speed();
-    // protected System.Void Start()
-    // Offset: 0x141DB50
-    void Start();
-    // protected System.Void Update()
-    // Offset: 0x141DB88
-    void Update();
+    [[deprecated("Use field access instead!")]] float& dyn__speed();
     // public System.Void .ctor()
-    // Offset: 0x141DDB0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x145F468
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberSound* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberSound::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberSound*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x145F208
+    void Start();
+    // protected System.Void Update()
+    // Offset: 0x145F240
+    void Update();
   }; // SaberSound
   #pragma pack(pop)
   static check_size<sizeof(SaberSound), 84 + sizeof(float)> __GlobalNamespace_SaberSoundSizeCheck;
   static_assert(sizeof(SaberSound) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SaberSound::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SaberSound::Start
 // Il2CppName: Start
 template<>
@@ -173,7 +163,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberSound*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SaberSound::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

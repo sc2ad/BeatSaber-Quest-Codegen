@@ -46,16 +46,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockMultiplayerStatusModel : public ::Il2CppObject/*, public ::GlobalNamespace::IMultiplayerStatusModel*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x12541BC
+    // [InjectAttribute] Offset: 0x10D8DA0
     // private readonly MultiplayerStatusData _multiplayerStatusData
     // Size: 0x8
     // Offset: 0x10
@@ -72,25 +64,27 @@ namespace GlobalNamespace {
       return multiplayerStatusData;
     }
     // Get instance field reference: private readonly MultiplayerStatusData _multiplayerStatusData
-    ::GlobalNamespace::MultiplayerStatusData*& dyn__multiplayerStatusData();
-    // public System.Threading.Tasks.Task`1<MultiplayerStatusData> GetMultiplayerStatusAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13C5BF0
-    ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsync(::System::Threading::CancellationToken cancellationToken);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerStatusData*& dyn__multiplayerStatusData();
     // public System.Void .ctor()
-    // Offset: 0x13C5C64
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13C2110
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockMultiplayerStatusModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockMultiplayerStatusModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockMultiplayerStatusModel*, creationType>()));
     }
+    // public System.Threading.Tasks.Task`1<MultiplayerStatusData> GetMultiplayerStatusAsync(System.Threading.CancellationToken cancellationToken)
+    // Offset: 0x13C209C
+    ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsync(::System::Threading::CancellationToken cancellationToken);
   }; // MockMultiplayerStatusModel
   #pragma pack(pop)
   static check_size<sizeof(MockMultiplayerStatusModel), 16 + sizeof(::GlobalNamespace::MultiplayerStatusData*)> __GlobalNamespace_MockMultiplayerStatusModelSizeCheck;
   static_assert(sizeof(MockMultiplayerStatusModel) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MockMultiplayerStatusModel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MockMultiplayerStatusModel::GetMultiplayerStatusAsync
 // Il2CppName: GetMultiplayerStatusAsync
 template<>
@@ -100,7 +94,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockMultiplayerStatusModel*), "GetMultiplayerStatusAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MockMultiplayerStatusModel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

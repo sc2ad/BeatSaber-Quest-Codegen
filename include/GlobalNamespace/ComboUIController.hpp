@@ -45,15 +45,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ComboUIController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _comboText
     // Size: 0x8
     // Offset: 0x18
@@ -66,7 +58,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Animator* animator;
     // Field size check
     static_assert(sizeof(::UnityEngine::Animator*) == 0x8);
-    // [InjectAttribute] Offset: 0x125229C
+    // [InjectAttribute] Offset: 0x10D6E28
     // private readonly IComboController _comboController
     // Size: 0x8
     // Offset: 0x28
@@ -89,55 +81,53 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _comboText
-    ::TMPro::TextMeshProUGUI*& dyn__comboText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__comboText();
     // Get instance field reference: private UnityEngine.Animator _animator
-    ::UnityEngine::Animator*& dyn__animator();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Animator*& dyn__animator();
     // Get instance field reference: private readonly IComboController _comboController
-    ::GlobalNamespace::IComboController*& dyn__comboController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IComboController*& dyn__comboController();
     // Get instance field reference: private System.Int32 _comboLostId
-    int& dyn__comboLostId();
+    [[deprecated("Use field access instead!")]] int& dyn__comboLostId();
     // Get instance field reference: private System.Boolean _fullComboLost
-    bool& dyn__fullComboLost();
-    // protected System.Void Start()
-    // Offset: 0x14049A4
-    void Start();
-    // protected System.Void OnEnable()
-    // Offset: 0x1404CEC
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x1404CF0
-    void OnDisable();
-    // private System.Void RegisterForEvents()
-    // Offset: 0x1404A20
-    void RegisterForEvents();
-    // private System.Void UnregisterFromEvents()
-    // Offset: 0x1404CF4
-    void UnregisterFromEvents();
-    // private System.Void HandleComboDidChange(System.Int32 combo)
-    // Offset: 0x1404E94
-    void HandleComboDidChange(int combo);
-    // private System.Void HandleComboBreakingEventHappened()
-    // Offset: 0x1404ED8
-    void HandleComboBreakingEventHappened();
+    [[deprecated("Use field access instead!")]] bool& dyn__fullComboLost();
     // public System.Void .ctor()
-    // Offset: 0x1404F10
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1424CBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ComboUIController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ComboUIController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ComboUIController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x1424750
+    void Start();
+    // protected System.Void OnEnable()
+    // Offset: 0x1424A98
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x1424A9C
+    void OnDisable();
+    // private System.Void RegisterForEvents()
+    // Offset: 0x14247CC
+    void RegisterForEvents();
+    // private System.Void UnregisterFromEvents()
+    // Offset: 0x1424AA0
+    void UnregisterFromEvents();
+    // private System.Void HandleComboDidChange(System.Int32 combo)
+    // Offset: 0x1424C40
+    void HandleComboDidChange(int combo);
+    // private System.Void HandleComboBreakingEventHappened()
+    // Offset: 0x1424C84
+    void HandleComboBreakingEventHappened();
   }; // ComboUIController
   #pragma pack(pop)
   static check_size<sizeof(ComboUIController), 52 + sizeof(bool)> __GlobalNamespace_ComboUIControllerSizeCheck;
   static_assert(sizeof(ComboUIController) == 0x35);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ComboUIController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ComboUIController::Start
 // Il2CppName: Start
 template<>
@@ -195,7 +185,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ComboUIController*), "HandleComboBreakingEventHappened", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ComboUIController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

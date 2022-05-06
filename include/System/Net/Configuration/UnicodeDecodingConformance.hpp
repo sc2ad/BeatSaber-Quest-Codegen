@@ -66,7 +66,7 @@ namespace System::Net::Configuration {
     // Set static field: static public System.Net.Configuration.UnicodeDecodingConformance Loose
     static void _set_Loose(::System::Net::Configuration::UnicodeDecodingConformance value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Net.Configuration.UnicodeDecodingConformance
   #pragma pack(pop)
   static check_size<sizeof(UnicodeDecodingConformance), 0 + sizeof(int)> __System_Net_Configuration_UnicodeDecodingConformanceSizeCheck;

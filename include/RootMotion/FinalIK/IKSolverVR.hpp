@@ -64,15 +64,7 @@ namespace RootMotion::FinalIK {
     struct RotationOffset;
     // Nested type: ::RootMotion::FinalIK::IKSolverVR::VirtualBone
     class VirtualBone;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Transform[] solverTransforms
     // Size: 0x8
     // Offset: 0x58
@@ -177,15 +169,15 @@ namespace RootMotion::FinalIK {
     int lastLOD;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TooltipAttribute] Offset: 0x127473C
-    // [RangeAttribute] Offset: 0x127473C
+    // [TooltipAttribute] Offset: 0x10F93F4
+    // [RangeAttribute] Offset: 0x10F93F4
     // public System.Int32 LOD
     // Size: 0x4
     // Offset: 0xC4
     int LOD;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TooltipAttribute] Offset: 0x1274790
+    // [TooltipAttribute] Offset: 0x10F9448
     // public System.Boolean plantFeet
     // Size: 0x1
     // Offset: 0xC8
@@ -200,42 +192,42 @@ namespace RootMotion::FinalIK {
     ::RootMotion::FinalIK::IKSolverVR::VirtualBone* rootBone;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::IKSolverVR::VirtualBone*) == 0x8);
-    // [TooltipAttribute] Offset: 0x12747D8
+    // [TooltipAttribute] Offset: 0x10F9490
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Spine spine
     // Size: 0x8
     // Offset: 0xD8
     ::RootMotion::FinalIK::IKSolverVR::Spine* spine;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::IKSolverVR::Spine*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1274810
+    // [TooltipAttribute] Offset: 0x10F94C8
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm leftArm
     // Size: 0x8
     // Offset: 0xE0
     ::RootMotion::FinalIK::IKSolverVR::Arm* leftArm;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::IKSolverVR::Arm*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1274848
+    // [TooltipAttribute] Offset: 0x10F9500
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm rightArm
     // Size: 0x8
     // Offset: 0xE8
     ::RootMotion::FinalIK::IKSolverVR::Arm* rightArm;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::IKSolverVR::Arm*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1274880
+    // [TooltipAttribute] Offset: 0x10F9538
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Leg leftLeg
     // Size: 0x8
     // Offset: 0xF0
     ::RootMotion::FinalIK::IKSolverVR::Leg* leftLeg;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::IKSolverVR::Leg*) == 0x8);
-    // [TooltipAttribute] Offset: 0x12748B8
+    // [TooltipAttribute] Offset: 0x10F9570
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Leg rightLeg
     // Size: 0x8
     // Offset: 0xF8
     ::RootMotion::FinalIK::IKSolverVR::Leg* rightLeg;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::IKSolverVR::Leg*) == 0x8);
-    // [TooltipAttribute] Offset: 0x12748F0
+    // [TooltipAttribute] Offset: 0x10F95A8
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Locomotion locomotion
     // Size: 0x8
     // Offset: 0x100
@@ -304,185 +296,184 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: private UnityEngine.Transform[] solverTransforms
-    ::ArrayW<::UnityEngine::Transform*>& dyn_solverTransforms();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Transform*>& dyn_solverTransforms();
     // Get instance field reference: private System.Boolean hasChest
-    bool& dyn_hasChest();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasChest();
     // Get instance field reference: private System.Boolean hasNeck
-    bool& dyn_hasNeck();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasNeck();
     // Get instance field reference: private System.Boolean hasShoulders
-    bool& dyn_hasShoulders();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasShoulders();
     // Get instance field reference: private System.Boolean hasToes
-    bool& dyn_hasToes();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasToes();
     // Get instance field reference: private System.Boolean hasLegs
-    bool& dyn_hasLegs();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasLegs();
     // Get instance field reference: private UnityEngine.Vector3[] readPositions
-    ::ArrayW<::UnityEngine::Vector3>& dyn_readPositions();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn_readPositions();
     // Get instance field reference: private UnityEngine.Quaternion[] readRotations
-    ::ArrayW<::UnityEngine::Quaternion>& dyn_readRotations();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Quaternion>& dyn_readRotations();
     // Get instance field reference: private UnityEngine.Vector3[] solvedPositions
-    ::ArrayW<::UnityEngine::Vector3>& dyn_solvedPositions();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn_solvedPositions();
     // Get instance field reference: private UnityEngine.Quaternion[] solvedRotations
-    ::ArrayW<::UnityEngine::Quaternion>& dyn_solvedRotations();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Quaternion>& dyn_solvedRotations();
     // Get instance field reference: private UnityEngine.Quaternion[] defaultLocalRotations
-    ::ArrayW<::UnityEngine::Quaternion>& dyn_defaultLocalRotations();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Quaternion>& dyn_defaultLocalRotations();
     // Get instance field reference: private UnityEngine.Vector3[] defaultLocalPositions
-    ::ArrayW<::UnityEngine::Vector3>& dyn_defaultLocalPositions();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn_defaultLocalPositions();
     // Get instance field reference: private UnityEngine.Vector3 rootV
-    ::UnityEngine::Vector3& dyn_rootV();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_rootV();
     // Get instance field reference: private UnityEngine.Vector3 rootVelocity
-    ::UnityEngine::Vector3& dyn_rootVelocity();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_rootVelocity();
     // Get instance field reference: private UnityEngine.Vector3 bodyOffset
-    ::UnityEngine::Vector3& dyn_bodyOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_bodyOffset();
     // Get instance field reference: private System.Int32 supportLegIndex
-    int& dyn_supportLegIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_supportLegIndex();
     // Get instance field reference: private System.Int32 lastLOD
-    int& dyn_lastLOD();
+    [[deprecated("Use field access instead!")]] int& dyn_lastLOD();
     // Get instance field reference: public System.Int32 LOD
-    int& dyn_LOD();
+    [[deprecated("Use field access instead!")]] int& dyn_LOD();
     // Get instance field reference: public System.Boolean plantFeet
-    bool& dyn_plantFeet();
+    [[deprecated("Use field access instead!")]] bool& dyn_plantFeet();
     // Get instance field reference: private RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone <rootBone>k__BackingField
-    ::RootMotion::FinalIK::IKSolverVR::VirtualBone*& dyn_$rootBone$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKSolverVR::VirtualBone*& dyn_$rootBone$k__BackingField();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Spine spine
-    ::RootMotion::FinalIK::IKSolverVR::Spine*& dyn_spine();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKSolverVR::Spine*& dyn_spine();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm leftArm
-    ::RootMotion::FinalIK::IKSolverVR::Arm*& dyn_leftArm();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKSolverVR::Arm*& dyn_leftArm();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm rightArm
-    ::RootMotion::FinalIK::IKSolverVR::Arm*& dyn_rightArm();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKSolverVR::Arm*& dyn_rightArm();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Leg leftLeg
-    ::RootMotion::FinalIK::IKSolverVR::Leg*& dyn_leftLeg();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKSolverVR::Leg*& dyn_leftLeg();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Leg rightLeg
-    ::RootMotion::FinalIK::IKSolverVR::Leg*& dyn_rightLeg();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKSolverVR::Leg*& dyn_rightLeg();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Locomotion locomotion
-    ::RootMotion::FinalIK::IKSolverVR::Locomotion*& dyn_locomotion();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKSolverVR::Locomotion*& dyn_locomotion();
     // Get instance field reference: private RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Leg[] legs
-    ::ArrayW<::RootMotion::FinalIK::IKSolverVR::Leg*>& dyn_legs();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::IKSolverVR::Leg*>& dyn_legs();
     // Get instance field reference: private RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm[] arms
-    ::ArrayW<::RootMotion::FinalIK::IKSolverVR::Arm*>& dyn_arms();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::IKSolverVR::Arm*>& dyn_arms();
     // Get instance field reference: private UnityEngine.Vector3 headPosition
-    ::UnityEngine::Vector3& dyn_headPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_headPosition();
     // Get instance field reference: private UnityEngine.Vector3 headDeltaPosition
-    ::UnityEngine::Vector3& dyn_headDeltaPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_headDeltaPosition();
     // Get instance field reference: private UnityEngine.Vector3 raycastOriginPelvis
-    ::UnityEngine::Vector3& dyn_raycastOriginPelvis();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_raycastOriginPelvis();
     // Get instance field reference: private UnityEngine.Vector3 lastOffset
-    ::UnityEngine::Vector3& dyn_lastOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_lastOffset();
     // Get instance field reference: private UnityEngine.Vector3 debugPos1
-    ::UnityEngine::Vector3& dyn_debugPos1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_debugPos1();
     // Get instance field reference: private UnityEngine.Vector3 debugPos2
-    ::UnityEngine::Vector3& dyn_debugPos2();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_debugPos2();
     // Get instance field reference: private UnityEngine.Vector3 debugPos3
-    ::UnityEngine::Vector3& dyn_debugPos3();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_debugPos3();
     // Get instance field reference: private UnityEngine.Vector3 debugPos4
-    ::UnityEngine::Vector3& dyn_debugPos4();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_debugPos4();
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone get_rootBone()
-    // Offset: 0x21B2150
+    // Offset: 0x21FE9C4
     ::RootMotion::FinalIK::IKSolverVR::VirtualBone* get_rootBone();
     // private System.Void set_rootBone(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone value)
-    // Offset: 0x21B2158
+    // Offset: 0x21FE9CC
     void set_rootBone(::RootMotion::FinalIK::IKSolverVR::VirtualBone* value);
     // public System.Void SetToReferences(RootMotion.FinalIK.VRIK/RootMotion.FinalIK.References references)
-    // Offset: 0x21AD948
+    // Offset: 0x21FA1BC
     void SetToReferences(::RootMotion::FinalIK::VRIK::References* references);
     // public System.Void GuessHandOrientations(RootMotion.FinalIK.VRIK/RootMotion.FinalIK.References references, System.Boolean onlyIfZero)
-    // Offset: 0x21ADD84
+    // Offset: 0x21FA5F8
     void GuessHandOrientations(::RootMotion::FinalIK::VRIK::References* references, bool onlyIfZero);
     // public System.Void DefaultAnimationCurves()
-    // Offset: 0x21ADC2C
+    // Offset: 0x21FA4A0
     void DefaultAnimationCurves();
     // public System.Void AddPositionOffset(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.PositionOffset positionOffset, UnityEngine.Vector3 value)
-    // Offset: 0x21AE770
+    // Offset: 0x21FAFE4
     void AddPositionOffset(::RootMotion::FinalIK::IKSolverVR::PositionOffset positionOffset, ::UnityEngine::Vector3 value);
     // public System.Void AddRotationOffset(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.RotationOffset rotationOffset, UnityEngine.Vector3 value)
-    // Offset: 0x21AEA4C
+    // Offset: 0x21FB2C0
     void AddRotationOffset(::RootMotion::FinalIK::IKSolverVR::RotationOffset rotationOffset, ::UnityEngine::Vector3 value);
     // public System.Void AddRotationOffset(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.RotationOffset rotationOffset, UnityEngine.Quaternion value)
-    // Offset: 0x21AEAF0
+    // Offset: 0x21FB364
     void AddRotationOffset(::RootMotion::FinalIK::IKSolverVR::RotationOffset rotationOffset, ::UnityEngine::Quaternion value);
     // public System.Void AddPlatformMotion(UnityEngine.Vector3 deltaPosition, UnityEngine.Quaternion deltaRotation, UnityEngine.Vector3 platformPivot)
-    // Offset: 0x21AEC84
+    // Offset: 0x21FB4F8
     void AddPlatformMotion(::UnityEngine::Vector3 deltaPosition, ::UnityEngine::Quaternion deltaRotation, ::UnityEngine::Vector3 platformPivot);
     // public System.Void Reset()
-    // Offset: 0x21AEE10
+    // Offset: 0x21FB684
     void Reset();
     // private UnityEngine.Vector3 GetNormal(UnityEngine.Transform[] transforms)
-    // Offset: 0x21AFCAC
+    // Offset: 0x21FC520
     ::UnityEngine::Vector3 GetNormal(::ArrayW<::UnityEngine::Transform*> transforms);
     // private UnityEngine.Vector3 GuessWristToPalmAxis(UnityEngine.Transform hand, UnityEngine.Transform forearm)
-    // Offset: 0x21AE024
+    // Offset: 0x21FA898
     ::UnityEngine::Vector3 GuessWristToPalmAxis(::UnityEngine::Transform* hand, ::UnityEngine::Transform* forearm);
     // private UnityEngine.Vector3 GuessPalmToThumbAxis(UnityEngine.Transform hand, UnityEngine.Transform forearm)
-    // Offset: 0x21AE1FC
+    // Offset: 0x21FAA70
     ::UnityEngine::Vector3 GuessPalmToThumbAxis(::UnityEngine::Transform* hand, ::UnityEngine::Transform* forearm);
     // static private UnityEngine.Keyframe[] GetSineKeyframes(System.Single mag)
-    // Offset: 0x21AE64C
+    // Offset: 0x21FAEC0
     static ::ArrayW<::UnityEngine::Keyframe> GetSineKeyframes(float mag);
     // private System.Void UpdateSolverTransforms()
-    // Offset: 0x21AEF88
+    // Offset: 0x21FB7FC
     void UpdateSolverTransforms();
     // private System.Void WriteTransforms()
-    // Offset: 0x21B16D8
+    // Offset: 0x21FDF4C
     void WriteTransforms();
     // private System.Void Read(UnityEngine.Vector3[] positions, UnityEngine.Quaternion[] rotations, System.Boolean hasChest, System.Boolean hasNeck, System.Boolean hasShoulders, System.Boolean hasToes, System.Boolean hasLegs)
-    // Offset: 0x21AF0F0
+    // Offset: 0x21FB964
     void Read(::ArrayW<::UnityEngine::Vector3> positions, ::ArrayW<::UnityEngine::Quaternion> rotations, bool hasChest, bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs);
     // private System.Void Solve()
-    // Offset: 0x21B049C
+    // Offset: 0x21FCD10
     void Solve();
     // private UnityEngine.Vector3 GetPosition(System.Int32 index)
-    // Offset: 0x21B1AC4
+    // Offset: 0x21FE338
     ::UnityEngine::Vector3 GetPosition(int index);
     // private UnityEngine.Quaternion GetRotation(System.Int32 index)
-    // Offset: 0x21B1B0C
+    // Offset: 0x21FE380
     ::UnityEngine::Quaternion GetRotation(int index);
     // private System.Void Write()
-    // Offset: 0x21B1588
+    // Offset: 0x21FDDFC
     void Write();
     // private UnityEngine.Vector3 GetPelvisOffset()
-    // Offset: 0x21B1B50
+    // Offset: 0x21FE3C4
     ::UnityEngine::Vector3 GetPelvisOffset();
     // public System.Void .ctor()
-    // Offset: 0x21B2160
+    // Offset: 0x21FE9D4
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolverVR* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolverVR::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverVR*, creationType>()));
     }
     // public override System.Void StoreDefaultLocalState()
-    // Offset: 0x21AF634
+    // Offset: 0x21FBEA8
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::StoreDefaultLocalState()
     void StoreDefaultLocalState();
     // public override System.Void FixTransforms()
-    // Offset: 0x21AF7A8
+    // Offset: 0x21FC01C
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::FixTransforms()
     void FixTransforms();
     // public override RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point[] GetPoints()
-    // Offset: 0x21AF9B0
+    // Offset: 0x21FC224
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point[] IKSolver::GetPoints()
     ::ArrayW<::RootMotion::FinalIK::IKSolver::Point*> GetPoints();
     // public override RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point GetPoint(UnityEngine.Transform transform)
-    // Offset: 0x21AFA24
+    // Offset: 0x21FC298
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point IKSolver::GetPoint(UnityEngine.Transform transform)
     ::RootMotion::FinalIK::IKSolver::Point* GetPoint(::UnityEngine::Transform* transform);
     // public override System.Boolean IsValid(ref System.String message)
-    // Offset: 0x21AFA98
+    // Offset: 0x21FC30C
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Boolean IKSolver::IsValid(ref System.String message)
     bool IsValid(ByRef<::StringW> message);
     // protected override System.Void OnInitiate()
-    // Offset: 0x21AFF8C
+    // Offset: 0x21FC800
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::OnInitiate()
     void OnInitiate();
     // protected override System.Void OnUpdate()
-    // Offset: 0x21AFFD4
+    // Offset: 0x21FC848
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::OnUpdate()
     void OnUpdate();

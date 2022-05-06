@@ -59,15 +59,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionEffector : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private RootMotion.FinalIK.FullBodyBipedEffector <effectorType>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -292,140 +284,140 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private RootMotion.FinalIK.FullBodyBipedEffector <effectorType>k__BackingField
-    ::RootMotion::FinalIK::FullBodyBipedEffector& dyn_$effectorType$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::FullBodyBipedEffector& dyn_$effectorType$k__BackingField();
     // Get instance field reference: private System.Boolean <isPaused>k__BackingField
-    bool& dyn_$isPaused$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$isPaused$k__BackingField();
     // Get instance field reference: private RootMotion.FinalIK.InteractionObject <interactionObject>k__BackingField
-    ::RootMotion::FinalIK::InteractionObject*& dyn_$interactionObject$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::InteractionObject*& dyn_$interactionObject$k__BackingField();
     // Get instance field reference: private RootMotion.FinalIK.Poser poser
-    ::RootMotion::FinalIK::Poser*& dyn_poser();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::Poser*& dyn_poser();
     // Get instance field reference: private RootMotion.FinalIK.IKEffector effector
-    ::RootMotion::FinalIK::IKEffector*& dyn_effector();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKEffector*& dyn_effector();
     // Get instance field reference: private System.Single timer
-    float& dyn_timer();
+    [[deprecated("Use field access instead!")]] float& dyn_timer();
     // Get instance field reference: private System.Single length
-    float& dyn_length();
+    [[deprecated("Use field access instead!")]] float& dyn_length();
     // Get instance field reference: private System.Single weight
-    float& dyn_weight();
+    [[deprecated("Use field access instead!")]] float& dyn_weight();
     // Get instance field reference: private System.Single fadeInSpeed
-    float& dyn_fadeInSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn_fadeInSpeed();
     // Get instance field reference: private System.Single defaultPositionWeight
-    float& dyn_defaultPositionWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_defaultPositionWeight();
     // Get instance field reference: private System.Single defaultRotationWeight
-    float& dyn_defaultRotationWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_defaultRotationWeight();
     // Get instance field reference: private System.Single defaultPull
-    float& dyn_defaultPull();
+    [[deprecated("Use field access instead!")]] float& dyn_defaultPull();
     // Get instance field reference: private System.Single defaultReach
-    float& dyn_defaultReach();
+    [[deprecated("Use field access instead!")]] float& dyn_defaultReach();
     // Get instance field reference: private System.Single defaultPush
-    float& dyn_defaultPush();
+    [[deprecated("Use field access instead!")]] float& dyn_defaultPush();
     // Get instance field reference: private System.Single defaultPushParent
-    float& dyn_defaultPushParent();
+    [[deprecated("Use field access instead!")]] float& dyn_defaultPushParent();
     // Get instance field reference: private System.Single defaultBendGoalWeight
-    float& dyn_defaultBendGoalWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_defaultBendGoalWeight();
     // Get instance field reference: private System.Single resetTimer
-    float& dyn_resetTimer();
+    [[deprecated("Use field access instead!")]] float& dyn_resetTimer();
     // Get instance field reference: private System.Boolean positionWeightUsed
-    bool& dyn_positionWeightUsed();
+    [[deprecated("Use field access instead!")]] bool& dyn_positionWeightUsed();
     // Get instance field reference: private System.Boolean rotationWeightUsed
-    bool& dyn_rotationWeightUsed();
+    [[deprecated("Use field access instead!")]] bool& dyn_rotationWeightUsed();
     // Get instance field reference: private System.Boolean pullUsed
-    bool& dyn_pullUsed();
+    [[deprecated("Use field access instead!")]] bool& dyn_pullUsed();
     // Get instance field reference: private System.Boolean reachUsed
-    bool& dyn_reachUsed();
+    [[deprecated("Use field access instead!")]] bool& dyn_reachUsed();
     // Get instance field reference: private System.Boolean pushUsed
-    bool& dyn_pushUsed();
+    [[deprecated("Use field access instead!")]] bool& dyn_pushUsed();
     // Get instance field reference: private System.Boolean pushParentUsed
-    bool& dyn_pushParentUsed();
+    [[deprecated("Use field access instead!")]] bool& dyn_pushParentUsed();
     // Get instance field reference: private System.Boolean bendGoalWeightUsed
-    bool& dyn_bendGoalWeightUsed();
+    [[deprecated("Use field access instead!")]] bool& dyn_bendGoalWeightUsed();
     // Get instance field reference: private System.Boolean pickedUp
-    bool& dyn_pickedUp();
+    [[deprecated("Use field access instead!")]] bool& dyn_pickedUp();
     // Get instance field reference: private System.Boolean defaults
-    bool& dyn_defaults();
+    [[deprecated("Use field access instead!")]] bool& dyn_defaults();
     // Get instance field reference: private System.Boolean pickUpOnPostFBBIK
-    bool& dyn_pickUpOnPostFBBIK();
+    [[deprecated("Use field access instead!")]] bool& dyn_pickUpOnPostFBBIK();
     // Get instance field reference: private UnityEngine.Vector3 pickUpPosition
-    ::UnityEngine::Vector3& dyn_pickUpPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_pickUpPosition();
     // Get instance field reference: private UnityEngine.Vector3 pausePositionRelative
-    ::UnityEngine::Vector3& dyn_pausePositionRelative();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_pausePositionRelative();
     // Get instance field reference: private UnityEngine.Quaternion pickUpRotation
-    ::UnityEngine::Quaternion& dyn_pickUpRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_pickUpRotation();
     // Get instance field reference: private UnityEngine.Quaternion pauseRotationRelative
-    ::UnityEngine::Quaternion& dyn_pauseRotationRelative();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_pauseRotationRelative();
     // Get instance field reference: private RootMotion.FinalIK.InteractionTarget interactionTarget
-    ::RootMotion::FinalIK::InteractionTarget*& dyn_interactionTarget();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::InteractionTarget*& dyn_interactionTarget();
     // Get instance field reference: private UnityEngine.Transform target
-    ::UnityEngine::Transform*& dyn_target();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_target();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Boolean> triggered
-    ::System::Collections::Generic::List_1<bool>*& dyn_triggered();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<bool>*& dyn_triggered();
     // Get instance field reference: private RootMotion.FinalIK.InteractionSystem interactionSystem
-    ::RootMotion::FinalIK::InteractionSystem*& dyn_interactionSystem();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::InteractionSystem*& dyn_interactionSystem();
     // Get instance field reference: private System.Boolean started
-    bool& dyn_started();
+    [[deprecated("Use field access instead!")]] bool& dyn_started();
     // public RootMotion.FinalIK.FullBodyBipedEffector get_effectorType()
-    // Offset: 0x2352950
+    // Offset: 0x239C1C4
     ::RootMotion::FinalIK::FullBodyBipedEffector get_effectorType();
     // private System.Void set_effectorType(RootMotion.FinalIK.FullBodyBipedEffector value)
-    // Offset: 0x2352958
+    // Offset: 0x239C1CC
     void set_effectorType(::RootMotion::FinalIK::FullBodyBipedEffector value);
     // public System.Boolean get_isPaused()
-    // Offset: 0x2352960
+    // Offset: 0x239C1D4
     bool get_isPaused();
     // private System.Void set_isPaused(System.Boolean value)
-    // Offset: 0x2352968
+    // Offset: 0x239C1DC
     void set_isPaused(bool value);
     // public RootMotion.FinalIK.InteractionObject get_interactionObject()
-    // Offset: 0x2352974
+    // Offset: 0x239C1E8
     ::RootMotion::FinalIK::InteractionObject* get_interactionObject();
     // private System.Void set_interactionObject(RootMotion.FinalIK.InteractionObject value)
-    // Offset: 0x235297C
+    // Offset: 0x239C1F0
     void set_interactionObject(::RootMotion::FinalIK::InteractionObject* value);
     // public System.Boolean get_inInteraction()
-    // Offset: 0x2352984
+    // Offset: 0x239C1F8
     bool get_inInteraction();
     // public System.Single get_progress()
-    // Offset: 0x2355344
+    // Offset: 0x239EBB8
     float get_progress();
     // public System.Void .ctor(RootMotion.FinalIK.FullBodyBipedEffector effectorType)
-    // Offset: 0x23529F4
+    // Offset: 0x239C268
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionEffector* New_ctor(::RootMotion::FinalIK::FullBodyBipedEffector effectorType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionEffector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionEffector*, creationType>(effectorType)));
     }
     // public System.Void Initiate(RootMotion.FinalIK.InteractionSystem interactionSystem)
-    // Offset: 0x2352A78
+    // Offset: 0x239C2EC
     void Initiate(::RootMotion::FinalIK::InteractionSystem* interactionSystem);
     // private System.Void StoreDefaults()
-    // Offset: 0x2352B1C
+    // Offset: 0x239C390
     void StoreDefaults();
     // public System.Boolean ResetToDefaults(System.Single speed)
-    // Offset: 0x2352C94
+    // Offset: 0x239C508
     bool ResetToDefaults(float speed);
     // public System.Boolean Pause()
-    // Offset: 0x2353144
+    // Offset: 0x239C9B8
     bool Pause();
     // public System.Boolean Resume()
-    // Offset: 0x2353504
+    // Offset: 0x239CD78
     bool Resume();
     // public System.Boolean Start(RootMotion.FinalIK.InteractionObject interactionObject, System.String tag, System.Single fadeInTime, System.Boolean interrupt)
-    // Offset: 0x2353558
+    // Offset: 0x239CDCC
     bool Start(::RootMotion::FinalIK::InteractionObject* interactionObject, ::StringW tag, float fadeInTime, bool interrupt);
     // public System.Void Update(UnityEngine.Transform root, System.Single speed)
-    // Offset: 0x23540AC
+    // Offset: 0x239D920
     void Update(::UnityEngine::Transform* root, float speed);
     // private System.Void TriggerUntriggeredEvents(System.Boolean checkTime, out System.Boolean pickUp, out System.Boolean pause)
-    // Offset: 0x2354B8C
+    // Offset: 0x239E400
     void TriggerUntriggeredEvents(bool checkTime, ByRef<bool> pickUp, ByRef<bool> pause);
     // private System.Void PickUp(UnityEngine.Transform root)
-    // Offset: 0x2354DB4
+    // Offset: 0x239E628
     void PickUp(::UnityEngine::Transform* root);
     // public System.Boolean Stop()
-    // Offset: 0x23551F0
+    // Offset: 0x239EA64
     bool Stop();
     // public System.Void OnPostFBBIK()
-    // Offset: 0x235582C
+    // Offset: 0x239F0A0
     void OnPostFBBIK();
   }; // RootMotion.FinalIK.InteractionEffector
   #pragma pack(pop)

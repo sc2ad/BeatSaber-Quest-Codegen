@@ -78,22 +78,22 @@ namespace LiteNetLib {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: private LiteNetLib.NetPacket _packet
-      ::LiteNetLib::NetPacket*& dyn__packet();
+      [[deprecated("Use field access instead!")]] ::LiteNetLib::NetPacket*& dyn__packet();
       // Get instance field reference: private System.Int64 _timeStamp
-      int64_t& dyn__timeStamp();
+      [[deprecated("Use field access instead!")]] int64_t& dyn__timeStamp();
       // Get instance field reference: private System.Boolean _isSent
-      bool& dyn__isSent();
+      [[deprecated("Use field access instead!")]] bool& dyn__isSent();
       // public System.Void Init(LiteNetLib.NetPacket packet)
-      // Offset: 0x216FC94
+      // Offset: 0x21BB508
       void Init(::LiteNetLib::NetPacket* packet);
       // public System.Void TrySend(System.Int64 currentTime, LiteNetLib.NetPeer peer)
-      // Offset: 0x216FCA0
+      // Offset: 0x21BB514
       void TrySend(int64_t currentTime, ::LiteNetLib::NetPeer* peer);
       // public System.Boolean Clear(LiteNetLib.NetPeer peer)
-      // Offset: 0x216F810
+      // Offset: 0x21BB084
       bool Clear(::LiteNetLib::NetPeer* peer);
       // public override System.String ToString()
-      // Offset: 0x2170218
+      // Offset: 0x21BBA8C
       // Implemented from: System.ValueType
       // Base method: System.String ValueType::ToString()
       ::StringW ToString();
@@ -101,15 +101,7 @@ namespace LiteNetLib {
     #pragma pack(pop)
     static check_size<sizeof(ReliableChannel::PendingPacket), 16 + sizeof(bool)> __LiteNetLib_ReliableChannel_PendingPacketSizeCheck;
     static_assert(sizeof(ReliableChannel::PendingPacket) == 0x11);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly LiteNetLib.NetPacket _outgoingAcks
     // Size: 0x8
     // Offset: 0x28
@@ -198,48 +190,48 @@ namespace LiteNetLib {
     // Set static field: static private System.Int32 BitsInByte
     static void _set_BitsInByte(int value);
     // Get instance field reference: private readonly LiteNetLib.NetPacket _outgoingAcks
-    ::LiteNetLib::NetPacket*& dyn__outgoingAcks();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetPacket*& dyn__outgoingAcks();
     // Get instance field reference: private readonly LiteNetLib.ReliableChannel/LiteNetLib.PendingPacket[] _pendingPackets
-    ::ArrayW<::LiteNetLib::ReliableChannel::PendingPacket>& dyn__pendingPackets();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::LiteNetLib::ReliableChannel::PendingPacket>& dyn__pendingPackets();
     // Get instance field reference: private readonly LiteNetLib.NetPacket[] _receivedPackets
-    ::ArrayW<::LiteNetLib::NetPacket*>& dyn__receivedPackets();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::LiteNetLib::NetPacket*>& dyn__receivedPackets();
     // Get instance field reference: private readonly System.Boolean[] _earlyReceived
-    ::ArrayW<bool>& dyn__earlyReceived();
+    [[deprecated("Use field access instead!")]] ::ArrayW<bool>& dyn__earlyReceived();
     // Get instance field reference: private System.Int32 _localSeqence
-    int& dyn__localSeqence();
+    [[deprecated("Use field access instead!")]] int& dyn__localSeqence();
     // Get instance field reference: private System.Int32 _remoteSequence
-    int& dyn__remoteSequence();
+    [[deprecated("Use field access instead!")]] int& dyn__remoteSequence();
     // Get instance field reference: private System.Int32 _localWindowStart
-    int& dyn__localWindowStart();
+    [[deprecated("Use field access instead!")]] int& dyn__localWindowStart();
     // Get instance field reference: private System.Int32 _remoteWindowStart
-    int& dyn__remoteWindowStart();
+    [[deprecated("Use field access instead!")]] int& dyn__remoteWindowStart();
     // Get instance field reference: private System.Boolean _mustSendAcks
-    bool& dyn__mustSendAcks();
+    [[deprecated("Use field access instead!")]] bool& dyn__mustSendAcks();
     // Get instance field reference: private readonly LiteNetLib.DeliveryMethod _deliveryMethod
-    ::LiteNetLib::DeliveryMethod& dyn__deliveryMethod();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::DeliveryMethod& dyn__deliveryMethod();
     // Get instance field reference: private readonly System.Boolean _ordered
-    bool& dyn__ordered();
+    [[deprecated("Use field access instead!")]] bool& dyn__ordered();
     // Get instance field reference: private readonly System.Int32 _windowSize
-    int& dyn__windowSize();
+    [[deprecated("Use field access instead!")]] int& dyn__windowSize();
     // Get instance field reference: private readonly System.Byte _id
-    uint8_t& dyn__id();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn__id();
     // public System.Void .ctor(LiteNetLib.NetPeer peer, System.Boolean ordered, System.Byte id)
-    // Offset: 0x216BDC8
+    // Offset: 0x21B763C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReliableChannel* New_ctor(::LiteNetLib::NetPeer* peer, bool ordered, uint8_t id) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::ReliableChannel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReliableChannel*, creationType>(peer, ordered, id)));
     }
     // private System.Void ProcessAck(LiteNetLib.NetPacket packet)
-    // Offset: 0x216F4D4
+    // Offset: 0x21BAD48
     void ProcessAck(::LiteNetLib::NetPacket* packet);
     // public override System.Void SendNextPackets()
-    // Offset: 0x216F858
+    // Offset: 0x21BB0CC
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Void BaseChannel::SendNextPackets()
     void SendNextPackets();
     // public override System.Boolean ProcessPacket(LiteNetLib.NetPacket packet)
-    // Offset: 0x216FD1C
+    // Offset: 0x21BB590
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Boolean BaseChannel::ProcessPacket(LiteNetLib.NetPacket packet)
     bool ProcessPacket(::LiteNetLib::NetPacket* packet);

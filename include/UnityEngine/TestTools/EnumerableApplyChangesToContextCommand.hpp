@@ -18,16 +18,6 @@
 // Forward declaring namespace: UnityEngine::TestTools
 namespace UnityEngine::TestTools {
 }
-// Forward declaring namespace: System::Collections
-namespace System::Collections {
-  // Forward declaring type: IEnumerable
-  class IEnumerable;
-}
-// Forward declaring namespace: NUnit::Framework::Internal
-namespace NUnit::Framework::Internal {
-  // Forward declaring type: ITestExecutionContext
-  class ITestExecutionContext;
-}
 // Forward declaring namespace: NUnit::Framework::Internal::Commands
 namespace NUnit::Framework::Internal::Commands {
   // Skipping declaration: TestCommand because it is already included!
@@ -42,6 +32,16 @@ namespace System::Collections::Generic {
 namespace NUnit::Framework::Interfaces {
   // Forward declaring type: IApplyToContext
   class IApplyToContext;
+}
+// Forward declaring namespace: System::Collections
+namespace System::Collections {
+  // Forward declaring type: IEnumerable
+  class IEnumerable;
+}
+// Forward declaring namespace: NUnit::Framework::Internal
+namespace NUnit::Framework::Internal {
+  // Forward declaring type: ITestExecutionContext
+  class ITestExecutionContext;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.TestTools
@@ -66,22 +66,24 @@ namespace UnityEngine::TestTools {
     operator ::UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand() noexcept {
       return *reinterpret_cast<::UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*>(this);
     }
-    // public System.Collections.IEnumerable ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x19483CC
-    ::System::Collections::IEnumerable* ExecuteEnumerable(::NUnit::Framework::Internal::ITestExecutionContext* context);
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand, System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.IApplyToContext> changes)
-    // Offset: 0x1940BF0
-    // Implemented from: NUnit.Framework.Internal.Commands.ApplyChangesToContextCommand
-    // Base method: System.Void ApplyChangesToContextCommand::.ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand, System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.IApplyToContext> changes)
+    // Offset: 0x1978BB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumerableApplyChangesToContextCommand* New_ctor(::NUnit::Framework::Internal::Commands::TestCommand* innerCommand, ::System::Collections::Generic::IEnumerable_1<::NUnit::Framework::Interfaces::IApplyToContext*>* changes) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::EnumerableApplyChangesToContextCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableApplyChangesToContextCommand*, creationType>(innerCommand, changes)));
     }
+    // public System.Collections.IEnumerable ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
+    // Offset: 0x19805AC
+    ::System::Collections::IEnumerable* ExecuteEnumerable(::NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // UnityEngine.TestTools.EnumerableApplyChangesToContextCommand
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableApplyChangesToContextCommand::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableApplyChangesToContextCommand::ExecuteEnumerable
 // Il2CppName: ExecuteEnumerable
 template<>
@@ -91,7 +93,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::EnumerableApplyChangesToContextCommand*), "ExecuteEnumerable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableApplyChangesToContextCommand::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

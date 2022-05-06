@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultipliedAndAddedColorSO : public ::GlobalNamespace::ColorSO {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private SimpleColorSO _baseColor
     // Size: 0x8
     // Offset: 0x18
@@ -68,24 +60,20 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private SimpleColorSO _baseColor
-    ::GlobalNamespace::SimpleColorSO*& dyn__baseColor();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SimpleColorSO*& dyn__baseColor();
     // Get instance field reference: private UnityEngine.Color _multiplierColor
-    ::UnityEngine::Color& dyn__multiplierColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__multiplierColor();
     // Get instance field reference: private UnityEngine.Color _addColor
-    ::UnityEngine::Color& dyn__addColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__addColor();
     // public override UnityEngine.Color get_color()
-    // Offset: 0x2A9836C
+    // Offset: 0x2AED424
     // Implemented from: ColorSO
     // Base method: UnityEngine.Color ColorSO::get_color()
     ::UnityEngine::Color get_color();
     // public System.Void .ctor()
-    // Offset: 0x2A983EC
+    // Offset: 0x2AED4A4
     // Implemented from: ColorSO
     // Base method: System.Void ColorSO::.ctor()
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultipliedAndAddedColorSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultipliedAndAddedColorSO::.ctor");

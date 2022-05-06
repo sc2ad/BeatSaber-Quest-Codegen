@@ -35,15 +35,7 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class MeshHandle : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Transform m_Transform
     // Size: 0x8
     // Offset: 0x10
@@ -58,21 +50,21 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(::UnityEngine::Mesh*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.Transform m_Transform
-    ::UnityEngine::Transform*& dyn_m_Transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_m_Transform();
     // Get instance field reference: private UnityEngine.Mesh m_Mesh
-    ::UnityEngine::Mesh*& dyn_m_Mesh();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Mesh*& dyn_m_Mesh();
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x1F952E0
+    // Offset: 0x1FE0B54
     ::UnityEngine::Mesh* get_mesh();
     // public System.Void .ctor(UnityEngine.Transform transform, UnityEngine.Mesh mesh)
-    // Offset: 0x1F952E8
+    // Offset: 0x1FE0B5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MeshHandle* New_ctor(::UnityEngine::Transform* transform, ::UnityEngine::Mesh* mesh) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeshHandle*, creationType>(transform, mesh)));
     }
     // public System.Void DrawMeshNow(System.Int32 submeshIndex)
-    // Offset: 0x1F95320
+    // Offset: 0x1FE0B94
     void DrawMeshNow(int submeshIndex);
   }; // UnityEngine.ProBuilder.MeshHandle
   #pragma pack(pop)

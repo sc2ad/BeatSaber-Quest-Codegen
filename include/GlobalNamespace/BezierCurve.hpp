@@ -60,15 +60,15 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public readonly UnityEngine.Vector3 p0
-    ::UnityEngine::Vector3& dyn_p0();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_p0();
     // Get instance field reference: public readonly UnityEngine.Vector3 p1
-    ::UnityEngine::Vector3& dyn_p1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_p1();
     // Get instance field reference: public readonly UnityEngine.Vector3 p2
-    ::UnityEngine::Vector3& dyn_p2();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_p2();
     // Get instance field reference: public readonly UnityEngine.Vector3 p3
-    ::UnityEngine::Vector3& dyn_p3();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_p3();
     // public System.Void .ctor(UnityEngine.Vector3 p0, UnityEngine.Vector3 p1, UnityEngine.Vector3 p2, UnityEngine.Vector3 p3)
-    // Offset: 0x13470B4
+    // Offset: 0x13302FC
     // ABORTED: conflicts with another method.  BezierCurve(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, ::UnityEngine::Vector3 p3);
   }; // BezierCurve
   #pragma pack(pop)

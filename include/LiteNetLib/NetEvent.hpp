@@ -131,20 +131,12 @@ namespace LiteNetLib {
       // Set static field: static public LiteNetLib.NetEvent/LiteNetLib.EType MessageDelivered
       static void _set_MessageDelivered(::LiteNetLib::NetEvent::EType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // LiteNetLib.NetEvent/LiteNetLib.EType
     #pragma pack(pop)
     static check_size<sizeof(NetEvent::EType), 0 + sizeof(int)> __LiteNetLib_NetEvent_ETypeSizeCheck;
     static_assert(sizeof(NetEvent::EType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public LiteNetLib.NetEvent/LiteNetLib.EType Type
     // Size: 0x4
     // Offset: 0x10
@@ -213,27 +205,27 @@ namespace LiteNetLib {
     static_assert(sizeof(::LiteNetLib::NetPacketReader*) == 0x8);
     public:
     // Get instance field reference: public LiteNetLib.NetEvent/LiteNetLib.EType Type
-    ::LiteNetLib::NetEvent::EType& dyn_Type();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetEvent::EType& dyn_Type();
     // Get instance field reference: public LiteNetLib.NetPeer Peer
-    ::LiteNetLib::NetPeer*& dyn_Peer();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetPeer*& dyn_Peer();
     // Get instance field reference: public System.Net.IPEndPoint RemoteEndPoint
-    ::System::Net::IPEndPoint*& dyn_RemoteEndPoint();
+    [[deprecated("Use field access instead!")]] ::System::Net::IPEndPoint*& dyn_RemoteEndPoint();
     // Get instance field reference: public System.Object UserData
-    ::Il2CppObject*& dyn_UserData();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_UserData();
     // Get instance field reference: public System.Int32 Latency
-    int& dyn_Latency();
+    [[deprecated("Use field access instead!")]] int& dyn_Latency();
     // Get instance field reference: public System.Net.Sockets.SocketError ErrorCode
-    ::System::Net::Sockets::SocketError& dyn_ErrorCode();
+    [[deprecated("Use field access instead!")]] ::System::Net::Sockets::SocketError& dyn_ErrorCode();
     // Get instance field reference: public LiteNetLib.DisconnectReason DisconnectReason
-    ::LiteNetLib::DisconnectReason& dyn_DisconnectReason();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::DisconnectReason& dyn_DisconnectReason();
     // Get instance field reference: public LiteNetLib.ConnectionRequest ConnectionRequest
-    ::LiteNetLib::ConnectionRequest*& dyn_ConnectionRequest();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::ConnectionRequest*& dyn_ConnectionRequest();
     // Get instance field reference: public LiteNetLib.DeliveryMethod DeliveryMethod
-    ::LiteNetLib::DeliveryMethod& dyn_DeliveryMethod();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::DeliveryMethod& dyn_DeliveryMethod();
     // Get instance field reference: public readonly LiteNetLib.NetPacketReader DataReader
-    ::LiteNetLib::NetPacketReader*& dyn_DataReader();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetPacketReader*& dyn_DataReader();
     // public System.Void .ctor(LiteNetLib.NetManager manager)
-    // Offset: 0x2165218
+    // Offset: 0x21B0A8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetEvent* New_ctor(::LiteNetLib::NetManager* manager) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetEvent::.ctor");

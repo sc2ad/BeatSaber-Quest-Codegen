@@ -54,7 +54,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EChaperoneConfigFile Temp
     static void _set_Temp(::Valve::VR::EChaperoneConfigFile value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Valve.VR.EChaperoneConfigFile
   #pragma pack(pop)
   static check_size<sizeof(EChaperoneConfigFile), 0 + sizeof(int)> __Valve_VR_EChaperoneConfigFileSizeCheck;

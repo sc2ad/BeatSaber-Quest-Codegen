@@ -36,15 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class RandomAnimatorStartTime : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Animator _animator
     // Size: 0x8
     // Offset: 0x18
@@ -61,31 +53,29 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Animator _animator
-    ::UnityEngine::Animator*& dyn__animator();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Animator*& dyn__animator();
     // Get instance field reference: private System.String _stateName
-    ::StringW& dyn__stateName();
-    // protected System.Void Start()
-    // Offset: 0x29D40BC
-    void Start();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__stateName();
     // public System.Void .ctor()
-    // Offset: 0x29D4100
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A26610
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RandomAnimatorStartTime* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RandomAnimatorStartTime::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RandomAnimatorStartTime*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x2A265CC
+    void Start();
   }; // RandomAnimatorStartTime
   #pragma pack(pop)
   static check_size<sizeof(RandomAnimatorStartTime), 32 + sizeof(::StringW)> __GlobalNamespace_RandomAnimatorStartTimeSizeCheck;
   static_assert(sizeof(RandomAnimatorStartTime) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::RandomAnimatorStartTime::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::RandomAnimatorStartTime::Start
 // Il2CppName: Start
 template<>
@@ -94,7 +84,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RandomAnimatorStartTime*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::RandomAnimatorStartTime::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

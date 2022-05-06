@@ -72,7 +72,7 @@ namespace Zenject {
     // Set static field: static public Zenject.BindingInheritanceMethods MoveDirectOnly
     static void _set_MoveDirectOnly(::Zenject::BindingInheritanceMethods value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Zenject.BindingInheritanceMethods
   #pragma pack(pop)
   static check_size<sizeof(BindingInheritanceMethods), 0 + sizeof(int)> __Zenject_BindingInheritanceMethodsSizeCheck;

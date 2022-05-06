@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalizationProvider : public ::UnityEngine::ScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Polyglot.Localization _localization
     // Size: 0x8
     // Offset: 0x18
@@ -58,25 +50,21 @@ namespace GlobalNamespace {
     // Set static field: static private LocalizationProvider _instance
     static void _set__instance(::GlobalNamespace::LocalizationProvider* value);
     // Get instance field reference: private Polyglot.Localization _localization
-    ::Polyglot::Localization*& dyn__localization();
+    [[deprecated("Use field access instead!")]] ::Polyglot::Localization*& dyn__localization();
     // public Polyglot.Localization get_localization()
-    // Offset: 0x29DC958
+    // Offset: 0x2A3224C
     ::Polyglot::Localization* get_localization();
     // static public LocalizationProvider get_Instance()
-    // Offset: 0x29DC960
+    // Offset: 0x2A32254
     static ::GlobalNamespace::LocalizationProvider* get_Instance();
     // static public System.Void set_Instance(LocalizationProvider value)
-    // Offset: 0x29DCAD0
+    // Offset: 0x2A323C4
     static void set_Instance(::GlobalNamespace::LocalizationProvider* value);
     // static public System.Boolean get_HasInstance()
-    // Offset: 0x29DC9EC
+    // Offset: 0x2A322E0
     static bool get_HasInstance();
     // public System.Void .ctor()
-    // Offset: 0x29DCB24
-    // Implemented from: UnityEngine.ScriptableObject
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A32418
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizationProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalizationProvider::.ctor");

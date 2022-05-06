@@ -115,7 +115,7 @@ namespace LIV::SDK::Unity {
     // Set static field: static public LIV.SDK.Unity.FEATURES DEBUG_CLIP_PLANE
     static void _set_DEBUG_CLIP_PLANE(::LIV::SDK::Unity::FEATURES value);
     // Get instance field reference: public System.UInt64 value__
-    uint64_t& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_value__();
   }; // LIV.SDK.Unity.FEATURES
   #pragma pack(pop)
   static check_size<sizeof(FEATURES), 0 + sizeof(uint64_t)> __LIV_SDK_Unity_FEATURESSizeCheck;

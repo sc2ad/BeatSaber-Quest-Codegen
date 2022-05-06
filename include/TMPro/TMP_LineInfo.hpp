@@ -157,45 +157,45 @@ namespace TMPro {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: System.Int32 controlCharacterCount
-    int& dyn_controlCharacterCount();
+    [[deprecated("Use field access instead!")]] int& dyn_controlCharacterCount();
     // Get instance field reference: public System.Int32 characterCount
-    int& dyn_characterCount();
+    [[deprecated("Use field access instead!")]] int& dyn_characterCount();
     // Get instance field reference: public System.Int32 visibleCharacterCount
-    int& dyn_visibleCharacterCount();
+    [[deprecated("Use field access instead!")]] int& dyn_visibleCharacterCount();
     // Get instance field reference: public System.Int32 spaceCount
-    int& dyn_spaceCount();
+    [[deprecated("Use field access instead!")]] int& dyn_spaceCount();
     // Get instance field reference: public System.Int32 wordCount
-    int& dyn_wordCount();
+    [[deprecated("Use field access instead!")]] int& dyn_wordCount();
     // Get instance field reference: public System.Int32 firstCharacterIndex
-    int& dyn_firstCharacterIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_firstCharacterIndex();
     // Get instance field reference: public System.Int32 firstVisibleCharacterIndex
-    int& dyn_firstVisibleCharacterIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_firstVisibleCharacterIndex();
     // Get instance field reference: public System.Int32 lastCharacterIndex
-    int& dyn_lastCharacterIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_lastCharacterIndex();
     // Get instance field reference: public System.Int32 lastVisibleCharacterIndex
-    int& dyn_lastVisibleCharacterIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_lastVisibleCharacterIndex();
     // Get instance field reference: public System.Single length
-    float& dyn_length();
+    [[deprecated("Use field access instead!")]] float& dyn_length();
     // Get instance field reference: public System.Single lineHeight
-    float& dyn_lineHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_lineHeight();
     // Get instance field reference: public System.Single ascender
-    float& dyn_ascender();
+    [[deprecated("Use field access instead!")]] float& dyn_ascender();
     // Get instance field reference: public System.Single baseline
-    float& dyn_baseline();
+    [[deprecated("Use field access instead!")]] float& dyn_baseline();
     // Get instance field reference: public System.Single descender
-    float& dyn_descender();
+    [[deprecated("Use field access instead!")]] float& dyn_descender();
     // Get instance field reference: public System.Single maxAdvance
-    float& dyn_maxAdvance();
+    [[deprecated("Use field access instead!")]] float& dyn_maxAdvance();
     // Get instance field reference: public System.Single width
-    float& dyn_width();
+    [[deprecated("Use field access instead!")]] float& dyn_width();
     // Get instance field reference: public System.Single marginLeft
-    float& dyn_marginLeft();
+    [[deprecated("Use field access instead!")]] float& dyn_marginLeft();
     // Get instance field reference: public System.Single marginRight
-    float& dyn_marginRight();
+    [[deprecated("Use field access instead!")]] float& dyn_marginRight();
     // Get instance field reference: public TMPro.TextAlignmentOptions alignment
-    ::TMPro::TextAlignmentOptions& dyn_alignment();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextAlignmentOptions& dyn_alignment();
     // Get instance field reference: public TMPro.Extents lineExtents
-    ::TMPro::Extents& dyn_lineExtents();
+    [[deprecated("Use field access instead!")]] ::TMPro::Extents& dyn_lineExtents();
   }; // TMPro.TMP_LineInfo
   #pragma pack(pop)
   static check_size<sizeof(TMP_LineInfo), 76 + sizeof(::TMPro::Extents)> __TMPro_TMP_LineInfoSizeCheck;

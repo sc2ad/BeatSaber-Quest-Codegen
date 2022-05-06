@@ -31,15 +31,7 @@ namespace TMPro {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TMP_MaterialManager::$$c__DisplayClass12_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Material stencilMaterial
     // Size: 0x8
     // Offset: 0x10
@@ -52,25 +44,27 @@ namespace TMPro {
       return stencilMaterial;
     }
     // Get instance field reference: public UnityEngine.Material stencilMaterial
-    ::UnityEngine::Material*& dyn_stencilMaterial();
-    // System.Boolean <AddMaskingMaterial>b__0(TMPro.TMP_MaterialManager/TMPro.MaskingMaterial item)
-    // Offset: 0x144EE18
-    bool $AddMaskingMaterial$b__0(::TMPro::TMP_MaterialManager::MaskingMaterial* item);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_stencilMaterial();
     // public System.Void .ctor()
-    // Offset: 0x144D31C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x146E19C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_MaterialManager::$$c__DisplayClass12_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_MaterialManager::$$c__DisplayClass12_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_MaterialManager::$$c__DisplayClass12_0*, creationType>()));
     }
+    // System.Boolean <AddMaskingMaterial>b__0(TMPro.TMP_MaterialManager/TMPro.MaskingMaterial item)
+    // Offset: 0x146FC98
+    bool $AddMaskingMaterial$b__0(::TMPro::TMP_MaterialManager::MaskingMaterial* item);
   }; // TMPro.TMP_MaterialManager/TMPro.<>c__DisplayClass12_0
   #pragma pack(pop)
   static check_size<sizeof(TMP_MaterialManager::$$c__DisplayClass12_0), 16 + sizeof(::UnityEngine::Material*)> __TMPro_TMP_MaterialManager_$$c__DisplayClass12_0SizeCheck;
   static_assert(sizeof(TMP_MaterialManager::$$c__DisplayClass12_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: TMPro::TMP_MaterialManager::$$c__DisplayClass12_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::$$c__DisplayClass12_0::$AddMaskingMaterial$b__0
 // Il2CppName: <AddMaskingMaterial>b__0
 template<>
@@ -80,7 +74,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager::$$c__DisplayClass12_0*), "<AddMaskingMaterial>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{item});
   }
 };
-// Writing MetadataGetter for method: TMPro::TMP_MaterialManager::$$c__DisplayClass12_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

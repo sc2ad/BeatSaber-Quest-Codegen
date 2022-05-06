@@ -37,34 +37,31 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::OVRProfile::State
     struct State;
     // public System.String get_id()
-    // Offset: 0x1AE4774
+    // Offset: 0x1B1ED5C
     ::StringW get_id();
     // public System.String get_userName()
-    // Offset: 0x1AE47BC
+    // Offset: 0x1B1EDA4
     ::StringW get_userName();
     // public System.String get_locale()
-    // Offset: 0x1AE4804
+    // Offset: 0x1B1EDEC
     ::StringW get_locale();
     // public System.Single get_ipd()
-    // Offset: 0x1AE484C
+    // Offset: 0x1B1EE34
     float get_ipd();
     // public System.Single get_eyeHeight()
-    // Offset: 0x1AE4980
+    // Offset: 0x1B1EF68
     float get_eyeHeight();
     // public System.Single get_eyeDepth()
-    // Offset: 0x1AE49E0
+    // Offset: 0x1B1EFC8
     float get_eyeDepth();
     // public System.Single get_neckHeight()
-    // Offset: 0x1AE4A40
+    // Offset: 0x1B1F028
     float get_neckHeight();
     // public OVRProfile/State get_state()
-    // Offset: 0x1AE4A60
+    // Offset: 0x1B1F048
     ::GlobalNamespace::OVRProfile::State get_state();
     // public System.Void .ctor()
-    // Offset: 0x1AE4A68
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B1F050
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRProfile* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRProfile::.ctor");

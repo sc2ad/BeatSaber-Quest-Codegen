@@ -35,15 +35,7 @@ namespace System::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class OidEnumerator : public ::Il2CppObject/*, public ::System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Security.Cryptography.OidCollection m_oids
     // Size: 0x8
     // Offset: 0x10
@@ -62,24 +54,24 @@ namespace System::Security::Cryptography {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
     // Get instance field reference: private System.Security.Cryptography.OidCollection m_oids
-    ::System::Security::Cryptography::OidCollection*& dyn_m_oids();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::OidCollection*& dyn_m_oids();
     // Get instance field reference: private System.Int32 m_current
-    int& dyn_m_current();
+    [[deprecated("Use field access instead!")]] int& dyn_m_current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1BB2474
+    // Offset: 0x1BECA5C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // System.Void .ctor(System.Security.Cryptography.OidCollection oids)
-    // Offset: 0x1BB2244
+    // Offset: 0x1BEC82C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OidEnumerator* New_ctor(::System::Security::Cryptography::OidCollection* oids) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::OidEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OidEnumerator*, creationType>(oids)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1BB2494
+    // Offset: 0x1BECA7C
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1BB24FC
+    // Offset: 0x1BECAE4
     void Reset();
   }; // System.Security.Cryptography.OidEnumerator
   #pragma pack(pop)

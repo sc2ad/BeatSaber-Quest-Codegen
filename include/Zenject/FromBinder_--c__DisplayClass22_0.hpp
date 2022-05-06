@@ -43,15 +43,7 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class FromBinder::$$c__DisplayClass22_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Object subIdentifier
     // Size: 0x8
     // Offset: 0x10
@@ -72,35 +64,37 @@ namespace Zenject {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.Object subIdentifier
-    ::Il2CppObject*& dyn_subIdentifier();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_subIdentifier();
     // Get instance field reference: public Zenject.InjectSources source
-    ::Zenject::InjectSources& dyn_source();
+    [[deprecated("Use field access instead!")]] ::Zenject::InjectSources& dyn_source();
     // Get instance field reference: public System.Boolean matchAll
-    bool& dyn_matchAll();
-    // Zenject.IProvider <FromResolveInternal>b__0(Zenject.DiContainer container, System.Type type)
-    // Offset: 0x1DE48D4
-    ::Zenject::IProvider* $FromResolveInternal$b__0(::Zenject::DiContainer* container, ::System::Type* type);
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1DE4970
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1DE49CC
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    [[deprecated("Use field access instead!")]] bool& dyn_matchAll();
     // public System.Void .ctor()
-    // Offset: 0x1DE16C8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E1BF94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FromBinder::$$c__DisplayClass22_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FromBinder::$$c__DisplayClass22_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FromBinder::$$c__DisplayClass22_0*, creationType>()));
     }
+    // Zenject.IProvider <FromResolveInternal>b__0(Zenject.DiContainer container, System.Type type)
+    // Offset: 0x1E1F1A0
+    ::Zenject::IProvider* $FromResolveInternal$b__0(::Zenject::DiContainer* container, ::System::Type* type);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1E1F23C
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1E1F298
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.FromBinder/Zenject.<>c__DisplayClass22_0
   #pragma pack(pop)
   static check_size<sizeof(FromBinder::$$c__DisplayClass22_0), 28 + sizeof(bool)> __Zenject_FromBinder_$$c__DisplayClass22_0SizeCheck;
   static_assert(sizeof(FromBinder::$$c__DisplayClass22_0) == 0x1D);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::FromBinder::$$c__DisplayClass22_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c__DisplayClass22_0::$FromResolveInternal$b__0
 // Il2CppName: <FromResolveInternal>b__0
 template<>
@@ -128,7 +122,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c__DisplayClass22_0*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::FromBinder::$$c__DisplayClass22_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -40,15 +40,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class GUIWordWrapSizer : public ::UnityEngine::GUILayoutEntry {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly UnityEngine.GUIContent m_Content
     // Size: 0x8
     // Offset: 0x48
@@ -69,25 +61,25 @@ namespace UnityEngine {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private readonly UnityEngine.GUIContent m_Content
-    ::UnityEngine::GUIContent*& dyn_m_Content();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GUIContent*& dyn_m_Content();
     // Get instance field reference: private readonly System.Single m_ForcedMinHeight
-    float& dyn_m_ForcedMinHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_m_ForcedMinHeight();
     // Get instance field reference: private readonly System.Single m_ForcedMaxHeight
-    float& dyn_m_ForcedMaxHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_m_ForcedMaxHeight();
     // public System.Void .ctor(UnityEngine.GUIStyle style, UnityEngine.GUIContent content, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1FB17F8
+    // Offset: 0x1FFC06C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUIWordWrapSizer* New_ctor(::UnityEngine::GUIStyle* style, ::UnityEngine::GUIContent* content, ::ArrayW<::UnityEngine::GUILayoutOption*> options) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::GUIWordWrapSizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUIWordWrapSizer*, creationType>(style, content, options)));
     }
     // public override System.Void CalcWidth()
-    // Offset: 0x1FB65FC
+    // Offset: 0x2000E70
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::CalcWidth()
     void CalcWidth();
     // public override System.Void CalcHeight()
-    // Offset: 0x1FB66C0
+    // Offset: 0x2000F34
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::CalcHeight()
     void CalcHeight();

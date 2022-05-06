@@ -41,15 +41,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class QuestAppInit : public ::GlobalNamespace::AppInit {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MainSystemInit _mainSystemInit
     // Size: 0x8
     // Offset: 0x40
@@ -68,7 +60,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::DefaultScenesTransitionsFromInit* defaultScenesTransitionsFromInit;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::DefaultScenesTransitionsFromInit*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124A3C0
+    // [SpaceAttribute] Offset: 0x10CEEB8
     // private MainSettingsModelSO _mainSettingsModel
     // Size: 0x8
     // Offset: 0x58
@@ -77,46 +69,39 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::MainSettingsModelSO*) == 0x8);
     public:
     // Get instance field reference: private MainSystemInit _mainSystemInit
-    ::GlobalNamespace::MainSystemInit*& dyn__mainSystemInit();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainSystemInit*& dyn__mainSystemInit();
     // Get instance field reference: private OculusInit _oculusInit
-    ::GlobalNamespace::OculusInit*& dyn__oculusInit();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OculusInit*& dyn__oculusInit();
     // Get instance field reference: private DefaultScenesTransitionsFromInit _defaultScenesTransitionsFromInit
-    ::GlobalNamespace::DefaultScenesTransitionsFromInit*& dyn__defaultScenesTransitionsFromInit();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DefaultScenesTransitionsFromInit*& dyn__defaultScenesTransitionsFromInit();
     // Get instance field reference: private MainSettingsModelSO _mainSettingsModel
-    ::GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
     // public System.Void .ctor()
-    // Offset: 0x137A8CC
+    // Offset: 0x13E1C14
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
-    // Base method: System.Void MonoInstaller::.ctor()
-    // Base method: System.Void MonoInstallerBase::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static QuestAppInit* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::QuestAppInit::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<QuestAppInit*, creationType>()));
     }
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0x137A600
+    // Offset: 0x13E193C
     // Implemented from: AppInit
     // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0x137A61C
+    // Offset: 0x13E1958
     // Implemented from: AppInit
     // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0x137A6B0
+    // Offset: 0x13E19F8
     // Implemented from: AppInit
     // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0x137A6F0
+    // Offset: 0x13E1A38
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

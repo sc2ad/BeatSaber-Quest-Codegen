@@ -41,15 +41,7 @@ namespace UnityEngine::TestTools::TestRunner {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnhandledLogMessageException : public ::NUnit::Framework::ResultStateException {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.TestTools.Logging.LogEvent LogEvent
     // Size: 0x8
     // Offset: 0x88
@@ -64,26 +56,26 @@ namespace UnityEngine::TestTools::TestRunner {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.TestTools.Logging.LogEvent LogEvent
-    ::UnityEngine::TestTools::Logging::LogEvent*& dyn_LogEvent();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TestTools::Logging::LogEvent*& dyn_LogEvent();
     // Get instance field reference: private readonly System.String m_CustomStackTrace
-    ::StringW& dyn_m_CustomStackTrace();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_CustomStackTrace();
     // public System.Void .ctor(UnityEngine.TestTools.Logging.LogEvent log)
-    // Offset: 0x2A7C518
+    // Offset: 0x2AC61C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnhandledLogMessageException* New_ctor(::UnityEngine::TestTools::Logging::LogEvent* log) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::UnhandledLogMessageException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnhandledLogMessageException*, creationType>(log)));
     }
     // static private System.String BuildMessage(UnityEngine.TestTools.Logging.LogEvent log)
-    // Offset: 0x2A7C5B8
+    // Offset: 0x2AC6268
     static ::StringW BuildMessage(::UnityEngine::TestTools::Logging::LogEvent* log);
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
-    // Offset: 0x2A7C87C
+    // Offset: 0x2AC652C
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: NUnit.Framework.Interfaces.ResultState ResultStateException::get_ResultState()
     ::NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // public override System.String get_StackTrace()
-    // Offset: 0x2A7C8E4
+    // Offset: 0x2AC6594
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_StackTrace()
     ::StringW get_StackTrace();

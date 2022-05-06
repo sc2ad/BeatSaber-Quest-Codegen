@@ -74,15 +74,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class EndPointListener : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Net.HttpListener listener
     // Size: 0x8
     // Offset: 0x10
@@ -141,74 +133,74 @@ namespace System::Net {
     static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::System::Net::HttpConnection*, ::System::Net::HttpConnection*>*) == 0x8);
     public:
     // Get instance field reference: private System.Net.HttpListener listener
-    ::System::Net::HttpListener*& dyn_listener();
+    [[deprecated("Use field access instead!")]] ::System::Net::HttpListener*& dyn_listener();
     // Get instance field reference: private System.Net.IPEndPoint endpoint
-    ::System::Net::IPEndPoint*& dyn_endpoint();
+    [[deprecated("Use field access instead!")]] ::System::Net::IPEndPoint*& dyn_endpoint();
     // Get instance field reference: private System.Net.Sockets.Socket sock
-    ::System::Net::Sockets::Socket*& dyn_sock();
+    [[deprecated("Use field access instead!")]] ::System::Net::Sockets::Socket*& dyn_sock();
     // Get instance field reference: private System.Collections.Hashtable prefixes
-    ::System::Collections::Hashtable*& dyn_prefixes();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn_prefixes();
     // Get instance field reference: private System.Collections.ArrayList unhandled
-    ::System::Collections::ArrayList*& dyn_unhandled();
+    [[deprecated("Use field access instead!")]] ::System::Collections::ArrayList*& dyn_unhandled();
     // Get instance field reference: private System.Collections.ArrayList all
-    ::System::Collections::ArrayList*& dyn_all();
+    [[deprecated("Use field access instead!")]] ::System::Collections::ArrayList*& dyn_all();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate cert
-    ::System::Security::Cryptography::X509Certificates::X509Certificate*& dyn_cert();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509Certificate*& dyn_cert();
     // Get instance field reference: private System.Boolean secure
-    bool& dyn_secure();
+    [[deprecated("Use field access instead!")]] bool& dyn_secure();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Net.HttpConnection,System.Net.HttpConnection> unregistered
-    ::System::Collections::Generic::Dictionary_2<::System::Net::HttpConnection*, ::System::Net::HttpConnection*>*& dyn_unregistered();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::System::Net::HttpConnection*, ::System::Net::HttpConnection*>*& dyn_unregistered();
     // System.Net.HttpListener get_Listener()
-    // Offset: 0x1A41FAC
+    // Offset: 0x1A7B594
     ::System::Net::HttpListener* get_Listener();
     // public System.Void .ctor(System.Net.HttpListener listener, System.Net.IPAddress addr, System.Int32 port, System.Boolean secure)
-    // Offset: 0x1A41C40
+    // Offset: 0x1A7B228
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EndPointListener* New_ctor(::System::Net::HttpListener* listener, ::System::Net::IPAddress* addr, int port, bool secure) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::EndPointListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EndPointListener*, creationType>(listener, addr, port, secure)));
     }
     // static private System.Void Accept(System.Net.Sockets.Socket socket, System.Net.Sockets.SocketAsyncEventArgs e, ref System.Net.Sockets.Socket accepted)
-    // Offset: 0x1A41E30
+    // Offset: 0x1A7B418
     static void Accept(::System::Net::Sockets::Socket* socket, ::System::Net::Sockets::SocketAsyncEventArgs* e, ByRef<::System::Net::Sockets::Socket*> accepted);
     // static private System.Void ProcessAccept(System.Net.Sockets.SocketAsyncEventArgs args)
-    // Offset: 0x1A41FB4
+    // Offset: 0x1A7B59C
     static void ProcessAccept(::System::Net::Sockets::SocketAsyncEventArgs* args);
     // static private System.Void OnAccept(System.Object sender, System.Net.Sockets.SocketAsyncEventArgs e)
-    // Offset: 0x1A421C4
+    // Offset: 0x1A7B7AC
     static void OnAccept(::Il2CppObject* sender, ::System::Net::Sockets::SocketAsyncEventArgs* e);
     // System.Void RemoveConnection(System.Net.HttpConnection conn)
-    // Offset: 0x1A421CC
+    // Offset: 0x1A7B7B4
     void RemoveConnection(::System::Net::HttpConnection* conn);
     // public System.Boolean BindContext(System.Net.HttpListenerContext context)
-    // Offset: 0x1A42298
+    // Offset: 0x1A7B880
     bool BindContext(::System::Net::HttpListenerContext* context);
     // public System.Void UnbindContext(System.Net.HttpListenerContext context)
-    // Offset: 0x1A42860
+    // Offset: 0x1A7BE48
     void UnbindContext(::System::Net::HttpListenerContext* context);
     // private System.Net.HttpListener SearchListener(System.Uri uri, out System.Net.ListenerPrefix prefix)
-    // Offset: 0x1A422F0
+    // Offset: 0x1A7B8D8
     ::System::Net::HttpListener* SearchListener(::System::Uri* uri, ByRef<::System::Net::ListenerPrefix*> prefix);
     // private System.Net.HttpListener MatchFromList(System.String host, System.String path, System.Collections.ArrayList list, out System.Net.ListenerPrefix prefix)
-    // Offset: 0x1A4288C
+    // Offset: 0x1A7BE74
     ::System::Net::HttpListener* MatchFromList(::StringW host, ::StringW path, ::System::Collections::ArrayList* list, ByRef<::System::Net::ListenerPrefix*> prefix);
     // private System.Void AddSpecial(System.Collections.ArrayList coll, System.Net.ListenerPrefix prefix)
-    // Offset: 0x1A42B34
+    // Offset: 0x1A7C11C
     void AddSpecial(::System::Collections::ArrayList* coll, ::System::Net::ListenerPrefix* prefix);
     // private System.Boolean RemoveSpecial(System.Collections.ArrayList coll, System.Net.ListenerPrefix prefix)
-    // Offset: 0x1A42DE8
+    // Offset: 0x1A7C3D0
     bool RemoveSpecial(::System::Collections::ArrayList* coll, ::System::Net::ListenerPrefix* prefix);
     // private System.Void CheckIfRemove()
-    // Offset: 0x1A42EE8
+    // Offset: 0x1A7C4D0
     void CheckIfRemove();
     // public System.Void Close()
-    // Offset: 0x1A431F8
+    // Offset: 0x1A7C7E0
     void Close();
     // public System.Void AddPrefix(System.Net.ListenerPrefix prefix, System.Net.HttpListener listener)
-    // Offset: 0x1A43438
+    // Offset: 0x1A7CA20
     void AddPrefix(::System::Net::ListenerPrefix* prefix, ::System::Net::HttpListener* listener);
     // public System.Void RemovePrefix(System.Net.ListenerPrefix prefix, System.Net.HttpListener listener)
-    // Offset: 0x1A4376C
+    // Offset: 0x1A7CD54
     void RemovePrefix(::System::Net::ListenerPrefix* prefix, ::System::Net::HttpListener* listener);
   }; // System.Net.EndPointListener
   #pragma pack(pop)

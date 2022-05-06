@@ -29,15 +29,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class GroupPresenceLeaveIntent : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.String DestinationApiName
     // Size: 0x8
     // Offset: 0x10
@@ -58,13 +50,13 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly System.String DestinationApiName
-    ::StringW& dyn_DestinationApiName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_DestinationApiName();
     // Get instance field reference: public readonly System.String LobbySessionId
-    ::StringW& dyn_LobbySessionId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_LobbySessionId();
     // Get instance field reference: public readonly System.String MatchSessionId
-    ::StringW& dyn_MatchSessionId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_MatchSessionId();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19AD068
+    // Offset: 0x19E6650
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GroupPresenceLeaveIntent* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::GroupPresenceLeaveIntent::.ctor");

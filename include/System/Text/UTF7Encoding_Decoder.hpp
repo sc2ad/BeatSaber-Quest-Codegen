@@ -32,15 +32,7 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class UTF7Encoding::Decoder : public ::System::Text::DecoderNLS {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int32 bits
     // Size: 0x4
     // Offset: 0x30
@@ -61,28 +53,28 @@ namespace System::Text {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: System.Int32 bits
-    int& dyn_bits();
+    [[deprecated("Use field access instead!")]] int& dyn_bits();
     // Get instance field reference: System.Int32 bitCount
-    int& dyn_bitCount();
+    [[deprecated("Use field access instead!")]] int& dyn_bitCount();
     // Get instance field reference: System.Boolean firstByte
-    bool& dyn_firstByte();
+    [[deprecated("Use field access instead!")]] bool& dyn_firstByte();
     // public System.Void .ctor(System.Text.UTF7Encoding encoding)
-    // Offset: 0x2034284
+    // Offset: 0x207DAF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UTF7Encoding::Decoder* New_ctor(::System::Text::UTF7Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::UTF7Encoding::Decoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UTF7Encoding::Decoder*, creationType>(encoding)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x203469C
+    // Offset: 0x207DF10
     void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // override System.Boolean get_HasState()
-    // Offset: 0x20347BC
+    // Offset: 0x207E030
     // Implemented from: System.Text.DecoderNLS
     // Base method: System.Boolean DecoderNLS::get_HasState()
     bool get_HasState();
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x203445C
+    // Offset: 0x207DCD0
     // Implemented from: System.Text.DecoderNLS
     // Base method: System.Void DecoderNLS::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -91,7 +83,7 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<UTF7Encoding::Decoder*, creationType>(info, context)));
     }
     // public override System.Void Reset()
-    // Offset: 0x2034794
+    // Offset: 0x207E008
     // Implemented from: System.Text.DecoderNLS
     // Base method: System.Void DecoderNLS::Reset()
     void Reset();

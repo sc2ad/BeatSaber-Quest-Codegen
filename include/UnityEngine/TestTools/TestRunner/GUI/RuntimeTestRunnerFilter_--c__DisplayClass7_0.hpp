@@ -43,15 +43,7 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class RuntimeTestRunnerFilter::$$c__DisplayClass7_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Func`2<System.String,NUnit.Framework.Internal.TestFilter> builder
     // Size: 0x8
     // Offset: 0x10
@@ -64,28 +56,30 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
       return builder;
     }
     // Get instance field reference: public System.Func`2<System.String,NUnit.Framework.Internal.TestFilter> builder
-    ::System::Func_2<::StringW, ::NUnit::Framework::Internal::TestFilter*>*& dyn_builder();
-    // NUnit.Framework.Interfaces.ITestFilter <AddFilters>b__1(System.String v)
-    // Offset: 0x1950DAC
-    ::NUnit::Framework::Interfaces::ITestFilter* $AddFilters$b__1(::StringW v);
-    // NUnit.Framework.Interfaces.ITestFilter <AddFilters>b__3(System.String v)
-    // Offset: 0x1950E14
-    ::NUnit::Framework::Interfaces::ITestFilter* $AddFilters$b__3(::StringW v);
+    [[deprecated("Use field access instead!")]] ::System::Func_2<::StringW, ::NUnit::Framework::Internal::TestFilter*>*& dyn_builder();
     // public System.Void .ctor()
-    // Offset: 0x1950B30
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1988500
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeTestRunnerFilter::$$c__DisplayClass7_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeTestRunnerFilter::$$c__DisplayClass7_0*, creationType>()));
     }
+    // NUnit.Framework.Interfaces.ITestFilter <AddFilters>b__1(System.String v)
+    // Offset: 0x198877C
+    ::NUnit::Framework::Interfaces::ITestFilter* $AddFilters$b__1(::StringW v);
+    // NUnit.Framework.Interfaces.ITestFilter <AddFilters>b__3(System.String v)
+    // Offset: 0x19887E4
+    ::NUnit::Framework::Interfaces::ITestFilter* $AddFilters$b__3(::StringW v);
   }; // UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter/UnityEngine.TestTools.TestRunner.GUI.<>c__DisplayClass7_0
   #pragma pack(pop)
   static check_size<sizeof(RuntimeTestRunnerFilter::$$c__DisplayClass7_0), 16 + sizeof(::System::Func_2<::StringW, ::NUnit::Framework::Internal::TestFilter*>*)> __UnityEngine_TestTools_TestRunner_GUI_RuntimeTestRunnerFilter_$$c__DisplayClass7_0SizeCheck;
   static_assert(sizeof(RuntimeTestRunnerFilter::$$c__DisplayClass7_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0::$AddFilters$b__1
 // Il2CppName: <AddFilters>b__1
 template<>
@@ -104,7 +98,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Fr
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0*), "<AddFilters>b__3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

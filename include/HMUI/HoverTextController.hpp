@@ -48,15 +48,7 @@ namespace HMUI {
     class $ShowTextCoroutine$d__10;
     // Nested type: ::HMUI::HoverTextController::$HideTextCoroutine$d__12
     class $HideTextCoroutine$d__12;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _textMesh
     // Size: 0x8
     // Offset: 0x18
@@ -97,57 +89,55 @@ namespace HMUI {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _textMesh
-    ::TMPro::TextMeshProUGUI*& dyn__textMesh();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__textMesh();
     // Get instance field reference: private System.Single _fadeInDelay
-    float& dyn__fadeInDelay();
+    [[deprecated("Use field access instead!")]] float& dyn__fadeInDelay();
     // Get instance field reference: private System.Single _fadeInSpeed
-    float& dyn__fadeInSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__fadeInSpeed();
     // Get instance field reference: private System.Single _fadeOutSpeed
-    float& dyn__fadeOutSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__fadeOutSpeed();
     // Get instance field reference: private System.Boolean _isFadingOut
-    bool& dyn__isFadingOut();
+    [[deprecated("Use field access instead!")]] bool& dyn__isFadingOut();
     // Get instance field reference: private System.Boolean _isFadingIn
-    bool& dyn__isFadingIn();
-    // protected System.Void Awake()
-    // Offset: 0x16ED108
-    void Awake();
-    // protected System.Void OnDisable()
-    // Offset: 0x16ED128
-    void OnDisable();
-    // protected System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x16ED150
-    void OnApplicationFocus(bool hasFocus);
-    // public System.Void ShowText(System.String text)
-    // Offset: 0x16ED178
-    void ShowText(::StringW text);
-    // private System.Collections.IEnumerator ShowTextCoroutine()
-    // Offset: 0x16ED1E0
-    ::System::Collections::IEnumerator* ShowTextCoroutine();
-    // public System.Void HideText()
-    // Offset: 0x16ED27C
-    void HideText();
-    // private System.Collections.IEnumerator HideTextCoroutine()
-    // Offset: 0x16ED2FC
-    ::System::Collections::IEnumerator* HideTextCoroutine();
+    [[deprecated("Use field access instead!")]] bool& dyn__isFadingIn();
     // public System.Void .ctor()
-    // Offset: 0x16ED398
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1724CA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HoverTextController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::HoverTextController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HoverTextController*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x1724A18
+    void Awake();
+    // protected System.Void OnDisable()
+    // Offset: 0x1724A38
+    void OnDisable();
+    // protected System.Void OnApplicationFocus(System.Boolean hasFocus)
+    // Offset: 0x1724A60
+    void OnApplicationFocus(bool hasFocus);
+    // public System.Void ShowText(System.String text)
+    // Offset: 0x1724A88
+    void ShowText(::StringW text);
+    // private System.Collections.IEnumerator ShowTextCoroutine()
+    // Offset: 0x1724AF0
+    ::System::Collections::IEnumerator* ShowTextCoroutine();
+    // public System.Void HideText()
+    // Offset: 0x1724B8C
+    void HideText();
+    // private System.Collections.IEnumerator HideTextCoroutine()
+    // Offset: 0x1724C0C
+    ::System::Collections::IEnumerator* HideTextCoroutine();
   }; // HMUI.HoverTextController
   #pragma pack(pop)
   static check_size<sizeof(HoverTextController), 45 + sizeof(bool)> __HMUI_HoverTextControllerSizeCheck;
   static_assert(sizeof(HoverTextController) == 0x2E);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HMUI::HoverTextController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::HoverTextController::Awake
 // Il2CppName: Awake
 template<>
@@ -206,7 +196,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(HMUI::HoverTextController*), "HideTextCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HMUI::HoverTextController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

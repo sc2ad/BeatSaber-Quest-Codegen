@@ -30,15 +30,7 @@ namespace System::Resources {
   // [TokenAttribute] Offset: FFFFFFFF
   class FileBasedResourceGroveler : public ::Il2CppObject/*, public ::System::Resources::IResourceGroveler*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Resources.ResourceManager/System.Resources.ResourceManagerMediator _mediator
     // Size: 0x8
     // Offset: 0x10
@@ -55,9 +47,9 @@ namespace System::Resources {
       return mediator;
     }
     // Get instance field reference: private System.Resources.ResourceManager/System.Resources.ResourceManagerMediator _mediator
-    ::System::Resources::ResourceManager::ResourceManagerMediator*& dyn__mediator();
+    [[deprecated("Use field access instead!")]] ::System::Resources::ResourceManager::ResourceManagerMediator*& dyn__mediator();
     // public System.Void .ctor(System.Resources.ResourceManager/System.Resources.ResourceManagerMediator mediator)
-    // Offset: 0x1D415C0
+    // Offset: 0x1D7CB18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileBasedResourceGroveler* New_ctor(::System::Resources::ResourceManager::ResourceManagerMediator* mediator) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Resources::FileBasedResourceGroveler::.ctor");

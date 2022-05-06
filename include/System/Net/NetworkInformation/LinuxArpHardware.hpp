@@ -144,7 +144,7 @@ namespace System::Net::NetworkInformation {
     // Set static field: static public System.Net.NetworkInformation.LinuxArpHardware IP6GRE
     static void _set_IP6GRE(::System::Net::NetworkInformation::LinuxArpHardware value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Net.NetworkInformation.LinuxArpHardware
   #pragma pack(pop)
   static check_size<sizeof(LinuxArpHardware), 0 + sizeof(int)> __System_Net_NetworkInformation_LinuxArpHardwareSizeCheck;

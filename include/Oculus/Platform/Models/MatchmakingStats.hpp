@@ -28,15 +28,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class MatchmakingStats : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.UInt32 DrawCount
     // Size: 0x4
     // Offset: 0x10
@@ -77,19 +69,19 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(uint) == 0x4);
     public:
     // Get instance field reference: public readonly System.UInt32 DrawCount
-    uint& dyn_DrawCount();
+    [[deprecated("Use field access instead!")]] uint& dyn_DrawCount();
     // Get instance field reference: public readonly System.UInt32 LossCount
-    uint& dyn_LossCount();
+    [[deprecated("Use field access instead!")]] uint& dyn_LossCount();
     // Get instance field reference: public readonly System.UInt32 SkillLevel
-    uint& dyn_SkillLevel();
+    [[deprecated("Use field access instead!")]] uint& dyn_SkillLevel();
     // Get instance field reference: public readonly System.Double SkillMean
-    double& dyn_SkillMean();
+    [[deprecated("Use field access instead!")]] double& dyn_SkillMean();
     // Get instance field reference: public readonly System.Double SkillStandardDeviation
-    double& dyn_SkillStandardDeviation();
+    [[deprecated("Use field access instead!")]] double& dyn_SkillStandardDeviation();
     // Get instance field reference: public readonly System.UInt32 WinCount
-    uint& dyn_WinCount();
+    [[deprecated("Use field access instead!")]] uint& dyn_WinCount();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19AFE14
+    // Offset: 0x19E93FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchmakingStats* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::MatchmakingStats::.ctor");

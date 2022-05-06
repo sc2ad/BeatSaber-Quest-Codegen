@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameState : public ::Il2CppObject/*, public ::System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected readonly GameplayServerFiniteStateMachine fsm
     // Size: 0x8
     // Offset: 0x10
@@ -60,9 +52,9 @@ namespace GlobalNamespace {
       return fsm;
     }
     // Get instance field reference: protected readonly GameplayServerFiniteStateMachine fsm
-    ::GlobalNamespace::GameplayServerFiniteStateMachine*& dyn_fsm();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayServerFiniteStateMachine*& dyn_fsm();
     // public System.Void .ctor(GameplayServerFiniteStateMachine fsm)
-    // Offset: 0x1645758
+    // Offset: 0x167C068
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameState* New_ctor(::GlobalNamespace::GameplayServerFiniteStateMachine* fsm) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameState::.ctor");

@@ -34,15 +34,7 @@ namespace LiteNetLib::Layers {
   // [TokenAttribute] Offset: FFFFFFFF
   class PacketLayerBase : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Int32 ExtraPacketSizeForLayer
     // Size: 0x4
     // Offset: 0x10
@@ -55,9 +47,9 @@ namespace LiteNetLib::Layers {
       return ExtraPacketSizeForLayer;
     }
     // Get instance field reference: public readonly System.Int32 ExtraPacketSizeForLayer
-    int& dyn_ExtraPacketSizeForLayer();
+    [[deprecated("Use field access instead!")]] int& dyn_ExtraPacketSizeForLayer();
     // protected System.Void .ctor(System.Int32 extraPacketSizeForLayer)
-    // Offset: 0x21628F0
+    // Offset: 0x21AE164
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PacketLayerBase* New_ctor(int extraPacketSizeForLayer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Layers::PacketLayerBase::.ctor");

@@ -54,7 +54,7 @@ namespace System::Threading {
     // Set static field: static public System.Threading.LockRecursionPolicy SupportsRecursion
     static void _set_SupportsRecursion(::System::Threading::LockRecursionPolicy value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Threading.LockRecursionPolicy
   #pragma pack(pop)
   static check_size<sizeof(LockRecursionPolicy), 0 + sizeof(int)> __System_Threading_LockRecursionPolicySizeCheck;

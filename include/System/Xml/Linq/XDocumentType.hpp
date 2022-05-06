@@ -40,15 +40,7 @@ namespace System::Xml::Linq {
   // [TokenAttribute] Offset: FFFFFFFF
   class XDocumentType : public ::System::Xml::Linq::XNode {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String name
     // Size: 0x8
     // Offset: 0x28
@@ -83,53 +75,53 @@ namespace System::Xml::Linq {
     // Deleting conversion operator: operator ::System::Xml::Linq::XNode*
     constexpr operator ::System::Xml::Linq::XNode*() const noexcept = delete;
     // Get instance field reference: private System.String name
-    ::StringW& dyn_name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_name();
     // Get instance field reference: private System.String publicId
-    ::StringW& dyn_publicId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_publicId();
     // Get instance field reference: private System.String systemId
-    ::StringW& dyn_systemId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_systemId();
     // Get instance field reference: private System.String internalSubset
-    ::StringW& dyn_internalSubset();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_internalSubset();
     // Get instance field reference: private System.Xml.IDtdInfo dtdInfo
-    ::System::Xml::IDtdInfo*& dyn_dtdInfo();
+    [[deprecated("Use field access instead!")]] ::System::Xml::IDtdInfo*& dyn_dtdInfo();
     // public System.String get_InternalSubset()
-    // Offset: 0x2A4C8A0
+    // Offset: 0x2AA3C88
     ::StringW get_InternalSubset();
     // public System.String get_Name()
-    // Offset: 0x2A4C8A8
+    // Offset: 0x2AA3C90
     ::StringW get_Name();
     // public System.String get_PublicId()
-    // Offset: 0x2A4C8B8
+    // Offset: 0x2AA3CA0
     ::StringW get_PublicId();
     // public System.String get_SystemId()
-    // Offset: 0x2A4C8C0
+    // Offset: 0x2AA3CA8
     ::StringW get_SystemId();
     // public System.Void .ctor(System.String name, System.String publicId, System.String systemId, System.String internalSubset)
-    // Offset: 0x2A4C740
+    // Offset: 0x2AA3B28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XDocumentType* New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XDocumentType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XDocumentType*, creationType>(name, publicId, systemId, internalSubset)));
     }
     // public System.Void .ctor(System.Xml.Linq.XDocumentType other)
-    // Offset: 0x2A4C7E0
+    // Offset: 0x2AA3BC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XDocumentType* New_ctor(::System::Xml::Linq::XDocumentType* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XDocumentType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XDocumentType*, creationType>(other)));
     }
     // public override System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x2A4C8B0
+    // Offset: 0x2AA3C98
     // Implemented from: System.Xml.Linq.XObject
     // Base method: System.Xml.XmlNodeType XObject::get_NodeType()
     ::System::Xml::XmlNodeType get_NodeType();
     // public override System.Void WriteTo(System.Xml.XmlWriter writer)
-    // Offset: 0x2A4C8C8
+    // Offset: 0x2AA3CB0
     // Implemented from: System.Xml.Linq.XNode
     // Base method: System.Void XNode::WriteTo(System.Xml.XmlWriter writer)
     void WriteTo(::System::Xml::XmlWriter* writer);
     // override System.Xml.Linq.XNode CloneNode()
-    // Offset: 0x2A4C968
+    // Offset: 0x2AA3D50
     // Implemented from: System.Xml.Linq.XNode
     // Base method: System.Xml.Linq.XNode XNode::CloneNode()
     ::System::Xml::Linq::XNode* CloneNode();

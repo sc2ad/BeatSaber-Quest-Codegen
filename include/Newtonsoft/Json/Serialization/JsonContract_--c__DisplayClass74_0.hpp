@@ -41,15 +41,7 @@ namespace Newtonsoft::Json::Serialization {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class JsonContract::$$c__DisplayClass74_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Reflection.MethodInfo callbackMethodInfo
     // Size: 0x8
     // Offset: 0x10
@@ -62,25 +54,27 @@ namespace Newtonsoft::Json::Serialization {
       return callbackMethodInfo;
     }
     // Get instance field reference: public System.Reflection.MethodInfo callbackMethodInfo
-    ::System::Reflection::MethodInfo*& dyn_callbackMethodInfo();
-    // System.Void <CreateSerializationErrorCallback>b__0(System.Object o, System.Runtime.Serialization.StreamingContext context, Newtonsoft.Json.Serialization.ErrorContext econtext)
-    // Offset: 0x1D251AC
-    void $CreateSerializationErrorCallback$b__0(::Il2CppObject* o, ::System::Runtime::Serialization::StreamingContext context, ::Newtonsoft::Json::Serialization::ErrorContext* econtext);
+    [[deprecated("Use field access instead!")]] ::System::Reflection::MethodInfo*& dyn_callbackMethodInfo();
     // public System.Void .ctor()
-    // Offset: 0x1D250AC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1D61604
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonContract::$$c__DisplayClass74_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonContract::$$c__DisplayClass74_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonContract::$$c__DisplayClass74_0*, creationType>()));
     }
+    // System.Void <CreateSerializationErrorCallback>b__0(System.Object o, System.Runtime.Serialization.StreamingContext context, Newtonsoft.Json.Serialization.ErrorContext econtext)
+    // Offset: 0x1D61704
+    void $CreateSerializationErrorCallback$b__0(::Il2CppObject* o, ::System::Runtime::Serialization::StreamingContext context, ::Newtonsoft::Json::Serialization::ErrorContext* econtext);
   }; // Newtonsoft.Json.Serialization.JsonContract/Newtonsoft.Json.Serialization.<>c__DisplayClass74_0
   #pragma pack(pop)
   static check_size<sizeof(JsonContract::$$c__DisplayClass74_0), 16 + sizeof(::System::Reflection::MethodInfo*)> __Newtonsoft_Json_Serialization_JsonContract_$$c__DisplayClass74_0SizeCheck;
   static_assert(sizeof(JsonContract::$$c__DisplayClass74_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::$$c__DisplayClass74_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::$$c__DisplayClass74_0::$CreateSerializationErrorCallback$b__0
 // Il2CppName: <CreateSerializationErrorCallback>b__0
 template<>
@@ -92,7 +86,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonContract::$$c__DisplayClass74_0*), "<CreateSerializationErrorCallback>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o, context, econtext});
   }
 };
-// Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::$$c__DisplayClass74_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

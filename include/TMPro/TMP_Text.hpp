@@ -164,7 +164,7 @@ namespace TMPro {
       // Set static field: static public TMPro.TMP_Text/TMPro.TextInputSources String
       static void _set_String(::TMPro::TMP_Text::TextInputSources value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // TMPro.TMP_Text/TMPro.TextInputSources
     #pragma pack(pop)
     static check_size<sizeof(TMP_Text::TextInputSources), 0 + sizeof(int)> __TMPro_TMP_Text_TextInputSourcesSizeCheck;
@@ -203,25 +203,17 @@ namespace TMPro {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public System.Int32 unicode
-      int& dyn_unicode();
+      [[deprecated("Use field access instead!")]] int& dyn_unicode();
       // Get instance field reference: public System.Int32 stringIndex
-      int& dyn_stringIndex();
+      [[deprecated("Use field access instead!")]] int& dyn_stringIndex();
       // Get instance field reference: public System.Int32 length
-      int& dyn_length();
+      [[deprecated("Use field access instead!")]] int& dyn_length();
     }; // TMPro.TMP_Text/TMPro.UnicodeChar
     #pragma pack(pop)
     static check_size<sizeof(TMP_Text::UnicodeChar), 8 + sizeof(int)> __TMPro_TMP_Text_UnicodeCharSizeCheck;
     static_assert(sizeof(TMP_Text::UnicodeChar) == 0xC);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TextAreaAttribute] Offset: 0x120A988
+    // [TextAreaAttribute] Offset: 0x10903A0
     // protected System.String m_text
     // Size: 0x8
     // Offset: 0xC0
@@ -510,7 +502,7 @@ namespace TMPro {
     bool m_isUsingBold;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [FormerlySerializedAsAttribute] Offset: 0x120AB48
+    // [FormerlySerializedAsAttribute] Offset: 0x1090560
     // protected TMPro.TextAlignmentOptions m_textAlignment
     // Size: 0x4
     // Offset: 0x288
@@ -1417,1011 +1409,1027 @@ namespace TMPro {
     // Set static field: static protected System.Int32 k_LargeNegativeInt
     static void _set_k_LargeNegativeInt(int value);
     // Get instance field reference: protected System.String m_text
-    ::StringW& dyn_m_text();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_text();
     // Get instance field reference: protected System.Boolean m_isRightToLeft
-    bool& dyn_m_isRightToLeft();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isRightToLeft();
     // Get instance field reference: protected TMPro.TMP_FontAsset m_fontAsset
-    ::TMPro::TMP_FontAsset*& dyn_m_fontAsset();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_FontAsset*& dyn_m_fontAsset();
     // Get instance field reference: protected TMPro.TMP_FontAsset m_currentFontAsset
-    ::TMPro::TMP_FontAsset*& dyn_m_currentFontAsset();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_FontAsset*& dyn_m_currentFontAsset();
     // Get instance field reference: protected System.Boolean m_isSDFShader
-    bool& dyn_m_isSDFShader();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isSDFShader();
     // Get instance field reference: protected UnityEngine.Material m_sharedMaterial
-    ::UnityEngine::Material*& dyn_m_sharedMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_m_sharedMaterial();
     // Get instance field reference: protected UnityEngine.Material m_currentMaterial
-    ::UnityEngine::Material*& dyn_m_currentMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_m_currentMaterial();
     // Get instance field reference: protected TMPro.MaterialReference[] m_materialReferences
-    ::ArrayW<::TMPro::MaterialReference>& dyn_m_materialReferences();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::TMPro::MaterialReference>& dyn_m_materialReferences();
     // Get instance field reference: protected System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_materialReferenceIndexLookup
-    ::System::Collections::Generic::Dictionary_2<int, int>*& dyn_m_materialReferenceIndexLookup();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, int>*& dyn_m_materialReferenceIndexLookup();
     // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<TMPro.MaterialReference> m_materialReferenceStack
-    ::TMPro::TMP_RichTextTagStack_1<::TMPro::MaterialReference>& dyn_m_materialReferenceStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<::TMPro::MaterialReference>& dyn_m_materialReferenceStack();
     // Get instance field reference: protected System.Int32 m_currentMaterialIndex
-    int& dyn_m_currentMaterialIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_m_currentMaterialIndex();
     // Get instance field reference: protected UnityEngine.Material[] m_fontSharedMaterials
-    ::ArrayW<::UnityEngine::Material*>& dyn_m_fontSharedMaterials();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Material*>& dyn_m_fontSharedMaterials();
     // Get instance field reference: protected UnityEngine.Material m_fontMaterial
-    ::UnityEngine::Material*& dyn_m_fontMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_m_fontMaterial();
     // Get instance field reference: protected UnityEngine.Material[] m_fontMaterials
-    ::ArrayW<::UnityEngine::Material*>& dyn_m_fontMaterials();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Material*>& dyn_m_fontMaterials();
     // Get instance field reference: protected System.Boolean m_isMaterialDirty
-    bool& dyn_m_isMaterialDirty();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isMaterialDirty();
     // Get instance field reference: protected UnityEngine.Color32 m_fontColor32
-    ::UnityEngine::Color32& dyn_m_fontColor32();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color32& dyn_m_fontColor32();
     // Get instance field reference: protected UnityEngine.Color m_fontColor
-    ::UnityEngine::Color& dyn_m_fontColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_m_fontColor();
     // Get instance field reference: protected UnityEngine.Color32 m_underlineColor
-    ::UnityEngine::Color32& dyn_m_underlineColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color32& dyn_m_underlineColor();
     // Get instance field reference: protected UnityEngine.Color32 m_strikethroughColor
-    ::UnityEngine::Color32& dyn_m_strikethroughColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color32& dyn_m_strikethroughColor();
     // Get instance field reference: protected UnityEngine.Color32 m_highlightColor
-    ::UnityEngine::Color32& dyn_m_highlightColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color32& dyn_m_highlightColor();
     // Get instance field reference: protected UnityEngine.Vector4 m_highlightPadding
-    ::UnityEngine::Vector4& dyn_m_highlightPadding();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector4& dyn_m_highlightPadding();
     // Get instance field reference: protected System.Boolean m_enableVertexGradient
-    bool& dyn_m_enableVertexGradient();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_enableVertexGradient();
     // Get instance field reference: protected TMPro.ColorMode m_colorMode
-    ::TMPro::ColorMode& dyn_m_colorMode();
+    [[deprecated("Use field access instead!")]] ::TMPro::ColorMode& dyn_m_colorMode();
     // Get instance field reference: protected TMPro.VertexGradient m_fontColorGradient
-    ::TMPro::VertexGradient& dyn_m_fontColorGradient();
+    [[deprecated("Use field access instead!")]] ::TMPro::VertexGradient& dyn_m_fontColorGradient();
     // Get instance field reference: protected TMPro.TMP_ColorGradient m_fontColorGradientPreset
-    ::TMPro::TMP_ColorGradient*& dyn_m_fontColorGradientPreset();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_ColorGradient*& dyn_m_fontColorGradientPreset();
     // Get instance field reference: protected TMPro.TMP_SpriteAsset m_spriteAsset
-    ::TMPro::TMP_SpriteAsset*& dyn_m_spriteAsset();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_SpriteAsset*& dyn_m_spriteAsset();
     // Get instance field reference: protected System.Boolean m_tintAllSprites
-    bool& dyn_m_tintAllSprites();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_tintAllSprites();
     // Get instance field reference: protected System.Boolean m_tintSprite
-    bool& dyn_m_tintSprite();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_tintSprite();
     // Get instance field reference: protected UnityEngine.Color32 m_spriteColor
-    ::UnityEngine::Color32& dyn_m_spriteColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color32& dyn_m_spriteColor();
     // Get instance field reference: protected System.Boolean m_overrideHtmlColors
-    bool& dyn_m_overrideHtmlColors();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_overrideHtmlColors();
     // Get instance field reference: protected UnityEngine.Color32 m_faceColor
-    ::UnityEngine::Color32& dyn_m_faceColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color32& dyn_m_faceColor();
     // Get instance field reference: protected UnityEngine.Color32 m_outlineColor
-    ::UnityEngine::Color32& dyn_m_outlineColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color32& dyn_m_outlineColor();
     // Get instance field reference: protected System.Single m_outlineWidth
-    float& dyn_m_outlineWidth();
+    [[deprecated("Use field access instead!")]] float& dyn_m_outlineWidth();
     // Get instance field reference: protected System.Single m_fontSize
-    float& dyn_m_fontSize();
+    [[deprecated("Use field access instead!")]] float& dyn_m_fontSize();
     // Get instance field reference: protected System.Single m_currentFontSize
-    float& dyn_m_currentFontSize();
+    [[deprecated("Use field access instead!")]] float& dyn_m_currentFontSize();
     // Get instance field reference: protected System.Single m_fontSizeBase
-    float& dyn_m_fontSizeBase();
+    [[deprecated("Use field access instead!")]] float& dyn_m_fontSizeBase();
     // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<System.Single> m_sizeStack
-    ::TMPro::TMP_RichTextTagStack_1<float>& dyn_m_sizeStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<float>& dyn_m_sizeStack();
     // Get instance field reference: protected TMPro.FontWeight m_fontWeight
-    ::TMPro::FontWeight& dyn_m_fontWeight();
+    [[deprecated("Use field access instead!")]] ::TMPro::FontWeight& dyn_m_fontWeight();
     // Get instance field reference: protected TMPro.FontWeight m_FontWeightInternal
-    ::TMPro::FontWeight& dyn_m_FontWeightInternal();
+    [[deprecated("Use field access instead!")]] ::TMPro::FontWeight& dyn_m_FontWeightInternal();
     // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<TMPro.FontWeight> m_FontWeightStack
-    ::TMPro::TMP_RichTextTagStack_1<::TMPro::FontWeight>& dyn_m_FontWeightStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<::TMPro::FontWeight>& dyn_m_FontWeightStack();
     // Get instance field reference: protected System.Boolean m_enableAutoSizing
-    bool& dyn_m_enableAutoSizing();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_enableAutoSizing();
     // Get instance field reference: protected System.Single m_maxFontSize
-    float& dyn_m_maxFontSize();
+    [[deprecated("Use field access instead!")]] float& dyn_m_maxFontSize();
     // Get instance field reference: protected System.Single m_minFontSize
-    float& dyn_m_minFontSize();
+    [[deprecated("Use field access instead!")]] float& dyn_m_minFontSize();
     // Get instance field reference: protected System.Single m_fontSizeMin
-    float& dyn_m_fontSizeMin();
+    [[deprecated("Use field access instead!")]] float& dyn_m_fontSizeMin();
     // Get instance field reference: protected System.Single m_fontSizeMax
-    float& dyn_m_fontSizeMax();
+    [[deprecated("Use field access instead!")]] float& dyn_m_fontSizeMax();
     // Get instance field reference: protected TMPro.FontStyles m_fontStyle
-    ::TMPro::FontStyles& dyn_m_fontStyle();
+    [[deprecated("Use field access instead!")]] ::TMPro::FontStyles& dyn_m_fontStyle();
     // Get instance field reference: protected TMPro.FontStyles m_FontStyleInternal
-    ::TMPro::FontStyles& dyn_m_FontStyleInternal();
+    [[deprecated("Use field access instead!")]] ::TMPro::FontStyles& dyn_m_FontStyleInternal();
     // Get instance field reference: protected TMPro.TMP_FontStyleStack m_fontStyleStack
-    ::TMPro::TMP_FontStyleStack& dyn_m_fontStyleStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_FontStyleStack& dyn_m_fontStyleStack();
     // Get instance field reference: protected System.Boolean m_isUsingBold
-    bool& dyn_m_isUsingBold();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isUsingBold();
     // Get instance field reference: protected TMPro.TextAlignmentOptions m_textAlignment
-    ::TMPro::TextAlignmentOptions& dyn_m_textAlignment();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextAlignmentOptions& dyn_m_textAlignment();
     // Get instance field reference: protected TMPro.TextAlignmentOptions m_lineJustification
-    ::TMPro::TextAlignmentOptions& dyn_m_lineJustification();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextAlignmentOptions& dyn_m_lineJustification();
     // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<TMPro.TextAlignmentOptions> m_lineJustificationStack
-    ::TMPro::TMP_RichTextTagStack_1<::TMPro::TextAlignmentOptions>& dyn_m_lineJustificationStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<::TMPro::TextAlignmentOptions>& dyn_m_lineJustificationStack();
     // Get instance field reference: protected UnityEngine.Vector3[] m_textContainerLocalCorners
-    ::ArrayW<::UnityEngine::Vector3>& dyn_m_textContainerLocalCorners();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn_m_textContainerLocalCorners();
     // Get instance field reference: protected System.Single m_characterSpacing
-    float& dyn_m_characterSpacing();
+    [[deprecated("Use field access instead!")]] float& dyn_m_characterSpacing();
     // Get instance field reference: protected System.Single m_cSpacing
-    float& dyn_m_cSpacing();
+    [[deprecated("Use field access instead!")]] float& dyn_m_cSpacing();
     // Get instance field reference: protected System.Single m_monoSpacing
-    float& dyn_m_monoSpacing();
+    [[deprecated("Use field access instead!")]] float& dyn_m_monoSpacing();
     // Get instance field reference: protected System.Single m_wordSpacing
-    float& dyn_m_wordSpacing();
+    [[deprecated("Use field access instead!")]] float& dyn_m_wordSpacing();
     // Get instance field reference: protected System.Single m_lineSpacing
-    float& dyn_m_lineSpacing();
+    [[deprecated("Use field access instead!")]] float& dyn_m_lineSpacing();
     // Get instance field reference: protected System.Single m_lineSpacingDelta
-    float& dyn_m_lineSpacingDelta();
+    [[deprecated("Use field access instead!")]] float& dyn_m_lineSpacingDelta();
     // Get instance field reference: protected System.Single m_lineHeight
-    float& dyn_m_lineHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_m_lineHeight();
     // Get instance field reference: protected System.Single m_lineSpacingMax
-    float& dyn_m_lineSpacingMax();
+    [[deprecated("Use field access instead!")]] float& dyn_m_lineSpacingMax();
     // Get instance field reference: protected System.Single m_paragraphSpacing
-    float& dyn_m_paragraphSpacing();
+    [[deprecated("Use field access instead!")]] float& dyn_m_paragraphSpacing();
     // Get instance field reference: protected System.Single m_charWidthMaxAdj
-    float& dyn_m_charWidthMaxAdj();
+    [[deprecated("Use field access instead!")]] float& dyn_m_charWidthMaxAdj();
     // Get instance field reference: protected System.Single m_charWidthAdjDelta
-    float& dyn_m_charWidthAdjDelta();
+    [[deprecated("Use field access instead!")]] float& dyn_m_charWidthAdjDelta();
     // Get instance field reference: protected System.Boolean m_enableWordWrapping
-    bool& dyn_m_enableWordWrapping();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_enableWordWrapping();
     // Get instance field reference: protected System.Boolean m_isCharacterWrappingEnabled
-    bool& dyn_m_isCharacterWrappingEnabled();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isCharacterWrappingEnabled();
     // Get instance field reference: protected System.Boolean m_isNonBreakingSpace
-    bool& dyn_m_isNonBreakingSpace();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isNonBreakingSpace();
     // Get instance field reference: protected System.Boolean m_isIgnoringAlignment
-    bool& dyn_m_isIgnoringAlignment();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isIgnoringAlignment();
     // Get instance field reference: protected System.Single m_wordWrappingRatios
-    float& dyn_m_wordWrappingRatios();
+    [[deprecated("Use field access instead!")]] float& dyn_m_wordWrappingRatios();
     // Get instance field reference: protected TMPro.TextOverflowModes m_overflowMode
-    ::TMPro::TextOverflowModes& dyn_m_overflowMode();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextOverflowModes& dyn_m_overflowMode();
     // Get instance field reference: protected System.Int32 m_firstOverflowCharacterIndex
-    int& dyn_m_firstOverflowCharacterIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_m_firstOverflowCharacterIndex();
     // Get instance field reference: protected TMPro.TMP_Text m_linkedTextComponent
-    ::TMPro::TMP_Text*& dyn_m_linkedTextComponent();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_Text*& dyn_m_linkedTextComponent();
     // Get instance field reference: protected System.Boolean m_isLinkedTextComponent
-    bool& dyn_m_isLinkedTextComponent();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isLinkedTextComponent();
     // Get instance field reference: protected System.Boolean m_isTextTruncated
-    bool& dyn_m_isTextTruncated();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isTextTruncated();
     // Get instance field reference: protected System.Boolean m_enableKerning
-    bool& dyn_m_enableKerning();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_enableKerning();
     // Get instance field reference: protected System.Boolean m_enableExtraPadding
-    bool& dyn_m_enableExtraPadding();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_enableExtraPadding();
     // Get instance field reference: protected System.Boolean checkPaddingRequired
-    bool& dyn_checkPaddingRequired();
+    [[deprecated("Use field access instead!")]] bool& dyn_checkPaddingRequired();
     // Get instance field reference: protected System.Boolean m_isRichText
-    bool& dyn_m_isRichText();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isRichText();
     // Get instance field reference: protected System.Boolean m_parseCtrlCharacters
-    bool& dyn_m_parseCtrlCharacters();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_parseCtrlCharacters();
     // Get instance field reference: protected System.Boolean m_isOverlay
-    bool& dyn_m_isOverlay();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isOverlay();
     // Get instance field reference: protected System.Boolean m_isOrthographic
-    bool& dyn_m_isOrthographic();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isOrthographic();
     // Get instance field reference: protected System.Boolean m_isCullingEnabled
-    bool& dyn_m_isCullingEnabled();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isCullingEnabled();
     // Get instance field reference: protected System.Boolean m_ignoreRectMaskCulling
-    bool& dyn_m_ignoreRectMaskCulling();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_ignoreRectMaskCulling();
     // Get instance field reference: protected System.Boolean m_ignoreCulling
-    bool& dyn_m_ignoreCulling();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_ignoreCulling();
     // Get instance field reference: protected TMPro.TextureMappingOptions m_horizontalMapping
-    ::TMPro::TextureMappingOptions& dyn_m_horizontalMapping();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextureMappingOptions& dyn_m_horizontalMapping();
     // Get instance field reference: protected TMPro.TextureMappingOptions m_verticalMapping
-    ::TMPro::TextureMappingOptions& dyn_m_verticalMapping();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextureMappingOptions& dyn_m_verticalMapping();
     // Get instance field reference: protected System.Single m_uvLineOffset
-    float& dyn_m_uvLineOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_m_uvLineOffset();
     // Get instance field reference: protected TMPro.TextRenderFlags m_renderMode
-    ::TMPro::TextRenderFlags& dyn_m_renderMode();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextRenderFlags& dyn_m_renderMode();
     // Get instance field reference: protected TMPro.VertexSortingOrder m_geometrySortingOrder
-    ::TMPro::VertexSortingOrder& dyn_m_geometrySortingOrder();
+    [[deprecated("Use field access instead!")]] ::TMPro::VertexSortingOrder& dyn_m_geometrySortingOrder();
     // Get instance field reference: protected System.Boolean m_VertexBufferAutoSizeReduction
-    bool& dyn_m_VertexBufferAutoSizeReduction();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_VertexBufferAutoSizeReduction();
     // Get instance field reference: protected System.Int32 m_firstVisibleCharacter
-    int& dyn_m_firstVisibleCharacter();
+    [[deprecated("Use field access instead!")]] int& dyn_m_firstVisibleCharacter();
     // Get instance field reference: protected System.Int32 m_maxVisibleCharacters
-    int& dyn_m_maxVisibleCharacters();
+    [[deprecated("Use field access instead!")]] int& dyn_m_maxVisibleCharacters();
     // Get instance field reference: protected System.Int32 m_maxVisibleWords
-    int& dyn_m_maxVisibleWords();
+    [[deprecated("Use field access instead!")]] int& dyn_m_maxVisibleWords();
     // Get instance field reference: protected System.Int32 m_maxVisibleLines
-    int& dyn_m_maxVisibleLines();
+    [[deprecated("Use field access instead!")]] int& dyn_m_maxVisibleLines();
     // Get instance field reference: protected System.Boolean m_useMaxVisibleDescender
-    bool& dyn_m_useMaxVisibleDescender();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_useMaxVisibleDescender();
     // Get instance field reference: protected System.Int32 m_pageToDisplay
-    int& dyn_m_pageToDisplay();
+    [[deprecated("Use field access instead!")]] int& dyn_m_pageToDisplay();
     // Get instance field reference: protected System.Boolean m_isNewPage
-    bool& dyn_m_isNewPage();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isNewPage();
     // Get instance field reference: protected UnityEngine.Vector4 m_margin
-    ::UnityEngine::Vector4& dyn_m_margin();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector4& dyn_m_margin();
     // Get instance field reference: protected System.Single m_marginLeft
-    float& dyn_m_marginLeft();
+    [[deprecated("Use field access instead!")]] float& dyn_m_marginLeft();
     // Get instance field reference: protected System.Single m_marginRight
-    float& dyn_m_marginRight();
+    [[deprecated("Use field access instead!")]] float& dyn_m_marginRight();
     // Get instance field reference: protected System.Single m_marginWidth
-    float& dyn_m_marginWidth();
+    [[deprecated("Use field access instead!")]] float& dyn_m_marginWidth();
     // Get instance field reference: protected System.Single m_marginHeight
-    float& dyn_m_marginHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_m_marginHeight();
     // Get instance field reference: protected System.Single m_width
-    float& dyn_m_width();
+    [[deprecated("Use field access instead!")]] float& dyn_m_width();
     // Get instance field reference: protected TMPro.TMP_TextInfo m_textInfo
-    ::TMPro::TMP_TextInfo*& dyn_m_textInfo();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_TextInfo*& dyn_m_textInfo();
     // Get instance field reference: protected System.Boolean m_havePropertiesChanged
-    bool& dyn_m_havePropertiesChanged();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_havePropertiesChanged();
     // Get instance field reference: protected System.Boolean m_isUsingLegacyAnimationComponent
-    bool& dyn_m_isUsingLegacyAnimationComponent();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isUsingLegacyAnimationComponent();
     // Get instance field reference: protected UnityEngine.Transform m_transform
-    ::UnityEngine::Transform*& dyn_m_transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_m_transform();
     // Get instance field reference: protected UnityEngine.RectTransform m_rectTransform
-    ::UnityEngine::RectTransform*& dyn_m_rectTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn_m_rectTransform();
     // Get instance field reference: private System.Boolean <autoSizeTextContainer>k__BackingField
-    bool& dyn_$autoSizeTextContainer$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$autoSizeTextContainer$k__BackingField();
     // Get instance field reference: protected System.Boolean m_autoSizeTextContainer
-    bool& dyn_m_autoSizeTextContainer();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_autoSizeTextContainer();
     // Get instance field reference: protected UnityEngine.Mesh m_mesh
-    ::UnityEngine::Mesh*& dyn_m_mesh();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Mesh*& dyn_m_mesh();
     // Get instance field reference: protected System.Boolean m_isVolumetricText
-    bool& dyn_m_isVolumetricText();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isVolumetricText();
     // Get instance field reference: protected TMPro.TMP_SpriteAnimator m_spriteAnimator
-    ::TMPro::TMP_SpriteAnimator*& dyn_m_spriteAnimator();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_SpriteAnimator*& dyn_m_spriteAnimator();
     // Get instance field reference: protected System.Single m_flexibleHeight
-    float& dyn_m_flexibleHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_m_flexibleHeight();
     // Get instance field reference: protected System.Single m_flexibleWidth
-    float& dyn_m_flexibleWidth();
+    [[deprecated("Use field access instead!")]] float& dyn_m_flexibleWidth();
     // Get instance field reference: protected System.Single m_minWidth
-    float& dyn_m_minWidth();
+    [[deprecated("Use field access instead!")]] float& dyn_m_minWidth();
     // Get instance field reference: protected System.Single m_minHeight
-    float& dyn_m_minHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_m_minHeight();
     // Get instance field reference: protected System.Single m_maxWidth
-    float& dyn_m_maxWidth();
+    [[deprecated("Use field access instead!")]] float& dyn_m_maxWidth();
     // Get instance field reference: protected System.Single m_maxHeight
-    float& dyn_m_maxHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_m_maxHeight();
     // Get instance field reference: protected UnityEngine.UI.LayoutElement m_LayoutElement
-    ::UnityEngine::UI::LayoutElement*& dyn_m_LayoutElement();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::LayoutElement*& dyn_m_LayoutElement();
     // Get instance field reference: protected System.Single m_preferredWidth
-    float& dyn_m_preferredWidth();
+    [[deprecated("Use field access instead!")]] float& dyn_m_preferredWidth();
     // Get instance field reference: protected System.Single m_renderedWidth
-    float& dyn_m_renderedWidth();
+    [[deprecated("Use field access instead!")]] float& dyn_m_renderedWidth();
     // Get instance field reference: protected System.Boolean m_isPreferredWidthDirty
-    bool& dyn_m_isPreferredWidthDirty();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isPreferredWidthDirty();
     // Get instance field reference: protected System.Single m_preferredHeight
-    float& dyn_m_preferredHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_m_preferredHeight();
     // Get instance field reference: protected System.Single m_renderedHeight
-    float& dyn_m_renderedHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_m_renderedHeight();
     // Get instance field reference: protected System.Boolean m_isPreferredHeightDirty
-    bool& dyn_m_isPreferredHeightDirty();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isPreferredHeightDirty();
     // Get instance field reference: protected System.Boolean m_isCalculatingPreferredValues
-    bool& dyn_m_isCalculatingPreferredValues();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isCalculatingPreferredValues();
     // Get instance field reference: private System.Int32 m_recursiveCount
-    int& dyn_m_recursiveCount();
+    [[deprecated("Use field access instead!")]] int& dyn_m_recursiveCount();
     // Get instance field reference: protected System.Int32 m_layoutPriority
-    int& dyn_m_layoutPriority();
+    [[deprecated("Use field access instead!")]] int& dyn_m_layoutPriority();
     // Get instance field reference: protected System.Boolean m_isCalculateSizeRequired
-    bool& dyn_m_isCalculateSizeRequired();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isCalculateSizeRequired();
     // Get instance field reference: protected System.Boolean m_isLayoutDirty
-    bool& dyn_m_isLayoutDirty();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isLayoutDirty();
     // Get instance field reference: protected System.Boolean m_verticesAlreadyDirty
-    bool& dyn_m_verticesAlreadyDirty();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_verticesAlreadyDirty();
     // Get instance field reference: protected System.Boolean m_layoutAlreadyDirty
-    bool& dyn_m_layoutAlreadyDirty();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_layoutAlreadyDirty();
     // Get instance field reference: protected System.Boolean m_isAwake
-    bool& dyn_m_isAwake();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isAwake();
     // Get instance field reference: System.Boolean m_isWaitingOnResourceLoad
-    bool& dyn_m_isWaitingOnResourceLoad();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isWaitingOnResourceLoad();
     // Get instance field reference: System.Boolean m_isInputParsingRequired
-    bool& dyn_m_isInputParsingRequired();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isInputParsingRequired();
     // Get instance field reference: TMPro.TMP_Text/TMPro.TextInputSources m_inputSource
-    ::TMPro::TMP_Text::TextInputSources& dyn_m_inputSource();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_Text::TextInputSources& dyn_m_inputSource();
     // Get instance field reference: protected System.String old_text
-    ::StringW& dyn_old_text();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_old_text();
     // Get instance field reference: protected System.Single m_fontScale
-    float& dyn_m_fontScale();
+    [[deprecated("Use field access instead!")]] float& dyn_m_fontScale();
     // Get instance field reference: protected System.Single m_fontScaleMultiplier
-    float& dyn_m_fontScaleMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn_m_fontScaleMultiplier();
     // Get instance field reference: protected System.Char[] m_htmlTag
-    ::ArrayW<::Il2CppChar>& dyn_m_htmlTag();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppChar>& dyn_m_htmlTag();
     // Get instance field reference: protected TMPro.RichTextTagAttribute[] m_xmlAttribute
-    ::ArrayW<::TMPro::RichTextTagAttribute>& dyn_m_xmlAttribute();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::TMPro::RichTextTagAttribute>& dyn_m_xmlAttribute();
     // Get instance field reference: protected System.Single[] m_attributeParameterValues
-    ::ArrayW<float>& dyn_m_attributeParameterValues();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn_m_attributeParameterValues();
     // Get instance field reference: protected System.Single tag_LineIndent
-    float& dyn_tag_LineIndent();
+    [[deprecated("Use field access instead!")]] float& dyn_tag_LineIndent();
     // Get instance field reference: protected System.Single tag_Indent
-    float& dyn_tag_Indent();
+    [[deprecated("Use field access instead!")]] float& dyn_tag_Indent();
     // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<System.Single> m_indentStack
-    ::TMPro::TMP_RichTextTagStack_1<float>& dyn_m_indentStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<float>& dyn_m_indentStack();
     // Get instance field reference: protected System.Boolean tag_NoParsing
-    bool& dyn_tag_NoParsing();
+    [[deprecated("Use field access instead!")]] bool& dyn_tag_NoParsing();
     // Get instance field reference: protected System.Boolean m_isParsingText
-    bool& dyn_m_isParsingText();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isParsingText();
     // Get instance field reference: protected UnityEngine.Matrix4x4 m_FXMatrix
-    ::UnityEngine::Matrix4x4& dyn_m_FXMatrix();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Matrix4x4& dyn_m_FXMatrix();
     // Get instance field reference: protected System.Boolean m_isFXMatrixSet
-    bool& dyn_m_isFXMatrixSet();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isFXMatrixSet();
     // Get instance field reference: protected TMPro.TMP_Text/TMPro.UnicodeChar[] m_TextParsingBuffer
-    ::ArrayW<::TMPro::TMP_Text::UnicodeChar>& dyn_m_TextParsingBuffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::TMPro::TMP_Text::UnicodeChar>& dyn_m_TextParsingBuffer();
     // Get instance field reference: private TMPro.TMP_CharacterInfo[] m_internalCharacterInfo
-    ::ArrayW<::TMPro::TMP_CharacterInfo>& dyn_m_internalCharacterInfo();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::TMPro::TMP_CharacterInfo>& dyn_m_internalCharacterInfo();
     // Get instance field reference: protected System.Char[] m_input_CharArray
-    ::ArrayW<::Il2CppChar>& dyn_m_input_CharArray();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppChar>& dyn_m_input_CharArray();
     // Get instance field reference: private System.Int32 m_charArray_Length
-    int& dyn_m_charArray_Length();
+    [[deprecated("Use field access instead!")]] int& dyn_m_charArray_Length();
     // Get instance field reference: protected System.Int32 m_totalCharacterCount
-    int& dyn_m_totalCharacterCount();
+    [[deprecated("Use field access instead!")]] int& dyn_m_totalCharacterCount();
     // Get instance field reference: protected TMPro.WordWrapState m_SavedWordWrapState
-    ::TMPro::WordWrapState& dyn_m_SavedWordWrapState();
+    [[deprecated("Use field access instead!")]] ::TMPro::WordWrapState& dyn_m_SavedWordWrapState();
     // Get instance field reference: protected TMPro.WordWrapState m_SavedLineState
-    ::TMPro::WordWrapState& dyn_m_SavedLineState();
+    [[deprecated("Use field access instead!")]] ::TMPro::WordWrapState& dyn_m_SavedLineState();
     // Get instance field reference: protected System.Int32 m_characterCount
-    int& dyn_m_characterCount();
+    [[deprecated("Use field access instead!")]] int& dyn_m_characterCount();
     // Get instance field reference: protected System.Int32 m_firstCharacterOfLine
-    int& dyn_m_firstCharacterOfLine();
+    [[deprecated("Use field access instead!")]] int& dyn_m_firstCharacterOfLine();
     // Get instance field reference: protected System.Int32 m_firstVisibleCharacterOfLine
-    int& dyn_m_firstVisibleCharacterOfLine();
+    [[deprecated("Use field access instead!")]] int& dyn_m_firstVisibleCharacterOfLine();
     // Get instance field reference: protected System.Int32 m_lastCharacterOfLine
-    int& dyn_m_lastCharacterOfLine();
+    [[deprecated("Use field access instead!")]] int& dyn_m_lastCharacterOfLine();
     // Get instance field reference: protected System.Int32 m_lastVisibleCharacterOfLine
-    int& dyn_m_lastVisibleCharacterOfLine();
+    [[deprecated("Use field access instead!")]] int& dyn_m_lastVisibleCharacterOfLine();
     // Get instance field reference: protected System.Int32 m_lineNumber
-    int& dyn_m_lineNumber();
+    [[deprecated("Use field access instead!")]] int& dyn_m_lineNumber();
     // Get instance field reference: protected System.Int32 m_lineVisibleCharacterCount
-    int& dyn_m_lineVisibleCharacterCount();
+    [[deprecated("Use field access instead!")]] int& dyn_m_lineVisibleCharacterCount();
     // Get instance field reference: protected System.Int32 m_pageNumber
-    int& dyn_m_pageNumber();
+    [[deprecated("Use field access instead!")]] int& dyn_m_pageNumber();
     // Get instance field reference: protected System.Single m_maxAscender
-    float& dyn_m_maxAscender();
+    [[deprecated("Use field access instead!")]] float& dyn_m_maxAscender();
     // Get instance field reference: protected System.Single m_maxCapHeight
-    float& dyn_m_maxCapHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_m_maxCapHeight();
     // Get instance field reference: protected System.Single m_maxDescender
-    float& dyn_m_maxDescender();
+    [[deprecated("Use field access instead!")]] float& dyn_m_maxDescender();
     // Get instance field reference: protected System.Single m_maxLineAscender
-    float& dyn_m_maxLineAscender();
+    [[deprecated("Use field access instead!")]] float& dyn_m_maxLineAscender();
     // Get instance field reference: protected System.Single m_maxLineDescender
-    float& dyn_m_maxLineDescender();
+    [[deprecated("Use field access instead!")]] float& dyn_m_maxLineDescender();
     // Get instance field reference: protected System.Single m_startOfLineAscender
-    float& dyn_m_startOfLineAscender();
+    [[deprecated("Use field access instead!")]] float& dyn_m_startOfLineAscender();
     // Get instance field reference: protected System.Single m_lineOffset
-    float& dyn_m_lineOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_m_lineOffset();
     // Get instance field reference: protected TMPro.Extents m_meshExtents
-    ::TMPro::Extents& dyn_m_meshExtents();
+    [[deprecated("Use field access instead!")]] ::TMPro::Extents& dyn_m_meshExtents();
     // Get instance field reference: protected UnityEngine.Color32 m_htmlColor
-    ::UnityEngine::Color32& dyn_m_htmlColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color32& dyn_m_htmlColor();
     // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> m_colorStack
-    ::TMPro::TMP_RichTextTagStack_1<::UnityEngine::Color32>& dyn_m_colorStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<::UnityEngine::Color32>& dyn_m_colorStack();
     // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> m_underlineColorStack
-    ::TMPro::TMP_RichTextTagStack_1<::UnityEngine::Color32>& dyn_m_underlineColorStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<::UnityEngine::Color32>& dyn_m_underlineColorStack();
     // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> m_strikethroughColorStack
-    ::TMPro::TMP_RichTextTagStack_1<::UnityEngine::Color32>& dyn_m_strikethroughColorStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<::UnityEngine::Color32>& dyn_m_strikethroughColorStack();
     // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> m_highlightColorStack
-    ::TMPro::TMP_RichTextTagStack_1<::UnityEngine::Color32>& dyn_m_highlightColorStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<::UnityEngine::Color32>& dyn_m_highlightColorStack();
     // Get instance field reference: protected TMPro.TMP_ColorGradient m_colorGradientPreset
-    ::TMPro::TMP_ColorGradient*& dyn_m_colorGradientPreset();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_ColorGradient*& dyn_m_colorGradientPreset();
     // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<TMPro.TMP_ColorGradient> m_colorGradientStack
-    ::TMPro::TMP_RichTextTagStack_1<::TMPro::TMP_ColorGradient*>& dyn_m_colorGradientStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<::TMPro::TMP_ColorGradient*>& dyn_m_colorGradientStack();
     // Get instance field reference: protected System.Single m_tabSpacing
-    float& dyn_m_tabSpacing();
+    [[deprecated("Use field access instead!")]] float& dyn_m_tabSpacing();
     // Get instance field reference: protected System.Single m_spacing
-    float& dyn_m_spacing();
+    [[deprecated("Use field access instead!")]] float& dyn_m_spacing();
     // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<System.Int32> m_styleStack
-    ::TMPro::TMP_RichTextTagStack_1<int>& dyn_m_styleStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<int>& dyn_m_styleStack();
     // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<System.Int32> m_actionStack
-    ::TMPro::TMP_RichTextTagStack_1<int>& dyn_m_actionStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<int>& dyn_m_actionStack();
     // Get instance field reference: protected System.Single m_padding
-    float& dyn_m_padding();
+    [[deprecated("Use field access instead!")]] float& dyn_m_padding();
     // Get instance field reference: protected System.Single m_baselineOffset
-    float& dyn_m_baselineOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_m_baselineOffset();
     // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<System.Single> m_baselineOffsetStack
-    ::TMPro::TMP_RichTextTagStack_1<float>& dyn_m_baselineOffsetStack();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_RichTextTagStack_1<float>& dyn_m_baselineOffsetStack();
     // Get instance field reference: protected System.Single m_xAdvance
-    float& dyn_m_xAdvance();
+    [[deprecated("Use field access instead!")]] float& dyn_m_xAdvance();
     // Get instance field reference: protected TMPro.TMP_TextElementType m_textElementType
-    ::TMPro::TMP_TextElementType& dyn_m_textElementType();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_TextElementType& dyn_m_textElementType();
     // Get instance field reference: protected TMPro.TMP_TextElement m_cached_TextElement
-    ::TMPro::TMP_TextElement*& dyn_m_cached_TextElement();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_TextElement*& dyn_m_cached_TextElement();
     // Get instance field reference: protected TMPro.TMP_Character m_cached_Underline_Character
-    ::TMPro::TMP_Character*& dyn_m_cached_Underline_Character();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_Character*& dyn_m_cached_Underline_Character();
     // Get instance field reference: protected TMPro.TMP_Character m_cached_Ellipsis_Character
-    ::TMPro::TMP_Character*& dyn_m_cached_Ellipsis_Character();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_Character*& dyn_m_cached_Ellipsis_Character();
     // Get instance field reference: protected TMPro.TMP_SpriteAsset m_defaultSpriteAsset
-    ::TMPro::TMP_SpriteAsset*& dyn_m_defaultSpriteAsset();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_SpriteAsset*& dyn_m_defaultSpriteAsset();
     // Get instance field reference: protected TMPro.TMP_SpriteAsset m_currentSpriteAsset
-    ::TMPro::TMP_SpriteAsset*& dyn_m_currentSpriteAsset();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_SpriteAsset*& dyn_m_currentSpriteAsset();
     // Get instance field reference: protected System.Int32 m_spriteCount
-    int& dyn_m_spriteCount();
+    [[deprecated("Use field access instead!")]] int& dyn_m_spriteCount();
     // Get instance field reference: protected System.Int32 m_spriteIndex
-    int& dyn_m_spriteIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_m_spriteIndex();
     // Get instance field reference: protected System.Int32 m_spriteAnimationID
-    int& dyn_m_spriteAnimationID();
+    [[deprecated("Use field access instead!")]] int& dyn_m_spriteAnimationID();
     // Get instance field reference: protected System.Boolean m_ignoreActiveState
-    bool& dyn_m_ignoreActiveState();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_ignoreActiveState();
     // Get instance field reference: private readonly System.Single[] k_Power
-    ::ArrayW<float>& dyn_k_Power();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn_k_Power();
     // public System.String get_text()
-    // Offset: 0x1457BE4
+    // Offset: 0x1478A64
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x1457BEC
+    // Offset: 0x1478A6C
     void set_text(::StringW value);
     // public System.Boolean get_isRightToLeftText()
-    // Offset: 0x1457C6C
+    // Offset: 0x1478AEC
     bool get_isRightToLeftText();
     // public System.Void set_isRightToLeftText(System.Boolean value)
-    // Offset: 0x1457C74
+    // Offset: 0x1478AF4
     void set_isRightToLeftText(bool value);
     // public TMPro.TMP_FontAsset get_font()
-    // Offset: 0x1457CE0
+    // Offset: 0x1478B60
     ::TMPro::TMP_FontAsset* get_font();
     // public System.Void set_font(TMPro.TMP_FontAsset value)
-    // Offset: 0x1457CE8
+    // Offset: 0x1478B68
     void set_font(::TMPro::TMP_FontAsset* value);
     // public UnityEngine.Material get_fontSharedMaterial()
-    // Offset: 0x1457DC8
+    // Offset: 0x1478C48
     ::UnityEngine::Material* get_fontSharedMaterial();
     // public System.Void set_fontSharedMaterial(UnityEngine.Material value)
-    // Offset: 0x1457DD0
+    // Offset: 0x1478C50
     void set_fontSharedMaterial(::UnityEngine::Material* value);
     // public UnityEngine.Material[] get_fontSharedMaterials()
-    // Offset: 0x1457EAC
+    // Offset: 0x1478D2C
     ::ArrayW<::UnityEngine::Material*> get_fontSharedMaterials();
     // public System.Void set_fontSharedMaterials(UnityEngine.Material[] value)
-    // Offset: 0x1457EBC
+    // Offset: 0x1478D3C
     void set_fontSharedMaterials(::ArrayW<::UnityEngine::Material*> value);
     // public UnityEngine.Material get_fontMaterial()
-    // Offset: 0x1457F18
+    // Offset: 0x1478D98
     ::UnityEngine::Material* get_fontMaterial();
     // public System.Void set_fontMaterial(UnityEngine.Material value)
-    // Offset: 0x1457F2C
+    // Offset: 0x1478DAC
     void set_fontMaterial(::UnityEngine::Material* value);
     // public UnityEngine.Material[] get_fontMaterials()
-    // Offset: 0x145803C
+    // Offset: 0x1478EBC
     ::ArrayW<::UnityEngine::Material*> get_fontMaterials();
     // public System.Void set_fontMaterials(UnityEngine.Material[] value)
-    // Offset: 0x1458050
+    // Offset: 0x1478ED0
     void set_fontMaterials(::ArrayW<::UnityEngine::Material*> value);
     // public System.Single get_alpha()
-    // Offset: 0x1458168
+    // Offset: 0x1478FE8
     float get_alpha();
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0x1458170
+    // Offset: 0x1478FF0
     void set_alpha(float value);
     // public System.Boolean get_enableVertexGradient()
-    // Offset: 0x145819C
+    // Offset: 0x147901C
     bool get_enableVertexGradient();
     // public System.Void set_enableVertexGradient(System.Boolean value)
-    // Offset: 0x14581A4
+    // Offset: 0x1479024
     void set_enableVertexGradient(bool value);
     // public TMPro.VertexGradient get_colorGradient()
-    // Offset: 0x14581DC
+    // Offset: 0x147905C
     ::TMPro::VertexGradient get_colorGradient();
     // public System.Void set_colorGradient(TMPro.VertexGradient value)
-    // Offset: 0x1458208
+    // Offset: 0x1479088
     void set_colorGradient(::TMPro::VertexGradient value);
     // public TMPro.TMP_ColorGradient get_colorGradientPreset()
-    // Offset: 0x1458248
+    // Offset: 0x14790C8
     ::TMPro::TMP_ColorGradient* get_colorGradientPreset();
     // public System.Void set_colorGradientPreset(TMPro.TMP_ColorGradient value)
-    // Offset: 0x1458250
+    // Offset: 0x14790D0
     void set_colorGradientPreset(::TMPro::TMP_ColorGradient* value);
     // public TMPro.TMP_SpriteAsset get_spriteAsset()
-    // Offset: 0x145826C
+    // Offset: 0x14790EC
     ::TMPro::TMP_SpriteAsset* get_spriteAsset();
     // public System.Void set_spriteAsset(TMPro.TMP_SpriteAsset value)
-    // Offset: 0x1458274
+    // Offset: 0x14790F4
     void set_spriteAsset(::TMPro::TMP_SpriteAsset* value);
     // public System.Boolean get_tintAllSprites()
-    // Offset: 0x14582C4
+    // Offset: 0x1479144
     bool get_tintAllSprites();
     // public System.Void set_tintAllSprites(System.Boolean value)
-    // Offset: 0x14582CC
+    // Offset: 0x147914C
     void set_tintAllSprites(bool value);
     // public System.Boolean get_overrideColorTags()
-    // Offset: 0x1458304
+    // Offset: 0x1479184
     bool get_overrideColorTags();
     // public System.Void set_overrideColorTags(System.Boolean value)
-    // Offset: 0x145830C
+    // Offset: 0x147918C
     void set_overrideColorTags(bool value);
     // public UnityEngine.Color32 get_faceColor()
-    // Offset: 0x1458344
+    // Offset: 0x14791C4
     ::UnityEngine::Color32 get_faceColor();
     // public System.Void set_faceColor(UnityEngine.Color32 value)
-    // Offset: 0x1458420
+    // Offset: 0x14792A0
     void set_faceColor(::UnityEngine::Color32 value);
     // public UnityEngine.Color32 get_outlineColor()
-    // Offset: 0x14584B8
+    // Offset: 0x1479338
     ::UnityEngine::Color32 get_outlineColor();
     // public System.Void set_outlineColor(UnityEngine.Color32 value)
-    // Offset: 0x1458594
+    // Offset: 0x1479414
     void set_outlineColor(::UnityEngine::Color32 value);
     // public System.Single get_outlineWidth()
-    // Offset: 0x1458618
+    // Offset: 0x1479498
     float get_outlineWidth();
     // public System.Void set_outlineWidth(System.Single value)
-    // Offset: 0x14586E8
+    // Offset: 0x1479568
     void set_outlineWidth(float value);
     // public System.Single get_fontSize()
-    // Offset: 0x145874C
+    // Offset: 0x14795CC
     float get_fontSize();
     // public System.Void set_fontSize(System.Single value)
-    // Offset: 0x1458754
+    // Offset: 0x14795D4
     void set_fontSize(float value);
     // public System.Single get_fontScale()
-    // Offset: 0x14587C0
+    // Offset: 0x1479640
     float get_fontScale();
     // public TMPro.FontWeight get_fontWeight()
-    // Offset: 0x14587C8
+    // Offset: 0x1479648
     ::TMPro::FontWeight get_fontWeight();
     // public System.Void set_fontWeight(TMPro.FontWeight value)
-    // Offset: 0x14587D0
+    // Offset: 0x1479650
     void set_fontWeight(::TMPro::FontWeight value);
     // public System.Single get_pixelsPerUnit()
-    // Offset: 0x1458830
+    // Offset: 0x14796B0
     float get_pixelsPerUnit();
     // public System.Boolean get_enableAutoSizing()
-    // Offset: 0x14589C0
+    // Offset: 0x1479840
     bool get_enableAutoSizing();
     // public System.Void set_enableAutoSizing(System.Boolean value)
-    // Offset: 0x14589C8
+    // Offset: 0x1479848
     void set_enableAutoSizing(bool value);
     // public System.Single get_fontSizeMin()
-    // Offset: 0x1458A24
+    // Offset: 0x14798A4
     float get_fontSizeMin();
     // public System.Void set_fontSizeMin(System.Single value)
-    // Offset: 0x1458A2C
+    // Offset: 0x14798AC
     void set_fontSizeMin(float value);
     // public System.Single get_fontSizeMax()
-    // Offset: 0x1458A7C
+    // Offset: 0x14798FC
     float get_fontSizeMax();
     // public System.Void set_fontSizeMax(System.Single value)
-    // Offset: 0x1458A84
+    // Offset: 0x1479904
     void set_fontSizeMax(float value);
     // public TMPro.FontStyles get_fontStyle()
-    // Offset: 0x1458AD4
+    // Offset: 0x1479954
     ::TMPro::FontStyles get_fontStyle();
     // public System.Void set_fontStyle(TMPro.FontStyles value)
-    // Offset: 0x1458ADC
+    // Offset: 0x147995C
     void set_fontStyle(::TMPro::FontStyles value);
     // public System.Boolean get_isUsingBold()
-    // Offset: 0x1458B3C
+    // Offset: 0x14799BC
     bool get_isUsingBold();
     // public TMPro.TextAlignmentOptions get_alignment()
-    // Offset: 0x1458B44
+    // Offset: 0x14799C4
     ::TMPro::TextAlignmentOptions get_alignment();
     // public System.Void set_alignment(TMPro.TextAlignmentOptions value)
-    // Offset: 0x1458B4C
+    // Offset: 0x14799CC
     void set_alignment(::TMPro::TextAlignmentOptions value);
     // public System.Single get_characterSpacing()
-    // Offset: 0x1458B78
+    // Offset: 0x14799F8
     float get_characterSpacing();
     // public System.Void set_characterSpacing(System.Single value)
-    // Offset: 0x1458B80
+    // Offset: 0x1479A00
     void set_characterSpacing(float value);
     // public System.Single get_wordSpacing()
-    // Offset: 0x1458BDC
+    // Offset: 0x1479A5C
     float get_wordSpacing();
     // public System.Void set_wordSpacing(System.Single value)
-    // Offset: 0x1458BE4
+    // Offset: 0x1479A64
     void set_wordSpacing(float value);
     // public System.Single get_lineSpacing()
-    // Offset: 0x1458C40
+    // Offset: 0x1479AC0
     float get_lineSpacing();
     // public System.Void set_lineSpacing(System.Single value)
-    // Offset: 0x1458C48
+    // Offset: 0x1479AC8
     void set_lineSpacing(float value);
     // public System.Single get_lineSpacingAdjustment()
-    // Offset: 0x1458CA4
+    // Offset: 0x1479B24
     float get_lineSpacingAdjustment();
     // public System.Void set_lineSpacingAdjustment(System.Single value)
-    // Offset: 0x1458CAC
+    // Offset: 0x1479B2C
     void set_lineSpacingAdjustment(float value);
     // public System.Single get_paragraphSpacing()
-    // Offset: 0x1458D08
+    // Offset: 0x1479B88
     float get_paragraphSpacing();
     // public System.Void set_paragraphSpacing(System.Single value)
-    // Offset: 0x1458D10
+    // Offset: 0x1479B90
     void set_paragraphSpacing(float value);
     // public System.Single get_characterWidthAdjustment()
-    // Offset: 0x1458D6C
+    // Offset: 0x1479BEC
     float get_characterWidthAdjustment();
     // public System.Void set_characterWidthAdjustment(System.Single value)
-    // Offset: 0x1458D74
+    // Offset: 0x1479BF4
     void set_characterWidthAdjustment(float value);
     // public System.Boolean get_enableWordWrapping()
-    // Offset: 0x1458DD0
+    // Offset: 0x1479C50
     bool get_enableWordWrapping();
     // public System.Void set_enableWordWrapping(System.Boolean value)
-    // Offset: 0x1458DD8
+    // Offset: 0x1479C58
     void set_enableWordWrapping(bool value);
     // public System.Single get_wordWrappingRatios()
-    // Offset: 0x1458E44
+    // Offset: 0x1479CC4
     float get_wordWrappingRatios();
     // public System.Void set_wordWrappingRatios(System.Single value)
-    // Offset: 0x1458E4C
+    // Offset: 0x1479CCC
     void set_wordWrappingRatios(float value);
     // public TMPro.TextOverflowModes get_overflowMode()
-    // Offset: 0x1458EA8
+    // Offset: 0x1479D28
     ::TMPro::TextOverflowModes get_overflowMode();
     // public System.Void set_overflowMode(TMPro.TextOverflowModes value)
-    // Offset: 0x1458EB0
+    // Offset: 0x1479D30
     void set_overflowMode(::TMPro::TextOverflowModes value);
     // public System.Boolean get_isTextOverflowing()
-    // Offset: 0x1458F0C
+    // Offset: 0x1479D8C
     bool get_isTextOverflowing();
     // public System.Int32 get_firstOverflowCharacterIndex()
-    // Offset: 0x1458F1C
+    // Offset: 0x1479D9C
     int get_firstOverflowCharacterIndex();
     // public TMPro.TMP_Text get_linkedTextComponent()
-    // Offset: 0x1458F24
+    // Offset: 0x1479DA4
     ::TMPro::TMP_Text* get_linkedTextComponent();
     // public System.Void set_linkedTextComponent(TMPro.TMP_Text value)
-    // Offset: 0x1458F2C
+    // Offset: 0x1479DAC
     void set_linkedTextComponent(::TMPro::TMP_Text* value);
     // public System.Boolean get_isLinkedTextComponent()
-    // Offset: 0x1459180
+    // Offset: 0x147A000
     bool get_isLinkedTextComponent();
     // public System.Void set_isLinkedTextComponent(System.Boolean value)
-    // Offset: 0x1459124
+    // Offset: 0x1479FA4
     void set_isLinkedTextComponent(bool value);
     // public System.Boolean get_isTextTruncated()
-    // Offset: 0x1459188
+    // Offset: 0x147A008
     bool get_isTextTruncated();
     // public System.Boolean get_enableKerning()
-    // Offset: 0x1459190
+    // Offset: 0x147A010
     bool get_enableKerning();
     // public System.Void set_enableKerning(System.Boolean value)
-    // Offset: 0x1459198
+    // Offset: 0x147A018
     void set_enableKerning(bool value);
     // public System.Boolean get_extraPadding()
-    // Offset: 0x1459200
+    // Offset: 0x147A080
     bool get_extraPadding();
     // public System.Void set_extraPadding(System.Boolean value)
-    // Offset: 0x1459208
+    // Offset: 0x147A088
     void set_extraPadding(bool value);
     // public System.Boolean get_richText()
-    // Offset: 0x145926C
+    // Offset: 0x147A0EC
     bool get_richText();
     // public System.Void set_richText(System.Boolean value)
-    // Offset: 0x1459274
+    // Offset: 0x147A0F4
     void set_richText(bool value);
     // public System.Boolean get_parseCtrlCharacters()
-    // Offset: 0x14592E0
+    // Offset: 0x147A160
     bool get_parseCtrlCharacters();
     // public System.Void set_parseCtrlCharacters(System.Boolean value)
-    // Offset: 0x14592E8
+    // Offset: 0x147A168
     void set_parseCtrlCharacters(bool value);
     // public System.Boolean get_isOverlay()
-    // Offset: 0x1459354
+    // Offset: 0x147A1D4
     bool get_isOverlay();
     // public System.Void set_isOverlay(System.Boolean value)
-    // Offset: 0x145935C
+    // Offset: 0x147A1DC
     void set_isOverlay(bool value);
     // public System.Boolean get_isOrthographic()
-    // Offset: 0x14593C0
+    // Offset: 0x147A240
     bool get_isOrthographic();
     // public System.Void set_isOrthographic(System.Boolean value)
-    // Offset: 0x14593C8
+    // Offset: 0x147A248
     void set_isOrthographic(bool value);
     // public System.Boolean get_enableCulling()
-    // Offset: 0x1459400
+    // Offset: 0x147A280
     bool get_enableCulling();
     // public System.Void set_enableCulling(System.Boolean value)
-    // Offset: 0x1459408
+    // Offset: 0x147A288
     void set_enableCulling(bool value);
     // public System.Boolean get_ignoreRectMaskCulling()
-    // Offset: 0x1459458
+    // Offset: 0x147A2D8
     bool get_ignoreRectMaskCulling();
     // public System.Void set_ignoreRectMaskCulling(System.Boolean value)
-    // Offset: 0x1459460
+    // Offset: 0x147A2E0
     void set_ignoreRectMaskCulling(bool value);
     // public System.Boolean get_ignoreVisibility()
-    // Offset: 0x1459488
+    // Offset: 0x147A308
     bool get_ignoreVisibility();
     // public System.Void set_ignoreVisibility(System.Boolean value)
-    // Offset: 0x1459490
+    // Offset: 0x147A310
     void set_ignoreVisibility(bool value);
     // public TMPro.TextureMappingOptions get_horizontalMapping()
-    // Offset: 0x14594B8
+    // Offset: 0x147A338
     ::TMPro::TextureMappingOptions get_horizontalMapping();
     // public System.Void set_horizontalMapping(TMPro.TextureMappingOptions value)
-    // Offset: 0x14594C0
+    // Offset: 0x147A340
     void set_horizontalMapping(::TMPro::TextureMappingOptions value);
     // public TMPro.TextureMappingOptions get_verticalMapping()
-    // Offset: 0x14594EC
+    // Offset: 0x147A36C
     ::TMPro::TextureMappingOptions get_verticalMapping();
     // public System.Void set_verticalMapping(TMPro.TextureMappingOptions value)
-    // Offset: 0x14594F4
+    // Offset: 0x147A374
     void set_verticalMapping(::TMPro::TextureMappingOptions value);
     // public System.Single get_mappingUvLineOffset()
-    // Offset: 0x1459520
+    // Offset: 0x147A3A0
     float get_mappingUvLineOffset();
     // public System.Void set_mappingUvLineOffset(System.Single value)
-    // Offset: 0x1459528
+    // Offset: 0x147A3A8
     void set_mappingUvLineOffset(float value);
     // public TMPro.TextRenderFlags get_renderMode()
-    // Offset: 0x1459554
+    // Offset: 0x147A3D4
     ::TMPro::TextRenderFlags get_renderMode();
     // public System.Void set_renderMode(TMPro.TextRenderFlags value)
-    // Offset: 0x145955C
+    // Offset: 0x147A3DC
     void set_renderMode(::TMPro::TextRenderFlags value);
     // public TMPro.VertexSortingOrder get_geometrySortingOrder()
-    // Offset: 0x1459578
+    // Offset: 0x147A3F8
     ::TMPro::VertexSortingOrder get_geometrySortingOrder();
     // public System.Void set_geometrySortingOrder(TMPro.VertexSortingOrder value)
-    // Offset: 0x1459580
+    // Offset: 0x147A400
     void set_geometrySortingOrder(::TMPro::VertexSortingOrder value);
     // public System.Boolean get_vertexBufferAutoSizeReduction()
-    // Offset: 0x145959C
+    // Offset: 0x147A41C
     bool get_vertexBufferAutoSizeReduction();
     // public System.Void set_vertexBufferAutoSizeReduction(System.Boolean value)
-    // Offset: 0x14595A4
+    // Offset: 0x147A424
     void set_vertexBufferAutoSizeReduction(bool value);
     // public System.Int32 get_firstVisibleCharacter()
-    // Offset: 0x14595C4
+    // Offset: 0x147A444
     int get_firstVisibleCharacter();
     // public System.Void set_firstVisibleCharacter(System.Int32 value)
-    // Offset: 0x14595CC
+    // Offset: 0x147A44C
     void set_firstVisibleCharacter(int value);
     // public System.Int32 get_maxVisibleCharacters()
-    // Offset: 0x14595F8
+    // Offset: 0x147A478
     int get_maxVisibleCharacters();
     // public System.Void set_maxVisibleCharacters(System.Int32 value)
-    // Offset: 0x1459600
+    // Offset: 0x147A480
     void set_maxVisibleCharacters(int value);
     // public System.Int32 get_maxVisibleWords()
-    // Offset: 0x145962C
+    // Offset: 0x147A4AC
     int get_maxVisibleWords();
     // public System.Void set_maxVisibleWords(System.Int32 value)
-    // Offset: 0x1459634
+    // Offset: 0x147A4B4
     void set_maxVisibleWords(int value);
     // public System.Int32 get_maxVisibleLines()
-    // Offset: 0x1459660
+    // Offset: 0x147A4E0
     int get_maxVisibleLines();
     // public System.Void set_maxVisibleLines(System.Int32 value)
-    // Offset: 0x1459668
+    // Offset: 0x147A4E8
     void set_maxVisibleLines(int value);
     // public System.Boolean get_useMaxVisibleDescender()
-    // Offset: 0x1459698
+    // Offset: 0x147A518
     bool get_useMaxVisibleDescender();
     // public System.Void set_useMaxVisibleDescender(System.Boolean value)
-    // Offset: 0x14596A0
+    // Offset: 0x147A520
     void set_useMaxVisibleDescender(bool value);
     // public System.Int32 get_pageToDisplay()
-    // Offset: 0x14596D4
+    // Offset: 0x147A554
     int get_pageToDisplay();
     // public System.Void set_pageToDisplay(System.Int32 value)
-    // Offset: 0x14596DC
+    // Offset: 0x147A55C
     void set_pageToDisplay(int value);
     // public UnityEngine.Vector4 get_margin()
-    // Offset: 0x1459708
+    // Offset: 0x147A588
     ::UnityEngine::Vector4 get_margin();
     // public System.Void set_margin(UnityEngine.Vector4 value)
-    // Offset: 0x145971C
+    // Offset: 0x147A59C
     void set_margin(::UnityEngine::Vector4 value);
     // public TMPro.TMP_TextInfo get_textInfo()
-    // Offset: 0x1459840
+    // Offset: 0x147A6C0
     ::TMPro::TMP_TextInfo* get_textInfo();
     // public System.Boolean get_havePropertiesChanged()
-    // Offset: 0x1459848
+    // Offset: 0x147A6C8
     bool get_havePropertiesChanged();
     // public System.Void set_havePropertiesChanged(System.Boolean value)
-    // Offset: 0x14564B0
+    // Offset: 0x1477330
     void set_havePropertiesChanged(bool value);
     // public System.Boolean get_isUsingLegacyAnimationComponent()
-    // Offset: 0x1459850
+    // Offset: 0x147A6D0
     bool get_isUsingLegacyAnimationComponent();
     // public System.Void set_isUsingLegacyAnimationComponent(System.Boolean value)
-    // Offset: 0x1459858
+    // Offset: 0x147A6D8
     void set_isUsingLegacyAnimationComponent(bool value);
+    // public UnityEngine.Transform get_transform()
+    // Offset: 0x1477E54
+    ::UnityEngine::Transform* get_transform();
+    // public UnityEngine.RectTransform get_rectTransform()
+    // Offset: 0x1477EEC
+    ::UnityEngine::RectTransform* get_rectTransform();
     // public System.Boolean get_autoSizeTextContainer()
-    // Offset: 0x1459864
+    // Offset: 0x147A6E4
     bool get_autoSizeTextContainer();
     // public System.Void set_autoSizeTextContainer(System.Boolean value)
-    // Offset: 0x145986C
+    // Offset: 0x147A6EC
     void set_autoSizeTextContainer(bool value);
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x1459878
+    // Offset: 0x147A6F8
     ::UnityEngine::Mesh* get_mesh();
     // public System.Boolean get_isVolumetricText()
-    // Offset: 0x1459880
+    // Offset: 0x147A700
     bool get_isVolumetricText();
     // public System.Void set_isVolumetricText(System.Boolean value)
-    // Offset: 0x1459888
+    // Offset: 0x147A708
     void set_isVolumetricText(bool value);
     // public UnityEngine.Bounds get_bounds()
-    // Offset: 0x145990C
+    // Offset: 0x147A78C
     ::UnityEngine::Bounds get_bounds();
     // public UnityEngine.Bounds get_textBounds()
-    // Offset: 0x14599BC
+    // Offset: 0x147A83C
     ::UnityEngine::Bounds get_textBounds();
     // protected TMPro.TMP_SpriteAnimator get_spriteAnimator()
-    // Offset: 0x1459C94
+    // Offset: 0x147AB14
     ::TMPro::TMP_SpriteAnimator* get_spriteAnimator();
     // public System.Single get_flexibleHeight()
-    // Offset: 0x1459D88
+    // Offset: 0x147AC08
     float get_flexibleHeight();
     // public System.Single get_flexibleWidth()
-    // Offset: 0x1459D90
+    // Offset: 0x147AC10
     float get_flexibleWidth();
     // public System.Single get_minWidth()
-    // Offset: 0x1459D98
+    // Offset: 0x147AC18
     float get_minWidth();
     // public System.Single get_minHeight()
-    // Offset: 0x1459DA0
+    // Offset: 0x147AC20
     float get_minHeight();
     // public System.Single get_maxWidth()
-    // Offset: 0x1459DA8
+    // Offset: 0x147AC28
     float get_maxWidth();
     // public System.Single get_maxHeight()
-    // Offset: 0x1459DB0
+    // Offset: 0x147AC30
     float get_maxHeight();
     // protected UnityEngine.UI.LayoutElement get_layoutElement()
-    // Offset: 0x1459DB8
+    // Offset: 0x147AC38
     ::UnityEngine::UI::LayoutElement* get_layoutElement();
     // public System.Single get_preferredWidth()
-    // Offset: 0x1459E50
+    // Offset: 0x147ACD0
     float get_preferredWidth();
     // public System.Single get_preferredHeight()
-    // Offset: 0x1459FC4
+    // Offset: 0x147AE44
     float get_preferredHeight();
     // public System.Single get_renderedWidth()
-    // Offset: 0x145A180
+    // Offset: 0x147B000
     float get_renderedWidth();
     // public System.Single get_renderedHeight()
-    // Offset: 0x145A188
+    // Offset: 0x147B008
     float get_renderedHeight();
     // public System.Int32 get_layoutPriority()
-    // Offset: 0x145A1B8
+    // Offset: 0x147B038
     int get_layoutPriority();
+    // protected System.Void .ctor()
+    // Offset: 0x148C478
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static TMP_Text* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_Text::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<TMP_Text*, creationType>()));
+    }
+    // static private System.Void .cctor()
+    // Offset: 0x148CAF8
+    static void _cctor();
     // protected System.Void LoadFontAsset()
-    // Offset: 0x145A1C0
+    // Offset: 0x147B040
     void LoadFontAsset();
     // protected System.Void SetSharedMaterial(UnityEngine.Material mat)
-    // Offset: 0x145A1C4
+    // Offset: 0x147B044
     void SetSharedMaterial(::UnityEngine::Material* mat);
     // protected UnityEngine.Material GetMaterial(UnityEngine.Material mat)
-    // Offset: 0x145A1C8
+    // Offset: 0x147B048
     ::UnityEngine::Material* GetMaterial(::UnityEngine::Material* mat);
     // protected System.Void SetFontBaseMaterial(UnityEngine.Material mat)
-    // Offset: 0x145A1D0
+    // Offset: 0x147B050
     void SetFontBaseMaterial(::UnityEngine::Material* mat);
     // protected UnityEngine.Material[] GetSharedMaterials()
-    // Offset: 0x145A1D4
+    // Offset: 0x147B054
     ::ArrayW<::UnityEngine::Material*> GetSharedMaterials();
     // protected System.Void SetSharedMaterials(UnityEngine.Material[] materials)
-    // Offset: 0x145A1DC
+    // Offset: 0x147B05C
     void SetSharedMaterials(::ArrayW<::UnityEngine::Material*> materials);
     // protected UnityEngine.Material[] GetMaterials(UnityEngine.Material[] mats)
-    // Offset: 0x145A1E0
+    // Offset: 0x147B060
     ::ArrayW<::UnityEngine::Material*> GetMaterials(::ArrayW<::UnityEngine::Material*> mats);
     // protected UnityEngine.Material CreateMaterialInstance(UnityEngine.Material source)
-    // Offset: 0x145A1E8
+    // Offset: 0x147B068
     ::UnityEngine::Material* CreateMaterialInstance(::UnityEngine::Material* source);
     // protected System.Void SetVertexColorGradient(TMPro.TMP_ColorGradient gradient)
-    // Offset: 0x145A2A4
+    // Offset: 0x147B124
     void SetVertexColorGradient(::TMPro::TMP_ColorGradient* gradient);
     // protected System.Void SetTextSortingOrder(TMPro.VertexSortingOrder order)
-    // Offset: 0x145A37C
+    // Offset: 0x147B1FC
     void SetTextSortingOrder(::TMPro::VertexSortingOrder order);
     // protected System.Void SetTextSortingOrder(System.Int32[] order)
-    // Offset: 0x145A380
+    // Offset: 0x147B200
     void SetTextSortingOrder(::ArrayW<int> order);
     // protected System.Void SetFaceColor(UnityEngine.Color32 color)
-    // Offset: 0x145A384
+    // Offset: 0x147B204
     void SetFaceColor(::UnityEngine::Color32 color);
     // protected System.Void SetOutlineColor(UnityEngine.Color32 color)
-    // Offset: 0x145A388
+    // Offset: 0x147B208
     void SetOutlineColor(::UnityEngine::Color32 color);
     // protected System.Void SetOutlineThickness(System.Single thickness)
-    // Offset: 0x145A38C
+    // Offset: 0x147B20C
     void SetOutlineThickness(float thickness);
     // protected System.Void SetShaderDepth()
-    // Offset: 0x145A390
+    // Offset: 0x147B210
     void SetShaderDepth();
     // protected System.Void SetCulling()
-    // Offset: 0x145A394
+    // Offset: 0x147B214
     void SetCulling();
     // protected System.Single GetPaddingForMaterial()
-    // Offset: 0x145A398
+    // Offset: 0x147B218
     float GetPaddingForMaterial();
     // protected System.Single GetPaddingForMaterial(UnityEngine.Material mat)
-    // Offset: 0x145A3A0
+    // Offset: 0x147B220
     float GetPaddingForMaterial(::UnityEngine::Material* mat);
     // protected UnityEngine.Vector3[] GetTextContainerLocalCorners()
-    // Offset: 0x145A3A8
+    // Offset: 0x147B228
     ::ArrayW<::UnityEngine::Vector3> GetTextContainerLocalCorners();
     // public System.Void ForceMeshUpdate()
-    // Offset: 0x145A3B0
+    // Offset: 0x147B230
     void ForceMeshUpdate();
     // public System.Void ForceMeshUpdate(System.Boolean ignoreActiveState)
-    // Offset: 0x145A3B4
+    // Offset: 0x147B234
     void ForceMeshUpdate(bool ignoreActiveState);
     // System.Void SetTextInternal(System.String text)
-    // Offset: 0x145A3B8
+    // Offset: 0x147B238
     void SetTextInternal(::StringW text);
     // public System.Void UpdateGeometry(UnityEngine.Mesh mesh, System.Int32 index)
-    // Offset: 0x145A3FC
+    // Offset: 0x147B27C
     void UpdateGeometry(::UnityEngine::Mesh* mesh, int index);
     // public System.Void UpdateVertexData(TMPro.TMP_VertexDataUpdateFlags flags)
-    // Offset: 0x145A400
+    // Offset: 0x147B280
     void UpdateVertexData(::TMPro::TMP_VertexDataUpdateFlags flags);
     // public System.Void UpdateVertexData()
-    // Offset: 0x145A404
+    // Offset: 0x147B284
     void UpdateVertexData();
     // public System.Void SetVertices(UnityEngine.Vector3[] vertices)
-    // Offset: 0x145A408
+    // Offset: 0x147B288
     void SetVertices(::ArrayW<::UnityEngine::Vector3> vertices);
     // public System.Void UpdateMeshPadding()
-    // Offset: 0x145A40C
+    // Offset: 0x147B28C
     void UpdateMeshPadding();
     // protected System.Void InternalCrossFadeColor(UnityEngine.Color targetColor, System.Single duration, System.Boolean ignoreTimeScale, System.Boolean useAlpha)
-    // Offset: 0x145A4FC
+    // Offset: 0x147B37C
     void InternalCrossFadeColor(::UnityEngine::Color targetColor, float duration, bool ignoreTimeScale, bool useAlpha);
     // protected System.Void InternalCrossFadeAlpha(System.Single alpha, System.Single duration, System.Boolean ignoreTimeScale)
-    // Offset: 0x145A500
+    // Offset: 0x147B380
     void InternalCrossFadeAlpha(float alpha, float duration, bool ignoreTimeScale);
     // protected System.Void ParseInputText()
-    // Offset: 0x145A504
+    // Offset: 0x147B384
     void ParseInputText();
     // public System.Void SetText(System.String text)
-    // Offset: 0x145B270
+    // Offset: 0x147C0F0
     void SetText(::StringW text);
     // public System.Void SetText(System.String text, System.Boolean syncTextInputBox)
-    // Offset: 0x145B278
+    // Offset: 0x147C0F8
     void SetText(::StringW text, bool syncTextInputBox);
     // public System.Void SetText(System.String text, System.Single arg0)
-    // Offset: 0x145B2D8
+    // Offset: 0x147C158
     void SetText(::StringW text, float arg0);
     // public System.Void SetText(System.String text, System.Single arg0, System.Single arg1)
-    // Offset: 0x145B4DC
+    // Offset: 0x147C35C
     void SetText(::StringW text, float arg0, float arg1);
     // public System.Void SetText(System.String text, System.Single arg0, System.Single arg1, System.Single arg2)
-    // Offset: 0x145B2E8
+    // Offset: 0x147C168
     void SetText(::StringW text, float arg0, float arg1, float arg2);
     // public System.Void SetText(System.Text.StringBuilder text)
-    // Offset: 0x145B6C0
+    // Offset: 0x147C540
     void SetText(::System::Text::StringBuilder* text);
     // public System.Void SetCharArray(System.Char[] sourceText)
-    // Offset: 0x145BE44
+    // Offset: 0x147CCC4
     void SetCharArray(::ArrayW<::Il2CppChar> sourceText);
     // public System.Void SetCharArray(System.Char[] sourceText, System.Int32 start, System.Int32 length)
-    // Offset: 0x145C848
+    // Offset: 0x147D6C8
     void SetCharArray(::ArrayW<::Il2CppChar> sourceText, int start, int length);
     // public System.Void SetCharArray(System.Int32[] sourceText, System.Int32 start, System.Int32 length)
-    // Offset: 0x145CC50
+    // Offset: 0x147DAD0
     void SetCharArray(::ArrayW<int> sourceText, int start, int length);
     // protected System.Void SetTextArrayToCharArray(System.Char[] sourceText, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer)
-    // Offset: 0x145AE78
+    // Offset: 0x147BCF8
     void SetTextArrayToCharArray(::ArrayW<::Il2CppChar> sourceText, ByRef<::ArrayW<::TMPro::TMP_Text::UnicodeChar>> charBuffer);
     // protected System.Void StringToCharArray(System.String sourceText, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer)
-    // Offset: 0x145A574
+    // Offset: 0x147B3F4
     void StringToCharArray(::StringW sourceText, ByRef<::ArrayW<::TMPro::TMP_Text::UnicodeChar>> charBuffer);
     // protected System.Void StringBuilderToIntArray(System.Text.StringBuilder sourceText, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer)
-    // Offset: 0x145B720
+    // Offset: 0x147C5A0
     void StringBuilderToIntArray(::System::Text::StringBuilder* sourceText, ByRef<::ArrayW<::TMPro::TMP_Text::UnicodeChar>> charBuffer);
     // private System.Boolean ReplaceOpeningStyleTag(ref System.String sourceText, System.Int32 srcIndex, out System.Int32 srcOffset, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
-    // Offset: 0x145D95C
+    // Offset: 0x147E7DC
     bool ReplaceOpeningStyleTag(ByRef<::StringW> sourceText, int srcIndex, ByRef<int> srcOffset, ByRef<::ArrayW<::TMPro::TMP_Text::UnicodeChar>> charBuffer, ByRef<int> writeIndex);
     // private System.Boolean ReplaceOpeningStyleTag(ref System.Int32[] sourceText, System.Int32 srcIndex, out System.Int32 srcOffset, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
-    // Offset: 0x145D18C
+    // Offset: 0x147E00C
     bool ReplaceOpeningStyleTag(ByRef<::ArrayW<int>> sourceText, int srcIndex, ByRef<int> srcOffset, ByRef<::ArrayW<::TMPro::TMP_Text::UnicodeChar>> charBuffer, ByRef<int> writeIndex);
     // private System.Boolean ReplaceOpeningStyleTag(ref System.Char[] sourceText, System.Int32 srcIndex, out System.Int32 srcOffset, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
-    // Offset: 0x145C378
+    // Offset: 0x147D1F8
     bool ReplaceOpeningStyleTag(ByRef<::ArrayW<::Il2CppChar>> sourceText, int srcIndex, ByRef<int> srcOffset, ByRef<::ArrayW<::TMPro::TMP_Text::UnicodeChar>> charBuffer, ByRef<int> writeIndex);
     // private System.Boolean ReplaceOpeningStyleTag(ref System.Text.StringBuilder sourceText, System.Int32 srcIndex, out System.Int32 srcOffset, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
-    // Offset: 0x145E130
+    // Offset: 0x147EFB0
     bool ReplaceOpeningStyleTag(ByRef<::System::Text::StringBuilder*> sourceText, int srcIndex, ByRef<int> srcOffset, ByRef<::ArrayW<::TMPro::TMP_Text::UnicodeChar>> charBuffer, ByRef<int> writeIndex);
     // private System.Boolean ReplaceClosingStyleTag(ref System.String sourceText, System.Int32 srcIndex, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
-    // Offset: 0x145DBCC
+    // Offset: 0x147EA4C
     bool ReplaceClosingStyleTag(ByRef<::StringW> sourceText, int srcIndex, ByRef<::ArrayW<::TMPro::TMP_Text::UnicodeChar>> charBuffer, ByRef<int> writeIndex);
     // private System.Boolean ReplaceClosingStyleTag(ref System.Int32[] sourceText, System.Int32 srcIndex, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
-    // Offset: 0x145D3FC
+    // Offset: 0x147E27C
     bool ReplaceClosingStyleTag(ByRef<::ArrayW<int>> sourceText, int srcIndex, ByRef<::ArrayW<::TMPro::TMP_Text::UnicodeChar>> charBuffer, ByRef<int> writeIndex);
     // private System.Boolean ReplaceClosingStyleTag(ref System.Char[] sourceText, System.Int32 srcIndex, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
-    // Offset: 0x145C5E8
+    // Offset: 0x147D468
     bool ReplaceClosingStyleTag(ByRef<::ArrayW<::Il2CppChar>> sourceText, int srcIndex, ByRef<::ArrayW<::TMPro::TMP_Text::UnicodeChar>> charBuffer, ByRef<int> writeIndex);
     // private System.Boolean ReplaceClosingStyleTag(ref System.Text.StringBuilder sourceText, System.Int32 srcIndex, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
-    // Offset: 0x145E3A0
+    // Offset: 0x147F220
     bool ReplaceClosingStyleTag(ByRef<::System::Text::StringBuilder*> sourceText, int srcIndex, ByRef<::ArrayW<::TMPro::TMP_Text::UnicodeChar>> charBuffer, ByRef<int> writeIndex);
     // private System.Boolean IsTagName(ref System.String text, System.String tag, System.Int32 index)
-    // Offset: 0x145D854
+    // Offset: 0x147E6D4
     bool IsTagName(ByRef<::StringW> text, ::StringW tag, int index);
     // private System.Boolean IsTagName(ref System.Char[] text, System.String tag, System.Int32 index)
-    // Offset: 0x145C248
+    // Offset: 0x147D0C8
     bool IsTagName(ByRef<::ArrayW<::Il2CppChar>> text, ::StringW tag, int index);
     // private System.Boolean IsTagName(ref System.Int32[] text, System.String tag, System.Int32 index)
-    // Offset: 0x145D05C
+    // Offset: 0x147DEDC
     bool IsTagName(ByRef<::ArrayW<int>> text, ::StringW tag, int index);
     // private System.Boolean IsTagName(ref System.Text.StringBuilder text, System.String tag, System.Int32 index)
-    // Offset: 0x145E024
+    // Offset: 0x147EEA4
     bool IsTagName(ByRef<::System::Text::StringBuilder*> text, ::StringW tag, int index);
     // private System.Int32 GetTagHashCode(ref System.String text, System.Int32 index, out System.Int32 closeIndex)
-    // Offset: 0x145E600
+    // Offset: 0x147F480
     int GetTagHashCode(ByRef<::StringW> text, int index, ByRef<int> closeIndex);
     // private System.Int32 GetTagHashCode(ref System.Char[] text, System.Int32 index, out System.Int32 closeIndex)
-    // Offset: 0x145E738
+    // Offset: 0x147F5B8
     int GetTagHashCode(ByRef<::ArrayW<::Il2CppChar>> text, int index, ByRef<int> closeIndex);
     // private System.Int32 GetTagHashCode(ref System.Int32[] text, System.Int32 index, out System.Int32 closeIndex)
-    // Offset: 0x145E6B8
+    // Offset: 0x147F538
     int GetTagHashCode(ByRef<::ArrayW<int>> text, int index, ByRef<int> closeIndex);
     // private System.Int32 GetTagHashCode(ref System.Text.StringBuilder text, System.Int32 index, out System.Int32 closeIndex)
-    // Offset: 0x145E7B8
+    // Offset: 0x147F638
     int GetTagHashCode(ByRef<::System::Text::StringBuilder*> text, int index, ByRef<int> closeIndex);
     // private System.Void ResizeInternalArray(ref T[] array)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -2433,231 +2441,196 @@ namespace TMPro {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, byref(array));
     }
     // protected System.Void AddFloatToCharArray(System.Double number, ref System.Int32 index, System.Int32 precision)
-    // Offset: 0x145B4E8
+    // Offset: 0x147C368
     void AddFloatToCharArray(double number, ByRef<int> index, int precision);
     // protected System.Void AddIntToCharArray(System.Double number, ref System.Int32 index, System.Int32 precision)
-    // Offset: 0x145E87C
+    // Offset: 0x147F6FC
     void AddIntToCharArray(double number, ByRef<int> index, int precision);
     // protected System.Int32 SetArraySizes(TMPro.TMP_Text/TMPro.UnicodeChar[] chars)
-    // Offset: 0x145E9E8
+    // Offset: 0x147F868
     int SetArraySizes(::ArrayW<::TMPro::TMP_Text::UnicodeChar> chars);
     // protected System.Void GenerateTextMesh()
-    // Offset: 0x145E9F0
+    // Offset: 0x147F870
     void GenerateTextMesh();
     // public UnityEngine.Vector2 GetPreferredValues()
-    // Offset: 0x145E9F4
+    // Offset: 0x147F874
     ::UnityEngine::Vector2 GetPreferredValues();
     // public UnityEngine.Vector2 GetPreferredValues(System.Single width, System.Single height)
-    // Offset: 0x145EA70
+    // Offset: 0x147F8F0
     ::UnityEngine::Vector2 GetPreferredValues(float width, float height);
     // public UnityEngine.Vector2 GetPreferredValues(System.String text)
-    // Offset: 0x145EC60
+    // Offset: 0x147FAE0
     ::UnityEngine::Vector2 GetPreferredValues(::StringW text);
     // public UnityEngine.Vector2 GetPreferredValues(System.String text, System.Single width, System.Single height)
-    // Offset: 0x145EDE0
+    // Offset: 0x147FC60
     ::UnityEngine::Vector2 GetPreferredValues(::StringW text, float width, float height);
     // protected System.Single GetPreferredWidth()
-    // Offset: 0x1459E88
+    // Offset: 0x147AD08
     float GetPreferredWidth();
     // protected System.Single GetPreferredWidth(UnityEngine.Vector2 margin)
-    // Offset: 0x145EB9C
+    // Offset: 0x147FA1C
     float GetPreferredWidth(::UnityEngine::Vector2 margin);
     // protected System.Single GetPreferredHeight()
-    // Offset: 0x1459FFC
+    // Offset: 0x147AE7C
     float GetPreferredHeight();
     // protected System.Single GetPreferredHeight(UnityEngine.Vector2 margin)
-    // Offset: 0x145EBF4
+    // Offset: 0x147FA74
     float GetPreferredHeight(::UnityEngine::Vector2 margin);
     // public UnityEngine.Vector2 GetRenderedValues()
-    // Offset: 0x145EF14
+    // Offset: 0x147FD94
     ::UnityEngine::Vector2 GetRenderedValues();
     // public UnityEngine.Vector2 GetRenderedValues(System.Boolean onlyVisibleCharacters)
-    // Offset: 0x145EFDC
+    // Offset: 0x147FE5C
     ::UnityEngine::Vector2 GetRenderedValues(bool onlyVisibleCharacters);
     // protected System.Single GetRenderedWidth()
-    // Offset: 0x145A184
+    // Offset: 0x147B004
     float GetRenderedWidth();
     // protected System.Single GetRenderedWidth(System.Boolean onlyVisibleCharacters)
-    // Offset: 0x145F3C0
+    // Offset: 0x1480240
     float GetRenderedWidth(bool onlyVisibleCharacters);
     // protected System.Single GetRenderedHeight()
-    // Offset: 0x145A1A0
+    // Offset: 0x147B020
     float GetRenderedHeight();
     // protected System.Single GetRenderedHeight(System.Boolean onlyVisibleCharacters)
-    // Offset: 0x145F3C8
+    // Offset: 0x1480248
     float GetRenderedHeight(bool onlyVisibleCharacters);
     // protected UnityEngine.Vector2 CalculatePreferredValues(System.Single defaultFontSize, UnityEngine.Vector2 marginSize, System.Boolean ignoreTextAutoSizing)
-    // Offset: 0x145F3E4
+    // Offset: 0x1480264
     ::UnityEngine::Vector2 CalculatePreferredValues(float defaultFontSize, ::UnityEngine::Vector2 marginSize, bool ignoreTextAutoSizing);
     // protected UnityEngine.Bounds GetCompoundBounds()
-    // Offset: 0x1465FB8
+    // Offset: 0x1486E38
     ::UnityEngine::Bounds GetCompoundBounds();
     // protected UnityEngine.Bounds GetTextBounds()
-    // Offset: 0x14599D4
+    // Offset: 0x147A854
     ::UnityEngine::Bounds GetTextBounds();
     // protected UnityEngine.Bounds GetTextBounds(System.Boolean onlyVisibleCharacters)
-    // Offset: 0x145F0B4
+    // Offset: 0x147FF34
     ::UnityEngine::Bounds GetTextBounds(bool onlyVisibleCharacters);
     // protected System.Void AdjustLineOffset(System.Int32 startIndex, System.Int32 endIndex, System.Single offset)
-    // Offset: 0x1465FC4
+    // Offset: 0x1486E44
     void AdjustLineOffset(int startIndex, int endIndex, float offset);
     // protected System.Void ResizeLineExtents(System.Int32 size)
-    // Offset: 0x1465FC8
+    // Offset: 0x1486E48
     void ResizeLineExtents(int size);
     // public TMPro.TMP_TextInfo GetTextInfo(System.String text)
-    // Offset: 0x14661AC
+    // Offset: 0x148702C
     ::TMPro::TMP_TextInfo* GetTextInfo(::StringW text);
     // public System.Void ComputeMarginSize()
-    // Offset: 0x14661B4
+    // Offset: 0x1487034
     void ComputeMarginSize();
     // protected System.Void SaveWordWrappingState(ref TMPro.WordWrapState state, System.Int32 index, System.Int32 count)
-    // Offset: 0x14612A4
+    // Offset: 0x1482124
     void SaveWordWrappingState(ByRef<::TMPro::WordWrapState> state, int index, int count);
     // protected System.Int32 RestoreWordWrappingState(ref TMPro.WordWrapState state)
-    // Offset: 0x1465CE8
+    // Offset: 0x1486B68
     int RestoreWordWrappingState(ByRef<::TMPro::WordWrapState> state);
     // protected System.Void SaveGlyphVertexInfo(System.Single padding, System.Single style_padding, UnityEngine.Color32 vertexColor)
-    // Offset: 0x14661B8
+    // Offset: 0x1487038
     void SaveGlyphVertexInfo(float padding, float style_padding, ::UnityEngine::Color32 vertexColor);
     // protected System.Void SaveSpriteVertexInfo(UnityEngine.Color32 vertexColor)
-    // Offset: 0x1466BB8
+    // Offset: 0x1487A38
     void SaveSpriteVertexInfo(::UnityEngine::Color32 vertexColor);
     // protected System.Void FillCharacterVertexBuffers(System.Int32 i, System.Int32 index_X4)
-    // Offset: 0x14673E8
+    // Offset: 0x1488268
     void FillCharacterVertexBuffers(int i, int index_X4);
     // protected System.Void FillCharacterVertexBuffers(System.Int32 i, System.Int32 index_X4, System.Boolean isVolumetric)
-    // Offset: 0x1467A54
+    // Offset: 0x14888D4
     void FillCharacterVertexBuffers(int i, int index_X4, bool isVolumetric);
     // protected System.Void FillSpriteVertexBuffers(System.Int32 i, System.Int32 index_X4)
-    // Offset: 0x1468830
+    // Offset: 0x14896B0
     void FillSpriteVertexBuffers(int i, int index_X4);
     // protected System.Void DrawUnderlineMesh(UnityEngine.Vector3 start, UnityEngine.Vector3 end, ref System.Int32 index, System.Single startScale, System.Single endScale, System.Single maxScale, System.Single sdfScale, UnityEngine.Color32 underlineColor)
-    // Offset: 0x1468E9C
+    // Offset: 0x1489D1C
     void DrawUnderlineMesh(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ByRef<int> index, float startScale, float endScale, float maxScale, float sdfScale, ::UnityEngine::Color32 underlineColor);
     // protected System.Void DrawTextHighlight(UnityEngine.Vector3 start, UnityEngine.Vector3 end, ref System.Int32 index, UnityEngine.Color32 highlightColor)
-    // Offset: 0x146A0B0
+    // Offset: 0x148AF30
     void DrawTextHighlight(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ByRef<int> index, ::UnityEngine::Color32 highlightColor);
     // protected System.Void LoadDefaultSettings()
-    // Offset: 0x146A60C
+    // Offset: 0x148B48C
     void LoadDefaultSettings();
     // protected System.Void GetSpecialCharacters(TMPro.TMP_FontAsset fontAsset)
-    // Offset: 0x146A7D0
+    // Offset: 0x148B650
     void GetSpecialCharacters(::TMPro::TMP_FontAsset* fontAsset);
     // protected System.Void ReplaceTagWithCharacter(System.Int32[] chars, System.Int32 insertionIndex, System.Int32 tagLength, System.Char c)
-    // Offset: 0x146AA2C
+    // Offset: 0x148B8AC
     void ReplaceTagWithCharacter(::ArrayW<int> chars, int insertionIndex, int tagLength, ::Il2CppChar c);
     // protected TMPro.TMP_FontAsset GetFontAssetForWeight(System.Int32 fontWeight)
-    // Offset: 0x146AAB0
+    // Offset: 0x148B930
     ::TMPro::TMP_FontAsset* GetFontAssetForWeight(int fontWeight);
     // protected System.Void SetActiveSubMeshes(System.Boolean state)
-    // Offset: 0x146AB34
+    // Offset: 0x148B9B4
     void SetActiveSubMeshes(bool state);
     // protected System.Void ClearSubMeshObjects()
-    // Offset: 0x146AB38
+    // Offset: 0x148B9B8
     void ClearSubMeshObjects();
     // public System.Void ClearMesh()
-    // Offset: 0x146AB3C
+    // Offset: 0x148B9BC
     void ClearMesh();
     // public System.Void ClearMesh(System.Boolean uploadGeometry)
-    // Offset: 0x146AB40
+    // Offset: 0x148B9C0
     void ClearMesh(bool uploadGeometry);
     // public System.String GetParsedText()
-    // Offset: 0x146AB44
+    // Offset: 0x148B9C4
     ::StringW GetParsedText();
     // protected UnityEngine.Vector2 PackUV(System.Single x, System.Single y, System.Single scale)
-    // Offset: 0x146A050
+    // Offset: 0x148AED0
     ::UnityEngine::Vector2 PackUV(float x, float y, float scale);
     // protected System.Single PackUV(System.Single x, System.Single y)
-    // Offset: 0x146AC44
+    // Offset: 0x148BAC4
     float PackUV(float x, float y);
     // System.Void InternalUpdate()
-    // Offset: 0x146ACA4
+    // Offset: 0x148BB24
     void InternalUpdate();
     // protected System.Int32 HexToInt(System.Char hex)
-    // Offset: 0x146ACA8
+    // Offset: 0x148BB28
     int HexToInt(::Il2CppChar hex);
     // protected System.Int32 GetUTF16(System.String text, System.Int32 i)
-    // Offset: 0x145D7A0
+    // Offset: 0x147E620
     int GetUTF16(::StringW text, int i);
     // protected System.Int32 GetUTF16(System.Text.StringBuilder text, System.Int32 i)
-    // Offset: 0x145DF70
+    // Offset: 0x147EDF0
     int GetUTF16(::System::Text::StringBuilder* text, int i);
     // protected System.Int32 GetUTF32(System.String text, System.Int32 i)
-    // Offset: 0x145D65C
+    // Offset: 0x147E4DC
     int GetUTF32(::StringW text, int i);
     // protected System.Int32 GetUTF32(System.Text.StringBuilder text, System.Int32 i)
-    // Offset: 0x145DE2C
+    // Offset: 0x147ECAC
     int GetUTF32(::System::Text::StringBuilder* text, int i);
     // protected UnityEngine.Color32 HexCharsToColor(System.Char[] hexChars, System.Int32 tagCount)
-    // Offset: 0x146ACD4
+    // Offset: 0x148BB54
     ::UnityEngine::Color32 HexCharsToColor(::ArrayW<::Il2CppChar> hexChars, int tagCount);
     // protected UnityEngine.Color32 HexCharsToColor(System.Char[] hexChars, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x146B12C
+    // Offset: 0x148BFAC
     ::UnityEngine::Color32 HexCharsToColor(::ArrayW<::Il2CppChar> hexChars, int startIndex, int length);
     // private System.Int32 GetAttributeParameters(System.Char[] chars, System.Int32 startIndex, System.Int32 length, ref System.Single[] parameters)
-    // Offset: 0x146B3A8
+    // Offset: 0x148C228
     int GetAttributeParameters(::ArrayW<::Il2CppChar> chars, int startIndex, int length, ByRef<::ArrayW<float>> parameters);
     // protected System.Single ConvertToFloat(System.Char[] chars, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x146B5D4
+    // Offset: 0x148C454
     float ConvertToFloat(::ArrayW<::Il2CppChar> chars, int startIndex, int length);
     // protected System.Single ConvertToFloat(System.Char[] chars, System.Int32 startIndex, System.Int32 length, out System.Int32 lastIndex)
-    // Offset: 0x146B468
+    // Offset: 0x148C2E8
     float ConvertToFloat(::ArrayW<::Il2CppChar> chars, int startIndex, int length, ByRef<int> lastIndex);
     // protected System.Boolean ValidateHtmlTag(TMPro.TMP_Text/TMPro.UnicodeChar[] chars, System.Int32 startIndex, out System.Int32 endIndex)
-    // Offset: 0x1461540
+    // Offset: 0x14823C0
     bool ValidateHtmlTag(::ArrayW<::TMPro::TMP_Text::UnicodeChar> chars, int startIndex, ByRef<int> endIndex);
     // public override UnityEngine.Color get_color()
-    // Offset: 0x14580AC
+    // Offset: 0x1478F2C
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: UnityEngine.Color Graphic::get_color()
     ::UnityEngine::Color get_color();
     // public override System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x14580C0
+    // Offset: 0x1478F40
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::set_color(UnityEngine.Color value)
     void set_color(::UnityEngine::Color value);
-    // public UnityEngine.Transform get_transform()
-    // Offset: 0x1456FD4
-    // Implemented from: UnityEngine.UI.Graphic
-    // Base method: UnityEngine.Transform Graphic::UnityEngine.UI.ICanvasElement.get_transform()
-    // Base method: UnityEngine.Transform Component::get_transform()
-    // Base method: UnityEngine.Transform ICanvasElement::get_transform()
-    ::UnityEngine::Transform* get_transform();
-    // public UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0x145706C
-    // Implemented from: UnityEngine.UI.Graphic
-    // Base method: UnityEngine.RectTransform Graphic::get_rectTransform()
-    // Base method: UnityEngine.RectTransform IClippable::get_rectTransform()
-    ::UnityEngine::RectTransform* get_rectTransform();
-    // protected System.Void .ctor()
-    // Offset: 0x146B5F8
-    // Implemented from: UnityEngine.UI.MaskableGraphic
-    // Base method: System.Void MaskableGraphic::.ctor()
-    // Base method: System.Void Graphic::.ctor()
-    // Base method: System.Void UIBehaviour::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TMP_Text* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_Text::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<TMP_Text*, creationType>()));
-    }
-    // static private System.Void .cctor()
-    // Offset: 0x146BC78
-    // Implemented from: UnityEngine.UI.Graphic
-    // Base method: System.Void Graphic::.cctor()
-    // Base method: System.Void Object::.cctor()
-    static void _cctor();
     // public override System.Void CrossFadeColor(UnityEngine.Color targetColor, System.Single duration, System.Boolean ignoreTimeScale, System.Boolean useAlpha)
-    // Offset: 0x145A410
+    // Offset: 0x147B290
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::CrossFadeColor(UnityEngine.Color targetColor, System.Single duration, System.Boolean ignoreTimeScale, System.Boolean useAlpha)
     void CrossFadeColor(::UnityEngine::Color targetColor, float duration, bool ignoreTimeScale, bool useAlpha);
     // public override System.Void CrossFadeAlpha(System.Single alpha, System.Single duration, System.Boolean ignoreTimeScale)
-    // Offset: 0x145A4A4
+    // Offset: 0x147B324
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::CrossFadeAlpha(System.Single alpha, System.Single duration, System.Boolean ignoreTimeScale)
     void CrossFadeAlpha(float alpha, float duration, bool ignoreTimeScale);
@@ -3728,6 +3701,22 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "set_isUsingLegacyAnimationComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: TMPro::TMP_Text::get_transform
+// Il2CppName: get_transform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Transform* (TMPro::TMP_Text::*)()>(&TMPro::TMP_Text::get_transform)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TMPro::TMP_Text::get_rectTransform
+// Il2CppName: get_rectTransform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RectTransform* (TMPro::TMP_Text::*)()>(&TMPro::TMP_Text::get_rectTransform)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Text::get_autoSizeTextContainer
 // Il2CppName: get_autoSizeTextContainer
 template<>
@@ -3888,6 +3877,18 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_Text::*)()>(&TMPro::TMP_Text::get_layoutPriority)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "get_layoutPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TMPro::TMP_Text::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: TMPro::TMP_Text::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMPro::TMP_Text::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_Text::LoadFontAsset
@@ -5043,34 +5044,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: TMPro::TMP_Text::get_transform
-// Il2CppName: get_transform
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Transform* (TMPro::TMP_Text::*)()>(&TMPro::TMP_Text::get_transform)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: TMPro::TMP_Text::get_rectTransform
-// Il2CppName: get_rectTransform
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RectTransform* (TMPro::TMP_Text::*)()>(&TMPro::TMP_Text::get_rectTransform)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: TMPro::TMP_Text::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: TMPro::TMP_Text::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMPro::TMP_Text::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_Text::CrossFadeColor

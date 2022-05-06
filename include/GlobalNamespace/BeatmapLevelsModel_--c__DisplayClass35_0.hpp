@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class BeatmapLevelsModel::$$c__DisplayClass35_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String levelId
     // Size: 0x8
     // Offset: 0x10
@@ -53,25 +45,27 @@ namespace GlobalNamespace {
       return levelId;
     }
     // Get instance field reference: public System.String levelId
-    ::StringW& dyn_levelId();
-    // System.Boolean <GetLevelPreviewForLevelId>b__1(IPreviewBeatmapLevel beatmapLevel)
-    // Offset: 0x14D38BC
-    bool $GetLevelPreviewForLevelId$b__1(::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_levelId();
     // public System.Void .ctor()
-    // Offset: 0x14D31D0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x150AAD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelsModel::$$c__DisplayClass35_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass35_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelsModel::$$c__DisplayClass35_0*, creationType>()));
     }
+    // System.Boolean <GetLevelPreviewForLevelId>b__1(IPreviewBeatmapLevel beatmapLevel)
+    // Offset: 0x150B1C4
+    bool $GetLevelPreviewForLevelId$b__1(::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
   }; // BeatmapLevelsModel/<>c__DisplayClass35_0
   #pragma pack(pop)
   static check_size<sizeof(BeatmapLevelsModel::$$c__DisplayClass35_0), 16 + sizeof(::StringW)> __GlobalNamespace_BeatmapLevelsModel_$$c__DisplayClass35_0SizeCheck;
   static_assert(sizeof(BeatmapLevelsModel::$$c__DisplayClass35_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass35_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass35_0::$GetLevelPreviewForLevelId$b__1
 // Il2CppName: <GetLevelPreviewForLevelId>b__1
 template<>
@@ -81,7 +75,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass35_0*), "<GetLevelPreviewForLevelId>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapLevel});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass35_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

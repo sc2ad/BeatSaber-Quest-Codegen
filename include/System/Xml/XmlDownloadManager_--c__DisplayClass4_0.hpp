@@ -36,15 +36,7 @@ namespace System::Xml {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class XmlDownloadManager::$$c__DisplayClass4_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Uri uri
     // Size: 0x8
     // Offset: 0x10
@@ -57,25 +49,27 @@ namespace System::Xml {
       return uri;
     }
     // Get instance field reference: public System.Uri uri
-    ::System::Uri*& dyn_uri();
-    // System.IO.Stream <GetStreamAsync>b__0()
-    // Offset: 0x1B7FE44
-    ::System::IO::Stream* $GetStreamAsync$b__0();
+    [[deprecated("Use field access instead!")]] ::System::Uri*& dyn_uri();
     // public System.Void .ctor()
-    // Offset: 0x1B7FCFC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1BBA2E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlDownloadManager::$$c__DisplayClass4_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlDownloadManager::$$c__DisplayClass4_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlDownloadManager::$$c__DisplayClass4_0*, creationType>()));
     }
+    // System.IO.Stream <GetStreamAsync>b__0()
+    // Offset: 0x1BBA42C
+    ::System::IO::Stream* $GetStreamAsync$b__0();
   }; // System.Xml.XmlDownloadManager/System.Xml.<>c__DisplayClass4_0
   #pragma pack(pop)
   static check_size<sizeof(XmlDownloadManager::$$c__DisplayClass4_0), 16 + sizeof(::System::Uri*)> __System_Xml_XmlDownloadManager_$$c__DisplayClass4_0SizeCheck;
   static_assert(sizeof(XmlDownloadManager::$$c__DisplayClass4_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Xml::XmlDownloadManager::$$c__DisplayClass4_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::XmlDownloadManager::$$c__DisplayClass4_0::$GetStreamAsync$b__0
 // Il2CppName: <GetStreamAsync>b__0
 template<>
@@ -84,7 +78,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::I
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlDownloadManager::$$c__DisplayClass4_0*), "<GetStreamAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Xml::XmlDownloadManager::$$c__DisplayClass4_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

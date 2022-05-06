@@ -33,7 +33,6 @@ namespace GlobalNamespace {
     // Implemented from: DataItemConvertor`3
     // Base method: System.Void DataItemConvertor_3::.ctor()
     // Base method: System.Void DataItemConvertor_1::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultDataConvertor_3<TBase, TIn, TOut>* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DefaultDataConvertor_3::.ctor");

@@ -72,15 +72,7 @@ namespace Mono::Net::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class ChainValidationHelper : public ::Il2CppObject/*, public ::Mono::Security::Interface::ICertificateValidator2*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Object sender
     // Size: 0x8
     // Offset: 0x10
@@ -135,54 +127,54 @@ namespace Mono::Net::Security {
       return *reinterpret_cast<::Mono::Security::Interface::ICertificateValidator2*>(this);
     }
     // Get instance field reference: private readonly System.Object sender
-    ::Il2CppObject*& dyn_sender();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_sender();
     // Get instance field reference: private readonly Mono.Security.Interface.MonoTlsSettings settings
-    ::Mono::Security::Interface::MonoTlsSettings*& dyn_settings();
+    [[deprecated("Use field access instead!")]] ::Mono::Security::Interface::MonoTlsSettings*& dyn_settings();
     // Get instance field reference: private readonly Mono.Security.Interface.MonoTlsProvider provider
-    ::Mono::Security::Interface::MonoTlsProvider*& dyn_provider();
+    [[deprecated("Use field access instead!")]] ::Mono::Security::Interface::MonoTlsProvider*& dyn_provider();
     // Get instance field reference: private readonly System.Net.ServerCertValidationCallback certValidationCallback
-    ::System::Net::ServerCertValidationCallback*& dyn_certValidationCallback();
+    [[deprecated("Use field access instead!")]] ::System::Net::ServerCertValidationCallback*& dyn_certValidationCallback();
     // Get instance field reference: private readonly System.Net.Security.LocalCertSelectionCallback certSelectionCallback
-    ::System::Net::Security::LocalCertSelectionCallback*& dyn_certSelectionCallback();
+    [[deprecated("Use field access instead!")]] ::System::Net::Security::LocalCertSelectionCallback*& dyn_certSelectionCallback();
     // Get instance field reference: private readonly Mono.Net.Security.ServerCertValidationCallbackWrapper callbackWrapper
-    ::Mono::Net::Security::ServerCertValidationCallbackWrapper*& dyn_callbackWrapper();
+    [[deprecated("Use field access instead!")]] ::Mono::Net::Security::ServerCertValidationCallbackWrapper*& dyn_callbackWrapper();
     // Get instance field reference: private readonly Mono.Net.Security.MonoTlsStream tlsStream
-    ::Mono::Net::Security::MonoTlsStream*& dyn_tlsStream();
+    [[deprecated("Use field access instead!")]] ::Mono::Net::Security::MonoTlsStream*& dyn_tlsStream();
     // Get instance field reference: private readonly System.Net.HttpWebRequest request
-    ::System::Net::HttpWebRequest*& dyn_request();
+    [[deprecated("Use field access instead!")]] ::System::Net::HttpWebRequest*& dyn_request();
     // public Mono.Security.Interface.MonoTlsSettings get_Settings()
-    // Offset: 0x1A9DEBC
+    // Offset: 0x1AD84A4
     ::Mono::Security::Interface::MonoTlsSettings* get_Settings();
     // private System.Void .ctor(Mono.Security.Interface.MonoTlsProvider provider, Mono.Security.Interface.MonoTlsSettings settings, System.Boolean cloneSettings, Mono.Net.Security.MonoTlsStream stream, Mono.Net.Security.ServerCertValidationCallbackWrapper callbackWrapper)
-    // Offset: 0x1A9D9B8
+    // Offset: 0x1AD7FA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChainValidationHelper* New_ctor(::Mono::Security::Interface::MonoTlsProvider* provider, ::Mono::Security::Interface::MonoTlsSettings* settings, bool cloneSettings, ::Mono::Net::Security::MonoTlsStream* stream, ::Mono::Net::Security::ServerCertValidationCallbackWrapper* callbackWrapper) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::Security::ChainValidationHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChainValidationHelper*, creationType>(provider, settings, cloneSettings, stream, callbackWrapper)));
     }
     // static Mono.Security.Interface.ICertificateValidator GetInternalValidator(Mono.Security.Interface.MonoTlsProvider provider, Mono.Security.Interface.MonoTlsSettings settings)
-    // Offset: 0x1A9D910
+    // Offset: 0x1AD7EF8
     static ::Mono::Security::Interface::ICertificateValidator* GetInternalValidator(::Mono::Security::Interface::MonoTlsProvider* provider, ::Mono::Security::Interface::MonoTlsSettings* settings);
     // static Mono.Net.Security.ChainValidationHelper Create(Mono.Security.Interface.MonoTlsProvider provider, ref Mono.Security.Interface.MonoTlsSettings settings, Mono.Net.Security.MonoTlsStream stream)
-    // Offset: 0x1A9DBFC
+    // Offset: 0x1AD81E4
     static ::Mono::Net::Security::ChainValidationHelper* Create(::Mono::Security::Interface::MonoTlsProvider* provider, ByRef<::Mono::Security::Interface::MonoTlsSettings*> settings, ::Mono::Net::Security::MonoTlsStream* stream);
     // static private System.Security.Cryptography.X509Certificates.X509Certificate DefaultSelectionCallback(System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection localCertificates, System.Security.Cryptography.X509Certificates.X509Certificate remoteCertificate, System.String[] acceptableIssuers)
-    // Offset: 0x1A9DE70
+    // Offset: 0x1AD8458
     static ::System::Security::Cryptography::X509Certificates::X509Certificate* DefaultSelectionCallback(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayW<::StringW> acceptableIssuers);
     // public System.Boolean SelectClientCertificate(System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection localCertificates, System.Security.Cryptography.X509Certificates.X509Certificate remoteCertificate, System.String[] acceptableIssuers, out System.Security.Cryptography.X509Certificates.X509Certificate clientCertificate)
-    // Offset: 0x1A9DEC4
+    // Offset: 0x1AD84AC
     bool SelectClientCertificate(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayW<::StringW> acceptableIssuers, ByRef<::System::Security::Cryptography::X509Certificates::X509Certificate*> clientCertificate);
     // public Mono.Security.Interface.ValidationResult ValidateCertificate(System.String host, System.Boolean serverMode, System.Security.Cryptography.X509Certificates.X509CertificateCollection certs)
-    // Offset: 0x1A9DF04
+    // Offset: 0x1AD84EC
     ::Mono::Security::Interface::ValidationResult* ValidateCertificate(::StringW host, bool serverMode, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certs);
     // public Mono.Security.Interface.ValidationResult ValidateCertificate(System.String host, System.Boolean serverMode, System.Security.Cryptography.X509Certificates.X509Certificate leaf, System.Security.Cryptography.X509Certificates.X509Chain chain)
-    // Offset: 0x1A9E118
+    // Offset: 0x1AD8700
     ::Mono::Security::Interface::ValidationResult* ValidateCertificate(::StringW host, bool serverMode, ::System::Security::Cryptography::X509Certificates::X509Certificate* leaf, ::System::Security::Cryptography::X509Certificates::X509Chain* chain);
     // private Mono.Security.Interface.ValidationResult ValidateChain(System.String host, System.Boolean server, System.Security.Cryptography.X509Certificates.X509Certificate leaf, System.Security.Cryptography.X509Certificates.X509Chain chain, System.Security.Cryptography.X509Certificates.X509CertificateCollection certs, System.Net.Security.SslPolicyErrors errors)
-    // Offset: 0x1A9E068
+    // Offset: 0x1AD8650
     ::Mono::Security::Interface::ValidationResult* ValidateChain(::StringW host, bool server, ::System::Security::Cryptography::X509Certificates::X509Certificate* leaf, ::System::Security::Cryptography::X509Certificates::X509Chain* chain, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certs, ::System::Net::Security::SslPolicyErrors errors);
     // private Mono.Security.Interface.ValidationResult ValidateChain(System.String host, System.Boolean server, System.Security.Cryptography.X509Certificates.X509Certificate leaf, ref System.Security.Cryptography.X509Certificates.X509Chain chain, System.Security.Cryptography.X509Certificates.X509CertificateCollection certs, System.Net.Security.SslPolicyErrors errors)
-    // Offset: 0x1A9E24C
+    // Offset: 0x1AD8834
     ::Mono::Security::Interface::ValidationResult* ValidateChain_(::StringW host, bool server, ::System::Security::Cryptography::X509Certificates::X509Certificate* leaf, ByRef<::System::Security::Cryptography::X509Certificates::X509Chain*> chain, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certs, ::System::Net::Security::SslPolicyErrors errors);
   }; // Mono.Net.Security.ChainValidationHelper
   #pragma pack(pop)

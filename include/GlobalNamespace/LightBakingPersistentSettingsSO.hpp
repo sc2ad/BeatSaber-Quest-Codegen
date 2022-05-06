@@ -73,15 +73,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightBakingPersistentSettingsSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _reflectionsCount
     // Size: 0x4
     // Offset: 0x18
@@ -90,7 +82,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: reflectionsCount and: bloomPrePassEffectToneMappingOff
     char __padding0[0x4] = {};
-    // [SpaceAttribute] Offset: 0x125EFF4
+    // [SpaceAttribute] Offset: 0x10E3BD8
     // private BloomPrePassEffectSO _bloomPrePassEffectToneMappingOff
     // Size: 0x8
     // Offset: 0x20
@@ -103,7 +95,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MainEffectSO* mainEffectForBaking;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MainEffectSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125F03C
+    // [SpaceAttribute] Offset: 0x10E3C20
     // private System.Single _colorFromSchemeAlpha
     // Size: 0x4
     // Offset: 0x30
@@ -118,7 +110,7 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::Color> bakedLightEditorColors;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::Color>) == 0x8);
-    // [SpaceAttribute] Offset: 0x125F084
+    // [SpaceAttribute] Offset: 0x10E3C68
     // private MainSettingsModelSO _mainSettingsModel
     // Size: 0x8
     // Offset: 0x40
@@ -161,7 +153,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BloomPrePassEffectContainerSO* bloomPrePassEffectContainer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BloomPrePassEffectContainerSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125F11C
+    // [SpaceAttribute] Offset: 0x10E3D00
     // private BakedLightDataLoader _bakedLightDataLoaderPrefab
     // Size: 0x8
     // Offset: 0x78
@@ -250,104 +242,99 @@ namespace GlobalNamespace {
     // Set static field: static private System.Boolean kDefaultScreenDisplacementEffectsEnabled
     static void _set_kDefaultScreenDisplacementEffectsEnabled(bool value);
     // Get instance field reference: private System.Int32 _reflectionsCount
-    int& dyn__reflectionsCount();
+    [[deprecated("Use field access instead!")]] int& dyn__reflectionsCount();
     // Get instance field reference: private BloomPrePassEffectSO _bloomPrePassEffectToneMappingOff
-    ::GlobalNamespace::BloomPrePassEffectSO*& dyn__bloomPrePassEffectToneMappingOff();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassEffectSO*& dyn__bloomPrePassEffectToneMappingOff();
     // Get instance field reference: private MainEffectSO _mainEffectForBaking
-    ::GlobalNamespace::MainEffectSO*& dyn__mainEffectForBaking();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainEffectSO*& dyn__mainEffectForBaking();
     // Get instance field reference: private System.Single _colorFromSchemeAlpha
-    float& dyn__colorFromSchemeAlpha();
+    [[deprecated("Use field access instead!")]] float& dyn__colorFromSchemeAlpha();
     // Get instance field reference: private UnityEngine.Color[] _bakedLightEditorColors
-    ::ArrayW<::UnityEngine::Color>& dyn__bakedLightEditorColors();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Color>& dyn__bakedLightEditorColors();
     // Get instance field reference: private MainSettingsModelSO _mainSettingsModel
-    ::GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
     // Get instance field reference: private MirrorRendererGraphicsSettingsPresets _mirrorRendererGraphicsSettingsPresets
-    ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*& dyn__mirrorRendererGraphicsSettingsPresets();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*& dyn__mirrorRendererGraphicsSettingsPresets();
     // Get instance field reference: private MainEffectGraphicsSettingsPresetsSO _mainEffectGraphicsSettingsPresets
-    ::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*& dyn__mainEffectGraphicsSettingsPresets();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*& dyn__mainEffectGraphicsSettingsPresets();
     // Get instance field reference: private BloomPrePassGraphicsSettingsPresetsSO _bloomPrePassGraphicsSettingsPresets
-    ::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*& dyn__bloomPrePassGraphicsSettingsPresets();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*& dyn__bloomPrePassGraphicsSettingsPresets();
     // Get instance field reference: private MirrorRendererSO _mirrorRenderer
-    ::GlobalNamespace::MirrorRendererSO*& dyn__mirrorRenderer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MirrorRendererSO*& dyn__mirrorRenderer();
     // Get instance field reference: private MainEffectContainerSO _mainEffectContainer
-    ::GlobalNamespace::MainEffectContainerSO*& dyn__mainEffectContainer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainEffectContainerSO*& dyn__mainEffectContainer();
     // Get instance field reference: private BloomPrePassEffectContainerSO _bloomPrePassEffectContainer
-    ::GlobalNamespace::BloomPrePassEffectContainerSO*& dyn__bloomPrePassEffectContainer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassEffectContainerSO*& dyn__bloomPrePassEffectContainer();
     // Get instance field reference: private BakedLightDataLoader _bakedLightDataLoaderPrefab
-    ::GlobalNamespace::BakedLightDataLoader*& dyn__bakedLightDataLoaderPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BakedLightDataLoader*& dyn__bakedLightDataLoaderPrefab();
     // Get instance field reference: private BakedReflectionProbe _bakedReflectionProbePrefab
-    ::GlobalNamespace::BakedReflectionProbe*& dyn__bakedReflectionProbePrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BakedReflectionProbe*& dyn__bakedReflectionProbePrefab();
     // Get instance field reference: private LightmapLightsWithIds _lightmapLightsWithIds
-    ::GlobalNamespace::LightmapLightsWithIds*& dyn__lightmapLightsWithIds();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightmapLightsWithIds*& dyn__lightmapLightsWithIds();
     // Get instance field reference: private FakeMirrorObjectsInstaller _fakeMirrorObjectsInstallerPrefab
-    ::GlobalNamespace::FakeMirrorObjectsInstaller*& dyn__fakeMirrorObjectsInstallerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FakeMirrorObjectsInstaller*& dyn__fakeMirrorObjectsInstallerPrefab();
     // Get instance field reference: private FakeMirrorSettings _fakeMirrorSettingsPrefab
-    ::GlobalNamespace::FakeMirrorSettings*& dyn__fakeMirrorSettingsPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FakeMirrorSettings*& dyn__fakeMirrorSettingsPrefab();
     // Get instance field reference: private UnityEngine.Material _defaultDepthOnlyWriteMaterialForFakeMirror
-    ::UnityEngine::Material*& dyn__defaultDepthOnlyWriteMaterialForFakeMirror();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__defaultDepthOnlyWriteMaterialForFakeMirror();
     // public System.Int32 get_reflectionsCount()
-    // Offset: 0x148ACE0
+    // Offset: 0x14C1560
     int get_reflectionsCount();
     // public System.Void set_reflectionsCount(System.Int32 value)
-    // Offset: 0x148ACE8
+    // Offset: 0x14C1568
     void set_reflectionsCount(int value);
     // public System.Single get_colorFromSchemeAlpha()
-    // Offset: 0x148ACF0
+    // Offset: 0x14C1570
     float get_colorFromSchemeAlpha();
     // public System.Void set_colorFromSchemeAlpha(System.Single value)
-    // Offset: 0x148ACF8
+    // Offset: 0x14C1578
     void set_colorFromSchemeAlpha(float value);
     // public UnityEngine.Color[] get_bakedLightEditorColors()
-    // Offset: 0x148AD00
+    // Offset: 0x14C1580
     ::ArrayW<::UnityEngine::Color> get_bakedLightEditorColors();
     // public UnityEngine.Material get_defaultDepthOnlyWriteMaterialForFakeMirror()
-    // Offset: 0x148AD08
+    // Offset: 0x14C1588
     ::UnityEngine::Material* get_defaultDepthOnlyWriteMaterialForFakeMirror();
     // public System.Boolean get_mainEffectForBakingIsOn()
-    // Offset: 0x148AD10
+    // Offset: 0x14C1590
     bool get_mainEffectForBakingIsOn();
     // public System.Void set_mainEffectForBakingIsOn(System.Boolean value)
-    // Offset: 0x148AD90
+    // Offset: 0x14C1610
     void set_mainEffectForBakingIsOn(bool value);
     // public BakedLightDataLoader get_bakedLightDataLoaderPrefab()
-    // Offset: 0x148AE54
+    // Offset: 0x14C16D4
     ::GlobalNamespace::BakedLightDataLoader* get_bakedLightDataLoaderPrefab();
     // public BakedReflectionProbe get_bakedReflectionProbePrefab()
-    // Offset: 0x148AE5C
+    // Offset: 0x14C16DC
     ::GlobalNamespace::BakedReflectionProbe* get_bakedReflectionProbePrefab();
     // public LightmapLightsWithIds get_lightmapLightsWithIds()
-    // Offset: 0x148AE64
+    // Offset: 0x14C16E4
     ::GlobalNamespace::LightmapLightsWithIds* get_lightmapLightsWithIds();
     // public FakeMirrorObjectsInstaller get_fakeMirrorObjectsInstallerPrefab()
-    // Offset: 0x148AE6C
+    // Offset: 0x14C16EC
     ::GlobalNamespace::FakeMirrorObjectsInstaller* get_fakeMirrorObjectsInstallerPrefab();
     // public FakeMirrorSettings get_fakeMirrorSettingsPrefab()
-    // Offset: 0x148AE74
+    // Offset: 0x14C16F4
     ::GlobalNamespace::FakeMirrorSettings* get_fakeMirrorSettingsPrefab();
-    // public System.Void SetGraphicsSettingsForBaking()
-    // Offset: 0x148AE7C
-    void SetGraphicsSettingsForBaking();
-    // public System.Void SetPlatformGraphics()
-    // Offset: 0x148B180
-    void SetPlatformGraphics();
-    // public System.Void SetToneMappingOn(System.Boolean isOn)
-    // Offset: 0x148B0B8
-    void SetToneMappingOn(bool isOn);
-    // public System.Boolean IsToneMappingOn()
-    // Offset: 0x148B42C
-    bool IsToneMappingOn();
     // public System.Void .ctor()
-    // Offset: 0x148B464
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14C1CE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightBakingPersistentSettingsSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightBakingPersistentSettingsSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightBakingPersistentSettingsSO*, creationType>()));
     }
+    // public System.Void SetGraphicsSettingsForBaking()
+    // Offset: 0x14C16FC
+    void SetGraphicsSettingsForBaking();
+    // public System.Void SetPlatformGraphics()
+    // Offset: 0x14C1A00
+    void SetPlatformGraphics();
+    // public System.Void SetToneMappingOn(System.Boolean isOn)
+    // Offset: 0x14C1938
+    void SetToneMappingOn(bool isOn);
+    // public System.Boolean IsToneMappingOn()
+    // Offset: 0x14C1CAC
+    bool IsToneMappingOn();
   }; // LightBakingPersistentSettingsSO
   #pragma pack(pop)
   static check_size<sizeof(LightBakingPersistentSettingsSO), 160 + sizeof(::UnityEngine::Material*)> __GlobalNamespace_LightBakingPersistentSettingsSOSizeCheck;
@@ -461,6 +448,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_fakeMirrorSettingsPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::SetGraphicsSettingsForBaking
 // Il2CppName: SetGraphicsSettingsForBaking
 template<>
@@ -494,7 +485,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "IsToneMappingOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

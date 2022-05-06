@@ -37,15 +37,7 @@ namespace UnityEngine::AddressableAssets::Utility {
   // [TokenAttribute] Offset: FFFFFFFF
   class DiagnosticInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String DisplayName
     // Size: 0x8
     // Offset: 0x10
@@ -68,29 +60,31 @@ namespace UnityEngine::AddressableAssets::Utility {
     static_assert(sizeof(::ArrayW<int>) == 0x8);
     public:
     // Get instance field reference: public System.String DisplayName
-    ::StringW& dyn_DisplayName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_DisplayName();
     // Get instance field reference: public System.Int32 ObjectId
-    int& dyn_ObjectId();
+    [[deprecated("Use field access instead!")]] int& dyn_ObjectId();
     // Get instance field reference: public System.Int32[] Dependencies
-    ::ArrayW<int>& dyn_Dependencies();
-    // public UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent CreateEvent(System.String category, UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType eventType, System.Int32 frame, System.Int32 val)
-    // Offset: 0x2A685C8
-    ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent CreateEvent(::StringW category, ::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType eventType, int frame, int val);
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_Dependencies();
     // public System.Void .ctor()
-    // Offset: 0x2A68610
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2ABF9F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiagnosticInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::Utility::DiagnosticInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiagnosticInfo*, creationType>()));
     }
+    // public UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent CreateEvent(System.String category, UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType eventType, System.Int32 frame, System.Int32 val)
+    // Offset: 0x2ABF9B0
+    ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent CreateEvent(::StringW category, ::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType eventType, int frame, int val);
   }; // UnityEngine.AddressableAssets.Utility.DiagnosticInfo
   #pragma pack(pop)
   static check_size<sizeof(DiagnosticInfo), 32 + sizeof(::ArrayW<int>)> __UnityEngine_AddressableAssets_Utility_DiagnosticInfoSizeCheck;
   static_assert(sizeof(DiagnosticInfo) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::Utility::DiagnosticInfo::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Utility::DiagnosticInfo::CreateEvent
 // Il2CppName: CreateEvent
 template<>
@@ -103,7 +97,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Utility::DiagnosticInfo*), "CreateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{category, eventType, frame, val});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::AddressableAssets::Utility::DiagnosticInfo::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

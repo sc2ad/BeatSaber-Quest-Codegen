@@ -28,15 +28,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveData::PlayerLevelStatsData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String levelId
     // Size: 0x8
     // Offset: 0x10
@@ -99,27 +91,25 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public System.String levelId
-    ::StringW& dyn_levelId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_levelId();
     // Get instance field reference: public BeatmapDifficulty difficulty
-    ::GlobalNamespace::BeatmapDifficulty& dyn_difficulty();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficulty& dyn_difficulty();
     // Get instance field reference: public System.String beatmapCharacteristicName
-    ::StringW& dyn_beatmapCharacteristicName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_beatmapCharacteristicName();
     // Get instance field reference: public System.Int32 highScore
-    int& dyn_highScore();
+    [[deprecated("Use field access instead!")]] int& dyn_highScore();
     // Get instance field reference: public System.Int32 maxCombo
-    int& dyn_maxCombo();
+    [[deprecated("Use field access instead!")]] int& dyn_maxCombo();
     // Get instance field reference: public System.Boolean fullCombo
-    bool& dyn_fullCombo();
+    [[deprecated("Use field access instead!")]] bool& dyn_fullCombo();
     // Get instance field reference: public RankModel/Rank maxRank
-    ::GlobalNamespace::RankModel::Rank& dyn_maxRank();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::RankModel::Rank& dyn_maxRank();
     // Get instance field reference: public System.Boolean validScore
-    bool& dyn_validScore();
+    [[deprecated("Use field access instead!")]] bool& dyn_validScore();
     // Get instance field reference: public System.Int32 playCount
-    int& dyn_playCount();
+    [[deprecated("Use field access instead!")]] int& dyn_playCount();
     // public System.Void .ctor()
-    // Offset: 0x1371638
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D47DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::PlayerLevelStatsData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::PlayerLevelStatsData::.ctor");

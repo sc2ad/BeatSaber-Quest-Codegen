@@ -44,15 +44,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayersMissingEntitlementsNetSerializable : public ::Il2CppObject/*, public ::LiteNetLib::Utils::INetSerializable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.List`1<System.String> _playersWithoutEntitlements
     // Size: 0x8
     // Offset: 0x10
@@ -69,32 +61,30 @@ namespace GlobalNamespace {
       return playersWithoutEntitlements;
     }
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> _playersWithoutEntitlements
-    ::System::Collections::Generic::List_1<::StringW>*& dyn__playersWithoutEntitlements();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn__playersWithoutEntitlements();
     // public System.Collections.Generic.List`1<System.String> get_playersWithoutEntitlements()
-    // Offset: 0x29C1F3C
+    // Offset: 0x2A042B0
     ::System::Collections::Generic::List_1<::StringW>* get_playersWithoutEntitlements();
+    // public System.Void .ctor()
+    // Offset: 0x2A042B8
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static PlayersMissingEntitlementsNetSerializable* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<PlayersMissingEntitlementsNetSerializable*, creationType>()));
+    }
     // public System.Void .ctor(System.Collections.Generic.List`1<System.String> playersWithoutEntitlements)
-    // Offset: 0x29C1F4C
+    // Offset: 0x2A042C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayersMissingEntitlementsNetSerializable* New_ctor(::System::Collections::Generic::List_1<::StringW>* playersWithoutEntitlements) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayersMissingEntitlementsNetSerializable*, creationType>(playersWithoutEntitlements)));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x29C1F78
+    // Offset: 0x2A042EC
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29C2090
+    // Offset: 0x2A04404
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
-    // public System.Void .ctor()
-    // Offset: 0x29C1F44
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PlayersMissingEntitlementsNetSerializable* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<PlayersMissingEntitlementsNetSerializable*, creationType>()));
-    }
   }; // PlayersMissingEntitlementsNetSerializable
   #pragma pack(pop)
   static check_size<sizeof(PlayersMissingEntitlementsNetSerializable), 16 + sizeof(::System::Collections::Generic::List_1<::StringW>*)> __GlobalNamespace_PlayersMissingEntitlementsNetSerializableSizeCheck;
@@ -109,6 +99,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayersMissingEntitlementsNetSerializable*), "get_playersWithoutEntitlements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PlayersMissingEntitlementsNetSerializable::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PlayersMissingEntitlementsNetSerializable::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -131,7 +125,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayersMissingEntitlementsNetSerializable*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PlayersMissingEntitlementsNetSerializable::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

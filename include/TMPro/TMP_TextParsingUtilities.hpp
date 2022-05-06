@@ -51,44 +51,42 @@ namespace TMPro {
     // Set static field: static private System.String k_LookupStringU
     static void _set_k_LookupStringU(::StringW value);
     // static public TMPro.TMP_TextParsingUtilities get_instance()
-    // Offset: 0x18C4C44
+    // Offset: 0x18FE554
     static ::TMPro::TMP_TextParsingUtilities* get_instance();
     // static private System.Void .cctor()
-    // Offset: 0x18C4BD8
+    // Offset: 0x18FE4E8
     static void _cctor();
-    // static public System.UInt32 GetHashCode(System.String s)
-    // Offset: 0x18C4CAC
-    static uint GetHashCode(::StringW s);
-    // static public System.Int32 GetHashCodeCaseSensitive(System.String s)
-    // Offset: 0x18C4DFC
-    static int GetHashCodeCaseSensitive(::StringW s);
-    // static public System.Char ToLowerASCIIFast(System.Char c)
-    // Offset: 0x18C4E74
-    static ::Il2CppChar ToLowerASCIIFast(::Il2CppChar c);
-    // static public System.Char ToUpperASCIIFast(System.Char c)
-    // Offset: 0x18C4D80
-    static ::Il2CppChar ToUpperASCIIFast(::Il2CppChar c);
-    // static public System.UInt32 ToUpperASCIIFast(System.UInt32 c)
-    // Offset: 0x18C4EF0
-    static uint ToUpperASCIIFast(uint c);
-    // static public System.UInt32 ToLowerASCIIFast(System.UInt32 c)
-    // Offset: 0x18C4F6C
-    static uint ToLowerASCIIFast(uint c);
-    // static public System.Boolean IsHighSurrogate(System.UInt32 c)
-    // Offset: 0x18C4FE8
-    static bool IsHighSurrogate(uint c);
-    // static public System.Boolean IsLowSurrogate(System.UInt32 c)
-    // Offset: 0x18C4FFC
-    static bool IsLowSurrogate(uint c);
     // public System.Void .ctor()
-    // Offset: 0x18C4C3C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18FE54C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_TextParsingUtilities* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_TextParsingUtilities::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_TextParsingUtilities*, creationType>()));
     }
+    // static public System.UInt32 GetHashCode(System.String s)
+    // Offset: 0x18FE5BC
+    static uint GetHashCode(::StringW s);
+    // static public System.Int32 GetHashCodeCaseSensitive(System.String s)
+    // Offset: 0x18FE70C
+    static int GetHashCodeCaseSensitive(::StringW s);
+    // static public System.Char ToLowerASCIIFast(System.Char c)
+    // Offset: 0x18FE784
+    static ::Il2CppChar ToLowerASCIIFast(::Il2CppChar c);
+    // static public System.Char ToUpperASCIIFast(System.Char c)
+    // Offset: 0x18FE690
+    static ::Il2CppChar ToUpperASCIIFast(::Il2CppChar c);
+    // static public System.UInt32 ToUpperASCIIFast(System.UInt32 c)
+    // Offset: 0x18FE800
+    static uint ToUpperASCIIFast(uint c);
+    // static public System.UInt32 ToLowerASCIIFast(System.UInt32 c)
+    // Offset: 0x18FE87C
+    static uint ToLowerASCIIFast(uint c);
+    // static public System.Boolean IsHighSurrogate(System.UInt32 c)
+    // Offset: 0x18FE8F8
+    static bool IsHighSurrogate(uint c);
+    // static public System.Boolean IsLowSurrogate(System.UInt32 c)
+    // Offset: 0x18FE90C
+    static bool IsLowSurrogate(uint c);
   }; // TMPro.TMP_TextParsingUtilities
   #pragma pack(pop)
 }
@@ -109,6 +107,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: TMPro::TMP_TextParsingUtilities::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: TMPro::TMP_TextParsingUtilities::GetHashCode
 // Il2CppName: GetHashCode
 template<>
@@ -181,7 +183,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ui
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), "IsLowSurrogate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
 };
-// Writing MetadataGetter for method: TMPro::TMP_TextParsingUtilities::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

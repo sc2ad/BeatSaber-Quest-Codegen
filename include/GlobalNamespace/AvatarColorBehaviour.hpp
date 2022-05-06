@@ -46,15 +46,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AvatarColorBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Color _startColor
     // Size: 0x10
     // Offset: 0x10
@@ -89,37 +81,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public UnityEngine.Color _startColor
-    ::UnityEngine::Color& dyn__startColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__startColor();
     // Get instance field reference: public UnityEngine.Color _endColor
-    ::UnityEngine::Color& dyn__endColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__endColor();
     // Get instance field reference: public EaseType _easeType
-    ::GlobalNamespace::EaseType& dyn__easeType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EaseType& dyn__easeType();
     // Get instance field reference: private AvatarVisualController _avatarVisualController
-    ::GlobalNamespace::AvatarVisualController*& dyn__avatarVisualController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarVisualController*& dyn__avatarVisualController();
     // Get instance field reference: private System.Single _duration
-    float& dyn__duration();
+    [[deprecated("Use field access instead!")]] float& dyn__duration();
     // public System.Void .ctor()
-    // Offset: 0x14BBA04
-    // Implemented from: UnityEngine.Playables.PlayableBehaviour
-    // Base method: System.Void PlayableBehaviour::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14F32BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarColorBehaviour* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarColorBehaviour::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarColorBehaviour*, creationType>()));
     }
     // public override System.Void OnGraphStart(UnityEngine.Playables.Playable playable)
-    // Offset: 0x14BB704
+    // Offset: 0x14F2FBC
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnGraphStart(UnityEngine.Playables.Playable playable)
     void OnGraphStart(::UnityEngine::Playables::Playable playable);
     // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0x14BB780
+    // Offset: 0x14F3038
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
     // public override System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
-    // Offset: 0x14BB96C
+    // Offset: 0x14F3224
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnPlayableDestroy(UnityEngine.Playables.Playable playable)
     void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);

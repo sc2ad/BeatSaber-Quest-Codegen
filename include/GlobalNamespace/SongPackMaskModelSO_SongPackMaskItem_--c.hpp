@@ -75,32 +75,30 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<BeatmapLevelPackCollectionSO,System.Collections.Generic.IEnumerable`1<System.String>> <>9__11_3
     static void _set_$$9__11_3(::System::Func_2<::GlobalNamespace::BeatmapLevelPackCollectionSO*, ::System::Collections::Generic::IEnumerable_1<::StringW>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2AA6278
+    // Offset: 0x138CE9C
     static void _cctor();
-    // System.String <get_songPackMask>b__11_0(IBeatmapLevelPack pack)
-    // Offset: 0x2AA62E4
-    ::StringW $get_songPackMask$b__11_0(::GlobalNamespace::IBeatmapLevelPack* pack);
-    // System.String <get_songPackMask>b__11_1(BeatmapLevelPackSO pack)
-    // Offset: 0x2AA6390
-    ::StringW $get_songPackMask$b__11_1(::GlobalNamespace::BeatmapLevelPackSO* pack);
-    // System.String <get_songPackMask>b__11_2(PreviewBeatmapLevelPackSO pack)
-    // Offset: 0x2AA63A8
-    ::StringW $get_songPackMask$b__11_2(::GlobalNamespace::PreviewBeatmapLevelPackSO* pack);
-    // System.Collections.Generic.IEnumerable`1<System.String> <get_songPackMask>b__11_3(BeatmapLevelPackCollectionSO collection)
-    // Offset: 0x2AA63C0
-    ::System::Collections::Generic::IEnumerable_1<::StringW>* $get_songPackMask$b__11_3(::GlobalNamespace::BeatmapLevelPackCollectionSO* collection);
-    // System.String <get_songPackMask>b__11_4(IBeatmapLevelPack pack)
-    // Offset: 0x2AA64CC
-    ::StringW $get_songPackMask$b__11_4(::GlobalNamespace::IBeatmapLevelPack* pack);
     // public System.Void .ctor()
-    // Offset: 0x2AA62DC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x138CF00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPackMaskModelSO::SongPackMaskItem::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongPackMaskModelSO::SongPackMaskItem::$$c*, creationType>()));
     }
+    // System.String <get_songPackMask>b__11_0(IBeatmapLevelPack pack)
+    // Offset: 0x138CF08
+    ::StringW $get_songPackMask$b__11_0(::GlobalNamespace::IBeatmapLevelPack* pack);
+    // System.String <get_songPackMask>b__11_1(BeatmapLevelPackSO pack)
+    // Offset: 0x138CFB4
+    ::StringW $get_songPackMask$b__11_1(::GlobalNamespace::BeatmapLevelPackSO* pack);
+    // System.String <get_songPackMask>b__11_2(PreviewBeatmapLevelPackSO pack)
+    // Offset: 0x138CFCC
+    ::StringW $get_songPackMask$b__11_2(::GlobalNamespace::PreviewBeatmapLevelPackSO* pack);
+    // System.Collections.Generic.IEnumerable`1<System.String> <get_songPackMask>b__11_3(BeatmapLevelPackCollectionSO collection)
+    // Offset: 0x138CFE4
+    ::System::Collections::Generic::IEnumerable_1<::StringW>* $get_songPackMask$b__11_3(::GlobalNamespace::BeatmapLevelPackCollectionSO* collection);
+    // System.String <get_songPackMask>b__11_4(IBeatmapLevelPack pack)
+    // Offset: 0x138D0F0
+    ::StringW $get_songPackMask$b__11_4(::GlobalNamespace::IBeatmapLevelPack* pack);
   }; // SongPackMaskModelSO/SongPackMaskItem/<>c
   #pragma pack(pop)
 }
@@ -113,6 +111,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::$get_songPackMask$b__11_0
 // Il2CppName: <get_songPackMask>b__11_0
 template<>
@@ -158,7 +160,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c*), "<get_songPackMask>b__11_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pack});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

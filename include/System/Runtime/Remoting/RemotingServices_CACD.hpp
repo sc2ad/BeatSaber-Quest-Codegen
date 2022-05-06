@@ -23,15 +23,7 @@ namespace System::Runtime::Remoting {
   // [TokenAttribute] Offset: FFFFFFFF
   class RemotingServices::CACD : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Object d
     // Size: 0x8
     // Offset: 0x10
@@ -46,11 +38,11 @@ namespace System::Runtime::Remoting {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: public System.Object d
-    ::Il2CppObject*& dyn_d();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_d();
     // Get instance field reference: public System.Object c
-    ::Il2CppObject*& dyn_c();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_c();
     // public System.Void .ctor()
-    // Offset: 0x18B1B1C
+    // Offset: 0x18EB42C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

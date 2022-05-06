@@ -44,7 +44,7 @@ namespace Valve::VR {
       return mDeviceToAbsoluteTracking;
     }
     // Get instance field reference: public Valve.VR.HmdMatrix34_t mDeviceToAbsoluteTracking
-    ::Valve::VR::HmdMatrix34_t& dyn_mDeviceToAbsoluteTracking();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::HmdMatrix34_t& dyn_mDeviceToAbsoluteTracking();
   }; // Valve.VR.VRTextureWithPose_t
   #pragma pack(pop)
   static check_size<sizeof(VRTextureWithPose_t), 0 + sizeof(::Valve::VR::HmdMatrix34_t)> __Valve_VR_VRTextureWithPose_tSizeCheck;

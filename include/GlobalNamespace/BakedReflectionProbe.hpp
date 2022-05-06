@@ -41,15 +41,7 @@ namespace GlobalNamespace {
   // [ExecuteAlways] Offset: FFFFFFFF
   class BakedReflectionProbe : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _resolutionBeforeDownsample
     // Size: 0x4
     // Offset: 0x18
@@ -74,8 +66,8 @@ namespace GlobalNamespace {
     ::UnityEngine::Vector3 offset;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [SpaceAttribute] Offset: 0x125EEA8
-    // [NullAllowed] Offset: 0x125EEA8
+    // [SpaceAttribute] Offset: 0x10E3A8C
+    // [NullAllowed] Offset: 0x10E3A8C
     // private ReflectionProbeDataSO _reflectionProbeData
     // Size: 0x8
     // Offset: 0x38
@@ -91,82 +83,74 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x125EEF4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E3AD8
     // Get static field: static private readonly System.Int32 _reflectionProbeBoundsMinPropertyId
     static int _get__reflectionProbeBoundsMinPropertyId();
     // Set static field: static private readonly System.Int32 _reflectionProbeBoundsMinPropertyId
     static void _set__reflectionProbeBoundsMinPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x125EF04
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E3AE8
     // Get static field: static private readonly System.Int32 _reflectionProbeBoundsMaxPropertyId
     static int _get__reflectionProbeBoundsMaxPropertyId();
     // Set static field: static private readonly System.Int32 _reflectionProbeBoundsMaxPropertyId
     static void _set__reflectionProbeBoundsMaxPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x125EF14
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E3AF8
     // Get static field: static private readonly System.Int32 _reflectionProbePositionPropertyId
     static int _get__reflectionProbePositionPropertyId();
     // Set static field: static private readonly System.Int32 _reflectionProbePositionPropertyId
     static void _set__reflectionProbePositionPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x125EF24
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E3B08
     // Get static field: static private readonly System.Int32 _reflectionProbeTexture1PropertyId
     static int _get__reflectionProbeTexture1PropertyId();
     // Set static field: static private readonly System.Int32 _reflectionProbeTexture1PropertyId
     static void _set__reflectionProbeTexture1PropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x125EF34
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E3B18
     // Get static field: static private readonly System.Int32 _reflectionProbeTexture2PropertyId
     static int _get__reflectionProbeTexture2PropertyId();
     // Set static field: static private readonly System.Int32 _reflectionProbeTexture2PropertyId
     static void _set__reflectionProbeTexture2PropertyId(int value);
     // Get instance field reference: private System.Int32 _resolutionBeforeDownsample
-    int& dyn__resolutionBeforeDownsample();
+    [[deprecated("Use field access instead!")]] int& dyn__resolutionBeforeDownsample();
     // Get instance field reference: private System.Int32 _downsampleByHalfCount
-    int& dyn__downsampleByHalfCount();
+    [[deprecated("Use field access instead!")]] int& dyn__downsampleByHalfCount();
     // Get instance field reference: private UnityEngine.Vector3 _size
-    ::UnityEngine::Vector3& dyn__size();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__size();
     // Get instance field reference: private UnityEngine.Vector3 _offset
-    ::UnityEngine::Vector3& dyn__offset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__offset();
     // Get instance field reference: private ReflectionProbeDataSO _reflectionProbeData
-    ::GlobalNamespace::ReflectionProbeDataSO*& dyn__reflectionProbeData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ReflectionProbeDataSO*& dyn__reflectionProbeData();
     // Get instance field reference: private UnityEngine.Cubemap _blackCubemap
-    ::UnityEngine::Cubemap*& dyn__blackCubemap();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Cubemap*& dyn__blackCubemap();
     // public ReflectionProbeDataSO get_reflectionProbeData()
-    // Offset: 0x135EBC8
+    // Offset: 0x1346E48
     ::GlobalNamespace::ReflectionProbeDataSO* get_reflectionProbeData();
     // public System.Void set_reflectionProbeData(ReflectionProbeDataSO value)
-    // Offset: 0x135EBD0
+    // Offset: 0x1346E50
     void set_reflectionProbeData(::GlobalNamespace::ReflectionProbeDataSO* value);
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x135EBD8
+    // Offset: 0x1346E58
     ::UnityEngine::Vector3 get_position();
     // public System.Int32 get_resolutionBeforeDownsample()
-    // Offset: 0x135EBFC
+    // Offset: 0x1346E7C
     int get_resolutionBeforeDownsample();
     // public System.Int32 get_downsampleByHalfCount()
-    // Offset: 0x135EC04
+    // Offset: 0x1346E84
     int get_downsampleByHalfCount();
-    // protected System.Void Start()
-    // Offset: 0x135EC0C
-    void Start();
-    // private System.Void SendDataToShaders()
-    // Offset: 0x135ECC4
-    void SendDataToShaders();
     // public System.Void .ctor()
-    // Offset: 0x135EFBC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x134723C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakedReflectionProbe* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BakedReflectionProbe::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakedReflectionProbe*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x135EFD0
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x1347250
     static void _cctor();
+    // protected System.Void Start()
+    // Offset: 0x1346E8C
+    void Start();
+    // private System.Void SendDataToShaders()
+    // Offset: 0x1346F44
+    void SendDataToShaders();
   }; // BakedReflectionProbe
   #pragma pack(pop)
   static check_size<sizeof(BakedReflectionProbe), 64 + sizeof(::UnityEngine::Cubemap*)> __GlobalNamespace_BakedReflectionProbeSizeCheck;
@@ -214,6 +198,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedReflectionProbe*), "get_downsampleByHalfCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BakedReflectionProbe::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::BakedReflectionProbe::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BakedReflectionProbe::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedReflectionProbe*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BakedReflectionProbe::Start
 // Il2CppName: Start
 template<>
@@ -228,17 +224,5 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BakedReflectionProbe::*)()>(&GlobalNamespace::BakedReflectionProbe::SendDataToShaders)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedReflectionProbe*), "SendDataToShaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::BakedReflectionProbe::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::BakedReflectionProbe::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BakedReflectionProbe::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedReflectionProbe*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -57,7 +57,7 @@ namespace System {
     // Set static field: static public System.Exception/System.ExceptionMessageKind OutOfMemory
     static void _set_OutOfMemory(::System::Exception::ExceptionMessageKind value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Exception/System.ExceptionMessageKind
   #pragma pack(pop)
   static check_size<sizeof(Exception::ExceptionMessageKind), 0 + sizeof(int)> __System_Exception_ExceptionMessageKindSizeCheck;

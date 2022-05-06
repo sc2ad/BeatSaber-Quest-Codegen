@@ -90,7 +90,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HAPI_PartType HAPI_PARTTYPE_MAX
     static void _set_HAPI_PARTTYPE_MAX(::HoudiniEngineUnity::HAPI_PartType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HAPI_PartType
   #pragma pack(pop)
   static check_size<sizeof(HAPI_PartType), 0 + sizeof(int)> __HoudiniEngineUnity_HAPI_PartTypeSizeCheck;

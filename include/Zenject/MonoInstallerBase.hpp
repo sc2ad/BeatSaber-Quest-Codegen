@@ -40,15 +40,7 @@ namespace Zenject {
   // [DebuggerStepThroughAttribute] Offset: FFFFFFFF
   class MonoInstallerBase : public ::UnityEngine::MonoBehaviour/*, public ::Zenject::IInstaller*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Zenject.DiContainer <Container>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -63,41 +55,35 @@ namespace Zenject {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Zenject.DiContainer <Container>k__BackingField
-    ::Zenject::DiContainer*& dyn_$Container$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn_$Container$k__BackingField();
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0x1BDA880
+    // Offset: 0x1C14E68
     ::Zenject::DiContainer* get_Container();
     // protected System.Void set_Container(Zenject.DiContainer value)
-    // Offset: 0x1BDA888
+    // Offset: 0x1C14E70
     void set_Container(::Zenject::DiContainer* value);
     // public System.Boolean get_IsEnabled()
-    // Offset: 0x1BDA890
+    // Offset: 0x1C14E78
     bool get_IsEnabled();
-    // public System.Void Start()
-    // Offset: 0x1BDA898
-    void Start();
-    // public System.Void InstallBindings()
-    // Offset: 0x1BDA89C
-    void InstallBindings();
-    // static private System.Void __zenPropertySetter0(System.Object P_0, System.Object P_1)
-    // Offset: 0x1BDA8FC
-    static void __zenPropertySetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1BDA9D0
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1BDA744
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C14D2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoInstallerBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MonoInstallerBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoInstallerBase*, creationType>()));
     }
+    // public System.Void Start()
+    // Offset: 0x1C14E80
+    void Start();
+    // public System.Void InstallBindings()
+    // Offset: 0x1C14E84
+    void InstallBindings();
+    // static private System.Void __zenPropertySetter0(System.Object P_0, System.Object P_1)
+    // Offset: 0x1C14EE4
+    static void __zenPropertySetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1C14FB8
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.MonoInstallerBase
   #pragma pack(pop)
   static check_size<sizeof(MonoInstallerBase), 24 + sizeof(::Zenject::DiContainer*)> __Zenject_MonoInstallerBaseSizeCheck;
@@ -129,6 +115,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
     return ::il2cpp_utils::FindMethod(classof(Zenject::MonoInstallerBase*), "get_IsEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Zenject::MonoInstallerBase::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::MonoInstallerBase::Start
 // Il2CppName: Start
 template<>
@@ -163,7 +153,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::MonoInstallerBase*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::MonoInstallerBase::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

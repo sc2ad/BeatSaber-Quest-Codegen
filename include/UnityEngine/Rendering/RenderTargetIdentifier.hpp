@@ -97,43 +97,43 @@ namespace UnityEngine::Rendering {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>*>(this);
     }
     // Get instance field reference: private UnityEngine.Rendering.BuiltinRenderTextureType m_Type
-    ::UnityEngine::Rendering::BuiltinRenderTextureType& dyn_m_Type();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rendering::BuiltinRenderTextureType& dyn_m_Type();
     // Get instance field reference: private System.Int32 m_NameID
-    int& dyn_m_NameID();
+    [[deprecated("Use field access instead!")]] int& dyn_m_NameID();
     // Get instance field reference: private System.Int32 m_InstanceID
-    int& dyn_m_InstanceID();
+    [[deprecated("Use field access instead!")]] int& dyn_m_InstanceID();
     // Get instance field reference: private System.IntPtr m_BufferPointer
-    ::System::IntPtr& dyn_m_BufferPointer();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_BufferPointer();
     // Get instance field reference: private System.Int32 m_MipLevel
-    int& dyn_m_MipLevel();
+    [[deprecated("Use field access instead!")]] int& dyn_m_MipLevel();
     // Get instance field reference: private UnityEngine.CubemapFace m_CubeFace
-    ::UnityEngine::CubemapFace& dyn_m_CubeFace();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::CubemapFace& dyn_m_CubeFace();
     // Get instance field reference: private System.Int32 m_DepthSlice
-    int& dyn_m_DepthSlice();
+    [[deprecated("Use field access instead!")]] int& dyn_m_DepthSlice();
     // public System.Void .ctor(UnityEngine.Rendering.BuiltinRenderTextureType type)
-    // Offset: 0x20CD378
+    // Offset: 0x2116BEC
     RenderTargetIdentifier(::UnityEngine::Rendering::BuiltinRenderTextureType type);
     // public System.Void .ctor(System.Int32 nameID)
-    // Offset: 0x20CD3E0
+    // Offset: 0x2116C54
     RenderTargetIdentifier(int nameID);
     // public System.Void .ctor(UnityEngine.Texture tex)
-    // Offset: 0x20CD448
+    // Offset: 0x2116CBC
     RenderTargetIdentifier(::UnityEngine::Texture* tex);
     // public System.Boolean Equals(UnityEngine.Rendering.RenderTargetIdentifier rhs)
-    // Offset: 0x20CD870
+    // Offset: 0x21170E4
     bool Equals(::UnityEngine::Rendering::RenderTargetIdentifier rhs);
     // public override System.String ToString()
-    // Offset: 0x20CD6AC
+    // Offset: 0x2116F20
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x20CD818
+    // Offset: 0x211708C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x20CD90C
+    // Offset: 0x2117180
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

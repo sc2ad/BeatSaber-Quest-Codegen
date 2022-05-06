@@ -43,29 +43,21 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TrackLaneRingsPositionStepEffectSpawner : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TrackLaneRingsManager _trackLaneRingsManager
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::TrackLaneRingsManager* trackLaneRingsManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::TrackLaneRingsManager*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1252080
+    // [SpaceAttribute] Offset: 0x10D6C0C
     // private BasicBeatmapEventType _beatmapEventType
     // Size: 0x4
     // Offset: 0x20
     ::GlobalNamespace::BasicBeatmapEventType beatmapEventType;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BasicBeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0x12520B8
+    // [SpaceAttribute] Offset: 0x10D6C44
     // private System.Single _minPositionStep
     // Size: 0x4
     // Offset: 0x24
@@ -84,7 +76,7 @@ namespace GlobalNamespace {
     float moveSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x1252110
+    // [InjectAttribute] Offset: 0x10D6C9C
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x30
@@ -101,47 +93,45 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TrackLaneRingsManager _trackLaneRingsManager
-    ::GlobalNamespace::TrackLaneRingsManager*& dyn__trackLaneRingsManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TrackLaneRingsManager*& dyn__trackLaneRingsManager();
     // Get instance field reference: private BasicBeatmapEventType _beatmapEventType
-    ::GlobalNamespace::BasicBeatmapEventType& dyn__beatmapEventType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BasicBeatmapEventType& dyn__beatmapEventType();
     // Get instance field reference: private System.Single _minPositionStep
-    float& dyn__minPositionStep();
+    [[deprecated("Use field access instead!")]] float& dyn__minPositionStep();
     // Get instance field reference: private System.Single _maxPositionStep
-    float& dyn__maxPositionStep();
+    [[deprecated("Use field access instead!")]] float& dyn__maxPositionStep();
     // Get instance field reference: private System.Single _moveSpeed
-    float& dyn__moveSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__moveSpeed();
     // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
-    ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
-    ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
-    // protected System.Void Start()
-    // Offset: 0x133ECE8
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x133EE00
-    void OnDestroy();
-    // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x133EE1C
-    void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // public System.Void .ctor()
-    // Offset: 0x133EEB0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1420DE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackLaneRingsPositionStepEffectSpawner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrackLaneRingsPositionStepEffectSpawner*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x1420C18
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1420D30
+    void OnDestroy();
+    // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
+    // Offset: 0x1420D4C
+    void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
   }; // TrackLaneRingsPositionStepEffectSpawner
   #pragma pack(pop)
   static check_size<sizeof(TrackLaneRingsPositionStepEffectSpawner), 56 + sizeof(::GlobalNamespace::BeatmapDataCallbackWrapper*)> __GlobalNamespace_TrackLaneRingsPositionStepEffectSpawnerSizeCheck;
   static_assert(sizeof(TrackLaneRingsPositionStepEffectSpawner) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::Start
 // Il2CppName: Start
 template<>
@@ -167,7 +157,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner*), "HandleBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{basicBeatmapEventData});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

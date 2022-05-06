@@ -35,16 +35,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerActivePlayersTimeOffsetAverage : public ::Il2CppObject/*, public ::GlobalNamespace::IMultiplayerObservable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x1254444
+    // [InjectAttribute] Offset: 0x10D9028
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
@@ -69,21 +61,19 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IMultiplayerObservable*>(this);
     }
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // Get instance field reference: private System.Single _lastReturnedOffsetSyncTime
-    float& dyn__lastReturnedOffsetSyncTime();
+    [[deprecated("Use field access instead!")]] float& dyn__lastReturnedOffsetSyncTime();
     // Get instance field reference: private System.Single _timeOfLastValidReturnedTime
-    float& dyn__timeOfLastValidReturnedTime();
+    [[deprecated("Use field access instead!")]] float& dyn__timeOfLastValidReturnedTime();
     // public System.Single get_offsetSyncTime()
-    // Offset: 0x13CB42C
+    // Offset: 0x13C78D8
     float get_offsetSyncTime();
     // public System.Boolean get_isFailed()
-    // Offset: 0x13CB654
+    // Offset: 0x13C7B00
     bool get_isFailed();
     // public System.Void .ctor()
-    // Offset: 0x13CB7B4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13C7C60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerActivePlayersTimeOffsetAverage* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::.ctor");

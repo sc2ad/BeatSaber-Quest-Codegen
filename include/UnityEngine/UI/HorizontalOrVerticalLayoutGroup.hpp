@@ -36,15 +36,7 @@ namespace UnityEngine::UI {
   // [ExecuteAlways] Offset: FFFFFFFF
   class HorizontalOrVerticalLayoutGroup : public ::UnityEngine::UI::LayoutGroup {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected System.Single m_Spacing
     // Size: 0x4
     // Offset: 0x58
@@ -89,80 +81,75 @@ namespace UnityEngine::UI {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: protected System.Single m_Spacing
-    float& dyn_m_Spacing();
+    [[deprecated("Use field access instead!")]] float& dyn_m_Spacing();
     // Get instance field reference: protected System.Boolean m_ChildForceExpandWidth
-    bool& dyn_m_ChildForceExpandWidth();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_ChildForceExpandWidth();
     // Get instance field reference: protected System.Boolean m_ChildForceExpandHeight
-    bool& dyn_m_ChildForceExpandHeight();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_ChildForceExpandHeight();
     // Get instance field reference: protected System.Boolean m_ChildControlWidth
-    bool& dyn_m_ChildControlWidth();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_ChildControlWidth();
     // Get instance field reference: protected System.Boolean m_ChildControlHeight
-    bool& dyn_m_ChildControlHeight();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_ChildControlHeight();
     // Get instance field reference: protected System.Boolean m_ChildScaleWidth
-    bool& dyn_m_ChildScaleWidth();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_ChildScaleWidth();
     // Get instance field reference: protected System.Boolean m_ChildScaleHeight
-    bool& dyn_m_ChildScaleHeight();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_ChildScaleHeight();
     // public System.Single get_spacing()
-    // Offset: 0x1E277C0
+    // Offset: 0x1E6208C
     float get_spacing();
     // public System.Void set_spacing(System.Single value)
-    // Offset: 0x1E277C8
+    // Offset: 0x1E62094
     void set_spacing(float value);
     // public System.Boolean get_childForceExpandWidth()
-    // Offset: 0x1E2782C
+    // Offset: 0x1E620F8
     bool get_childForceExpandWidth();
     // public System.Void set_childForceExpandWidth(System.Boolean value)
-    // Offset: 0x1E27834
+    // Offset: 0x1E62100
     void set_childForceExpandWidth(bool value);
     // public System.Boolean get_childForceExpandHeight()
-    // Offset: 0x1E27898
+    // Offset: 0x1E62164
     bool get_childForceExpandHeight();
     // public System.Void set_childForceExpandHeight(System.Boolean value)
-    // Offset: 0x1E278A0
+    // Offset: 0x1E6216C
     void set_childForceExpandHeight(bool value);
     // public System.Boolean get_childControlWidth()
-    // Offset: 0x1E27904
+    // Offset: 0x1E621D0
     bool get_childControlWidth();
     // public System.Void set_childControlWidth(System.Boolean value)
-    // Offset: 0x1E2790C
+    // Offset: 0x1E621D8
     void set_childControlWidth(bool value);
     // public System.Boolean get_childControlHeight()
-    // Offset: 0x1E27970
+    // Offset: 0x1E6223C
     bool get_childControlHeight();
     // public System.Void set_childControlHeight(System.Boolean value)
-    // Offset: 0x1E27978
+    // Offset: 0x1E62244
     void set_childControlHeight(bool value);
     // public System.Boolean get_childScaleWidth()
-    // Offset: 0x1E279DC
+    // Offset: 0x1E622A8
     bool get_childScaleWidth();
     // public System.Void set_childScaleWidth(System.Boolean value)
-    // Offset: 0x1E279E4
+    // Offset: 0x1E622B0
     void set_childScaleWidth(bool value);
     // public System.Boolean get_childScaleHeight()
-    // Offset: 0x1E27A48
+    // Offset: 0x1E62314
     bool get_childScaleHeight();
     // public System.Void set_childScaleHeight(System.Boolean value)
-    // Offset: 0x1E27A50
+    // Offset: 0x1E6231C
     void set_childScaleHeight(bool value);
     // protected System.Void CalcAlongAxis(System.Int32 axis, System.Boolean isVertical)
-    // Offset: 0x1E26F38
+    // Offset: 0x1E61804
     void CalcAlongAxis(int axis, bool isVertical);
     // protected System.Void SetChildrenAlongAxis(System.Int32 axis, System.Boolean isVertical)
-    // Offset: 0x1E271E8
+    // Offset: 0x1E61AB4
     void SetChildrenAlongAxis(int axis, bool isVertical);
     // private System.Void GetChildSizes(UnityEngine.RectTransform child, System.Int32 axis, System.Boolean controlSize, System.Boolean childForceExpand, out System.Single min, out System.Single preferred, out System.Single flexible)
-    // Offset: 0x1E27AB4
+    // Offset: 0x1E62380
     void GetChildSizes(::UnityEngine::RectTransform* child, int axis, bool controlSize, bool childForceExpand, ByRef<float> min, ByRef<float> preferred, ByRef<float> flexible);
     // protected System.Void .ctor()
-    // Offset: 0x1E26EF8
+    // Offset: 0x1E617C4
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HorizontalOrVerticalLayoutGroup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::.ctor");

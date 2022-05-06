@@ -72,7 +72,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HAPI_PackedPrimInstancingMode HAPI_PACKEDPRIM_INSTANCING_MODE_MAX
     static void _set_HAPI_PACKEDPRIM_INSTANCING_MODE_MAX(::HoudiniEngineUnity::HAPI_PackedPrimInstancingMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HAPI_PackedPrimInstancingMode
   #pragma pack(pop)
   static check_size<sizeof(HAPI_PackedPrimInstancingMode), 0 + sizeof(int)> __HoudiniEngineUnity_HAPI_PackedPrimInstancingModeSizeCheck;

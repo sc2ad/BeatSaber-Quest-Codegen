@@ -48,15 +48,7 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class BindStatement : public ::Il2CppObject/*, public ::System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.List`1<System.IDisposable> _disposables
     // Size: 0x8
     // Offset: 0x10
@@ -75,45 +67,43 @@ namespace Zenject {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.IDisposable> _disposables
-    ::System::Collections::Generic::List_1<::System::IDisposable*>*& dyn__disposables();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::IDisposable*>*& dyn__disposables();
     // Get instance field reference: private Zenject.IBindingFinalizer _bindingFinalizer
-    ::Zenject::IBindingFinalizer*& dyn__bindingFinalizer();
+    [[deprecated("Use field access instead!")]] ::Zenject::IBindingFinalizer*& dyn__bindingFinalizer();
     // public Zenject.BindingInheritanceMethods get_BindingInheritanceMethod()
-    // Offset: 0x17328C8
+    // Offset: 0x176B1D8
     ::Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
     // public System.Boolean get_HasFinalizer()
-    // Offset: 0x17329E8
+    // Offset: 0x176B2F8
     bool get_HasFinalizer();
-    // public System.Void SetFinalizer(Zenject.IBindingFinalizer bindingFinalizer)
-    // Offset: 0x17329F8
-    void SetFinalizer(::Zenject::IBindingFinalizer* bindingFinalizer);
-    // private System.Void AssertHasFinalizer()
-    // Offset: 0x1732980
-    void AssertHasFinalizer();
-    // public System.Void AddDisposable(System.IDisposable disposable)
-    // Offset: 0x1732A00
-    void AddDisposable(::System::IDisposable* disposable);
-    // public Zenject.BindInfo SpawnBindInfo()
-    // Offset: 0x1732A68
-    ::Zenject::BindInfo* SpawnBindInfo();
-    // public System.Void FinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0x1732AE4
-    void FinalizeBinding(::Zenject::DiContainer* container);
-    // public System.Void Reset()
-    // Offset: 0x17327BC
-    void Reset();
-    // public System.Void Dispose()
-    // Offset: 0x1732BB0
-    void Dispose();
     // public System.Void .ctor()
-    // Offset: 0x1732744
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x176B054
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BindStatement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindStatement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BindStatement*, creationType>()));
     }
+    // public System.Void SetFinalizer(Zenject.IBindingFinalizer bindingFinalizer)
+    // Offset: 0x176B308
+    void SetFinalizer(::Zenject::IBindingFinalizer* bindingFinalizer);
+    // private System.Void AssertHasFinalizer()
+    // Offset: 0x176B290
+    void AssertHasFinalizer();
+    // public System.Void AddDisposable(System.IDisposable disposable)
+    // Offset: 0x176B310
+    void AddDisposable(::System::IDisposable* disposable);
+    // public Zenject.BindInfo SpawnBindInfo()
+    // Offset: 0x176B378
+    ::Zenject::BindInfo* SpawnBindInfo();
+    // public System.Void FinalizeBinding(Zenject.DiContainer container)
+    // Offset: 0x176B3F4
+    void FinalizeBinding(::Zenject::DiContainer* container);
+    // public System.Void Reset()
+    // Offset: 0x176B0CC
+    void Reset();
+    // public System.Void Dispose()
+    // Offset: 0x176B4C0
+    void Dispose();
   }; // Zenject.BindStatement
   #pragma pack(pop)
   static check_size<sizeof(BindStatement), 24 + sizeof(::Zenject::IBindingFinalizer*)> __Zenject_BindStatementSizeCheck;
@@ -136,6 +126,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
     return ::il2cpp_utils::FindMethod(classof(Zenject::BindStatement*), "get_HasFinalizer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Zenject::BindStatement::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::BindStatement::SetFinalizer
 // Il2CppName: SetFinalizer
 template<>
@@ -195,7 +189,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
     return ::il2cpp_utils::FindMethod(classof(Zenject::BindStatement*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::BindStatement::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

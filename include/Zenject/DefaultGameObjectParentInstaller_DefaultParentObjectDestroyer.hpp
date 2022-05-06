@@ -38,15 +38,7 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer : public ::Il2CppObject/*, public ::System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly UnityEngine.GameObject _gameObject
     // Size: 0x8
     // Offset: 0x10
@@ -63,22 +55,22 @@ namespace Zenject {
       return gameObject;
     }
     // Get instance field reference: private readonly UnityEngine.GameObject _gameObject
-    ::UnityEngine::GameObject*& dyn__gameObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__gameObject();
     // public System.Void .ctor(UnityEngine.GameObject gameObject)
-    // Offset: 0x173CC70
+    // Offset: 0x1775580
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer* New_ctor(::UnityEngine::GameObject* gameObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer*, creationType>(gameObject)));
     }
     // public System.Void Dispose()
-    // Offset: 0x173CC9C
+    // Offset: 0x17755AC
     void Dispose();
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x173CD08
+    // Offset: 0x1775618
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x173CDB4
+    // Offset: 0x17756C4
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.DefaultGameObjectParentInstaller/Zenject.DefaultParentObjectDestroyer
   #pragma pack(pop)

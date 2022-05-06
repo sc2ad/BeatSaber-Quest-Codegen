@@ -78,7 +78,7 @@ namespace HoudiniEngineUnity {
       // Set static field: static public HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator/HoudiniEngineUnity.Type Object
       static void _set_Object(::HoudiniEngineUnity::JSONNode::Enumerator::Type value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator/HoudiniEngineUnity.Type
     #pragma pack(pop)
     static check_size<sizeof(JSONNode::Enumerator::Type), 0 + sizeof(int)> __HoudiniEngineUnity_JSONNode_Enumerator_TypeSizeCheck;
@@ -106,25 +106,25 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator/HoudiniEngineUnity.Type type
-    ::HoudiniEngineUnity::JSONNode::Enumerator::Type& dyn_type();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::JSONNode::Enumerator::Type& dyn_type();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,HoudiniEngineUnity.JSONNode> m_Object
-    typename ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::JSONNode*>::Enumerator& dyn_m_Object();
+    [[deprecated("Use field access instead!")]] typename ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::JSONNode*>::Enumerator& dyn_m_Object();
     // Get instance field reference: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<HoudiniEngineUnity.JSONNode> m_Array
-    typename ::System::Collections::Generic::List_1<::HoudiniEngineUnity::JSONNode*>::Enumerator& dyn_m_Array();
+    [[deprecated("Use field access instead!")]] typename ::System::Collections::Generic::List_1<::HoudiniEngineUnity::JSONNode*>::Enumerator& dyn_m_Array();
     // public System.Boolean get_IsValid()
-    // Offset: 0x19E0260
+    // Offset: 0x1A19848
     bool get_IsValid();
     // public System.Collections.Generic.KeyValuePair`2<System.String,HoudiniEngineUnity.JSONNode> get_Current()
-    // Offset: 0x19E0294
+    // Offset: 0x1A1987C
     ::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*> get_Current();
     // public System.Void .ctor(System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<HoudiniEngineUnity.JSONNode> aArrayEnum)
-    // Offset: 0x19DA224
+    // Offset: 0x1A1380C
     Enumerator(typename ::System::Collections::Generic::List_1<::HoudiniEngineUnity::JSONNode*>::Enumerator aArrayEnum);
     // public System.Void .ctor(System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,HoudiniEngineUnity.JSONNode> aDictEnum)
-    // Offset: 0x19E0270
+    // Offset: 0x1A19858
     Enumerator(typename ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::JSONNode*>::Enumerator aDictEnum);
     // public System.Boolean MoveNext()
-    // Offset: 0x19E0348
+    // Offset: 0x1A19930
     bool MoveNext();
   }; // HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator
   // WARNING Not writing size check since size may be invalid!

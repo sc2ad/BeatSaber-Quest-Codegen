@@ -52,15 +52,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EditColorController : public ::HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HSVPanelController _hsvPanelController
     // Size: 0x8
     // Offset: 0x70
@@ -73,7 +65,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::PreviousColorPanelController* previousColorPanelController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PreviousColorPanelController*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1257948
+    // [SpaceAttribute] Offset: 0x10DC52C
     // private UnityEngine.UI.Button _cancelButton
     // Size: 0x8
     // Offset: 0x80
@@ -118,77 +110,70 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private HSVPanelController _hsvPanelController
-    ::GlobalNamespace::HSVPanelController*& dyn__hsvPanelController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::HSVPanelController*& dyn__hsvPanelController();
     // Get instance field reference: private PreviousColorPanelController _previousColorPanelController
-    ::GlobalNamespace::PreviousColorPanelController*& dyn__previousColorPanelController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PreviousColorPanelController*& dyn__previousColorPanelController();
     // Get instance field reference: private UnityEngine.UI.Button _cancelButton
-    ::UnityEngine::UI::Button*& dyn__cancelButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__cancelButton();
     // Get instance field reference: private UnityEngine.UI.Button _applyButton
-    ::UnityEngine::UI::Button*& dyn__applyButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__applyButton();
     // Get instance field reference: private System.Action`1<UnityEngine.Color> didChangeColorEvent
-    ::System::Action_1<::UnityEngine::Color>*& dyn_didChangeColorEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::UnityEngine::Color>*& dyn_didChangeColorEvent();
     // Get instance field reference: private System.Action`1<System.Boolean> didFinishEvent
-    ::System::Action_1<bool>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<bool>*& dyn_didFinishEvent();
     // Get instance field reference: private System.Action`1<UnityEngine.Color> _colorCallback
-    ::System::Action_1<::UnityEngine::Color>*& dyn__colorCallback();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::UnityEngine::Color>*& dyn__colorCallback();
     // Get instance field reference: private UnityEngine.Color _initialColor
-    ::UnityEngine::Color& dyn__initialColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__initialColor();
     // Get instance field reference: private System.Boolean _colorChanged
-    bool& dyn__colorChanged();
+    [[deprecated("Use field access instead!")]] bool& dyn__colorChanged();
     // public System.Void add_didChangeColorEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x1412E40
+    // Offset: 0x1432BEC
     void add_didChangeColorEvent(::System::Action_1<::UnityEngine::Color>* value);
     // public System.Void remove_didChangeColorEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x14132EC
+    // Offset: 0x1433098
     void remove_didChangeColorEvent(::System::Action_1<::UnityEngine::Color>* value);
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1412EE4
+    // Offset: 0x1432C90
     void add_didFinishEvent(::System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1413390
+    // Offset: 0x143313C
     void remove_didFinishEvent(::System::Action_1<bool>* value);
-    // public System.Void SetColorCallback(System.Action`1<UnityEngine.Color> colorCallback)
-    // Offset: 0x1414EE8
-    void SetColorCallback(::System::Action_1<::UnityEngine::Color>* colorCallback);
-    // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x14134B0
-    void SetColor(::UnityEngine::Color color);
-    // private System.Void HandleHSVPanelControllerColorDidChange(UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x1415158
-    void HandleHSVPanelControllerColorDidChange(::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
-    // private System.Void HandlePreviousColorPanelControllerColorWasSelected(UnityEngine.Color color)
-    // Offset: 0x141529C
-    void HandlePreviousColorPanelControllerColorWasSelected(::UnityEngine::Color color);
-    // private System.Void HandleCancelButtonWasPressed()
-    // Offset: 0x1415320
-    void HandleCancelButtonWasPressed();
-    // private System.Void HandleApplyButtonWasPressed()
-    // Offset: 0x14153B0
-    void HandleApplyButtonWasPressed();
-    // private System.Void ChangeColor(UnityEngine.Color color)
-    // Offset: 0x14151D4
-    void ChangeColor(::UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1415414
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14351C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EditColorController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EditColorController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EditColorController*, creationType>()));
     }
+    // public System.Void SetColorCallback(System.Action`1<UnityEngine.Color> colorCallback)
+    // Offset: 0x1434C94
+    void SetColorCallback(::System::Action_1<::UnityEngine::Color>* colorCallback);
+    // public System.Void SetColor(UnityEngine.Color color)
+    // Offset: 0x143325C
+    void SetColor(::UnityEngine::Color color);
+    // private System.Void HandleHSVPanelControllerColorDidChange(UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
+    // Offset: 0x1434F04
+    void HandleHSVPanelControllerColorDidChange(::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
+    // private System.Void HandlePreviousColorPanelControllerColorWasSelected(UnityEngine.Color color)
+    // Offset: 0x1435048
+    void HandlePreviousColorPanelControllerColorWasSelected(::UnityEngine::Color color);
+    // private System.Void HandleCancelButtonWasPressed()
+    // Offset: 0x14350CC
+    void HandleCancelButtonWasPressed();
+    // private System.Void HandleApplyButtonWasPressed()
+    // Offset: 0x143515C
+    void HandleApplyButtonWasPressed();
+    // private System.Void ChangeColor(UnityEngine.Color color)
+    // Offset: 0x1434F80
+    void ChangeColor(::UnityEngine::Color color);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1414EF0
+    // Offset: 0x1434C9C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1415078
+    // Offset: 0x1434E24
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
@@ -234,6 +219,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditColorController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::EditColorController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EditColorController::SetColorCallback
 // Il2CppName: SetColorCallback
 template<>
@@ -296,10 +285,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditColorController*), "ChangeColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::EditColorController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EditColorController::DidActivate
 // Il2CppName: DidActivate
 template<>

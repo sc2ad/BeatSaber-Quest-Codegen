@@ -381,91 +381,91 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._SetTrackingSpace SetTrackingSpace
-    ::OVR::OpenVR::IVRCompositor::_SetTrackingSpace*& dyn_SetTrackingSpace();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_SetTrackingSpace*& dyn_SetTrackingSpace();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetTrackingSpace GetTrackingSpace
-    ::OVR::OpenVR::IVRCompositor::_GetTrackingSpace*& dyn_GetTrackingSpace();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_GetTrackingSpace*& dyn_GetTrackingSpace();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._WaitGetPoses WaitGetPoses
-    ::OVR::OpenVR::IVRCompositor::_WaitGetPoses*& dyn_WaitGetPoses();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_WaitGetPoses*& dyn_WaitGetPoses();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetLastPoses GetLastPoses
-    ::OVR::OpenVR::IVRCompositor::_GetLastPoses*& dyn_GetLastPoses();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_GetLastPoses*& dyn_GetLastPoses();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetLastPoseForTrackedDeviceIndex GetLastPoseForTrackedDeviceIndex
-    ::OVR::OpenVR::IVRCompositor::_GetLastPoseForTrackedDeviceIndex*& dyn_GetLastPoseForTrackedDeviceIndex();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_GetLastPoseForTrackedDeviceIndex*& dyn_GetLastPoseForTrackedDeviceIndex();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._Submit Submit
-    ::OVR::OpenVR::IVRCompositor::_Submit*& dyn_Submit();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_Submit*& dyn_Submit();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._ClearLastSubmittedFrame ClearLastSubmittedFrame
-    ::OVR::OpenVR::IVRCompositor::_ClearLastSubmittedFrame*& dyn_ClearLastSubmittedFrame();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_ClearLastSubmittedFrame*& dyn_ClearLastSubmittedFrame();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._PostPresentHandoff PostPresentHandoff
-    ::OVR::OpenVR::IVRCompositor::_PostPresentHandoff*& dyn_PostPresentHandoff();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_PostPresentHandoff*& dyn_PostPresentHandoff();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetFrameTiming GetFrameTiming
-    ::OVR::OpenVR::IVRCompositor::_GetFrameTiming*& dyn_GetFrameTiming();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_GetFrameTiming*& dyn_GetFrameTiming();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetFrameTimings GetFrameTimings
-    ::OVR::OpenVR::IVRCompositor::_GetFrameTimings*& dyn_GetFrameTimings();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_GetFrameTimings*& dyn_GetFrameTimings();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetFrameTimeRemaining GetFrameTimeRemaining
-    ::OVR::OpenVR::IVRCompositor::_GetFrameTimeRemaining*& dyn_GetFrameTimeRemaining();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_GetFrameTimeRemaining*& dyn_GetFrameTimeRemaining();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetCumulativeStats GetCumulativeStats
-    ::OVR::OpenVR::IVRCompositor::_GetCumulativeStats*& dyn_GetCumulativeStats();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_GetCumulativeStats*& dyn_GetCumulativeStats();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._FadeToColor FadeToColor
-    ::OVR::OpenVR::IVRCompositor::_FadeToColor*& dyn_FadeToColor();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_FadeToColor*& dyn_FadeToColor();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetCurrentFadeColor GetCurrentFadeColor
-    ::OVR::OpenVR::IVRCompositor::_GetCurrentFadeColor*& dyn_GetCurrentFadeColor();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_GetCurrentFadeColor*& dyn_GetCurrentFadeColor();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._FadeGrid FadeGrid
-    ::OVR::OpenVR::IVRCompositor::_FadeGrid*& dyn_FadeGrid();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_FadeGrid*& dyn_FadeGrid();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetCurrentGridAlpha GetCurrentGridAlpha
-    ::OVR::OpenVR::IVRCompositor::_GetCurrentGridAlpha*& dyn_GetCurrentGridAlpha();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_GetCurrentGridAlpha*& dyn_GetCurrentGridAlpha();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._SetSkyboxOverride SetSkyboxOverride
-    ::OVR::OpenVR::IVRCompositor::_SetSkyboxOverride*& dyn_SetSkyboxOverride();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_SetSkyboxOverride*& dyn_SetSkyboxOverride();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._ClearSkyboxOverride ClearSkyboxOverride
-    ::OVR::OpenVR::IVRCompositor::_ClearSkyboxOverride*& dyn_ClearSkyboxOverride();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_ClearSkyboxOverride*& dyn_ClearSkyboxOverride();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._CompositorBringToFront CompositorBringToFront
-    ::OVR::OpenVR::IVRCompositor::_CompositorBringToFront*& dyn_CompositorBringToFront();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_CompositorBringToFront*& dyn_CompositorBringToFront();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._CompositorGoToBack CompositorGoToBack
-    ::OVR::OpenVR::IVRCompositor::_CompositorGoToBack*& dyn_CompositorGoToBack();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_CompositorGoToBack*& dyn_CompositorGoToBack();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._CompositorQuit CompositorQuit
-    ::OVR::OpenVR::IVRCompositor::_CompositorQuit*& dyn_CompositorQuit();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_CompositorQuit*& dyn_CompositorQuit();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._IsFullscreen IsFullscreen
-    ::OVR::OpenVR::IVRCompositor::_IsFullscreen*& dyn_IsFullscreen();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_IsFullscreen*& dyn_IsFullscreen();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetCurrentSceneFocusProcess GetCurrentSceneFocusProcess
-    ::OVR::OpenVR::IVRCompositor::_GetCurrentSceneFocusProcess*& dyn_GetCurrentSceneFocusProcess();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_GetCurrentSceneFocusProcess*& dyn_GetCurrentSceneFocusProcess();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetLastFrameRenderer GetLastFrameRenderer
-    ::OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer*& dyn_GetLastFrameRenderer();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer*& dyn_GetLastFrameRenderer();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._CanRenderScene CanRenderScene
-    ::OVR::OpenVR::IVRCompositor::_CanRenderScene*& dyn_CanRenderScene();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_CanRenderScene*& dyn_CanRenderScene();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._ShowMirrorWindow ShowMirrorWindow
-    ::OVR::OpenVR::IVRCompositor::_ShowMirrorWindow*& dyn_ShowMirrorWindow();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_ShowMirrorWindow*& dyn_ShowMirrorWindow();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._HideMirrorWindow HideMirrorWindow
-    ::OVR::OpenVR::IVRCompositor::_HideMirrorWindow*& dyn_HideMirrorWindow();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_HideMirrorWindow*& dyn_HideMirrorWindow();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._IsMirrorWindowVisible IsMirrorWindowVisible
-    ::OVR::OpenVR::IVRCompositor::_IsMirrorWindowVisible*& dyn_IsMirrorWindowVisible();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_IsMirrorWindowVisible*& dyn_IsMirrorWindowVisible();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._CompositorDumpImages CompositorDumpImages
-    ::OVR::OpenVR::IVRCompositor::_CompositorDumpImages*& dyn_CompositorDumpImages();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_CompositorDumpImages*& dyn_CompositorDumpImages();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._ShouldAppRenderWithLowResources ShouldAppRenderWithLowResources
-    ::OVR::OpenVR::IVRCompositor::_ShouldAppRenderWithLowResources*& dyn_ShouldAppRenderWithLowResources();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_ShouldAppRenderWithLowResources*& dyn_ShouldAppRenderWithLowResources();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._ForceInterleavedReprojectionOn ForceInterleavedReprojectionOn
-    ::OVR::OpenVR::IVRCompositor::_ForceInterleavedReprojectionOn*& dyn_ForceInterleavedReprojectionOn();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_ForceInterleavedReprojectionOn*& dyn_ForceInterleavedReprojectionOn();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._ForceReconnectProcess ForceReconnectProcess
-    ::OVR::OpenVR::IVRCompositor::_ForceReconnectProcess*& dyn_ForceReconnectProcess();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_ForceReconnectProcess*& dyn_ForceReconnectProcess();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._SuspendRendering SuspendRendering
-    ::OVR::OpenVR::IVRCompositor::_SuspendRendering*& dyn_SuspendRendering();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_SuspendRendering*& dyn_SuspendRendering();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetMirrorTextureD3D11 GetMirrorTextureD3D11
-    ::OVR::OpenVR::IVRCompositor::_GetMirrorTextureD3D11*& dyn_GetMirrorTextureD3D11();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_GetMirrorTextureD3D11*& dyn_GetMirrorTextureD3D11();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._ReleaseMirrorTextureD3D11 ReleaseMirrorTextureD3D11
-    ::OVR::OpenVR::IVRCompositor::_ReleaseMirrorTextureD3D11*& dyn_ReleaseMirrorTextureD3D11();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_ReleaseMirrorTextureD3D11*& dyn_ReleaseMirrorTextureD3D11();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetMirrorTextureGL GetMirrorTextureGL
-    ::OVR::OpenVR::IVRCompositor::_GetMirrorTextureGL*& dyn_GetMirrorTextureGL();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_GetMirrorTextureGL*& dyn_GetMirrorTextureGL();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._ReleaseSharedGLTexture ReleaseSharedGLTexture
-    ::OVR::OpenVR::IVRCompositor::_ReleaseSharedGLTexture*& dyn_ReleaseSharedGLTexture();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_ReleaseSharedGLTexture*& dyn_ReleaseSharedGLTexture();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._LockGLSharedTextureForAccess LockGLSharedTextureForAccess
-    ::OVR::OpenVR::IVRCompositor::_LockGLSharedTextureForAccess*& dyn_LockGLSharedTextureForAccess();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_LockGLSharedTextureForAccess*& dyn_LockGLSharedTextureForAccess();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._UnlockGLSharedTextureForAccess UnlockGLSharedTextureForAccess
-    ::OVR::OpenVR::IVRCompositor::_UnlockGLSharedTextureForAccess*& dyn_UnlockGLSharedTextureForAccess();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_UnlockGLSharedTextureForAccess*& dyn_UnlockGLSharedTextureForAccess();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetVulkanInstanceExtensionsRequired GetVulkanInstanceExtensionsRequired
-    ::OVR::OpenVR::IVRCompositor::_GetVulkanInstanceExtensionsRequired*& dyn_GetVulkanInstanceExtensionsRequired();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_GetVulkanInstanceExtensionsRequired*& dyn_GetVulkanInstanceExtensionsRequired();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetVulkanDeviceExtensionsRequired GetVulkanDeviceExtensionsRequired
-    ::OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired*& dyn_GetVulkanDeviceExtensionsRequired();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired*& dyn_GetVulkanDeviceExtensionsRequired();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._SetExplicitTimingMode SetExplicitTimingMode
-    ::OVR::OpenVR::IVRCompositor::_SetExplicitTimingMode*& dyn_SetExplicitTimingMode();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_SetExplicitTimingMode*& dyn_SetExplicitTimingMode();
     // Get instance field reference: OVR.OpenVR.IVRCompositor/OVR.OpenVR._SubmitExplicitTimingData SubmitExplicitTimingData
-    ::OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData*& dyn_SubmitExplicitTimingData();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData*& dyn_SubmitExplicitTimingData();
   }; // OVR.OpenVR.IVRCompositor
   #pragma pack(pop)
   static check_size<sizeof(IVRCompositor), 336 + sizeof(::OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData*)> __OVR_OpenVR_IVRCompositorSizeCheck;

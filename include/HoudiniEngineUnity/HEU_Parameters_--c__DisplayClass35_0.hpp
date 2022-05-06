@@ -34,15 +34,7 @@ namespace HoudiniEngineUnity {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class HEU_Parameters::$$c__DisplayClass35_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 parentID
     // Size: 0x4
     // Offset: 0x10
@@ -59,27 +51,29 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::System::Predicate_1<::HoudiniEngineUnity::HAPI_ParmInfo>*) == 0x8);
     public:
     // Get instance field reference: public System.Int32 parentID
-    int& dyn_parentID();
+    [[deprecated("Use field access instead!")]] int& dyn_parentID();
     // Get instance field reference: public System.Predicate`1<HoudiniEngineUnity.HAPI_ParmInfo> <>9__0
-    ::System::Predicate_1<::HoudiniEngineUnity::HAPI_ParmInfo>*& dyn_$$9__0();
-    // System.Boolean <Initialize>b__0(HoudiniEngineUnity.HAPI_ParmInfo p)
-    // Offset: 0x1AB8F24
-    bool $Initialize$b__0(::HoudiniEngineUnity::HAPI_ParmInfo p);
+    [[deprecated("Use field access instead!")]] ::System::Predicate_1<::HoudiniEngineUnity::HAPI_ParmInfo>*& dyn_$$9__0();
     // public System.Void .ctor()
-    // Offset: 0x1AB65E8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1AF0BD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_Parameters::$$c__DisplayClass35_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Parameters::$$c__DisplayClass35_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_Parameters::$$c__DisplayClass35_0*, creationType>()));
     }
+    // System.Boolean <Initialize>b__0(HoudiniEngineUnity.HAPI_ParmInfo p)
+    // Offset: 0x1AF350C
+    bool $Initialize$b__0(::HoudiniEngineUnity::HAPI_ParmInfo p);
   }; // HoudiniEngineUnity.HEU_Parameters/HoudiniEngineUnity.<>c__DisplayClass35_0
   #pragma pack(pop)
   static check_size<sizeof(HEU_Parameters::$$c__DisplayClass35_0), 24 + sizeof(::System::Predicate_1<::HoudiniEngineUnity::HAPI_ParmInfo>*)> __HoudiniEngineUnity_HEU_Parameters_$$c__DisplayClass35_0SizeCheck;
   static_assert(sizeof(HEU_Parameters::$$c__DisplayClass35_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Parameters::$$c__DisplayClass35_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Parameters::$$c__DisplayClass35_0::$Initialize$b__0
 // Il2CppName: <Initialize>b__0
 template<>
@@ -89,7 +83,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Parameters::$$c__DisplayClass35_0*), "<Initialize>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Parameters::$$c__DisplayClass35_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

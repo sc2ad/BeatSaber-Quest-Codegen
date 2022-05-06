@@ -45,15 +45,7 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class DisposableManager::$$c__DisplayClass4_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.IDisposable disposable
     // Size: 0x8
     // Offset: 0x10
@@ -66,31 +58,33 @@ namespace Zenject {
       return disposable;
     }
     // Get instance field reference: public System.IDisposable disposable
-    ::System::IDisposable*& dyn_disposable();
-    // System.Boolean <.ctor>b__0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1DDC08C
-    bool $_ctor$b__0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1DDC124
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1DDC180
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    [[deprecated("Use field access instead!")]] ::System::IDisposable*& dyn_disposable();
     // public System.Void .ctor()
-    // Offset: 0x1DDAE58
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E15724
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisposableManager::$$c__DisplayClass4_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c__DisplayClass4_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisposableManager::$$c__DisplayClass4_0*, creationType>()));
     }
+    // System.Boolean <.ctor>b__0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
+    // Offset: 0x1E16958
+    bool $_ctor$b__0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1E169F0
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1E16A4C
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.DisposableManager/Zenject.<>c__DisplayClass4_0
   #pragma pack(pop)
   static check_size<sizeof(DisposableManager::$$c__DisplayClass4_0), 16 + sizeof(::System::IDisposable*)> __Zenject_DisposableManager_$$c__DisplayClass4_0SizeCheck;
   static_assert(sizeof(DisposableManager::$$c__DisplayClass4_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::DisposableManager::$$c__DisplayClass4_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::DisposableManager::$$c__DisplayClass4_0::$_ctor$b__0
 // Il2CppName: <.ctor>b__0
 template<>
@@ -117,7 +111,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::DisposableManager::$$c__DisplayClass4_0*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::DisposableManager::$$c__DisplayClass4_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

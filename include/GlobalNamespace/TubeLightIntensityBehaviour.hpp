@@ -45,16 +45,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TubeLightIntensityBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [HeaderAttribute] Offset: 0x126017C
+    // [HeaderAttribute] Offset: 0x10E4E24
     // public System.Boolean _noPredefinedStartValue
     // Size: 0x1
     // Offset: 0x10
@@ -63,21 +55,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: noPredefinedStartValue and: startLightIntensity
     char __padding0[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x12601B4
+    // [DrawIfAttribute] Offset: 0x10E4E5C
     // public System.Single _startLightIntensity
     // Size: 0x4
     // Offset: 0x14
     float startLightIntensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0x1260248
+    // [DrawIfAttribute] Offset: 0x10E4EF0
     // public System.Single _startLaserIntensity
     // Size: 0x4
     // Offset: 0x18
     float startLaserIntensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x12602DC
+    // [HeaderAttribute] Offset: 0x10E4F84
     // public System.Single _endLightIntensity
     // Size: 0x4
     // Offset: 0x1C
@@ -164,57 +156,54 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public System.Boolean _noPredefinedStartValue
-    bool& dyn__noPredefinedStartValue();
+    [[deprecated("Use field access instead!")]] bool& dyn__noPredefinedStartValue();
     // Get instance field reference: public System.Single _startLightIntensity
-    float& dyn__startLightIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn__startLightIntensity();
     // Get instance field reference: public System.Single _startLaserIntensity
-    float& dyn__startLaserIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn__startLaserIntensity();
     // Get instance field reference: public System.Single _endLightIntensity
-    float& dyn__endLightIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn__endLightIntensity();
     // Get instance field reference: public System.Single _endLaserIntensity
-    float& dyn__endLaserIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn__endLaserIntensity();
     // Get instance field reference: public System.Boolean _disableWhenFinished
-    bool& dyn__disableWhenFinished();
+    [[deprecated("Use field access instead!")]] bool& dyn__disableWhenFinished();
     // Get instance field reference: public System.Single _blend
-    float& dyn__blend();
+    [[deprecated("Use field access instead!")]] float& dyn__blend();
     // Get instance field reference: private System.Boolean _initialized
-    bool& dyn__initialized();
+    [[deprecated("Use field access instead!")]] bool& dyn__initialized();
     // Get instance field reference: private System.Single _originalLightIntensity
-    float& dyn__originalLightIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn__originalLightIntensity();
     // Get instance field reference: private System.Single _originalLaserIntensity
-    float& dyn__originalLaserIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn__originalLaserIntensity();
     // Get instance field reference: private TubeBloomPrePassLight[] _tubeLights
-    ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*>& dyn__tubeLights();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*>& dyn__tubeLights();
     // Get instance field reference: private DirectionalLight[] _directionalLights
-    ::ArrayW<::GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
     // Get instance field reference: private System.Boolean _started
-    bool& dyn__started();
+    [[deprecated("Use field access instead!")]] bool& dyn__started();
     // Get instance field reference: private System.Boolean _finished
-    bool& dyn__finished();
+    [[deprecated("Use field access instead!")]] bool& dyn__finished();
     // Get instance field reference: private System.Single _firstFrameLightIntensity
-    float& dyn__firstFrameLightIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn__firstFrameLightIntensity();
     // Get instance field reference: private System.Single _firstFrameLaserIntensity
-    float& dyn__firstFrameLaserIntensity();
-    // private System.Void EnableObjects(System.Boolean on)
-    // Offset: 0x134242C
-    void EnableObjects(bool on);
+    [[deprecated("Use field access instead!")]] float& dyn__firstFrameLaserIntensity();
     // public System.Void .ctor()
-    // Offset: 0x13425FC
-    // Implemented from: UnityEngine.Playables.PlayableBehaviour
-    // Base method: System.Void PlayableBehaviour::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x148E8F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TubeLightIntensityBehaviour* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TubeLightIntensityBehaviour::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TubeLightIntensityBehaviour*, creationType>()));
     }
+    // private System.Void EnableObjects(System.Boolean on)
+    // Offset: 0x148E724
+    void EnableObjects(bool on);
     // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0x1342080
+    // Offset: 0x148E378
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
     // public override System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
-    // Offset: 0x134250C
+    // Offset: 0x148E804
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnPlayableDestroy(UnityEngine.Playables.Playable playable)
     void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
@@ -224,6 +213,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(TubeLightIntensityBehaviour) == 0x54);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::TubeLightIntensityBehaviour::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TubeLightIntensityBehaviour::EnableObjects
 // Il2CppName: EnableObjects
 template<>
@@ -233,10 +226,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeLightIntensityBehaviour*), "EnableObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{on});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TubeLightIntensityBehaviour::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TubeLightIntensityBehaviour::ProcessFrame
 // Il2CppName: ProcessFrame
 template<>

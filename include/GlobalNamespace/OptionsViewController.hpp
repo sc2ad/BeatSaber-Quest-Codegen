@@ -93,20 +93,12 @@ namespace GlobalNamespace {
       // Set static field: static public OptionsViewController/OptionsButton Settings
       static void _set_Settings(::GlobalNamespace::OptionsViewController::OptionsButton value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // OptionsViewController/OptionsButton
     #pragma pack(pop)
     static check_size<sizeof(OptionsViewController::OptionsButton), 0 + sizeof(int)> __GlobalNamespace_OptionsViewController_OptionsButtonSizeCheck;
     static_assert(sizeof(OptionsViewController::OptionsButton) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Button _editAvatarButton
     // Size: 0x8
     // Offset: 0x70
@@ -125,7 +117,7 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Button* settingsButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [InjectAttribute] Offset: 0x125CDEC
+    // [InjectAttribute] Offset: 0x10E19D0
     // private readonly AppStaticSettingsSO _appStaticSettings
     // Size: 0x8
     // Offset: 0x88
@@ -140,46 +132,39 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action_1<::GlobalNamespace::OptionsViewController::OptionsButton>*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.UI.Button _editAvatarButton
-    ::UnityEngine::UI::Button*& dyn__editAvatarButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__editAvatarButton();
     // Get instance field reference: private UnityEngine.UI.Button _playerOptionsButton
-    ::UnityEngine::UI::Button*& dyn__playerOptionsButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__playerOptionsButton();
     // Get instance field reference: private UnityEngine.UI.Button _settingsButton
-    ::UnityEngine::UI::Button*& dyn__settingsButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__settingsButton();
     // Get instance field reference: private readonly AppStaticSettingsSO _appStaticSettings
-    ::GlobalNamespace::AppStaticSettingsSO*& dyn__appStaticSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AppStaticSettingsSO*& dyn__appStaticSettings();
     // Get instance field reference: private System.Action`1<OptionsViewController/OptionsButton> didFinishEvent
-    ::System::Action_1<::GlobalNamespace::OptionsViewController::OptionsButton>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::OptionsViewController::OptionsButton>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<OptionsViewController/OptionsButton> value)
-    // Offset: 0x12E8EF0
+    // Offset: 0x1359E90
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::OptionsViewController::OptionsButton>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<OptionsViewController/OptionsButton> value)
-    // Offset: 0x12E8F94
+    // Offset: 0x1359F34
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::OptionsViewController::OptionsButton>* value);
-    // private System.Void <DidActivate>b__8_0()
-    // Offset: 0x12E91BC
-    void $DidActivate$b__8_0();
-    // private System.Void <DidActivate>b__8_1()
-    // Offset: 0x12E9220
-    void $DidActivate$b__8_1();
-    // private System.Void <DidActivate>b__8_2()
-    // Offset: 0x12E9284
-    void $DidActivate$b__8_2();
     // public System.Void .ctor()
-    // Offset: 0x12E91B4
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x135A154
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OptionsViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OptionsViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OptionsViewController*, creationType>()));
     }
+    // private System.Void <DidActivate>b__8_0()
+    // Offset: 0x135A15C
+    void $DidActivate$b__8_0();
+    // private System.Void <DidActivate>b__8_1()
+    // Offset: 0x135A1C0
+    void $DidActivate$b__8_1();
+    // private System.Void <DidActivate>b__8_2()
+    // Offset: 0x135A224
+    void $DidActivate$b__8_2();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x12E9038
+    // Offset: 0x1359FD8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -209,6 +194,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OptionsViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::OptionsViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OptionsViewController::$DidActivate$b__8_0
 // Il2CppName: <DidActivate>b__8_0
 template<>
@@ -233,10 +222,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OptionsViewController*), "<DidActivate>b__8_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OptionsViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OptionsViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

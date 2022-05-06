@@ -37,15 +37,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MergeElements::$$c__DisplayClass0_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> remove
     // Size: 0x8
     // Offset: 0x10
@@ -58,25 +50,27 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return remove;
     }
     // Get instance field reference: public System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> remove
-    ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*& dyn_remove();
-    // System.Boolean <MergePairs>b__0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1C029AC
-    bool $MergePairs$b__0(::UnityEngine::ProBuilder::Face* x);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*& dyn_remove();
     // public System.Void .ctor()
-    // Offset: 0x1C01F0C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C3C4F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MergeElements::$$c__DisplayClass0_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::MergeElements::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MergeElements::$$c__DisplayClass0_0*, creationType>()));
     }
+    // System.Boolean <MergePairs>b__0(UnityEngine.ProBuilder.Face x)
+    // Offset: 0x1C3CF94
+    bool $MergePairs$b__0(::UnityEngine::ProBuilder::Face* x);
   }; // UnityEngine.ProBuilder.MeshOperations.MergeElements/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass0_0
   #pragma pack(pop)
   static check_size<sizeof(MergeElements::$$c__DisplayClass0_0), 16 + sizeof(::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*)> __UnityEngine_ProBuilder_MeshOperations_MergeElements_$$c__DisplayClass0_0SizeCheck;
   static_assert(sizeof(MergeElements::$$c__DisplayClass0_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::MergeElements::$$c__DisplayClass0_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::MergeElements::$$c__DisplayClass0_0::$MergePairs$b__0
 // Il2CppName: <MergePairs>b__0
 template<>
@@ -86,7 +80,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::MergeElements::$$c__DisplayClass0_0*), "<MergePairs>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::MergeElements::$$c__DisplayClass0_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

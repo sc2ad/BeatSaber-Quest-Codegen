@@ -47,15 +47,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     public:
     // Writing base type padding for base size: 0x1C to desired offset: 0x20
     char ___base_padding[0x4] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Crypto.Parameters.ECDomainParameters domainParams
     // Size: 0x8
     // Offset: 0x20
@@ -70,17 +62,17 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     static_assert(sizeof(::Org::BouncyCastle::Asn1::DerObjectIdentifier*) == 0x8);
     public:
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Parameters.ECDomainParameters domainParams
-    ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*& dyn_domainParams();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*& dyn_domainParams();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet
-    ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_publicKeyParamSet();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_publicKeyParamSet();
     // public Org.BouncyCastle.Crypto.Parameters.ECDomainParameters get_DomainParameters()
-    // Offset: 0x15C0F64
+    // Offset: 0x15F6874
     ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* get_DomainParameters();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_PublicKeyParamSet()
-    // Offset: 0x15C0F6C
+    // Offset: 0x15F687C
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Parameters.ECDomainParameters domainParameters, Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x15C0F0C
+    // Offset: 0x15F681C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECKeyGenerationParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* domainParameters, ::Org::BouncyCastle::Security::SecureRandom* random) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::.ctor");

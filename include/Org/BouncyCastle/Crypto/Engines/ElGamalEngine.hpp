@@ -46,15 +46,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class ElGamalEngine : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Org.BouncyCastle.Crypto.Parameters.ElGamalKeyParameters key
     // Size: 0x8
     // Offset: 0x10
@@ -87,40 +79,42 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(this);
     }
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.ElGamalKeyParameters key
-    ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters*& dyn_key();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters*& dyn_key();
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
-    ::Org::BouncyCastle::Security::SecureRandom*& dyn_random();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // Get instance field reference: private System.Boolean forEncryption
-    bool& dyn_forEncryption();
+    [[deprecated("Use field access instead!")]] bool& dyn_forEncryption();
     // Get instance field reference: private System.Int32 bitSize
-    int& dyn_bitSize();
-    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x23295EC
-    void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-    // public System.Int32 GetInputBlockSize()
-    // Offset: 0x232981C
-    int GetInputBlockSize();
-    // public System.Int32 GetOutputBlockSize()
-    // Offset: 0x232985C
-    int GetOutputBlockSize();
-    // public System.Byte[] ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x232989C
-    ::ArrayW<uint8_t> ProcessBlock(::ArrayW<uint8_t> input, int inOff, int length);
+    [[deprecated("Use field access instead!")]] int& dyn_bitSize();
     // public System.Void .ctor()
-    // Offset: 0x2329D78
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x23735EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ElGamalEngine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ElGamalEngine*, creationType>()));
     }
+    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
+    // Offset: 0x2372E60
+    void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // public System.Int32 GetInputBlockSize()
+    // Offset: 0x2373090
+    int GetInputBlockSize();
+    // public System.Int32 GetOutputBlockSize()
+    // Offset: 0x23730D0
+    int GetOutputBlockSize();
+    // public System.Byte[] ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Int32 length)
+    // Offset: 0x2373110
+    ::ArrayW<uint8_t> ProcessBlock(::ArrayW<uint8_t> input, int inOff, int length);
   }; // Org.BouncyCastle.Crypto.Engines.ElGamalEngine
   #pragma pack(pop)
   static check_size<sizeof(ElGamalEngine), 36 + sizeof(int)> __Org_BouncyCastle_Crypto_Engines_ElGamalEngineSizeCheck;
   static_assert(sizeof(ElGamalEngine) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::ElGamalEngine::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::ElGamalEngine::Init
 // Il2CppName: Init
 template<>
@@ -158,7 +152,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::ElGamalEngine*), "ProcessBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, inOff, length});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::ElGamalEngine::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

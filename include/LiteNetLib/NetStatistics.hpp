@@ -27,15 +27,7 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetStatistics : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int64 _packetsSent
     // Size: 0x8
     // Offset: 0x10
@@ -68,65 +60,63 @@ namespace LiteNetLib {
     static_assert(sizeof(int64_t) == 0x8);
     public:
     // Get instance field reference: private System.Int64 _packetsSent
-    int64_t& dyn__packetsSent();
+    [[deprecated("Use field access instead!")]] int64_t& dyn__packetsSent();
     // Get instance field reference: private System.Int64 _packetsReceived
-    int64_t& dyn__packetsReceived();
+    [[deprecated("Use field access instead!")]] int64_t& dyn__packetsReceived();
     // Get instance field reference: private System.Int64 _bytesSent
-    int64_t& dyn__bytesSent();
+    [[deprecated("Use field access instead!")]] int64_t& dyn__bytesSent();
     // Get instance field reference: private System.Int64 _bytesReceived
-    int64_t& dyn__bytesReceived();
+    [[deprecated("Use field access instead!")]] int64_t& dyn__bytesReceived();
     // Get instance field reference: private System.Int64 _packetLoss
-    int64_t& dyn__packetLoss();
+    [[deprecated("Use field access instead!")]] int64_t& dyn__packetLoss();
     // public System.Int64 get_PacketsSent()
-    // Offset: 0x216E398
+    // Offset: 0x21B9C0C
     int64_t get_PacketsSent();
     // public System.Int64 get_PacketsReceived()
-    // Offset: 0x216E3A4
+    // Offset: 0x21B9C18
     int64_t get_PacketsReceived();
     // public System.Int64 get_BytesSent()
-    // Offset: 0x216E3B0
+    // Offset: 0x21B9C24
     int64_t get_BytesSent();
     // public System.Int64 get_BytesReceived()
-    // Offset: 0x216E3BC
+    // Offset: 0x21B9C30
     int64_t get_BytesReceived();
     // public System.Int64 get_PacketLoss()
-    // Offset: 0x216E3C8
+    // Offset: 0x21B9C3C
     int64_t get_PacketLoss();
     // public System.Int64 get_PacketLossPercent()
-    // Offset: 0x216E3D4
+    // Offset: 0x21B9C48
     int64_t get_PacketLossPercent();
-    // public System.Void Reset()
-    // Offset: 0x216E424
-    void Reset();
-    // public System.Void IncrementPacketsSent()
-    // Offset: 0x21665E0
-    void IncrementPacketsSent();
-    // public System.Void IncrementPacketsReceived()
-    // Offset: 0x216865C
-    void IncrementPacketsReceived();
-    // public System.Void AddBytesSent(System.Int64 bytesSent)
-    // Offset: 0x21665EC
-    void AddBytesSent(int64_t bytesSent);
-    // public System.Void AddBytesReceived(System.Int64 bytesReceived)
-    // Offset: 0x2168668
-    void AddBytesReceived(int64_t bytesReceived);
-    // public System.Void IncrementPacketLoss()
-    // Offset: 0x216E48C
-    void IncrementPacketLoss();
-    // public System.Void AddPacketLoss(System.Int64 packetLoss)
-    // Offset: 0x216E498
-    void AddPacketLoss(int64_t packetLoss);
     // public System.Void .ctor()
-    // Offset: 0x2165C64
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x21B14D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetStatistics* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetStatistics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetStatistics*, creationType>()));
     }
+    // public System.Void Reset()
+    // Offset: 0x21B9C98
+    void Reset();
+    // public System.Void IncrementPacketsSent()
+    // Offset: 0x21B1E54
+    void IncrementPacketsSent();
+    // public System.Void IncrementPacketsReceived()
+    // Offset: 0x21B3ED0
+    void IncrementPacketsReceived();
+    // public System.Void AddBytesSent(System.Int64 bytesSent)
+    // Offset: 0x21B1E60
+    void AddBytesSent(int64_t bytesSent);
+    // public System.Void AddBytesReceived(System.Int64 bytesReceived)
+    // Offset: 0x21B3EDC
+    void AddBytesReceived(int64_t bytesReceived);
+    // public System.Void IncrementPacketLoss()
+    // Offset: 0x21B9D00
+    void IncrementPacketLoss();
+    // public System.Void AddPacketLoss(System.Int64 packetLoss)
+    // Offset: 0x21B9D0C
+    void AddPacketLoss(int64_t packetLoss);
     // public override System.String ToString()
-    // Offset: 0x216E4A4
+    // Offset: 0x21B9D18
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -184,6 +174,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Li
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), "get_PacketLossPercent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: LiteNetLib::NetStatistics::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: LiteNetLib::NetStatistics::Reset
 // Il2CppName: Reset
 template<>
@@ -243,10 +237,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), "AddPacketLoss", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packetLoss});
   }
 };
-// Writing MetadataGetter for method: LiteNetLib::NetStatistics::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: LiteNetLib::NetStatistics::ToString
 // Il2CppName: ToString
 template<>

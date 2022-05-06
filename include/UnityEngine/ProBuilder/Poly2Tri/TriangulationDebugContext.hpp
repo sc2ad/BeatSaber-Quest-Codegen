@@ -29,15 +29,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [TokenAttribute] Offset: FFFFFFFF
   class TriangulationDebugContext : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected UnityEngine.ProBuilder.Poly2Tri.TriangulationContext _tcx
     // Size: 0x8
     // Offset: 0x10
@@ -50,7 +42,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
       return tcx;
     }
     // Get instance field reference: protected UnityEngine.ProBuilder.Poly2Tri.TriangulationContext _tcx
-    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*& dyn__tcx();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*& dyn__tcx();
     // public System.Void Clear()
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Clear();

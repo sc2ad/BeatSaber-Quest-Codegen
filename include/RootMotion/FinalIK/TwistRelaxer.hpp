@@ -40,53 +40,45 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class TwistRelaxer : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public RootMotion.FinalIK.IK ik
     // Size: 0x8
     // Offset: 0x18
     ::RootMotion::FinalIK::IK* ik;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::IK*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1274928
+    // [TooltipAttribute] Offset: 0x10F95E0
     // public UnityEngine.Transform parent
     // Size: 0x8
     // Offset: 0x20
     ::UnityEngine::Transform* parent;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1274960
+    // [TooltipAttribute] Offset: 0x10F9618
     // public UnityEngine.Transform child
     // Size: 0x8
     // Offset: 0x28
     ::UnityEngine::Transform* child;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1274998
-    // [RangeAttribute] Offset: 0x1274998
+    // [TooltipAttribute] Offset: 0x10F9650
+    // [RangeAttribute] Offset: 0x10F9650
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x30
     float weight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x12749EC
-    // [RangeAttribute] Offset: 0x12749EC
+    // [TooltipAttribute] Offset: 0x10F96A4
+    // [RangeAttribute] Offset: 0x10F96A4
     // public System.Single parentChildCrossfade
     // Size: 0x4
     // Offset: 0x34
     float parentChildCrossfade;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1274A40
-    // [RangeAttribute] Offset: 0x1274A40
+    // [TooltipAttribute] Offset: 0x10F96F8
+    // [RangeAttribute] Offset: 0x10F96F8
     // public System.Single twistAngleOffset
     // Size: 0x4
     // Offset: 0x38
@@ -121,59 +113,57 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.IK ik
-    ::RootMotion::FinalIK::IK*& dyn_ik();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IK*& dyn_ik();
     // Get instance field reference: public UnityEngine.Transform parent
-    ::UnityEngine::Transform*& dyn_parent();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_parent();
     // Get instance field reference: public UnityEngine.Transform child
-    ::UnityEngine::Transform*& dyn_child();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_child();
     // Get instance field reference: public System.Single weight
-    float& dyn_weight();
+    [[deprecated("Use field access instead!")]] float& dyn_weight();
     // Get instance field reference: public System.Single parentChildCrossfade
-    float& dyn_parentChildCrossfade();
+    [[deprecated("Use field access instead!")]] float& dyn_parentChildCrossfade();
     // Get instance field reference: public System.Single twistAngleOffset
-    float& dyn_twistAngleOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_twistAngleOffset();
     // Get instance field reference: private UnityEngine.Vector3 twistAxis
-    ::UnityEngine::Vector3& dyn_twistAxis();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_twistAxis();
     // Get instance field reference: private UnityEngine.Vector3 axis
-    ::UnityEngine::Vector3& dyn_axis();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_axis();
     // Get instance field reference: private UnityEngine.Vector3 axisRelativeToParentDefault
-    ::UnityEngine::Vector3& dyn_axisRelativeToParentDefault();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_axisRelativeToParentDefault();
     // Get instance field reference: private UnityEngine.Vector3 axisRelativeToChildDefault
-    ::UnityEngine::Vector3& dyn_axisRelativeToChildDefault();
-    // public System.Void Relax()
-    // Offset: 0x1F78524
-    void Relax();
-    // private System.Void Start()
-    // Offset: 0x1F78904
-    void Start();
-    // private System.Void OnPostUpdate()
-    // Offset: 0x1F78D78
-    void OnPostUpdate();
-    // private System.Void LateUpdate()
-    // Offset: 0x1F78E00
-    void LateUpdate();
-    // private System.Void OnDestroy()
-    // Offset: 0x1F78E88
-    void OnDestroy();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_axisRelativeToChildDefault();
     // public System.Void .ctor()
-    // Offset: 0x1F78F8C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FC5800
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TwistRelaxer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::TwistRelaxer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TwistRelaxer*, creationType>()));
     }
+    // public System.Void Relax()
+    // Offset: 0x1FC4D98
+    void Relax();
+    // private System.Void Start()
+    // Offset: 0x1FC5178
+    void Start();
+    // private System.Void OnPostUpdate()
+    // Offset: 0x1FC55EC
+    void OnPostUpdate();
+    // private System.Void LateUpdate()
+    // Offset: 0x1FC5674
+    void LateUpdate();
+    // private System.Void OnDestroy()
+    // Offset: 0x1FC56FC
+    void OnDestroy();
   }; // RootMotion.FinalIK.TwistRelaxer
   #pragma pack(pop)
   static check_size<sizeof(TwistRelaxer), 96 + sizeof(::UnityEngine::Vector3)> __RootMotion_FinalIK_TwistRelaxerSizeCheck;
   static_assert(sizeof(TwistRelaxer) == 0x6C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::TwistRelaxer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::TwistRelaxer::Relax
 // Il2CppName: Relax
 template<>
@@ -214,7 +204,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::TwistRelaxer*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::TwistRelaxer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

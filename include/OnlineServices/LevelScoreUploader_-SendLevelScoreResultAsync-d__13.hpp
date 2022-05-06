@@ -104,28 +104,28 @@ namespace OnlineServices {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public OnlineServices.LevelScoreUploader <>4__this
-    ::OnlineServices::LevelScoreUploader*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::OnlineServices::LevelScoreUploader*& dyn_$$4__this();
     // Get instance field reference: private System.Threading.CancellationToken <cancellationToken>5__2
-    ::System::Threading::CancellationToken& dyn_$cancellationToken$5__2();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationToken& dyn_$cancellationToken$5__2();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.PlatformServicesAvailabilityInfo> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::OnlineServices::PlatformServicesAvailabilityInfo*>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::OnlineServices::PlatformServicesAvailabilityInfo*>& dyn_$$u__1();
     // Get instance field reference: private OnlineServices.LevelScoreUploader/OnlineServices.LevelScoreResultsDataUploadInfo <levelScoreResultsDataUploadInfo>5__3
-    ::OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*& dyn_$levelScoreResultsDataUploadInfo$5__3();
+    [[deprecated("Use field access instead!")]] ::OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*& dyn_$levelScoreResultsDataUploadInfo$5__3();
     // Get instance field reference: private OnlineServices.LevelScoreResultsData <levelScoreResultToUpload>5__4
-    ::OnlineServices::LevelScoreResultsData& dyn_$levelScoreResultToUpload$5__4();
+    [[deprecated("Use field access instead!")]] ::OnlineServices::LevelScoreResultsData& dyn_$levelScoreResultToUpload$5__4();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.SendLeaderboardEntryResult> <>u__2
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::OnlineServices::SendLeaderboardEntryResult>& dyn_$$u__2();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::OnlineServices::SendLeaderboardEntryResult>& dyn_$$u__2();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__3
-    ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__3();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__3();
     // private System.Void MoveNext()
-    // Offset: 0x12E6C24
+    // Offset: 0x1357BC4
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x12E7440
+    // Offset: 0x13583E0
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.LevelScoreUploader/OnlineServices.<SendLevelScoreResultAsync>d__13
   // WARNING Not writing size check since size may be invalid!

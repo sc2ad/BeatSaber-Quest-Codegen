@@ -78,15 +78,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13
     class $CheckBeatmaps$d__13;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Button _btsButton
     // Size: 0x8
     // Offset: 0x18
@@ -105,7 +97,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* progressText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0x12493F4
+    // [SpaceAttribute] Offset: 0x10CDEEC
     // private StandardLevelScenesTransitionSetupDataSO _waypointsTestScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x30
@@ -124,14 +116,14 @@ namespace GlobalNamespace {
     ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapCharacteristicSO*>* characteristics;
     // Field size check
     static_assert(sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapCharacteristicSO*>*) == 0x8);
-    // [InjectAttribute] Offset: 0x124944C
+    // [InjectAttribute] Offset: 0x10CDF44
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x124945C
+    // [InjectAttribute] Offset: 0x10CDF54
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x50
@@ -160,67 +152,65 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Button _btsButton
-    ::UnityEngine::UI::Button*& dyn__btsButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__btsButton();
     // Get instance field reference: private UnityEngine.UI.Button _cancelButton
-    ::UnityEngine::UI::Button*& dyn__cancelButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__cancelButton();
     // Get instance field reference: private TMPro.TextMeshProUGUI _progressText
-    ::TMPro::TextMeshProUGUI*& dyn__progressText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__progressText();
     // Get instance field reference: private StandardLevelScenesTransitionSetupDataSO _waypointsTestScenesTransitionSetupData
-    ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& dyn__waypointsTestScenesTransitionSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& dyn__waypointsTestScenesTransitionSetupData();
     // Get instance field reference: private System.Collections.Generic.List`1<BeatmapLevelSO> _levels
-    ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelSO*>*& dyn__levels();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelSO*>*& dyn__levels();
     // Get instance field reference: private System.Collections.Generic.List`1<BeatmapCharacteristicSO> _characteristics
-    ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapCharacteristicSO*>*& dyn__characteristics();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapCharacteristicSO*>*& dyn__characteristics();
     // Get instance field reference: private readonly GameScenesManager _gameScenesManager
-    ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // Get instance field reference: private readonly PlayerDataModel _playerDataModel
-    ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
     // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
-    ::HMUI::ButtonBinder*& dyn__buttonBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // Get instance field reference: private System.Boolean _isCancelled
-    bool& dyn__isCancelled();
+    [[deprecated("Use field access instead!")]] bool& dyn__isCancelled();
     // Get instance field reference: private System.Boolean _waitingForLevelFinish
-    bool& dyn__waitingForLevelFinish();
-    // private System.Void Start()
-    // Offset: 0x2AC721C
-    void Start();
-    // private System.Void OnDestroy()
-    // Offset: 0x2AC7340
-    void OnDestroy();
-    // private System.Collections.IEnumerator CheckBeatmaps(System.Collections.Generic.List`1<BeatmapLevelSO> levels)
-    // Offset: 0x2AC742C
-    ::System::Collections::IEnumerator* CheckBeatmaps(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelSO*>* levels);
-    // private System.Void HandleMainGameSceneDidFinish(StandardLevelScenesTransitionSetupDataSO data, LevelCompletionResults results)
-    // Offset: 0x2AC74D4
-    void HandleMainGameSceneDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* data, ::GlobalNamespace::LevelCompletionResults* results);
-    // private System.Void <Start>b__11_0()
-    // Offset: 0x2AC7578
-    void $Start$b__11_0();
-    // private System.Void <Start>b__11_1()
-    // Offset: 0x2AC760C
-    void $Start$b__11_1();
-    // private System.Void <HandleMainGameSceneDidFinish>b__14_0(Zenject.DiContainer container)
-    // Offset: 0x2AC765C
-    void $HandleMainGameSceneDidFinish$b__14_0(::Zenject::DiContainer* container);
+    [[deprecated("Use field access instead!")]] bool& dyn__waitingForLevelFinish();
     // public System.Void .ctor()
-    // Offset: 0x2AC7570
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A3133C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WaypointsTestMenuViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::WaypointsTestMenuViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WaypointsTestMenuViewController*, creationType>()));
     }
+    // private System.Void Start()
+    // Offset: 0x2A30FE8
+    void Start();
+    // private System.Void OnDestroy()
+    // Offset: 0x2A3110C
+    void OnDestroy();
+    // private System.Collections.IEnumerator CheckBeatmaps(System.Collections.Generic.List`1<BeatmapLevelSO> levels)
+    // Offset: 0x2A311F8
+    ::System::Collections::IEnumerator* CheckBeatmaps(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelSO*>* levels);
+    // private System.Void HandleMainGameSceneDidFinish(StandardLevelScenesTransitionSetupDataSO data, LevelCompletionResults results)
+    // Offset: 0x2A312A0
+    void HandleMainGameSceneDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* data, ::GlobalNamespace::LevelCompletionResults* results);
+    // private System.Void <Start>b__11_0()
+    // Offset: 0x2A31344
+    void $Start$b__11_0();
+    // private System.Void <Start>b__11_1()
+    // Offset: 0x2A313D8
+    void $Start$b__11_1();
+    // private System.Void <HandleMainGameSceneDidFinish>b__14_0(Zenject.DiContainer container)
+    // Offset: 0x2A31428
+    void $HandleMainGameSceneDidFinish$b__14_0(::Zenject::DiContainer* container);
   }; // WaypointsTestMenuViewController
   #pragma pack(pop)
   static check_size<sizeof(WaypointsTestMenuViewController), 97 + sizeof(bool)> __GlobalNamespace_WaypointsTestMenuViewControllerSizeCheck;
   static_assert(sizeof(WaypointsTestMenuViewController) == 0x62);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::WaypointsTestMenuViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::WaypointsTestMenuViewController::Start
 // Il2CppName: Start
 template<>
@@ -281,7 +271,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController*), "<HandleMainGameSceneDidFinish>b__14_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::WaypointsTestMenuViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

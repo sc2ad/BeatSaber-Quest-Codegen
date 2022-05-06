@@ -31,15 +31,7 @@ namespace HMUI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ViewControllerTransitionHelpers::$$c__DisplayClass6_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public HMUI.ViewController toPresentViewController
     // Size: 0x8
     // Offset: 0x10
@@ -66,31 +58,33 @@ namespace HMUI {
     static_assert(sizeof(::HMUI::ViewController*) == 0x8);
     public:
     // Get instance field reference: public HMUI.ViewController toPresentViewController
-    ::HMUI::ViewController*& dyn_toPresentViewController();
+    [[deprecated("Use field access instead!")]] ::HMUI::ViewController*& dyn_toPresentViewController();
     // Get instance field reference: public System.Single moveOffset
-    float& dyn_moveOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_moveOffset();
     // Get instance field reference: public System.Single baseCanvasGroupAlpha
-    float& dyn_baseCanvasGroupAlpha();
+    [[deprecated("Use field access instead!")]] float& dyn_baseCanvasGroupAlpha();
     // Get instance field reference: public HMUI.ViewController toDismissViewController
-    ::HMUI::ViewController*& dyn_toDismissViewController();
-    // System.Void <DoVerticalTransition>b__0(System.Single t)
-    // Offset: 0x29E4A78
-    void $DoVerticalTransition$b__0(float t);
+    [[deprecated("Use field access instead!")]] ::HMUI::ViewController*& dyn_toDismissViewController();
     // public System.Void .ctor()
-    // Offset: 0x29E4A70
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A3A364
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ViewControllerTransitionHelpers::$$c__DisplayClass6_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass6_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ViewControllerTransitionHelpers::$$c__DisplayClass6_0*, creationType>()));
     }
+    // System.Void <DoVerticalTransition>b__0(System.Single t)
+    // Offset: 0x2A3A36C
+    void $DoVerticalTransition$b__0(float t);
   }; // HMUI.ViewControllerTransitionHelpers/HMUI.<>c__DisplayClass6_0
   #pragma pack(pop)
   static check_size<sizeof(ViewControllerTransitionHelpers::$$c__DisplayClass6_0), 32 + sizeof(::HMUI::ViewController*)> __HMUI_ViewControllerTransitionHelpers_$$c__DisplayClass6_0SizeCheck;
   static_assert(sizeof(ViewControllerTransitionHelpers::$$c__DisplayClass6_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass6_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass6_0::$DoVerticalTransition$b__0
 // Il2CppName: <DoVerticalTransition>b__0
 template<>
@@ -100,7 +94,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass6_0*), "<DoVerticalTransition>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
-// Writing MetadataGetter for method: HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass6_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

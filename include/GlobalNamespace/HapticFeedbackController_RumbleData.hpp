@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HapticFeedbackController::RumbleData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean active
     // Size: 0x1
     // Offset: 0x10
@@ -66,19 +58,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public System.Boolean active
-    bool& dyn_active();
+    [[deprecated("Use field access instead!")]] bool& dyn_active();
     // Get instance field reference: public System.Boolean continuous
-    bool& dyn_continuous();
+    [[deprecated("Use field access instead!")]] bool& dyn_continuous();
     // Get instance field reference: public System.Single strength
-    float& dyn_strength();
+    [[deprecated("Use field access instead!")]] float& dyn_strength();
     // Get instance field reference: public System.Single endTime
-    float& dyn_endTime();
+    [[deprecated("Use field access instead!")]] float& dyn_endTime();
     // Get instance field reference: public System.Single frequency
-    float& dyn_frequency();
+    [[deprecated("Use field access instead!")]] float& dyn_frequency();
     // public System.Void .ctor()
-    // Offset: 0x1573764
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15AA074
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HapticFeedbackController::RumbleData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HapticFeedbackController::RumbleData::.ctor");

@@ -49,15 +49,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StandardScoreSyncStateDeltaNetSerializable : public ::Il2CppObject/*, public ::LiteNetLib::Utils::INetSerializable, public ::GlobalNamespace::IPoolablePacket, public ::GlobalNamespace::ISyncStateDeltaSerializable_1<::GlobalNamespace::StandardScoreSyncState>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private StandardScoreSyncState _delta
     // Size: 0x14
     // Offset: 0x10
@@ -92,50 +84,48 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::ISyncStateDeltaSerializable_1<::GlobalNamespace::StandardScoreSyncState>*>(this);
     }
     // Get instance field reference: private StandardScoreSyncState _delta
-    ::GlobalNamespace::StandardScoreSyncState& dyn__delta();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::StandardScoreSyncState& dyn__delta();
     // Get instance field reference: private SyncStateId <baseId>k__BackingField
-    ::GlobalNamespace::SyncStateId& dyn_$baseId$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SyncStateId& dyn_$baseId$k__BackingField();
     // Get instance field reference: private System.Int32 <timeOffsetMs>k__BackingField
-    int& dyn_$timeOffsetMs$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$timeOffsetMs$k__BackingField();
     // static public IPacketPool`1<StandardScoreSyncStateDeltaNetSerializable> get_pool()
-    // Offset: 0x25F09E4
+    // Offset: 0x263D014
     static ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>* get_pool();
     // public SyncStateId get_baseId()
-    // Offset: 0x25F0A2C
+    // Offset: 0x263D05C
     ::GlobalNamespace::SyncStateId get_baseId();
     // public System.Void set_baseId(SyncStateId value)
-    // Offset: 0x25F0A34
+    // Offset: 0x263D064
     void set_baseId(::GlobalNamespace::SyncStateId value);
     // public System.Int32 get_timeOffsetMs()
-    // Offset: 0x25F0A3C
+    // Offset: 0x263D06C
     int get_timeOffsetMs();
     // public System.Void set_timeOffsetMs(System.Int32 value)
-    // Offset: 0x25F0A44
+    // Offset: 0x263D074
     void set_timeOffsetMs(int value);
     // public StandardScoreSyncState get_delta()
-    // Offset: 0x25F0A4C
+    // Offset: 0x263D07C
     ::GlobalNamespace::StandardScoreSyncState get_delta();
     // public System.Void set_delta(StandardScoreSyncState value)
-    // Offset: 0x25F0A60
+    // Offset: 0x263D090
     void set_delta(::GlobalNamespace::StandardScoreSyncState value);
-    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x25F0A74
-    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
-    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x25F0B5C
-    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
-    // public System.Void Release()
-    // Offset: 0x25F0C00
-    void Release();
     // public System.Void .ctor()
-    // Offset: 0x25F0CBC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x263D2EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardScoreSyncStateDeltaNetSerializable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardScoreSyncStateDeltaNetSerializable*, creationType>()));
     }
+    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x263D0A4
+    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x263D18C
+    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
+    // public System.Void Release()
+    // Offset: 0x263D230
+    void Release();
   }; // StandardScoreSyncStateDeltaNetSerializable
   #pragma pack(pop)
   static check_size<sizeof(StandardScoreSyncStateDeltaNetSerializable), 40 + sizeof(int)> __GlobalNamespace_StandardScoreSyncStateDeltaNetSerializableSizeCheck;
@@ -201,6 +191,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*), "set_delta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::Serialize
 // Il2CppName: Serialize
 template<>
@@ -227,7 +221,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -40,16 +40,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EulaDisplayViewController : public ::HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [HeaderAttribute] Offset: 0x125AE18
+    // [HeaderAttribute] Offset: 0x10DF9FC
     // private HMUI.TextPageScrollView _textPageScrollView
     // Size: 0x8
     // Offset: 0x70
@@ -64,25 +56,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::LocalizedTextAsset*) == 0x8);
     public:
     // Get instance field reference: private HMUI.TextPageScrollView _textPageScrollView
-    ::HMUI::TextPageScrollView*& dyn__textPageScrollView();
+    [[deprecated("Use field access instead!")]] ::HMUI::TextPageScrollView*& dyn__textPageScrollView();
     // Get instance field reference: private LocalizedTextAsset _localizedTextAsset
-    ::GlobalNamespace::LocalizedTextAsset*& dyn__localizedTextAsset();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LocalizedTextAsset*& dyn__localizedTextAsset();
     // public System.Void .ctor()
-    // Offset: 0x1386510
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x136E0EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EulaDisplayViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EulaDisplayViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EulaDisplayViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13864BC
+    // Offset: 0x136E098
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

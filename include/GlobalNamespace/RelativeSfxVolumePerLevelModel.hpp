@@ -42,15 +42,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class RelativeSfxVolumePerLevelModel : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single> _relativeSfxVolumePerLevelId
     // Size: 0x8
     // Offset: 0x10
@@ -69,16 +61,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kDefaultSfxVolume
     static void _set_kDefaultSfxVolume(float value);
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single> _relativeSfxVolumePerLevelId
-    ::System::Collections::Generic::Dictionary_2<::StringW, float>*& dyn__relativeSfxVolumePerLevelId();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, float>*& dyn__relativeSfxVolumePerLevelId();
     // public System.Void .ctor(RelativeSfxVolumePerLevelSO relativeSfxVolumePerLevelData)
-    // Offset: 0x137D734
+    // Offset: 0x1455588
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RelativeSfxVolumePerLevelModel* New_ctor(::GlobalNamespace::RelativeSfxVolumePerLevelSO* relativeSfxVolumePerLevelData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RelativeSfxVolumePerLevelModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RelativeSfxVolumePerLevelModel*, creationType>(relativeSfxVolumePerLevelData)));
     }
     // public System.Single GetRelativeSfxVolume(System.String levelId)
-    // Offset: 0x137D848
+    // Offset: 0x145569C
     float GetRelativeSfxVolume(::StringW levelId);
   }; // RelativeSfxVolumePerLevelModel
   #pragma pack(pop)

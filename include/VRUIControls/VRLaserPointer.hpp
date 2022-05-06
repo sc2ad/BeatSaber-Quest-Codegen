@@ -38,15 +38,7 @@ namespace VRUIControls {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRLaserPointer : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.MeshRenderer _renderer
     // Size: 0x8
     // Offset: 0x18
@@ -56,51 +48,55 @@ namespace VRUIControls {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12441C0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C8CA8
     // Get static field: static private readonly System.Int32 _fadeStartNormalizedDistanceId
     static int _get__fadeStartNormalizedDistanceId();
     // Set static field: static private readonly System.Int32 _fadeStartNormalizedDistanceId
     static void _set__fadeStartNormalizedDistanceId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12441D0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C8CB8
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static ::UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
     // Get instance field reference: private UnityEngine.MeshRenderer _renderer
-    ::UnityEngine::MeshRenderer*& dyn__renderer();
-    // public System.Void SetLocalPosition(UnityEngine.Vector3 position)
-    // Offset: 0x2A07EF8
-    void SetLocalPosition(::UnityEngine::Vector3 position);
-    // public System.Void SetLocalScale(UnityEngine.Vector3 scale)
-    // Offset: 0x2A07F44
-    void SetLocalScale(::UnityEngine::Vector3 scale);
-    // public System.Void SetFadeDistance(System.Single distance)
-    // Offset: 0x2A07F90
-    void SetFadeDistance(float distance);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MeshRenderer*& dyn__renderer();
     // public System.Void .ctor()
-    // Offset: 0x2A080A4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A5DBAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRLaserPointer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::VRUIControls::VRLaserPointer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRLaserPointer*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2A080AC
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x2A5DBB4
     static void _cctor();
+    // public System.Void SetLocalPosition(UnityEngine.Vector3 position)
+    // Offset: 0x2A5DA00
+    void SetLocalPosition(::UnityEngine::Vector3 position);
+    // public System.Void SetLocalScale(UnityEngine.Vector3 scale)
+    // Offset: 0x2A5DA4C
+    void SetLocalScale(::UnityEngine::Vector3 scale);
+    // public System.Void SetFadeDistance(System.Single distance)
+    // Offset: 0x2A5DA98
+    void SetFadeDistance(float distance);
   }; // VRUIControls.VRLaserPointer
   #pragma pack(pop)
   static check_size<sizeof(VRLaserPointer), 24 + sizeof(::UnityEngine::MeshRenderer*)> __VRUIControls_VRLaserPointerSizeCheck;
   static_assert(sizeof(VRLaserPointer) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: VRUIControls::VRLaserPointer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: VRUIControls::VRLaserPointer::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VRUIControls::VRLaserPointer::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRLaserPointer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: VRUIControls::VRLaserPointer::SetLocalPosition
 // Il2CppName: SetLocalPosition
 template<>
@@ -126,17 +122,5 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIC
   static const MethodInfo* get() {
     static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRLaserPointer*), "SetFadeDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{distance});
-  }
-};
-// Writing MetadataGetter for method: VRUIControls::VRLaserPointer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: VRUIControls::VRLaserPointer::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VRUIControls::VRLaserPointer::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRLaserPointer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

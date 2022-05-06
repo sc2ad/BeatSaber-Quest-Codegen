@@ -72,26 +72,26 @@ namespace System {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: System.Version m_parsedVersion
-    ::System::Version*& dyn_m_parsedVersion();
+    [[deprecated("Use field access instead!")]] ::System::Version*& dyn_m_parsedVersion();
     // Get instance field reference: System.Version/System.ParseFailureKind m_failure
-    ::System::Version::ParseFailureKind& dyn_m_failure();
+    [[deprecated("Use field access instead!")]] ::System::Version::ParseFailureKind& dyn_m_failure();
     // Get instance field reference: System.String m_exceptionArgument
-    ::StringW& dyn_m_exceptionArgument();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_exceptionArgument();
     // Get instance field reference: System.String m_argumentName
-    ::StringW& dyn_m_argumentName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_argumentName();
     // Get instance field reference: System.Boolean m_canThrow
-    bool& dyn_m_canThrow();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_canThrow();
     // System.Void Init(System.String argumentName, System.Boolean canThrow)
-    // Offset: 0x298A1B8
+    // Offset: 0x29DA778
     void Init(::StringW argumentName, bool canThrow);
     // System.Void SetFailure(System.Version/System.ParseFailureKind failure)
-    // Offset: 0x298A67C
+    // Offset: 0x29DAC3C
     void SetFailure(::System::Version::ParseFailureKind failure);
     // System.Void SetFailure(System.Version/System.ParseFailureKind failure, System.String argument)
-    // Offset: 0x298A7B8
+    // Offset: 0x29DAD78
     void SetFailure(::System::Version::ParseFailureKind failure, ::StringW argument);
     // System.Exception GetVersionParseException()
-    // Offset: 0x298A458
+    // Offset: 0x29DAA18
     ::System::Exception* GetVersionParseException();
   }; // System.Version/System.VersionResult
   #pragma pack(pop)

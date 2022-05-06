@@ -43,15 +43,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
   // [TokenAttribute] Offset: FFFFFFFF
   class HMac : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IMac*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Crypto.IDigest digest
     // Size: 0x8
     // Offset: 0x10
@@ -100,46 +92,46 @@ namespace Org::BouncyCastle::Crypto::Macs {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IMac*>(this);
     }
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IDigest digest
-    ::Org::BouncyCastle::Crypto::IDigest*& dyn_digest();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::IDigest*& dyn_digest();
     // Get instance field reference: private readonly System.Int32 digestSize
-    int& dyn_digestSize();
+    [[deprecated("Use field access instead!")]] int& dyn_digestSize();
     // Get instance field reference: private readonly System.Int32 blockLength
-    int& dyn_blockLength();
+    [[deprecated("Use field access instead!")]] int& dyn_blockLength();
     // Get instance field reference: private Org.BouncyCastle.Utilities.IMemoable ipadState
-    ::Org::BouncyCastle::Utilities::IMemoable*& dyn_ipadState();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Utilities::IMemoable*& dyn_ipadState();
     // Get instance field reference: private Org.BouncyCastle.Utilities.IMemoable opadState
-    ::Org::BouncyCastle::Utilities::IMemoable*& dyn_opadState();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Utilities::IMemoable*& dyn_opadState();
     // Get instance field reference: private readonly System.Byte[] inputPad
-    ::ArrayW<uint8_t>& dyn_inputPad();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_inputPad();
     // Get instance field reference: private readonly System.Byte[] outputBuf
-    ::ArrayW<uint8_t>& dyn_outputBuf();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_outputBuf();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x1DF6984
+    // Offset: 0x1E31250
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMac* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Macs::HMac::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMac*, creationType>(digest)));
     }
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1DFAA2C
+    // Offset: 0x1E352F8
     void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetMacSize()
-    // Offset: 0x1DFAFD8
+    // Offset: 0x1E358A4
     int GetMacSize();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1DFAFE0
+    // Offset: 0x1E358AC
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x1DFB0A4
+    // Offset: 0x1E35970
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1DFB180
+    // Offset: 0x1E35A4C
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1DFB66C
+    // Offset: 0x1E35F38
     void Reset();
     // static private System.Void XorPad(System.Byte[] pad, System.Int32 len, System.Byte n)
-    // Offset: 0x1DFAF7C
+    // Offset: 0x1E35848
     static void XorPad(::ArrayW<uint8_t> pad, int len, uint8_t n);
   }; // Org.BouncyCastle.Crypto.Macs.HMac
   #pragma pack(pop)

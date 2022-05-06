@@ -43,15 +43,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConnectedPlayerManager::PlayerSortOrderPacket : public ::Il2CppObject/*, public ::LiteNetLib::Utils::INetSerializable, public ::GlobalNamespace::IPoolablePacket*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String userId
     // Size: 0x8
     // Offset: 0x10
@@ -74,33 +66,31 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IPoolablePacket*>(this);
     }
     // Get instance field reference: public System.String userId
-    ::StringW& dyn_userId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_userId();
     // Get instance field reference: public System.Int32 sortIndex
-    int& dyn_sortIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_sortIndex();
     // static public PacketPool`1<ConnectedPlayerManager/PlayerSortOrderPacket> get_pool()
-    // Offset: 0x163D284
+    // Offset: 0x1673B94
     static ::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket*>* get_pool();
-    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x163DDCC
-    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
-    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x163DE10
-    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
-    // public System.Void Release()
-    // Offset: 0x163DE58
-    void Release();
-    // public ConnectedPlayerManager/PlayerSortOrderPacket Init(System.String userId, System.Int32 sortIndex)
-    // Offset: 0x163D2CC
-    ::GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket* Init(::StringW userId, int sortIndex);
     // public System.Void .ctor()
-    // Offset: 0x163DEB4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16747C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectedPlayerManager::PlayerSortOrderPacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectedPlayerManager::PlayerSortOrderPacket*, creationType>()));
     }
+    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x16746DC
+    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x1674720
+    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
+    // public System.Void Release()
+    // Offset: 0x1674768
+    void Release();
+    // public ConnectedPlayerManager/PlayerSortOrderPacket Init(System.String userId, System.Int32 sortIndex)
+    // Offset: 0x1673BDC
+    ::GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket* Init(::StringW userId, int sortIndex);
   }; // ConnectedPlayerManager/PlayerSortOrderPacket
   #pragma pack(pop)
   static check_size<sizeof(ConnectedPlayerManager::PlayerSortOrderPacket), 24 + sizeof(int)> __GlobalNamespace_ConnectedPlayerManager_PlayerSortOrderPacketSizeCheck;
@@ -115,6 +105,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket::Serialize
 // Il2CppName: Serialize
 template<>
@@ -151,7 +145,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId, sortIndex});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

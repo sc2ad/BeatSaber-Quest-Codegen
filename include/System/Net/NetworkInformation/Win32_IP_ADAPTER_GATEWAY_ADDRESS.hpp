@@ -56,11 +56,11 @@ namespace System::Net::NetworkInformation {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Net.NetworkInformation.Win32LengthFlagsUnion LengthFlags
-    ::System::Net::NetworkInformation::Win32LengthFlagsUnion& dyn_LengthFlags();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::Win32LengthFlagsUnion& dyn_LengthFlags();
     // Get instance field reference: public System.IntPtr Next
-    ::System::IntPtr& dyn_Next();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Next();
     // Get instance field reference: public System.Net.NetworkInformation.Win32_SOCKET_ADDRESS Address
-    ::System::Net::NetworkInformation::Win32_SOCKET_ADDRESS& dyn_Address();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::Win32_SOCKET_ADDRESS& dyn_Address();
   }; // System.Net.NetworkInformation.Win32_IP_ADAPTER_GATEWAY_ADDRESS
   #pragma pack(pop)
   static check_size<sizeof(Win32_IP_ADAPTER_GATEWAY_ADDRESS), 16 + sizeof(::System::Net::NetworkInformation::Win32_SOCKET_ADDRESS)> __System_Net_NetworkInformation_Win32_IP_ADAPTER_GATEWAY_ADDRESSSizeCheck;

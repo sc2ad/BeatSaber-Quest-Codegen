@@ -25,15 +25,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class CookieCollection::CookieCollectionEnumerator : public ::Il2CppObject/*, public ::System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Net.CookieCollection m_cookies
     // Size: 0x8
     // Offset: 0x10
@@ -64,28 +56,28 @@ namespace System::Net {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
     // Get instance field reference: private System.Net.CookieCollection m_cookies
-    ::System::Net::CookieCollection*& dyn_m_cookies();
+    [[deprecated("Use field access instead!")]] ::System::Net::CookieCollection*& dyn_m_cookies();
     // Get instance field reference: private System.Int32 m_count
-    int& dyn_m_count();
+    [[deprecated("Use field access instead!")]] int& dyn_m_count();
     // Get instance field reference: private System.Int32 m_index
-    int& dyn_m_index();
+    [[deprecated("Use field access instead!")]] int& dyn_m_index();
     // Get instance field reference: private System.Int32 m_version
-    int& dyn_m_version();
+    [[deprecated("Use field access instead!")]] int& dyn_m_version();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1A39DD0
+    // Offset: 0x1A733B8
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // System.Void .ctor(System.Net.CookieCollection cookies)
-    // Offset: 0x1A39D70
+    // Offset: 0x1A73358
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CookieCollection::CookieCollectionEnumerator* New_ctor(::System::Net::CookieCollection* cookies) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::CookieCollection::CookieCollectionEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CookieCollection::CookieCollectionEnumerator*, creationType>(cookies)));
     }
     // private System.Boolean System.Collections.IEnumerator.MoveNext()
-    // Offset: 0x1A39E9C
+    // Offset: 0x1A73484
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1A39F60
+    // Offset: 0x1A73548
     void System_Collections_IEnumerator_Reset();
   }; // System.Net.CookieCollection/System.Net.CookieCollectionEnumerator
   #pragma pack(pop)

@@ -57,16 +57,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ArrayPositionTween : public ::UnityEngine::Playables::PlayableAsset/*, public ::UnityEngine::Timeline::ITimelineClipAsset*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [NullAllowed] Offset: 0x125FBA8
+    // [NullAllowed] Offset: 0x10E4850
     // public UnityEngine.ExposedReference`1<TimelineArrayReference> arrayReference
     // Size: 0xFFFFFFFF
     // Offset: 0x18
@@ -91,28 +83,23 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.ExposedReference`1<TimelineArrayReference> arrayReference
-    ::UnityEngine::ExposedReference_1<::GlobalNamespace::TimelineArrayReference*>& dyn_arrayReference();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ExposedReference_1<::GlobalNamespace::TimelineArrayReference*>& dyn_arrayReference();
     // Get instance field reference: public System.Single elementDelay
-    float& dyn_elementDelay();
+    [[deprecated("Use field access instead!")]] float& dyn_elementDelay();
     // Get instance field reference: public CustomTweenBehaviour template
-    ::GlobalNamespace::CustomTweenBehaviour*& dyn_template();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::CustomTweenBehaviour*& dyn_template();
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x14B6A28
+    // Offset: 0x14EE2E0
     ::UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public System.Void .ctor()
-    // Offset: 0x14B6B68
-    // Implemented from: UnityEngine.Playables.PlayableAsset
-    // Base method: System.Void PlayableAsset::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14EE420
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArrayPositionTween* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ArrayPositionTween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArrayPositionTween*, creationType>()));
     }
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x14B6A30
+    // Offset: 0x14EE2E8
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);

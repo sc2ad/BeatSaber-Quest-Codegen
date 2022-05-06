@@ -63,32 +63,30 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // Set static field: static public System.Func`2<System.String,System.Boolean> <>9__7_2
     static void _set_$$9__7_2(::System::Func_2<::StringW, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1950B40
+    // Offset: 0x1988510
     static void _cctor();
-    // NUnit.Framework.Internal.TestFilter <BuildNUnitFilter>b__5_0(System.String s)
-    // Offset: 0x1950BAC
-    ::NUnit::Framework::Internal::TestFilter* $BuildNUnitFilter$b__5_0(::StringW s);
-    // NUnit.Framework.Internal.TestFilter <BuildNUnitFilter>b__5_1(System.String s)
-    // Offset: 0x1950C10
-    ::NUnit::Framework::Internal::TestFilter* $BuildNUnitFilter$b__5_1(::StringW s);
-    // NUnit.Framework.Internal.TestFilter <BuildNUnitFilter>b__5_2(System.String s)
-    // Offset: 0x1950C74
-    ::NUnit::Framework::Internal::TestFilter* $BuildNUnitFilter$b__5_2(::StringW s);
-    // System.Boolean <AddFilters>b__7_0(System.String v)
-    // Offset: 0x1950CE8
-    bool $AddFilters$b__7_0(::StringW v);
-    // System.Boolean <AddFilters>b__7_2(System.String v)
-    // Offset: 0x1950D50
-    bool $AddFilters$b__7_2(::StringW v);
     // public System.Void .ctor()
-    // Offset: 0x1950BA4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1988574
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeTestRunnerFilter::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeTestRunnerFilter::$$c*, creationType>()));
     }
+    // NUnit.Framework.Internal.TestFilter <BuildNUnitFilter>b__5_0(System.String s)
+    // Offset: 0x198857C
+    ::NUnit::Framework::Internal::TestFilter* $BuildNUnitFilter$b__5_0(::StringW s);
+    // NUnit.Framework.Internal.TestFilter <BuildNUnitFilter>b__5_1(System.String s)
+    // Offset: 0x19885E0
+    ::NUnit::Framework::Internal::TestFilter* $BuildNUnitFilter$b__5_1(::StringW s);
+    // NUnit.Framework.Internal.TestFilter <BuildNUnitFilter>b__5_2(System.String s)
+    // Offset: 0x1988644
+    ::NUnit::Framework::Internal::TestFilter* $BuildNUnitFilter$b__5_2(::StringW s);
+    // System.Boolean <AddFilters>b__7_0(System.String v)
+    // Offset: 0x19886B8
+    bool $AddFilters$b__7_0(::StringW v);
+    // System.Boolean <AddFilters>b__7_2(System.String v)
+    // Offset: 0x1988720
+    bool $AddFilters$b__7_2(::StringW v);
   }; // UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter/UnityEngine.TestTools.TestRunner.GUI.<>c
   #pragma pack(pop)
 }
@@ -101,6 +99,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::$BuildNUnitFilter$b__5_0
 // Il2CppName: <BuildNUnitFilter>b__5_0
 template<>
@@ -146,7 +148,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c*), "<AddFilters>b__7_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

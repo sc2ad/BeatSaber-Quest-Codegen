@@ -30,15 +30,7 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class TQ : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Vector3 t
     // Size: 0xC
     // Offset: 0x10
@@ -53,11 +45,11 @@ namespace RootMotion {
     static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     public:
     // Get instance field reference: public UnityEngine.Vector3 t
-    ::UnityEngine::Vector3& dyn_t();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_t();
     // Get instance field reference: public UnityEngine.Quaternion q
-    ::UnityEngine::Quaternion& dyn_q();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_q();
     // public System.Void .ctor(UnityEngine.Vector3 translation, UnityEngine.Quaternion rotation)
-    // Offset: 0x1F82894
+    // Offset: 0x1FCF108
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TQ* New_ctor(::UnityEngine::Vector3 translation, ::UnityEngine::Quaternion rotation) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::TQ::.ctor");

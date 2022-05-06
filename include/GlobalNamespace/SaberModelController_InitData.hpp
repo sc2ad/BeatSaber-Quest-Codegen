@@ -25,15 +25,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaberModelController::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly UnityEngine.Color trailTintColor
     // Size: 0x10
     // Offset: 0x10
@@ -46,22 +38,20 @@ namespace GlobalNamespace {
       return trailTintColor;
     }
     // Get instance field reference: public readonly UnityEngine.Color trailTintColor
-    ::UnityEngine::Color& dyn_trailTintColor();
-    // public System.Void .ctor(UnityEngine.Color trailTintColor)
-    // Offset: 0x141D1B8
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SaberModelController::InitData* New_ctor(::UnityEngine::Color trailTintColor) {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberModelController::InitData::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<SaberModelController::InitData*, creationType>(trailTintColor)));
-    }
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_trailTintColor();
     // public System.Void .ctor()
-    // Offset: 0x141D184
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x145E83C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberModelController::InitData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberModelController::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberModelController::InitData*, creationType>()));
+    }
+    // public System.Void .ctor(UnityEngine.Color trailTintColor)
+    // Offset: 0x145E870
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static SaberModelController::InitData* New_ctor(::UnityEngine::Color trailTintColor) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberModelController::InitData::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<SaberModelController::InitData*, creationType>(trailTintColor)));
     }
   }; // SaberModelController/InitData
   #pragma pack(pop)

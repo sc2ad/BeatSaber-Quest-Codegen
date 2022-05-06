@@ -60,15 +60,7 @@ namespace Mono::Security::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509Certificate : public ::Il2CppObject/*, public ::System::Runtime::Serialization::ISerializable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Mono.Security.ASN1 decoder
     // Size: 0x8
     // Offset: 0x10
@@ -213,142 +205,142 @@ namespace Mono::Security::X509 {
     // Set static field: static private System.String encoding_error
     static void _set_encoding_error(::StringW value);
     // Get instance field reference: private Mono.Security.ASN1 decoder
-    ::Mono::Security::ASN1*& dyn_decoder();
+    [[deprecated("Use field access instead!")]] ::Mono::Security::ASN1*& dyn_decoder();
     // Get instance field reference: private System.Byte[] m_encodedcert
-    ::ArrayW<uint8_t>& dyn_m_encodedcert();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_m_encodedcert();
     // Get instance field reference: private System.DateTime m_from
-    ::System::DateTime& dyn_m_from();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_m_from();
     // Get instance field reference: private System.DateTime m_until
-    ::System::DateTime& dyn_m_until();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_m_until();
     // Get instance field reference: private Mono.Security.ASN1 issuer
-    ::Mono::Security::ASN1*& dyn_issuer();
+    [[deprecated("Use field access instead!")]] ::Mono::Security::ASN1*& dyn_issuer();
     // Get instance field reference: private System.String m_issuername
-    ::StringW& dyn_m_issuername();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_issuername();
     // Get instance field reference: private System.String m_keyalgo
-    ::StringW& dyn_m_keyalgo();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_keyalgo();
     // Get instance field reference: private System.Byte[] m_keyalgoparams
-    ::ArrayW<uint8_t>& dyn_m_keyalgoparams();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_m_keyalgoparams();
     // Get instance field reference: private Mono.Security.ASN1 subject
-    ::Mono::Security::ASN1*& dyn_subject();
+    [[deprecated("Use field access instead!")]] ::Mono::Security::ASN1*& dyn_subject();
     // Get instance field reference: private System.String m_subject
-    ::StringW& dyn_m_subject();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_subject();
     // Get instance field reference: private System.Byte[] m_publickey
-    ::ArrayW<uint8_t>& dyn_m_publickey();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_m_publickey();
     // Get instance field reference: private System.Byte[] signature
-    ::ArrayW<uint8_t>& dyn_signature();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_signature();
     // Get instance field reference: private System.String m_signaturealgo
-    ::StringW& dyn_m_signaturealgo();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_signaturealgo();
     // Get instance field reference: private System.Byte[] m_signaturealgoparams
-    ::ArrayW<uint8_t>& dyn_m_signaturealgoparams();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_m_signaturealgoparams();
     // Get instance field reference: private System.Byte[] certhash
-    ::ArrayW<uint8_t>& dyn_certhash();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_certhash();
     // Get instance field reference: private System.Security.Cryptography.RSA _rsa
-    ::System::Security::Cryptography::RSA*& dyn__rsa();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::RSA*& dyn__rsa();
     // Get instance field reference: private System.Security.Cryptography.DSA _dsa
-    ::System::Security::Cryptography::DSA*& dyn__dsa();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::DSA*& dyn__dsa();
     // Get instance field reference: private System.Int32 version
-    int& dyn_version();
+    [[deprecated("Use field access instead!")]] int& dyn_version();
     // Get instance field reference: private System.Byte[] serialnumber
-    ::ArrayW<uint8_t>& dyn_serialnumber();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_serialnumber();
     // Get instance field reference: private System.Byte[] issuerUniqueID
-    ::ArrayW<uint8_t>& dyn_issuerUniqueID();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_issuerUniqueID();
     // Get instance field reference: private System.Byte[] subjectUniqueID
-    ::ArrayW<uint8_t>& dyn_subjectUniqueID();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_subjectUniqueID();
     // Get instance field reference: private Mono.Security.X509.X509ExtensionCollection extensions
-    ::Mono::Security::X509::X509ExtensionCollection*& dyn_extensions();
+    [[deprecated("Use field access instead!")]] ::Mono::Security::X509::X509ExtensionCollection*& dyn_extensions();
     // public System.Security.Cryptography.DSA get_DSA()
-    // Offset: 0x2A5A47C
+    // Offset: 0x2AB0864
     ::System::Security::Cryptography::DSA* get_DSA();
     // public System.Void set_DSA(System.Security.Cryptography.DSA value)
-    // Offset: 0x2A5A728
+    // Offset: 0x2AB0B10
     void set_DSA(::System::Security::Cryptography::DSA* value);
     // public Mono.Security.X509.X509ExtensionCollection get_Extensions()
-    // Offset: 0x2A5A738
+    // Offset: 0x2AB0B20
     ::Mono::Security::X509::X509ExtensionCollection* get_Extensions();
     // public System.Byte[] get_Hash()
-    // Offset: 0x2A5A740
+    // Offset: 0x2AB0B28
     ::ArrayW<uint8_t> get_Hash();
     // public System.String get_IssuerName()
-    // Offset: 0x2A5A948
+    // Offset: 0x2AB0D30
     ::StringW get_IssuerName();
     // public System.String get_KeyAlgorithm()
-    // Offset: 0x2A5A950
+    // Offset: 0x2AB0D38
     ::StringW get_KeyAlgorithm();
     // public System.Byte[] get_KeyAlgorithmParameters()
-    // Offset: 0x2A5A958
+    // Offset: 0x2AB0D40
     ::ArrayW<uint8_t> get_KeyAlgorithmParameters();
     // public System.Void set_KeyAlgorithmParameters(System.Byte[] value)
-    // Offset: 0x2A5A9D4
+    // Offset: 0x2AB0DBC
     void set_KeyAlgorithmParameters(::ArrayW<uint8_t> value);
     // public System.Byte[] get_PublicKey()
-    // Offset: 0x2A5A9DC
+    // Offset: 0x2AB0DC4
     ::ArrayW<uint8_t> get_PublicKey();
     // public System.Security.Cryptography.RSA get_RSA()
-    // Offset: 0x2A5AA58
+    // Offset: 0x2AB0E40
     ::System::Security::Cryptography::RSA* get_RSA();
     // public System.Void set_RSA(System.Security.Cryptography.RSA value)
-    // Offset: 0x2A5AC04
+    // Offset: 0x2AB0FEC
     void set_RSA(::System::Security::Cryptography::RSA* value);
     // public System.Byte[] get_RawData()
-    // Offset: 0x2A5AC14
+    // Offset: 0x2AB0FFC
     ::ArrayW<uint8_t> get_RawData();
     // public System.Byte[] get_SerialNumber()
-    // Offset: 0x2A5AC90
+    // Offset: 0x2AB1078
     ::ArrayW<uint8_t> get_SerialNumber();
     // public System.Byte[] get_Signature()
-    // Offset: 0x2A5AD0C
+    // Offset: 0x2AB10F4
     ::ArrayW<uint8_t> get_Signature();
     // public System.String get_SignatureAlgorithm()
-    // Offset: 0x2A5B0D0
+    // Offset: 0x2AB14B8
     ::StringW get_SignatureAlgorithm();
     // public System.String get_SubjectName()
-    // Offset: 0x2A5B0D8
+    // Offset: 0x2AB14C0
     ::StringW get_SubjectName();
     // public System.DateTime get_ValidFrom()
-    // Offset: 0x2A5B0E0
+    // Offset: 0x2AB14C8
     ::System::DateTime get_ValidFrom();
     // public System.DateTime get_ValidUntil()
-    // Offset: 0x2A5B0E8
+    // Offset: 0x2AB14D0
     ::System::DateTime get_ValidUntil();
     // public System.Int32 get_Version()
-    // Offset: 0x2A5B0F0
+    // Offset: 0x2AB14D8
     int get_Version();
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x2A5A108
+    // Offset: 0x2AB04F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Certificate* New_ctor(::ArrayW<uint8_t> data) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::X509::X509Certificate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate*, creationType>(data)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2A5B4D4
+    // Offset: 0x2AB18BC
     static void _cctor();
     // private System.Void Parse(System.Byte[] data)
-    // Offset: 0x2A596D0
+    // Offset: 0x2AAFAB8
     void Parse(::ArrayW<uint8_t> data);
     // private System.Byte[] GetUnsignedBigInteger(System.Byte[] integer)
-    // Offset: 0x2A5A3D0
+    // Offset: 0x2AB07B8
     ::ArrayW<uint8_t> GetUnsignedBigInteger(::ArrayW<uint8_t> integer);
     // System.Boolean VerifySignature(System.Security.Cryptography.DSA dsa)
-    // Offset: 0x2A5B0F8
+    // Offset: 0x2AB14E0
     bool VerifySignature(::System::Security::Cryptography::DSA* dsa);
     // System.Boolean VerifySignature(System.Security.Cryptography.RSA rsa)
-    // Offset: 0x2A5B1BC
+    // Offset: 0x2AB15A4
     bool VerifySignature(::System::Security::Cryptography::RSA* rsa);
     // public System.Boolean VerifySignature(System.Security.Cryptography.AsymmetricAlgorithm aa)
-    // Offset: 0x2A5B2DC
+    // Offset: 0x2AB16C4
     bool VerifySignature(::System::Security::Cryptography::AsymmetricAlgorithm* aa);
     // public Mono.Security.ASN1 GetIssuerName()
-    // Offset: 0x2A5B458
+    // Offset: 0x2AB1840
     ::Mono::Security::ASN1* GetIssuerName();
     // public Mono.Security.ASN1 GetSubjectName()
-    // Offset: 0x2A5B460
+    // Offset: 0x2AB1848
     ::Mono::Security::ASN1* GetSubjectName();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x2A5B468
+    // Offset: 0x2AB1850
     void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // static private System.Byte[] PEM(System.String type, System.Byte[] data)
-    // Offset: 0x2A5A2A4
+    // Offset: 0x2AB068C
     static ::ArrayW<uint8_t> PEM(::StringW type, ::ArrayW<uint8_t> data);
   }; // Mono.Security.X509.X509Certificate
   #pragma pack(pop)

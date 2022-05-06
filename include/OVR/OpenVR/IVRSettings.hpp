@@ -133,29 +133,29 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: OVR.OpenVR.IVRSettings/OVR.OpenVR._GetSettingsErrorNameFromEnum GetSettingsErrorNameFromEnum
-    ::OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum*& dyn_GetSettingsErrorNameFromEnum();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum*& dyn_GetSettingsErrorNameFromEnum();
     // Get instance field reference: OVR.OpenVR.IVRSettings/OVR.OpenVR._Sync Sync
-    ::OVR::OpenVR::IVRSettings::_Sync*& dyn_Sync();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSettings::_Sync*& dyn_Sync();
     // Get instance field reference: OVR.OpenVR.IVRSettings/OVR.OpenVR._SetBool SetBool
-    ::OVR::OpenVR::IVRSettings::_SetBool*& dyn_SetBool();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSettings::_SetBool*& dyn_SetBool();
     // Get instance field reference: OVR.OpenVR.IVRSettings/OVR.OpenVR._SetInt32 SetInt32
-    ::OVR::OpenVR::IVRSettings::_SetInt32*& dyn_SetInt32();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSettings::_SetInt32*& dyn_SetInt32();
     // Get instance field reference: OVR.OpenVR.IVRSettings/OVR.OpenVR._SetFloat SetFloat
-    ::OVR::OpenVR::IVRSettings::_SetFloat*& dyn_SetFloat();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSettings::_SetFloat*& dyn_SetFloat();
     // Get instance field reference: OVR.OpenVR.IVRSettings/OVR.OpenVR._SetString SetString
-    ::OVR::OpenVR::IVRSettings::_SetString*& dyn_SetString();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSettings::_SetString*& dyn_SetString();
     // Get instance field reference: OVR.OpenVR.IVRSettings/OVR.OpenVR._GetBool GetBool
-    ::OVR::OpenVR::IVRSettings::_GetBool*& dyn_GetBool();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSettings::_GetBool*& dyn_GetBool();
     // Get instance field reference: OVR.OpenVR.IVRSettings/OVR.OpenVR._GetInt32 GetInt32
-    ::OVR::OpenVR::IVRSettings::_GetInt32*& dyn_GetInt32();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSettings::_GetInt32*& dyn_GetInt32();
     // Get instance field reference: OVR.OpenVR.IVRSettings/OVR.OpenVR._GetFloat GetFloat
-    ::OVR::OpenVR::IVRSettings::_GetFloat*& dyn_GetFloat();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSettings::_GetFloat*& dyn_GetFloat();
     // Get instance field reference: OVR.OpenVR.IVRSettings/OVR.OpenVR._GetString GetString
-    ::OVR::OpenVR::IVRSettings::_GetString*& dyn_GetString();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSettings::_GetString*& dyn_GetString();
     // Get instance field reference: OVR.OpenVR.IVRSettings/OVR.OpenVR._RemoveSection RemoveSection
-    ::OVR::OpenVR::IVRSettings::_RemoveSection*& dyn_RemoveSection();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSettings::_RemoveSection*& dyn_RemoveSection();
     // Get instance field reference: OVR.OpenVR.IVRSettings/OVR.OpenVR._RemoveKeyInSection RemoveKeyInSection
-    ::OVR::OpenVR::IVRSettings::_RemoveKeyInSection*& dyn_RemoveKeyInSection();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSettings::_RemoveKeyInSection*& dyn_RemoveKeyInSection();
   }; // OVR.OpenVR.IVRSettings
   #pragma pack(pop)
   static check_size<sizeof(IVRSettings), 88 + sizeof(::OVR::OpenVR::IVRSettings::_RemoveKeyInSection*)> __OVR_OpenVR_IVRSettingsSizeCheck;

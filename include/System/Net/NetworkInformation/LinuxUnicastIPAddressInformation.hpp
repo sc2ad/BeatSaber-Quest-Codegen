@@ -35,15 +35,7 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class LinuxUnicastIPAddressInformation : public ::System::Net::NetworkInformation::UnicastIPAddressInformation {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Net.IPAddress address
     // Size: 0x8
     // Offset: 0x10
@@ -56,16 +48,16 @@ namespace System::Net::NetworkInformation {
       return address;
     }
     // Get instance field reference: private System.Net.IPAddress address
-    ::System::Net::IPAddress*& dyn_address();
+    [[deprecated("Use field access instead!")]] ::System::Net::IPAddress*& dyn_address();
     // public System.Void .ctor(System.Net.IPAddress address)
-    // Offset: 0x1A7D2DC
+    // Offset: 0x1AB78C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LinuxUnicastIPAddressInformation* New_ctor(::System::Net::IPAddress* address) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LinuxUnicastIPAddressInformation*, creationType>(address)));
     }
     // public override System.Net.IPAddress get_Address()
-    // Offset: 0x1A7D308
+    // Offset: 0x1AB78F0
     // Implemented from: System.Net.NetworkInformation.IPAddressInformation
     // Base method: System.Net.IPAddress IPAddressInformation::get_Address()
     ::System::Net::IPAddress* get_Address();

@@ -42,20 +42,18 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.UInt32,System.String> <>9__8_0
     static void _set_$$9__8_0(::System::Func_2<uint, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x29BDA30
+    // Offset: 0x29FFDA4
     static void _cctor();
-    // System.String <ToString>b__8_0(System.UInt32 i)
-    // Offset: 0x29BDA9C
-    ::StringW $ToString$b__8_0(uint i);
     // public System.Void .ctor()
-    // Offset: 0x29BDA94
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x29FFE08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BitMaskSparse::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BitMaskSparse::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitMaskSparse::$$c*, creationType>()));
     }
+    // System.String <ToString>b__8_0(System.UInt32 i)
+    // Offset: 0x29FFE10
+    ::StringW $ToString$b__8_0(uint i);
   }; // BitMaskSparse/<>c
   #pragma pack(pop)
 }
@@ -68,6 +66,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BitMaskSparse::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BitMaskSparse::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BitMaskSparse::$$c::$ToString$b__8_0
 // Il2CppName: <ToString>b__8_0
 template<>
@@ -77,7 +79,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BitMaskSparse::$$c*), "<ToString>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BitMaskSparse::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

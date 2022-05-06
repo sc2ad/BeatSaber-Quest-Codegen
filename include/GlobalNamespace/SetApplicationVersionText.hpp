@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SetApplicationVersionText : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshPro _versionText
     // Size: 0x8
     // Offset: 0x18
@@ -54,29 +46,27 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshPro _versionText
-    ::TMPro::TextMeshPro*& dyn__versionText();
-    // protected System.Void Start()
-    // Offset: 0x1429E00
-    void Start();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshPro*& dyn__versionText();
     // public System.Void .ctor()
-    // Offset: 0x1429E38
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x137F284
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SetApplicationVersionText* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SetApplicationVersionText::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SetApplicationVersionText*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x137F24C
+    void Start();
   }; // SetApplicationVersionText
   #pragma pack(pop)
   static check_size<sizeof(SetApplicationVersionText), 24 + sizeof(::TMPro::TextMeshPro*)> __GlobalNamespace_SetApplicationVersionTextSizeCheck;
   static_assert(sizeof(SetApplicationVersionText) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SetApplicationVersionText::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SetApplicationVersionText::Start
 // Il2CppName: Start
 template<>
@@ -85,7 +75,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SetApplicationVersionText*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SetApplicationVersionText::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

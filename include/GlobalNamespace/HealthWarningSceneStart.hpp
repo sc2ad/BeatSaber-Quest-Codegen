@@ -49,29 +49,21 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::HealthWarningSceneStart::$Start$d__3
     class $Start$d__3;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HealthWarningFlowCoordinator _healthWarninglowCoordinator
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::HealthWarningFlowCoordinator* healthWarninglowCoordinator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::HealthWarningFlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0x1260394
+    // [InjectAttribute] Offset: 0x10E503C
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x12603A4
+    // [InjectAttribute] Offset: 0x10E504C
     // private HMUI.HierarchyManager _hierarchyManager
     // Size: 0x8
     // Offset: 0x28
@@ -82,33 +74,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HealthWarningFlowCoordinator _healthWarninglowCoordinator
-    ::GlobalNamespace::HealthWarningFlowCoordinator*& dyn__healthWarninglowCoordinator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::HealthWarningFlowCoordinator*& dyn__healthWarninglowCoordinator();
     // Get instance field reference: private GameScenesManager _gameScenesManager
-    ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // Get instance field reference: private HMUI.HierarchyManager _hierarchyManager
-    ::HMUI::HierarchyManager*& dyn__hierarchyManager();
-    // public System.Collections.IEnumerator Start()
-    // Offset: 0x13B1574
-    ::System::Collections::IEnumerator* Start();
+    [[deprecated("Use field access instead!")]] ::HMUI::HierarchyManager*& dyn__hierarchyManager();
     // public System.Void .ctor()
-    // Offset: 0x13B1610
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13ACABC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HealthWarningSceneStart* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HealthWarningSceneStart::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningSceneStart*, creationType>()));
     }
+    // public System.Collections.IEnumerator Start()
+    // Offset: 0x13ACA20
+    ::System::Collections::IEnumerator* Start();
   }; // HealthWarningSceneStart
   #pragma pack(pop)
   static check_size<sizeof(HealthWarningSceneStart), 40 + sizeof(::HMUI::HierarchyManager*)> __GlobalNamespace_HealthWarningSceneStartSizeCheck;
   static_assert(sizeof(HealthWarningSceneStart) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::HealthWarningSceneStart::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::HealthWarningSceneStart::Start
 // Il2CppName: Start
 template<>
@@ -117,7 +107,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningSceneStart*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::HealthWarningSceneStart::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

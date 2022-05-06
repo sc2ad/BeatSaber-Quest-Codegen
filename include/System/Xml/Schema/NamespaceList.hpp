@@ -92,20 +92,12 @@ namespace System::Xml::Schema {
       // Set static field: static public System.Xml.Schema.NamespaceList/System.Xml.Schema.ListType Set
       static void _set_Set(::System::Xml::Schema::NamespaceList::ListType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // System.Xml.Schema.NamespaceList/System.Xml.Schema.ListType
     #pragma pack(pop)
     static check_size<sizeof(NamespaceList::ListType), 0 + sizeof(int)> __System_Xml_Schema_NamespaceList_ListTypeSizeCheck;
     static_assert(sizeof(NamespaceList::ListType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Xml.Schema.NamespaceList/System.Xml.Schema.ListType type
     // Size: 0x4
     // Offset: 0x10
@@ -128,44 +120,42 @@ namespace System::Xml::Schema {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.Xml.Schema.NamespaceList/System.Xml.Schema.ListType type
-    ::System::Xml::Schema::NamespaceList::ListType& dyn_type();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::NamespaceList::ListType& dyn_type();
     // Get instance field reference: private System.Collections.Hashtable set
-    ::System::Collections::Hashtable*& dyn_set();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn_set();
     // Get instance field reference: private System.String targetNamespace
-    ::StringW& dyn_targetNamespace();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_targetNamespace();
     // public System.Xml.Schema.NamespaceList/System.Xml.Schema.ListType get_Type()
-    // Offset: 0x1C241A4
+    // Offset: 0x1C5E78C
     ::System::Xml::Schema::NamespaceList::ListType get_Type();
     // public System.String get_Excluded()
-    // Offset: 0x1C241AC
+    // Offset: 0x1C5E794
     ::StringW get_Excluded();
     // public System.Collections.ICollection get_Enumerate()
-    // Offset: 0x1C241B4
+    // Offset: 0x1C5E79C
     ::System::Collections::ICollection* get_Enumerate();
+    // public System.Void .ctor()
+    // Offset: 0x1C5E510
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static NamespaceList* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::NamespaceList::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<NamespaceList*, creationType>()));
+    }
     // public System.Void .ctor(System.String namespaces, System.String targetNamespace)
-    // Offset: 0x1C23F30
+    // Offset: 0x1C5E518
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamespaceList* New_ctor(::StringW namespaces, ::StringW targetNamespace) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::NamespaceList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NamespaceList*, creationType>(namespaces, targetNamespace)));
     }
     // public System.Boolean Allows(System.String ns)
-    // Offset: 0x1C24248
+    // Offset: 0x1C5E830
     bool Allows(::StringW ns);
     // public System.Boolean Allows(System.Xml.XmlQualifiedName qname)
-    // Offset: 0x1C242D8
+    // Offset: 0x1C5E8C0
     bool Allows(::System::Xml::XmlQualifiedName* qname);
-    // public System.Void .ctor()
-    // Offset: 0x1C23F28
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NamespaceList* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::NamespaceList::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<NamespaceList*, creationType>()));
-    }
     // public override System.String ToString()
-    // Offset: 0x1C242F8
+    // Offset: 0x1C5E8E0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -205,6 +195,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: System::Xml::Schema::NamespaceList::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::Schema::NamespaceList::Allows
 // Il2CppName: Allows
 template<>
@@ -223,10 +217,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::NamespaceList*), "Allows", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{qname});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Schema::NamespaceList::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::Schema::NamespaceList::ToString
 // Il2CppName: ToString
 template<>

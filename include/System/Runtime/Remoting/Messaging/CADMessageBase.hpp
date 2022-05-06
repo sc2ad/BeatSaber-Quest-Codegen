@@ -55,15 +55,7 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   class CADMessageBase : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected System.Object[] _args
     // Size: 0x8
     // Offset: 0x10
@@ -98,54 +90,54 @@ namespace System::Runtime::Remoting::Messaging {
     static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     public:
     // Get instance field reference: protected System.Object[] _args
-    ::ArrayW<::Il2CppObject*>& dyn__args();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppObject*>& dyn__args();
     // Get instance field reference: protected System.Byte[] _serializedArgs
-    ::ArrayW<uint8_t>& dyn__serializedArgs();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__serializedArgs();
     // Get instance field reference: protected System.Int32 _propertyCount
-    int& dyn__propertyCount();
+    [[deprecated("Use field access instead!")]] int& dyn__propertyCount();
     // Get instance field reference: protected System.Runtime.Remoting.Messaging.CADArgHolder _callContext
-    ::System::Runtime::Remoting::Messaging::CADArgHolder*& dyn__callContext();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Messaging::CADArgHolder*& dyn__callContext();
     // Get instance field reference: System.Byte[] serializedMethod
-    ::ArrayW<uint8_t>& dyn_serializedMethod();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_serializedMethod();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodMessage msg)
-    // Offset: 0x1C62DCC
+    // Offset: 0x1C800D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADMessageBase* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* msg) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::CADMessageBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CADMessageBase*, creationType>(msg)));
     }
     // System.Reflection.MethodBase GetMethod()
-    // Offset: 0x1C63148
+    // Offset: 0x1C80454
     ::System::Reflection::MethodBase* GetMethod();
     // static protected System.Type[] GetSignature(System.Reflection.MethodBase methodBase, System.Boolean load)
-    // Offset: 0x1C635EC
+    // Offset: 0x1C808F8
     static ::ArrayW<::System::Type*> GetSignature(::System::Reflection::MethodBase* methodBase, bool load);
     // static System.Int32 MarshalProperties(System.Collections.IDictionary dict, ref System.Collections.ArrayList args)
-    // Offset: 0x1C6379C
+    // Offset: 0x1C80AA8
     static int MarshalProperties(::System::Collections::IDictionary* dict, ByRef<::System::Collections::ArrayList*> args);
     // static System.Void UnmarshalProperties(System.Collections.IDictionary dict, System.Int32 count, System.Collections.ArrayList args)
-    // Offset: 0x1C63FD8
+    // Offset: 0x1C812E4
     static void UnmarshalProperties(::System::Collections::IDictionary* dict, int count, ::System::Collections::ArrayList* args);
     // static private System.Boolean IsPossibleToIgnoreMarshal(System.Object obj)
-    // Offset: 0x1C64118
+    // Offset: 0x1C81424
     static bool IsPossibleToIgnoreMarshal(::Il2CppObject* obj);
     // protected System.Object MarshalArgument(System.Object arg, ref System.Collections.ArrayList args)
-    // Offset: 0x1C642A4
+    // Offset: 0x1C815B0
     ::Il2CppObject* MarshalArgument(::Il2CppObject* arg, ByRef<::System::Collections::ArrayList*> args);
     // protected System.Object UnmarshalArgument(System.Object arg, System.Collections.ArrayList args)
-    // Offset: 0x1C644A0
+    // Offset: 0x1C817AC
     ::Il2CppObject* UnmarshalArgument(::Il2CppObject* arg, ::System::Collections::ArrayList* args);
     // System.Object[] MarshalArguments(System.Object[] arguments, ref System.Collections.ArrayList args)
-    // Offset: 0x1C64AFC
+    // Offset: 0x1C81E08
     ::ArrayW<::Il2CppObject*> MarshalArguments(::ArrayW<::Il2CppObject*> arguments, ByRef<::System::Collections::ArrayList*> args);
     // System.Object[] UnmarshalArguments(System.Object[] arguments, System.Collections.ArrayList args)
-    // Offset: 0x1C64C0C
+    // Offset: 0x1C81F18
     ::ArrayW<::Il2CppObject*> UnmarshalArguments(::ArrayW<::Il2CppObject*> arguments, ::System::Collections::ArrayList* args);
     // protected System.Void SaveLogicalCallContext(System.Runtime.Remoting.Messaging.IMethodMessage msg, ref System.Collections.ArrayList serializeList)
-    // Offset: 0x1C64D1C
+    // Offset: 0x1C82028
     void SaveLogicalCallContext(::System::Runtime::Remoting::Messaging::IMethodMessage* msg, ByRef<::System::Collections::ArrayList*> serializeList);
     // System.Runtime.Remoting.Messaging.LogicalCallContext GetLogicalCallContext(System.Collections.ArrayList args)
-    // Offset: 0x1C64FC0
+    // Offset: 0x1C822CC
     ::System::Runtime::Remoting::Messaging::LogicalCallContext* GetLogicalCallContext(::System::Collections::ArrayList* args);
   }; // System.Runtime.Remoting.Messaging.CADMessageBase
   #pragma pack(pop)

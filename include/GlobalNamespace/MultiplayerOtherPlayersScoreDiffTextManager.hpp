@@ -47,51 +47,43 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x1254C58
+    // [InjectAttribute] Offset: 0x10D983C
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::MultiplayerController* multiplayerController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1254C68
+    // [InjectAttribute] Offset: 0x10D984C
     // private readonly MultiplayerPlayersManager _playersManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::MultiplayerPlayersManager* playersManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1254C78
+    // [InjectAttribute] Offset: 0x10D985C
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x1254C88
+    // [InjectAttribute] Offset: 0x10D986C
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1254C98
+    // [InjectAttribute] Offset: 0x10D987C
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x1254CA8
+    // [InjectAttribute] Offset: 0x10D988C
     // private readonly CoreGameHUDController/InitData _initData
     // Size: 0x8
     // Offset: 0x40
@@ -114,56 +106,54 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kUpdateInterval
     static void _set_kUpdateInterval(float value);
     // Get instance field reference: private readonly MultiplayerController _multiplayerController
-    ::GlobalNamespace::MultiplayerController*& dyn__multiplayerController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerController*& dyn__multiplayerController();
     // Get instance field reference: private readonly MultiplayerPlayersManager _playersManager
-    ::GlobalNamespace::MultiplayerPlayersManager*& dyn__playersManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerPlayersManager*& dyn__playersManager();
     // Get instance field reference: private readonly MultiplayerScoreProvider _scoreProvider
-    ::GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreProvider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreProvider();
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // Get instance field reference: private readonly MultiplayerLayoutProvider _layoutProvider
-    ::GlobalNamespace::MultiplayerLayoutProvider*& dyn__layoutProvider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLayoutProvider*& dyn__layoutProvider();
     // Get instance field reference: private readonly CoreGameHUDController/InitData _initData
-    ::GlobalNamespace::CoreGameHUDController::InitData*& dyn__initData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::CoreGameHUDController::InitData*& dyn__initData();
     // Get instance field reference: private System.Single _timeToNextUpdate
-    float& dyn__timeToNextUpdate();
-    // protected System.Void Start()
-    // Offset: 0x139F07C
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x139F144
-    void OnDestroy();
-    // protected System.Void Update()
-    // Offset: 0x139F220
-    void Update();
-    // private System.Void InitLeftRightPositions()
-    // Offset: 0x139FB7C
-    void InitLeftRightPositions();
-    // private System.Void HideAll()
-    // Offset: 0x139F5E0
-    void HideAll();
-    // private System.Void HandleStateChanged(MultiplayerController/State newState)
-    // Offset: 0x13A0080
-    void HandleStateChanged(::GlobalNamespace::MultiplayerController::State newState);
+    [[deprecated("Use field access instead!")]] float& dyn__timeToNextUpdate();
     // public System.Void .ctor()
-    // Offset: 0x13A01A0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x139C64C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerOtherPlayersScoreDiffTextManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerOtherPlayersScoreDiffTextManager*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x139B528
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x139B5F0
+    void OnDestroy();
+    // protected System.Void Update()
+    // Offset: 0x139B6CC
+    void Update();
+    // private System.Void InitLeftRightPositions()
+    // Offset: 0x139C028
+    void InitLeftRightPositions();
+    // private System.Void HideAll()
+    // Offset: 0x139BA8C
+    void HideAll();
+    // private System.Void HandleStateChanged(MultiplayerController/State newState)
+    // Offset: 0x139C52C
+    void HandleStateChanged(::GlobalNamespace::MultiplayerController::State newState);
   }; // MultiplayerOtherPlayersScoreDiffTextManager
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerOtherPlayersScoreDiffTextManager), 72 + sizeof(float)> __GlobalNamespace_MultiplayerOtherPlayersScoreDiffTextManagerSizeCheck;
   static_assert(sizeof(MultiplayerOtherPlayersScoreDiffTextManager) == 0x4C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::Start
 // Il2CppName: Start
 template<>
@@ -213,7 +203,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager*), "HandleStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newState});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

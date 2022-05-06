@@ -51,7 +51,7 @@ namespace TMPro {
     // Set static field: static public TMPro.TMP_InputField/TMPro.EditState Finish
     static void _set_Finish(::TMPro::TMP_InputField::EditState value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // TMPro.TMP_InputField/TMPro.EditState
   #pragma pack(pop)
   static check_size<sizeof(TMP_InputField::EditState), 0 + sizeof(int)> __TMPro_TMP_InputField_EditStateSizeCheck;

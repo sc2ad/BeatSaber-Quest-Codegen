@@ -35,15 +35,7 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x24 to desired offset: 0x28
     char ___base_padding[0x4] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String userId
     // Size: 0x8
     // Offset: 0x28
@@ -82,22 +74,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.String userId
-    ::StringW& dyn_userId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_userId();
     // Get instance field reference: public System.String userName
-    ::StringW& dyn_userName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_userName();
     // Get instance field reference: public System.Net.IPEndPoint endPoint
-    ::System::Net::IPEndPoint*& dyn_endPoint();
+    [[deprecated("Use field access instead!")]] ::System::Net::IPEndPoint*& dyn_endPoint();
     // Get instance field reference: public System.String serverUserId
-    ::StringW& dyn_serverUserId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_serverUserId();
     // Get instance field reference: public System.String serverUserName
-    ::StringW& dyn_serverUserName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_serverUserName();
     // Get instance field reference: public System.Boolean serverIsConnectionOwner
-    bool& dyn_serverIsConnectionOwner();
+    [[deprecated("Use field access instead!")]] bool& dyn_serverIsConnectionOwner();
     // public System.Void .ctor()
-    // Offset: 0x164BD5C
+    // Offset: 0x168266C
     // Implemented from: LiteNetLibConnectionManager/LiteNetLibConnectionParamsBase
     // Base method: System.Void LiteNetLibConnectionParamsBase::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LiteNetLibConnectionManager::ConnectToServerParams* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LiteNetLibConnectionManager::ConnectToServerParams::.ctor");

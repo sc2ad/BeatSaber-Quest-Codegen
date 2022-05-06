@@ -56,15 +56,15 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single time
-    float& dyn_time();
+    [[deprecated("Use field access instead!")]] float& dyn_time();
     // Get instance field reference: public System.Single value
-    float& dyn_value();
+    [[deprecated("Use field access instead!")]] float& dyn_value();
     // Get instance field reference: public System.Single inTangent
-    float& dyn_inTangent();
+    [[deprecated("Use field access instead!")]] float& dyn_inTangent();
     // Get instance field reference: public System.Single outTangent
-    float& dyn_outTangent();
+    [[deprecated("Use field access instead!")]] float& dyn_outTangent();
     // public System.Void .ctor(System.Single t, System.Single v, System.Single in_tangent, System.Single out_tangent)
-    // Offset: 0x16AA230
+    // Offset: 0x16E1B40
     // ABORTED: conflicts with another method.  HAPI_Keyframe(float t, float v, float in_tangent, float out_tangent);
   }; // HoudiniEngineUnity.HAPI_Keyframe
   #pragma pack(pop)

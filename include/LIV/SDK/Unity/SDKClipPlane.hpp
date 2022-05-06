@@ -59,18 +59,18 @@ namespace LIV::SDK::Unity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public LIV.SDK.Unity.SDKMatrix4x4 transform
-    ::LIV::SDK::Unity::SDKMatrix4x4& dyn_transform();
+    [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKMatrix4x4& dyn_transform();
     // Get instance field reference: public System.Int32 width
-    int& dyn_width();
+    [[deprecated("Use field access instead!")]] int& dyn_width();
     // Get instance field reference: public System.Int32 height
-    int& dyn_height();
+    [[deprecated("Use field access instead!")]] int& dyn_height();
     // Get instance field reference: public System.Single tesselation
-    float& dyn_tesselation();
+    [[deprecated("Use field access instead!")]] float& dyn_tesselation();
     // static public LIV.SDK.Unity.SDKClipPlane get_empty()
-    // Offset: 0x29FB8F4
+    // Offset: 0x2A52364
     static ::LIV::SDK::Unity::SDKClipPlane get_empty();
     // public override System.String ToString()
-    // Offset: 0x29FB954
+    // Offset: 0x2A523C4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

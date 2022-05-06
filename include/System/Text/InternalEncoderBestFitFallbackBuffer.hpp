@@ -35,15 +35,7 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class InternalEncoderBestFitFallbackBuffer : public ::System::Text::EncoderFallbackBuffer {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Char cBestFit
     // Size: 0x2
     // Offset: 0x30
@@ -76,53 +68,53 @@ namespace System::Text {
     // Set static field: static private System.Object s_InternalSyncObject
     static void _set_s_InternalSyncObject(::Il2CppObject* value);
     // Get instance field reference: private System.Char cBestFit
-    ::Il2CppChar& dyn_cBestFit();
+    [[deprecated("Use field access instead!")]] ::Il2CppChar& dyn_cBestFit();
     // Get instance field reference: private System.Text.InternalEncoderBestFitFallback oFallback
-    ::System::Text::InternalEncoderBestFitFallback*& dyn_oFallback();
+    [[deprecated("Use field access instead!")]] ::System::Text::InternalEncoderBestFitFallback*& dyn_oFallback();
     // Get instance field reference: private System.Int32 iCount
-    int& dyn_iCount();
+    [[deprecated("Use field access instead!")]] int& dyn_iCount();
     // Get instance field reference: private System.Int32 iSize
-    int& dyn_iSize();
+    [[deprecated("Use field access instead!")]] int& dyn_iSize();
     // static private System.Object get_InternalSyncObject()
-    // Offset: 0x202920C
+    // Offset: 0x2072A80
     static ::Il2CppObject* get_InternalSyncObject();
     // public System.Void .ctor(System.Text.InternalEncoderBestFitFallback fallback)
-    // Offset: 0x2029018
+    // Offset: 0x207288C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InternalEncoderBestFitFallbackBuffer* New_ctor(::System::Text::InternalEncoderBestFitFallback* fallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::InternalEncoderBestFitFallbackBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InternalEncoderBestFitFallbackBuffer*, creationType>(fallback)));
     }
     // private System.Char TryBestFit(System.Char cUnknown)
-    // Offset: 0x20292D8
+    // Offset: 0x2072B4C
     ::Il2CppChar TryBestFit(::Il2CppChar cUnknown);
     // public override System.Int32 get_Remaining()
-    // Offset: 0x20296B4
+    // Offset: 0x2072F28
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Int32 EncoderFallbackBuffer::get_Remaining()
     int get_Remaining();
     // public override System.Boolean Fallback(System.Char charUnknown, System.Int32 index)
-    // Offset: 0x202929C
+    // Offset: 0x2072B10
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Boolean EncoderFallbackBuffer::Fallback(System.Char charUnknown, System.Int32 index)
     bool Fallback(::Il2CppChar charUnknown, int index);
     // public override System.Boolean Fallback(System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
-    // Offset: 0x20293B8
+    // Offset: 0x2072C2C
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Boolean EncoderFallbackBuffer::Fallback(System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
     bool Fallback(::Il2CppChar charUnknownHigh, ::Il2CppChar charUnknownLow, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x2029648
+    // Offset: 0x2072EBC
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Char EncoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();
     // public override System.Boolean MovePrevious()
-    // Offset: 0x2029688
+    // Offset: 0x2072EFC
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Boolean EncoderFallbackBuffer::MovePrevious()
     bool MovePrevious();
     // public override System.Void Reset()
-    // Offset: 0x20296C0
+    // Offset: 0x2072F34
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Void EncoderFallbackBuffer::Reset()
     void Reset();

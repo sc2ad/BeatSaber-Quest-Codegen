@@ -89,24 +89,16 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public System.Single startTime
-      float& dyn_startTime();
+      [[deprecated("Use field access instead!")]] float& dyn_startTime();
       // Get instance field reference: public System.Single arriveDuration
-      float& dyn_arriveDuration();
+      [[deprecated("Use field access instead!")]] float& dyn_arriveDuration();
       // Get instance field reference: public System.Single halfJumpDuration
-      float& dyn_halfJumpDuration();
+      [[deprecated("Use field access instead!")]] float& dyn_halfJumpDuration();
     }; // BeatLine/HighlightData
     #pragma pack(pop)
     static check_size<sizeof(BeatLine::HighlightData), 8 + sizeof(float)> __GlobalNamespace_BeatLine_HighlightDataSizeCheck;
     static_assert(sizeof(BeatLine::HighlightData) == 0xC);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TubeBloomPrePassLight _tubeBloomPrePassLight
     // Size: 0x8
     // Offset: 0x30
@@ -157,52 +149,45 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private TubeBloomPrePassLight _tubeBloomPrePassLight
-    ::GlobalNamespace::TubeBloomPrePassLight*& dyn__tubeBloomPrePassLight();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TubeBloomPrePassLight*& dyn__tubeBloomPrePassLight();
     // Get instance field reference: private UnityEngine.AnimationCurve _arriveFadeCurve
-    ::UnityEngine::AnimationCurve*& dyn__arriveFadeCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__arriveFadeCurve();
     // Get instance field reference: private UnityEngine.AnimationCurve _jumpFadeCurve
-    ::UnityEngine::AnimationCurve*& dyn__jumpFadeCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__jumpFadeCurve();
     // Get instance field reference: private System.Single _alphaMul
-    float& dyn__alphaMul();
+    [[deprecated("Use field access instead!")]] float& dyn__alphaMul();
     // Get instance field reference: private System.Single _maxAlpha
-    float& dyn__maxAlpha();
+    [[deprecated("Use field access instead!")]] float& dyn__maxAlpha();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<BeatLine/HighlightData> _highlights
-    ::System::Collections::Generic::List_1<::GlobalNamespace::BeatLine::HighlightData>*& dyn__highlights();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::BeatLine::HighlightData>*& dyn__highlights();
     // Get instance field reference: private UnityEngine.Color _color
-    ::UnityEngine::Color& dyn__color();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // Get instance field reference: private System.Single _rotation
-    float& dyn__rotation();
+    [[deprecated("Use field access instead!")]] float& dyn__rotation();
     // public System.Boolean get_isFinished()
-    // Offset: 0x1362E30
+    // Offset: 0x134B0B0
     bool get_isFinished();
     // public System.Single get_rotation()
-    // Offset: 0x1362E88
+    // Offset: 0x134B108
     float get_rotation();
-    // public System.Void Init(UnityEngine.Vector3 position, System.Single rotation)
-    // Offset: 0x1362E90
-    void Init(::UnityEngine::Vector3 position, float rotation);
-    // public System.Void AddHighlight(System.Single startTime, System.Single arriveDuration, System.Single jumpDuration)
-    // Offset: 0x1362F9C
-    void AddHighlight(float startTime, float arriveDuration, float jumpDuration);
-    // public System.Void ManualUpdate(System.Single songTime)
-    // Offset: 0x1363020
-    void ManualUpdate(float songTime);
     // public System.Void .ctor()
-    // Offset: 0x1363188
-    // Implemented from: LightWithIdMonoBehaviour
-    // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x134B408
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatLine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatLine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatLine*, creationType>()));
     }
+    // public System.Void Init(UnityEngine.Vector3 position, System.Single rotation)
+    // Offset: 0x134B110
+    void Init(::UnityEngine::Vector3 position, float rotation);
+    // public System.Void AddHighlight(System.Single startTime, System.Single arriveDuration, System.Single jumpDuration)
+    // Offset: 0x134B21C
+    void AddHighlight(float startTime, float arriveDuration, float jumpDuration);
+    // public System.Void ManualUpdate(System.Single songTime)
+    // Offset: 0x134B2A0
+    void ManualUpdate(float songTime);
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1362F90
+    // Offset: 0x134B210
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);
@@ -230,6 +215,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatLine*), "get_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BeatLine::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatLine::Init
 // Il2CppName: Init
 template<>
@@ -260,10 +249,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatLine*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{songTime});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatLine::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatLine::ColorWasSet
 // Il2CppName: ColorWasSet
 template<>

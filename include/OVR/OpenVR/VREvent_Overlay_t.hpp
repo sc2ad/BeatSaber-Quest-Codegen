@@ -45,9 +45,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt64 overlayHandle
-    uint64_t& dyn_overlayHandle();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_overlayHandle();
     // Get instance field reference: public System.UInt64 devicePath
-    uint64_t& dyn_devicePath();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_devicePath();
   }; // OVR.OpenVR.VREvent_Overlay_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Overlay_t), 8 + sizeof(uint64_t)> __OVR_OpenVR_VREvent_Overlay_tSizeCheck;

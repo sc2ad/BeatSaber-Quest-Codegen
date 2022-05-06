@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Set static field: static public BeatmapObjectSpawnMovementData/NoteJumpValueType JumpDuration
     static void _set_JumpDuration(::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpValueType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // BeatmapObjectSpawnMovementData/NoteJumpValueType
   #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectSpawnMovementData::NoteJumpValueType), 0 + sizeof(int)> __GlobalNamespace_BeatmapObjectSpawnMovementData_NoteJumpValueTypeSizeCheck;

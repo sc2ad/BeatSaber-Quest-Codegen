@@ -45,14 +45,14 @@ namespace LIV::SDK::Unity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 width
-    int& dyn_width();
+    [[deprecated("Use field access instead!")]] int& dyn_width();
     // Get instance field reference: public System.Int32 height
-    int& dyn_height();
+    [[deprecated("Use field access instead!")]] int& dyn_height();
     // static public LIV.SDK.Unity.SDKResolution get_zero()
-    // Offset: 0x29FB8EC
+    // Offset: 0x2A5235C
     static ::LIV::SDK::Unity::SDKResolution get_zero();
     // public override System.String ToString()
-    // Offset: 0x2A01A5C
+    // Offset: 0x2A58564
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

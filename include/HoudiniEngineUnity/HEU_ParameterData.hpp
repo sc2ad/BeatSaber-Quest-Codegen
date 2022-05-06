@@ -58,15 +58,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_ParameterData : public ::Il2CppObject/*, public ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterData*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 _unityIndex
     // Size: 0x4
     // Offset: 0x10
@@ -221,144 +213,142 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterData*>*>(this);
     }
     // Get instance field reference: public System.Int32 _unityIndex
-    int& dyn__unityIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__unityIndex();
     // Get instance field reference: public System.String _name
-    ::StringW& dyn__name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__name();
     // Get instance field reference: public System.String _labelName
-    ::StringW& dyn__labelName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__labelName();
     // Get instance field reference: public System.String _help
-    ::StringW& dyn__help();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__help();
     // Get instance field reference: public System.Collections.Generic.List`1<System.Int32> _childParameterIDs
-    ::System::Collections::Generic::List_1<int>*& dyn__childParameterIDs();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<int>*& dyn__childParameterIDs();
     // Get instance field reference: public System.Int32 _choiceValue
-    int& dyn__choiceValue();
+    [[deprecated("Use field access instead!")]] int& dyn__choiceValue();
     // Get instance field reference: public System.Int32[] _intValues
-    ::ArrayW<int>& dyn__intValues();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__intValues();
     // Get instance field reference: public System.Single[] _floatValues
-    ::ArrayW<float>& dyn__floatValues();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn__floatValues();
     // Get instance field reference: public System.String[] _stringValues
-    ::ArrayW<::StringW>& dyn__stringValues();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn__stringValues();
     // Get instance field reference: public System.Boolean _toggle
-    bool& dyn__toggle();
+    [[deprecated("Use field access instead!")]] bool& dyn__toggle();
     // Get instance field reference: public UnityEngine.Color _color
-    ::UnityEngine::Color& dyn__color();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // Get instance field reference: public UnityEngine.Gradient _gradient
-    ::UnityEngine::Gradient*& dyn__gradient();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Gradient*& dyn__gradient();
     // Get instance field reference: public UnityEngine.AnimationCurve _animCurve
-    ::UnityEngine::AnimationCurve*& dyn__animCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__animCurve();
     // Get instance field reference: public UnityEngine.GUIContent[] _choiceLabels
-    ::ArrayW<::UnityEngine::GUIContent*>& dyn__choiceLabels();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::GUIContent*>& dyn__choiceLabels();
     // Get instance field reference: public System.String[] _choiceStringValues
-    ::ArrayW<::StringW>& dyn__choiceStringValues();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn__choiceStringValues();
     // Get instance field reference: public System.Int32[] _choiceIntValues
-    ::ArrayW<int>& dyn__choiceIntValues();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__choiceIntValues();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_ParmInfo _parmInfo
-    ::HoudiniEngineUnity::HAPI_ParmInfo& dyn__parmInfo();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_ParmInfo& dyn__parmInfo();
     // Get instance field reference: public System.Boolean _showChildren
-    bool& dyn__showChildren();
+    [[deprecated("Use field access instead!")]] bool& dyn__showChildren();
     // Get instance field reference: public System.String _fileTypeInfo
-    ::StringW& dyn__fileTypeInfo();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__fileTypeInfo();
     // Get instance field reference: public System.Int32 _folderListChildrenProcessed
-    int& dyn__folderListChildrenProcessed();
+    [[deprecated("Use field access instead!")]] int& dyn__folderListChildrenProcessed();
     // Get instance field reference: public System.Int32 _tabSelectedIndex
-    int& dyn__tabSelectedIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__tabSelectedIndex();
     // Get instance field reference: public HoudiniEngineUnity.HEU_InputNode _paramInputNode
-    ::HoudiniEngineUnity::HEU_InputNode*& dyn__paramInputNode();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_InputNode*& dyn__paramInputNode();
     // Get instance field reference: public System.Boolean _hasAssetPathTag
-    bool& dyn__hasAssetPathTag();
+    [[deprecated("Use field access instead!")]] bool& dyn__hasAssetPathTag();
     // public System.Int32 get_ParmID()
-    // Offset: 0x1AB2194
+    // Offset: 0x1AEC77C
     int get_ParmID();
     // public System.Int32 get_ParentID()
-    // Offset: 0x1AB219C
+    // Offset: 0x1AEC784
     int get_ParentID();
     // public System.Int32 get_ChildIndex()
-    // Offset: 0x1AB21A4
+    // Offset: 0x1AEC78C
     int get_ChildIndex();
     // public System.Int32 get_ParmSize()
-    // Offset: 0x1AB21AC
+    // Offset: 0x1AEC794
     int get_ParmSize();
     // public System.Int32 get_IntMin()
-    // Offset: 0x1AB2218
+    // Offset: 0x1AEC800
     int get_IntMin();
     // public System.Int32 get_IntMax()
-    // Offset: 0x1AB228C
+    // Offset: 0x1AEC874
     int get_IntMax();
     // public System.Int32 get_IntUIMin()
-    // Offset: 0x1AB2300
+    // Offset: 0x1AEC8E8
     int get_IntUIMin();
     // public System.Int32 get_IntUIMax()
-    // Offset: 0x1AB2374
+    // Offset: 0x1AEC95C
     int get_IntUIMax();
     // public System.Single get_FloatMin()
-    // Offset: 0x1AB23E8
+    // Offset: 0x1AEC9D0
     float get_FloatMin();
     // public System.Single get_FloatMax()
-    // Offset: 0x1AB23F0
+    // Offset: 0x1AEC9D8
     float get_FloatMax();
     // public System.Single get_FloatUIMin()
-    // Offset: 0x1AB23F8
+    // Offset: 0x1AEC9E0
     float get_FloatUIMin();
     // public System.Single get_FloatUIMax()
-    // Offset: 0x1AB2400
+    // Offset: 0x1AEC9E8
     float get_FloatUIMax();
-    // public System.Boolean IsInt()
-    // Offset: 0x1AB21B4
-    bool IsInt();
-    // public System.Boolean IsFloat()
-    // Offset: 0x1AB21C4
-    bool IsFloat();
-    // public System.Boolean IsString()
-    // Offset: 0x1AB21D4
-    bool IsString();
-    // public System.Boolean IsPathFile()
-    // Offset: 0x1AB21E4
-    bool IsPathFile();
-    // public System.Boolean HasMin()
-    // Offset: 0x1AB21F8
-    bool HasMin();
-    // public System.Boolean HasMax()
-    // Offset: 0x1AB2200
-    bool HasMax();
-    // public System.Boolean HasUIMin()
-    // Offset: 0x1AB2208
-    bool HasUIMin();
-    // public System.Boolean HasUIMax()
-    // Offset: 0x1AB2210
-    bool HasUIMax();
-    // public System.Boolean IsContainer()
-    // Offset: 0x1AB2408
-    bool IsContainer();
-    // public System.Boolean IsMultiParam()
-    // Offset: 0x1AB2464
-    bool IsMultiParam();
-    // public System.Boolean IsRamp()
-    // Offset: 0x1AB2474
-    bool IsRamp();
-    // public System.Boolean IsToggle()
-    // Offset: 0x1AB2484
-    bool IsToggle();
-    // public System.Boolean IsColor()
-    // Offset: 0x1AB2494
-    bool IsColor();
-    // public UnityEngine.Vector3 ToVector3()
-    // Offset: 0x1AB24A4
-    ::UnityEngine::Vector3 ToVector3();
-    // public System.Boolean IsAssetPath()
-    // Offset: 0x1AB2568
-    bool IsAssetPath();
-    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_ParameterData other)
-    // Offset: 0x1AB2570
-    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ParameterData* other);
     // public System.Void .ctor()
-    // Offset: 0x1AB2B08
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1AED0F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ParameterData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_ParameterData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ParameterData*, creationType>()));
     }
+    // public System.Boolean IsInt()
+    // Offset: 0x1AEC79C
+    bool IsInt();
+    // public System.Boolean IsFloat()
+    // Offset: 0x1AEC7AC
+    bool IsFloat();
+    // public System.Boolean IsString()
+    // Offset: 0x1AEC7BC
+    bool IsString();
+    // public System.Boolean IsPathFile()
+    // Offset: 0x1AEC7CC
+    bool IsPathFile();
+    // public System.Boolean HasMin()
+    // Offset: 0x1AEC7E0
+    bool HasMin();
+    // public System.Boolean HasMax()
+    // Offset: 0x1AEC7E8
+    bool HasMax();
+    // public System.Boolean HasUIMin()
+    // Offset: 0x1AEC7F0
+    bool HasUIMin();
+    // public System.Boolean HasUIMax()
+    // Offset: 0x1AEC7F8
+    bool HasUIMax();
+    // public System.Boolean IsContainer()
+    // Offset: 0x1AEC9F0
+    bool IsContainer();
+    // public System.Boolean IsMultiParam()
+    // Offset: 0x1AECA4C
+    bool IsMultiParam();
+    // public System.Boolean IsRamp()
+    // Offset: 0x1AECA5C
+    bool IsRamp();
+    // public System.Boolean IsToggle()
+    // Offset: 0x1AECA6C
+    bool IsToggle();
+    // public System.Boolean IsColor()
+    // Offset: 0x1AECA7C
+    bool IsColor();
+    // public UnityEngine.Vector3 ToVector3()
+    // Offset: 0x1AECA8C
+    ::UnityEngine::Vector3 ToVector3();
+    // public System.Boolean IsAssetPath()
+    // Offset: 0x1AECB50
+    bool IsAssetPath();
+    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_ParameterData other)
+    // Offset: 0x1AECB58
+    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ParameterData* other);
   }; // HoudiniEngineUnity.HEU_ParameterData
   #pragma pack(pop)
   static check_size<sizeof(HEU_ParameterData), 328 + sizeof(bool)> __HoudiniEngineUnity_HEU_ParameterDataSizeCheck;
@@ -461,6 +451,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Houd
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_ParameterData*), "get_FloatUIMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterData::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterData::IsInt
 // Il2CppName: IsInt
 template<>
@@ -590,7 +584,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_ParameterData*), "IsEquivalentTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterData::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

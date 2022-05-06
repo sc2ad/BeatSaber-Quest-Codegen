@@ -38,15 +38,7 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRPointerEventData : public ::UnityEngine::EventSystems::PointerEventData {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Ray worldSpaceRay
     // Size: 0x18
     // Offset: 0x130
@@ -61,21 +53,18 @@ namespace UnityEngine::EventSystems {
     static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.Ray worldSpaceRay
-    ::UnityEngine::Ray& dyn_worldSpaceRay();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Ray& dyn_worldSpaceRay();
     // Get instance field reference: public UnityEngine.Vector2 swipeStart
-    ::UnityEngine::Vector2& dyn_swipeStart();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_swipeStart();
     // public System.Void .ctor(UnityEngine.EventSystems.EventSystem eventSystem)
-    // Offset: 0x245D384
-    // Implemented from: UnityEngine.EventSystems.PointerEventData
-    // Base method: System.Void PointerEventData::.ctor(UnityEngine.EventSystems.EventSystem eventSystem)
-    // Base method: System.Void BaseEventData::.ctor(UnityEngine.EventSystems.EventSystem eventSystem)
+    // Offset: 0x24A6E48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRPointerEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::OVRPointerEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRPointerEventData*, creationType>(eventSystem)));
     }
     // public override System.String ToString()
-    // Offset: 0x245F4DC
+    // Offset: 0x24A8FA0
     // Implemented from: UnityEngine.EventSystems.PointerEventData
     // Base method: System.String PointerEventData::ToString()
     ::StringW ToString();

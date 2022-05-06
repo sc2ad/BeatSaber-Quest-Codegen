@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveData::PlayerAllOverallStatsData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public PlayerSaveData/PlayerOverallStatsData campaignOverallStatsData
     // Size: 0x8
     // Offset: 0x10
@@ -58,28 +50,26 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*) == 0x8);
     public:
     // Get instance field reference: public PlayerSaveData/PlayerOverallStatsData campaignOverallStatsData
-    ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*& dyn_campaignOverallStatsData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*& dyn_campaignOverallStatsData();
     // Get instance field reference: public PlayerSaveData/PlayerOverallStatsData soloFreePlayOverallStatsData
-    ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*& dyn_soloFreePlayOverallStatsData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*& dyn_soloFreePlayOverallStatsData();
     // Get instance field reference: public PlayerSaveData/PlayerOverallStatsData partyFreePlayOverallStatsData
-    ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*& dyn_partyFreePlayOverallStatsData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*& dyn_partyFreePlayOverallStatsData();
     // Get instance field reference: public PlayerSaveData/PlayerOverallStatsData onlinePlayOverallStatsData
-    ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*& dyn_onlinePlayOverallStatsData();
-    // public System.Void .ctor(PlayerSaveData/PlayerOverallStatsData campaignOverallStatsData, PlayerSaveData/PlayerOverallStatsData soloFreePlayOverallStatsData, PlayerSaveData/PlayerOverallStatsData partyFreePlayOverallStatsData, PlayerSaveData/PlayerOverallStatsData onlinePlayOverallStatsData)
-    // Offset: 0x136F5C4
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PlayerSaveData::PlayerAllOverallStatsData* New_ctor(::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* campaignOverallStatsData, ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* soloFreePlayOverallStatsData, ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* partyFreePlayOverallStatsData, ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* onlinePlayOverallStatsData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveData::PlayerAllOverallStatsData*, creationType>(campaignOverallStatsData, soloFreePlayOverallStatsData, partyFreePlayOverallStatsData, onlinePlayOverallStatsData)));
-    }
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*& dyn_onlinePlayOverallStatsData();
     // public System.Void .ctor()
-    // Offset: 0x136F410
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D6DE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::PlayerAllOverallStatsData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveData::PlayerAllOverallStatsData*, creationType>()));
+    }
+    // public System.Void .ctor(PlayerSaveData/PlayerOverallStatsData campaignOverallStatsData, PlayerSaveData/PlayerOverallStatsData soloFreePlayOverallStatsData, PlayerSaveData/PlayerOverallStatsData partyFreePlayOverallStatsData, PlayerSaveData/PlayerOverallStatsData onlinePlayOverallStatsData)
+    // Offset: 0x13D6F94
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static PlayerSaveData::PlayerAllOverallStatsData* New_ctor(::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* campaignOverallStatsData, ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* soloFreePlayOverallStatsData, ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* partyFreePlayOverallStatsData, ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* onlinePlayOverallStatsData) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveData::PlayerAllOverallStatsData*, creationType>(campaignOverallStatsData, soloFreePlayOverallStatsData, partyFreePlayOverallStatsData, onlinePlayOverallStatsData)));
     }
   }; // PlayerSaveData/PlayerAllOverallStatsData
   #pragma pack(pop)

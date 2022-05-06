@@ -32,15 +32,7 @@ namespace NUnit::Framework::Constraints {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MsgUtils::$$c__DisplayClass14_7 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public NUnit.Framework.Constraints.ValueFormatter next
     // Size: 0x8
     // Offset: 0x10
@@ -53,25 +45,27 @@ namespace NUnit::Framework::Constraints {
       return next;
     }
     // Get instance field reference: public NUnit.Framework.Constraints.ValueFormatter next
-    ::NUnit::Framework::Constraints::ValueFormatter*& dyn_next();
-    // System.String <.cctor>b__18(System.Object val)
-    // Offset: 0x1C41E48
-    ::StringW $_cctor$b__18(::Il2CppObject* val);
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Constraints::ValueFormatter*& dyn_next();
     // public System.Void .ctor()
-    // Offset: 0x1C41728
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C99CC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MsgUtils::$$c__DisplayClass14_7* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_7::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MsgUtils::$$c__DisplayClass14_7*, creationType>()));
     }
+    // System.String <.cctor>b__18(System.Object val)
+    // Offset: 0x1C9A3E0
+    ::StringW $_cctor$b__18(::Il2CppObject* val);
   }; // NUnit.Framework.Constraints.MsgUtils/NUnit.Framework.Constraints.<>c__DisplayClass14_7
   #pragma pack(pop)
   static check_size<sizeof(MsgUtils::$$c__DisplayClass14_7), 16 + sizeof(::NUnit::Framework::Constraints::ValueFormatter*)> __NUnit_Framework_Constraints_MsgUtils_$$c__DisplayClass14_7SizeCheck;
   static_assert(sizeof(MsgUtils::$$c__DisplayClass14_7) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_7::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_7::$_cctor$b__18
 // Il2CppName: <.cctor>b__18
 template<>
@@ -81,7 +75,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_7*), "<.cctor>b__18", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_7::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

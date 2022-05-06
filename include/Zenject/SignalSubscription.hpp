@@ -50,15 +50,7 @@ namespace Zenject {
     public:
     // Nested type: ::Zenject::SignalSubscription::Pool
     class Pool;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Zenject.SignalSubscription/Zenject.Pool _pool
     // Size: 0x8
     // Offset: 0x10
@@ -93,46 +85,46 @@ namespace Zenject {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get instance field reference: private readonly Zenject.SignalSubscription/Zenject.Pool _pool
-    ::Zenject::SignalSubscription::Pool*& dyn__pool();
+    [[deprecated("Use field access instead!")]] ::Zenject::SignalSubscription::Pool*& dyn__pool();
     // Get instance field reference: private System.Action`1<System.Object> _callback
-    ::System::Action_1<::Il2CppObject*>*& dyn__callback();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::Il2CppObject*>*& dyn__callback();
     // Get instance field reference: private Zenject.SignalDeclaration _declaration
-    ::Zenject::SignalDeclaration*& dyn__declaration();
+    [[deprecated("Use field access instead!")]] ::Zenject::SignalDeclaration*& dyn__declaration();
     // Get instance field reference: private Zenject.BindingId _signalId
-    ::Zenject::BindingId& dyn__signalId();
+    [[deprecated("Use field access instead!")]] ::Zenject::BindingId& dyn__signalId();
     // public Zenject.BindingId get_SignalId()
-    // Offset: 0x1CE2480
+    // Offset: 0x1D1D9D8
     ::Zenject::BindingId get_SignalId();
     // public System.Void .ctor(Zenject.SignalSubscription/Zenject.Pool pool)
-    // Offset: 0x1CE243C
+    // Offset: 0x1D1D994
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalSubscription* New_ctor(::Zenject::SignalSubscription::Pool* pool) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalSubscription::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalSubscription*, creationType>(pool)));
     }
     // public System.Void OnSpawned(System.Action`1<System.Object> callback, Zenject.SignalDeclaration declaration)
-    // Offset: 0x1CE248C
+    // Offset: 0x1D1D9E4
     void OnSpawned(::System::Action_1<::Il2CppObject*>* callback, ::Zenject::SignalDeclaration* declaration);
     // public System.Void OnDespawned()
-    // Offset: 0x1CE24E0
+    // Offset: 0x1D1DA38
     void OnDespawned();
     // private System.Void SetDefaults()
-    // Offset: 0x1CE2470
+    // Offset: 0x1D1D9C8
     void SetDefaults();
     // public System.Void Dispose()
-    // Offset: 0x1CDE720
+    // Offset: 0x1D19C78
     void Dispose();
     // public System.Void OnDeclarationDespawned()
-    // Offset: 0x1CE1370
+    // Offset: 0x1D1C8C8
     void OnDeclarationDespawned();
     // public System.Void Invoke(System.Object signal)
-    // Offset: 0x1CE1570
+    // Offset: 0x1D1CAC8
     void Invoke(::Il2CppObject* signal);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1CE2518
+    // Offset: 0x1D1DA70
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CE25E8
+    // Offset: 0x1D1DB40
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.SignalSubscription
   #pragma pack(pop)

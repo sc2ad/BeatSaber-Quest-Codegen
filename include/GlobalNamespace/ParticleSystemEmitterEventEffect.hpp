@@ -47,15 +47,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParticleSystemEmitterEventEffect : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BasicBeatmapEventType _beatmapEvent
     // Size: 0x4
     // Offset: 0x18
@@ -70,7 +62,7 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::ParticleSystem*> particleSystems;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::ParticleSystem*>) == 0x8);
-    // [InjectAttribute] Offset: 0x12517B4
+    // [InjectAttribute] Offset: 0x10D6340
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x28
@@ -87,44 +79,42 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BasicBeatmapEventType _beatmapEvent
-    ::GlobalNamespace::BasicBeatmapEventType& dyn__beatmapEvent();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BasicBeatmapEventType& dyn__beatmapEvent();
     // Get instance field reference: private UnityEngine.ParticleSystem[] _particleSystems
-    ::ArrayW<::UnityEngine::ParticleSystem*>& dyn__particleSystems();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::ParticleSystem*>& dyn__particleSystems();
     // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
-    ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
-    ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
-    // protected System.Void Start()
-    // Offset: 0x12EBCBC
-    void Start();
-    // private System.Void OnDestroy()
-    // Offset: 0x12EBDD4
-    void OnDestroy();
-    // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x12EBDF0
-    void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
-    // private System.Void ToggleEmitting(System.Boolean isBoostOn)
-    // Offset: 0x12EBE10
-    void ToggleEmitting(bool isBoostOn);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // public System.Void .ctor()
-    // Offset: 0x12EBED0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x135CE88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParticleSystemEmitterEventEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ParticleSystemEmitterEventEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParticleSystemEmitterEventEffect*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x135CC74
+    void Start();
+    // private System.Void OnDestroy()
+    // Offset: 0x135CD8C
+    void OnDestroy();
+    // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
+    // Offset: 0x135CDA8
+    void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
+    // private System.Void ToggleEmitting(System.Boolean isBoostOn)
+    // Offset: 0x135CDC8
+    void ToggleEmitting(bool isBoostOn);
   }; // ParticleSystemEmitterEventEffect
   #pragma pack(pop)
   static check_size<sizeof(ParticleSystemEmitterEventEffect), 48 + sizeof(::GlobalNamespace::BeatmapDataCallbackWrapper*)> __GlobalNamespace_ParticleSystemEmitterEventEffectSizeCheck;
   static_assert(sizeof(ParticleSystemEmitterEventEffect) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ParticleSystemEmitterEventEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ParticleSystemEmitterEventEffect::Start
 // Il2CppName: Start
 template<>
@@ -159,7 +149,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ParticleSystemEmitterEventEffect*), "ToggleEmitting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isBoostOn});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ParticleSystemEmitterEventEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

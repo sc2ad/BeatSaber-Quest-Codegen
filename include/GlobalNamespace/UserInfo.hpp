@@ -80,20 +80,12 @@ namespace GlobalNamespace {
       // Set static field: static public UserInfo/Platform PS4
       static void _set_PS4(::GlobalNamespace::UserInfo::Platform value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // UserInfo/Platform
     #pragma pack(pop)
     static check_size<sizeof(UserInfo::Platform), 0 + sizeof(int)> __GlobalNamespace_UserInfo_PlatformSizeCheck;
     static_assert(sizeof(UserInfo::Platform) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly UserInfo/Platform platform
     // Size: 0x4
     // Offset: 0x10
@@ -116,13 +108,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly UserInfo/Platform platform
-    ::GlobalNamespace::UserInfo::Platform& dyn_platform();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::UserInfo::Platform& dyn_platform();
     // Get instance field reference: public readonly System.String platformUserId
-    ::StringW& dyn_platformUserId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_platformUserId();
     // Get instance field reference: public readonly System.String userName
-    ::StringW& dyn_userName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_userName();
     // public System.Void .ctor(UserInfo/Platform platform, System.String platformUserId, System.String userName)
-    // Offset: 0x2ABBB94
+    // Offset: 0x149B0EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserInfo* New_ctor(::GlobalNamespace::UserInfo::Platform platform, ::StringW platformUserId, ::StringW userName) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::UserInfo::.ctor");

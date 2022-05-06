@@ -30,15 +30,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class LivestreamingStartResult : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly Oculus.Platform.LivestreamingStartStatus StreamingResult
     // Size: 0x4
     // Offset: 0x10
@@ -51,9 +43,9 @@ namespace Oculus::Platform::Models {
       return StreamingResult;
     }
     // Get instance field reference: public readonly Oculus.Platform.LivestreamingStartStatus StreamingResult
-    ::Oculus::Platform::LivestreamingStartStatus& dyn_StreamingResult();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::LivestreamingStartStatus& dyn_StreamingResult();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19AED18
+    // Offset: 0x19E8300
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LivestreamingStartResult* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::LivestreamingStartResult::.ctor");

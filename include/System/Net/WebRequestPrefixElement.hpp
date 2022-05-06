@@ -39,15 +39,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebRequestPrefixElement : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String Prefix
     // Size: 0x8
     // Offset: 0x10
@@ -68,19 +60,19 @@ namespace System::Net {
     static_assert(sizeof(::System::Type*) == 0x8);
     public:
     // Get instance field reference: public System.String Prefix
-    ::StringW& dyn_Prefix();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Prefix();
     // Get instance field reference: System.Net.IWebRequestCreate creator
-    ::System::Net::IWebRequestCreate*& dyn_creator();
+    [[deprecated("Use field access instead!")]] ::System::Net::IWebRequestCreate*& dyn_creator();
     // Get instance field reference: System.Type creatorType
-    ::System::Type*& dyn_creatorType();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_creatorType();
     // public System.Net.IWebRequestCreate get_Creator()
-    // Offset: 0x1B250D4
+    // Offset: 0x1B5F6BC
     ::System::Net::IWebRequestCreate* get_Creator();
     // public System.Void set_Creator(System.Net.IWebRequestCreate value)
-    // Offset: 0x1B26C80
+    // Offset: 0x1B61268
     void set_Creator(::System::Net::IWebRequestCreate* value);
     // public System.Void .ctor(System.String P, System.Net.IWebRequestCreate C)
-    // Offset: 0x1B25508
+    // Offset: 0x1B5FAF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebRequestPrefixElement* New_ctor(::StringW P, ::System::Net::IWebRequestCreate* C) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebRequestPrefixElement::.ctor");

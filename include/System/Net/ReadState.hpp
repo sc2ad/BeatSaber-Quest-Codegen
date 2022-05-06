@@ -72,7 +72,7 @@ namespace System::Net {
     // Set static field: static public System.Net.ReadState Aborted
     static void _set_Aborted(::System::Net::ReadState value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Net.ReadState
   #pragma pack(pop)
   static check_size<sizeof(ReadState), 0 + sizeof(int)> __System_Net_ReadStateSizeCheck;

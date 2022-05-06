@@ -27,15 +27,7 @@ namespace BeatSaberAPI::DataTransferObjects {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResultProof : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String <proof>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -48,17 +40,15 @@ namespace BeatSaberAPI::DataTransferObjects {
       return proof;
     }
     // Get instance field reference: private System.String <proof>k__BackingField
-    ::StringW& dyn_$proof$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$proof$k__BackingField();
     // public System.String get_proof()
-    // Offset: 0x1363A50
+    // Offset: 0x134BCD0
     ::StringW get_proof();
     // public System.Void set_proof(System.String value)
-    // Offset: 0x1363A58
+    // Offset: 0x134BCD8
     void set_proof(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x1363A60
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x134BCE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultProof* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatSaberAPI::DataTransferObjects::ResultProof::.ctor");

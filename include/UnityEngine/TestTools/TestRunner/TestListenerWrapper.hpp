@@ -46,15 +46,7 @@ namespace UnityEngine::TestTools::TestRunner {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestListenerWrapper : public ::Il2CppObject/*, public ::NUnit::Framework::Interfaces::ITestListener*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly UnityEngine.TestTools.TestRunner.TestFinishedEvent m_TestFinishedEvent
     // Size: 0x8
     // Offset: 0x10
@@ -73,24 +65,24 @@ namespace UnityEngine::TestTools::TestRunner {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::ITestListener*>(this);
     }
     // Get instance field reference: private readonly UnityEngine.TestTools.TestRunner.TestFinishedEvent m_TestFinishedEvent
-    ::UnityEngine::TestTools::TestRunner::TestFinishedEvent*& dyn_m_TestFinishedEvent();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TestTools::TestRunner::TestFinishedEvent*& dyn_m_TestFinishedEvent();
     // Get instance field reference: private readonly UnityEngine.TestTools.TestRunner.TestStartedEvent m_TestStartedEvent
-    ::UnityEngine::TestTools::TestRunner::TestStartedEvent*& dyn_m_TestStartedEvent();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TestTools::TestRunner::TestStartedEvent*& dyn_m_TestStartedEvent();
     // public System.Void .ctor(UnityEngine.TestTools.TestRunner.TestStartedEvent testStartedEvent, UnityEngine.TestTools.TestRunner.TestFinishedEvent testFinishedEvent)
-    // Offset: 0x2A7C2BC
+    // Offset: 0x2AC5F6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestListenerWrapper* New_ctor(::UnityEngine::TestTools::TestRunner::TestStartedEvent* testStartedEvent, ::UnityEngine::TestTools::TestRunner::TestFinishedEvent* testFinishedEvent) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::TestListenerWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestListenerWrapper*, creationType>(testStartedEvent, testFinishedEvent)));
     }
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x2A7C2F4
+    // Offset: 0x2AC5FA4
     void TestStarted(::NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x2A7C35C
+    // Offset: 0x2AC600C
     void TestFinished(::NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void TestOutput(NUnit.Framework.Interfaces.TestOutput output)
-    // Offset: 0x2A7C3C4
+    // Offset: 0x2AC6074
     void TestOutput(::NUnit::Framework::Interfaces::TestOutput* output);
   }; // UnityEngine.TestTools.TestRunner.TestListenerWrapper
   #pragma pack(pop)

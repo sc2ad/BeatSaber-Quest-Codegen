@@ -34,15 +34,7 @@ namespace System::Xml::Schema {
   // [TokenAttribute] Offset: FFFFFFFF
   class SchemaNotation : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Xml.XmlQualifiedName name
     // Size: 0x8
     // Offset: 0x10
@@ -63,28 +55,28 @@ namespace System::Xml::Schema {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.Xml.XmlQualifiedName name
-    ::System::Xml::XmlQualifiedName*& dyn_name();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlQualifiedName*& dyn_name();
     // Get instance field reference: private System.String systemLiteral
-    ::StringW& dyn_systemLiteral();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_systemLiteral();
     // Get instance field reference: private System.String pubid
-    ::StringW& dyn_pubid();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_pubid();
     // System.Xml.XmlQualifiedName get_Name()
-    // Offset: 0x1C2A354
+    // Offset: 0x1C6493C
     ::System::Xml::XmlQualifiedName* get_Name();
     // System.String get_SystemLiteral()
-    // Offset: 0x1C2A35C
+    // Offset: 0x1C64944
     ::StringW get_SystemLiteral();
     // System.Void set_SystemLiteral(System.String value)
-    // Offset: 0x1C2A364
+    // Offset: 0x1C6494C
     void set_SystemLiteral(::StringW value);
     // System.String get_Pubid()
-    // Offset: 0x1C2A36C
+    // Offset: 0x1C64954
     ::StringW get_Pubid();
     // System.Void set_Pubid(System.String value)
-    // Offset: 0x1C2A374
+    // Offset: 0x1C6495C
     void set_Pubid(::StringW value);
     // System.Void .ctor(System.Xml.XmlQualifiedName name)
-    // Offset: 0x1C2A328
+    // Offset: 0x1C64910
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SchemaNotation* New_ctor(::System::Xml::XmlQualifiedName* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::SchemaNotation::.ctor");

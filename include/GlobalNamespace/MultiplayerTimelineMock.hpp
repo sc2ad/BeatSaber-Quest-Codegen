@@ -36,16 +36,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerTimelineMock : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [HeaderAttribute] Offset: 0x125F94C
+    // [HeaderAttribute] Offset: 0x10E45F4
     // private UnityEngine.GameObject[] _connectedPlayerIntroAnimators
     // Size: 0x8
     // Offset: 0x18
@@ -64,7 +56,7 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::GameObject*> connectedPlayerOutroAnimators;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::GameObject*>) == 0x8);
-    // [HeaderAttribute] Offset: 0x125F9B8
+    // [HeaderAttribute] Offset: 0x10E4660
     // private UnityEngine.GameObject _localPlayerIntroAnimator
     // Size: 0x8
     // Offset: 0x30
@@ -83,7 +75,7 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* localPlayerOutroAnimator;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [HeaderAttribute] Offset: 0x125FA24
+    // [HeaderAttribute] Offset: 0x10E46CC
     // private UnityEngine.GameObject _connectedDuelIntroAnimator
     // Size: 0x8
     // Offset: 0x48
@@ -108,7 +100,7 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* localDuelOutroAnimator;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [HeaderAttribute] Offset: 0x125FAA0
+    // [HeaderAttribute] Offset: 0x10E4748
     // private UnityEngine.GameObject[] _resultAvatars
     // Size: 0x8
     // Offset: 0x68
@@ -121,7 +113,7 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::GameObject*> badgeTimelines;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::GameObject*>) == 0x8);
-    // [HeaderAttribute] Offset: 0x125FAFC
+    // [HeaderAttribute] Offset: 0x10E47A4
     // private UnityEngine.GameObject _resultsMocks
     // Size: 0x8
     // Offset: 0x78
@@ -150,92 +142,86 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.GameObject[] _connectedPlayerIntroAnimators
-    ::ArrayW<::UnityEngine::GameObject*>& dyn__connectedPlayerIntroAnimators();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::GameObject*>& dyn__connectedPlayerIntroAnimators();
     // Get instance field reference: private UnityEngine.GameObject[] _connectedPlayerScoreRingItems
-    ::ArrayW<::UnityEngine::GameObject*>& dyn__connectedPlayerScoreRingItems();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::GameObject*>& dyn__connectedPlayerScoreRingItems();
     // Get instance field reference: private UnityEngine.GameObject[] _connectedPlayerOutroAnimators
-    ::ArrayW<::UnityEngine::GameObject*>& dyn__connectedPlayerOutroAnimators();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::GameObject*>& dyn__connectedPlayerOutroAnimators();
     // Get instance field reference: private UnityEngine.GameObject _localPlayerIntroAnimator
-    ::UnityEngine::GameObject*& dyn__localPlayerIntroAnimator();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__localPlayerIntroAnimator();
     // Get instance field reference: private UnityEngine.GameObject _localPlayerScoreRingItem
-    ::UnityEngine::GameObject*& dyn__localPlayerScoreRingItem();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__localPlayerScoreRingItem();
     // Get instance field reference: private UnityEngine.GameObject _localPlayerOutroAnimator
-    ::UnityEngine::GameObject*& dyn__localPlayerOutroAnimator();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__localPlayerOutroAnimator();
     // Get instance field reference: private UnityEngine.GameObject _connectedDuelIntroAnimator
-    ::UnityEngine::GameObject*& dyn__connectedDuelIntroAnimator();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__connectedDuelIntroAnimator();
     // Get instance field reference: private UnityEngine.GameObject _connectedDuelOutroAnimator
-    ::UnityEngine::GameObject*& dyn__connectedDuelOutroAnimator();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__connectedDuelOutroAnimator();
     // Get instance field reference: private UnityEngine.GameObject _localDuelIntroAnimator
-    ::UnityEngine::GameObject*& dyn__localDuelIntroAnimator();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__localDuelIntroAnimator();
     // Get instance field reference: private UnityEngine.GameObject _localDuelOutroAnimator
-    ::UnityEngine::GameObject*& dyn__localDuelOutroAnimator();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__localDuelOutroAnimator();
     // Get instance field reference: private UnityEngine.GameObject[] _resultAvatars
-    ::ArrayW<::UnityEngine::GameObject*>& dyn__resultAvatars();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::GameObject*>& dyn__resultAvatars();
     // Get instance field reference: private UnityEngine.GameObject[] _badgeTimelines
-    ::ArrayW<::UnityEngine::GameObject*>& dyn__badgeTimelines();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::GameObject*>& dyn__badgeTimelines();
     // Get instance field reference: private UnityEngine.GameObject _resultsMocks
-    ::UnityEngine::GameObject*& dyn__resultsMocks();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__resultsMocks();
     // Get instance field reference: private UnityEngine.GameObject _ringsGroup
-    ::UnityEngine::GameObject*& dyn__ringsGroup();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__ringsGroup();
     // Get instance field reference: private UnityEngine.GameObject _playersGroup
-    ::UnityEngine::GameObject*& dyn__playersGroup();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__playersGroup();
     // Get instance field reference: private UnityEngine.GameObject _duelGroup
-    ::UnityEngine::GameObject*& dyn__duelGroup();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__duelGroup();
     // public UnityEngine.GameObject[] get_connectedPlayerIntroAnimators()
-    // Offset: 0x13AD6E8
+    // Offset: 0x13A9B94
     ::ArrayW<::UnityEngine::GameObject*> get_connectedPlayerIntroAnimators();
     // public UnityEngine.GameObject[] get_connectedPlayerScoreRings()
-    // Offset: 0x13AD6F0
+    // Offset: 0x13A9B9C
     ::ArrayW<::UnityEngine::GameObject*> get_connectedPlayerScoreRings();
     // public UnityEngine.GameObject[] get_connectedPlayerOutroAnimators()
-    // Offset: 0x13AD6F8
+    // Offset: 0x13A9BA4
     ::ArrayW<::UnityEngine::GameObject*> get_connectedPlayerOutroAnimators();
     // public UnityEngine.GameObject get_localPlayerIntroAnimator()
-    // Offset: 0x13AD700
+    // Offset: 0x13A9BAC
     ::UnityEngine::GameObject* get_localPlayerIntroAnimator();
     // public UnityEngine.GameObject get_localPlayerScoreRingItem()
-    // Offset: 0x13AD708
+    // Offset: 0x13A9BB4
     ::UnityEngine::GameObject* get_localPlayerScoreRingItem();
     // public UnityEngine.GameObject get_localPlayerOutroAnimator()
-    // Offset: 0x13AD710
+    // Offset: 0x13A9BBC
     ::UnityEngine::GameObject* get_localPlayerOutroAnimator();
     // public UnityEngine.GameObject get_connectedDuelIntroAnimator()
-    // Offset: 0x13AD718
+    // Offset: 0x13A9BC4
     ::UnityEngine::GameObject* get_connectedDuelIntroAnimator();
     // public UnityEngine.GameObject get_connectedDuelOutroAnimator()
-    // Offset: 0x13AD720
+    // Offset: 0x13A9BCC
     ::UnityEngine::GameObject* get_connectedDuelOutroAnimator();
     // public UnityEngine.GameObject get_localDuelIntroAnimator()
-    // Offset: 0x13AD728
+    // Offset: 0x13A9BD4
     ::UnityEngine::GameObject* get_localDuelIntroAnimator();
     // public UnityEngine.GameObject get_localDuelOutroAnimator()
-    // Offset: 0x13AD730
+    // Offset: 0x13A9BDC
     ::UnityEngine::GameObject* get_localDuelOutroAnimator();
     // public UnityEngine.GameObject[] get_resultAvatars()
-    // Offset: 0x13AD738
+    // Offset: 0x13A9BE4
     ::ArrayW<::UnityEngine::GameObject*> get_resultAvatars();
     // public UnityEngine.GameObject[] get_badgeTimelines()
-    // Offset: 0x13AD740
+    // Offset: 0x13A9BEC
     ::ArrayW<::UnityEngine::GameObject*> get_badgeTimelines();
     // public UnityEngine.GameObject get_resultsMocks()
-    // Offset: 0x13AD748
+    // Offset: 0x13A9BF4
     ::UnityEngine::GameObject* get_resultsMocks();
-    // public System.Void HandleActivations(System.Boolean isDuel)
-    // Offset: 0x13AD750
-    void HandleActivations(bool isDuel);
     // public System.Void .ctor()
-    // Offset: 0x13AD7B4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13A9C60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerTimelineMock* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerTimelineMock::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerTimelineMock*, creationType>()));
     }
+    // public System.Void HandleActivations(System.Boolean isDuel)
+    // Offset: 0x13A9BFC
+    void HandleActivations(bool isDuel);
   }; // MultiplayerTimelineMock
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerTimelineMock), 144 + sizeof(::UnityEngine::GameObject*)> __GlobalNamespace_MultiplayerTimelineMockSizeCheck;
@@ -346,6 +332,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerTimelineMock*), "get_resultsMocks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::HandleActivations
 // Il2CppName: HandleActivations
 template<>
@@ -355,7 +345,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerTimelineMock*), "HandleActivations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isDuel});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

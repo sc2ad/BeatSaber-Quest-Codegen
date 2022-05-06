@@ -37,15 +37,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class TeaEngine : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IBlockCipher*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.UInt32 _a
     // Size: 0x4
     // Offset: 0x10
@@ -88,53 +80,51 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IBlockCipher*>(this);
     }
     // Get instance field reference: private System.UInt32 _a
-    uint& dyn__a();
+    [[deprecated("Use field access instead!")]] uint& dyn__a();
     // Get instance field reference: private System.UInt32 _b
-    uint& dyn__b();
+    [[deprecated("Use field access instead!")]] uint& dyn__b();
     // Get instance field reference: private System.UInt32 _c
-    uint& dyn__c();
+    [[deprecated("Use field access instead!")]] uint& dyn__c();
     // Get instance field reference: private System.UInt32 _d
-    uint& dyn__d();
+    [[deprecated("Use field access instead!")]] uint& dyn__d();
     // Get instance field reference: private System.Boolean _initialised
-    bool& dyn__initialised();
+    [[deprecated("Use field access instead!")]] bool& dyn__initialised();
     // Get instance field reference: private System.Boolean _forEncryption
-    bool& dyn__forEncryption();
+    [[deprecated("Use field access instead!")]] bool& dyn__forEncryption();
     // public System.String get_AlgorithmName()
-    // Offset: 0x23CC480
+    // Offset: 0x2414CF4
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x23CC4C8
+    // Offset: 0x2414D3C
     bool get_IsPartialBlockOkay();
-    // public System.Int32 GetBlockSize()
-    // Offset: 0x23CC4D0
-    int GetBlockSize();
-    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x23CC4D8
-    void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-    // public System.Int32 ProcessBlock(System.Byte[] inBytes, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x23CC6A8
-    int ProcessBlock(::ArrayW<uint8_t> inBytes, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
-    // public System.Void Reset()
-    // Offset: 0x23CC9C8
-    void Reset();
-    // private System.Void setKey(System.Byte[] key)
-    // Offset: 0x23CC638
-    void setKey(::ArrayW<uint8_t> key);
-    // private System.Int32 encryptBlock(System.Byte[] inBytes, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x23CC8D8
-    int encryptBlock(::ArrayW<uint8_t> inBytes, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
-    // private System.Int32 decryptBlock(System.Byte[] inBytes, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x23CC7F0
-    int decryptBlock(::ArrayW<uint8_t> inBytes, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
     // public System.Void .ctor()
-    // Offset: 0x23CC458
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2414CCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TeaEngine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::TeaEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TeaEngine*, creationType>()));
     }
+    // public System.Int32 GetBlockSize()
+    // Offset: 0x2414D44
+    int GetBlockSize();
+    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
+    // Offset: 0x2414D4C
+    void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // public System.Int32 ProcessBlock(System.Byte[] inBytes, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
+    // Offset: 0x2414F1C
+    int ProcessBlock(::ArrayW<uint8_t> inBytes, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
+    // public System.Void Reset()
+    // Offset: 0x241523C
+    void Reset();
+    // private System.Void setKey(System.Byte[] key)
+    // Offset: 0x2414EAC
+    void setKey(::ArrayW<uint8_t> key);
+    // private System.Int32 encryptBlock(System.Byte[] inBytes, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
+    // Offset: 0x241514C
+    int encryptBlock(::ArrayW<uint8_t> inBytes, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
+    // private System.Int32 decryptBlock(System.Byte[] inBytes, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
+    // Offset: 0x2415064
+    int decryptBlock(::ArrayW<uint8_t> inBytes, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
   }; // Org.BouncyCastle.Crypto.Engines.TeaEngine
   #pragma pack(pop)
   static check_size<sizeof(TeaEngine), 33 + sizeof(bool)> __Org_BouncyCastle_Crypto_Engines_TeaEngineSizeCheck;
@@ -157,6 +147,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TeaEngine*), "get_IsPartialBlockOkay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TeaEngine::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TeaEngine::GetBlockSize
 // Il2CppName: GetBlockSize
 template<>
@@ -228,7 +222,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TeaEngine*), "decryptBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inBytes, inOff, outBytes, outOff});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TeaEngine::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

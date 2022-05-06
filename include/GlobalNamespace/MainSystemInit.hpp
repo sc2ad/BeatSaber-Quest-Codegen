@@ -166,15 +166,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MainSystemInit : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MainSettingsModelSO _mainSettingsModel
     // Size: 0x8
     // Offset: 0x18
@@ -259,14 +251,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::SongPackMaskModelSO* songPackMaskModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SongPackMaskModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1249DE0
+    // [SpaceAttribute] Offset: 0x10CE8D8
     // private AppStaticSettingsSO _appStaticSettings
     // Size: 0x8
     // Offset: 0x88
     ::GlobalNamespace::AppStaticSettingsSO* appStaticSettings;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AppStaticSettingsSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1249E18
+    // [SpaceAttribute] Offset: 0x10CE910
     // private StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x90
@@ -285,7 +277,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1249E70
+    // [SpaceAttribute] Offset: 0x10CE968
     // private TimeHelper _timeHelperPrefab
     // Size: 0x8
     // Offset: 0xA8
@@ -388,21 +380,21 @@ namespace GlobalNamespace {
     ::GlobalNamespace::EnvironmentAudioEffectsPlayer* environmentAudioEffectsPlayerPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EnvironmentAudioEffectsPlayer*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1249FA8
+    // [SpaceAttribute] Offset: 0x10CEAA0
     // private NodePoseSyncStateManager _nodePoseSyncStateManagerPrefab
     // Size: 0x8
     // Offset: 0x130
     ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManagerPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::NodePoseSyncStateManager*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1249FE0
+    // [SpaceAttribute] Offset: 0x10CEAD8
     // private AlwaysOwnedContentContainerSO _alwaysOwnedContentContainer
     // Size: 0x8
     // Offset: 0x138
     ::GlobalNamespace::AlwaysOwnedContentContainerSO* alwaysOwnedContentContainer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AlwaysOwnedContentContainerSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124A018
+    // [SpaceAttribute] Offset: 0x10CEB10
     // private PSVRHelper _psVRHelperPrefab
     // Size: 0x8
     // Offset: 0x140
@@ -427,7 +419,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::DevicelessVRHelper* devicelessVRHelperPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::DevicelessVRHelper*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124A080
+    // [SpaceAttribute] Offset: 0x10CEB78
     // private TestPlatformAdditionalContentModel _testPlatformAdditionalContentModelPrefab
     // Size: 0x8
     // Offset: 0x160
@@ -452,7 +444,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::SteamPlatformAdditionalContentModel* steamPlatformAdditionalContentModelPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SteamPlatformAdditionalContentModel*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124A0E8
+    // [SpaceAttribute] Offset: 0x10CEBE0
     // private SteamLevelProductsModelSO _steamLevelProductsModel
     // Size: 0x8
     // Offset: 0x180
@@ -495,7 +487,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::DlcPromoPanelDataSO* dlcPromoPanelData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::DlcPromoPanelDataSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124A180
+    // [SpaceAttribute] Offset: 0x10CEC78
     // private NetworkConfigSO _networkConfig
     // Size: 0x8
     // Offset: 0x1B8
@@ -520,14 +512,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::PS4NetworkPlayerModel* ps4NetworkPlayerModelPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PS4NetworkPlayerModel*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124A1E8
+    // [SpaceAttribute] Offset: 0x10CECE0
     // private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
     // Size: 0x8
     // Offset: 0x1D8
     ::GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCharacteristicCollectionSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124A220
+    // [SpaceAttribute] Offset: 0x10CED18
     // private LeaderboardScoreUploader _leaderboardScoreUploader
     // Size: 0x8
     // Offset: 0x1E0
@@ -556,167 +548,165 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MainSettingsModelSO _mainSettingsModel
-    ::GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
     // Get instance field reference: private AudioManagerSO _audioManager
-    ::GlobalNamespace::AudioManagerSO*& dyn__audioManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioManagerSO*& dyn__audioManager();
     // Get instance field reference: private PerceivedLoudnessPerLevelSO _perceivedLoudnessPerLevel
-    ::GlobalNamespace::PerceivedLoudnessPerLevelSO*& dyn__perceivedLoudnessPerLevel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PerceivedLoudnessPerLevelSO*& dyn__perceivedLoudnessPerLevel();
     // Get instance field reference: private RelativeSfxVolumePerLevelSO _relativeSfxVolumePerLevel
-    ::GlobalNamespace::RelativeSfxVolumePerLevelSO*& dyn__relativeSfxVolumePerLevel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::RelativeSfxVolumePerLevelSO*& dyn__relativeSfxVolumePerLevel();
     // Get instance field reference: private AvatarDataModel _avatarDataModel
-    ::GlobalNamespace::AvatarDataModel*& dyn__avatarDataModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarDataModel*& dyn__avatarDataModel();
     // Get instance field reference: private AvatarPartsModelSO _avatarPartsModel
-    ::GlobalNamespace::AvatarPartsModelSO*& dyn__avatarPartsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarPartsModelSO*& dyn__avatarPartsModel();
     // Get instance field reference: private SkinColorSetSO _skinColorSet
-    ::GlobalNamespace::SkinColorSetSO*& dyn__skinColorSet();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SkinColorSetSO*& dyn__skinColorSet();
     // Get instance field reference: private MirrorRendererGraphicsSettingsPresets _mirrorRendererGraphicsSettingsPresets
-    ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*& dyn__mirrorRendererGraphicsSettingsPresets();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*& dyn__mirrorRendererGraphicsSettingsPresets();
     // Get instance field reference: private MainEffectGraphicsSettingsPresetsSO _mainEffectGraphicsSettingsPresets
-    ::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*& dyn__mainEffectGraphicsSettingsPresets();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*& dyn__mainEffectGraphicsSettingsPresets();
     // Get instance field reference: private BloomPrePassGraphicsSettingsPresetsSO _bloomPrePassGraphicsSettingsPresets
-    ::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*& dyn__bloomPrePassGraphicsSettingsPresets();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*& dyn__bloomPrePassGraphicsSettingsPresets();
     // Get instance field reference: private MirrorRendererSO _mirrorRenderer
-    ::GlobalNamespace::MirrorRendererSO*& dyn__mirrorRenderer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MirrorRendererSO*& dyn__mirrorRenderer();
     // Get instance field reference: private MainEffectContainerSO _mainEffectContainer
-    ::GlobalNamespace::MainEffectContainerSO*& dyn__mainEffectContainer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainEffectContainerSO*& dyn__mainEffectContainer();
     // Get instance field reference: private BloomPrePassEffectContainerSO _bloomPrePassEffectContainer
-    ::GlobalNamespace::BloomPrePassEffectContainerSO*& dyn__bloomPrePassEffectContainer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassEffectContainerSO*& dyn__bloomPrePassEffectContainer();
     // Get instance field reference: private SongPackMaskModelSO _songPackMaskModel
-    ::GlobalNamespace::SongPackMaskModelSO*& dyn__songPackMaskModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongPackMaskModelSO*& dyn__songPackMaskModel();
     // Get instance field reference: private AppStaticSettingsSO _appStaticSettings
-    ::GlobalNamespace::AppStaticSettingsSO*& dyn__appStaticSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AppStaticSettingsSO*& dyn__appStaticSettings();
     // Get instance field reference: private StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
-    ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& dyn__standardLevelScenesTransitionSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& dyn__standardLevelScenesTransitionSetupData();
     // Get instance field reference: private MissionLevelScenesTransitionSetupDataSO _missionLevelScenesTransitionSetupData
-    ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& dyn__missionLevelScenesTransitionSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& dyn__missionLevelScenesTransitionSetupData();
     // Get instance field reference: private MultiplayerLevelScenesTransitionSetupDataSO _multiplayerLevelScenesTransitionSetupData
-    ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*& dyn__multiplayerLevelScenesTransitionSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*& dyn__multiplayerLevelScenesTransitionSetupData();
     // Get instance field reference: private TimeHelper _timeHelperPrefab
-    ::GlobalNamespace::TimeHelper*& dyn__timeHelperPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TimeHelper*& dyn__timeHelperPrefab();
     // Get instance field reference: private PlayerDataModel _playerDataModelPrefab
-    ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModelPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModelPrefab();
     // Get instance field reference: private CampaignProgressModel _campaignProgressModelPrefab
-    ::GlobalNamespace::CampaignProgressModel*& dyn__campaignProgressModelPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::CampaignProgressModel*& dyn__campaignProgressModelPrefab();
     // Get instance field reference: private BeatmapLevelsModel _beatmapLevelsModelPrefab
-    ::GlobalNamespace::BeatmapLevelsModel*& dyn__beatmapLevelsModelPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelsModel*& dyn__beatmapLevelsModelPrefab();
     // Get instance field reference: private CustomLevelLoader _customLevelLoaderPrefab
-    ::GlobalNamespace::CustomLevelLoader*& dyn__customLevelLoaderPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::CustomLevelLoader*& dyn__customLevelLoaderPrefab();
     // Get instance field reference: private CachedMediaAsyncLoader _cachedMediaAsyncLoaderPrefab
-    ::GlobalNamespace::CachedMediaAsyncLoader*& dyn__cachedMediaAsyncLoaderPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::CachedMediaAsyncLoader*& dyn__cachedMediaAsyncLoaderPrefab();
     // Get instance field reference: private ExternalCamerasManager _externalCamerasManagerPrefab
-    ::GlobalNamespace::ExternalCamerasManager*& dyn__externalCamerasManagerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ExternalCamerasManager*& dyn__externalCamerasManagerPrefab();
     // Get instance field reference: private MultiplayerSessionManager _multiplayerSessionManagerPrefab
-    ::GlobalNamespace::MultiplayerSessionManager*& dyn__multiplayerSessionManagerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerSessionManager*& dyn__multiplayerSessionManagerPrefab();
     // Get instance field reference: private VoipManager _voipManagerPrefab
-    ::GlobalNamespace::VoipManager*& dyn__voipManagerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VoipManager*& dyn__voipManagerPrefab();
     // Get instance field reference: private LocalNetworkPlayerModel _localNetworkPlayerModelPrefab
-    ::GlobalNamespace::LocalNetworkPlayerModel*& dyn__localNetworkPlayerModelPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LocalNetworkPlayerModel*& dyn__localNetworkPlayerModelPrefab();
     // Get instance field reference: private MasterServerNetworkPlayerModel _masterServerNetworkPlayerModelPrefab
-    ::GlobalNamespace::MasterServerNetworkPlayerModel*& dyn__masterServerNetworkPlayerModelPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MasterServerNetworkPlayerModel*& dyn__masterServerNetworkPlayerModelPrefab();
     // Get instance field reference: private GameLiftNetworkPlayerModel _gameLiftNetworkPlayerModelPrefab
-    ::GlobalNamespace::GameLiftNetworkPlayerModel*& dyn__gameLiftNetworkPlayerModelPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameLiftNetworkPlayerModel*& dyn__gameLiftNetworkPlayerModelPrefab();
     // Get instance field reference: private NetworkPlayerEntitlementChecker _networkPlayerEntitlementCheckerPrefab
-    ::GlobalNamespace::NetworkPlayerEntitlementChecker*& dyn__networkPlayerEntitlementCheckerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NetworkPlayerEntitlementChecker*& dyn__networkPlayerEntitlementCheckerPrefab();
     // Get instance field reference: private HapticFeedbackController _hapticFeedbackControllerPrefab
-    ::GlobalNamespace::HapticFeedbackController*& dyn__hapticFeedbackControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::HapticFeedbackController*& dyn__hapticFeedbackControllerPrefab();
     // Get instance field reference: private Tweening.TimeTweeningManager _tweeningManagerPrefab
-    ::Tweening::TimeTweeningManager*& dyn__tweeningManagerPrefab();
+    [[deprecated("Use field access instead!")]] ::Tweening::TimeTweeningManager*& dyn__tweeningManagerPrefab();
     // Get instance field reference: private BloomPrePassLightsUpdateSystem _lightsUpdateSystemPrefab
-    ::GlobalNamespace::BloomPrePassLightsUpdateSystem*& dyn__lightsUpdateSystemPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassLightsUpdateSystem*& dyn__lightsUpdateSystemPrefab();
     // Get instance field reference: private EnvironmentAudioEffectsPlayer _environmentAudioEffectsPlayerPrefab
-    ::GlobalNamespace::EnvironmentAudioEffectsPlayer*& dyn__environmentAudioEffectsPlayerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentAudioEffectsPlayer*& dyn__environmentAudioEffectsPlayerPrefab();
     // Get instance field reference: private NodePoseSyncStateManager _nodePoseSyncStateManagerPrefab
-    ::GlobalNamespace::NodePoseSyncStateManager*& dyn__nodePoseSyncStateManagerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NodePoseSyncStateManager*& dyn__nodePoseSyncStateManagerPrefab();
     // Get instance field reference: private AlwaysOwnedContentContainerSO _alwaysOwnedContentContainer
-    ::GlobalNamespace::AlwaysOwnedContentContainerSO*& dyn__alwaysOwnedContentContainer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AlwaysOwnedContentContainerSO*& dyn__alwaysOwnedContentContainer();
     // Get instance field reference: private PSVRHelper _psVRHelperPrefab
-    ::GlobalNamespace::PSVRHelper*& dyn__psVRHelperPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PSVRHelper*& dyn__psVRHelperPrefab();
     // Get instance field reference: private OculusVRHelper _oculusVRHelperPrefab
-    ::GlobalNamespace::OculusVRHelper*& dyn__oculusVRHelperPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OculusVRHelper*& dyn__oculusVRHelperPrefab();
     // Get instance field reference: private OpenVRHelper _openVRHelperPrefab
-    ::GlobalNamespace::OpenVRHelper*& dyn__openVRHelperPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OpenVRHelper*& dyn__openVRHelperPrefab();
     // Get instance field reference: private DevicelessVRHelper _devicelessVRHelperPrefab
-    ::GlobalNamespace::DevicelessVRHelper*& dyn__devicelessVRHelperPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DevicelessVRHelper*& dyn__devicelessVRHelperPrefab();
     // Get instance field reference: private TestPlatformAdditionalContentModel _testPlatformAdditionalContentModelPrefab
-    ::GlobalNamespace::TestPlatformAdditionalContentModel*& dyn__testPlatformAdditionalContentModelPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TestPlatformAdditionalContentModel*& dyn__testPlatformAdditionalContentModelPrefab();
     // Get instance field reference: private PS4PlatformAdditionalContentModel _ps4PlatformAdditionalContentModelPrefab
-    ::GlobalNamespace::PS4PlatformAdditionalContentModel*& dyn__ps4PlatformAdditionalContentModelPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PS4PlatformAdditionalContentModel*& dyn__ps4PlatformAdditionalContentModelPrefab();
     // Get instance field reference: private OculusPlatformAdditionalContentModel _oculusPlatformAdditionalContentModelPrefab
-    ::GlobalNamespace::OculusPlatformAdditionalContentModel*& dyn__oculusPlatformAdditionalContentModelPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OculusPlatformAdditionalContentModel*& dyn__oculusPlatformAdditionalContentModelPrefab();
     // Get instance field reference: private SteamPlatformAdditionalContentModel _steamPlatformAdditionalContentModelPrefab
-    ::GlobalNamespace::SteamPlatformAdditionalContentModel*& dyn__steamPlatformAdditionalContentModelPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SteamPlatformAdditionalContentModel*& dyn__steamPlatformAdditionalContentModelPrefab();
     // Get instance field reference: private SteamLevelProductsModelSO _steamLevelProductsModel
-    ::GlobalNamespace::SteamLevelProductsModelSO*& dyn__steamLevelProductsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SteamLevelProductsModelSO*& dyn__steamLevelProductsModel();
     // Get instance field reference: private OculusLevelProductsModelSO _oculusLevelProducsModel
-    ::GlobalNamespace::OculusLevelProductsModelSO*& dyn__oculusLevelProducsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OculusLevelProductsModelSO*& dyn__oculusLevelProducsModel();
     // Get instance field reference: private PS4LevelProductsModelSO _ps4LevelProductsModel
-    ::GlobalNamespace::PS4LevelProductsModelSO*& dyn__ps4LevelProductsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PS4LevelProductsModelSO*& dyn__ps4LevelProductsModel();
     // Get instance field reference: private PS4LeaderboardIdsModelSO _ps4LeaderboardIdsModel
-    ::GlobalNamespace::PS4LeaderboardIdsModelSO*& dyn__ps4LeaderboardIdsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PS4LeaderboardIdsModelSO*& dyn__ps4LeaderboardIdsModel();
     // Get instance field reference: private OnlineServices.ServerManager _onlineServicesServerManagerPrefab
-    ::OnlineServices::ServerManager*& dyn__onlineServicesServerManagerPrefab();
+    [[deprecated("Use field access instead!")]] ::OnlineServices::ServerManager*& dyn__onlineServicesServerManagerPrefab();
     // Get instance field reference: private RichPresenceManager _richPresenceManagerPrefab
-    ::GlobalNamespace::RichPresenceManager*& dyn__richPresenceManagerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::RichPresenceManager*& dyn__richPresenceManagerPrefab();
     // Get instance field reference: private DlcPromoPanelDataSO _dlcPromoPanelData
-    ::GlobalNamespace::DlcPromoPanelDataSO*& dyn__dlcPromoPanelData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DlcPromoPanelDataSO*& dyn__dlcPromoPanelData();
     // Get instance field reference: private NetworkConfigSO _networkConfig
-    ::GlobalNamespace::NetworkConfigSO*& dyn__networkConfig();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NetworkConfigSO*& dyn__networkConfig();
     // Get instance field reference: private SteamNetworkPlayerModel _steamNetworkPlayerModelPrefab
-    ::GlobalNamespace::SteamNetworkPlayerModel*& dyn__steamNetworkPlayerModelPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SteamNetworkPlayerModel*& dyn__steamNetworkPlayerModelPrefab();
     // Get instance field reference: private OculusNetworkPlayerModel _oculusNetworkPlayerModelPrefab
-    ::GlobalNamespace::OculusNetworkPlayerModel*& dyn__oculusNetworkPlayerModelPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OculusNetworkPlayerModel*& dyn__oculusNetworkPlayerModelPrefab();
     // Get instance field reference: private PS4NetworkPlayerModel _ps4NetworkPlayerModelPrefab
-    ::GlobalNamespace::PS4NetworkPlayerModel*& dyn__ps4NetworkPlayerModelPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PS4NetworkPlayerModel*& dyn__ps4NetworkPlayerModelPrefab();
     // Get instance field reference: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
-    ::GlobalNamespace::BeatmapCharacteristicCollectionSO*& dyn__beatmapCharacteristicCollection();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCharacteristicCollectionSO*& dyn__beatmapCharacteristicCollection();
     // Get instance field reference: private LeaderboardScoreUploader _leaderboardScoreUploader
-    ::GlobalNamespace::LeaderboardScoreUploader*& dyn__leaderboardScoreUploader();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LeaderboardScoreUploader*& dyn__leaderboardScoreUploader();
     // Get instance field reference: private PlatformLeaderboardsModel _platformLeaderboardsModel
-    ::GlobalNamespace::PlatformLeaderboardsModel*& dyn__platformLeaderboardsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlatformLeaderboardsModel*& dyn__platformLeaderboardsModel();
     // Get instance field reference: private BeatmapLevelSO _anyBeatmapLevelSO
-    ::GlobalNamespace::BeatmapLevelSO*& dyn__anyBeatmapLevelSO();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelSO*& dyn__anyBeatmapLevelSO();
     // Get instance field reference: private MockPlayersModel _mockPlayersModel
-    ::GlobalNamespace::MockPlayersModel*& dyn__mockPlayersModel();
-    // public System.Void Init()
-    // Offset: 0x12FB508
-    void Init();
-    // public System.Void PreInstall(MockPlayersModel mockPlayersModel)
-    // Offset: 0x12FB8C4
-    void PreInstall(::GlobalNamespace::MockPlayersModel* mockPlayersModel);
-    // public System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x12FB8CC
-    void InstallBindings(::Zenject::DiContainer* container);
-    // private System.Void InstallRichPresence(Zenject.DiContainer container)
-    // Offset: 0x12FCAD8
-    void InstallRichPresence(::Zenject::DiContainer* container);
-    // private System.Void InstallOculusDestinationBindings(Zenject.DiContainer container)
-    // Offset: 0x12FC9FC
-    void InstallOculusDestinationBindings(::Zenject::DiContainer* container);
-    // private System.Void InstallPlatformLeaderboardsModel(Zenject.DiContainer container)
-    // Offset: 0x12FCB98
-    void InstallPlatformLeaderboardsModel(::Zenject::DiContainer* container);
-    // private System.Boolean IsRunningFromNUnit()
-    // Offset: 0x12FC9F4
-    bool IsRunningFromNUnit();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MockPlayersModel*& dyn__mockPlayersModel();
     // public System.Void .ctor()
-    // Offset: 0x12FCCDC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x12F91B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainSystemInit* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainSystemInit::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainSystemInit*, creationType>()));
     }
+    // public System.Void Init()
+    // Offset: 0x12F79E0
+    void Init();
+    // public System.Void PreInstall(MockPlayersModel mockPlayersModel)
+    // Offset: 0x12F7D9C
+    void PreInstall(::GlobalNamespace::MockPlayersModel* mockPlayersModel);
+    // public System.Void InstallBindings(Zenject.DiContainer container)
+    // Offset: 0x12F7DA4
+    void InstallBindings(::Zenject::DiContainer* container);
+    // private System.Void InstallRichPresence(Zenject.DiContainer container)
+    // Offset: 0x12F8FB0
+    void InstallRichPresence(::Zenject::DiContainer* container);
+    // private System.Void InstallOculusDestinationBindings(Zenject.DiContainer container)
+    // Offset: 0x12F8ED4
+    void InstallOculusDestinationBindings(::Zenject::DiContainer* container);
+    // private System.Void InstallPlatformLeaderboardsModel(Zenject.DiContainer container)
+    // Offset: 0x12F9070
+    void InstallPlatformLeaderboardsModel(::Zenject::DiContainer* container);
+    // private System.Boolean IsRunningFromNUnit()
+    // Offset: 0x12F8ECC
+    bool IsRunningFromNUnit();
   }; // MainSystemInit
   #pragma pack(pop)
   static check_size<sizeof(MainSystemInit), 504 + sizeof(::GlobalNamespace::MockPlayersModel*)> __GlobalNamespace_MainSystemInitSizeCheck;
   static_assert(sizeof(MainSystemInit) == 0x200);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MainSystemInit::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MainSystemInit::Init
 // Il2CppName: Init
 template<>
@@ -778,7 +768,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSystemInit*), "IsRunningFromNUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MainSystemInit::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

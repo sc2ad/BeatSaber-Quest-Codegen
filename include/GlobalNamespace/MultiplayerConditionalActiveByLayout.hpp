@@ -76,20 +76,12 @@ namespace GlobalNamespace {
       // Set static field: static public MultiplayerConditionalActiveByLayout/Condition HideIf
       static void _set_HideIf(::GlobalNamespace::MultiplayerConditionalActiveByLayout::Condition value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // MultiplayerConditionalActiveByLayout/Condition
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerConditionalActiveByLayout::Condition), 0 + sizeof(int)> __GlobalNamespace_MultiplayerConditionalActiveByLayout_ConditionSizeCheck;
     static_assert(sizeof(MultiplayerConditionalActiveByLayout::Condition) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MultiplayerConditionalActiveByLayout/Condition _condition
     // Size: 0x4
     // Offset: 0x18
@@ -102,7 +94,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerPlayerLayout layout;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerPlayerLayout) == 0x4);
-    // [InjectAttribute] Offset: 0x125458C
+    // [InjectAttribute] Offset: 0x10D9170
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x20
@@ -113,30 +105,24 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MultiplayerConditionalActiveByLayout/Condition _condition
-    ::GlobalNamespace::MultiplayerConditionalActiveByLayout::Condition& dyn__condition();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerConditionalActiveByLayout::Condition& dyn__condition();
     // Get instance field reference: private MultiplayerPlayerLayout _layout
-    ::GlobalNamespace::MultiplayerPlayerLayout& dyn__layout();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerPlayerLayout& dyn__layout();
     // Get instance field reference: private readonly MultiplayerLayoutProvider _layoutProvider
-    ::GlobalNamespace::MultiplayerLayoutProvider*& dyn__layoutProvider();
-    // private System.Void Start()
-    // Offset: 0x13D04F4
-    void Start();
-    // private System.Void HandlePlayersLayoutWasCalculated(MultiplayerPlayerLayout layout, System.Int32 playersCount)
-    // Offset: 0x13D05A4
-    void HandlePlayersLayoutWasCalculated(::GlobalNamespace::MultiplayerPlayerLayout layout, int playersCount);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLayoutProvider*& dyn__layoutProvider();
     // public System.Void .ctor()
-    // Offset: 0x13D0608
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13CCAB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConditionalActiveByLayout* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConditionalActiveByLayout::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConditionalActiveByLayout*, creationType>()));
     }
+    // private System.Void Start()
+    // Offset: 0x13CC9A0
+    void Start();
+    // private System.Void HandlePlayersLayoutWasCalculated(MultiplayerPlayerLayout layout, System.Int32 playersCount)
+    // Offset: 0x13CCA50
+    void HandlePlayersLayoutWasCalculated(::GlobalNamespace::MultiplayerPlayerLayout layout, int playersCount);
   }; // MultiplayerConditionalActiveByLayout
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerConditionalActiveByLayout), 32 + sizeof(::GlobalNamespace::MultiplayerLayoutProvider*)> __GlobalNamespace_MultiplayerConditionalActiveByLayoutSizeCheck;
@@ -145,6 +131,10 @@ namespace GlobalNamespace {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerConditionalActiveByLayout::Condition, "", "MultiplayerConditionalActiveByLayout/Condition");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConditionalActiveByLayout::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConditionalActiveByLayout::Start
 // Il2CppName: Start
 template<>
@@ -163,7 +153,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConditionalActiveByLayout*), "HandlePlayersLayoutWasCalculated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layout, playersCount});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConditionalActiveByLayout::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

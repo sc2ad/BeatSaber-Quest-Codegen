@@ -63,15 +63,7 @@ namespace System::Xml {
     public:
     // Nested type: ::System::Xml::XmlUrlResolver::$GetEntityAsync$d__15
     struct $GetEntityAsync$d__15;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Net.ICredentials _credentials
     // Size: 0x8
     // Offset: 0x10
@@ -96,36 +88,35 @@ namespace System::Xml {
     // Set static field: static private System.Object s_DownloadManager
     static void _set_s_DownloadManager(::Il2CppObject* value);
     // Get instance field reference: private System.Net.ICredentials _credentials
-    ::System::Net::ICredentials*& dyn__credentials();
+    [[deprecated("Use field access instead!")]] ::System::Net::ICredentials*& dyn__credentials();
     // Get instance field reference: private System.Net.IWebProxy _proxy
-    ::System::Net::IWebProxy*& dyn__proxy();
+    [[deprecated("Use field access instead!")]] ::System::Net::IWebProxy*& dyn__proxy();
     // Get instance field reference: private System.Net.Cache.RequestCachePolicy _cachePolicy
-    ::System::Net::Cache::RequestCachePolicy*& dyn__cachePolicy();
+    [[deprecated("Use field access instead!")]] ::System::Net::Cache::RequestCachePolicy*& dyn__cachePolicy();
     // static private System.Xml.XmlDownloadManager get_DownloadManager()
-    // Offset: 0x26BC724
+    // Offset: 0x270BC34
     static ::System::Xml::XmlDownloadManager* get_DownloadManager();
     // public System.Void .ctor()
-    // Offset: 0x26BC7F4
+    // Offset: 0x270BD04
     // Implemented from: System.Xml.XmlResolver
     // Base method: System.Void XmlResolver::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlUrlResolver* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlUrlResolver::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlUrlResolver*, creationType>()));
     }
     // public override System.Object GetEntity(System.Uri absoluteUri, System.String role, System.Type ofObjectToReturn)
-    // Offset: 0x26BC7FC
+    // Offset: 0x270BD0C
     // Implemented from: System.Xml.XmlResolver
     // Base method: System.Object XmlResolver::GetEntity(System.Uri absoluteUri, System.String role, System.Type ofObjectToReturn)
     ::Il2CppObject* GetEntity(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
     // public override System.Uri ResolveUri(System.Uri baseUri, System.String relativeUri)
-    // Offset: 0x26BC980
+    // Offset: 0x270BE90
     // Implemented from: System.Xml.XmlResolver
     // Base method: System.Uri XmlResolver::ResolveUri(System.Uri baseUri, System.String relativeUri)
     ::System::Uri* ResolveUri(::System::Uri* baseUri, ::StringW relativeUri);
     // public override System.Threading.Tasks.Task`1<System.Object> GetEntityAsync(System.Uri absoluteUri, System.String role, System.Type ofObjectToReturn)
-    // Offset: 0x26BC988
+    // Offset: 0x270BE98
     // Implemented from: System.Xml.XmlResolver
     // Base method: System.Threading.Tasks.Task`1<System.Object> XmlResolver::GetEntityAsync(System.Uri absoluteUri, System.String role, System.Type ofObjectToReturn)
     ::System::Threading::Tasks::Task_1<::Il2CppObject*>* GetEntityAsync(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);

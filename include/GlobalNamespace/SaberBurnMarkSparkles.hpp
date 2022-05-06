@@ -52,15 +52,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaberBurnMarkSparkles : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.ParticleSystem _sparklesPS
     // Size: 0x8
     // Offset: 0x18
@@ -79,14 +71,14 @@ namespace GlobalNamespace {
     ::UnityEngine::BoxCollider* boxCollider;
     // Field size check
     static_assert(sizeof(::UnityEngine::BoxCollider*) == 0x8);
-    // [InjectAttribute] Offset: 0x1250D64
+    // [InjectAttribute] Offset: 0x10D5898
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ColorManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1250D74
+    // [InjectAttribute] Offset: 0x10D58A8
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x38
@@ -139,66 +131,64 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem _sparklesPS
-    ::UnityEngine::ParticleSystem*& dyn__sparklesPS();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn__sparklesPS();
     // Get instance field reference: private UnityEngine.ParticleSystem _burnMarksPSPrefab
-    ::UnityEngine::ParticleSystem*& dyn__burnMarksPSPrefab();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn__burnMarksPSPrefab();
     // Get instance field reference: private UnityEngine.BoxCollider _boxCollider
-    ::UnityEngine::BoxCollider*& dyn__boxCollider();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::BoxCollider*& dyn__boxCollider();
     // Get instance field reference: private readonly ColorManager _colorManager
-    ::GlobalNamespace::ColorManager*& dyn__colorManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorManager*& dyn__colorManager();
     // Get instance field reference: private readonly SaberManager _saberManager
-    ::GlobalNamespace::SaberManager*& dyn__saberManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberManager*& dyn__saberManager();
     // Get instance field reference: private Saber[] _sabers
-    ::ArrayW<::GlobalNamespace::Saber*>& dyn__sabers();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::Saber*>& dyn__sabers();
     // Get instance field reference: private UnityEngine.Plane _plane
-    ::UnityEngine::Plane& dyn__plane();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Plane& dyn__plane();
     // Get instance field reference: private UnityEngine.Vector3[] _prevBurnMarkPos
-    ::ArrayW<::UnityEngine::Vector3>& dyn__prevBurnMarkPos();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn__prevBurnMarkPos();
     // Get instance field reference: private System.Boolean[] _prevBurnMarkPosValid
-    ::ArrayW<bool>& dyn__prevBurnMarkPosValid();
+    [[deprecated("Use field access instead!")]] ::ArrayW<bool>& dyn__prevBurnMarkPosValid();
     // Get instance field reference: private UnityEngine.ParticleSystem[] _burnMarksPS
-    ::ArrayW<::UnityEngine::ParticleSystem*>& dyn__burnMarksPS();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::ParticleSystem*>& dyn__burnMarksPS();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule[] _burnMarksEmissionModules
-    ::ArrayW<::UnityEngine::ParticleSystem::EmissionModule>& dyn__burnMarksEmissionModules();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::ParticleSystem::EmissionModule>& dyn__burnMarksEmissionModules();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _sparklesEmitParams
-    ::UnityEngine::ParticleSystem::EmitParams& dyn__sparklesEmitParams();
-    // protected System.Void Start()
-    // Offset: 0x141B10C
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x141B594
-    void OnDestroy();
-    // protected System.Void OnEnable()
-    // Offset: 0x141B6A0
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x141B790
-    void OnDisable();
-    // private System.Boolean GetBurnMarkPos(UnityEngine.Vector3 bladeBottomPos, UnityEngine.Vector3 bladeTopPos, out UnityEngine.Vector3 burnMarkPos)
-    // Offset: 0x141B880
-    bool GetBurnMarkPos(::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos, ByRef<::UnityEngine::Vector3> burnMarkPos);
-    // protected System.Void LateUpdate()
-    // Offset: 0x141BB18
-    void LateUpdate();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::EmitParams& dyn__sparklesEmitParams();
     // public System.Void .ctor()
-    // Offset: 0x141BFC8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x145D6A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberBurnMarkSparkles* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberBurnMarkSparkles::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberBurnMarkSparkles*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x145C7E4
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x145CC6C
+    void OnDestroy();
+    // protected System.Void OnEnable()
+    // Offset: 0x145CD78
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x145CE68
+    void OnDisable();
+    // private System.Boolean GetBurnMarkPos(UnityEngine.Vector3 bladeBottomPos, UnityEngine.Vector3 bladeTopPos, out UnityEngine.Vector3 burnMarkPos)
+    // Offset: 0x145CF58
+    bool GetBurnMarkPos(::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos, ByRef<::UnityEngine::Vector3> burnMarkPos);
+    // protected System.Void LateUpdate()
+    // Offset: 0x145D1F0
+    void LateUpdate();
   }; // SaberBurnMarkSparkles
   #pragma pack(pop)
   static check_size<sizeof(SaberBurnMarkSparkles), 120 + sizeof(::UnityEngine::ParticleSystem::EmitParams)> __GlobalNamespace_SaberBurnMarkSparklesSizeCheck;
   static_assert(sizeof(SaberBurnMarkSparkles) == 0x107);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SaberBurnMarkSparkles::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SaberBurnMarkSparkles::Start
 // Il2CppName: Start
 template<>
@@ -250,7 +240,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberBurnMarkSparkles*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SaberBurnMarkSparkles::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

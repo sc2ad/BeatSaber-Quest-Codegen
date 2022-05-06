@@ -31,15 +31,7 @@ namespace System::Net {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SimpleAsyncResult::$$c__DisplayClass9_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.AsyncCallback cb
     // Size: 0x8
     // Offset: 0x10
@@ -54,27 +46,29 @@ namespace System::Net {
     static_assert(sizeof(::System::Net::SimpleAsyncResult*) == 0x8);
     public:
     // Get instance field reference: public System.AsyncCallback cb
-    ::System::AsyncCallback*& dyn_cb();
+    [[deprecated("Use field access instead!")]] ::System::AsyncCallback*& dyn_cb();
     // Get instance field reference: public System.Net.SimpleAsyncResult <>4__this
-    ::System::Net::SimpleAsyncResult*& dyn_$$4__this();
-    // System.Void <.ctor>b__0(System.Net.SimpleAsyncResult result)
-    // Offset: 0x1B357AC
-    void $_ctor$b__0(::System::Net::SimpleAsyncResult* result);
+    [[deprecated("Use field access instead!")]] ::System::Net::SimpleAsyncResult*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x1B34EE8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B6F4D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleAsyncResult::$$c__DisplayClass9_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::SimpleAsyncResult::$$c__DisplayClass9_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleAsyncResult::$$c__DisplayClass9_0*, creationType>()));
     }
+    // System.Void <.ctor>b__0(System.Net.SimpleAsyncResult result)
+    // Offset: 0x1B6FD94
+    void $_ctor$b__0(::System::Net::SimpleAsyncResult* result);
   }; // System.Net.SimpleAsyncResult/System.Net.<>c__DisplayClass9_0
   #pragma pack(pop)
   static check_size<sizeof(SimpleAsyncResult::$$c__DisplayClass9_0), 24 + sizeof(::System::Net::SimpleAsyncResult*)> __System_Net_SimpleAsyncResult_$$c__DisplayClass9_0SizeCheck;
   static_assert(sizeof(SimpleAsyncResult::$$c__DisplayClass9_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Net::SimpleAsyncResult::$$c__DisplayClass9_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::SimpleAsyncResult::$$c__DisplayClass9_0::$_ctor$b__0
 // Il2CppName: <.ctor>b__0
 template<>
@@ -84,7 +78,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Net::SimpleAsyncResult::$$c__DisplayClass9_0*), "<.ctor>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };
-// Writing MetadataGetter for method: System::Net::SimpleAsyncResult::$$c__DisplayClass9_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

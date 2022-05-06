@@ -94,7 +94,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.Navigation/UnityEngine.UI.Mode Explicit
       static void _set_Explicit(::UnityEngine::UI::Navigation::Mode value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // UnityEngine.UI.Navigation/UnityEngine.UI.Mode
     #pragma pack(pop)
     static check_size<sizeof(Navigation::Mode), 0 + sizeof(int)> __UnityEngine_UI_Navigation_ModeSizeCheck;
@@ -144,50 +144,50 @@ namespace UnityEngine::UI {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::UI::Navigation>*>(this);
     }
     // Get instance field reference: private UnityEngine.UI.Navigation/UnityEngine.UI.Mode m_Mode
-    ::UnityEngine::UI::Navigation::Mode& dyn_m_Mode();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Navigation::Mode& dyn_m_Mode();
     // Get instance field reference: private UnityEngine.UI.Selectable m_SelectOnUp
-    ::UnityEngine::UI::Selectable*& dyn_m_SelectOnUp();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Selectable*& dyn_m_SelectOnUp();
     // Get instance field reference: private UnityEngine.UI.Selectable m_SelectOnDown
-    ::UnityEngine::UI::Selectable*& dyn_m_SelectOnDown();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Selectable*& dyn_m_SelectOnDown();
     // Get instance field reference: private UnityEngine.UI.Selectable m_SelectOnLeft
-    ::UnityEngine::UI::Selectable*& dyn_m_SelectOnLeft();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Selectable*& dyn_m_SelectOnLeft();
     // Get instance field reference: private UnityEngine.UI.Selectable m_SelectOnRight
-    ::UnityEngine::UI::Selectable*& dyn_m_SelectOnRight();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Selectable*& dyn_m_SelectOnRight();
     // public UnityEngine.UI.Navigation/UnityEngine.UI.Mode get_mode()
-    // Offset: 0x1E83414
+    // Offset: 0x1ED194C
     ::UnityEngine::UI::Navigation::Mode get_mode();
     // public System.Void set_mode(UnityEngine.UI.Navigation/UnityEngine.UI.Mode value)
-    // Offset: 0x1E8341C
+    // Offset: 0x1ED1954
     void set_mode(::UnityEngine::UI::Navigation::Mode value);
     // public UnityEngine.UI.Selectable get_selectOnUp()
-    // Offset: 0x1E83424
+    // Offset: 0x1ED195C
     ::UnityEngine::UI::Selectable* get_selectOnUp();
     // public System.Void set_selectOnUp(UnityEngine.UI.Selectable value)
-    // Offset: 0x1E8342C
+    // Offset: 0x1ED1964
     void set_selectOnUp(::UnityEngine::UI::Selectable* value);
     // public UnityEngine.UI.Selectable get_selectOnDown()
-    // Offset: 0x1E83434
+    // Offset: 0x1ED196C
     ::UnityEngine::UI::Selectable* get_selectOnDown();
     // public System.Void set_selectOnDown(UnityEngine.UI.Selectable value)
-    // Offset: 0x1E8343C
+    // Offset: 0x1ED1974
     void set_selectOnDown(::UnityEngine::UI::Selectable* value);
     // public UnityEngine.UI.Selectable get_selectOnLeft()
-    // Offset: 0x1E83444
+    // Offset: 0x1ED197C
     ::UnityEngine::UI::Selectable* get_selectOnLeft();
     // public System.Void set_selectOnLeft(UnityEngine.UI.Selectable value)
-    // Offset: 0x1E8344C
+    // Offset: 0x1ED1984
     void set_selectOnLeft(::UnityEngine::UI::Selectable* value);
     // public UnityEngine.UI.Selectable get_selectOnRight()
-    // Offset: 0x1E83454
+    // Offset: 0x1ED198C
     ::UnityEngine::UI::Selectable* get_selectOnRight();
     // public System.Void set_selectOnRight(UnityEngine.UI.Selectable value)
-    // Offset: 0x1E8345C
+    // Offset: 0x1ED1994
     void set_selectOnRight(::UnityEngine::UI::Selectable* value);
     // static public UnityEngine.UI.Navigation get_defaultNavigation()
-    // Offset: 0x1E83464
+    // Offset: 0x1ED199C
     static ::UnityEngine::UI::Navigation get_defaultNavigation();
     // public System.Boolean Equals(UnityEngine.UI.Navigation other)
-    // Offset: 0x1E83484
+    // Offset: 0x1ED19BC
     bool Equals(::UnityEngine::UI::Navigation other);
   }; // UnityEngine.UI.Navigation
   #pragma pack(pop)

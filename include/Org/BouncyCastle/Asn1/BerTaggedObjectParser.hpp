@@ -37,15 +37,7 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class BerTaggedObjectParser : public ::Il2CppObject/*, public ::Org::BouncyCastle::Asn1::IAsn1Convertible*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean _constructed
     // Size: 0x1
     // Offset: 0x10
@@ -72,20 +64,20 @@ namespace Org::BouncyCastle::Asn1 {
       return *reinterpret_cast<::Org::BouncyCastle::Asn1::IAsn1Convertible*>(this);
     }
     // Get instance field reference: private System.Boolean _constructed
-    bool& dyn__constructed();
+    [[deprecated("Use field access instead!")]] bool& dyn__constructed();
     // Get instance field reference: private System.Int32 _tagNumber
-    int& dyn__tagNumber();
+    [[deprecated("Use field access instead!")]] int& dyn__tagNumber();
     // Get instance field reference: private Org.BouncyCastle.Asn1.Asn1StreamParser _parser
-    ::Org::BouncyCastle::Asn1::Asn1StreamParser*& dyn__parser();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1StreamParser*& dyn__parser();
     // System.Void .ctor(System.Boolean constructed, System.Int32 tagNumber, Org.BouncyCastle.Asn1.Asn1StreamParser parser)
-    // Offset: 0x1BEC088
+    // Offset: 0x1C26670
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BerTaggedObjectParser* New_ctor(bool constructed, int tagNumber, ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::BerTaggedObjectParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerTaggedObjectParser*, creationType>(constructed, tagNumber, parser)));
     }
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1BEC0D0
+    // Offset: 0x1C266B8
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.BerTaggedObjectParser
   #pragma pack(pop)

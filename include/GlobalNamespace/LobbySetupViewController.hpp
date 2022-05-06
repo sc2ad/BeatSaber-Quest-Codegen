@@ -77,15 +77,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LobbySetupViewController : public ::HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Button _startGameReadyButton
     // Size: 0x8
     // Offset: 0x70
@@ -116,7 +108,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::GameServersFilterText* serverSettings;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameServersFilterText*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125C894
+    // [SpaceAttribute] Offset: 0x10E1478
     // private UnityEngine.GameObject _suggestionHeader
     // Size: 0x8
     // Offset: 0x98
@@ -214,35 +206,35 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     public:
-    // [LocalizationKeyAttribute] Offset: 0x125C7F4
+    // [LocalizationKeyAttribute] Offset: 0x10E13D8
     // static field const value: static private System.String kStartTextKey
     static constexpr const char* kStartTextKey = "LOBBY_START_GAME";
     // Get static field: static private System.String kStartTextKey
     static ::StringW _get_kStartTextKey();
     // Set static field: static private System.String kStartTextKey
     static void _set_kStartTextKey(::StringW value);
-    // [LocalizationKeyAttribute] Offset: 0x125C804
+    // [LocalizationKeyAttribute] Offset: 0x10E13E8
     // static field const value: static private System.String kCancelTextKey
     static constexpr const char* kCancelTextKey = "BUTTON_CANCEL";
     // Get static field: static private System.String kCancelTextKey
     static ::StringW _get_kCancelTextKey();
     // Set static field: static private System.String kCancelTextKey
     static void _set_kCancelTextKey(::StringW value);
-    // [LocalizationKeyAttribute] Offset: 0x125C814
+    // [LocalizationKeyAttribute] Offset: 0x10E13F8
     // static field const value: static private System.String kReadyTextKey
     static constexpr const char* kReadyTextKey = "LOBBY_READY";
     // Get static field: static private System.String kReadyTextKey
     static ::StringW _get_kReadyTextKey();
     // Set static field: static private System.String kReadyTextKey
     static void _set_kReadyTextKey(::StringW value);
-    // [LocalizationKeyAttribute] Offset: 0x125C824
+    // [LocalizationKeyAttribute] Offset: 0x10E1408
     // static field const value: static private System.String kUnreadyTextKey
     static constexpr const char* kUnreadyTextKey = "BUTTON_UNREADY";
     // Get static field: static private System.String kUnreadyTextKey
     static ::StringW _get_kUnreadyTextKey();
     // Set static field: static private System.String kUnreadyTextKey
     static void _set_kUnreadyTextKey(::StringW value);
-    // [LocalizationKeyAttribute] Offset: 0x125C834
+    // [LocalizationKeyAttribute] Offset: 0x10E1418
     // static field const value: static private System.String kRetryTextKey
     static constexpr const char* kRetryTextKey = "BUTTON_RETRY";
     // Get static field: static private System.String kRetryTextKey
@@ -250,140 +242,133 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kRetryTextKey
     static void _set_kRetryTextKey(::StringW value);
     // Get instance field reference: private UnityEngine.UI.Button _startGameReadyButton
-    ::UnityEngine::UI::Button*& dyn__startGameReadyButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__startGameReadyButton();
     // Get instance field reference: private UnityEngine.UI.Button _cancelGameUnreadyButton
-    ::UnityEngine::UI::Button*& dyn__cancelGameUnreadyButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__cancelGameUnreadyButton();
     // Get instance field reference: private Polyglot.LocalizedTextMeshProUGUI _startReadyText
-    ::Polyglot::LocalizedTextMeshProUGUI*& dyn__startReadyText();
+    [[deprecated("Use field access instead!")]] ::Polyglot::LocalizedTextMeshProUGUI*& dyn__startReadyText();
     // Get instance field reference: private Polyglot.LocalizedTextMeshProUGUI _cancelUnreadyText
-    ::Polyglot::LocalizedTextMeshProUGUI*& dyn__cancelUnreadyText();
+    [[deprecated("Use field access instead!")]] ::Polyglot::LocalizedTextMeshProUGUI*& dyn__cancelUnreadyText();
     // Get instance field reference: private GameServersFilterText _serverSettings
-    ::GlobalNamespace::GameServersFilterText*& dyn__serverSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameServersFilterText*& dyn__serverSettings();
     // Get instance field reference: private UnityEngine.GameObject _suggestionHeader
-    ::UnityEngine::GameObject*& dyn__suggestionHeader();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__suggestionHeader();
     // Get instance field reference: private EditableBeatmapSelectionView _beatmapSelectionView
-    ::GlobalNamespace::EditableBeatmapSelectionView*& dyn__beatmapSelectionView();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EditableBeatmapSelectionView*& dyn__beatmapSelectionView();
     // Get instance field reference: private EditableModifiersSelectionView _modifiersSelectionView
-    ::GlobalNamespace::EditableModifiersSelectionView*& dyn__modifiersSelectionView();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EditableModifiersSelectionView*& dyn__modifiersSelectionView();
     // Get instance field reference: private HMUI.HoverHint _cantStartGameHoverHint
-    ::HMUI::HoverHint*& dyn__cantStartGameHoverHint();
+    [[deprecated("Use field access instead!")]] ::HMUI::HoverHint*& dyn__cantStartGameHoverHint();
     // Get instance field reference: private UnityEngine.GameObject _playerMissingLevelHoverHintWrapper
-    ::UnityEngine::GameObject*& dyn__playerMissingLevelHoverHintWrapper();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__playerMissingLevelHoverHintWrapper();
     // Get instance field reference: private HMUI.HoverHint _playersMissingLevelHoverHint
-    ::HMUI::HoverHint*& dyn__playersMissingLevelHoverHint();
+    [[deprecated("Use field access instead!")]] ::HMUI::HoverHint*& dyn__playersMissingLevelHoverHint();
     // Get instance field reference: private UnityEngine.GameObject _spectatorWarningTextWrapper
-    ::UnityEngine::GameObject*& dyn__spectatorWarningTextWrapper();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__spectatorWarningTextWrapper();
     // Get instance field reference: private readonly HMUI.ToggleBinder _toggleBinder
-    ::HMUI::ToggleBinder*& dyn__toggleBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ToggleBinder*& dyn__toggleBinder();
     // Get instance field reference: private System.Action selectBeatmapEvent
-    ::System::Action*& dyn_selectBeatmapEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_selectBeatmapEvent();
     // Get instance field reference: private System.Action selectModifiersEvent
-    ::System::Action*& dyn_selectModifiersEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_selectModifiersEvent();
     // Get instance field reference: private System.Action startGameOrReadyEvent
-    ::System::Action*& dyn_startGameOrReadyEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_startGameOrReadyEvent();
     // Get instance field reference: private System.Action cancelGameOrUnreadyEvent
-    ::System::Action*& dyn_cancelGameOrUnreadyEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_cancelGameOrUnreadyEvent();
     // Get instance field reference: private System.Action clearSuggestedBeatmapEvent
-    ::System::Action*& dyn_clearSuggestedBeatmapEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_clearSuggestedBeatmapEvent();
     // Get instance field reference: private System.Action clearSuggestedModifiersEvent
-    ::System::Action*& dyn_clearSuggestedModifiersEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_clearSuggestedModifiersEvent();
     // Get instance field reference: private System.Boolean _isPartyOwner
-    bool& dyn__isPartyOwner();
+    [[deprecated("Use field access instead!")]] bool& dyn__isPartyOwner();
     // Get instance field reference: private System.Boolean _isQuickStart
-    bool& dyn__isQuickStart();
+    [[deprecated("Use field access instead!")]] bool& dyn__isQuickStart();
     // public System.Void add_selectBeatmapEvent(System.Action value)
-    // Offset: 0x1523A90
+    // Offset: 0x155B398
     void add_selectBeatmapEvent(::System::Action* value);
     // public System.Void remove_selectBeatmapEvent(System.Action value)
-    // Offset: 0x1523B34
+    // Offset: 0x155B43C
     void remove_selectBeatmapEvent(::System::Action* value);
     // public System.Void add_selectModifiersEvent(System.Action value)
-    // Offset: 0x1523BD8
+    // Offset: 0x155B4E0
     void add_selectModifiersEvent(::System::Action* value);
     // public System.Void remove_selectModifiersEvent(System.Action value)
-    // Offset: 0x1523C7C
+    // Offset: 0x155B584
     void remove_selectModifiersEvent(::System::Action* value);
     // public System.Void add_startGameOrReadyEvent(System.Action value)
-    // Offset: 0x1523D20
+    // Offset: 0x155B628
     void add_startGameOrReadyEvent(::System::Action* value);
     // public System.Void remove_startGameOrReadyEvent(System.Action value)
-    // Offset: 0x1523DC4
+    // Offset: 0x155B6CC
     void remove_startGameOrReadyEvent(::System::Action* value);
     // public System.Void add_cancelGameOrUnreadyEvent(System.Action value)
-    // Offset: 0x1523E68
+    // Offset: 0x155B770
     void add_cancelGameOrUnreadyEvent(::System::Action* value);
     // public System.Void remove_cancelGameOrUnreadyEvent(System.Action value)
-    // Offset: 0x1523F0C
+    // Offset: 0x155B814
     void remove_cancelGameOrUnreadyEvent(::System::Action* value);
     // public System.Void add_clearSuggestedBeatmapEvent(System.Action value)
-    // Offset: 0x1523FB0
+    // Offset: 0x155B8B8
     void add_clearSuggestedBeatmapEvent(::System::Action* value);
     // public System.Void remove_clearSuggestedBeatmapEvent(System.Action value)
-    // Offset: 0x1524054
+    // Offset: 0x155B95C
     void remove_clearSuggestedBeatmapEvent(::System::Action* value);
     // public System.Void add_clearSuggestedModifiersEvent(System.Action value)
-    // Offset: 0x15240F8
+    // Offset: 0x155BA00
     void add_clearSuggestedModifiersEvent(::System::Action* value);
     // public System.Void remove_clearSuggestedModifiersEvent(System.Action value)
-    // Offset: 0x15241A0
+    // Offset: 0x155BAA8
     void remove_clearSuggestedModifiersEvent(::System::Action* value);
-    // public System.Void Setup(BeatmapLevelSelectionMask selectionMask, System.Boolean isPartyOwner, System.Boolean allowSongSelection, System.Boolean allowModifierSelection, System.Boolean isManaged, System.Boolean isQuickStart)
-    // Offset: 0x1524248
-    void Setup(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, bool isPartyOwner, bool allowSongSelection, bool allowModifierSelection, bool isManaged, bool isQuickStart);
-    // public System.Void SetLobbyPlayerData(ILobbyPlayerData lobbyPlayerData)
-    // Offset: 0x1524424
-    void SetLobbyPlayerData(::GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
-    // public System.Void SetPlayersMissingLevelText(System.String playersMissingLevelText)
-    // Offset: 0x1524838
-    void SetPlayersMissingLevelText(::StringW playersMissingLevelText);
-    // public System.Void SetPlayerActiveState(System.Boolean isActive)
-    // Offset: 0x1524814
-    void SetPlayerActiveState(bool isActive);
-    // public System.Void SetStartGameEnabled(CannotStartGameReason cannotStartGameReason)
-    // Offset: 0x152489C
-    void SetStartGameEnabled(::GlobalNamespace::CannotStartGameReason cannotStartGameReason);
-    // public System.Void SetLobbyState(MultiplayerLobbyState lobbyState)
-    // Offset: 0x1524908
-    void SetLobbyState(::GlobalNamespace::MultiplayerLobbyState lobbyState);
-    // private System.Void <DidActivate>b__44_0()
-    // Offset: 0x1524CCC
-    void $DidActivate$b__44_0();
-    // private System.Void <DidActivate>b__44_1()
-    // Offset: 0x1524CE0
-    void $DidActivate$b__44_1();
-    // private System.Void <DidActivate>b__44_2()
-    // Offset: 0x1524CF4
-    void $DidActivate$b__44_2();
-    // private System.Void <DidActivate>b__44_3()
-    // Offset: 0x1524D08
-    void $DidActivate$b__44_3();
-    // private System.Void <DidActivate>b__44_4()
-    // Offset: 0x1524D1C
-    void $DidActivate$b__44_4();
-    // private System.Void <DidActivate>b__44_5()
-    // Offset: 0x1524D30
-    void $DidActivate$b__44_5();
     // public System.Void .ctor()
-    // Offset: 0x1524C64
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x155C56C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LobbySetupViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LobbySetupViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LobbySetupViewController*, creationType>()));
     }
+    // public System.Void Setup(BeatmapLevelSelectionMask selectionMask, System.Boolean isPartyOwner, System.Boolean allowSongSelection, System.Boolean allowModifierSelection, System.Boolean isManaged, System.Boolean isQuickStart)
+    // Offset: 0x155BB50
+    void Setup(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, bool isPartyOwner, bool allowSongSelection, bool allowModifierSelection, bool isManaged, bool isQuickStart);
+    // public System.Void SetLobbyPlayerData(ILobbyPlayerData lobbyPlayerData)
+    // Offset: 0x155BD2C
+    void SetLobbyPlayerData(::GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
+    // public System.Void SetPlayersMissingLevelText(System.String playersMissingLevelText)
+    // Offset: 0x155C140
+    void SetPlayersMissingLevelText(::StringW playersMissingLevelText);
+    // public System.Void SetPlayerActiveState(System.Boolean isActive)
+    // Offset: 0x155C11C
+    void SetPlayerActiveState(bool isActive);
+    // public System.Void SetStartGameEnabled(CannotStartGameReason cannotStartGameReason)
+    // Offset: 0x155C1A4
+    void SetStartGameEnabled(::GlobalNamespace::CannotStartGameReason cannotStartGameReason);
+    // public System.Void SetLobbyState(MultiplayerLobbyState lobbyState)
+    // Offset: 0x155C210
+    void SetLobbyState(::GlobalNamespace::MultiplayerLobbyState lobbyState);
+    // private System.Void <DidActivate>b__44_0()
+    // Offset: 0x155C5D4
+    void $DidActivate$b__44_0();
+    // private System.Void <DidActivate>b__44_1()
+    // Offset: 0x155C5E8
+    void $DidActivate$b__44_1();
+    // private System.Void <DidActivate>b__44_2()
+    // Offset: 0x155C5FC
+    void $DidActivate$b__44_2();
+    // private System.Void <DidActivate>b__44_3()
+    // Offset: 0x155C610
+    void $DidActivate$b__44_3();
+    // private System.Void <DidActivate>b__44_4()
+    // Offset: 0x155C624
+    void $DidActivate$b__44_4();
+    // private System.Void <DidActivate>b__44_5()
+    // Offset: 0x155C638
+    void $DidActivate$b__44_5();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x15249FC
+    // Offset: 0x155C304
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1524C48
+    // Offset: 0x155C550
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
@@ -501,6 +486,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbySetupViewController*), "remove_clearSuggestedModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LobbySetupViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LobbySetupViewController::Setup
 // Il2CppName: Setup
 template<>
@@ -608,10 +597,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbySetupViewController*), "<DidActivate>b__44_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LobbySetupViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LobbySetupViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

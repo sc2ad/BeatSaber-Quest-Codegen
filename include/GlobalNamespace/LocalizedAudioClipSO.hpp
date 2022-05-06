@@ -43,15 +43,7 @@ namespace GlobalNamespace {
     class LocalizedAudioClipInfo;
     // Nested type: ::GlobalNamespace::LocalizedAudioClipSO::$$c__DisplayClass4_0
     class $$c__DisplayClass4_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private LocalizedAudioClipSO/LocalizedAudioClipInfo[] _localizedAudioClipInfo
     // Size: 0x8
     // Offset: 0x18
@@ -68,18 +60,14 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private LocalizedAudioClipSO/LocalizedAudioClipInfo[] _localizedAudioClipInfo
-    ::ArrayW<::GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*>& dyn__localizedAudioClipInfo();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*>& dyn__localizedAudioClipInfo();
     // Get instance field reference: private LocalizedAudioClipSO/LocalizedAudioClipInfo _lastLocalizedAudioClipInfo
-    ::GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*& dyn__lastLocalizedAudioClipInfo();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*& dyn__lastLocalizedAudioClipInfo();
     // public UnityEngine.AudioClip get_localizedAudioClip()
-    // Offset: 0x152F5FC
+    // Offset: 0x1566F04
     ::UnityEngine::AudioClip* get_localizedAudioClip();
     // public System.Void .ctor()
-    // Offset: 0x152F6F4
-    // Implemented from: UnityEngine.ScriptableObject
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1566FFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizedAudioClipSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalizedAudioClipSO::.ctor");

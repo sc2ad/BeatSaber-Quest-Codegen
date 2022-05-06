@@ -112,31 +112,31 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.IntPtr m_pVRSystem
-    ::System::IntPtr& dyn_m_pVRSystem();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_pVRSystem();
     // Get instance field reference: public System.IntPtr m_pVRChaperone
-    ::System::IntPtr& dyn_m_pVRChaperone();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_pVRChaperone();
     // Get instance field reference: public System.IntPtr m_pVRChaperoneSetup
-    ::System::IntPtr& dyn_m_pVRChaperoneSetup();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_pVRChaperoneSetup();
     // Get instance field reference: public System.IntPtr m_pVRCompositor
-    ::System::IntPtr& dyn_m_pVRCompositor();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_pVRCompositor();
     // Get instance field reference: public System.IntPtr m_pVROverlay
-    ::System::IntPtr& dyn_m_pVROverlay();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_pVROverlay();
     // Get instance field reference: public System.IntPtr m_pVRResources
-    ::System::IntPtr& dyn_m_pVRResources();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_pVRResources();
     // Get instance field reference: public System.IntPtr m_pVRRenderModels
-    ::System::IntPtr& dyn_m_pVRRenderModels();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_pVRRenderModels();
     // Get instance field reference: public System.IntPtr m_pVRExtendedDisplay
-    ::System::IntPtr& dyn_m_pVRExtendedDisplay();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_pVRExtendedDisplay();
     // Get instance field reference: public System.IntPtr m_pVRSettings
-    ::System::IntPtr& dyn_m_pVRSettings();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_pVRSettings();
     // Get instance field reference: public System.IntPtr m_pVRApplications
-    ::System::IntPtr& dyn_m_pVRApplications();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_pVRApplications();
     // Get instance field reference: public System.IntPtr m_pVRTrackedCamera
-    ::System::IntPtr& dyn_m_pVRTrackedCamera();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_pVRTrackedCamera();
     // Get instance field reference: public System.IntPtr m_pVRScreenshots
-    ::System::IntPtr& dyn_m_pVRScreenshots();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_pVRScreenshots();
     // Get instance field reference: public System.IntPtr m_pVRDriverManager
-    ::System::IntPtr& dyn_m_pVRDriverManager();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_pVRDriverManager();
   }; // Valve.VR.COpenVRContext
   #pragma pack(pop)
   static check_size<sizeof(COpenVRContext), 96 + sizeof(::System::IntPtr)> __Valve_VR_COpenVRContextSizeCheck;

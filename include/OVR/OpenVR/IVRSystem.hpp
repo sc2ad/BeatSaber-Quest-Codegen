@@ -413,99 +413,99 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetRecommendedRenderTargetSize GetRecommendedRenderTargetSize
-    ::OVR::OpenVR::IVRSystem::_GetRecommendedRenderTargetSize*& dyn_GetRecommendedRenderTargetSize();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetRecommendedRenderTargetSize*& dyn_GetRecommendedRenderTargetSize();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetProjectionMatrix GetProjectionMatrix
-    ::OVR::OpenVR::IVRSystem::_GetProjectionMatrix*& dyn_GetProjectionMatrix();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetProjectionMatrix*& dyn_GetProjectionMatrix();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetProjectionRaw GetProjectionRaw
-    ::OVR::OpenVR::IVRSystem::_GetProjectionRaw*& dyn_GetProjectionRaw();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetProjectionRaw*& dyn_GetProjectionRaw();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._ComputeDistortion ComputeDistortion
-    ::OVR::OpenVR::IVRSystem::_ComputeDistortion*& dyn_ComputeDistortion();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_ComputeDistortion*& dyn_ComputeDistortion();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetEyeToHeadTransform GetEyeToHeadTransform
-    ::OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform*& dyn_GetEyeToHeadTransform();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform*& dyn_GetEyeToHeadTransform();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetTimeSinceLastVsync GetTimeSinceLastVsync
-    ::OVR::OpenVR::IVRSystem::_GetTimeSinceLastVsync*& dyn_GetTimeSinceLastVsync();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetTimeSinceLastVsync*& dyn_GetTimeSinceLastVsync();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetD3D9AdapterIndex GetD3D9AdapterIndex
-    ::OVR::OpenVR::IVRSystem::_GetD3D9AdapterIndex*& dyn_GetD3D9AdapterIndex();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetD3D9AdapterIndex*& dyn_GetD3D9AdapterIndex();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetDXGIOutputInfo GetDXGIOutputInfo
-    ::OVR::OpenVR::IVRSystem::_GetDXGIOutputInfo*& dyn_GetDXGIOutputInfo();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetDXGIOutputInfo*& dyn_GetDXGIOutputInfo();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetOutputDevice GetOutputDevice
-    ::OVR::OpenVR::IVRSystem::_GetOutputDevice*& dyn_GetOutputDevice();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetOutputDevice*& dyn_GetOutputDevice();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._IsDisplayOnDesktop IsDisplayOnDesktop
-    ::OVR::OpenVR::IVRSystem::_IsDisplayOnDesktop*& dyn_IsDisplayOnDesktop();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_IsDisplayOnDesktop*& dyn_IsDisplayOnDesktop();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._SetDisplayVisibility SetDisplayVisibility
-    ::OVR::OpenVR::IVRSystem::_SetDisplayVisibility*& dyn_SetDisplayVisibility();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_SetDisplayVisibility*& dyn_SetDisplayVisibility();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetDeviceToAbsoluteTrackingPose GetDeviceToAbsoluteTrackingPose
-    ::OVR::OpenVR::IVRSystem::_GetDeviceToAbsoluteTrackingPose*& dyn_GetDeviceToAbsoluteTrackingPose();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetDeviceToAbsoluteTrackingPose*& dyn_GetDeviceToAbsoluteTrackingPose();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._ResetSeatedZeroPose ResetSeatedZeroPose
-    ::OVR::OpenVR::IVRSystem::_ResetSeatedZeroPose*& dyn_ResetSeatedZeroPose();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_ResetSeatedZeroPose*& dyn_ResetSeatedZeroPose();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetSeatedZeroPoseToStandingAbsoluteTrackingPose GetSeatedZeroPoseToStandingAbsoluteTrackingPose
-    ::OVR::OpenVR::IVRSystem::_GetSeatedZeroPoseToStandingAbsoluteTrackingPose*& dyn_GetSeatedZeroPoseToStandingAbsoluteTrackingPose();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetSeatedZeroPoseToStandingAbsoluteTrackingPose*& dyn_GetSeatedZeroPoseToStandingAbsoluteTrackingPose();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetRawZeroPoseToStandingAbsoluteTrackingPose GetRawZeroPoseToStandingAbsoluteTrackingPose
-    ::OVR::OpenVR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose*& dyn_GetRawZeroPoseToStandingAbsoluteTrackingPose();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose*& dyn_GetRawZeroPoseToStandingAbsoluteTrackingPose();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetSortedTrackedDeviceIndicesOfClass GetSortedTrackedDeviceIndicesOfClass
-    ::OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass*& dyn_GetSortedTrackedDeviceIndicesOfClass();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass*& dyn_GetSortedTrackedDeviceIndicesOfClass();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetTrackedDeviceActivityLevel GetTrackedDeviceActivityLevel
-    ::OVR::OpenVR::IVRSystem::_GetTrackedDeviceActivityLevel*& dyn_GetTrackedDeviceActivityLevel();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetTrackedDeviceActivityLevel*& dyn_GetTrackedDeviceActivityLevel();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._ApplyTransform ApplyTransform
-    ::OVR::OpenVR::IVRSystem::_ApplyTransform*& dyn_ApplyTransform();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_ApplyTransform*& dyn_ApplyTransform();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetTrackedDeviceIndexForControllerRole GetTrackedDeviceIndexForControllerRole
-    ::OVR::OpenVR::IVRSystem::_GetTrackedDeviceIndexForControllerRole*& dyn_GetTrackedDeviceIndexForControllerRole();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetTrackedDeviceIndexForControllerRole*& dyn_GetTrackedDeviceIndexForControllerRole();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetControllerRoleForTrackedDeviceIndex GetControllerRoleForTrackedDeviceIndex
-    ::OVR::OpenVR::IVRSystem::_GetControllerRoleForTrackedDeviceIndex*& dyn_GetControllerRoleForTrackedDeviceIndex();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetControllerRoleForTrackedDeviceIndex*& dyn_GetControllerRoleForTrackedDeviceIndex();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetTrackedDeviceClass GetTrackedDeviceClass
-    ::OVR::OpenVR::IVRSystem::_GetTrackedDeviceClass*& dyn_GetTrackedDeviceClass();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetTrackedDeviceClass*& dyn_GetTrackedDeviceClass();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._IsTrackedDeviceConnected IsTrackedDeviceConnected
-    ::OVR::OpenVR::IVRSystem::_IsTrackedDeviceConnected*& dyn_IsTrackedDeviceConnected();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_IsTrackedDeviceConnected*& dyn_IsTrackedDeviceConnected();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetBoolTrackedDeviceProperty GetBoolTrackedDeviceProperty
-    ::OVR::OpenVR::IVRSystem::_GetBoolTrackedDeviceProperty*& dyn_GetBoolTrackedDeviceProperty();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetBoolTrackedDeviceProperty*& dyn_GetBoolTrackedDeviceProperty();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetFloatTrackedDeviceProperty GetFloatTrackedDeviceProperty
-    ::OVR::OpenVR::IVRSystem::_GetFloatTrackedDeviceProperty*& dyn_GetFloatTrackedDeviceProperty();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetFloatTrackedDeviceProperty*& dyn_GetFloatTrackedDeviceProperty();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetInt32TrackedDeviceProperty GetInt32TrackedDeviceProperty
-    ::OVR::OpenVR::IVRSystem::_GetInt32TrackedDeviceProperty*& dyn_GetInt32TrackedDeviceProperty();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetInt32TrackedDeviceProperty*& dyn_GetInt32TrackedDeviceProperty();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetUint64TrackedDeviceProperty GetUint64TrackedDeviceProperty
-    ::OVR::OpenVR::IVRSystem::_GetUint64TrackedDeviceProperty*& dyn_GetUint64TrackedDeviceProperty();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetUint64TrackedDeviceProperty*& dyn_GetUint64TrackedDeviceProperty();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetMatrix34TrackedDeviceProperty GetMatrix34TrackedDeviceProperty
-    ::OVR::OpenVR::IVRSystem::_GetMatrix34TrackedDeviceProperty*& dyn_GetMatrix34TrackedDeviceProperty();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetMatrix34TrackedDeviceProperty*& dyn_GetMatrix34TrackedDeviceProperty();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetArrayTrackedDeviceProperty GetArrayTrackedDeviceProperty
-    ::OVR::OpenVR::IVRSystem::_GetArrayTrackedDeviceProperty*& dyn_GetArrayTrackedDeviceProperty();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetArrayTrackedDeviceProperty*& dyn_GetArrayTrackedDeviceProperty();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetStringTrackedDeviceProperty GetStringTrackedDeviceProperty
-    ::OVR::OpenVR::IVRSystem::_GetStringTrackedDeviceProperty*& dyn_GetStringTrackedDeviceProperty();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetStringTrackedDeviceProperty*& dyn_GetStringTrackedDeviceProperty();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetPropErrorNameFromEnum GetPropErrorNameFromEnum
-    ::OVR::OpenVR::IVRSystem::_GetPropErrorNameFromEnum*& dyn_GetPropErrorNameFromEnum();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetPropErrorNameFromEnum*& dyn_GetPropErrorNameFromEnum();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._PollNextEvent PollNextEvent
-    ::OVR::OpenVR::IVRSystem::_PollNextEvent*& dyn_PollNextEvent();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_PollNextEvent*& dyn_PollNextEvent();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._PollNextEventWithPose PollNextEventWithPose
-    ::OVR::OpenVR::IVRSystem::_PollNextEventWithPose*& dyn_PollNextEventWithPose();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_PollNextEventWithPose*& dyn_PollNextEventWithPose();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetEventTypeNameFromEnum GetEventTypeNameFromEnum
-    ::OVR::OpenVR::IVRSystem::_GetEventTypeNameFromEnum*& dyn_GetEventTypeNameFromEnum();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetEventTypeNameFromEnum*& dyn_GetEventTypeNameFromEnum();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetHiddenAreaMesh GetHiddenAreaMesh
-    ::OVR::OpenVR::IVRSystem::_GetHiddenAreaMesh*& dyn_GetHiddenAreaMesh();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetHiddenAreaMesh*& dyn_GetHiddenAreaMesh();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetControllerState GetControllerState
-    ::OVR::OpenVR::IVRSystem::_GetControllerState*& dyn_GetControllerState();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetControllerState*& dyn_GetControllerState();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetControllerStateWithPose GetControllerStateWithPose
-    ::OVR::OpenVR::IVRSystem::_GetControllerStateWithPose*& dyn_GetControllerStateWithPose();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetControllerStateWithPose*& dyn_GetControllerStateWithPose();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._TriggerHapticPulse TriggerHapticPulse
-    ::OVR::OpenVR::IVRSystem::_TriggerHapticPulse*& dyn_TriggerHapticPulse();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_TriggerHapticPulse*& dyn_TriggerHapticPulse();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetButtonIdNameFromEnum GetButtonIdNameFromEnum
-    ::OVR::OpenVR::IVRSystem::_GetButtonIdNameFromEnum*& dyn_GetButtonIdNameFromEnum();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetButtonIdNameFromEnum*& dyn_GetButtonIdNameFromEnum();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetControllerAxisTypeNameFromEnum GetControllerAxisTypeNameFromEnum
-    ::OVR::OpenVR::IVRSystem::_GetControllerAxisTypeNameFromEnum*& dyn_GetControllerAxisTypeNameFromEnum();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetControllerAxisTypeNameFromEnum*& dyn_GetControllerAxisTypeNameFromEnum();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._IsInputAvailable IsInputAvailable
-    ::OVR::OpenVR::IVRSystem::_IsInputAvailable*& dyn_IsInputAvailable();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_IsInputAvailable*& dyn_IsInputAvailable();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._IsSteamVRDrawingControllers IsSteamVRDrawingControllers
-    ::OVR::OpenVR::IVRSystem::_IsSteamVRDrawingControllers*& dyn_IsSteamVRDrawingControllers();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_IsSteamVRDrawingControllers*& dyn_IsSteamVRDrawingControllers();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._ShouldApplicationPause ShouldApplicationPause
-    ::OVR::OpenVR::IVRSystem::_ShouldApplicationPause*& dyn_ShouldApplicationPause();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_ShouldApplicationPause*& dyn_ShouldApplicationPause();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._ShouldApplicationReduceRenderingWork ShouldApplicationReduceRenderingWork
-    ::OVR::OpenVR::IVRSystem::_ShouldApplicationReduceRenderingWork*& dyn_ShouldApplicationReduceRenderingWork();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_ShouldApplicationReduceRenderingWork*& dyn_ShouldApplicationReduceRenderingWork();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._DriverDebugRequest DriverDebugRequest
-    ::OVR::OpenVR::IVRSystem::_DriverDebugRequest*& dyn_DriverDebugRequest();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_DriverDebugRequest*& dyn_DriverDebugRequest();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._PerformFirmwareUpdate PerformFirmwareUpdate
-    ::OVR::OpenVR::IVRSystem::_PerformFirmwareUpdate*& dyn_PerformFirmwareUpdate();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_PerformFirmwareUpdate*& dyn_PerformFirmwareUpdate();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._AcknowledgeQuit_Exiting AcknowledgeQuit_Exiting
-    ::OVR::OpenVR::IVRSystem::_AcknowledgeQuit_Exiting*& dyn_AcknowledgeQuit_Exiting();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_AcknowledgeQuit_Exiting*& dyn_AcknowledgeQuit_Exiting();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._AcknowledgeQuit_UserPrompt AcknowledgeQuit_UserPrompt
-    ::OVR::OpenVR::IVRSystem::_AcknowledgeQuit_UserPrompt*& dyn_AcknowledgeQuit_UserPrompt();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_AcknowledgeQuit_UserPrompt*& dyn_AcknowledgeQuit_UserPrompt();
   }; // OVR.OpenVR.IVRSystem
   #pragma pack(pop)
   static check_size<sizeof(IVRSystem), 368 + sizeof(::OVR::OpenVR::IVRSystem::_AcknowledgeQuit_UserPrompt*)> __OVR_OpenVR_IVRSystemSizeCheck;

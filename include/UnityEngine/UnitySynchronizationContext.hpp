@@ -81,30 +81,22 @@ namespace UnityEngine {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: private readonly System.Threading.SendOrPostCallback m_DelagateCallback
-      ::System::Threading::SendOrPostCallback*& dyn_m_DelagateCallback();
+      [[deprecated("Use field access instead!")]] ::System::Threading::SendOrPostCallback*& dyn_m_DelagateCallback();
       // Get instance field reference: private readonly System.Object m_DelagateState
-      ::Il2CppObject*& dyn_m_DelagateState();
+      [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_m_DelagateState();
       // Get instance field reference: private readonly System.Threading.ManualResetEvent m_WaitHandle
-      ::System::Threading::ManualResetEvent*& dyn_m_WaitHandle();
+      [[deprecated("Use field access instead!")]] ::System::Threading::ManualResetEvent*& dyn_m_WaitHandle();
       // public System.Void .ctor(System.Threading.SendOrPostCallback callback, System.Object state, System.Threading.ManualResetEvent waitHandle)
-      // Offset: 0x2778250
+      // Offset: 0x27C8760
       // ABORTED: conflicts with another method.  WorkRequest(::System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state, ::System::Threading::ManualResetEvent* waitHandle);
       // public System.Void Invoke()
-      // Offset: 0x2778510
+      // Offset: 0x27C8A20
       void Invoke();
     }; // UnityEngine.UnitySynchronizationContext/UnityEngine.WorkRequest
     #pragma pack(pop)
     static check_size<sizeof(UnitySynchronizationContext::WorkRequest), 16 + sizeof(::System::Threading::ManualResetEvent*)> __UnityEngine_UnitySynchronizationContext_WorkRequestSizeCheck;
     static_assert(sizeof(UnitySynchronizationContext::WorkRequest) == 0x18);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.List`1<UnityEngine.UnitySynchronizationContext/UnityEngine.WorkRequest> m_AsyncWorkQueue
     // Size: 0x8
     // Offset: 0x18
@@ -133,64 +125,64 @@ namespace UnityEngine {
     // Deleting conversion operator: operator ::System::Threading::SynchronizationContextProperties
     constexpr operator ::System::Threading::SynchronizationContextProperties() const noexcept = delete;
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.UnitySynchronizationContext/UnityEngine.WorkRequest> m_AsyncWorkQueue
-    ::System::Collections::Generic::List_1<::UnityEngine::UnitySynchronizationContext::WorkRequest>*& dyn_m_AsyncWorkQueue();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::UnitySynchronizationContext::WorkRequest>*& dyn_m_AsyncWorkQueue();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.UnitySynchronizationContext/UnityEngine.WorkRequest> m_CurrentFrameWork
-    ::System::Collections::Generic::List_1<::UnityEngine::UnitySynchronizationContext::WorkRequest>*& dyn_m_CurrentFrameWork();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::UnitySynchronizationContext::WorkRequest>*& dyn_m_CurrentFrameWork();
     // Get instance field reference: private readonly System.Int32 m_MainThreadID
-    int& dyn_m_MainThreadID();
+    [[deprecated("Use field access instead!")]] int& dyn_m_MainThreadID();
     // Get instance field reference: private System.Int32 m_TrackedCount
-    int& dyn_m_TrackedCount();
+    [[deprecated("Use field access instead!")]] int& dyn_m_TrackedCount();
     // private System.Void .ctor(System.Int32 mainThreadID)
-    // Offset: 0x2777ED0
+    // Offset: 0x27C83E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnitySynchronizationContext* New_ctor(int mainThreadID) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UnitySynchronizationContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnitySynchronizationContext*, creationType>(mainThreadID)));
     }
     // private System.Void .ctor(System.Collections.Generic.List`1<UnityEngine.UnitySynchronizationContext/UnityEngine.WorkRequest> queue, System.Int32 mainThreadID)
-    // Offset: 0x2777F80
+    // Offset: 0x27C8490
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnitySynchronizationContext* New_ctor(::System::Collections::Generic::List_1<::UnityEngine::UnitySynchronizationContext::WorkRequest>* queue, int mainThreadID) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UnitySynchronizationContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnitySynchronizationContext*, creationType>(queue, mainThreadID)));
     }
     // private System.Void Exec()
-    // Offset: 0x27783B8
+    // Offset: 0x27C88C8
     void Exec();
     // private System.Boolean HasPendingTasks()
-    // Offset: 0x2778628
+    // Offset: 0x27C8B38
     bool HasPendingTasks();
     // static private System.Void InitializeSynchronizationContext()
-    // Offset: 0x2778690
+    // Offset: 0x27C8BA0
     static void InitializeSynchronizationContext();
     // static private System.Void ExecuteTasks()
-    // Offset: 0x2778710
+    // Offset: 0x27C8C20
     static void ExecuteTasks();
     // static private System.Boolean ExecutePendingTasks(System.Int64 millisecondsTimeout)
-    // Offset: 0x2778788
+    // Offset: 0x27C8C98
     static bool ExecutePendingTasks(int64_t millisecondsTimeout);
     // public override System.Void Send(System.Threading.SendOrPostCallback callback, System.Object state)
-    // Offset: 0x2778014
+    // Offset: 0x27C8524
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::Send(System.Threading.SendOrPostCallback callback, System.Object state)
     void Send(::System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state);
     // public override System.Void OperationStarted()
-    // Offset: 0x277825C
+    // Offset: 0x27C876C
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::OperationStarted()
     void OperationStarted();
     // public override System.Void OperationCompleted()
-    // Offset: 0x2778268
+    // Offset: 0x27C8778
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::OperationCompleted()
     void OperationCompleted();
     // public override System.Void Post(System.Threading.SendOrPostCallback callback, System.Object state)
-    // Offset: 0x2778274
+    // Offset: 0x27C8784
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::Post(System.Threading.SendOrPostCallback callback, System.Object state)
     void Post(::System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state);
     // public override System.Threading.SynchronizationContext CreateCopy()
-    // Offset: 0x2778344
+    // Offset: 0x27C8854
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Threading.SynchronizationContext SynchronizationContext::CreateCopy()
     ::System::Threading::SynchronizationContext* CreateCopy();

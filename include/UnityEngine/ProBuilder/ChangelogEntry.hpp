@@ -34,15 +34,7 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class ChangelogEntry : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.ProBuilder.SemVer m_VersionInfo
     // Size: 0x8
     // Offset: 0x10
@@ -57,24 +49,24 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.ProBuilder.SemVer m_VersionInfo
-    ::UnityEngine::ProBuilder::SemVer*& dyn_m_VersionInfo();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::SemVer*& dyn_m_VersionInfo();
     // Get instance field reference: private System.String m_ReleaseNotes
-    ::StringW& dyn_m_ReleaseNotes();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_ReleaseNotes();
     // public UnityEngine.ProBuilder.SemVer get_versionInfo()
-    // Offset: 0x24B5B44
+    // Offset: 0x2501608
     ::UnityEngine::ProBuilder::SemVer* get_versionInfo();
     // public System.String get_releaseNotes()
-    // Offset: 0x24B5B4C
+    // Offset: 0x2501610
     ::StringW get_releaseNotes();
     // public System.Void .ctor(UnityEngine.ProBuilder.SemVer version, System.String releaseNotes)
-    // Offset: 0x24B5B0C
+    // Offset: 0x25015D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChangelogEntry* New_ctor(::UnityEngine::ProBuilder::SemVer* version, ::StringW releaseNotes) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ChangelogEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChangelogEntry*, creationType>(version, releaseNotes)));
     }
     // public override System.String ToString()
-    // Offset: 0x24B5B54
+    // Offset: 0x2501618
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

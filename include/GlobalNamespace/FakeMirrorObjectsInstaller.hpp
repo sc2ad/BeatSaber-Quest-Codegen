@@ -47,16 +47,8 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::FakeMirrorObjectsInstaller::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [SpaceAttribute] Offset: 0x1257160
+    // [SpaceAttribute] Offset: 0x10DBD44
     // private MirroredGameNoteController _mirroredGameNoteControllerPrefab
     // Size: 0x8
     // Offset: 0x20
@@ -99,7 +91,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MirroredSliderController* mirroredSliderControllerPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MirroredSliderController*) == 0x8);
-    // [SpaceAttribute] Offset: 0x12571F8
+    // [SpaceAttribute] Offset: 0x10DBDDC
     // private IntSO _mirrorGraphicsSettings
     // Size: 0x8
     // Offset: 0x58
@@ -114,43 +106,35 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*) == 0x8);
     public:
     // Get instance field reference: private MirroredGameNoteController _mirroredGameNoteControllerPrefab
-    ::GlobalNamespace::MirroredGameNoteController*& dyn__mirroredGameNoteControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MirroredGameNoteController*& dyn__mirroredGameNoteControllerPrefab();
     // Get instance field reference: private MirroredGameNoteController _mirroredBurstSliderHeadGameNoteControllerPrefab
-    ::GlobalNamespace::MirroredGameNoteController*& dyn__mirroredBurstSliderHeadGameNoteControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MirroredGameNoteController*& dyn__mirroredBurstSliderHeadGameNoteControllerPrefab();
     // Get instance field reference: private MirroredGameNoteController _mirroredBurstSliderGameNoteControllerPrefab
-    ::GlobalNamespace::MirroredGameNoteController*& dyn__mirroredBurstSliderGameNoteControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MirroredGameNoteController*& dyn__mirroredBurstSliderGameNoteControllerPrefab();
     // Get instance field reference: private MirroredGameNoteController _mirroredBurstSliderFillControllerPrefab
-    ::GlobalNamespace::MirroredGameNoteController*& dyn__mirroredBurstSliderFillControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MirroredGameNoteController*& dyn__mirroredBurstSliderFillControllerPrefab();
     // Get instance field reference: private MirroredBombNoteController _mirroredBombNoteControllerPrefab
-    ::GlobalNamespace::MirroredBombNoteController*& dyn__mirroredBombNoteControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MirroredBombNoteController*& dyn__mirroredBombNoteControllerPrefab();
     // Get instance field reference: private MirroredObstacleController _mirroredObstacleControllerPrefab
-    ::GlobalNamespace::MirroredObstacleController*& dyn__mirroredObstacleControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MirroredObstacleController*& dyn__mirroredObstacleControllerPrefab();
     // Get instance field reference: private MirroredSliderController _mirroredSliderControllerPrefab
-    ::GlobalNamespace::MirroredSliderController*& dyn__mirroredSliderControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MirroredSliderController*& dyn__mirroredSliderControllerPrefab();
     // Get instance field reference: private IntSO _mirrorGraphicsSettings
-    ::GlobalNamespace::IntSO*& dyn__mirrorGraphicsSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IntSO*& dyn__mirrorGraphicsSettings();
     // Get instance field reference: private MirrorRendererGraphicsSettingsPresets _mirrorRendererGraphicsSettingsPresets
-    ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*& dyn__mirrorRendererGraphicsSettingsPresets();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*& dyn__mirrorRendererGraphicsSettingsPresets();
     // public MirroredGameNoteController get_mirroredGameNoteControllerPrefab()
-    // Offset: 0x138AADC
+    // Offset: 0x13725F0
     ::GlobalNamespace::MirroredGameNoteController* get_mirroredGameNoteControllerPrefab();
     // public System.Void .ctor()
-    // Offset: 0x138AFA4
-    // Implemented from: Zenject.MonoInstaller
-    // Base method: System.Void MonoInstaller::.ctor()
-    // Base method: System.Void MonoInstallerBase::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1372AB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FakeMirrorObjectsInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FakeMirrorObjectsInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FakeMirrorObjectsInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x138AAE4
+    // Offset: 0x13725F8
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

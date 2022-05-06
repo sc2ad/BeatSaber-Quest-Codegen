@@ -45,15 +45,7 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   class CADMethodRef : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean ctor
     // Size: 0x1
     // Offset: 0x10
@@ -88,27 +80,27 @@ namespace System::Runtime::Remoting::Messaging {
     static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     public:
     // Get instance field reference: private System.Boolean ctor
-    bool& dyn_ctor();
+    [[deprecated("Use field access instead!")]] bool& dyn_ctor();
     // Get instance field reference: private System.String typeName
-    ::StringW& dyn_typeName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_typeName();
     // Get instance field reference: private System.String methodName
-    ::StringW& dyn_methodName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_methodName();
     // Get instance field reference: private System.String[] param_names
-    ::ArrayW<::StringW>& dyn_param_names();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_param_names();
     // Get instance field reference: private System.String[] generic_arg_names
-    ::ArrayW<::StringW>& dyn_generic_arg_names();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_generic_arg_names();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodMessage msg)
-    // Offset: 0x1C62E64
+    // Offset: 0x1C80170
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADMethodRef* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* msg) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::CADMethodRef::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CADMethodRef*, creationType>(msg)));
     }
     // private System.Type[] GetTypes(System.String[] typeArray)
-    // Offset: 0x1C65358
+    // Offset: 0x1C82664
     ::ArrayW<::System::Type*> GetTypes(::ArrayW<::StringW> typeArray);
     // public System.Reflection.MethodBase Resolve()
-    // Offset: 0x1C631D0
+    // Offset: 0x1C804DC
     ::System::Reflection::MethodBase* Resolve();
   }; // System.Runtime.Remoting.Messaging.CADMethodRef
   #pragma pack(pop)

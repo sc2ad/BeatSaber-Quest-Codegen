@@ -35,15 +35,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnumerableProxy : public ::Il2CppObject/*, public ::System::Collections::IEnumerable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.IEnumerable inner
     // Size: 0x8
     // Offset: 0x10
@@ -60,16 +52,16 @@ namespace Org::BouncyCastle::Utilities::Collections {
       return inner;
     }
     // Get instance field reference: private readonly System.Collections.IEnumerable inner
-    ::System::Collections::IEnumerable*& dyn_inner();
+    [[deprecated("Use field access instead!")]] ::System::Collections::IEnumerable*& dyn_inner();
     // public System.Void .ctor(System.Collections.IEnumerable inner)
-    // Offset: 0x17D0268
+    // Offset: 0x1809B78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumerableProxy* New_ctor(::System::Collections::IEnumerable* inner) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::Collections::EnumerableProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableProxy*, creationType>(inner)));
     }
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x17D0304
+    // Offset: 0x1809C14
     ::System::Collections::IEnumerator* GetEnumerator();
   }; // Org.BouncyCastle.Utilities.Collections.EnumerableProxy
   #pragma pack(pop)

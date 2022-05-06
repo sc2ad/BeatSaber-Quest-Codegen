@@ -63,7 +63,7 @@ namespace RootMotion::FinalIK {
     // Set static field: static public RootMotion.FinalIK.IKMappingLimb/RootMotion.FinalIK.BoneMapType Bone3
     static void _set_Bone3(::RootMotion::FinalIK::IKMappingLimb::BoneMapType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // RootMotion.FinalIK.IKMappingLimb/RootMotion.FinalIK.BoneMapType
   #pragma pack(pop)
   static check_size<sizeof(IKMappingLimb::BoneMapType), 0 + sizeof(int)> __RootMotion_FinalIK_IKMappingLimb_BoneMapTypeSizeCheck;

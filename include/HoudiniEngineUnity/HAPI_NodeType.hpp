@@ -109,7 +109,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HAPI_NodeType HAPI_NODETYPE_TOP
     static void _set_HAPI_NODETYPE_TOP(::HoudiniEngineUnity::HAPI_NodeType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HAPI_NodeType
   #pragma pack(pop)
   static check_size<sizeof(HAPI_NodeType), 0 + sizeof(int)> __HoudiniEngineUnity_HAPI_NodeTypeSizeCheck;

@@ -76,38 +76,36 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<ObstacleData,MockObstacleData> <>9__0_6
     static void _set_$$9__0_6(::System::Func_2<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::MockObstacleData*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13C473C
+    // Offset: 0x13C0BE8
     static void _cctor();
-    // System.Boolean <ToMockBeatmapData>b__0_0(NoteData nd)
-    // Offset: 0x13C47A8
-    bool $ToMockBeatmapData$b__0_0(::GlobalNamespace::NoteData* nd);
-    // MockNoteData <ToMockBeatmapData>b__0_1(NoteData nd)
-    // Offset: 0x13C47C8
-    ::GlobalNamespace::MockNoteData* $ToMockBeatmapData$b__0_1(::GlobalNamespace::NoteData* nd);
-    // System.Boolean <ToMockBeatmapData>b__0_2(NoteData nd)
-    // Offset: 0x13C47D0
-    bool $ToMockBeatmapData$b__0_2(::GlobalNamespace::NoteData* nd);
-    // MockNoteData <ToMockBeatmapData>b__0_3(NoteData nd)
-    // Offset: 0x13C47F0
-    ::GlobalNamespace::MockNoteData* $ToMockBeatmapData$b__0_3(::GlobalNamespace::NoteData* nd);
-    // System.Boolean <ToMockBeatmapData>b__0_4(NoteData nd)
-    // Offset: 0x13C47F8
-    bool $ToMockBeatmapData$b__0_4(::GlobalNamespace::NoteData* nd);
-    // MockNoteData <ToMockBeatmapData>b__0_5(NoteData nd)
-    // Offset: 0x13C4818
-    ::GlobalNamespace::MockNoteData* $ToMockBeatmapData$b__0_5(::GlobalNamespace::NoteData* nd);
-    // MockObstacleData <ToMockBeatmapData>b__0_6(ObstacleData od)
-    // Offset: 0x13C4820
-    ::GlobalNamespace::MockObstacleData* $ToMockBeatmapData$b__0_6(::GlobalNamespace::ObstacleData* od);
     // public System.Void .ctor()
-    // Offset: 0x13C47A0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13C0C4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockBeatmapDataConverter::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockBeatmapDataConverter::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockBeatmapDataConverter::$$c*, creationType>()));
     }
+    // System.Boolean <ToMockBeatmapData>b__0_0(NoteData nd)
+    // Offset: 0x13C0C54
+    bool $ToMockBeatmapData$b__0_0(::GlobalNamespace::NoteData* nd);
+    // MockNoteData <ToMockBeatmapData>b__0_1(NoteData nd)
+    // Offset: 0x13C0C74
+    ::GlobalNamespace::MockNoteData* $ToMockBeatmapData$b__0_1(::GlobalNamespace::NoteData* nd);
+    // System.Boolean <ToMockBeatmapData>b__0_2(NoteData nd)
+    // Offset: 0x13C0C7C
+    bool $ToMockBeatmapData$b__0_2(::GlobalNamespace::NoteData* nd);
+    // MockNoteData <ToMockBeatmapData>b__0_3(NoteData nd)
+    // Offset: 0x13C0C9C
+    ::GlobalNamespace::MockNoteData* $ToMockBeatmapData$b__0_3(::GlobalNamespace::NoteData* nd);
+    // System.Boolean <ToMockBeatmapData>b__0_4(NoteData nd)
+    // Offset: 0x13C0CA4
+    bool $ToMockBeatmapData$b__0_4(::GlobalNamespace::NoteData* nd);
+    // MockNoteData <ToMockBeatmapData>b__0_5(NoteData nd)
+    // Offset: 0x13C0CC4
+    ::GlobalNamespace::MockNoteData* $ToMockBeatmapData$b__0_5(::GlobalNamespace::NoteData* nd);
+    // MockObstacleData <ToMockBeatmapData>b__0_6(ObstacleData od)
+    // Offset: 0x13C0CCC
+    ::GlobalNamespace::MockObstacleData* $ToMockBeatmapData$b__0_6(::GlobalNamespace::ObstacleData* od);
   }; // MockBeatmapDataConverter/<>c
   #pragma pack(pop)
 }
@@ -120,6 +118,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapDataConverter::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MockBeatmapDataConverter::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_0
 // Il2CppName: <ToMockBeatmapData>b__0_0
 template<>
@@ -183,7 +185,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapDataConverter::$$c*), "<ToMockBeatmapData>b__0_6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{od});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MockBeatmapDataConverter::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

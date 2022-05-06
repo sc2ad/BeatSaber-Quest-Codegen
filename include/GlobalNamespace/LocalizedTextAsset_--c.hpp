@@ -41,20 +41,18 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<LocalizedTextAsset/TextInfo,System.Boolean> <>9__6_0
     static void _set_$$9__6_0(::System::Func_2<::GlobalNamespace::LocalizedTextAsset::TextInfo*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x152FA90
+    // Offset: 0x1567398
     static void _cctor();
-    // System.Boolean <get_localizedText>b__6_0(LocalizedTextAsset/TextInfo t)
-    // Offset: 0x152FAFC
-    bool $get_localizedText$b__6_0(::GlobalNamespace::LocalizedTextAsset::TextInfo* t);
     // public System.Void .ctor()
-    // Offset: 0x152FAF4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15673FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizedTextAsset::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalizedTextAsset::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalizedTextAsset::$$c*, creationType>()));
     }
+    // System.Boolean <get_localizedText>b__6_0(LocalizedTextAsset/TextInfo t)
+    // Offset: 0x1567404
+    bool $get_localizedText$b__6_0(::GlobalNamespace::LocalizedTextAsset::TextInfo* t);
   }; // LocalizedTextAsset/<>c
   #pragma pack(pop)
 }
@@ -67,6 +65,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedTextAsset::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LocalizedTextAsset::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedTextAsset::$$c::$get_localizedText$b__6_0
 // Il2CppName: <get_localizedText>b__6_0
 template<>
@@ -76,7 +78,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedTextAsset::$$c*), "<get_localizedText>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LocalizedTextAsset::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

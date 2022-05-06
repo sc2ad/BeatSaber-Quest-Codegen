@@ -48,15 +48,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7
     class $AnimateToCutoutCoroutine$d__7;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private CutoutEffect[] _cuttoutEffects
     // Size: 0x8
     // Offset: 0x18
@@ -79,45 +71,39 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private CutoutEffect[] _cuttoutEffects
-    ::ArrayW<::GlobalNamespace::CutoutEffect*>& dyn__cuttoutEffects();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::CutoutEffect*>& dyn__cuttoutEffects();
     // Get instance field reference: private UnityEngine.AnimationCurve _transitionCurve
-    ::UnityEngine::AnimationCurve*& dyn__transitionCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__transitionCurve();
     // Get instance field reference: private System.Boolean <animating>k__BackingField
-    bool& dyn_$animating$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$animating$k__BackingField();
     // public System.Boolean get_animating()
-    // Offset: 0x140BDCC
+    // Offset: 0x142BB78
     bool get_animating();
     // private System.Void set_animating(System.Boolean value)
-    // Offset: 0x140BDD4
+    // Offset: 0x142BB80
     void set_animating(bool value);
-    // protected System.Void Start()
-    // Offset: 0x140BDE0
-    void Start();
-    // private System.Collections.IEnumerator AnimateToCutoutCoroutine(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0x140BE60
-    ::System::Collections::IEnumerator* AnimateToCutoutCoroutine(float cutoutStart, float cutoutEnd, float duration);
-    // private System.Void SetCutout(System.Single cutout)
-    // Offset: 0x140BDE8
-    void SetCutout(float cutout);
-    // public System.Void ResetEffect()
-    // Offset: 0x140BFE8
-    void ResetEffect();
-    // public System.Void AnimateCutout(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0x140C018
-    void AnimateCutout(float cutoutStart, float cutoutEnd, float duration);
     // public System.Void .ctor()
-    // Offset: 0x140C078
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x142BE24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CutoutAnimateEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CutoutAnimateEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CutoutAnimateEffect*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x142BB8C
+    void Start();
+    // private System.Collections.IEnumerator AnimateToCutoutCoroutine(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
+    // Offset: 0x142BC0C
+    ::System::Collections::IEnumerator* AnimateToCutoutCoroutine(float cutoutStart, float cutoutEnd, float duration);
+    // private System.Void SetCutout(System.Single cutout)
+    // Offset: 0x142BB94
+    void SetCutout(float cutout);
+    // public System.Void ResetEffect()
+    // Offset: 0x142BD94
+    void ResetEffect();
+    // public System.Void AnimateCutout(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
+    // Offset: 0x142BDC4
+    void AnimateCutout(float cutoutStart, float cutoutEnd, float duration);
   }; // CutoutAnimateEffect
   #pragma pack(pop)
   static check_size<sizeof(CutoutAnimateEffect), 40 + sizeof(bool)> __GlobalNamespace_CutoutAnimateEffectSizeCheck;
@@ -141,6 +127,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CutoutAnimateEffect*), "set_animating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::CutoutAnimateEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CutoutAnimateEffect::Start
 // Il2CppName: Start
 template<>
@@ -188,7 +178,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CutoutAnimateEffect*), "AnimateCutout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cutoutStart, cutoutEnd, duration});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CutoutAnimateEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

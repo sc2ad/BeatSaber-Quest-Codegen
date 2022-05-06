@@ -31,22 +31,14 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestCaseParameters : public ::NUnit::Framework::Internal::TestParameters/*, public ::NUnit::Framework::Interfaces::ITestCaseData*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Object _expectedResult
     // Size: 0x8
     // Offset: 0x38
     ::Il2CppObject* expectedResult;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1244C1C
+    // [DebuggerBrowsableAttribute] Offset: 0x10C9704
     // private System.Boolean <HasExpectedResult>k__BackingField
     // Size: 0x1
     // Offset: 0x40
@@ -59,27 +51,26 @@ namespace NUnit::Framework::Internal {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::ITestCaseData*>(this);
     }
     // Get instance field reference: private System.Object _expectedResult
-    ::Il2CppObject*& dyn__expectedResult();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__expectedResult();
     // Get instance field reference: private System.Boolean <HasExpectedResult>k__BackingField
-    bool& dyn_$HasExpectedResult$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$HasExpectedResult$k__BackingField();
     // public System.Object get_ExpectedResult()
-    // Offset: 0x29B0F50
+    // Offset: 0x2A0CF48
     ::Il2CppObject* get_ExpectedResult();
     // public System.Boolean get_HasExpectedResult()
-    // Offset: 0x29B0F58
+    // Offset: 0x2A0CF50
     bool get_HasExpectedResult();
     // public System.Void .ctor()
-    // Offset: 0x29B0E50
+    // Offset: 0x2A0CE48
     // Implemented from: NUnit.Framework.Internal.TestParameters
     // Base method: System.Void TestParameters::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestCaseParameters* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestCaseParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestCaseParameters*, creationType>()));
     }
     // public System.Void .ctor(System.Object[] args)
-    // Offset: 0x29B0EC4
+    // Offset: 0x2A0CEBC
     // Implemented from: NUnit.Framework.Internal.TestParameters
     // Base method: System.Void TestParameters::.ctor(System.Object[] args)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

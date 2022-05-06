@@ -37,15 +37,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ConnectElements::$$c__DisplayClass3_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Collections.Generic.HashSet`1<System.Int32> appended
     // Size: 0x8
     // Offset: 0x10
@@ -58,25 +50,27 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return appended;
     }
     // Get instance field reference: public System.Collections.Generic.HashSet`1<System.Int32> appended
-    ::System::Collections::Generic::HashSet_1<int>*& dyn_appended();
-    // System.Boolean <Connect>b__3(UnityEngine.ProBuilder.Edge x)
-    // Offset: 0x19EE794
-    bool $Connect$b__3(::UnityEngine::ProBuilder::Edge x);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<int>*& dyn_appended();
     // public System.Void .ctor()
-    // Offset: 0x19EE35C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1A27944
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectElements::$$c__DisplayClass3_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectElements::$$c__DisplayClass3_0*, creationType>()));
     }
+    // System.Boolean <Connect>b__3(UnityEngine.ProBuilder.Edge x)
+    // Offset: 0x1A27D7C
+    bool $Connect$b__3(::UnityEngine::ProBuilder::Edge x);
   }; // UnityEngine.ProBuilder.MeshOperations.ConnectElements/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass3_0
   #pragma pack(pop)
   static check_size<sizeof(ConnectElements::$$c__DisplayClass3_0), 16 + sizeof(::System::Collections::Generic::HashSet_1<int>*)> __UnityEngine_ProBuilder_MeshOperations_ConnectElements_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(ConnectElements::$$c__DisplayClass3_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0::$Connect$b__3
 // Il2CppName: <Connect>b__3
 template<>
@@ -86,7 +80,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0*), "<Connect>b__3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

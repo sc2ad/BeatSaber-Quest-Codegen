@@ -36,15 +36,7 @@ namespace Newtonsoft::Json::Bson {
   // [PreserveAttribute] Offset: FFFFFFFF
   class BsonWriter : public ::Newtonsoft::Json::JsonWriter {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Newtonsoft.Json.Bson.BsonToken _root
     // Size: 0x8
     // Offset: 0x60
@@ -65,22 +57,22 @@ namespace Newtonsoft::Json::Bson {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private Newtonsoft.Json.Bson.BsonToken _root
-    ::Newtonsoft::Json::Bson::BsonToken*& dyn__root();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Bson::BsonToken*& dyn__root();
     // Get instance field reference: private Newtonsoft.Json.Bson.BsonToken _parent
-    ::Newtonsoft::Json::Bson::BsonToken*& dyn__parent();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Bson::BsonToken*& dyn__parent();
     // Get instance field reference: private System.String _propertyName
-    ::StringW& dyn__propertyName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__propertyName();
     // private System.Void AddValue(System.Object value, Newtonsoft.Json.Bson.BsonType type)
-    // Offset: 0x1779A3C
+    // Offset: 0x17B334C
     void AddValue(::Il2CppObject* value, ::Newtonsoft::Json::Bson::BsonType type);
     // System.Void AddToken(Newtonsoft.Json.Bson.BsonToken token)
-    // Offset: 0x1779AB8
+    // Offset: 0x17B33C8
     void AddToken(::Newtonsoft::Json::Bson::BsonToken* token);
     // public System.Void WriteObjectId(System.Byte[] value)
-    // Offset: 0x1779C80
+    // Offset: 0x17B3590
     void WriteObjectId(::ArrayW<uint8_t> value);
     // public System.Void WriteRegex(System.String pattern, System.String options)
-    // Offset: 0x1779D4C
+    // Offset: 0x17B365C
     void WriteRegex(::StringW pattern, ::StringW options);
   }; // Newtonsoft.Json.Bson.BsonWriter
   #pragma pack(pop)

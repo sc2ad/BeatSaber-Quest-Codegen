@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ListColorController : public ::GlobalNamespace::IncDecColorController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _idx
     // Size: 0x4
     // Offset: 0x20
@@ -58,9 +50,9 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Int32 _idx
-    int& dyn__idx();
+    [[deprecated("Use field access instead!")]] int& dyn__idx();
     // Get instance field reference: private System.Int32 _numberOfElements
-    int& dyn__numberOfElements();
+    [[deprecated("Use field access instead!")]] int& dyn__numberOfElements();
     // protected System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
@@ -71,35 +63,30 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Color ColorForValue(int idx);
     // protected System.Void OnEnable()
-    // Offset: 0x1491E00
+    // Offset: 0x14C86B8
     void OnEnable();
     // private System.Void RefreshUI()
-    // Offset: 0x1491E44
+    // Offset: 0x14C86FC
     void RefreshUI();
     // public System.Void Refresh(System.Boolean applyValue)
-    // Offset: 0x1491EAC
+    // Offset: 0x14C8764
     void Refresh(bool applyValue);
     // protected System.Void .ctor()
-    // Offset: 0x1491F9C
+    // Offset: 0x14C8854
     // Implemented from: IncDecColorController
     // Base method: System.Void IncDecColorController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListColorController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ListColorController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListColorController*, creationType>()));
     }
     // protected override System.Void IncButtonPressed()
-    // Offset: 0x1491F0C
+    // Offset: 0x14C87C4
     // Implemented from: IncDecColorController
     // Base method: System.Void IncDecColorController::IncButtonPressed()
     void IncButtonPressed();
     // protected override System.Void DecButtonPressed()
-    // Offset: 0x1491F58
+    // Offset: 0x14C8810
     // Implemented from: IncDecColorController
     // Base method: System.Void IncDecColorController::DecButtonPressed()
     void DecButtonPressed();

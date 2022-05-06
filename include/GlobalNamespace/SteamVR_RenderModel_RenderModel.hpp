@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_RenderModel::RenderModel : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Mesh <mesh>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -55,23 +47,23 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Material*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.Mesh <mesh>k__BackingField
-    ::UnityEngine::Mesh*& dyn_$mesh$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Mesh*& dyn_$mesh$k__BackingField();
     // Get instance field reference: private UnityEngine.Material <material>k__BackingField
-    ::UnityEngine::Material*& dyn_$material$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_$material$k__BackingField();
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x187A048
+    // Offset: 0x18B3958
     ::UnityEngine::Mesh* get_mesh();
     // private System.Void set_mesh(UnityEngine.Mesh value)
-    // Offset: 0x187A050
+    // Offset: 0x18B3960
     void set_mesh(::UnityEngine::Mesh* value);
     // public UnityEngine.Material get_material()
-    // Offset: 0x187A058
+    // Offset: 0x18B3968
     ::UnityEngine::Material* get_material();
     // private System.Void set_material(UnityEngine.Material value)
-    // Offset: 0x187A060
+    // Offset: 0x18B3970
     void set_material(::UnityEngine::Material* value);
     // public System.Void .ctor(UnityEngine.Mesh mesh, UnityEngine.Material material)
-    // Offset: 0x1878F04
+    // Offset: 0x18B2814
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_RenderModel::RenderModel* New_ctor(::UnityEngine::Mesh* mesh, ::UnityEngine::Material* material) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_RenderModel::RenderModel::.ctor");

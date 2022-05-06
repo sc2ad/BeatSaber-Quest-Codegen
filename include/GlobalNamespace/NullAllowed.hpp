@@ -70,20 +70,12 @@ namespace GlobalNamespace {
       // Set static field: static public NullAllowed/Context Prefab
       static void _set_Prefab(::GlobalNamespace::NullAllowed::Context value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // NullAllowed/Context
     #pragma pack(pop)
     static check_size<sizeof(NullAllowed::Context), 0 + sizeof(int)> __GlobalNamespace_NullAllowed_ContextSizeCheck;
     static_assert(sizeof(NullAllowed::Context) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly NullAllowed/Context context
     // Size: 0x4
     // Offset: 0x10
@@ -106,35 +98,31 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: public readonly NullAllowed/Context context
-    ::GlobalNamespace::NullAllowed::Context& dyn_context();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NullAllowed::Context& dyn_context();
     // Get instance field reference: public readonly System.String propertyName
-    ::StringW& dyn_propertyName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_propertyName();
     // Get instance field reference: public readonly System.Object ifNotValue
-    ::Il2CppObject*& dyn_ifNotValue();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_ifNotValue();
+    // public System.Void .ctor()
+    // Offset: 0x2AF16B4
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static NullAllowed* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NullAllowed::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<NullAllowed*, creationType>()));
+    }
     // public System.Void .ctor(NullAllowed/Context context)
-    // Offset: 0x2A9BD6C
+    // Offset: 0x2AF16DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullAllowed* New_ctor(::GlobalNamespace::NullAllowed::Context context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NullAllowed::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullAllowed*, creationType>(context)));
     }
     // public System.Void .ctor(System.String propertyName, System.Object ifNotValue)
-    // Offset: 0x2A9BD98
+    // Offset: 0x2AF1708
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullAllowed* New_ctor(::StringW propertyName, ::Il2CppObject* ifNotValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NullAllowed::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullAllowed*, creationType>(propertyName, ifNotValue)));
-    }
-    // public System.Void .ctor()
-    // Offset: 0x2A9BD44
-    // Implemented from: UnityEngine.PropertyAttribute
-    // Base method: System.Void PropertyAttribute::.ctor()
-    // Base method: System.Void Attribute::.ctor()
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NullAllowed* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NullAllowed::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<NullAllowed*, creationType>()));
     }
   }; // NullAllowed
   #pragma pack(pop)

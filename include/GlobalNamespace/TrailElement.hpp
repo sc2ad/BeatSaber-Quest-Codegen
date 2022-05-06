@@ -28,15 +28,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TrailElement : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Vector3 position
     // Size: 0xC
     // Offset: 0x10
@@ -69,42 +61,44 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public UnityEngine.Vector3 position
-    ::UnityEngine::Vector3& dyn_position();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_position();
     // Get instance field reference: public UnityEngine.Vector3 normal
-    ::UnityEngine::Vector3& dyn_normal();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_normal();
     // Get instance field reference: public System.Single distance
-    float& dyn_distance();
+    [[deprecated("Use field access instead!")]] float& dyn_distance();
     // Get instance field reference: public System.Single localDistance
-    float& dyn_localDistance();
+    [[deprecated("Use field access instead!")]] float& dyn_localDistance();
     // Get instance field reference: public System.Single time
-    float& dyn_time();
-    // public System.Void SetData(UnityEngine.Vector3 start, UnityEngine.Vector3 end, System.Single time)
-    // Offset: 0x133F644
-    void SetData(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float time);
-    // public System.Void CopyFrom(TrailElement other)
-    // Offset: 0x133F744
-    void CopyFrom(::GlobalNamespace::TrailElement* other);
-    // public System.Void SetDistance(System.Single value)
-    // Offset: 0x133F784
-    void SetDistance(float value);
-    // public System.Void UpdateLocalDistance(TrailElement prev)
-    // Offset: 0x133F78C
-    void UpdateLocalDistance(::GlobalNamespace::TrailElement* prev);
+    [[deprecated("Use field access instead!")]] float& dyn_time();
     // public System.Void .ctor()
-    // Offset: 0x133F870
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14217A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrailElement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TrailElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrailElement*, creationType>()));
     }
+    // public System.Void SetData(UnityEngine.Vector3 start, UnityEngine.Vector3 end, System.Single time)
+    // Offset: 0x1421574
+    void SetData(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float time);
+    // public System.Void CopyFrom(TrailElement other)
+    // Offset: 0x1421674
+    void CopyFrom(::GlobalNamespace::TrailElement* other);
+    // public System.Void SetDistance(System.Single value)
+    // Offset: 0x14216B4
+    void SetDistance(float value);
+    // public System.Void UpdateLocalDistance(TrailElement prev)
+    // Offset: 0x14216BC
+    void UpdateLocalDistance(::GlobalNamespace::TrailElement* prev);
   }; // TrailElement
   #pragma pack(pop)
   static check_size<sizeof(TrailElement), 48 + sizeof(float)> __GlobalNamespace_TrailElementSizeCheck;
   static_assert(sizeof(TrailElement) == 0x34);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::TrailElement::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TrailElement::SetData
 // Il2CppName: SetData
 template<>
@@ -143,7 +137,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailElement*), "UpdateLocalDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prev});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TrailElement::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

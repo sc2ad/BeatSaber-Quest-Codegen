@@ -31,16 +31,8 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResultState : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [DebuggerBrowsableAttribute] Offset: 0x124548C
+    // [DebuggerBrowsableAttribute] Offset: 0x10C9F74
     // private NUnit.Framework.Interfaces.TestStatus <Status>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -49,14 +41,14 @@ namespace NUnit::Framework::Interfaces {
     static_assert(sizeof(::NUnit::Framework::Interfaces::TestStatus) == 0x4);
     // Padding between fields: Status and: Label
     char __padding0[0x4] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0x12454C8
+    // [DebuggerBrowsableAttribute] Offset: 0x10C9FB0
     // private System.String <Label>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::StringW Label;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1245504
+    // [DebuggerBrowsableAttribute] Offset: 0x10C9FEC
     // private NUnit.Framework.Interfaces.FailureSite <Site>k__BackingField
     // Size: 0x4
     // Offset: 0x20
@@ -117,68 +109,68 @@ namespace NUnit::Framework::Interfaces {
     // Set static field: static public readonly NUnit.Framework.Interfaces.ResultState TearDownError
     static void _set_TearDownError(::NUnit::Framework::Interfaces::ResultState* value);
     // Get instance field reference: private NUnit.Framework.Interfaces.TestStatus <Status>k__BackingField
-    ::NUnit::Framework::Interfaces::TestStatus& dyn_$Status$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Interfaces::TestStatus& dyn_$Status$k__BackingField();
     // Get instance field reference: private System.String <Label>k__BackingField
-    ::StringW& dyn_$Label$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$Label$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Interfaces.FailureSite <Site>k__BackingField
-    ::NUnit::Framework::Interfaces::FailureSite& dyn_$Site$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Interfaces::FailureSite& dyn_$Site$k__BackingField();
     // public NUnit.Framework.Interfaces.TestStatus get_Status()
-    // Offset: 0x1C4661C
+    // Offset: 0x1C9EBB4
     ::NUnit::Framework::Interfaces::TestStatus get_Status();
     // private System.Void set_Status(NUnit.Framework.Interfaces.TestStatus value)
-    // Offset: 0x1C46624
+    // Offset: 0x1C9EBBC
     void set_Status(::NUnit::Framework::Interfaces::TestStatus value);
     // public System.String get_Label()
-    // Offset: 0x1C4662C
+    // Offset: 0x1C9EBC4
     ::StringW get_Label();
     // private System.Void set_Label(System.String value)
-    // Offset: 0x1C46634
+    // Offset: 0x1C9EBCC
     void set_Label(::StringW value);
     // public NUnit.Framework.Interfaces.FailureSite get_Site()
-    // Offset: 0x1C4663C
+    // Offset: 0x1C9EBD4
     ::NUnit::Framework::Interfaces::FailureSite get_Site();
     // private System.Void set_Site(NUnit.Framework.Interfaces.FailureSite value)
-    // Offset: 0x1C46644
+    // Offset: 0x1C9EBDC
     void set_Site(::NUnit::Framework::Interfaces::FailureSite value);
     // public System.Void .ctor(NUnit.Framework.Interfaces.TestStatus status)
-    // Offset: 0x1C4651C
+    // Offset: 0x1C9EAB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultState* New_ctor(::NUnit::Framework::Interfaces::TestStatus status) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Interfaces::ResultState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResultState*, creationType>(status)));
     }
     // public System.Void .ctor(NUnit.Framework.Interfaces.TestStatus status, System.String label)
-    // Offset: 0x1C46614
+    // Offset: 0x1C9EBAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultState* New_ctor(::NUnit::Framework::Interfaces::TestStatus status, ::StringW label) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Interfaces::ResultState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResultState*, creationType>(status, label)));
     }
     // public System.Void .ctor(NUnit.Framework.Interfaces.TestStatus status, System.String label, NUnit.Framework.Interfaces.FailureSite site)
-    // Offset: 0x1C46588
+    // Offset: 0x1C9EB20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultState* New_ctor(::NUnit::Framework::Interfaces::TestStatus status, ::StringW label, ::NUnit::Framework::Interfaces::FailureSite site) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Interfaces::ResultState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResultState*, creationType>(status, label, site)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1C46A00
+    // Offset: 0x1C9EF98
     static void _cctor();
     // public NUnit.Framework.Interfaces.ResultState WithSite(NUnit.Framework.Interfaces.FailureSite site)
-    // Offset: 0x1C4664C
+    // Offset: 0x1C9EBE4
     ::NUnit::Framework::Interfaces::ResultState* WithSite(::NUnit::Framework::Interfaces::FailureSite site);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1C466C8
+    // Offset: 0x1C9EC60
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1C46854
+    // Offset: 0x1C9EDEC
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1C4689C
+    // Offset: 0x1C9EE34
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

@@ -49,15 +49,7 @@ namespace System::Security::Claims {
   // [TokenAttribute] Offset: FFFFFFFF
   class Claim : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String m_issuer
     // Size: 0x8
     // Offset: 0x10
@@ -114,67 +106,67 @@ namespace System::Security::Claims {
     static_assert(sizeof(::System::Security::Claims::ClaimsIdentity*) == 0x8);
     public:
     // Get instance field reference: private System.String m_issuer
-    ::StringW& dyn_m_issuer();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_issuer();
     // Get instance field reference: private System.String m_originalIssuer
-    ::StringW& dyn_m_originalIssuer();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_originalIssuer();
     // Get instance field reference: private System.String m_type
-    ::StringW& dyn_m_type();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_type();
     // Get instance field reference: private System.String m_value
-    ::StringW& dyn_m_value();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_value();
     // Get instance field reference: private System.String m_valueType
-    ::StringW& dyn_m_valueType();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_valueType();
     // Get instance field reference: private System.Byte[] m_userSerializationData
-    ::ArrayW<uint8_t>& dyn_m_userSerializationData();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_m_userSerializationData();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.String> m_properties
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn_m_properties();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn_m_properties();
     // Get instance field reference: private System.Object m_propertyLock
-    ::Il2CppObject*& dyn_m_propertyLock();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_m_propertyLock();
     // Get instance field reference: private System.Security.Claims.ClaimsIdentity m_subject
-    ::System::Security::Claims::ClaimsIdentity*& dyn_m_subject();
+    [[deprecated("Use field access instead!")]] ::System::Security::Claims::ClaimsIdentity*& dyn_m_subject();
     // public System.Collections.Generic.IDictionary`2<System.String,System.String> get_Properties()
-    // Offset: 0x1B577E8
+    // Offset: 0x1B91DD0
     ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* get_Properties();
     // public System.Security.Claims.ClaimsIdentity get_Subject()
-    // Offset: 0x1B57B94
+    // Offset: 0x1B9217C
     ::System::Security::Claims::ClaimsIdentity* get_Subject();
     // System.Void set_Subject(System.Security.Claims.ClaimsIdentity value)
-    // Offset: 0x1B57B9C
+    // Offset: 0x1B92184
     void set_Subject(::System::Security::Claims::ClaimsIdentity* value);
     // public System.String get_Type()
-    // Offset: 0x1B57BA4
+    // Offset: 0x1B9218C
     ::StringW get_Type();
     // public System.String get_Value()
-    // Offset: 0x1B57BAC
+    // Offset: 0x1B92194
     ::StringW get_Value();
     // public System.Void .ctor(System.String type, System.String value, System.String valueType, System.String issuer, System.String originalIssuer, System.Security.Claims.ClaimsIdentity subject)
-    // Offset: 0x1B5759C
+    // Offset: 0x1B91B84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Claim* New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, ::System::Security::Claims::ClaimsIdentity* subject) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Claims::Claim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Claim*, creationType>(type, value, valueType, issuer, originalIssuer, subject)));
     }
     // System.Void .ctor(System.String type, System.String value, System.String valueType, System.String issuer, System.String originalIssuer, System.Security.Claims.ClaimsIdentity subject, System.String propertyKey, System.String propertyValue)
-    // Offset: 0x1B575C0
+    // Offset: 0x1B91BA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Claim* New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, ::System::Security::Claims::ClaimsIdentity* subject, ::StringW propertyKey, ::StringW propertyValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Claims::Claim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Claim*, creationType>(type, value, valueType, issuer, originalIssuer, subject, propertyKey, propertyValue)));
     }
     // protected System.Void .ctor(System.Security.Claims.Claim other, System.Security.Claims.ClaimsIdentity subject)
-    // Offset: 0x1B578E0
+    // Offset: 0x1B91EC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Claim* New_ctor(::System::Security::Claims::Claim* other, ::System::Security::Claims::ClaimsIdentity* subject) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Claims::Claim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Claim*, creationType>(other, subject)));
     }
     // private System.Void OnDeserializedMethod(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1B57B34
+    // Offset: 0x1B9211C
     void OnDeserializedMethod(::System::Runtime::Serialization::StreamingContext context);
     // public System.Security.Claims.Claim Clone(System.Security.Claims.ClaimsIdentity identity)
-    // Offset: 0x1B57BB4
+    // Offset: 0x1B9219C
     ::System::Security::Claims::Claim* Clone(::System::Security::Claims::ClaimsIdentity* identity);
     // public override System.String ToString()
-    // Offset: 0x1B57C24
+    // Offset: 0x1B9220C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

@@ -78,15 +78,7 @@ namespace GlobalNamespace {
     struct $RefreshAvailabilityAsync$d__19;
     // Nested type: ::GlobalNamespace::LevelPackDetailViewController::$OpenLevelPackProductStoreAsync$d__21
     struct $OpenLevelPackProductStoreAsync$d__21;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.GameObject _detailWrapper
     // Size: 0x8
     // Offset: 0x70
@@ -123,28 +115,28 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* requireInternetContainer;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125B93C
+    // [SpaceAttribute] Offset: 0x10E0520
     // private KawaseBlurRendererSO _kawaseBlurRenderer
     // Size: 0x8
     // Offset: 0xA0
     ::GlobalNamespace::KawaseBlurRendererSO* kawaseBlurRenderer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::KawaseBlurRendererSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x125B974
+    // [InjectAttribute] Offset: 0x10E0558
     // private AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0xA8
     ::GlobalNamespace::AdditionalContentModel* additionalContentModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AdditionalContentModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x125B984
+    // [InjectAttribute] Offset: 0x10E0568
     // private DlcPromoPanelModel _dlcPromoPanelModel
     // Size: 0x8
     // Offset: 0xB0
     ::GlobalNamespace::DlcPromoPanelModel* dlcPromoPanelModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::DlcPromoPanelModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x125B994
+    // [InjectAttribute] Offset: 0x10E0578
     // private IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0xB8
@@ -177,80 +169,73 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.GameObject _detailWrapper
-    ::UnityEngine::GameObject*& dyn__detailWrapper();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__detailWrapper();
     // Get instance field reference: private HMUI.ImageView _packImage
-    ::HMUI::ImageView*& dyn__packImage();
+    [[deprecated("Use field access instead!")]] ::HMUI::ImageView*& dyn__packImage();
     // Get instance field reference: private UnityEngine.UI.Button _buyButton
-    ::UnityEngine::UI::Button*& dyn__buyButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__buyButton();
     // Get instance field reference: private UnityEngine.GameObject _buyContainer
-    ::UnityEngine::GameObject*& dyn__buyContainer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__buyContainer();
     // Get instance field reference: private LoadingControl _loadingControl
-    ::GlobalNamespace::LoadingControl*& dyn__loadingControl();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LoadingControl*& dyn__loadingControl();
     // Get instance field reference: private UnityEngine.GameObject _requireInternetContainer
-    ::UnityEngine::GameObject*& dyn__requireInternetContainer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__requireInternetContainer();
     // Get instance field reference: private KawaseBlurRendererSO _kawaseBlurRenderer
-    ::GlobalNamespace::KawaseBlurRendererSO*& dyn__kawaseBlurRenderer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::KawaseBlurRendererSO*& dyn__kawaseBlurRenderer();
     // Get instance field reference: private AdditionalContentModel _additionalContentModel
-    ::GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
     // Get instance field reference: private DlcPromoPanelModel _dlcPromoPanelModel
-    ::GlobalNamespace::DlcPromoPanelModel*& dyn__dlcPromoPanelModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DlcPromoPanelModel*& dyn__dlcPromoPanelModel();
     // Get instance field reference: private IAnalyticsModel _analyticsModel
-    ::GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
     // Get instance field reference: private EventBinder _eventBinder
-    ::GlobalNamespace::EventBinder*& dyn__eventBinder();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EventBinder*& dyn__eventBinder();
     // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    ::System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // Get instance field reference: private IBeatmapLevelPack _pack
-    ::GlobalNamespace::IBeatmapLevelPack*& dyn__pack();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatmapLevelPack*& dyn__pack();
     // Get instance field reference: private UnityEngine.Sprite _blurredPackArtwork
-    ::UnityEngine::Sprite*& dyn__blurredPackArtwork();
-    // public System.Void SetData(IBeatmapLevelPack pack)
-    // Offset: 0x1485A9C
-    void SetData(::GlobalNamespace::IBeatmapLevelPack* pack);
-    // private System.Void RefreshAvailabilityAsync()
-    // Offset: 0x1485E90
-    void RefreshAvailabilityAsync();
-    // private System.Void BuyPackButtonWasPressed()
-    // Offset: 0x14862B0
-    void BuyPackButtonWasPressed();
-    // private System.Void OpenLevelPackProductStoreAsync()
-    // Offset: 0x14863B4
-    void OpenLevelPackProductStoreAsync();
-    // private System.Void ShowContent(LevelPackDetailViewController/ContentType contentType, System.String errorText)
-    // Offset: 0x1486474
-    void ShowContent(::GlobalNamespace::LevelPackDetailViewController::ContentType contentType, ::StringW errorText);
-    // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x1486884
-    void HandleAdditionalContentModelDidInvalidateData();
-    // private System.Void <DidActivate>b__16_0()
-    // Offset: 0x14868F0
-    void $DidActivate$b__16_0();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__blurredPackArtwork();
     // public System.Void .ctor()
-    // Offset: 0x1486888
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14BD108
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelPackDetailViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelPackDetailViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelPackDetailViewController*, creationType>()));
     }
+    // public System.Void SetData(IBeatmapLevelPack pack)
+    // Offset: 0x14BC31C
+    void SetData(::GlobalNamespace::IBeatmapLevelPack* pack);
+    // private System.Void RefreshAvailabilityAsync()
+    // Offset: 0x14BC710
+    void RefreshAvailabilityAsync();
+    // private System.Void BuyPackButtonWasPressed()
+    // Offset: 0x14BCB30
+    void BuyPackButtonWasPressed();
+    // private System.Void OpenLevelPackProductStoreAsync()
+    // Offset: 0x14BCC34
+    void OpenLevelPackProductStoreAsync();
+    // private System.Void ShowContent(LevelPackDetailViewController/ContentType contentType, System.String errorText)
+    // Offset: 0x14BCCF4
+    void ShowContent(::GlobalNamespace::LevelPackDetailViewController::ContentType contentType, ::StringW errorText);
+    // private System.Void HandleAdditionalContentModelDidInvalidateData()
+    // Offset: 0x14BD104
+    void HandleAdditionalContentModelDidInvalidateData();
+    // private System.Void <DidActivate>b__16_0()
+    // Offset: 0x14BD170
+    void $DidActivate$b__16_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1485F50
+    // Offset: 0x14BC7D0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x14860F8
+    // Offset: 0x14BC978
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x14861A4
+    // Offset: 0x14BCA24
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
@@ -260,6 +245,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelPackDetailViewController) == 0xE0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::LevelPackDetailViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LevelPackDetailViewController::SetData
 // Il2CppName: SetData
 template<>
@@ -319,10 +308,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelPackDetailViewController*), "<DidActivate>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LevelPackDetailViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LevelPackDetailViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

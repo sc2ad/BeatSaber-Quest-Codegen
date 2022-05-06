@@ -46,11 +46,11 @@ namespace Mono::Net {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.IntPtr Location
-    ::System::IntPtr& dyn_Location();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Location();
     // Get instance field reference: public System.IntPtr Length
-    ::System::IntPtr& dyn_Length();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Length();
     // public System.Void .ctor(System.Int32 loc, System.Int32 len)
-    // Offset: 0x1A9B464
+    // Offset: 0x1AD5A4C
     CFRange(int loc, int len);
   }; // Mono.Net.CFRange
   #pragma pack(pop)

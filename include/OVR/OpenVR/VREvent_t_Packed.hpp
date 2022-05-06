@@ -63,18 +63,18 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt32 eventType
-    uint& dyn_eventType();
+    [[deprecated("Use field access instead!")]] uint& dyn_eventType();
     // Get instance field reference: public System.UInt32 trackedDeviceIndex
-    uint& dyn_trackedDeviceIndex();
+    [[deprecated("Use field access instead!")]] uint& dyn_trackedDeviceIndex();
     // Get instance field reference: public System.Single eventAgeSeconds
-    float& dyn_eventAgeSeconds();
+    [[deprecated("Use field access instead!")]] float& dyn_eventAgeSeconds();
     // Get instance field reference: public OVR.OpenVR.VREvent_Data_t data
-    ::OVR::OpenVR::VREvent_Data_t& dyn_data();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::VREvent_Data_t& dyn_data();
     // public System.Void .ctor(OVR.OpenVR.VREvent_t unpacked)
-    // Offset: 0x161A39C
+    // Offset: 0x164FCAC
     VREvent_t_Packed(::OVR::OpenVR::VREvent_t unpacked);
     // public System.Void Unpack(ref OVR.OpenVR.VREvent_t unpacked)
-    // Offset: 0x161A3DC
+    // Offset: 0x164FCEC
     void Unpack(ByRef<::OVR::OpenVR::VREvent_t> unpacked);
   }; // OVR.OpenVR.VREvent_t_Packed
   // WARNING Not writing size check since size may be invalid!

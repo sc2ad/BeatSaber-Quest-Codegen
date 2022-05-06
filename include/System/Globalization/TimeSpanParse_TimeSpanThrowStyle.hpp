@@ -51,7 +51,7 @@ namespace System::Globalization {
     // Set static field: static public System.Globalization.TimeSpanParse/System.Globalization.TimeSpanThrowStyle All
     static void _set_All(::System::Globalization::TimeSpanParse::TimeSpanThrowStyle value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Globalization.TimeSpanParse/System.Globalization.TimeSpanThrowStyle
   #pragma pack(pop)
   static check_size<sizeof(TimeSpanParse::TimeSpanThrowStyle), 0 + sizeof(int)> __System_Globalization_TimeSpanParse_TimeSpanThrowStyleSizeCheck;

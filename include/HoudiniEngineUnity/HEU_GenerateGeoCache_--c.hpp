@@ -53,23 +53,21 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Comparison`1<System.Single> <>9__65_0
     static void _set_$$9__65_0(::System::Comparison_1<float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x175A7E0
+    // Offset: 0x17930F0
     static void _cctor();
-    // System.Boolean <GetFinalMaterialsFromComparingNewWithPrevious>b__63_0(UnityEngine.Material material)
-    // Offset: 0x175A84C
-    bool $GetFinalMaterialsFromComparingNewWithPrevious$b__63_0(::UnityEngine::Material* material);
-    // System.Int32 <GenerateLODMeshesFromGeoGroups>b__65_0(System.Single a, System.Single b)
-    // Offset: 0x175A8B8
-    int $GenerateLODMeshesFromGeoGroups$b__65_0(float a, float b);
     // public System.Void .ctor()
-    // Offset: 0x175A844
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1793154
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_GenerateGeoCache::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GenerateGeoCache::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_GenerateGeoCache::$$c*, creationType>()));
     }
+    // System.Boolean <GetFinalMaterialsFromComparingNewWithPrevious>b__63_0(UnityEngine.Material material)
+    // Offset: 0x179315C
+    bool $GetFinalMaterialsFromComparingNewWithPrevious$b__63_0(::UnityEngine::Material* material);
+    // System.Int32 <GenerateLODMeshesFromGeoGroups>b__65_0(System.Single a, System.Single b)
+    // Offset: 0x17931C8
+    int $GenerateLODMeshesFromGeoGroups$b__65_0(float a, float b);
   }; // HoudiniEngineUnity.HEU_GenerateGeoCache/HoudiniEngineUnity.<>c
   #pragma pack(pop)
 }
@@ -82,6 +80,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GenerateGeoCache::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GenerateGeoCache::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GenerateGeoCache::$$c::$GetFinalMaterialsFromComparingNewWithPrevious$b__63_0
 // Il2CppName: <GetFinalMaterialsFromComparingNewWithPrevious>b__63_0
 template<>
@@ -101,7 +103,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Houdin
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GenerateGeoCache::$$c*), "<GenerateLODMeshesFromGeoGroups>b__65_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GenerateGeoCache::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

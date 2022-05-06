@@ -58,13 +58,13 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Boolean IsTriggering
-    bool& dyn_IsTriggering();
+    [[deprecated("Use field access instead!")]] bool& dyn_IsTriggering();
     // Get instance field reference: public System.Single ClosestDistance
-    float& dyn_ClosestDistance();
+    [[deprecated("Use field access instead!")]] float& dyn_ClosestDistance();
     // Get instance field reference: public UnityEngine.Vector3 ClosestPoint
-    ::UnityEngine::Vector3& dyn_ClosestPoint();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_ClosestPoint();
     // Get instance field reference: public UnityEngine.Vector3 ClosestPointNormal
-    ::UnityEngine::Vector3& dyn_ClosestPointNormal();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_ClosestPointNormal();
   }; // OVRBoundary/BoundaryTestResult
   #pragma pack(pop)
   static check_size<sizeof(OVRBoundary::BoundaryTestResult), 20 + sizeof(::UnityEngine::Vector3)> __GlobalNamespace_OVRBoundary_BoundaryTestResultSizeCheck;

@@ -52,15 +52,7 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   class CADMethodReturnMessage : public ::System::Runtime::Remoting::Messaging::CADMessageBase {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Object _returnValue
     // Size: 0x8
     // Offset: 0x38
@@ -81,35 +73,35 @@ namespace System::Runtime::Remoting::Messaging {
     static_assert(sizeof(::ArrayW<::System::Type*>) == 0x8);
     public:
     // Get instance field reference: private System.Object _returnValue
-    ::Il2CppObject*& dyn__returnValue();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__returnValue();
     // Get instance field reference: private System.Runtime.Remoting.Messaging.CADArgHolder _exception
-    ::System::Runtime::Remoting::Messaging::CADArgHolder*& dyn__exception();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Messaging::CADArgHolder*& dyn__exception();
     // Get instance field reference: private System.Type[] _sig
-    ::ArrayW<::System::Type*>& dyn__sig();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Type*>& dyn__sig();
     // System.Int32 get_PropertiesCount()
-    // Offset: 0x1C65A68
+    // Offset: 0x1C82D74
     int get_PropertiesCount();
     // System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodReturnMessage retMsg)
-    // Offset: 0x1C65538
+    // Offset: 0x1C82844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADMethodReturnMessage* New_ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* retMsg) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::CADMethodReturnMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CADMethodReturnMessage*, creationType>(retMsg)));
     }
     // static System.Runtime.Remoting.Messaging.CADMethodReturnMessage Create(System.Runtime.Remoting.Messaging.IMessage callMsg)
-    // Offset: 0x1C654B4
+    // Offset: 0x1C827C0
     static ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage* Create(::System::Runtime::Remoting::Messaging::IMessage* callMsg);
     // System.Collections.ArrayList GetArguments()
-    // Offset: 0x1C658B8
+    // Offset: 0x1C82BC4
     ::System::Collections::ArrayList* GetArguments();
     // System.Object[] GetArgs(System.Collections.ArrayList args)
-    // Offset: 0x1C65994
+    // Offset: 0x1C82CA0
     ::ArrayW<::Il2CppObject*> GetArgs(::System::Collections::ArrayList* args);
     // System.Object GetReturnValue(System.Collections.ArrayList args)
-    // Offset: 0x1C659A4
+    // Offset: 0x1C82CB0
     ::Il2CppObject* GetReturnValue(::System::Collections::ArrayList* args);
     // System.Exception GetException(System.Collections.ArrayList args)
-    // Offset: 0x1C659B4
+    // Offset: 0x1C82CC0
     ::System::Exception* GetException(::System::Collections::ArrayList* args);
   }; // System.Runtime.Remoting.Messaging.CADMethodReturnMessage
   #pragma pack(pop)

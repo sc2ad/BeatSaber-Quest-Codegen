@@ -54,7 +54,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static public System.Runtime.Serialization.Formatters.Binary.InternalSerializerTypeE Binary
     static void _set_Binary(::System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Runtime.Serialization.Formatters.Binary.InternalSerializerTypeE
   #pragma pack(pop)
   static check_size<sizeof(InternalSerializerTypeE), 0 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_InternalSerializerTypeESizeCheck;

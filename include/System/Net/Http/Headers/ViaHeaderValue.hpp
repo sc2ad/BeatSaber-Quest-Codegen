@@ -44,15 +44,7 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class ViaHeaderValue : public ::Il2CppObject/*, public ::System::ICloneable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String <Comment>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -83,67 +75,65 @@ namespace System::Net::Http::Headers {
       return *reinterpret_cast<::System::ICloneable*>(this);
     }
     // Get instance field reference: private System.String <Comment>k__BackingField
-    ::StringW& dyn_$Comment$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$Comment$k__BackingField();
     // Get instance field reference: private System.String <ProtocolName>k__BackingField
-    ::StringW& dyn_$ProtocolName$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$ProtocolName$k__BackingField();
     // Get instance field reference: private System.String <ProtocolVersion>k__BackingField
-    ::StringW& dyn_$ProtocolVersion$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$ProtocolVersion$k__BackingField();
     // Get instance field reference: private System.String <ReceivedBy>k__BackingField
-    ::StringW& dyn_$ReceivedBy$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$ReceivedBy$k__BackingField();
     // public System.String get_Comment()
-    // Offset: 0x19616EC
+    // Offset: 0x1999CD4
     ::StringW get_Comment();
     // private System.Void set_Comment(System.String value)
-    // Offset: 0x19616F4
+    // Offset: 0x1999CDC
     void set_Comment(::StringW value);
     // public System.String get_ProtocolName()
-    // Offset: 0x19616FC
+    // Offset: 0x1999CE4
     ::StringW get_ProtocolName();
     // private System.Void set_ProtocolName(System.String value)
-    // Offset: 0x1961704
+    // Offset: 0x1999CEC
     void set_ProtocolName(::StringW value);
     // public System.String get_ProtocolVersion()
-    // Offset: 0x196170C
+    // Offset: 0x1999CF4
     ::StringW get_ProtocolVersion();
     // private System.Void set_ProtocolVersion(System.String value)
-    // Offset: 0x1961714
+    // Offset: 0x1999CFC
     void set_ProtocolVersion(::StringW value);
     // public System.String get_ReceivedBy()
-    // Offset: 0x196171C
+    // Offset: 0x1999D04
     ::StringW get_ReceivedBy();
     // private System.Void set_ReceivedBy(System.String value)
-    // Offset: 0x1961724
+    // Offset: 0x1999D0C
     void set_ReceivedBy(::StringW value);
-    // private System.Object System.ICloneable.Clone()
-    // Offset: 0x196172C
-    ::Il2CppObject* System_ICloneable_Clone();
-    // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.ViaHeaderValue> result)
-    // Offset: 0x1961900
-    static bool TryParse(::StringW input, int minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::ViaHeaderValue*>*> result);
-    // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.ViaHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x19619A0
-    static bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::ViaHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
     // private System.Void .ctor()
-    // Offset: 0x19616E4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1999CCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ViaHeaderValue* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::ViaHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ViaHeaderValue*, creationType>()));
     }
+    // private System.Object System.ICloneable.Clone()
+    // Offset: 0x1999D14
+    ::Il2CppObject* System_ICloneable_Clone();
+    // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.ViaHeaderValue> result)
+    // Offset: 0x1999EE8
+    static bool TryParse(::StringW input, int minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::ViaHeaderValue*>*> result);
+    // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.ViaHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
+    // Offset: 0x1999F88
+    static bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::ViaHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1961734
+    // Offset: 0x1999D1C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1961830
+    // Offset: 0x1999E18
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1961C20
+    // Offset: 0x199A208
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -221,6 +211,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ViaHeaderValue*), "set_ReceivedBy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: System::Net::Http::Headers::ViaHeaderValue::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::ViaHeaderValue::System_ICloneable_Clone
 // Il2CppName: System.ICloneable.Clone
 template<>
@@ -251,10 +245,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ViaHeaderValue*), "TryParseElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lexer, parsedValue, t});
   }
 };
-// Writing MetadataGetter for method: System::Net::Http::Headers::ViaHeaderValue::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::ViaHeaderValue::Equals
 // Il2CppName: Equals
 template<>

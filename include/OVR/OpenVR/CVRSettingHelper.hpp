@@ -44,7 +44,7 @@ namespace OVR::OpenVR {
       return m_pSettings;
     }
     // Get instance field reference: public System.IntPtr m_pSettings
-    ::System::IntPtr& dyn_m_pSettings();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_pSettings();
   }; // OVR.OpenVR.CVRSettingHelper
   #pragma pack(pop)
   static check_size<sizeof(CVRSettingHelper), 0 + sizeof(::System::IntPtr)> __OVR_OpenVR_CVRSettingHelperSizeCheck;

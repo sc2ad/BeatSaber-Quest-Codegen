@@ -40,15 +40,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerConnectedPlayerObstacleClippingController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MaterialPropertyBlockController[] _materialPropertyBlockControllers
     // Size: 0x8
     // Offset: 0x18
@@ -58,55 +50,37 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1253CEC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D88D0
     // Get static field: static private readonly System.Int32 _clippingPlanePositionID
     static int _get__clippingPlanePositionID();
     // Set static field: static private readonly System.Int32 _clippingPlanePositionID
     static void _set__clippingPlanePositionID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1253CFC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D88E0
     // Get static field: static private readonly System.Int32 _clippingPlaneNormalID
     static int _get__clippingPlaneNormalID();
     // Set static field: static private readonly System.Int32 _clippingPlaneNormalID
     static void _set__clippingPlaneNormalID(int value);
     // Get instance field reference: private MaterialPropertyBlockController[] _materialPropertyBlockControllers
-    ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*>& dyn__materialPropertyBlockControllers();
-    // public System.Void SetClippingParams(UnityEngine.Vector3 position, UnityEngine.Vector3 normal)
-    // Offset: 0x13D55BC
-    void SetClippingParams(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 normal);
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*>& dyn__materialPropertyBlockControllers();
     // public System.Void .ctor()
-    // Offset: 0x13D5768
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D1C14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerObstacleClippingController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerObstacleClippingController*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13D5770
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x13D1C1C
     static void _cctor();
+    // public System.Void SetClippingParams(UnityEngine.Vector3 position, UnityEngine.Vector3 normal)
+    // Offset: 0x13D1A68
+    void SetClippingParams(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 normal);
   }; // MultiplayerConnectedPlayerObstacleClippingController
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerObstacleClippingController), 24 + sizeof(::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*>)> __GlobalNamespace_MultiplayerConnectedPlayerObstacleClippingControllerSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerObstacleClippingController) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController::SetClippingParams
-// Il2CppName: SetClippingParams
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController::SetClippingParams)> {
-  static const MethodInfo* get() {
-    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
-    static auto* normal = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController*), "SetClippingParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, normal});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -117,5 +91,15 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController::_cctor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController::SetClippingParams
+// Il2CppName: SetClippingParams
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController::SetClippingParams)> {
+  static const MethodInfo* get() {
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* normal = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController*), "SetClippingParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, normal});
   }
 };

@@ -62,15 +62,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerDataFileManagerSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
     // Size: 0x8
     // Offset: 0x18
@@ -147,74 +139,73 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kBackupFileName
     static void _set_kBackupFileName(::StringW value);
     // Get instance field reference: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
-    ::GlobalNamespace::BeatmapCharacteristicCollectionSO*& dyn__beatmapCharacteristicCollection();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCharacteristicCollectionSO*& dyn__beatmapCharacteristicCollection();
     // Get instance field reference: private ColorSchemesListSO _defaultColorSchemes
-    ::GlobalNamespace::ColorSchemesListSO*& dyn__defaultColorSchemes();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSchemesListSO*& dyn__defaultColorSchemes();
     // Get instance field reference: private EnvironmentsListSO _allEnvironmentInfos
-    ::GlobalNamespace::EnvironmentsListSO*& dyn__allEnvironmentInfos();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentsListSO*& dyn__allEnvironmentInfos();
     // Get instance field reference: private EnvironmentTypeSO _normalEnvironmentType
-    ::GlobalNamespace::EnvironmentTypeSO*& dyn__normalEnvironmentType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentTypeSO*& dyn__normalEnvironmentType();
     // Get instance field reference: private EnvironmentTypeSO _a360DegreesEnvironmentType
-    ::GlobalNamespace::EnvironmentTypeSO*& dyn__a360DegreesEnvironmentType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentTypeSO*& dyn__a360DegreesEnvironmentType();
     // Get instance field reference: private BeatmapCharacteristicSO _defaultLastSelectedBeatmapCharacteristic
-    ::GlobalNamespace::BeatmapCharacteristicSO*& dyn__defaultLastSelectedBeatmapCharacteristic();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCharacteristicSO*& dyn__defaultLastSelectedBeatmapCharacteristic();
     // Get instance field reference: private System.String _buildInSongPackSerializedName
-    ::StringW& dyn__buildInSongPackSerializedName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__buildInSongPackSerializedName();
     // Get instance field reference: private System.String _allSongPackSerializedName
-    ::StringW& dyn__allSongPackSerializedName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__allSongPackSerializedName();
     // Get instance field reference: private readonly System.Version _eulaUpdateVersion
-    ::System::Version*& dyn__eulaUpdateVersion();
-    // public System.Void Save(PlayerData playerData)
-    // Offset: 0x12F7CF8
-    void Save(::GlobalNamespace::PlayerData* playerData);
-    // public PlayerData Load()
-    // Offset: 0x12F898C
-    ::GlobalNamespace::PlayerData* Load();
-    // private PlayerData LoadFromJSONString(System.String jsonString)
-    // Offset: 0x12F8A68
-    ::GlobalNamespace::PlayerData* LoadFromJSONString(::StringW jsonString);
-    // private PlayerData LoadFromCurrentVersion(PlayerSaveData playerSaveData)
-    // Offset: 0x12F94D8
-    ::GlobalNamespace::PlayerData* LoadFromCurrentVersion(::GlobalNamespace::PlayerSaveData* playerSaveData);
-    // private PlayerData LoadFromVersionV1_0_1(PlayerSaveDataV1_0_1 playerDataModelSaveData)
-    // Offset: 0x12F8CD0
-    ::GlobalNamespace::PlayerData* LoadFromVersionV1_0_1(::GlobalNamespace::PlayerSaveDataV1_0_1* playerDataModelSaveData);
-    // public PlayerData CreateDefaultPlayerData()
-    // Offset: 0x12F8C04
-    ::GlobalNamespace::PlayerData* CreateDefaultPlayerData();
-    // static public System.String GetLevelIdFromV_1_0_1LevelId(System.String oldLevelId, BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x12FA2D4
-    static ::StringW GetLevelIdFromV_1_0_1LevelId(::StringW oldLevelId, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
-    // static public BeatmapCharacteristicSO GetBeatmapCharacteristicFromV_1_0_1LevelId(BeatmapCharacteristicCollectionSO beatmapCharacteristicCollection, System.String levelId)
-    // Offset: 0x12FA1A0
-    static ::GlobalNamespace::BeatmapCharacteristicSO* GetBeatmapCharacteristicFromV_1_0_1LevelId(::GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection, ::StringW levelId);
-    // private OverrideEnvironmentSettings CreateDefaultOverrideEnvironmentSettings()
-    // Offset: 0x12FA064
-    ::GlobalNamespace::OverrideEnvironmentSettings* CreateDefaultOverrideEnvironmentSettings();
-    // public EnvironmentInfoSO GetEnvironmentInfoBySerializedName(System.String environmentName)
-    // Offset: 0x12FA340
-    ::GlobalNamespace::EnvironmentInfoSO* GetEnvironmentInfoBySerializedName(::StringW environmentName);
-    // private System.String LoadCorrectedSongPackMask(System.Byte[] songMaskPackBytes)
-    // Offset: 0x12FA124
-    ::StringW LoadCorrectedSongPackMask(::ArrayW<uint8_t> songMaskPackBytes);
+    [[deprecated("Use field access instead!")]] ::System::Version*& dyn__eulaUpdateVersion();
     // public System.Void .ctor()
-    // Offset: 0x12FA35C
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D6AA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerDataFileManagerSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerDataFileManagerSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerDataFileManagerSO*, creationType>()));
     }
+    // public System.Void Save(PlayerData playerData)
+    // Offset: 0x13D3948
+    void Save(::GlobalNamespace::PlayerData* playerData);
+    // public PlayerData Load()
+    // Offset: 0x13D4978
+    ::GlobalNamespace::PlayerData* Load();
+    // private PlayerData LoadFromJSONString(System.String jsonString)
+    // Offset: 0x13D4A54
+    ::GlobalNamespace::PlayerData* LoadFromJSONString(::StringW jsonString);
+    // private PlayerData LoadFromCurrentVersion(PlayerSaveData playerSaveData)
+    // Offset: 0x13D550C
+    ::GlobalNamespace::PlayerData* LoadFromCurrentVersion(::GlobalNamespace::PlayerSaveData* playerSaveData);
+    // private PlayerData LoadFromVersionV1_0_1(PlayerSaveDataV1_0_1 playerDataModelSaveData)
+    // Offset: 0x13D4CC0
+    ::GlobalNamespace::PlayerData* LoadFromVersionV1_0_1(::GlobalNamespace::PlayerSaveDataV1_0_1* playerDataModelSaveData);
+    // public PlayerData CreateDefaultPlayerData()
+    // Offset: 0x13D4BF0
+    ::GlobalNamespace::PlayerData* CreateDefaultPlayerData();
+    // static public System.String GetLevelIdFromV_1_0_1LevelId(System.String oldLevelId, BeatmapCharacteristicSO beatmapCharacteristic)
+    // Offset: 0x13D69DC
+    static ::StringW GetLevelIdFromV_1_0_1LevelId(::StringW oldLevelId, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
+    // static public BeatmapCharacteristicSO GetBeatmapCharacteristicFromV_1_0_1LevelId(BeatmapCharacteristicCollectionSO beatmapCharacteristicCollection, System.String levelId)
+    // Offset: 0x13D68A8
+    static ::GlobalNamespace::BeatmapCharacteristicSO* GetBeatmapCharacteristicFromV_1_0_1LevelId(::GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection, ::StringW levelId);
+    // private OverrideEnvironmentSettings CreateDefaultOverrideEnvironmentSettings()
+    // Offset: 0x13D6384
+    ::GlobalNamespace::OverrideEnvironmentSettings* CreateDefaultOverrideEnvironmentSettings();
+    // public EnvironmentInfoSO GetEnvironmentInfoBySerializedName(System.String environmentName)
+    // Offset: 0x13D6A84
+    ::GlobalNamespace::EnvironmentInfoSO* GetEnvironmentInfoBySerializedName(::StringW environmentName);
+    // private System.String LoadCorrectedSongPackMask(System.Byte[] songMaskPackBytes)
+    // Offset: 0x13D6450
+    ::StringW LoadCorrectedSongPackMask(::ArrayW<uint8_t> songMaskPackBytes);
   }; // PlayerDataFileManagerSO
   #pragma pack(pop)
   static check_size<sizeof(PlayerDataFileManagerSO), 88 + sizeof(::System::Version*)> __GlobalNamespace_PlayerDataFileManagerSOSizeCheck;
   static_assert(sizeof(PlayerDataFileManagerSO) == 0x60);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::PlayerDataFileManagerSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerDataFileManagerSO::Save
 // Il2CppName: Save
 template<>
@@ -313,7 +304,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataFileManagerSO*), "LoadCorrectedSongPackMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{songMaskPackBytes});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PlayerDataFileManagerSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

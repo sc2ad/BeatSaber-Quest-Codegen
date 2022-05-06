@@ -38,15 +38,7 @@ namespace GlobalNamespace {
     char ___base_padding[0x2] = {};
     // Nested type: ::GlobalNamespace::LightmapLightsWithIds::LightIntensitiesWithId
     class LightIntensitiesWithId;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _maxTotalIntensity
     // Size: 0x4
     // Offset: 0x2C
@@ -61,34 +53,29 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<::GlobalNamespace::LightmapLightsWithIds::LightIntensitiesWithId*>) == 0x8);
     public:
     // Get instance field reference: private System.Single _maxTotalIntensity
-    float& dyn__maxTotalIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn__maxTotalIntensity();
     // Get instance field reference: private LightmapLightsWithIds/LightIntensitiesWithId[] _lightIntensityData
-    ::ArrayW<::GlobalNamespace::LightmapLightsWithIds::LightIntensitiesWithId*>& dyn__lightIntensityData();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::LightmapLightsWithIds::LightIntensitiesWithId*>& dyn__lightIntensityData();
     // public System.Single get_maxTotalIntensity()
-    // Offset: 0x2AD4224
+    // Offset: 0x1E7D62C
     float get_maxTotalIntensity();
     // public System.Void set_maxTotalIntensity(System.Single value)
-    // Offset: 0x2AD422C
+    // Offset: 0x1E7D634
     void set_maxTotalIntensity(float value);
     // protected System.Void Awake()
-    // Offset: 0x2AD4234
+    // Offset: 0x1E7D63C
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x2AD45F8
+    // Offset: 0x1E7DA00
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightmapLightsWithIds* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightmapLightsWithIds::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightmapLightsWithIds*, creationType>()));
     }
     // protected override System.Void ProcessNewColorData()
-    // Offset: 0x2AD4260
+    // Offset: 0x1E7D668
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::ProcessNewColorData()
     void ProcessNewColorData();

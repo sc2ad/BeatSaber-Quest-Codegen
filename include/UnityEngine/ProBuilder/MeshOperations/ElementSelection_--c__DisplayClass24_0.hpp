@@ -33,15 +33,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ElementSelection::$$c__DisplayClass24_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.ProBuilder.Face face
     // Size: 0x8
     // Offset: 0x10
@@ -54,25 +46,27 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return face;
     }
     // Get instance field reference: public UnityEngine.ProBuilder.Face face
-    ::UnityEngine::ProBuilder::Face*& dyn_face();
-    // System.Boolean <GetFaceLoop>b__0(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x19F431C
-    bool $GetFaceLoop$b__0(::UnityEngine::ProBuilder::WingedEdge* x);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Face*& dyn_face();
     // public System.Void .ctor()
-    // Offset: 0x19F3624
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1A2CC0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ElementSelection::$$c__DisplayClass24_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass24_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ElementSelection::$$c__DisplayClass24_0*, creationType>()));
     }
+    // System.Boolean <GetFaceLoop>b__0(UnityEngine.ProBuilder.WingedEdge x)
+    // Offset: 0x1A2D904
+    bool $GetFaceLoop$b__0(::UnityEngine::ProBuilder::WingedEdge* x);
   }; // UnityEngine.ProBuilder.MeshOperations.ElementSelection/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass24_0
   #pragma pack(pop)
   static check_size<sizeof(ElementSelection::$$c__DisplayClass24_0), 16 + sizeof(::UnityEngine::ProBuilder::Face*)> __UnityEngine_ProBuilder_MeshOperations_ElementSelection_$$c__DisplayClass24_0SizeCheck;
   static_assert(sizeof(ElementSelection::$$c__DisplayClass24_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass24_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass24_0::$GetFaceLoop$b__0
 // Il2CppName: <GetFaceLoop>b__0
 template<>
@@ -82,7 +76,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass24_0*), "<GetFaceLoop>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass24_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

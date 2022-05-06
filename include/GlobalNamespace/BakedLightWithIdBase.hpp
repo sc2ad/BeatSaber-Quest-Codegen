@@ -31,22 +31,16 @@ namespace GlobalNamespace {
     // public System.Int32 get_id()
     // Offset: 0xFFFFFFFFFFFFFFFF
     int get_id();
-    // public System.Void SetupLightSource(System.Single intensityMultiplier)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    void SetupLightSource(float intensityMultiplier);
     // protected System.Void .ctor()
-    // Offset: 0x29E650C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A3CE00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakedLightWithIdBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BakedLightWithIdBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakedLightWithIdBase*, creationType>()));
     }
+    // public System.Void SetupLightSource(System.Single intensityMultiplier)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    void SetupLightSource(float intensityMultiplier);
   }; // BakedLightWithIdBase
   #pragma pack(pop)
 }
@@ -59,6 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedLightWithIdBase*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BakedLightWithIdBase::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BakedLightWithIdBase::SetupLightSource
 // Il2CppName: SetupLightSource
 template<>
@@ -68,7 +66,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedLightWithIdBase*), "SetupLightSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{intensityMultiplier});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BakedLightWithIdBase::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -45,15 +45,7 @@ namespace Polyglot {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class GoogleDownload::$DownloadSheet$d__0 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -118,44 +110,44 @@ namespace Polyglot {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Object <>2__current
-    ::Il2CppObject*& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$$2__current();
     // Get instance field reference: public System.Func`2<System.Single,System.Boolean> progressbar
-    ::System::Func_2<float, bool>*& dyn_progressbar();
+    [[deprecated("Use field access instead!")]] ::System::Func_2<float, bool>*& dyn_progressbar();
     // Get instance field reference: public System.Action`1<System.String> done
-    ::System::Action_1<::StringW>*& dyn_done();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::StringW>*& dyn_done();
     // Get instance field reference: public System.String docsId
-    ::StringW& dyn_docsId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_docsId();
     // Get instance field reference: public System.String sheetId
-    ::StringW& dyn_sheetId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_sheetId();
     // Get instance field reference: public Polyglot.GoogleDriveDownloadFormat format
-    ::Polyglot::GoogleDriveDownloadFormat& dyn_format();
+    [[deprecated("Use field access instead!")]] ::Polyglot::GoogleDriveDownloadFormat& dyn_format();
     // Get instance field reference: private System.String <url>5__2
-    ::StringW& dyn_$url$5__2();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$url$5__2();
     // Get instance field reference: private UnityEngine.Networking.UnityWebRequest <www>5__3
-    ::UnityEngine::Networking::UnityWebRequest*& dyn_$www$5__3();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Networking::UnityWebRequest*& dyn_$www$5__3();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x29DD83C
+    // Offset: 0x2A33130
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x29DD8A4
+    // Offset: 0x2A33198
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x29DD548
+    // Offset: 0x2A32E3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GoogleDownload::$DownloadSheet$d__0* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Polyglot::GoogleDownload::$DownloadSheet$d__0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GoogleDownload::$DownloadSheet$d__0*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x29DD574
+    // Offset: 0x2A32E68
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x29DD578
+    // Offset: 0x2A32E6C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x29DD844
+    // Offset: 0x2A33138
     void System_Collections_IEnumerator_Reset();
   }; // Polyglot.GoogleDownload/Polyglot.<DownloadSheet>d__0
   #pragma pack(pop)

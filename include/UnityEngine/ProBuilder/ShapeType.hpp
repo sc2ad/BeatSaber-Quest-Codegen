@@ -120,7 +120,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.ShapeType Torus
     static void _set_Torus(::UnityEngine::ProBuilder::ShapeType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.ProBuilder.ShapeType
   #pragma pack(pop)
   static check_size<sizeof(ShapeType), 0 + sizeof(int)> __UnityEngine_ProBuilder_ShapeTypeSizeCheck;

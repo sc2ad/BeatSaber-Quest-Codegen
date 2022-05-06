@@ -68,15 +68,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PracticeViewController : public ::HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.TimeSlider _songStartSlider
     // Size: 0x8
     // Offset: 0x70
@@ -95,28 +87,28 @@ namespace GlobalNamespace {
     ::GlobalNamespace::LevelBar* levelBar;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LevelBar*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125CFFC
+    // [SpaceAttribute] Offset: 0x10E1BE0
     // private UnityEngine.UI.Button _playButton
     // Size: 0x8
     // Offset: 0x88
     ::UnityEngine::UI::Button* playButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [InjectAttribute] Offset: 0x125D034
+    // [InjectAttribute] Offset: 0x10E1C18
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x90
     ::GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x125D044
+    // [InjectAttribute] Offset: 0x10E1C28
     // private readonly SongPreviewPlayer _songPreviewPlayer
     // Size: 0x8
     // Offset: 0x98
     ::GlobalNamespace::SongPreviewPlayer* songPreviewPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SongPreviewPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0x125D054
+    // [InjectAttribute] Offset: 0x10E1C38
     // private readonly PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
     // Size: 0x8
     // Offset: 0xA0
@@ -179,81 +171,74 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMinValueChangeToInstantPlayPreview
     static void _set_kMinValueChangeToInstantPlayPreview(float value);
     // Get instance field reference: private HMUI.TimeSlider _songStartSlider
-    ::HMUI::TimeSlider*& dyn__songStartSlider();
+    [[deprecated("Use field access instead!")]] ::HMUI::TimeSlider*& dyn__songStartSlider();
     // Get instance field reference: private HMUI.PercentSlider _speedSlider
-    ::HMUI::PercentSlider*& dyn__speedSlider();
+    [[deprecated("Use field access instead!")]] ::HMUI::PercentSlider*& dyn__speedSlider();
     // Get instance field reference: private LevelBar _levelBar
-    ::GlobalNamespace::LevelBar*& dyn__levelBar();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelBar*& dyn__levelBar();
     // Get instance field reference: private UnityEngine.UI.Button _playButton
-    ::UnityEngine::UI::Button*& dyn__playButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__playButton();
     // Get instance field reference: private readonly PlayerDataModel _playerDataModel
-    ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
     // Get instance field reference: private readonly SongPreviewPlayer _songPreviewPlayer
-    ::GlobalNamespace::SongPreviewPlayer*& dyn__songPreviewPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongPreviewPlayer*& dyn__songPreviewPlayer();
     // Get instance field reference: private readonly PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
-    ::GlobalNamespace::PerceivedLoudnessPerLevelModel*& dyn__perceivedLoudnessPerLevelModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PerceivedLoudnessPerLevelModel*& dyn__perceivedLoudnessPerLevelModel();
     // Get instance field reference: private System.Action didPressPlayButtonEvent
-    ::System::Action*& dyn_didPressPlayButtonEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didPressPlayButtonEvent();
     // Get instance field reference: private PracticeSettings _practiceSettings
-    ::GlobalNamespace::PracticeSettings*& dyn__practiceSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PracticeSettings*& dyn__practiceSettings();
     // Get instance field reference: private System.Single _currentPlayingStartTime
-    float& dyn__currentPlayingStartTime();
+    [[deprecated("Use field access instead!")]] float& dyn__currentPlayingStartTime();
     // Get instance field reference: private System.Single _maxStartSongTime
-    float& dyn__maxStartSongTime();
+    [[deprecated("Use field access instead!")]] float& dyn__maxStartSongTime();
     // Get instance field reference: private IBeatmapLevel _level
-    ::GlobalNamespace::IBeatmapLevel*& dyn__level();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatmapLevel*& dyn__level();
     // Get instance field reference: private BeatmapCharacteristicSO _beatmapCharacteristic
-    ::GlobalNamespace::BeatmapCharacteristicSO*& dyn__beatmapCharacteristic();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCharacteristicSO*& dyn__beatmapCharacteristic();
     // Get instance field reference: private BeatmapDifficulty _beatmapDifficulty
-    ::GlobalNamespace::BeatmapDifficulty& dyn__beatmapDifficulty();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficulty& dyn__beatmapDifficulty();
     // public PracticeSettings get_practiceSettings()
-    // Offset: 0x1377A7C
+    // Offset: 0x13DEDB8
     ::GlobalNamespace::PracticeSettings* get_practiceSettings();
     // public System.Void add_didPressPlayButtonEvent(System.Action value)
-    // Offset: 0x1377934
+    // Offset: 0x13DEC70
     void add_didPressPlayButtonEvent(::System::Action* value);
     // public System.Void remove_didPressPlayButtonEvent(System.Action value)
-    // Offset: 0x13779D8
+    // Offset: 0x13DED14
     void remove_didPressPlayButtonEvent(::System::Action* value);
-    // public System.Void Init(IBeatmapLevel level, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
-    // Offset: 0x1377A84
-    void Init(::GlobalNamespace::IBeatmapLevel* level, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
-    // private System.Void PlayPreview()
-    // Offset: 0x1377F3C
-    void PlayPreview();
-    // private System.Void RefreshUI()
-    // Offset: 0x1377DF4
-    void RefreshUI();
-    // private System.Void HandleSpeedSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0x137813C
-    void HandleSpeedSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float value);
-    // private System.Void HandleSongStartSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0x1378158
-    void HandleSongStartSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float value);
-    // private System.Void PlayButtonPressed()
-    // Offset: 0x13781FC
-    void PlayButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0x13782A8
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13DF5E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PracticeViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PracticeViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PracticeViewController*, creationType>()));
     }
+    // public System.Void Init(IBeatmapLevel level, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
+    // Offset: 0x13DEDC0
+    void Init(::GlobalNamespace::IBeatmapLevel* level, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
+    // private System.Void PlayPreview()
+    // Offset: 0x13DF278
+    void PlayPreview();
+    // private System.Void RefreshUI()
+    // Offset: 0x13DF130
+    void RefreshUI();
+    // private System.Void HandleSpeedSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
+    // Offset: 0x13DF478
+    void HandleSpeedSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float value);
+    // private System.Void HandleSongStartSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
+    // Offset: 0x13DF494
+    void HandleSongStartSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float value);
+    // private System.Void PlayButtonPressed()
+    // Offset: 0x13DF538
+    void PlayButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1377C8C
+    // Offset: 0x13DEFC8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1377E48
+    // Offset: 0x13DF184
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
@@ -289,6 +274,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeViewController*), "remove_didPressPlayButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PracticeViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PracticeViewController::Init
 // Il2CppName: Init
 template<>
@@ -344,10 +333,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeViewController*), "PlayButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PracticeViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PracticeViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

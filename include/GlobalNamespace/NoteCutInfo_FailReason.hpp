@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     // Set static field: static public NoteCutInfo/FailReason WrongDirection
     static void _set_WrongDirection(::GlobalNamespace::NoteCutInfo::FailReason value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // NoteCutInfo/FailReason
   #pragma pack(pop)
   static check_size<sizeof(NoteCutInfo::FailReason), 0 + sizeof(int)> __GlobalNamespace_NoteCutInfo_FailReasonSizeCheck;

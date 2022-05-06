@@ -29,19 +29,19 @@ namespace System::Collections::Generic {
   class ByteEqualityComparer : public ::System::Collections::Generic::EqualityComparer_1<uint8_t> {
     public:
     // public System.Boolean Equals(System.Byte x, System.Byte y)
-    // Offset: 0x1CBE158
+    // Offset: 0x1CF96B0
     bool Equals(uint8_t x, uint8_t y);
     // public System.Int32 GetHashCode(System.Byte b)
-    // Offset: 0x1CBE168
+    // Offset: 0x1CF96C0
     int GetHashCode(uint8_t b);
     // System.Int32 IndexOf(System.Byte[] array, System.Byte value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x1CBE190
+    // Offset: 0x1CF96E8
     int IndexOf(::ArrayW<uint8_t> array, uint8_t value, int startIndex, int count);
     // System.Int32 LastIndexOf(System.Byte[] array, System.Byte value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x1CBE350
+    // Offset: 0x1CF98A8
     int LastIndexOf(::ArrayW<uint8_t> array, uint8_t value, int startIndex, int count);
     // public System.Void .ctor()
-    // Offset: 0x1CBE46C
+    // Offset: 0x1CF99C4
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Void EqualityComparer_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -51,12 +51,12 @@ namespace System::Collections::Generic {
       return THROW_UNLESS((::il2cpp_utils::New<ByteEqualityComparer*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1CBE3B4
+    // Offset: 0x1CF990C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1CBE434
+    // Offset: 0x1CF998C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

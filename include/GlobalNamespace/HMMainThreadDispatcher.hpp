@@ -57,36 +57,30 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.Queue`1<System.Action> _mainThreadExecutionQueue
     static void _set__mainThreadExecutionQueue(::System::Collections::Generic::Queue_1<::System::Action*>* value);
     // protected System.Void Update()
-    // Offset: 0x1572804
+    // Offset: 0x15A9114
     void Update();
     // public System.Void Enqueue(System.Collections.IEnumerator action)
-    // Offset: 0x157296C
+    // Offset: 0x15A927C
     void Enqueue(::System::Collections::IEnumerator* action);
     // public System.Void Enqueue(System.Action action)
-    // Offset: 0x1572AEC
+    // Offset: 0x15A93FC
     void Enqueue(::System::Action* action);
     // private System.Collections.IEnumerator ActionCoroutine(System.Action action)
-    // Offset: 0x1572B14
+    // Offset: 0x15A9424
     ::System::Collections::IEnumerator* ActionCoroutine(::System::Action* action);
     // public System.Void .ctor()
-    // Offset: 0x1572BB0
+    // Offset: 0x15A94C0
     // Implemented from: PersistentSingleton`1
     // Base method: System.Void PersistentSingleton_1::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMMainThreadDispatcher* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HMMainThreadDispatcher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMMainThreadDispatcher*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1572C20
+    // Offset: 0x15A9530
     // Implemented from: PersistentSingleton`1
     // Base method: System.Void PersistentSingleton_1::.cctor()
-    // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // HMMainThreadDispatcher
 }

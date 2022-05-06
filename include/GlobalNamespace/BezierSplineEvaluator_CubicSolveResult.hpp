@@ -54,21 +54,21 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public readonly System.Int32 numberOfSolutions
-    int& dyn_numberOfSolutions();
+    [[deprecated("Use field access instead!")]] int& dyn_numberOfSolutions();
     // Get instance field reference: public System.Single solution1
-    float& dyn_solution1();
+    [[deprecated("Use field access instead!")]] float& dyn_solution1();
     // Get instance field reference: public System.Single solution2
-    float& dyn_solution2();
+    [[deprecated("Use field access instead!")]] float& dyn_solution2();
     // Get instance field reference: public System.Single solution3
-    float& dyn_solution3();
+    [[deprecated("Use field access instead!")]] float& dyn_solution3();
     // public System.Void .ctor(System.Single solution1)
-    // Offset: 0x134A690
+    // Offset: 0x13338D8
     CubicSolveResult(float solution1);
     // public System.Void .ctor(System.Single solution1, System.Single solution2)
-    // Offset: 0x134A6A4
+    // Offset: 0x13338EC
     CubicSolveResult(float solution1, float solution2);
     // public System.Void .ctor(System.Single solution1, System.Single solution2, System.Single solution3)
-    // Offset: 0x134A6B8
+    // Offset: 0x1333900
     CubicSolveResult(float solution1, float solution2, float solution3);
   }; // BezierSplineEvaluator/CubicSolveResult
   #pragma pack(pop)

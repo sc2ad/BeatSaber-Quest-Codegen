@@ -42,15 +42,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConnectedPlayerManager::SyncTimePacket : public ::Il2CppObject/*, public ::LiteNetLib::Utils::INetSerializable, public ::GlobalNamespace::IPoolablePacket*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single syncTime
     // Size: 0x4
     // Offset: 0x10
@@ -71,31 +63,29 @@ namespace GlobalNamespace {
       return syncTime;
     }
     // Get instance field reference: public System.Single syncTime
-    float& dyn_syncTime();
+    [[deprecated("Use field access instead!")]] float& dyn_syncTime();
     // static public PacketPool`1<ConnectedPlayerManager/SyncTimePacket> get_pool()
-    // Offset: 0x163E060
+    // Offset: 0x1674970
     static ::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager::SyncTimePacket*>* get_pool();
-    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x163E0A8
-    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
-    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x163E0C8
-    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
-    // public ConnectedPlayerManager/SyncTimePacket Init(System.Single syncTime)
-    // Offset: 0x163E0FC
-    ::GlobalNamespace::ConnectedPlayerManager::SyncTimePacket* Init(float syncTime);
-    // public System.Void Release()
-    // Offset: 0x163E104
-    void Release();
     // public System.Void .ctor()
-    // Offset: 0x163E160
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1674A70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectedPlayerManager::SyncTimePacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConnectedPlayerManager::SyncTimePacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectedPlayerManager::SyncTimePacket*, creationType>()));
     }
+    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x16749B8
+    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x16749D8
+    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
+    // public ConnectedPlayerManager/SyncTimePacket Init(System.Single syncTime)
+    // Offset: 0x1674A0C
+    ::GlobalNamespace::ConnectedPlayerManager::SyncTimePacket* Init(float syncTime);
+    // public System.Void Release()
+    // Offset: 0x1674A14
+    void Release();
   }; // ConnectedPlayerManager/SyncTimePacket
   #pragma pack(pop)
   static check_size<sizeof(ConnectedPlayerManager::SyncTimePacket), 16 + sizeof(float)> __GlobalNamespace_ConnectedPlayerManager_SyncTimePacketSizeCheck;
@@ -110,6 +100,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::SyncTimePacket*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::SyncTimePacket::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::SyncTimePacket::Serialize
 // Il2CppName: Serialize
 template<>
@@ -145,7 +139,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::SyncTimePacket*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::SyncTimePacket::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

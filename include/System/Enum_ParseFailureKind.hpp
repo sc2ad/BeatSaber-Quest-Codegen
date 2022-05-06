@@ -67,7 +67,7 @@ namespace System {
     // Set static field: static public System.Enum/System.ParseFailureKind UnhandledException
     static void _set_UnhandledException(::System::Enum::ParseFailureKind value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Enum/System.ParseFailureKind
   #pragma pack(pop)
   static check_size<sizeof(Enum::ParseFailureKind), 0 + sizeof(int)> __System_Enum_ParseFailureKindSizeCheck;

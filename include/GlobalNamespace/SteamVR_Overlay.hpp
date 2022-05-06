@@ -53,15 +53,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::SteamVR_Overlay::IntersectionResults
     struct IntersectionResults;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Texture texture
     // Size: 0x8
     // Offset: 0x18
@@ -88,22 +80,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: highquality and: scale
     char __padding3[0x1] = {};
-    // [TooltipAttribute] Offset: 0x1208BBC
+    // [TooltipAttribute] Offset: 0x108E5D4
     // public System.Single scale
     // Size: 0x4
     // Offset: 0x24
     float scale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1208BF4
+    // [TooltipAttribute] Offset: 0x108E60C
     // public System.Single distance
     // Size: 0x4
     // Offset: 0x28
     float distance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1208C2C
-    // [RangeAttribute] Offset: 0x1208C2C
+    // [TooltipAttribute] Offset: 0x108E644
+    // [RangeAttribute] Offset: 0x108E644
     // public System.Single alpha
     // Size: 0x4
     // Offset: 0x2C
@@ -150,66 +142,60 @@ namespace GlobalNamespace {
     // Set static field: static private SteamVR_Overlay <instance>k__BackingField
     static void _set_$instance$k__BackingField(::GlobalNamespace::SteamVR_Overlay* value);
     // Get instance field reference: public UnityEngine.Texture texture
-    ::UnityEngine::Texture*& dyn_texture();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Texture*& dyn_texture();
     // Get instance field reference: public System.Boolean curved
-    bool& dyn_curved();
+    [[deprecated("Use field access instead!")]] bool& dyn_curved();
     // Get instance field reference: public System.Boolean antialias
-    bool& dyn_antialias();
+    [[deprecated("Use field access instead!")]] bool& dyn_antialias();
     // Get instance field reference: public System.Boolean highquality
-    bool& dyn_highquality();
+    [[deprecated("Use field access instead!")]] bool& dyn_highquality();
     // Get instance field reference: public System.Single scale
-    float& dyn_scale();
+    [[deprecated("Use field access instead!")]] float& dyn_scale();
     // Get instance field reference: public System.Single distance
-    float& dyn_distance();
+    [[deprecated("Use field access instead!")]] float& dyn_distance();
     // Get instance field reference: public System.Single alpha
-    float& dyn_alpha();
+    [[deprecated("Use field access instead!")]] float& dyn_alpha();
     // Get instance field reference: public UnityEngine.Vector4 uvOffset
-    ::UnityEngine::Vector4& dyn_uvOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector4& dyn_uvOffset();
     // Get instance field reference: public UnityEngine.Vector2 mouseScale
-    ::UnityEngine::Vector2& dyn_mouseScale();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_mouseScale();
     // Get instance field reference: public UnityEngine.Vector2 curvedRange
-    ::UnityEngine::Vector2& dyn_curvedRange();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_curvedRange();
     // Get instance field reference: public Valve.VR.VROverlayInputMethod inputMethod
-    ::Valve::VR::VROverlayInputMethod& dyn_inputMethod();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VROverlayInputMethod& dyn_inputMethod();
     // Get instance field reference: private System.UInt64 handle
-    uint64_t& dyn_handle();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_handle();
     // static public SteamVR_Overlay get_instance()
-    // Offset: 0x1873470
+    // Offset: 0x18ACD80
     static ::GlobalNamespace::SteamVR_Overlay* get_instance();
     // static private System.Void set_instance(SteamVR_Overlay value)
-    // Offset: 0x18734C0
+    // Offset: 0x18ACDD0
     static void set_instance(::GlobalNamespace::SteamVR_Overlay* value);
     // static public System.String get_key()
-    // Offset: 0x186FC74
+    // Offset: 0x18A9584
     static ::StringW get_key();
-    // private System.Void OnEnable()
-    // Offset: 0x1873514
-    void OnEnable();
-    // private System.Void OnDisable()
-    // Offset: 0x1873664
-    void OnDisable();
-    // public System.Void UpdateOverlay()
-    // Offset: 0x1873720
-    void UpdateOverlay();
-    // public System.Boolean PollNextEvent(ref Valve.VR.VREvent_t pEvent)
-    // Offset: 0x1873B5C
-    bool PollNextEvent(ByRef<::Valve::VR::VREvent_t> pEvent);
-    // public System.Boolean ComputeIntersection(UnityEngine.Vector3 source, UnityEngine.Vector3 direction, ref SteamVR_Overlay/IntersectionResults results)
-    // Offset: 0x1873C68
-    bool ComputeIntersection(::UnityEngine::Vector3 source, ::UnityEngine::Vector3 direction, ByRef<::GlobalNamespace::SteamVR_Overlay::IntersectionResults> results);
     // public System.Void .ctor()
-    // Offset: 0x1873E24
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18AD734
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Overlay* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Overlay::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Overlay*, creationType>()));
     }
+    // private System.Void OnEnable()
+    // Offset: 0x18ACE24
+    void OnEnable();
+    // private System.Void OnDisable()
+    // Offset: 0x18ACF74
+    void OnDisable();
+    // public System.Void UpdateOverlay()
+    // Offset: 0x18AD030
+    void UpdateOverlay();
+    // public System.Boolean PollNextEvent(ref Valve.VR.VREvent_t pEvent)
+    // Offset: 0x18AD46C
+    bool PollNextEvent(ByRef<::Valve::VR::VREvent_t> pEvent);
+    // public System.Boolean ComputeIntersection(UnityEngine.Vector3 source, UnityEngine.Vector3 direction, ref SteamVR_Overlay/IntersectionResults results)
+    // Offset: 0x18AD578
+    bool ComputeIntersection(::UnityEngine::Vector3 source, ::UnityEngine::Vector3 direction, ByRef<::GlobalNamespace::SteamVR_Overlay::IntersectionResults> results);
   }; // SteamVR_Overlay
   #pragma pack(pop)
   static check_size<sizeof(SteamVR_Overlay), 88 + sizeof(uint64_t)> __GlobalNamespace_SteamVR_OverlaySizeCheck;
@@ -241,6 +227,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Overlay*), "get_key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Overlay::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Overlay::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -285,7 +275,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Overlay*), "ComputeIntersection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source, direction, results});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Overlay::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

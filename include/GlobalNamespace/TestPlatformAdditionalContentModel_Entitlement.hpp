@@ -26,15 +26,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestPlatformAdditionalContentModel::Entitlement : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String id
     // Size: 0x8
     // Offset: 0x10
@@ -49,13 +41,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::AdditionalContentModel::EntitlementStatus) == 0x4);
     public:
     // Get instance field reference: public System.String id
-    ::StringW& dyn_id();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_id();
     // Get instance field reference: public AdditionalContentModel/EntitlementStatus status
-    ::GlobalNamespace::AdditionalContentModel::EntitlementStatus& dyn_status();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AdditionalContentModel::EntitlementStatus& dyn_status();
     // public System.Void .ctor()
-    // Offset: 0x133BF48
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x141DE78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestPlatformAdditionalContentModel::Entitlement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement::.ctor");

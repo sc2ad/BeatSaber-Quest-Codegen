@@ -44,65 +44,63 @@ namespace System::Net::Sockets {
     // Set static field: static public System.IOAsyncCallback <>9__241_0
     static void _set_$$9__241_0(::System::IOAsyncCallback* value);
     // static private System.Void .cctor()
-    // Offset: 0x1B10B88
+    // Offset: 0x1B4B170
     static void _cctor();
-    // System.Void <BeginSend>b__241_0(System.IOAsyncResult s)
-    // Offset: 0x1B10BF4
-    void $BeginSend$b__241_0(::System::IOAsyncResult* s);
-    // System.Void <.cctor>b__309_0(System.IAsyncResult ares)
-    // Offset: 0x1B10C8C
-    void $_cctor$b__309_0(::System::IAsyncResult* ares);
-    // System.Void <.cctor>b__309_1(System.IOAsyncResult ares)
-    // Offset: 0x1B10F44
-    void $_cctor$b__309_1(::System::IOAsyncResult* ares);
-    // System.Void <.cctor>b__309_2(System.IOAsyncResult ares)
-    // Offset: 0x1B1108C
-    void $_cctor$b__309_2(::System::IOAsyncResult* ares);
-    // System.Void <.cctor>b__309_3(System.IAsyncResult ares)
-    // Offset: 0x1B1132C
-    void $_cctor$b__309_3(::System::IAsyncResult* ares);
-    // System.Void <.cctor>b__309_4(System.IOAsyncResult ares)
-    // Offset: 0x1B11574
-    void $_cctor$b__309_4(::System::IOAsyncResult* ares);
-    // System.Void <.cctor>b__309_5(System.IAsyncResult ares)
-    // Offset: 0x1B119F4
-    void $_cctor$b__309_5(::System::IAsyncResult* ares);
-    // System.Void <.cctor>b__309_6(System.IOAsyncResult ares)
-    // Offset: 0x1B11C3C
-    void $_cctor$b__309_6(::System::IOAsyncResult* ares);
-    // System.Void <.cctor>b__309_7(System.IAsyncResult ares)
-    // Offset: 0x1B11D48
-    void $_cctor$b__309_7(::System::IAsyncResult* ares);
-    // System.Void <.cctor>b__309_8(System.IOAsyncResult ares)
-    // Offset: 0x1B11F98
-    void $_cctor$b__309_8(::System::IOAsyncResult* ares);
-    // System.Void <.cctor>b__309_9(System.IOAsyncResult ares)
-    // Offset: 0x1B12170
-    void $_cctor$b__309_9(::System::IOAsyncResult* ares);
-    // System.Void <.cctor>b__309_10(System.IAsyncResult ares)
-    // Offset: 0x1B12288
-    void $_cctor$b__309_10(::System::IAsyncResult* ares);
-    // System.Void <.cctor>b__309_11(System.IOAsyncResult ares)
-    // Offset: 0x1B124DC
-    void $_cctor$b__309_11(::System::IOAsyncResult* ares);
-    // System.Void <.cctor>b__309_12(System.IAsyncResult ares)
-    // Offset: 0x1B126B8
-    void $_cctor$b__309_12(::System::IAsyncResult* ares);
-    // System.Void <.cctor>b__309_13(System.IOAsyncResult ares)
-    // Offset: 0x1B12908
-    void $_cctor$b__309_13(::System::IOAsyncResult* ares);
-    // System.Void <.cctor>b__309_14(System.IAsyncResult ares)
-    // Offset: 0x1B12A20
-    void $_cctor$b__309_14(::System::IAsyncResult* ares);
     // public System.Void .ctor()
-    // Offset: 0x1B10BEC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B4B1D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Socket::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Sockets::Socket::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Socket::$$c*, creationType>()));
     }
+    // System.Void <BeginSend>b__241_0(System.IOAsyncResult s)
+    // Offset: 0x1B4B1DC
+    void $BeginSend$b__241_0(::System::IOAsyncResult* s);
+    // System.Void <.cctor>b__309_0(System.IAsyncResult ares)
+    // Offset: 0x1B4B274
+    void $_cctor$b__309_0(::System::IAsyncResult* ares);
+    // System.Void <.cctor>b__309_1(System.IOAsyncResult ares)
+    // Offset: 0x1B4B52C
+    void $_cctor$b__309_1(::System::IOAsyncResult* ares);
+    // System.Void <.cctor>b__309_2(System.IOAsyncResult ares)
+    // Offset: 0x1B4B674
+    void $_cctor$b__309_2(::System::IOAsyncResult* ares);
+    // System.Void <.cctor>b__309_3(System.IAsyncResult ares)
+    // Offset: 0x1B4B914
+    void $_cctor$b__309_3(::System::IAsyncResult* ares);
+    // System.Void <.cctor>b__309_4(System.IOAsyncResult ares)
+    // Offset: 0x1B4BB5C
+    void $_cctor$b__309_4(::System::IOAsyncResult* ares);
+    // System.Void <.cctor>b__309_5(System.IAsyncResult ares)
+    // Offset: 0x1B4BFDC
+    void $_cctor$b__309_5(::System::IAsyncResult* ares);
+    // System.Void <.cctor>b__309_6(System.IOAsyncResult ares)
+    // Offset: 0x1B4C224
+    void $_cctor$b__309_6(::System::IOAsyncResult* ares);
+    // System.Void <.cctor>b__309_7(System.IAsyncResult ares)
+    // Offset: 0x1B4C330
+    void $_cctor$b__309_7(::System::IAsyncResult* ares);
+    // System.Void <.cctor>b__309_8(System.IOAsyncResult ares)
+    // Offset: 0x1B4C580
+    void $_cctor$b__309_8(::System::IOAsyncResult* ares);
+    // System.Void <.cctor>b__309_9(System.IOAsyncResult ares)
+    // Offset: 0x1B4C758
+    void $_cctor$b__309_9(::System::IOAsyncResult* ares);
+    // System.Void <.cctor>b__309_10(System.IAsyncResult ares)
+    // Offset: 0x1B4C870
+    void $_cctor$b__309_10(::System::IAsyncResult* ares);
+    // System.Void <.cctor>b__309_11(System.IOAsyncResult ares)
+    // Offset: 0x1B4CAC4
+    void $_cctor$b__309_11(::System::IOAsyncResult* ares);
+    // System.Void <.cctor>b__309_12(System.IAsyncResult ares)
+    // Offset: 0x1B4CCA0
+    void $_cctor$b__309_12(::System::IAsyncResult* ares);
+    // System.Void <.cctor>b__309_13(System.IOAsyncResult ares)
+    // Offset: 0x1B4CEF0
+    void $_cctor$b__309_13(::System::IOAsyncResult* ares);
+    // System.Void <.cctor>b__309_14(System.IAsyncResult ares)
+    // Offset: 0x1B4D008
+    void $_cctor$b__309_14(::System::IAsyncResult* ares);
   }; // System.Net.Sockets.Socket/System.Net.Sockets.<>c
   #pragma pack(pop)
 }
@@ -115,6 +113,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c::$BeginSend$b__241_0
 // Il2CppName: <BeginSend>b__241_0
 template<>
@@ -259,7 +261,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket::$$c*), "<.cctor>b__309_14", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ares});
   }
 };
-// Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

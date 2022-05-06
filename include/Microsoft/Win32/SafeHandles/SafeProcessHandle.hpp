@@ -33,26 +33,24 @@ namespace Microsoft::Win32::SafeHandles {
     // Set static field: static Microsoft.Win32.SafeHandles.SafeProcessHandle InvalidHandle
     static void _set_InvalidHandle(::Microsoft::Win32::SafeHandles::SafeProcessHandle* value);
     // System.Void .ctor(System.IntPtr handle)
-    // Offset: 0x1A96F90
+    // Offset: 0x1AD1578
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeProcessHandle* New_ctor(::System::IntPtr handle) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Microsoft::Win32::SafeHandles::SafeProcessHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeProcessHandle*, creationType>(handle)));
     }
-    // static private System.Void .cctor()
-    // Offset: 0x1A96FC8
-    static void _cctor();
     // public System.Void .ctor(System.IntPtr existingHandle, System.Boolean ownsHandle)
-    // Offset: 0x1A96D24
-    // Implemented from: System.Runtime.InteropServices.SafeHandle
-    // Base method: System.Void SafeHandle::.ctor(System.IntPtr existingHandle, System.Boolean ownsHandle)
+    // Offset: 0x1AD130C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeProcessHandle* New_ctor(::System::IntPtr existingHandle, bool ownsHandle) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Microsoft::Win32::SafeHandles::SafeProcessHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeProcessHandle*, creationType>(existingHandle, ownsHandle)));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1AD15B0
+    static void _cctor();
     // protected override System.Boolean ReleaseHandle()
-    // Offset: 0x1A96FC0
+    // Offset: 0x1AD15A8
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::ReleaseHandle()
     bool ReleaseHandle();
@@ -60,6 +58,10 @@ namespace Microsoft::Win32::SafeHandles {
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Microsoft::Win32::SafeHandles::SafeProcessHandle::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Microsoft::Win32::SafeHandles::SafeProcessHandle::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -72,10 +74,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::SafeHandles::SafeProcessHandle*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Microsoft::Win32::SafeHandles::SafeProcessHandle::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Microsoft::Win32::SafeHandles::SafeProcessHandle::ReleaseHandle
 // Il2CppName: ReleaseHandle
 template<>

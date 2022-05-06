@@ -41,15 +41,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData
     class InitData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _audioSyncLerpSpeed
     // Size: 0x4
     // Offset: 0x18
@@ -80,14 +72,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::FloatSO* audioLatency;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253C24
+    // [InjectAttribute] Offset: 0x10D8808
     // private readonly MultiplayerConnectedPlayerSongTimeSyncController/InitData _initData
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253C34
+    // [InjectAttribute] Offset: 0x10D8818
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x38
@@ -138,80 +130,74 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _audioSyncLerpSpeed
-    float& dyn__audioSyncLerpSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__audioSyncLerpSpeed();
     // Get instance field reference: private System.Single _forcedSyncDeltaTime
-    float& dyn__forcedSyncDeltaTime();
+    [[deprecated("Use field access instead!")]] float& dyn__forcedSyncDeltaTime();
     // Get instance field reference: private System.Single _startSyncDeltaTime
-    float& dyn__startSyncDeltaTime();
+    [[deprecated("Use field access instead!")]] float& dyn__startSyncDeltaTime();
     // Get instance field reference: private System.Single _stopSyncDeltaTime
-    float& dyn__stopSyncDeltaTime();
+    [[deprecated("Use field access instead!")]] float& dyn__stopSyncDeltaTime();
     // Get instance field reference: private FloatSO _audioLatency
-    ::GlobalNamespace::FloatSO*& dyn__audioLatency();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FloatSO*& dyn__audioLatency();
     // Get instance field reference: private readonly MultiplayerConnectedPlayerSongTimeSyncController/InitData _initData
-    ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData*& dyn__initData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData*& dyn__initData();
     // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
-    ::GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // Get instance field reference: private System.Single <songTime>k__BackingField
-    float& dyn_$songTime$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$songTime$k__BackingField();
     // Get instance field reference: private System.Single <lastFrameDeltaSongTime>k__BackingField
-    float& dyn_$lastFrameDeltaSongTime$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$lastFrameDeltaSongTime$k__BackingField();
     // Get instance field reference: private System.Single _timeScale
-    float& dyn__timeScale();
+    [[deprecated("Use field access instead!")]] float& dyn__timeScale();
     // Get instance field reference: private System.Single _startSongSyncTime
-    float& dyn__startSongSyncTime();
+    [[deprecated("Use field access instead!")]] float& dyn__startSongSyncTime();
     // Get instance field reference: private System.Boolean _fixingAudioSyncError
-    bool& dyn__fixingAudioSyncError();
+    [[deprecated("Use field access instead!")]] bool& dyn__fixingAudioSyncError();
     // Get instance field reference: private System.Boolean _isReady
-    bool& dyn__isReady();
+    [[deprecated("Use field access instead!")]] bool& dyn__isReady();
     // public System.Single get_songTime()
-    // Offset: 0x13D6294
+    // Offset: 0x13D2740
     float get_songTime();
     // private System.Void set_songTime(System.Single value)
-    // Offset: 0x13D629C
+    // Offset: 0x13D2748
     void set_songTime(float value);
     // public System.Single get_lastFrameDeltaSongTime()
-    // Offset: 0x13D62A4
+    // Offset: 0x13D2750
     float get_lastFrameDeltaSongTime();
     // private System.Void set_lastFrameDeltaSongTime(System.Single value)
-    // Offset: 0x13D62AC
+    // Offset: 0x13D2758
     void set_lastFrameDeltaSongTime(float value);
     // public System.Single get_songEndTime()
-    // Offset: 0x13D62B4
+    // Offset: 0x13D2760
     float get_songEndTime();
     // public System.Single get_songLength()
-    // Offset: 0x13D62C0
+    // Offset: 0x13D276C
     float get_songLength();
     // public System.Boolean get_isReady()
-    // Offset: 0x13D62CC
+    // Offset: 0x13D2778
     bool get_isReady();
-    // protected System.Void Start()
-    // Offset: 0x13D62D4
-    void Start();
-    // protected System.Void Update()
-    // Offset: 0x13D62E0
-    void Update();
-    // public System.Void StartSong(System.Single songStartSyncTime)
-    // Offset: 0x13D3644
-    void StartSong(float songStartSyncTime);
-    // public System.Void SetConnectedPlayerSongTime(System.Single syncTime, System.Single songTime)
-    // Offset: 0x13D6474
-    void SetConnectedPlayerSongTime(float syncTime, float songTime);
-    // public System.Void StopSong()
-    // Offset: 0x13D3914
-    void StopSong();
     // public System.Void .ctor()
-    // Offset: 0x13D6488
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D2934
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerSongTimeSyncController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerSongTimeSyncController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x13D2780
+    void Start();
+    // protected System.Void Update()
+    // Offset: 0x13D278C
+    void Update();
+    // public System.Void StartSong(System.Single songStartSyncTime)
+    // Offset: 0x13CFAF0
+    void StartSong(float songStartSyncTime);
+    // public System.Void SetConnectedPlayerSongTime(System.Single syncTime, System.Single songTime)
+    // Offset: 0x13D2920
+    void SetConnectedPlayerSongTime(float syncTime, float songTime);
+    // public System.Void StopSong()
+    // Offset: 0x13CFDC0
+    void StopSong();
   }; // MultiplayerConnectedPlayerSongTimeSyncController
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerSongTimeSyncController), 81 + sizeof(bool)> __GlobalNamespace_MultiplayerConnectedPlayerSongTimeSyncControllerSizeCheck;
@@ -276,6 +262,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*), "get_isReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::Start
 // Il2CppName: Start
 template<>
@@ -319,7 +309,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*), "StopSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

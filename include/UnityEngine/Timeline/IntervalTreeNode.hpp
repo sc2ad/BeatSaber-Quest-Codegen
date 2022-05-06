@@ -63,15 +63,15 @@ namespace UnityEngine::Timeline {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int64 center
-    int64_t& dyn_center();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_center();
     // Get instance field reference: public System.Int32 first
-    int& dyn_first();
+    [[deprecated("Use field access instead!")]] int& dyn_first();
     // Get instance field reference: public System.Int32 last
-    int& dyn_last();
+    [[deprecated("Use field access instead!")]] int& dyn_last();
     // Get instance field reference: public System.Int32 left
-    int& dyn_left();
+    [[deprecated("Use field access instead!")]] int& dyn_left();
     // Get instance field reference: public System.Int32 right
-    int& dyn_right();
+    [[deprecated("Use field access instead!")]] int& dyn_right();
   }; // UnityEngine.Timeline.IntervalTreeNode
   #pragma pack(pop)
   static check_size<sizeof(IntervalTreeNode), 20 + sizeof(int)> __UnityEngine_Timeline_IntervalTreeNodeSizeCheck;

@@ -91,7 +91,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.EventModifiers FunctionKey
     static void _set_FunctionKey(::UnityEngine::EventModifiers value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.EventModifiers
   #pragma pack(pop)
   static check_size<sizeof(EventModifiers), 0 + sizeof(int)> __UnityEngine_EventModifiersSizeCheck;

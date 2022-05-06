@@ -43,21 +43,20 @@ namespace MasterServer {
       return *reinterpret_cast<::MasterServer::IUserMasterServerMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.UserMasterServerMessageReceivedAcknowledge> get_pool()
-    // Offset: 0x16F501C
+    // Offset: 0x172D92C
     static ::GlobalNamespace::PacketPool_1<::MasterServer::UserMasterServerMessageReceivedAcknowledge*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x16F7AE8
+    // Offset: 0x17303F8
     // Implemented from: BGNet.Core.Messages.BaseAcknowledgeMessage
     // Base method: System.Void BaseAcknowledgeMessage::.ctor()
     // Base method: System.Void BaseResponse::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserMasterServerMessageReceivedAcknowledge* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::MasterServer::UserMasterServerMessageReceivedAcknowledge::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UserMasterServerMessageReceivedAcknowledge*, creationType>()));
     }
     // public override System.Void Release()
-    // Offset: 0x16F7A8C
+    // Offset: 0x173039C
     // Implemented from: BGNet.Core.Messages.BaseResponse
     // Base method: System.Void BaseResponse::Release()
     void Release();

@@ -50,15 +50,7 @@ namespace Tweening {
   // [TokenAttribute] Offset: FFFFFFFF
   class TweeningManager : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.List`1<Tweening.Tween> _activeTweens
     // Size: 0x8
     // Offset: 0x18
@@ -93,61 +85,59 @@ namespace Tweening {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Tweening.Tween> _activeTweens
-    ::System::Collections::Generic::List_1<::Tweening::Tween*>*& dyn__activeTweens();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Tweening::Tween*>*& dyn__activeTweens();
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<Tweening.Tween> _activeTweensSet
-    ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*& dyn__activeTweensSet();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*& dyn__activeTweensSet();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Object,System.Collections.Generic.HashSet`1<Tweening.Tween>> _tweensByOwner
-    ::System::Collections::Generic::Dictionary_2<::Il2CppObject*, ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>*& dyn__tweensByOwner();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::Il2CppObject*, ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>*& dyn__tweensByOwner();
     // Get instance field reference: private readonly System.Collections.Generic.Queue`1<System.Collections.Generic.HashSet`1<Tweening.Tween>> _reusableTweenHashSets
-    ::System::Collections::Generic::Queue_1<::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>*& dyn__reusableTweenHashSets();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Queue_1<::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>*& dyn__reusableTweenHashSets();
     // Get instance field reference: private System.Single _prevTime
-    float& dyn__prevTime();
-    // protected System.Void Start()
-    // Offset: 0x2AB41A8
-    void Start();
-    // protected System.Void LateUpdate()
-    // Offset: 0x2AB4214
-    void LateUpdate();
-    // protected System.Single GetTime()
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    float GetTime();
-    // public Tweening.Tween AddTween(Tweening.Tween tween, System.Object owner)
-    // Offset: 0x2AB43CC
-    ::Tweening::Tween* AddTween(::Tweening::Tween* tween, ::Il2CppObject* owner);
-    // public Tweening.Tween RestartTween(Tweening.Tween tween, System.Object owner)
-    // Offset: 0x2AB44F4
-    ::Tweening::Tween* RestartTween(::Tweening::Tween* tween, ::Il2CppObject* owner);
-    // public Tweening.Tween ResumeTween(Tweening.Tween tween, System.Object owner)
-    // Offset: 0x2AB4554
-    ::Tweening::Tween* ResumeTween(::Tweening::Tween* tween, ::Il2CppObject* owner);
-    // public System.Void KillAllTweens(System.Object owner)
-    // Offset: 0x2AB4584
-    void KillAllTweens(::Il2CppObject* owner);
-    // private System.Boolean AddTweenToDataStructures(Tweening.Tween tween, System.Object owner)
-    // Offset: 0x2AB4418
-    bool AddTweenToDataStructures(::Tweening::Tween* tween, ::Il2CppObject* owner);
-    // private System.Void AddTweenToOwnerDictionary(Tweening.Tween tween, System.Object owner)
-    // Offset: 0x2AB46F8
-    void AddTweenToOwnerDictionary(::Tweening::Tween* tween, ::Il2CppObject* owner);
+    [[deprecated("Use field access instead!")]] float& dyn__prevTime();
     // protected System.Void .ctor()
-    // Offset: 0x2AB3FC8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1493098
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TweeningManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Tweening::TweeningManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TweeningManager*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x1493278
+    void Start();
+    // protected System.Void LateUpdate()
+    // Offset: 0x14932E4
+    void LateUpdate();
+    // protected System.Single GetTime()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    float GetTime();
+    // public Tweening.Tween AddTween(Tweening.Tween tween, System.Object owner)
+    // Offset: 0x149349C
+    ::Tweening::Tween* AddTween(::Tweening::Tween* tween, ::Il2CppObject* owner);
+    // public Tweening.Tween RestartTween(Tweening.Tween tween, System.Object owner)
+    // Offset: 0x14935C4
+    ::Tweening::Tween* RestartTween(::Tweening::Tween* tween, ::Il2CppObject* owner);
+    // public Tweening.Tween ResumeTween(Tweening.Tween tween, System.Object owner)
+    // Offset: 0x1493624
+    ::Tweening::Tween* ResumeTween(::Tweening::Tween* tween, ::Il2CppObject* owner);
+    // public System.Void KillAllTweens(System.Object owner)
+    // Offset: 0x1493654
+    void KillAllTweens(::Il2CppObject* owner);
+    // private System.Boolean AddTweenToDataStructures(Tweening.Tween tween, System.Object owner)
+    // Offset: 0x14934E8
+    bool AddTweenToDataStructures(::Tweening::Tween* tween, ::Il2CppObject* owner);
+    // private System.Void AddTweenToOwnerDictionary(Tweening.Tween tween, System.Object owner)
+    // Offset: 0x14937C8
+    void AddTweenToOwnerDictionary(::Tweening::Tween* tween, ::Il2CppObject* owner);
   }; // Tweening.TweeningManager
   #pragma pack(pop)
   static check_size<sizeof(TweeningManager), 56 + sizeof(float)> __Tweening_TweeningManagerSizeCheck;
   static_assert(sizeof(TweeningManager) == 0x3C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Tweening::TweeningManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Tweening::TweeningManager::Start
 // Il2CppName: Start
 template<>
@@ -231,7 +221,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tween
     return ::il2cpp_utils::FindMethod(classof(Tweening::TweeningManager*), "AddTweenToOwnerDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tween, owner});
   }
 };
-// Writing MetadataGetter for method: Tweening::TweeningManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

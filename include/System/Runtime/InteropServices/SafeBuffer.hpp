@@ -24,15 +24,7 @@ namespace System::Runtime::InteropServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class SafeBuffer : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean inited
     // Size: 0x1
     // Offset: 0x1E
@@ -45,12 +37,12 @@ namespace System::Runtime::InteropServices {
       return inited;
     }
     // Get instance field reference: private System.Boolean inited
-    bool& dyn_inited();
+    [[deprecated("Use field access instead!")]] bool& dyn_inited();
     // public System.Void AcquirePointer(ref System.Byte* pointer)
-    // Offset: 0x1D4BE30
+    // Offset: 0x1D87388
     void AcquirePointer(ByRef<uint8_t*> pointer);
     // public System.Void ReleasePointer()
-    // Offset: 0x1D4BFC4
+    // Offset: 0x1D8751C
     void ReleasePointer();
   }; // System.Runtime.InteropServices.SafeBuffer
   #pragma pack(pop)

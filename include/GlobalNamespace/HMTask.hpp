@@ -48,15 +48,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::HMTask::$RunCoroutine$d__8
     class $RunCoroutine$d__8;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Threading.Thread _thread
     // Size: 0x8
     // Offset: 0x10
@@ -95,41 +87,41 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Threading.Thread _thread
-    ::System::Threading::Thread*& dyn__thread();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Thread*& dyn__thread();
     // Get instance field reference: private System.Action _job
-    ::System::Action*& dyn__job();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn__job();
     // Get instance field reference: private System.Action _finishCallback
-    ::System::Action*& dyn__finishCallback();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn__finishCallback();
     // Get instance field reference: private System.Boolean _canceled
-    bool& dyn__canceled();
+    [[deprecated("Use field access instead!")]] bool& dyn__canceled();
     // Get instance field reference: private System.Boolean _started
-    bool& dyn__started();
+    [[deprecated("Use field access instead!")]] bool& dyn__started();
     // Get instance field reference: private System.Boolean _finished
-    bool& dyn__finished();
+    [[deprecated("Use field access instead!")]] bool& dyn__finished();
     // public System.Void .ctor(System.Action job, System.Action finishCallback)
-    // Offset: 0x156C234
+    // Offset: 0x15A2B3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMTask* New_ctor(::System::Action* job, ::System::Action* finishCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HMTask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMTask*, creationType>(job, finishCallback)));
     }
     // public System.Void Run()
-    // Offset: 0x156C344
+    // Offset: 0x15A2C4C
     void Run();
     // public System.Collections.IEnumerator RunCoroutine()
-    // Offset: 0x1572D90
+    // Offset: 0x15A96A0
     ::System::Collections::IEnumerator* RunCoroutine();
     // private System.Void RunJob()
-    // Offset: 0x1572E2C
+    // Offset: 0x15A973C
     void RunJob();
     // public System.Void Cancel()
-    // Offset: 0x1572F00
+    // Offset: 0x15A9810
     void Cancel();
     // private System.Boolean <RunCoroutine>b__8_0()
-    // Offset: 0x1572F0C
+    // Offset: 0x15A981C
     bool $RunCoroutine$b__8_0();
     // private System.Void <RunJob>b__9_0()
-    // Offset: 0x1572F14
+    // Offset: 0x15A9824
     void $RunJob$b__9_0();
   }; // HMTask
   #pragma pack(pop)

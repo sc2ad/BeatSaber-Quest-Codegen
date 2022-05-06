@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardUploadData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String playerName
     // Size: 0x8
     // Offset: 0x10
@@ -112,29 +104,29 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Collections::Generic::List_1<::StringW>*) == 0x8);
     public:
     // Get instance field reference: public System.String playerName
-    ::StringW& dyn_playerName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_playerName();
     // Get instance field reference: public System.String playerId
-    ::StringW& dyn_playerId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_playerId();
     // Get instance field reference: public System.String score
-    ::StringW& dyn_score();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_score();
     // Get instance field reference: public System.String leaderboardId
-    ::StringW& dyn_leaderboardId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_leaderboardId();
     // Get instance field reference: public System.String songName
-    ::StringW& dyn_songName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_songName();
     // Get instance field reference: public System.String songSubName
-    ::StringW& dyn_songSubName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_songSubName();
     // Get instance field reference: public System.String authorName
-    ::StringW& dyn_authorName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_authorName();
     // Get instance field reference: public System.String bpm
-    ::StringW& dyn_bpm();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_bpm();
     // Get instance field reference: public System.String difficulty
-    ::StringW& dyn_difficulty();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_difficulty();
     // Get instance field reference: public System.String infoHash
-    ::StringW& dyn_infoHash();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_infoHash();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> modifiers
-    ::System::Collections::Generic::List_1<::StringW>*& dyn_modifiers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn_modifiers();
     // public System.Void .ctor(System.String playerName, System.String playerId, System.String score, System.String leaderboardId, System.String songName, System.String songSubName, System.String authorName, System.String bpm, System.String difficulty, System.String infoHash, System.Collections.Generic.List`1<System.String> modifiers)
-    // Offset: 0x13B7E74
+    // Offset: 0x13B3320
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardUploadData* New_ctor(::StringW playerName, ::StringW playerId, ::StringW score, ::StringW leaderboardId, ::StringW songName, ::StringW songSubName, ::StringW authorName, ::StringW bpm, ::StringW difficulty, ::StringW infoHash, ::System::Collections::Generic::List_1<::StringW>* modifiers) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardUploadData::.ctor");

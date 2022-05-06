@@ -33,15 +33,7 @@ namespace Zenject::Internal {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ZenUtilInternal::$$c__DisplayClass10_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.SceneManagement.Scene scene
     // Size: 0x4
     // Offset: 0x10
@@ -54,25 +46,27 @@ namespace Zenject::Internal {
       return scene;
     }
     // Get instance field reference: public UnityEngine.SceneManagement.Scene scene
-    ::UnityEngine::SceneManagement::Scene& dyn_scene();
-    // System.Boolean <GetRootGameObjects>b__1(UnityEngine.GameObject x)
-    // Offset: 0x1BD880C
-    bool $GetRootGameObjects$b__1(::UnityEngine::GameObject* x);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::SceneManagement::Scene& dyn_scene();
     // public System.Void .ctor()
-    // Offset: 0x1BD84F4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C12ADC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenUtilInternal::$$c__DisplayClass10_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::ZenUtilInternal::$$c__DisplayClass10_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenUtilInternal::$$c__DisplayClass10_0*, creationType>()));
     }
+    // System.Boolean <GetRootGameObjects>b__1(UnityEngine.GameObject x)
+    // Offset: 0x1C12DF4
+    bool $GetRootGameObjects$b__1(::UnityEngine::GameObject* x);
   }; // Zenject.Internal.ZenUtilInternal/Zenject.Internal.<>c__DisplayClass10_0
   #pragma pack(pop)
   static check_size<sizeof(ZenUtilInternal::$$c__DisplayClass10_0), 16 + sizeof(::UnityEngine::SceneManagement::Scene)> __Zenject_Internal_ZenUtilInternal_$$c__DisplayClass10_0SizeCheck;
   static_assert(sizeof(ZenUtilInternal::$$c__DisplayClass10_0) == 0x14);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::$$c__DisplayClass10_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::$$c__DisplayClass10_0::$GetRootGameObjects$b__1
 // Il2CppName: <GetRootGameObjects>b__1
 template<>
@@ -82,7 +76,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenUtilInternal::$$c__DisplayClass10_0*), "<GetRootGameObjects>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::$$c__DisplayClass10_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

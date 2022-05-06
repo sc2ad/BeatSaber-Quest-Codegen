@@ -50,15 +50,7 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509ChainPolicy : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Security.Cryptography.OidCollection apps
     // Size: 0x8
     // Offset: 0x10
@@ -117,72 +109,70 @@ namespace System::Security::Cryptography::X509Certificates {
     static_assert(sizeof(::System::DateTime) == 0x8);
     public:
     // Get instance field reference: private System.Security.Cryptography.OidCollection apps
-    ::System::Security::Cryptography::OidCollection*& dyn_apps();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::OidCollection*& dyn_apps();
     // Get instance field reference: private System.Security.Cryptography.OidCollection cert
-    ::System::Security::Cryptography::OidCollection*& dyn_cert();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::OidCollection*& dyn_cert();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509CertificateCollection store
-    ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& dyn_store();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& dyn_store();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate2Collection store2
-    ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*& dyn_store2();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*& dyn_store2();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509RevocationFlag rflag
-    ::System::Security::Cryptography::X509Certificates::X509RevocationFlag& dyn_rflag();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509RevocationFlag& dyn_rflag();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509RevocationMode mode
-    ::System::Security::Cryptography::X509Certificates::X509RevocationMode& dyn_mode();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509RevocationMode& dyn_mode();
     // Get instance field reference: private System.TimeSpan timeout
-    ::System::TimeSpan& dyn_timeout();
+    [[deprecated("Use field access instead!")]] ::System::TimeSpan& dyn_timeout();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509VerificationFlags vflags
-    ::System::Security::Cryptography::X509Certificates::X509VerificationFlags& dyn_vflags();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509VerificationFlags& dyn_vflags();
     // Get instance field reference: private System.DateTime vtime
-    ::System::DateTime& dyn_vtime();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_vtime();
     // public System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_ExtraStore()
-    // Offset: 0x1BBDAC8
+    // Offset: 0x1BF80B0
     ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_ExtraStore();
     // public System.Security.Cryptography.X509Certificates.X509RevocationFlag get_RevocationFlag()
-    // Offset: 0x1BBFC7C
+    // Offset: 0x1BFA264
     ::System::Security::Cryptography::X509Certificates::X509RevocationFlag get_RevocationFlag();
     // public System.Void set_RevocationFlag(System.Security.Cryptography.X509Certificates.X509RevocationFlag value)
-    // Offset: 0x1BBFC84
+    // Offset: 0x1BFA26C
     void set_RevocationFlag(::System::Security::Cryptography::X509Certificates::X509RevocationFlag value);
     // public System.Security.Cryptography.X509Certificates.X509RevocationMode get_RevocationMode()
-    // Offset: 0x1BBFD18
+    // Offset: 0x1BFA300
     ::System::Security::Cryptography::X509Certificates::X509RevocationMode get_RevocationMode();
     // public System.Void set_RevocationMode(System.Security.Cryptography.X509Certificates.X509RevocationMode value)
-    // Offset: 0x1BBFD20
+    // Offset: 0x1BFA308
     void set_RevocationMode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
     // public System.Void set_UrlRetrievalTimeout(System.TimeSpan value)
-    // Offset: 0x1BBFDB4
+    // Offset: 0x1BFA39C
     void set_UrlRetrievalTimeout(::System::TimeSpan value);
     // public System.Security.Cryptography.X509Certificates.X509VerificationFlags get_VerificationFlags()
-    // Offset: 0x1BBFDBC
+    // Offset: 0x1BFA3A4
     ::System::Security::Cryptography::X509Certificates::X509VerificationFlags get_VerificationFlags();
     // public System.Void set_VerificationFlags(System.Security.Cryptography.X509Certificates.X509VerificationFlags value)
-    // Offset: 0x1BBFDC4
+    // Offset: 0x1BFA3AC
     void set_VerificationFlags(::System::Security::Cryptography::X509Certificates::X509VerificationFlags value);
     // public System.DateTime get_VerificationTime()
-    // Offset: 0x1BBFE58
+    // Offset: 0x1BFA440
     ::System::DateTime get_VerificationTime();
     // public System.Void set_VerificationTime(System.DateTime value)
-    // Offset: 0x1BBFE60
+    // Offset: 0x1BFA448
     void set_VerificationTime(::System::DateTime value);
+    // public System.Void .ctor()
+    // Offset: 0x1BF6C08
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static X509ChainPolicy* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509ChainPolicy::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<X509ChainPolicy*, creationType>()));
+    }
     // System.Void .ctor(System.Security.Cryptography.X509Certificates.X509CertificateCollection store)
-    // Offset: 0x1BBFC4C
+    // Offset: 0x1BFA234
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ChainPolicy* New_ctor(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* store) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509ChainPolicy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ChainPolicy*, creationType>(store)));
     }
     // public System.Void Reset()
-    // Offset: 0x1BBFB64
+    // Offset: 0x1BFA14C
     void Reset();
-    // public System.Void .ctor()
-    // Offset: 0x1BBC620
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static X509ChainPolicy* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509ChainPolicy::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<X509ChainPolicy*, creationType>()));
-    }
   }; // System.Security.Cryptography.X509Certificates.X509ChainPolicy
   #pragma pack(pop)
   static check_size<sizeof(X509ChainPolicy), 72 + sizeof(::System::DateTime)> __System_Security_Cryptography_X509Certificates_X509ChainPolicySizeCheck;
@@ -278,6 +268,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainPolicy::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainPolicy::Reset
 // Il2CppName: Reset
 template<>
@@ -286,7 +280,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509ChainPolicy*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainPolicy::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -40,15 +40,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
   // [TokenAttribute] Offset: FFFFFFFF
   class DHBasicKeyPairGenerator : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Org.BouncyCastle.Crypto.Parameters.DHKeyGenerationParameters param
     // Size: 0x8
     // Offset: 0x10
@@ -61,28 +53,30 @@ namespace Org::BouncyCastle::Crypto::Generators {
       return param;
     }
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.DHKeyGenerationParameters param
-    ::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*& dyn_param();
-    // public System.Void Init(Org.BouncyCastle.Crypto.KeyGenerationParameters parameters)
-    // Offset: 0x1DF418C
-    void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
-    // public Org.BouncyCastle.Crypto.AsymmetricCipherKeyPair GenerateKeyPair()
-    // Offset: 0x1DF421C
-    ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*& dyn_param();
     // public System.Void .ctor()
-    // Offset: 0x1DF4568
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E2EE34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHBasicKeyPairGenerator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHBasicKeyPairGenerator*, creationType>()));
     }
+    // public System.Void Init(Org.BouncyCastle.Crypto.KeyGenerationParameters parameters)
+    // Offset: 0x1E2EA58
+    void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
+    // public Org.BouncyCastle.Crypto.AsymmetricCipherKeyPair GenerateKeyPair()
+    // Offset: 0x1E2EAE8
+    ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
   }; // Org.BouncyCastle.Crypto.Generators.DHBasicKeyPairGenerator
   #pragma pack(pop)
   static check_size<sizeof(DHBasicKeyPairGenerator), 16 + sizeof(::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*)> __Org_BouncyCastle_Crypto_Generators_DHBasicKeyPairGeneratorSizeCheck;
   static_assert(sizeof(DHBasicKeyPairGenerator) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator::Init
 // Il2CppName: Init
 template<>
@@ -100,7 +94,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::Boun
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator*), "GenerateKeyPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -39,15 +39,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ModifiersSelectionView::$$c__DisplayClass3_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams
     // Size: 0x8
     // Offset: 0x10
@@ -60,25 +52,27 @@ namespace GlobalNamespace {
       return modifierParams;
     }
     // Get instance field reference: public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams
-    ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*& dyn_modifierParams();
-    // System.Void <SetGameplayModifiers>b__0(System.Int32 idx, GameplayModifierInfoListItem item)
-    // Offset: 0x13C9D0C
-    void $SetGameplayModifiers$b__0(int idx, ::GlobalNamespace::GameplayModifierInfoListItem* item);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*& dyn_modifierParams();
     // public System.Void .ctor()
-    // Offset: 0x13C9CFC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13C61A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ModifiersSelectionView::$$c__DisplayClass3_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ModifiersSelectionView::$$c__DisplayClass3_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ModifiersSelectionView::$$c__DisplayClass3_0*, creationType>()));
     }
+    // System.Void <SetGameplayModifiers>b__0(System.Int32 idx, GameplayModifierInfoListItem item)
+    // Offset: 0x13C61B8
+    void $SetGameplayModifiers$b__0(int idx, ::GlobalNamespace::GameplayModifierInfoListItem* item);
   }; // ModifiersSelectionView/<>c__DisplayClass3_0
   #pragma pack(pop)
   static check_size<sizeof(ModifiersSelectionView::$$c__DisplayClass3_0), 16 + sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*)> __GlobalNamespace_ModifiersSelectionView_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(ModifiersSelectionView::$$c__DisplayClass3_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ModifiersSelectionView::$$c__DisplayClass3_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ModifiersSelectionView::$$c__DisplayClass3_0::$SetGameplayModifiers$b__0
 // Il2CppName: <SetGameplayModifiers>b__0
 template<>
@@ -89,7 +83,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ModifiersSelectionView::$$c__DisplayClass3_0*), "<SetGameplayModifiers>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{idx, item});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ModifiersSelectionView::$$c__DisplayClass3_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -38,15 +38,7 @@ namespace HoudiniEngineUnity {
     public:
     // Writing base type padding for base size: 0x7D to desired offset: 0x80
     char ___base_padding[0x3] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String _filePath
     // Size: 0x8
     // Offset: 0x80
@@ -55,23 +47,18 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String _filePath
-    ::StringW& dyn__filePath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__filePath();
     // public System.Void .ctor()
-    // Offset: 0x18DBD54
+    // Offset: 0x1914664
     // Implemented from: HoudiniEngineUnity.HEU_BaseSync
     // Base method: System.Void HEU_BaseSync::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_GeoSync* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeoSync::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_GeoSync*, creationType>()));
     }
     // protected override System.Void SetupLoadTask(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x18DBCAC
+    // Offset: 0x19145BC
     // Implemented from: HoudiniEngineUnity.HEU_BaseSync
     // Base method: System.Void HEU_BaseSync::SetupLoadTask(HoudiniEngineUnity.HEU_SessionBase session)
     void SetupLoadTask(::HoudiniEngineUnity::HEU_SessionBase* session);

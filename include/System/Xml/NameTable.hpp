@@ -37,15 +37,7 @@ namespace System::Xml {
     public:
     // Nested type: ::System::Xml::NameTable::Entry
     class Entry;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Xml.NameTable/System.Xml.Entry[] entries
     // Size: 0x8
     // Offset: 0x10
@@ -72,44 +64,43 @@ namespace System::Xml {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Xml.NameTable/System.Xml.Entry[] entries
-    ::ArrayW<::System::Xml::NameTable::Entry*>& dyn_entries();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Xml::NameTable::Entry*>& dyn_entries();
     // Get instance field reference: private System.Int32 count
-    int& dyn_count();
+    [[deprecated("Use field access instead!")]] int& dyn_count();
     // Get instance field reference: private System.Int32 mask
-    int& dyn_mask();
+    [[deprecated("Use field access instead!")]] int& dyn_mask();
     // Get instance field reference: private System.Int32 hashCodeRandomizer
-    int& dyn_hashCodeRandomizer();
+    [[deprecated("Use field access instead!")]] int& dyn_hashCodeRandomizer();
     // private System.String AddEntry(System.String str, System.Int32 hashCode)
-    // Offset: 0x1A8EF88
+    // Offset: 0x1AC9570
     ::StringW AddEntry(::StringW str, int hashCode);
     // private System.Void Grow()
-    // Offset: 0x1A8F49C
+    // Offset: 0x1AC9A84
     void Grow();
     // static private System.Boolean TextEquals(System.String str1, System.Char[] str2, System.Int32 str2Start, System.Int32 str2Length)
-    // Offset: 0x1A8F230
+    // Offset: 0x1AC9818
     static bool TextEquals(::StringW str1, ::ArrayW<::Il2CppChar> str2, int str2Start, int str2Length);
     // public System.Void .ctor()
-    // Offset: 0x1A8ED94
+    // Offset: 0x1AC937C
     // Implemented from: System.Xml.XmlNameTable
     // Base method: System.Void XmlNameTable::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameTable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::NameTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameTable*, creationType>()));
     }
     // public override System.String Add(System.String key)
-    // Offset: 0x1A8EE0C
+    // Offset: 0x1AC93F4
     // Implemented from: System.Xml.XmlNameTable
     // Base method: System.String XmlNameTable::Add(System.String key)
     ::StringW Add(::StringW key);
     // public override System.String Add(System.Char[] key, System.Int32 start, System.Int32 len)
-    // Offset: 0x1A8F0AC
+    // Offset: 0x1AC9694
     // Implemented from: System.Xml.XmlNameTable
     // Base method: System.String XmlNameTable::Add(System.Char[] key, System.Int32 start, System.Int32 len)
     ::StringW Add(::ArrayW<::Il2CppChar> key, int start, int len);
     // public override System.String Get(System.String value)
-    // Offset: 0x1A8F2F0
+    // Offset: 0x1AC98D8
     // Implemented from: System.Xml.XmlNameTable
     // Base method: System.String XmlNameTable::Get(System.String value)
     ::StringW Get(::StringW value);

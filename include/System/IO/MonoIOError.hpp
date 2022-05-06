@@ -198,7 +198,7 @@ namespace System::IO {
     // Set static field: static public System.IO.MonoIOError ERROR_ENCRYPTION_FAILED
     static void _set_ERROR_ENCRYPTION_FAILED(::System::IO::MonoIOError value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.IO.MonoIOError
   #pragma pack(pop)
   static check_size<sizeof(MonoIOError), 0 + sizeof(int)> __System_IO_MonoIOErrorSizeCheck;

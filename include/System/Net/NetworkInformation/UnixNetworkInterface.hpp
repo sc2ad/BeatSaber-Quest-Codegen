@@ -50,15 +50,7 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnixNetworkInterface : public ::System::Net::NetworkInformation::NetworkInterface {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected System.Net.NetworkInformation.IPInterfaceProperties ipproperties
     // Size: 0x8
     // Offset: 0x10
@@ -91,35 +83,35 @@ namespace System::Net::NetworkInformation {
     static_assert(sizeof(::System::Net::NetworkInformation::NetworkInterfaceType) == 0x4);
     public:
     // Get instance field reference: protected System.Net.NetworkInformation.IPInterfaceProperties ipproperties
-    ::System::Net::NetworkInformation::IPInterfaceProperties*& dyn_ipproperties();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::IPInterfaceProperties*& dyn_ipproperties();
     // Get instance field reference: private System.String name
-    ::StringW& dyn_name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_name();
     // Get instance field reference: protected System.Collections.Generic.List`1<System.Net.IPAddress> addresses
-    ::System::Collections::Generic::List_1<::System::Net::IPAddress*>*& dyn_addresses();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Net::IPAddress*>*& dyn_addresses();
     // Get instance field reference: private System.Byte[] macAddress
-    ::ArrayW<uint8_t>& dyn_macAddress();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_macAddress();
     // Get instance field reference: private System.Net.NetworkInformation.NetworkInterfaceType type
-    ::System::Net::NetworkInformation::NetworkInterfaceType& dyn_type();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::NetworkInterfaceType& dyn_type();
     // System.Void .ctor(System.String name)
-    // Offset: 0x1B2CFF8
+    // Offset: 0x1B675E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnixNetworkInterface* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::UnixNetworkInterface::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnixNetworkInterface*, creationType>(name)));
     }
     // System.Void AddAddress(System.Net.IPAddress address)
-    // Offset: 0x1B2B6D4
+    // Offset: 0x1B65CBC
     void AddAddress(::System::Net::IPAddress* address);
     // System.Void SetLinkLayerInfo(System.Int32 index, System.Byte[] macAddress, System.Net.NetworkInformation.NetworkInterfaceType type)
-    // Offset: 0x1B2B73C
+    // Offset: 0x1B65D24
     void SetLinkLayerInfo(int index, ::ArrayW<uint8_t> macAddress, ::System::Net::NetworkInformation::NetworkInterfaceType type);
     // public override System.String get_Name()
-    // Offset: 0x1B2D07C
+    // Offset: 0x1B67664
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.String NetworkInterface::get_Name()
     ::StringW get_Name();
     // public override System.Net.NetworkInformation.NetworkInterfaceType get_NetworkInterfaceType()
-    // Offset: 0x1B2D084
+    // Offset: 0x1B6766C
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.NetworkInterfaceType NetworkInterface::get_NetworkInterfaceType()
     ::System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();

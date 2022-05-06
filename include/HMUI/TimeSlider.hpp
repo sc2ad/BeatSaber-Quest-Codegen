@@ -67,20 +67,12 @@ namespace HMUI {
       // Set static field: static public HMUI.TimeSlider/HMUI.TimeType Miliseconds
       static void _set_Miliseconds(::HMUI::TimeSlider::TimeType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // HMUI.TimeSlider/HMUI.TimeType
     #pragma pack(pop)
     static check_size<sizeof(TimeSlider::TimeType), 0 + sizeof(int)> __HMUI_TimeSlider_TimeTypeSizeCheck;
     static_assert(sizeof(TimeSlider::TimeType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.TimeSlider/HMUI.TimeType _timeType
     // Size: 0x4
     // Offset: 0x168
@@ -89,26 +81,19 @@ namespace HMUI {
     static_assert(sizeof(::HMUI::TimeSlider::TimeType) == 0x4);
     public:
     // Get instance field reference: private HMUI.TimeSlider/HMUI.TimeType _timeType
-    ::HMUI::TimeSlider::TimeType& dyn__timeType();
+    [[deprecated("Use field access instead!")]] ::HMUI::TimeSlider::TimeType& dyn__timeType();
     // public System.Void .ctor()
-    // Offset: 0x1693E68
+    // Offset: 0x16CA778
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.Void RangeValuesTextSlider::.ctor()
     // Base method: System.Void TextSlider::.ctor()
-    // Base method: System.Void Selectable::.ctor()
-    // Base method: System.Void UIBehaviour::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeSlider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::TimeSlider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeSlider*, creationType>()));
     }
     // protected override System.String TextForValue(System.Single value)
-    // Offset: 0x1693CB0
+    // Offset: 0x16CA5C0
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
     ::StringW TextForValue(float value);

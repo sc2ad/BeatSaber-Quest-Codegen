@@ -29,15 +29,7 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   class CallContextRemotingData : public ::Il2CppObject/*, public ::System::ICloneable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _logicalCallID
     // Size: 0x8
     // Offset: 0x10
@@ -54,21 +46,21 @@ namespace System::Runtime::Remoting::Messaging {
       return logicalCallID;
     }
     // Get instance field reference: private System.String _logicalCallID
-    ::StringW& dyn__logicalCallID();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__logicalCallID();
     // System.String get_LogicalCallID()
-    // Offset: 0x1C65EE8
+    // Offset: 0x1C831F4
     ::StringW get_LogicalCallID();
     // System.Void set_LogicalCallID(System.String value)
-    // Offset: 0x1C65EF0
+    // Offset: 0x1C831FC
     void set_LogicalCallID(::StringW value);
     // System.Boolean get_HasInfo()
-    // Offset: 0x1C65EF8
+    // Offset: 0x1C83204
     bool get_HasInfo();
     // public System.Object Clone()
-    // Offset: 0x1C65F08
+    // Offset: 0x1C83214
     ::Il2CppObject* Clone();
     // public System.Void .ctor()
-    // Offset: 0x1C65F78
+    // Offset: 0x1C83284
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

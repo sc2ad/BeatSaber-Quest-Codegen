@@ -30,15 +30,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightColorBaseData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Single beat
     // Size: 0x4
     // Offset: 0x10
@@ -71,17 +63,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public readonly System.Single beat
-    float& dyn_beat();
+    [[deprecated("Use field access instead!")]] float& dyn_beat();
     // Get instance field reference: public readonly BeatmapEventTransitionType transitionType
-    ::GlobalNamespace::BeatmapEventTransitionType& dyn_transitionType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapEventTransitionType& dyn_transitionType();
     // Get instance field reference: public readonly EnvironmentColorType colorType
-    ::GlobalNamespace::EnvironmentColorType& dyn_colorType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentColorType& dyn_colorType();
     // Get instance field reference: public readonly System.Single brightness
-    float& dyn_brightness();
+    [[deprecated("Use field access instead!")]] float& dyn_brightness();
     // Get instance field reference: public readonly System.Int32 strobeBeatFrequency
-    int& dyn_strobeBeatFrequency();
+    [[deprecated("Use field access instead!")]] int& dyn_strobeBeatFrequency();
     // public System.Void .ctor(System.Single beat, BeatmapEventTransitionType transitionType, EnvironmentColorType colorType, System.Single brightness, System.Int32 strobeBeatFrequency)
-    // Offset: 0x148B590
+    // Offset: 0x14C1E10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightColorBaseData* New_ctor(float beat, ::GlobalNamespace::BeatmapEventTransitionType transitionType, ::GlobalNamespace::EnvironmentColorType colorType, float brightness, int strobeBeatFrequency) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightColorBaseData::.ctor");

@@ -51,15 +51,7 @@ namespace System::Runtime::Remoting {
   // [TokenAttribute] Offset: FFFFFFFF
   class Identity : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected System.String _objectUri
     // Size: 0x8
     // Offset: 0x10
@@ -104,51 +96,51 @@ namespace System::Runtime::Remoting {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: protected System.String _objectUri
-    ::StringW& dyn__objectUri();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__objectUri();
     // Get instance field reference: protected System.Runtime.Remoting.Messaging.IMessageSink _channelSink
-    ::System::Runtime::Remoting::Messaging::IMessageSink*& dyn__channelSink();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Messaging::IMessageSink*& dyn__channelSink();
     // Get instance field reference: protected System.Runtime.Remoting.Messaging.IMessageSink _envoySink
-    ::System::Runtime::Remoting::Messaging::IMessageSink*& dyn__envoySink();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Messaging::IMessageSink*& dyn__envoySink();
     // Get instance field reference: private System.Runtime.Remoting.Contexts.DynamicPropertyCollection _clientDynamicProperties
-    ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection*& dyn__clientDynamicProperties();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection*& dyn__clientDynamicProperties();
     // Get instance field reference: private System.Runtime.Remoting.Contexts.DynamicPropertyCollection _serverDynamicProperties
-    ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection*& dyn__serverDynamicProperties();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection*& dyn__serverDynamicProperties();
     // Get instance field reference: protected System.Runtime.Remoting.ObjRef _objRef
-    ::System::Runtime::Remoting::ObjRef*& dyn__objRef();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::ObjRef*& dyn__objRef();
     // Get instance field reference: private System.Boolean _disposed
-    bool& dyn__disposed();
+    [[deprecated("Use field access instead!")]] bool& dyn__disposed();
     // public System.Runtime.Remoting.Messaging.IMessageSink get_ChannelSink()
-    // Offset: 0x1C601B8
+    // Offset: 0x1C7D4C4
     ::System::Runtime::Remoting::Messaging::IMessageSink* get_ChannelSink();
     // public System.Void set_ChannelSink(System.Runtime.Remoting.Messaging.IMessageSink value)
-    // Offset: 0x1C601C0
+    // Offset: 0x1C7D4CC
     void set_ChannelSink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
     // public System.Runtime.Remoting.Messaging.IMessageSink get_EnvoySink()
-    // Offset: 0x1C601C8
+    // Offset: 0x1C7D4D4
     ::System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySink();
     // public System.String get_ObjectUri()
-    // Offset: 0x1C601D0
+    // Offset: 0x1C7D4DC
     ::StringW get_ObjectUri();
     // public System.Void set_ObjectUri(System.String value)
-    // Offset: 0x1C601D8
+    // Offset: 0x1C7D4E4
     void set_ObjectUri(::StringW value);
     // public System.Boolean get_IsConnected()
-    // Offset: 0x1C601E0
+    // Offset: 0x1C7D4EC
     bool get_IsConnected();
     // public System.Boolean get_Disposed()
-    // Offset: 0x1C601F0
+    // Offset: 0x1C7D4FC
     bool get_Disposed();
     // public System.Void set_Disposed(System.Boolean value)
-    // Offset: 0x1C601F8
+    // Offset: 0x1C7D504
     void set_Disposed(bool value);
     // public System.Runtime.Remoting.Contexts.DynamicPropertyCollection get_ClientDynamicProperties()
-    // Offset: 0x1C5D2C4
+    // Offset: 0x1C7A5D0
     ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* get_ClientDynamicProperties();
     // public System.Boolean get_HasServerDynamicSinks()
-    // Offset: 0x1C60204
+    // Offset: 0x1C7D510
     bool get_HasServerDynamicSinks();
     // public System.Void .ctor(System.String objectUri)
-    // Offset: 0x1C592BC
+    // Offset: 0x1C765C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Identity* New_ctor(::StringW objectUri) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Identity::.ctor");
@@ -158,10 +150,10 @@ namespace System::Runtime::Remoting {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType);
     // public System.Void NotifyClientDynamicSinks(System.Boolean start, System.Runtime.Remoting.Messaging.IMessage req_msg, System.Boolean client_site, System.Boolean async)
-    // Offset: 0x1C60248
+    // Offset: 0x1C7D554
     void NotifyClientDynamicSinks(bool start, ::System::Runtime::Remoting::Messaging::IMessage* req_msg, bool client_site, bool async);
     // public System.Void NotifyServerDynamicSinks(System.Boolean start, System.Runtime.Remoting.Messaging.IMessage req_msg, System.Boolean client_site, System.Boolean async)
-    // Offset: 0x1C602DC
+    // Offset: 0x1C7D5E8
     void NotifyServerDynamicSinks(bool start, ::System::Runtime::Remoting::Messaging::IMessage* req_msg, bool client_site, bool async);
   }; // System.Runtime.Remoting.Identity
   #pragma pack(pop)

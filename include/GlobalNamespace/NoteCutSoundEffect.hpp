@@ -62,15 +62,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::NoteCutSoundEffect::Pool
     class Pool;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.AudioSource _audioSource
     // Size: 0x8
     // Offset: 0x18
@@ -245,101 +237,95 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kEndFadeLength
     static void _set_kEndFadeLength(float value);
     // Get instance field reference: private UnityEngine.AudioSource _audioSource
-    ::UnityEngine::AudioSource*& dyn__audioSource();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioSource*& dyn__audioSource();
     // Get instance field reference: private UnityEngine.AnimationCurve _speedToVolumeCurve
-    ::UnityEngine::AnimationCurve*& dyn__speedToVolumeCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__speedToVolumeCurve();
     // Get instance field reference: private UnityEngine.AudioClip[] _badCutSoundEffectAudioClips
-    ::ArrayW<::UnityEngine::AudioClip*>& dyn__badCutSoundEffectAudioClips();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::AudioClip*>& dyn__badCutSoundEffectAudioClips();
     // Get instance field reference: private System.Single _badCutVolume
-    float& dyn__badCutVolume();
+    [[deprecated("Use field access instead!")]] float& dyn__badCutVolume();
     // Get instance field reference: private System.Single _goodCutVolume
-    float& dyn__goodCutVolume();
+    [[deprecated("Use field access instead!")]] float& dyn__goodCutVolume();
     // Get instance field reference: private Saber _saber
-    ::GlobalNamespace::Saber*& dyn__saber();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Saber*& dyn__saber();
     // Get instance field reference: private NoteController _noteController
-    ::GlobalNamespace::NoteController*& dyn__noteController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteController*& dyn__noteController();
     // Get instance field reference: private System.Boolean _isPlaying
-    bool& dyn__isPlaying();
+    [[deprecated("Use field access instead!")]] bool& dyn__isPlaying();
     // Get instance field reference: private System.Single _volumeMultiplier
-    float& dyn__volumeMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__volumeMultiplier();
     // Get instance field reference: private System.Boolean _noteWasCut
-    bool& dyn__noteWasCut();
+    [[deprecated("Use field access instead!")]] bool& dyn__noteWasCut();
     // Get instance field reference: private System.Single _aheadTime
-    float& dyn__aheadTime();
+    [[deprecated("Use field access instead!")]] float& dyn__aheadTime();
     // Get instance field reference: private System.Single _timeToNextNote
-    float& dyn__timeToNextNote();
+    [[deprecated("Use field access instead!")]] float& dyn__timeToNextNote();
     // Get instance field reference: private System.Single _timeToPrevNote
-    float& dyn__timeToPrevNote();
+    [[deprecated("Use field access instead!")]] float& dyn__timeToPrevNote();
     // Get instance field reference: private System.Double _startDSPTime
-    double& dyn__startDSPTime();
+    [[deprecated("Use field access instead!")]] double& dyn__startDSPTime();
     // Get instance field reference: private System.Double _endDSPtime
-    double& dyn__endDSPtime();
+    [[deprecated("Use field access instead!")]] double& dyn__endDSPtime();
     // Get instance field reference: private System.Double _fadeOutStartDSPtime
-    double& dyn__fadeOutStartDSPtime();
+    [[deprecated("Use field access instead!")]] double& dyn__fadeOutStartDSPtime();
     // Get instance field reference: private System.Single _noteMissedTimeOffset
-    float& dyn__noteMissedTimeOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__noteMissedTimeOffset();
     // Get instance field reference: private System.Single _beforeCutVolume
-    float& dyn__beforeCutVolume();
+    [[deprecated("Use field access instead!")]] float& dyn__beforeCutVolume();
     // Get instance field reference: private System.Boolean _goodCut
-    bool& dyn__goodCut();
+    [[deprecated("Use field access instead!")]] bool& dyn__goodCut();
     // Get instance field reference: private System.Single _pitch
-    float& dyn__pitch();
+    [[deprecated("Use field access instead!")]] float& dyn__pitch();
     // Get instance field reference: private RandomObjectPicker`1<UnityEngine.AudioClip> _badCutRandomSoundPicker
-    ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*& dyn__badCutRandomSoundPicker();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*& dyn__badCutRandomSoundPicker();
     // Get instance field reference: private System.Boolean _handleWrongSaberTypeAsGood
-    bool& dyn__handleWrongSaberTypeAsGood();
+    [[deprecated("Use field access instead!")]] bool& dyn__handleWrongSaberTypeAsGood();
     // Get instance field reference: private System.Boolean _ignoreSaberSpeed
-    bool& dyn__ignoreSaberSpeed();
+    [[deprecated("Use field access instead!")]] bool& dyn__ignoreSaberSpeed();
     // Get instance field reference: private System.Boolean _ignoreBadCuts
-    bool& dyn__ignoreBadCuts();
+    [[deprecated("Use field access instead!")]] bool& dyn__ignoreBadCuts();
     // Get instance field reference: private readonly LazyCopyHashSet`1<INoteCutSoundEffectDidFinishEvent> _didFinishEvent
-    ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>*& dyn__didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>*& dyn__didFinishEvent();
     // public ILazyCopyHashSet`1<INoteCutSoundEffectDidFinishEvent> get_didFinishEvent()
-    // Offset: 0x14764FC
+    // Offset: 0x14ACCE4
     ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>* get_didFinishEvent();
     // public System.Single get_volumeMultiplier()
-    // Offset: 0x147650C
+    // Offset: 0x14ACCF4
     float get_volumeMultiplier();
     // public System.Void set_volumeMultiplier(System.Single value)
-    // Offset: 0x1476504
+    // Offset: 0x14ACCEC
     void set_volumeMultiplier(float value);
     // public System.Single get_time()
-    // Offset: 0x1476514
+    // Offset: 0x14ACCFC
     float get_time();
-    // protected System.Void Awake()
-    // Offset: 0x1476544
-    void Awake();
-    // protected System.Void Start()
-    // Offset: 0x14765C4
-    void Start();
-    // public System.Void Init(UnityEngine.AudioClip audioClip, NoteController noteController, System.Double noteDSPTime, System.Single aheadTime, System.Single missedTimeOffset, System.Single timeToPrevNote, System.Single timeToNextNote, Saber saber, System.Boolean handleWrongSaberTypeAsGood, System.Single volumeMultiplier, System.Boolean ignoreSaberSpeed, System.Boolean ignoreBadCuts)
-    // Offset: 0x14765E4
-    void Init(::UnityEngine::AudioClip* audioClip, ::GlobalNamespace::NoteController* noteController, double noteDSPTime, float aheadTime, float missedTimeOffset, float timeToPrevNote, float timeToNextNote, ::GlobalNamespace::Saber* saber, bool handleWrongSaberTypeAsGood, float volumeMultiplier, bool ignoreSaberSpeed, bool ignoreBadCuts);
-    // private System.Void ComputeDSPTimes(System.Double noteDSPTime, System.Single aheadTime, System.Single timeToPrevNote, System.Single timeToNextNote)
-    // Offset: 0x14767A4
-    void ComputeDSPTimes(double noteDSPTime, float aheadTime, float timeToPrevNote, float timeToNextNote);
-    // protected System.Void LateUpdate()
-    // Offset: 0x14768A4
-    void LateUpdate();
-    // public System.Void StopPlayingAndFinish()
-    // Offset: 0x1476AD8
-    void StopPlayingAndFinish();
-    // public System.Void NoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x1476C74
-    void NoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
     // public System.Void .ctor()
-    // Offset: 0x1476E84
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14AD66C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutSoundEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutSoundEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutSoundEffect*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x14ACD2C
+    void Awake();
+    // protected System.Void Start()
+    // Offset: 0x14ACDAC
+    void Start();
+    // public System.Void Init(UnityEngine.AudioClip audioClip, NoteController noteController, System.Double noteDSPTime, System.Single aheadTime, System.Single missedTimeOffset, System.Single timeToPrevNote, System.Single timeToNextNote, Saber saber, System.Boolean handleWrongSaberTypeAsGood, System.Single volumeMultiplier, System.Boolean ignoreSaberSpeed, System.Boolean ignoreBadCuts)
+    // Offset: 0x14ACDCC
+    void Init(::UnityEngine::AudioClip* audioClip, ::GlobalNamespace::NoteController* noteController, double noteDSPTime, float aheadTime, float missedTimeOffset, float timeToPrevNote, float timeToNextNote, ::GlobalNamespace::Saber* saber, bool handleWrongSaberTypeAsGood, float volumeMultiplier, bool ignoreSaberSpeed, bool ignoreBadCuts);
+    // private System.Void ComputeDSPTimes(System.Double noteDSPTime, System.Single aheadTime, System.Single timeToPrevNote, System.Single timeToNextNote)
+    // Offset: 0x14ACF8C
+    void ComputeDSPTimes(double noteDSPTime, float aheadTime, float timeToPrevNote, float timeToNextNote);
+    // protected System.Void LateUpdate()
+    // Offset: 0x14AD08C
+    void LateUpdate();
+    // public System.Void StopPlayingAndFinish()
+    // Offset: 0x14AD2C0
+    void StopPlayingAndFinish();
+    // public System.Void NoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
+    // Offset: 0x14AD45C
+    void NoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
   }; // NoteCutSoundEffect
   #pragma pack(pop)
   static check_size<sizeof(NoteCutSoundEffect), 152 + sizeof(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>*)> __GlobalNamespace_NoteCutSoundEffectSizeCheck;
@@ -379,6 +365,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutSoundEffect*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutSoundEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutSoundEffect::Awake
 // Il2CppName: Awake
 template<>
@@ -453,7 +443,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutSoundEffect*), "NoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteController, noteCutInfo});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NoteCutSoundEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

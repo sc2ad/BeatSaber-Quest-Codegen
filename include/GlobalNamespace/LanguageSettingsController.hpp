@@ -36,15 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LanguageSettingsController : public ::GlobalNamespace::DropdownSettingsController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private LanguageSO _settingsValue
     // Size: 0x8
     // Offset: 0x30
@@ -53,33 +45,28 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::LanguageSO*) == 0x8);
     public:
     // Get instance field reference: private LanguageSO _settingsValue
-    ::GlobalNamespace::LanguageSO*& dyn__settingsValue();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LanguageSO*& dyn__settingsValue();
     // public System.Void .ctor()
-    // Offset: 0x13B6650
+    // Offset: 0x13B1AFC
     // Implemented from: DropdownSettingsController
     // Base method: System.Void DropdownSettingsController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LanguageSettingsController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LanguageSettingsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LanguageSettingsController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x13B6488
+    // Offset: 0x13B1934
     // Implemented from: DropdownSettingsController
     // Base method: System.Boolean DropdownSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x13B6534
+    // Offset: 0x13B19E0
     // Implemented from: DropdownSettingsController
     // Base method: System.Void DropdownSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x13B65D0
+    // Offset: 0x13B1A7C
     // Implemented from: DropdownSettingsController
     // Base method: System.String DropdownSettingsController::TextForValue(System.Int32 idx)
     ::StringW TextForValue(int idx);

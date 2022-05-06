@@ -33,15 +33,7 @@ namespace System::Xml::Schema {
     public:
     // Writing base type padding for base size: 0x34 to desired offset: 0x38
     char ___base_padding[0x4] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Xml.Schema.XmlSchemaObjectCollection items
     // Size: 0x8
     // Offset: 0x38
@@ -54,9 +46,9 @@ namespace System::Xml::Schema {
       return items;
     }
     // Get instance field reference: private System.Xml.Schema.XmlSchemaObjectCollection items
-    ::System::Xml::Schema::XmlSchemaObjectCollection*& dyn_items();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaObjectCollection*& dyn_items();
     // public override System.Xml.Schema.XmlSchemaObjectCollection get_Items()
-    // Offset: 0x200FF28
+    // Offset: 0x205979C
     // Implemented from: System.Xml.Schema.XmlSchemaGroupBase
     // Base method: System.Xml.Schema.XmlSchemaObjectCollection XmlSchemaGroupBase::get_Items()
     ::System::Xml::Schema::XmlSchemaObjectCollection* get_Items();

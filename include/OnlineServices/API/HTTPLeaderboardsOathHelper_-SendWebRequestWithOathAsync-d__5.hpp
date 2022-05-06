@@ -106,32 +106,32 @@ namespace OnlineServices::API {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>& dyn_$$t__builder();
     // Get instance field reference: public OnlineServices.API.HTTPLeaderboardsOathHelper <>4__this
-    ::OnlineServices::API::HTTPLeaderboardsOathHelper*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::OnlineServices::API::HTTPLeaderboardsOathHelper*& dyn_$$4__this();
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
-    ::System::Threading::CancellationToken& dyn_cancellationToken();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: public System.String path
-    ::StringW& dyn_path();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_path();
     // Get instance field reference: public System.Object objectToSendAsJson
-    ::Il2CppObject*& dyn_objectToSendAsJson();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_objectToSendAsJson();
     // Get instance field reference: public System.String method
-    ::StringW& dyn_method();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_method();
     // Get instance field reference: private System.String <uri>5__2
-    ::StringW& dyn_$uri$5__2();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$uri$5__2();
     // Get instance field reference: private System.String <bodyData>5__3
-    ::StringW& dyn_$bodyData$5__3();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$bodyData$5__3();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__2
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>& dyn_$$u__2();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x151D030
+    // Offset: 0x1554938
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x151D4EC
+    // Offset: 0x1554DF4
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.HTTPLeaderboardsOathHelper/OnlineServices.API.<SendWebRequestWithOathAsync>d__5
   // WARNING Not writing size check since size may be invalid!

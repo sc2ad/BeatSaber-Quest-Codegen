@@ -32,15 +32,7 @@ namespace BeatSaberAPI::DataTransferObjects {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardQuery : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String leaderboardId
     // Size: 0x8
     // Offset: 0x10
@@ -89,23 +81,21 @@ namespace BeatSaberAPI::DataTransferObjects {
     static_assert(sizeof(::ArrayW<::BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>) == 0x8);
     public:
     // Get instance field reference: public System.String leaderboardId
-    ::StringW& dyn_leaderboardId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_leaderboardId();
     // Get instance field reference: public System.Int32 count
-    int& dyn_count();
+    [[deprecated("Use field access instead!")]] int& dyn_count();
     // Get instance field reference: public System.Int32 fromRank
-    int& dyn_fromRank();
+    [[deprecated("Use field access instead!")]] int& dyn_fromRank();
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.ScoresScope scope
-    ::BeatSaberAPI::DataTransferObjects::ScoresScope& dyn_scope();
+    [[deprecated("Use field access instead!")]] ::BeatSaberAPI::DataTransferObjects::ScoresScope& dyn_scope();
     // Get instance field reference: public System.String[] friendsUserIds
-    ::ArrayW<::StringW>& dyn_friendsUserIds();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_friendsUserIds();
     // Get instance field reference: public System.Boolean onlyWithSpecificGameplayModifiers
-    bool& dyn_onlyWithSpecificGameplayModifiers();
+    [[deprecated("Use field access instead!")]] bool& dyn_onlyWithSpecificGameplayModifiers();
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiers
-    ::ArrayW<::BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>& dyn_gameplayModifiers();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>& dyn_gameplayModifiers();
     // public System.Void .ctor()
-    // Offset: 0x1363A40
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x134BCC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardQuery* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatSaberAPI::DataTransferObjects::LeaderboardQuery::.ctor");

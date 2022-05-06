@@ -41,15 +41,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MenuTransitionsHelper::$$c__DisplayClass33_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public MenuTransitionsHelper <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -70,29 +62,31 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::LevelCompletionResults*) == 0x8);
     public:
     // Get instance field reference: public MenuTransitionsHelper <>4__this
-    ::GlobalNamespace::MenuTransitionsHelper*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuTransitionsHelper*& dyn_$$4__this();
     // Get instance field reference: public BeatmapEditor3D.BeatmapEditorStandardLevelScenesTransitionSetupDataSO beatmapEditorStandardLevelScenesTransitionSetupData
-    ::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*& dyn_beatmapEditorStandardLevelScenesTransitionSetupData();
+    [[deprecated("Use field access instead!")]] ::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*& dyn_beatmapEditorStandardLevelScenesTransitionSetupData();
     // Get instance field reference: public LevelCompletionResults levelCompletionResults
-    ::GlobalNamespace::LevelCompletionResults*& dyn_levelCompletionResults();
-    // System.Void <HandleBeatmapEditorGameSceneDidFinish>b__0(Zenject.DiContainer container)
-    // Offset: 0x1301558
-    void $HandleBeatmapEditorGameSceneDidFinish$b__0(::Zenject::DiContainer* container);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelCompletionResults*& dyn_levelCompletionResults();
     // public System.Void .ctor()
-    // Offset: 0x13012A0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x12FD778
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuTransitionsHelper::$$c__DisplayClass33_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass33_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MenuTransitionsHelper::$$c__DisplayClass33_0*, creationType>()));
     }
+    // System.Void <HandleBeatmapEditorGameSceneDidFinish>b__0(Zenject.DiContainer container)
+    // Offset: 0x12FDA30
+    void $HandleBeatmapEditorGameSceneDidFinish$b__0(::Zenject::DiContainer* container);
   }; // MenuTransitionsHelper/<>c__DisplayClass33_0
   #pragma pack(pop)
   static check_size<sizeof(MenuTransitionsHelper::$$c__DisplayClass33_0), 32 + sizeof(::GlobalNamespace::LevelCompletionResults*)> __GlobalNamespace_MenuTransitionsHelper_$$c__DisplayClass33_0SizeCheck;
   static_assert(sizeof(MenuTransitionsHelper::$$c__DisplayClass33_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass33_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass33_0::$HandleBeatmapEditorGameSceneDidFinish$b__0
 // Il2CppName: <HandleBeatmapEditorGameSceneDidFinish>b__0
 template<>
@@ -102,7 +96,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass33_0*), "<HandleBeatmapEditorGameSceneDidFinish>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass33_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -28,24 +28,24 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PersistentScriptableObject : public ::UnityEngine::ScriptableObject {
     public:
-    // protected System.Void OnEnable()
-    // Offset: 0x29D3B2C
-    void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x29D3B5C
-    // Implemented from: UnityEngine.ScriptableObject
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A2606C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PersistentScriptableObject* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PersistentScriptableObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PersistentScriptableObject*, creationType>()));
     }
+    // protected System.Void OnEnable()
+    // Offset: 0x2A2603C
+    void OnEnable();
   }; // PersistentScriptableObject
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::PersistentScriptableObject::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PersistentScriptableObject::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -54,7 +54,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PersistentScriptableObject*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PersistentScriptableObject::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

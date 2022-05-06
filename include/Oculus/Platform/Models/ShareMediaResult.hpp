@@ -30,15 +30,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class ShareMediaResult : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly Oculus.Platform.ShareMediaStatus Status
     // Size: 0x4
     // Offset: 0x10
@@ -51,9 +43,9 @@ namespace Oculus::Platform::Models {
       return Status;
     }
     // Get instance field reference: public readonly Oculus.Platform.ShareMediaStatus Status
-    ::Oculus::Platform::ShareMediaStatus& dyn_Status();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::ShareMediaStatus& dyn_Status();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19B30D0
+    // Offset: 0x19EC6B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShareMediaResult* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::ShareMediaResult::.ctor");

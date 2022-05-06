@@ -72,7 +72,7 @@ namespace System::Net::NetworkInformation {
     // Set static field: static public System.Net.NetworkInformation.PrefixOrigin RouterAdvertisement
     static void _set_RouterAdvertisement(::System::Net::NetworkInformation::PrefixOrigin value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Net.NetworkInformation.PrefixOrigin
   #pragma pack(pop)
   static check_size<sizeof(PrefixOrigin), 0 + sizeof(int)> __System_Net_NetworkInformation_PrefixOriginSizeCheck;

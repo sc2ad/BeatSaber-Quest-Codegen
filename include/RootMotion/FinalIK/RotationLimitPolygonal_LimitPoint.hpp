@@ -25,15 +25,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class RotationLimitPolygonal::LimitPoint : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Vector3 point
     // Size: 0xC
     // Offset: 0x10
@@ -48,13 +40,11 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public UnityEngine.Vector3 point
-    ::UnityEngine::Vector3& dyn_point();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_point();
     // Get instance field reference: public System.Single tangentWeight
-    float& dyn_tangentWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_tangentWeight();
     // public System.Void .ctor()
-    // Offset: 0x1F76784
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FC2FF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RotationLimitPolygonal::LimitPoint* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint::.ctor");

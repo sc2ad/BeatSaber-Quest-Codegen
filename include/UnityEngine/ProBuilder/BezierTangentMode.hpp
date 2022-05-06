@@ -60,7 +60,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.BezierTangentMode Mirrored
     static void _set_Mirrored(::UnityEngine::ProBuilder::BezierTangentMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.ProBuilder.BezierTangentMode
   #pragma pack(pop)
   static check_size<sizeof(BezierTangentMode), 0 + sizeof(int)> __UnityEngine_ProBuilder_BezierTangentModeSizeCheck;

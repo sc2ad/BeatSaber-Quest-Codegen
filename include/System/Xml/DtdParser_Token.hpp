@@ -327,7 +327,7 @@ namespace System::Xml {
     // Set static field: static public System.Xml.DtdParser/System.Xml.Token INCLUDE
     static void _set_INCLUDE(::System::Xml::DtdParser::Token value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Xml.DtdParser/System.Xml.Token
   #pragma pack(pop)
   static check_size<sizeof(DtdParser::Token), 0 + sizeof(int)> __System_Xml_DtdParser_TokenSizeCheck;

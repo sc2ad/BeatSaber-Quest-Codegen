@@ -15,6 +15,8 @@ namespace GlobalNamespace {
   class IReadonlyBeatmapData;
   // Forward declaring type: EnvironmentIntensityReductionOptions
   class EnvironmentIntensityReductionOptions;
+  // Forward declaring type: EnvironmentColorType
+  struct EnvironmentColorType;
 }
 // Completed forward declares
 // Type namespace: 
@@ -42,8 +44,14 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMaxSecondsToConsiderStrobe
     static void _set_kMaxSecondsToConsiderStrobe(float value);
     // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData, EnvironmentIntensityReductionOptions environmentIntensityReductionOptions)
-    // Offset: 0x14C3F88
+    // Offset: 0x14FB840
     static ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::EnvironmentIntensityReductionOptions* environmentIntensityReductionOptions);
+    // static private System.Int32 GetOnEventDataValue(EnvironmentColorType lightColorType)
+    // Offset: 0x14FC0B8
+    static int GetOnEventDataValue(::GlobalNamespace::EnvironmentColorType lightColorType);
+    // static private System.Int32 GetFlashAndFadeToBlackEventDataValue(EnvironmentColorType lightColorType)
+    // Offset: 0x14FC0DC
+    static int GetFlashAndFadeToBlackEventDataValue(::GlobalNamespace::EnvironmentColorType lightColorType);
   }; // BeatmapDataStrobeFilterTransform
   #pragma pack(pop)
 }
@@ -56,5 +64,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     static auto* beatmapData = &::il2cpp_utils::GetClassFromName("", "IReadonlyBeatmapData")->byval_arg;
     static auto* environmentIntensityReductionOptions = &::il2cpp_utils::GetClassFromName("", "EnvironmentIntensityReductionOptions")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataStrobeFilterTransform*), "CreateTransformedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapData, environmentIntensityReductionOptions});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataStrobeFilterTransform::GetOnEventDataValue
+// Il2CppName: GetOnEventDataValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::GlobalNamespace::EnvironmentColorType)>(&GlobalNamespace::BeatmapDataStrobeFilterTransform::GetOnEventDataValue)> {
+  static const MethodInfo* get() {
+    static auto* lightColorType = &::il2cpp_utils::GetClassFromName("", "EnvironmentColorType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataStrobeFilterTransform*), "GetOnEventDataValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lightColorType});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataStrobeFilterTransform::GetFlashAndFadeToBlackEventDataValue
+// Il2CppName: GetFlashAndFadeToBlackEventDataValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::GlobalNamespace::EnvironmentColorType)>(&GlobalNamespace::BeatmapDataStrobeFilterTransform::GetFlashAndFadeToBlackEventDataValue)> {
+  static const MethodInfo* get() {
+    static auto* lightColorType = &::il2cpp_utils::GetClassFromName("", "EnvironmentColorType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataStrobeFilterTransform*), "GetFlashAndFadeToBlackEventDataValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lightColorType});
   }
 };

@@ -39,15 +39,7 @@ namespace Mono::Net {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class CFNetwork::$$c__DisplayClass13_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Mono.Net.CFProxy[] proxies
     // Size: 0x8
     // Offset: 0x10
@@ -62,27 +54,29 @@ namespace Mono::Net {
     static_assert(sizeof(::Mono::Net::CFRunLoop*) == 0x8);
     public:
     // Get instance field reference: public Mono.Net.CFProxy[] proxies
-    ::ArrayW<::Mono::Net::CFProxy*>& dyn_proxies();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Mono::Net::CFProxy*>& dyn_proxies();
     // Get instance field reference: public Mono.Net.CFRunLoop runLoop
-    ::Mono::Net::CFRunLoop*& dyn_runLoop();
-    // System.Void <ExecuteProxyAutoConfigurationURL>b__0(System.IntPtr client, System.IntPtr proxyList, System.IntPtr error)
-    // Offset: 0x1A99774
-    void $ExecuteProxyAutoConfigurationURL$b__0(::System::IntPtr client, ::System::IntPtr proxyList, ::System::IntPtr error);
+    [[deprecated("Use field access instead!")]] ::Mono::Net::CFRunLoop*& dyn_runLoop();
     // public System.Void .ctor()
-    // Offset: 0x1A98F18
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1AD3500
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CFNetwork::$$c__DisplayClass13_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::CFNetwork::$$c__DisplayClass13_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CFNetwork::$$c__DisplayClass13_0*, creationType>()));
     }
+    // System.Void <ExecuteProxyAutoConfigurationURL>b__0(System.IntPtr client, System.IntPtr proxyList, System.IntPtr error)
+    // Offset: 0x1AD3D5C
+    void $ExecuteProxyAutoConfigurationURL$b__0(::System::IntPtr client, ::System::IntPtr proxyList, ::System::IntPtr error);
   }; // Mono.Net.CFNetwork/Mono.Net.<>c__DisplayClass13_0
   #pragma pack(pop)
   static check_size<sizeof(CFNetwork::$$c__DisplayClass13_0), 24 + sizeof(::Mono::Net::CFRunLoop*)> __Mono_Net_CFNetwork_$$c__DisplayClass13_0SizeCheck;
   static_assert(sizeof(CFNetwork::$$c__DisplayClass13_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Mono::Net::CFNetwork::$$c__DisplayClass13_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::$$c__DisplayClass13_0::$ExecuteProxyAutoConfigurationURL$b__0
 // Il2CppName: <ExecuteProxyAutoConfigurationURL>b__0
 template<>
@@ -94,7 +88,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork::$$c__DisplayClass13_0*), "<ExecuteProxyAutoConfigurationURL>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{client, proxyList, error});
   }
 };
-// Writing MetadataGetter for method: Mono::Net::CFNetwork::$$c__DisplayClass13_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

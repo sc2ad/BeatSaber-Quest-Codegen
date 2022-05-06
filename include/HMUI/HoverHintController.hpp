@@ -51,15 +51,7 @@ namespace HMUI {
     class $ShowHintAfterDelay$d__10;
     // Nested type: ::HMUI::HoverHintController::$HideHintAfterDelay$d__11
     class $HideHintAfterDelay$d__11;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.HoverHintPanel _hoverHintPanelPrefab
     // Size: 0x8
     // Offset: 0x18
@@ -94,57 +86,55 @@ namespace HMUI {
     // Set static field: static private System.Single kHideHintDelay
     static void _set_kHideHintDelay(float value);
     // Get instance field reference: private HMUI.HoverHintPanel _hoverHintPanelPrefab
-    ::HMUI::HoverHintPanel*& dyn__hoverHintPanelPrefab();
+    [[deprecated("Use field access instead!")]] ::HMUI::HoverHintPanel*& dyn__hoverHintPanelPrefab();
     // Get instance field reference: private HMUI.HoverHintPanel _hoverHintPanel
-    ::HMUI::HoverHintPanel*& dyn__hoverHintPanel();
+    [[deprecated("Use field access instead!")]] ::HMUI::HoverHintPanel*& dyn__hoverHintPanel();
     // Get instance field reference: private System.Boolean _isHiding
-    bool& dyn__isHiding();
-    // protected System.Void Awake()
-    // Offset: 0x16EC38C
-    void Awake();
-    // protected System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x16EC45C
-    void OnApplicationFocus(bool hasFocus);
-    // public System.Void ShowHint(HMUI.HoverHint hoverHint)
-    // Offset: 0x16EC09C
-    void ShowHint(::HMUI::HoverHint* hoverHint);
-    // public System.Void HideHint()
-    // Offset: 0x16EC250
-    void HideHint();
-    // public System.Void HideHintInstant()
-    // Offset: 0x16EC20C
-    void HideHintInstant();
-    // private System.Collections.IEnumerator ShowHintAfterDelay(HMUI.HoverHint hoverHint, System.Single delay)
-    // Offset: 0x16EC638
-    ::System::Collections::IEnumerator* ShowHintAfterDelay(::HMUI::HoverHint* hoverHint, float delay);
-    // private System.Collections.IEnumerator HideHintAfterDelay(System.Single delay)
-    // Offset: 0x16EC6C4
-    ::System::Collections::IEnumerator* HideHintAfterDelay(float delay);
-    // private System.Void SetupAndShowHintPanel(HMUI.HoverHint hoverHint)
-    // Offset: 0x16EC484
-    void SetupAndShowHintPanel(::HMUI::HoverHint* hoverHint);
-    // static private UnityEngine.Transform GetScreenTransformForHoverHint(HMUI.HoverHint hoverHint)
-    // Offset: 0x16EC79C
-    static ::UnityEngine::Transform* GetScreenTransformForHoverHint(::HMUI::HoverHint* hoverHint);
+    [[deprecated("Use field access instead!")]] bool& dyn__isHiding();
     // public System.Void .ctor()
-    // Offset: 0x16ECB88
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1724498
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HoverHintController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::HoverHintController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HoverHintController*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x1723C9C
+    void Awake();
+    // protected System.Void OnApplicationFocus(System.Boolean hasFocus)
+    // Offset: 0x1723D6C
+    void OnApplicationFocus(bool hasFocus);
+    // public System.Void ShowHint(HMUI.HoverHint hoverHint)
+    // Offset: 0x17239AC
+    void ShowHint(::HMUI::HoverHint* hoverHint);
+    // public System.Void HideHint()
+    // Offset: 0x1723B60
+    void HideHint();
+    // public System.Void HideHintInstant()
+    // Offset: 0x1723B1C
+    void HideHintInstant();
+    // private System.Collections.IEnumerator ShowHintAfterDelay(HMUI.HoverHint hoverHint, System.Single delay)
+    // Offset: 0x1723F48
+    ::System::Collections::IEnumerator* ShowHintAfterDelay(::HMUI::HoverHint* hoverHint, float delay);
+    // private System.Collections.IEnumerator HideHintAfterDelay(System.Single delay)
+    // Offset: 0x1723FD4
+    ::System::Collections::IEnumerator* HideHintAfterDelay(float delay);
+    // private System.Void SetupAndShowHintPanel(HMUI.HoverHint hoverHint)
+    // Offset: 0x1723D94
+    void SetupAndShowHintPanel(::HMUI::HoverHint* hoverHint);
+    // static private UnityEngine.Transform GetScreenTransformForHoverHint(HMUI.HoverHint hoverHint)
+    // Offset: 0x17240AC
+    static ::UnityEngine::Transform* GetScreenTransformForHoverHint(::HMUI::HoverHint* hoverHint);
   }; // HMUI.HoverHintController
   #pragma pack(pop)
   static check_size<sizeof(HoverHintController), 40 + sizeof(bool)> __HMUI_HoverHintControllerSizeCheck;
   static_assert(sizeof(HoverHintController) == 0x29);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HMUI::HoverHintController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::HoverHintController::Awake
 // Il2CppName: Awake
 template<>
@@ -224,7 +214,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHintController*), "GetScreenTransformForHoverHint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hoverHint});
   }
 };
-// Writing MetadataGetter for method: HMUI::HoverHintController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

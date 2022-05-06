@@ -27,15 +27,7 @@ namespace LeaderboardsDTO {
   // [TokenAttribute] Offset: FFFFFFFF
   class TokenDTO : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String token
     // Size: 0x8
     // Offset: 0x10
@@ -50,13 +42,11 @@ namespace LeaderboardsDTO {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public System.String token
-    ::StringW& dyn_token();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_token();
     // Get instance field reference: public System.Int32 expireIn
-    int& dyn_expireIn();
+    [[deprecated("Use field access instead!")]] int& dyn_expireIn();
     // public System.Void .ctor()
-    // Offset: 0x13B7F30
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13B33DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TokenDTO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LeaderboardsDTO::TokenDTO::.ctor");

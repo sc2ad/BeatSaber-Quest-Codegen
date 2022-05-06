@@ -54,7 +54,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.SessionMode Pipe
     static void _set_Pipe(::HoudiniEngineUnity::SessionMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.SessionMode
   #pragma pack(pop)
   static check_size<sizeof(SessionMode), 0 + sizeof(int)> __HoudiniEngineUnity_SessionModeSizeCheck;

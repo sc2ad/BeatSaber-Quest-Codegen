@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatEffectSpawner::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Boolean hideNoteSpawnEffect
     // Size: 0x1
     // Offset: 0x10
@@ -44,9 +36,9 @@ namespace GlobalNamespace {
       return hideNoteSpawnEffect;
     }
     // Get instance field reference: public readonly System.Boolean hideNoteSpawnEffect
-    bool& dyn_hideNoteSpawnEffect();
+    [[deprecated("Use field access instead!")]] bool& dyn_hideNoteSpawnEffect();
     // public System.Void .ctor(System.Boolean hideNoteSpawnEffect)
-    // Offset: 0x1362E00
+    // Offset: 0x134B080
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatEffectSpawner::InitData* New_ctor(bool hideNoteSpawnEffect) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatEffectSpawner::InitData::.ctor");

@@ -37,24 +37,16 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class HitReaction::HitPointBone::BoneLink : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x1279344
+    // [TooltipAttribute] Offset: 0x10FDFFC
     // public UnityEngine.Transform bone
     // Size: 0x8
     // Offset: 0x10
     ::UnityEngine::Transform* bone;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x127937C
-    // [RangeAttribute] Offset: 0x127937C
+    // [TooltipAttribute] Offset: 0x10FE034
+    // [RangeAttribute] Offset: 0x10FE034
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -75,34 +67,36 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     public:
     // Get instance field reference: public UnityEngine.Transform bone
-    ::UnityEngine::Transform*& dyn_bone();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_bone();
     // Get instance field reference: public System.Single weight
-    float& dyn_weight();
+    [[deprecated("Use field access instead!")]] float& dyn_weight();
     // Get instance field reference: private UnityEngine.Quaternion lastValue
-    ::UnityEngine::Quaternion& dyn_lastValue();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_lastValue();
     // Get instance field reference: private UnityEngine.Quaternion current
-    ::UnityEngine::Quaternion& dyn_current();
-    // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Quaternion offset, System.Single crossFader)
-    // Offset: 0x21D428C
-    void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, ::UnityEngine::Quaternion offset, float crossFader);
-    // public System.Void CrossFadeStart()
-    // Offset: 0x21D4024
-    void CrossFadeStart();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_current();
     // public System.Void .ctor()
-    // Offset: 0x21D43FC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2221C70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HitReaction::HitPointBone::BoneLink* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HitReaction::HitPointBone::BoneLink*, creationType>()));
     }
+    // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Quaternion offset, System.Single crossFader)
+    // Offset: 0x2221B00
+    void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, ::UnityEngine::Quaternion offset, float crossFader);
+    // public System.Void CrossFadeStart()
+    // Offset: 0x2221898
+    void CrossFadeStart();
   }; // RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone/RootMotion.FinalIK.BoneLink
   #pragma pack(pop)
   static check_size<sizeof(HitReaction::HitPointBone::BoneLink), 44 + sizeof(::UnityEngine::Quaternion)> __RootMotion_FinalIK_HitReaction_HitPointBone_BoneLinkSizeCheck;
   static_assert(sizeof(HitReaction::HitPointBone::BoneLink) == 0x3C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink::Apply
 // Il2CppName: Apply
 template<>
@@ -122,7 +116,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*), "CrossFadeStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

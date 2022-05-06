@@ -66,37 +66,29 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: private System.Single <value>k__BackingField
-      float& dyn_$value$k__BackingField();
+      [[deprecated("Use field access instead!")]] float& dyn_$value$k__BackingField();
       // Get instance field reference: private System.Single <time>k__BackingField
-      float& dyn_$time$k__BackingField();
+      [[deprecated("Use field access instead!")]] float& dyn_$time$k__BackingField();
       // public System.Single get_value()
-      // Offset: 0x14C208C
+      // Offset: 0x14F9944
       float get_value();
       // private System.Void set_value(System.Single value)
-      // Offset: 0x14C2094
+      // Offset: 0x14F994C
       void set_value(float value);
       // public System.Single get_time()
-      // Offset: 0x14C209C
+      // Offset: 0x14F9954
       float get_time();
       // private System.Void set_time(System.Single value)
-      // Offset: 0x14C20A4
+      // Offset: 0x14F995C
       void set_time(float value);
       // public System.Void .ctor(System.Single value, System.Single time)
-      // Offset: 0x14C206C
+      // Offset: 0x14F9924
       // ABORTED: conflicts with another method.  AverageValueData(float value, float time);
     }; // AveragingValueRecorder/AverageValueData
     #pragma pack(pop)
     static check_size<sizeof(AveragingValueRecorder::AverageValueData), 4 + sizeof(float)> __GlobalNamespace_AveragingValueRecorder_AverageValueDataSizeCheck;
     static_assert(sizeof(AveragingValueRecorder::AverageValueData) == 0x8);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _averageWindowDuration
     // Size: 0x4
     // Offset: 0x10
@@ -161,43 +153,43 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private System.Single _averageWindowDuration
-    float& dyn__averageWindowDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__averageWindowDuration();
     // Get instance field reference: private System.Single _historyValuesPerSecond
-    float& dyn__historyValuesPerSecond();
+    [[deprecated("Use field access instead!")]] float& dyn__historyValuesPerSecond();
     // Get instance field reference: private System.Int32 _historyValuesCount
-    int& dyn__historyValuesCount();
+    [[deprecated("Use field access instead!")]] int& dyn__historyValuesCount();
     // Get instance field reference: private System.Collections.Generic.Queue`1<AveragingValueRecorder/AverageValueData> _averageWindowValues
-    ::System::Collections::Generic::Queue_1<::GlobalNamespace::AveragingValueRecorder::AverageValueData>*& dyn__averageWindowValues();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Queue_1<::GlobalNamespace::AveragingValueRecorder::AverageValueData>*& dyn__averageWindowValues();
     // Get instance field reference: private System.Collections.Generic.Queue`1<System.Single> _historyValues
-    ::System::Collections::Generic::Queue_1<float>*& dyn__historyValues();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Queue_1<float>*& dyn__historyValues();
     // Get instance field reference: private System.Single _time
-    float& dyn__time();
+    [[deprecated("Use field access instead!")]] float& dyn__time();
     // Get instance field reference: private System.Single _historyTime
-    float& dyn__historyTime();
+    [[deprecated("Use field access instead!")]] float& dyn__historyTime();
     // Get instance field reference: private System.Single _averageValue
-    float& dyn__averageValue();
+    [[deprecated("Use field access instead!")]] float& dyn__averageValue();
     // Get instance field reference: private System.Single _averageWindowValuesDuration
-    float& dyn__averageWindowValuesDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__averageWindowValuesDuration();
     // Get instance field reference: private System.Single _lastValue
-    float& dyn__lastValue();
+    [[deprecated("Use field access instead!")]] float& dyn__lastValue();
     // public System.Void .ctor(System.Single averageWindowDuration, System.Single historyWindowDuration, System.Single historyValuesPerSecond)
-    // Offset: 0x14C1D14
+    // Offset: 0x14F95CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AveragingValueRecorder* New_ctor(float averageWindowDuration, float historyWindowDuration, float historyValuesPerSecond) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AveragingValueRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AveragingValueRecorder*, creationType>(averageWindowDuration, historyWindowDuration, historyValuesPerSecond)));
     }
     // public System.Void Update(System.Single value, System.Single deltaTime)
-    // Offset: 0x14C1E40
+    // Offset: 0x14F96F8
     void Update(float value, float deltaTime);
     // public System.Single GetAverageValue()
-    // Offset: 0x14C2074
+    // Offset: 0x14F992C
     float GetAverageValue();
     // public System.Single GetLastValue()
-    // Offset: 0x14C207C
+    // Offset: 0x14F9934
     float GetLastValue();
     // public System.Collections.Generic.Queue`1<System.Single> GetHistoryValues()
-    // Offset: 0x14C2084
+    // Offset: 0x14F993C
     ::System::Collections::Generic::Queue_1<float>* GetHistoryValues();
   }; // AveragingValueRecorder
   #pragma pack(pop)

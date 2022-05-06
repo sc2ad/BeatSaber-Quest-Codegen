@@ -28,15 +28,7 @@ namespace Priority_Queue {
   // [TokenAttribute] Offset: FFFFFFFF
   class StablePriorityQueueNode : public ::Priority_Queue::FastPriorityQueueNode {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int64 <InsertionIndex>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -49,18 +41,17 @@ namespace Priority_Queue {
       return InsertionIndex;
     }
     // Get instance field reference: private System.Int64 <InsertionIndex>k__BackingField
-    int64_t& dyn_$InsertionIndex$k__BackingField();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_$InsertionIndex$k__BackingField();
     // public System.Int64 get_InsertionIndex()
-    // Offset: 0x1379A1C
+    // Offset: 0x13E0D58
     int64_t get_InsertionIndex();
     // System.Void set_InsertionIndex(System.Int64 value)
-    // Offset: 0x1379A24
+    // Offset: 0x13E0D60
     void set_InsertionIndex(int64_t value);
     // public System.Void .ctor()
-    // Offset: 0x1379A2C
+    // Offset: 0x13E0D68
     // Implemented from: Priority_Queue.FastPriorityQueueNode
     // Base method: System.Void FastPriorityQueueNode::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StablePriorityQueueNode* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Priority_Queue::StablePriorityQueueNode::.ctor");

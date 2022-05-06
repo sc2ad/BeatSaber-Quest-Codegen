@@ -51,22 +51,22 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.Single k_MaxRaySnapDistance
     static void _set_k_MaxRaySnapDistance(float value);
     // static public UnityEngine.Vector3 SnapValue(UnityEngine.Vector3 vertex, System.Single snpVal)
-    // Offset: 0x1986700
+    // Offset: 0x19BFCE8
     static ::UnityEngine::Vector3 SnapValue(::UnityEngine::Vector3 vertex, float snpVal);
     // static public System.Single SnapValue(System.Single val, System.Single snpVal)
-    // Offset: 0x1986914
+    // Offset: 0x19BFEFC
     static float SnapValue(float val, float snpVal);
     // static public UnityEngine.Vector3 SnapValue(UnityEngine.Vector3 vertex, UnityEngine.Vector3 snap)
-    // Offset: 0x1986A28
+    // Offset: 0x19C0010
     static ::UnityEngine::Vector3 SnapValue(::UnityEngine::Vector3 vertex, ::UnityEngine::Vector3 snap);
     // static public System.Void SnapVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<System.Int32> indexes, UnityEngine.Vector3 snap)
-    // Offset: 0x1986D04
+    // Offset: 0x19C02EC
     static void SnapVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int>* indexes, ::UnityEngine::Vector3 snap);
     // static UnityEngine.Vector3 GetSnappingMaskBasedOnNormalVector(UnityEngine.Vector3 normal)
-    // Offset: 0x1987068
+    // Offset: 0x19C0650
     static ::UnityEngine::Vector3 GetSnappingMaskBasedOnNormalVector(::UnityEngine::Vector3 normal);
     // static UnityEngine.Vector3 SnapValueOnRay(UnityEngine.Ray ray, System.Single distance, System.Single snap, UnityEngine.ProBuilder.Vector3Mask mask)
-    // Offset: 0x19871A0
+    // Offset: 0x19C0788
     static ::UnityEngine::Vector3 SnapValueOnRay(::UnityEngine::Ray ray, float distance, float snap, ::UnityEngine::ProBuilder::Vector3Mask mask);
   }; // UnityEngine.ProBuilder.ProBuilderSnapping
   #pragma pack(pop)

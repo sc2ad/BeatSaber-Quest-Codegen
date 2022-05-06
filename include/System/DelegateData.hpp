@@ -34,15 +34,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class DelegateData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Type target_type
     // Size: 0x8
     // Offset: 0x10
@@ -63,13 +55,13 @@ namespace System {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.Type target_type
-    ::System::Type*& dyn_target_type();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_target_type();
     // Get instance field reference: public System.String method_name
-    ::StringW& dyn_method_name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_method_name();
     // Get instance field reference: public System.Boolean curried_first_arg
-    bool& dyn_curried_first_arg();
+    [[deprecated("Use field access instead!")]] bool& dyn_curried_first_arg();
     // public System.Void .ctor()
-    // Offset: 0x191C814
+    // Offset: 0x1954124
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

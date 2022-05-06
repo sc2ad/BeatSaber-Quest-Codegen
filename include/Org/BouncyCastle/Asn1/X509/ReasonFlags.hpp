@@ -29,7 +29,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   class ReasonFlags : public ::Org::BouncyCastle::Asn1::DerBitString {
     public:
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerBitString reasons)
-    // Offset: 0x1EC6264
+    // Offset: 0x1F1379C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReasonFlags* New_ctor(::Org::BouncyCastle::Asn1::DerBitString* reasons) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::ReasonFlags::.ctor");

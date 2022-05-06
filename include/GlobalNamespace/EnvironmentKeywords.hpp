@@ -38,15 +38,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnvironmentKeywords : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.IReadOnlyList`1<System.String> _environmentKeywords
     // Size: 0x8
     // Offset: 0x10
@@ -61,21 +53,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Collections::Generic::HashSet_1<::StringW>*) == 0x8);
     public:
     // Get instance field reference: private readonly System.Collections.Generic.IReadOnlyList`1<System.String> _environmentKeywords
-    ::System::Collections::Generic::IReadOnlyList_1<::StringW>*& dyn__environmentKeywords();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IReadOnlyList_1<::StringW>*& dyn__environmentKeywords();
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.String> _environmentKeywordsSet
-    ::System::Collections::Generic::HashSet_1<::StringW>*& dyn__environmentKeywordsSet();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::StringW>*& dyn__environmentKeywordsSet();
     // public System.Collections.Generic.IReadOnlyList`1<System.String> get_environmentKeywords()
-    // Offset: 0x1383B9C
+    // Offset: 0x136B778
     ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_environmentKeywords();
     // public System.Void .ctor(System.Collections.Generic.IReadOnlyList`1<System.String> environmentKeywords)
-    // Offset: 0x1383BA4
+    // Offset: 0x136B780
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentKeywords* New_ctor(::System::Collections::Generic::IReadOnlyList_1<::StringW>* environmentKeywords) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentKeywords::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentKeywords*, creationType>(environmentKeywords)));
     }
     // public System.Boolean HasKeyword(System.String keyword)
-    // Offset: 0x1383C80
+    // Offset: 0x136B85C
     bool HasKeyword(::StringW keyword);
   }; // EnvironmentKeywords
   #pragma pack(pop)

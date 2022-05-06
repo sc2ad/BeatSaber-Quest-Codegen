@@ -82,24 +82,16 @@ namespace UnityEngine::Timeline {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public UnityEngine.Playables.Playable mixer
-      ::UnityEngine::Playables::Playable& dyn_mixer();
+      [[deprecated("Use field access instead!")]] ::UnityEngine::Playables::Playable& dyn_mixer();
       // Get instance field reference: public UnityEngine.Playables.Playable parentMixer
-      ::UnityEngine::Playables::Playable& dyn_parentMixer();
+      [[deprecated("Use field access instead!")]] ::UnityEngine::Playables::Playable& dyn_parentMixer();
       // Get instance field reference: public System.Int32 port
-      int& dyn_port();
+      [[deprecated("Use field access instead!")]] int& dyn_port();
     }; // UnityEngine.Timeline.AnimationOutputWeightProcessor/UnityEngine.Timeline.WeightInfo
     #pragma pack(pop)
     static check_size<sizeof(AnimationOutputWeightProcessor::WeightInfo), 32 + sizeof(int)> __UnityEngine_Timeline_AnimationOutputWeightProcessor_WeightInfoSizeCheck;
     static_assert(sizeof(AnimationOutputWeightProcessor::WeightInfo) == 0x24);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Animations.AnimationPlayableOutput m_Output
     // Size: 0xC
     // Offset: 0x10
@@ -128,26 +120,26 @@ namespace UnityEngine::Timeline {
       return *reinterpret_cast<::UnityEngine::Timeline::ITimelineEvaluateCallback*>(this);
     }
     // Get instance field reference: private UnityEngine.Animations.AnimationPlayableOutput m_Output
-    ::UnityEngine::Animations::AnimationPlayableOutput& dyn_m_Output();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Animations::AnimationPlayableOutput& dyn_m_Output();
     // Get instance field reference: private UnityEngine.Animations.AnimationMotionXToDeltaPlayable m_MotionXPlayable
-    ::UnityEngine::Animations::AnimationMotionXToDeltaPlayable& dyn_m_MotionXPlayable();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Animations::AnimationMotionXToDeltaPlayable& dyn_m_MotionXPlayable();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.Timeline.AnimationOutputWeightProcessor/UnityEngine.Timeline.WeightInfo> m_Mixers
-    ::System::Collections::Generic::List_1<::UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo>*& dyn_m_Mixers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo>*& dyn_m_Mixers();
     // public System.Void .ctor(UnityEngine.Animations.AnimationPlayableOutput output)
-    // Offset: 0x1D718D4
+    // Offset: 0x1DACE2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimationOutputWeightProcessor* New_ctor(::UnityEngine::Animations::AnimationPlayableOutput output) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::AnimationOutputWeightProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimationOutputWeightProcessor*, creationType>(output)));
     }
     // private System.Void FindMixers()
-    // Offset: 0x1D7197C
+    // Offset: 0x1DACED4
     void FindMixers();
     // private System.Void FindMixers(UnityEngine.Playables.Playable parent, System.Int32 port, UnityEngine.Playables.Playable node)
-    // Offset: 0x1D71A50
+    // Offset: 0x1DACFA8
     void FindMixers(::UnityEngine::Playables::Playable parent, int port, ::UnityEngine::Playables::Playable node);
     // public System.Void Evaluate()
-    // Offset: 0x1D71C94
+    // Offset: 0x1DAD1EC
     void Evaluate();
   }; // UnityEngine.Timeline.AnimationOutputWeightProcessor
   #pragma pack(pop)

@@ -51,15 +51,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScoreMultiplierUIController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI[] _multiplierTexts
     // Size: 0x8
     // Offset: 0x18
@@ -78,7 +70,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Animator* multiplierAnimator;
     // Field size check
     static_assert(sizeof(::UnityEngine::Animator*) == 0x8);
-    // [InjectAttribute] Offset: 0x12526C4
+    // [InjectAttribute] Offset: 0x10D72A8
     // private IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x30
@@ -107,59 +99,57 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI[] _multiplierTexts
-    ::ArrayW<::TMPro::TextMeshProUGUI*>& dyn__multiplierTexts();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::TMPro::TextMeshProUGUI*>& dyn__multiplierTexts();
     // Get instance field reference: private UnityEngine.UI.Image _multiplierProgressImage
-    ::UnityEngine::UI::Image*& dyn__multiplierProgressImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__multiplierProgressImage();
     // Get instance field reference: private UnityEngine.Animator _multiplierAnimator
-    ::UnityEngine::Animator*& dyn__multiplierAnimator();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Animator*& dyn__multiplierAnimator();
     // Get instance field reference: private IScoreController _scoreController
-    ::GlobalNamespace::IScoreController*& dyn__scoreController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IScoreController*& dyn__scoreController();
     // Get instance field reference: private System.Int32 _prevMultiplier
-    int& dyn__prevMultiplier();
+    [[deprecated("Use field access instead!")]] int& dyn__prevMultiplier();
     // Get instance field reference: private System.Int32 _multiplierIncreasedTriggerId
-    int& dyn__multiplierIncreasedTriggerId();
+    [[deprecated("Use field access instead!")]] int& dyn__multiplierIncreasedTriggerId();
     // Get instance field reference: private System.Single _progressTarget
-    float& dyn__progressTarget();
-    // protected System.Void Start()
-    // Offset: 0x1425364
-    void Start();
-    // protected System.Void OnEnable()
-    // Offset: 0x14255EC
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x14255F0
-    void OnDisable();
-    // private System.Void RegisterForEvents()
-    // Offset: 0x1425444
-    void RegisterForEvents();
-    // private System.Void UnregisterFromEvents()
-    // Offset: 0x14255F4
-    void UnregisterFromEvents();
-    // protected System.Void Update()
-    // Offset: 0x14256F4
-    void Update();
-    // private System.Void HandleMultiplierDidChange(System.Int32 multiplier, System.Single progress)
-    // Offset: 0x1425800
-    void HandleMultiplierDidChange(int multiplier, float progress);
+    [[deprecated("Use field access instead!")]] float& dyn__progressTarget();
     // public System.Void .ctor()
-    // Offset: 0x14258E0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1466F14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScoreMultiplierUIController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScoreMultiplierUIController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScoreMultiplierUIController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x1466998
+    void Start();
+    // protected System.Void OnEnable()
+    // Offset: 0x1466C20
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x1466C24
+    void OnDisable();
+    // private System.Void RegisterForEvents()
+    // Offset: 0x1466A78
+    void RegisterForEvents();
+    // private System.Void UnregisterFromEvents()
+    // Offset: 0x1466C28
+    void UnregisterFromEvents();
+    // protected System.Void Update()
+    // Offset: 0x1466D28
+    void Update();
+    // private System.Void HandleMultiplierDidChange(System.Int32 multiplier, System.Single progress)
+    // Offset: 0x1466E34
+    void HandleMultiplierDidChange(int multiplier, float progress);
   }; // ScoreMultiplierUIController
   #pragma pack(pop)
   static check_size<sizeof(ScoreMultiplierUIController), 64 + sizeof(float)> __GlobalNamespace_ScoreMultiplierUIControllerSizeCheck;
   static_assert(sizeof(ScoreMultiplierUIController) == 0x44);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ScoreMultiplierUIController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ScoreMultiplierUIController::Start
 // Il2CppName: Start
 template<>
@@ -218,7 +208,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreMultiplierUIController*), "HandleMultiplierDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiplier, progress});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ScoreMultiplierUIController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

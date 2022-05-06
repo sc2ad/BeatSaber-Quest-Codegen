@@ -46,15 +46,7 @@ namespace GlobalNamespace {
     class PropertyNameVectorValuePair;
     // Nested type: ::GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameColorValuePair
     class PropertyNameColorValuePair;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MaterialPropertyBlockController _materialPropertyBlockController
     // Size: 0x8
     // Offset: 0x18
@@ -89,46 +81,44 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MaterialPropertyBlockController _materialPropertyBlockController
-    ::GlobalNamespace::MaterialPropertyBlockController*& dyn__materialPropertyBlockController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MaterialPropertyBlockController*& dyn__materialPropertyBlockController();
     // Get instance field reference: private MaterialPropertyValuesSetter/PropertyNameFloatValuePair[] _floats
-    ::ArrayW<::GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameFloatValuePair*>& dyn__floats();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameFloatValuePair*>& dyn__floats();
     // Get instance field reference: private MaterialPropertyValuesSetter/PropertyNameVectorValuePair[] _vectors
-    ::ArrayW<::GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameVectorValuePair*>& dyn__vectors();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameVectorValuePair*>& dyn__vectors();
     // Get instance field reference: private MaterialPropertyValuesSetter/PropertyNameColorValuePair[] _colors
-    ::ArrayW<::GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameColorValuePair*>& dyn__colors();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameColorValuePair*>& dyn__colors();
     // Get instance field reference: private MaterialPropertyValuesSetter/PropertyNameIntValuePair[] _ints
-    ::ArrayW<::GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*>& dyn__ints();
-    // protected System.Void Start()
-    // Offset: 0x2AD5FE8
-    void Start();
-    // protected System.Void OnValidate()
-    // Offset: 0x2AD61C0
-    void OnValidate();
-    // private System.Void RefreshPropertyIds()
-    // Offset: 0x2AD625C
-    void RefreshPropertyIds();
-    // private System.Void ApplyParams()
-    // Offset: 0x2AD5FEC
-    void ApplyParams();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*>& dyn__ints();
     // public System.Void .ctor()
-    // Offset: 0x2AD63F4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E7F804
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MaterialPropertyValuesSetter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MaterialPropertyValuesSetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyValuesSetter*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x1E7F3F8
+    void Start();
+    // protected System.Void OnValidate()
+    // Offset: 0x1E7F5D0
+    void OnValidate();
+    // private System.Void RefreshPropertyIds()
+    // Offset: 0x1E7F66C
+    void RefreshPropertyIds();
+    // private System.Void ApplyParams()
+    // Offset: 0x1E7F3FC
+    void ApplyParams();
   }; // MaterialPropertyValuesSetter
   #pragma pack(pop)
   static check_size<sizeof(MaterialPropertyValuesSetter), 56 + sizeof(::ArrayW<::GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*>)> __GlobalNamespace_MaterialPropertyValuesSetterSizeCheck;
   static_assert(sizeof(MaterialPropertyValuesSetter) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyValuesSetter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyValuesSetter::Start
 // Il2CppName: Start
 template<>
@@ -161,7 +151,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialPropertyValuesSetter*), "ApplyParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyValuesSetter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

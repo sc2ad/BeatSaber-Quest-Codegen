@@ -58,31 +58,31 @@ namespace UnityEngine {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::Vector3Int>*>(this);
     }
     // Get instance field reference: private readonly UnityEngine.Vector3Int _min
-    ::UnityEngine::Vector3Int& dyn__min();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3Int& dyn__min();
     // Get instance field reference: private readonly UnityEngine.Vector3Int _max
-    ::UnityEngine::Vector3Int& dyn__max();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3Int& dyn__max();
     // Get instance field reference: private UnityEngine.Vector3Int _current
-    ::UnityEngine::Vector3Int& dyn__current();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3Int& dyn__current();
     // public UnityEngine.Vector3Int get_Current()
-    // Offset: 0x1F28010
+    // Offset: 0x1F8ECCC
     ::UnityEngine::Vector3Int get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1F28020
+    // Offset: 0x1F8ECDC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(UnityEngine.Vector3Int min, UnityEngine.Vector3Int max)
-    // Offset: 0x1F27DB4
+    // Offset: 0x1F8EA70
     PositionEnumerator(::UnityEngine::Vector3Int min, ::UnityEngine::Vector3Int max);
     // public UnityEngine.BoundsInt/UnityEngine.PositionEnumerator GetEnumerator()
-    // Offset: 0x1F27E44
+    // Offset: 0x1F8EB00
     ::UnityEngine::BoundsInt::PositionEnumerator GetEnumerator();
     // public System.Boolean MoveNext()
-    // Offset: 0x1F27E58
+    // Offset: 0x1F8EB14
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1F27E00
+    // Offset: 0x1F8EABC
     void Reset();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1F2808C
+    // Offset: 0x1F8ED48
     void System_IDisposable_Dispose();
   }; // UnityEngine.BoundsInt/UnityEngine.PositionEnumerator
   #pragma pack(pop)

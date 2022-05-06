@@ -25,15 +25,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MultiplayerScoreProvider::$$c__DisplayClass18_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String userId
     // Size: 0x8
     // Offset: 0x10
@@ -46,25 +38,27 @@ namespace GlobalNamespace {
       return userId;
     }
     // Get instance field reference: public System.String userId
-    ::StringW& dyn_userId();
-    // System.Boolean <GetPositionOfPlayer>b__0(MultiplayerScoreProvider/RankedPlayer p)
-    // Offset: 0x13A9274
-    bool $GetPositionOfPlayer$b__0(::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* p);
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_userId();
     // public System.Void .ctor()
-    // Offset: 0x13A9140
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13A55EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerScoreProvider::$$c__DisplayClass18_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerScoreProvider::$$c__DisplayClass18_0*, creationType>()));
     }
+    // System.Boolean <GetPositionOfPlayer>b__0(MultiplayerScoreProvider/RankedPlayer p)
+    // Offset: 0x13A5720
+    bool $GetPositionOfPlayer$b__0(::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* p);
   }; // MultiplayerScoreProvider/<>c__DisplayClass18_0
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerScoreProvider::$$c__DisplayClass18_0), 16 + sizeof(::StringW)> __GlobalNamespace_MultiplayerScoreProvider_$$c__DisplayClass18_0SizeCheck;
   static_assert(sizeof(MultiplayerScoreProvider::$$c__DisplayClass18_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0::$GetPositionOfPlayer$b__0
 // Il2CppName: <GetPositionOfPlayer>b__0
 template<>
@@ -74,7 +68,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0*), "<GetPositionOfPlayer>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

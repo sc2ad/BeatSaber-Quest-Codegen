@@ -29,15 +29,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerModeSettings : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 createServerPlayersCount
     // Size: 0x4
     // Offset: 0x10
@@ -66,17 +58,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.Int32 createServerPlayersCount
-    int& dyn_createServerPlayersCount();
+    [[deprecated("Use field access instead!")]] int& dyn_createServerPlayersCount();
     // Get instance field reference: public BeatmapDifficultyMask quickPlayBeatmapDifficulty
-    ::GlobalNamespace::BeatmapDifficultyMask& dyn_quickPlayBeatmapDifficulty();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficultyMask& dyn_quickPlayBeatmapDifficulty();
     // Get instance field reference: public System.String quickPlaySongPackMaskSerializedName
-    ::StringW& dyn_quickPlaySongPackMaskSerializedName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_quickPlaySongPackMaskSerializedName();
     // Get instance field reference: public System.Boolean quickPlayEnableLevelSelection
-    bool& dyn_quickPlayEnableLevelSelection();
+    [[deprecated("Use field access instead!")]] bool& dyn_quickPlayEnableLevelSelection();
     // public System.Void .ctor()
-    // Offset: 0x139EB7C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x139B028
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerModeSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerModeSettings::.ctor");

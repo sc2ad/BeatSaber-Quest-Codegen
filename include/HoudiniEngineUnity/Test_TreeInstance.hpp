@@ -30,15 +30,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_TreeInstance : public ::Il2CppObject/*, public ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.TreeInstance self
     // Size: 0x28
     // Offset: 0x10
@@ -55,16 +47,16 @@ namespace HoudiniEngineUnity {
       return self;
     }
     // Get instance field reference: public UnityEngine.TreeInstance self
-    ::UnityEngine::TreeInstance& dyn_self();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TreeInstance& dyn_self();
     // public System.Void .ctor(UnityEngine.TreeInstance self)
-    // Offset: 0x2A413FC
+    // Offset: 0x2A987E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_TreeInstance* New_ctor(::UnityEngine::TreeInstance self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_TreeInstance::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_TreeInstance*, creationType>(self)));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_TreeInstance other)
-    // Offset: 0x2A41434
+    // Offset: 0x2A9881C
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_TreeInstance* other);
   }; // HoudiniEngineUnity.Test_TreeInstance
   #pragma pack(pop)

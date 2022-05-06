@@ -36,15 +36,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class VmpcEngine : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IStreamCipher*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected System.Byte n
     // Size: 0x1
     // Offset: 0x10
@@ -85,42 +77,44 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IStreamCipher*>(this);
     }
     // Get instance field reference: protected System.Byte n
-    uint8_t& dyn_n();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_n();
     // Get instance field reference: protected System.Byte[] P
-    ::ArrayW<uint8_t>& dyn_P();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_P();
     // Get instance field reference: protected System.Byte s
-    uint8_t& dyn_s();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_s();
     // Get instance field reference: protected System.Byte[] workingIV
-    ::ArrayW<uint8_t>& dyn_workingIV();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_workingIV();
     // Get instance field reference: protected System.Byte[] workingKey
-    ::ArrayW<uint8_t>& dyn_workingKey();
-    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1DF2B6C
-    void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-    // protected System.Void InitKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    // Offset: 0x1DF2CE8
-    void InitKey(::ArrayW<uint8_t> keyBytes, ::ArrayW<uint8_t> ivBytes);
-    // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1DF2F14
-    void ProcessBytes(::ArrayW<uint8_t> input, int inOff, int len, ::ArrayW<uint8_t> output, int outOff);
-    // public System.Void Reset()
-    // Offset: 0x1DF30F4
-    void Reset();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_workingKey();
     // public System.Void .ctor()
-    // Offset: 0x1DF3104
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E2D9D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VmpcEngine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::VmpcEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VmpcEngine*, creationType>()));
     }
+    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
+    // Offset: 0x1E2D438
+    void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // protected System.Void InitKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
+    // Offset: 0x1E2D5B4
+    void InitKey(::ArrayW<uint8_t> keyBytes, ::ArrayW<uint8_t> ivBytes);
+    // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
+    // Offset: 0x1E2D7E0
+    void ProcessBytes(::ArrayW<uint8_t> input, int inOff, int len, ::ArrayW<uint8_t> output, int outOff);
+    // public System.Void Reset()
+    // Offset: 0x1E2D9C0
+    void Reset();
   }; // Org.BouncyCastle.Crypto.Engines.VmpcEngine
   #pragma pack(pop)
   static check_size<sizeof(VmpcEngine), 48 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Crypto_Engines_VmpcEngineSizeCheck;
   static_assert(sizeof(VmpcEngine) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::VmpcEngine::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::VmpcEngine::Init
 // Il2CppName: Init
 template<>
@@ -162,7 +156,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::VmpcEngine*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::VmpcEngine::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

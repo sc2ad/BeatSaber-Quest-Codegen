@@ -23,15 +23,7 @@ namespace OnlineServices::API {
   // [TokenAttribute] Offset: FFFFFFFF
   class HTTPAdminLeaderboardsHelper::ServerStatusResultDto : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean everythingOK
     // Size: 0x1
     // Offset: 0x10
@@ -44,11 +36,9 @@ namespace OnlineServices::API {
       return everythingOK;
     }
     // Get instance field reference: public System.Boolean everythingOK
-    bool& dyn_everythingOK();
+    [[deprecated("Use field access instead!")]] bool& dyn_everythingOK();
     // public System.Void .ctor()
-    // Offset: 0x151AB28
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1552430
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HTTPAdminLeaderboardsHelper::ServerStatusResultDto* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::API::HTTPAdminLeaderboardsHelper::ServerStatusResultDto::.ctor");

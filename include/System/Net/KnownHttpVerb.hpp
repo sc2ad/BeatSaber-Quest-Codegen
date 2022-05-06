@@ -34,15 +34,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class KnownHttpVerb : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.String Name
     // Size: 0x8
     // Offset: 0x10
@@ -103,27 +95,27 @@ namespace System::Net {
     // Set static field: static System.Net.KnownHttpVerb MkCol
     static void _set_MkCol(::System::Net::KnownHttpVerb* value);
     // Get instance field reference: System.String Name
-    ::StringW& dyn_Name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Name();
     // Get instance field reference: System.Boolean RequireContentBody
-    bool& dyn_RequireContentBody();
+    [[deprecated("Use field access instead!")]] bool& dyn_RequireContentBody();
     // Get instance field reference: System.Boolean ContentBodyNotAllowed
-    bool& dyn_ContentBodyNotAllowed();
+    [[deprecated("Use field access instead!")]] bool& dyn_ContentBodyNotAllowed();
     // Get instance field reference: System.Boolean ConnectRequest
-    bool& dyn_ConnectRequest();
+    [[deprecated("Use field access instead!")]] bool& dyn_ConnectRequest();
     // Get instance field reference: System.Boolean ExpectNoContentResponse
-    bool& dyn_ExpectNoContentResponse();
+    [[deprecated("Use field access instead!")]] bool& dyn_ExpectNoContentResponse();
     // System.Void .ctor(System.String name, System.Boolean requireContentBody, System.Boolean contentBodyNotAllowed, System.Boolean connectRequest, System.Boolean expectNoContentResponse)
-    // Offset: 0x1A788F0
+    // Offset: 0x1AB2ED8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KnownHttpVerb* New_ctor(::StringW name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::KnownHttpVerb::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KnownHttpVerb*, creationType>(name, requireContentBody, contentBodyNotAllowed, connectRequest, expectNoContentResponse)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1A7895C
+    // Offset: 0x1AB2F44
     static void _cctor();
     // static public System.Net.KnownHttpVerb Parse(System.String name)
-    // Offset: 0x1A78C0C
+    // Offset: 0x1AB31F4
     static ::System::Net::KnownHttpVerb* Parse(::StringW name);
   }; // System.Net.KnownHttpVerb
   #pragma pack(pop)

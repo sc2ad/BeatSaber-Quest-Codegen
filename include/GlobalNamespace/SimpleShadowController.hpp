@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SimpleShadowController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Transform _followTransform
     // Size: 0x8
     // Offset: 0x18
@@ -58,7 +50,7 @@ namespace GlobalNamespace {
     ::UnityEngine::SpriteRenderer* spriteRenderer;
     // Field size check
     static_assert(sizeof(::UnityEngine::SpriteRenderer*) == 0x8);
-    // [SpaceAttribute] Offset: 0x12254B0
+    // [SpaceAttribute] Offset: 0x10A9EC8
     // private System.Single _distanceScale
     // Size: 0x4
     // Offset: 0x28
@@ -71,14 +63,14 @@ namespace GlobalNamespace {
     float scale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x12254F8
+    // [SpaceAttribute] Offset: 0x10A9F10
     // private System.Single _alpha
     // Size: 0x4
     // Offset: 0x30
     float alpha;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x1225530
+    // [SpaceAttribute] Offset: 0x10A9F48
     // private System.Single _floorYPos
     // Size: 0x4
     // Offset: 0x34
@@ -103,46 +95,44 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform _followTransform
-    ::UnityEngine::Transform*& dyn__followTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__followTransform();
     // Get instance field reference: private UnityEngine.SpriteRenderer _spriteRenderer
-    ::UnityEngine::SpriteRenderer*& dyn__spriteRenderer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::SpriteRenderer*& dyn__spriteRenderer();
     // Get instance field reference: private System.Single _distanceScale
-    float& dyn__distanceScale();
+    [[deprecated("Use field access instead!")]] float& dyn__distanceScale();
     // Get instance field reference: private System.Single _scale
-    float& dyn__scale();
+    [[deprecated("Use field access instead!")]] float& dyn__scale();
     // Get instance field reference: private System.Single _alpha
-    float& dyn__alpha();
+    [[deprecated("Use field access instead!")]] float& dyn__alpha();
     // Get instance field reference: private System.Single _floorYPos
-    float& dyn__floorYPos();
+    [[deprecated("Use field access instead!")]] float& dyn__floorYPos();
     // Get instance field reference: private System.Boolean _floorYPosLocal
-    bool& dyn__floorYPosLocal();
+    [[deprecated("Use field access instead!")]] bool& dyn__floorYPosLocal();
     // Get instance field reference: private UnityEngine.Transform _transform
-    ::UnityEngine::Transform*& dyn__transform();
-    // protected System.Void Start()
-    // Offset: 0x29D7184
-    void Start();
-    // protected System.Void LateUpdate()
-    // Offset: 0x29D71AC
-    void LateUpdate();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // public System.Void .ctor()
-    // Offset: 0x29D731C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A2982C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleShadowController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SimpleShadowController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleShadowController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x2A29694
+    void Start();
+    // protected System.Void LateUpdate()
+    // Offset: 0x2A296BC
+    void LateUpdate();
   }; // SimpleShadowController
   #pragma pack(pop)
   static check_size<sizeof(SimpleShadowController), 64 + sizeof(::UnityEngine::Transform*)> __GlobalNamespace_SimpleShadowControllerSizeCheck;
   static_assert(sizeof(SimpleShadowController) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SimpleShadowController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SimpleShadowController::Start
 // Il2CppName: Start
 template<>
@@ -159,7 +149,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleShadowController*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SimpleShadowController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

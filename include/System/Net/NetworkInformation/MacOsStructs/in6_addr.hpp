@@ -44,7 +44,7 @@ namespace System::Net::NetworkInformation::MacOsStructs {
       return u6_addr8;
     }
     // Get instance field reference: public System.Byte[] u6_addr8
-    ::ArrayW<uint8_t>& dyn_u6_addr8();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_u6_addr8();
   }; // System.Net.NetworkInformation.MacOsStructs.in6_addr
   #pragma pack(pop)
   static check_size<sizeof(in6_addr), 0 + sizeof(::ArrayW<uint8_t>)> __System_Net_NetworkInformation_MacOsStructs_in6_addrSizeCheck;

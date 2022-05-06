@@ -165,7 +165,7 @@ namespace System {
     // Set static field: static public System.DateTimeParse/System.DTT Max
     static void _set_Max(::System::DateTimeParse::DTT value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.DateTimeParse/System.DTT
   #pragma pack(pop)
   static check_size<sizeof(DateTimeParse::DTT), 0 + sizeof(int)> __System_DateTimeParse_DTTSizeCheck;

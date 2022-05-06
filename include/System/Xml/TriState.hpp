@@ -60,7 +60,7 @@ namespace System::Xml {
     // Set static field: static public System.Xml.TriState True
     static void _set_True(::System::Xml::TriState value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Xml.TriState
   #pragma pack(pop)
   static check_size<sizeof(TriState), 0 + sizeof(int)> __System_Xml_TriStateSizeCheck;

@@ -40,15 +40,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapDataLoader::SpecialEventsFilter : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.HashSet`1<BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapEventType> _eventTypesToFilter
     // Size: 0x8
     // Offset: 0x10
@@ -61,16 +53,16 @@ namespace GlobalNamespace {
       return eventTypesToFilter;
     }
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapEventType> _eventTypesToFilter
-    ::System::Collections::Generic::HashSet_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::BeatmapEventType>*& dyn__eventTypesToFilter();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::BeatmapEventType>*& dyn__eventTypesToFilter();
     // public System.Void .ctor(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.BasicEventTypesWithKeywords basicEventTypesWithKeywords, EnvironmentKeywords environmentKeywords)
-    // Offset: 0x1369D1C
+    // Offset: 0x1351F9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataLoader::SpecialEventsFilter* New_ctor(::BeatmapSaveDataVersion3::BeatmapSaveData::BasicEventTypesWithKeywords* basicEventTypesWithKeywords, ::GlobalNamespace::EnvironmentKeywords* environmentKeywords) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataLoader::SpecialEventsFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataLoader::SpecialEventsFilter*, creationType>(basicEventTypesWithKeywords, environmentKeywords)));
     }
     // public System.Boolean IsEventValid(BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapEventType basicBeatmapEventType)
-    // Offset: 0x136ACE4
+    // Offset: 0x1352F68
     bool IsEventValid(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::BeatmapEventType basicBeatmapEventType);
   }; // BeatmapDataLoader/SpecialEventsFilter
   #pragma pack(pop)

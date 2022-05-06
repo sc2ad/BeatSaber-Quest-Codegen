@@ -197,45 +197,45 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: Valve.VR.IVRChaperoneSetup/Valve.VR._CommitWorkingCopy CommitWorkingCopy
-    ::Valve::VR::IVRChaperoneSetup::_CommitWorkingCopy*& dyn_CommitWorkingCopy();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperoneSetup::_CommitWorkingCopy*& dyn_CommitWorkingCopy();
     // Get instance field reference: Valve.VR.IVRChaperoneSetup/Valve.VR._RevertWorkingCopy RevertWorkingCopy
-    ::Valve::VR::IVRChaperoneSetup::_RevertWorkingCopy*& dyn_RevertWorkingCopy();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperoneSetup::_RevertWorkingCopy*& dyn_RevertWorkingCopy();
     // Get instance field reference: Valve.VR.IVRChaperoneSetup/Valve.VR._GetWorkingPlayAreaSize GetWorkingPlayAreaSize
-    ::Valve::VR::IVRChaperoneSetup::_GetWorkingPlayAreaSize*& dyn_GetWorkingPlayAreaSize();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperoneSetup::_GetWorkingPlayAreaSize*& dyn_GetWorkingPlayAreaSize();
     // Get instance field reference: Valve.VR.IVRChaperoneSetup/Valve.VR._GetWorkingPlayAreaRect GetWorkingPlayAreaRect
-    ::Valve::VR::IVRChaperoneSetup::_GetWorkingPlayAreaRect*& dyn_GetWorkingPlayAreaRect();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperoneSetup::_GetWorkingPlayAreaRect*& dyn_GetWorkingPlayAreaRect();
     // Get instance field reference: Valve.VR.IVRChaperoneSetup/Valve.VR._GetWorkingCollisionBoundsInfo GetWorkingCollisionBoundsInfo
-    ::Valve::VR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo*& dyn_GetWorkingCollisionBoundsInfo();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo*& dyn_GetWorkingCollisionBoundsInfo();
     // Get instance field reference: Valve.VR.IVRChaperoneSetup/Valve.VR._GetLiveCollisionBoundsInfo GetLiveCollisionBoundsInfo
-    ::Valve::VR::IVRChaperoneSetup::_GetLiveCollisionBoundsInfo*& dyn_GetLiveCollisionBoundsInfo();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperoneSetup::_GetLiveCollisionBoundsInfo*& dyn_GetLiveCollisionBoundsInfo();
     // Get instance field reference: Valve.VR.IVRChaperoneSetup/Valve.VR._GetWorkingSeatedZeroPoseToRawTrackingPose GetWorkingSeatedZeroPoseToRawTrackingPose
-    ::Valve::VR::IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose*& dyn_GetWorkingSeatedZeroPoseToRawTrackingPose();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose*& dyn_GetWorkingSeatedZeroPoseToRawTrackingPose();
     // Get instance field reference: Valve.VR.IVRChaperoneSetup/Valve.VR._GetWorkingStandingZeroPoseToRawTrackingPose GetWorkingStandingZeroPoseToRawTrackingPose
-    ::Valve::VR::IVRChaperoneSetup::_GetWorkingStandingZeroPoseToRawTrackingPose*& dyn_GetWorkingStandingZeroPoseToRawTrackingPose();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperoneSetup::_GetWorkingStandingZeroPoseToRawTrackingPose*& dyn_GetWorkingStandingZeroPoseToRawTrackingPose();
     // Get instance field reference: Valve.VR.IVRChaperoneSetup/Valve.VR._SetWorkingPlayAreaSize SetWorkingPlayAreaSize
-    ::Valve::VR::IVRChaperoneSetup::_SetWorkingPlayAreaSize*& dyn_SetWorkingPlayAreaSize();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperoneSetup::_SetWorkingPlayAreaSize*& dyn_SetWorkingPlayAreaSize();
     // Get instance field reference: Valve.VR.IVRChaperoneSetup/Valve.VR._SetWorkingCollisionBoundsInfo SetWorkingCollisionBoundsInfo
-    ::Valve::VR::IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo*& dyn_SetWorkingCollisionBoundsInfo();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo*& dyn_SetWorkingCollisionBoundsInfo();
     // Get instance field reference: Valve.VR.IVRChaperoneSetup/Valve.VR._SetWorkingSeatedZeroPoseToRawTrackingPose SetWorkingSeatedZeroPoseToRawTrackingPose
-    ::Valve::VR::IVRChaperoneSetup::_SetWorkingSeatedZeroPoseToRawTrackingPose*& dyn_SetWorkingSeatedZeroPoseToRawTrackingPose();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperoneSetup::_SetWorkingSeatedZeroPoseToRawTrackingPose*& dyn_SetWorkingSeatedZeroPoseToRawTrackingPose();
     // Get instance field reference: Valve.VR.IVRChaperoneSetup/Valve.VR._SetWorkingStandingZeroPoseToRawTrackingPose SetWorkingStandingZeroPoseToRawTrackingPose
-    ::Valve::VR::IVRChaperoneSetup::_SetWorkingStandingZeroPoseToRawTrackingPose*& dyn_SetWorkingStandingZeroPoseToRawTrackingPose();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperoneSetup::_SetWorkingStandingZeroPoseToRawTrackingPose*& dyn_SetWorkingStandingZeroPoseToRawTrackingPose();
     // Get instance field reference: Valve.VR.IVRChaperoneSetup/Valve.VR._ReloadFromDisk ReloadFromDisk
-    ::Valve::VR::IVRChaperoneSetup::_ReloadFromDisk*& dyn_ReloadFromDisk();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperoneSetup::_ReloadFromDisk*& dyn_ReloadFromDisk();
     // Get instance field reference: Valve.VR.IVRChaperoneSetup/Valve.VR._GetLiveSeatedZeroPoseToRawTrackingPose GetLiveSeatedZeroPoseToRawTrackingPose
-    ::Valve::VR::IVRChaperoneSetup::_GetLiveSeatedZeroPoseToRawTrackingPose*& dyn_GetLiveSeatedZeroPoseToRawTrackingPose();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperoneSetup::_GetLiveSeatedZeroPoseToRawTrackingPose*& dyn_GetLiveSeatedZeroPoseToRawTrackingPose();
     // Get instance field reference: Valve.VR.IVRChaperoneSetup/Valve.VR._SetWorkingCollisionBoundsTagsInfo SetWorkingCollisionBoundsTagsInfo
-    ::Valve::VR::IVRChaperoneSetup::_SetWorkingCollisionBoundsTagsInfo*& dyn_SetWorkingCollisionBoundsTagsInfo();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperoneSetup::_SetWorkingCollisionBoundsTagsInfo*& dyn_SetWorkingCollisionBoundsTagsInfo();
     // Get instance field reference: Valve.VR.IVRChaperoneSetup/Valve.VR._GetLiveCollisionBoundsTagsInfo GetLiveCollisionBoundsTagsInfo
-    ::Valve::VR::IVRChaperoneSetup::_GetLiveCollisionBoundsTagsInfo*& dyn_GetLiveCollisionBoundsTagsInfo();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperoneSetup::_GetLiveCollisionBoundsTagsInfo*& dyn_GetLiveCollisionBoundsTagsInfo();
     // Get instance field reference: Valve.VR.IVRChaperoneSetup/Valve.VR._SetWorkingPhysicalBoundsInfo SetWorkingPhysicalBoundsInfo
-    ::Valve::VR::IVRChaperoneSetup::_SetWorkingPhysicalBoundsInfo*& dyn_SetWorkingPhysicalBoundsInfo();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperoneSetup::_SetWorkingPhysicalBoundsInfo*& dyn_SetWorkingPhysicalBoundsInfo();
     // Get instance field reference: Valve.VR.IVRChaperoneSetup/Valve.VR._GetLivePhysicalBoundsInfo GetLivePhysicalBoundsInfo
-    ::Valve::VR::IVRChaperoneSetup::_GetLivePhysicalBoundsInfo*& dyn_GetLivePhysicalBoundsInfo();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperoneSetup::_GetLivePhysicalBoundsInfo*& dyn_GetLivePhysicalBoundsInfo();
     // Get instance field reference: Valve.VR.IVRChaperoneSetup/Valve.VR._ExportLiveToBuffer ExportLiveToBuffer
-    ::Valve::VR::IVRChaperoneSetup::_ExportLiveToBuffer*& dyn_ExportLiveToBuffer();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperoneSetup::_ExportLiveToBuffer*& dyn_ExportLiveToBuffer();
     // Get instance field reference: Valve.VR.IVRChaperoneSetup/Valve.VR._ImportFromBufferToWorking ImportFromBufferToWorking
-    ::Valve::VR::IVRChaperoneSetup::_ImportFromBufferToWorking*& dyn_ImportFromBufferToWorking();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperoneSetup::_ImportFromBufferToWorking*& dyn_ImportFromBufferToWorking();
   }; // Valve.VR.IVRChaperoneSetup
   #pragma pack(pop)
   static check_size<sizeof(IVRChaperoneSetup), 152 + sizeof(::Valve::VR::IVRChaperoneSetup::_ImportFromBufferToWorking*)> __Valve_VR_IVRChaperoneSetupSizeCheck;

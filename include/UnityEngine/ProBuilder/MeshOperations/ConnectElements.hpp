@@ -74,31 +74,31 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Nested type: ::UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0
     class $$c__DisplayClass3_0;
     // static public UnityEngine.ProBuilder.Face[] Connect(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x19E9F68
+    // Offset: 0x1A23550
     static ::ArrayW<::UnityEngine::ProBuilder::Face*> Connect(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
     // static public UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.Face[],UnityEngine.ProBuilder.Edge[]> Connect(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> edges)
-    // Offset: 0x19EB584
+    // Offset: 0x1A24B6C
     static ::UnityEngine::ProBuilder::SimpleTuple_2<::ArrayW<::UnityEngine::ProBuilder::Face*>, ::ArrayW<::UnityEngine::ProBuilder::Edge>> Connect(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges);
     // static public System.Int32[] Connect(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x19EB624
+    // Offset: 0x1A24C0C
     static ::ArrayW<int> Connect(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<int>* indexes);
     // static UnityEngine.ProBuilder.ActionResult Connect(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> edges, out UnityEngine.ProBuilder.Face[] addedFaces, out UnityEngine.ProBuilder.Edge[] connections, System.Boolean returnFaces, System.Boolean returnEdges, System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> faceMask)
-    // Offset: 0x19EA198
+    // Offset: 0x1A23780
     static ::UnityEngine::ProBuilder::ActionResult* Connect(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges, ByRef<::ArrayW<::UnityEngine::ProBuilder::Face*>> addedFaces, ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge>> connections, bool returnFaces, bool returnEdges, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* faceMask);
     // static private System.Collections.Generic.List`1<UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData> ConnectEdgesInFace(UnityEngine.ProBuilder.Face face, UnityEngine.ProBuilder.WingedEdge a, UnityEngine.ProBuilder.WingedEdge b, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices)
-    // Offset: 0x19EDDBC
+    // Offset: 0x1A273A4
     static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>* ConnectEdgesInFace(::UnityEngine::ProBuilder::Face* face, ::UnityEngine::ProBuilder::WingedEdge* a, ::UnityEngine::ProBuilder::WingedEdge* b, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices);
     // static private System.Collections.Generic.List`1<UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData> ConnectEdgesInFace(UnityEngine.ProBuilder.Face face, System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> edges, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices)
-    // Offset: 0x19ED69C
+    // Offset: 0x1A26C84
     static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>* ConnectEdgesInFace(::UnityEngine::ProBuilder::Face* face, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* edges, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices);
     // static private System.Boolean InsertVertices(UnityEngine.ProBuilder.Face face, System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> edges, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices, out UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData data)
-    // Offset: 0x19ED274
+    // Offset: 0x1A2685C
     static bool InsertVertices(::UnityEngine::ProBuilder::Face* face, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* edges, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ByRef<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*> data);
     // static private System.Collections.Generic.List`1<UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData> ConnectIndexesPerFace(UnityEngine.ProBuilder.Face face, System.Int32 a, System.Int32 b, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup)
-    // Offset: 0x19ECBBC
+    // Offset: 0x1A261A4
     static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>* ConnectIndexesPerFace(::UnityEngine::ProBuilder::Face* face, int a, int b, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::Dictionary_2<int, int>* lookup);
     // static private System.Collections.Generic.List`1<UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData> ConnectIndexesPerFace(UnityEngine.ProBuilder.Face face, System.Collections.Generic.List`1<System.Int32> indexes, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup, System.Int32 sharedIndexOffset)
-    // Offset: 0x19EC38C
+    // Offset: 0x1A25974
     static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>* ConnectIndexesPerFace(::UnityEngine::ProBuilder::Face* face, ::System::Collections::Generic::List_1<int>* indexes, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::Dictionary_2<int, int>* lookup, int sharedIndexOffset);
   }; // UnityEngine.ProBuilder.MeshOperations.ConnectElements
   #pragma pack(pop)

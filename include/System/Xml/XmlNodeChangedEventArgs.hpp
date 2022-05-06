@@ -38,15 +38,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlNodeChangedEventArgs : public ::System::EventArgs {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Xml.XmlNodeChangedAction action
     // Size: 0x4
     // Offset: 0x10
@@ -87,22 +79,22 @@ namespace System::Xml {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.Xml.XmlNodeChangedAction action
-    ::System::Xml::XmlNodeChangedAction& dyn_action();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlNodeChangedAction& dyn_action();
     // Get instance field reference: private System.Xml.XmlNode node
-    ::System::Xml::XmlNode*& dyn_node();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlNode*& dyn_node();
     // Get instance field reference: private System.Xml.XmlNode oldParent
-    ::System::Xml::XmlNode*& dyn_oldParent();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlNode*& dyn_oldParent();
     // Get instance field reference: private System.Xml.XmlNode newParent
-    ::System::Xml::XmlNode*& dyn_newParent();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlNode*& dyn_newParent();
     // Get instance field reference: private System.String oldValue
-    ::StringW& dyn_oldValue();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_oldValue();
     // Get instance field reference: private System.String newValue
-    ::StringW& dyn_newValue();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_newValue();
     // public System.Xml.XmlNodeChangedAction get_Action()
-    // Offset: 0x15A50B0
+    // Offset: 0x15DA9C0
     ::System::Xml::XmlNodeChangedAction get_Action();
     // public System.Void .ctor(System.Xml.XmlNode node, System.Xml.XmlNode oldParent, System.Xml.XmlNode newParent, System.String oldValue, System.String newValue, System.Xml.XmlNodeChangedAction action)
-    // Offset: 0x15A5004
+    // Offset: 0x15DA914
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlNodeChangedEventArgs* New_ctor(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* oldParent, ::System::Xml::XmlNode* newParent, ::StringW oldValue, ::StringW newValue, ::System::Xml::XmlNodeChangedAction action) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlNodeChangedEventArgs::.ctor");

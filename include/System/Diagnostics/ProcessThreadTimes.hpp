@@ -33,15 +33,7 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   class ProcessThreadTimes : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int64 create
     // Size: 0x8
     // Offset: 0x10
@@ -68,20 +60,18 @@ namespace System::Diagnostics {
     static_assert(sizeof(int64_t) == 0x8);
     public:
     // Get instance field reference: System.Int64 create
-    int64_t& dyn_create();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_create();
     // Get instance field reference: System.Int64 exit
-    int64_t& dyn_exit();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_exit();
     // Get instance field reference: System.Int64 kernel
-    int64_t& dyn_kernel();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_kernel();
     // Get instance field reference: System.Int64 user
-    int64_t& dyn_user();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_user();
     // public System.TimeSpan get_TotalProcessorTime()
-    // Offset: 0x1CA92F4
+    // Offset: 0x1CE584C
     ::System::TimeSpan get_TotalProcessorTime();
     // public System.Void .ctor()
-    // Offset: 0x1CA8EB8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1CE5410
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProcessThreadTimes* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::ProcessThreadTimes::.ctor");

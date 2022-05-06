@@ -60,7 +60,7 @@ namespace System::ComponentModel {
     // Set static field: static public System.ComponentModel.EditorBrowsableState Advanced
     static void _set_Advanced(::System::ComponentModel::EditorBrowsableState value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.ComponentModel.EditorBrowsableState
   #pragma pack(pop)
   static check_size<sizeof(EditorBrowsableState), 0 + sizeof(int)> __System_ComponentModel_EditorBrowsableStateSizeCheck;

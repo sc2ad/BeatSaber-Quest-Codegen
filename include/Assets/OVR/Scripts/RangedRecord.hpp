@@ -29,15 +29,7 @@ namespace Assets::OVR::Scripts {
   // [TokenAttribute] Offset: FFFFFFFF
   class RangedRecord : public ::Assets::OVR::Scripts::Record {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single value
     // Size: 0x4
     // Offset: 0x20
@@ -58,13 +50,13 @@ namespace Assets::OVR::Scripts {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public System.Single value
-    float& dyn_value();
+    [[deprecated("Use field access instead!")]] float& dyn_value();
     // Get instance field reference: public System.Single min
-    float& dyn_min();
+    [[deprecated("Use field access instead!")]] float& dyn_min();
     // Get instance field reference: public System.Single max
-    float& dyn_max();
+    [[deprecated("Use field access instead!")]] float& dyn_max();
     // public System.Void .ctor(System.String cat, System.String msg, System.Single val, System.Single minVal, System.Single maxVal)
-    // Offset: 0x1A52628
+    // Offset: 0x1A8BC10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RangedRecord* New_ctor(::StringW cat, ::StringW msg, float val, float minVal, float maxVal) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Assets::OVR::Scripts::RangedRecord::.ctor");

@@ -85,22 +85,22 @@ namespace OnlineServices::API {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<OnlineServices.API.ApiResponse`1<BeatSaberAPI.DataTransferObjects.LeaderboardEntries>> <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OnlineServices::API::ApiResponse_1<::BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>>& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OnlineServices::API::ApiResponse_1<::BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>>& dyn_$$t__builder();
     // Get instance field reference: public OnlineServices.API.HTTPApiLeaderboardsModel <>4__this
-    ::OnlineServices::API::HTTPApiLeaderboardsModel*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::OnlineServices::API::HTTPApiLeaderboardsModel*& dyn_$$4__this();
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.LeaderboardQuery leaderboardQueryDTO
-    ::BeatSaberAPI::DataTransferObjects::LeaderboardQuery*& dyn_leaderboardQueryDTO();
+    [[deprecated("Use field access instead!")]] ::BeatSaberAPI::DataTransferObjects::LeaderboardQuery*& dyn_leaderboardQueryDTO();
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
-    ::System::Threading::CancellationToken& dyn_cancellationToken();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x151AE20
+    // Offset: 0x1552728
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x151B284
+    // Offset: 0x1552B8C
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.HTTPApiLeaderboardsModel/OnlineServices.API.<GetLeaderboardEntriesAsync>d__4
   // WARNING Not writing size check since size may be invalid!

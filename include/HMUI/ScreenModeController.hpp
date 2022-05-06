@@ -48,22 +48,14 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScreenModeController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.CurvedCanvasSettings[] _curvedCanvases
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<::HMUI::CurvedCanvasSettings*> curvedCanvases;
     // Field size check
     static_assert(sizeof(::ArrayW<::HMUI::CurvedCanvasSettings*>) == 0x8);
-    // [InjectAttribute] Offset: 0x123B2A4
+    // [InjectAttribute] Offset: 0x10BFD7C
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x20
@@ -86,41 +78,39 @@ namespace HMUI {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.CurvedCanvasSettings[] _curvedCanvases
-    ::ArrayW<::HMUI::CurvedCanvasSettings*>& dyn__curvedCanvases();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::HMUI::CurvedCanvasSettings*>& dyn__curvedCanvases();
     // Get instance field reference: private readonly IVRPlatformHelper _vrPlatformHelper
-    ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // Get instance field reference: private HMUI.ScreenModeData _defaultModeData
-    ::HMUI::ScreenModeData*& dyn__defaultModeData();
+    [[deprecated("Use field access instead!")]] ::HMUI::ScreenModeData*& dyn__defaultModeData();
     // Get instance field reference: private UnityEngine.Transform _transform
-    ::UnityEngine::Transform*& dyn__transform();
-    // protected System.Void Awake()
-    // Offset: 0x1687E3C
-    void Awake();
-    // public System.Void SetMode(HMUI.ScreenModeData screenModeData)
-    // Offset: 0x1688038
-    void SetMode(::HMUI::ScreenModeData* screenModeData);
-    // public System.Void SetDefaultMode()
-    // Offset: 0x16882A0
-    void SetDefaultMode();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // public System.Void .ctor()
-    // Offset: 0x16882A8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16BEBB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScreenModeController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ScreenModeController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScreenModeController*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x16BE74C
+    void Awake();
+    // public System.Void SetMode(HMUI.ScreenModeData screenModeData)
+    // Offset: 0x16BE948
+    void SetMode(::HMUI::ScreenModeData* screenModeData);
+    // public System.Void SetDefaultMode()
+    // Offset: 0x16BEBB0
+    void SetDefaultMode();
   }; // HMUI.ScreenModeController
   #pragma pack(pop)
   static check_size<sizeof(ScreenModeController), 48 + sizeof(::UnityEngine::Transform*)> __HMUI_ScreenModeControllerSizeCheck;
   static_assert(sizeof(ScreenModeController) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HMUI::ScreenModeController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::ScreenModeController::Awake
 // Il2CppName: Awake
 template<>
@@ -146,7 +136,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::ScreenModeController*), "SetDefaultMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HMUI::ScreenModeController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -28,15 +28,7 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class StackLayoutGroup : public ::UnityEngine::UI::LayoutGroup {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected System.Boolean m_ChildForceExpandWidth
     // Size: 0x1
     // Offset: 0x58
@@ -51,59 +43,51 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: protected System.Boolean m_ChildForceExpandWidth
-    bool& dyn_m_ChildForceExpandWidth();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_ChildForceExpandWidth();
     // Get instance field reference: protected System.Boolean m_ChildForceExpandHeight
-    bool& dyn_m_ChildForceExpandHeight();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_ChildForceExpandHeight();
     // public System.Boolean get_childForceExpandWidth()
-    // Offset: 0x168F498
+    // Offset: 0x16C5DA8
     bool get_childForceExpandWidth();
     // public System.Void set_childForceExpandWidth(System.Boolean value)
-    // Offset: 0x168F4A0
+    // Offset: 0x16C5DB0
     void set_childForceExpandWidth(bool value);
     // public System.Boolean get_childForceExpandHeight()
-    // Offset: 0x168F504
+    // Offset: 0x16C5E14
     bool get_childForceExpandHeight();
     // public System.Void set_childForceExpandHeight(System.Boolean value)
-    // Offset: 0x168F50C
+    // Offset: 0x16C5E1C
     void set_childForceExpandHeight(bool value);
-    // private System.Void CalcAlongAxis(System.Int32 axis)
-    // Offset: 0x168F5AC
-    void CalcAlongAxis(int axis);
-    // private System.Void SetChildrenAlongAxis(System.Int32 axis)
-    // Offset: 0x168F7C4
-    void SetChildrenAlongAxis(int axis);
     // protected System.Void .ctor()
-    // Offset: 0x168F570
-    // Implemented from: UnityEngine.UI.LayoutGroup
-    // Base method: System.Void LayoutGroup::.ctor()
-    // Base method: System.Void UIBehaviour::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16C5E80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackLayoutGroup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::StackLayoutGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackLayoutGroup*, creationType>()));
     }
+    // private System.Void CalcAlongAxis(System.Int32 axis)
+    // Offset: 0x16C5EBC
+    void CalcAlongAxis(int axis);
+    // private System.Void SetChildrenAlongAxis(System.Int32 axis)
+    // Offset: 0x16C60D4
+    void SetChildrenAlongAxis(int axis);
     // public override System.Void CalculateLayoutInputHorizontal()
-    // Offset: 0x168F580
+    // Offset: 0x16C5E90
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::CalculateLayoutInputHorizontal()
     void CalculateLayoutInputHorizontal();
     // public override System.Void CalculateLayoutInputVertical()
-    // Offset: 0x168F7B4
+    // Offset: 0x16C60C4
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::CalculateLayoutInputVertical()
     void CalculateLayoutInputVertical();
     // public override System.Void SetLayoutHorizontal()
-    // Offset: 0x168F7BC
+    // Offset: 0x16C60CC
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::SetLayoutHorizontal()
     void SetLayoutHorizontal();
     // public override System.Void SetLayoutVertical()
-    // Offset: 0x168F9DC
+    // Offset: 0x16C62EC
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::SetLayoutVertical()
     void SetLayoutVertical();
@@ -147,6 +131,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::StackLayoutGroup*), "set_childForceExpandHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: HMUI::StackLayoutGroup::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::StackLayoutGroup::CalcAlongAxis
 // Il2CppName: CalcAlongAxis
 template<>
@@ -165,10 +153,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::StackLayoutGroup*), "SetChildrenAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{axis});
   }
 };
-// Writing MetadataGetter for method: HMUI::StackLayoutGroup::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::StackLayoutGroup::CalculateLayoutInputHorizontal
 // Il2CppName: CalculateLayoutInputHorizontal
 template<>

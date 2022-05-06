@@ -44,15 +44,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MasterServerConnectionManager::MasterServerConnectionManagerParamsBase : public ::Il2CppObject/*, public ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::MasterServerConnectionManager*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public DnsEndPoint masterServerEndPoint
     // Size: 0x8
     // Offset: 0x10
@@ -83,17 +75,15 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::MasterServerConnectionManager*>*>(this);
     }
     // Get instance field reference: public DnsEndPoint masterServerEndPoint
-    ::GlobalNamespace::DnsEndPoint*& dyn_masterServerEndPoint();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DnsEndPoint*& dyn_masterServerEndPoint();
     // Get instance field reference: public System.Threading.Tasks.Task`1<IAuthenticationTokenProvider> authenticationTokenProviderTask
-    ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>*& dyn_authenticationTokenProviderTask();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>*& dyn_authenticationTokenProviderTask();
     // Get instance field reference: public BeatmapLevelSelectionMask selectionMask
-    ::GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
     // Get instance field reference: public GameplayServerConfiguration configuration
-    ::GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
     // protected System.Void .ctor()
-    // Offset: 0x16F99D4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x17322E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MasterServerConnectionManager::MasterServerConnectionManagerParamsBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MasterServerConnectionManager::MasterServerConnectionManagerParamsBase::.ctor");

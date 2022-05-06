@@ -43,15 +43,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLeaderboardPanelItem : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _playerNameText
     // Size: 0x8
     // Offset: 0x18
@@ -138,50 +130,44 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _playerNameText
-    ::TMPro::TextMeshProUGUI*& dyn__playerNameText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__playerNameText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _scoreText
-    ::TMPro::TextMeshProUGUI*& dyn__scoreText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__scoreText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _positionText
-    ::TMPro::TextMeshProUGUI*& dyn__positionText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__positionText();
     // Get instance field reference: private UnityEngine.UI.Image _backgroundImage
-    ::UnityEngine::UI::Image*& dyn__backgroundImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__backgroundImage();
     // Get instance field reference: private UnityEngine.Color _normalPlayerTextColor
-    ::UnityEngine::Color& dyn__normalPlayerTextColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__normalPlayerTextColor();
     // Get instance field reference: private UnityEngine.Color _failedPlayerTextColor
-    ::UnityEngine::Color& dyn__failedPlayerTextColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__failedPlayerTextColor();
     // Get instance field reference: private UnityEngine.Color _firstPlayerBackgroundColor
-    ::UnityEngine::Color& dyn__firstPlayerBackgroundColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__firstPlayerBackgroundColor();
     // Get instance field reference: private UnityEngine.Color _lastPlayerBackgroundColor
-    ::UnityEngine::Color& dyn__lastPlayerBackgroundColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__lastPlayerBackgroundColor();
     // Get instance field reference: private System.Int32 _prevPosition
-    int& dyn__prevPosition();
+    [[deprecated("Use field access instead!")]] int& dyn__prevPosition();
     // Get instance field reference: private System.String _prevPlayerName
-    ::StringW& dyn__prevPlayerName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__prevPlayerName();
     // Get instance field reference: private System.Int32 _prevScore
-    int& dyn__prevScore();
+    [[deprecated("Use field access instead!")]] int& dyn__prevScore();
     // Get instance field reference: private System.Boolean _prevFailed
-    bool& dyn__prevFailed();
+    [[deprecated("Use field access instead!")]] bool& dyn__prevFailed();
     // Get instance field reference: private System.Int32 _prevNumberOfPlayers
-    int& dyn__prevNumberOfPlayers();
+    [[deprecated("Use field access instead!")]] int& dyn__prevNumberOfPlayers();
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x13F5B4C
+    // Offset: 0x14025EC
     void set_hide(bool value);
-    // public System.Void SetData(System.Int32 position, System.String playerName, System.Int32 score, System.Boolean failed, System.Int32 numberOfPlayers)
-    // Offset: 0x13F5E04
-    void SetData(int position, ::StringW playerName, int score, bool failed, int numberOfPlayers);
     // public System.Void .ctor()
-    // Offset: 0x13F6120
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1402BC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLeaderboardPanelItem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLeaderboardPanelItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLeaderboardPanelItem*, creationType>()));
     }
+    // public System.Void SetData(System.Int32 position, System.String playerName, System.Int32 score, System.Boolean failed, System.Int32 numberOfPlayers)
+    // Offset: 0x14028A4
+    void SetData(int position, ::StringW playerName, int score, bool failed, int numberOfPlayers);
   }; // MultiplayerLeaderboardPanelItem
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLeaderboardPanelItem), 144 + sizeof(int)> __GlobalNamespace_MultiplayerLeaderboardPanelItemSizeCheck;
@@ -197,6 +183,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLeaderboardPanelItem*), "set_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLeaderboardPanelItem::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLeaderboardPanelItem::SetData
 // Il2CppName: SetData
 template<>
@@ -210,7 +200,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLeaderboardPanelItem*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, playerName, score, failed, numberOfPlayers});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLeaderboardPanelItem::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

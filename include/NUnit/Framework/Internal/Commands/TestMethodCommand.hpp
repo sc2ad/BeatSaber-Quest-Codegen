@@ -40,15 +40,7 @@ namespace NUnit::Framework::Internal::Commands {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestMethodCommand : public ::NUnit::Framework::Internal::Commands::TestCommand {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly NUnit.Framework.Internal.TestMethod testMethod
     // Size: 0x8
     // Offset: 0x18
@@ -65,24 +57,24 @@ namespace NUnit::Framework::Internal::Commands {
     // Deleting conversion operator: operator ::NUnit::Framework::Internal::Test*
     constexpr operator ::NUnit::Framework::Internal::Test*() const noexcept = delete;
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestMethod testMethod
-    ::NUnit::Framework::Internal::TestMethod*& dyn_testMethod();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::TestMethod*& dyn_testMethod();
     // Get instance field reference: private readonly System.Object[] arguments
-    ::ArrayW<::Il2CppObject*>& dyn_arguments();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppObject*>& dyn_arguments();
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod testMethod)
-    // Offset: 0x1C4F028
+    // Offset: 0x1CA75C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestMethodCommand* New_ctor(::NUnit::Framework::Internal::TestMethod* testMethod) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Commands::TestMethodCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestMethodCommand*, creationType>(testMethod)));
     }
     // private System.Object RunTestMethod(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x1C4F208
+    // Offset: 0x1CA77A0
     ::Il2CppObject* RunTestMethod(::NUnit::Framework::Internal::ITestExecutionContext* context);
     // private System.Object RunNonAsyncTestMethod(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x1C4F20C
+    // Offset: 0x1CA77A4
     ::Il2CppObject* RunNonAsyncTestMethod(::NUnit::Framework::Internal::ITestExecutionContext* context);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x1C4F06C
+    // Offset: 0x1CA7604
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     ::NUnit::Framework::Internal::TestResult* Execute(::NUnit::Framework::Internal::ITestExecutionContext* context);

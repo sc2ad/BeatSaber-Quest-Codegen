@@ -48,15 +48,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameSongController : public ::GlobalNamespace::SongController/*, public ::GlobalNamespace::IStartSeekSongController*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x20
@@ -69,14 +61,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AudioPitchGainEffect* failAudioPitchGainEffect;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioPitchGainEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0x12562CC
+    // [InjectAttribute] Offset: 0x10DAEB0
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x12562DC
+    // [InjectAttribute] Offset: 0x10DAEC0
     // private readonly BeatmapCallbacksUpdater _beatmapCallbacksUpdater
     // Size: 0x8
     // Offset: 0x38
@@ -95,62 +87,57 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IStartSeekSongController*>(this);
     }
     // Get instance field reference: private AudioTimeSyncController _audioTimeSyncController
-    ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // Get instance field reference: private AudioPitchGainEffect _failAudioPitchGainEffect
-    ::GlobalNamespace::AudioPitchGainEffect*& dyn__failAudioPitchGainEffect();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioPitchGainEffect*& dyn__failAudioPitchGainEffect();
     // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
-    ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
     // Get instance field reference: private readonly BeatmapCallbacksUpdater _beatmapCallbacksUpdater
-    ::GlobalNamespace::BeatmapCallbacksUpdater*& dyn__beatmapCallbacksUpdater();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksUpdater*& dyn__beatmapCallbacksUpdater();
     // Get instance field reference: private System.Boolean _songDidFinish
-    bool& dyn__songDidFinish();
+    [[deprecated("Use field access instead!")]] bool& dyn__songDidFinish();
     // public System.Single get_songLength()
-    // Offset: 0x13E2C94
+    // Offset: 0x13EF734
     float get_songLength();
     // public UnityEngine.WaitUntil get_waitUntilIsReadyToStartTheSong()
-    // Offset: 0x13E2CB0
+    // Offset: 0x13EF750
     ::UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
     // protected System.Void LateUpdate()
-    // Offset: 0x13E2CCC
+    // Offset: 0x13EF76C
     void LateUpdate();
     // public System.Void StartSong(System.Single songTimeOffset)
-    // Offset: 0x13E2D44
+    // Offset: 0x13EF7E4
     void StartSong(float songTimeOffset);
     // public System.Void FailStopSong()
-    // Offset: 0x13E2DFC
+    // Offset: 0x13EF89C
     void FailStopSong();
     // public System.Void SeekTo(System.Single songTime)
-    // Offset: 0x13E2F08
+    // Offset: 0x13EF9A8
     void SeekTo(float songTime);
     // private System.Void <FailStopSong>b__14_0()
-    // Offset: 0x13E2F2C
+    // Offset: 0x13EF9CC
     void $FailStopSong$b__14_0();
     // public System.Void .ctor()
-    // Offset: 0x13E2F24
+    // Offset: 0x13EF9C4
     // Implemented from: SongController
     // Base method: System.Void SongController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameSongController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameSongController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameSongController*, creationType>()));
     }
     // public override System.Void StopSong()
-    // Offset: 0x13E2D68
+    // Offset: 0x13EF808
     // Implemented from: SongController
     // Base method: System.Void SongController::StopSong()
     void StopSong();
     // public override System.Void PauseSong()
-    // Offset: 0x13E2D84
+    // Offset: 0x13EF824
     // Implemented from: SongController
     // Base method: System.Void SongController::PauseSong()
     void PauseSong();
     // public override System.Void ResumeSong()
-    // Offset: 0x13E2DC0
+    // Offset: 0x13EF860
     // Implemented from: SongController
     // Base method: System.Void SongController::ResumeSong()
     void ResumeSong();

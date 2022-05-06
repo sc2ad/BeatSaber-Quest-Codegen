@@ -60,7 +60,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.DetailRenderMode Grass
     static void _set_Grass(::UnityEngine::DetailRenderMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.DetailRenderMode
   #pragma pack(pop)
   static check_size<sizeof(DetailRenderMode), 0 + sizeof(int)> __UnityEngine_DetailRenderModeSizeCheck;

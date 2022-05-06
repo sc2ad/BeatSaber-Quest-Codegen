@@ -50,23 +50,21 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // Set static field: static public System.Func`2<System.Reflection.MethodInfo,System.Boolean> <>9__2_1
     static void _set_$$9__2_1(::System::Func_2<::System::Reflection::MethodInfo*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x19517E4
+    // Offset: 0x19891B4
     static void _cctor();
-    // System.Boolean <Pass>b__2_0(System.Reflection.MethodInfo mi)
-    // Offset: 0x1951850
-    bool $Pass$b__2_0(::System::Reflection::MethodInfo* mi);
-    // System.Boolean <Pass>b__2_1(System.Reflection.MethodInfo mi)
-    // Offset: 0x19518F8
-    bool $Pass$b__2_1(::System::Reflection::MethodInfo* mi);
     // public System.Void .ctor()
-    // Offset: 0x1951848
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1989218
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SynchronousFilter::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SynchronousFilter::$$c*, creationType>()));
     }
+    // System.Boolean <Pass>b__2_0(System.Reflection.MethodInfo mi)
+    // Offset: 0x1989220
+    bool $Pass$b__2_0(::System::Reflection::MethodInfo* mi);
+    // System.Boolean <Pass>b__2_1(System.Reflection.MethodInfo mi)
+    // Offset: 0x19892C8
+    bool $Pass$b__2_1(::System::Reflection::MethodInfo* mi);
   }; // UnityEngine.TestTools.TestRunner.GUI.SynchronousFilter/UnityEngine.TestTools.TestRunner.GUI.<>c
   #pragma pack(pop)
 }
@@ -79,6 +77,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c::$Pass$b__2_0
 // Il2CppName: <Pass>b__2_0
 template<>
@@ -97,7 +99,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c*), "<Pass>b__2_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mi});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

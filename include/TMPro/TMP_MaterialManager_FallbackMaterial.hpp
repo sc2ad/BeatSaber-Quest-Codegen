@@ -30,15 +30,7 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_MaterialManager::FallbackMaterial : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 baseID
     // Size: 0x4
     // Offset: 0x10
@@ -73,19 +65,17 @@ namespace TMPro {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public System.Int32 baseID
-    int& dyn_baseID();
+    [[deprecated("Use field access instead!")]] int& dyn_baseID();
     // Get instance field reference: public UnityEngine.Material baseMaterial
-    ::UnityEngine::Material*& dyn_baseMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_baseMaterial();
     // Get instance field reference: public System.Int64 fallbackID
-    int64_t& dyn_fallbackID();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_fallbackID();
     // Get instance field reference: public UnityEngine.Material fallbackMaterial
-    ::UnityEngine::Material*& dyn_fallbackMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_fallbackMaterial();
     // Get instance field reference: public System.Int32 count
-    int& dyn_count();
+    [[deprecated("Use field access instead!")]] int& dyn_count();
     // public System.Void .ctor()
-    // Offset: 0x144E68C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x146F50C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_MaterialManager::FallbackMaterial* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_MaterialManager::FallbackMaterial::.ctor");

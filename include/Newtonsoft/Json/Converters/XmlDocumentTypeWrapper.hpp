@@ -38,15 +38,7 @@ namespace Newtonsoft::Json::Converters {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlDocumentTypeWrapper : public ::Newtonsoft::Json::Converters::XmlNodeWrapper/*, public ::Newtonsoft::Json::Converters::IXmlDocumentType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Xml.XmlDocumentType _documentType
     // Size: 0x8
     // Offset: 0x28
@@ -63,28 +55,28 @@ namespace Newtonsoft::Json::Converters {
       return documentType;
     }
     // Get instance field reference: private readonly System.Xml.XmlDocumentType _documentType
-    ::System::Xml::XmlDocumentType*& dyn__documentType();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlDocumentType*& dyn__documentType();
     // public System.String get_Name()
-    // Offset: 0x1780D0C
+    // Offset: 0x17BA61C
     ::StringW get_Name();
     // public System.String get_System()
-    // Offset: 0x1780D2C
+    // Offset: 0x17BA63C
     ::StringW get_System();
     // public System.String get_Public()
-    // Offset: 0x1780D48
+    // Offset: 0x17BA658
     ::StringW get_Public();
     // public System.String get_InternalSubset()
-    // Offset: 0x1780D64
+    // Offset: 0x17BA674
     ::StringW get_InternalSubset();
     // public System.Void .ctor(System.Xml.XmlDocumentType documentType)
-    // Offset: 0x1780CDC
+    // Offset: 0x17BA5EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlDocumentTypeWrapper* New_ctor(::System::Xml::XmlDocumentType* documentType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XmlDocumentTypeWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlDocumentTypeWrapper*, creationType>(documentType)));
     }
     // public override System.String get_LocalName()
-    // Offset: 0x1780D80
+    // Offset: 0x17BA690
     // Implemented from: Newtonsoft.Json.Converters.XmlNodeWrapper
     // Base method: System.String XmlNodeWrapper::get_LocalName()
     ::StringW get_LocalName();

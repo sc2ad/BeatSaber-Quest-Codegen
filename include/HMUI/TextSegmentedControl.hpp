@@ -55,15 +55,7 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class TextSegmentedControl : public ::HMUI::SegmentedControl/*, public ::HMUI::SegmentedControl::IDataSource*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _fontSize
     // Size: 0x4
     // Offset: 0x58
@@ -78,7 +70,7 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: overrideCellSize and: padding
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x123AD0C
+    // [DrawIfAttribute] Offset: 0x10BF7E4
     // private System.Single _padding
     // Size: 0x4
     // Offset: 0x60
@@ -93,7 +85,7 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hideCellBackground and: firstCellPrefab
     char __padding3[0x3] = {};
-    // [SpaceAttribute] Offset: 0x123ADC4
+    // [SpaceAttribute] Offset: 0x10BF89C
     // private HMUI.TextSegmentedControlCell _firstCellPrefab
     // Size: 0x8
     // Offset: 0x68
@@ -118,7 +110,7 @@ namespace HMUI {
     ::HMUI::TextSegmentedControlCell* middleCellPrefab;
     // Field size check
     static_assert(sizeof(::HMUI::TextSegmentedControlCell*) == 0x8);
-    // [InjectAttribute] Offset: 0x123AE2C
+    // [InjectAttribute] Offset: 0x10BF904
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x88
@@ -137,46 +129,41 @@ namespace HMUI {
       return *reinterpret_cast<::HMUI::SegmentedControl::IDataSource*>(this);
     }
     // Get instance field reference: private System.Single _fontSize
-    float& dyn__fontSize();
+    [[deprecated("Use field access instead!")]] float& dyn__fontSize();
     // Get instance field reference: private System.Boolean _overrideCellSize
-    bool& dyn__overrideCellSize();
+    [[deprecated("Use field access instead!")]] bool& dyn__overrideCellSize();
     // Get instance field reference: private System.Single _padding
-    float& dyn__padding();
+    [[deprecated("Use field access instead!")]] float& dyn__padding();
     // Get instance field reference: private System.Boolean _hideCellBackground
-    bool& dyn__hideCellBackground();
+    [[deprecated("Use field access instead!")]] bool& dyn__hideCellBackground();
     // Get instance field reference: private HMUI.TextSegmentedControlCell _firstCellPrefab
-    ::HMUI::TextSegmentedControlCell*& dyn__firstCellPrefab();
+    [[deprecated("Use field access instead!")]] ::HMUI::TextSegmentedControlCell*& dyn__firstCellPrefab();
     // Get instance field reference: private HMUI.TextSegmentedControlCell _lastCellPrefab
-    ::HMUI::TextSegmentedControlCell*& dyn__lastCellPrefab();
+    [[deprecated("Use field access instead!")]] ::HMUI::TextSegmentedControlCell*& dyn__lastCellPrefab();
     // Get instance field reference: private HMUI.TextSegmentedControlCell _singleCellPrefab
-    ::HMUI::TextSegmentedControlCell*& dyn__singleCellPrefab();
+    [[deprecated("Use field access instead!")]] ::HMUI::TextSegmentedControlCell*& dyn__singleCellPrefab();
     // Get instance field reference: private HMUI.TextSegmentedControlCell _middleCellPrefab
-    ::HMUI::TextSegmentedControlCell*& dyn__middleCellPrefab();
+    [[deprecated("Use field access instead!")]] ::HMUI::TextSegmentedControlCell*& dyn__middleCellPrefab();
     // Get instance field reference: private readonly Zenject.DiContainer _container
-    ::Zenject::DiContainer*& dyn__container();
+    [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn__container();
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<System.String> _texts
-    ::System::Collections::Generic::IReadOnlyList_1<::StringW>*& dyn__texts();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IReadOnlyList_1<::StringW>*& dyn__texts();
     // public System.Void SetTexts(System.Collections.Generic.IReadOnlyList`1<System.String> texts)
-    // Offset: 0x1692584
+    // Offset: 0x16C8E94
     void SetTexts(::System::Collections::Generic::IReadOnlyList_1<::StringW>* texts);
     // public System.Int32 NumberOfCells()
-    // Offset: 0x169259C
+    // Offset: 0x16C8EAC
     int NumberOfCells();
     // public HMUI.SegmentedControlCell CellForCellNumber(System.Int32 cellNumber)
-    // Offset: 0x1692658
+    // Offset: 0x16C8F68
     ::HMUI::SegmentedControlCell* CellForCellNumber(int cellNumber);
     // private HMUI.TextSegmentedControlCell InstantiateCell(UnityEngine.Object prefab)
-    // Offset: 0x1692908
+    // Offset: 0x16C9218
     ::HMUI::TextSegmentedControlCell* InstantiateCell(::UnityEngine::Object* prefab);
     // public System.Void .ctor()
-    // Offset: 0x1692AE4
+    // Offset: 0x16C93F4
     // Implemented from: HMUI.SegmentedControl
     // Base method: System.Void SegmentedControl::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextSegmentedControl* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::TextSegmentedControl::.ctor");

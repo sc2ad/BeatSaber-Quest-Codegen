@@ -87,7 +87,7 @@ namespace System::Diagnostics {
     // Set static field: static public System.Diagnostics.Process/System.Diagnostics.State HaveNtProcessInfo
     static void _set_HaveNtProcessInfo(::System::Diagnostics::Process::State value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Diagnostics.Process/System.Diagnostics.State
   #pragma pack(pop)
   static check_size<sizeof(Process::State), 0 + sizeof(int)> __System_Diagnostics_Process_StateSizeCheck;

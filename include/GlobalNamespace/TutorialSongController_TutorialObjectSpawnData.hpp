@@ -30,15 +30,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TutorialSongController::TutorialObjectSpawnData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly Signal signal
     // Size: 0x8
     // Offset: 0x10
@@ -65,15 +57,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public readonly Signal signal
-    ::GlobalNamespace::Signal*& dyn_signal();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Signal*& dyn_signal();
     // Get instance field reference: public readonly System.Int32 beatOffset
-    int& dyn_beatOffset();
+    [[deprecated("Use field access instead!")]] int& dyn_beatOffset();
     // Get instance field reference: public readonly System.Int32 firstTimeBeatOffset
-    int& dyn_firstTimeBeatOffset();
+    [[deprecated("Use field access instead!")]] int& dyn_firstTimeBeatOffset();
     // Get instance field reference: public readonly System.Int32 lineIndex
-    int& dyn_lineIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_lineIndex();
     // protected System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex)
-    // Offset: 0x2AB39DC
+    // Offset: 0x1492AAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialSongController::TutorialObjectSpawnData* New_ctor(::GlobalNamespace::Signal* signal, int firstTimeBeatOffset, int beatOffset, int lineIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialSongController::TutorialObjectSpawnData::.ctor");

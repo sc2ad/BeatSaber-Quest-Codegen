@@ -29,15 +29,7 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class PropertyChangedEventArgs : public ::System::EventArgs {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.String propertyName
     // Size: 0x8
     // Offset: 0x10
@@ -50,9 +42,9 @@ namespace System::ComponentModel {
       return propertyName;
     }
     // Get instance field reference: private readonly System.String propertyName
-    ::StringW& dyn_propertyName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_propertyName();
     // public System.Void .ctor(System.String propertyName)
-    // Offset: 0x1D62728
+    // Offset: 0x1D9DC80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PropertyChangedEventArgs* New_ctor(::StringW propertyName) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::PropertyChangedEventArgs::.ctor");

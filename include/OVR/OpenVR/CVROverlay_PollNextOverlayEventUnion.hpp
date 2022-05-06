@@ -43,9 +43,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public OVR.OpenVR.IVROverlay/OVR.OpenVR._PollNextOverlayEvent pPollNextOverlayEvent
-    ::OVR::OpenVR::IVROverlay::_PollNextOverlayEvent*& dyn_pPollNextOverlayEvent();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVROverlay::_PollNextOverlayEvent*& dyn_pPollNextOverlayEvent();
     // Get instance field reference: public OVR.OpenVR.CVROverlay/OVR.OpenVR._PollNextOverlayEventPacked pPollNextOverlayEventPacked
-    ::OVR::OpenVR::CVROverlay::_PollNextOverlayEventPacked*& dyn_pPollNextOverlayEventPacked();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::CVROverlay::_PollNextOverlayEventPacked*& dyn_pPollNextOverlayEventPacked();
   }; // OVR.OpenVR.CVROverlay/OVR.OpenVR.PollNextOverlayEventUnion
   // WARNING Not writing size check since size may be invalid!
 }

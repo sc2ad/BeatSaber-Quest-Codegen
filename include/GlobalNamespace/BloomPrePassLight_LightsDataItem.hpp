@@ -36,15 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassLight::LightsDataItem : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly BloomPrePassLightTypeSO lightType
     // Size: 0x8
     // Offset: 0x10
@@ -59,11 +51,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight*>*) == 0x8);
     public:
     // Get instance field reference: public readonly BloomPrePassLightTypeSO lightType
-    ::GlobalNamespace::BloomPrePassLightTypeSO*& dyn_lightType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassLightTypeSO*& dyn_lightType();
     // Get instance field reference: public readonly System.Collections.Generic.HashSet`1<BloomPrePassLight> lights
-    ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight*>*& dyn_lights();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight*>*& dyn_lights();
     // public System.Void .ctor(BloomPrePassLightTypeSO lightType, System.Collections.Generic.HashSet`1<BloomPrePassLight> lights)
-    // Offset: 0x2ACD99C
+    // Offset: 0x1E76D64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassLight::LightsDataItem* New_ctor(::GlobalNamespace::BloomPrePassLightTypeSO* lightType, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight*>* lights) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassLight::LightsDataItem::.ctor");

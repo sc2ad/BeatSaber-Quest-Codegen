@@ -24,15 +24,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class IesWithCipherParameters : public ::Org::BouncyCastle::Crypto::Parameters::IesParameters {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 cipherKeySize
     // Size: 0x4
     // Offset: 0x24
@@ -45,9 +37,9 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return cipherKeySize;
     }
     // Get instance field reference: private System.Int32 cipherKeySize
-    int& dyn_cipherKeySize();
+    [[deprecated("Use field access instead!")]] int& dyn_cipherKeySize();
     // public System.Int32 get_CipherKeySize()
-    // Offset: 0x15C38BC
+    // Offset: 0x15F91CC
     int get_CipherKeySize();
   }; // Org.BouncyCastle.Crypto.Parameters.IesWithCipherParameters
   #pragma pack(pop)

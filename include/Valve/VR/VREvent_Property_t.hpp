@@ -47,9 +47,9 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt64 container
-    uint64_t& dyn_container();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_container();
     // Get instance field reference: public Valve.VR.ETrackedDeviceProperty prop
-    ::Valve::VR::ETrackedDeviceProperty& dyn_prop();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::ETrackedDeviceProperty& dyn_prop();
   }; // Valve.VR.VREvent_Property_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Property_t), 8 + sizeof(::Valve::VR::ETrackedDeviceProperty)> __Valve_VR_VREvent_Property_tSizeCheck;

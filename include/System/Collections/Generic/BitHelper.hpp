@@ -27,15 +27,7 @@ namespace System::Collections::Generic {
   // [TokenAttribute] Offset: FFFFFFFF
   class BitHelper : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Int32 _length
     // Size: 0x4
     // Offset: 0x10
@@ -64,35 +56,35 @@ namespace System::Collections::Generic {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private readonly System.Int32 _length
-    int& dyn__length();
+    [[deprecated("Use field access instead!")]] int& dyn__length();
     // Get instance field reference: private readonly System.Int32* _arrayPtr
-    int*& dyn__arrayPtr();
+    [[deprecated("Use field access instead!")]] int*& dyn__arrayPtr();
     // Get instance field reference: private readonly System.Int32[] _array
-    ::ArrayW<int>& dyn__array();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__array();
     // Get instance field reference: private readonly System.Boolean _useStackAlloc
-    bool& dyn__useStackAlloc();
+    [[deprecated("Use field access instead!")]] bool& dyn__useStackAlloc();
     // System.Void .ctor(System.Int32* bitArrayPtr, System.Int32 length)
-    // Offset: 0x2A2DF84
+    // Offset: 0x2A8436C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BitHelper* New_ctor(int* bitArrayPtr, int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::BitHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitHelper*, creationType>(bitArrayPtr, length)));
     }
     // System.Void .ctor(System.Int32[] bitArray, System.Int32 length)
-    // Offset: 0x2A2DFC8
+    // Offset: 0x2A843B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BitHelper* New_ctor(::ArrayW<int> bitArray, int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::BitHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitHelper*, creationType>(bitArray, length)));
     }
     // System.Void MarkBit(System.Int32 bitPosition)
-    // Offset: 0x2A2E004
+    // Offset: 0x2A843EC
     void MarkBit(int bitPosition);
     // System.Boolean IsMarked(System.Int32 bitPosition)
-    // Offset: 0x2A2E08C
+    // Offset: 0x2A84474
     bool IsMarked(int bitPosition);
     // static System.Int32 ToIntArrayLength(System.Int32 n)
-    // Offset: 0x2A2E11C
+    // Offset: 0x2A84504
     static int ToIntArrayLength(int n);
   }; // System.Collections.Generic.BitHelper
   #pragma pack(pop)

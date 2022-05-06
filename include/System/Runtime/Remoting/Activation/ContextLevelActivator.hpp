@@ -37,15 +37,7 @@ namespace System::Runtime::Remoting::Activation {
   // [TokenAttribute] Offset: FFFFFFFF
   class ContextLevelActivator : public ::Il2CppObject/*, public ::System::Runtime::Remoting::Activation::IActivator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Runtime.Remoting.Activation.IActivator m_NextActivator
     // Size: 0x8
     // Offset: 0x10
@@ -62,19 +54,19 @@ namespace System::Runtime::Remoting::Activation {
       return m_NextActivator;
     }
     // Get instance field reference: private System.Runtime.Remoting.Activation.IActivator m_NextActivator
-    ::System::Runtime::Remoting::Activation::IActivator*& dyn_m_NextActivator();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Activation::IActivator*& dyn_m_NextActivator();
     // public System.Runtime.Remoting.Activation.IActivator get_NextActivator()
-    // Offset: 0x1D4E0D8
+    // Offset: 0x1D89630
     ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
     // public System.Void .ctor(System.Runtime.Remoting.Activation.IActivator next)
-    // Offset: 0x1D4D54C
+    // Offset: 0x1D88AA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContextLevelActivator* New_ctor(::System::Runtime::Remoting::Activation::IActivator* next) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Activation::ContextLevelActivator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContextLevelActivator*, creationType>(next)));
     }
     // public System.Runtime.Remoting.Activation.IConstructionReturnMessage Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage ctorCall)
-    // Offset: 0x1D4E0E0
+    // Offset: 0x1D89638
     ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
   }; // System.Runtime.Remoting.Activation.ContextLevelActivator
   #pragma pack(pop)

@@ -50,43 +50,45 @@ namespace NUnit::Framework::Internal {
     static ::NUnit::Framework::Internal::TestFilter* _get_Empty();
     // Set static field: static public readonly NUnit.Framework.Internal.TestFilter Empty
     static void _set_Empty(::NUnit::Framework::Internal::TestFilter* value);
-    // static private System.Void .cctor()
-    // Offset: 0x29B1DB0
-    static void _cctor();
-    // public System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x29B16EC
-    bool Pass(::NUnit::Framework::Interfaces::ITest* test);
-    // public System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x29B190C
-    bool IsExplicitMatch(::NUnit::Framework::Interfaces::ITest* test);
-    // public System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    bool Match(::NUnit::Framework::Interfaces::ITest* test);
-    // public System.Boolean MatchParent(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x29B174C
-    bool MatchParent(::NUnit::Framework::Interfaces::ITest* test);
-    // protected System.Boolean MatchDescendant(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x29B195C
-    bool MatchDescendant(::NUnit::Framework::Interfaces::ITest* test);
-    // public NUnit.Framework.Interfaces.TNode ToXml(System.Boolean recursive)
-    // Offset: 0x29B1D20
-    ::NUnit::Framework::Interfaces::TNode* ToXml(bool recursive);
-    // public NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    ::NUnit::Framework::Interfaces::TNode* AddToXml(::NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
     // protected System.Void .ctor()
-    // Offset: 0x29B1DA8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A0DDA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestFilter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestFilter*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x2A0DDA8
+    static void _cctor();
+    // public System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
+    // Offset: 0x2A0D6E4
+    bool Pass(::NUnit::Framework::Interfaces::ITest* test);
+    // public System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
+    // Offset: 0x2A0D904
+    bool IsExplicitMatch(::NUnit::Framework::Interfaces::ITest* test);
+    // public System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    bool Match(::NUnit::Framework::Interfaces::ITest* test);
+    // public System.Boolean MatchParent(NUnit.Framework.Interfaces.ITest test)
+    // Offset: 0x2A0D744
+    bool MatchParent(::NUnit::Framework::Interfaces::ITest* test);
+    // protected System.Boolean MatchDescendant(NUnit.Framework.Interfaces.ITest test)
+    // Offset: 0x2A0D954
+    bool MatchDescendant(::NUnit::Framework::Interfaces::ITest* test);
+    // public NUnit.Framework.Interfaces.TNode ToXml(System.Boolean recursive)
+    // Offset: 0x2A0DD18
+    ::NUnit::Framework::Interfaces::TNode* ToXml(bool recursive);
+    // public NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    ::NUnit::Framework::Interfaces::TNode* AddToXml(::NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
   }; // NUnit.Framework.Internal.TestFilter
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::Internal::TestFilter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestFilter::_cctor
 // Il2CppName: .cctor
 template<>
@@ -159,7 +161,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Fr
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestFilter*), "AddToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parentNode, recursive});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::TestFilter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

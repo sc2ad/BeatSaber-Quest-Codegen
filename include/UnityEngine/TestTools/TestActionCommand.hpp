@@ -11,7 +11,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestTools
@@ -24,10 +23,23 @@ namespace NUnit::Framework {
   // Forward declaring type: ITestAction
   class ITestAction;
 }
+// Forward declaring namespace: System::Collections::Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
+  class Dictionary_2;
+  // Forward declaring type: List`1<T>
+  template<typename T>
+  class List_1;
+}
 // Forward declaring namespace: System::Reflection
 namespace System::Reflection {
   // Forward declaring type: MethodInfo
   class MethodInfo;
+}
+// Forward declaring namespace: NUnit::Framework::Internal::Commands
+namespace NUnit::Framework::Internal::Commands {
+  // Skipping declaration: TestCommand because it is already included!
 }
 // Forward declaring namespace: System::Collections
 namespace System::Collections {
@@ -42,10 +54,6 @@ namespace NUnit::Framework::Internal {
 namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // Forward declaring type: UnityTestExecutionContext
   class UnityTestExecutionContext;
-}
-// Forward declaring namespace: NUnit::Framework::Internal::Commands
-namespace NUnit::Framework::Internal::Commands {
-  // Skipping declaration: TestCommand because it is already included!
 }
 // Completed forward declares
 // Type namespace: UnityEngine.TestTools
@@ -67,39 +75,44 @@ namespace UnityEngine::TestTools {
     class $InvokeBefore$d__2;
     // Nested type: ::UnityEngine::TestTools::TestActionCommand::$InvokeAfter$d__3
     class $InvokeAfter$d__3;
-    // static private NUnit.Framework.ITestAction[] GetTestActionsFromMethod(System.Reflection.MethodInfo method)
-    // Offset: 0x194D740
-    static ::ArrayW<::NUnit::Framework::ITestAction*> GetTestActionsFromMethod(::System::Reflection::MethodInfo* method);
-    // protected System.Collections.IEnumerator InvokeBefore(NUnit.Framework.ITestAction action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x194D878
-    ::System::Collections::IEnumerator* InvokeBefore(::NUnit::Framework::ITestAction* action, ::NUnit::Framework::Internal::Test* test, ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
-    // protected System.Collections.IEnumerator InvokeAfter(NUnit.Framework.ITestAction action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x194D920
-    ::System::Collections::IEnumerator* InvokeAfter(::NUnit::Framework::ITestAction* action, ::NUnit::Framework::Internal::Test* test, ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
+    // Get static field: static private readonly System.Collections.Generic.Dictionary`2<System.Reflection.MethodInfo,System.Collections.Generic.List`1<NUnit.Framework.ITestAction>> m_TestActionsCache
+    static ::System::Collections::Generic::Dictionary_2<::System::Reflection::MethodInfo*, ::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>*>* _get_m_TestActionsCache();
+    // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Reflection.MethodInfo,System.Collections.Generic.List`1<NUnit.Framework.ITestAction>> m_TestActionsCache
+    static void _set_m_TestActionsCache(::System::Collections::Generic::Dictionary_2<::System::Reflection::MethodInfo*, ::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>*>* value);
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
-    // Offset: 0x1940308
-    // Implemented from: NUnit.Framework.Internal.Commands.DelegatingTestCommand
-    // Base method: System.Void DelegatingTestCommand::.ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
+    // Offset: 0x1977F70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestActionCommand* New_ctor(::NUnit::Framework::Internal::Commands::TestCommand* innerCommand) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestActionCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestActionCommand*, creationType>(innerCommand)));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1985330
+    static void _cctor();
+    // protected System.Collections.IEnumerator InvokeBefore(NUnit.Framework.ITestAction action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
+    // Offset: 0x19851D8
+    ::System::Collections::IEnumerator* InvokeBefore(::NUnit::Framework::ITestAction* action, ::NUnit::Framework::Internal::Test* test, ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
+    // protected System.Collections.IEnumerator InvokeAfter(NUnit.Framework.ITestAction action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
+    // Offset: 0x1985280
+    ::System::Collections::IEnumerator* InvokeAfter(::NUnit::Framework::ITestAction* action, ::NUnit::Framework::Internal::Test* test, ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
     // protected override UnityEngine.TestTools.BeforeAfterTestCommandState GetState(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x194D9C8
+    // Offset: 0x1985328
     // Implemented from: UnityEngine.TestTools.BeforeAfterTestCommandBase`1
     // Base method: UnityEngine.TestTools.BeforeAfterTestCommandState BeforeAfterTestCommandBase_1::GetState(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
     ::UnityEngine::TestTools::BeforeAfterTestCommandState* GetState(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
   }; // UnityEngine.TestTools.TestActionCommand
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: UnityEngine::TestTools::TestActionCommand::GetTestActionsFromMethod
-// Il2CppName: GetTestActionsFromMethod
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestActionCommand::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestActionCommand::_cctor
+// Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::NUnit::Framework::ITestAction*> (*)(::System::Reflection::MethodInfo*)>(&UnityEngine::TestTools::TestActionCommand::GetTestActionsFromMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::TestTools::TestActionCommand::_cctor)> {
   static const MethodInfo* get() {
-    static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestActionCommand*), "GetTestActionsFromMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestActionCommand*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestActionCommand::InvokeBefore
@@ -124,10 +137,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestActionCommand*), "InvokeAfter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action, test, context});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestTools::TestActionCommand::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestActionCommand::GetState
 // Il2CppName: GetState
 template<>

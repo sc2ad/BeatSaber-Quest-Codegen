@@ -36,15 +36,7 @@ namespace Org::BouncyCastle::Asn1 {
     public:
     // Writing base type padding for base size: 0x29 to desired offset: 0x30
     char ___base_padding[0x7] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected readonly System.IO.Stream _in
     // Size: 0x8
     // Offset: 0x30
@@ -59,21 +51,21 @@ namespace Org::BouncyCastle::Asn1 {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: protected readonly System.IO.Stream _in
-    ::System::IO::Stream*& dyn__in();
+    [[deprecated("Use field access instead!")]] ::System::IO::Stream*& dyn__in();
     // Get instance field reference: private System.Int32 _limit
-    int& dyn__limit();
+    [[deprecated("Use field access instead!")]] int& dyn__limit();
     // System.Int32 get_Limit()
-    // Offset: 0x1C8C2D8
+    // Offset: 0x1CC8830
     int get_Limit();
     // System.Void .ctor(System.IO.Stream inStream, System.Int32 limit)
-    // Offset: 0x1C8B810
+    // Offset: 0x1CC7D68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LimitedInputStream* New_ctor(::System::IO::Stream* inStream, int limit) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::LimitedInputStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LimitedInputStream*, creationType>(inStream, limit)));
     }
     // protected System.Void SetParentEofDetect(System.Boolean on)
-    // Offset: 0x1C8C2E0
+    // Offset: 0x1CC8838
     void SetParentEofDetect(bool on);
   }; // Org.BouncyCastle.Asn1.LimitedInputStream
   #pragma pack(pop)

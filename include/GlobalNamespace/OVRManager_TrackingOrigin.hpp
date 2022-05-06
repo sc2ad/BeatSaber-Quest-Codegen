@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRManager/TrackingOrigin Stage
     static void _set_Stage(::GlobalNamespace::OVRManager_TrackingOrigin value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVRManager/TrackingOrigin
   #pragma pack(pop)
   static check_size<sizeof(OVRManager_TrackingOrigin), 0 + sizeof(int)> __GlobalNamespace_OVRManager_TrackingOriginSizeCheck;

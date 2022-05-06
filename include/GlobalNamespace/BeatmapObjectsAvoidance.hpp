@@ -58,16 +58,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapObjectsAvoidance : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [HeaderAttribute] Offset: 0x1248BBC
+    // [HeaderAttribute] Offset: 0x10CD6B4
     // private System.Single _zOffset
     // Size: 0x4
     // Offset: 0x18
@@ -80,42 +72,42 @@ namespace GlobalNamespace {
     float yOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x1248C18
+    // [HeaderAttribute] Offset: 0x10CD710
     // private UnityEngine.Vector2 _gravity
     // Size: 0x8
     // Offset: 0x20
     ::UnityEngine::Vector2 gravity;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
-    // [HeaderAttribute] Offset: 0x1248C64
+    // [HeaderAttribute] Offset: 0x10CD75C
     // private UnityEngine.Transform _towardsPlayerWrapperTransform
     // Size: 0x8
     // Offset: 0x28
     ::UnityEngine::Transform* towardsPlayerWrapperTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0x1248CB0
+    // [InjectAttribute] Offset: 0x10CD7A8
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::IAudioTimeSource* audioTimeSource;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0x1248CC0
+    // [InjectAttribute] Offset: 0x10CD7B8
     // private readonly IReadonlyBeatmapData _beatmapData
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::IReadonlyBeatmapData* beatmapData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IReadonlyBeatmapData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1248CD0
+    // [InjectAttribute] Offset: 0x10CD7C8
     // private readonly IBeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::IBeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IBeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1248CE0
+    // [InjectAttribute] Offset: 0x10CD7D8
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x48
@@ -162,76 +154,74 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _zOffset
-    float& dyn__zOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__zOffset();
     // Get instance field reference: private System.Single _yOffset
-    float& dyn__yOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__yOffset();
     // Get instance field reference: private UnityEngine.Vector2 _gravity
-    ::UnityEngine::Vector2& dyn__gravity();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn__gravity();
     // Get instance field reference: private UnityEngine.Transform _towardsPlayerWrapperTransform
-    ::UnityEngine::Transform*& dyn__towardsPlayerWrapperTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__towardsPlayerWrapperTransform();
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
-    ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // Get instance field reference: private readonly IReadonlyBeatmapData _beatmapData
-    ::GlobalNamespace::IReadonlyBeatmapData*& dyn__beatmapData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IReadonlyBeatmapData*& dyn__beatmapData();
     // Get instance field reference: private readonly IBeatmapObjectSpawnController _beatmapObjectSpawnController
-    ::GlobalNamespace::IBeatmapObjectSpawnController*& dyn__beatmapObjectSpawnController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatmapObjectSpawnController*& dyn__beatmapObjectSpawnController();
     // Get instance field reference: private readonly PlayerTransforms _playerTransforms
-    ::GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
     // Get instance field reference: private BeatmapObjectAvoidanceYOffsetEvaluator _avoidanceYOffsetEvaluatorProvider
-    ::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator*& dyn__avoidanceYOffsetEvaluatorProvider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator*& dyn__avoidanceYOffsetEvaluatorProvider();
     // Get instance field reference: private BeatmapObjectAvoidancePathEvaluator _pathEvaluator
-    ::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator*& dyn__pathEvaluator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator*& dyn__pathEvaluator();
     // Get instance field reference: private BeatmapObjectAvoidanceTiltEvaluator _tiltEvaluator
-    ::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator*& dyn__tiltEvaluator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator*& dyn__tiltEvaluator();
     // Get instance field reference: private BezierSplineEvaluator _pathBezierSplineEvaluator
-    ::GlobalNamespace::BezierSplineEvaluator*& dyn__pathBezierSplineEvaluator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BezierSplineEvaluator*& dyn__pathBezierSplineEvaluator();
     // Get instance field reference: private BezierSplineEvaluator _accelerationBezierSplineEvaluator
-    ::GlobalNamespace::BezierSplineEvaluator*& dyn__accelerationBezierSplineEvaluator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BezierSplineEvaluator*& dyn__accelerationBezierSplineEvaluator();
     // Get instance field reference: private UnityEngine.Transform _transform
-    ::UnityEngine::Transform*& dyn__transform();
-    // protected System.Void Awake()
-    // Offset: 0x1345268
-    void Awake();
-    // protected System.Void Start()
-    // Offset: 0x1345290
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13457AC
-    void OnDestroy();
-    // protected System.Void Update()
-    // Offset: 0x13458A4
-    void Update();
-    // private System.Void SetupAndRun()
-    // Offset: 0x1345410
-    void SetupAndRun();
-    // private System.Boolean BuildAnimationCurvePath()
-    // Offset: 0x1345A88
-    bool BuildAnimationCurvePath();
-    // private System.Void AdjustPositionWithOffsetDirection(ref UnityEngine.Vector2 position, System.Int32 lineIndex, OffsetDirection offsetDirection)
-    // Offset: 0x1346008
-    void AdjustPositionWithOffsetDirection(ByRef<::UnityEngine::Vector2> position, int lineIndex, ::GlobalNamespace::OffsetDirection offsetDirection);
-    // private System.Void HandleBeatmapObjectSpawnControllerDidInit()
-    // Offset: 0x1346B04
-    void HandleBeatmapObjectSpawnControllerDidInit();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // public System.Void .ctor()
-    // Offset: 0x1346B08
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x132FD50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectsAvoidance* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsAvoidance::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectsAvoidance*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x132E4B0
+    void Awake();
+    // protected System.Void Start()
+    // Offset: 0x132E4D8
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x132E9F4
+    void OnDestroy();
+    // protected System.Void Update()
+    // Offset: 0x132EAEC
+    void Update();
+    // private System.Void SetupAndRun()
+    // Offset: 0x132E658
+    void SetupAndRun();
+    // private System.Boolean BuildAnimationCurvePath()
+    // Offset: 0x132ECD0
+    bool BuildAnimationCurvePath();
+    // private System.Void AdjustPositionWithOffsetDirection(ref UnityEngine.Vector2 position, System.Int32 lineIndex, OffsetDirection offsetDirection)
+    // Offset: 0x132F250
+    void AdjustPositionWithOffsetDirection(ByRef<::UnityEngine::Vector2> position, int lineIndex, ::GlobalNamespace::OffsetDirection offsetDirection);
+    // private System.Void HandleBeatmapObjectSpawnControllerDidInit()
+    // Offset: 0x132FD4C
+    void HandleBeatmapObjectSpawnControllerDidInit();
   }; // BeatmapObjectsAvoidance
   #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectsAvoidance), 120 + sizeof(::UnityEngine::Transform*)> __GlobalNamespace_BeatmapObjectsAvoidanceSizeCheck;
   static_assert(sizeof(BeatmapObjectsAvoidance) == 0x80);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectsAvoidance::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectsAvoidance::Awake
 // Il2CppName: Awake
 template<>
@@ -299,7 +289,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectsAvoidance*), "HandleBeatmapObjectSpawnControllerDidInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectsAvoidance::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

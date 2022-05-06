@@ -84,26 +84,26 @@ namespace BGNet::Core::Messages {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Byte[]> <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t>>& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t>>& dyn_$$t__builder();
     // Get instance field reference: public System.Byte[] clientRandom
-    ::ArrayW<uint8_t>& dyn_clientRandom();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_clientRandom();
     // Get instance field reference: public System.Byte[] serverRandom
-    ::ArrayW<uint8_t>& dyn_serverRandom();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_serverRandom();
     // Get instance field reference: public System.Byte[] serverKey
-    ::ArrayW<uint8_t>& dyn_serverKey();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_serverKey();
     // Get instance field reference: public BGNet.Core.Messages.BaseServerUnconnectedMessageHandler <>4__this
-    ::BGNet::Core::Messages::BaseServerUnconnectedMessageHandler*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::BGNet::Core::Messages::BaseServerUnconnectedMessageHandler*& dyn_$$4__this();
     // Get instance field reference: private BGNet.Core.Messages.BaseServerUnconnectedMessageHandler/BGNet.Core.Messages.SigningComputeOperation <signingRequest>5__2
-    ::BGNet::Core::Messages::BaseServerUnconnectedMessageHandler::SigningComputeOperation*& dyn_$signingRequest$5__2();
+    [[deprecated("Use field access instead!")]] ::BGNet::Core::Messages::BaseServerUnconnectedMessageHandler::SigningComputeOperation*& dyn_$signingRequest$5__2();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x14FC0B4
+    // Offset: 0x15339BC
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x14FC58C
+    // Offset: 0x1533E94
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BGNet.Core.Messages.BaseServerUnconnectedMessageHandler/BGNet.Core.Messages.<GetSignatureAsync>d__23
   // WARNING Not writing size check since size may be invalid!

@@ -294,7 +294,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HAPI_PDG_EventType HAPI_PDG_CONTEXT_EVENTS
     static void _set_HAPI_PDG_CONTEXT_EVENTS(::HoudiniEngineUnity::HAPI_PDG_EventType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HAPI_PDG_EventType
   #pragma pack(pop)
   static check_size<sizeof(HAPI_PDG_EventType), 0 + sizeof(int)> __HoudiniEngineUnity_HAPI_PDG_EventTypeSizeCheck;

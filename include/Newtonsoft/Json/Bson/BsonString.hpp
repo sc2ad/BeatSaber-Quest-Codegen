@@ -29,15 +29,7 @@ namespace Newtonsoft::Json::Bson {
   // [PreserveAttribute] Offset: FFFFFFFF
   class BsonString : public ::Newtonsoft::Json::Bson::BsonValue {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean <IncludeLength>k__BackingField
     // Size: 0x1
     // Offset: 0x21
@@ -46,12 +38,12 @@ namespace Newtonsoft::Json::Bson {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Boolean <IncludeLength>k__BackingField
-    bool& dyn_$IncludeLength$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$IncludeLength$k__BackingField();
     // public System.Void set_IncludeLength(System.Boolean value)
-    // Offset: 0x17799E4
+    // Offset: 0x17B32F4
     void set_IncludeLength(bool value);
     // public System.Void .ctor(System.Object value, System.Boolean includeLength)
-    // Offset: 0x1777D5C
+    // Offset: 0x17B166C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BsonString* New_ctor(::Il2CppObject* value, bool includeLength) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Bson::BsonString::.ctor");

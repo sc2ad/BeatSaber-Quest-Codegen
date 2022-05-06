@@ -34,15 +34,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MissionSelectionNavigationController::$$c__DisplayClass11_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public MissionSelectionNavigationController <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -63,32 +55,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action*) == 0x8);
     public:
     // Get instance field reference: public MissionSelectionNavigationController <>4__this
-    ::GlobalNamespace::MissionSelectionNavigationController*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionSelectionNavigationController*& dyn_$$4__this();
     // Get instance field reference: public System.Action`1<System.Boolean> finishedCallback
-    ::System::Action_1<bool>*& dyn_finishedCallback();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<bool>*& dyn_finishedCallback();
     // Get instance field reference: public System.Action <>9__1
-    ::System::Action*& dyn_$$9__1();
-    // System.Void <PresentMissionClearedIfNeeded>b__0()
-    // Offset: 0x13C2CD8
-    void $PresentMissionClearedIfNeeded$b__0();
-    // System.Void <PresentMissionClearedIfNeeded>b__1()
-    // Offset: 0x13C2D94
-    void $PresentMissionClearedIfNeeded$b__1();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_$$9__1();
     // public System.Void .ctor()
-    // Offset: 0x13C2CC8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13BF174
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionSelectionNavigationController::$$c__DisplayClass11_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionSelectionNavigationController::$$c__DisplayClass11_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionSelectionNavigationController::$$c__DisplayClass11_0*, creationType>()));
     }
+    // System.Void <PresentMissionClearedIfNeeded>b__0()
+    // Offset: 0x13BF184
+    void $PresentMissionClearedIfNeeded$b__0();
+    // System.Void <PresentMissionClearedIfNeeded>b__1()
+    // Offset: 0x13BF240
+    void $PresentMissionClearedIfNeeded$b__1();
   }; // MissionSelectionNavigationController/<>c__DisplayClass11_0
   #pragma pack(pop)
   static check_size<sizeof(MissionSelectionNavigationController::$$c__DisplayClass11_0), 32 + sizeof(::System::Action*)> __GlobalNamespace_MissionSelectionNavigationController_$$c__DisplayClass11_0SizeCheck;
   static_assert(sizeof(MissionSelectionNavigationController::$$c__DisplayClass11_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MissionSelectionNavigationController::$$c__DisplayClass11_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionSelectionNavigationController::$$c__DisplayClass11_0::$PresentMissionClearedIfNeeded$b__0
 // Il2CppName: <PresentMissionClearedIfNeeded>b__0
 template<>
@@ -105,7 +99,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionSelectionNavigationController::$$c__DisplayClass11_0*), "<PresentMissionClearedIfNeeded>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MissionSelectionNavigationController::$$c__DisplayClass11_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapEventDataBoxGroup::ElementData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Single startBeat
     // Size: 0x4
     // Offset: 0x10
@@ -104,44 +96,44 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::BeatmapEventDataBoxGroup::ElementData*) == 0x8);
     public:
     // Get instance field reference: public readonly System.Single startBeat
-    float& dyn_startBeat();
+    [[deprecated("Use field access instead!")]] float& dyn_startBeat();
     // Get instance field reference: public readonly System.Int32 elementId
-    int& dyn_elementId();
+    [[deprecated("Use field access instead!")]] int& dyn_elementId();
     // Get instance field reference: public readonly System.Int32 orderIndex
-    int& dyn_orderIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_orderIndex();
     // Get instance field reference: public readonly System.Type eventBoxType
-    ::System::Type*& dyn_eventBoxType();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_eventBoxType();
     // Get instance field reference: public readonly System.Int32 eventBoxSubtypeIdentifier
-    int& dyn_eventBoxSubtypeIdentifier();
+    [[deprecated("Use field access instead!")]] int& dyn_eventBoxSubtypeIdentifier();
     // Get instance field reference: public readonly BeatmapEventDataBox eventBox
-    ::GlobalNamespace::BeatmapEventDataBox*& dyn_eventBox();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapEventDataBox*& dyn_eventBox();
     // Get instance field reference: public readonly BeatmapEventDataBoxGroup boxGroup
-    ::GlobalNamespace::BeatmapEventDataBoxGroup*& dyn_boxGroup();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapEventDataBoxGroup*& dyn_boxGroup();
     // Get instance field reference: private BeatmapEventDataBoxGroup/ElementData _next
-    ::GlobalNamespace::BeatmapEventDataBoxGroup::ElementData*& dyn__next();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapEventDataBoxGroup::ElementData*& dyn__next();
     // Get instance field reference: private BeatmapEventDataBoxGroup/ElementData _previous
-    ::GlobalNamespace::BeatmapEventDataBoxGroup::ElementData*& dyn__previous();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapEventDataBoxGroup::ElementData*& dyn__previous();
     // public BeatmapEventDataBoxGroup/ElementData get_next()
-    // Offset: 0x14C7C64
+    // Offset: 0x14FF56C
     ::GlobalNamespace::BeatmapEventDataBoxGroup::ElementData* get_next();
     // public BeatmapEventDataBoxGroup/ElementData get_previous()
-    // Offset: 0x14C7C6C
+    // Offset: 0x14FF574
     ::GlobalNamespace::BeatmapEventDataBoxGroup::ElementData* get_previous();
     // public System.Void .ctor(BeatmapEventDataBoxGroup boxGroup, BeatmapEventDataBox eventBox, System.Int32 elementId, System.Int32 orderIndex, System.Single startBeat)
-    // Offset: 0x14C77CC
+    // Offset: 0x14FF0D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEventDataBoxGroup::ElementData* New_ctor(::GlobalNamespace::BeatmapEventDataBoxGroup* boxGroup, ::GlobalNamespace::BeatmapEventDataBox* eventBox, int elementId, int orderIndex, float startBeat) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventDataBoxGroup::ElementData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapEventDataBoxGroup::ElementData*, creationType>(boxGroup, eventBox, elementId, orderIndex, startBeat)));
     }
     // public System.Void ResetConnections()
-    // Offset: 0x14C7C74
+    // Offset: 0x14FF57C
     void ResetConnections();
     // public System.Void ConnectWithPrevious(BeatmapEventDataBoxGroup/ElementData prevElementData)
-    // Offset: 0x14C7C7C
+    // Offset: 0x14FF584
     void ConnectWithPrevious(::GlobalNamespace::BeatmapEventDataBoxGroup::ElementData* prevElementData);
     // public System.Void ConnectWithNext(BeatmapEventDataBoxGroup/ElementData nextElementData)
-    // Offset: 0x14C7C8C
+    // Offset: 0x14FF594
     void ConnectWithNext(::GlobalNamespace::BeatmapEventDataBoxGroup::ElementData* nextElementData);
   }; // BeatmapEventDataBoxGroup/ElementData
   #pragma pack(pop)

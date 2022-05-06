@@ -30,11 +30,7 @@ namespace Org::BouncyCastle::OpenSsl {
   class PemException : public ::System::IO::IOException {
     public:
     // public System.Void .ctor(System.String message)
-    // Offset: 0x176D2AC
-    // Implemented from: System.IO.IOException
-    // Base method: System.Void IOException::.ctor(System.String message)
-    // Base method: System.Void SystemException::.ctor(System.String message)
-    // Base method: System.Void Exception::.ctor(System.String message)
+    // Offset: 0x17A5BBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PemException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::OpenSsl::PemException::.ctor");

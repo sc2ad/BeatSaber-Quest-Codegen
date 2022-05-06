@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Set static field: static public GameplayServerMode QuickStartOneSong
     static void _set_QuickStartOneSong(::GlobalNamespace::GameplayServerMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // GameplayServerMode
   #pragma pack(pop)
   static check_size<sizeof(GameplayServerMode), 0 + sizeof(int)> __GlobalNamespace_GameplayServerModeSizeCheck;

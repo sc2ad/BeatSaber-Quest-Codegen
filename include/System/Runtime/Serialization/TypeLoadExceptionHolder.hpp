@@ -27,15 +27,7 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class TypeLoadExceptionHolder : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String m_typeName
     // Size: 0x8
     // Offset: 0x10
@@ -48,12 +40,12 @@ namespace System::Runtime::Serialization {
       return m_typeName;
     }
     // Get instance field reference: private System.String m_typeName
-    ::StringW& dyn_m_typeName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_typeName();
     // System.String get_TypeName()
-    // Offset: 0x1609B1C
+    // Offset: 0x163F42C
     ::StringW get_TypeName();
     // System.Void .ctor(System.String typeName)
-    // Offset: 0x1609AF0
+    // Offset: 0x163F400
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeLoadExceptionHolder* New_ctor(::StringW typeName) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::TypeLoadExceptionHolder::.ctor");

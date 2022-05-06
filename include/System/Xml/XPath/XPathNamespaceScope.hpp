@@ -60,7 +60,7 @@ namespace System::Xml::XPath {
     // Set static field: static public System.Xml.XPath.XPathNamespaceScope Local
     static void _set_Local(::System::Xml::XPath::XPathNamespaceScope value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Xml.XPath.XPathNamespaceScope
   #pragma pack(pop)
   static check_size<sizeof(XPathNamespaceScope), 0 + sizeof(int)> __System_Xml_XPath_XPathNamespaceScopeSizeCheck;

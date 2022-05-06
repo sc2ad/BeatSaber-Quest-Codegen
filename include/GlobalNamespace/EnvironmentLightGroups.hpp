@@ -43,15 +43,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::EnvironmentLightGroups::LightGroupData
     class LightGroupData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private EnvironmentLightGroups/LightGroupData[] _lightGroupDataList
     // Size: 0x8
     // Offset: 0x10
@@ -72,26 +64,24 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<::GlobalNamespace::EnvironmentLightGroups::LightGroupData*>) == 0x8);
     public:
     // Get instance field reference: private EnvironmentLightGroups/LightGroupData[] _lightGroupDataList
-    ::ArrayW<::GlobalNamespace::EnvironmentLightGroups::LightGroupData*>& dyn__lightGroupDataList();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::EnvironmentLightGroups::LightGroupData*>& dyn__lightGroupDataList();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,EnvironmentLightGroups/LightGroupData> _lightGroupDataDict
-    ::System::Collections::Generic::Dictionary_2<int, ::GlobalNamespace::EnvironmentLightGroups::LightGroupData*>*& dyn__lightGroupDataDict();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::GlobalNamespace::EnvironmentLightGroups::LightGroupData*>*& dyn__lightGroupDataDict();
     // Get instance field reference: private EnvironmentLightGroups/LightGroupData[] _lightGroupDataListForLightGroupDataDict
-    ::ArrayW<::GlobalNamespace::EnvironmentLightGroups::LightGroupData*>& dyn__lightGroupDataListForLightGroupDataDict();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::EnvironmentLightGroups::LightGroupData*>& dyn__lightGroupDataListForLightGroupDataDict();
     // public System.Collections.Generic.IReadOnlyList`1<EnvironmentLightGroups/LightGroupData> get_lightGroupDataList()
-    // Offset: 0x1383CE8
+    // Offset: 0x136B8C4
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::EnvironmentLightGroups::LightGroupData*>* get_lightGroupDataList();
-    // public EnvironmentLightGroups/LightGroupData GetDataForGroup(System.Int32 groupId)
-    // Offset: 0x1383CF0
-    ::GlobalNamespace::EnvironmentLightGroups::LightGroupData* GetDataForGroup(int groupId);
     // public System.Void .ctor()
-    // Offset: 0x1383E38
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x136BA14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentLightGroups* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentLightGroups::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentLightGroups*, creationType>()));
     }
+    // public EnvironmentLightGroups/LightGroupData GetDataForGroup(System.Int32 groupId)
+    // Offset: 0x136B8CC
+    ::GlobalNamespace::EnvironmentLightGroups::LightGroupData* GetDataForGroup(int groupId);
   }; // EnvironmentLightGroups
   #pragma pack(pop)
   static check_size<sizeof(EnvironmentLightGroups), 32 + sizeof(::ArrayW<::GlobalNamespace::EnvironmentLightGroups::LightGroupData*>)> __GlobalNamespace_EnvironmentLightGroupsSizeCheck;
@@ -106,6 +96,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentLightGroups*), "get_lightGroupDataList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentLightGroups::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentLightGroups::GetDataForGroup
 // Il2CppName: GetDataForGroup
 template<>
@@ -115,7 +109,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentLightGroups*), "GetDataForGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{groupId});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::EnvironmentLightGroups::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

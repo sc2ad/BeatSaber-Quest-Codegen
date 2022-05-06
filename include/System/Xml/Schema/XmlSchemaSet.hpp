@@ -53,15 +53,7 @@ namespace System::Xml::Schema {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlSchemaSet : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Xml.XmlNameTable nameTable
     // Size: 0x8
     // Offset: 0x10
@@ -132,52 +124,54 @@ namespace System::Xml::Schema {
     static_assert(sizeof(::System::Xml::Schema::XmlSchemaCompilationSettings*) == 0x8);
     public:
     // Get instance field reference: private System.Xml.XmlNameTable nameTable
-    ::System::Xml::XmlNameTable*& dyn_nameTable();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlNameTable*& dyn_nameTable();
     // Get instance field reference: private System.Collections.SortedList schemas
-    ::System::Collections::SortedList*& dyn_schemas();
+    [[deprecated("Use field access instead!")]] ::System::Collections::SortedList*& dyn_schemas();
     // Get instance field reference: private System.Xml.Schema.ValidationEventHandler internalEventHandler
-    ::System::Xml::Schema::ValidationEventHandler*& dyn_internalEventHandler();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::ValidationEventHandler*& dyn_internalEventHandler();
     // Get instance field reference: private System.Xml.Schema.ValidationEventHandler eventHandler
-    ::System::Xml::Schema::ValidationEventHandler*& dyn_eventHandler();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::ValidationEventHandler*& dyn_eventHandler();
     // Get instance field reference: private System.Collections.Hashtable schemaLocations
-    ::System::Collections::Hashtable*& dyn_schemaLocations();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn_schemaLocations();
     // Get instance field reference: private System.Collections.Hashtable chameleonSchemas
-    ::System::Collections::Hashtable*& dyn_chameleonSchemas();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn_chameleonSchemas();
     // Get instance field reference: private System.Collections.Hashtable targetNamespaces
-    ::System::Collections::Hashtable*& dyn_targetNamespaces();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn_targetNamespaces();
     // Get instance field reference: private System.Boolean compileAll
-    bool& dyn_compileAll();
+    [[deprecated("Use field access instead!")]] bool& dyn_compileAll();
     // Get instance field reference: private System.Xml.Schema.SchemaInfo cachedCompiledInfo
-    ::System::Xml::Schema::SchemaInfo*& dyn_cachedCompiledInfo();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::SchemaInfo*& dyn_cachedCompiledInfo();
     // Get instance field reference: private System.Xml.XmlReaderSettings readerSettings
-    ::System::Xml::XmlReaderSettings*& dyn_readerSettings();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlReaderSettings*& dyn_readerSettings();
     // Get instance field reference: private System.Xml.Schema.XmlSchemaCompilationSettings compilationSettings
-    ::System::Xml::Schema::XmlSchemaCompilationSettings*& dyn_compilationSettings();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaCompilationSettings*& dyn_compilationSettings();
+    // public System.Void .ctor()
+    // Offset: 0x205B274
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static XmlSchemaSet* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaSet::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaSet*, creationType>()));
+    }
     // public System.Void .ctor(System.Xml.XmlNameTable nameTable)
-    // Offset: 0x2011A64
+    // Offset: 0x205B2D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaSet* New_ctor(::System::Xml::XmlNameTable* nameTable) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaSet*, creationType>(nameTable)));
     }
     // private System.Void InternalValidationCallback(System.Object sender, System.Xml.Schema.ValidationEventArgs e)
-    // Offset: 0x2011C80
+    // Offset: 0x205B4F4
     void InternalValidationCallback(::Il2CppObject* sender, ::System::Xml::Schema::ValidationEventArgs* e);
-    // public System.Void .ctor()
-    // Offset: 0x2011A00
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlSchemaSet* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaSet::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaSet*, creationType>()));
-    }
   }; // System.Xml.Schema.XmlSchemaSet
   #pragma pack(pop)
   static check_size<sizeof(XmlSchemaSet), 96 + sizeof(::System::Xml::Schema::XmlSchemaCompilationSettings*)> __System_Xml_Schema_XmlSchemaSetSizeCheck;
   static_assert(sizeof(XmlSchemaSet) == 0x68);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaSet::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaSet::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -192,7 +186,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaSet*), "InternalValidationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sender, e});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaSet::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

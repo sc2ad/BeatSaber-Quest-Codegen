@@ -54,15 +54,7 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class GetFromGameObjectComponentProvider : public ::Il2CppObject/*, public ::Zenject::IProvider*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly UnityEngine.GameObject _gameObject
     // Size: 0x8
     // Offset: 0x10
@@ -87,29 +79,29 @@ namespace Zenject {
       return *reinterpret_cast<::Zenject::IProvider*>(this);
     }
     // Get instance field reference: private readonly UnityEngine.GameObject _gameObject
-    ::UnityEngine::GameObject*& dyn__gameObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__gameObject();
     // Get instance field reference: private readonly System.Type _componentType
-    ::System::Type*& dyn__componentType();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn__componentType();
     // Get instance field reference: private readonly System.Boolean _matchSingle
-    bool& dyn__matchSingle();
+    [[deprecated("Use field access instead!")]] bool& dyn__matchSingle();
     // public System.Boolean get_IsCached()
-    // Offset: 0x1DEBBFC
+    // Offset: 0x1E264C8
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x1DEBC04
+    // Offset: 0x1E264D0
     bool get_TypeVariesBasedOnMemberType();
     // public System.Void .ctor(System.Type componentType, UnityEngine.GameObject gameObject, System.Boolean matchSingle)
-    // Offset: 0x1DDEC08
+    // Offset: 0x1E194D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GetFromGameObjectComponentProvider* New_ctor(::System::Type* componentType, ::UnityEngine::GameObject* gameObject, bool matchSingle) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GetFromGameObjectComponentProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GetFromGameObjectComponentProvider*, creationType>(componentType, gameObject, matchSingle)));
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x1DEBC0C
+    // Offset: 0x1E264D8
     ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x1DEBC14
+    // Offset: 0x1E264E0
     void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.GetFromGameObjectComponentProvider
   #pragma pack(pop)

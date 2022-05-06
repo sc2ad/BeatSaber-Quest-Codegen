@@ -27,15 +27,7 @@ namespace RootMotion::FinalIK {
     public:
     // Writing base type padding for base size: 0x71 to desired offset: 0x74
     char ___base_padding[0x3] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Quaternion targetToLocalSpace
     // Size: 0x10
     // Offset: 0x74
@@ -50,24 +42,23 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: private UnityEngine.Quaternion targetToLocalSpace
-    ::UnityEngine::Quaternion& dyn_targetToLocalSpace();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_targetToLocalSpace();
     // Get instance field reference: private UnityEngine.Vector3 defaultLocalBendNormal
-    ::UnityEngine::Vector3& dyn_defaultLocalBendNormal();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_defaultLocalBendNormal();
     // public System.Void Initiate(UnityEngine.Vector3 childPosition, UnityEngine.Vector3 bendNormal)
-    // Offset: 0x21ACCC0
+    // Offset: 0x21F9534
     void Initiate(::UnityEngine::Vector3 childPosition, ::UnityEngine::Vector3 bendNormal);
     // public UnityEngine.Quaternion GetRotation(UnityEngine.Vector3 direction, UnityEngine.Vector3 bendNormal)
-    // Offset: 0x21AD878
+    // Offset: 0x21FA0EC
     ::UnityEngine::Quaternion GetRotation(::UnityEngine::Vector3 direction, ::UnityEngine::Vector3 bendNormal);
     // public UnityEngine.Vector3 GetBendNormalFromCurrentRotation()
-    // Offset: 0x21A7874
+    // Offset: 0x21F40E8
     ::UnityEngine::Vector3 GetBendNormalFromCurrentRotation();
     // public System.Void .ctor()
-    // Offset: 0x21AD940
+    // Offset: 0x21FA1B4
     // Implemented from: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone
     // Base method: System.Void Bone::.ctor()
     // Base method: System.Void Point::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolverTrigonometric::TrigonometricBone* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone::.ctor");

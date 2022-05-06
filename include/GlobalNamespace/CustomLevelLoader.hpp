@@ -44,15 +44,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CustomLevelLoader : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
     // Size: 0x8
     // Offset: 0x18
@@ -93,25 +85,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
-    ::GlobalNamespace::BeatmapCharacteristicCollectionSO*& dyn__beatmapCharacteristicCollection();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCharacteristicCollectionSO*& dyn__beatmapCharacteristicCollection();
     // Get instance field reference: private EnvironmentInfoSO _defaultEnvironmentInfo
-    ::GlobalNamespace::EnvironmentInfoSO*& dyn__defaultEnvironmentInfo();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentInfoSO*& dyn__defaultEnvironmentInfo();
     // Get instance field reference: private EnvironmentInfoSO _defaultAllDirectionsEnvironmentInfo
-    ::GlobalNamespace::EnvironmentInfoSO*& dyn__defaultAllDirectionsEnvironmentInfo();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentInfoSO*& dyn__defaultAllDirectionsEnvironmentInfo();
     // Get instance field reference: private EnvironmentsListSO _environmentSceneInfoCollection
-    ::GlobalNamespace::EnvironmentsListSO*& dyn__environmentSceneInfoCollection();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentsListSO*& dyn__environmentSceneInfoCollection();
     // Get instance field reference: private UnityEngine.Sprite _defaultPackCover
-    ::UnityEngine::Sprite*& dyn__defaultPackCover();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__defaultPackCover();
     // Get instance field reference: private UnityEngine.Sprite _smallDefaultPackCover
-    ::UnityEngine::Sprite*& dyn__smallDefaultPackCover();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__smallDefaultPackCover();
     // public System.Void .ctor()
-    // Offset: 0x140A390
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x142A13C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomLevelLoader* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CustomLevelLoader::.ctor");

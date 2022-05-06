@@ -39,15 +39,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class GameServerPlayerTableCell::$$c__DisplayClass29_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifiersList
     // Size: 0x8
     // Offset: 0x10
@@ -60,25 +52,27 @@ namespace GlobalNamespace {
       return modifiersList;
     }
     // Get instance field reference: public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifiersList
-    ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*& dyn_modifiersList();
-    // System.Void <SetData>b__0(System.Int32 id, GameplayModifierInfoListItem listItem)
-    // Offset: 0x13E0148
-    void $SetData$b__0(int id, ::GlobalNamespace::GameplayModifierInfoListItem* listItem);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*& dyn_modifiersList();
     // public System.Void .ctor()
-    // Offset: 0x13DFC18
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13EC6B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerPlayerTableCell::$$c__DisplayClass29_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass29_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServerPlayerTableCell::$$c__DisplayClass29_0*, creationType>()));
     }
+    // System.Void <SetData>b__0(System.Int32 id, GameplayModifierInfoListItem listItem)
+    // Offset: 0x13ECBE8
+    void $SetData$b__0(int id, ::GlobalNamespace::GameplayModifierInfoListItem* listItem);
   }; // GameServerPlayerTableCell/<>c__DisplayClass29_0
   #pragma pack(pop)
   static check_size<sizeof(GameServerPlayerTableCell::$$c__DisplayClass29_0), 16 + sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*)> __GlobalNamespace_GameServerPlayerTableCell_$$c__DisplayClass29_0SizeCheck;
   static_assert(sizeof(GameServerPlayerTableCell::$$c__DisplayClass29_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass29_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass29_0::$SetData$b__0
 // Il2CppName: <SetData>b__0
 template<>
@@ -89,7 +83,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass29_0*), "<SetData>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id, listItem});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass29_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

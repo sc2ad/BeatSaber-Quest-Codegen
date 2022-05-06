@@ -37,15 +37,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class ObjectNull : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int32 nullCount
     // Size: 0x4
     // Offset: 0x10
@@ -58,21 +50,21 @@ namespace System::Runtime::Serialization::Formatters::Binary {
       return nullCount;
     }
     // Get instance field reference: System.Int32 nullCount
-    int& dyn_nullCount();
+    [[deprecated("Use field access instead!")]] int& dyn_nullCount();
     // System.Void SetNullCount(System.Int32 nullCount)
-    // Offset: 0x18BDEEC
+    // Offset: 0x18F77FC
     void SetNullCount(int nullCount);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x18BDEF4
+    // Offset: 0x18F7804
     void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input, System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
-    // Offset: 0x18BDF80
+    // Offset: 0x18F7890
     void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input, ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
     // public System.Void Dump()
-    // Offset: 0x18BDFEC
+    // Offset: 0x18F78FC
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x18BDEE4
+    // Offset: 0x18F77F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

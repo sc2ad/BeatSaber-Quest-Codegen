@@ -45,22 +45,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OnlineServicesSettingsViewController : public ::HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BoolSO _onlineServicesEnabled
     // Size: 0x8
     // Offset: 0x70
     ::GlobalNamespace::BoolSO* onlineServicesEnabled;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125CD54
+    // [SpaceAttribute] Offset: 0x10E1938
     // private UnityEngine.UI.Toggle _enableOnlineServicesToggle
     // Size: 0x8
     // Offset: 0x78
@@ -75,30 +67,23 @@ namespace GlobalNamespace {
     static_assert(sizeof(::HMUI::ToggleBinder*) == 0x8);
     public:
     // Get instance field reference: private BoolSO _onlineServicesEnabled
-    ::GlobalNamespace::BoolSO*& dyn__onlineServicesEnabled();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn__onlineServicesEnabled();
     // Get instance field reference: private UnityEngine.UI.Toggle _enableOnlineServicesToggle
-    ::UnityEngine::UI::Toggle*& dyn__enableOnlineServicesToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__enableOnlineServicesToggle();
     // Get instance field reference: private HMUI.ToggleBinder _toggleBinder
-    ::HMUI::ToggleBinder*& dyn__toggleBinder();
-    // private System.Void HandleEnableOnlineServicesToggleValueChanged(System.Boolean value)
-    // Offset: 0x12E8BD0
-    void HandleEnableOnlineServicesToggleValueChanged(bool value);
+    [[deprecated("Use field access instead!")]] ::HMUI::ToggleBinder*& dyn__toggleBinder();
     // public System.Void .ctor()
-    // Offset: 0x12E8BD4
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1359B74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OnlineServicesSettingsViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OnlineServicesSettingsViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OnlineServicesSettingsViewController*, creationType>()));
     }
+    // private System.Void HandleEnableOnlineServicesToggleValueChanged(System.Boolean value)
+    // Offset: 0x1359B70
+    void HandleEnableOnlineServicesToggleValueChanged(bool value);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x12E8AE8
+    // Offset: 0x1359A88
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -108,6 +93,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(OnlineServicesSettingsViewController) == 0x88);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OnlineServicesSettingsViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OnlineServicesSettingsViewController::HandleEnableOnlineServicesToggleValueChanged
 // Il2CppName: HandleEnableOnlineServicesToggleValueChanged
 template<>
@@ -117,10 +106,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OnlineServicesSettingsViewController*), "HandleEnableOnlineServicesToggleValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OnlineServicesSettingsViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OnlineServicesSettingsViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

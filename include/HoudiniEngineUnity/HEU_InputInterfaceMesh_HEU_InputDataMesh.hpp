@@ -36,15 +36,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputInterfaceMesh::HEU_InputDataMesh : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Mesh _mesh
     // Size: 0x8
     // Offset: 0x10
@@ -109,29 +101,27 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.Mesh _mesh
-    ::UnityEngine::Mesh*& dyn__mesh();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Mesh*& dyn__mesh();
     // Get instance field reference: public UnityEngine.Material[] _materials
-    ::ArrayW<::UnityEngine::Material*>& dyn__materials();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Material*>& dyn__materials();
     // Get instance field reference: public System.String _meshPath
-    ::StringW& dyn__meshPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__meshPath();
     // Get instance field reference: public System.String _meshName
-    ::StringW& dyn__meshName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__meshName();
     // Get instance field reference: public System.Int32 _numVertices
-    int& dyn__numVertices();
+    [[deprecated("Use field access instead!")]] int& dyn__numVertices();
     // Get instance field reference: public System.Int32 _numSubMeshes
-    int& dyn__numSubMeshes();
+    [[deprecated("Use field access instead!")]] int& dyn__numSubMeshes();
     // Get instance field reference: public System.UInt32[] _indexStart
-    ::ArrayW<uint>& dyn__indexStart();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn__indexStart();
     // Get instance field reference: public System.UInt32[] _indexCount
-    ::ArrayW<uint>& dyn__indexCount();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn__indexCount();
     // Get instance field reference: public System.Single _LODScreenTransition
-    float& dyn__LODScreenTransition();
+    [[deprecated("Use field access instead!")]] float& dyn__LODScreenTransition();
     // Get instance field reference: public UnityEngine.Transform _transform
-    ::UnityEngine::Transform*& dyn__transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // public System.Void .ctor()
-    // Offset: 0x1850BE8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x188A4F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputInterfaceMesh::HEU_InputDataMesh* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputInterfaceMesh::HEU_InputDataMesh::.ctor");

@@ -37,15 +37,7 @@ namespace Tweening {
   // [TokenAttribute] Offset: FFFFFFFF
   class Tween : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Action onStart
     // Size: 0x8
     // Offset: 0x10
@@ -124,93 +116,91 @@ namespace Tweening {
     // Set static field: static protected System.Single kEpsilon
     static void _set_kEpsilon(float value);
     // Get instance field reference: public System.Action onStart
-    ::System::Action*& dyn_onStart();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_onStart();
     // Get instance field reference: public System.Action onCompleted
-    ::System::Action*& dyn_onCompleted();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_onCompleted();
     // Get instance field reference: public System.Action onKilled
-    ::System::Action*& dyn_onKilled();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_onKilled();
     // Get instance field reference: protected System.Single _progress
-    float& dyn__progress();
+    [[deprecated("Use field access instead!")]] float& dyn__progress();
     // Get instance field reference: protected System.Single _startTime
-    float& dyn__startTime();
+    [[deprecated("Use field access instead!")]] float& dyn__startTime();
     // Get instance field reference: protected System.Single _duration
-    float& dyn__duration();
+    [[deprecated("Use field access instead!")]] float& dyn__duration();
     // Get instance field reference: protected System.Boolean _loop
-    bool& dyn__loop();
+    [[deprecated("Use field access instead!")]] bool& dyn__loop();
     // Get instance field reference: protected System.Single _delay
-    float& dyn__delay();
+    [[deprecated("Use field access instead!")]] float& dyn__delay();
     // Get instance field reference: protected System.Boolean _isStarted
-    bool& dyn__isStarted();
+    [[deprecated("Use field access instead!")]] bool& dyn__isStarted();
     // Get instance field reference: protected System.Boolean _isKilled
-    bool& dyn__isKilled();
+    [[deprecated("Use field access instead!")]] bool& dyn__isKilled();
     // Get instance field reference: protected EaseType _easeType
-    ::GlobalNamespace::EaseType& dyn__easeType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EaseType& dyn__easeType();
     // public System.Boolean get_isStarted()
-    // Offset: 0x2AB40C4
+    // Offset: 0x1493194
     bool get_isStarted();
     // public System.Boolean get_isActive()
-    // Offset: 0x2AB40CC
+    // Offset: 0x149319C
     bool get_isActive();
     // public System.Boolean get_isComplete()
-    // Offset: 0x2AB40FC
+    // Offset: 0x14931CC
     bool get_isComplete();
     // public System.Boolean get_isKilled()
-    // Offset: 0x2AB4110
+    // Offset: 0x14931E0
     bool get_isKilled();
     // public System.Single get_progress()
-    // Offset: 0x2AB4118
+    // Offset: 0x14931E8
     float get_progress();
     // public System.Single get_startTime()
-    // Offset: 0x2AB4120
+    // Offset: 0x14931F0
     float get_startTime();
     // public System.Single get_duration()
-    // Offset: 0x2AB4128
+    // Offset: 0x14931F8
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x2AB4130
+    // Offset: 0x1493200
     void set_duration(float value);
     // public System.Boolean get_loop()
-    // Offset: 0x2AB4138
+    // Offset: 0x1493208
     bool get_loop();
     // public System.Void set_loop(System.Boolean value)
-    // Offset: 0x2AB4140
+    // Offset: 0x1493210
     void set_loop(bool value);
     // public System.Single get_delay()
-    // Offset: 0x2AB414C
+    // Offset: 0x149321C
     float get_delay();
     // public System.Void set_delay(System.Single value)
-    // Offset: 0x2AB4154
+    // Offset: 0x1493224
     void set_delay(float value);
     // public EaseType get_easeType()
-    // Offset: 0x2AB415C
+    // Offset: 0x149322C
     ::GlobalNamespace::EaseType get_easeType();
     // public System.Void set_easeType(EaseType value)
-    // Offset: 0x2AB4164
+    // Offset: 0x1493234
     void set_easeType(::GlobalNamespace::EaseType value);
-    // public System.Void Kill()
-    // Offset: 0x2AB416C
-    void Kill();
-    // public System.Void Restart(System.Single startTime)
-    // Offset: 0x2AB4178
-    void Restart(float startTime);
-    // public System.Void Resume()
-    // Offset: 0x2AB4184
-    void Resume();
-    // public System.Void SetStartTimeAndEndTime(System.Single startTime, System.Single endTime)
-    // Offset: 0x2AB418C
-    void SetStartTimeAndEndTime(float startTime, float endTime);
-    // public System.Void Update(System.Single currentTime)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    void Update(float currentTime);
     // protected System.Void .ctor()
-    // Offset: 0x2AB4198
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1493268
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tween* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Tweening::Tween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tween*, creationType>()));
     }
+    // public System.Void Kill()
+    // Offset: 0x149323C
+    void Kill();
+    // public System.Void Restart(System.Single startTime)
+    // Offset: 0x1493248
+    void Restart(float startTime);
+    // public System.Void Resume()
+    // Offset: 0x1493254
+    void Resume();
+    // public System.Void SetStartTimeAndEndTime(System.Single startTime, System.Single endTime)
+    // Offset: 0x149325C
+    void SetStartTimeAndEndTime(float startTime, float endTime);
+    // public System.Void Update(System.Single currentTime)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    void Update(float currentTime);
   }; // Tweening.Tween
   #pragma pack(pop)
   static check_size<sizeof(Tween), 64 + sizeof(::GlobalNamespace::EaseType)> __Tweening_TweenSizeCheck;
@@ -333,6 +323,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tween
     return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "set_easeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: Tweening::Tween::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Tweening::Tween::Kill
 // Il2CppName: Kill
 template<>
@@ -377,7 +371,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tween
     return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{currentTime});
   }
 };
-// Writing MetadataGetter for method: Tweening::Tween::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -35,15 +35,7 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class RuntimeElement : public ::Il2CppObject/*, public ::UnityEngine::Timeline::IInterval*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <intervalBit>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -60,7 +52,7 @@ namespace UnityEngine::Timeline {
       return intervalBit;
     }
     // Get instance field reference: private System.Int32 <intervalBit>k__BackingField
-    int& dyn_$intervalBit$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$intervalBit$k__BackingField();
     // public System.Int64 get_intervalStart()
     // Offset: 0xFFFFFFFFFFFFFFFF
     int64_t get_intervalStart();
@@ -68,29 +60,27 @@ namespace UnityEngine::Timeline {
     // Offset: 0xFFFFFFFFFFFFFFFF
     int64_t get_intervalEnd();
     // public System.Int32 get_intervalBit()
-    // Offset: 0x1D813F4
+    // Offset: 0x1DBC94C
     int get_intervalBit();
     // public System.Void set_intervalBit(System.Int32 value)
-    // Offset: 0x1D813FC
+    // Offset: 0x1DBC954
     void set_intervalBit(int value);
     // public System.Void set_enable(System.Boolean value)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void set_enable(bool value);
+    // protected System.Void .ctor()
+    // Offset: 0x1DB98A8
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static RuntimeElement* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::RuntimeElement::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<RuntimeElement*, creationType>()));
+    }
     // public System.Void EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void EvaluateAt(double localTime, ::UnityEngine::Playables::FrameData frameData);
     // public System.Void DisableAt(System.Double localTime, System.Double rootDuration, UnityEngine.Playables.FrameData frameData)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void DisableAt(double localTime, double rootDuration, ::UnityEngine::Playables::FrameData frameData);
-    // protected System.Void .ctor()
-    // Offset: 0x1D7E350
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RuntimeElement* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::RuntimeElement::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<RuntimeElement*, creationType>()));
-    }
   }; // UnityEngine.Timeline.RuntimeElement
   #pragma pack(pop)
   static check_size<sizeof(RuntimeElement), 16 + sizeof(int)> __UnityEngine_Timeline_RuntimeElementSizeCheck;
@@ -139,6 +129,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::RuntimeElement*), "set_enable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::Timeline::RuntimeElement::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Timeline::RuntimeElement::EvaluateAt
 // Il2CppName: EvaluateAt
 template<>
@@ -160,7 +154,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::RuntimeElement*), "DisableAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{localTime, rootDuration, frameData});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::Timeline::RuntimeElement::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -30,15 +30,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
   // [TokenAttribute] Offset: FFFFFFFF
   class Blake2sDigest : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IDigest*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 digestLength
     // Size: 0x4
     // Offset: 0x10
@@ -127,74 +119,74 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Set static field: static private readonly System.Byte[,] blake2s_sigma
     static void _set_blake2s_sigma(::ArrayW<uint8_t> value);
     // Get instance field reference: private System.Int32 digestLength
-    int& dyn_digestLength();
+    [[deprecated("Use field access instead!")]] int& dyn_digestLength();
     // Get instance field reference: private System.Int32 keyLength
-    int& dyn_keyLength();
+    [[deprecated("Use field access instead!")]] int& dyn_keyLength();
     // Get instance field reference: private System.Byte[] salt
-    ::ArrayW<uint8_t>& dyn_salt();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_salt();
     // Get instance field reference: private System.Byte[] personalization
-    ::ArrayW<uint8_t>& dyn_personalization();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_personalization();
     // Get instance field reference: private System.Byte[] key
-    ::ArrayW<uint8_t>& dyn_key();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_key();
     // Get instance field reference: private System.Byte[] buffer
-    ::ArrayW<uint8_t>& dyn_buffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_buffer();
     // Get instance field reference: private System.Int32 bufferPos
-    int& dyn_bufferPos();
+    [[deprecated("Use field access instead!")]] int& dyn_bufferPos();
     // Get instance field reference: private System.UInt32[] internalState
-    ::ArrayW<uint>& dyn_internalState();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_internalState();
     // Get instance field reference: private System.UInt32[] chainValue
-    ::ArrayW<uint>& dyn_chainValue();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_chainValue();
     // Get instance field reference: private System.UInt32 t0
-    uint& dyn_t0();
+    [[deprecated("Use field access instead!")]] uint& dyn_t0();
     // Get instance field reference: private System.UInt32 t1
-    uint& dyn_t1();
+    [[deprecated("Use field access instead!")]] uint& dyn_t1();
     // Get instance field reference: private System.UInt32 f0
-    uint& dyn_f0();
+    [[deprecated("Use field access instead!")]] uint& dyn_f0();
     // public System.String get_AlgorithmName()
-    // Offset: 0x2244EFC
+    // Offset: 0x228F770
     ::StringW get_AlgorithmName();
     // public System.Void .ctor(System.Int32 digestBits)
-    // Offset: 0x2243D8C
+    // Offset: 0x228E600
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Blake2sDigest* New_ctor(int digestBits) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::Blake2sDigest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Blake2sDigest*, creationType>(digestBits)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2244F54
+    // Offset: 0x228F7C8
     static void _cctor();
     // private System.Void Init()
-    // Offset: 0x2243E94
+    // Offset: 0x228E708
     void Init();
     // private System.Void InitializeInternalState()
-    // Offset: 0x2244208
+    // Offset: 0x228EA7C
     void InitializeInternalState();
     // public System.Void Update(System.Byte b)
-    // Offset: 0x22443BC
+    // Offset: 0x228EC30
     void Update(uint8_t b);
     // public System.Void BlockUpdate(System.Byte[] message, System.Int32 offset, System.Int32 len)
-    // Offset: 0x2244A0C
+    // Offset: 0x228F280
     void BlockUpdate(::ArrayW<uint8_t> message, int offset, int len);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOffset)
-    // Offset: 0x2244B50
+    // Offset: 0x228F3C4
     int DoFinal(::ArrayW<uint8_t> output, int outOffset);
     // public System.Void Reset()
-    // Offset: 0x2244C94
+    // Offset: 0x228F508
     void Reset();
     // private System.Void Compress(System.Byte[] message, System.Int32 messagePos)
-    // Offset: 0x2244480
+    // Offset: 0x228ECF4
     void Compress(::ArrayW<uint8_t> message, int messagePos);
     // private System.Void G(System.UInt32 m1, System.UInt32 m2, System.Int32 posA, System.Int32 posB, System.Int32 posC, System.Int32 posD)
-    // Offset: 0x2244D04
+    // Offset: 0x228F578
     void G(uint m1, uint m2, int posA, int posB, int posC, int posD);
     // private System.UInt32 rotr32(System.UInt32 x, System.Int32 rot)
-    // Offset: 0x2244EF4
+    // Offset: 0x228F768
     uint rotr32(uint x, int rot);
     // public System.Int32 GetDigestSize()
-    // Offset: 0x2244F44
+    // Offset: 0x228F7B8
     int GetDigestSize();
     // public System.Int32 GetByteLength()
-    // Offset: 0x2244F4C
+    // Offset: 0x228F7C0
     int GetByteLength();
   }; // Org.BouncyCastle.Crypto.Digests.Blake2sDigest
   #pragma pack(pop)

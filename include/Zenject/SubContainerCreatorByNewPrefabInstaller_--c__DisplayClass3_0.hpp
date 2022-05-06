@@ -42,15 +42,7 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SubContainerCreatorByNewPrefabInstaller::$$c__DisplayClass3_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Zenject.SubContainerCreatorByNewPrefabInstaller <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -65,33 +57,35 @@ namespace Zenject {
     static_assert(sizeof(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*) == 0x8);
     public:
     // Get instance field reference: public Zenject.SubContainerCreatorByNewPrefabInstaller <>4__this
-    ::Zenject::SubContainerCreatorByNewPrefabInstaller*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::Zenject::SubContainerCreatorByNewPrefabInstaller*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.Generic.List`1<Zenject.TypeValuePair> args
-    ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& dyn_args();
-    // System.Void <AddInstallers>b__0(Zenject.DiContainer subContainer)
-    // Offset: 0x1CE7FDC
-    void $AddInstallers$b__0(::Zenject::DiContainer* subContainer);
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1CE8134
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CE8190
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& dyn_args();
     // public System.Void .ctor()
-    // Offset: 0x1CE7FD4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1D2352C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorByNewPrefabInstaller::$$c__DisplayClass3_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SubContainerCreatorByNewPrefabInstaller::$$c__DisplayClass3_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorByNewPrefabInstaller::$$c__DisplayClass3_0*, creationType>()));
     }
+    // System.Void <AddInstallers>b__0(Zenject.DiContainer subContainer)
+    // Offset: 0x1D23534
+    void $AddInstallers$b__0(::Zenject::DiContainer* subContainer);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1D2368C
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1D236E8
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.SubContainerCreatorByNewPrefabInstaller/Zenject.<>c__DisplayClass3_0
   #pragma pack(pop)
   static check_size<sizeof(SubContainerCreatorByNewPrefabInstaller::$$c__DisplayClass3_0), 24 + sizeof(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*)> __Zenject_SubContainerCreatorByNewPrefabInstaller_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(SubContainerCreatorByNewPrefabInstaller::$$c__DisplayClass3_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::SubContainerCreatorByNewPrefabInstaller::$$c__DisplayClass3_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorByNewPrefabInstaller::$$c__DisplayClass3_0::$AddInstallers$b__0
 // Il2CppName: <AddInstallers>b__0
 template<>
@@ -118,7 +112,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorByNewPrefabInstaller::$$c__DisplayClass3_0*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::SubContainerCreatorByNewPrefabInstaller::$$c__DisplayClass3_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

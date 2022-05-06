@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveData::PlayerAgreementsData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 eulaVersion
     // Size: 0x4
     // Offset: 0x10
@@ -52,15 +44,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public System.Int32 eulaVersion
-    int& dyn_eulaVersion();
+    [[deprecated("Use field access instead!")]] int& dyn_eulaVersion();
     // Get instance field reference: public System.Int32 privacyPolicyVersion
-    int& dyn_privacyPolicyVersion();
+    [[deprecated("Use field access instead!")]] int& dyn_privacyPolicyVersion();
     // Get instance field reference: public System.Int32 healthAndSafetyVersion
-    int& dyn_healthAndSafetyVersion();
+    [[deprecated("Use field access instead!")]] int& dyn_healthAndSafetyVersion();
     // public System.Void .ctor()
-    // Offset: 0x1371630
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D4970
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::PlayerAgreementsData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::PlayerAgreementsData::.ctor");

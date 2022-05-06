@@ -57,15 +57,7 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class CommandBufferBlurryScreenGrab : public ::GlobalNamespace::CommandBufferGOCore {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private KawaseBlurRendererSO _kawaseBlurRenderer
     // Size: 0x8
     // Offset: 0x28
@@ -96,44 +88,37 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> _cameras
     static void _set__cameras(::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::GlobalNamespace::CommandBufferOwners*>* value);
     // Get instance field reference: private KawaseBlurRendererSO _kawaseBlurRenderer
-    ::GlobalNamespace::KawaseBlurRendererSO*& dyn__kawaseBlurRenderer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::KawaseBlurRendererSO*& dyn__kawaseBlurRenderer();
     // Get instance field reference: private KawaseBlurRendererSO/KernelSize _kernelSize
-    ::GlobalNamespace::KawaseBlurRendererSO::KernelSize& dyn__kernelSize();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::KawaseBlurRendererSO::KernelSize& dyn__kernelSize();
     // Get instance field reference: private UnityEngine.Rendering.CameraEvent _cameraEvent
-    ::UnityEngine::Rendering::CameraEvent& dyn__cameraEvent();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rendering::CameraEvent& dyn__cameraEvent();
     // Get instance field reference: private System.Int32 _downsample
-    int& dyn__downsample();
+    [[deprecated("Use field access instead!")]] int& dyn__downsample();
+    // static private System.Void .cctor()
+    // Offset: 0x2A3D09C
+    static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x29E678C
+    // Offset: 0x2A3D080
     // Implemented from: CommandBufferGOCore
     // Base method: System.Void CommandBufferGOCore::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CommandBufferBlurryScreenGrab* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CommandBufferBlurryScreenGrab::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CommandBufferBlurryScreenGrab*, creationType>()));
     }
-    // static private System.Void .cctor()
-    // Offset: 0x29E67A8
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
-    static void _cctor();
     // protected override UnityEngine.Rendering.CommandBuffer CreateCommandBuffer(UnityEngine.Camera camera)
-    // Offset: 0x29E661C
+    // Offset: 0x2A3CF10
     // Implemented from: CommandBufferGOCore
     // Base method: UnityEngine.Rendering.CommandBuffer CommandBufferGOCore::CreateCommandBuffer(UnityEngine.Camera camera)
     ::UnityEngine::Rendering::CommandBuffer* CreateCommandBuffer(::UnityEngine::Camera* camera);
     // protected override System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> CamerasDict()
-    // Offset: 0x29E671C
+    // Offset: 0x2A3D010
     // Implemented from: CommandBufferGOCore
     // Base method: System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> CommandBufferGOCore::CamerasDict()
     ::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::GlobalNamespace::CommandBufferOwners*>* CamerasDict();
     // protected override UnityEngine.Rendering.CameraEvent CommandBufferCameraEvent()
-    // Offset: 0x29E6784
+    // Offset: 0x2A3D078
     // Implemented from: CommandBufferGOCore
     // Base method: UnityEngine.Rendering.CameraEvent CommandBufferGOCore::CommandBufferCameraEvent()
     ::UnityEngine::Rendering::CameraEvent CommandBufferCameraEvent();
@@ -143,10 +128,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(CommandBufferBlurryScreenGrab) == 0x3C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::CommandBufferBlurryScreenGrab::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CommandBufferBlurryScreenGrab::_cctor
 // Il2CppName: .cctor
 template<>
@@ -155,6 +136,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferBlurryScreenGrab*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::CommandBufferBlurryScreenGrab::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CommandBufferBlurryScreenGrab::CreateCommandBuffer
 // Il2CppName: CreateCommandBuffer
 template<>

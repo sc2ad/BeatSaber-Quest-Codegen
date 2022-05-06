@@ -57,7 +57,7 @@ namespace HMUI {
     // Set static field: static public HMUI.ViewController/HMUI.AnimationType Out
     static void _set_Out(::HMUI::ViewController::AnimationType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HMUI.ViewController/HMUI.AnimationType
   #pragma pack(pop)
   static check_size<sizeof(ViewController::AnimationType), 0 + sizeof(int)> __HMUI_ViewController_AnimationTypeSizeCheck;

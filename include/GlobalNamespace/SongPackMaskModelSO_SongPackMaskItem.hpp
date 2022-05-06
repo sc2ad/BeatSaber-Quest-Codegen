@@ -47,15 +47,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public SongPackMaskModelSO/SongPackDataType _type
     // Size: 0x4
     // Offset: 0x10
@@ -64,14 +56,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::SongPackMaskModelSO::SongPackDataType) == 0x4);
     // Padding between fields: type and: beatmapLevelPack
     char __padding0[0x4] = {};
-    // [NullAllowed] Offset: 0x1261360
+    // [NullAllowed] Offset: 0x10E6008
     // public BeatmapLevelPackSO _beatmapLevelPack
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::BeatmapLevelPackSO* beatmapLevelPack;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapLevelPackSO*) == 0x8);
-    // [NullAllowed] Offset: 0x1261370
+    // [NullAllowed] Offset: 0x10E6018
     // public PreviewBeatmapLevelPackSO _previewBeatmapLevelPack
     // Size: 0x8
     // Offset: 0x20
@@ -84,7 +76,7 @@ namespace GlobalNamespace {
     ::StringW serializedName;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [NullAllowed] Offset: 0x1261380
+    // [NullAllowed] Offset: 0x10E6028
     // public BeatmapLevelPackCollectionSO _levelPackCollection
     // Size: 0x8
     // Offset: 0x30
@@ -111,34 +103,32 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelPackCollectionSO*>*) == 0x8);
     public:
     // Get instance field reference: public SongPackMaskModelSO/SongPackDataType _type
-    ::GlobalNamespace::SongPackMaskModelSO::SongPackDataType& dyn__type();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongPackMaskModelSO::SongPackDataType& dyn__type();
     // Get instance field reference: public BeatmapLevelPackSO _beatmapLevelPack
-    ::GlobalNamespace::BeatmapLevelPackSO*& dyn__beatmapLevelPack();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelPackSO*& dyn__beatmapLevelPack();
     // Get instance field reference: public PreviewBeatmapLevelPackSO _previewBeatmapLevelPack
-    ::GlobalNamespace::PreviewBeatmapLevelPackSO*& dyn__previewBeatmapLevelPack();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PreviewBeatmapLevelPackSO*& dyn__previewBeatmapLevelPack();
     // Get instance field reference: public System.String _serializedName
-    ::StringW& dyn__serializedName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__serializedName();
     // Get instance field reference: public BeatmapLevelPackCollectionSO _levelPackCollection
-    ::GlobalNamespace::BeatmapLevelPackCollectionSO*& dyn__levelPackCollection();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelPackCollectionSO*& dyn__levelPackCollection();
     // Get instance field reference: public System.Collections.Generic.List`1<BeatmapLevelPackSO> _beatmapLevelPacks
-    ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelPackSO*>*& dyn__beatmapLevelPacks();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelPackSO*>*& dyn__beatmapLevelPacks();
     // Get instance field reference: public System.Collections.Generic.List`1<PreviewBeatmapLevelPackSO> _previewBeatmapLevelPacks
-    ::System::Collections::Generic::List_1<::GlobalNamespace::PreviewBeatmapLevelPackSO*>*& dyn__previewBeatmapLevelPacks();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::PreviewBeatmapLevelPackSO*>*& dyn__previewBeatmapLevelPacks();
     // Get instance field reference: public System.Collections.Generic.List`1<BeatmapLevelPackCollectionSO> _levelPackCollections
-    ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelPackCollectionSO*>*& dyn__levelPackCollections();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelPackCollectionSO*>*& dyn__levelPackCollections();
     // public System.String get_serializedName()
-    // Offset: 0x2AA5E8C
+    // Offset: 0x138CAB0
     ::StringW get_serializedName();
     // public SongPackMask get_songPackMask()
-    // Offset: 0x2AA5ED0
+    // Offset: 0x138CAF4
     ::GlobalNamespace::SongPackMask get_songPackMask();
     // public System.Boolean get_containsMultiplePacks()
-    // Offset: 0x2AA624C
+    // Offset: 0x138CE70
     bool get_containsMultiplePacks();
     // public System.Void .ctor()
-    // Offset: 0x2AA6270
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x138CE94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPackMaskModelSO::SongPackMaskItem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::.ctor");

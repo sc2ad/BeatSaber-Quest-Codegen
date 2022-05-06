@@ -74,23 +74,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionToggle : public ::UnityEngine::EventSystems::UIBehaviour/*, public ::UnityEngine::EventSystems::IPointerClickHandler, public ::UnityEngine::EventSystems::ISubmitHandler, public ::UnityEngine::EventSystems::IPointerEnterHandler, public ::UnityEngine::EventSystems::IPointerExitHandler*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [SignalSenderAttribute] Offset: 0x1259E04
+    // [SignalSenderAttribute] Offset: 0x10DE9E8
     // private Signal _missionToggleWasPressedSignal
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::Signal* missionToggleWasPressedSignal;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Signal*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1259E3C
+    // [SpaceAttribute] Offset: 0x10DEA20
     // private TMPro.TextMeshProUGUI _text
     // Size: 0x8
     // Offset: 0x20
@@ -121,14 +113,14 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Image* strokeImage;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Image*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1259EB4
+    // [SpaceAttribute] Offset: 0x10DEA98
     // private HMUI.Interactable _vrInteractable
     // Size: 0x8
     // Offset: 0x48
     ::HMUI::Interactable* vrInteractable;
     // Field size check
     static_assert(sizeof(::HMUI::Interactable*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1259EEC
+    // [SpaceAttribute] Offset: 0x10DEAD0
     // private UnityEngine.Color _disabledColor
     // Size: 0x10
     // Offset: 0x50
@@ -203,104 +195,97 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Signal _missionToggleWasPressedSignal
-    ::GlobalNamespace::Signal*& dyn__missionToggleWasPressedSignal();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Signal*& dyn__missionToggleWasPressedSignal();
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
-    ::TMPro::TextMeshProUGUI*& dyn__text();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__text();
     // Get instance field reference: private UnityEngine.UI.Image _lockedImage
-    ::UnityEngine::UI::Image*& dyn__lockedImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__lockedImage();
     // Get instance field reference: private UnityEngine.UI.Image _clearedImage
-    ::UnityEngine::UI::Image*& dyn__clearedImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__clearedImage();
     // Get instance field reference: private UnityEngine.UI.Image _bgImage
-    ::UnityEngine::UI::Image*& dyn__bgImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__bgImage();
     // Get instance field reference: private UnityEngine.UI.Image _strokeImage
-    ::UnityEngine::UI::Image*& dyn__strokeImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__strokeImage();
     // Get instance field reference: private HMUI.Interactable _vrInteractable
-    ::HMUI::Interactable*& dyn__vrInteractable();
+    [[deprecated("Use field access instead!")]] ::HMUI::Interactable*& dyn__vrInteractable();
     // Get instance field reference: private UnityEngine.Color _disabledColor
-    ::UnityEngine::Color& dyn__disabledColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__disabledColor();
     // Get instance field reference: private UnityEngine.Color _normalColor
-    ::UnityEngine::Color& dyn__normalColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__normalColor();
     // Get instance field reference: private UnityEngine.Color _invertColor
-    ::UnityEngine::Color& dyn__invertColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__invertColor();
     // Get instance field reference: private UnityEngine.Color _highlightColor
-    ::UnityEngine::Color& dyn__highlightColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__highlightColor();
     // Get instance field reference: private System.Action`1<MissionToggle> selectionDidChangeEvent
-    ::System::Action_1<::GlobalNamespace::MissionToggle*>*& dyn_selectionDidChangeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::MissionToggle*>*& dyn_selectionDidChangeEvent();
     // Get instance field reference: private System.Boolean _selected
-    bool& dyn__selected();
+    [[deprecated("Use field access instead!")]] bool& dyn__selected();
     // Get instance field reference: private System.Boolean _highlighted
-    bool& dyn__highlighted();
+    [[deprecated("Use field access instead!")]] bool& dyn__highlighted();
     // Get instance field reference: private System.Boolean _interactable
-    bool& dyn__interactable();
+    [[deprecated("Use field access instead!")]] bool& dyn__interactable();
     // Get instance field reference: private System.Boolean _missionCleared
-    bool& dyn__missionCleared();
+    [[deprecated("Use field access instead!")]] bool& dyn__missionCleared();
     // public System.Void set_missionCleared(System.Boolean value)
-    // Offset: 0x13C3628
+    // Offset: 0x13BFAD4
     void set_missionCleared(bool value);
     // public System.Boolean get_selected()
-    // Offset: 0x13C3634
+    // Offset: 0x13BFAE0
     bool get_selected();
     // public System.Void set_selected(System.Boolean value)
-    // Offset: 0x13C363C
+    // Offset: 0x13BFAE8
     void set_selected(bool value);
     // public System.Boolean get_interactable()
-    // Offset: 0x13C3708
+    // Offset: 0x13BFBB4
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0x13C3710
+    // Offset: 0x13BFBBC
     void set_interactable(bool value);
     // public System.Boolean get_highlighted()
-    // Offset: 0x13C3A10
+    // Offset: 0x13BFEBC
     bool get_highlighted();
     // public System.Void add_selectionDidChangeEvent(System.Action`1<MissionToggle> value)
-    // Offset: 0x13C34E0
+    // Offset: 0x13BF98C
     void add_selectionDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionToggle*>* value);
     // public System.Void remove_selectionDidChangeEvent(System.Action`1<MissionToggle> value)
-    // Offset: 0x13C3584
+    // Offset: 0x13BFA30
     void remove_selectionDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionToggle*>* value);
-    // public System.Void ChangeSelection(System.Boolean value, System.Boolean callSelectionDidChange, System.Boolean ignoreCurrentValue)
-    // Offset: 0x13C364C
-    void ChangeSelection(bool value, bool callSelectionDidChange, bool ignoreCurrentValue);
-    // public System.Void ChangeHighlight(System.Boolean value, System.Boolean ignoreCurrentValue)
-    // Offset: 0x13C3A40
-    void ChangeHighlight(bool value, bool ignoreCurrentValue);
-    // public System.Void SetText(System.String text)
-    // Offset: 0x13C3A68
-    void SetText(::StringW text);
-    // private System.Void InternalToggle()
-    // Offset: 0x13C3A84
-    void InternalToggle();
-    // private System.Void RefreshUI()
-    // Offset: 0x13C371C
-    void RefreshUI();
-    // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x13C3AC0
-    void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
-    // public System.Void OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x13C3B84
-    void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData);
-    // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x13C3C2C
-    void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
-    // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x13C3C4C
-    void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0x13C3C68
-    // Implemented from: UnityEngine.EventSystems.UIBehaviour
-    // Base method: System.Void UIBehaviour::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13C0114
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionToggle* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionToggle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionToggle*, creationType>()));
     }
+    // public System.Void ChangeSelection(System.Boolean value, System.Boolean callSelectionDidChange, System.Boolean ignoreCurrentValue)
+    // Offset: 0x13BFAF8
+    void ChangeSelection(bool value, bool callSelectionDidChange, bool ignoreCurrentValue);
+    // public System.Void ChangeHighlight(System.Boolean value, System.Boolean ignoreCurrentValue)
+    // Offset: 0x13BFEEC
+    void ChangeHighlight(bool value, bool ignoreCurrentValue);
+    // public System.Void SetText(System.String text)
+    // Offset: 0x13BFF14
+    void SetText(::StringW text);
+    // private System.Void InternalToggle()
+    // Offset: 0x13BFF30
+    void InternalToggle();
+    // private System.Void RefreshUI()
+    // Offset: 0x13BFBC8
+    void RefreshUI();
+    // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
+    // Offset: 0x13BFF6C
+    void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
+    // public System.Void OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
+    // Offset: 0x13C0030
+    void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData);
+    // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
+    // Offset: 0x13C00D8
+    void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
+    // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
+    // Offset: 0x13C00F8
+    void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
     // protected override System.Void Start()
-    // Offset: 0x13C3A18
+    // Offset: 0x13BFEC4
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::Start()
     void Start();
@@ -379,6 +364,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionToggle*), "remove_selectionDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MissionToggle::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionToggle::ChangeSelection
 // Il2CppName: ChangeSelection
 template<>
@@ -461,10 +450,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionToggle*), "OnPointerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventData});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MissionToggle::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionToggle::Start
 // Il2CppName: Start
 template<>

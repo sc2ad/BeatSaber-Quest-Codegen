@@ -28,15 +28,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimeHelper : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _accumulator
     // Size: 0x4
     // Offset: 0x18
@@ -63,56 +55,50 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single <interpolationFactor>k__BackingField
     static void _set_$interpolationFactor$k__BackingField(float value);
     // Get instance field reference: private System.Single _accumulator
-    float& dyn__accumulator();
+    [[deprecated("Use field access instead!")]] float& dyn__accumulator();
     // static public System.Single get_time()
-    // Offset: 0x29D8794
+    // Offset: 0x2A2ACA4
     static float get_time();
     // static private System.Void set_time(System.Single value)
-    // Offset: 0x29D87E4
+    // Offset: 0x2A2ACF4
     static void set_time(float value);
     // static public System.Single get_deltaTime()
-    // Offset: 0x29D8840
+    // Offset: 0x2A2AD50
     static float get_deltaTime();
     // static private System.Void set_deltaTime(System.Single value)
-    // Offset: 0x29D8890
+    // Offset: 0x2A2ADA0
     static void set_deltaTime(float value);
     // static public System.Single get_fixedDeltaTime()
-    // Offset: 0x29D88EC
+    // Offset: 0x2A2ADFC
     static float get_fixedDeltaTime();
     // static private System.Void set_fixedDeltaTime(System.Single value)
-    // Offset: 0x29D893C
+    // Offset: 0x2A2AE4C
     static void set_fixedDeltaTime(float value);
     // static public System.Single get_interpolationFactor()
-    // Offset: 0x29D8998
+    // Offset: 0x2A2AEA8
     static float get_interpolationFactor();
     // static private System.Void set_interpolationFactor(System.Single value)
-    // Offset: 0x29D89E8
+    // Offset: 0x2A2AEF8
     static void set_interpolationFactor(float value);
-    // protected System.Void Awake()
-    // Offset: 0x29D8A44
-    void Awake();
-    // protected System.Void FixedUpdate()
-    // Offset: 0x29D8AF4
-    void FixedUpdate();
-    // protected System.Void Update()
-    // Offset: 0x29D8BA4
-    void Update();
-    // static public System.Void __SetTime(System.Single time)
-    // Offset: 0x29D8D58
-    static void __SetTime(float time);
     // public System.Void .ctor()
-    // Offset: 0x29D8DB4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A2B2C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeHelper* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TimeHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeHelper*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x2A2AF54
+    void Awake();
+    // protected System.Void FixedUpdate()
+    // Offset: 0x2A2B004
+    void FixedUpdate();
+    // protected System.Void Update()
+    // Offset: 0x2A2B0B4
+    void Update();
+    // static public System.Void __SetTime(System.Single time)
+    // Offset: 0x2A2B268
+    static void __SetTime(float time);
   }; // TimeHelper
   #pragma pack(pop)
   static check_size<sizeof(TimeHelper), 24 + sizeof(float)> __GlobalNamespace_TimeHelperSizeCheck;
@@ -187,6 +173,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(fl
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeHelper*), "set_interpolationFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::TimeHelper::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TimeHelper::Awake
 // Il2CppName: Awake
 template<>
@@ -220,7 +210,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(fl
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeHelper*), "__SetTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TimeHelper::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

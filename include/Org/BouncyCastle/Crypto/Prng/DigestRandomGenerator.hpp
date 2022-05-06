@@ -36,15 +36,7 @@ namespace Org::BouncyCastle::Crypto::Prng {
   // [TokenAttribute] Offset: FFFFFFFF
   class DigestRandomGenerator : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int64 stateCounter
     // Size: 0x8
     // Offset: 0x10
@@ -81,48 +73,48 @@ namespace Org::BouncyCastle::Crypto::Prng {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*>(this);
     }
     // Get instance field reference: private System.Int64 stateCounter
-    int64_t& dyn_stateCounter();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_stateCounter();
     // Get instance field reference: private System.Int64 seedCounter
-    int64_t& dyn_seedCounter();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_seedCounter();
     // Get instance field reference: private Org.BouncyCastle.Crypto.IDigest digest
-    ::Org::BouncyCastle::Crypto::IDigest*& dyn_digest();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::IDigest*& dyn_digest();
     // Get instance field reference: private System.Byte[] state
-    ::ArrayW<uint8_t>& dyn_state();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_state();
     // Get instance field reference: private System.Byte[] seed
-    ::ArrayW<uint8_t>& dyn_seed();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_seed();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x15C5314
+    // Offset: 0x15FAC24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DigestRandomGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DigestRandomGenerator*, creationType>(digest)));
     }
     // public System.Void AddSeedMaterial(System.Byte[] inSeed)
-    // Offset: 0x15C5488
+    // Offset: 0x15FAD98
     void AddSeedMaterial(::ArrayW<uint8_t> inSeed);
     // public System.Void AddSeedMaterial(System.Int64 rSeed)
-    // Offset: 0x15C56C0
+    // Offset: 0x15FAFD0
     void AddSeedMaterial(int64_t rSeed);
     // public System.Void NextBytes(System.Byte[] bytes)
-    // Offset: 0x15C5864
+    // Offset: 0x15FB174
     void NextBytes(::ArrayW<uint8_t> bytes);
     // public System.Void NextBytes(System.Byte[] bytes, System.Int32 start, System.Int32 len)
-    // Offset: 0x15C5880
+    // Offset: 0x15FB190
     void NextBytes(::ArrayW<uint8_t> bytes, int start, int len);
     // private System.Void CycleSeed()
-    // Offset: 0x15C5A60
+    // Offset: 0x15FB370
     void CycleSeed();
     // private System.Void GenerateState()
-    // Offset: 0x15C59DC
+    // Offset: 0x15FB2EC
     void GenerateState();
     // private System.Void DigestAddCounter(System.Int64 seedVal)
-    // Offset: 0x15C575C
+    // Offset: 0x15FB06C
     void DigestAddCounter(int64_t seedVal);
     // private System.Void DigestUpdate(System.Byte[] inSeed)
-    // Offset: 0x15C5524
+    // Offset: 0x15FAE34
     void DigestUpdate(::ArrayW<uint8_t> inSeed);
     // private System.Void DigestDoFinal(System.Byte[] result)
-    // Offset: 0x15C55F8
+    // Offset: 0x15FAF08
     void DigestDoFinal(::ArrayW<uint8_t> result);
   }; // Org.BouncyCastle.Crypto.Prng.DigestRandomGenerator
   #pragma pack(pop)

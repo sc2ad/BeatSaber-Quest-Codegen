@@ -31,16 +31,15 @@ namespace System::Net::NetworkInformation {
   class NetworkInterfaceFactory::UnixNetworkInterfaceAPI : public ::System::Net::NetworkInformation::NetworkInterfaceFactory {
     public:
     // static protected System.Int32 getifaddrs(out System.IntPtr ifap)
-    // Offset: 0x1B2AD18
+    // Offset: 0x1B65300
     static int getifaddrs(ByRef<::System::IntPtr> ifap);
     // static protected System.Void freeifaddrs(System.IntPtr ifap)
-    // Offset: 0x1B2AC94
+    // Offset: 0x1B6527C
     static void freeifaddrs(::System::IntPtr ifap);
     // protected System.Void .ctor()
-    // Offset: 0x1B2B748
+    // Offset: 0x1B65D30
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Void NetworkInterfaceFactory::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkInterfaceFactory::UnixNetworkInterfaceAPI* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI::.ctor");

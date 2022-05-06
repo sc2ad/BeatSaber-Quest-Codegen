@@ -52,15 +52,7 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class Dropdown::DropdownItem : public ::UnityEngine::MonoBehaviour/*, public ::UnityEngine::EventSystems::ICancelHandler, public ::UnityEngine::EventSystems::IPointerEnterHandler*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Text m_Text
     // Size: 0x8
     // Offset: 0x18
@@ -97,56 +89,50 @@ namespace UnityEngine::UI {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Text m_Text
-    ::UnityEngine::UI::Text*& dyn_m_Text();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Text*& dyn_m_Text();
     // Get instance field reference: private UnityEngine.UI.Image m_Image
-    ::UnityEngine::UI::Image*& dyn_m_Image();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn_m_Image();
     // Get instance field reference: private UnityEngine.RectTransform m_RectTransform
-    ::UnityEngine::RectTransform*& dyn_m_RectTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn_m_RectTransform();
     // Get instance field reference: private UnityEngine.UI.Toggle m_Toggle
-    ::UnityEngine::UI::Toggle*& dyn_m_Toggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn_m_Toggle();
     // public UnityEngine.UI.Text get_text()
-    // Offset: 0x1E20B58
+    // Offset: 0x1E5B424
     ::UnityEngine::UI::Text* get_text();
     // public System.Void set_text(UnityEngine.UI.Text value)
-    // Offset: 0x1E20B60
+    // Offset: 0x1E5B42C
     void set_text(::UnityEngine::UI::Text* value);
     // public UnityEngine.UI.Image get_image()
-    // Offset: 0x1E20B68
+    // Offset: 0x1E5B434
     ::UnityEngine::UI::Image* get_image();
     // public System.Void set_image(UnityEngine.UI.Image value)
-    // Offset: 0x1E20B70
+    // Offset: 0x1E5B43C
     void set_image(::UnityEngine::UI::Image* value);
     // public UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0x1E20B78
+    // Offset: 0x1E5B444
     ::UnityEngine::RectTransform* get_rectTransform();
     // public System.Void set_rectTransform(UnityEngine.RectTransform value)
-    // Offset: 0x1E20B80
+    // Offset: 0x1E5B44C
     void set_rectTransform(::UnityEngine::RectTransform* value);
     // public UnityEngine.UI.Toggle get_toggle()
-    // Offset: 0x1E20B88
+    // Offset: 0x1E5B454
     ::UnityEngine::UI::Toggle* get_toggle();
     // public System.Void set_toggle(UnityEngine.UI.Toggle value)
-    // Offset: 0x1E20B90
+    // Offset: 0x1E5B45C
     void set_toggle(::UnityEngine::UI::Toggle* value);
-    // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1E20B98
-    void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
-    // public System.Void OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x1E20C24
-    void OnCancel(::UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0x1E20CCC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E5B598
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Dropdown::DropdownItem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::Dropdown::DropdownItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Dropdown::DropdownItem*, creationType>()));
     }
+    // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
+    // Offset: 0x1E5B464
+    void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
+    // public System.Void OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
+    // Offset: 0x1E5B4F0
+    void OnCancel(::UnityEngine::EventSystems::BaseEventData* eventData);
   }; // UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownItem
   #pragma pack(pop)
   static check_size<sizeof(Dropdown::DropdownItem), 48 + sizeof(::UnityEngine::UI::Toggle*)> __UnityEngine_UI_Dropdown_DropdownItemSizeCheck;
@@ -221,6 +207,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown::DropdownItem*), "set_toggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::UI::Dropdown::DropdownItem::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::DropdownItem::OnPointerEnter
 // Il2CppName: OnPointerEnter
 template<>
@@ -239,7 +229,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown::DropdownItem*), "OnCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventData});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::UI::Dropdown::DropdownItem::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

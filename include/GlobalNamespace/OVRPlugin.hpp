@@ -400,7 +400,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRPlugin/XrApi EnumSize
       static void _set_EnumSize(::GlobalNamespace::OVRPlugin::XrApi value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // OVRPlugin/XrApi
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::XrApi), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_XrApiSizeCheck;
@@ -443,16 +443,16 @@ namespace GlobalNamespace {
       // Set static field: static public readonly OVRPlugin/Vector3f zero
       static void _set_zero(::GlobalNamespace::OVRPlugin::Vector3f value);
       // Get instance field reference: public System.Single x
-      float& dyn_x();
+      [[deprecated("Use field access instead!")]] float& dyn_x();
       // Get instance field reference: public System.Single y
-      float& dyn_y();
+      [[deprecated("Use field access instead!")]] float& dyn_y();
       // Get instance field reference: public System.Single z
-      float& dyn_z();
+      [[deprecated("Use field access instead!")]] float& dyn_z();
       // static private System.Void .cctor()
-      // Offset: 0x1AE3C4C
+      // Offset: 0x1B1E234
       static void _cctor();
       // public override System.String ToString()
-      // Offset: 0x1AE3B58
+      // Offset: 0x1B1E140
       // Implemented from: System.ValueType
       // Base method: System.String ValueType::ToString()
       ::StringW ToString();
@@ -504,18 +504,18 @@ namespace GlobalNamespace {
       // Set static field: static public readonly OVRPlugin/Quatf identity
       static void _set_identity(::GlobalNamespace::OVRPlugin::Quatf value);
       // Get instance field reference: public System.Single x
-      float& dyn_x();
+      [[deprecated("Use field access instead!")]] float& dyn_x();
       // Get instance field reference: public System.Single y
-      float& dyn_y();
+      [[deprecated("Use field access instead!")]] float& dyn_y();
       // Get instance field reference: public System.Single z
-      float& dyn_z();
+      [[deprecated("Use field access instead!")]] float& dyn_z();
       // Get instance field reference: public System.Single w
-      float& dyn_w();
+      [[deprecated("Use field access instead!")]] float& dyn_w();
       // static private System.Void .cctor()
-      // Offset: 0x1AE3768
+      // Offset: 0x1B1DD50
       static void _cctor();
       // public override System.String ToString()
-      // Offset: 0x1AE3588
+      // Offset: 0x1B1DB70
       // Implemented from: System.ValueType
       // Base method: System.String ValueType::ToString()
       ::StringW ToString();
@@ -555,14 +555,14 @@ namespace GlobalNamespace {
       // Set static field: static public readonly OVRPlugin/Posef identity
       static void _set_identity(::GlobalNamespace::OVRPlugin::Posef value);
       // Get instance field reference: public OVRPlugin/Quatf Orientation
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_Orientation();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_Orientation();
       // Get instance field reference: public OVRPlugin/Vector3f Position
-      ::GlobalNamespace::OVRPlugin::Vector3f& dyn_Position();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Vector3f& dyn_Position();
       // static private System.Void .cctor()
-      // Offset: 0x1AE34C0
+      // Offset: 0x1B1DAA8
       static void _cctor();
       // public override System.String ToString()
-      // Offset: 0x1AE33E0
+      // Offset: 0x1B1D9C8
       // Implemented from: System.ValueType
       // Base method: System.String ValueType::ToString()
       ::StringW ToString();
@@ -607,7 +607,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRPlugin/TrackingConfidence High
       static void _set_High(::GlobalNamespace::OVRPlugin::TrackingConfidence value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // OVRPlugin/TrackingConfidence
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::TrackingConfidence), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_TrackingConfidenceSizeCheck;
@@ -668,7 +668,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRPlugin/HandStatus MenuPressed
       static void _set_MenuPressed(::GlobalNamespace::OVRPlugin::HandStatus value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // OVRPlugin/HandStatus
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::HandStatus), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_HandStatusSizeCheck;
@@ -872,7 +872,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRPlugin/BoneId Max
       static void _set_Max(::GlobalNamespace::OVRPlugin::BoneId value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // OVRPlugin/BoneId
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::BoneId), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_BoneIdSizeCheck;
@@ -933,7 +933,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRPlugin/HandFingerPinch Pinky
       static void _set_Pinky(::GlobalNamespace::OVRPlugin::HandFingerPinch value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // OVRPlugin/HandFingerPinch
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::HandFingerPinch), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_HandFingerPinchSizeCheck;
@@ -1206,89 +1206,89 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public OVRPlugin/HandStatus Status
-      ::GlobalNamespace::OVRPlugin::HandStatus& dyn_Status();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::HandStatus& dyn_Status();
       // Get instance field reference: public OVRPlugin/Posef RootPose
-      ::GlobalNamespace::OVRPlugin::Posef& dyn_RootPose();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Posef& dyn_RootPose();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_0
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_0();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_0();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_1
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_1();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_1();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_2
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_2();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_2();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_3
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_3();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_3();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_4
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_4();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_4();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_5
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_5();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_5();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_6
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_6();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_6();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_7
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_7();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_7();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_8
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_8();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_8();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_9
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_9();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_9();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_10
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_10();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_10();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_11
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_11();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_11();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_12
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_12();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_12();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_13
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_13();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_13();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_14
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_14();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_14();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_15
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_15();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_15();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_16
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_16();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_16();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_17
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_17();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_17();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_18
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_18();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_18();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_19
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_19();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_19();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_20
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_20();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_20();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_21
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_21();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_21();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_22
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_22();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_22();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_23
-      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_23();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_23();
       // Get instance field reference: public OVRPlugin/HandFingerPinch Pinches
-      ::GlobalNamespace::OVRPlugin::HandFingerPinch& dyn_Pinches();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::HandFingerPinch& dyn_Pinches();
       // Get instance field reference: public System.Single PinchStrength_0
-      float& dyn_PinchStrength_0();
+      [[deprecated("Use field access instead!")]] float& dyn_PinchStrength_0();
       // Get instance field reference: public System.Single PinchStrength_1
-      float& dyn_PinchStrength_1();
+      [[deprecated("Use field access instead!")]] float& dyn_PinchStrength_1();
       // Get instance field reference: public System.Single PinchStrength_2
-      float& dyn_PinchStrength_2();
+      [[deprecated("Use field access instead!")]] float& dyn_PinchStrength_2();
       // Get instance field reference: public System.Single PinchStrength_3
-      float& dyn_PinchStrength_3();
+      [[deprecated("Use field access instead!")]] float& dyn_PinchStrength_3();
       // Get instance field reference: public System.Single PinchStrength_4
-      float& dyn_PinchStrength_4();
+      [[deprecated("Use field access instead!")]] float& dyn_PinchStrength_4();
       // Get instance field reference: public OVRPlugin/Posef PointerPose
-      ::GlobalNamespace::OVRPlugin::Posef& dyn_PointerPose();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Posef& dyn_PointerPose();
       // Get instance field reference: public System.Single HandScale
-      float& dyn_HandScale();
+      [[deprecated("Use field access instead!")]] float& dyn_HandScale();
       // Get instance field reference: public OVRPlugin/TrackingConfidence HandConfidence
-      ::GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_HandConfidence();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_HandConfidence();
       // Get instance field reference: public OVRPlugin/TrackingConfidence FingerConfidences_0
-      ::GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_0();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_0();
       // Get instance field reference: public OVRPlugin/TrackingConfidence FingerConfidences_1
-      ::GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_1();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_1();
       // Get instance field reference: public OVRPlugin/TrackingConfidence FingerConfidences_2
-      ::GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_2();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_2();
       // Get instance field reference: public OVRPlugin/TrackingConfidence FingerConfidences_3
-      ::GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_3();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_3();
       // Get instance field reference: public OVRPlugin/TrackingConfidence FingerConfidences_4
-      ::GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_4();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_4();
       // Get instance field reference: public System.Double RequestedTimeStamp
-      double& dyn_RequestedTimeStamp();
+      [[deprecated("Use field access instead!")]] double& dyn_RequestedTimeStamp();
       // Get instance field reference: public System.Double SampleTimeStamp
-      double& dyn_SampleTimeStamp();
+      [[deprecated("Use field access instead!")]] double& dyn_SampleTimeStamp();
     }; // OVRPlugin/HandStateInternal
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::HandStateInternal), 504 + sizeof(double)> __GlobalNamespace_OVRPlugin_HandStateInternalSizeCheck;
@@ -1335,13 +1335,13 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public System.Int16 BoneIndex
-      int16_t& dyn_BoneIndex();
+      [[deprecated("Use field access instead!")]] int16_t& dyn_BoneIndex();
       // Get instance field reference: public OVRPlugin/Vector3f StartPoint
-      ::GlobalNamespace::OVRPlugin::Vector3f& dyn_StartPoint();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Vector3f& dyn_StartPoint();
       // Get instance field reference: public OVRPlugin/Vector3f EndPoint
-      ::GlobalNamespace::OVRPlugin::Vector3f& dyn_EndPoint();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Vector3f& dyn_EndPoint();
       // Get instance field reference: public System.Single Radius
-      float& dyn_Radius();
+      [[deprecated("Use field access instead!")]] float& dyn_Radius();
     }; // OVRPlugin/BoneCapsule
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::BoneCapsule), 28 + sizeof(float)> __GlobalNamespace_OVRPlugin_BoneCapsuleSizeCheck;
@@ -1382,11 +1382,11 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public OVRPlugin/BoneId Id
-      ::GlobalNamespace::OVRPlugin::BoneId& dyn_Id();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::BoneId& dyn_Id();
       // Get instance field reference: public System.Int16 ParentBoneIndex
-      int16_t& dyn_ParentBoneIndex();
+      [[deprecated("Use field access instead!")]] int16_t& dyn_ParentBoneIndex();
       // Get instance field reference: public OVRPlugin/Posef Pose
-      ::GlobalNamespace::OVRPlugin::Posef& dyn_Pose();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Posef& dyn_Pose();
     }; // OVRPlugin/Bone
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::Bone), 8 + sizeof(::GlobalNamespace::OVRPlugin::Posef)> __GlobalNamespace_OVRPlugin_BoneSizeCheck;
@@ -1434,7 +1434,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRPlugin/SkeletonType HandRight
       static void _set_HandRight(::GlobalNamespace::OVRPlugin::SkeletonType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // OVRPlugin/SkeletonType
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::SkeletonType), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_SkeletonTypeSizeCheck;
@@ -1487,15 +1487,15 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public OVRPlugin/SkeletonType Type
-      ::GlobalNamespace::OVRPlugin::SkeletonType& dyn_Type();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::SkeletonType& dyn_Type();
       // Get instance field reference: public System.UInt32 NumBones
-      uint& dyn_NumBones();
+      [[deprecated("Use field access instead!")]] uint& dyn_NumBones();
       // Get instance field reference: public System.UInt32 NumBoneCapsules
-      uint& dyn_NumBoneCapsules();
+      [[deprecated("Use field access instead!")]] uint& dyn_NumBoneCapsules();
       // Get instance field reference: public OVRPlugin/Bone[] Bones
-      ::ArrayW<::GlobalNamespace::OVRPlugin::Bone>& dyn_Bones();
+      [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::OVRPlugin::Bone>& dyn_Bones();
       // Get instance field reference: public OVRPlugin/BoneCapsule[] BoneCapsules
-      ::ArrayW<::GlobalNamespace::OVRPlugin::BoneCapsule>& dyn_BoneCapsules();
+      [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::OVRPlugin::BoneCapsule>& dyn_BoneCapsules();
     }; // OVRPlugin/Skeleton
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::Skeleton), 24 + sizeof(::ArrayW<::GlobalNamespace::OVRPlugin::BoneCapsule>)> __GlobalNamespace_OVRPlugin_SkeletonSizeCheck;
@@ -1948,149 +1948,149 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public OVRPlugin/SkeletonType Type
-      ::GlobalNamespace::OVRPlugin::SkeletonType& dyn_Type();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::SkeletonType& dyn_Type();
       // Get instance field reference: public System.UInt32 NumBones
-      uint& dyn_NumBones();
+      [[deprecated("Use field access instead!")]] uint& dyn_NumBones();
       // Get instance field reference: public System.UInt32 NumBoneCapsules
-      uint& dyn_NumBoneCapsules();
+      [[deprecated("Use field access instead!")]] uint& dyn_NumBoneCapsules();
       // Get instance field reference: public OVRPlugin/Bone Bones_0
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_0();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_0();
       // Get instance field reference: public OVRPlugin/Bone Bones_1
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_1();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_1();
       // Get instance field reference: public OVRPlugin/Bone Bones_2
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_2();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_2();
       // Get instance field reference: public OVRPlugin/Bone Bones_3
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_3();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_3();
       // Get instance field reference: public OVRPlugin/Bone Bones_4
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_4();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_4();
       // Get instance field reference: public OVRPlugin/Bone Bones_5
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_5();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_5();
       // Get instance field reference: public OVRPlugin/Bone Bones_6
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_6();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_6();
       // Get instance field reference: public OVRPlugin/Bone Bones_7
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_7();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_7();
       // Get instance field reference: public OVRPlugin/Bone Bones_8
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_8();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_8();
       // Get instance field reference: public OVRPlugin/Bone Bones_9
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_9();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_9();
       // Get instance field reference: public OVRPlugin/Bone Bones_10
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_10();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_10();
       // Get instance field reference: public OVRPlugin/Bone Bones_11
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_11();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_11();
       // Get instance field reference: public OVRPlugin/Bone Bones_12
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_12();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_12();
       // Get instance field reference: public OVRPlugin/Bone Bones_13
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_13();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_13();
       // Get instance field reference: public OVRPlugin/Bone Bones_14
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_14();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_14();
       // Get instance field reference: public OVRPlugin/Bone Bones_15
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_15();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_15();
       // Get instance field reference: public OVRPlugin/Bone Bones_16
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_16();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_16();
       // Get instance field reference: public OVRPlugin/Bone Bones_17
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_17();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_17();
       // Get instance field reference: public OVRPlugin/Bone Bones_18
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_18();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_18();
       // Get instance field reference: public OVRPlugin/Bone Bones_19
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_19();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_19();
       // Get instance field reference: public OVRPlugin/Bone Bones_20
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_20();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_20();
       // Get instance field reference: public OVRPlugin/Bone Bones_21
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_21();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_21();
       // Get instance field reference: public OVRPlugin/Bone Bones_22
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_22();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_22();
       // Get instance field reference: public OVRPlugin/Bone Bones_23
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_23();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_23();
       // Get instance field reference: public OVRPlugin/Bone Bones_24
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_24();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_24();
       // Get instance field reference: public OVRPlugin/Bone Bones_25
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_25();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_25();
       // Get instance field reference: public OVRPlugin/Bone Bones_26
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_26();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_26();
       // Get instance field reference: public OVRPlugin/Bone Bones_27
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_27();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_27();
       // Get instance field reference: public OVRPlugin/Bone Bones_28
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_28();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_28();
       // Get instance field reference: public OVRPlugin/Bone Bones_29
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_29();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_29();
       // Get instance field reference: public OVRPlugin/Bone Bones_30
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_30();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_30();
       // Get instance field reference: public OVRPlugin/Bone Bones_31
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_31();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_31();
       // Get instance field reference: public OVRPlugin/Bone Bones_32
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_32();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_32();
       // Get instance field reference: public OVRPlugin/Bone Bones_33
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_33();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_33();
       // Get instance field reference: public OVRPlugin/Bone Bones_34
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_34();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_34();
       // Get instance field reference: public OVRPlugin/Bone Bones_35
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_35();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_35();
       // Get instance field reference: public OVRPlugin/Bone Bones_36
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_36();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_36();
       // Get instance field reference: public OVRPlugin/Bone Bones_37
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_37();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_37();
       // Get instance field reference: public OVRPlugin/Bone Bones_38
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_38();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_38();
       // Get instance field reference: public OVRPlugin/Bone Bones_39
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_39();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_39();
       // Get instance field reference: public OVRPlugin/Bone Bones_40
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_40();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_40();
       // Get instance field reference: public OVRPlugin/Bone Bones_41
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_41();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_41();
       // Get instance field reference: public OVRPlugin/Bone Bones_42
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_42();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_42();
       // Get instance field reference: public OVRPlugin/Bone Bones_43
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_43();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_43();
       // Get instance field reference: public OVRPlugin/Bone Bones_44
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_44();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_44();
       // Get instance field reference: public OVRPlugin/Bone Bones_45
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_45();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_45();
       // Get instance field reference: public OVRPlugin/Bone Bones_46
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_46();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_46();
       // Get instance field reference: public OVRPlugin/Bone Bones_47
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_47();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_47();
       // Get instance field reference: public OVRPlugin/Bone Bones_48
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_48();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_48();
       // Get instance field reference: public OVRPlugin/Bone Bones_49
-      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_49();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_49();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_0
-      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_0();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_0();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_1
-      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_1();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_1();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_2
-      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_2();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_2();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_3
-      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_3();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_3();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_4
-      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_4();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_4();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_5
-      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_5();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_5();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_6
-      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_6();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_6();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_7
-      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_7();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_7();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_8
-      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_8();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_8();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_9
-      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_9();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_9();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_10
-      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_10();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_10();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_11
-      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_11();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_11();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_12
-      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_12();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_12();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_13
-      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_13();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_13();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_14
-      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_14();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_14();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_15
-      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_15();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_15();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_16
-      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_16();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_16();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_17
-      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_17();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_17();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_18
-      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_18();
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_18();
     }; // OVRPlugin/Skeleton2Internal
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::Skeleton2Internal), 2388 + sizeof(::GlobalNamespace::OVRPlugin::BoneCapsule)> __GlobalNamespace_OVRPlugin_Skeleton2InternalSizeCheck;
@@ -2190,499 +2190,499 @@ namespace GlobalNamespace {
     // Set static field: static private System.Version _versionZero
     static void _set__versionZero(::System::Version* value);
     // static public System.Version get_version()
-    // Offset: 0x16D1104
+    // Offset: 0x1708A14
     static ::System::Version* get_version();
     // static public System.Version get_nativeSDKVersion()
-    // Offset: 0x16D16B8
+    // Offset: 0x1708FC8
     static ::System::Version* get_nativeSDKVersion();
     // static public System.Boolean get_initialized()
-    // Offset: 0x16BE578
+    // Offset: 0x16F5E88
     static bool get_initialized();
     // static public OVRPlugin/XrApi get_nativeXrApi()
-    // Offset: 0x16CAED4
+    // Offset: 0x17027E4
     static ::GlobalNamespace::OVRPlugin::XrApi get_nativeXrApi();
     // static public System.Boolean get_chromatic()
-    // Offset: 0x16D1A04
+    // Offset: 0x1709314
     static bool get_chromatic();
     // static public System.Void set_chromatic(System.Boolean value)
-    // Offset: 0x16D1B24
+    // Offset: 0x1709434
     static void set_chromatic(bool value);
     // static public System.Boolean get_monoscopic()
-    // Offset: 0x16D1C78
+    // Offset: 0x1709588
     static bool get_monoscopic();
     // static public System.Void set_monoscopic(System.Boolean value)
-    // Offset: 0x16D1D14
+    // Offset: 0x1709624
     static void set_monoscopic(bool value);
     // static public System.Boolean get_rotation()
-    // Offset: 0x16D1DCC
+    // Offset: 0x17096DC
     static bool get_rotation();
     // static public System.Void set_rotation(System.Boolean value)
-    // Offset: 0x16D1E68
+    // Offset: 0x1709778
     static void set_rotation(bool value);
     // static public System.Boolean get_position()
-    // Offset: 0x16D1F20
+    // Offset: 0x1709830
     static bool get_position();
     // static public System.Void set_position(System.Boolean value)
-    // Offset: 0x16D1FBC
+    // Offset: 0x17098CC
     static void set_position(bool value);
     // static public System.Boolean get_useIPDInPositionTracking()
-    // Offset: 0x16D2074
+    // Offset: 0x1709984
     static bool get_useIPDInPositionTracking();
     // static public System.Void set_useIPDInPositionTracking(System.Boolean value)
-    // Offset: 0x16D2194
+    // Offset: 0x1709AA4
     static void set_useIPDInPositionTracking(bool value);
     // static public System.Boolean get_positionSupported()
-    // Offset: 0x16D22E0
+    // Offset: 0x1709BF0
     static bool get_positionSupported();
     // static public System.Boolean get_positionTracked()
-    // Offset: 0x16D237C
+    // Offset: 0x1709C8C
     static bool get_positionTracked();
     // static public System.Boolean get_powerSaving()
-    // Offset: 0x16C2250
+    // Offset: 0x16F9B60
     static bool get_powerSaving();
     // static public System.Boolean get_hmdPresent()
-    // Offset: 0x16C4CF8
+    // Offset: 0x16FC608
     static bool get_hmdPresent();
     // static public System.Boolean get_userPresent()
-    // Offset: 0x16D241C
+    // Offset: 0x1709D2C
     static bool get_userPresent();
     // static public System.Boolean get_headphonesPresent()
-    // Offset: 0x16D24B8
+    // Offset: 0x1709DC8
     static bool get_headphonesPresent();
     // static public System.Int32 get_recommendedMSAALevel()
-    // Offset: 0x16D2554
+    // Offset: 0x1709E64
     static int get_recommendedMSAALevel();
     // static public OVRPlugin/SystemRegion get_systemRegion()
-    // Offset: 0x16D2674
+    // Offset: 0x1709F84
     static ::GlobalNamespace::OVRPlugin::SystemRegion get_systemRegion();
     // static public System.String get_audioOutId()
-    // Offset: 0x16D2794
+    // Offset: 0x170A0A4
     static ::StringW get_audioOutId();
     // static public System.String get_audioInId()
-    // Offset: 0x16D2AC8
+    // Offset: 0x170A3D8
     static ::StringW get_audioInId();
     // static public System.Boolean get_hasVrFocus()
-    // Offset: 0x16D2DFC
+    // Offset: 0x170A70C
     static bool get_hasVrFocus();
     // static public System.Boolean get_hasInputFocus()
-    // Offset: 0x16D2E68
+    // Offset: 0x170A778
     static bool get_hasInputFocus();
     // static public System.Boolean get_shouldQuit()
-    // Offset: 0x16D2F84
+    // Offset: 0x170A894
     static bool get_shouldQuit();
     // static public System.Boolean get_shouldRecenter()
-    // Offset: 0x16D2FF0
+    // Offset: 0x170A900
     static bool get_shouldRecenter();
     // static public System.String get_productName()
-    // Offset: 0x16D305C
+    // Offset: 0x170A96C
     static ::StringW get_productName();
     // static public System.String get_latency()
-    // Offset: 0x16D30BC
+    // Offset: 0x170A9CC
     static ::StringW get_latency();
     // static public System.Single get_eyeDepth()
-    // Offset: 0x16D3164
+    // Offset: 0x170AA74
     static float get_eyeDepth();
     // static public System.Void set_eyeDepth(System.Single value)
-    // Offset: 0x16D31FC
+    // Offset: 0x170AB0C
     static void set_eyeDepth(float value);
     // static public System.Single get_eyeHeight()
-    // Offset: 0x16D326C
+    // Offset: 0x170AB7C
     static float get_eyeHeight();
     // static public System.Void set_eyeHeight(System.Single value)
-    // Offset: 0x16D32CC
+    // Offset: 0x170ABDC
     static void set_eyeHeight(float value);
     // static public System.Single get_batteryLevel()
-    // Offset: 0x16D333C
+    // Offset: 0x170AC4C
     static float get_batteryLevel();
     // static public System.Single get_batteryTemperature()
-    // Offset: 0x16D339C
+    // Offset: 0x170ACAC
     static float get_batteryTemperature();
     // static public System.Int32 get_cpuLevel()
-    // Offset: 0x16D33FC
+    // Offset: 0x170AD0C
     static int get_cpuLevel();
     // static public System.Void set_cpuLevel(System.Int32 value)
-    // Offset: 0x16C20E0
+    // Offset: 0x16F99F0
     static void set_cpuLevel(int value);
     // static public System.Int32 get_gpuLevel()
-    // Offset: 0x16D345C
+    // Offset: 0x170AD6C
     static int get_gpuLevel();
     // static public System.Void set_gpuLevel(System.Int32 value)
-    // Offset: 0x16C2148
+    // Offset: 0x16F9A58
     static void set_gpuLevel(int value);
     // static public System.Int32 get_vsyncCount()
-    // Offset: 0x16D34BC
+    // Offset: 0x170ADCC
     static int get_vsyncCount();
     // static public System.Void set_vsyncCount(System.Int32 value)
-    // Offset: 0x16D351C
+    // Offset: 0x170AE2C
     static void set_vsyncCount(int value);
     // static public System.Single get_systemVolume()
-    // Offset: 0x16D3584
+    // Offset: 0x170AE94
     static float get_systemVolume();
     // static public System.Single get_ipd()
-    // Offset: 0x16D35E4
+    // Offset: 0x170AEF4
     static float get_ipd();
     // static public System.Void set_ipd(System.Single value)
-    // Offset: 0x16D3644
+    // Offset: 0x170AF54
     static void set_ipd(float value);
     // static public System.Boolean get_occlusionMesh()
-    // Offset: 0x16D36B4
+    // Offset: 0x170AFC4
     static bool get_occlusionMesh();
     // static public System.Void set_occlusionMesh(System.Boolean value)
-    // Offset: 0x16D3750
+    // Offset: 0x170B060
     static void set_occlusionMesh(bool value);
     // static public OVRPlugin/BatteryStatus get_batteryStatus()
-    // Offset: 0x16D3808
+    // Offset: 0x170B118
     static ::GlobalNamespace::OVRPlugin::BatteryStatus get_batteryStatus();
     // static public System.Boolean get_fixedFoveatedRenderingSupported()
-    // Offset: 0x16D648C
+    // Offset: 0x170DD9C
     static bool get_fixedFoveatedRenderingSupported();
     // static public OVRPlugin/FixedFoveatedRenderingLevel get_fixedFoveatedRenderingLevel()
-    // Offset: 0x16D659C
+    // Offset: 0x170DEAC
     static ::GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel get_fixedFoveatedRenderingLevel();
     // static public System.Void set_fixedFoveatedRenderingLevel(OVRPlugin/FixedFoveatedRenderingLevel value)
-    // Offset: 0x16D66C8
+    // Offset: 0x170DFD8
     static void set_fixedFoveatedRenderingLevel(::GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel value);
     // static public System.Boolean get_useDynamicFixedFoveatedRendering()
-    // Offset: 0x16D67F8
+    // Offset: 0x170E108
     static bool get_useDynamicFixedFoveatedRendering();
     // static public System.Void set_useDynamicFixedFoveatedRendering(System.Boolean value)
-    // Offset: 0x16D6930
+    // Offset: 0x170E240
     static void set_useDynamicFixedFoveatedRendering(bool value);
     // static public System.Boolean get_tiledMultiResSupported()
-    // Offset: 0x16D6A64
+    // Offset: 0x170E374
     static bool get_tiledMultiResSupported();
     // static public OVRPlugin/TiledMultiResLevel get_tiledMultiResLevel()
-    // Offset: 0x16D6AC0
+    // Offset: 0x170E3D0
     static ::GlobalNamespace::OVRPlugin::TiledMultiResLevel get_tiledMultiResLevel();
     // static public System.Void set_tiledMultiResLevel(OVRPlugin/TiledMultiResLevel value)
-    // Offset: 0x16D6B1C
+    // Offset: 0x170E42C
     static void set_tiledMultiResLevel(::GlobalNamespace::OVRPlugin::TiledMultiResLevel value);
     // static public System.Boolean get_gpuUtilSupported()
-    // Offset: 0x16D6B80
+    // Offset: 0x170E490
     static bool get_gpuUtilSupported();
     // static public System.Single get_gpuUtilLevel()
-    // Offset: 0x16D6C90
+    // Offset: 0x170E5A0
     static float get_gpuUtilLevel();
     // static public System.Single[] get_systemDisplayFrequenciesAvailable()
-    // Offset: 0x16D6DC8
+    // Offset: 0x170E6D8
     static ::ArrayW<float> get_systemDisplayFrequenciesAvailable();
     // static public System.Single get_systemDisplayFrequency()
-    // Offset: 0x16D70E8
+    // Offset: 0x170E9F8
     static float get_systemDisplayFrequency();
     // static public System.Void set_systemDisplayFrequency(System.Single value)
-    // Offset: 0x16D729C
+    // Offset: 0x170EBAC
     static void set_systemDisplayFrequency(float value);
     // static public System.Boolean get_eyeFovPremultipliedAlphaModeEnabled()
-    // Offset: 0x16D73AC
+    // Offset: 0x170ECBC
     static bool get_eyeFovPremultipliedAlphaModeEnabled();
     // static public System.Void set_eyeFovPremultipliedAlphaModeEnabled(System.Boolean value)
-    // Offset: 0x16D74BC
+    // Offset: 0x170EDCC
     static void set_eyeFovPremultipliedAlphaModeEnabled(bool value);
     // static public System.Boolean get_AsymmetricFovEnabled()
-    // Offset: 0x16D7708
+    // Offset: 0x170F018
     static bool get_AsymmetricFovEnabled();
     // static public System.Boolean get_EyeTextureArrayEnabled()
-    // Offset: 0x16D781C
+    // Offset: 0x170F12C
     static bool get_EyeTextureArrayEnabled();
     // static private System.Void .cctor()
-    // Offset: 0x16DBAA0
+    // Offset: 0x17133B0
     static void _cctor();
     // static public OVRPlugin/Frustumf GetEyeFrustum(OVRPlugin/Eye eyeId)
-    // Offset: 0x16D3868
+    // Offset: 0x170B178
     static ::GlobalNamespace::OVRPlugin::Frustumf GetEyeFrustum(::GlobalNamespace::OVRPlugin::Eye eyeId);
     // static public OVRPlugin/Sizei GetEyeTextureSize(OVRPlugin/Eye eyeId)
-    // Offset: 0x16D38D0
+    // Offset: 0x170B1E0
     static ::GlobalNamespace::OVRPlugin::Sizei GetEyeTextureSize(::GlobalNamespace::OVRPlugin::Eye eyeId);
     // static public OVRPlugin/Posef GetTrackerPose(OVRPlugin/Tracker trackerId)
-    // Offset: 0x16D3938
+    // Offset: 0x170B248
     static ::GlobalNamespace::OVRPlugin::Posef GetTrackerPose(::GlobalNamespace::OVRPlugin::Tracker trackerId);
     // static public OVRPlugin/Frustumf GetTrackerFrustum(OVRPlugin/Tracker trackerId)
-    // Offset: 0x16D39B0
+    // Offset: 0x170B2C0
     static ::GlobalNamespace::OVRPlugin::Frustumf GetTrackerFrustum(::GlobalNamespace::OVRPlugin::Tracker trackerId);
     // static public System.Boolean ShowUI(OVRPlugin/PlatformUI ui)
-    // Offset: 0x16D3A18
+    // Offset: 0x170B328
     static bool ShowUI(::GlobalNamespace::OVRPlugin::PlatformUI ui);
     // static public System.Boolean EnqueueSubmitLayer(System.Boolean onTop, System.Boolean headLocked, System.Boolean noDepthBufferTesting, System.IntPtr leftTexture, System.IntPtr rightTexture, System.Int32 layerId, System.Int32 frameIndex, OVRPlugin/Posef pose, OVRPlugin/Vector3f scale, System.Int32 layerIndex, OVRPlugin/OverlayShape shape, System.Boolean overrideTextureRectMatrix, OVRPlugin/TextureRectMatrixf textureRectMatrix, System.Boolean overridePerLayerColorScaleAndOffset, UnityEngine.Vector4 colorScale, UnityEngine.Vector4 colorOffset, System.Boolean expensiveSuperSample, System.Boolean hidden)
-    // Offset: 0x16C7B80
+    // Offset: 0x16FF490
     static bool EnqueueSubmitLayer(bool onTop, bool headLocked, bool noDepthBufferTesting, ::System::IntPtr leftTexture, ::System::IntPtr rightTexture, int layerId, int frameIndex, ::GlobalNamespace::OVRPlugin::Posef pose, ::GlobalNamespace::OVRPlugin::Vector3f scale, int layerIndex, ::GlobalNamespace::OVRPlugin::OverlayShape shape, bool overrideTextureRectMatrix, ::GlobalNamespace::OVRPlugin::TextureRectMatrixf textureRectMatrix, bool overridePerLayerColorScaleAndOffset, ::UnityEngine::Vector4 colorScale, ::UnityEngine::Vector4 colorOffset, bool expensiveSuperSample, bool hidden);
     // static public OVRPlugin/LayerDesc CalculateLayerDesc(OVRPlugin/OverlayShape shape, OVRPlugin/LayerLayout layout, OVRPlugin/Sizei textureSize, System.Int32 mipLevels, System.Int32 sampleCount, OVRPlugin/EyeTextureFormat format, System.Int32 layerFlags)
-    // Offset: 0x16C6960
+    // Offset: 0x16FE270
     static ::GlobalNamespace::OVRPlugin::LayerDesc CalculateLayerDesc(::GlobalNamespace::OVRPlugin::OverlayShape shape, ::GlobalNamespace::OVRPlugin::LayerLayout layout, ::GlobalNamespace::OVRPlugin::Sizei textureSize, int mipLevels, int sampleCount, ::GlobalNamespace::OVRPlugin::EyeTextureFormat format, int layerFlags);
     // static public System.Boolean EnqueueSetupLayer(OVRPlugin/LayerDesc desc, System.Int32 compositionDepth, System.IntPtr layerID)
-    // Offset: 0x16C6AF0
+    // Offset: 0x16FE400
     static bool EnqueueSetupLayer(::GlobalNamespace::OVRPlugin::LayerDesc desc, int compositionDepth, ::System::IntPtr layerID);
     // static public System.Boolean EnqueueDestroyLayer(System.IntPtr layerID)
-    // Offset: 0x16C82D4
+    // Offset: 0x16FFBE4
     static bool EnqueueDestroyLayer(::System::IntPtr layerID);
     // static public System.IntPtr GetLayerTexture(System.Int32 layerId, System.Int32 stage, OVRPlugin/Eye eyeId)
-    // Offset: 0x16C7680
+    // Offset: 0x16FEF90
     static ::System::IntPtr GetLayerTexture(int layerId, int stage, ::GlobalNamespace::OVRPlugin::Eye eyeId);
     // static public System.Int32 GetLayerTextureStageCount(System.Int32 layerId)
-    // Offset: 0x16C6D18
+    // Offset: 0x16FE628
     static int GetLayerTextureStageCount(int layerId);
     // static public System.IntPtr GetLayerAndroidSurfaceObject(System.Int32 layerId)
-    // Offset: 0x16C7338
+    // Offset: 0x16FEC48
     static ::System::IntPtr GetLayerAndroidSurfaceObject(int layerId);
     // static public System.Boolean UpdateNodePhysicsPoses(System.Int32 frameIndex, System.Double predictionSeconds)
-    // Offset: 0x16D3A8C
+    // Offset: 0x170B39C
     static bool UpdateNodePhysicsPoses(int frameIndex, double predictionSeconds);
     // static public OVRPlugin/Posef GetNodePose(OVRPlugin/Node nodeId, OVRPlugin/Step stepId)
-    // Offset: 0x16C5AE8
+    // Offset: 0x16FD3F8
     static ::GlobalNamespace::OVRPlugin::Posef GetNodePose(::GlobalNamespace::OVRPlugin::Node nodeId, ::GlobalNamespace::OVRPlugin::Step stepId);
     // static public OVRPlugin/Vector3f GetNodeVelocity(OVRPlugin/Node nodeId, OVRPlugin/Step stepId)
-    // Offset: 0x16C56F0
+    // Offset: 0x16FD000
     static ::GlobalNamespace::OVRPlugin::Vector3f GetNodeVelocity(::GlobalNamespace::OVRPlugin::Node nodeId, ::GlobalNamespace::OVRPlugin::Step stepId);
     // static public OVRPlugin/Vector3f GetNodeAngularVelocity(OVRPlugin/Node nodeId, OVRPlugin/Step stepId)
-    // Offset: 0x16C5960
+    // Offset: 0x16FD270
     static ::GlobalNamespace::OVRPlugin::Vector3f GetNodeAngularVelocity(::GlobalNamespace::OVRPlugin::Node nodeId, ::GlobalNamespace::OVRPlugin::Step stepId);
     // static public OVRPlugin/Vector3f GetNodeAcceleration(OVRPlugin/Node nodeId, OVRPlugin/Step stepId)
-    // Offset: 0x16C5184
+    // Offset: 0x16FCA94
     static ::GlobalNamespace::OVRPlugin::Vector3f GetNodeAcceleration(::GlobalNamespace::OVRPlugin::Node nodeId, ::GlobalNamespace::OVRPlugin::Step stepId);
     // static public OVRPlugin/Vector3f GetNodeAngularAcceleration(OVRPlugin/Node nodeId, OVRPlugin/Step stepId)
-    // Offset: 0x16C5568
+    // Offset: 0x16FCE78
     static ::GlobalNamespace::OVRPlugin::Vector3f GetNodeAngularAcceleration(::GlobalNamespace::OVRPlugin::Node nodeId, ::GlobalNamespace::OVRPlugin::Step stepId);
     // static public System.Boolean GetNodePresent(OVRPlugin/Node nodeId)
-    // Offset: 0x16D3BA8
+    // Offset: 0x170B4B8
     static bool GetNodePresent(::GlobalNamespace::OVRPlugin::Node nodeId);
     // static public System.Boolean GetNodeOrientationTracked(OVRPlugin/Node nodeId)
-    // Offset: 0x16D3C1C
+    // Offset: 0x170B52C
     static bool GetNodeOrientationTracked(::GlobalNamespace::OVRPlugin::Node nodeId);
     // static public System.Boolean GetNodeOrientationValid(OVRPlugin/Node nodeId)
-    // Offset: 0x16D3C90
+    // Offset: 0x170B5A0
     static bool GetNodeOrientationValid(::GlobalNamespace::OVRPlugin::Node nodeId);
     // static public System.Boolean GetNodePositionTracked(OVRPlugin/Node nodeId)
-    // Offset: 0x16D3DDC
+    // Offset: 0x170B6EC
     static bool GetNodePositionTracked(::GlobalNamespace::OVRPlugin::Node nodeId);
     // static public System.Boolean GetNodePositionValid(OVRPlugin/Node nodeId)
-    // Offset: 0x16D3E50
+    // Offset: 0x170B760
     static bool GetNodePositionValid(::GlobalNamespace::OVRPlugin::Node nodeId);
     // static public OVRPlugin/PoseStatef GetNodePoseStateRaw(OVRPlugin/Node nodeId, OVRPlugin/Step stepId)
-    // Offset: 0x16D3F9C
+    // Offset: 0x170B8AC
     static ::GlobalNamespace::OVRPlugin::PoseStatef GetNodePoseStateRaw(::GlobalNamespace::OVRPlugin::Node nodeId, ::GlobalNamespace::OVRPlugin::Step stepId);
     // static public OVRPlugin/Posef GetCurrentTrackingTransformPose()
-    // Offset: 0x16D421C
+    // Offset: 0x170BB2C
     static ::GlobalNamespace::OVRPlugin::Posef GetCurrentTrackingTransformPose();
     // static public OVRPlugin/Posef GetTrackingTransformRawPose()
-    // Offset: 0x16D4370
+    // Offset: 0x170BC80
     static ::GlobalNamespace::OVRPlugin::Posef GetTrackingTransformRawPose();
     // static public OVRPlugin/Posef GetTrackingTransformRelativePose(OVRPlugin/TrackingOrigin trackingOrigin)
-    // Offset: 0x16C1074
+    // Offset: 0x16F8984
     static ::GlobalNamespace::OVRPlugin::Posef GetTrackingTransformRelativePose(::GlobalNamespace::OVRPlugin::TrackingOrigin trackingOrigin);
     // static public OVRPlugin/ControllerState GetControllerState(System.UInt32 controllerMask)
-    // Offset: 0x16D44C4
+    // Offset: 0x170BDD4
     static ::GlobalNamespace::OVRPlugin::ControllerState GetControllerState(uint controllerMask);
     // static public OVRPlugin/ControllerState2 GetControllerState2(System.UInt32 controllerMask)
-    // Offset: 0x16D453C
+    // Offset: 0x170BE4C
     static ::GlobalNamespace::OVRPlugin::ControllerState2 GetControllerState2(uint controllerMask);
     // static public OVRPlugin/ControllerState4 GetControllerState4(System.UInt32 controllerMask)
-    // Offset: 0x16D46BC
+    // Offset: 0x170BFCC
     static ::GlobalNamespace::OVRPlugin::ControllerState4 GetControllerState4(uint controllerMask);
     // static public System.Boolean SetControllerVibration(System.UInt32 controllerMask, System.Single frequency, System.Single amplitude)
-    // Offset: 0x16D485C
+    // Offset: 0x170C16C
     static bool SetControllerVibration(uint controllerMask, float frequency, float amplitude);
     // static public OVRPlugin/HapticsDesc GetControllerHapticsDesc(System.UInt32 controllerMask)
-    // Offset: 0x16D48E8
+    // Offset: 0x170C1F8
     static ::GlobalNamespace::OVRPlugin::HapticsDesc GetControllerHapticsDesc(uint controllerMask);
     // static public OVRPlugin/HapticsState GetControllerHapticsState(System.UInt32 controllerMask)
-    // Offset: 0x16D4A08
+    // Offset: 0x170C318
     static ::GlobalNamespace::OVRPlugin::HapticsState GetControllerHapticsState(uint controllerMask);
     // static public System.Boolean SetControllerHaptics(System.UInt32 controllerMask, OVRPlugin/HapticsBuffer hapticsBuffer)
-    // Offset: 0x16D4B10
+    // Offset: 0x170C420
     static bool SetControllerHaptics(uint controllerMask, ::GlobalNamespace::OVRPlugin::HapticsBuffer hapticsBuffer);
     // static public System.Single GetEyeRecommendedResolutionScale()
-    // Offset: 0x16D4C30
+    // Offset: 0x170C540
     static float GetEyeRecommendedResolutionScale();
     // static public System.Single GetAppCpuStartToGpuEndTime()
-    // Offset: 0x16D4D30
+    // Offset: 0x170C640
     static float GetAppCpuStartToGpuEndTime();
     // static public System.Boolean GetBoundaryConfigured()
-    // Offset: 0x16D4E30
+    // Offset: 0x170C740
     static bool GetBoundaryConfigured();
     // static public OVRPlugin/BoundaryTestResult TestBoundaryNode(OVRPlugin/Node nodeId, OVRPlugin/BoundaryType boundaryType)
-    // Offset: 0x16D4F30
+    // Offset: 0x170C840
     static ::GlobalNamespace::OVRPlugin::BoundaryTestResult TestBoundaryNode(::GlobalNamespace::OVRPlugin::Node nodeId, ::GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
     // static public OVRPlugin/BoundaryTestResult TestBoundaryPoint(OVRPlugin/Vector3f point, OVRPlugin/BoundaryType boundaryType)
-    // Offset: 0x16D5058
+    // Offset: 0x170C968
     static ::GlobalNamespace::OVRPlugin::BoundaryTestResult TestBoundaryPoint(::GlobalNamespace::OVRPlugin::Vector3f point, ::GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
     // static public OVRPlugin/BoundaryGeometry GetBoundaryGeometry(OVRPlugin/BoundaryType boundaryType)
-    // Offset: 0x16D51A8
+    // Offset: 0x170CAB8
     static ::GlobalNamespace::OVRPlugin::BoundaryGeometry GetBoundaryGeometry(::GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
     // static public System.Boolean GetBoundaryGeometry2(OVRPlugin/BoundaryType boundaryType, System.IntPtr points, ref System.Int32 pointsCount)
-    // Offset: 0x16D52C8
+    // Offset: 0x170CBD8
     static bool GetBoundaryGeometry2(::GlobalNamespace::OVRPlugin::BoundaryType boundaryType, ::System::IntPtr points, ByRef<int> pointsCount);
     // static public OVRPlugin/AppPerfStats GetAppPerfStats()
-    // Offset: 0x16D53EC
+    // Offset: 0x170CCFC
     static ::GlobalNamespace::OVRPlugin::AppPerfStats GetAppPerfStats();
     // static public System.Boolean ResetAppPerfStats()
-    // Offset: 0x16D54F8
+    // Offset: 0x170CE08
     static bool ResetAppPerfStats();
     // static public System.Single GetAppFramerate()
-    // Offset: 0x16D55F8
+    // Offset: 0x170CF08
     static float GetAppFramerate();
     // static public System.Boolean SetHandNodePoseStateLatency(System.Double latencyInSeconds)
-    // Offset: 0x16D56F8
+    // Offset: 0x170D008
     static bool SetHandNodePoseStateLatency(double latencyInSeconds);
     // static public System.Double GetHandNodePoseStateLatency()
-    // Offset: 0x16D5808
+    // Offset: 0x170D118
     static double GetHandNodePoseStateLatency();
     // static public OVRPlugin/EyeTextureFormat GetDesiredEyeTextureFormat()
-    // Offset: 0x16D5918
+    // Offset: 0x170D228
     static ::GlobalNamespace::OVRPlugin::EyeTextureFormat GetDesiredEyeTextureFormat();
     // static public System.Boolean SetDesiredEyeTextureFormat(OVRPlugin/EyeTextureFormat value)
-    // Offset: 0x16D5A18
+    // Offset: 0x170D328
     static bool SetDesiredEyeTextureFormat(::GlobalNamespace::OVRPlugin::EyeTextureFormat value);
     // static public System.Boolean InitializeMixedReality()
-    // Offset: 0x16BE6E4
+    // Offset: 0x16F5FF4
     static bool InitializeMixedReality();
     // static public System.Boolean ShutdownMixedReality()
-    // Offset: 0x16BE9E0
+    // Offset: 0x16F62F0
     static bool ShutdownMixedReality();
     // static public System.Boolean IsMixedRealityInitialized()
-    // Offset: 0x16BE5E4
+    // Offset: 0x16F5EF4
     static bool IsMixedRealityInitialized();
     // static public System.Int32 GetExternalCameraCount()
-    // Offset: 0x16C09CC
+    // Offset: 0x16F82DC
     static int GetExternalCameraCount();
     // static public System.Boolean UpdateExternalCamera()
-    // Offset: 0x16BE7E4
+    // Offset: 0x16F60F4
     static bool UpdateExternalCamera();
     // static public System.Boolean GetMixedRealityCameraInfo(System.Int32 cameraId, out OVRPlugin/CameraExtrinsics cameraExtrinsics, out OVRPlugin/CameraIntrinsics cameraIntrinsics)
-    // Offset: 0x16C0F04
+    // Offset: 0x16F8814
     static bool GetMixedRealityCameraInfo(int cameraId, ByRef<::GlobalNamespace::OVRPlugin::CameraExtrinsics> cameraExtrinsics, ByRef<::GlobalNamespace::OVRPlugin::CameraIntrinsics> cameraIntrinsics);
     // static public System.Boolean OverrideExternalCameraFov(System.Int32 cameraId, System.Boolean useOverriddenFov, OVRPlugin/Fovf fov)
-    // Offset: 0x16C1ADC
+    // Offset: 0x16F93EC
     static bool OverrideExternalCameraFov(int cameraId, bool useOverriddenFov, ::GlobalNamespace::OVRPlugin::Fovf fov);
     // static public System.Boolean GetUseOverriddenExternalCameraFov(System.Int32 cameraId)
-    // Offset: 0x16C1D30
+    // Offset: 0x16F9640
     static bool GetUseOverriddenExternalCameraFov(int cameraId);
     // static public System.Boolean OverrideExternalCameraStaticPose(System.Int32 cameraId, System.Boolean useOverriddenPose, OVRPlugin/Posef poseInStageOrigin)
-    // Offset: 0x16C1C0C
+    // Offset: 0x16F951C
     static bool OverrideExternalCameraStaticPose(int cameraId, bool useOverriddenPose, ::GlobalNamespace::OVRPlugin::Posef poseInStageOrigin);
     // static public System.Boolean GetUseOverriddenExternalCameraStaticPose(System.Int32 cameraId)
-    // Offset: 0x16C1E5C
+    // Offset: 0x16F976C
     static bool GetUseOverriddenExternalCameraStaticPose(int cameraId);
     // static public System.Boolean ResetDefaultExternalCamera()
-    // Offset: 0x16C08CC
+    // Offset: 0x16F81DC
     static bool ResetDefaultExternalCamera();
     // static public System.Boolean SetDefaultExternalCamera(System.String cameraName, ref OVRPlugin/CameraIntrinsics cameraIntrinsics, ref OVRPlugin/CameraExtrinsics cameraExtrinsics)
-    // Offset: 0x16C1234
+    // Offset: 0x16F8B44
     static bool SetDefaultExternalCamera(::StringW cameraName, ByRef<::GlobalNamespace::OVRPlugin::CameraIntrinsics> cameraIntrinsics, ByRef<::GlobalNamespace::OVRPlugin::CameraExtrinsics> cameraExtrinsics);
     // static public System.Boolean SetExternalCameraProperties(System.String cameraName, ref OVRPlugin/CameraIntrinsics cameraIntrinsics, ref OVRPlugin/CameraExtrinsics cameraExtrinsics)
-    // Offset: 0x16D5B20
+    // Offset: 0x170D430
     static bool SetExternalCameraProperties(::StringW cameraName, ByRef<::GlobalNamespace::OVRPlugin::CameraIntrinsics> cameraIntrinsics, ByRef<::GlobalNamespace::OVRPlugin::CameraExtrinsics> cameraExtrinsics);
     // static public OVRPlugin/Vector3f GetBoundaryDimensions(OVRPlugin/BoundaryType boundaryType)
-    // Offset: 0x16D5C40
+    // Offset: 0x170D550
     static ::GlobalNamespace::OVRPlugin::Vector3f GetBoundaryDimensions(::GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
     // static public System.Boolean GetBoundaryVisible()
-    // Offset: 0x16D5D44
+    // Offset: 0x170D654
     static bool GetBoundaryVisible();
     // static public System.Boolean SetBoundaryVisible(System.Boolean value)
-    // Offset: 0x16D5E44
+    // Offset: 0x170D754
     static bool SetBoundaryVisible(bool value);
     // static public OVRPlugin/SystemHeadset GetSystemHeadsetType()
-    // Offset: 0x16D5F70
+    // Offset: 0x170D880
     static ::GlobalNamespace::OVRPlugin::SystemHeadset GetSystemHeadsetType();
     // static public OVRPlugin/Controller GetActiveController()
-    // Offset: 0x16D6070
+    // Offset: 0x170D980
     static ::GlobalNamespace::OVRPlugin::Controller GetActiveController();
     // static public OVRPlugin/Controller GetConnectedControllers()
-    // Offset: 0x16D6170
+    // Offset: 0x170DA80
     static ::GlobalNamespace::OVRPlugin::Controller GetConnectedControllers();
     // static private OVRPlugin/Bool ToBool(System.Boolean b)
-    // Offset: 0x16D1C70
+    // Offset: 0x1709580
     static ::GlobalNamespace::OVRPlugin::Bool ToBool(bool b);
     // static public OVRPlugin/TrackingOrigin GetTrackingOriginType()
-    // Offset: 0x16D6270
+    // Offset: 0x170DB80
     static ::GlobalNamespace::OVRPlugin::TrackingOrigin GetTrackingOriginType();
     // static public System.Boolean SetTrackingOriginType(OVRPlugin/TrackingOrigin originType)
-    // Offset: 0x16D62D0
+    // Offset: 0x170DBE0
     static bool SetTrackingOriginType(::GlobalNamespace::OVRPlugin::TrackingOrigin originType);
     // static public OVRPlugin/Posef GetTrackingCalibratedOrigin()
-    // Offset: 0x16D6344
+    // Offset: 0x170DC54
     static ::GlobalNamespace::OVRPlugin::Posef GetTrackingCalibratedOrigin();
     // static public System.Boolean SetTrackingCalibratedOrigin()
-    // Offset: 0x16D63AC
+    // Offset: 0x170DCBC
     static bool SetTrackingCalibratedOrigin();
     // static public System.Boolean RecenterTrackingOrigin(OVRPlugin/RecenterFlags flags)
-    // Offset: 0x16D6418
+    // Offset: 0x170DD28
     static bool RecenterTrackingOrigin(::GlobalNamespace::OVRPlugin::RecenterFlags flags);
     // static public System.Boolean GetNodeFrustum2(OVRPlugin/Node nodeId, out OVRPlugin/Frustumf2 frustum)
-    // Offset: 0x16D75E8
+    // Offset: 0x170EEF8
     static bool GetNodeFrustum2(::GlobalNamespace::OVRPlugin::Node nodeId, ByRef<::GlobalNamespace::OVRPlugin::Frustumf2> frustum);
     // static public OVRPlugin/Handedness GetDominantHand()
-    // Offset: 0x16D791C
+    // Offset: 0x170F22C
     static ::GlobalNamespace::OVRPlugin::Handedness GetDominantHand();
     // static public System.Boolean SendEvent(System.String name, System.String param, System.String source)
-    // Offset: 0x16D7A28
+    // Offset: 0x170F338
     static bool SendEvent(::StringW name, ::StringW param, ::StringW source);
     // static public System.Boolean SetHeadPoseModifier(ref OVRPlugin/Quatf relativeRotation, ref OVRPlugin/Vector3f relativeTranslation)
-    // Offset: 0x16D7C18
+    // Offset: 0x170F528
     static bool SetHeadPoseModifier(ByRef<::GlobalNamespace::OVRPlugin::Quatf> relativeRotation, ByRef<::GlobalNamespace::OVRPlugin::Vector3f> relativeTranslation);
     // static public System.Boolean GetHeadPoseModifier(out OVRPlugin/Quatf relativeRotation, out OVRPlugin/Vector3f relativeTranslation)
-    // Offset: 0x16D7D30
+    // Offset: 0x170F640
     static bool GetHeadPoseModifier(ByRef<::GlobalNamespace::OVRPlugin::Quatf> relativeRotation, ByRef<::GlobalNamespace::OVRPlugin::Vector3f> relativeTranslation);
     // static public System.Boolean IsPerfMetricsSupported(OVRPlugin/PerfMetrics perfMetrics)
-    // Offset: 0x16D7EB4
+    // Offset: 0x170F7C4
     static bool IsPerfMetricsSupported(::GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics);
     // static public System.Nullable`1<System.Single> GetPerfMetricsFloat(OVRPlugin/PerfMetrics perfMetrics)
-    // Offset: 0x16D7FD4
+    // Offset: 0x170F8E4
     static ::System::Nullable_1<float> GetPerfMetricsFloat(::GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics);
     // static public System.Nullable`1<System.Int32> GetPerfMetricsInt(OVRPlugin/PerfMetrics perfMetrics)
-    // Offset: 0x16D810C
+    // Offset: 0x170FA1C
     static ::System::Nullable_1<int> GetPerfMetricsInt(::GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics);
     // static public System.Double GetTimeInSeconds()
-    // Offset: 0x16D8244
+    // Offset: 0x170FB54
     static double GetTimeInSeconds();
     // static public System.Boolean SetColorScaleAndOffset(UnityEngine.Vector4 colorScale, UnityEngine.Vector4 colorOffset, System.Boolean applyToAllLayers)
-    // Offset: 0x16D8350
+    // Offset: 0x170FC60
     static bool SetColorScaleAndOffset(::UnityEngine::Vector4 colorScale, ::UnityEngine::Vector4 colorOffset, bool applyToAllLayers);
     // static public System.Boolean AddCustomMetadata(System.String name, System.String param)
-    // Offset: 0x16D84BC
+    // Offset: 0x170FDCC
     static bool AddCustomMetadata(::StringW name, ::StringW param);
     // static public System.Boolean SetDeveloperMode(OVRPlugin/Bool active)
-    // Offset: 0x16D85D4
+    // Offset: 0x170FEE4
     static bool SetDeveloperMode(::GlobalNamespace::OVRPlugin::Bool active);
     // static public System.Single GetAdaptiveGPUPerformanceScale()
-    // Offset: 0x16D86DC
+    // Offset: 0x170FFEC
     static float GetAdaptiveGPUPerformanceScale();
     // static public System.Boolean GetHandTrackingEnabled()
-    // Offset: 0x16D87F4
+    // Offset: 0x1710104
     static bool GetHandTrackingEnabled();
     // static public System.Boolean GetHandState(OVRPlugin/Step stepId, OVRPlugin/Hand hand, ref OVRPlugin/HandState handState)
-    // Offset: 0x16D8908
+    // Offset: 0x1710218
     static bool GetHandState(::GlobalNamespace::OVRPlugin::Step stepId, ::GlobalNamespace::OVRPlugin::Hand hand, ByRef<::GlobalNamespace::OVRPlugin::HandState> handState);
     // static public System.Boolean GetSkeleton(OVRPlugin/SkeletonType skeletonType, out OVRPlugin/Skeleton skeleton)
-    // Offset: 0x16D90AC
+    // Offset: 0x17109BC
     static bool GetSkeleton(::GlobalNamespace::OVRPlugin::SkeletonType skeletonType, ByRef<::GlobalNamespace::OVRPlugin::Skeleton> skeleton);
     // static public System.Boolean GetSkeleton2(OVRPlugin/SkeletonType skeletonType, ref OVRPlugin/Skeleton2 skeleton)
-    // Offset: 0x16D91CC
+    // Offset: 0x1710ADC
     static bool GetSkeleton2(::GlobalNamespace::OVRPlugin::SkeletonType skeletonType, ByRef<::GlobalNamespace::OVRPlugin::Skeleton2> skeleton);
     // static public System.Boolean GetMesh(OVRPlugin/MeshType meshType, out OVRPlugin/Mesh mesh)
-    // Offset: 0x16BD390
+    // Offset: 0x16F4CA0
     static bool GetMesh(::GlobalNamespace::OVRPlugin::MeshType meshType, ByRef<::GlobalNamespace::OVRPlugin::Mesh*> mesh);
     // static public System.Int32 GetLocalTrackingSpaceRecenterCount()
-    // Offset: 0x16DB038
+    // Offset: 0x1712948
     static int GetLocalTrackingSpaceRecenterCount();
     // static public System.Boolean GetSystemHmd3DofModeEnabled()
-    // Offset: 0x16DB148
+    // Offset: 0x1712A58
     static bool GetSystemHmd3DofModeEnabled();
     // static public System.Boolean SetClientColorDesc(OVRPlugin/ColorSpace colorSpace)
-    // Offset: 0x16DB25C
+    // Offset: 0x1712B6C
     static bool SetClientColorDesc(::GlobalNamespace::OVRPlugin::ColorSpace colorSpace);
     // static public OVRPlugin/ColorSpace GetHmdColorDesc()
-    // Offset: 0x16DB3A0
+    // Offset: 0x1712CB0
     static ::GlobalNamespace::OVRPlugin::ColorSpace GetHmdColorDesc();
     // static public System.Boolean PollEvent(ref OVRPlugin/EventDataBuffer eventDataBuffer)
-    // Offset: 0x16DB500
+    // Offset: 0x1712E10
     static bool PollEvent(ByRef<::GlobalNamespace::OVRPlugin::EventDataBuffer> eventDataBuffer);
     // static public System.UInt64 GetNativeOpenXRInstance()
-    // Offset: 0x16DB750
+    // Offset: 0x1713060
     static uint64_t GetNativeOpenXRInstance();
     // static public System.UInt64 GetNativeOpenXRSession()
-    // Offset: 0x16DB86C
+    // Offset: 0x171317C
     static uint64_t GetNativeOpenXRSession();
     // static public System.Boolean SetKeyboardOverlayUV(OVRPlugin/Vector2f uv)
-    // Offset: 0x16DB988
+    // Offset: 0x1713298
     static bool SetKeyboardOverlayUV(::GlobalNamespace::OVRPlugin::Vector2f uv);
   }; // OVRPlugin
   #pragma pack(pop)

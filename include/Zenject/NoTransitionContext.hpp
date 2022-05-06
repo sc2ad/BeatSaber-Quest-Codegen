@@ -45,15 +45,7 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoTransitionContext : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Zenject.NoTransitionInstaller _noScenesTransitionInstaller
     // Size: 0x8
     // Offset: 0x18
@@ -64,32 +56,26 @@ namespace Zenject {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Zenject.NoTransitionInstaller _noScenesTransitionInstaller
-    ::Zenject::NoTransitionInstaller*& dyn__noScenesTransitionInstaller();
+    [[deprecated("Use field access instead!")]] ::Zenject::NoTransitionInstaller*& dyn__noScenesTransitionInstaller();
     // public System.Action`1<Zenject.DiContainer> get_installMethod()
-    // Offset: 0x1BDB328
+    // Offset: 0x1C15910
     ::System::Action_1<::Zenject::DiContainer*>* get_installMethod();
     // public System.Action`1<Zenject.DiContainer> get_postInstallMethod()
-    // Offset: 0x1BDB3A8
+    // Offset: 0x1C15990
     ::System::Action_1<::Zenject::DiContainer*>* get_postInstallMethod();
-    // protected System.Void Awake()
-    // Offset: 0x1BDB428
-    void Awake();
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1BDB4B0
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1BDB4A8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C15A90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoTransitionContext* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::NoTransitionContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoTransitionContext*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x1C15A10
+    void Awake();
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1C15A98
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.NoTransitionContext
   #pragma pack(pop)
   static check_size<sizeof(NoTransitionContext), 24 + sizeof(::Zenject::NoTransitionInstaller*)> __Zenject_NoTransitionContextSizeCheck;
@@ -112,6 +98,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::A
     return ::il2cpp_utils::FindMethod(classof(Zenject::NoTransitionContext*), "get_postInstallMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Zenject::NoTransitionContext::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::NoTransitionContext::Awake
 // Il2CppName: Awake
 template<>
@@ -128,7 +118,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::NoTransitionContext*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::NoTransitionContext::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

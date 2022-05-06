@@ -25,15 +25,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveData::MultiplayerModeSettings : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 createServerNumberOfPlayers
     // Size: 0x4
     // Offset: 0x10
@@ -68,19 +60,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.Int32 createServerNumberOfPlayers
-    int& dyn_createServerNumberOfPlayers();
+    [[deprecated("Use field access instead!")]] int& dyn_createServerNumberOfPlayers();
     // Get instance field reference: public System.String quickPlayDifficulty
-    ::StringW& dyn_quickPlayDifficulty();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_quickPlayDifficulty();
     // Get instance field reference: public System.Byte[] quickPlaySongPackMask
-    ::ArrayW<uint8_t>& dyn_quickPlaySongPackMask();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_quickPlaySongPackMask();
     // Get instance field reference: public System.String quickPlaySongPackMaskSerializedName
-    ::StringW& dyn_quickPlaySongPackMaskSerializedName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_quickPlaySongPackMaskSerializedName();
     // Get instance field reference: public System.Boolean quickPlayEnableLevelSelection
-    bool& dyn_quickPlayEnableLevelSelection();
+    [[deprecated("Use field access instead!")]] bool& dyn_quickPlayEnableLevelSelection();
     // public System.Void .ctor()
-    // Offset: 0x13715AC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D48F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::MultiplayerModeSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::MultiplayerModeSettings::.ctor");

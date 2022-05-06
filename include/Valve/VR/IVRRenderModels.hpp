@@ -181,41 +181,41 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._LoadRenderModel_Async LoadRenderModel_Async
-    ::Valve::VR::IVRRenderModels::_LoadRenderModel_Async*& dyn_LoadRenderModel_Async();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRRenderModels::_LoadRenderModel_Async*& dyn_LoadRenderModel_Async();
     // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._FreeRenderModel FreeRenderModel
-    ::Valve::VR::IVRRenderModels::_FreeRenderModel*& dyn_FreeRenderModel();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRRenderModels::_FreeRenderModel*& dyn_FreeRenderModel();
     // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._LoadTexture_Async LoadTexture_Async
-    ::Valve::VR::IVRRenderModels::_LoadTexture_Async*& dyn_LoadTexture_Async();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRRenderModels::_LoadTexture_Async*& dyn_LoadTexture_Async();
     // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._FreeTexture FreeTexture
-    ::Valve::VR::IVRRenderModels::_FreeTexture*& dyn_FreeTexture();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRRenderModels::_FreeTexture*& dyn_FreeTexture();
     // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._LoadTextureD3D11_Async LoadTextureD3D11_Async
-    ::Valve::VR::IVRRenderModels::_LoadTextureD3D11_Async*& dyn_LoadTextureD3D11_Async();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRRenderModels::_LoadTextureD3D11_Async*& dyn_LoadTextureD3D11_Async();
     // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._LoadIntoTextureD3D11_Async LoadIntoTextureD3D11_Async
-    ::Valve::VR::IVRRenderModels::_LoadIntoTextureD3D11_Async*& dyn_LoadIntoTextureD3D11_Async();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRRenderModels::_LoadIntoTextureD3D11_Async*& dyn_LoadIntoTextureD3D11_Async();
     // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._FreeTextureD3D11 FreeTextureD3D11
-    ::Valve::VR::IVRRenderModels::_FreeTextureD3D11*& dyn_FreeTextureD3D11();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRRenderModels::_FreeTextureD3D11*& dyn_FreeTextureD3D11();
     // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._GetRenderModelName GetRenderModelName
-    ::Valve::VR::IVRRenderModels::_GetRenderModelName*& dyn_GetRenderModelName();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRRenderModels::_GetRenderModelName*& dyn_GetRenderModelName();
     // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._GetRenderModelCount GetRenderModelCount
-    ::Valve::VR::IVRRenderModels::_GetRenderModelCount*& dyn_GetRenderModelCount();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRRenderModels::_GetRenderModelCount*& dyn_GetRenderModelCount();
     // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._GetComponentCount GetComponentCount
-    ::Valve::VR::IVRRenderModels::_GetComponentCount*& dyn_GetComponentCount();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRRenderModels::_GetComponentCount*& dyn_GetComponentCount();
     // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._GetComponentName GetComponentName
-    ::Valve::VR::IVRRenderModels::_GetComponentName*& dyn_GetComponentName();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRRenderModels::_GetComponentName*& dyn_GetComponentName();
     // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._GetComponentButtonMask GetComponentButtonMask
-    ::Valve::VR::IVRRenderModels::_GetComponentButtonMask*& dyn_GetComponentButtonMask();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRRenderModels::_GetComponentButtonMask*& dyn_GetComponentButtonMask();
     // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._GetComponentRenderModelName GetComponentRenderModelName
-    ::Valve::VR::IVRRenderModels::_GetComponentRenderModelName*& dyn_GetComponentRenderModelName();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRRenderModels::_GetComponentRenderModelName*& dyn_GetComponentRenderModelName();
     // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._GetComponentState GetComponentState
-    ::Valve::VR::IVRRenderModels::_GetComponentState*& dyn_GetComponentState();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRRenderModels::_GetComponentState*& dyn_GetComponentState();
     // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._RenderModelHasComponent RenderModelHasComponent
-    ::Valve::VR::IVRRenderModels::_RenderModelHasComponent*& dyn_RenderModelHasComponent();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRRenderModels::_RenderModelHasComponent*& dyn_RenderModelHasComponent();
     // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._GetRenderModelThumbnailURL GetRenderModelThumbnailURL
-    ::Valve::VR::IVRRenderModels::_GetRenderModelThumbnailURL*& dyn_GetRenderModelThumbnailURL();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRRenderModels::_GetRenderModelThumbnailURL*& dyn_GetRenderModelThumbnailURL();
     // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._GetRenderModelOriginalPath GetRenderModelOriginalPath
-    ::Valve::VR::IVRRenderModels::_GetRenderModelOriginalPath*& dyn_GetRenderModelOriginalPath();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRRenderModels::_GetRenderModelOriginalPath*& dyn_GetRenderModelOriginalPath();
     // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._GetRenderModelErrorNameFromEnum GetRenderModelErrorNameFromEnum
-    ::Valve::VR::IVRRenderModels::_GetRenderModelErrorNameFromEnum*& dyn_GetRenderModelErrorNameFromEnum();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRRenderModels::_GetRenderModelErrorNameFromEnum*& dyn_GetRenderModelErrorNameFromEnum();
   }; // Valve.VR.IVRRenderModels
   #pragma pack(pop)
   static check_size<sizeof(IVRRenderModels), 136 + sizeof(::Valve::VR::IVRRenderModels::_GetRenderModelErrorNameFromEnum*)> __Valve_VR_IVRRenderModelsSizeCheck;

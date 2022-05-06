@@ -89,23 +89,23 @@ namespace System {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int16 EventType
-    int16_t& dyn_EventType();
+    [[deprecated("Use field access instead!")]] int16_t& dyn_EventType();
     // Get instance field reference: public System.Boolean KeyDown
-    bool& dyn_KeyDown();
+    [[deprecated("Use field access instead!")]] bool& dyn_KeyDown();
     // Get instance field reference: public System.Int16 RepeatCount
-    int16_t& dyn_RepeatCount();
+    [[deprecated("Use field access instead!")]] int16_t& dyn_RepeatCount();
     // Get instance field reference: public System.Int16 VirtualKeyCode
-    int16_t& dyn_VirtualKeyCode();
+    [[deprecated("Use field access instead!")]] int16_t& dyn_VirtualKeyCode();
     // Get instance field reference: public System.Int16 VirtualScanCode
-    int16_t& dyn_VirtualScanCode();
+    [[deprecated("Use field access instead!")]] int16_t& dyn_VirtualScanCode();
     // Get instance field reference: public System.Char Character
-    ::Il2CppChar& dyn_Character();
+    [[deprecated("Use field access instead!")]] ::Il2CppChar& dyn_Character();
     // Get instance field reference: public System.Int32 ControlKeyState
-    int& dyn_ControlKeyState();
+    [[deprecated("Use field access instead!")]] int& dyn_ControlKeyState();
     // Get instance field reference: private System.Int32 pad1
-    int& dyn_pad1();
+    [[deprecated("Use field access instead!")]] int& dyn_pad1();
     // Get instance field reference: private System.Boolean pad2
-    bool& dyn_pad2();
+    [[deprecated("Use field access instead!")]] bool& dyn_pad2();
   }; // System.InputRecord
   #pragma pack(pop)
   static check_size<sizeof(InputRecord), 20 + sizeof(bool)> __System_InputRecordSizeCheck;

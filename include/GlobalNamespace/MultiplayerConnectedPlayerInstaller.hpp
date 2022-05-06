@@ -51,15 +51,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerConnectedPlayerInstaller : public ::Zenject::MonoInstaller {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MultiplayerConnectedPlayerSongTimeSyncController _connectedPlayerAudioTimeSyncControllerPrefab
     // Size: 0x8
     // Offset: 0x20
@@ -72,7 +64,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager* connectedPlayerBeatmapObjectEventManagerPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1253A04
+    // [SpaceAttribute] Offset: 0x10D85E8
     // private MultiplayerConnectedPlayerGameNoteController _multiplayerGameNoteControllerPrefab
     // Size: 0x8
     // Offset: 0x30
@@ -109,14 +101,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController* multiplayerObstacleControllerPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerConnectedPlayerObstacleController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253A8C
+    // [InjectAttribute] Offset: 0x10D8670
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x60
     ::GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253A9C
+    // [InjectAttribute] Offset: 0x10D8680
     // private readonly MultiplayerPlayerStartState _localPlayerStartState
     // Size: 0x4
     // Offset: 0x68
@@ -125,14 +117,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::MultiplayerPlayerStartState) == 0x4);
     // Padding between fields: localPlayerStartState and: sceneSetupData
     char __padding9[0x4] = {};
-    // [InjectAttribute] Offset: 0x1253AAC
+    // [InjectAttribute] Offset: 0x10D8690
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x70
     ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253ABC
+    // [InjectAttribute] Offset: 0x10D86A0
     // private readonly PlayersSpecificSettingsAtGameStartModel _playersSpecificSettingsAtGameStartModel
     // Size: 0x8
     // Offset: 0x78
@@ -141,46 +133,38 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*) == 0x8);
     public:
     // Get instance field reference: private MultiplayerConnectedPlayerSongTimeSyncController _connectedPlayerAudioTimeSyncControllerPrefab
-    ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*& dyn__connectedPlayerAudioTimeSyncControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*& dyn__connectedPlayerAudioTimeSyncControllerPrefab();
     // Get instance field reference: private MultiplayerConnectedPlayerBeatmapObjectEventManager _connectedPlayerBeatmapObjectEventManagerPrefab
-    ::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager*& dyn__connectedPlayerBeatmapObjectEventManagerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager*& dyn__connectedPlayerBeatmapObjectEventManagerPrefab();
     // Get instance field reference: private MultiplayerConnectedPlayerGameNoteController _multiplayerGameNoteControllerPrefab
-    ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*& dyn__multiplayerGameNoteControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*& dyn__multiplayerGameNoteControllerPrefab();
     // Get instance field reference: private MultiplayerConnectedPlayerGameNoteController _multiplayerBurstSliderHeadGameNoteControllerPrefab
-    ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*& dyn__multiplayerBurstSliderHeadGameNoteControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*& dyn__multiplayerBurstSliderHeadGameNoteControllerPrefab();
     // Get instance field reference: private MultiplayerConnectedPlayerGameNoteController _multiplayerBurstSliderGameNoteControllerPrefab
-    ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*& dyn__multiplayerBurstSliderGameNoteControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*& dyn__multiplayerBurstSliderGameNoteControllerPrefab();
     // Get instance field reference: private MultiplayerConnectedPlayerGameNoteController _multiplayerBurstSliderFillControllerPrefab
-    ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*& dyn__multiplayerBurstSliderFillControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*& dyn__multiplayerBurstSliderFillControllerPrefab();
     // Get instance field reference: private MultiplayerConnectedPlayerBombNoteController _multiplayerBombNoteControllerPrefab
-    ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController*& dyn__multiplayerBombNoteControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController*& dyn__multiplayerBombNoteControllerPrefab();
     // Get instance field reference: private MultiplayerConnectedPlayerObstacleController _multiplayerObstacleControllerPrefab
-    ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController*& dyn__multiplayerObstacleControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController*& dyn__multiplayerObstacleControllerPrefab();
     // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
-    ::GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // Get instance field reference: private readonly MultiplayerPlayerStartState _localPlayerStartState
-    ::GlobalNamespace::MultiplayerPlayerStartState& dyn__localPlayerStartState();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerPlayerStartState& dyn__localPlayerStartState();
     // Get instance field reference: private readonly GameplayCoreSceneSetupData _sceneSetupData
-    ::GlobalNamespace::GameplayCoreSceneSetupData*& dyn__sceneSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayCoreSceneSetupData*& dyn__sceneSetupData();
     // Get instance field reference: private readonly PlayersSpecificSettingsAtGameStartModel _playersSpecificSettingsAtGameStartModel
-    ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& dyn__playersSpecificSettingsAtGameStartModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& dyn__playersSpecificSettingsAtGameStartModel();
     // public System.Void .ctor()
-    // Offset: 0x13D4F08
-    // Implemented from: Zenject.MonoInstaller
-    // Base method: System.Void MonoInstaller::.ctor()
-    // Base method: System.Void MonoInstallerBase::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D13B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x13D43E8
+    // Offset: 0x13D0894
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

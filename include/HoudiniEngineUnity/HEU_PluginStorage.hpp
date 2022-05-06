@@ -58,15 +58,7 @@ namespace HoudiniEngineUnity {
     // Nested type: ::HoudiniEngineUnity::HEU_PluginStorage::StoreDataArray_1<T>
     template<typename T>
     class StoreDataArray_1;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.Dictionary`2<System.String,HoudiniEngineUnity.HEU_PluginStorage/HoudiniEngineUnity.StoreData> _dataMap
     // Size: 0x8
     // Offset: 0x10
@@ -109,25 +101,32 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.String PluginSettingsVersion
     static void _set_PluginSettingsVersion(::StringW value);
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,HoudiniEngineUnity.HEU_PluginStorage/HoudiniEngineUnity.StoreData> _dataMap
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_PluginStorage::StoreData*>*& dyn__dataMap();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_PluginStorage::StoreData*>*& dyn__dataMap();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.String> _envPathMap
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn__envPathMap();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn__envPathMap();
     // Get instance field reference: private System.Boolean _requiresSave
-    bool& dyn__requiresSave();
+    [[deprecated("Use field access instead!")]] bool& dyn__requiresSave();
     // public System.Boolean get_RequiresSave()
-    // Offset: 0x1AC65FC
+    // Offset: 0x1B01BE4
     bool get_RequiresSave();
     // static public HoudiniEngineUnity.HEU_PluginStorage get_Instance()
-    // Offset: 0x1AC20AC
+    // Offset: 0x1AFD694
     static ::HoudiniEngineUnity::HEU_PluginStorage* get_Instance();
+    // public System.Void .ctor()
+    // Offset: 0x1B01CBC
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static HEU_PluginStorage* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_PluginStorage::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<HEU_PluginStorage*, creationType>()));
+    }
     // public System.Collections.Generic.Dictionary`2<System.String,System.String> GetEnvironmentPathMap()
-    // Offset: 0x1AC65F4
+    // Offset: 0x1B01BDC
     ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetEnvironmentPathMap();
     // static public System.Void InstantiateAndLoad()
-    // Offset: 0x1AC6604
+    // Offset: 0x1B01BEC
     static void InstantiateAndLoad();
     // static public System.Void SetCurrentCulture(System.Boolean useInvariant)
-    // Offset: 0x1AC5874
+    // Offset: 0x1B00E5C
     static void SetCurrentCulture(bool useInvariant);
     // private T[] GetJSONArray(System.String jsonArray)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -139,95 +138,86 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(this, ___generic__method, jsonArray);
     }
     // public System.Void Set(System.String key, System.Boolean value)
-    // Offset: 0x1AC27B4
+    // Offset: 0x1AFDD9C
     void Set(::StringW key, bool value);
     // public System.Void Set(System.String key, System.Int32 value)
-    // Offset: 0x1AC4070
+    // Offset: 0x1AFF658
     void Set(::StringW key, int value);
     // public System.Void Set(System.String key, System.Int64 value)
-    // Offset: 0x1AC7474
+    // Offset: 0x1B02A5C
     void Set(::StringW key, int64_t value);
     // public System.Void Set(System.String key, System.Single value)
-    // Offset: 0x1AC35B8
+    // Offset: 0x1AFEBA0
     void Set(::StringW key, float value);
     // public System.Void Set(System.String key, System.String value)
-    // Offset: 0x1AC2238
+    // Offset: 0x1AFD820
     void Set(::StringW key, ::StringW value);
     // public System.Void Set(System.String key, System.Collections.Generic.List`1<System.String> values, System.Char delimiter)
-    // Offset: 0x1AC49F8
+    // Offset: 0x1AFFFE0
     void Set(::StringW key, ::System::Collections::Generic::List_1<::StringW>* values, ::Il2CppChar delimiter);
     // public System.Boolean Get(System.String key, out System.Boolean value, System.Boolean defaultValue)
-    // Offset: 0x1AC2664
+    // Offset: 0x1AFDC4C
     bool Get(::StringW key, ByRef<bool> value, bool defaultValue);
     // public System.Boolean Get(System.String key, out System.Int32 value, System.Int32 defaultValue)
-    // Offset: 0x1AC3F20
+    // Offset: 0x1AFF508
     bool Get(::StringW key, ByRef<int> value, int defaultValue);
     // public System.Boolean Get(System.String key, out System.Int64 value, System.Int64 defaultValue)
-    // Offset: 0x1AC753C
+    // Offset: 0x1B02B24
     bool Get(::StringW key, ByRef<int64_t> value, int64_t defaultValue);
     // public System.Boolean Get(System.String key, out System.Single value, System.Single defaultValue)
-    // Offset: 0x1AC342C
+    // Offset: 0x1AFEA14
     bool Get(::StringW key, ByRef<float> value, float defaultValue);
     // public System.Boolean Get(System.String key, out System.String value, System.String defaultValue)
-    // Offset: 0x1AC2110
+    // Offset: 0x1AFD6F8
     bool Get(::StringW key, ByRef<::StringW> value, ::StringW defaultValue);
     // public System.Boolean Get(System.String key, out System.Collections.Generic.List`1<System.String> values, System.Char delimiter)
-    // Offset: 0x1AC4808
+    // Offset: 0x1AFFDF0
     bool Get(::StringW key, ByRef<::System::Collections::Generic::List_1<::StringW>*> values, ::Il2CppChar delimiter);
     // private System.Void MarkDirtyForSave()
-    // Offset: 0x1AC7470
+    // Offset: 0x1B02A58
     void MarkDirtyForSave();
     // static public System.Void SaveIfRequired()
-    // Offset: 0x1AC7630
+    // Offset: 0x1B02C18
     static void SaveIfRequired();
     // static public System.String SettingsFilePath()
-    // Offset: 0x1AC7A98
+    // Offset: 0x1B03080
     static ::StringW SettingsFilePath();
     // public System.Boolean SavePluginData()
-    // Offset: 0x1AC7698
+    // Offset: 0x1B02C80
     bool SavePluginData();
     // public System.Boolean LoadPluginData()
-    // Offset: 0x1AC6744
+    // Offset: 0x1B01D2C
     bool LoadPluginData();
     // private System.Boolean ReadFromEditorPrefs()
-    // Offset: 0x1AC7B64
+    // Offset: 0x1B0314C
     bool ReadFromEditorPrefs();
     // static public System.Void ClearPluginData()
-    // Offset: 0x1AC7B6C
+    // Offset: 0x1B03154
     static void ClearPluginData();
     // static public System.Void LoadFromSavedFile()
-    // Offset: 0x1AC7C14
+    // Offset: 0x1B031FC
     static void LoadFromSavedFile();
     // static public System.String SessionFilePath()
-    // Offset: 0x1AC7C74
+    // Offset: 0x1B0325C
     static ::StringW SessionFilePath();
     // static public System.Void SaveAllSessionData(System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_SessionBase> allSessions)
-    // Offset: 0x1AC7D40
+    // Offset: 0x1B03328
     static void SaveAllSessionData(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_SessionBase*>* allSessions);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_SessionData> LoadAllSessionData()
-    // Offset: 0x1AC7D44
+    // Offset: 0x1B0332C
     static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_SessionData*>* LoadAllSessionData();
     // static public System.Void DeleteAllSavedSessionData()
-    // Offset: 0x1AC7DA8
+    // Offset: 0x1B03390
     static void DeleteAllSavedSessionData();
     // public System.Void LoadAssetEnvironmentPaths()
-    // Offset: 0x1AC22D4
+    // Offset: 0x1AFD8BC
     void LoadAssetEnvironmentPaths();
     // public System.String ConvertRealPathToEnvKeyedPath(System.String inPath)
-    // Offset: 0x1AC7DAC
+    // Offset: 0x1B03394
     ::StringW ConvertRealPathToEnvKeyedPath(::StringW inPath);
     // public System.String ConvertEnvKeyedPathToReal(System.String inPath)
-    // Offset: 0x1AC7F30
+    // Offset: 0x1B03518
     ::StringW ConvertEnvKeyedPathToReal(::StringW inPath);
-    // public System.Void .ctor()
-    // Offset: 0x1AC66D4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HEU_PluginStorage* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_PluginStorage::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<HEU_PluginStorage*, creationType>()));
-    }
   }; // HoudiniEngineUnity.HEU_PluginStorage
   #pragma pack(pop)
   static check_size<sizeof(HEU_PluginStorage), 32 + sizeof(bool)> __HoudiniEngineUnity_HEU_PluginStorageSizeCheck;
@@ -250,6 +240,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEn
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginStorage*), "get_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginStorage::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginStorage::GetEnvironmentPathMap
 // Il2CppName: GetEnvironmentPathMap
 template<>
@@ -528,7 +522,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginStorage*), "ConvertEnvKeyedPathToReal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inPath});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginStorage::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

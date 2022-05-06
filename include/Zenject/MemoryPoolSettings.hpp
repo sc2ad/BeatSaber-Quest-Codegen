@@ -36,15 +36,7 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class MemoryPoolSettings : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 InitialSize
     // Size: 0x4
     // Offset: 0x10
@@ -75,44 +67,46 @@ namespace Zenject {
     // Set static field: static public readonly Zenject.MemoryPoolSettings Default
     static void _set_Default(::Zenject::MemoryPoolSettings* value);
     // Get instance field reference: public System.Int32 InitialSize
-    int& dyn_InitialSize();
+    [[deprecated("Use field access instead!")]] int& dyn_InitialSize();
     // Get instance field reference: public System.Int32 MaxSize
-    int& dyn_MaxSize();
+    [[deprecated("Use field access instead!")]] int& dyn_MaxSize();
     // Get instance field reference: public Zenject.PoolExpandMethods ExpandMethod
-    ::Zenject::PoolExpandMethods& dyn_ExpandMethod();
+    [[deprecated("Use field access instead!")]] ::Zenject::PoolExpandMethods& dyn_ExpandMethod();
     // Get instance field reference: public System.Boolean ShowExpandWarning
-    bool& dyn_ShowExpandWarning();
+    [[deprecated("Use field access instead!")]] bool& dyn_ShowExpandWarning();
+    // public System.Void .ctor()
+    // Offset: 0x1C1430C
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static MemoryPoolSettings* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MemoryPoolSettings::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<MemoryPoolSettings*, creationType>()));
+    }
     // public System.Void .ctor(System.Int32 initialSize, System.Int32 maxSize, Zenject.PoolExpandMethods expandMethod, System.Boolean showExpandWarning)
-    // Offset: 0x1BD9D60
+    // Offset: 0x1C14348
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemoryPoolSettings* New_ctor(int initialSize, int maxSize, ::Zenject::PoolExpandMethods expandMethod, bool showExpandWarning) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MemoryPoolSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryPoolSettings*, creationType>(initialSize, maxSize, expandMethod, showExpandWarning)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1BD9DB4
+    // Offset: 0x1C1439C
     static void _cctor();
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1BD9E30
+    // Offset: 0x1C14418
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1BD9EA4
+    // Offset: 0x1C1448C
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
-    // public System.Void .ctor()
-    // Offset: 0x1BD9D24
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MemoryPoolSettings* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MemoryPoolSettings::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<MemoryPoolSettings*, creationType>()));
-    }
   }; // Zenject.MemoryPoolSettings
   #pragma pack(pop)
   static check_size<sizeof(MemoryPoolSettings), 28 + sizeof(bool)> __Zenject_MemoryPoolSettingsSizeCheck;
   static_assert(sizeof(MemoryPoolSettings) == 0x1D);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::MemoryPoolSettings::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::MemoryPoolSettings::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -142,7 +136,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::MemoryPoolSettings*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::MemoryPoolSettings::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

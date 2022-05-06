@@ -60,7 +60,7 @@ namespace RootMotion {
     // Set static field: static public RootMotion.Axis Z
     static void _set_Z(::RootMotion::Axis value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // RootMotion.Axis
   #pragma pack(pop)
   static check_size<sizeof(Axis), 0 + sizeof(int)> __RootMotion_AxisSizeCheck;

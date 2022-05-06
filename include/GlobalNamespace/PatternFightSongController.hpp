@@ -106,35 +106,27 @@ namespace GlobalNamespace {
       // Set static field: static public PatternFightSongController/GameplayPhase ReplayThisPlayerPattern
       static void _set_ReplayThisPlayerPattern(::GlobalNamespace::PatternFightSongController::GameplayPhase value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // PatternFightSongController/GameplayPhase
     #pragma pack(pop)
     static check_size<sizeof(PatternFightSongController::GameplayPhase), 0 + sizeof(int)> __GlobalNamespace_PatternFightSongController_GameplayPhaseSizeCheck;
     static_assert(sizeof(PatternFightSongController::GameplayPhase) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x12562EC
+    // [InjectAttribute] Offset: 0x10DAED0
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0x12562FC
+    // [InjectAttribute] Offset: 0x10DAEE0
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x125630C
+    // [InjectAttribute] Offset: 0x10DAEF0
     // private readonly PatternFightSongController/InitData _initData
     // Size: 0x8
     // Offset: 0x30
@@ -185,68 +177,63 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kPhaseLengthInBeats
     static void _set_kPhaseLengthInBeats(float value);
     // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
-    ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
-    ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // Get instance field reference: private readonly PatternFightSongController/InitData _initData
-    ::GlobalNamespace::PatternFightSongController::InitData*& dyn__initData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PatternFightSongController::InitData*& dyn__initData();
     // Get instance field reference: private BeatmapData _beatmapData
-    ::GlobalNamespace::BeatmapData*& dyn__beatmapData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapData*& dyn__beatmapData();
     // Get instance field reference: private PatternFightSongController/GameplayPhase _gameplayPhase
-    ::GlobalNamespace::PatternFightSongController::GameplayPhase& dyn__gameplayPhase();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PatternFightSongController::GameplayPhase& dyn__gameplayPhase();
     // Get instance field reference: private System.Int32 _gameplayPhaseNumber
-    int& dyn__gameplayPhaseNumber();
+    [[deprecated("Use field access instead!")]] int& dyn__gameplayPhaseNumber();
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<NoteData> _thisPlayerSourcePatternNoteData
-    ::System::Collections::Generic::HashSet_1<::GlobalNamespace::NoteData*>*& dyn__thisPlayerSourcePatternNoteData();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::GlobalNamespace::NoteData*>*& dyn__thisPlayerSourcePatternNoteData();
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<NoteData> _thisPlayerDefinedPatternNoteData
-    ::System::Collections::Generic::HashSet_1<::GlobalNamespace::NoteData*>*& dyn__thisPlayerDefinedPatternNoteData();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::GlobalNamespace::NoteData*>*& dyn__thisPlayerDefinedPatternNoteData();
     // protected System.Void Start()
-    // Offset: 0x12EE0A4
+    // Offset: 0x135F05C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x12EE1F0
+    // Offset: 0x135F1A8
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x12EE288
+    // Offset: 0x135F240
     void Update();
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x12EE604
+    // Offset: 0x135F5BC
     void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
     // private System.Void NoteWasMissed(NoteController noteController)
-    // Offset: 0x12EE868
+    // Offset: 0x135F820
     void NoteWasMissed(::GlobalNamespace::NoteController* noteController);
     // private System.Void CreatePattern(System.Single time)
-    // Offset: 0x12EE338
+    // Offset: 0x135F2F0
     void CreatePattern(float time);
     // public System.Void StartSong(System.Single startTimeOffset)
-    // Offset: 0x12EE1D4
+    // Offset: 0x135F18C
     void StartSong(float startTimeOffset);
     // public System.Void .ctor()
-    // Offset: 0x12EE9E8
+    // Offset: 0x135F9A0
     // Implemented from: SongController
     // Base method: System.Void SongController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PatternFightSongController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PatternFightSongController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PatternFightSongController*, creationType>()));
     }
     // public override System.Void StopSong()
-    // Offset: 0x12EE994
+    // Offset: 0x135F94C
     // Implemented from: SongController
     // Base method: System.Void SongController::StopSong()
     void StopSong();
     // public override System.Void PauseSong()
-    // Offset: 0x12EE9B0
+    // Offset: 0x135F968
     // Implemented from: SongController
     // Base method: System.Void SongController::PauseSong()
     void PauseSong();
     // public override System.Void ResumeSong()
-    // Offset: 0x12EE9CC
+    // Offset: 0x135F984
     // Implemented from: SongController
     // Base method: System.Void SongController::ResumeSong()
     void ResumeSong();

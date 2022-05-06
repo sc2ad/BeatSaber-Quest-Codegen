@@ -66,15 +66,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class GameScenesManager::$ScenesTransitionCoroutine$d__38 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -193,70 +185,70 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Object <>2__current
-    ::Il2CppObject*& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$$2__current();
     // Get instance field reference: public ScenesTransitionSetupDataSO newScenesTransitionSetupData
-    ::GlobalNamespace::ScenesTransitionSetupDataSO*& dyn_newScenesTransitionSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ScenesTransitionSetupDataSO*& dyn_newScenesTransitionSetupData();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> scenesToDismiss
-    ::System::Collections::Generic::List_1<::StringW>*& dyn_scenesToDismiss();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn_scenesToDismiss();
     // Get instance field reference: public GameScenesManager <>4__this
-    ::GlobalNamespace::GameScenesManager*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> scenesToPresent
-    ::System::Collections::Generic::List_1<::StringW>*& dyn_scenesToPresent();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn_scenesToPresent();
     // Get instance field reference: public GameScenesManager/ScenePresentType presentType
-    ::GlobalNamespace::GameScenesManager::ScenePresentType& dyn_presentType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager::ScenePresentType& dyn_presentType();
     // Get instance field reference: public System.Single minDuration
-    float& dyn_minDuration();
+    [[deprecated("Use field access instead!")]] float& dyn_minDuration();
     // Get instance field reference: public System.Action afterMinDurationCallback
-    ::System::Action*& dyn_afterMinDurationCallback();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_afterMinDurationCallback();
     // Get instance field reference: public System.Action`1<Zenject.DiContainer> extraBindingsCallback
-    ::System::Action_1<::Zenject::DiContainer*>*& dyn_extraBindingsCallback();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::Zenject::DiContainer*>*& dyn_extraBindingsCallback();
     // Get instance field reference: private GameScenesManager/<>c__DisplayClass38_0 <>8__1
-    ::GlobalNamespace::GameScenesManager::$$c__DisplayClass38_0*& dyn_$$8__1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager::$$c__DisplayClass38_0*& dyn_$$8__1();
     // Get instance field reference: public GameScenesManager/SceneDismissType dismissType
-    ::GlobalNamespace::GameScenesManager::SceneDismissType& dyn_dismissType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager::SceneDismissType& dyn_dismissType();
     // Get instance field reference: public System.Action`1<Zenject.DiContainer> finishCallback
-    ::System::Action_1<::Zenject::DiContainer*>*& dyn_finishCallback();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::Zenject::DiContainer*>*& dyn_finishCallback();
     // Get instance field reference: private UnityEngine.EventSystems.EventSystem <eventSystem>5__2
-    ::UnityEngine::EventSystems::EventSystem*& dyn_$eventSystem$5__2();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::EventSystems::EventSystem*& dyn_$eventSystem$5__2();
     // Get instance field reference: private System.Single <startTime>5__3
-    float& dyn_$startTime$5__3();
+    [[deprecated("Use field access instead!")]] float& dyn_$startTime$5__3();
     // Get instance field reference: private System.String <sceneName>5__4
-    ::StringW& dyn_$sceneName$5__4();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$sceneName$5__4();
     // Get instance field reference: private UnityEngine.AsyncOperation <loadSceneOperation>5__5
-    ::UnityEngine::AsyncOperation*& dyn_$loadSceneOperation$5__5();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AsyncOperation*& dyn_$loadSceneOperation$5__5();
     // Get instance field reference: private System.Int32 <sceneNum>5__6
-    int& dyn_$sceneNum$5__6();
+    [[deprecated("Use field access instead!")]] int& dyn_$sceneNum$5__6();
     // Get instance field reference: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<System.String> <>7__wrap6
-    typename ::System::Collections::Generic::List_1<::StringW>::Enumerator& dyn_$$7__wrap6();
+    [[deprecated("Use field access instead!")]] typename ::System::Collections::Generic::List_1<::StringW>::Enumerator& dyn_$$7__wrap6();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1571D0C
+    // Offset: 0x15A861C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1571D74
+    // Offset: 0x15A8684
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x156F728
+    // Offset: 0x15A6038
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameScenesManager::$ScenesTransitionCoroutine$d__38* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameScenesManager::$ScenesTransitionCoroutine$d__38::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameScenesManager::$ScenesTransitionCoroutine$d__38*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1570E30
+    // Offset: 0x15A7740
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1570F18
+    // Offset: 0x15A7828
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x1570E68
+    // Offset: 0x15A7778
     void $$m__Finally1();
     // private System.Void <>m__Finally2()
-    // Offset: 0x1570EC0
+    // Offset: 0x15A77D0
     void $$m__Finally2();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1571D14
+    // Offset: 0x15A8624
     void System_Collections_IEnumerator_Reset();
   }; // GameScenesManager/<ScenesTransitionCoroutine>d__38
   // WARNING Not writing size check since size may be invalid!

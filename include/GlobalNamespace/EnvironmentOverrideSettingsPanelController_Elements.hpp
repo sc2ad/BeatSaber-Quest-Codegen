@@ -48,15 +48,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnvironmentOverrideSettingsPanelController::Elements : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public TMPro.TextMeshProUGUI label
     // Size: 0x8
     // Offset: 0x10
@@ -83,23 +75,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::EnvironmentInfoSO*>*) == 0x8);
     public:
     // Get instance field reference: public TMPro.TextMeshProUGUI label
-    ::TMPro::TextMeshProUGUI*& dyn_label();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn_label();
     // Get instance field reference: public HMUI.SimpleTextDropdown simpleTextDropdown
-    ::HMUI::SimpleTextDropdown*& dyn_simpleTextDropdown();
+    [[deprecated("Use field access instead!")]] ::HMUI::SimpleTextDropdown*& dyn_simpleTextDropdown();
     // Get instance field reference: public EnvironmentTypeSO environmentType
-    ::GlobalNamespace::EnvironmentTypeSO*& dyn_environmentType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentTypeSO*& dyn_environmentType();
     // Get instance field reference: private System.Collections.Generic.List`1<EnvironmentInfoSO> <environmentInfos>k__BackingField
-    ::System::Collections::Generic::List_1<::GlobalNamespace::EnvironmentInfoSO*>*& dyn_$environmentInfos$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::EnvironmentInfoSO*>*& dyn_$environmentInfos$k__BackingField();
     // public System.Collections.Generic.List`1<EnvironmentInfoSO> get_environmentInfos()
-    // Offset: 0x1384A08
+    // Offset: 0x136C5E4
     ::System::Collections::Generic::List_1<::GlobalNamespace::EnvironmentInfoSO*>* get_environmentInfos();
     // public System.Void set_environmentInfos(System.Collections.Generic.List`1<EnvironmentInfoSO> value)
-    // Offset: 0x1384A10
+    // Offset: 0x136C5EC
     void set_environmentInfos(::System::Collections::Generic::List_1<::GlobalNamespace::EnvironmentInfoSO*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1384A18
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x136C5F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentOverrideSettingsPanelController::Elements* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements::.ctor");

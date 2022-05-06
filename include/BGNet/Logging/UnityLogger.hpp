@@ -40,31 +40,33 @@ namespace BGNet::Logging {
     operator ::BGNet::Logging::Debug::ILogger() noexcept {
       return *reinterpret_cast<::BGNet::Logging::Debug::ILogger*>(this);
     }
-    // public System.Void LogInfo(System.String message)
-    // Offset: 0x2A97158
-    void LogInfo(::StringW message);
-    // public System.Void LogError(System.String message)
-    // Offset: 0x2A9715C
-    void LogError(::StringW message);
-    // public System.Void LogException(System.Exception exception, System.String message)
-    // Offset: 0x2A971C4
-    void LogException(::System::Exception* exception, ::StringW message);
-    // public System.Void LogWarning(System.String message)
-    // Offset: 0x2A97274
-    void LogWarning(::StringW message);
     // public System.Void .ctor()
-    // Offset: 0x2A96908
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2AEC654
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityLogger* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Logging::UnityLogger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityLogger*, creationType>()));
     }
+    // public System.Void LogInfo(System.String message)
+    // Offset: 0x2AECEA4
+    void LogInfo(::StringW message);
+    // public System.Void LogError(System.String message)
+    // Offset: 0x2AECEA8
+    void LogError(::StringW message);
+    // public System.Void LogException(System.Exception exception, System.String message)
+    // Offset: 0x2AECF10
+    void LogException(::System::Exception* exception, ::StringW message);
+    // public System.Void LogWarning(System.String message)
+    // Offset: 0x2AECFC0
+    void LogWarning(::StringW message);
   }; // BGNet.Logging.UnityLogger
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: BGNet::Logging::UnityLogger::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: BGNet::Logging::UnityLogger::LogInfo
 // Il2CppName: LogInfo
 template<>
@@ -102,7 +104,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BGNet
     return ::il2cpp_utils::FindMethod(classof(BGNet::Logging::UnityLogger*), "LogWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }
 };
-// Writing MetadataGetter for method: BGNet::Logging::UnityLogger::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

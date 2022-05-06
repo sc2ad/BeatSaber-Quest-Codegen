@@ -25,15 +25,7 @@ namespace BeatmapSaveDataVersion3 {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapSaveData::ColorBoostEventData : public ::BeatmapSaveDataVersion3::BeatmapSaveData::BeatmapSaveDataItem {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean o
     // Size: 0x1
     // Offset: 0x14
@@ -44,12 +36,12 @@ namespace BeatmapSaveDataVersion3 {
     // Deleting conversion operator: operator float
     constexpr operator float() const noexcept = delete;
     // Get instance field reference: public System.Boolean o
-    bool& dyn_o();
+    [[deprecated("Use field access instead!")]] bool& dyn_o();
     // public System.Boolean get_boost()
-    // Offset: 0x281B2C8
+    // Offset: 0x286D888
     bool get_boost();
     // public System.Void .ctor(System.Single beat, System.Boolean boost)
-    // Offset: 0x281AF0C
+    // Offset: 0x286D4CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::ColorBoostEventData* New_ctor(float beat, bool boost) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::ColorBoostEventData::.ctor");

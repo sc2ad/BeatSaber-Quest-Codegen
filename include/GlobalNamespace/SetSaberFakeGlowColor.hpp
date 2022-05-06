@@ -43,23 +43,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SetSaberFakeGlowColor : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Color _tintColor
     // Size: 0x10
     // Offset: 0x18
     ::UnityEngine::Color tintColor;
     // Field size check
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
-    // [SpaceAttribute] Offset: 0x1255FD4
-    // [NullAllowed] Offset: 0x1255FD4
+    // [SpaceAttribute] Offset: 0x10DABB8
+    // [NullAllowed] Offset: 0x10DABB8
     // private SaberTypeObject _saberTypeObject
     // Size: 0x8
     // Offset: 0x28
@@ -72,7 +64,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::Parametric3SliceSpriteController* parametric3SliceSprite;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Parametric3SliceSpriteController*) == 0x8);
-    // [InjectAttribute] Offset: 0x125602C
+    // [InjectAttribute] Offset: 0x10DAC10
     // private ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x38
@@ -89,37 +81,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Color _tintColor
-    ::UnityEngine::Color& dyn__tintColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__tintColor();
     // Get instance field reference: private SaberTypeObject _saberTypeObject
-    ::GlobalNamespace::SaberTypeObject*& dyn__saberTypeObject();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberTypeObject*& dyn__saberTypeObject();
     // Get instance field reference: private Parametric3SliceSpriteController _parametric3SliceSprite
-    ::GlobalNamespace::Parametric3SliceSpriteController*& dyn__parametric3SliceSprite();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Parametric3SliceSpriteController*& dyn__parametric3SliceSprite();
     // Get instance field reference: private ColorManager _colorManager
-    ::GlobalNamespace::ColorManager*& dyn__colorManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorManager*& dyn__colorManager();
     // Get instance field reference: private SaberType _saberType
-    ::GlobalNamespace::SaberType& dyn__saberType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberType& dyn__saberType();
     // public System.Void set_saberType(SaberType value)
-    // Offset: 0x141D114
+    // Offset: 0x137F498
     void set_saberType(::GlobalNamespace::SaberType value);
-    // protected System.Void Start()
-    // Offset: 0x142A0AC
-    void Start();
-    // private System.Void SetColors()
-    // Offset: 0x142A04C
-    void SetColors();
     // public System.Void .ctor()
-    // Offset: 0x142A13C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x137F594
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SetSaberFakeGlowColor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SetSaberFakeGlowColor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SetSaberFakeGlowColor*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x137F504
+    void Start();
+    // private System.Void SetColors()
+    // Offset: 0x137F4A4
+    void SetColors();
   }; // SetSaberFakeGlowColor
   #pragma pack(pop)
   static check_size<sizeof(SetSaberFakeGlowColor), 64 + sizeof(::GlobalNamespace::SaberType)> __GlobalNamespace_SetSaberFakeGlowColorSizeCheck;
@@ -135,6 +121,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SetSaberFakeGlowColor*), "set_saberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SetSaberFakeGlowColor::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SetSaberFakeGlowColor::Start
 // Il2CppName: Start
 template<>
@@ -151,7 +141,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SetSaberFakeGlowColor*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SetSaberFakeGlowColor::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

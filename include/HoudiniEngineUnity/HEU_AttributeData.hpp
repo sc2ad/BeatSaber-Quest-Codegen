@@ -97,7 +97,7 @@ namespace HoudiniEngineUnity {
       // Set static field: static public HoudiniEngineUnity.HEU_AttributeData/HoudiniEngineUnity.AttributeType MAX
       static void _set_MAX(::HoudiniEngineUnity::HEU_AttributeData::AttributeType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // HoudiniEngineUnity.HEU_AttributeData/HoudiniEngineUnity.AttributeType
     #pragma pack(pop)
     static check_size<sizeof(HEU_AttributeData::AttributeType), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_AttributeData_AttributeTypeSizeCheck;
@@ -145,20 +145,12 @@ namespace HoudiniEngineUnity {
       // Set static field: static public HoudiniEngineUnity.HEU_AttributeData/HoudiniEngineUnity.AttributeState LOCAL_DIRTY
       static void _set_LOCAL_DIRTY(::HoudiniEngineUnity::HEU_AttributeData::AttributeState value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // HoudiniEngineUnity.HEU_AttributeData/HoudiniEngineUnity.AttributeState
     #pragma pack(pop)
     static check_size<sizeof(HEU_AttributeData::AttributeState), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_AttributeData_AttributeStateSizeCheck;
     static_assert(sizeof(HEU_AttributeData::AttributeState) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public HoudiniEngineUnity.HAPI_AttributeInfo _attributeInfo
     // Size: 0x24
     // Offset: 0x10
@@ -211,37 +203,35 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributeData*>*>(this);
     }
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AttributeInfo _attributeInfo
-    ::HoudiniEngineUnity::HAPI_AttributeInfo& dyn__attributeInfo();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_AttributeInfo& dyn__attributeInfo();
     // Get instance field reference: public System.String _name
-    ::StringW& dyn__name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__name();
     // Get instance field reference: public HoudiniEngineUnity.HEU_AttributeData/HoudiniEngineUnity.AttributeType _attributeType
-    ::HoudiniEngineUnity::HEU_AttributeData::AttributeType& dyn__attributeType();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_AttributeData::AttributeType& dyn__attributeType();
     // Get instance field reference: public System.Int32[] _intValues
-    ::ArrayW<int>& dyn__intValues();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__intValues();
     // Get instance field reference: public System.Single[] _floatValues
-    ::ArrayW<float>& dyn__floatValues();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn__floatValues();
     // Get instance field reference: public System.String[] _stringValues
-    ::ArrayW<::StringW>& dyn__stringValues();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn__stringValues();
     // Get instance field reference: public HoudiniEngineUnity.HEU_AttributeData/HoudiniEngineUnity.AttributeState _attributeState
-    ::HoudiniEngineUnity::HEU_AttributeData::AttributeState& dyn__attributeState();
-    // public System.Boolean IsColorAttribute()
-    // Offset: 0x16AE688
-    bool IsColorAttribute();
-    // public System.Void CopyValuesTo(HoudiniEngineUnity.HEU_AttributeData destAttrData)
-    // Offset: 0x16AE700
-    void CopyValuesTo(::HoudiniEngineUnity::HEU_AttributeData* destAttrData);
-    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_AttributeData other)
-    // Offset: 0x16AE820
-    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_AttributeData* other);
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_AttributeData::AttributeState& dyn__attributeState();
     // public System.Void .ctor()
-    // Offset: 0x16AEA98
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16E63A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_AttributeData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_AttributeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_AttributeData*, creationType>()));
     }
+    // public System.Boolean IsColorAttribute()
+    // Offset: 0x16E5F98
+    bool IsColorAttribute();
+    // public System.Void CopyValuesTo(HoudiniEngineUnity.HEU_AttributeData destAttrData)
+    // Offset: 0x16E6010
+    void CopyValuesTo(::HoudiniEngineUnity::HEU_AttributeData* destAttrData);
+    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_AttributeData other)
+    // Offset: 0x16E6130
+    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_AttributeData* other);
   }; // HoudiniEngineUnity.HEU_AttributeData
   #pragma pack(pop)
   static check_size<sizeof(HEU_AttributeData), 96 + sizeof(::HoudiniEngineUnity::HEU_AttributeData::AttributeState)> __HoudiniEngineUnity_HEU_AttributeDataSizeCheck;
@@ -252,6 +242,10 @@ DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_AttributeData::AttributeState, 
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_AttributeData::AttributeType, "HoudiniEngineUnity", "HEU_AttributeData/AttributeType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AttributeData::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AttributeData::IsColorAttribute
 // Il2CppName: IsColorAttribute
 template<>
@@ -278,7 +272,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_AttributeData*), "IsEquivalentTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AttributeData::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

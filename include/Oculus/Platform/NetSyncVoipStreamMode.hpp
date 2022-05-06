@@ -41,21 +41,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x12400C8
+    // [DescriptionAttribute] Offset: 0x10C4BA0
     // static field const value: static public Oculus.Platform.NetSyncVoipStreamMode Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.NetSyncVoipStreamMode Unknown
     static ::Oculus::Platform::NetSyncVoipStreamMode _get_Unknown();
     // Set static field: static public Oculus.Platform.NetSyncVoipStreamMode Unknown
     static void _set_Unknown(::Oculus::Platform::NetSyncVoipStreamMode value);
-    // [DescriptionAttribute] Offset: 0x1240100
+    // [DescriptionAttribute] Offset: 0x10C4BD8
     // static field const value: static public Oculus.Platform.NetSyncVoipStreamMode Ambisonic
     static constexpr const int Ambisonic = 1;
     // Get static field: static public Oculus.Platform.NetSyncVoipStreamMode Ambisonic
     static ::Oculus::Platform::NetSyncVoipStreamMode _get_Ambisonic();
     // Set static field: static public Oculus.Platform.NetSyncVoipStreamMode Ambisonic
     static void _set_Ambisonic(::Oculus::Platform::NetSyncVoipStreamMode value);
-    // [DescriptionAttribute] Offset: 0x1240138
+    // [DescriptionAttribute] Offset: 0x10C4C10
     // static field const value: static public Oculus.Platform.NetSyncVoipStreamMode Mono
     static constexpr const int Mono = 2;
     // Get static field: static public Oculus.Platform.NetSyncVoipStreamMode Mono
@@ -63,7 +63,7 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.NetSyncVoipStreamMode Mono
     static void _set_Mono(::Oculus::Platform::NetSyncVoipStreamMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Oculus.Platform.NetSyncVoipStreamMode
   #pragma pack(pop)
   static check_size<sizeof(NetSyncVoipStreamMode), 0 + sizeof(int)> __Oculus_Platform_NetSyncVoipStreamModeSizeCheck;

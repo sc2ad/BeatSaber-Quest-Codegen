@@ -164,59 +164,59 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::MultiplayerAvatarData>*>(this);
     }
     // Get instance field reference: public readonly System.String headTopId
-    ::StringW& dyn_headTopId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_headTopId();
     // Get instance field reference: public readonly UnityEngine.Color32 headTopPrimaryColor
-    ::UnityEngine::Color32& dyn_headTopPrimaryColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color32& dyn_headTopPrimaryColor();
     // Get instance field reference: public readonly UnityEngine.Color32 headTopSecondaryColor
-    ::UnityEngine::Color32& dyn_headTopSecondaryColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color32& dyn_headTopSecondaryColor();
     // Get instance field reference: public readonly System.String glassesId
-    ::StringW& dyn_glassesId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_glassesId();
     // Get instance field reference: public readonly UnityEngine.Color32 glassesColor
-    ::UnityEngine::Color32& dyn_glassesColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color32& dyn_glassesColor();
     // Get instance field reference: public readonly System.String facialHairId
-    ::StringW& dyn_facialHairId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_facialHairId();
     // Get instance field reference: public readonly UnityEngine.Color32 facialHairColor
-    ::UnityEngine::Color32& dyn_facialHairColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color32& dyn_facialHairColor();
     // Get instance field reference: public readonly System.String handsId
-    ::StringW& dyn_handsId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_handsId();
     // Get instance field reference: public readonly UnityEngine.Color32 handsColor
-    ::UnityEngine::Color32& dyn_handsColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color32& dyn_handsColor();
     // Get instance field reference: public readonly System.String clothesId
-    ::StringW& dyn_clothesId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_clothesId();
     // Get instance field reference: public readonly UnityEngine.Color32 clothesPrimaryColor
-    ::UnityEngine::Color32& dyn_clothesPrimaryColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color32& dyn_clothesPrimaryColor();
     // Get instance field reference: public readonly UnityEngine.Color32 clothesSecondaryColor
-    ::UnityEngine::Color32& dyn_clothesSecondaryColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color32& dyn_clothesSecondaryColor();
     // Get instance field reference: public readonly UnityEngine.Color32 clothesDetailColor
-    ::UnityEngine::Color32& dyn_clothesDetailColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color32& dyn_clothesDetailColor();
     // Get instance field reference: public readonly System.String skinColorId
-    ::StringW& dyn_skinColorId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_skinColorId();
     // Get instance field reference: public readonly System.String eyesId
-    ::StringW& dyn_eyesId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_eyesId();
     // Get instance field reference: public readonly System.String mouthId
-    ::StringW& dyn_mouthId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_mouthId();
     // public System.Void .ctor(System.String headTopId, UnityEngine.Color32 headTopPrimaryColor, UnityEngine.Color32 headTopSecondaryColor, System.String glassesId, UnityEngine.Color32 glassesColor, System.String facialHairId, UnityEngine.Color32 facialHairColor, System.String handsId, UnityEngine.Color32 handsColor, System.String clothesId, UnityEngine.Color32 clothesPrimaryColor, UnityEngine.Color32 clothesSecondaryColor, UnityEngine.Color32 clothesDetailColor, System.String skinColorId, System.String eyesId, System.String mouthId)
-    // Offset: 0x29BF7EC
+    // Offset: 0x2A01B60
     // ABORTED: conflicts with another method.  MultiplayerAvatarData(::StringW headTopId, ::UnityEngine::Color32 headTopPrimaryColor, ::UnityEngine::Color32 headTopSecondaryColor, ::StringW glassesId, ::UnityEngine::Color32 glassesColor, ::StringW facialHairId, ::UnityEngine::Color32 facialHairColor, ::StringW handsId, ::UnityEngine::Color32 handsColor, ::StringW clothesId, ::UnityEngine::Color32 clothesPrimaryColor, ::UnityEngine::Color32 clothesSecondaryColor, ::UnityEngine::Color32 clothesDetailColor, ::StringW skinColorId, ::StringW eyesId, ::StringW mouthId);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x29BF838
+    // Offset: 0x2A01BAC
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public MultiplayerAvatarData CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29BF99C
+    // Offset: 0x2A01D10
     ::GlobalNamespace::MultiplayerAvatarData CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
     // static public MultiplayerAvatarData Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29BF9A4
+    // Offset: 0x2A01D18
     static ::GlobalNamespace::MultiplayerAvatarData Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(MultiplayerAvatarData other)
-    // Offset: 0x29BFB78
+    // Offset: 0x2A01EEC
     bool Equals(::GlobalNamespace::MultiplayerAvatarData other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x29BFF68
+    // Offset: 0x2A022DC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x29C0008
+    // Offset: 0x2A0237C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

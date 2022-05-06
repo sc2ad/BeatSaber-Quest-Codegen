@@ -27,15 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameServerListItem : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.String serverName
     // Size: 0x8
     // Offset: 0x10
@@ -62,15 +54,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public readonly System.String serverName
-    ::StringW& dyn_serverName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_serverName();
     // Get instance field reference: public readonly System.Int32 capacity
-    int& dyn_capacity();
+    [[deprecated("Use field access instead!")]] int& dyn_capacity();
     // Get instance field reference: public readonly System.Int32 occupied
-    int& dyn_occupied();
+    [[deprecated("Use field access instead!")]] int& dyn_occupied();
     // Get instance field reference: public readonly System.Boolean password
-    bool& dyn_password();
+    [[deprecated("Use field access instead!")]] bool& dyn_password();
     // public System.Void .ctor(System.String serverName, System.Int32 capacity, System.Int32 occupied, System.Boolean password)
-    // Offset: 0x13D7724
+    // Offset: 0x13E41C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerListItem* New_ctor(::StringW serverName, int capacity, int occupied, bool password) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerListItem::.ctor");

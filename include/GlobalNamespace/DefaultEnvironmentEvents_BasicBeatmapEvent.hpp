@@ -25,15 +25,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultEnvironmentEvents::BasicBeatmapEvent : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BasicBeatmapEventType _eventType
     // Size: 0x4
     // Offset: 0x10
@@ -54,24 +46,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private BasicBeatmapEventType _eventType
-    ::GlobalNamespace::BasicBeatmapEventType& dyn__eventType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BasicBeatmapEventType& dyn__eventType();
     // Get instance field reference: private System.Int32 _value
-    int& dyn__value();
+    [[deprecated("Use field access instead!")]] int& dyn__value();
     // Get instance field reference: private System.Single _floatValue
-    float& dyn__floatValue();
+    [[deprecated("Use field access instead!")]] float& dyn__floatValue();
     // public BasicBeatmapEventType get_eventType()
-    // Offset: 0x140E478
+    // Offset: 0x142E224
     ::GlobalNamespace::BasicBeatmapEventType get_eventType();
     // public System.Int32 get_value()
-    // Offset: 0x140E480
+    // Offset: 0x142E22C
     int get_value();
     // public System.Single get_floatValue()
-    // Offset: 0x140E488
+    // Offset: 0x142E234
     float get_floatValue();
     // public System.Void .ctor()
-    // Offset: 0x140E490
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x142E23C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultEnvironmentEvents::BasicBeatmapEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DefaultEnvironmentEvents::BasicBeatmapEvent::.ctor");

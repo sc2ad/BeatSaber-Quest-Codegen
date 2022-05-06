@@ -38,15 +38,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardEntry : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _scoreText
     // Size: 0x8
     // Offset: 0x18
@@ -75,35 +67,33 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _scoreText
-    ::TMPro::TextMeshProUGUI*& dyn__scoreText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__scoreText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _playerNameText
-    ::TMPro::TextMeshProUGUI*& dyn__playerNameText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__playerNameText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _rankText
-    ::TMPro::TextMeshProUGUI*& dyn__rankText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__rankText();
     // Get instance field reference: private UnityEngine.Color _color
-    ::UnityEngine::Color& dyn__color();
-    // public System.Void SetScore(System.Int32 score, System.String playerName, System.Int32 rank, System.Boolean highlighted, System.Boolean showSeparator)
-    // Offset: 0x13B6658
-    void SetScore(int score, ::StringW playerName, int rank, bool highlighted, bool showSeparator);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // public System.Void .ctor()
-    // Offset: 0x13B67F8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13B1CA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardEntry* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardEntry*, creationType>()));
     }
+    // public System.Void SetScore(System.Int32 score, System.String playerName, System.Int32 rank, System.Boolean highlighted, System.Boolean showSeparator)
+    // Offset: 0x13B1B04
+    void SetScore(int score, ::StringW playerName, int rank, bool highlighted, bool showSeparator);
   }; // LeaderboardEntry
   #pragma pack(pop)
   static check_size<sizeof(LeaderboardEntry), 48 + sizeof(::UnityEngine::Color)> __GlobalNamespace_LeaderboardEntrySizeCheck;
   static_assert(sizeof(LeaderboardEntry) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardEntry::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardEntry::SetScore
 // Il2CppName: SetScore
 template<>
@@ -117,7 +107,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardEntry*), "SetScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{score, playerName, rank, highlighted, showSeparator});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LeaderboardEntry::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

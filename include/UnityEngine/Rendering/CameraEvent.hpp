@@ -192,7 +192,7 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.CameraEvent AfterHaloAndLensFlares
     static void _set_AfterHaloAndLensFlares(::UnityEngine::Rendering::CameraEvent value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.Rendering.CameraEvent
   #pragma pack(pop)
   static check_size<sizeof(CameraEvent), 0 + sizeof(int)> __UnityEngine_Rendering_CameraEventSizeCheck;

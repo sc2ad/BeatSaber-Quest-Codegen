@@ -25,15 +25,7 @@ namespace UnityEngine::TestTools::Utils {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class StackTraceFilter::$$c__DisplayClass2_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String line
     // Size: 0x8
     // Offset: 0x10
@@ -46,25 +38,27 @@ namespace UnityEngine::TestTools::Utils {
       return line;
     }
     // Get instance field reference: public System.String line
-    ::StringW& dyn_line();
-    // System.Boolean <Filter>b__0(System.String s)
-    // Offset: 0x2A7D86C
-    bool $Filter$b__0(::StringW s);
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_line();
     // public System.Void .ctor()
-    // Offset: 0x2A7D684
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2AC7334
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackTraceFilter::$$c__DisplayClass2_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackTraceFilter::$$c__DisplayClass2_0*, creationType>()));
     }
+    // System.Boolean <Filter>b__0(System.String s)
+    // Offset: 0x2AC751C
+    bool $Filter$b__0(::StringW s);
   }; // UnityEngine.TestTools.Utils.StackTraceFilter/UnityEngine.TestTools.Utils.<>c__DisplayClass2_0
   #pragma pack(pop)
   static check_size<sizeof(StackTraceFilter::$$c__DisplayClass2_0), 16 + sizeof(::StringW)> __UnityEngine_TestTools_Utils_StackTraceFilter_$$c__DisplayClass2_0SizeCheck;
   static_assert(sizeof(StackTraceFilter::$$c__DisplayClass2_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0::$Filter$b__0
 // Il2CppName: <Filter>b__0
 template<>
@@ -74,7 +68,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0*), "<Filter>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

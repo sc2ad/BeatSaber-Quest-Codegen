@@ -110,22 +110,14 @@ namespace Zenject {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public Zenject.IMemoryPool Pool
-      ::Zenject::IMemoryPool*& dyn_Pool();
+      [[deprecated("Use field access instead!")]] ::Zenject::IMemoryPool*& dyn_Pool();
       // Get instance field reference: public System.Object Object
-      ::Il2CppObject*& dyn_Object();
+      [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_Object();
     }; // Zenject.DisposeBlock/Zenject.SpawnedObjectPoolPair
     #pragma pack(pop)
     static check_size<sizeof(DisposeBlock::SpawnedObjectPoolPair), 8 + sizeof(::Il2CppObject*)> __Zenject_DisposeBlock_SpawnedObjectPoolPairSizeCheck;
     static_assert(sizeof(DisposeBlock::SpawnedObjectPoolPair) == 0x10);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.List`1<System.IDisposable> _disposables
     // Size: 0x8
     // Offset: 0x10
@@ -148,20 +140,27 @@ namespace Zenject {
     // Set static field: static private readonly Zenject.StaticMemoryPool`1<Zenject.DisposeBlock> _pool
     static void _set__pool(::Zenject::StaticMemoryPool_1<::Zenject::DisposeBlock*>* value);
     // Get instance field reference: private System.Collections.Generic.List`1<System.IDisposable> _disposables
-    ::System::Collections::Generic::List_1<::System::IDisposable*>*& dyn__disposables();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::IDisposable*>*& dyn__disposables();
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.DisposeBlock/Zenject.SpawnedObjectPoolPair> _objectPoolPairs
-    ::System::Collections::Generic::List_1<::Zenject::DisposeBlock::SpawnedObjectPoolPair>*& dyn__objectPoolPairs();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Zenject::DisposeBlock::SpawnedObjectPoolPair>*& dyn__objectPoolPairs();
+    // public System.Void .ctor()
+    // Offset: 0x1E17884
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static DisposeBlock* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<DisposeBlock*, creationType>()));
+    }
     // static private System.Void .cctor()
-    // Offset: 0x1DDCFC0
+    // Offset: 0x1E1788C
     static void _cctor();
     // static private System.Void OnSpawned(Zenject.DisposeBlock that)
-    // Offset: 0x1DDCA80
+    // Offset: 0x1E1734C
     static void OnSpawned(::Zenject::DisposeBlock* that);
     // static private System.Void OnDespawned(Zenject.DisposeBlock that)
-    // Offset: 0x1DDCAB8
+    // Offset: 0x1E17384
     static void OnDespawned(::Zenject::DisposeBlock* that);
     // private System.Void LazyInitializeDisposableList()
-    // Offset: 0x1DDCD1C
+    // Offset: 0x1E175E8
     void LazyInitializeDisposableList();
     // public System.Void AddRange(System.Collections.Generic.IList`1<T> disposables)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -174,10 +173,10 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, disposables);
     }
     // public System.Void Add(System.IDisposable disposable)
-    // Offset: 0x1DDCDB0
+    // Offset: 0x1E1767C
     void Add(::System::IDisposable* disposable);
     // public System.Void Remove(System.IDisposable disposable)
-    // Offset: 0x1DDCE4C
+    // Offset: 0x1E17718
     void Remove(::System::IDisposable* disposable);
     // private System.Void StoreSpawnedObject(T obj, Zenject.IDespawnableMemoryPool`1<T> pool)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -279,20 +278,11 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<T>*, false>(this, ___generic__method);
     }
     // static public Zenject.DisposeBlock Spawn()
-    // Offset: 0x1DDCEB8
+    // Offset: 0x1E17784
     static ::Zenject::DisposeBlock* Spawn();
     // public System.Void Dispose()
-    // Offset: 0x1DDCF34
+    // Offset: 0x1E17800
     void Dispose();
-    // public System.Void .ctor()
-    // Offset: 0x1DDCFB8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DisposeBlock* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<DisposeBlock*, creationType>()));
-    }
   }; // Zenject.DisposeBlock
   #pragma pack(pop)
   static check_size<sizeof(DisposeBlock), 24 + sizeof(::System::Collections::Generic::List_1<::Zenject::DisposeBlock::SpawnedObjectPoolPair>*)> __Zenject_DisposeBlockSizeCheck;
@@ -301,6 +291,10 @@ namespace Zenject {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::DisposeBlock::SpawnedObjectPoolPair, "Zenject", "DisposeBlock/SpawnedObjectPoolPair");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::DisposeBlock::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::DisposeBlock::_cctor
 // Il2CppName: .cctor
 template<>
@@ -405,7 +399,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
     return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::DisposeBlock::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

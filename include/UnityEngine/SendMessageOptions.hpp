@@ -54,7 +54,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.SendMessageOptions DontRequireReceiver
     static void _set_DontRequireReceiver(::UnityEngine::SendMessageOptions value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.SendMessageOptions
   #pragma pack(pop)
   static check_size<sizeof(SendMessageOptions), 0 + sizeof(int)> __UnityEngine_SendMessageOptionsSizeCheck;

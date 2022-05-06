@@ -25,15 +25,7 @@ namespace MS::Internal::Xml::Cache {
   // [TokenAttribute] Offset: FFFFFFFF
   class XPathNodePageInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 pageNum
     // Size: 0x4
     // Offset: 0x10
@@ -54,19 +46,19 @@ namespace MS::Internal::Xml::Cache {
     static_assert(sizeof(::ArrayW<::MS::Internal::Xml::Cache::XPathNode>) == 0x8);
     public:
     // Get instance field reference: private System.Int32 pageNum
-    int& dyn_pageNum();
+    [[deprecated("Use field access instead!")]] int& dyn_pageNum();
     // Get instance field reference: private System.Int32 nodeCount
-    int& dyn_nodeCount();
+    [[deprecated("Use field access instead!")]] int& dyn_nodeCount();
     // Get instance field reference: private MS.Internal.Xml.Cache.XPathNode[] pageNext
-    ::ArrayW<::MS::Internal::Xml::Cache::XPathNode>& dyn_pageNext();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::MS::Internal::Xml::Cache::XPathNode>& dyn_pageNext();
     // public System.Int32 get_PageNumber()
-    // Offset: 0x1A7F454
+    // Offset: 0x1AB9A3C
     int get_PageNumber();
     // public System.Int32 get_NodeCount()
-    // Offset: 0x1A7F45C
+    // Offset: 0x1AB9A44
     int get_NodeCount();
     // public MS.Internal.Xml.Cache.XPathNode[] get_NextPage()
-    // Offset: 0x1A7F464
+    // Offset: 0x1AB9A4C
     ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> get_NextPage();
   }; // MS.Internal.Xml.Cache.XPathNodePageInfo
   #pragma pack(pop)

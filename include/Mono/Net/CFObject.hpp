@@ -31,15 +31,7 @@ namespace Mono::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class CFObject : public ::Il2CppObject/*, public ::System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.IntPtr <Handle>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -56,55 +48,55 @@ namespace Mono::Net {
       return Handle;
     }
     // Get instance field reference: private System.IntPtr <Handle>k__BackingField
-    ::System::IntPtr& dyn_$Handle$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_$Handle$k__BackingField();
     // public System.IntPtr get_Handle()
-    // Offset: 0x1A9AC8C
+    // Offset: 0x1AD5274
     ::System::IntPtr get_Handle();
     // private System.Void set_Handle(System.IntPtr value)
-    // Offset: 0x1A9AC94
+    // Offset: 0x1AD527C
     void set_Handle(::System::IntPtr value);
     // public System.Void .ctor(System.IntPtr handle, System.Boolean own)
-    // Offset: 0x1A97978
+    // Offset: 0x1AD1F60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CFObject* New_ctor(::System::IntPtr handle, bool own) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::CFObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CFObject*, creationType>(handle, own)));
     }
     // static public System.IntPtr dlopen(System.String path, System.Int32 mode)
-    // Offset: 0x1A97A94
+    // Offset: 0x1AD207C
     static ::System::IntPtr dlopen(::StringW path, int mode);
     // static private System.IntPtr dlsym(System.IntPtr handle, System.String symbol)
-    // Offset: 0x1A9AABC
+    // Offset: 0x1AD50A4
     static ::System::IntPtr dlsym(::System::IntPtr handle, ::StringW symbol);
     // static public System.Void dlclose(System.IntPtr handle)
-    // Offset: 0x1A97B40
+    // Offset: 0x1AD2128
     static void dlclose(::System::IntPtr handle);
     // static public System.IntPtr GetIndirect(System.IntPtr handle, System.String symbol)
-    // Offset: 0x1A97B3C
+    // Offset: 0x1AD2124
     static ::System::IntPtr GetIndirect(::System::IntPtr handle, ::StringW symbol);
     // static public System.IntPtr GetCFObjectHandle(System.IntPtr handle, System.String symbol)
-    // Offset: 0x1A9AB68
+    // Offset: 0x1AD5150
     static ::System::IntPtr GetCFObjectHandle(::System::IntPtr handle, ::StringW symbol);
     // static System.IntPtr CFRetain(System.IntPtr handle)
-    // Offset: 0x1A9AC9C
+    // Offset: 0x1AD5284
     static ::System::IntPtr CFRetain(::System::IntPtr handle);
     // private System.Void Retain()
-    // Offset: 0x1A9AC10
+    // Offset: 0x1AD51F8
     void Retain();
     // static System.Void CFRelease(System.IntPtr handle)
-    // Offset: 0x1A9AD18
+    // Offset: 0x1AD5300
     static void CFRelease(::System::IntPtr handle);
     // private System.Void Release()
-    // Offset: 0x1A9AD98
+    // Offset: 0x1AD5380
     void Release();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1A9ADA0
+    // Offset: 0x1AD5388
     void Dispose(bool disposing);
     // public System.Void Dispose()
-    // Offset: 0x1A98B00
+    // Offset: 0x1AD30E8
     void Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x1A9AC18
+    // Offset: 0x1AD5200
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

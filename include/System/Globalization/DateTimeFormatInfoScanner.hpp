@@ -105,20 +105,12 @@ namespace System::Globalization {
       // Set static field: static public System.Globalization.DateTimeFormatInfoScanner/System.Globalization.FoundDatePattern FoundYMDPatternFlag
       static void _set_FoundYMDPatternFlag(::System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // System.Globalization.DateTimeFormatInfoScanner/System.Globalization.FoundDatePattern
     #pragma pack(pop)
     static check_size<sizeof(DateTimeFormatInfoScanner::FoundDatePattern), 0 + sizeof(int)> __System_Globalization_DateTimeFormatInfoScanner_FoundDatePatternSizeCheck;
     static_assert(sizeof(DateTimeFormatInfoScanner::FoundDatePattern) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Collections.Generic.List`1<System.String> m_dateWords
     // Size: 0x8
     // Offset: 0x10
@@ -137,56 +129,56 @@ namespace System::Globalization {
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.String> s_knownWords
     static void _set_s_knownWords(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
     // Get instance field reference: System.Collections.Generic.List`1<System.String> m_dateWords
-    ::System::Collections::Generic::List_1<::StringW>*& dyn_m_dateWords();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn_m_dateWords();
     // Get instance field reference: private System.Globalization.DateTimeFormatInfoScanner/System.Globalization.FoundDatePattern m_ymdFlags
-    ::System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern& dyn_m_ymdFlags();
+    [[deprecated("Use field access instead!")]] ::System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern& dyn_m_ymdFlags();
     // static private System.Collections.Generic.Dictionary`2<System.String,System.String> get_KnownWords()
-    // Offset: 0x20EBC18
+    // Offset: 0x213648C
     static ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* get_KnownWords();
     // static System.Int32 SkipWhiteSpacesAndNonLetter(System.String pattern, System.Int32 currentIndex)
-    // Offset: 0x20EBF18
+    // Offset: 0x213678C
     static int SkipWhiteSpacesAndNonLetter(::StringW pattern, int currentIndex);
     // System.Void AddDateWordOrPostfix(System.String formatPostfix, System.String str)
-    // Offset: 0x20EC024
+    // Offset: 0x2136898
     void AddDateWordOrPostfix(::StringW formatPostfix, ::StringW str);
     // System.Int32 AddDateWords(System.String pattern, System.Int32 index, System.String formatPostfix)
-    // Offset: 0x20EC2FC
+    // Offset: 0x2136B70
     int AddDateWords(::StringW pattern, int index, ::StringW formatPostfix);
     // static System.Int32 ScanRepeatChar(System.String pattern, System.Char ch, System.Int32 index, out System.Int32 count)
-    // Offset: 0x20EC4E8
+    // Offset: 0x2136D5C
     static int ScanRepeatChar(::StringW pattern, ::Il2CppChar ch, int index, ByRef<int> count);
     // System.Void AddIgnorableSymbols(System.String text)
-    // Offset: 0x20EC214
+    // Offset: 0x2136A88
     void AddIgnorableSymbols(::StringW text);
     // System.Void ScanDateWord(System.String pattern)
-    // Offset: 0x20EC570
+    // Offset: 0x2136DE4
     void ScanDateWord(::StringW pattern);
     // System.String[] GetDateWordsOfDTFI(System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x20EC7A4
+    // Offset: 0x2137018
     ::ArrayW<::StringW> GetDateWordsOfDTFI(::System::Globalization::DateTimeFormatInfo* dtfi);
     // static System.Globalization.FORMATFLAGS GetFormatFlagGenitiveMonth(System.String[] monthNames, System.String[] genitveMonthNames, System.String[] abbrevMonthNames, System.String[] genetiveAbbrevMonthNames)
-    // Offset: 0x20ECA74
+    // Offset: 0x21372E8
     static ::System::Globalization::FORMATFLAGS GetFormatFlagGenitiveMonth(::ArrayW<::StringW> monthNames, ::ArrayW<::StringW> genitveMonthNames, ::ArrayW<::StringW> abbrevMonthNames, ::ArrayW<::StringW> genetiveAbbrevMonthNames);
     // static System.Globalization.FORMATFLAGS GetFormatFlagUseSpaceInMonthNames(System.String[] monthNames, System.String[] genitveMonthNames, System.String[] abbrevMonthNames, System.String[] genetiveAbbrevMonthNames)
-    // Offset: 0x20ECB74
+    // Offset: 0x21373E8
     static ::System::Globalization::FORMATFLAGS GetFormatFlagUseSpaceInMonthNames(::ArrayW<::StringW> monthNames, ::ArrayW<::StringW> genitveMonthNames, ::ArrayW<::StringW> abbrevMonthNames, ::ArrayW<::StringW> genetiveAbbrevMonthNames);
     // static System.Globalization.FORMATFLAGS GetFormatFlagUseSpaceInDayNames(System.String[] dayNames, System.String[] abbrevDayNames)
-    // Offset: 0x20ECFA4
+    // Offset: 0x2137818
     static ::System::Globalization::FORMATFLAGS GetFormatFlagUseSpaceInDayNames(::ArrayW<::StringW> dayNames, ::ArrayW<::StringW> abbrevDayNames);
     // static System.Globalization.FORMATFLAGS GetFormatFlagUseHebrewCalendar(System.Int32 calID)
-    // Offset: 0x20ECFE0
+    // Offset: 0x2137854
     static ::System::Globalization::FORMATFLAGS GetFormatFlagUseHebrewCalendar(int calID);
     // static private System.Boolean EqualStringArrays(System.String[] array1, System.String[] array2)
-    // Offset: 0x20ECAB8
+    // Offset: 0x213732C
     static bool EqualStringArrays(::ArrayW<::StringW> array1, ::ArrayW<::StringW> array2);
     // static private System.Boolean ArrayElementsHaveSpace(System.String[] array)
-    // Offset: 0x20ECE98
+    // Offset: 0x213770C
     static bool ArrayElementsHaveSpace(::ArrayW<::StringW> array);
     // static private System.Boolean ArrayElementsBeginWithDigit(System.String[] array)
-    // Offset: 0x20ECC24
+    // Offset: 0x2137498
     static bool ArrayElementsBeginWithDigit(::ArrayW<::StringW> array);
     // public System.Void .ctor()
-    // Offset: 0x20ECFF0
+    // Offset: 0x2137864
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

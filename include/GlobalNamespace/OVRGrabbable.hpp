@@ -46,15 +46,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRGrabbable : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected System.Boolean m_allowOffhandGrab
     // Size: 0x1
     // Offset: 0x18
@@ -111,76 +103,70 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: protected System.Boolean m_allowOffhandGrab
-    bool& dyn_m_allowOffhandGrab();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_allowOffhandGrab();
     // Get instance field reference: protected System.Boolean m_snapPosition
-    bool& dyn_m_snapPosition();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_snapPosition();
     // Get instance field reference: protected System.Boolean m_snapOrientation
-    bool& dyn_m_snapOrientation();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_snapOrientation();
     // Get instance field reference: protected UnityEngine.Transform m_snapOffset
-    ::UnityEngine::Transform*& dyn_m_snapOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_m_snapOffset();
     // Get instance field reference: protected UnityEngine.Collider[] m_grabPoints
-    ::ArrayW<::UnityEngine::Collider*>& dyn_m_grabPoints();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Collider*>& dyn_m_grabPoints();
     // Get instance field reference: protected System.Boolean m_grabbedKinematic
-    bool& dyn_m_grabbedKinematic();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_grabbedKinematic();
     // Get instance field reference: protected UnityEngine.Collider m_grabbedCollider
-    ::UnityEngine::Collider*& dyn_m_grabbedCollider();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Collider*& dyn_m_grabbedCollider();
     // Get instance field reference: protected OVRGrabber m_grabbedBy
-    ::GlobalNamespace::OVRGrabber*& dyn_m_grabbedBy();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRGrabber*& dyn_m_grabbedBy();
     // public System.Boolean get_allowOffhandGrab()
-    // Offset: 0x19B63BC
+    // Offset: 0x19EF9A4
     bool get_allowOffhandGrab();
     // public System.Boolean get_isGrabbed()
-    // Offset: 0x19B63C4
+    // Offset: 0x19EF9AC
     bool get_isGrabbed();
     // public System.Boolean get_snapPosition()
-    // Offset: 0x19B6434
+    // Offset: 0x19EFA1C
     bool get_snapPosition();
     // public System.Boolean get_snapOrientation()
-    // Offset: 0x19B643C
+    // Offset: 0x19EFA24
     bool get_snapOrientation();
     // public UnityEngine.Transform get_snapOffset()
-    // Offset: 0x19B6444
+    // Offset: 0x19EFA2C
     ::UnityEngine::Transform* get_snapOffset();
     // public OVRGrabber get_grabbedBy()
-    // Offset: 0x19B644C
+    // Offset: 0x19EFA34
     ::GlobalNamespace::OVRGrabber* get_grabbedBy();
     // public UnityEngine.Transform get_grabbedTransform()
-    // Offset: 0x19B6454
+    // Offset: 0x19EFA3C
     ::UnityEngine::Transform* get_grabbedTransform();
     // public UnityEngine.Rigidbody get_grabbedRigidbody()
-    // Offset: 0x19B6470
+    // Offset: 0x19EFA58
     ::UnityEngine::Rigidbody* get_grabbedRigidbody();
     // public UnityEngine.Collider[] get_grabPoints()
-    // Offset: 0x19B648C
+    // Offset: 0x19EFA74
     ::ArrayW<::UnityEngine::Collider*> get_grabPoints();
-    // public System.Void GrabBegin(OVRGrabber hand, UnityEngine.Collider grabPoint)
-    // Offset: 0x19B6494
-    void GrabBegin(::GlobalNamespace::OVRGrabber* hand, ::UnityEngine::Collider* grabPoint);
-    // public System.Void GrabEnd(UnityEngine.Vector3 linearVelocity, UnityEngine.Vector3 angularVelocity)
-    // Offset: 0x19B6518
-    void GrabEnd(::UnityEngine::Vector3 linearVelocity, ::UnityEngine::Vector3 angularVelocity);
-    // private System.Void Awake()
-    // Offset: 0x19B65F4
-    void Awake();
-    // protected System.Void Start()
-    // Offset: 0x19B6738
-    void Start();
-    // private System.Void OnDestroy()
-    // Offset: 0x19B67A4
-    void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x19B6900
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x19EFEE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRGrabbable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRGrabbable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRGrabbable*, creationType>()));
     }
+    // public System.Void GrabBegin(OVRGrabber hand, UnityEngine.Collider grabPoint)
+    // Offset: 0x19EFA7C
+    void GrabBegin(::GlobalNamespace::OVRGrabber* hand, ::UnityEngine::Collider* grabPoint);
+    // public System.Void GrabEnd(UnityEngine.Vector3 linearVelocity, UnityEngine.Vector3 angularVelocity)
+    // Offset: 0x19EFB00
+    void GrabEnd(::UnityEngine::Vector3 linearVelocity, ::UnityEngine::Vector3 angularVelocity);
+    // private System.Void Awake()
+    // Offset: 0x19EFBDC
+    void Awake();
+    // protected System.Void Start()
+    // Offset: 0x19EFD20
+    void Start();
+    // private System.Void OnDestroy()
+    // Offset: 0x19EFD8C
+    void OnDestroy();
   }; // OVRGrabbable
   #pragma pack(pop)
   static check_size<sizeof(OVRGrabbable), 64 + sizeof(::GlobalNamespace::OVRGrabber*)> __GlobalNamespace_OVRGrabbableSizeCheck;
@@ -259,6 +245,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabbable*), "get_grabPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::OVRGrabbable::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVRGrabbable::GrabBegin
 // Il2CppName: GrabBegin
 template<>
@@ -303,7 +293,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabbable*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OVRGrabbable::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

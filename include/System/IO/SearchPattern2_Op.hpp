@@ -26,15 +26,7 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class SearchPattern2::Op : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.IO.SearchPattern2/System.IO.OpCode Code
     // Size: 0x4
     // Offset: 0x10
@@ -57,13 +49,13 @@ namespace System::IO {
     static_assert(sizeof(::System::IO::SearchPattern2::Op*) == 0x8);
     public:
     // Get instance field reference: public System.IO.SearchPattern2/System.IO.OpCode Code
-    ::System::IO::SearchPattern2::OpCode& dyn_Code();
+    [[deprecated("Use field access instead!")]] ::System::IO::SearchPattern2::OpCode& dyn_Code();
     // Get instance field reference: public System.String Argument
-    ::StringW& dyn_Argument();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Argument();
     // Get instance field reference: public System.IO.SearchPattern2/System.IO.Op Next
-    ::System::IO::SearchPattern2::Op*& dyn_Next();
+    [[deprecated("Use field access instead!")]] ::System::IO::SearchPattern2::Op*& dyn_Next();
     // public System.Void .ctor(System.IO.SearchPattern2/System.IO.OpCode code)
-    // Offset: 0x1CB7B50
+    // Offset: 0x1CF40A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchPattern2::Op* New_ctor(::System::IO::SearchPattern2::OpCode code) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::SearchPattern2::Op::.ctor");

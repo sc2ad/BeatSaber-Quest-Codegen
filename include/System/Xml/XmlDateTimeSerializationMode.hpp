@@ -66,7 +66,7 @@ namespace System::Xml {
     // Set static field: static public System.Xml.XmlDateTimeSerializationMode RoundtripKind
     static void _set_RoundtripKind(::System::Xml::XmlDateTimeSerializationMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Xml.XmlDateTimeSerializationMode
   #pragma pack(pop)
   static check_size<sizeof(XmlDateTimeSerializationMode), 0 + sizeof(int)> __System_Xml_XmlDateTimeSerializationModeSizeCheck;

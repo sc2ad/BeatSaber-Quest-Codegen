@@ -37,15 +37,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
   // [TokenAttribute] Offset: FFFFFFFF
   class OpenPgpCfbBlockCipher : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IBlockCipher*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Byte[] IV
     // Size: 0x8
     // Offset: 0x10
@@ -94,52 +86,52 @@ namespace Org::BouncyCastle::Crypto::Modes {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IBlockCipher*>(this);
     }
     // Get instance field reference: private System.Byte[] IV
-    ::ArrayW<uint8_t>& dyn_IV();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_IV();
     // Get instance field reference: private System.Byte[] FR
-    ::ArrayW<uint8_t>& dyn_FR();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_FR();
     // Get instance field reference: private System.Byte[] FRE
-    ::ArrayW<uint8_t>& dyn_FRE();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_FRE();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
-    ::Org::BouncyCastle::Crypto::IBlockCipher*& dyn_cipher();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::IBlockCipher*& dyn_cipher();
     // Get instance field reference: private readonly System.Int32 blockSize
-    int& dyn_blockSize();
+    [[deprecated("Use field access instead!")]] int& dyn_blockSize();
     // Get instance field reference: private System.Int32 count
-    int& dyn_count();
+    [[deprecated("Use field access instead!")]] int& dyn_count();
     // Get instance field reference: private System.Boolean forEncryption
-    bool& dyn_forEncryption();
+    [[deprecated("Use field access instead!")]] bool& dyn_forEncryption();
     // public System.String get_AlgorithmName()
-    // Offset: 0x15BA930
+    // Offset: 0x15F0240
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x15BA9F4
+    // Offset: 0x15F0304
     bool get_IsPartialBlockOkay();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher)
-    // Offset: 0x15BA824
+    // Offset: 0x15F0134
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OpenPgpCfbBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Modes::OpenPgpCfbBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OpenPgpCfbBlockCipher*, creationType>(cipher)));
     }
     // public System.Int32 GetBlockSize()
-    // Offset: 0x15BA9FC
+    // Offset: 0x15F030C
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x15BAAB0
+    // Offset: 0x15F03C0
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x15BB768
+    // Offset: 0x15F1078
     void Reset();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x15BB840
+    // Offset: 0x15F1150
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // private System.Byte EncryptByte(System.Byte data, System.Int32 blockOff)
-    // Offset: 0x15BBA74
+    // Offset: 0x15F1384
     uint8_t EncryptByte(uint8_t data, int blockOff);
     // private System.Int32 EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x15BB138
+    // Offset: 0x15F0A48
     int EncryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
     // private System.Int32 DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x15BAAC0
+    // Offset: 0x15F03D0
     int DecryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
   }; // Org.BouncyCastle.Crypto.Modes.OpenPgpCfbBlockCipher
   #pragma pack(pop)

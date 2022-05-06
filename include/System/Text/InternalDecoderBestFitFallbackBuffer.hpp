@@ -36,15 +36,7 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class InternalDecoderBestFitFallbackBuffer : public ::System::Text::DecoderFallbackBuffer {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Char cBestFit
     // Size: 0x2
     // Offset: 0x20
@@ -79,48 +71,48 @@ namespace System::Text {
     // Set static field: static private System.Object s_InternalSyncObject
     static void _set_s_InternalSyncObject(::Il2CppObject* value);
     // Get instance field reference: System.Char cBestFit
-    ::Il2CppChar& dyn_cBestFit();
+    [[deprecated("Use field access instead!")]] ::Il2CppChar& dyn_cBestFit();
     // Get instance field reference: System.Int32 iCount
-    int& dyn_iCount();
+    [[deprecated("Use field access instead!")]] int& dyn_iCount();
     // Get instance field reference: System.Int32 iSize
-    int& dyn_iSize();
+    [[deprecated("Use field access instead!")]] int& dyn_iSize();
     // Get instance field reference: private System.Text.InternalDecoderBestFitFallback oFallback
-    ::System::Text::InternalDecoderBestFitFallback*& dyn_oFallback();
+    [[deprecated("Use field access instead!")]] ::System::Text::InternalDecoderBestFitFallback*& dyn_oFallback();
     // static private System.Object get_InternalSyncObject()
-    // Offset: 0x2028D2C
+    // Offset: 0x20725A0
     static ::Il2CppObject* get_InternalSyncObject();
     // public System.Void .ctor(System.Text.InternalDecoderBestFitFallback fallback)
-    // Offset: 0x2028B54
+    // Offset: 0x20723C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InternalDecoderBestFitFallbackBuffer* New_ctor(::System::Text::InternalDecoderBestFitFallback* fallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::InternalDecoderBestFitFallbackBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InternalDecoderBestFitFallbackBuffer*, creationType>(fallback)));
     }
     // private System.Char TryBestFit(System.Byte[] bytesCheck)
-    // Offset: 0x2028E08
+    // Offset: 0x207267C
     ::Il2CppChar TryBestFit(::ArrayW<uint8_t> bytesCheck);
     // public override System.Int32 get_Remaining()
-    // Offset: 0x2028F94
+    // Offset: 0x2072808
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Int32 DecoderFallbackBuffer::get_Remaining()
     int get_Remaining();
     // public override System.Boolean Fallback(System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x2028DBC
+    // Offset: 0x2072630
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Boolean DecoderFallbackBuffer::Fallback(System.Byte[] bytesUnknown, System.Int32 index)
     bool Fallback(::ArrayW<uint8_t> bytesUnknown, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x2028F54
+    // Offset: 0x20727C8
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Char DecoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();
     // public override System.Void Reset()
-    // Offset: 0x2028FA0
+    // Offset: 0x2072814
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Void DecoderFallbackBuffer::Reset()
     void Reset();
     // override System.Int32 InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
-    // Offset: 0x2028FB0
+    // Offset: 0x2072824
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Int32 DecoderFallbackBuffer::InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
     int InternalFallback(::ArrayW<uint8_t> bytes, uint8_t* pBytes);

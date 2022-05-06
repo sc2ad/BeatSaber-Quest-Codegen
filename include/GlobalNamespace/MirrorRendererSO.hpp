@@ -106,23 +106,23 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public readonly UnityEngine.Vector3 position
-      ::UnityEngine::Vector3& dyn_position();
+      [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_position();
       // Get instance field reference: public readonly UnityEngine.Quaternion rotation
-      ::UnityEngine::Quaternion& dyn_rotation();
+      [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_rotation();
       // Get instance field reference: public readonly System.Single fov
-      float& dyn_fov();
+      [[deprecated("Use field access instead!")]] float& dyn_fov();
       // Get instance field reference: public readonly System.Boolean stereoEnabled
-      bool& dyn_stereoEnabled();
+      [[deprecated("Use field access instead!")]] bool& dyn_stereoEnabled();
       // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, System.Single fov, System.Boolean stereoEnabled)
-      // Offset: 0x29E9C7C
+      // Offset: 0x2A40578
       // ABORTED: conflicts with another method.  CameraTransformData(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, float fov, bool stereoEnabled);
       // public override System.Boolean Equals(System.Object obj)
-      // Offset: 0x29EA938
+      // Offset: 0x2A41234
       // Implemented from: System.ValueType
       // Base method: System.Boolean ValueType::Equals(System.Object obj)
       bool Equals(::Il2CppObject* obj);
       // public override System.Int32 GetHashCode()
-      // Offset: 0x29EAAC0
+      // Offset: 0x2A413BC
       // Implemented from: System.ValueType
       // Base method: System.Int32 ValueType::GetHashCode()
       int GetHashCode();
@@ -130,15 +130,7 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(MirrorRendererSO::CameraTransformData), 32 + sizeof(bool)> __GlobalNamespace_MirrorRendererSO_CameraTransformDataSizeCheck;
     static_assert(sizeof(MirrorRendererSO::CameraTransformData) == 0x21);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.LayerMask _reflectLayers
     // Size: 0x4
     // Offset: 0x18
@@ -189,7 +181,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: enableBloomPrePass and: bloomPrePassRenderer
     char __padding7[0x6] = {};
-    // [SpaceAttribute] Offset: 0x12428BC
+    // [SpaceAttribute] Offset: 0x10C73A4
     // private BloomPrePassRendererSO _bloomPrePassRenderer
     // Size: 0x8
     // Offset: 0x38
@@ -262,89 +254,84 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kWaterLayer
     static void _set_kWaterLayer(int value);
     // Get instance field reference: private UnityEngine.LayerMask _reflectLayers
-    ::UnityEngine::LayerMask& dyn__reflectLayers();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::LayerMask& dyn__reflectLayers();
     // Get instance field reference: private System.Int32 _stereoTextureWidth
-    int& dyn__stereoTextureWidth();
+    [[deprecated("Use field access instead!")]] int& dyn__stereoTextureWidth();
     // Get instance field reference: private System.Int32 _stereoTextureHeight
-    int& dyn__stereoTextureHeight();
+    [[deprecated("Use field access instead!")]] int& dyn__stereoTextureHeight();
     // Get instance field reference: private System.Int32 _monoTextureWidth
-    int& dyn__monoTextureWidth();
+    [[deprecated("Use field access instead!")]] int& dyn__monoTextureWidth();
     // Get instance field reference: private System.Int32 _monoTextureHeight
-    int& dyn__monoTextureHeight();
+    [[deprecated("Use field access instead!")]] int& dyn__monoTextureHeight();
     // Get instance field reference: private System.Int32 _maxAntiAliasing
-    int& dyn__maxAntiAliasing();
+    [[deprecated("Use field access instead!")]] int& dyn__maxAntiAliasing();
     // Get instance field reference: private System.Boolean _disableDepthTexture
-    bool& dyn__disableDepthTexture();
+    [[deprecated("Use field access instead!")]] bool& dyn__disableDepthTexture();
     // Get instance field reference: private System.Boolean _enableBloomPrePass
-    bool& dyn__enableBloomPrePass();
+    [[deprecated("Use field access instead!")]] bool& dyn__enableBloomPrePass();
     // Get instance field reference: private BloomPrePassRendererSO _bloomPrePassRenderer
-    ::GlobalNamespace::BloomPrePassRendererSO*& dyn__bloomPrePassRenderer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassRendererSO*& dyn__bloomPrePassRenderer();
     // Get instance field reference: private BloomPrePassEffectSO _bloomPrePassEffect
-    ::GlobalNamespace::BloomPrePassEffectSO*& dyn__bloomPrePassEffect();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassEffectSO*& dyn__bloomPrePassEffect();
     // Get instance field reference: private UnityEngine.Shader _clearDepthShader
-    ::UnityEngine::Shader*& dyn__clearDepthShader();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Shader*& dyn__clearDepthShader();
     // Get instance field reference: private UnityEngine.RenderTexture _bloomPrePassRenderTexture
-    ::UnityEngine::RenderTexture*& dyn__bloomPrePassRenderTexture();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RenderTexture*& dyn__bloomPrePassRenderTexture();
     // Get instance field reference: private UnityEngine.Camera _mirrorCamera
-    ::UnityEngine::Camera*& dyn__mirrorCamera();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Camera*& dyn__mirrorCamera();
     // Get instance field reference: private System.Int32 _antialiasing
-    int& dyn__antialiasing();
+    [[deprecated("Use field access instead!")]] int& dyn__antialiasing();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<MirrorRendererSO/CameraTransformData,UnityEngine.RenderTexture> _renderTextures
-    ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::MirrorRendererSO::CameraTransformData, ::UnityEngine::RenderTexture*>*& dyn__renderTextures();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::MirrorRendererSO::CameraTransformData, ::UnityEngine::RenderTexture*>*& dyn__renderTextures();
     // Get instance field reference: private readonly UnityEngine.Rect kLeftRect
-    ::UnityEngine::Rect& dyn_kLeftRect();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rect& dyn_kLeftRect();
     // Get instance field reference: private readonly UnityEngine.Rect kRightRect
-    ::UnityEngine::Rect& dyn_kRightRect();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rect& dyn_kRightRect();
     // Get instance field reference: private readonly UnityEngine.Rect kFullRect
-    ::UnityEngine::Rect& dyn_kFullRect();
-    // private System.Void OnValidate()
-    // Offset: 0x29E9B80
-    void OnValidate();
-    // protected System.Void Awake()
-    // Offset: 0x29E9C60
-    void Awake();
-    // private System.Void ValidateParams()
-    // Offset: 0x29E9B84
-    void ValidateParams();
-    // public System.Void Init(UnityEngine.LayerMask reflectLayers, System.Int32 stereoTextureWidth, System.Int32 stereoTextureHeight, System.Int32 monoTextureWidth, System.Int32 monoTextureHeight, System.Int32 maxAntiAliasing, System.Boolean enableBloomPrePass)
-    // Offset: 0x29E9C64
-    void Init(::UnityEngine::LayerMask reflectLayers, int stereoTextureWidth, int stereoTextureHeight, int monoTextureWidth, int monoTextureHeight, int maxAntiAliasing, bool enableBloomPrePass);
-    // public System.Void PrepareForNextFrame()
-    // Offset: 0x29E8E50
-    void PrepareForNextFrame();
-    // public UnityEngine.Texture GetMirrorTexture(UnityEngine.Vector3 reflectionPlanePos, UnityEngine.Vector3 reflectionPlaneNormal)
-    // Offset: 0x29E926C
-    ::UnityEngine::Texture* GetMirrorTexture(::UnityEngine::Vector3 reflectionPlanePos, ::UnityEngine::Vector3 reflectionPlaneNormal);
-    // private System.Void RenderMirror(UnityEngine.Vector3 camPosition, UnityEngine.Quaternion camRotation, UnityEngine.Matrix4x4 camProjectionMatrix, UnityEngine.Rect screenRect, UnityEngine.Vector3 reclectionPlanePos, UnityEngine.Vector3 reflectionPlaneNormal)
-    // Offset: 0x29EA324
-    void RenderMirror(::UnityEngine::Vector3 camPosition, ::UnityEngine::Quaternion camRotation, ::UnityEngine::Matrix4x4 camProjectionMatrix, ::UnityEngine::Rect screenRect, ::UnityEngine::Vector3 reclectionPlanePos, ::UnityEngine::Vector3 reflectionPlaneNormal);
-    // protected System.Void OnDisable()
-    // Offset: 0x29EA64C
-    void OnDisable();
-    // private System.Void CreateOrUpdateMirrorCamera(UnityEngine.Camera currentCamera, UnityEngine.RenderTexture renderTexture)
-    // Offset: 0x29E9C98
-    void CreateOrUpdateMirrorCamera(::UnityEngine::Camera* currentCamera, ::UnityEngine::RenderTexture* renderTexture);
-    // static private UnityEngine.Vector4 Plane(UnityEngine.Vector3 pos, UnityEngine.Vector3 normal)
-    // Offset: 0x29E9F2C
-    static ::UnityEngine::Vector4 Plane(::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal);
-    // static private UnityEngine.Vector4 CameraSpacePlane(UnityEngine.Matrix4x4 worldToCameraMatrix, UnityEngine.Vector3 pos, UnityEngine.Vector3 normal)
-    // Offset: 0x29EA5A8
-    static ::UnityEngine::Vector4 CameraSpacePlane(::UnityEngine::Matrix4x4 worldToCameraMatrix, ::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal);
-    // static private UnityEngine.Matrix4x4 CalculateReflectionMatrix(UnityEngine.Vector4 plane)
-    // Offset: 0x29EA008
-    static ::UnityEngine::Matrix4x4 CalculateReflectionMatrix(::UnityEngine::Vector4 plane);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rect& dyn_kFullRect();
     // public System.Void .ctor()
-    // Offset: 0x29EA808
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A41104
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MirrorRendererSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MirrorRendererSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MirrorRendererSO*, creationType>()));
     }
+    // private System.Void OnValidate()
+    // Offset: 0x2A4047C
+    void OnValidate();
+    // protected System.Void Awake()
+    // Offset: 0x2A4055C
+    void Awake();
+    // private System.Void ValidateParams()
+    // Offset: 0x2A40480
+    void ValidateParams();
+    // public System.Void Init(UnityEngine.LayerMask reflectLayers, System.Int32 stereoTextureWidth, System.Int32 stereoTextureHeight, System.Int32 monoTextureWidth, System.Int32 monoTextureHeight, System.Int32 maxAntiAliasing, System.Boolean enableBloomPrePass)
+    // Offset: 0x2A40560
+    void Init(::UnityEngine::LayerMask reflectLayers, int stereoTextureWidth, int stereoTextureHeight, int monoTextureWidth, int monoTextureHeight, int maxAntiAliasing, bool enableBloomPrePass);
+    // public System.Void PrepareForNextFrame()
+    // Offset: 0x2A3F74C
+    void PrepareForNextFrame();
+    // public UnityEngine.Texture GetMirrorTexture(UnityEngine.Vector3 reflectionPlanePos, UnityEngine.Vector3 reflectionPlaneNormal)
+    // Offset: 0x2A3FB68
+    ::UnityEngine::Texture* GetMirrorTexture(::UnityEngine::Vector3 reflectionPlanePos, ::UnityEngine::Vector3 reflectionPlaneNormal);
+    // private System.Void RenderMirror(UnityEngine.Vector3 camPosition, UnityEngine.Quaternion camRotation, UnityEngine.Matrix4x4 camProjectionMatrix, UnityEngine.Rect screenRect, UnityEngine.Vector3 reclectionPlanePos, UnityEngine.Vector3 reflectionPlaneNormal)
+    // Offset: 0x2A40C20
+    void RenderMirror(::UnityEngine::Vector3 camPosition, ::UnityEngine::Quaternion camRotation, ::UnityEngine::Matrix4x4 camProjectionMatrix, ::UnityEngine::Rect screenRect, ::UnityEngine::Vector3 reclectionPlanePos, ::UnityEngine::Vector3 reflectionPlaneNormal);
+    // protected System.Void OnDisable()
+    // Offset: 0x2A40F48
+    void OnDisable();
+    // private System.Void CreateOrUpdateMirrorCamera(UnityEngine.Camera currentCamera, UnityEngine.RenderTexture renderTexture)
+    // Offset: 0x2A40594
+    void CreateOrUpdateMirrorCamera(::UnityEngine::Camera* currentCamera, ::UnityEngine::RenderTexture* renderTexture);
+    // static private UnityEngine.Vector4 Plane(UnityEngine.Vector3 pos, UnityEngine.Vector3 normal)
+    // Offset: 0x2A40828
+    static ::UnityEngine::Vector4 Plane(::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal);
+    // static private UnityEngine.Vector4 CameraSpacePlane(UnityEngine.Matrix4x4 worldToCameraMatrix, UnityEngine.Vector3 pos, UnityEngine.Vector3 normal)
+    // Offset: 0x2A40EA4
+    static ::UnityEngine::Vector4 CameraSpacePlane(::UnityEngine::Matrix4x4 worldToCameraMatrix, ::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal);
+    // static private UnityEngine.Matrix4x4 CalculateReflectionMatrix(UnityEngine.Vector4 plane)
+    // Offset: 0x2A40904
+    static ::UnityEngine::Matrix4x4 CalculateReflectionMatrix(::UnityEngine::Vector4 plane);
   }; // MirrorRendererSO
   #pragma pack(pop)
   static check_size<sizeof(MirrorRendererSO), 144 + sizeof(::UnityEngine::Rect)> __GlobalNamespace_MirrorRendererSOSizeCheck;
@@ -353,6 +340,10 @@ namespace GlobalNamespace {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MirrorRendererSO::CameraTransformData, "", "MirrorRendererSO/CameraTransformData");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MirrorRendererSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MirrorRendererSO::OnValidate
 // Il2CppName: OnValidate
 template<>
@@ -472,7 +463,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirrorRendererSO*), "CalculateReflectionMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{plane});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MirrorRendererSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

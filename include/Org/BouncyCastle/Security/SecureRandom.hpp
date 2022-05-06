@@ -39,15 +39,7 @@ namespace Org::BouncyCastle::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class SecureRandom : public ::System::Random {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected readonly Org.BouncyCastle.Crypto.Prng.IRandomGenerator generator
     // Size: 0x8
     // Offset: 0x20
@@ -72,67 +64,64 @@ namespace Org::BouncyCastle::Security {
     // Set static field: static private readonly System.Double DoubleScale
     static void _set_DoubleScale(double value);
     // Get instance field reference: protected readonly Org.BouncyCastle.Crypto.Prng.IRandomGenerator generator
-    ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*& dyn_generator();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*& dyn_generator();
     // static private Org.BouncyCastle.Security.SecureRandom get_Master()
-    // Offset: 0x17C22BC
+    // Offset: 0x17FBBCC
     static ::Org::BouncyCastle::Security::SecureRandom* get_Master();
+    // public System.Void .ctor()
+    // Offset: 0x17FBE70
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static SecureRandom* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Security::SecureRandom::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<SecureRandom*, creationType>()));
+    }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Prng.IRandomGenerator generator)
-    // Offset: 0x17C25EC
+    // Offset: 0x17FBEFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecureRandom* New_ctor(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* generator) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Security::SecureRandom::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecureRandom*, creationType>(generator)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x17C2A8C
+    // Offset: 0x17FC39C
     static void _cctor();
     // static private System.Int64 NextCounterValue()
-    // Offset: 0x17C2254
+    // Offset: 0x17FBB64
     static int64_t NextCounterValue();
     // static private Org.BouncyCastle.Crypto.Prng.DigestRandomGenerator CreatePrng(System.String digestName, System.Boolean autoSeed)
-    // Offset: 0x17C2324
+    // Offset: 0x17FBC34
     static ::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator* CreatePrng(::StringW digestName, bool autoSeed);
     // static public System.Byte[] GetNextBytes(Org.BouncyCastle.Security.SecureRandom secureRandom, System.Int32 length)
-    // Offset: 0x17C24DC
+    // Offset: 0x17FBDEC
     static ::ArrayW<uint8_t> GetNextBytes(::Org::BouncyCastle::Security::SecureRandom* secureRandom, int length);
     // public System.Int32 NextInt()
-    // Offset: 0x17C29A4
+    // Offset: 0x17FC2B4
     int NextInt();
     // public System.Int64 NextLong()
-    // Offset: 0x17C2A18
+    // Offset: 0x17FC328
     int64_t NextLong();
-    // public System.Void .ctor()
-    // Offset: 0x17C2560
-    // Implemented from: System.Random
-    // Base method: System.Void Random::.ctor()
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SecureRandom* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Security::SecureRandom::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<SecureRandom*, creationType>()));
-    }
     // public override System.Int32 Next()
-    // Offset: 0x17C261C
+    // Offset: 0x17FBF2C
     // Implemented from: System.Random
     // Base method: System.Int32 Random::Next()
     int Next();
     // public override System.Int32 Next(System.Int32 maxValue)
-    // Offset: 0x17C263C
+    // Offset: 0x17FBF4C
     // Implemented from: System.Random
     // Base method: System.Int32 Random::Next(System.Int32 maxValue)
     int Next(int maxValue);
     // public override System.Int32 Next(System.Int32 minValue, System.Int32 maxValue)
-    // Offset: 0x17C2740
+    // Offset: 0x17FC050
     // Implemented from: System.Random
     // Base method: System.Int32 Random::Next(System.Int32 minValue, System.Int32 maxValue)
     int Next(int minValue, int maxValue);
     // public override System.Void NextBytes(System.Byte[] buf)
-    // Offset: 0x17C2824
+    // Offset: 0x17FC134
     // Implemented from: System.Random
     // Base method: System.Void Random::NextBytes(System.Byte[] buf)
     void NextBytes(::ArrayW<uint8_t> buf);
     // public override System.Double NextDouble()
-    // Offset: 0x17C28E4
+    // Offset: 0x17FC1F4
     // Implemented from: System.Random
     // Base method: System.Double Random::NextDouble()
     double NextDouble();
@@ -150,6 +139,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::Boun
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::SecureRandom*), "get_Master", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Security::SecureRandom::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::SecureRandom::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -206,10 +199,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Or
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::SecureRandom*), "NextLong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Security::SecureRandom::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::SecureRandom::Next
 // Il2CppName: Next
 template<>

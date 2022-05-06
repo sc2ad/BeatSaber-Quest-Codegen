@@ -28,15 +28,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_DetailProperties : public ::Il2CppObject/*, public ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single _detailDistance
     // Size: 0x4
     // Offset: 0x10
@@ -67,31 +59,33 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties*>*>(this);
     }
     // Get instance field reference: public System.Single _detailDistance
-    float& dyn__detailDistance();
+    [[deprecated("Use field access instead!")]] float& dyn__detailDistance();
     // Get instance field reference: public System.Single _detailDensity
-    float& dyn__detailDensity();
+    [[deprecated("Use field access instead!")]] float& dyn__detailDensity();
     // Get instance field reference: public System.Int32 _detailResolution
-    int& dyn__detailResolution();
+    [[deprecated("Use field access instead!")]] int& dyn__detailResolution();
     // Get instance field reference: public System.Int32 _detailResolutionPerPatch
-    int& dyn__detailResolutionPerPatch();
-    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_DetailProperties other)
-    // Offset: 0x174940C
-    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_DetailProperties* other);
+    [[deprecated("Use field access instead!")]] int& dyn__detailResolutionPerPatch();
     // public System.Void .ctor()
-    // Offset: 0x174959C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1781EAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_DetailProperties* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_DetailProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_DetailProperties*, creationType>()));
     }
+    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_DetailProperties other)
+    // Offset: 0x1781D1C
+    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_DetailProperties* other);
   }; // HoudiniEngineUnity.HEU_DetailProperties
   #pragma pack(pop)
   static check_size<sizeof(HEU_DetailProperties), 28 + sizeof(int)> __HoudiniEngineUnity_HEU_DetailPropertiesSizeCheck;
   static_assert(sizeof(HEU_DetailProperties) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_DetailProperties::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_DetailProperties::IsEquivalentTo
 // Il2CppName: IsEquivalentTo
 template<>
@@ -101,7 +95,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_DetailProperties*), "IsEquivalentTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_DetailProperties::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

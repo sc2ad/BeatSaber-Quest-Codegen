@@ -31,15 +31,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class BeatmapDataMirrorTransform::$$c__DisplayClass0_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 numberOfLines
     // Size: 0x4
     // Offset: 0x10
@@ -52,25 +44,27 @@ namespace GlobalNamespace {
       return numberOfLines;
     }
     // Get instance field reference: public System.Int32 numberOfLines
-    int& dyn_numberOfLines();
-    // BeatmapDataItem <CreateTransformedData>g__ProcessData|0(BeatmapDataItem beatmapDataItem)
-    // Offset: 0x136C4A0
-    ::GlobalNamespace::BeatmapDataItem* $CreateTransformedData$g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
+    [[deprecated("Use field access instead!")]] int& dyn_numberOfLines();
     // public System.Void .ctor()
-    // Offset: 0x136C498
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1354724
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataMirrorTransform::$$c__DisplayClass0_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataMirrorTransform::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataMirrorTransform::$$c__DisplayClass0_0*, creationType>()));
     }
+    // BeatmapDataItem <CreateTransformedData>g__ProcessData|0(BeatmapDataItem beatmapDataItem)
+    // Offset: 0x135472C
+    ::GlobalNamespace::BeatmapDataItem* $CreateTransformedData$g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
   }; // BeatmapDataMirrorTransform/<>c__DisplayClass0_0
   #pragma pack(pop)
   static check_size<sizeof(BeatmapDataMirrorTransform::$$c__DisplayClass0_0), 16 + sizeof(int)> __GlobalNamespace_BeatmapDataMirrorTransform_$$c__DisplayClass0_0SizeCheck;
   static_assert(sizeof(BeatmapDataMirrorTransform::$$c__DisplayClass0_0) == 0x14);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataMirrorTransform::$$c__DisplayClass0_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataMirrorTransform::$$c__DisplayClass0_0::$CreateTransformedData$g__ProcessData_0
 // Il2CppName: <CreateTransformedData>g__ProcessData|0
 template<>
@@ -80,7 +74,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataMirrorTransform::$$c__DisplayClass0_0*), "<CreateTransformedData>g__ProcessData|0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapDataItem});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataMirrorTransform::$$c__DisplayClass0_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

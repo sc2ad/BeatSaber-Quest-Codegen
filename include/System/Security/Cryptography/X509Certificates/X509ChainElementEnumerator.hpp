@@ -40,15 +40,7 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509ChainElementEnumerator : public ::Il2CppObject/*, public ::System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.IEnumerator enumerator
     // Size: 0x8
     // Offset: 0x10
@@ -65,25 +57,25 @@ namespace System::Security::Cryptography::X509Certificates {
       return enumerator;
     }
     // Get instance field reference: private System.Collections.IEnumerator enumerator
-    ::System::Collections::IEnumerator*& dyn_enumerator();
+    [[deprecated("Use field access instead!")]] ::System::Collections::IEnumerator*& dyn_enumerator();
     // public System.Security.Cryptography.X509Certificates.X509ChainElement get_Current()
-    // Offset: 0x1BBC1E0
+    // Offset: 0x1BF67C8
     ::System::Security::Cryptography::X509Certificates::X509ChainElement* get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1BBC2D4
+    // Offset: 0x1BF68BC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // System.Void .ctor(System.Collections.IEnumerable enumerable)
-    // Offset: 0x1BBBEEC
+    // Offset: 0x1BF64D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ChainElementEnumerator* New_ctor(::System::Collections::IEnumerable* enumerable) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ChainElementEnumerator*, creationType>(enumerable)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1BBC388
+    // Offset: 0x1BF6970
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1BBC438
+    // Offset: 0x1BF6A20
     void Reset();
   }; // System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator
   #pragma pack(pop)

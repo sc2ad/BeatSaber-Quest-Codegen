@@ -81,27 +81,19 @@ namespace GlobalNamespace {
       // Set static field: static public LightmapLightWithIdsGroupEntry/GroupLightsWeighting LinearFraction
       static void _set_LinearFraction(::GlobalNamespace::LightmapLightWithIdsGroupEntry::GroupLightsWeighting value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // LightmapLightWithIdsGroupEntry/GroupLightsWeighting
     #pragma pack(pop)
     static check_size<sizeof(LightmapLightWithIdsGroupEntry::GroupLightsWeighting), 0 + sizeof(int)> __GlobalNamespace_LightmapLightWithIdsGroupEntry_GroupLightsWeightingSizeCheck;
     static_assert(sizeof(LightmapLightWithIdsGroupEntry::GroupLightsWeighting) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private LightmapLightWithIds _lightmapLightWithIds
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::LightmapLightWithIds* lightmapLightWithIds;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LightmapLightWithIds*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1238864
+    // [SpaceAttribute] Offset: 0x10BD32C
     // private LightmapLightWithIdsGroupEntry/GroupLightData[] _groupLightData
     // Size: 0x8
     // Offset: 0x20
@@ -120,7 +112,7 @@ namespace GlobalNamespace {
     ::ArrayW<int> excludedLightIds;
     // Field size check
     static_assert(sizeof(::ArrayW<int>) == 0x8);
-    // [SpaceAttribute] Offset: 0x12388BC
+    // [SpaceAttribute] Offset: 0x10BD384
     // private LightmapLightWithIdsGroupEntry/GroupLightsWeighting _groupLightsWeighting
     // Size: 0x4
     // Offset: 0x38
@@ -131,23 +123,17 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private LightmapLightWithIds _lightmapLightWithIds
-    ::GlobalNamespace::LightmapLightWithIds*& dyn__lightmapLightWithIds();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightmapLightWithIds*& dyn__lightmapLightWithIds();
     // Get instance field reference: private LightmapLightWithIdsGroupEntry/GroupLightData[] _groupLightData
-    ::ArrayW<::GlobalNamespace::LightmapLightWithIdsGroupEntry::GroupLightData*>& dyn__groupLightData();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::LightmapLightWithIdsGroupEntry::GroupLightData*>& dyn__groupLightData();
     // Get instance field reference: private LightmapLightWithIdsGroupEntry/LightIntensitiesWithId[] _individualLightData
-    ::ArrayW<::GlobalNamespace::LightmapLightWithIdsGroupEntry::LightIntensitiesWithId*>& dyn__individualLightData();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::LightmapLightWithIdsGroupEntry::LightIntensitiesWithId*>& dyn__individualLightData();
     // Get instance field reference: private System.Int32[] _excludedLightIds
-    ::ArrayW<int>& dyn__excludedLightIds();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__excludedLightIds();
     // Get instance field reference: private LightmapLightWithIdsGroupEntry/GroupLightsWeighting _groupLightsWeighting
-    ::GlobalNamespace::LightmapLightWithIdsGroupEntry::GroupLightsWeighting& dyn__groupLightsWeighting();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightmapLightWithIdsGroupEntry::GroupLightsWeighting& dyn__groupLightsWeighting();
     // public System.Void .ctor()
-    // Offset: 0x2AD41D4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E7D5DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightmapLightWithIdsGroupEntry* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightmapLightWithIdsGroupEntry::.ctor");

@@ -117,15 +117,7 @@ namespace BeatmapSaveDataVersion3 {
     class BurstSliderData;
     // Nested type: ::BeatmapSaveDataVersion3::BeatmapSaveData::ObstacleData
     class ObstacleData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String version
     // Size: 0x8
     // Offset: 0x10
@@ -223,85 +215,85 @@ namespace BeatmapSaveDataVersion3 {
     static ::StringW _get_kCurrentVersion();
     // Set static field: static private System.String kCurrentVersion
     static void _set_kCurrentVersion(::StringW value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x122958C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10ACFA4
     // Get static field: static private readonly System.Version version2_6_0
     static ::System::Version* _get_version2_6_0();
     // Set static field: static private readonly System.Version version2_6_0
     static void _set_version2_6_0(::System::Version* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x122959C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10ACFB4
     // Get static field: static private readonly System.Single[] _spawnRotations
     static ::ArrayW<float> _get__spawnRotations();
     // Set static field: static private readonly System.Single[] _spawnRotations
     static void _set__spawnRotations(::ArrayW<float> value);
     // Get instance field reference: public System.String version
-    ::StringW& dyn_version();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_version();
     // Get instance field reference: public System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.BpmChangeEventData> bpmEvents
-    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::BpmChangeEventData*>*& dyn_bpmEvents();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::BpmChangeEventData*>*& dyn_bpmEvents();
     // Get instance field reference: public System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.RotationEventData> rotationEvents
-    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::RotationEventData*>*& dyn_rotationEvents();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::RotationEventData*>*& dyn_rotationEvents();
     // Get instance field reference: public System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.ColorNoteData> colorNotes
-    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::ColorNoteData*>*& dyn_colorNotes();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::ColorNoteData*>*& dyn_colorNotes();
     // Get instance field reference: public System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.BombNoteData> bombNotes
-    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::BombNoteData*>*& dyn_bombNotes();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::BombNoteData*>*& dyn_bombNotes();
     // Get instance field reference: public System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.ObstacleData> obstacles
-    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::ObstacleData*>*& dyn_obstacles();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::ObstacleData*>*& dyn_obstacles();
     // Get instance field reference: public System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.SliderData> sliders
-    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::SliderData*>*& dyn_sliders();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::SliderData*>*& dyn_sliders();
     // Get instance field reference: public System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.BurstSliderData> burstSliders
-    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::BurstSliderData*>*& dyn_burstSliders();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::BurstSliderData*>*& dyn_burstSliders();
     // Get instance field reference: public System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.WaypointData> waypoints
-    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::WaypointData*>*& dyn_waypoints();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::WaypointData*>*& dyn_waypoints();
     // Get instance field reference: public System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.BasicEventData> basicBeatmapEvents
-    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::BasicEventData*>*& dyn_basicBeatmapEvents();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::BasicEventData*>*& dyn_basicBeatmapEvents();
     // Get instance field reference: public System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.ColorBoostEventData> colorBoostBeatmapEvents
-    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::ColorBoostEventData*>*& dyn_colorBoostBeatmapEvents();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::ColorBoostEventData*>*& dyn_colorBoostBeatmapEvents();
     // Get instance field reference: public System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightColorEventBoxGroup> lightColorEventBoxGroups
-    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::LightColorEventBoxGroup*>*& dyn_lightColorEventBoxGroups();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::LightColorEventBoxGroup*>*& dyn_lightColorEventBoxGroups();
     // Get instance field reference: public System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightRotationEventBoxGroup> lightRotationEventBoxGroups
-    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::LightRotationEventBoxGroup*>*& dyn_lightRotationEventBoxGroups();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::LightRotationEventBoxGroup*>*& dyn_lightRotationEventBoxGroups();
     // Get instance field reference: public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.BasicEventTypesWithKeywords basicEventTypesWithKeywords
-    ::BeatmapSaveDataVersion3::BeatmapSaveData::BasicEventTypesWithKeywords*& dyn_basicEventTypesWithKeywords();
+    [[deprecated("Use field access instead!")]] ::BeatmapSaveDataVersion3::BeatmapSaveData::BasicEventTypesWithKeywords*& dyn_basicEventTypesWithKeywords();
     // Get instance field reference: public System.Boolean useNormalEventsAsCompatibleEvents
-    bool& dyn_useNormalEventsAsCompatibleEvents();
+    [[deprecated("Use field access instead!")]] bool& dyn_useNormalEventsAsCompatibleEvents();
     // public System.Void .ctor(System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.BpmChangeEventData> bpmEvents, System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.RotationEventData> rotationEvents, System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.ColorNoteData> colorNotes, System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.BombNoteData> bombNotes, System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.ObstacleData> obstacles, System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.SliderData> sliders, System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.BurstSliderData> burstSliders, System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.WaypointData> waypoints, System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.BasicEventData> basicBeatmapEvents, System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.ColorBoostEventData> colorBoostBeatmapEvents, System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightColorEventBoxGroup> lightColorEventBoxGroups, System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightRotationEventBoxGroup> lightRotationEventBoxGroups, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.BasicEventTypesWithKeywords basicEventTypesWithKeywords, System.Boolean useNormalEventsAsCompatibleEvents)
-    // Offset: 0x28195D4
+    // Offset: 0x286BB94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData* New_ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::BpmChangeEventData*>* bpmEvents, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::RotationEventData*>* rotationEvents, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::ColorNoteData*>* colorNotes, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::BombNoteData*>* bombNotes, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::ObstacleData*>* obstacles, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::SliderData*>* sliders, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::BurstSliderData*>* burstSliders, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::WaypointData*>* waypoints, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::BasicEventData*>* basicBeatmapEvents, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::ColorBoostEventData*>* colorBoostBeatmapEvents, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::LightColorEventBoxGroup*>* lightColorEventBoxGroups, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::LightRotationEventBoxGroup*>* lightRotationEventBoxGroups, ::BeatmapSaveDataVersion3::BeatmapSaveData::BasicEventTypesWithKeywords* basicEventTypesWithKeywords, bool useNormalEventsAsCompatibleEvents) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData*, creationType>(bpmEvents, rotationEvents, colorNotes, bombNotes, obstacles, sliders, burstSliders, waypoints, basicBeatmapEvents, colorBoostBeatmapEvents, lightColorEventBoxGroups, lightRotationEventBoxGroups, basicEventTypesWithKeywords, useNormalEventsAsCompatibleEvents)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x281B00C
+    // Offset: 0x286D5CC
     static void _cctor();
     // public System.String SerializeToJSONString()
-    // Offset: 0x28196C8
+    // Offset: 0x286BC88
     ::StringW SerializeToJSONString();
     // static public BeatmapSaveDataVersion3.BeatmapSaveData DeserializeFromJSONString(System.String stringData)
-    // Offset: 0x28196D0
+    // Offset: 0x286BC90
     static ::BeatmapSaveDataVersion3::BeatmapSaveData* DeserializeFromJSONString(::StringW stringData);
     // static public BeatmapSaveDataVersion3.BeatmapSaveData ConvertBeatmapSaveData(BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData beatmapSaveData)
-    // Offset: 0x28198A0
+    // Offset: 0x286BE60
     static ::BeatmapSaveDataVersion3::BeatmapSaveData* ConvertBeatmapSaveData(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData* beatmapSaveData);
     // static private BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.NoteColorType GetNoteColorType(BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.NoteType noteType)
-    // Offset: 0x281ABC4
+    // Offset: 0x286D184
     static ::BeatmapSaveDataVersion3::BeatmapSaveData::NoteColorType GetNoteColorType(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::NoteType noteType);
     // static private BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.NoteColorType GetNoteColorType(BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.ColorType colorType)
-    // Offset: 0x281ACBC
+    // Offset: 0x286D27C
     static ::BeatmapSaveDataVersion3::BeatmapSaveData::NoteColorType GetNoteColorType(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::ColorType colorType);
     // static private System.Int32 GetHeightForObstacleType(BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.ObstacleType obstacleType)
-    // Offset: 0x281AC44
+    // Offset: 0x286D204
     static int GetHeightForObstacleType(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::ObstacleType obstacleType);
     // static private System.Int32 GetLayerForObstacleType(BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.ObstacleType obstacleType)
-    // Offset: 0x281AC34
+    // Offset: 0x286D1F4
     static int GetLayerForObstacleType(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::ObstacleType obstacleType);
     // static private BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.SliderType GetSliderType(BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.SliderType sliderType)
-    // Offset: 0x281B000
+    // Offset: 0x286D5C0
     static ::BeatmapSaveDataVersion3::BeatmapSaveData::SliderType GetSliderType(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::SliderType sliderType);
     // static private System.Single SpawnRotationForEventValue(System.Int32 index)
-    // Offset: 0x281ADF0
+    // Offset: 0x286D3B0
     static float SpawnRotationForEventValue(int index);
     // static private System.Boolean BeatmapSaveDataAreSorted(System.Collections.Generic.IReadOnlyList`1<BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveDataItem> beatmapSaveData)
-    // Offset: 0x281A998
+    // Offset: 0x286CF58
     static bool BeatmapSaveDataAreSorted(::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem*>* beatmapSaveData);
   }; // BeatmapSaveDataVersion3.BeatmapSaveData
   #pragma pack(pop)

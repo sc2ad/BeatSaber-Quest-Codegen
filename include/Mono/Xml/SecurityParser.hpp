@@ -45,15 +45,7 @@ namespace Mono::Xml {
     public:
     // Writing base type padding for base size: 0x61 to desired offset: 0x68
     char ___base_padding[0x7] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Security.SecurityElement root
     // Size: 0x8
     // Offset: 0x68
@@ -78,40 +70,40 @@ namespace Mono::Xml {
       return *reinterpret_cast<::Mono::Xml::SmallXmlParser::IContentHandler*>(this);
     }
     // Get instance field reference: private System.Security.SecurityElement root
-    ::System::Security::SecurityElement*& dyn_root();
+    [[deprecated("Use field access instead!")]] ::System::Security::SecurityElement*& dyn_root();
     // Get instance field reference: private System.Security.SecurityElement current
-    ::System::Security::SecurityElement*& dyn_current();
+    [[deprecated("Use field access instead!")]] ::System::Security::SecurityElement*& dyn_current();
     // Get instance field reference: private System.Collections.Stack stack
-    ::System::Collections::Stack*& dyn_stack();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Stack*& dyn_stack();
     // public System.Void LoadXml(System.String xml)
-    // Offset: 0x1F0D82C
+    // Offset: 0x1F59D64
     void LoadXml(::StringW xml);
     // public System.Security.SecurityElement ToXml()
-    // Offset: 0x1F1E318
+    // Offset: 0x1F6A850
     ::System::Security::SecurityElement* ToXml();
     // public System.Void OnStartParsing(Mono.Xml.SmallXmlParser parser)
-    // Offset: 0x1F1E320
+    // Offset: 0x1F6A858
     void OnStartParsing(::Mono::Xml::SmallXmlParser* parser);
     // public System.Void OnProcessingInstruction(System.String name, System.String text)
-    // Offset: 0x1F1E324
+    // Offset: 0x1F6A85C
     void OnProcessingInstruction(::StringW name, ::StringW text);
     // public System.Void OnIgnorableWhitespace(System.String s)
-    // Offset: 0x1F1E328
+    // Offset: 0x1F6A860
     void OnIgnorableWhitespace(::StringW s);
     // public System.Void OnStartElement(System.String name, Mono.Xml.SmallXmlParser/Mono.Xml.IAttrList attrs)
-    // Offset: 0x1F1E32C
+    // Offset: 0x1F6A864
     void OnStartElement(::StringW name, ::Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // public System.Void OnEndElement(System.String name)
-    // Offset: 0x1F1E5D0
+    // Offset: 0x1F6AB08
     void OnEndElement(::StringW name);
     // public System.Void OnChars(System.String ch)
-    // Offset: 0x1F1E650
+    // Offset: 0x1F6AB88
     void OnChars(::StringW ch);
     // public System.Void OnEndParsing(Mono.Xml.SmallXmlParser parser)
-    // Offset: 0x1F1E6E0
+    // Offset: 0x1F6AC18
     void OnEndParsing(::Mono::Xml::SmallXmlParser* parser);
     // public System.Void .ctor()
-    // Offset: 0x1F0D7C4
+    // Offset: 0x1F59CFC
     // Implemented from: Mono.Xml.SmallXmlParser
     // Base method: System.Void SmallXmlParser::.ctor()
     // Base method: System.Void Object::.ctor()

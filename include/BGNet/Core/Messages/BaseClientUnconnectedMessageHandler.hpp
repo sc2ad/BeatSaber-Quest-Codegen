@@ -116,15 +116,7 @@ namespace BGNet::Core::Messages {
     struct $AuthenticateWithServerAsyncInternal$d__32;
     // Nested type: ::BGNet::Core::Messages::BaseClientUnconnectedMessageHandler::$$c__DisplayClass35_0
     class $$c__DisplayClass35_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly DnsEndPoint _endPoint
     // Size: 0x8
     // Offset: 0x80
@@ -169,47 +161,47 @@ namespace BGNet::Core::Messages {
     // Set static field: static private LiteNetLib.Utils.NetDataWriter _authenticationDataWriter
     static void _set__authenticationDataWriter(::LiteNetLib::Utils::NetDataWriter* value);
     // Get instance field reference: private readonly DnsEndPoint _endPoint
-    ::GlobalNamespace::DnsEndPoint*& dyn__endPoint();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DnsEndPoint*& dyn__endPoint();
     // Get instance field reference: private readonly ICertificateValidator _certificateValidator
-    ::GlobalNamespace::ICertificateValidator*& dyn__certificateValidator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ICertificateValidator*& dyn__certificateValidator();
     // Get instance field reference: private System.Threading.Tasks.Task _authenticationTask
-    ::System::Threading::Tasks::Task*& dyn__authenticationTask();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::Task*& dyn__authenticationTask();
     // Get instance field reference: private System.Security.Authentication.AuthenticationException _authenticationException
-    ::System::Security::Authentication::AuthenticationException*& dyn__authenticationException();
+    [[deprecated("Use field access instead!")]] ::System::Security::Authentication::AuthenticationException*& dyn__authenticationException();
     // Get instance field reference: private System.Boolean _disposed
-    bool& dyn__disposed();
+    [[deprecated("Use field access instead!")]] bool& dyn__disposed();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Threading.Tasks.Task> _orderedRequests
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Threading::Tasks::Task*>*& dyn__orderedRequests();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Threading::Tasks::Task*>*& dyn__orderedRequests();
     // public DnsEndPoint get_endPoint()
-    // Offset: 0x14F4F20
+    // Offset: 0x152C828
     ::GlobalNamespace::DnsEndPoint* get_endPoint();
     // public System.Boolean get_isAuthenticated()
-    // Offset: 0x14F4F28
+    // Offset: 0x152C830
     bool get_isAuthenticated();
     // public System.Boolean get_isAuthenticating()
-    // Offset: 0x14F5040
+    // Offset: 0x152C948
     bool get_isAuthenticating();
     // public System.Boolean get_hasAuthenticationFailed()
-    // Offset: 0x14F50A8
+    // Offset: 0x152C9B0
     bool get_hasAuthenticationFailed();
     // protected System.Void .ctor(IUnconnectedMessageSender sender, DnsEndPoint endPoint, BGNet.Core.ITimeProvider timeProvider, ICertificateValidator certificateValidator, BGNet.Core.IAnalyticsManager analytics)
-    // Offset: 0x14F50B8
+    // Offset: 0x152C9C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseClientUnconnectedMessageHandler* New_ctor(::GlobalNamespace::IUnconnectedMessageSender* sender, ::GlobalNamespace::DnsEndPoint* endPoint, ::BGNet::Core::ITimeProvider* timeProvider, ::GlobalNamespace::ICertificateValidator* certificateValidator, ::BGNet::Core::IAnalyticsManager* analytics) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::BaseClientUnconnectedMessageHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseClientUnconnectedMessageHandler*, creationType>(sender, endPoint, timeProvider, certificateValidator, analytics)));
     }
     // private System.Void RegisterHandshakeMessageHandlers()
-    // Offset: 0x14F549C
+    // Offset: 0x152CDA4
     void RegisterHandshakeMessageHandlers();
     // private System.Void HandleHelloVerifyRequest(BGNet.Core.Messages.HelloVerifyRequest packet, BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin origin)
-    // Offset: 0x14F62B8
+    // Offset: 0x152DBC0
     void HandleHelloVerifyRequest(::BGNet::Core::Messages::HelloVerifyRequest* packet, ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin origin);
     // protected System.Void SendOrderedAuthenticatedRequest(System.String queue, BGNet.Core.Messages.IUnconnectedReliableRequest message, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x14F6488
+    // Offset: 0x152DD90
     void SendOrderedAuthenticatedRequest(::StringW queue, ::BGNet::Core::Messages::IUnconnectedReliableRequest* message, ::System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task SendOrderedAuthenticatedRequestAsync(System.Threading.Tasks.Task previousTask, BGNet.Core.Messages.IUnconnectedReliableRequest message, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x14F6560
+    // Offset: 0x152DE68
     ::System::Threading::Tasks::Task* SendOrderedAuthenticatedRequestAsync(::System::Threading::Tasks::Task* previousTask, ::BGNet::Core::Messages::IUnconnectedReliableRequest* message, ::System::Threading::CancellationToken cancellationToken);
     // protected System.Threading.Tasks.Task`1<T> SendAuthenticatedRequestAsync(BGNet.Core.Messages.IUnconnectedReliableRequest message, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -222,10 +214,10 @@ namespace BGNet::Core::Messages {
       return ::il2cpp_utils::RunMethodRethrow<::System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, message, cancellationToken);
     }
     // protected System.Threading.Tasks.Task SendAuthenticatedRequestAsync(BGNet.Core.Messages.IUnconnectedReliableRequest message, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x14F6678
+    // Offset: 0x152DF80
     ::System::Threading::Tasks::Task* SendAuthenticatedRequestAsync(::BGNet::Core::Messages::IUnconnectedReliableRequest* message, ::System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task OnSendFailed(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, BGNet.Core.Messages.IUnconnectedReliableRequest message, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x14F677C
+    // Offset: 0x152E084
     ::System::Threading::Tasks::Task* OnSendFailed(uint protocolVersion, ::System::Net::IPEndPoint* remoteEndPoint, ::BGNet::Core::Messages::IUnconnectedReliableRequest* message, ::System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<T> OnSendFailedAwaitResponse(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, BGNet.Core.Messages.IUnconnectedReliableRequest message, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -238,49 +230,49 @@ namespace BGNet::Core::Messages {
       return ::il2cpp_utils::RunMethodRethrow<::System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, protocolVersion, remoteEndPoint, message, cancellationToken);
     }
     // private System.Threading.Tasks.Task ReauthenticateWithServer()
-    // Offset: 0x14F68A4
+    // Offset: 0x152E1AC
     ::System::Threading::Tasks::Task* ReauthenticateWithServer();
     // protected System.Void UnauthenticateWithServer()
-    // Offset: 0x14F6994
+    // Offset: 0x152E29C
     void UnauthenticateWithServer();
     // protected System.Threading.Tasks.Task AuthenticateWithServerAsync()
-    // Offset: 0x14F6A0C
+    // Offset: 0x152E314
     ::System::Threading::Tasks::Task* AuthenticateWithServerAsync();
     // protected System.Void AuthenticateWithServer()
-    // Offset: 0x14F6BC8
+    // Offset: 0x152E4D0
     void AuthenticateWithServer();
     // private System.Threading.Tasks.Task AuthenticateWithServerAsyncInternalVerbose()
-    // Offset: 0x14F6C88
+    // Offset: 0x152E590
     ::System::Threading::Tasks::Task* AuthenticateWithServerAsyncInternalVerbose();
     // private System.Threading.Tasks.Task AuthenticateWithServerAsyncInternal()
-    // Offset: 0x14F6AC8
+    // Offset: 0x152E3D0
     ::System::Threading::Tasks::Task* AuthenticateWithServerAsyncInternal();
     // protected System.Threading.Tasks.Task`1<BGNet.Core.Messages.IUnconnectedAuthenticateRequest> GetAuthenticationRequest()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task_1<::BGNet::Core::Messages::IUnconnectedAuthenticateRequest*>* GetAuthenticationRequest();
     // private System.Threading.Tasks.Task`1<System.Boolean> VerifySignature(System.Byte[] clientRandom, System.Byte[] serverRandom, System.Byte[] serverKey, System.Byte[] signature, System.Byte[][] certData)
-    // Offset: 0x14F6DBC
+    // Offset: 0x152E6C4
     ::System::Threading::Tasks::Task_1<bool>* VerifySignature(::ArrayW<uint8_t> clientRandom, ::ArrayW<uint8_t> serverRandom, ::ArrayW<uint8_t> serverKey, ::ArrayW<uint8_t> signature, ::ArrayW<::ArrayW<uint8_t>> certData);
     // private System.Void HandshakeLog(System.String message)
-    // Offset: 0x14F6EC4
+    // Offset: 0x152E7CC
     void HandshakeLog(::StringW message);
     // public override System.Void Dispose()
-    // Offset: 0x14F5D40
+    // Offset: 0x152D648
     // Implemented from: BGNet.Core.Messages.UnconnectedMessageHandler
     // Base method: System.Void UnconnectedMessageHandler::Dispose()
     void Dispose();
     // protected override System.UInt32 GetMessageType(BGNet.Core.Messages.IUnconnectedMessage message)
-    // Offset: 0x14F5E74
+    // Offset: 0x152D77C
     // Implemented from: BGNet.Core.Messages.UnconnectedMessageHandler
     // Base method: System.UInt32 UnconnectedMessageHandler::GetMessageType(BGNet.Core.Messages.IUnconnectedMessage message)
     uint GetMessageType(::BGNet::Core::Messages::IUnconnectedMessage* message);
     // protected override System.Boolean ShouldHandleMessage(BGNet.Core.Messages.IUnconnectedMessage packet, BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin origin)
-    // Offset: 0x14F5F64
+    // Offset: 0x152D86C
     // Implemented from: BGNet.Core.Messages.UnconnectedMessageHandler
     // Base method: System.Boolean UnconnectedMessageHandler::ShouldHandleMessage(BGNet.Core.Messages.IUnconnectedMessage packet, BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin origin)
     bool ShouldHandleMessage(::BGNet::Core::Messages::IUnconnectedMessage* packet, ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin origin);
     // protected override System.Boolean ShouldHandleMessageFromEndPoint(System.Net.IPEndPoint endPoint)
-    // Offset: 0x14F6D78
+    // Offset: 0x152E680
     // Implemented from: BGNet.Core.Messages.UnconnectedMessageHandler
     // Base method: System.Boolean UnconnectedMessageHandler::ShouldHandleMessageFromEndPoint(System.Net.IPEndPoint endPoint)
     bool ShouldHandleMessageFromEndPoint(::System::Net::IPEndPoint* endPoint);

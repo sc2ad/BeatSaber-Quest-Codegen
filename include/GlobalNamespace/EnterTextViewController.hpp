@@ -52,15 +52,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnterTextViewController : public ::HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private VRTextEntryController _textEntryController
     // Size: 0x8
     // Offset: 0x70
@@ -87,41 +79,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>*) == 0x8);
     public:
     // Get instance field reference: private VRTextEntryController _textEntryController
-    ::GlobalNamespace::VRTextEntryController*& dyn__textEntryController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VRTextEntryController*& dyn__textEntryController();
     // Get instance field reference: private TMPro.TextMeshProUGUI _titleText
-    ::TMPro::TextMeshProUGUI*& dyn__titleText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__titleText();
     // Get instance field reference: private UnityEngine.UI.Button _okButton
-    ::UnityEngine::UI::Button*& dyn__okButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__okButton();
     // Get instance field reference: private System.Action`2<EnterTextViewController,System.String> didFinishEvent
-    ::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<EnterTextViewController,System.String> value)
-    // Offset: 0x13833AC
+    // Offset: 0x136AF88
     void add_didFinishEvent(::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<EnterTextViewController,System.String> value)
-    // Offset: 0x1383450
+    // Offset: 0x136B02C
     void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>* value);
-    // public System.Void Init(System.String titleText)
-    // Offset: 0x13834F4
-    void Init(::StringW titleText);
-    // public System.Void OkButtonPressed()
-    // Offset: 0x13835EC
-    void OkButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0x138368C
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x136B268
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnterTextViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnterTextViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnterTextViewController*, creationType>()));
     }
+    // public System.Void Init(System.String titleText)
+    // Offset: 0x136B0D0
+    void Init(::StringW titleText);
+    // public System.Void OkButtonPressed()
+    // Offset: 0x136B1C8
+    void OkButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1383510
+    // Offset: 0x136B0EC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -149,6 +134,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnterTextViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::EnterTextViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EnterTextViewController::Init
 // Il2CppName: Init
 template<>
@@ -166,10 +155,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnterTextViewController*), "OkButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::EnterTextViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EnterTextViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

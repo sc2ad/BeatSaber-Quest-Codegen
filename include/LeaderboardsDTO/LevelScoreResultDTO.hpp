@@ -30,15 +30,7 @@ namespace LeaderboardsDTO {
   // [TokenAttribute] Offset: FFFFFFFF
   class LevelScoreResultDTO : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String guid
     // Size: 0x8
     // Offset: 0x10
@@ -129,37 +121,35 @@ namespace LeaderboardsDTO {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String guid
-    ::StringW& dyn_guid();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_guid();
     // Get instance field reference: public System.String guids
-    ::StringW& dyn_guids();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_guids();
     // Get instance field reference: public System.String guidInstance
-    ::StringW& dyn_guidInstance();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_guidInstance();
     // Get instance field reference: public System.Int32 multipliedScore
-    int& dyn_multipliedScore();
+    [[deprecated("Use field access instead!")]] int& dyn_multipliedScore();
     // Get instance field reference: public System.Int32 modifiedScore
-    int& dyn_modifiedScore();
+    [[deprecated("Use field access instead!")]] int& dyn_modifiedScore();
     // Get instance field reference: public System.Boolean fullCombo
-    bool& dyn_fullCombo();
+    [[deprecated("Use field access instead!")]] bool& dyn_fullCombo();
     // Get instance field reference: public System.Int32 goodCutsCount
-    int& dyn_goodCutsCount();
+    [[deprecated("Use field access instead!")]] int& dyn_goodCutsCount();
     // Get instance field reference: public System.Int32 badCutsCount
-    int& dyn_badCutsCount();
+    [[deprecated("Use field access instead!")]] int& dyn_badCutsCount();
     // Get instance field reference: public System.Int32 missedCount
-    int& dyn_missedCount();
+    [[deprecated("Use field access instead!")]] int& dyn_missedCount();
     // Get instance field reference: public System.Int32 maxCombo
-    int& dyn_maxCombo();
+    [[deprecated("Use field access instead!")]] int& dyn_maxCombo();
     // Get instance field reference: public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
-    ::ArrayW<::LeaderboardsDTO::GameplayModifiersDto>& dyn_gameplayModifiers();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::LeaderboardsDTO::GameplayModifiersDto>& dyn_gameplayModifiers();
     // Get instance field reference: public System.String leaderboardId
-    ::StringW& dyn_leaderboardId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_leaderboardId();
     // Get instance field reference: public System.String deviceModel
-    ::StringW& dyn_deviceModel();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_deviceModel();
     // Get instance field reference: public System.String extraDataBase64
-    ::StringW& dyn_extraDataBase64();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_extraDataBase64();
     // public System.Void .ctor()
-    // Offset: 0x13B7F20
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13B33CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelScoreResultDTO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LeaderboardsDTO::LevelScoreResultDTO::.ctor");

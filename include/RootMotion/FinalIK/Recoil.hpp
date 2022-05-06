@@ -90,28 +90,20 @@ namespace RootMotion::FinalIK {
       // Set static field: static public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.Handedness Left
       static void _set_Left(::RootMotion::FinalIK::Recoil::Handedness value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // RootMotion.FinalIK.Recoil/RootMotion.FinalIK.Handedness
     #pragma pack(pop)
     static check_size<sizeof(Recoil::Handedness), 0 + sizeof(int)> __RootMotion_FinalIK_Recoil_HandednessSizeCheck;
     static_assert(sizeof(Recoil::Handedness) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x1275F04
+    // [TooltipAttribute] Offset: 0x10FABBC
     // public RootMotion.FinalIK.AimIK aimIK
     // Size: 0x8
     // Offset: 0x30
     ::RootMotion::FinalIK::AimIK* aimIK;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::AimIK*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1275F3C
+    // [TooltipAttribute] Offset: 0x10FABF4
     // public System.Boolean aimIKSolvedLast
     // Size: 0x1
     // Offset: 0x38
@@ -120,14 +112,14 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: aimIKSolvedLast and: handedness
     char __padding1[0x3] = {};
-    // [TooltipAttribute] Offset: 0x1275F74
+    // [TooltipAttribute] Offset: 0x10FAC2C
     // public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.Handedness handedness
     // Size: 0x4
     // Offset: 0x3C
     ::RootMotion::FinalIK::Recoil::Handedness handedness;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::Recoil::Handedness) == 0x4);
-    // [TooltipAttribute] Offset: 0x1275FAC
+    // [TooltipAttribute] Offset: 0x10FAC64
     // public System.Boolean twoHanded
     // Size: 0x1
     // Offset: 0x40
@@ -136,43 +128,43 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: twoHanded and: recoilWeight
     char __padding3[0x7] = {};
-    // [TooltipAttribute] Offset: 0x1275FE4
+    // [TooltipAttribute] Offset: 0x10FAC9C
     // public UnityEngine.AnimationCurve recoilWeight
     // Size: 0x8
     // Offset: 0x48
     ::UnityEngine::AnimationCurve* recoilWeight;
     // Field size check
     static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
-    // [TooltipAttribute] Offset: 0x127601C
+    // [TooltipAttribute] Offset: 0x10FACD4
     // public System.Single magnitudeRandom
     // Size: 0x4
     // Offset: 0x50
     float magnitudeRandom;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1276054
+    // [TooltipAttribute] Offset: 0x10FAD0C
     // public UnityEngine.Vector3 rotationRandom
     // Size: 0xC
     // Offset: 0x54
     ::UnityEngine::Vector3 rotationRandom;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0x127608C
+    // [TooltipAttribute] Offset: 0x10FAD44
     // public UnityEngine.Vector3 handRotationOffset
     // Size: 0xC
     // Offset: 0x60
     ::UnityEngine::Vector3 handRotationOffset;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0x12760C4
+    // [TooltipAttribute] Offset: 0x10FAD7C
     // public System.Single blendTime
     // Size: 0x4
     // Offset: 0x6C
     float blendTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x12760FC
-    // [TooltipAttribute] Offset: 0x12760FC
+    // [SpaceAttribute] Offset: 0x10FADB4
+    // [TooltipAttribute] Offset: 0x10FADB4
     // public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset[] offsets
     // Size: 0x8
     // Offset: 0x70
@@ -263,99 +255,94 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: public RootMotion.FinalIK.AimIK aimIK
-    ::RootMotion::FinalIK::AimIK*& dyn_aimIK();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::AimIK*& dyn_aimIK();
     // Get instance field reference: public System.Boolean aimIKSolvedLast
-    bool& dyn_aimIKSolvedLast();
+    [[deprecated("Use field access instead!")]] bool& dyn_aimIKSolvedLast();
     // Get instance field reference: public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.Handedness handedness
-    ::RootMotion::FinalIK::Recoil::Handedness& dyn_handedness();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::Recoil::Handedness& dyn_handedness();
     // Get instance field reference: public System.Boolean twoHanded
-    bool& dyn_twoHanded();
+    [[deprecated("Use field access instead!")]] bool& dyn_twoHanded();
     // Get instance field reference: public UnityEngine.AnimationCurve recoilWeight
-    ::UnityEngine::AnimationCurve*& dyn_recoilWeight();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_recoilWeight();
     // Get instance field reference: public System.Single magnitudeRandom
-    float& dyn_magnitudeRandom();
+    [[deprecated("Use field access instead!")]] float& dyn_magnitudeRandom();
     // Get instance field reference: public UnityEngine.Vector3 rotationRandom
-    ::UnityEngine::Vector3& dyn_rotationRandom();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_rotationRandom();
     // Get instance field reference: public UnityEngine.Vector3 handRotationOffset
-    ::UnityEngine::Vector3& dyn_handRotationOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_handRotationOffset();
     // Get instance field reference: public System.Single blendTime
-    float& dyn_blendTime();
+    [[deprecated("Use field access instead!")]] float& dyn_blendTime();
     // Get instance field reference: public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset[] offsets
-    ::ArrayW<::RootMotion::FinalIK::Recoil::RecoilOffset*>& dyn_offsets();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::Recoil::RecoilOffset*>& dyn_offsets();
     // Get instance field reference: public UnityEngine.Quaternion rotationOffset
-    ::UnityEngine::Quaternion& dyn_rotationOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_rotationOffset();
     // Get instance field reference: private System.Single magnitudeMlp
-    float& dyn_magnitudeMlp();
+    [[deprecated("Use field access instead!")]] float& dyn_magnitudeMlp();
     // Get instance field reference: private System.Single endTime
-    float& dyn_endTime();
+    [[deprecated("Use field access instead!")]] float& dyn_endTime();
     // Get instance field reference: private UnityEngine.Quaternion handRotation
-    ::UnityEngine::Quaternion& dyn_handRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_handRotation();
     // Get instance field reference: private UnityEngine.Quaternion secondaryHandRelativeRotation
-    ::UnityEngine::Quaternion& dyn_secondaryHandRelativeRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_secondaryHandRelativeRotation();
     // Get instance field reference: private UnityEngine.Quaternion randomRotation
-    ::UnityEngine::Quaternion& dyn_randomRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_randomRotation();
     // Get instance field reference: private System.Single length
-    float& dyn_length();
+    [[deprecated("Use field access instead!")]] float& dyn_length();
     // Get instance field reference: private System.Boolean initiated
-    bool& dyn_initiated();
+    [[deprecated("Use field access instead!")]] bool& dyn_initiated();
     // Get instance field reference: private System.Single blendWeight
-    float& dyn_blendWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_blendWeight();
     // Get instance field reference: private System.Single w
-    float& dyn_w();
+    [[deprecated("Use field access instead!")]] float& dyn_w();
     // Get instance field reference: private UnityEngine.Quaternion primaryHandRotation
-    ::UnityEngine::Quaternion& dyn_primaryHandRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_primaryHandRotation();
     // Get instance field reference: private System.Boolean handRotationsSet
-    bool& dyn_handRotationsSet();
+    [[deprecated("Use field access instead!")]] bool& dyn_handRotationsSet();
     // Get instance field reference: private UnityEngine.Vector3 aimIKAxis
-    ::UnityEngine::Vector3& dyn_aimIKAxis();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_aimIKAxis();
     // public System.Boolean get_isFinished()
-    // Offset: 0x1F72F70
+    // Offset: 0x1FBF7E4
     bool get_isFinished();
     // private RootMotion.FinalIK.IKEffector get_primaryHandEffector()
-    // Offset: 0x1F73FDC
+    // Offset: 0x1FC0850
     ::RootMotion::FinalIK::IKEffector* get_primaryHandEffector();
     // private RootMotion.FinalIK.IKEffector get_secondaryHandEffector()
-    // Offset: 0x1F7401C
+    // Offset: 0x1FC0890
     ::RootMotion::FinalIK::IKEffector* get_secondaryHandEffector();
     // private UnityEngine.Transform get_primaryHand()
-    // Offset: 0x1F73F9C
+    // Offset: 0x1FC0810
     ::UnityEngine::Transform* get_primaryHand();
     // private UnityEngine.Transform get_secondaryHand()
-    // Offset: 0x1F73FBC
+    // Offset: 0x1FC0830
     ::UnityEngine::Transform* get_secondaryHand();
     // public System.Void SetHandRotations(UnityEngine.Quaternion leftHandRotation, UnityEngine.Quaternion rightHandRotation)
-    // Offset: 0x1F72FA0
+    // Offset: 0x1FBF814
     void SetHandRotations(::UnityEngine::Quaternion leftHandRotation, ::UnityEngine::Quaternion rightHandRotation);
     // public System.Void Fire(System.Single magnitude)
-    // Offset: 0x1F72FCC
+    // Offset: 0x1FBF840
     void Fire(float magnitude);
     // private System.Void AfterFBBIK()
-    // Offset: 0x1F7405C
+    // Offset: 0x1FC08D0
     void AfterFBBIK();
     // private System.Void AfterAimIK()
-    // Offset: 0x1F741B4
+    // Offset: 0x1FC0A28
     void AfterAimIK();
     // public System.Void .ctor()
-    // Offset: 0x1F74388
+    // Offset: 0x1FC0BFC
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Recoil* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::Recoil::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Recoil*, creationType>()));
     }
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x1F73248
+    // Offset: 0x1FBFABC
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();
     // protected override System.Void OnDestroy()
-    // Offset: 0x1F741F0
+    // Offset: 0x1FC0A64
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnDestroy()
     void OnDestroy();

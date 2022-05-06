@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionHelpViewController::MissionHelpGameObjectPair : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public MissionHelpSO missionHelp
     // Size: 0x8
     // Offset: 0x10
@@ -58,13 +50,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
     public:
     // Get instance field reference: public MissionHelpSO missionHelp
-    ::GlobalNamespace::MissionHelpSO*& dyn_missionHelp();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionHelpSO*& dyn_missionHelp();
     // Get instance field reference: public UnityEngine.GameObject gameObject
-    ::UnityEngine::GameObject*& dyn_gameObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_gameObject();
     // public System.Void .ctor()
-    // Offset: 0x1305754
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1301C2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionHelpViewController::MissionHelpGameObjectPair* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair::.ctor");

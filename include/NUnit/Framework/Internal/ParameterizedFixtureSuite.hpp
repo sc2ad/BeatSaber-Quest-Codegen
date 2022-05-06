@@ -36,15 +36,7 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParameterizedFixtureSuite : public ::NUnit::Framework::Internal::TestSuite {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean _genericFixture
     // Size: 0x1
     // Offset: 0x89
@@ -57,14 +49,14 @@ namespace NUnit::Framework::Internal {
       return genericFixture;
     }
     // Get instance field reference: private System.Boolean _genericFixture
-    bool& dyn__genericFixture();
+    [[deprecated("Use field access instead!")]] bool& dyn__genericFixture();
     // public override System.String get_TestType()
-    // Offset: 0x29ADBAC
+    // Offset: 0x2A09BA4
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_TestType()
     ::StringW get_TestType();
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x29AD948
+    // Offset: 0x2A09940
     // Implemented from: NUnit.Framework.Internal.TestSuite
     // Base method: System.Void TestSuite::.ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     // Base method: System.Void Test::.ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)

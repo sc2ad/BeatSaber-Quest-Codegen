@@ -29,13 +29,10 @@ namespace GlobalNamespace {
   class StringSignal : public ::GlobalNamespace::GenericSignal_1<::StringW> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x29D7D08
+    // Offset: 0x2A2A218
     // Implemented from: GenericSignal`1
     // Base method: System.Void GenericSignal_1::.ctor()
     // Base method: System.Void Signal::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringSignal* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StringSignal::.ctor");

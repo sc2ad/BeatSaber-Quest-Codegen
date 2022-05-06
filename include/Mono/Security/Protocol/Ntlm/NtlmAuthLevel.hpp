@@ -66,7 +66,7 @@ namespace Mono::Security::Protocol::Ntlm {
     // Set static field: static public Mono.Security.Protocol.Ntlm.NtlmAuthLevel NTLMv2_only
     static void _set_NTLMv2_only(::Mono::Security::Protocol::Ntlm::NtlmAuthLevel value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Mono.Security.Protocol.Ntlm.NtlmAuthLevel
   #pragma pack(pop)
   static check_size<sizeof(NtlmAuthLevel), 0 + sizeof(int)> __Mono_Security_Protocol_Ntlm_NtlmAuthLevelSizeCheck;

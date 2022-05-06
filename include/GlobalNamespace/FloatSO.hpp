@@ -28,13 +28,10 @@ namespace GlobalNamespace {
   class FloatSO : public ::GlobalNamespace::ObservableVariableSO_1<float> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x156D954
+    // Offset: 0x15A4264
     // Implemented from: ObservableVariableSO`1
     // Base method: System.Void ObservableVariableSO_1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FloatSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FloatSO::.ctor");

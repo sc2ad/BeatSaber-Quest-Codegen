@@ -43,20 +43,18 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Comparison`1<UnityEngine.LOD> <>9__85_0
     static void _set_$$9__85_0(::System::Comparison_1<::UnityEngine::LOD>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1AC0CEC
+    // Offset: 0x1AFB2D4
     static void _cctor();
-    // System.Int32 <CopyGameObjectComponents>b__85_0(UnityEngine.LOD a, UnityEngine.LOD b)
-    // Offset: 0x1AC0D58
-    int $CopyGameObjectComponents$b__85_0(::UnityEngine::LOD a, ::UnityEngine::LOD b);
     // public System.Void .ctor()
-    // Offset: 0x1AC0D50
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1AFB338
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_PartData::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_PartData::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_PartData::$$c*, creationType>()));
     }
+    // System.Int32 <CopyGameObjectComponents>b__85_0(UnityEngine.LOD a, UnityEngine.LOD b)
+    // Offset: 0x1AFB340
+    int $CopyGameObjectComponents$b__85_0(::UnityEngine::LOD a, ::UnityEngine::LOD b);
   }; // HoudiniEngineUnity.HEU_PartData/HoudiniEngineUnity.<>c
   #pragma pack(pop)
 }
@@ -69,6 +67,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PartData::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::$$c::$CopyGameObjectComponents$b__85_0
 // Il2CppName: <CopyGameObjectComponents>b__85_0
 template<>
@@ -79,7 +81,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Houdin
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PartData::$$c*), "<CopyGameObjectComponents>b__85_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

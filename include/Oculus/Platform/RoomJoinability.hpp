@@ -41,49 +41,49 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x1240A00
+    // [DescriptionAttribute] Offset: 0x10C54D8
     // static field const value: static public Oculus.Platform.RoomJoinability Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.RoomJoinability Unknown
     static ::Oculus::Platform::RoomJoinability _get_Unknown();
     // Set static field: static public Oculus.Platform.RoomJoinability Unknown
     static void _set_Unknown(::Oculus::Platform::RoomJoinability value);
-    // [DescriptionAttribute] Offset: 0x1240A38
+    // [DescriptionAttribute] Offset: 0x10C5510
     // static field const value: static public Oculus.Platform.RoomJoinability AreIn
     static constexpr const int AreIn = 1;
     // Get static field: static public Oculus.Platform.RoomJoinability AreIn
     static ::Oculus::Platform::RoomJoinability _get_AreIn();
     // Set static field: static public Oculus.Platform.RoomJoinability AreIn
     static void _set_AreIn(::Oculus::Platform::RoomJoinability value);
-    // [DescriptionAttribute] Offset: 0x1240A70
+    // [DescriptionAttribute] Offset: 0x10C5548
     // static field const value: static public Oculus.Platform.RoomJoinability AreKicked
     static constexpr const int AreKicked = 2;
     // Get static field: static public Oculus.Platform.RoomJoinability AreKicked
     static ::Oculus::Platform::RoomJoinability _get_AreKicked();
     // Set static field: static public Oculus.Platform.RoomJoinability AreKicked
     static void _set_AreKicked(::Oculus::Platform::RoomJoinability value);
-    // [DescriptionAttribute] Offset: 0x1240AA8
+    // [DescriptionAttribute] Offset: 0x10C5580
     // static field const value: static public Oculus.Platform.RoomJoinability CanJoin
     static constexpr const int CanJoin = 3;
     // Get static field: static public Oculus.Platform.RoomJoinability CanJoin
     static ::Oculus::Platform::RoomJoinability _get_CanJoin();
     // Set static field: static public Oculus.Platform.RoomJoinability CanJoin
     static void _set_CanJoin(::Oculus::Platform::RoomJoinability value);
-    // [DescriptionAttribute] Offset: 0x1240AE0
+    // [DescriptionAttribute] Offset: 0x10C55B8
     // static field const value: static public Oculus.Platform.RoomJoinability IsFull
     static constexpr const int IsFull = 4;
     // Get static field: static public Oculus.Platform.RoomJoinability IsFull
     static ::Oculus::Platform::RoomJoinability _get_IsFull();
     // Set static field: static public Oculus.Platform.RoomJoinability IsFull
     static void _set_IsFull(::Oculus::Platform::RoomJoinability value);
-    // [DescriptionAttribute] Offset: 0x1240B18
+    // [DescriptionAttribute] Offset: 0x10C55F0
     // static field const value: static public Oculus.Platform.RoomJoinability NoViewer
     static constexpr const int NoViewer = 5;
     // Get static field: static public Oculus.Platform.RoomJoinability NoViewer
     static ::Oculus::Platform::RoomJoinability _get_NoViewer();
     // Set static field: static public Oculus.Platform.RoomJoinability NoViewer
     static void _set_NoViewer(::Oculus::Platform::RoomJoinability value);
-    // [DescriptionAttribute] Offset: 0x1240B50
+    // [DescriptionAttribute] Offset: 0x10C5628
     // static field const value: static public Oculus.Platform.RoomJoinability PolicyPrevents
     static constexpr const int PolicyPrevents = 6;
     // Get static field: static public Oculus.Platform.RoomJoinability PolicyPrevents
@@ -91,7 +91,7 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.RoomJoinability PolicyPrevents
     static void _set_PolicyPrevents(::Oculus::Platform::RoomJoinability value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Oculus.Platform.RoomJoinability
   #pragma pack(pop)
   static check_size<sizeof(RoomJoinability), 0 + sizeof(int)> __Oculus_Platform_RoomJoinabilitySizeCheck;

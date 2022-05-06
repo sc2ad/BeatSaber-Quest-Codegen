@@ -36,15 +36,7 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
   // [TokenAttribute] Offset: FFFFFFFF
   class Tables1kGcmExponentiator : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.IList lookupPowX2
     // Size: 0x8
     // Offset: 0x10
@@ -61,31 +53,33 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
       return lookupPowX2;
     }
     // Get instance field reference: private System.Collections.IList lookupPowX2
-    ::System::Collections::IList*& dyn_lookupPowX2();
-    // public System.Void Init(System.Byte[] x)
-    // Offset: 0x1E06540
-    void Init(::ArrayW<uint8_t> x);
-    // public System.Void ExponentiateX(System.Int64 pow, System.Byte[] output)
-    // Offset: 0x1E06754
-    void ExponentiateX(int64_t pow, ::ArrayW<uint8_t> output);
-    // private System.Void EnsureAvailable(System.Int32 bit)
-    // Offset: 0x1E06914
-    void EnsureAvailable(int bit);
+    [[deprecated("Use field access instead!")]] ::System::Collections::IList*& dyn_lookupPowX2();
     // public System.Void .ctor()
-    // Offset: 0x1E06B7C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E41448
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tables1kGcmExponentiator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tables1kGcmExponentiator*, creationType>()));
     }
+    // public System.Void Init(System.Byte[] x)
+    // Offset: 0x1E40E0C
+    void Init(::ArrayW<uint8_t> x);
+    // public System.Void ExponentiateX(System.Int64 pow, System.Byte[] output)
+    // Offset: 0x1E41020
+    void ExponentiateX(int64_t pow, ::ArrayW<uint8_t> output);
+    // private System.Void EnsureAvailable(System.Int32 bit)
+    // Offset: 0x1E411E0
+    void EnsureAvailable(int bit);
   }; // Org.BouncyCastle.Crypto.Modes.Gcm.Tables1kGcmExponentiator
   #pragma pack(pop)
   static check_size<sizeof(Tables1kGcmExponentiator), 16 + sizeof(::System::Collections::IList*)> __Org_BouncyCastle_Crypto_Modes_Gcm_Tables1kGcmExponentiatorSizeCheck;
   static_assert(sizeof(Tables1kGcmExponentiator) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::Init
 // Il2CppName: Init
 template<>
@@ -114,7 +108,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator*), "EnsureAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bit});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

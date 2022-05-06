@@ -27,15 +27,7 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class DecoderFallbackBuffer : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Byte* byteStart
     // Size: 0x8
     // Offset: 0x10
@@ -50,9 +42,9 @@ namespace System::Text {
     static_assert(sizeof(::Il2CppChar*) == 0x8);
     public:
     // Get instance field reference: System.Byte* byteStart
-    uint8_t*& dyn_byteStart();
+    [[deprecated("Use field access instead!")]] uint8_t*& dyn_byteStart();
     // Get instance field reference: System.Char* charEnd
-    ::Il2CppChar*& dyn_charEnd();
+    [[deprecated("Use field access instead!")]] ::Il2CppChar*& dyn_charEnd();
     // public System.Int32 get_Remaining()
     // Offset: 0xFFFFFFFFFFFFFFFF
     int get_Remaining();
@@ -63,25 +55,25 @@ namespace System::Text {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppChar GetNextChar();
     // public System.Void Reset()
-    // Offset: 0x20E9764
+    // Offset: 0x2133FD8
     void Reset();
     // System.Void InternalReset()
-    // Offset: 0x20E8428
+    // Offset: 0x2132C9C
     void InternalReset();
     // System.Void InternalInitialize(System.Byte* byteStart, System.Char* charEnd)
-    // Offset: 0x20E8168
+    // Offset: 0x21329DC
     void InternalInitialize(uint8_t* byteStart, ::Il2CppChar* charEnd);
     // System.Boolean InternalFallback(System.Byte[] bytes, System.Byte* pBytes, ref System.Char* chars)
-    // Offset: 0x20E9798
+    // Offset: 0x213400C
     bool InternalFallback(::ArrayW<uint8_t> bytes, uint8_t* pBytes, ByRef<::Il2CppChar*> chars);
     // System.Int32 InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
-    // Offset: 0x20E9944
+    // Offset: 0x21341B8
     int InternalFallback(::ArrayW<uint8_t> bytes, uint8_t* pBytes);
     // System.Void ThrowLastBytesRecursive(System.Byte[] bytesUnknown)
-    // Offset: 0x20E9AD8
+    // Offset: 0x213434C
     void ThrowLastBytesRecursive(::ArrayW<uint8_t> bytesUnknown);
     // protected System.Void .ctor()
-    // Offset: 0x20E959C
+    // Offset: 0x2133E10
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

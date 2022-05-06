@@ -32,11 +32,12 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<::System::Threading::Tasks::ITaskCompletionAction*>(this);
     }
     // public System.Void Invoke(System.Threading.Tasks.Task completingTask)
-    // Offset: 0x1CF266C
+    // Offset: 0x1D2DBC4
     void Invoke(::System::Threading::Tasks::Task* completingTask);
     // System.Void .ctor()
-    // Offset: 0x1CF25FC
-    // Implemented from: System.Object
+    // Offset: 0x1D2DB54
+    // Implemented from: System.Threading.ManualResetEventSlim
+    // Base method: System.Void ManualResetEventSlim::.ctor()
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Task::SetOnInvokeMres* New_ctor() {

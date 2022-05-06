@@ -25,15 +25,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScreenCaptureAfterDelay::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly ScreenCaptureCache/ScreenshotType screenshotType
     // Size: 0x4
     // Offset: 0x10
@@ -60,15 +52,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public readonly ScreenCaptureCache/ScreenshotType screenshotType
-    ::GlobalNamespace::ScreenCaptureCache::ScreenshotType& dyn_screenshotType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ScreenCaptureCache::ScreenshotType& dyn_screenshotType();
     // Get instance field reference: public readonly System.Single screenCaptureTime
-    float& dyn_screenCaptureTime();
+    [[deprecated("Use field access instead!")]] float& dyn_screenCaptureTime();
     // Get instance field reference: public readonly System.Int32 pixelsWidth
-    int& dyn_pixelsWidth();
+    [[deprecated("Use field access instead!")]] int& dyn_pixelsWidth();
     // Get instance field reference: public readonly System.Int32 pixelsHeight
-    int& dyn_pixelsHeight();
+    [[deprecated("Use field access instead!")]] int& dyn_pixelsHeight();
     // public System.Void .ctor(ScreenCaptureCache/ScreenshotType screenshotType, System.Single screenCaptureTime, System.Int32 pixelsWidth, System.Int32 pixelsHeight)
-    // Offset: 0x29EC14C
+    // Offset: 0x2A42A48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScreenCaptureAfterDelay::InitData* New_ctor(::GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType, float screenCaptureTime, int pixelsWidth, int pixelsHeight) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScreenCaptureAfterDelay::InitData::.ctor");

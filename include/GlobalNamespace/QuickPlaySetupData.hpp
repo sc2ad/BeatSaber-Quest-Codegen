@@ -34,15 +34,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride
     class QuickPlaySongPacksOverride;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public QuickPlaySetupData/QuickPlaySongPacksOverride quickPlayAvailablePacksOverride
     // Size: 0x8
     // Offset: 0x10
@@ -55,14 +47,12 @@ namespace GlobalNamespace {
       return quickPlayAvailablePacksOverride;
     }
     // Get instance field reference: public QuickPlaySetupData/QuickPlaySongPacksOverride quickPlayAvailablePacksOverride
-    ::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride*& dyn_quickPlayAvailablePacksOverride();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride*& dyn_quickPlayAvailablePacksOverride();
     // public System.Boolean get_hasOverride()
-    // Offset: 0x137A8D4
+    // Offset: 0x13E1C1C
     bool get_hasOverride();
     // public System.Void .ctor()
-    // Offset: 0x137A958
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13E1CA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static QuickPlaySetupData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::QuickPlaySetupData::.ctor");

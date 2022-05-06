@@ -28,15 +28,7 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class InviteOptions : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.IntPtr Handle
     // Size: 0x8
     // Offset: 0x10
@@ -49,27 +41,25 @@ namespace Oculus::Platform {
       return Handle;
     }
     // Get instance field reference: private System.IntPtr Handle
-    ::System::IntPtr& dyn_Handle();
-    // public System.Void AddSuggestedUser(System.UInt64 userID)
-    // Offset: 0x19A2988
-    void AddSuggestedUser(uint64_t userID);
-    // public System.Void ClearSuggestedUsers()
-    // Offset: 0x19A2A04
-    void ClearSuggestedUsers();
-    // static public System.IntPtr op_Explicit(Oculus.Platform.InviteOptions options)
-    // Offset: 0x19A1478
-    // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Handle();
     // public System.Void .ctor()
-    // Offset: 0x19A2910
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x19DBEF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InviteOptions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::InviteOptions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InviteOptions*, creationType>()));
     }
+    // public System.Void AddSuggestedUser(System.UInt64 userID)
+    // Offset: 0x19DBF70
+    void AddSuggestedUser(uint64_t userID);
+    // public System.Void ClearSuggestedUsers()
+    // Offset: 0x19DBFEC
+    void ClearSuggestedUsers();
+    // static public System.IntPtr op_Explicit(Oculus.Platform.InviteOptions options)
+    // Offset: 0x19DAA60
+    // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
     // protected override System.Void Finalize()
-    // Offset: 0x19A2A70
+    // Offset: 0x19DC058
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -79,6 +69,10 @@ namespace Oculus::Platform {
   static_assert(sizeof(InviteOptions) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Oculus::Platform::InviteOptions::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::InviteOptions::AddSuggestedUser
 // Il2CppName: AddSuggestedUser
 template<>
@@ -99,10 +93,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::InviteOptions::operator ::System::IntPtr
 // Il2CppName: op_Explicit
 // Cannot perform method pointer template specialization from operators!
-// Writing MetadataGetter for method: Oculus::Platform::InviteOptions::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::InviteOptions::Finalize
 // Il2CppName: Finalize
 template<>

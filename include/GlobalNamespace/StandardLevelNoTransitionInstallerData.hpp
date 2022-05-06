@@ -50,15 +50,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StandardLevelNoTransitionInstallerData : public ::UnityEngine::ScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BeatmapLevelSO _beatmapLevel
     // Size: 0x8
     // Offset: 0x18
@@ -125,91 +117,87 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapLevelSO _beatmapLevel
-    ::GlobalNamespace::BeatmapLevelSO*& dyn__beatmapLevel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelSO*& dyn__beatmapLevel();
     // Get instance field reference: private BeatmapCharacteristicSO _beatmapCharacteristic
-    ::GlobalNamespace::BeatmapCharacteristicSO*& dyn__beatmapCharacteristic();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCharacteristicSO*& dyn__beatmapCharacteristic();
     // Get instance field reference: private BeatmapDifficulty _beatmapDifficulty
-    ::GlobalNamespace::BeatmapDifficulty& dyn__beatmapDifficulty();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficulty& dyn__beatmapDifficulty();
     // Get instance field reference: private ColorSchemeSO _colorScheme
-    ::GlobalNamespace::ColorSchemeSO*& dyn__colorScheme();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSchemeSO*& dyn__colorScheme();
     // Get instance field reference: private EnvironmentInfoSO _environmentInfo
-    ::GlobalNamespace::EnvironmentInfoSO*& dyn__environmentInfo();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentInfoSO*& dyn__environmentInfo();
     // Get instance field reference: private GameplayModifiers _gameplayModifiers
-    ::GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // Get instance field reference: private PlayerSpecificSettings _playerSpecificSettings
-    ::GlobalNamespace::PlayerSpecificSettings*& dyn__playerSpecificSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSpecificSettings*& dyn__playerSpecificSettings();
     // Get instance field reference: private PracticeSettings _practiceSettings
-    ::GlobalNamespace::PracticeSettings*& dyn__practiceSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PracticeSettings*& dyn__practiceSettings();
     // Get instance field reference: private System.String _backButtonText
-    ::StringW& dyn__backButtonText();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__backButtonText();
     // Get instance field reference: private System.Boolean _useTestNoteCutSoundEffects
-    bool& dyn__useTestNoteCutSoundEffects();
+    [[deprecated("Use field access instead!")]] bool& dyn__useTestNoteCutSoundEffects();
     // public BeatmapLevelSO get_beatmapLevel()
-    // Offset: 0x13358C8
+    // Offset: 0x1417940
     ::GlobalNamespace::BeatmapLevelSO* get_beatmapLevel();
     // public System.Void set_beatmapLevel(BeatmapLevelSO value)
-    // Offset: 0x13358D0
+    // Offset: 0x1417948
     void set_beatmapLevel(::GlobalNamespace::BeatmapLevelSO* value);
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x13358D8
+    // Offset: 0x1417950
     ::GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public System.Void set_beatmapCharacteristic(BeatmapCharacteristicSO value)
-    // Offset: 0x13358E0
+    // Offset: 0x1417958
     void set_beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value);
     // public BeatmapDifficulty get_beatmapDifficulty()
-    // Offset: 0x13358E8
+    // Offset: 0x1417960
     ::GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
     // public System.Void set_beatmapDifficulty(BeatmapDifficulty value)
-    // Offset: 0x13358F0
+    // Offset: 0x1417968
     void set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
     // public ColorSchemeSO get_colorScheme()
-    // Offset: 0x13358F8
+    // Offset: 0x1417970
     ::GlobalNamespace::ColorSchemeSO* get_colorScheme();
     // public System.Void set_colorScheme(ColorSchemeSO value)
-    // Offset: 0x1335900
+    // Offset: 0x1417978
     void set_colorScheme(::GlobalNamespace::ColorSchemeSO* value);
     // public EnvironmentInfoSO get_environmentInfo()
-    // Offset: 0x1335908
+    // Offset: 0x1417980
     ::GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
     // public System.Void set_environmentInfo(EnvironmentInfoSO value)
-    // Offset: 0x1335910
+    // Offset: 0x1417988
     void set_environmentInfo(::GlobalNamespace::EnvironmentInfoSO* value);
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x1335918
+    // Offset: 0x1417990
     ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public System.Void set_gameplayModifiers(GameplayModifiers value)
-    // Offset: 0x1335920
+    // Offset: 0x1417998
     void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
     // public PlayerSpecificSettings get_playerSpecificSettings()
-    // Offset: 0x1335928
+    // Offset: 0x14179A0
     ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
     // public System.Void set_playerSpecificSettings(PlayerSpecificSettings value)
-    // Offset: 0x1335930
+    // Offset: 0x14179A8
     void set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
     // public PracticeSettings get_practiceSettings()
-    // Offset: 0x1335938
+    // Offset: 0x14179B0
     ::GlobalNamespace::PracticeSettings* get_practiceSettings();
     // public System.Void set_practiceSettings(PracticeSettings value)
-    // Offset: 0x1335940
+    // Offset: 0x14179B8
     void set_practiceSettings(::GlobalNamespace::PracticeSettings* value);
     // public System.String get_backButtonText()
-    // Offset: 0x1335948
+    // Offset: 0x14179C0
     ::StringW get_backButtonText();
     // public System.Void set_backButtonText(System.String value)
-    // Offset: 0x1335950
+    // Offset: 0x14179C8
     void set_backButtonText(::StringW value);
     // public System.Boolean get_useTestNoteCutSoundEffects()
-    // Offset: 0x1335958
+    // Offset: 0x14179D0
     bool get_useTestNoteCutSoundEffects();
     // public System.Void set_useTestNoteCutSoundEffects(System.Boolean value)
-    // Offset: 0x1335960
+    // Offset: 0x14179D8
     void set_useTestNoteCutSoundEffects(bool value);
     // public System.Void .ctor()
-    // Offset: 0x133596C
-    // Implemented from: UnityEngine.ScriptableObject
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14179E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelNoTransitionInstallerData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardLevelNoTransitionInstallerData::.ctor");

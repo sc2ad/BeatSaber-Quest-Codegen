@@ -39,15 +39,7 @@ namespace System::Net {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class WebConnectionStream::$$c__DisplayClass80_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Net.SimpleAsyncResult result
     // Size: 0x8
     // Offset: 0x10
@@ -82,36 +74,38 @@ namespace System::Net {
     static_assert(sizeof(::System::AsyncCallback*) == 0x8);
     public:
     // Get instance field reference: public System.Net.SimpleAsyncResult result
-    ::System::Net::SimpleAsyncResult*& dyn_result();
+    [[deprecated("Use field access instead!")]] ::System::Net::SimpleAsyncResult*& dyn_result();
     // Get instance field reference: public System.Net.WebConnectionStream <>4__this
-    ::System::Net::WebConnectionStream*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::System::Net::WebConnectionStream*& dyn_$$4__this();
     // Get instance field reference: public System.Int32 length
-    int& dyn_length();
+    [[deprecated("Use field access instead!")]] int& dyn_length();
     // Get instance field reference: public System.Byte[] bytes
-    ::ArrayW<uint8_t>& dyn_bytes();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_bytes();
     // Get instance field reference: public System.AsyncCallback <>9__1
-    ::System::AsyncCallback*& dyn_$$9__1();
-    // System.Void <WriteRequestAsync>b__0(System.Net.SimpleAsyncResult inner)
-    // Offset: 0x1B20D6C
-    void $WriteRequestAsync$b__0(::System::Net::SimpleAsyncResult* inner);
-    // System.Void <WriteRequestAsync>b__1(System.IAsyncResult r)
-    // Offset: 0x1B20EE4
-    void $WriteRequestAsync$b__1(::System::IAsyncResult* r);
+    [[deprecated("Use field access instead!")]] ::System::AsyncCallback*& dyn_$$9__1();
     // public System.Void .ctor()
-    // Offset: 0x1B2051C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B5AB04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionStream::$$c__DisplayClass80_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebConnectionStream::$$c__DisplayClass80_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionStream::$$c__DisplayClass80_0*, creationType>()));
     }
+    // System.Void <WriteRequestAsync>b__0(System.Net.SimpleAsyncResult inner)
+    // Offset: 0x1B5B354
+    void $WriteRequestAsync$b__0(::System::Net::SimpleAsyncResult* inner);
+    // System.Void <WriteRequestAsync>b__1(System.IAsyncResult r)
+    // Offset: 0x1B5B4CC
+    void $WriteRequestAsync$b__1(::System::IAsyncResult* r);
   }; // System.Net.WebConnectionStream/System.Net.<>c__DisplayClass80_0
   #pragma pack(pop)
   static check_size<sizeof(WebConnectionStream::$$c__DisplayClass80_0), 48 + sizeof(::System::AsyncCallback*)> __System_Net_WebConnectionStream_$$c__DisplayClass80_0SizeCheck;
   static_assert(sizeof(WebConnectionStream::$$c__DisplayClass80_0) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Net::WebConnectionStream::$$c__DisplayClass80_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::$$c__DisplayClass80_0::$WriteRequestAsync$b__0
 // Il2CppName: <WriteRequestAsync>b__0
 template<>
@@ -130,7 +124,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionStream::$$c__DisplayClass80_0*), "<WriteRequestAsync>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{r});
   }
 };
-// Writing MetadataGetter for method: System::Net::WebConnectionStream::$$c__DisplayClass80_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

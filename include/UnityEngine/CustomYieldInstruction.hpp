@@ -36,23 +36,21 @@ namespace UnityEngine {
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_keepWaiting();
     // public System.Object get_Current()
-    // Offset: 0x1F2E950
+    // Offset: 0x1F9560C
     ::Il2CppObject* get_Current();
-    // public System.Boolean MoveNext()
-    // Offset: 0x1F2E958
-    bool MoveNext();
-    // public System.Void Reset()
-    // Offset: 0x1F2E964
-    void Reset();
     // protected System.Void .ctor()
-    // Offset: 0x1F2E968
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1F95624
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomYieldInstruction* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::CustomYieldInstruction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomYieldInstruction*, creationType>()));
     }
+    // public System.Boolean MoveNext()
+    // Offset: 0x1F95614
+    bool MoveNext();
+    // public System.Void Reset()
+    // Offset: 0x1F95620
+    void Reset();
   }; // UnityEngine.CustomYieldInstruction
   #pragma pack(pop)
 }
@@ -73,6 +71,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CustomYieldInstruction*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::CustomYieldInstruction::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::CustomYieldInstruction::MoveNext
 // Il2CppName: MoveNext
 template<>
@@ -89,7 +91,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CustomYieldInstruction*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::CustomYieldInstruction::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

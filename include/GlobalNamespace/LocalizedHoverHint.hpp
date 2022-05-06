@@ -39,29 +39,26 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalizedHoverHint : public ::Polyglot::LocalizedTextComponent_1<::HMUI::HoverHint*> {
     public:
-    // protected System.Void SetText(HMUI.HoverHint hoverHint, System.String value)
-    // Offset: 0x152F728
-    void SetText(::HMUI::HoverHint* hoverHint, ::StringW value);
-    // protected System.Void UpdateAlignment(HMUI.HoverHint hoverHint, Polyglot.LanguageDirection direction)
-    // Offset: 0x152F740
-    void UpdateAlignment(::HMUI::HoverHint* hoverHint, ::Polyglot::LanguageDirection direction);
     // public System.Void .ctor()
-    // Offset: 0x152F744
-    // Implemented from: Polyglot.LocalizedTextComponent`1
-    // Base method: System.Void LocalizedTextComponent_1::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x156704C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizedHoverHint* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalizedHoverHint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalizedHoverHint*, creationType>()));
     }
+    // protected System.Void SetText(HMUI.HoverHint hoverHint, System.String value)
+    // Offset: 0x1567030
+    void SetText(::HMUI::HoverHint* hoverHint, ::StringW value);
+    // protected System.Void UpdateAlignment(HMUI.HoverHint hoverHint, Polyglot.LanguageDirection direction)
+    // Offset: 0x1567048
+    void UpdateAlignment(::HMUI::HoverHint* hoverHint, ::Polyglot::LanguageDirection direction);
   }; // LocalizedHoverHint
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::LocalizedHoverHint::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedHoverHint::SetText
 // Il2CppName: SetText
 template<>
@@ -82,7 +79,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedHoverHint*), "UpdateAlignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hoverHint, direction});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LocalizedHoverHint::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

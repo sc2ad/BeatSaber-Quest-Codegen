@@ -60,7 +60,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVSync NoWaitRender
     static void _set_NoWaitRender(::OVR::OpenVR::EVSync value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVR.OpenVR.EVSync
   #pragma pack(pop)
   static check_size<sizeof(EVSync), 0 + sizeof(int)> __OVR_OpenVR_EVSyncSizeCheck;

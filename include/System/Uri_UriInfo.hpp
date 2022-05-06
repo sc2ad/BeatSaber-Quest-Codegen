@@ -26,15 +26,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class Uri::UriInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String Host
     // Size: 0x8
     // Offset: 0x10
@@ -73,21 +65,19 @@ namespace System {
     static_assert(sizeof(::System::Uri::MoreInfo*) == 0x8);
     public:
     // Get instance field reference: public System.String Host
-    ::StringW& dyn_Host();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Host();
     // Get instance field reference: public System.String ScopeId
-    ::StringW& dyn_ScopeId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_ScopeId();
     // Get instance field reference: public System.String String
-    ::StringW& dyn_String();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_String();
     // Get instance field reference: public System.Uri/System.Offset Offset
-    ::System::Uri::Offset& dyn_Offset();
+    [[deprecated("Use field access instead!")]] ::System::Uri::Offset& dyn_Offset();
     // Get instance field reference: public System.String DnsSafeHost
-    ::StringW& dyn_DnsSafeHost();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_DnsSafeHost();
     // Get instance field reference: public System.Uri/System.MoreInfo MoreInfo
-    ::System::Uri::MoreInfo*& dyn_MoreInfo();
+    [[deprecated("Use field access instead!")]] ::System::Uri::MoreInfo*& dyn_MoreInfo();
     // public System.Void .ctor()
-    // Offset: 0x2A6400C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2ABB3F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Uri::UriInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Uri::UriInfo::.ctor");

@@ -33,15 +33,7 @@ namespace BeatmapSaveDataVersion2_6_0AndEarlier {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapSaveData::SliderData : public ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.ColorType _colorType
     // Size: 0x4
     // Offset: 0x10
@@ -116,71 +108,71 @@ namespace BeatmapSaveDataVersion2_6_0AndEarlier {
     static_assert(sizeof(::GlobalNamespace::SliderMidAnchorMode) == 0x4);
     public:
     // Get instance field reference: private BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.ColorType _colorType
-    ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::ColorType& dyn__colorType();
+    [[deprecated("Use field access instead!")]] ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::ColorType& dyn__colorType();
     // Get instance field reference: private System.Single _headTime
-    float& dyn__headTime();
+    [[deprecated("Use field access instead!")]] float& dyn__headTime();
     // Get instance field reference: private System.Int32 _headLineIndex
-    int& dyn__headLineIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__headLineIndex();
     // Get instance field reference: private NoteLineLayer _headLineLayer
-    ::GlobalNamespace::NoteLineLayer& dyn__headLineLayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteLineLayer& dyn__headLineLayer();
     // Get instance field reference: private System.Single _headControlPointLengthMultiplier
-    float& dyn__headControlPointLengthMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__headControlPointLengthMultiplier();
     // Get instance field reference: private NoteCutDirection _headCutDirection
-    ::GlobalNamespace::NoteCutDirection& dyn__headCutDirection();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutDirection& dyn__headCutDirection();
     // Get instance field reference: private System.Single _tailTime
-    float& dyn__tailTime();
+    [[deprecated("Use field access instead!")]] float& dyn__tailTime();
     // Get instance field reference: private System.Int32 _tailLineIndex
-    int& dyn__tailLineIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__tailLineIndex();
     // Get instance field reference: private NoteLineLayer _tailLineLayer
-    ::GlobalNamespace::NoteLineLayer& dyn__tailLineLayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteLineLayer& dyn__tailLineLayer();
     // Get instance field reference: private System.Single _tailControlPointLengthMultiplier
-    float& dyn__tailControlPointLengthMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__tailControlPointLengthMultiplier();
     // Get instance field reference: private NoteCutDirection _tailCutDirection
-    ::GlobalNamespace::NoteCutDirection& dyn__tailCutDirection();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutDirection& dyn__tailCutDirection();
     // Get instance field reference: private SliderMidAnchorMode _sliderMidAnchorMode
-    ::GlobalNamespace::SliderMidAnchorMode& dyn__sliderMidAnchorMode();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SliderMidAnchorMode& dyn__sliderMidAnchorMode();
     // public BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.ColorType get_colorType()
-    // Offset: 0x2819394
+    // Offset: 0x286B954
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::ColorType get_colorType();
     // public System.Int32 get_headLineIndex()
-    // Offset: 0x281939C
+    // Offset: 0x286B95C
     int get_headLineIndex();
     // public NoteLineLayer get_headLineLayer()
-    // Offset: 0x28193A4
+    // Offset: 0x286B964
     ::GlobalNamespace::NoteLineLayer get_headLineLayer();
     // public System.Single get_headControlPointLengthMultiplier()
-    // Offset: 0x28193AC
+    // Offset: 0x286B96C
     float get_headControlPointLengthMultiplier();
     // public NoteCutDirection get_headCutDirection()
-    // Offset: 0x28193B4
+    // Offset: 0x286B974
     ::GlobalNamespace::NoteCutDirection get_headCutDirection();
     // public System.Single get_tailTime()
-    // Offset: 0x28193BC
+    // Offset: 0x286B97C
     float get_tailTime();
     // public System.Int32 get_tailLineIndex()
-    // Offset: 0x28193C4
+    // Offset: 0x286B984
     int get_tailLineIndex();
     // public NoteLineLayer get_tailLineLayer()
-    // Offset: 0x28193CC
+    // Offset: 0x286B98C
     ::GlobalNamespace::NoteLineLayer get_tailLineLayer();
     // public System.Single get_tailControlPointLengthMultiplier()
-    // Offset: 0x28193D4
+    // Offset: 0x286B994
     float get_tailControlPointLengthMultiplier();
     // public NoteCutDirection get_tailCutDirection()
-    // Offset: 0x28193DC
+    // Offset: 0x286B99C
     ::GlobalNamespace::NoteCutDirection get_tailCutDirection();
     // public SliderMidAnchorMode get_sliderMidAnchorMode()
-    // Offset: 0x28193E4
+    // Offset: 0x286B9A4
     ::GlobalNamespace::SliderMidAnchorMode get_sliderMidAnchorMode();
     // public System.Void .ctor(BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.ColorType colorType, System.Single headTime, System.Int32 headLineIndex, NoteLineLayer headLineLayer, System.Single headControlPointLengthMultiplier, NoteCutDirection headCutDirection, System.Single tailTime, System.Int32 tailLineIndex, NoteLineLayer tailLineLayer, System.Single tailControlPointLengthMultiplier, NoteCutDirection tailCutDirection, SliderMidAnchorMode sliderMidAnchorMode)
-    // Offset: 0x28193EC
+    // Offset: 0x286B9AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::SliderData* New_ctor(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::ColorType colorType, float headTime, int headLineIndex, ::GlobalNamespace::NoteLineLayer headLineLayer, float headControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection headCutDirection, float tailTime, int tailLineIndex, ::GlobalNamespace::NoteLineLayer tailLineLayer, float tailControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection tailCutDirection, ::GlobalNamespace::SliderMidAnchorMode sliderMidAnchorMode) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::SliderData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::SliderData*, creationType>(colorType, headTime, headLineIndex, headLineLayer, headControlPointLengthMultiplier, headCutDirection, tailTime, tailLineIndex, tailLineLayer, tailControlPointLengthMultiplier, tailCutDirection, sliderMidAnchorMode)));
     }
     // public override System.Single get_time()
-    // Offset: 0x281938C
+    // Offset: 0x286B94C
     // Implemented from: BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveDataItem
     // Base method: System.Single BeatmapSaveDataItem::get_time()
     float get_time();

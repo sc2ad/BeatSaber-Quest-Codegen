@@ -39,15 +39,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CustomControlPlayableAsset : public ::UnityEngine::Timeline::ControlPlayableAsset {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public AvatarColorBehaviour _template
     // Size: 0x8
     // Offset: 0x58
@@ -56,18 +48,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::AvatarColorBehaviour*) == 0x8);
     public:
     // Get instance field reference: public AvatarColorBehaviour _template
-    ::GlobalNamespace::AvatarColorBehaviour*& dyn__template();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarColorBehaviour*& dyn__template();
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x14099B4
+    // Offset: 0x1429760
     ::UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public System.Void .ctor()
-    // Offset: 0x14099BC
-    // Implemented from: UnityEngine.Timeline.ControlPlayableAsset
-    // Base method: System.Void ControlPlayableAsset::.ctor()
-    // Base method: System.Void PlayableAsset::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1429768
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomControlPlayableAsset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CustomControlPlayableAsset::.ctor");

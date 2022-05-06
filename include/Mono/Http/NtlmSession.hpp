@@ -43,15 +43,7 @@ namespace Mono::Http {
   // [TokenAttribute] Offset: FFFFFFFF
   class NtlmSession : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Mono.Security.Protocol.Ntlm.MessageBase message
     // Size: 0x8
     // Offset: 0x10
@@ -64,25 +56,27 @@ namespace Mono::Http {
       return message;
     }
     // Get instance field reference: private Mono.Security.Protocol.Ntlm.MessageBase message
-    ::Mono::Security::Protocol::Ntlm::MessageBase*& dyn_message();
-    // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1A97354
-    ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
+    [[deprecated("Use field access instead!")]] ::Mono::Security::Protocol::Ntlm::MessageBase*& dyn_message();
     // public System.Void .ctor()
-    // Offset: 0x1A97920
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1AD1F08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NtlmSession* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Http::NtlmSession::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NtlmSession*, creationType>()));
     }
+    // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
+    // Offset: 0x1AD193C
+    ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
   }; // Mono.Http.NtlmSession
   #pragma pack(pop)
   static check_size<sizeof(NtlmSession), 16 + sizeof(::Mono::Security::Protocol::Ntlm::MessageBase*)> __Mono_Http_NtlmSessionSizeCheck;
   static_assert(sizeof(NtlmSession) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Mono::Http::NtlmSession::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Http::NtlmSession::Authenticate
 // Il2CppName: Authenticate
 template<>
@@ -94,7 +88,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::N
     return ::il2cpp_utils::FindMethod(classof(Mono::Http::NtlmSession*), "Authenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{challenge, webRequest, credentials});
   }
 };
-// Writing MetadataGetter for method: Mono::Http::NtlmSession::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

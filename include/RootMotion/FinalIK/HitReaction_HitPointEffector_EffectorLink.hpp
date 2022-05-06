@@ -34,23 +34,15 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class HitReaction::HitPointEffector::EffectorLink : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x12792D4
+    // [TooltipAttribute] Offset: 0x10FDF8C
     // public RootMotion.FinalIK.FullBodyBipedEffector effector
     // Size: 0x4
     // Offset: 0x10
     ::RootMotion::FinalIK::FullBodyBipedEffector effector;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
-    // [TooltipAttribute] Offset: 0x127930C
+    // [TooltipAttribute] Offset: 0x10FDFC4
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x14
@@ -71,34 +63,36 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector effector
-    ::RootMotion::FinalIK::FullBodyBipedEffector& dyn_effector();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::FullBodyBipedEffector& dyn_effector();
     // Get instance field reference: public System.Single weight
-    float& dyn_weight();
+    [[deprecated("Use field access instead!")]] float& dyn_weight();
     // Get instance field reference: private UnityEngine.Vector3 lastValue
-    ::UnityEngine::Vector3& dyn_lastValue();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_lastValue();
     // Get instance field reference: private UnityEngine.Vector3 current
-    ::UnityEngine::Vector3& dyn_current();
-    // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Vector3 offset, System.Single crossFader)
-    // Offset: 0x21D4874
-    void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, ::UnityEngine::Vector3 offset, float crossFader);
-    // public System.Void CrossFadeStart()
-    // Offset: 0x21D4668
-    void CrossFadeStart();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_current();
     // public System.Void .ctor()
-    // Offset: 0x21D49B0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2222224
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HitReaction::HitPointEffector::EffectorLink* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HitReaction::HitPointEffector::EffectorLink*, creationType>()));
     }
+    // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Vector3 offset, System.Single crossFader)
+    // Offset: 0x22220E8
+    void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, ::UnityEngine::Vector3 offset, float crossFader);
+    // public System.Void CrossFadeStart()
+    // Offset: 0x2221EDC
+    void CrossFadeStart();
   }; // RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointEffector/RootMotion.FinalIK.EffectorLink
   #pragma pack(pop)
   static check_size<sizeof(HitReaction::HitPointEffector::EffectorLink), 36 + sizeof(::UnityEngine::Vector3)> __RootMotion_FinalIK_HitReaction_HitPointEffector_EffectorLinkSizeCheck;
   static_assert(sizeof(HitReaction::HitPointEffector::EffectorLink) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink::Apply
 // Il2CppName: Apply
 template<>
@@ -118,7 +112,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink*), "CrossFadeStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

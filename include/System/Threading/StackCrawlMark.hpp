@@ -66,7 +66,7 @@ namespace System::Threading {
     // Set static field: static public System.Threading.StackCrawlMark LookForThread
     static void _set_LookForThread(::System::Threading::StackCrawlMark value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Threading.StackCrawlMark
   #pragma pack(pop)
   static check_size<sizeof(StackCrawlMark), 0 + sizeof(int)> __System_Threading_StackCrawlMarkSizeCheck;

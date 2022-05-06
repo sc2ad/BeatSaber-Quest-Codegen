@@ -41,15 +41,7 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class MenuNeonLightsGenerator : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean _generate
     // Size: 0x1
     // Offset: 0x18
@@ -134,37 +126,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean _generate
-    bool& dyn__generate();
+    [[deprecated("Use field access instead!")]] bool& dyn__generate();
     // Get instance field reference: private System.Single _radius
-    float& dyn__radius();
+    [[deprecated("Use field access instead!")]] float& dyn__radius();
     // Get instance field reference: private System.Single _angle
-    float& dyn__angle();
+    [[deprecated("Use field access instead!")]] float& dyn__angle();
     // Get instance field reference: private System.Int32 _numberOfElements
-    int& dyn__numberOfElements();
+    [[deprecated("Use field access instead!")]] int& dyn__numberOfElements();
     // Get instance field reference: private UnityEngine.AnimationCurve _intensityCurve
-    ::UnityEngine::AnimationCurve*& dyn__intensityCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__intensityCurve();
     // Get instance field reference: private System.Single _intensityMultiplier
-    float& dyn__intensityMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__intensityMultiplier();
     // Get instance field reference: private UnityEngine.AnimationCurve _lengthCurve
-    ::UnityEngine::AnimationCurve*& dyn__lengthCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__lengthCurve();
     // Get instance field reference: private System.Single _lengthMultiplier
-    float& dyn__lengthMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__lengthMultiplier();
     // Get instance field reference: private UnityEngine.AnimationCurve _widthCurve
-    ::UnityEngine::AnimationCurve*& dyn__widthCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__widthCurve();
     // Get instance field reference: private System.Single _widthMultiplier
-    float& dyn__widthMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__widthMultiplier();
     // Get instance field reference: private TubeBloomPrePassLight _neonLightPrefab
-    ::GlobalNamespace::TubeBloomPrePassLight*& dyn__neonLightPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TubeBloomPrePassLight*& dyn__neonLightPrefab();
     // Get instance field reference: private UnityEngine.Vector3 _afterSpawnRotation
-    ::UnityEngine::Vector3& dyn__afterSpawnRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__afterSpawnRotation();
     // public System.Void .ctor()
-    // Offset: 0x12FF33C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x12FB814
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuNeonLightsGenerator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuNeonLightsGenerator::.ctor");

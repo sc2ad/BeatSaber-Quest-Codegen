@@ -68,20 +68,12 @@ namespace OnlineServices {
       // Set static field: static public OnlineServices.PlatformServicesAvailabilityInfo/OnlineServices.OnlineServicesAvailability Unavailable
       static void _set_Unavailable(::OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // OnlineServices.PlatformServicesAvailabilityInfo/OnlineServices.OnlineServicesAvailability
     #pragma pack(pop)
     static check_size<sizeof(PlatformServicesAvailabilityInfo::OnlineServicesAvailability), 0 + sizeof(int)> __OnlineServices_PlatformServicesAvailabilityInfo_OnlineServicesAvailabilitySizeCheck;
     static_assert(sizeof(PlatformServicesAvailabilityInfo::OnlineServicesAvailability) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly OnlineServices.PlatformServicesAvailabilityInfo/OnlineServices.OnlineServicesAvailability availability
     // Size: 0x4
     // Offset: 0x10
@@ -98,17 +90,17 @@ namespace OnlineServices {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly OnlineServices.PlatformServicesAvailabilityInfo/OnlineServices.OnlineServicesAvailability availability
-    ::OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability& dyn_availability();
+    [[deprecated("Use field access instead!")]] ::OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability& dyn_availability();
     // Get instance field reference: public readonly System.String localizedMessage
-    ::StringW& dyn_localizedMessage();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_localizedMessage();
     // static public OnlineServices.PlatformServicesAvailabilityInfo get_everythingOK()
-    // Offset: 0x12E7778
+    // Offset: 0x1358718
     static ::OnlineServices::PlatformServicesAvailabilityInfo* get_everythingOK();
     // static public OnlineServices.PlatformServicesAvailabilityInfo get_onlineServicesUnavailableError()
-    // Offset: 0x12E7878
+    // Offset: 0x1358818
     static ::OnlineServices::PlatformServicesAvailabilityInfo* get_onlineServicesUnavailableError();
     // private System.Void .ctor(OnlineServices.PlatformServicesAvailabilityInfo/OnlineServices.OnlineServicesAvailability availability, System.String localizedMessage)
-    // Offset: 0x12E783C
+    // Offset: 0x13587DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformServicesAvailabilityInfo* New_ctor(::OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability availability, ::StringW localizedMessage) {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::PlatformServicesAvailabilityInfo::.ctor");

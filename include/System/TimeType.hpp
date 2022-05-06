@@ -27,15 +27,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimeType : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Int32 Offset
     // Size: 0x4
     // Offset: 0x10
@@ -58,20 +50,20 @@ namespace System {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly System.Int32 Offset
-    int& dyn_Offset();
+    [[deprecated("Use field access instead!")]] int& dyn_Offset();
     // Get instance field reference: public readonly System.Boolean IsDst
-    bool& dyn_IsDst();
+    [[deprecated("Use field access instead!")]] bool& dyn_IsDst();
     // Get instance field reference: public System.String Name
-    ::StringW& dyn_Name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Name();
     // public System.Void .ctor(System.Int32 offset, System.Boolean is_dst, System.String abbrev)
-    // Offset: 0x1CFECDC
+    // Offset: 0x1D3A234
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeType* New_ctor(int offset, bool is_dst, ::StringW abbrev) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::TimeType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeType*, creationType>(offset, is_dst, abbrev)));
     }
     // public override System.String ToString()
-    // Offset: 0x1CFED24
+    // Offset: 0x1D3A27C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

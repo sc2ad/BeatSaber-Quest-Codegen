@@ -82,20 +82,12 @@ namespace GlobalNamespace {
       // Set static field: static public AbTestExperimentDefinitionSO/Group Test2
       static void _set_Test2(::GlobalNamespace::AbTestExperimentDefinitionSO::Group value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // AbTestExperimentDefinitionSO/Group
     #pragma pack(pop)
     static check_size<sizeof(AbTestExperimentDefinitionSO::Group), 0 + sizeof(int)> __GlobalNamespace_AbTestExperimentDefinitionSO_GroupSizeCheck;
     static_assert(sizeof(AbTestExperimentDefinitionSO::Group) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _experimentName
     // Size: 0x8
     // Offset: 0x18
@@ -138,53 +130,48 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _experimentName
-    ::StringW& dyn__experimentName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__experimentName();
     // Get instance field reference: private System.Single _test1GroupSize
-    float& dyn__test1GroupSize();
+    [[deprecated("Use field access instead!")]] float& dyn__test1GroupSize();
     // Get instance field reference: private System.Single _test2GroupSize
-    float& dyn__test2GroupSize();
+    [[deprecated("Use field access instead!")]] float& dyn__test2GroupSize();
     // Get instance field reference: private System.Single _controlGroupSize
-    float& dyn__controlGroupSize();
+    [[deprecated("Use field access instead!")]] float& dyn__controlGroupSize();
     // Get instance field reference: private System.String _salt
-    ::StringW& dyn__salt();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__salt();
     // Get instance field reference: private AbTestExperimentDefinitionSO/Group _currentUserTreatmentGroup
-    ::GlobalNamespace::AbTestExperimentDefinitionSO::Group& dyn__currentUserTreatmentGroup();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AbTestExperimentDefinitionSO::Group& dyn__currentUserTreatmentGroup();
     // public System.Single get_test1GroupSize()
-    // Offset: 0x14AECF4
+    // Offset: 0x14E65AC
     float get_test1GroupSize();
     // public System.Single get_test2GroupSize()
-    // Offset: 0x14AECFC
+    // Offset: 0x14E65B4
     float get_test2GroupSize();
     // public System.String get_experimentName()
-    // Offset: 0x14AED04
+    // Offset: 0x14E65BC
     ::StringW get_experimentName();
     // public AbTestExperimentDefinitionSO/Group get_currentUserTreatmentGroup()
-    // Offset: 0x14AED0C
+    // Offset: 0x14E65C4
     ::GlobalNamespace::AbTestExperimentDefinitionSO::Group get_currentUserTreatmentGroup();
-    // private System.Void OnValidate()
-    // Offset: 0x14AED14
-    void OnValidate();
-    // public System.Void ComputeCurrentUserTreatment(System.String userId)
-    // Offset: 0x14AEDD0
-    void ComputeCurrentUserTreatment(::StringW userId);
-    // public System.Void ForceSetTreatmentGroup(AbTestExperimentDefinitionSO/Group group)
-    // Offset: 0x14AF000
-    void ForceSetTreatmentGroup(::GlobalNamespace::AbTestExperimentDefinitionSO::Group group);
-    // private AbTestExperimentDefinitionSO/Group AbSplit(System.String userId)
-    // Offset: 0x14AEDF4
-    ::GlobalNamespace::AbTestExperimentDefinitionSO::Group AbSplit(::StringW userId);
     // public System.Void .ctor()
-    // Offset: 0x14AF008
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14E68C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AbTestExperimentDefinitionSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AbTestExperimentDefinitionSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AbTestExperimentDefinitionSO*, creationType>()));
     }
+    // private System.Void OnValidate()
+    // Offset: 0x14E65CC
+    void OnValidate();
+    // public System.Void ComputeCurrentUserTreatment(System.String userId)
+    // Offset: 0x14E6688
+    void ComputeCurrentUserTreatment(::StringW userId);
+    // public System.Void ForceSetTreatmentGroup(AbTestExperimentDefinitionSO/Group group)
+    // Offset: 0x14E68B8
+    void ForceSetTreatmentGroup(::GlobalNamespace::AbTestExperimentDefinitionSO::Group group);
+    // private AbTestExperimentDefinitionSO/Group AbSplit(System.String userId)
+    // Offset: 0x14E66AC
+    ::GlobalNamespace::AbTestExperimentDefinitionSO::Group AbSplit(::StringW userId);
   }; // AbTestExperimentDefinitionSO
   #pragma pack(pop)
   static check_size<sizeof(AbTestExperimentDefinitionSO), 56 + sizeof(::GlobalNamespace::AbTestExperimentDefinitionSO::Group)> __GlobalNamespace_AbTestExperimentDefinitionSOSizeCheck;
@@ -225,6 +212,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AbTestExperimentDefinitionSO*), "get_currentUserTreatmentGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::AbTestExperimentDefinitionSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AbTestExperimentDefinitionSO::OnValidate
 // Il2CppName: OnValidate
 template<>
@@ -260,7 +251,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AbTestExperimentDefinitionSO*), "AbSplit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AbTestExperimentDefinitionSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

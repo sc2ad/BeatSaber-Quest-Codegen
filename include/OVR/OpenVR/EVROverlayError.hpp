@@ -186,7 +186,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVROverlayError TextureNotLocked
     static void _set_TextureNotLocked(::OVR::OpenVR::EVROverlayError value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVR.OpenVR.EVROverlayError
   #pragma pack(pop)
   static check_size<sizeof(EVROverlayError), 0 + sizeof(int)> __OVR_OpenVR_EVROverlayErrorSizeCheck;

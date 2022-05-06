@@ -30,15 +30,7 @@ namespace Mono::Security::X509::Extensions {
   // [TokenAttribute] Offset: FFFFFFFF
   class AuthorityKeyIdentifierExtension : public ::Mono::Security::X509::X509Extension {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Byte[] aki
     // Size: 0x8
     // Offset: 0x28
@@ -51,12 +43,12 @@ namespace Mono::Security::X509::Extensions {
       return aki;
     }
     // Get instance field reference: private System.Byte[] aki
-    ::ArrayW<uint8_t>& dyn_aki();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_aki();
     // public System.Byte[] get_Identifier()
-    // Offset: 0x23015F4
+    // Offset: 0x234AE68
     ::ArrayW<uint8_t> get_Identifier();
     // public System.Void .ctor(Mono.Security.X509.X509Extension extension)
-    // Offset: 0x23013B4
+    // Offset: 0x234AC28
     // Implemented from: Mono.Security.X509.X509Extension
     // Base method: System.Void X509Extension::.ctor(Mono.Security.X509.X509Extension extension)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -65,17 +57,17 @@ namespace Mono::Security::X509::Extensions {
       return THROW_UNLESS((::il2cpp_utils::New<AuthorityKeyIdentifierExtension*, creationType>(extension)));
     }
     // protected override System.Void Decode()
-    // Offset: 0x23013BC
+    // Offset: 0x234AC30
     // Implemented from: Mono.Security.X509.X509Extension
     // Base method: System.Void X509Extension::Decode()
     void Decode();
     // protected override System.Void Encode()
-    // Offset: 0x23014D4
+    // Offset: 0x234AD48
     // Implemented from: Mono.Security.X509.X509Extension
     // Base method: System.Void X509Extension::Encode()
     void Encode();
     // public override System.String ToString()
-    // Offset: 0x2301670
+    // Offset: 0x234AEE4
     // Implemented from: Mono.Security.X509.X509Extension
     // Base method: System.String X509Extension::ToString()
     ::StringW ToString();

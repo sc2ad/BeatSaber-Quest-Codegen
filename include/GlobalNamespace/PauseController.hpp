@@ -61,72 +61,64 @@ namespace GlobalNamespace {
     class InitData;
     // Nested type: ::GlobalNamespace::PauseController::$$c__DisplayClass25_0
     class $$c__DisplayClass25_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x1252F7C
+    // [InjectAttribute] Offset: 0x10D7B60
     // private readonly PauseMenuManager _pauseMenuManager
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::PauseMenuManager* pauseMenuManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PauseMenuManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252F8C
+    // [InjectAttribute] Offset: 0x10D7B70
     // private readonly IGamePause _gamePause
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::IGamePause* gamePause;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IGamePause*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252F9C
+    // [InjectAttribute] Offset: 0x10D7B80
     // private readonly IMenuButtonTrigger _menuButtonTrigger
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::IMenuButtonTrigger* menuButtonTrigger;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMenuButtonTrigger*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252FAC
+    // [InjectAttribute] Offset: 0x10D7B90
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252FBC
+    // [InjectAttribute] Offset: 0x10D7BA0
     // private readonly ILevelRestartController _levelRestartController
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::ILevelRestartController* levelRestartController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILevelRestartController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252FCC
+    // [InjectAttribute] Offset: 0x10D7BB0
     // private readonly IReturnToMenuController _returnToMenuController
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::IReturnToMenuController* returnToMenuController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IReturnToMenuController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252FDC
+    // [InjectAttribute] Offset: 0x10D7BC0
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IVRPlatformHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252FEC
+    // [InjectAttribute] Offset: 0x10D7BD0
     // private readonly ILevelStartController _levelStartController
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::ILevelStartController* levelStartController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILevelStartController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252FFC
+    // [InjectAttribute] Offset: 0x10D7BE0
     // private readonly PauseController/InitData _initData
     // Size: 0x8
     // Offset: 0x58
@@ -173,123 +165,117 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly PauseMenuManager _pauseMenuManager
-    ::GlobalNamespace::PauseMenuManager*& dyn__pauseMenuManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PauseMenuManager*& dyn__pauseMenuManager();
     // Get instance field reference: private readonly IGamePause _gamePause
-    ::GlobalNamespace::IGamePause*& dyn__gamePause();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IGamePause*& dyn__gamePause();
     // Get instance field reference: private readonly IMenuButtonTrigger _menuButtonTrigger
-    ::GlobalNamespace::IMenuButtonTrigger*& dyn__menuButtonTrigger();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMenuButtonTrigger*& dyn__menuButtonTrigger();
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
-    ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // Get instance field reference: private readonly ILevelRestartController _levelRestartController
-    ::GlobalNamespace::ILevelRestartController*& dyn__levelRestartController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ILevelRestartController*& dyn__levelRestartController();
     // Get instance field reference: private readonly IReturnToMenuController _returnToMenuController
-    ::GlobalNamespace::IReturnToMenuController*& dyn__returnToMenuController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IReturnToMenuController*& dyn__returnToMenuController();
     // Get instance field reference: private readonly IVRPlatformHelper _vrPlatformHelper
-    ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // Get instance field reference: private readonly ILevelStartController _levelStartController
-    ::GlobalNamespace::ILevelStartController*& dyn__levelStartController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ILevelStartController*& dyn__levelStartController();
     // Get instance field reference: private readonly PauseController/InitData _initData
-    ::GlobalNamespace::PauseController::InitData*& dyn__initData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PauseController::InitData*& dyn__initData();
     // Get instance field reference: private System.Action didPauseEvent
-    ::System::Action*& dyn_didPauseEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didPauseEvent();
     // Get instance field reference: private System.Action didResumeEvent
-    ::System::Action*& dyn_didResumeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didResumeEvent();
     // Get instance field reference: private System.Action`1<System.Action`1<System.Boolean>> canPauseEvent
-    ::System::Action_1<::System::Action_1<bool>*>*& dyn_canPauseEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::System::Action_1<bool>*>*& dyn_canPauseEvent();
     // Get instance field reference: private System.Action didReturnToMenuEvent
-    ::System::Action*& dyn_didReturnToMenuEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didReturnToMenuEvent();
     // Get instance field reference: private System.Boolean _wantsToPause
-    bool& dyn__wantsToPause();
+    [[deprecated("Use field access instead!")]] bool& dyn__wantsToPause();
     // Get instance field reference: private System.Boolean _paused
-    bool& dyn__paused();
+    [[deprecated("Use field access instead!")]] bool& dyn__paused();
     // public System.Boolean get_wantsToPause()
-    // Offset: 0x12EF2B8
+    // Offset: 0x1360270
     bool get_wantsToPause();
     // private System.Boolean get_canPause()
-    // Offset: 0x12EF2C0
+    // Offset: 0x1360278
     bool get_canPause();
     // public System.Void add_didPauseEvent(System.Action value)
-    // Offset: 0x12EED98
+    // Offset: 0x135FD50
     void add_didPauseEvent(::System::Action* value);
     // public System.Void remove_didPauseEvent(System.Action value)
-    // Offset: 0x12EEE3C
+    // Offset: 0x135FDF4
     void remove_didPauseEvent(::System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
-    // Offset: 0x12EEEE0
+    // Offset: 0x135FE98
     void add_didResumeEvent(::System::Action* value);
     // public System.Void remove_didResumeEvent(System.Action value)
-    // Offset: 0x12EEF84
+    // Offset: 0x135FF3C
     void remove_didResumeEvent(::System::Action* value);
     // public System.Void add_canPauseEvent(System.Action`1<System.Action`1<System.Boolean>> value)
-    // Offset: 0x12EF028
+    // Offset: 0x135FFE0
     void add_canPauseEvent(::System::Action_1<::System::Action_1<bool>*>* value);
     // public System.Void remove_canPauseEvent(System.Action`1<System.Action`1<System.Boolean>> value)
-    // Offset: 0x12EF0CC
+    // Offset: 0x1360084
     void remove_canPauseEvent(::System::Action_1<::System::Action_1<bool>*>* value);
     // public System.Void add_didReturnToMenuEvent(System.Action value)
-    // Offset: 0x12EF170
+    // Offset: 0x1360128
     void add_didReturnToMenuEvent(::System::Action* value);
     // public System.Void remove_didReturnToMenuEvent(System.Action value)
-    // Offset: 0x12EF214
+    // Offset: 0x13601CC
     void remove_didReturnToMenuEvent(::System::Action* value);
-    // private System.Void Start()
-    // Offset: 0x12EF3AC
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x12EFB50
-    void OnDestroy();
-    // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0x12F0278
-    void OnApplicationPause(bool pauseStatus);
-    // public System.Void Pause()
-    // Offset: 0x12F0284
-    void Pause();
-    // private System.Void PauseGameOnStartupIfItShouldBePaused()
-    // Offset: 0x12F042C
-    void PauseGameOnStartupIfItShouldBePaused();
-    // private System.Void HandleLevelDidStart()
-    // Offset: 0x12F0488
-    void HandleLevelDidStart();
-    // private System.Void HandleLevelWillStartIntro()
-    // Offset: 0x12F048C
-    void HandleLevelWillStartIntro();
-    // private System.Void HandleMenuButtonTriggered()
-    // Offset: 0x12F0490
-    void HandleMenuButtonTriggered();
-    // private System.Void HandleInputFocusWasCaptured()
-    // Offset: 0x12F0494
-    void HandleInputFocusWasCaptured();
-    // private System.Void HandleHMDUnmounted()
-    // Offset: 0x12F0498
-    void HandleHMDUnmounted();
-    // private System.Void HandlePauseMenuManagerDidFinishResumeAnimation()
-    // Offset: 0x12F049C
-    void HandlePauseMenuManagerDidFinishResumeAnimation();
-    // private System.Void HandlePauseMenuManagerDidPressContinueButton()
-    // Offset: 0x12F0590
-    void HandlePauseMenuManagerDidPressContinueButton();
-    // private System.Void HandlePauseMenuManagerDidPressRestartButton()
-    // Offset: 0x12F06AC
-    void HandlePauseMenuManagerDidPressRestartButton();
-    // private System.Void HandlePauseMenuManagerDidPressMenuButton()
-    // Offset: 0x12F075C
-    void HandlePauseMenuManagerDidPressMenuButton();
-    // private System.Boolean GetDefaultPausedState()
-    // Offset: 0x12EFA90
-    bool GetDefaultPausedState();
     // public System.Void .ctor()
-    // Offset: 0x12F081C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13617D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PauseController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PauseController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PauseController*, creationType>()));
     }
+    // private System.Void Start()
+    // Offset: 0x1360364
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1360B08
+    void OnDestroy();
+    // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
+    // Offset: 0x1361230
+    void OnApplicationPause(bool pauseStatus);
+    // public System.Void Pause()
+    // Offset: 0x136123C
+    void Pause();
+    // private System.Void PauseGameOnStartupIfItShouldBePaused()
+    // Offset: 0x13613E4
+    void PauseGameOnStartupIfItShouldBePaused();
+    // private System.Void HandleLevelDidStart()
+    // Offset: 0x1361440
+    void HandleLevelDidStart();
+    // private System.Void HandleLevelWillStartIntro()
+    // Offset: 0x1361444
+    void HandleLevelWillStartIntro();
+    // private System.Void HandleMenuButtonTriggered()
+    // Offset: 0x1361448
+    void HandleMenuButtonTriggered();
+    // private System.Void HandleInputFocusWasCaptured()
+    // Offset: 0x136144C
+    void HandleInputFocusWasCaptured();
+    // private System.Void HandleHMDUnmounted()
+    // Offset: 0x1361450
+    void HandleHMDUnmounted();
+    // private System.Void HandlePauseMenuManagerDidFinishResumeAnimation()
+    // Offset: 0x1361454
+    void HandlePauseMenuManagerDidFinishResumeAnimation();
+    // private System.Void HandlePauseMenuManagerDidPressContinueButton()
+    // Offset: 0x1361548
+    void HandlePauseMenuManagerDidPressContinueButton();
+    // private System.Void HandlePauseMenuManagerDidPressRestartButton()
+    // Offset: 0x1361664
+    void HandlePauseMenuManagerDidPressRestartButton();
+    // private System.Void HandlePauseMenuManagerDidPressMenuButton()
+    // Offset: 0x1361714
+    void HandlePauseMenuManagerDidPressMenuButton();
+    // private System.Boolean GetDefaultPausedState()
+    // Offset: 0x1360A48
+    bool GetDefaultPausedState();
   }; // PauseController
   #pragma pack(pop)
   static check_size<sizeof(PauseController), 129 + sizeof(bool)> __GlobalNamespace_PauseControllerSizeCheck;
@@ -384,6 +370,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PauseController*), "remove_didReturnToMenuEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PauseController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PauseController::Start
 // Il2CppName: Start
 template<>
@@ -505,7 +495,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PauseController*), "GetDefaultPausedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PauseController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

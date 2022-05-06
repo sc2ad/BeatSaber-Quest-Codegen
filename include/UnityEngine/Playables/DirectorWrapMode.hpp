@@ -60,7 +60,7 @@ namespace UnityEngine::Playables {
     // Set static field: static public UnityEngine.Playables.DirectorWrapMode None
     static void _set_None(::UnityEngine::Playables::DirectorWrapMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.Playables.DirectorWrapMode
   #pragma pack(pop)
   static check_size<sizeof(DirectorWrapMode), 0 + sizeof(int)> __UnityEngine_Playables_DirectorWrapModeSizeCheck;

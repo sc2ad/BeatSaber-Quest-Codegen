@@ -30,15 +30,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BTSStarTextEventEffect::StarTextSprite : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _id
     // Size: 0x4
     // Offset: 0x10
@@ -61,24 +53,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private System.Int32 _id
-    int& dyn__id();
+    [[deprecated("Use field access instead!")]] int& dyn__id();
     // Get instance field reference: private UnityEngine.Sprite _starTextSprite
-    ::UnityEngine::Sprite*& dyn__starTextSprite();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__starTextSprite();
     // Get instance field reference: private System.Single _animationLength
-    float& dyn__animationLength();
+    [[deprecated("Use field access instead!")]] float& dyn__animationLength();
     // public System.Int32 get_id()
-    // Offset: 0x135D59C
+    // Offset: 0x134581C
     int get_id();
     // public UnityEngine.Sprite get_starTextSprite()
-    // Offset: 0x135D5A4
+    // Offset: 0x1345824
     ::UnityEngine::Sprite* get_starTextSprite();
     // public System.Single get_animationLength()
-    // Offset: 0x135D5AC
+    // Offset: 0x134582C
     float get_animationLength();
     // public System.Void .ctor()
-    // Offset: 0x135D5B4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1345834
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSStarTextEventEffect::StarTextSprite* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSStarTextEventEffect::StarTextSprite::.ctor");

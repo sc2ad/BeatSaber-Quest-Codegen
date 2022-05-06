@@ -87,24 +87,24 @@ namespace OnlineServices::API {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<BeatSaberAPI.DataTransferObjects.AccessToken> <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BeatSaberAPI::DataTransferObjects::AccessToken*>& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BeatSaberAPI::DataTransferObjects::AccessToken*>& dyn_$$t__builder();
     // Get instance field reference: public OnlineServices.API.HTTPLeaderboardsOathHelper <>4__this
-    ::OnlineServices::API::HTTPLeaderboardsOathHelper*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::OnlineServices::API::HTTPLeaderboardsOathHelper*& dyn_$$4__this();
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
-    ::System::Threading::CancellationToken& dyn_cancellationToken();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: private System.String <uri>5__2
-    ::StringW& dyn_$uri$5__2();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$uri$5__2();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<BeatSaberAPI.DataTransferObjects.UserAuthenticationData> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaberAPI::DataTransferObjects::UserAuthenticationData*>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaberAPI::DataTransferObjects::UserAuthenticationData*>& dyn_$$u__1();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__2
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>& dyn_$$u__2();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x151BE94
+    // Offset: 0x155379C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x151C2DC
+    // Offset: 0x1553BE4
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.HTTPLeaderboardsOathHelper/OnlineServices.API.<GetAccessTokenAsync>d__9
   // WARNING Not writing size check since size may be invalid!

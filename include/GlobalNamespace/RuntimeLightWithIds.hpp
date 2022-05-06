@@ -84,27 +84,19 @@ namespace GlobalNamespace {
       // Set static field: static public RuntimeLightWithIds/MixType Sum
       static void _set_Sum(::GlobalNamespace::RuntimeLightWithIds::MixType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // RuntimeLightWithIds/MixType
     #pragma pack(pop)
     static check_size<sizeof(RuntimeLightWithIds::MixType), 0 + sizeof(int)> __GlobalNamespace_RuntimeLightWithIds_MixTypeSizeCheck;
     static_assert(sizeof(RuntimeLightWithIds::MixType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private RuntimeLightWithIds/LightIntensitiesWithId[] _lightIntensityData
     // Size: 0x8
     // Offset: 0x30
     ::ArrayW<::GlobalNamespace::RuntimeLightWithIds::LightIntensitiesWithId*> lightIntensityData;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::RuntimeLightWithIds::LightIntensitiesWithId*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x1239124
+    // [SpaceAttribute] Offset: 0x10BDBEC
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x38
@@ -133,40 +125,35 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::RuntimeLightWithIds::MixType) == 0x4);
     public:
     // Get instance field reference: private RuntimeLightWithIds/LightIntensitiesWithId[] _lightIntensityData
-    ::ArrayW<::GlobalNamespace::RuntimeLightWithIds::LightIntensitiesWithId*>& dyn__lightIntensityData();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::RuntimeLightWithIds::LightIntensitiesWithId*>& dyn__lightIntensityData();
     // Get instance field reference: private System.Single _intensity
-    float& dyn__intensity();
+    [[deprecated("Use field access instead!")]] float& dyn__intensity();
     // Get instance field reference: private System.Single _maxIntensity
-    float& dyn__maxIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn__maxIntensity();
     // Get instance field reference: private System.Boolean _multiplyColorByAlpha
-    bool& dyn__multiplyColorByAlpha();
+    [[deprecated("Use field access instead!")]] bool& dyn__multiplyColorByAlpha();
     // Get instance field reference: private RuntimeLightWithIds/MixType _mixType
-    ::GlobalNamespace::RuntimeLightWithIds::MixType& dyn__mixType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::RuntimeLightWithIds::MixType& dyn__mixType();
     // protected System.Void Awake()
-    // Offset: 0x2AD51D0
+    // Offset: 0x1E7E5E0
     void Awake();
     // protected System.Void ColorWasSet(UnityEngine.Color color)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void ColorWasSet(::UnityEngine::Color color);
     // private UnityEngine.Color ProcessColor(UnityEngine.Color color, System.Single intensity)
-    // Offset: 0x2AD967C
+    // Offset: 0x1E82A8C
     ::UnityEngine::Color ProcessColor(::UnityEngine::Color color, float intensity);
     // protected System.Void .ctor()
-    // Offset: 0x2ACB9A8
+    // Offset: 0x1E74D70
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeLightWithIds* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RuntimeLightWithIds::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeLightWithIds*, creationType>()));
     }
     // protected override System.Void ProcessNewColorData()
-    // Offset: 0x2AD9438
+    // Offset: 0x1E82848
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::ProcessNewColorData()
     void ProcessNewColorData();

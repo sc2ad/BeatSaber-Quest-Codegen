@@ -36,15 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VertexPath : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly UnityEngine.Vector3[] localPoints
     // Size: 0x8
     // Offset: 0x10
@@ -90,58 +82,58 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::Vector3>) == 0x8);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x125F884
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E452C
     // Get static field: static private readonly UnityEngine.Vector3 _back
     static ::UnityEngine::Vector3 _get__back();
     // Set static field: static private readonly UnityEngine.Vector3 _back
     static void _set__back(::UnityEngine::Vector3 value);
     // Get instance field reference: private readonly UnityEngine.Vector3[] localPoints
-    ::ArrayW<::UnityEngine::Vector3>& dyn_localPoints();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn_localPoints();
     // Get instance field reference: private readonly UnityEngine.Vector3[] localTangents
-    ::ArrayW<::UnityEngine::Vector3>& dyn_localTangents();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn_localTangents();
     // Get instance field reference: private readonly UnityEngine.Vector3[] localNormals
-    ::ArrayW<::UnityEngine::Vector3>& dyn_localNormals();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn_localNormals();
     // Get instance field reference: private System.Single _length
-    float& dyn__length();
+    [[deprecated("Use field access instead!")]] float& dyn__length();
     // Get instance field reference: private readonly System.Single[] _cumulativeLengthAtEachVertex
-    ::ArrayW<float>& dyn__cumulativeLengthAtEachVertex();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn__cumulativeLengthAtEachVertex();
     // Get instance field reference: private readonly System.Int32[] _anchorVertexMap
-    ::ArrayW<int>& dyn__anchorVertexMap();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__anchorVertexMap();
     // Get instance field reference: private UnityEngine.Vector3[] _segmentPoints
-    ::ArrayW<::UnityEngine::Vector3>& dyn__segmentPoints();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn__segmentPoints();
     // public System.Single get_length()
-    // Offset: 0x2AC2F34
+    // Offset: 0x14A248C
     float get_length();
     // public System.Int32 get_numPoints()
-    // Offset: 0x2AC2F3C
+    // Offset: 0x14A2494
     int get_numPoints();
     // public System.Void .ctor(System.Int32 numberOfPathSegments)
-    // Offset: 0x2AC2F58
+    // Offset: 0x14A24B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VertexPath* New_ctor(int numberOfPathSegments) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VertexPath::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VertexPath*, creationType>(numberOfPathSegments)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2AC3F98
+    // Offset: 0x14A34F0
     static void _cctor();
     // public System.Void UpdateByBezierPath(BezierPath bezierPath)
-    // Offset: 0x2AC3054
+    // Offset: 0x14A25AC
     void UpdateByBezierPath(::GlobalNamespace::BezierPath* bezierPath);
     // public System.Single TimeAtPoint(System.Int32 pointIndex)
-    // Offset: 0x2AC3E7C
+    // Offset: 0x14A33D4
     float TimeAtPoint(int pointIndex);
     // public UnityEngine.Vector3 GetTangent(System.Int32 index)
-    // Offset: 0x2AC3EC0
+    // Offset: 0x14A3418
     ::UnityEngine::Vector3 GetTangent(int index);
     // public UnityEngine.Vector3 GetNormal(System.Int32 index)
-    // Offset: 0x2AC3F08
+    // Offset: 0x14A3460
     ::UnityEngine::Vector3 GetNormal(int index);
     // public UnityEngine.Vector3 GetPoint(System.Int32 index)
-    // Offset: 0x2AC3F50
+    // Offset: 0x14A34A8
     ::UnityEngine::Vector3 GetPoint(int index);
     // private System.Void SplitBezierPathIntoFixNumberOfSegments(BezierPath bezierPath, System.Int32 numberOfVertexSegments)
-    // Offset: 0x2AC3888
+    // Offset: 0x14A2DE0
     void SplitBezierPathIntoFixNumberOfSegments(::GlobalNamespace::BezierPath* bezierPath, int numberOfVertexSegments);
   }; // VertexPath
   #pragma pack(pop)

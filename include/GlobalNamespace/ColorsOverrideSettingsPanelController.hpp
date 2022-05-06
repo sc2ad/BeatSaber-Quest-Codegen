@@ -68,15 +68,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorsOverrideSettingsPanelController : public ::UnityEngine::MonoBehaviour/*, public ::GlobalNamespace::IRefreshable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Toggle _overrideColorsToggle
     // Size: 0x8
     // Offset: 0x18
@@ -113,7 +105,7 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Button* editColorSchemeButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0x12578D0
+    // [SpaceAttribute] Offset: 0x10DC4B4
     // private HMUI.PanelAnimationSO _presentPanelAnimation
     // Size: 0x8
     // Offset: 0x48
@@ -126,7 +118,7 @@ namespace GlobalNamespace {
     ::HMUI::PanelAnimationSO* dismissPanelAnimation;
     // Field size check
     static_assert(sizeof(::HMUI::PanelAnimationSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x1257918
+    // [InjectAttribute] Offset: 0x10DC4FC
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x58
@@ -161,75 +153,69 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Toggle _overrideColorsToggle
-    ::UnityEngine::UI::Toggle*& dyn__overrideColorsToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__overrideColorsToggle();
     // Get instance field reference: private UnityEngine.GameObject _detailsPanelGO
-    ::UnityEngine::GameObject*& dyn__detailsPanelGO();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__detailsPanelGO();
     // Get instance field reference: private ColorSchemeDropdown _colorSchemeDropDown
-    ::GlobalNamespace::ColorSchemeDropdown*& dyn__colorSchemeDropDown();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSchemeDropdown*& dyn__colorSchemeDropDown();
     // Get instance field reference: private EditColorSchemeController _editColorSchemeController
-    ::GlobalNamespace::EditColorSchemeController*& dyn__editColorSchemeController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EditColorSchemeController*& dyn__editColorSchemeController();
     // Get instance field reference: private HMUI.ModalView _editColorSchemeModalView
-    ::HMUI::ModalView*& dyn__editColorSchemeModalView();
+    [[deprecated("Use field access instead!")]] ::HMUI::ModalView*& dyn__editColorSchemeModalView();
     // Get instance field reference: private UnityEngine.UI.Button _editColorSchemeButton
-    ::UnityEngine::UI::Button*& dyn__editColorSchemeButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__editColorSchemeButton();
     // Get instance field reference: private HMUI.PanelAnimationSO _presentPanelAnimation
-    ::HMUI::PanelAnimationSO*& dyn__presentPanelAnimation();
+    [[deprecated("Use field access instead!")]] ::HMUI::PanelAnimationSO*& dyn__presentPanelAnimation();
     // Get instance field reference: private HMUI.PanelAnimationSO _dismissPanelAnimation
-    ::HMUI::PanelAnimationSO*& dyn__dismissPanelAnimation();
+    [[deprecated("Use field access instead!")]] ::HMUI::PanelAnimationSO*& dyn__dismissPanelAnimation();
     // Get instance field reference: private readonly IAnalyticsModel _analyticsModel
-    ::GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
     // Get instance field reference: private ColorSchemesSettings _colorSchemesSettings
-    ::GlobalNamespace::ColorSchemesSettings*& dyn__colorSchemesSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSchemesSettings*& dyn__colorSchemesSettings();
     // Get instance field reference: private System.Boolean _initialized
-    bool& dyn__initialized();
+    [[deprecated("Use field access instead!")]] bool& dyn__initialized();
     // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
-    ::HMUI::ButtonBinder*& dyn__buttonBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // public ColorSchemesSettings get_colorSchemesSettings()
-    // Offset: 0x135931C
+    // Offset: 0x134259C
     ::GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();
-    // public System.Void SetData(ColorSchemesSettings colorSchemesSettings)
-    // Offset: 0x1359324
-    void SetData(::GlobalNamespace::ColorSchemesSettings* colorSchemesSettings);
-    // protected System.Void OnDestroy()
-    // Offset: 0x1359528
-    void OnDestroy();
-    // protected System.Void OnDisable()
-    // Offset: 0x1359720
-    void OnDisable();
-    // public System.Void Refresh()
-    // Offset: 0x1359744
-    void Refresh();
-    // private System.Void HandleDropDownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropDownWithTableView, System.Int32 idx)
-    // Offset: 0x13598C8
-    void HandleDropDownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropDownWithTableView, int idx);
-    // private System.Void HandleOverrideColorsToggleValueChanged(System.Boolean isOn)
-    // Offset: 0x1359A24
-    void HandleOverrideColorsToggleValueChanged(bool isOn);
-    // private System.Void HandleEditColorSchemeButtonWasPressed()
-    // Offset: 0x1359C08
-    void HandleEditColorSchemeButtonWasPressed();
-    // private System.Void HandleEditColorSchemeControllerDidFinish()
-    // Offset: 0x1359C84
-    void HandleEditColorSchemeControllerDidFinish();
-    // private System.Void HandleEditColorSchemeControllerDidChangeColorScheme(ColorScheme colorScheme)
-    // Offset: 0x1359CE0
-    void HandleEditColorSchemeControllerDidChangeColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
-    // private System.Void <HandleOverrideColorsToggleValueChanged>b__19_0()
-    // Offset: 0x1359D00
-    void $HandleOverrideColorsToggleValueChanged$b__19_0();
     // public System.Void .ctor()
-    // Offset: 0x1359CF8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1342F78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorsOverrideSettingsPanelController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorsOverrideSettingsPanelController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorsOverrideSettingsPanelController*, creationType>()));
     }
+    // public System.Void SetData(ColorSchemesSettings colorSchemesSettings)
+    // Offset: 0x13425A4
+    void SetData(::GlobalNamespace::ColorSchemesSettings* colorSchemesSettings);
+    // protected System.Void OnDestroy()
+    // Offset: 0x13427A8
+    void OnDestroy();
+    // protected System.Void OnDisable()
+    // Offset: 0x13429A0
+    void OnDisable();
+    // public System.Void Refresh()
+    // Offset: 0x13429C4
+    void Refresh();
+    // private System.Void HandleDropDownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropDownWithTableView, System.Int32 idx)
+    // Offset: 0x1342B48
+    void HandleDropDownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropDownWithTableView, int idx);
+    // private System.Void HandleOverrideColorsToggleValueChanged(System.Boolean isOn)
+    // Offset: 0x1342CA4
+    void HandleOverrideColorsToggleValueChanged(bool isOn);
+    // private System.Void HandleEditColorSchemeButtonWasPressed()
+    // Offset: 0x1342E88
+    void HandleEditColorSchemeButtonWasPressed();
+    // private System.Void HandleEditColorSchemeControllerDidFinish()
+    // Offset: 0x1342F04
+    void HandleEditColorSchemeControllerDidFinish();
+    // private System.Void HandleEditColorSchemeControllerDidChangeColorScheme(ColorScheme colorScheme)
+    // Offset: 0x1342F60
+    void HandleEditColorSchemeControllerDidChangeColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
+    // private System.Void <HandleOverrideColorsToggleValueChanged>b__19_0()
+    // Offset: 0x1342F80
+    void $HandleOverrideColorsToggleValueChanged$b__19_0();
   }; // ColorsOverrideSettingsPanelController
   #pragma pack(pop)
   static check_size<sizeof(ColorsOverrideSettingsPanelController), 112 + sizeof(::HMUI::ButtonBinder*)> __GlobalNamespace_ColorsOverrideSettingsPanelControllerSizeCheck;
@@ -244,6 +230,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorsOverrideSettingsPanelController*), "get_colorSchemesSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ColorsOverrideSettingsPanelController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ColorsOverrideSettingsPanelController::SetData
 // Il2CppName: SetData
 template<>
@@ -329,7 +319,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorsOverrideSettingsPanelController*), "<HandleOverrideColorsToggleValueChanged>b__19_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ColorsOverrideSettingsPanelController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

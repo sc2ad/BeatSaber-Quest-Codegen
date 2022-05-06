@@ -61,15 +61,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::CreditsController::$ScrollCoroutine$d__13
     class $ScrollCoroutine$d__13;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private CreditsScenesTransitionSetupDataSO _creditsSceneSetupDataSO
     // Size: 0x8
     // Offset: 0x18
@@ -108,7 +100,7 @@ namespace GlobalNamespace {
     ::UnityEngine::RectTransform* contentWrapper;
     // Field size check
     static_assert(sizeof(::UnityEngine::RectTransform*) == 0x8);
-    // [InjectAttribute] Offset: 0x1258C54
+    // [InjectAttribute] Offset: 0x10DD838
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x48
@@ -137,62 +129,60 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private CreditsScenesTransitionSetupDataSO _creditsSceneSetupDataSO
-    ::GlobalNamespace::CreditsScenesTransitionSetupDataSO*& dyn__creditsSceneSetupDataSO();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::CreditsScenesTransitionSetupDataSO*& dyn__creditsSceneSetupDataSO();
     // Get instance field reference: private AudioPlayerBase _audioPlayer
-    ::GlobalNamespace::AudioPlayerBase*& dyn__audioPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioPlayerBase*& dyn__audioPlayer();
     // Get instance field reference: private UnityEngine.UI.Button _continueButton
-    ::UnityEngine::UI::Button*& dyn__continueButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__continueButton();
     // Get instance field reference: private UnityEngine.RectTransform _contentRectTransform
-    ::UnityEngine::RectTransform*& dyn__contentRectTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__contentRectTransform();
     // Get instance field reference: private System.Single _overflowHeight
-    float& dyn__overflowHeight();
+    [[deprecated("Use field access instead!")]] float& dyn__overflowHeight();
     // Get instance field reference: private UnityEngine.RectTransform _contentWrapper
-    ::UnityEngine::RectTransform*& dyn__contentWrapper();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__contentWrapper();
     // Get instance field reference: private readonly IVRPlatformHelper _vrPlatformHelper
-    ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
-    ::HMUI::ButtonBinder*& dyn__buttonBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // Get instance field reference: private System.Boolean _didFinish
-    bool& dyn__didFinish();
+    [[deprecated("Use field access instead!")]] bool& dyn__didFinish();
     // Get instance field reference: private System.Boolean _isPaused
-    bool& dyn__isPaused();
-    // protected System.Void Start()
-    // Offset: 0x1407610
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x1407934
-    void OnDestroy();
-    // private System.Void Finish()
-    // Offset: 0x1407AE0
-    void Finish();
-    // private System.Collections.IEnumerator ScrollCoroutine()
-    // Offset: 0x14078C4
-    ::System::Collections::IEnumerator* ScrollCoroutine();
-    // private System.Void HandleInputFocusCaptured()
-    // Offset: 0x1407888
-    void HandleInputFocusCaptured();
-    // private System.Void HandleInputFocusReleased()
-    // Offset: 0x1407D28
-    void HandleInputFocusReleased();
+    [[deprecated("Use field access instead!")]] bool& dyn__isPaused();
     // public System.Void .ctor()
-    // Offset: 0x1407D60
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1427B0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CreditsController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CreditsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CreditsController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x14273BC
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x14276E0
+    void OnDestroy();
+    // private System.Void Finish()
+    // Offset: 0x142788C
+    void Finish();
+    // private System.Collections.IEnumerator ScrollCoroutine()
+    // Offset: 0x1427670
+    ::System::Collections::IEnumerator* ScrollCoroutine();
+    // private System.Void HandleInputFocusCaptured()
+    // Offset: 0x1427634
+    void HandleInputFocusCaptured();
+    // private System.Void HandleInputFocusReleased()
+    // Offset: 0x1427AD4
+    void HandleInputFocusReleased();
   }; // CreditsController
   #pragma pack(pop)
   static check_size<sizeof(CreditsController), 89 + sizeof(bool)> __GlobalNamespace_CreditsControllerSizeCheck;
   static_assert(sizeof(CreditsController) == 0x5A);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::CreditsController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CreditsController::Start
 // Il2CppName: Start
 template<>
@@ -241,7 +231,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsController*), "HandleInputFocusReleased", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CreditsController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

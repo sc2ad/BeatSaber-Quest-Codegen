@@ -54,7 +54,7 @@ namespace OnlineServices {
     // Set static field: static public OnlineServices.ScoresScope Friends
     static void _set_Friends(::OnlineServices::ScoresScope value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OnlineServices.ScoresScope
   #pragma pack(pop)
   static check_size<sizeof(ScoresScope), 0 + sizeof(int)> __OnlineServices_ScoresScopeSizeCheck;

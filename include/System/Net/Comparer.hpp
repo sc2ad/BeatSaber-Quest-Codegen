@@ -32,22 +32,24 @@ namespace System::Net {
     operator ::System::Collections::IComparer() noexcept {
       return *reinterpret_cast<::System::Collections::IComparer*>(this);
     }
-    // private System.Int32 System.Collections.IComparer.Compare(System.Object ol, System.Object or)
-    // Offset: 0x1A363C0
-    int System_Collections_IComparer_Compare(::Il2CppObject* ol, ::Il2CppObject* _or);
     // public System.Void .ctor()
-    // Offset: 0x1A364A4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1A6FA8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Comparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Comparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Comparer*, creationType>()));
     }
+    // private System.Int32 System.Collections.IComparer.Compare(System.Object ol, System.Object or)
+    // Offset: 0x1A6F9A8
+    int System_Collections_IComparer_Compare(::Il2CppObject* ol, ::Il2CppObject* _or);
   }; // System.Net.Comparer
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Net::Comparer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Comparer::System_Collections_IComparer_Compare
 // Il2CppName: System.Collections.IComparer.Compare
 template<>
@@ -58,7 +60,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
     return ::il2cpp_utils::FindMethod(classof(System::Net::Comparer*), "System.Collections.IComparer.Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ol, _or});
   }
 };
-// Writing MetadataGetter for method: System::Net::Comparer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

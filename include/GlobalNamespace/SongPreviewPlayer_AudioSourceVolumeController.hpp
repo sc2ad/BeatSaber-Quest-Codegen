@@ -30,15 +30,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SongPreviewPlayer::AudioSourceVolumeController : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly UnityEngine.AudioSource audioSource
     // Size: 0x8
     // Offset: 0x10
@@ -59,25 +51,25 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public readonly UnityEngine.AudioSource audioSource
-    ::UnityEngine::AudioSource*& dyn_audioSource();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioSource*& dyn_audioSource();
     // Get instance field reference: private System.Single <maxVolume>k__BackingField
-    float& dyn_$maxVolume$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$maxVolume$k__BackingField();
     // Get instance field reference: private System.Single _volume
-    float& dyn__volume();
+    [[deprecated("Use field access instead!")]] float& dyn__volume();
     // public System.Single get_volume()
-    // Offset: 0x2AA7EB8
+    // Offset: 0x138EADC
     float get_volume();
     // public System.Void set_volume(System.Single value)
-    // Offset: 0x2AA7520
+    // Offset: 0x138E144
     void set_volume(float value);
     // public System.Single get_maxVolume()
-    // Offset: 0x2AA7EC0
+    // Offset: 0x138EAE4
     float get_maxVolume();
     // public System.Void set_maxVolume(System.Single value)
-    // Offset: 0x2AA7EC8
+    // Offset: 0x138EAEC
     void set_maxVolume(float value);
     // public System.Void .ctor(UnityEngine.AudioSource audioSource)
-    // Offset: 0x2AA7040
+    // Offset: 0x138DC64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPreviewPlayer::AudioSourceVolumeController* New_ctor(::UnityEngine::AudioSource* audioSource) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::.ctor");

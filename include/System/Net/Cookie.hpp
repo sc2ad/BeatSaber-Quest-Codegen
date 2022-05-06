@@ -49,15 +49,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class Cookie : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String m_comment
     // Size: 0x8
     // Offset: 0x10
@@ -150,7 +142,7 @@ namespace System::Net {
     bool m_secure;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [OptionalFieldAttribute] Offset: 0x11B83C0
+    // [OptionalFieldAttribute] Offset: 0x103DDD8
     // private System.Boolean m_httpOnly
     // Size: 0x1
     // Offset: 0x71
@@ -215,173 +207,171 @@ namespace System::Net {
     // Set static field: static private System.Net.Comparer staticComparer
     static void _set_staticComparer(::System::Net::Comparer* value);
     // Get instance field reference: private System.String m_comment
-    ::StringW& dyn_m_comment();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_comment();
     // Get instance field reference: private System.Uri m_commentUri
-    ::System::Uri*& dyn_m_commentUri();
+    [[deprecated("Use field access instead!")]] ::System::Uri*& dyn_m_commentUri();
     // Get instance field reference: private System.Net.CookieVariant m_cookieVariant
-    ::System::Net::CookieVariant& dyn_m_cookieVariant();
+    [[deprecated("Use field access instead!")]] ::System::Net::CookieVariant& dyn_m_cookieVariant();
     // Get instance field reference: private System.Boolean m_discard
-    bool& dyn_m_discard();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_discard();
     // Get instance field reference: private System.String m_domain
-    ::StringW& dyn_m_domain();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_domain();
     // Get instance field reference: private System.Boolean m_domain_implicit
-    bool& dyn_m_domain_implicit();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_domain_implicit();
     // Get instance field reference: private System.DateTime m_expires
-    ::System::DateTime& dyn_m_expires();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_m_expires();
     // Get instance field reference: private System.String m_name
-    ::StringW& dyn_m_name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_name();
     // Get instance field reference: private System.String m_path
-    ::StringW& dyn_m_path();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_path();
     // Get instance field reference: private System.Boolean m_path_implicit
-    bool& dyn_m_path_implicit();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_path_implicit();
     // Get instance field reference: private System.String m_port
-    ::StringW& dyn_m_port();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_port();
     // Get instance field reference: private System.Boolean m_port_implicit
-    bool& dyn_m_port_implicit();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_port_implicit();
     // Get instance field reference: private System.Int32[] m_port_list
-    ::ArrayW<int>& dyn_m_port_list();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_m_port_list();
     // Get instance field reference: private System.Boolean m_secure
-    bool& dyn_m_secure();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_secure();
     // Get instance field reference: private System.Boolean m_httpOnly
-    bool& dyn_m_httpOnly();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_httpOnly();
     // Get instance field reference: private System.DateTime m_timeStamp
-    ::System::DateTime& dyn_m_timeStamp();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_m_timeStamp();
     // Get instance field reference: private System.String m_value
-    ::StringW& dyn_m_value();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_value();
     // Get instance field reference: private System.Int32 m_version
-    int& dyn_m_version();
+    [[deprecated("Use field access instead!")]] int& dyn_m_version();
     // Get instance field reference: private System.String m_domainKey
-    ::StringW& dyn_m_domainKey();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_domainKey();
     // Get instance field reference: System.Boolean IsQuotedVersion
-    bool& dyn_IsQuotedVersion();
+    [[deprecated("Use field access instead!")]] bool& dyn_IsQuotedVersion();
     // Get instance field reference: System.Boolean IsQuotedDomain
-    bool& dyn_IsQuotedDomain();
+    [[deprecated("Use field access instead!")]] bool& dyn_IsQuotedDomain();
     // public System.String get_Comment()
-    // Offset: 0x1A36F08
+    // Offset: 0x1A704F0
     ::StringW get_Comment();
     // public System.Void set_Comment(System.String value)
-    // Offset: 0x1A36F10
+    // Offset: 0x1A704F8
     void set_Comment(::StringW value);
     // public System.Void set_CommentUri(System.Uri value)
-    // Offset: 0x1A36F78
+    // Offset: 0x1A70560
     void set_CommentUri(::System::Uri* value);
     // public System.Void set_HttpOnly(System.Boolean value)
-    // Offset: 0x1A36F80
+    // Offset: 0x1A70568
     void set_HttpOnly(bool value);
     // public System.Void set_Discard(System.Boolean value)
-    // Offset: 0x1A36F8C
+    // Offset: 0x1A70574
     void set_Discard(bool value);
     // public System.String get_Domain()
-    // Offset: 0x1A36F98
+    // Offset: 0x1A70580
     ::StringW get_Domain();
     // public System.Void set_Domain(System.String value)
-    // Offset: 0x1A36FA0
+    // Offset: 0x1A70588
     void set_Domain(::StringW value);
     // private System.String get__Domain()
-    // Offset: 0x1A37034
+    // Offset: 0x1A7061C
     ::StringW get__Domain();
     // public System.Boolean get_Expired()
-    // Offset: 0x1A37108
+    // Offset: 0x1A706F0
     bool get_Expired();
     // public System.Void set_Expires(System.DateTime value)
-    // Offset: 0x1A371E4
+    // Offset: 0x1A707CC
     void set_Expires(::System::DateTime value);
     // public System.String get_Name()
-    // Offset: 0x1A371EC
+    // Offset: 0x1A707D4
     ::StringW get_Name();
     // public System.Void set_Name(System.String value)
-    // Offset: 0x1A371F4
+    // Offset: 0x1A707DC
     void set_Name(::StringW value);
     // public System.String get_Path()
-    // Offset: 0x1A3745C
+    // Offset: 0x1A70A44
     ::StringW get_Path();
     // public System.Void set_Path(System.String value)
-    // Offset: 0x1A37464
+    // Offset: 0x1A70A4C
     void set_Path(::StringW value);
     // private System.String get__Path()
-    // Offset: 0x1A374E0
+    // Offset: 0x1A70AC8
     ::StringW get__Path();
     // System.Boolean get_Plain()
-    // Offset: 0x1A370F8
+    // Offset: 0x1A706E0
     bool get_Plain();
     // public System.String get_Port()
-    // Offset: 0x1A38124
+    // Offset: 0x1A7170C
     ::StringW get_Port();
     // public System.Void set_Port(System.String value)
-    // Offset: 0x1A3812C
+    // Offset: 0x1A71714
     void set_Port(::StringW value);
     // System.Int32[] get_PortList()
-    // Offset: 0x1A383F0
+    // Offset: 0x1A719D8
     ::ArrayW<int> get_PortList();
     // private System.String get__Port()
-    // Offset: 0x1A383F8
+    // Offset: 0x1A719E0
     ::StringW get__Port();
     // public System.Boolean get_Secure()
-    // Offset: 0x1A384B8
+    // Offset: 0x1A71AA0
     bool get_Secure();
     // public System.Void set_Secure(System.Boolean value)
-    // Offset: 0x1A384C0
+    // Offset: 0x1A71AA8
     void set_Secure(bool value);
     // public System.String get_Value()
-    // Offset: 0x1A384CC
+    // Offset: 0x1A71AB4
     ::StringW get_Value();
     // public System.Void set_Value(System.String value)
-    // Offset: 0x1A384D4
+    // Offset: 0x1A71ABC
     void set_Value(::StringW value);
     // System.Net.CookieVariant get_Variant()
-    // Offset: 0x1A3854C
+    // Offset: 0x1A71B34
     ::System::Net::CookieVariant get_Variant();
     // System.String get_DomainKey()
-    // Offset: 0x1A38554
+    // Offset: 0x1A71B3C
     ::StringW get_DomainKey();
     // public System.Int32 get_Version()
-    // Offset: 0x1A38570
+    // Offset: 0x1A71B58
     int get_Version();
     // public System.Void set_Version(System.Int32 value)
-    // Offset: 0x1A38578
+    // Offset: 0x1A71B60
     void set_Version(int value);
     // private System.String get__Version()
-    // Offset: 0x1A38620
+    // Offset: 0x1A71C08
     ::StringW get__Version();
-    // static private System.Void .cctor()
-    // Offset: 0x1A38DF0
-    static void _cctor();
-    // System.Boolean InternalSetName(System.String value)
-    // Offset: 0x1A3734C
-    bool InternalSetName(::StringW value);
-    // static private System.Boolean IsDomainEqualToHost(System.String domain, System.String host)
-    // Offset: 0x1A37578
-    static bool IsDomainEqualToHost(::StringW domain, ::StringW host);
-    // System.Boolean VerifySetDefaults(System.Net.CookieVariant variant, System.Uri uri, System.Boolean isLocalDomain, System.String localDomain, System.Boolean set_default, System.Boolean isThrow)
-    // Offset: 0x1A375DC
-    bool VerifySetDefaults(::System::Net::CookieVariant variant, ::System::Uri* uri, bool isLocalDomain, ::StringW localDomain, bool set_default, bool isThrow);
-    // static private System.Boolean DomainCharsTest(System.String name)
-    // Offset: 0x1A37FB8
-    static bool DomainCharsTest(::StringW name);
-    // static System.Collections.IComparer GetComparer()
-    // Offset: 0x1A3871C
-    static ::System::Collections::IComparer* GetComparer();
     // public System.Void .ctor()
-    // Offset: 0x1A36DFC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1A703E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Cookie* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Cookie::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Cookie*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1A723D8
+    static void _cctor();
+    // System.Boolean InternalSetName(System.String value)
+    // Offset: 0x1A70934
+    bool InternalSetName(::StringW value);
+    // static private System.Boolean IsDomainEqualToHost(System.String domain, System.String host)
+    // Offset: 0x1A70B60
+    static bool IsDomainEqualToHost(::StringW domain, ::StringW host);
+    // System.Boolean VerifySetDefaults(System.Net.CookieVariant variant, System.Uri uri, System.Boolean isLocalDomain, System.String localDomain, System.Boolean set_default, System.Boolean isThrow)
+    // Offset: 0x1A70BC4
+    bool VerifySetDefaults(::System::Net::CookieVariant variant, ::System::Uri* uri, bool isLocalDomain, ::StringW localDomain, bool set_default, bool isThrow);
+    // static private System.Boolean DomainCharsTest(System.String name)
+    // Offset: 0x1A715A0
+    static bool DomainCharsTest(::StringW name);
+    // static System.Collections.IComparer GetComparer()
+    // Offset: 0x1A71D04
+    static ::System::Collections::IComparer* GetComparer();
     // public override System.Boolean Equals(System.Object comparand)
-    // Offset: 0x1A38784
+    // Offset: 0x1A71D6C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object comparand)
     bool Equals(::Il2CppObject* comparand);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1A38864
+    // Offset: 0x1A71E4C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1A38AC4
+    // Offset: 0x1A720AC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -635,6 +625,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(System::Net::Cookie*), "get__Version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Net::Cookie::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Cookie::_cctor
 // Il2CppName: .cctor
 template<>
@@ -693,10 +687,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(System::Net::Cookie*), "GetComparer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Net::Cookie::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Cookie::Equals
 // Il2CppName: Equals
 template<>

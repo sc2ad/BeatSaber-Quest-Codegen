@@ -51,22 +51,24 @@ namespace NUnit::Framework::Internal::Builders {
     operator ::NUnit::Framework::Interfaces::ICombiningStrategy() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::ICombiningStrategy*>(this);
     }
-    // public System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestCaseData> GetTestCases(System.Collections.IEnumerable[] sources)
-    // Offset: 0x1C48298
-    ::System::Collections::Generic::IEnumerable_1<::NUnit::Framework::Interfaces::ITestCaseData*>* GetTestCases(::ArrayW<::System::Collections::IEnumerable*> sources);
     // public System.Void .ctor()
-    // Offset: 0x1C3A06C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C92604
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CombinatorialStrategy* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Builders::CombinatorialStrategy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CombinatorialStrategy*, creationType>()));
     }
+    // public System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestCaseData> GetTestCases(System.Collections.IEnumerable[] sources)
+    // Offset: 0x1CA0830
+    ::System::Collections::Generic::IEnumerable_1<::NUnit::Framework::Interfaces::ITestCaseData*>* GetTestCases(::ArrayW<::System::Collections::IEnumerable*> sources);
   }; // NUnit.Framework.Internal.Builders.CombinatorialStrategy
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::CombinatorialStrategy::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::CombinatorialStrategy::GetTestCases
 // Il2CppName: GetTestCases
 template<>
@@ -76,7 +78,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::CombinatorialStrategy*), "GetTestCases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sources});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::CombinatorialStrategy::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

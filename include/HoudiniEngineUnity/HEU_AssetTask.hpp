@@ -106,20 +106,12 @@ namespace HoudiniEngineUnity {
       // Set static field: static public HoudiniEngineUnity.HEU_AssetTask/HoudiniEngineUnity.BuildType RELOAD
       static void _set_RELOAD(::HoudiniEngineUnity::HEU_AssetTask::BuildType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // HoudiniEngineUnity.HEU_AssetTask/HoudiniEngineUnity.BuildType
     #pragma pack(pop)
     static check_size<sizeof(HEU_AssetTask::BuildType), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_AssetTask_BuildTypeSizeCheck;
     static_assert(sizeof(HEU_AssetTask::BuildType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public HoudiniEngineUnity.HEU_AssetTask/HoudiniEngineUnity.BuildType _buildType
     // Size: 0x4
     // Offset: 0x30
@@ -162,51 +154,50 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(int64_t) == 0x8);
     public:
     // Get instance field reference: public HoudiniEngineUnity.HEU_AssetTask/HoudiniEngineUnity.BuildType _buildType
-    ::HoudiniEngineUnity::HEU_AssetTask::BuildType& dyn__buildType();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_AssetTask::BuildType& dyn__buildType();
     // Get instance field reference: public HoudiniEngineUnity.HEU_HoudiniAsset _asset
-    ::HoudiniEngineUnity::HEU_HoudiniAsset*& dyn__asset();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_HoudiniAsset*& dyn__asset();
     // Get instance field reference: public System.String _assetPath
-    ::StringW& dyn__assetPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__assetPath();
     // Get instance field reference: public UnityEngine.Vector3 _position
-    ::UnityEngine::Vector3& dyn__position();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__position();
     // Get instance field reference: public System.Boolean _buildResult
-    bool& dyn__buildResult();
+    [[deprecated("Use field access instead!")]] bool& dyn__buildResult();
     // Get instance field reference: public System.Int64 _forceSessionID
-    int64_t& dyn__forceSessionID();
+    [[deprecated("Use field access instead!")]] int64_t& dyn__forceSessionID();
     // public HoudiniEngineUnity.HEU_SessionBase GetTaskSession()
-    // Offset: 0x16ADA60
+    // Offset: 0x16E5370
     ::HoudiniEngineUnity::HEU_SessionBase* GetTaskSession();
     // private System.Void CookCompletedCallback(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.Boolean bSuccess, System.Collections.Generic.List`1<UnityEngine.GameObject> outputs)
-    // Offset: 0x16AE49C
+    // Offset: 0x16E5DAC
     void CookCompletedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool bSuccess, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputs);
     // private System.Void CookCompletedCallback(HoudiniEngineUnity.HEU_CookedEventData cookedEventData)
-    // Offset: 0x16AE53C
+    // Offset: 0x16E5E4C
     void CookCompletedCallback(::HoudiniEngineUnity::HEU_CookedEventData* cookedEventData);
     // private System.Void CookCompletedCallback(HoudiniEngineUnity.HEU_ReloadEventData reloadEventData)
-    // Offset: 0x16AE54C
+    // Offset: 0x16E5E5C
     void CookCompletedCallback(::HoudiniEngineUnity::HEU_ReloadEventData* reloadEventData);
     // public System.Void .ctor()
-    // Offset: 0x16AE55C
+    // Offset: 0x16E5E6C
     // Implemented from: HoudiniEngineUnity.HEU_Task
     // Base method: System.Void HEU_Task::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_AssetTask* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_AssetTask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_AssetTask*, creationType>()));
     }
     // public override System.Void DoTask()
-    // Offset: 0x16ADB44
+    // Offset: 0x16E5454
     // Implemented from: HoudiniEngineUnity.HEU_Task
     // Base method: System.Void HEU_Task::DoTask()
     void DoTask();
     // public override System.Void KillTask()
-    // Offset: 0x16AE0AC
+    // Offset: 0x16E59BC
     // Implemented from: HoudiniEngineUnity.HEU_Task
     // Base method: System.Void HEU_Task::KillTask()
     void KillTask();
     // public override System.Void CompleteTask(HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskResult result)
-    // Offset: 0x16AE2A4
+    // Offset: 0x16E5BB4
     // Implemented from: HoudiniEngineUnity.HEU_Task
     // Base method: System.Void HEU_Task::CompleteTask(HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskResult result)
     void CompleteTask(::HoudiniEngineUnity::HEU_Task::TaskResult result);

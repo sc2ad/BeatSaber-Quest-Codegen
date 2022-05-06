@@ -44,30 +44,22 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TutorialPause : public ::Il2CppObject/*, public ::GlobalNamespace::IGamePause*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x12565E0
+    // [InjectAttribute] Offset: 0x10DB1C4
     // private readonly TutorialSongController _tutorialSongController
     // Size: 0x8
     // Offset: 0x10
     ::GlobalNamespace::TutorialSongController* tutorialSongController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::TutorialSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0x12565F0
+    // [InjectAttribute] Offset: 0x10DB1D4
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1256600
+    // [InjectAttribute] Offset: 0x10DB1E4
     // private readonly AudioListenerController _audioListenerController
     // Size: 0x8
     // Offset: 0x20
@@ -104,58 +96,56 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IGamePause*>(this);
     }
     // Get instance field reference: private readonly TutorialSongController _tutorialSongController
-    ::GlobalNamespace::TutorialSongController*& dyn__tutorialSongController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TutorialSongController*& dyn__tutorialSongController();
     // Get instance field reference: private readonly SaberManager _saberManager
-    ::GlobalNamespace::SaberManager*& dyn__saberManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberManager*& dyn__saberManager();
     // Get instance field reference: private readonly AudioListenerController _audioListenerController
-    ::GlobalNamespace::AudioListenerController*& dyn__audioListenerController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioListenerController*& dyn__audioListenerController();
     // Get instance field reference: private System.Action didPauseEvent
-    ::System::Action*& dyn_didPauseEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didPauseEvent();
     // Get instance field reference: private System.Action willResumeEvent
-    ::System::Action*& dyn_willResumeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_willResumeEvent();
     // Get instance field reference: private System.Action didResumeEvent
-    ::System::Action*& dyn_didResumeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didResumeEvent();
     // Get instance field reference: private System.Boolean _pause
-    bool& dyn__pause();
+    [[deprecated("Use field access instead!")]] bool& dyn__pause();
     // public System.Boolean get_isPaused()
-    // Offset: 0x2AB2338
+    // Offset: 0x1491524
     bool get_isPaused();
     // public System.Void add_didPauseEvent(System.Action value)
-    // Offset: 0x2AB2340
+    // Offset: 0x149152C
     void add_didPauseEvent(::System::Action* value);
     // public System.Void remove_didPauseEvent(System.Action value)
-    // Offset: 0x2AB23E4
+    // Offset: 0x14915D0
     void remove_didPauseEvent(::System::Action* value);
     // public System.Void add_willResumeEvent(System.Action value)
-    // Offset: 0x2AB2488
+    // Offset: 0x1491674
     void add_willResumeEvent(::System::Action* value);
     // public System.Void remove_willResumeEvent(System.Action value)
-    // Offset: 0x2AB252C
+    // Offset: 0x1491718
     void remove_willResumeEvent(::System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
-    // Offset: 0x2AB25D0
+    // Offset: 0x14917BC
     void add_didResumeEvent(::System::Action* value);
     // public System.Void remove_didResumeEvent(System.Action value)
-    // Offset: 0x2AB2674
+    // Offset: 0x1491860
     void remove_didResumeEvent(::System::Action* value);
-    // public System.Void Pause()
-    // Offset: 0x2AB2718
-    void Pause();
-    // public System.Void WillResume()
-    // Offset: 0x2AB2798
-    void WillResume();
-    // public System.Void Resume()
-    // Offset: 0x2AB27AC
-    void Resume();
     // public System.Void .ctor()
-    // Offset: 0x2AB2828
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1491A14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialPause* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialPause::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TutorialPause*, creationType>()));
     }
+    // public System.Void Pause()
+    // Offset: 0x1491904
+    void Pause();
+    // public System.Void WillResume()
+    // Offset: 0x1491984
+    void WillResume();
+    // public System.Void Resume()
+    // Offset: 0x1491998
+    void Resume();
   }; // TutorialPause
   #pragma pack(pop)
   static check_size<sizeof(TutorialPause), 64 + sizeof(bool)> __GlobalNamespace_TutorialPauseSizeCheck;
@@ -224,6 +214,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialPause*), "remove_didResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::TutorialPause::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TutorialPause::Pause
 // Il2CppName: Pause
 template<>
@@ -248,7 +242,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialPause*), "Resume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TutorialPause::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

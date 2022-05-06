@@ -56,13 +56,13 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 minX
-    int& dyn_minX();
+    [[deprecated("Use field access instead!")]] int& dyn_minX();
     // Get instance field reference: public System.Int32 minY
-    int& dyn_minY();
+    [[deprecated("Use field access instead!")]] int& dyn_minY();
     // Get instance field reference: public System.Int32 minZ
-    int& dyn_minZ();
+    [[deprecated("Use field access instead!")]] int& dyn_minZ();
     // Get instance field reference: public System.Boolean isValid
-    bool& dyn_isValid();
+    [[deprecated("Use field access instead!")]] bool& dyn_isValid();
   }; // HoudiniEngineUnity.HAPI_VolumeTileInfo
   #pragma pack(pop)
   static check_size<sizeof(HAPI_VolumeTileInfo), 12 + sizeof(bool)> __HoudiniEngineUnity_HAPI_VolumeTileInfoSizeCheck;

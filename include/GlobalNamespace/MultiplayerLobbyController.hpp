@@ -41,15 +41,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLobbyController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _innerCircleRadius
     // Size: 0x4
     // Offset: 0x18
@@ -62,28 +54,28 @@ namespace GlobalNamespace {
     float minOuterCircleRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x125A398
+    // [InjectAttribute] Offset: 0x10DEF7C
     // private readonly MultiplayerLobbyAvatarManager _multiplayerLobbyAvatarManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::MultiplayerLobbyAvatarManager* multiplayerLobbyAvatarManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLobbyAvatarManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x125A3A8
+    // [InjectAttribute] Offset: 0x10DEF8C
     // private readonly MultiplayerLobbyCenterStageManager _multiplayerLobbyCenterStageManager
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::MultiplayerLobbyCenterStageManager* multiplayerLobbyCenterStageManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLobbyCenterStageManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x125A3B8
+    // [InjectAttribute] Offset: 0x10DEF9C
     // private readonly MultiplayerLobbyAvatarPlaceManager _multiplayerLobbyAvatarPlaceManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager* multiplayerLobbyAvatarPlaceManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x125A3C8
+    // [InjectAttribute] Offset: 0x10DEFAC
     // private readonly MenuEnvironmentManager _menuEnvironmentManager
     // Size: 0x8
     // Offset: 0x38
@@ -100,44 +92,38 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _innerCircleRadius
-    float& dyn__innerCircleRadius();
+    [[deprecated("Use field access instead!")]] float& dyn__innerCircleRadius();
     // Get instance field reference: private System.Single _minOuterCircleRadius
-    float& dyn__minOuterCircleRadius();
+    [[deprecated("Use field access instead!")]] float& dyn__minOuterCircleRadius();
     // Get instance field reference: private readonly MultiplayerLobbyAvatarManager _multiplayerLobbyAvatarManager
-    ::GlobalNamespace::MultiplayerLobbyAvatarManager*& dyn__multiplayerLobbyAvatarManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLobbyAvatarManager*& dyn__multiplayerLobbyAvatarManager();
     // Get instance field reference: private readonly MultiplayerLobbyCenterStageManager _multiplayerLobbyCenterStageManager
-    ::GlobalNamespace::MultiplayerLobbyCenterStageManager*& dyn__multiplayerLobbyCenterStageManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLobbyCenterStageManager*& dyn__multiplayerLobbyCenterStageManager();
     // Get instance field reference: private readonly MultiplayerLobbyAvatarPlaceManager _multiplayerLobbyAvatarPlaceManager
-    ::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager*& dyn__multiplayerLobbyAvatarPlaceManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager*& dyn__multiplayerLobbyAvatarPlaceManager();
     // Get instance field reference: private readonly MenuEnvironmentManager _menuEnvironmentManager
-    ::GlobalNamespace::MenuEnvironmentManager*& dyn__menuEnvironmentManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuEnvironmentManager*& dyn__menuEnvironmentManager();
     // Get instance field reference: private System.Boolean <lobbyActivated>k__BackingField
-    bool& dyn_$lobbyActivated$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$lobbyActivated$k__BackingField();
     // public System.Boolean get_lobbyActivated()
-    // Offset: 0x13FD430
+    // Offset: 0x1409ED0
     bool get_lobbyActivated();
     // private System.Void set_lobbyActivated(System.Boolean value)
-    // Offset: 0x13FD438
+    // Offset: 0x1409ED8
     void set_lobbyActivated(bool value);
-    // public System.Void ActivateMultiplayerLobby()
-    // Offset: 0x13FD444
-    void ActivateMultiplayerLobby();
-    // public System.Void DeactivateMultiplayerLobby()
-    // Offset: 0x13FD4E0
-    void DeactivateMultiplayerLobby();
     // public System.Void .ctor()
-    // Offset: 0x13FD554
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1409FF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLobbyController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLobbyController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLobbyController*, creationType>()));
     }
+    // public System.Void ActivateMultiplayerLobby()
+    // Offset: 0x1409EE4
+    void ActivateMultiplayerLobby();
+    // public System.Void DeactivateMultiplayerLobby()
+    // Offset: 0x1409F80
+    void DeactivateMultiplayerLobby();
   }; // MultiplayerLobbyController
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLobbyController), 64 + sizeof(bool)> __GlobalNamespace_MultiplayerLobbyControllerSizeCheck;
@@ -161,6 +147,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyController*), "set_lobbyActivated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyController::ActivateMultiplayerLobby
 // Il2CppName: ActivateMultiplayerLobby
 template<>
@@ -177,7 +167,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyController*), "DeactivateMultiplayerLobby", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

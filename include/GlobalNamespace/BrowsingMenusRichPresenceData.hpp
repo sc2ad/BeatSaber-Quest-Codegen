@@ -36,15 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BrowsingMenusRichPresenceData : public ::Il2CppObject/*, public ::GlobalNamespace::IRichPresenceData*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String <localizedDescription>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -60,7 +52,7 @@ namespace GlobalNamespace {
     constexpr operator ::StringW() const noexcept {
       return localizedDescription;
     }
-    // [LocalizationKeyAttribute] Offset: 0x124E744
+    // [LocalizationKeyAttribute] Offset: 0x10D323C
     // static field const value: static private System.String kBrowsingMenusRichPresenceLocalizationKey
     static constexpr const char* kBrowsingMenusRichPresenceLocalizationKey = "BROWSING_MENUS_PRESENCE";
     // Get static field: static private System.String kBrowsingMenusRichPresenceLocalizationKey
@@ -68,20 +60,18 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kBrowsingMenusRichPresenceLocalizationKey
     static void _set_kBrowsingMenusRichPresenceLocalizationKey(::StringW value);
     // Get instance field reference: private System.String <localizedDescription>k__BackingField
-    ::StringW& dyn_$localizedDescription$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$localizedDescription$k__BackingField();
     // public System.String get_apiName()
-    // Offset: 0x134D920
+    // Offset: 0x1336B68
     ::StringW get_apiName();
     // public System.String get_localizedDescription()
-    // Offset: 0x134D968
+    // Offset: 0x1336BB0
     ::StringW get_localizedDescription();
     // private System.Void set_localizedDescription(System.String value)
-    // Offset: 0x134D970
+    // Offset: 0x1336BB8
     void set_localizedDescription(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x134D978
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1336BC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BrowsingMenusRichPresenceData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BrowsingMenusRichPresenceData::.ctor");

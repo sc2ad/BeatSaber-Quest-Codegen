@@ -61,11 +61,11 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: OVR.OpenVR.IVRExtendedDisplay/OVR.OpenVR._GetWindowBounds GetWindowBounds
-    ::OVR::OpenVR::IVRExtendedDisplay::_GetWindowBounds*& dyn_GetWindowBounds();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRExtendedDisplay::_GetWindowBounds*& dyn_GetWindowBounds();
     // Get instance field reference: OVR.OpenVR.IVRExtendedDisplay/OVR.OpenVR._GetEyeOutputViewport GetEyeOutputViewport
-    ::OVR::OpenVR::IVRExtendedDisplay::_GetEyeOutputViewport*& dyn_GetEyeOutputViewport();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRExtendedDisplay::_GetEyeOutputViewport*& dyn_GetEyeOutputViewport();
     // Get instance field reference: OVR.OpenVR.IVRExtendedDisplay/OVR.OpenVR._GetDXGIOutputInfo GetDXGIOutputInfo
-    ::OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo*& dyn_GetDXGIOutputInfo();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo*& dyn_GetDXGIOutputInfo();
   }; // OVR.OpenVR.IVRExtendedDisplay
   #pragma pack(pop)
   static check_size<sizeof(IVRExtendedDisplay), 16 + sizeof(::OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo*)> __OVR_OpenVR_IVRExtendedDisplaySizeCheck;

@@ -42,15 +42,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRGridCube : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.KeyCode GridKey
     // Size: 0x4
     // Offset: 0x18
@@ -125,61 +117,59 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.KeyCode GridKey
-    ::UnityEngine::KeyCode& dyn_GridKey();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::KeyCode& dyn_GridKey();
     // Get instance field reference: private UnityEngine.GameObject CubeGrid
-    ::UnityEngine::GameObject*& dyn_CubeGrid();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_CubeGrid();
     // Get instance field reference: private System.Boolean CubeGridOn
-    bool& dyn_CubeGridOn();
+    [[deprecated("Use field access instead!")]] bool& dyn_CubeGridOn();
     // Get instance field reference: private System.Boolean CubeSwitchColorOld
-    bool& dyn_CubeSwitchColorOld();
+    [[deprecated("Use field access instead!")]] bool& dyn_CubeSwitchColorOld();
     // Get instance field reference: private System.Boolean CubeSwitchColor
-    bool& dyn_CubeSwitchColor();
+    [[deprecated("Use field access instead!")]] bool& dyn_CubeSwitchColor();
     // Get instance field reference: private System.Int32 gridSizeX
-    int& dyn_gridSizeX();
+    [[deprecated("Use field access instead!")]] int& dyn_gridSizeX();
     // Get instance field reference: private System.Int32 gridSizeY
-    int& dyn_gridSizeY();
+    [[deprecated("Use field access instead!")]] int& dyn_gridSizeY();
     // Get instance field reference: private System.Int32 gridSizeZ
-    int& dyn_gridSizeZ();
+    [[deprecated("Use field access instead!")]] int& dyn_gridSizeZ();
     // Get instance field reference: private System.Single gridScale
-    float& dyn_gridScale();
+    [[deprecated("Use field access instead!")]] float& dyn_gridScale();
     // Get instance field reference: private System.Single cubeScale
-    float& dyn_cubeScale();
+    [[deprecated("Use field access instead!")]] float& dyn_cubeScale();
     // Get instance field reference: private OVRCameraRig CameraController
-    ::GlobalNamespace::OVRCameraRig*& dyn_CameraController();
-    // private System.Void Update()
-    // Offset: 0x19B8CA8
-    void Update();
-    // public System.Void SetOVRCameraController(ref OVRCameraRig cameraController)
-    // Offset: 0x19B8F10
-    void SetOVRCameraController(ByRef<::GlobalNamespace::OVRCameraRig*> cameraController);
-    // private System.Void UpdateCubeGrid()
-    // Offset: 0x19B8CAC
-    void UpdateCubeGrid();
-    // private System.Void CreateCubeGrid()
-    // Offset: 0x19B8F1C
-    void CreateCubeGrid();
-    // private System.Void CubeGridSwitchColor(System.Boolean CubeSwitchColor)
-    // Offset: 0x19B92C8
-    void CubeGridSwitchColor(bool CubeSwitchColor);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRCameraRig*& dyn_CameraController();
     // public System.Void .ctor()
-    // Offset: 0x19B966C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x19F2C54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRGridCube* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRGridCube::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRGridCube*, creationType>()));
     }
+    // private System.Void Update()
+    // Offset: 0x19F2290
+    void Update();
+    // public System.Void SetOVRCameraController(ref OVRCameraRig cameraController)
+    // Offset: 0x19F24F8
+    void SetOVRCameraController(ByRef<::GlobalNamespace::OVRCameraRig*> cameraController);
+    // private System.Void UpdateCubeGrid()
+    // Offset: 0x19F2294
+    void UpdateCubeGrid();
+    // private System.Void CreateCubeGrid()
+    // Offset: 0x19F2504
+    void CreateCubeGrid();
+    // private System.Void CubeGridSwitchColor(System.Boolean CubeSwitchColor)
+    // Offset: 0x19F28B0
+    void CubeGridSwitchColor(bool CubeSwitchColor);
   }; // OVRGridCube
   #pragma pack(pop)
   static check_size<sizeof(OVRGridCube), 64 + sizeof(::GlobalNamespace::OVRCameraRig*)> __GlobalNamespace_OVRGridCubeSizeCheck;
   static_assert(sizeof(OVRGridCube) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OVRGridCube::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVRGridCube::Update
 // Il2CppName: Update
 template<>
@@ -222,7 +212,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGridCube*), "CubeGridSwitchColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{CubeSwitchColor});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OVRGridCube::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

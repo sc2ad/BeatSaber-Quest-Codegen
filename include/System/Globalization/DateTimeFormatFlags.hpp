@@ -91,7 +91,7 @@ namespace System::Globalization {
     // Set static field: static public System.Globalization.DateTimeFormatFlags NotInitialized
     static void _set_NotInitialized(::System::Globalization::DateTimeFormatFlags value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Globalization.DateTimeFormatFlags
   #pragma pack(pop)
   static check_size<sizeof(DateTimeFormatFlags), 0 + sizeof(int)> __System_Globalization_DateTimeFormatFlagsSizeCheck;

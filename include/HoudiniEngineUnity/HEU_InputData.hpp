@@ -33,15 +33,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.GameObject _inputObject
     // Size: 0x8
     // Offset: 0x10
@@ -54,11 +46,9 @@ namespace HoudiniEngineUnity {
       return inputObject;
     }
     // Get instance field reference: public UnityEngine.GameObject _inputObject
-    ::UnityEngine::GameObject*& dyn__inputObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__inputObject();
     // public System.Void .ctor()
-    // Offset: 0x184D620
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1886F30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputData::.ctor");

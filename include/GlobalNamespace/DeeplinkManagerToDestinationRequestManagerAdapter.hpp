@@ -49,23 +49,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DeeplinkManagerToDestinationRequestManagerAdapter : public ::Il2CppObject/*, public ::GlobalNamespace::IDestinationRequestManager*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x124BAB8
+    // [InjectAttribute] Offset: 0x10D05B0
     // private BeatmapLevelsModel _beatmapLevelsModel
     // Size: 0x8
     // Offset: 0x10
     ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapLevelsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x124BAC8
+    // [InjectAttribute] Offset: 0x10D05C0
     // private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
     // Size: 0x8
     // Offset: 0x18
@@ -90,43 +82,41 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IDestinationRequestManager*>(this);
     }
     // Get instance field reference: private BeatmapLevelsModel _beatmapLevelsModel
-    ::GlobalNamespace::BeatmapLevelsModel*& dyn__beatmapLevelsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelsModel*& dyn__beatmapLevelsModel();
     // Get instance field reference: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
-    ::GlobalNamespace::BeatmapCharacteristicCollectionSO*& dyn__beatmapCharacteristicCollection();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCharacteristicCollectionSO*& dyn__beatmapCharacteristicCollection();
     // Get instance field reference: private System.Action`1<MenuDestination> didSendMenuDestinationRequestEvent
-    ::System::Action_1<::GlobalNamespace::MenuDestination*>*& dyn_didSendMenuDestinationRequestEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::MenuDestination*>*& dyn_didSendMenuDestinationRequestEvent();
     // Get instance field reference: private MenuDestination _currentMenuDestinationRequest
-    ::GlobalNamespace::MenuDestination*& dyn__currentMenuDestinationRequest();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuDestination*& dyn__currentMenuDestinationRequest();
     // public MenuDestination get_currentMenuDestinationRequest()
-    // Offset: 0x140DCA8
+    // Offset: 0x142DA54
     ::GlobalNamespace::MenuDestination* get_currentMenuDestinationRequest();
     // public System.Void set_currentMenuDestinationRequest(MenuDestination value)
-    // Offset: 0x140DCB0
+    // Offset: 0x142DA5C
     void set_currentMenuDestinationRequest(::GlobalNamespace::MenuDestination* value);
     // public System.Void add_didSendMenuDestinationRequestEvent(System.Action`1<MenuDestination> value)
-    // Offset: 0x140DB60
+    // Offset: 0x142D90C
     void add_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
     // public System.Void remove_didSendMenuDestinationRequestEvent(System.Action`1<MenuDestination> value)
-    // Offset: 0x140DC04
+    // Offset: 0x142D9B0
     void remove_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
-    // public System.Void Init(IDeeplinkManager deeplinkManager)
-    // Offset: 0x140DD28
-    void Init(::GlobalNamespace::IDeeplinkManager* deeplinkManager);
-    // public System.Void Clear()
-    // Offset: 0x140E418
-    void Clear();
-    // protected System.Void HandleDeeplinkManagerDidReceiveDeeplink(Deeplink deeplink)
-    // Offset: 0x140DF00
-    void HandleDeeplinkManagerDidReceiveDeeplink(::GlobalNamespace::Deeplink* deeplink);
     // public System.Void .ctor()
-    // Offset: 0x140E420
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x142E1CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DeeplinkManagerToDestinationRequestManagerAdapter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DeeplinkManagerToDestinationRequestManagerAdapter*, creationType>()));
     }
+    // public System.Void Init(IDeeplinkManager deeplinkManager)
+    // Offset: 0x142DAD4
+    void Init(::GlobalNamespace::IDeeplinkManager* deeplinkManager);
+    // public System.Void Clear()
+    // Offset: 0x142E1C4
+    void Clear();
+    // protected System.Void HandleDeeplinkManagerDidReceiveDeeplink(Deeplink deeplink)
+    // Offset: 0x142DCAC
+    void HandleDeeplinkManagerDidReceiveDeeplink(::GlobalNamespace::Deeplink* deeplink);
   }; // DeeplinkManagerToDestinationRequestManagerAdapter
   #pragma pack(pop)
   static check_size<sizeof(DeeplinkManagerToDestinationRequestManagerAdapter), 40 + sizeof(::GlobalNamespace::MenuDestination*)> __GlobalNamespace_DeeplinkManagerToDestinationRequestManagerAdapterSizeCheck;
@@ -168,6 +158,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*), "remove_didSendMenuDestinationRequestEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::Init
 // Il2CppName: Init
 template<>
@@ -194,7 +188,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*), "HandleDeeplinkManagerDidReceiveDeeplink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deeplink});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

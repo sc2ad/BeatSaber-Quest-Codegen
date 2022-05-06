@@ -58,15 +58,7 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class RegexWriter : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int32[] _intStack
     // Size: 0x8
     // Offset: 0x10
@@ -137,82 +129,84 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     public:
     // Get instance field reference: System.Int32[] _intStack
-    ::ArrayW<int>& dyn__intStack();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__intStack();
     // Get instance field reference: System.Int32 _depth
-    int& dyn__depth();
+    [[deprecated("Use field access instead!")]] int& dyn__depth();
     // Get instance field reference: System.Int32[] _emitted
-    ::ArrayW<int>& dyn__emitted();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__emitted();
     // Get instance field reference: System.Int32 _curpos
-    int& dyn__curpos();
+    [[deprecated("Use field access instead!")]] int& dyn__curpos();
     // Get instance field reference: System.Collections.Generic.Dictionary`2<System.String,System.Int32> _stringhash
-    ::System::Collections::Generic::Dictionary_2<::StringW, int>*& dyn__stringhash();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, int>*& dyn__stringhash();
     // Get instance field reference: System.Collections.Generic.List`1<System.String> _stringtable
-    ::System::Collections::Generic::List_1<::StringW>*& dyn__stringtable();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn__stringtable();
     // Get instance field reference: System.Boolean _counting
-    bool& dyn__counting();
+    [[deprecated("Use field access instead!")]] bool& dyn__counting();
     // Get instance field reference: System.Int32 _count
-    int& dyn__count();
+    [[deprecated("Use field access instead!")]] int& dyn__count();
     // Get instance field reference: System.Int32 _trackcount
-    int& dyn__trackcount();
+    [[deprecated("Use field access instead!")]] int& dyn__trackcount();
     // Get instance field reference: System.Collections.Hashtable _caps
-    ::System::Collections::Hashtable*& dyn__caps();
-    // static System.Text.RegularExpressions.RegexCode Write(System.Text.RegularExpressions.RegexTree t)
-    // Offset: 0x1D94D88
-    static ::System::Text::RegularExpressions::RegexCode* Write(::System::Text::RegularExpressions::RegexTree* t);
-    // System.Void PushInt(System.Int32 I)
-    // Offset: 0x1D95248
-    void PushInt(int I);
-    // System.Boolean EmptyStack()
-    // Offset: 0x1D95328
-    bool EmptyStack();
-    // System.Int32 PopInt()
-    // Offset: 0x1D95338
-    int PopInt();
-    // System.Int32 CurPos()
-    // Offset: 0x1D95380
-    int CurPos();
-    // System.Void PatchJump(System.Int32 Offset, System.Int32 jumpDest)
-    // Offset: 0x1D95388
-    void PatchJump(int Offset, int jumpDest);
-    // System.Void Emit(System.Int32 op)
-    // Offset: 0x1D953C8
-    void Emit(int op);
-    // System.Void Emit(System.Int32 op, System.Int32 opd1)
-    // Offset: 0x1D95460
-    void Emit(int op, int opd1);
-    // System.Void Emit(System.Int32 op, System.Int32 opd1, System.Int32 opd2)
-    // Offset: 0x1D95520
-    void Emit(int op, int opd1, int opd2);
-    // System.Int32 StringCode(System.String str)
-    // Offset: 0x1D95608
-    int StringCode(::StringW str);
-    // System.ArgumentException MakeException(System.String message)
-    // Offset: 0x1D95714
-    ::System::ArgumentException* MakeException(::StringW message);
-    // System.Int32 MapCapnum(System.Int32 capnum)
-    // Offset: 0x1D95778
-    int MapCapnum(int capnum);
-    // System.Text.RegularExpressions.RegexCode RegexCodeFromRegexTree(System.Text.RegularExpressions.RegexTree tree)
-    // Offset: 0x1D94EB4
-    ::System::Text::RegularExpressions::RegexCode* RegexCodeFromRegexTree(::System::Text::RegularExpressions::RegexTree* tree);
-    // System.Void EmitFragment(System.Int32 nodetype, System.Text.RegularExpressions.RegexNode node, System.Int32 CurIndex)
-    // Offset: 0x1D95834
-    void EmitFragment(int nodetype, ::System::Text::RegularExpressions::RegexNode* node, int CurIndex);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn__caps();
     // private System.Void .ctor()
-    // Offset: 0x1D94DF0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1DE76D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexWriter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexWriter*, creationType>()));
     }
+    // static System.Text.RegularExpressions.RegexCode Write(System.Text.RegularExpressions.RegexTree t)
+    // Offset: 0x1DE766C
+    static ::System::Text::RegularExpressions::RegexCode* Write(::System::Text::RegularExpressions::RegexTree* t);
+    // System.Void PushInt(System.Int32 I)
+    // Offset: 0x1DE7B2C
+    void PushInt(int I);
+    // System.Boolean EmptyStack()
+    // Offset: 0x1DE7C0C
+    bool EmptyStack();
+    // System.Int32 PopInt()
+    // Offset: 0x1DE7C1C
+    int PopInt();
+    // System.Int32 CurPos()
+    // Offset: 0x1DE7C64
+    int CurPos();
+    // System.Void PatchJump(System.Int32 Offset, System.Int32 jumpDest)
+    // Offset: 0x1DE7C6C
+    void PatchJump(int Offset, int jumpDest);
+    // System.Void Emit(System.Int32 op)
+    // Offset: 0x1DE7CAC
+    void Emit(int op);
+    // System.Void Emit(System.Int32 op, System.Int32 opd1)
+    // Offset: 0x1DE7D44
+    void Emit(int op, int opd1);
+    // System.Void Emit(System.Int32 op, System.Int32 opd1, System.Int32 opd2)
+    // Offset: 0x1DE7E04
+    void Emit(int op, int opd1, int opd2);
+    // System.Int32 StringCode(System.String str)
+    // Offset: 0x1DE7EEC
+    int StringCode(::StringW str);
+    // System.ArgumentException MakeException(System.String message)
+    // Offset: 0x1DE7FF8
+    ::System::ArgumentException* MakeException(::StringW message);
+    // System.Int32 MapCapnum(System.Int32 capnum)
+    // Offset: 0x1DE805C
+    int MapCapnum(int capnum);
+    // System.Text.RegularExpressions.RegexCode RegexCodeFromRegexTree(System.Text.RegularExpressions.RegexTree tree)
+    // Offset: 0x1DE7798
+    ::System::Text::RegularExpressions::RegexCode* RegexCodeFromRegexTree(::System::Text::RegularExpressions::RegexTree* tree);
+    // System.Void EmitFragment(System.Int32 nodetype, System.Text.RegularExpressions.RegexNode node, System.Int32 CurIndex)
+    // Offset: 0x1DE8118
+    void EmitFragment(int nodetype, ::System::Text::RegularExpressions::RegexNode* node, int CurIndex);
   }; // System.Text.RegularExpressions.RegexWriter
   #pragma pack(pop)
   static check_size<sizeof(RegexWriter), 80 + sizeof(::System::Collections::Hashtable*)> __System_Text_RegularExpressions_RegexWriterSizeCheck;
   static_assert(sizeof(RegexWriter) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Text::RegularExpressions::RegexWriter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexWriter::Write
 // Il2CppName: Write
 template<>
@@ -342,7 +336,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexWriter*), "EmitFragment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodetype, node, CurIndex});
   }
 };
-// Writing MetadataGetter for method: System::Text::RegularExpressions::RegexWriter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -41,15 +41,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionStageLockView : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TMP_Text _text
     // Size: 0x8
     // Offset: 0x18
@@ -84,43 +76,41 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TMP_Text _text
-    ::TMPro::TMP_Text*& dyn__text();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_Text*& dyn__text();
     // Get instance field reference: private UnityEngine.RectTransform _rectTransform
-    ::UnityEngine::RectTransform*& dyn__rectTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__rectTransform();
     // Get instance field reference: private System.Single _dstPosY
-    float& dyn__dstPosY();
+    [[deprecated("Use field access instead!")]] float& dyn__dstPosY();
     // Get instance field reference: private System.Single _animationDuration
-    float& dyn__animationDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__animationDuration();
     // Get instance field reference: private System.Single _startAnimationTime
-    float& dyn__startAnimationTime();
-    // public System.Void UpdateLocalPositionY(System.Single dstPosY, System.Boolean animated, System.Single animationDuration)
-    // Offset: 0x13C2EA8
-    void UpdateLocalPositionY(float dstPosY, bool animated, float animationDuration);
-    // protected System.Void Update()
-    // Offset: 0x13C2F4C
-    void Update();
-    // public System.Void UpdateStageLockText(System.String text)
-    // Offset: 0x13C30A0
-    void UpdateStageLockText(::StringW text);
+    [[deprecated("Use field access instead!")]] float& dyn__startAnimationTime();
     // public System.Void .ctor()
-    // Offset: 0x13C30BC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13BF568
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionStageLockView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionStageLockView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionStageLockView*, creationType>()));
     }
+    // public System.Void UpdateLocalPositionY(System.Single dstPosY, System.Boolean animated, System.Single animationDuration)
+    // Offset: 0x13BF354
+    void UpdateLocalPositionY(float dstPosY, bool animated, float animationDuration);
+    // protected System.Void Update()
+    // Offset: 0x13BF3F8
+    void Update();
+    // public System.Void UpdateStageLockText(System.String text)
+    // Offset: 0x13BF54C
+    void UpdateStageLockText(::StringW text);
   }; // MissionStageLockView
   #pragma pack(pop)
   static check_size<sizeof(MissionStageLockView), 48 + sizeof(float)> __GlobalNamespace_MissionStageLockViewSizeCheck;
   static_assert(sizeof(MissionStageLockView) == 0x34);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MissionStageLockView::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionStageLockView::UpdateLocalPositionY
 // Il2CppName: UpdateLocalPositionY
 template<>
@@ -149,7 +139,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionStageLockView*), "UpdateStageLockText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MissionStageLockView::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

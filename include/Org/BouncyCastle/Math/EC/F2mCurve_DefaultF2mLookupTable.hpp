@@ -33,15 +33,7 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class F2mCurve::DefaultF2mLookupTable : public ::Org::BouncyCastle::Math::EC::AbstractECLookupTable {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Math.EC.F2mCurve m_outer
     // Size: 0x8
     // Offset: 0x10
@@ -62,33 +54,33 @@ namespace Org::BouncyCastle::Math::EC {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.F2mCurve m_outer
-    ::Org::BouncyCastle::Math::EC::F2mCurve*& dyn_m_outer();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::EC::F2mCurve*& dyn_m_outer();
     // Get instance field reference: private readonly System.Int64[] m_table
-    ::ArrayW<int64_t>& dyn_m_table();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int64_t>& dyn_m_table();
     // Get instance field reference: private readonly System.Int32 m_size
-    int& dyn_m_size();
+    [[deprecated("Use field access instead!")]] int& dyn_m_size();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.F2mCurve outer, System.Int64[] table, System.Int32 size)
-    // Offset: 0x2707D28
+    // Offset: 0x275A238
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static F2mCurve::DefaultF2mLookupTable* New_ctor(::Org::BouncyCastle::Math::EC::F2mCurve* outer, ::ArrayW<int64_t> table, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::F2mCurve::DefaultF2mLookupTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<F2mCurve::DefaultF2mLookupTable*, creationType>(outer, table, size)));
     }
     // private Org.BouncyCastle.Math.EC.ECPoint CreatePoint(System.Int64[] x, System.Int64[] y)
-    // Offset: 0x2707F08
+    // Offset: 0x275A418
     ::Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::ArrayW<int64_t> x, ::ArrayW<int64_t> y);
     // public override System.Int32 get_Size()
-    // Offset: 0x2707D68
+    // Offset: 0x275A278
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
     // Base method: System.Int32 AbstractECLookupTable::get_Size()
     int get_Size();
     // public override Org.BouncyCastle.Math.EC.ECPoint Lookup(System.Int32 index)
-    // Offset: 0x2707D70
+    // Offset: 0x275A280
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECLookupTable::Lookup(System.Int32 index)
     ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int index);
     // public override Org.BouncyCastle.Math.EC.ECPoint LookupVar(System.Int32 index)
-    // Offset: 0x27080C8
+    // Offset: 0x275A5D8
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECLookupTable::LookupVar(System.Int32 index)
     ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int index);

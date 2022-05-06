@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FireworkItemController::FireworkItemParticleSystem : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.ParticleSystem _particleSystem
     // Size: 0x8
     // Offset: 0x10
@@ -59,7 +51,7 @@ namespace GlobalNamespace {
     bool useMainColor;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [DrawIfAttribute] Offset: 0x1261680
+    // [DrawIfAttribute] Offset: 0x10E6328
     // public System.Boolean _useOwnGradient
     // Size: 0x1
     // Offset: 0x1A
@@ -68,7 +60,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useOwnGradient and: particleColorGradient
     char __padding3[0x5] = {};
-    // [DrawIfAttribute] Offset: 0x1261714
+    // [DrawIfAttribute] Offset: 0x10E63BC
     // public UnityEngine.Gradient _particleColorGradient
     // Size: 0x8
     // Offset: 0x20
@@ -83,21 +75,19 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public UnityEngine.ParticleSystem _particleSystem
-    ::UnityEngine::ParticleSystem*& dyn__particleSystem();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn__particleSystem();
     // Get instance field reference: public System.Boolean _isSubemitter
-    bool& dyn__isSubemitter();
+    [[deprecated("Use field access instead!")]] bool& dyn__isSubemitter();
     // Get instance field reference: public System.Boolean _useMainColor
-    bool& dyn__useMainColor();
+    [[deprecated("Use field access instead!")]] bool& dyn__useMainColor();
     // Get instance field reference: public System.Boolean _useOwnGradient
-    bool& dyn__useOwnGradient();
+    [[deprecated("Use field access instead!")]] bool& dyn__useOwnGradient();
     // Get instance field reference: public UnityEngine.Gradient _particleColorGradient
-    ::UnityEngine::Gradient*& dyn__particleColorGradient();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Gradient*& dyn__particleColorGradient();
     // Get instance field reference: public System.Boolean _randomizeSpeed
-    bool& dyn__randomizeSpeed();
+    [[deprecated("Use field access instead!")]] bool& dyn__randomizeSpeed();
     // public System.Void .ctor()
-    // Offset: 0x138E894
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13763A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FireworkItemController::FireworkItemParticleSystem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FireworkItemController::FireworkItemParticleSystem::.ctor");

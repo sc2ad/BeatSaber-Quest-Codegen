@@ -44,15 +44,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   // [TokenAttribute] Offset: FFFFFFFF
   class PbeS2Parameters : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Asn1.Pkcs.KeyDerivationFunc func
     // Size: 0x8
     // Offset: 0x10
@@ -67,27 +59,27 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     static_assert(sizeof(::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*) == 0x8);
     public:
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Pkcs.KeyDerivationFunc func
-    ::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc*& dyn_func();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc*& dyn_func();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Pkcs.EncryptionScheme scheme
-    ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*& dyn_scheme();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*& dyn_scheme();
     // public Org.BouncyCastle.Asn1.Pkcs.KeyDerivationFunc get_KeyDerivationFunc()
-    // Offset: 0x1C90FEC
+    // Offset: 0x1CCD544
     ::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* get_KeyDerivationFunc();
     // public Org.BouncyCastle.Asn1.Pkcs.EncryptionScheme get_EncryptionScheme()
-    // Offset: 0x1C90FF4
+    // Offset: 0x1CCD54C
     ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* get_EncryptionScheme();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1C90BF8
+    // Offset: 0x1CCD150
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PbeS2Parameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PbeS2Parameters*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.Pkcs.PbeS2Parameters GetInstance(System.Object obj)
-    // Offset: 0x1C90B54
+    // Offset: 0x1CCD0AC
     static ::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1C90FFC
+    // Offset: 0x1CCD554
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

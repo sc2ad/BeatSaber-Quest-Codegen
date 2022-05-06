@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken : public ::GlobalNamespace::HMAsyncRequest {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Threading.CancellationTokenSource _cancellationTokenSource
     // Size: 0x8
     // Offset: 0x28
@@ -49,23 +41,19 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Threading::CancellationTokenSource*) == 0x8);
     public:
     // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    ::System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // public System.Threading.CancellationTokenSource get_cancellationTokenSource()
-    // Offset: 0x13B8BD8
+    // Offset: 0x13B4084
     ::System::Threading::CancellationTokenSource* get_cancellationTokenSource();
     // public System.Void .ctor()
-    // Offset: 0x13B807C
-    // Implemented from: HMAsyncRequest
-    // Base method: System.Void HMAsyncRequest::.ctor()
-    // Base method: System.Void HMAutoincrementedRequestId::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13B3528
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*, creationType>()));
     }
     // public override System.Void Cancel()
-    // Offset: 0x13B8BE0
+    // Offset: 0x13B408C
     // Implemented from: HMAsyncRequest
     // Base method: System.Void HMAsyncRequest::Cancel()
     void Cancel();

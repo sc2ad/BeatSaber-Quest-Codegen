@@ -42,15 +42,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PageControlElement : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.RectTransform _rectTransform
     // Size: 0x8
     // Offset: 0x18
@@ -63,7 +55,7 @@ namespace GlobalNamespace {
     ::HMUI::ImageView* imageView;
     // Field size check
     static_assert(sizeof(::HMUI::ImageView*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125E7AC
+    // [SpaceAttribute] Offset: 0x10E3390
     // private UnityEngine.Color _selectedColor
     // Size: 0x10
     // Offset: 0x28
@@ -80,32 +72,26 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.RectTransform _rectTransform
-    ::UnityEngine::RectTransform*& dyn__rectTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__rectTransform();
     // Get instance field reference: private HMUI.ImageView _imageView
-    ::HMUI::ImageView*& dyn__imageView();
+    [[deprecated("Use field access instead!")]] ::HMUI::ImageView*& dyn__imageView();
     // Get instance field reference: private UnityEngine.Color _selectedColor
-    ::UnityEngine::Color& dyn__selectedColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__selectedColor();
     // Get instance field reference: private UnityEngine.Color _unselectedColor
-    ::UnityEngine::Color& dyn__unselectedColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__unselectedColor();
     // public UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0x12EBC70
+    // Offset: 0x135CC28
     ::UnityEngine::RectTransform* get_rectTransform();
-    // public System.Void SetSelected(System.Boolean isSelected)
-    // Offset: 0x12EBA38
-    void SetSelected(bool isSelected);
     // public System.Void .ctor()
-    // Offset: 0x12EBC78
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x135CC30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PageControlElement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PageControlElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PageControlElement*, creationType>()));
     }
+    // public System.Void SetSelected(System.Boolean isSelected)
+    // Offset: 0x135C9F0
+    void SetSelected(bool isSelected);
   }; // PageControlElement
   #pragma pack(pop)
   static check_size<sizeof(PageControlElement), 56 + sizeof(::UnityEngine::Color)> __GlobalNamespace_PageControlElementSizeCheck;
@@ -120,6 +106,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PageControlElement*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PageControlElement::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PageControlElement::SetSelected
 // Il2CppName: SetSelected
 template<>
@@ -129,7 +119,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PageControlElement*), "SetSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isSelected});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PageControlElement::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

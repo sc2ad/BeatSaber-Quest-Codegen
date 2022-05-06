@@ -37,15 +37,7 @@ namespace TMPro {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -148,56 +140,56 @@ namespace TMPro {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Object <>2__current
-    ::Il2CppObject*& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$$2__current();
     // Get instance field reference: public TMPro.TMP_SpriteAnimator <>4__this
-    ::TMPro::TMP_SpriteAnimator*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_SpriteAnimator*& dyn_$$4__this();
     // Get instance field reference: public System.Int32 start
-    int& dyn_start();
+    [[deprecated("Use field access instead!")]] int& dyn_start();
     // Get instance field reference: public System.Int32 end
-    int& dyn_end();
+    [[deprecated("Use field access instead!")]] int& dyn_end();
     // Get instance field reference: public TMPro.TMP_SpriteAsset spriteAsset
-    ::TMPro::TMP_SpriteAsset*& dyn_spriteAsset();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_SpriteAsset*& dyn_spriteAsset();
     // Get instance field reference: public System.Int32 currentCharacter
-    int& dyn_currentCharacter();
+    [[deprecated("Use field access instead!")]] int& dyn_currentCharacter();
     // Get instance field reference: public System.Int32 framerate
-    int& dyn_framerate();
+    [[deprecated("Use field access instead!")]] int& dyn_framerate();
     // Get instance field reference: private System.Int32 <currentFrame>5__2
-    int& dyn_$currentFrame$5__2();
+    [[deprecated("Use field access instead!")]] int& dyn_$currentFrame$5__2();
     // Get instance field reference: private TMPro.TMP_CharacterInfo <charInfo>5__3
-    ::TMPro::TMP_CharacterInfo& dyn_$charInfo$5__3();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_CharacterInfo& dyn_$charInfo$5__3();
     // Get instance field reference: private System.Int32 <materialIndex>5__4
-    int& dyn_$materialIndex$5__4();
+    [[deprecated("Use field access instead!")]] int& dyn_$materialIndex$5__4();
     // Get instance field reference: private System.Int32 <vertexIndex>5__5
-    int& dyn_$vertexIndex$5__5();
+    [[deprecated("Use field access instead!")]] int& dyn_$vertexIndex$5__5();
     // Get instance field reference: private TMPro.TMP_MeshInfo <meshInfo>5__6
-    ::TMPro::TMP_MeshInfo& dyn_$meshInfo$5__6();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_MeshInfo& dyn_$meshInfo$5__6();
     // Get instance field reference: private System.Single <elapsedTime>5__7
-    float& dyn_$elapsedTime$5__7();
+    [[deprecated("Use field access instead!")]] float& dyn_$elapsedTime$5__7();
     // Get instance field reference: private System.Single <targetTime>5__8
-    float& dyn_$targetTime$5__8();
+    [[deprecated("Use field access instead!")]] float& dyn_$targetTime$5__8();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1453248
+    // Offset: 0x14740C8
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x14532B0
+    // Offset: 0x1474130
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x145286C
+    // Offset: 0x14736EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x145290C
+    // Offset: 0x147378C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1452910
+    // Offset: 0x1473790
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1453250
+    // Offset: 0x14740D0
     void System_Collections_IEnumerator_Reset();
   }; // TMPro.TMP_SpriteAnimator/TMPro.<DoSpriteAnimationInternal>d__7
   #pragma pack(pop)

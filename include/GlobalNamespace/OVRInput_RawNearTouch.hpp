@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRInput/RawNearTouch Any
     static void _set_Any(::GlobalNamespace::OVRInput::RawNearTouch value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVRInput/RawNearTouch
   #pragma pack(pop)
   static check_size<sizeof(OVRInput::RawNearTouch), 0 + sizeof(int)> __GlobalNamespace_OVRInput_RawNearTouchSizeCheck;

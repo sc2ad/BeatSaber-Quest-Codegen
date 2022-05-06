@@ -72,7 +72,7 @@ namespace System {
     // Set static field: static public System.UriHostNameType IPv6
     static void _set_IPv6(::System::UriHostNameType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.UriHostNameType
   #pragma pack(pop)
   static check_size<sizeof(UriHostNameType), 0 + sizeof(int)> __System_UriHostNameTypeSizeCheck;

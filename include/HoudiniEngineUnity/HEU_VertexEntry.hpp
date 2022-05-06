@@ -26,15 +26,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_VertexEntry : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 _meshKey
     // Size: 0x4
     // Offset: 0x10
@@ -55,13 +47,13 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public System.Int32 _meshKey
-    int& dyn__meshKey();
+    [[deprecated("Use field access instead!")]] int& dyn__meshKey();
     // Get instance field reference: public System.Int32 _vertexIndex
-    int& dyn__vertexIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__vertexIndex();
     // Get instance field reference: public System.Int32 _normalIndex
-    int& dyn__normalIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__normalIndex();
     // public System.Void .ctor(System.Int32 meshKey, System.Int32 vertexIndex, System.Int32 normalIndex)
-    // Offset: 0x19D584C
+    // Offset: 0x1A0EE34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_VertexEntry* New_ctor(int meshKey, int vertexIndex, int normalIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_VertexEntry::.ctor");

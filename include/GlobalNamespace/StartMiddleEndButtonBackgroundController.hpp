@@ -40,15 +40,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StartMiddleEndButtonBackgroundController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Sprite _startSprite
     // Size: 0x8
     // Offset: 0x18
@@ -77,41 +69,39 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Sprite _startSprite
-    ::UnityEngine::Sprite*& dyn__startSprite();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__startSprite();
     // Get instance field reference: private UnityEngine.Sprite _middleSprite
-    ::UnityEngine::Sprite*& dyn__middleSprite();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__middleSprite();
     // Get instance field reference: private UnityEngine.Sprite _endSprite
-    ::UnityEngine::Sprite*& dyn__endSprite();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__endSprite();
     // Get instance field reference: private HMUI.ImageView _image
-    ::HMUI::ImageView*& dyn__image();
-    // public System.Void SetStartSprite()
-    // Offset: 0x1335BEC
-    void SetStartSprite();
-    // public System.Void SetMiddleSprite()
-    // Offset: 0x1335C10
-    void SetMiddleSprite();
-    // public System.Void SetEndSprite()
-    // Offset: 0x1335C34
-    void SetEndSprite();
+    [[deprecated("Use field access instead!")]] ::HMUI::ImageView*& dyn__image();
     // public System.Void .ctor()
-    // Offset: 0x1335C58
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1417B88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StartMiddleEndButtonBackgroundController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StartMiddleEndButtonBackgroundController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StartMiddleEndButtonBackgroundController*, creationType>()));
     }
+    // public System.Void SetStartSprite()
+    // Offset: 0x1417B1C
+    void SetStartSprite();
+    // public System.Void SetMiddleSprite()
+    // Offset: 0x1417B40
+    void SetMiddleSprite();
+    // public System.Void SetEndSprite()
+    // Offset: 0x1417B64
+    void SetEndSprite();
   }; // StartMiddleEndButtonBackgroundController
   #pragma pack(pop)
   static check_size<sizeof(StartMiddleEndButtonBackgroundController), 48 + sizeof(::HMUI::ImageView*)> __GlobalNamespace_StartMiddleEndButtonBackgroundControllerSizeCheck;
   static_assert(sizeof(StartMiddleEndButtonBackgroundController) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::StartMiddleEndButtonBackgroundController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::StartMiddleEndButtonBackgroundController::SetStartSprite
 // Il2CppName: SetStartSprite
 template<>
@@ -136,7 +126,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StartMiddleEndButtonBackgroundController*), "SetEndSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::StartMiddleEndButtonBackgroundController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

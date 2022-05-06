@@ -29,15 +29,7 @@ namespace BeatmapSaveDataVersion2_6_0AndEarlier {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapSaveData::WaypointData : public ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _time
     // Size: 0x4
     // Offset: 0x10
@@ -64,31 +56,31 @@ namespace BeatmapSaveDataVersion2_6_0AndEarlier {
     static_assert(sizeof(::GlobalNamespace::OffsetDirection) == 0x4);
     public:
     // Get instance field reference: private System.Single _time
-    float& dyn__time();
+    [[deprecated("Use field access instead!")]] float& dyn__time();
     // Get instance field reference: private System.Int32 _lineIndex
-    int& dyn__lineIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__lineIndex();
     // Get instance field reference: private NoteLineLayer _lineLayer
-    ::GlobalNamespace::NoteLineLayer& dyn__lineLayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteLineLayer& dyn__lineLayer();
     // Get instance field reference: private OffsetDirection _offsetDirection
-    ::GlobalNamespace::OffsetDirection& dyn__offsetDirection();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OffsetDirection& dyn__offsetDirection();
     // public System.Int32 get_lineIndex()
-    // Offset: 0x2819518
+    // Offset: 0x286BAD8
     int get_lineIndex();
     // public NoteLineLayer get_lineLayer()
-    // Offset: 0x2819520
+    // Offset: 0x286BAE0
     ::GlobalNamespace::NoteLineLayer get_lineLayer();
     // public OffsetDirection get_offsetDirection()
-    // Offset: 0x2819528
+    // Offset: 0x286BAE8
     ::GlobalNamespace::OffsetDirection get_offsetDirection();
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, NoteLineLayer lineLayer, OffsetDirection offsetDirection)
-    // Offset: 0x2819530
+    // Offset: 0x286BAF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::WaypointData* New_ctor(float time, int lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, ::GlobalNamespace::OffsetDirection offsetDirection) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::WaypointData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::WaypointData*, creationType>(time, lineIndex, lineLayer, offsetDirection)));
     }
     // public override System.Single get_time()
-    // Offset: 0x2819510
+    // Offset: 0x286BAD0
     // Implemented from: BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveDataItem
     // Base method: System.Single BeatmapSaveDataItem::get_time()
     float get_time();

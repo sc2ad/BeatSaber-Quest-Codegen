@@ -57,13 +57,13 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt64 reserved0
-    uint64_t& dyn_reserved0();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_reserved0();
     // Get instance field reference: public System.UInt64 reserved1
-    uint64_t& dyn_reserved1();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_reserved1();
     // Get instance field reference: public System.UInt64 reserved2
-    uint64_t& dyn_reserved2();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_reserved2();
     // Get instance field reference: public System.UInt64 reserved3
-    uint64_t& dyn_reserved3();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_reserved3();
   }; // OVR.OpenVR.VREvent_Reserved_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Reserved_t), 24 + sizeof(uint64_t)> __OVR_OpenVR_VREvent_Reserved_tSizeCheck;

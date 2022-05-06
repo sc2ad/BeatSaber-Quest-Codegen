@@ -36,15 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TrackLaneRingsManager : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TrackLaneRing _trackLaneRingPrefab
     // Size: 0x8
     // Offset: 0x18
@@ -81,46 +73,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TrackLaneRing _trackLaneRingPrefab
-    ::GlobalNamespace::TrackLaneRing*& dyn__trackLaneRingPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TrackLaneRing*& dyn__trackLaneRingPrefab();
     // Get instance field reference: private System.Int32 _ringCount
-    int& dyn__ringCount();
+    [[deprecated("Use field access instead!")]] int& dyn__ringCount();
     // Get instance field reference: private System.Single _ringPositionStep
-    float& dyn__ringPositionStep();
+    [[deprecated("Use field access instead!")]] float& dyn__ringPositionStep();
     // Get instance field reference: private System.Boolean _spawnAsChildren
-    bool& dyn__spawnAsChildren();
+    [[deprecated("Use field access instead!")]] bool& dyn__spawnAsChildren();
     // Get instance field reference: private TrackLaneRing[] _rings
-    ::ArrayW<::GlobalNamespace::TrackLaneRing*>& dyn__rings();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::TrackLaneRing*>& dyn__rings();
     // public System.Single get_ringPositionStep()
-    // Offset: 0x133E4B0
+    // Offset: 0x14203E0
     float get_ringPositionStep();
     // public TrackLaneRing[] get_Rings()
-    // Offset: 0x133E4B8
+    // Offset: 0x14203E8
     ::ArrayW<::GlobalNamespace::TrackLaneRing*> get_Rings();
-    // protected System.Void Awake()
-    // Offset: 0x133E4C0
-    void Awake();
-    // protected System.Void FixedUpdate()
-    // Offset: 0x133E82C
-    void FixedUpdate();
-    // protected System.Void LateUpdate()
-    // Offset: 0x133E8D8
-    void LateUpdate();
-    // protected System.Void OnDrawGizmosSelected()
-    // Offset: 0x133E984
-    void OnDrawGizmosSelected();
     // public System.Void .ctor()
-    // Offset: 0x133ECD4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1420C04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackLaneRingsManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TrackLaneRingsManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrackLaneRingsManager*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x14203F0
+    void Awake();
+    // protected System.Void FixedUpdate()
+    // Offset: 0x142075C
+    void FixedUpdate();
+    // protected System.Void LateUpdate()
+    // Offset: 0x1420808
+    void LateUpdate();
+    // protected System.Void OnDrawGizmosSelected()
+    // Offset: 0x14208B4
+    void OnDrawGizmosSelected();
   }; // TrackLaneRingsManager
   #pragma pack(pop)
   static check_size<sizeof(TrackLaneRingsManager), 48 + sizeof(::ArrayW<::GlobalNamespace::TrackLaneRing*>)> __GlobalNamespace_TrackLaneRingsManagerSizeCheck;
@@ -143,6 +129,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRingsManager*), "get_Rings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsManager::Awake
 // Il2CppName: Awake
 template<>
@@ -175,7 +165,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRingsManager*), "OnDrawGizmosSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

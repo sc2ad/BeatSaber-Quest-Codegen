@@ -48,15 +48,7 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class CacheControlHeaderValue : public ::Il2CppObject/*, public ::System::ICloneable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> extensions
     // Size: 0x8
     // Offset: 0x10
@@ -151,151 +143,149 @@ namespace System::Net::Http::Headers {
       return *reinterpret_cast<::System::ICloneable*>(this);
     }
     // Get instance field reference: private System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> extensions
-    ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*& dyn_extensions();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*& dyn_extensions();
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> no_cache_headers
-    ::System::Collections::Generic::List_1<::StringW>*& dyn_no_cache_headers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn_no_cache_headers();
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> private_headers
-    ::System::Collections::Generic::List_1<::StringW>*& dyn_private_headers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn_private_headers();
     // Get instance field reference: private System.Nullable`1<System.TimeSpan> <MaxAge>k__BackingField
-    ::System::Nullable_1<::System::TimeSpan>& dyn_$MaxAge$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Nullable_1<::System::TimeSpan>& dyn_$MaxAge$k__BackingField();
     // Get instance field reference: private System.Boolean <MaxStale>k__BackingField
-    bool& dyn_$MaxStale$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$MaxStale$k__BackingField();
     // Get instance field reference: private System.Nullable`1<System.TimeSpan> <MaxStaleLimit>k__BackingField
-    ::System::Nullable_1<::System::TimeSpan>& dyn_$MaxStaleLimit$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Nullable_1<::System::TimeSpan>& dyn_$MaxStaleLimit$k__BackingField();
     // Get instance field reference: private System.Nullable`1<System.TimeSpan> <MinFresh>k__BackingField
-    ::System::Nullable_1<::System::TimeSpan>& dyn_$MinFresh$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Nullable_1<::System::TimeSpan>& dyn_$MinFresh$k__BackingField();
     // Get instance field reference: private System.Boolean <MustRevalidate>k__BackingField
-    bool& dyn_$MustRevalidate$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$MustRevalidate$k__BackingField();
     // Get instance field reference: private System.Boolean <NoCache>k__BackingField
-    bool& dyn_$NoCache$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$NoCache$k__BackingField();
     // Get instance field reference: private System.Boolean <NoStore>k__BackingField
-    bool& dyn_$NoStore$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$NoStore$k__BackingField();
     // Get instance field reference: private System.Boolean <NoTransform>k__BackingField
-    bool& dyn_$NoTransform$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$NoTransform$k__BackingField();
     // Get instance field reference: private System.Boolean <OnlyIfCached>k__BackingField
-    bool& dyn_$OnlyIfCached$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$OnlyIfCached$k__BackingField();
     // Get instance field reference: private System.Boolean <Private>k__BackingField
-    bool& dyn_$Private$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$Private$k__BackingField();
     // Get instance field reference: private System.Boolean <ProxyRevalidate>k__BackingField
-    bool& dyn_$ProxyRevalidate$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$ProxyRevalidate$k__BackingField();
     // Get instance field reference: private System.Boolean <Public>k__BackingField
-    bool& dyn_$Public$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$Public$k__BackingField();
     // Get instance field reference: private System.Nullable`1<System.TimeSpan> <SharedMaxAge>k__BackingField
-    ::System::Nullable_1<::System::TimeSpan>& dyn_$SharedMaxAge$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Nullable_1<::System::TimeSpan>& dyn_$SharedMaxAge$k__BackingField();
     // public System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> get_Extensions()
-    // Offset: 0x1953D04
+    // Offset: 0x198C2EC
     ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* get_Extensions();
     // public System.Nullable`1<System.TimeSpan> get_MaxAge()
-    // Offset: 0x1953D78
+    // Offset: 0x198C360
     ::System::Nullable_1<::System::TimeSpan> get_MaxAge();
     // public System.Void set_MaxAge(System.Nullable`1<System.TimeSpan> value)
-    // Offset: 0x1953D84
+    // Offset: 0x198C36C
     void set_MaxAge(::System::Nullable_1<::System::TimeSpan> value);
     // public System.Boolean get_MaxStale()
-    // Offset: 0x1953D8C
+    // Offset: 0x198C374
     bool get_MaxStale();
     // public System.Void set_MaxStale(System.Boolean value)
-    // Offset: 0x1953D94
+    // Offset: 0x198C37C
     void set_MaxStale(bool value);
     // public System.Nullable`1<System.TimeSpan> get_MaxStaleLimit()
-    // Offset: 0x1953DA0
+    // Offset: 0x198C388
     ::System::Nullable_1<::System::TimeSpan> get_MaxStaleLimit();
     // public System.Void set_MaxStaleLimit(System.Nullable`1<System.TimeSpan> value)
-    // Offset: 0x1953DAC
+    // Offset: 0x198C394
     void set_MaxStaleLimit(::System::Nullable_1<::System::TimeSpan> value);
     // public System.Nullable`1<System.TimeSpan> get_MinFresh()
-    // Offset: 0x1953DB4
+    // Offset: 0x198C39C
     ::System::Nullable_1<::System::TimeSpan> get_MinFresh();
     // public System.Void set_MinFresh(System.Nullable`1<System.TimeSpan> value)
-    // Offset: 0x1953DC0
+    // Offset: 0x198C3A8
     void set_MinFresh(::System::Nullable_1<::System::TimeSpan> value);
     // public System.Boolean get_MustRevalidate()
-    // Offset: 0x1953DC8
+    // Offset: 0x198C3B0
     bool get_MustRevalidate();
     // public System.Void set_MustRevalidate(System.Boolean value)
-    // Offset: 0x1953DD0
+    // Offset: 0x198C3B8
     void set_MustRevalidate(bool value);
     // public System.Boolean get_NoCache()
-    // Offset: 0x1953DDC
+    // Offset: 0x198C3C4
     bool get_NoCache();
     // public System.Void set_NoCache(System.Boolean value)
-    // Offset: 0x1953DE4
+    // Offset: 0x198C3CC
     void set_NoCache(bool value);
     // public System.Collections.Generic.ICollection`1<System.String> get_NoCacheHeaders()
-    // Offset: 0x1953DF0
+    // Offset: 0x198C3D8
     ::System::Collections::Generic::ICollection_1<::StringW>* get_NoCacheHeaders();
     // public System.Boolean get_NoStore()
-    // Offset: 0x1953E64
+    // Offset: 0x198C44C
     bool get_NoStore();
     // public System.Void set_NoStore(System.Boolean value)
-    // Offset: 0x1953E6C
+    // Offset: 0x198C454
     void set_NoStore(bool value);
     // public System.Boolean get_NoTransform()
-    // Offset: 0x1953E78
+    // Offset: 0x198C460
     bool get_NoTransform();
     // public System.Void set_NoTransform(System.Boolean value)
-    // Offset: 0x1953E80
+    // Offset: 0x198C468
     void set_NoTransform(bool value);
     // public System.Boolean get_OnlyIfCached()
-    // Offset: 0x1953E8C
+    // Offset: 0x198C474
     bool get_OnlyIfCached();
     // public System.Void set_OnlyIfCached(System.Boolean value)
-    // Offset: 0x1953E94
+    // Offset: 0x198C47C
     void set_OnlyIfCached(bool value);
     // public System.Boolean get_Private()
-    // Offset: 0x1953EA0
+    // Offset: 0x198C488
     bool get_Private();
     // public System.Void set_Private(System.Boolean value)
-    // Offset: 0x1953EA8
+    // Offset: 0x198C490
     void set_Private(bool value);
     // public System.Collections.Generic.ICollection`1<System.String> get_PrivateHeaders()
-    // Offset: 0x1953EB4
+    // Offset: 0x198C49C
     ::System::Collections::Generic::ICollection_1<::StringW>* get_PrivateHeaders();
     // public System.Boolean get_ProxyRevalidate()
-    // Offset: 0x1953F28
+    // Offset: 0x198C510
     bool get_ProxyRevalidate();
     // public System.Void set_ProxyRevalidate(System.Boolean value)
-    // Offset: 0x1953F30
+    // Offset: 0x198C518
     void set_ProxyRevalidate(bool value);
     // public System.Boolean get_Public()
-    // Offset: 0x1953F3C
+    // Offset: 0x198C524
     bool get_Public();
     // public System.Void set_Public(System.Boolean value)
-    // Offset: 0x1953F44
+    // Offset: 0x198C52C
     void set_Public(bool value);
     // public System.Nullable`1<System.TimeSpan> get_SharedMaxAge()
-    // Offset: 0x1953F50
+    // Offset: 0x198C538
     ::System::Nullable_1<::System::TimeSpan> get_SharedMaxAge();
     // public System.Void set_SharedMaxAge(System.Nullable`1<System.TimeSpan> value)
-    // Offset: 0x1953F5C
+    // Offset: 0x198C544
     void set_SharedMaxAge(::System::Nullable_1<::System::TimeSpan> value);
-    // private System.Object System.ICloneable.Clone()
-    // Offset: 0x1953F64
-    ::Il2CppObject* System_ICloneable_Clone();
-    // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.CacheControlHeaderValue parsedValue)
-    // Offset: 0x1954868
-    static bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::CacheControlHeaderValue*> parsedValue);
     // public System.Void .ctor()
-    // Offset: 0x1955154
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x198D73C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CacheControlHeaderValue* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::CacheControlHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CacheControlHeaderValue*, creationType>()));
     }
+    // private System.Object System.ICloneable.Clone()
+    // Offset: 0x198C54C
+    ::Il2CppObject* System_ICloneable_Clone();
+    // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.CacheControlHeaderValue parsedValue)
+    // Offset: 0x198CE50
+    static bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::CacheControlHeaderValue*> parsedValue);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x19542E8
+    // Offset: 0x198C8D0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1954670
+    // Offset: 0x198CC58
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x19552CC
+    // Offset: 0x198D8B4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -548,6 +538,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "set_SharedMaxAge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::System_ICloneable_Clone
 // Il2CppName: System.ICloneable.Clone
 template<>
@@ -566,10 +560,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, parsedValue});
   }
 };
-// Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::Equals
 // Il2CppName: Equals
 template<>

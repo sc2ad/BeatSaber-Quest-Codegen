@@ -40,15 +40,7 @@ namespace HMUI {
     public:
     // Writing base type padding for base size: 0x119 to desired offset: 0x120
     char ___base_padding[0x7] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Action`1<HMUI.UISelectionState> selectionStateDidChangeEvent
     // Size: 0x8
     // Offset: 0x120
@@ -63,36 +55,27 @@ namespace HMUI {
     static_assert(sizeof(::HMUI::UISelectionState) == 0x4);
     public:
     // Get instance field reference: private System.Action`1<HMUI.UISelectionState> selectionStateDidChangeEvent
-    ::System::Action_1<::HMUI::UISelectionState>*& dyn_selectionStateDidChangeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::HMUI::UISelectionState>*& dyn_selectionStateDidChangeEvent();
     // Get instance field reference: private HMUI.UISelectionState _selectionState
-    ::HMUI::UISelectionState& dyn__selectionState();
+    [[deprecated("Use field access instead!")]] ::HMUI::UISelectionState& dyn__selectionState();
     // public HMUI.UISelectionState get_selectionState()
-    // Offset: 0x168602C
+    // Offset: 0x16BC93C
     ::HMUI::UISelectionState get_selectionState();
     // public System.Void add_selectionStateDidChangeEvent(System.Action`1<HMUI.UISelectionState> value)
-    // Offset: 0x1686034
+    // Offset: 0x16BC944
     void add_selectionStateDidChangeEvent(::System::Action_1<::HMUI::UISelectionState>* value);
     // public System.Void remove_selectionStateDidChangeEvent(System.Action`1<HMUI.UISelectionState> value)
-    // Offset: 0x16860DC
+    // Offset: 0x16BC9EC
     void remove_selectionStateDidChangeEvent(::System::Action_1<::HMUI::UISelectionState>* value);
     // public System.Void .ctor()
-    // Offset: 0x1686210
-    // Implemented from: UnityEngine.UI.Toggle
-    // Base method: System.Void Toggle::.ctor()
-    // Base method: System.Void Selectable::.ctor()
-    // Base method: System.Void UIBehaviour::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16BCB20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoTransitionsToggle* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::NoTransitionsToggle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoTransitionsToggle*, creationType>()));
     }
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
-    // Offset: 0x1686184
+    // Offset: 0x16BCA94
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
     void DoStateTransition(::UnityEngine::UI::Selectable::SelectionState state, bool instant);

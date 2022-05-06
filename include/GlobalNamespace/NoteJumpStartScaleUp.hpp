@@ -46,15 +46,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoteJumpStartScaleUp : public ::UnityEngine::MonoBehaviour/*, public ::GlobalNamespace::INoteControllerDidInitEvent*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _fullScaleJumpPart
     // Size: 0x4
     // Offset: 0x18
@@ -63,7 +55,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: fullScaleJumpPart and: targetTransform
     char __padding0[0x4] = {};
-    // [SpaceAttribute] Offset: 0x124F4B0
+    // [SpaceAttribute] Offset: 0x10D3FE4
     // private UnityEngine.Transform _targetTransform
     // Size: 0x8
     // Offset: 0x20
@@ -90,47 +82,45 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _fullScaleJumpPart
-    float& dyn__fullScaleJumpPart();
+    [[deprecated("Use field access instead!")]] float& dyn__fullScaleJumpPart();
     // Get instance field reference: private UnityEngine.Transform _targetTransform
-    ::UnityEngine::Transform*& dyn__targetTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__targetTransform();
     // Get instance field reference: private NoteController _noteController
-    ::GlobalNamespace::NoteController*& dyn__noteController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteController*& dyn__noteController();
     // Get instance field reference: private NoteJump _noteJump
-    ::GlobalNamespace::NoteJump*& dyn__noteJump();
-    // protected System.Void Awake()
-    // Offset: 0x147BC40
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x147BED0
-    void OnDestroy();
-    // private System.Void UpdateScale(System.Single progress)
-    // Offset: 0x147BD14
-    void UpdateScale(float progress);
-    // private System.Void HandleNoteJumpDidUpdateProgress(System.Single progress)
-    // Offset: 0x147C064
-    void HandleNoteJumpDidUpdateProgress(float progress);
-    // public System.Void HandleNoteControllerDidInit(NoteControllerBase noteController)
-    // Offset: 0x147C068
-    void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteJump*& dyn__noteJump();
     // public System.Void .ctor()
-    // Offset: 0x147C13C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14B2924
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteJumpStartScaleUp* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteJumpStartScaleUp::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteJumpStartScaleUp*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x14B2428
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x14B26B8
+    void OnDestroy();
+    // private System.Void UpdateScale(System.Single progress)
+    // Offset: 0x14B24FC
+    void UpdateScale(float progress);
+    // private System.Void HandleNoteJumpDidUpdateProgress(System.Single progress)
+    // Offset: 0x14B284C
+    void HandleNoteJumpDidUpdateProgress(float progress);
+    // public System.Void HandleNoteControllerDidInit(NoteControllerBase noteController)
+    // Offset: 0x14B2850
+    void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
   }; // NoteJumpStartScaleUp
   #pragma pack(pop)
   static check_size<sizeof(NoteJumpStartScaleUp), 48 + sizeof(::GlobalNamespace::NoteJump*)> __GlobalNamespace_NoteJumpStartScaleUpSizeCheck;
   static_assert(sizeof(NoteJumpStartScaleUp) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartScaleUp::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartScaleUp::Awake
 // Il2CppName: Awake
 template<>
@@ -174,7 +164,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJumpStartScaleUp*), "HandleNoteControllerDidInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteController});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartScaleUp::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

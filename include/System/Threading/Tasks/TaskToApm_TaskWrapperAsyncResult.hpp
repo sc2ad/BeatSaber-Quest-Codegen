@@ -37,15 +37,7 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class TaskToApm::TaskWrapperAsyncResult : public ::Il2CppObject/*, public ::System::IAsyncResult*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // readonly System.Threading.Tasks.Task Task
     // Size: 0x8
     // Offset: 0x10
@@ -70,25 +62,25 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<::System::IAsyncResult*>(this);
     }
     // Get instance field reference: readonly System.Threading.Tasks.Task Task
-    ::System::Threading::Tasks::Task*& dyn_Task();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::Task*& dyn_Task();
     // Get instance field reference: private readonly System.Object m_state
-    ::Il2CppObject*& dyn_m_state();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_m_state();
     // Get instance field reference: private readonly System.Boolean m_completedSynchronously
-    bool& dyn_m_completedSynchronously();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_completedSynchronously();
     // private System.Object System.IAsyncResult.get_AsyncState()
-    // Offset: 0x1CF5C70
+    // Offset: 0x1D311C8
     ::Il2CppObject* System_IAsyncResult_get_AsyncState();
     // private System.Boolean System.IAsyncResult.get_CompletedSynchronously()
-    // Offset: 0x1CF5C78
+    // Offset: 0x1D311D0
     bool System_IAsyncResult_get_CompletedSynchronously();
     // private System.Boolean System.IAsyncResult.get_IsCompleted()
-    // Offset: 0x1CF5C80
+    // Offset: 0x1D311D8
     bool System_IAsyncResult_get_IsCompleted();
     // private System.Threading.WaitHandle System.IAsyncResult.get_AsyncWaitHandle()
-    // Offset: 0x1CF5C9C
+    // Offset: 0x1D311F4
     ::System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
     // System.Void .ctor(System.Threading.Tasks.Task task, System.Object state, System.Boolean completedSynchronously)
-    // Offset: 0x1CF5A58
+    // Offset: 0x1D30FB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskToApm::TaskWrapperAsyncResult* New_ctor(::System::Threading::Tasks::Task* task, ::Il2CppObject* state, bool completedSynchronously) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult::.ctor");

@@ -179,53 +179,53 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt32 m_nSize
-    uint& dyn_m_nSize();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nSize();
     // Get instance field reference: public System.UInt32 m_nFrameIndex
-    uint& dyn_m_nFrameIndex();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nFrameIndex();
     // Get instance field reference: public System.UInt32 m_nNumFramePresents
-    uint& dyn_m_nNumFramePresents();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nNumFramePresents();
     // Get instance field reference: public System.UInt32 m_nNumMisPresented
-    uint& dyn_m_nNumMisPresented();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nNumMisPresented();
     // Get instance field reference: public System.UInt32 m_nNumDroppedFrames
-    uint& dyn_m_nNumDroppedFrames();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nNumDroppedFrames();
     // Get instance field reference: public System.UInt32 m_nReprojectionFlags
-    uint& dyn_m_nReprojectionFlags();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nReprojectionFlags();
     // Get instance field reference: public System.Double m_flSystemTimeInSeconds
-    double& dyn_m_flSystemTimeInSeconds();
+    [[deprecated("Use field access instead!")]] double& dyn_m_flSystemTimeInSeconds();
     // Get instance field reference: public System.Single m_flPreSubmitGpuMs
-    float& dyn_m_flPreSubmitGpuMs();
+    [[deprecated("Use field access instead!")]] float& dyn_m_flPreSubmitGpuMs();
     // Get instance field reference: public System.Single m_flPostSubmitGpuMs
-    float& dyn_m_flPostSubmitGpuMs();
+    [[deprecated("Use field access instead!")]] float& dyn_m_flPostSubmitGpuMs();
     // Get instance field reference: public System.Single m_flTotalRenderGpuMs
-    float& dyn_m_flTotalRenderGpuMs();
+    [[deprecated("Use field access instead!")]] float& dyn_m_flTotalRenderGpuMs();
     // Get instance field reference: public System.Single m_flCompositorRenderGpuMs
-    float& dyn_m_flCompositorRenderGpuMs();
+    [[deprecated("Use field access instead!")]] float& dyn_m_flCompositorRenderGpuMs();
     // Get instance field reference: public System.Single m_flCompositorRenderCpuMs
-    float& dyn_m_flCompositorRenderCpuMs();
+    [[deprecated("Use field access instead!")]] float& dyn_m_flCompositorRenderCpuMs();
     // Get instance field reference: public System.Single m_flCompositorIdleCpuMs
-    float& dyn_m_flCompositorIdleCpuMs();
+    [[deprecated("Use field access instead!")]] float& dyn_m_flCompositorIdleCpuMs();
     // Get instance field reference: public System.Single m_flClientFrameIntervalMs
-    float& dyn_m_flClientFrameIntervalMs();
+    [[deprecated("Use field access instead!")]] float& dyn_m_flClientFrameIntervalMs();
     // Get instance field reference: public System.Single m_flPresentCallCpuMs
-    float& dyn_m_flPresentCallCpuMs();
+    [[deprecated("Use field access instead!")]] float& dyn_m_flPresentCallCpuMs();
     // Get instance field reference: public System.Single m_flWaitForPresentCpuMs
-    float& dyn_m_flWaitForPresentCpuMs();
+    [[deprecated("Use field access instead!")]] float& dyn_m_flWaitForPresentCpuMs();
     // Get instance field reference: public System.Single m_flSubmitFrameMs
-    float& dyn_m_flSubmitFrameMs();
+    [[deprecated("Use field access instead!")]] float& dyn_m_flSubmitFrameMs();
     // Get instance field reference: public System.Single m_flWaitGetPosesCalledMs
-    float& dyn_m_flWaitGetPosesCalledMs();
+    [[deprecated("Use field access instead!")]] float& dyn_m_flWaitGetPosesCalledMs();
     // Get instance field reference: public System.Single m_flNewPosesReadyMs
-    float& dyn_m_flNewPosesReadyMs();
+    [[deprecated("Use field access instead!")]] float& dyn_m_flNewPosesReadyMs();
     // Get instance field reference: public System.Single m_flNewFrameReadyMs
-    float& dyn_m_flNewFrameReadyMs();
+    [[deprecated("Use field access instead!")]] float& dyn_m_flNewFrameReadyMs();
     // Get instance field reference: public System.Single m_flCompositorUpdateStartMs
-    float& dyn_m_flCompositorUpdateStartMs();
+    [[deprecated("Use field access instead!")]] float& dyn_m_flCompositorUpdateStartMs();
     // Get instance field reference: public System.Single m_flCompositorUpdateEndMs
-    float& dyn_m_flCompositorUpdateEndMs();
+    [[deprecated("Use field access instead!")]] float& dyn_m_flCompositorUpdateEndMs();
     // Get instance field reference: public System.Single m_flCompositorRenderStartMs
-    float& dyn_m_flCompositorRenderStartMs();
+    [[deprecated("Use field access instead!")]] float& dyn_m_flCompositorRenderStartMs();
     // Get instance field reference: public OVR.OpenVR.TrackedDevicePose_t m_HmdPose
-    ::OVR::OpenVR::TrackedDevicePose_t& dyn_m_HmdPose();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::TrackedDevicePose_t& dyn_m_HmdPose();
   }; // OVR.OpenVR.Compositor_FrameTiming
   #pragma pack(pop)
   static check_size<sizeof(Compositor_FrameTiming), 96 + sizeof(::OVR::OpenVR::TrackedDevicePose_t)> __OVR_OpenVR_Compositor_FrameTimingSizeCheck;

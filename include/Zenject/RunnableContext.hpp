@@ -40,16 +40,8 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class RunnableContext : public ::Zenject::Context {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x121FA0C
+    // [TooltipAttribute] Offset: 0x10A4424
     // private System.Boolean _autoRun
     // Size: 0x1
     // Offset: 0x40
@@ -68,20 +60,23 @@ namespace Zenject {
     // Set static field: static private System.Boolean _staticAutoRun
     static void _set__staticAutoRun(bool value);
     // Get instance field reference: private System.Boolean _autoRun
-    bool& dyn__autoRun();
+    [[deprecated("Use field access instead!")]] bool& dyn__autoRun();
     // Get instance field reference: private System.Boolean <Initialized>k__BackingField
-    bool& dyn_$Initialized$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$Initialized$k__BackingField();
     // public System.Boolean get_Initialized()
-    // Offset: 0x1BE4188
+    // Offset: 0x1C1E770
     bool get_Initialized();
     // private System.Void set_Initialized(System.Boolean value)
-    // Offset: 0x1BE4190
+    // Offset: 0x1C1E778
     void set_Initialized(bool value);
+    // static private System.Void .cctor()
+    // Offset: 0x1C1E8B8
+    static void _cctor();
     // protected System.Void Initialize()
-    // Offset: 0x1BE419C
+    // Offset: 0x1C1E784
     void Initialize();
     // public System.Void Run()
-    // Offset: 0x1BE4248
+    // Offset: 0x1C1E830
     void Run();
     // protected System.Void RunInternal()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -97,26 +92,16 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, gameObject);
     }
     // protected System.Void .ctor()
-    // Offset: 0x1BE42C0
+    // Offset: 0x1C1E8A8
     // Implemented from: Zenject.Context
     // Base method: System.Void Context::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RunnableContext* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::RunnableContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RunnableContext*, creationType>()));
     }
-    // static private System.Void .cctor()
-    // Offset: 0x1BE42D0
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
-    static void _cctor();
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1BE4324
+    // Offset: 0x1C1E90C
     // Implemented from: Zenject.Context
     // Base method: Zenject.InjectTypeInfo Context::__zenCreateInjectTypeInfo()
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
@@ -141,6 +126,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::RunnableContext*), "set_Initialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: Zenject::RunnableContext::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::RunnableContext::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::RunnableContext*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Zenject::RunnableContext::Initialize
@@ -174,14 +167,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
-// Writing MetadataGetter for method: Zenject::RunnableContext::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::RunnableContext::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::RunnableContext*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: Zenject::RunnableContext::__zenCreateInjectTypeInfo
 // Il2CppName: __zenCreateInjectTypeInfo
 template<>

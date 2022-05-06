@@ -171,20 +171,12 @@ namespace BeatSaberAPI::DataTransferObjects {
       // Set static field: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers SmallCubes
       static void _set_SmallCubes(::BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers value);
       // Get instance field reference: public System.UInt32 value__
-      uint& dyn_value__();
+      [[deprecated("Use field access instead!")]] uint& dyn_value__();
     }; // BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers
     #pragma pack(pop)
     static check_size<sizeof(LevelScoreResult::GameplayModifiers), 0 + sizeof(uint)> __BeatSaberAPI_DataTransferObjects_LevelScoreResult_GameplayModifiersSizeCheck;
     static_assert(sizeof(LevelScoreResult::GameplayModifiers) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String leaderboardId
     // Size: 0x8
     // Offset: 0x10
@@ -257,31 +249,29 @@ namespace BeatSaberAPI::DataTransferObjects {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String leaderboardId
-    ::StringW& dyn_leaderboardId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_leaderboardId();
     // Get instance field reference: public System.Int32 multipliedScore
-    int& dyn_multipliedScore();
+    [[deprecated("Use field access instead!")]] int& dyn_multipliedScore();
     // Get instance field reference: public System.Int32 modifiedScore
-    int& dyn_modifiedScore();
+    [[deprecated("Use field access instead!")]] int& dyn_modifiedScore();
     // Get instance field reference: public System.Boolean fullCombo
-    bool& dyn_fullCombo();
+    [[deprecated("Use field access instead!")]] bool& dyn_fullCombo();
     // Get instance field reference: public System.Int32 goodCutsCount
-    int& dyn_goodCutsCount();
+    [[deprecated("Use field access instead!")]] int& dyn_goodCutsCount();
     // Get instance field reference: public System.Int32 badCutsCount
-    int& dyn_badCutsCount();
+    [[deprecated("Use field access instead!")]] int& dyn_badCutsCount();
     // Get instance field reference: public System.Int32 missedCount
-    int& dyn_missedCount();
+    [[deprecated("Use field access instead!")]] int& dyn_missedCount();
     // Get instance field reference: public System.Int32 maxCombo
-    int& dyn_maxCombo();
+    [[deprecated("Use field access instead!")]] int& dyn_maxCombo();
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiers
-    ::ArrayW<::BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>& dyn_gameplayModifiers();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>& dyn_gameplayModifiers();
     // Get instance field reference: public System.String deviceModel
-    ::StringW& dyn_deviceModel();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_deviceModel();
     // Get instance field reference: public System.String extraDataBase64
-    ::StringW& dyn_extraDataBase64();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_extraDataBase64();
     // public System.Void .ctor()
-    // Offset: 0x1363A48
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x134BCC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelScoreResult* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatSaberAPI::DataTransferObjects::LevelScoreResult::.ctor");

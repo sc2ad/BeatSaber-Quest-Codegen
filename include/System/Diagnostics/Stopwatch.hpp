@@ -33,15 +33,7 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   class Stopwatch : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int64 elapsed
     // Size: 0x8
     // Offset: 0x10
@@ -70,50 +62,48 @@ namespace System::Diagnostics {
     // Set static field: static public readonly System.Boolean IsHighResolution
     static void _set_IsHighResolution(bool value);
     // Get instance field reference: private System.Int64 elapsed
-    int64_t& dyn_elapsed();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_elapsed();
     // Get instance field reference: private System.Int64 started
-    int64_t& dyn_started();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_started();
     // Get instance field reference: private System.Boolean is_running
-    bool& dyn_is_running();
+    [[deprecated("Use field access instead!")]] bool& dyn_is_running();
     // public System.TimeSpan get_Elapsed()
-    // Offset: 0x1CAC204
+    // Offset: 0x1CE875C
     ::System::TimeSpan get_Elapsed();
     // public System.Int64 get_ElapsedMilliseconds()
-    // Offset: 0x1CAC3A0
+    // Offset: 0x1CE88F8
     int64_t get_ElapsedMilliseconds();
     // public System.Int64 get_ElapsedTicks()
-    // Offset: 0x1CAC320
+    // Offset: 0x1CE8878
     int64_t get_ElapsedTicks();
     // public System.Boolean get_IsRunning()
-    // Offset: 0x1CAC4C0
+    // Offset: 0x1CE8A18
     bool get_IsRunning();
-    // static private System.Void .cctor()
-    // Offset: 0x1CAC644
-    static void _cctor();
-    // static public System.Int64 GetTimestamp()
-    // Offset: 0x1CAC1F8
-    static int64_t GetTimestamp();
-    // public System.Void Reset()
-    // Offset: 0x1CAC4C8
-    void Reset();
-    // public System.Void Start()
-    // Offset: 0x1CAC4D4
-    void Start();
-    // public System.Void Stop()
-    // Offset: 0x1CAC54C
-    void Stop();
-    // public System.Void Restart()
-    // Offset: 0x1CAC5D4
-    void Restart();
     // public System.Void .ctor()
-    // Offset: 0x1CAC1FC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1CE8754
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stopwatch* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::Stopwatch::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stopwatch*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1CE8B9C
+    static void _cctor();
+    // static public System.Int64 GetTimestamp()
+    // Offset: 0x1CE8750
+    static int64_t GetTimestamp();
+    // public System.Void Reset()
+    // Offset: 0x1CE8A20
+    void Reset();
+    // public System.Void Start()
+    // Offset: 0x1CE8A2C
+    void Start();
+    // public System.Void Stop()
+    // Offset: 0x1CE8AA4
+    void Stop();
+    // public System.Void Restart()
+    // Offset: 0x1CE8B2C
+    void Restart();
   }; // System.Diagnostics.Stopwatch
   #pragma pack(pop)
   static check_size<sizeof(Stopwatch), 32 + sizeof(bool)> __System_Diagnostics_StopwatchSizeCheck;
@@ -152,6 +142,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Stopwatch*), "get_IsRunning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Diagnostics::Stopwatch::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Diagnostics::Stopwatch::_cctor
 // Il2CppName: .cctor
 template<>
@@ -200,7 +194,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Stopwatch*), "Restart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Diagnostics::Stopwatch::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

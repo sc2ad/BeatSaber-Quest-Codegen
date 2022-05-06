@@ -40,15 +40,7 @@ namespace System::Xml::Schema {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlSchemaSimpleTypeRestriction : public ::System::Xml::Schema::XmlSchemaSimpleTypeContent {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Xml.XmlQualifiedName baseTypeName
     // Size: 0x8
     // Offset: 0x10
@@ -63,19 +55,18 @@ namespace System::Xml::Schema {
     static_assert(sizeof(::System::Xml::Schema::XmlSchemaObjectCollection*) == 0x8);
     public:
     // Get instance field reference: private System.Xml.XmlQualifiedName baseTypeName
-    ::System::Xml::XmlQualifiedName*& dyn_baseTypeName();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlQualifiedName*& dyn_baseTypeName();
     // Get instance field reference: private System.Xml.Schema.XmlSchemaObjectCollection facets
-    ::System::Xml::Schema::XmlSchemaObjectCollection*& dyn_facets();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaObjectCollection*& dyn_facets();
     // public System.Void set_BaseTypeName(System.Xml.XmlQualifiedName value)
-    // Offset: 0x2011D98
+    // Offset: 0x205B60C
     void set_BaseTypeName(::System::Xml::XmlQualifiedName* value);
     // public System.Void .ctor()
-    // Offset: 0x2011E48
+    // Offset: 0x205B6BC
     // Implemented from: System.Xml.Schema.XmlSchemaSimpleTypeContent
     // Base method: System.Void XmlSchemaSimpleTypeContent::.ctor()
     // Base method: System.Void XmlSchemaAnnotated::.ctor()
     // Base method: System.Void XmlSchemaObject::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaSimpleTypeRestriction* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaSimpleTypeRestriction::.ctor");

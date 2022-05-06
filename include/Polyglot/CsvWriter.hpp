@@ -40,28 +40,30 @@ namespace Polyglot {
   // [TokenAttribute] Offset: FFFFFFFF
   class CsvWriter : public ::Il2CppObject {
     public:
-    // static public System.Void AppendRow(System.String filePath, System.Collections.Generic.List`1<System.String> row)
-    // Offset: 0x29DD070
-    static void AppendRow(::StringW filePath, ::System::Collections::Generic::List_1<::StringW>* row);
-    // static private System.Void AppendElement(System.Text.StringBuilder buffer, System.String element)
-    // Offset: 0x29DD420
-    static void AppendElement(::System::Text::StringBuilder* buffer, ::StringW element);
-    // static private System.Boolean HasEscapeChars(System.String element)
-    // Offset: 0x29DD37C
-    static bool HasEscapeChars(::StringW element);
     // public System.Void .ctor()
-    // Offset: 0x29DD4A8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A32D9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CsvWriter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Polyglot::CsvWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CsvWriter*, creationType>()));
     }
+    // static public System.Void AppendRow(System.String filePath, System.Collections.Generic.List`1<System.String> row)
+    // Offset: 0x2A32964
+    static void AppendRow(::StringW filePath, ::System::Collections::Generic::List_1<::StringW>* row);
+    // static private System.Void AppendElement(System.Text.StringBuilder buffer, System.String element)
+    // Offset: 0x2A32D14
+    static void AppendElement(::System::Text::StringBuilder* buffer, ::StringW element);
+    // static private System.Boolean HasEscapeChars(System.String element)
+    // Offset: 0x2A32C70
+    static bool HasEscapeChars(::StringW element);
   }; // Polyglot.CsvWriter
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Polyglot::CsvWriter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Polyglot::CsvWriter::AppendRow
 // Il2CppName: AppendRow
 template<>
@@ -91,7 +93,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
     return ::il2cpp_utils::FindMethod(classof(Polyglot::CsvWriter*), "HasEscapeChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{element});
   }
 };
-// Writing MetadataGetter for method: Polyglot::CsvWriter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -47,20 +47,18 @@ namespace BGNet::Core::Messages {
     // Set static field: static public System.Func`2<System.Security.Cryptography.X509Certificates.X509Certificate2,System.Byte[]> <>9__12_0
     static void _set_$$9__12_0(::System::Func_2<::System::Security::Cryptography::X509Certificates::X509Certificate2*, ::ArrayW<uint8_t>>* value);
     // static private System.Void .cctor()
-    // Offset: 0x14FBB24
+    // Offset: 0x153342C
     static void _cctor();
-    // System.Byte[] <.ctor>b__12_0(System.Security.Cryptography.X509Certificates.X509Certificate2 cert)
-    // Offset: 0x14FBB90
-    ::ArrayW<uint8_t> $_ctor$b__12_0(::System::Security::Cryptography::X509Certificates::X509Certificate2* cert);
     // public System.Void .ctor()
-    // Offset: 0x14FBB88
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1533490
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseServerUnconnectedMessageHandler::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::BaseServerUnconnectedMessageHandler::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseServerUnconnectedMessageHandler::$$c*, creationType>()));
     }
+    // System.Byte[] <.ctor>b__12_0(System.Security.Cryptography.X509Certificates.X509Certificate2 cert)
+    // Offset: 0x1533498
+    ::ArrayW<uint8_t> $_ctor$b__12_0(::System::Security::Cryptography::X509Certificates::X509Certificate2* cert);
   }; // BGNet.Core.Messages.BaseServerUnconnectedMessageHandler/BGNet.Core.Messages.<>c
   #pragma pack(pop)
 }
@@ -73,6 +71,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(BGNet::Core::Messages::BaseServerUnconnectedMessageHandler::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: BGNet::Core::Messages::BaseServerUnconnectedMessageHandler::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: BGNet::Core::Messages::BaseServerUnconnectedMessageHandler::$$c::$_ctor$b__12_0
 // Il2CppName: <.ctor>b__12_0
 template<>
@@ -82,7 +84,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
     return ::il2cpp_utils::FindMethod(classof(BGNet::Core::Messages::BaseServerUnconnectedMessageHandler::$$c*), "<.ctor>b__12_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cert});
   }
 };
-// Writing MetadataGetter for method: BGNet::Core::Messages::BaseServerUnconnectedMessageHandler::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

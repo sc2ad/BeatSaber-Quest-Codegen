@@ -31,15 +31,7 @@ namespace HMUI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ToggleBinder::$$c__DisplayClass7_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean enabled
     // Size: 0x1
     // Offset: 0x10
@@ -56,27 +48,29 @@ namespace HMUI {
     static_assert(sizeof(::System::Action*) == 0x8);
     public:
     // Get instance field reference: public System.Boolean enabled
-    bool& dyn_enabled();
+    [[deprecated("Use field access instead!")]] bool& dyn_enabled();
     // Get instance field reference: public System.Action action
-    ::System::Action*& dyn_action();
-    // System.Void <AddBinding>b__0(System.Boolean b)
-    // Offset: 0x29E1650
-    void $AddBinding$b__0(bool b);
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_action();
     // public System.Void .ctor()
-    // Offset: 0x29E1648
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A36F3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ToggleBinder::$$c__DisplayClass7_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ToggleBinder::$$c__DisplayClass7_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ToggleBinder::$$c__DisplayClass7_0*, creationType>()));
     }
+    // System.Void <AddBinding>b__0(System.Boolean b)
+    // Offset: 0x2A36F44
+    void $AddBinding$b__0(bool b);
   }; // HMUI.ToggleBinder/HMUI.<>c__DisplayClass7_0
   #pragma pack(pop)
   static check_size<sizeof(ToggleBinder::$$c__DisplayClass7_0), 24 + sizeof(::System::Action*)> __HMUI_ToggleBinder_$$c__DisplayClass7_0SizeCheck;
   static_assert(sizeof(ToggleBinder::$$c__DisplayClass7_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HMUI::ToggleBinder::$$c__DisplayClass7_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::ToggleBinder::$$c__DisplayClass7_0::$AddBinding$b__0
 // Il2CppName: <AddBinding>b__0
 template<>
@@ -86,7 +80,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::ToggleBinder::$$c__DisplayClass7_0*), "<AddBinding>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{b});
   }
 };
-// Writing MetadataGetter for method: HMUI::ToggleBinder::$$c__DisplayClass7_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

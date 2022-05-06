@@ -36,15 +36,7 @@ namespace Org::BouncyCastle::Crypto::Prng {
   // [TokenAttribute] Offset: FFFFFFFF
   class CryptoApiRandomGenerator : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Security.Cryptography.RandomNumberGenerator rndProv
     // Size: 0x8
     // Offset: 0x10
@@ -61,32 +53,34 @@ namespace Org::BouncyCastle::Crypto::Prng {
       return rndProv;
     }
     // Get instance field reference: private readonly System.Security.Cryptography.RandomNumberGenerator rndProv
-    ::System::Security::Cryptography::RandomNumberGenerator*& dyn_rndProv();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::RandomNumberGenerator*& dyn_rndProv();
+    // public System.Void .ctor()
+    // Offset: 0x15FABA0
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static CryptoApiRandomGenerator* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<CryptoApiRandomGenerator*, creationType>()));
+    }
     // public System.Void .ctor(System.Security.Cryptography.RandomNumberGenerator rng)
-    // Offset: 0x15C52C8
+    // Offset: 0x15FABD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CryptoApiRandomGenerator* New_ctor(::System::Security::Cryptography::RandomNumberGenerator* rng) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CryptoApiRandomGenerator*, creationType>(rng)));
     }
     // public System.Void NextBytes(System.Byte[] bytes)
-    // Offset: 0x15C52F4
+    // Offset: 0x15FAC04
     void NextBytes(::ArrayW<uint8_t> bytes);
-    // public System.Void .ctor()
-    // Offset: 0x15C5290
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CryptoApiRandomGenerator* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<CryptoApiRandomGenerator*, creationType>()));
-    }
   }; // Org.BouncyCastle.Crypto.Prng.CryptoApiRandomGenerator
   #pragma pack(pop)
   static check_size<sizeof(CryptoApiRandomGenerator), 16 + sizeof(::System::Security::Cryptography::RandomNumberGenerator*)> __Org_BouncyCastle_Crypto_Prng_CryptoApiRandomGeneratorSizeCheck;
   static_assert(sizeof(CryptoApiRandomGenerator) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -100,7 +94,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator*), "NextBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytes});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

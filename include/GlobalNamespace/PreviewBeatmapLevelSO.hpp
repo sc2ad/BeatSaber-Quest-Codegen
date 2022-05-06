@@ -71,15 +71,7 @@ namespace GlobalNamespace {
     struct $GetPreviewAudioClipAsync$d__53;
     // Nested type: ::GlobalNamespace::PreviewBeatmapLevelSO::$GetCoverImageAsync$d__54
     struct $GetCoverImageAsync$d__54;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _levelID
     // Size: 0x8
     // Offset: 0x18
@@ -210,114 +202,109 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _levelID
-    ::StringW& dyn__levelID();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__levelID();
     // Get instance field reference: private System.String _songName
-    ::StringW& dyn__songName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__songName();
     // Get instance field reference: private System.String _songSubName
-    ::StringW& dyn__songSubName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__songSubName();
     // Get instance field reference: private System.String _songAuthorName
-    ::StringW& dyn__songAuthorName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__songAuthorName();
     // Get instance field reference: private System.String _levelAuthorName
-    ::StringW& dyn__levelAuthorName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__levelAuthorName();
     // Get instance field reference: private UnityEngine.AudioClip _previewAudioClip
-    ::UnityEngine::AudioClip*& dyn__previewAudioClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioClip*& dyn__previewAudioClip();
     // Get instance field reference: private System.Single _beatsPerMinute
-    float& dyn__beatsPerMinute();
+    [[deprecated("Use field access instead!")]] float& dyn__beatsPerMinute();
     // Get instance field reference: private System.Single _songTimeOffset
-    float& dyn__songTimeOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__songTimeOffset();
     // Get instance field reference: private System.Single _shuffle
-    float& dyn__shuffle();
+    [[deprecated("Use field access instead!")]] float& dyn__shuffle();
     // Get instance field reference: private System.Single _shufflePeriod
-    float& dyn__shufflePeriod();
+    [[deprecated("Use field access instead!")]] float& dyn__shufflePeriod();
     // Get instance field reference: private System.Single _previewStartTime
-    float& dyn__previewStartTime();
+    [[deprecated("Use field access instead!")]] float& dyn__previewStartTime();
     // Get instance field reference: private System.Single _previewDuration
-    float& dyn__previewDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__previewDuration();
     // Get instance field reference: private System.Single _songDuration
-    float& dyn__songDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__songDuration();
     // Get instance field reference: private UnityEngine.Sprite _coverImage
-    ::UnityEngine::Sprite*& dyn__coverImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__coverImage();
     // Get instance field reference: private EnvironmentInfoSO _environmentInfo
-    ::GlobalNamespace::EnvironmentInfoSO*& dyn__environmentInfo();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentInfoSO*& dyn__environmentInfo();
     // Get instance field reference: private EnvironmentInfoSO _allDirectionsEnvironmentInfo
-    ::GlobalNamespace::EnvironmentInfoSO*& dyn__allDirectionsEnvironmentInfo();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentInfoSO*& dyn__allDirectionsEnvironmentInfo();
     // Get instance field reference: private PreviewDifficultyBeatmapSet[] _previewDifficultyBeatmapSets
-    ::ArrayW<::GlobalNamespace::PreviewDifficultyBeatmapSet*>& dyn__previewDifficultyBeatmapSets();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::PreviewDifficultyBeatmapSet*>& dyn__previewDifficultyBeatmapSets();
     // Get instance field reference: public System.Boolean _ignore360MovementBeatmaps
-    bool& dyn__ignore360MovementBeatmaps();
+    [[deprecated("Use field access instead!")]] bool& dyn__ignore360MovementBeatmaps();
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<PreviewDifficultyBeatmapSet> _no360MovementPreviewDifficultyBeatmapSets
-    ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>*& dyn__no360MovementPreviewDifficultyBeatmapSets();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>*& dyn__no360MovementPreviewDifficultyBeatmapSets();
     // public System.String get_levelID()
-    // Offset: 0x13788C0
+    // Offset: 0x13DFBFC
     ::StringW get_levelID();
     // public System.String get_songName()
-    // Offset: 0x13788C8
+    // Offset: 0x13DFC04
     ::StringW get_songName();
     // public System.String get_songSubName()
-    // Offset: 0x13788D0
+    // Offset: 0x13DFC0C
     ::StringW get_songSubName();
     // public System.String get_songAuthorName()
-    // Offset: 0x13788D8
+    // Offset: 0x13DFC14
     ::StringW get_songAuthorName();
     // public System.String get_levelAuthorName()
-    // Offset: 0x13788E0
+    // Offset: 0x13DFC1C
     ::StringW get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
-    // Offset: 0x13788E8
+    // Offset: 0x13DFC24
     float get_beatsPerMinute();
     // public System.Single get_songTimeOffset()
-    // Offset: 0x13788F0
+    // Offset: 0x13DFC2C
     float get_songTimeOffset();
     // public System.Single get_songDuration()
-    // Offset: 0x13788F8
+    // Offset: 0x13DFC34
     float get_songDuration();
     // public System.Single get_shuffle()
-    // Offset: 0x1378900
+    // Offset: 0x13DFC3C
     float get_shuffle();
     // public System.Single get_shufflePeriod()
-    // Offset: 0x1378908
+    // Offset: 0x13DFC44
     float get_shufflePeriod();
     // public System.Single get_previewStartTime()
-    // Offset: 0x1378910
+    // Offset: 0x13DFC4C
     float get_previewStartTime();
     // public System.Single get_previewDuration()
-    // Offset: 0x1378918
+    // Offset: 0x13DFC54
     float get_previewDuration();
     // public EnvironmentInfoSO get_environmentInfo()
-    // Offset: 0x1378920
+    // Offset: 0x13DFC5C
     ::GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
     // public EnvironmentInfoSO get_allDirectionsEnvironmentInfo()
-    // Offset: 0x1378928
+    // Offset: 0x13DFC64
     ::GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
     // public UnityEngine.AudioClip get_songPreviewAudioClip()
-    // Offset: 0x1378930
+    // Offset: 0x13DFC6C
     ::UnityEngine::AudioClip* get_songPreviewAudioClip();
     // public System.Collections.Generic.IReadOnlyList`1<PreviewDifficultyBeatmapSet> get_previewDifficultyBeatmapSets()
-    // Offset: 0x1378938
+    // Offset: 0x13DFC74
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
-    // private System.Void InitData()
-    // Offset: 0x1378980
-    void InitData();
-    // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> GetPreviewAudioClipAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1378ABC
-    ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* GetPreviewAudioClipAsync(::System::Threading::CancellationToken cancellationToken);
-    // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1378BE0
-    ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x1378D04
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13E0040
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PreviewBeatmapLevelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PreviewBeatmapLevelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PreviewBeatmapLevelSO*, creationType>()));
     }
+    // private System.Void InitData()
+    // Offset: 0x13DFCBC
+    void InitData();
+    // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> GetPreviewAudioClipAsync(System.Threading.CancellationToken cancellationToken)
+    // Offset: 0x13DFDF8
+    ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* GetPreviewAudioClipAsync(::System::Threading::CancellationToken cancellationToken);
+    // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
+    // Offset: 0x13DFF1C
+    ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken);
     // protected override System.Void OnEnable()
-    // Offset: 0x1378950
+    // Offset: 0x13DFC8C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
@@ -455,6 +442,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviewBeatmapLevelSO*), "get_previewDifficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PreviewBeatmapLevelSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PreviewBeatmapLevelSO::InitData
 // Il2CppName: InitData
 template<>
@@ -481,10 +472,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviewBeatmapLevelSO*), "GetCoverImageAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PreviewBeatmapLevelSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PreviewBeatmapLevelSO::OnEnable
 // Il2CppName: OnEnable
 template<>

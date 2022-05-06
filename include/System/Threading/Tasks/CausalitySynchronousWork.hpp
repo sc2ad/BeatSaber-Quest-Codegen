@@ -60,7 +60,7 @@ namespace System::Threading::Tasks {
     // Set static field: static public System.Threading.Tasks.CausalitySynchronousWork Execution
     static void _set_Execution(::System::Threading::Tasks::CausalitySynchronousWork value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Threading.Tasks.CausalitySynchronousWork
   #pragma pack(pop)
   static check_size<sizeof(CausalitySynchronousWork), 0 + sizeof(int)> __System_Threading_Tasks_CausalitySynchronousWorkSizeCheck;

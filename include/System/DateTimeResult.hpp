@@ -147,48 +147,48 @@ namespace System {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: System.Int32 Year
-    int& dyn_Year();
+    [[deprecated("Use field access instead!")]] int& dyn_Year();
     // Get instance field reference: System.Int32 Month
-    int& dyn_Month();
+    [[deprecated("Use field access instead!")]] int& dyn_Month();
     // Get instance field reference: System.Int32 Day
-    int& dyn_Day();
+    [[deprecated("Use field access instead!")]] int& dyn_Day();
     // Get instance field reference: System.Int32 Hour
-    int& dyn_Hour();
+    [[deprecated("Use field access instead!")]] int& dyn_Hour();
     // Get instance field reference: System.Int32 Minute
-    int& dyn_Minute();
+    [[deprecated("Use field access instead!")]] int& dyn_Minute();
     // Get instance field reference: System.Int32 Second
-    int& dyn_Second();
+    [[deprecated("Use field access instead!")]] int& dyn_Second();
     // Get instance field reference: System.Double fraction
-    double& dyn_fraction();
+    [[deprecated("Use field access instead!")]] double& dyn_fraction();
     // Get instance field reference: System.Int32 era
-    int& dyn_era();
+    [[deprecated("Use field access instead!")]] int& dyn_era();
     // Get instance field reference: System.ParseFlags flags
-    ::System::ParseFlags& dyn_flags();
+    [[deprecated("Use field access instead!")]] ::System::ParseFlags& dyn_flags();
     // Get instance field reference: System.TimeSpan timeZoneOffset
-    ::System::TimeSpan& dyn_timeZoneOffset();
+    [[deprecated("Use field access instead!")]] ::System::TimeSpan& dyn_timeZoneOffset();
     // Get instance field reference: System.Globalization.Calendar calendar
-    ::System::Globalization::Calendar*& dyn_calendar();
+    [[deprecated("Use field access instead!")]] ::System::Globalization::Calendar*& dyn_calendar();
     // Get instance field reference: System.DateTime parsedDate
-    ::System::DateTime& dyn_parsedDate();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_parsedDate();
     // Get instance field reference: System.ParseFailureKind failure
-    ::System::ParseFailureKind& dyn_failure();
+    [[deprecated("Use field access instead!")]] ::System::ParseFailureKind& dyn_failure();
     // Get instance field reference: System.String failureMessageID
-    ::StringW& dyn_failureMessageID();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_failureMessageID();
     // Get instance field reference: System.Object failureMessageFormatArgument
-    ::Il2CppObject*& dyn_failureMessageFormatArgument();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_failureMessageFormatArgument();
     // Get instance field reference: System.String failureArgumentName
-    ::StringW& dyn_failureArgumentName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_failureArgumentName();
     // System.Void Init()
-    // Offset: 0x2230198
+    // Offset: 0x227BA0C
     void Init();
     // System.Void SetDate(System.Int32 year, System.Int32 month, System.Int32 day)
-    // Offset: 0x2232ED0
+    // Offset: 0x227E744
     void SetDate(int year, int month, int day);
     // System.Void SetFailure(System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
-    // Offset: 0x223059C
+    // Offset: 0x227BE10
     void SetFailure(::System::ParseFailureKind failure, ::StringW failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
     // System.Void SetFailure(System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument, System.String failureArgumentName)
-    // Offset: 0x223058C
+    // Offset: 0x227BE00
     void SetFailure(::System::ParseFailureKind failure, ::StringW failureMessageID, ::Il2CppObject* failureMessageFormatArgument, ::StringW failureArgumentName);
   }; // System.DateTimeResult
   #pragma pack(pop)

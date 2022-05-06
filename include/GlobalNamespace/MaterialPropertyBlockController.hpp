@@ -44,15 +44,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MaterialPropertyBlockController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Renderer[] _renderers
     // Size: 0x8
     // Offset: 0x18
@@ -81,35 +73,29 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Renderer[] _renderers
-    ::ArrayW<::UnityEngine::Renderer*>& dyn__renderers();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Renderer*>& dyn__renderers();
     // Get instance field reference: private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
-    ::UnityEngine::MaterialPropertyBlock*& dyn__materialPropertyBlock();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MaterialPropertyBlock*& dyn__materialPropertyBlock();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Int32> _numberOfMaterialsInRenderers
-    ::System::Collections::Generic::List_1<int>*& dyn__numberOfMaterialsInRenderers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<int>*& dyn__numberOfMaterialsInRenderers();
     // Get instance field reference: private System.Boolean _isInitialized
-    bool& dyn__isInitialized();
+    [[deprecated("Use field access instead!")]] bool& dyn__isInitialized();
     // public UnityEngine.Renderer[] get_renderers()
-    // Offset: 0x2AD5A8C
+    // Offset: 0x1E7EE9C
     ::ArrayW<::UnityEngine::Renderer*> get_renderers();
     // public UnityEngine.MaterialPropertyBlock get_materialPropertyBlock()
-    // Offset: 0x2AD57E8
+    // Offset: 0x1E7EBF8
     ::UnityEngine::MaterialPropertyBlock* get_materialPropertyBlock();
-    // public System.Void ApplyChanges()
-    // Offset: 0x2AD55B8
-    void ApplyChanges();
     // public System.Void .ctor()
-    // Offset: 0x2AD5A94
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E7EEA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MaterialPropertyBlockController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MaterialPropertyBlockController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockController*, creationType>()));
     }
+    // public System.Void ApplyChanges()
+    // Offset: 0x1E7E9C8
+    void ApplyChanges();
   }; // MaterialPropertyBlockController
   #pragma pack(pop)
   static check_size<sizeof(MaterialPropertyBlockController), 48 + sizeof(bool)> __GlobalNamespace_MaterialPropertyBlockControllerSizeCheck;
@@ -132,6 +118,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialPropertyBlockController*), "get_materialPropertyBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyBlockController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyBlockController::ApplyChanges
 // Il2CppName: ApplyChanges
 template<>
@@ -140,7 +130,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialPropertyBlockController*), "ApplyChanges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyBlockController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

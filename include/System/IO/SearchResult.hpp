@@ -29,15 +29,7 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class SearchResult : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String fullPath
     // Size: 0x8
     // Offset: 0x10
@@ -58,19 +50,19 @@ namespace System::IO {
     static_assert(sizeof(::Microsoft::Win32::Win32Native::WIN32_FIND_DATA*) == 0x8);
     public:
     // Get instance field reference: private System.String fullPath
-    ::StringW& dyn_fullPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_fullPath();
     // Get instance field reference: private System.String userPath
-    ::StringW& dyn_userPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_userPath();
     // Get instance field reference: private Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA findData
-    ::Microsoft::Win32::Win32Native::WIN32_FIND_DATA*& dyn_findData();
+    [[deprecated("Use field access instead!")]] ::Microsoft::Win32::Win32Native::WIN32_FIND_DATA*& dyn_findData();
     // System.String get_UserPath()
-    // Offset: 0x1B85E84
+    // Offset: 0x1BC046C
     ::StringW get_UserPath();
     // Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA get_FindData()
-    // Offset: 0x1B85E8C
+    // Offset: 0x1BC0474
     ::Microsoft::Win32::Win32Native::WIN32_FIND_DATA* get_FindData();
     // System.Void .ctor(System.String fullPath, System.String userPath, Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA findData)
-    // Offset: 0x1B85E44
+    // Offset: 0x1BC042C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchResult* New_ctor(::StringW fullPath, ::StringW userPath, ::Microsoft::Win32::Win32Native::WIN32_FIND_DATA* findData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::SearchResult::.ctor");

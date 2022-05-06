@@ -26,11 +26,7 @@ namespace UnityEngine::UI {
   class Button::ButtonClickedEvent : public ::UnityEngine::Events::UnityEvent {
     public:
     // public System.Void .ctor()
-    // Offset: 0x18FDE24
-    // Implemented from: UnityEngine.Events.UnityEvent
-    // Base method: System.Void UnityEvent::.ctor()
-    // Base method: System.Void UnityEventBase::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1937734
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Button::ButtonClickedEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::Button::ButtonClickedEvent::.ctor");

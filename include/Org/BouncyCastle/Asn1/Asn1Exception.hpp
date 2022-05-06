@@ -36,34 +36,21 @@ namespace Org::BouncyCastle::Asn1 {
   class Asn1Exception : public ::System::IO::IOException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1BE9E80
-    // Implemented from: System.IO.IOException
-    // Base method: System.Void IOException::.ctor()
-    // Base method: System.Void SystemException::.ctor()
-    // Base method: System.Void Exception::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C24468
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1Exception* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Asn1Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Exception*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1BE9E88
-    // Implemented from: System.IO.IOException
-    // Base method: System.Void IOException::.ctor(System.String message)
-    // Base method: System.Void SystemException::.ctor(System.String message)
-    // Base method: System.Void Exception::.ctor(System.String message)
+    // Offset: 0x1C24470
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1Exception* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Asn1Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Exception*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception exception)
-    // Offset: 0x1BE9E90
-    // Implemented from: System.IO.IOException
-    // Base method: System.Void IOException::.ctor(System.String message, System.Exception exception)
-    // Base method: System.Void SystemException::.ctor(System.String message, System.Exception exception)
-    // Base method: System.Void Exception::.ctor(System.String message, System.Exception exception)
+    // Offset: 0x1C24478
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1Exception* New_ctor(::StringW message, ::System::Exception* exception) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Asn1Exception::.ctor");

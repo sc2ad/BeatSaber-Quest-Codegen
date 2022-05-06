@@ -31,15 +31,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardScoreUploader::ScoresToUploadData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Collections.Generic.List`1<LeaderboardScoreUploader/ScoreData> scores
     // Size: 0x8
     // Offset: 0x10
@@ -52,11 +44,9 @@ namespace GlobalNamespace {
       return scores;
     }
     // Get instance field reference: public System.Collections.Generic.List`1<LeaderboardScoreUploader/ScoreData> scores
-    ::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardScoreUploader::ScoreData*>*& dyn_scores();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardScoreUploader::ScoreData*>*& dyn_scores();
     // public System.Void .ctor()
-    // Offset: 0x13B6EB0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13B235C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardScoreUploader::ScoresToUploadData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardScoreUploader::ScoresToUploadData::.ctor");

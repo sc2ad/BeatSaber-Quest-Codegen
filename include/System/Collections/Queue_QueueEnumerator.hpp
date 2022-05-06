@@ -27,15 +27,7 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class Queue::QueueEnumerator : public ::Il2CppObject/*, public ::System::ICloneable, public ::System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Queue _q
     // Size: 0x8
     // Offset: 0x10
@@ -70,31 +62,31 @@ namespace System::Collections {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
     // Get instance field reference: private System.Collections.Queue _q
-    ::System::Collections::Queue*& dyn__q();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Queue*& dyn__q();
     // Get instance field reference: private System.Int32 _index
-    int& dyn__index();
+    [[deprecated("Use field access instead!")]] int& dyn__index();
     // Get instance field reference: private System.Int32 _version
-    int& dyn__version();
+    [[deprecated("Use field access instead!")]] int& dyn__version();
     // Get instance field reference: private System.Object currentElement
-    ::Il2CppObject*& dyn_currentElement();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_currentElement();
     // public System.Object get_Current()
-    // Offset: 0x1CC55A8
+    // Offset: 0x1D00B00
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Collections.Queue q)
-    // Offset: 0x1CC515C
+    // Offset: 0x1D006B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Queue::QueueEnumerator* New_ctor(::System::Collections::Queue* q) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Queue::QueueEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Queue::QueueEnumerator*, creationType>(q)));
     }
     // public System.Object Clone()
-    // Offset: 0x1CC54A4
+    // Offset: 0x1D009FC
     ::Il2CppObject* Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x1CC54AC
+    // Offset: 0x1D00A04
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1CC5668
+    // Offset: 0x1D00BC0
     void Reset();
   }; // System.Collections.Queue/System.Collections.QueueEnumerator
   #pragma pack(pop)

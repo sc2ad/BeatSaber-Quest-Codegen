@@ -102,7 +102,7 @@ namespace System::Xml::XPath {
     // Set static field: static public System.Xml.XPath.XPathNodeType All
     static void _set_All(::System::Xml::XPath::XPathNodeType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Xml.XPath.XPathNodeType
   #pragma pack(pop)
   static check_size<sizeof(XPathNodeType), 0 + sizeof(int)> __System_Xml_XPath_XPathNodeTypeSizeCheck;

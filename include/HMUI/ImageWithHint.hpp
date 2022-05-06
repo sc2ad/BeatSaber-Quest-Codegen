@@ -46,15 +46,7 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ImageWithHint : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Image _image
     // Size: 0x8
     // Offset: 0x18
@@ -71,26 +63,20 @@ namespace HMUI {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Image _image
-    ::UnityEngine::UI::Image*& dyn__image();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__image();
     // Get instance field reference: private HMUI.HoverHint _hoverHint
-    ::HMUI::HoverHint*& dyn__hoverHint();
+    [[deprecated("Use field access instead!")]] ::HMUI::HoverHint*& dyn__hoverHint();
     // public UnityEngine.Sprite get_sprite()
-    // Offset: 0x1681304
+    // Offset: 0x16B7C14
     ::UnityEngine::Sprite* get_sprite();
     // public System.Void set_sprite(UnityEngine.Sprite value)
-    // Offset: 0x16812E8
+    // Offset: 0x16B7BF8
     void set_sprite(::UnityEngine::Sprite* value);
     // public System.Void set_hintText(System.String value)
-    // Offset: 0x1681320
+    // Offset: 0x16B7C30
     void set_hintText(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x168133C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16B7C4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ImageWithHint* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ImageWithHint::.ctor");

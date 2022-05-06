@@ -37,28 +37,21 @@ namespace NUnit::Framework::Internal {
   class NUnitException : public ::System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x29AD77C
-    // Implemented from: System.Exception
-    // Base method: System.Void Exception::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A09774
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NUnitException* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::NUnitException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NUnitException*, creationType>()));
     }
     // public System.Void .ctor(System.String message, System.Exception inner)
-    // Offset: 0x29AD7E4
-    // Implemented from: System.Exception
-    // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
+    // Offset: 0x2A097DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NUnitException* New_ctor(::StringW message, ::System::Exception* inner) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::NUnitException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NUnitException*, creationType>(message, inner)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x29AD864
-    // Implemented from: System.Exception
-    // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
+    // Offset: 0x2A0985C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NUnitException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::NUnitException::.ctor");

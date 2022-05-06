@@ -41,20 +41,20 @@ namespace UnityEngine {
   class Application::LogCallback : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F2476C
+    // Offset: 0x1F8B428
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Application::LogCallback* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Application::LogCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Application::LogCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.String condition, System.String stackTrace, UnityEngine.LogType type)
-    // Offset: 0x1F23620
+    // Offset: 0x1F8A2DC
     void Invoke(::StringW condition, ::StringW stackTrace, ::UnityEngine::LogType type);
     // public System.IAsyncResult BeginInvoke(System.String condition, System.String stackTrace, UnityEngine.LogType type, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F2477C
+    // Offset: 0x1F8B438
     ::System::IAsyncResult* BeginInvoke(::StringW condition, ::StringW stackTrace, ::UnityEngine::LogType type, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F2481C
+    // Offset: 0x1F8B4D8
     void EndInvoke(::System::IAsyncResult* result);
   }; // UnityEngine.Application/UnityEngine.LogCallback
   #pragma pack(pop)

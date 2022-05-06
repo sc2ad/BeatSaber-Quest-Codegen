@@ -24,15 +24,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRControllersRecorderData::Keyframe : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly VRControllersRecorderData/PositionAndRotation[] positionsAndRotations
     // Size: 0x8
     // Offset: 0x10
@@ -47,11 +39,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public readonly VRControllersRecorderData/PositionAndRotation[] positionsAndRotations
-    ::ArrayW<::GlobalNamespace::VRControllersRecorderData::PositionAndRotation>& dyn_positionsAndRotations();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::VRControllersRecorderData::PositionAndRotation>& dyn_positionsAndRotations();
     // Get instance field reference: public readonly System.Single time
-    float& dyn_time();
+    [[deprecated("Use field access instead!")]] float& dyn_time();
     // public System.Void .ctor(VRControllersRecorderData/PositionAndRotation[] positionAndRotations, System.Single time)
-    // Offset: 0x2ABF740
+    // Offset: 0x149EC98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorderData::Keyframe* New_ctor(::ArrayW<::GlobalNamespace::VRControllersRecorderData::PositionAndRotation> positionAndRotations, float time) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRControllersRecorderData::Keyframe::.ctor");

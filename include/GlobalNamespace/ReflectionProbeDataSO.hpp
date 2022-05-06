@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ReflectionProbeDataSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Cubemap _reflectionProbeCubemap1
     // Size: 0x8
     // Offset: 0x18
@@ -60,28 +52,23 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Cubemap _reflectionProbeCubemap1
-    ::UnityEngine::Cubemap*& dyn__reflectionProbeCubemap1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Cubemap*& dyn__reflectionProbeCubemap1();
     // Get instance field reference: private UnityEngine.Cubemap _reflectionProbeCubemap2
-    ::UnityEngine::Cubemap*& dyn__reflectionProbeCubemap2();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Cubemap*& dyn__reflectionProbeCubemap2();
     // public UnityEngine.Cubemap get_reflectionProbeCubemap1()
-    // Offset: 0x137D184
+    // Offset: 0x1454FD8
     ::UnityEngine::Cubemap* get_reflectionProbeCubemap1();
     // public System.Void set_reflectionProbeCubemap1(UnityEngine.Cubemap value)
-    // Offset: 0x137D18C
+    // Offset: 0x1454FE0
     void set_reflectionProbeCubemap1(::UnityEngine::Cubemap* value);
     // public UnityEngine.Cubemap get_reflectionProbeCubemap2()
-    // Offset: 0x137D194
+    // Offset: 0x1454FE8
     ::UnityEngine::Cubemap* get_reflectionProbeCubemap2();
     // public System.Void set_reflectionProbeCubemap2(UnityEngine.Cubemap value)
-    // Offset: 0x137D19C
+    // Offset: 0x1454FF0
     void set_reflectionProbeCubemap2(::UnityEngine::Cubemap* value);
     // public System.Void .ctor()
-    // Offset: 0x137D1A4
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1454FF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionProbeDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ReflectionProbeDataSO::.ctor");

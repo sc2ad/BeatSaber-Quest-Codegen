@@ -37,15 +37,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class RC564Engine : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IBlockCipher*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _noRounds
     // Size: 0x4
     // Offset: 0x10
@@ -88,62 +80,60 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set static field: static private readonly System.Int64 Q64
     static void _set_Q64(int64_t value);
     // Get instance field reference: private System.Int32 _noRounds
-    int& dyn__noRounds();
+    [[deprecated("Use field access instead!")]] int& dyn__noRounds();
     // Get instance field reference: private System.Int64[] _S
-    ::ArrayW<int64_t>& dyn__S();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int64_t>& dyn__S();
     // Get instance field reference: private System.Boolean forEncryption
-    bool& dyn_forEncryption();
+    [[deprecated("Use field access instead!")]] bool& dyn_forEncryption();
     // public System.String get_AlgorithmName()
-    // Offset: 0x2330C6C
+    // Offset: 0x237A4E0
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x2330CB4
+    // Offset: 0x237A528
     bool get_IsPartialBlockOkay();
-    // static private System.Void .cctor()
-    // Offset: 0x233182C
-    static void _cctor();
-    // public System.Int32 GetBlockSize()
-    // Offset: 0x2330CBC
-    int GetBlockSize();
-    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x2330D28
-    void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-    // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x23311BC
-    int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
-    // public System.Void Reset()
-    // Offset: 0x2331560
-    void Reset();
-    // private System.Void SetKey(System.Byte[] key)
-    // Offset: 0x2330EC4
-    void SetKey(::ArrayW<uint8_t> key);
-    // private System.Int32 EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x2331394
-    int EncryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
-    // private System.Int32 DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x23311CC
-    int DecryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
-    // private System.Int64 RotateLeft(System.Int64 x, System.Int64 y)
-    // Offset: 0x2331564
-    int64_t RotateLeft(int64_t x, int64_t y);
-    // private System.Int64 RotateRight(System.Int64 x, System.Int64 y)
-    // Offset: 0x233179C
-    int64_t RotateRight(int64_t x, int64_t y);
-    // private System.Int64 BytesToWord(System.Byte[] src, System.Int32 srcOff)
-    // Offset: 0x23315F4
-    int64_t BytesToWord(::ArrayW<uint8_t> src, int srcOff);
-    // private System.Void WordToBytes(System.Int64 word, System.Byte[] dst, System.Int32 dstOff)
-    // Offset: 0x23316BC
-    void WordToBytes(int64_t word, ::ArrayW<uint8_t> dst, int dstOff);
     // public System.Void .ctor()
-    // Offset: 0x2330C40
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x237A4B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RC564Engine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::RC564Engine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RC564Engine*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x237B0A0
+    static void _cctor();
+    // public System.Int32 GetBlockSize()
+    // Offset: 0x237A530
+    int GetBlockSize();
+    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
+    // Offset: 0x237A59C
+    void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
+    // Offset: 0x237AA30
+    int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
+    // public System.Void Reset()
+    // Offset: 0x237ADD4
+    void Reset();
+    // private System.Void SetKey(System.Byte[] key)
+    // Offset: 0x237A738
+    void SetKey(::ArrayW<uint8_t> key);
+    // private System.Int32 EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
+    // Offset: 0x237AC08
+    int EncryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
+    // private System.Int32 DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
+    // Offset: 0x237AA40
+    int DecryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
+    // private System.Int64 RotateLeft(System.Int64 x, System.Int64 y)
+    // Offset: 0x237ADD8
+    int64_t RotateLeft(int64_t x, int64_t y);
+    // private System.Int64 RotateRight(System.Int64 x, System.Int64 y)
+    // Offset: 0x237B010
+    int64_t RotateRight(int64_t x, int64_t y);
+    // private System.Int64 BytesToWord(System.Byte[] src, System.Int32 srcOff)
+    // Offset: 0x237AE68
+    int64_t BytesToWord(::ArrayW<uint8_t> src, int srcOff);
+    // private System.Void WordToBytes(System.Int64 word, System.Byte[] dst, System.Int32 dstOff)
+    // Offset: 0x237AF30
+    void WordToBytes(int64_t word, ::ArrayW<uint8_t> dst, int dstOff);
   }; // Org.BouncyCastle.Crypto.Engines.RC564Engine
   #pragma pack(pop)
   static check_size<sizeof(RC564Engine), 32 + sizeof(bool)> __Org_BouncyCastle_Crypto_Engines_RC564EngineSizeCheck;
@@ -166,6 +156,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::RC564Engine*), "get_IsPartialBlockOkay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::RC564Engine::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::RC564Engine::_cctor
 // Il2CppName: .cctor
 template<>
@@ -286,7 +280,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::RC564Engine*), "WordToBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{word, dst, dstOff});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::RC564Engine::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

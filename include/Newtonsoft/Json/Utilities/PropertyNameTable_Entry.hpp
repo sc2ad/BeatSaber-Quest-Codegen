@@ -24,15 +24,7 @@ namespace Newtonsoft::Json::Utilities {
   // [TokenAttribute] Offset: FFFFFFFF
   class PropertyNameTable::Entry : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // readonly System.String Value
     // Size: 0x8
     // Offset: 0x10
@@ -55,13 +47,13 @@ namespace Newtonsoft::Json::Utilities {
     static_assert(sizeof(::Newtonsoft::Json::Utilities::PropertyNameTable::Entry*) == 0x8);
     public:
     // Get instance field reference: readonly System.String Value
-    ::StringW& dyn_Value();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Value();
     // Get instance field reference: readonly System.Int32 HashCode
-    int& dyn_HashCode();
+    [[deprecated("Use field access instead!")]] int& dyn_HashCode();
     // Get instance field reference: Newtonsoft.Json.Utilities.PropertyNameTable/Newtonsoft.Json.Utilities.Entry Next
-    ::Newtonsoft::Json::Utilities::PropertyNameTable::Entry*& dyn_Next();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Utilities::PropertyNameTable::Entry*& dyn_Next();
     // System.Void .ctor(System.String value, System.Int32 hashCode, Newtonsoft.Json.Utilities.PropertyNameTable/Newtonsoft.Json.Utilities.Entry next)
-    // Offset: 0x2049B28
+    // Offset: 0x209339C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PropertyNameTable::Entry* New_ctor(::StringW value, int hashCode, ::Newtonsoft::Json::Utilities::PropertyNameTable::Entry* next) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::PropertyNameTable::Entry::.ctor");

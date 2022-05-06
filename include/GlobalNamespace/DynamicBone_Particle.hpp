@@ -34,15 +34,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DynamicBone::Particle : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Transform m_Transform
     // Size: 0x8
     // Offset: 0x10
@@ -123,35 +115,33 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     public:
     // Get instance field reference: public UnityEngine.Transform m_Transform
-    ::UnityEngine::Transform*& dyn_m_Transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_m_Transform();
     // Get instance field reference: public System.Int32 m_ParentIndex
-    int& dyn_m_ParentIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_m_ParentIndex();
     // Get instance field reference: public System.Single m_Damping
-    float& dyn_m_Damping();
+    [[deprecated("Use field access instead!")]] float& dyn_m_Damping();
     // Get instance field reference: public System.Single m_Elasticity
-    float& dyn_m_Elasticity();
+    [[deprecated("Use field access instead!")]] float& dyn_m_Elasticity();
     // Get instance field reference: public System.Single m_Stiffness
-    float& dyn_m_Stiffness();
+    [[deprecated("Use field access instead!")]] float& dyn_m_Stiffness();
     // Get instance field reference: public System.Single m_Inert
-    float& dyn_m_Inert();
+    [[deprecated("Use field access instead!")]] float& dyn_m_Inert();
     // Get instance field reference: public System.Single m_Radius
-    float& dyn_m_Radius();
+    [[deprecated("Use field access instead!")]] float& dyn_m_Radius();
     // Get instance field reference: public System.Single m_BoneLength
-    float& dyn_m_BoneLength();
+    [[deprecated("Use field access instead!")]] float& dyn_m_BoneLength();
     // Get instance field reference: public UnityEngine.Vector3 m_Position
-    ::UnityEngine::Vector3& dyn_m_Position();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_m_Position();
     // Get instance field reference: public UnityEngine.Vector3 m_PrevPosition
-    ::UnityEngine::Vector3& dyn_m_PrevPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_m_PrevPosition();
     // Get instance field reference: public UnityEngine.Vector3 m_EndOffset
-    ::UnityEngine::Vector3& dyn_m_EndOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_m_EndOffset();
     // Get instance field reference: public UnityEngine.Vector3 m_InitLocalPosition
-    ::UnityEngine::Vector3& dyn_m_InitLocalPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_m_InitLocalPosition();
     // Get instance field reference: public UnityEngine.Quaternion m_InitLocalRotation
-    ::UnityEngine::Quaternion& dyn_m_InitLocalRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_m_InitLocalRotation();
     // public System.Void .ctor()
-    // Offset: 0x2A7594C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2ACDCB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DynamicBone::Particle* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DynamicBone::Particle::.ctor");

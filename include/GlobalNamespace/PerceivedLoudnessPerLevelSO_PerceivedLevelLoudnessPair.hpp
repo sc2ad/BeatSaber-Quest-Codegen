@@ -24,15 +24,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _levelId
     // Size: 0x8
     // Offset: 0x10
@@ -47,17 +39,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private System.String _levelId
-    ::StringW& dyn__levelId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__levelId();
     // Get instance field reference: private System.Single _perceivedLoudness
-    float& dyn__perceivedLoudness();
+    [[deprecated("Use field access instead!")]] float& dyn__perceivedLoudness();
     // public System.String get_levelId()
-    // Offset: 0x12F10C0
+    // Offset: 0x1362078
     ::StringW get_levelId();
     // public System.Single get_perceivedLoudness()
-    // Offset: 0x12F10C8
+    // Offset: 0x1362080
     float get_perceivedLoudness();
     // public System.Void .ctor(System.String levelId, System.Single perceivedLoudness)
-    // Offset: 0x12F10D0
+    // Offset: 0x1362088
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair* New_ctor(::StringW levelId, float perceivedLoudness) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair::.ctor");

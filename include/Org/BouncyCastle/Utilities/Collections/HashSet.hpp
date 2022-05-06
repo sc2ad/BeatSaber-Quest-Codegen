@@ -42,15 +42,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class HashSet : public ::Il2CppObject/*, public ::Org::BouncyCastle::Utilities::Collections::ISet*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.IDictionary impl
     // Size: 0x8
     // Offset: 0x10
@@ -67,31 +59,29 @@ namespace Org::BouncyCastle::Utilities::Collections {
       return impl;
     }
     // Get instance field reference: private readonly System.Collections.IDictionary impl
-    ::System::Collections::IDictionary*& dyn_impl();
+    [[deprecated("Use field access instead!")]] ::System::Collections::IDictionary*& dyn_impl();
     // public System.Int32 get_Count()
-    // Offset: 0x25A26F8
+    // Offset: 0x25EDD28
     int get_Count();
     // public System.Object get_SyncRoot()
-    // Offset: 0x25A28D0
+    // Offset: 0x25EDF00
     ::Il2CppObject* get_SyncRoot();
-    // public System.Void Add(System.Object o)
-    // Offset: 0x25A24F4
-    void Add(::Il2CppObject* o);
-    // public System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x25A25BC
-    void CopyTo(::System::Array* array, int index);
-    // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x25A27AC
-    ::System::Collections::IEnumerator* GetEnumerator();
     // public System.Void .ctor()
-    // Offset: 0x25A2428
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x25EDA58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HashSet* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::Collections::HashSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HashSet*, creationType>()));
     }
+    // public System.Void Add(System.Object o)
+    // Offset: 0x25EDB24
+    void Add(::Il2CppObject* o);
+    // public System.Void CopyTo(System.Array array, System.Int32 index)
+    // Offset: 0x25EDBEC
+    void CopyTo(::System::Array* array, int index);
+    // public System.Collections.IEnumerator GetEnumerator()
+    // Offset: 0x25EDDDC
+    ::System::Collections::IEnumerator* GetEnumerator();
   }; // Org.BouncyCastle.Utilities.Collections.HashSet
   #pragma pack(pop)
   static check_size<sizeof(HashSet), 16 + sizeof(::System::Collections::IDictionary*)> __Org_BouncyCastle_Utilities_Collections_HashSetSizeCheck;
@@ -114,6 +104,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::HashSet*), "get_SyncRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::HashSet::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::HashSet::Add
 // Il2CppName: Add
 template<>
@@ -141,7 +135,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::HashSet*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::HashSet::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -41,15 +41,7 @@ namespace System::Xml::Linq {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class XElement::$GetAttributes$d__105 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XAttribute*>, public ::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XAttribute*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -106,46 +98,46 @@ namespace System::Xml::Linq {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XAttribute*>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Xml.Linq.XAttribute <>2__current
-    ::System::Xml::Linq::XAttribute*& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Linq::XAttribute*& dyn_$$2__current();
     // Get instance field reference: private System.Int32 <>l__initialThreadId
-    int& dyn_$$l__initialThreadId();
+    [[deprecated("Use field access instead!")]] int& dyn_$$l__initialThreadId();
     // Get instance field reference: public System.Xml.Linq.XElement <>4__this
-    ::System::Xml::Linq::XElement*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Linq::XElement*& dyn_$$4__this();
     // Get instance field reference: private System.Xml.Linq.XAttribute <a>5__1
-    ::System::Xml::Linq::XAttribute*& dyn_$a$5__1();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Linq::XAttribute*& dyn_$a$5__1();
     // Get instance field reference: private System.Xml.Linq.XName name
-    ::System::Xml::Linq::XName*& dyn_name();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Linq::XName*& dyn_name();
     // Get instance field reference: public System.Xml.Linq.XName <>3__name
-    ::System::Xml::Linq::XName*& dyn_$$3__name();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Linq::XName*& dyn_$$3__name();
     // private System.Xml.Linq.XAttribute System.Collections.Generic.IEnumerator<System.Xml.Linq.XAttribute>.get_Current()
-    // Offset: 0x2A4D4C0
+    // Offset: 0x2AA48A8
     ::System::Xml::Linq::XAttribute* System_Collections_Generic_IEnumerator$System_Xml_Linq_XAttribute$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x2A4D528
+    // Offset: 0x2AA4910
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x2A4D244
+    // Offset: 0x2AA462C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XElement::$GetAttributes$d__105* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XElement::$GetAttributes$d__105::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XElement::$GetAttributes$d__105*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x2A4D408
+    // Offset: 0x2AA47F0
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x2A4D40C
+    // Offset: 0x2AA47F4
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x2A4D4C8
+    // Offset: 0x2AA48B0
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.Xml.Linq.XAttribute> System.Collections.Generic.IEnumerable<System.Xml.Linq.XAttribute>.GetEnumerator()
-    // Offset: 0x2A4D530
+    // Offset: 0x2AA4918
     ::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XAttribute*>* System_Collections_Generic_IEnumerable$System_Xml_Linq_XAttribute$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x2A4D5E4
+    // Offset: 0x2AA49CC
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Xml.Linq.XElement/System.Xml.Linq.<GetAttributes>d__105
   #pragma pack(pop)

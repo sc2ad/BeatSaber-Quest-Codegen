@@ -54,15 +54,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FirstPersonFlyingController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _moveSensitivity
     // Size: 0x4
     // Offset: 0x18
@@ -71,14 +63,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: moveSensitivity and: transform
     char __padding0[0x4] = {};
-    // [NullAllowed] Offset: 0x125EB84
+    // [NullAllowed] Offset: 0x10E3768
     // private UnityEngine.Transform _transform
     // Size: 0x8
     // Offset: 0x20
     ::UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [NullAllowed] Offset: 0x125EBBC
+    // [NullAllowed] Offset: 0x10E37A0
     // private UnityEngine.Camera _camera
     // Size: 0x8
     // Offset: 0x28
@@ -93,35 +85,35 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: cameraFov and: centerAdjust
     char __padding3[0x4] = {};
-    // [NullAllowed] Offset: 0x125EC04
+    // [NullAllowed] Offset: 0x10E37E8
     // private VRCenterAdjust _centerAdjust
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::VRCenterAdjust* centerAdjust;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::VRCenterAdjust*) == 0x8);
-    // [NullAllowed] Offset: 0x125EC3C
+    // [NullAllowed] Offset: 0x10E3820
     // private VRController _controller0
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::VRController* controller0;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::VRController*) == 0x8);
-    // [NullAllowed] Offset: 0x125EC74
+    // [NullAllowed] Offset: 0x10E3858
     // private VRController _controller1
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::VRController* controller1;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::VRController*) == 0x8);
-    // [NullAllowed] Offset: 0x125ECAC
+    // [NullAllowed] Offset: 0x10E3890
     // private VRUIControls.VRInputModule _vrInputModule
     // Size: 0x8
     // Offset: 0x50
     ::VRUIControls::VRInputModule* vrInputModule;
     // Field size check
     static_assert(sizeof(::VRUIControls::VRInputModule*) == 0x8);
-    // [NullAllowed] Offset: 0x125ECE4
+    // [NullAllowed] Offset: 0x10E38C8
     // private UnityEngine.GameObject[] _controllerModels
     // Size: 0x8
     // Offset: 0x58
@@ -152,66 +144,64 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _moveSensitivity
-    float& dyn__moveSensitivity();
+    [[deprecated("Use field access instead!")]] float& dyn__moveSensitivity();
     // Get instance field reference: private UnityEngine.Transform _transform
-    ::UnityEngine::Transform*& dyn__transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // Get instance field reference: private UnityEngine.Camera _camera
-    ::UnityEngine::Camera*& dyn__camera();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Camera*& dyn__camera();
     // Get instance field reference: private System.Single _cameraFov
-    float& dyn__cameraFov();
+    [[deprecated("Use field access instead!")]] float& dyn__cameraFov();
     // Get instance field reference: private VRCenterAdjust _centerAdjust
-    ::GlobalNamespace::VRCenterAdjust*& dyn__centerAdjust();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VRCenterAdjust*& dyn__centerAdjust();
     // Get instance field reference: private VRController _controller0
-    ::GlobalNamespace::VRController*& dyn__controller0();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VRController*& dyn__controller0();
     // Get instance field reference: private VRController _controller1
-    ::GlobalNamespace::VRController*& dyn__controller1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VRController*& dyn__controller1();
     // Get instance field reference: private VRUIControls.VRInputModule _vrInputModule
-    ::VRUIControls::VRInputModule*& dyn__vrInputModule();
+    [[deprecated("Use field access instead!")]] ::VRUIControls::VRInputModule*& dyn__vrInputModule();
     // Get instance field reference: private UnityEngine.GameObject[] _controllerModels
-    ::ArrayW<::UnityEngine::GameObject*>& dyn__controllerModels();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::GameObject*>& dyn__controllerModels();
     // Get instance field reference: private MouseLook _mouseLook
-    ::GlobalNamespace::MouseLook*& dyn__mouseLook();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MouseLook*& dyn__mouseLook();
     // Get instance field reference: private System.Boolean _shouldBeEnabled
-    bool& dyn__shouldBeEnabled();
+    [[deprecated("Use field access instead!")]] bool& dyn__shouldBeEnabled();
     // Get instance field reference: private UnityEngine.Transform _cameraTransform
-    ::UnityEngine::Transform*& dyn__cameraTransform();
-    // protected System.Void Awake()
-    // Offset: 0x138EF44
-    void Awake();
-    // protected System.Void Start()
-    // Offset: 0x138EF50
-    void Start();
-    // protected System.Void OnEnable()
-    // Offset: 0x138F154
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x138F1F0
-    void OnDisable();
-    // protected System.Void Update()
-    // Offset: 0x138F288
-    void Update();
-    // public System.Void Inject(UnityEngine.Camera camera, VRCenterAdjust centerAdjust, VRController controller0, VRController controller1, VRUIControls.VRInputModule vrInputModule, System.Boolean shouldBeEnabled)
-    // Offset: 0x138F734
-    void Inject(::UnityEngine::Camera* camera, ::GlobalNamespace::VRCenterAdjust* centerAdjust, ::GlobalNamespace::VRController* controller0, ::GlobalNamespace::VRController* controller1, ::VRUIControls::VRInputModule* vrInputModule, bool shouldBeEnabled);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__cameraTransform();
     // public System.Void .ctor()
-    // Offset: 0x138F87C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1377390
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FirstPersonFlyingController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FirstPersonFlyingController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FirstPersonFlyingController*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x1376A58
+    void Awake();
+    // protected System.Void Start()
+    // Offset: 0x1376A64
+    void Start();
+    // protected System.Void OnEnable()
+    // Offset: 0x1376C68
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x1376D04
+    void OnDisable();
+    // protected System.Void Update()
+    // Offset: 0x1376D9C
+    void Update();
+    // public System.Void Inject(UnityEngine.Camera camera, VRCenterAdjust centerAdjust, VRController controller0, VRController controller1, VRUIControls.VRInputModule vrInputModule, System.Boolean shouldBeEnabled)
+    // Offset: 0x1377248
+    void Inject(::UnityEngine::Camera* camera, ::GlobalNamespace::VRCenterAdjust* centerAdjust, ::GlobalNamespace::VRController* controller0, ::GlobalNamespace::VRController* controller1, ::VRUIControls::VRInputModule* vrInputModule, bool shouldBeEnabled);
   }; // FirstPersonFlyingController
   #pragma pack(pop)
   static check_size<sizeof(FirstPersonFlyingController), 112 + sizeof(::UnityEngine::Transform*)> __GlobalNamespace_FirstPersonFlyingControllerSizeCheck;
   static_assert(sizeof(FirstPersonFlyingController) == 0x78);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::FirstPersonFlyingController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FirstPersonFlyingController::Awake
 // Il2CppName: Awake
 template<>
@@ -266,7 +256,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FirstPersonFlyingController*), "Inject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{camera, centerAdjust, controller0, controller1, vrInputModule, shouldBeEnabled});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FirstPersonFlyingController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

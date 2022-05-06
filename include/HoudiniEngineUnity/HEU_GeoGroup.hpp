@@ -48,15 +48,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_GeoGroup : public ::Il2CppObject/*, public ::System::IComparable_1<::HoudiniEngineUnity::HEU_GeoGroup*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String _groupName
     // Size: 0x8
     // Offset: 0x10
@@ -81,32 +73,34 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::IComparable_1<::HoudiniEngineUnity::HEU_GeoGroup*>*>(this);
     }
     // Get instance field reference: public System.String _groupName
-    ::StringW& dyn__groupName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__groupName();
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,HoudiniEngineUnity.HEU_MeshData> _subMeshesMap
-    ::System::Collections::Generic::Dictionary_2<int, ::HoudiniEngineUnity::HEU_MeshData*>*& dyn__subMeshesMap();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::HoudiniEngineUnity::HEU_MeshData*>*& dyn__subMeshesMap();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_VertexEntry>[] _sharedNormalIndices
-    ::ArrayW<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VertexEntry*>*>& dyn__sharedNormalIndices();
-    // public System.Int32 CompareTo(HoudiniEngineUnity.HEU_GeoGroup other)
-    // Offset: 0x175B8D4
-    int CompareTo(::HoudiniEngineUnity::HEU_GeoGroup* other);
-    // public System.Void SetupNormalIndices(System.Int32 indicesCount)
-    // Offset: 0x1758910
-    void SetupNormalIndices(int indicesCount);
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VertexEntry*>*>& dyn__sharedNormalIndices();
     // public System.Void .ctor()
-    // Offset: 0x17588A0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x17911B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_GeoGroup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeoGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_GeoGroup*, creationType>()));
     }
+    // public System.Int32 CompareTo(HoudiniEngineUnity.HEU_GeoGroup other)
+    // Offset: 0x17941E4
+    int CompareTo(::HoudiniEngineUnity::HEU_GeoGroup* other);
+    // public System.Void SetupNormalIndices(System.Int32 indicesCount)
+    // Offset: 0x1791220
+    void SetupNormalIndices(int indicesCount);
   }; // HoudiniEngineUnity.HEU_GeoGroup
   #pragma pack(pop)
   static check_size<sizeof(HEU_GeoGroup), 32 + sizeof(::ArrayW<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VertexEntry*>*>)> __HoudiniEngineUnity_HEU_GeoGroupSizeCheck;
   static_assert(sizeof(HEU_GeoGroup) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeoGroup::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeoGroup::CompareTo
 // Il2CppName: CompareTo
 template<>
@@ -125,7 +119,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeoGroup*), "SetupNormalIndices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{indicesCount});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeoGroup::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

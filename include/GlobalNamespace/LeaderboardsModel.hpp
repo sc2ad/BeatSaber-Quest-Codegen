@@ -34,22 +34,24 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardsModel : public ::Il2CppObject {
     public:
-    // static public System.String GetLeaderboardID(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x13B7F38
-    static ::StringW GetLeaderboardID(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Void .ctor()
-    // Offset: 0x13B7F9C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13B3448
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardsModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardsModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardsModel*, creationType>()));
     }
+    // static public System.String GetLeaderboardID(IDifficultyBeatmap difficultyBeatmap)
+    // Offset: 0x13B33E4
+    static ::StringW GetLeaderboardID(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
   }; // LeaderboardsModel
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModel::GetLeaderboardID
 // Il2CppName: GetLeaderboardID
 template<>
@@ -59,7 +61,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardsModel*), "GetLeaderboardID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmap});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
       return bScrollWheelVisible;
     }
     // Get instance field reference: public System.Boolean bScrollWheelVisible
-    bool& dyn_bScrollWheelVisible();
+    [[deprecated("Use field access instead!")]] bool& dyn_bScrollWheelVisible();
   }; // OVR.OpenVR.RenderModel_ControllerMode_State_t
   #pragma pack(pop)
   static check_size<sizeof(RenderModel_ControllerMode_State_t), 0 + sizeof(bool)> __OVR_OpenVR_RenderModel_ControllerMode_State_tSizeCheck;

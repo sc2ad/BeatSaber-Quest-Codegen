@@ -36,15 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRMRAudioFilter : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean running
     // Size: 0x1
     // Offset: 0x18
@@ -63,34 +55,32 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean running
-    bool& dyn_running();
+    [[deprecated("Use field access instead!")]] bool& dyn_running();
     // Get instance field reference: public OVRExternalComposition composition
-    ::GlobalNamespace::OVRExternalComposition*& dyn_composition();
-    // private System.Void Start()
-    // Offset: 0x19C65A8
-    void Start();
-    // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0x19C65B4
-    void OnAudioFilterRead(::ArrayW<float> data, int channels);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRExternalComposition*& dyn_composition();
     // public System.Void .ctor()
-    // Offset: 0x19C65D0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x19FFBB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRMRAudioFilter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRMRAudioFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRMRAudioFilter*, creationType>()));
     }
+    // private System.Void Start()
+    // Offset: 0x19FFB90
+    void Start();
+    // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
+    // Offset: 0x19FFB9C
+    void OnAudioFilterRead(::ArrayW<float> data, int channels);
   }; // OVRMRAudioFilter
   #pragma pack(pop)
   static check_size<sizeof(OVRMRAudioFilter), 32 + sizeof(::GlobalNamespace::OVRExternalComposition*)> __GlobalNamespace_OVRMRAudioFilterSizeCheck;
   static_assert(sizeof(OVRMRAudioFilter) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OVRMRAudioFilter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVRMRAudioFilter::Start
 // Il2CppName: Start
 template<>
@@ -109,7 +99,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMRAudioFilter*), "OnAudioFilterRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, channels});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OVRMRAudioFilter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

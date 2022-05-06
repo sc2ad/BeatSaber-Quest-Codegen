@@ -48,9 +48,9 @@ namespace System::Net::NetworkInformation {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt16 AddressFamily
-    uint16_t& dyn_AddressFamily();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_AddressFamily();
     // Get instance field reference: public System.Byte[] AddressData
-    ::ArrayW<uint8_t>& dyn_AddressData();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_AddressData();
   }; // System.Net.NetworkInformation.Win32_SOCKADDR
   #pragma pack(pop)
   static check_size<sizeof(Win32_SOCKADDR), 8 + sizeof(::ArrayW<uint8_t>)> __System_Net_NetworkInformation_Win32_SOCKADDRSizeCheck;

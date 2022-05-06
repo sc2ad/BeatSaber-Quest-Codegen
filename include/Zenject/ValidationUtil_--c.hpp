@@ -51,26 +51,24 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,Zenject.TypeValuePair> <>9__0_0
     static void _set_$$9__0_0(::System::Func_2<::System::Type*, ::Zenject::TypeValuePair>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1CEE8DC
+    // Offset: 0x1D29E34
     static void _cctor();
-    // Zenject.TypeValuePair <CreateDefaultArgs>b__0_0(System.Type x)
-    // Offset: 0x1CEE948
-    ::Zenject::TypeValuePair $CreateDefaultArgs$b__0_0(::System::Type* x);
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1CEE9BC
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CEEA18
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1CEE940
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1D29E98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValidationUtil::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ValidationUtil::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValidationUtil::$$c*, creationType>()));
     }
+    // Zenject.TypeValuePair <CreateDefaultArgs>b__0_0(System.Type x)
+    // Offset: 0x1D29EA0
+    ::Zenject::TypeValuePair $CreateDefaultArgs$b__0_0(::System::Type* x);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1D29F14
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1D29F70
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.ValidationUtil/Zenject.<>c
   #pragma pack(pop)
 }
@@ -83,6 +81,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(Zenject::ValidationUtil::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Zenject::ValidationUtil::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::ValidationUtil::$$c::$CreateDefaultArgs$b__0_0
 // Il2CppName: <CreateDefaultArgs>b__0_0
 template<>
@@ -109,7 +111,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::ValidationUtil::$$c*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::ValidationUtil::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

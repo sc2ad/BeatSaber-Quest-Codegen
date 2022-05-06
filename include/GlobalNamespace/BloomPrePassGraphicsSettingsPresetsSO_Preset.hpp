@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassGraphicsSettingsPresetsSO::Preset : public ::GlobalNamespace::NamedPreset {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public BloomPrePassEffectSO bloomPrePassEffect
     // Size: 0x8
     // Offset: 0x18
@@ -51,12 +43,11 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::StringW
     constexpr operator ::StringW() const noexcept = delete;
     // Get instance field reference: public BloomPrePassEffectSO bloomPrePassEffect
-    ::GlobalNamespace::BloomPrePassEffectSO*& dyn_bloomPrePassEffect();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassEffectSO*& dyn_bloomPrePassEffect();
     // public System.Void .ctor()
-    // Offset: 0x134B758
+    // Offset: 0x13349A0
     // Implemented from: NamedPreset
     // Base method: System.Void NamedPreset::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassGraphicsSettingsPresetsSO::Preset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset::.ctor");

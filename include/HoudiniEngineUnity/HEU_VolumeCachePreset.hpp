@@ -40,15 +40,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_VolumeCachePreset : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String _objName
     // Size: 0x8
     // Offset: 0x10
@@ -75,14 +67,14 @@ namespace HoudiniEngineUnity {
     ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset*>* volumeLayersPresets;
     // Field size check
     static_assert(sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset*>*) == 0x8);
-    // [OptionalFieldAttribute] Offset: 0x127C32C
+    // [OptionalFieldAttribute] Offset: 0x1100FE4
     // public System.String _terrainDataPath
     // Size: 0x8
     // Offset: 0x30
     ::StringW terrainDataPath;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [OptionalFieldAttribute] Offset: 0x127C364
+    // [OptionalFieldAttribute] Offset: 0x110101C
     // public System.Int32 _tile
     // Size: 0x4
     // Offset: 0x38
@@ -91,21 +83,19 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public System.String _objName
-    ::StringW& dyn__objName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__objName();
     // Get instance field reference: public System.String _geoName
-    ::StringW& dyn__geoName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__geoName();
     // Get instance field reference: public System.Boolean _uiExpanded
-    bool& dyn__uiExpanded();
+    [[deprecated("Use field access instead!")]] bool& dyn__uiExpanded();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_VolumeLayerPreset> _volumeLayersPresets
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset*>*& dyn__volumeLayersPresets();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset*>*& dyn__volumeLayersPresets();
     // Get instance field reference: public System.String _terrainDataPath
-    ::StringW& dyn__terrainDataPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__terrainDataPath();
     // Get instance field reference: public System.Int32 _tile
-    int& dyn__tile();
+    [[deprecated("Use field access instead!")]] int& dyn__tile();
     // public System.Void .ctor()
-    // Offset: 0x19D9324
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1A1290C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_VolumeCachePreset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_VolumeCachePreset::.ctor");

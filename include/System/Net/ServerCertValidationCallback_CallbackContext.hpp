@@ -34,15 +34,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class ServerCertValidationCallback::CallbackContext : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // readonly System.Object request
     // Size: 0x8
     // Offset: 0x10
@@ -75,17 +67,17 @@ namespace System::Net {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: readonly System.Object request
-    ::Il2CppObject*& dyn_request();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_request();
     // Get instance field reference: readonly System.Security.Cryptography.X509Certificates.X509Certificate certificate
-    ::System::Security::Cryptography::X509Certificates::X509Certificate*& dyn_certificate();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509Certificate*& dyn_certificate();
     // Get instance field reference: readonly System.Security.Cryptography.X509Certificates.X509Chain chain
-    ::System::Security::Cryptography::X509Certificates::X509Chain*& dyn_chain();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509Chain*& dyn_chain();
     // Get instance field reference: readonly System.Net.Security.SslPolicyErrors sslPolicyErrors
-    ::System::Net::Security::SslPolicyErrors& dyn_sslPolicyErrors();
+    [[deprecated("Use field access instead!")]] ::System::Net::Security::SslPolicyErrors& dyn_sslPolicyErrors();
     // Get instance field reference: System.Boolean result
-    bool& dyn_result();
+    [[deprecated("Use field access instead!")]] bool& dyn_result();
     // System.Void .ctor(System.Object request, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, System.Net.Security.SslPolicyErrors sslPolicyErrors)
-    // Offset: 0x1B32224
+    // Offset: 0x1B6C80C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerCertValidationCallback::CallbackContext* New_ctor(::Il2CppObject* request, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain, ::System::Net::Security::SslPolicyErrors sslPolicyErrors) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::ServerCertValidationCallback::CallbackContext::.ctor");

@@ -38,15 +38,7 @@ namespace Newtonsoft::Json::Converters {
   // [TokenAttribute] Offset: FFFFFFFF
   class XDocumentTypeWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper/*, public ::Newtonsoft::Json::Converters::IXmlDocumentType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Xml.Linq.XDocumentType _documentType
     // Size: 0x8
     // Offset: 0x18
@@ -61,28 +53,28 @@ namespace Newtonsoft::Json::Converters {
     // Deleting conversion operator: operator ::System::Xml::Linq::XObject*
     constexpr operator ::System::Xml::Linq::XObject*() const noexcept = delete;
     // Get instance field reference: private readonly System.Xml.Linq.XDocumentType _documentType
-    ::System::Xml::Linq::XDocumentType*& dyn__documentType();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Linq::XDocumentType*& dyn__documentType();
     // public System.String get_Name()
-    // Offset: 0x177F50C
+    // Offset: 0x17B8E1C
     ::StringW get_Name();
     // public System.String get_System()
-    // Offset: 0x177F528
+    // Offset: 0x17B8E38
     ::StringW get_System();
     // public System.String get_Public()
-    // Offset: 0x177F544
+    // Offset: 0x17B8E54
     ::StringW get_Public();
     // public System.String get_InternalSubset()
-    // Offset: 0x177F560
+    // Offset: 0x17B8E70
     ::StringW get_InternalSubset();
     // public System.Void .ctor(System.Xml.Linq.XDocumentType documentType)
-    // Offset: 0x177F2C0
+    // Offset: 0x17B8BD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XDocumentTypeWrapper* New_ctor(::System::Xml::Linq::XDocumentType* documentType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XDocumentTypeWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XDocumentTypeWrapper*, creationType>(documentType)));
     }
     // public override System.String get_LocalName()
-    // Offset: 0x177F57C
+    // Offset: 0x17B8E8C
     // Implemented from: Newtonsoft.Json.Converters.XObjectWrapper
     // Base method: System.String XObjectWrapper::get_LocalName()
     ::StringW get_LocalName();

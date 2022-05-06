@@ -42,15 +42,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConnectedPlayerManager::PongPacket : public ::Il2CppObject/*, public ::LiteNetLib::Utils::INetSerializable, public ::GlobalNamespace::IPoolablePacket*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single pingTime
     // Size: 0x4
     // Offset: 0x10
@@ -71,31 +63,29 @@ namespace GlobalNamespace {
       return pingTime;
     }
     // Get instance field reference: public System.Single pingTime
-    float& dyn_pingTime();
+    [[deprecated("Use field access instead!")]] float& dyn_pingTime();
     // static public PacketPool`1<ConnectedPlayerManager/PongPacket> get_pool()
-    // Offset: 0x163DF58
+    // Offset: 0x1674868
     static ::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager::PongPacket*>* get_pool();
-    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x163DFA0
-    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
-    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x163DFC0
-    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
-    // public ConnectedPlayerManager/PongPacket Init(System.Single pingTime)
-    // Offset: 0x163DFF4
-    ::GlobalNamespace::ConnectedPlayerManager::PongPacket* Init(float pingTime);
-    // public System.Void Release()
-    // Offset: 0x163DFFC
-    void Release();
     // public System.Void .ctor()
-    // Offset: 0x163E058
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1674968
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectedPlayerManager::PongPacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConnectedPlayerManager::PongPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectedPlayerManager::PongPacket*, creationType>()));
     }
+    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x16748B0
+    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x16748D0
+    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
+    // public ConnectedPlayerManager/PongPacket Init(System.Single pingTime)
+    // Offset: 0x1674904
+    ::GlobalNamespace::ConnectedPlayerManager::PongPacket* Init(float pingTime);
+    // public System.Void Release()
+    // Offset: 0x167490C
+    void Release();
   }; // ConnectedPlayerManager/PongPacket
   #pragma pack(pop)
   static check_size<sizeof(ConnectedPlayerManager::PongPacket), 16 + sizeof(float)> __GlobalNamespace_ConnectedPlayerManager_PongPacketSizeCheck;
@@ -110,6 +100,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::PongPacket*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::PongPacket::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::PongPacket::Serialize
 // Il2CppName: Serialize
 template<>
@@ -145,7 +139,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::PongPacket*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::PongPacket::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

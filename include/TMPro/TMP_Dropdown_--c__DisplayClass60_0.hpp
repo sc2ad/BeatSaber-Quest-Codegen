@@ -24,15 +24,7 @@ namespace TMPro {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TMP_Dropdown::$$c__DisplayClass60_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public TMPro.TMP_Dropdown/TMPro.DropdownItem item
     // Size: 0x8
     // Offset: 0x10
@@ -47,27 +39,29 @@ namespace TMPro {
     static_assert(sizeof(::TMPro::TMP_Dropdown*) == 0x8);
     public:
     // Get instance field reference: public TMPro.TMP_Dropdown/TMPro.DropdownItem item
-    ::TMPro::TMP_Dropdown::DropdownItem*& dyn_item();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_Dropdown::DropdownItem*& dyn_item();
     // Get instance field reference: public TMPro.TMP_Dropdown <>4__this
-    ::TMPro::TMP_Dropdown*& dyn_$$4__this();
-    // System.Void <Show>b__0(System.Boolean x)
-    // Offset: 0x1438210
-    void $Show$b__0(bool x);
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_Dropdown*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x1437670
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14408B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Dropdown::$$c__DisplayClass60_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_Dropdown::$$c__DisplayClass60_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Dropdown::$$c__DisplayClass60_0*, creationType>()));
     }
+    // System.Void <Show>b__0(System.Boolean x)
+    // Offset: 0x1441450
+    void $Show$b__0(bool x);
   }; // TMPro.TMP_Dropdown/TMPro.<>c__DisplayClass60_0
   #pragma pack(pop)
   static check_size<sizeof(TMP_Dropdown::$$c__DisplayClass60_0), 24 + sizeof(::TMPro::TMP_Dropdown*)> __TMPro_TMP_Dropdown_$$c__DisplayClass60_0SizeCheck;
   static_assert(sizeof(TMP_Dropdown::$$c__DisplayClass60_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: TMPro::TMP_Dropdown::$$c__DisplayClass60_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::$$c__DisplayClass60_0::$Show$b__0
 // Il2CppName: <Show>b__0
 template<>
@@ -77,7 +71,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown::$$c__DisplayClass60_0*), "<Show>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: TMPro::TMP_Dropdown::$$c__DisplayClass60_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -2412,7 +2412,7 @@ namespace System {
     // Set static field: static public System.TermInfoStrings Last
     static void _set_Last(::System::TermInfoStrings value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.TermInfoStrings
   #pragma pack(pop)
   static check_size<sizeof(TermInfoStrings), 0 + sizeof(int)> __System_TermInfoStringsSizeCheck;

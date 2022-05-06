@@ -44,9 +44,9 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Boolean cookUsingHoudiniTime
-    bool& dyn_cookUsingHoudiniTime();
+    [[deprecated("Use field access instead!")]] bool& dyn_cookUsingHoudiniTime();
     // Get instance field reference: public System.Boolean syncViewport
-    bool& dyn_syncViewport();
+    [[deprecated("Use field access instead!")]] bool& dyn_syncViewport();
   }; // HoudiniEngineUnity.HAPI_SessionSyncInfo
   #pragma pack(pop)
   static check_size<sizeof(HAPI_SessionSyncInfo), 1 + sizeof(bool)> __HoudiniEngineUnity_HAPI_SessionSyncInfoSizeCheck;

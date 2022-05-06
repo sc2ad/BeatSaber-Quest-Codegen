@@ -68,15 +68,7 @@ namespace HMUI {
     public:
     // Nested type: ::HMUI::UIKeyboard::$$c__DisplayClass13_0
     class $$c__DisplayClass13_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Button _okButton
     // Size: 0x8
     // Offset: 0x18
@@ -125,74 +117,68 @@ namespace HMUI {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Button _okButton
-    ::UnityEngine::UI::Button*& dyn__okButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__okButton();
     // Get instance field reference: private System.Action okButtonWasPressedEvent
-    ::System::Action*& dyn_okButtonWasPressedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_okButtonWasPressedEvent();
     // Get instance field reference: private System.Action`1<System.Char> keyWasPressedEvent
-    ::System::Action_1<::Il2CppChar>*& dyn_keyWasPressedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::Il2CppChar>*& dyn_keyWasPressedEvent();
     // Get instance field reference: private System.Action deleteButtonWasPressedEvent
-    ::System::Action*& dyn_deleteButtonWasPressedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_deleteButtonWasPressedEvent();
     // Get instance field reference: private readonly HMUI.ButtonBinder _buttonBinder
-    ::HMUI::ButtonBinder*& dyn__buttonBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // Get instance field reference: private System.Boolean _shouldCapitalize
-    bool& dyn__shouldCapitalize();
+    [[deprecated("Use field access instead!")]] bool& dyn__shouldCapitalize();
     // Get instance field reference: private System.Collections.Generic.List`1<TMPro.TextMeshProUGUI> _letterBtnTexts
-    ::System::Collections::Generic::List_1<::TMPro::TextMeshProUGUI*>*& dyn__letterBtnTexts();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::TMPro::TextMeshProUGUI*>*& dyn__letterBtnTexts();
     // public System.Void add_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x29E1954
+    // Offset: 0x2A37248
     void add_okButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x29E19F8
+    // Offset: 0x2A372EC
     void remove_okButtonWasPressedEvent(::System::Action* value);
     // public System.Void add_keyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0x29E1A9C
+    // Offset: 0x2A37390
     void add_keyWasPressedEvent(::System::Action_1<::Il2CppChar>* value);
     // public System.Void remove_keyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0x29E1B40
+    // Offset: 0x2A37434
     void remove_keyWasPressedEvent(::System::Action_1<::Il2CppChar>* value);
     // public System.Void add_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0x29E1BE4
+    // Offset: 0x2A374D8
     void add_deleteButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0x29E1C88
+    // Offset: 0x2A3757C
     void remove_deleteButtonWasPressedEvent(::System::Action* value);
-    // protected System.Void Awake()
-    // Offset: 0x29E1D2C
-    void Awake();
-    // private System.Void HandleKeyPress(UnityEngine.KeyCode keyCode)
-    // Offset: 0x29E1FA0
-    void HandleKeyPress(::UnityEngine::KeyCode keyCode);
-    // private System.Void HandleCapsLockPressed()
-    // Offset: 0x29E209C
-    void HandleCapsLockPressed();
-    // private System.Void SetKeyboardCapitalization(System.Boolean capitalize)
-    // Offset: 0x29E20B4
-    void SetKeyboardCapitalization(bool capitalize);
-    // private System.Boolean HasFontStyle(TMPro.TextMeshProUGUI text, TMPro.FontStyles style)
-    // Offset: 0x29E21E4
-    bool HasFontStyle(::TMPro::TextMeshProUGUI* text, ::TMPro::FontStyles style);
-    // private System.Void OnEnable()
-    // Offset: 0x29E2204
-    void OnEnable();
-    // private System.Void <Awake>b__13_0()
-    // Offset: 0x29E2278
-    void $Awake$b__13_0();
-    // private System.Void <Awake>b__13_1()
-    // Offset: 0x29E228C
-    void $Awake$b__13_1();
     // public System.Void .ctor()
-    // Offset: 0x29E2210
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A37B04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UIKeyboard* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::UIKeyboard::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UIKeyboard*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x2A37620
+    void Awake();
+    // private System.Void HandleKeyPress(UnityEngine.KeyCode keyCode)
+    // Offset: 0x2A37894
+    void HandleKeyPress(::UnityEngine::KeyCode keyCode);
+    // private System.Void HandleCapsLockPressed()
+    // Offset: 0x2A37990
+    void HandleCapsLockPressed();
+    // private System.Void SetKeyboardCapitalization(System.Boolean capitalize)
+    // Offset: 0x2A379A8
+    void SetKeyboardCapitalization(bool capitalize);
+    // private System.Boolean HasFontStyle(TMPro.TextMeshProUGUI text, TMPro.FontStyles style)
+    // Offset: 0x2A37AD8
+    bool HasFontStyle(::TMPro::TextMeshProUGUI* text, ::TMPro::FontStyles style);
+    // private System.Void OnEnable()
+    // Offset: 0x2A37AF8
+    void OnEnable();
+    // private System.Void <Awake>b__13_0()
+    // Offset: 0x2A37B6C
+    void $Awake$b__13_0();
+    // private System.Void <Awake>b__13_1()
+    // Offset: 0x2A37B80
+    void $Awake$b__13_1();
   }; // HMUI.UIKeyboard
   #pragma pack(pop)
   static check_size<sizeof(UIKeyboard), 72 + sizeof(::System::Collections::Generic::List_1<::TMPro::TextMeshProUGUI*>*)> __HMUI_UIKeyboardSizeCheck;
@@ -253,6 +239,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::UIKeyboard*), "remove_deleteButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: HMUI::UIKeyboard::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::UIKeyboard::Awake
 // Il2CppName: Awake
 template<>
@@ -321,7 +311,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::UIKeyboard*), "<Awake>b__13_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HMUI::UIKeyboard::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

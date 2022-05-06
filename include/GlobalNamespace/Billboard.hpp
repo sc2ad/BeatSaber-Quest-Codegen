@@ -89,20 +89,12 @@ namespace GlobalNamespace {
       // Set static field: static public Billboard/RotationMode ZAxis
       static void _set_ZAxis(::GlobalNamespace::Billboard::RotationMode value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // Billboard/RotationMode
     #pragma pack(pop)
     static check_size<sizeof(Billboard::RotationMode), 0 + sizeof(int)> __GlobalNamespace_Billboard_RotationModeSizeCheck;
     static_assert(sizeof(Billboard::RotationMode) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Billboard/RotationMode _rotationMode
     // Size: 0x4
     // Offset: 0x18
@@ -127,30 +119,24 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Billboard/RotationMode _rotationMode
-    ::GlobalNamespace::Billboard::RotationMode& dyn__rotationMode();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Billboard::RotationMode& dyn__rotationMode();
     // Get instance field reference: private System.Boolean _flipDirection
-    bool& dyn__flipDirection();
+    [[deprecated("Use field access instead!")]] bool& dyn__flipDirection();
     // Get instance field reference: private UnityEngine.Transform _transform
-    ::UnityEngine::Transform*& dyn__transform();
-    // protected System.Void Awake()
-    // Offset: 0x1564FC4
-    void Awake();
-    // private System.Void OnWillRenderObject()
-    // Offset: 0x1564FEC
-    void OnWillRenderObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // public System.Void .ctor()
-    // Offset: 0x156513C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x159BA44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Billboard* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::Billboard::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Billboard*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x159B8CC
+    void Awake();
+    // private System.Void OnWillRenderObject()
+    // Offset: 0x159B8F4
+    void OnWillRenderObject();
   }; // Billboard
   #pragma pack(pop)
   static check_size<sizeof(Billboard), 32 + sizeof(::UnityEngine::Transform*)> __GlobalNamespace_BillboardSizeCheck;
@@ -159,6 +145,10 @@ namespace GlobalNamespace {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Billboard::RotationMode, "", "Billboard/RotationMode");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::Billboard::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::Billboard::Awake
 // Il2CppName: Awake
 template<>
@@ -175,7 +165,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Billboard*), "OnWillRenderObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::Billboard::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

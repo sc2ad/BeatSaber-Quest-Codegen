@@ -84,20 +84,12 @@ namespace GlobalNamespace {
       // Set static field: static public LightRotationBeatmapEventData/Axis Y
       static void _set_Y(::GlobalNamespace::LightRotationBeatmapEventData::Axis value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // LightRotationBeatmapEventData/Axis
     #pragma pack(pop)
     static check_size<sizeof(LightRotationBeatmapEventData::Axis), 0 + sizeof(int)> __GlobalNamespace_LightRotationBeatmapEventData_AxisSizeCheck;
     static_assert(sizeof(LightRotationBeatmapEventData::Axis) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Int32 groupId
     // Size: 0x4
     // Offset: 0x30
@@ -149,56 +141,56 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12292BC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10ACCD4
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<System.Int32,LightRotationBeatmapEventData> _defaults
     static ::System::Collections::Generic::Dictionary_2<int, ::GlobalNamespace::LightRotationBeatmapEventData*>* _get__defaults();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Int32,LightRotationBeatmapEventData> _defaults
     static void _set__defaults(::System::Collections::Generic::Dictionary_2<int, ::GlobalNamespace::LightRotationBeatmapEventData*>* value);
     // Get instance field reference: public readonly System.Int32 groupId
-    int& dyn_groupId();
+    [[deprecated("Use field access instead!")]] int& dyn_groupId();
     // Get instance field reference: public readonly System.Int32 elementId
-    int& dyn_elementId();
+    [[deprecated("Use field access instead!")]] int& dyn_elementId();
     // Get instance field reference: public readonly System.Boolean usePreviousEventValue
-    bool& dyn_usePreviousEventValue();
+    [[deprecated("Use field access instead!")]] bool& dyn_usePreviousEventValue();
     // Get instance field reference: public readonly EaseType easeType
-    ::GlobalNamespace::EaseType& dyn_easeType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EaseType& dyn_easeType();
     // Get instance field reference: public readonly LightRotationBeatmapEventData/Axis axis
-    ::GlobalNamespace::LightRotationBeatmapEventData::Axis& dyn_axis();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightRotationBeatmapEventData::Axis& dyn_axis();
     // Get instance field reference: public readonly System.Int32 loopCount
-    int& dyn_loopCount();
+    [[deprecated("Use field access instead!")]] int& dyn_loopCount();
     // Get instance field reference: public readonly LightRotationDirection rotationDirection
-    ::GlobalNamespace::LightRotationDirection& dyn_rotationDirection();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightRotationDirection& dyn_rotationDirection();
     // Get instance field reference: private System.Single <rotation>k__BackingField
-    float& dyn_$rotation$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$rotation$k__BackingField();
     // public System.Single get_rotation()
-    // Offset: 0x281C4C4
+    // Offset: 0x286EA84
     float get_rotation();
     // private System.Void set_rotation(System.Single value)
-    // Offset: 0x281C4CC
+    // Offset: 0x286EA8C
     void set_rotation(float value);
     // public System.Void .ctor(System.Single time, System.Int32 groupId, System.Int32 elementId, System.Boolean usePreviousEventValue, EaseType easeType, LightRotationBeatmapEventData/Axis axis, System.Single rotation, System.Int32 loopCount, LightRotationDirection rotationDirection)
-    // Offset: 0x281C4D4
+    // Offset: 0x286EA94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightRotationBeatmapEventData* New_ctor(float time, int groupId, int elementId, bool usePreviousEventValue, ::GlobalNamespace::EaseType easeType, ::GlobalNamespace::LightRotationBeatmapEventData::Axis axis, float rotation, int loopCount, ::GlobalNamespace::LightRotationDirection rotationDirection) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightRotationBeatmapEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightRotationBeatmapEventData*, creationType>(time, groupId, elementId, usePreviousEventValue, easeType, axis, rotation, loopCount, rotationDirection)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x281C814
+    // Offset: 0x286EDD4
     static void _cctor();
     // public System.Void ChangeRotation(System.Single rotation)
-    // Offset: 0x281C5E4
+    // Offset: 0x286EBA4
     void ChangeRotation(float rotation);
     // static public System.Int32 SubtypeIdentifier(System.Int32 groupId, System.Int32 elementId, LightRotationBeatmapEventData/Axis axis)
-    // Offset: 0x281C5CC
+    // Offset: 0x286EB8C
     static int SubtypeIdentifier(int groupId, int elementId, ::GlobalNamespace::LightRotationBeatmapEventData::Axis axis);
     // public override BeatmapDataItem GetCopy()
-    // Offset: 0x281C5EC
+    // Offset: 0x286EBAC
     // Implemented from: BeatmapDataItem
     // Base method: BeatmapDataItem BeatmapDataItem::GetCopy()
     ::GlobalNamespace::BeatmapDataItem* GetCopy();
     // protected override BeatmapEventData GetDefault()
-    // Offset: 0x281C6AC
+    // Offset: 0x286EC6C
     // Implemented from: BeatmapEventData
     // Base method: BeatmapEventData BeatmapEventData::GetDefault()
     ::GlobalNamespace::BeatmapEventData* GetDefault();

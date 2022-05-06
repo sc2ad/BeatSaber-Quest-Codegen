@@ -31,15 +31,7 @@ namespace System::Net {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class WebConnectionStream::$$c__DisplayClass75_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Net.WebConnectionStream <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -54,27 +46,29 @@ namespace System::Net {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.Net.WebConnectionStream <>4__this
-    ::System::Net::WebConnectionStream*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::System::Net::WebConnectionStream*& dyn_$$4__this();
     // Get instance field reference: public System.Boolean setInternalLength
-    bool& dyn_setInternalLength();
-    // System.Boolean <SetHeadersAsync>b__0(System.Net.SimpleAsyncResult r)
-    // Offset: 0x1B20B20
-    bool $SetHeadersAsync$b__0(::System::Net::SimpleAsyncResult* r);
+    [[deprecated("Use field access instead!")]] bool& dyn_setInternalLength();
     // public System.Void .ctor()
-    // Offset: 0x1B20064
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B5A64C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionStream::$$c__DisplayClass75_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebConnectionStream::$$c__DisplayClass75_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionStream::$$c__DisplayClass75_0*, creationType>()));
     }
+    // System.Boolean <SetHeadersAsync>b__0(System.Net.SimpleAsyncResult r)
+    // Offset: 0x1B5B108
+    bool $SetHeadersAsync$b__0(::System::Net::SimpleAsyncResult* r);
   }; // System.Net.WebConnectionStream/System.Net.<>c__DisplayClass75_0
   #pragma pack(pop)
   static check_size<sizeof(WebConnectionStream::$$c__DisplayClass75_0), 24 + sizeof(bool)> __System_Net_WebConnectionStream_$$c__DisplayClass75_0SizeCheck;
   static_assert(sizeof(WebConnectionStream::$$c__DisplayClass75_0) == 0x19);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Net::WebConnectionStream::$$c__DisplayClass75_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::$$c__DisplayClass75_0::$SetHeadersAsync$b__0
 // Il2CppName: <SetHeadersAsync>b__0
 template<>
@@ -84,7 +78,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionStream::$$c__DisplayClass75_0*), "<SetHeadersAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{r});
   }
 };
-// Writing MetadataGetter for method: System::Net::WebConnectionStream::$$c__DisplayClass75_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

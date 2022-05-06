@@ -43,15 +43,7 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::RemoteProcedureCall::TypeWrapper_1<T>
     template<typename T>
     class TypeWrapper_1;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single <syncTime>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -68,40 +60,38 @@ namespace GlobalNamespace {
       return syncTime;
     }
     // Get instance field reference: private System.Single <syncTime>k__BackingField
-    float& dyn_$syncTime$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$syncTime$k__BackingField();
     // public System.Single get_syncTime()
-    // Offset: 0x25EB8F0
+    // Offset: 0x2637F20
     float get_syncTime();
     // protected System.Void set_syncTime(System.Single value)
-    // Offset: 0x25EB8F8
+    // Offset: 0x2637F28
     void set_syncTime(float value);
-    // protected System.Void SerializeData(LiteNetLib.Utils.NetDataWriter writer, System.UInt32 protocolVersion)
-    // Offset: 0x25EB900
-    void SerializeData(::LiteNetLib::Utils::NetDataWriter* writer, uint protocolVersion);
-    // protected System.Void DeserializeData(LiteNetLib.Utils.NetDataReader reader, System.UInt32 protocolVersion)
-    // Offset: 0x25EB904
-    void DeserializeData(::LiteNetLib::Utils::NetDataReader* reader, uint protocolVersion);
-    // private System.Void LiteNetLib.Utils.INetSerializable.Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x25EB908
-    void LiteNetLib_Utils_INetSerializable_Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
-    // private System.Void LiteNetLib.Utils.INetSerializable.Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x25EB954
-    void LiteNetLib_Utils_INetSerializable_Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
-    // public System.Void Release()
-    // Offset: 0x25EB9A0
-    void Release();
-    // public IRemoteProcedureCall Init(System.Single syncTime)
-    // Offset: 0x25EBAC0
-    ::GlobalNamespace::IRemoteProcedureCall* Init(float syncTime);
     // protected System.Void .ctor()
-    // Offset: 0x25EBAC8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x26380F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteProcedureCall* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RemoteProcedureCall::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemoteProcedureCall*, creationType>()));
     }
+    // protected System.Void SerializeData(LiteNetLib.Utils.NetDataWriter writer, System.UInt32 protocolVersion)
+    // Offset: 0x2637F30
+    void SerializeData(::LiteNetLib::Utils::NetDataWriter* writer, uint protocolVersion);
+    // protected System.Void DeserializeData(LiteNetLib.Utils.NetDataReader reader, System.UInt32 protocolVersion)
+    // Offset: 0x2637F34
+    void DeserializeData(::LiteNetLib::Utils::NetDataReader* reader, uint protocolVersion);
+    // private System.Void LiteNetLib.Utils.INetSerializable.Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x2637F38
+    void LiteNetLib_Utils_INetSerializable_Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+    // private System.Void LiteNetLib.Utils.INetSerializable.Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x2637F84
+    void LiteNetLib_Utils_INetSerializable_Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
+    // public System.Void Release()
+    // Offset: 0x2637FD0
+    void Release();
+    // public IRemoteProcedureCall Init(System.Single syncTime)
+    // Offset: 0x26380F0
+    ::GlobalNamespace::IRemoteProcedureCall* Init(float syncTime);
   }; // RemoteProcedureCall
   #pragma pack(pop)
   static check_size<sizeof(RemoteProcedureCall), 16 + sizeof(float)> __GlobalNamespace_RemoteProcedureCallSizeCheck;
@@ -125,6 +115,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RemoteProcedureCall*), "set_syncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::RemoteProcedureCall::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::RemoteProcedureCall::SerializeData
 // Il2CppName: SerializeData
 template<>
@@ -180,7 +174,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RemoteProcedureCall*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{syncTime});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::RemoteProcedureCall::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

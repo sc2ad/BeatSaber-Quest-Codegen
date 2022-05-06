@@ -56,23 +56,21 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<PoseObject,System.String> <>9__6_1
     static void _set_$$9__6_1(::System::Func_2<::GlobalNamespace::PoseObject*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1375204
+    // Offset: 0x13DC4A8
     static void _cctor();
-    // UnityEngine.Transform <Init>b__6_0(PoseObject ro)
-    // Offset: 0x1375270
-    ::UnityEngine::Transform* $Init$b__6_0(::GlobalNamespace::PoseObject* ro);
-    // System.String <Init>b__6_1(PoseObject ro)
-    // Offset: 0x1375288
-    ::StringW $Init$b__6_1(::GlobalNamespace::PoseObject* ro);
     // public System.Void .ctor()
-    // Offset: 0x1375268
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13DC50C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PosesRecorder::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosesRecorder::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PosesRecorder::$$c*, creationType>()));
     }
+    // UnityEngine.Transform <Init>b__6_0(PoseObject ro)
+    // Offset: 0x13DC514
+    ::UnityEngine::Transform* $Init$b__6_0(::GlobalNamespace::PoseObject* ro);
+    // System.String <Init>b__6_1(PoseObject ro)
+    // Offset: 0x13DC52C
+    ::StringW $Init$b__6_1(::GlobalNamespace::PoseObject* ro);
   }; // PosesRecorder/<>c
   #pragma pack(pop)
 }
@@ -85,6 +83,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PosesRecorder::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PosesRecorder::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PosesRecorder::$$c::$Init$b__6_0
 // Il2CppName: <Init>b__6_0
 template<>
@@ -103,7 +105,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PosesRecorder::$$c*), "<Init>b__6_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ro});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PosesRecorder::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

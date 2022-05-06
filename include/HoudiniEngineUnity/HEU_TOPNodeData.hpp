@@ -114,20 +114,12 @@ namespace HoudiniEngineUnity {
       // Set static field: static public HoudiniEngineUnity.HEU_TOPNodeData/HoudiniEngineUnity.PDGState COOK_FAILED
       static void _set_COOK_FAILED(::HoudiniEngineUnity::HEU_TOPNodeData::PDGState value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // HoudiniEngineUnity.HEU_TOPNodeData/HoudiniEngineUnity.PDGState
     #pragma pack(pop)
     static check_size<sizeof(HEU_TOPNodeData::PDGState), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_TOPNodeData_PDGStateSizeCheck;
     static_assert(sizeof(HEU_TOPNodeData::PDGState) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 _nodeID
     // Size: 0x4
     // Offset: 0x10
@@ -188,44 +180,42 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::HoudiniEngineUnity::HEU_WorkItemTally*) == 0x8);
     public:
     // Get instance field reference: public System.Int32 _nodeID
-    int& dyn__nodeID();
+    [[deprecated("Use field access instead!")]] int& dyn__nodeID();
     // Get instance field reference: public System.String _nodeName
-    ::StringW& dyn__nodeName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__nodeName();
     // Get instance field reference: public System.String _parentName
-    ::StringW& dyn__parentName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__parentName();
     // Get instance field reference: public UnityEngine.GameObject _workResultParentGO
-    ::UnityEngine::GameObject*& dyn__workResultParentGO();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__workResultParentGO();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_TOPWorkResult> _workResults
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>*& dyn__workResults();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>*& dyn__workResults();
     // Get instance field reference: public HoudiniEngineUnity.TOPNodeTags _tags
-    ::HoudiniEngineUnity::TOPNodeTags*& dyn__tags();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::TOPNodeTags*& dyn__tags();
     // Get instance field reference: public System.Boolean _showResults
-    bool& dyn__showResults();
+    [[deprecated("Use field access instead!")]] bool& dyn__showResults();
     // Get instance field reference: public HoudiniEngineUnity.HEU_TOPNodeData/HoudiniEngineUnity.PDGState _pdgState
-    ::HoudiniEngineUnity::HEU_TOPNodeData::PDGState& dyn__pdgState();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_TOPNodeData::PDGState& dyn__pdgState();
     // Get instance field reference: public HoudiniEngineUnity.HEU_WorkItemTally _workItemTally
-    ::HoudiniEngineUnity::HEU_WorkItemTally*& dyn__workItemTally();
-    // public System.Void Reset()
-    // Offset: 0x1ACFD78
-    void Reset();
-    // public System.Boolean AreAllWorkItemsComplete()
-    // Offset: 0x1ACFD9C
-    bool AreAllWorkItemsComplete();
-    // public System.Boolean AnyWorkItemsFailed()
-    // Offset: 0x1ACFDB8
-    bool AnyWorkItemsFailed();
-    // public System.Boolean AnyWorkItemsPending()
-    // Offset: 0x1ACFDD4
-    bool AnyWorkItemsPending();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_WorkItemTally*& dyn__workItemTally();
     // public System.Void .ctor()
-    // Offset: 0x1ACFDF0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B0B3D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_TOPNodeData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TOPNodeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_TOPNodeData*, creationType>()));
     }
+    // public System.Void Reset()
+    // Offset: 0x1B0B360
+    void Reset();
+    // public System.Boolean AreAllWorkItemsComplete()
+    // Offset: 0x1B0B384
+    bool AreAllWorkItemsComplete();
+    // public System.Boolean AnyWorkItemsFailed()
+    // Offset: 0x1B0B3A0
+    bool AnyWorkItemsFailed();
+    // public System.Boolean AnyWorkItemsPending()
+    // Offset: 0x1B0B3BC
+    bool AnyWorkItemsPending();
   }; // HoudiniEngineUnity.HEU_TOPNodeData
   #pragma pack(pop)
   static check_size<sizeof(HEU_TOPNodeData), 72 + sizeof(::HoudiniEngineUnity::HEU_WorkItemTally*)> __HoudiniEngineUnity_HEU_TOPNodeDataSizeCheck;
@@ -234,6 +224,10 @@ namespace HoudiniEngineUnity {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_TOPNodeData::PDGState, "HoudiniEngineUnity", "HEU_TOPNodeData/PDGState");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TOPNodeData::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TOPNodeData::Reset
 // Il2CppName: Reset
 template<>
@@ -266,7 +260,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_TOPNodeData*), "AnyWorkItemsPending", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TOPNodeData::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

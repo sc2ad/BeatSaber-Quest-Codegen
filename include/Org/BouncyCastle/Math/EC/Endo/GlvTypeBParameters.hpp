@@ -38,15 +38,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
   // [TokenAttribute] Offset: FFFFFFFF
   class GlvTypeBParameters : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected readonly Org.BouncyCastle.Math.BigInteger m_beta
     // Size: 0x8
     // Offset: 0x10
@@ -67,19 +59,19 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     static_assert(sizeof(::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*) == 0x8);
     public:
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger m_beta
-    ::Org::BouncyCastle::Math::BigInteger*& dyn_m_beta();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_m_beta();
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger m_lambda
-    ::Org::BouncyCastle::Math::BigInteger*& dyn_m_lambda();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_m_lambda();
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters m_splitParams
-    ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*& dyn_m_splitParams();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*& dyn_m_splitParams();
     // public Org.BouncyCastle.Math.BigInteger get_Beta()
-    // Offset: 0x2707044
+    // Offset: 0x2759554
     ::Org::BouncyCastle::Math::BigInteger* get_Beta();
     // public Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters get_SplitParams()
-    // Offset: 0x270704C
+    // Offset: 0x275955C
     ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* get_SplitParams();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger beta, Org.BouncyCastle.Math.BigInteger lambda, Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters splitParams)
-    // Offset: 0x2707004
+    // Offset: 0x2759514
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GlvTypeBParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* beta, ::Org::BouncyCastle::Math::BigInteger* lambda, ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::.ctor");

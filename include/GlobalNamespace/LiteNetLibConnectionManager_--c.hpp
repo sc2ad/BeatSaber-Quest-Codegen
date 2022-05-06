@@ -41,20 +41,18 @@ namespace GlobalNamespace {
     // Set static field: static public System.Predicate`1<LiteNetLibConnectionManager/NetPeerConnection> <>9__70_0
     static void _set_$$9__70_0(::System::Predicate_1<::GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x164B634
+    // Offset: 0x1681F44
     static void _cctor();
-    // System.Boolean <get_hasConnectionOwner>b__70_0(LiteNetLibConnectionManager/NetPeerConnection c)
-    // Offset: 0x164B6A0
-    bool $get_hasConnectionOwner$b__70_0(::GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection* c);
     // public System.Void .ctor()
-    // Offset: 0x164B698
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1681FA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LiteNetLibConnectionManager::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LiteNetLibConnectionManager::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LiteNetLibConnectionManager::$$c*, creationType>()));
     }
+    // System.Boolean <get_hasConnectionOwner>b__70_0(LiteNetLibConnectionManager/NetPeerConnection c)
+    // Offset: 0x1681FB0
+    bool $get_hasConnectionOwner$b__70_0(::GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection* c);
   }; // LiteNetLibConnectionManager/<>c
   #pragma pack(pop)
 }
@@ -67,6 +65,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::$$c::$get_hasConnectionOwner$b__70_0
 // Il2CppName: <get_hasConnectionOwner>b__70_0
 template<>
@@ -76,7 +78,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::$$c*), "<get_hasConnectionOwner>b__70_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

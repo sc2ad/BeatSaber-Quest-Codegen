@@ -109,28 +109,28 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public AnnotatedBeatmapLevelCollectionCell <>4__this
-    ::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*& dyn_$$4__this();
     // Get instance field reference: public AdditionalContentModel contentModel
-    ::GlobalNamespace::AdditionalContentModel*& dyn_contentModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AdditionalContentModel*& dyn_contentModel();
     // Get instance field reference: private System.Threading.CancellationToken <cancellationToken>5__2
-    ::System::Threading::CancellationToken& dyn_$cancellationToken$5__2();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationToken& dyn_$cancellationToken$5__2();
     // Get instance field reference: private System.Int32 <numberOfOwnedLevels>5__3
-    int& dyn_$numberOfOwnedLevels$5__3();
+    [[deprecated("Use field access instead!")]] int& dyn_$numberOfOwnedLevels$5__3();
     // Get instance field reference: private System.Boolean <error>5__4
-    bool& dyn_$error$5__4();
+    [[deprecated("Use field access instead!")]] bool& dyn_$error$5__4();
     // Get instance field reference: private System.Collections.Generic.IEnumerator`1<IPreviewBeatmapLevel> <>7__wrap4
-    ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::IPreviewBeatmapLevel*>*& dyn_$$7__wrap4();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::IPreviewBeatmapLevel*>*& dyn_$$7__wrap4();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/EntitlementStatus> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x14B25B8
+    // Offset: 0x14E9E70
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x14B326C
+    // Offset: 0x14EAB24
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // AnnotatedBeatmapLevelCollectionCell/<RefreshAvailabilityAsync>d__23
   // WARNING Not writing size check since size may be invalid!

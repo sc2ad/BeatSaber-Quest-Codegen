@@ -36,7 +36,7 @@ namespace Newtonsoft::Json::Serialization {
   class JsonLinqContract : public ::Newtonsoft::Json::Serialization::JsonContract {
     public:
     // public System.Void .ctor(System.Type underlyingType)
-    // Offset: 0x1D26354
+    // Offset: 0x1D628AC
     // Implemented from: Newtonsoft.Json.Serialization.JsonContract
     // Base method: System.Void JsonContract::.ctor(System.Type underlyingType)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

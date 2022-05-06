@@ -40,15 +40,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker
     class ClipPlaybackTracker;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean m_lowLatencyMode
     // Size: 0x1
     // Offset: 0x10
@@ -121,48 +113,48 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::OVRHapticsClip*) == 0x8);
     public:
     // Get instance field reference: private System.Boolean m_lowLatencyMode
-    bool& dyn_m_lowLatencyMode();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_lowLatencyMode();
     // Get instance field reference: private System.Boolean m_paddingEnabled
-    bool& dyn_m_paddingEnabled();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_paddingEnabled();
     // Get instance field reference: private System.Int32 m_prevSamplesQueued
-    int& dyn_m_prevSamplesQueued();
+    [[deprecated("Use field access instead!")]] int& dyn_m_prevSamplesQueued();
     // Get instance field reference: private System.Single m_prevSamplesQueuedTime
-    float& dyn_m_prevSamplesQueuedTime();
+    [[deprecated("Use field access instead!")]] float& dyn_m_prevSamplesQueuedTime();
     // Get instance field reference: private System.Int32 m_numPredictionHits
-    int& dyn_m_numPredictionHits();
+    [[deprecated("Use field access instead!")]] int& dyn_m_numPredictionHits();
     // Get instance field reference: private System.Int32 m_numPredictionMisses
-    int& dyn_m_numPredictionMisses();
+    [[deprecated("Use field access instead!")]] int& dyn_m_numPredictionMisses();
     // Get instance field reference: private System.Int32 m_numUnderruns
-    int& dyn_m_numUnderruns();
+    [[deprecated("Use field access instead!")]] int& dyn_m_numUnderruns();
     // Get instance field reference: private System.Collections.Generic.List`1<OVRHaptics/OVRHapticsOutput/ClipPlaybackTracker> m_pendingClips
-    ::System::Collections::Generic::List_1<::GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*>*& dyn_m_pendingClips();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*>*& dyn_m_pendingClips();
     // Get instance field reference: private System.UInt32 m_controller
-    uint& dyn_m_controller();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_controller();
     // Get instance field reference: private OVRNativeBuffer m_nativeBuffer
-    ::GlobalNamespace::OVRNativeBuffer*& dyn_m_nativeBuffer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRNativeBuffer*& dyn_m_nativeBuffer();
     // Get instance field reference: private OVRHapticsClip m_paddingClip
-    ::GlobalNamespace::OVRHapticsClip*& dyn_m_paddingClip();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRHapticsClip*& dyn_m_paddingClip();
     // public System.Void .ctor(System.UInt32 controller)
-    // Offset: 0x19BB600
+    // Offset: 0x19F4BE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHaptics::OVRHapticsOutput* New_ctor(uint controller) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRHaptics::OVRHapticsOutput::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHaptics::OVRHapticsOutput*, creationType>(controller)));
     }
     // public System.Void Process()
-    // Offset: 0x19BB930
+    // Offset: 0x19F4F18
     void Process();
     // public System.Void Preempt(OVRHapticsClip clip)
-    // Offset: 0x19BC84C
+    // Offset: 0x19F5E34
     void Preempt(::GlobalNamespace::OVRHapticsClip* clip);
     // public System.Void Queue(OVRHapticsClip clip)
-    // Offset: 0x19BC908
+    // Offset: 0x19F5EF0
     void Queue(::GlobalNamespace::OVRHapticsClip* clip);
     // public System.Void Mix(OVRHapticsClip clip)
-    // Offset: 0x19BC9AC
+    // Offset: 0x19F5F94
     void Mix(::GlobalNamespace::OVRHapticsClip* clip);
     // public System.Void Clear()
-    // Offset: 0x19BCE94
+    // Offset: 0x19F647C
     void Clear();
   }; // OVRHaptics/OVRHapticsOutput
   #pragma pack(pop)

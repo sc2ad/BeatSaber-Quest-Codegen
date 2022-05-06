@@ -41,36 +41,28 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PromoViewController::ButtonPromoTypePair : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.UI.Button button
     // Size: 0x8
     // Offset: 0x10
     ::UnityEngine::UI::Button* button;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [NullAllowed] Offset: 0x126192C
+    // [NullAllowed] Offset: 0x10E65D4
     // public PreviewBeatmapLevelPackSO previewLevelPack
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::PreviewBeatmapLevelPackSO* previewLevelPack;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PreviewBeatmapLevelPackSO*) == 0x8);
-    // [NullAllowed] Offset: 0x126193C
+    // [NullAllowed] Offset: 0x10E65E4
     // public BeatmapLevelPackSO levelPack
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::BeatmapLevelPackSO* levelPack;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapLevelPackSO*) == 0x8);
-    // [NullAllowed] Offset: 0x126194C
+    // [NullAllowed] Offset: 0x10E65F4
     // public BeatmapLevelSO beatmapLevel
     // Size: 0x8
     // Offset: 0x28
@@ -85,22 +77,20 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::IAnnotatedBeatmapLevelCollection*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.UI.Button button
-    ::UnityEngine::UI::Button*& dyn_button();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn_button();
     // Get instance field reference: public PreviewBeatmapLevelPackSO previewLevelPack
-    ::GlobalNamespace::PreviewBeatmapLevelPackSO*& dyn_previewLevelPack();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PreviewBeatmapLevelPackSO*& dyn_previewLevelPack();
     // Get instance field reference: public BeatmapLevelPackSO levelPack
-    ::GlobalNamespace::BeatmapLevelPackSO*& dyn_levelPack();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelPackSO*& dyn_levelPack();
     // Get instance field reference: public BeatmapLevelSO beatmapLevel
-    ::GlobalNamespace::BeatmapLevelSO*& dyn_beatmapLevel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelSO*& dyn_beatmapLevel();
     // Get instance field reference: private IAnnotatedBeatmapLevelCollection _annotatedBeatmapLevelCollection
-    ::GlobalNamespace::IAnnotatedBeatmapLevelCollection*& dyn__annotatedBeatmapLevelCollection();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAnnotatedBeatmapLevelCollection*& dyn__annotatedBeatmapLevelCollection();
     // public IAnnotatedBeatmapLevelCollection get_annotatedBeatmapLevelCollection()
-    // Offset: 0x137A358
+    // Offset: 0x13E1694
     ::GlobalNamespace::IAnnotatedBeatmapLevelCollection* get_annotatedBeatmapLevelCollection();
     // public System.Void .ctor()
-    // Offset: 0x137A428
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13E1764
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PromoViewController::ButtonPromoTypePair* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PromoViewController::ButtonPromoTypePair::.ctor");

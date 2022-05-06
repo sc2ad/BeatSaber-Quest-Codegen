@@ -46,15 +46,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GuestNameButtonsListItem : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _nameText
     // Size: 0x8
     // Offset: 0x18
@@ -77,36 +69,30 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _nameText
-    ::TMPro::TextMeshProUGUI*& dyn__nameText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__nameText();
     // Get instance field reference: private UnityEngine.UI.Button _button
-    ::UnityEngine::UI::Button*& dyn__button();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__button();
     // Get instance field reference: private System.Action _buttonPressed
-    ::System::Action*& dyn__buttonPressed();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn__buttonPressed();
     // public System.Void set_nameText(System.String value)
-    // Offset: 0x13EC4FC
+    // Offset: 0x13F8F9C
     void set_nameText(::StringW value);
     // public System.Void set_buttonPressed(System.Action value)
-    // Offset: 0x13EC518
+    // Offset: 0x13F8FB8
     void set_buttonPressed(::System::Action* value);
-    // private System.Void Awake()
-    // Offset: 0x13EC520
-    void Awake();
-    // private System.Void <Awake>b__7_0()
-    // Offset: 0x13EC5BC
-    void $Awake$b__7_0();
     // public System.Void .ctor()
-    // Offset: 0x13EC5B4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13F9054
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GuestNameButtonsListItem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GuestNameButtonsListItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GuestNameButtonsListItem*, creationType>()));
     }
+    // private System.Void Awake()
+    // Offset: 0x13F8FC0
+    void Awake();
+    // private System.Void <Awake>b__7_0()
+    // Offset: 0x13F905C
+    void $Awake$b__7_0();
   }; // GuestNameButtonsListItem
   #pragma pack(pop)
   static check_size<sizeof(GuestNameButtonsListItem), 40 + sizeof(::System::Action*)> __GlobalNamespace_GuestNameButtonsListItemSizeCheck;
@@ -131,6 +117,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GuestNameButtonsListItem*), "set_buttonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::GuestNameButtonsListItem::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GuestNameButtonsListItem::Awake
 // Il2CppName: Awake
 template<>
@@ -147,7 +137,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GuestNameButtonsListItem*), "<Awake>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GuestNameButtonsListItem::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

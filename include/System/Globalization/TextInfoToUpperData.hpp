@@ -56,7 +56,7 @@ namespace System::Globalization {
     // Set static field: static public readonly System.Char[] range_a723_a78c
     static void _set_range_a723_a78c(::ArrayW<::Il2CppChar> value);
     // static private System.Void .cctor()
-    // Offset: 0x20FB358
+    // Offset: 0x2145BCC
     static void _cctor();
   }; // System.Globalization.TextInfoToUpperData
   #pragma pack(pop)

@@ -120,7 +120,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.ETrackedPropertyError TrackedProp_CannotWriteToWildcards
     static void _set_TrackedProp_CannotWriteToWildcards(::Valve::VR::ETrackedPropertyError value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Valve.VR.ETrackedPropertyError
   #pragma pack(pop)
   static check_size<sizeof(ETrackedPropertyError), 0 + sizeof(int)> __Valve_VR_ETrackedPropertyErrorSizeCheck;

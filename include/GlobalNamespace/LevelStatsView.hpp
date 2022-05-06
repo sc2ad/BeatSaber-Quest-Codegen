@@ -42,15 +42,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LevelStatsView : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _highScoreText
     // Size: 0x8
     // Offset: 0x18
@@ -73,36 +65,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _highScoreText
-    ::TMPro::TextMeshProUGUI*& dyn__highScoreText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__highScoreText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _maxComboText
-    ::TMPro::TextMeshProUGUI*& dyn__maxComboText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__maxComboText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _maxRankText
-    ::TMPro::TextMeshProUGUI*& dyn__maxRankText();
-    // public System.Void Hide()
-    // Offset: 0x148A90C
-    void Hide();
-    // public System.Void ShowStats(IDifficultyBeatmap difficultyBeatmap, PlayerData playerData)
-    // Offset: 0x148A934
-    void ShowStats(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::PlayerData* playerData);
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__maxRankText();
     // public System.Void .ctor()
-    // Offset: 0x148ACD8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14C1558
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelStatsView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelStatsView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelStatsView*, creationType>()));
     }
+    // public System.Void Hide()
+    // Offset: 0x14C118C
+    void Hide();
+    // public System.Void ShowStats(IDifficultyBeatmap difficultyBeatmap, PlayerData playerData)
+    // Offset: 0x14C11B4
+    void ShowStats(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::PlayerData* playerData);
   }; // LevelStatsView
   #pragma pack(pop)
   static check_size<sizeof(LevelStatsView), 40 + sizeof(::TMPro::TextMeshProUGUI*)> __GlobalNamespace_LevelStatsViewSizeCheck;
   static_assert(sizeof(LevelStatsView) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::LevelStatsView::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LevelStatsView::Hide
 // Il2CppName: Hide
 template<>
@@ -121,7 +111,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelStatsView*), "ShowStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmap, playerData});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LevelStatsView::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

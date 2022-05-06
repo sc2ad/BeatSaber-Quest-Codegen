@@ -94,15 +94,7 @@ namespace GlobalNamespace {
     class $$c__DisplayClass29_0;
     // Nested type: ::GlobalNamespace::GameServerPlayerTableCell::$SetBeatmapUseButtonEnabledAsync$d__35
     struct $SetBeatmapUseButtonEnabledAsync$d__35;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.CurvedTextMeshPro _playerNameText
     // Size: 0x8
     // Offset: 0x60
@@ -115,7 +107,7 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Image* localPlayerBackgroundImage;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Image*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1257D80
+    // [HeaderAttribute] Offset: 0x10DC964
     // private HMUI.CurvedTextMeshPro _suggestedLevelText
     // Size: 0x8
     // Offset: 0x70
@@ -140,7 +132,7 @@ namespace GlobalNamespace {
     ::HMUI::CurvedTextMeshPro* emptySuggestedLevelText;
     // Field size check
     static_assert(sizeof(::HMUI::CurvedTextMeshPro*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1257DFC
+    // [HeaderAttribute] Offset: 0x10DC9E0
     // private GameplayModifierInfoListItemsList _suggestedModifiersList
     // Size: 0x8
     // Offset: 0x90
@@ -153,7 +145,7 @@ namespace GlobalNamespace {
     ::HMUI::CurvedTextMeshPro* emptySuggestedModifiersText;
     // Field size check
     static_assert(sizeof(::HMUI::CurvedTextMeshPro*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1257E58
+    // [HeaderAttribute] Offset: 0x10DCA3C
     // private UnityEngine.UI.Button _mutePlayerButton
     // Size: 0x8
     // Offset: 0xA0
@@ -184,7 +176,7 @@ namespace GlobalNamespace {
     ::HMUI::HoverHint* useBeatmapButtonHoverHint;
     // Field size check
     static_assert(sizeof(::HMUI::HoverHint*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1257EE4
+    // [HeaderAttribute] Offset: 0x10DCAC8
     // private HMUI.ButtonSpriteSwapToggle _muteToggle
     // Size: 0x8
     // Offset: 0xC8
@@ -215,7 +207,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Sprite* hostIcon;
     // Field size check
     static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1257F70
+    // [HeaderAttribute] Offset: 0x10DCB54
     // private GameplayModifiersModelSO _gameplayModifiers
     // Size: 0x8
     // Offset: 0xF0
@@ -254,106 +246,96 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Threading::CancellationTokenSource*) == 0x8);
     public:
     // Get instance field reference: private HMUI.CurvedTextMeshPro _playerNameText
-    ::HMUI::CurvedTextMeshPro*& dyn__playerNameText();
+    [[deprecated("Use field access instead!")]] ::HMUI::CurvedTextMeshPro*& dyn__playerNameText();
     // Get instance field reference: private UnityEngine.UI.Image _localPlayerBackgroundImage
-    ::UnityEngine::UI::Image*& dyn__localPlayerBackgroundImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__localPlayerBackgroundImage();
     // Get instance field reference: private HMUI.CurvedTextMeshPro _suggestedLevelText
-    ::HMUI::CurvedTextMeshPro*& dyn__suggestedLevelText();
+    [[deprecated("Use field access instead!")]] ::HMUI::CurvedTextMeshPro*& dyn__suggestedLevelText();
     // Get instance field reference: private HMUI.ImageView _suggestedCharacteristicIcon
-    ::HMUI::ImageView*& dyn__suggestedCharacteristicIcon();
+    [[deprecated("Use field access instead!")]] ::HMUI::ImageView*& dyn__suggestedCharacteristicIcon();
     // Get instance field reference: private TMPro.TextMeshProUGUI _suggestedDifficultyText
-    ::TMPro::TextMeshProUGUI*& dyn__suggestedDifficultyText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__suggestedDifficultyText();
     // Get instance field reference: private HMUI.CurvedTextMeshPro _emptySuggestedLevelText
-    ::HMUI::CurvedTextMeshPro*& dyn__emptySuggestedLevelText();
+    [[deprecated("Use field access instead!")]] ::HMUI::CurvedTextMeshPro*& dyn__emptySuggestedLevelText();
     // Get instance field reference: private GameplayModifierInfoListItemsList _suggestedModifiersList
-    ::GlobalNamespace::GameplayModifierInfoListItemsList*& dyn__suggestedModifiersList();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifierInfoListItemsList*& dyn__suggestedModifiersList();
     // Get instance field reference: private HMUI.CurvedTextMeshPro _emptySuggestedModifiersText
-    ::HMUI::CurvedTextMeshPro*& dyn__emptySuggestedModifiersText();
+    [[deprecated("Use field access instead!")]] ::HMUI::CurvedTextMeshPro*& dyn__emptySuggestedModifiersText();
     // Get instance field reference: private UnityEngine.UI.Button _mutePlayerButton
-    ::UnityEngine::UI::Button*& dyn__mutePlayerButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__mutePlayerButton();
     // Get instance field reference: private UnityEngine.UI.Button _kickPlayerButton
-    ::UnityEngine::UI::Button*& dyn__kickPlayerButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__kickPlayerButton();
     // Get instance field reference: private UnityEngine.UI.Button _useBeatmapButton
-    ::UnityEngine::UI::Button*& dyn__useBeatmapButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__useBeatmapButton();
     // Get instance field reference: private UnityEngine.UI.Button _useModifiersButton
-    ::UnityEngine::UI::Button*& dyn__useModifiersButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__useModifiersButton();
     // Get instance field reference: private HMUI.HoverHint _useBeatmapButtonHoverHint
-    ::HMUI::HoverHint*& dyn__useBeatmapButtonHoverHint();
+    [[deprecated("Use field access instead!")]] ::HMUI::HoverHint*& dyn__useBeatmapButtonHoverHint();
     // Get instance field reference: private HMUI.ButtonSpriteSwapToggle _muteToggle
-    ::HMUI::ButtonSpriteSwapToggle*& dyn__muteToggle();
+    [[deprecated("Use field access instead!")]] ::HMUI::ButtonSpriteSwapToggle*& dyn__muteToggle();
     // Get instance field reference: private HMUI.ImageView _statusImageView
-    ::HMUI::ImageView*& dyn__statusImageView();
+    [[deprecated("Use field access instead!")]] ::HMUI::ImageView*& dyn__statusImageView();
     // Get instance field reference: private UnityEngine.Sprite _readyIcon
-    ::UnityEngine::Sprite*& dyn__readyIcon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__readyIcon();
     // Get instance field reference: private UnityEngine.Sprite _spectatingIcon
-    ::UnityEngine::Sprite*& dyn__spectatingIcon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__spectatingIcon();
     // Get instance field reference: private UnityEngine.Sprite _hostIcon
-    ::UnityEngine::Sprite*& dyn__hostIcon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__hostIcon();
     // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiers
-    ::GlobalNamespace::GameplayModifiersModelSO*& dyn__gameplayModifiers();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiersModelSO*& dyn__gameplayModifiers();
     // Get instance field reference: private System.Action`1<System.Int32> kickPlayerEvent
-    ::System::Action_1<int>*& dyn_kickPlayerEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<int>*& dyn_kickPlayerEvent();
     // Get instance field reference: private System.Action`1<System.Int32> useBeatmapEvent
-    ::System::Action_1<int>*& dyn_useBeatmapEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<int>*& dyn_useBeatmapEvent();
     // Get instance field reference: private System.Action`1<System.Int32> useModifiersEvent
-    ::System::Action_1<int>*& dyn_useModifiersEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<int>*& dyn_useModifiersEvent();
     // Get instance field reference: private readonly HMUI.ButtonBinder _buttonBinder
-    ::HMUI::ButtonBinder*& dyn__buttonBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // Get instance field reference: private System.Threading.CancellationTokenSource _getLevelEntitlementCancellationTokenSource
-    ::System::Threading::CancellationTokenSource*& dyn__getLevelEntitlementCancellationTokenSource();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationTokenSource*& dyn__getLevelEntitlementCancellationTokenSource();
     // public System.Void add_kickPlayerEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x13DECDC
+    // Offset: 0x13EB77C
     void add_kickPlayerEvent(::System::Action_1<int>* value);
     // public System.Void remove_kickPlayerEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x13DED80
+    // Offset: 0x13EB820
     void remove_kickPlayerEvent(::System::Action_1<int>* value);
     // public System.Void add_useBeatmapEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x13DEE24
+    // Offset: 0x13EB8C4
     void add_useBeatmapEvent(::System::Action_1<int>* value);
     // public System.Void remove_useBeatmapEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x13DEECC
+    // Offset: 0x13EB96C
     void remove_useBeatmapEvent(::System::Action_1<int>* value);
     // public System.Void add_useModifiersEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x13DEF74
+    // Offset: 0x13EBA14
     void add_useModifiersEvent(::System::Action_1<int>* value);
     // public System.Void remove_useModifiersEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x13DF01C
+    // Offset: 0x13EBABC
     void remove_useModifiersEvent(::System::Action_1<int>* value);
-    // public System.Void SetData(IConnectedPlayer connectedPlayer, ILobbyPlayerData playerData, System.Boolean hasKickPermissions, System.Boolean allowSelection, System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> getLevelEntitlementTask)
-    // Offset: 0x13DF0C4
-    void SetData(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::ILobbyPlayerData* playerData, bool hasKickPermissions, bool allowSelection, ::System::Threading::Tasks::Task_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus>* getLevelEntitlementTask);
-    // protected System.Void Awake()
-    // Offset: 0x13DFE90
-    void Awake();
-    // private System.Void HandleKickPlayerButtonPressed()
-    // Offset: 0x13DFFB4
-    void HandleKickPlayerButtonPressed();
-    // private System.Void HandleUseBeatmapButtonPressed()
-    // Offset: 0x13E0018
-    void HandleUseBeatmapButtonPressed();
-    // private System.Void HandleUseModifiersButtonPressed()
-    // Offset: 0x13E007C
-    void HandleUseModifiersButtonPressed();
-    // private System.Void SetBeatmapUseButtonEnabledAsync(System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> getLevelEntitlementTask)
-    // Offset: 0x13DFDCC
-    void SetBeatmapUseButtonEnabledAsync(::System::Threading::Tasks::Task_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus>* getLevelEntitlementTask);
     // public System.Void .ctor()
-    // Offset: 0x13E00E0
-    // Implemented from: TableCellWithSeparator
-    // Base method: System.Void TableCellWithSeparator::.ctor()
-    // Base method: System.Void TableCell::.ctor()
-    // Base method: System.Void SelectableCell::.ctor()
-    // Base method: System.Void Interactable::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13ECB80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerPlayerTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerPlayerTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServerPlayerTableCell*, creationType>()));
     }
+    // public System.Void SetData(IConnectedPlayer connectedPlayer, ILobbyPlayerData playerData, System.Boolean hasKickPermissions, System.Boolean allowSelection, System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> getLevelEntitlementTask)
+    // Offset: 0x13EBB64
+    void SetData(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::ILobbyPlayerData* playerData, bool hasKickPermissions, bool allowSelection, ::System::Threading::Tasks::Task_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus>* getLevelEntitlementTask);
+    // protected System.Void Awake()
+    // Offset: 0x13EC930
+    void Awake();
+    // private System.Void HandleKickPlayerButtonPressed()
+    // Offset: 0x13ECA54
+    void HandleKickPlayerButtonPressed();
+    // private System.Void HandleUseBeatmapButtonPressed()
+    // Offset: 0x13ECAB8
+    void HandleUseBeatmapButtonPressed();
+    // private System.Void HandleUseModifiersButtonPressed()
+    // Offset: 0x13ECB1C
+    void HandleUseModifiersButtonPressed();
+    // private System.Void SetBeatmapUseButtonEnabledAsync(System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> getLevelEntitlementTask)
+    // Offset: 0x13EC86C
+    void SetBeatmapUseButtonEnabledAsync(::System::Threading::Tasks::Task_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus>* getLevelEntitlementTask);
   }; // GameServerPlayerTableCell
   #pragma pack(pop)
   static check_size<sizeof(GameServerPlayerTableCell), 280 + sizeof(::System::Threading::CancellationTokenSource*)> __GlobalNamespace_GameServerPlayerTableCellSizeCheck;
@@ -414,6 +396,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayerTableCell*), "remove_useModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::SetData
 // Il2CppName: SetData
 template<>
@@ -468,7 +454,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayerTableCell*), "SetBeatmapUseButtonEnabledAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{getLevelEntitlementTask});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

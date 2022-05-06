@@ -41,30 +41,22 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoKernel : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectLocalAttribute] Offset: 0x121FF90
+    // [InjectLocalAttribute] Offset: 0x10A49A8
     // private Zenject.TickableManager _tickableManager
     // Size: 0x8
     // Offset: 0x18
     ::Zenject::TickableManager* tickableManager;
     // Field size check
     static_assert(sizeof(::Zenject::TickableManager*) == 0x8);
-    // [InjectLocalAttribute] Offset: 0x121FFA0
+    // [InjectLocalAttribute] Offset: 0x10A49B8
     // private Zenject.InitializableManager _initializableManager
     // Size: 0x8
     // Offset: 0x20
     ::Zenject::InitializableManager* initializableManager;
     // Field size check
     static_assert(sizeof(::Zenject::InitializableManager*) == 0x8);
-    // [InjectLocalAttribute] Offset: 0x121FFB0
+    // [InjectLocalAttribute] Offset: 0x10A49C8
     // private Zenject.DisposableManager _disposablesManager
     // Size: 0x8
     // Offset: 0x28
@@ -87,61 +79,55 @@ namespace Zenject {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Zenject.TickableManager _tickableManager
-    ::Zenject::TickableManager*& dyn__tickableManager();
+    [[deprecated("Use field access instead!")]] ::Zenject::TickableManager*& dyn__tickableManager();
     // Get instance field reference: private Zenject.InitializableManager _initializableManager
-    ::Zenject::InitializableManager*& dyn__initializableManager();
+    [[deprecated("Use field access instead!")]] ::Zenject::InitializableManager*& dyn__initializableManager();
     // Get instance field reference: private Zenject.DisposableManager _disposablesManager
-    ::Zenject::DisposableManager*& dyn__disposablesManager();
+    [[deprecated("Use field access instead!")]] ::Zenject::DisposableManager*& dyn__disposablesManager();
     // Get instance field reference: private System.Boolean _hasInitialized
-    bool& dyn__hasInitialized();
+    [[deprecated("Use field access instead!")]] bool& dyn__hasInitialized();
     // Get instance field reference: private System.Boolean _isDestroyed
-    bool& dyn__isDestroyed();
+    [[deprecated("Use field access instead!")]] bool& dyn__isDestroyed();
     // protected System.Boolean get_IsDestroyed()
-    // Offset: 0x1BDABF8
+    // Offset: 0x1C151E0
     bool get_IsDestroyed();
-    // public System.Void Start()
-    // Offset: 0x1BDAC00
-    void Start();
-    // public System.Void Initialize()
-    // Offset: 0x1BDAC04
-    void Initialize();
-    // public System.Void Update()
-    // Offset: 0x1BDAC38
-    void Update();
-    // public System.Void FixedUpdate()
-    // Offset: 0x1BDAC4C
-    void FixedUpdate();
-    // public System.Void LateUpdate()
-    // Offset: 0x1BDAC60
-    void LateUpdate();
-    // public System.Void OnDestroy()
-    // Offset: 0x1BDAC74
-    void OnDestroy();
-    // static private System.Void __zenFieldSetter0(System.Object P_0, System.Object P_1)
-    // Offset: 0x1BDACE8
-    static void __zenFieldSetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1);
-    // static private System.Void __zenFieldSetter1(System.Object P_0, System.Object P_1)
-    // Offset: 0x1BDADBC
-    static void __zenFieldSetter1(::Il2CppObject* P_0, ::Il2CppObject* P_1);
-    // static private System.Void __zenFieldSetter2(System.Object P_0, System.Object P_1)
-    // Offset: 0x1BDAE90
-    static void __zenFieldSetter2(::Il2CppObject* P_0, ::Il2CppObject* P_1);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1BDAF64
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // protected System.Void .ctor()
-    // Offset: 0x1BDACE0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C152C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoKernel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MonoKernel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoKernel*, creationType>()));
     }
+    // public System.Void Start()
+    // Offset: 0x1C151E8
+    void Start();
+    // public System.Void Initialize()
+    // Offset: 0x1C151EC
+    void Initialize();
+    // public System.Void Update()
+    // Offset: 0x1C15220
+    void Update();
+    // public System.Void FixedUpdate()
+    // Offset: 0x1C15234
+    void FixedUpdate();
+    // public System.Void LateUpdate()
+    // Offset: 0x1C15248
+    void LateUpdate();
+    // public System.Void OnDestroy()
+    // Offset: 0x1C1525C
+    void OnDestroy();
+    // static private System.Void __zenFieldSetter0(System.Object P_0, System.Object P_1)
+    // Offset: 0x1C152D0
+    static void __zenFieldSetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1);
+    // static private System.Void __zenFieldSetter1(System.Object P_0, System.Object P_1)
+    // Offset: 0x1C153A4
+    static void __zenFieldSetter1(::Il2CppObject* P_0, ::Il2CppObject* P_1);
+    // static private System.Void __zenFieldSetter2(System.Object P_0, System.Object P_1)
+    // Offset: 0x1C15478
+    static void __zenFieldSetter2(::Il2CppObject* P_0, ::Il2CppObject* P_1);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1C1554C
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.MonoKernel
   #pragma pack(pop)
   static check_size<sizeof(MonoKernel), 49 + sizeof(bool)> __Zenject_MonoKernelSizeCheck;
@@ -156,6 +142,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
     return ::il2cpp_utils::FindMethod(classof(Zenject::MonoKernel*), "get_IsDestroyed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Zenject::MonoKernel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::MonoKernel::Start
 // Il2CppName: Start
 template<>
@@ -242,7 +232,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::MonoKernel*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::MonoKernel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

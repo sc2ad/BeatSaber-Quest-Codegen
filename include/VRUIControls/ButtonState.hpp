@@ -35,15 +35,7 @@ namespace VRUIControls {
   // [TokenAttribute] Offset: FFFFFFFF
   class ButtonState : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton _button
     // Size: 0x4
     // Offset: 0x10
@@ -66,33 +58,31 @@ namespace VRUIControls {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton _button
-    ::UnityEngine::EventSystems::PointerEventData::InputButton& dyn__button();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::EventSystems::PointerEventData::InputButton& dyn__button();
     // Get instance field reference: private VRUIControls.MouseButtonEventData _eventData
-    ::VRUIControls::MouseButtonEventData*& dyn__eventData();
+    [[deprecated("Use field access instead!")]] ::VRUIControls::MouseButtonEventData*& dyn__eventData();
     // Get instance field reference: private System.Single _pressedValue
-    float& dyn__pressedValue();
+    [[deprecated("Use field access instead!")]] float& dyn__pressedValue();
     // public VRUIControls.MouseButtonEventData get_eventData()
-    // Offset: 0x2A03954
+    // Offset: 0x2A5945C
     ::VRUIControls::MouseButtonEventData* get_eventData();
     // public System.Void set_eventData(VRUIControls.MouseButtonEventData value)
-    // Offset: 0x2A0395C
+    // Offset: 0x2A59464
     void set_eventData(::VRUIControls::MouseButtonEventData* value);
     // public UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton get_button()
-    // Offset: 0x2A03964
+    // Offset: 0x2A5946C
     ::UnityEngine::EventSystems::PointerEventData::InputButton get_button();
     // public System.Void set_button(UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton value)
-    // Offset: 0x2A0396C
+    // Offset: 0x2A59474
     void set_button(::UnityEngine::EventSystems::PointerEventData::InputButton value);
     // public System.Single get_pressedValue()
-    // Offset: 0x2A03974
+    // Offset: 0x2A5947C
     float get_pressedValue();
     // public System.Void set_pressedValue(System.Single value)
-    // Offset: 0x2A0397C
+    // Offset: 0x2A59484
     void set_pressedValue(float value);
     // public System.Void .ctor()
-    // Offset: 0x2A03984
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A5948C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ButtonState* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::VRUIControls::ButtonState::.ctor");

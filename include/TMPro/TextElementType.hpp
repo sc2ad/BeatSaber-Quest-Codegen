@@ -54,7 +54,7 @@ namespace TMPro {
     // Set static field: static public TMPro.TextElementType Sprite
     static void _set_Sprite(::TMPro::TextElementType value);
     // Get instance field reference: public System.Byte value__
-    uint8_t& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_value__();
   }; // TMPro.TextElementType
   #pragma pack(pop)
   static check_size<sizeof(TextElementType), 0 + sizeof(uint8_t)> __TMPro_TextElementTypeSizeCheck;

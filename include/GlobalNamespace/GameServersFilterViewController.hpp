@@ -53,16 +53,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameServersFilterViewController : public ::HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [HeaderAttribute] Offset: 0x125C5C4
+    // [HeaderAttribute] Offset: 0x10E11A8
     // private UnityEngine.UI.Toggle _filterByDifficultyToggle
     // Size: 0x8
     // Offset: 0x70
@@ -81,7 +73,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BeatmapDifficultyDropdown* beatmapDifficultyDropdown;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapDifficultyDropdown*) == 0x8);
-    // [HeaderAttribute] Offset: 0x125C630
+    // [HeaderAttribute] Offset: 0x10E1214
     // private UnityEngine.UI.Toggle _filterByModifiersToggle
     // Size: 0x8
     // Offset: 0x88
@@ -100,7 +92,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::GameplayModifiersDropdown* gameplayModifiersDropdown;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayModifiersDropdown*) == 0x8);
-    // [HeaderAttribute] Offset: 0x125C69C
+    // [HeaderAttribute] Offset: 0x10E1280
     // private UnityEngine.UI.Toggle _filterBySongsToggle
     // Size: 0x8
     // Offset: 0xA0
@@ -119,7 +111,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::SongPacksDropdown* songPacksDropdown;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SongPacksDropdown*) == 0x8);
-    // [HeaderAttribute] Offset: 0x125C708
+    // [HeaderAttribute] Offset: 0x10E12EC
     // private UnityEngine.UI.Toggle _showFullToggle
     // Size: 0x8
     // Offset: 0xB8
@@ -146,70 +138,63 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private UnityEngine.UI.Toggle _filterByDifficultyToggle
-    ::UnityEngine::UI::Toggle*& dyn__filterByDifficultyToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__filterByDifficultyToggle();
     // Get instance field reference: private UnityEngine.UI.Button _filterByDifficultyButton
-    ::UnityEngine::UI::Button*& dyn__filterByDifficultyButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__filterByDifficultyButton();
     // Get instance field reference: private BeatmapDifficultyDropdown _beatmapDifficultyDropdown
-    ::GlobalNamespace::BeatmapDifficultyDropdown*& dyn__beatmapDifficultyDropdown();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficultyDropdown*& dyn__beatmapDifficultyDropdown();
     // Get instance field reference: private UnityEngine.UI.Toggle _filterByModifiersToggle
-    ::UnityEngine::UI::Toggle*& dyn__filterByModifiersToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__filterByModifiersToggle();
     // Get instance field reference: private UnityEngine.UI.Button _filterByModifiersButton
-    ::UnityEngine::UI::Button*& dyn__filterByModifiersButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__filterByModifiersButton();
     // Get instance field reference: private GameplayModifiersDropdown _gameplayModifiersDropdown
-    ::GlobalNamespace::GameplayModifiersDropdown*& dyn__gameplayModifiersDropdown();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiersDropdown*& dyn__gameplayModifiersDropdown();
     // Get instance field reference: private UnityEngine.UI.Toggle _filterBySongsToggle
-    ::UnityEngine::UI::Toggle*& dyn__filterBySongsToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__filterBySongsToggle();
     // Get instance field reference: private UnityEngine.UI.Button _filterBySongsButton
-    ::UnityEngine::UI::Button*& dyn__filterBySongsButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__filterBySongsButton();
     // Get instance field reference: private SongPacksDropdown _songPacksDropdown
-    ::GlobalNamespace::SongPacksDropdown*& dyn__songPacksDropdown();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongPacksDropdown*& dyn__songPacksDropdown();
     // Get instance field reference: private UnityEngine.UI.Toggle _showFullToggle
-    ::UnityEngine::UI::Toggle*& dyn__showFullToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__showFullToggle();
     // Get instance field reference: private UnityEngine.UI.Toggle _showPasswordProtectedToggle
-    ::UnityEngine::UI::Toggle*& dyn__showPasswordProtectedToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__showPasswordProtectedToggle();
     // Get instance field reference: private readonly HMUI.ToggleBinder _toggleBinder
-    ::HMUI::ToggleBinder*& dyn__toggleBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ToggleBinder*& dyn__toggleBinder();
     // Get instance field reference: private System.Boolean _showInternetGames
-    bool& dyn__showInternetGames();
+    [[deprecated("Use field access instead!")]] bool& dyn__showInternetGames();
     // public GameServersFilter get_gameServersFilter()
-    // Offset: 0x13E1F08
+    // Offset: 0x13EE9A8
     ::GlobalNamespace::GameServersFilter* get_gameServersFilter();
-    // public System.Void SetupGameServersFilter(GameServersFilter gameServersFilter)
-    // Offset: 0x13E20FC
-    void SetupGameServersFilter(::GlobalNamespace::GameServersFilter* gameServersFilter);
-    // private System.Void Refresh(GameServersFilter currentFilter)
-    // Offset: 0x13E2100
-    void Refresh(::GlobalNamespace::GameServersFilter* currentFilter);
-    // private System.Void <DidActivate>b__16_0(System.Boolean isOn)
-    // Offset: 0x13E2428
-    void $DidActivate$b__16_0(bool isOn);
-    // private System.Void <DidActivate>b__16_1(System.Boolean isOn)
-    // Offset: 0x13E2448
-    void $DidActivate$b__16_1(bool isOn);
-    // private System.Void <DidActivate>b__16_2(System.Boolean isOn)
-    // Offset: 0x13E2468
-    void $DidActivate$b__16_2(bool isOn);
     // public System.Void .ctor()
-    // Offset: 0x13E23C0
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13EEE60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServersFilterViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServersFilterViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServersFilterViewController*, creationType>()));
     }
+    // public System.Void SetupGameServersFilter(GameServersFilter gameServersFilter)
+    // Offset: 0x13EEB9C
+    void SetupGameServersFilter(::GlobalNamespace::GameServersFilter* gameServersFilter);
+    // private System.Void Refresh(GameServersFilter currentFilter)
+    // Offset: 0x13EEBA0
+    void Refresh(::GlobalNamespace::GameServersFilter* currentFilter);
+    // private System.Void <DidActivate>b__16_0(System.Boolean isOn)
+    // Offset: 0x13EEEC8
+    void $DidActivate$b__16_0(bool isOn);
+    // private System.Void <DidActivate>b__16_1(System.Boolean isOn)
+    // Offset: 0x13EEEE8
+    void $DidActivate$b__16_1(bool isOn);
+    // private System.Void <DidActivate>b__16_2(System.Boolean isOn)
+    // Offset: 0x13EEF08
+    void $DidActivate$b__16_2(bool isOn);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13E2208
+    // Offset: 0x13EECA8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x13E2350
+    // Offset: 0x13EEDF0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
@@ -227,6 +212,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServersFilterViewController*), "get_gameServersFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::GameServersFilterViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameServersFilterViewController::SetupGameServersFilter
 // Il2CppName: SetupGameServersFilter
 template<>
@@ -272,10 +261,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServersFilterViewController*), "<DidActivate>b__16_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isOn});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameServersFilterViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameServersFilterViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

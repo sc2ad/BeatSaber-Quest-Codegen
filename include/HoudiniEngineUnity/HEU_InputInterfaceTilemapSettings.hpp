@@ -26,15 +26,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputInterfaceTilemapSettings : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean _createGroupsForTiles
     // Size: 0x1
     // Offset: 0x10
@@ -61,17 +53,15 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.Boolean _createGroupsForTiles
-    bool& dyn__createGroupsForTiles();
+    [[deprecated("Use field access instead!")]] bool& dyn__createGroupsForTiles();
     // Get instance field reference: public System.Boolean _exportUnusedTiles
-    bool& dyn__exportUnusedTiles();
+    [[deprecated("Use field access instead!")]] bool& dyn__exportUnusedTiles();
     // Get instance field reference: public System.Boolean _applyTileColor
-    bool& dyn__applyTileColor();
+    [[deprecated("Use field access instead!")]] bool& dyn__applyTileColor();
     // Get instance field reference: public System.Boolean _applyTilemapOrientation
-    bool& dyn__applyTilemapOrientation();
+    [[deprecated("Use field access instead!")]] bool& dyn__applyTilemapOrientation();
     // public System.Void .ctor()
-    // Offset: 0x1852C08
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x188C518
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputInterfaceTilemapSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::.ctor");

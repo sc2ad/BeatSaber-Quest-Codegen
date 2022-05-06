@@ -60,7 +60,7 @@ namespace System::Xml::Schema {
     // Set static field: static public System.Xml.Schema.XmlSchemaValidity Invalid
     static void _set_Invalid(::System::Xml::Schema::XmlSchemaValidity value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Xml.Schema.XmlSchemaValidity
   #pragma pack(pop)
   static check_size<sizeof(XmlSchemaValidity), 0 + sizeof(int)> __System_Xml_Schema_XmlSchemaValiditySizeCheck;

@@ -54,15 +54,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::SteamVR_LoadLevel::$LoadLevel$d__45
     class $LoadLevel$d__45;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String levelName
     // Size: 0x8
     // Offset: 0x18
@@ -275,119 +267,111 @@ namespace GlobalNamespace {
     // Set static field: static private SteamVR_LoadLevel _active
     static void _set__active(::GlobalNamespace::SteamVR_LoadLevel* value);
     // Get instance field reference: public System.String levelName
-    ::StringW& dyn_levelName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_levelName();
     // Get instance field reference: public System.String internalProcessPath
-    ::StringW& dyn_internalProcessPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_internalProcessPath();
     // Get instance field reference: public System.String internalProcessArgs
-    ::StringW& dyn_internalProcessArgs();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_internalProcessArgs();
     // Get instance field reference: public System.Boolean loadAdditive
-    bool& dyn_loadAdditive();
+    [[deprecated("Use field access instead!")]] bool& dyn_loadAdditive();
     // Get instance field reference: public System.Boolean loadAsync
-    bool& dyn_loadAsync();
+    [[deprecated("Use field access instead!")]] bool& dyn_loadAsync();
     // Get instance field reference: public UnityEngine.Texture loadingScreen
-    ::UnityEngine::Texture*& dyn_loadingScreen();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Texture*& dyn_loadingScreen();
     // Get instance field reference: public UnityEngine.Texture progressBarEmpty
-    ::UnityEngine::Texture*& dyn_progressBarEmpty();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Texture*& dyn_progressBarEmpty();
     // Get instance field reference: public UnityEngine.Texture progressBarFull
-    ::UnityEngine::Texture*& dyn_progressBarFull();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Texture*& dyn_progressBarFull();
     // Get instance field reference: public System.Single loadingScreenWidthInMeters
-    float& dyn_loadingScreenWidthInMeters();
+    [[deprecated("Use field access instead!")]] float& dyn_loadingScreenWidthInMeters();
     // Get instance field reference: public System.Single progressBarWidthInMeters
-    float& dyn_progressBarWidthInMeters();
+    [[deprecated("Use field access instead!")]] float& dyn_progressBarWidthInMeters();
     // Get instance field reference: public System.Single loadingScreenDistance
-    float& dyn_loadingScreenDistance();
+    [[deprecated("Use field access instead!")]] float& dyn_loadingScreenDistance();
     // Get instance field reference: public UnityEngine.Transform loadingScreenTransform
-    ::UnityEngine::Transform*& dyn_loadingScreenTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_loadingScreenTransform();
     // Get instance field reference: public UnityEngine.Transform progressBarTransform
-    ::UnityEngine::Transform*& dyn_progressBarTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_progressBarTransform();
     // Get instance field reference: public UnityEngine.Texture front
-    ::UnityEngine::Texture*& dyn_front();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Texture*& dyn_front();
     // Get instance field reference: public UnityEngine.Texture back
-    ::UnityEngine::Texture*& dyn_back();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Texture*& dyn_back();
     // Get instance field reference: public UnityEngine.Texture left
-    ::UnityEngine::Texture*& dyn_left();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Texture*& dyn_left();
     // Get instance field reference: public UnityEngine.Texture right
-    ::UnityEngine::Texture*& dyn_right();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Texture*& dyn_right();
     // Get instance field reference: public UnityEngine.Texture top
-    ::UnityEngine::Texture*& dyn_top();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Texture*& dyn_top();
     // Get instance field reference: public UnityEngine.Texture bottom
-    ::UnityEngine::Texture*& dyn_bottom();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Texture*& dyn_bottom();
     // Get instance field reference: public UnityEngine.Color backgroundColor
-    ::UnityEngine::Color& dyn_backgroundColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_backgroundColor();
     // Get instance field reference: public System.Boolean showGrid
-    bool& dyn_showGrid();
+    [[deprecated("Use field access instead!")]] bool& dyn_showGrid();
     // Get instance field reference: public System.Single fadeOutTime
-    float& dyn_fadeOutTime();
+    [[deprecated("Use field access instead!")]] float& dyn_fadeOutTime();
     // Get instance field reference: public System.Single fadeInTime
-    float& dyn_fadeInTime();
+    [[deprecated("Use field access instead!")]] float& dyn_fadeInTime();
     // Get instance field reference: public System.Single postLoadSettleTime
-    float& dyn_postLoadSettleTime();
+    [[deprecated("Use field access instead!")]] float& dyn_postLoadSettleTime();
     // Get instance field reference: public System.Single loadingScreenFadeInTime
-    float& dyn_loadingScreenFadeInTime();
+    [[deprecated("Use field access instead!")]] float& dyn_loadingScreenFadeInTime();
     // Get instance field reference: public System.Single loadingScreenFadeOutTime
-    float& dyn_loadingScreenFadeOutTime();
+    [[deprecated("Use field access instead!")]] float& dyn_loadingScreenFadeOutTime();
     // Get instance field reference: private System.Single fadeRate
-    float& dyn_fadeRate();
+    [[deprecated("Use field access instead!")]] float& dyn_fadeRate();
     // Get instance field reference: private System.Single alpha
-    float& dyn_alpha();
+    [[deprecated("Use field access instead!")]] float& dyn_alpha();
     // Get instance field reference: private UnityEngine.AsyncOperation async
-    ::UnityEngine::AsyncOperation*& dyn_async();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AsyncOperation*& dyn_async();
     // Get instance field reference: private UnityEngine.RenderTexture renderTexture
-    ::UnityEngine::RenderTexture*& dyn_renderTexture();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RenderTexture*& dyn_renderTexture();
     // Get instance field reference: private System.UInt64 loadingScreenOverlayHandle
-    uint64_t& dyn_loadingScreenOverlayHandle();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_loadingScreenOverlayHandle();
     // Get instance field reference: private System.UInt64 progressBarOverlayHandle
-    uint64_t& dyn_progressBarOverlayHandle();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_progressBarOverlayHandle();
     // Get instance field reference: public System.Boolean autoTriggerOnEnable
-    bool& dyn_autoTriggerOnEnable();
+    [[deprecated("Use field access instead!")]] bool& dyn_autoTriggerOnEnable();
     // static public System.Boolean get_loading()
-    // Offset: 0x186EE58
+    // Offset: 0x18A8768
     static bool get_loading();
     // static public System.Single get_progress()
-    // Offset: 0x186EEF0
+    // Offset: 0x18A8800
     static float get_progress();
     // static public UnityEngine.Texture get_progressTexture()
-    // Offset: 0x186F004
+    // Offset: 0x18A8914
     static ::UnityEngine::Texture* get_progressTexture();
-    // private System.Void OnEnable()
-    // Offset: 0x186F0DC
-    void OnEnable();
-    // public System.Void Trigger()
-    // Offset: 0x186F0EC
-    void Trigger();
-    // static public System.Void Begin(System.String levelName, System.Boolean showGrid, System.Single fadeOutTime, System.Single r, System.Single g, System.Single b, System.Single a)
-    // Offset: 0x186F1F4
-    static void Begin(::StringW levelName, bool showGrid, float fadeOutTime, float r, float g, float b, float a);
-    // private System.Void OnGUI()
-    // Offset: 0x186F300
-    void OnGUI();
-    // private System.Void Update()
-    // Offset: 0x186FAE0
-    void Update();
-    // private System.Collections.IEnumerator LoadLevel()
-    // Offset: 0x186F184
-    ::System::Collections::IEnumerator* LoadLevel();
-    // private System.UInt64 GetOverlayHandle(System.String overlayName, UnityEngine.Transform transform, System.Single widthInMeters)
-    // Offset: 0x186F744
-    uint64_t GetOverlayHandle(::StringW overlayName, ::UnityEngine::Transform* transform, float widthInMeters);
     // public System.Void .ctor()
-    // Offset: 0x186FD5C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18A966C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_LoadLevel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_LoadLevel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_LoadLevel*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x186FDC0
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x18A96D0
     static void _cctor();
+    // private System.Void OnEnable()
+    // Offset: 0x18A89EC
+    void OnEnable();
+    // public System.Void Trigger()
+    // Offset: 0x18A89FC
+    void Trigger();
+    // static public System.Void Begin(System.String levelName, System.Boolean showGrid, System.Single fadeOutTime, System.Single r, System.Single g, System.Single b, System.Single a)
+    // Offset: 0x18A8B04
+    static void Begin(::StringW levelName, bool showGrid, float fadeOutTime, float r, float g, float b, float a);
+    // private System.Void OnGUI()
+    // Offset: 0x18A8C10
+    void OnGUI();
+    // private System.Void Update()
+    // Offset: 0x18A93F0
+    void Update();
+    // private System.Collections.IEnumerator LoadLevel()
+    // Offset: 0x18A8A94
+    ::System::Collections::IEnumerator* LoadLevel();
+    // private System.UInt64 GetOverlayHandle(System.String overlayName, UnityEngine.Transform transform, System.Single widthInMeters)
+    // Offset: 0x18A9054
+    uint64_t GetOverlayHandle(::StringW overlayName, ::UnityEngine::Transform* transform, float widthInMeters);
   }; // SteamVR_LoadLevel
   #pragma pack(pop)
   static check_size<sizeof(SteamVR_LoadLevel), 240 + sizeof(bool)> __GlobalNamespace_SteamVR_LoadLevelSizeCheck;
@@ -416,6 +400,18 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Texture* (*)()>(&GlobalNamespace::SteamVR_LoadLevel::get_progressTexture)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_LoadLevel*), "get_progressTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_LoadLevel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_LoadLevel::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SteamVR_LoadLevel::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_LoadLevel*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_LoadLevel::OnEnable
@@ -482,17 +478,5 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (G
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* widthInMeters = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_LoadLevel*), "GetOverlayHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{overlayName, transform, widthInMeters});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::SteamVR_LoadLevel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::SteamVR_LoadLevel::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SteamVR_LoadLevel::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_LoadLevel*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

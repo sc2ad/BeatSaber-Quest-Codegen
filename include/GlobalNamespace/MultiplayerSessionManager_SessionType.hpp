@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Set static field: static public MultiplayerSessionManager/SessionType DedicatedServer
     static void _set_DedicatedServer(::GlobalNamespace::MultiplayerSessionManager_SessionType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // MultiplayerSessionManager/SessionType
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerSessionManager_SessionType), 0 + sizeof(int)> __GlobalNamespace_MultiplayerSessionManager_SessionTypeSizeCheck;

@@ -31,15 +31,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class GameServerLobbyFlowCoordinator::$$c__DisplayClass70_1 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.EventSystems.EventSystem eventSystem
     // Size: 0x8
     // Offset: 0x10
@@ -54,27 +46,29 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass70_0*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.EventSystems.EventSystem eventSystem
-    ::UnityEngine::EventSystems::EventSystem*& dyn_eventSystem();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::EventSystems::EventSystem*& dyn_eventSystem();
     // Get instance field reference: public GameServerLobbyFlowCoordinator/<>c__DisplayClass70_0 CS$<>8__locals1
-    ::GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass70_0*& dyn_CS$$$8__locals1();
-    // System.Void <Finish>b__0()
-    // Offset: 0x13DEB64
-    void $Finish$b__0();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass70_0*& dyn_CS$$$8__locals1();
     // public System.Void .ctor()
-    // Offset: 0x13DBEF0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13E8990
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerLobbyFlowCoordinator::$$c__DisplayClass70_1* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass70_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServerLobbyFlowCoordinator::$$c__DisplayClass70_1*, creationType>()));
     }
+    // System.Void <Finish>b__0()
+    // Offset: 0x13EB604
+    void $Finish$b__0();
   }; // GameServerLobbyFlowCoordinator/<>c__DisplayClass70_1
   #pragma pack(pop)
   static check_size<sizeof(GameServerLobbyFlowCoordinator::$$c__DisplayClass70_1), 24 + sizeof(::GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass70_0*)> __GlobalNamespace_GameServerLobbyFlowCoordinator_$$c__DisplayClass70_1SizeCheck;
   static_assert(sizeof(GameServerLobbyFlowCoordinator::$$c__DisplayClass70_1) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass70_1::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass70_1::$Finish$b__0
 // Il2CppName: <Finish>b__0
 template<>
@@ -83,7 +77,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass70_1*), "<Finish>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass70_1::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

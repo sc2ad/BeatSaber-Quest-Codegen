@@ -33,15 +33,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SecureRandomProvider::SecureRandomState : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Security.Cryptography.RNGCryptoServiceProvider _random
     // Size: 0x8
     // Offset: 0x10
@@ -74,37 +66,39 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kBufferSize
     static void _set_kBufferSize(int value);
     // Get instance field reference: private readonly System.Security.Cryptography.RNGCryptoServiceProvider _random
-    ::System::Security::Cryptography::RNGCryptoServiceProvider*& dyn__random();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::RNGCryptoServiceProvider*& dyn__random();
     // Get instance field reference: private readonly System.Byte[] _randomBuffer0
-    ::ArrayW<uint8_t>& dyn__randomBuffer0();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__randomBuffer0();
     // Get instance field reference: private readonly System.Byte[] _randomBuffer1
-    ::ArrayW<uint8_t>& dyn__randomBuffer1();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__randomBuffer1();
     // Get instance field reference: private System.Int32 _index
-    int& dyn__index();
-    // public System.Void GetBytes(System.Byte[] buffer, System.Int32 offset, System.Int32 length)
-    // Offset: 0x25EDC08
-    void GetBytes(::ArrayW<uint8_t> buffer, int offset, int length);
-    // public System.Byte GetByte()
-    // Offset: 0x25EDD3C
-    uint8_t GetByte();
-    // private System.Void FillBuffer()
-    // Offset: 0x25EE00C
-    void FillBuffer();
+    [[deprecated("Use field access instead!")]] int& dyn__index();
     // public System.Void .ctor()
-    // Offset: 0x25EDF6C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x263A59C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecureRandomProvider::SecureRandomState* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SecureRandomProvider::SecureRandomState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecureRandomProvider::SecureRandomState*, creationType>()));
     }
+    // public System.Void GetBytes(System.Byte[] buffer, System.Int32 offset, System.Int32 length)
+    // Offset: 0x263A238
+    void GetBytes(::ArrayW<uint8_t> buffer, int offset, int length);
+    // public System.Byte GetByte()
+    // Offset: 0x263A36C
+    uint8_t GetByte();
+    // private System.Void FillBuffer()
+    // Offset: 0x263A63C
+    void FillBuffer();
   }; // SecureRandomProvider/SecureRandomState
   #pragma pack(pop)
   static check_size<sizeof(SecureRandomProvider::SecureRandomState), 40 + sizeof(int)> __GlobalNamespace_SecureRandomProvider_SecureRandomStateSizeCheck;
   static_assert(sizeof(SecureRandomProvider::SecureRandomState) == 0x2C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SecureRandomProvider::SecureRandomState::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SecureRandomProvider::SecureRandomState::GetBytes
 // Il2CppName: GetBytes
 template<>
@@ -132,7 +126,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SecureRandomProvider::SecureRandomState*), "FillBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SecureRandomProvider::SecureRandomState::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

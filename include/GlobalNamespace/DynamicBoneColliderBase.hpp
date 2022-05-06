@@ -77,7 +77,7 @@ namespace GlobalNamespace {
       // Set static field: static public DynamicBoneColliderBase/Direction Z
       static void _set_Z(::GlobalNamespace::DynamicBoneColliderBase::Direction value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // DynamicBoneColliderBase/Direction
     #pragma pack(pop)
     static check_size<sizeof(DynamicBoneColliderBase::Direction), 0 + sizeof(int)> __GlobalNamespace_DynamicBoneColliderBase_DirectionSizeCheck;
@@ -119,20 +119,12 @@ namespace GlobalNamespace {
       // Set static field: static public DynamicBoneColliderBase/Bound Inside
       static void _set_Inside(::GlobalNamespace::DynamicBoneColliderBase::Bound value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // DynamicBoneColliderBase/Bound
     #pragma pack(pop)
     static check_size<sizeof(DynamicBoneColliderBase::Bound), 0 + sizeof(int)> __GlobalNamespace_DynamicBoneColliderBase_BoundSizeCheck;
     static_assert(sizeof(DynamicBoneColliderBase::Bound) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public DynamicBoneColliderBase/Direction m_Direction
     // Size: 0x4
     // Offset: 0x18
@@ -155,27 +147,21 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public DynamicBoneColliderBase/Direction m_Direction
-    ::GlobalNamespace::DynamicBoneColliderBase::Direction& dyn_m_Direction();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DynamicBoneColliderBase::Direction& dyn_m_Direction();
     // Get instance field reference: public UnityEngine.Vector3 m_Center
-    ::UnityEngine::Vector3& dyn_m_Center();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_m_Center();
     // Get instance field reference: public DynamicBoneColliderBase/Bound m_Bound
-    ::GlobalNamespace::DynamicBoneColliderBase::Bound& dyn_m_Bound();
-    // public System.Void Collide(ref UnityEngine.Vector3 particlePosition, System.Single particleRadius)
-    // Offset: 0x2A76D14
-    void Collide(ByRef<::UnityEngine::Vector3> particlePosition, float particleRadius);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DynamicBoneColliderBase::Bound& dyn_m_Bound();
     // public System.Void .ctor()
-    // Offset: 0x2A76C94
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2ACEFFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DynamicBoneColliderBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DynamicBoneColliderBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DynamicBoneColliderBase*, creationType>()));
     }
+    // public System.Void Collide(ref UnityEngine.Vector3 particlePosition, System.Single particleRadius)
+    // Offset: 0x2ACF07C
+    void Collide(ByRef<::UnityEngine::Vector3> particlePosition, float particleRadius);
   }; // DynamicBoneColliderBase
   #pragma pack(pop)
   static check_size<sizeof(DynamicBoneColliderBase), 40 + sizeof(::GlobalNamespace::DynamicBoneColliderBase::Bound)> __GlobalNamespace_DynamicBoneColliderBaseSizeCheck;
@@ -186,6 +172,10 @@ DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DynamicBoneColliderBase::Bound, "", "D
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DynamicBoneColliderBase::Direction, "", "DynamicBoneColliderBase/Direction");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::DynamicBoneColliderBase::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::DynamicBoneColliderBase::Collide
 // Il2CppName: Collide
 template<>
@@ -196,7 +186,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DynamicBoneColliderBase*), "Collide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{particlePosition, particleRadius});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::DynamicBoneColliderBase::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -46,31 +46,33 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     operator ::NUnit::Framework::Interfaces::ITestFilter() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::ITestFilter*>(this);
     }
-    // public NUnit.Framework.Interfaces.TNode ToXml(System.Boolean recursive)
-    // Offset: 0x1950EC4
-    ::NUnit::Framework::Interfaces::TNode* ToXml(bool recursive);
-    // public NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0x1950F2C
-    ::NUnit::Framework::Interfaces::TNode* AddToXml(::NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
-    // public System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1950F88
-    bool Pass(::NUnit::Framework::Interfaces::ITest* test);
-    // public System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x19517E0
-    bool IsExplicitMatch(::NUnit::Framework::Interfaces::ITest* test);
     // public System.Void .ctor()
-    // Offset: 0x19509D4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x19883A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SynchronousFilter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SynchronousFilter*, creationType>()));
     }
+    // public NUnit.Framework.Interfaces.TNode ToXml(System.Boolean recursive)
+    // Offset: 0x1988894
+    ::NUnit::Framework::Interfaces::TNode* ToXml(bool recursive);
+    // public NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
+    // Offset: 0x19888FC
+    ::NUnit::Framework::Interfaces::TNode* AddToXml(::NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
+    // public System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
+    // Offset: 0x1988958
+    bool Pass(::NUnit::Framework::Interfaces::ITest* test);
+    // public System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
+    // Offset: 0x19891B0
+    bool IsExplicitMatch(::NUnit::Framework::Interfaces::ITest* test);
   }; // UnityEngine.TestTools.TestRunner.GUI.SynchronousFilter
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::ToXml
 // Il2CppName: ToXml
 template<>
@@ -108,7 +110,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter*), "IsExplicitMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

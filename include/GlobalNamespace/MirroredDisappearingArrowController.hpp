@@ -34,15 +34,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MirroredDisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::GlobalNamespace::MirroredGameNoteController*> {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MirroredGameNoteController _mirroredGameNoteController
     // Size: 0x8
     // Offset: 0x50
@@ -51,19 +43,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::MirroredGameNoteController*) == 0x8);
     public:
     // Get instance field reference: private MirroredGameNoteController _mirroredGameNoteController
-    ::GlobalNamespace::MirroredGameNoteController*& dyn__mirroredGameNoteController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MirroredGameNoteController*& dyn__mirroredGameNoteController();
     // protected MirroredGameNoteController get_gameNoteController()
-    // Offset: 0x1302FEC
+    // Offset: 0x12FF4C4
     ::GlobalNamespace::MirroredGameNoteController* get_gameNoteController();
     // public System.Void .ctor()
-    // Offset: 0x1302FF4
+    // Offset: 0x12FF4CC
     // Implemented from: DisappearingArrowControllerBase`1
     // Base method: System.Void DisappearingArrowControllerBase_1::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MirroredDisappearingArrowController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MirroredDisappearingArrowController::.ctor");

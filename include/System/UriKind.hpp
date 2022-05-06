@@ -60,7 +60,7 @@ namespace System {
     // Set static field: static public System.UriKind Relative
     static void _set_Relative(::System::UriKind value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.UriKind
   #pragma pack(pop)
   static check_size<sizeof(UriKind), 0 + sizeof(int)> __System_UriKindSizeCheck;

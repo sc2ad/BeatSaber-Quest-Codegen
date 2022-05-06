@@ -31,15 +31,7 @@ namespace BGNet::Core::Messages {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnconnectedMessageHandler::ConnectionState : public ::Il2CppObject/*, public ::System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _userId
     // Size: 0x8
     // Offset: 0x10
@@ -146,72 +138,70 @@ namespace BGNet::Core::Messages {
     // Set static field: static private System.Int32 kRequestBufferLength
     static void _set_kRequestBufferLength(int value);
     // Get instance field reference: private System.String _userId
-    ::StringW& dyn__userId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__userId();
     // Get instance field reference: private System.String _userName
-    ::StringW& dyn__userName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__userName();
     // Get instance field reference: private System.UInt32 _protocolVersion
-    uint& dyn__protocolVersion();
+    [[deprecated("Use field access instead!")]] uint& dyn__protocolVersion();
     // Get instance field reference: private System.Boolean _hasIdentity
-    bool& dyn__hasIdentity();
+    [[deprecated("Use field access instead!")]] bool& dyn__hasIdentity();
     // Get instance field reference: private EncryptionUtility/IEncryptionState _encryptionState
-    ::GlobalNamespace::EncryptionUtility::IEncryptionState*& dyn__encryptionState();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EncryptionUtility::IEncryptionState*& dyn__encryptionState();
     // Get instance field reference: private System.Int32 _lastReceivedRequestIndex
-    int& dyn__lastReceivedRequestIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__lastReceivedRequestIndex();
     // Get instance field reference: private System.UInt32 _lastReceivedRequestId
-    uint& dyn__lastReceivedRequestId();
+    [[deprecated("Use field access instead!")]] uint& dyn__lastReceivedRequestId();
     // Get instance field reference: private System.Int32 _receivedRequestCount
-    int& dyn__receivedRequestCount();
+    [[deprecated("Use field access instead!")]] int& dyn__receivedRequestCount();
     // Get instance field reference: private readonly System.Boolean[] _receivedRequest
-    ::ArrayW<bool>& dyn__receivedRequest();
+    [[deprecated("Use field access instead!")]] ::ArrayW<bool>& dyn__receivedRequest();
     // Get instance field reference: private System.UInt32 _currentRequestId
-    uint& dyn__currentRequestId();
+    [[deprecated("Use field access instead!")]] uint& dyn__currentRequestId();
     // Get instance field reference: private System.UInt32 _currentEpoch
-    uint& dyn__currentEpoch();
+    [[deprecated("Use field access instead!")]] uint& dyn__currentEpoch();
     // public System.Boolean get_isEncrypted()
-    // Offset: 0x1500FBC
+    // Offset: 0x15388C4
     bool get_isEncrypted();
-    // public System.UInt32 GetNextRequestId()
-    // Offset: 0x1500F04
-    uint GetNextRequestId();
-    // public System.Void BeginSession()
-    // Offset: 0x1500E38
-    void BeginSession();
-    // public System.Boolean IsValidSessionStartRequestId(System.UInt32 requestId)
-    // Offset: 0x1500F80
-    bool IsValidSessionStartRequestId(uint requestId);
-    // public System.Void BeginSession(System.UInt32 requestId)
-    // Offset: 0x1500ECC
-    void BeginSession(uint requestId);
-    // private System.Void SetEpoch(System.UInt32 epoch)
-    // Offset: 0x150270C
-    void SetEpoch(uint epoch);
-    // public System.Boolean CanAcceptRequest(System.UInt32 requestId)
-    // Offset: 0x14FF914
-    bool CanAcceptRequest(uint requestId);
-    // public System.Void SetEncryptionState(EncryptionUtility/IEncryptionState encryptionState)
-    // Offset: 0x1502730
-    void SetEncryptionState(::GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState);
-    // public System.Void SetIdentity(System.UInt32 protocolVersion, System.String userId, System.String userName)
-    // Offset: 0x1502738
-    void SetIdentity(uint protocolVersion, ::StringW userId, ::StringW userName);
-    // public System.Boolean VerifyIdentity(System.UInt32 protocolVersion, System.String userId, System.String userName)
-    // Offset: 0x150274C
-    bool VerifyIdentity(uint protocolVersion, ::StringW userId, ::StringW userName);
-    // public System.Void Dispose()
-    // Offset: 0x15027BC
-    void Dispose();
-    // static private System.Void LogD(System.String message)
-    // Offset: 0x15027CC
-    static void LogD(::StringW message);
     // public System.Void .ctor()
-    // Offset: 0x1500F20
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1538828
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnconnectedMessageHandler::ConnectionState* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::ConnectionState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnconnectedMessageHandler::ConnectionState*, creationType>()));
     }
+    // public System.UInt32 GetNextRequestId()
+    // Offset: 0x153880C
+    uint GetNextRequestId();
+    // public System.Void BeginSession()
+    // Offset: 0x1538740
+    void BeginSession();
+    // public System.Boolean IsValidSessionStartRequestId(System.UInt32 requestId)
+    // Offset: 0x1538888
+    bool IsValidSessionStartRequestId(uint requestId);
+    // public System.Void BeginSession(System.UInt32 requestId)
+    // Offset: 0x15387D4
+    void BeginSession(uint requestId);
+    // private System.Void SetEpoch(System.UInt32 epoch)
+    // Offset: 0x153A014
+    void SetEpoch(uint epoch);
+    // public System.Boolean CanAcceptRequest(System.UInt32 requestId)
+    // Offset: 0x153721C
+    bool CanAcceptRequest(uint requestId);
+    // public System.Void SetEncryptionState(EncryptionUtility/IEncryptionState encryptionState)
+    // Offset: 0x153A038
+    void SetEncryptionState(::GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState);
+    // public System.Void SetIdentity(System.UInt32 protocolVersion, System.String userId, System.String userName)
+    // Offset: 0x153A040
+    void SetIdentity(uint protocolVersion, ::StringW userId, ::StringW userName);
+    // public System.Boolean VerifyIdentity(System.UInt32 protocolVersion, System.String userId, System.String userName)
+    // Offset: 0x153A054
+    bool VerifyIdentity(uint protocolVersion, ::StringW userId, ::StringW userName);
+    // public System.Void Dispose()
+    // Offset: 0x153A0C4
+    void Dispose();
+    // static private System.Void LogD(System.String message)
+    // Offset: 0x153A0D4
+    static void LogD(::StringW message);
   }; // BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.ConnectionState
   #pragma pack(pop)
   static check_size<sizeof(UnconnectedMessageHandler::ConnectionState), 76 + sizeof(uint)> __BGNet_Core_Messages_UnconnectedMessageHandler_ConnectionStateSizeCheck;
@@ -226,6 +216,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BGNet
     return ::il2cpp_utils::FindMethod(classof(BGNet::Core::Messages::UnconnectedMessageHandler::ConnectionState*), "get_isEncrypted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: BGNet::Core::Messages::UnconnectedMessageHandler::ConnectionState::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: BGNet::Core::Messages::UnconnectedMessageHandler::ConnectionState::GetNextRequestId
 // Il2CppName: GetNextRequestId
 template<>
@@ -326,7 +320,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
     return ::il2cpp_utils::FindMethod(classof(BGNet::Core::Messages::UnconnectedMessageHandler::ConnectionState*), "LogD", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }
 };
-// Writing MetadataGetter for method: BGNet::Core::Messages::UnconnectedMessageHandler::ConnectionState::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

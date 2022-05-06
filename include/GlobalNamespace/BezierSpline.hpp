@@ -48,15 +48,7 @@ namespace GlobalNamespace {
     struct ComputeControlPointsResults;
     // Nested type: ::GlobalNamespace::BezierSpline::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.List`1<BezierCurve> _segments
     // Size: 0x8
     // Offset: 0x10
@@ -71,39 +63,37 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*) == 0x8);
     public:
     // Get instance field reference: private readonly System.Collections.Generic.List`1<BezierCurve> _segments
-    ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>*& dyn__segments();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>*& dyn__segments();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.Vector3> _sourceDataPoints
-    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn__sourceDataPoints();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn__sourceDataPoints();
     // public System.Collections.Generic.List`1<BezierCurve> get_segments()
-    // Offset: 0x1348DD4
+    // Offset: 0x133201C
     ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* get_segments();
-    // public System.Void AddPoint(System.Single distance, UnityEngine.Vector2 point)
-    // Offset: 0x134635C
-    void AddPoint(float distance, ::UnityEngine::Vector2 point);
-    // public System.Void SortSourceData()
-    // Offset: 0x1348DDC
-    void SortSourceData();
-    // public System.Void AddArtificialStartAndFinishPoint()
-    // Offset: 0x1346408
-    void AddArtificialStartAndFinishPoint();
-    // public System.Void ComputeControlPoints()
-    // Offset: 0x13465B4
-    void ComputeControlPoints();
-    // public System.Void Clear()
-    // Offset: 0x13494A4
-    void Clear();
-    // private BezierSpline/ComputeControlPointsResults ComputeControlPoints(System.Collections.Generic.List`1<System.Single> k)
-    // Offset: 0x1348ED4
-    ::GlobalNamespace::BezierSpline::ComputeControlPointsResults ComputeControlPoints(::System::Collections::Generic::List_1<float>* k);
     // public System.Void .ctor()
-    // Offset: 0x1345F70
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x132F1B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BezierSpline* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BezierSpline::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BezierSpline*, creationType>()));
     }
+    // public System.Void AddPoint(System.Single distance, UnityEngine.Vector2 point)
+    // Offset: 0x132F5A4
+    void AddPoint(float distance, ::UnityEngine::Vector2 point);
+    // public System.Void SortSourceData()
+    // Offset: 0x1332024
+    void SortSourceData();
+    // public System.Void AddArtificialStartAndFinishPoint()
+    // Offset: 0x132F650
+    void AddArtificialStartAndFinishPoint();
+    // public System.Void ComputeControlPoints()
+    // Offset: 0x132F7FC
+    void ComputeControlPoints();
+    // public System.Void Clear()
+    // Offset: 0x13326EC
+    void Clear();
+    // private BezierSpline/ComputeControlPointsResults ComputeControlPoints(System.Collections.Generic.List`1<System.Single> k)
+    // Offset: 0x133211C
+    ::GlobalNamespace::BezierSpline::ComputeControlPointsResults ComputeControlPoints(::System::Collections::Generic::List_1<float>* k);
   }; // BezierSpline
   #pragma pack(pop)
   static check_size<sizeof(BezierSpline), 24 + sizeof(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*)> __GlobalNamespace_BezierSplineSizeCheck;
@@ -118,6 +108,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSpline*), "get_segments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BezierSpline::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BezierSpline::AddPoint
 // Il2CppName: AddPoint
 template<>
@@ -169,7 +163,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSpline*), "ComputeControlPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{k});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BezierSpline::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -46,15 +46,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ServerCodeView : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _serverCodeText
     // Size: 0x8
     // Offset: 0x18
@@ -89,49 +81,47 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _serverCodeText
-    ::TMPro::TextMeshProUGUI*& dyn__serverCodeText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__serverCodeText();
     // Get instance field reference: private UnityEngine.UI.Button _button
-    ::UnityEngine::UI::Button*& dyn__button();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__button();
     // Get instance field reference: private readonly HMUI.ButtonBinder _buttonBinder
-    ::HMUI::ButtonBinder*& dyn__buttonBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // Get instance field reference: private System.String _serverCode
-    ::StringW& dyn__serverCode();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__serverCode();
     // Get instance field reference: private System.Boolean _codeIsShown
-    bool& dyn__codeIsShown();
-    // public System.Void SetCode(System.String serverCode)
-    // Offset: 0x14285C8
-    void SetCode(::StringW serverCode);
-    // protected System.Void OnEnable()
-    // Offset: 0x1428668
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x14286F8
-    void OnDisable();
-    // private System.Void HandleShowServerCodeButtonPressed()
-    // Offset: 0x1428714
-    void HandleShowServerCodeButtonPressed();
-    // private System.Void RefreshText(System.Boolean showCode)
-    // Offset: 0x14285D4
-    void RefreshText(bool showCode);
+    [[deprecated("Use field access instead!")]] bool& dyn__codeIsShown();
     // public System.Void .ctor()
-    // Offset: 0x1428724
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1469D58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerCodeView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ServerCodeView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerCodeView*, creationType>()));
     }
+    // public System.Void SetCode(System.String serverCode)
+    // Offset: 0x1469BFC
+    void SetCode(::StringW serverCode);
+    // protected System.Void OnEnable()
+    // Offset: 0x1469C9C
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x1469D2C
+    void OnDisable();
+    // private System.Void HandleShowServerCodeButtonPressed()
+    // Offset: 0x1469D48
+    void HandleShowServerCodeButtonPressed();
+    // private System.Void RefreshText(System.Boolean showCode)
+    // Offset: 0x1469C08
+    void RefreshText(bool showCode);
   }; // ServerCodeView
   #pragma pack(pop)
   static check_size<sizeof(ServerCodeView), 56 + sizeof(bool)> __GlobalNamespace_ServerCodeViewSizeCheck;
   static_assert(sizeof(ServerCodeView) == 0x39);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ServerCodeView::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ServerCodeView::SetCode
 // Il2CppName: SetCode
 template<>
@@ -174,7 +164,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerCodeView*), "RefreshText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{showCode});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ServerCodeView::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

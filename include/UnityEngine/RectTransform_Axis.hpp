@@ -51,7 +51,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.RectTransform/UnityEngine.Axis Vertical
     static void _set_Vertical(::UnityEngine::RectTransform::Axis value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.RectTransform/UnityEngine.Axis
   #pragma pack(pop)
   static check_size<sizeof(RectTransform::Axis), 0 + sizeof(int)> __UnityEngine_RectTransform_AxisSizeCheck;

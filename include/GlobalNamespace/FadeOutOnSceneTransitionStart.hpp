@@ -37,23 +37,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FadeOutOnSceneTransitionStart : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x1242018
+    // [InjectAttribute] Offset: 0x10C6B00
     // private readonly FadeInOutController _fadeInOut
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::FadeInOutController* fadeInOut;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FadeInOutController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1242028
+    // [InjectAttribute] Offset: 0x10C6B10
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
@@ -64,37 +56,35 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly FadeInOutController _fadeInOut
-    ::GlobalNamespace::FadeInOutController*& dyn__fadeInOut();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FadeInOutController*& dyn__fadeInOut();
     // Get instance field reference: private readonly GameScenesManager _gameScenesManager
-    ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
-    // protected System.Void Start()
-    // Offset: 0x29E7988
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x29E7A1C
-    void OnDestroy();
-    // private System.Void HandleGameScenesManagerTransitionDidStart(System.Single duration)
-    // Offset: 0x29E7AF8
-    void HandleGameScenesManagerTransitionDidStart(float duration);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // public System.Void .ctor()
-    // Offset: 0x29E7B14
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A3E410
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FadeOutOnSceneTransitionStart* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FadeOutOnSceneTransitionStart::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FadeOutOnSceneTransitionStart*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x2A3E284
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x2A3E318
+    void OnDestroy();
+    // private System.Void HandleGameScenesManagerTransitionDidStart(System.Single duration)
+    // Offset: 0x2A3E3F4
+    void HandleGameScenesManagerTransitionDidStart(float duration);
   }; // FadeOutOnSceneTransitionStart
   #pragma pack(pop)
   static check_size<sizeof(FadeOutOnSceneTransitionStart), 32 + sizeof(::GlobalNamespace::GameScenesManager*)> __GlobalNamespace_FadeOutOnSceneTransitionStartSizeCheck;
   static_assert(sizeof(FadeOutOnSceneTransitionStart) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::FadeOutOnSceneTransitionStart::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FadeOutOnSceneTransitionStart::Start
 // Il2CppName: Start
 template<>
@@ -120,7 +110,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FadeOutOnSceneTransitionStart*), "HandleGameScenesManagerTransitionDidStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{duration});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FadeOutOnSceneTransitionStart::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

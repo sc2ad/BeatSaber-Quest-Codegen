@@ -40,15 +40,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PointLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private PointLight _pointLight
     // Size: 0x8
     // Offset: 0x48
@@ -57,24 +49,19 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::PointLight*) == 0x8);
     public:
     // Get instance field reference: private PointLight _pointLight
-    ::GlobalNamespace::PointLight*& dyn__pointLight();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PointLight*& dyn__pointLight();
     // public System.Void .ctor()
-    // Offset: 0x2AD8800
+    // Offset: 0x1E81C10
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::.ctor()
     // Base method: System.Void LightWithIds::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PointLightWithIds* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PointLightWithIds::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PointLightWithIds*, creationType>()));
     }
     // protected override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x2AD87E0
+    // Offset: 0x1E81BF0
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);

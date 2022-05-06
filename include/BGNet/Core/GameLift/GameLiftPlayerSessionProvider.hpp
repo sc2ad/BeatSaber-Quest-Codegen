@@ -95,15 +95,7 @@ namespace BGNet::Core::GameLift {
     class $$c;
     // Nested type: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$PingRegionAsync$d__18
     struct $PingRegionAsync$d__18;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
     // Offset: 0x10
@@ -171,36 +163,36 @@ namespace BGNet::Core::GameLift {
     static ::StringW _get_kCancelMatchmakingTicketPath();
     // Set static field: static private System.String kCancelMatchmakingTicketPath
     static void _set_kCancelMatchmakingTicketPath(::StringW value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1232248
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B5CA0
     // Get static field: static private readonly System.String[] _awsGameLiftRegions
     static ::ArrayW<::StringW> _get__awsGameLiftRegions();
     // Set static field: static private readonly System.String[] _awsGameLiftRegions
     static void _set__awsGameLiftRegions(::ArrayW<::StringW> value);
     // Get instance field reference: private readonly INetworkConfig _networkConfig
-    ::GlobalNamespace::INetworkConfig*& dyn__networkConfig();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::INetworkConfig*& dyn__networkConfig();
     // Get instance field reference: private readonly System.Net.Http.HttpClient _client
-    ::System::Net::Http::HttpClient*& dyn__client();
+    [[deprecated("Use field access instead!")]] ::System::Net::Http::HttpClient*& dyn__client();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,RollingAverage> _pingAverages
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::RollingAverage*>*& dyn__pingAverages();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::RollingAverage*>*& dyn__pingAverages();
     // Get instance field reference: private System.Int32 _pingCount
-    int& dyn__pingCount();
+    [[deprecated("Use field access instead!")]] int& dyn__pingCount();
     // Get instance field reference: private System.Int64 _lastPingTime
-    int64_t& dyn__lastPingTime();
+    [[deprecated("Use field access instead!")]] int64_t& dyn__lastPingTime();
     // public System.Void .ctor(INetworkConfig networkConfig)
-    // Offset: 0x14F2E38
+    // Offset: 0x152A740
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameLiftPlayerSessionProvider* New_ctor(::GlobalNamespace::INetworkConfig* networkConfig) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameLiftPlayerSessionProvider*, creationType>(networkConfig)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x14F363C
+    // Offset: 0x152AF44
     static void _cctor();
     // public System.Void PollUpdate()
-    // Offset: 0x14F2FAC
+    // Offset: 0x152A8B4
     void PollUpdate();
     // public System.Threading.Tasks.Task`1<BGNet.Core.GameLift.PlayerSessionInfo> GetGameLiftPlayerSessionInfo(IAuthenticationTokenProvider authenticationTokenProvider, System.String userId, BeatmapLevelSelectionMask beatmapLevelSelectionMask, GameplayServerConfiguration gameplayServerConfiguration, System.String secret, System.String code, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x14F313C
+    // Offset: 0x152AA44
     ::System::Threading::Tasks::Task_1<::BGNet::Core::GameLift::PlayerSessionInfo*>* GetGameLiftPlayerSessionInfo(::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider, ::StringW userId, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::StringW secret, ::StringW code, ::System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<TResponse> Post(System.String path, TRequest request)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -221,19 +213,19 @@ namespace BGNet::Core::GameLift {
       return ::il2cpp_utils::RunMethodRethrow<::System::Threading::Tasks::Task_1<TResponse>*, false>(this, ___generic__method, path, query);
     }
     // private System.Void PingAllAwsGameLiftRegions()
-    // Offset: 0x14F307C
+    // Offset: 0x152A984
     void PingAllAwsGameLiftRegions();
     // private System.Collections.Generic.Dictionary`2<System.String,System.Int64> GetAverageLatencies()
-    // Offset: 0x14F32A8
+    // Offset: 0x152ABB0
     ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* GetAverageLatencies();
     // private System.Threading.Tasks.Task`1<System.ValueTuple`2<System.String,System.Int64>> PingRegionAsync(System.String awsRegion)
-    // Offset: 0x14F34DC
+    // Offset: 0x152ADE4
     ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, int64_t>>* PingRegionAsync(::StringW awsRegion);
     // static private System.String GetAwsGameLiftRegionEndpoint(System.String awsRegion)
-    // Offset: 0x14F35DC
+    // Offset: 0x152AEE4
     static ::StringW GetAwsGameLiftRegionEndpoint(::StringW awsRegion);
     // private System.Threading.Tasks.Task`1<System.ValueTuple`2<System.String,System.Int64>> <PingAllAwsGameLiftRegions>b__16_0(System.String region)
-    // Offset: 0x14F3998
+    // Offset: 0x152B2A0
     ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, int64_t>>* $PingAllAwsGameLiftRegions$b__16_0(::StringW region);
   }; // BGNet.Core.GameLift.GameLiftPlayerSessionProvider
   #pragma pack(pop)

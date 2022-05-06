@@ -34,15 +34,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class ListenerPrefix : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String original
     // Size: 0x8
     // Offset: 0x10
@@ -85,54 +77,54 @@ namespace System::Net {
     static_assert(sizeof(::System::Net::HttpListener*) == 0x8);
     public:
     // Get instance field reference: private System.String original
-    ::StringW& dyn_original();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_original();
     // Get instance field reference: private System.String host
-    ::StringW& dyn_host();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_host();
     // Get instance field reference: private System.UInt16 port
-    uint16_t& dyn_port();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_port();
     // Get instance field reference: private System.String path
-    ::StringW& dyn_path();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_path();
     // Get instance field reference: private System.Boolean secure
-    bool& dyn_secure();
+    [[deprecated("Use field access instead!")]] bool& dyn_secure();
     // Get instance field reference: public System.Net.HttpListener Listener
-    ::System::Net::HttpListener*& dyn_Listener();
+    [[deprecated("Use field access instead!")]] ::System::Net::HttpListener*& dyn_Listener();
     // public System.Boolean get_Secure()
-    // Offset: 0x1A79C88
+    // Offset: 0x1AB4270
     bool get_Secure();
     // public System.String get_Host()
-    // Offset: 0x1A79C90
+    // Offset: 0x1AB4278
     ::StringW get_Host();
     // public System.Int32 get_Port()
-    // Offset: 0x1A79C98
+    // Offset: 0x1AB4280
     int get_Port();
     // public System.String get_Path()
-    // Offset: 0x1A79CA0
+    // Offset: 0x1AB4288
     ::StringW get_Path();
     // public System.Void .ctor(System.String prefix)
-    // Offset: 0x1A79974
+    // Offset: 0x1AB3F5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListenerPrefix* New_ctor(::StringW prefix) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::ListenerPrefix::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListenerPrefix*, creationType>(prefix)));
     }
     // private System.Void Parse(System.String uri)
-    // Offset: 0x1A799A8
+    // Offset: 0x1AB3F90
     void Parse(::StringW uri);
     // static public System.Void CheckUri(System.String uri)
-    // Offset: 0x1A6C5FC
+    // Offset: 0x1AA6BE4
     static void CheckUri(::StringW uri);
     // public override System.String ToString()
-    // Offset: 0x1A79C80
+    // Offset: 0x1AB4268
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0x1A79CA8
+    // Offset: 0x1AB4290
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1A79D3C
+    // Offset: 0x1AB4324
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

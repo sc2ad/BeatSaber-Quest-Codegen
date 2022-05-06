@@ -40,15 +40,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::PosesRecordingInfoSaveData::ExternalCameraCalibrationSaveData
     class ExternalCameraCalibrationSaveData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _version
     // Size: 0x8
     // Offset: 0x10
@@ -81,27 +73,27 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kCurrentVersion
     static void _set_kCurrentVersion(::StringW value);
     // Get instance field reference: private System.String _version
-    ::StringW& dyn__version();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__version();
     // Get instance field reference: private System.String[] _objectIds
-    ::ArrayW<::StringW>& dyn__objectIds();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn__objectIds();
     // Get instance field reference: private PosesRecordingInfoSaveData/ExternalCameraCalibrationSaveData _externalCameraCalibration
-    ::GlobalNamespace::PosesRecordingInfoSaveData::ExternalCameraCalibrationSaveData*& dyn__externalCameraCalibration();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PosesRecordingInfoSaveData::ExternalCameraCalibrationSaveData*& dyn__externalCameraCalibration();
     // Get instance field reference: private System.String _dataFileName
-    ::StringW& dyn__dataFileName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__dataFileName();
     // public System.String get_version()
-    // Offset: 0x13753A8
+    // Offset: 0x13DC734
     ::StringW get_version();
     // public System.String[] get_objectIds()
-    // Offset: 0x13753B0
+    // Offset: 0x13DC73C
     ::ArrayW<::StringW> get_objectIds();
     // public PosesRecordingInfoSaveData/ExternalCameraCalibrationSaveData get_externalCameraCalibration()
-    // Offset: 0x13753B8
+    // Offset: 0x13DC744
     ::GlobalNamespace::PosesRecordingInfoSaveData::ExternalCameraCalibrationSaveData* get_externalCameraCalibration();
     // public System.String get_dataFileName()
-    // Offset: 0x13753C0
+    // Offset: 0x13DC74C
     ::StringW get_dataFileName();
     // public System.Void .ctor(System.String[] objectIds, PosesRecordingInfoSaveData/ExternalCameraCalibrationSaveData externalCameraCalibration, System.String dataFileName)
-    // Offset: 0x13753C8
+    // Offset: 0x13DC754
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PosesRecordingInfoSaveData* New_ctor(::ArrayW<::StringW> objectIds, ::GlobalNamespace::PosesRecordingInfoSaveData::ExternalCameraCalibrationSaveData* externalCameraCalibration, ::StringW dataFileName) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosesRecordingInfoSaveData::.ctor");

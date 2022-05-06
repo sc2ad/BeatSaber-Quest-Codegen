@@ -44,16 +44,8 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::BloomFogParamsAnimator::$AnimationCoroutine$d__2
     class $AnimationCoroutine$d__2;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x12375D4
+    // [InjectAttribute] Offset: 0x10BC02C
     // private readonly BloomFogSO _bloomFog
     // Size: 0x8
     // Offset: 0x18
@@ -64,41 +56,39 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly BloomFogSO _bloomFog
-    ::GlobalNamespace::BloomFogSO*& dyn__bloomFog();
-    // public System.Void AnimateBloomFogParamsChange(BloomFogEnvironmentParams envFogParams, System.Single duration)
-    // Offset: 0x2AC93BC
-    void AnimateBloomFogParamsChange(::GlobalNamespace::BloomFogEnvironmentParams* envFogParams, float duration);
-    // private System.Collections.IEnumerator AnimationCoroutine(BloomFogEnvironmentParams envFogParams, System.Single duration)
-    // Offset: 0x2AC94E4
-    ::System::Collections::IEnumerator* AnimationCoroutine(::GlobalNamespace::BloomFogEnvironmentParams* envFogParams, float duration);
-    // public System.Void SetBloomFogParamsChange(BloomFogEnvironmentParams envFogParams, System.Single transition)
-    // Offset: 0x2AC959C
-    void SetBloomFogParamsChange(::GlobalNamespace::BloomFogEnvironmentParams* envFogParams, float transition);
-    // public BloomFogEnvironmentParams GetDefaultBloomFogParams()
-    // Offset: 0x2AC95E8
-    ::GlobalNamespace::BloomFogEnvironmentParams* GetDefaultBloomFogParams();
-    // public System.Void SetDefaultBloomFogParams(BloomFogEnvironmentParams newDefaultBloomFogParams)
-    // Offset: 0x2AC9604
-    void SetDefaultBloomFogParams(::GlobalNamespace::BloomFogEnvironmentParams* newDefaultBloomFogParams);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomFogSO*& dyn__bloomFog();
     // public System.Void .ctor()
-    // Offset: 0x2AC96C8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E72A90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomFogParamsAnimator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomFogParamsAnimator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomFogParamsAnimator*, creationType>()));
     }
+    // public System.Void AnimateBloomFogParamsChange(BloomFogEnvironmentParams envFogParams, System.Single duration)
+    // Offset: 0x1E72784
+    void AnimateBloomFogParamsChange(::GlobalNamespace::BloomFogEnvironmentParams* envFogParams, float duration);
+    // private System.Collections.IEnumerator AnimationCoroutine(BloomFogEnvironmentParams envFogParams, System.Single duration)
+    // Offset: 0x1E728AC
+    ::System::Collections::IEnumerator* AnimationCoroutine(::GlobalNamespace::BloomFogEnvironmentParams* envFogParams, float duration);
+    // public System.Void SetBloomFogParamsChange(BloomFogEnvironmentParams envFogParams, System.Single transition)
+    // Offset: 0x1E72964
+    void SetBloomFogParamsChange(::GlobalNamespace::BloomFogEnvironmentParams* envFogParams, float transition);
+    // public BloomFogEnvironmentParams GetDefaultBloomFogParams()
+    // Offset: 0x1E729B0
+    ::GlobalNamespace::BloomFogEnvironmentParams* GetDefaultBloomFogParams();
+    // public System.Void SetDefaultBloomFogParams(BloomFogEnvironmentParams newDefaultBloomFogParams)
+    // Offset: 0x1E729CC
+    void SetDefaultBloomFogParams(::GlobalNamespace::BloomFogEnvironmentParams* newDefaultBloomFogParams);
   }; // BloomFogParamsAnimator
   #pragma pack(pop)
   static check_size<sizeof(BloomFogParamsAnimator), 24 + sizeof(::GlobalNamespace::BloomFogSO*)> __GlobalNamespace_BloomFogParamsAnimatorSizeCheck;
   static_assert(sizeof(BloomFogParamsAnimator) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogParamsAnimator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogParamsAnimator::AnimateBloomFogParamsChange
 // Il2CppName: AnimateBloomFogParamsChange
 template<>
@@ -146,7 +136,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogParamsAnimator*), "SetDefaultBloomFogParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newDefaultBloomFogParams});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BloomFogParamsAnimator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

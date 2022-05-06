@@ -53,15 +53,7 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_UpdateManager : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.List`1<TMPro.TMP_Text> m_LayoutRebuildQueue
     // Size: 0x8
     // Offset: 0x10
@@ -104,71 +96,69 @@ namespace TMPro {
     // Set static field: static private TMPro.TMP_UpdateManager s_Instance
     static void _set_s_Instance(::TMPro::TMP_UpdateManager* value);
     // Get instance field reference: private readonly System.Collections.Generic.List`1<TMPro.TMP_Text> m_LayoutRebuildQueue
-    ::System::Collections::Generic::List_1<::TMPro::TMP_Text*>*& dyn_m_LayoutRebuildQueue();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::TMPro::TMP_Text*>*& dyn_m_LayoutRebuildQueue();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_LayoutQueueLookup
-    ::System::Collections::Generic::Dictionary_2<int, int>*& dyn_m_LayoutQueueLookup();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, int>*& dyn_m_LayoutQueueLookup();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<TMPro.TMP_Text> m_GraphicRebuildQueue
-    ::System::Collections::Generic::List_1<::TMPro::TMP_Text*>*& dyn_m_GraphicRebuildQueue();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::TMPro::TMP_Text*>*& dyn_m_GraphicRebuildQueue();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_GraphicQueueLookup
-    ::System::Collections::Generic::Dictionary_2<int, int>*& dyn_m_GraphicQueueLookup();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, int>*& dyn_m_GraphicQueueLookup();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<TMPro.TMP_Text> m_InternalUpdateQueue
-    ::System::Collections::Generic::List_1<::TMPro::TMP_Text*>*& dyn_m_InternalUpdateQueue();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::TMPro::TMP_Text*>*& dyn_m_InternalUpdateQueue();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_InternalUpdateLookup
-    ::System::Collections::Generic::Dictionary_2<int, int>*& dyn_m_InternalUpdateLookup();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, int>*& dyn_m_InternalUpdateLookup();
     // static public TMPro.TMP_UpdateManager get_instance()
-    // Offset: 0x18C8DB4
+    // Offset: 0x19026C4
     static ::TMPro::TMP_UpdateManager* get_instance();
-    // static System.Void RegisterTextObjectForUpdate(TMPro.TMP_Text textObject)
-    // Offset: 0x18C900C
-    static void RegisterTextObjectForUpdate(::TMPro::TMP_Text* textObject);
-    // private System.Void InternalRegisterTextObjectForUpdate(TMPro.TMP_Text textObject)
-    // Offset: 0x18C9038
-    void InternalRegisterTextObjectForUpdate(::TMPro::TMP_Text* textObject);
-    // static public System.Void RegisterTextElementForLayoutRebuild(TMPro.TMP_Text element)
-    // Offset: 0x18C9108
-    static void RegisterTextElementForLayoutRebuild(::TMPro::TMP_Text* element);
-    // private System.Boolean InternalRegisterTextElementForLayoutRebuild(TMPro.TMP_Text element)
-    // Offset: 0x18C9134
-    bool InternalRegisterTextElementForLayoutRebuild(::TMPro::TMP_Text* element);
-    // static public System.Void RegisterTextElementForGraphicRebuild(TMPro.TMP_Text element)
-    // Offset: 0x18C9204
-    static void RegisterTextElementForGraphicRebuild(::TMPro::TMP_Text* element);
-    // private System.Boolean InternalRegisterTextElementForGraphicRebuild(TMPro.TMP_Text element)
-    // Offset: 0x18C9230
-    bool InternalRegisterTextElementForGraphicRebuild(::TMPro::TMP_Text* element);
-    // private System.Void OnBeginFrameRendering(UnityEngine.Rendering.ScriptableRenderContext renderContext, UnityEngine.Camera[] cameras)
-    // Offset: 0x18C9300
-    void OnBeginFrameRendering(::UnityEngine::Rendering::ScriptableRenderContext renderContext, ::ArrayW<::UnityEngine::Camera*> cameras);
-    // private System.Void OnCameraPreCull(UnityEngine.Camera cam)
-    // Offset: 0x18C94D4
-    void OnCameraPreCull(::UnityEngine::Camera* cam);
-    // private System.Void DoRebuilds()
-    // Offset: 0x18C9304
-    void DoRebuilds();
-    // static System.Void UnRegisterTextObjectForUpdate(TMPro.TMP_Text textObject)
-    // Offset: 0x18C94D8
-    static void UnRegisterTextObjectForUpdate(::TMPro::TMP_Text* textObject);
-    // static public System.Void UnRegisterTextElementForRebuild(TMPro.TMP_Text element)
-    // Offset: 0x18C95A4
-    static void UnRegisterTextElementForRebuild(::TMPro::TMP_Text* element);
-    // private System.Void InternalUnRegisterTextElementForGraphicRebuild(TMPro.TMP_Text element)
-    // Offset: 0x18C95F0
-    void InternalUnRegisterTextElementForGraphicRebuild(::TMPro::TMP_Text* element);
-    // private System.Void InternalUnRegisterTextElementForLayoutRebuild(TMPro.TMP_Text element)
-    // Offset: 0x18C9690
-    void InternalUnRegisterTextElementForLayoutRebuild(::TMPro::TMP_Text* element);
-    // private System.Void InternalUnRegisterTextObjectForUpdate(TMPro.TMP_Text textObject)
-    // Offset: 0x18C9504
-    void InternalUnRegisterTextObjectForUpdate(::TMPro::TMP_Text* textObject);
     // protected System.Void .ctor()
-    // Offset: 0x18C8E30
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1902740
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_UpdateManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_UpdateManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_UpdateManager*, creationType>()));
     }
+    // static System.Void RegisterTextObjectForUpdate(TMPro.TMP_Text textObject)
+    // Offset: 0x190291C
+    static void RegisterTextObjectForUpdate(::TMPro::TMP_Text* textObject);
+    // private System.Void InternalRegisterTextObjectForUpdate(TMPro.TMP_Text textObject)
+    // Offset: 0x1902948
+    void InternalRegisterTextObjectForUpdate(::TMPro::TMP_Text* textObject);
+    // static public System.Void RegisterTextElementForLayoutRebuild(TMPro.TMP_Text element)
+    // Offset: 0x1902A18
+    static void RegisterTextElementForLayoutRebuild(::TMPro::TMP_Text* element);
+    // private System.Boolean InternalRegisterTextElementForLayoutRebuild(TMPro.TMP_Text element)
+    // Offset: 0x1902A44
+    bool InternalRegisterTextElementForLayoutRebuild(::TMPro::TMP_Text* element);
+    // static public System.Void RegisterTextElementForGraphicRebuild(TMPro.TMP_Text element)
+    // Offset: 0x1902B14
+    static void RegisterTextElementForGraphicRebuild(::TMPro::TMP_Text* element);
+    // private System.Boolean InternalRegisterTextElementForGraphicRebuild(TMPro.TMP_Text element)
+    // Offset: 0x1902B40
+    bool InternalRegisterTextElementForGraphicRebuild(::TMPro::TMP_Text* element);
+    // private System.Void OnBeginFrameRendering(UnityEngine.Rendering.ScriptableRenderContext renderContext, UnityEngine.Camera[] cameras)
+    // Offset: 0x1902C10
+    void OnBeginFrameRendering(::UnityEngine::Rendering::ScriptableRenderContext renderContext, ::ArrayW<::UnityEngine::Camera*> cameras);
+    // private System.Void OnCameraPreCull(UnityEngine.Camera cam)
+    // Offset: 0x1902DE4
+    void OnCameraPreCull(::UnityEngine::Camera* cam);
+    // private System.Void DoRebuilds()
+    // Offset: 0x1902C14
+    void DoRebuilds();
+    // static System.Void UnRegisterTextObjectForUpdate(TMPro.TMP_Text textObject)
+    // Offset: 0x1902DE8
+    static void UnRegisterTextObjectForUpdate(::TMPro::TMP_Text* textObject);
+    // static public System.Void UnRegisterTextElementForRebuild(TMPro.TMP_Text element)
+    // Offset: 0x1902EB4
+    static void UnRegisterTextElementForRebuild(::TMPro::TMP_Text* element);
+    // private System.Void InternalUnRegisterTextElementForGraphicRebuild(TMPro.TMP_Text element)
+    // Offset: 0x1902F00
+    void InternalUnRegisterTextElementForGraphicRebuild(::TMPro::TMP_Text* element);
+    // private System.Void InternalUnRegisterTextElementForLayoutRebuild(TMPro.TMP_Text element)
+    // Offset: 0x1902FA0
+    void InternalUnRegisterTextElementForLayoutRebuild(::TMPro::TMP_Text* element);
+    // private System.Void InternalUnRegisterTextObjectForUpdate(TMPro.TMP_Text textObject)
+    // Offset: 0x1902E14
+    void InternalUnRegisterTextObjectForUpdate(::TMPro::TMP_Text* textObject);
   }; // TMPro.TMP_UpdateManager
   #pragma pack(pop)
   static check_size<sizeof(TMP_UpdateManager), 56 + sizeof(::System::Collections::Generic::Dictionary_2<int, int>*)> __TMPro_TMP_UpdateManagerSizeCheck;
@@ -183,6 +173,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TM
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: TMPro::TMP_UpdateManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: TMPro::TMP_UpdateManager::RegisterTextObjectForUpdate
 // Il2CppName: RegisterTextObjectForUpdate
 template<>
@@ -309,7 +303,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "InternalUnRegisterTextObjectForUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{textObject});
   }
 };
-// Writing MetadataGetter for method: TMPro::TMP_UpdateManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -40,16 +40,8 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScriptableObjectInstallerBase : public ::UnityEngine::ScriptableObject/*, public ::Zenject::IInstaller*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x121FC70
+    // [InjectAttribute] Offset: 0x10A4688
     // private Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x18
@@ -64,36 +56,32 @@ namespace Zenject {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Zenject.DiContainer _container
-    ::Zenject::DiContainer*& dyn__container();
+    [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn__container();
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0x1CDD1A4
+    // Offset: 0x1D186FC
     ::Zenject::DiContainer* get_Container();
     // private System.Boolean Zenject.IInstaller.get_IsEnabled()
-    // Offset: 0x1CDD1AC
+    // Offset: 0x1D18704
     bool Zenject_IInstaller_get_IsEnabled();
-    // public System.Void InstallBindings()
-    // Offset: 0x1CDD1B4
-    void InstallBindings();
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1CDD214
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private System.Void __zenFieldSetter0(System.Object P_0, System.Object P_1)
-    // Offset: 0x1CDD270
-    static void __zenFieldSetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CDD344
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1CDCFE0
-    // Implemented from: UnityEngine.ScriptableObject
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1D18538
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScriptableObjectInstallerBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ScriptableObjectInstallerBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScriptableObjectInstallerBase*, creationType>()));
     }
+    // public System.Void InstallBindings()
+    // Offset: 0x1D1870C
+    void InstallBindings();
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1D1876C
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private System.Void __zenFieldSetter0(System.Object P_0, System.Object P_1)
+    // Offset: 0x1D187C8
+    static void __zenFieldSetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1D1889C
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.ScriptableObjectInstallerBase
   #pragma pack(pop)
   static check_size<sizeof(ScriptableObjectInstallerBase), 24 + sizeof(::Zenject::DiContainer*)> __Zenject_ScriptableObjectInstallerBaseSizeCheck;
@@ -116,6 +104,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
     return ::il2cpp_utils::FindMethod(classof(Zenject::ScriptableObjectInstallerBase*), "Zenject.IInstaller.get_IsEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Zenject::ScriptableObjectInstallerBase::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::ScriptableObjectInstallerBase::InstallBindings
 // Il2CppName: InstallBindings
 template<>
@@ -151,7 +143,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::ScriptableObjectInstallerBase*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::ScriptableObjectInstallerBase::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

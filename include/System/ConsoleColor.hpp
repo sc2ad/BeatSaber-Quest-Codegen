@@ -138,7 +138,7 @@ namespace System {
     // Set static field: static public System.ConsoleColor White
     static void _set_White(::System::ConsoleColor value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.ConsoleColor
   #pragma pack(pop)
   static check_size<sizeof(ConsoleColor), 0 + sizeof(int)> __System_ConsoleColorSizeCheck;

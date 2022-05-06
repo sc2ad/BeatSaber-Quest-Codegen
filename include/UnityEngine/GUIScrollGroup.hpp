@@ -35,15 +35,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class GUIScrollGroup : public ::UnityEngine::GUILayoutGroup {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single calcMinWidth
     // Size: 0x4
     // Offset: 0x90
@@ -120,56 +112,55 @@ namespace UnityEngine {
     static_assert(sizeof(::UnityEngine::GUIStyle*) == 0x8);
     public:
     // Get instance field reference: public System.Single calcMinWidth
-    float& dyn_calcMinWidth();
+    [[deprecated("Use field access instead!")]] float& dyn_calcMinWidth();
     // Get instance field reference: public System.Single calcMaxWidth
-    float& dyn_calcMaxWidth();
+    [[deprecated("Use field access instead!")]] float& dyn_calcMaxWidth();
     // Get instance field reference: public System.Single calcMinHeight
-    float& dyn_calcMinHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_calcMinHeight();
     // Get instance field reference: public System.Single calcMaxHeight
-    float& dyn_calcMaxHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_calcMaxHeight();
     // Get instance field reference: public System.Single clientWidth
-    float& dyn_clientWidth();
+    [[deprecated("Use field access instead!")]] float& dyn_clientWidth();
     // Get instance field reference: public System.Single clientHeight
-    float& dyn_clientHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_clientHeight();
     // Get instance field reference: public System.Boolean allowHorizontalScroll
-    bool& dyn_allowHorizontalScroll();
+    [[deprecated("Use field access instead!")]] bool& dyn_allowHorizontalScroll();
     // Get instance field reference: public System.Boolean allowVerticalScroll
-    bool& dyn_allowVerticalScroll();
+    [[deprecated("Use field access instead!")]] bool& dyn_allowVerticalScroll();
     // Get instance field reference: public System.Boolean needsHorizontalScrollbar
-    bool& dyn_needsHorizontalScrollbar();
+    [[deprecated("Use field access instead!")]] bool& dyn_needsHorizontalScrollbar();
     // Get instance field reference: public System.Boolean needsVerticalScrollbar
-    bool& dyn_needsVerticalScrollbar();
+    [[deprecated("Use field access instead!")]] bool& dyn_needsVerticalScrollbar();
     // Get instance field reference: public UnityEngine.GUIStyle horizontalScrollbar
-    ::UnityEngine::GUIStyle*& dyn_horizontalScrollbar();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GUIStyle*& dyn_horizontalScrollbar();
     // Get instance field reference: public UnityEngine.GUIStyle verticalScrollbar
-    ::UnityEngine::GUIStyle*& dyn_verticalScrollbar();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GUIStyle*& dyn_verticalScrollbar();
     // public System.Void .ctor()
-    // Offset: 0x1FB1CBC
+    // Offset: 0x1FFC530
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUIScrollGroup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::GUIScrollGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUIScrollGroup*, creationType>()));
     }
     // public override System.Void CalcWidth()
-    // Offset: 0x1FB1CC8
+    // Offset: 0x1FFC53C
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::CalcWidth()
     void CalcWidth();
     // public override System.Void SetHorizontal(System.Single x, System.Single width)
-    // Offset: 0x1FB1D58
+    // Offset: 0x1FFC5CC
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::SetHorizontal(System.Single x, System.Single width)
     void SetHorizontal(float x, float width);
     // public override System.Void CalcHeight()
-    // Offset: 0x1FB1E88
+    // Offset: 0x1FFC6FC
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::CalcHeight()
     void CalcHeight();
     // public override System.Void SetVertical(System.Single y, System.Single height)
-    // Offset: 0x1FB1F90
+    // Offset: 0x1FFC804
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::SetVertical(System.Single y, System.Single height)
     void SetVertical(float y, float height);

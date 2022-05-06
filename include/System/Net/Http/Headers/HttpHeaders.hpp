@@ -71,15 +71,7 @@ namespace System::Net::Http::Headers {
     class HeaderBucket;
     // Nested type: ::System::Net::Http::Headers::HttpHeaders::$GetEnumerator$d__19
     class $GetEnumerator$d__19;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.Dictionary`2<System.String,System.Net.Http.Headers.HttpHeaders/System.Net.Http.Headers.HeaderBucket> headers
     // Size: 0x8
     // Offset: 0x10
@@ -110,46 +102,53 @@ namespace System::Net::Http::Headers {
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.String,System.Net.Http.Headers.HeaderInfo> known_headers
     static void _set_known_headers(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::Http::Headers::HeaderInfo*>* value);
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Net.Http.Headers.HttpHeaders/System.Net.Http.Headers.HeaderBucket> headers
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::Http::Headers::HttpHeaders::HeaderBucket*>*& dyn_headers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::Http::Headers::HttpHeaders::HeaderBucket*>*& dyn_headers();
     // Get instance field reference: private readonly System.Net.Http.Headers.HttpHeaderKind HeaderKind
-    ::System::Net::Http::Headers::HttpHeaderKind& dyn_HeaderKind();
+    [[deprecated("Use field access instead!")]] ::System::Net::Http::Headers::HttpHeaderKind& dyn_HeaderKind();
     // Get instance field reference: System.Nullable`1<System.Boolean> connectionclose
-    ::System::Nullable_1<bool>& dyn_connectionclose();
+    [[deprecated("Use field access instead!")]] ::System::Nullable_1<bool>& dyn_connectionclose();
     // Get instance field reference: System.Nullable`1<System.Boolean> transferEncodingChunked
-    ::System::Nullable_1<bool>& dyn_transferEncodingChunked();
+    [[deprecated("Use field access instead!")]] ::System::Nullable_1<bool>& dyn_transferEncodingChunked();
     // static private System.Void .cctor()
-    // Offset: 0x1957A30
+    // Offset: 0x1990018
     static void _cctor();
+    // protected System.Void .ctor()
+    // Offset: 0x1991A84
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static HttpHeaders* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::HttpHeaders::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<HttpHeaders*, creationType>()));
+    }
     // System.Void .ctor(System.Net.Http.Headers.HttpHeaderKind headerKind)
-    // Offset: 0x1957830
+    // Offset: 0x198FE18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpHeaders* New_ctor(::System::Net::Http::Headers::HttpHeaderKind headerKind) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::HttpHeaders::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpHeaders*, creationType>(headerKind)));
     }
     // private System.Boolean AddInternal(System.String name, System.Collections.Generic.IEnumerable`1<System.String> values, System.Net.Http.Headers.HeaderInfo headerInfo, System.Boolean ignoreInvalid)
-    // Offset: 0x1959584
+    // Offset: 0x1991B6C
     bool AddInternal(::StringW name, ::System::Collections::Generic::IEnumerable_1<::StringW>* values, ::System::Net::Http::Headers::HeaderInfo* headerInfo, bool ignoreInvalid);
     // public System.Boolean TryAddWithoutValidation(System.String name, System.Collections.Generic.IEnumerable`1<System.String> values)
-    // Offset: 0x1959B28
+    // Offset: 0x1992110
     bool TryAddWithoutValidation(::StringW name, ::System::Collections::Generic::IEnumerable_1<::StringW>* values);
     // private System.Net.Http.Headers.HeaderInfo CheckName(System.String name)
-    // Offset: 0x1959CE8
+    // Offset: 0x19922D0
     ::System::Net::Http::Headers::HeaderInfo* CheckName(::StringW name);
     // private System.Boolean TryCheckName(System.String name, out System.Net.Http.Headers.HeaderInfo headerInfo)
-    // Offset: 0x1959C00
+    // Offset: 0x19921E8
     bool TryCheckName(::StringW name, ByRef<::System::Net::Http::Headers::HeaderInfo*> headerInfo);
     // public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IEnumerable`1<System.String>>> GetEnumerator()
-    // Offset: 0x1959FB0
+    // Offset: 0x1992598
     ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*>>* GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x195A04C
+    // Offset: 0x1992634
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Boolean Remove(System.String name)
-    // Offset: 0x195A050
+    // Offset: 0x1992638
     bool Remove(::StringW name);
     // static System.String GetSingleHeaderString(System.String key, System.Collections.Generic.IEnumerable`1<System.String> values)
-    // Offset: 0x195A0C4
+    // Offset: 0x19926AC
     static ::StringW GetSingleHeaderString(::StringW key, ::System::Collections::Generic::IEnumerable_1<::StringW>* values);
     // System.Void AddOrRemove(System.String name, T value, System.Func`2<System.Object,System.String> converter)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -161,10 +160,10 @@ namespace System::Net::Http::Headers {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, name, value, converter);
     }
     // private System.Collections.Generic.List`1<System.String> GetAllHeaderValues(System.Net.Http.Headers.HttpHeaders/System.Net.Http.Headers.HeaderBucket bucket, System.Net.Http.Headers.HeaderInfo headerInfo)
-    // Offset: 0x195A738
+    // Offset: 0x1992D20
     ::System::Collections::Generic::List_1<::StringW>* GetAllHeaderValues(::System::Net::Http::Headers::HttpHeaders::HeaderBucket* bucket, ::System::Net::Http::Headers::HeaderInfo* headerInfo);
     // static System.Net.Http.Headers.HttpHeaderKind GetKnownHeaderKind(System.String name)
-    // Offset: 0x195A998
+    // Offset: 0x1992F80
     static ::System::Net::Http::Headers::HttpHeaderKind GetKnownHeaderKind(::StringW name);
     // T GetValue(System.String name)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -193,17 +192,8 @@ namespace System::Net::Http::Headers {
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, name, value, toStringConverter);
     }
-    // protected System.Void .ctor()
-    // Offset: 0x195949C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HttpHeaders* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::HttpHeaders::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<HttpHeaders*, creationType>()));
-    }
     // public override System.String ToString()
-    // Offset: 0x195A470
+    // Offset: 0x1992A58
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -219,6 +209,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpHeaders*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -330,10 +324,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::N
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::SetValue
 // Il2CppName: SetValue
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::ToString
 // Il2CppName: ToString
 template<>

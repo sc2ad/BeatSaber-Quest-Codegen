@@ -37,15 +37,7 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class SequencedChannel : public ::LiteNetLib::BaseChannel {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _localSequence
     // Size: 0x4
     // Offset: 0x28
@@ -100,35 +92,35 @@ namespace LiteNetLib {
     static_assert(sizeof(int64_t) == 0x8);
     public:
     // Get instance field reference: private System.Int32 _localSequence
-    int& dyn__localSequence();
+    [[deprecated("Use field access instead!")]] int& dyn__localSequence();
     // Get instance field reference: private System.UInt16 _remoteSequence
-    uint16_t& dyn__remoteSequence();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn__remoteSequence();
     // Get instance field reference: private readonly System.Boolean _reliable
-    bool& dyn__reliable();
+    [[deprecated("Use field access instead!")]] bool& dyn__reliable();
     // Get instance field reference: private LiteNetLib.NetPacket _lastPacket
-    ::LiteNetLib::NetPacket*& dyn__lastPacket();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetPacket*& dyn__lastPacket();
     // Get instance field reference: private readonly LiteNetLib.NetPacket _ackPacket
-    ::LiteNetLib::NetPacket*& dyn__ackPacket();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetPacket*& dyn__ackPacket();
     // Get instance field reference: private System.Boolean _mustSendAck
-    bool& dyn__mustSendAck();
+    [[deprecated("Use field access instead!")]] bool& dyn__mustSendAck();
     // Get instance field reference: private readonly System.Byte _id
-    uint8_t& dyn__id();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn__id();
     // Get instance field reference: private System.Int64 _lastPacketSendTime
-    int64_t& dyn__lastPacketSendTime();
+    [[deprecated("Use field access instead!")]] int64_t& dyn__lastPacketSendTime();
     // public System.Void .ctor(LiteNetLib.NetPeer peer, System.Boolean reliable, System.Byte id)
-    // Offset: 0x216BF40
+    // Offset: 0x21B77B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SequencedChannel* New_ctor(::LiteNetLib::NetPeer* peer, bool reliable, uint8_t id) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::SequencedChannel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SequencedChannel*, creationType>(peer, reliable, id)));
     }
     // public override System.Void SendNextPackets()
-    // Offset: 0x2170290
+    // Offset: 0x21BBB04
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Void BaseChannel::SendNextPackets()
     void SendNextPackets();
     // public override System.Boolean ProcessPacket(LiteNetLib.NetPacket packet)
-    // Offset: 0x2170570
+    // Offset: 0x21BBDE4
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Boolean BaseChannel::ProcessPacket(LiteNetLib.NetPacket packet)
     bool ProcessPacket(::LiteNetLib::NetPacket* packet);

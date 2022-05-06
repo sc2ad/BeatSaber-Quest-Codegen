@@ -26,15 +26,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoListItem : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.MonoListItem next
     // Size: 0x8
     // Offset: 0x10
@@ -49,11 +41,11 @@ namespace System {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: private System.MonoListItem next
-    ::System::MonoListItem*& dyn_next();
+    [[deprecated("Use field access instead!")]] ::System::MonoListItem*& dyn_next();
     // Get instance field reference: private System.Object data
-    ::Il2CppObject*& dyn_data();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_data();
     // public System.Void .ctor()
-    // Offset: 0x1B99070
+    // Offset: 0x1BD3658
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

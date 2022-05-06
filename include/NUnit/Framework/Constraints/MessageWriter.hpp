@@ -48,8 +48,15 @@ namespace NUnit::Framework::Constraints {
     // public System.Int32 get_MaxLineLength()
     // Offset: 0xFFFFFFFFFFFFFFFF
     int get_MaxLineLength();
+    // protected System.Void .ctor()
+    // Offset: 0x1C9766C
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static MessageWriter* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Constraints::MessageWriter::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<MessageWriter*, creationType>()));
+    }
     // public System.Void WriteMessageLine(System.String message, params System.Object[] args)
-    // Offset: 0x1C3DF40
+    // Offset: 0x1C964D8
     void WriteMessageLine(::StringW message, ::ArrayW<::Il2CppObject*> args);
     // public System.Void WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -75,18 +82,6 @@ namespace NUnit::Framework::Constraints {
     // public System.Void WriteCollectionElements(System.Collections.IEnumerable collection, System.Int64 start, System.Int32 max)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void WriteCollectionElements(::System::Collections::IEnumerable* collection, int64_t start, int max);
-    // protected System.Void .ctor()
-    // Offset: 0x1C3F0D4
-    // Implemented from: System.IO.StringWriter
-    // Base method: System.Void StringWriter::.ctor()
-    // Base method: System.Void TextWriter::.ctor()
-    // Base method: System.Void MarshalByRefObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MessageWriter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Constraints::MessageWriter::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<MessageWriter*, creationType>()));
-    }
   }; // NUnit.Framework.Constraints.MessageWriter
   #pragma pack(pop)
 }
@@ -99,6 +94,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NUnit:
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MessageWriter*), "get_MaxLineLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::MessageWriter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MessageWriter::WriteMessageLine
 // Il2CppName: WriteMessageLine
 template<>
@@ -192,7 +191,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MessageWriter*), "WriteCollectionElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{collection, start, max});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Constraints::MessageWriter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

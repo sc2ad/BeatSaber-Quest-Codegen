@@ -32,15 +32,7 @@ namespace BGNet::Core::Messages {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseServerUnconnectedMessageHandler::GetPreMasterSecretComputeOperation : public ::GlobalNamespace::AsyncComputeOperation_1<::ArrayW<uint8_t>> {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly IDiffieHellmanKeyPair _serverKey
     // Size: 0x8
     // Offset: 0x28
@@ -57,18 +49,18 @@ namespace BGNet::Core::Messages {
     // Deleting conversion operator: operator ::System::Threading::Tasks::TaskCompletionSource_1<T>*
     // Cannot delete conversion operator because it seems to have a generic type in the definition! This may not be defined!
     // Get instance field reference: private readonly IDiffieHellmanKeyPair _serverKey
-    ::GlobalNamespace::IDiffieHellmanKeyPair*& dyn__serverKey();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IDiffieHellmanKeyPair*& dyn__serverKey();
     // Get instance field reference: private readonly System.Byte[] _clientKey
-    ::ArrayW<uint8_t>& dyn__clientKey();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__clientKey();
     // public System.Void .ctor(IDiffieHellmanKeyPair serverKey, System.Byte[] clientKey)
-    // Offset: 0x14FBFE8
+    // Offset: 0x15338F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseServerUnconnectedMessageHandler::GetPreMasterSecretComputeOperation* New_ctor(::GlobalNamespace::IDiffieHellmanKeyPair* serverKey, ::ArrayW<uint8_t> clientKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::BaseServerUnconnectedMessageHandler::GetPreMasterSecretComputeOperation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseServerUnconnectedMessageHandler::GetPreMasterSecretComputeOperation*, creationType>(serverKey, clientKey)));
     }
     // protected System.Byte[] Compute()
-    // Offset: 0x14FD9DC
+    // Offset: 0x15352E4
     ::ArrayW<uint8_t> Compute();
   }; // BGNet.Core.Messages.BaseServerUnconnectedMessageHandler/BGNet.Core.Messages.GetPreMasterSecretComputeOperation
   // WARNING Not writing size check since size may be invalid!

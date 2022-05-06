@@ -28,6 +28,13 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SerializationHelpers : public ::Il2CppObject {
     public:
+    // public System.Void .ctor()
+    // Offset: 0x2A2870C
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static SerializationHelpers* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SerializationHelpers::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<SerializationHelpers*, creationType>()));
+    }
     // static public T DeserializeData(System.Byte[] data)
     // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
@@ -82,19 +89,14 @@ namespace GlobalNamespace {
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, filePath, serializableObject);
     }
-    // public System.Void .ctor()
-    // Offset: 0x29D61FC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SerializationHelpers* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SerializationHelpers::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<SerializationHelpers*, creationType>()));
-    }
   }; // SerializationHelpers
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SerializationHelpers::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SerializationHelpers::DeserializeData
 // Il2CppName: DeserializeData
 // Cannot write MetadataGetter for generic methods!
@@ -113,7 +115,3 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::SerializationHelpers::SerializeObjectToFile
 // Il2CppName: SerializeObjectToFile
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: GlobalNamespace::SerializationHelpers::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

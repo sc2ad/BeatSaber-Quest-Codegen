@@ -92,6 +92,13 @@ namespace ModestTree {
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LinqExtensions::$$c__8_1<T>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
+    // public System.Void .ctor()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static LinqExtensions::$$c__8_1<T>* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::LinqExtensions::$$c__8_1::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<LinqExtensions::$$c__8_1<T>*, creationType>()));
+    }
     // T <GetDuplicates>b__8_0(T x)
     // Offset: 0xFFFFFFFFFFFFFFFF
     T $GetDuplicates$b__8_0(T x) {
@@ -112,15 +119,6 @@ namespace ModestTree {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::LinqExtensions::$$c__8_1::<GetDuplicates>b__8_2");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<GetDuplicates>b__8_2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method, x);
-    }
-    // public System.Void .ctor()
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LinqExtensions::$$c__8_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::LinqExtensions::$$c__8_1::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<LinqExtensions::$$c__8_1<T>*, creationType>()));
     }
   }; // ModestTree.LinqExtensions/ModestTree.<>c__8`1
   // Could not write size check! Type: ModestTree.LinqExtensions/ModestTree.<>c__8`1 is generic, or has no fields that are valid for size checks!

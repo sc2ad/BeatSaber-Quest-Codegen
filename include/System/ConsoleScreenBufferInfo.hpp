@@ -67,15 +67,15 @@ namespace System {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Coord Size
-    ::System::Coord& dyn_Size();
+    [[deprecated("Use field access instead!")]] ::System::Coord& dyn_Size();
     // Get instance field reference: public System.Coord CursorPosition
-    ::System::Coord& dyn_CursorPosition();
+    [[deprecated("Use field access instead!")]] ::System::Coord& dyn_CursorPosition();
     // Get instance field reference: public System.Int16 Attribute
-    int16_t& dyn_Attribute();
+    [[deprecated("Use field access instead!")]] int16_t& dyn_Attribute();
     // Get instance field reference: public System.SmallRect Window
-    ::System::SmallRect& dyn_Window();
+    [[deprecated("Use field access instead!")]] ::System::SmallRect& dyn_Window();
     // Get instance field reference: public System.Coord MaxWindowSize
-    ::System::Coord& dyn_MaxWindowSize();
+    [[deprecated("Use field access instead!")]] ::System::Coord& dyn_MaxWindowSize();
   }; // System.ConsoleScreenBufferInfo
   #pragma pack(pop)
   static check_size<sizeof(ConsoleScreenBufferInfo), 18 + sizeof(::System::Coord)> __System_ConsoleScreenBufferInfoSizeCheck;

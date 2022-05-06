@@ -72,7 +72,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HAPI_CurveOrders HAPI_CURVE_ORDER_CUBIC
     static void _set_HAPI_CURVE_ORDER_CUBIC(::HoudiniEngineUnity::HAPI_CurveOrders value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HAPI_CurveOrders
   #pragma pack(pop)
   static check_size<sizeof(HAPI_CurveOrders), 0 + sizeof(int)> __HoudiniEngineUnity_HAPI_CurveOrdersSizeCheck;

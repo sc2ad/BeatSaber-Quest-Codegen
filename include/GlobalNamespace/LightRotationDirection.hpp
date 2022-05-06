@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Set static field: static public LightRotationDirection Counterclockwise
     static void _set_Counterclockwise(::GlobalNamespace::LightRotationDirection value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // LightRotationDirection
   #pragma pack(pop)
   static check_size<sizeof(LightRotationDirection), 0 + sizeof(int)> __GlobalNamespace_LightRotationDirectionSizeCheck;

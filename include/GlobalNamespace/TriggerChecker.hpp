@@ -40,15 +40,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TriggerChecker : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Action TriggerCheckerOnEnterEvent
     // Size: 0x8
     // Offset: 0x18
@@ -71,39 +63,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Action TriggerCheckerOnEnterEvent
-    ::System::Action*& dyn_TriggerCheckerOnEnterEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_TriggerCheckerOnEnterEvent();
     // Get instance field reference: public System.Action TriggerCheckerOnExitEvent
-    ::System::Action*& dyn_TriggerCheckerOnExitEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_TriggerCheckerOnExitEvent();
     // Get instance field reference: public System.Action TriggerCheckerOnStayEvent
-    ::System::Action*& dyn_TriggerCheckerOnStayEvent();
-    // private System.Void OnTriggerEnter(UnityEngine.Collider other)
-    // Offset: 0x29D90A4
-    void OnTriggerEnter(::UnityEngine::Collider* other);
-    // private System.Void OnTriggerExit(UnityEngine.Collider other)
-    // Offset: 0x29D90B8
-    void OnTriggerExit(::UnityEngine::Collider* other);
-    // private System.Void OnTriggerStay(UnityEngine.Collider other)
-    // Offset: 0x29D90CC
-    void OnTriggerStay(::UnityEngine::Collider* other);
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_TriggerCheckerOnStayEvent();
     // public System.Void .ctor()
-    // Offset: 0x29D90E0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A2B5F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TriggerChecker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TriggerChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TriggerChecker*, creationType>()));
     }
+    // private System.Void OnTriggerEnter(UnityEngine.Collider other)
+    // Offset: 0x2A2B5B4
+    void OnTriggerEnter(::UnityEngine::Collider* other);
+    // private System.Void OnTriggerExit(UnityEngine.Collider other)
+    // Offset: 0x2A2B5C8
+    void OnTriggerExit(::UnityEngine::Collider* other);
+    // private System.Void OnTriggerStay(UnityEngine.Collider other)
+    // Offset: 0x2A2B5DC
+    void OnTriggerStay(::UnityEngine::Collider* other);
   }; // TriggerChecker
   #pragma pack(pop)
   static check_size<sizeof(TriggerChecker), 40 + sizeof(::System::Action*)> __GlobalNamespace_TriggerCheckerSizeCheck;
   static_assert(sizeof(TriggerChecker) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::TriggerChecker::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TriggerChecker::OnTriggerEnter
 // Il2CppName: OnTriggerEnter
 template<>
@@ -131,7 +121,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TriggerChecker*), "OnTriggerStay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TriggerChecker::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

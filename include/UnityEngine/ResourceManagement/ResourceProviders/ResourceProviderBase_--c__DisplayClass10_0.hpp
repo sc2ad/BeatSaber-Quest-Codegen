@@ -25,15 +25,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ResourceProviderBase::$$c__DisplayClass10_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -54,29 +46,31 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase <>4__this
-    ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase*& dyn_$$4__this();
     // Get instance field reference: public System.String id
-    ::StringW& dyn_id();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_id();
     // Get instance field reference: public System.String data
-    ::StringW& dyn_data();
-    // System.Boolean <InitializeAsync>b__0()
-    // Offset: 0x1EA016C
-    bool $InitializeAsync$b__0();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_data();
     // public System.Void .ctor()
-    // Offset: 0x1EA010C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1EEE644
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceProviderBase::$$c__DisplayClass10_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceProviderBase::$$c__DisplayClass10_0*, creationType>()));
     }
+    // System.Boolean <InitializeAsync>b__0()
+    // Offset: 0x1EEE6A4
+    bool $InitializeAsync$b__0();
   }; // UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase/UnityEngine.ResourceManagement.ResourceProviders.<>c__DisplayClass10_0
   #pragma pack(pop)
   static check_size<sizeof(ResourceProviderBase::$$c__DisplayClass10_0), 32 + sizeof(::StringW)> __UnityEngine_ResourceManagement_ResourceProviders_ResourceProviderBase_$$c__DisplayClass10_0SizeCheck;
   static_assert(sizeof(ResourceProviderBase::$$c__DisplayClass10_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0::$InitializeAsync$b__0
 // Il2CppName: <InitializeAsync>b__0
 template<>
@@ -85,7 +79,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0*), "<InitializeAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

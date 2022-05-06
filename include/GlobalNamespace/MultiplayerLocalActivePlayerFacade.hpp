@@ -69,15 +69,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::MultiplayerLocalActivePlayerFacade::Factory
     class Factory;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.GameObject[] _activeOnlyGameObjects
     // Size: 0x8
     // Offset: 0x18
@@ -90,42 +82,42 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* outroAnimator;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253E9C
+    // [InjectAttribute] Offset: 0x10D8A80
     // private readonly IStartSeekSongController _songController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::IStartSeekSongController* songController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IStartSeekSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253EAC
+    // [InjectAttribute] Offset: 0x10D8A90
     // private readonly MultiplayerLocalActivePlayerIntroAnimator _introAnimator
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator* introAnimator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253EBC
+    // [InjectAttribute] Offset: 0x10D8AA0
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253ECC
+    // [InjectAttribute] Offset: 0x10D8AB0
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253EDC
+    // [InjectAttribute] Offset: 0x10D8AC0
     // private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PrepareLevelCompletionResults*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253EEC
+    // [InjectAttribute] Offset: 0x10D8AD0
     // private readonly BeatmapCallbacksUpdater _beatmapCallbacksUpdater
     // Size: 0x8
     // Offset: 0x50
@@ -160,83 +152,77 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.GameObject[] _activeOnlyGameObjects
-    ::ArrayW<::UnityEngine::GameObject*>& dyn__activeOnlyGameObjects();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::GameObject*>& dyn__activeOnlyGameObjects();
     // Get instance field reference: private UnityEngine.GameObject _outroAnimator
-    ::UnityEngine::GameObject*& dyn__outroAnimator();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__outroAnimator();
     // Get instance field reference: private readonly IStartSeekSongController _songController
-    ::GlobalNamespace::IStartSeekSongController*& dyn__songController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IStartSeekSongController*& dyn__songController();
     // Get instance field reference: private readonly MultiplayerLocalActivePlayerIntroAnimator _introAnimator
-    ::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator*& dyn__introAnimator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator*& dyn__introAnimator();
     // Get instance field reference: private readonly GameSongController _gameSongController
-    ::GlobalNamespace::GameSongController*& dyn__gameSongController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameSongController*& dyn__gameSongController();
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
-    ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // Get instance field reference: private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
-    ::GlobalNamespace::PrepareLevelCompletionResults*& dyn__prepareLevelCompletionResults();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PrepareLevelCompletionResults*& dyn__prepareLevelCompletionResults();
     // Get instance field reference: private readonly BeatmapCallbacksUpdater _beatmapCallbacksUpdater
-    ::GlobalNamespace::BeatmapCallbacksUpdater*& dyn__beatmapCallbacksUpdater();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksUpdater*& dyn__beatmapCallbacksUpdater();
     // Get instance field reference: private System.Action`1<MultiplayerLevelCompletionResults> playerDidFinishEvent
-    ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*& dyn_playerDidFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*& dyn_playerDidFinishEvent();
     // Get instance field reference: private System.Action`1<MultiplayerLevelCompletionResults> playerNetworkDidFailedEvent
-    ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*& dyn_playerNetworkDidFailedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*& dyn_playerNetworkDidFailedEvent();
     // public MultiplayerLocalActivePlayerIntroAnimator get_introAnimator()
-    // Offset: 0x13FFCA8
+    // Offset: 0x140C748
     ::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator* get_introAnimator();
     // public UnityEngine.GameObject get_outroAnimator()
-    // Offset: 0x13FFCB0
+    // Offset: 0x140C750
     ::UnityEngine::GameObject* get_outroAnimator();
     // public IStartSeekSongController get_songController()
-    // Offset: 0x13FFCB8
+    // Offset: 0x140C758
     ::GlobalNamespace::IStartSeekSongController* get_songController();
     // public LevelCompletionResults get_currentLocalPlayerLevelCompletionResult()
-    // Offset: 0x13EFE90
+    // Offset: 0x13FC930
     ::GlobalNamespace::LevelCompletionResults* get_currentLocalPlayerLevelCompletionResult();
     // public System.Void add_playerDidFinishEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
-    // Offset: 0x13FFCC0
+    // Offset: 0x140C760
     void add_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void remove_playerDidFinishEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
-    // Offset: 0x13FFD64
+    // Offset: 0x140C804
     void remove_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void add_playerNetworkDidFailedEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
-    // Offset: 0x13FFE08
+    // Offset: 0x140C8A8
     void add_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void remove_playerNetworkDidFailedEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
-    // Offset: 0x13FFEAC
+    // Offset: 0x140C94C
     void remove_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
-    // public System.Void ReportPlayerDidFinish(MultiplayerLevelCompletionResults results)
-    // Offset: 0x13FFF50
-    void ReportPlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
-    // public System.Void ReportPlayerNetworkDidFailed(MultiplayerLevelCompletionResults results)
-    // Offset: 0x13FFFC4
-    void ReportPlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
-    // public System.Void DisablePlayer()
-    // Offset: 0x1400038
-    void DisablePlayer();
-    // public System.Void PauseSpawning()
-    // Offset: 0x13F0794
-    void PauseSpawning();
-    // public System.Void ResumeSpawning()
-    // Offset: 0x13EFCD8
-    void ResumeSpawning();
-    // public System.Void __ForceStopSong()
-    // Offset: 0x14000A8
-    void __ForceStopSong();
-    // public UnityEngine.GameObject[] __GetActiveOnlyGameObjects()
-    // Offset: 0x14000E8
-    ::ArrayW<::UnityEngine::GameObject*> __GetActiveOnlyGameObjects();
     // public System.Void .ctor()
-    // Offset: 0x14000F0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x140CB90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalActivePlayerFacade* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalActivePlayerFacade::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActivePlayerFacade*, creationType>()));
     }
+    // public System.Void ReportPlayerDidFinish(MultiplayerLevelCompletionResults results)
+    // Offset: 0x140C9F0
+    void ReportPlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
+    // public System.Void ReportPlayerNetworkDidFailed(MultiplayerLevelCompletionResults results)
+    // Offset: 0x140CA64
+    void ReportPlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
+    // public System.Void DisablePlayer()
+    // Offset: 0x140CAD8
+    void DisablePlayer();
+    // public System.Void PauseSpawning()
+    // Offset: 0x13FD234
+    void PauseSpawning();
+    // public System.Void ResumeSpawning()
+    // Offset: 0x13FC778
+    void ResumeSpawning();
+    // public System.Void __ForceStopSong()
+    // Offset: 0x140CB48
+    void __ForceStopSong();
+    // public UnityEngine.GameObject[] __GetActiveOnlyGameObjects()
+    // Offset: 0x140CB88
+    ::ArrayW<::UnityEngine::GameObject*> __GetActiveOnlyGameObjects();
   }; // MultiplayerLocalActivePlayerFacade
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalActivePlayerFacade), 96 + sizeof(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*)> __GlobalNamespace_MultiplayerLocalActivePlayerFacadeSizeCheck;
@@ -311,6 +297,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActivePlayerFacade*), "remove_playerNetworkDidFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerFacade::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerFacade::ReportPlayerDidFinish
 // Il2CppName: ReportPlayerDidFinish
 template<>
@@ -369,7 +359,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActivePlayerFacade*), "__GetActiveOnlyGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerFacade::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -47,7 +47,7 @@ namespace System::Xml {
     static ::System::Xml::ValidationType _get_None();
     // Set static field: static public System.Xml.ValidationType None
     static void _set_None(::System::Xml::ValidationType value);
-    // [ObsoleteAttribute] Offset: 0x11B5754
+    // [ObsoleteAttribute] Offset: 0x103B16C
     // static field const value: static public System.Xml.ValidationType Auto
     static constexpr const int Auto = 1;
     // Get static field: static public System.Xml.ValidationType Auto
@@ -60,7 +60,7 @@ namespace System::Xml {
     static ::System::Xml::ValidationType _get_DTD();
     // Set static field: static public System.Xml.ValidationType DTD
     static void _set_DTD(::System::Xml::ValidationType value);
-    // [ObsoleteAttribute] Offset: 0x11B578C
+    // [ObsoleteAttribute] Offset: 0x103B1A4
     // static field const value: static public System.Xml.ValidationType XDR
     static constexpr const int XDR = 3;
     // Get static field: static public System.Xml.ValidationType XDR
@@ -74,7 +74,7 @@ namespace System::Xml {
     // Set static field: static public System.Xml.ValidationType Schema
     static void _set_Schema(::System::Xml::ValidationType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Xml.ValidationType
   #pragma pack(pop)
   static check_size<sizeof(ValidationType), 0 + sizeof(int)> __System_Xml_ValidationTypeSizeCheck;

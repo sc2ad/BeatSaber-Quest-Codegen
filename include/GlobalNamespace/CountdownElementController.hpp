@@ -41,15 +41,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CountdownElementController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _text
     // Size: 0x8
     // Offset: 0x18
@@ -66,34 +58,32 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
-    ::TMPro::TextMeshProUGUI*& dyn__text();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__text();
     // Get instance field reference: private UnityEngine.Animation _animation
-    ::UnityEngine::Animation*& dyn__animation();
-    // public System.Void SetTextAndRunAnimation(System.String text)
-    // Offset: 0x1406AB8
-    void SetTextAndRunAnimation(::StringW text);
-    // public System.Void StopAndHide()
-    // Offset: 0x1406C18
-    void StopAndHide();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Animation*& dyn__animation();
     // public System.Void .ctor()
-    // Offset: 0x1406DC0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1426B6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CountdownElementController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CountdownElementController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CountdownElementController*, creationType>()));
     }
+    // public System.Void SetTextAndRunAnimation(System.String text)
+    // Offset: 0x1426864
+    void SetTextAndRunAnimation(::StringW text);
+    // public System.Void StopAndHide()
+    // Offset: 0x14269C4
+    void StopAndHide();
   }; // CountdownElementController
   #pragma pack(pop)
   static check_size<sizeof(CountdownElementController), 32 + sizeof(::UnityEngine::Animation*)> __GlobalNamespace_CountdownElementControllerSizeCheck;
   static_assert(sizeof(CountdownElementController) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::CountdownElementController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CountdownElementController::SetTextAndRunAnimation
 // Il2CppName: SetTextAndRunAnimation
 template<>
@@ -111,7 +101,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CountdownElementController*), "StopAndHide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CountdownElementController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -31,15 +31,7 @@ namespace System::Net::Sockets {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class Socket::$$c__DisplayClass242_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 sent_so_far
     // Size: 0x4
     // Offset: 0x10
@@ -52,25 +44,27 @@ namespace System::Net::Sockets {
       return sent_so_far;
     }
     // Get instance field reference: public System.Int32 sent_so_far
-    int& dyn_sent_so_far();
-    // System.Void <BeginSendCallback>b__0(System.IOAsyncResult s)
-    // Offset: 0x1B12C78
-    void $BeginSendCallback$b__0(::System::IOAsyncResult* s);
+    [[deprecated("Use field access instead!")]] int& dyn_sent_so_far();
     // public System.Void .ctor()
-    // Offset: 0x1B12C70
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B4D258
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Socket::$$c__DisplayClass242_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Sockets::Socket::$$c__DisplayClass242_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Socket::$$c__DisplayClass242_0*, creationType>()));
     }
+    // System.Void <BeginSendCallback>b__0(System.IOAsyncResult s)
+    // Offset: 0x1B4D260
+    void $BeginSendCallback$b__0(::System::IOAsyncResult* s);
   }; // System.Net.Sockets.Socket/System.Net.Sockets.<>c__DisplayClass242_0
   #pragma pack(pop)
   static check_size<sizeof(Socket::$$c__DisplayClass242_0), 16 + sizeof(int)> __System_Net_Sockets_Socket_$$c__DisplayClass242_0SizeCheck;
   static_assert(sizeof(Socket::$$c__DisplayClass242_0) == 0x14);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c__DisplayClass242_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c__DisplayClass242_0::$BeginSendCallback$b__0
 // Il2CppName: <BeginSendCallback>b__0
 template<>
@@ -80,7 +74,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket::$$c__DisplayClass242_0*), "<BeginSendCallback>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
 };
-// Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c__DisplayClass242_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

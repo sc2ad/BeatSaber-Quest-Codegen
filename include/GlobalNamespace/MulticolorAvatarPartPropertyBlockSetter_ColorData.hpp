@@ -25,15 +25,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MulticolorAvatarPartPropertyBlockSetter::ColorData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Color _defaultColor
     // Size: 0x10
     // Offset: 0x10
@@ -54,24 +46,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private UnityEngine.Color _defaultColor
-    ::UnityEngine::Color& dyn__defaultColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__defaultColor();
     // Get instance field reference: private System.Single _darkerColorMultiplier
-    float& dyn__darkerColorMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__darkerColorMultiplier();
     // Get instance field reference: private System.Single _whiteBoost
-    float& dyn__whiteBoost();
+    [[deprecated("Use field access instead!")]] float& dyn__whiteBoost();
     // public UnityEngine.Color get_defaultColor()
-    // Offset: 0x13CB3D0
+    // Offset: 0x13C787C
     ::UnityEngine::Color get_defaultColor();
     // public System.Single get_darkerColorMultiplier()
-    // Offset: 0x13CB3DC
+    // Offset: 0x13C7888
     float get_darkerColorMultiplier();
     // public System.Single get_whiteBoost()
-    // Offset: 0x13CB3E4
+    // Offset: 0x13C7890
     float get_whiteBoost();
     // public System.Void .ctor()
-    // Offset: 0x13CB3EC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13C7898
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MulticolorAvatarPartPropertyBlockSetter::ColorData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData::.ctor");

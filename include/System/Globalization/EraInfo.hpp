@@ -27,15 +27,7 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class EraInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int32 era
     // Size: 0x4
     // Offset: 0x10
@@ -70,21 +62,21 @@ namespace System::Globalization {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: maxEraYear and: eraName
     char __padding4[0x4] = {};
-    // [OptionalFieldAttribute] Offset: 0x11AFC00
+    // [OptionalFieldAttribute] Offset: 0x1035618
     // System.String eraName
     // Size: 0x8
     // Offset: 0x30
     ::StringW eraName;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [OptionalFieldAttribute] Offset: 0x11AFC38
+    // [OptionalFieldAttribute] Offset: 0x1035650
     // System.String abbrevEraName
     // Size: 0x8
     // Offset: 0x38
     ::StringW abbrevEraName;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [OptionalFieldAttribute] Offset: 0x11AFC70
+    // [OptionalFieldAttribute] Offset: 0x1035688
     // System.String englishEraName
     // Size: 0x8
     // Offset: 0x40
@@ -93,30 +85,30 @@ namespace System::Globalization {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: System.Int32 era
-    int& dyn_era();
+    [[deprecated("Use field access instead!")]] int& dyn_era();
     // Get instance field reference: System.Int64 ticks
-    int64_t& dyn_ticks();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_ticks();
     // Get instance field reference: System.Int32 yearOffset
-    int& dyn_yearOffset();
+    [[deprecated("Use field access instead!")]] int& dyn_yearOffset();
     // Get instance field reference: System.Int32 minEraYear
-    int& dyn_minEraYear();
+    [[deprecated("Use field access instead!")]] int& dyn_minEraYear();
     // Get instance field reference: System.Int32 maxEraYear
-    int& dyn_maxEraYear();
+    [[deprecated("Use field access instead!")]] int& dyn_maxEraYear();
     // Get instance field reference: System.String eraName
-    ::StringW& dyn_eraName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_eraName();
     // Get instance field reference: System.String abbrevEraName
-    ::StringW& dyn_abbrevEraName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_abbrevEraName();
     // Get instance field reference: System.String englishEraName
-    ::StringW& dyn_englishEraName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_englishEraName();
     // System.Void .ctor(System.Int32 era, System.Int32 startYear, System.Int32 startMonth, System.Int32 startDay, System.Int32 yearOffset, System.Int32 minEraYear, System.Int32 maxEraYear)
-    // Offset: 0x20F1788
+    // Offset: 0x213BFFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EraInfo* New_ctor(int era, int startYear, int startMonth, int startDay, int yearOffset, int minEraYear, int maxEraYear) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::EraInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EraInfo*, creationType>(era, startYear, startMonth, startDay, yearOffset, minEraYear, maxEraYear)));
     }
     // System.Void .ctor(System.Int32 era, System.Int32 startYear, System.Int32 startMonth, System.Int32 startDay, System.Int32 yearOffset, System.Int32 minEraYear, System.Int32 maxEraYear, System.String eraName, System.String abbrevEraName, System.String englishEraName)
-    // Offset: 0x20F1828
+    // Offset: 0x213C09C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EraInfo* New_ctor(int era, int startYear, int startMonth, int startDay, int yearOffset, int minEraYear, int maxEraYear, ::StringW eraName, ::StringW abbrevEraName, ::StringW englishEraName) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::EraInfo::.ctor");

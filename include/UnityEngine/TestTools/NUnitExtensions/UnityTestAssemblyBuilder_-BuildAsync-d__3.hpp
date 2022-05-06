@@ -53,15 +53,7 @@ namespace UnityEngine::TestTools::NUnitExtensions {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class UnityTestAssemblyBuilder::$BuildAsync$d__3 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerator_1<::NUnit::Framework::Interfaces::ITest*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -118,42 +110,42 @@ namespace UnityEngine::TestTools::NUnitExtensions {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::NUnit::Framework::Interfaces::ITest*>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private NUnit.Framework.Interfaces.ITest <>2__current
-    ::NUnit::Framework::Interfaces::ITest*& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Interfaces::ITest*& dyn_$$2__current();
     // Get instance field reference: public UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder <>4__this
-    ::UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*& dyn_$$4__this();
     // Get instance field reference: public System.Reflection.Assembly[] assemblies
-    ::ArrayW<::System::Reflection::Assembly*>& dyn_assemblies();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Reflection::Assembly*>& dyn_assemblies();
     // Get instance field reference: public UnityEngine.TestTools.TestPlatform[] testPlatforms
-    ::ArrayW<::UnityEngine::TestTools::TestPlatform>& dyn_testPlatforms();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::TestTools::TestPlatform>& dyn_testPlatforms();
     // Get instance field reference: public System.Collections.Generic.IDictionary`2<System.String,System.Object> options
-    ::System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>*& dyn_options();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>*& dyn_options();
     // Get instance field reference: private NUnit.Framework.Internal.TestSuite <suite>5__2
-    ::NUnit::Framework::Internal::TestSuite*& dyn_$suite$5__2();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::TestSuite*& dyn_$suite$5__2();
     // Get instance field reference: private System.Int32 <index>5__3
-    int& dyn_$index$5__3();
+    [[deprecated("Use field access instead!")]] int& dyn_$index$5__3();
     // private NUnit.Framework.Interfaces.ITest System.Collections.Generic.IEnumerator<NUnit.Framework.Interfaces.ITest>.get_Current()
-    // Offset: 0x194CCE0
+    // Offset: 0x19849F4
     ::NUnit::Framework::Interfaces::ITest* System_Collections_Generic_IEnumerator$NUnit_Framework_Interfaces_ITest$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x194CD48
+    // Offset: 0x1984A5C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x194C924
+    // Offset: 0x1984638
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityTestAssemblyBuilder::$BuildAsync$d__3* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::$BuildAsync$d__3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityTestAssemblyBuilder::$BuildAsync$d__3*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x194CA20
+    // Offset: 0x1984734
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x194CA24
+    // Offset: 0x1984738
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x194CCE8
+    // Offset: 0x19849FC
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder/UnityEngine.TestTools.NUnitExtensions.<BuildAsync>d__3
   #pragma pack(pop)

@@ -37,15 +37,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class TermInfoReader : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int16 boolSize
     // Size: 0x2
     // Offset: 0x10
@@ -80,52 +72,52 @@ namespace System {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Int16 boolSize
-    int16_t& dyn_boolSize();
+    [[deprecated("Use field access instead!")]] int16_t& dyn_boolSize();
     // Get instance field reference: private System.Int16 numSize
-    int16_t& dyn_numSize();
+    [[deprecated("Use field access instead!")]] int16_t& dyn_numSize();
     // Get instance field reference: private System.Int16 strOffsets
-    int16_t& dyn_strOffsets();
+    [[deprecated("Use field access instead!")]] int16_t& dyn_strOffsets();
     // Get instance field reference: private System.Byte[] buffer
-    ::ArrayW<uint8_t>& dyn_buffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_buffer();
     // Get instance field reference: private System.Int32 booleansOffset
-    int& dyn_booleansOffset();
+    [[deprecated("Use field access instead!")]] int& dyn_booleansOffset();
     // public System.Void .ctor(System.String term, System.String filename)
-    // Offset: 0x20E1BDC
+    // Offset: 0x212C450
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TermInfoReader* New_ctor(::StringW term, ::StringW filename) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::TermInfoReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TermInfoReader*, creationType>(term, filename)));
     }
     // public System.Void .ctor(System.String term, System.Byte[] buffer)
-    // Offset: 0x20E1E18
+    // Offset: 0x212C68C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TermInfoReader* New_ctor(::StringW term, ::ArrayW<uint8_t> buffer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::TermInfoReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TermInfoReader*, creationType>(term, buffer)));
     }
     // private System.Void ReadHeader(System.Byte[] buffer, ref System.Int32 position)
-    // Offset: 0x20E6040
+    // Offset: 0x21308B4
     void ReadHeader(::ArrayW<uint8_t> buffer, ByRef<int> position);
     // private System.Void ReadNames(System.Byte[] buffer, ref System.Int32 position)
-    // Offset: 0x20E619C
+    // Offset: 0x2130A10
     void ReadNames(::ArrayW<uint8_t> buffer, ByRef<int> position);
     // public System.Int32 Get(System.TermInfoNumbers number)
-    // Offset: 0x20E2608
+    // Offset: 0x212CE7C
     int Get(::System::TermInfoNumbers number);
     // public System.String Get(System.TermInfoStrings tstr)
-    // Offset: 0x20E2570
+    // Offset: 0x212CDE4
     ::StringW Get(::System::TermInfoStrings tstr);
     // public System.Byte[] GetStringBytes(System.TermInfoStrings tstr)
-    // Offset: 0x20E5E1C
+    // Offset: 0x2130690
     ::ArrayW<uint8_t> GetStringBytes(::System::TermInfoStrings tstr);
     // private System.Int16 GetInt16(System.Byte[] buffer, System.Int32 offset)
-    // Offset: 0x20E61DC
+    // Offset: 0x2130A50
     int16_t GetInt16(::ArrayW<uint8_t> buffer, int offset);
     // private System.String GetString(System.Byte[] buffer, System.Int32 offset)
-    // Offset: 0x20E6238
+    // Offset: 0x2130AAC
     ::StringW GetString(::ArrayW<uint8_t> buffer, int offset);
     // private System.Byte[] GetStringBytes(System.Byte[] buffer, System.Int32 offset)
-    // Offset: 0x20E62C8
+    // Offset: 0x2130B3C
     ::ArrayW<uint8_t> GetStringBytes(::ArrayW<uint8_t> buffer, int offset);
   }; // System.TermInfoReader
   #pragma pack(pop)

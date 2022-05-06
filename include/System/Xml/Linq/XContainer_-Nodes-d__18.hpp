@@ -39,15 +39,7 @@ namespace System::Xml::Linq {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class XContainer::$Nodes$d__18 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XNode*>, public ::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XNode*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -92,42 +84,42 @@ namespace System::Xml::Linq {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XNode*>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Xml.Linq.XNode <>2__current
-    ::System::Xml::Linq::XNode*& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Linq::XNode*& dyn_$$2__current();
     // Get instance field reference: private System.Int32 <>l__initialThreadId
-    int& dyn_$$l__initialThreadId();
+    [[deprecated("Use field access instead!")]] int& dyn_$$l__initialThreadId();
     // Get instance field reference: public System.Xml.Linq.XContainer <>4__this
-    ::System::Xml::Linq::XContainer*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Linq::XContainer*& dyn_$$4__this();
     // Get instance field reference: private System.Xml.Linq.XNode <n>5__1
-    ::System::Xml::Linq::XNode*& dyn_$n$5__1();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Linq::XNode*& dyn_$n$5__1();
     // private System.Xml.Linq.XNode System.Collections.Generic.IEnumerator<System.Xml.Linq.XNode>.get_Current()
-    // Offset: 0x2A4BBBC
+    // Offset: 0x2AA2FA4
     ::System::Xml::Linq::XNode* System_Collections_Generic_IEnumerator$System_Xml_Linq_XNode$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x2A4BC24
+    // Offset: 0x2AA300C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x2A4B058
+    // Offset: 0x2AA2440
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XContainer::$Nodes$d__18* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XContainer::$Nodes$d__18::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XContainer::$Nodes$d__18*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x2A4BB14
+    // Offset: 0x2AA2EFC
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x2A4BB18
+    // Offset: 0x2AA2F00
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x2A4BBC4
+    // Offset: 0x2AA2FAC
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.Xml.Linq.XNode> System.Collections.Generic.IEnumerable<System.Xml.Linq.XNode>.GetEnumerator()
-    // Offset: 0x2A4BC2C
+    // Offset: 0x2AA3014
     ::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XNode*>* System_Collections_Generic_IEnumerable$System_Xml_Linq_XNode$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x2A4BCD8
+    // Offset: 0x2AA30C0
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Xml.Linq.XContainer/System.Xml.Linq.<Nodes>d__18
   #pragma pack(pop)

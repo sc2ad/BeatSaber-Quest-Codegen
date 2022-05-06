@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResetPitchOnGameplayFinished : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly GameplayLevelSceneTransitionEvents _gameplayLevelSceneTransitionEvents
     // Size: 0x8
     // Offset: 0x10
@@ -58,21 +50,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::AudioManagerSO*) == 0x8);
     public:
     // Get instance field reference: private readonly GameplayLevelSceneTransitionEvents _gameplayLevelSceneTransitionEvents
-    ::GlobalNamespace::GameplayLevelSceneTransitionEvents*& dyn__gameplayLevelSceneTransitionEvents();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayLevelSceneTransitionEvents*& dyn__gameplayLevelSceneTransitionEvents();
     // Get instance field reference: private readonly AudioManagerSO _audioManager
-    ::GlobalNamespace::AudioManagerSO*& dyn__audioManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioManagerSO*& dyn__audioManager();
     // public System.Void .ctor(GameplayLevelSceneTransitionEvents gameplayLevelSceneTransitionEvents, AudioManagerSO audioManager)
-    // Offset: 0x137D9BC
+    // Offset: 0x1455810
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResetPitchOnGameplayFinished* New_ctor(::GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents, ::GlobalNamespace::AudioManagerSO* audioManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ResetPitchOnGameplayFinished::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResetPitchOnGameplayFinished*, creationType>(gameplayLevelSceneTransitionEvents, audioManager)));
     }
     // private System.Void HandleAnyGameplayLevelDidFinish()
-    // Offset: 0x137DB38
+    // Offset: 0x145598C
     void HandleAnyGameplayLevelDidFinish();
     // protected override System.Void Finalize()
-    // Offset: 0x137DA5C
+    // Offset: 0x14558B0
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

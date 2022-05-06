@@ -53,15 +53,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::SaberModelController::InitData
     class InitData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private SaberTrail _saberTrail
     // Size: 0x8
     // Offset: 0x18
@@ -80,21 +72,21 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::SetSaberFakeGlowColor*> setSaberFakeGlowColors;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::SetSaberFakeGlowColor*>) == 0x8);
-    // [NullAllowed] Offset: 0x1255DD8
+    // [NullAllowed] Offset: 0x10DA9BC
     // private TubeBloomPrePassLight _saberLight
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::TubeBloomPrePassLight* saberLight;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::TubeBloomPrePassLight*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0x1255E10
+    // [InjectOptionalAttribute] Offset: 0x10DA9F4
     // private readonly SaberModelController/InitData _initData
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::SaberModelController::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberModelController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1255E20
+    // [InjectAttribute] Offset: 0x10DAA04
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x40
@@ -105,39 +97,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private SaberTrail _saberTrail
-    ::GlobalNamespace::SaberTrail*& dyn__saberTrail();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberTrail*& dyn__saberTrail();
     // Get instance field reference: private SetSaberGlowColor[] _setSaberGlowColors
-    ::ArrayW<::GlobalNamespace::SetSaberGlowColor*>& dyn__setSaberGlowColors();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::SetSaberGlowColor*>& dyn__setSaberGlowColors();
     // Get instance field reference: private SetSaberFakeGlowColor[] _setSaberFakeGlowColors
-    ::ArrayW<::GlobalNamespace::SetSaberFakeGlowColor*>& dyn__setSaberFakeGlowColors();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::SetSaberFakeGlowColor*>& dyn__setSaberFakeGlowColors();
     // Get instance field reference: private TubeBloomPrePassLight _saberLight
-    ::GlobalNamespace::TubeBloomPrePassLight*& dyn__saberLight();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TubeBloomPrePassLight*& dyn__saberLight();
     // Get instance field reference: private readonly SaberModelController/InitData _initData
-    ::GlobalNamespace::SaberModelController::InitData*& dyn__initData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberModelController::InitData*& dyn__initData();
     // Get instance field reference: private readonly ColorManager _colorManager
-    ::GlobalNamespace::ColorManager*& dyn__colorManager();
-    // public System.Void Init(UnityEngine.Transform parent, Saber saber)
-    // Offset: 0x141CE28
-    void Init(::UnityEngine::Transform* parent, ::GlobalNamespace::Saber* saber);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorManager*& dyn__colorManager();
     // public System.Void .ctor()
-    // Offset: 0x141D120
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x145E7D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberModelController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberModelController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberModelController*, creationType>()));
     }
+    // public System.Void Init(UnityEngine.Transform parent, Saber saber)
+    // Offset: 0x145E500
+    void Init(::UnityEngine::Transform* parent, ::GlobalNamespace::Saber* saber);
   }; // SaberModelController
   #pragma pack(pop)
   static check_size<sizeof(SaberModelController), 64 + sizeof(::GlobalNamespace::ColorManager*)> __GlobalNamespace_SaberModelControllerSizeCheck;
   static_assert(sizeof(SaberModelController) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SaberModelController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SaberModelController::Init
 // Il2CppName: Init
 template<>
@@ -148,7 +138,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberModelController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parent, saber});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SaberModelController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

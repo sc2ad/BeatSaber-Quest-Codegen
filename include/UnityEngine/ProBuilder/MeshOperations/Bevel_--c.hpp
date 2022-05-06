@@ -72,32 +72,30 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.FaceRebuildData,UnityEngine.ProBuilder.Face> <>9__0_3
     static void _set_$$9__0_3(::System::Func_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::UnityEngine::ProBuilder::Face*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x19E725C
+    // Offset: 0x1A20844
     static void _cctor();
-    // UnityEngine.ProBuilder.Face <BevelEdges>b__0_0(UnityEngine.ProBuilder.FaceRebuildData x)
-    // Offset: 0x19E72C8
-    ::UnityEngine::ProBuilder::Face* $BevelEdges$b__0_0(::UnityEngine::ProBuilder::FaceRebuildData* x);
-    // System.Int32 <BevelEdges>b__0_6(UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.FaceRebuildData,System.Collections.Generic.List`1<System.Int32>> x)
-    // Offset: 0x19E72E0
-    int $BevelEdges$b__0_6(::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::System::Collections::Generic::List_1<int>*> x);
-    // UnityEngine.ProBuilder.Face <BevelEdges>b__0_1(UnityEngine.ProBuilder.FaceRebuildData x)
-    // Offset: 0x19E732C
-    ::UnityEngine::ProBuilder::Face* $BevelEdges$b__0_1(::UnityEngine::ProBuilder::FaceRebuildData* x);
-    // UnityEngine.ProBuilder.Face <BevelEdges>b__0_2(UnityEngine.ProBuilder.FaceRebuildData x)
-    // Offset: 0x19E7344
-    ::UnityEngine::ProBuilder::Face* $BevelEdges$b__0_2(::UnityEngine::ProBuilder::FaceRebuildData* x);
-    // UnityEngine.ProBuilder.Face <BevelEdges>b__0_3(UnityEngine.ProBuilder.FaceRebuildData x)
-    // Offset: 0x19E735C
-    ::UnityEngine::ProBuilder::Face* $BevelEdges$b__0_3(::UnityEngine::ProBuilder::FaceRebuildData* x);
     // public System.Void .ctor()
-    // Offset: 0x19E72C0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1A208A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Bevel::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Bevel::$$c*, creationType>()));
     }
+    // UnityEngine.ProBuilder.Face <BevelEdges>b__0_0(UnityEngine.ProBuilder.FaceRebuildData x)
+    // Offset: 0x1A208B0
+    ::UnityEngine::ProBuilder::Face* $BevelEdges$b__0_0(::UnityEngine::ProBuilder::FaceRebuildData* x);
+    // System.Int32 <BevelEdges>b__0_6(UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.FaceRebuildData,System.Collections.Generic.List`1<System.Int32>> x)
+    // Offset: 0x1A208C8
+    int $BevelEdges$b__0_6(::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::System::Collections::Generic::List_1<int>*> x);
+    // UnityEngine.ProBuilder.Face <BevelEdges>b__0_1(UnityEngine.ProBuilder.FaceRebuildData x)
+    // Offset: 0x1A20914
+    ::UnityEngine::ProBuilder::Face* $BevelEdges$b__0_1(::UnityEngine::ProBuilder::FaceRebuildData* x);
+    // UnityEngine.ProBuilder.Face <BevelEdges>b__0_2(UnityEngine.ProBuilder.FaceRebuildData x)
+    // Offset: 0x1A2092C
+    ::UnityEngine::ProBuilder::Face* $BevelEdges$b__0_2(::UnityEngine::ProBuilder::FaceRebuildData* x);
+    // UnityEngine.ProBuilder.Face <BevelEdges>b__0_3(UnityEngine.ProBuilder.FaceRebuildData x)
+    // Offset: 0x1A20944
+    ::UnityEngine::ProBuilder::Face* $BevelEdges$b__0_3(::UnityEngine::ProBuilder::FaceRebuildData* x);
   }; // UnityEngine.ProBuilder.MeshOperations.Bevel/UnityEngine.ProBuilder.MeshOperations.<>c
   #pragma pack(pop)
 }
@@ -110,6 +108,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::$BevelEdges$b__0_0
 // Il2CppName: <BevelEdges>b__0_0
 template<>
@@ -155,7 +157,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c*), "<BevelEdges>b__0_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

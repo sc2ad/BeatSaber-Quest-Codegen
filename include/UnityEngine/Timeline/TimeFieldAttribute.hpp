@@ -75,20 +75,12 @@ namespace UnityEngine::Timeline {
       // Set static field: static public UnityEngine.Timeline.TimeFieldAttribute/UnityEngine.Timeline.UseEditMode ApplyEditMode
       static void _set_ApplyEditMode(::UnityEngine::Timeline::TimeFieldAttribute::UseEditMode value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // UnityEngine.Timeline.TimeFieldAttribute/UnityEngine.Timeline.UseEditMode
     #pragma pack(pop)
     static check_size<sizeof(TimeFieldAttribute::UseEditMode), 0 + sizeof(int)> __UnityEngine_Timeline_TimeFieldAttribute_UseEditModeSizeCheck;
     static_assert(sizeof(TimeFieldAttribute::UseEditMode) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly UnityEngine.Timeline.TimeFieldAttribute/UnityEngine.Timeline.UseEditMode <useEditMode>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -101,12 +93,12 @@ namespace UnityEngine::Timeline {
       return useEditMode;
     }
     // Get instance field reference: private readonly UnityEngine.Timeline.TimeFieldAttribute/UnityEngine.Timeline.UseEditMode <useEditMode>k__BackingField
-    ::UnityEngine::Timeline::TimeFieldAttribute::UseEditMode& dyn_$useEditMode$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Timeline::TimeFieldAttribute::UseEditMode& dyn_$useEditMode$k__BackingField();
     // public UnityEngine.Timeline.TimeFieldAttribute/UnityEngine.Timeline.UseEditMode get_useEditMode()
-    // Offset: 0x1D82C6C
+    // Offset: 0x1DBE1C4
     ::UnityEngine::Timeline::TimeFieldAttribute::UseEditMode get_useEditMode();
     // public System.Void .ctor(UnityEngine.Timeline.TimeFieldAttribute/UnityEngine.Timeline.UseEditMode useEditMode)
-    // Offset: 0x1D82C74
+    // Offset: 0x1DBE1CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeFieldAttribute* New_ctor(::UnityEngine::Timeline::TimeFieldAttribute::UseEditMode useEditMode) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::TimeFieldAttribute::.ctor");

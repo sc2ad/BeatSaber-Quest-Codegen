@@ -41,15 +41,7 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultWatcherData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.IO.FileSystemWatcher FSW
     // Size: 0x8
     // Offset: 0x10
@@ -108,27 +100,25 @@ namespace System::IO {
     static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     public:
     // Get instance field reference: public System.IO.FileSystemWatcher FSW
-    ::System::IO::FileSystemWatcher*& dyn_FSW();
+    [[deprecated("Use field access instead!")]] ::System::IO::FileSystemWatcher*& dyn_FSW();
     // Get instance field reference: public System.String Directory
-    ::StringW& dyn_Directory();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Directory();
     // Get instance field reference: public System.String FileMask
-    ::StringW& dyn_FileMask();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_FileMask();
     // Get instance field reference: public System.Boolean IncludeSubdirs
-    bool& dyn_IncludeSubdirs();
+    [[deprecated("Use field access instead!")]] bool& dyn_IncludeSubdirs();
     // Get instance field reference: public System.Boolean Enabled
-    bool& dyn_Enabled();
+    [[deprecated("Use field access instead!")]] bool& dyn_Enabled();
     // Get instance field reference: public System.Boolean NoWildcards
-    bool& dyn_NoWildcards();
+    [[deprecated("Use field access instead!")]] bool& dyn_NoWildcards();
     // Get instance field reference: public System.DateTime DisabledTime
-    ::System::DateTime& dyn_DisabledTime();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_DisabledTime();
     // Get instance field reference: public System.Object FilesLock
-    ::Il2CppObject*& dyn_FilesLock();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_FilesLock();
     // Get instance field reference: public System.Collections.Hashtable Files
-    ::System::Collections::Hashtable*& dyn_Files();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn_Files();
     // public System.Void .ctor()
-    // Offset: 0x1CB39F0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1CEFF48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultWatcherData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::DefaultWatcherData::.ctor");

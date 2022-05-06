@@ -24,15 +24,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalLeaderboardsModel::ScoreData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 _score
     // Size: 0x4
     // Offset: 0x10
@@ -63,17 +55,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(int64_t) == 0x8);
     public:
     // Get instance field reference: public System.Int32 _score
-    int& dyn__score();
+    [[deprecated("Use field access instead!")]] int& dyn__score();
     // Get instance field reference: public System.String _playerName
-    ::StringW& dyn__playerName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__playerName();
     // Get instance field reference: public System.Boolean _fullCombo
-    bool& dyn__fullCombo();
+    [[deprecated("Use field access instead!")]] bool& dyn__fullCombo();
     // Get instance field reference: public System.Int64 _timestamp
-    int64_t& dyn__timestamp();
+    [[deprecated("Use field access instead!")]] int64_t& dyn__timestamp();
     // public System.Void .ctor()
-    // Offset: 0x152746C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x155ED74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalLeaderboardsModel::ScoreData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalLeaderboardsModel::ScoreData::.ctor");

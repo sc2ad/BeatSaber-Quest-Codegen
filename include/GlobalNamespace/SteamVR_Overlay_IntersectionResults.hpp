@@ -58,13 +58,13 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public UnityEngine.Vector3 point
-    ::UnityEngine::Vector3& dyn_point();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_point();
     // Get instance field reference: public UnityEngine.Vector3 normal
-    ::UnityEngine::Vector3& dyn_normal();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_normal();
     // Get instance field reference: public UnityEngine.Vector2 UVs
-    ::UnityEngine::Vector2& dyn_UVs();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_UVs();
     // Get instance field reference: public System.Single distance
-    float& dyn_distance();
+    [[deprecated("Use field access instead!")]] float& dyn_distance();
   }; // SteamVR_Overlay/IntersectionResults
   #pragma pack(pop)
   static check_size<sizeof(SteamVR_Overlay::IntersectionResults), 32 + sizeof(float)> __GlobalNamespace_SteamVR_Overlay_IntersectionResultsSizeCheck;

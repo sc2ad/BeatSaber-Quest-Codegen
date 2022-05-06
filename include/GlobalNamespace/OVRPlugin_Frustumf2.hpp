@@ -50,11 +50,11 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single zNear
-    float& dyn_zNear();
+    [[deprecated("Use field access instead!")]] float& dyn_zNear();
     // Get instance field reference: public System.Single zFar
-    float& dyn_zFar();
+    [[deprecated("Use field access instead!")]] float& dyn_zFar();
     // Get instance field reference: public OVRPlugin/Fovf Fov
-    ::GlobalNamespace::OVRPlugin::Fovf& dyn_Fov();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Fovf& dyn_Fov();
   }; // OVRPlugin/Frustumf2
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Frustumf2), 8 + sizeof(::GlobalNamespace::OVRPlugin::Fovf)> __GlobalNamespace_OVRPlugin_Frustumf2SizeCheck;

@@ -45,9 +45,9 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 dataOffset
-    int& dyn_dataOffset();
+    [[deprecated("Use field access instead!")]] int& dyn_dataOffset();
     // Get instance field reference: public System.Int32[] entries
-    ::ArrayW<int>& dyn_entries();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_entries();
   }; // UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData/UnityEngine.AddressableAssets.ResourceLocators.Bucket
   #pragma pack(pop)
   static check_size<sizeof(ContentCatalogData::Bucket), 8 + sizeof(::ArrayW<int>)> __UnityEngine_AddressableAssets_ResourceLocators_ContentCatalogData_BucketSizeCheck;

@@ -51,7 +51,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadCallbackType POSTCOOK
     static void _set_POSTCOOK(::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadCallbackType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadCallbackType
   #pragma pack(pop)
   static check_size<sizeof(HEU_ThreadedTaskLoadGeo::HEU_LoadCallbackType), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_ThreadedTaskLoadGeo_HEU_LoadCallbackTypeSizeCheck;

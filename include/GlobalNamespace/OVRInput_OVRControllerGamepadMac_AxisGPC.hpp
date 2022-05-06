@@ -99,7 +99,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRInput/OVRControllerGamepadMac/AxisGPC Max
     static void _set_Max(::GlobalNamespace::OVRInput::OVRControllerGamepadMac::AxisGPC value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVRInput/OVRControllerGamepadMac/AxisGPC
   #pragma pack(pop)
   static check_size<sizeof(OVRInput::OVRControllerGamepadMac::AxisGPC), 0 + sizeof(int)> __GlobalNamespace_OVRInput_OVRControllerGamepadMac_AxisGPCSizeCheck;

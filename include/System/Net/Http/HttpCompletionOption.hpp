@@ -54,7 +54,7 @@ namespace System::Net::Http {
     // Set static field: static public System.Net.Http.HttpCompletionOption ResponseHeadersRead
     static void _set_ResponseHeadersRead(::System::Net::Http::HttpCompletionOption value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Net.Http.HttpCompletionOption
   #pragma pack(pop)
   static check_size<sizeof(HttpCompletionOption), 0 + sizeof(int)> __System_Net_Http_HttpCompletionOptionSizeCheck;

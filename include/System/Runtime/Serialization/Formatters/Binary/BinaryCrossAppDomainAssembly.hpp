@@ -33,15 +33,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class BinaryCrossAppDomainAssembly : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int32 assemId
     // Size: 0x4
     // Offset: 0x10
@@ -56,17 +48,17 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: System.Int32 assemId
-    int& dyn_assemId();
+    [[deprecated("Use field access instead!")]] int& dyn_assemId();
     // Get instance field reference: System.Int32 assemblyIndex
-    int& dyn_assemblyIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_assemblyIndex();
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x18B968C
+    // Offset: 0x18F2F9C
     void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x18B96D4
+    // Offset: 0x18F2FE4
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x18B9684
+    // Offset: 0x18F2F94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

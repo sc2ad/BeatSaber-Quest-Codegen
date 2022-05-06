@@ -35,15 +35,7 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefiniteLengthInputStream : public ::Org::BouncyCastle::Asn1::LimitedInputStream {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Int32 _originalLength
     // Size: 0x4
     // Offset: 0x3C
@@ -62,37 +54,35 @@ namespace Org::BouncyCastle::Asn1 {
     // Set static field: static private readonly System.Byte[] EmptyBytes
     static void _set_EmptyBytes(::ArrayW<uint8_t> value);
     // Get instance field reference: private readonly System.Int32 _originalLength
-    int& dyn__originalLength();
+    [[deprecated("Use field access instead!")]] int& dyn__originalLength();
     // Get instance field reference: private System.Int32 _remaining
-    int& dyn__remaining();
+    [[deprecated("Use field access instead!")]] int& dyn__remaining();
     // System.Int32 get_Remaining()
-    // Offset: 0x1BF7B64
+    // Offset: 0x1C3214C
     int get_Remaining();
     // System.Void .ctor(System.IO.Stream inStream, System.Int32 length, System.Int32 limit)
-    // Offset: 0x1BEA534
+    // Offset: 0x1C24B1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefiniteLengthInputStream* New_ctor(::System::IO::Stream* inStream, int length, int limit) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefiniteLengthInputStream*, creationType>(inStream, length, limit)));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1C3256C
+    static void _cctor();
     // System.Void ReadAllIntoByteArray(System.Byte[] buf)
-    // Offset: 0x1BEC5F8
+    // Offset: 0x1C26BE0
     void ReadAllIntoByteArray(::ArrayW<uint8_t> buf);
     // System.Byte[] ToArray()
-    // Offset: 0x1BEA620
+    // Offset: 0x1C24C08
     ::ArrayW<uint8_t> ToArray();
-    // static private System.Void .cctor()
-    // Offset: 0x1BF7F84
-    // Implemented from: System.IO.Stream
-    // Base method: System.Void Stream::.cctor()
-    static void _cctor();
     // public override System.Int32 ReadByte()
-    // Offset: 0x1BF7B6C
+    // Offset: 0x1C32154
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::ReadByte()
     int ReadByte();
     // public override System.Int32 Read(System.Byte[] buf, System.Int32 off, System.Int32 len)
-    // Offset: 0x1BF7D50
+    // Offset: 0x1C32338
     // Implemented from: Org.BouncyCastle.Utilities.IO.BaseInputStream
     // Base method: System.Int32 BaseInputStream::Read(System.Byte[] buf, System.Int32 off, System.Int32 len)
     int Read(::ArrayW<uint8_t> buf, int off, int len);
@@ -114,6 +104,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DefiniteLengthInputStream::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Asn1::DefiniteLengthInputStream::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DefiniteLengthInputStream::ReadAllIntoByteArray
 // Il2CppName: ReadAllIntoByteArray
 template<>
@@ -129,14 +127,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Asn1::DefiniteLengthInputStream::*)()>(&Org::BouncyCastle::Asn1::DefiniteLengthInputStream::ToArray)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*), "ToArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DefiniteLengthInputStream::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Asn1::DefiniteLengthInputStream::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DefiniteLengthInputStream::ReadByte

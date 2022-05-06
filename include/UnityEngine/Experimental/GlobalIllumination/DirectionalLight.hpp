@@ -83,19 +83,19 @@ namespace UnityEngine::Experimental::GlobalIllumination {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 instanceID
-    int& dyn_instanceID();
+    [[deprecated("Use field access instead!")]] int& dyn_instanceID();
     // Get instance field reference: public System.Boolean shadow
-    bool& dyn_shadow();
+    [[deprecated("Use field access instead!")]] bool& dyn_shadow();
     // Get instance field reference: public UnityEngine.Experimental.GlobalIllumination.LightMode mode
-    ::UnityEngine::Experimental::GlobalIllumination::LightMode& dyn_mode();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Experimental::GlobalIllumination::LightMode& dyn_mode();
     // Get instance field reference: public UnityEngine.Vector3 direction
-    ::UnityEngine::Vector3& dyn_direction();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_direction();
     // Get instance field reference: public UnityEngine.Experimental.GlobalIllumination.LinearColor color
-    ::UnityEngine::Experimental::GlobalIllumination::LinearColor& dyn_color();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Experimental::GlobalIllumination::LinearColor& dyn_color();
     // Get instance field reference: public UnityEngine.Experimental.GlobalIllumination.LinearColor indirectColor
-    ::UnityEngine::Experimental::GlobalIllumination::LinearColor& dyn_indirectColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Experimental::GlobalIllumination::LinearColor& dyn_indirectColor();
     // Get instance field reference: public System.Single penumbraWidthRadian
-    float& dyn_penumbraWidthRadian();
+    [[deprecated("Use field access instead!")]] float& dyn_penumbraWidthRadian();
   }; // UnityEngine.Experimental.GlobalIllumination.DirectionalLight
   #pragma pack(pop)
   static check_size<sizeof(DirectionalLight), 52 + sizeof(float)> __UnityEngine_Experimental_GlobalIllumination_DirectionalLightSizeCheck;

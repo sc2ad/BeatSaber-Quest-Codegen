@@ -53,6 +53,13 @@ namespace System::Xml {
     // public System.Xml.WriteState get_WriteState()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::WriteState get_WriteState();
+    // protected System.Void .ctor()
+    // Offset: 0x2710194
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static XmlWriter* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlWriter::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<XmlWriter*, creationType>()));
+    }
     // public System.Void WriteStartDocument()
     // Offset: 0xFFFFFFFFFFFFFFFF
     void WriteStartDocument();
@@ -69,7 +76,7 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void WriteStartElement(::StringW prefix, ::StringW localName, ::StringW ns);
     // public System.Void WriteStartElement(System.String localName)
-    // Offset: 0x26C8680
+    // Offset: 0x2717B90
     void WriteStartElement(::StringW localName);
     // public System.Void WriteEndElement()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -78,10 +85,10 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void WriteFullEndElement();
     // public System.Void WriteAttributeString(System.String localName, System.String value)
-    // Offset: 0x26C8698
+    // Offset: 0x2717BA8
     void WriteAttributeString(::StringW localName, ::StringW value);
     // public System.Void WriteAttributeString(System.String prefix, System.String localName, System.String ns, System.String value)
-    // Offset: 0x26C86F8
+    // Offset: 0x2717C08
     void WriteAttributeString(::StringW prefix, ::StringW localName, ::StringW ns, ::StringW value);
     // public System.Void WriteStartAttribute(System.String prefix, System.String localName, System.String ns)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -126,10 +133,10 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void WriteBase64(::ArrayW<uint8_t> buffer, int index, int count);
     // public System.Void WriteBinHex(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x26C6C80
+    // Offset: 0x2716190
     void WriteBinHex(::ArrayW<uint8_t> buffer, int index, int count);
     // public System.Void Close()
-    // Offset: 0x26C874C
+    // Offset: 0x2717C5C
     void Close();
     // public System.Void Flush()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -138,29 +145,20 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW LookupPrefix(::StringW ns);
     // public System.Void WriteValue(System.String value)
-    // Offset: 0x26C8750
+    // Offset: 0x2717C60
     void WriteValue(::StringW value);
     // public System.Void Dispose()
-    // Offset: 0x26C8768
+    // Offset: 0x2717C78
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x26C877C
+    // Offset: 0x2717C8C
     void Dispose(bool disposing);
     // static public System.Xml.XmlWriter Create(System.IO.Stream output, System.Xml.XmlWriterSettings settings)
-    // Offset: 0x26C87D0
+    // Offset: 0x2717CE0
     static ::System::Xml::XmlWriter* Create(::System::IO::Stream* output, ::System::Xml::XmlWriterSettings* settings);
     // static public System.Xml.XmlWriter Create(System.IO.TextWriter output, System.Xml.XmlWriterSettings settings)
-    // Offset: 0x26C8C80
+    // Offset: 0x2718190
     static ::System::Xml::XmlWriter* Create(::System::IO::TextWriter* output, ::System::Xml::XmlWriterSettings* settings);
-    // protected System.Void .ctor()
-    // Offset: 0x26C0C84
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlWriter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlWriter::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<XmlWriter*, creationType>()));
-    }
   }; // System.Xml.XmlWriter
   #pragma pack(pop)
 }
@@ -173,6 +171,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::X
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriter*), "get_WriteState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Xml::XmlWriter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::XmlWriter::WriteStartDocument
 // Il2CppName: WriteStartDocument
 template<>
@@ -485,7 +487,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::X
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriter*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{output, settings});
   }
 };
-// Writing MetadataGetter for method: System::Xml::XmlWriter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

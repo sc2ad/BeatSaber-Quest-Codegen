@@ -47,7 +47,7 @@ namespace Polyglot {
     // Nested type: ::Polyglot::GoogleDownload::$DownloadSheet$d__0
     class $DownloadSheet$d__0;
     // static public System.Collections.IEnumerator DownloadSheet(System.String docsId, System.String sheetId, System.Action`1<System.String> done, Polyglot.GoogleDriveDownloadFormat format, System.Func`2<System.Single,System.Boolean> progressbar)
-    // Offset: 0x29DD4B0
+    // Offset: 0x2A32DA4
     static ::System::Collections::IEnumerator* DownloadSheet(::StringW docsId, ::StringW sheetId, ::System::Action_1<::StringW>* done, ::Polyglot::GoogleDriveDownloadFormat format, ::System::Func_2<float, bool>* progressbar);
   }; // Polyglot.GoogleDownload
   #pragma pack(pop)

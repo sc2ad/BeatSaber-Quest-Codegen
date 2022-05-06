@@ -36,15 +36,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant
     class Variant;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private ShaderVariantsSO/ShaderVariant/Variant[] _variants
     // Size: 0x8
     // Offset: 0x10
@@ -59,17 +51,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Shader*) == 0x8);
     public:
     // Get instance field reference: private ShaderVariantsSO/ShaderVariant/Variant[] _variants
-    ::ArrayW<::GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>& dyn__variants();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>& dyn__variants();
     // Get instance field reference: private UnityEngine.Shader _shader
-    ::UnityEngine::Shader*& dyn__shader();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Shader*& dyn__shader();
     // public ShaderVariantsSO/ShaderVariant/Variant[] get_variants()
-    // Offset: 0x29EC2B8
+    // Offset: 0x2A42BB4
     ::ArrayW<::GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*> get_variants();
     // public UnityEngine.Shader get_shader()
-    // Offset: 0x29EC2C0
+    // Offset: 0x2A42BBC
     ::UnityEngine::Shader* get_shader();
     // public System.Void .ctor(UnityEngine.Shader shader, ShaderVariantsSO/ShaderVariant/Variant[] variants)
-    // Offset: 0x29EC2C8
+    // Offset: 0x2A42BC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShaderVariantsSO::ShaderVariant* New_ctor(::UnityEngine::Shader* shader, ::ArrayW<::GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*> variants) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ShaderVariantsSO::ShaderVariant::.ctor");

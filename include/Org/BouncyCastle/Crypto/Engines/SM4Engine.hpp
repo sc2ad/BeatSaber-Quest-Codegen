@@ -37,15 +37,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class SM4Engine : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IBlockCipher*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.UInt32[] rk
     // Size: 0x8
     // Offset: 0x10
@@ -74,55 +66,53 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set static field: static private readonly System.UInt32[] FK
     static void _set_FK(::ArrayW<uint> value);
     // Get instance field reference: private System.UInt32[] rk
-    ::ArrayW<uint>& dyn_rk();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_rk();
     // public System.String get_AlgorithmName()
-    // Offset: 0x23C429C
+    // Offset: 0x240CB10
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x23C42E4
+    // Offset: 0x240CB58
     bool get_IsPartialBlockOkay();
     // static private System.Void .cctor()
-    // Offset: 0x23C45A8
+    // Offset: 0x240CE1C
     static void _cctor();
-    // static private System.UInt32 tau(System.UInt32 A)
-    // Offset: 0x23C387C
-    static uint tau(uint A);
-    // static private System.UInt32 L_ap(System.UInt32 B)
-    // Offset: 0x23C395C
-    static uint L_ap(uint B);
-    // private System.UInt32 T_ap(System.UInt32 Z)
-    // Offset: 0x23C39A0
-    uint T_ap(uint Z);
-    // private System.Void ExpandKey(System.Boolean forEncryption, System.Byte[] key)
-    // Offset: 0x23C3A34
-    void ExpandKey(bool forEncryption, ::ArrayW<uint8_t> key);
-    // static private System.UInt32 L(System.UInt32 B)
-    // Offset: 0x23C4008
-    static uint L(uint B);
-    // static private System.UInt32 T(System.UInt32 Z)
-    // Offset: 0x23C4084
-    static uint T(uint Z);
-    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x23C40EC
-    void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-    // public System.Int32 GetBlockSize()
-    // Offset: 0x23C42EC
-    int GetBlockSize();
-    // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x23C42F4
-    int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
-    // public System.Void Reset()
-    // Offset: 0x23C45A4
-    void Reset();
     // public System.Void .ctor()
-    // Offset: 0x23C4694
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x240CF08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SM4Engine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::SM4Engine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SM4Engine*, creationType>()));
     }
+    // static private System.UInt32 tau(System.UInt32 A)
+    // Offset: 0x240C0F0
+    static uint tau(uint A);
+    // static private System.UInt32 L_ap(System.UInt32 B)
+    // Offset: 0x240C1D0
+    static uint L_ap(uint B);
+    // private System.UInt32 T_ap(System.UInt32 Z)
+    // Offset: 0x240C214
+    uint T_ap(uint Z);
+    // private System.Void ExpandKey(System.Boolean forEncryption, System.Byte[] key)
+    // Offset: 0x240C2A8
+    void ExpandKey(bool forEncryption, ::ArrayW<uint8_t> key);
+    // static private System.UInt32 L(System.UInt32 B)
+    // Offset: 0x240C87C
+    static uint L(uint B);
+    // static private System.UInt32 T(System.UInt32 Z)
+    // Offset: 0x240C8F8
+    static uint T(uint Z);
+    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
+    // Offset: 0x240C960
+    void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // public System.Int32 GetBlockSize()
+    // Offset: 0x240CB60
+    int GetBlockSize();
+    // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
+    // Offset: 0x240CB68
+    int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
+    // public System.Void Reset()
+    // Offset: 0x240CE18
+    void Reset();
   }; // Org.BouncyCastle.Crypto.Engines.SM4Engine
   #pragma pack(pop)
   static check_size<sizeof(SM4Engine), 16 + sizeof(::ArrayW<uint>)> __Org_BouncyCastle_Crypto_Engines_SM4EngineSizeCheck;
@@ -153,6 +143,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::SM4Engine*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::SM4Engine::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::SM4Engine::tau
 // Il2CppName: tau
 template<>
@@ -246,7 +240,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::SM4Engine*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::SM4Engine::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

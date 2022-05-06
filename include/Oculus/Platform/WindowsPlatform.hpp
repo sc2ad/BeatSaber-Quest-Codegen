@@ -47,31 +47,33 @@ namespace Oculus::Platform {
     public:
     // Nested type: ::Oculus::Platform::WindowsPlatform::UnityLogDelegate
     class UnityLogDelegate;
-    // private System.Void CPPLogCallback(System.IntPtr tag, System.IntPtr message)
-    // Offset: 0x2A2C930
-    void CPPLogCallback(::System::IntPtr tag, ::System::IntPtr message);
-    // private System.IntPtr getCallbackPointer()
-    // Offset: 0x2A2CA08
-    ::System::IntPtr getCallbackPointer();
-    // public System.Boolean Initialize(System.String appId)
-    // Offset: 0x2A2CA48
-    bool Initialize(::StringW appId);
-    // public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> AsyncInitialize(System.String appId)
-    // Offset: 0x2A2CB2C
-    ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
     // public System.Void .ctor()
-    // Offset: 0x2A2CC40
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A83028
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WindowsPlatform* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::WindowsPlatform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WindowsPlatform*, creationType>()));
     }
+    // private System.Void CPPLogCallback(System.IntPtr tag, System.IntPtr message)
+    // Offset: 0x2A82D18
+    void CPPLogCallback(::System::IntPtr tag, ::System::IntPtr message);
+    // private System.IntPtr getCallbackPointer()
+    // Offset: 0x2A82DF0
+    ::System::IntPtr getCallbackPointer();
+    // public System.Boolean Initialize(System.String appId)
+    // Offset: 0x2A82E30
+    bool Initialize(::StringW appId);
+    // public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> AsyncInitialize(System.String appId)
+    // Offset: 0x2A82F14
+    ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
   }; // Oculus.Platform.WindowsPlatform
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Oculus::Platform::WindowsPlatform::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::WindowsPlatform::CPPLogCallback
 // Il2CppName: CPPLogCallback
 template<>
@@ -108,7 +110,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::P
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::WindowsPlatform*), "AsyncInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{appId});
   }
 };
-// Writing MetadataGetter for method: Oculus::Platform::WindowsPlatform::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

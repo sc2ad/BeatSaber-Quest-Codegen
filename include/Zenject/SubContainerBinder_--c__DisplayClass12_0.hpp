@@ -44,15 +44,7 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SubContainerBinder::$$c__DisplayClass12_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Zenject.GameObjectCreationParameters gameObjectInfo
     // Size: 0x8
     // Offset: 0x10
@@ -67,33 +59,35 @@ namespace Zenject {
     static_assert(sizeof(::System::Action_1<::Zenject::DiContainer*>*) == 0x8);
     public:
     // Get instance field reference: public Zenject.GameObjectCreationParameters gameObjectInfo
-    ::Zenject::GameObjectCreationParameters*& dyn_gameObjectInfo();
+    [[deprecated("Use field access instead!")]] ::Zenject::GameObjectCreationParameters*& dyn_gameObjectInfo();
     // Get instance field reference: public System.Action`1<Zenject.DiContainer> installerMethod
-    ::System::Action_1<::Zenject::DiContainer*>*& dyn_installerMethod();
-    // Zenject.ISubContainerCreator <ByNewGameObjectMethod>b__0(Zenject.DiContainer container)
-    // Offset: 0x1CE4650
-    ::Zenject::ISubContainerCreator* $ByNewGameObjectMethod$b__0(::Zenject::DiContainer* container);
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1CE4708
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CE4764
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::Zenject::DiContainer*>*& dyn_installerMethod();
     // public System.Void .ctor()
-    // Offset: 0x1CE3620
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1D1EB78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerBinder::$$c__DisplayClass12_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SubContainerBinder::$$c__DisplayClass12_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerBinder::$$c__DisplayClass12_0*, creationType>()));
     }
+    // Zenject.ISubContainerCreator <ByNewGameObjectMethod>b__0(Zenject.DiContainer container)
+    // Offset: 0x1D1FBA8
+    ::Zenject::ISubContainerCreator* $ByNewGameObjectMethod$b__0(::Zenject::DiContainer* container);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1D1FC60
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1D1FCBC
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.SubContainerBinder/Zenject.<>c__DisplayClass12_0
   #pragma pack(pop)
   static check_size<sizeof(SubContainerBinder::$$c__DisplayClass12_0), 24 + sizeof(::System::Action_1<::Zenject::DiContainer*>*)> __Zenject_SubContainerBinder_$$c__DisplayClass12_0SizeCheck;
   static_assert(sizeof(SubContainerBinder::$$c__DisplayClass12_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::SubContainerBinder::$$c__DisplayClass12_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::SubContainerBinder::$$c__DisplayClass12_0::$ByNewGameObjectMethod$b__0
 // Il2CppName: <ByNewGameObjectMethod>b__0
 template<>
@@ -120,7 +114,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder::$$c__DisplayClass12_0*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::SubContainerBinder::$$c__DisplayClass12_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

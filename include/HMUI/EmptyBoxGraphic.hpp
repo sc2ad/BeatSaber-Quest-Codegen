@@ -37,15 +37,7 @@ namespace HMUI {
     public:
     // Writing base type padding for base size: 0x89 to desired offset: 0x8C
     char ___base_padding[0x3] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _depth
     // Size: 0x4
     // Offset: 0x8C
@@ -54,27 +46,19 @@ namespace HMUI {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private System.Single _depth
-    float& dyn__depth();
-    // protected System.Void OnDrawGizmosSelected()
-    // Offset: 0x16E454C
-    void OnDrawGizmosSelected();
+    [[deprecated("Use field access instead!")]] float& dyn__depth();
     // public System.Void .ctor()
-    // Offset: 0x16E47B8
-    // Implemented from: UnityEngine.UI.Graphic
-    // Base method: System.Void Graphic::.ctor()
-    // Base method: System.Void UIBehaviour::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x171C0C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EmptyBoxGraphic* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::EmptyBoxGraphic::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmptyBoxGraphic*, creationType>()));
     }
+    // protected System.Void OnDrawGizmosSelected()
+    // Offset: 0x171BE5C
+    void OnDrawGizmosSelected();
     // protected override System.Void OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
-    // Offset: 0x16E418C
+    // Offset: 0x171BA9C
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
     void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);
@@ -84,6 +68,10 @@ namespace HMUI {
   static_assert(sizeof(EmptyBoxGraphic) == 0x90);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HMUI::EmptyBoxGraphic::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::EmptyBoxGraphic::OnDrawGizmosSelected
 // Il2CppName: OnDrawGizmosSelected
 template<>
@@ -92,10 +80,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::EmptyBoxGraphic*), "OnDrawGizmosSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HMUI::EmptyBoxGraphic::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::EmptyBoxGraphic::OnPopulateMesh
 // Il2CppName: OnPopulateMesh
 template<>

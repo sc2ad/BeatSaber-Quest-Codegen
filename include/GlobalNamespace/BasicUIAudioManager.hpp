@@ -46,15 +46,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BasicUIAudioManager : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Signal[] _buttonClickEvents
     // Size: 0x8
     // Offset: 0x18
@@ -95,48 +87,46 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Signal[] _buttonClickEvents
-    ::ArrayW<::GlobalNamespace::Signal*>& dyn__buttonClickEvents();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::Signal*>& dyn__buttonClickEvents();
     // Get instance field reference: private UnityEngine.AudioSource _audioSource
-    ::UnityEngine::AudioSource*& dyn__audioSource();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioSource*& dyn__audioSource();
     // Get instance field reference: private UnityEngine.AudioClip[] _clickSounds
-    ::ArrayW<::UnityEngine::AudioClip*>& dyn__clickSounds();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::AudioClip*>& dyn__clickSounds();
     // Get instance field reference: private System.Single _minPitch
-    float& dyn__minPitch();
+    [[deprecated("Use field access instead!")]] float& dyn__minPitch();
     // Get instance field reference: private System.Single _maxPitch
-    float& dyn__maxPitch();
+    [[deprecated("Use field access instead!")]] float& dyn__maxPitch();
     // Get instance field reference: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomSoundPicker
-    ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*& dyn__randomSoundPicker();
-    // protected System.Void Start()
-    // Offset: 0x1361F50
-    void Start();
-    // protected System.Void OnEnable()
-    // Offset: 0x1361FE8
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x13620BC
-    void OnDisable();
-    // private System.Void HandleButtonClickEvent()
-    // Offset: 0x1362190
-    void HandleButtonClickEvent();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*& dyn__randomSoundPicker();
     // public System.Void .ctor()
-    // Offset: 0x1362270
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x134A4F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicUIAudioManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BasicUIAudioManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BasicUIAudioManager*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x134A1D0
+    void Start();
+    // protected System.Void OnEnable()
+    // Offset: 0x134A268
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x134A33C
+    void OnDisable();
+    // private System.Void HandleButtonClickEvent()
+    // Offset: 0x134A410
+    void HandleButtonClickEvent();
   }; // BasicUIAudioManager
   #pragma pack(pop)
   static check_size<sizeof(BasicUIAudioManager), 56 + sizeof(::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*)> __GlobalNamespace_BasicUIAudioManagerSizeCheck;
   static_assert(sizeof(BasicUIAudioManager) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BasicUIAudioManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BasicUIAudioManager::Start
 // Il2CppName: Start
 template<>
@@ -169,7 +159,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BasicUIAudioManager*), "HandleButtonClickEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BasicUIAudioManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

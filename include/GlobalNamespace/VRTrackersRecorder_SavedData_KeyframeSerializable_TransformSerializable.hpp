@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRTrackersRecorder::SavedData::KeyframeSerializable::TransformSerializable : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single _xPos
     // Size: 0x4
     // Offset: 0x10
@@ -82,25 +74,23 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.Single _xPos
-    float& dyn__xPos();
+    [[deprecated("Use field access instead!")]] float& dyn__xPos();
     // Get instance field reference: public System.Single _yPos
-    float& dyn__yPos();
+    [[deprecated("Use field access instead!")]] float& dyn__yPos();
     // Get instance field reference: public System.Single _zPos
-    float& dyn__zPos();
+    [[deprecated("Use field access instead!")]] float& dyn__zPos();
     // Get instance field reference: public System.Single _xRot
-    float& dyn__xRot();
+    [[deprecated("Use field access instead!")]] float& dyn__xRot();
     // Get instance field reference: public System.Single _yRot
-    float& dyn__yRot();
+    [[deprecated("Use field access instead!")]] float& dyn__yRot();
     // Get instance field reference: public System.Single _zRot
-    float& dyn__zRot();
+    [[deprecated("Use field access instead!")]] float& dyn__zRot();
     // Get instance field reference: public System.Single _wRot
-    float& dyn__wRot();
+    [[deprecated("Use field access instead!")]] float& dyn__wRot();
     // Get instance field reference: public System.Boolean _valid
-    bool& dyn__valid();
+    [[deprecated("Use field access instead!")]] bool& dyn__valid();
     // public System.Void .ctor()
-    // Offset: 0x2AC2108
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14A1660
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRTrackersRecorder::SavedData::KeyframeSerializable::TransformSerializable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable::TransformSerializable::.ctor");

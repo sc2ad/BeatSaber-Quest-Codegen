@@ -24,15 +24,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class ThreefishEngine::ThreefishCipher : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected readonly System.UInt64[] t
     // Size: 0x8
     // Offset: 0x10
@@ -47,11 +39,11 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static_assert(sizeof(::ArrayW<uint64_t>) == 0x8);
     public:
     // Get instance field reference: protected readonly System.UInt64[] t
-    ::ArrayW<uint64_t>& dyn_t();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint64_t>& dyn_t();
     // Get instance field reference: protected readonly System.UInt64[] kw
-    ::ArrayW<uint64_t>& dyn_kw();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint64_t>& dyn_kw();
     // protected System.Void .ctor(System.UInt64[] kw, System.UInt64[] t)
-    // Offset: 0x23CDB54
+    // Offset: 0x24163C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreefishEngine::ThreefishCipher* New_ctor(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher::.ctor");

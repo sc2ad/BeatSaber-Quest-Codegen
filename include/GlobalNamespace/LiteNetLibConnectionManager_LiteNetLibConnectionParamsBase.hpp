@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase : public ::Il2CppObject/*, public ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::LiteNetLibConnectionManager*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public IConnectionRequestHandler connectionRequestHandler
     // Size: 0x8
     // Offset: 0x10
@@ -89,23 +81,21 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::LiteNetLibConnectionManager*>*>(this);
     }
     // Get instance field reference: public IConnectionRequestHandler connectionRequestHandler
-    ::GlobalNamespace::IConnectionRequestHandler*& dyn_connectionRequestHandler();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectionRequestHandler*& dyn_connectionRequestHandler();
     // Get instance field reference: public System.Int32 port
-    int& dyn_port();
+    [[deprecated("Use field access instead!")]] int& dyn_port();
     // Get instance field reference: public System.Boolean filterUnencryptedTraffic
-    bool& dyn_filterUnencryptedTraffic();
+    [[deprecated("Use field access instead!")]] bool& dyn_filterUnencryptedTraffic();
     // Get instance field reference: public System.Boolean enableUnconnectedMessages
-    bool& dyn_enableUnconnectedMessages();
+    [[deprecated("Use field access instead!")]] bool& dyn_enableUnconnectedMessages();
     // Get instance field reference: public System.Boolean enableBackgroundSentry
-    bool& dyn_enableBackgroundSentry();
+    [[deprecated("Use field access instead!")]] bool& dyn_enableBackgroundSentry();
     // Get instance field reference: public System.Boolean enableStatistics
-    bool& dyn_enableStatistics();
+    [[deprecated("Use field access instead!")]] bool& dyn_enableStatistics();
     // Get instance field reference: public System.Int32 disconnectTimeoutMs
-    int& dyn_disconnectTimeoutMs();
+    [[deprecated("Use field access instead!")]] int& dyn_disconnectTimeoutMs();
     // protected System.Void .ctor()
-    // Offset: 0x164BD74
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1682684
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase::.ctor");

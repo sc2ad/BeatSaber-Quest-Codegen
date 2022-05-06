@@ -70,20 +70,20 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<EntitlementsStatus> <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementsStatus>& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementsStatus>& dyn_$$t__builder();
     // Get instance field reference: public NetworkPlayerEntitlementChecker <>4__this
-    ::GlobalNamespace::NetworkPlayerEntitlementChecker*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NetworkPlayerEntitlementChecker*& dyn_$$4__this();
     // Get instance field reference: public System.String levelId
-    ::StringW& dyn_levelId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_levelId();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/EntitlementStatus> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x146EC84
+    // Offset: 0x14A546C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x146EE60
+    // Offset: 0x14A5648
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // NetworkPlayerEntitlementChecker/<GetEntitlementStatus>d__6
   // WARNING Not writing size check since size may be invalid!

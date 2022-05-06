@@ -24,15 +24,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NamedIntListController::TextValuePair : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String localizationKey
     // Size: 0x8
     // Offset: 0x10
@@ -47,16 +39,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public System.String localizationKey
-    ::StringW& dyn_localizationKey();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_localizationKey();
     // Get instance field reference: public System.Int32 value
-    int& dyn_value();
+    [[deprecated("Use field access instead!")]] int& dyn_value();
     // public System.String get_localizedText()
-    // Offset: 0x146E384
+    // Offset: 0x14A4B6C
     ::StringW get_localizedText();
     // public System.Void .ctor()
-    // Offset: 0x146E398
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14A4B80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamedIntListController::TextValuePair* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NamedIntListController::TextValuePair::.ctor");

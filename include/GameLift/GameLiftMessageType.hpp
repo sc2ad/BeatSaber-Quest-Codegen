@@ -66,7 +66,7 @@ namespace GameLift {
     // Set static field: static public GameLift.GameLiftMessageType MultipartMessage
     static void _set_MultipartMessage(::GameLift::GameLiftMessageType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // GameLift.GameLiftMessageType
   #pragma pack(pop)
   static check_size<sizeof(GameLiftMessageType), 0 + sizeof(int)> __GameLift_GameLiftMessageTypeSizeCheck;

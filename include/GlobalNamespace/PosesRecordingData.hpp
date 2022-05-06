@@ -43,15 +43,7 @@ namespace GlobalNamespace {
     class TransformsKeyframe;
     // Nested type: ::GlobalNamespace::PosesRecordingData::ExternalCameraCalibration
     class ExternalCameraCalibration;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.String[] objectIds
     // Size: 0x8
     // Offset: 0x10
@@ -72,31 +64,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::PosesRecordingData::ExternalCameraCalibration*) == 0x8);
     public:
     // Get instance field reference: public readonly System.String[] objectIds
-    ::ArrayW<::StringW>& dyn_objectIds();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_objectIds();
     // Get instance field reference: public readonly System.Collections.Generic.List`1<PosesRecordingData/TransformsKeyframe> keyframes
-    ::System::Collections::Generic::List_1<::GlobalNamespace::PosesRecordingData::TransformsKeyframe*>*& dyn_keyframes();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::PosesRecordingData::TransformsKeyframe*>*& dyn_keyframes();
     // Get instance field reference: public readonly PosesRecordingData/ExternalCameraCalibration externalCameraCalibration
-    ::GlobalNamespace::PosesRecordingData::ExternalCameraCalibration*& dyn_externalCameraCalibration();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PosesRecordingData::ExternalCameraCalibration*& dyn_externalCameraCalibration();
     // public System.Void .ctor(System.String[] objectIds, PosesRecordingData/ExternalCameraCalibration externalCameraCalibration)
-    // Offset: 0x13750B8
+    // Offset: 0x13DC35C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PosesRecordingData* New_ctor(::ArrayW<::StringW> objectIds, ::GlobalNamespace::PosesRecordingData::ExternalCameraCalibration* externalCameraCalibration) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosesRecordingData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PosesRecordingData*, creationType>(objectIds, externalCameraCalibration)));
     }
     // public System.Void .ctor(System.String[] objectIds, System.Collections.Generic.List`1<PosesRecordingData/TransformsKeyframe> keyframes, PosesRecordingData/ExternalCameraCalibration externalCameraCalibration)
-    // Offset: 0x13752AC
+    // Offset: 0x13DC550
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PosesRecordingData* New_ctor(::ArrayW<::StringW> objectIds, ::System::Collections::Generic::List_1<::GlobalNamespace::PosesRecordingData::TransformsKeyframe*>* keyframes, ::GlobalNamespace::PosesRecordingData::ExternalCameraCalibration* externalCameraCalibration) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosesRecordingData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PosesRecordingData*, creationType>(objectIds, keyframes, externalCameraCalibration)));
     }
     // public System.Void AddKeyframe(PosesRecordingData/TransformsKeyframe keyframe)
-    // Offset: 0x1375188
+    // Offset: 0x13DC42C
     void AddKeyframe(::GlobalNamespace::PosesRecordingData::TransformsKeyframe* keyframe);
     // public System.Boolean Contains(System.String objectId)
-    // Offset: 0x13752EC
+    // Offset: 0x13DC590
     bool Contains(::StringW objectId);
+    // public System.Int32 ObjectIndex(System.String objectId)
+    // Offset: 0x13DC5F0
+    int ObjectIndex(::StringW objectId);
   }; // PosesRecordingData
   #pragma pack(pop)
   static check_size<sizeof(PosesRecordingData), 32 + sizeof(::GlobalNamespace::PosesRecordingData::ExternalCameraCalibration*)> __GlobalNamespace_PosesRecordingDataSizeCheck;
@@ -127,5 +122,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
   static const MethodInfo* get() {
     static auto* objectId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PosesRecordingData*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objectId});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::PosesRecordingData::ObjectIndex
+// Il2CppName: ObjectIndex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::PosesRecordingData::*)(::StringW)>(&GlobalNamespace::PosesRecordingData::ObjectIndex)> {
+  static const MethodInfo* get() {
+    static auto* objectId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PosesRecordingData*), "ObjectIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objectId});
   }
 };

@@ -40,15 +40,7 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: ::RootMotion::FinalIK::AimPoser::Pose
     class Pose;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single angleBuffer
     // Size: 0x4
     // Offset: 0x18
@@ -67,34 +59,32 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single angleBuffer
-    float& dyn_angleBuffer();
+    [[deprecated("Use field access instead!")]] float& dyn_angleBuffer();
     // Get instance field reference: public RootMotion.FinalIK.AimPoser/RootMotion.FinalIK.Pose[] poses
-    ::ArrayW<::RootMotion::FinalIK::AimPoser::Pose*>& dyn_poses();
-    // public RootMotion.FinalIK.AimPoser/RootMotion.FinalIK.Pose GetPose(UnityEngine.Vector3 localDirection)
-    // Offset: 0x22029F4
-    ::RootMotion::FinalIK::AimPoser::Pose* GetPose(::UnityEngine::Vector3 localDirection);
-    // public System.Void SetPoseActive(RootMotion.FinalIK.AimPoser/RootMotion.FinalIK.Pose pose)
-    // Offset: 0x2202D68
-    void SetPoseActive(::RootMotion::FinalIK::AimPoser::Pose* pose);
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::AimPoser::Pose*>& dyn_poses();
     // public System.Void .ctor()
-    // Offset: 0x2202DD4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2250648
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AimPoser* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::AimPoser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AimPoser*, creationType>()));
     }
+    // public RootMotion.FinalIK.AimPoser/RootMotion.FinalIK.Pose GetPose(UnityEngine.Vector3 localDirection)
+    // Offset: 0x2250268
+    ::RootMotion::FinalIK::AimPoser::Pose* GetPose(::UnityEngine::Vector3 localDirection);
+    // public System.Void SetPoseActive(RootMotion.FinalIK.AimPoser/RootMotion.FinalIK.Pose pose)
+    // Offset: 0x22505DC
+    void SetPoseActive(::RootMotion::FinalIK::AimPoser::Pose* pose);
   }; // RootMotion.FinalIK.AimPoser
   #pragma pack(pop)
   static check_size<sizeof(AimPoser), 32 + sizeof(::ArrayW<::RootMotion::FinalIK::AimPoser::Pose*>)> __RootMotion_FinalIK_AimPoserSizeCheck;
   static_assert(sizeof(AimPoser) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::AimPoser::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::AimPoser::GetPose
 // Il2CppName: GetPose
 template<>
@@ -113,7 +103,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::AimPoser*), "SetPoseActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pose});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::AimPoser::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

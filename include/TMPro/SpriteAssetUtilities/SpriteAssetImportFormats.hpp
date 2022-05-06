@@ -54,7 +54,7 @@ namespace TMPro::SpriteAssetUtilities {
     // Set static field: static public TMPro.SpriteAssetUtilities.SpriteAssetImportFormats TexturePacker
     static void _set_TexturePacker(::TMPro::SpriteAssetUtilities::SpriteAssetImportFormats value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // TMPro.SpriteAssetUtilities.SpriteAssetImportFormats
   #pragma pack(pop)
   static check_size<sizeof(SpriteAssetImportFormats), 0 + sizeof(int)> __TMPro_SpriteAssetUtilities_SpriteAssetImportFormatsSizeCheck;

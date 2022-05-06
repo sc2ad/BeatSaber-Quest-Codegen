@@ -36,23 +36,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HealthWarningDisplayViewController : public ::HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [HeaderAttribute] Offset: 0x125B324
+    // [HeaderAttribute] Offset: 0x10DFF08
     // private TMPro.TextMeshProUGUI _healthAndSafetyTextMesh
     // Size: 0x8
     // Offset: 0x70
     ::TMPro::TextMeshProUGUI* healthAndSafetyTextMesh;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0x125B370
+    // [LocalizationKeyAttribute] Offset: 0x10DFF54
     // private System.String _healthAndSafetyFullLocalizationKey
     // Size: 0x8
     // Offset: 0x78
@@ -67,27 +59,20 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private TMPro.TextMeshProUGUI _healthAndSafetyTextMesh
-    ::TMPro::TextMeshProUGUI*& dyn__healthAndSafetyTextMesh();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__healthAndSafetyTextMesh();
     // Get instance field reference: private System.String _healthAndSafetyFullLocalizationKey
-    ::StringW& dyn__healthAndSafetyFullLocalizationKey();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__healthAndSafetyFullLocalizationKey();
     // Get instance field reference: private System.Boolean _showShortHealthAndSafety
-    bool& dyn__showShortHealthAndSafety();
+    [[deprecated("Use field access instead!")]] bool& dyn__showShortHealthAndSafety();
     // public System.Void .ctor()
-    // Offset: 0x13B08C8
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13ABD74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HealthWarningDisplayViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HealthWarningDisplayViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningDisplayViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13B0880
+    // Offset: 0x13ABD2C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

@@ -38,15 +38,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerEnvironmentResizeController::ResizeData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MultiplayerEnvironmentResizeController/ResizeType _resizeType
     // Size: 0x4
     // Offset: 0x10
@@ -59,14 +51,14 @@ namespace GlobalNamespace {
     float offset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [NullAllowed] Offset: 0x126181C
+    // [NullAllowed] Offset: 0x10E64C4
     // private TubeBloomPrePassLight[] _lights
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*> lights;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
-    // [NullAllowed] Offset: 0x1261854
+    // [NullAllowed] Offset: 0x10E64FC
     // private UnityEngine.Transform[] _otherTransforms
     // Size: 0x8
     // Offset: 0x20
@@ -75,29 +67,27 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<::UnityEngine::Transform*>) == 0x8);
     public:
     // Get instance field reference: private MultiplayerEnvironmentResizeController/ResizeType _resizeType
-    ::GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType& dyn__resizeType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType& dyn__resizeType();
     // Get instance field reference: private System.Single _offset
-    float& dyn__offset();
+    [[deprecated("Use field access instead!")]] float& dyn__offset();
     // Get instance field reference: private TubeBloomPrePassLight[] _lights
-    ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*>& dyn__lights();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*>& dyn__lights();
     // Get instance field reference: private UnityEngine.Transform[] _otherTransforms
-    ::ArrayW<::UnityEngine::Transform*>& dyn__otherTransforms();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Transform*>& dyn__otherTransforms();
     // public MultiplayerEnvironmentResizeController/ResizeType get_resizeType()
-    // Offset: 0x13F2000
+    // Offset: 0x13FEAA0
     ::GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType get_resizeType();
     // public System.Single get_offset()
-    // Offset: 0x13F2008
+    // Offset: 0x13FEAA8
     float get_offset();
     // public TubeBloomPrePassLight[] get_lights()
-    // Offset: 0x13F2010
+    // Offset: 0x13FEAB0
     ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*> get_lights();
     // public UnityEngine.Transform[] get_otherTransforms()
-    // Offset: 0x13F2018
+    // Offset: 0x13FEAB8
     ::ArrayW<::UnityEngine::Transform*> get_otherTransforms();
     // public System.Void .ctor()
-    // Offset: 0x13F2020
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13FEAC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerEnvironmentResizeController::ResizeData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData::.ctor");

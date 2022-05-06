@@ -51,19 +51,13 @@ namespace UnityEngine::TestTools {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnumerableTestMethodCommand : public ::NUnit::Framework::Internal::Commands::TestCommand/*, public ::UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*/ {
     public:
+    // Nested type: ::UnityEngine::TestTools::EnumerableTestMethodCommand::EnumeratorContext
+    class EnumeratorContext;
     // Nested type: ::UnityEngine::TestTools::EnumerableTestMethodCommand::$ExecuteEnumerable$d__2
     class $ExecuteEnumerable$d__2;
     // Nested type: ::UnityEngine::TestTools::EnumerableTestMethodCommand::$ExecuteEnumerableAndRecordExceptions$d__4
     class $ExecuteEnumerableAndRecordExceptions$d__4;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly NUnit.Framework.Internal.TestMethod testMethod
     // Size: 0x8
     // Offset: 0x18
@@ -78,25 +72,25 @@ namespace UnityEngine::TestTools {
     // Deleting conversion operator: operator ::NUnit::Framework::Internal::Test*
     constexpr operator ::NUnit::Framework::Internal::Test*() const noexcept = delete;
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestMethod testMethod
-    ::NUnit::Framework::Internal::TestMethod*& dyn_testMethod();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::TestMethod*& dyn_testMethod();
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod testMethod)
-    // Offset: 0x193FD60
+    // Offset: 0x19779C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumerableTestMethodCommand* New_ctor(::NUnit::Framework::Internal::TestMethod* testMethod) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::EnumerableTestMethodCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableTestMethodCommand*, creationType>(testMethod)));
     }
     // public System.Collections.IEnumerable ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x194A08C
+    // Offset: 0x198215C
     ::System::Collections::IEnumerable* ExecuteEnumerable(::NUnit::Framework::Internal::ITestExecutionContext* context);
     // private System.Boolean AdvanceEnumerator(System.Collections.IEnumerator enumerator)
-    // Offset: 0x194A154
+    // Offset: 0x1982224
     bool AdvanceEnumerator(::System::Collections::IEnumerator* enumerator);
-    // static private System.Collections.IEnumerator ExecuteEnumerableAndRecordExceptions(System.Collections.IEnumerator enumerator, NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x194A290
-    static ::System::Collections::IEnumerator* ExecuteEnumerableAndRecordExceptions(::System::Collections::IEnumerator* enumerator, ::NUnit::Framework::Internal::ITestExecutionContext* context);
+    // private System.Collections.IEnumerator ExecuteEnumerableAndRecordExceptions(System.Collections.IEnumerator enumerator, UnityEngine.TestTools.EnumerableTestMethodCommand/UnityEngine.TestTools.EnumeratorContext context)
+    // Offset: 0x1982360
+    ::System::Collections::IEnumerator* ExecuteEnumerableAndRecordExceptions(::System::Collections::IEnumerator* enumerator, ::UnityEngine::TestTools::EnumerableTestMethodCommand::EnumeratorContext* context);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x194A338
+    // Offset: 0x1982410
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     ::NUnit::Framework::Internal::TestResult* Execute(::NUnit::Framework::Internal::ITestExecutionContext* context);
@@ -131,10 +125,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableTestMethodCommand::ExecuteEnumerableAndRecordExceptions
 // Il2CppName: ExecuteEnumerableAndRecordExceptions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (*)(::System::Collections::IEnumerator*, ::NUnit::Framework::Internal::ITestExecutionContext*)>(&UnityEngine::TestTools::EnumerableTestMethodCommand::ExecuteEnumerableAndRecordExceptions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (UnityEngine::TestTools::EnumerableTestMethodCommand::*)(::System::Collections::IEnumerator*, ::UnityEngine::TestTools::EnumerableTestMethodCommand::EnumeratorContext*)>(&UnityEngine::TestTools::EnumerableTestMethodCommand::ExecuteEnumerableAndRecordExceptions)> {
   static const MethodInfo* get() {
     static auto* enumerator = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerator")->byval_arg;
-    static auto* context = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "ITestExecutionContext")->byval_arg;
+    static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine.TestTools", "EnumerableTestMethodCommand/EnumeratorContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::EnumerableTestMethodCommand*), "ExecuteEnumerableAndRecordExceptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumerator, context});
   }
 };

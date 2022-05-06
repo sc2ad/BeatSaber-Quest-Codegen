@@ -28,15 +28,7 @@ namespace System::Xml::Schema {
   // [TokenAttribute] Offset: FFFFFFFF
   class UpaException : public ::System::Exception {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Object particle1
     // Size: 0x8
     // Offset: 0x88
@@ -51,11 +43,11 @@ namespace System::Xml::Schema {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: private System.Object particle1
-    ::Il2CppObject*& dyn_particle1();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_particle1();
     // Get instance field reference: private System.Object particle2
-    ::Il2CppObject*& dyn_particle2();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_particle2();
     // public System.Void .ctor(System.Object particle1, System.Object particle2)
-    // Offset: 0x1C2846C
+    // Offset: 0x1C62A54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UpaException* New_ctor(::Il2CppObject* particle1, ::Il2CppObject* particle2) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::UpaException::.ctor");

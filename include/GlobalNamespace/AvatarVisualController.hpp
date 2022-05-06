@@ -60,15 +60,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::AvatarVisualController::HighlighterDelegate
     class HighlighterDelegate;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.MeshFilter _headTopMeshFilter
     // Size: 0x8
     // Offset: 0x18
@@ -117,7 +109,7 @@ namespace GlobalNamespace {
     ::UnityEngine::MeshFilter* bodyMeshFilter;
     // Field size check
     static_assert(sizeof(::UnityEngine::MeshFilter*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124B2C0
+    // [SpaceAttribute] Offset: 0x10CFDB8
     // private MulticolorAvatarPartPropertyBlockSetter _headTopPropertyBlockColorSetter
     // Size: 0x8
     // Offset: 0x58
@@ -160,7 +152,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter* rightHandPropertyBlockSetter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter*) == 0x8);
-    // [InjectAttribute] Offset: 0x124B358
+    // [InjectAttribute] Offset: 0x10CFE50
     // private readonly AvatarPartsModel _avatarPartsModel
     // Size: 0x8
     // Offset: 0x90
@@ -195,82 +187,76 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.MeshFilter _headTopMeshFilter
-    ::UnityEngine::MeshFilter*& dyn__headTopMeshFilter();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MeshFilter*& dyn__headTopMeshFilter();
     // Get instance field reference: private UnityEngine.MeshFilter _glassesMeshFilter
-    ::UnityEngine::MeshFilter*& dyn__glassesMeshFilter();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MeshFilter*& dyn__glassesMeshFilter();
     // Get instance field reference: private UnityEngine.MeshFilter _facialHairMeshFilter
-    ::UnityEngine::MeshFilter*& dyn__facialHairMeshFilter();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MeshFilter*& dyn__facialHairMeshFilter();
     // Get instance field reference: private UnityEngine.MeshFilter _leftHandsHairMeshFilter
-    ::UnityEngine::MeshFilter*& dyn__leftHandsHairMeshFilter();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MeshFilter*& dyn__leftHandsHairMeshFilter();
     // Get instance field reference: private UnityEngine.MeshFilter _rightHandsHairMeshFilter
-    ::UnityEngine::MeshFilter*& dyn__rightHandsHairMeshFilter();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MeshFilter*& dyn__rightHandsHairMeshFilter();
     // Get instance field reference: private UnityEngine.SpriteRenderer _eyesSprite
-    ::UnityEngine::SpriteRenderer*& dyn__eyesSprite();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::SpriteRenderer*& dyn__eyesSprite();
     // Get instance field reference: private UnityEngine.SpriteRenderer _mouthSprite
-    ::UnityEngine::SpriteRenderer*& dyn__mouthSprite();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::SpriteRenderer*& dyn__mouthSprite();
     // Get instance field reference: private UnityEngine.MeshFilter _bodyMeshFilter
-    ::UnityEngine::MeshFilter*& dyn__bodyMeshFilter();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MeshFilter*& dyn__bodyMeshFilter();
     // Get instance field reference: private MulticolorAvatarPartPropertyBlockSetter _headTopPropertyBlockColorSetter
-    ::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter*& dyn__headTopPropertyBlockColorSetter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter*& dyn__headTopPropertyBlockColorSetter();
     // Get instance field reference: private AvatarPropertyBlockColorSetter _glassesPropertyBlockColorSetter
-    ::GlobalNamespace::AvatarPropertyBlockColorSetter*& dyn__glassesPropertyBlockColorSetter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarPropertyBlockColorSetter*& dyn__glassesPropertyBlockColorSetter();
     // Get instance field reference: private AvatarPropertyBlockColorSetter _facialHairPropertyBlockColorSetter
-    ::GlobalNamespace::AvatarPropertyBlockColorSetter*& dyn__facialHairPropertyBlockColorSetter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarPropertyBlockColorSetter*& dyn__facialHairPropertyBlockColorSetter();
     // Get instance field reference: private AvatarPropertyBlockColorSetter _skinPropertyBlockColorSetter
-    ::GlobalNamespace::AvatarPropertyBlockColorSetter*& dyn__skinPropertyBlockColorSetter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarPropertyBlockColorSetter*& dyn__skinPropertyBlockColorSetter();
     // Get instance field reference: private MulticolorAvatarPartPropertyBlockSetter _clothesPropertyBlockSetter
-    ::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter*& dyn__clothesPropertyBlockSetter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter*& dyn__clothesPropertyBlockSetter();
     // Get instance field reference: private MulticolorAvatarPartPropertyBlockSetter _leftHandPropertyBlockSetter
-    ::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter*& dyn__leftHandPropertyBlockSetter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter*& dyn__leftHandPropertyBlockSetter();
     // Get instance field reference: private MulticolorAvatarPartPropertyBlockSetter _rightHandPropertyBlockSetter
-    ::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter*& dyn__rightHandPropertyBlockSetter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter*& dyn__rightHandPropertyBlockSetter();
     // Get instance field reference: private readonly AvatarPartsModel _avatarPartsModel
-    ::GlobalNamespace::AvatarPartsModel*& dyn__avatarPartsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarPartsModel*& dyn__avatarPartsModel();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<EditAvatarViewController/AvatarEditPart,AvatarVisualController/HighlighterDelegate> _avatarPartHighlightSetters
-    ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EditAvatarViewController::AvatarEditPart, ::GlobalNamespace::AvatarVisualController::HighlighterDelegate*>*& dyn__avatarPartHighlightSetters();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EditAvatarViewController::AvatarEditPart, ::GlobalNamespace::AvatarVisualController::HighlighterDelegate*>*& dyn__avatarPartHighlightSetters();
     // Get instance field reference: private UnityEngine.Color _lightColor
-    ::UnityEngine::Color& dyn__lightColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__lightColor();
     // Get instance field reference: private AvatarData _avatarData
-    ::GlobalNamespace::AvatarData*& dyn__avatarData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarData*& dyn__avatarData();
     // Get instance field reference: private AvatarVisualController/HighlighterDelegate _currentHighlighter
-    ::GlobalNamespace::AvatarVisualController::HighlighterDelegate*& dyn__currentHighlighter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarVisualController::HighlighterDelegate*& dyn__currentHighlighter();
     // public UnityEngine.Color get_lightColor()
-    // Offset: 0x14C0E70
+    // Offset: 0x14F8728
     ::UnityEngine::Color get_lightColor();
-    // protected System.Void Awake()
-    // Offset: 0x14C0E7C
-    void Awake();
-    // public System.Void UpdateAvatarVisual(AvatarData avatarData)
-    // Offset: 0x14C10B8
-    void UpdateAvatarVisual(::GlobalNamespace::AvatarData* avatarData);
-    // public System.Void SetLightColor(UnityEngine.Color color)
-    // Offset: 0x14BB960
-    void SetLightColor(::UnityEngine::Color color);
-    // private System.Void UpdateAvatarColors()
-    // Offset: 0x14C1508
-    void UpdateAvatarColors();
-    // public System.Void HighlightEditedPart(EditAvatarViewController/AvatarEditPart editPart, System.Int32 uvSegment)
-    // Offset: 0x14C1878
-    void HighlightEditedPart(::GlobalNamespace::EditAvatarViewController::AvatarEditPart editPart, int uvSegment);
-    // public System.Void DisableEditedPartHighlight()
-    // Offset: 0x14C1BA4
-    void DisableEditedPartHighlight();
-    // private System.Void SetHandsHighlight(System.Boolean highlighted, System.Int32 uvSegment)
-    // Offset: 0x14C1BD8
-    void SetHandsHighlight(bool highlighted, int uvSegment);
     // public System.Void .ctor()
-    // Offset: 0x14C1C24
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14F94DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarVisualController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarVisualController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarVisualController*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x14F8734
+    void Awake();
+    // public System.Void UpdateAvatarVisual(AvatarData avatarData)
+    // Offset: 0x14F8970
+    void UpdateAvatarVisual(::GlobalNamespace::AvatarData* avatarData);
+    // public System.Void SetLightColor(UnityEngine.Color color)
+    // Offset: 0x14F3218
+    void SetLightColor(::UnityEngine::Color color);
+    // private System.Void UpdateAvatarColors()
+    // Offset: 0x14F8DC0
+    void UpdateAvatarColors();
+    // public System.Void HighlightEditedPart(EditAvatarViewController/AvatarEditPart editPart, System.Int32 uvSegment)
+    // Offset: 0x14F9130
+    void HighlightEditedPart(::GlobalNamespace::EditAvatarViewController::AvatarEditPart editPart, int uvSegment);
+    // public System.Void DisableEditedPartHighlight()
+    // Offset: 0x14F945C
+    void DisableEditedPartHighlight();
+    // private System.Void SetHandsHighlight(System.Boolean highlighted, System.Int32 uvSegment)
+    // Offset: 0x14F9490
+    void SetHandsHighlight(bool highlighted, int uvSegment);
   }; // AvatarVisualController
   #pragma pack(pop)
   static check_size<sizeof(AvatarVisualController), 184 + sizeof(::GlobalNamespace::AvatarVisualController::HighlighterDelegate*)> __GlobalNamespace_AvatarVisualControllerSizeCheck;
@@ -285,6 +271,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarVisualController*), "get_lightColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::AvatarVisualController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AvatarVisualController::Awake
 // Il2CppName: Awake
 template<>
@@ -347,7 +337,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarVisualController*), "SetHandsHighlight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{highlighted, uvSegment});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AvatarVisualController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

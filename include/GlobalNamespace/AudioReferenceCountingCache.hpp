@@ -41,10 +41,9 @@ namespace GlobalNamespace {
   class AudioReferenceCountingCache : public ::GlobalNamespace::ReferenceCountingCache_2<int, ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14B9E34
+    // Offset: 0x14F16EC
     // Implemented from: ReferenceCountingCache`2
     // Base method: System.Void ReferenceCountingCache_2::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioReferenceCountingCache* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AudioReferenceCountingCache::.ctor");

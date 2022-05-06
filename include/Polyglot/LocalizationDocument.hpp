@@ -36,15 +36,7 @@ namespace Polyglot {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalizationDocument : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String docsId
     // Size: 0x8
     // Offset: 0x10
@@ -79,49 +71,47 @@ namespace Polyglot {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.String docsId
-    ::StringW& dyn_docsId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_docsId();
     // Get instance field reference: private System.String sheetId
-    ::StringW& dyn_sheetId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_sheetId();
     // Get instance field reference: private Polyglot.GoogleDriveDownloadFormat format
-    ::Polyglot::GoogleDriveDownloadFormat& dyn_format();
+    [[deprecated("Use field access instead!")]] ::Polyglot::GoogleDriveDownloadFormat& dyn_format();
     // Get instance field reference: private UnityEngine.TextAsset textAsset
-    ::UnityEngine::TextAsset*& dyn_textAsset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TextAsset*& dyn_textAsset();
     // Get instance field reference: private System.Boolean downloadOnStart
-    bool& dyn_downloadOnStart();
+    [[deprecated("Use field access instead!")]] bool& dyn_downloadOnStart();
     // public UnityEngine.TextAsset get_TextAsset()
-    // Offset: 0x29DF800
+    // Offset: 0x2A350F4
     ::UnityEngine::TextAsset* get_TextAsset();
     // public System.Void set_TextAsset(UnityEngine.TextAsset value)
-    // Offset: 0x29DF808
+    // Offset: 0x2A350FC
     void set_TextAsset(::UnityEngine::TextAsset* value);
     // public System.String get_DocsId()
-    // Offset: 0x29DF810
+    // Offset: 0x2A35104
     ::StringW get_DocsId();
     // public System.Void set_DocsId(System.String value)
-    // Offset: 0x29DF818
+    // Offset: 0x2A3510C
     void set_DocsId(::StringW value);
     // public System.String get_SheetId()
-    // Offset: 0x29DF820
+    // Offset: 0x2A35114
     ::StringW get_SheetId();
     // public System.Void set_SheetId(System.String value)
-    // Offset: 0x29DF828
+    // Offset: 0x2A3511C
     void set_SheetId(::StringW value);
     // public Polyglot.GoogleDriveDownloadFormat get_Format()
-    // Offset: 0x29DF830
+    // Offset: 0x2A35124
     ::Polyglot::GoogleDriveDownloadFormat get_Format();
     // public System.Void set_Format(Polyglot.GoogleDriveDownloadFormat value)
-    // Offset: 0x29DF838
+    // Offset: 0x2A3512C
     void set_Format(::Polyglot::GoogleDriveDownloadFormat value);
     // public System.Boolean get_DownloadOnStart()
-    // Offset: 0x29DF840
+    // Offset: 0x2A35134
     bool get_DownloadOnStart();
     // public System.Void set_DownloadOnStart(System.Boolean value)
-    // Offset: 0x29DF848
+    // Offset: 0x2A3513C
     void set_DownloadOnStart(bool value);
     // public System.Void .ctor()
-    // Offset: 0x29DF854
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A35148
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizationDocument* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Polyglot::LocalizationDocument::.ctor");

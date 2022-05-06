@@ -35,15 +35,7 @@ namespace System::Runtime::Remoting::Channels {
   // [TokenAttribute] Offset: FFFFFFFF
   class AsyncRequest : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Runtime.Remoting.Messaging.IMessageSink ReplySink
     // Size: 0x8
     // Offset: 0x10
@@ -58,11 +50,11 @@ namespace System::Runtime::Remoting::Channels {
     static_assert(sizeof(::System::Runtime::Remoting::Messaging::IMessage*) == 0x8);
     public:
     // Get instance field reference: System.Runtime.Remoting.Messaging.IMessageSink ReplySink
-    ::System::Runtime::Remoting::Messaging::IMessageSink*& dyn_ReplySink();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Messaging::IMessageSink*& dyn_ReplySink();
     // Get instance field reference: System.Runtime.Remoting.Messaging.IMessage MsgRequest
-    ::System::Runtime::Remoting::Messaging::IMessage*& dyn_MsgRequest();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Messaging::IMessage*& dyn_MsgRequest();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMessage msgRequest, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0x1C54498
+    // Offset: 0x1C717A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncRequest* New_ctor(::System::Runtime::Remoting::Messaging::IMessage* msgRequest, ::System::Runtime::Remoting::Messaging::IMessageSink* replySink) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Channels::AsyncRequest::.ctor");

@@ -51,15 +51,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameplayServerFiniteStateMachine : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BGNet.Core.ITimeProvider <timeProvider>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -122,75 +114,75 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private BGNet.Core.ITimeProvider <timeProvider>k__BackingField
-    ::BGNet::Core::ITimeProvider*& dyn_$timeProvider$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::BGNet::Core::ITimeProvider*& dyn_$timeProvider$k__BackingField();
     // Get instance field reference: private IMultiplayerSessionManager <multiplayerSessionManager>k__BackingField
-    ::GlobalNamespace::IMultiplayerSessionManager*& dyn_$multiplayerSessionManager$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn_$multiplayerSessionManager$k__BackingField();
     // Get instance field reference: private System.String <ownerUserId>k__BackingField
-    ::StringW& dyn_$ownerUserId$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$ownerUserId$k__BackingField();
     // Get instance field reference: private BeatmapLevelSelectionMask <selectionMask>k__BackingField
-    ::GlobalNamespace::BeatmapLevelSelectionMask& dyn_$selectionMask$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelSelectionMask& dyn_$selectionMask$k__BackingField();
     // Get instance field reference: private GameplayServerConfiguration <configuration>k__BackingField
-    ::GlobalNamespace::GameplayServerConfiguration& dyn_$configuration$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayServerConfiguration& dyn_$configuration$k__BackingField();
     // Get instance field reference: private IServerBeatmapProvider <beatmapProvider>k__BackingField
-    ::GlobalNamespace::IServerBeatmapProvider*& dyn_$beatmapProvider$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IServerBeatmapProvider*& dyn_$beatmapProvider$k__BackingField();
     // Get instance field reference: private MenuRpcManager <menuRpcManager>k__BackingField
-    ::GlobalNamespace::MenuRpcManager*& dyn_$menuRpcManager$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuRpcManager*& dyn_$menuRpcManager$k__BackingField();
     // Get instance field reference: private GameplayRpcManager <gameplayRpcManager>k__BackingField
-    ::GlobalNamespace::GameplayRpcManager*& dyn_$gameplayRpcManager$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayRpcManager*& dyn_$gameplayRpcManager$k__BackingField();
     // Get instance field reference: protected GameState state
-    ::GlobalNamespace::GameState*& dyn_state();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameState*& dyn_state();
     // Get instance field reference: protected System.Boolean enteringState
-    bool& dyn_enteringState();
+    [[deprecated("Use field access instead!")]] bool& dyn_enteringState();
     // public BGNet.Core.ITimeProvider get_timeProvider()
-    // Offset: 0x1648694
+    // Offset: 0x167EFA4
     ::BGNet::Core::ITimeProvider* get_timeProvider();
     // private System.Void set_timeProvider(BGNet.Core.ITimeProvider value)
-    // Offset: 0x164869C
+    // Offset: 0x167EFAC
     void set_timeProvider(::BGNet::Core::ITimeProvider* value);
     // public IMultiplayerSessionManager get_multiplayerSessionManager()
-    // Offset: 0x16486A4
+    // Offset: 0x167EFB4
     ::GlobalNamespace::IMultiplayerSessionManager* get_multiplayerSessionManager();
     // private System.Void set_multiplayerSessionManager(IMultiplayerSessionManager value)
-    // Offset: 0x16486AC
+    // Offset: 0x167EFBC
     void set_multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
     // public System.String get_ownerUserId()
-    // Offset: 0x16486B4
+    // Offset: 0x167EFC4
     ::StringW get_ownerUserId();
     // private System.Void set_ownerUserId(System.String value)
-    // Offset: 0x16486BC
+    // Offset: 0x167EFCC
     void set_ownerUserId(::StringW value);
     // public BeatmapLevelSelectionMask get_selectionMask()
-    // Offset: 0x16486C4
+    // Offset: 0x167EFD4
     ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
     // private System.Void set_selectionMask(BeatmapLevelSelectionMask value)
-    // Offset: 0x16486D8
+    // Offset: 0x167EFE8
     void set_selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value);
     // public GameplayServerConfiguration get_configuration()
-    // Offset: 0x16486EC
+    // Offset: 0x167EFFC
     ::GlobalNamespace::GameplayServerConfiguration get_configuration();
     // private System.Void set_configuration(GameplayServerConfiguration value)
-    // Offset: 0x1648700
+    // Offset: 0x167F010
     void set_configuration(::GlobalNamespace::GameplayServerConfiguration value);
     // public IServerBeatmapProvider get_beatmapProvider()
-    // Offset: 0x1648714
+    // Offset: 0x167F024
     ::GlobalNamespace::IServerBeatmapProvider* get_beatmapProvider();
     // private System.Void set_beatmapProvider(IServerBeatmapProvider value)
-    // Offset: 0x164871C
+    // Offset: 0x167F02C
     void set_beatmapProvider(::GlobalNamespace::IServerBeatmapProvider* value);
     // public MenuRpcManager get_menuRpcManager()
-    // Offset: 0x1648724
+    // Offset: 0x167F034
     ::GlobalNamespace::MenuRpcManager* get_menuRpcManager();
     // private System.Void set_menuRpcManager(MenuRpcManager value)
-    // Offset: 0x164872C
+    // Offset: 0x167F03C
     void set_menuRpcManager(::GlobalNamespace::MenuRpcManager* value);
     // public GameplayRpcManager get_gameplayRpcManager()
-    // Offset: 0x1648734
+    // Offset: 0x167F044
     ::GlobalNamespace::GameplayRpcManager* get_gameplayRpcManager();
     // private System.Void set_gameplayRpcManager(GameplayRpcManager value)
-    // Offset: 0x164873C
+    // Offset: 0x167F04C
     void set_gameplayRpcManager(::GlobalNamespace::GameplayRpcManager* value);
     // public System.Void .ctor(BGNet.Core.ITimeProvider timeProvider, IMultiplayerSessionManager multiplayerSessionManager, System.String ownerUserId, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
-    // Offset: 0x163E2AC
+    // Offset: 0x1674BBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayServerFiniteStateMachine* New_ctor(::BGNet::Core::ITimeProvider* timeProvider, ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::StringW ownerUserId, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration, ::GlobalNamespace::IServerBeatmapProvider* beatmapProvider) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayServerFiniteStateMachine::.ctor");

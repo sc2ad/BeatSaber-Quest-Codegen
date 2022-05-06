@@ -38,15 +38,7 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class TaskFactory::CompleteOnInvokePromise : public ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>/*, public ::System::Threading::Tasks::ITaskCompletionAction*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.IList`1<System.Threading.Tasks.Task> _tasks
     // Size: 0x8
     // Offset: 0x58
@@ -65,18 +57,18 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<::System::Threading::Tasks::ITaskCompletionAction*>(this);
     }
     // Get instance field reference: private System.Collections.Generic.IList`1<System.Threading.Tasks.Task> _tasks
-    ::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>*& dyn__tasks();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>*& dyn__tasks();
     // Get instance field reference: private System.Int32 m_firstTaskAlreadyCompleted
-    int& dyn_m_firstTaskAlreadyCompleted();
+    [[deprecated("Use field access instead!")]] int& dyn_m_firstTaskAlreadyCompleted();
     // public System.Void .ctor(System.Collections.Generic.IList`1<System.Threading.Tasks.Task> tasks)
-    // Offset: 0x1CF4B18
+    // Offset: 0x1D30070
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskFactory::CompleteOnInvokePromise* New_ctor(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>* tasks) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::TaskFactory::CompleteOnInvokePromise::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskFactory::CompleteOnInvokePromise*, creationType>(tasks)));
     }
     // public System.Void Invoke(System.Threading.Tasks.Task completingTask)
-    // Offset: 0x1CF4C30
+    // Offset: 0x1D30188
     void Invoke(::System::Threading::Tasks::Task* completingTask);
   }; // System.Threading.Tasks.TaskFactory/System.Threading.Tasks.CompleteOnInvokePromise
   // WARNING Not writing size check since size may be invalid!

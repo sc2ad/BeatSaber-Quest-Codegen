@@ -54,22 +54,14 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorGradientSlider : public ::HMUI::TextSlider {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _textPrefix
     // Size: 0x8
     // Offset: 0x140
     ::StringW textPrefix;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [SpaceAttribute] Offset: 0x123AED4
+    // [SpaceAttribute] Offset: 0x10BF9AC
     // private UnityEngine.Color _color0
     // Size: 0x10
     // Offset: 0x148
@@ -107,81 +99,71 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*) == 0x8);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x123AF5C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BFA34
     // Get static field: static private readonly System.Text.StringBuilder _stringBuilder
     static ::System::Text::StringBuilder* _get__stringBuilder();
     // Set static field: static private readonly System.Text.StringBuilder _stringBuilder
     static void _set__stringBuilder(::System::Text::StringBuilder* value);
     // Get instance field reference: private System.String _textPrefix
-    ::StringW& dyn__textPrefix();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__textPrefix();
     // Get instance field reference: private UnityEngine.Color _color0
-    ::UnityEngine::Color& dyn__color0();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color0();
     // Get instance field reference: private UnityEngine.Color _color1
-    ::UnityEngine::Color& dyn__color1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color1();
     // Get instance field reference: private HMUI.ImageView[] _gradientImages
-    ::ArrayW<::HMUI::ImageView*>& dyn__gradientImages();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::HMUI::ImageView*>& dyn__gradientImages();
     // Get instance field reference: private UnityEngine.Color _darkColor
-    ::UnityEngine::Color& dyn__darkColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__darkColor();
     // Get instance field reference: private UnityEngine.Color _lightColor
-    ::UnityEngine::Color& dyn__lightColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__lightColor();
     // Get instance field reference: private System.Action`3<HMUI.ColorGradientSlider,UnityEngine.Color,ColorChangeUIEventType> colorDidChangeEvent
-    ::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*& dyn_colorDidChangeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*& dyn_colorDidChangeEvent();
     // public System.Void add_colorDidChangeEvent(System.Action`3<HMUI.ColorGradientSlider,UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x16E108C
+    // Offset: 0x171899C
     void add_colorDidChangeEvent(::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorDidChangeEvent(System.Action`3<HMUI.ColorGradientSlider,UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x16E1134
+    // Offset: 0x1718A44
     void remove_colorDidChangeEvent(::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
+    // static private System.Void .cctor()
+    // Offset: 0x17190FC
+    static void _cctor();
     // public System.Void SetColors(UnityEngine.Color color0, UnityEngine.Color color1)
-    // Offset: 0x16E1304
+    // Offset: 0x1718C14
     void SetColors(::UnityEngine::Color color0, ::UnityEngine::Color color1);
     // private System.Void HandleNormalizedValueDidChange(HMUI.TextSlider slider, System.Single normalizedValue)
-    // Offset: 0x16E1610
+    // Offset: 0x1718F20
     void HandleNormalizedValueDidChange(::HMUI::TextSlider* slider, float normalizedValue);
     // public System.Void .ctor()
-    // Offset: 0x16E17E4
+    // Offset: 0x17190F4
     // Implemented from: HMUI.TextSlider
     // Base method: System.Void TextSlider::.ctor()
-    // Base method: System.Void Selectable::.ctor()
-    // Base method: System.Void UIBehaviour::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorGradientSlider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ColorGradientSlider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorGradientSlider*, creationType>()));
     }
-    // static private System.Void .cctor()
-    // Offset: 0x16E17EC
-    // Implemented from: UnityEngine.UI.Selectable
-    // Base method: System.Void Selectable::.cctor()
-    // Base method: System.Void Object::.cctor()
-    static void _cctor();
     // protected override System.Void Awake()
-    // Offset: 0x16E11DC
+    // Offset: 0x1718AEC
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::Awake()
     void Awake();
     // protected override System.Void OnDestroy()
-    // Offset: 0x16E1278
+    // Offset: 0x1718B88
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDestroy()
     void OnDestroy();
     // protected override System.Void UpdateVisuals()
-    // Offset: 0x16E1334
+    // Offset: 0x1718C44
     // Implemented from: HMUI.TextSlider
     // Base method: System.Void TextSlider::UpdateVisuals()
     void UpdateVisuals();
     // protected override System.String TextForNormalizedValue(System.Single normalizedValue)
-    // Offset: 0x16E1500
+    // Offset: 0x1718E10
     // Implemented from: HMUI.TextSlider
     // Base method: System.String TextSlider::TextForNormalizedValue(System.Single normalizedValue)
     ::StringW TextForNormalizedValue(float normalizedValue);
     // public override System.Void OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x16E16C4
+    // Offset: 0x1718FD4
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
@@ -205,6 +187,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`3"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("HMUI", "ColorGradientSlider"), ::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), ::il2cpp_utils::GetClassFromName("", "ColorChangeUIEventType")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ColorGradientSlider*), "remove_colorDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: HMUI::ColorGradientSlider::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HMUI::ColorGradientSlider::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ColorGradientSlider*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: HMUI::ColorGradientSlider::SetColors
@@ -231,14 +221,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
-// Writing MetadataGetter for method: HMUI::ColorGradientSlider::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HMUI::ColorGradientSlider::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::ColorGradientSlider*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: HMUI::ColorGradientSlider::Awake
 // Il2CppName: Awake
 template<>

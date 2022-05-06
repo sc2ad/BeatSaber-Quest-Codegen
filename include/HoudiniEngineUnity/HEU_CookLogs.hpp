@@ -38,15 +38,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_CookLogs : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Text.StringBuilder _cookLogs
     // Size: 0x8
     // Offset: 0x10
@@ -91,46 +83,44 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Int64 MaxLogSize
     static void _set_MaxLogSize(int64_t value);
     // Get instance field reference: private System.Text.StringBuilder _cookLogs
-    ::System::Text::StringBuilder*& dyn__cookLogs();
+    [[deprecated("Use field access instead!")]] ::System::Text::StringBuilder*& dyn__cookLogs();
     // Get instance field reference: private System.Int32 _currentCookLogCount
-    int& dyn__currentCookLogCount();
+    [[deprecated("Use field access instead!")]] int& dyn__currentCookLogCount();
     // Get instance field reference: private System.String _lastLogStr
-    ::StringW& dyn__lastLogStr();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__lastLogStr();
     // Get instance field reference: private System.Boolean _uniqueStrOnly
-    bool& dyn__uniqueStrOnly();
+    [[deprecated("Use field access instead!")]] bool& dyn__uniqueStrOnly();
     // static public HoudiniEngineUnity.HEU_CookLogs get_Instance()
-    // Offset: 0x16B7324
+    // Offset: 0x16EEC34
     static ::HoudiniEngineUnity::HEU_CookLogs* get_Instance();
-    // public System.String GetCookLogString()
-    // Offset: 0x16B7420
-    ::StringW GetCookLogString();
-    // public System.Void AppendCookLog(System.String logStr)
-    // Offset: 0x16B7440
-    void AppendCookLog(::StringW logStr);
-    // public System.Void ClearCookLog()
-    // Offset: 0x16B7704
-    void ClearCookLog();
-    // public System.String GetCookLogFilePath()
-    // Offset: 0x16B7768
-    ::StringW GetCookLogFilePath();
-    // public System.Void DeleteCookingFile()
-    // Offset: 0x16B7834
-    void DeleteCookingFile();
-    // public System.Void WriteToLogFile(System.String logStr, System.Boolean checkLastLogStr)
-    // Offset: 0x16B7544
-    void WriteToLogFile(::StringW logStr, bool checkLastLogStr);
-    // public System.Int64 GetFileSizeOfLogFile()
-    // Offset: 0x16B78C4
-    int64_t GetFileSizeOfLogFile();
     // public System.Void .ctor()
-    // Offset: 0x16B73A0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16EECB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_CookLogs* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_CookLogs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_CookLogs*, creationType>()));
     }
+    // public System.String GetCookLogString()
+    // Offset: 0x16EED30
+    ::StringW GetCookLogString();
+    // public System.Void AppendCookLog(System.String logStr)
+    // Offset: 0x16EED50
+    void AppendCookLog(::StringW logStr);
+    // public System.Void ClearCookLog()
+    // Offset: 0x16EF014
+    void ClearCookLog();
+    // public System.String GetCookLogFilePath()
+    // Offset: 0x16EF078
+    ::StringW GetCookLogFilePath();
+    // public System.Void DeleteCookingFile()
+    // Offset: 0x16EF144
+    void DeleteCookingFile();
+    // public System.Void WriteToLogFile(System.String logStr, System.Boolean checkLastLogStr)
+    // Offset: 0x16EEE54
+    void WriteToLogFile(::StringW logStr, bool checkLastLogStr);
+    // public System.Int64 GetFileSizeOfLogFile()
+    // Offset: 0x16EF1D4
+    int64_t GetFileSizeOfLogFile();
   }; // HoudiniEngineUnity.HEU_CookLogs
   #pragma pack(pop)
   static check_size<sizeof(HEU_CookLogs), 40 + sizeof(bool)> __HoudiniEngineUnity_HEU_CookLogsSizeCheck;
@@ -145,6 +135,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEn
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_CookLogs*), "get_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_CookLogs::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_CookLogs::GetCookLogString
 // Il2CppName: GetCookLogString
 template<>
@@ -204,7 +198,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Ho
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_CookLogs*), "GetFileSizeOfLogFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_CookLogs::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

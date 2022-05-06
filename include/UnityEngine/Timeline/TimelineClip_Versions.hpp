@@ -51,7 +51,7 @@ namespace UnityEngine::Timeline {
     // Set static field: static public UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.Versions ClipInFromGlobalToLocal
     static void _set_ClipInFromGlobalToLocal(::UnityEngine::Timeline::TimelineClip::Versions value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.Versions
   #pragma pack(pop)
   static check_size<sizeof(TimelineClip::Versions), 0 + sizeof(int)> __UnityEngine_Timeline_TimelineClip_VersionsSizeCheck;

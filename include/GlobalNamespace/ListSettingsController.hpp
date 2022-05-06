@@ -29,15 +29,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ListSettingsController : public ::GlobalNamespace::IncDecSettingsController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _idx
     // Size: 0x4
     // Offset: 0x20
@@ -52,9 +44,9 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Int32 _idx
-    int& dyn__idx();
+    [[deprecated("Use field access instead!")]] int& dyn__idx();
     // Get instance field reference: private System.Int32 _numberOfElements
-    int& dyn__numberOfElements();
+    [[deprecated("Use field access instead!")]] int& dyn__numberOfElements();
     // protected System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
@@ -65,35 +57,30 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW TextForValue(int idx);
     // protected System.Void OnEnable()
-    // Offset: 0x1492010
+    // Offset: 0x14C88C8
     void OnEnable();
     // private System.Void RefreshUI()
-    // Offset: 0x1492054
+    // Offset: 0x14C890C
     void RefreshUI();
     // public System.Void Refresh(System.Boolean applyValue)
-    // Offset: 0x14920C0
+    // Offset: 0x14C8978
     void Refresh(bool applyValue);
     // protected System.Void .ctor()
-    // Offset: 0x14921B0
+    // Offset: 0x14C8A68
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListSettingsController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ListSettingsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListSettingsController*, creationType>()));
     }
     // protected override System.Void IncButtonPressed()
-    // Offset: 0x1492120
+    // Offset: 0x14C89D8
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::IncButtonPressed()
     void IncButtonPressed();
     // protected override System.Void DecButtonPressed()
-    // Offset: 0x149216C
+    // Offset: 0x14C8A24
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::DecButtonPressed()
     void DecButtonPressed();

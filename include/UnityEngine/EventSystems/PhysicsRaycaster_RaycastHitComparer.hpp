@@ -35,25 +35,27 @@ namespace UnityEngine::EventSystems {
     static ::UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer* _get_instance();
     // Set static field: static public UnityEngine.EventSystems.PhysicsRaycaster/UnityEngine.EventSystems.RaycastHitComparer instance
     static void _set_instance(::UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer* value);
-    // static private System.Void .cctor()
-    // Offset: 0x18F7CB8
-    static void _cctor();
-    // public System.Int32 Compare(UnityEngine.RaycastHit x, UnityEngine.RaycastHit y)
-    // Offset: 0x18F7C6C
-    int Compare(::UnityEngine::RaycastHit x, ::UnityEngine::RaycastHit y);
     // public System.Void .ctor()
-    // Offset: 0x18F7CB0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x19315C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PhysicsRaycaster::RaycastHitComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PhysicsRaycaster::RaycastHitComparer*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x19315C8
+    static void _cctor();
+    // public System.Int32 Compare(UnityEngine.RaycastHit x, UnityEngine.RaycastHit y)
+    // Offset: 0x193157C
+    int Compare(::UnityEngine::RaycastHit x, ::UnityEngine::RaycastHit y);
   }; // UnityEngine.EventSystems.PhysicsRaycaster/UnityEngine.EventSystems.RaycastHitComparer
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer::_cctor
 // Il2CppName: .cctor
 template<>
@@ -72,7 +74,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

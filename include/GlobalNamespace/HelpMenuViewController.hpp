@@ -52,15 +52,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HelpMenuViewController : public ::HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.TextSegmentedControl _helpMenuSegmentedControl
     // Size: 0x8
     // Offset: 0x70
@@ -73,7 +65,7 @@ namespace GlobalNamespace {
     ::System::Action_1<int>* didSelectHelpSubMenuEvent;
     // Field size check
     static_assert(sizeof(::System::Action_1<int>*) == 0x8);
-    // [TupleElementNamesAttribute] Offset: 0x125B53C
+    // [TupleElementNamesAttribute] Offset: 0x10E0120
     // private System.Collections.Generic.List`1<System.ValueTuple`2<HMUI.ViewController,System.String>> _viewControllers
     // Size: 0x8
     // Offset: 0x80
@@ -82,39 +74,32 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Collections::Generic::List_1<::System::ValueTuple_2<::HMUI::ViewController*, ::StringW>>*) == 0x8);
     public:
     // Get instance field reference: private HMUI.TextSegmentedControl _helpMenuSegmentedControl
-    ::HMUI::TextSegmentedControl*& dyn__helpMenuSegmentedControl();
+    [[deprecated("Use field access instead!")]] ::HMUI::TextSegmentedControl*& dyn__helpMenuSegmentedControl();
     // Get instance field reference: private System.Action`1<System.Int32> didSelectHelpSubMenuEvent
-    ::System::Action_1<int>*& dyn_didSelectHelpSubMenuEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<int>*& dyn_didSelectHelpSubMenuEvent();
     // Get instance field reference: private System.Collections.Generic.List`1<System.ValueTuple`2<HMUI.ViewController,System.String>> _viewControllers
-    ::System::Collections::Generic::List_1<::System::ValueTuple_2<::HMUI::ViewController*, ::StringW>>*& dyn__viewControllers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::ValueTuple_2<::HMUI::ViewController*, ::StringW>>*& dyn__viewControllers();
     // public System.Void add_didSelectHelpSubMenuEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x13B204C
+    // Offset: 0x13AD4F8
     void add_didSelectHelpSubMenuEvent(::System::Action_1<int>* value);
     // public System.Void remove_didSelectHelpSubMenuEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x13B2284
+    // Offset: 0x13AD730
     void remove_didSelectHelpSubMenuEvent(::System::Action_1<int>* value);
-    // public System.Void Init(System.Collections.Generic.List`1<System.ValueTuple`2<HMUI.ViewController,System.String>> viewControllers)
-    // Offset: 0x13B25AC
-    void Init(::System::Collections::Generic::List_1<::System::ValueTuple_2<::HMUI::ViewController*, ::StringW>>* viewControllers);
-    // private System.Void HandleHelpMenuSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0x13B278C
-    void HandleHelpMenuSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // public System.Void .ctor()
-    // Offset: 0x13B2800
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13ADCAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HelpMenuViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HelpMenuViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HelpMenuViewController*, creationType>()));
     }
+    // public System.Void Init(System.Collections.Generic.List`1<System.ValueTuple`2<HMUI.ViewController,System.String>> viewControllers)
+    // Offset: 0x13ADA58
+    void Init(::System::Collections::Generic::List_1<::System::ValueTuple_2<::HMUI::ViewController*, ::StringW>>* viewControllers);
+    // private System.Void HandleHelpMenuSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
+    // Offset: 0x13ADC38
+    void HandleHelpMenuSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13B25B4
+    // Offset: 0x13ADA60
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -142,6 +127,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HelpMenuViewController*), "remove_didSelectHelpSubMenuEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::HelpMenuViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::HelpMenuViewController::Init
 // Il2CppName: Init
 template<>
@@ -161,10 +150,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HelpMenuViewController*), "HandleHelpMenuSegmentedControlDidSelectCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{segmentedControl, cellIdx});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::HelpMenuViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::HelpMenuViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

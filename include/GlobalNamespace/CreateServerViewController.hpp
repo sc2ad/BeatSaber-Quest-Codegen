@@ -50,15 +50,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CreateServerViewController : public ::HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Button _createServerButton
     // Size: 0x8
     // Offset: 0x70
@@ -91,52 +83,45 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::MultiplayerModeSettings*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.UI.Button _createServerButton
-    ::UnityEngine::UI::Button*& dyn__createServerButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__createServerButton();
     // Get instance field reference: private UnityEngine.UI.Button _cancelCreateServerButton
-    ::UnityEngine::UI::Button*& dyn__cancelCreateServerButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__cancelCreateServerButton();
     // Get instance field reference: private CreateServerFormController _createServerFormController
-    ::GlobalNamespace::CreateServerFormController*& dyn__createServerFormController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::CreateServerFormController*& dyn__createServerFormController();
     // Get instance field reference: private System.Action`2<System.Boolean,CreateServerFormData> didFinishEvent
-    ::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>*& dyn_didFinishEvent();
     // Get instance field reference: private MultiplayerModeSettings _multiplayerModeSettings
-    ::GlobalNamespace::MultiplayerModeSettings*& dyn__multiplayerModeSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerModeSettings*& dyn__multiplayerModeSettings();
     // public MultiplayerModeSettings get_multiplayerModeSettings()
-    // Offset: 0x1407290
+    // Offset: 0x142703C
     ::GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
     // public System.Void add_didFinishEvent(System.Action`2<System.Boolean,CreateServerFormData> value)
-    // Offset: 0x1407148
+    // Offset: 0x1426EF4
     void add_didFinishEvent(::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<System.Boolean,CreateServerFormData> value)
-    // Offset: 0x14071EC
+    // Offset: 0x1426F98
     void remove_didFinishEvent(::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>* value);
-    // public System.Void Setup(MultiplayerModeSettings multiplayerModeSettings)
-    // Offset: 0x1407298
-    void Setup(::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
-    // private CreateServerFormData ApplyAndGetData()
-    // Offset: 0x14073E0
-    ::GlobalNamespace::CreateServerFormData ApplyAndGetData();
-    // private System.Void <DidActivate>b__10_0()
-    // Offset: 0x1407484
-    void $DidActivate$b__10_0();
-    // private System.Void <DidActivate>b__10_1()
-    // Offset: 0x140750C
-    void $DidActivate$b__10_1();
     // public System.Void .ctor()
-    // Offset: 0x140747C
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1427228
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CreateServerViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CreateServerViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CreateServerViewController*, creationType>()));
     }
+    // public System.Void Setup(MultiplayerModeSettings multiplayerModeSettings)
+    // Offset: 0x1427044
+    void Setup(::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
+    // private CreateServerFormData ApplyAndGetData()
+    // Offset: 0x142718C
+    ::GlobalNamespace::CreateServerFormData ApplyAndGetData();
+    // private System.Void <DidActivate>b__10_0()
+    // Offset: 0x1427230
+    void $DidActivate$b__10_0();
+    // private System.Void <DidActivate>b__10_1()
+    // Offset: 0x14272B8
+    void $DidActivate$b__10_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x14072E4
+    // Offset: 0x1427090
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -172,6 +157,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreateServerViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::CreateServerViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CreateServerViewController::Setup
 // Il2CppName: Setup
 template<>
@@ -205,10 +194,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreateServerViewController*), "<DidActivate>b__10_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CreateServerViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CreateServerViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

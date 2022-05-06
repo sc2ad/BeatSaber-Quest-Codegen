@@ -49,9 +49,9 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public HoudiniEngineUnity.HAPI_SessionType type
-    ::HoudiniEngineUnity::HAPI_SessionType& dyn_type();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_SessionType& dyn_type();
     // Get instance field reference: public System.Int64 id
-    int64_t& dyn_id();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_id();
   }; // HoudiniEngineUnity.HAPI_Session
   #pragma pack(pop)
   static check_size<sizeof(HAPI_Session), 8 + sizeof(int64_t)> __HoudiniEngineUnity_HAPI_SessionSizeCheck;

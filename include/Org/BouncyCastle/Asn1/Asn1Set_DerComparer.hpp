@@ -29,22 +29,24 @@ namespace Org::BouncyCastle::Asn1 {
     operator ::System::Collections::IComparer() noexcept {
       return *reinterpret_cast<::System::Collections::IComparer*>(this);
     }
-    // public System.Int32 Compare(System.Object x, System.Object y)
-    // Offset: 0x1BEFE00
-    int Compare(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Void .ctor()
-    // Offset: 0x1BEFDEC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C2A3D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1Set::DerComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Asn1Set::DerComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Set::DerComparer*, creationType>()));
     }
+    // public System.Int32 Compare(System.Object x, System.Object y)
+    // Offset: 0x1C2A3E8
+    int Compare(::Il2CppObject* x, ::Il2CppObject* y);
   }; // Org.BouncyCastle.Asn1.Asn1Set/Org.BouncyCastle.Asn1.DerComparer
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1Set::DerComparer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1Set::DerComparer::Compare
 // Il2CppName: Compare
 template<>
@@ -55,7 +57,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1Set::DerComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1Set::DerComparer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

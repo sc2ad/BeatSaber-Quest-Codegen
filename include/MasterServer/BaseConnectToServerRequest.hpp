@@ -54,15 +54,7 @@ namespace MasterServer {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
     char ___base_padding[0x4] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String <userId>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -95,53 +87,52 @@ namespace MasterServer {
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // Get instance field reference: private System.String <userId>k__BackingField
-    ::StringW& dyn_$userId$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$userId$k__BackingField();
     // Get instance field reference: private System.String <userName>k__BackingField
-    ::StringW& dyn_$userName$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$userName$k__BackingField();
     // Get instance field reference: public readonly ByteArrayNetSerializable random
-    ::GlobalNamespace::ByteArrayNetSerializable*& dyn_random();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ByteArrayNetSerializable*& dyn_random();
     // Get instance field reference: public readonly ByteArrayNetSerializable publicKey
-    ::GlobalNamespace::ByteArrayNetSerializable*& dyn_publicKey();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ByteArrayNetSerializable*& dyn_publicKey();
     // public System.String get_userId()
-    // Offset: 0x164C794
+    // Offset: 0x16830A4
     ::StringW get_userId();
     // protected System.Void set_userId(System.String value)
-    // Offset: 0x164C79C
+    // Offset: 0x16830AC
     void set_userId(::StringW value);
     // public System.String get_userName()
-    // Offset: 0x164C7A4
+    // Offset: 0x16830B4
     ::StringW get_userName();
     // protected System.Void set_userName(System.String value)
-    // Offset: 0x164C7AC
+    // Offset: 0x16830BC
     void set_userName(::StringW value);
     // public MasterServer.BaseConnectToServerRequest WithUserIdAndName(System.ValueTuple`2<System.String,System.String> idPair)
-    // Offset: 0x164C7B4
+    // Offset: 0x16830C4
     ::MasterServer::BaseConnectToServerRequest* WithUserIdAndName(::System::ValueTuple_2<::StringW, ::StringW> idPair);
     // public MasterServer.BaseConnectToServerRequest WithEncryptionParams(System.Byte[] random, System.Byte[] publicKey)
-    // Offset: 0x164C7BC
+    // Offset: 0x16830CC
     ::MasterServer::BaseConnectToServerRequest* WithEncryptionParams(::ArrayW<uint8_t> random, ::ArrayW<uint8_t> publicKey);
     // protected System.Void .ctor()
-    // Offset: 0x164C930
+    // Offset: 0x1683240
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseConnectToServerRequest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::MasterServer::BaseConnectToServerRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseConnectToServerRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x164C808
+    // Offset: 0x1683118
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x164C87C
+    // Offset: 0x168318C
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x164C8F4
+    // Offset: 0x1683204
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Release()
     void Release();

@@ -44,15 +44,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BasicSpectrogramData : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.AudioSource _audioSource
     // Size: 0x8
     // Offset: 0x18
@@ -101,45 +93,39 @@ namespace GlobalNamespace {
     // Set static field: static public System.Int32 kNumberOfSamples
     static void _set_kNumberOfSamples(int value);
     // Get instance field reference: private UnityEngine.AudioSource _audioSource
-    ::UnityEngine::AudioSource*& dyn__audioSource();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioSource*& dyn__audioSource();
     // Get instance field reference: private System.Single _instantChangeThreshold
-    float& dyn__instantChangeThreshold();
+    [[deprecated("Use field access instead!")]] float& dyn__instantChangeThreshold();
     // Get instance field reference: private System.Boolean _hasData
-    bool& dyn__hasData();
+    [[deprecated("Use field access instead!")]] bool& dyn__hasData();
     // Get instance field reference: private System.Boolean _hasProcessedData
-    bool& dyn__hasProcessedData();
+    [[deprecated("Use field access instead!")]] bool& dyn__hasProcessedData();
     // Get instance field reference: private System.Single[] _samples
-    ::ArrayW<float>& dyn__samples();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn__samples();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Single> _processedSamples
-    ::System::Collections::Generic::List_1<float>*& dyn__processedSamples();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<float>*& dyn__processedSamples();
     // public System.Single[] get_Samples()
-    // Offset: 0x1361B2C
+    // Offset: 0x1349DAC
     ::ArrayW<float> get_Samples();
     // public System.Collections.Generic.List`1<System.Single> get_ProcessedSamples()
-    // Offset: 0x1361BD4
+    // Offset: 0x1349E54
     ::System::Collections::Generic::List_1<float>* get_ProcessedSamples();
-    // protected System.Void Awake()
-    // Offset: 0x1361E34
-    void Awake();
-    // protected System.Void LateUpdate()
-    // Offset: 0x1361EB0
-    void LateUpdate();
-    // private System.Void ProcessSamples(System.Single[] sourceSamples, System.Collections.Generic.List`1<System.Single> processedSamples)
-    // Offset: 0x1361C28
-    void ProcessSamples(::ArrayW<float> sourceSamples, ::System::Collections::Generic::List_1<float>* processedSamples);
     // public System.Void .ctor()
-    // Offset: 0x1361EB8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x134A138
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicSpectrogramData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BasicSpectrogramData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BasicSpectrogramData*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x134A0B4
+    void Awake();
+    // protected System.Void LateUpdate()
+    // Offset: 0x134A130
+    void LateUpdate();
+    // private System.Void ProcessSamples(System.Single[] sourceSamples, System.Collections.Generic.List`1<System.Single> processedSamples)
+    // Offset: 0x1349EA8
+    void ProcessSamples(::ArrayW<float> sourceSamples, ::System::Collections::Generic::List_1<float>* processedSamples);
   }; // BasicSpectrogramData
   #pragma pack(pop)
   static check_size<sizeof(BasicSpectrogramData), 48 + sizeof(::System::Collections::Generic::List_1<float>*)> __GlobalNamespace_BasicSpectrogramDataSizeCheck;
@@ -162,6 +148,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BasicSpectrogramData*), "get_ProcessedSamples", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BasicSpectrogramData::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BasicSpectrogramData::Awake
 // Il2CppName: Awake
 template<>
@@ -188,7 +178,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BasicSpectrogramData*), "ProcessSamples", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceSamples, processedSamples});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BasicSpectrogramData::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

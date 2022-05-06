@@ -44,15 +44,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class Challenge : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly Oculus.Platform.ChallengeCreationType CreationType
     // Size: 0x4
     // Offset: 0x10
@@ -85,7 +77,7 @@ namespace Oculus::Platform::Models {
     ::Oculus::Platform::Models::UserList* InvitedUsersOptional;
     // Field size check
     static_assert(sizeof(::Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0x1241800
+    // [ObsoleteAttribute] Offset: 0x10C62D8
     // public readonly Oculus.Platform.Models.UserList InvitedUsers
     // Size: 0x8
     // Offset: 0x38
@@ -104,7 +96,7 @@ namespace Oculus::Platform::Models {
     ::Oculus::Platform::Models::UserList* ParticipantsOptional;
     // Field size check
     static_assert(sizeof(::Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0x1241838
+    // [ObsoleteAttribute] Offset: 0x10C6310
     // public readonly Oculus.Platform.Models.UserList Participants
     // Size: 0x8
     // Offset: 0x50
@@ -131,31 +123,31 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Oculus::Platform::ChallengeVisibility) == 0x4);
     public:
     // Get instance field reference: public readonly Oculus.Platform.ChallengeCreationType CreationType
-    ::Oculus::Platform::ChallengeCreationType& dyn_CreationType();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::ChallengeCreationType& dyn_CreationType();
     // Get instance field reference: public readonly System.String Description
-    ::StringW& dyn_Description();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Description();
     // Get instance field reference: public readonly System.DateTime EndDate
-    ::System::DateTime& dyn_EndDate();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_EndDate();
     // Get instance field reference: public readonly System.UInt64 ID
-    uint64_t& dyn_ID();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_ID();
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList InvitedUsersOptional
-    ::Oculus::Platform::Models::UserList*& dyn_InvitedUsersOptional();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::UserList*& dyn_InvitedUsersOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList InvitedUsers
-    ::Oculus::Platform::Models::UserList*& dyn_InvitedUsers();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::UserList*& dyn_InvitedUsers();
     // Get instance field reference: public readonly Oculus.Platform.Models.Leaderboard Leaderboard
-    ::Oculus::Platform::Models::Leaderboard*& dyn_Leaderboard();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::Leaderboard*& dyn_Leaderboard();
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList ParticipantsOptional
-    ::Oculus::Platform::Models::UserList*& dyn_ParticipantsOptional();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::UserList*& dyn_ParticipantsOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList Participants
-    ::Oculus::Platform::Models::UserList*& dyn_Participants();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::UserList*& dyn_Participants();
     // Get instance field reference: public readonly System.DateTime StartDate
-    ::System::DateTime& dyn_StartDate();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_StartDate();
     // Get instance field reference: public readonly System.String Title
-    ::StringW& dyn_Title();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Title();
     // Get instance field reference: public readonly Oculus.Platform.ChallengeVisibility Visibility
-    ::Oculus::Platform::ChallengeVisibility& dyn_Visibility();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::ChallengeVisibility& dyn_Visibility();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19AB7EC
+    // Offset: 0x19E4DD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Challenge* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::Challenge::.ctor");

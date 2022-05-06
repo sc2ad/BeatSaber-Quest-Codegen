@@ -28,15 +28,7 @@ namespace NUnit::Framework::Internal::Commands {
   // [TokenAttribute] Offset: FFFFFFFF
   class DelegatingTestCommand : public ::NUnit::Framework::Internal::Commands::TestCommand {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected NUnit.Framework.Internal.Commands.TestCommand innerCommand
     // Size: 0x8
     // Offset: 0x18
@@ -47,16 +39,16 @@ namespace NUnit::Framework::Internal::Commands {
     // Deleting conversion operator: operator ::NUnit::Framework::Internal::Test*
     constexpr operator ::NUnit::Framework::Internal::Test*() const noexcept = delete;
     // Get instance field reference: protected NUnit.Framework.Internal.Commands.TestCommand innerCommand
-    ::NUnit::Framework::Internal::Commands::TestCommand*& dyn_innerCommand();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::Commands::TestCommand*& dyn_innerCommand();
     // protected System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
-    // Offset: 0x1C4D334
+    // Offset: 0x1CA58CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DelegatingTestCommand* New_ctor(::NUnit::Framework::Internal::Commands::TestCommand* innerCommand) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Commands::DelegatingTestCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DelegatingTestCommand*, creationType>(innerCommand)));
     }
     // public NUnit.Framework.Internal.Commands.TestCommand GetInnerCommand()
-    // Offset: 0x1C4D8BC
+    // Offset: 0x1CA5E54
     ::NUnit::Framework::Internal::Commands::TestCommand* GetInnerCommand();
   }; // NUnit.Framework.Internal.Commands.DelegatingTestCommand
   #pragma pack(pop)

@@ -58,13 +58,13 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public Valve.VR.HmdVector3_t vCorners0
-    ::Valve::VR::HmdVector3_t& dyn_vCorners0();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::HmdVector3_t& dyn_vCorners0();
     // Get instance field reference: public Valve.VR.HmdVector3_t vCorners1
-    ::Valve::VR::HmdVector3_t& dyn_vCorners1();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::HmdVector3_t& dyn_vCorners1();
     // Get instance field reference: public Valve.VR.HmdVector3_t vCorners2
-    ::Valve::VR::HmdVector3_t& dyn_vCorners2();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::HmdVector3_t& dyn_vCorners2();
     // Get instance field reference: public Valve.VR.HmdVector3_t vCorners3
-    ::Valve::VR::HmdVector3_t& dyn_vCorners3();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::HmdVector3_t& dyn_vCorners3();
   }; // Valve.VR.HmdQuad_t
   #pragma pack(pop)
   static check_size<sizeof(HmdQuad_t), 36 + sizeof(::Valve::VR::HmdVector3_t)> __Valve_VR_HmdQuad_tSizeCheck;

@@ -50,15 +50,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     class Styles;
     // Nested type: ::UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITestResult> m_FailedTestCollection
     // Size: 0x8
     // Offset: 0x10
@@ -87,26 +79,26 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Set static field: static private System.Int32 k_MaxStringLength
     static void _set_k_MaxStringLength(int value);
     // Get instance field reference: private readonly System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITestResult> m_FailedTestCollection
-    ::System::Collections::Generic::List_1<::NUnit::Framework::Interfaces::ITestResult*>*& dyn_m_FailedTestCollection();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::NUnit::Framework::Interfaces::ITestResult*>*& dyn_m_FailedTestCollection();
     // Get instance field reference: private System.Boolean m_ShowResults
-    bool& dyn_m_ShowResults();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_ShowResults();
     // Get instance field reference: private UnityEngine.Vector2 m_ScrollPosition
-    ::UnityEngine::Vector2& dyn_m_ScrollPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_m_ScrollPosition();
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0x194E2BC
+    // Offset: 0x1985C8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestResultRenderer* New_ctor(::NUnit::Framework::Interfaces::ITestResult* testResults) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestResultRenderer*, creationType>(testResults)));
     }
     // private System.Void GetFailedTests(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0x194F83C
+    // Offset: 0x198720C
     void GetFailedTests(::NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void ShowResults()
-    // Offset: 0x194E344
+    // Offset: 0x1985D14
     void ShowResults();
     // public System.Void Draw()
-    // Offset: 0x194E370
+    // Offset: 0x1985D40
     void Draw();
   }; // UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer
   #pragma pack(pop)

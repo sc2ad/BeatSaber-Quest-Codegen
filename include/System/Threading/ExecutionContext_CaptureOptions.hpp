@@ -58,7 +58,7 @@ namespace System::Threading {
     // Set static field: static public System.Threading.ExecutionContext/System.Threading.CaptureOptions OptimizeDefaultCase
     static void _set_OptimizeDefaultCase(::System::Threading::ExecutionContext::CaptureOptions value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Threading.ExecutionContext/System.Threading.CaptureOptions
   #pragma pack(pop)
   static check_size<sizeof(ExecutionContext::CaptureOptions), 0 + sizeof(int)> __System_Threading_ExecutionContext_CaptureOptionsSizeCheck;

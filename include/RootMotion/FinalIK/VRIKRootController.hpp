@@ -41,15 +41,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRIKRootController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Vector3 <pelvisTargetRight>k__BackingField
     // Size: 0xC
     // Offset: 0x18
@@ -86,49 +78,43 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Vector3 <pelvisTargetRight>k__BackingField
-    ::UnityEngine::Vector3& dyn_$pelvisTargetRight$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_$pelvisTargetRight$k__BackingField();
     // Get instance field reference: private UnityEngine.Transform pelvisTarget
-    ::UnityEngine::Transform*& dyn_pelvisTarget();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_pelvisTarget();
     // Get instance field reference: private UnityEngine.Transform leftFootTarget
-    ::UnityEngine::Transform*& dyn_leftFootTarget();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_leftFootTarget();
     // Get instance field reference: private UnityEngine.Transform rightFootTarget
-    ::UnityEngine::Transform*& dyn_rightFootTarget();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_rightFootTarget();
     // Get instance field reference: private RootMotion.FinalIK.VRIK ik
-    ::RootMotion::FinalIK::VRIK*& dyn_ik();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::VRIK*& dyn_ik();
     // public UnityEngine.Vector3 get_pelvisTargetRight()
-    // Offset: 0x1F7D6A0
+    // Offset: 0x1FC9F14
     ::UnityEngine::Vector3 get_pelvisTargetRight();
     // private System.Void set_pelvisTargetRight(UnityEngine.Vector3 value)
-    // Offset: 0x1F7D6AC
+    // Offset: 0x1FC9F20
     void set_pelvisTargetRight(::UnityEngine::Vector3 value);
-    // private System.Void Awake()
-    // Offset: 0x1F7D6B8
-    void Awake();
-    // public System.Void Calibrate()
-    // Offset: 0x1F7C204
-    void Calibrate();
-    // public System.Void Calibrate(RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData data)
-    // Offset: 0x1F7D20C
-    void Calibrate(::RootMotion::FinalIK::VRIKCalibrator::CalibrationData* data);
-    // private System.Void OnPreUpdate()
-    // Offset: 0x1F7D790
-    void OnPreUpdate();
-    // private System.Void OnDestroy()
-    // Offset: 0x1F7DC34
-    void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1F7DD2C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FCA5A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRIKRootController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::VRIKRootController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRIKRootController*, creationType>()));
     }
+    // private System.Void Awake()
+    // Offset: 0x1FC9F2C
+    void Awake();
+    // public System.Void Calibrate()
+    // Offset: 0x1FC8A78
+    void Calibrate();
+    // public System.Void Calibrate(RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData data)
+    // Offset: 0x1FC9A80
+    void Calibrate(::RootMotion::FinalIK::VRIKCalibrator::CalibrationData* data);
+    // private System.Void OnPreUpdate()
+    // Offset: 0x1FCA004
+    void OnPreUpdate();
+    // private System.Void OnDestroy()
+    // Offset: 0x1FCA4A8
+    void OnDestroy();
   }; // RootMotion.FinalIK.VRIKRootController
   #pragma pack(pop)
   static check_size<sizeof(VRIKRootController), 64 + sizeof(::RootMotion::FinalIK::VRIK*)> __RootMotion_FinalIK_VRIKRootControllerSizeCheck;
@@ -152,6 +138,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKRootController*), "set_pelvisTargetRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: RootMotion::FinalIK::VRIKRootController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::VRIKRootController::Awake
 // Il2CppName: Awake
 template<>
@@ -193,7 +183,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKRootController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::VRIKRootController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

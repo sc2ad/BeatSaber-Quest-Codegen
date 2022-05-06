@@ -52,15 +52,7 @@ namespace OnlineServices {
     public:
     // Nested type: ::OnlineServices::PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4
     struct $GetPlatformServicesAvailabilityInfo$d__4;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> platformServicesAvailabilityInfoChangedEvent
     // Size: 0x8
     // Offset: 0x10
@@ -73,25 +65,23 @@ namespace OnlineServices {
       return platformServicesAvailabilityInfoChangedEvent;
     }
     // Get instance field reference: private System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> platformServicesAvailabilityInfoChangedEvent
-    ::System::Action_1<::OnlineServices::PlatformServicesAvailabilityInfo*>*& dyn_platformServicesAvailabilityInfoChangedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::OnlineServices::PlatformServicesAvailabilityInfo*>*& dyn_platformServicesAvailabilityInfoChangedEvent();
     // public System.Void add_platformServicesAvailabilityInfoChangedEvent(System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> value)
-    // Offset: 0x12E744C
+    // Offset: 0x13583EC
     void add_platformServicesAvailabilityInfoChangedEvent(::System::Action_1<::OnlineServices::PlatformServicesAvailabilityInfo*>* value);
     // public System.Void remove_platformServicesAvailabilityInfoChangedEvent(System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> value)
-    // Offset: 0x12E74F0
+    // Offset: 0x1358490
     void remove_platformServicesAvailabilityInfoChangedEvent(::System::Action_1<::OnlineServices::PlatformServicesAvailabilityInfo*>* value);
-    // public System.Threading.Tasks.Task`1<OnlineServices.PlatformServicesAvailabilityInfo> GetPlatformServicesAvailabilityInfo(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x12E7340
-    ::System::Threading::Tasks::Task_1<::OnlineServices::PlatformServicesAvailabilityInfo*>* GetPlatformServicesAvailabilityInfo(::System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x12E7594
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1358534
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformOnlineServicesAvailabilityModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::PlatformOnlineServicesAvailabilityModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformOnlineServicesAvailabilityModel*, creationType>()));
     }
+    // public System.Threading.Tasks.Task`1<OnlineServices.PlatformServicesAvailabilityInfo> GetPlatformServicesAvailabilityInfo(System.Threading.CancellationToken cancellationToken)
+    // Offset: 0x13582E0
+    ::System::Threading::Tasks::Task_1<::OnlineServices::PlatformServicesAvailabilityInfo*>* GetPlatformServicesAvailabilityInfo(::System::Threading::CancellationToken cancellationToken);
   }; // OnlineServices.PlatformOnlineServicesAvailabilityModel
   #pragma pack(pop)
   static check_size<sizeof(PlatformOnlineServicesAvailabilityModel), 16 + sizeof(::System::Action_1<::OnlineServices::PlatformServicesAvailabilityInfo*>*)> __OnlineServices_PlatformOnlineServicesAvailabilityModelSizeCheck;
@@ -116,6 +106,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Onlin
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::PlatformOnlineServicesAvailabilityModel*), "remove_platformServicesAvailabilityInfoChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: OnlineServices::PlatformOnlineServicesAvailabilityModel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: OnlineServices::PlatformOnlineServicesAvailabilityModel::GetPlatformServicesAvailabilityInfo
 // Il2CppName: GetPlatformServicesAvailabilityInfo
 template<>
@@ -125,7 +119,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::PlatformOnlineServicesAvailabilityModel*), "GetPlatformServicesAvailabilityInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
   }
 };
-// Writing MetadataGetter for method: OnlineServices::PlatformOnlineServicesAvailabilityModel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

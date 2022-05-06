@@ -47,48 +47,40 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: ::RootMotion::FinalIK::FBBIKHeadEffector::BendBone
     class BendBone;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x1273CF0
+    // [TooltipAttribute] Offset: 0x10F89A8
     // public RootMotion.FinalIK.FullBodyBipedIK ik
     // Size: 0x8
     // Offset: 0x18
     ::RootMotion::FinalIK::FullBodyBipedIK* ik;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::FullBodyBipedIK*) == 0x8);
-    // [LargeHeader] Offset: 0x1273D28
-    // [TooltipAttribute] Offset: 0x1273D28
-    // [RangeAttribute] Offset: 0x1273D28
+    // [LargeHeader] Offset: 0x10F89E0
+    // [TooltipAttribute] Offset: 0x10F89E0
+    // [RangeAttribute] Offset: 0x10F89E0
     // public System.Single positionWeight
     // Size: 0x4
     // Offset: 0x20
     float positionWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1273DA0
-    // [RangeAttribute] Offset: 0x1273DA0
+    // [TooltipAttribute] Offset: 0x10F8A58
+    // [RangeAttribute] Offset: 0x10F8A58
     // public System.Single bodyWeight
     // Size: 0x4
     // Offset: 0x24
     float bodyWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1273DF4
-    // [RangeAttribute] Offset: 0x1273DF4
+    // [TooltipAttribute] Offset: 0x10F8AAC
+    // [RangeAttribute] Offset: 0x10F8AAC
     // public System.Single thighWeight
     // Size: 0x4
     // Offset: 0x28
     float thighWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1273E48
+    // [TooltipAttribute] Offset: 0x10F8B00
     // public System.Boolean handsPullBody
     // Size: 0x1
     // Offset: 0x2C
@@ -97,65 +89,65 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: handsPullBody and: rotationWeight
     char __padding4[0x3] = {};
-    // [LargeHeader] Offset: 0x1273E80
-    // [TooltipAttribute] Offset: 0x1273E80
-    // [RangeAttribute] Offset: 0x1273E80
+    // [LargeHeader] Offset: 0x10F8B38
+    // [TooltipAttribute] Offset: 0x10F8B38
+    // [RangeAttribute] Offset: 0x10F8B38
     // public System.Single rotationWeight
     // Size: 0x4
     // Offset: 0x30
     float rotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1273EF8
-    // [RangeAttribute] Offset: 0x1273EF8
+    // [TooltipAttribute] Offset: 0x10F8BB0
+    // [RangeAttribute] Offset: 0x10F8BB0
     // public System.Single bodyClampWeight
     // Size: 0x4
     // Offset: 0x34
     float bodyClampWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1273F4C
-    // [RangeAttribute] Offset: 0x1273F4C
+    // [TooltipAttribute] Offset: 0x10F8C04
+    // [RangeAttribute] Offset: 0x10F8C04
     // public System.Single headClampWeight
     // Size: 0x4
     // Offset: 0x38
     float headClampWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1273FA0
-    // [RangeAttribute] Offset: 0x1273FA0
+    // [TooltipAttribute] Offset: 0x10F8C58
+    // [RangeAttribute] Offset: 0x10F8C58
     // public System.Single bendWeight
     // Size: 0x4
     // Offset: 0x3C
     float bendWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1273FF4
+    // [TooltipAttribute] Offset: 0x10F8CAC
     // public RootMotion.FinalIK.FBBIKHeadEffector/RootMotion.FinalIK.BendBone[] bendBones
     // Size: 0x8
     // Offset: 0x40
     ::ArrayW<::RootMotion::FinalIK::FBBIKHeadEffector::BendBone*> bendBones;
     // Field size check
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::FBBIKHeadEffector::BendBone*>) == 0x8);
-    // [LargeHeader] Offset: 0x127402C
-    // [TooltipAttribute] Offset: 0x127402C
-    // [RangeAttribute] Offset: 0x127402C
+    // [LargeHeader] Offset: 0x10F8CE4
+    // [TooltipAttribute] Offset: 0x10F8CE4
+    // [RangeAttribute] Offset: 0x10F8CE4
     // public System.Single CCDWeight
     // Size: 0x4
     // Offset: 0x48
     float CCDWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x12740A4
-    // [RangeAttribute] Offset: 0x12740A4
+    // [TooltipAttribute] Offset: 0x10F8D5C
+    // [RangeAttribute] Offset: 0x10F8D5C
     // public System.Single roll
     // Size: 0x4
     // Offset: 0x4C
     float roll;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x12740F8
-    // [RangeAttribute] Offset: 0x12740F8
+    // [TooltipAttribute] Offset: 0x10F8DB0
+    // [RangeAttribute] Offset: 0x10F8DB0
     // public System.Single damper
     // Size: 0x4
     // Offset: 0x50
@@ -164,37 +156,37 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: damper and: CCDBones
     char __padding12[0x4] = {};
-    // [TooltipAttribute] Offset: 0x1274150
+    // [TooltipAttribute] Offset: 0x10F8E08
     // public UnityEngine.Transform[] CCDBones
     // Size: 0x8
     // Offset: 0x58
     ::ArrayW<::UnityEngine::Transform*> CCDBones;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::Transform*>) == 0x8);
-    // [LargeHeader] Offset: 0x1274188
-    // [TooltipAttribute] Offset: 0x1274188
-    // [RangeAttribute] Offset: 0x1274188
+    // [LargeHeader] Offset: 0x10F8E40
+    // [TooltipAttribute] Offset: 0x10F8E40
+    // [RangeAttribute] Offset: 0x10F8E40
     // public System.Single postStretchWeight
     // Size: 0x4
     // Offset: 0x60
     float postStretchWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1274200
+    // [TooltipAttribute] Offset: 0x10F8EB8
     // public System.Single maxStretch
     // Size: 0x4
     // Offset: 0x64
     float maxStretch;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1274238
+    // [TooltipAttribute] Offset: 0x10F8EF0
     // public System.Single stretchDamper
     // Size: 0x4
     // Offset: 0x68
     float stretchDamper;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1274270
+    // [TooltipAttribute] Offset: 0x10F8F28
     // public System.Boolean fixHead
     // Size: 0x1
     // Offset: 0x6C
@@ -203,21 +195,21 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: fixHead and: stretchBones
     char __padding17[0x3] = {};
-    // [TooltipAttribute] Offset: 0x12742A8
+    // [TooltipAttribute] Offset: 0x10F8F60
     // public UnityEngine.Transform[] stretchBones
     // Size: 0x8
     // Offset: 0x70
     ::ArrayW<::UnityEngine::Transform*> stretchBones;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::Transform*>) == 0x8);
-    // [LargeHeader] Offset: 0x12742E0
+    // [LargeHeader] Offset: 0x10F8F98
     // public UnityEngine.Vector3 chestDirection
     // Size: 0xC
     // Offset: 0x78
     ::UnityEngine::Vector3 chestDirection;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [RangeAttribute] Offset: 0x1274318
+    // [RangeAttribute] Offset: 0x10F8FD0
     // public System.Single chestDirectionWeight
     // Size: 0x4
     // Offset: 0x84
@@ -380,155 +372,153 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedIK ik
-    ::RootMotion::FinalIK::FullBodyBipedIK*& dyn_ik();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::FullBodyBipedIK*& dyn_ik();
     // Get instance field reference: public System.Single positionWeight
-    float& dyn_positionWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_positionWeight();
     // Get instance field reference: public System.Single bodyWeight
-    float& dyn_bodyWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_bodyWeight();
     // Get instance field reference: public System.Single thighWeight
-    float& dyn_thighWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_thighWeight();
     // Get instance field reference: public System.Boolean handsPullBody
-    bool& dyn_handsPullBody();
+    [[deprecated("Use field access instead!")]] bool& dyn_handsPullBody();
     // Get instance field reference: public System.Single rotationWeight
-    float& dyn_rotationWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_rotationWeight();
     // Get instance field reference: public System.Single bodyClampWeight
-    float& dyn_bodyClampWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_bodyClampWeight();
     // Get instance field reference: public System.Single headClampWeight
-    float& dyn_headClampWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_headClampWeight();
     // Get instance field reference: public System.Single bendWeight
-    float& dyn_bendWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_bendWeight();
     // Get instance field reference: public RootMotion.FinalIK.FBBIKHeadEffector/RootMotion.FinalIK.BendBone[] bendBones
-    ::ArrayW<::RootMotion::FinalIK::FBBIKHeadEffector::BendBone*>& dyn_bendBones();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::FBBIKHeadEffector::BendBone*>& dyn_bendBones();
     // Get instance field reference: public System.Single CCDWeight
-    float& dyn_CCDWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_CCDWeight();
     // Get instance field reference: public System.Single roll
-    float& dyn_roll();
+    [[deprecated("Use field access instead!")]] float& dyn_roll();
     // Get instance field reference: public System.Single damper
-    float& dyn_damper();
+    [[deprecated("Use field access instead!")]] float& dyn_damper();
     // Get instance field reference: public UnityEngine.Transform[] CCDBones
-    ::ArrayW<::UnityEngine::Transform*>& dyn_CCDBones();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Transform*>& dyn_CCDBones();
     // Get instance field reference: public System.Single postStretchWeight
-    float& dyn_postStretchWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_postStretchWeight();
     // Get instance field reference: public System.Single maxStretch
-    float& dyn_maxStretch();
+    [[deprecated("Use field access instead!")]] float& dyn_maxStretch();
     // Get instance field reference: public System.Single stretchDamper
-    float& dyn_stretchDamper();
+    [[deprecated("Use field access instead!")]] float& dyn_stretchDamper();
     // Get instance field reference: public System.Boolean fixHead
-    bool& dyn_fixHead();
+    [[deprecated("Use field access instead!")]] bool& dyn_fixHead();
     // Get instance field reference: public UnityEngine.Transform[] stretchBones
-    ::ArrayW<::UnityEngine::Transform*>& dyn_stretchBones();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Transform*>& dyn_stretchBones();
     // Get instance field reference: public UnityEngine.Vector3 chestDirection
-    ::UnityEngine::Vector3& dyn_chestDirection();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_chestDirection();
     // Get instance field reference: public System.Single chestDirectionWeight
-    float& dyn_chestDirectionWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_chestDirectionWeight();
     // Get instance field reference: public UnityEngine.Transform[] chestBones
-    ::ArrayW<::UnityEngine::Transform*>& dyn_chestBones();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Transform*>& dyn_chestBones();
     // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPostHeadEffectorFK
-    ::RootMotion::FinalIK::IKSolver::UpdateDelegate*& dyn_OnPostHeadEffectorFK();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKSolver::UpdateDelegate*& dyn_OnPostHeadEffectorFK();
     // Get instance field reference: private UnityEngine.Vector3 offset
-    ::UnityEngine::Vector3& dyn_offset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_offset();
     // Get instance field reference: private UnityEngine.Vector3 headToBody
-    ::UnityEngine::Vector3& dyn_headToBody();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_headToBody();
     // Get instance field reference: private UnityEngine.Vector3 shoulderCenterToHead
-    ::UnityEngine::Vector3& dyn_shoulderCenterToHead();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_shoulderCenterToHead();
     // Get instance field reference: private UnityEngine.Vector3 headToLeftThigh
-    ::UnityEngine::Vector3& dyn_headToLeftThigh();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_headToLeftThigh();
     // Get instance field reference: private UnityEngine.Vector3 headToRightThigh
-    ::UnityEngine::Vector3& dyn_headToRightThigh();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_headToRightThigh();
     // Get instance field reference: private UnityEngine.Vector3 leftShoulderPos
-    ::UnityEngine::Vector3& dyn_leftShoulderPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_leftShoulderPos();
     // Get instance field reference: private UnityEngine.Vector3 rightShoulderPos
-    ::UnityEngine::Vector3& dyn_rightShoulderPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_rightShoulderPos();
     // Get instance field reference: private System.Single shoulderDist
-    float& dyn_shoulderDist();
+    [[deprecated("Use field access instead!")]] float& dyn_shoulderDist();
     // Get instance field reference: private System.Single leftShoulderDist
-    float& dyn_leftShoulderDist();
+    [[deprecated("Use field access instead!")]] float& dyn_leftShoulderDist();
     // Get instance field reference: private System.Single rightShoulderDist
-    float& dyn_rightShoulderDist();
+    [[deprecated("Use field access instead!")]] float& dyn_rightShoulderDist();
     // Get instance field reference: private UnityEngine.Quaternion chestRotation
-    ::UnityEngine::Quaternion& dyn_chestRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_chestRotation();
     // Get instance field reference: private UnityEngine.Quaternion headRotationRelativeToRoot
-    ::UnityEngine::Quaternion& dyn_headRotationRelativeToRoot();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_headRotationRelativeToRoot();
     // Get instance field reference: private UnityEngine.Quaternion[] ccdDefaultLocalRotations
-    ::ArrayW<::UnityEngine::Quaternion>& dyn_ccdDefaultLocalRotations();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Quaternion>& dyn_ccdDefaultLocalRotations();
     // Get instance field reference: private UnityEngine.Vector3 headLocalPosition
-    ::UnityEngine::Vector3& dyn_headLocalPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_headLocalPosition();
     // Get instance field reference: private UnityEngine.Quaternion headLocalRotation
-    ::UnityEngine::Quaternion& dyn_headLocalRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_headLocalRotation();
     // Get instance field reference: private UnityEngine.Vector3[] stretchLocalPositions
-    ::ArrayW<::UnityEngine::Vector3>& dyn_stretchLocalPositions();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn_stretchLocalPositions();
     // Get instance field reference: private UnityEngine.Quaternion[] stretchLocalRotations
-    ::ArrayW<::UnityEngine::Quaternion>& dyn_stretchLocalRotations();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Quaternion>& dyn_stretchLocalRotations();
     // Get instance field reference: private UnityEngine.Vector3[] chestLocalPositions
-    ::ArrayW<::UnityEngine::Vector3>& dyn_chestLocalPositions();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn_chestLocalPositions();
     // Get instance field reference: private UnityEngine.Quaternion[] chestLocalRotations
-    ::ArrayW<::UnityEngine::Quaternion>& dyn_chestLocalRotations();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Quaternion>& dyn_chestLocalRotations();
     // Get instance field reference: private System.Int32 bendBonesCount
-    int& dyn_bendBonesCount();
+    [[deprecated("Use field access instead!")]] int& dyn_bendBonesCount();
     // Get instance field reference: private System.Int32 ccdBonesCount
-    int& dyn_ccdBonesCount();
+    [[deprecated("Use field access instead!")]] int& dyn_ccdBonesCount();
     // Get instance field reference: private System.Int32 stretchBonesCount
-    int& dyn_stretchBonesCount();
+    [[deprecated("Use field access instead!")]] int& dyn_stretchBonesCount();
     // Get instance field reference: private System.Int32 chestBonesCount
-    int& dyn_chestBonesCount();
-    // private System.Void Start()
-    // Offset: 0x220690C
-    void Start();
-    // private System.Void OnStoreDefaultLocalState()
-    // Offset: 0x2206C3C
-    void OnStoreDefaultLocalState();
-    // private System.Void OnFixTransforms()
-    // Offset: 0x22070FC
-    void OnFixTransforms();
-    // private System.Void OnPreRead()
-    // Offset: 0x22074F0
-    void OnPreRead();
-    // private System.Void SpineBend()
-    // Offset: 0x2207E68
-    void SpineBend();
-    // private System.Void CCDPass()
-    // Offset: 0x22081B4
-    void CCDPass();
-    // private System.Void Iterate(System.Int32 iteration)
-    // Offset: 0x2208550
-    void Iterate(int iteration);
-    // private System.Void OnPostUpdate()
-    // Offset: 0x2208FBC
-    void OnPostUpdate();
-    // private System.Void ChestDirection()
-    // Offset: 0x2207B94
-    void ChestDirection();
-    // private System.Void PostStretching()
-    // Offset: 0x22091CC
-    void PostStretching();
-    // private System.Void LerpSolverPosition(RootMotion.FinalIK.IKEffector effector, UnityEngine.Vector3 position, System.Single weight, UnityEngine.Vector3 offset)
-    // Offset: 0x2208E78
-    void LerpSolverPosition(::RootMotion::FinalIK::IKEffector* effector, ::UnityEngine::Vector3 position, float weight, ::UnityEngine::Vector3 offset);
-    // private System.Void Solve(ref UnityEngine.Vector3 pos1, ref UnityEngine.Vector3 pos2, System.Single nominalDistance)
-    // Offset: 0x2208CDC
-    void Solve(ByRef<::UnityEngine::Vector3> pos1, ByRef<::UnityEngine::Vector3> pos2, float nominalDistance);
-    // private System.Void OnDestroy()
-    // Offset: 0x2209538
-    void OnDestroy();
+    [[deprecated("Use field access instead!")]] int& dyn_chestBonesCount();
     // public System.Void .ctor()
-    // Offset: 0x22097B8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x225702C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FBBIKHeadEffector* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::FBBIKHeadEffector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FBBIKHeadEffector*, creationType>()));
     }
+    // private System.Void Start()
+    // Offset: 0x2254180
+    void Start();
+    // private System.Void OnStoreDefaultLocalState()
+    // Offset: 0x22544B0
+    void OnStoreDefaultLocalState();
+    // private System.Void OnFixTransforms()
+    // Offset: 0x2254970
+    void OnFixTransforms();
+    // private System.Void OnPreRead()
+    // Offset: 0x2254D64
+    void OnPreRead();
+    // private System.Void SpineBend()
+    // Offset: 0x22556DC
+    void SpineBend();
+    // private System.Void CCDPass()
+    // Offset: 0x2255A28
+    void CCDPass();
+    // private System.Void Iterate(System.Int32 iteration)
+    // Offset: 0x2255DC4
+    void Iterate(int iteration);
+    // private System.Void OnPostUpdate()
+    // Offset: 0x2256830
+    void OnPostUpdate();
+    // private System.Void ChestDirection()
+    // Offset: 0x2255408
+    void ChestDirection();
+    // private System.Void PostStretching()
+    // Offset: 0x2256A40
+    void PostStretching();
+    // private System.Void LerpSolverPosition(RootMotion.FinalIK.IKEffector effector, UnityEngine.Vector3 position, System.Single weight, UnityEngine.Vector3 offset)
+    // Offset: 0x22566EC
+    void LerpSolverPosition(::RootMotion::FinalIK::IKEffector* effector, ::UnityEngine::Vector3 position, float weight, ::UnityEngine::Vector3 offset);
+    // private System.Void Solve(ref UnityEngine.Vector3 pos1, ref UnityEngine.Vector3 pos2, System.Single nominalDistance)
+    // Offset: 0x2256550
+    void Solve(ByRef<::UnityEngine::Vector3> pos1, ByRef<::UnityEngine::Vector3> pos2, float nominalDistance);
+    // private System.Void OnDestroy()
+    // Offset: 0x2256DAC
+    void OnDestroy();
   }; // RootMotion.FinalIK.FBBIKHeadEffector
   #pragma pack(pop)
   static check_size<sizeof(FBBIKHeadEffector), 364 + sizeof(int)> __RootMotion_FinalIK_FBBIKHeadEffectorSizeCheck;
   static_assert(sizeof(FBBIKHeadEffector) == 0x170);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKHeadEffector::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKHeadEffector::Start
 // Il2CppName: Start
 template<>
@@ -641,7 +631,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKHeadEffector*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKHeadEffector::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -78,7 +78,7 @@ namespace TMPro {
     // Set static field: static public TMPro._HorizontalAlignmentOptions Geometry
     static void _set_Geometry(::TMPro::_HorizontalAlignmentOptions value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // TMPro._HorizontalAlignmentOptions
   #pragma pack(pop)
   static check_size<sizeof(_HorizontalAlignmentOptions), 0 + sizeof(int)> __TMPro__HorizontalAlignmentOptionsSizeCheck;

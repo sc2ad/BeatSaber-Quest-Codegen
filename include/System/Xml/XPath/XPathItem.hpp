@@ -73,21 +73,19 @@ namespace System::Xml::XPath {
     // public System.Int64 get_ValueAsLong()
     // Offset: 0xFFFFFFFFFFFFFFFF
     int64_t get_ValueAsLong();
-    // public System.Object ValueAs(System.Type returnType)
-    // Offset: 0x1B6F38C
-    ::Il2CppObject* ValueAs(::System::Type* returnType);
-    // public System.Object ValueAs(System.Type returnType, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    ::Il2CppObject* ValueAs(::System::Type* returnType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // protected System.Void .ctor()
-    // Offset: 0x1B6F3A0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1BA9988
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XPathItem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XPath::XPathItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XPathItem*, creationType>()));
     }
+    // public System.Object ValueAs(System.Type returnType)
+    // Offset: 0x1BA9974
+    ::Il2CppObject* ValueAs(::System::Type* returnType);
+    // public System.Object ValueAs(System.Type returnType, System.Xml.IXmlNamespaceResolver nsResolver)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    ::Il2CppObject* ValueAs(::System::Type* returnType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
   }; // System.Xml.XPath.XPathItem
   #pragma pack(pop)
 }
@@ -164,6 +162,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Sy
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XPath::XPathItem*), "get_ValueAsLong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Xml::XPath::XPathItem::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::XPath::XPathItem::ValueAs
 // Il2CppName: ValueAs
 template<>
@@ -183,7 +185,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XPath::XPathItem*), "ValueAs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{returnType, nsResolver});
   }
 };
-// Writing MetadataGetter for method: System::Xml::XPath::XPathItem::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -41,17 +41,11 @@ namespace UnityEngine::TestTools {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestEnumerator : public ::Il2CppObject {
     public:
-    // Nested type: ::UnityEngine::TestTools::TestEnumerator::$Execute$d__6
-    class $Execute$d__6;
-    #ifdef USE_CODEGEN_FIELDS
+    // Nested type: ::UnityEngine::TestTools::TestEnumerator::EnumeratorContext
+    class EnumeratorContext;
+    // Nested type: ::UnityEngine::TestTools::TestEnumerator::$Execute$d__7
+    class $Execute$d__7;
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly NUnit.Framework.Internal.ITestExecutionContext m_Context
     // Size: 0x8
     // Offset: 0x10
@@ -68,17 +62,20 @@ namespace UnityEngine::TestTools {
     // Set static field: static private System.Collections.IEnumerator m_TestEnumerator
     static void _set_m_TestEnumerator(::System::Collections::IEnumerator* value);
     // Get instance field reference: private readonly NUnit.Framework.Internal.ITestExecutionContext m_Context
-    ::NUnit::Framework::Internal::ITestExecutionContext*& dyn_m_Context();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::ITestExecutionContext*& dyn_m_Context();
     // public System.Void .ctor(NUnit.Framework.Internal.ITestExecutionContext context, System.Collections.IEnumerator testEnumerator)
-    // Offset: 0x194AD54
+    // Offset: 0x19828FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestEnumerator* New_ctor(::NUnit::Framework::Internal::ITestExecutionContext* context, ::System::Collections::IEnumerator* testEnumerator) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestEnumerator*, creationType>(context, testEnumerator)));
     }
     // public System.Collections.IEnumerator Execute()
-    // Offset: 0x194ADC8
+    // Offset: 0x1982970
     ::System::Collections::IEnumerator* Execute();
+    // private System.Collections.IEnumerator Execute(System.Collections.IEnumerator enumerator, UnityEngine.TestTools.TestEnumerator/UnityEngine.TestTools.EnumeratorContext context)
+    // Offset: 0x19856C0
+    ::System::Collections::IEnumerator* Execute(::System::Collections::IEnumerator* enumerator, ::UnityEngine::TestTools::TestEnumerator::EnumeratorContext* context);
   }; // UnityEngine.TestTools.TestEnumerator
   #pragma pack(pop)
   static check_size<sizeof(TestEnumerator), 16 + sizeof(::NUnit::Framework::Internal::ITestExecutionContext*)> __UnityEngine_TestTools_TestEnumeratorSizeCheck;
@@ -95,5 +92,15 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (UnityEngine::TestTools::TestEnumerator::*)()>(&UnityEngine::TestTools::TestEnumerator::Execute)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestEnumerator*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestEnumerator::Execute
+// Il2CppName: Execute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (UnityEngine::TestTools::TestEnumerator::*)(::System::Collections::IEnumerator*, ::UnityEngine::TestTools::TestEnumerator::EnumeratorContext*)>(&UnityEngine::TestTools::TestEnumerator::Execute)> {
+  static const MethodInfo* get() {
+    static auto* enumerator = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerator")->byval_arg;
+    static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine.TestTools", "TestEnumerator/EnumeratorContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestEnumerator*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumerator, context});
   }
 };

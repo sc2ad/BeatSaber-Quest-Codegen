@@ -41,15 +41,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet
     class DifficultyBeatmapSet;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.AudioClip _audioClip
     // Size: 0x8
     // Offset: 0x18
@@ -72,24 +64,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AudioClip _audioClip
-    ::UnityEngine::AudioClip*& dyn__audioClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioClip*& dyn__audioClip();
     // Get instance field reference: private BeatmapLevelDataSO/DifficultyBeatmapSet[] _difficultyBeatmapSets
-    ::ArrayW<::GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>& dyn__difficultyBeatmapSets();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>& dyn__difficultyBeatmapSets();
     // Get instance field reference: private BeatmapLevelDataSO/DifficultyBeatmapSet[] _no360MovementDifficultyBeatmapSets
-    ::ArrayW<::GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>& dyn__no360MovementDifficultyBeatmapSets();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>& dyn__no360MovementDifficultyBeatmapSets();
     // public UnityEngine.AudioClip get_audioClip()
-    // Offset: 0x14CDC94
+    // Offset: 0x150559C
     ::UnityEngine::AudioClip* get_audioClip();
     // public BeatmapLevelDataSO/DifficultyBeatmapSet[] get_difficultyBeatmapSets()
-    // Offset: 0x14CDC9C
+    // Offset: 0x15055A4
     ::ArrayW<::GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*> get_difficultyBeatmapSets();
     // public System.Void .ctor()
-    // Offset: 0x14CDCA4
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15055AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelDataSO::.ctor");

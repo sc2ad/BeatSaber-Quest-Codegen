@@ -38,109 +38,111 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class Interp : public ::Il2CppObject {
     public:
-    // static public System.Single Float(System.Single t, RootMotion.InterpolationMode mode)
-    // Offset: 0x1F80070
-    static float Float(float t, ::RootMotion::InterpolationMode mode);
-    // static public UnityEngine.Vector3 V3(UnityEngine.Vector3 v1, UnityEngine.Vector3 v2, System.Single t, RootMotion.InterpolationMode mode)
-    // Offset: 0x1F80AD8
-    static ::UnityEngine::Vector3 V3(::UnityEngine::Vector3 v1, ::UnityEngine::Vector3 v2, float t, ::RootMotion::InterpolationMode mode);
-    // static public System.Single LerpValue(System.Single value, System.Single target, System.Single increaseSpeed, System.Single decreaseSpeed)
-    // Offset: 0x1F80BE0
-    static float LerpValue(float value, float target, float increaseSpeed, float decreaseSpeed);
-    // static private System.Single None(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F803DC
-    static float None(float t, float b, float c);
-    // static private System.Single InOutCubic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F803E8
-    static float InOutCubic(float t, float b, float c);
-    // static private System.Single InOutQuintic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F8040C
-    static float InOutQuintic(float t, float b, float c);
-    // static private System.Single InQuintic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F80448
-    static float InQuintic(float t, float b, float c);
-    // static private System.Single InQuartic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F80460
-    static float InQuartic(float t, float b, float c);
-    // static private System.Single InCubic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F80474
-    static float InCubic(float t, float b, float c);
-    // static private System.Single InQuadratic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F80488
-    static float InQuadratic(float t, float b, float c);
-    // static private System.Single OutQuintic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F80498
-    static float OutQuintic(float t, float b, float c);
-    // static private System.Single OutQuartic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F804E0
-    static float OutQuartic(float t, float b, float c);
-    // static private System.Single OutCubic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F80518
-    static float OutCubic(float t, float b, float c);
-    // static private System.Single OutInCubic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F80540
-    static float OutInCubic(float t, float b, float c);
-    // static private System.Single OutInQuartic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F80CDC
-    static float OutInQuartic(float t, float b, float c);
-    // static private System.Single BackInCubic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F80574
-    static float BackInCubic(float t, float b, float c);
-    // static private System.Single BackInQuartic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F8059C
-    static float BackInQuartic(float t, float b, float c);
-    // static private System.Single OutBackCubic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F805CC
-    static float OutBackCubic(float t, float b, float c);
-    // static private System.Single OutBackQuartic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F80600
-    static float OutBackQuartic(float t, float b, float c);
-    // static private System.Single OutElasticSmall(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F80644
-    static float OutElasticSmall(float t, float b, float c);
-    // static private System.Single OutElasticBig(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F806A8
-    static float OutElasticBig(float t, float b, float c);
-    // static private System.Single InElasticSmall(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F8070C
-    static float InElasticSmall(float t, float b, float c);
-    // static private System.Single InElasticBig(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F80760
-    static float InElasticBig(float t, float b, float c);
-    // static private System.Single InSine(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F807B4
-    static float InSine(float t, float b, float c);
-    // static private System.Single OutSine(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F8084C
-    static float OutSine(float t, float b, float c);
-    // static private System.Single InOutSine(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F808E0
-    static float InOutSine(float t, float b, float c);
-    // static private System.Single InElastic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F80D10
-    static float InElastic(float t, float b, float c);
-    // static private System.Single OutElastic(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F80984
-    static float OutElastic(float t, float b, float c);
-    // static private System.Single InBack(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F80A68
-    static float InBack(float t, float b, float c);
-    // static private System.Single OutBack(System.Single t, System.Single b, System.Single c)
-    // Offset: 0x1F80A98
-    static float OutBack(float t, float b, float c);
     // public System.Void .ctor()
-    // Offset: 0x1F80DF8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FCD66C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Interp* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::Interp::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Interp*, creationType>()));
     }
+    // static public System.Single Float(System.Single t, RootMotion.InterpolationMode mode)
+    // Offset: 0x1FCC8E4
+    static float Float(float t, ::RootMotion::InterpolationMode mode);
+    // static public UnityEngine.Vector3 V3(UnityEngine.Vector3 v1, UnityEngine.Vector3 v2, System.Single t, RootMotion.InterpolationMode mode)
+    // Offset: 0x1FCD34C
+    static ::UnityEngine::Vector3 V3(::UnityEngine::Vector3 v1, ::UnityEngine::Vector3 v2, float t, ::RootMotion::InterpolationMode mode);
+    // static public System.Single LerpValue(System.Single value, System.Single target, System.Single increaseSpeed, System.Single decreaseSpeed)
+    // Offset: 0x1FCD454
+    static float LerpValue(float value, float target, float increaseSpeed, float decreaseSpeed);
+    // static private System.Single None(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCCC50
+    static float None(float t, float b, float c);
+    // static private System.Single InOutCubic(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCCC5C
+    static float InOutCubic(float t, float b, float c);
+    // static private System.Single InOutQuintic(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCCC80
+    static float InOutQuintic(float t, float b, float c);
+    // static private System.Single InQuintic(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCCCBC
+    static float InQuintic(float t, float b, float c);
+    // static private System.Single InQuartic(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCCCD4
+    static float InQuartic(float t, float b, float c);
+    // static private System.Single InCubic(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCCCE8
+    static float InCubic(float t, float b, float c);
+    // static private System.Single InQuadratic(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCCCFC
+    static float InQuadratic(float t, float b, float c);
+    // static private System.Single OutQuintic(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCCD0C
+    static float OutQuintic(float t, float b, float c);
+    // static private System.Single OutQuartic(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCCD54
+    static float OutQuartic(float t, float b, float c);
+    // static private System.Single OutCubic(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCCD8C
+    static float OutCubic(float t, float b, float c);
+    // static private System.Single OutInCubic(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCCDB4
+    static float OutInCubic(float t, float b, float c);
+    // static private System.Single OutInQuartic(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCD550
+    static float OutInQuartic(float t, float b, float c);
+    // static private System.Single BackInCubic(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCCDE8
+    static float BackInCubic(float t, float b, float c);
+    // static private System.Single BackInQuartic(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCCE10
+    static float BackInQuartic(float t, float b, float c);
+    // static private System.Single OutBackCubic(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCCE40
+    static float OutBackCubic(float t, float b, float c);
+    // static private System.Single OutBackQuartic(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCCE74
+    static float OutBackQuartic(float t, float b, float c);
+    // static private System.Single OutElasticSmall(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCCEB8
+    static float OutElasticSmall(float t, float b, float c);
+    // static private System.Single OutElasticBig(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCCF1C
+    static float OutElasticBig(float t, float b, float c);
+    // static private System.Single InElasticSmall(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCCF80
+    static float InElasticSmall(float t, float b, float c);
+    // static private System.Single InElasticBig(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCCFD4
+    static float InElasticBig(float t, float b, float c);
+    // static private System.Single InSine(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCD028
+    static float InSine(float t, float b, float c);
+    // static private System.Single OutSine(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCD0C0
+    static float OutSine(float t, float b, float c);
+    // static private System.Single InOutSine(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCD154
+    static float InOutSine(float t, float b, float c);
+    // static private System.Single InElastic(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCD584
+    static float InElastic(float t, float b, float c);
+    // static private System.Single OutElastic(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCD1F8
+    static float OutElastic(float t, float b, float c);
+    // static private System.Single InBack(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCD2DC
+    static float InBack(float t, float b, float c);
+    // static private System.Single OutBack(System.Single t, System.Single b, System.Single c)
+    // Offset: 0x1FCD30C
+    static float OutBack(float t, float b, float c);
   }; // RootMotion.Interp
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::Interp::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::Interp::Float
 // Il2CppName: Float
 template<>
@@ -472,7 +474,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
     return ::il2cpp_utils::FindMethod(classof(RootMotion::Interp*), "OutBack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t, b, c});
   }
 };
-// Writing MetadataGetter for method: RootMotion::Interp::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

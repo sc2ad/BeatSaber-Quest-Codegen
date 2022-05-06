@@ -49,15 +49,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class GameScenesManager::$$c__DisplayClass32_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public GameScenesManager <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -108,45 +100,47 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action_1<::Zenject::DiContainer*>*) == 0x8);
     public:
     // Get instance field reference: public GameScenesManager <>4__this
-    ::GlobalNamespace::GameScenesManager*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager*& dyn_$$4__this();
     // Get instance field reference: public ScenesTransitionSetupDataSO scenesTransitionSetupData
-    ::GlobalNamespace::ScenesTransitionSetupDataSO*& dyn_scenesTransitionSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ScenesTransitionSetupDataSO*& dyn_scenesTransitionSetupData();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> newSceneNames
-    ::System::Collections::Generic::List_1<::StringW>*& dyn_newSceneNames();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn_newSceneNames();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> emptyTransitionSceneNameList
-    ::System::Collections::Generic::List_1<::StringW>*& dyn_emptyTransitionSceneNameList();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn_emptyTransitionSceneNameList();
     // Get instance field reference: public GameScenesManager/ScenesStackData scenesStackData
-    ::GlobalNamespace::GameScenesManager::ScenesStackData*& dyn_scenesStackData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager::ScenesStackData*& dyn_scenesStackData();
     // Get instance field reference: public System.Action`1<Zenject.DiContainer> finishCallback
-    ::System::Action_1<::Zenject::DiContainer*>*& dyn_finishCallback();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::Zenject::DiContainer*>*& dyn_finishCallback();
     // Get instance field reference: public System.Action`1<Zenject.DiContainer> <>9__1
-    ::System::Action_1<::Zenject::DiContainer*>*& dyn_$$9__1();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::Zenject::DiContainer*>*& dyn_$$9__1();
     // Get instance field reference: public System.Action`1<Zenject.DiContainer> <>9__2
-    ::System::Action_1<::Zenject::DiContainer*>*& dyn_$$9__2();
-    // System.Void <ReplaceScenes>b__0(Zenject.DiContainer emptySceneContainer)
-    // Offset: 0x157064C
-    void $ReplaceScenes$b__0(::Zenject::DiContainer* emptySceneContainer);
-    // System.Void <ReplaceScenes>b__1(Zenject.DiContainer container)
-    // Offset: 0x1570774
-    void $ReplaceScenes$b__1(::Zenject::DiContainer* container);
-    // System.Void <ReplaceScenes>b__2(Zenject.DiContainer container)
-    // Offset: 0x1570818
-    void $ReplaceScenes$b__2(::Zenject::DiContainer* container);
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::Zenject::DiContainer*>*& dyn_$$9__2();
     // public System.Void .ctor()
-    // Offset: 0x156ED80
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15A5690
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameScenesManager::$$c__DisplayClass32_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameScenesManager::$$c__DisplayClass32_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameScenesManager::$$c__DisplayClass32_0*, creationType>()));
     }
+    // System.Void <ReplaceScenes>b__0(Zenject.DiContainer emptySceneContainer)
+    // Offset: 0x15A6F5C
+    void $ReplaceScenes$b__0(::Zenject::DiContainer* emptySceneContainer);
+    // System.Void <ReplaceScenes>b__1(Zenject.DiContainer container)
+    // Offset: 0x15A7084
+    void $ReplaceScenes$b__1(::Zenject::DiContainer* container);
+    // System.Void <ReplaceScenes>b__2(Zenject.DiContainer container)
+    // Offset: 0x15A7128
+    void $ReplaceScenes$b__2(::Zenject::DiContainer* container);
   }; // GameScenesManager/<>c__DisplayClass32_0
   #pragma pack(pop)
   static check_size<sizeof(GameScenesManager::$$c__DisplayClass32_0), 72 + sizeof(::System::Action_1<::Zenject::DiContainer*>*)> __GlobalNamespace_GameScenesManager_$$c__DisplayClass32_0SizeCheck;
   static_assert(sizeof(GameScenesManager::$$c__DisplayClass32_0) == 0x50);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::$$c__DisplayClass32_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::$$c__DisplayClass32_0::$ReplaceScenes$b__0
 // Il2CppName: <ReplaceScenes>b__0
 template<>
@@ -174,7 +168,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager::$$c__DisplayClass32_0*), "<ReplaceScenes>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::$$c__DisplayClass32_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -30,15 +30,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightmapLightWithIdsGroupEntry::GroupLightData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private LightGroup _lightGroup
     // Size: 0x8
     // Offset: 0x10
@@ -59,24 +51,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private LightGroup _lightGroup
-    ::GlobalNamespace::LightGroup*& dyn__lightGroup();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightGroup*& dyn__lightGroup();
     // Get instance field reference: private System.Single _groupIntensity
-    float& dyn__groupIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn__groupIntensity();
     // Get instance field reference: private System.Single _groupProbeHighlightsIntensityMultiplier
-    float& dyn__groupProbeHighlightsIntensityMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__groupProbeHighlightsIntensityMultiplier();
     // public LightGroup get_lightGroup()
-    // Offset: 0x2AD41DC
+    // Offset: 0x1E7D5E4
     ::GlobalNamespace::LightGroup* get_lightGroup();
     // public System.Single get_groupIntensity()
-    // Offset: 0x2AD41E4
+    // Offset: 0x1E7D5EC
     float get_groupIntensity();
     // public System.Single get_groupProbeHighlightsIntensityMultiplier()
-    // Offset: 0x2AD41EC
+    // Offset: 0x1E7D5F4
     float get_groupProbeHighlightsIntensityMultiplier();
     // public System.Void .ctor()
-    // Offset: 0x2AD41F4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E7D5FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightmapLightWithIdsGroupEntry::GroupLightData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightmapLightWithIdsGroupEntry::GroupLightData::.ctor");

@@ -57,289 +57,281 @@ namespace GlobalNamespace {
     struct WindowMode;
     // Nested type: ::GlobalNamespace::MainSettingsModelSO::Config
     class Config;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [SOVariableAttribute] Offset: 0x124CD3C
+    // [SOVariableAttribute] Offset: 0x10D1834
     // public FloatSO vrResolutionScale
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::FloatSO* vrResolutionScale;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CD4C
+    // [SOVariableAttribute] Offset: 0x10D1844
     // public FloatSO menuVRResolutionScaleMultiplier
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::FloatSO* menuVRResolutionScaleMultiplier;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CD5C
+    // [SOVariableAttribute] Offset: 0x10D1854
     // public BoolSO useFixedFoveatedRenderingDuringGameplay
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::BoolSO* useFixedFoveatedRenderingDuringGameplay;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CD6C
+    // [SOVariableAttribute] Offset: 0x10D1864
     // public Vector2IntSO windowResolution
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::Vector2IntSO* windowResolution;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Vector2IntSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CD7C
+    // [SOVariableAttribute] Offset: 0x10D1874
     // public Vector2IntSO editorWindowResolution
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::Vector2IntSO* editorWindowResolution;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Vector2IntSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CD8C
+    // [SOVariableAttribute] Offset: 0x10D1884
     // public BoolSO fullscreen
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::BoolSO* fullscreen;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CD9C
+    // [SOVariableAttribute] Offset: 0x10D1894
     // public IntSO antiAliasingLevel
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::IntSO* antiAliasingLevel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IntSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CDAC
+    // [SOVariableAttribute] Offset: 0x10D18A4
     // public FloatSO volume
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::FloatSO* volume;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CDBC
+    // [SOVariableAttribute] Offset: 0x10D18B4
     // public FloatSO ambientVolumeScale
     // Size: 0x8
     // Offset: 0x58
     ::GlobalNamespace::FloatSO* ambientVolumeScale;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CDCC
+    // [SOVariableAttribute] Offset: 0x10D18C4
     // public BoolSO controllersRumbleEnabled
     // Size: 0x8
     // Offset: 0x60
     ::GlobalNamespace::BoolSO* controllersRumbleEnabled;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CDDC
+    // [SOVariableAttribute] Offset: 0x10D18D4
     // public Vector3SO roomCenter
     // Size: 0x8
     // Offset: 0x68
     ::GlobalNamespace::Vector3SO* roomCenter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Vector3SO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CDEC
+    // [SOVariableAttribute] Offset: 0x10D18E4
     // public FloatSO roomRotation
     // Size: 0x8
     // Offset: 0x70
     ::GlobalNamespace::FloatSO* roomRotation;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CDFC
+    // [SOVariableAttribute] Offset: 0x10D18F4
     // public Vector3SO controllerPosition
     // Size: 0x8
     // Offset: 0x78
     ::GlobalNamespace::Vector3SO* controllerPosition;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Vector3SO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CE0C
+    // [SOVariableAttribute] Offset: 0x10D1904
     // public Vector3SO controllerRotation
     // Size: 0x8
     // Offset: 0x80
     ::GlobalNamespace::Vector3SO* controllerRotation;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Vector3SO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CE1C
+    // [SOVariableAttribute] Offset: 0x10D1914
     // public IntSO mirrorGraphicsSettings
     // Size: 0x8
     // Offset: 0x88
     ::GlobalNamespace::IntSO* mirrorGraphicsSettings;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IntSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CE2C
+    // [SOVariableAttribute] Offset: 0x10D1924
     // public IntSO mainEffectGraphicsSettings
     // Size: 0x8
     // Offset: 0x90
     ::GlobalNamespace::IntSO* mainEffectGraphicsSettings;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IntSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CE3C
+    // [SOVariableAttribute] Offset: 0x10D1934
     // public IntSO bloomPrePassGraphicsSettings
     // Size: 0x8
     // Offset: 0x98
     ::GlobalNamespace::IntSO* bloomPrePassGraphicsSettings;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IntSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CE4C
+    // [SOVariableAttribute] Offset: 0x10D1944
     // public BoolSO smokeGraphicsSettings
     // Size: 0x8
     // Offset: 0xA0
     ::GlobalNamespace::BoolSO* smokeGraphicsSettings;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CE5C
+    // [SOVariableAttribute] Offset: 0x10D1954
     // public BoolSO enableAlphaFeatures
     // Size: 0x8
     // Offset: 0xA8
     ::GlobalNamespace::BoolSO* enableAlphaFeatures;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CE6C
+    // [SOVariableAttribute] Offset: 0x10D1964
     // public IntSO pauseButtonPressDurationLevel
     // Size: 0x8
     // Offset: 0xB0
     ::GlobalNamespace::IntSO* pauseButtonPressDurationLevel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IntSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CE7C
+    // [SOVariableAttribute] Offset: 0x10D1974
     // public BoolSO burnMarkTrailsEnabled
     // Size: 0x8
     // Offset: 0xB8
     ::GlobalNamespace::BoolSO* burnMarkTrailsEnabled;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CE8C
+    // [SOVariableAttribute] Offset: 0x10D1984
     // public BoolSO screenDisplacementEffectsEnabled
     // Size: 0x8
     // Offset: 0xC0
     ::GlobalNamespace::BoolSO* screenDisplacementEffectsEnabled;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CE9C
+    // [SOVariableAttribute] Offset: 0x10D1994
     // public BoolSO smoothCameraEnabled
     // Size: 0x8
     // Offset: 0xC8
     ::GlobalNamespace::BoolSO* smoothCameraEnabled;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CEAC
+    // [SOVariableAttribute] Offset: 0x10D19A4
     // public FloatSO smoothCameraFieldOfView
     // Size: 0x8
     // Offset: 0xD0
     ::GlobalNamespace::FloatSO* smoothCameraFieldOfView;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CEBC
+    // [SOVariableAttribute] Offset: 0x10D19B4
     // public Vector3SO smoothCameraThirdPersonPosition
     // Size: 0x8
     // Offset: 0xD8
     ::GlobalNamespace::Vector3SO* smoothCameraThirdPersonPosition;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Vector3SO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CECC
+    // [SOVariableAttribute] Offset: 0x10D19C4
     // public Vector3SO smoothCameraThirdPersonEulerAngles
     // Size: 0x8
     // Offset: 0xE0
     ::GlobalNamespace::Vector3SO* smoothCameraThirdPersonEulerAngles;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Vector3SO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CEDC
+    // [SOVariableAttribute] Offset: 0x10D19D4
     // public BoolSO smoothCameraThirdPersonEnabled
     // Size: 0x8
     // Offset: 0xE8
     ::GlobalNamespace::BoolSO* smoothCameraThirdPersonEnabled;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CEEC
+    // [SOVariableAttribute] Offset: 0x10D19E4
     // public FloatSO smoothCameraRotationSmooth
     // Size: 0x8
     // Offset: 0xF0
     ::GlobalNamespace::FloatSO* smoothCameraRotationSmooth;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CEFC
+    // [SOVariableAttribute] Offset: 0x10D19F4
     // public FloatSO smoothCameraPositionSmooth
     // Size: 0x8
     // Offset: 0xF8
     ::GlobalNamespace::FloatSO* smoothCameraPositionSmooth;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CF0C
+    // [SOVariableAttribute] Offset: 0x10D1A04
     // public BoolSO overrideAudioLatency
     // Size: 0x8
     // Offset: 0x100
     ::GlobalNamespace::BoolSO* overrideAudioLatency;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CF1C
+    // [SOVariableAttribute] Offset: 0x10D1A14
     // public FloatSO audioLatency
     // Size: 0x8
     // Offset: 0x108
     ::GlobalNamespace::FloatSO* audioLatency;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CF2C
+    // [SOVariableAttribute] Offset: 0x10D1A24
     // public IntSO maxShockwaveParticles
     // Size: 0x8
     // Offset: 0x110
     ::GlobalNamespace::IntSO* maxShockwaveParticles;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IntSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CF3C
+    // [SOVariableAttribute] Offset: 0x10D1A34
     // public IntSO maxNumberOfCutSoundEffects
     // Size: 0x8
     // Offset: 0x118
     ::GlobalNamespace::IntSO* maxNumberOfCutSoundEffects;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IntSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CF4C
+    // [SOVariableAttribute] Offset: 0x10D1A44
     // public BoolSO onlineServicesEnabled
     // Size: 0x8
     // Offset: 0x120
     ::GlobalNamespace::BoolSO* onlineServicesEnabled;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CF5C
+    // [SOVariableAttribute] Offset: 0x10D1A54
     // public BoolSO openVrThreadedHaptics
     // Size: 0x8
     // Offset: 0x128
     ::GlobalNamespace::BoolSO* openVrThreadedHaptics;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CF6C
+    // [SOVariableAttribute] Offset: 0x10D1A64
     // public LanguageSO language
     // Size: 0x8
     // Offset: 0x130
     ::GlobalNamespace::LanguageSO* language;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LanguageSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CF7C
+    // [SOVariableAttribute] Offset: 0x10D1A74
     // public BoolSO useCustomServerEnvironment
     // Size: 0x8
     // Offset: 0x138
     ::GlobalNamespace::BoolSO* useCustomServerEnvironment;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CF8C
+    // [SOVariableAttribute] Offset: 0x10D1A84
     // public BoolSO forceGameLiftServerEnvironment
     // Size: 0x8
     // Offset: 0x140
     ::GlobalNamespace::BoolSO* forceGameLiftServerEnvironment;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CF9C
+    // [SOVariableAttribute] Offset: 0x10D1A94
     // public StringSO customServerHostName
     // Size: 0x8
     // Offset: 0x148
     ::GlobalNamespace::StringSO* customServerHostName;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::StringSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x124CFAC
+    // [SOVariableAttribute] Offset: 0x10D1AA4
     // public BoolSO depthTextureEnabled
     // Size: 0x8
     // Offset: 0x150
@@ -422,131 +414,126 @@ namespace GlobalNamespace {
     // Set static field: static public System.Single kControllersRotationOffsetLimit
     static void _set_kControllersRotationOffsetLimit(float value);
     // Get instance field reference: public FloatSO vrResolutionScale
-    ::GlobalNamespace::FloatSO*& dyn_vrResolutionScale();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FloatSO*& dyn_vrResolutionScale();
     // Get instance field reference: public FloatSO menuVRResolutionScaleMultiplier
-    ::GlobalNamespace::FloatSO*& dyn_menuVRResolutionScaleMultiplier();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FloatSO*& dyn_menuVRResolutionScaleMultiplier();
     // Get instance field reference: public BoolSO useFixedFoveatedRenderingDuringGameplay
-    ::GlobalNamespace::BoolSO*& dyn_useFixedFoveatedRenderingDuringGameplay();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn_useFixedFoveatedRenderingDuringGameplay();
     // Get instance field reference: public Vector2IntSO windowResolution
-    ::GlobalNamespace::Vector2IntSO*& dyn_windowResolution();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector2IntSO*& dyn_windowResolution();
     // Get instance field reference: public Vector2IntSO editorWindowResolution
-    ::GlobalNamespace::Vector2IntSO*& dyn_editorWindowResolution();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector2IntSO*& dyn_editorWindowResolution();
     // Get instance field reference: public BoolSO fullscreen
-    ::GlobalNamespace::BoolSO*& dyn_fullscreen();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn_fullscreen();
     // Get instance field reference: public IntSO antiAliasingLevel
-    ::GlobalNamespace::IntSO*& dyn_antiAliasingLevel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IntSO*& dyn_antiAliasingLevel();
     // Get instance field reference: public FloatSO volume
-    ::GlobalNamespace::FloatSO*& dyn_volume();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FloatSO*& dyn_volume();
     // Get instance field reference: public FloatSO ambientVolumeScale
-    ::GlobalNamespace::FloatSO*& dyn_ambientVolumeScale();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FloatSO*& dyn_ambientVolumeScale();
     // Get instance field reference: public BoolSO controllersRumbleEnabled
-    ::GlobalNamespace::BoolSO*& dyn_controllersRumbleEnabled();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn_controllersRumbleEnabled();
     // Get instance field reference: public Vector3SO roomCenter
-    ::GlobalNamespace::Vector3SO*& dyn_roomCenter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3SO*& dyn_roomCenter();
     // Get instance field reference: public FloatSO roomRotation
-    ::GlobalNamespace::FloatSO*& dyn_roomRotation();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FloatSO*& dyn_roomRotation();
     // Get instance field reference: public Vector3SO controllerPosition
-    ::GlobalNamespace::Vector3SO*& dyn_controllerPosition();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3SO*& dyn_controllerPosition();
     // Get instance field reference: public Vector3SO controllerRotation
-    ::GlobalNamespace::Vector3SO*& dyn_controllerRotation();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3SO*& dyn_controllerRotation();
     // Get instance field reference: public IntSO mirrorGraphicsSettings
-    ::GlobalNamespace::IntSO*& dyn_mirrorGraphicsSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IntSO*& dyn_mirrorGraphicsSettings();
     // Get instance field reference: public IntSO mainEffectGraphicsSettings
-    ::GlobalNamespace::IntSO*& dyn_mainEffectGraphicsSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IntSO*& dyn_mainEffectGraphicsSettings();
     // Get instance field reference: public IntSO bloomPrePassGraphicsSettings
-    ::GlobalNamespace::IntSO*& dyn_bloomPrePassGraphicsSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IntSO*& dyn_bloomPrePassGraphicsSettings();
     // Get instance field reference: public BoolSO smokeGraphicsSettings
-    ::GlobalNamespace::BoolSO*& dyn_smokeGraphicsSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn_smokeGraphicsSettings();
     // Get instance field reference: public BoolSO enableAlphaFeatures
-    ::GlobalNamespace::BoolSO*& dyn_enableAlphaFeatures();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn_enableAlphaFeatures();
     // Get instance field reference: public IntSO pauseButtonPressDurationLevel
-    ::GlobalNamespace::IntSO*& dyn_pauseButtonPressDurationLevel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IntSO*& dyn_pauseButtonPressDurationLevel();
     // Get instance field reference: public BoolSO burnMarkTrailsEnabled
-    ::GlobalNamespace::BoolSO*& dyn_burnMarkTrailsEnabled();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn_burnMarkTrailsEnabled();
     // Get instance field reference: public BoolSO screenDisplacementEffectsEnabled
-    ::GlobalNamespace::BoolSO*& dyn_screenDisplacementEffectsEnabled();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn_screenDisplacementEffectsEnabled();
     // Get instance field reference: public BoolSO smoothCameraEnabled
-    ::GlobalNamespace::BoolSO*& dyn_smoothCameraEnabled();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn_smoothCameraEnabled();
     // Get instance field reference: public FloatSO smoothCameraFieldOfView
-    ::GlobalNamespace::FloatSO*& dyn_smoothCameraFieldOfView();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FloatSO*& dyn_smoothCameraFieldOfView();
     // Get instance field reference: public Vector3SO smoothCameraThirdPersonPosition
-    ::GlobalNamespace::Vector3SO*& dyn_smoothCameraThirdPersonPosition();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3SO*& dyn_smoothCameraThirdPersonPosition();
     // Get instance field reference: public Vector3SO smoothCameraThirdPersonEulerAngles
-    ::GlobalNamespace::Vector3SO*& dyn_smoothCameraThirdPersonEulerAngles();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3SO*& dyn_smoothCameraThirdPersonEulerAngles();
     // Get instance field reference: public BoolSO smoothCameraThirdPersonEnabled
-    ::GlobalNamespace::BoolSO*& dyn_smoothCameraThirdPersonEnabled();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn_smoothCameraThirdPersonEnabled();
     // Get instance field reference: public FloatSO smoothCameraRotationSmooth
-    ::GlobalNamespace::FloatSO*& dyn_smoothCameraRotationSmooth();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FloatSO*& dyn_smoothCameraRotationSmooth();
     // Get instance field reference: public FloatSO smoothCameraPositionSmooth
-    ::GlobalNamespace::FloatSO*& dyn_smoothCameraPositionSmooth();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FloatSO*& dyn_smoothCameraPositionSmooth();
     // Get instance field reference: public BoolSO overrideAudioLatency
-    ::GlobalNamespace::BoolSO*& dyn_overrideAudioLatency();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn_overrideAudioLatency();
     // Get instance field reference: public FloatSO audioLatency
-    ::GlobalNamespace::FloatSO*& dyn_audioLatency();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FloatSO*& dyn_audioLatency();
     // Get instance field reference: public IntSO maxShockwaveParticles
-    ::GlobalNamespace::IntSO*& dyn_maxShockwaveParticles();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IntSO*& dyn_maxShockwaveParticles();
     // Get instance field reference: public IntSO maxNumberOfCutSoundEffects
-    ::GlobalNamespace::IntSO*& dyn_maxNumberOfCutSoundEffects();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IntSO*& dyn_maxNumberOfCutSoundEffects();
     // Get instance field reference: public BoolSO onlineServicesEnabled
-    ::GlobalNamespace::BoolSO*& dyn_onlineServicesEnabled();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn_onlineServicesEnabled();
     // Get instance field reference: public BoolSO openVrThreadedHaptics
-    ::GlobalNamespace::BoolSO*& dyn_openVrThreadedHaptics();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn_openVrThreadedHaptics();
     // Get instance field reference: public LanguageSO language
-    ::GlobalNamespace::LanguageSO*& dyn_language();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LanguageSO*& dyn_language();
     // Get instance field reference: public BoolSO useCustomServerEnvironment
-    ::GlobalNamespace::BoolSO*& dyn_useCustomServerEnvironment();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn_useCustomServerEnvironment();
     // Get instance field reference: public BoolSO forceGameLiftServerEnvironment
-    ::GlobalNamespace::BoolSO*& dyn_forceGameLiftServerEnvironment();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn_forceGameLiftServerEnvironment();
     // Get instance field reference: public StringSO customServerHostName
-    ::GlobalNamespace::StringSO*& dyn_customServerHostName();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::StringSO*& dyn_customServerHostName();
     // Get instance field reference: public BoolSO depthTextureEnabled
-    ::GlobalNamespace::BoolSO*& dyn_depthTextureEnabled();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn_depthTextureEnabled();
     // Get instance field reference: private System.Boolean <createScreenshotDuringTheGame>k__BackingField
-    bool& dyn_$createScreenshotDuringTheGame$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$createScreenshotDuringTheGame$k__BackingField();
     // Get instance field reference: private System.Boolean <playingForTheFirstTime>k__BackingField
-    bool& dyn_$playingForTheFirstTime$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$playingForTheFirstTime$k__BackingField();
     // Get instance field reference: private System.Boolean _playingForTheFirstTimeChecked
-    bool& dyn__playingForTheFirstTimeChecked();
+    [[deprecated("Use field access instead!")]] bool& dyn__playingForTheFirstTimeChecked();
     // Get instance field reference: private System.Boolean _isLoaded
-    bool& dyn__isLoaded();
+    [[deprecated("Use field access instead!")]] bool& dyn__isLoaded();
     // public System.Boolean get_createScreenshotDuringTheGame()
-    // Offset: 0x1533CEC
+    // Offset: 0x156B5F4
     bool get_createScreenshotDuringTheGame();
     // private System.Void set_createScreenshotDuringTheGame(System.Boolean value)
-    // Offset: 0x1533CF4
+    // Offset: 0x156B5FC
     void set_createScreenshotDuringTheGame(bool value);
     // public System.Boolean get_playingForTheFirstTime()
-    // Offset: 0x1533D00
+    // Offset: 0x156B608
     bool get_playingForTheFirstTime();
     // private System.Void set_playingForTheFirstTime(System.Boolean value)
-    // Offset: 0x1533D08
+    // Offset: 0x156B610
     void set_playingForTheFirstTime(bool value);
-    // public System.Void Save()
-    // Offset: 0x1533D14
-    void Save();
-    // public System.Void Load(System.Boolean forced)
-    // Offset: 0x15341C0
-    void Load(bool forced);
-    // public System.Void __DeleteSettingsFiles()
-    // Offset: 0x15348E8
-    void __DeleteSettingsFiles();
-    // protected System.Void OnDisable()
-    // Offset: 0x1534AB4
-    void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x1534AC4
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x156C3CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainSettingsModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainSettingsModelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainSettingsModelSO*, creationType>()));
     }
+    // public System.Void Save()
+    // Offset: 0x156B61C
+    void Save();
+    // public System.Void Load(System.Boolean forced)
+    // Offset: 0x156BAC8
+    void Load(bool forced);
+    // public System.Void __DeleteSettingsFiles()
+    // Offset: 0x156C1F0
+    void __DeleteSettingsFiles();
+    // protected System.Void OnDisable()
+    // Offset: 0x156C3BC
+    void OnDisable();
     // protected override System.Void OnEnable()
-    // Offset: 0x1534A20
+    // Offset: 0x156C328
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
@@ -590,6 +577,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsModelSO*), "set_playingForTheFirstTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsModelSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsModelSO::Save
 // Il2CppName: Save
 template<>
@@ -623,10 +614,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsModelSO*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MainSettingsModelSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsModelSO::OnEnable
 // Il2CppName: OnEnable
 template<>

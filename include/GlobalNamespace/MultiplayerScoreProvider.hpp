@@ -60,16 +60,8 @@ namespace GlobalNamespace {
     class $$c;
     // Nested type: ::GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0
     class $$c__DisplayClass18_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x12554F4
+    // [InjectAttribute] Offset: 0x10DA0D8
     // private readonly IScoreSyncStateManager _scoreSyncStateManager
     // Size: 0x8
     // Offset: 0x18
@@ -112,57 +104,51 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly IScoreSyncStateManager _scoreSyncStateManager
-    ::GlobalNamespace::IScoreSyncStateManager*& dyn__scoreSyncStateManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IScoreSyncStateManager*& dyn__scoreSyncStateManager();
     // Get instance field reference: private MultiplayerScoreProvider/RankedPlayer <firstPlayer>k__BackingField
-    ::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*& dyn_$firstPlayer$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*& dyn_$firstPlayer$k__BackingField();
     // Get instance field reference: private System.Action`1<MultiplayerScoreProvider/RankedPlayer> firstPlayerDidChangeEvent
-    ::System::Action_1<::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*& dyn_firstPlayerDidChangeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*& dyn_firstPlayerDidChangeEvent();
     // Get instance field reference: private System.Single _sharedOffsetSyncTime
-    float& dyn__sharedOffsetSyncTime();
+    [[deprecated("Use field access instead!")]] float& dyn__sharedOffsetSyncTime();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<MultiplayerScoreProvider/RankedPlayer> _rankedPlayers
-    ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*& dyn__rankedPlayers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*& dyn__rankedPlayers();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerScoreProvider/RankedPlayer> _players
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*& dyn__players();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*& dyn__players();
     // public System.Boolean get_scoresAvailable()
-    // Offset: 0x13A51D0
+    // Offset: 0x13A167C
     bool get_scoresAvailable();
     // public MultiplayerScoreProvider/RankedPlayer get_firstPlayer()
-    // Offset: 0x13A8890
+    // Offset: 0x13A4D3C
     ::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* get_firstPlayer();
     // private System.Void set_firstPlayer(MultiplayerScoreProvider/RankedPlayer value)
-    // Offset: 0x13A8898
+    // Offset: 0x13A4D44
     void set_firstPlayer(::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* value);
     // public System.Collections.Generic.IReadOnlyList`1<MultiplayerScoreProvider/RankedPlayer> get_rankedPlayers()
-    // Offset: 0x13A88A0
+    // Offset: 0x13A4D4C
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* get_rankedPlayers();
     // public System.Void add_firstPlayerDidChangeEvent(System.Action`1<MultiplayerScoreProvider/RankedPlayer> value)
-    // Offset: 0x13A51F4
+    // Offset: 0x13A16A0
     void add_firstPlayerDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* value);
     // public System.Void remove_firstPlayerDidChangeEvent(System.Action`1<MultiplayerScoreProvider/RankedPlayer> value)
-    // Offset: 0x13A5380
+    // Offset: 0x13A182C
     void remove_firstPlayerDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* value);
-    // protected System.Void Update()
-    // Offset: 0x13A88A8
-    void Update();
-    // public System.Boolean TryGetScore(System.String userId, out MultiplayerScoreProvider/RankedPlayer data)
-    // Offset: 0x13A90D0
-    bool TryGetScore(::StringW userId, ByRef<::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*> data);
-    // public System.Int32 GetPositionOfPlayer(System.String userId)
-    // Offset: 0x13A5738
-    int GetPositionOfPlayer(::StringW userId);
     // public System.Void .ctor()
-    // Offset: 0x13A9148
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13A55F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerScoreProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerScoreProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerScoreProvider*, creationType>()));
     }
+    // protected System.Void Update()
+    // Offset: 0x13A4D54
+    void Update();
+    // public System.Boolean TryGetScore(System.String userId, out MultiplayerScoreProvider/RankedPlayer data)
+    // Offset: 0x13A557C
+    bool TryGetScore(::StringW userId, ByRef<::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*> data);
+    // public System.Int32 GetPositionOfPlayer(System.String userId)
+    // Offset: 0x13A1BE4
+    int GetPositionOfPlayer(::StringW userId);
   }; // MultiplayerScoreProvider
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerScoreProvider), 64 + sizeof(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*)> __GlobalNamespace_MultiplayerScoreProviderSizeCheck;
@@ -220,6 +206,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreProvider*), "remove_firstPlayerDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::Update
 // Il2CppName: Update
 template<>
@@ -247,7 +237,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreProvider*), "GetPositionOfPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

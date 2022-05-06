@@ -36,15 +36,7 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class StringConstraint : public ::NUnit::Framework::Constraints::Constraint {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected System.String expected
     // Size: 0x8
     // Offset: 0x30
@@ -67,13 +59,13 @@ namespace NUnit::Framework::Constraints {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: protected System.String expected
-    ::StringW& dyn_expected();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_expected();
     // Get instance field reference: protected System.Boolean caseInsensitive
-    bool& dyn_caseInsensitive();
+    [[deprecated("Use field access instead!")]] bool& dyn_caseInsensitive();
     // Get instance field reference: protected System.String descriptionText
-    ::StringW& dyn_descriptionText();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_descriptionText();
     // protected System.Void .ctor(System.String expected)
-    // Offset: 0x1C457F8
+    // Offset: 0x1C9DD90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringConstraint* New_ctor(::StringW expected) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Constraints::StringConstraint::.ctor");
@@ -83,12 +75,12 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool Matches(::StringW actual);
     // public override System.String get_Description()
-    // Offset: 0x1C45DC4
+    // Offset: 0x1C9E35C
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: System.String Constraint::get_Description()
     ::StringW get_Description();
     // public override NUnit.Framework.Constraints.ConstraintResult ApplyTo(System.Object actual)
-    // Offset: 0x1C45E84
+    // Offset: 0x1C9E41C
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: NUnit.Framework.Constraints.ConstraintResult Constraint::ApplyTo(System.Object actual)
     ::NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);

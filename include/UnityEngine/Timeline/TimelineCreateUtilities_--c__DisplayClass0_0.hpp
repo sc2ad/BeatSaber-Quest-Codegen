@@ -32,15 +32,7 @@ namespace UnityEngine::Timeline {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TimelineCreateUtilities::$$c__DisplayClass0_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String name
     // Size: 0x8
     // Offset: 0x10
@@ -53,25 +45,27 @@ namespace UnityEngine::Timeline {
       return name;
     }
     // Get instance field reference: public System.String name
-    ::StringW& dyn_name();
-    // System.Boolean <GenerateUniqueActorName>b__0(UnityEngine.ScriptableObject x)
-    // Offset: 0x29CA95C
-    bool $GenerateUniqueActorName$b__0(::UnityEngine::ScriptableObject* x);
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_name();
     // public System.Void .ctor()
-    // Offset: 0x29CA514
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A1BA24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimelineCreateUtilities::$$c__DisplayClass0_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimelineCreateUtilities::$$c__DisplayClass0_0*, creationType>()));
     }
+    // System.Boolean <GenerateUniqueActorName>b__0(UnityEngine.ScriptableObject x)
+    // Offset: 0x2A1BE6C
+    bool $GenerateUniqueActorName$b__0(::UnityEngine::ScriptableObject* x);
   }; // UnityEngine.Timeline.TimelineCreateUtilities/UnityEngine.Timeline.<>c__DisplayClass0_0
   #pragma pack(pop)
   static check_size<sizeof(TimelineCreateUtilities::$$c__DisplayClass0_0), 16 + sizeof(::StringW)> __UnityEngine_Timeline_TimelineCreateUtilities_$$c__DisplayClass0_0SizeCheck;
   static_assert(sizeof(TimelineCreateUtilities::$$c__DisplayClass0_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_0::$GenerateUniqueActorName$b__0
 // Il2CppName: <GenerateUniqueActorName>b__0
 template<>
@@ -81,7 +75,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_0*), "<GenerateUniqueActorName>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SelectLevelPackDestination : public ::GlobalNamespace::MenuDestination {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly IBeatmapLevelPack beatmapLevelPack
     // Size: 0x8
     // Offset: 0x10
@@ -56,9 +48,9 @@ namespace GlobalNamespace {
       return beatmapLevelPack;
     }
     // Get instance field reference: public readonly IBeatmapLevelPack beatmapLevelPack
-    ::GlobalNamespace::IBeatmapLevelPack*& dyn_beatmapLevelPack();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatmapLevelPack*& dyn_beatmapLevelPack();
     // public System.Void .ctor(IBeatmapLevelPack beatmapLevelPack)
-    // Offset: 0x1427924
+    // Offset: 0x1468F58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectLevelPackDestination* New_ctor(::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SelectLevelPackDestination::.ctor");

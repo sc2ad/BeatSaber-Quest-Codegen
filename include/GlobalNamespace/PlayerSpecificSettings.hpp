@@ -43,15 +43,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSpecificSettings : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean _leftHanded
     // Size: 0x1
     // Offset: 0x10
@@ -164,112 +156,110 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::EnvironmentEffectsFilterPreset) == 0x4);
     public:
     // Get instance field reference: private System.Boolean _leftHanded
-    bool& dyn__leftHanded();
+    [[deprecated("Use field access instead!")]] bool& dyn__leftHanded();
     // Get instance field reference: private System.Single _playerHeight
-    float& dyn__playerHeight();
+    [[deprecated("Use field access instead!")]] float& dyn__playerHeight();
     // Get instance field reference: private System.Boolean _automaticPlayerHeight
-    bool& dyn__automaticPlayerHeight();
+    [[deprecated("Use field access instead!")]] bool& dyn__automaticPlayerHeight();
     // Get instance field reference: private System.Single _sfxVolume
-    float& dyn__sfxVolume();
+    [[deprecated("Use field access instead!")]] float& dyn__sfxVolume();
     // Get instance field reference: private System.Boolean _reduceDebris
-    bool& dyn__reduceDebris();
+    [[deprecated("Use field access instead!")]] bool& dyn__reduceDebris();
     // Get instance field reference: private System.Boolean _noTextsAndHuds
-    bool& dyn__noTextsAndHuds();
+    [[deprecated("Use field access instead!")]] bool& dyn__noTextsAndHuds();
     // Get instance field reference: private System.Boolean _noFailEffects
-    bool& dyn__noFailEffects();
+    [[deprecated("Use field access instead!")]] bool& dyn__noFailEffects();
     // Get instance field reference: private System.Boolean _advancedHud
-    bool& dyn__advancedHud();
+    [[deprecated("Use field access instead!")]] bool& dyn__advancedHud();
     // Get instance field reference: private System.Boolean _autoRestart
-    bool& dyn__autoRestart();
+    [[deprecated("Use field access instead!")]] bool& dyn__autoRestart();
     // Get instance field reference: private System.Single _saberTrailIntensity
-    float& dyn__saberTrailIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn__saberTrailIntensity();
     // Get instance field reference: private NoteJumpDurationTypeSettings _noteJumpDurationTypeSettings
-    ::GlobalNamespace::NoteJumpDurationTypeSettings& dyn__noteJumpDurationTypeSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteJumpDurationTypeSettings& dyn__noteJumpDurationTypeSettings();
     // Get instance field reference: private System.Single _noteJumpFixedDuration
-    float& dyn__noteJumpFixedDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__noteJumpFixedDuration();
     // Get instance field reference: private System.Single _noteJumpStartBeatOffset
-    float& dyn__noteJumpStartBeatOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__noteJumpStartBeatOffset();
     // Get instance field reference: private System.Boolean _hideNoteSpawnEffect
-    bool& dyn__hideNoteSpawnEffect();
+    [[deprecated("Use field access instead!")]] bool& dyn__hideNoteSpawnEffect();
     // Get instance field reference: private System.Boolean _adaptiveSfx
-    bool& dyn__adaptiveSfx();
+    [[deprecated("Use field access instead!")]] bool& dyn__adaptiveSfx();
     // Get instance field reference: private EnvironmentEffectsFilterPreset _environmentEffectsFilterDefaultPreset
-    ::GlobalNamespace::EnvironmentEffectsFilterPreset& dyn__environmentEffectsFilterDefaultPreset();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentEffectsFilterPreset& dyn__environmentEffectsFilterDefaultPreset();
     // Get instance field reference: private EnvironmentEffectsFilterPreset _environmentEffectsFilterExpertPlusPreset
-    ::GlobalNamespace::EnvironmentEffectsFilterPreset& dyn__environmentEffectsFilterExpertPlusPreset();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentEffectsFilterPreset& dyn__environmentEffectsFilterExpertPlusPreset();
     // public System.Boolean get_leftHanded()
-    // Offset: 0x1372B30
+    // Offset: 0x13D9F14
     bool get_leftHanded();
     // public System.Single get_playerHeight()
-    // Offset: 0x1372B38
+    // Offset: 0x13D9F1C
     float get_playerHeight();
     // public System.Boolean get_automaticPlayerHeight()
-    // Offset: 0x1372B40
+    // Offset: 0x13D9F24
     bool get_automaticPlayerHeight();
     // public System.Single get_sfxVolume()
-    // Offset: 0x1372B48
+    // Offset: 0x13D9F2C
     float get_sfxVolume();
     // public System.Boolean get_reduceDebris()
-    // Offset: 0x1372B50
+    // Offset: 0x13D9F34
     bool get_reduceDebris();
     // public System.Boolean get_noTextsAndHuds()
-    // Offset: 0x1372B58
+    // Offset: 0x13D9F3C
     bool get_noTextsAndHuds();
     // public System.Boolean get_noFailEffects()
-    // Offset: 0x1372B60
+    // Offset: 0x13D9F44
     bool get_noFailEffects();
     // public System.Boolean get_advancedHud()
-    // Offset: 0x1372B68
+    // Offset: 0x13D9F4C
     bool get_advancedHud();
     // public System.Boolean get_autoRestart()
-    // Offset: 0x1372B70
+    // Offset: 0x13D9F54
     bool get_autoRestart();
     // public System.Single get_saberTrailIntensity()
-    // Offset: 0x1372B78
+    // Offset: 0x13D9F5C
     float get_saberTrailIntensity();
     // public NoteJumpDurationTypeSettings get_noteJumpDurationTypeSettings()
-    // Offset: 0x1372B80
+    // Offset: 0x13D9F64
     ::GlobalNamespace::NoteJumpDurationTypeSettings get_noteJumpDurationTypeSettings();
     // public System.Single get_noteJumpFixedDuration()
-    // Offset: 0x1372B88
+    // Offset: 0x13D9F6C
     float get_noteJumpFixedDuration();
     // public System.Single get_noteJumpStartBeatOffset()
-    // Offset: 0x1372B90
+    // Offset: 0x13D9F74
     float get_noteJumpStartBeatOffset();
     // public System.Boolean get_hideNoteSpawnEffect()
-    // Offset: 0x1372B98
+    // Offset: 0x13D9F7C
     bool get_hideNoteSpawnEffect();
     // public System.Boolean get_adaptiveSfx()
-    // Offset: 0x1372BA0
+    // Offset: 0x13D9F84
     bool get_adaptiveSfx();
     // public EnvironmentEffectsFilterPreset get_environmentEffectsFilterDefaultPreset()
-    // Offset: 0x1372BA8
+    // Offset: 0x13D9F8C
     ::GlobalNamespace::EnvironmentEffectsFilterPreset get_environmentEffectsFilterDefaultPreset();
     // public EnvironmentEffectsFilterPreset get_environmentEffectsFilterExpertPlusPreset()
-    // Offset: 0x1372BB0
+    // Offset: 0x13D9F94
     ::GlobalNamespace::EnvironmentEffectsFilterPreset get_environmentEffectsFilterExpertPlusPreset();
+    // public System.Void .ctor()
+    // Offset: 0x13D64CC
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static PlayerSpecificSettings* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSpecificSettings::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<PlayerSpecificSettings*, creationType>()));
+    }
     // public System.Void .ctor(System.Boolean leftHanded, System.Single playerHeight, System.Boolean automaticPlayerHeight, System.Single sfxVolume, System.Boolean reduceDebris, System.Boolean noTextsAndHuds, System.Boolean noFailEffects, System.Boolean advancedHud, System.Boolean autoRestart, System.Single saberTrailIntensity, NoteJumpDurationTypeSettings noteJumpDurationTypeSettings, System.Single noteJumpFixedDuration, System.Single noteJumpStartBeatOffset, System.Boolean hideNoteSpawnEffect, System.Boolean adaptiveSfx, EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset, EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset)
-    // Offset: 0x1372C2C
+    // Offset: 0x13D606C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSpecificSettings* New_ctor(bool leftHanded, float playerHeight, bool automaticPlayerHeight, float sfxVolume, bool reduceDebris, bool noTextsAndHuds, bool noFailEffects, bool advancedHud, bool autoRestart, float saberTrailIntensity, ::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings, float noteJumpFixedDuration, float noteJumpStartBeatOffset, bool hideNoteSpawnEffect, bool adaptiveSfx, ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset, ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSpecificSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSpecificSettings*, creationType>(leftHanded, playerHeight, automaticPlayerHeight, sfxVolume, reduceDebris, noTextsAndHuds, noFailEffects, advancedHud, autoRestart, saberTrailIntensity, noteJumpDurationTypeSettings, noteJumpFixedDuration, noteJumpStartBeatOffset, hideNoteSpawnEffect, adaptiveSfx, environmentEffectsFilterDefaultPreset, environmentEffectsFilterExpertPlusPreset)));
     }
     // public PlayerSpecificSettings CopyWith(System.Nullable`1<System.Boolean> leftHanded, System.Nullable`1<System.Single> playerHeight, System.Nullable`1<System.Boolean> automaticPlayerHeight, System.Nullable`1<System.Single> sfxVolume, System.Nullable`1<System.Boolean> reduceDebris, System.Nullable`1<System.Boolean> noTextsAndHuds, System.Nullable`1<System.Boolean> noFailEffects, System.Nullable`1<System.Boolean> advancedHud, System.Nullable`1<System.Boolean> autoRestart, System.Nullable`1<System.Single> saberTrailIntensity, System.Nullable`1<NoteJumpDurationTypeSettings> noteJumpDurationTypeSettings, System.Nullable`1<System.Single> noteJumpFixedDuration, System.Nullable`1<System.Single> noteJumpStartBeatOffset, System.Nullable`1<System.Boolean> hideNoteSpawnEffect, System.Nullable`1<System.Boolean> adaptiveSfx, System.Nullable`1<EnvironmentEffectsFilterPreset> environmentEffectsFilterDefaultPreset, System.Nullable`1<EnvironmentEffectsFilterPreset> environmentEffectsFilterExpertPlusPreset)
-    // Offset: 0x1371A10
+    // Offset: 0x13D6540
     ::GlobalNamespace::PlayerSpecificSettings* CopyWith(::System::Nullable_1<bool> leftHanded, ::System::Nullable_1<float> playerHeight, ::System::Nullable_1<bool> automaticPlayerHeight, ::System::Nullable_1<float> sfxVolume, ::System::Nullable_1<bool> reduceDebris, ::System::Nullable_1<bool> noTextsAndHuds, ::System::Nullable_1<bool> noFailEffects, ::System::Nullable_1<bool> advancedHud, ::System::Nullable_1<bool> autoRestart, ::System::Nullable_1<float> saberTrailIntensity, ::System::Nullable_1<::GlobalNamespace::NoteJumpDurationTypeSettings> noteJumpDurationTypeSettings, ::System::Nullable_1<float> noteJumpFixedDuration, ::System::Nullable_1<float> noteJumpStartBeatOffset, ::System::Nullable_1<bool> hideNoteSpawnEffect, ::System::Nullable_1<bool> adaptiveSfx, ::System::Nullable_1<::GlobalNamespace::EnvironmentEffectsFilterPreset> environmentEffectsFilterDefaultPreset, ::System::Nullable_1<::GlobalNamespace::EnvironmentEffectsFilterPreset> environmentEffectsFilterExpertPlusPreset);
     // public EnvironmentEffectsFilterPreset GetEnvironmentEffectsFilterPreset(BeatmapDifficulty difficulty)
-    // Offset: 0x1372D4C
+    // Offset: 0x13D9F9C
     ::GlobalNamespace::EnvironmentEffectsFilterPreset GetEnvironmentEffectsFilterPreset(::GlobalNamespace::BeatmapDifficulty difficulty);
-    // public System.Void .ctor()
-    // Offset: 0x1372BB8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PlayerSpecificSettings* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSpecificSettings::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<PlayerSpecificSettings*, creationType>()));
-    }
   }; // PlayerSpecificSettings
   #pragma pack(pop)
   static check_size<sizeof(PlayerSpecificSettings), 64 + sizeof(::GlobalNamespace::EnvironmentEffectsFilterPreset)> __GlobalNamespace_PlayerSpecificSettingsSizeCheck;
@@ -416,6 +406,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::CopyWith
 // Il2CppName: CopyWith
 template<>
@@ -450,7 +444,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "GetEnvironmentEffectsFilterPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficulty});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

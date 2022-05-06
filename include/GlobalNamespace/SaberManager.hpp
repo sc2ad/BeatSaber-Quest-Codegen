@@ -45,15 +45,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::SaberManager::InitData
     class InitData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Saber _leftSaber
     // Size: 0x8
     // Offset: 0x18
@@ -66,7 +58,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::Saber* rightSaber;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Saber*) == 0x8);
-    // [InjectAttribute] Offset: 0x1255D58
+    // [InjectAttribute] Offset: 0x10DA93C
     // private readonly SaberManager/InitData _initData
     // Size: 0x8
     // Offset: 0x28
@@ -91,61 +83,55 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Saber _leftSaber
-    ::GlobalNamespace::Saber*& dyn__leftSaber();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Saber*& dyn__leftSaber();
     // Get instance field reference: private Saber _rightSaber
-    ::GlobalNamespace::Saber*& dyn__rightSaber();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Saber*& dyn__rightSaber();
     // Get instance field reference: private readonly SaberManager/InitData _initData
-    ::GlobalNamespace::SaberManager::InitData*& dyn__initData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberManager::InitData*& dyn__initData();
     // Get instance field reference: private System.Boolean _started
-    bool& dyn__started();
+    [[deprecated("Use field access instead!")]] bool& dyn__started();
     // Get instance field reference: private System.Action`2<Saber,Saber> didUpdateSaberPositionsEvent
-    ::System::Action_2<::GlobalNamespace::Saber*, ::GlobalNamespace::Saber*>*& dyn_didUpdateSaberPositionsEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::Saber*, ::GlobalNamespace::Saber*>*& dyn_didUpdateSaberPositionsEvent();
     // public Saber get_leftSaber()
-    // Offset: 0x141C968
+    // Offset: 0x145E040
     ::GlobalNamespace::Saber* get_leftSaber();
     // public Saber get_rightSaber()
-    // Offset: 0x141C970
+    // Offset: 0x145E048
     ::GlobalNamespace::Saber* get_rightSaber();
     // public System.Void set_disableSabers(System.Boolean value)
-    // Offset: 0x141CAC0
+    // Offset: 0x145E198
     void set_disableSabers(bool value);
     // public System.Void add_didUpdateSaberPositionsEvent(System.Action`2<Saber,Saber> value)
-    // Offset: 0x141C978
+    // Offset: 0x145E050
     void add_didUpdateSaberPositionsEvent(::System::Action_2<::GlobalNamespace::Saber*, ::GlobalNamespace::Saber*>* value);
     // public System.Void remove_didUpdateSaberPositionsEvent(System.Action`2<Saber,Saber> value)
-    // Offset: 0x141CA1C
+    // Offset: 0x145E0F4
     void remove_didUpdateSaberPositionsEvent(::System::Action_2<::GlobalNamespace::Saber*, ::GlobalNamespace::Saber*>* value);
-    // protected System.Void Start()
-    // Offset: 0x141CAD0
-    void Start();
-    // protected System.Void OnDisable()
-    // Offset: 0x141CC20
-    void OnDisable();
-    // protected System.Void OnEnable()
-    // Offset: 0x141CC24
-    void OnEnable();
-    // protected System.Void Update()
-    // Offset: 0x141CC34
-    void Update();
-    // public Saber SaberForType(SaberType saberType)
-    // Offset: 0x141CCFC
-    ::GlobalNamespace::Saber* SaberForType(::GlobalNamespace::SaberType saberType);
-    // private System.Void RefreshSabers()
-    // Offset: 0x141CAF8
-    void RefreshSabers();
     // public System.Void .ctor()
-    // Offset: 0x141CD54
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x145E42C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberManager*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x145E1A8
+    void Start();
+    // protected System.Void OnDisable()
+    // Offset: 0x145E2F8
+    void OnDisable();
+    // protected System.Void OnEnable()
+    // Offset: 0x145E2FC
+    void OnEnable();
+    // protected System.Void Update()
+    // Offset: 0x145E30C
+    void Update();
+    // public Saber SaberForType(SaberType saberType)
+    // Offset: 0x145E3D4
+    ::GlobalNamespace::Saber* SaberForType(::GlobalNamespace::SaberType saberType);
+    // private System.Void RefreshSabers()
+    // Offset: 0x145E1D0
+    void RefreshSabers();
   }; // SaberManager
   #pragma pack(pop)
   static check_size<sizeof(SaberManager), 56 + sizeof(::System::Action_2<::GlobalNamespace::Saber*, ::GlobalNamespace::Saber*>*)> __GlobalNamespace_SaberManagerSizeCheck;
@@ -195,6 +181,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberManager*), "remove_didUpdateSaberPositionsEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SaberManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SaberManager::Start
 // Il2CppName: Start
 template<>
@@ -244,7 +234,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberManager*), "RefreshSabers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SaberManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

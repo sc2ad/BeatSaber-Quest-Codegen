@@ -49,15 +49,7 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class AuthenticateUserMasterServerRequest : public ::BGNet::Core::Messages::BaseReliableResponse/*, public ::BGNet::Core::Messages::IUnconnectedAuthenticateRequest, public ::MasterServer::IUserMasterServerMessage*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public AuthenticationToken authenticationToken
     // Size: 0x20
     // Offset: 0x18
@@ -78,35 +70,34 @@ namespace MasterServer {
       return authenticationToken;
     }
     // Get instance field reference: public AuthenticationToken authenticationToken
-    ::GlobalNamespace::AuthenticationToken& dyn_authenticationToken();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AuthenticationToken& dyn_authenticationToken();
     // static public PacketPool`1<MasterServer.AuthenticateUserMasterServerRequest> get_pool()
-    // Offset: 0x164C47C
+    // Offset: 0x1682D8C
     static ::GlobalNamespace::PacketPool_1<::MasterServer::AuthenticateUserMasterServerRequest*>* get_pool();
     // public MasterServer.AuthenticateUserMasterServerRequest Init(AuthenticationToken authenticationToken)
-    // Offset: 0x164C4C4
+    // Offset: 0x1682DD4
     ::MasterServer::AuthenticateUserMasterServerRequest* Init(::GlobalNamespace::AuthenticationToken authenticationToken);
     // public System.Void .ctor()
-    // Offset: 0x164C5B0
+    // Offset: 0x1682EC0
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AuthenticateUserMasterServerRequest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::MasterServer::AuthenticateUserMasterServerRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticateUserMasterServerRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x164C4D4
+    // Offset: 0x1682DE4
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x164C508
+    // Offset: 0x1682E18
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x164C554
+    // Offset: 0x1682E64
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Release()
     void Release();

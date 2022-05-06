@@ -64,15 +64,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::HologramRays::$FadingCoroutine$d__28
     class $FadingCoroutine$d__28;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TubeBloomPrePassLight _bloomLight
     // Size: 0x8
     // Offset: 0x18
@@ -121,7 +113,7 @@ namespace GlobalNamespace {
     float bottomYPosition;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x12536F4
+    // [TooltipAttribute] Offset: 0x10D82D8
     // private System.Single cachedExtent
     // Size: 0x4
     // Offset: 0x50
@@ -130,7 +122,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: cachedExtent and: tweeningManager
     char __padding8[0x4] = {};
-    // [InjectAttribute] Offset: 0x1253740
+    // [InjectAttribute] Offset: 0x10D8324
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x58
@@ -182,17 +174,17 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1253750
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D8334
     // Get static field: static private readonly System.Int32 _materialBottomPositionID
     static int _get__materialBottomPositionID();
     // Set static field: static private readonly System.Int32 _materialBottomPositionID
     static void _set__materialBottomPositionID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1253760
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D8344
     // Get static field: static private readonly System.Int32 _materialTopPositionID
     static int _get__materialTopPositionID();
     // Set static field: static private readonly System.Int32 _materialTopPositionID
     static void _set__materialTopPositionID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1253770
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D8354
     // Get static field: static private readonly System.Int32 _materialAlphaID
     static int _get__materialAlphaID();
     // Set static field: static private readonly System.Int32 _materialAlphaID
@@ -202,93 +194,97 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
     // Get instance field reference: private TubeBloomPrePassLight _bloomLight
-    ::GlobalNamespace::TubeBloomPrePassLight*& dyn__bloomLight();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TubeBloomPrePassLight*& dyn__bloomLight();
     // Get instance field reference: private UnityEngine.MeshRenderer _raysMeshRenderer
-    ::UnityEngine::MeshRenderer*& dyn__raysMeshRenderer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MeshRenderer*& dyn__raysMeshRenderer();
     // Get instance field reference: private UnityEngine.Transform _targetTransform
-    ::UnityEngine::Transform*& dyn__targetTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__targetTransform();
     // Get instance field reference: private UnityEngine.Transform _laserHolderTransform
-    ::UnityEngine::Transform*& dyn__laserHolderTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__laserHolderTransform();
     // Get instance field reference: private UnityEngine.Transform _hologramRaysTransform
-    ::UnityEngine::Transform*& dyn__hologramRaysTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__hologramRaysTransform();
     // Get instance field reference: private UnityEngine.Mesh _hologramRaysMesh
-    ::UnityEngine::Mesh*& dyn__hologramRaysMesh();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Mesh*& dyn__hologramRaysMesh();
     // Get instance field reference: private System.Single _topYPosition
-    float& dyn__topYPosition();
+    [[deprecated("Use field access instead!")]] float& dyn__topYPosition();
     // Get instance field reference: private System.Single _bottomYPosition
-    float& dyn__bottomYPosition();
+    [[deprecated("Use field access instead!")]] float& dyn__bottomYPosition();
     // Get instance field reference: private System.Single cachedExtent
-    float& dyn_cachedExtent();
+    [[deprecated("Use field access instead!")]] float& dyn_cachedExtent();
     // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
-    ::Tweening::TimeTweeningManager*& dyn__tweeningManager();
+    [[deprecated("Use field access instead!")]] ::Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private Tweening.FloatTween _transitionTween
-    ::Tweening::FloatTween*& dyn__transitionTween();
+    [[deprecated("Use field access instead!")]] ::Tweening::FloatTween*& dyn__transitionTween();
     // Get instance field reference: private UnityEngine.Color _bloomColor
-    ::UnityEngine::Color& dyn__bloomColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__bloomColor();
     // Get instance field reference: private UnityEngine.Color _bloomTransparentColor
-    ::UnityEngine::Color& dyn__bloomTransparentColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__bloomTransparentColor();
     // Get instance field reference: private System.Single _alpha
-    float& dyn__alpha();
+    [[deprecated("Use field access instead!")]] float& dyn__alpha();
     // Get instance field reference: private System.Single _raysDistance
-    float& dyn__raysDistance();
+    [[deprecated("Use field access instead!")]] float& dyn__raysDistance();
     // Get instance field reference: private UnityEngine.Vector3 _raysLocalScale
-    ::UnityEngine::Vector3& dyn__raysLocalScale();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__raysLocalScale();
     // Get instance field reference: private System.Boolean boundsInitialized
-    bool& dyn_boundsInitialized();
-    // static private System.Void RuntimeInit()
-    // Offset: 0x13B2810
-    static void RuntimeInit();
-    // protected System.Void Awake()
-    // Offset: 0x13B2878
-    void Awake();
-    // protected System.Void OnDisable()
-    // Offset: 0x13B29AC
-    void OnDisable();
-    // protected System.Void OnValidate()
-    // Offset: 0x13B29CC
-    void OnValidate();
-    // private System.Void Update()
-    // Offset: 0x13B2D4C
-    void Update();
-    // private System.Void Refresh()
-    // Offset: 0x13B2ADC
-    void Refresh();
-    // public System.Void Animate(System.Boolean turningOn, System.Single duration, EaseType easeType)
-    // Offset: 0x13B2D50
-    void Animate(bool turningOn, float duration, ::GlobalNamespace::EaseType easeType);
-    // private System.Collections.IEnumerator FadingCoroutine(System.Boolean turningOn, System.Single duration, EaseType easeType)
-    // Offset: 0x13B2E20
-    ::System::Collections::IEnumerator* FadingCoroutine(bool turningOn, float duration, ::GlobalNamespace::EaseType easeType);
-    // private System.Void UpdateBounds()
-    // Offset: 0x13B2EBC
-    void UpdateBounds();
-    // private System.Void <Awake>b__22_0(System.Single f)
-    // Offset: 0x13B30B4
-    void $Awake$b__22_0(float f);
+    [[deprecated("Use field access instead!")]] bool& dyn_boundsInitialized();
     // public System.Void .ctor()
-    // Offset: 0x13B2FE8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13AE494
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HologramRays* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HologramRays::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HologramRays*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13B3008
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x13AE4B4
     static void _cctor();
+    // static private System.Void RuntimeInit()
+    // Offset: 0x13ADCBC
+    static void RuntimeInit();
+    // protected System.Void Awake()
+    // Offset: 0x13ADD24
+    void Awake();
+    // protected System.Void OnDisable()
+    // Offset: 0x13ADE58
+    void OnDisable();
+    // protected System.Void OnValidate()
+    // Offset: 0x13ADE78
+    void OnValidate();
+    // private System.Void Update()
+    // Offset: 0x13AE1F8
+    void Update();
+    // private System.Void Refresh()
+    // Offset: 0x13ADF88
+    void Refresh();
+    // public System.Void Animate(System.Boolean turningOn, System.Single duration, EaseType easeType)
+    // Offset: 0x13AE1FC
+    void Animate(bool turningOn, float duration, ::GlobalNamespace::EaseType easeType);
+    // private System.Collections.IEnumerator FadingCoroutine(System.Boolean turningOn, System.Single duration, EaseType easeType)
+    // Offset: 0x13AE2CC
+    ::System::Collections::IEnumerator* FadingCoroutine(bool turningOn, float duration, ::GlobalNamespace::EaseType easeType);
+    // private System.Void UpdateBounds()
+    // Offset: 0x13AE368
+    void UpdateBounds();
+    // private System.Void <Awake>b__22_0(System.Single f)
+    // Offset: 0x13AE560
+    void $Awake$b__22_0(float f);
   }; // HologramRays
   #pragma pack(pop)
   static check_size<sizeof(HologramRays), 156 + sizeof(bool)> __GlobalNamespace_HologramRaysSizeCheck;
   static_assert(sizeof(HologramRays) == 0x9D);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::HologramRays::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::HologramRays::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::HologramRays::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HologramRays*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::HologramRays::RuntimeInit
 // Il2CppName: RuntimeInit
 template<>
@@ -374,17 +370,5 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* f = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HologramRays*), "<Awake>b__22_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{f});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::HologramRays::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::HologramRays::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::HologramRays::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HologramRays*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

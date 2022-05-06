@@ -141,7 +141,7 @@ namespace Mono::Unity {
     // Set static field: static public Mono.Unity.UnityTls/Mono.Unity.unitytls_error_code UNITYTLS_USER_CUSTOM_ERROR_END
     static void _set_UNITYTLS_USER_CUSTOM_ERROR_END(::Mono::Unity::UnityTls::unitytls_error_code value);
     // Get instance field reference: public System.UInt32 value__
-    uint& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint& dyn_value__();
   }; // Mono.Unity.UnityTls/Mono.Unity.unitytls_error_code
   #pragma pack(pop)
   static check_size<sizeof(UnityTls::unitytls_error_code), 0 + sizeof(uint)> __Mono_Unity_UnityTls_unitytls_error_codeSizeCheck;

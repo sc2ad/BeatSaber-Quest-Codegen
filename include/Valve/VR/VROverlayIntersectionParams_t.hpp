@@ -55,11 +55,11 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public Valve.VR.HmdVector3_t vSource
-    ::Valve::VR::HmdVector3_t& dyn_vSource();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::HmdVector3_t& dyn_vSource();
     // Get instance field reference: public Valve.VR.HmdVector3_t vDirection
-    ::Valve::VR::HmdVector3_t& dyn_vDirection();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::HmdVector3_t& dyn_vDirection();
     // Get instance field reference: public Valve.VR.ETrackingUniverseOrigin eOrigin
-    ::Valve::VR::ETrackingUniverseOrigin& dyn_eOrigin();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::ETrackingUniverseOrigin& dyn_eOrigin();
   }; // Valve.VR.VROverlayIntersectionParams_t
   #pragma pack(pop)
   static check_size<sizeof(VROverlayIntersectionParams_t), 24 + sizeof(::Valve::VR::ETrackingUniverseOrigin)> __Valve_VR_VROverlayIntersectionParams_tSizeCheck;

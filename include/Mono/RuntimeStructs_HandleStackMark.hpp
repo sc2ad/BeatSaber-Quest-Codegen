@@ -50,11 +50,11 @@ namespace Mono {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private System.Int32 size
-    int& dyn_size();
+    [[deprecated("Use field access instead!")]] int& dyn_size();
     // Get instance field reference: private System.Int32 interior_size
-    int& dyn_interior_size();
+    [[deprecated("Use field access instead!")]] int& dyn_interior_size();
     // Get instance field reference: private System.IntPtr chunk
-    ::System::IntPtr& dyn_chunk();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_chunk();
   }; // Mono.RuntimeStructs/Mono.HandleStackMark
   #pragma pack(pop)
   static check_size<sizeof(RuntimeStructs::HandleStackMark), 8 + sizeof(::System::IntPtr)> __Mono_RuntimeStructs_HandleStackMarkSizeCheck;

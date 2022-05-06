@@ -74,15 +74,7 @@ namespace OnlineServices::API {
     struct $SendWebRequestAsync$d__10;
     // Nested type: ::OnlineServices::API::HTTPAdminLeaderboardsHelper::$SendAndWaitAsync$d__11
     struct $SendAndWaitAsync$d__11;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _secret
     // Size: 0x8
     // Offset: 0x10
@@ -97,30 +89,30 @@ namespace OnlineServices::API {
     static_assert(sizeof(::System::UriBuilder*) == 0x8);
     public:
     // Get instance field reference: private System.String _secret
-    ::StringW& dyn__secret();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__secret();
     // Get instance field reference: private System.UriBuilder _uriBuilder
-    ::System::UriBuilder*& dyn__uriBuilder();
+    [[deprecated("Use field access instead!")]] ::System::UriBuilder*& dyn__uriBuilder();
     // public System.Void .ctor(System.String uri, System.String secret)
-    // Offset: 0x1519370
+    // Offset: 0x1550C78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HTTPAdminLeaderboardsHelper* New_ctor(::StringW uri, ::StringW secret) {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::API::HTTPAdminLeaderboardsHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HTTPAdminLeaderboardsHelper*, creationType>(uri, secret)));
     }
     // public System.Threading.Tasks.Task`1<System.String> ServerStatus(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x15193F0
+    // Offset: 0x1550CF8
     ::System::Threading::Tasks::Task_1<::StringW>* ServerStatus(::System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<OnlineServices.API.HTTPAdminLeaderboardsHelper/OnlineServices.API.LeaderboardsInfoResultDto> LeaderboardsExist(System.String[] leaderboardIds, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1519514
+    // Offset: 0x1550E1C
     ::System::Threading::Tasks::Task_1<::OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto*>* LeaderboardsExist(::ArrayW<::StringW> leaderboardIds, ::System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.Boolean> CreateOrUpdateLeaderboards(System.String[] leaderboardIds, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1519628
+    // Offset: 0x1550F30
     ::System::Threading::Tasks::Task_1<bool>* CreateOrUpdateLeaderboards(::ArrayW<::StringW> leaderboardIds, ::System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<System.String> SendWebRequestAsync(System.String uri, System.String method, System.String bodyData, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x151973C
+    // Offset: 0x1551044
     ::System::Threading::Tasks::Task_1<::StringW>* SendWebRequestAsync(::StringW uri, ::StringW method, ::StringW bodyData, ::System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task SendAndWaitAsync(UnityEngine.Networking.UnityWebRequest webRequest, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1519874
+    // Offset: 0x155117C
     ::System::Threading::Tasks::Task* SendAndWaitAsync(::UnityEngine::Networking::UnityWebRequest* webRequest, ::System::Threading::CancellationToken cancellationToken);
   }; // OnlineServices.API.HTTPAdminLeaderboardsHelper
   #pragma pack(pop)

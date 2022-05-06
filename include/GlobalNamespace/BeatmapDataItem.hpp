@@ -69,20 +69,12 @@ namespace GlobalNamespace {
       // Set static field: static public BeatmapDataItem/BeatmapDataItemType BeatmapEvent
       static void _set_BeatmapEvent(::GlobalNamespace::BeatmapDataItem::BeatmapDataItemType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // BeatmapDataItem/BeatmapDataItemType
     #pragma pack(pop)
     static check_size<sizeof(BeatmapDataItem::BeatmapDataItemType), 0 + sizeof(int)> __GlobalNamespace_BeatmapDataItem_BeatmapDataItemTypeSizeCheck;
     static_assert(sizeof(BeatmapDataItem::BeatmapDataItemType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Single <time>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -113,21 +105,21 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::IComparable_1<::GlobalNamespace::BeatmapDataItem*>*>(this);
     }
     // Get instance field reference: private readonly System.Single <time>k__BackingField
-    float& dyn_$time$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$time$k__BackingField();
     // Get instance field reference: private readonly System.Int32 <executionOrder>k__BackingField
-    int& dyn_$executionOrder$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$executionOrder$k__BackingField();
     // Get instance field reference: public readonly System.Int32 subtypeIdentifier
-    int& dyn_subtypeIdentifier();
+    [[deprecated("Use field access instead!")]] int& dyn_subtypeIdentifier();
     // Get instance field reference: public readonly BeatmapDataItem/BeatmapDataItemType type
-    ::GlobalNamespace::BeatmapDataItem::BeatmapDataItemType& dyn_type();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataItem::BeatmapDataItemType& dyn_type();
     // public System.Single get_time()
-    // Offset: 0x2815C18
+    // Offset: 0x2868128
     float get_time();
     // public System.Int32 get_executionOrder()
-    // Offset: 0x2815C20
+    // Offset: 0x2868130
     int get_executionOrder();
     // protected System.Void .ctor(System.Single time, System.Int32 executionOrder, System.Int32 subtypeIdentifier, BeatmapDataItem/BeatmapDataItemType type)
-    // Offset: 0x2815C28
+    // Offset: 0x2868138
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataItem* New_ctor(float time, int executionOrder, int subtypeIdentifier, ::GlobalNamespace::BeatmapDataItem::BeatmapDataItemType type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataItem::.ctor");
@@ -137,7 +129,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::BeatmapDataItem* GetCopy();
     // public System.Int32 CompareTo(BeatmapDataItem b)
-    // Offset: 0x2815C78
+    // Offset: 0x2868188
     int CompareTo(::GlobalNamespace::BeatmapDataItem* b);
   }; // BeatmapDataItem
   #pragma pack(pop)

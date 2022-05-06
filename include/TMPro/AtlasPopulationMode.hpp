@@ -54,7 +54,7 @@ namespace TMPro {
     // Set static field: static public TMPro.AtlasPopulationMode Dynamic
     static void _set_Dynamic(::TMPro::AtlasPopulationMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // TMPro.AtlasPopulationMode
   #pragma pack(pop)
   static check_size<sizeof(AtlasPopulationMode), 0 + sizeof(int)> __TMPro_AtlasPopulationModeSizeCheck;

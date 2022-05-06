@@ -36,19 +36,18 @@ namespace System::Xml::Schema {
   class Datatype_tokenV1Compat : public ::System::Xml::Schema::Datatype_normalizedStringV1Compat {
     public:
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1C20730
+    // Offset: 0x1C5AD18
     // Implemented from: System.Xml.Schema.Datatype_normalizedStringV1Compat
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_normalizedStringV1Compat::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // public System.Void .ctor()
-    // Offset: 0x1C20738
+    // Offset: 0x1C5AD20
     // Implemented from: System.Xml.Schema.Datatype_normalizedStringV1Compat
     // Base method: System.Void Datatype_normalizedStringV1Compat::.ctor()
     // Base method: System.Void Datatype_string::.ctor()
     // Base method: System.Void Datatype_anySimpleType::.ctor()
     // Base method: System.Void DatatypeImplementation::.ctor()
     // Base method: System.Void XmlSchemaDatatype::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Datatype_tokenV1Compat* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::Datatype_tokenV1Compat::.ctor");

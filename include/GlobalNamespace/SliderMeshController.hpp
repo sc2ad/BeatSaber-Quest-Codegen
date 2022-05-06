@@ -53,15 +53,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SliderMeshController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _numberOfFixedVertexPathSegments
     // Size: 0x4
     // Offset: 0x18
@@ -94,7 +86,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: middleControlPointYDistanceModifier and: sliderMeshConstructor
     char __padding4[0x4] = {};
-    // [SpaceAttribute] Offset: 0x124FD08
+    // [SpaceAttribute] Offset: 0x10D483C
     // private SliderMeshConstructor _sliderMeshConstructor
     // Size: 0x8
     // Offset: 0x30
@@ -135,50 +127,44 @@ namespace GlobalNamespace {
     // Set static field: static public System.Single kDefaultGameNoteSize
     static void _set_kDefaultGameNoteSize(float value);
     // Get instance field reference: private System.Int32 _numberOfFixedVertexPathSegments
-    int& dyn__numberOfFixedVertexPathSegments();
+    [[deprecated("Use field access instead!")]] int& dyn__numberOfFixedVertexPathSegments();
     // Get instance field reference: private System.Single _controlPointDistancePerSqrtNotesDistance
-    float& dyn__controlPointDistancePerSqrtNotesDistance();
+    [[deprecated("Use field access instead!")]] float& dyn__controlPointDistancePerSqrtNotesDistance();
     // Get instance field reference: private System.Single _middleAnchorPointOffsetAmount
-    float& dyn__middleAnchorPointOffsetAmount();
+    [[deprecated("Use field access instead!")]] float& dyn__middleAnchorPointOffsetAmount();
     // Get instance field reference: private System.Single _middleControlPointZDistanceModifier
-    float& dyn__middleControlPointZDistanceModifier();
+    [[deprecated("Use field access instead!")]] float& dyn__middleControlPointZDistanceModifier();
     // Get instance field reference: private System.Single _middleControlPointYDistanceModifier
-    float& dyn__middleControlPointYDistanceModifier();
+    [[deprecated("Use field access instead!")]] float& dyn__middleControlPointYDistanceModifier();
     // Get instance field reference: private SliderMeshConstructor _sliderMeshConstructor
-    ::GlobalNamespace::SliderMeshConstructor*& dyn__sliderMeshConstructor();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SliderMeshConstructor*& dyn__sliderMeshConstructor();
     // Get instance field reference: private PathsHolder _pathsHolder
-    ::GlobalNamespace::PathsHolder*& dyn__pathsHolder();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PathsHolder*& dyn__pathsHolder();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.Vector3> _reusableAnchorsList
-    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn__reusableAnchorsList();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn__reusableAnchorsList();
     // Get instance field reference: private readonly UnityEngine.Vector3[] _reusableControlPointsArray4
-    ::ArrayW<::UnityEngine::Vector3>& dyn__reusableControlPointsArray4();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn__reusableControlPointsArray4();
     // Get instance field reference: private readonly UnityEngine.Vector3[] _reusableControlPointsArray2
-    ::ArrayW<::UnityEngine::Vector3>& dyn__reusableControlPointsArray2();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn__reusableControlPointsArray2();
     // public System.Single get_pathLength()
-    // Offset: 0x2AA26E4
+    // Offset: 0x1389308
     float get_pathLength();
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x2AA270C
+    // Offset: 0x1389330
     ::UnityEngine::Mesh* get_mesh();
-    // public System.Void CreateBezierPathAndMesh(SliderData sliderData, UnityEngine.Vector3 headNotePos, UnityEngine.Vector3 tailNotePos, System.Single jumpSpeed, System.Single noteUniformScale)
-    // Offset: 0x2A9DAEC
-    void CreateBezierPathAndMesh(::GlobalNamespace::SliderData* sliderData, ::UnityEngine::Vector3 headNotePos, ::UnityEngine::Vector3 tailNotePos, float jumpSpeed, float noteUniformScale);
-    // static private UnityEngine.Vector3 CutDirectionToControlPointPosition(NoteCutDirection noteCutDirection)
-    // Offset: 0x2AA2728
-    static ::UnityEngine::Vector3 CutDirectionToControlPointPosition(::GlobalNamespace::NoteCutDirection noteCutDirection);
     // public System.Void .ctor()
-    // Offset: 0x2AA28C4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13894E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderMeshController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderMeshController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderMeshController*, creationType>()));
     }
+    // public System.Void CreateBezierPathAndMesh(SliderData sliderData, UnityEngine.Vector3 headNotePos, UnityEngine.Vector3 tailNotePos, System.Single jumpSpeed, System.Single noteUniformScale)
+    // Offset: 0x1384710
+    void CreateBezierPathAndMesh(::GlobalNamespace::SliderData* sliderData, ::UnityEngine::Vector3 headNotePos, ::UnityEngine::Vector3 tailNotePos, float jumpSpeed, float noteUniformScale);
+    // static private UnityEngine.Vector3 CutDirectionToControlPointPosition(NoteCutDirection noteCutDirection)
+    // Offset: 0x138934C
+    static ::UnityEngine::Vector3 CutDirectionToControlPointPosition(::GlobalNamespace::NoteCutDirection noteCutDirection);
   }; // SliderMeshController
   #pragma pack(pop)
   static check_size<sizeof(SliderMeshController), 80 + sizeof(::ArrayW<::UnityEngine::Vector3>)> __GlobalNamespace_SliderMeshControllerSizeCheck;
@@ -201,6 +187,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SliderMeshController*), "get_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SliderMeshController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SliderMeshController::CreateBezierPathAndMesh
 // Il2CppName: CreateBezierPathAndMesh
 template<>
@@ -223,7 +213,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SliderMeshController*), "CutDirectionToControlPointPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteCutDirection});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SliderMeshController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -30,15 +30,7 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class HEU_ScriptCallbackExample : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String _msg
     // Size: 0x8
     // Offset: 0x18
@@ -49,32 +41,30 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.String _msg
-    ::StringW& dyn__msg();
-    // private System.Void AssetCallbackWithMsg(System.String msg)
-    // Offset: 0x16A8E88
-    void AssetCallbackWithMsg(::StringW msg);
-    // private System.Void AssetCallbackNoMsg()
-    // Offset: 0x16A8F24
-    void AssetCallbackNoMsg();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__msg();
     // public System.Void .ctor()
-    // Offset: 0x16A8F90
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16E08A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ScriptCallbackExample* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HEU_ScriptCallbackExample::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ScriptCallbackExample*, creationType>()));
     }
+    // private System.Void AssetCallbackWithMsg(System.String msg)
+    // Offset: 0x16E0798
+    void AssetCallbackWithMsg(::StringW msg);
+    // private System.Void AssetCallbackNoMsg()
+    // Offset: 0x16E0834
+    void AssetCallbackNoMsg();
   }; // HEU_ScriptCallbackExample
   #pragma pack(pop)
   static check_size<sizeof(HEU_ScriptCallbackExample), 24 + sizeof(::StringW)> __GlobalNamespace_HEU_ScriptCallbackExampleSizeCheck;
   static_assert(sizeof(HEU_ScriptCallbackExample) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::HEU_ScriptCallbackExample::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::HEU_ScriptCallbackExample::AssetCallbackWithMsg
 // Il2CppName: AssetCallbackWithMsg
 template<>
@@ -92,7 +82,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HEU_ScriptCallbackExample*), "AssetCallbackNoMsg", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::HEU_ScriptCallbackExample::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

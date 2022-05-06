@@ -29,13 +29,7 @@ namespace HMUI {
   class ItemForFocussedScrolling : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x16831D0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16B9AE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ItemForFocussedScrolling* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ItemForFocussedScrolling::.ctor");

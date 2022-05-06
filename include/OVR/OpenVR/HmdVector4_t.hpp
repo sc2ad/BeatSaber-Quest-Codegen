@@ -56,13 +56,13 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single v0
-    float& dyn_v0();
+    [[deprecated("Use field access instead!")]] float& dyn_v0();
     // Get instance field reference: public System.Single v1
-    float& dyn_v1();
+    [[deprecated("Use field access instead!")]] float& dyn_v1();
     // Get instance field reference: public System.Single v2
-    float& dyn_v2();
+    [[deprecated("Use field access instead!")]] float& dyn_v2();
     // Get instance field reference: public System.Single v3
-    float& dyn_v3();
+    [[deprecated("Use field access instead!")]] float& dyn_v3();
   }; // OVR.OpenVR.HmdVector4_t
   #pragma pack(pop)
   static check_size<sizeof(HmdVector4_t), 12 + sizeof(float)> __OVR_OpenVR_HmdVector4_tSizeCheck;

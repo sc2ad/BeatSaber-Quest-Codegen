@@ -60,7 +60,7 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.ShadowSamplingMode None
     static void _set_None(::UnityEngine::Rendering::ShadowSamplingMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.Rendering.ShadowSamplingMode
   #pragma pack(pop)
   static check_size<sizeof(ShadowSamplingMode), 0 + sizeof(int)> __UnityEngine_Rendering_ShadowSamplingModeSizeCheck;

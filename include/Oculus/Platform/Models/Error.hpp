@@ -27,15 +27,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class Error : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Int32 Code
     // Size: 0x4
     // Offset: 0x10
@@ -56,13 +48,13 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly System.Int32 Code
-    int& dyn_Code();
+    [[deprecated("Use field access instead!")]] int& dyn_Code();
     // Get instance field reference: public readonly System.Int32 HttpCode
-    int& dyn_HttpCode();
+    [[deprecated("Use field access instead!")]] int& dyn_HttpCode();
     // Get instance field reference: public readonly System.String Message
-    ::StringW& dyn_Message();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Message();
     // public System.Void .ctor(System.Int32 code, System.String message, System.Int32 httpCode)
-    // Offset: 0x19A6174
+    // Offset: 0x19DF75C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Error* New_ctor(int code, ::StringW message, int httpCode) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::Error::.ctor");

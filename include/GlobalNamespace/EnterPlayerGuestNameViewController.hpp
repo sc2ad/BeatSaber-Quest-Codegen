@@ -54,23 +54,15 @@ namespace GlobalNamespace {
     class $$c__DisplayClass10_0;
     // Nested type: ::GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_1
     class $$c__DisplayClass10_1;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [SignalSenderAttribute] Offset: 0x125AD38
+    // [SignalSenderAttribute] Offset: 0x10DF91C
     // private StringSignal _playerNameWasEnteredSignal
     // Size: 0x8
     // Offset: 0x70
     ::GlobalNamespace::StringSignal* playerNameWasEnteredSignal;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::StringSignal*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125AD70
+    // [SpaceAttribute] Offset: 0x10DF954
     // private HMUI.UIKeyboard _uiKeyboard
     // Size: 0x8
     // Offset: 0x78
@@ -89,7 +81,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::GuestNameButtonsListItemsList* guestNameButtonsListItemsList;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GuestNameButtonsListItemsList*) == 0x8);
-    // [InjectAttribute] Offset: 0x125ADC8
+    // [InjectAttribute] Offset: 0x10DF9AC
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x90
@@ -116,44 +108,37 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxShowPlayer
     static void _set_kMaxShowPlayer(int value);
     // Get instance field reference: private StringSignal _playerNameWasEnteredSignal
-    ::GlobalNamespace::StringSignal*& dyn__playerNameWasEnteredSignal();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::StringSignal*& dyn__playerNameWasEnteredSignal();
     // Get instance field reference: private HMUI.UIKeyboard _uiKeyboard
-    ::HMUI::UIKeyboard*& dyn__uiKeyboard();
+    [[deprecated("Use field access instead!")]] ::HMUI::UIKeyboard*& dyn__uiKeyboard();
     // Get instance field reference: private HMUI.InputFieldView _nameInputFieldView
-    ::HMUI::InputFieldView*& dyn__nameInputFieldView();
+    [[deprecated("Use field access instead!")]] ::HMUI::InputFieldView*& dyn__nameInputFieldView();
     // Get instance field reference: private GuestNameButtonsListItemsList _guestNameButtonsListItemsList
-    ::GlobalNamespace::GuestNameButtonsListItemsList*& dyn__guestNameButtonsListItemsList();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GuestNameButtonsListItemsList*& dyn__guestNameButtonsListItemsList();
     // Get instance field reference: private readonly PlayerDataModel _playerDataModel
-    ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
     // Get instance field reference: private EnterPlayerGuestNameViewController/FinishDelegate _didFinishCallback
-    ::GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate*& dyn__didFinishCallback();
-    // public System.Void Init(EnterPlayerGuestNameViewController/FinishDelegate didFinishCallback)
-    // Offset: 0x1382A5C
-    void Init(::GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate* didFinishCallback);
-    // private System.Void OkButtonPressed()
-    // Offset: 0x1382D68
-    void OkButtonPressed();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate*& dyn__didFinishCallback();
     // public System.Void .ctor()
-    // Offset: 0x1383220
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x136ADFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnterPlayerGuestNameViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnterPlayerGuestNameViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnterPlayerGuestNameViewController*, creationType>()));
     }
+    // public System.Void Init(EnterPlayerGuestNameViewController/FinishDelegate didFinishCallback)
+    // Offset: 0x136A638
+    void Init(::GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate* didFinishCallback);
+    // private System.Void OkButtonPressed()
+    // Offset: 0x136A944
+    void OkButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1382A64
+    // Offset: 0x136A640
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1382CB8
+    // Offset: 0x136A894
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
@@ -163,6 +148,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnterPlayerGuestNameViewController) == 0xA0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::EnterPlayerGuestNameViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EnterPlayerGuestNameViewController::Init
 // Il2CppName: Init
 template<>
@@ -180,10 +169,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnterPlayerGuestNameViewController*), "OkButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::EnterPlayerGuestNameViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EnterPlayerGuestNameViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

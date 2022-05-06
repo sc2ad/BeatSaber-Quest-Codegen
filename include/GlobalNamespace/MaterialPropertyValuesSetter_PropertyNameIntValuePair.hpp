@@ -25,15 +25,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MaterialPropertyValuesSetter::PropertyNameIntValuePair : public ::GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 value
     // Size: 0x4
     // Offset: 0x1C
@@ -46,12 +38,11 @@ namespace GlobalNamespace {
       return value;
     }
     // Get instance field reference: public System.Int32 value
-    int& dyn_value();
+    [[deprecated("Use field access instead!")]] int& dyn_value();
     // public System.Void .ctor()
-    // Offset: 0x2AD6498
+    // Offset: 0x1E7F8A8
     // Implemented from: MaterialPropertyValuesSetter/PropertyValuePairBase
     // Base method: System.Void PropertyValuePairBase::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MaterialPropertyValuesSetter::PropertyNameIntValuePair* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair::.ctor");

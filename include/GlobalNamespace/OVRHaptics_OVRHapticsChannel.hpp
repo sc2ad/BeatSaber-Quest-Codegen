@@ -30,15 +30,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRHaptics::OVRHapticsChannel : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private OVRHaptics/OVRHapticsOutput m_output
     // Size: 0x8
     // Offset: 0x10
@@ -51,25 +43,25 @@ namespace GlobalNamespace {
       return m_output;
     }
     // Get instance field reference: private OVRHaptics/OVRHapticsOutput m_output
-    ::GlobalNamespace::OVRHaptics::OVRHapticsOutput*& dyn_m_output();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRHaptics::OVRHapticsOutput*& dyn_m_output();
     // public System.Void .ctor(System.UInt32 outputIndex)
-    // Offset: 0x19BB788
+    // Offset: 0x19F4D70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHaptics::OVRHapticsChannel* New_ctor(uint outputIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRHaptics::OVRHapticsChannel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHaptics::OVRHapticsChannel*, creationType>(outputIndex)));
     }
     // public System.Void Preempt(OVRHapticsClip clip)
-    // Offset: 0x19BC834
+    // Offset: 0x19F5E1C
     void Preempt(::GlobalNamespace::OVRHapticsClip* clip);
     // public System.Void Queue(OVRHapticsClip clip)
-    // Offset: 0x19BC8F0
+    // Offset: 0x19F5ED8
     void Queue(::GlobalNamespace::OVRHapticsClip* clip);
     // public System.Void Mix(OVRHapticsClip clip)
-    // Offset: 0x19BC994
+    // Offset: 0x19F5F7C
     void Mix(::GlobalNamespace::OVRHapticsClip* clip);
     // public System.Void Clear()
-    // Offset: 0x19BCE7C
+    // Offset: 0x19F6464
     void Clear();
   }; // OVRHaptics/OVRHapticsChannel
   #pragma pack(pop)

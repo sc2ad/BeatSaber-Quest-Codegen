@@ -26,15 +26,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CreditsData::Text : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String text
     // Size: 0x8
     // Offset: 0x10
@@ -57,25 +49,23 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::CreditsData::TextStyle) == 0x4);
     public:
     // Get instance field reference: public System.String text
-    ::StringW& dyn_text();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_text();
     // Get instance field reference: public System.Boolean localized
-    bool& dyn_localized();
+    [[deprecated("Use field access instead!")]] bool& dyn_localized();
     // Get instance field reference: public CreditsData/TextStyle style
-    ::GlobalNamespace::CreditsData::TextStyle& dyn_style();
-    // public System.Boolean IsEmpty()
-    // Offset: 0x1408218
-    bool IsEmpty();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::CreditsData::TextStyle& dyn_style();
     // public System.Void .ctor()
-    // Offset: 0x14082E4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1428090
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CreditsData::Text* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CreditsData::Text::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CreditsData::Text*, creationType>()));
     }
+    // public System.Boolean IsEmpty()
+    // Offset: 0x1427FC4
+    bool IsEmpty();
     // public override System.String ToString()
-    // Offset: 0x1408238
+    // Offset: 0x1427FE4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -85,6 +75,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(CreditsData::Text) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::CreditsData::Text::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CreditsData::Text::IsEmpty
 // Il2CppName: IsEmpty
 template<>
@@ -93,10 +87,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsData::Text*), "IsEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CreditsData::Text::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CreditsData::Text::ToString
 // Il2CppName: ToString
 template<>

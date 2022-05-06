@@ -47,11 +47,11 @@ namespace NUnit::Framework::Constraints {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single Float
-    float& dyn_Float();
+    [[deprecated("Use field access instead!")]] float& dyn_Float();
     // Get instance field reference: public System.Int32 Int
-    int& dyn_Int();
+    [[deprecated("Use field access instead!")]] int& dyn_Int();
     // Get instance field reference: public System.UInt32 UInt
-    uint& dyn_UInt();
+    [[deprecated("Use field access instead!")]] uint& dyn_UInt();
   }; // NUnit.Framework.Constraints.FloatingPointNumerics/NUnit.Framework.Constraints.FloatIntUnion
   // WARNING Not writing size check since size may be invalid!
 }

@@ -72,7 +72,7 @@ namespace NUnit::Framework::Interfaces {
     // Set static field: static public NUnit.Framework.Interfaces.FailureSite Child
     static void _set_Child(::NUnit::Framework::Interfaces::FailureSite value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // NUnit.Framework.Interfaces.FailureSite
   #pragma pack(pop)
   static check_size<sizeof(FailureSite), 0 + sizeof(int)> __NUnit_Framework_Interfaces_FailureSiteSizeCheck;

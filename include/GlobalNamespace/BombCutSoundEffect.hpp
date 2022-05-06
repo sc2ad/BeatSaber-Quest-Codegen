@@ -50,15 +50,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::BombCutSoundEffect::Pool
     class Pool;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.AudioSource _audioSource
     // Size: 0x8
     // Offset: 0x18
@@ -81,39 +73,33 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AudioSource _audioSource
-    ::UnityEngine::AudioSource*& dyn__audioSource();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioSource*& dyn__audioSource();
     // Get instance field reference: private System.Action`1<BombCutSoundEffect> didFinishEvent
-    ::System::Action_1<::GlobalNamespace::BombCutSoundEffect*>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::BombCutSoundEffect*>*& dyn_didFinishEvent();
     // Get instance field reference: private Saber _saber
-    ::GlobalNamespace::Saber*& dyn__saber();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Saber*& dyn__saber();
     // public System.Void add_didFinishEvent(System.Action`1<BombCutSoundEffect> value)
-    // Offset: 0x134C114
+    // Offset: 0x133535C
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::BombCutSoundEffect*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<BombCutSoundEffect> value)
-    // Offset: 0x134C1B8
+    // Offset: 0x1335400
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::BombCutSoundEffect*>* value);
-    // public System.Void Init(UnityEngine.AudioClip audioClip, Saber saber, System.Single volume)
-    // Offset: 0x134C25C
-    void Init(::UnityEngine::AudioClip* audioClip, ::GlobalNamespace::Saber* saber, float volume);
-    // protected System.Void LateUpdate()
-    // Offset: 0x134C2DC
-    void LateUpdate();
-    // private System.Void StopPlayingAndFinish()
-    // Offset: 0x134C370
-    void StopPlayingAndFinish();
     // public System.Void .ctor()
-    // Offset: 0x134C3F8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1335640
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BombCutSoundEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BombCutSoundEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BombCutSoundEffect*, creationType>()));
     }
+    // public System.Void Init(UnityEngine.AudioClip audioClip, Saber saber, System.Single volume)
+    // Offset: 0x13354A4
+    void Init(::UnityEngine::AudioClip* audioClip, ::GlobalNamespace::Saber* saber, float volume);
+    // protected System.Void LateUpdate()
+    // Offset: 0x1335524
+    void LateUpdate();
+    // private System.Void StopPlayingAndFinish()
+    // Offset: 0x13355B8
+    void StopPlayingAndFinish();
   }; // BombCutSoundEffect
   #pragma pack(pop)
   static check_size<sizeof(BombCutSoundEffect), 40 + sizeof(::GlobalNamespace::Saber*)> __GlobalNamespace_BombCutSoundEffectSizeCheck;
@@ -138,6 +124,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BombCutSoundEffect*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BombCutSoundEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BombCutSoundEffect::Init
 // Il2CppName: Init
 template<>
@@ -165,7 +155,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BombCutSoundEffect*), "StopPlayingAndFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BombCutSoundEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

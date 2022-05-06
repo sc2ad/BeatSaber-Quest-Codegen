@@ -44,7 +44,7 @@ namespace Valve::VR {
       return depth;
     }
     // Get instance field reference: public Valve.VR.VRTextureDepthInfo_t depth
-    ::Valve::VR::VRTextureDepthInfo_t& dyn_depth();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VRTextureDepthInfo_t& dyn_depth();
   }; // Valve.VR.VRTextureWithPoseAndDepth_t
   #pragma pack(pop)
   static check_size<sizeof(VRTextureWithPoseAndDepth_t), 0 + sizeof(::Valve::VR::VRTextureDepthInfo_t)> __Valve_VR_VRTextureWithPoseAndDepth_tSizeCheck;

@@ -32,15 +32,7 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target
     class Target;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single scale
     // Size: 0x4
     // Offset: 0x10
@@ -117,33 +109,31 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public System.Single scale
-    float& dyn_scale();
+    [[deprecated("Use field access instead!")]] float& dyn_scale();
     // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target head
-    ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_head();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_head();
     // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target leftHand
-    ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_leftHand();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_leftHand();
     // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target rightHand
-    ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_rightHand();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_rightHand();
     // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target pelvis
-    ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_pelvis();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_pelvis();
     // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target leftFoot
-    ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_leftFoot();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_leftFoot();
     // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target rightFoot
-    ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_rightFoot();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_rightFoot();
     // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target leftLegGoal
-    ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_leftLegGoal();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_leftLegGoal();
     // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target rightLegGoal
-    ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_rightLegGoal();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_rightLegGoal();
     // Get instance field reference: public UnityEngine.Vector3 pelvisTargetRight
-    ::UnityEngine::Vector3& dyn_pelvisTargetRight();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_pelvisTargetRight();
     // Get instance field reference: public System.Single pelvisPositionWeight
-    float& dyn_pelvisPositionWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_pelvisPositionWeight();
     // Get instance field reference: public System.Single pelvisRotationWeight
-    float& dyn_pelvisRotationWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_pelvisRotationWeight();
     // public System.Void .ctor()
-    // Offset: 0x1F7B8CC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FC8140
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRIKCalibrator::CalibrationData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::.ctor");

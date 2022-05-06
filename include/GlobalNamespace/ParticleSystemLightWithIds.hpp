@@ -40,15 +40,7 @@ namespace GlobalNamespace {
   // [ExecuteAlways] Offset: FFFFFFFF
   class ParticleSystemLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.ParticleSystem _particleSystem
     // Size: 0x8
     // Offset: 0x48
@@ -69,7 +61,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: setColorOnly and: minAlpha
     char __padding2[0x2] = {};
-    // [DrawIfAttribute] Offset: 0x1239060
+    // [DrawIfAttribute] Offset: 0x10BDB28
     // private System.Single _minAlpha
     // Size: 0x4
     // Offset: 0x54
@@ -90,39 +82,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<::UnityEngine::ParticleSystem::Particle>) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.ParticleSystem _particleSystem
-    ::UnityEngine::ParticleSystem*& dyn__particleSystem();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn__particleSystem();
     // Get instance field reference: private System.Boolean _setOnlyOnce
-    bool& dyn__setOnlyOnce();
+    [[deprecated("Use field access instead!")]] bool& dyn__setOnlyOnce();
     // Get instance field reference: private System.Boolean _setColorOnly
-    bool& dyn__setColorOnly();
+    [[deprecated("Use field access instead!")]] bool& dyn__setColorOnly();
     // Get instance field reference: private System.Single _minAlpha
-    float& dyn__minAlpha();
+    [[deprecated("Use field access instead!")]] float& dyn__minAlpha();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.MainModule _mainModule
-    ::UnityEngine::ParticleSystem::MainModule& dyn__mainModule();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::MainModule& dyn__mainModule();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.Particle[] _particles
-    ::ArrayW<::UnityEngine::ParticleSystem::Particle>& dyn__particles();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::ParticleSystem::Particle>& dyn__particles();
     // public System.Void .ctor()
-    // Offset: 0x2AD85D8
+    // Offset: 0x1E819E8
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::.ctor()
     // Base method: System.Void LightWithIds::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParticleSystemLightWithIds* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ParticleSystemLightWithIds::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParticleSystemLightWithIds*, creationType>()));
     }
     // protected override System.Void Awake()
-    // Offset: 0x2AD82E8
+    // Offset: 0x1E816F8
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::Awake()
     void Awake();
     // protected override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x2AD8380
+    // Offset: 0x1E81790
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);

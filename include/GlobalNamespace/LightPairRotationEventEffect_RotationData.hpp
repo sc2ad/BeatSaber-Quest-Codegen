@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightPairRotationEventEffect::RotationData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean enabled
     // Size: 0x1
     // Offset: 0x10
@@ -81,21 +73,19 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public System.Boolean enabled
-    bool& dyn_enabled();
+    [[deprecated("Use field access instead!")]] bool& dyn_enabled();
     // Get instance field reference: public System.Single rotationSpeed
-    float& dyn_rotationSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn_rotationSpeed();
     // Get instance field reference: public UnityEngine.Quaternion startRotation
-    ::UnityEngine::Quaternion& dyn_startRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_startRotation();
     // Get instance field reference: public UnityEngine.Transform transform
-    ::UnityEngine::Transform*& dyn_transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public System.Single startRotationAngle
-    float& dyn_startRotationAngle();
+    [[deprecated("Use field access instead!")]] float& dyn_startRotationAngle();
     // Get instance field reference: public System.Single rotationAngle
-    float& dyn_rotationAngle();
+    [[deprecated("Use field access instead!")]] float& dyn_rotationAngle();
     // public System.Void .ctor()
-    // Offset: 0x148CF58
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14C37E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightPairRotationEventEffect::RotationData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightPairRotationEventEffect::RotationData::.ctor");

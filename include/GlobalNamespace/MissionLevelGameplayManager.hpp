@@ -123,55 +123,47 @@ namespace GlobalNamespace {
       // Set static field: static public MissionLevelGameplayManager/GameState Failed
       static void _set_Failed(::GlobalNamespace::MissionLevelGameplayManager::GameState value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // MissionLevelGameplayManager/GameState
     #pragma pack(pop)
     static check_size<sizeof(MissionLevelGameplayManager::GameState), 0 + sizeof(int)> __GlobalNamespace_MissionLevelGameplayManager_GameStateSizeCheck;
     static_assert(sizeof(MissionLevelGameplayManager::GameState) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissionObjectiveCheckersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x12527F4
+    // [InjectAttribute] Offset: 0x10D73D8
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252804
+    // [InjectAttribute] Offset: 0x10D73E8
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252814
+    // [InjectAttribute] Offset: 0x10D73F8
     // private readonly GameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::GameEnergyCounter* gameEnergyCounter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameEnergyCounter*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252824
+    // [InjectAttribute] Offset: 0x10D7408
     // private readonly PauseController _pauseController
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::PauseController* pauseController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PauseController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252834
+    // [InjectAttribute] Offset: 0x10D7418
     // private readonly MissionLevelGameplayManager/InitData _initData
     // Size: 0x8
     // Offset: 0x40
@@ -226,93 +218,87 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
-    ::GlobalNamespace::MissionObjectiveCheckersManager*& dyn__missionObjectiveCheckersManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionObjectiveCheckersManager*& dyn__missionObjectiveCheckersManager();
     // Get instance field reference: private readonly GameScenesManager _gameScenesManager
-    ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // Get instance field reference: private readonly GameSongController _gameSongController
-    ::GlobalNamespace::GameSongController*& dyn__gameSongController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameSongController*& dyn__gameSongController();
     // Get instance field reference: private readonly GameEnergyCounter _gameEnergyCounter
-    ::GlobalNamespace::GameEnergyCounter*& dyn__gameEnergyCounter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameEnergyCounter*& dyn__gameEnergyCounter();
     // Get instance field reference: private readonly PauseController _pauseController
-    ::GlobalNamespace::PauseController*& dyn__pauseController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PauseController*& dyn__pauseController();
     // Get instance field reference: private readonly MissionLevelGameplayManager/InitData _initData
-    ::GlobalNamespace::MissionLevelGameplayManager::InitData*& dyn__initData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionLevelGameplayManager::InitData*& dyn__initData();
     // Get instance field reference: private System.Action levelWillStartIntroEvent
-    ::System::Action*& dyn_levelWillStartIntroEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_levelWillStartIntroEvent();
     // Get instance field reference: private System.Action levelDidStartEvent
-    ::System::Action*& dyn_levelDidStartEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_levelDidStartEvent();
     // Get instance field reference: private System.Action levelFailedEvent
-    ::System::Action*& dyn_levelFailedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_levelFailedEvent();
     // Get instance field reference: private System.Action levelFinishedEvent
-    ::System::Action*& dyn_levelFinishedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_levelFinishedEvent();
     // Get instance field reference: private MissionLevelGameplayManager/GameState _gameState
-    ::GlobalNamespace::MissionLevelGameplayManager::GameState& dyn__gameState();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionLevelGameplayManager::GameState& dyn__gameState();
     // Get instance field reference: private MissionLevelGameplayManager/GameState _prePauseGameState
-    ::GlobalNamespace::MissionLevelGameplayManager::GameState& dyn__prePauseGameState();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionLevelGameplayManager::GameState& dyn__prePauseGameState();
     // public System.Void add_levelWillStartIntroEvent(System.Action value)
-    // Offset: 0x1306A54
+    // Offset: 0x1302F2C
     void add_levelWillStartIntroEvent(::System::Action* value);
     // public System.Void remove_levelWillStartIntroEvent(System.Action value)
-    // Offset: 0x1306AF8
+    // Offset: 0x1302FD0
     void remove_levelWillStartIntroEvent(::System::Action* value);
     // public System.Void add_levelDidStartEvent(System.Action value)
-    // Offset: 0x1306B9C
+    // Offset: 0x1303074
     void add_levelDidStartEvent(::System::Action* value);
     // public System.Void remove_levelDidStartEvent(System.Action value)
-    // Offset: 0x1306C40
+    // Offset: 0x1303118
     void remove_levelDidStartEvent(::System::Action* value);
     // public System.Void add_levelFailedEvent(System.Action value)
-    // Offset: 0x1306CE4
+    // Offset: 0x13031BC
     void add_levelFailedEvent(::System::Action* value);
     // public System.Void remove_levelFailedEvent(System.Action value)
-    // Offset: 0x1306D88
+    // Offset: 0x1303260
     void remove_levelFailedEvent(::System::Action* value);
     // public System.Void add_levelFinishedEvent(System.Action value)
-    // Offset: 0x1306E2C
+    // Offset: 0x1303304
     void add_levelFinishedEvent(::System::Action* value);
     // public System.Void remove_levelFinishedEvent(System.Action value)
-    // Offset: 0x1306ED0
+    // Offset: 0x13033A8
     void remove_levelFinishedEvent(::System::Action* value);
-    // protected System.Void Awake()
-    // Offset: 0x1306F74
-    void Awake();
-    // private System.Collections.IEnumerator Start()
-    // Offset: 0x1306F7C
-    ::System::Collections::IEnumerator* Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x1307018
-    void OnDestroy();
-    // private System.Void HandleGameEnergyDidReach0()
-    // Offset: 0x1307370
-    void HandleGameEnergyDidReach0();
-    // private System.Void HandleMissionObjectiveCheckersManagerObjectiveDidFail()
-    // Offset: 0x13073BC
-    void HandleMissionObjectiveCheckersManagerObjectiveDidFail();
-    // private System.Void HandleSongDidFinish()
-    // Offset: 0x13073EC
-    void HandleSongDidFinish();
-    // private System.Void HandlePauseControllerCanPause(System.Action`1<System.Boolean> canPause)
-    // Offset: 0x130741C
-    void HandlePauseControllerCanPause(::System::Action_1<bool>* canPause);
-    // private System.Void HandlePauseControllerDidPause()
-    // Offset: 0x1307498
-    void HandlePauseControllerDidPause();
-    // private System.Void HandlePauseControllerDidResume()
-    // Offset: 0x13074B0
-    void HandlePauseControllerDidResume();
     // public System.Void .ctor()
-    // Offset: 0x13074C8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13039A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionLevelGameplayManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionLevelGameplayManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelGameplayManager*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x130344C
+    void Awake();
+    // private System.Collections.IEnumerator Start()
+    // Offset: 0x1303454
+    ::System::Collections::IEnumerator* Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13034F0
+    void OnDestroy();
+    // private System.Void HandleGameEnergyDidReach0()
+    // Offset: 0x1303848
+    void HandleGameEnergyDidReach0();
+    // private System.Void HandleMissionObjectiveCheckersManagerObjectiveDidFail()
+    // Offset: 0x1303894
+    void HandleMissionObjectiveCheckersManagerObjectiveDidFail();
+    // private System.Void HandleSongDidFinish()
+    // Offset: 0x13038C4
+    void HandleSongDidFinish();
+    // private System.Void HandlePauseControllerCanPause(System.Action`1<System.Boolean> canPause)
+    // Offset: 0x13038F4
+    void HandlePauseControllerCanPause(::System::Action_1<bool>* canPause);
+    // private System.Void HandlePauseControllerDidPause()
+    // Offset: 0x1303970
+    void HandlePauseControllerDidPause();
+    // private System.Void HandlePauseControllerDidResume()
+    // Offset: 0x1303988
+    void HandlePauseControllerDidResume();
   }; // MissionLevelGameplayManager
   #pragma pack(pop)
   static check_size<sizeof(MissionLevelGameplayManager), 108 + sizeof(::GlobalNamespace::MissionLevelGameplayManager::GameState)> __GlobalNamespace_MissionLevelGameplayManagerSizeCheck;
@@ -393,6 +379,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionLevelGameplayManager*), "remove_levelFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MissionLevelGameplayManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelGameplayManager::Awake
 // Il2CppName: Awake
 template<>
@@ -466,7 +456,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionLevelGameplayManager*), "HandlePauseControllerDidResume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MissionLevelGameplayManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

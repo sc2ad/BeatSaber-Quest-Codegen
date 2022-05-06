@@ -63,15 +63,7 @@ namespace Mono::Unity {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnityTlsContext : public ::Mono::Net::Security::MobileTlsContext {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx* tlsContext
     // Size: 0x8
     // Offset: 0x58
@@ -180,78 +172,78 @@ namespace Mono::Unity {
     static_assert(sizeof(::System::Exception*) == 0x8);
     public:
     // Get instance field reference: private Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx* tlsContext
-    ::Mono::Unity::UnityTls::unitytls_tlsctx*& dyn_tlsContext();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_tlsctx*& dyn_tlsContext();
     // Get instance field reference: private Mono.Unity.UnityTls/Mono.Unity.unitytls_x509list* requestedClientCertChain
-    ::Mono::Unity::UnityTls::unitytls_x509list*& dyn_requestedClientCertChain();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_x509list*& dyn_requestedClientCertChain();
     // Get instance field reference: private Mono.Unity.UnityTls/Mono.Unity.unitytls_key* requestedClientKey
-    ::Mono::Unity::UnityTls::unitytls_key*& dyn_requestedClientKey();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_key*& dyn_requestedClientKey();
     // Get instance field reference: private Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_read_callback readCallback
-    ::Mono::Unity::UnityTls::unitytls_tlsctx_read_callback*& dyn_readCallback();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_tlsctx_read_callback*& dyn_readCallback();
     // Get instance field reference: private Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_write_callback writeCallback
-    ::Mono::Unity::UnityTls::unitytls_tlsctx_write_callback*& dyn_writeCallback();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_tlsctx_write_callback*& dyn_writeCallback();
     // Get instance field reference: private Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_certificate_callback certificateCallback
-    ::Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback*& dyn_certificateCallback();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback*& dyn_certificateCallback();
     // Get instance field reference: private Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_x509verify_callback verifyCallback
-    ::Mono::Unity::UnityTls::unitytls_tlsctx_x509verify_callback*& dyn_verifyCallback();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_tlsctx_x509verify_callback*& dyn_verifyCallback();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate localClientCertificate
-    ::System::Security::Cryptography::X509Certificates::X509Certificate*& dyn_localClientCertificate();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509Certificate*& dyn_localClientCertificate();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate remoteCertificate
-    ::System::Security::Cryptography::X509Certificates::X509Certificate*& dyn_remoteCertificate();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509Certificate*& dyn_remoteCertificate();
     // Get instance field reference: private Mono.Security.Interface.MonoTlsConnectionInfo connectioninfo
-    ::Mono::Security::Interface::MonoTlsConnectionInfo*& dyn_connectioninfo();
+    [[deprecated("Use field access instead!")]] ::Mono::Security::Interface::MonoTlsConnectionInfo*& dyn_connectioninfo();
     // Get instance field reference: private System.Boolean isAuthenticated
-    bool& dyn_isAuthenticated();
+    [[deprecated("Use field access instead!")]] bool& dyn_isAuthenticated();
     // Get instance field reference: private System.Boolean hasContext
-    bool& dyn_hasContext();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasContext();
     // Get instance field reference: private System.Boolean closedGraceful
-    bool& dyn_closedGraceful();
+    [[deprecated("Use field access instead!")]] bool& dyn_closedGraceful();
     // Get instance field reference: private System.Byte[] writeBuffer
-    ::ArrayW<uint8_t>& dyn_writeBuffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_writeBuffer();
     // Get instance field reference: private System.Byte[] readBuffer
-    ::ArrayW<uint8_t>& dyn_readBuffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_readBuffer();
     // Get instance field reference: private System.Runtime.InteropServices.GCHandle handle
-    ::System::Runtime::InteropServices::GCHandle& dyn_handle();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::InteropServices::GCHandle& dyn_handle();
     // Get instance field reference: private System.Exception lastException
-    ::System::Exception*& dyn_lastException();
+    [[deprecated("Use field access instead!")]] ::System::Exception*& dyn_lastException();
     // static private System.Void ExtractNativeKeyAndChainFromManagedCertificate(System.Security.Cryptography.X509Certificates.X509Certificate cert, Mono.Unity.UnityTls/Mono.Unity.unitytls_errorstate* errorState, out Mono.Unity.UnityTls/Mono.Unity.unitytls_x509list* nativeCertChain, out Mono.Unity.UnityTls/Mono.Unity.unitytls_key* nativeKey)
-    // Offset: 0x1AAC0E8
+    // Offset: 0x1AE66D0
     static void ExtractNativeKeyAndChainFromManagedCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* cert, ::Mono::Unity::UnityTls::unitytls_errorstate* errorState, ByRef<::Mono::Unity::UnityTls::unitytls_x509list*> nativeCertChain, ByRef<::Mono::Unity::UnityTls::unitytls_key*> nativeKey);
     // static private System.IntPtr WriteCallback(System.Void* userData, System.Byte* data, System.IntPtr bufferLen, Mono.Unity.UnityTls/Mono.Unity.unitytls_errorstate* errorState)
-    // Offset: 0x1AAB7F4
+    // Offset: 0x1AE5DDC
     static ::System::IntPtr WriteCallback(void* userData, uint8_t* data, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls::unitytls_errorstate* errorState);
     // private System.IntPtr WriteCallback(System.Byte* data, System.IntPtr bufferLen, Mono.Unity.UnityTls/Mono.Unity.unitytls_errorstate* errorState)
-    // Offset: 0x1AACC30
+    // Offset: 0x1AE7218
     ::System::IntPtr WriteCallback(uint8_t* data, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls::unitytls_errorstate* errorState);
     // static private System.IntPtr ReadCallback(System.Void* userData, System.Byte* buffer, System.IntPtr bufferLen, Mono.Unity.UnityTls/Mono.Unity.unitytls_errorstate* errorState)
-    // Offset: 0x1AAB8C4
+    // Offset: 0x1AE5EAC
     static ::System::IntPtr ReadCallback(void* userData, uint8_t* buffer, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls::unitytls_errorstate* errorState);
     // private System.IntPtr ReadCallback(System.Byte* buffer, System.IntPtr bufferLen, Mono.Unity.UnityTls/Mono.Unity.unitytls_errorstate* errorState)
-    // Offset: 0x1AACE78
+    // Offset: 0x1AE7460
     ::System::IntPtr ReadCallback(uint8_t* buffer, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls::unitytls_errorstate* errorState);
     // static private Mono.Unity.UnityTls/Mono.Unity.unitytls_x509verify_result VerifyCallback(System.Void* userData, Mono.Unity.UnityTls/Mono.Unity.unitytls_x509list_ref chain, Mono.Unity.UnityTls/Mono.Unity.unitytls_errorstate* errorState)
-    // Offset: 0x1AAB994
+    // Offset: 0x1AE5F7C
     static ::Mono::Unity::UnityTls::unitytls_x509verify_result VerifyCallback(void* userData, ::Mono::Unity::UnityTls::unitytls_x509list_ref chain, ::Mono::Unity::UnityTls::unitytls_errorstate* errorState);
     // private Mono.Unity.UnityTls/Mono.Unity.unitytls_x509verify_result VerifyCallback(Mono.Unity.UnityTls/Mono.Unity.unitytls_x509list_ref chain, Mono.Unity.UnityTls/Mono.Unity.unitytls_errorstate* errorState)
-    // Offset: 0x1AAD148
+    // Offset: 0x1AE7730
     ::Mono::Unity::UnityTls::unitytls_x509verify_result VerifyCallback(::Mono::Unity::UnityTls::unitytls_x509list_ref chain, ::Mono::Unity::UnityTls::unitytls_errorstate* errorState);
     // static private System.Void CertificateCallback(System.Void* userData, Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx* ctx, System.Byte* cn, System.IntPtr cnLen, Mono.Unity.UnityTls/Mono.Unity.unitytls_x509name* caList, System.IntPtr caListLen, Mono.Unity.UnityTls/Mono.Unity.unitytls_x509list_ref* chain, Mono.Unity.UnityTls/Mono.Unity.unitytls_key_ref* key, Mono.Unity.UnityTls/Mono.Unity.unitytls_errorstate* errorState)
-    // Offset: 0x1AABA5C
+    // Offset: 0x1AE6044
     static void CertificateCallback(void* userData, ::Mono::Unity::UnityTls::unitytls_tlsctx* ctx, uint8_t* cn, ::System::IntPtr cnLen, ::Mono::Unity::UnityTls::unitytls_x509name* caList, ::System::IntPtr caListLen, ::Mono::Unity::UnityTls::unitytls_x509list_ref* chain, ::Mono::Unity::UnityTls::unitytls_key_ref* key, ::Mono::Unity::UnityTls::unitytls_errorstate* errorState);
     // private System.Void CertificateCallback(Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx* ctx, System.Byte* cn, System.IntPtr cnLen, Mono.Unity.UnityTls/Mono.Unity.unitytls_x509name* caList, System.IntPtr caListLen, Mono.Unity.UnityTls/Mono.Unity.unitytls_x509list_ref* chain, Mono.Unity.UnityTls/Mono.Unity.unitytls_key_ref* key, Mono.Unity.UnityTls/Mono.Unity.unitytls_errorstate* errorState)
-    // Offset: 0x1AAD290
+    // Offset: 0x1AE7878
     void CertificateCallback(::Mono::Unity::UnityTls::unitytls_tlsctx* ctx, uint8_t* cn, ::System::IntPtr cnLen, ::Mono::Unity::UnityTls::unitytls_x509name* caList, ::System::IntPtr caListLen, ::Mono::Unity::UnityTls::unitytls_x509list_ref* chain, ::Mono::Unity::UnityTls::unitytls_key_ref* key, ::Mono::Unity::UnityTls::unitytls_errorstate* errorState);
     // public override System.Boolean get_IsAuthenticated()
-    // Offset: 0x1AAC3EC
+    // Offset: 0x1AE69D4
     // Implemented from: Mono.Net.Security.MobileTlsContext
     // Base method: System.Boolean MobileTlsContext::get_IsAuthenticated()
     bool get_IsAuthenticated();
     // override System.Security.Cryptography.X509Certificates.X509Certificate get_LocalClientCertificate()
-    // Offset: 0x1AAC3F4
+    // Offset: 0x1AE69DC
     // Implemented from: Mono.Net.Security.MobileTlsContext
     // Base method: System.Security.Cryptography.X509Certificates.X509Certificate MobileTlsContext::get_LocalClientCertificate()
     ::System::Security::Cryptography::X509Certificates::X509Certificate* get_LocalClientCertificate();
     // public System.Void .ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean serverMode, System.String targetHost, System.Security.Authentication.SslProtocols enabledProtocols, System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate, System.Security.Cryptography.X509Certificates.X509CertificateCollection clientCertificates, System.Boolean askForClientCert)
-    // Offset: 0x1AABB2C
+    // Offset: 0x1AE6114
     // Implemented from: Mono.Net.Security.MobileTlsContext
     // Base method: System.Void MobileTlsContext::.ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean serverMode, System.String targetHost, System.Security.Authentication.SslProtocols enabledProtocols, System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate, System.Security.Cryptography.X509Certificates.X509CertificateCollection clientCertificates, System.Boolean askForClientCert)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -260,37 +252,37 @@ namespace Mono::Unity {
       return THROW_UNLESS((::il2cpp_utils::New<UnityTlsContext*, creationType>(parent, serverMode, targetHost, enabledProtocols, serverCertificate, clientCertificates, askForClientCert)));
     }
     // public override System.ValueTuple`2<System.Int32,System.Boolean> Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1AAC3FC
+    // Offset: 0x1AE69E4
     // Implemented from: Mono.Net.Security.MobileTlsContext
     // Base method: System.ValueTuple`2<System.Int32,System.Boolean> MobileTlsContext::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     ::System::ValueTuple_2<int, bool> Read(::ArrayW<uint8_t> buffer, int offset, int count);
     // public override System.ValueTuple`2<System.Int32,System.Boolean> Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1AAC59C
+    // Offset: 0x1AE6B84
     // Implemented from: Mono.Net.Security.MobileTlsContext
     // Base method: System.ValueTuple`2<System.Int32,System.Boolean> MobileTlsContext::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     ::System::ValueTuple_2<int, bool> Write(::ArrayW<uint8_t> buffer, int offset, int count);
     // public override System.Void Shutdown()
-    // Offset: 0x1AAC734
+    // Offset: 0x1AE6D1C
     // Implemented from: Mono.Net.Security.MobileTlsContext
     // Base method: System.Void MobileTlsContext::Shutdown()
     void Shutdown();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1AAC7FC
+    // Offset: 0x1AE6DE4
     // Implemented from: Mono.Net.Security.MobileTlsContext
     // Base method: System.Void MobileTlsContext::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Void StartHandshake()
-    // Offset: 0x1AAC870
+    // Offset: 0x1AE6E58
     // Implemented from: Mono.Net.Security.MobileTlsContext
     // Base method: System.Void MobileTlsContext::StartHandshake()
     void StartHandshake();
     // public override System.Boolean ProcessHandshake()
-    // Offset: 0x1AAC9E0
+    // Offset: 0x1AE6FC8
     // Implemented from: Mono.Net.Security.MobileTlsContext
     // Base method: System.Boolean MobileTlsContext::ProcessHandshake()
     bool ProcessHandshake();
     // public override System.Void FinishHandshake()
-    // Offset: 0x1AACB34
+    // Offset: 0x1AE711C
     // Implemented from: Mono.Net.Security.MobileTlsContext
     // Base method: System.Void MobileTlsContext::FinishHandshake()
     void FinishHandshake();

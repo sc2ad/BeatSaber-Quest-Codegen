@@ -42,15 +42,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     public:
     // Nested type: ::UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String id
     // Size: 0x8
     // Offset: 0x10
@@ -167,43 +159,43 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String id
-    ::StringW& dyn_id();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_id();
     // Get instance field reference: public System.String name
-    ::StringW& dyn_name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_name();
     // Get instance field reference: public System.String fullName
-    ::StringW& dyn_fullName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_fullName();
     // Get instance field reference: public System.Int32 testCaseCount
-    int& dyn_testCaseCount();
+    [[deprecated("Use field access instead!")]] int& dyn_testCaseCount();
     // Get instance field reference: public System.Int32 ChildIndex
-    int& dyn_ChildIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_ChildIndex();
     // Get instance field reference: public System.Boolean hasChildren
-    bool& dyn_hasChildren();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasChildren();
     // Get instance field reference: public System.Boolean isSuite
-    bool& dyn_isSuite();
+    [[deprecated("Use field access instead!")]] bool& dyn_isSuite();
     // Get instance field reference: public System.String[] childrenIds
-    ::ArrayW<::StringW>& dyn_childrenIds();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_childrenIds();
     // Get instance field reference: public System.Int32 testCaseTimeout
-    int& dyn_testCaseTimeout();
+    [[deprecated("Use field access instead!")]] int& dyn_testCaseTimeout();
     // Get instance field reference: public System.String[] Categories
-    ::ArrayW<::StringW>& dyn_Categories();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_Categories();
     // Get instance field reference: public System.Boolean IsTestAssembly
-    bool& dyn_IsTestAssembly();
+    [[deprecated("Use field access instead!")]] bool& dyn_IsTestAssembly();
     // Get instance field reference: public NUnit.Framework.Interfaces.RunState RunState
-    ::NUnit::Framework::Interfaces::RunState& dyn_RunState();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Interfaces::RunState& dyn_RunState();
     // Get instance field reference: public System.String Description
-    ::StringW& dyn_Description();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Description();
     // Get instance field reference: public System.String SkipReason
-    ::StringW& dyn_SkipReason();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_SkipReason();
     // Get instance field reference: public System.String ParentId
-    ::StringW& dyn_ParentId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_ParentId();
     // Get instance field reference: public System.String UniqueName
-    ::StringW& dyn_UniqueName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_UniqueName();
     // Get instance field reference: public System.String ParentUniqueName
-    ::StringW& dyn_ParentUniqueName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_ParentUniqueName();
     // Get instance field reference: public System.String ParentFullName
-    ::StringW& dyn_ParentFullName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_ParentFullName();
     // System.Void .ctor(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x19459AC
+    // Offset: 0x197DA94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteTestData* New_ctor(::NUnit::Framework::Interfaces::ITest* test) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::TestLaunchers::RemoteTestData::.ctor");

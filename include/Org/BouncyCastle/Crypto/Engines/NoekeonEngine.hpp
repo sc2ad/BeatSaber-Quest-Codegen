@@ -37,15 +37,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoekeonEngine : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IBlockCipher*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.UInt32[] k
     // Size: 0x8
     // Offset: 0x10
@@ -74,47 +66,45 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set static field: static private readonly System.Byte[] RoundConstants
     static void _set_RoundConstants(::ArrayW<uint8_t> value);
     // Get instance field reference: private readonly System.UInt32[] k
-    ::ArrayW<uint>& dyn_k();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_k();
     // Get instance field reference: private System.Boolean _initialised
-    bool& dyn__initialised();
+    [[deprecated("Use field access instead!")]] bool& dyn__initialised();
     // Get instance field reference: private System.Boolean _forEncryption
-    bool& dyn__forEncryption();
+    [[deprecated("Use field access instead!")]] bool& dyn__forEncryption();
     // public System.String get_AlgorithmName()
-    // Offset: 0x232E2D0
+    // Offset: 0x2377B44
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x232E318
+    // Offset: 0x2377B8C
     bool get_IsPartialBlockOkay();
-    // static private System.Void .cctor()
-    // Offset: 0x232ED38
-    static void _cctor();
-    // public System.Int32 GetBlockSize()
-    // Offset: 0x232E320
-    int GetBlockSize();
-    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x232E328
-    void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-    // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x232E5D0
-    int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
-    // public System.Void Reset()
-    // Offset: 0x232ED34
-    void Reset();
-    // private System.Int32 EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x232EA3C
-    int EncryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
-    // private System.Int32 DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x232E718
-    int DecryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void .ctor()
-    // Offset: 0x232E268
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2377ADC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoekeonEngine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::NoekeonEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoekeonEngine*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x23785AC
+    static void _cctor();
+    // public System.Int32 GetBlockSize()
+    // Offset: 0x2377B94
+    int GetBlockSize();
+    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
+    // Offset: 0x2377B9C
+    void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
+    // Offset: 0x2377E44
+    int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
+    // public System.Void Reset()
+    // Offset: 0x23785A8
+    void Reset();
+    // private System.Int32 EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
+    // Offset: 0x23782B0
+    int EncryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
+    // private System.Int32 DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
+    // Offset: 0x2377F8C
+    int DecryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
   }; // Org.BouncyCastle.Crypto.Engines.NoekeonEngine
   #pragma pack(pop)
   static check_size<sizeof(NoekeonEngine), 25 + sizeof(bool)> __Org_BouncyCastle_Crypto_Engines_NoekeonEngineSizeCheck;
@@ -137,6 +127,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::NoekeonEngine*), "get_IsPartialBlockOkay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::NoekeonEngine::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::NoekeonEngine::_cctor
 // Il2CppName: .cctor
 template<>
@@ -207,7 +201,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::NoekeonEngine*), "DecryptBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, inOff, output, outOff});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::NoekeonEngine::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

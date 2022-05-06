@@ -30,15 +30,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLocalInactivePlayerSongSyncController::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly UnityEngine.AudioClip audioClip
     // Size: 0x8
     // Offset: 0x10
@@ -65,15 +57,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public readonly UnityEngine.AudioClip audioClip
-    ::UnityEngine::AudioClip*& dyn_audioClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioClip*& dyn_audioClip();
     // Get instance field reference: public readonly System.Single startSongTime
-    float& dyn_startSongTime();
+    [[deprecated("Use field access instead!")]] float& dyn_startSongTime();
     // Get instance field reference: public readonly System.Single songTimeOffset
-    float& dyn_songTimeOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_songTimeOffset();
     // Get instance field reference: public readonly System.Single timeScale
-    float& dyn_timeScale();
+    [[deprecated("Use field access instead!")]] float& dyn_timeScale();
     // public System.Void .ctor(UnityEngine.AudioClip audioClip, System.Single startSongTime, System.Single songTimeOffset, System.Single timeScale)
-    // Offset: 0x1399088
+    // Offset: 0x1395534
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalInactivePlayerSongSyncController::InitData* New_ctor(::UnityEngine::AudioClip* audioClip, float startSongTime, float songTimeOffset, float timeScale) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData::.ctor");

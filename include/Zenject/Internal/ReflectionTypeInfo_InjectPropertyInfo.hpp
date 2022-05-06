@@ -36,15 +36,7 @@ namespace Zenject::Internal {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class ReflectionTypeInfo::InjectPropertyInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Reflection.PropertyInfo PropertyInfo
     // Size: 0x8
     // Offset: 0x10
@@ -59,11 +51,11 @@ namespace Zenject::Internal {
     static_assert(sizeof(::Zenject::InjectableInfo*) == 0x8);
     public:
     // Get instance field reference: public readonly System.Reflection.PropertyInfo PropertyInfo
-    ::System::Reflection::PropertyInfo*& dyn_PropertyInfo();
+    [[deprecated("Use field access instead!")]] ::System::Reflection::PropertyInfo*& dyn_PropertyInfo();
     // Get instance field reference: public readonly Zenject.InjectableInfo InjectableInfo
-    ::Zenject::InjectableInfo*& dyn_InjectableInfo();
+    [[deprecated("Use field access instead!")]] ::Zenject::InjectableInfo*& dyn_InjectableInfo();
     // public System.Void .ctor(System.Reflection.PropertyInfo propertyInfo, Zenject.InjectableInfo injectableInfo)
-    // Offset: 0x1BD5D50
+    // Offset: 0x1C10338
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionTypeInfo::InjectPropertyInfo* New_ctor(::System::Reflection::PropertyInfo* propertyInfo, ::Zenject::InjectableInfo* injectableInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo::.ctor");

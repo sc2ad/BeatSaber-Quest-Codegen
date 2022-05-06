@@ -70,17 +70,17 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Boolean bFingerDown
-    bool& dyn_bFingerDown();
+    [[deprecated("Use field access instead!")]] bool& dyn_bFingerDown();
     // Get instance field reference: public System.Single flSecondsFingerDown
-    float& dyn_flSecondsFingerDown();
+    [[deprecated("Use field access instead!")]] float& dyn_flSecondsFingerDown();
     // Get instance field reference: public System.Single fValueXFirst
-    float& dyn_fValueXFirst();
+    [[deprecated("Use field access instead!")]] float& dyn_fValueXFirst();
     // Get instance field reference: public System.Single fValueYFirst
-    float& dyn_fValueYFirst();
+    [[deprecated("Use field access instead!")]] float& dyn_fValueYFirst();
     // Get instance field reference: public System.Single fValueXRaw
-    float& dyn_fValueXRaw();
+    [[deprecated("Use field access instead!")]] float& dyn_fValueXRaw();
     // Get instance field reference: public System.Single fValueYRaw
-    float& dyn_fValueYRaw();
+    [[deprecated("Use field access instead!")]] float& dyn_fValueYRaw();
   }; // Valve.VR.VREvent_TouchPadMove_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_TouchPadMove_t), 20 + sizeof(float)> __Valve_VR_VREvent_TouchPadMove_tSizeCheck;

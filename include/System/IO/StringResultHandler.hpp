@@ -35,15 +35,7 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class StringResultHandler : public ::System::IO::SearchResultHandler_1<::StringW> {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean _includeFiles
     // Size: 0x1
     // Offset: 0x10
@@ -58,21 +50,21 @@ namespace System::IO {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Boolean _includeFiles
-    bool& dyn__includeFiles();
+    [[deprecated("Use field access instead!")]] bool& dyn__includeFiles();
     // Get instance field reference: private System.Boolean _includeDirs
-    bool& dyn__includeDirs();
+    [[deprecated("Use field access instead!")]] bool& dyn__includeDirs();
     // System.Void .ctor(System.Boolean includeFiles, System.Boolean includeDirs)
-    // Offset: 0x1B8C1F4
+    // Offset: 0x1BC67DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringResultHandler* New_ctor(bool includeFiles, bool includeDirs) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::StringResultHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringResultHandler*, creationType>(includeFiles, includeDirs)));
     }
     // System.String CreateObject(System.IO.SearchResult result)
-    // Offset: 0x1B8C2D8
+    // Offset: 0x1BC68C0
     ::StringW CreateObject(::System::IO::SearchResult* result);
     // override System.Boolean IsResultIncluded(System.IO.SearchResult result)
-    // Offset: 0x1B8C268
+    // Offset: 0x1BC6850
     // Implemented from: System.IO.SearchResultHandler`1
     // Base method: System.Boolean SearchResultHandler_1::IsResultIncluded(System.IO.SearchResult result)
     bool IsResultIncluded(::System::IO::SearchResult* result);

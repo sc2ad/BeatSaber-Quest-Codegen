@@ -84,20 +84,12 @@ namespace GlobalNamespace {
       // Set static field: static public FormattedFloatListSettingsValueController/ValueType InvertedNormalized
       static void _set_InvertedNormalized(::GlobalNamespace::FormattedFloatListSettingsValueController::ValueType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // FormattedFloatListSettingsValueController/ValueType
     #pragma pack(pop)
     static check_size<sizeof(FormattedFloatListSettingsValueController::ValueType), 0 + sizeof(int)> __GlobalNamespace_FormattedFloatListSettingsValueController_ValueTypeSizeCheck;
     static_assert(sizeof(FormattedFloatListSettingsValueController::ValueType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private FloatSO _settingsValue
     // Size: 0x8
     // Offset: 0x28
@@ -136,44 +128,39 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private FloatSO _settingsValue
-    ::GlobalNamespace::FloatSO*& dyn__settingsValue();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FloatSO*& dyn__settingsValue();
     // Get instance field reference: private System.Single[] _values
-    ::ArrayW<float>& dyn__values();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn__values();
     // Get instance field reference: private System.String _formattingString
-    ::StringW& dyn__formattingString();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__formattingString();
     // Get instance field reference: private FormattedFloatListSettingsValueController/ValueType valueType
-    ::GlobalNamespace::FormattedFloatListSettingsValueController::ValueType& dyn_valueType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FormattedFloatListSettingsValueController::ValueType& dyn_valueType();
     // Get instance field reference: private System.Single _min
-    float& dyn__min();
+    [[deprecated("Use field access instead!")]] float& dyn__min();
     // Get instance field reference: private System.Single _max
-    float& dyn__max();
+    [[deprecated("Use field access instead!")]] float& dyn__max();
     // public System.Void .ctor()
-    // Offset: 0x1392CD8
+    // Offset: 0x137A7EC
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FormattedFloatListSettingsValueController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FormattedFloatListSettingsValueController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FormattedFloatListSettingsValueController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x1392A38
+    // Offset: 0x137A54C
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x1392B60
+    // Offset: 0x137A674
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x1392BEC
+    // Offset: 0x137A700
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::StringW TextForValue(int idx);

@@ -37,16 +37,8 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x1253414
+    // [InjectAttribute] Offset: 0x10D7FF8
     // private readonly ComboController _comboController
     // Size: 0x8
     // Offset: 0x48
@@ -55,29 +47,24 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::ComboController*) == 0x8);
     public:
     // Get instance field reference: private readonly ComboController _comboController
-    ::GlobalNamespace::ComboController*& dyn__comboController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ComboController*& dyn__comboController();
     // protected System.Void OnDestroy()
-    // Offset: 0x13931D8
+    // Offset: 0x137ACEC
     void OnDestroy();
     // private System.Void HandleComboBreakingEventHappened()
-    // Offset: 0x13932AC
+    // Offset: 0x137ADC0
     void HandleComboBreakingEventHappened();
     // public System.Void .ctor()
-    // Offset: 0x13932B8
+    // Offset: 0x137ADCC
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FullComboMissionObjectiveChecker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FullComboMissionObjectiveChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FullComboMissionObjectiveChecker*, creationType>()));
     }
     // protected override System.Void Init()
-    // Offset: 0x1393100
+    // Offset: 0x137AC14
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();

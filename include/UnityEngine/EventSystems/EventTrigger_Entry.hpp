@@ -25,15 +25,7 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class EventTrigger::Entry : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.EventSystems.EventTriggerType eventID
     // Size: 0x4
     // Offset: 0x10
@@ -50,13 +42,11 @@ namespace UnityEngine::EventSystems {
     static_assert(sizeof(::UnityEngine::EventSystems::EventTrigger::TriggerEvent*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.EventSystems.EventTriggerType eventID
-    ::UnityEngine::EventSystems::EventTriggerType& dyn_eventID();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::EventSystems::EventTriggerType& dyn_eventID();
     // Get instance field reference: public UnityEngine.EventSystems.EventTrigger/UnityEngine.EventSystems.TriggerEvent callback
-    ::UnityEngine::EventSystems::EventTrigger::TriggerEvent*& dyn_callback();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::EventSystems::EventTrigger::TriggerEvent*& dyn_callback();
     // public System.Void .ctor()
-    // Offset: 0x18F4EB8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x192E7C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventTrigger::Entry* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::EventTrigger::Entry::.ctor");

@@ -85,7 +85,7 @@ namespace System::Runtime::InteropServices {
     // Set static field: static public System.Runtime.InteropServices.DllImportSearchPath LegacyBehavior
     static void _set_LegacyBehavior(::System::Runtime::InteropServices::DllImportSearchPath value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Runtime.InteropServices.DllImportSearchPath
   #pragma pack(pop)
   static check_size<sizeof(DllImportSearchPath), 0 + sizeof(int)> __System_Runtime_InteropServices_DllImportSearchPathSizeCheck;

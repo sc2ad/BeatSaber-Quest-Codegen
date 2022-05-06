@@ -28,15 +28,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class MicrophoneAvailabilityState : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Boolean MicrophoneAvailable
     // Size: 0x1
     // Offset: 0x10
@@ -49,9 +41,9 @@ namespace Oculus::Platform::Models {
       return MicrophoneAvailable;
     }
     // Get instance field reference: public readonly System.Boolean MicrophoneAvailable
-    bool& dyn_MicrophoneAvailable();
+    [[deprecated("Use field access instead!")]] bool& dyn_MicrophoneAvailable();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19AFFCC
+    // Offset: 0x19E95B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MicrophoneAvailabilityState* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::MicrophoneAvailabilityState::.ctor");

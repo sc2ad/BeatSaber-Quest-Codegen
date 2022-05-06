@@ -25,15 +25,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRInput::OVRControllerBase::VirtualAxis2DMap : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public OVRInput/RawAxis2D None
     // Size: 0x4
     // Offset: 0x10
@@ -66,33 +58,35 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::OVRInput::RawAxis2D) == 0x4);
     public:
     // Get instance field reference: public OVRInput/RawAxis2D None
-    ::GlobalNamespace::OVRInput::RawAxis2D& dyn_None();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRInput::RawAxis2D& dyn_None();
     // Get instance field reference: public OVRInput/RawAxis2D PrimaryThumbstick
-    ::GlobalNamespace::OVRInput::RawAxis2D& dyn_PrimaryThumbstick();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRInput::RawAxis2D& dyn_PrimaryThumbstick();
     // Get instance field reference: public OVRInput/RawAxis2D PrimaryTouchpad
-    ::GlobalNamespace::OVRInput::RawAxis2D& dyn_PrimaryTouchpad();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRInput::RawAxis2D& dyn_PrimaryTouchpad();
     // Get instance field reference: public OVRInput/RawAxis2D SecondaryThumbstick
-    ::GlobalNamespace::OVRInput::RawAxis2D& dyn_SecondaryThumbstick();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRInput::RawAxis2D& dyn_SecondaryThumbstick();
     // Get instance field reference: public OVRInput/RawAxis2D SecondaryTouchpad
-    ::GlobalNamespace::OVRInput::RawAxis2D& dyn_SecondaryTouchpad();
-    // public OVRInput/RawAxis2D ToRawMask(OVRInput/Axis2D virtualMask)
-    // Offset: 0x19C3778
-    ::GlobalNamespace::OVRInput::RawAxis2D ToRawMask(::GlobalNamespace::OVRInput::Axis2D virtualMask);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRInput::RawAxis2D& dyn_SecondaryTouchpad();
     // public System.Void .ctor()
-    // Offset: 0x19C2944
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x19FBF2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRInput::OVRControllerBase::VirtualAxis2DMap* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRInput::OVRControllerBase::VirtualAxis2DMap*, creationType>()));
     }
+    // public OVRInput/RawAxis2D ToRawMask(OVRInput/Axis2D virtualMask)
+    // Offset: 0x19FCD60
+    ::GlobalNamespace::OVRInput::RawAxis2D ToRawMask(::GlobalNamespace::OVRInput::Axis2D virtualMask);
   }; // OVRInput/OVRControllerBase/VirtualAxis2DMap
   #pragma pack(pop)
   static check_size<sizeof(OVRInput::OVRControllerBase::VirtualAxis2DMap), 32 + sizeof(::GlobalNamespace::OVRInput::RawAxis2D)> __GlobalNamespace_OVRInput_OVRControllerBase_VirtualAxis2DMapSizeCheck;
   static_assert(sizeof(OVRInput::OVRControllerBase::VirtualAxis2DMap) == 0x24);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap::ToRawMask
 // Il2CppName: ToRawMask
 template<>
@@ -102,7 +96,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap*), "ToRawMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

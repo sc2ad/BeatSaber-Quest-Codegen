@@ -40,15 +40,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ControllersTransformSettingsViewController : public ::HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Vector3SO _controllerPosition
     // Size: 0x8
     // Offset: 0x70
@@ -61,7 +53,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::Vector3SO* controllerRotation;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Vector3SO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125AA68
+    // [SpaceAttribute] Offset: 0x10DF64C
     // private HMUI.RangeValuesTextSlider _posXSlider
     // Size: 0x8
     // Offset: 0x80
@@ -118,48 +110,41 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kRotationStep
     static void _set_kRotationStep(float value);
     // Get instance field reference: private Vector3SO _controllerPosition
-    ::GlobalNamespace::Vector3SO*& dyn__controllerPosition();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3SO*& dyn__controllerPosition();
     // Get instance field reference: private Vector3SO _controllerRotation
-    ::GlobalNamespace::Vector3SO*& dyn__controllerRotation();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3SO*& dyn__controllerRotation();
     // Get instance field reference: private HMUI.RangeValuesTextSlider _posXSlider
-    ::HMUI::RangeValuesTextSlider*& dyn__posXSlider();
+    [[deprecated("Use field access instead!")]] ::HMUI::RangeValuesTextSlider*& dyn__posXSlider();
     // Get instance field reference: private HMUI.RangeValuesTextSlider _posYSlider
-    ::HMUI::RangeValuesTextSlider*& dyn__posYSlider();
+    [[deprecated("Use field access instead!")]] ::HMUI::RangeValuesTextSlider*& dyn__posYSlider();
     // Get instance field reference: private HMUI.RangeValuesTextSlider _posZSlider
-    ::HMUI::RangeValuesTextSlider*& dyn__posZSlider();
+    [[deprecated("Use field access instead!")]] ::HMUI::RangeValuesTextSlider*& dyn__posZSlider();
     // Get instance field reference: private HMUI.RangeValuesTextSlider _rotXSlider
-    ::HMUI::RangeValuesTextSlider*& dyn__rotXSlider();
+    [[deprecated("Use field access instead!")]] ::HMUI::RangeValuesTextSlider*& dyn__rotXSlider();
     // Get instance field reference: private HMUI.RangeValuesTextSlider _rotYSlider
-    ::HMUI::RangeValuesTextSlider*& dyn__rotYSlider();
+    [[deprecated("Use field access instead!")]] ::HMUI::RangeValuesTextSlider*& dyn__rotYSlider();
     // Get instance field reference: private HMUI.RangeValuesTextSlider _rotZSlider
-    ::HMUI::RangeValuesTextSlider*& dyn__rotZSlider();
-    // private System.Void HandlePositionSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0x1406634
-    void HandlePositionSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float value);
-    // private System.Void HandleRotationSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0x1406710
-    void HandleRotationSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float value);
+    [[deprecated("Use field access instead!")]] ::HMUI::RangeValuesTextSlider*& dyn__rotZSlider();
     // public System.Void .ctor()
-    // Offset: 0x14067E0
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x142658C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ControllersTransformSettingsViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ControllersTransformSettingsViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ControllersTransformSettingsViewController*, creationType>()));
     }
+    // private System.Void HandlePositionSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
+    // Offset: 0x14263E0
+    void HandlePositionSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float value);
+    // private System.Void HandleRotationSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
+    // Offset: 0x14264BC
+    void HandleRotationSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float value);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1405E98
+    // Offset: 0x1425C44
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1406308
+    // Offset: 0x14260B4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
@@ -169,6 +154,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(ControllersTransformSettingsViewController) == 0xB0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ControllersTransformSettingsViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ControllersTransformSettingsViewController::HandlePositionSliderValueDidChange
 // Il2CppName: HandlePositionSliderValueDidChange
 template<>
@@ -189,10 +178,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ControllersTransformSettingsViewController*), "HandleRotationSliderValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{slider, value});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ControllersTransformSettingsViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ControllersTransformSettingsViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

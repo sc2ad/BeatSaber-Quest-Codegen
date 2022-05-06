@@ -35,15 +35,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_Collider : public ::Il2CppObject/*, public ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Collider*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Collider self
     // Size: 0x8
     // Offset: 0x10
@@ -60,19 +52,19 @@ namespace HoudiniEngineUnity {
       return self;
     }
     // Get instance field reference: public UnityEngine.Collider self
-    ::UnityEngine::Collider*& dyn_self();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Collider*& dyn_self();
     // public System.Void .ctor(UnityEngine.Collider self)
-    // Offset: 0x19E26CC
+    // Offset: 0x1A1BCB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_Collider* New_ctor(::UnityEngine::Collider* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_Collider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_Collider*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x19E26F8
+    // Offset: 0x1A1BCE0
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_Collider other)
-    // Offset: 0x19E2768
+    // Offset: 0x1A1BD50
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_Collider* other);
   }; // HoudiniEngineUnity.Test_Collider
   #pragma pack(pop)

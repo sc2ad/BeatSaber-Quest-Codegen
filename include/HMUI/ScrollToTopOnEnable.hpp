@@ -35,15 +35,7 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScrollToTopOnEnable : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.ScrollView _scrollView
     // Size: 0x8
     // Offset: 0x18
@@ -54,29 +46,27 @@ namespace HMUI {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.ScrollView _scrollView
-    ::HMUI::ScrollView*& dyn__scrollView();
-    // protected System.Void OnEnable()
-    // Offset: 0x168855C
-    void OnEnable();
+    [[deprecated("Use field access instead!")]] ::HMUI::ScrollView*& dyn__scrollView();
     // public System.Void .ctor()
-    // Offset: 0x16886B4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16BEFC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScrollToTopOnEnable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ScrollToTopOnEnable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScrollToTopOnEnable*, creationType>()));
     }
+    // protected System.Void OnEnable()
+    // Offset: 0x16BEE6C
+    void OnEnable();
   }; // HMUI.ScrollToTopOnEnable
   #pragma pack(pop)
   static check_size<sizeof(ScrollToTopOnEnable), 24 + sizeof(::HMUI::ScrollView*)> __HMUI_ScrollToTopOnEnableSizeCheck;
   static_assert(sizeof(ScrollToTopOnEnable) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HMUI::ScrollToTopOnEnable::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::ScrollToTopOnEnable::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -85,7 +75,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollToTopOnEnable*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HMUI::ScrollToTopOnEnable::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

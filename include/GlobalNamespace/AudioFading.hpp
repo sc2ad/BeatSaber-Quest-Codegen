@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AudioFading : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.AudioSource _audioSource
     // Size: 0x8
     // Offset: 0x18
@@ -74,44 +66,42 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AudioSource _audioSource
-    ::UnityEngine::AudioSource*& dyn__audioSource();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioSource*& dyn__audioSource();
     // Get instance field reference: private System.Single _smooth
-    float& dyn__smooth();
+    [[deprecated("Use field access instead!")]] float& dyn__smooth();
     // Get instance field reference: private System.Boolean _fadeInOnStart
-    bool& dyn__fadeInOnStart();
+    [[deprecated("Use field access instead!")]] bool& dyn__fadeInOnStart();
     // Get instance field reference: private System.Single _targetVolume
-    float& dyn__targetVolume();
-    // protected System.Void Start()
-    // Offset: 0x14B8F14
-    void Start();
-    // protected System.Void Update()
-    // Offset: 0x14B8FB0
-    void Update();
-    // public System.Void FadeOut()
-    // Offset: 0x14B90F0
-    void FadeOut();
-    // public System.Void FadeIn()
-    // Offset: 0x14B8F80
-    void FadeIn();
+    [[deprecated("Use field access instead!")]] float& dyn__targetVolume();
     // public System.Void .ctor()
-    // Offset: 0x14B911C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14F09D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioFading* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AudioFading::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioFading*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x14F07CC
+    void Start();
+    // protected System.Void Update()
+    // Offset: 0x14F0868
+    void Update();
+    // public System.Void FadeOut()
+    // Offset: 0x14F09A8
+    void FadeOut();
+    // public System.Void FadeIn()
+    // Offset: 0x14F0838
+    void FadeIn();
   }; // AudioFading
   #pragma pack(pop)
   static check_size<sizeof(AudioFading), 40 + sizeof(float)> __GlobalNamespace_AudioFadingSizeCheck;
   static_assert(sizeof(AudioFading) == 0x2C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::AudioFading::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AudioFading::Start
 // Il2CppName: Start
 template<>
@@ -144,7 +134,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioFading*), "FadeIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AudioFading::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

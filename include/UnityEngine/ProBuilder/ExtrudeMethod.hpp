@@ -60,7 +60,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.ExtrudeMethod FaceNormal
     static void _set_FaceNormal(::UnityEngine::ProBuilder::ExtrudeMethod value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.ProBuilder.ExtrudeMethod
   #pragma pack(pop)
   static check_size<sizeof(ExtrudeMethod), 0 + sizeof(int)> __UnityEngine_ProBuilder_ExtrudeMethodSizeCheck;

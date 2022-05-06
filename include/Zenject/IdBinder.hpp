@@ -34,15 +34,7 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class IdBinder : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Zenject.BindInfo _bindInfo
     // Size: 0x8
     // Offset: 0x10
@@ -55,16 +47,16 @@ namespace Zenject {
       return bindInfo;
     }
     // Get instance field reference: private Zenject.BindInfo _bindInfo
-    ::Zenject::BindInfo*& dyn__bindInfo();
+    [[deprecated("Use field access instead!")]] ::Zenject::BindInfo*& dyn__bindInfo();
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x1DEDFAC
+    // Offset: 0x1E28878
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IdBinder* New_ctor(::Zenject::BindInfo* bindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IdBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IdBinder*, creationType>(bindInfo)));
     }
     // public System.Void WithId(System.Object identifier)
-    // Offset: 0x1DEDFD8
+    // Offset: 0x1E288A4
     void WithId(::Il2CppObject* identifier);
   }; // Zenject.IdBinder
   #pragma pack(pop)

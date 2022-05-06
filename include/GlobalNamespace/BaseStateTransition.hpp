@@ -42,15 +42,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseStateTransition : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected SelectableStateController _selectableStateController
     // Size: 0x8
     // Offset: 0x18
@@ -61,74 +53,68 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: protected SelectableStateController _selectableStateController
-    ::GlobalNamespace::SelectableStateController*& dyn__selectableStateController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SelectableStateController*& dyn__selectableStateController();
     // protected Tweening.TimeTweeningManager get_tweeningManager()
-    // Offset: 0x1360898
+    // Offset: 0x1348B18
     ::Tweening::TimeTweeningManager* get_tweeningManager();
     // protected BaseTransitionSO get_transition()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::BaseTransitionSO* get_transition();
-    // public System.Void SetState(SelectableStateController/ViewState viewState)
-    // Offset: 0x13608B4
-    void SetState(::GlobalNamespace::SelectableStateController::ViewState viewState);
-    // protected System.Void OnEnable()
-    // Offset: 0x136092C
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x13609C0
-    void OnDisable();
-    // private System.Void HandleSelectableStateControllerStateDidChange(SelectableStateController/ViewState state, System.Boolean animated)
-    // Offset: 0x1360A54
-    void HandleSelectableStateControllerStateDidChange(::GlobalNamespace::SelectableStateController::ViewState state, bool animated);
-    // protected System.Void TransitionToNormalState()
-    // Offset: 0x1360ABC
-    void TransitionToNormalState();
-    // protected System.Void TransitionToHighlightedState()
-    // Offset: 0x1360AC0
-    void TransitionToHighlightedState();
-    // protected System.Void TransitionToPressedState()
-    // Offset: 0x1360AC4
-    void TransitionToPressedState();
-    // protected System.Void TransitionToDisabledState()
-    // Offset: 0x1360AC8
-    void TransitionToDisabledState();
-    // protected System.Void TransitionToSelectedState()
-    // Offset: 0x1360ACC
-    void TransitionToSelectedState();
-    // protected System.Void TransitionToSelectedAndHighlightedState()
-    // Offset: 0x1360AD0
-    void TransitionToSelectedAndHighlightedState();
-    // protected System.Void SetNormalState()
-    // Offset: 0x1360AD4
-    void SetNormalState();
-    // protected System.Void SetHighlightedState()
-    // Offset: 0x1360AD8
-    void SetHighlightedState();
-    // protected System.Void SetPressedState()
-    // Offset: 0x1360ADC
-    void SetPressedState();
-    // protected System.Void SetDisabledState()
-    // Offset: 0x1360AE0
-    void SetDisabledState();
-    // protected System.Void SetSelectedState()
-    // Offset: 0x1360AE4
-    void SetSelectedState();
-    // protected System.Void SetSelectedAndHighlightedState()
-    // Offset: 0x1360AE8
-    void SetSelectedAndHighlightedState();
     // protected System.Void .ctor()
-    // Offset: 0x1360AEC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1348D6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseStateTransition* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BaseStateTransition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseStateTransition*, creationType>()));
     }
+    // public System.Void SetState(SelectableStateController/ViewState viewState)
+    // Offset: 0x1348B34
+    void SetState(::GlobalNamespace::SelectableStateController::ViewState viewState);
+    // protected System.Void OnEnable()
+    // Offset: 0x1348BAC
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x1348C40
+    void OnDisable();
+    // private System.Void HandleSelectableStateControllerStateDidChange(SelectableStateController/ViewState state, System.Boolean animated)
+    // Offset: 0x1348CD4
+    void HandleSelectableStateControllerStateDidChange(::GlobalNamespace::SelectableStateController::ViewState state, bool animated);
+    // protected System.Void TransitionToNormalState()
+    // Offset: 0x1348D3C
+    void TransitionToNormalState();
+    // protected System.Void TransitionToHighlightedState()
+    // Offset: 0x1348D40
+    void TransitionToHighlightedState();
+    // protected System.Void TransitionToPressedState()
+    // Offset: 0x1348D44
+    void TransitionToPressedState();
+    // protected System.Void TransitionToDisabledState()
+    // Offset: 0x1348D48
+    void TransitionToDisabledState();
+    // protected System.Void TransitionToSelectedState()
+    // Offset: 0x1348D4C
+    void TransitionToSelectedState();
+    // protected System.Void TransitionToSelectedAndHighlightedState()
+    // Offset: 0x1348D50
+    void TransitionToSelectedAndHighlightedState();
+    // protected System.Void SetNormalState()
+    // Offset: 0x1348D54
+    void SetNormalState();
+    // protected System.Void SetHighlightedState()
+    // Offset: 0x1348D58
+    void SetHighlightedState();
+    // protected System.Void SetPressedState()
+    // Offset: 0x1348D5C
+    void SetPressedState();
+    // protected System.Void SetDisabledState()
+    // Offset: 0x1348D60
+    void SetDisabledState();
+    // protected System.Void SetSelectedState()
+    // Offset: 0x1348D64
+    void SetSelectedState();
+    // protected System.Void SetSelectedAndHighlightedState()
+    // Offset: 0x1348D68
+    void SetSelectedAndHighlightedState();
   }; // BaseStateTransition
   #pragma pack(pop)
   static check_size<sizeof(BaseStateTransition), 24 + sizeof(::GlobalNamespace::SelectableStateController*)> __GlobalNamespace_BaseStateTransitionSizeCheck;
@@ -151,6 +137,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseStateTransition*), "get_transition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BaseStateTransition::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BaseStateTransition::SetState
 // Il2CppName: SetState
 template<>
@@ -282,7 +272,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseStateTransition*), "SetSelectedAndHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BaseStateTransition::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

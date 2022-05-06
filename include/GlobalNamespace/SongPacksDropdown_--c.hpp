@@ -42,20 +42,18 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.String,System.String> <>9__7_0
     static void _set_$$9__7_0(::System::Func_2<::StringW, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2AA6D94
+    // Offset: 0x138D9B8
     static void _cctor();
-    // System.String <LazyInit>b__7_0(System.String serializedName)
-    // Offset: 0x2AA6E00
-    ::StringW $LazyInit$b__7_0(::StringW serializedName);
     // public System.Void .ctor()
-    // Offset: 0x2AA6DF8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x138DA1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPacksDropdown::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongPacksDropdown::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongPacksDropdown::$$c*, creationType>()));
     }
+    // System.String <LazyInit>b__7_0(System.String serializedName)
+    // Offset: 0x138DA24
+    ::StringW $LazyInit$b__7_0(::StringW serializedName);
   }; // SongPacksDropdown/<>c
   #pragma pack(pop)
 }
@@ -68,6 +66,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPacksDropdown::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SongPacksDropdown::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SongPacksDropdown::$$c::$LazyInit$b__7_0
 // Il2CppName: <LazyInit>b__7_0
 template<>
@@ -77,7 +79,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPacksDropdown::$$c*), "<LazyInit>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serializedName});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SongPacksDropdown::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

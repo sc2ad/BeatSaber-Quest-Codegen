@@ -37,15 +37,7 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class TableView::CellsGroup : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _reuseIdentifier
     // Size: 0x8
     // Offset: 0x10
@@ -60,19 +52,17 @@ namespace HMUI {
     static_assert(sizeof(::System::Collections::Generic::List_1<::HMUI::TableCell*>*) == 0x8);
     public:
     // Get instance field reference: private System.String _reuseIdentifier
-    ::StringW& dyn__reuseIdentifier();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__reuseIdentifier();
     // Get instance field reference: private System.Collections.Generic.List`1<HMUI.TableCell> _cells
-    ::System::Collections::Generic::List_1<::HMUI::TableCell*>*& dyn__cells();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HMUI::TableCell*>*& dyn__cells();
     // public System.String get_reuseIdentifier()
-    // Offset: 0x16924D8
+    // Offset: 0x16C8DE8
     ::StringW get_reuseIdentifier();
     // public System.Collections.Generic.List`1<HMUI.TableCell> get_cells()
-    // Offset: 0x16924E0
+    // Offset: 0x16C8DF0
     ::System::Collections::Generic::List_1<::HMUI::TableCell*>* get_cells();
     // public System.Void .ctor()
-    // Offset: 0x16924E8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16C8DF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TableView::CellsGroup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::TableView::CellsGroup::.ctor");

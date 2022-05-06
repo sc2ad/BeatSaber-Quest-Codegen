@@ -33,15 +33,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalDataStoreHolder : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.LocalDataStore m_Store
     // Size: 0x8
     // Offset: 0x10
@@ -54,19 +46,19 @@ namespace System {
       return m_Store;
     }
     // Get instance field reference: private System.LocalDataStore m_Store
-    ::System::LocalDataStore*& dyn_m_Store();
+    [[deprecated("Use field access instead!")]] ::System::LocalDataStore*& dyn_m_Store();
     // public System.LocalDataStore get_Store()
-    // Offset: 0x1B95154
+    // Offset: 0x1BCF73C
     ::System::LocalDataStore* get_Store();
     // public System.Void .ctor(System.LocalDataStore store)
-    // Offset: 0x1B950B8
+    // Offset: 0x1BCF6A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalDataStoreHolder* New_ctor(::System::LocalDataStore* store) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::LocalDataStoreHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalDataStoreHolder*, creationType>(store)));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1B950E4
+    // Offset: 0x1BCF6CC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

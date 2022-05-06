@@ -29,15 +29,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class UserProof : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.String Value
     // Size: 0x8
     // Offset: 0x10
@@ -50,9 +42,9 @@ namespace Oculus::Platform::Models {
       return Value;
     }
     // Get instance field reference: public readonly System.String Value
-    ::StringW& dyn_Value();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Value();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x2A22DD4
+    // Offset: 0x2A791BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserProof* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::UserProof::.ctor");

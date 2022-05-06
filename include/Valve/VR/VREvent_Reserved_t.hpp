@@ -45,9 +45,9 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt64 reserved0
-    uint64_t& dyn_reserved0();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_reserved0();
     // Get instance field reference: public System.UInt64 reserved1
-    uint64_t& dyn_reserved1();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_reserved1();
   }; // Valve.VR.VREvent_Reserved_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Reserved_t), 8 + sizeof(uint64_t)> __Valve_VR_VREvent_Reserved_tSizeCheck;

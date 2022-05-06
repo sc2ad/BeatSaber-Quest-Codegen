@@ -41,16 +41,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassDoubleKawaseBlurTextureEffectSO : public ::GlobalNamespace::BloomPrePassEffectSO {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [SpaceAttribute] Offset: 0x1242A9C
+    // [SpaceAttribute] Offset: 0x10C7584
     // private KawaseBlurRendererSO/KernelSize _bloom1KernelSize
     // Size: 0x4
     // Offset: 0x2C
@@ -95,7 +87,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: gammaCorrection and: kawaseBlurRenderer
     char __padding6[0x3] = {};
-    // [SpaceAttribute] Offset: 0x1242B34
+    // [SpaceAttribute] Offset: 0x10C761C
     // private KawaseBlurRendererSO _kawaseBlurRenderer
     // Size: 0x8
     // Offset: 0x48
@@ -104,37 +96,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::KawaseBlurRendererSO*) == 0x8);
     public:
     // Get instance field reference: private KawaseBlurRendererSO/KernelSize _bloom1KernelSize
-    ::GlobalNamespace::KawaseBlurRendererSO::KernelSize& dyn__bloom1KernelSize();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::KawaseBlurRendererSO::KernelSize& dyn__bloom1KernelSize();
     // Get instance field reference: private System.Single _bloom1Boost
-    float& dyn__bloom1Boost();
+    [[deprecated("Use field access instead!")]] float& dyn__bloom1Boost();
     // Get instance field reference: private KawaseBlurRendererSO/KernelSize _bloom2KernelSize
-    ::GlobalNamespace::KawaseBlurRendererSO::KernelSize& dyn__bloom2KernelSize();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::KawaseBlurRendererSO::KernelSize& dyn__bloom2KernelSize();
     // Get instance field reference: private System.Single _bloom2Boost
-    float& dyn__bloom2Boost();
+    [[deprecated("Use field access instead!")]] float& dyn__bloom2Boost();
     // Get instance field reference: private System.Single _bloom2Alpha
-    float& dyn__bloom2Alpha();
+    [[deprecated("Use field access instead!")]] float& dyn__bloom2Alpha();
     // Get instance field reference: private System.Int32 _downsample
-    int& dyn__downsample();
+    [[deprecated("Use field access instead!")]] int& dyn__downsample();
     // Get instance field reference: private System.Boolean _gammaCorrection
-    bool& dyn__gammaCorrection();
+    [[deprecated("Use field access instead!")]] bool& dyn__gammaCorrection();
     // Get instance field reference: private KawaseBlurRendererSO _kawaseBlurRenderer
-    ::GlobalNamespace::KawaseBlurRendererSO*& dyn__kawaseBlurRenderer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::KawaseBlurRendererSO*& dyn__kawaseBlurRenderer();
     // public System.Void .ctor()
-    // Offset: 0x29E65F0
-    // Implemented from: BloomPrePassEffectSO
-    // Base method: System.Void BloomPrePassEffectSO::.ctor()
-    // Base method: System.Void TextureEffectSO::.ctor()
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A3CEE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassDoubleKawaseBlurTextureEffectSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassDoubleKawaseBlurTextureEffectSO*, creationType>()));
     }
     // public override System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x29E65B8
+    // Offset: 0x2A3CEAC
     // Implemented from: TextureEffectSO
     // Base method: System.Void TextureEffectSO::Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
     void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);

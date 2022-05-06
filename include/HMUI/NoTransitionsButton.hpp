@@ -91,20 +91,12 @@ namespace HMUI {
       // Set static field: static public HMUI.NoTransitionsButton/HMUI.SelectionState Disabled
       static void _set_Disabled(::HMUI::NoTransitionsButton::SelectionState value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // HMUI.NoTransitionsButton/HMUI.SelectionState
     #pragma pack(pop)
     static check_size<sizeof(NoTransitionsButton::SelectionState), 0 + sizeof(int)> __HMUI_NoTransitionsButton_SelectionStateSizeCheck;
     static_assert(sizeof(NoTransitionsButton::SelectionState) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Action`1<HMUI.NoTransitionsButton/HMUI.SelectionState> selectionStateDidChangeEvent
     // Size: 0x8
     // Offset: 0x100
@@ -119,36 +111,27 @@ namespace HMUI {
     static_assert(sizeof(::HMUI::NoTransitionsButton::SelectionState) == 0x4);
     public:
     // Get instance field reference: private System.Action`1<HMUI.NoTransitionsButton/HMUI.SelectionState> selectionStateDidChangeEvent
-    ::System::Action_1<::HMUI::NoTransitionsButton::SelectionState>*& dyn_selectionStateDidChangeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::HMUI::NoTransitionsButton::SelectionState>*& dyn_selectionStateDidChangeEvent();
     // Get instance field reference: private HMUI.NoTransitionsButton/HMUI.SelectionState _selectionState
-    ::HMUI::NoTransitionsButton::SelectionState& dyn__selectionState();
+    [[deprecated("Use field access instead!")]] ::HMUI::NoTransitionsButton::SelectionState& dyn__selectionState();
     // public HMUI.NoTransitionsButton/HMUI.SelectionState get_selectionState()
-    // Offset: 0x1685E38
+    // Offset: 0x16BC748
     ::HMUI::NoTransitionsButton::SelectionState get_selectionState();
     // public System.Void add_selectionStateDidChangeEvent(System.Action`1<HMUI.NoTransitionsButton/HMUI.SelectionState> value)
-    // Offset: 0x1685E40
+    // Offset: 0x16BC750
     void add_selectionStateDidChangeEvent(::System::Action_1<::HMUI::NoTransitionsButton::SelectionState>* value);
     // public System.Void remove_selectionStateDidChangeEvent(System.Action`1<HMUI.NoTransitionsButton/HMUI.SelectionState> value)
-    // Offset: 0x1685EE8
+    // Offset: 0x16BC7F8
     void remove_selectionStateDidChangeEvent(::System::Action_1<::HMUI::NoTransitionsButton::SelectionState>* value);
     // public System.Void .ctor()
-    // Offset: 0x1686024
-    // Implemented from: UnityEngine.UI.Button
-    // Base method: System.Void Button::.ctor()
-    // Base method: System.Void Selectable::.ctor()
-    // Base method: System.Void UIBehaviour::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16BC934
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoTransitionsButton* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::NoTransitionsButton::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoTransitionsButton*, creationType>()));
     }
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
-    // Offset: 0x1685F90
+    // Offset: 0x16BC8A0
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
     void DoStateTransition(::UnityEngine::UI::Selectable::SelectionState state, bool instant);

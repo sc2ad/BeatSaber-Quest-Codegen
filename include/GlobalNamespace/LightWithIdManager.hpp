@@ -54,15 +54,7 @@ namespace GlobalNamespace {
   // [ExecuteAlways] Offset: FFFFFFFF
   class LightWithIdManager : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Action didChangeSomeColorsThisFrameEvent
     // Size: 0x8
     // Offset: 0x18
@@ -103,55 +95,49 @@ namespace GlobalNamespace {
     // Set static field: static public System.Int32 kMaxLightId
     static void _set_kMaxLightId(int value);
     // Get instance field reference: private System.Action didChangeSomeColorsThisFrameEvent
-    ::System::Action*& dyn_didChangeSomeColorsThisFrameEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didChangeSomeColorsThisFrameEvent();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<ILightWithId>[] _lights
-    ::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*>& dyn__lights();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*>& dyn__lights();
     // Get instance field reference: private readonly System.Nullable`1<UnityEngine.Color>[] _colors
-    ::ArrayW<::System::Nullable_1<::UnityEngine::Color>>& dyn__colors();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Nullable_1<::UnityEngine::Color>>& dyn__colors();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<ILightWithId> _lightsToUnregister
-    ::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*& dyn__lightsToUnregister();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*& dyn__lightsToUnregister();
     // Get instance field reference: private System.Boolean _didChangeSomeColorsThisFrame
-    bool& dyn__didChangeSomeColorsThisFrame();
+    [[deprecated("Use field access instead!")]] bool& dyn__didChangeSomeColorsThisFrame();
     // public System.Void add_didChangeSomeColorsThisFrameEvent(System.Action value)
-    // Offset: 0x2AD25F8
+    // Offset: 0x1E7B9C0
     void add_didChangeSomeColorsThisFrameEvent(::System::Action* value);
     // public System.Void remove_didChangeSomeColorsThisFrameEvent(System.Action value)
-    // Offset: 0x2AD269C
+    // Offset: 0x1E7BA64
     void remove_didChangeSomeColorsThisFrameEvent(::System::Action* value);
-    // protected System.Void LateUpdate()
-    // Offset: 0x2AD2740
-    void LateUpdate();
-    // public System.Void RegisterLight(ILightWithId lightWithId)
-    // Offset: 0x2AD2948
-    void RegisterLight(::GlobalNamespace::ILightWithId* lightWithId);
-    // public System.Void UnregisterLight(ILightWithId lightWithId)
-    // Offset: 0x2AD2D0C
-    void UnregisterLight(::GlobalNamespace::ILightWithId* lightWithId);
-    // public System.Void SetColorForId(System.Int32 lightId, UnityEngine.Color color)
-    // Offset: 0x2AD2EF0
-    void SetColorForId(int lightId, ::UnityEngine::Color color);
-    // public UnityEngine.Color GetColorForId(System.Int32 lightId, System.Boolean initializeIfNull)
-    // Offset: 0x2AD3128
-    ::UnityEngine::Color GetColorForId(int lightId, bool initializeIfNull);
-    // public System.Boolean IsColorSetForId(System.Int32 lightId)
-    // Offset: 0x2AD31F4
-    bool IsColorSetForId(int lightId);
-    // public System.Collections.Generic.List`1<ILightWithId>[] GetLightsArray()
-    // Offset: 0x2AD3270
-    ::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*> GetLightsArray();
     // public System.Void .ctor()
-    // Offset: 0x2AD3278
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E7C640
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightWithIdManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightWithIdManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightWithIdManager*, creationType>()));
     }
+    // protected System.Void LateUpdate()
+    // Offset: 0x1E7BB08
+    void LateUpdate();
+    // public System.Void RegisterLight(ILightWithId lightWithId)
+    // Offset: 0x1E7BD10
+    void RegisterLight(::GlobalNamespace::ILightWithId* lightWithId);
+    // public System.Void UnregisterLight(ILightWithId lightWithId)
+    // Offset: 0x1E7C0D4
+    void UnregisterLight(::GlobalNamespace::ILightWithId* lightWithId);
+    // public System.Void SetColorForId(System.Int32 lightId, UnityEngine.Color color)
+    // Offset: 0x1E7C2B8
+    void SetColorForId(int lightId, ::UnityEngine::Color color);
+    // public UnityEngine.Color GetColorForId(System.Int32 lightId, System.Boolean initializeIfNull)
+    // Offset: 0x1E7C4F0
+    ::UnityEngine::Color GetColorForId(int lightId, bool initializeIfNull);
+    // public System.Boolean IsColorSetForId(System.Int32 lightId)
+    // Offset: 0x1E7C5BC
+    bool IsColorSetForId(int lightId);
+    // public System.Collections.Generic.List`1<ILightWithId>[] GetLightsArray()
+    // Offset: 0x1E7C638
+    ::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*> GetLightsArray();
   }; // LightWithIdManager
   #pragma pack(pop)
   static check_size<sizeof(LightWithIdManager), 56 + sizeof(bool)> __GlobalNamespace_LightWithIdManagerSizeCheck;
@@ -176,6 +162,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdManager*), "remove_didChangeSomeColorsThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LightWithIdManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LightWithIdManager::LateUpdate
 // Il2CppName: LateUpdate
 template<>
@@ -239,7 +229,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdManager*), "GetLightsArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LightWithIdManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

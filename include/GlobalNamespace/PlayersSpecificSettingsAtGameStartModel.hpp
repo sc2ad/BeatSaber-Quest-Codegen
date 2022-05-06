@@ -48,15 +48,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0
     class $$c__DisplayClass13_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private PlayerSpecificSettingsNetSerializable <localPlayerSpecificSettings>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -77,38 +69,38 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
     public:
     // Get instance field reference: private PlayerSpecificSettingsNetSerializable <localPlayerSpecificSettings>k__BackingField
-    ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*& dyn_$localPlayerSpecificSettings$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*& dyn_$localPlayerSpecificSettings$k__BackingField();
     // Get instance field reference: private PlayerSpecificSettingsAtStartNetSerializable <playersAtGameStartNetSerializable>k__BackingField
-    ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*& dyn_$playersAtGameStartNetSerializable$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*& dyn_$playersAtGameStartNetSerializable$k__BackingField();
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // public System.Collections.Generic.List`1<IConnectedPlayer> get_playersAtGameStart()
-    // Offset: 0x25E9B60
+    // Offset: 0x2636190
     ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* get_playersAtGameStart();
     // public PlayerSpecificSettingsNetSerializable get_localPlayerSpecificSettings()
-    // Offset: 0x25E9B78
+    // Offset: 0x26361A8
     ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* get_localPlayerSpecificSettings();
     // private System.Void set_localPlayerSpecificSettings(PlayerSpecificSettingsNetSerializable value)
-    // Offset: 0x25E9B80
+    // Offset: 0x26361B0
     void set_localPlayerSpecificSettings(::GlobalNamespace::PlayerSpecificSettingsNetSerializable* value);
     // public PlayerSpecificSettingsAtStartNetSerializable get_playersAtGameStartNetSerializable()
-    // Offset: 0x25E9B88
+    // Offset: 0x26361B8
     ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* get_playersAtGameStartNetSerializable();
     // private System.Void set_playersAtGameStartNetSerializable(PlayerSpecificSettingsAtStartNetSerializable value)
-    // Offset: 0x25E9B90
+    // Offset: 0x26361C0
     void set_playersAtGameStartNetSerializable(::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* value);
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, PlayerSpecificSettingsNetSerializable localPlayerSpecificSettings)
-    // Offset: 0x25E9B98
+    // Offset: 0x26361C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayersSpecificSettingsAtGameStartModel* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* localPlayerSpecificSettings) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayersSpecificSettingsAtGameStartModel*, creationType>(multiplayerSessionManager, localPlayerSpecificSettings)));
     }
     // public PlayerSpecificSettingsNetSerializable GetPlayerSpecificSettingsForUserId(System.String userId)
-    // Offset: 0x25E9C1C
+    // Offset: 0x263624C
     ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* GetPlayerSpecificSettingsForUserId(::StringW userId);
     // public System.Void SaveFromNetSerializable(PlayerSpecificSettingsAtStartNetSerializable playersAtGameStartNetSerializable)
-    // Offset: 0x25E9F44
+    // Offset: 0x2636574
     void SaveFromNetSerializable(::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStartNetSerializable);
   }; // PlayersSpecificSettingsAtGameStartModel
   #pragma pack(pop)

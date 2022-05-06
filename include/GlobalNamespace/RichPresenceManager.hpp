@@ -70,15 +70,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class RichPresenceManager : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x18
@@ -103,42 +95,42 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x124E7F4
+    // [InjectAttribute] Offset: 0x10D32EC
     // private readonly MenuScenesTransitionSetupDataSO _menuScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::MenuScenesTransitionSetupDataSO* menuScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MenuScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x124E804
+    // [InjectAttribute] Offset: 0x10D32FC
     // private readonly IRichPresencePlatformHandler _richPresencePlatformHandler
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::IRichPresencePlatformHandler* richPresencePlatformHandler;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IRichPresencePlatformHandler*) == 0x8);
-    // [InjectAttribute] Offset: 0x124E814
+    // [InjectAttribute] Offset: 0x10D330C
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x124E824
+    // [InjectAttribute] Offset: 0x10D331C
     // private readonly LobbyGameStateModel _lobbyGameStateModel
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::LobbyGameStateModel* lobbyGameStateModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LobbyGameStateModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x124E834
+    // [InjectAttribute] Offset: 0x10D332C
     // private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
     // Size: 0x8
     // Offset: 0x58
     ::GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IUnifiedNetworkPlayerModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x124E844
+    // [InjectAttribute] Offset: 0x10D333C
     // private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
     // Size: 0x8
     // Offset: 0x60
@@ -193,85 +185,83 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
-    ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& dyn__standardLevelScenesTransitionSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& dyn__standardLevelScenesTransitionSetupData();
     // Get instance field reference: private ScenesTransitionSetupDataSO _tutorialScenesTransitionSetupData
-    ::GlobalNamespace::ScenesTransitionSetupDataSO*& dyn__tutorialScenesTransitionSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ScenesTransitionSetupDataSO*& dyn__tutorialScenesTransitionSetupData();
     // Get instance field reference: private MissionLevelScenesTransitionSetupDataSO _missionLevelScenesTransitionSetupData
-    ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& dyn__missionLevelScenesTransitionSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& dyn__missionLevelScenesTransitionSetupData();
     // Get instance field reference: private MultiplayerLevelScenesTransitionSetupDataSO _multiplayerLevelScenesTransitionSetupData
-    ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*& dyn__multiplayerLevelScenesTransitionSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*& dyn__multiplayerLevelScenesTransitionSetupData();
     // Get instance field reference: private readonly MenuScenesTransitionSetupDataSO _menuScenesTransitionSetupData
-    ::GlobalNamespace::MenuScenesTransitionSetupDataSO*& dyn__menuScenesTransitionSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuScenesTransitionSetupDataSO*& dyn__menuScenesTransitionSetupData();
     // Get instance field reference: private readonly IRichPresencePlatformHandler _richPresencePlatformHandler
-    ::GlobalNamespace::IRichPresencePlatformHandler*& dyn__richPresencePlatformHandler();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IRichPresencePlatformHandler*& dyn__richPresencePlatformHandler();
     // Get instance field reference: private readonly GameScenesManager _gameScenesManager
-    ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // Get instance field reference: private readonly LobbyGameStateModel _lobbyGameStateModel
-    ::GlobalNamespace::LobbyGameStateModel*& dyn__lobbyGameStateModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LobbyGameStateModel*& dyn__lobbyGameStateModel();
     // Get instance field reference: private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
-    ::GlobalNamespace::IUnifiedNetworkPlayerModel*& dyn__unifiedNetworkPlayerModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IUnifiedNetworkPlayerModel*& dyn__unifiedNetworkPlayerModel();
     // Get instance field reference: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
-    ::GlobalNamespace::LobbyPlayerPermissionsModel*& dyn__lobbyPlayerPermissionsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LobbyPlayerPermissionsModel*& dyn__lobbyPlayerPermissionsModel();
     // Get instance field reference: private System.Boolean _menuWasLoaded
-    bool& dyn__menuWasLoaded();
+    [[deprecated("Use field access instead!")]] bool& dyn__menuWasLoaded();
     // Get instance field reference: private System.Boolean _isInMultiplayerLobby
-    bool& dyn__isInMultiplayerLobby();
+    [[deprecated("Use field access instead!")]] bool& dyn__isInMultiplayerLobby();
     // Get instance field reference: private BrowsingMenusRichPresenceData _browsingMenusRichPresenceData
-    ::GlobalNamespace::BrowsingMenusRichPresenceData*& dyn__browsingMenusRichPresenceData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BrowsingMenusRichPresenceData*& dyn__browsingMenusRichPresenceData();
     // Get instance field reference: private InMultiplayerRichPresenceData _inMultiplayerRichPresenceData
-    ::GlobalNamespace::InMultiplayerRichPresenceData*& dyn__inMultiplayerRichPresenceData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::InMultiplayerRichPresenceData*& dyn__inMultiplayerRichPresenceData();
     // Get instance field reference: private PlayingCampaignRichPresenceData _playingCampaignRichPresenceData
-    ::GlobalNamespace::PlayingCampaignRichPresenceData*& dyn__playingCampaignRichPresenceData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayingCampaignRichPresenceData*& dyn__playingCampaignRichPresenceData();
     // Get instance field reference: private PlayingTutorialPresenceData _playingTutorialPresenceData
-    ::GlobalNamespace::PlayingTutorialPresenceData*& dyn__playingTutorialPresenceData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayingTutorialPresenceData*& dyn__playingTutorialPresenceData();
     // Get instance field reference: private IRichPresenceData _currentPresenceData
-    ::GlobalNamespace::IRichPresenceData*& dyn__currentPresenceData();
-    // protected System.Void Awake()
-    // Offset: 0x137FB34
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x137FD5C
-    void OnDestroy();
-    // private System.Void HandleLobbyGameStateModelDidChange(MultiplayerGameState newGameState)
-    // Offset: 0x137FF74
-    void HandleLobbyGameStateModelDidChange(::GlobalNamespace::MultiplayerGameState newGameState);
-    // private System.Void SetMenuPresence()
-    // Offset: 0x137FF90
-    void SetMenuPresence();
-    // private System.Void HandleGameScenesManagerTransitionDidFinish(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer diContainer)
-    // Offset: 0x1380290
-    void HandleGameScenesManagerTransitionDidFinish(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* diContainer);
-    // private System.Void HandleMultiplayerPartySizeChanged(System.Int32 currentPartySize)
-    // Offset: 0x138068C
-    void HandleMultiplayerPartySizeChanged(int currentPartySize);
-    // private System.Void HandleLobbyPlayerPermissionChanged()
-    // Offset: 0x1380870
-    void HandleLobbyPlayerPermissionChanged();
-    // private System.Void SetPresence(IRichPresenceData presenceData)
-    // Offset: 0x13801CC
-    void SetPresence(::GlobalNamespace::IRichPresenceData* presenceData);
-    // private System.Void Clear()
-    // Offset: 0x13805D4
-    void Clear();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IRichPresenceData*& dyn__currentPresenceData();
     // public System.Void .ctor()
-    // Offset: 0x13809E8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14588D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RichPresenceManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RichPresenceManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RichPresenceManager*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x1457A04
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1457C34
+    void OnDestroy();
+    // private System.Void HandleLobbyGameStateModelDidChange(MultiplayerGameState newGameState)
+    // Offset: 0x1457E4C
+    void HandleLobbyGameStateModelDidChange(::GlobalNamespace::MultiplayerGameState newGameState);
+    // private System.Void SetMenuPresence()
+    // Offset: 0x1457E68
+    void SetMenuPresence();
+    // private System.Void HandleGameScenesManagerTransitionDidFinish(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer diContainer)
+    // Offset: 0x1458168
+    void HandleGameScenesManagerTransitionDidFinish(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* diContainer);
+    // private System.Void HandleMultiplayerPartySizeChanged(System.Int32 currentPartySize)
+    // Offset: 0x1458574
+    void HandleMultiplayerPartySizeChanged(int currentPartySize);
+    // private System.Void HandleLobbyPlayerPermissionChanged()
+    // Offset: 0x1458758
+    void HandleLobbyPlayerPermissionChanged();
+    // private System.Void SetPresence(IRichPresenceData presenceData)
+    // Offset: 0x14580A4
+    void SetPresence(::GlobalNamespace::IRichPresenceData* presenceData);
+    // private System.Void Clear()
+    // Offset: 0x14584BC
+    void Clear();
   }; // RichPresenceManager
   #pragma pack(pop)
   static check_size<sizeof(RichPresenceManager), 144 + sizeof(::GlobalNamespace::IRichPresenceData*)> __GlobalNamespace_RichPresenceManagerSizeCheck;
   static_assert(sizeof(RichPresenceManager) == 0x98);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::RichPresenceManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::RichPresenceManager::Awake
 // Il2CppName: Awake
 template<>
@@ -349,7 +339,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RichPresenceManager*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::RichPresenceManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

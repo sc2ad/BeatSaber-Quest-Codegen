@@ -34,15 +34,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SimpleFileLogger::MonoLogger : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.List`1<System.String> _lines
     // Size: 0x8
     // Offset: 0x18
@@ -53,35 +45,33 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.String> _lines
-    ::System::Collections::Generic::List_1<::StringW>*& dyn__lines();
-    // protected System.Void OnDestroy()
-    // Offset: 0x29D6FAC
-    void OnDestroy();
-    // public System.Void Log(System.String text)
-    // Offset: 0x29D6CB0
-    void Log(::StringW text);
-    // public System.Void Clear()
-    // Offset: 0x29D6C18
-    void Clear();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn__lines();
     // public System.Void .ctor()
-    // Offset: 0x29D7000
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A29510
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleFileLogger::MonoLogger* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SimpleFileLogger::MonoLogger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleFileLogger::MonoLogger*, creationType>()));
     }
+    // protected System.Void OnDestroy()
+    // Offset: 0x2A294BC
+    void OnDestroy();
+    // public System.Void Log(System.String text)
+    // Offset: 0x2A291C0
+    void Log(::StringW text);
+    // public System.Void Clear()
+    // Offset: 0x2A29128
+    void Clear();
   }; // SimpleFileLogger/MonoLogger
   #pragma pack(pop)
   static check_size<sizeof(SimpleFileLogger::MonoLogger), 24 + sizeof(::System::Collections::Generic::List_1<::StringW>*)> __GlobalNamespace_SimpleFileLogger_MonoLoggerSizeCheck;
   static_assert(sizeof(SimpleFileLogger::MonoLogger) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SimpleFileLogger::MonoLogger::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SimpleFileLogger::MonoLogger::OnDestroy
 // Il2CppName: OnDestroy
 template<>
@@ -107,7 +97,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleFileLogger::MonoLogger*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SimpleFileLogger::MonoLogger::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

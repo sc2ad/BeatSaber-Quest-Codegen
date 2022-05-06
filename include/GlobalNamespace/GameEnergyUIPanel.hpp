@@ -56,15 +56,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameEnergyUIPanel : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Image _energyBar
     // Size: 0x8
     // Offset: 0x18
@@ -77,14 +69,14 @@ namespace GlobalNamespace {
     ::UnityEngine::Playables::PlayableDirector* playableDirector;
     // Field size check
     static_assert(sizeof(::UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125232C
+    // [SpaceAttribute] Offset: 0x10D6EB8
     // private UnityEngine.UI.Image _batteryLifeSegmentPrefab
     // Size: 0x8
     // Offset: 0x28
     ::UnityEngine::UI::Image* batteryLifeSegmentPrefab;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Image*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1252364
+    // [SpaceAttribute] Offset: 0x10D6EF0
     // private System.Single _batterySegmentSeparatorWidth
     // Size: 0x4
     // Offset: 0x30
@@ -97,7 +89,7 @@ namespace GlobalNamespace {
     float batterySegmentHorizontalPadding;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x12523AC
+    // [InjectAttribute] Offset: 0x10D6F38
     // private readonly IGameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x38
@@ -128,63 +120,61 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Image _energyBar
-    ::UnityEngine::UI::Image*& dyn__energyBar();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__energyBar();
     // Get instance field reference: private UnityEngine.Playables.PlayableDirector _playableDirector
-    ::UnityEngine::Playables::PlayableDirector*& dyn__playableDirector();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Playables::PlayableDirector*& dyn__playableDirector();
     // Get instance field reference: private UnityEngine.UI.Image _batteryLifeSegmentPrefab
-    ::UnityEngine::UI::Image*& dyn__batteryLifeSegmentPrefab();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__batteryLifeSegmentPrefab();
     // Get instance field reference: private System.Single _batterySegmentSeparatorWidth
-    float& dyn__batterySegmentSeparatorWidth();
+    [[deprecated("Use field access instead!")]] float& dyn__batterySegmentSeparatorWidth();
     // Get instance field reference: private System.Single _batterySegmentHorizontalPadding
-    float& dyn__batterySegmentHorizontalPadding();
+    [[deprecated("Use field access instead!")]] float& dyn__batterySegmentHorizontalPadding();
     // Get instance field reference: private readonly IGameEnergyCounter _gameEnergyCounter
-    ::GlobalNamespace::IGameEnergyCounter*& dyn__gameEnergyCounter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IGameEnergyCounter*& dyn__gameEnergyCounter();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.UI.Image> _batteryLifeSegments
-    ::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>*& dyn__batteryLifeSegments();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>*& dyn__batteryLifeSegments();
     // Get instance field reference: private System.Int32 _activeBatteryLifeSegmentsCount
-    int& dyn__activeBatteryLifeSegmentsCount();
+    [[deprecated("Use field access instead!")]] int& dyn__activeBatteryLifeSegmentsCount();
     // Get instance field reference: private UnityEngine.RectTransform _energyBarRectTransform
-    ::UnityEngine::RectTransform*& dyn__energyBarRectTransform();
-    // protected System.Void Start()
-    // Offset: 0x1394CCC
-    void Start();
-    // private System.Void Init()
-    // Offset: 0x1394E4C
-    void Init();
-    // protected System.Void OnDestroy()
-    // Offset: 0x1395808
-    void OnDestroy();
-    // private System.Void CreateUIForBatteryEnergyType(System.Int32 batteryLives)
-    // Offset: 0x13951F4
-    void CreateUIForBatteryEnergyType(int batteryLives);
-    // private System.Void RefreshEnergyUI(System.Single energy)
-    // Offset: 0x13954E4
-    void RefreshEnergyUI(float energy);
-    // private System.Void HandleGameEnergyCounterDidInit()
-    // Offset: 0x13959A8
-    void HandleGameEnergyCounterDidInit();
-    // private System.Void HandleGameEnergyDidChange(System.Single energy)
-    // Offset: 0x13959AC
-    void HandleGameEnergyDidChange(float energy);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__energyBarRectTransform();
     // public System.Void .ctor()
-    // Offset: 0x13959B0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x137D4C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameEnergyUIPanel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameEnergyUIPanel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameEnergyUIPanel*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x137C7E0
+    void Start();
+    // private System.Void Init()
+    // Offset: 0x137C960
+    void Init();
+    // protected System.Void OnDestroy()
+    // Offset: 0x137D31C
+    void OnDestroy();
+    // private System.Void CreateUIForBatteryEnergyType(System.Int32 batteryLives)
+    // Offset: 0x137CD08
+    void CreateUIForBatteryEnergyType(int batteryLives);
+    // private System.Void RefreshEnergyUI(System.Single energy)
+    // Offset: 0x137CFF8
+    void RefreshEnergyUI(float energy);
+    // private System.Void HandleGameEnergyCounterDidInit()
+    // Offset: 0x137D4BC
+    void HandleGameEnergyCounterDidInit();
+    // private System.Void HandleGameEnergyDidChange(System.Single energy)
+    // Offset: 0x137D4C0
+    void HandleGameEnergyDidChange(float energy);
   }; // GameEnergyUIPanel
   #pragma pack(pop)
   static check_size<sizeof(GameEnergyUIPanel), 80 + sizeof(::UnityEngine::RectTransform*)> __GlobalNamespace_GameEnergyUIPanelSizeCheck;
   static_assert(sizeof(GameEnergyUIPanel) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::GameEnergyUIPanel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyUIPanel::Start
 // Il2CppName: Start
 template<>
@@ -244,7 +234,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyUIPanel*), "HandleGameEnergyDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{energy});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameEnergyUIPanel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

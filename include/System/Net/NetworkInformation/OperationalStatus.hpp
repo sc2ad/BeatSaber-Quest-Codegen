@@ -84,7 +84,7 @@ namespace System::Net::NetworkInformation {
     // Set static field: static public System.Net.NetworkInformation.OperationalStatus LowerLayerDown
     static void _set_LowerLayerDown(::System::Net::NetworkInformation::OperationalStatus value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Net.NetworkInformation.OperationalStatus
   #pragma pack(pop)
   static check_size<sizeof(OperationalStatus), 0 + sizeof(int)> __System_Net_NetworkInformation_OperationalStatusSizeCheck;

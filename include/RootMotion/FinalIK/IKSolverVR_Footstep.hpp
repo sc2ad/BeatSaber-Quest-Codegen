@@ -39,15 +39,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKSolverVR::Footstep : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single stepSpeed
     // Size: 0x4
     // Offset: 0x10
@@ -136,63 +128,63 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public System.Single stepSpeed
-    float& dyn_stepSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn_stepSpeed();
     // Get instance field reference: public UnityEngine.Vector3 characterSpaceOffset
-    ::UnityEngine::Vector3& dyn_characterSpaceOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_characterSpaceOffset();
     // Get instance field reference: public UnityEngine.Vector3 position
-    ::UnityEngine::Vector3& dyn_position();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_position();
     // Get instance field reference: public UnityEngine.Quaternion rotation
-    ::UnityEngine::Quaternion& dyn_rotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_rotation();
     // Get instance field reference: public UnityEngine.Quaternion stepToRootRot
-    ::UnityEngine::Quaternion& dyn_stepToRootRot();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_stepToRootRot();
     // Get instance field reference: public System.Boolean isSupportLeg
-    bool& dyn_isSupportLeg();
+    [[deprecated("Use field access instead!")]] bool& dyn_isSupportLeg();
     // Get instance field reference: private System.Single <stepProgress>k__BackingField
-    float& dyn_$stepProgress$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$stepProgress$k__BackingField();
     // Get instance field reference: public UnityEngine.Vector3 stepFrom
-    ::UnityEngine::Vector3& dyn_stepFrom();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_stepFrom();
     // Get instance field reference: public UnityEngine.Vector3 stepTo
-    ::UnityEngine::Vector3& dyn_stepTo();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_stepTo();
     // Get instance field reference: public UnityEngine.Quaternion stepFromRot
-    ::UnityEngine::Quaternion& dyn_stepFromRot();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_stepFromRot();
     // Get instance field reference: public UnityEngine.Quaternion stepToRot
-    ::UnityEngine::Quaternion& dyn_stepToRot();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_stepToRot();
     // Get instance field reference: private UnityEngine.Quaternion footRelativeToRoot
-    ::UnityEngine::Quaternion& dyn_footRelativeToRoot();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_footRelativeToRoot();
     // Get instance field reference: private System.Single supportLegW
-    float& dyn_supportLegW();
+    [[deprecated("Use field access instead!")]] float& dyn_supportLegW();
     // Get instance field reference: private System.Single supportLegWV
-    float& dyn_supportLegWV();
+    [[deprecated("Use field access instead!")]] float& dyn_supportLegWV();
     // public System.Boolean get_isStepping()
-    // Offset: 0x2348630
+    // Offset: 0x2391EA4
     bool get_isStepping();
     // public System.Single get_stepProgress()
-    // Offset: 0x2348644
+    // Offset: 0x2391EB8
     float get_stepProgress();
     // private System.Void set_stepProgress(System.Single value)
-    // Offset: 0x234864C
+    // Offset: 0x2391EC0
     void set_stepProgress(float value);
     // public System.Void .ctor(UnityEngine.Quaternion rootRotation, UnityEngine.Vector3 footPosition, UnityEngine.Quaternion footRotation, UnityEngine.Vector3 characterSpaceOffset)
-    // Offset: 0x2348654
+    // Offset: 0x2391EC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolverVR::Footstep* New_ctor(::UnityEngine::Quaternion rootRotation, ::UnityEngine::Vector3 footPosition, ::UnityEngine::Quaternion footRotation, ::UnityEngine::Vector3 characterSpaceOffset) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolverVR::Footstep::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverVR::Footstep*, creationType>(rootRotation, footPosition, footRotation, characterSpaceOffset)));
     }
     // public System.Void Reset(UnityEngine.Quaternion rootRotation, UnityEngine.Vector3 footPosition, UnityEngine.Quaternion footRotation)
-    // Offset: 0x23487E4
+    // Offset: 0x2392058
     void Reset(::UnityEngine::Quaternion rootRotation, ::UnityEngine::Vector3 footPosition, ::UnityEngine::Quaternion footRotation);
     // public System.Void StepTo(UnityEngine.Vector3 p, UnityEngine.Quaternion rootRotation, System.Single stepThreshold)
-    // Offset: 0x234882C
+    // Offset: 0x23920A0
     void StepTo(::UnityEngine::Vector3 p, ::UnityEngine::Quaternion rootRotation, float stepThreshold);
     // public System.Void UpdateStepping(UnityEngine.Vector3 p, UnityEngine.Quaternion rootRotation, System.Single speed)
-    // Offset: 0x23489EC
+    // Offset: 0x2392260
     void UpdateStepping(::UnityEngine::Vector3 p, ::UnityEngine::Quaternion rootRotation, float speed);
     // public System.Void UpdateStanding(UnityEngine.Quaternion rootRotation, System.Single minAngle, System.Single speed)
-    // Offset: 0x2348BC4
+    // Offset: 0x2392438
     void UpdateStanding(::UnityEngine::Quaternion rootRotation, float minAngle, float speed);
     // public System.Void Update(RootMotion.InterpolationMode interpolation, UnityEngine.Events.UnityEvent onStep)
-    // Offset: 0x2348DB0
+    // Offset: 0x2392624
     void Update(::RootMotion::InterpolationMode interpolation, ::UnityEngine::Events::UnityEvent* onStep);
   }; // RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Footstep
   #pragma pack(pop)

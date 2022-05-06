@@ -34,15 +34,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BPMChangeBeatmapEventData : public ::GlobalNamespace::BeatmapEventData {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Single bpm
     // Size: 0x4
     // Offset: 0x30
@@ -55,21 +47,21 @@ namespace GlobalNamespace {
       return bpm;
     }
     // Get instance field reference: public readonly System.Single bpm
-    float& dyn_bpm();
+    [[deprecated("Use field access instead!")]] float& dyn_bpm();
     // public System.Void .ctor(System.Single time, System.Single bpm)
-    // Offset: 0x28152A0
+    // Offset: 0x28677B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BPMChangeBeatmapEventData* New_ctor(float time, float bpm) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BPMChangeBeatmapEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BPMChangeBeatmapEventData*, creationType>(time, bpm)));
     }
     // public override BeatmapDataItem GetCopy()
-    // Offset: 0x2815340
+    // Offset: 0x2867850
     // Implemented from: BeatmapDataItem
     // Base method: BeatmapDataItem BeatmapDataItem::GetCopy()
     ::GlobalNamespace::BeatmapDataItem* GetCopy();
     // protected override BeatmapEventData GetDefault()
-    // Offset: 0x28153CC
+    // Offset: 0x28678DC
     // Implemented from: BeatmapEventData
     // Base method: BeatmapEventData BeatmapEventData::GetDefault()
     ::GlobalNamespace::BeatmapEventData* GetDefault();

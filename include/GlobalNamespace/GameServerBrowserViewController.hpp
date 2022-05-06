@@ -46,16 +46,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameServerBrowserViewController : public ::HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [HeaderAttribute] Offset: 0x125C464
+    // [HeaderAttribute] Offset: 0x10E1048
     // private UnityEngine.UI.Button _filterServersButton
     // Size: 0x8
     // Offset: 0x70
@@ -74,21 +66,21 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Toggle* canBeInvitedOnLocalNetworkToggle;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Toggle*) == 0x8);
-    // [HeaderAttribute] Offset: 0x125C4D0
+    // [HeaderAttribute] Offset: 0x10E10B4
     // private UnityEngine.UI.Button _createServerButton
     // Size: 0x8
     // Offset: 0x88
     ::UnityEngine::UI::Button* createServerButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [HeaderAttribute] Offset: 0x125C51C
+    // [HeaderAttribute] Offset: 0x10E1100
     // private GameServersListTableView _gameServersListTableView
     // Size: 0x8
     // Offset: 0x90
     ::GlobalNamespace::GameServersListTableView* gameServersListTableView;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameServersListTableView*) == 0x8);
-    // [HeaderAttribute] Offset: 0x125C568
+    // [HeaderAttribute] Offset: 0x10E114C
     // private LoadingControl _mainLoadingControl
     // Size: 0x8
     // Offset: 0x98
@@ -103,28 +95,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::LoadingControl*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.UI.Button _filterServersButton
-    ::UnityEngine::UI::Button*& dyn__filterServersButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__filterServersButton();
     // Get instance field reference: private GameServersFilterText _filterText
-    ::GlobalNamespace::GameServersFilterText*& dyn__filterText();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameServersFilterText*& dyn__filterText();
     // Get instance field reference: private UnityEngine.UI.Toggle _canBeInvitedOnLocalNetworkToggle
-    ::UnityEngine::UI::Toggle*& dyn__canBeInvitedOnLocalNetworkToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__canBeInvitedOnLocalNetworkToggle();
     // Get instance field reference: private UnityEngine.UI.Button _createServerButton
-    ::UnityEngine::UI::Button*& dyn__createServerButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__createServerButton();
     // Get instance field reference: private GameServersListTableView _gameServersListTableView
-    ::GlobalNamespace::GameServersListTableView*& dyn__gameServersListTableView();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameServersListTableView*& dyn__gameServersListTableView();
     // Get instance field reference: private LoadingControl _mainLoadingControl
-    ::GlobalNamespace::LoadingControl*& dyn__mainLoadingControl();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LoadingControl*& dyn__mainLoadingControl();
     // Get instance field reference: private LoadingControl _smallLoadingControl
-    ::GlobalNamespace::LoadingControl*& dyn__smallLoadingControl();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LoadingControl*& dyn__smallLoadingControl();
     // public System.Void .ctor()
-    // Offset: 0x13D74B8
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13E3F58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerBrowserViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerBrowserViewController::.ctor");

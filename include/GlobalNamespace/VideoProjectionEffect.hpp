@@ -53,15 +53,7 @@ namespace GlobalNamespace {
     class BeatmapEditorVideoProjectionBehavior;
     // Nested type: ::GlobalNamespace::VideoProjectionEffect::GameplayVideoProjectionBehavior
     class GameplayVideoProjectionBehavior;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private VideoProjectionDataModelSO _videoProjectionDataModel
     // Size: 0x8
     // Offset: 0x18
@@ -82,14 +74,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::BasicBeatmapEventType) == 0x4);
     // Padding between fields: videoEventType and: initData
     char __padding2[0x4] = {};
-    // [InjectAttribute] Offset: 0x1251B88
+    // [InjectAttribute] Offset: 0x10D6714
     // private readonly VideoProjectionEffect/InitData _initData
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::VideoProjectionEffect::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::VideoProjectionEffect::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1251B98
+    // [InjectAttribute] Offset: 0x10D6724
     // private readonly EnvironmentContext _environmentContext
     // Size: 0x4
     // Offset: 0x38
@@ -98,14 +90,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::EnvironmentContext) == 0x4);
     // Padding between fields: environmentContext and: beatmapData
     char __padding4[0x4] = {};
-    // [InjectAttribute] Offset: 0x1251BA8
+    // [InjectAttribute] Offset: 0x10D6734
     // private readonly IReadonlyBeatmapData _beatmapData
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::IReadonlyBeatmapData* beatmapData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IReadonlyBeatmapData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1251BB8
+    // [InjectAttribute] Offset: 0x10D6744
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x48
@@ -122,46 +114,44 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private VideoProjectionDataModelSO _videoProjectionDataModel
-    ::GlobalNamespace::VideoProjectionDataModelSO*& dyn__videoProjectionDataModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VideoProjectionDataModelSO*& dyn__videoProjectionDataModel();
     // Get instance field reference: private SongTimeSyncedVideoPlayer _videoPlayer
-    ::GlobalNamespace::SongTimeSyncedVideoPlayer*& dyn__videoPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongTimeSyncedVideoPlayer*& dyn__videoPlayer();
     // Get instance field reference: private BasicBeatmapEventType _videoEventType
-    ::GlobalNamespace::BasicBeatmapEventType& dyn__videoEventType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BasicBeatmapEventType& dyn__videoEventType();
     // Get instance field reference: private readonly VideoProjectionEffect/InitData _initData
-    ::GlobalNamespace::VideoProjectionEffect::InitData*& dyn__initData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VideoProjectionEffect::InitData*& dyn__initData();
     // Get instance field reference: private readonly EnvironmentContext _environmentContext
-    ::GlobalNamespace::EnvironmentContext& dyn__environmentContext();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentContext& dyn__environmentContext();
     // Get instance field reference: private readonly IReadonlyBeatmapData _beatmapData
-    ::GlobalNamespace::IReadonlyBeatmapData*& dyn__beatmapData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IReadonlyBeatmapData*& dyn__beatmapData();
     // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
-    ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
     // Get instance field reference: private VideoProjectionEffect/VideoProjectionBehavior _behavior
-    ::GlobalNamespace::VideoProjectionEffect::VideoProjectionBehavior*& dyn__behavior();
-    // protected System.Void Start()
-    // Offset: 0x2AC403C
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x2AC4550
-    void OnDestroy();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VideoProjectionEffect::VideoProjectionBehavior*& dyn__behavior();
     // public System.Void .ctor()
-    // Offset: 0x2AC4568
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A2E334
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VideoProjectionEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VideoProjectionEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VideoProjectionEffect*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x2A2DE08
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x2A2E31C
+    void OnDestroy();
   }; // VideoProjectionEffect
   #pragma pack(pop)
   static check_size<sizeof(VideoProjectionEffect), 80 + sizeof(::GlobalNamespace::VideoProjectionEffect::VideoProjectionBehavior*)> __GlobalNamespace_VideoProjectionEffectSizeCheck;
   static_assert(sizeof(VideoProjectionEffect) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::VideoProjectionEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::VideoProjectionEffect::Start
 // Il2CppName: Start
 template<>
@@ -178,7 +168,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VideoProjectionEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::VideoProjectionEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

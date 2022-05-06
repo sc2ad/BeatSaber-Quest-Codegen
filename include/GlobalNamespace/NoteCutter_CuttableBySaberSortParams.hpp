@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoteCutter::CuttableBySaberSortParams : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public CuttableBySaber cuttableBySaber
     // Size: 0x8
     // Offset: 0x10
@@ -61,15 +53,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: public CuttableBySaber cuttableBySaber
-    ::GlobalNamespace::CuttableBySaber*& dyn_cuttableBySaber();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::CuttableBySaber*& dyn_cuttableBySaber();
     // Get instance field reference: public System.Single distance
-    float& dyn_distance();
+    [[deprecated("Use field access instead!")]] float& dyn_distance();
     // Get instance field reference: public UnityEngine.Vector3 pos
-    ::UnityEngine::Vector3& dyn_pos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_pos();
     // public System.Void .ctor()
-    // Offset: 0x1477BD0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14AE3B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutter::CuttableBySaberSortParams* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutter::CuttableBySaberSortParams::.ctor");

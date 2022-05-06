@@ -53,15 +53,7 @@ namespace Newtonsoft::Json::Converters {
   // [PreserveAttribute] Offset: FFFFFFFF
   class IsoDateTimeConverter : public ::Newtonsoft::Json::Converters::DateTimeConverterBase {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Globalization.DateTimeStyles _dateTimeStyles
     // Size: 0x4
     // Offset: 0x10
@@ -84,32 +76,31 @@ namespace Newtonsoft::Json::Converters {
     static_assert(sizeof(::System::Globalization::CultureInfo*) == 0x8);
     public:
     // Get instance field reference: private System.Globalization.DateTimeStyles _dateTimeStyles
-    ::System::Globalization::DateTimeStyles& dyn__dateTimeStyles();
+    [[deprecated("Use field access instead!")]] ::System::Globalization::DateTimeStyles& dyn__dateTimeStyles();
     // Get instance field reference: private System.String _dateTimeFormat
-    ::StringW& dyn__dateTimeFormat();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__dateTimeFormat();
     // Get instance field reference: private System.Globalization.CultureInfo _culture
-    ::System::Globalization::CultureInfo*& dyn__culture();
+    [[deprecated("Use field access instead!")]] ::System::Globalization::CultureInfo*& dyn__culture();
     // public System.Globalization.CultureInfo get_Culture()
-    // Offset: 0x177AE64
+    // Offset: 0x17B4774
     ::System::Globalization::CultureInfo* get_Culture();
     // public System.Void .ctor()
-    // Offset: 0x177B63C
+    // Offset: 0x17B4F4C
     // Implemented from: Newtonsoft.Json.Converters.DateTimeConverterBase
     // Base method: System.Void DateTimeConverterBase::.ctor()
     // Base method: System.Void JsonConverter::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IsoDateTimeConverter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::IsoDateTimeConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IsoDateTimeConverter*, creationType>()));
     }
     // public override System.Void WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
-    // Offset: 0x177AEDC
+    // Offset: 0x17B47EC
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Void JsonConverter::WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
     void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, ::Newtonsoft::Json::JsonSerializer* serializer);
     // public override System.Object ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
-    // Offset: 0x177B10C
+    // Offset: 0x17B4A1C
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Object JsonConverter::ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
     ::Il2CppObject* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::Il2CppObject* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);

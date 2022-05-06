@@ -43,15 +43,7 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class SceneCameraBloomPrePass : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BloomPrePassRendererSO _bloomPrepassRenderer
     // Size: 0x8
     // Offset: 0x18
@@ -74,19 +66,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BloomPrePassRendererSO _bloomPrepassRenderer
-    ::GlobalNamespace::BloomPrePassRendererSO*& dyn__bloomPrepassRenderer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassRendererSO*& dyn__bloomPrepassRenderer();
     // Get instance field reference: private BloomPrePassEffectContainerSO _bloomPrePassEffectContainer
-    ::GlobalNamespace::BloomPrePassEffectContainerSO*& dyn__bloomPrePassEffectContainer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassEffectContainerSO*& dyn__bloomPrePassEffectContainer();
     // Get instance field reference: private UnityEngine.RenderTexture _bloomPrepassRenderTexture
-    ::UnityEngine::RenderTexture*& dyn__bloomPrepassRenderTexture();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RenderTexture*& dyn__bloomPrepassRenderTexture();
     // public System.Void .ctor()
-    // Offset: 0x2AD9C7C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E8308C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SceneCameraBloomPrePass* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SceneCameraBloomPrePass::.ctor");

@@ -107,20 +107,12 @@ namespace GlobalNamespace {
       // Set static field: static public EditAvatarFlowCoordinator/EditAvatarType Edit
       static void _set_Edit(::GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // EditAvatarFlowCoordinator/EditAvatarType
     #pragma pack(pop)
     static check_size<sizeof(EditAvatarFlowCoordinator::EditAvatarType), 0 + sizeof(int)> __GlobalNamespace_EditAvatarFlowCoordinator_EditAvatarTypeSizeCheck;
     static_assert(sizeof(EditAvatarFlowCoordinator::EditAvatarType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private AvatarVisualController _avatarVisualController
     // Size: 0x8
     // Offset: 0xA8
@@ -139,21 +131,21 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* avatarContainerGameObject;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0x1258EC4
+    // [InjectAttribute] Offset: 0x10DDAA8
     // private readonly EditAvatarViewController _editAvatarViewController
     // Size: 0x8
     // Offset: 0xC0
     ::GlobalNamespace::EditAvatarViewController* editAvatarViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EditAvatarViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1258ED4
+    // [InjectAttribute] Offset: 0x10DDAB8
     // private readonly EditColorController _editColorViewController
     // Size: 0x8
     // Offset: 0xC8
     ::GlobalNamespace::EditColorController* editColorViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EditColorController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1258EE4
+    // [InjectAttribute] Offset: 0x10DDAC8
     // private readonly AvatarDataModel _avatarDataModel
     // Size: 0x8
     // Offset: 0xD0
@@ -188,76 +180,69 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action_1<::GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*) == 0x8);
     public:
     // Get instance field reference: private AvatarVisualController _avatarVisualController
-    ::GlobalNamespace::AvatarVisualController*& dyn__avatarVisualController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarVisualController*& dyn__avatarVisualController();
     // Get instance field reference: private AvatarTweenController _avatarTweenController
-    ::GlobalNamespace::AvatarTweenController*& dyn__avatarTweenController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarTweenController*& dyn__avatarTweenController();
     // Get instance field reference: private UnityEngine.GameObject _avatarContainerGameObject
-    ::UnityEngine::GameObject*& dyn__avatarContainerGameObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__avatarContainerGameObject();
     // Get instance field reference: private readonly EditAvatarViewController _editAvatarViewController
-    ::GlobalNamespace::EditAvatarViewController*& dyn__editAvatarViewController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EditAvatarViewController*& dyn__editAvatarViewController();
     // Get instance field reference: private readonly EditColorController _editColorViewController
-    ::GlobalNamespace::EditColorController*& dyn__editColorViewController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EditColorController*& dyn__editColorViewController();
     // Get instance field reference: private readonly AvatarDataModel _avatarDataModel
-    ::GlobalNamespace::AvatarDataModel*& dyn__avatarDataModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarDataModel*& dyn__avatarDataModel();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<EditAvatarViewController/AvatarEditPart,System.Action> _parameterChangedAnimationCallbacks
-    ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EditAvatarViewController::AvatarEditPart, ::System::Action*>*& dyn__parameterChangedAnimationCallbacks();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EditAvatarViewController::AvatarEditPart, ::System::Action*>*& dyn__parameterChangedAnimationCallbacks();
     // Get instance field reference: private EditAvatarFlowCoordinator/EditAvatarType _editAvatarType
-    ::GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType& dyn__editAvatarType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType& dyn__editAvatarType();
     // Get instance field reference: private System.Action`2<EditAvatarFlowCoordinator,EditAvatarFlowCoordinator/EditAvatarType> didFinishEvent
-    ::System::Action_2<::GlobalNamespace::EditAvatarFlowCoordinator*, ::GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::EditAvatarFlowCoordinator*, ::GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*& dyn_didFinishEvent();
     // Get instance field reference: private System.Action`1<EditAvatarFlowCoordinator/EditAvatarType> wasSetupEvent
-    ::System::Action_1<::GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*& dyn_wasSetupEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*& dyn_wasSetupEvent();
     // public System.Void add_didFinishEvent(System.Action`2<EditAvatarFlowCoordinator,EditAvatarFlowCoordinator/EditAvatarType> value)
-    // Offset: 0x14126D4
+    // Offset: 0x1432480
     void add_didFinishEvent(::System::Action_2<::GlobalNamespace::EditAvatarFlowCoordinator*, ::GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<EditAvatarFlowCoordinator,EditAvatarFlowCoordinator/EditAvatarType> value)
-    // Offset: 0x1412778
+    // Offset: 0x1432524
     void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::EditAvatarFlowCoordinator*, ::GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>* value);
     // public System.Void add_wasSetupEvent(System.Action`1<EditAvatarFlowCoordinator/EditAvatarType> value)
-    // Offset: 0x1411CA8
+    // Offset: 0x1431A54
     void add_wasSetupEvent(::System::Action_1<::GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>* value);
     // public System.Void remove_wasSetupEvent(System.Action`1<EditAvatarFlowCoordinator/EditAvatarType> value)
-    // Offset: 0x141202C
+    // Offset: 0x1431DD8
     void remove_wasSetupEvent(::System::Action_1<::GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>* value);
-    // public System.Void Setup(EditAvatarFlowCoordinator/EditAvatarType editAvatarType)
-    // Offset: 0x141281C
-    void Setup(::GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType editAvatarType);
-    // private System.Void HandleEditAvatarViewControllerDidRequestColorChange(System.Action`1<UnityEngine.Color> colorCallback, UnityEngine.Color currentColor, EditAvatarViewController/AvatarEditPart editPart, System.Int32 uvSegment)
-    // Offset: 0x1413434
-    void HandleEditAvatarViewControllerDidRequestColorChange(::System::Action_1<::UnityEngine::Color>* colorCallback, ::UnityEngine::Color currentColor, ::GlobalNamespace::EditAvatarViewController::AvatarEditPart editPart, int uvSegment);
-    // private System.Void HandleEditAvatarViewControllerChangedAvatarPart(EditAvatarViewController/AvatarEditPart avatarPart)
-    // Offset: 0x1413524
-    void HandleEditAvatarViewControllerChangedAvatarPart(::GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarPart);
-    // private System.Void HandleEditAvatarViewControllerDidFinished(EditAvatarViewController/FinishAction _)
-    // Offset: 0x14135C4
-    void HandleEditAvatarViewControllerDidFinished(::GlobalNamespace::EditAvatarViewController::FinishAction _);
-    // private System.Void HandleEditColorViewControllerDidChangedColor(UnityEngine.Color color)
-    // Offset: 0x141362C
-    void HandleEditColorViewControllerDidChangedColor(::UnityEngine::Color color);
-    // private System.Void HandleEditColorViewControllerDidFinish(System.Boolean apply)
-    // Offset: 0x1413658
-    void HandleEditColorViewControllerDidFinish(bool apply);
     // public System.Void .ctor()
-    // Offset: 0x14136E8
-    // Implemented from: HMUI.FlowCoordinator
-    // Base method: System.Void FlowCoordinator::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1433494
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EditAvatarFlowCoordinator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EditAvatarFlowCoordinator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EditAvatarFlowCoordinator*, creationType>()));
     }
+    // public System.Void Setup(EditAvatarFlowCoordinator/EditAvatarType editAvatarType)
+    // Offset: 0x14325C8
+    void Setup(::GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType editAvatarType);
+    // private System.Void HandleEditAvatarViewControllerDidRequestColorChange(System.Action`1<UnityEngine.Color> colorCallback, UnityEngine.Color currentColor, EditAvatarViewController/AvatarEditPart editPart, System.Int32 uvSegment)
+    // Offset: 0x14331E0
+    void HandleEditAvatarViewControllerDidRequestColorChange(::System::Action_1<::UnityEngine::Color>* colorCallback, ::UnityEngine::Color currentColor, ::GlobalNamespace::EditAvatarViewController::AvatarEditPart editPart, int uvSegment);
+    // private System.Void HandleEditAvatarViewControllerChangedAvatarPart(EditAvatarViewController/AvatarEditPart avatarPart)
+    // Offset: 0x14332D0
+    void HandleEditAvatarViewControllerChangedAvatarPart(::GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarPart);
+    // private System.Void HandleEditAvatarViewControllerDidFinished(EditAvatarViewController/FinishAction _)
+    // Offset: 0x1433370
+    void HandleEditAvatarViewControllerDidFinished(::GlobalNamespace::EditAvatarViewController::FinishAction _);
+    // private System.Void HandleEditColorViewControllerDidChangedColor(UnityEngine.Color color)
+    // Offset: 0x14333D8
+    void HandleEditColorViewControllerDidChangedColor(::UnityEngine::Color color);
+    // private System.Void HandleEditColorViewControllerDidFinish(System.Boolean apply)
+    // Offset: 0x1433404
+    void HandleEditColorViewControllerDidFinish(bool apply);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1412934
+    // Offset: 0x14326E0
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1412FDC
+    // Offset: 0x1432D88
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
@@ -305,6 +290,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarFlowCoordinator*), "remove_wasSetupEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarFlowCoordinator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EditAvatarFlowCoordinator::Setup
 // Il2CppName: Setup
 template<>
@@ -362,10 +351,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarFlowCoordinator*), "HandleEditColorViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{apply});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::EditAvatarFlowCoordinator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EditAvatarFlowCoordinator::DidActivate
 // Il2CppName: DidActivate
 template<>

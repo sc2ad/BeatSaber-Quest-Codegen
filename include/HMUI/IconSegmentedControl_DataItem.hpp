@@ -31,15 +31,7 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class IconSegmentedControl::DataItem : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Sprite <icon>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -54,23 +46,23 @@ namespace HMUI {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.Sprite <icon>k__BackingField
-    ::UnityEngine::Sprite*& dyn_$icon$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn_$icon$k__BackingField();
     // Get instance field reference: private System.String <hintText>k__BackingField
-    ::StringW& dyn_$hintText$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$hintText$k__BackingField();
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x16EDC50
+    // Offset: 0x1725560
     ::UnityEngine::Sprite* get_icon();
     // private System.Void set_icon(UnityEngine.Sprite value)
-    // Offset: 0x16EDC58
+    // Offset: 0x1725568
     void set_icon(::UnityEngine::Sprite* value);
     // public System.String get_hintText()
-    // Offset: 0x16EDC60
+    // Offset: 0x1725570
     ::StringW get_hintText();
     // private System.Void set_hintText(System.String value)
-    // Offset: 0x16EDC68
+    // Offset: 0x1725578
     void set_hintText(::StringW value);
     // public System.Void .ctor(UnityEngine.Sprite icon, System.String hintText)
-    // Offset: 0x16EDC70
+    // Offset: 0x1725580
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IconSegmentedControl::DataItem* New_ctor(::UnityEngine::Sprite* icon, ::StringW hintText) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::IconSegmentedControl::DataItem::.ctor");

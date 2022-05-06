@@ -26,15 +26,7 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class FixupHolder : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int64 m_id
     // Size: 0x8
     // Offset: 0x10
@@ -55,13 +47,13 @@ namespace System::Runtime::Serialization {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: System.Int64 m_id
-    int64_t& dyn_m_id();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_m_id();
     // Get instance field reference: System.Object m_fixupInfo
-    ::Il2CppObject*& dyn_m_fixupInfo();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_m_fixupInfo();
     // Get instance field reference: System.Int32 m_fixupType
-    int& dyn_m_fixupType();
+    [[deprecated("Use field access instead!")]] int& dyn_m_fixupType();
     // System.Void .ctor(System.Int64 id, System.Object fixupInfo, System.Int32 fixupType)
-    // Offset: 0x18B4E54
+    // Offset: 0x18EE764
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixupHolder* New_ctor(int64_t id, ::Il2CppObject* fixupInfo, int fixupType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::FixupHolder::.ctor");

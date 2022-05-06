@@ -65,19 +65,19 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public readonly UnityEngine.Vector3 moveStartPos
-    ::UnityEngine::Vector3& dyn_moveStartPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_moveStartPos();
     // Get instance field reference: public readonly UnityEngine.Vector3 moveEndPos
-    ::UnityEngine::Vector3& dyn_moveEndPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_moveEndPos();
     // Get instance field reference: public readonly UnityEngine.Vector3 jumpEndPos
-    ::UnityEngine::Vector3& dyn_jumpEndPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_jumpEndPos();
     // Get instance field reference: public readonly System.Single jumpGravity
-    float& dyn_jumpGravity();
+    [[deprecated("Use field access instead!")]] float& dyn_jumpGravity();
     // Get instance field reference: public readonly System.Single moveDuration
-    float& dyn_moveDuration();
+    [[deprecated("Use field access instead!")]] float& dyn_moveDuration();
     // Get instance field reference: public readonly System.Single jumpDuration
-    float& dyn_jumpDuration();
+    [[deprecated("Use field access instead!")]] float& dyn_jumpDuration();
     // public System.Void .ctor(UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single jumpGravity, System.Single moveDuration, System.Single jumpDuration)
-    // Offset: 0x134519C
+    // Offset: 0x132E3E4
     // ABORTED: conflicts with another method.  NoteSpawnData(::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos, float jumpGravity, float moveDuration, float jumpDuration);
   }; // BeatmapObjectSpawnMovementData/NoteSpawnData
   #pragma pack(pop)

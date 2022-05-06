@@ -93,7 +93,7 @@ namespace System::Xml {
     // Set static field: static public System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType ValueString
     static void _set_ValueString(::System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType
   #pragma pack(pop)
   static check_size<sizeof(XmlWellFormedWriter::AttributeValueCache::ItemType), 0 + sizeof(int)> __System_Xml_XmlWellFormedWriter_AttributeValueCache_ItemTypeSizeCheck;

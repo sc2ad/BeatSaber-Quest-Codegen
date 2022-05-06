@@ -43,17 +43,12 @@ namespace GlobalNamespace {
   class NoteJumpStartBeatOffsetDropdown : public ::GlobalNamespace::ValueDropdownController_1<float> {
     public:
     // protected System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<System.Single,System.String>> GetNamedValues()
-    // Offset: 0x147BABC
+    // Offset: 0x14B22A4
     ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<float, ::StringW>*>* GetNamedValues();
     // public System.Void .ctor()
-    // Offset: 0x147BBF0
+    // Offset: 0x14B23D8
     // Implemented from: ValueDropdownController`1
     // Base method: System.Void ValueDropdownController_1::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteJumpStartBeatOffsetDropdown* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteJumpStartBeatOffsetDropdown::.ctor");

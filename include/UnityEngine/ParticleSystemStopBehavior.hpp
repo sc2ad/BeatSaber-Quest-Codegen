@@ -54,7 +54,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.ParticleSystemStopBehavior StopEmitting
     static void _set_StopEmitting(::UnityEngine::ParticleSystemStopBehavior value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.ParticleSystemStopBehavior
   #pragma pack(pop)
   static check_size<sizeof(ParticleSystemStopBehavior), 0 + sizeof(int)> __UnityEngine_ParticleSystemStopBehaviorSizeCheck;

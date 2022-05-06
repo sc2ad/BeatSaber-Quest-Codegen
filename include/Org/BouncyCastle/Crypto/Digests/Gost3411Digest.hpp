@@ -39,15 +39,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
   // [TokenAttribute] Offset: FFFFFFFF
   class Gost3411Digest : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IDigest, public ::Org::BouncyCastle::Utilities::IMemoable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Byte[] H
     // Size: 0x8
     // Offset: 0x10
@@ -172,117 +164,115 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Set static field: static private readonly System.Byte[] C2
     static void _set_C2(::ArrayW<uint8_t> value);
     // Get instance field reference: private System.Byte[] H
-    ::ArrayW<uint8_t>& dyn_H();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_H();
     // Get instance field reference: private System.Byte[] L
-    ::ArrayW<uint8_t>& dyn_L();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_L();
     // Get instance field reference: private System.Byte[] M
-    ::ArrayW<uint8_t>& dyn_M();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_M();
     // Get instance field reference: private System.Byte[] Sum
-    ::ArrayW<uint8_t>& dyn_Sum();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_Sum();
     // Get instance field reference: private System.Byte[][] C
-    ::ArrayW<::ArrayW<uint8_t>>& dyn_C();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::ArrayW<uint8_t>>& dyn_C();
     // Get instance field reference: private System.Byte[] xBuf
-    ::ArrayW<uint8_t>& dyn_xBuf();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_xBuf();
     // Get instance field reference: private System.Int32 xBufOff
-    int& dyn_xBufOff();
+    [[deprecated("Use field access instead!")]] int& dyn_xBufOff();
     // Get instance field reference: private System.UInt64 byteCount
-    uint64_t& dyn_byteCount();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_byteCount();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
-    ::Org::BouncyCastle::Crypto::IBlockCipher*& dyn_cipher();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::IBlockCipher*& dyn_cipher();
     // Get instance field reference: private System.Byte[] sBox
-    ::ArrayW<uint8_t>& dyn_sBox();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_sBox();
     // Get instance field reference: private System.Byte[] K
-    ::ArrayW<uint8_t>& dyn_K();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_K();
     // Get instance field reference: private System.Byte[] a
-    ::ArrayW<uint8_t>& dyn_a();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_a();
     // Get instance field reference: System.Int16[] wS
-    ::ArrayW<int16_t>& dyn_wS();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int16_t>& dyn_wS();
     // Get instance field reference: System.Int16[] w_S
-    ::ArrayW<int16_t>& dyn_w_S();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int16_t>& dyn_w_S();
     // Get instance field reference: System.Byte[] S
-    ::ArrayW<uint8_t>& dyn_S();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_S();
     // Get instance field reference: System.Byte[] U
-    ::ArrayW<uint8_t>& dyn_U();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_U();
     // Get instance field reference: System.Byte[] V
-    ::ArrayW<uint8_t>& dyn_V();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_V();
     // Get instance field reference: System.Byte[] W
-    ::ArrayW<uint8_t>& dyn_W();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_W();
     // public System.String get_AlgorithmName()
-    // Offset: 0x2247278
+    // Offset: 0x2291AEC
     ::StringW get_AlgorithmName();
+    // public System.Void .ctor()
+    // Offset: 0x22912B8
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static Gost3411Digest* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::Gost3411Digest::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<Gost3411Digest*, creationType>()));
+    }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.Gost3411Digest t)
-    // Offset: 0x2246E14
+    // Offset: 0x2291688
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3411Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Gost3411Digest* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::Gost3411Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3411Digest*, creationType>(t)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2247F6C
+    // Offset: 0x22927E0
     static void _cctor();
     // static private System.Byte[][] MakeC()
-    // Offset: 0x2246964
+    // Offset: 0x22911D8
     static ::ArrayW<::ArrayW<uint8_t>> MakeC();
     // public System.Int32 GetDigestSize()
-    // Offset: 0x22472C0
+    // Offset: 0x2291B34
     int GetDigestSize();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x22472C8
+    // Offset: 0x2291B3C
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x224771C
+    // Offset: 0x2291F90
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int length);
     // private System.Byte[] P(System.Byte[] input)
-    // Offset: 0x2247864
+    // Offset: 0x22920D8
     ::ArrayW<uint8_t> P(::ArrayW<uint8_t> input);
     // private System.Byte[] A(System.Byte[] input)
-    // Offset: 0x2247984
+    // Offset: 0x22921F8
     ::ArrayW<uint8_t> A(::ArrayW<uint8_t> input);
     // private System.Void E(System.Byte[] key, System.Byte[] s, System.Int32 sOff, System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x2247A50
+    // Offset: 0x22922C4
     void E(::ArrayW<uint8_t> key, ::ArrayW<uint8_t> s, int sOff, ::ArrayW<uint8_t> input, int inOff);
     // private System.Void fw(System.Byte[] input)
-    // Offset: 0x2247BD4
+    // Offset: 0x2292448
     void fw(::ArrayW<uint8_t> input);
     // private System.Void processBlock(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x22473E0
+    // Offset: 0x2291C54
     void processBlock(::ArrayW<uint8_t> input, int inOff);
     // private System.Void finish()
-    // Offset: 0x2247E48
+    // Offset: 0x22926BC
     void finish();
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x2247EAC
+    // Offset: 0x2292720
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x2246C9C
+    // Offset: 0x2291510
     void Reset();
     // private System.Void sumByteArray(System.Byte[] input)
-    // Offset: 0x224735C
+    // Offset: 0x2291BD0
     void sumByteArray(::ArrayW<uint8_t> input);
     // static private System.Void cpyBytesToShort(System.Byte[] S, System.Int16[] wS)
-    // Offset: 0x2247CFC
+    // Offset: 0x2292570
     static void cpyBytesToShort(::ArrayW<uint8_t> S, ::ArrayW<int16_t> wS);
     // static private System.Void cpyShortToBytes(System.Int16[] wS, System.Byte[] S)
-    // Offset: 0x2247DA0
+    // Offset: 0x2292614
     static void cpyShortToBytes(::ArrayW<int16_t> wS, ::ArrayW<uint8_t> S);
     // public System.Int32 GetByteLength()
-    // Offset: 0x2247F04
+    // Offset: 0x2292778
     int GetByteLength();
     // public Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x2247F0C
+    // Offset: 0x2292780
     ::Org::BouncyCastle::Utilities::IMemoable* Copy();
     // public System.Void Reset(Org.BouncyCastle.Utilities.IMemoable other)
-    // Offset: 0x2246F9C
+    // Offset: 0x2291810
     void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
-    // public System.Void .ctor()
-    // Offset: 0x2246A44
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Gost3411Digest* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::Gost3411Digest::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<Gost3411Digest*, creationType>()));
-    }
   }; // Org.BouncyCastle.Crypto.Digests.Gost3411Digest
   #pragma pack(pop)
   static check_size<sizeof(Gost3411Digest), 152 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Crypto_Digests_Gost3411DigestSizeCheck;
@@ -297,6 +287,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::Gost3411Digest*), "get_AlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::Gost3411Digest::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::Gost3411Digest::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -475,7 +469,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::Gost3411Digest*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::Gost3411Digest::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

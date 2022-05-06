@@ -31,9 +31,7 @@ namespace Zenject {
   class PoolExceededFixedSizeException : public ::System::Exception {
     public:
     // public System.Void .ctor(System.String errorMessage)
-    // Offset: 0x1BDC21C
-    // Implemented from: System.Exception
-    // Base method: System.Void Exception::.ctor(System.String errorMessage)
+    // Offset: 0x1C16804
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PoolExceededFixedSizeException* New_ctor(::StringW errorMessage) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolExceededFixedSizeException::.ctor");

@@ -45,15 +45,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.XR.XRNode _node
     // Size: 0x4
     // Offset: 0x18
@@ -66,21 +58,21 @@ namespace GlobalNamespace {
     int nodeIdx;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [NullAllowed] Offset: 0x1225CC8
+    // [NullAllowed] Offset: 0x10AA6E0
     // private VRControllerTransformOffset _transformOffset
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::VRControllerTransformOffset* transformOffset;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::VRControllerTransformOffset*) == 0x8);
-    // [InjectAttribute] Offset: 0x1225D00
+    // [InjectAttribute] Offset: 0x10AA718
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IVRPlatformHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0x1225D10
+    // [InjectAttribute] Offset: 0x10AA728
     // private readonly VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
     // Offset: 0x30
@@ -97,66 +89,60 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.XR.XRNode _node
-    ::UnityEngine::XR::XRNode& dyn__node();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::XR::XRNode& dyn__node();
     // Get instance field reference: private System.Int32 _nodeIdx
-    int& dyn__nodeIdx();
+    [[deprecated("Use field access instead!")]] int& dyn__nodeIdx();
     // Get instance field reference: private VRControllerTransformOffset _transformOffset
-    ::GlobalNamespace::VRControllerTransformOffset*& dyn__transformOffset();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VRControllerTransformOffset*& dyn__transformOffset();
     // Get instance field reference: private readonly IVRPlatformHelper _vrPlatformHelper
-    ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // Get instance field reference: private readonly VRControllersInputManager _vrControllersInputManager
-    ::GlobalNamespace::VRControllersInputManager*& dyn__vrControllersInputManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VRControllersInputManager*& dyn__vrControllersInputManager();
     // Get instance field reference: private UnityEngine.Vector3 _lastTrackedPosition
-    ::UnityEngine::Vector3& dyn__lastTrackedPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__lastTrackedPosition();
     // public UnityEngine.XR.XRNode get_node()
-    // Offset: 0x29DA520
+    // Offset: 0x2A2CA30
     ::UnityEngine::XR::XRNode get_node();
     // public System.Void set_node(UnityEngine.XR.XRNode value)
-    // Offset: 0x29DA528
+    // Offset: 0x2A2CA38
     void set_node(::UnityEngine::XR::XRNode value);
     // public System.Int32 get_nodeIdx()
-    // Offset: 0x29DA530
+    // Offset: 0x2A2CA40
     int get_nodeIdx();
     // public System.Void set_nodeIdx(System.Int32 value)
-    // Offset: 0x29DA538
+    // Offset: 0x2A2CA48
     void set_nodeIdx(int value);
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x29DA540
+    // Offset: 0x2A2CA50
     ::UnityEngine::Vector3 get_position();
     // public UnityEngine.Quaternion get_rotation()
-    // Offset: 0x29DA564
+    // Offset: 0x2A2CA74
     ::UnityEngine::Quaternion get_rotation();
     // public UnityEngine.Vector3 get_forward()
-    // Offset: 0x29DA588
+    // Offset: 0x2A2CA98
     ::UnityEngine::Vector3 get_forward();
     // public System.Single get_triggerValue()
-    // Offset: 0x29DA5AC
+    // Offset: 0x2A2CABC
     float get_triggerValue();
     // public System.Single get_verticalAxisValue()
-    // Offset: 0x29DA750
+    // Offset: 0x2A2CC60
     float get_verticalAxisValue();
     // public System.Single get_horizontalAxisValue()
-    // Offset: 0x29DA7E8
+    // Offset: 0x2A2CCF8
     float get_horizontalAxisValue();
     // public System.Boolean get_active()
-    // Offset: 0x29DA880
+    // Offset: 0x2A2CD90
     bool get_active();
-    // protected System.Void Update()
-    // Offset: 0x29DA8A4
-    void Update();
     // public System.Void .ctor()
-    // Offset: 0x29DAC50
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A2D160
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRController*, creationType>()));
     }
+    // protected System.Void Update()
+    // Offset: 0x2A2CDB4
+    void Update();
   }; // VRController
   #pragma pack(pop)
   static check_size<sizeof(VRController), 56 + sizeof(::UnityEngine::Vector3)> __GlobalNamespace_VRControllerSizeCheck;
@@ -253,6 +239,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRController*), "get_active", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::VRController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::VRController::Update
 // Il2CppName: Update
 template<>
@@ -261,7 +251,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::VRController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

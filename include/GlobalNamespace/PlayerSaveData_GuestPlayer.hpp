@@ -24,15 +24,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveData::GuestPlayer : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String playerName
     // Size: 0x8
     // Offset: 0x10
@@ -45,11 +37,9 @@ namespace GlobalNamespace {
       return playerName;
     }
     // Get instance field reference: public System.String playerName
-    ::StringW& dyn_playerName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_playerName();
     // public System.Void .ctor()
-    // Offset: 0x137158C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D47EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::GuestPlayer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::GuestPlayer::.ctor");

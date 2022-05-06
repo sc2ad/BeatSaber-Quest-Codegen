@@ -41,15 +41,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionLevelFinishedController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private PrepareLevelCompletionResults _prepareLevelCompletionResults
     // Size: 0x8
     // Offset: 0x18
@@ -68,7 +60,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissionObjectiveCheckersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253214
+    // [InjectAttribute] Offset: 0x10D7DF8
     // private ILevelEndActions _gameplayManager
     // Size: 0x8
     // Offset: 0x30
@@ -79,44 +71,42 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private PrepareLevelCompletionResults _prepareLevelCompletionResults
-    ::GlobalNamespace::PrepareLevelCompletionResults*& dyn__prepareLevelCompletionResults();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PrepareLevelCompletionResults*& dyn__prepareLevelCompletionResults();
     // Get instance field reference: private MissionLevelScenesTransitionSetupDataSO _missionLevelSceneSetupData
-    ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& dyn__missionLevelSceneSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& dyn__missionLevelSceneSetupData();
     // Get instance field reference: private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
-    ::GlobalNamespace::MissionObjectiveCheckersManager*& dyn__missionObjectiveCheckersManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionObjectiveCheckersManager*& dyn__missionObjectiveCheckersManager();
     // Get instance field reference: private ILevelEndActions _gameplayManager
-    ::GlobalNamespace::ILevelEndActions*& dyn__gameplayManager();
-    // protected System.Void Start()
-    // Offset: 0x13067B8
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13068A4
-    void OnDestroy();
-    // private System.Void HandleLevelFinished()
-    // Offset: 0x130699C
-    void HandleLevelFinished();
-    // private System.Void StartLevelFinished()
-    // Offset: 0x13069A0
-    void StartLevelFinished();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ILevelEndActions*& dyn__gameplayManager();
     // public System.Void .ctor()
-    // Offset: 0x1306A4C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1302F24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionLevelFinishedController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionLevelFinishedController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelFinishedController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x1302C90
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1302D7C
+    void OnDestroy();
+    // private System.Void HandleLevelFinished()
+    // Offset: 0x1302E74
+    void HandleLevelFinished();
+    // private System.Void StartLevelFinished()
+    // Offset: 0x1302E78
+    void StartLevelFinished();
   }; // MissionLevelFinishedController
   #pragma pack(pop)
   static check_size<sizeof(MissionLevelFinishedController), 48 + sizeof(::GlobalNamespace::ILevelEndActions*)> __GlobalNamespace_MissionLevelFinishedControllerSizeCheck;
   static_assert(sizeof(MissionLevelFinishedController) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MissionLevelFinishedController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelFinishedController::Start
 // Il2CppName: Start
 template<>
@@ -149,7 +139,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionLevelFinishedController*), "StartLevelFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MissionLevelFinishedController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

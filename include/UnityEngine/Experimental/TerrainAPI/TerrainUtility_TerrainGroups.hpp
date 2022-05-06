@@ -25,10 +25,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
   class TerrainUtility::TerrainGroups : public ::System::Collections::Generic::Dictionary_2<int, ::UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2A5FA88
-    // Implemented from: System.Collections.Generic.Dictionary`2
-    // Base method: System.Void Dictionary_2::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2AB6E70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TerrainUtility::TerrainGroups* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainGroups::.ctor");

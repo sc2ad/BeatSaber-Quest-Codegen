@@ -89,25 +89,25 @@ namespace System::Reflection {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Type parent
-    ::System::Type*& dyn_parent();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_parent();
     // Get instance field reference: public System.Type declaring_type
-    ::System::Type*& dyn_declaring_type();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_declaring_type();
     // Get instance field reference: public System.String name
-    ::StringW& dyn_name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_name();
     // Get instance field reference: public System.Reflection.MethodInfo get_method
-    ::System::Reflection::MethodInfo*& dyn_get_method();
+    [[deprecated("Use field access instead!")]] ::System::Reflection::MethodInfo*& dyn_get_method();
     // Get instance field reference: public System.Reflection.MethodInfo set_method
-    ::System::Reflection::MethodInfo*& dyn_set_method();
+    [[deprecated("Use field access instead!")]] ::System::Reflection::MethodInfo*& dyn_set_method();
     // Get instance field reference: public System.Reflection.PropertyAttributes attrs
-    ::System::Reflection::PropertyAttributes& dyn_attrs();
+    [[deprecated("Use field access instead!")]] ::System::Reflection::PropertyAttributes& dyn_attrs();
     // static System.Void get_property_info(System.Reflection.MonoProperty prop, ref System.Reflection.MonoPropertyInfo info, System.Reflection.PInfo req_info)
-    // Offset: 0x1D3C430
+    // Offset: 0x1D77988
     static void get_property_info(::System::Reflection::MonoProperty* prop, ByRef<::System::Reflection::MonoPropertyInfo> info, ::System::Reflection::PInfo req_info);
     // static System.Type[] GetTypeModifiers(System.Reflection.MonoProperty prop, System.Boolean optional)
-    // Offset: 0x1D3D49C
+    // Offset: 0x1D789F4
     static ::ArrayW<::System::Type*> GetTypeModifiers(::System::Reflection::MonoProperty* prop, bool optional);
     // static System.Object get_default_value(System.Reflection.MonoProperty prop)
-    // Offset: 0x1D3CB80
+    // Offset: 0x1D780D8
     static ::Il2CppObject* get_default_value(::System::Reflection::MonoProperty* prop);
   }; // System.Reflection.MonoPropertyInfo
   #pragma pack(pop)

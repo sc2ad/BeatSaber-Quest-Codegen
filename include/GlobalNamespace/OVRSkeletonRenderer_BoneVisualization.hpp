@@ -36,15 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRSkeletonRenderer::BoneVisualization : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.GameObject BoneGO
     // Size: 0x8
     // Offset: 0x10
@@ -83,26 +75,26 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Material*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.GameObject BoneGO
-    ::UnityEngine::GameObject*& dyn_BoneGO();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_BoneGO();
     // Get instance field reference: private UnityEngine.Transform BoneBegin
-    ::UnityEngine::Transform*& dyn_BoneBegin();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_BoneBegin();
     // Get instance field reference: private UnityEngine.Transform BoneEnd
-    ::UnityEngine::Transform*& dyn_BoneEnd();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_BoneEnd();
     // Get instance field reference: private UnityEngine.LineRenderer Line
-    ::UnityEngine::LineRenderer*& dyn_Line();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::LineRenderer*& dyn_Line();
     // Get instance field reference: private UnityEngine.Material RenderMaterial
-    ::UnityEngine::Material*& dyn_RenderMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_RenderMaterial();
     // Get instance field reference: private UnityEngine.Material SystemGestureMaterial
-    ::UnityEngine::Material*& dyn_SystemGestureMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_SystemGestureMaterial();
     // public System.Void .ctor(UnityEngine.GameObject rootGO, UnityEngine.Material renderMat, UnityEngine.Material systemGestureMat, System.Single scale, UnityEngine.Transform begin, UnityEngine.Transform end)
-    // Offset: 0x2457588
+    // Offset: 0x24A104C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRSkeletonRenderer::BoneVisualization* New_ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat, ::UnityEngine::Material* systemGestureMat, float scale, ::UnityEngine::Transform* begin, ::UnityEngine::Transform* end) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRSkeletonRenderer::BoneVisualization::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRSkeletonRenderer::BoneVisualization*, creationType>(rootGO, renderMat, systemGestureMat, scale, begin, end)));
     }
     // public System.Void Update(System.Single scale, System.Boolean shouldRender, System.Boolean shouldUseSystemGestureMaterial, OVRSkeletonRenderer/ConfidenceBehavior confidenceBehavior, OVRSkeletonRenderer/SystemGestureBehavior systemGestureBehavior)
-    // Offset: 0x2457AD4
+    // Offset: 0x24A1598
     void Update(float scale, bool shouldRender, bool shouldUseSystemGestureMaterial, ::GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior confidenceBehavior, ::GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior systemGestureBehavior);
   }; // OVRSkeletonRenderer/BoneVisualization
   #pragma pack(pop)

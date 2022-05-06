@@ -61,7 +61,7 @@ namespace NUnit::Framework {
     // Set static field: static public NUnit.Framework.ActionTargets Suite
     static void _set_Suite(::NUnit::Framework::ActionTargets value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // NUnit.Framework.ActionTargets
   #pragma pack(pop)
   static check_size<sizeof(ActionTargets), 0 + sizeof(int)> __NUnit_Framework_ActionTargetsSizeCheck;

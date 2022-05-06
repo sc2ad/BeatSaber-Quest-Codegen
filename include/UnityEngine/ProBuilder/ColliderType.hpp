@@ -60,7 +60,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.ColliderType MeshCollider
     static void _set_MeshCollider(::UnityEngine::ProBuilder::ColliderType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.ProBuilder.ColliderType
   #pragma pack(pop)
   static check_size<sizeof(ColliderType), 0 + sizeof(int)> __UnityEngine_ProBuilder_ColliderTypeSizeCheck;

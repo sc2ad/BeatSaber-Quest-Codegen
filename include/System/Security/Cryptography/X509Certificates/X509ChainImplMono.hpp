@@ -66,15 +66,7 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509ChainImplMono : public ::System::Security::Cryptography::X509Certificates::X509ChainImpl {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Security.Cryptography.X509Certificates.StoreLocation location
     // Size: 0x4
     // Offset: 0x10
@@ -175,164 +167,164 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static private System.Security.Cryptography.X509Certificates.X509ChainStatus[] Empty
     static void _set_Empty(::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus> value);
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.StoreLocation location
-    ::System::Security::Cryptography::X509Certificates::StoreLocation& dyn_location();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::StoreLocation& dyn_location();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509ChainElementCollection elements
-    ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection*& dyn_elements();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection*& dyn_elements();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509ChainPolicy policy
-    ::System::Security::Cryptography::X509Certificates::X509ChainPolicy*& dyn_policy();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509ChainPolicy*& dyn_policy();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509ChainStatus[] status
-    ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus>& dyn_status();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus>& dyn_status();
     // Get instance field reference: private System.Int32 max_path_length
-    int& dyn_max_path_length();
+    [[deprecated("Use field access instead!")]] int& dyn_max_path_length();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X500DistinguishedName working_issuer_name
-    ::System::Security::Cryptography::X509Certificates::X500DistinguishedName*& dyn_working_issuer_name();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X500DistinguishedName*& dyn_working_issuer_name();
     // Get instance field reference: private System.Security.Cryptography.AsymmetricAlgorithm working_public_key
-    ::System::Security::Cryptography::AsymmetricAlgorithm*& dyn_working_public_key();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::AsymmetricAlgorithm*& dyn_working_public_key();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509ChainElement bce_restriction
-    ::System::Security::Cryptography::X509Certificates::X509ChainElement*& dyn_bce_restriction();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509ChainElement*& dyn_bce_restriction();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate2Collection roots
-    ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*& dyn_roots();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*& dyn_roots();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate2Collection cas
-    ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*& dyn_cas();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*& dyn_cas();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Store root_store
-    ::System::Security::Cryptography::X509Certificates::X509Store*& dyn_root_store();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509Store*& dyn_root_store();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Store ca_store
-    ::System::Security::Cryptography::X509Certificates::X509Store*& dyn_ca_store();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509Store*& dyn_ca_store();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Store user_root_store
-    ::System::Security::Cryptography::X509Certificates::X509Store*& dyn_user_root_store();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509Store*& dyn_user_root_store();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Store user_ca_store
-    ::System::Security::Cryptography::X509Certificates::X509Store*& dyn_user_ca_store();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509Store*& dyn_user_ca_store();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate2Collection collection
-    ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*& dyn_collection();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*& dyn_collection();
     // private System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_Roots()
-    // Offset: 0x1BBCFB0
+    // Offset: 0x1BF7598
     ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_Roots();
     // private System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_CertificateAuthorities()
-    // Offset: 0x1BBD2EC
+    // Offset: 0x1BF78D4
     ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_CertificateAuthorities();
     // private System.Security.Cryptography.X509Certificates.X509Store get_LMRootStore()
-    // Offset: 0x1BBD07C
+    // Offset: 0x1BF7664
     ::System::Security::Cryptography::X509Certificates::X509Store* get_LMRootStore();
     // private System.Security.Cryptography.X509Certificates.X509Store get_UserRootStore()
-    // Offset: 0x1BBD170
+    // Offset: 0x1BF7758
     ::System::Security::Cryptography::X509Certificates::X509Store* get_UserRootStore();
     // private System.Security.Cryptography.X509Certificates.X509Store get_LMCAStore()
-    // Offset: 0x1BBD3B8
+    // Offset: 0x1BF79A0
     ::System::Security::Cryptography::X509Certificates::X509Store* get_LMCAStore();
     // private System.Security.Cryptography.X509Certificates.X509Store get_UserCAStore()
-    // Offset: 0x1BBD4AC
+    // Offset: 0x1BF7A94
     ::System::Security::Cryptography::X509Certificates::X509Store* get_UserCAStore();
     // private System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_CertificateCollection()
-    // Offset: 0x1BBD9F0
+    // Offset: 0x1BF7FD8
     ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_CertificateCollection();
     // public System.Void .ctor(System.Boolean useMachineContext)
-    // Offset: 0x1BBC56C
+    // Offset: 0x1BF6B54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ChainImplMono* New_ctor(bool useMachineContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509ChainImplMono::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ChainImplMono*, creationType>(useMachineContext)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1BBFB00
+    // Offset: 0x1BFA0E8
     static void _cctor();
     // private System.Security.Cryptography.X509Certificates.X509ChainStatusFlags BuildChainFrom(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x1BBCC50
+    // Offset: 0x1BF7238
     ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags BuildChainFrom(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // private System.Security.Cryptography.X509Certificates.X509Certificate2 SelectBestFromCollection(System.Security.Cryptography.X509Certificates.X509Certificate2 child, System.Security.Cryptography.X509Certificates.X509Certificate2Collection c)
-    // Offset: 0x1BBDE68
+    // Offset: 0x1BF8450
     ::System::Security::Cryptography::X509Certificates::X509Certificate2* SelectBestFromCollection(::System::Security::Cryptography::X509Certificates::X509Certificate2* child, ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* c);
     // private System.Security.Cryptography.X509Certificates.X509Certificate2 FindParent(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x1BBDC6C
+    // Offset: 0x1BF8254
     ::System::Security::Cryptography::X509Certificates::X509Certificate2* FindParent(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // private System.Boolean IsChainComplete(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x1BBDD90
+    // Offset: 0x1BF8378
     bool IsChainComplete(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // private System.Boolean IsSelfIssued(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x1BBE140
+    // Offset: 0x1BF8728
     bool IsSelfIssued(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // private System.Void ValidateChain(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flag)
-    // Offset: 0x1BBCD3C
+    // Offset: 0x1BF7324
     void ValidateChain(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag);
     // private System.Void Process(System.Int32 n)
-    // Offset: 0x1BBE18C
+    // Offset: 0x1BF8774
     void Process(int n);
     // private System.Void PrepareForNextCertificate(System.Int32 n)
-    // Offset: 0x1BBE454
+    // Offset: 0x1BF8A3C
     void PrepareForNextCertificate(int n);
     // private System.Void WrapUp()
-    // Offset: 0x1BBE850
+    // Offset: 0x1BF8E38
     void WrapUp();
     // private System.Void ProcessCertificateExtensions(System.Security.Cryptography.X509Certificates.X509ChainElement element)
-    // Offset: 0x1BBE92C
+    // Offset: 0x1BF8F14
     void ProcessCertificateExtensions(::System::Security::Cryptography::X509Certificates::X509ChainElement* element);
     // private System.Boolean IsSignedWith(System.Security.Cryptography.X509Certificates.X509Certificate2 signed, System.Security.Cryptography.AsymmetricAlgorithm pubkey)
-    // Offset: 0x1BBE8E0
+    // Offset: 0x1BF8EC8
     bool IsSignedWith(::System::Security::Cryptography::X509Certificates::X509Certificate2* _signed, ::System::Security::Cryptography::AsymmetricAlgorithm* pubkey);
     // private System.String GetSubjectKeyIdentifier(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x1BBE0A0
+    // Offset: 0x1BF8688
     ::StringW GetSubjectKeyIdentifier(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // static private System.String GetAuthorityKeyIdentifier(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x1BBE004
+    // Offset: 0x1BF85EC
     static ::StringW GetAuthorityKeyIdentifier(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // static private System.String GetAuthorityKeyIdentifier(Mono.Security.X509.X509Crl crl)
-    // Offset: 0x1BBED70
+    // Offset: 0x1BF9358
     static ::StringW GetAuthorityKeyIdentifier(::Mono::Security::X509::X509Crl* crl);
     // static private System.String GetAuthorityKeyIdentifier(Mono.Security.X509.X509Extension ext)
-    // Offset: 0x1BBEC20
+    // Offset: 0x1BF9208
     static ::StringW GetAuthorityKeyIdentifier(::Mono::Security::X509::X509Extension* ext);
     // private System.Void CheckRevocationOnChain(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flag)
-    // Offset: 0x1BBE638
+    // Offset: 0x1BF8C20
     void CheckRevocationOnChain(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag);
     // private System.Security.Cryptography.X509Certificates.X509ChainStatusFlags CheckRevocation(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Int32 ca, System.Boolean online)
-    // Offset: 0x1BBEE00
+    // Offset: 0x1BF93E8
     ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags CheckRevocation(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, int ca, bool online);
     // private System.Security.Cryptography.X509Certificates.X509ChainStatusFlags CheckRevocation(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Security.Cryptography.X509Certificates.X509Certificate2 ca_cert, System.Boolean online)
-    // Offset: 0x1BBEEDC
+    // Offset: 0x1BF94C4
     ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags CheckRevocation(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::System::Security::Cryptography::X509Certificates::X509Certificate2* ca_cert, bool online);
     // static private Mono.Security.X509.X509Crl CheckCrls(System.String subject, System.String ski, Mono.Security.X509.X509Store store)
-    // Offset: 0x1BBF7D4
+    // Offset: 0x1BF9DBC
     static ::Mono::Security::X509::X509Crl* CheckCrls(::StringW subject, ::StringW ski, ::Mono::Security::X509::X509Store* store);
     // private Mono.Security.X509.X509Crl FindCrl(System.Security.Cryptography.X509Certificates.X509Certificate2 caCertificate)
-    // Offset: 0x1BBF0B4
+    // Offset: 0x1BF969C
     ::Mono::Security::X509::X509Crl* FindCrl(::System::Security::Cryptography::X509Certificates::X509Certificate2* caCertificate);
     // private System.Boolean ProcessCrlExtensions(Mono.Security.X509.X509Crl crl)
-    // Offset: 0x1BBF500
+    // Offset: 0x1BF9AE8
     bool ProcessCrlExtensions(::Mono::Security::X509::X509Crl* crl);
     // private System.Boolean ProcessCrlEntryExtensions(Mono.Security.X509.X509Crl/Mono.Security.X509.X509CrlEntry entry)
-    // Offset: 0x1BBF258
+    // Offset: 0x1BF9840
     bool ProcessCrlEntryExtensions(::Mono::Security::X509::X509Crl::X509CrlEntry* entry);
     // public override System.Boolean get_IsValid()
-    // Offset: 0x1BBC648
+    // Offset: 0x1BF6C30
     // Implemented from: System.Security.Cryptography.X509Certificates.X509ChainImpl
     // Base method: System.Boolean X509ChainImpl::get_IsValid()
     bool get_IsValid();
     // public override System.Security.Cryptography.X509Certificates.X509ChainElementCollection get_ChainElements()
-    // Offset: 0x1BBC650
+    // Offset: 0x1BF6C38
     // Implemented from: System.Security.Cryptography.X509Certificates.X509ChainImpl
     // Base method: System.Security.Cryptography.X509Certificates.X509ChainElementCollection X509ChainImpl::get_ChainElements()
     ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* get_ChainElements();
     // public override System.Security.Cryptography.X509Certificates.X509ChainPolicy get_ChainPolicy()
-    // Offset: 0x1BBC658
+    // Offset: 0x1BF6C40
     // Implemented from: System.Security.Cryptography.X509Certificates.X509ChainImpl
     // Base method: System.Security.Cryptography.X509Certificates.X509ChainPolicy X509ChainImpl::get_ChainPolicy()
     ::System::Security::Cryptography::X509Certificates::X509ChainPolicy* get_ChainPolicy();
     // public override System.Void set_ChainPolicy(System.Security.Cryptography.X509Certificates.X509ChainPolicy value)
-    // Offset: 0x1BBC660
+    // Offset: 0x1BF6C48
     // Implemented from: System.Security.Cryptography.X509Certificates.X509ChainImpl
     // Base method: System.Void X509ChainImpl::set_ChainPolicy(System.Security.Cryptography.X509Certificates.X509ChainPolicy value)
     void set_ChainPolicy(::System::Security::Cryptography::X509Certificates::X509ChainPolicy* value);
     // public override System.Security.Cryptography.X509Certificates.X509ChainStatus[] get_ChainStatus()
-    // Offset: 0x1BBC668
+    // Offset: 0x1BF6C50
     // Implemented from: System.Security.Cryptography.X509Certificates.X509ChainImpl
     // Base method: System.Security.Cryptography.X509Certificates.X509ChainStatus[] X509ChainImpl::get_ChainStatus()
     ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus> get_ChainStatus();
     // public override System.Boolean Build(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x1BBC6DC
+    // Offset: 0x1BF6CC4
     // Implemented from: System.Security.Cryptography.X509Certificates.X509ChainImpl
     // Base method: System.Boolean X509ChainImpl::Build(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
     bool Build(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // public override System.Void Reset()
-    // Offset: 0x1BBCE8C
+    // Offset: 0x1BF7474
     // Implemented from: System.Security.Cryptography.X509Certificates.X509ChainImpl
     // Base method: System.Void X509ChainImpl::Reset()
     void Reset();

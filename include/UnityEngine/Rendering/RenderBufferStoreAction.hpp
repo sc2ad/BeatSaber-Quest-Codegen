@@ -66,7 +66,7 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.RenderBufferStoreAction DontCare
     static void _set_DontCare(::UnityEngine::Rendering::RenderBufferStoreAction value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.Rendering.RenderBufferStoreAction
   #pragma pack(pop)
   static check_size<sizeof(RenderBufferStoreAction), 0 + sizeof(int)> __UnityEngine_Rendering_RenderBufferStoreActionSizeCheck;

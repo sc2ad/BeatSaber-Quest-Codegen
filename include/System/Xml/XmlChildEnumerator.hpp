@@ -35,15 +35,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlChildEnumerator : public ::Il2CppObject/*, public ::System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Xml.XmlNode container
     // Size: 0x8
     // Offset: 0x10
@@ -68,32 +60,32 @@ namespace System::Xml {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
     // Get instance field reference: System.Xml.XmlNode container
-    ::System::Xml::XmlNode*& dyn_container();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlNode*& dyn_container();
     // Get instance field reference: System.Xml.XmlNode child
-    ::System::Xml::XmlNode*& dyn_child();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlNode*& dyn_child();
     // Get instance field reference: System.Boolean isFirst
-    bool& dyn_isFirst();
+    [[deprecated("Use field access instead!")]] bool& dyn_isFirst();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1B759CC
+    // Offset: 0x1BAFFB4
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // System.Xml.XmlNode get_Current()
-    // Offset: 0x1B759D0
+    // Offset: 0x1BAFFB8
     ::System::Xml::XmlNode* get_Current();
     // System.Void .ctor(System.Xml.XmlNode container)
-    // Offset: 0x1B758C0
+    // Offset: 0x1BAFEA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlChildEnumerator* New_ctor(::System::Xml::XmlNode* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlChildEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlChildEnumerator*, creationType>(container)));
     }
     // private System.Boolean System.Collections.IEnumerator.MoveNext()
-    // Offset: 0x1B75914
+    // Offset: 0x1BAFEFC
     bool System_Collections_IEnumerator_MoveNext();
     // System.Boolean MoveNext()
-    // Offset: 0x1B75918
+    // Offset: 0x1BAFF00
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1B75988
+    // Offset: 0x1BAFF70
     void System_Collections_IEnumerator_Reset();
   }; // System.Xml.XmlChildEnumerator
   #pragma pack(pop)

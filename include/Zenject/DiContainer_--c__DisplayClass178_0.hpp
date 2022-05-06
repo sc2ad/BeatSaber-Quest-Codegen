@@ -31,15 +31,7 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class DiContainer::$$c__DisplayClass178_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Zenject.DiContainer <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -66,31 +58,33 @@ namespace Zenject {
     static_assert(sizeof(::System::Type*) == 0x8);
     public:
     // Get instance field reference: public Zenject.DiContainer <>4__this
-    ::Zenject::DiContainer*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn_$$4__this();
     // Get instance field reference: public System.Type contractType
-    ::System::Type*& dyn_contractType();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_contractType();
     // Get instance field reference: public System.Object identifier
-    ::Il2CppObject*& dyn_identifier();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_identifier();
     // Get instance field reference: public System.Type concreteType
-    ::System::Type*& dyn_concreteType();
-    // System.Boolean <UnbindId>b__0(Zenject.DiContainer/Zenject.ProviderInfo x)
-    // Offset: 0x1DD9C00
-    bool $UnbindId$b__0(::Zenject::DiContainer::ProviderInfo* x);
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_concreteType();
     // public System.Void .ctor()
-    // Offset: 0x1DD9BF8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E144C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiContainer::$$c__DisplayClass178_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c__DisplayClass178_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiContainer::$$c__DisplayClass178_0*, creationType>()));
     }
+    // System.Boolean <UnbindId>b__0(Zenject.DiContainer/Zenject.ProviderInfo x)
+    // Offset: 0x1E144CC
+    bool $UnbindId$b__0(::Zenject::DiContainer::ProviderInfo* x);
   }; // Zenject.DiContainer/Zenject.<>c__DisplayClass178_0
   #pragma pack(pop)
   static check_size<sizeof(DiContainer::$$c__DisplayClass178_0), 40 + sizeof(::System::Type*)> __Zenject_DiContainer_$$c__DisplayClass178_0SizeCheck;
   static_assert(sizeof(DiContainer::$$c__DisplayClass178_0) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::DiContainer::$$c__DisplayClass178_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::DiContainer::$$c__DisplayClass178_0::$UnbindId$b__0
 // Il2CppName: <UnbindId>b__0
 template<>
@@ -100,7 +94,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$$c__DisplayClass178_0*), "<UnbindId>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: Zenject::DiContainer::$$c__DisplayClass178_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

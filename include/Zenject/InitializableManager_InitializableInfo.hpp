@@ -33,15 +33,7 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class InitializableManager::InitializableInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Zenject.IInitializable Initializable
     // Size: 0x8
     // Offset: 0x10
@@ -56,21 +48,21 @@ namespace Zenject {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public Zenject.IInitializable Initializable
-    ::Zenject::IInitializable*& dyn_Initializable();
+    [[deprecated("Use field access instead!")]] ::Zenject::IInitializable*& dyn_Initializable();
     // Get instance field reference: public System.Int32 Priority
-    int& dyn_Priority();
+    [[deprecated("Use field access instead!")]] int& dyn_Priority();
     // public System.Void .ctor(Zenject.IInitializable initializable, System.Int32 priority)
-    // Offset: 0x1DEE324
+    // Offset: 0x1E28BF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InitializableManager::InitializableInfo* New_ctor(::Zenject::IInitializable* initializable, int priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::InitializableInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InitializableManager::InitializableInfo*, creationType>(initializable, priority)));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1DEF004
+    // Offset: 0x1E298D0
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1DEF110
+    // Offset: 0x1E299DC
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.InitializableManager/Zenject.InitializableInfo
   #pragma pack(pop)

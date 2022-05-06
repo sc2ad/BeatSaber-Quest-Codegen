@@ -60,7 +60,7 @@ namespace System::Xml {
     // Set static field: static public System.Xml.DtdProcessing Parse
     static void _set_Parse(::System::Xml::DtdProcessing value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Xml.DtdProcessing
   #pragma pack(pop)
   static check_size<sizeof(DtdProcessing), 0 + sizeof(int)> __System_Xml_DtdProcessingSizeCheck;

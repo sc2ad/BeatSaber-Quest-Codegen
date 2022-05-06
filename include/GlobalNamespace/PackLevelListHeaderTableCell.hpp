@@ -48,15 +48,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PackLevelListHeaderTableCell : public ::HMUI::TableCell {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Color _selectedHighlightElementsColor
     // Size: 0x10
     // Offset: 0x58
@@ -95,49 +87,40 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Threading::CancellationTokenSource*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.Color _selectedHighlightElementsColor
-    ::UnityEngine::Color& dyn__selectedHighlightElementsColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__selectedHighlightElementsColor();
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
-    ::TMPro::TextMeshProUGUI*& dyn__text();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__text();
     // Get instance field reference: private UnityEngine.UI.Image _bgImage
-    ::UnityEngine::UI::Image*& dyn__bgImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__bgImage();
     // Get instance field reference: private UnityEngine.UI.Image _highlightImage
-    ::UnityEngine::UI::Image*& dyn__highlightImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__highlightImage();
     // Get instance field reference: private UnityEngine.UI.Image _arrowImage
-    ::UnityEngine::UI::Image*& dyn__arrowImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__arrowImage();
     // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    ::System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // public System.String get_text()
-    // Offset: 0x12EB614
+    // Offset: 0x135C5CC
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x12EB5F8
+    // Offset: 0x135C5B0
     void set_text(::StringW value);
-    // private System.Void RefreshVisuals()
-    // Offset: 0x12EB634
-    void RefreshVisuals();
     // public System.Void .ctor()
-    // Offset: 0x12EB6C8
-    // Implemented from: HMUI.TableCell
-    // Base method: System.Void TableCell::.ctor()
-    // Base method: System.Void SelectableCell::.ctor()
-    // Base method: System.Void Interactable::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x135C680
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PackLevelListHeaderTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PackLevelListHeaderTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PackLevelListHeaderTableCell*, creationType>()));
     }
+    // private System.Void RefreshVisuals()
+    // Offset: 0x135C5EC
+    void RefreshVisuals();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x12EB630
+    // Offset: 0x135C5E8
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(::HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x12EB6C4
+    // Offset: 0x135C67C
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(::HMUI::SelectableCell::TransitionType transitionType);
@@ -164,6 +147,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PackLevelListHeaderTableCell*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PackLevelListHeaderTableCell::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PackLevelListHeaderTableCell::RefreshVisuals
 // Il2CppName: RefreshVisuals
 template<>
@@ -172,10 +159,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PackLevelListHeaderTableCell*), "RefreshVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PackLevelListHeaderTableCell::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PackLevelListHeaderTableCell::SelectionDidChange
 // Il2CppName: SelectionDidChange
 template<>

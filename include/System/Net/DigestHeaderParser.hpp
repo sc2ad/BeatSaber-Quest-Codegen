@@ -28,15 +28,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class DigestHeaderParser : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String header
     // Size: 0x8
     // Offset: 0x10
@@ -67,49 +59,49 @@ namespace System::Net {
     // Set static field: static private System.String[] keywords
     static void _set_keywords(::ArrayW<::StringW> value);
     // Get instance field reference: private System.String header
-    ::StringW& dyn_header();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_header();
     // Get instance field reference: private System.Int32 length
-    int& dyn_length();
+    [[deprecated("Use field access instead!")]] int& dyn_length();
     // Get instance field reference: private System.Int32 pos
-    int& dyn_pos();
+    [[deprecated("Use field access instead!")]] int& dyn_pos();
     // Get instance field reference: private System.String[] values
-    ::ArrayW<::StringW>& dyn_values();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_values();
     // public System.String get_Realm()
-    // Offset: 0x1A3FC2C
+    // Offset: 0x1A79214
     ::StringW get_Realm();
     // public System.String get_Opaque()
-    // Offset: 0x1A3FC60
+    // Offset: 0x1A79248
     ::StringW get_Opaque();
     // public System.String get_Nonce()
-    // Offset: 0x1A3FC98
+    // Offset: 0x1A79280
     ::StringW get_Nonce();
     // public System.String get_Algorithm()
-    // Offset: 0x1A3FCD0
+    // Offset: 0x1A792B8
     ::StringW get_Algorithm();
     // public System.String get_QOP()
-    // Offset: 0x1A3FD08
+    // Offset: 0x1A792F0
     ::StringW get_QOP();
     // public System.Void .ctor(System.String header)
-    // Offset: 0x1A3FB74
+    // Offset: 0x1A7915C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DigestHeaderParser* New_ctor(::StringW header) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::DigestHeaderParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DigestHeaderParser*, creationType>(header)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1A401E4
+    // Offset: 0x1A797CC
     static void _cctor();
     // public System.Boolean Parse()
-    // Offset: 0x1A3FD40
+    // Offset: 0x1A79328
     bool Parse();
     // private System.Void SkipWhitespace()
-    // Offset: 0x1A400C4
+    // Offset: 0x1A796AC
     void SkipWhitespace();
     // private System.String GetKey()
-    // Offset: 0x1A40150
+    // Offset: 0x1A79738
     ::StringW GetKey();
     // private System.Boolean GetKeywordAndValue(out System.String key, out System.String value)
-    // Offset: 0x1A3FF28
+    // Offset: 0x1A79510
     bool GetKeywordAndValue(ByRef<::StringW> key, ByRef<::StringW> value);
   }; // System.Net.DigestHeaderParser
   #pragma pack(pop)

@@ -30,15 +30,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class ServicePointManager::SPKey : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Uri uri
     // Size: 0x8
     // Offset: 0x10
@@ -59,28 +51,28 @@ namespace System::Net {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Uri uri
-    ::System::Uri*& dyn_uri();
+    [[deprecated("Use field access instead!")]] ::System::Uri*& dyn_uri();
     // Get instance field reference: private System.Uri proxy
-    ::System::Uri*& dyn_proxy();
+    [[deprecated("Use field access instead!")]] ::System::Uri*& dyn_proxy();
     // Get instance field reference: private System.Boolean use_connect
-    bool& dyn_use_connect();
+    [[deprecated("Use field access instead!")]] bool& dyn_use_connect();
     // public System.Boolean get_UsesProxy()
-    // Offset: 0x1B34758
+    // Offset: 0x1B6ED40
     bool get_UsesProxy();
     // public System.Void .ctor(System.Uri uri, System.Uri proxy, System.Boolean use_connect)
-    // Offset: 0x1B3439C
+    // Offset: 0x1B6E984
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServicePointManager::SPKey* New_ctor(::System::Uri* uri, ::System::Uri* proxy, bool use_connect) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::ServicePointManager::SPKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServicePointManager::SPKey*, creationType>(uri, proxy, use_connect)));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1B347C8
+    // Offset: 0x1B6EDB0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1B348AC
+    // Offset: 0x1B6EE94
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

@@ -25,15 +25,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator : public ::Il2CppObject/*, public ::System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.IEnumerator e
     // Size: 0x8
     // Offset: 0x10
@@ -50,22 +42,22 @@ namespace Org::BouncyCastle::Asn1::X509 {
       return e;
     }
     // Get instance field reference: private readonly System.Collections.IEnumerator e
-    ::System::Collections::IEnumerator*& dyn_e();
+    [[deprecated("Use field access instead!")]] ::System::Collections::IEnumerator*& dyn_e();
     // public System.Object get_Current()
-    // Offset: 0x1ECA178
+    // Offset: 0x1F176B0
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Collections.IEnumerator e)
-    // Offset: 0x1EC9FE8
+    // Offset: 0x1F17520
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator* New_ctor(::System::Collections::IEnumerator* e) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator*, creationType>(e)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1ECA014
+    // Offset: 0x1F1754C
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1ECA0C4
+    // Offset: 0x1F175FC
     void Reset();
   }; // Org.BouncyCastle.Asn1.X509.TbsCertificateList/Org.BouncyCastle.Asn1.X509.RevokedCertificatesEnumeration/Org.BouncyCastle.Asn1.X509.RevokedCertificatesEnumerator
   #pragma pack(pop)

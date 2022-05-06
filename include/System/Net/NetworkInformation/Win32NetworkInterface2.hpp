@@ -44,15 +44,7 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class Win32NetworkInterface2 : public ::System::Net::NetworkInformation::NetworkInterface {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr
     // Size: 0x108
     // Offset: 0x10
@@ -85,42 +77,42 @@ namespace System::Net::NetworkInformation {
     static_assert(sizeof(::System::Net::NetworkInformation::IPInterfaceProperties*) == 0x8);
     public:
     // Get instance field reference: private System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr
-    ::System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES& dyn_addr();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES& dyn_addr();
     // Get instance field reference: private System.Net.NetworkInformation.Win32_MIB_IFROW mib4
-    ::System::Net::NetworkInformation::Win32_MIB_IFROW& dyn_mib4();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::Win32_MIB_IFROW& dyn_mib4();
     // Get instance field reference: private System.Net.NetworkInformation.Win32_MIB_IFROW mib6
-    ::System::Net::NetworkInformation::Win32_MIB_IFROW& dyn_mib6();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::Win32_MIB_IFROW& dyn_mib6();
     // Get instance field reference: private System.Net.NetworkInformation.Win32IPv4InterfaceStatistics ip4stats
-    ::System::Net::NetworkInformation::Win32IPv4InterfaceStatistics*& dyn_ip4stats();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::Win32IPv4InterfaceStatistics*& dyn_ip4stats();
     // Get instance field reference: private System.Net.NetworkInformation.IPInterfaceProperties ip_if_props
-    ::System::Net::NetworkInformation::IPInterfaceProperties*& dyn_ip_if_props();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::IPInterfaceProperties*& dyn_ip_if_props();
     // System.Void .ctor(System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr)
-    // Offset: 0x1B2C490
+    // Offset: 0x1B66A78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32NetworkInterface2* New_ctor(::System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES addr) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::Win32NetworkInterface2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32NetworkInterface2*, creationType>(addr)));
     }
     // static private System.Int32 GetIfEntry(ref System.Net.NetworkInformation.Win32_MIB_IFROW row)
-    // Offset: 0x1B2D9C0
+    // Offset: 0x1B67FA8
     static int GetIfEntry(ByRef<::System::Net::NetworkInformation::Win32_MIB_IFROW> row);
     // public override System.String get_Name()
-    // Offset: 0x1B2DAA4
+    // Offset: 0x1B6808C
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.String NetworkInterface::get_Name()
     ::StringW get_Name();
     // public override System.Net.NetworkInformation.NetworkInterfaceType get_NetworkInterfaceType()
-    // Offset: 0x1B2DAAC
+    // Offset: 0x1B68094
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.NetworkInterfaceType NetworkInterface::get_NetworkInterfaceType()
     ::System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
     // public override System.Net.NetworkInformation.OperationalStatus get_OperationalStatus()
-    // Offset: 0x1B2DAB4
+    // Offset: 0x1B6809C
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.OperationalStatus NetworkInterface::get_OperationalStatus()
     ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
     // public override System.Net.NetworkInformation.IPInterfaceProperties GetIPProperties()
-    // Offset: 0x1B2DA9C
+    // Offset: 0x1B68084
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.IPInterfaceProperties NetworkInterface::GetIPProperties()
     ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();

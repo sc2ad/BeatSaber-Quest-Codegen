@@ -42,15 +42,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class LobbyGameStateController::$$c__DisplayClass98_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public LobbyGameStateController <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -71,35 +63,37 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*) == 0x8);
     public:
     // Get instance field reference: public LobbyGameStateController <>4__this
-    ::GlobalNamespace::LobbyGameStateController*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LobbyGameStateController*& dyn_$$4__this();
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<MultiplayerGameState> getGameStateAsyncTcs
-    ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::MultiplayerGameState>*& dyn_getGameStateAsyncTcs();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::MultiplayerGameState>*& dyn_getGameStateAsyncTcs();
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<PlayersLobbyPermissionConfigurationNetSerializable> getPlayerPermissionAsyncTcs
-    ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*& dyn_getPlayerPermissionAsyncTcs();
-    // System.Void <GetGameStateAndConfigurationAsync>g__HandleSetMultiplayerGameState|0(System.String userId, MultiplayerGameState newMultiplayerGameState)
-    // Offset: 0x1497540
-    void $GetGameStateAndConfigurationAsync$g__HandleSetMultiplayerGameState_0(::StringW userId, ::GlobalNamespace::MultiplayerGameState newMultiplayerGameState);
-    // System.Void <GetGameStateAndConfigurationAsync>g__HandleSetPlayerPermissionConfiguration|1(System.String userId, PlayersLobbyPermissionConfigurationNetSerializable playersLobbyPermissionConfiguration)
-    // Offset: 0x1497798
-    void $GetGameStateAndConfigurationAsync$g__HandleSetPlayerPermissionConfiguration_1(::StringW userId, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersLobbyPermissionConfiguration);
-    // System.Boolean <GetGameStateAndConfigurationAsync>b__2(PlayerLobbyPermissionConfigurationNetSerializable p)
-    // Offset: 0x149794C
-    bool $GetGameStateAndConfigurationAsync$b__2(::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* p);
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*& dyn_getPlayerPermissionAsyncTcs();
     // public System.Void .ctor()
-    // Offset: 0x1495AAC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14CC364
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LobbyGameStateController::$$c__DisplayClass98_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LobbyGameStateController::$$c__DisplayClass98_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LobbyGameStateController::$$c__DisplayClass98_0*, creationType>()));
     }
+    // System.Void <GetGameStateAndConfigurationAsync>g__HandleSetMultiplayerGameState|0(System.String userId, MultiplayerGameState newMultiplayerGameState)
+    // Offset: 0x14CDDF8
+    void $GetGameStateAndConfigurationAsync$g__HandleSetMultiplayerGameState_0(::StringW userId, ::GlobalNamespace::MultiplayerGameState newMultiplayerGameState);
+    // System.Void <GetGameStateAndConfigurationAsync>g__HandleSetPlayerPermissionConfiguration|1(System.String userId, PlayersLobbyPermissionConfigurationNetSerializable playersLobbyPermissionConfiguration)
+    // Offset: 0x14CE050
+    void $GetGameStateAndConfigurationAsync$g__HandleSetPlayerPermissionConfiguration_1(::StringW userId, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersLobbyPermissionConfiguration);
+    // System.Boolean <GetGameStateAndConfigurationAsync>b__2(PlayerLobbyPermissionConfigurationNetSerializable p)
+    // Offset: 0x14CE204
+    bool $GetGameStateAndConfigurationAsync$b__2(::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* p);
   }; // LobbyGameStateController/<>c__DisplayClass98_0
   #pragma pack(pop)
   static check_size<sizeof(LobbyGameStateController::$$c__DisplayClass98_0), 32 + sizeof(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*)> __GlobalNamespace_LobbyGameStateController_$$c__DisplayClass98_0SizeCheck;
   static_assert(sizeof(LobbyGameStateController::$$c__DisplayClass98_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateController::$$c__DisplayClass98_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateController::$$c__DisplayClass98_0::$GetGameStateAndConfigurationAsync$g__HandleSetMultiplayerGameState_0
 // Il2CppName: <GetGameStateAndConfigurationAsync>g__HandleSetMultiplayerGameState|0
 template<>
@@ -129,7 +123,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyGameStateController::$$c__DisplayClass98_0*), "<GetGameStateAndConfigurationAsync>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateController::$$c__DisplayClass98_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

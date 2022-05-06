@@ -58,15 +58,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::FlyingScoreEffect::Pool
     class Pool;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.AnimationCurve _fadeAnimationCurve
     // Size: 0x8
     // Offset: 0x80
@@ -121,50 +113,45 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>(this);
     }
     // Get instance field reference: private UnityEngine.AnimationCurve _fadeAnimationCurve
-    ::UnityEngine::AnimationCurve*& dyn__fadeAnimationCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__fadeAnimationCurve();
     // Get instance field reference: private UnityEngine.SpriteRenderer _maxCutDistanceScoreIndicator
-    ::UnityEngine::SpriteRenderer*& dyn__maxCutDistanceScoreIndicator();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::SpriteRenderer*& dyn__maxCutDistanceScoreIndicator();
     // Get instance field reference: private TMPro.TextMeshPro _text
-    ::TMPro::TextMeshPro*& dyn__text();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshPro*& dyn__text();
     // Get instance field reference: private UnityEngine.Color _color
-    ::UnityEngine::Color& dyn__color();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // Get instance field reference: private System.Single _colorAMultiplier
-    float& dyn__colorAMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__colorAMultiplier();
     // Get instance field reference: private System.Boolean _registeredToCallbacks
-    bool& dyn__registeredToCallbacks();
+    [[deprecated("Use field access instead!")]] bool& dyn__registeredToCallbacks();
     // Get instance field reference: private IReadonlyCutScoreBuffer _cutScoreBuffer
-    ::GlobalNamespace::IReadonlyCutScoreBuffer*& dyn__cutScoreBuffer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IReadonlyCutScoreBuffer*& dyn__cutScoreBuffer();
     // public System.Void InitAndPresent(IReadonlyCutScoreBuffer cutScoreBuffer, System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Color color)
-    // Offset: 0x1390D10
+    // Offset: 0x1378824
     void InitAndPresent(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, float duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Color color);
     // public System.Void HandleCutScoreBufferDidChange(CutScoreBuffer cutScoreBuffer)
-    // Offset: 0x139136C
+    // Offset: 0x1378E80
     void HandleCutScoreBufferDidChange(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
     // private System.Void RefreshScore(System.Int32 score, System.Int32 maxPossibleCutScore)
-    // Offset: 0x1391254
+    // Offset: 0x1378D68
     void RefreshScore(int score, int maxPossibleCutScore);
     // public System.Void HandleCutScoreBufferDidFinish(CutScoreBuffer cutScoreBuffer)
-    // Offset: 0x13913C4
+    // Offset: 0x1378ED8
     void HandleCutScoreBufferDidFinish(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
     // private System.Void UnregisterCallbacksIfNeeded()
-    // Offset: 0x13913C8
+    // Offset: 0x1378EDC
     void UnregisterCallbacksIfNeeded();
     // public System.Void .ctor()
-    // Offset: 0x1391514
+    // Offset: 0x1379028
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlyingScoreEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FlyingScoreEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlyingScoreEffect*, creationType>()));
     }
     // protected override System.Void ManualUpdate(System.Single t)
-    // Offset: 0x13912D8
+    // Offset: 0x1378DEC
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::ManualUpdate(System.Single t)
     void ManualUpdate(float t);

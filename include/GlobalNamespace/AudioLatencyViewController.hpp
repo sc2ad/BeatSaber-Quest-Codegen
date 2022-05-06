@@ -58,15 +58,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AudioLatencyViewController : public ::HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private FloatSO _audioLatency
     // Size: 0x8
     // Offset: 0x70
@@ -79,7 +71,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BoolSO* overrideAudioLatency;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125A840
+    // [SpaceAttribute] Offset: 0x10DF424
     // private UnityEngine.CanvasGroup _setupCanvasGroup
     // Size: 0x8
     // Offset: 0x80
@@ -104,7 +96,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::VisualMetronome* visualMetronome;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::VisualMetronome*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125A8A8
+    // [SpaceAttribute] Offset: 0x10DF48C
     // private System.Single _disabledAlpha
     // Size: 0x4
     // Offset: 0xA0
@@ -113,7 +105,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: disabledAlpha and: songPreviewPlayer
     char __padding6[0x4] = {};
-    // [InjectAttribute] Offset: 0x125A8E0
+    // [InjectAttribute] Offset: 0x10DF4C4
     // private readonly SongPreviewPlayer _songPreviewPlayer
     // Size: 0x8
     // Offset: 0xA8
@@ -128,58 +120,51 @@ namespace GlobalNamespace {
     static_assert(sizeof(::HMUI::ToggleBinder*) == 0x8);
     public:
     // Get instance field reference: private FloatSO _audioLatency
-    ::GlobalNamespace::FloatSO*& dyn__audioLatency();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FloatSO*& dyn__audioLatency();
     // Get instance field reference: private BoolSO _overrideAudioLatency
-    ::GlobalNamespace::BoolSO*& dyn__overrideAudioLatency();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn__overrideAudioLatency();
     // Get instance field reference: private UnityEngine.CanvasGroup _setupCanvasGroup
-    ::UnityEngine::CanvasGroup*& dyn__setupCanvasGroup();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::CanvasGroup*& dyn__setupCanvasGroup();
     // Get instance field reference: private UnityEngine.UI.Toggle _overrideAudioLatencyToggle
-    ::UnityEngine::UI::Toggle*& dyn__overrideAudioLatencyToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__overrideAudioLatencyToggle();
     // Get instance field reference: private HMUI.RangeValuesTextSlider _slider
-    ::HMUI::RangeValuesTextSlider*& dyn__slider();
+    [[deprecated("Use field access instead!")]] ::HMUI::RangeValuesTextSlider*& dyn__slider();
     // Get instance field reference: private VisualMetronome _visualMetronome
-    ::GlobalNamespace::VisualMetronome*& dyn__visualMetronome();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VisualMetronome*& dyn__visualMetronome();
     // Get instance field reference: private System.Single _disabledAlpha
-    float& dyn__disabledAlpha();
+    [[deprecated("Use field access instead!")]] float& dyn__disabledAlpha();
     // Get instance field reference: private readonly SongPreviewPlayer _songPreviewPlayer
-    ::GlobalNamespace::SongPreviewPlayer*& dyn__songPreviewPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongPreviewPlayer*& dyn__songPreviewPlayer();
     // Get instance field reference: private HMUI.ToggleBinder _toggleBinder
-    ::HMUI::ToggleBinder*& dyn__toggleBinder();
-    // private System.Void SliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0x14B9528
-    void SliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float value);
-    // private System.Void HandleOverrideAudioLatencyToggleValueChanged(System.Boolean isOn)
-    // Offset: 0x14B95A4
-    void HandleOverrideAudioLatencyToggleValueChanged(bool isOn);
-    // private System.Void RefreshVisuals(System.Boolean overrideAudioLatencyIsEnabled)
-    // Offset: 0x14B9320
-    void RefreshVisuals(bool overrideAudioLatencyIsEnabled);
+    [[deprecated("Use field access instead!")]] ::HMUI::ToggleBinder*& dyn__toggleBinder();
     // public System.Void .ctor()
-    // Offset: 0x14B961C
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14F0ED4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioLatencyViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AudioLatencyViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioLatencyViewController*, creationType>()));
     }
+    // private System.Void SliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
+    // Offset: 0x14F0DE0
+    void SliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float value);
+    // private System.Void HandleOverrideAudioLatencyToggleValueChanged(System.Boolean isOn)
+    // Offset: 0x14F0E5C
+    void HandleOverrideAudioLatencyToggleValueChanged(bool isOn);
+    // private System.Void RefreshVisuals(System.Boolean overrideAudioLatencyIsEnabled)
+    // Offset: 0x14F0BD8
+    void RefreshVisuals(bool overrideAudioLatencyIsEnabled);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x14B912C
+    // Offset: 0x14F09E4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x14B941C
+    // Offset: 0x14F0CD4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x14B9440
+    // Offset: 0x14F0CF8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
@@ -189,6 +174,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(AudioLatencyViewController) == 0xB8);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::AudioLatencyViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AudioLatencyViewController::SliderValueDidChange
 // Il2CppName: SliderValueDidChange
 template<>
@@ -217,10 +206,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioLatencyViewController*), "RefreshVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{overrideAudioLatencyIsEnabled});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AudioLatencyViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AudioLatencyViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

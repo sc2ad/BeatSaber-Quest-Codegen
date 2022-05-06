@@ -103,27 +103,27 @@ namespace UnityEngine::ResourceManagement::Util {
       // Set static field: static private System.Int32 s_Id
       static void _set_s_Id(int value);
       // Get instance field reference: private System.Int32 m_Id
-      int& dyn_m_Id();
+      [[deprecated("Use field access instead!")]] int& dyn_m_Id();
       // Get instance field reference: private System.Delegate m_Delegate
-      ::System::Delegate*& dyn_m_Delegate();
+      [[deprecated("Use field access instead!")]] ::System::Delegate*& dyn_m_Delegate();
       // Get instance field reference: private System.Object[] m_Target
-      ::ArrayW<::Il2CppObject*>& dyn_m_Target();
+      [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppObject*>& dyn_m_Target();
       // Get instance field reference: private System.Single <InvocationTime>k__BackingField
-      float& dyn_$InvocationTime$k__BackingField();
+      [[deprecated("Use field access instead!")]] float& dyn_$InvocationTime$k__BackingField();
       // public System.Single get_InvocationTime()
-      // Offset: 0x1EA304C
+      // Offset: 0x1EF1584
       float get_InvocationTime();
       // private System.Void set_InvocationTime(System.Single value)
-      // Offset: 0x1EA3054
+      // Offset: 0x1EF158C
       void set_InvocationTime(float value);
       // public System.Void .ctor(System.Delegate d, System.Single invocationTime, params System.Object[] p)
-      // Offset: 0x1EA271C
+      // Offset: 0x1EF0C54
       DelegateInfo(::System::Delegate* d, float invocationTime, ::ArrayW<::Il2CppObject*> p);
       // public System.Void Invoke()
-      // Offset: 0x1EA2C74
+      // Offset: 0x1EF11AC
       void Invoke();
       // public override System.String ToString()
-      // Offset: 0x1EA305C
+      // Offset: 0x1EF1594
       // Implemented from: System.ValueType
       // Base method: System.String ValueType::ToString()
       ::StringW ToString();
@@ -131,15 +131,7 @@ namespace UnityEngine::ResourceManagement::Util {
     #pragma pack(pop)
     static check_size<sizeof(DelayedActionManager::DelegateInfo), 24 + sizeof(float)> __UnityEngine_ResourceManagement_Util_DelayedActionManager_DelegateInfoSizeCheck;
     static_assert(sizeof(DelayedActionManager::DelegateInfo) == 0x1C);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo>[] m_Actions
     // Size: 0x8
     // Offset: 0x18
@@ -174,54 +166,49 @@ namespace UnityEngine::ResourceManagement::Util {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo>[] m_Actions
-    ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*>& dyn_m_Actions();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*>& dyn_m_Actions();
     // Get instance field reference: private System.Collections.Generic.LinkedList`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo> m_DelayedActions
-    ::System::Collections::Generic::LinkedList_1<::UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*& dyn_m_DelayedActions();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::LinkedList_1<::UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*& dyn_m_DelayedActions();
     // Get instance field reference: private System.Collections.Generic.Stack`1<System.Collections.Generic.LinkedListNode`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo>> m_NodeCache
-    ::System::Collections::Generic::Stack_1<::System::Collections::Generic::LinkedListNode_1<::UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*>*& dyn_m_NodeCache();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Stack_1<::System::Collections::Generic::LinkedListNode_1<::UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*>*& dyn_m_NodeCache();
     // Get instance field reference: private System.Int32 m_CollectionIndex
-    int& dyn_m_CollectionIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_m_CollectionIndex();
     // Get instance field reference: private System.Boolean m_DestroyOnCompletion
-    bool& dyn_m_DestroyOnCompletion();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_DestroyOnCompletion();
     // static public System.Boolean get_IsActive()
-    // Offset: 0x1EA27A4
+    // Offset: 0x1EF0CDC
     static bool get_IsActive();
     // private System.Collections.Generic.LinkedListNode`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo> GetNode(ref UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo del)
-    // Offset: 0x1EA2350
+    // Offset: 0x1EF0888
     ::System::Collections::Generic::LinkedListNode_1<::UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>* GetNode(ByRef<::UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo> del);
     // static public System.Void Clear()
-    // Offset: 0x1EA2428
+    // Offset: 0x1EF0960
     static void Clear();
     // private System.Void DestroyWhenComplete()
-    // Offset: 0x1EA2498
+    // Offset: 0x1EF09D0
     void DestroyWhenComplete();
     // static public System.Void AddAction(System.Delegate action, System.Single delay, params System.Object[] parameters)
-    // Offset: 0x1EA24A4
+    // Offset: 0x1EF09DC
     static void AddAction(::System::Delegate* action, float delay, ::ArrayW<::Il2CppObject*> parameters);
     // private System.Void AddActionInternal(System.Delegate action, System.Single delay, params System.Object[] parameters)
-    // Offset: 0x1EA2520
+    // Offset: 0x1EF0A58
     void AddActionInternal(::System::Delegate* action, float delay, ::ArrayW<::Il2CppObject*> parameters);
     // static public System.Boolean Wait(System.Single timeout, System.Single timeAdvanceAmount)
-    // Offset: 0x1EA28A4
+    // Offset: 0x1EF0DDC
     static bool Wait(float timeout, float timeAdvanceAmount);
     // private System.Void LateUpdate()
-    // Offset: 0x1EA2C4C
+    // Offset: 0x1EF1184
     void LateUpdate();
     // private System.Void InternalLateUpdate(System.Single t)
-    // Offset: 0x1EA29D8
+    // Offset: 0x1EF0F10
     void InternalLateUpdate(float t);
     // private System.Void OnApplicationQuit()
-    // Offset: 0x1EA2E28
+    // Offset: 0x1EF1360
     void OnApplicationQuit();
     // public System.Void .ctor()
-    // Offset: 0x1EA2ED4
+    // Offset: 0x1EF140C
     // Implemented from: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
     // Base method: System.Void ComponentSingleton_1::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DelayedActionManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Util::DelayedActionManager::.ctor");

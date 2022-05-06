@@ -67,7 +67,7 @@ namespace Mono::Security::Interface {
     // Set static field: static public Mono.Security.Interface.MonoSslPolicyErrors RemoteCertificateChainErrors
     static void _set_RemoteCertificateChainErrors(::Mono::Security::Interface::MonoSslPolicyErrors value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Mono.Security.Interface.MonoSslPolicyErrors
   #pragma pack(pop)
   static check_size<sizeof(MonoSslPolicyErrors), 0 + sizeof(int)> __Mono_Security_Interface_MonoSslPolicyErrorsSizeCheck;

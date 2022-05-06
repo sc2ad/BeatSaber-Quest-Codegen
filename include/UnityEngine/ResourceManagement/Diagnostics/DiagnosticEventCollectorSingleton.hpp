@@ -60,15 +60,7 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     public:
     // Nested type: ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> m_CreatedEvents
     // Size: 0x8
     // Offset: 0x18
@@ -113,56 +105,51 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     // Set static field: static private System.Guid s_editorConnectionGuid
     static void _set_s_editorConnectionGuid(::System::Guid value);
     // Get instance field reference: System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> m_CreatedEvents
-    ::System::Collections::Generic::Dictionary_2<int, ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*& dyn_m_CreatedEvents();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*& dyn_m_CreatedEvents();
     // Get instance field reference: System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> m_UnhandledEvents
-    ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*& dyn_m_UnhandledEvents();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*& dyn_m_UnhandledEvents();
     // Get instance field reference: DelegateList`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> s_EventHandlers
-    ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*& dyn_s_EventHandlers();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*& dyn_s_EventHandlers();
     // Get instance field reference: private System.Single m_lastTickSent
-    float& dyn_m_lastTickSent();
+    [[deprecated("Use field access instead!")]] float& dyn_m_lastTickSent();
     // Get instance field reference: private System.Int32 m_lastFrame
-    int& dyn_m_lastFrame();
+    [[deprecated("Use field access instead!")]] int& dyn_m_lastFrame();
     // Get instance field reference: private System.Single fpsAvg
-    float& dyn_fpsAvg();
+    [[deprecated("Use field access instead!")]] float& dyn_fpsAvg();
     // static public System.Guid get_PlayerConnectionGuid()
-    // Offset: 0x1E96180
+    // Offset: 0x1EE46B8
     static ::System::Guid get_PlayerConnectionGuid();
     // static public System.Boolean RegisterEventHandler(System.Action`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> handler, System.Boolean register, System.Boolean create)
-    // Offset: 0x1E96428
+    // Offset: 0x1EE4960
     static bool RegisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler, bool _register, bool create);
     // System.Void RegisterEventHandler(System.Action`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> handler)
-    // Offset: 0x1E96858
+    // Offset: 0x1EE4D90
     void RegisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler);
     // public System.Void UnregisterEventHandler(System.Action`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> handler)
-    // Offset: 0x1E9654C
+    // Offset: 0x1EE4A84
     void UnregisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler);
     // public System.Void PostEvent(UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent diagnosticEvent)
-    // Offset: 0x1E9667C
+    // Offset: 0x1EE4BB4
     void PostEvent(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent diagnosticEvent);
     // private System.Void Update()
-    // Offset: 0x1E96D30
+    // Offset: 0x1EE5268
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1E96ED4
+    // Offset: 0x1EE540C
     // Implemented from: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
     // Base method: System.Void ComponentSingleton_1::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiagnosticEventCollectorSingleton* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiagnosticEventCollectorSingleton*, creationType>()));
     }
     // protected override System.String GetGameObjectName()
-    // Offset: 0x1E96810
+    // Offset: 0x1EE4D48
     // Implemented from: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
     // Base method: System.String ComponentSingleton_1::GetGameObjectName()
     ::StringW GetGameObjectName();
     // private System.Void Awake()
-    // Offset: 0x1E96C48
+    // Offset: 0x1EE5180
     // Implemented from: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
     // Base method: System.Void ComponentSingleton_1::Awake()
     void Awake();

@@ -31,15 +31,7 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class NatPunchModule::NatIntroduceRequestPacket : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Net.IPEndPoint <Internal>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -54,25 +46,23 @@ namespace LiteNetLib {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.Net.IPEndPoint <Internal>k__BackingField
-    ::System::Net::IPEndPoint*& dyn_$Internal$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Net::IPEndPoint*& dyn_$Internal$k__BackingField();
     // Get instance field reference: private System.String <Token>k__BackingField
-    ::StringW& dyn_$Token$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$Token$k__BackingField();
     // public System.Net.IPEndPoint get_Internal()
-    // Offset: 0x2164554
+    // Offset: 0x21AFDC8
     ::System::Net::IPEndPoint* get_Internal();
     // public System.Void set_Internal(System.Net.IPEndPoint value)
-    // Offset: 0x216455C
+    // Offset: 0x21AFDD0
     void set_Internal(::System::Net::IPEndPoint* value);
     // public System.String get_Token()
-    // Offset: 0x2164564
+    // Offset: 0x21AFDD8
     ::StringW get_Token();
     // public System.Void set_Token(System.String value)
-    // Offset: 0x216456C
+    // Offset: 0x21AFDE0
     void set_Token(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x2163E24
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x21AF698
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NatPunchModule::NatIntroduceRequestPacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::.ctor");

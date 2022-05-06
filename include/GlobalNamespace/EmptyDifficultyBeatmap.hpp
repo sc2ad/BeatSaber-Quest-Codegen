@@ -59,15 +59,7 @@ namespace GlobalNamespace {
     struct $GetBeatmapDataBasicInfoAsync$d__20;
     // Nested type: ::GlobalNamespace::EmptyDifficultyBeatmap::$GetBeatmapDataAsync$d__21
     struct $GetBeatmapDataAsync$d__21;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly IBeatmapLevel <level>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -116,55 +108,53 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IDifficultyBeatmap*>(this);
     }
     // Get instance field reference: private readonly IBeatmapLevel <level>k__BackingField
-    ::GlobalNamespace::IBeatmapLevel*& dyn_$level$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatmapLevel*& dyn_$level$k__BackingField();
     // Get instance field reference: private readonly IDifficultyBeatmapSet <parentDifficultyBeatmapSet>k__BackingField
-    ::GlobalNamespace::IDifficultyBeatmapSet*& dyn_$parentDifficultyBeatmapSet$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IDifficultyBeatmapSet*& dyn_$parentDifficultyBeatmapSet$k__BackingField();
     // Get instance field reference: private readonly BeatmapDifficulty <difficulty>k__BackingField
-    ::GlobalNamespace::BeatmapDifficulty& dyn_$difficulty$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficulty& dyn_$difficulty$k__BackingField();
     // Get instance field reference: private readonly System.Int32 <difficultyRank>k__BackingField
-    int& dyn_$difficultyRank$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$difficultyRank$k__BackingField();
     // Get instance field reference: private readonly System.Single <noteJumpMovementSpeed>k__BackingField
-    float& dyn_$noteJumpMovementSpeed$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$noteJumpMovementSpeed$k__BackingField();
     // Get instance field reference: private readonly System.Single <noteJumpStartBeatOffset>k__BackingField
-    float& dyn_$noteJumpStartBeatOffset$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$noteJumpStartBeatOffset$k__BackingField();
     // Get instance field reference: private BeatmapData _beatmapData
-    ::GlobalNamespace::BeatmapData*& dyn__beatmapData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapData*& dyn__beatmapData();
     // public IBeatmapLevel get_level()
-    // Offset: 0x1416528
+    // Offset: 0x14362D4
     ::GlobalNamespace::IBeatmapLevel* get_level();
     // public IDifficultyBeatmapSet get_parentDifficultyBeatmapSet()
-    // Offset: 0x1416530
+    // Offset: 0x14362DC
     ::GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet();
     // public BeatmapDifficulty get_difficulty()
-    // Offset: 0x1416538
+    // Offset: 0x14362E4
     ::GlobalNamespace::BeatmapDifficulty get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0x1416540
+    // Offset: 0x14362EC
     int get_difficultyRank();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x1416548
+    // Offset: 0x14362F4
     float get_noteJumpMovementSpeed();
     // public System.Single get_noteJumpStartBeatOffset()
-    // Offset: 0x1416550
+    // Offset: 0x14362FC
     float get_noteJumpStartBeatOffset();
     // public IBeatmapDataBasicInfo get_beatmapDataBasicInfo()
-    // Offset: 0x1416558
+    // Offset: 0x1436304
     ::GlobalNamespace::IBeatmapDataBasicInfo* get_beatmapDataBasicInfo();
-    // public System.Threading.Tasks.Task`1<IBeatmapDataBasicInfo> GetBeatmapDataBasicInfoAsync()
-    // Offset: 0x1416560
-    ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapDataBasicInfo*>* GetBeatmapDataBasicInfoAsync();
-    // public System.Threading.Tasks.Task`1<IReadonlyBeatmapData> GetBeatmapDataAsync(EnvironmentInfoSO environmentInfo, PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0x1416660
-    ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* GetBeatmapDataAsync(::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
     // public System.Void .ctor()
-    // Offset: 0x1416760
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x143650C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EmptyDifficultyBeatmap* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EmptyDifficultyBeatmap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmptyDifficultyBeatmap*, creationType>()));
     }
+    // public System.Threading.Tasks.Task`1<IBeatmapDataBasicInfo> GetBeatmapDataBasicInfoAsync()
+    // Offset: 0x143630C
+    ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapDataBasicInfo*>* GetBeatmapDataBasicInfoAsync();
+    // public System.Threading.Tasks.Task`1<IReadonlyBeatmapData> GetBeatmapDataAsync(EnvironmentInfoSO environmentInfo, PlayerSpecificSettings playerSpecificSettings)
+    // Offset: 0x143640C
+    ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* GetBeatmapDataAsync(::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
   }; // EmptyDifficultyBeatmap
   #pragma pack(pop)
   static check_size<sizeof(EmptyDifficultyBeatmap), 48 + sizeof(::GlobalNamespace::BeatmapData*)> __GlobalNamespace_EmptyDifficultyBeatmapSizeCheck;
@@ -227,6 +217,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EmptyDifficultyBeatmap*), "get_beatmapDataBasicInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::EmptyDifficultyBeatmap::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EmptyDifficultyBeatmap::GetBeatmapDataBasicInfoAsync
 // Il2CppName: GetBeatmapDataBasicInfoAsync
 template<>
@@ -245,7 +239,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EmptyDifficultyBeatmap*), "GetBeatmapDataAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{environmentInfo, playerSpecificSettings});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::EmptyDifficultyBeatmap::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

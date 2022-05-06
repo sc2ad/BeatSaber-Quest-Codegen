@@ -70,7 +70,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.Texture2D/UnityEngine.EXRFlags CompressPIZ
     static void _set_CompressPIZ(::UnityEngine::Texture2D::EXRFlags value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.Texture2D/UnityEngine.EXRFlags
   #pragma pack(pop)
   static check_size<sizeof(Texture2D::EXRFlags), 0 + sizeof(int)> __UnityEngine_Texture2D_EXRFlagsSizeCheck;

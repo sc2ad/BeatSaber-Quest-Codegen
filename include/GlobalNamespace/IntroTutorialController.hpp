@@ -62,15 +62,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::IntroTutorialController::$ShowFinishAnimationCoroutine$d__22
     class $ShowFinishAnimationCoroutine$d__22;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private IntroTutorialRing _redRing
     // Size: 0x8
     // Offset: 0x18
@@ -107,21 +99,21 @@ namespace GlobalNamespace {
     ::UnityEngine::ParticleSystem* shockWavePS;
     // Field size check
     static_assert(sizeof(::UnityEngine::ParticleSystem*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125638C
+    // [SpaceAttribute] Offset: 0x10DAF70
     // private BloomFogEnvironmentParams _finishForParams
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::BloomFogEnvironmentParams* finishForParams;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BloomFogEnvironmentParams*) == 0x8);
-    // [InjectAttribute] Offset: 0x12563C4
+    // [InjectAttribute] Offset: 0x10DAFA8
     // private readonly BloomFogParamsAnimator _bloomFogAnimator
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::BloomFogParamsAnimator* bloomFogAnimator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BloomFogParamsAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0x12563D4
+    // [InjectAttribute] Offset: 0x10DAFB8
     // private readonly IGamePause _gamePause
     // Size: 0x8
     // Offset: 0x58
@@ -156,77 +148,71 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private IntroTutorialRing _redRing
-    ::GlobalNamespace::IntroTutorialRing*& dyn__redRing();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IntroTutorialRing*& dyn__redRing();
     // Get instance field reference: private IntroTutorialRing _blueRing
-    ::GlobalNamespace::IntroTutorialRing*& dyn__blueRing();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IntroTutorialRing*& dyn__blueRing();
     // Get instance field reference: private UnityEngine.GameObject _redRingWrapper
-    ::UnityEngine::GameObject*& dyn__redRingWrapper();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__redRingWrapper();
     // Get instance field reference: private UnityEngine.GameObject _blueRingWrapper
-    ::UnityEngine::GameObject*& dyn__blueRingWrapper();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__blueRingWrapper();
     // Get instance field reference: private UnityEngine.CanvasGroup _textCanvasGroup
-    ::UnityEngine::CanvasGroup*& dyn__textCanvasGroup();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::CanvasGroup*& dyn__textCanvasGroup();
     // Get instance field reference: private UnityEngine.ParticleSystem _shockWavePS
-    ::UnityEngine::ParticleSystem*& dyn__shockWavePS();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn__shockWavePS();
     // Get instance field reference: private BloomFogEnvironmentParams _finishForParams
-    ::GlobalNamespace::BloomFogEnvironmentParams*& dyn__finishForParams();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomFogEnvironmentParams*& dyn__finishForParams();
     // Get instance field reference: private readonly BloomFogParamsAnimator _bloomFogAnimator
-    ::GlobalNamespace::BloomFogParamsAnimator*& dyn__bloomFogAnimator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomFogParamsAnimator*& dyn__bloomFogAnimator();
     // Get instance field reference: private readonly IGamePause _gamePause
-    ::GlobalNamespace::IGamePause*& dyn__gamePause();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IGamePause*& dyn__gamePause();
     // Get instance field reference: private System.Action introTutorialDidFinishEvent
-    ::System::Action*& dyn_introTutorialDidFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_introTutorialDidFinishEvent();
     // Get instance field reference: private System.Boolean _showingFinishAnimation
-    bool& dyn__showingFinishAnimation();
+    [[deprecated("Use field access instead!")]] bool& dyn__showingFinishAnimation();
     // Get instance field reference: private System.Boolean _redRingWrapperActive
-    bool& dyn__redRingWrapperActive();
+    [[deprecated("Use field access instead!")]] bool& dyn__redRingWrapperActive();
     // Get instance field reference: private System.Boolean _blueRingWrapperActive
-    bool& dyn__blueRingWrapperActive();
+    [[deprecated("Use field access instead!")]] bool& dyn__blueRingWrapperActive();
     // public System.Void add_introTutorialDidFinishEvent(System.Action value)
-    // Offset: 0x13B4DD4
+    // Offset: 0x13B0280
     void add_introTutorialDidFinishEvent(::System::Action* value);
     // public System.Void remove_introTutorialDidFinishEvent(System.Action value)
-    // Offset: 0x13B4E78
+    // Offset: 0x13B0324
     void remove_introTutorialDidFinishEvent(::System::Action* value);
-    // protected System.Void Start()
-    // Offset: 0x13B4F1C
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13B50A4
-    void OnDestroy();
-    // protected System.Void Update()
-    // Offset: 0x13B5244
-    void Update();
-    // private System.Void CleanUp()
-    // Offset: 0x13B50A8
-    void CleanUp();
-    // private System.Void HandleGameDidPause()
-    // Offset: 0x13B5394
-    void HandleGameDidPause();
-    // private System.Void HandlegameDidResume()
-    // Offset: 0x13B5410
-    void HandlegameDidResume();
-    // private System.Void ShowFinishAnimation()
-    // Offset: 0x13B5308
-    void ShowFinishAnimation();
-    // private System.Collections.IEnumerator ShowFinishAnimationCoroutine()
-    // Offset: 0x13B5454
-    ::System::Collections::IEnumerator* ShowFinishAnimationCoroutine();
-    // private System.Void SetFinishAnimationParams(System.Single progress)
-    // Offset: 0x13B54F0
-    void SetFinishAnimationParams(float progress);
     // public System.Void .ctor()
-    // Offset: 0x13B5584
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13B0A30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IntroTutorialController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IntroTutorialController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IntroTutorialController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x13B03C8
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13B0550
+    void OnDestroy();
+    // protected System.Void Update()
+    // Offset: 0x13B06F0
+    void Update();
+    // private System.Void CleanUp()
+    // Offset: 0x13B0554
+    void CleanUp();
+    // private System.Void HandleGameDidPause()
+    // Offset: 0x13B0840
+    void HandleGameDidPause();
+    // private System.Void HandlegameDidResume()
+    // Offset: 0x13B08BC
+    void HandlegameDidResume();
+    // private System.Void ShowFinishAnimation()
+    // Offset: 0x13B07B4
+    void ShowFinishAnimation();
+    // private System.Collections.IEnumerator ShowFinishAnimationCoroutine()
+    // Offset: 0x13B0900
+    ::System::Collections::IEnumerator* ShowFinishAnimationCoroutine();
+    // private System.Void SetFinishAnimationParams(System.Single progress)
+    // Offset: 0x13B099C
+    void SetFinishAnimationParams(float progress);
   }; // IntroTutorialController
   #pragma pack(pop)
   static check_size<sizeof(IntroTutorialController), 106 + sizeof(bool)> __GlobalNamespace_IntroTutorialControllerSizeCheck;
@@ -251,6 +237,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialController*), "remove_introTutorialDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::IntroTutorialController::Start
 // Il2CppName: Start
 template<>
@@ -324,7 +314,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialController*), "SetFinishAnimationParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{progress});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

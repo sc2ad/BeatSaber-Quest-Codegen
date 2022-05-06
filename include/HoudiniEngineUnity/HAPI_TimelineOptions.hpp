@@ -50,11 +50,11 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single fps
-    float& dyn_fps();
+    [[deprecated("Use field access instead!")]] float& dyn_fps();
     // Get instance field reference: public System.Single startTime
-    float& dyn_startTime();
+    [[deprecated("Use field access instead!")]] float& dyn_startTime();
     // Get instance field reference: public System.Single endTime
-    float& dyn_endTime();
+    [[deprecated("Use field access instead!")]] float& dyn_endTime();
   }; // HoudiniEngineUnity.HAPI_TimelineOptions
   #pragma pack(pop)
   static check_size<sizeof(HAPI_TimelineOptions), 8 + sizeof(float)> __HoudiniEngineUnity_HAPI_TimelineOptionsSizeCheck;

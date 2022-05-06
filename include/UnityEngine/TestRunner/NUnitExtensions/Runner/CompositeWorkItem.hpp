@@ -44,8 +44,8 @@ namespace System::Collections::Generic {
   template<typename T>
   class List_1;
 }
-// Forward declaring namespace: NUnit::Framework::Internal::Execution
-namespace NUnit::Framework::Internal::Execution {
+// Forward declaring namespace: System::Threading
+namespace System::Threading {
   // Forward declaring type: CountdownEvent
   class CountdownEvent;
 }
@@ -77,15 +77,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     class $PerformWork$d__12;
     // Nested type: ::UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::$RunChildren$d__16
     class $RunChildren$d__16;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly NUnit.Framework.Internal.TestSuite _suite
     // Size: 0x8
     // Offset: 0x58
@@ -130,91 +122,91 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: countOrder and: childTestCountdown
     char __padding6[0x4] = {};
-    // private NUnit.Framework.Internal.Execution.CountdownEvent _childTestCountdown
+    // private System.Threading.CountdownEvent _childTestCountdown
     // Size: 0x8
     // Offset: 0x90
-    ::NUnit::Framework::Internal::Execution::CountdownEvent* childTestCountdown;
+    ::System::Threading::CountdownEvent* childTestCountdown;
     // Field size check
-    static_assert(sizeof(::NUnit::Framework::Internal::Execution::CountdownEvent*) == 0x8);
+    static_assert(sizeof(::System::Threading::CountdownEvent*) == 0x8);
     public:
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestSuite _suite
-    ::NUnit::Framework::Internal::TestSuite*& dyn__suite();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::TestSuite*& dyn__suite();
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestSuiteResult _suiteResult
-    ::NUnit::Framework::Internal::TestSuiteResult*& dyn__suiteResult();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::TestSuiteResult*& dyn__suiteResult();
     // Get instance field reference: private readonly NUnit.Framework.Interfaces.ITestFilter _childFilter
-    ::NUnit::Framework::Interfaces::ITestFilter*& dyn__childFilter();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Interfaces::ITestFilter*& dyn__childFilter();
     // Get instance field reference: private NUnit.Framework.Internal.Commands.TestCommand _setupCommand
-    ::NUnit::Framework::Internal::Commands::TestCommand*& dyn__setupCommand();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::Commands::TestCommand*& dyn__setupCommand();
     // Get instance field reference: private NUnit.Framework.Internal.Commands.TestCommand _teardownCommand
-    ::NUnit::Framework::Internal::Commands::TestCommand*& dyn__teardownCommand();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::Commands::TestCommand*& dyn__teardownCommand();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem> <Children>k__BackingField
-    ::System::Collections::Generic::List_1<::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>*& dyn_$Children$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>*& dyn_$Children$k__BackingField();
     // Get instance field reference: private System.Int32 _countOrder
-    int& dyn__countOrder();
-    // Get instance field reference: private NUnit.Framework.Internal.Execution.CountdownEvent _childTestCountdown
-    ::NUnit::Framework::Internal::Execution::CountdownEvent*& dyn__childTestCountdown();
+    [[deprecated("Use field access instead!")]] int& dyn__countOrder();
+    // Get instance field reference: private System.Threading.CountdownEvent _childTestCountdown
+    [[deprecated("Use field access instead!")]] ::System::Threading::CountdownEvent*& dyn__childTestCountdown();
     // public System.Collections.Generic.List`1<UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem> get_Children()
-    // Offset: 0x193A0F4
+    // Offset: 0x1971D5C
     ::System::Collections::Generic::List_1<::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>* get_Children();
     // private System.Void set_Children(System.Collections.Generic.List`1<UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem> value)
-    // Offset: 0x193A0FC
+    // Offset: 0x1971D64
     void set_Children(::System::Collections::Generic::List_1<::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>* value);
     // public System.Void .ctor(NUnit.Framework.Internal.TestSuite suite, NUnit.Framework.Interfaces.ITestFilter childFilter, UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory factory)
-    // Offset: 0x193A104
+    // Offset: 0x1971D6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompositeWorkItem* New_ctor(::NUnit::Framework::Internal::TestSuite* suite, ::NUnit::Framework::Interfaces::ITestFilter* childFilter, ::UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory* factory) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompositeWorkItem*, creationType>(suite, childFilter, factory)));
     }
     // private System.Boolean CheckForCancellation()
-    // Offset: 0x193A348
+    // Offset: 0x1971FB0
     bool CheckForCancellation();
     // private System.Void InitializeSetUpAndTearDownCommands()
-    // Offset: 0x193A420
+    // Offset: 0x1972088
     void InitializeSetUpAndTearDownCommands();
     // private System.Void PerformOneTimeSetUp()
-    // Offset: 0x193A934
+    // Offset: 0x197259C
     void PerformOneTimeSetUp();
     // private System.Collections.IEnumerable RunChildren()
-    // Offset: 0x193ACB0
+    // Offset: 0x1972918
     ::System::Collections::IEnumerable* RunChildren();
     // private System.Void CreateChildWorkItems()
-    // Offset: 0x193AD68
+    // Offset: 0x19729D0
     void CreateChildWorkItems();
     // private System.Void SortChildren()
-    // Offset: 0x193B4E4
+    // Offset: 0x197314C
     void SortChildren();
     // private System.Void SkipFixture(NUnit.Framework.Interfaces.ResultState resultState, System.String message, System.String stackTrace)
-    // Offset: 0x193B57C
+    // Offset: 0x19731E4
     void SkipFixture(::NUnit::Framework::Interfaces::ResultState* resultState, ::StringW message, ::StringW stackTrace);
     // private System.Void SkipChildren(NUnit.Framework.Internal.TestSuite suite, NUnit.Framework.Interfaces.ResultState resultState, System.String message)
-    // Offset: 0x193B688
+    // Offset: 0x19732F0
     void SkipChildren(::NUnit::Framework::Internal::TestSuite* suite, ::NUnit::Framework::Interfaces::ResultState* resultState, ::StringW message);
     // private System.Void PerformOneTimeTearDown()
-    // Offset: 0x193BBD4
+    // Offset: 0x197383C
     void PerformOneTimeTearDown();
     // private System.String GetSkipReason()
-    // Offset: 0x193BD94
+    // Offset: 0x19739FC
     ::StringW GetSkipReason();
     // private System.String GetProviderStackTrace()
-    // Offset: 0x193BE84
+    // Offset: 0x1973AEC
     ::StringW GetProviderStackTrace();
     // private System.Void CountDownChildTest()
-    // Offset: 0x193BF74
+    // Offset: 0x1973BDC
     void CountDownChildTest();
     // protected override System.Collections.IEnumerable PerformWork()
-    // Offset: 0x193A290
+    // Offset: 0x1971EF8
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem
     // Base method: System.Collections.IEnumerable UnityWorkItem::PerformWork()
     ::System::Collections::IEnumerable* PerformWork();
     // public override System.Void Cancel(System.Boolean force)
-    // Offset: 0x193C538
+    // Offset: 0x19741A0
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem
     // Base method: System.Void UnityWorkItem::Cancel(System.Boolean force)
     void Cancel(bool force);
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem
   #pragma pack(pop)
-  static check_size<sizeof(CompositeWorkItem), 144 + sizeof(::NUnit::Framework::Internal::Execution::CountdownEvent*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_CompositeWorkItemSizeCheck;
+  static check_size<sizeof(CompositeWorkItem), 144 + sizeof(::System::Threading::CountdownEvent*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_CompositeWorkItemSizeCheck;
   static_assert(sizeof(CompositeWorkItem) == 0x98);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

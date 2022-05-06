@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Set static field: static public DiscoveryPolicy Public
     static void _set_Public(::GlobalNamespace::DiscoveryPolicy value);
     // Get instance field reference: public System.Byte value__
-    uint8_t& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_value__();
   }; // DiscoveryPolicy
   #pragma pack(pop)
   static check_size<sizeof(DiscoveryPolicy), 0 + sizeof(uint8_t)> __GlobalNamespace_DiscoveryPolicySizeCheck;

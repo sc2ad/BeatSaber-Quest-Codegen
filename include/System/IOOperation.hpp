@@ -54,7 +54,7 @@ namespace System {
     // Set static field: static public System.IOOperation Write
     static void _set_Write(::System::IOOperation value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.IOOperation
   #pragma pack(pop)
   static check_size<sizeof(IOOperation), 0 + sizeof(int)> __System_IOOperationSizeCheck;

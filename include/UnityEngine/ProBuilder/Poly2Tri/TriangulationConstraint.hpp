@@ -33,15 +33,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [TokenAttribute] Offset: FFFFFFFF
   class TriangulationConstraint : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint P
     // Size: 0x8
     // Offset: 0x10
@@ -56,13 +48,11 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     static_assert(sizeof(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint P
-    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& dyn_P();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& dyn_P();
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint Q
-    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& dyn_Q();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& dyn_Q();
     // public System.Void .ctor()
-    // Offset: 0x2A3AB3C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A90F24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TriangulationConstraint* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint::.ctor");

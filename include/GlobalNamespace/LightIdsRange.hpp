@@ -28,15 +28,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightIdsRange : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _numberOfElements
     // Size: 0x4
     // Offset: 0x18
@@ -53,23 +45,17 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _numberOfElements
-    int& dyn__numberOfElements();
+    [[deprecated("Use field access instead!")]] int& dyn__numberOfElements();
     // Get instance field reference: private System.Int32 _startLightId
-    int& dyn__startLightId();
+    [[deprecated("Use field access instead!")]] int& dyn__startLightId();
     // public System.Int32 get_numberOfElements()
-    // Offset: 0x2AD1AF0
+    // Offset: 0x1E7AEB8
     int get_numberOfElements();
     // public System.Int32 get_startLightId()
-    // Offset: 0x2AD1AF8
+    // Offset: 0x1E7AEC0
     int get_startLightId();
     // public System.Void .ctor()
-    // Offset: 0x2AD1AE0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E7AEA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightIdsRange* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightIdsRange::.ctor");

@@ -210,7 +210,7 @@ namespace System {
     // Set static field: static public System.ExceptionArgument text
     static void _set_text(::System::ExceptionArgument value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.ExceptionArgument
   #pragma pack(pop)
   static check_size<sizeof(ExceptionArgument), 0 + sizeof(int)> __System_ExceptionArgumentSizeCheck;

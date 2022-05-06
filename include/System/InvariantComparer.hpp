@@ -35,15 +35,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class InvariantComparer : public ::Il2CppObject/*, public ::System::Collections::IComparer*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Globalization.CompareInfo m_compareInfo
     // Size: 0x8
     // Offset: 0x10
@@ -64,28 +56,30 @@ namespace System {
     // Set static field: static readonly System.InvariantComparer Default
     static void _set_Default(::System::InvariantComparer* value);
     // Get instance field reference: private System.Globalization.CompareInfo m_compareInfo
-    ::System::Globalization::CompareInfo*& dyn_m_compareInfo();
-    // static private System.Void .cctor()
-    // Offset: 0x1CB9D54
-    static void _cctor();
-    // public System.Int32 Compare(System.Object a, System.Object b)
-    // Offset: 0x1CB9C64
-    int Compare(::Il2CppObject* a, ::Il2CppObject* b);
+    [[deprecated("Use field access instead!")]] ::System::Globalization::CompareInfo*& dyn_m_compareInfo();
     // System.Void .ctor()
-    // Offset: 0x1CB9BD8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1CF6130
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvariantComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::InvariantComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvariantComparer*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1CF62AC
+    static void _cctor();
+    // public System.Int32 Compare(System.Object a, System.Object b)
+    // Offset: 0x1CF61BC
+    int Compare(::Il2CppObject* a, ::Il2CppObject* b);
   }; // System.InvariantComparer
   #pragma pack(pop)
   static check_size<sizeof(InvariantComparer), 16 + sizeof(::System::Globalization::CompareInfo*)> __System_InvariantComparerSizeCheck;
   static_assert(sizeof(InvariantComparer) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::InvariantComparer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::InvariantComparer::_cctor
 // Il2CppName: .cctor
 template<>
@@ -104,7 +98,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
     return ::il2cpp_utils::FindMethod(classof(System::InvariantComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
   }
 };
-// Writing MetadataGetter for method: System::InvariantComparer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

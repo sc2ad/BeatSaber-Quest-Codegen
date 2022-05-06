@@ -33,15 +33,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MovementHistoryRecorder : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private AveragingValueRecorder _averagingValueRecorer
     // Size: 0x8
     // Offset: 0x10
@@ -68,28 +60,28 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private AveragingValueRecorder _averagingValueRecorer
-    ::GlobalNamespace::AveragingValueRecorder*& dyn__averagingValueRecorer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AveragingValueRecorder*& dyn__averagingValueRecorer();
     // Get instance field reference: private System.Single _increaseSpeed
-    float& dyn__increaseSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__increaseSpeed();
     // Get instance field reference: private System.Single _decreaseSpeed
-    float& dyn__decreaseSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__decreaseSpeed();
     // Get instance field reference: private System.Single _accum
-    float& dyn__accum();
+    [[deprecated("Use field access instead!")]] float& dyn__accum();
     // public AveragingValueRecorder get_averagingValueRecorer()
-    // Offset: 0x13CAC48
+    // Offset: 0x13C70F4
     ::GlobalNamespace::AveragingValueRecorder* get_averagingValueRecorer();
     // public System.Void .ctor(System.Single averageWindowDuration, System.Single historyValuesPerSecond, System.Single increaseSpeed, System.Single decreaseSpeed)
-    // Offset: 0x13CAC50
+    // Offset: 0x13C70FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MovementHistoryRecorder* New_ctor(float averageWindowDuration, float historyValuesPerSecond, float increaseSpeed, float decreaseSpeed) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MovementHistoryRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MovementHistoryRecorder*, creationType>(averageWindowDuration, historyValuesPerSecond, increaseSpeed, decreaseSpeed)));
     }
     // public System.Void AddMovement(System.Single distance)
-    // Offset: 0x13CACEC
+    // Offset: 0x13C7198
     void AddMovement(float distance);
     // public System.Void ManualUpdate(System.Single deltaTime)
-    // Offset: 0x13CAD88
+    // Offset: 0x13C7234
     void ManualUpdate(float deltaTime);
   }; // MovementHistoryRecorder
   #pragma pack(pop)

@@ -42,15 +42,7 @@ namespace System::Xml::Schema {
     public:
     // Writing base type padding for base size: 0x16 to desired offset: 0x18
     char ___base_padding[0x2] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Xml.Schema.BitSet firstpos
     // Size: 0x8
     // Offset: 0x18
@@ -95,21 +87,21 @@ namespace System::Xml::Schema {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Xml.Schema.BitSet firstpos
-    ::System::Xml::Schema::BitSet*& dyn_firstpos();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::BitSet*& dyn_firstpos();
     // Get instance field reference: private System.Xml.Schema.BitSet[] followpos
-    ::ArrayW<::System::Xml::Schema::BitSet*>& dyn_followpos();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Xml::Schema::BitSet*>& dyn_followpos();
     // Get instance field reference: private System.Xml.Schema.BitSet positionsWithRangeTerminals
-    ::System::Xml::Schema::BitSet*& dyn_positionsWithRangeTerminals();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::BitSet*& dyn_positionsWithRangeTerminals();
     // Get instance field reference: private System.Xml.Schema.SymbolsDictionary symbols
-    ::System::Xml::Schema::SymbolsDictionary*& dyn_symbols();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::SymbolsDictionary*& dyn_symbols();
     // Get instance field reference: private System.Xml.Schema.Positions positions
-    ::System::Xml::Schema::Positions*& dyn_positions();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::Positions*& dyn_positions();
     // Get instance field reference: private System.Int32 minMaxNodesCount
-    int& dyn_minMaxNodesCount();
+    [[deprecated("Use field access instead!")]] int& dyn_minMaxNodesCount();
     // Get instance field reference: private System.Int32 endMarkerPos
-    int& dyn_endMarkerPos();
+    [[deprecated("Use field access instead!")]] int& dyn_endMarkerPos();
     // System.Void .ctor(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet[] followpos, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.Positions positions, System.Int32 endMarkerPos, System.Xml.Schema.XmlSchemaContentType contentType, System.Boolean isEmptiable, System.Xml.Schema.BitSet positionsWithRangeTerminals, System.Int32 minmaxNodesCount)
-    // Offset: 0x1C27D04
+    // Offset: 0x1C622EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RangeContentValidator* New_ctor(::System::Xml::Schema::BitSet* firstpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions, int endMarkerPos, ::System::Xml::Schema::XmlSchemaContentType contentType, bool isEmptiable, ::System::Xml::Schema::BitSet* positionsWithRangeTerminals, int minmaxNodesCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::RangeContentValidator::.ctor");

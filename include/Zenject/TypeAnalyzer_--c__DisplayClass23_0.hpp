@@ -36,15 +36,7 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TypeAnalyzer::$$c__DisplayClass23_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Type type
     // Size: 0x8
     // Offset: 0x10
@@ -57,34 +49,36 @@ namespace Zenject {
       return type;
     }
     // Get instance field reference: public System.Type type
-    ::System::Type*& dyn_type();
-    // Zenject.InjectTypeInfo/Zenject.InjectMemberInfo <CreateTypeInfoFromReflection>b__0(Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectFieldInfo x)
-    // Offset: 0x1CEE570
-    ::Zenject::InjectTypeInfo::InjectMemberInfo* $CreateTypeInfoFromReflection$b__0(::Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo* x);
-    // Zenject.InjectTypeInfo/Zenject.InjectMemberInfo <CreateTypeInfoFromReflection>b__1(Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectPropertyInfo x)
-    // Offset: 0x1CEE57C
-    ::Zenject::InjectTypeInfo::InjectMemberInfo* $CreateTypeInfoFromReflection$b__1(::Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo* x);
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1CEE588
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CEE5E4
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_type();
     // public System.Void .ctor()
-    // Offset: 0x1CEE4C4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1D29A1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeAnalyzer::$$c__DisplayClass23_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::$$c__DisplayClass23_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeAnalyzer::$$c__DisplayClass23_0*, creationType>()));
     }
+    // Zenject.InjectTypeInfo/Zenject.InjectMemberInfo <CreateTypeInfoFromReflection>b__0(Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectFieldInfo x)
+    // Offset: 0x1D29AC8
+    ::Zenject::InjectTypeInfo::InjectMemberInfo* $CreateTypeInfoFromReflection$b__0(::Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo* x);
+    // Zenject.InjectTypeInfo/Zenject.InjectMemberInfo <CreateTypeInfoFromReflection>b__1(Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectPropertyInfo x)
+    // Offset: 0x1D29AD4
+    ::Zenject::InjectTypeInfo::InjectMemberInfo* $CreateTypeInfoFromReflection$b__1(::Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo* x);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1D29AE0
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1D29B3C
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.TypeAnalyzer/Zenject.<>c__DisplayClass23_0
   #pragma pack(pop)
   static check_size<sizeof(TypeAnalyzer::$$c__DisplayClass23_0), 16 + sizeof(::System::Type*)> __Zenject_TypeAnalyzer_$$c__DisplayClass23_0SizeCheck;
   static_assert(sizeof(TypeAnalyzer::$$c__DisplayClass23_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::TypeAnalyzer::$$c__DisplayClass23_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::TypeAnalyzer::$$c__DisplayClass23_0::$CreateTypeInfoFromReflection$b__0
 // Il2CppName: <CreateTypeInfoFromReflection>b__0
 template<>
@@ -120,7 +114,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::TypeAnalyzer::$$c__DisplayClass23_0*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::TypeAnalyzer::$$c__DisplayClass23_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

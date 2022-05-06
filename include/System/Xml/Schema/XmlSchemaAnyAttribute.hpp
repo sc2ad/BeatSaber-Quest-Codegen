@@ -38,15 +38,7 @@ namespace System::Xml::Schema {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlSchemaAnyAttribute : public ::System::Xml::Schema::XmlSchemaAnnotated {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String ns
     // Size: 0x8
     // Offset: 0x10
@@ -69,23 +61,22 @@ namespace System::Xml::Schema {
     static_assert(sizeof(::System::Xml::Schema::NamespaceList*) == 0x8);
     public:
     // Get instance field reference: private System.String ns
-    ::StringW& dyn_ns();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_ns();
     // Get instance field reference: private System.Xml.Schema.XmlSchemaContentProcessing processContents
-    ::System::Xml::Schema::XmlSchemaContentProcessing& dyn_processContents();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaContentProcessing& dyn_processContents();
     // Get instance field reference: private System.Xml.Schema.NamespaceList namespaceList
-    ::System::Xml::Schema::NamespaceList*& dyn_namespaceList();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::NamespaceList*& dyn_namespaceList();
     // public System.Void set_ProcessContents(System.Xml.Schema.XmlSchemaContentProcessing value)
-    // Offset: 0x200FE90
+    // Offset: 0x2059704
     void set_ProcessContents(::System::Xml::Schema::XmlSchemaContentProcessing value);
     // System.Void BuildNamespaceList(System.String targetNamespace)
-    // Offset: 0x200FE98
+    // Offset: 0x205970C
     void BuildNamespaceList(::StringW targetNamespace);
     // public System.Void .ctor()
-    // Offset: 0x200FF20
+    // Offset: 0x2059794
     // Implemented from: System.Xml.Schema.XmlSchemaAnnotated
     // Base method: System.Void XmlSchemaAnnotated::.ctor()
     // Base method: System.Void XmlSchemaObject::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaAnyAttribute* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaAnyAttribute::.ctor");

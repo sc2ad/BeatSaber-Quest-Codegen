@@ -28,16 +28,8 @@ namespace Libraries::HM::HMLib::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   class HapticPresetSO : public ::UnityEngine::ScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [DrawIfAttribute] Offset: 0x1225D98
+    // [DrawIfAttribute] Offset: 0x10AA7B0
     // public System.Single _duration
     // Size: 0x4
     // Offset: 0x18
@@ -66,33 +58,33 @@ namespace Libraries::HM::HMLib::VR {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single _duration
-    float& dyn__duration();
+    [[deprecated("Use field access instead!")]] float& dyn__duration();
     // Get instance field reference: public System.Single _strength
-    float& dyn__strength();
+    [[deprecated("Use field access instead!")]] float& dyn__strength();
     // Get instance field reference: public System.Single _frequency
-    float& dyn__frequency();
+    [[deprecated("Use field access instead!")]] float& dyn__frequency();
     // Get instance field reference: public System.Boolean _continuous
-    bool& dyn__continuous();
-    // public System.Void CopyFrom(Libraries.HM.HMLib.VR.HapticPresetSO hapticPreset)
-    // Offset: 0x15749D0
-    void CopyFrom(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
+    [[deprecated("Use field access instead!")]] bool& dyn__continuous();
     // public System.Void .ctor()
-    // Offset: 0x1574A04
-    // Implemented from: UnityEngine.ScriptableObject
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15AB314
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HapticPresetSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Libraries::HM::HMLib::VR::HapticPresetSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HapticPresetSO*, creationType>()));
     }
+    // public System.Void CopyFrom(Libraries.HM.HMLib.VR.HapticPresetSO hapticPreset)
+    // Offset: 0x15AB2E0
+    void CopyFrom(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
   }; // Libraries.HM.HMLib.VR.HapticPresetSO
   #pragma pack(pop)
   static check_size<sizeof(HapticPresetSO), 36 + sizeof(bool)> __Libraries_HM_HMLib_VR_HapticPresetSOSizeCheck;
   static_assert(sizeof(HapticPresetSO) == 0x25);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Libraries::HM::HMLib::VR::HapticPresetSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Libraries::HM::HMLib::VR::HapticPresetSO::CopyFrom
 // Il2CppName: CopyFrom
 template<>
@@ -102,7 +94,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Libra
     return ::il2cpp_utils::FindMethod(classof(Libraries::HM::HMLib::VR::HapticPresetSO*), "CopyFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hapticPreset});
   }
 };
-// Writing MetadataGetter for method: Libraries::HM::HMLib::VR::HapticPresetSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

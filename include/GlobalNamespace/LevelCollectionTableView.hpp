@@ -75,15 +75,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LevelCollectionTableView : public ::UnityEngine::MonoBehaviour/*, public ::HMUI::TableView::IDataSource*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.TableView _tableView
     // Size: 0x8
     // Offset: 0x18
@@ -132,7 +124,7 @@ namespace GlobalNamespace {
     int showAlphabetScrollbarLevelCountThreshold;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [InjectAttribute] Offset: 0x125E308
+    // [InjectAttribute] Offset: 0x10E2EEC
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x50
@@ -213,119 +205,113 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.TableView _tableView
-    ::HMUI::TableView*& dyn__tableView();
+    [[deprecated("Use field access instead!")]] ::HMUI::TableView*& dyn__tableView();
     // Get instance field reference: private HMUI.AlphabetScrollbar _alphabetScrollbar
-    ::HMUI::AlphabetScrollbar*& dyn__alphabetScrollbar();
+    [[deprecated("Use field access instead!")]] ::HMUI::AlphabetScrollbar*& dyn__alphabetScrollbar();
     // Get instance field reference: private LevelListTableCell _levelCellPrefab
-    ::GlobalNamespace::LevelListTableCell*& dyn__levelCellPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelListTableCell*& dyn__levelCellPrefab();
     // Get instance field reference: private System.String _levelCellsReuseIdentifier
-    ::StringW& dyn__levelCellsReuseIdentifier();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__levelCellsReuseIdentifier();
     // Get instance field reference: private LevelPackHeaderTableCell _packCellPrefab
-    ::GlobalNamespace::LevelPackHeaderTableCell*& dyn__packCellPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelPackHeaderTableCell*& dyn__packCellPrefab();
     // Get instance field reference: private System.String _packCellsReuseIdentifier
-    ::StringW& dyn__packCellsReuseIdentifier();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__packCellsReuseIdentifier();
     // Get instance field reference: private System.Single _cellHeight
-    float& dyn__cellHeight();
+    [[deprecated("Use field access instead!")]] float& dyn__cellHeight();
     // Get instance field reference: private System.Int32 _showAlphabetScrollbarLevelCountThreshold
-    int& dyn__showAlphabetScrollbarLevelCountThreshold();
+    [[deprecated("Use field access instead!")]] int& dyn__showAlphabetScrollbarLevelCountThreshold();
     // Get instance field reference: private readonly AdditionalContentModel _additionalContentModel
-    ::GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
     // Get instance field reference: private System.Action`2<LevelCollectionTableView,IPreviewBeatmapLevel> didSelectLevelEvent
-    ::System::Action_2<::GlobalNamespace::LevelCollectionTableView*, ::GlobalNamespace::IPreviewBeatmapLevel*>*& dyn_didSelectLevelEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::LevelCollectionTableView*, ::GlobalNamespace::IPreviewBeatmapLevel*>*& dyn_didSelectLevelEvent();
     // Get instance field reference: private System.Action`1<LevelCollectionTableView> didSelectHeaderEvent
-    ::System::Action_1<::GlobalNamespace::LevelCollectionTableView*>*& dyn_didSelectHeaderEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::LevelCollectionTableView*>*& dyn_didSelectHeaderEvent();
     // Get instance field reference: private System.Boolean _isInitialized
-    bool& dyn__isInitialized();
+    [[deprecated("Use field access instead!")]] bool& dyn__isInitialized();
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<IPreviewBeatmapLevel> _previewBeatmapLevels
-    ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>*& dyn__previewBeatmapLevels();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>*& dyn__previewBeatmapLevels();
     // Get instance field reference: private UnityEngine.Sprite _headerSprite
-    ::UnityEngine::Sprite*& dyn__headerSprite();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__headerSprite();
     // Get instance field reference: private System.String _headerText
-    ::StringW& dyn__headerText();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__headerText();
     // Get instance field reference: private System.Boolean _showLevelPackHeader
-    bool& dyn__showLevelPackHeader();
+    [[deprecated("Use field access instead!")]] bool& dyn__showLevelPackHeader();
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.String> _favoriteLevelIds
-    ::System::Collections::Generic::HashSet_1<::StringW>*& dyn__favoriteLevelIds();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::StringW>*& dyn__favoriteLevelIds();
     // Get instance field reference: private System.Int32 _selectedRow
-    int& dyn__selectedRow();
+    [[deprecated("Use field access instead!")]] int& dyn__selectedRow();
     // Get instance field reference: private IPreviewBeatmapLevel _selectedPreviewBeatmapLevel
-    ::GlobalNamespace::IPreviewBeatmapLevel*& dyn__selectedPreviewBeatmapLevel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPreviewBeatmapLevel*& dyn__selectedPreviewBeatmapLevel();
     // public System.Void add_didSelectLevelEvent(System.Action`2<LevelCollectionTableView,IPreviewBeatmapLevel> value)
-    // Offset: 0x13BBAE8
+    // Offset: 0x13B6F94
     void add_didSelectLevelEvent(::System::Action_2<::GlobalNamespace::LevelCollectionTableView*, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // public System.Void remove_didSelectLevelEvent(System.Action`2<LevelCollectionTableView,IPreviewBeatmapLevel> value)
-    // Offset: 0x13BBB8C
+    // Offset: 0x13B7038
     void remove_didSelectLevelEvent(::System::Action_2<::GlobalNamespace::LevelCollectionTableView*, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // public System.Void add_didSelectHeaderEvent(System.Action`1<LevelCollectionTableView> value)
-    // Offset: 0x13BBC30
+    // Offset: 0x13B70DC
     void add_didSelectHeaderEvent(::System::Action_1<::GlobalNamespace::LevelCollectionTableView*>* value);
     // public System.Void remove_didSelectHeaderEvent(System.Action`1<LevelCollectionTableView> value)
-    // Offset: 0x13BBCD4
+    // Offset: 0x13B7180
     void remove_didSelectHeaderEvent(::System::Action_1<::GlobalNamespace::LevelCollectionTableView*>* value);
-    // public System.Void Init(System.String headerText, UnityEngine.Sprite headerSprite)
-    // Offset: 0x13BBD78
-    void Init(::StringW headerText, ::UnityEngine::Sprite* headerSprite);
-    // private System.Void Init()
-    // Offset: 0x13BBDC4
-    void Init();
-    // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<IPreviewBeatmapLevel> previewBeatmapLevels, System.Collections.Generic.HashSet`1<System.String> favoriteLevelIds, System.Boolean beatmapLevelsAreSorted)
-    // Offset: 0x13BBE90
-    void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* previewBeatmapLevels, ::System::Collections::Generic::HashSet_1<::StringW>* favoriteLevelIds, bool beatmapLevelsAreSorted);
-    // public System.Void RefreshFavorites(System.Collections.Generic.HashSet`1<System.String> favoriteLevelIds)
-    // Offset: 0x13BC0F8
-    void RefreshFavorites(::System::Collections::Generic::HashSet_1<::StringW>* favoriteLevelIds);
-    // protected System.Void OnEnable()
-    // Offset: 0x13BC238
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x13BC2C4
-    void OnDisable();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13BC350
-    void OnDestroy();
-    // public System.Single CellSize()
-    // Offset: 0x13BC42C
-    float CellSize();
-    // public System.Int32 NumberOfCells()
-    // Offset: 0x13BC434
-    int NumberOfCells();
-    // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x13BC4F4
-    ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int row);
-    // private System.Void HandleDidSelectRowEvent(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x13BC8AC
-    void HandleDidSelectRowEvent(::HMUI::TableView* tableView, int row);
-    // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x13BC9F0
-    void HandleAdditionalContentModelDidInvalidateData();
-    // public System.Void CancelAsyncOperations()
-    // Offset: 0x13BCAAC
-    void CancelAsyncOperations();
-    // public System.Void RefreshLevelsAvailability()
-    // Offset: 0x13BCD98
-    void RefreshLevelsAvailability();
-    // public System.Void SelectLevelPackHeaderCell()
-    // Offset: 0x13BD240
-    void SelectLevelPackHeaderCell();
-    // public System.Void ClearSelection()
-    // Offset: 0x13BD26C
-    void ClearSelection();
-    // public System.Void SelectLevel(IPreviewBeatmapLevel beatmapLevel)
-    // Offset: 0x13BD29C
-    void SelectLevel(::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
     // public System.Void .ctor()
-    // Offset: 0x13BD540
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13B89EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelCollectionTableView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelCollectionTableView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelCollectionTableView*, creationType>()));
     }
+    // public System.Void Init(System.String headerText, UnityEngine.Sprite headerSprite)
+    // Offset: 0x13B7224
+    void Init(::StringW headerText, ::UnityEngine::Sprite* headerSprite);
+    // private System.Void Init()
+    // Offset: 0x13B7270
+    void Init();
+    // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<IPreviewBeatmapLevel> previewBeatmapLevels, System.Collections.Generic.HashSet`1<System.String> favoriteLevelIds, System.Boolean beatmapLevelsAreSorted)
+    // Offset: 0x13B733C
+    void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* previewBeatmapLevels, ::System::Collections::Generic::HashSet_1<::StringW>* favoriteLevelIds, bool beatmapLevelsAreSorted);
+    // public System.Void RefreshFavorites(System.Collections.Generic.HashSet`1<System.String> favoriteLevelIds)
+    // Offset: 0x13B75A4
+    void RefreshFavorites(::System::Collections::Generic::HashSet_1<::StringW>* favoriteLevelIds);
+    // protected System.Void OnEnable()
+    // Offset: 0x13B76E4
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x13B7770
+    void OnDisable();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13B77FC
+    void OnDestroy();
+    // public System.Single CellSize()
+    // Offset: 0x13B78D8
+    float CellSize();
+    // public System.Int32 NumberOfCells()
+    // Offset: 0x13B78E0
+    int NumberOfCells();
+    // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
+    // Offset: 0x13B79A0
+    ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int row);
+    // private System.Void HandleDidSelectRowEvent(HMUI.TableView tableView, System.Int32 row)
+    // Offset: 0x13B7D58
+    void HandleDidSelectRowEvent(::HMUI::TableView* tableView, int row);
+    // private System.Void HandleAdditionalContentModelDidInvalidateData()
+    // Offset: 0x13B7E9C
+    void HandleAdditionalContentModelDidInvalidateData();
+    // public System.Void CancelAsyncOperations()
+    // Offset: 0x13B7F58
+    void CancelAsyncOperations();
+    // public System.Void RefreshLevelsAvailability()
+    // Offset: 0x13B8244
+    void RefreshLevelsAvailability();
+    // public System.Void SelectLevelPackHeaderCell()
+    // Offset: 0x13B86EC
+    void SelectLevelPackHeaderCell();
+    // public System.Void ClearSelection()
+    // Offset: 0x13B8718
+    void ClearSelection();
+    // public System.Void SelectLevel(IPreviewBeatmapLevel beatmapLevel)
+    // Offset: 0x13B8748
+    void SelectLevel(::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
   }; // LevelCollectionTableView
   #pragma pack(pop)
   static check_size<sizeof(LevelCollectionTableView), 160 + sizeof(::GlobalNamespace::IPreviewBeatmapLevel*)> __GlobalNamespace_LevelCollectionTableViewSizeCheck;
@@ -368,6 +354,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "remove_didSelectHeaderEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::Init
 // Il2CppName: Init
 template<>
@@ -515,7 +505,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "SelectLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapLevel});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

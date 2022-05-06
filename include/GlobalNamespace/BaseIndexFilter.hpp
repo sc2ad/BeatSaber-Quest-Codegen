@@ -46,15 +46,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::BaseIndexFilter::$GetEnumerator$d__8
     class $GetEnumerator$d__8;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Int32 _start
     // Size: 0x4
     // Offset: 0x10
@@ -85,28 +77,28 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IIndexFilter*>(this);
     }
     // Get instance field reference: private readonly System.Int32 _start
-    int& dyn__start();
+    [[deprecated("Use field access instead!")]] int& dyn__start();
     // Get instance field reference: private readonly System.Int32 _step
-    int& dyn__step();
+    [[deprecated("Use field access instead!")]] int& dyn__step();
     // Get instance field reference: private readonly System.Int32 _count
-    int& dyn__count();
+    [[deprecated("Use field access instead!")]] int& dyn__count();
     // Get instance field reference: private System.Int32 _currentValue
-    int& dyn__currentValue();
+    [[deprecated("Use field access instead!")]] int& dyn__currentValue();
     // public System.Int32 get_Count()
-    // Offset: 0x135F0B4
+    // Offset: 0x1347334
     int get_Count();
     // public System.Void .ctor(System.Int32 start, System.Int32 step, System.Int32 count)
-    // Offset: 0x135F0BC
+    // Offset: 0x134733C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseIndexFilter* New_ctor(int start, int step, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BaseIndexFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseIndexFilter*, creationType>(start, step, count)));
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x135F0FC
+    // Offset: 0x134737C
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Collections.Generic.IEnumerator`1<System.Int32> GetEnumerator()
-    // Offset: 0x135F100
+    // Offset: 0x1347380
     ::System::Collections::Generic::IEnumerator_1<int>* GetEnumerator();
   }; // BaseIndexFilter
   #pragma pack(pop)

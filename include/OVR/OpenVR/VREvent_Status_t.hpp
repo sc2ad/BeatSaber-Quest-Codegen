@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
       return statusState;
     }
     // Get instance field reference: public System.UInt32 statusState
-    uint& dyn_statusState();
+    [[deprecated("Use field access instead!")]] uint& dyn_statusState();
   }; // OVR.OpenVR.VREvent_Status_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Status_t), 0 + sizeof(uint)> __OVR_OpenVR_VREvent_Status_tSizeCheck;

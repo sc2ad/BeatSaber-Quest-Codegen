@@ -36,15 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BTSCharacterMaterialSwitcher::RendererMaterialsPairs : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Renderer _renderer
     // Size: 0x8
     // Offset: 0x10
@@ -59,17 +51,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.Renderer _renderer
-    ::UnityEngine::Renderer*& dyn__renderer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Renderer*& dyn__renderer();
     // Get instance field reference: private System.Collections.Generic.List`1<BTSCharacterMaterialSwitcher/MaterialPairs> _materialPairs
-    ::System::Collections::Generic::List_1<::GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>*& dyn__materialPairs();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>*& dyn__materialPairs();
     // public UnityEngine.Renderer get_renderer()
-    // Offset: 0x14C24F8
+    // Offset: 0x14F9DB0
     ::UnityEngine::Renderer* get_renderer();
     // public System.Collections.Generic.List`1<BTSCharacterMaterialSwitcher/MaterialPairs> get_materialPairs()
-    // Offset: 0x14C2500
+    // Offset: 0x14F9DB8
     ::System::Collections::Generic::List_1<::GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>* get_materialPairs();
     // public System.Void .ctor(UnityEngine.Renderer renderer)
-    // Offset: 0x14C2508
+    // Offset: 0x14F9DC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterMaterialSwitcher::RendererMaterialsPairs* New_ctor(::UnityEngine::Renderer* renderer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::.ctor");

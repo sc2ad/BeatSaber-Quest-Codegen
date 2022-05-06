@@ -47,9 +47,9 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public Valve.VR.IntersectionMaskRectangle_t m_Rectangle
-    ::Valve::VR::IntersectionMaskRectangle_t& dyn_m_Rectangle();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IntersectionMaskRectangle_t& dyn_m_Rectangle();
     // Get instance field reference: public Valve.VR.IntersectionMaskCircle_t m_Circle
-    ::Valve::VR::IntersectionMaskCircle_t& dyn_m_Circle();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IntersectionMaskCircle_t& dyn_m_Circle();
   }; // Valve.VR.VROverlayIntersectionMaskPrimitive_Data_t
   // WARNING Not writing size check since size may be invalid!
 }

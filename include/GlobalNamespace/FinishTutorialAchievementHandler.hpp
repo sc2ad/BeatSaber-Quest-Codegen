@@ -39,22 +39,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FinishTutorialAchievementHandler : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private AchievementsModelSO _achievementsModel
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::AchievementsModelSO* achievementsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AchievementsModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124B920
+    // [SpaceAttribute] Offset: 0x10D0418
     // private Signal _tutorialFinishedSignal
     // Size: 0x8
     // Offset: 0x20
@@ -71,39 +63,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private AchievementsModelSO _achievementsModel
-    ::GlobalNamespace::AchievementsModelSO*& dyn__achievementsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementsModelSO*& dyn__achievementsModel();
     // Get instance field reference: private Signal _tutorialFinishedSignal
-    ::GlobalNamespace::Signal*& dyn__tutorialFinishedSignal();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Signal*& dyn__tutorialFinishedSignal();
     // Get instance field reference: private AchievementSO _finishTutorialAchievement
-    ::GlobalNamespace::AchievementSO*& dyn__finishTutorialAchievement();
-    // protected System.Void Start()
-    // Offset: 0x138D930
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x138D9BC
-    void OnDestroy();
-    // private System.Void HandleTutorialFinished()
-    // Offset: 0x138DA48
-    void HandleTutorialFinished();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__finishTutorialAchievement();
     // public System.Void .ctor()
-    // Offset: 0x138DA6C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1375580
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FinishTutorialAchievementHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FinishTutorialAchievementHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FinishTutorialAchievementHandler*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x1375444
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13754D0
+    void OnDestroy();
+    // private System.Void HandleTutorialFinished()
+    // Offset: 0x137555C
+    void HandleTutorialFinished();
   }; // FinishTutorialAchievementHandler
   #pragma pack(pop)
   static check_size<sizeof(FinishTutorialAchievementHandler), 40 + sizeof(::GlobalNamespace::AchievementSO*)> __GlobalNamespace_FinishTutorialAchievementHandlerSizeCheck;
   static_assert(sizeof(FinishTutorialAchievementHandler) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::FinishTutorialAchievementHandler::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FinishTutorialAchievementHandler::Start
 // Il2CppName: Start
 template<>
@@ -128,7 +118,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FinishTutorialAchievementHandler*), "HandleTutorialFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FinishTutorialAchievementHandler::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

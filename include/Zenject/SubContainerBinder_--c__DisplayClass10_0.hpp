@@ -43,15 +43,7 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SubContainerBinder::$$c__DisplayClass10_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Zenject.SubContainerCreatorBindInfo subContainerBindInfo
     // Size: 0x8
     // Offset: 0x10
@@ -66,33 +58,35 @@ namespace Zenject {
     static_assert(sizeof(::System::Type*) == 0x8);
     public:
     // Get instance field reference: public Zenject.SubContainerCreatorBindInfo subContainerBindInfo
-    ::Zenject::SubContainerCreatorBindInfo*& dyn_subContainerBindInfo();
+    [[deprecated("Use field access instead!")]] ::Zenject::SubContainerCreatorBindInfo*& dyn_subContainerBindInfo();
     // Get instance field reference: public System.Type installerType
-    ::System::Type*& dyn_installerType();
-    // Zenject.ISubContainerCreator <ByInstaller>b__0(Zenject.DiContainer container)
-    // Offset: 0x1CE4114
-    ::Zenject::ISubContainerCreator* $ByInstaller$b__0(::Zenject::DiContainer* container);
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1CE4220
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CE427C
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_installerType();
     // public System.Void .ctor()
-    // Offset: 0x1CE3368
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1D1E8C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerBinder::$$c__DisplayClass10_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SubContainerBinder::$$c__DisplayClass10_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerBinder::$$c__DisplayClass10_0*, creationType>()));
     }
+    // Zenject.ISubContainerCreator <ByInstaller>b__0(Zenject.DiContainer container)
+    // Offset: 0x1D1F66C
+    ::Zenject::ISubContainerCreator* $ByInstaller$b__0(::Zenject::DiContainer* container);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1D1F778
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1D1F7D4
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.SubContainerBinder/Zenject.<>c__DisplayClass10_0
   #pragma pack(pop)
   static check_size<sizeof(SubContainerBinder::$$c__DisplayClass10_0), 24 + sizeof(::System::Type*)> __Zenject_SubContainerBinder_$$c__DisplayClass10_0SizeCheck;
   static_assert(sizeof(SubContainerBinder::$$c__DisplayClass10_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::SubContainerBinder::$$c__DisplayClass10_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::SubContainerBinder::$$c__DisplayClass10_0::$ByInstaller$b__0
 // Il2CppName: <ByInstaller>b__0
 template<>
@@ -119,7 +113,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder::$$c__DisplayClass10_0*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::SubContainerBinder::$$c__DisplayClass10_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -70,20 +70,12 @@ namespace BeatmapSaveDataVersion3 {
       // Set static field: static public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter/BeatmapSaveDataVersion3.IndexFilterType StepAndOffset
       static void _set_StepAndOffset(::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter::IndexFilterType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter/BeatmapSaveDataVersion3.IndexFilterType
     #pragma pack(pop)
     static check_size<sizeof(BeatmapSaveData::IndexFilter::IndexFilterType), 0 + sizeof(int)> __BeatmapSaveDataVersion3_BeatmapSaveData_IndexFilter_IndexFilterTypeSizeCheck;
     static_assert(sizeof(BeatmapSaveData::IndexFilter::IndexFilterType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter/BeatmapSaveDataVersion3.IndexFilterType f
     // Size: 0x4
     // Offset: 0x10
@@ -110,47 +102,47 @@ namespace BeatmapSaveDataVersion3 {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter/BeatmapSaveDataVersion3.IndexFilterType f
-    ::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter::IndexFilterType& dyn_f();
+    [[deprecated("Use field access instead!")]] ::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter::IndexFilterType& dyn_f();
     // Get instance field reference: private System.Int32 p
-    int& dyn_p();
+    [[deprecated("Use field access instead!")]] int& dyn_p();
     // Get instance field reference: private System.Int32 t
-    int& dyn_t();
+    [[deprecated("Use field access instead!")]] int& dyn_t();
     // Get instance field reference: private System.Int32 r
-    int& dyn_r();
+    [[deprecated("Use field access instead!")]] int& dyn_r();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter/BeatmapSaveDataVersion3.IndexFilterType get_type()
-    // Offset: 0x281B3A0
+    // Offset: 0x286D960
     ::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter::IndexFilterType get_type();
     // public System.Int32 get_param0()
-    // Offset: 0x281B3A8
+    // Offset: 0x286D968
     int get_param0();
     // public System.Int32 get_param1()
-    // Offset: 0x281B3B0
+    // Offset: 0x286D970
     int get_param1();
     // public System.Boolean get_reversed()
-    // Offset: 0x281B3B8
+    // Offset: 0x286D978
     bool get_reversed();
     // public System.Void .ctor(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter/BeatmapSaveDataVersion3.IndexFilterType type, System.Int32 param0, System.Int32 param1, System.Boolean reversed)
-    // Offset: 0x281B3C8
+    // Offset: 0x286D988
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::IndexFilter* New_ctor(::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter::IndexFilterType type, int param0, int param1, bool reversed) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::IndexFilter*, creationType>(type, param0, param1, reversed)));
     }
     // public System.Void .ctor(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter other)
-    // Offset: 0x281B424
+    // Offset: 0x286D9E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::IndexFilter* New_ctor(::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::IndexFilter*, creationType>(other)));
     }
     // static public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter CreateDivisionIndexFilter(System.Int32 numberOfSections, System.Int32 divisionIdx, System.Boolean reversed)
-    // Offset: 0x281B474
+    // Offset: 0x286DA34
     static ::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* CreateDivisionIndexFilter(int numberOfSections, int divisionIdx, bool reversed);
     // static public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter CreateStepFilter(System.Int32 offset, System.Int32 step, System.Boolean reversed)
-    // Offset: 0x281B500
+    // Offset: 0x286DAC0
     static ::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* CreateStepFilter(int offset, int step, bool reversed);
     // static public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter CreateForExtension()
-    // Offset: 0x281B58C
+    // Offset: 0x286DB4C
     static ::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* CreateForExtension();
   }; // BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter
   #pragma pack(pop)

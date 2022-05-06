@@ -33,15 +33,7 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class DisposableManager::LateDisposableInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Zenject.ILateDisposable LateDisposable
     // Size: 0x8
     // Offset: 0x10
@@ -56,21 +48,21 @@ namespace Zenject {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public Zenject.ILateDisposable LateDisposable
-    ::Zenject::ILateDisposable*& dyn_LateDisposable();
+    [[deprecated("Use field access instead!")]] ::Zenject::ILateDisposable*& dyn_LateDisposable();
     // Get instance field reference: public System.Int32 Priority
-    int& dyn_Priority();
+    [[deprecated("Use field access instead!")]] int& dyn_Priority();
     // public System.Void .ctor(Zenject.ILateDisposable lateDisposable, System.Int32 priority)
-    // Offset: 0x1DDAE74
+    // Offset: 0x1E15740
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisposableManager::LateDisposableInfo* New_ctor(::Zenject::ILateDisposable* lateDisposable, int priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::LateDisposableInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisposableManager::LateDisposableInfo*, creationType>(lateDisposable, priority)));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1DDC700
+    // Offset: 0x1E16FCC
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1DDC80C
+    // Offset: 0x1E170D8
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.DisposableManager/Zenject.LateDisposableInfo
   #pragma pack(pop)

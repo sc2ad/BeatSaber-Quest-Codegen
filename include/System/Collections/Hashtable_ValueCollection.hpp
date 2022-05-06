@@ -37,15 +37,7 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class Hashtable::ValueCollection : public ::Il2CppObject/*, public ::System::Collections::ICollection*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Hashtable _hashtable
     // Size: 0x8
     // Offset: 0x10
@@ -62,25 +54,25 @@ namespace System::Collections {
       return hashtable;
     }
     // Get instance field reference: private System.Collections.Hashtable _hashtable
-    ::System::Collections::Hashtable*& dyn__hashtable();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn__hashtable();
     // public System.Object get_SyncRoot()
-    // Offset: 0x1CC2EA0
+    // Offset: 0x1CFE3F8
     ::Il2CppObject* get_SyncRoot();
     // public System.Int32 get_Count()
-    // Offset: 0x1CC2EC4
+    // Offset: 0x1CFE41C
     int get_Count();
     // System.Void .ctor(System.Collections.Hashtable hashtable)
-    // Offset: 0x1CC0A40
+    // Offset: 0x1CFBF98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable::ValueCollection* New_ctor(::System::Collections::Hashtable* hashtable) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Hashtable::ValueCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable::ValueCollection*, creationType>(hashtable)));
     }
     // public System.Void CopyTo(System.Array array, System.Int32 arrayIndex)
-    // Offset: 0x1CC2CB4
+    // Offset: 0x1CFE20C
     void CopyTo(::System::Array* array, int arrayIndex);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1CC2E38
+    // Offset: 0x1CFE390
     ::System::Collections::IEnumerator* GetEnumerator();
   }; // System.Collections.Hashtable/System.Collections.ValueCollection
   #pragma pack(pop)

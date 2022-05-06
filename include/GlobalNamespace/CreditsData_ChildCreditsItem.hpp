@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CreditsData::ChildCreditsItem : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public CreditsData/Text title
     // Size: 0x8
     // Offset: 0x10
@@ -46,30 +38,32 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::CreditsData::Text*) == 0x8);
     public:
     // Get instance field reference: public CreditsData/Text title
-    ::GlobalNamespace::CreditsData::Text*& dyn_title();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::CreditsData::Text*& dyn_title();
     // Get instance field reference: public CreditsData/Text text
-    ::GlobalNamespace::CreditsData::Text*& dyn_text();
-    // public System.Boolean HasTitle()
-    // Offset: 0x14081A8
-    bool HasTitle();
-    // public System.Boolean HasText()
-    // Offset: 0x14081B8
-    bool HasText();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::CreditsData::Text*& dyn_text();
     // public System.Void .ctor()
-    // Offset: 0x14081C8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1427F74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CreditsData::ChildCreditsItem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CreditsData::ChildCreditsItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CreditsData::ChildCreditsItem*, creationType>()));
     }
+    // public System.Boolean HasTitle()
+    // Offset: 0x1427F54
+    bool HasTitle();
+    // public System.Boolean HasText()
+    // Offset: 0x1427F64
+    bool HasText();
   }; // CreditsData/ChildCreditsItem
   #pragma pack(pop)
   static check_size<sizeof(CreditsData::ChildCreditsItem), 24 + sizeof(::GlobalNamespace::CreditsData::Text*)> __GlobalNamespace_CreditsData_ChildCreditsItemSizeCheck;
   static_assert(sizeof(CreditsData::ChildCreditsItem) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::CreditsData::ChildCreditsItem::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CreditsData::ChildCreditsItem::HasTitle
 // Il2CppName: HasTitle
 template<>
@@ -86,7 +80,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsData::ChildCreditsItem*), "HasText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CreditsData::ChildCreditsItem::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

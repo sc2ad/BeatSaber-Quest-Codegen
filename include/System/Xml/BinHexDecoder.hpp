@@ -25,15 +25,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class BinHexDecoder : public ::System::Xml::IncrementalReadDecoder {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Byte[] buffer
     // Size: 0x8
     // Offset: 0x10
@@ -66,28 +58,28 @@ namespace System::Xml {
     static_assert(sizeof(uint8_t) == 0x1);
     public:
     // Get instance field reference: private System.Byte[] buffer
-    ::ArrayW<uint8_t>& dyn_buffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_buffer();
     // Get instance field reference: private System.Int32 curIndex
-    int& dyn_curIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_curIndex();
     // Get instance field reference: private System.Int32 endIndex
-    int& dyn_endIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_endIndex();
     // Get instance field reference: private System.Boolean hasHalfByteCached
-    bool& dyn_hasHalfByteCached();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasHalfByteCached();
     // Get instance field reference: private System.Byte cachedHalfByte
-    uint8_t& dyn_cachedHalfByte();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_cachedHalfByte();
     // static public System.Byte[] Decode(System.Char[] chars, System.Boolean allowOddChars)
-    // Offset: 0x1A7FDD4
+    // Offset: 0x1ABA3BC
     static ::ArrayW<uint8_t> Decode(::ArrayW<::Il2CppChar> chars, bool allowOddChars);
     // static private System.Void Decode(System.Char* pChars, System.Char* pCharsEndPos, System.Byte* pBytes, System.Byte* pBytesEndPos, ref System.Boolean hasHalfByteCached, ref System.Byte cachedHalfByte, out System.Int32 charsDecoded, out System.Int32 bytesDecoded)
-    // Offset: 0x1A7FBDC
+    // Offset: 0x1ABA1C4
     static void Decode(::Il2CppChar* pChars, ::Il2CppChar* pCharsEndPos, uint8_t* pBytes, uint8_t* pBytesEndPos, ByRef<bool> hasHalfByteCached, ByRef<uint8_t> cachedHalfByte, ByRef<int> charsDecoded, ByRef<int> bytesDecoded);
     // override System.Boolean get_IsFull()
-    // Offset: 0x1A7FA44
+    // Offset: 0x1ABA02C
     // Implemented from: System.Xml.IncrementalReadDecoder
     // Base method: System.Boolean IncrementalReadDecoder::get_IsFull()
     bool get_IsFull();
     // override System.Int32 Decode(System.Char[] chars, System.Int32 startPos, System.Int32 len)
-    // Offset: 0x1A7FA54
+    // Offset: 0x1ABA03C
     // Implemented from: System.Xml.IncrementalReadDecoder
     // Base method: System.Int32 IncrementalReadDecoder::Decode(System.Char[] chars, System.Int32 startPos, System.Int32 len)
     int Decode(::ArrayW<::Il2CppChar> chars, int startPos, int len);

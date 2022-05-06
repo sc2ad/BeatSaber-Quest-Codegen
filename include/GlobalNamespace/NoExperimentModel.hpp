@@ -45,25 +45,27 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IExperimentModel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IExperimentModel*>(this);
     }
-    // public System.Threading.Tasks.Task`1<System.Boolean> IsEmployee()
-    // Offset: 0x1472034
-    ::System::Threading::Tasks::Task_1<bool>* IsEmployee();
-    // public System.Threading.Tasks.Task`1<System.Boolean> IsInTest(IExperimentData data)
-    // Offset: 0x14720A0
-    ::System::Threading::Tasks::Task_1<bool>* IsInTest(::GlobalNamespace::IExperimentData* data);
     // public System.Void .ctor()
-    // Offset: 0x147210C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14A88F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoExperimentModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoExperimentModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoExperimentModel*, creationType>()));
     }
+    // public System.Threading.Tasks.Task`1<System.Boolean> IsEmployee()
+    // Offset: 0x14A881C
+    ::System::Threading::Tasks::Task_1<bool>* IsEmployee();
+    // public System.Threading.Tasks.Task`1<System.Boolean> IsInTest(IExperimentData data)
+    // Offset: 0x14A8888
+    ::System::Threading::Tasks::Task_1<bool>* IsInTest(::GlobalNamespace::IExperimentData* data);
   }; // NoExperimentModel
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::NoExperimentModel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NoExperimentModel::IsEmployee
 // Il2CppName: IsEmployee
 template<>
@@ -81,7 +83,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoExperimentModel*), "IsInTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NoExperimentModel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

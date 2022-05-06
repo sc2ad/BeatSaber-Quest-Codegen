@@ -45,15 +45,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
   // [TokenAttribute] Offset: FFFFFFFF
   class Ed448phSigner : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::ISigner*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Crypto.IXof prehash
     // Size: 0x8
     // Offset: 0x10
@@ -92,33 +84,33 @@ namespace Org::BouncyCastle::Crypto::Signers {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::ISigner*>(this);
     }
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IXof prehash
-    ::Org::BouncyCastle::Crypto::IXof*& dyn_prehash();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::IXof*& dyn_prehash();
     // Get instance field reference: private readonly System.Byte[] context
-    ::ArrayW<uint8_t>& dyn_context();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_context();
     // Get instance field reference: private System.Boolean forSigning
-    bool& dyn_forSigning();
+    [[deprecated("Use field access instead!")]] bool& dyn_forSigning();
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.Ed448PrivateKeyParameters privateKey
-    ::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters*& dyn_privateKey();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters*& dyn_privateKey();
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.Ed448PublicKeyParameters publicKey
-    ::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters*& dyn_publicKey();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters*& dyn_publicKey();
     // public System.Void .ctor(System.Byte[] context)
-    // Offset: 0x15C9884
+    // Offset: 0x15FF194
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ed448phSigner* New_ctor(::ArrayW<uint8_t> context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Signers::Ed448phSigner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Ed448phSigner*, creationType>(context)));
     }
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x15C9938
+    // Offset: 0x15FF248
     void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void BlockUpdate(System.Byte[] buf, System.Int32 off, System.Int32 len)
-    // Offset: 0x15C9A9C
+    // Offset: 0x15FF3AC
     void BlockUpdate(::ArrayW<uint8_t> buf, int off, int len);
     // public System.Byte[] GenerateSignature()
-    // Offset: 0x15C9B78
+    // Offset: 0x15FF488
     ::ArrayW<uint8_t> GenerateSignature();
     // public System.Void Reset()
-    // Offset: 0x15C99E8
+    // Offset: 0x15FF2F8
     void Reset();
   }; // Org.BouncyCastle.Crypto.Signers.Ed448phSigner
   #pragma pack(pop)

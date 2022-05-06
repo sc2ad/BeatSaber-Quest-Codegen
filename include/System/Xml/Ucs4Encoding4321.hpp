@@ -31,23 +31,21 @@ namespace System::Xml {
   class Ucs4Encoding4321 : public ::System::Xml::Ucs4Encoding {
     public:
     // public override System.String get_EncodingName()
-    // Offset: 0x1B6E5F4
+    // Offset: 0x1BA8BDC
     // Implemented from: System.Text.Encoding
     // Base method: System.String Encoding::get_EncodingName()
     ::StringW get_EncodingName();
     // public System.Void .ctor()
-    // Offset: 0x1B6E0D8
+    // Offset: 0x1BA86C0
     // Implemented from: System.Xml.Ucs4Encoding
     // Base method: System.Void Ucs4Encoding::.ctor()
-    // Base method: System.Void Encoding::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ucs4Encoding4321* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Ucs4Encoding4321::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Ucs4Encoding4321*, creationType>()));
     }
     // public override System.Byte[] GetPreamble()
-    // Offset: 0x1B6E63C
+    // Offset: 0x1BA8C24
     // Implemented from: System.Text.Encoding
     // Base method: System.Byte[] Encoding::GetPreamble()
     ::ArrayW<uint8_t> GetPreamble();

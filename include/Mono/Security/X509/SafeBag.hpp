@@ -34,15 +34,7 @@ namespace Mono::Security::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class SafeBag : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _bagOID
     // Size: 0x8
     // Offset: 0x10
@@ -57,17 +49,17 @@ namespace Mono::Security::X509 {
     static_assert(sizeof(::Mono::Security::ASN1*) == 0x8);
     public:
     // Get instance field reference: private System.String _bagOID
-    ::StringW& dyn__bagOID();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__bagOID();
     // Get instance field reference: private Mono.Security.ASN1 _asn1
-    ::Mono::Security::ASN1*& dyn__asn1();
+    [[deprecated("Use field access instead!")]] ::Mono::Security::ASN1*& dyn__asn1();
     // public System.String get_BagOID()
-    // Offset: 0x2A5897C
+    // Offset: 0x2AAED64
     ::StringW get_BagOID();
     // public Mono.Security.ASN1 get_ASN1()
-    // Offset: 0x2A58984
+    // Offset: 0x2AAED6C
     ::Mono::Security::ASN1* get_ASN1();
     // public System.Void .ctor(System.String bagOID, Mono.Security.ASN1 asn1)
-    // Offset: 0x2A58944
+    // Offset: 0x2AAED2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeBag* New_ctor(::StringW bagOID, ::Mono::Security::ASN1* asn1) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::X509::SafeBag::.ctor");

@@ -35,15 +35,7 @@ namespace Org::BouncyCastle::Utilities::Encoders {
   // [TokenAttribute] Offset: FFFFFFFF
   class HexEncoder : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected readonly System.Byte[] encodingTable
     // Size: 0x8
     // Offset: 0x10
@@ -58,42 +50,44 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     public:
     // Get instance field reference: protected readonly System.Byte[] encodingTable
-    ::ArrayW<uint8_t>& dyn_encodingTable();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_encodingTable();
     // Get instance field reference: protected readonly System.Byte[] decodingTable
-    ::ArrayW<uint8_t>& dyn_decodingTable();
-    // protected System.Void InitialiseDecodingTable()
-    // Offset: 0x25A3E40
-    void InitialiseDecodingTable();
-    // public System.Int32 Encode(System.Byte[] inBuf, System.Int32 inOff, System.Int32 inLen, System.Byte[] outBuf, System.Int32 outOff)
-    // Offset: 0x25A3FBC
-    int Encode(::ArrayW<uint8_t> inBuf, int inOff, int inLen, ::ArrayW<uint8_t> outBuf, int outOff);
-    // public System.Int32 Encode(System.Byte[] buf, System.Int32 off, System.Int32 len, System.IO.Stream outStream)
-    // Offset: 0x25A358C
-    int Encode(::ArrayW<uint8_t> buf, int off, int len, ::System::IO::Stream* outStream);
-    // static private System.Boolean Ignore(System.Char c)
-    // Offset: 0x25A40A0
-    static bool Ignore(::Il2CppChar c);
-    // public System.Int32 DecodeString(System.String data, System.IO.Stream outStream)
-    // Offset: 0x25A3774
-    int DecodeString(::StringW data, ::System::IO::Stream* outStream);
-    // System.Byte[] DecodeStrict(System.String str, System.Int32 off, System.Int32 len)
-    // Offset: 0x25A3B14
-    ::ArrayW<uint8_t> DecodeStrict(::StringW str, int off, int len);
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_decodingTable();
     // public System.Void .ctor()
-    // Offset: 0x25A3DA8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x25EF3D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HexEncoder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::Encoders::HexEncoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HexEncoder*, creationType>()));
     }
+    // protected System.Void InitialiseDecodingTable()
+    // Offset: 0x25EF470
+    void InitialiseDecodingTable();
+    // public System.Int32 Encode(System.Byte[] inBuf, System.Int32 inOff, System.Int32 inLen, System.Byte[] outBuf, System.Int32 outOff)
+    // Offset: 0x25EF5EC
+    int Encode(::ArrayW<uint8_t> inBuf, int inOff, int inLen, ::ArrayW<uint8_t> outBuf, int outOff);
+    // public System.Int32 Encode(System.Byte[] buf, System.Int32 off, System.Int32 len, System.IO.Stream outStream)
+    // Offset: 0x25EEBBC
+    int Encode(::ArrayW<uint8_t> buf, int off, int len, ::System::IO::Stream* outStream);
+    // static private System.Boolean Ignore(System.Char c)
+    // Offset: 0x25EF6D0
+    static bool Ignore(::Il2CppChar c);
+    // public System.Int32 DecodeString(System.String data, System.IO.Stream outStream)
+    // Offset: 0x25EEDA4
+    int DecodeString(::StringW data, ::System::IO::Stream* outStream);
+    // System.Byte[] DecodeStrict(System.String str, System.Int32 off, System.Int32 len)
+    // Offset: 0x25EF144
+    ::ArrayW<uint8_t> DecodeStrict(::StringW str, int off, int len);
   }; // Org.BouncyCastle.Utilities.Encoders.HexEncoder
   #pragma pack(pop)
   static check_size<sizeof(HexEncoder), 24 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Utilities_Encoders_HexEncoderSizeCheck;
   static_assert(sizeof(HexEncoder) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::HexEncoder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::HexEncoder::InitialiseDecodingTable
 // Il2CppName: InitialiseDecodingTable
 template<>
@@ -157,7 +151,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Encoders::HexEncoder*), "DecodeStrict", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, off, len});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::HexEncoder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

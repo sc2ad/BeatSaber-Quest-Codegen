@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLobbyInstaller : public ::Zenject::MonoInstaller {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MultiplayerLobbyAvatarController _multiplayerLobbyAvatarControllerPrefab
     // Size: 0x8
     // Offset: 0x20
@@ -60,26 +52,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::MultiplayerLobbyAvatarPlace*) == 0x8);
     public:
     // Get instance field reference: private MultiplayerLobbyAvatarController _multiplayerLobbyAvatarControllerPrefab
-    ::GlobalNamespace::MultiplayerLobbyAvatarController*& dyn__multiplayerLobbyAvatarControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLobbyAvatarController*& dyn__multiplayerLobbyAvatarControllerPrefab();
     // Get instance field reference: private MultiplayerLobbyAvatarPlace _multiplayerAvatarPlacePrefab
-    ::GlobalNamespace::MultiplayerLobbyAvatarPlace*& dyn__multiplayerAvatarPlacePrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLobbyAvatarPlace*& dyn__multiplayerAvatarPlacePrefab();
     // public System.Void .ctor()
-    // Offset: 0x13FD62C
-    // Implemented from: Zenject.MonoInstaller
-    // Base method: System.Void MonoInstaller::.ctor()
-    // Base method: System.Void MonoInstallerBase::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x140A0CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLobbyInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLobbyInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLobbyInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x13FD568
+    // Offset: 0x140A008
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

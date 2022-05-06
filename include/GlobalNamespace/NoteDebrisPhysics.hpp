@@ -37,25 +37,19 @@ namespace GlobalNamespace {
     // public UnityEngine.Vector3 get_position()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Vector3 get_position();
+    // protected System.Void .ctor()
+    // Offset: 0x14AF964
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static NoteDebrisPhysics* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteDebrisPhysics::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<NoteDebrisPhysics*, creationType>()));
+    }
     // public System.Void Init(UnityEngine.Vector3 force, UnityEngine.Vector3 torque)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Init(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 torque);
     // public System.Void AddVelocity(UnityEngine.Vector3 force)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void AddVelocity(::UnityEngine::Vector3 force);
-    // protected System.Void .ctor()
-    // Offset: 0x147917C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NoteDebrisPhysics* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteDebrisPhysics::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<NoteDebrisPhysics*, creationType>()));
-    }
   }; // NoteDebrisPhysics
   #pragma pack(pop)
 }
@@ -68,6 +62,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteDebrisPhysics*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::NoteDebrisPhysics::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NoteDebrisPhysics::Init
 // Il2CppName: Init
 template<>
@@ -87,7 +85,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteDebrisPhysics*), "AddVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{force});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NoteDebrisPhysics::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

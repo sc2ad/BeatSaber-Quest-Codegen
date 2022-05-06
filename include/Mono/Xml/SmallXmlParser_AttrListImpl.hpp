@@ -35,15 +35,7 @@ namespace Mono::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class SmallXmlParser::AttrListImpl : public ::Il2CppObject/*, public ::Mono::Xml::SmallXmlParser::IAttrList*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.List`1<System.String> attrNames
     // Size: 0x8
     // Offset: 0x10
@@ -62,35 +54,35 @@ namespace Mono::Xml {
       return *reinterpret_cast<::Mono::Xml::SmallXmlParser::IAttrList*>(this);
     }
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> attrNames
-    ::System::Collections::Generic::List_1<::StringW>*& dyn_attrNames();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn_attrNames();
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> attrValues
-    ::System::Collections::Generic::List_1<::StringW>*& dyn_attrValues();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn_attrValues();
     // public System.Int32 get_Length()
-    // Offset: 0x1F20078
+    // Offset: 0x1F6C5B0
     int get_Length();
     // public System.String[] get_Names()
-    // Offset: 0x1F2028C
+    // Offset: 0x1F6C7C4
     ::ArrayW<::StringW> get_Names();
     // public System.String[] get_Values()
-    // Offset: 0x1F202E4
+    // Offset: 0x1F6C81C
     ::ArrayW<::StringW> get_Values();
     // public System.String GetName(System.Int32 i)
-    // Offset: 0x1F200C8
+    // Offset: 0x1F6C600
     ::StringW GetName(int i);
     // public System.String GetValue(System.Int32 i)
-    // Offset: 0x1F20140
+    // Offset: 0x1F6C678
     ::StringW GetValue(int i);
     // public System.String GetValue(System.String name)
-    // Offset: 0x1F201B8
+    // Offset: 0x1F6C6F0
     ::StringW GetValue(::StringW name);
     // System.Void Clear()
-    // Offset: 0x1F1FAA4
+    // Offset: 0x1F6BFDC
     void Clear();
     // System.Void Add(System.String name, System.String value)
-    // Offset: 0x1F1FFF8
+    // Offset: 0x1F6C530
     void Add(::StringW name, ::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x1F1E6E4
+    // Offset: 0x1F6AC1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

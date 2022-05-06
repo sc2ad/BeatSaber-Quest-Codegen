@@ -34,15 +34,7 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class RetryConditionHeaderValue : public ::Il2CppObject/*, public ::System::ICloneable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Nullable`1<System.DateTimeOffset> <Date>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x10
@@ -57,53 +49,53 @@ namespace System::Net::Http::Headers {
       return *reinterpret_cast<::System::ICloneable*>(this);
     }
     // Get instance field reference: private System.Nullable`1<System.DateTimeOffset> <Date>k__BackingField
-    ::System::Nullable_1<::System::DateTimeOffset>& dyn_$Date$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Nullable_1<::System::DateTimeOffset>& dyn_$Date$k__BackingField();
     // Get instance field reference: private System.Nullable`1<System.TimeSpan> <Delta>k__BackingField
-    ::System::Nullable_1<::System::TimeSpan>& dyn_$Delta$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Nullable_1<::System::TimeSpan>& dyn_$Delta$k__BackingField();
     // public System.Nullable`1<System.DateTimeOffset> get_Date()
-    // Offset: 0x19602AC
+    // Offset: 0x1998894
     ::System::Nullable_1<::System::DateTimeOffset> get_Date();
     // private System.Void set_Date(System.Nullable`1<System.DateTimeOffset> value)
-    // Offset: 0x19602C0
+    // Offset: 0x19988A8
     void set_Date(::System::Nullable_1<::System::DateTimeOffset> value);
     // public System.Nullable`1<System.TimeSpan> get_Delta()
-    // Offset: 0x19602D4
+    // Offset: 0x19988BC
     ::System::Nullable_1<::System::TimeSpan> get_Delta();
     // private System.Void set_Delta(System.Nullable`1<System.TimeSpan> value)
-    // Offset: 0x19602E0
+    // Offset: 0x19988C8
     void set_Delta(::System::Nullable_1<::System::TimeSpan> value);
     // public System.Void .ctor(System.DateTimeOffset date)
-    // Offset: 0x1960140
+    // Offset: 0x1998728
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RetryConditionHeaderValue* New_ctor(::System::DateTimeOffset date) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::RetryConditionHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RetryConditionHeaderValue*, creationType>(date)));
     }
     // public System.Void .ctor(System.TimeSpan delta)
-    // Offset: 0x19601D8
+    // Offset: 0x19987C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RetryConditionHeaderValue* New_ctor(::System::TimeSpan delta) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::RetryConditionHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RetryConditionHeaderValue*, creationType>(delta)));
     }
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x19602E8
+    // Offset: 0x19988D0
     ::Il2CppObject* System_ICloneable_Clone();
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.RetryConditionHeaderValue parsedValue)
-    // Offset: 0x19604F4
+    // Offset: 0x1998ADC
     static bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::RetryConditionHeaderValue*> parsedValue);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x19602F0
+    // Offset: 0x19988D8
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1960464
+    // Offset: 0x1998A4C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x19606B4
+    // Offset: 0x1998C9C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

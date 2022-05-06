@@ -99,20 +99,12 @@ namespace GlobalNamespace {
       // Set static field: static public AudioTimeSyncController/State Stopped
       static void _set_Stopped(::GlobalNamespace::AudioTimeSyncController::State value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // AudioTimeSyncController/State
     #pragma pack(pop)
     static check_size<sizeof(AudioTimeSyncController::State), 0 + sizeof(int)> __GlobalNamespace_AudioTimeSyncController_StateSizeCheck;
     static_assert(sizeof(AudioTimeSyncController::State) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _audioSyncLerpSpeed
     // Size: 0x4
     // Offset: 0x18
@@ -137,21 +129,21 @@ namespace GlobalNamespace {
     float stopSyncDeltaTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x124A4E8
+    // [SpaceAttribute] Offset: 0x10CEFE0
     // private UnityEngine.AudioSource _audioSource
     // Size: 0x8
     // Offset: 0x28
     ::UnityEngine::AudioSource* audioSource;
     // Field size check
     static_assert(sizeof(::UnityEngine::AudioSource*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124A520
+    // [SpaceAttribute] Offset: 0x10CF018
     // private FloatSO _audioLatency
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::FloatSO* audioLatency;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x124A558
+    // [InjectAttribute] Offset: 0x10CF050
     // private readonly AudioTimeSyncController/InitData _initData
     // Size: 0x8
     // Offset: 0x38
@@ -278,144 +270,138 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _audioSyncLerpSpeed
-    float& dyn__audioSyncLerpSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__audioSyncLerpSpeed();
     // Get instance field reference: private System.Single _forcedSyncDeltaTime
-    float& dyn__forcedSyncDeltaTime();
+    [[deprecated("Use field access instead!")]] float& dyn__forcedSyncDeltaTime();
     // Get instance field reference: private System.Single _startSyncDeltaTime
-    float& dyn__startSyncDeltaTime();
+    [[deprecated("Use field access instead!")]] float& dyn__startSyncDeltaTime();
     // Get instance field reference: private System.Single _stopSyncDeltaTime
-    float& dyn__stopSyncDeltaTime();
+    [[deprecated("Use field access instead!")]] float& dyn__stopSyncDeltaTime();
     // Get instance field reference: private UnityEngine.AudioSource _audioSource
-    ::UnityEngine::AudioSource*& dyn__audioSource();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioSource*& dyn__audioSource();
     // Get instance field reference: private FloatSO _audioLatency
-    ::GlobalNamespace::FloatSO*& dyn__audioLatency();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FloatSO*& dyn__audioLatency();
     // Get instance field reference: private readonly AudioTimeSyncController/InitData _initData
-    ::GlobalNamespace::AudioTimeSyncController::InitData*& dyn__initData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioTimeSyncController::InitData*& dyn__initData();
     // Get instance field reference: public System.Boolean forcedNoAudioSync
-    bool& dyn_forcedNoAudioSync();
+    [[deprecated("Use field access instead!")]] bool& dyn_forcedNoAudioSync();
     // Get instance field reference: private System.Action stateChangedEvent
-    ::System::Action*& dyn_stateChangedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_stateChangedEvent();
     // Get instance field reference: private System.Boolean _fixingAudioSyncError
-    bool& dyn__fixingAudioSyncError();
+    [[deprecated("Use field access instead!")]] bool& dyn__fixingAudioSyncError();
     // Get instance field reference: private System.Single _audioStartTimeOffsetSinceStart
-    float& dyn__audioStartTimeOffsetSinceStart();
+    [[deprecated("Use field access instead!")]] float& dyn__audioStartTimeOffsetSinceStart();
     // Get instance field reference: private System.Int32 _playbackLoopIndex
-    int& dyn__playbackLoopIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__playbackLoopIndex();
     // Get instance field reference: private System.Int32 _prevAudioSamplePos
-    int& dyn__prevAudioSamplePos();
+    [[deprecated("Use field access instead!")]] int& dyn__prevAudioSamplePos();
     // Get instance field reference: private System.Single _startSongTime
-    float& dyn__startSongTime();
+    [[deprecated("Use field access instead!")]] float& dyn__startSongTime();
     // Get instance field reference: private System.Single _songTimeOffset
-    float& dyn__songTimeOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__songTimeOffset();
     // Get instance field reference: private System.Boolean _audioStarted
-    bool& dyn__audioStarted();
+    [[deprecated("Use field access instead!")]] bool& dyn__audioStarted();
     // Get instance field reference: private System.Single _timeScale
-    float& dyn__timeScale();
+    [[deprecated("Use field access instead!")]] float& dyn__timeScale();
     // Get instance field reference: private System.Single _songTime
-    float& dyn__songTime();
+    [[deprecated("Use field access instead!")]] float& dyn__songTime();
     // Get instance field reference: private System.Double _dspTimeOffset
-    double& dyn__dspTimeOffset();
+    [[deprecated("Use field access instead!")]] double& dyn__dspTimeOffset();
     // Get instance field reference: private AudioTimeSyncController/State _state
-    ::GlobalNamespace::AudioTimeSyncController::State& dyn__state();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioTimeSyncController::State& dyn__state();
     // Get instance field reference: private System.Boolean _canStartSong
-    bool& dyn__canStartSong();
+    [[deprecated("Use field access instead!")]] bool& dyn__canStartSong();
     // Get instance field reference: private System.Boolean _isReady
-    bool& dyn__isReady();
+    [[deprecated("Use field access instead!")]] bool& dyn__isReady();
     // Get instance field reference: private System.Single _lastFrameDeltaSongTime
-    float& dyn__lastFrameDeltaSongTime();
+    [[deprecated("Use field access instead!")]] float& dyn__lastFrameDeltaSongTime();
     // Get instance field reference: private System.Boolean _forceNoAudioSyncOrAudioSyncErrorFixing
-    bool& dyn__forceNoAudioSyncOrAudioSyncErrorFixing();
+    [[deprecated("Use field access instead!")]] bool& dyn__forceNoAudioSyncOrAudioSyncErrorFixing();
     // public AudioTimeSyncController/State get_state()
-    // Offset: 0x14B9E84
+    // Offset: 0x14F173C
     ::GlobalNamespace::AudioTimeSyncController::State get_state();
     // public System.Single get_songTime()
-    // Offset: 0x14B9E8C
+    // Offset: 0x14F1744
     float get_songTime();
     // public System.Single get_lastFrameDeltaSongTime()
-    // Offset: 0x14B9E94
+    // Offset: 0x14F174C
     float get_lastFrameDeltaSongTime();
     // public System.Single get_songLength()
-    // Offset: 0x14B9E9C
+    // Offset: 0x14F1754
     float get_songLength();
     // public System.Boolean get_isAudioLoaded()
-    // Offset: 0x14B9F44
+    // Offset: 0x14F17FC
     bool get_isAudioLoaded();
     // public System.Single get_songEndTime()
-    // Offset: 0x14B9F78
+    // Offset: 0x14F1830
     float get_songEndTime();
     // public System.Single get_timeScale()
-    // Offset: 0x14B9FEC
+    // Offset: 0x14F18A4
     float get_timeScale();
     // public System.Double get_dspTimeOffset()
-    // Offset: 0x14B9FF4
+    // Offset: 0x14F18AC
     double get_dspTimeOffset();
     // public UnityEngine.WaitUntil get_waitUntilAudioIsLoaded()
-    // Offset: 0x14B9FFC
+    // Offset: 0x14F18B4
     ::UnityEngine::WaitUntil* get_waitUntilAudioIsLoaded();
     // public System.Boolean get_isReady()
-    // Offset: 0x14BA094
+    // Offset: 0x14F194C
     bool get_isReady();
     // public System.Single get_songTimeOffset()
-    // Offset: 0x14BA09C
+    // Offset: 0x14F1954
     float get_songTimeOffset();
     // public System.Boolean get_forceNoAudioSyncOrAudioSyncErrorFixing()
-    // Offset: 0x14BA0A4
+    // Offset: 0x14F195C
     bool get_forceNoAudioSyncOrAudioSyncErrorFixing();
     // public System.Void set_forceNoAudioSyncOrAudioSyncErrorFixing(System.Boolean value)
-    // Offset: 0x14BA0AC
+    // Offset: 0x14F1964
     void set_forceNoAudioSyncOrAudioSyncErrorFixing(bool value);
     // private System.Single get_timeSinceStart()
-    // Offset: 0x14BA6F4
+    // Offset: 0x14F1FAC
     float get_timeSinceStart();
     // public System.Void add_stateChangedEvent(System.Action value)
-    // Offset: 0x14BA0B8
+    // Offset: 0x14F1970
     void add_stateChangedEvent(::System::Action* value);
     // public System.Void remove_stateChangedEvent(System.Action value)
-    // Offset: 0x14BA15C
+    // Offset: 0x14F1A14
     void remove_stateChangedEvent(::System::Action* value);
-    // protected System.Void Awake()
-    // Offset: 0x14BA200
-    void Awake();
-    // protected System.Void Start()
-    // Offset: 0x14BA254
-    void Start();
-    // protected System.Void Update()
-    // Offset: 0x14BA344
-    void Update();
-    // public System.Void StartSong(System.Single startTimeOffset)
-    // Offset: 0x14BA720
-    void StartSong(float startTimeOffset);
-    // public System.Void SeekTo(System.Single startTimeOffset)
-    // Offset: 0x14BA768
-    void SeekTo(float startTimeOffset);
-    // public System.Void StopSong()
-    // Offset: 0x14BA930
-    void StopSong();
-    // public System.Void Pause()
-    // Offset: 0x14BA980
-    void Pause();
-    // public System.Void Resume()
-    // Offset: 0x14BA9E0
-    void Resume();
-    // public System.Void SetSongTimeIntoAudioTime()
-    // Offset: 0x14BAA38
-    void SetSongTimeIntoAudioTime();
-    // private System.Boolean <get_waitUntilAudioIsLoaded>b__27_0()
-    // Offset: 0x14BAB80
-    bool $get_waitUntilAudioIsLoaded$b__27_0();
     // public System.Void .ctor()
-    // Offset: 0x14BAB6C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14F2424
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioTimeSyncController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AudioTimeSyncController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioTimeSyncController*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x14F1AB8
+    void Awake();
+    // protected System.Void Start()
+    // Offset: 0x14F1B0C
+    void Start();
+    // protected System.Void Update()
+    // Offset: 0x14F1BFC
+    void Update();
+    // public System.Void StartSong(System.Single startTimeOffset)
+    // Offset: 0x14F1FD8
+    void StartSong(float startTimeOffset);
+    // public System.Void SeekTo(System.Single startTimeOffset)
+    // Offset: 0x14F2020
+    void SeekTo(float startTimeOffset);
+    // public System.Void StopSong()
+    // Offset: 0x14F21E8
+    void StopSong();
+    // public System.Void Pause()
+    // Offset: 0x14F2238
+    void Pause();
+    // public System.Void Resume()
+    // Offset: 0x14F2298
+    void Resume();
+    // public System.Void SetSongTimeIntoAudioTime()
+    // Offset: 0x14F22F0
+    void SetSongTimeIntoAudioTime();
+    // private System.Boolean <get_waitUntilAudioIsLoaded>b__27_0()
+    // Offset: 0x14F2438
+    bool $get_waitUntilAudioIsLoaded$b__27_0();
   }; // AudioTimeSyncController
   #pragma pack(pop)
   static check_size<sizeof(AudioTimeSyncController), 140 + sizeof(bool)> __GlobalNamespace_AudioTimeSyncControllerSizeCheck;
@@ -555,6 +541,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioTimeSyncController*), "remove_stateChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::AudioTimeSyncController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AudioTimeSyncController::Awake
 // Il2CppName: Awake
 template<>
@@ -637,7 +627,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioTimeSyncController*), "<get_waitUntilAudioIsLoaded>b__27_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AudioTimeSyncController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

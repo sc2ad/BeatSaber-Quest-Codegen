@@ -34,22 +34,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SettingsSubMenuInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.ViewController _viewController
     // Size: 0x8
     // Offset: 0x10
     ::HMUI::ViewController* viewController;
     // Field size check
     static_assert(sizeof(::HMUI::ViewController*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0x125BF54
+    // [LocalizationKeyAttribute] Offset: 0x10E0B38
     // private System.String _menuName
     // Size: 0x8
     // Offset: 0x18
@@ -58,19 +50,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private HMUI.ViewController _viewController
-    ::HMUI::ViewController*& dyn__viewController();
+    [[deprecated("Use field access instead!")]] ::HMUI::ViewController*& dyn__viewController();
     // Get instance field reference: private System.String _menuName
-    ::StringW& dyn__menuName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__menuName();
     // public HMUI.ViewController get_viewController()
-    // Offset: 0x142AE20
+    // Offset: 0x1380284
     ::HMUI::ViewController* get_viewController();
     // public System.String get_localizedMenuName()
-    // Offset: 0x142AE28
+    // Offset: 0x138028C
     ::StringW get_localizedMenuName();
     // public System.Void .ctor()
-    // Offset: 0x142AE34
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1380298
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SettingsSubMenuInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SettingsSubMenuInfo::.ctor");

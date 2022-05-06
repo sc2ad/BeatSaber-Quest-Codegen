@@ -38,15 +38,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
   // [TokenAttribute] Offset: FFFFFFFF
   class Poly1305 : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IMac*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
     // Size: 0x8
     // Offset: 0x10
@@ -187,91 +179,93 @@ namespace Org::BouncyCastle::Crypto::Macs {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IMac*>(this);
     }
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
-    ::Org::BouncyCastle::Crypto::IBlockCipher*& dyn_cipher();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::IBlockCipher*& dyn_cipher();
     // Get instance field reference: private readonly System.Byte[] singleByte
-    ::ArrayW<uint8_t>& dyn_singleByte();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_singleByte();
     // Get instance field reference: private System.UInt32 r0
-    uint& dyn_r0();
+    [[deprecated("Use field access instead!")]] uint& dyn_r0();
     // Get instance field reference: private System.UInt32 r1
-    uint& dyn_r1();
+    [[deprecated("Use field access instead!")]] uint& dyn_r1();
     // Get instance field reference: private System.UInt32 r2
-    uint& dyn_r2();
+    [[deprecated("Use field access instead!")]] uint& dyn_r2();
     // Get instance field reference: private System.UInt32 r3
-    uint& dyn_r3();
+    [[deprecated("Use field access instead!")]] uint& dyn_r3();
     // Get instance field reference: private System.UInt32 r4
-    uint& dyn_r4();
+    [[deprecated("Use field access instead!")]] uint& dyn_r4();
     // Get instance field reference: private System.UInt32 s1
-    uint& dyn_s1();
+    [[deprecated("Use field access instead!")]] uint& dyn_s1();
     // Get instance field reference: private System.UInt32 s2
-    uint& dyn_s2();
+    [[deprecated("Use field access instead!")]] uint& dyn_s2();
     // Get instance field reference: private System.UInt32 s3
-    uint& dyn_s3();
+    [[deprecated("Use field access instead!")]] uint& dyn_s3();
     // Get instance field reference: private System.UInt32 s4
-    uint& dyn_s4();
+    [[deprecated("Use field access instead!")]] uint& dyn_s4();
     // Get instance field reference: private System.UInt32 k0
-    uint& dyn_k0();
+    [[deprecated("Use field access instead!")]] uint& dyn_k0();
     // Get instance field reference: private System.UInt32 k1
-    uint& dyn_k1();
+    [[deprecated("Use field access instead!")]] uint& dyn_k1();
     // Get instance field reference: private System.UInt32 k2
-    uint& dyn_k2();
+    [[deprecated("Use field access instead!")]] uint& dyn_k2();
     // Get instance field reference: private System.UInt32 k3
-    uint& dyn_k3();
+    [[deprecated("Use field access instead!")]] uint& dyn_k3();
     // Get instance field reference: private System.Byte[] currentBlock
-    ::ArrayW<uint8_t>& dyn_currentBlock();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_currentBlock();
     // Get instance field reference: private System.Int32 currentBlockOffset
-    int& dyn_currentBlockOffset();
+    [[deprecated("Use field access instead!")]] int& dyn_currentBlockOffset();
     // Get instance field reference: private System.UInt32 h0
-    uint& dyn_h0();
+    [[deprecated("Use field access instead!")]] uint& dyn_h0();
     // Get instance field reference: private System.UInt32 h1
-    uint& dyn_h1();
+    [[deprecated("Use field access instead!")]] uint& dyn_h1();
     // Get instance field reference: private System.UInt32 h2
-    uint& dyn_h2();
+    [[deprecated("Use field access instead!")]] uint& dyn_h2();
     // Get instance field reference: private System.UInt32 h3
-    uint& dyn_h3();
+    [[deprecated("Use field access instead!")]] uint& dyn_h3();
     // Get instance field reference: private System.UInt32 h4
-    uint& dyn_h4();
-    // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1DFC914
-    void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-    // private System.Void SetKey(System.Byte[] key, System.Byte[] nonce)
-    // Offset: 0x1DFCA90
-    void SetKey(::ArrayW<uint8_t> key, ::ArrayW<uint8_t> nonce);
-    // public System.Int32 GetMacSize()
-    // Offset: 0x1DFCDCC
-    int GetMacSize();
-    // public System.Void Update(System.Byte input)
-    // Offset: 0x1DFCDD4
-    void Update(uint8_t input);
-    // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x1DFCE14
-    void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int len);
-    // private System.Void ProcessBlock()
-    // Offset: 0x1DFCF0C
-    void ProcessBlock();
-    // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1DFD144
-    int DoFinal(::ArrayW<uint8_t> output, int outOff);
-    // public System.Void Reset()
-    // Offset: 0x1DFCDC0
-    void Reset();
-    // static private System.UInt64 mul32x32_64(System.UInt32 i1, System.UInt32 i2)
-    // Offset: 0x1DFD13C
-    static uint64_t mul32x32_64(uint i1, uint i2);
+    [[deprecated("Use field access instead!")]] uint& dyn_h4();
     // public System.Void .ctor()
-    // Offset: 0x1DFC898
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E37164
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Poly1305* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Macs::Poly1305::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Poly1305*, creationType>()));
     }
+    // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
+    // Offset: 0x1E371E0
+    void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // private System.Void SetKey(System.Byte[] key, System.Byte[] nonce)
+    // Offset: 0x1E3735C
+    void SetKey(::ArrayW<uint8_t> key, ::ArrayW<uint8_t> nonce);
+    // public System.Int32 GetMacSize()
+    // Offset: 0x1E37698
+    int GetMacSize();
+    // public System.Void Update(System.Byte input)
+    // Offset: 0x1E376A0
+    void Update(uint8_t input);
+    // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
+    // Offset: 0x1E376E0
+    void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int len);
+    // private System.Void ProcessBlock()
+    // Offset: 0x1E377D8
+    void ProcessBlock();
+    // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
+    // Offset: 0x1E37A10
+    int DoFinal(::ArrayW<uint8_t> output, int outOff);
+    // public System.Void Reset()
+    // Offset: 0x1E3768C
+    void Reset();
+    // static private System.UInt64 mul32x32_64(System.UInt32 i1, System.UInt32 i2)
+    // Offset: 0x1E37A08
+    static uint64_t mul32x32_64(uint i1, uint i2);
   }; // Org.BouncyCastle.Crypto.Macs.Poly1305
   #pragma pack(pop)
   static check_size<sizeof(Poly1305), 116 + sizeof(uint)> __Org_BouncyCastle_Crypto_Macs_Poly1305SizeCheck;
   static_assert(sizeof(Poly1305) == 0x78);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::Poly1305::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::Poly1305::Init
 // Il2CppName: Init
 template<>
@@ -355,7 +349,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Macs::Poly1305*), "mul32x32_64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i1, i2});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::Poly1305::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

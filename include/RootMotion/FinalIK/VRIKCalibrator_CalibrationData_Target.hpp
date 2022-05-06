@@ -34,15 +34,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRIKCalibrator::CalibrationData::Target : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean used
     // Size: 0x1
     // Offset: 0x10
@@ -65,20 +57,20 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     public:
     // Get instance field reference: public System.Boolean used
-    bool& dyn_used();
+    [[deprecated("Use field access instead!")]] bool& dyn_used();
     // Get instance field reference: public UnityEngine.Vector3 localPosition
-    ::UnityEngine::Vector3& dyn_localPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_localPosition();
     // Get instance field reference: public UnityEngine.Quaternion localRotation
-    ::UnityEngine::Quaternion& dyn_localRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_localRotation();
     // public System.Void .ctor(UnityEngine.Transform t)
-    // Offset: 0x1F7C428
+    // Offset: 0x1FC8C9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRIKCalibrator::CalibrationData::Target* New_ctor(::UnityEngine::Transform* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRIKCalibrator::CalibrationData::Target*, creationType>(t)));
     }
     // public System.Void SetTo(UnityEngine.Transform t)
-    // Offset: 0x1F7CF7C
+    // Offset: 0x1FC97F0
     void SetTo(::UnityEngine::Transform* t);
   }; // RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target
   #pragma pack(pop)

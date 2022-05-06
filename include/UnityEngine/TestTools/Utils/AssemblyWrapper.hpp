@@ -37,15 +37,7 @@ namespace UnityEngine::TestTools::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssemblyWrapper : public ::Il2CppObject/*, public ::UnityEngine::TestTools::Utils::IAssemblyWrapper*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Reflection.Assembly <Assembly>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -64,14 +56,14 @@ namespace UnityEngine::TestTools::Utils {
       return *reinterpret_cast<::UnityEngine::TestTools::Utils::IAssemblyWrapper*>(this);
     }
     // Get instance field reference: private readonly System.Reflection.Assembly <Assembly>k__BackingField
-    ::System::Reflection::Assembly*& dyn_$Assembly$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Reflection::Assembly*& dyn_$Assembly$k__BackingField();
     // Get instance field reference: private readonly System.Reflection.AssemblyName <Name>k__BackingField
-    ::System::Reflection::AssemblyName*& dyn_$Name$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Reflection::AssemblyName*& dyn_$Name$k__BackingField();
     // public System.Reflection.Assembly get_Assembly()
-    // Offset: 0x2A7CBC4
+    // Offset: 0x2AC6874
     ::System::Reflection::Assembly* get_Assembly();
     // public System.Void .ctor(System.Reflection.Assembly assembly)
-    // Offset: 0x2A7CB70
+    // Offset: 0x2AC6820
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyWrapper* New_ctor(::System::Reflection::Assembly* assembly) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::Utils::AssemblyWrapper::.ctor");

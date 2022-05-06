@@ -61,31 +61,30 @@ namespace GlobalNamespace {
     static ::StringW _get_kBackupFileName();
     // Set static field: static private System.String kBackupFileName
     static void _set_kBackupFileName(::StringW value);
-    // public System.Void Save(AvatarData avatarData)
-    // Offset: 0x14BBFDC
-    void Save(::GlobalNamespace::AvatarData* avatarData);
-    // public AvatarData Load()
-    // Offset: 0x14BC144
-    ::GlobalNamespace::AvatarData* Load();
-    // private AvatarData LoadFromCurrentVersion(AvatarSaveData avatarSaveData)
-    // Offset: 0x14BC1D8
-    ::GlobalNamespace::AvatarData* LoadFromCurrentVersion(::GlobalNamespace::AvatarSaveData* avatarSaveData);
     // public System.Void .ctor()
-    // Offset: 0x14BC3A4
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14F3C5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarDataFileManagerSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarDataFileManagerSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarDataFileManagerSO*, creationType>()));
     }
+    // public System.Void Save(AvatarData avatarData)
+    // Offset: 0x14F3894
+    void Save(::GlobalNamespace::AvatarData* avatarData);
+    // public AvatarData Load()
+    // Offset: 0x14F39FC
+    ::GlobalNamespace::AvatarData* Load();
+    // private AvatarData LoadFromCurrentVersion(AvatarSaveData avatarSaveData)
+    // Offset: 0x14F3A90
+    ::GlobalNamespace::AvatarData* LoadFromCurrentVersion(::GlobalNamespace::AvatarSaveData* avatarSaveData);
   }; // AvatarDataFileManagerSO
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::AvatarDataFileManagerSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AvatarDataFileManagerSO::Save
 // Il2CppName: Save
 template<>
@@ -112,7 +111,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarDataFileManagerSO*), "LoadFromCurrentVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{avatarSaveData});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AvatarDataFileManagerSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -28,22 +28,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FakeMirrorSettings : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _fakeMirrorTransparency
     // Size: 0x4
     // Offset: 0x18
     float fakeMirrorTransparency;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x1242048
+    // [SpaceAttribute] Offset: 0x10C6B30
     // private System.Boolean _useVertexDistortion
     // Size: 0x1
     // Offset: 0x1C
@@ -52,30 +44,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useVertexDistortion and: vertexDistortionNoiseScale
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x1242084
-    // [MinAttribute] Offset: 0x1242084
+    // [DrawIfAttribute] Offset: 0x10C6B6C
+    // [MinAttribute] Offset: 0x10C6B6C
     // private System.Single _vertexDistortionNoiseScale
     // Size: 0x4
     // Offset: 0x20
     float vertexDistortionNoiseScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0x1242140
+    // [DrawIfAttribute] Offset: 0x10C6C28
     // private System.Single _vertexDistortionStrength
     // Size: 0x4
     // Offset: 0x24
     float vertexDistortionStrength;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0x12421E8
+    // [DrawIfAttribute] Offset: 0x10C6CD0
     // private UnityEngine.Vector3 _vertexDistortionDirectionality
     // Size: 0xC
     // Offset: 0x28
     ::UnityEngine::Vector3 vertexDistortionDirectionality;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [DrawIfAttribute] Offset: 0x1242290
-    // [MinAttribute] Offset: 0x1242290
+    // [DrawIfAttribute] Offset: 0x10C6D78
+    // [MinAttribute] Offset: 0x10C6D78
     // private System.Single _vertexDistortionZposMultiplier
     // Size: 0x4
     // Offset: 0x34
@@ -85,79 +77,71 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x124234C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C6E34
     // Get static field: static private readonly System.Int32 _fakeMirrorTransparencyId
     static int _get__fakeMirrorTransparencyId();
     // Set static field: static private readonly System.Int32 _fakeMirrorTransparencyId
     static void _set__fakeMirrorTransparencyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x124235C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C6E44
     // Get static field: static private readonly System.Int32 _vertexDistortionNoiseScaleId
     static int _get__vertexDistortionNoiseScaleId();
     // Set static field: static private readonly System.Int32 _vertexDistortionNoiseScaleId
     static void _set__vertexDistortionNoiseScaleId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x124236C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C6E54
     // Get static field: static private readonly System.Int32 _vertexDistortionStrengthId
     static int _get__vertexDistortionStrengthId();
     // Set static field: static private readonly System.Int32 _vertexDistortionStrengthId
     static void _set__vertexDistortionStrengthId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x124237C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C6E64
     // Get static field: static private readonly System.Int32 _vertexDistortionDirectionalityId
     static int _get__vertexDistortionDirectionalityId();
     // Set static field: static private readonly System.Int32 _vertexDistortionDirectionalityId
     static void _set__vertexDistortionDirectionalityId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x124238C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C6E74
     // Get static field: static private readonly System.Int32 _vertexDistortionZposMultiplierId
     static int _get__vertexDistortionZposMultiplierId();
     // Set static field: static private readonly System.Int32 _vertexDistortionZposMultiplierId
     static void _set__vertexDistortionZposMultiplierId(int value);
     // Get instance field reference: private System.Single _fakeMirrorTransparency
-    float& dyn__fakeMirrorTransparency();
+    [[deprecated("Use field access instead!")]] float& dyn__fakeMirrorTransparency();
     // Get instance field reference: private System.Boolean _useVertexDistortion
-    bool& dyn__useVertexDistortion();
+    [[deprecated("Use field access instead!")]] bool& dyn__useVertexDistortion();
     // Get instance field reference: private System.Single _vertexDistortionNoiseScale
-    float& dyn__vertexDistortionNoiseScale();
+    [[deprecated("Use field access instead!")]] float& dyn__vertexDistortionNoiseScale();
     // Get instance field reference: private System.Single _vertexDistortionStrength
-    float& dyn__vertexDistortionStrength();
+    [[deprecated("Use field access instead!")]] float& dyn__vertexDistortionStrength();
     // Get instance field reference: private UnityEngine.Vector3 _vertexDistortionDirectionality
-    ::UnityEngine::Vector3& dyn__vertexDistortionDirectionality();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__vertexDistortionDirectionality();
     // Get instance field reference: private System.Single _vertexDistortionZposMultiplier
-    float& dyn__vertexDistortionZposMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__vertexDistortionZposMultiplier();
     // public System.Single get_fakeMirrorTransparency()
-    // Offset: 0x29E7B1C
+    // Offset: 0x2A3E418
     float get_fakeMirrorTransparency();
     // public System.Void set_fakeMirrorTransparency(System.Single value)
-    // Offset: 0x29E7B24
+    // Offset: 0x2A3E420
     void set_fakeMirrorTransparency(float value);
-    // protected System.Void Start()
-    // Offset: 0x29E7B2C
-    void Start();
-    // protected System.Void OnEnable()
-    // Offset: 0x29E7CA4
-    void OnEnable();
-    // protected System.Void OnValidate()
-    // Offset: 0x29E7CA8
-    void OnValidate();
-    // private System.Void SetGlobalParameters()
-    // Offset: 0x29E7B30
-    void SetGlobalParameters();
     // public System.Void .ctor()
-    // Offset: 0x29E7CAC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A3E5A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FakeMirrorSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FakeMirrorSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FakeMirrorSettings*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x29E7D24
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x2A3E620
     static void _cctor();
+    // protected System.Void Start()
+    // Offset: 0x2A3E428
+    void Start();
+    // protected System.Void OnEnable()
+    // Offset: 0x2A3E5A0
+    void OnEnable();
+    // protected System.Void OnValidate()
+    // Offset: 0x2A3E5A4
+    void OnValidate();
+    // private System.Void SetGlobalParameters()
+    // Offset: 0x2A3E42C
+    void SetGlobalParameters();
   }; // FakeMirrorSettings
   #pragma pack(pop)
   static check_size<sizeof(FakeMirrorSettings), 52 + sizeof(float)> __GlobalNamespace_FakeMirrorSettingsSizeCheck;
@@ -179,6 +163,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FakeMirrorSettings*), "set_fakeMirrorTransparency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::FakeMirrorSettings::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::FakeMirrorSettings::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::FakeMirrorSettings::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FakeMirrorSettings*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::FakeMirrorSettings::Start
@@ -211,17 +207,5 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FakeMirrorSettings::*)()>(&GlobalNamespace::FakeMirrorSettings::SetGlobalParameters)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FakeMirrorSettings*), "SetGlobalParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::FakeMirrorSettings::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::FakeMirrorSettings::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::FakeMirrorSettings::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FakeMirrorSettings*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

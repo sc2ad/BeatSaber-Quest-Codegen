@@ -92,20 +92,12 @@ namespace GlobalNamespace {
       // Set static field: static public SettingsNavigationController/FinishAction Apply
       static void _set_Apply(::GlobalNamespace::SettingsNavigationController::FinishAction value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // SettingsNavigationController/FinishAction
     #pragma pack(pop)
     static check_size<sizeof(SettingsNavigationController::FinishAction), 0 + sizeof(int)> __GlobalNamespace_SettingsNavigationController_FinishActionSizeCheck;
     static_assert(sizeof(SettingsNavigationController::FinishAction) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Button _okButton
     // Size: 0x8
     // Offset: 0x98
@@ -132,49 +124,40 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action_1<::GlobalNamespace::SettingsNavigationController::FinishAction>*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.UI.Button _okButton
-    ::UnityEngine::UI::Button*& dyn__okButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__okButton();
     // Get instance field reference: private UnityEngine.UI.Button _applyButton
-    ::UnityEngine::UI::Button*& dyn__applyButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__applyButton();
     // Get instance field reference: private UnityEngine.UI.Button _cancelButton
-    ::UnityEngine::UI::Button*& dyn__cancelButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__cancelButton();
     // Get instance field reference: private System.Action`1<SettingsNavigationController/FinishAction> didFinishEvent
-    ::System::Action_1<::GlobalNamespace::SettingsNavigationController::FinishAction>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::SettingsNavigationController::FinishAction>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<SettingsNavigationController/FinishAction> value)
-    // Offset: 0x142A794
+    // Offset: 0x137FBF8
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::SettingsNavigationController::FinishAction>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<SettingsNavigationController/FinishAction> value)
-    // Offset: 0x142A92C
+    // Offset: 0x137FD90
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::SettingsNavigationController::FinishAction>* value);
-    // private System.Void HandleFinishButton(SettingsNavigationController/FinishAction finishAction)
-    // Offset: 0x142AD8C
-    void HandleFinishButton(::GlobalNamespace::SettingsNavigationController::FinishAction finishAction);
-    // private System.Void <DidActivate>b__7_0()
-    // Offset: 0x142AE08
-    void $DidActivate$b__7_0();
-    // private System.Void <DidActivate>b__7_1()
-    // Offset: 0x142AE10
-    void $DidActivate$b__7_1();
-    // private System.Void <DidActivate>b__7_2()
-    // Offset: 0x142AE18
-    void $DidActivate$b__7_2();
     // public System.Void .ctor()
-    // Offset: 0x142AE00
-    // Implemented from: HMUI.NavigationController
-    // Base method: System.Void NavigationController::.ctor()
-    // Base method: System.Void ContainerViewController::.ctor()
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1380264
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SettingsNavigationController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SettingsNavigationController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SettingsNavigationController*, creationType>()));
     }
+    // private System.Void HandleFinishButton(SettingsNavigationController/FinishAction finishAction)
+    // Offset: 0x13801F0
+    void HandleFinishButton(::GlobalNamespace::SettingsNavigationController::FinishAction finishAction);
+    // private System.Void <DidActivate>b__7_0()
+    // Offset: 0x138026C
+    void $DidActivate$b__7_0();
+    // private System.Void <DidActivate>b__7_1()
+    // Offset: 0x1380274
+    void $DidActivate$b__7_1();
+    // private System.Void <DidActivate>b__7_2()
+    // Offset: 0x138027C
+    void $DidActivate$b__7_2();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x142AC4C
+    // Offset: 0x13800B0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -204,6 +187,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsNavigationController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SettingsNavigationController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SettingsNavigationController::HandleFinishButton
 // Il2CppName: HandleFinishButton
 template<>
@@ -237,10 +224,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsNavigationController*), "<DidActivate>b__7_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SettingsNavigationController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SettingsNavigationController::DidActivate
 // Il2CppName: DidActivate
 template<>

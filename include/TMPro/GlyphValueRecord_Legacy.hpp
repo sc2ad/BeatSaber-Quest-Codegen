@@ -63,22 +63,22 @@ namespace TMPro {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single xPlacement
-    float& dyn_xPlacement();
+    [[deprecated("Use field access instead!")]] float& dyn_xPlacement();
     // Get instance field reference: public System.Single yPlacement
-    float& dyn_yPlacement();
+    [[deprecated("Use field access instead!")]] float& dyn_yPlacement();
     // Get instance field reference: public System.Single xAdvance
-    float& dyn_xAdvance();
+    [[deprecated("Use field access instead!")]] float& dyn_xAdvance();
     // Get instance field reference: public System.Single yAdvance
-    float& dyn_yAdvance();
+    [[deprecated("Use field access instead!")]] float& dyn_yAdvance();
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphValueRecord valueRecord)
-    // Offset: 0x142F088
+    // Offset: 0x14382C8
     GlyphValueRecord_Legacy(::UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord);
   }; // TMPro.GlyphValueRecord_Legacy
   #pragma pack(pop)
   static check_size<sizeof(GlyphValueRecord_Legacy), 12 + sizeof(float)> __TMPro_GlyphValueRecord_LegacySizeCheck;
   static_assert(sizeof(GlyphValueRecord_Legacy) == 0x10);
   // static public TMPro.GlyphValueRecord_Legacy op_Addition(TMPro.GlyphValueRecord_Legacy a, TMPro.GlyphValueRecord_Legacy b)
-  // Offset: 0x142F0F4
+  // Offset: 0x1438334
   ::TMPro::GlyphValueRecord_Legacy operator+(const ::TMPro::GlyphValueRecord_Legacy& a, const ::TMPro::GlyphValueRecord_Legacy& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

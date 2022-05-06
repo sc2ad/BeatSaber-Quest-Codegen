@@ -42,15 +42,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BoxCuttableBySaber : public ::GlobalNamespace::CuttableBySaber {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.BoxCollider _collider
     // Size: 0x8
     // Offset: 0x20
@@ -73,63 +65,58 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private UnityEngine.BoxCollider _collider
-    ::UnityEngine::BoxCollider*& dyn__collider();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::BoxCollider*& dyn__collider();
     // Get instance field reference: private System.Boolean _canBeCut
-    bool& dyn__canBeCut();
+    [[deprecated("Use field access instead!")]] bool& dyn__canBeCut();
     // Get instance field reference: private System.Single _radius
-    float& dyn__radius();
+    [[deprecated("Use field access instead!")]] float& dyn__radius();
     // public UnityEngine.Vector3 get_colliderSize()
-    // Offset: 0x134D6C8
+    // Offset: 0x1336910
     ::UnityEngine::Vector3 get_colliderSize();
     // public System.Void set_colliderSize(UnityEngine.Vector3 value)
-    // Offset: 0x134D5B4
+    // Offset: 0x13367FC
     void set_colliderSize(::UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_colliderCenter()
-    // Offset: 0x134D700
+    // Offset: 0x1336948
     ::UnityEngine::Vector3 get_colliderCenter();
     // public System.Void set_colliderCenter(UnityEngine.Vector3 value)
-    // Offset: 0x134D6E4
+    // Offset: 0x133692C
     void set_colliderCenter(::UnityEngine::Vector3 value);
     // protected System.Void Awake()
-    // Offset: 0x134D71C
+    // Offset: 0x1336964
     void Awake();
     // public System.Void SetColliderCenterAndSize(UnityEngine.Vector3 center, UnityEngine.Vector3 size)
-    // Offset: 0x134D77C
+    // Offset: 0x13369C4
     void SetColliderCenterAndSize(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 size);
     // private System.Void RefreshRadius()
-    // Offset: 0x134D5E8
+    // Offset: 0x1336830
     void RefreshRadius();
     // public override System.Single get_radius()
-    // Offset: 0x134D568
+    // Offset: 0x13367B0
     // Implemented from: CuttableBySaber
     // Base method: System.Single CuttableBySaber::get_radius()
     float get_radius();
     // public override System.Boolean get_canBeCut()
-    // Offset: 0x134D5AC
+    // Offset: 0x13367F4
     // Implemented from: CuttableBySaber
     // Base method: System.Boolean CuttableBySaber::get_canBeCut()
     bool get_canBeCut();
     // public override System.Void set_canBeCut(System.Boolean value)
-    // Offset: 0x134D570
+    // Offset: 0x13367B8
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::set_canBeCut(System.Boolean value)
     void set_canBeCut(bool value);
     // public System.Void .ctor()
-    // Offset: 0x134D7E0
+    // Offset: 0x1336A28
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BoxCuttableBySaber* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BoxCuttableBySaber::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BoxCuttableBySaber*, creationType>()));
     }
     // public override System.Void Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x134D758
+    // Offset: 0x13369A0
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
     void Cut(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);

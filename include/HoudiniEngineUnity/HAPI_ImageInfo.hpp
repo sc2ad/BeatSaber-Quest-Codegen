@@ -81,19 +81,19 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 imageFileFormatNameSH
-    int& dyn_imageFileFormatNameSH();
+    [[deprecated("Use field access instead!")]] int& dyn_imageFileFormatNameSH();
     // Get instance field reference: public System.Int32 xRes
-    int& dyn_xRes();
+    [[deprecated("Use field access instead!")]] int& dyn_xRes();
     // Get instance field reference: public System.Int32 yRes
-    int& dyn_yRes();
+    [[deprecated("Use field access instead!")]] int& dyn_yRes();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_ImageDataFormat dataFormat
-    ::HoudiniEngineUnity::HAPI_ImageDataFormat& dyn_dataFormat();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_ImageDataFormat& dyn_dataFormat();
     // Get instance field reference: public System.Boolean interleaved
-    bool& dyn_interleaved();
+    [[deprecated("Use field access instead!")]] bool& dyn_interleaved();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_ImagePacking packing
-    ::HoudiniEngineUnity::HAPI_ImagePacking& dyn_packing();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_ImagePacking& dyn_packing();
     // Get instance field reference: public System.Double gamma
-    double& dyn_gamma();
+    [[deprecated("Use field access instead!")]] double& dyn_gamma();
   }; // HoudiniEngineUnity.HAPI_ImageInfo
   #pragma pack(pop)
   static check_size<sizeof(HAPI_ImageInfo), 24 + sizeof(double)> __HoudiniEngineUnity_HAPI_ImageInfoSizeCheck;

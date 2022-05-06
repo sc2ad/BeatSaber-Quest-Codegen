@@ -55,26 +55,24 @@ namespace GlobalNamespace {
     // Set static field: static private SimpleFileLogger/MonoLogger _monoLogger
     static void _set__monoLogger(::GlobalNamespace::SimpleFileLogger::MonoLogger* value);
     // static private SimpleFileLogger/MonoLogger get_monoLogger()
-    // Offset: 0x29D6B24
+    // Offset: 0x2A29034
     static ::GlobalNamespace::SimpleFileLogger::MonoLogger* get_monoLogger();
-    // static public System.Void Log(System.String text)
-    // Offset: 0x29D6C84
-    static void Log(::StringW text);
-    // static public System.Void LogVector(System.String description, UnityEngine.Vector3 vec)
-    // Offset: 0x29D6D18
-    static void LogVector(::StringW description, ::UnityEngine::Vector3 vec);
-    // static public System.Void Clear()
-    // Offset: 0x29D6F88
-    static void Clear();
     // public System.Void .ctor()
-    // Offset: 0x29D6FA4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A294B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleFileLogger* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SimpleFileLogger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleFileLogger*, creationType>()));
     }
+    // static public System.Void Log(System.String text)
+    // Offset: 0x2A29194
+    static void Log(::StringW text);
+    // static public System.Void LogVector(System.String description, UnityEngine.Vector3 vec)
+    // Offset: 0x2A29228
+    static void LogVector(::StringW description, ::UnityEngine::Vector3 vec);
+    // static public System.Void Clear()
+    // Offset: 0x2A29498
+    static void Clear();
   }; // SimpleFileLogger
   #pragma pack(pop)
 }
@@ -87,6 +85,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleFileLogger*), "get_monoLogger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SimpleFileLogger::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SimpleFileLogger::Log
 // Il2CppName: Log
 template<>
@@ -114,7 +116,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleFileLogger*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SimpleFileLogger::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

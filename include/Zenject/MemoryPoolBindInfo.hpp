@@ -29,15 +29,7 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class MemoryPoolBindInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean <ShowExpandWarning>k__BackingField
     // Size: 0x1
     // Offset: 0x10
@@ -66,41 +58,39 @@ namespace Zenject {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Boolean <ShowExpandWarning>k__BackingField
-    bool& dyn_$ShowExpandWarning$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$ShowExpandWarning$k__BackingField();
     // Get instance field reference: private Zenject.PoolExpandMethods <ExpandMethod>k__BackingField
-    ::Zenject::PoolExpandMethods& dyn_$ExpandMethod$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::Zenject::PoolExpandMethods& dyn_$ExpandMethod$k__BackingField();
     // Get instance field reference: private System.Int32 <InitialSize>k__BackingField
-    int& dyn_$InitialSize$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$InitialSize$k__BackingField();
     // Get instance field reference: private System.Int32 <MaxSize>k__BackingField
-    int& dyn_$MaxSize$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$MaxSize$k__BackingField();
     // public System.Boolean get_ShowExpandWarning()
-    // Offset: 0x1BD9CE0
+    // Offset: 0x1C142C8
     bool get_ShowExpandWarning();
     // public System.Void set_ShowExpandWarning(System.Boolean value)
-    // Offset: 0x1BD9CE8
+    // Offset: 0x1C142D0
     void set_ShowExpandWarning(bool value);
     // public Zenject.PoolExpandMethods get_ExpandMethod()
-    // Offset: 0x1BD9CF4
+    // Offset: 0x1C142DC
     ::Zenject::PoolExpandMethods get_ExpandMethod();
     // public System.Void set_ExpandMethod(Zenject.PoolExpandMethods value)
-    // Offset: 0x1BD9CFC
+    // Offset: 0x1C142E4
     void set_ExpandMethod(::Zenject::PoolExpandMethods value);
     // public System.Int32 get_InitialSize()
-    // Offset: 0x1BD9D04
+    // Offset: 0x1C142EC
     int get_InitialSize();
     // public System.Void set_InitialSize(System.Int32 value)
-    // Offset: 0x1BD9D0C
+    // Offset: 0x1C142F4
     void set_InitialSize(int value);
     // public System.Int32 get_MaxSize()
-    // Offset: 0x1BD9D14
+    // Offset: 0x1C142FC
     int get_MaxSize();
     // public System.Void set_MaxSize(System.Int32 value)
-    // Offset: 0x1BD9D1C
+    // Offset: 0x1C14304
     void set_MaxSize(int value);
     // public System.Void .ctor()
-    // Offset: 0x1BD9CA8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C14290
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemoryPoolBindInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MemoryPoolBindInfo::.ctor");

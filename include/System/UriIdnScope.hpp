@@ -60,7 +60,7 @@ namespace System {
     // Set static field: static public System.UriIdnScope All
     static void _set_All(::System::UriIdnScope value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.UriIdnScope
   #pragma pack(pop)
   static check_size<sizeof(UriIdnScope), 0 + sizeof(int)> __System_UriIdnScopeSizeCheck;

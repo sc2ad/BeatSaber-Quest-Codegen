@@ -37,16 +37,8 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class InstallerBase : public ::Il2CppObject/*, public ::Zenject::IInstaller*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x121FC50
+    // [InjectAttribute] Offset: 0x10A4668
     // private Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x10
@@ -63,31 +55,29 @@ namespace Zenject {
       return container;
     }
     // Get instance field reference: private Zenject.DiContainer _container
-    ::Zenject::DiContainer*& dyn__container();
+    [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn__container();
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0x1BD1E00
+    // Offset: 0x1C0C3E8
     ::Zenject::DiContainer* get_Container();
     // public System.Boolean get_IsEnabled()
-    // Offset: 0x1BD1E08
+    // Offset: 0x1C0C3F0
     bool get_IsEnabled();
-    // public System.Void InstallBindings()
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    void InstallBindings();
-    // static private System.Void __zenFieldSetter0(System.Object P_0, System.Object P_1)
-    // Offset: 0x1BD1E10
-    static void __zenFieldSetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1BD1EE4
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // protected System.Void .ctor()
-    // Offset: 0x1BD1CC4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C0C2AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InstallerBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InstallerBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InstallerBase*, creationType>()));
     }
+    // public System.Void InstallBindings()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    void InstallBindings();
+    // static private System.Void __zenFieldSetter0(System.Object P_0, System.Object P_1)
+    // Offset: 0x1C0C3F8
+    static void __zenFieldSetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1C0C4CC
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.InstallerBase
   #pragma pack(pop)
   static check_size<sizeof(InstallerBase), 16 + sizeof(::Zenject::DiContainer*)> __Zenject_InstallerBaseSizeCheck;
@@ -110,6 +100,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
     return ::il2cpp_utils::FindMethod(classof(Zenject::InstallerBase*), "get_IsEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Zenject::InstallerBase::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::InstallerBase::InstallBindings
 // Il2CppName: InstallBindings
 template<>
@@ -136,7 +130,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::InstallerBase*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::InstallerBase::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

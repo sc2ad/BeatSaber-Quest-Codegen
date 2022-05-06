@@ -38,21 +38,21 @@ namespace UnityEngine {
       return m_ParticleSystem;
     }
     // Get instance field reference: UnityEngine.ParticleSystem m_ParticleSystem
-    ::UnityEngine::ParticleSystem*& dyn_m_ParticleSystem();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn_m_ParticleSystem();
     // public System.Boolean get_enabled()
-    // Offset: 0x2A8CC8C
+    // Offset: 0x2AE29D8
     bool get_enabled();
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0x2A8CD0C
+    // Offset: 0x2AE2A58
     void set_enabled(bool value);
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
-    // Offset: 0x2A8CC64
+    // Offset: 0x2AE29B0
     // ABORTED: conflicts with another method.  EmissionModule(::UnityEngine::ParticleSystem* particleSystem);
     // static private System.Boolean get_enabled_Injected(ref UnityEngine.ParticleSystem/UnityEngine.EmissionModule _unity_self)
-    // Offset: 0x2A8CCCC
+    // Offset: 0x2AE2A18
     static bool get_enabled_Injected(ByRef<::UnityEngine::ParticleSystem::EmissionModule> _unity_self);
     // static private System.Void set_enabled_Injected(ref UnityEngine.ParticleSystem/UnityEngine.EmissionModule _unity_self, System.Boolean value)
-    // Offset: 0x2A8CD5C
+    // Offset: 0x2AE2AA8
     static void set_enabled_Injected(ByRef<::UnityEngine::ParticleSystem::EmissionModule> _unity_self, bool value);
   }; // UnityEngine.ParticleSystem/UnityEngine.EmissionModule
   #pragma pack(pop)

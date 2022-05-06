@@ -44,15 +44,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKConstraintBend : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Transform bone1
     // Size: 0x8
     // Offset: 0x10
@@ -89,7 +81,7 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Quaternion rotationOffset;
     // Field size check
     static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
-    // [RangeAttribute] Offset: 0x12743A8
+    // [RangeAttribute] Offset: 0x10F9060
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x4C
@@ -164,87 +156,85 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public UnityEngine.Transform bone1
-    ::UnityEngine::Transform*& dyn_bone1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_bone1();
     // Get instance field reference: public UnityEngine.Transform bone2
-    ::UnityEngine::Transform*& dyn_bone2();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_bone2();
     // Get instance field reference: public UnityEngine.Transform bone3
-    ::UnityEngine::Transform*& dyn_bone3();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_bone3();
     // Get instance field reference: public UnityEngine.Transform bendGoal
-    ::UnityEngine::Transform*& dyn_bendGoal();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_bendGoal();
     // Get instance field reference: public UnityEngine.Vector3 direction
-    ::UnityEngine::Vector3& dyn_direction();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_direction();
     // Get instance field reference: public UnityEngine.Quaternion rotationOffset
-    ::UnityEngine::Quaternion& dyn_rotationOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_rotationOffset();
     // Get instance field reference: public System.Single weight
-    float& dyn_weight();
+    [[deprecated("Use field access instead!")]] float& dyn_weight();
     // Get instance field reference: public UnityEngine.Vector3 defaultLocalDirection
-    ::UnityEngine::Vector3& dyn_defaultLocalDirection();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_defaultLocalDirection();
     // Get instance field reference: public UnityEngine.Vector3 defaultChildDirection
-    ::UnityEngine::Vector3& dyn_defaultChildDirection();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_defaultChildDirection();
     // Get instance field reference: public System.Single clampF
-    float& dyn_clampF();
+    [[deprecated("Use field access instead!")]] float& dyn_clampF();
     // Get instance field reference: private System.Int32 chainIndex1
-    int& dyn_chainIndex1();
+    [[deprecated("Use field access instead!")]] int& dyn_chainIndex1();
     // Get instance field reference: private System.Int32 nodeIndex1
-    int& dyn_nodeIndex1();
+    [[deprecated("Use field access instead!")]] int& dyn_nodeIndex1();
     // Get instance field reference: private System.Int32 chainIndex2
-    int& dyn_chainIndex2();
+    [[deprecated("Use field access instead!")]] int& dyn_chainIndex2();
     // Get instance field reference: private System.Int32 nodeIndex2
-    int& dyn_nodeIndex2();
+    [[deprecated("Use field access instead!")]] int& dyn_nodeIndex2();
     // Get instance field reference: private System.Int32 chainIndex3
-    int& dyn_chainIndex3();
+    [[deprecated("Use field access instead!")]] int& dyn_chainIndex3();
     // Get instance field reference: private System.Int32 nodeIndex3
-    int& dyn_nodeIndex3();
+    [[deprecated("Use field access instead!")]] int& dyn_nodeIndex3();
     // Get instance field reference: private System.Boolean <initiated>k__BackingField
-    bool& dyn_$initiated$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$initiated$k__BackingField();
     // Get instance field reference: private System.Boolean limbOrientationsSet
-    bool& dyn_limbOrientationsSet();
+    [[deprecated("Use field access instead!")]] bool& dyn_limbOrientationsSet();
     // public System.Boolean get_initiated()
-    // Offset: 0x21D609C
+    // Offset: 0x2223910
     bool get_initiated();
     // private System.Void set_initiated(System.Boolean value)
-    // Offset: 0x21D60A4
+    // Offset: 0x2223918
     void set_initiated(bool value);
+    // public System.Void .ctor()
+    // Offset: 0x2223924
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static IKConstraintBend* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKConstraintBend::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<IKConstraintBend*, creationType>()));
+    }
     // public System.Void .ctor(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3)
-    // Offset: 0x21D6134
+    // Offset: 0x22239A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKConstraintBend* New_ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKConstraintBend::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKConstraintBend*, creationType>(bone1, bone2, bone3)));
     }
     // public System.Boolean IsValid(RootMotion.FinalIK.IKSolverFullBody solver, RootMotion.Warning/RootMotion.Logger logger)
-    // Offset: 0x21D5ED4
+    // Offset: 0x2223748
     bool IsValid(::RootMotion::FinalIK::IKSolverFullBody* solver, ::RootMotion::Warning::Logger* logger);
     // public System.Void SetBones(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3)
-    // Offset: 0x21D61E0
+    // Offset: 0x2223A54
     void SetBones(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3);
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x21D61EC
+    // Offset: 0x2223A60
     void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void SetLimbOrientation(UnityEngine.Vector3 upper, UnityEngine.Vector3 lower, UnityEngine.Vector3 last)
-    // Offset: 0x21D66DC
+    // Offset: 0x2223F50
     void SetLimbOrientation(::UnityEngine::Vector3 upper, ::UnityEngine::Vector3 lower, ::UnityEngine::Vector3 last);
     // public System.Void LimitBend(System.Single solverWeight, System.Single positionWeight)
-    // Offset: 0x21D6914
+    // Offset: 0x2224188
     void LimitBend(float solverWeight, float positionWeight);
     // public UnityEngine.Vector3 GetDir(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x21D6DB0
+    // Offset: 0x2224624
     ::UnityEngine::Vector3 GetDir(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // private UnityEngine.Vector3 OrthoToLimb(RootMotion.FinalIK.IKSolverFullBody solver, UnityEngine.Vector3 tangent)
-    // Offset: 0x21D649C
+    // Offset: 0x2223D10
     ::UnityEngine::Vector3 OrthoToLimb(::RootMotion::FinalIK::IKSolverFullBody* solver, ::UnityEngine::Vector3 tangent);
     // private UnityEngine.Vector3 OrthoToBone1(RootMotion.FinalIK.IKSolverFullBody solver, UnityEngine.Vector3 tangent)
-    // Offset: 0x21D65BC
+    // Offset: 0x2223E30
     ::UnityEngine::Vector3 OrthoToBone1(::RootMotion::FinalIK::IKSolverFullBody* solver, ::UnityEngine::Vector3 tangent);
-    // public System.Void .ctor()
-    // Offset: 0x21D60B0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static IKConstraintBend* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKConstraintBend::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<IKConstraintBend*, creationType>()));
-    }
   }; // RootMotion.FinalIK.IKConstraintBend
   #pragma pack(pop)
   static check_size<sizeof(IKConstraintBend), 133 + sizeof(bool)> __RootMotion_FinalIK_IKConstraintBendSizeCheck;
@@ -268,6 +258,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKConstraintBend*), "set_initiated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKConstraintBend::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKConstraintBend::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -352,7 +346,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKConstraintBend*), "OrthoToBone1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver, tangent});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::IKConstraintBend::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

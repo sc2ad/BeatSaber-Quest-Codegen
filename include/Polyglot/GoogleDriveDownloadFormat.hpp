@@ -54,7 +54,7 @@ namespace Polyglot {
     // Set static field: static public Polyglot.GoogleDriveDownloadFormat TSV
     static void _set_TSV(::Polyglot::GoogleDriveDownloadFormat value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Polyglot.GoogleDriveDownloadFormat
   #pragma pack(pop)
   static check_size<sizeof(GoogleDriveDownloadFormat), 0 + sizeof(int)> __Polyglot_GoogleDriveDownloadFormatSizeCheck;

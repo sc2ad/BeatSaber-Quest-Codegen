@@ -47,7 +47,7 @@ namespace HoudiniEngineUnity {
   class HEU_ReloadEventData : public ::HoudiniEngineUnity::HEU_AssetEventData {
     public:
     // public System.Void .ctor(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.Boolean successful, System.Collections.Generic.List`1<UnityEngine.GameObject> outputObjects)
-    // Offset: 0x1AC8268
+    // Offset: 0x1B03850
     // Implemented from: HoudiniEngineUnity.HEU_AssetEventData
     // Base method: System.Void HEU_AssetEventData::.ctor(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.Boolean successful, System.Collections.Generic.List`1<UnityEngine.GameObject> outputObjects)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

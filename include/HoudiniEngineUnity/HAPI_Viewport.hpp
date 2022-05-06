@@ -51,16 +51,16 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single[] position
-    ::ArrayW<float>& dyn_position();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn_position();
     // Get instance field reference: public System.Single[] rotationQuaternion
-    ::ArrayW<float>& dyn_rotationQuaternion();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn_rotationQuaternion();
     // Get instance field reference: public System.Single offset
-    float& dyn_offset();
+    [[deprecated("Use field access instead!")]] float& dyn_offset();
     // public System.Void .ctor(System.Boolean initializeFields)
-    // Offset: 0x16AA860
+    // Offset: 0x16E2170
     HAPI_Viewport(bool initializeFields);
     // public System.Void Init()
-    // Offset: 0x16AA8F0
+    // Offset: 0x16E2200
     void Init();
   }; // HoudiniEngineUnity.HAPI_Viewport
   #pragma pack(pop)

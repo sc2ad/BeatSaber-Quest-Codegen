@@ -38,15 +38,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class AudioClipAsyncLoader::$$c__DisplayClass17_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public AudioClipAsyncLoader <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -61,27 +53,29 @@ namespace GlobalNamespace {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public AudioClipAsyncLoader <>4__this
-    ::GlobalNamespace::AudioClipAsyncLoader*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioClipAsyncLoader*& dyn_$$4__this();
     // Get instance field reference: public System.String audioClipFilePath
-    ::StringW& dyn_audioClipFilePath();
-    // System.Threading.Tasks.Task`1<UnityEngine.AudioClip> <Load>b__0()
-    // Offset: 0x14B82F8
-    ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* $Load$b__0();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_audioClipFilePath();
     // public System.Void .ctor()
-    // Offset: 0x14B7E88
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14EF740
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioClipAsyncLoader::$$c__DisplayClass17_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AudioClipAsyncLoader::$$c__DisplayClass17_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioClipAsyncLoader::$$c__DisplayClass17_0*, creationType>()));
     }
+    // System.Threading.Tasks.Task`1<UnityEngine.AudioClip> <Load>b__0()
+    // Offset: 0x14EFBB0
+    ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* $Load$b__0();
   }; // AudioClipAsyncLoader/<>c__DisplayClass17_0
   #pragma pack(pop)
   static check_size<sizeof(AudioClipAsyncLoader::$$c__DisplayClass17_0), 24 + sizeof(::StringW)> __GlobalNamespace_AudioClipAsyncLoader_$$c__DisplayClass17_0SizeCheck;
   static_assert(sizeof(AudioClipAsyncLoader::$$c__DisplayClass17_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::$$c__DisplayClass17_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::$$c__DisplayClass17_0::$Load$b__0
 // Il2CppName: <Load>b__0
 template<>
@@ -90,7 +84,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipAsyncLoader::$$c__DisplayClass17_0*), "<Load>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::$$c__DisplayClass17_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

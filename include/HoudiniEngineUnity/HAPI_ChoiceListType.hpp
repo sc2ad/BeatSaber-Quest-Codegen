@@ -72,7 +72,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HAPI_ChoiceListType HAPI_CHOICELISTTYPE_TOGGLE
     static void _set_HAPI_CHOICELISTTYPE_TOGGLE(::HoudiniEngineUnity::HAPI_ChoiceListType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HAPI_ChoiceListType
   #pragma pack(pop)
   static check_size<sizeof(HAPI_ChoiceListType), 0 + sizeof(int)> __HoudiniEngineUnity_HAPI_ChoiceListTypeSizeCheck;

@@ -49,15 +49,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class BipedIKSolvers : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public RootMotion.FinalIK.IKSolverLimb leftFoot
     // Size: 0x8
     // Offset: 0x10
@@ -120,43 +112,41 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::IKSolver*>) == 0x8);
     public:
     // Get instance field reference: public RootMotion.FinalIK.IKSolverLimb leftFoot
-    ::RootMotion::FinalIK::IKSolverLimb*& dyn_leftFoot();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKSolverLimb*& dyn_leftFoot();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverLimb rightFoot
-    ::RootMotion::FinalIK::IKSolverLimb*& dyn_rightFoot();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKSolverLimb*& dyn_rightFoot();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverLimb leftHand
-    ::RootMotion::FinalIK::IKSolverLimb*& dyn_leftHand();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKSolverLimb*& dyn_leftHand();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverLimb rightHand
-    ::RootMotion::FinalIK::IKSolverLimb*& dyn_rightHand();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKSolverLimb*& dyn_rightHand();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverFABRIK spine
-    ::RootMotion::FinalIK::IKSolverFABRIK*& dyn_spine();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKSolverFABRIK*& dyn_spine();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverLookAt lookAt
-    ::RootMotion::FinalIK::IKSolverLookAt*& dyn_lookAt();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKSolverLookAt*& dyn_lookAt();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverAim aim
-    ::RootMotion::FinalIK::IKSolverAim*& dyn_aim();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKSolverAim*& dyn_aim();
     // Get instance field reference: public RootMotion.FinalIK.Constraints pelvis
-    ::RootMotion::FinalIK::Constraints*& dyn_pelvis();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::Constraints*& dyn_pelvis();
     // Get instance field reference: private RootMotion.FinalIK.IKSolverLimb[] _limbs
-    ::ArrayW<::RootMotion::FinalIK::IKSolverLimb*>& dyn__limbs();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::IKSolverLimb*>& dyn__limbs();
     // Get instance field reference: private RootMotion.FinalIK.IKSolver[] _ikSolvers
-    ::ArrayW<::RootMotion::FinalIK::IKSolver*>& dyn__ikSolvers();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::IKSolver*>& dyn__ikSolvers();
     // public RootMotion.FinalIK.IKSolverLimb[] get_limbs()
-    // Offset: 0x2203B54
+    // Offset: 0x22513C8
     ::ArrayW<::RootMotion::FinalIK::IKSolverLimb*> get_limbs();
     // public RootMotion.FinalIK.IKSolver[] get_ikSolvers()
-    // Offset: 0x220476C
+    // Offset: 0x2251FE0
     ::ArrayW<::RootMotion::FinalIK::IKSolver*> get_ikSolvers();
-    // public System.Void AssignReferences(RootMotion.BipedReferences references)
-    // Offset: 0x2203F10
-    void AssignReferences(::RootMotion::BipedReferences* references);
     // public System.Void .ctor()
-    // Offset: 0x2204624
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2251E98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BipedIKSolvers* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::BipedIKSolvers::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BipedIKSolvers*, creationType>()));
     }
+    // public System.Void AssignReferences(RootMotion.BipedReferences references)
+    // Offset: 0x2251784
+    void AssignReferences(::RootMotion::BipedReferences* references);
   }; // RootMotion.FinalIK.BipedIKSolvers
   #pragma pack(pop)
   static check_size<sizeof(BipedIKSolvers), 88 + sizeof(::ArrayW<::RootMotion::FinalIK::IKSolver*>)> __RootMotion_FinalIK_BipedIKSolversSizeCheck;
@@ -179,6 +169,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIKSolvers*), "get_ikSolvers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: RootMotion::FinalIK::BipedIKSolvers::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIKSolvers::AssignReferences
 // Il2CppName: AssignReferences
 template<>
@@ -188,7 +182,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIKSolvers*), "AssignReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{references});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::BipedIKSolvers::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -58,15 +58,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerHeightSettingsController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _text
     // Size: 0x8
     // Offset: 0x18
@@ -85,7 +77,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::Vector3SO* roomCenter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Vector3SO*) == 0x8);
-    // [InjectAttribute] Offset: 0x125A790
+    // [InjectAttribute] Offset: 0x10DF374
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x30
@@ -114,53 +106,47 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
-    ::TMPro::TextMeshProUGUI*& dyn__text();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__text();
     // Get instance field reference: private UnityEngine.UI.Button _setButton
-    ::UnityEngine::UI::Button*& dyn__setButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__setButton();
     // Get instance field reference: private Vector3SO _roomCenter
-    ::GlobalNamespace::Vector3SO*& dyn__roomCenter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3SO*& dyn__roomCenter();
     // Get instance field reference: private readonly IVRPlatformHelper _vrPlatformHelper
-    ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // Get instance field reference: private System.Action`1<System.Single> valueDidChangeEvent
-    ::System::Action_1<float>*& dyn_valueDidChangeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<float>*& dyn_valueDidChangeEvent();
     // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
-    ::HMUI::ButtonBinder*& dyn__buttonBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // Get instance field reference: private System.Single _value
-    float& dyn__value();
+    [[deprecated("Use field access instead!")]] float& dyn__value();
     // public System.Single get_value()
-    // Offset: 0x13703E0
+    // Offset: 0x13D7DB0
     float get_value();
     // public System.Void add_valueDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x1370298
+    // Offset: 0x13D7C68
     void add_valueDidChangeEvent(::System::Action_1<float>* value);
     // public System.Void remove_valueDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x137033C
+    // Offset: 0x13D7D0C
     void remove_valueDidChangeEvent(::System::Action_1<float>* value);
-    // protected System.Void Awake()
-    // Offset: 0x13703E8
-    void Awake();
-    // public System.Void Init(System.Single playerHeight)
-    // Offset: 0x1370498
-    void Init(float playerHeight);
-    // private System.Void AutoSetHeight()
-    // Offset: 0x137053C
-    void AutoSetHeight();
-    // private System.Void RefreshUI()
-    // Offset: 0x13704A0
-    void RefreshUI();
     // public System.Void .ctor()
-    // Offset: 0x1370660
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D8030
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerHeightSettingsController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerHeightSettingsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerHeightSettingsController*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x13D7DB8
+    void Awake();
+    // public System.Void Init(System.Single playerHeight)
+    // Offset: 0x13D7E68
+    void Init(float playerHeight);
+    // private System.Void AutoSetHeight()
+    // Offset: 0x13D7F0C
+    void AutoSetHeight();
+    // private System.Void RefreshUI()
+    // Offset: 0x13D7E70
+    void RefreshUI();
   }; // PlayerHeightSettingsController
   #pragma pack(pop)
   static check_size<sizeof(PlayerHeightSettingsController), 72 + sizeof(float)> __GlobalNamespace_PlayerHeightSettingsControllerSizeCheck;
@@ -193,6 +179,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeightSettingsController*), "remove_valueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PlayerHeightSettingsController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerHeightSettingsController::Awake
 // Il2CppName: Awake
 template<>
@@ -226,7 +216,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeightSettingsController*), "RefreshUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PlayerHeightSettingsController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

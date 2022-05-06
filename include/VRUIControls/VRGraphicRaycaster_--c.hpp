@@ -41,20 +41,18 @@ namespace VRUIControls {
     // Set static field: static public System.Comparison`1<VRUIControls.VRGraphicRaycaster/VRUIControls.VRGraphicRaycastResult> <>9__12_0
     static void _set_$$9__12_0(::System::Comparison_1<::VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2A05578
+    // Offset: 0x2A5B080
     static void _cctor();
-    // System.Int32 <RaycastCanvas>b__12_0(VRUIControls.VRGraphicRaycaster/VRUIControls.VRGraphicRaycastResult g1, VRUIControls.VRGraphicRaycaster/VRUIControls.VRGraphicRaycastResult g2)
-    // Offset: 0x2A055E4
-    int $RaycastCanvas$b__12_0(::VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult g1, ::VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult g2);
     // public System.Void .ctor()
-    // Offset: 0x2A055DC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A5B0E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRGraphicRaycaster::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::VRUIControls::VRGraphicRaycaster::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRGraphicRaycaster::$$c*, creationType>()));
     }
+    // System.Int32 <RaycastCanvas>b__12_0(VRUIControls.VRGraphicRaycaster/VRUIControls.VRGraphicRaycastResult g1, VRUIControls.VRGraphicRaycaster/VRUIControls.VRGraphicRaycastResult g2)
+    // Offset: 0x2A5B0EC
+    int $RaycastCanvas$b__12_0(::VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult g1, ::VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult g2);
   }; // VRUIControls.VRGraphicRaycaster/VRUIControls.<>c
   #pragma pack(pop)
 }
@@ -67,6 +65,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRGraphicRaycaster::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: VRUIControls::VRGraphicRaycaster::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: VRUIControls::VRGraphicRaycaster::$$c::$RaycastCanvas$b__12_0
 // Il2CppName: <RaycastCanvas>b__12_0
 template<>
@@ -77,7 +79,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (VRUICo
     return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRGraphicRaycaster::$$c*), "<RaycastCanvas>b__12_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{g1, g2});
   }
 };
-// Writing MetadataGetter for method: VRUIControls::VRGraphicRaycaster::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

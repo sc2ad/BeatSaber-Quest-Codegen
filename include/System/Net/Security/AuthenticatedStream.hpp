@@ -28,15 +28,7 @@ namespace System::Net::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class AuthenticatedStream : public ::System::IO::Stream {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.IO.Stream _InnerStream
     // Size: 0x8
     // Offset: 0x28
@@ -51,24 +43,24 @@ namespace System::Net::Security {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.IO.Stream _InnerStream
-    ::System::IO::Stream*& dyn__InnerStream();
+    [[deprecated("Use field access instead!")]] ::System::IO::Stream*& dyn__InnerStream();
     // Get instance field reference: private System.Boolean _LeaveStreamOpen
-    bool& dyn__LeaveStreamOpen();
+    [[deprecated("Use field access instead!")]] bool& dyn__LeaveStreamOpen();
     // protected System.IO.Stream get_InnerStream()
-    // Offset: 0x1B304FC
+    // Offset: 0x1B6AAE4
     ::System::IO::Stream* get_InnerStream();
     // public System.Boolean get_IsAuthenticated()
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsAuthenticated();
     // protected System.Void .ctor(System.IO.Stream innerStream, System.Boolean leaveInnerStreamOpen)
-    // Offset: 0x1B30358
+    // Offset: 0x1B6A940
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AuthenticatedStream* New_ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Security::AuthenticatedStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticatedStream*, creationType>(innerStream, leaveInnerStreamOpen)));
     }
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1B30504
+    // Offset: 0x1B6AAEC
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);

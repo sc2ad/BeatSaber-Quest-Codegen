@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Set static field: static public OculusDeviceConfig/State Failed
     static void _set_Failed(::GlobalNamespace::OculusDeviceConfig::State value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OculusDeviceConfig/State
   #pragma pack(pop)
   static check_size<sizeof(OculusDeviceConfig::State), 0 + sizeof(int)> __GlobalNamespace_OculusDeviceConfig_StateSizeCheck;

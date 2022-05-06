@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PosesRecordingSaveData::ExternalCameraCalibrationSaveData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Single fieldOfVision
     // Size: 0x4
     // Offset: 0x10
@@ -64,17 +56,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public readonly System.Single fieldOfVision
-    float& dyn_fieldOfVision();
+    [[deprecated("Use field access instead!")]] float& dyn_fieldOfVision();
     // Get instance field reference: public readonly System.Single nearClip
-    float& dyn_nearClip();
+    [[deprecated("Use field access instead!")]] float& dyn_nearClip();
     // Get instance field reference: public readonly System.Single farClip
-    float& dyn_farClip();
+    [[deprecated("Use field access instead!")]] float& dyn_farClip();
     // Get instance field reference: public readonly System.Single hmdOffset
-    float& dyn_hmdOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_hmdOffset();
     // Get instance field reference: public readonly System.Single nearOffset
-    float& dyn_nearOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_nearOffset();
     // public System.Void .ctor(System.Single fieldOfVision, System.Single nearClip, System.Single farClip, System.Single hmdOffset, System.Single nearOffset)
-    // Offset: 0x1375508
+    // Offset: 0x13DC894
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PosesRecordingSaveData::ExternalCameraCalibrationSaveData* New_ctor(float fieldOfVision, float nearClip, float farClip, float hmdOffset, float nearOffset) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData::.ctor");

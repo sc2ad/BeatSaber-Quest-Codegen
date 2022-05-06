@@ -53,15 +53,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerEnvironmentSpectatingSpot : public ::UnityEngine::MonoBehaviour/*, public ::GlobalNamespace::IMultiplayerSpectatingSpot*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean _preferredSpectatingSpot
     // Size: 0x1
     // Offset: 0x18
@@ -76,21 +68,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: displaySpotNumber and: spotNumber
     char __padding1[0x2] = {};
-    // [DrawIfAttribute] Offset: 0x1255770
+    // [DrawIfAttribute] Offset: 0x10DA354
     // private System.Int32 _spotNumber
     // Size: 0x4
     // Offset: 0x1C
     int spotNumber;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [InjectAttribute] Offset: 0x1255818
+    // [InjectAttribute] Offset: 0x10DA3FC
     // private readonly MultiplayerSpectatingSpotManager _spectatingSpotManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::MultiplayerSpectatingSpotManager* spectatingSpotManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerSpectatingSpotManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1255828
+    // [InjectAttribute] Offset: 0x10DA40C
     // private readonly MultiplayerActivePlayersTimeOffsetAverage _activePlayersTimeOffsetAverage
     // Size: 0x8
     // Offset: 0x28
@@ -111,57 +103,51 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean _preferredSpectatingSpot
-    bool& dyn__preferredSpectatingSpot();
+    [[deprecated("Use field access instead!")]] bool& dyn__preferredSpectatingSpot();
     // Get instance field reference: private System.Boolean _displaySpotNumber
-    bool& dyn__displaySpotNumber();
+    [[deprecated("Use field access instead!")]] bool& dyn__displaySpotNumber();
     // Get instance field reference: private System.Int32 _spotNumber
-    int& dyn__spotNumber();
+    [[deprecated("Use field access instead!")]] int& dyn__spotNumber();
     // Get instance field reference: private readonly MultiplayerSpectatingSpotManager _spectatingSpotManager
-    ::GlobalNamespace::MultiplayerSpectatingSpotManager*& dyn__spectatingSpotManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerSpectatingSpotManager*& dyn__spectatingSpotManager();
     // Get instance field reference: private readonly MultiplayerActivePlayersTimeOffsetAverage _activePlayersTimeOffsetAverage
-    ::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage*& dyn__activePlayersTimeOffsetAverage();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage*& dyn__activePlayersTimeOffsetAverage();
     // Get instance field reference: private System.Action`1<IMultiplayerSpectatingSpot> hasBeenRemovedEvent
-    ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*& dyn_hasBeenRemovedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*& dyn_hasBeenRemovedEvent();
     // public IMultiplayerObservable get_observable()
-    // Offset: 0x13F2170
+    // Offset: 0x13FEC10
     ::GlobalNamespace::IMultiplayerObservable* get_observable();
     // public System.String get_spotName()
-    // Offset: 0x13F2178
+    // Offset: 0x13FEC18
     ::StringW get_spotName();
     // public System.Boolean get_isMain()
-    // Offset: 0x13F2224
+    // Offset: 0x13FECC4
     bool get_isMain();
     // private UnityEngine.Transform IMultiplayerSpectatingSpot.get_transform()
-    // Offset: 0x13F22BC
+    // Offset: 0x13FED5C
     ::UnityEngine::Transform* IMultiplayerSpectatingSpot_get_transform();
     // public System.Void add_hasBeenRemovedEvent(System.Action`1<IMultiplayerSpectatingSpot> value)
-    // Offset: 0x13F2028
+    // Offset: 0x13FEAC8
     void add_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
     // public System.Void remove_hasBeenRemovedEvent(System.Action`1<IMultiplayerSpectatingSpot> value)
-    // Offset: 0x13F20CC
+    // Offset: 0x13FEB6C
     void remove_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
-    // protected System.Void Start()
-    // Offset: 0x13F222C
-    void Start();
-    // protected System.Void OnDisable()
-    // Offset: 0x13F224C
-    void OnDisable();
-    // public System.Void SetIsObserved(System.Boolean isObserved)
-    // Offset: 0x13F22B0
-    void SetIsObserved(bool isObserved);
     // public System.Void .ctor()
-    // Offset: 0x13F22B4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13FED54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerEnvironmentSpectatingSpot* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerEnvironmentSpectatingSpot*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x13FECCC
+    void Start();
+    // protected System.Void OnDisable()
+    // Offset: 0x13FECEC
+    void OnDisable();
+    // public System.Void SetIsObserved(System.Boolean isObserved)
+    // Offset: 0x13FED50
+    void SetIsObserved(bool isObserved);
   }; // MultiplayerEnvironmentSpectatingSpot
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerEnvironmentSpectatingSpot), 48 + sizeof(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*)> __GlobalNamespace_MultiplayerEnvironmentSpectatingSpotSizeCheck;
@@ -218,6 +204,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*), "remove_hasBeenRemovedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::Start
 // Il2CppName: Start
 template<>
@@ -243,7 +233,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*), "SetIsObserved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isObserved});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

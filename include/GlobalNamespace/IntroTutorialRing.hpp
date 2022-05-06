@@ -58,15 +58,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IntroTutorialRing : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Image[] _progressImages
     // Size: 0x8
     // Offset: 0x18
@@ -107,7 +99,7 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::UI::Image*> ringGLowImages;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::UI::Image*>) == 0x8);
-    // [InjectAttribute] Offset: 0x1256454
+    // [InjectAttribute] Offset: 0x10DB038
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x48
@@ -152,75 +144,69 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Image[] _progressImages
-    ::ArrayW<::UnityEngine::UI::Image*>& dyn__progressImages();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::UI::Image*>& dyn__progressImages();
     // Get instance field reference: private SaberType _saberType
-    ::GlobalNamespace::SaberType& dyn__saberType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberType& dyn__saberType();
     // Get instance field reference: private UnityEngine.ParticleSystem _particleSystem
-    ::UnityEngine::ParticleSystem*& dyn__particleSystem();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn__particleSystem();
     // Get instance field reference: private UnityEngine.CanvasGroup _canvasGroup
-    ::UnityEngine::CanvasGroup*& dyn__canvasGroup();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::CanvasGroup*& dyn__canvasGroup();
     // Get instance field reference: private System.Single _activationDuration
-    float& dyn__activationDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__activationDuration();
     // Get instance field reference: private UnityEngine.UI.Image[] _ringGLowImages
-    ::ArrayW<::UnityEngine::UI::Image*>& dyn__ringGLowImages();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::UI::Image*>& dyn__ringGLowImages();
     // Get instance field reference: private readonly ColorManager _colorManager
-    ::GlobalNamespace::ColorManager*& dyn__colorManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorManager*& dyn__colorManager();
     // Get instance field reference: private System.Boolean _highlighted
-    bool& dyn__highlighted();
+    [[deprecated("Use field access instead!")]] bool& dyn__highlighted();
     // Get instance field reference: private System.Single _emitNextParticleTimer
-    float& dyn__emitNextParticleTimer();
+    [[deprecated("Use field access instead!")]] float& dyn__emitNextParticleTimer();
     // Get instance field reference: private System.Single _activationProgress
-    float& dyn__activationProgress();
+    [[deprecated("Use field access instead!")]] float& dyn__activationProgress();
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<SaberType> _sabersInside
-    ::System::Collections::Generic::HashSet_1<::GlobalNamespace::SaberType>*& dyn__sabersInside();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::GlobalNamespace::SaberType>*& dyn__sabersInside();
     // Get instance field reference: private System.Boolean _sabersInsideAfterOnEnable
-    bool& dyn__sabersInsideAfterOnEnable();
+    [[deprecated("Use field access instead!")]] bool& dyn__sabersInsideAfterOnEnable();
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0x13B5568
+    // Offset: 0x13B0A14
     void set_alpha(float value);
     // public System.Boolean get_fullyActivated()
-    // Offset: 0x13B52E4
+    // Offset: 0x13B0790
     bool get_fullyActivated();
     // public SaberType get_saberType()
-    // Offset: 0x13B5730
+    // Offset: 0x13B0BDC
     ::GlobalNamespace::SaberType get_saberType();
     // public System.Void set_saberType(SaberType value)
-    // Offset: 0x13B5738
+    // Offset: 0x13B0BE4
     void set_saberType(::GlobalNamespace::SaberType value);
-    // protected System.Void Start()
-    // Offset: 0x13B5740
-    void Start();
-    // protected System.Void OnEnable()
-    // Offset: 0x13B57D8
-    void OnEnable();
-    // protected System.Void Update()
-    // Offset: 0x13B5830
-    void Update();
-    // private System.Void SetProgressImagesfillAmount(System.Single fillAmount)
-    // Offset: 0x13B59A0
-    void SetProgressImagesfillAmount(float fillAmount);
-    // private System.Void OnTriggerEnter(UnityEngine.Collider other)
-    // Offset: 0x13B5A1C
-    void OnTriggerEnter(::UnityEngine::Collider* other);
-    // private System.Void OnTriggerExit(UnityEngine.Collider other)
-    // Offset: 0x13B5B20
-    void OnTriggerExit(::UnityEngine::Collider* other);
-    // private System.Void OnTriggerStay(UnityEngine.Collider other)
-    // Offset: 0x13B5C24
-    void OnTriggerStay(::UnityEngine::Collider* other);
     // public System.Void .ctor()
-    // Offset: 0x13B5D34
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13B11E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IntroTutorialRing* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IntroTutorialRing::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IntroTutorialRing*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x13B0BEC
+    void Start();
+    // protected System.Void OnEnable()
+    // Offset: 0x13B0C84
+    void OnEnable();
+    // protected System.Void Update()
+    // Offset: 0x13B0CDC
+    void Update();
+    // private System.Void SetProgressImagesfillAmount(System.Single fillAmount)
+    // Offset: 0x13B0E4C
+    void SetProgressImagesfillAmount(float fillAmount);
+    // private System.Void OnTriggerEnter(UnityEngine.Collider other)
+    // Offset: 0x13B0EC8
+    void OnTriggerEnter(::UnityEngine::Collider* other);
+    // private System.Void OnTriggerExit(UnityEngine.Collider other)
+    // Offset: 0x13B0FCC
+    void OnTriggerExit(::UnityEngine::Collider* other);
+    // private System.Void OnTriggerStay(UnityEngine.Collider other)
+    // Offset: 0x13B10D0
+    void OnTriggerStay(::UnityEngine::Collider* other);
   }; // IntroTutorialRing
   #pragma pack(pop)
   static check_size<sizeof(IntroTutorialRing), 104 + sizeof(bool)> __GlobalNamespace_IntroTutorialRingSizeCheck;
@@ -261,6 +247,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), "set_saberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialRing::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::IntroTutorialRing::Start
 // Il2CppName: Start
 template<>
@@ -321,7 +311,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), "OnTriggerStay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialRing::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

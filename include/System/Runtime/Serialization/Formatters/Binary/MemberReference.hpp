@@ -35,15 +35,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class MemberReference : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int32 idRef
     // Size: 0x4
     // Offset: 0x10
@@ -56,21 +48,21 @@ namespace System::Runtime::Serialization::Formatters::Binary {
       return idRef;
     }
     // Get instance field reference: System.Int32 idRef
-    int& dyn_idRef();
+    [[deprecated("Use field access instead!")]] int& dyn_idRef();
     // System.Void Set(System.Int32 idRef)
-    // Offset: 0x18BD314
+    // Offset: 0x18F6C24
     void Set(int idRef);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x18BD31C
+    // Offset: 0x18F6C2C
     void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x18BD360
+    // Offset: 0x18F6C70
     void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x18BD394
+    // Offset: 0x18F6CA4
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x18BD30C
+    // Offset: 0x18F6C1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -31,15 +31,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SelectLevelCategoryViewController::LevelCategoryInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public SelectLevelCategoryViewController/LevelCategory levelCategory
     // Size: 0x4
     // Offset: 0x10
@@ -62,15 +54,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
     public:
     // Get instance field reference: public SelectLevelCategoryViewController/LevelCategory levelCategory
-    ::GlobalNamespace::SelectLevelCategoryViewController::LevelCategory& dyn_levelCategory();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SelectLevelCategoryViewController::LevelCategory& dyn_levelCategory();
     // Get instance field reference: public System.String localizedKey
-    ::StringW& dyn_localizedKey();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_localizedKey();
     // Get instance field reference: public UnityEngine.Sprite categoryIcon
-    ::UnityEngine::Sprite*& dyn_categoryIcon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn_categoryIcon();
     // public System.Void .ctor()
-    // Offset: 0x14278CC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1468F00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectLevelCategoryViewController::LevelCategoryInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo::.ctor");

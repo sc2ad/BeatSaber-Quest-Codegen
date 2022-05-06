@@ -30,15 +30,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class SystemPermission : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Boolean HasPermission
     // Size: 0x1
     // Offset: 0x10
@@ -55,11 +47,11 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Oculus::Platform::PermissionGrantStatus) == 0x4);
     public:
     // Get instance field reference: public readonly System.Boolean HasPermission
-    bool& dyn_HasPermission();
+    [[deprecated("Use field access instead!")]] bool& dyn_HasPermission();
     // Get instance field reference: public readonly Oculus.Platform.PermissionGrantStatus PermissionGrantStatus
-    ::Oculus::Platform::PermissionGrantStatus& dyn_PermissionGrantStatus();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::PermissionGrantStatus& dyn_PermissionGrantStatus();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19B3344
+    // Offset: 0x19EC92C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SystemPermission* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::SystemPermission::.ctor");

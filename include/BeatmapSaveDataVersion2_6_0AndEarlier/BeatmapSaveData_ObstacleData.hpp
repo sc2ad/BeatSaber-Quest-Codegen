@@ -27,15 +27,7 @@ namespace BeatmapSaveDataVersion2_6_0AndEarlier {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapSaveData::ObstacleData : public ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _time
     // Size: 0x4
     // Offset: 0x10
@@ -68,36 +60,36 @@ namespace BeatmapSaveDataVersion2_6_0AndEarlier {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Single _time
-    float& dyn__time();
+    [[deprecated("Use field access instead!")]] float& dyn__time();
     // Get instance field reference: private System.Int32 _lineIndex
-    int& dyn__lineIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__lineIndex();
     // Get instance field reference: private BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.ObstacleType _type
-    ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::ObstacleType& dyn__type();
+    [[deprecated("Use field access instead!")]] ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::ObstacleType& dyn__type();
     // Get instance field reference: private System.Single _duration
-    float& dyn__duration();
+    [[deprecated("Use field access instead!")]] float& dyn__duration();
     // Get instance field reference: private System.Int32 _width
-    int& dyn__width();
+    [[deprecated("Use field access instead!")]] int& dyn__width();
     // public System.Int32 get_lineIndex()
-    // Offset: 0x2819314
+    // Offset: 0x286B8D4
     int get_lineIndex();
     // public BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.ObstacleType get_type()
-    // Offset: 0x281931C
+    // Offset: 0x286B8DC
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::ObstacleType get_type();
     // public System.Single get_duration()
-    // Offset: 0x2819324
+    // Offset: 0x286B8E4
     float get_duration();
     // public System.Int32 get_width()
-    // Offset: 0x281932C
+    // Offset: 0x286B8EC
     int get_width();
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.ObstacleType type, System.Single duration, System.Int32 width)
-    // Offset: 0x2819334
+    // Offset: 0x286B8F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::ObstacleData* New_ctor(float time, int lineIndex, ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::ObstacleType type, float duration, int width) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::ObstacleData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::ObstacleData*, creationType>(time, lineIndex, type, duration, width)));
     }
     // public override System.Single get_time()
-    // Offset: 0x281930C
+    // Offset: 0x286B8CC
     // Implemented from: BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveDataItem
     // Base method: System.Single BeatmapSaveDataItem::get_time()
     float get_time();

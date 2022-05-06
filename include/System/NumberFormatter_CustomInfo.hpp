@@ -36,15 +36,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class NumberFormatter::CustomInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean UseGroup
     // Size: 0x1
     // Offset: 0x10
@@ -137,44 +129,44 @@ namespace System {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public System.Boolean UseGroup
-    bool& dyn_UseGroup();
+    [[deprecated("Use field access instead!")]] bool& dyn_UseGroup();
     // Get instance field reference: public System.Int32 DecimalDigits
-    int& dyn_DecimalDigits();
+    [[deprecated("Use field access instead!")]] int& dyn_DecimalDigits();
     // Get instance field reference: public System.Int32 DecimalPointPos
-    int& dyn_DecimalPointPos();
+    [[deprecated("Use field access instead!")]] int& dyn_DecimalPointPos();
     // Get instance field reference: public System.Int32 DecimalTailSharpDigits
-    int& dyn_DecimalTailSharpDigits();
+    [[deprecated("Use field access instead!")]] int& dyn_DecimalTailSharpDigits();
     // Get instance field reference: public System.Int32 IntegerDigits
-    int& dyn_IntegerDigits();
+    [[deprecated("Use field access instead!")]] int& dyn_IntegerDigits();
     // Get instance field reference: public System.Int32 IntegerHeadSharpDigits
-    int& dyn_IntegerHeadSharpDigits();
+    [[deprecated("Use field access instead!")]] int& dyn_IntegerHeadSharpDigits();
     // Get instance field reference: public System.Int32 IntegerHeadPos
-    int& dyn_IntegerHeadPos();
+    [[deprecated("Use field access instead!")]] int& dyn_IntegerHeadPos();
     // Get instance field reference: public System.Boolean UseExponent
-    bool& dyn_UseExponent();
+    [[deprecated("Use field access instead!")]] bool& dyn_UseExponent();
     // Get instance field reference: public System.Int32 ExponentDigits
-    int& dyn_ExponentDigits();
+    [[deprecated("Use field access instead!")]] int& dyn_ExponentDigits();
     // Get instance field reference: public System.Int32 ExponentTailSharpDigits
-    int& dyn_ExponentTailSharpDigits();
+    [[deprecated("Use field access instead!")]] int& dyn_ExponentTailSharpDigits();
     // Get instance field reference: public System.Boolean ExponentNegativeSignOnly
-    bool& dyn_ExponentNegativeSignOnly();
+    [[deprecated("Use field access instead!")]] bool& dyn_ExponentNegativeSignOnly();
     // Get instance field reference: public System.Int32 DividePlaces
-    int& dyn_DividePlaces();
+    [[deprecated("Use field access instead!")]] int& dyn_DividePlaces();
     // Get instance field reference: public System.Int32 Percents
-    int& dyn_Percents();
+    [[deprecated("Use field access instead!")]] int& dyn_Percents();
     // Get instance field reference: public System.Int32 Permilles
-    int& dyn_Permilles();
+    [[deprecated("Use field access instead!")]] int& dyn_Permilles();
     // static public System.Void GetActiveSection(System.String format, ref System.Boolean positive, System.Boolean zero, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x21B6490
+    // Offset: 0x2203D04
     static void GetActiveSection(::StringW format, ByRef<bool> positive, bool zero, ByRef<int> offset, ByRef<int> length);
     // static public System.NumberFormatter/System.CustomInfo Parse(System.String format, System.Int32 offset, System.Int32 length, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x21B677C
+    // Offset: 0x2203FF0
     static ::System::NumberFormatter::CustomInfo* Parse(::StringW format, int offset, int length, ::System::Globalization::NumberFormatInfo* nfi);
     // public System.String Format(System.String format, System.Int32 offset, System.Int32 length, System.Globalization.NumberFormatInfo nfi, System.Boolean positive, System.Text.StringBuilder sb_int, System.Text.StringBuilder sb_dec, System.Text.StringBuilder sb_exp)
-    // Offset: 0x21B6F98
+    // Offset: 0x220480C
     ::StringW Format(::StringW format, int offset, int length, ::System::Globalization::NumberFormatInfo* nfi, bool positive, ::System::Text::StringBuilder* sb_int, ::System::Text::StringBuilder* sb_dec, ::System::Text::StringBuilder* sb_exp);
     // public System.Void .ctor()
-    // Offset: 0x21B7954
+    // Offset: 0x22051C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

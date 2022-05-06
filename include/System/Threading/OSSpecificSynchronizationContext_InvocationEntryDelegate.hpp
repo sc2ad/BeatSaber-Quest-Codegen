@@ -35,20 +35,20 @@ namespace System::Threading {
   class OSSpecificSynchronizationContext::InvocationEntryDelegate : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1DCC5A4
+    // Offset: 0x1DCE108
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OSSpecificSynchronizationContext::InvocationEntryDelegate* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::OSSpecificSynchronizationContext::InvocationEntryDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OSSpecificSynchronizationContext::InvocationEntryDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.IntPtr arg)
-    // Offset: 0x1DCCAE8
+    // Offset: 0x1DCE64C
     void Invoke(::System::IntPtr arg);
     // public System.IAsyncResult BeginInvoke(System.IntPtr arg, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1DCCD44
+    // Offset: 0x1DCE8A8
     ::System::IAsyncResult* BeginInvoke(::System::IntPtr arg, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1DCCDD0
+    // Offset: 0x1DCE934
     void EndInvoke(::System::IAsyncResult* result);
   }; // System.Threading.OSSpecificSynchronizationContext/System.Threading.InvocationEntryDelegate
   #pragma pack(pop)

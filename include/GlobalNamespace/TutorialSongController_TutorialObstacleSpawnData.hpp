@@ -34,15 +34,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TutorialSongController::TutorialObstacleSpawnData : public ::GlobalNamespace::TutorialSongController::TutorialObjectSpawnData {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly NoteLineLayer noteLineLayer
     // Size: 0x4
     // Offset: 0x24
@@ -63,13 +55,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public readonly NoteLineLayer noteLineLayer
-    ::GlobalNamespace::NoteLineLayer& dyn_noteLineLayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteLineLayer& dyn_noteLineLayer();
     // Get instance field reference: public readonly System.Int32 width
-    int& dyn_width();
+    [[deprecated("Use field access instead!")]] int& dyn_width();
     // Get instance field reference: public readonly System.Int32 height
-    int& dyn_height();
+    [[deprecated("Use field access instead!")]] int& dyn_height();
     // public System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, System.Int32 width, System.Int32 height, NoteLineLayer noteLineLayer)
-    // Offset: 0x2AB3044
+    // Offset: 0x14921B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialSongController::TutorialObstacleSpawnData* New_ctor(::GlobalNamespace::Signal* signal, int firstTimeBeatOffset, int beatOffset, int lineIndex, int width, int height, ::GlobalNamespace::NoteLineLayer noteLineLayer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialSongController::TutorialObstacleSpawnData::.ctor");

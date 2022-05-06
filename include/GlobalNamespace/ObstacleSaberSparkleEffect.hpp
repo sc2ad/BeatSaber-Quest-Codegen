@@ -40,15 +40,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ObstacleSaberSparkleEffect : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.ParticleSystem _sparkleParticleSystem
     // Size: 0x8
     // Offset: 0x18
@@ -77,41 +69,35 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem _sparkleParticleSystem
-    ::UnityEngine::ParticleSystem*& dyn__sparkleParticleSystem();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn__sparkleParticleSystem();
     // Get instance field reference: private UnityEngine.ParticleSystem _burnParticleSystem
-    ::UnityEngine::ParticleSystem*& dyn__burnParticleSystem();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn__burnParticleSystem();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule _sparkleParticleSystemEmissionModule
-    ::UnityEngine::ParticleSystem::EmissionModule& dyn__sparkleParticleSystemEmissionModule();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::EmissionModule& dyn__sparkleParticleSystemEmissionModule();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule _burnParticleSystemEmissionModule
-    ::UnityEngine::ParticleSystem::EmissionModule& dyn__burnParticleSystemEmissionModule();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::EmissionModule& dyn__burnParticleSystemEmissionModule();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x147FAE8
+    // Offset: 0x14B6368
     void set_color(::UnityEngine::Color value);
-    // protected System.Void Awake()
-    // Offset: 0x147FBF4
-    void Awake();
-    // public System.Void SetPositionAndRotation(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0x147FC5C
-    void SetPositionAndRotation(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
-    // public System.Void StartEmission()
-    // Offset: 0x147FCD8
-    void StartEmission();
-    // public System.Void StopEmission()
-    // Offset: 0x147FD30
-    void StopEmission();
     // public System.Void .ctor()
-    // Offset: 0x147FD9C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14B661C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleSaberSparkleEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObstacleSaberSparkleEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleSaberSparkleEffect*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x14B6474
+    void Awake();
+    // public System.Void SetPositionAndRotation(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
+    // Offset: 0x14B64DC
+    void SetPositionAndRotation(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
+    // public System.Void StartEmission()
+    // Offset: 0x14B6558
+    void StartEmission();
+    // public System.Void StopEmission()
+    // Offset: 0x14B65B0
+    void StopEmission();
   }; // ObstacleSaberSparkleEffect
   #pragma pack(pop)
   static check_size<sizeof(ObstacleSaberSparkleEffect), 48 + sizeof(::UnityEngine::ParticleSystem::EmissionModule)> __GlobalNamespace_ObstacleSaberSparkleEffectSizeCheck;
@@ -127,6 +113,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffect*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffect::Awake
 // Il2CppName: Awake
 template<>
@@ -161,7 +151,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffect*), "StopEmission", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -29,44 +29,36 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnwrapParameters : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x1280CE0
-    // [RangeAttribute] Offset: 0x1280CE0
-    // [FormerlySerializedAsAttribute] Offset: 0x1280CE0
+    // [TooltipAttribute] Offset: 0x1105998
+    // [RangeAttribute] Offset: 0x1105998
+    // [FormerlySerializedAsAttribute] Offset: 0x1105998
     // private System.Single m_HardAngle
     // Size: 0x4
     // Offset: 0x10
     float m_HardAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1280D6C
-    // [RangeAttribute] Offset: 0x1280D6C
-    // [FormerlySerializedAsAttribute] Offset: 0x1280D6C
+    // [TooltipAttribute] Offset: 0x1105A24
+    // [RangeAttribute] Offset: 0x1105A24
+    // [FormerlySerializedAsAttribute] Offset: 0x1105A24
     // private System.Single m_PackMargin
     // Size: 0x4
     // Offset: 0x14
     float m_PackMargin;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1280DF8
-    // [RangeAttribute] Offset: 0x1280DF8
-    // [FormerlySerializedAsAttribute] Offset: 0x1280DF8
+    // [TooltipAttribute] Offset: 0x1105AB0
+    // [RangeAttribute] Offset: 0x1105AB0
+    // [FormerlySerializedAsAttribute] Offset: 0x1105AB0
     // private System.Single m_AngleError
     // Size: 0x4
     // Offset: 0x18
     float m_AngleError;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x1280E84
-    // [FormerlySerializedAsAttribute] Offset: 0x1280E84
+    // [RangeAttribute] Offset: 0x1105B3C
+    // [FormerlySerializedAsAttribute] Offset: 0x1105B3C
     // private System.Single m_AreaError
     // Size: 0x4
     // Offset: 0x1C
@@ -99,58 +91,56 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static System.Single k_AreaError
     static void _set_k_AreaError(float value);
     // Get instance field reference: private System.Single m_HardAngle
-    float& dyn_m_HardAngle();
+    [[deprecated("Use field access instead!")]] float& dyn_m_HardAngle();
     // Get instance field reference: private System.Single m_PackMargin
-    float& dyn_m_PackMargin();
+    [[deprecated("Use field access instead!")]] float& dyn_m_PackMargin();
     // Get instance field reference: private System.Single m_AngleError
-    float& dyn_m_AngleError();
+    [[deprecated("Use field access instead!")]] float& dyn_m_AngleError();
     // Get instance field reference: private System.Single m_AreaError
-    float& dyn_m_AreaError();
+    [[deprecated("Use field access instead!")]] float& dyn_m_AreaError();
     // public System.Single get_hardAngle()
-    // Offset: 0x2955158
+    // Offset: 0x29A5718
     float get_hardAngle();
     // public System.Void set_hardAngle(System.Single value)
-    // Offset: 0x2955160
+    // Offset: 0x29A5720
     void set_hardAngle(float value);
     // public System.Single get_packMargin()
-    // Offset: 0x2955168
+    // Offset: 0x29A5728
     float get_packMargin();
     // public System.Void set_packMargin(System.Single value)
-    // Offset: 0x2955170
+    // Offset: 0x29A5730
     void set_packMargin(float value);
     // public System.Single get_angleError()
-    // Offset: 0x2955178
+    // Offset: 0x29A5738
     float get_angleError();
     // public System.Void set_angleError(System.Single value)
-    // Offset: 0x2955180
+    // Offset: 0x29A5740
     void set_angleError(float value);
     // public System.Single get_areaError()
-    // Offset: 0x2955188
+    // Offset: 0x29A5748
     float get_areaError();
     // public System.Void set_areaError(System.Single value)
-    // Offset: 0x2955190
+    // Offset: 0x29A5750
     void set_areaError(float value);
+    // public System.Void .ctor()
+    // Offset: 0x29A5758
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static UnwrapParameters* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::UnwrapParameters::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<UnwrapParameters*, creationType>()));
+    }
     // public System.Void .ctor(UnityEngine.ProBuilder.UnwrapParameters other)
-    // Offset: 0x29551EC
+    // Offset: 0x29A57AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnwrapParameters* New_ctor(::UnityEngine::ProBuilder::UnwrapParameters* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::UnwrapParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnwrapParameters*, creationType>(other)));
     }
     // public System.Void Reset()
-    // Offset: 0x29551DC
+    // Offset: 0x29A579C
     void Reset();
-    // public System.Void .ctor()
-    // Offset: 0x2955198
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static UnwrapParameters* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::UnwrapParameters::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<UnwrapParameters*, creationType>()));
-    }
     // public override System.String ToString()
-    // Offset: 0x29552B0
+    // Offset: 0x29A5870
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -232,6 +222,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::UnwrapParameters::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::UnwrapParameters::Reset
 // Il2CppName: Reset
 template<>
@@ -240,10 +234,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::UnwrapParameters*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ProBuilder::UnwrapParameters::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::UnwrapParameters::ToString
 // Il2CppName: ToString
 template<>

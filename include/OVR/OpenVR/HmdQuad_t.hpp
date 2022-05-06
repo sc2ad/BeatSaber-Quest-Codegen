@@ -58,13 +58,13 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public OVR.OpenVR.HmdVector3_t vCorners0
-    ::OVR::OpenVR::HmdVector3_t& dyn_vCorners0();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::HmdVector3_t& dyn_vCorners0();
     // Get instance field reference: public OVR.OpenVR.HmdVector3_t vCorners1
-    ::OVR::OpenVR::HmdVector3_t& dyn_vCorners1();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::HmdVector3_t& dyn_vCorners1();
     // Get instance field reference: public OVR.OpenVR.HmdVector3_t vCorners2
-    ::OVR::OpenVR::HmdVector3_t& dyn_vCorners2();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::HmdVector3_t& dyn_vCorners2();
     // Get instance field reference: public OVR.OpenVR.HmdVector3_t vCorners3
-    ::OVR::OpenVR::HmdVector3_t& dyn_vCorners3();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::HmdVector3_t& dyn_vCorners3();
   }; // OVR.OpenVR.HmdQuad_t
   #pragma pack(pop)
   static check_size<sizeof(HmdQuad_t), 36 + sizeof(::OVR::OpenVR::HmdVector3_t)> __OVR_OpenVR_HmdQuad_tSizeCheck;

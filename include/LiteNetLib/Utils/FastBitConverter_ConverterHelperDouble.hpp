@@ -41,9 +41,9 @@ namespace LiteNetLib::Utils {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt64 Along
-    uint64_t& dyn_Along();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_Along();
     // Get instance field reference: public System.Double Adouble
-    double& dyn_Adouble();
+    [[deprecated("Use field access instead!")]] double& dyn_Adouble();
   }; // LiteNetLib.Utils.FastBitConverter/LiteNetLib.Utils.ConverterHelperDouble
   // WARNING Not writing size check since size may be invalid!
 }

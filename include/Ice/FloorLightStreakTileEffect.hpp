@@ -50,15 +50,7 @@ namespace Ice {
     public:
     // Nested type: ::Ice::FloorLightStreakTileEffect::Element
     class Element;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _stayOnTileDuration
     // Size: 0x4
     // Offset: 0x18
@@ -73,7 +65,7 @@ namespace Ice {
     ::Ice::FloorLightTilesGrid* floorLightTilesGrid;
     // Field size check
     static_assert(sizeof(::Ice::FloorLightTilesGrid*) == 0x8);
-    // [InjectAttribute] Offset: 0x127BBE0
+    // [InjectAttribute] Offset: 0x1100898
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x28
@@ -102,50 +94,48 @@ namespace Ice {
     // Set static field: static private System.Single kFadeOutDuration
     static void _set_kFadeOutDuration(float value);
     // Get instance field reference: private System.Single _stayOnTileDuration
-    float& dyn__stayOnTileDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__stayOnTileDuration();
     // Get instance field reference: private Ice.FloorLightTilesGrid _floorLightTilesGrid
-    ::Ice::FloorLightTilesGrid*& dyn__floorLightTilesGrid();
+    [[deprecated("Use field access instead!")]] ::Ice::FloorLightTilesGrid*& dyn__floorLightTilesGrid();
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
-    ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // Get instance field reference: private SimpleMemoryPool`1<Ice.FloorLightStreakTileEffect/Ice.Element> _elementsPool
-    ::GlobalNamespace::SimpleMemoryPool_1<::Ice::FloorLightStreakTileEffect::Element*>*& dyn__elementsPool();
-    // protected System.Void Start()
-    // Offset: 0x2A6F468
-    void Start();
-    // protected System.Void Update()
-    // Offset: 0x2A6F514
-    void Update();
-    // public System.Void SpawnEffect(System.Int32 x, UnityEngine.Color color)
-    // Offset: 0x2A6F744
-    void SpawnEffect(int x, ::UnityEngine::Color color);
-    // public System.Void DespawnAllEffects()
-    // Offset: 0x2A6FA48
-    void DespawnAllEffects();
-    // private Ice.FloorLightStreakTileEffect/Ice.Element CreateNewElement()
-    // Offset: 0x2A6FB20
-    ::Ice::FloorLightStreakTileEffect::Element* CreateNewElement();
-    // private System.Void HandleElementDidMoveToNextTile(Ice.FloorLightStreakTileEffect/Ice.Element element)
-    // Offset: 0x2A6FC04
-    void HandleElementDidMoveToNextTile(::Ice::FloorLightStreakTileEffect::Element* element);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SimpleMemoryPool_1<::Ice::FloorLightStreakTileEffect::Element*>*& dyn__elementsPool();
     // public System.Void .ctor()
-    // Offset: 0x2A6FCB4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2AC801C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FloorLightStreakTileEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Ice::FloorLightStreakTileEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FloorLightStreakTileEffect*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x2AC77D0
+    void Start();
+    // protected System.Void Update()
+    // Offset: 0x2AC787C
+    void Update();
+    // public System.Void SpawnEffect(System.Int32 x, UnityEngine.Color color)
+    // Offset: 0x2AC7AAC
+    void SpawnEffect(int x, ::UnityEngine::Color color);
+    // public System.Void DespawnAllEffects()
+    // Offset: 0x2AC7DB0
+    void DespawnAllEffects();
+    // private Ice.FloorLightStreakTileEffect/Ice.Element CreateNewElement()
+    // Offset: 0x2AC7E88
+    ::Ice::FloorLightStreakTileEffect::Element* CreateNewElement();
+    // private System.Void HandleElementDidMoveToNextTile(Ice.FloorLightStreakTileEffect/Ice.Element element)
+    // Offset: 0x2AC7F6C
+    void HandleElementDidMoveToNextTile(::Ice::FloorLightStreakTileEffect::Element* element);
   }; // Ice.FloorLightStreakTileEffect
   #pragma pack(pop)
   static check_size<sizeof(FloorLightStreakTileEffect), 48 + sizeof(::GlobalNamespace::SimpleMemoryPool_1<::Ice::FloorLightStreakTileEffect::Element*>*)> __Ice_FloorLightStreakTileEffectSizeCheck;
   static_assert(sizeof(FloorLightStreakTileEffect) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Ice::FloorLightStreakTileEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Ice::FloorLightStreakTileEffect::Start
 // Il2CppName: Start
 template<>
@@ -197,7 +187,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Ice::
     return ::il2cpp_utils::FindMethod(classof(Ice::FloorLightStreakTileEffect*), "HandleElementDidMoveToNextTile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{element});
   }
 };
-// Writing MetadataGetter for method: Ice::FloorLightStreakTileEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -46,15 +46,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FlyingTextSpawner : public ::UnityEngine::MonoBehaviour/*, public ::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _duration
     // Size: 0x4
     // Offset: 0x18
@@ -99,7 +91,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: shake and: flyingTextEffectPool
     char __padding6[0x3] = {};
-    // [InjectAttribute] Offset: 0x12500A0
+    // [InjectAttribute] Offset: 0x10D4BD4
     // private readonly FlyingTextEffect/Pool _flyingTextEffectPool
     // Size: 0x8
     // Offset: 0x40
@@ -114,46 +106,44 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _duration
-    float& dyn__duration();
+    [[deprecated("Use field access instead!")]] float& dyn__duration();
     // Get instance field reference: private System.Single _xSpread
-    float& dyn__xSpread();
+    [[deprecated("Use field access instead!")]] float& dyn__xSpread();
     // Get instance field reference: private System.Single _targetYPos
-    float& dyn__targetYPos();
+    [[deprecated("Use field access instead!")]] float& dyn__targetYPos();
     // Get instance field reference: private System.Single _targetZPos
-    float& dyn__targetZPos();
+    [[deprecated("Use field access instead!")]] float& dyn__targetZPos();
     // Get instance field reference: private UnityEngine.Color _color
-    ::UnityEngine::Color& dyn__color();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // Get instance field reference: private System.Single _fontSize
-    float& dyn__fontSize();
+    [[deprecated("Use field access instead!")]] float& dyn__fontSize();
     // Get instance field reference: private System.Boolean _shake
-    bool& dyn__shake();
+    [[deprecated("Use field access instead!")]] bool& dyn__shake();
     // Get instance field reference: private readonly FlyingTextEffect/Pool _flyingTextEffectPool
-    ::GlobalNamespace::FlyingTextEffect::Pool*& dyn__flyingTextEffectPool();
-    // public System.Void SpawnText(UnityEngine.Vector3 pos, UnityEngine.Quaternion rotation, UnityEngine.Quaternion inverseRotation, System.String text)
-    // Offset: 0x13921B0
-    void SpawnText(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Quaternion inverseRotation, ::StringW text);
-    // public System.Void HandleFlyingObjectEffectDidFinish(FlyingObjectEffect flyingObjectEffect)
-    // Offset: 0x13923E8
-    void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FlyingTextEffect::Pool*& dyn__flyingTextEffectPool();
     // public System.Void .ctor()
-    // Offset: 0x1392504
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x137A018
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlyingTextSpawner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FlyingTextSpawner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlyingTextSpawner*, creationType>()));
     }
+    // public System.Void SpawnText(UnityEngine.Vector3 pos, UnityEngine.Quaternion rotation, UnityEngine.Quaternion inverseRotation, System.String text)
+    // Offset: 0x1379CC4
+    void SpawnText(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Quaternion inverseRotation, ::StringW text);
+    // public System.Void HandleFlyingObjectEffectDidFinish(FlyingObjectEffect flyingObjectEffect)
+    // Offset: 0x1379EFC
+    void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
   }; // FlyingTextSpawner
   #pragma pack(pop)
   static check_size<sizeof(FlyingTextSpawner), 64 + sizeof(::GlobalNamespace::FlyingTextEffect::Pool*)> __GlobalNamespace_FlyingTextSpawnerSizeCheck;
   static_assert(sizeof(FlyingTextSpawner) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::FlyingTextSpawner::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FlyingTextSpawner::SpawnText
 // Il2CppName: SpawnText
 template<>
@@ -175,7 +165,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingTextSpawner*), "HandleFlyingObjectEffectDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flyingObjectEffect});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FlyingTextSpawner::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

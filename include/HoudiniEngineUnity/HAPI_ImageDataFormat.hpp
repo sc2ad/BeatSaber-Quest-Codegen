@@ -90,7 +90,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HAPI_ImageDataFormat HAPI_IMAGE_DATA_DEFAULT
     static void _set_HAPI_IMAGE_DATA_DEFAULT(::HoudiniEngineUnity::HAPI_ImageDataFormat value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HAPI_ImageDataFormat
   #pragma pack(pop)
   static check_size<sizeof(HAPI_ImageDataFormat), 0 + sizeof(int)> __HoudiniEngineUnity_HAPI_ImageDataFormatSizeCheck;

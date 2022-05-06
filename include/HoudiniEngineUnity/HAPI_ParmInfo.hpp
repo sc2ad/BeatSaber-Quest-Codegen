@@ -303,106 +303,106 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 id
-    int& dyn_id();
+    [[deprecated("Use field access instead!")]] int& dyn_id();
     // Get instance field reference: public System.Int32 parentId
-    int& dyn_parentId();
+    [[deprecated("Use field access instead!")]] int& dyn_parentId();
     // Get instance field reference: public System.Int32 childIndex
-    int& dyn_childIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_childIndex();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_ParmType type
-    ::HoudiniEngineUnity::HAPI_ParmType& dyn_type();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_ParmType& dyn_type();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_PrmScriptType scriptType
-    ::HoudiniEngineUnity::HAPI_PrmScriptType& dyn_scriptType();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_PrmScriptType& dyn_scriptType();
     // Get instance field reference: public System.Int32 typeInfoSH
-    int& dyn_typeInfoSH();
+    [[deprecated("Use field access instead!")]] int& dyn_typeInfoSH();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_Permissions permissions
-    ::HoudiniEngineUnity::HAPI_Permissions& dyn_permissions();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_Permissions& dyn_permissions();
     // Get instance field reference: public System.Int32 tagCount
-    int& dyn_tagCount();
+    [[deprecated("Use field access instead!")]] int& dyn_tagCount();
     // Get instance field reference: public System.Int32 size
-    int& dyn_size();
+    [[deprecated("Use field access instead!")]] int& dyn_size();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_ChoiceListType choiceListType
-    ::HoudiniEngineUnity::HAPI_ChoiceListType& dyn_choiceListType();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_ChoiceListType& dyn_choiceListType();
     // Get instance field reference: public System.Int32 choiceCount
-    int& dyn_choiceCount();
+    [[deprecated("Use field access instead!")]] int& dyn_choiceCount();
     // Get instance field reference: public System.Int32 nameSH
-    int& dyn_nameSH();
+    [[deprecated("Use field access instead!")]] int& dyn_nameSH();
     // Get instance field reference: public System.Int32 labelSH
-    int& dyn_labelSH();
+    [[deprecated("Use field access instead!")]] int& dyn_labelSH();
     // Get instance field reference: public System.Int32 templateNameSH
-    int& dyn_templateNameSH();
+    [[deprecated("Use field access instead!")]] int& dyn_templateNameSH();
     // Get instance field reference: public System.Int32 helpSH
-    int& dyn_helpSH();
+    [[deprecated("Use field access instead!")]] int& dyn_helpSH();
     // Get instance field reference: public System.Boolean hasMin
-    bool& dyn_hasMin();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasMin();
     // Get instance field reference: public System.Boolean hasMax
-    bool& dyn_hasMax();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasMax();
     // Get instance field reference: public System.Boolean hasUIMin
-    bool& dyn_hasUIMin();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasUIMin();
     // Get instance field reference: public System.Boolean hasUIMax
-    bool& dyn_hasUIMax();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasUIMax();
     // Get instance field reference: public System.Single min
-    float& dyn_min();
+    [[deprecated("Use field access instead!")]] float& dyn_min();
     // Get instance field reference: public System.Single max
-    float& dyn_max();
+    [[deprecated("Use field access instead!")]] float& dyn_max();
     // Get instance field reference: public System.Single UIMin
-    float& dyn_UIMin();
+    [[deprecated("Use field access instead!")]] float& dyn_UIMin();
     // Get instance field reference: public System.Single UIMax
-    float& dyn_UIMax();
+    [[deprecated("Use field access instead!")]] float& dyn_UIMax();
     // Get instance field reference: public System.Boolean invisible
-    bool& dyn_invisible();
+    [[deprecated("Use field access instead!")]] bool& dyn_invisible();
     // Get instance field reference: public System.Boolean disabled
-    bool& dyn_disabled();
+    [[deprecated("Use field access instead!")]] bool& dyn_disabled();
     // Get instance field reference: public System.Boolean spare
-    bool& dyn_spare();
+    [[deprecated("Use field access instead!")]] bool& dyn_spare();
     // Get instance field reference: public System.Boolean joinNext
-    bool& dyn_joinNext();
+    [[deprecated("Use field access instead!")]] bool& dyn_joinNext();
     // Get instance field reference: public System.Boolean labelNone
-    bool& dyn_labelNone();
+    [[deprecated("Use field access instead!")]] bool& dyn_labelNone();
     // Get instance field reference: public System.Int32 intValuesIndex
-    int& dyn_intValuesIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_intValuesIndex();
     // Get instance field reference: public System.Int32 floatValuesIndex
-    int& dyn_floatValuesIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_floatValuesIndex();
     // Get instance field reference: public System.Int32 stringValuesIndex
-    int& dyn_stringValuesIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_stringValuesIndex();
     // Get instance field reference: public System.Int32 choiceIndex
-    int& dyn_choiceIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_choiceIndex();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_NodeType inputNodeType
-    ::HoudiniEngineUnity::HAPI_NodeType& dyn_inputNodeType();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_NodeType& dyn_inputNodeType();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_NodeFlags inputNodeFlag
-    ::HoudiniEngineUnity::HAPI_NodeFlags& dyn_inputNodeFlag();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_NodeFlags& dyn_inputNodeFlag();
     // Get instance field reference: public System.Boolean isChildOfMultiParm
-    bool& dyn_isChildOfMultiParm();
+    [[deprecated("Use field access instead!")]] bool& dyn_isChildOfMultiParm();
     // Get instance field reference: public System.Int32 instanceNum
-    int& dyn_instanceNum();
+    [[deprecated("Use field access instead!")]] int& dyn_instanceNum();
     // Get instance field reference: public System.Int32 instanceLength
-    int& dyn_instanceLength();
+    [[deprecated("Use field access instead!")]] int& dyn_instanceLength();
     // Get instance field reference: public System.Int32 instanceCount
-    int& dyn_instanceCount();
+    [[deprecated("Use field access instead!")]] int& dyn_instanceCount();
     // Get instance field reference: public System.Int32 instanceStartOffset
-    int& dyn_instanceStartOffset();
+    [[deprecated("Use field access instead!")]] int& dyn_instanceStartOffset();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_RampType rampType
-    ::HoudiniEngineUnity::HAPI_RampType& dyn_rampType();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_RampType& dyn_rampType();
     // Get instance field reference: public System.Int32 visibilityConditionSH
-    int& dyn_visibilityConditionSH();
+    [[deprecated("Use field access instead!")]] int& dyn_visibilityConditionSH();
     // Get instance field reference: public System.Int32 disabledConditionSH
-    int& dyn_disabledConditionSH();
+    [[deprecated("Use field access instead!")]] int& dyn_disabledConditionSH();
     // public System.Boolean isInt()
-    // Offset: 0x16AA23C
+    // Offset: 0x16E1B4C
     bool isInt();
     // public System.Boolean isFloat()
-    // Offset: 0x16AA25C
+    // Offset: 0x16E1B6C
     bool isFloat();
     // public System.Boolean isString()
-    // Offset: 0x16AA270
+    // Offset: 0x16E1B80
     bool isString();
     // public System.Boolean isPath()
-    // Offset: 0x16AA2A0
+    // Offset: 0x16E1BB0
     bool isPath();
     // public System.Boolean isNode()
-    // Offset: 0x16AA2C0
+    // Offset: 0x16E1BD0
     bool isNode();
     // public System.Boolean isNonValue()
-    // Offset: 0x16AA2D0
+    // Offset: 0x16E1BE0
     bool isNonValue();
   }; // HoudiniEngineUnity.HAPI_ParmInfo
   #pragma pack(pop)

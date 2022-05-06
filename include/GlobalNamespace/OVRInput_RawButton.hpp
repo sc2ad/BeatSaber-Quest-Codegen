@@ -220,7 +220,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRInput/RawButton Any
     static void _set_Any(::GlobalNamespace::OVRInput::RawButton value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVRInput/RawButton
   #pragma pack(pop)
   static check_size<sizeof(OVRInput::RawButton), 0 + sizeof(int)> __GlobalNamespace_OVRInput_RawButtonSizeCheck;

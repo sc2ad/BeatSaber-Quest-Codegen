@@ -48,15 +48,7 @@ namespace System::Runtime::Remoting::Proxies {
   // [TokenAttribute] Offset: FFFFFFFF
   class TransparentProxy : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Runtime.Remoting.Proxies.RealProxy _rp
     // Size: 0x8
     // Offset: 0x10
@@ -77,31 +69,31 @@ namespace System::Runtime::Remoting::Proxies {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.Runtime.Remoting.Proxies.RealProxy _rp
-    ::System::Runtime::Remoting::Proxies::RealProxy*& dyn__rp();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Proxies::RealProxy*& dyn__rp();
     // Get instance field reference: private Mono.RuntimeRemoteClassHandle _class
-    ::Mono::RuntimeRemoteClassHandle& dyn__class();
+    [[deprecated("Use field access instead!")]] ::Mono::RuntimeRemoteClassHandle& dyn__class();
     // Get instance field reference: private System.Boolean _custom_type_info
-    bool& dyn__custom_type_info();
+    [[deprecated("Use field access instead!")]] bool& dyn__custom_type_info();
     // private System.Boolean get_IsContextBoundObject()
-    // Offset: 0x18AB85C
+    // Offset: 0x18E516C
     bool get_IsContextBoundObject();
     // private System.Runtime.Remoting.Contexts.Context get_TargetContext()
-    // Offset: 0x18AB87C
+    // Offset: 0x18E518C
     ::System::Runtime::Remoting::Contexts::Context* get_TargetContext();
     // System.RuntimeType GetProxyType()
-    // Offset: 0x18AB788
+    // Offset: 0x18E5098
     ::System::RuntimeType* GetProxyType();
     // private System.Boolean InCurrentContext()
-    // Offset: 0x18AB898
+    // Offset: 0x18E51A8
     bool InCurrentContext();
     // System.Object LoadRemoteFieldNew(System.IntPtr classPtr, System.IntPtr fieldPtr)
-    // Offset: 0x18AB8E4
+    // Offset: 0x18E51F4
     ::Il2CppObject* LoadRemoteFieldNew(::System::IntPtr classPtr, ::System::IntPtr fieldPtr);
     // System.Void StoreRemoteField(System.IntPtr classPtr, System.IntPtr fieldPtr, System.Object arg)
-    // Offset: 0x18ABB94
+    // Offset: 0x18E54A4
     void StoreRemoteField(::System::IntPtr classPtr, ::System::IntPtr fieldPtr, ::Il2CppObject* arg);
     // public System.Void .ctor()
-    // Offset: 0x18ABE44
+    // Offset: 0x18E5754
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

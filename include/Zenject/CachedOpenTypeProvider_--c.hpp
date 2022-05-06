@@ -49,26 +49,24 @@ namespace Zenject {
     // Set static field: static public System.Func`2<Zenject.CachedProvider,System.Int32> <>9__8_0
     static void _set_$$9__8_0(::System::Func_2<::Zenject::CachedProvider*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1735D94
+    // Offset: 0x176E6A4
     static void _cctor();
-    // System.Int32 <get_NumInstances>b__8_0(Zenject.CachedProvider x)
-    // Offset: 0x1735E00
-    int $get_NumInstances$b__8_0(::Zenject::CachedProvider* x);
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1735EB0
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1735F0C
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1735DF8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x176E708
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CachedOpenTypeProvider::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedOpenTypeProvider::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CachedOpenTypeProvider::$$c*, creationType>()));
     }
+    // System.Int32 <get_NumInstances>b__8_0(Zenject.CachedProvider x)
+    // Offset: 0x176E710
+    int $get_NumInstances$b__8_0(::Zenject::CachedProvider* x);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x176E7C0
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x176E81C
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.CachedOpenTypeProvider/Zenject.<>c
   #pragma pack(pop)
 }
@@ -81,6 +79,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(Zenject::CachedOpenTypeProvider::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Zenject::CachedOpenTypeProvider::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::CachedOpenTypeProvider::$$c::$get_NumInstances$b__8_0
 // Il2CppName: <get_NumInstances>b__8_0
 template<>
@@ -107,7 +109,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::CachedOpenTypeProvider::$$c*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::CachedOpenTypeProvider::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

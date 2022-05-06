@@ -66,7 +66,7 @@ namespace System::Collections::Generic {
     // Set static field: static public System.Collections.Generic.TreeRotation RightLeft
     static void _set_RightLeft(::System::Collections::Generic::TreeRotation value);
     // Get instance field reference: public System.Byte value__
-    uint8_t& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_value__();
   }; // System.Collections.Generic.TreeRotation
   #pragma pack(pop)
   static check_size<sizeof(TreeRotation), 0 + sizeof(uint8_t)> __System_Collections_Generic_TreeRotationSizeCheck;

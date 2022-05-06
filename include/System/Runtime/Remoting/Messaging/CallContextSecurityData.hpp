@@ -35,15 +35,7 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   class CallContextSecurityData : public ::Il2CppObject/*, public ::System::ICloneable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Security.Principal.IPrincipal _principal
     // Size: 0x8
     // Offset: 0x10
@@ -60,15 +52,15 @@ namespace System::Runtime::Remoting::Messaging {
       return principal;
     }
     // Get instance field reference: private System.Security.Principal.IPrincipal _principal
-    ::System::Security::Principal::IPrincipal*& dyn__principal();
+    [[deprecated("Use field access instead!")]] ::System::Security::Principal::IPrincipal*& dyn__principal();
     // System.Boolean get_HasInfo()
-    // Offset: 0x1C65F80
+    // Offset: 0x1C8328C
     bool get_HasInfo();
     // public System.Object Clone()
-    // Offset: 0x1C65F90
+    // Offset: 0x1C8329C
     ::Il2CppObject* Clone();
     // public System.Void .ctor()
-    // Offset: 0x1C66000
+    // Offset: 0x1C8330C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

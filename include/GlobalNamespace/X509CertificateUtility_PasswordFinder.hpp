@@ -27,15 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509CertificateUtility::PasswordFinder : public ::Il2CppObject/*, public ::Org::BouncyCastle::OpenSsl::IPasswordFinder*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Char[] _password
     // Size: 0x8
     // Offset: 0x10
@@ -52,23 +44,23 @@ namespace GlobalNamespace {
       return password;
     }
     // Get instance field reference: private readonly System.Char[] _password
-    ::ArrayW<::Il2CppChar>& dyn__password();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppChar>& dyn__password();
     // public System.Void .ctor(System.Byte[] password)
-    // Offset: 0x25F2FE8
+    // Offset: 0x263F618
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateUtility::PasswordFinder* New_ctor(::ArrayW<uint8_t> password) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::X509CertificateUtility::PasswordFinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateUtility::PasswordFinder*, creationType>(password)));
     }
     // public System.Void .ctor(System.String password)
-    // Offset: 0x25F1670
+    // Offset: 0x263DCA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateUtility::PasswordFinder* New_ctor(::StringW password) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::X509CertificateUtility::PasswordFinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateUtility::PasswordFinder*, creationType>(password)));
     }
     // public System.Char[] GetPassword()
-    // Offset: 0x25F30B0
+    // Offset: 0x263F6E0
     ::ArrayW<::Il2CppChar> GetPassword();
   }; // X509CertificateUtility/PasswordFinder
   #pragma pack(pop)

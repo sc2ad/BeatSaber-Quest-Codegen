@@ -40,15 +40,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class CultureAwareComparer : public ::System::StringComparer {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Globalization.CompareInfo _compareInfo
     // Size: 0x8
     // Offset: 0x10
@@ -63,7 +55,7 @@ namespace System {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: ignoreCase and: options
     char __padding1[0x3] = {};
-    // [OptionalFieldAttribute] Offset: 0x11AF2E0
+    // [OptionalFieldAttribute] Offset: 0x1034CF8
     // private System.Globalization.CompareOptions _options
     // Size: 0x4
     // Offset: 0x1C
@@ -72,40 +64,40 @@ namespace System {
     static_assert(sizeof(::System::Globalization::CompareOptions) == 0x4);
     public:
     // Get instance field reference: private System.Globalization.CompareInfo _compareInfo
-    ::System::Globalization::CompareInfo*& dyn__compareInfo();
+    [[deprecated("Use field access instead!")]] ::System::Globalization::CompareInfo*& dyn__compareInfo();
     // Get instance field reference: private System.Boolean _ignoreCase
-    bool& dyn__ignoreCase();
+    [[deprecated("Use field access instead!")]] bool& dyn__ignoreCase();
     // Get instance field reference: private System.Globalization.CompareOptions _options
-    ::System::Globalization::CompareOptions& dyn__options();
+    [[deprecated("Use field access instead!")]] ::System::Globalization::CompareOptions& dyn__options();
     // System.Void .ctor(System.Globalization.CultureInfo culture, System.Boolean ignoreCase)
-    // Offset: 0x1CD63CC
+    // Offset: 0x1D11924
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CultureAwareComparer* New_ctor(::System::Globalization::CultureInfo* culture, bool ignoreCase) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::CultureAwareComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CultureAwareComparer*, creationType>(culture, ignoreCase)));
     }
     // public override System.Int32 Compare(System.String x, System.String y)
-    // Offset: 0x1CD6474
+    // Offset: 0x1D119CC
     // Implemented from: System.StringComparer
     // Base method: System.Int32 StringComparer::Compare(System.String x, System.String y)
     int Compare(::StringW x, ::StringW y);
     // public override System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x1CD64C4
+    // Offset: 0x1D11A1C
     // Implemented from: System.StringComparer
     // Base method: System.Boolean StringComparer::Equals(System.String x, System.String y)
     bool Equals(::StringW x, ::StringW y);
     // public override System.Int32 GetHashCode(System.String obj)
-    // Offset: 0x1CD6518
+    // Offset: 0x1D11A70
     // Implemented from: System.StringComparer
     // Base method: System.Int32 StringComparer::GetHashCode(System.String obj)
     int GetHashCode(::StringW obj);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1CD65BC
+    // Offset: 0x1D11B14
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1CD6684
+    // Offset: 0x1D11BDC
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

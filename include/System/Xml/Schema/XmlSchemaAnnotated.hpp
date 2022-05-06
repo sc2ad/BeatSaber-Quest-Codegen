@@ -29,10 +29,9 @@ namespace System::Xml::Schema {
   class XmlSchemaAnnotated : public ::System::Xml::Schema::XmlSchemaObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x200FD00
+    // Offset: 0x2059574
     // Implemented from: System.Xml.Schema.XmlSchemaObject
     // Base method: System.Void XmlSchemaObject::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaAnnotated* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaAnnotated::.ctor");

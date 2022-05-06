@@ -35,16 +35,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AnimatedAvatarPoseController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x124AC44
+    // [InjectAttribute] Offset: 0x10CF73C
     // private readonly AvatarPoseController _avatarPoseController
     // Size: 0x8
     // Offset: 0x18
@@ -55,29 +47,27 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly AvatarPoseController _avatarPoseController
-    ::GlobalNamespace::AvatarPoseController*& dyn__avatarPoseController();
-    // protected System.Void LateUpdate()
-    // Offset: 0x14B1A84
-    void LateUpdate();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarPoseController*& dyn__avatarPoseController();
     // public System.Void .ctor()
-    // Offset: 0x14B1C90
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14E9548
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatedAvatarPoseController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AnimatedAvatarPoseController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatedAvatarPoseController*, creationType>()));
     }
+    // protected System.Void LateUpdate()
+    // Offset: 0x14E933C
+    void LateUpdate();
   }; // AnimatedAvatarPoseController
   #pragma pack(pop)
   static check_size<sizeof(AnimatedAvatarPoseController), 24 + sizeof(::GlobalNamespace::AvatarPoseController*)> __GlobalNamespace_AnimatedAvatarPoseControllerSizeCheck;
   static_assert(sizeof(AnimatedAvatarPoseController) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::AnimatedAvatarPoseController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AnimatedAvatarPoseController::LateUpdate
 // Il2CppName: LateUpdate
 template<>
@@ -86,7 +76,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnimatedAvatarPoseController*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AnimatedAvatarPoseController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

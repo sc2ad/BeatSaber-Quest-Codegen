@@ -39,15 +39,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerResultsAvatarController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private AvatarVisualController _avatarVisualController
     // Size: 0x8
     // Offset: 0x18
@@ -64,34 +56,32 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private AvatarVisualController _avatarVisualController
-    ::GlobalNamespace::AvatarVisualController*& dyn__avatarVisualController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarVisualController*& dyn__avatarVisualController();
     // Get instance field reference: private MultiplayerAvatarPoseController _multiplayerAvatarPoseController
-    ::GlobalNamespace::MultiplayerAvatarPoseController*& dyn__multiplayerAvatarPoseController();
-    // public System.Void SetScale(System.Single scale)
-    // Offset: 0x13A5C10
-    void SetScale(float scale);
-    // public System.Void Setup(IConnectedPlayer connectedPlayer)
-    // Offset: 0x13A5C84
-    void Setup(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerAvatarPoseController*& dyn__multiplayerAvatarPoseController();
     // public System.Void .ctor()
-    // Offset: 0x13A5DCC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13A2278
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerResultsAvatarController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerResultsAvatarController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsAvatarController*, creationType>()));
     }
+    // public System.Void SetScale(System.Single scale)
+    // Offset: 0x13A20BC
+    void SetScale(float scale);
+    // public System.Void Setup(IConnectedPlayer connectedPlayer)
+    // Offset: 0x13A2130
+    void Setup(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
   }; // MultiplayerResultsAvatarController
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerResultsAvatarController), 32 + sizeof(::GlobalNamespace::MultiplayerAvatarPoseController*)> __GlobalNamespace_MultiplayerResultsAvatarControllerSizeCheck;
   static_assert(sizeof(MultiplayerResultsAvatarController) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsAvatarController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsAvatarController::SetScale
 // Il2CppName: SetScale
 template<>
@@ -110,7 +100,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsAvatarController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connectedPlayer});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsAvatarController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

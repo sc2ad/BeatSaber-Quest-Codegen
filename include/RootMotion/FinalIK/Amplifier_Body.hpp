@@ -40,51 +40,43 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: ::RootMotion::FinalIK::Amplifier::Body::EffectorLink
     class EffectorLink;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x127828C
+    // [TooltipAttribute] Offset: 0x10FCF44
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
     ::UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x12782C4
+    // [TooltipAttribute] Offset: 0x10FCF7C
     // public UnityEngine.Transform relativeTo
     // Size: 0x8
     // Offset: 0x18
     ::UnityEngine::Transform* relativeTo;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x12782FC
+    // [TooltipAttribute] Offset: 0x10FCFB4
     // public RootMotion.FinalIK.Amplifier/RootMotion.FinalIK.Body/RootMotion.FinalIK.EffectorLink[] effectorLinks
     // Size: 0x8
     // Offset: 0x20
     ::ArrayW<::RootMotion::FinalIK::Amplifier::Body::EffectorLink*> effectorLinks;
     // Field size check
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::Amplifier::Body::EffectorLink*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x1278334
+    // [TooltipAttribute] Offset: 0x10FCFEC
     // public System.Single verticalWeight
     // Size: 0x4
     // Offset: 0x28
     float verticalWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x127836C
+    // [TooltipAttribute] Offset: 0x10FD024
     // public System.Single horizontalWeight
     // Size: 0x4
     // Offset: 0x2C
     float horizontalWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x12783A4
+    // [TooltipAttribute] Offset: 0x10FD05C
     // public System.Single speed
     // Size: 0x4
     // Offset: 0x30
@@ -111,44 +103,46 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public UnityEngine.Transform transform
-    ::UnityEngine::Transform*& dyn_transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public UnityEngine.Transform relativeTo
-    ::UnityEngine::Transform*& dyn_relativeTo();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_relativeTo();
     // Get instance field reference: public RootMotion.FinalIK.Amplifier/RootMotion.FinalIK.Body/RootMotion.FinalIK.EffectorLink[] effectorLinks
-    ::ArrayW<::RootMotion::FinalIK::Amplifier::Body::EffectorLink*>& dyn_effectorLinks();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::Amplifier::Body::EffectorLink*>& dyn_effectorLinks();
     // Get instance field reference: public System.Single verticalWeight
-    float& dyn_verticalWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_verticalWeight();
     // Get instance field reference: public System.Single horizontalWeight
-    float& dyn_horizontalWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_horizontalWeight();
     // Get instance field reference: public System.Single speed
-    float& dyn_speed();
+    [[deprecated("Use field access instead!")]] float& dyn_speed();
     // Get instance field reference: private UnityEngine.Vector3 lastRelativePos
-    ::UnityEngine::Vector3& dyn_lastRelativePos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_lastRelativePos();
     // Get instance field reference: private UnityEngine.Vector3 smoothDelta
-    ::UnityEngine::Vector3& dyn_smoothDelta();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_smoothDelta();
     // Get instance field reference: private System.Boolean firstUpdate
-    bool& dyn_firstUpdate();
-    // public System.Void Update(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single w, System.Single deltaTime)
-    // Offset: 0x2202FA0
-    void Update(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float w, float deltaTime);
-    // static private UnityEngine.Vector3 Multiply(UnityEngine.Vector3 v1, UnityEngine.Vector3 v2)
-    // Offset: 0x220340C
-    static ::UnityEngine::Vector3 Multiply(::UnityEngine::Vector3 v1, ::UnityEngine::Vector3 v2);
+    [[deprecated("Use field access instead!")]] bool& dyn_firstUpdate();
     // public System.Void .ctor()
-    // Offset: 0x220341C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2250C90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Amplifier::Body* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::Amplifier::Body::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Amplifier::Body*, creationType>()));
     }
+    // public System.Void Update(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single w, System.Single deltaTime)
+    // Offset: 0x2250814
+    void Update(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float w, float deltaTime);
+    // static private UnityEngine.Vector3 Multiply(UnityEngine.Vector3 v1, UnityEngine.Vector3 v2)
+    // Offset: 0x2250C80
+    static ::UnityEngine::Vector3 Multiply(::UnityEngine::Vector3 v1, ::UnityEngine::Vector3 v2);
   }; // RootMotion.FinalIK.Amplifier/RootMotion.FinalIK.Body
   #pragma pack(pop)
   static check_size<sizeof(Amplifier::Body), 76 + sizeof(bool)> __RootMotion_FinalIK_Amplifier_BodySizeCheck;
   static_assert(sizeof(Amplifier::Body) == 0x4D);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::Amplifier::Body::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::Amplifier::Body::Update
 // Il2CppName: Update
 template<>
@@ -170,7 +164,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Amplifier::Body*), "Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v1, v2});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::Amplifier::Body::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

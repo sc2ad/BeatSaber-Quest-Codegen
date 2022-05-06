@@ -30,14 +30,14 @@ namespace Org::BouncyCastle::Asn1::Misc {
   class NetscapeRevocationUrl : public ::Org::BouncyCastle::Asn1::DerIA5String {
     public:
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerIA5String str)
-    // Offset: 0x1C8CC84
+    // Offset: 0x1CC91DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetscapeRevocationUrl* New_ctor(::Org::BouncyCastle::Asn1::DerIA5String* str) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetscapeRevocationUrl*, creationType>(str)));
     }
     // public override System.String ToString()
-    // Offset: 0x1C8CCC8
+    // Offset: 0x1CC9220
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::ToString()
     ::StringW ToString();

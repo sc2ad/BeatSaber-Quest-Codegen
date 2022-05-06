@@ -26,15 +26,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class CreditsController::$ScrollCoroutine$d__13 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -85,40 +77,40 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Object <>2__current
-    ::Il2CppObject*& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$$2__current();
     // Get instance field reference: public CreditsController <>4__this
-    ::GlobalNamespace::CreditsController*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::CreditsController*& dyn_$$4__this();
     // Get instance field reference: private System.Single <contentHeight>5__2
-    float& dyn_$contentHeight$5__2();
+    [[deprecated("Use field access instead!")]] float& dyn_$contentHeight$5__2();
     // Get instance field reference: private System.Single <contentWrapperHeight>5__3
-    float& dyn_$contentWrapperHeight$5__3();
+    [[deprecated("Use field access instead!")]] float& dyn_$contentWrapperHeight$5__3();
     // Get instance field reference: private System.Single <posY>5__4
-    float& dyn_$posY$5__4();
+    [[deprecated("Use field access instead!")]] float& dyn_$posY$5__4();
     // Get instance field reference: private System.Single <scrollingSpeed>5__5
-    float& dyn_$scrollingSpeed$5__5();
+    [[deprecated("Use field access instead!")]] float& dyn_$scrollingSpeed$5__5();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x140801C
+    // Offset: 0x1427DC8
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1408084
+    // Offset: 0x1427E30
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1407CFC
+    // Offset: 0x1427AA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CreditsController::$ScrollCoroutine$d__13* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CreditsController::$ScrollCoroutine$d__13::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CreditsController::$ScrollCoroutine$d__13*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1407D70
+    // Offset: 0x1427B1C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1407D74
+    // Offset: 0x1427B20
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1408024
+    // Offset: 0x1427DD0
     void System_Collections_IEnumerator_Reset();
   }; // CreditsController/<ScrollCoroutine>d__13
   #pragma pack(pop)

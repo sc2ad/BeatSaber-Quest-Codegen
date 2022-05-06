@@ -42,7 +42,7 @@ namespace Valve::VR {
       return statusState;
     }
     // Get instance field reference: public System.UInt32 statusState
-    uint& dyn_statusState();
+    [[deprecated("Use field access instead!")]] uint& dyn_statusState();
   }; // Valve.VR.VREvent_Status_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Status_t), 0 + sizeof(uint)> __Valve_VR_VREvent_Status_tSizeCheck;

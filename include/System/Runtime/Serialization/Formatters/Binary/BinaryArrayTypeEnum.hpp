@@ -78,7 +78,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static public System.Runtime.Serialization.Formatters.Binary.BinaryArrayTypeEnum RectangularOffset
     static void _set_RectangularOffset(::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryArrayTypeEnum
   #pragma pack(pop)
   static check_size<sizeof(BinaryArrayTypeEnum), 0 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_BinaryArrayTypeEnumSizeCheck;

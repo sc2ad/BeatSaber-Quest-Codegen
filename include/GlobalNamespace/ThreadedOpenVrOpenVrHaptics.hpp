@@ -73,25 +73,17 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public readonly System.Single endTime
-      float& dyn_endTime();
+      [[deprecated("Use field access instead!")]] float& dyn_endTime();
       // Get instance field reference: public readonly System.Single strength
-      float& dyn_strength();
+      [[deprecated("Use field access instead!")]] float& dyn_strength();
       // public System.Void .ctor(System.Single endTime, System.Single strength)
-      // Offset: 0x29D7E4C
+      // Offset: 0x2A2A35C
       // ABORTED: conflicts with another method.  OpenVrHapticData(float endTime, float strength);
     }; // ThreadedOpenVrOpenVrHaptics/OpenVrHapticData
     #pragma pack(pop)
     static check_size<sizeof(ThreadedOpenVrOpenVrHaptics::OpenVrHapticData), 4 + sizeof(float)> __GlobalNamespace_ThreadedOpenVrOpenVrHaptics_OpenVrHapticDataSizeCheck;
     static_assert(sizeof(ThreadedOpenVrOpenVrHaptics::OpenVrHapticData) == 0x8);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _currentTime
     // Size: 0x4
     // Offset: 0x10
@@ -124,34 +116,32 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IOpenVRHaptics*>(this);
     }
     // Get instance field reference: private System.Single _currentTime
-    float& dyn__currentTime();
+    [[deprecated("Use field access instead!")]] float& dyn__currentTime();
     // Get instance field reference: private System.Threading.Thread _hapticThread
-    ::System::Threading::Thread*& dyn__hapticThread();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Thread*& dyn__hapticThread();
     // Get instance field reference: private ThreadedOpenVrOpenVrHaptics/OpenVrHapticData _leftHandHaptics
-    ::GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData& dyn__leftHandHaptics();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData& dyn__leftHandHaptics();
     // Get instance field reference: private ThreadedOpenVrOpenVrHaptics/OpenVrHapticData _rightHandHaptics
-    ::GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData& dyn__rightHandHaptics();
-    // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
-    // Offset: 0x29D7E20
-    void TriggerHapticPulse(::UnityEngine::XR::XRNode node, float duration, float strength, float frequency);
-    // private System.Void UpdateHaptics()
-    // Offset: 0x29D7E54
-    void UpdateHaptics();
-    // private System.Void UpdateHandHaptics(UnityEngine.XR.XRNode node)
-    // Offset: 0x29D7F1C
-    void UpdateHandHaptics(::UnityEngine::XR::XRNode node);
-    // public System.Void Destroy()
-    // Offset: 0x29D8060
-    void Destroy();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData& dyn__rightHandHaptics();
     // public System.Void .ctor()
-    // Offset: 0x29D7D60
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A2A270
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreadedOpenVrOpenVrHaptics* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ThreadedOpenVrOpenVrHaptics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreadedOpenVrOpenVrHaptics*, creationType>()));
     }
+    // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
+    // Offset: 0x2A2A330
+    void TriggerHapticPulse(::UnityEngine::XR::XRNode node, float duration, float strength, float frequency);
+    // private System.Void UpdateHaptics()
+    // Offset: 0x2A2A364
+    void UpdateHaptics();
+    // private System.Void UpdateHandHaptics(UnityEngine.XR.XRNode node)
+    // Offset: 0x2A2A42C
+    void UpdateHandHaptics(::UnityEngine::XR::XRNode node);
+    // public System.Void Destroy()
+    // Offset: 0x2A2A570
+    void Destroy();
   }; // ThreadedOpenVrOpenVrHaptics
   #pragma pack(pop)
   static check_size<sizeof(ThreadedOpenVrOpenVrHaptics), 40 + sizeof(::GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData)> __GlobalNamespace_ThreadedOpenVrOpenVrHapticsSizeCheck;
@@ -160,6 +150,10 @@ namespace GlobalNamespace {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData, "", "ThreadedOpenVrOpenVrHaptics/OpenVrHapticData");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ThreadedOpenVrOpenVrHaptics::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ThreadedOpenVrOpenVrHaptics::TriggerHapticPulse
 // Il2CppName: TriggerHapticPulse
 template<>
@@ -197,7 +191,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ThreadedOpenVrOpenVrHaptics*), "Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ThreadedOpenVrOpenVrHaptics::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

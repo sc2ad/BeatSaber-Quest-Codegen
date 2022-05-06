@@ -36,15 +36,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   // [TokenAttribute] Offset: FFFFFFFF
   class WNafPreCompInfo : public ::Il2CppObject/*, public ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int32 m_promotionCountdown
     // Size: 0x4
     // Offset: 0x10
@@ -87,68 +79,66 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
       return *reinterpret_cast<::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);
     }
     // Get instance field reference: System.Int32 m_promotionCountdown
-    int& dyn_m_promotionCountdown();
+    [[deprecated("Use field access instead!")]] int& dyn_m_promotionCountdown();
     // Get instance field reference: protected System.Int32 m_confWidth
-    int& dyn_m_confWidth();
+    [[deprecated("Use field access instead!")]] int& dyn_m_confWidth();
     // Get instance field reference: protected Org.BouncyCastle.Math.EC.ECPoint[] m_preComp
-    ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*>& dyn_m_preComp();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*>& dyn_m_preComp();
     // Get instance field reference: protected Org.BouncyCastle.Math.EC.ECPoint[] m_preCompNeg
-    ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*>& dyn_m_preCompNeg();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*>& dyn_m_preCompNeg();
     // Get instance field reference: protected Org.BouncyCastle.Math.EC.ECPoint m_twice
-    ::Org::BouncyCastle::Math::EC::ECPoint*& dyn_m_twice();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::EC::ECPoint*& dyn_m_twice();
     // Get instance field reference: protected System.Int32 m_width
-    int& dyn_m_width();
+    [[deprecated("Use field access instead!")]] int& dyn_m_width();
     // System.Int32 get_PromotionCountdown()
-    // Offset: 0x228FE8C
+    // Offset: 0x22DA700
     int get_PromotionCountdown();
     // System.Void set_PromotionCountdown(System.Int32 value)
-    // Offset: 0x228FEB0
+    // Offset: 0x22DA724
     void set_PromotionCountdown(int value);
     // public System.Boolean get_IsPromoted()
-    // Offset: 0x228FED8
+    // Offset: 0x22DA74C
     bool get_IsPromoted();
     // public System.Int32 get_ConfWidth()
-    // Offset: 0x228FF00
+    // Offset: 0x22DA774
     int get_ConfWidth();
     // public System.Void set_ConfWidth(System.Int32 value)
-    // Offset: 0x228FF08
+    // Offset: 0x22DA77C
     void set_ConfWidth(int value);
     // public Org.BouncyCastle.Math.EC.ECPoint[] get_PreComp()
-    // Offset: 0x228FF10
+    // Offset: 0x22DA784
     ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> get_PreComp();
     // public System.Void set_PreComp(Org.BouncyCastle.Math.EC.ECPoint[] value)
-    // Offset: 0x228FF18
+    // Offset: 0x22DA78C
     void set_PreComp(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> value);
     // public Org.BouncyCastle.Math.EC.ECPoint[] get_PreCompNeg()
-    // Offset: 0x228FF20
+    // Offset: 0x22DA794
     ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> get_PreCompNeg();
     // public System.Void set_PreCompNeg(Org.BouncyCastle.Math.EC.ECPoint[] value)
-    // Offset: 0x228FF28
+    // Offset: 0x22DA79C
     void set_PreCompNeg(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> value);
     // public Org.BouncyCastle.Math.EC.ECPoint get_Twice()
-    // Offset: 0x228FF30
+    // Offset: 0x22DA7A4
     ::Org::BouncyCastle::Math::EC::ECPoint* get_Twice();
     // public System.Void set_Twice(Org.BouncyCastle.Math.EC.ECPoint value)
-    // Offset: 0x228FF38
+    // Offset: 0x22DA7AC
     void set_Twice(::Org::BouncyCastle::Math::EC::ECPoint* value);
     // public System.Int32 get_Width()
-    // Offset: 0x228FF40
+    // Offset: 0x22DA7B4
     int get_Width();
     // public System.Void set_Width(System.Int32 value)
-    // Offset: 0x228FF48
+    // Offset: 0x22DA7BC
     void set_Width(int value);
-    // System.Int32 DecrementPromotionCountdown()
-    // Offset: 0x228FE48
-    int DecrementPromotionCountdown();
     // public System.Void .ctor()
-    // Offset: 0x228FF50
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x22DA7C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WNafPreCompInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WNafPreCompInfo*, creationType>()));
     }
+    // System.Int32 DecrementPromotionCountdown()
+    // Offset: 0x22DA6BC
+    int DecrementPromotionCountdown();
   }; // Org.BouncyCastle.Math.EC.Multiplier.WNafPreCompInfo
   #pragma pack(pop)
   static check_size<sizeof(WNafPreCompInfo), 48 + sizeof(int)> __Org_BouncyCastle_Math_EC_Multiplier_WNafPreCompInfoSizeCheck;
@@ -265,6 +255,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*), "set_Width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::DecrementPromotionCountdown
 // Il2CppName: DecrementPromotionCountdown
 template<>
@@ -273,7 +267,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*), "DecrementPromotionCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

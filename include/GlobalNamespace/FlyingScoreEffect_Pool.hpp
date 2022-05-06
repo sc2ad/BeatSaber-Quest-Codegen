@@ -24,24 +24,23 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FlyingScoreEffect::Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::FlyingScoreEffect*> {
     public:
-    // protected System.Void OnDespawned(FlyingScoreEffect item)
-    // Offset: 0x1391550
-    void OnDespawned(::GlobalNamespace::FlyingScoreEffect* item);
     // public System.Void .ctor()
-    // Offset: 0x13915C0
-    // Implemented from: Zenject.MonoMemoryPool`1
-    // Base method: System.Void MonoMemoryPool_1::.ctor()
-    // Base method: System.Void MemoryPool_1::.ctor()
-    // Base method: System.Void MemoryPoolBase_1::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13790D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlyingScoreEffect::Pool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FlyingScoreEffect::Pool::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlyingScoreEffect::Pool*, creationType>()));
     }
+    // protected System.Void OnDespawned(FlyingScoreEffect item)
+    // Offset: 0x1379064
+    void OnDespawned(::GlobalNamespace::FlyingScoreEffect* item);
   }; // FlyingScoreEffect/Pool
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::FlyingScoreEffect::Pool::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FlyingScoreEffect::Pool::OnDespawned
 // Il2CppName: OnDespawned
 template<>
@@ -51,7 +50,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingScoreEffect::Pool*), "OnDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{item});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FlyingScoreEffect::Pool::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

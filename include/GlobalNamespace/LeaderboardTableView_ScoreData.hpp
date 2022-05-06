@@ -24,15 +24,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardTableView::ScoreData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <score>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -61,39 +53,39 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Int32 <score>k__BackingField
-    int& dyn_$score$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$score$k__BackingField();
     // Get instance field reference: private System.String <playerName>k__BackingField
-    ::StringW& dyn_$playerName$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$playerName$k__BackingField();
     // Get instance field reference: private System.Int32 <rank>k__BackingField
-    int& dyn_$rank$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$rank$k__BackingField();
     // Get instance field reference: private System.Boolean <fullCombo>k__BackingField
-    bool& dyn_$fullCombo$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$fullCombo$k__BackingField();
     // public System.Int32 get_score()
-    // Offset: 0x13B7DD8
+    // Offset: 0x13B3284
     int get_score();
     // private System.Void set_score(System.Int32 value)
-    // Offset: 0x13B7DE0
+    // Offset: 0x13B328C
     void set_score(int value);
     // public System.String get_playerName()
-    // Offset: 0x13B7DE8
+    // Offset: 0x13B3294
     ::StringW get_playerName();
     // private System.Void set_playerName(System.String value)
-    // Offset: 0x13B7DF0
+    // Offset: 0x13B329C
     void set_playerName(::StringW value);
     // public System.Int32 get_rank()
-    // Offset: 0x13B7DF8
+    // Offset: 0x13B32A4
     int get_rank();
     // private System.Void set_rank(System.Int32 value)
-    // Offset: 0x13B7E00
+    // Offset: 0x13B32AC
     void set_rank(int value);
     // public System.Boolean get_fullCombo()
-    // Offset: 0x13B7E08
+    // Offset: 0x13B32B4
     bool get_fullCombo();
     // private System.Void set_fullCombo(System.Boolean value)
-    // Offset: 0x13B7E10
+    // Offset: 0x13B32BC
     void set_fullCombo(bool value);
     // public System.Void .ctor(System.Int32 score, System.String playerName, System.Int32 rank, System.Boolean fullCombo)
-    // Offset: 0x13B7E1C
+    // Offset: 0x13B32C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardTableView::ScoreData* New_ctor(int score, ::StringW playerName, int rank, bool fullCombo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardTableView::ScoreData::.ctor");

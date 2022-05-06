@@ -73,29 +73,27 @@ namespace UnityEngine::TestRunner::Utils {
     // Set static field: static public System.Func`2<UnityEngine.TestRunner.TestRunCallbackAttribute,UnityEngine.TestRunner.ITestRunCallback> <>9__2_2
     static void _set_$$9__2_2(::System::Func_2<::UnityEngine::TestRunner::TestRunCallbackAttribute*, ::UnityEngine::TestRunner::ITestRunCallback*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1947CC8
+    // Offset: 0x197FEA8
     static void _cctor();
-    // System.Boolean <GetAllCallbacks>b__2_0(System.Reflection.Assembly x)
-    // Offset: 0x1947D34
-    bool $GetAllCallbacks$b__2_0(::System::Reflection::Assembly* x);
-    // System.Boolean <GetAllCallbacks>b__2_3(System.Reflection.AssemblyName z)
-    // Offset: 0x1947E48
-    bool $GetAllCallbacks$b__2_3(::System::Reflection::AssemblyName* z);
-    // System.Collections.Generic.IEnumerable`1<UnityEngine.TestRunner.TestRunCallbackAttribute> <GetAllCallbacks>b__2_1(System.Reflection.Assembly assembly)
-    // Offset: 0x1947EA4
-    ::System::Collections::Generic::IEnumerable_1<::UnityEngine::TestRunner::TestRunCallbackAttribute*>* $GetAllCallbacks$b__2_1(::System::Reflection::Assembly* assembly);
-    // UnityEngine.TestRunner.ITestRunCallback <GetAllCallbacks>b__2_2(UnityEngine.TestRunner.TestRunCallbackAttribute attribute)
-    // Offset: 0x1947F4C
-    ::UnityEngine::TestRunner::ITestRunCallback* $GetAllCallbacks$b__2_2(::UnityEngine::TestRunner::TestRunCallbackAttribute* attribute);
     // public System.Void .ctor()
-    // Offset: 0x1947D2C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x197FF0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestRunCallbackListener::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestRunCallbackListener::$$c*, creationType>()));
     }
+    // System.Boolean <GetAllCallbacks>b__2_0(System.Reflection.Assembly x)
+    // Offset: 0x197FF14
+    bool $GetAllCallbacks$b__2_0(::System::Reflection::Assembly* x);
+    // System.Boolean <GetAllCallbacks>b__2_3(System.Reflection.AssemblyName z)
+    // Offset: 0x1980028
+    bool $GetAllCallbacks$b__2_3(::System::Reflection::AssemblyName* z);
+    // System.Collections.Generic.IEnumerable`1<UnityEngine.TestRunner.TestRunCallbackAttribute> <GetAllCallbacks>b__2_1(System.Reflection.Assembly assembly)
+    // Offset: 0x1980084
+    ::System::Collections::Generic::IEnumerable_1<::UnityEngine::TestRunner::TestRunCallbackAttribute*>* $GetAllCallbacks$b__2_1(::System::Reflection::Assembly* assembly);
+    // UnityEngine.TestRunner.ITestRunCallback <GetAllCallbacks>b__2_2(UnityEngine.TestRunner.TestRunCallbackAttribute attribute)
+    // Offset: 0x198012C
+    ::UnityEngine::TestRunner::ITestRunCallback* $GetAllCallbacks$b__2_2(::UnityEngine::TestRunner::TestRunCallbackAttribute* attribute);
   }; // UnityEngine.TestRunner.Utils.TestRunCallbackListener/UnityEngine.TestRunner.Utils.<>c
   #pragma pack(pop)
 }
@@ -108,6 +106,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::$GetAllCallbacks$b__2_0
 // Il2CppName: <GetAllCallbacks>b__2_0
 template<>
@@ -144,7 +146,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c*), "<GetAllCallbacks>b__2_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attribute});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

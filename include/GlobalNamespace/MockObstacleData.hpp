@@ -28,15 +28,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockObstacleData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single <time>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -69,49 +61,47 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Single <time>k__BackingField
-    float& dyn_$time$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$time$k__BackingField();
     // Get instance field reference: private System.Int32 <lineIndex>k__BackingField
-    int& dyn_$lineIndex$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$lineIndex$k__BackingField();
     // Get instance field reference: private NoteLineLayer <lineLayer>k__BackingField
-    ::GlobalNamespace::NoteLineLayer& dyn_$lineLayer$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteLineLayer& dyn_$lineLayer$k__BackingField();
     // Get instance field reference: private System.Single <duration>k__BackingField
-    float& dyn_$duration$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$duration$k__BackingField();
     // Get instance field reference: private System.Int32 <width>k__BackingField
-    int& dyn_$width$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$width$k__BackingField();
     // public System.Single get_time()
-    // Offset: 0x2A514E0
+    // Offset: 0x2AA88C8
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x2A514E8
+    // Offset: 0x2AA88D0
     void set_time(float value);
     // public System.Int32 get_lineIndex()
-    // Offset: 0x2A514F0
+    // Offset: 0x2AA88D8
     int get_lineIndex();
     // public System.Void set_lineIndex(System.Int32 value)
-    // Offset: 0x2A514F8
+    // Offset: 0x2AA88E0
     void set_lineIndex(int value);
     // public NoteLineLayer get_lineLayer()
-    // Offset: 0x2A51500
+    // Offset: 0x2AA88E8
     ::GlobalNamespace::NoteLineLayer get_lineLayer();
     // public System.Void set_lineLayer(NoteLineLayer value)
-    // Offset: 0x2A51508
+    // Offset: 0x2AA88F0
     void set_lineLayer(::GlobalNamespace::NoteLineLayer value);
     // public System.Single get_duration()
-    // Offset: 0x2A51510
+    // Offset: 0x2AA88F8
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x2A51518
+    // Offset: 0x2AA8900
     void set_duration(float value);
     // public System.Int32 get_width()
-    // Offset: 0x2A51520
+    // Offset: 0x2AA8908
     int get_width();
     // public System.Void set_width(System.Int32 value)
-    // Offset: 0x2A51528
+    // Offset: 0x2AA8910
     void set_width(int value);
     // public System.Void .ctor()
-    // Offset: 0x2A51530
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2AA8918
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockObstacleData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockObstacleData::.ctor");

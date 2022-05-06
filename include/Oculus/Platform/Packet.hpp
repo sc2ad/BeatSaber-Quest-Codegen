@@ -38,15 +38,7 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Packet : public ::Il2CppObject/*, public ::System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.UInt64 size
     // Size: 0x8
     // Offset: 0x10
@@ -65,33 +57,33 @@ namespace Oculus::Platform {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get instance field reference: private readonly System.UInt64 size
-    uint64_t& dyn_size();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_size();
     // Get instance field reference: private readonly System.IntPtr packetHandle
-    ::System::IntPtr& dyn_packetHandle();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_packetHandle();
     // public System.UInt64 get_SenderID()
-    // Offset: 0x2A24438
+    // Offset: 0x2A7A820
     uint64_t get_SenderID();
     // public System.UInt64 get_Size()
-    // Offset: 0x2A244A4
+    // Offset: 0x2A7A88C
     uint64_t get_Size();
     // public Oculus.Platform.SendPolicy get_Policy()
-    // Offset: 0x2A244AC
+    // Offset: 0x2A7A894
     ::Oculus::Platform::SendPolicy get_Policy();
     // public System.Void .ctor(System.IntPtr packetHandle)
-    // Offset: 0x2A23008
+    // Offset: 0x2A793F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Packet* New_ctor(::System::IntPtr packetHandle) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Packet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Packet*, creationType>(packetHandle)));
     }
     // public System.UInt64 ReadBytes(System.Byte[] destination)
-    // Offset: 0x2A242E4
+    // Offset: 0x2A7A6CC
     uint64_t ReadBytes(::ArrayW<uint8_t> destination);
     // public System.Void Dispose()
-    // Offset: 0x2A24580
+    // Offset: 0x2A7A968
     void Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x2A24518
+    // Offset: 0x2A7A900
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

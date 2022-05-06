@@ -61,15 +61,7 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x44 to desired offset: 0x48
     char ___base_padding[0x4] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _text
     // Size: 0x8
     // Offset: 0x48
@@ -120,66 +112,57 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::HMUI::TableView::IDataSource*>(this);
     }
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
-    ::TMPro::TextMeshProUGUI*& dyn__text();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__text();
     // Get instance field reference: private ColorSchemeView _colorSchemeView
-    ::GlobalNamespace::ColorSchemeView*& dyn__colorSchemeView();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSchemeView*& dyn__colorSchemeView();
     // Get instance field reference: private ColorSchemeTableCell _cellPrefab
-    ::GlobalNamespace::ColorSchemeTableCell*& dyn__cellPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSchemeTableCell*& dyn__cellPrefab();
     // Get instance field reference: private System.String _cellReuseIdentifier
-    ::StringW& dyn__cellReuseIdentifier();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__cellReuseIdentifier();
     // Get instance field reference: private System.Single _cellSize
-    float& dyn__cellSize();
+    [[deprecated("Use field access instead!")]] float& dyn__cellSize();
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<ColorScheme> _colorSchemes
-    ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme*>*& dyn__colorSchemes();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme*>*& dyn__colorSchemes();
     // Get instance field reference: private System.Boolean _initialized
-    bool& dyn__initialized();
-    // private System.Void LazyInit()
-    // Offset: 0x13576CC
-    void LazyInit();
-    // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<ColorScheme> colorSchemes)
-    // Offset: 0x1357864
-    void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme*>* colorSchemes);
-    // public System.Single CellSize()
-    // Offset: 0x1357A9C
-    float CellSize();
-    // public System.Int32 NumberOfCells()
-    // Offset: 0x1357AA4
-    int NumberOfCells();
-    // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x1357B60
-    ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int idx);
-    // private System.Void HandleDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x1357F18
-    void HandleDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
-    // private System.Void RefreshUI(ColorScheme colorScheme)
-    // Offset: 0x13579D0
-    void RefreshUI(::GlobalNamespace::ColorScheme* colorScheme);
+    [[deprecated("Use field access instead!")]] bool& dyn__initialized();
     // public System.Void .ctor()
-    // Offset: 0x13581AC
-    // Implemented from: HMUI.DropdownWithTableView
-    // Base method: System.Void DropdownWithTableView::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x134142C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorSchemeDropdown* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorSchemeDropdown::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorSchemeDropdown*, creationType>()));
     }
+    // private System.Void LazyInit()
+    // Offset: 0x134094C
+    void LazyInit();
+    // public System.Void Init(HMUI.TableView/HMUI.IDataSource initTableViewDataSource)
+    // Offset: 0x1340A84
+    void Init(::HMUI::TableView::IDataSource* initTableViewDataSource);
+    // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<ColorScheme> colorSchemes)
+    // Offset: 0x1340AE4
+    void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme*>* colorSchemes);
+    // public System.Single CellSize()
+    // Offset: 0x1340D1C
+    float CellSize();
+    // public System.Int32 NumberOfCells()
+    // Offset: 0x1340D24
+    int NumberOfCells();
+    // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
+    // Offset: 0x1340DE0
+    ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int idx);
+    // private System.Void HandleDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
+    // Offset: 0x1341198
+    void HandleDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
+    // private System.Void RefreshUI(ColorScheme colorScheme)
+    // Offset: 0x1340C50
+    void RefreshUI(::GlobalNamespace::ColorScheme* colorScheme);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1357778
+    // Offset: 0x13409F8
     // Implemented from: HMUI.DropdownWithTableView
     // Base method: System.Void DropdownWithTableView::OnDestroy()
     void OnDestroy();
-    // public System.Void Init(HMUI.TableView/HMUI.IDataSource initTableViewDataSource)
-    // Offset: 0x1357804
-    // Implemented from: HMUI.DropdownWithTableView
-    // Base method: System.Void DropdownWithTableView::Init(HMUI.TableView/HMUI.IDataSource initTableViewDataSource)
-    void Init(::HMUI::TableView::IDataSource* initTableViewDataSource);
     // public override System.Void SelectCellWithIdx(System.Int32 idx)
-    // Offset: 0x1357E3C
+    // Offset: 0x13410BC
     // Implemented from: HMUI.DropdownWithTableView
     // Base method: System.Void DropdownWithTableView::SelectCellWithIdx(System.Int32 idx)
     void SelectCellWithIdx(int idx);
@@ -189,12 +172,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(ColorSchemeDropdown) == 0x79);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ColorSchemeDropdown::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeDropdown::LazyInit
 // Il2CppName: LazyInit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorSchemeDropdown::*)()>(&GlobalNamespace::ColorSchemeDropdown::LazyInit)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeDropdown*), "LazyInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ColorSchemeDropdown::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorSchemeDropdown::*)(::HMUI::TableView::IDataSource*)>(&GlobalNamespace::ColorSchemeDropdown::Init)> {
+  static const MethodInfo* get() {
+    static auto* initTableViewDataSource = &::il2cpp_utils::GetClassFromName("HMUI", "TableView/IDataSource")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeDropdown*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{initTableViewDataSource});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeDropdown::SetData
@@ -251,25 +247,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeDropdown*), "RefreshUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorScheme});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ColorSchemeDropdown::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeDropdown::OnDestroy
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorSchemeDropdown::*)()>(&GlobalNamespace::ColorSchemeDropdown::OnDestroy)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeDropdown*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ColorSchemeDropdown::Init
-// Il2CppName: Init
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorSchemeDropdown::*)(::HMUI::TableView::IDataSource*)>(&GlobalNamespace::ColorSchemeDropdown::Init)> {
-  static const MethodInfo* get() {
-    static auto* initTableViewDataSource = &::il2cpp_utils::GetClassFromName("HMUI", "TableView/IDataSource")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeDropdown*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{initTableViewDataSource});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeDropdown::SelectCellWithIdx

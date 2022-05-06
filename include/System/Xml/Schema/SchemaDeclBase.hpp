@@ -107,20 +107,12 @@ namespace System::Xml::Schema {
       // Set static field: static public System.Xml.Schema.SchemaDeclBase/System.Xml.Schema.Use RequiredFixed
       static void _set_RequiredFixed(::System::Xml::Schema::SchemaDeclBase::Use value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // System.Xml.Schema.SchemaDeclBase/System.Xml.Schema.Use
     #pragma pack(pop)
     static check_size<sizeof(SchemaDeclBase::Use), 0 + sizeof(int)> __System_Xml_Schema_SchemaDeclBase_UseSizeCheck;
     static_assert(sizeof(SchemaDeclBase::Use) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected System.Xml.XmlQualifiedName name
     // Size: 0x8
     // Offset: 0x10
@@ -191,85 +183,83 @@ namespace System::Xml::Schema {
     static_assert(sizeof(::System::Collections::Generic::List_1<::StringW>*) == 0x8);
     public:
     // Get instance field reference: protected System.Xml.XmlQualifiedName name
-    ::System::Xml::XmlQualifiedName*& dyn_name();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlQualifiedName*& dyn_name();
     // Get instance field reference: protected System.String prefix
-    ::StringW& dyn_prefix();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_prefix();
     // Get instance field reference: protected System.Boolean isDeclaredInExternal
-    bool& dyn_isDeclaredInExternal();
+    [[deprecated("Use field access instead!")]] bool& dyn_isDeclaredInExternal();
     // Get instance field reference: protected System.Xml.Schema.SchemaDeclBase/System.Xml.Schema.Use presence
-    ::System::Xml::Schema::SchemaDeclBase::Use& dyn_presence();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::SchemaDeclBase::Use& dyn_presence();
     // Get instance field reference: protected System.Xml.Schema.XmlSchemaType schemaType
-    ::System::Xml::Schema::XmlSchemaType*& dyn_schemaType();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaType*& dyn_schemaType();
     // Get instance field reference: protected System.Xml.Schema.XmlSchemaDatatype datatype
-    ::System::Xml::Schema::XmlSchemaDatatype*& dyn_datatype();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaDatatype*& dyn_datatype();
     // Get instance field reference: protected System.String defaultValueRaw
-    ::StringW& dyn_defaultValueRaw();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_defaultValueRaw();
     // Get instance field reference: protected System.Object defaultValueTyped
-    ::Il2CppObject*& dyn_defaultValueTyped();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_defaultValueTyped();
     // Get instance field reference: protected System.Int64 maxLength
-    int64_t& dyn_maxLength();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_maxLength();
     // Get instance field reference: protected System.Int64 minLength
-    int64_t& dyn_minLength();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_minLength();
     // Get instance field reference: protected System.Collections.Generic.List`1<System.String> values
-    ::System::Collections::Generic::List_1<::StringW>*& dyn_values();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn_values();
     // System.Xml.XmlQualifiedName get_Name()
-    // Offset: 0x1C292A8
+    // Offset: 0x1C63890
     ::System::Xml::XmlQualifiedName* get_Name();
     // System.String get_Prefix()
-    // Offset: 0x1C28E38
+    // Offset: 0x1C63420
     ::StringW get_Prefix();
     // System.Boolean get_IsDeclaredInExternal()
-    // Offset: 0x1C292B0
+    // Offset: 0x1C63898
     bool get_IsDeclaredInExternal();
     // System.Void set_IsDeclaredInExternal(System.Boolean value)
-    // Offset: 0x1C292B8
+    // Offset: 0x1C638A0
     void set_IsDeclaredInExternal(bool value);
     // System.Xml.Schema.SchemaDeclBase/System.Xml.Schema.Use get_Presence()
-    // Offset: 0x1C292C4
+    // Offset: 0x1C638AC
     ::System::Xml::Schema::SchemaDeclBase::Use get_Presence();
     // System.Void set_Presence(System.Xml.Schema.SchemaDeclBase/System.Xml.Schema.Use value)
-    // Offset: 0x1C292CC
+    // Offset: 0x1C638B4
     void set_Presence(::System::Xml::Schema::SchemaDeclBase::Use value);
     // System.Void set_SchemaType(System.Xml.Schema.XmlSchemaType value)
-    // Offset: 0x1C292D4
+    // Offset: 0x1C638BC
     void set_SchemaType(::System::Xml::Schema::XmlSchemaType* value);
     // System.Xml.Schema.XmlSchemaDatatype get_Datatype()
-    // Offset: 0x1C292DC
+    // Offset: 0x1C638C4
     ::System::Xml::Schema::XmlSchemaDatatype* get_Datatype();
     // System.Void set_Datatype(System.Xml.Schema.XmlSchemaDatatype value)
-    // Offset: 0x1C292E4
+    // Offset: 0x1C638CC
     void set_Datatype(::System::Xml::Schema::XmlSchemaDatatype* value);
     // System.Collections.Generic.List`1<System.String> get_Values()
-    // Offset: 0x1C29384
+    // Offset: 0x1C6396C
     ::System::Collections::Generic::List_1<::StringW>* get_Values();
     // System.String get_DefaultValueRaw()
-    // Offset: 0x1C2938C
+    // Offset: 0x1C63974
     ::StringW get_DefaultValueRaw();
     // System.Object get_DefaultValueTyped()
-    // Offset: 0x1C293E8
+    // Offset: 0x1C639D0
     ::Il2CppObject* get_DefaultValueTyped();
     // System.Void set_DefaultValueTyped(System.Object value)
-    // Offset: 0x1C293F0
+    // Offset: 0x1C639D8
     void set_DefaultValueTyped(::Il2CppObject* value);
     // protected System.Void .ctor(System.Xml.XmlQualifiedName name, System.String prefix)
-    // Offset: 0x1C28CC8
+    // Offset: 0x1C632B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SchemaDeclBase* New_ctor(::System::Xml::XmlQualifiedName* name, ::StringW prefix) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::SchemaDeclBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SchemaDeclBase*, creationType>(name, prefix)));
     }
-    // System.Void AddValue(System.String value)
-    // Offset: 0x1C292EC
-    void AddValue(::StringW value);
     // protected System.Void .ctor()
-    // Offset: 0x1C28D64
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C6334C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SchemaDeclBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::SchemaDeclBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SchemaDeclBase*, creationType>()));
     }
+    // System.Void AddValue(System.String value)
+    // Offset: 0x1C638D4
+    void AddValue(::StringW value);
   }; // System.Xml.Schema.SchemaDeclBase
   #pragma pack(pop)
   static check_size<sizeof(SchemaDeclBase), 88 + sizeof(::System::Collections::Generic::List_1<::StringW>*)> __System_Xml_Schema_SchemaDeclBaseSizeCheck;
@@ -391,6 +381,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: System::Xml::Schema::SchemaDeclBase::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::Schema::SchemaDeclBase::AddValue
 // Il2CppName: AddValue
 template<>
@@ -400,7 +394,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SchemaDeclBase*), "AddValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Schema::SchemaDeclBase::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

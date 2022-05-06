@@ -25,15 +25,7 @@ namespace BeatmapSaveDataVersion3 {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapSaveData::BurstSliderData : public ::BeatmapSaveDataVersion3::BeatmapSaveData::BaseSliderData {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 sc
     // Size: 0x4
     // Offset: 0x30
@@ -48,17 +40,17 @@ namespace BeatmapSaveDataVersion3 {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private System.Int32 sc
-    int& dyn_sc();
+    [[deprecated("Use field access instead!")]] int& dyn_sc();
     // Get instance field reference: private System.Single s
-    float& dyn_s();
+    [[deprecated("Use field access instead!")]] float& dyn_s();
     // public System.Int32 get_sliceCount()
-    // Offset: 0x281B228
+    // Offset: 0x286D7E8
     int get_sliceCount();
     // public System.Single get_squishAmount()
-    // Offset: 0x281B230
+    // Offset: 0x286D7F0
     float get_squishAmount();
     // public System.Void .ctor(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.NoteColorType colorType, System.Single headBeat, System.Int32 headLine, System.Int32 headLayer, NoteCutDirection headCutDirection, System.Single tailBeat, System.Int32 tailLine, System.Int32 tailLayer, System.Int32 sliceCount, System.Single squishAmount)
-    // Offset: 0x281B238
+    // Offset: 0x286D7F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::BurstSliderData* New_ctor(::BeatmapSaveDataVersion3::BeatmapSaveData::NoteColorType colorType, float headBeat, int headLine, int headLayer, ::GlobalNamespace::NoteCutDirection headCutDirection, float tailBeat, int tailLine, int tailLayer, int sliceCount, float squishAmount) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::BurstSliderData::.ctor");

@@ -36,20 +36,18 @@ namespace GlobalNamespace {
     // Set static field: static public readonly BeatmapDataNoArrowsTransform/<>c <>9
     static void _set_$$9(::GlobalNamespace::BeatmapDataNoArrowsTransform::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x136C6A0
+    // Offset: 0x135492C
     static void _cctor();
-    // BeatmapDataItem <CreateTransformedData>g__ProcessData|0_0(BeatmapDataItem beatmapDataItem)
-    // Offset: 0x136C70C
-    ::GlobalNamespace::BeatmapDataItem* $CreateTransformedData$g__ProcessData_0_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
     // public System.Void .ctor()
-    // Offset: 0x136C704
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1354990
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataNoArrowsTransform::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataNoArrowsTransform::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataNoArrowsTransform::$$c*, creationType>()));
     }
+    // BeatmapDataItem <CreateTransformedData>g__ProcessData|0_0(BeatmapDataItem beatmapDataItem)
+    // Offset: 0x1354998
+    ::GlobalNamespace::BeatmapDataItem* $CreateTransformedData$g__ProcessData_0_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
   }; // BeatmapDataNoArrowsTransform/<>c
   #pragma pack(pop)
 }
@@ -62,6 +60,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataNoArrowsTransform::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataNoArrowsTransform::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataNoArrowsTransform::$$c::$CreateTransformedData$g__ProcessData_0_0
 // Il2CppName: <CreateTransformedData>g__ProcessData|0_0
 template<>
@@ -71,7 +73,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataNoArrowsTransform::$$c*), "<CreateTransformedData>g__ProcessData|0_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapDataItem});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataNoArrowsTransform::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

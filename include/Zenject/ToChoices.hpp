@@ -54,7 +54,7 @@ namespace Zenject {
     // Set static field: static public Zenject.ToChoices Concrete
     static void _set_Concrete(::Zenject::ToChoices value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Zenject.ToChoices
   #pragma pack(pop)
   static check_size<sizeof(ToChoices), 0 + sizeof(int)> __Zenject_ToChoicesSizeCheck;

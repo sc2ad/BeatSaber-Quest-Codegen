@@ -36,15 +36,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_ThreadedTask : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean _isComplete
     // Size: 0x1
     // Offset: 0x10
@@ -99,93 +91,91 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.Boolean _isComplete
-    bool& dyn__isComplete();
+    [[deprecated("Use field access instead!")]] bool& dyn__isComplete();
     // Get instance field reference: private System.Boolean _isActive
-    bool& dyn__isActive();
+    [[deprecated("Use field access instead!")]] bool& dyn__isActive();
     // Get instance field reference: private System.Boolean _stopRequested
-    bool& dyn__stopRequested();
+    [[deprecated("Use field access instead!")]] bool& dyn__stopRequested();
     // Get instance field reference: private System.Object _lockHandle
-    ::Il2CppObject*& dyn__lockHandle();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__lockHandle();
     // Get instance field reference: private System.Threading.Thread _thread
-    ::System::Threading::Thread*& dyn__thread();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Thread*& dyn__thread();
     // Get instance field reference: private System.Threading.ThreadPriority _priority
-    ::System::Threading::ThreadPriority& dyn__priority();
+    [[deprecated("Use field access instead!")]] ::System::Threading::ThreadPriority& dyn__priority();
     // Get instance field reference: private System.Boolean _isBackground
-    bool& dyn__isBackground();
+    [[deprecated("Use field access instead!")]] bool& dyn__isBackground();
     // Get instance field reference: protected System.String _name
-    ::StringW& dyn__name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__name();
     // public System.String get_TaskName()
-    // Offset: 0x1AD6868
+    // Offset: 0x1B11E50
     ::StringW get_TaskName();
     // public System.Boolean get_IsComplete()
-    // Offset: 0x1AD6504
+    // Offset: 0x1B11AEC
     bool get_IsComplete();
     // public System.Void set_IsComplete(System.Boolean value)
-    // Offset: 0x1AD6424
+    // Offset: 0x1B11A0C
     void set_IsComplete(bool value);
     // public System.Boolean get_IsActive()
-    // Offset: 0x1AD5FA0
+    // Offset: 0x1B11588
     bool get_IsActive();
     // public System.Void set_IsActive(System.Boolean value)
-    // Offset: 0x1AD6390
+    // Offset: 0x1B11978
     void set_IsActive(bool value);
     // public System.Boolean get_StopRequested()
-    // Offset: 0x1AD6794
+    // Offset: 0x1B11D7C
     bool get_StopRequested();
     // public System.Void set_StopRequested(System.Boolean value)
-    // Offset: 0x1AD6598
+    // Offset: 0x1B11B80
     void set_StopRequested(bool value);
     // public System.Threading.ThreadPriority get_Priority()
-    // Offset: 0x1AD6870
+    // Offset: 0x1B11E58
     ::System::Threading::ThreadPriority get_Priority();
     // public System.Void set_Priority(System.Threading.ThreadPriority value)
-    // Offset: 0x1AD6878
+    // Offset: 0x1B11E60
     void set_Priority(::System::Threading::ThreadPriority value);
     // public System.Boolean get_IsBackground()
-    // Offset: 0x1AD6880
+    // Offset: 0x1B11E68
     bool get_IsBackground();
     // public System.Void set_IsBackground(System.Boolean value)
-    // Offset: 0x1AD6888
+    // Offset: 0x1B11E70
     void set_IsBackground(bool value);
-    // public System.Void Start()
-    // Offset: 0x1AD623C
-    void Start();
-    // public System.Void Stop()
-    // Offset: 0x1AD64B8
-    void Stop();
-    // public System.Void Abort()
-    // Offset: 0x1AD662C
-    void Abort();
-    // public System.Void Reset()
-    // Offset: 0x1AD6670
-    void Reset();
-    // public System.Void Update()
-    // Offset: 0x1AD672C
-    void Update();
-    // protected System.Void DoWork()
-    // Offset: 0x1AD6828
-    void DoWork();
-    // protected System.Void OnComplete()
-    // Offset: 0x1AD682C
-    void OnComplete();
-    // protected System.Void OnStopped()
-    // Offset: 0x1AD6830
-    void OnStopped();
-    // protected System.Void CleanUp()
-    // Offset: 0x1AD6834
-    void CleanUp();
-    // private System.Void Run()
-    // Offset: 0x1AD6838
-    void Run();
     // public System.Void .ctor()
-    // Offset: 0x1AD6894
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B11E7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ThreadedTask* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_ThreadedTask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ThreadedTask*, creationType>()));
     }
+    // public System.Void Start()
+    // Offset: 0x1B11824
+    void Start();
+    // public System.Void Stop()
+    // Offset: 0x1B11AA0
+    void Stop();
+    // public System.Void Abort()
+    // Offset: 0x1B11C14
+    void Abort();
+    // public System.Void Reset()
+    // Offset: 0x1B11C58
+    void Reset();
+    // public System.Void Update()
+    // Offset: 0x1B11D14
+    void Update();
+    // protected System.Void DoWork()
+    // Offset: 0x1B11E10
+    void DoWork();
+    // protected System.Void OnComplete()
+    // Offset: 0x1B11E14
+    void OnComplete();
+    // protected System.Void OnStopped()
+    // Offset: 0x1B11E18
+    void OnStopped();
+    // protected System.Void CleanUp()
+    // Offset: 0x1B11E1C
+    void CleanUp();
+    // private System.Void Run()
+    // Offset: 0x1B11E20
+    void Run();
   }; // HoudiniEngineUnity.HEU_ThreadedTask
   #pragma pack(pop)
   static check_size<sizeof(HEU_ThreadedTask), 48 + sizeof(::StringW)> __HoudiniEngineUnity_HEU_ThreadedTaskSizeCheck;
@@ -285,6 +275,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_ThreadedTask*), "set_IsBackground", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadedTask::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadedTask::Start
 // Il2CppName: Start
 template<>
@@ -365,7 +359,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_ThreadedTask*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadedTask::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

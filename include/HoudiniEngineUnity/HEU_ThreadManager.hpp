@@ -39,15 +39,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_ThreadManager : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ThreadedTask> _tasks
     // Size: 0x8
     // Offset: 0x10
@@ -72,43 +64,41 @@ namespace HoudiniEngineUnity {
     // Set static field: static private HoudiniEngineUnity.HEU_ThreadManager _instance
     static void _set__instance(::HoudiniEngineUnity::HEU_ThreadManager* value);
     // Get instance field reference: private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ThreadedTask> _tasks
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>*& dyn__tasks();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>*& dyn__tasks();
     // Get instance field reference: private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ThreadedTask> _pendingAdd
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>*& dyn__pendingAdd();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>*& dyn__pendingAdd();
     // Get instance field reference: private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ThreadedTask> _pendingRemove
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>*& dyn__pendingRemove();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>*& dyn__pendingRemove();
     // static public HoudiniEngineUnity.HEU_ThreadManager get_Instance()
-    // Offset: 0x1AD5C88
+    // Offset: 0x1B11270
     static ::HoudiniEngineUnity::HEU_ThreadManager* get_Instance();
-    // static private System.Void CreateInstance()
-    // Offset: 0x1AD5CD8
-    static void CreateInstance();
-    // public System.Void Register()
-    // Offset: 0x1AD5CE8
-    void Register();
-    // public System.Void Unregister()
-    // Offset: 0x1AD5CE4
-    void Unregister();
-    // public System.Void Update()
-    // Offset: 0x1AD5CEC
-    void Update();
-    // public System.Void AddTask(HoudiniEngineUnity.HEU_ThreadedTask task)
-    // Offset: 0x1AD6034
-    void AddTask(::HoudiniEngineUnity::HEU_ThreadedTask* task);
-    // public System.Void RemoveTask(HoudiniEngineUnity.HEU_ThreadedTask task)
-    // Offset: 0x1AD60E4
-    void RemoveTask(::HoudiniEngineUnity::HEU_ThreadedTask* task);
     // public System.Void .ctor()
-    // Offset: 0x1AD6194
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B1177C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ThreadManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_ThreadManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ThreadManager*, creationType>()));
     }
+    // static private System.Void CreateInstance()
+    // Offset: 0x1B112C0
+    static void CreateInstance();
+    // public System.Void Register()
+    // Offset: 0x1B112D0
+    void Register();
+    // public System.Void Unregister()
+    // Offset: 0x1B112CC
+    void Unregister();
+    // public System.Void Update()
+    // Offset: 0x1B112D4
+    void Update();
+    // public System.Void AddTask(HoudiniEngineUnity.HEU_ThreadedTask task)
+    // Offset: 0x1B1161C
+    void AddTask(::HoudiniEngineUnity::HEU_ThreadedTask* task);
+    // public System.Void RemoveTask(HoudiniEngineUnity.HEU_ThreadedTask task)
+    // Offset: 0x1B116CC
+    void RemoveTask(::HoudiniEngineUnity::HEU_ThreadedTask* task);
     // protected override System.Void Finalize()
-    // Offset: 0x1AD5CDC
+    // Offset: 0x1B112C4
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -126,6 +116,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEn
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_ThreadManager*), "get_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadManager::CreateInstance
 // Il2CppName: CreateInstance
 template<>
@@ -176,10 +170,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_ThreadManager*), "RemoveTask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{task});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadManager::Finalize
 // Il2CppName: Finalize
 template<>

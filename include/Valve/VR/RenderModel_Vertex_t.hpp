@@ -58,13 +58,13 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public Valve.VR.HmdVector3_t vPosition
-    ::Valve::VR::HmdVector3_t& dyn_vPosition();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::HmdVector3_t& dyn_vPosition();
     // Get instance field reference: public Valve.VR.HmdVector3_t vNormal
-    ::Valve::VR::HmdVector3_t& dyn_vNormal();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::HmdVector3_t& dyn_vNormal();
     // Get instance field reference: public System.Single rfTextureCoord0
-    float& dyn_rfTextureCoord0();
+    [[deprecated("Use field access instead!")]] float& dyn_rfTextureCoord0();
     // Get instance field reference: public System.Single rfTextureCoord1
-    float& dyn_rfTextureCoord1();
+    [[deprecated("Use field access instead!")]] float& dyn_rfTextureCoord1();
   }; // Valve.VR.RenderModel_Vertex_t
   #pragma pack(pop)
   static check_size<sizeof(RenderModel_Vertex_t), 28 + sizeof(float)> __Valve_VR_RenderModel_Vertex_tSizeCheck;

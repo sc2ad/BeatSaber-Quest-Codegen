@@ -40,15 +40,7 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class SemVer : public ::Il2CppObject/*, public ::System::IEquatable_1<::UnityEngine::ProBuilder::SemVer*>, public ::System::IComparable_1<::UnityEngine::ProBuilder::SemVer*>, public ::System::IComparable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 m_Major
     // Size: 0x4
     // Offset: 0x10
@@ -111,102 +103,100 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.String DefaultStringFormat
     static void _set_DefaultStringFormat(::StringW value);
     // Get instance field reference: private System.Int32 m_Major
-    int& dyn_m_Major();
+    [[deprecated("Use field access instead!")]] int& dyn_m_Major();
     // Get instance field reference: private System.Int32 m_Minor
-    int& dyn_m_Minor();
+    [[deprecated("Use field access instead!")]] int& dyn_m_Minor();
     // Get instance field reference: private System.Int32 m_Patch
-    int& dyn_m_Patch();
+    [[deprecated("Use field access instead!")]] int& dyn_m_Patch();
     // Get instance field reference: private System.Int32 m_Build
-    int& dyn_m_Build();
+    [[deprecated("Use field access instead!")]] int& dyn_m_Build();
     // Get instance field reference: private System.String m_Type
-    ::StringW& dyn_m_Type();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_Type();
     // Get instance field reference: private System.String m_Metadata
-    ::StringW& dyn_m_Metadata();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_Metadata();
     // Get instance field reference: private System.String m_Date
-    ::StringW& dyn_m_Date();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_Date();
     // public System.Int32 get_major()
-    // Offset: 0x1991FD8
+    // Offset: 0x19CB5C0
     int get_major();
     // public System.Int32 get_minor()
-    // Offset: 0x1991FE0
+    // Offset: 0x19CB5C8
     int get_minor();
     // public System.Int32 get_patch()
-    // Offset: 0x1991FE8
+    // Offset: 0x19CB5D0
     int get_patch();
     // public System.Int32 get_build()
-    // Offset: 0x1991FF0
+    // Offset: 0x19CB5D8
     int get_build();
     // public System.String get_type()
-    // Offset: 0x1991FF8
+    // Offset: 0x19CB5E0
     ::StringW get_type();
     // public System.String get_metadata()
-    // Offset: 0x1992050
+    // Offset: 0x19CB638
     ::StringW get_metadata();
     // public System.String get_date()
-    // Offset: 0x19920A8
+    // Offset: 0x19CB690
     ::StringW get_date();
     // public UnityEngine.ProBuilder.SemVer get_MajorMinorPatch()
-    // Offset: 0x1992100
+    // Offset: 0x19CB6E8
     ::UnityEngine::ProBuilder::SemVer* get_MajorMinorPatch();
+    // public System.Void .ctor()
+    // Offset: 0x19CB7E4
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static SemVer* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::SemVer::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<SemVer*, creationType>()));
+    }
     // public System.Void .ctor(System.String formatted, System.String date)
-    // Offset: 0x199223C
+    // Offset: 0x19CB824
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SemVer* New_ctor(::StringW formatted, ::StringW date) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::SemVer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SemVer*, creationType>(formatted, date)));
     }
     // public System.Void .ctor(System.Int32 major, System.Int32 minor, System.Int32 patch, System.Int32 build, System.String type, System.String date, System.String metadata)
-    // Offset: 0x199218C
+    // Offset: 0x19CB774
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SemVer* New_ctor(int major, int minor, int patch, int build, ::StringW type, ::StringW date, ::StringW metadata) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::SemVer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SemVer*, creationType>(major, minor, patch, build, type, date, metadata)));
     }
     // public System.Boolean IsValid()
-    // Offset: 0x1992730
+    // Offset: 0x19CBD18
     bool IsValid();
     // public System.Boolean Equals(UnityEngine.ProBuilder.SemVer version)
-    // Offset: 0x19927E4
+    // Offset: 0x19CBDCC
     bool Equals(::UnityEngine::ProBuilder::SemVer* version);
     // public System.Int32 CompareTo(System.Object obj)
-    // Offset: 0x1992BE0
+    // Offset: 0x19CC1C8
     int CompareTo(::Il2CppObject* obj);
     // static private System.Int32 WrapNoValue(System.Int32 value)
-    // Offset: 0x1992E14
+    // Offset: 0x19CC3FC
     static int WrapNoValue(int value);
     // public System.Int32 CompareTo(UnityEngine.ProBuilder.SemVer version)
-    // Offset: 0x1992C54
+    // Offset: 0x19CC23C
     int CompareTo(::UnityEngine::ProBuilder::SemVer* version);
     // public System.String ToString(System.String format)
-    // Offset: 0x1992F48
+    // Offset: 0x19CC530
     ::StringW ToString(::StringW format);
     // static public System.Boolean TryGetVersionInfo(System.String input, out UnityEngine.ProBuilder.SemVer version)
-    // Offset: 0x1992304
+    // Offset: 0x19CB8EC
     static bool TryGetVersionInfo(::StringW input, ByRef<::UnityEngine::ProBuilder::SemVer*> version);
     // static private System.Int32 GetBuildNumber(System.String input)
-    // Offset: 0x19933E0
+    // Offset: 0x19CC9C8
     static int GetBuildNumber(::StringW input);
-    // public System.Void .ctor()
-    // Offset: 0x19921FC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SemVer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::SemVer::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<SemVer*, creationType>()));
-    }
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0x1992760
+    // Offset: 0x19CBD48
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1992A04
+    // Offset: 0x19CBFEC
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x19931C0
+    // Offset: 0x19CC7A8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -215,22 +205,22 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(SemVer), 48 + sizeof(::StringW)> __UnityEngine_ProBuilder_SemVerSizeCheck;
   static_assert(sizeof(SemVer) == 0x38);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.SemVer left, UnityEngine.ProBuilder.SemVer right)
-  // Offset: 0x1992E24
+  // Offset: 0x19CC40C
   bool operator ==(::UnityEngine::ProBuilder::SemVer* left, ::UnityEngine::ProBuilder::SemVer& right);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.SemVer left, UnityEngine.ProBuilder.SemVer right)
-  // Offset: 0x1992E38
+  // Offset: 0x19CC420
   bool operator !=(::UnityEngine::ProBuilder::SemVer* left, ::UnityEngine::ProBuilder::SemVer& right);
   // static public System.Boolean op_LessThan(UnityEngine.ProBuilder.SemVer left, UnityEngine.ProBuilder.SemVer right)
-  // Offset: 0x1992E64
+  // Offset: 0x19CC44C
   bool operator <(::UnityEngine::ProBuilder::SemVer* left, ::UnityEngine::ProBuilder::SemVer& right);
   // static public System.Boolean op_GreaterThan(UnityEngine.ProBuilder.SemVer left, UnityEngine.ProBuilder.SemVer right)
-  // Offset: 0x1992E8C
+  // Offset: 0x19CC474
   bool operator >(::UnityEngine::ProBuilder::SemVer* left, ::UnityEngine::ProBuilder::SemVer& right);
   // static public System.Boolean op_LessThanOrEqual(UnityEngine.ProBuilder.SemVer left, UnityEngine.ProBuilder.SemVer right)
-  // Offset: 0x1992EAC
+  // Offset: 0x19CC494
   bool operator <=(::UnityEngine::ProBuilder::SemVer* left, ::UnityEngine::ProBuilder::SemVer& right);
   // static public System.Boolean op_GreaterThanOrEqual(UnityEngine.ProBuilder.SemVer left, UnityEngine.ProBuilder.SemVer right)
-  // Offset: 0x1992EF0
+  // Offset: 0x19CC4D8
   bool operator >=(::UnityEngine::ProBuilder::SemVer* left, ::UnityEngine::ProBuilder::SemVer& right);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -298,6 +288,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SemVer*), "get_MajorMinorPatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -378,10 +372,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::S
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SemVer*), "GetBuildNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::Equals
 // Il2CppName: Equals
 template<>

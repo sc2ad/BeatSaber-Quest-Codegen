@@ -23,15 +23,7 @@ namespace BGNet::Logging {
   // [TokenAttribute] Offset: FFFFFFFF
   class Debug::LoggerLinkedList : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly BGNet.Logging.Debug/BGNet.Logging.ILogger logger
     // Size: 0x8
     // Offset: 0x10
@@ -46,11 +38,11 @@ namespace BGNet::Logging {
     static_assert(sizeof(::BGNet::Logging::Debug::LoggerLinkedList*) == 0x8);
     public:
     // Get instance field reference: public readonly BGNet.Logging.Debug/BGNet.Logging.ILogger logger
-    ::BGNet::Logging::Debug::ILogger*& dyn_logger();
+    [[deprecated("Use field access instead!")]] ::BGNet::Logging::Debug::ILogger*& dyn_logger();
     // Get instance field reference: public BGNet.Logging.Debug/BGNet.Logging.LoggerLinkedList next
-    ::BGNet::Logging::Debug::LoggerLinkedList*& dyn_next();
+    [[deprecated("Use field access instead!")]] ::BGNet::Logging::Debug::LoggerLinkedList*& dyn_next();
     // public System.Void .ctor(BGNet.Logging.Debug/BGNet.Logging.ILogger logger)
-    // Offset: 0x2A96AC4
+    // Offset: 0x2AEC810
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Debug::LoggerLinkedList* New_ctor(::BGNet::Logging::Debug::ILogger* logger) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Logging::Debug::LoggerLinkedList::.ctor");

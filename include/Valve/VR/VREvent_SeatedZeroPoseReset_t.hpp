@@ -42,7 +42,7 @@ namespace Valve::VR {
       return bResetBySystemMenu;
     }
     // Get instance field reference: public System.Boolean bResetBySystemMenu
-    bool& dyn_bResetBySystemMenu();
+    [[deprecated("Use field access instead!")]] bool& dyn_bResetBySystemMenu();
   }; // Valve.VR.VREvent_SeatedZeroPoseReset_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_SeatedZeroPoseReset_t), 0 + sizeof(bool)> __Valve_VR_VREvent_SeatedZeroPoseReset_tSizeCheck;

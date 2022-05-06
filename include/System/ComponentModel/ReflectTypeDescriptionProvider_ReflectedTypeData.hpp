@@ -43,15 +43,7 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class ReflectTypeDescriptionProvider::ReflectedTypeData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Type _type
     // Size: 0x8
     // Offset: 0x10
@@ -102,42 +94,42 @@ namespace System::ComponentModel {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Type _type
-    ::System::Type*& dyn__type();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn__type();
     // Get instance field reference: private System.ComponentModel.AttributeCollection _attributes
-    ::System::ComponentModel::AttributeCollection*& dyn__attributes();
+    [[deprecated("Use field access instead!")]] ::System::ComponentModel::AttributeCollection*& dyn__attributes();
     // Get instance field reference: private System.ComponentModel.EventDescriptorCollection _events
-    ::System::ComponentModel::EventDescriptorCollection*& dyn__events();
+    [[deprecated("Use field access instead!")]] ::System::ComponentModel::EventDescriptorCollection*& dyn__events();
     // Get instance field reference: private System.ComponentModel.PropertyDescriptorCollection _properties
-    ::System::ComponentModel::PropertyDescriptorCollection*& dyn__properties();
+    [[deprecated("Use field access instead!")]] ::System::ComponentModel::PropertyDescriptorCollection*& dyn__properties();
     // Get instance field reference: private System.ComponentModel.TypeConverter _converter
-    ::System::ComponentModel::TypeConverter*& dyn__converter();
+    [[deprecated("Use field access instead!")]] ::System::ComponentModel::TypeConverter*& dyn__converter();
     // Get instance field reference: private System.Object[] _editors
-    ::ArrayW<::Il2CppObject*>& dyn__editors();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppObject*>& dyn__editors();
     // Get instance field reference: private System.Type[] _editorTypes
-    ::ArrayW<::System::Type*>& dyn__editorTypes();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Type*>& dyn__editorTypes();
     // Get instance field reference: private System.Int32 _editorCount
-    int& dyn__editorCount();
+    [[deprecated("Use field access instead!")]] int& dyn__editorCount();
     // System.Boolean get_IsPopulated()
-    // Offset: 0x1D66A48
+    // Offset: 0x1DA1FA0
     bool get_IsPopulated();
     // System.Void .ctor(System.Type type)
-    // Offset: 0x1D669E0
+    // Offset: 0x1DA1F38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectTypeDescriptionProvider::ReflectedTypeData* New_ctor(::System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectTypeDescriptionProvider::ReflectedTypeData*, creationType>(type)));
     }
     // System.ComponentModel.AttributeCollection GetAttributes()
-    // Offset: 0x1D65BDC
+    // Offset: 0x1DA1134
     ::System::ComponentModel::AttributeCollection* GetAttributes();
     // System.ComponentModel.TypeConverter GetConverter(System.Object instance)
-    // Offset: 0x1D664A4
+    // Offset: 0x1DA19FC
     ::System::ComponentModel::TypeConverter* GetConverter(::Il2CppObject* instance);
     // private System.Type GetTypeFromName(System.String typeName)
-    // Offset: 0x1D67C54
+    // Offset: 0x1DA31AC
     ::System::Type* GetTypeFromName(::StringW typeName);
     // System.Void Refresh()
-    // Offset: 0x1D66ECC
+    // Offset: 0x1DA2424
     void Refresh();
   }; // System.ComponentModel.ReflectTypeDescriptionProvider/System.ComponentModel.ReflectedTypeData
   #pragma pack(pop)

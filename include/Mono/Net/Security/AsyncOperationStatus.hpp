@@ -66,7 +66,7 @@ namespace Mono::Net::Security {
     // Set static field: static public Mono.Net.Security.AsyncOperationStatus Complete
     static void _set_Complete(::Mono::Net::Security::AsyncOperationStatus value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Mono.Net.Security.AsyncOperationStatus
   #pragma pack(pop)
   static check_size<sizeof(AsyncOperationStatus), 0 + sizeof(int)> __Mono_Net_Security_AsyncOperationStatusSizeCheck;

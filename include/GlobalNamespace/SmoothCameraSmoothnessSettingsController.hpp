@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SmoothCameraSmoothnessSettingsController : public ::GlobalNamespace::ListSettingsController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private FloatSO _smoothCameraPositionSmooth
     // Size: 0x8
     // Offset: 0x28
@@ -66,38 +58,33 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<float>) == 0x8);
     public:
     // Get instance field reference: private FloatSO _smoothCameraPositionSmooth
-    ::GlobalNamespace::FloatSO*& dyn__smoothCameraPositionSmooth();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FloatSO*& dyn__smoothCameraPositionSmooth();
     // Get instance field reference: private FloatSO _smoothCameraRotationSmooth
-    ::GlobalNamespace::FloatSO*& dyn__smoothCameraRotationSmooth();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FloatSO*& dyn__smoothCameraRotationSmooth();
     // Get instance field reference: private System.Single[] _smoothnesses
-    ::ArrayW<float>& dyn__smoothnesses();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn__smoothnesses();
     // public System.Void .ctor()
-    // Offset: 0x2AA4068
+    // Offset: 0x138AC8C
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SmoothCameraSmoothnessSettingsController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SmoothCameraSmoothnessSettingsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SmoothCameraSmoothnessSettingsController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x2AA3DC0
+    // Offset: 0x138A9E4
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x2AA3EDC
+    // Offset: 0x138AB00
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x2AA3F98
+    // Offset: 0x138ABBC
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::StringW TextForValue(int idx);

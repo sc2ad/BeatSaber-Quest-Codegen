@@ -37,15 +37,7 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class BerApplicationSpecificParser : public ::Il2CppObject/*, public ::Org::BouncyCastle::Asn1::IAsn1Convertible*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Int32 tag
     // Size: 0x4
     // Offset: 0x10
@@ -66,18 +58,18 @@ namespace Org::BouncyCastle::Asn1 {
       return *reinterpret_cast<::Org::BouncyCastle::Asn1::IAsn1Convertible*>(this);
     }
     // Get instance field reference: private readonly System.Int32 tag
-    int& dyn_tag();
+    [[deprecated("Use field access instead!")]] int& dyn_tag();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1StreamParser parser
-    ::Org::BouncyCastle::Asn1::Asn1StreamParser*& dyn_parser();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1StreamParser*& dyn_parser();
     // System.Void .ctor(System.Int32 tag, Org.BouncyCastle.Asn1.Asn1StreamParser parser)
-    // Offset: 0x1BEBFC4
+    // Offset: 0x1C265AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BerApplicationSpecificParser* New_ctor(int tag, ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::BerApplicationSpecificParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerApplicationSpecificParser*, creationType>(tag, parser)));
     }
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1BEC000
+    // Offset: 0x1C265E8
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.BerApplicationSpecificParser
   #pragma pack(pop)

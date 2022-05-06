@@ -35,15 +35,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [TokenAttribute] Offset: FFFFFFFF
   class AdvancingFrontNode : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Next
     // Size: 0x8
     // Offset: 0x10
@@ -76,23 +68,23 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     static_assert(sizeof(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Next
-    ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_Next();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_Next();
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Prev
-    ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_Prev();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_Prev();
     // Get instance field reference: public System.Double Value
-    double& dyn_Value();
+    [[deprecated("Use field access instead!")]] double& dyn_Value();
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint Point
-    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& dyn_Point();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& dyn_Point();
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle Triangle
-    ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*& dyn_Triangle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*& dyn_Triangle();
     // public System.Boolean get_HasNext()
-    // Offset: 0x2A36790
+    // Offset: 0x2A8CB78
     bool get_HasNext();
     // public System.Boolean get_HasPrev()
-    // Offset: 0x2A367A0
+    // Offset: 0x2A8CB88
     bool get_HasPrev();
     // public System.Void .ctor(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point)
-    // Offset: 0x2A36754
+    // Offset: 0x2A8CB3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AdvancingFrontNode* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::.ctor");

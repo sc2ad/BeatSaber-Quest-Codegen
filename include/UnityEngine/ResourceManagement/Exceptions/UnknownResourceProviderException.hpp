@@ -45,15 +45,7 @@ namespace UnityEngine::ResourceManagement::Exceptions {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnknownResourceProviderException : public ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation <Location>k__BackingField
     // Size: 0x8
     // Offset: 0x88
@@ -66,68 +58,63 @@ namespace UnityEngine::ResourceManagement::Exceptions {
       return Location;
     }
     // Get instance field reference: private UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation <Location>k__BackingField
-    ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& dyn_$Location$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& dyn_$Location$k__BackingField();
     // public UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation get_Location()
-    // Offset: 0x1E97254
+    // Offset: 0x1EE578C
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
     // private System.Void set_Location(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation value)
-    // Offset: 0x1E9725C
+    // Offset: 0x1EE5794
     void set_Location(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
     // public System.Void .ctor(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location)
-    // Offset: 0x1E97264
+    // Offset: 0x1EE579C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnknownResourceProviderException* New_ctor(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnknownResourceProviderException*, creationType>(location)));
     }
     // public override System.String get_Message()
-    // Offset: 0x1E9729C
+    // Offset: 0x1EE57D4
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
     ::StringW get_Message();
     // public System.Void .ctor()
-    // Offset: 0x1E9728C
+    // Offset: 0x1EE57C4
     // Implemented from: UnityEngine.ResourceManagement.Exceptions.ResourceManagerException
     // Base method: System.Void ResourceManagerException::.ctor()
-    // Base method: System.Void Exception::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnknownResourceProviderException* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnknownResourceProviderException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1E97290
+    // Offset: 0x1EE57C8
     // Implemented from: UnityEngine.ResourceManagement.Exceptions.ResourceManagerException
     // Base method: System.Void ResourceManagerException::.ctor(System.String message)
-    // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnknownResourceProviderException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnknownResourceProviderException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x1E97294
+    // Offset: 0x1EE57CC
     // Implemented from: UnityEngine.ResourceManagement.Exceptions.ResourceManagerException
     // Base method: System.Void ResourceManagerException::.ctor(System.String message, System.Exception innerException)
-    // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnknownResourceProviderException* New_ctor(::StringW message, ::System::Exception* innerException) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnknownResourceProviderException*, creationType>(message, innerException)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo message, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1E97298
+    // Offset: 0x1EE57D0
     // Implemented from: UnityEngine.ResourceManagement.Exceptions.ResourceManagerException
     // Base method: System.Void ResourceManagerException::.ctor(System.Runtime.Serialization.SerializationInfo message, System.Runtime.Serialization.StreamingContext context)
-    // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo message, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnknownResourceProviderException* New_ctor(::System::Runtime::Serialization::SerializationInfo* message, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnknownResourceProviderException*, creationType>(message, context)));
     }
     // public override System.String ToString()
-    // Offset: 0x1E9748C
+    // Offset: 0x1EE59C4
     // Implemented from: System.Exception
     // Base method: System.String Exception::ToString()
     ::StringW ToString();

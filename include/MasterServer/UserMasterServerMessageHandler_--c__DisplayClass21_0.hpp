@@ -48,15 +48,7 @@ namespace MasterServer {
     public:
     // Nested type: ::MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass21_0::$$SendConnectToServerRequest$b__0$d
     struct $$SendConnectToServerRequest$b__0$d;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Threading.CancellationToken cancellationToken
     // Size: 0x8
     // Offset: 0x10
@@ -89,33 +81,35 @@ namespace MasterServer {
     static_assert(sizeof(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*) == 0x8);
     public:
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
-    ::System::Threading::CancellationToken& dyn_cancellationToken();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: public MasterServer.UserMasterServerMessageHandler <>4__this
-    ::MasterServer::UserMasterServerMessageHandler*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::MasterServer::UserMasterServerMessageHandler*& dyn_$$4__this();
     // Get instance field reference: public MasterServer.BaseConnectToServerRequest request
-    ::MasterServer::BaseConnectToServerRequest*& dyn_request();
+    [[deprecated("Use field access instead!")]] ::MasterServer::BaseConnectToServerRequest*& dyn_request();
     // Get instance field reference: public MasterServer.UserMasterServerMessageHandler/MasterServer.ConnectToServerDelegate onSuccess
-    ::MasterServer::UserMasterServerMessageHandler::ConnectToServerDelegate*& dyn_onSuccess();
+    [[deprecated("Use field access instead!")]] ::MasterServer::UserMasterServerMessageHandler::ConnectToServerDelegate*& dyn_onSuccess();
     // Get instance field reference: public System.Action`1<ConnectionFailedReason> onConnectionFailed
-    ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*& dyn_onConnectionFailed();
-    // System.Threading.Tasks.Task <SendConnectToServerRequest>b__0()
-    // Offset: 0x16F5770
-    ::System::Threading::Tasks::Task* $SendConnectToServerRequest$b__0();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*& dyn_onConnectionFailed();
     // public System.Void .ctor()
-    // Offset: 0x16F550C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x172DE1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserMasterServerMessageHandler::$$c__DisplayClass21_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass21_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UserMasterServerMessageHandler::$$c__DisplayClass21_0*, creationType>()));
     }
+    // System.Threading.Tasks.Task <SendConnectToServerRequest>b__0()
+    // Offset: 0x172E080
+    ::System::Threading::Tasks::Task* $SendConnectToServerRequest$b__0();
   }; // MasterServer.UserMasterServerMessageHandler/MasterServer.<>c__DisplayClass21_0
   #pragma pack(pop)
   static check_size<sizeof(UserMasterServerMessageHandler::$$c__DisplayClass21_0), 48 + sizeof(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*)> __MasterServer_UserMasterServerMessageHandler_$$c__DisplayClass21_0SizeCheck;
   static_assert(sizeof(UserMasterServerMessageHandler::$$c__DisplayClass21_0) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass21_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass21_0::$SendConnectToServerRequest$b__0
 // Il2CppName: <SendConnectToServerRequest>b__0
 template<>
@@ -124,7 +118,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass21_0*), "<SendConnectToServerRequest>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass21_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

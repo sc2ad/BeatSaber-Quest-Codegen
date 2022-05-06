@@ -81,20 +81,12 @@ namespace HoudiniEngineUnity {
       // Set static field: static public HoudiniEngineUnity.HEU_ShelfToolData/HoudiniEngineUnity.ToolType BATCH
       static void _set_BATCH(::HoudiniEngineUnity::HEU_ShelfToolData::ToolType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // HoudiniEngineUnity.HEU_ShelfToolData/HoudiniEngineUnity.ToolType
     #pragma pack(pop)
     static check_size<sizeof(HEU_ShelfToolData::ToolType), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_ShelfToolData_ToolTypeSizeCheck;
     static_assert(sizeof(HEU_ShelfToolData::ToolType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String _name
     // Size: 0x8
     // Offset: 0x10
@@ -147,25 +139,23 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String _name
-    ::StringW& dyn__name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__name();
     // Get instance field reference: public HoudiniEngineUnity.HEU_ShelfToolData/HoudiniEngineUnity.ToolType _toolType
-    ::HoudiniEngineUnity::HEU_ShelfToolData::ToolType& dyn__toolType();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_ShelfToolData::ToolType& dyn__toolType();
     // Get instance field reference: public System.String _toolTip
-    ::StringW& dyn__toolTip();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__toolTip();
     // Get instance field reference: public System.String _iconPath
-    ::StringW& dyn__iconPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__iconPath();
     // Get instance field reference: public System.String _assetPath
-    ::StringW& dyn__assetPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__assetPath();
     // Get instance field reference: public System.String _helpURL
-    ::StringW& dyn__helpURL();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__helpURL();
     // Get instance field reference: public System.String[] _targets
-    ::ArrayW<::StringW>& dyn__targets();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn__targets();
     // Get instance field reference: public System.String _jsonPath
-    ::StringW& dyn__jsonPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__jsonPath();
     // public System.Void .ctor()
-    // Offset: 0x1ACC6C8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B07CB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ShelfToolData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_ShelfToolData::.ctor");

@@ -27,15 +27,7 @@ namespace BeatSaberAPI::DataTransferObjects {
   // [TokenAttribute] Offset: FFFFFFFF
   class AccessToken : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String token
     // Size: 0x8
     // Offset: 0x10
@@ -50,13 +42,11 @@ namespace BeatSaberAPI::DataTransferObjects {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String token
-    ::StringW& dyn_token();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_token();
     // Get instance field reference: public System.String expiration
-    ::StringW& dyn_expiration();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_expiration();
     // public System.Void .ctor()
-    // Offset: 0x1363A28
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x134BCA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AccessToken* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatSaberAPI::DataTransferObjects::AccessToken::.ctor");

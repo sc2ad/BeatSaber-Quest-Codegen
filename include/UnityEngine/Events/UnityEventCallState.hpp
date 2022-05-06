@@ -60,7 +60,7 @@ namespace UnityEngine::Events {
     // Set static field: static public UnityEngine.Events.UnityEventCallState RuntimeOnly
     static void _set_RuntimeOnly(::UnityEngine::Events::UnityEventCallState value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.Events.UnityEventCallState
   #pragma pack(pop)
   static check_size<sizeof(UnityEventCallState), 0 + sizeof(int)> __UnityEngine_Events_UnityEventCallStateSizeCheck;

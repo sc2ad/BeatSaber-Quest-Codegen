@@ -41,15 +41,7 @@ namespace UnityEngine::TestTools::TestRunner {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnexpectedLogMessageException : public ::NUnit::Framework::ResultStateException {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.TestTools.Logging.LogMatch LogEvent
     // Size: 0x8
     // Offset: 0x88
@@ -62,24 +54,24 @@ namespace UnityEngine::TestTools::TestRunner {
       return LogEvent;
     }
     // Get instance field reference: public UnityEngine.TestTools.Logging.LogMatch LogEvent
-    ::UnityEngine::TestTools::Logging::LogMatch*& dyn_LogEvent();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TestTools::Logging::LogMatch*& dyn_LogEvent();
     // public System.Void .ctor(UnityEngine.TestTools.Logging.LogMatch log)
-    // Offset: 0x2A7C418
+    // Offset: 0x2AC60C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnexpectedLogMessageException* New_ctor(::UnityEngine::TestTools::Logging::LogMatch* log) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnexpectedLogMessageException*, creationType>(log)));
     }
     // static private System.String BuildMessage(UnityEngine.TestTools.Logging.LogMatch log)
-    // Offset: 0x2A7C454
+    // Offset: 0x2AC6104
     static ::StringW BuildMessage(::UnityEngine::TestTools::Logging::LogMatch* log);
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
-    // Offset: 0x2A7C4A8
+    // Offset: 0x2AC6158
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: NUnit.Framework.Interfaces.ResultState ResultStateException::get_ResultState()
     ::NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // public override System.String get_StackTrace()
-    // Offset: 0x2A7C510
+    // Offset: 0x2AC61C0
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_StackTrace()
     ::StringW get_StackTrace();

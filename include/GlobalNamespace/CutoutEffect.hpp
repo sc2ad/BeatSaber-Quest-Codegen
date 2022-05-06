@@ -37,22 +37,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CutoutEffect : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MaterialPropertyBlockController _materialPropertyBlockController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MaterialPropertyBlockController*) == 0x8);
-    // [NullAllowed] Offset: 0x1250510
+    // [NullAllowed] Offset: 0x10D5044
     // private BoolSO _useRandomCutoutOffset
     // Size: 0x8
     // Offset: 0x20
@@ -80,56 +72,48 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1250558
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D508C
     // Get static field: static private readonly System.Int32 _cutoutPropertyID
     static int _get__cutoutPropertyID();
     // Set static field: static private readonly System.Int32 _cutoutPropertyID
     static void _set__cutoutPropertyID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1250568
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D509C
     // Get static field: static private readonly System.Int32 _cutoutTexOffsetPropertyID
     static int _get__cutoutTexOffsetPropertyID();
     // Set static field: static private readonly System.Int32 _cutoutTexOffsetPropertyID
     static void _set__cutoutTexOffsetPropertyID(int value);
     // Get instance field reference: private MaterialPropertyBlockController _materialPropertyBlockController
-    ::GlobalNamespace::MaterialPropertyBlockController*& dyn__materialPropertyBlockController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MaterialPropertyBlockController*& dyn__materialPropertyBlockController();
     // Get instance field reference: private BoolSO _useRandomCutoutOffset
-    ::GlobalNamespace::BoolSO*& dyn__useRandomCutoutOffset();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn__useRandomCutoutOffset();
     // Get instance field reference: private UnityEngine.Vector3 _cutoutOffset
-    ::UnityEngine::Vector3& dyn__cutoutOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__cutoutOffset();
     // Get instance field reference: private UnityEngine.Vector3 _randomNoiseTexOffset
-    ::UnityEngine::Vector3& dyn__randomNoiseTexOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__randomNoiseTexOffset();
     // Get instance field reference: private System.Single _cutout
-    float& dyn__cutout();
+    [[deprecated("Use field access instead!")]] float& dyn__cutout();
     // public System.Boolean get_useRandomCutoutOffset()
-    // Offset: 0x140C26C
+    // Offset: 0x142C018
     bool get_useRandomCutoutOffset();
-    // protected System.Void Start()
-    // Offset: 0x140C2BC
-    void Start();
-    // public System.Void SetCutout(System.Single cutout)
-    // Offset: 0x140BF20
-    void SetCutout(float cutout);
-    // public System.Void SetCutout(System.Single cutout, UnityEngine.Vector3 cutoutOffset)
-    // Offset: 0x140C36C
-    void SetCutout(float cutout, ::UnityEngine::Vector3 cutoutOffset);
     // public System.Void .ctor()
-    // Offset: 0x140C490
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x142C23C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CutoutEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CutoutEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CutoutEffect*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x140C498
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x142C244
     static void _cctor();
+    // protected System.Void Start()
+    // Offset: 0x142C068
+    void Start();
+    // public System.Void SetCutout(System.Single cutout)
+    // Offset: 0x142BCCC
+    void SetCutout(float cutout);
+    // public System.Void SetCutout(System.Single cutout, UnityEngine.Vector3 cutoutOffset)
+    // Offset: 0x142C118
+    void SetCutout(float cutout, ::UnityEngine::Vector3 cutoutOffset);
   }; // CutoutEffect
   #pragma pack(pop)
   static check_size<sizeof(CutoutEffect), 64 + sizeof(float)> __GlobalNamespace_CutoutEffectSizeCheck;
@@ -142,6 +126,18 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::CutoutEffect::*)()>(&GlobalNamespace::CutoutEffect::get_useRandomCutoutOffset)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CutoutEffect*), "get_useRandomCutoutOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::CutoutEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::CutoutEffect::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::CutoutEffect::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CutoutEffect*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::CutoutEffect::Start
@@ -169,17 +165,5 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     static auto* cutout = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* cutoutOffset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CutoutEffect*), "SetCutout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cutout, cutoutOffset});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::CutoutEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::CutoutEffect::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::CutoutEffect::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CutoutEffect*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

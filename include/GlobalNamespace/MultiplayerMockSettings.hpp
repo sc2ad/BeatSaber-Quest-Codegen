@@ -47,15 +47,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerMockSettings : public ::UnityEngine::ScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean _isEnabled
     // Size: 0x1
     // Offset: 0x18
@@ -98,58 +90,54 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean _isEnabled
-    bool& dyn__isEnabled();
+    [[deprecated("Use field access instead!")]] bool& dyn__isEnabled();
     // Get instance field reference: private MockPlayerSettings _localPlayer
-    ::GlobalNamespace::MockPlayerSettings*& dyn__localPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MockPlayerSettings*& dyn__localPlayer();
     // Get instance field reference: private System.Collections.Generic.List`1<MockPlayerSettings> _otherPlayers
-    ::System::Collections::Generic::List_1<::GlobalNamespace::MockPlayerSettings*>*& dyn__otherPlayers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::MockPlayerSettings*>*& dyn__otherPlayers();
     // Get instance field reference: private MockServerSettings _quickplayServer
-    ::GlobalNamespace::MockServerSettings*& dyn__quickplayServer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MockServerSettings*& dyn__quickplayServer();
     // Get instance field reference: private MultiplayerStatusData _multiplayerStatusData
-    ::GlobalNamespace::MultiplayerStatusData*& dyn__multiplayerStatusData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerStatusData*& dyn__multiplayerStatusData();
     // Get instance field reference: private QuickPlaySetupData _quickPlaySetupData
-    ::GlobalNamespace::QuickPlaySetupData*& dyn__quickPlaySetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::QuickPlaySetupData*& dyn__quickPlaySetupData();
     // public MockServerSettings get_quickplayServer()
-    // Offset: 0x139A4C0
+    // Offset: 0x139696C
     ::GlobalNamespace::MockServerSettings* get_quickplayServer();
     // public MockPlayerSettings get_localPlayer()
-    // Offset: 0x139A4C8
+    // Offset: 0x1396974
     ::GlobalNamespace::MockPlayerSettings* get_localPlayer();
     // public QuickPlaySetupData get_quickPlaySetupData()
-    // Offset: 0x139A594
+    // Offset: 0x1396A40
     ::GlobalNamespace::QuickPlaySetupData* get_quickPlaySetupData();
     // public System.Void set_quickPlaySetupData(QuickPlaySetupData value)
-    // Offset: 0x139A59C
+    // Offset: 0x1396A48
     void set_quickPlaySetupData(::GlobalNamespace::QuickPlaySetupData* value);
     // public MultiplayerStatusData get_multiplayerStatusData()
-    // Offset: 0x139A5A4
+    // Offset: 0x1396A50
     ::GlobalNamespace::MultiplayerStatusData* get_multiplayerStatusData();
     // public System.Void set_multiplayerStatusData(MultiplayerStatusData value)
-    // Offset: 0x139A5AC
+    // Offset: 0x1396A58
     void set_multiplayerStatusData(::GlobalNamespace::MultiplayerStatusData* value);
     // public System.Collections.Generic.List`1<MockPlayerSettings> get_otherPlayers()
-    // Offset: 0x139A5B4
+    // Offset: 0x1396A60
     ::System::Collections::Generic::List_1<::GlobalNamespace::MockPlayerSettings*>* get_otherPlayers();
     // public System.Boolean get_isEnabled()
-    // Offset: 0x139A5BC
+    // Offset: 0x1396A68
     bool get_isEnabled();
     // public System.Void set_isEnabled(System.Boolean value)
-    // Offset: 0x139A5C4
+    // Offset: 0x1396A70
     void set_isEnabled(bool value);
-    // static public MultiplayerMockSettings SharedSettings()
-    // Offset: 0x139A5D0
-    static ::GlobalNamespace::MultiplayerMockSettings* SharedSettings();
     // public System.Void .ctor()
-    // Offset: 0x139A5D8
-    // Implemented from: UnityEngine.ScriptableObject
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1396A84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerMockSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerMockSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerMockSettings*, creationType>()));
     }
+    // static public MultiplayerMockSettings SharedSettings()
+    // Offset: 0x1396A7C
+    static ::GlobalNamespace::MultiplayerMockSettings* SharedSettings();
   }; // MultiplayerMockSettings
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerMockSettings), 64 + sizeof(::GlobalNamespace::QuickPlaySetupData*)> __GlobalNamespace_MultiplayerMockSettingsSizeCheck;
@@ -231,6 +219,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerMockSettings*), "set_isEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::SharedSettings
 // Il2CppName: SharedSettings
 template<>
@@ -239,7 +231,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerMockSettings*), "SharedSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

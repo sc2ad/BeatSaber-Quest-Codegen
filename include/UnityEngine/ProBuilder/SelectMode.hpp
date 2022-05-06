@@ -103,7 +103,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.SelectMode Any
     static void _set_Any(::UnityEngine::ProBuilder::SelectMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.ProBuilder.SelectMode
   #pragma pack(pop)
   static check_size<sizeof(SelectMode), 0 + sizeof(int)> __UnityEngine_ProBuilder_SelectModeSizeCheck;

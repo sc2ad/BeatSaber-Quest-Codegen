@@ -64,36 +64,28 @@ namespace GlobalNamespace {
     char ___base_padding[0x7] = {};
     // Nested type: ::GlobalNamespace::SongTimeSyncedVideoPlayer::$WaitForDependenciesAndPlay$d__17
     class $WaitForDependenciesAndPlay$d__17;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Video.VideoPlayer _videoPlayer
     // Size: 0x8
     // Offset: 0x30
     ::UnityEngine::Video::VideoPlayer* videoPlayer;
     // Field size check
     static_assert(sizeof(::UnityEngine::Video::VideoPlayer*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125F8A4
+    // [SpaceAttribute] Offset: 0x10E454C
     // private MaterialPropertyBlockController _materialPropertyBlockController
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MaterialPropertyBlockController*) == 0x8);
-    // [InjectAttribute] Offset: 0x125F8DC
+    // [InjectAttribute] Offset: 0x10E4584
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::IAudioTimeSource* audioTimeSource;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0x125F8EC
+    // [InjectAttribute] Offset: 0x10E4594
     // private readonly EnvironmentContext _environmentContext
     // Size: 0x4
     // Offset: 0x48
@@ -115,83 +107,74 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::UnityEngine::Coroutine*) == 0x8);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x125F8FC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E45A4
     // Get static field: static private readonly System.Int32 _colorId
     static int _get__colorId();
     // Set static field: static private readonly System.Int32 _colorId
     static void _set__colorId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x125F90C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E45B4
     // Get static field: static private readonly System.Int32 _textureId
     static int _get__textureId();
     // Set static field: static private readonly System.Int32 _textureId
     static void _set__textureId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x125F91C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E45C4
     // Get static field: static private readonly System.Int32 _textureStId
     static int _get__textureStId();
     // Set static field: static private readonly System.Int32 _textureStId
     static void _set__textureStId(int value);
     // Get instance field reference: private UnityEngine.Video.VideoPlayer _videoPlayer
-    ::UnityEngine::Video::VideoPlayer*& dyn__videoPlayer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Video::VideoPlayer*& dyn__videoPlayer();
     // Get instance field reference: private MaterialPropertyBlockController _materialPropertyBlockController
-    ::GlobalNamespace::MaterialPropertyBlockController*& dyn__materialPropertyBlockController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MaterialPropertyBlockController*& dyn__materialPropertyBlockController();
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
-    ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // Get instance field reference: private readonly EnvironmentContext _environmentContext
-    ::GlobalNamespace::EnvironmentContext& dyn__environmentContext();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentContext& dyn__environmentContext();
     // Get instance field reference: private UnityEngine.Color _color
-    ::UnityEngine::Color& dyn__color();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // Get instance field reference: private UnityEngine.Coroutine _waitForDependenciesAndPlayCoroutine
-    ::UnityEngine::Coroutine*& dyn__waitForDependenciesAndPlayCoroutine();
-    // protected System.Void OnDestroy()
-    // Offset: 0x2AA9448
-    void OnDestroy();
-    // protected System.Void Update()
-    // Offset: 0x2AA94A4
-    void Update();
-    // protected System.Void LateUpdate()
-    // Offset: 0x2AA9614
-    void LateUpdate();
-    // public System.Void SetVideoClip(UnityEngine.Video.VideoClip videoClip)
-    // Offset: 0x2AA979C
-    void SetVideoClip(::UnityEngine::Video::VideoClip* videoClip);
-    // public System.Void SetSpriteAndStopVideo(UnityEngine.Sprite sprite)
-    // Offset: 0x2AA97B8
-    void SetSpriteAndStopVideo(::UnityEngine::Sprite* sprite);
-    // private System.Void StopVideoPlayer()
-    // Offset: 0x2AA944C
-    void StopVideoPlayer();
-    // private System.Collections.IEnumerator WaitForDependenciesAndPlay()
-    // Offset: 0x2AA93D8
-    ::System::Collections::IEnumerator* WaitForDependenciesAndPlay();
-    // private System.Boolean <WaitForDependenciesAndPlay>b__17_0()
-    // Offset: 0x2AA9B44
-    bool $WaitForDependenciesAndPlay$b__17_0();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Coroutine*& dyn__waitForDependenciesAndPlayCoroutine();
     // public System.Void .ctor()
-    // Offset: 0x2AA9A6C
-    // Implemented from: LightWithIdMonoBehaviour
-    // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1390690
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongTimeSyncedVideoPlayer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongTimeSyncedVideoPlayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongTimeSyncedVideoPlayer*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2AA9AA0
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x13906C4
     static void _cctor();
+    // protected System.Void OnDestroy()
+    // Offset: 0x139006C
+    void OnDestroy();
+    // protected System.Void Update()
+    // Offset: 0x13900C8
+    void Update();
+    // protected System.Void LateUpdate()
+    // Offset: 0x1390238
+    void LateUpdate();
+    // public System.Void SetVideoClip(UnityEngine.Video.VideoClip videoClip)
+    // Offset: 0x13903C0
+    void SetVideoClip(::UnityEngine::Video::VideoClip* videoClip);
+    // public System.Void SetSpriteAndStopVideo(UnityEngine.Sprite sprite)
+    // Offset: 0x13903DC
+    void SetSpriteAndStopVideo(::UnityEngine::Sprite* sprite);
+    // private System.Void StopVideoPlayer()
+    // Offset: 0x1390070
+    void StopVideoPlayer();
+    // private System.Collections.IEnumerator WaitForDependenciesAndPlay()
+    // Offset: 0x138FFFC
+    ::System::Collections::IEnumerator* WaitForDependenciesAndPlay();
+    // private System.Boolean <WaitForDependenciesAndPlay>b__17_0()
+    // Offset: 0x1390768
+    bool $WaitForDependenciesAndPlay$b__17_0();
     // protected override System.Void Start()
-    // Offset: 0x2AA936C
+    // Offset: 0x138FF90
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::Start()
     void Start();
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x2AA9794
+    // Offset: 0x13903B8
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);
@@ -201,6 +184,18 @@ namespace GlobalNamespace {
   static_assert(sizeof(SongTimeSyncedVideoPlayer) == 0x68);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SongTimeSyncedVideoPlayer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::SongTimeSyncedVideoPlayer::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SongTimeSyncedVideoPlayer::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongTimeSyncedVideoPlayer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SongTimeSyncedVideoPlayer::OnDestroy
 // Il2CppName: OnDestroy
 template<>
@@ -265,18 +260,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SongTimeSyncedVideoPlayer::*)()>(&GlobalNamespace::SongTimeSyncedVideoPlayer::$WaitForDependenciesAndPlay$b__17_0)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongTimeSyncedVideoPlayer*), "<WaitForDependenciesAndPlay>b__17_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::SongTimeSyncedVideoPlayer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::SongTimeSyncedVideoPlayer::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SongTimeSyncedVideoPlayer::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongTimeSyncedVideoPlayer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SongTimeSyncedVideoPlayer::Start

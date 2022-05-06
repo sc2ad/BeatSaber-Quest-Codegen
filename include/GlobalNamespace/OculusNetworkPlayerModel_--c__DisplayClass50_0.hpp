@@ -44,15 +44,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OculusNetworkPlayerModel::$$c__DisplayClass50_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.UInt64 id
     // Size: 0x8
     // Offset: 0x10
@@ -67,27 +59,29 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Threading::Tasks::TaskCompletionSource_1<::StringW>*) == 0x8);
     public:
     // Get instance field reference: public System.UInt64 id
-    uint64_t& dyn_id();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_id();
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.String> tcs
-    ::System::Threading::Tasks::TaskCompletionSource_1<::StringW>*& dyn_tcs();
-    // System.Void <GetUserNameAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.User> result)
-    // Offset: 0x15116A4
-    void $GetUserNameAsync$b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>* result);
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskCompletionSource_1<::StringW>*& dyn_tcs();
     // public System.Void .ctor()
-    // Offset: 0x1510920
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1548228
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusNetworkPlayerModel::$$c__DisplayClass50_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass50_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusNetworkPlayerModel::$$c__DisplayClass50_0*, creationType>()));
     }
+    // System.Void <GetUserNameAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.User> result)
+    // Offset: 0x1548FAC
+    void $GetUserNameAsync$b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>* result);
   }; // OculusNetworkPlayerModel/<>c__DisplayClass50_0
   #pragma pack(pop)
   static check_size<sizeof(OculusNetworkPlayerModel::$$c__DisplayClass50_0), 24 + sizeof(::System::Threading::Tasks::TaskCompletionSource_1<::StringW>*)> __GlobalNamespace_OculusNetworkPlayerModel_$$c__DisplayClass50_0SizeCheck;
   static_assert(sizeof(OculusNetworkPlayerModel::$$c__DisplayClass50_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass50_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass50_0::$GetUserNameAsync$b__0
 // Il2CppName: <GetUserNameAsync>b__0
 template<>
@@ -97,7 +91,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass50_0*), "<GetUserNameAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass50_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

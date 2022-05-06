@@ -36,15 +36,7 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParameterizedMethodSuite : public ::NUnit::Framework::Internal::TestSuite {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean _isTheory
     // Size: 0x1
     // Offset: 0x89
@@ -57,14 +49,14 @@ namespace NUnit::Framework::Internal {
       return isTheory;
     }
     // Get instance field reference: private System.Boolean _isTheory
-    bool& dyn__isTheory();
+    [[deprecated("Use field access instead!")]] bool& dyn__isTheory();
     // public override System.String get_TestType()
-    // Offset: 0x29ADE54
+    // Offset: 0x2A09E4C
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_TestType()
     ::StringW get_TestType();
     // public System.Void .ctor(NUnit.Framework.Interfaces.IMethodInfo method)
-    // Offset: 0x29ADC0C
+    // Offset: 0x2A09C04
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.Void Test::.ctor(NUnit.Framework.Interfaces.IMethodInfo method)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

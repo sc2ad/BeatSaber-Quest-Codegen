@@ -33,15 +33,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputInterfaceMesh::HEU_InputDataMeshes : public ::HoudiniEngineUnity::HEU_InputData {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputInterfaceMesh/HoudiniEngineUnity.HEU_InputDataMesh> _inputMeshes
     // Size: 0x8
     // Offset: 0x18
@@ -58,14 +50,13 @@ namespace HoudiniEngineUnity {
     // Deleting conversion operator: operator ::UnityEngine::GameObject*
     constexpr operator ::UnityEngine::GameObject*() const noexcept = delete;
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputInterfaceMesh/HoudiniEngineUnity.HEU_InputDataMesh> _inputMeshes
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputInterfaceMesh::HEU_InputDataMesh*>*& dyn__inputMeshes();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputInterfaceMesh::HEU_InputDataMesh*>*& dyn__inputMeshes();
     // Get instance field reference: public System.Boolean _hasLOD
-    bool& dyn__hasLOD();
+    [[deprecated("Use field access instead!")]] bool& dyn__hasLOD();
     // public System.Void .ctor()
-    // Offset: 0x185099C
+    // Offset: 0x188A2AC
     // Implemented from: HoudiniEngineUnity.HEU_InputData
     // Base method: System.Void HEU_InputData::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputInterfaceMesh::HEU_InputDataMeshes* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputInterfaceMesh::HEU_InputDataMeshes::.ctor");

@@ -32,11 +32,10 @@ namespace GlobalNamespace {
   class GameplayRpcManager::SliderSpawnedRpc : public ::GlobalNamespace::RemoteProcedureCall_2<float, ::GlobalNamespace::SliderSpawnInfoNetSerializable*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1648354
+    // Offset: 0x167EC64
     // Implemented from: RemoteProcedureCall`2
     // Base method: System.Void RemoteProcedureCall_2::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayRpcManager::SliderSpawnedRpc* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayRpcManager::SliderSpawnedRpc::.ctor");

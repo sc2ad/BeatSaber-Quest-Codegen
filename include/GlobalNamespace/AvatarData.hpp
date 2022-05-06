@@ -29,15 +29,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AvatarData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String <headTopId>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -136,152 +128,150 @@ namespace GlobalNamespace {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String <headTopId>k__BackingField
-    ::StringW& dyn_$headTopId$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$headTopId$k__BackingField();
     // Get instance field reference: private System.String <glassesId>k__BackingField
-    ::StringW& dyn_$glassesId$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$glassesId$k__BackingField();
     // Get instance field reference: private System.String <facialHairId>k__BackingField
-    ::StringW& dyn_$facialHairId$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$facialHairId$k__BackingField();
     // Get instance field reference: private System.String <handsId>k__BackingField
-    ::StringW& dyn_$handsId$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$handsId$k__BackingField();
     // Get instance field reference: private System.String <clothesId>k__BackingField
-    ::StringW& dyn_$clothesId$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$clothesId$k__BackingField();
     // Get instance field reference: private System.String <eyesId>k__BackingField
-    ::StringW& dyn_$eyesId$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$eyesId$k__BackingField();
     // Get instance field reference: private System.String <mouthId>k__BackingField
-    ::StringW& dyn_$mouthId$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$mouthId$k__BackingField();
     // Get instance field reference: private UnityEngine.Color <headTopPrimaryColor>k__BackingField
-    ::UnityEngine::Color& dyn_$headTopPrimaryColor$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_$headTopPrimaryColor$k__BackingField();
     // Get instance field reference: private UnityEngine.Color <headTopSecondaryColor>k__BackingField
-    ::UnityEngine::Color& dyn_$headTopSecondaryColor$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_$headTopSecondaryColor$k__BackingField();
     // Get instance field reference: private UnityEngine.Color <glassesColor>k__BackingField
-    ::UnityEngine::Color& dyn_$glassesColor$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_$glassesColor$k__BackingField();
     // Get instance field reference: private UnityEngine.Color <facialHairColor>k__BackingField
-    ::UnityEngine::Color& dyn_$facialHairColor$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_$facialHairColor$k__BackingField();
     // Get instance field reference: private UnityEngine.Color <handsColor>k__BackingField
-    ::UnityEngine::Color& dyn_$handsColor$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_$handsColor$k__BackingField();
     // Get instance field reference: private UnityEngine.Color <clothesPrimaryColor>k__BackingField
-    ::UnityEngine::Color& dyn_$clothesPrimaryColor$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_$clothesPrimaryColor$k__BackingField();
     // Get instance field reference: private UnityEngine.Color <clothesSecondaryColor>k__BackingField
-    ::UnityEngine::Color& dyn_$clothesSecondaryColor$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_$clothesSecondaryColor$k__BackingField();
     // Get instance field reference: private UnityEngine.Color <clothesDetailColor>k__BackingField
-    ::UnityEngine::Color& dyn_$clothesDetailColor$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_$clothesDetailColor$k__BackingField();
     // Get instance field reference: private System.String <skinColorId>k__BackingField
-    ::StringW& dyn_$skinColorId$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$skinColorId$k__BackingField();
     // public System.String get_headTopId()
-    // Offset: 0x14BBB9C
+    // Offset: 0x14F3454
     ::StringW get_headTopId();
     // public System.Void set_headTopId(System.String value)
-    // Offset: 0x14BBBA4
+    // Offset: 0x14F345C
     void set_headTopId(::StringW value);
     // public System.String get_glassesId()
-    // Offset: 0x14BBBAC
+    // Offset: 0x14F3464
     ::StringW get_glassesId();
     // public System.Void set_glassesId(System.String value)
-    // Offset: 0x14BBBB4
+    // Offset: 0x14F346C
     void set_glassesId(::StringW value);
     // public System.String get_facialHairId()
-    // Offset: 0x14BBBBC
+    // Offset: 0x14F3474
     ::StringW get_facialHairId();
     // public System.Void set_facialHairId(System.String value)
-    // Offset: 0x14BBBC4
+    // Offset: 0x14F347C
     void set_facialHairId(::StringW value);
     // public System.String get_handsId()
-    // Offset: 0x14BBBCC
+    // Offset: 0x14F3484
     ::StringW get_handsId();
     // public System.Void set_handsId(System.String value)
-    // Offset: 0x14BBBD4
+    // Offset: 0x14F348C
     void set_handsId(::StringW value);
     // public System.String get_clothesId()
-    // Offset: 0x14BBBDC
+    // Offset: 0x14F3494
     ::StringW get_clothesId();
     // public System.Void set_clothesId(System.String value)
-    // Offset: 0x14BBBE4
+    // Offset: 0x14F349C
     void set_clothesId(::StringW value);
     // public System.String get_eyesId()
-    // Offset: 0x14BBBEC
+    // Offset: 0x14F34A4
     ::StringW get_eyesId();
     // public System.Void set_eyesId(System.String value)
-    // Offset: 0x14BBBF4
+    // Offset: 0x14F34AC
     void set_eyesId(::StringW value);
     // public System.String get_mouthId()
-    // Offset: 0x14BBBFC
+    // Offset: 0x14F34B4
     ::StringW get_mouthId();
     // public System.Void set_mouthId(System.String value)
-    // Offset: 0x14BBC04
+    // Offset: 0x14F34BC
     void set_mouthId(::StringW value);
     // public UnityEngine.Color get_headTopPrimaryColor()
-    // Offset: 0x14BBC0C
+    // Offset: 0x14F34C4
     ::UnityEngine::Color get_headTopPrimaryColor();
     // public System.Void set_headTopPrimaryColor(UnityEngine.Color value)
-    // Offset: 0x14BBC18
+    // Offset: 0x14F34D0
     void set_headTopPrimaryColor(::UnityEngine::Color value);
     // public UnityEngine.Color get_headTopSecondaryColor()
-    // Offset: 0x14BBC24
+    // Offset: 0x14F34DC
     ::UnityEngine::Color get_headTopSecondaryColor();
     // public System.Void set_headTopSecondaryColor(UnityEngine.Color value)
-    // Offset: 0x14BBC30
+    // Offset: 0x14F34E8
     void set_headTopSecondaryColor(::UnityEngine::Color value);
     // public UnityEngine.Color get_glassesColor()
-    // Offset: 0x14BBC3C
+    // Offset: 0x14F34F4
     ::UnityEngine::Color get_glassesColor();
     // public System.Void set_glassesColor(UnityEngine.Color value)
-    // Offset: 0x14BBC48
+    // Offset: 0x14F3500
     void set_glassesColor(::UnityEngine::Color value);
     // public UnityEngine.Color get_facialHairColor()
-    // Offset: 0x14BBC54
+    // Offset: 0x14F350C
     ::UnityEngine::Color get_facialHairColor();
     // public System.Void set_facialHairColor(UnityEngine.Color value)
-    // Offset: 0x14BBC60
+    // Offset: 0x14F3518
     void set_facialHairColor(::UnityEngine::Color value);
     // public UnityEngine.Color get_handsColor()
-    // Offset: 0x14BBC6C
+    // Offset: 0x14F3524
     ::UnityEngine::Color get_handsColor();
     // public System.Void set_handsColor(UnityEngine.Color value)
-    // Offset: 0x14BBC78
+    // Offset: 0x14F3530
     void set_handsColor(::UnityEngine::Color value);
     // public UnityEngine.Color get_clothesPrimaryColor()
-    // Offset: 0x14BBC84
+    // Offset: 0x14F353C
     ::UnityEngine::Color get_clothesPrimaryColor();
     // public System.Void set_clothesPrimaryColor(UnityEngine.Color value)
-    // Offset: 0x14BBC90
+    // Offset: 0x14F3548
     void set_clothesPrimaryColor(::UnityEngine::Color value);
     // public UnityEngine.Color get_clothesSecondaryColor()
-    // Offset: 0x14BBC9C
+    // Offset: 0x14F3554
     ::UnityEngine::Color get_clothesSecondaryColor();
     // public System.Void set_clothesSecondaryColor(UnityEngine.Color value)
-    // Offset: 0x14BBCA8
+    // Offset: 0x14F3560
     void set_clothesSecondaryColor(::UnityEngine::Color value);
     // public UnityEngine.Color get_clothesDetailColor()
-    // Offset: 0x14BBCB4
+    // Offset: 0x14F356C
     ::UnityEngine::Color get_clothesDetailColor();
     // public System.Void set_clothesDetailColor(UnityEngine.Color value)
-    // Offset: 0x14BBCC0
+    // Offset: 0x14F3578
     void set_clothesDetailColor(::UnityEngine::Color value);
     // public System.String get_skinColorId()
-    // Offset: 0x14BBCCC
+    // Offset: 0x14F3584
     ::StringW get_skinColorId();
     // public System.Void set_skinColorId(System.String value)
-    // Offset: 0x14BBCD4
+    // Offset: 0x14F358C
     void set_skinColorId(::StringW value);
+    // public System.Void .ctor()
+    // Offset: 0x14F3594
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static AvatarData* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarData::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<AvatarData*, creationType>()));
+    }
     // public System.Void .ctor(System.String headTopId, UnityEngine.Color headTopPrimaryColor, UnityEngine.Color headTopSecondaryColor, System.String glassesId, UnityEngine.Color glassesColor, System.String facialHairId, UnityEngine.Color facialHairColor, System.String handsId, UnityEngine.Color handsColor, System.String clothesId, UnityEngine.Color clothesPrimaryColor, UnityEngine.Color clothesSecondaryColor, UnityEngine.Color clothesDetailColor, System.String skinColorId, System.String eyesId, System.String mouthId)
-    // Offset: 0x14BBCE4
+    // Offset: 0x14F359C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarData* New_ctor(::StringW headTopId, ::UnityEngine::Color headTopPrimaryColor, ::UnityEngine::Color headTopSecondaryColor, ::StringW glassesId, ::UnityEngine::Color glassesColor, ::StringW facialHairId, ::UnityEngine::Color facialHairColor, ::StringW handsId, ::UnityEngine::Color handsColor, ::StringW clothesId, ::UnityEngine::Color clothesPrimaryColor, ::UnityEngine::Color clothesSecondaryColor, ::UnityEngine::Color clothesDetailColor, ::StringW skinColorId, ::StringW eyesId, ::StringW mouthId) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarData*, creationType>(headTopId, headTopPrimaryColor, headTopSecondaryColor, glassesId, glassesColor, facialHairId, facialHairColor, handsId, handsColor, clothesId, clothesPrimaryColor, clothesSecondaryColor, clothesDetailColor, skinColorId, eyesId, mouthId)));
     }
     // public AvatarData Clone()
-    // Offset: 0x14BBE14
+    // Offset: 0x14F36CC
     ::GlobalNamespace::AvatarData* Clone();
-    // public System.Void .ctor()
-    // Offset: 0x14BBCDC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AvatarData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarData::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<AvatarData*, creationType>()));
-    }
   }; // AvatarData
   #pragma pack(pop)
   static check_size<sizeof(AvatarData), 200 + sizeof(::StringW)> __GlobalNamespace_AvatarDataSizeCheck;
@@ -564,6 +554,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::Clone
 // Il2CppName: Clone
 template<>
@@ -572,7 +566,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AvatarData::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

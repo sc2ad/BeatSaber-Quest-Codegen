@@ -41,15 +41,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StandardLevelBuyInfoView : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _text
     // Size: 0x8
     // Offset: 0x18
@@ -78,38 +70,32 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
-    ::TMPro::TextMeshProUGUI*& dyn__text();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__text();
     // Get instance field reference: private UnityEngine.UI.Button _buyLevelButton
-    ::UnityEngine::UI::Button*& dyn__buyLevelButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__buyLevelButton();
     // Get instance field reference: private UnityEngine.UI.Button _openPackButton
-    ::UnityEngine::UI::Button*& dyn__openPackButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__openPackButton();
     // Get instance field reference: private UnityEngine.UI.Button _buyPackButton
-    ::UnityEngine::UI::Button*& dyn__buyPackButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__buyPackButton();
     // public UnityEngine.UI.Button get_buyLevelButton()
-    // Offset: 0x2AAC7A8
+    // Offset: 0x141039C
     ::UnityEngine::UI::Button* get_buyLevelButton();
     // public UnityEngine.UI.Button get_openPackButton()
-    // Offset: 0x2AAC7B0
+    // Offset: 0x14103A4
     ::UnityEngine::UI::Button* get_openPackButton();
     // public UnityEngine.UI.Button get_buyPackButton()
-    // Offset: 0x2AAC7B8
+    // Offset: 0x14103AC
     ::UnityEngine::UI::Button* get_buyPackButton();
-    // public System.Void RefreshView(System.String infoText, System.Boolean canBuyPack)
-    // Offset: 0x2AAC7C0
-    void RefreshView(::StringW infoText, bool canBuyPack);
     // public System.Void .ctor()
-    // Offset: 0x2AAC834
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1410428
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelBuyInfoView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardLevelBuyInfoView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelBuyInfoView*, creationType>()));
     }
+    // public System.Void RefreshView(System.String infoText, System.Boolean canBuyPack)
+    // Offset: 0x14103B4
+    void RefreshView(::StringW infoText, bool canBuyPack);
   }; // StandardLevelBuyInfoView
   #pragma pack(pop)
   static check_size<sizeof(StandardLevelBuyInfoView), 48 + sizeof(::UnityEngine::UI::Button*)> __GlobalNamespace_StandardLevelBuyInfoViewSizeCheck;
@@ -140,6 +126,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelBuyInfoView*), "get_buyPackButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelBuyInfoView::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelBuyInfoView::RefreshView
 // Il2CppName: RefreshView
 template<>
@@ -150,7 +140,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelBuyInfoView*), "RefreshView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{infoText, canBuyPack});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::StandardLevelBuyInfoView::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

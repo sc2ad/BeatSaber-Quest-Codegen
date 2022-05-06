@@ -53,11 +53,11 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Boolean bActive
-    bool& dyn_bActive();
+    [[deprecated("Use field access instead!")]] bool& dyn_bActive();
     // Get instance field reference: public System.UInt64 activeOrigin
-    uint64_t& dyn_activeOrigin();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_activeOrigin();
     // Get instance field reference: public System.UInt32 boneCount
-    uint& dyn_boneCount();
+    [[deprecated("Use field access instead!")]] uint& dyn_boneCount();
   }; // OVR.OpenVR.InputSkeletalActionData_t
   #pragma pack(pop)
   static check_size<sizeof(InputSkeletalActionData_t), 16 + sizeof(uint)> __OVR_OpenVR_InputSkeletalActionData_tSizeCheck;

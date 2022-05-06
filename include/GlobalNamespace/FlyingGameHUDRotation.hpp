@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FlyingGameHUDRotation : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _smooth
     // Size: 0x4
     // Offset: 0x18
@@ -54,14 +46,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: smooth and: beatLineManager
     char __padding0[0x4] = {};
-    // [InjectOptionalAttribute] Offset: 0x1251D18
+    // [InjectOptionalAttribute] Offset: 0x10D68A4
     // private readonly BeatLineManager _beatLineManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::BeatLineManager* beatLineManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatLineManager*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0x1251D28
+    // [InjectOptionalAttribute] Offset: 0x10D68B4
     // private readonly EnvironmentSpawnRotation _environmentSpawnRotation
     // Size: 0x8
     // Offset: 0x28
@@ -84,43 +76,41 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _smooth
-    float& dyn__smooth();
+    [[deprecated("Use field access instead!")]] float& dyn__smooth();
     // Get instance field reference: private readonly BeatLineManager _beatLineManager
-    ::GlobalNamespace::BeatLineManager*& dyn__beatLineManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatLineManager*& dyn__beatLineManager();
     // Get instance field reference: private readonly EnvironmentSpawnRotation _environmentSpawnRotation
-    ::GlobalNamespace::EnvironmentSpawnRotation*& dyn__environmentSpawnRotation();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentSpawnRotation*& dyn__environmentSpawnRotation();
     // Get instance field reference: private System.Single _prevYAngle
-    float& dyn__prevYAngle();
+    [[deprecated("Use field access instead!")]] float& dyn__prevYAngle();
     // Get instance field reference: private System.Single _yAngle
-    float& dyn__yAngle();
-    // protected System.Void Start()
-    // Offset: 0x13903A0
-    void Start();
-    // protected System.Void FixedUpdate()
-    // Offset: 0x13904D4
-    void FixedUpdate();
-    // protected System.Void LateUpdate()
-    // Offset: 0x13906A4
-    void LateUpdate();
+    [[deprecated("Use field access instead!")]] float& dyn__yAngle();
     // public System.Void .ctor()
-    // Offset: 0x13907B8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13782CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlyingGameHUDRotation* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FlyingGameHUDRotation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlyingGameHUDRotation*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x1377EB4
+    void Start();
+    // protected System.Void FixedUpdate()
+    // Offset: 0x1377FE8
+    void FixedUpdate();
+    // protected System.Void LateUpdate()
+    // Offset: 0x13781B8
+    void LateUpdate();
   }; // FlyingGameHUDRotation
   #pragma pack(pop)
   static check_size<sizeof(FlyingGameHUDRotation), 52 + sizeof(float)> __GlobalNamespace_FlyingGameHUDRotationSizeCheck;
   static_assert(sizeof(FlyingGameHUDRotation) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::FlyingGameHUDRotation::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FlyingGameHUDRotation::Start
 // Il2CppName: Start
 template<>
@@ -145,7 +135,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingGameHUDRotation*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FlyingGameHUDRotation::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

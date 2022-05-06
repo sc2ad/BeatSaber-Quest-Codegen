@@ -43,15 +43,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardTableCell : public ::HMUI::TableCell {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _rankText
     // Size: 0x8
     // Offset: 0x58
@@ -96,48 +88,39 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::UI::Image*) == 0x8);
     public:
     // Get instance field reference: private TMPro.TextMeshProUGUI _rankText
-    ::TMPro::TextMeshProUGUI*& dyn__rankText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__rankText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _playerNameText
-    ::TMPro::TextMeshProUGUI*& dyn__playerNameText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__playerNameText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _scoreText
-    ::TMPro::TextMeshProUGUI*& dyn__scoreText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__scoreText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _fullComboText
-    ::TMPro::TextMeshProUGUI*& dyn__fullComboText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__fullComboText();
     // Get instance field reference: private UnityEngine.Color _normalColor
-    ::UnityEngine::Color& dyn__normalColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__normalColor();
     // Get instance field reference: private UnityEngine.Color _specialScoreColor
-    ::UnityEngine::Color& dyn__specialScoreColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__specialScoreColor();
     // Get instance field reference: private UnityEngine.UI.Image _separatorImage
-    ::UnityEngine::UI::Image*& dyn__separatorImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__separatorImage();
     // public System.Void set_rank(System.Int32 value)
-    // Offset: 0x13B7910
+    // Offset: 0x13B2DBC
     void set_rank(int value);
     // public System.Void set_playerName(System.String value)
-    // Offset: 0x13B7954
+    // Offset: 0x13B2E00
     void set_playerName(::StringW value);
     // public System.Void set_score(System.Int32 value)
-    // Offset: 0x13B7970
+    // Offset: 0x13B2E1C
     void set_score(int value);
     // public System.Void set_showSeparator(System.Boolean value)
-    // Offset: 0x13B7A14
+    // Offset: 0x13B2EC0
     void set_showSeparator(bool value);
     // public System.Void set_showFullCombo(System.Boolean value)
-    // Offset: 0x13B7A34
+    // Offset: 0x13B2EE0
     void set_showFullCombo(bool value);
     // public System.Void set_specialScore(System.Boolean value)
-    // Offset: 0x13B7A54
+    // Offset: 0x13B2F00
     void set_specialScore(bool value);
     // public System.Void .ctor()
-    // Offset: 0x13B7B58
-    // Implemented from: HMUI.TableCell
-    // Base method: System.Void TableCell::.ctor()
-    // Base method: System.Void SelectableCell::.ctor()
-    // Base method: System.Void Interactable::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13B3004
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardTableCell::.ctor");

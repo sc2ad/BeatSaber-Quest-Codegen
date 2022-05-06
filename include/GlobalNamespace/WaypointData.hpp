@@ -38,15 +38,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class WaypointData : public ::GlobalNamespace::BeatmapObjectData {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private OffsetDirection <offsetDirection>k__BackingField
     // Size: 0x4
     // Offset: 0x20
@@ -67,46 +59,46 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::NoteLineLayer) == 0x4);
     public:
     // Get instance field reference: private OffsetDirection <offsetDirection>k__BackingField
-    ::GlobalNamespace::OffsetDirection& dyn_$offsetDirection$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OffsetDirection& dyn_$offsetDirection$k__BackingField();
     // Get instance field reference: private System.Int32 <lineIndex>k__BackingField
-    int& dyn_$lineIndex$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$lineIndex$k__BackingField();
     // Get instance field reference: private NoteLineLayer <lineLayer>k__BackingField
-    ::GlobalNamespace::NoteLineLayer& dyn_$lineLayer$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteLineLayer& dyn_$lineLayer$k__BackingField();
     // public OffsetDirection get_offsetDirection()
-    // Offset: 0x281E37C
+    // Offset: 0x287093C
     ::GlobalNamespace::OffsetDirection get_offsetDirection();
     // private System.Void set_offsetDirection(OffsetDirection value)
-    // Offset: 0x281E384
+    // Offset: 0x2870944
     void set_offsetDirection(::GlobalNamespace::OffsetDirection value);
     // public System.Int32 get_lineIndex()
-    // Offset: 0x281E38C
+    // Offset: 0x287094C
     int get_lineIndex();
     // private System.Void set_lineIndex(System.Int32 value)
-    // Offset: 0x281E394
+    // Offset: 0x2870954
     void set_lineIndex(int value);
     // public NoteLineLayer get_lineLayer()
-    // Offset: 0x281E39C
+    // Offset: 0x287095C
     ::GlobalNamespace::NoteLineLayer get_lineLayer();
     // protected System.Void set_lineLayer(NoteLineLayer value)
-    // Offset: 0x281E3A4
+    // Offset: 0x2870964
     void set_lineLayer(::GlobalNamespace::NoteLineLayer value);
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, NoteLineLayer lineLayer, OffsetDirection offsetDirection)
-    // Offset: 0x281E43C
+    // Offset: 0x28709FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WaypointData* New_ctor(float time, int lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, ::GlobalNamespace::OffsetDirection offsetDirection) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::WaypointData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WaypointData*, creationType>(time, lineIndex, lineLayer, offsetDirection)));
     }
     // private System.Void MirrorTransformOffsetDirection()
-    // Offset: 0x281E4AC
+    // Offset: 0x2870A6C
     void MirrorTransformOffsetDirection();
     // public override BeatmapDataItem GetCopy()
-    // Offset: 0x281E3AC
+    // Offset: 0x287096C
     // Implemented from: BeatmapDataItem
     // Base method: BeatmapDataItem BeatmapDataItem::GetCopy()
     ::GlobalNamespace::BeatmapDataItem* GetCopy();
     // public override System.Void Mirror(System.Int32 lineCount)
-    // Offset: 0x281E498
+    // Offset: 0x2870A58
     // Implemented from: BeatmapObjectData
     // Base method: System.Void BeatmapObjectData::Mirror(System.Int32 lineCount)
     void Mirror(int lineCount);

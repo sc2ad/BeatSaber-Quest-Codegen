@@ -36,49 +36,51 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class Hierarchy : public ::Il2CppObject {
     public:
-    // static public System.Boolean HierarchyIsValid(UnityEngine.Transform[] bones)
-    // Offset: 0x1F7E3F4
-    static bool HierarchyIsValid(::ArrayW<::UnityEngine::Transform*> bones);
-    // static public UnityEngine.Object ContainsDuplicate(UnityEngine.Object[] objects)
-    // Offset: 0x1F7E5F4
-    static ::UnityEngine::Object* ContainsDuplicate(::ArrayW<::UnityEngine::Object*> objects);
-    // static public System.Boolean IsAncestor(UnityEngine.Transform transform, UnityEngine.Transform ancestor)
-    // Offset: 0x1F7E48C
-    static bool IsAncestor(::UnityEngine::Transform* transform, ::UnityEngine::Transform* ancestor);
-    // static public System.Boolean ContainsChild(UnityEngine.Transform transform, UnityEngine.Transform child)
-    // Offset: 0x1F7E718
-    static bool ContainsChild(::UnityEngine::Transform* transform, ::UnityEngine::Transform* child);
-    // static public System.Void AddAncestors(UnityEngine.Transform transform, UnityEngine.Transform blocker, ref UnityEngine.Transform[] array)
-    // Offset: 0x1F7E83C
-    static void AddAncestors(::UnityEngine::Transform* transform, ::UnityEngine::Transform* blocker, ByRef<::ArrayW<::UnityEngine::Transform*>> array);
-    // static public UnityEngine.Transform GetAncestor(UnityEngine.Transform transform, System.Int32 minChildCount)
-    // Offset: 0x1F7EAE4
-    static ::UnityEngine::Transform* GetAncestor(::UnityEngine::Transform* transform, int minChildCount);
-    // static public UnityEngine.Transform GetFirstCommonAncestor(UnityEngine.Transform t1, UnityEngine.Transform t2)
-    // Offset: 0x1F7EC00
-    static ::UnityEngine::Transform* GetFirstCommonAncestor(::UnityEngine::Transform* t1, ::UnityEngine::Transform* t2);
-    // static public UnityEngine.Transform GetFirstCommonAncestor(UnityEngine.Transform[] transforms)
-    // Offset: 0x1F7ED88
-    static ::UnityEngine::Transform* GetFirstCommonAncestor(::ArrayW<::UnityEngine::Transform*> transforms);
-    // static public UnityEngine.Transform GetFirstCommonAncestorRecursive(UnityEngine.Transform transform, UnityEngine.Transform[] transforms)
-    // Offset: 0x1F7F11C
-    static ::UnityEngine::Transform* GetFirstCommonAncestorRecursive(::UnityEngine::Transform* transform, ::ArrayW<::UnityEngine::Transform*> transforms);
-    // static public System.Boolean IsCommonAncestor(UnityEngine.Transform transform, UnityEngine.Transform[] transforms)
-    // Offset: 0x1F7EF08
-    static bool IsCommonAncestor(::UnityEngine::Transform* transform, ::ArrayW<::UnityEngine::Transform*> transforms);
     // public System.Void .ctor()
-    // Offset: 0x1F7F2BC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FCBB30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hierarchy* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::Hierarchy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hierarchy*, creationType>()));
     }
+    // static public System.Boolean HierarchyIsValid(UnityEngine.Transform[] bones)
+    // Offset: 0x1FCAC68
+    static bool HierarchyIsValid(::ArrayW<::UnityEngine::Transform*> bones);
+    // static public UnityEngine.Object ContainsDuplicate(UnityEngine.Object[] objects)
+    // Offset: 0x1FCAE68
+    static ::UnityEngine::Object* ContainsDuplicate(::ArrayW<::UnityEngine::Object*> objects);
+    // static public System.Boolean IsAncestor(UnityEngine.Transform transform, UnityEngine.Transform ancestor)
+    // Offset: 0x1FCAD00
+    static bool IsAncestor(::UnityEngine::Transform* transform, ::UnityEngine::Transform* ancestor);
+    // static public System.Boolean ContainsChild(UnityEngine.Transform transform, UnityEngine.Transform child)
+    // Offset: 0x1FCAF8C
+    static bool ContainsChild(::UnityEngine::Transform* transform, ::UnityEngine::Transform* child);
+    // static public System.Void AddAncestors(UnityEngine.Transform transform, UnityEngine.Transform blocker, ref UnityEngine.Transform[] array)
+    // Offset: 0x1FCB0B0
+    static void AddAncestors(::UnityEngine::Transform* transform, ::UnityEngine::Transform* blocker, ByRef<::ArrayW<::UnityEngine::Transform*>> array);
+    // static public UnityEngine.Transform GetAncestor(UnityEngine.Transform transform, System.Int32 minChildCount)
+    // Offset: 0x1FCB358
+    static ::UnityEngine::Transform* GetAncestor(::UnityEngine::Transform* transform, int minChildCount);
+    // static public UnityEngine.Transform GetFirstCommonAncestor(UnityEngine.Transform t1, UnityEngine.Transform t2)
+    // Offset: 0x1FCB474
+    static ::UnityEngine::Transform* GetFirstCommonAncestor(::UnityEngine::Transform* t1, ::UnityEngine::Transform* t2);
+    // static public UnityEngine.Transform GetFirstCommonAncestor(UnityEngine.Transform[] transforms)
+    // Offset: 0x1FCB5FC
+    static ::UnityEngine::Transform* GetFirstCommonAncestor(::ArrayW<::UnityEngine::Transform*> transforms);
+    // static public UnityEngine.Transform GetFirstCommonAncestorRecursive(UnityEngine.Transform transform, UnityEngine.Transform[] transforms)
+    // Offset: 0x1FCB990
+    static ::UnityEngine::Transform* GetFirstCommonAncestorRecursive(::UnityEngine::Transform* transform, ::ArrayW<::UnityEngine::Transform*> transforms);
+    // static public System.Boolean IsCommonAncestor(UnityEngine.Transform transform, UnityEngine.Transform[] transforms)
+    // Offset: 0x1FCB77C
+    static bool IsCommonAncestor(::UnityEngine::Transform* transform, ::ArrayW<::UnityEngine::Transform*> transforms);
   }; // RootMotion.Hierarchy
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::Hierarchy::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::Hierarchy::HierarchyIsValid
 // Il2CppName: HierarchyIsValid
 template<>
@@ -177,7 +179,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
     return ::il2cpp_utils::FindMethod(classof(RootMotion::Hierarchy*), "IsCommonAncestor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transform, transforms});
   }
 };
-// Writing MetadataGetter for method: RootMotion::Hierarchy::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

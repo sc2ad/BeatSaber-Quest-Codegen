@@ -62,15 +62,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MirroredBeatmapObjectManager : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x10
@@ -145,64 +137,62 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SliderController*, ::GlobalNamespace::MirroredSliderController*>*) == 0x8);
     public:
     // Get instance field reference: private BeatmapObjectManager _beatmapObjectManager
-    ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // Get instance field reference: private MemoryPoolContainer`1<MirroredGameNoteController> _mirroredBasicGameNotePoolContainer
-    ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>*& dyn__mirroredBasicGameNotePoolContainer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>*& dyn__mirroredBasicGameNotePoolContainer();
     // Get instance field reference: private MemoryPoolContainer`1<MirroredGameNoteController> _mirroredBurstSliderHeadGameNotePoolContainer
-    ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>*& dyn__mirroredBurstSliderHeadGameNotePoolContainer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>*& dyn__mirroredBurstSliderHeadGameNotePoolContainer();
     // Get instance field reference: private MemoryPoolContainer`1<MirroredGameNoteController> _mirroredBurstSliderGameNotePoolContainer
-    ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>*& dyn__mirroredBurstSliderGameNotePoolContainer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>*& dyn__mirroredBurstSliderGameNotePoolContainer();
     // Get instance field reference: private MemoryPoolContainer`1<MirroredGameNoteController> _mirroredBurstSliderFillPoolContainer
-    ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>*& dyn__mirroredBurstSliderFillPoolContainer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>*& dyn__mirroredBurstSliderFillPoolContainer();
     // Get instance field reference: private MemoryPoolContainer`1<MirroredBombNoteController> _mirroredBombNotePoolContainer
-    ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredBombNoteController*>*& dyn__mirroredBombNotePoolContainer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredBombNoteController*>*& dyn__mirroredBombNotePoolContainer();
     // Get instance field reference: private MemoryPoolContainer`1<MirroredObstacleController> _mirroredObstaclePoolContainer
-    ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredObstacleController*>*& dyn__mirroredObstaclePoolContainer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredObstacleController*>*& dyn__mirroredObstaclePoolContainer();
     // Get instance field reference: private MemoryPoolContainer`1<MirroredSliderController> _mirroredSlidersPoolContainer
-    ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredSliderController*>*& dyn__mirroredSlidersPoolContainer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredSliderController*>*& dyn__mirroredSlidersPoolContainer();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<IGameNoteMirrorable,System.ValueTuple`2<MirroredGameNoteController,MemoryPoolContainer`1<MirroredGameNoteController>>> _gameNoteControllersToMirroredGameNoteControllers
-    ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::IGameNoteMirrorable*, ::System::ValueTuple_2<::GlobalNamespace::MirroredGameNoteController*, ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>*>>*& dyn__gameNoteControllersToMirroredGameNoteControllers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::IGameNoteMirrorable*, ::System::ValueTuple_2<::GlobalNamespace::MirroredGameNoteController*, ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>*>>*& dyn__gameNoteControllersToMirroredGameNoteControllers();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<INoteMirrorable,MirroredBombNoteController> _bombNoteControllersToMirroredBombNoteControllers
-    ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::INoteMirrorable*, ::GlobalNamespace::MirroredBombNoteController*>*& dyn__bombNoteControllersToMirroredBombNoteControllers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::INoteMirrorable*, ::GlobalNamespace::MirroredBombNoteController*>*& dyn__bombNoteControllersToMirroredBombNoteControllers();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<ObstacleController,MirroredObstacleController> _obstacleControllersToMirroredObstacleControllers
-    ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ObstacleController*, ::GlobalNamespace::MirroredObstacleController*>*& dyn__obstacleControllersToMirroredObstacleControllers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ObstacleController*, ::GlobalNamespace::MirroredObstacleController*>*& dyn__obstacleControllersToMirroredObstacleControllers();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<SliderController,MirroredSliderController> _sliderControllersToMirroredSliderControllers
-    ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SliderController*, ::GlobalNamespace::MirroredSliderController*>*& dyn__sliderControllersToMirroredSliderControllers();
-    // private System.Void Init(BeatmapObjectManager beatmapObjectManager, MirroredGameNoteController/Pool mirroredBasicGameNotePool, MirroredGameNoteController/Pool burstSliderHeadGameNotePool, MirroredGameNoteController/Pool burstSliderGameNotePool, MirroredGameNoteController/Pool burstSliderFillPool, MirroredBombNoteController/Pool mirroredBombNotePool, MirroredObstacleController/Pool mirroredObstaclePool, MirroredSliderController/Pool mirroredSlidersPool)
-    // Offset: 0x1301858
-    void Init(::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager, ::GlobalNamespace::MirroredGameNoteController::Pool* mirroredBasicGameNotePool, ::GlobalNamespace::MirroredGameNoteController::Pool* burstSliderHeadGameNotePool, ::GlobalNamespace::MirroredGameNoteController::Pool* burstSliderGameNotePool, ::GlobalNamespace::MirroredGameNoteController::Pool* burstSliderFillPool, ::GlobalNamespace::MirroredBombNoteController::Pool* mirroredBombNotePool, ::GlobalNamespace::MirroredObstacleController::Pool* mirroredObstaclePool, ::GlobalNamespace::MirroredSliderController::Pool* mirroredSlidersPool);
-    // private System.Void HandleNoteWasSpawned(NoteController noteController)
-    // Offset: 0x1301E84
-    void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
-    // private System.Void HandleNoteWasDespawned(NoteController noteController)
-    // Offset: 0x1302080
-    void HandleNoteWasDespawned(::GlobalNamespace::NoteController* noteController);
-    // private System.Void HandleObstacleWasSpawned(ObstacleController obstacleController)
-    // Offset: 0x13021BC
-    void HandleObstacleWasSpawned(::GlobalNamespace::ObstacleController* obstacleController);
-    // private System.Void HandleObstacleWasDespawned(ObstacleController obstacleController)
-    // Offset: 0x1302348
-    void HandleObstacleWasDespawned(::GlobalNamespace::ObstacleController* obstacleController);
-    // private System.Void HandleSliderWasSpawned(SliderController sliderController)
-    // Offset: 0x13023F8
-    void HandleSliderWasSpawned(::GlobalNamespace::SliderController* sliderController);
-    // private System.Void HandleSliderWasDespawned(SliderController sliderController)
-    // Offset: 0x13026A8
-    void HandleSliderWasDespawned(::GlobalNamespace::SliderController* sliderController);
-    // private System.Void HandleDidHideAllBeatmapObjects(System.Boolean hide)
-    // Offset: 0x1302758
-    void HandleDidHideAllBeatmapObjects(bool hide);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SliderController*, ::GlobalNamespace::MirroredSliderController*>*& dyn__sliderControllersToMirroredSliderControllers();
     // public System.Void .ctor()
-    // Offset: 0x1302E64
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x12FF33C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MirroredBeatmapObjectManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MirroredBeatmapObjectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MirroredBeatmapObjectManager*, creationType>()));
     }
+    // private System.Void Init(BeatmapObjectManager beatmapObjectManager, MirroredGameNoteController/Pool mirroredBasicGameNotePool, MirroredGameNoteController/Pool burstSliderHeadGameNotePool, MirroredGameNoteController/Pool burstSliderGameNotePool, MirroredGameNoteController/Pool burstSliderFillPool, MirroredBombNoteController/Pool mirroredBombNotePool, MirroredObstacleController/Pool mirroredObstaclePool, MirroredSliderController/Pool mirroredSlidersPool)
+    // Offset: 0x12FDD30
+    void Init(::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager, ::GlobalNamespace::MirroredGameNoteController::Pool* mirroredBasicGameNotePool, ::GlobalNamespace::MirroredGameNoteController::Pool* burstSliderHeadGameNotePool, ::GlobalNamespace::MirroredGameNoteController::Pool* burstSliderGameNotePool, ::GlobalNamespace::MirroredGameNoteController::Pool* burstSliderFillPool, ::GlobalNamespace::MirroredBombNoteController::Pool* mirroredBombNotePool, ::GlobalNamespace::MirroredObstacleController::Pool* mirroredObstaclePool, ::GlobalNamespace::MirroredSliderController::Pool* mirroredSlidersPool);
+    // private System.Void HandleNoteWasSpawned(NoteController noteController)
+    // Offset: 0x12FE35C
+    void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
+    // private System.Void HandleNoteWasDespawned(NoteController noteController)
+    // Offset: 0x12FE558
+    void HandleNoteWasDespawned(::GlobalNamespace::NoteController* noteController);
+    // private System.Void HandleObstacleWasSpawned(ObstacleController obstacleController)
+    // Offset: 0x12FE694
+    void HandleObstacleWasSpawned(::GlobalNamespace::ObstacleController* obstacleController);
+    // private System.Void HandleObstacleWasDespawned(ObstacleController obstacleController)
+    // Offset: 0x12FE820
+    void HandleObstacleWasDespawned(::GlobalNamespace::ObstacleController* obstacleController);
+    // private System.Void HandleSliderWasSpawned(SliderController sliderController)
+    // Offset: 0x12FE8D0
+    void HandleSliderWasSpawned(::GlobalNamespace::SliderController* sliderController);
+    // private System.Void HandleSliderWasDespawned(SliderController sliderController)
+    // Offset: 0x12FEB80
+    void HandleSliderWasDespawned(::GlobalNamespace::SliderController* sliderController);
+    // private System.Void HandleDidHideAllBeatmapObjects(System.Boolean hide)
+    // Offset: 0x12FEC30
+    void HandleDidHideAllBeatmapObjects(bool hide);
     // protected override System.Void Finalize()
-    // Offset: 0x1301BD0
+    // Offset: 0x12FE0A8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -212,6 +202,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(MirroredBeatmapObjectManager) == 0x70);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MirroredBeatmapObjectManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MirroredBeatmapObjectManager::Init
 // Il2CppName: Init
 template<>
@@ -291,10 +285,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredBeatmapObjectManager*), "HandleDidHideAllBeatmapObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hide});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MirroredBeatmapObjectManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MirroredBeatmapObjectManager::Finalize
 // Il2CppName: Finalize
 template<>

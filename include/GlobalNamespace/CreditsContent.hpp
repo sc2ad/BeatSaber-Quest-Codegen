@@ -41,15 +41,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CreditsContent : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.GameObject _normalTextPrefab
     // Size: 0x8
     // Offset: 0x18
@@ -106,14 +98,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: titleHeight and: contentRoot
     char __padding8[0x4] = {};
-    // [SpaceAttribute] Offset: 0x1258B74
+    // [SpaceAttribute] Offset: 0x10DD758
     // private UnityEngine.Transform _contentRoot
     // Size: 0x8
     // Offset: 0x58
     ::UnityEngine::Transform* contentRoot;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1258BAC
+    // [SpaceAttribute] Offset: 0x10DD790
     // private UnityEngine.RectTransform _rootRectTransform
     // Size: 0x8
     // Offset: 0x60
@@ -130,73 +122,67 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.GameObject _normalTextPrefab
-    ::UnityEngine::GameObject*& dyn__normalTextPrefab();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__normalTextPrefab();
     // Get instance field reference: private UnityEngine.GameObject _normalLocalizedTextPrefab
-    ::UnityEngine::GameObject*& dyn__normalLocalizedTextPrefab();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__normalLocalizedTextPrefab();
     // Get instance field reference: private UnityEngine.GameObject _titleTextPrefab
-    ::UnityEngine::GameObject*& dyn__titleTextPrefab();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__titleTextPrefab();
     // Get instance field reference: private UnityEngine.GameObject _titleLocalizedTextPrefab
-    ::UnityEngine::GameObject*& dyn__titleLocalizedTextPrefab();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__titleLocalizedTextPrefab();
     // Get instance field reference: private UnityEngine.GameObject _headerTextPrefab
-    ::UnityEngine::GameObject*& dyn__headerTextPrefab();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__headerTextPrefab();
     // Get instance field reference: private UnityEngine.GameObject _headerLocalizedTextPrefab
-    ::UnityEngine::GameObject*& dyn__headerLocalizedTextPrefab();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__headerLocalizedTextPrefab();
     // Get instance field reference: private System.Int32 _columnCount
-    int& dyn__columnCount();
+    [[deprecated("Use field access instead!")]] int& dyn__columnCount();
     // Get instance field reference: private System.Single _spaceHeight
-    float& dyn__spaceHeight();
+    [[deprecated("Use field access instead!")]] float& dyn__spaceHeight();
     // Get instance field reference: private System.Single _titleHeight
-    float& dyn__titleHeight();
+    [[deprecated("Use field access instead!")]] float& dyn__titleHeight();
     // Get instance field reference: private UnityEngine.Transform _contentRoot
-    ::UnityEngine::Transform*& dyn__contentRoot();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__contentRoot();
     // Get instance field reference: private UnityEngine.RectTransform _rootRectTransform
-    ::UnityEngine::RectTransform*& dyn__rootRectTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__rootRectTransform();
     // Get instance field reference: private UnityEngine.TextAsset _creditsContentTextAsset
-    ::UnityEngine::TextAsset*& dyn__creditsContentTextAsset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TextAsset*& dyn__creditsContentTextAsset();
     // public UnityEngine.GameObject get_normalTextPrefab()
-    // Offset: 0x1407594
+    // Offset: 0x1427340
     ::UnityEngine::GameObject* get_normalTextPrefab();
     // public UnityEngine.GameObject get_normalLocalizedTextPrefab()
-    // Offset: 0x140759C
+    // Offset: 0x1427348
     ::UnityEngine::GameObject* get_normalLocalizedTextPrefab();
     // public UnityEngine.GameObject get_titleTextPrefab()
-    // Offset: 0x14075A4
+    // Offset: 0x1427350
     ::UnityEngine::GameObject* get_titleTextPrefab();
     // public UnityEngine.GameObject get_titleLocalizedTextPrefab()
-    // Offset: 0x14075AC
+    // Offset: 0x1427358
     ::UnityEngine::GameObject* get_titleLocalizedTextPrefab();
     // public UnityEngine.GameObject get_headerTextPrefab()
-    // Offset: 0x14075B4
+    // Offset: 0x1427360
     ::UnityEngine::GameObject* get_headerTextPrefab();
     // public UnityEngine.GameObject get_headerLocalizedTextPrefab()
-    // Offset: 0x14075BC
+    // Offset: 0x1427368
     ::UnityEngine::GameObject* get_headerLocalizedTextPrefab();
     // public System.Int32 get_columnCount()
-    // Offset: 0x14075C4
+    // Offset: 0x1427370
     int get_columnCount();
     // public System.Single get_spaceHeight()
-    // Offset: 0x14075CC
+    // Offset: 0x1427378
     float get_spaceHeight();
     // public System.Single get_titleHeight()
-    // Offset: 0x14075D4
+    // Offset: 0x1427380
     float get_titleHeight();
     // public UnityEngine.Transform get_contentRoot()
-    // Offset: 0x14075DC
+    // Offset: 0x1427388
     ::UnityEngine::Transform* get_contentRoot();
     // public UnityEngine.RectTransform get_rootRectTransform()
-    // Offset: 0x14075E4
+    // Offset: 0x1427390
     ::UnityEngine::RectTransform* get_rootRectTransform();
     // public UnityEngine.TextAsset get_creditsContentTextAsset()
-    // Offset: 0x14075EC
+    // Offset: 0x1427398
     ::UnityEngine::TextAsset* get_creditsContentTextAsset();
     // public System.Void .ctor()
-    // Offset: 0x14075F4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14273A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CreditsContent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CreditsContent::.ctor");

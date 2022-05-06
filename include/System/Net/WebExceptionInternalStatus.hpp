@@ -66,7 +66,7 @@ namespace System::Net {
     // Set static field: static public System.Net.WebExceptionInternalStatus Isolated
     static void _set_Isolated(::System::Net::WebExceptionInternalStatus value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Net.WebExceptionInternalStatus
   #pragma pack(pop)
   static check_size<sizeof(WebExceptionInternalStatus), 0 + sizeof(int)> __System_Net_WebExceptionInternalStatusSizeCheck;

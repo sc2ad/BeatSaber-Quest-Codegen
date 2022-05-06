@@ -28,15 +28,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetSyncVoipAttenuationValue : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Single Decibels
     // Size: 0x4
     // Offset: 0x10
@@ -51,11 +43,11 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public readonly System.Single Decibels
-    float& dyn_Decibels();
+    [[deprecated("Use field access instead!")]] float& dyn_Decibels();
     // Get instance field reference: public readonly System.Single Distance
-    float& dyn_Distance();
+    [[deprecated("Use field access instead!")]] float& dyn_Distance();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19B4C8C
+    // Offset: 0x19EE274
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSyncVoipAttenuationValue* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::NetSyncVoipAttenuationValue::.ctor");

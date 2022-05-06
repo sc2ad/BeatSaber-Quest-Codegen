@@ -73,15 +73,7 @@ namespace GlobalNamespace {
     class PlayerAgreementsData;
     // Nested type: ::GlobalNamespace::PlayerSaveData::LocalPlayer
     class LocalPlayer;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Collections.Generic.List`1<PlayerSaveData/LocalPlayer> localPlayers
     // Size: 0x8
     // Offset: 0x18
@@ -104,14 +96,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.String kCurrentVersion
     static void _set_kCurrentVersion(::StringW value);
     // Get instance field reference: public System.Collections.Generic.List`1<PlayerSaveData/LocalPlayer> localPlayers
-    ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveData::LocalPlayer*>*& dyn_localPlayers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveData::LocalPlayer*>*& dyn_localPlayers();
     // Get instance field reference: public System.Collections.Generic.List`1<PlayerSaveData/GuestPlayer> guestPlayers
-    ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveData::GuestPlayer*>*& dyn_guestPlayers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveData::GuestPlayer*>*& dyn_guestPlayers();
     // public System.Void .ctor()
-    // Offset: 0x1371430
+    // Offset: 0x13D4624
     // Implemented from: VersionSaveData
     // Base method: System.Void VersionSaveData::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::.ctor");

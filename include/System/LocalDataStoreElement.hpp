@@ -26,15 +26,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalDataStoreElement : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Object m_value
     // Size: 0x8
     // Offset: 0x10
@@ -49,20 +41,20 @@ namespace System {
     static_assert(sizeof(int64_t) == 0x8);
     public:
     // Get instance field reference: private System.Object m_value
-    ::Il2CppObject*& dyn_m_value();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_m_value();
     // Get instance field reference: private System.Int64 m_cookie
-    int64_t& dyn_m_cookie();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_m_cookie();
     // public System.Object get_Value()
-    // Offset: 0x1B950A0
+    // Offset: 0x1BCF688
     ::Il2CppObject* get_Value();
     // public System.Void set_Value(System.Object value)
-    // Offset: 0x1B950A8
+    // Offset: 0x1BCF690
     void set_Value(::Il2CppObject* value);
     // public System.Int64 get_Cookie()
-    // Offset: 0x1B950B0
+    // Offset: 0x1BCF698
     int64_t get_Cookie();
     // public System.Void .ctor(System.Int64 cookie)
-    // Offset: 0x1B95074
+    // Offset: 0x1BCF65C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalDataStoreElement* New_ctor(int64_t cookie) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::LocalDataStoreElement::.ctor");

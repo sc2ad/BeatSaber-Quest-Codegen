@@ -36,12 +36,12 @@ namespace System::Xml::Schema {
   class Datatype_ENUMERATION : public ::System::Xml::Schema::Datatype_NMTOKEN {
     public:
     // public override System.Xml.XmlTokenizedType get_TokenizedType()
-    // Offset: 0x1C18700
+    // Offset: 0x1C52CE8
     // Implemented from: System.Xml.Schema.Datatype_NMTOKEN
     // Base method: System.Xml.XmlTokenizedType Datatype_NMTOKEN::get_TokenizedType()
     ::System::Xml::XmlTokenizedType get_TokenizedType();
     // public System.Void .ctor()
-    // Offset: 0x1C18708
+    // Offset: 0x1C52CF0
     // Implemented from: System.Xml.Schema.Datatype_NMTOKEN
     // Base method: System.Void Datatype_NMTOKEN::.ctor()
     // Base method: System.Void Datatype_token::.ctor()
@@ -50,7 +50,6 @@ namespace System::Xml::Schema {
     // Base method: System.Void Datatype_anySimpleType::.ctor()
     // Base method: System.Void DatatypeImplementation::.ctor()
     // Base method: System.Void XmlSchemaDatatype::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Datatype_ENUMERATION* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::Datatype_ENUMERATION::.ctor");

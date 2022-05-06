@@ -44,7 +44,7 @@ namespace OVR::OpenVR {
       return mDeviceToAbsoluteTracking;
     }
     // Get instance field reference: public OVR.OpenVR.HmdMatrix34_t mDeviceToAbsoluteTracking
-    ::OVR::OpenVR::HmdMatrix34_t& dyn_mDeviceToAbsoluteTracking();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::HmdMatrix34_t& dyn_mDeviceToAbsoluteTracking();
   }; // OVR.OpenVR.VRTextureWithPose_t
   #pragma pack(pop)
   static check_size<sizeof(VRTextureWithPose_t), 0 + sizeof(::OVR::OpenVR::HmdMatrix34_t)> __OVR_OpenVR_VRTextureWithPose_tSizeCheck;

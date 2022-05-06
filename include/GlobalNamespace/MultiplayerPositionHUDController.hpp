@@ -51,15 +51,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerPositionHUDController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _playerCountText
     // Size: 0x8
     // Offset: 0x18
@@ -84,21 +76,21 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* firstPlayerAnimationGo;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252604
+    // [InjectAttribute] Offset: 0x10D7190
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252614
+    // [InjectAttribute] Offset: 0x10D71A0
     // private readonly MultiplayerPlayersManager _playersManager
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::MultiplayerPlayersManager* playersManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252624
+    // [InjectAttribute] Offset: 0x10D71B0
     // private readonly CoreGameHUDController/InitData _initData
     // Size: 0x8
     // Offset: 0x48
@@ -115,43 +107,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _playerCountText
-    ::TMPro::TextMeshProUGUI*& dyn__playerCountText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__playerCountText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _positionText
-    ::TMPro::TextMeshProUGUI*& dyn__positionText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__positionText();
     // Get instance field reference: private UnityEngine.CanvasGroup _canvasGroup
-    ::UnityEngine::CanvasGroup*& dyn__canvasGroup();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::CanvasGroup*& dyn__canvasGroup();
     // Get instance field reference: private UnityEngine.GameObject _firstPlayerAnimationGo
-    ::UnityEngine::GameObject*& dyn__firstPlayerAnimationGo();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__firstPlayerAnimationGo();
     // Get instance field reference: private readonly MultiplayerScoreProvider _scoreProvider
-    ::GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreProvider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreProvider();
     // Get instance field reference: private readonly MultiplayerPlayersManager _playersManager
-    ::GlobalNamespace::MultiplayerPlayersManager*& dyn__playersManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerPlayersManager*& dyn__playersManager();
     // Get instance field reference: private readonly CoreGameHUDController/InitData _initData
-    ::GlobalNamespace::CoreGameHUDController::InitData*& dyn__initData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::CoreGameHUDController::InitData*& dyn__initData();
     // Get instance field reference: private System.Int32 _prevPosition
-    int& dyn__prevPosition();
+    [[deprecated("Use field access instead!")]] int& dyn__prevPosition();
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0x13A58DC
+    // Offset: 0x13A1D88
     void set_alpha(float value);
-    // protected System.Void Start()
-    // Offset: 0x13A58F8
-    void Start();
-    // protected System.Void Update()
-    // Offset: 0x13A5A44
-    void Update();
     // public System.Void .ctor()
-    // Offset: 0x13A5BF8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13A20A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerPositionHUDController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerPositionHUDController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerPositionHUDController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x13A1DA4
+    void Start();
+    // protected System.Void Update()
+    // Offset: 0x13A1EF0
+    void Update();
   }; // MultiplayerPositionHUDController
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerPositionHUDController), 80 + sizeof(int)> __GlobalNamespace_MultiplayerPositionHUDControllerSizeCheck;
@@ -167,6 +153,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerPositionHUDController*), "set_alpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerPositionHUDController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerPositionHUDController::Start
 // Il2CppName: Start
 template<>
@@ -183,7 +173,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerPositionHUDController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerPositionHUDController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

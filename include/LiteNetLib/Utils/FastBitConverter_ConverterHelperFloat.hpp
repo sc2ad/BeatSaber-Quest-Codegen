@@ -41,9 +41,9 @@ namespace LiteNetLib::Utils {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 Aint
-    int& dyn_Aint();
+    [[deprecated("Use field access instead!")]] int& dyn_Aint();
     // Get instance field reference: public System.Single Afloat
-    float& dyn_Afloat();
+    [[deprecated("Use field access instead!")]] float& dyn_Afloat();
   }; // LiteNetLib.Utils.FastBitConverter/LiteNetLib.Utils.ConverterHelperFloat
   // WARNING Not writing size check since size may be invalid!
 }

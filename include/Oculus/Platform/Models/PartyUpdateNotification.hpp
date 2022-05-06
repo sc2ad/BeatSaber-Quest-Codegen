@@ -31,15 +31,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class PartyUpdateNotification : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly Oculus.Platform.PartyUpdateAction Action
     // Size: 0x4
     // Offset: 0x10
@@ -86,21 +78,21 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly Oculus.Platform.PartyUpdateAction Action
-    ::Oculus::Platform::PartyUpdateAction& dyn_Action();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::PartyUpdateAction& dyn_Action();
     // Get instance field reference: public readonly System.UInt64 PartyId
-    uint64_t& dyn_PartyId();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_PartyId();
     // Get instance field reference: public readonly System.UInt64 SenderId
-    uint64_t& dyn_SenderId();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_SenderId();
     // Get instance field reference: public readonly System.String UpdateTimestamp
-    ::StringW& dyn_UpdateTimestamp();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_UpdateTimestamp();
     // Get instance field reference: public readonly System.String UserAlias
-    ::StringW& dyn_UserAlias();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_UserAlias();
     // Get instance field reference: public readonly System.UInt64 UserId
-    uint64_t& dyn_UserId();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_UserId();
     // Get instance field reference: public readonly System.String UserName
-    ::StringW& dyn_UserName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_UserName();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19B1550
+    // Offset: 0x19EAB38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PartyUpdateNotification* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::PartyUpdateNotification::.ctor");

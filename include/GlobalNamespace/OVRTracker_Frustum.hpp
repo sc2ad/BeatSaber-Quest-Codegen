@@ -50,11 +50,11 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single nearZ
-    float& dyn_nearZ();
+    [[deprecated("Use field access instead!")]] float& dyn_nearZ();
     // Get instance field reference: public System.Single farZ
-    float& dyn_farZ();
+    [[deprecated("Use field access instead!")]] float& dyn_farZ();
     // Get instance field reference: public UnityEngine.Vector2 fov
-    ::UnityEngine::Vector2& dyn_fov();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_fov();
   }; // OVRTracker/Frustum
   #pragma pack(pop)
   static check_size<sizeof(OVRTracker::Frustum), 8 + sizeof(::UnityEngine::Vector2)> __GlobalNamespace_OVRTracker_FrustumSizeCheck;

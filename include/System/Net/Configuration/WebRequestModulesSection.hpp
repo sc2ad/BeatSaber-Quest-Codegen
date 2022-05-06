@@ -35,24 +35,26 @@ namespace System::Net::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebRequestModulesSection : public ::System::Configuration::ConfigurationSection {
     public:
-    // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x1A36DBC
-    // Implemented from: System.Configuration.ConfigurationElement
-    // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
-    ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
     // public System.Void .ctor()
-    // Offset: 0x1A36D7C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1A70364
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebRequestModulesSection* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Configuration::WebRequestModulesSection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebRequestModulesSection*, creationType>()));
     }
+    // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
+    // Offset: 0x1A703A4
+    // Implemented from: System.Configuration.ConfigurationElement
+    // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
+    ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
   }; // System.Net.Configuration.WebRequestModulesSection
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Net::Configuration::WebRequestModulesSection::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Configuration::WebRequestModulesSection::get_Properties
 // Il2CppName: get_Properties
 template<>
@@ -61,7 +63,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(System::Net::Configuration::WebRequestModulesSection*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Net::Configuration::WebRequestModulesSection::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -68,18 +68,18 @@ namespace System::Threading {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: System.Threading.ExecutionContext/System.Threading.Reader outerEC
-    ::System::Threading::ExecutionContext::Reader& dyn_outerEC();
+    [[deprecated("Use field access instead!")]] ::System::Threading::ExecutionContext::Reader& dyn_outerEC();
     // Get instance field reference: System.Boolean outerECBelongsToScope
-    bool& dyn_outerECBelongsToScope();
+    [[deprecated("Use field access instead!")]] bool& dyn_outerECBelongsToScope();
     // Get instance field reference: System.Object hecsw
-    ::Il2CppObject*& dyn_hecsw();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_hecsw();
     // Get instance field reference: System.Threading.Thread thread
-    ::System::Threading::Thread*& dyn_thread();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Thread*& dyn_thread();
     // System.Boolean UndoNoThrow()
-    // Offset: 0x1DCA16C
+    // Offset: 0x1DCBD58
     bool UndoNoThrow();
     // System.Void Undo()
-    // Offset: 0x1DCA00C
+    // Offset: 0x1DCBBF8
     void Undo();
   }; // System.Threading.ExecutionContextSwitcher
   #pragma pack(pop)

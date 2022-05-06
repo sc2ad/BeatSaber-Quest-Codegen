@@ -37,44 +37,36 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class OffsetModifier::OffsetLimits : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x1278970
+    // [TooltipAttribute] Offset: 0x10FD628
     // public RootMotion.FinalIK.FullBodyBipedEffector effector
     // Size: 0x4
     // Offset: 0x10
     ::RootMotion::FinalIK::FullBodyBipedEffector effector;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
-    // [TooltipAttribute] Offset: 0x12789A8
+    // [TooltipAttribute] Offset: 0x10FD660
     // public System.Single spring
     // Size: 0x4
     // Offset: 0x14
     float spring;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x12789E0
+    // [TooltipAttribute] Offset: 0x10FD698
     // public System.Boolean x
     // Size: 0x1
     // Offset: 0x18
     bool x;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0x1278A18
+    // [TooltipAttribute] Offset: 0x10FD6D0
     // public System.Boolean y
     // Size: 0x1
     // Offset: 0x19
     bool y;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0x1278A50
+    // [TooltipAttribute] Offset: 0x10FD708
     // public System.Boolean z
     // Size: 0x1
     // Offset: 0x1A
@@ -83,42 +75,42 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: z and: minX
     char __padding4[0x1] = {};
-    // [TooltipAttribute] Offset: 0x1278A88
+    // [TooltipAttribute] Offset: 0x10FD740
     // public System.Single minX
     // Size: 0x4
     // Offset: 0x1C
     float minX;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1278AC0
+    // [TooltipAttribute] Offset: 0x10FD778
     // public System.Single maxX
     // Size: 0x4
     // Offset: 0x20
     float maxX;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1278AF8
+    // [TooltipAttribute] Offset: 0x10FD7B0
     // public System.Single minY
     // Size: 0x4
     // Offset: 0x24
     float minY;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1278B30
+    // [TooltipAttribute] Offset: 0x10FD7E8
     // public System.Single maxY
     // Size: 0x4
     // Offset: 0x28
     float maxY;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1278B68
+    // [TooltipAttribute] Offset: 0x10FD820
     // public System.Single minZ
     // Size: 0x4
     // Offset: 0x2C
     float minZ;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1278BA0
+    // [TooltipAttribute] Offset: 0x10FD858
     // public System.Single maxZ
     // Size: 0x4
     // Offset: 0x30
@@ -127,51 +119,53 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector effector
-    ::RootMotion::FinalIK::FullBodyBipedEffector& dyn_effector();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::FullBodyBipedEffector& dyn_effector();
     // Get instance field reference: public System.Single spring
-    float& dyn_spring();
+    [[deprecated("Use field access instead!")]] float& dyn_spring();
     // Get instance field reference: public System.Boolean x
-    bool& dyn_x();
+    [[deprecated("Use field access instead!")]] bool& dyn_x();
     // Get instance field reference: public System.Boolean y
-    bool& dyn_y();
+    [[deprecated("Use field access instead!")]] bool& dyn_y();
     // Get instance field reference: public System.Boolean z
-    bool& dyn_z();
+    [[deprecated("Use field access instead!")]] bool& dyn_z();
     // Get instance field reference: public System.Single minX
-    float& dyn_minX();
+    [[deprecated("Use field access instead!")]] float& dyn_minX();
     // Get instance field reference: public System.Single maxX
-    float& dyn_maxX();
+    [[deprecated("Use field access instead!")]] float& dyn_maxX();
     // Get instance field reference: public System.Single minY
-    float& dyn_minY();
+    [[deprecated("Use field access instead!")]] float& dyn_minY();
     // Get instance field reference: public System.Single maxY
-    float& dyn_maxY();
+    [[deprecated("Use field access instead!")]] float& dyn_maxY();
     // Get instance field reference: public System.Single minZ
-    float& dyn_minZ();
+    [[deprecated("Use field access instead!")]] float& dyn_minZ();
     // Get instance field reference: public System.Single maxZ
-    float& dyn_maxZ();
-    // public System.Void Apply(RootMotion.FinalIK.IKEffector e, UnityEngine.Quaternion rootRotation)
-    // Offset: 0x1F6FD28
-    void Apply(::RootMotion::FinalIK::IKEffector* e, ::UnityEngine::Quaternion rootRotation);
-    // private System.Single SpringAxis(System.Single value, System.Single min, System.Single max)
-    // Offset: 0x1F70240
-    float SpringAxis(float value, float min, float max);
-    // private System.Single Spring(System.Single value, System.Single limit, System.Boolean negative)
-    // Offset: 0x1F70270
-    float Spring(float value, float limit, bool negative);
+    [[deprecated("Use field access instead!")]] float& dyn_maxZ();
     // public System.Void .ctor()
-    // Offset: 0x1F70348
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FBCBBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OffsetModifier::OffsetLimits* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::OffsetModifier::OffsetLimits::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OffsetModifier::OffsetLimits*, creationType>()));
     }
+    // public System.Void Apply(RootMotion.FinalIK.IKEffector e, UnityEngine.Quaternion rootRotation)
+    // Offset: 0x1FBC59C
+    void Apply(::RootMotion::FinalIK::IKEffector* e, ::UnityEngine::Quaternion rootRotation);
+    // private System.Single SpringAxis(System.Single value, System.Single min, System.Single max)
+    // Offset: 0x1FBCAB4
+    float SpringAxis(float value, float min, float max);
+    // private System.Single Spring(System.Single value, System.Single limit, System.Boolean negative)
+    // Offset: 0x1FBCAE4
+    float Spring(float value, float limit, bool negative);
   }; // RootMotion.FinalIK.OffsetModifier/RootMotion.FinalIK.OffsetLimits
   #pragma pack(pop)
   static check_size<sizeof(OffsetModifier::OffsetLimits), 48 + sizeof(float)> __RootMotion_FinalIK_OffsetModifier_OffsetLimitsSizeCheck;
   static_assert(sizeof(OffsetModifier::OffsetLimits) == 0x34);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifier::OffsetLimits::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifier::OffsetLimits::Apply
 // Il2CppName: Apply
 template<>
@@ -204,7 +198,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Root
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::OffsetModifier::OffsetLimits*), "Spring", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, limit, negative});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifier::OffsetLimits::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

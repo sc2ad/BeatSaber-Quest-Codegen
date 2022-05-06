@@ -23,6 +23,13 @@ namespace LiteNetLib::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetSerializer::CustomType : public ::Il2CppObject {
     public:
+    // protected System.Void .ctor()
+    // Offset: 0x2ADE904
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static NetSerializer::CustomType* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetSerializer::CustomType::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<NetSerializer::CustomType*, creationType>()));
+    }
     // public LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCall`1<T> Get()
     // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
@@ -32,23 +39,14 @@ namespace LiteNetLib::Utils {
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::LiteNetLib::Utils::NetSerializer::FastCall_1<T>*, false>(this, ___generic__method);
     }
-    // protected System.Void .ctor()
-    // Offset: 0x2A88BB8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NetSerializer::CustomType* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetSerializer::CustomType::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<NetSerializer::CustomType*, creationType>()));
-    }
   }; // LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.CustomType
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::CustomType::Get
-// Il2CppName: Get
-// Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::CustomType::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::CustomType::Get
+// Il2CppName: Get
+// Cannot write MetadataGetter for generic methods!

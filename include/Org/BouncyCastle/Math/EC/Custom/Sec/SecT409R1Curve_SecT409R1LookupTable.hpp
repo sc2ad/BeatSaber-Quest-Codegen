@@ -33,15 +33,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
   // [TokenAttribute] Offset: FFFFFFFF
   class SecT409R1Curve::SecT409R1LookupTable : public ::Org::BouncyCastle::Math::EC::AbstractECLookupTable {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Math.EC.Custom.Sec.SecT409R1Curve m_outer
     // Size: 0x8
     // Offset: 0x10
@@ -62,33 +54,33 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.Custom.Sec.SecT409R1Curve m_outer
-    ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409R1Curve*& dyn_m_outer();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409R1Curve*& dyn_m_outer();
     // Get instance field reference: private readonly System.UInt64[] m_table
-    ::ArrayW<uint64_t>& dyn_m_table();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint64_t>& dyn_m_table();
     // Get instance field reference: private readonly System.Int32 m_size
-    int& dyn_m_size();
+    [[deprecated("Use field access instead!")]] int& dyn_m_size();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.Custom.Sec.SecT409R1Curve outer, System.UInt64[] table, System.Int32 size)
-    // Offset: 0x243AE98
+    // Offset: 0x248370C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecT409R1Curve::SecT409R1LookupTable* New_ctor(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409R1Curve* outer, ::ArrayW<uint64_t> table, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409R1Curve::SecT409R1LookupTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecT409R1Curve::SecT409R1LookupTable*, creationType>(outer, table, size)));
     }
     // private Org.BouncyCastle.Math.EC.ECPoint CreatePoint(System.UInt64[] x, System.UInt64[] y)
-    // Offset: 0x243B10C
+    // Offset: 0x2483980
     ::Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> y);
     // public override System.Int32 get_Size()
-    // Offset: 0x243AFD8
+    // Offset: 0x248384C
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
     // Base method: System.Int32 AbstractECLookupTable::get_Size()
     int get_Size();
     // public override Org.BouncyCastle.Math.EC.ECPoint Lookup(System.Int32 index)
-    // Offset: 0x243AFE0
+    // Offset: 0x2483854
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECLookupTable::Lookup(System.Int32 index)
     ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int index);
     // public override Org.BouncyCastle.Math.EC.ECPoint LookupVar(System.Int32 index)
-    // Offset: 0x243B1F0
+    // Offset: 0x2483A64
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECLookupTable::LookupVar(System.Int32 index)
     ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int index);

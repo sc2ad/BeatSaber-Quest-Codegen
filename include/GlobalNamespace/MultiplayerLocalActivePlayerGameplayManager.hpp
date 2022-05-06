@@ -53,79 +53,71 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::InitData
     class InitData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x1253F74
+    // [InjectAttribute] Offset: 0x10D8B58
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253F84
+    // [InjectAttribute] Offset: 0x10D8B68
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253F94
+    // [InjectAttribute] Offset: 0x10D8B78
     // private readonly IMultiplayerLevelEndActionsListener _multiplayerLevelEndActions
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::IMultiplayerLevelEndActionsListener* multiplayerLevelEndActions;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerLevelEndActionsListener*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253FA4
+    // [InjectAttribute] Offset: 0x10D8B88
     // private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PrepareLevelCompletionResults*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253FB4
+    // [InjectAttribute] Offset: 0x10D8B98
     // private readonly GameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::GameEnergyCounter* gameEnergyCounter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameEnergyCounter*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253FC4
+    // [InjectAttribute] Offset: 0x10D8BA8
     // private readonly MultiplayerLocalActivePlayerInGameMenuController _inGameMenuController
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController* inGameMenuController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253FD4
+    // [InjectAttribute] Offset: 0x10D8BB8
     // private readonly IVRPlatformHelper _platformHelper
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::IVRPlatformHelper* platformHelper;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IVRPlatformHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253FE4
+    // [InjectAttribute] Offset: 0x10D8BC8
     // private readonly MultiplayerLocalPlayerDisconnectHelper _disconnectHelper
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* disconnectHelper;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253FF4
+    // [InjectAttribute] Offset: 0x10D8BD8
     // private readonly MultiplayerLocalActivePlayerGameplayManager/InitData _initData
     // Size: 0x8
     // Offset: 0x58
     ::GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1254004
+    // [InjectAttribute] Offset: 0x10D8BE8
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x60
@@ -142,85 +134,83 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly GameSongController _gameSongController
-    ::GlobalNamespace::GameSongController*& dyn__gameSongController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameSongController*& dyn__gameSongController();
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // Get instance field reference: private readonly IMultiplayerLevelEndActionsListener _multiplayerLevelEndActions
-    ::GlobalNamespace::IMultiplayerLevelEndActionsListener*& dyn__multiplayerLevelEndActions();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerLevelEndActionsListener*& dyn__multiplayerLevelEndActions();
     // Get instance field reference: private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
-    ::GlobalNamespace::PrepareLevelCompletionResults*& dyn__prepareLevelCompletionResults();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PrepareLevelCompletionResults*& dyn__prepareLevelCompletionResults();
     // Get instance field reference: private readonly GameEnergyCounter _gameEnergyCounter
-    ::GlobalNamespace::GameEnergyCounter*& dyn__gameEnergyCounter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameEnergyCounter*& dyn__gameEnergyCounter();
     // Get instance field reference: private readonly MultiplayerLocalActivePlayerInGameMenuController _inGameMenuController
-    ::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController*& dyn__inGameMenuController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController*& dyn__inGameMenuController();
     // Get instance field reference: private readonly IVRPlatformHelper _platformHelper
-    ::GlobalNamespace::IVRPlatformHelper*& dyn__platformHelper();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IVRPlatformHelper*& dyn__platformHelper();
     // Get instance field reference: private readonly MultiplayerLocalPlayerDisconnectHelper _disconnectHelper
-    ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*& dyn__disconnectHelper();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*& dyn__disconnectHelper();
     // Get instance field reference: private readonly MultiplayerLocalActivePlayerGameplayManager/InitData _initData
-    ::GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::InitData*& dyn__initData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::InitData*& dyn__initData();
     // Get instance field reference: private readonly SaberManager _saberManager
-    ::GlobalNamespace::SaberManager*& dyn__saberManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberManager*& dyn__saberManager();
     // Get instance field reference: private System.Boolean _levelFinishedOrFailed
-    bool& dyn__levelFinishedOrFailed();
-    // private System.Void Start()
-    // Offset: 0x140079C
-    void Start();
-    // protected System.Void OnDisable()
-    // Offset: 0x1400D24
-    void OnDisable();
-    // private System.Void PerformPlayerFail()
-    // Offset: 0x14012C8
-    void PerformPlayerFail();
-    // private System.Void PerformPlayerGivenUp()
-    // Offset: 0x14014F4
-    void PerformPlayerGivenUp();
-    // private System.Void HandleGameEnergyDidReach0()
-    // Offset: 0x1401720
-    void HandleGameEnergyDidReach0();
-    // private System.Void HandleInGameMenuControllerDidGiveUp()
-    // Offset: 0x1401744
-    void HandleInGameMenuControllerDidGiveUp();
-    // private System.Void HandleInGameMenuControllerRequestsDisconnect()
-    // Offset: 0x1401748
-    void HandleInGameMenuControllerRequestsDisconnect();
-    // private System.Void HandleSongDidFinish()
-    // Offset: 0x1401798
-    void HandleSongDidFinish();
-    // private System.Void HandleHmdUnmounted()
-    // Offset: 0x14019C4
-    void HandleHmdUnmounted();
-    // private System.Void HandleVrFocusWasCapturedEvent()
-    // Offset: 0x14019C8
-    void HandleVrFocusWasCapturedEvent();
-    // private System.Void HandleInputFocusCaptured()
-    // Offset: 0x1400D04
-    void HandleInputFocusCaptured();
-    // private System.Void HandleInputFocusReleased()
-    // Offset: 0x14019CC
-    void HandleInputFocusReleased();
-    // private System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x1401A08
-    void OnApplicationFocus(bool hasFocus);
+    [[deprecated("Use field access instead!")]] bool& dyn__levelFinishedOrFailed();
     // public System.Void .ctor()
-    // Offset: 0x1401A14
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x140E4B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalActivePlayerGameplayManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActivePlayerGameplayManager*, creationType>()));
     }
+    // private System.Void Start()
+    // Offset: 0x140D23C
+    void Start();
+    // protected System.Void OnDisable()
+    // Offset: 0x140D7C4
+    void OnDisable();
+    // private System.Void PerformPlayerFail()
+    // Offset: 0x140DD68
+    void PerformPlayerFail();
+    // private System.Void PerformPlayerGivenUp()
+    // Offset: 0x140DF94
+    void PerformPlayerGivenUp();
+    // private System.Void HandleGameEnergyDidReach0()
+    // Offset: 0x140E1C0
+    void HandleGameEnergyDidReach0();
+    // private System.Void HandleInGameMenuControllerDidGiveUp()
+    // Offset: 0x140E1E4
+    void HandleInGameMenuControllerDidGiveUp();
+    // private System.Void HandleInGameMenuControllerRequestsDisconnect()
+    // Offset: 0x140E1E8
+    void HandleInGameMenuControllerRequestsDisconnect();
+    // private System.Void HandleSongDidFinish()
+    // Offset: 0x140E238
+    void HandleSongDidFinish();
+    // private System.Void HandleHmdUnmounted()
+    // Offset: 0x140E464
+    void HandleHmdUnmounted();
+    // private System.Void HandleVrFocusWasCapturedEvent()
+    // Offset: 0x140E468
+    void HandleVrFocusWasCapturedEvent();
+    // private System.Void HandleInputFocusCaptured()
+    // Offset: 0x140D7A4
+    void HandleInputFocusCaptured();
+    // private System.Void HandleInputFocusReleased()
+    // Offset: 0x140E46C
+    void HandleInputFocusReleased();
+    // private System.Void OnApplicationFocus(System.Boolean hasFocus)
+    // Offset: 0x140E4A8
+    void OnApplicationFocus(bool hasFocus);
   }; // MultiplayerLocalActivePlayerGameplayManager
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalActivePlayerGameplayManager), 104 + sizeof(bool)> __GlobalNamespace_MultiplayerLocalActivePlayerGameplayManagerSizeCheck;
   static_assert(sizeof(MultiplayerLocalActivePlayerGameplayManager) == 0x69);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::Start
 // Il2CppName: Start
 template<>
@@ -326,7 +316,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager*), "OnApplicationFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hasFocus});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

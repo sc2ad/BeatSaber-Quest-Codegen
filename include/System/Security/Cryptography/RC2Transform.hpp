@@ -36,15 +36,7 @@ namespace System::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class RC2Transform : public ::Mono::Security::Cryptography::SymmetricTransform {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.UInt16 R0
     // Size: 0x2
     // Offset: 0x58
@@ -87,29 +79,29 @@ namespace System::Security::Cryptography {
     // Set static field: static private readonly System.Byte[] pitable
     static void _set_pitable(::ArrayW<uint8_t> value);
     // Get instance field reference: private System.UInt16 R0
-    uint16_t& dyn_R0();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_R0();
     // Get instance field reference: private System.UInt16 R1
-    uint16_t& dyn_R1();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_R1();
     // Get instance field reference: private System.UInt16 R2
-    uint16_t& dyn_R2();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_R2();
     // Get instance field reference: private System.UInt16 R3
-    uint16_t& dyn_R3();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_R3();
     // Get instance field reference: private System.UInt16[] K
-    ::ArrayW<uint16_t>& dyn_K();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint16_t>& dyn_K();
     // Get instance field reference: private System.Int32 j
-    int& dyn_j();
+    [[deprecated("Use field access instead!")]] int& dyn_j();
     // public System.Void .ctor(System.Security.Cryptography.RC2 rc2Algo, System.Boolean encryption, System.Byte[] key, System.Byte[] iv)
-    // Offset: 0x1B68B98
+    // Offset: 0x1BA3180
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RC2Transform* New_ctor(::System::Security::Cryptography::RC2* rc2Algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::RC2Transform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RC2Transform*, creationType>(rc2Algo, encryption, key, iv)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1B69D28
+    // Offset: 0x1BA4310
     static void _cctor();
     // protected override System.Void ECB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1B693EC
+    // Offset: 0x1BA39D4
     // Implemented from: Mono.Security.Cryptography.SymmetricTransform
     // Base method: System.Void SymmetricTransform::ECB(System.Byte[] input, System.Byte[] output)
     void ECB(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output);

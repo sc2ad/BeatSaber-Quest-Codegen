@@ -30,11 +30,7 @@ namespace LiteNetLib::Utils {
   class InvalidTypeException : public ::System::ArgumentException {
     public:
     // public System.Void .ctor(System.String message)
-    // Offset: 0x2170B80
-    // Implemented from: System.ArgumentException
-    // Base method: System.Void ArgumentException::.ctor(System.String message)
-    // Base method: System.Void SystemException::.ctor(System.String message)
-    // Base method: System.Void Exception::.ctor(System.String message)
+    // Offset: 0x21BC3F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidTypeException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::InvalidTypeException::.ctor");

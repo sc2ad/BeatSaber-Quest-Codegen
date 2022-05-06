@@ -29,15 +29,7 @@ namespace Mono::Security::Interface {
   // [TokenAttribute] Offset: FFFFFFFF
   class ValidationResult : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean trusted
     // Size: 0x1
     // Offset: 0x10
@@ -62,21 +54,21 @@ namespace Mono::Security::Interface {
     ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors;
     public:
     // Get instance field reference: private System.Boolean trusted
-    bool& dyn_trusted();
+    [[deprecated("Use field access instead!")]] bool& dyn_trusted();
     // Get instance field reference: private System.Boolean user_denied
-    bool& dyn_user_denied();
+    [[deprecated("Use field access instead!")]] bool& dyn_user_denied();
     // Get instance field reference: private System.Int32 error_code
-    int& dyn_error_code();
+    [[deprecated("Use field access instead!")]] int& dyn_error_code();
     // Get instance field reference: private System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors> policy_errors
-    ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors>& dyn_policy_errors();
+    [[deprecated("Use field access instead!")]] ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors>& dyn_policy_errors();
     // public System.Boolean get_Trusted()
-    // Offset: 0x22FCE18
+    // Offset: 0x234668C
     bool get_Trusted();
     // public System.Boolean get_UserDenied()
-    // Offset: 0x22FCE20
+    // Offset: 0x2346694
     bool get_UserDenied();
     // public System.Void .ctor(System.Boolean trusted, System.Boolean user_denied, System.Int32 error_code, System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors> policy_errors)
-    // Offset: 0x22FCDBC
+    // Offset: 0x2346630
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValidationResult* New_ctor(bool trusted, bool user_denied, int error_code, ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Interface::ValidationResult::.ctor");

@@ -39,15 +39,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerPlayerResultsData : public ::Il2CppObject/*, public ::System::IComparable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly IConnectedPlayer connectedPlayer
     // Size: 0x8
     // Offset: 0x10
@@ -72,20 +64,20 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::IComparable*>(this);
     }
     // Get instance field reference: public readonly IConnectedPlayer connectedPlayer
-    ::GlobalNamespace::IConnectedPlayer*& dyn_connectedPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayer*& dyn_connectedPlayer();
     // Get instance field reference: public readonly MultiplayerLevelCompletionResults multiplayerLevelCompletionResults
-    ::GlobalNamespace::MultiplayerLevelCompletionResults*& dyn_multiplayerLevelCompletionResults();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLevelCompletionResults*& dyn_multiplayerLevelCompletionResults();
     // Get instance field reference: public MultiplayerBadgeAwardData badge
-    ::GlobalNamespace::MultiplayerBadgeAwardData*& dyn_badge();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerBadgeAwardData*& dyn_badge();
     // public System.Void .ctor(IConnectedPlayer connectedPlayer, MultiplayerLevelCompletionResults multiplayerLevelCompletionResults)
-    // Offset: 0x13A3804
+    // Offset: 0x139FCB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerPlayerResultsData* New_ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::MultiplayerLevelCompletionResults* multiplayerLevelCompletionResults) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerPlayerResultsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerPlayerResultsData*, creationType>(connectedPlayer, multiplayerLevelCompletionResults)));
     }
     // public System.Int32 CompareTo(System.Object obj)
-    // Offset: 0x13A383C
+    // Offset: 0x139FCE8
     int CompareTo(::Il2CppObject* obj);
   }; // MultiplayerPlayerResultsData
   #pragma pack(pop)

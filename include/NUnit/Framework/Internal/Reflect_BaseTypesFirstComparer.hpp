@@ -36,22 +36,24 @@ namespace NUnit::Framework::Internal {
     operator ::System::Collections::Generic::IComparer_1<::System::Reflection::MethodInfo*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IComparer_1<::System::Reflection::MethodInfo*>*>(this);
     }
-    // public System.Int32 Compare(System.Reflection.MethodInfo m1, System.Reflection.MethodInfo m2)
-    // Offset: 0x29AF808
-    int Compare(::System::Reflection::MethodInfo* m1, ::System::Reflection::MethodInfo* m2);
     // public System.Void .ctor()
-    // Offset: 0x29AEF5C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A0AF54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Reflect::BaseTypesFirstComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Reflect::BaseTypesFirstComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Reflect::BaseTypesFirstComparer*, creationType>()));
     }
+    // public System.Int32 Compare(System.Reflection.MethodInfo m1, System.Reflection.MethodInfo m2)
+    // Offset: 0x2A0B800
+    int Compare(::System::Reflection::MethodInfo* m1, ::System::Reflection::MethodInfo* m2);
   }; // NUnit.Framework.Internal.Reflect/NUnit.Framework.Internal.BaseTypesFirstComparer
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Reflect::BaseTypesFirstComparer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Reflect::BaseTypesFirstComparer::Compare
 // Il2CppName: Compare
 template<>
@@ -62,7 +64,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NUnit:
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Reflect::BaseTypesFirstComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m1, m2});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::Reflect::BaseTypesFirstComparer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

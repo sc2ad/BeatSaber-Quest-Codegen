@@ -24,15 +24,7 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class NatPunchModule::NatPunchPacket : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String <Token>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -47,25 +39,23 @@ namespace LiteNetLib {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.String <Token>k__BackingField
-    ::StringW& dyn_$Token$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$Token$k__BackingField();
     // Get instance field reference: private System.Boolean <IsExternal>k__BackingField
-    bool& dyn_$IsExternal$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$IsExternal$k__BackingField();
     // public System.String get_Token()
-    // Offset: 0x21645A4
+    // Offset: 0x21AFE18
     ::StringW get_Token();
     // public System.Void set_Token(System.String value)
-    // Offset: 0x21645AC
+    // Offset: 0x21AFE20
     void set_Token(::StringW value);
     // public System.Boolean get_IsExternal()
-    // Offset: 0x21645B4
+    // Offset: 0x21AFE28
     bool get_IsExternal();
     // public System.Void set_IsExternal(System.Boolean value)
-    // Offset: 0x21645BC
+    // Offset: 0x21AFE30
     void set_IsExternal(bool value);
     // public System.Void .ctor()
-    // Offset: 0x2164070
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x21AF8E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NatPunchModule::NatPunchPacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NatPunchModule::NatPunchPacket::.ctor");

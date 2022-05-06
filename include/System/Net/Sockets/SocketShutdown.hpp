@@ -60,7 +60,7 @@ namespace System::Net::Sockets {
     // Set static field: static public System.Net.Sockets.SocketShutdown Both
     static void _set_Both(::System::Net::Sockets::SocketShutdown value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Net.Sockets.SocketShutdown
   #pragma pack(pop)
   static check_size<sizeof(SocketShutdown), 0 + sizeof(int)> __System_Net_Sockets_SocketShutdownSizeCheck;

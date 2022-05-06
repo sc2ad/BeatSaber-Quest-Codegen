@@ -34,23 +34,21 @@ namespace System::Xml {
     // Set static field: static private System.Collections.Generic.IComparer`1<System.Object> s_instance
     static void _set_s_instance(::System::Collections::Generic::IComparer_1<::Il2CppObject*>* value);
     // static System.Collections.Generic.IComparer`1<System.Object> get_Instance()
-    // Offset: 0x26BB02C
+    // Offset: 0x270A53C
     static ::System::Collections::Generic::IComparer_1<::Il2CppObject*>* get_Instance();
-    // static private System.Void .cctor()
-    // Offset: 0x26BB3E0
-    static void _cctor();
-    // public System.Int32 Compare(System.Object x, System.Object y)
-    // Offset: 0x26BB094
-    int Compare(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Void .ctor()
-    // Offset: 0x26BB3D8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x270A8E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlTextReaderImpl::DtdDefaultAttributeInfoToNodeDataComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlTextReaderImpl::DtdDefaultAttributeInfoToNodeDataComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlTextReaderImpl::DtdDefaultAttributeInfoToNodeDataComparer*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x270A8F0
+    static void _cctor();
+    // public System.Int32 Compare(System.Object x, System.Object y)
+    // Offset: 0x270A5A4
+    int Compare(::Il2CppObject* x, ::Il2CppObject* y);
   }; // System.Xml.XmlTextReaderImpl/System.Xml.DtdDefaultAttributeInfoToNodeDataComparer
   #pragma pack(pop)
 }
@@ -63,6 +61,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlTextReaderImpl::DtdDefaultAttributeInfoToNodeDataComparer*), "get_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Xml::XmlTextReaderImpl::DtdDefaultAttributeInfoToNodeDataComparer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::XmlTextReaderImpl::DtdDefaultAttributeInfoToNodeDataComparer::_cctor
 // Il2CppName: .cctor
 template<>
@@ -81,7 +83,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlTextReaderImpl::DtdDefaultAttributeInfoToNodeDataComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y});
   }
 };
-// Writing MetadataGetter for method: System::Xml::XmlTextReaderImpl::DtdDefaultAttributeInfoToNodeDataComparer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

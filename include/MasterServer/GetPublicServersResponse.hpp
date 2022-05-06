@@ -102,20 +102,12 @@ namespace MasterServer {
       // Set static field: static public MasterServer.GetPublicServersResponse/MasterServer.Result UnknownError
       static void _set_UnknownError(::MasterServer::GetPublicServersResponse::Result value);
       // Get instance field reference: public System.Byte value__
-      uint8_t& dyn_value__();
+      [[deprecated("Use field access instead!")]] uint8_t& dyn_value__();
     }; // MasterServer.GetPublicServersResponse/MasterServer.Result
     #pragma pack(pop)
     static check_size<sizeof(GetPublicServersResponse::Result), 0 + sizeof(uint8_t)> __MasterServer_GetPublicServersResponse_ResultSizeCheck;
     static_assert(sizeof(GetPublicServersResponse::Result) == 0x1);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public MasterServer.GetPublicServersResponse/MasterServer.Result result
     // Size: 0x1
     // Offset: 0x18
@@ -136,53 +128,52 @@ namespace MasterServer {
       return *reinterpret_cast<::MasterServer::IUserMasterServerServerToClientMessage*>(this);
     }
     // Get instance field reference: public MasterServer.GetPublicServersResponse/MasterServer.Result result
-    ::MasterServer::GetPublicServersResponse::Result& dyn_result();
+    [[deprecated("Use field access instead!")]] ::MasterServer::GetPublicServersResponse::Result& dyn_result();
     // Get instance field reference: public readonly System.Collections.Generic.List`1<PublicServerInfo> publicServers
-    ::System::Collections::Generic::List_1<::GlobalNamespace::PublicServerInfo>*& dyn_publicServers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::PublicServerInfo>*& dyn_publicServers();
     // static public IPacketPool`1<MasterServer.GetPublicServersResponse> get_pool()
-    // Offset: 0x16F3E78
+    // Offset: 0x172C788
     static ::GlobalNamespace::IPacketPool_1<::MasterServer::GetPublicServersResponse*>* get_pool();
     // protected System.UInt32 get_version()
-    // Offset: 0x16F3EC0
+    // Offset: 0x172C7D0
     uint get_version();
     // public MasterServer.GetPublicServersResponse InitForFailure(MasterServer.GetPublicServersResponse/MasterServer.Result result)
-    // Offset: 0x16F3F60
+    // Offset: 0x172C870
     ::MasterServer::GetPublicServersResponse* InitForFailure(::MasterServer::GetPublicServersResponse::Result result);
     // public MasterServer.GetPublicServersResponse InitForSuccess(System.Collections.Generic.IEnumerable`1<PublicServerInfo> publicServers)
-    // Offset: 0x16F3FF8
+    // Offset: 0x172C908
     ::MasterServer::GetPublicServersResponse* InitForSuccess(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PublicServerInfo>* publicServers);
     // public override System.Byte get_resultCode()
-    // Offset: 0x16F3EC8
+    // Offset: 0x172C7D8
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Byte BaseReliableResponse::get_resultCode()
     uint8_t get_resultCode();
     // public override System.String get_resultCodeString()
-    // Offset: 0x16F3ED0
+    // Offset: 0x172C7E0
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.String BaseReliableResponse::get_resultCodeString()
     ::StringW get_resultCodeString();
     // public System.Void .ctor()
-    // Offset: 0x16F4390
+    // Offset: 0x172CCA0
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GetPublicServersResponse* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::MasterServer::GetPublicServersResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GetPublicServersResponse*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16F40C4
+    // Offset: 0x172C9D4
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16F41BC
+    // Offset: 0x172CACC
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x16F42BC
+    // Offset: 0x172CBCC
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Release()
     void Release();

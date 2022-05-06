@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AlphabetScrollInfo::Data : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Char character
     // Size: 0x2
     // Offset: 0x10
@@ -48,11 +40,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public readonly System.Char character
-    ::Il2CppChar& dyn_character();
+    [[deprecated("Use field access instead!")]] ::Il2CppChar& dyn_character();
     // Get instance field reference: public readonly System.Int32 cellIdx
-    int& dyn_cellIdx();
+    [[deprecated("Use field access instead!")]] int& dyn_cellIdx();
     // public System.Void .ctor(System.Char character, System.Int32 cellIdx)
-    // Offset: 0x1564884
+    // Offset: 0x159B18C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AlphabetScrollInfo::Data* New_ctor(::Il2CppChar character, int cellIdx) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AlphabetScrollInfo::Data::.ctor");

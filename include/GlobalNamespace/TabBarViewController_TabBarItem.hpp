@@ -31,15 +31,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TabBarViewController::TabBarItem : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.String title
     // Size: 0x8
     // Offset: 0x10
@@ -54,11 +46,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action*) == 0x8);
     public:
     // Get instance field reference: public readonly System.String title
-    ::StringW& dyn_title();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_title();
     // Get instance field reference: public readonly System.Action action
-    ::System::Action*& dyn_action();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_action();
     // public System.Void .ctor(System.String title, System.Action action)
-    // Offset: 0x1339D04
+    // Offset: 0x141BC34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TabBarViewController::TabBarItem* New_ctor(::StringW title, ::System::Action* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TabBarViewController::TabBarItem::.ctor");

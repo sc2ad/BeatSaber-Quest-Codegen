@@ -143,57 +143,57 @@ namespace LIV::SDK::Unity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single m00
-    float& dyn_m00();
+    [[deprecated("Use field access instead!")]] float& dyn_m00();
     // Get instance field reference: public System.Single m01
-    float& dyn_m01();
+    [[deprecated("Use field access instead!")]] float& dyn_m01();
     // Get instance field reference: public System.Single m02
-    float& dyn_m02();
+    [[deprecated("Use field access instead!")]] float& dyn_m02();
     // Get instance field reference: public System.Single m03
-    float& dyn_m03();
+    [[deprecated("Use field access instead!")]] float& dyn_m03();
     // Get instance field reference: public System.Single m10
-    float& dyn_m10();
+    [[deprecated("Use field access instead!")]] float& dyn_m10();
     // Get instance field reference: public System.Single m11
-    float& dyn_m11();
+    [[deprecated("Use field access instead!")]] float& dyn_m11();
     // Get instance field reference: public System.Single m12
-    float& dyn_m12();
+    [[deprecated("Use field access instead!")]] float& dyn_m12();
     // Get instance field reference: public System.Single m13
-    float& dyn_m13();
+    [[deprecated("Use field access instead!")]] float& dyn_m13();
     // Get instance field reference: public System.Single m20
-    float& dyn_m20();
+    [[deprecated("Use field access instead!")]] float& dyn_m20();
     // Get instance field reference: public System.Single m21
-    float& dyn_m21();
+    [[deprecated("Use field access instead!")]] float& dyn_m21();
     // Get instance field reference: public System.Single m22
-    float& dyn_m22();
+    [[deprecated("Use field access instead!")]] float& dyn_m22();
     // Get instance field reference: public System.Single m23
-    float& dyn_m23();
+    [[deprecated("Use field access instead!")]] float& dyn_m23();
     // Get instance field reference: public System.Single m30
-    float& dyn_m30();
+    [[deprecated("Use field access instead!")]] float& dyn_m30();
     // Get instance field reference: public System.Single m31
-    float& dyn_m31();
+    [[deprecated("Use field access instead!")]] float& dyn_m31();
     // Get instance field reference: public System.Single m32
-    float& dyn_m32();
+    [[deprecated("Use field access instead!")]] float& dyn_m32();
     // Get instance field reference: public System.Single m33
-    float& dyn_m33();
+    [[deprecated("Use field access instead!")]] float& dyn_m33();
     // static public LIV.SDK.Unity.SDKMatrix4x4 get_identity()
-    // Offset: 0x29FB928
+    // Offset: 0x2A52398
     static ::LIV::SDK::Unity::SDKMatrix4x4 get_identity();
     // static public LIV.SDK.Unity.SDKMatrix4x4 Perspective(System.Single vFov, System.Single aspect, System.Single zNear, System.Single zFar)
-    // Offset: 0x29FC31C
+    // Offset: 0x2A52D8C
     static ::LIV::SDK::Unity::SDKMatrix4x4 Perspective(float vFov, float aspect, float zNear, float zFar);
     // static public LIV.SDK.Unity.SDKMatrix4x4 Translate(LIV.SDK.Unity.SDKVector3 value)
-    // Offset: 0x29FC528
+    // Offset: 0x2A52F98
     static ::LIV::SDK::Unity::SDKMatrix4x4 Translate(::LIV::SDK::Unity::SDKVector3 value);
     // static public LIV.SDK.Unity.SDKMatrix4x4 Rotate(LIV.SDK.Unity.SDKQuaternion value)
-    // Offset: 0x29FC564
+    // Offset: 0x2A52FD4
     static ::LIV::SDK::Unity::SDKMatrix4x4 Rotate(::LIV::SDK::Unity::SDKQuaternion value);
     // static public LIV.SDK.Unity.SDKMatrix4x4 Scale(LIV.SDK.Unity.SDKVector3 value)
-    // Offset: 0x29FC5F8
+    // Offset: 0x2A53068
     static ::LIV::SDK::Unity::SDKMatrix4x4 Scale(::LIV::SDK::Unity::SDKVector3 value);
     // static public LIV.SDK.Unity.SDKMatrix4x4 TRS(LIV.SDK.Unity.SDKVector3 translation, LIV.SDK.Unity.SDKQuaternion rotation, LIV.SDK.Unity.SDKVector3 scale)
-    // Offset: 0x29FC624
+    // Offset: 0x2A53094
     static ::LIV::SDK::Unity::SDKMatrix4x4 TRS(::LIV::SDK::Unity::SDKVector3 translation, ::LIV::SDK::Unity::SDKQuaternion rotation, ::LIV::SDK::Unity::SDKVector3 scale);
     // public override System.String ToString()
-    // Offset: 0x29FC710
+    // Offset: 0x2A53180
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();
@@ -202,10 +202,10 @@ namespace LIV::SDK::Unity {
   static check_size<sizeof(SDKMatrix4x4), 60 + sizeof(float)> __LIV_SDK_Unity_SDKMatrix4x4SizeCheck;
   static_assert(sizeof(SDKMatrix4x4) == 0x40);
   // static public LIV.SDK.Unity.SDKMatrix4x4 op_Multiply(LIV.SDK.Unity.SDKMatrix4x4 lhs, LIV.SDK.Unity.SDKMatrix4x4 rhs)
-  // Offset: 0x29FC424
+  // Offset: 0x2A52E94
   ::LIV::SDK::Unity::SDKMatrix4x4 operator*(const ::LIV::SDK::Unity::SDKMatrix4x4& lhs, const ::LIV::SDK::Unity::SDKMatrix4x4& rhs);
   // static public LIV.SDK.Unity.SDKVector3 op_Multiply(LIV.SDK.Unity.SDKMatrix4x4 lhs, LIV.SDK.Unity.SDKVector3 rhs)
-  // Offset: 0x29FC4D0
+  // Offset: 0x2A52F40
   ::LIV::SDK::Unity::SDKVector3 operator*(const ::LIV::SDK::Unity::SDKMatrix4x4& lhs, const ::LIV::SDK::Unity::SDKVector3& rhs);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -29,15 +29,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class FtpStatus : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Net.FtpStatusCode statusCode
     // Size: 0x4
     // Offset: 0x10
@@ -54,17 +46,17 @@ namespace System::Net {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private readonly System.Net.FtpStatusCode statusCode
-    ::System::Net::FtpStatusCode& dyn_statusCode();
+    [[deprecated("Use field access instead!")]] ::System::Net::FtpStatusCode& dyn_statusCode();
     // Get instance field reference: private readonly System.String statusDescription
-    ::StringW& dyn_statusDescription();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_statusDescription();
     // public System.Net.FtpStatusCode get_StatusCode()
-    // Offset: 0x1A4A2A0
+    // Offset: 0x1A83888
     ::System::Net::FtpStatusCode get_StatusCode();
     // public System.String get_StatusDescription()
-    // Offset: 0x1A4A2A8
+    // Offset: 0x1A83890
     ::StringW get_StatusDescription();
     // public System.Void .ctor(System.Net.FtpStatusCode statusCode, System.String statusDescription)
-    // Offset: 0x1A4A264
+    // Offset: 0x1A8384C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FtpStatus* New_ctor(::System::Net::FtpStatusCode statusCode, ::StringW statusDescription) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::FtpStatus::.ctor");

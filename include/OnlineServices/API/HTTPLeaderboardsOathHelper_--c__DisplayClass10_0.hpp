@@ -31,15 +31,7 @@ namespace OnlineServices::API {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Networking.UnityWebRequest webRequest
     // Size: 0x8
     // Offset: 0x10
@@ -54,13 +46,11 @@ namespace OnlineServices::API {
     static_assert(sizeof(::OnlineServices::API::HTTPLeaderboardsOathHelper*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.Networking.UnityWebRequest webRequest
-    ::UnityEngine::Networking::UnityWebRequest*& dyn_webRequest();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Networking::UnityWebRequest*& dyn_webRequest();
     // Get instance field reference: public OnlineServices.API.HTTPLeaderboardsOathHelper <>4__this
-    ::OnlineServices::API::HTTPLeaderboardsOathHelper*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::OnlineServices::API::HTTPLeaderboardsOathHelper*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x151BD98
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15536A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0::.ctor");

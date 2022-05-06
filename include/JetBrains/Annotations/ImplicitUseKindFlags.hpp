@@ -73,7 +73,7 @@ namespace JetBrains::Annotations {
     // Set static field: static public JetBrains.Annotations.ImplicitUseKindFlags InstantiatedNoFixedConstructorSignature
     static void _set_InstantiatedNoFixedConstructorSignature(::JetBrains::Annotations::ImplicitUseKindFlags value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // JetBrains.Annotations.ImplicitUseKindFlags
   #pragma pack(pop)
   static check_size<sizeof(ImplicitUseKindFlags), 0 + sizeof(int)> __JetBrains_Annotations_ImplicitUseKindFlagsSizeCheck;

@@ -52,15 +52,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   // [TokenAttribute] Offset: FFFFFFFF
   class Pbkdf2Params : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Asn1.Asn1OctetString octStr
     // Size: 0x8
     // Offset: 0x10
@@ -91,43 +83,43 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Set static field: static private Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algid_hmacWithSHA1
     static void _set_algid_hmacWithSHA1(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1OctetString octStr
-    ::Org::BouncyCastle::Asn1::Asn1OctetString*& dyn_octStr();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1OctetString*& dyn_octStr();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger iterationCount
-    ::Org::BouncyCastle::Asn1::DerInteger*& dyn_iterationCount();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerInteger*& dyn_iterationCount();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger keyLength
-    ::Org::BouncyCastle::Asn1::DerInteger*& dyn_keyLength();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerInteger*& dyn_keyLength();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier prf
-    ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& dyn_prf();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& dyn_prf();
     // public Org.BouncyCastle.Math.BigInteger get_IterationCount()
-    // Offset: 0x1C913C0
+    // Offset: 0x1CCD918
     ::Org::BouncyCastle::Math::BigInteger* get_IterationCount();
     // public Org.BouncyCastle.Math.BigInteger get_KeyLength()
-    // Offset: 0x1C913DC
+    // Offset: 0x1CCD934
     ::Org::BouncyCastle::Math::BigInteger* get_KeyLength();
     // public System.Boolean get_IsDefaultPrf()
-    // Offset: 0x1C913F0
+    // Offset: 0x1CCD948
     bool get_IsDefaultPrf();
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_Prf()
-    // Offset: 0x1C9147C
+    // Offset: 0x1CCD9D4
     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Prf();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1C910F4
+    // Offset: 0x1CCD64C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Pbkdf2Params* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Pbkdf2Params*, creationType>(seq)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1C91674
+    // Offset: 0x1CCDBCC
     static void _cctor();
     // static public Org.BouncyCastle.Asn1.Pkcs.Pbkdf2Params GetInstance(System.Object obj)
-    // Offset: 0x1C90E6C
+    // Offset: 0x1CCD3C4
     static ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* GetInstance(::Il2CppObject* obj);
     // public System.Byte[] GetSalt()
-    // Offset: 0x1C913A0
+    // Offset: 0x1CCD8F8
     ::ArrayW<uint8_t> GetSalt();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1C914F0
+    // Offset: 0x1CCDA48
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

@@ -35,15 +35,7 @@ namespace Newtonsoft::Json::Serialization {
   // [PreserveAttribute] Offset: FFFFFFFF
   class ErrorContext : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean <Traced>k__BackingField
     // Size: 0x1
     // Offset: 0x10
@@ -84,43 +76,43 @@ namespace Newtonsoft::Json::Serialization {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Boolean <Traced>k__BackingField
-    bool& dyn_$Traced$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$Traced$k__BackingField();
     // Get instance field reference: private System.Exception <Error>k__BackingField
-    ::System::Exception*& dyn_$Error$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Exception*& dyn_$Error$k__BackingField();
     // Get instance field reference: private System.Object <OriginalObject>k__BackingField
-    ::Il2CppObject*& dyn_$OriginalObject$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$OriginalObject$k__BackingField();
     // Get instance field reference: private System.Object <Member>k__BackingField
-    ::Il2CppObject*& dyn_$Member$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$Member$k__BackingField();
     // Get instance field reference: private System.String <Path>k__BackingField
-    ::StringW& dyn_$Path$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$Path$k__BackingField();
     // Get instance field reference: private System.Boolean <Handled>k__BackingField
-    bool& dyn_$Handled$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$Handled$k__BackingField();
     // System.Boolean get_Traced()
-    // Offset: 0x1D224F0
+    // Offset: 0x1D5EA48
     bool get_Traced();
     // System.Void set_Traced(System.Boolean value)
-    // Offset: 0x1D224F8
+    // Offset: 0x1D5EA50
     void set_Traced(bool value);
     // public System.Exception get_Error()
-    // Offset: 0x1D22504
+    // Offset: 0x1D5EA5C
     ::System::Exception* get_Error();
     // private System.Void set_Error(System.Exception value)
-    // Offset: 0x1D2250C
+    // Offset: 0x1D5EA64
     void set_Error(::System::Exception* value);
     // private System.Void set_OriginalObject(System.Object value)
-    // Offset: 0x1D22514
+    // Offset: 0x1D5EA6C
     void set_OriginalObject(::Il2CppObject* value);
     // private System.Void set_Member(System.Object value)
-    // Offset: 0x1D2251C
+    // Offset: 0x1D5EA74
     void set_Member(::Il2CppObject* value);
     // private System.Void set_Path(System.String value)
-    // Offset: 0x1D22524
+    // Offset: 0x1D5EA7C
     void set_Path(::StringW value);
     // public System.Boolean get_Handled()
-    // Offset: 0x1D2252C
+    // Offset: 0x1D5EA84
     bool get_Handled();
     // System.Void .ctor(System.Object originalObject, System.Object member, System.String path, System.Exception error)
-    // Offset: 0x1D224A4
+    // Offset: 0x1D5E9FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ErrorContext* New_ctor(::Il2CppObject* originalObject, ::Il2CppObject* member, ::StringW path, ::System::Exception* error) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::ErrorContext::.ctor");

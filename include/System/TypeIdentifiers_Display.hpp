@@ -28,15 +28,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class TypeIdentifiers::Display : public ::System::TypeNames::ATypeName/*, public ::System::TypeIdentifier*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String displayName
     // Size: 0x8
     // Offset: 0x10
@@ -55,24 +47,24 @@ namespace System {
       return *reinterpret_cast<::System::TypeIdentifier*>(this);
     }
     // Get instance field reference: private System.String displayName
-    ::StringW& dyn_displayName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_displayName();
     // Get instance field reference: private System.String internal_name
-    ::StringW& dyn_internal_name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_internal_name();
     // public System.String get_InternalName()
-    // Offset: 0x2982278
+    // Offset: 0x29D2838
     ::StringW get_InternalName();
     // System.Void .ctor(System.String displayName)
-    // Offset: 0x298223C
+    // Offset: 0x29D27FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeIdentifiers::Display* New_ctor(::StringW displayName) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::TypeIdentifiers::Display::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeIdentifiers::Display*, creationType>(displayName)));
     }
     // private System.String GetInternalName()
-    // Offset: 0x29822A8
+    // Offset: 0x29D2868
     ::StringW GetInternalName();
     // public override System.String get_DisplayName()
-    // Offset: 0x2982270
+    // Offset: 0x29D2830
     // Implemented from: System.TypeNames/System.ATypeName
     // Base method: System.String ATypeName::get_DisplayName()
     ::StringW get_DisplayName();

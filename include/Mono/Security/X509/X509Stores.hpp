@@ -34,15 +34,7 @@ namespace Mono::Security::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509Stores : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _storePath
     // Size: 0x8
     // Offset: 0x10
@@ -57,18 +49,18 @@ namespace Mono::Security::X509 {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.String _storePath
-    ::StringW& dyn__storePath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__storePath();
     // Get instance field reference: private System.Boolean _newFormat
-    bool& dyn__newFormat();
+    [[deprecated("Use field access instead!")]] bool& dyn__newFormat();
     // System.Void .ctor(System.String path, System.Boolean newFormat)
-    // Offset: 0x2A5E364
+    // Offset: 0x2AB474C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Stores* New_ctor(::StringW path, bool newFormat) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::X509::X509Stores::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Stores*, creationType>(path, newFormat)));
     }
     // public Mono.Security.X509.X509Store Open(System.String storeName, System.Boolean create)
-    // Offset: 0x2A5E444
+    // Offset: 0x2AB482C
     ::Mono::Security::X509::X509Store* Open(::StringW storeName, bool create);
   }; // Mono.Security.X509.X509Stores
   #pragma pack(pop)

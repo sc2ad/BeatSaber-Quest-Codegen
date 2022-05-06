@@ -42,16 +42,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ContinuousFireEffect : public ::GlobalNamespace::FireEffect {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [SpaceAttribute] Offset: 0x12496BC
+    // [SpaceAttribute] Offset: 0x10CE1B4
     // private System.Single _fadeInDuration
     // Size: 0x4
     // Offset: 0x80
@@ -64,7 +56,7 @@ namespace GlobalNamespace {
     float fadeOutDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x1249704
+    // [SpaceAttribute] Offset: 0x10CE1FC
     // private System.Single _sustainDuration
     // Size: 0x4
     // Offset: 0x88
@@ -85,7 +77,7 @@ namespace GlobalNamespace {
     ::UnityEngine::AnimationCurve* bloomSustainCurve;
     // Field size check
     static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
-    // [InjectAttribute] Offset: 0x124975C
+    // [InjectAttribute] Offset: 0x10CE254
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0xA0
@@ -130,68 +122,63 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private System.Single _fadeInDuration
-    float& dyn__fadeInDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__fadeInDuration();
     // Get instance field reference: private System.Single _fadeOutDuration
-    float& dyn__fadeOutDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__fadeOutDuration();
     // Get instance field reference: private System.Single _sustainDuration
-    float& dyn__sustainDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__sustainDuration();
     // Get instance field reference: private UnityEngine.AnimationCurve _flipbookSustainCurve
-    ::UnityEngine::AnimationCurve*& dyn__flipbookSustainCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__flipbookSustainCurve();
     // Get instance field reference: private UnityEngine.AnimationCurve _bloomSustainCurve
-    ::UnityEngine::AnimationCurve*& dyn__bloomSustainCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__bloomSustainCurve();
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
-    ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // Get instance field reference: private System.Single _fadeInEndTime
-    float& dyn__fadeInEndTime();
+    [[deprecated("Use field access instead!")]] float& dyn__fadeInEndTime();
     // Get instance field reference: private System.Single _fadeOutStartTime
-    float& dyn__fadeOutStartTime();
+    [[deprecated("Use field access instead!")]] float& dyn__fadeOutStartTime();
     // Get instance field reference: private System.Single _effectStartTime
-    float& dyn__effectStartTime();
+    [[deprecated("Use field access instead!")]] float& dyn__effectStartTime();
     // Get instance field reference: private System.Single _effectEndTime
-    float& dyn__effectEndTime();
+    [[deprecated("Use field access instead!")]] float& dyn__effectEndTime();
     // Get instance field reference: private System.Single _lastSustainProgress
-    float& dyn__lastSustainProgress();
+    [[deprecated("Use field access instead!")]] float& dyn__lastSustainProgress();
     // Get instance field reference: private System.Single _lastFadeOutProgress
-    float& dyn__lastFadeOutProgress();
+    [[deprecated("Use field access instead!")]] float& dyn__lastFadeOutProgress();
     // protected System.Void Update()
-    // Offset: 0x14057C8
+    // Offset: 0x1425574
     void Update();
     // private System.Void SetInitialValues()
-    // Offset: 0x1405704
+    // Offset: 0x14254B0
     void SetInitialValues();
     // private System.Void StartEffect(System.Single startTime, System.Single endTime)
-    // Offset: 0x1405B20
+    // Offset: 0x14258CC
     void StartEffect(float startTime, float endTime);
     // private System.Void EndEffect()
-    // Offset: 0x1405AEC
+    // Offset: 0x1425898
     void EndEffect();
     // private System.Void UpdateEffect()
-    // Offset: 0x14057CC
+    // Offset: 0x1425578
     void UpdateEffect();
     // private System.Void UpdateRenderers(System.Single flipBookAlpha, System.Single bloomAlpha)
-    // Offset: 0x1405C54
+    // Offset: 0x1425A00
     void UpdateRenderers(float flipBookAlpha, float bloomAlpha);
     // public System.Void .ctor()
-    // Offset: 0x1405E20
+    // Offset: 0x1425BCC
     // Implemented from: FireEffect
     // Base method: System.Void FireEffect::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContinuousFireEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ContinuousFireEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContinuousFireEffect*, creationType>()));
     }
     // protected override System.Void Start()
-    // Offset: 0x14056CC
+    // Offset: 0x1425478
     // Implemented from: FireEffect
     // Base method: System.Void FireEffect::Start()
     void Start();
     // protected override System.Void HandleColorChangeBeatmapEvent(LightColorBeatmapEventData e)
-    // Offset: 0x1405990
+    // Offset: 0x142573C
     // Implemented from: FireEffect
     // Base method: System.Void FireEffect::HandleColorChangeBeatmapEvent(LightColorBeatmapEventData e)
     void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* e);

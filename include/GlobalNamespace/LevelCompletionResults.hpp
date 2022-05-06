@@ -93,7 +93,7 @@ namespace GlobalNamespace {
       // Set static field: static public LevelCompletionResults/LevelEndStateType Failed
       static void _set_Failed(::GlobalNamespace::LevelCompletionResults::LevelEndStateType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // LevelCompletionResults/LevelEndStateType
     #pragma pack(pop)
     static check_size<sizeof(LevelCompletionResults::LevelEndStateType), 0 + sizeof(int)> __GlobalNamespace_LevelCompletionResults_LevelEndStateTypeSizeCheck;
@@ -141,20 +141,12 @@ namespace GlobalNamespace {
       // Set static field: static public LevelCompletionResults/LevelEndAction Restart
       static void _set_Restart(::GlobalNamespace::LevelCompletionResults::LevelEndAction value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // LevelCompletionResults/LevelEndAction
     #pragma pack(pop)
     static check_size<sizeof(LevelCompletionResults::LevelEndAction), 0 + sizeof(int)> __GlobalNamespace_LevelCompletionResults_LevelEndActionSizeCheck;
     static_assert(sizeof(LevelCompletionResults::LevelEndAction) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly GameplayModifiers gameplayModifiers
     // Size: 0x8
     // Offset: 0x10
@@ -311,81 +303,79 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::IComparable*>(this);
     }
     // Get instance field reference: public readonly GameplayModifiers gameplayModifiers
-    ::GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
     // Get instance field reference: public readonly System.Int32 modifiedScore
-    int& dyn_modifiedScore();
+    [[deprecated("Use field access instead!")]] int& dyn_modifiedScore();
     // Get instance field reference: public readonly System.Int32 multipliedScore
-    int& dyn_multipliedScore();
+    [[deprecated("Use field access instead!")]] int& dyn_multipliedScore();
     // Get instance field reference: public readonly RankModel/Rank rank
-    ::GlobalNamespace::RankModel::Rank& dyn_rank();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::RankModel::Rank& dyn_rank();
     // Get instance field reference: public readonly System.Boolean fullCombo
-    bool& dyn_fullCombo();
+    [[deprecated("Use field access instead!")]] bool& dyn_fullCombo();
     // Get instance field reference: public readonly System.Single leftSaberMovementDistance
-    float& dyn_leftSaberMovementDistance();
+    [[deprecated("Use field access instead!")]] float& dyn_leftSaberMovementDistance();
     // Get instance field reference: public readonly System.Single rightSaberMovementDistance
-    float& dyn_rightSaberMovementDistance();
+    [[deprecated("Use field access instead!")]] float& dyn_rightSaberMovementDistance();
     // Get instance field reference: public readonly System.Single leftHandMovementDistance
-    float& dyn_leftHandMovementDistance();
+    [[deprecated("Use field access instead!")]] float& dyn_leftHandMovementDistance();
     // Get instance field reference: public readonly System.Single rightHandMovementDistance
-    float& dyn_rightHandMovementDistance();
+    [[deprecated("Use field access instead!")]] float& dyn_rightHandMovementDistance();
     // Get instance field reference: public readonly LevelCompletionResults/LevelEndStateType levelEndStateType
-    ::GlobalNamespace::LevelCompletionResults::LevelEndStateType& dyn_levelEndStateType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelCompletionResults::LevelEndStateType& dyn_levelEndStateType();
     // Get instance field reference: public readonly LevelCompletionResults/LevelEndAction levelEndAction
-    ::GlobalNamespace::LevelCompletionResults::LevelEndAction& dyn_levelEndAction();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelCompletionResults::LevelEndAction& dyn_levelEndAction();
     // Get instance field reference: public readonly System.Single energy
-    float& dyn_energy();
+    [[deprecated("Use field access instead!")]] float& dyn_energy();
     // Get instance field reference: public readonly System.Int32 goodCutsCount
-    int& dyn_goodCutsCount();
+    [[deprecated("Use field access instead!")]] int& dyn_goodCutsCount();
     // Get instance field reference: public readonly System.Int32 badCutsCount
-    int& dyn_badCutsCount();
+    [[deprecated("Use field access instead!")]] int& dyn_badCutsCount();
     // Get instance field reference: public readonly System.Int32 missedCount
-    int& dyn_missedCount();
+    [[deprecated("Use field access instead!")]] int& dyn_missedCount();
     // Get instance field reference: public readonly System.Int32 notGoodCount
-    int& dyn_notGoodCount();
+    [[deprecated("Use field access instead!")]] int& dyn_notGoodCount();
     // Get instance field reference: public readonly System.Int32 okCount
-    int& dyn_okCount();
+    [[deprecated("Use field access instead!")]] int& dyn_okCount();
     // Get instance field reference: public readonly System.Int32 maxCutScore
-    int& dyn_maxCutScore();
+    [[deprecated("Use field access instead!")]] int& dyn_maxCutScore();
     // Get instance field reference: public readonly System.Int32 totalCutScore
-    int& dyn_totalCutScore();
+    [[deprecated("Use field access instead!")]] int& dyn_totalCutScore();
     // Get instance field reference: public readonly System.Int32 goodCutsCountForNotesWithFullScoreScoringType
-    int& dyn_goodCutsCountForNotesWithFullScoreScoringType();
+    [[deprecated("Use field access instead!")]] int& dyn_goodCutsCountForNotesWithFullScoreScoringType();
     // Get instance field reference: public readonly System.Single averageCenterDistanceCutScoreForNotesWithFullScoreScoringType
-    float& dyn_averageCenterDistanceCutScoreForNotesWithFullScoreScoringType();
+    [[deprecated("Use field access instead!")]] float& dyn_averageCenterDistanceCutScoreForNotesWithFullScoreScoringType();
     // Get instance field reference: public readonly System.Single averageCutScoreForNotesWithFullScoreScoringType
-    float& dyn_averageCutScoreForNotesWithFullScoreScoringType();
+    [[deprecated("Use field access instead!")]] float& dyn_averageCutScoreForNotesWithFullScoreScoringType();
     // Get instance field reference: public readonly System.Int32 maxCombo
-    int& dyn_maxCombo();
+    [[deprecated("Use field access instead!")]] int& dyn_maxCombo();
     // Get instance field reference: public readonly System.Single endSongTime
-    float& dyn_endSongTime();
+    [[deprecated("Use field access instead!")]] float& dyn_endSongTime();
+    // public System.Void .ctor()
+    // Offset: 0x2A01320
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static LevelCompletionResults* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelCompletionResults::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<LevelCompletionResults*, creationType>()));
+    }
     // public System.Void .ctor(GameplayModifiers gameplayModifiers, System.Int32 modifiedScore, System.Int32 multipliedScore, RankModel/Rank rank, System.Boolean fullCombo, System.Single leftSaberMovementDistance, System.Single rightSaberMovementDistance, System.Single leftHandMovementDistance, System.Single rightHandMovementDistance, LevelCompletionResults/LevelEndStateType levelEndStateType, LevelCompletionResults/LevelEndAction levelEndAction, System.Single energy, System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCount, System.Int32 notGoodCount, System.Int32 okCount, System.Int32 maxCutScore, System.Int32 totalCutScore, System.Int32 goodCutsCountForNotesWithFullScoreScoringType, System.Single averageCenterDistanceCutScoreForNotesWithFullScoreScoringType, System.Single averageCutScoreForNotesWithFullScoreScoringType, System.Int32 maxCombo, System.Single endSongTime)
-    // Offset: 0x29BEFB4
+    // Offset: 0x2A01328
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelCompletionResults* New_ctor(::GlobalNamespace::GameplayModifiers* gameplayModifiers, int modifiedScore, int multipliedScore, ::GlobalNamespace::RankModel::Rank rank, bool fullCombo, float leftSaberMovementDistance, float rightSaberMovementDistance, float leftHandMovementDistance, float rightHandMovementDistance, ::GlobalNamespace::LevelCompletionResults::LevelEndStateType levelEndStateType, ::GlobalNamespace::LevelCompletionResults::LevelEndAction levelEndAction, float energy, int goodCutsCount, int badCutsCount, int missedCount, int notGoodCount, int okCount, int maxCutScore, int totalCutScore, int goodCutsCountForNotesWithFullScoreScoringType, float averageCenterDistanceCutScoreForNotesWithFullScoreScoringType, float averageCutScoreForNotesWithFullScoreScoringType, int maxCombo, float endSongTime) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelCompletionResults::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelCompletionResults*, creationType>(gameplayModifiers, modifiedScore, multipliedScore, rank, fullCombo, leftSaberMovementDistance, rightSaberMovementDistance, leftHandMovementDistance, rightHandMovementDistance, levelEndStateType, levelEndAction, energy, goodCutsCount, badCutsCount, missedCount, notGoodCount, okCount, maxCutScore, totalCutScore, goodCutsCountForNotesWithFullScoreScoringType, averageCenterDistanceCutScoreForNotesWithFullScoreScoringType, averageCutScoreForNotesWithFullScoreScoringType, maxCombo, endSongTime)));
     }
     // public System.Int32 CompareTo(System.Object obj)
-    // Offset: 0x29BF0FC
+    // Offset: 0x2A01470
     int CompareTo(::Il2CppObject* obj);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x29BF218
+    // Offset: 0x2A0158C
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // private LevelCompletionResults LiteNetLib.Utils.INetImmutableSerializable<LevelCompletionResults>.CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29BF4C0
+    // Offset: 0x2A01834
     ::GlobalNamespace::LevelCompletionResults* LiteNetLib_Utils_INetImmutableSerializable$LevelCompletionResults$_CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
     // static public LevelCompletionResults CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29BF4C8
+    // Offset: 0x2A0183C
     static ::GlobalNamespace::LevelCompletionResults* CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
-    // public System.Void .ctor()
-    // Offset: 0x29BEFAC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LevelCompletionResults* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelCompletionResults::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<LevelCompletionResults*, creationType>()));
-    }
   }; // LevelCompletionResults
   #pragma pack(pop)
   static check_size<sizeof(LevelCompletionResults), 112 + sizeof(float)> __GlobalNamespace_LevelCompletionResultsSizeCheck;
@@ -396,6 +386,10 @@ DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelCompletionResults::LevelEndAction
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelCompletionResults::LevelEndStateType, "", "LevelCompletionResults/LevelEndStateType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::LevelCompletionResults::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LevelCompletionResults::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -436,7 +430,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCompletionResults*), "CreateFromSerializedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LevelCompletionResults::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

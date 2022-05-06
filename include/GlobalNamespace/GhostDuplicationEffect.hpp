@@ -56,15 +56,7 @@ namespace GlobalNamespace {
     class $$c__DisplayClass7_0;
     // Nested type: ::GlobalNamespace::GhostDuplicationEffect::$HideRedundantWithDelay$d__8
     class $HideRedundantWithDelay$d__8;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.CanvasGroup[] _canvases
     // Size: 0x8
     // Offset: 0x18
@@ -79,7 +71,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isInitialized and: tweeningManager
     char __padding1[0x7] = {};
-    // [InjectAttribute] Offset: 0x1250B64
+    // [InjectAttribute] Offset: 0x10D5698
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -90,57 +82,51 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.CanvasGroup[] _canvases
-    ::ArrayW<::UnityEngine::CanvasGroup*>& dyn__canvases();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::CanvasGroup*>& dyn__canvases();
     // Get instance field reference: private System.Boolean isInitialized
-    bool& dyn_isInitialized();
+    [[deprecated("Use field access instead!")]] bool& dyn_isInitialized();
     // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
-    ::Tweening::TimeTweeningManager*& dyn__tweeningManager();
+    [[deprecated("Use field access instead!")]] ::Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x13E994C
+    // Offset: 0x13F63EC
     void set_hide(bool value);
     // private System.Single get_size()
-    // Offset: 0x13E9A48
+    // Offset: 0x13F64E8
     float get_size();
     // private System.Void set_size(System.Single value)
-    // Offset: 0x13E9984
+    // Offset: 0x13F6424
     void set_size(float value);
     // private System.Single get_alpha()
-    // Offset: 0x13E9A9C
+    // Offset: 0x13F653C
     float get_alpha();
     // private System.Void set_alpha(System.Single value)
-    // Offset: 0x13E92BC
+    // Offset: 0x13F5D5C
     void set_alpha(float value);
-    // protected System.Void OnDestroy()
-    // Offset: 0x13E9178
-    void OnDestroy();
-    // protected System.Void Awake()
-    // Offset: 0x13E9210
-    void Awake();
-    // private System.Void Init()
-    // Offset: 0x13E9220
-    void Init();
-    // public System.Void Animate(GhostDuplicationEffect/GhostEffectParams ghostEffectParams)
-    // Offset: 0x13E9398
-    void Animate(::GlobalNamespace::GhostDuplicationEffect::GhostEffectParams ghostEffectParams);
-    // private System.Collections.IEnumerator HideRedundantWithDelay(System.Single delay)
-    // Offset: 0x13E9738
-    ::System::Collections::IEnumerator* HideRedundantWithDelay(float delay);
-    // private System.Void SetDistances(System.Single distance, UnityEngine.Vector3 direction)
-    // Offset: 0x13E97E4
-    void SetDistances(float distance, ::UnityEngine::Vector3 direction);
     // public System.Void .ctor()
-    // Offset: 0x13E9AE8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13F6588
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GhostDuplicationEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GhostDuplicationEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GhostDuplicationEffect*, creationType>()));
     }
+    // protected System.Void OnDestroy()
+    // Offset: 0x13F5C18
+    void OnDestroy();
+    // protected System.Void Awake()
+    // Offset: 0x13F5CB0
+    void Awake();
+    // private System.Void Init()
+    // Offset: 0x13F5CC0
+    void Init();
+    // public System.Void Animate(GhostDuplicationEffect/GhostEffectParams ghostEffectParams)
+    // Offset: 0x13F5E38
+    void Animate(::GlobalNamespace::GhostDuplicationEffect::GhostEffectParams ghostEffectParams);
+    // private System.Collections.IEnumerator HideRedundantWithDelay(System.Single delay)
+    // Offset: 0x13F61D8
+    ::System::Collections::IEnumerator* HideRedundantWithDelay(float delay);
+    // private System.Void SetDistances(System.Single distance, UnityEngine.Vector3 direction)
+    // Offset: 0x13F6284
+    void SetDistances(float distance, ::UnityEngine::Vector3 direction);
   }; // GhostDuplicationEffect
   #pragma pack(pop)
   static check_size<sizeof(GhostDuplicationEffect), 40 + sizeof(::Tweening::TimeTweeningManager*)> __GlobalNamespace_GhostDuplicationEffectSizeCheck;
@@ -190,6 +176,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GhostDuplicationEffect*), "set_alpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::GhostDuplicationEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GhostDuplicationEffect::OnDestroy
 // Il2CppName: OnDestroy
 template<>
@@ -242,7 +232,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GhostDuplicationEffect*), "SetDistances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{distance, direction});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GhostDuplicationEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

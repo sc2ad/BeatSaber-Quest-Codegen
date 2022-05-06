@@ -42,15 +42,7 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class BakerTransform : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
@@ -135,58 +127,58 @@ namespace RootMotion {
     static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     public:
     // Get instance field reference: public UnityEngine.Transform transform
-    ::UnityEngine::Transform*& dyn_transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public UnityEngine.AnimationCurve posX
-    ::UnityEngine::AnimationCurve*& dyn_posX();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_posX();
     // Get instance field reference: public UnityEngine.AnimationCurve posY
-    ::UnityEngine::AnimationCurve*& dyn_posY();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_posY();
     // Get instance field reference: public UnityEngine.AnimationCurve posZ
-    ::UnityEngine::AnimationCurve*& dyn_posZ();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_posZ();
     // Get instance field reference: public UnityEngine.AnimationCurve rotX
-    ::UnityEngine::AnimationCurve*& dyn_rotX();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_rotX();
     // Get instance field reference: public UnityEngine.AnimationCurve rotY
-    ::UnityEngine::AnimationCurve*& dyn_rotY();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_rotY();
     // Get instance field reference: public UnityEngine.AnimationCurve rotZ
-    ::UnityEngine::AnimationCurve*& dyn_rotZ();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_rotZ();
     // Get instance field reference: public UnityEngine.AnimationCurve rotW
-    ::UnityEngine::AnimationCurve*& dyn_rotW();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_rotW();
     // Get instance field reference: private System.String relativePath
-    ::StringW& dyn_relativePath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_relativePath();
     // Get instance field reference: private System.Boolean recordPosition
-    bool& dyn_recordPosition();
+    [[deprecated("Use field access instead!")]] bool& dyn_recordPosition();
     // Get instance field reference: private UnityEngine.Vector3 relativePosition
-    ::UnityEngine::Vector3& dyn_relativePosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_relativePosition();
     // Get instance field reference: private System.Boolean isRootNode
-    bool& dyn_isRootNode();
+    [[deprecated("Use field access instead!")]] bool& dyn_isRootNode();
     // Get instance field reference: private UnityEngine.Quaternion relativeRotation
-    ::UnityEngine::Quaternion& dyn_relativeRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_relativeRotation();
     // public System.Void .ctor(UnityEngine.Transform transform, UnityEngine.Transform root, System.Boolean recordPosition, System.Boolean isRootNode)
-    // Offset: 0x21F9458
+    // Offset: 0x2246CCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakerTransform* New_ctor(::UnityEngine::Transform* transform, ::UnityEngine::Transform* root, bool recordPosition, bool isRootNode) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::BakerTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakerTransform*, creationType>(transform, root, recordPosition, isRootNode)));
     }
     // public System.Void SetRelativeSpace(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x21F95EC
+    // Offset: 0x2246E60
     void SetRelativeSpace(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
     // public System.Void SetCurves(ref UnityEngine.AnimationClip clip)
-    // Offset: 0x21F9600
+    // Offset: 0x2246E74
     void SetCurves(ByRef<::UnityEngine::AnimationClip*> clip);
     // private System.Void AddRootMotionCurves(ref UnityEngine.AnimationClip clip)
-    // Offset: 0x21F9890
+    // Offset: 0x2247104
     void AddRootMotionCurves(ByRef<::UnityEngine::AnimationClip*> clip);
     // public System.Void Reset()
-    // Offset: 0x21F94F4
+    // Offset: 0x2246D68
     void Reset();
     // public System.Void ReduceKeyframes(System.Single maxError)
-    // Offset: 0x21F9ADC
+    // Offset: 0x2247350
     void ReduceKeyframes(float maxError);
     // public System.Void SetKeyframes(System.Single time)
-    // Offset: 0x21F9B50
+    // Offset: 0x22473C4
     void SetKeyframes(float time);
     // public System.Void AddLoopFrame(System.Single time)
-    // Offset: 0x21F9D9C
+    // Offset: 0x2247610
     void AddLoopFrame(float time);
   }; // RootMotion.BakerTransform
   #pragma pack(pop)

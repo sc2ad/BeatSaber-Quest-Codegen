@@ -110,21 +110,13 @@ namespace GlobalNamespace {
       // Set static field: static public VRControllersRecorder/Mode Off
       static void _set_Off(::GlobalNamespace::VRControllersRecorder::Mode value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // VRControllersRecorder/Mode
     #pragma pack(pop)
     static check_size<sizeof(VRControllersRecorder::Mode), 0 + sizeof(int)> __GlobalNamespace_VRControllersRecorder_ModeSizeCheck;
     static_assert(sizeof(VRControllersRecorder::Mode) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [NullAllowed] Offset: 0x125F5C4
+    // [NullAllowed] Offset: 0x10E426C
     // private UnityEngine.TextAsset _recordingTextAsset
     // Size: 0x8
     // Offset: 0x18
@@ -143,7 +135,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::VRControllersRecorder::Mode mode;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::VRControllersRecorder::Mode) == 0x4);
-    // [SpaceAttribute] Offset: 0x125F61C
+    // [SpaceAttribute] Offset: 0x10E42C4
     // private System.Boolean _dontMoveHead
     // Size: 0x1
     // Offset: 0x2C
@@ -200,7 +192,7 @@ namespace GlobalNamespace {
     float controllersSmooth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x125F6D4
+    // [SpaceAttribute] Offset: 0x10E437C
     // private VRController _controller0
     // Size: 0x8
     // Offset: 0x58
@@ -225,7 +217,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Camera* camera;
     // Field size check
     static_assert(sizeof(::UnityEngine::Camera*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125F73C
+    // [SpaceAttribute] Offset: 0x10E43E4
     // private UnityEngine.Camera _recorderCamera
     // Size: 0x8
     // Offset: 0x78
@@ -238,14 +230,14 @@ namespace GlobalNamespace {
     ::UnityEngine::Transform* spawnRotationTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125F784
+    // [SpaceAttribute] Offset: 0x10E442C
     // private UnityEngine.Transform _originTransform
     // Size: 0x8
     // Offset: 0x88
     ::UnityEngine::Transform* originTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0x125F7BC
+    // [InjectAttribute] Offset: 0x10E4464
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x90
@@ -268,122 +260,116 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.TextAsset _recordingTextAsset
-    ::UnityEngine::TextAsset*& dyn__recordingTextAsset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TextAsset*& dyn__recordingTextAsset();
     // Get instance field reference: private System.String _recordingFileName
-    ::StringW& dyn__recordingFileName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__recordingFileName();
     // Get instance field reference: private VRControllersRecorder/Mode _mode
-    ::GlobalNamespace::VRControllersRecorder::Mode& dyn__mode();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VRControllersRecorder::Mode& dyn__mode();
     // Get instance field reference: private System.Boolean _dontMoveHead
-    bool& dyn__dontMoveHead();
+    [[deprecated("Use field access instead!")]] bool& dyn__dontMoveHead();
     // Get instance field reference: private System.Boolean _changeToNonVRCamera
-    bool& dyn__changeToNonVRCamera();
+    [[deprecated("Use field access instead!")]] bool& dyn__changeToNonVRCamera();
     // Get instance field reference: private System.Boolean _adjustSabersPositionBasedOnHeadPosition
-    bool& dyn__adjustSabersPositionBasedOnHeadPosition();
+    [[deprecated("Use field access instead!")]] bool& dyn__adjustSabersPositionBasedOnHeadPosition();
     // Get instance field reference: private UnityEngine.Vector3 _headRotationOffset
-    ::UnityEngine::Vector3& dyn__headRotationOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__headRotationOffset();
     // Get instance field reference: private UnityEngine.Vector3 _headPositionOffset
-    ::UnityEngine::Vector3& dyn__headPositionOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__headPositionOffset();
     // Get instance field reference: private System.Single _headSmooth
-    float& dyn__headSmooth();
+    [[deprecated("Use field access instead!")]] float& dyn__headSmooth();
     // Get instance field reference: private System.Single _cameraFOV
-    float& dyn__cameraFOV();
+    [[deprecated("Use field access instead!")]] float& dyn__cameraFOV();
     // Get instance field reference: private System.Single _controllersTimeOffset
-    float& dyn__controllersTimeOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__controllersTimeOffset();
     // Get instance field reference: private System.Single _controllersSmooth
-    float& dyn__controllersSmooth();
+    [[deprecated("Use field access instead!")]] float& dyn__controllersSmooth();
     // Get instance field reference: private VRController _controller0
-    ::GlobalNamespace::VRController*& dyn__controller0();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VRController*& dyn__controller0();
     // Get instance field reference: private VRController _controller1
-    ::GlobalNamespace::VRController*& dyn__controller1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VRController*& dyn__controller1();
     // Get instance field reference: private UnityEngine.Transform _headTransform
-    ::UnityEngine::Transform*& dyn__headTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__headTransform();
     // Get instance field reference: private UnityEngine.Camera _camera
-    ::UnityEngine::Camera*& dyn__camera();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Camera*& dyn__camera();
     // Get instance field reference: private UnityEngine.Camera _recorderCamera
-    ::UnityEngine::Camera*& dyn__recorderCamera();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Camera*& dyn__recorderCamera();
     // Get instance field reference: private UnityEngine.Transform _spawnRotationTransform
-    ::UnityEngine::Transform*& dyn__spawnRotationTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__spawnRotationTransform();
     // Get instance field reference: private UnityEngine.Transform _originTransform
-    ::UnityEngine::Transform*& dyn__originTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__originTransform();
     // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
-    ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // Get instance field reference: private System.Collections.Generic.List`1<VRControllersRecorder/Keyframe> _keyframes
-    ::System::Collections::Generic::List_1<::GlobalNamespace::VRControllersRecorder::Keyframe*>*& dyn__keyframes();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::VRControllersRecorder::Keyframe*>*& dyn__keyframes();
     // Get instance field reference: private System.Int32 _keyframeIndex
-    int& dyn__keyframeIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__keyframeIndex();
     // public VRControllersRecorder/Mode get_mode()
-    // Offset: 0x2ABCF2C
+    // Offset: 0x149C484
     ::GlobalNamespace::VRControllersRecorder::Mode get_mode();
     // public System.Void set_mode(VRControllersRecorder/Mode value)
-    // Offset: 0x2ABCF24
+    // Offset: 0x149C47C
     void set_mode(::GlobalNamespace::VRControllersRecorder::Mode value);
     // public UnityEngine.TextAsset get_recordingTextAsset()
-    // Offset: 0x2ABCF3C
+    // Offset: 0x149C494
     ::UnityEngine::TextAsset* get_recordingTextAsset();
     // public System.Void set_recordingTextAsset(UnityEngine.TextAsset value)
-    // Offset: 0x2ABCF34
+    // Offset: 0x149C48C
     void set_recordingTextAsset(::UnityEngine::TextAsset* value);
     // public System.String get_recordingFileName()
-    // Offset: 0x2ABCF4C
+    // Offset: 0x149C4A4
     ::StringW get_recordingFileName();
     // public System.Void set_recordingFileName(System.String value)
-    // Offset: 0x2ABCF44
+    // Offset: 0x149C49C
     void set_recordingFileName(::StringW value);
     // public System.Boolean get_changeToNonVRCamera()
-    // Offset: 0x2ABCF60
+    // Offset: 0x149C4B8
     bool get_changeToNonVRCamera();
     // public System.Void set_changeToNonVRCamera(System.Boolean value)
-    // Offset: 0x2ABCF54
+    // Offset: 0x149C4AC
     void set_changeToNonVRCamera(bool value);
-    // protected System.Void Start()
-    // Offset: 0x2ABCF68
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x2ABD860
-    void OnDestroy();
-    // public System.Void SetDefaultSettings()
-    // Offset: 0x2ABDB64
-    void SetDefaultSettings();
-    // public System.Void SetInGamePlaybackDefaultSettings()
-    // Offset: 0x2ABDBFC
-    void SetInGamePlaybackDefaultSettings();
-    // private System.Void PlaybackTick()
-    // Offset: 0x2ABDC98
-    void PlaybackTick();
-    // private System.Void SetPositionAndRotation(UnityEngine.Transform transf, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion targetRot, System.Single t)
-    // Offset: 0x2ABE570
-    void SetPositionAndRotation(::UnityEngine::Transform* transf, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion targetRot, float t);
-    // private System.Void RecordTick()
-    // Offset: 0x2ABE6EC
-    void RecordTick();
-    // protected System.Void Update()
-    // Offset: 0x2ABE938
-    void Update();
-    // protected System.Void LateUpdate()
-    // Offset: 0x2ABE9C0
-    void LateUpdate();
-    // private System.Void Save()
-    // Offset: 0x2ABD870
-    void Save();
-    // private System.Void Load()
-    // Offset: 0x2ABD328
-    void Load();
-    // static public UnityEngine.AnimationClip CreateAnimationClipFromRecording(System.String recordingfilePath)
-    // Offset: 0x2ABE9E8
-    static ::UnityEngine::AnimationClip* CreateAnimationClipFromRecording(::StringW recordingfilePath);
     // public System.Void .ctor()
-    // Offset: 0x2ABF51C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x149EA74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRControllersRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersRecorder*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x149C4C0
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x149CDB8
+    void OnDestroy();
+    // public System.Void SetDefaultSettings()
+    // Offset: 0x149D0BC
+    void SetDefaultSettings();
+    // public System.Void SetInGamePlaybackDefaultSettings()
+    // Offset: 0x149D154
+    void SetInGamePlaybackDefaultSettings();
+    // private System.Void PlaybackTick()
+    // Offset: 0x149D1F0
+    void PlaybackTick();
+    // private System.Void SetPositionAndRotation(UnityEngine.Transform transf, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion targetRot, System.Single t)
+    // Offset: 0x149DAC8
+    void SetPositionAndRotation(::UnityEngine::Transform* transf, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion targetRot, float t);
+    // private System.Void RecordTick()
+    // Offset: 0x149DC44
+    void RecordTick();
+    // protected System.Void Update()
+    // Offset: 0x149DE90
+    void Update();
+    // protected System.Void LateUpdate()
+    // Offset: 0x149DF18
+    void LateUpdate();
+    // private System.Void Save()
+    // Offset: 0x149CDC8
+    void Save();
+    // private System.Void Load()
+    // Offset: 0x149C880
+    void Load();
+    // static public UnityEngine.AnimationClip CreateAnimationClipFromRecording(System.String recordingfilePath)
+    // Offset: 0x149DF40
+    static ::UnityEngine::AnimationClip* CreateAnimationClipFromRecording(::StringW recordingfilePath);
   }; // VRControllersRecorder
   #pragma pack(pop)
   static check_size<sizeof(VRControllersRecorder), 160 + sizeof(int)> __GlobalNamespace_VRControllersRecorderSizeCheck;
@@ -460,6 +446,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "set_changeToNonVRCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::Start
 // Il2CppName: Start
 template<>
@@ -561,7 +551,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "CreateAnimationClipFromRecording", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{recordingfilePath});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

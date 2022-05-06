@@ -62,29 +62,21 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::HealthWarningFlowCoordinator::InitData
     class InitData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MainSettingsModelSO _mainSettingsModel
     // Size: 0x8
     // Offset: 0xA8
     ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1258F24
+    // [SpaceAttribute] Offset: 0x10DDB08
     // private AppInitScenesTransitionSetupDataContainerSO _appInitScenesTransitionSetupDataContainer
     // Size: 0x8
     // Offset: 0xB0
     ::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* appInitScenesTransitionSetupDataContainer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1258F5C
+    // [SpaceAttribute] Offset: 0x10DDB40
     // private SelectLanguageViewController _selectLanguageViewController
     // Size: 0x8
     // Offset: 0xB8
@@ -109,35 +101,35 @@ namespace GlobalNamespace {
     ::GlobalNamespace::HealthWarningViewController* healthWarningViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::HealthWarningViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1258FC4
+    // [InjectAttribute] Offset: 0x10DDBA8
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xD8
     ::GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x1258FD4
+    // [InjectAttribute] Offset: 0x10DDBB8
     // private readonly DlcPromoPanelModel _dlcPromoPanelModel
     // Size: 0x8
     // Offset: 0xE0
     ::GlobalNamespace::DlcPromoPanelModel* dlcPromoPanelModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::DlcPromoPanelModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x1258FE4
+    // [InjectAttribute] Offset: 0x10DDBC8
     // private readonly FadeInOutController _fadeInOut
     // Size: 0x8
     // Offset: 0xE8
     ::GlobalNamespace::FadeInOutController* fadeInOut;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FadeInOutController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1258FF4
+    // [InjectAttribute] Offset: 0x10DDBD8
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0xF0
     ::GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1259004
+    // [InjectAttribute] Offset: 0x10DDBE8
     // private readonly HealthWarningFlowCoordinator/InitData _initData
     // Size: 0x8
     // Offset: 0xF8
@@ -152,79 +144,72 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::HMUI::ViewController*, ::StringW>*) == 0x8);
     public:
     // Get instance field reference: private MainSettingsModelSO _mainSettingsModel
-    ::GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
     // Get instance field reference: private AppInitScenesTransitionSetupDataContainerSO _appInitScenesTransitionSetupDataContainer
-    ::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO*& dyn__appInitScenesTransitionSetupDataContainer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO*& dyn__appInitScenesTransitionSetupDataContainer();
     // Get instance field reference: private SelectLanguageViewController _selectLanguageViewController
-    ::GlobalNamespace::SelectLanguageViewController*& dyn__selectLanguageViewController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SelectLanguageViewController*& dyn__selectLanguageViewController();
     // Get instance field reference: private EulaViewController _eulaViewController
-    ::GlobalNamespace::EulaViewController*& dyn__eulaViewController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EulaViewController*& dyn__eulaViewController();
     // Get instance field reference: private PrivacyPolicyViewController _privacyPolicyViewController
-    ::GlobalNamespace::PrivacyPolicyViewController*& dyn__privacyPolicyViewController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PrivacyPolicyViewController*& dyn__privacyPolicyViewController();
     // Get instance field reference: private HealthWarningViewController _healthWarningViewController
-    ::GlobalNamespace::HealthWarningViewController*& dyn__healthWarningViewController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::HealthWarningViewController*& dyn__healthWarningViewController();
     // Get instance field reference: private readonly PlayerDataModel _playerDataModel
-    ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
     // Get instance field reference: private readonly DlcPromoPanelModel _dlcPromoPanelModel
-    ::GlobalNamespace::DlcPromoPanelModel*& dyn__dlcPromoPanelModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DlcPromoPanelModel*& dyn__dlcPromoPanelModel();
     // Get instance field reference: private readonly FadeInOutController _fadeInOut
-    ::GlobalNamespace::FadeInOutController*& dyn__fadeInOut();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FadeInOutController*& dyn__fadeInOut();
     // Get instance field reference: private readonly GameScenesManager _gameScenesManager
-    ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // Get instance field reference: private readonly HealthWarningFlowCoordinator/InitData _initData
-    ::GlobalNamespace::HealthWarningFlowCoordinator::InitData*& dyn__initData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::HealthWarningFlowCoordinator::InitData*& dyn__initData();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<HMUI.ViewController,System.String> _viewControllerTitles
-    ::System::Collections::Generic::Dictionary_2<::HMUI::ViewController*, ::StringW>*& dyn__viewControllerTitles();
-    // private HMUI.ViewController ResolvePlayerAgreementsViewController()
-    // Offset: 0x13B0CBC
-    ::HMUI::ViewController* ResolvePlayerAgreementsViewController();
-    // protected System.Void Update()
-    // Offset: 0x13B1028
-    void Update();
-    // private System.Void HandleSelectLanguageViewControllerDidChangeLanguage()
-    // Offset: 0x13B10CC
-    void HandleSelectLanguageViewControllerDidChangeLanguage();
-    // private System.Void HandleSelectLanguageViewControllerDidPressContinueButton()
-    // Offset: 0x13B1154
-    void HandleSelectLanguageViewControllerDidPressContinueButton();
-    // private System.Void HandleEulaViewControllerDidFinish(EulaViewController/ButtonType buttonType)
-    // Offset: 0x13B11AC
-    void HandleEulaViewControllerDidFinish(::GlobalNamespace::EulaViewController::ButtonType buttonType);
-    // private System.Void HandlePrivacyPolicyViewControllerDidFinish(PrivacyPolicyViewController/ButtonType buttonType)
-    // Offset: 0x13B1268
-    void HandlePrivacyPolicyViewControllerDidFinish(::GlobalNamespace::PrivacyPolicyViewController::ButtonType buttonType);
-    // private System.Void HandleHealthWarningViewControllerDidFinish()
-    // Offset: 0x13B1064
-    void HandleHealthWarningViewControllerDidFinish();
-    // private System.Void GoToNextScene()
-    // Offset: 0x13B12C4
-    void GoToNextScene();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::HMUI::ViewController*, ::StringW>*& dyn__viewControllerTitles();
     // public System.Void .ctor()
-    // Offset: 0x13B1324
-    // Implemented from: HMUI.FlowCoordinator
-    // Base method: System.Void FlowCoordinator::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13AC7D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HealthWarningFlowCoordinator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HealthWarningFlowCoordinator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningFlowCoordinator*, creationType>()));
     }
+    // private HMUI.ViewController ResolvePlayerAgreementsViewController()
+    // Offset: 0x13AC168
+    ::HMUI::ViewController* ResolvePlayerAgreementsViewController();
+    // protected System.Void Update()
+    // Offset: 0x13AC4D4
+    void Update();
+    // private System.Void HandleSelectLanguageViewControllerDidChangeLanguage()
+    // Offset: 0x13AC578
+    void HandleSelectLanguageViewControllerDidChangeLanguage();
+    // private System.Void HandleSelectLanguageViewControllerDidPressContinueButton()
+    // Offset: 0x13AC600
+    void HandleSelectLanguageViewControllerDidPressContinueButton();
+    // private System.Void HandleEulaViewControllerDidFinish(EulaViewController/ButtonType buttonType)
+    // Offset: 0x13AC658
+    void HandleEulaViewControllerDidFinish(::GlobalNamespace::EulaViewController::ButtonType buttonType);
+    // private System.Void HandlePrivacyPolicyViewControllerDidFinish(PrivacyPolicyViewController/ButtonType buttonType)
+    // Offset: 0x13AC714
+    void HandlePrivacyPolicyViewControllerDidFinish(::GlobalNamespace::PrivacyPolicyViewController::ButtonType buttonType);
+    // private System.Void HandleHealthWarningViewControllerDidFinish()
+    // Offset: 0x13AC510
+    void HandleHealthWarningViewControllerDidFinish();
+    // private System.Void GoToNextScene()
+    // Offset: 0x13AC770
+    void GoToNextScene();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13B08D0
+    // Offset: 0x13ABD7C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x13B0D40
+    // Offset: 0x13AC1EC
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/HMUI.AnimationType animationType)
-    // Offset: 0x13B0F94
+    // Offset: 0x13AC440
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/HMUI.AnimationType animationType)
     void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::ViewController::AnimationType animationType);
@@ -234,6 +219,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(HealthWarningFlowCoordinator) == 0x108);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::HealthWarningFlowCoordinator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::HealthWarningFlowCoordinator::ResolvePlayerAgreementsViewController
 // Il2CppName: ResolvePlayerAgreementsViewController
 template<>
@@ -300,10 +289,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningFlowCoordinator*), "GoToNextScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::HealthWarningFlowCoordinator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::HealthWarningFlowCoordinator::DidActivate
 // Il2CppName: DidActivate
 template<>

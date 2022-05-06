@@ -41,22 +41,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLobbyCenterStageLayoutAnimator : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.RectTransform _nextLevelTransform
     // Size: 0x8
     // Offset: 0x18
     ::UnityEngine::RectTransform* nextLevelTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::RectTransform*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125A100
+    // [SpaceAttribute] Offset: 0x10DECE4
     // private UnityEngine.RectTransform _nextLevelBasePosition
     // Size: 0x8
     // Offset: 0x20
@@ -69,7 +61,7 @@ namespace GlobalNamespace {
     ::UnityEngine::RectTransform* nextLevelCountdownPosition;
     // Field size check
     static_assert(sizeof(::UnityEngine::RectTransform*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125A148
+    // [SpaceAttribute] Offset: 0x10DED2C
     // private System.Single _transitionDuration
     // Size: 0x4
     // Offset: 0x30
@@ -78,7 +70,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: transitionDuration and: tweeningManager
     char __padding3[0x4] = {};
-    // [InjectAttribute] Offset: 0x125A180
+    // [InjectAttribute] Offset: 0x10DED64
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x38
@@ -89,46 +81,44 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.RectTransform _nextLevelTransform
-    ::UnityEngine::RectTransform*& dyn__nextLevelTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__nextLevelTransform();
     // Get instance field reference: private UnityEngine.RectTransform _nextLevelBasePosition
-    ::UnityEngine::RectTransform*& dyn__nextLevelBasePosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__nextLevelBasePosition();
     // Get instance field reference: private UnityEngine.RectTransform _nextLevelCountdownPosition
-    ::UnityEngine::RectTransform*& dyn__nextLevelCountdownPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__nextLevelCountdownPosition();
     // Get instance field reference: private System.Single _transitionDuration
-    float& dyn__transitionDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__transitionDuration();
     // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
-    ::Tweening::TimeTweeningManager*& dyn__tweeningManager();
-    // public System.Void StartCountdown()
-    // Offset: 0x13FB4F8
-    void StartCountdown();
-    // public System.Void StopCountdown(System.Boolean instant)
-    // Offset: 0x13FB724
-    void StopCountdown(bool instant);
-    // private System.Void Move(UnityEngine.Vector3 from, UnityEngine.Vector3 to, System.Single duration)
-    // Offset: 0x13FB5F8
-    void Move(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to, float duration);
-    // private System.Void <Move>b__7_0(UnityEngine.Vector3 pos)
-    // Offset: 0x13FB854
-    void $Move$b__7_0(::UnityEngine::Vector3 pos);
+    [[deprecated("Use field access instead!")]] ::Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // public System.Void .ctor()
-    // Offset: 0x13FB84C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14082EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLobbyCenterStageLayoutAnimator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLobbyCenterStageLayoutAnimator*, creationType>()));
     }
+    // public System.Void StartCountdown()
+    // Offset: 0x1407F98
+    void StartCountdown();
+    // public System.Void StopCountdown(System.Boolean instant)
+    // Offset: 0x14081C4
+    void StopCountdown(bool instant);
+    // private System.Void Move(UnityEngine.Vector3 from, UnityEngine.Vector3 to, System.Single duration)
+    // Offset: 0x1408098
+    void Move(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to, float duration);
+    // private System.Void <Move>b__7_0(UnityEngine.Vector3 pos)
+    // Offset: 0x14082F4
+    void $Move$b__7_0(::UnityEngine::Vector3 pos);
   }; // MultiplayerLobbyCenterStageLayoutAnimator
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLobbyCenterStageLayoutAnimator), 56 + sizeof(::Tweening::TimeTweeningManager*)> __GlobalNamespace_MultiplayerLobbyCenterStageLayoutAnimatorSizeCheck;
   static_assert(sizeof(MultiplayerLobbyCenterStageLayoutAnimator) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::StartCountdown
 // Il2CppName: StartCountdown
 template<>
@@ -166,7 +156,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator*), "<Move>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pos});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

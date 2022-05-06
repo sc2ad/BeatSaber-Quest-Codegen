@@ -35,15 +35,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::HMAsyncRequest::CancelHander
     class CancelHander;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean _cancelled
     // Size: 0x1
     // Offset: 0x18
@@ -62,26 +54,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator uint64_t
     constexpr operator uint64_t() const noexcept = delete;
     // Get instance field reference: private System.Boolean _cancelled
-    bool& dyn__cancelled();
+    [[deprecated("Use field access instead!")]] bool& dyn__cancelled();
     // Get instance field reference: private HMAsyncRequest/CancelHander _cancelHander
-    ::GlobalNamespace::HMAsyncRequest::CancelHander*& dyn__cancelHander();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::HMAsyncRequest::CancelHander*& dyn__cancelHander();
     // public HMAsyncRequest/CancelHander get_CancelHandler()
-    // Offset: 0x15721F0
+    // Offset: 0x15A8B00
     ::GlobalNamespace::HMAsyncRequest::CancelHander* get_CancelHandler();
     // public System.Void set_CancelHandler(HMAsyncRequest/CancelHander value)
-    // Offset: 0x15721F8
+    // Offset: 0x15A8B08
     void set_CancelHandler(::GlobalNamespace::HMAsyncRequest::CancelHander* value);
     // public System.Boolean get_cancelled()
-    // Offset: 0x1572200
+    // Offset: 0x15A8B10
     bool get_cancelled();
     // public System.Void Cancel()
-    // Offset: 0x1572208
+    // Offset: 0x15A8B18
     void Cancel();
     // public System.Void .ctor()
-    // Offset: 0x15725B8
+    // Offset: 0x15A8EC8
     // Implemented from: HMAutoincrementedRequestId
     // Base method: System.Void HMAutoincrementedRequestId::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMAsyncRequest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HMAsyncRequest::.ctor");

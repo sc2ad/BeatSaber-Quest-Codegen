@@ -39,15 +39,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConnectFaceRebuildData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.ProBuilder.FaceRebuildData faceRebuildData
     // Size: 0x8
     // Offset: 0x10
@@ -62,11 +54,11 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static_assert(sizeof(::System::Collections::Generic::List_1<int>*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.ProBuilder.FaceRebuildData faceRebuildData
-    ::UnityEngine::ProBuilder::FaceRebuildData*& dyn_faceRebuildData();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::FaceRebuildData*& dyn_faceRebuildData();
     // Get instance field reference: public System.Collections.Generic.List`1<System.Int32> newVertexIndexes
-    ::System::Collections::Generic::List_1<int>*& dyn_newVertexIndexes();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<int>*& dyn_newVertexIndexes();
     // public System.Void .ctor(UnityEngine.ProBuilder.FaceRebuildData faceRebuildData, System.Collections.Generic.List`1<System.Int32> newVertexIndexes)
-    // Offset: 0x19EE364
+    // Offset: 0x1A2794C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectFaceRebuildData* New_ctor(::UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData, ::System::Collections::Generic::List_1<int>* newVertexIndexes) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData::.ctor");

@@ -78,20 +78,12 @@ namespace GlobalNamespace {
       // Set static field: static public NetworkPlayersTableView/CellInfo/CellType Options
       static void _set_Options(::GlobalNamespace::NetworkPlayersTableView::CellInfo::CellType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // NetworkPlayersTableView/CellInfo/CellType
     #pragma pack(pop)
     static check_size<sizeof(NetworkPlayersTableView::CellInfo::CellType), 0 + sizeof(int)> __GlobalNamespace_NetworkPlayersTableView_CellInfo_CellTypeSizeCheck;
     static_assert(sizeof(NetworkPlayersTableView::CellInfo::CellType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public NetworkPlayersTableView/CellInfo/CellType type
     // Size: 0x4
     // Offset: 0x10
@@ -120,17 +112,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public NetworkPlayersTableView/CellInfo/CellType type
-    ::GlobalNamespace::NetworkPlayersTableView::CellInfo::CellType& dyn_type();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NetworkPlayersTableView::CellInfo::CellType& dyn_type();
     // Get instance field reference: public System.String headerString
-    ::StringW& dyn_headerString();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_headerString();
     // Get instance field reference: public INetworkPlayer player
-    ::GlobalNamespace::INetworkPlayer*& dyn_player();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::INetworkPlayer*& dyn_player();
     // Get instance field reference: public System.Boolean lastCellInParty
-    bool& dyn_lastCellInParty();
+    [[deprecated("Use field access instead!")]] bool& dyn_lastCellInParty();
     // public System.Void .ctor()
-    // Offset: 0x1470FF8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14A77E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkPlayersTableView::CellInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayersTableView::CellInfo::.ctor");

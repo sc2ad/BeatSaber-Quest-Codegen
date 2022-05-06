@@ -60,7 +60,7 @@ namespace System::Xml {
     // Set static field: static public System.Xml.ConformanceLevel Document
     static void _set_Document(::System::Xml::ConformanceLevel value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Xml.ConformanceLevel
   #pragma pack(pop)
   static check_size<sizeof(ConformanceLevel), 0 + sizeof(int)> __System_Xml_ConformanceLevelSizeCheck;

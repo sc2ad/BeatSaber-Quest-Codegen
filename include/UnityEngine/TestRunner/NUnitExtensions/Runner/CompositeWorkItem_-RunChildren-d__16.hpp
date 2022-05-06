@@ -40,15 +40,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class CompositeWorkItem::$RunChildren$d__16 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>, public ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -105,51 +97,51 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Object <>2__current
-    ::Il2CppObject*& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$$2__current();
     // Get instance field reference: private System.Int32 <>l__initialThreadId
-    int& dyn_$$l__initialThreadId();
+    [[deprecated("Use field access instead!")]] int& dyn_$$l__initialThreadId();
     // Get instance field reference: public UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem <>4__this
-    ::UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*& dyn_$$4__this();
     // Get instance field reference: private System.Int32 <childCount>5__2
-    int& dyn_$childCount$5__2();
+    [[deprecated("Use field access instead!")]] int& dyn_$childCount$5__2();
     // Get instance field reference: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem> <>7__wrap2
-    typename ::System::Collections::Generic::List_1<::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>::Enumerator& dyn_$$7__wrap2();
+    [[deprecated("Use field access instead!")]] typename ::System::Collections::Generic::List_1<::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>::Enumerator& dyn_$$7__wrap2();
     // Get instance field reference: private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem <child>5__4
-    ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*& dyn_$child$5__4();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*& dyn_$child$5__4();
     // Get instance field reference: private System.Collections.IEnumerator <enumerable>5__5
-    ::System::Collections::IEnumerator*& dyn_$enumerable$5__5();
+    [[deprecated("Use field access instead!")]] ::System::Collections::IEnumerator*& dyn_$enumerable$5__5();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x193D7D0
+    // Offset: 0x1975438
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x193D838
+    // Offset: 0x19754A0
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x193AD30
+    // Offset: 0x1972998
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompositeWorkItem::$RunChildren$d__16* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::$RunChildren$d__16::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompositeWorkItem::$RunChildren$d__16*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x193CFE4
+    // Offset: 0x1974C4C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x193D058
+    // Offset: 0x1974CC0
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x193D000
+    // Offset: 0x1974C68
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x193D7D8
+    // Offset: 0x1975440
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.Object> System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator()
-    // Offset: 0x193D840
+    // Offset: 0x19754A8
     ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>* System_Collections_Generic_IEnumerable$System_Object$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x193D8EC
+    // Offset: 0x1975554
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>d__16
   // WARNING Not writing size check since size may be invalid!

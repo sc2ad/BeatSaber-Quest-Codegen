@@ -31,17 +31,16 @@ namespace Newtonsoft::Json::Serialization {
   class CamelCasePropertyNamesContractResolver : public ::Newtonsoft::Json::Serialization::DefaultContractResolver {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1722C00
+    // Offset: 0x175B510
     // Implemented from: Newtonsoft.Json.Serialization.DefaultContractResolver
     // Base method: System.Void DefaultContractResolver::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CamelCasePropertyNamesContractResolver* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CamelCasePropertyNamesContractResolver*, creationType>()));
     }
     // protected override System.String ResolvePropertyName(System.String propertyName)
-    // Offset: 0x1722C9C
+    // Offset: 0x175B5AC
     // Implemented from: Newtonsoft.Json.Serialization.DefaultContractResolver
     // Base method: System.String DefaultContractResolver::ResolvePropertyName(System.String propertyName)
     ::StringW ResolvePropertyName(::StringW propertyName);

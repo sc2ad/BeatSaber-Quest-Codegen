@@ -57,23 +57,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerHeadAndObstacleInteraction : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x12559A8
+    // [InjectAttribute] Offset: 0x10DA58C
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0x12559B8
+    // [InjectAttribute] Offset: 0x10DA59C
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
@@ -116,53 +108,47 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly PlayerTransforms _playerTransforms
-    ::GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
-    ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // Get instance field reference: private System.Action headDidEnterObstaclesEvent
-    ::System::Action*& dyn_headDidEnterObstaclesEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_headDidEnterObstaclesEvent();
     // Get instance field reference: private System.Action`1<ObstacleController> headDidEnterObstacleEvent
-    ::System::Action_1<::GlobalNamespace::ObstacleController*>*& dyn_headDidEnterObstacleEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::ObstacleController*>*& dyn_headDidEnterObstacleEvent();
     // Get instance field reference: private System.Int32 _lastFrameNumCheck
-    int& dyn__lastFrameNumCheck();
+    [[deprecated("Use field access instead!")]] int& dyn__lastFrameNumCheck();
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<ObstacleController> _intersectingObstacles
-    ::System::Collections::Generic::HashSet_1<::GlobalNamespace::ObstacleController*>*& dyn__intersectingObstacles();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::GlobalNamespace::ObstacleController*>*& dyn__intersectingObstacles();
     // Get instance field reference: private System.Int32 _prevFrameNumberOfIntersectingObstaclesCount
-    int& dyn__prevFrameNumberOfIntersectingObstaclesCount();
+    [[deprecated("Use field access instead!")]] int& dyn__prevFrameNumberOfIntersectingObstaclesCount();
     // public System.Boolean get_playerHeadIsInObstacle()
-    // Offset: 0x136F960
+    // Offset: 0x13D7330
     bool get_playerHeadIsInObstacle();
     // public System.Void add_headDidEnterObstaclesEvent(System.Action value)
-    // Offset: 0x136F6D0
+    // Offset: 0x13D70A0
     void add_headDidEnterObstaclesEvent(::System::Action* value);
     // public System.Void remove_headDidEnterObstaclesEvent(System.Action value)
-    // Offset: 0x136F774
+    // Offset: 0x13D7144
     void remove_headDidEnterObstaclesEvent(::System::Action* value);
     // public System.Void add_headDidEnterObstacleEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x136F818
+    // Offset: 0x13D71E8
     void add_headDidEnterObstacleEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void remove_headDidEnterObstacleEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x136F8BC
+    // Offset: 0x13D728C
     void remove_headDidEnterObstacleEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
-    // private System.Void RefreshIntersectingObstacles(UnityEngine.Vector3 worldPos)
-    // Offset: 0x136F9B8
-    void RefreshIntersectingObstacles(::UnityEngine::Vector3 worldPos);
-    // protected System.Void Update()
-    // Offset: 0x136FC58
-    void Update();
     // public System.Void .ctor()
-    // Offset: 0x136FCE4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D76B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerHeadAndObstacleInteraction* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerHeadAndObstacleInteraction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerHeadAndObstacleInteraction*, creationType>()));
     }
+    // private System.Void RefreshIntersectingObstacles(UnityEngine.Vector3 worldPos)
+    // Offset: 0x13D7388
+    void RefreshIntersectingObstacles(::UnityEngine::Vector3 worldPos);
+    // protected System.Void Update()
+    // Offset: 0x13D7628
+    void Update();
   }; // PlayerHeadAndObstacleInteraction
   #pragma pack(pop)
   static check_size<sizeof(PlayerHeadAndObstacleInteraction), 72 + sizeof(int)> __GlobalNamespace_PlayerHeadAndObstacleInteractionSizeCheck;
@@ -213,6 +199,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeadAndObstacleInteraction*), "remove_headDidEnterObstacleEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PlayerHeadAndObstacleInteraction::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerHeadAndObstacleInteraction::RefreshIntersectingObstacles
 // Il2CppName: RefreshIntersectingObstacles
 template<>
@@ -230,7 +220,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeadAndObstacleInteraction*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PlayerHeadAndObstacleInteraction::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

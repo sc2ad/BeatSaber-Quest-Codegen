@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MainSettingsMenuViewControllersInstaller : public ::Zenject::MonoInstaller {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MainSettingsMenuViewController _defaultSettingsMenuViewController
     // Size: 0x8
     // Offset: 0x20
@@ -78,32 +70,24 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::TabBarViewController*) == 0x8);
     public:
     // Get instance field reference: private MainSettingsMenuViewController _defaultSettingsMenuViewController
-    ::GlobalNamespace::MainSettingsMenuViewController*& dyn__defaultSettingsMenuViewController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainSettingsMenuViewController*& dyn__defaultSettingsMenuViewController();
     // Get instance field reference: private MainSettingsMenuViewController _oculusPCSettingsMenuViewController
-    ::GlobalNamespace::MainSettingsMenuViewController*& dyn__oculusPCSettingsMenuViewController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainSettingsMenuViewController*& dyn__oculusPCSettingsMenuViewController();
     // Get instance field reference: private MainSettingsMenuViewController _questSettingsMenuViewController
-    ::GlobalNamespace::MainSettingsMenuViewController*& dyn__questSettingsMenuViewController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainSettingsMenuViewController*& dyn__questSettingsMenuViewController();
     // Get instance field reference: private MainSettingsMenuViewController _psvrSettingsMenuViewController
-    ::GlobalNamespace::MainSettingsMenuViewController*& dyn__psvrSettingsMenuViewController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainSettingsMenuViewController*& dyn__psvrSettingsMenuViewController();
     // Get instance field reference: private TabBarViewController _tabBarViewControllerPrefab
-    ::GlobalNamespace::TabBarViewController*& dyn__tabBarViewControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TabBarViewController*& dyn__tabBarViewControllerPrefab();
     // public System.Void .ctor()
-    // Offset: 0x1533CE4
-    // Implemented from: Zenject.MonoInstaller
-    // Base method: System.Void MonoInstaller::.ctor()
-    // Base method: System.Void MonoInstallerBase::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x156B5EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainSettingsMenuViewControllersInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainSettingsMenuViewControllersInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainSettingsMenuViewControllersInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1533C40
+    // Offset: 0x156B548
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

@@ -29,15 +29,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PS4PublisherSKUSettingsSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _skuName
     // Size: 0x8
     // Offset: 0x18
@@ -74,37 +66,32 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _skuName
-    ::StringW& dyn__skuName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__skuName();
     // Get instance field reference: private System.String _contentId
-    ::StringW& dyn__contentId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__contentId();
     // Get instance field reference: private System.Int32 _parentalLockLevel
-    int& dyn__parentalLockLevel();
+    [[deprecated("Use field access instead!")]] int& dyn__parentalLockLevel();
     // Get instance field reference: private System.String _npTitleFilenamePath
-    ::StringW& dyn__npTitleFilenamePath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__npTitleFilenamePath();
     // Get instance field reference: private System.Int32 _defaultAgeRestriction
-    int& dyn__defaultAgeRestriction();
+    [[deprecated("Use field access instead!")]] int& dyn__defaultAgeRestriction();
     // public System.String get_skuName()
-    // Offset: 0x12EB5C8
+    // Offset: 0x135C580
     ::StringW get_skuName();
     // public System.String get_contentId()
-    // Offset: 0x12EB5D0
+    // Offset: 0x135C588
     ::StringW get_contentId();
     // public System.Int32 get_parentalLockLevel()
-    // Offset: 0x12EB5D8
+    // Offset: 0x135C590
     int get_parentalLockLevel();
     // public System.String get_npTitleFilenamePath()
-    // Offset: 0x12EB5E0
+    // Offset: 0x135C598
     ::StringW get_npTitleFilenamePath();
     // public System.Int32 get_defaultAgeRestriction()
-    // Offset: 0x12EB5E8
+    // Offset: 0x135C5A0
     int get_defaultAgeRestriction();
     // public System.Void .ctor()
-    // Offset: 0x12EB5F0
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x135C5A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4PublisherSKUSettingsSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PS4PublisherSKUSettingsSO::.ctor");

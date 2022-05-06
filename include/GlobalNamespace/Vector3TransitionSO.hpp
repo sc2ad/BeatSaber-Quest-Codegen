@@ -28,15 +28,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class Vector3TransitionSO : public ::GlobalNamespace::BaseTransitionSO {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Vector3 _normalState
     // Size: 0xC
     // Offset: 0x20
@@ -75,43 +67,39 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: private UnityEngine.Vector3 _normalState
-    ::UnityEngine::Vector3& dyn__normalState();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__normalState();
     // Get instance field reference: private UnityEngine.Vector3 _highlightedState
-    ::UnityEngine::Vector3& dyn__highlightedState();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__highlightedState();
     // Get instance field reference: private UnityEngine.Vector3 _pressedState
-    ::UnityEngine::Vector3& dyn__pressedState();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__pressedState();
     // Get instance field reference: private UnityEngine.Vector3 _disabledState
-    ::UnityEngine::Vector3& dyn__disabledState();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__disabledState();
     // Get instance field reference: private UnityEngine.Vector3 _selectedState
-    ::UnityEngine::Vector3& dyn__selectedState();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__selectedState();
     // Get instance field reference: private UnityEngine.Vector3 _selectedAndHighlightedState
-    ::UnityEngine::Vector3& dyn__selectedAndHighlightedState();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__selectedAndHighlightedState();
     // public UnityEngine.Vector3 get_normalState()
-    // Offset: 0x2AC2EDC
+    // Offset: 0x14A2434
     ::UnityEngine::Vector3 get_normalState();
     // public UnityEngine.Vector3 get_highlightedState()
-    // Offset: 0x2AC2EE8
+    // Offset: 0x14A2440
     ::UnityEngine::Vector3 get_highlightedState();
     // public UnityEngine.Vector3 get_pressedState()
-    // Offset: 0x2AC2EF4
+    // Offset: 0x14A244C
     ::UnityEngine::Vector3 get_pressedState();
     // public UnityEngine.Vector3 get_disabledState()
-    // Offset: 0x2AC2F00
+    // Offset: 0x14A2458
     ::UnityEngine::Vector3 get_disabledState();
     // public UnityEngine.Vector3 get_selectedState()
-    // Offset: 0x2AC2F0C
+    // Offset: 0x14A2464
     ::UnityEngine::Vector3 get_selectedState();
     // public UnityEngine.Vector3 get_selectedAndHighlightedState()
-    // Offset: 0x2AC2F18
+    // Offset: 0x14A2470
     ::UnityEngine::Vector3 get_selectedAndHighlightedState();
     // public System.Void .ctor()
-    // Offset: 0x2AC2F24
+    // Offset: 0x14A247C
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Vector3TransitionSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::Vector3TransitionSO::.ctor");

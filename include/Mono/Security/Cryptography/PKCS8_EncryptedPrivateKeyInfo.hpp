@@ -25,15 +25,7 @@ namespace Mono::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class PKCS8::EncryptedPrivateKeyInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _algorithm
     // Size: 0x8
     // Offset: 0x10
@@ -62,44 +54,42 @@ namespace Mono::Security::Cryptography {
     static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     public:
     // Get instance field reference: private System.String _algorithm
-    ::StringW& dyn__algorithm();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__algorithm();
     // Get instance field reference: private System.Byte[] _salt
-    ::ArrayW<uint8_t>& dyn__salt();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__salt();
     // Get instance field reference: private System.Int32 _iterations
-    int& dyn__iterations();
+    [[deprecated("Use field access instead!")]] int& dyn__iterations();
     // Get instance field reference: private System.Byte[] _data
-    ::ArrayW<uint8_t>& dyn__data();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__data();
     // public System.String get_Algorithm()
-    // Offset: 0x22F9C24
+    // Offset: 0x2343498
     ::StringW get_Algorithm();
     // public System.Byte[] get_EncryptedData()
-    // Offset: 0x22F9C2C
+    // Offset: 0x23434A0
     ::ArrayW<uint8_t> get_EncryptedData();
     // public System.Byte[] get_Salt()
-    // Offset: 0x22F9CA8
+    // Offset: 0x234351C
     ::ArrayW<uint8_t> get_Salt();
     // public System.Int32 get_IterationCount()
-    // Offset: 0x22F9D6C
+    // Offset: 0x23435E0
     int get_IterationCount();
+    // public System.Void .ctor()
+    // Offset: 0x23431E0
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static PKCS8::EncryptedPrivateKeyInfo* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<PKCS8::EncryptedPrivateKeyInfo*, creationType>()));
+    }
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x22F9974
+    // Offset: 0x23431E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS8::EncryptedPrivateKeyInfo* New_ctor(::ArrayW<uint8_t> data) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS8::EncryptedPrivateKeyInfo*, creationType>(data)));
     }
     // private System.Void Decode(System.Byte[] data)
-    // Offset: 0x22F99A4
+    // Offset: 0x2343218
     void Decode(::ArrayW<uint8_t> data);
-    // public System.Void .ctor()
-    // Offset: 0x22F996C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PKCS8::EncryptedPrivateKeyInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<PKCS8::EncryptedPrivateKeyInfo*, creationType>()));
-    }
   }; // Mono.Security.Cryptography.PKCS8/Mono.Security.Cryptography.EncryptedPrivateKeyInfo
   #pragma pack(pop)
   static check_size<sizeof(PKCS8::EncryptedPrivateKeyInfo), 40 + sizeof(::ArrayW<uint8_t>)> __Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfoSizeCheck;
@@ -142,6 +132,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::Decode
 // Il2CppName: Decode
 template<>
@@ -151,7 +145,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
   }
 };
-// Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

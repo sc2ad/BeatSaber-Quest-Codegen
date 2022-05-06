@@ -70,7 +70,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.Clipping/UnityEngine.ProBuilder.OutCode Top
     static void _set_Top(::UnityEngine::ProBuilder::Clipping::OutCode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.ProBuilder.Clipping/UnityEngine.ProBuilder.OutCode
   #pragma pack(pop)
   static check_size<sizeof(Clipping::OutCode), 0 + sizeof(int)> __UnityEngine_ProBuilder_Clipping_OutCodeSizeCheck;

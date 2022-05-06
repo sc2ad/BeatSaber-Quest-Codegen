@@ -108,21 +108,13 @@ namespace GlobalNamespace {
       // Set static field: static public EulaViewController/ButtonType DoNotAgree
       static void _set_DoNotAgree(::GlobalNamespace::EulaViewController::ButtonType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // EulaViewController/ButtonType
     #pragma pack(pop)
     static check_size<sizeof(EulaViewController::ButtonType), 0 + sizeof(int)> __GlobalNamespace_EulaViewController_ButtonTypeSizeCheck;
     static_assert(sizeof(EulaViewController::ButtonType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [HeaderAttribute] Offset: 0x125AE74
+    // [HeaderAttribute] Offset: 0x10DFA58
     // private UnityEngine.UI.Button _agreeButton
     // Size: 0x8
     // Offset: 0x70
@@ -149,7 +141,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: disabledButtonDelay and: textPageScrollView
     char __padding3[0x4] = {};
-    // [HeaderAttribute] Offset: 0x125AEF0
+    // [HeaderAttribute] Offset: 0x10DFAD4
     // private HMUI.TextPageScrollView _textPageScrollView
     // Size: 0x8
     // Offset: 0x90
@@ -162,7 +154,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::LocalizedTextAsset* eulaLocalizedTextAsset;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LocalizedTextAsset*) == 0x8);
-    // [InjectAttribute] Offset: 0x125AF4C
+    // [InjectAttribute] Offset: 0x10DFB30
     // private readonly EulaViewController/InitData _initData
     // Size: 0x8
     // Offset: 0xA0
@@ -183,59 +175,52 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Coroutine*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.UI.Button _agreeButton
-    ::UnityEngine::UI::Button*& dyn__agreeButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__agreeButton();
     // Get instance field reference: private UnityEngine.UI.Button _doNotAgreeButton
-    ::UnityEngine::UI::Button*& dyn__doNotAgreeButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__doNotAgreeButton();
     // Get instance field reference: private UnityEngine.UI.Image _disableButtonsProgress
-    ::UnityEngine::UI::Image*& dyn__disableButtonsProgress();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__disableButtonsProgress();
     // Get instance field reference: private System.Single _disabledButtonDelay
-    float& dyn__disabledButtonDelay();
+    [[deprecated("Use field access instead!")]] float& dyn__disabledButtonDelay();
     // Get instance field reference: private HMUI.TextPageScrollView _textPageScrollView
-    ::HMUI::TextPageScrollView*& dyn__textPageScrollView();
+    [[deprecated("Use field access instead!")]] ::HMUI::TextPageScrollView*& dyn__textPageScrollView();
     // Get instance field reference: private LocalizedTextAsset _eulaLocalizedTextAsset
-    ::GlobalNamespace::LocalizedTextAsset*& dyn__eulaLocalizedTextAsset();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LocalizedTextAsset*& dyn__eulaLocalizedTextAsset();
     // Get instance field reference: private readonly EulaViewController/InitData _initData
-    ::GlobalNamespace::EulaViewController::InitData*& dyn__initData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EulaViewController::InitData*& dyn__initData();
     // Get instance field reference: private System.Action`1<EulaViewController/ButtonType> didFinishEvent
-    ::System::Action_1<::GlobalNamespace::EulaViewController::ButtonType>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::EulaViewController::ButtonType>*& dyn_didFinishEvent();
     // Get instance field reference: private UnityEngine.Coroutine _buttonsCoroutine
-    ::UnityEngine::Coroutine*& dyn__buttonsCoroutine();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Coroutine*& dyn__buttonsCoroutine();
     // public System.Void add_didFinishEvent(System.Action`1<EulaViewController/ButtonType> value)
-    // Offset: 0x1386518
+    // Offset: 0x136E0F4
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::EulaViewController::ButtonType>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<EulaViewController/ButtonType> value)
-    // Offset: 0x13865BC
+    // Offset: 0x136E198
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::EulaViewController::ButtonType>* value);
-    // private System.Collections.IEnumerator EnableButtonsCoroutine(System.Single delay)
-    // Offset: 0x1386824
-    ::System::Collections::IEnumerator* EnableButtonsCoroutine(float delay);
-    // private System.Void <DidActivate>b__13_0()
-    // Offset: 0x13869AC
-    void $DidActivate$b__13_0();
-    // private System.Void <DidActivate>b__13_1()
-    // Offset: 0x1386A10
-    void $DidActivate$b__13_1();
     // public System.Void .ctor()
-    // Offset: 0x138699C
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x136E578
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EulaViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EulaViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EulaViewController*, creationType>()));
     }
+    // private System.Collections.IEnumerator EnableButtonsCoroutine(System.Single delay)
+    // Offset: 0x136E400
+    ::System::Collections::IEnumerator* EnableButtonsCoroutine(float delay);
+    // private System.Void <DidActivate>b__13_0()
+    // Offset: 0x136E588
+    void $DidActivate$b__13_0();
+    // private System.Void <DidActivate>b__13_1()
+    // Offset: 0x136E5EC
+    void $DidActivate$b__13_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1386660
+    // Offset: 0x136E23C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x13868A4
+    // Offset: 0x136E480
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
@@ -265,6 +250,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EulaViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::EulaViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EulaViewController::EnableButtonsCoroutine
 // Il2CppName: EnableButtonsCoroutine
 template<>
@@ -290,10 +279,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EulaViewController*), "<DidActivate>b__13_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::EulaViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EulaViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

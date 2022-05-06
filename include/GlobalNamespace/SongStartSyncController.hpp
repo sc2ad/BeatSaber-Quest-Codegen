@@ -50,23 +50,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SongStartSyncController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x124DCA4
+    // [InjectAttribute] Offset: 0x10D279C
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x124DCB4
+    // [InjectAttribute] Offset: 0x10D27AC
     // private readonly IGameplayRpcManager _gameplayRpcManager
     // Size: 0x8
     // Offset: 0x20
@@ -135,80 +127,74 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kAudioLoadTimeout
     static void _set_kAudioLoadTimeout(float value);
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // Get instance field reference: private readonly IGameplayRpcManager _gameplayRpcManager
-    ::GlobalNamespace::IGameplayRpcManager*& dyn__gameplayRpcManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IGameplayRpcManager*& dyn__gameplayRpcManager();
     // Get instance field reference: private System.Single _waitStartTime
-    float& dyn__waitStartTime();
+    [[deprecated("Use field access instead!")]] float& dyn__waitStartTime();
     // Get instance field reference: private System.Boolean _songStarted
-    bool& dyn__songStarted();
+    [[deprecated("Use field access instead!")]] bool& dyn__songStarted();
     // Get instance field reference: private System.Single _startTime
-    float& dyn__startTime();
+    [[deprecated("Use field access instead!")]] float& dyn__startTime();
     // Get instance field reference: private System.String _sessionGameId
-    ::StringW& dyn__sessionGameId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__sessionGameId();
     // Get instance field reference: private SongStartHandler _songStartHandler
-    ::GlobalNamespace::SongStartHandler*& dyn__songStartHandler();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongStartHandler*& dyn__songStartHandler();
     // Get instance field reference: private System.Action syncStartFailedEvent
-    ::System::Action*& dyn_syncStartFailedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_syncStartFailedEvent();
     // Get instance field reference: private System.Action`1<System.Single> syncStartSuccessEvent
-    ::System::Action_1<float>*& dyn_syncStartSuccessEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<float>*& dyn_syncStartSuccessEvent();
     // Get instance field reference: private System.Action`1<System.Single> syncResumeEvent
-    ::System::Action_1<float>*& dyn_syncResumeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<float>*& dyn_syncResumeEvent();
     // public System.Boolean get_isSongStarted()
-    // Offset: 0x2AA882C
+    // Offset: 0x138F450
     bool get_isSongStarted();
     // public System.Single get_songStartSyncTime()
-    // Offset: 0x2AA8834
+    // Offset: 0x138F458
     float get_songStartSyncTime();
     // public System.Void add_syncStartFailedEvent(System.Action value)
-    // Offset: 0x2AA8850
+    // Offset: 0x138F474
     void add_syncStartFailedEvent(::System::Action* value);
     // public System.Void remove_syncStartFailedEvent(System.Action value)
-    // Offset: 0x2AA88F4
+    // Offset: 0x138F518
     void remove_syncStartFailedEvent(::System::Action* value);
     // public System.Void add_syncStartSuccessEvent(System.Action`1<System.Single> value)
-    // Offset: 0x2AA8998
+    // Offset: 0x138F5BC
     void add_syncStartSuccessEvent(::System::Action_1<float>* value);
     // public System.Void remove_syncStartSuccessEvent(System.Action`1<System.Single> value)
-    // Offset: 0x2AA8A3C
+    // Offset: 0x138F660
     void remove_syncStartSuccessEvent(::System::Action_1<float>* value);
     // public System.Void add_syncResumeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x2AA8AE0
+    // Offset: 0x138F704
     void add_syncResumeEvent(::System::Action_1<float>* value);
     // public System.Void remove_syncResumeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x2AA8B84
+    // Offset: 0x138F7A8
     void remove_syncResumeEvent(::System::Action_1<float>* value);
-    // protected System.Void Start()
-    // Offset: 0x2AA8C28
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x2AA8C34
-    void OnDestroy();
-    // protected System.Void Update()
-    // Offset: 0x2AA8C48
-    void Update();
-    // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0x2AA8CB0
-    void OnApplicationPause(bool pauseStatus);
-    // public System.Void StartSong(PlayersSpecificSettingsAtGameStartModel playersSpecificSettingsAtGameStartModel, System.String sessionGameId)
-    // Offset: 0x2AA8D3C
-    void StartSong(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersSpecificSettingsAtGameStartModel, ::StringW sessionGameId);
-    // private System.Void HandleSetSongStartSyncTime(System.Single songStartSyncTime)
-    // Offset: 0x2AA8E8C
-    void HandleSetSongStartSyncTime(float songStartSyncTime);
     // public System.Void .ctor()
-    // Offset: 0x2AA8F10
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x138FB34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongStartSyncController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongStartSyncController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongStartSyncController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x138F84C
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x138F858
+    void OnDestroy();
+    // protected System.Void Update()
+    // Offset: 0x138F86C
+    void Update();
+    // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
+    // Offset: 0x138F8D4
+    void OnApplicationPause(bool pauseStatus);
+    // public System.Void StartSong(PlayersSpecificSettingsAtGameStartModel playersSpecificSettingsAtGameStartModel, System.String sessionGameId)
+    // Offset: 0x138F960
+    void StartSong(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersSpecificSettingsAtGameStartModel, ::StringW sessionGameId);
+    // private System.Void HandleSetSongStartSyncTime(System.Single songStartSyncTime)
+    // Offset: 0x138FAB0
+    void HandleSetSongStartSyncTime(float songStartSyncTime);
   }; // SongStartSyncController
   #pragma pack(pop)
   static check_size<sizeof(SongStartSyncController), 88 + sizeof(::System::Action_1<float>*)> __GlobalNamespace_SongStartSyncControllerSizeCheck;
@@ -285,6 +271,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongStartSyncController*), "remove_syncResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SongStartSyncController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SongStartSyncController::Start
 // Il2CppName: Start
 template<>
@@ -337,7 +327,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongStartSyncController*), "HandleSetSongStartSyncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{songStartSyncTime});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SongStartSyncController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

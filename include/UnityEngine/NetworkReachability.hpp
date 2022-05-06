@@ -60,7 +60,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.NetworkReachability ReachableViaLocalAreaNetwork
     static void _set_ReachableViaLocalAreaNetwork(::UnityEngine::NetworkReachability value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.NetworkReachability
   #pragma pack(pop)
   static check_size<sizeof(NetworkReachability), 0 + sizeof(int)> __UnityEngine_NetworkReachabilitySizeCheck;

@@ -42,31 +42,23 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: ::RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink
     class EffectorLink;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x1278BD8
+    // [TooltipAttribute] Offset: 0x10FD890
     // public UnityEngine.Transform[] raycastFrom
     // Size: 0x8
     // Offset: 0x10
     ::ArrayW<::UnityEngine::Transform*> raycastFrom;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::Transform*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x1278C10
+    // [TooltipAttribute] Offset: 0x10FD8C8
     // public UnityEngine.Transform raycastTo
     // Size: 0x8
     // Offset: 0x18
     ::UnityEngine::Transform* raycastTo;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1278C48
-    // [RangeAttribute] Offset: 0x1278C48
+    // [TooltipAttribute] Offset: 0x10FD900
+    // [RangeAttribute] Offset: 0x10FD900
     // public System.Single raycastRadius
     // Size: 0x4
     // Offset: 0x20
@@ -75,28 +67,28 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: raycastRadius and: effectors
     char __padding2[0x4] = {};
-    // [TooltipAttribute] Offset: 0x1278C9C
+    // [TooltipAttribute] Offset: 0x10FD954
     // public RootMotion.FinalIK.PenetrationAvoidance/RootMotion.FinalIK.Avoider/RootMotion.FinalIK.EffectorLink[] effectors
     // Size: 0x8
     // Offset: 0x28
     ::ArrayW<::RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*> effectors;
     // Field size check
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x1278CD4
+    // [TooltipAttribute] Offset: 0x10FD98C
     // public System.Single smoothTimeIn
     // Size: 0x4
     // Offset: 0x30
     float smoothTimeIn;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1278D0C
+    // [TooltipAttribute] Offset: 0x10FD9C4
     // public System.Single smoothTimeOut
     // Size: 0x4
     // Offset: 0x34
     float smoothTimeOut;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1278D44
+    // [TooltipAttribute] Offset: 0x10FD9FC
     // public UnityEngine.LayerMask layers
     // Size: 0x4
     // Offset: 0x38
@@ -123,49 +115,51 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: public UnityEngine.Transform[] raycastFrom
-    ::ArrayW<::UnityEngine::Transform*>& dyn_raycastFrom();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Transform*>& dyn_raycastFrom();
     // Get instance field reference: public UnityEngine.Transform raycastTo
-    ::UnityEngine::Transform*& dyn_raycastTo();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_raycastTo();
     // Get instance field reference: public System.Single raycastRadius
-    float& dyn_raycastRadius();
+    [[deprecated("Use field access instead!")]] float& dyn_raycastRadius();
     // Get instance field reference: public RootMotion.FinalIK.PenetrationAvoidance/RootMotion.FinalIK.Avoider/RootMotion.FinalIK.EffectorLink[] effectors
-    ::ArrayW<::RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*>& dyn_effectors();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*>& dyn_effectors();
     // Get instance field reference: public System.Single smoothTimeIn
-    float& dyn_smoothTimeIn();
+    [[deprecated("Use field access instead!")]] float& dyn_smoothTimeIn();
     // Get instance field reference: public System.Single smoothTimeOut
-    float& dyn_smoothTimeOut();
+    [[deprecated("Use field access instead!")]] float& dyn_smoothTimeOut();
     // Get instance field reference: public UnityEngine.LayerMask layers
-    ::UnityEngine::LayerMask& dyn_layers();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::LayerMask& dyn_layers();
     // Get instance field reference: private UnityEngine.Vector3 offset
-    ::UnityEngine::Vector3& dyn_offset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_offset();
     // Get instance field reference: private UnityEngine.Vector3 offsetTarget
-    ::UnityEngine::Vector3& dyn_offsetTarget();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_offsetTarget();
     // Get instance field reference: private UnityEngine.Vector3 offsetV
-    ::UnityEngine::Vector3& dyn_offsetV();
-    // public System.Void Solve(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
-    // Offset: 0x1F70DA4
-    void Solve(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);
-    // private UnityEngine.Vector3 GetOffsetTarget(RootMotion.FinalIK.IKSolverFullBodyBiped solver)
-    // Offset: 0x1F70FB0
-    ::UnityEngine::Vector3 GetOffsetTarget(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver);
-    // private UnityEngine.Vector3 Raycast(UnityEngine.Vector3 from, UnityEngine.Vector3 to)
-    // Offset: 0x1F71148
-    ::UnityEngine::Vector3 Raycast(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_offsetV();
     // public System.Void .ctor()
-    // Offset: 0x1F713BC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FBDC30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PenetrationAvoidance::Avoider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::PenetrationAvoidance::Avoider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PenetrationAvoidance::Avoider*, creationType>()));
     }
+    // public System.Void Solve(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
+    // Offset: 0x1FBD618
+    void Solve(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);
+    // private UnityEngine.Vector3 GetOffsetTarget(RootMotion.FinalIK.IKSolverFullBodyBiped solver)
+    // Offset: 0x1FBD824
+    ::UnityEngine::Vector3 GetOffsetTarget(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver);
+    // private UnityEngine.Vector3 Raycast(UnityEngine.Vector3 from, UnityEngine.Vector3 to)
+    // Offset: 0x1FBD9BC
+    ::UnityEngine::Vector3 Raycast(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to);
   }; // RootMotion.FinalIK.PenetrationAvoidance/RootMotion.FinalIK.Avoider
   #pragma pack(pop)
   static check_size<sizeof(PenetrationAvoidance::Avoider), 84 + sizeof(::UnityEngine::Vector3)> __RootMotion_FinalIK_PenetrationAvoidance_AvoiderSizeCheck;
   static_assert(sizeof(PenetrationAvoidance::Avoider) == 0x60);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::PenetrationAvoidance::Avoider::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::PenetrationAvoidance::Avoider::Solve
 // Il2CppName: Solve
 template<>
@@ -195,7 +189,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::PenetrationAvoidance::Avoider*), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{from, to});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::PenetrationAvoidance::Avoider::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

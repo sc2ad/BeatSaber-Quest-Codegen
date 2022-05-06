@@ -59,15 +59,7 @@ namespace BGNet::Core::Messages {
     public:
     // Nested type: ::BGNet::Core::Messages::ServerCertificateRequest::$get_certificateList$d__5
     class $get_certificateList$d__5;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly ByteArrayNetSerializable[] _certificateList
     // Size: 0x8
     // Offset: 0x18
@@ -86,40 +78,39 @@ namespace BGNet::Core::Messages {
       return *reinterpret_cast<::BGNet::Core::Messages::IHandshakeServerToClientMessage*>(this);
     }
     // Get instance field reference: private readonly ByteArrayNetSerializable[] _certificateList
-    ::ArrayW<::GlobalNamespace::ByteArrayNetSerializable*>& dyn__certificateList();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::ByteArrayNetSerializable*>& dyn__certificateList();
     // Get instance field reference: private System.Int32 _certificateCount
-    int& dyn__certificateCount();
+    [[deprecated("Use field access instead!")]] int& dyn__certificateCount();
     // static public PacketPool`1<BGNet.Core.Messages.ServerCertificateRequest> get_pool()
-    // Offset: 0x14F6150
+    // Offset: 0x152DA58
     static ::GlobalNamespace::PacketPool_1<::BGNet::Core::Messages::ServerCertificateRequest*>* get_pool();
     // public System.Collections.Generic.IEnumerable`1<System.Byte[]> get_certificateList()
-    // Offset: 0x14F88E0
+    // Offset: 0x15301E8
     ::System::Collections::Generic::IEnumerable_1<::ArrayW<uint8_t>>* get_certificateList();
     // public BGNet.Core.Messages.ServerCertificateRequest Init(System.Collections.Generic.IEnumerable`1<System.Byte[]> certificateList)
-    // Offset: 0x14FD4F0
+    // Offset: 0x1534DF8
     ::BGNet::Core::Messages::ServerCertificateRequest* Init(::System::Collections::Generic::IEnumerable_1<::ArrayW<uint8_t>>* certificateList);
     // public System.Void .ctor()
-    // Offset: 0x14FEBA8
+    // Offset: 0x15364B0
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerCertificateRequest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::ServerCertificateRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerCertificateRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x14FE8FC
+    // Offset: 0x1536204
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x14FE990
+    // Offset: 0x1536298
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x14FEAFC
+    // Offset: 0x1536404
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Release()
     void Release();

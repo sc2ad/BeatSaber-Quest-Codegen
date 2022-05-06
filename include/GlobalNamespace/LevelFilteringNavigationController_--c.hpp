@@ -47,20 +47,18 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IBeatmapLevelPack,System.String> <>9__53_0
     static void _set_$$9__53_0(::System::Func_2<::GlobalNamespace::IBeatmapLevelPack*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13C1140
+    // Offset: 0x13BC5EC
     static void _cctor();
-    // System.String <SelectAnnotatedBeatmapLevelCollection>b__53_0(IBeatmapLevelPack pack)
-    // Offset: 0x13C11AC
-    ::StringW $SelectAnnotatedBeatmapLevelCollection$b__53_0(::GlobalNamespace::IBeatmapLevelPack* pack);
     // public System.Void .ctor()
-    // Offset: 0x13C11A4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13BC650
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelFilteringNavigationController::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelFilteringNavigationController::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelFilteringNavigationController::$$c*, creationType>()));
     }
+    // System.String <SelectAnnotatedBeatmapLevelCollection>b__53_0(IBeatmapLevelPack pack)
+    // Offset: 0x13BC658
+    ::StringW $SelectAnnotatedBeatmapLevelCollection$b__53_0(::GlobalNamespace::IBeatmapLevelPack* pack);
   }; // LevelFilteringNavigationController/<>c
   #pragma pack(pop)
 }
@@ -73,6 +71,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelFilteringNavigationController::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LevelFilteringNavigationController::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LevelFilteringNavigationController::$$c::$SelectAnnotatedBeatmapLevelCollection$b__53_0
 // Il2CppName: <SelectAnnotatedBeatmapLevelCollection>b__53_0
 template<>
@@ -82,7 +84,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelFilteringNavigationController::$$c*), "<SelectAnnotatedBeatmapLevelCollection>b__53_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pack});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LevelFilteringNavigationController::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

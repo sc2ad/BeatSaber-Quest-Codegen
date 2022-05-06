@@ -59,15 +59,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRExternalComposition : public ::GlobalNamespace::OVRComposition {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.GameObject previousMainCameraObject
     // Size: 0x8
     // Offset: 0x40
@@ -174,62 +166,62 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private UnityEngine.GameObject previousMainCameraObject
-    ::UnityEngine::GameObject*& dyn_previousMainCameraObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_previousMainCameraObject();
     // Get instance field reference: public UnityEngine.GameObject foregroundCameraGameObject
-    ::UnityEngine::GameObject*& dyn_foregroundCameraGameObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_foregroundCameraGameObject();
     // Get instance field reference: public UnityEngine.Camera foregroundCamera
-    ::UnityEngine::Camera*& dyn_foregroundCamera();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Camera*& dyn_foregroundCamera();
     // Get instance field reference: public UnityEngine.GameObject backgroundCameraGameObject
-    ::UnityEngine::GameObject*& dyn_backgroundCameraGameObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_backgroundCameraGameObject();
     // Get instance field reference: public UnityEngine.Camera backgroundCamera
-    ::UnityEngine::Camera*& dyn_backgroundCamera();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Camera*& dyn_backgroundCamera();
     // Get instance field reference: public System.Boolean renderCombinedFrame
-    bool& dyn_renderCombinedFrame();
+    [[deprecated("Use field access instead!")]] bool& dyn_renderCombinedFrame();
     // Get instance field reference: public UnityEngine.AudioListener audioListener
-    ::UnityEngine::AudioListener*& dyn_audioListener();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioListener*& dyn_audioListener();
     // Get instance field reference: public OVRMRAudioFilter audioFilter
-    ::GlobalNamespace::OVRMRAudioFilter*& dyn_audioFilter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRMRAudioFilter*& dyn_audioFilter();
     // Get instance field reference: public UnityEngine.RenderTexture[] mrcRenderTextureArray
-    ::ArrayW<::UnityEngine::RenderTexture*>& dyn_mrcRenderTextureArray();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::RenderTexture*>& dyn_mrcRenderTextureArray();
     // Get instance field reference: public System.Int32 frameIndex
-    int& dyn_frameIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_frameIndex();
     // Get instance field reference: public System.Int32 lastMrcEncodeFrameSyncId
-    int& dyn_lastMrcEncodeFrameSyncId();
+    [[deprecated("Use field access instead!")]] int& dyn_lastMrcEncodeFrameSyncId();
     // Get instance field reference: public UnityEngine.RenderTexture[] mrcForegroundRenderTextureArray
-    ::ArrayW<::UnityEngine::RenderTexture*>& dyn_mrcForegroundRenderTextureArray();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::RenderTexture*>& dyn_mrcForegroundRenderTextureArray();
     // Get instance field reference: public System.Double[] cameraPoseTimeArray
-    ::ArrayW<double>& dyn_cameraPoseTimeArray();
+    [[deprecated("Use field access instead!")]] ::ArrayW<double>& dyn_cameraPoseTimeArray();
     // Get instance field reference: private System.Single[] cachedAudioDataArray
-    ::ArrayW<float>& dyn_cachedAudioDataArray();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn_cachedAudioDataArray();
     // Get instance field reference: private readonly System.Object audioDataLock
-    ::Il2CppObject*& dyn_audioDataLock();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_audioDataLock();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Single> cachedAudioData
-    ::System::Collections::Generic::List_1<float>*& dyn_cachedAudioData();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<float>*& dyn_cachedAudioData();
     // Get instance field reference: private System.Int32 cachedChannels
-    int& dyn_cachedChannels();
+    [[deprecated("Use field access instead!")]] int& dyn_cachedChannels();
     // private System.Void RefreshCameraObjects(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, OVRMixedRealityCaptureConfiguration configuration)
-    // Offset: 0x162762C
+    // Offset: 0x165CF3C
     void RefreshCameraObjects(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration);
     // private System.Void RefreshAudioFilter(UnityEngine.Camera mainCamera)
-    // Offset: 0x162825C
+    // Offset: 0x165DB6C
     void RefreshAudioFilter(::UnityEngine::Camera* mainCamera);
     // private System.Int32 CastMrcFrame(System.Int32 castTextureIndex)
-    // Offset: 0x1628A24
+    // Offset: 0x165E334
     int CastMrcFrame(int castTextureIndex);
     // private System.Void SetCameraTargetTexture(System.Int32 drawTextureIndex)
-    // Offset: 0x1628E18
+    // Offset: 0x165E728
     void SetCameraTargetTexture(int drawTextureIndex);
     // private System.Void CleanupAudioFilter()
-    // Offset: 0x16288A8
+    // Offset: 0x165E1B8
     void CleanupAudioFilter();
     // public System.Void CacheAudioData(System.Single[] data, System.Int32 channels)
-    // Offset: 0x162A058
+    // Offset: 0x165F968
     void CacheAudioData(::ArrayW<float> data, int channels);
     // public System.Void GetAndResetAudioData(ref System.Single[] audioData, out System.Int32 audioFrames, out System.Int32 channels)
-    // Offset: 0x1628C88
+    // Offset: 0x165E598
     void GetAndResetAudioData(ByRef<::ArrayW<float>> audioData, ByRef<int> audioFrames, ByRef<int> channels);
     // public System.Void .ctor(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, OVRMixedRealityCaptureConfiguration configuration)
-    // Offset: 0x1627170
+    // Offset: 0x165CA80
     // Implemented from: OVRComposition
     // Base method: System.Void OVRComposition::.ctor(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, OVRMixedRealityCaptureConfiguration configuration)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -238,17 +230,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRExternalComposition*, creationType>(parentObject, mainCamera, configuration)));
     }
     // public override OVRManager/CompositionMethod CompositionMethod()
-    // Offset: 0x1627168
+    // Offset: 0x165CA78
     // Implemented from: OVRComposition
     // Base method: OVRManager/CompositionMethod OVRComposition::CompositionMethod()
     ::GlobalNamespace::OVRManager_CompositionMethod CompositionMethod();
     // public override System.Void Update(UnityEngine.GameObject gameObject, UnityEngine.Camera mainCamera, OVRMixedRealityCaptureConfiguration configuration, OVRManager/TrackingOrigin trackingOrigin)
-    // Offset: 0x162903C
+    // Offset: 0x165E94C
     // Implemented from: OVRComposition
     // Base method: System.Void OVRComposition::Update(UnityEngine.GameObject gameObject, UnityEngine.Camera mainCamera, OVRMixedRealityCaptureConfiguration configuration, OVRManager/TrackingOrigin trackingOrigin)
     void Update(::UnityEngine::GameObject* gameObject, ::UnityEngine::Camera* mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration, ::GlobalNamespace::OVRManager_TrackingOrigin trackingOrigin);
     // public override System.Void Cleanup()
-    // Offset: 0x1629EC4
+    // Offset: 0x165F7D4
     // Implemented from: OVRComposition
     // Base method: System.Void OVRComposition::Cleanup()
     void Cleanup();

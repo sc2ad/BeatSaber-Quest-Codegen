@@ -48,17 +48,17 @@ namespace System::Net {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private System.String m_name
-    ::StringW& dyn_m_name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_name();
     // Get instance field reference: private System.Net.CookieVariant m_variant
-    ::System::Net::CookieVariant& dyn_m_variant();
+    [[deprecated("Use field access instead!")]] ::System::Net::CookieVariant& dyn_m_variant();
     // System.String get_Name()
-    // Offset: 0x1A65D00
+    // Offset: 0x1AA02E8
     ::StringW get_Name();
     // System.Net.CookieVariant get_Variant()
-    // Offset: 0x1A65D08
+    // Offset: 0x1AA02F0
     ::System::Net::CookieVariant get_Variant();
     // System.Void .ctor(System.String name, System.Net.CookieVariant variant)
-    // Offset: 0x1A65CF4
+    // Offset: 0x1AA02DC
     // ABORTED: conflicts with another method.  HeaderVariantInfo(::StringW name, ::System::Net::CookieVariant variant);
   }; // System.Net.HeaderVariantInfo
   #pragma pack(pop)

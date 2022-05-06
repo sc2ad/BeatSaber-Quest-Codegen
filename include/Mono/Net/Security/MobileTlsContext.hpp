@@ -61,15 +61,7 @@ namespace Mono::Net::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class MobileTlsContext : public ::Il2CppObject/*, public ::System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Mono.Net.Security.MobileAuthenticatedStream parent
     // Size: 0x8
     // Offset: 0x10
@@ -136,52 +128,52 @@ namespace Mono::Net::Security {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get instance field reference: private Mono.Net.Security.MobileAuthenticatedStream parent
-    ::Mono::Net::Security::MobileAuthenticatedStream*& dyn_parent();
+    [[deprecated("Use field access instead!")]] ::Mono::Net::Security::MobileAuthenticatedStream*& dyn_parent();
     // Get instance field reference: private System.Boolean serverMode
-    bool& dyn_serverMode();
+    [[deprecated("Use field access instead!")]] bool& dyn_serverMode();
     // Get instance field reference: private System.String targetHost
-    ::StringW& dyn_targetHost();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_targetHost();
     // Get instance field reference: private System.String serverName
-    ::StringW& dyn_serverName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_serverName();
     // Get instance field reference: private System.Security.Authentication.SslProtocols enabledProtocols
-    ::System::Security::Authentication::SslProtocols& dyn_enabledProtocols();
+    [[deprecated("Use field access instead!")]] ::System::Security::Authentication::SslProtocols& dyn_enabledProtocols();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate
-    ::System::Security::Cryptography::X509Certificates::X509Certificate*& dyn_serverCertificate();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509Certificate*& dyn_serverCertificate();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509CertificateCollection clientCertificates
-    ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& dyn_clientCertificates();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& dyn_clientCertificates();
     // Get instance field reference: private System.Boolean askForClientCert
-    bool& dyn_askForClientCert();
+    [[deprecated("Use field access instead!")]] bool& dyn_askForClientCert();
     // Get instance field reference: private Mono.Security.Interface.ICertificateValidator2 certificateValidator
-    ::Mono::Security::Interface::ICertificateValidator2*& dyn_certificateValidator();
+    [[deprecated("Use field access instead!")]] ::Mono::Security::Interface::ICertificateValidator2*& dyn_certificateValidator();
     // Mono.Net.Security.MobileAuthenticatedStream get_Parent()
-    // Offset: 0x1AA1A10
+    // Offset: 0x1ADBFF8
     ::Mono::Net::Security::MobileAuthenticatedStream* get_Parent();
     // public Mono.Security.Interface.MonoTlsSettings get_Settings()
-    // Offset: 0x1AA1A18
+    // Offset: 0x1ADC000
     ::Mono::Security::Interface::MonoTlsSettings* get_Settings();
     // public System.Boolean get_IsAuthenticated()
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsAuthenticated();
     // public System.Boolean get_IsServer()
-    // Offset: 0x1AA1A34
+    // Offset: 0x1ADC01C
     bool get_IsServer();
     // protected System.String get_TargetHost()
-    // Offset: 0x1AA1A3C
+    // Offset: 0x1ADC024
     ::StringW get_TargetHost();
     // protected System.String get_ServerName()
-    // Offset: 0x1AA1A44
+    // Offset: 0x1ADC02C
     ::StringW get_ServerName();
     // protected System.Security.Cryptography.X509Certificates.X509CertificateCollection get_ClientCertificates()
-    // Offset: 0x1AA1A4C
+    // Offset: 0x1ADC034
     ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
     // System.Security.Cryptography.X509Certificates.X509Certificate get_LocalServerCertificate()
-    // Offset: 0x1AA1A54
+    // Offset: 0x1ADC03C
     ::System::Security::Cryptography::X509Certificates::X509Certificate* get_LocalServerCertificate();
     // System.Security.Cryptography.X509Certificates.X509Certificate get_LocalClientCertificate()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Security::Cryptography::X509Certificates::X509Certificate* get_LocalClientCertificate();
     // public System.Void .ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean serverMode, System.String targetHost, System.Security.Authentication.SslProtocols enabledProtocols, System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate, System.Security.Cryptography.X509Certificates.X509CertificateCollection clientCertificates, System.Boolean askForClientCert)
-    // Offset: 0x1AA18E0
+    // Offset: 0x1ADBEC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MobileTlsContext* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool serverMode, ::StringW targetHost, ::System::Security::Authentication::SslProtocols enabledProtocols, ::System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates, bool askForClientCert) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::Security::MobileTlsContext::.ctor");
@@ -206,22 +198,22 @@ namespace Mono::Net::Security {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Shutdown();
     // protected System.Boolean ValidateCertificate(System.Security.Cryptography.X509Certificates.X509Certificate leaf, System.Security.Cryptography.X509Certificates.X509Chain chain)
-    // Offset: 0x1AA1A5C
+    // Offset: 0x1ADC044
     bool ValidateCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* leaf, ::System::Security::Cryptography::X509Certificates::X509Chain* chain);
     // protected System.Boolean ValidateCertificate(System.Security.Cryptography.X509Certificates.X509CertificateCollection certificates)
-    // Offset: 0x1AA1B64
+    // Offset: 0x1ADC14C
     bool ValidateCertificate(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates);
     // protected System.Security.Cryptography.X509Certificates.X509Certificate SelectClientCertificate(System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate, System.String[] acceptableIssuers)
-    // Offset: 0x1AA1C60
+    // Offset: 0x1ADC248
     ::System::Security::Cryptography::X509Certificates::X509Certificate* SelectClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, ::ArrayW<::StringW> acceptableIssuers);
     // public System.Void Dispose()
-    // Offset: 0x1A9FE10
+    // Offset: 0x1ADA3F8
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1AA1DDC
+    // Offset: 0x1ADC3C4
     void Dispose(bool disposing);
     // protected override System.Void Finalize()
-    // Offset: 0x1AA1DE0
+    // Offset: 0x1ADC3C8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

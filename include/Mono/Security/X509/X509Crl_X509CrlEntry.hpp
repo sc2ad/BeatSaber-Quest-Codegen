@@ -38,15 +38,7 @@ namespace Mono::Security::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509Crl::X509CrlEntry : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Byte[] sn
     // Size: 0x8
     // Offset: 0x10
@@ -67,22 +59,22 @@ namespace Mono::Security::X509 {
     static_assert(sizeof(::Mono::Security::X509::X509ExtensionCollection*) == 0x8);
     public:
     // Get instance field reference: private System.Byte[] sn
-    ::ArrayW<uint8_t>& dyn_sn();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_sn();
     // Get instance field reference: private System.DateTime revocationDate
-    ::System::DateTime& dyn_revocationDate();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_revocationDate();
     // Get instance field reference: private Mono.Security.X509.X509ExtensionCollection extensions
-    ::Mono::Security::X509::X509ExtensionCollection*& dyn_extensions();
+    [[deprecated("Use field access instead!")]] ::Mono::Security::X509::X509ExtensionCollection*& dyn_extensions();
     // public System.Byte[] get_SerialNumber()
-    // Offset: 0x2A5C82C
+    // Offset: 0x2AB2C14
     ::ArrayW<uint8_t> get_SerialNumber();
     // public System.DateTime get_RevocationDate()
-    // Offset: 0x2A5CD9C
+    // Offset: 0x2AB3184
     ::System::DateTime get_RevocationDate();
     // public Mono.Security.X509.X509ExtensionCollection get_Extensions()
-    // Offset: 0x2A5CDA4
+    // Offset: 0x2AB318C
     ::Mono::Security::X509::X509ExtensionCollection* get_Extensions();
     // System.Void .ctor(Mono.Security.ASN1 entry)
-    // Offset: 0x2A5C328
+    // Offset: 0x2AB2710
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Crl::X509CrlEntry* New_ctor(::Mono::Security::ASN1* entry) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::X509::X509Crl::X509CrlEntry::.ctor");

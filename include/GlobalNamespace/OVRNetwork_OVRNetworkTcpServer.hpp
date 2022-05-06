@@ -44,15 +44,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRNetwork::OVRNetworkTcpServer : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Net.Sockets.TcpListener tcpListener
     // Size: 0x8
     // Offset: 0x10
@@ -73,44 +65,46 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Collections::Generic::List_1<::System::Net::Sockets::TcpClient*>*) == 0x8);
     public:
     // Get instance field reference: public System.Net.Sockets.TcpListener tcpListener
-    ::System::Net::Sockets::TcpListener*& dyn_tcpListener();
+    [[deprecated("Use field access instead!")]] ::System::Net::Sockets::TcpListener*& dyn_tcpListener();
     // Get instance field reference: private readonly System.Object clientsLock
-    ::Il2CppObject*& dyn_clientsLock();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_clientsLock();
     // Get instance field reference: public readonly System.Collections.Generic.List`1<System.Net.Sockets.TcpClient> clients
-    ::System::Collections::Generic::List_1<::System::Net::Sockets::TcpClient*>*& dyn_clients();
-    // public System.Void StartListening(System.Int32 listeningPort)
-    // Offset: 0x16C38AC
-    void StartListening(int listeningPort);
-    // public System.Void StopListening()
-    // Offset: 0x16C3D94
-    void StopListening();
-    // private System.Void DoAcceptTcpClientCallback(System.IAsyncResult ar)
-    // Offset: 0x16C3EE8
-    void DoAcceptTcpClientCallback(::System::IAsyncResult* ar);
-    // public System.Boolean HasConnectedClient()
-    // Offset: 0x16C439C
-    bool HasConnectedClient();
-    // public System.Void Broadcast(System.Int32 payloadType, System.Byte[] payload)
-    // Offset: 0x16C4588
-    void Broadcast(int payloadType, ::ArrayW<uint8_t> payload);
-    // private System.Void DoWriteDataCallback(System.IAsyncResult ar)
-    // Offset: 0x16C4A8C
-    void DoWriteDataCallback(::System::IAsyncResult* ar);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Net::Sockets::TcpClient*>*& dyn_clients();
     // public System.Void .ctor()
-    // Offset: 0x16C4B84
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16FC494
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRNetwork::OVRNetworkTcpServer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRNetwork::OVRNetworkTcpServer*, creationType>()));
     }
+    // public System.Void StartListening(System.Int32 listeningPort)
+    // Offset: 0x16FB1BC
+    void StartListening(int listeningPort);
+    // public System.Void StopListening()
+    // Offset: 0x16FB6A4
+    void StopListening();
+    // private System.Void DoAcceptTcpClientCallback(System.IAsyncResult ar)
+    // Offset: 0x16FB7F8
+    void DoAcceptTcpClientCallback(::System::IAsyncResult* ar);
+    // public System.Boolean HasConnectedClient()
+    // Offset: 0x16FBCAC
+    bool HasConnectedClient();
+    // public System.Void Broadcast(System.Int32 payloadType, System.Byte[] payload)
+    // Offset: 0x16FBE98
+    void Broadcast(int payloadType, ::ArrayW<uint8_t> payload);
+    // private System.Void DoWriteDataCallback(System.IAsyncResult ar)
+    // Offset: 0x16FC39C
+    void DoWriteDataCallback(::System::IAsyncResult* ar);
   }; // OVRNetwork/OVRNetworkTcpServer
   #pragma pack(pop)
   static check_size<sizeof(OVRNetwork::OVRNetworkTcpServer), 32 + sizeof(::System::Collections::Generic::List_1<::System::Net::Sockets::TcpClient*>*)> __GlobalNamespace_OVRNetwork_OVRNetworkTcpServerSizeCheck;
   static_assert(sizeof(OVRNetwork::OVRNetworkTcpServer) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::StartListening
 // Il2CppName: StartListening
 template<>
@@ -164,7 +158,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNetwork::OVRNetworkTcpServer*), "DoWriteDataCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ar});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

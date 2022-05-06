@@ -31,15 +31,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class HMMainThreadDispatcher::$$c__DisplayClass2_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public HMMainThreadDispatcher <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -54,27 +46,29 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Collections::IEnumerator*) == 0x8);
     public:
     // Get instance field reference: public HMMainThreadDispatcher <>4__this
-    ::GlobalNamespace::HMMainThreadDispatcher*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::HMMainThreadDispatcher*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.IEnumerator action
-    ::System::Collections::IEnumerator*& dyn_action();
-    // System.Void <Enqueue>b__0()
-    // Offset: 0x1572C94
-    void $Enqueue$b__0();
+    [[deprecated("Use field access instead!")]] ::System::Collections::IEnumerator*& dyn_action();
     // public System.Void .ctor()
-    // Offset: 0x1572AE4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15A93F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMMainThreadDispatcher::$$c__DisplayClass2_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass2_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMMainThreadDispatcher::$$c__DisplayClass2_0*, creationType>()));
     }
+    // System.Void <Enqueue>b__0()
+    // Offset: 0x15A95A4
+    void $Enqueue$b__0();
   }; // HMMainThreadDispatcher/<>c__DisplayClass2_0
   #pragma pack(pop)
   static check_size<sizeof(HMMainThreadDispatcher::$$c__DisplayClass2_0), 24 + sizeof(::System::Collections::IEnumerator*)> __GlobalNamespace_HMMainThreadDispatcher_$$c__DisplayClass2_0SizeCheck;
   static_assert(sizeof(HMMainThreadDispatcher::$$c__DisplayClass2_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass2_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass2_0::$Enqueue$b__0
 // Il2CppName: <Enqueue>b__0
 template<>
@@ -83,7 +77,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass2_0*), "<Enqueue>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass2_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

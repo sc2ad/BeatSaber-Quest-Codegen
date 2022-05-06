@@ -35,15 +35,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_Mesh : public ::Il2CppObject/*, public ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Mesh*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Mesh self
     // Size: 0x8
     // Offset: 0x10
@@ -60,19 +52,19 @@ namespace HoudiniEngineUnity {
       return self;
     }
     // Get instance field reference: public UnityEngine.Mesh self
-    ::UnityEngine::Mesh*& dyn_self();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Mesh*& dyn_self();
     // public System.Void .ctor(UnityEngine.Mesh self)
-    // Offset: 0x2A3DFA4
+    // Offset: 0x2A9538C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_Mesh* New_ctor(::UnityEngine::Mesh* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_Mesh::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_Mesh*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x2A3DFD0
+    // Offset: 0x2A953B8
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_Mesh other)
-    // Offset: 0x2A3E040
+    // Offset: 0x2A95428
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_Mesh* other);
   }; // HoudiniEngineUnity.Test_Mesh
   #pragma pack(pop)

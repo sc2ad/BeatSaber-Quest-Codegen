@@ -136,39 +136,39 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 nodeId
-    int& dyn_nodeId();
+    [[deprecated("Use field access instead!")]] int& dyn_nodeId();
     // Get instance field reference: public System.Int32 objectNodeId
-    int& dyn_objectNodeId();
+    [[deprecated("Use field access instead!")]] int& dyn_objectNodeId();
     // Get instance field reference: public System.Boolean hasEverCooked
-    bool& dyn_hasEverCooked();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasEverCooked();
     // Get instance field reference: public System.Int32 nameSH
-    int& dyn_nameSH();
+    [[deprecated("Use field access instead!")]] int& dyn_nameSH();
     // Get instance field reference: public System.Int32 labelSH
-    int& dyn_labelSH();
+    [[deprecated("Use field access instead!")]] int& dyn_labelSH();
     // Get instance field reference: public System.Int32 filePathSH
-    int& dyn_filePathSH();
+    [[deprecated("Use field access instead!")]] int& dyn_filePathSH();
     // Get instance field reference: public System.Int32 versionSH
-    int& dyn_versionSH();
+    [[deprecated("Use field access instead!")]] int& dyn_versionSH();
     // Get instance field reference: public System.Int32 fullOpNameSH
-    int& dyn_fullOpNameSH();
+    [[deprecated("Use field access instead!")]] int& dyn_fullOpNameSH();
     // Get instance field reference: public System.Int32 helpTextSH
-    int& dyn_helpTextSH();
+    [[deprecated("Use field access instead!")]] int& dyn_helpTextSH();
     // Get instance field reference: public System.Int32 helpURLSH
-    int& dyn_helpURLSH();
+    [[deprecated("Use field access instead!")]] int& dyn_helpURLSH();
     // Get instance field reference: public System.Int32 objectCount
-    int& dyn_objectCount();
+    [[deprecated("Use field access instead!")]] int& dyn_objectCount();
     // Get instance field reference: public System.Int32 handleCount
-    int& dyn_handleCount();
+    [[deprecated("Use field access instead!")]] int& dyn_handleCount();
     // Get instance field reference: public System.Int32 transformInputCount
-    int& dyn_transformInputCount();
+    [[deprecated("Use field access instead!")]] int& dyn_transformInputCount();
     // Get instance field reference: public System.Int32 geoInputCount
-    int& dyn_geoInputCount();
+    [[deprecated("Use field access instead!")]] int& dyn_geoInputCount();
     // Get instance field reference: public System.Int32 geoOutputCount
-    int& dyn_geoOutputCount();
+    [[deprecated("Use field access instead!")]] int& dyn_geoOutputCount();
     // Get instance field reference: public System.Boolean haveObjectsChanged
-    bool& dyn_haveObjectsChanged();
+    [[deprecated("Use field access instead!")]] bool& dyn_haveObjectsChanged();
     // Get instance field reference: public System.Boolean haveMaterialsChanged
-    bool& dyn_haveMaterialsChanged();
+    [[deprecated("Use field access instead!")]] bool& dyn_haveMaterialsChanged();
   }; // HoudiniEngineUnity.HAPI_AssetInfo
   #pragma pack(pop)
   static check_size<sizeof(HAPI_AssetInfo), 61 + sizeof(bool)> __HoudiniEngineUnity_HAPI_AssetInfoSizeCheck;

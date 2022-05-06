@@ -43,15 +43,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TextOnlyTableCell : public ::HMUI::TableCell {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Color _selectedHighlightColor
     // Size: 0x10
     // Offset: 0x58
@@ -78,45 +70,36 @@ namespace GlobalNamespace {
     static_assert(sizeof(::HMUI::ImageView*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.Color _selectedHighlightColor
-    ::UnityEngine::Color& dyn__selectedHighlightColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__selectedHighlightColor();
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
-    ::TMPro::TextMeshProUGUI*& dyn__text();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__text();
     // Get instance field reference: private HMUI.ImageView _bgImage
-    ::HMUI::ImageView*& dyn__bgImage();
+    [[deprecated("Use field access instead!")]] ::HMUI::ImageView*& dyn__bgImage();
     // Get instance field reference: private HMUI.ImageView _highlightImage
-    ::HMUI::ImageView*& dyn__highlightImage();
+    [[deprecated("Use field access instead!")]] ::HMUI::ImageView*& dyn__highlightImage();
     // public System.String get_text()
-    // Offset: 0x133E0AC
+    // Offset: 0x141FFDC
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x133E0C8
+    // Offset: 0x141FFF8
     void set_text(::StringW value);
-    // private System.Void RefreshVisuals()
-    // Offset: 0x133E0E8
-    void RefreshVisuals();
     // public System.Void .ctor()
-    // Offset: 0x133E1B4
-    // Implemented from: HMUI.TableCell
-    // Base method: System.Void TableCell::.ctor()
-    // Base method: System.Void SelectableCell::.ctor()
-    // Base method: System.Void Interactable::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14200E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextOnlyTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TextOnlyTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextOnlyTableCell*, creationType>()));
     }
+    // private System.Void RefreshVisuals()
+    // Offset: 0x1420018
+    void RefreshVisuals();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x133E0E4
+    // Offset: 0x1420014
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(::HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x133E1B0
+    // Offset: 0x14200E0
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(::HMUI::SelectableCell::TransitionType transitionType);
@@ -143,6 +126,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TextOnlyTableCell*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::TextOnlyTableCell::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TextOnlyTableCell::RefreshVisuals
 // Il2CppName: RefreshVisuals
 template<>
@@ -151,10 +138,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TextOnlyTableCell*), "RefreshVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TextOnlyTableCell::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TextOnlyTableCell::SelectionDidChange
 // Il2CppName: SelectionDidChange
 template<>

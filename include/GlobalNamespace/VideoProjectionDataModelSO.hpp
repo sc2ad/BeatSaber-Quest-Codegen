@@ -36,15 +36,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::VideoProjectionDataModelSO::VideoClipWithId
     class VideoClipWithId;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private VideoProjectionDataModelSO/VideoClipWithId[] _videoClipsWithId
     // Size: 0x8
     // Offset: 0x18
@@ -55,17 +47,12 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private VideoProjectionDataModelSO/VideoClipWithId[] _videoClipsWithId
-    ::ArrayW<::GlobalNamespace::VideoProjectionDataModelSO::VideoClipWithId*>& dyn__videoClipsWithId();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::VideoProjectionDataModelSO::VideoClipWithId*>& dyn__videoClipsWithId();
     // public VideoProjectionDataModelSO/VideoClipWithId[] get_videoClipWithIds()
-    // Offset: 0x2AC4014
+    // Offset: 0x2A2DDE0
     ::ArrayW<::GlobalNamespace::VideoProjectionDataModelSO::VideoClipWithId*> get_videoClipWithIds();
     // public System.Void .ctor()
-    // Offset: 0x2AC401C
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A2DDE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VideoProjectionDataModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VideoProjectionDataModelSO::.ctor");

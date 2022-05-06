@@ -63,26 +63,24 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Set static field: static public System.Func`2<System.Collections.Generic.IEnumerable`1<System.String>,System.Collections.Generic.IEnumerable`1<System.String>> <>9__1_2
     static void _set_$$9__1_2(::System::Func_2<::System::Collections::Generic::IEnumerable_1<::StringW>*, ::System::Collections::Generic::IEnumerable_1<::StringW>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1940E28
+    // Offset: 0x1978DE8
     static void _cctor();
-    // System.String <GetTestBuilderName>b__1_0(NUnit.Framework.Interfaces.ITestBuilder attribute)
-    // Offset: 0x1940E94
-    ::StringW $GetTestBuilderName$b__1_0(::NUnit::Framework::Interfaces::ITestBuilder* attribute);
-    // System.String <GetTestBuilderName>b__1_1(NUnit.Framework.Interfaces.ISimpleTestBuilder attribute)
-    // Offset: 0x1940EC4
-    ::StringW $GetTestBuilderName$b__1_1(::NUnit::Framework::Interfaces::ISimpleTestBuilder* attribute);
-    // System.Collections.Generic.IEnumerable`1<System.String> <GetTestBuilderName>b__1_2(System.Collections.Generic.IEnumerable`1<System.String> v)
-    // Offset: 0x1940EF4
-    ::System::Collections::Generic::IEnumerable_1<::StringW>* $GetTestBuilderName$b__1_2(::System::Collections::Generic::IEnumerable_1<::StringW>* v);
     // public System.Void .ctor()
-    // Offset: 0x1940E8C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1978E4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestCommandBuilder::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestCommandBuilder::$$c*, creationType>()));
     }
+    // System.String <GetTestBuilderName>b__1_0(NUnit.Framework.Interfaces.ITestBuilder attribute)
+    // Offset: 0x1978E54
+    ::StringW $GetTestBuilderName$b__1_0(::NUnit::Framework::Interfaces::ITestBuilder* attribute);
+    // System.String <GetTestBuilderName>b__1_1(NUnit.Framework.Interfaces.ISimpleTestBuilder attribute)
+    // Offset: 0x1978E84
+    ::StringW $GetTestBuilderName$b__1_1(::NUnit::Framework::Interfaces::ISimpleTestBuilder* attribute);
+    // System.Collections.Generic.IEnumerable`1<System.String> <GetTestBuilderName>b__1_2(System.Collections.Generic.IEnumerable`1<System.String> v)
+    // Offset: 0x1978EB4
+    ::System::Collections::Generic::IEnumerable_1<::StringW>* $GetTestBuilderName$b__1_2(::System::Collections::Generic::IEnumerable_1<::StringW>* v);
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.TestCommandBuilder/UnityEngine.TestRunner.NUnitExtensions.Runner.<>c
   #pragma pack(pop)
 }
@@ -95,6 +93,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::$GetTestBuilderName$b__1_0
 // Il2CppName: <GetTestBuilderName>b__1_0
 template<>
@@ -122,7 +124,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c*), "<GetTestBuilderName>b__1_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

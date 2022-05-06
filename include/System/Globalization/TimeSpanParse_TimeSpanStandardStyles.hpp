@@ -70,7 +70,7 @@ namespace System::Globalization {
     // Set static field: static public System.Globalization.TimeSpanParse/System.Globalization.TimeSpanStandardStyles Any
     static void _set_Any(::System::Globalization::TimeSpanParse::TimeSpanStandardStyles value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Globalization.TimeSpanParse/System.Globalization.TimeSpanStandardStyles
   #pragma pack(pop)
   static check_size<sizeof(TimeSpanParse::TimeSpanStandardStyles), 0 + sizeof(int)> __System_Globalization_TimeSpanParse_TimeSpanStandardStylesSizeCheck;

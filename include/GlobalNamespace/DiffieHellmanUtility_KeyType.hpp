@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Set static field: static public DiffieHellmanUtility/KeyType ElipticalCurve
     static void _set_ElipticalCurve(::GlobalNamespace::DiffieHellmanUtility::KeyType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // DiffieHellmanUtility/KeyType
   #pragma pack(pop)
   static check_size<sizeof(DiffieHellmanUtility::KeyType), 0 + sizeof(int)> __GlobalNamespace_DiffieHellmanUtility_KeyTypeSizeCheck;

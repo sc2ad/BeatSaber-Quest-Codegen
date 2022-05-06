@@ -78,19 +78,19 @@ namespace System::Net::NetworkInformation {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt16 sll_family
-    uint16_t& dyn_sll_family();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_sll_family();
     // Get instance field reference: public System.UInt16 sll_protocol
-    uint16_t& dyn_sll_protocol();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_sll_protocol();
     // Get instance field reference: public System.Int32 sll_ifindex
-    int& dyn_sll_ifindex();
+    [[deprecated("Use field access instead!")]] int& dyn_sll_ifindex();
     // Get instance field reference: public System.UInt16 sll_hatype
-    uint16_t& dyn_sll_hatype();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_sll_hatype();
     // Get instance field reference: public System.Byte sll_pkttype
-    uint8_t& dyn_sll_pkttype();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_sll_pkttype();
     // Get instance field reference: public System.Byte sll_halen
-    uint8_t& dyn_sll_halen();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_sll_halen();
     // Get instance field reference: public System.Byte[] sll_addr
-    ::ArrayW<uint8_t>& dyn_sll_addr();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_sll_addr();
   }; // System.Net.NetworkInformation.sockaddr_ll
   #pragma pack(pop)
   static check_size<sizeof(sockaddr_ll), 16 + sizeof(::ArrayW<uint8_t>)> __System_Net_NetworkInformation_sockaddr_llSizeCheck;

@@ -34,15 +34,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseNetworkPlayerModel::PartyConfig : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public BeatmapLevelSelectionMask selectionMask
     // Size: 0x18
     // Offset: 0x10
@@ -63,15 +55,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::INetworkPlayerModel*) == 0x8);
     public:
     // Get instance field reference: public BeatmapLevelSelectionMask selectionMask
-    ::GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
     // Get instance field reference: public GameplayServerConfiguration configuration
-    ::GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
     // Get instance field reference: public INetworkPlayerModel partyManager
-    ::GlobalNamespace::INetworkPlayerModel*& dyn_partyManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::INetworkPlayerModel*& dyn_partyManager();
     // public System.Void .ctor()
-    // Offset: 0x13604F4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1348774
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseNetworkPlayerModel::PartyConfig* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BaseNetworkPlayerModel::PartyConfig::.ctor");

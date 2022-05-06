@@ -34,15 +34,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockNoteData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single <time>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -87,73 +79,71 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private System.Single <time>k__BackingField
-    float& dyn_$time$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$time$k__BackingField();
     // Get instance field reference: private System.Int32 <lineIndex>k__BackingField
-    int& dyn_$lineIndex$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$lineIndex$k__BackingField();
     // Get instance field reference: private NoteData/GameplayType <gameplayType>k__BackingField
-    ::GlobalNamespace::NoteData::GameplayType& dyn_$gameplayType$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteData::GameplayType& dyn_$gameplayType$k__BackingField();
     // Get instance field reference: private ColorType <colorType>k__BackingField
-    ::GlobalNamespace::ColorType& dyn_$colorType$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorType& dyn_$colorType$k__BackingField();
     // Get instance field reference: private NoteCutDirection <cutDirection>k__BackingField
-    ::GlobalNamespace::NoteCutDirection& dyn_$cutDirection$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutDirection& dyn_$cutDirection$k__BackingField();
     // Get instance field reference: private NoteLineLayer <noteLineLayer>k__BackingField
-    ::GlobalNamespace::NoteLineLayer& dyn_$noteLineLayer$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteLineLayer& dyn_$noteLineLayer$k__BackingField();
     // Get instance field reference: private System.Single <duration>k__BackingField
-    float& dyn_$duration$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$duration$k__BackingField();
     // public System.Single get_time()
-    // Offset: 0x2A51410
+    // Offset: 0x2AA87F8
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x2A51418
+    // Offset: 0x2AA8800
     void set_time(float value);
     // public System.Int32 get_lineIndex()
-    // Offset: 0x2A51420
+    // Offset: 0x2AA8808
     int get_lineIndex();
     // public System.Void set_lineIndex(System.Int32 value)
-    // Offset: 0x2A51428
+    // Offset: 0x2AA8810
     void set_lineIndex(int value);
     // public NoteData/GameplayType get_gameplayType()
-    // Offset: 0x2A51430
+    // Offset: 0x2AA8818
     ::GlobalNamespace::NoteData::GameplayType get_gameplayType();
     // public System.Void set_gameplayType(NoteData/GameplayType value)
-    // Offset: 0x2A51438
+    // Offset: 0x2AA8820
     void set_gameplayType(::GlobalNamespace::NoteData::GameplayType value);
     // public ColorType get_colorType()
-    // Offset: 0x2A51440
+    // Offset: 0x2AA8828
     ::GlobalNamespace::ColorType get_colorType();
     // public System.Void set_colorType(ColorType value)
-    // Offset: 0x2A51448
+    // Offset: 0x2AA8830
     void set_colorType(::GlobalNamespace::ColorType value);
     // public NoteCutDirection get_cutDirection()
-    // Offset: 0x2A51450
+    // Offset: 0x2AA8838
     ::GlobalNamespace::NoteCutDirection get_cutDirection();
     // public System.Void set_cutDirection(NoteCutDirection value)
-    // Offset: 0x2A51458
+    // Offset: 0x2AA8840
     void set_cutDirection(::GlobalNamespace::NoteCutDirection value);
     // public NoteLineLayer get_noteLineLayer()
-    // Offset: 0x2A51460
+    // Offset: 0x2AA8848
     ::GlobalNamespace::NoteLineLayer get_noteLineLayer();
     // public System.Void set_noteLineLayer(NoteLineLayer value)
-    // Offset: 0x2A51468
+    // Offset: 0x2AA8850
     void set_noteLineLayer(::GlobalNamespace::NoteLineLayer value);
     // public System.Single get_duration()
-    // Offset: 0x2A51470
+    // Offset: 0x2AA8858
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x2A51478
+    // Offset: 0x2AA8860
     void set_duration(float value);
-    // public System.Void Mirror(System.Int32 lineCount)
-    // Offset: 0x2A51480
-    void Mirror(int lineCount);
     // public System.Void .ctor()
-    // Offset: 0x2A514D8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2AA88C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockNoteData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockNoteData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockNoteData*, creationType>()));
     }
+    // public System.Void Mirror(System.Int32 lineCount)
+    // Offset: 0x2AA8868
+    void Mirror(int lineCount);
   }; // MockNoteData
   #pragma pack(pop)
   static check_size<sizeof(MockNoteData), 40 + sizeof(float)> __GlobalNamespace_MockNoteDataSizeCheck;
@@ -279,6 +269,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNoteData*), "set_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MockNoteData::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MockNoteData::Mirror
 // Il2CppName: Mirror
 template<>
@@ -288,7 +282,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNoteData*), "Mirror", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lineCount});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MockNoteData::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

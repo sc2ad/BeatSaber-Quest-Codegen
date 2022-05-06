@@ -44,16 +44,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRControllersInputManager : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x1225D20
+    // [InjectAttribute] Offset: 0x10AA738
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x10
@@ -132,37 +124,39 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kMenuButtonOculusTouch
     static void _set_kMenuButtonOculusTouch(::StringW value);
     // Get instance field reference: private IVRPlatformHelper _vrPlatformHelper
-    ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
-    // public System.Single TriggerValue(UnityEngine.XR.XRNode node)
-    // Offset: 0x29DA5CC
-    float TriggerValue(::UnityEngine::XR::XRNode node);
-    // public System.Single VerticalAxisValue(UnityEngine.XR.XRNode node)
-    // Offset: 0x29DA76C
-    float VerticalAxisValue(::UnityEngine::XR::XRNode node);
-    // public System.Single HorizontalAxisValue(UnityEngine.XR.XRNode node)
-    // Offset: 0x29DA804
-    float HorizontalAxisValue(::UnityEngine::XR::XRNode node);
-    // public System.Boolean MenuButtonDown()
-    // Offset: 0x29DACD0
-    bool MenuButtonDown();
-    // public System.Boolean MenuButton()
-    // Offset: 0x29DAF60
-    bool MenuButton();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // public System.Void .ctor()
-    // Offset: 0x29DB1F0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A2D700
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersInputManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRControllersInputManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersInputManager*, creationType>()));
     }
+    // public System.Single TriggerValue(UnityEngine.XR.XRNode node)
+    // Offset: 0x2A2CADC
+    float TriggerValue(::UnityEngine::XR::XRNode node);
+    // public System.Single VerticalAxisValue(UnityEngine.XR.XRNode node)
+    // Offset: 0x2A2CC7C
+    float VerticalAxisValue(::UnityEngine::XR::XRNode node);
+    // public System.Single HorizontalAxisValue(UnityEngine.XR.XRNode node)
+    // Offset: 0x2A2CD14
+    float HorizontalAxisValue(::UnityEngine::XR::XRNode node);
+    // public System.Boolean MenuButtonDown()
+    // Offset: 0x2A2D1E0
+    bool MenuButtonDown();
+    // public System.Boolean MenuButton()
+    // Offset: 0x2A2D470
+    bool MenuButton();
   }; // VRControllersInputManager
   #pragma pack(pop)
   static check_size<sizeof(VRControllersInputManager), 16 + sizeof(::GlobalNamespace::IVRPlatformHelper*)> __GlobalNamespace_VRControllersInputManagerSizeCheck;
   static_assert(sizeof(VRControllersInputManager) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersInputManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersInputManager::TriggerValue
 // Il2CppName: TriggerValue
 template<>
@@ -206,7 +200,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersInputManager*), "MenuButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::VRControllersInputManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

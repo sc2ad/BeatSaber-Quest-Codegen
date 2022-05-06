@@ -53,15 +53,7 @@ namespace Org::BouncyCastle::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509CrlParser : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Boolean lazyAsn1
     // Size: 0x1
     // Offset: 0x10
@@ -96,56 +88,58 @@ namespace Org::BouncyCastle::X509 {
     // Set static field: static private readonly Org.BouncyCastle.X509.PemParser PemCrlParser
     static void _set_PemCrlParser(::Org::BouncyCastle::X509::PemParser* value);
     // Get instance field reference: private readonly System.Boolean lazyAsn1
-    bool& dyn_lazyAsn1();
+    [[deprecated("Use field access instead!")]] bool& dyn_lazyAsn1();
     // Get instance field reference: private Org.BouncyCastle.Asn1.Asn1Set sCrlData
-    ::Org::BouncyCastle::Asn1::Asn1Set*& dyn_sCrlData();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1Set*& dyn_sCrlData();
     // Get instance field reference: private System.Int32 sCrlDataObjectCount
-    int& dyn_sCrlDataObjectCount();
+    [[deprecated("Use field access instead!")]] int& dyn_sCrlDataObjectCount();
     // Get instance field reference: private System.IO.Stream currentCrlStream
-    ::System::IO::Stream*& dyn_currentCrlStream();
+    [[deprecated("Use field access instead!")]] ::System::IO::Stream*& dyn_currentCrlStream();
+    // public System.Void .ctor()
+    // Offset: 0x25F6280
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static X509CrlParser* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::X509::X509CrlParser::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<X509CrlParser*, creationType>()));
+    }
     // public System.Void .ctor(System.Boolean lazyAsn1)
-    // Offset: 0x25AAC78
+    // Offset: 0x25F62A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CrlParser* New_ctor(bool lazyAsn1) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::X509::X509CrlParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CrlParser*, creationType>(lazyAsn1)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x25AB3BC
+    // Offset: 0x25F69EC
     static void _cctor();
     // private Org.BouncyCastle.X509.X509Crl ReadPemCrl(System.IO.Stream inStream)
-    // Offset: 0x25AACA8
+    // Offset: 0x25F62D8
     ::Org::BouncyCastle::X509::X509Crl* ReadPemCrl(::System::IO::Stream* inStream);
     // private Org.BouncyCastle.X509.X509Crl ReadDerCrl(Org.BouncyCastle.Asn1.Asn1InputStream dIn)
-    // Offset: 0x25AAD5C
+    // Offset: 0x25F638C
     ::Org::BouncyCastle::X509::X509Crl* ReadDerCrl(::Org::BouncyCastle::Asn1::Asn1InputStream* dIn);
     // private Org.BouncyCastle.X509.X509Crl GetCrl()
-    // Offset: 0x25AAF60
+    // Offset: 0x25F6590
     ::Org::BouncyCastle::X509::X509Crl* GetCrl();
     // protected Org.BouncyCastle.X509.X509Crl CreateX509Crl(Org.BouncyCastle.Asn1.X509.CertificateList c)
-    // Offset: 0x25AAFE8
+    // Offset: 0x25F6618
     ::Org::BouncyCastle::X509::X509Crl* CreateX509Crl(::Org::BouncyCastle::Asn1::X509::CertificateList* c);
     // public Org.BouncyCastle.X509.X509Crl ReadCrl(System.Byte[] input)
-    // Offset: 0x25AB048
+    // Offset: 0x25F6678
     ::Org::BouncyCastle::X509::X509Crl* ReadCrl(::ArrayW<uint8_t> input);
     // public Org.BouncyCastle.X509.X509Crl ReadCrl(System.IO.Stream inStream)
-    // Offset: 0x25AB0C0
+    // Offset: 0x25F66F0
     ::Org::BouncyCastle::X509::X509Crl* ReadCrl(::System::IO::Stream* inStream);
-    // public System.Void .ctor()
-    // Offset: 0x25AAC50
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static X509CrlParser* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::X509::X509CrlParser::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<X509CrlParser*, creationType>()));
-    }
   }; // Org.BouncyCastle.X509.X509CrlParser
   #pragma pack(pop)
   static check_size<sizeof(X509CrlParser), 40 + sizeof(::System::IO::Stream*)> __Org_BouncyCastle_X509_X509CrlParserSizeCheck;
   static_assert(sizeof(X509CrlParser) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::X509::X509CrlParser::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509CrlParser::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -211,7 +205,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::Boun
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509CrlParser*), "ReadCrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inStream});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::X509::X509CrlParser::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

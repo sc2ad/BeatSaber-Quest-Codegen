@@ -28,15 +28,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class GlobalJavaObjectRef : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean m_disposed
     // Size: 0x1
     // Offset: 0x10
@@ -53,21 +45,21 @@ namespace UnityEngine {
     static_assert(sizeof(::System::IntPtr) == 0x8);
     public:
     // Get instance field reference: private System.Boolean m_disposed
-    bool& dyn_m_disposed();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_disposed();
     // Get instance field reference: protected System.IntPtr m_jobject
-    ::System::IntPtr& dyn_m_jobject();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_jobject();
     // public System.Void .ctor(System.IntPtr jobject)
-    // Offset: 0x2A12334
+    // Offset: 0x2A67E3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GlobalJavaObjectRef* New_ctor(::System::IntPtr jobject) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::GlobalJavaObjectRef::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GlobalJavaObjectRef*, creationType>(jobject)));
     }
     // public System.Void Dispose()
-    // Offset: 0x2A132E0
+    // Offset: 0x2A68DE8
     void Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x2A15EF8
+    // Offset: 0x2A6BA00
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

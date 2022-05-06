@@ -60,15 +60,7 @@ namespace Zenject {
     public:
     // Nested type: ::Zenject::TransientProvider::$$c__DisplayClass11_0
     class $$c__DisplayClass11_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x10
@@ -105,36 +97,36 @@ namespace Zenject {
       return *reinterpret_cast<::Zenject::IProvider*>(this);
     }
     // Get instance field reference: private readonly Zenject.DiContainer _container
-    ::Zenject::DiContainer*& dyn__container();
+    [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn__container();
     // Get instance field reference: private readonly System.Type _concreteType
-    ::System::Type*& dyn__concreteType();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn__concreteType();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArguments
-    ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& dyn__extraArguments();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& dyn__extraArguments();
     // Get instance field reference: private readonly System.Object _concreteIdentifier
-    ::Il2CppObject*& dyn__concreteIdentifier();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__concreteIdentifier();
     // Get instance field reference: private readonly System.Action`2<Zenject.InjectContext,System.Object> _instantiateCallback
-    ::System::Action_2<::Zenject::InjectContext*, ::Il2CppObject*>*& dyn__instantiateCallback();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::Zenject::InjectContext*, ::Il2CppObject*>*& dyn__instantiateCallback();
     // public System.Boolean get_IsCached()
-    // Offset: 0x1CED11C
+    // Offset: 0x1D28674
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x1CED124
+    // Offset: 0x1D2867C
     bool get_TypeVariesBasedOnMemberType();
     // public System.Void .ctor(System.Type concreteType, Zenject.DiContainer container, System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArguments, System.String bindingContext, System.Object concreteIdentifier, System.Action`2<Zenject.InjectContext,System.Object> instantiateCallback)
-    // Offset: 0x1CECF9C
+    // Offset: 0x1D284F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TransientProvider* New_ctor(::System::Type* concreteType, ::Zenject::DiContainer* container, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments, ::StringW bindingContext, ::Il2CppObject* concreteIdentifier, ::System::Action_2<::Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TransientProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TransientProvider*, creationType>(concreteType, container, extraArguments, bindingContext, concreteIdentifier, instantiateCallback)));
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x1CED190
+    // Offset: 0x1D286E8
     ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x1CED26C
+    // Offset: 0x1D287C4
     void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
     // private System.Type GetTypeToCreate(System.Type contractType)
-    // Offset: 0x1CED258
+    // Offset: 0x1D287B0
     ::System::Type* GetTypeToCreate(::System::Type* contractType);
   }; // Zenject.TransientProvider
   #pragma pack(pop)

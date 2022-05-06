@@ -73,15 +73,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::PlatformLeaderboardViewController::$RefreshDelayed$d__31
     class $RefreshDelayed$d__31;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private LeaderboardTableView _leaderboardTableView
     // Size: 0x8
     // Offset: 0x70
@@ -100,7 +92,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::LoadingControl* loadingControl;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LoadingControl*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125CE3C
+    // [SpaceAttribute] Offset: 0x10E1A20
     // private UnityEngine.Sprite _globalLeaderboardIcon
     // Size: 0x8
     // Offset: 0x88
@@ -125,14 +117,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::LevelStatsView* levelStatsView;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LevelStatsView*) == 0x8);
-    // [InjectAttribute] Offset: 0x125CEA4
+    // [InjectAttribute] Offset: 0x10E1A88
     // private readonly PlatformLeaderboardsModel _leaderboardsModel
     // Size: 0x8
     // Offset: 0xA8
     ::GlobalNamespace::PlatformLeaderboardsModel* leaderboardsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlatformLeaderboardsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x125CEB4
+    // [InjectAttribute] Offset: 0x10E1A98
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xB0
@@ -184,115 +176,107 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>) == 0x8);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x125CEC4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E1AA8
     // Get static field: static private PlatformLeaderboardsModel/ScoresScope _scoresScope
     static ::GlobalNamespace::PlatformLeaderboardsModel::ScoresScope _get__scoresScope();
     // Set static field: static private PlatformLeaderboardsModel/ScoresScope _scoresScope
     static void _set__scoresScope(::GlobalNamespace::PlatformLeaderboardsModel::ScoresScope value);
     // Get instance field reference: private LeaderboardTableView _leaderboardTableView
-    ::GlobalNamespace::LeaderboardTableView*& dyn__leaderboardTableView();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LeaderboardTableView*& dyn__leaderboardTableView();
     // Get instance field reference: private HMUI.IconSegmentedControl _scopeSegmentedControl
-    ::HMUI::IconSegmentedControl*& dyn__scopeSegmentedControl();
+    [[deprecated("Use field access instead!")]] ::HMUI::IconSegmentedControl*& dyn__scopeSegmentedControl();
     // Get instance field reference: private LoadingControl _loadingControl
-    ::GlobalNamespace::LoadingControl*& dyn__loadingControl();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LoadingControl*& dyn__loadingControl();
     // Get instance field reference: private UnityEngine.Sprite _globalLeaderboardIcon
-    ::UnityEngine::Sprite*& dyn__globalLeaderboardIcon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__globalLeaderboardIcon();
     // Get instance field reference: private UnityEngine.Sprite _aroundPlayerLeaderboardIcon
-    ::UnityEngine::Sprite*& dyn__aroundPlayerLeaderboardIcon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__aroundPlayerLeaderboardIcon();
     // Get instance field reference: private UnityEngine.Sprite _friendsLeaderboardIcon
-    ::UnityEngine::Sprite*& dyn__friendsLeaderboardIcon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__friendsLeaderboardIcon();
     // Get instance field reference: private LevelStatsView _levelStatsView
-    ::GlobalNamespace::LevelStatsView*& dyn__levelStatsView();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelStatsView*& dyn__levelStatsView();
     // Get instance field reference: private readonly PlatformLeaderboardsModel _leaderboardsModel
-    ::GlobalNamespace::PlatformLeaderboardsModel*& dyn__leaderboardsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlatformLeaderboardsModel*& dyn__leaderboardsModel();
     // Get instance field reference: private readonly PlayerDataModel _playerDataModel
-    ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
     // Get instance field reference: private HMAsyncRequest _getScoresAsyncRequest
-    ::GlobalNamespace::HMAsyncRequest*& dyn__getScoresAsyncRequest();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::HMAsyncRequest*& dyn__getScoresAsyncRequest();
     // Get instance field reference: private System.Int32[] _playerScorePos
-    ::ArrayW<int>& dyn__playerScorePos();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__playerScorePos();
     // Get instance field reference: private System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> _scores
-    ::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardTableView::ScoreData*>*& dyn__scores();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardTableView::ScoreData*>*& dyn__scores();
     // Get instance field reference: private IDifficultyBeatmap _difficultyBeatmap
-    ::GlobalNamespace::IDifficultyBeatmap*& dyn__difficultyBeatmap();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IDifficultyBeatmap*& dyn__difficultyBeatmap();
     // Get instance field reference: private System.Boolean _refreshIsNeeded
-    bool& dyn__refreshIsNeeded();
+    [[deprecated("Use field access instead!")]] bool& dyn__refreshIsNeeded();
     // Get instance field reference: private System.Boolean _hasScoresData
-    bool& dyn__hasScoresData();
+    [[deprecated("Use field access instead!")]] bool& dyn__hasScoresData();
     // Get instance field reference: private PlatformLeaderboardsModel/ScoresScope[] _scoreScopes
-    ::ArrayW<::GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>& dyn__scoreScopes();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>& dyn__scoreScopes();
     // public PlatformLeaderboardsModel get_leaderboardsModel()
-    // Offset: 0x12F2718
+    // Offset: 0x13636D0
     ::GlobalNamespace::PlatformLeaderboardsModel* get_leaderboardsModel();
+    // static private System.Void .cctor()
+    // Offset: 0x1364764
+    static void _cctor();
     // private System.Int32 ScoreScopeToScoreScopeIndex(PlatformLeaderboardsModel/ScoresScope scoresScope)
-    // Offset: 0x12F2DD0
+    // Offset: 0x1363D88
     int ScoreScopeToScoreScopeIndex(::GlobalNamespace::PlatformLeaderboardsModel::ScoresScope scoresScope);
     // private PlatformLeaderboardsModel/ScoresScope ScopeScopeIndexToScoreScope(System.Int32 scoreScopeIndex)
-    // Offset: 0x12F328C
+    // Offset: 0x1364244
     ::GlobalNamespace::PlatformLeaderboardsModel::ScoresScope ScopeScopeIndexToScoreScope(int scoreScopeIndex);
     // private System.Void HandleDidPressRefreshButton()
-    // Offset: 0x12F32D8
+    // Offset: 0x1364290
     void HandleDidPressRefreshButton();
     // private System.Void HandleLeaderboardsResultsReturned(PlatformLeaderboardsModel/GetScoresResult result, PlatformLeaderboardsModel/LeaderboardScore[] scores, System.Int32 playerScoreIndex)
-    // Offset: 0x12F32E4
+    // Offset: 0x136429C
     void HandleLeaderboardsResultsReturned(::GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult result, ::ArrayW<::GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*> scores, int playerScoreIndex);
     // private System.Void HandleScopeSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0x12F3508
+    // Offset: 0x13644C0
     void HandleScopeSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int cellNumber);
     // private System.Void HandlePlatformLeaderboardsModelAllScoresDidUpload()
-    // Offset: 0x12F35A0
+    // Offset: 0x1364558
     void HandlePlatformLeaderboardsModelAllScoresDidUpload();
     // private System.Void Refresh(System.Boolean showLoadingIndicator, System.Boolean clear)
-    // Offset: 0x12F2784
+    // Offset: 0x136373C
     void Refresh(bool showLoadingIndicator, bool clear);
     // private System.Collections.IEnumerator RefreshDelayed(System.Boolean showLoadingIndicator, System.Boolean clear)
-    // Offset: 0x12F367C
+    // Offset: 0x1364634
     ::System::Collections::IEnumerator* RefreshDelayed(bool showLoadingIndicator, bool clear);
     // private System.Void ClearContent()
-    // Offset: 0x12F35AC
+    // Offset: 0x1364564
     void ClearContent();
     // public System.Void .ctor()
-    // Offset: 0x12F3738
+    // Offset: 0x13646F0
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::.ctor()
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformLeaderboardViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlatformLeaderboardViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformLeaderboardViewController*, creationType>()));
     }
-    // static private System.Void .cctor()
-    // Offset: 0x12F37AC
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
-    static void _cctor();
     // public override System.Void SetData(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x12F2720
+    // Offset: 0x13636D8
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::SetData(IDifficultyBeatmap difficultyBeatmap)
     void SetData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public override System.Void RefreshLevelStats()
-    // Offset: 0x12F2944
+    // Offset: 0x13638FC
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::RefreshLevelStats()
     void RefreshLevelStats();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x12F2978
+    // Offset: 0x1363930
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x12F2F3C
+    // Offset: 0x1363EF4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x12F30E4
+    // Offset: 0x136409C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
@@ -308,6 +292,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlatformLeaderboardsModel* (GlobalNamespace::PlatformLeaderboardViewController::*)()>(&GlobalNamespace::PlatformLeaderboardViewController::get_leaderboardsModel)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), "get_leaderboardsModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::PlatformLeaderboardViewController::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::ScoreScopeToScoreScopeIndex
@@ -397,14 +389,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::PlatformLeaderboardViewController::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::SetData
 // Il2CppName: SetData
 template<>

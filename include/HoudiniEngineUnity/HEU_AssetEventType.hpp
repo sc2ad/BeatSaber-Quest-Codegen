@@ -72,7 +72,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HEU_AssetEventType BAKE_UPDATE
     static void _set_BAKE_UPDATE(::HoudiniEngineUnity::HEU_AssetEventType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HEU_AssetEventType
   #pragma pack(pop)
   static check_size<sizeof(HEU_AssetEventType), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_AssetEventTypeSizeCheck;

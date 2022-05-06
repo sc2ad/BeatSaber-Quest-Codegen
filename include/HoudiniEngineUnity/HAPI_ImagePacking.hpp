@@ -102,7 +102,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HAPI_ImagePacking HAPI_IMAGE_PACKING_DEFAULT4
     static void _set_HAPI_IMAGE_PACKING_DEFAULT4(::HoudiniEngineUnity::HAPI_ImagePacking value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HAPI_ImagePacking
   #pragma pack(pop)
   static check_size<sizeof(HAPI_ImagePacking), 0 + sizeof(int)> __HoudiniEngineUnity_HAPI_ImagePackingSizeCheck;

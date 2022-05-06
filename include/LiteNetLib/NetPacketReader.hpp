@@ -41,15 +41,7 @@ namespace LiteNetLib {
     public:
     // Writing base type padding for base size: 0x24 to desired offset: 0x28
     char ___base_padding[0x4] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private LiteNetLib.NetPacket _packet
     // Size: 0x8
     // Offset: 0x28
@@ -70,26 +62,26 @@ namespace LiteNetLib {
     static_assert(sizeof(::LiteNetLib::NetEvent*) == 0x8);
     public:
     // Get instance field reference: private LiteNetLib.NetPacket _packet
-    ::LiteNetLib::NetPacket*& dyn__packet();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetPacket*& dyn__packet();
     // Get instance field reference: private readonly LiteNetLib.NetManager _manager
-    ::LiteNetLib::NetManager*& dyn__manager();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetManager*& dyn__manager();
     // Get instance field reference: private readonly LiteNetLib.NetEvent _evt
-    ::LiteNetLib::NetEvent*& dyn__evt();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetEvent*& dyn__evt();
     // System.Void .ctor(LiteNetLib.NetManager manager, LiteNetLib.NetEvent evt)
-    // Offset: 0x2165294
+    // Offset: 0x21B0B08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPacketReader* New_ctor(::LiteNetLib::NetManager* manager, ::LiteNetLib::NetEvent* evt) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetPacketReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPacketReader*, creationType>(manager, evt)));
     }
     // System.Void SetSource(LiteNetLib.NetPacket packet)
-    // Offset: 0x216695C
+    // Offset: 0x21B21D0
     void SetSource(::LiteNetLib::NetPacket* packet);
     // System.Void RecycleInternal()
-    // Offset: 0x2166FF8
+    // Offset: 0x21B286C
     void RecycleInternal();
     // public System.Void Recycle()
-    // Offset: 0x216B8EC
+    // Offset: 0x21B7160
     void Recycle();
   }; // LiteNetLib.NetPacketReader
   #pragma pack(pop)

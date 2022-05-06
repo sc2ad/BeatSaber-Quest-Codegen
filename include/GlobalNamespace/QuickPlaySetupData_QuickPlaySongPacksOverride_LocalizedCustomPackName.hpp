@@ -24,15 +24,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String language
     // Size: 0x8
     // Offset: 0x10
@@ -47,13 +39,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String language
-    ::StringW& dyn_language();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_language();
     // Get instance field reference: public System.String packName
-    ::StringW& dyn_packName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_packName();
     // public System.Void .ctor()
-    // Offset: 0x137AA6C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13E1DB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName::.ctor");

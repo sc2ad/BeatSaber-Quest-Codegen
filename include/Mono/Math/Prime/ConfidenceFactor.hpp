@@ -78,7 +78,7 @@ namespace Mono::Math::Prime {
     // Set static field: static public Mono.Math.Prime.ConfidenceFactor Provable
     static void _set_Provable(::Mono::Math::Prime::ConfidenceFactor value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Mono.Math.Prime.ConfidenceFactor
   #pragma pack(pop)
   static check_size<sizeof(ConfidenceFactor), 0 + sizeof(int)> __Mono_Math_Prime_ConfidenceFactorSizeCheck;

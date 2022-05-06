@@ -50,11 +50,11 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Double v0
-    double& dyn_v0();
+    [[deprecated("Use field access instead!")]] double& dyn_v0();
     // Get instance field reference: public System.Double v1
-    double& dyn_v1();
+    [[deprecated("Use field access instead!")]] double& dyn_v1();
     // Get instance field reference: public System.Double v2
-    double& dyn_v2();
+    [[deprecated("Use field access instead!")]] double& dyn_v2();
   }; // Valve.VR.HmdVector3d_t
   #pragma pack(pop)
   static check_size<sizeof(HmdVector3d_t), 16 + sizeof(double)> __Valve_VR_HmdVector3d_tSizeCheck;

@@ -50,15 +50,7 @@ namespace GlobalNamespace {
     char ___base_padding[0x6] = {};
     // Nested type: ::GlobalNamespace::TableViewWithDetailCell::IDataSource
     class IDataSource;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Action`2<TableViewWithDetailCell,System.Int32> didSelectContentCellEvent
     // Size: 0x8
     // Offset: 0xA8
@@ -89,64 +81,59 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::HMUI::TableView::IDataSource*>(this);
     }
     // Get instance field reference: private System.Action`2<TableViewWithDetailCell,System.Int32> didSelectContentCellEvent
-    ::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int>*& dyn_didSelectContentCellEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int>*& dyn_didSelectContentCellEvent();
     // Get instance field reference: private System.Action`2<TableViewWithDetailCell,System.Int32> didDeselectContentCellEvent
-    ::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int>*& dyn_didDeselectContentCellEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int>*& dyn_didDeselectContentCellEvent();
     // Get instance field reference: private TableViewWithDetailCell/IDataSource _dataSource
-    ::GlobalNamespace::TableViewWithDetailCell::IDataSource*& dyn__dataSource();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TableViewWithDetailCell::IDataSource*& dyn__dataSource();
     // Get instance field reference: private System.Int32 _selectedId
-    int& dyn__selectedId();
+    [[deprecated("Use field access instead!")]] int& dyn__selectedId();
     // public TableViewWithDetailCell/IDataSource get_dataSource()
-    // Offset: 0x29E5998
+    // Offset: 0x2A3B28C
     ::GlobalNamespace::TableViewWithDetailCell::IDataSource* get_dataSource();
     // public System.Void set_dataSource(TableViewWithDetailCell/IDataSource value)
-    // Offset: 0x29E59A0
+    // Offset: 0x2A3B294
     void set_dataSource(::GlobalNamespace::TableViewWithDetailCell::IDataSource* value);
     // public System.Void add_didSelectContentCellEvent(System.Action`2<TableViewWithDetailCell,System.Int32> value)
-    // Offset: 0x29E5708
+    // Offset: 0x2A3AFFC
     void add_didSelectContentCellEvent(::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int>* value);
     // public System.Void remove_didSelectContentCellEvent(System.Action`2<TableViewWithDetailCell,System.Int32> value)
-    // Offset: 0x29E57AC
+    // Offset: 0x2A3B0A0
     void remove_didSelectContentCellEvent(::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int>* value);
     // public System.Void add_didDeselectContentCellEvent(System.Action`2<TableViewWithDetailCell,System.Int32> value)
-    // Offset: 0x29E5850
+    // Offset: 0x2A3B144
     void add_didDeselectContentCellEvent(::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int>* value);
     // public System.Void remove_didDeselectContentCellEvent(System.Action`2<TableViewWithDetailCell,System.Int32> value)
-    // Offset: 0x29E58F4
+    // Offset: 0x2A3B1E8
     void remove_didDeselectContentCellEvent(::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int>* value);
     // public System.Single CellSize()
-    // Offset: 0x29E59C4
+    // Offset: 0x2A3B2B8
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x29E5A74
+    // Offset: 0x2A3B368
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x29E5B38
+    // Offset: 0x2A3B42C
     ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int idx);
     // public System.Void ReloadData(System.Int32 currentNewIndex)
-    // Offset: 0x29E5D88
+    // Offset: 0x2A3B67C
     void ReloadData(int currentNewIndex);
     // public System.Void .ctor()
-    // Offset: 0x29E5F10
+    // Offset: 0x2A3B804
     // Implemented from: HMUI.TableView
     // Base method: System.Void TableView::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TableViewWithDetailCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TableViewWithDetailCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TableViewWithDetailCell*, creationType>()));
     }
     // public override System.Void ReloadData()
-    // Offset: 0x29E5D54
+    // Offset: 0x2A3B648
     // Implemented from: HMUI.TableView
     // Base method: System.Void TableView::ReloadData()
     void ReloadData();
     // protected override System.Void DidSelectCellWithIdx(System.Int32 idx)
-    // Offset: 0x29E5DD0
+    // Offset: 0x2A3B6C4
     // Implemented from: HMUI.TableView
     // Base method: System.Void TableView::DidSelectCellWithIdx(System.Int32 idx)
     void DidSelectCellWithIdx(int idx);

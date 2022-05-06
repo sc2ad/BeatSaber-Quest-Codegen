@@ -43,9 +43,9 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public Valve.VR.IVRRenderModels/Valve.VR._GetComponentState pGetComponentState
-    ::Valve::VR::IVRRenderModels::_GetComponentState*& dyn_pGetComponentState();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRRenderModels::_GetComponentState*& dyn_pGetComponentState();
     // Get instance field reference: public Valve.VR.CVRRenderModels/Valve.VR._GetComponentStatePacked pGetComponentStatePacked
-    ::Valve::VR::CVRRenderModels::_GetComponentStatePacked*& dyn_pGetComponentStatePacked();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::CVRRenderModels::_GetComponentStatePacked*& dyn_pGetComponentStatePacked();
   }; // Valve.VR.CVRRenderModels/Valve.VR.GetComponentStateUnion
   // WARNING Not writing size check since size may be invalid!
 }

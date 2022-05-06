@@ -50,7 +50,7 @@ namespace LeaderboardsDTO {
       return entries;
     }
     // Get instance field reference: public LeaderboardsDTO.LeaderboardEntryDTO[] entries
-    ::ArrayW<::LeaderboardsDTO::LeaderboardEntryDTO*>& dyn_entries();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::LeaderboardsDTO::LeaderboardEntryDTO*>& dyn_entries();
   }; // LeaderboardsDTO.LeaderboardEntriesDTO
   #pragma pack(pop)
   static check_size<sizeof(LeaderboardEntriesDTO), 0 + sizeof(::ArrayW<::LeaderboardsDTO::LeaderboardEntryDTO*>)> __LeaderboardsDTO_LeaderboardEntriesDTOSizeCheck;

@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightmapLightWithIdsGroupEntry::LightIntensitiesWithId : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _lightId
     // Size: 0x4
     // Offset: 0x10
@@ -52,24 +44,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private System.Int32 _lightId
-    int& dyn__lightId();
+    [[deprecated("Use field access instead!")]] int& dyn__lightId();
     // Get instance field reference: private System.Single _intensity
-    float& dyn__intensity();
+    [[deprecated("Use field access instead!")]] float& dyn__intensity();
     // Get instance field reference: private System.Single _probeHighlightsIntensityMultiplier
-    float& dyn__probeHighlightsIntensityMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__probeHighlightsIntensityMultiplier();
     // public System.Int32 get_lightId()
-    // Offset: 0x2AD41FC
+    // Offset: 0x1E7D604
     int get_lightId();
     // public System.Single get_intensity()
-    // Offset: 0x2AD4204
+    // Offset: 0x1E7D60C
     float get_intensity();
     // public System.Single get_probeHighlightsIntensityMultiplier()
-    // Offset: 0x2AD420C
+    // Offset: 0x1E7D614
     float get_probeHighlightsIntensityMultiplier();
     // public System.Void .ctor()
-    // Offset: 0x2AD4214
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E7D61C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightmapLightWithIdsGroupEntry::LightIntensitiesWithId* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightmapLightWithIdsGroupEntry::LightIntensitiesWithId::.ctor");

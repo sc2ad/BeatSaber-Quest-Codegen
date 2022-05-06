@@ -693,169 +693,169 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._FindOverlay FindOverlay
-    ::Valve::VR::IVROverlay::_FindOverlay*& dyn_FindOverlay();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_FindOverlay*& dyn_FindOverlay();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._CreateOverlay CreateOverlay
-    ::Valve::VR::IVROverlay::_CreateOverlay*& dyn_CreateOverlay();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_CreateOverlay*& dyn_CreateOverlay();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._DestroyOverlay DestroyOverlay
-    ::Valve::VR::IVROverlay::_DestroyOverlay*& dyn_DestroyOverlay();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_DestroyOverlay*& dyn_DestroyOverlay();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetHighQualityOverlay SetHighQualityOverlay
-    ::Valve::VR::IVROverlay::_SetHighQualityOverlay*& dyn_SetHighQualityOverlay();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetHighQualityOverlay*& dyn_SetHighQualityOverlay();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetHighQualityOverlay GetHighQualityOverlay
-    ::Valve::VR::IVROverlay::_GetHighQualityOverlay*& dyn_GetHighQualityOverlay();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetHighQualityOverlay*& dyn_GetHighQualityOverlay();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayKey GetOverlayKey
-    ::Valve::VR::IVROverlay::_GetOverlayKey*& dyn_GetOverlayKey();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayKey*& dyn_GetOverlayKey();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayName GetOverlayName
-    ::Valve::VR::IVROverlay::_GetOverlayName*& dyn_GetOverlayName();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayName*& dyn_GetOverlayName();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetOverlayName SetOverlayName
-    ::Valve::VR::IVROverlay::_SetOverlayName*& dyn_SetOverlayName();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetOverlayName*& dyn_SetOverlayName();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayImageData GetOverlayImageData
-    ::Valve::VR::IVROverlay::_GetOverlayImageData*& dyn_GetOverlayImageData();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayImageData*& dyn_GetOverlayImageData();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayErrorNameFromEnum GetOverlayErrorNameFromEnum
-    ::Valve::VR::IVROverlay::_GetOverlayErrorNameFromEnum*& dyn_GetOverlayErrorNameFromEnum();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayErrorNameFromEnum*& dyn_GetOverlayErrorNameFromEnum();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetOverlayRenderingPid SetOverlayRenderingPid
-    ::Valve::VR::IVROverlay::_SetOverlayRenderingPid*& dyn_SetOverlayRenderingPid();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetOverlayRenderingPid*& dyn_SetOverlayRenderingPid();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayRenderingPid GetOverlayRenderingPid
-    ::Valve::VR::IVROverlay::_GetOverlayRenderingPid*& dyn_GetOverlayRenderingPid();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayRenderingPid*& dyn_GetOverlayRenderingPid();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetOverlayFlag SetOverlayFlag
-    ::Valve::VR::IVROverlay::_SetOverlayFlag*& dyn_SetOverlayFlag();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetOverlayFlag*& dyn_SetOverlayFlag();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayFlag GetOverlayFlag
-    ::Valve::VR::IVROverlay::_GetOverlayFlag*& dyn_GetOverlayFlag();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayFlag*& dyn_GetOverlayFlag();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetOverlayColor SetOverlayColor
-    ::Valve::VR::IVROverlay::_SetOverlayColor*& dyn_SetOverlayColor();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetOverlayColor*& dyn_SetOverlayColor();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayColor GetOverlayColor
-    ::Valve::VR::IVROverlay::_GetOverlayColor*& dyn_GetOverlayColor();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayColor*& dyn_GetOverlayColor();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetOverlayAlpha SetOverlayAlpha
-    ::Valve::VR::IVROverlay::_SetOverlayAlpha*& dyn_SetOverlayAlpha();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetOverlayAlpha*& dyn_SetOverlayAlpha();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayAlpha GetOverlayAlpha
-    ::Valve::VR::IVROverlay::_GetOverlayAlpha*& dyn_GetOverlayAlpha();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayAlpha*& dyn_GetOverlayAlpha();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetOverlayTexelAspect SetOverlayTexelAspect
-    ::Valve::VR::IVROverlay::_SetOverlayTexelAspect*& dyn_SetOverlayTexelAspect();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetOverlayTexelAspect*& dyn_SetOverlayTexelAspect();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayTexelAspect GetOverlayTexelAspect
-    ::Valve::VR::IVROverlay::_GetOverlayTexelAspect*& dyn_GetOverlayTexelAspect();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayTexelAspect*& dyn_GetOverlayTexelAspect();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetOverlaySortOrder SetOverlaySortOrder
-    ::Valve::VR::IVROverlay::_SetOverlaySortOrder*& dyn_SetOverlaySortOrder();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetOverlaySortOrder*& dyn_SetOverlaySortOrder();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlaySortOrder GetOverlaySortOrder
-    ::Valve::VR::IVROverlay::_GetOverlaySortOrder*& dyn_GetOverlaySortOrder();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlaySortOrder*& dyn_GetOverlaySortOrder();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetOverlayWidthInMeters SetOverlayWidthInMeters
-    ::Valve::VR::IVROverlay::_SetOverlayWidthInMeters*& dyn_SetOverlayWidthInMeters();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetOverlayWidthInMeters*& dyn_SetOverlayWidthInMeters();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayWidthInMeters GetOverlayWidthInMeters
-    ::Valve::VR::IVROverlay::_GetOverlayWidthInMeters*& dyn_GetOverlayWidthInMeters();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayWidthInMeters*& dyn_GetOverlayWidthInMeters();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetOverlayAutoCurveDistanceRangeInMeters SetOverlayAutoCurveDistanceRangeInMeters
-    ::Valve::VR::IVROverlay::_SetOverlayAutoCurveDistanceRangeInMeters*& dyn_SetOverlayAutoCurveDistanceRangeInMeters();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetOverlayAutoCurveDistanceRangeInMeters*& dyn_SetOverlayAutoCurveDistanceRangeInMeters();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayAutoCurveDistanceRangeInMeters GetOverlayAutoCurveDistanceRangeInMeters
-    ::Valve::VR::IVROverlay::_GetOverlayAutoCurveDistanceRangeInMeters*& dyn_GetOverlayAutoCurveDistanceRangeInMeters();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayAutoCurveDistanceRangeInMeters*& dyn_GetOverlayAutoCurveDistanceRangeInMeters();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetOverlayTextureColorSpace SetOverlayTextureColorSpace
-    ::Valve::VR::IVROverlay::_SetOverlayTextureColorSpace*& dyn_SetOverlayTextureColorSpace();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetOverlayTextureColorSpace*& dyn_SetOverlayTextureColorSpace();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayTextureColorSpace GetOverlayTextureColorSpace
-    ::Valve::VR::IVROverlay::_GetOverlayTextureColorSpace*& dyn_GetOverlayTextureColorSpace();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayTextureColorSpace*& dyn_GetOverlayTextureColorSpace();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetOverlayTextureBounds SetOverlayTextureBounds
-    ::Valve::VR::IVROverlay::_SetOverlayTextureBounds*& dyn_SetOverlayTextureBounds();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetOverlayTextureBounds*& dyn_SetOverlayTextureBounds();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayTextureBounds GetOverlayTextureBounds
-    ::Valve::VR::IVROverlay::_GetOverlayTextureBounds*& dyn_GetOverlayTextureBounds();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayTextureBounds*& dyn_GetOverlayTextureBounds();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayRenderModel GetOverlayRenderModel
-    ::Valve::VR::IVROverlay::_GetOverlayRenderModel*& dyn_GetOverlayRenderModel();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayRenderModel*& dyn_GetOverlayRenderModel();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetOverlayRenderModel SetOverlayRenderModel
-    ::Valve::VR::IVROverlay::_SetOverlayRenderModel*& dyn_SetOverlayRenderModel();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetOverlayRenderModel*& dyn_SetOverlayRenderModel();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayTransformType GetOverlayTransformType
-    ::Valve::VR::IVROverlay::_GetOverlayTransformType*& dyn_GetOverlayTransformType();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayTransformType*& dyn_GetOverlayTransformType();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetOverlayTransformAbsolute SetOverlayTransformAbsolute
-    ::Valve::VR::IVROverlay::_SetOverlayTransformAbsolute*& dyn_SetOverlayTransformAbsolute();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetOverlayTransformAbsolute*& dyn_SetOverlayTransformAbsolute();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayTransformAbsolute GetOverlayTransformAbsolute
-    ::Valve::VR::IVROverlay::_GetOverlayTransformAbsolute*& dyn_GetOverlayTransformAbsolute();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayTransformAbsolute*& dyn_GetOverlayTransformAbsolute();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetOverlayTransformTrackedDeviceRelative SetOverlayTransformTrackedDeviceRelative
-    ::Valve::VR::IVROverlay::_SetOverlayTransformTrackedDeviceRelative*& dyn_SetOverlayTransformTrackedDeviceRelative();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetOverlayTransformTrackedDeviceRelative*& dyn_SetOverlayTransformTrackedDeviceRelative();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayTransformTrackedDeviceRelative GetOverlayTransformTrackedDeviceRelative
-    ::Valve::VR::IVROverlay::_GetOverlayTransformTrackedDeviceRelative*& dyn_GetOverlayTransformTrackedDeviceRelative();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayTransformTrackedDeviceRelative*& dyn_GetOverlayTransformTrackedDeviceRelative();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetOverlayTransformTrackedDeviceComponent SetOverlayTransformTrackedDeviceComponent
-    ::Valve::VR::IVROverlay::_SetOverlayTransformTrackedDeviceComponent*& dyn_SetOverlayTransformTrackedDeviceComponent();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetOverlayTransformTrackedDeviceComponent*& dyn_SetOverlayTransformTrackedDeviceComponent();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayTransformTrackedDeviceComponent GetOverlayTransformTrackedDeviceComponent
-    ::Valve::VR::IVROverlay::_GetOverlayTransformTrackedDeviceComponent*& dyn_GetOverlayTransformTrackedDeviceComponent();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayTransformTrackedDeviceComponent*& dyn_GetOverlayTransformTrackedDeviceComponent();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayTransformOverlayRelative GetOverlayTransformOverlayRelative
-    ::Valve::VR::IVROverlay::_GetOverlayTransformOverlayRelative*& dyn_GetOverlayTransformOverlayRelative();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayTransformOverlayRelative*& dyn_GetOverlayTransformOverlayRelative();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetOverlayTransformOverlayRelative SetOverlayTransformOverlayRelative
-    ::Valve::VR::IVROverlay::_SetOverlayTransformOverlayRelative*& dyn_SetOverlayTransformOverlayRelative();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetOverlayTransformOverlayRelative*& dyn_SetOverlayTransformOverlayRelative();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._ShowOverlay ShowOverlay
-    ::Valve::VR::IVROverlay::_ShowOverlay*& dyn_ShowOverlay();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_ShowOverlay*& dyn_ShowOverlay();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._HideOverlay HideOverlay
-    ::Valve::VR::IVROverlay::_HideOverlay*& dyn_HideOverlay();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_HideOverlay*& dyn_HideOverlay();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._IsOverlayVisible IsOverlayVisible
-    ::Valve::VR::IVROverlay::_IsOverlayVisible*& dyn_IsOverlayVisible();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_IsOverlayVisible*& dyn_IsOverlayVisible();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetTransformForOverlayCoordinates GetTransformForOverlayCoordinates
-    ::Valve::VR::IVROverlay::_GetTransformForOverlayCoordinates*& dyn_GetTransformForOverlayCoordinates();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetTransformForOverlayCoordinates*& dyn_GetTransformForOverlayCoordinates();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._PollNextOverlayEvent PollNextOverlayEvent
-    ::Valve::VR::IVROverlay::_PollNextOverlayEvent*& dyn_PollNextOverlayEvent();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_PollNextOverlayEvent*& dyn_PollNextOverlayEvent();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayInputMethod GetOverlayInputMethod
-    ::Valve::VR::IVROverlay::_GetOverlayInputMethod*& dyn_GetOverlayInputMethod();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayInputMethod*& dyn_GetOverlayInputMethod();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetOverlayInputMethod SetOverlayInputMethod
-    ::Valve::VR::IVROverlay::_SetOverlayInputMethod*& dyn_SetOverlayInputMethod();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetOverlayInputMethod*& dyn_SetOverlayInputMethod();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayMouseScale GetOverlayMouseScale
-    ::Valve::VR::IVROverlay::_GetOverlayMouseScale*& dyn_GetOverlayMouseScale();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayMouseScale*& dyn_GetOverlayMouseScale();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetOverlayMouseScale SetOverlayMouseScale
-    ::Valve::VR::IVROverlay::_SetOverlayMouseScale*& dyn_SetOverlayMouseScale();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetOverlayMouseScale*& dyn_SetOverlayMouseScale();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._ComputeOverlayIntersection ComputeOverlayIntersection
-    ::Valve::VR::IVROverlay::_ComputeOverlayIntersection*& dyn_ComputeOverlayIntersection();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_ComputeOverlayIntersection*& dyn_ComputeOverlayIntersection();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._IsHoverTargetOverlay IsHoverTargetOverlay
-    ::Valve::VR::IVROverlay::_IsHoverTargetOverlay*& dyn_IsHoverTargetOverlay();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_IsHoverTargetOverlay*& dyn_IsHoverTargetOverlay();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetGamepadFocusOverlay GetGamepadFocusOverlay
-    ::Valve::VR::IVROverlay::_GetGamepadFocusOverlay*& dyn_GetGamepadFocusOverlay();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetGamepadFocusOverlay*& dyn_GetGamepadFocusOverlay();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetGamepadFocusOverlay SetGamepadFocusOverlay
-    ::Valve::VR::IVROverlay::_SetGamepadFocusOverlay*& dyn_SetGamepadFocusOverlay();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetGamepadFocusOverlay*& dyn_SetGamepadFocusOverlay();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetOverlayNeighbor SetOverlayNeighbor
-    ::Valve::VR::IVROverlay::_SetOverlayNeighbor*& dyn_SetOverlayNeighbor();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetOverlayNeighbor*& dyn_SetOverlayNeighbor();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._MoveGamepadFocusToNeighbor MoveGamepadFocusToNeighbor
-    ::Valve::VR::IVROverlay::_MoveGamepadFocusToNeighbor*& dyn_MoveGamepadFocusToNeighbor();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_MoveGamepadFocusToNeighbor*& dyn_MoveGamepadFocusToNeighbor();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetOverlayDualAnalogTransform SetOverlayDualAnalogTransform
-    ::Valve::VR::IVROverlay::_SetOverlayDualAnalogTransform*& dyn_SetOverlayDualAnalogTransform();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetOverlayDualAnalogTransform*& dyn_SetOverlayDualAnalogTransform();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayDualAnalogTransform GetOverlayDualAnalogTransform
-    ::Valve::VR::IVROverlay::_GetOverlayDualAnalogTransform*& dyn_GetOverlayDualAnalogTransform();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayDualAnalogTransform*& dyn_GetOverlayDualAnalogTransform();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetOverlayTexture SetOverlayTexture
-    ::Valve::VR::IVROverlay::_SetOverlayTexture*& dyn_SetOverlayTexture();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetOverlayTexture*& dyn_SetOverlayTexture();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._ClearOverlayTexture ClearOverlayTexture
-    ::Valve::VR::IVROverlay::_ClearOverlayTexture*& dyn_ClearOverlayTexture();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_ClearOverlayTexture*& dyn_ClearOverlayTexture();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetOverlayRaw SetOverlayRaw
-    ::Valve::VR::IVROverlay::_SetOverlayRaw*& dyn_SetOverlayRaw();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetOverlayRaw*& dyn_SetOverlayRaw();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetOverlayFromFile SetOverlayFromFile
-    ::Valve::VR::IVROverlay::_SetOverlayFromFile*& dyn_SetOverlayFromFile();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetOverlayFromFile*& dyn_SetOverlayFromFile();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayTexture GetOverlayTexture
-    ::Valve::VR::IVROverlay::_GetOverlayTexture*& dyn_GetOverlayTexture();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayTexture*& dyn_GetOverlayTexture();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._ReleaseNativeOverlayHandle ReleaseNativeOverlayHandle
-    ::Valve::VR::IVROverlay::_ReleaseNativeOverlayHandle*& dyn_ReleaseNativeOverlayHandle();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_ReleaseNativeOverlayHandle*& dyn_ReleaseNativeOverlayHandle();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayTextureSize GetOverlayTextureSize
-    ::Valve::VR::IVROverlay::_GetOverlayTextureSize*& dyn_GetOverlayTextureSize();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayTextureSize*& dyn_GetOverlayTextureSize();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._CreateDashboardOverlay CreateDashboardOverlay
-    ::Valve::VR::IVROverlay::_CreateDashboardOverlay*& dyn_CreateDashboardOverlay();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_CreateDashboardOverlay*& dyn_CreateDashboardOverlay();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._IsDashboardVisible IsDashboardVisible
-    ::Valve::VR::IVROverlay::_IsDashboardVisible*& dyn_IsDashboardVisible();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_IsDashboardVisible*& dyn_IsDashboardVisible();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._IsActiveDashboardOverlay IsActiveDashboardOverlay
-    ::Valve::VR::IVROverlay::_IsActiveDashboardOverlay*& dyn_IsActiveDashboardOverlay();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_IsActiveDashboardOverlay*& dyn_IsActiveDashboardOverlay();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetDashboardOverlaySceneProcess SetDashboardOverlaySceneProcess
-    ::Valve::VR::IVROverlay::_SetDashboardOverlaySceneProcess*& dyn_SetDashboardOverlaySceneProcess();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetDashboardOverlaySceneProcess*& dyn_SetDashboardOverlaySceneProcess();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetDashboardOverlaySceneProcess GetDashboardOverlaySceneProcess
-    ::Valve::VR::IVROverlay::_GetDashboardOverlaySceneProcess*& dyn_GetDashboardOverlaySceneProcess();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetDashboardOverlaySceneProcess*& dyn_GetDashboardOverlaySceneProcess();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._ShowDashboard ShowDashboard
-    ::Valve::VR::IVROverlay::_ShowDashboard*& dyn_ShowDashboard();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_ShowDashboard*& dyn_ShowDashboard();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetPrimaryDashboardDevice GetPrimaryDashboardDevice
-    ::Valve::VR::IVROverlay::_GetPrimaryDashboardDevice*& dyn_GetPrimaryDashboardDevice();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetPrimaryDashboardDevice*& dyn_GetPrimaryDashboardDevice();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._ShowKeyboard ShowKeyboard
-    ::Valve::VR::IVROverlay::_ShowKeyboard*& dyn_ShowKeyboard();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_ShowKeyboard*& dyn_ShowKeyboard();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._ShowKeyboardForOverlay ShowKeyboardForOverlay
-    ::Valve::VR::IVROverlay::_ShowKeyboardForOverlay*& dyn_ShowKeyboardForOverlay();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_ShowKeyboardForOverlay*& dyn_ShowKeyboardForOverlay();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetKeyboardText GetKeyboardText
-    ::Valve::VR::IVROverlay::_GetKeyboardText*& dyn_GetKeyboardText();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetKeyboardText*& dyn_GetKeyboardText();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._HideKeyboard HideKeyboard
-    ::Valve::VR::IVROverlay::_HideKeyboard*& dyn_HideKeyboard();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_HideKeyboard*& dyn_HideKeyboard();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetKeyboardTransformAbsolute SetKeyboardTransformAbsolute
-    ::Valve::VR::IVROverlay::_SetKeyboardTransformAbsolute*& dyn_SetKeyboardTransformAbsolute();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetKeyboardTransformAbsolute*& dyn_SetKeyboardTransformAbsolute();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetKeyboardPositionForOverlay SetKeyboardPositionForOverlay
-    ::Valve::VR::IVROverlay::_SetKeyboardPositionForOverlay*& dyn_SetKeyboardPositionForOverlay();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetKeyboardPositionForOverlay*& dyn_SetKeyboardPositionForOverlay();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._SetOverlayIntersectionMask SetOverlayIntersectionMask
-    ::Valve::VR::IVROverlay::_SetOverlayIntersectionMask*& dyn_SetOverlayIntersectionMask();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_SetOverlayIntersectionMask*& dyn_SetOverlayIntersectionMask();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._GetOverlayFlags GetOverlayFlags
-    ::Valve::VR::IVROverlay::_GetOverlayFlags*& dyn_GetOverlayFlags();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_GetOverlayFlags*& dyn_GetOverlayFlags();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._ShowMessageOverlay ShowMessageOverlay
-    ::Valve::VR::IVROverlay::_ShowMessageOverlay*& dyn_ShowMessageOverlay();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_ShowMessageOverlay*& dyn_ShowMessageOverlay();
     // Get instance field reference: Valve.VR.IVROverlay/Valve.VR._CloseMessageOverlay CloseMessageOverlay
-    ::Valve::VR::IVROverlay::_CloseMessageOverlay*& dyn_CloseMessageOverlay();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_CloseMessageOverlay*& dyn_CloseMessageOverlay();
   }; // Valve.VR.IVROverlay
   #pragma pack(pop)
   static check_size<sizeof(IVROverlay), 648 + sizeof(::Valve::VR::IVROverlay::_CloseMessageOverlay*)> __Valve_VR_IVROverlaySizeCheck;

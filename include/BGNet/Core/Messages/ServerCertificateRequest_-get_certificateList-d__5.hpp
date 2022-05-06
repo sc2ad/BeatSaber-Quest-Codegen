@@ -35,15 +35,7 @@ namespace BGNet::Core::Messages {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ServerCertificateRequest::$get_certificateList$d__5 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerable_1<::ArrayW<uint8_t>>, public ::System::Collections::Generic::IEnumerator_1<::ArrayW<uint8_t>>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -88,42 +80,42 @@ namespace BGNet::Core::Messages {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::ArrayW<uint8_t>>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Byte[] <>2__current
-    ::ArrayW<uint8_t>& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_$$2__current();
     // Get instance field reference: private System.Int32 <>l__initialThreadId
-    int& dyn_$$l__initialThreadId();
+    [[deprecated("Use field access instead!")]] int& dyn_$$l__initialThreadId();
     // Get instance field reference: public BGNet.Core.Messages.ServerCertificateRequest <>4__this
-    ::BGNet::Core::Messages::ServerCertificateRequest*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::BGNet::Core::Messages::ServerCertificateRequest*& dyn_$$4__this();
     // Get instance field reference: private System.Int32 <i>5__2
-    int& dyn_$i$5__2();
+    [[deprecated("Use field access instead!")]] int& dyn_$i$5__2();
     // private System.Byte[] System.Collections.Generic.IEnumerator<System.Byte[]>.get_Current()
-    // Offset: 0x14FF048
+    // Offset: 0x1536950
     ::ArrayW<uint8_t> System_Collections_Generic_IEnumerator$System_Byte$$$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x14FF0B0
+    // Offset: 0x15369B8
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x14FE8C4
+    // Offset: 0x15361CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerCertificateRequest::$get_certificateList$d__5* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::ServerCertificateRequest::$get_certificateList$d__5::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerCertificateRequest::$get_certificateList$d__5*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x14FEF9C
+    // Offset: 0x15368A4
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x14FEFA0
+    // Offset: 0x15368A8
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x14FF050
+    // Offset: 0x1536958
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.Byte[]> System.Collections.Generic.IEnumerable<System.Byte[]>.GetEnumerator()
-    // Offset: 0x14FF0B8
+    // Offset: 0x15369C0
     ::System::Collections::Generic::IEnumerator_1<::ArrayW<uint8_t>>* System_Collections_Generic_IEnumerable$System_Byte$$$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x14FF164
+    // Offset: 0x1536A6C
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // BGNet.Core.Messages.ServerCertificateRequest/BGNet.Core.Messages.<get_certificateList>d__5
   #pragma pack(pop)

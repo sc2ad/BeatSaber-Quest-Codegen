@@ -39,15 +39,7 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ConditionCopyNonLazyBinder::$$c__DisplayClass3_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Type[] targets
     // Size: 0x8
     // Offset: 0x10
@@ -60,31 +52,33 @@ namespace Zenject {
       return targets;
     }
     // Get instance field reference: public System.Type[] targets
-    ::ArrayW<::System::Type*>& dyn_targets();
-    // System.Boolean <WhenInjectedInto>b__0(Zenject.InjectContext r)
-    // Offset: 0x1736B78
-    bool $WhenInjectedInto$b__0(::Zenject::InjectContext* r);
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1736C50
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1736CAC
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Type*>& dyn_targets();
     // public System.Void .ctor()
-    // Offset: 0x1736990
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x176F2A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConditionCopyNonLazyBinder::$$c__DisplayClass3_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ConditionCopyNonLazyBinder::$$c__DisplayClass3_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConditionCopyNonLazyBinder::$$c__DisplayClass3_0*, creationType>()));
     }
+    // System.Boolean <WhenInjectedInto>b__0(Zenject.InjectContext r)
+    // Offset: 0x176F488
+    bool $WhenInjectedInto$b__0(::Zenject::InjectContext* r);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x176F560
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x176F5BC
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.ConditionCopyNonLazyBinder/Zenject.<>c__DisplayClass3_0
   #pragma pack(pop)
   static check_size<sizeof(ConditionCopyNonLazyBinder::$$c__DisplayClass3_0), 16 + sizeof(::ArrayW<::System::Type*>)> __Zenject_ConditionCopyNonLazyBinder_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(ConditionCopyNonLazyBinder::$$c__DisplayClass3_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::ConditionCopyNonLazyBinder::$$c__DisplayClass3_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::ConditionCopyNonLazyBinder::$$c__DisplayClass3_0::$WhenInjectedInto$b__0
 // Il2CppName: <WhenInjectedInto>b__0
 template<>
@@ -111,7 +105,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConditionCopyNonLazyBinder::$$c__DisplayClass3_0*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::ConditionCopyNonLazyBinder::$$c__DisplayClass3_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

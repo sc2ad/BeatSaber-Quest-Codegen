@@ -43,16 +43,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerConnectedPlayerGameplayAnimator : public ::GlobalNamespace::MultiplayerGameplayAnimator {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [SpaceAttribute] Offset: 0x1253924
+    // [SpaceAttribute] Offset: 0x10D8508
     // private MultiplayerBigAvatarAnimator _bigAvatarAnimator
     // Size: 0x8
     // Offset: 0x68
@@ -65,7 +57,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::ScaleAnimator* avatarScaleAnimator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ScaleAnimator*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125396C
+    // [SpaceAttribute] Offset: 0x10D8550
     // private System.Single _defaultLightsWidth
     // Size: 0x4
     // Offset: 0x78
@@ -78,21 +70,21 @@ namespace GlobalNamespace {
     float observedLightsWidth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x12539B4
+    // [InjectAttribute] Offset: 0x10D8598
     // private readonly MultiplayerConnectedPlayerLevelFailController _failController
     // Size: 0x8
     // Offset: 0x80
     ::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController* failController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController*) == 0x8);
-    // [InjectAttribute] Offset: 0x12539C4
+    // [InjectAttribute] Offset: 0x10D85A8
     // private readonly MultiplayerLayoutProvider _multiplayerLayoutProvider
     // Size: 0x8
     // Offset: 0x88
     ::GlobalNamespace::MultiplayerLayoutProvider* multiplayerLayoutProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x12539D4
+    // [InjectAttribute] Offset: 0x10D85B8
     // private readonly MultiplayerConnectedPlayerSpectatingSpot _playerSpectatingSpot
     // Size: 0x8
     // Offset: 0x90
@@ -101,59 +93,54 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot*) == 0x8);
     public:
     // Get instance field reference: private MultiplayerBigAvatarAnimator _bigAvatarAnimator
-    ::GlobalNamespace::MultiplayerBigAvatarAnimator*& dyn__bigAvatarAnimator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerBigAvatarAnimator*& dyn__bigAvatarAnimator();
     // Get instance field reference: private ScaleAnimator _avatarScaleAnimator
-    ::GlobalNamespace::ScaleAnimator*& dyn__avatarScaleAnimator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ScaleAnimator*& dyn__avatarScaleAnimator();
     // Get instance field reference: private System.Single _defaultLightsWidth
-    float& dyn__defaultLightsWidth();
+    [[deprecated("Use field access instead!")]] float& dyn__defaultLightsWidth();
     // Get instance field reference: private System.Single _observedLightsWidth
-    float& dyn__observedLightsWidth();
+    [[deprecated("Use field access instead!")]] float& dyn__observedLightsWidth();
     // Get instance field reference: private readonly MultiplayerConnectedPlayerLevelFailController _failController
-    ::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController*& dyn__failController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController*& dyn__failController();
     // Get instance field reference: private readonly MultiplayerLayoutProvider _multiplayerLayoutProvider
-    ::GlobalNamespace::MultiplayerLayoutProvider*& dyn__multiplayerLayoutProvider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLayoutProvider*& dyn__multiplayerLayoutProvider();
     // Get instance field reference: private readonly MultiplayerConnectedPlayerSpectatingSpot _playerSpectatingSpot
-    ::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot*& dyn__playerSpectatingSpot();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot*& dyn__playerSpectatingSpot();
     // private System.Void TransitionIntoFailedState()
-    // Offset: 0x13D3ED4
+    // Offset: 0x13D0380
     void TransitionIntoFailedState();
     // private System.Void HandlePlayerDidFail()
-    // Offset: 0x13D4350
+    // Offset: 0x13D07FC
     void HandlePlayerDidFail();
     // private System.Void HandleIsObservedChanged(System.Boolean isObserved)
-    // Offset: 0x13D4354
+    // Offset: 0x13D0800
     void HandleIsObservedChanged(bool isObserved);
     // public System.Void .ctor()
-    // Offset: 0x13D43E0
+    // Offset: 0x13D088C
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerGameplayAnimator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerGameplayAnimator*, creationType>()));
     }
     // protected override System.Void Start()
-    // Offset: 0x13D3C2C
+    // Offset: 0x13D00D8
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::Start()
     void Start();
     // protected override System.Void OnDestroy()
-    // Offset: 0x13D3CD8
+    // Offset: 0x13D0184
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::OnDestroy()
     void OnDestroy();
     // protected override System.Void AnimateNewLeaderSelected(System.Boolean isLeading)
-    // Offset: 0x13D4040
+    // Offset: 0x13D04EC
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::AnimateNewLeaderSelected(System.Boolean isLeading)
     void AnimateNewLeaderSelected(bool isLeading);
     // protected override System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x13D4198
+    // Offset: 0x13D0644
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::HandleStateChanged(MultiplayerController/State state)
     void HandleStateChanged(::GlobalNamespace::MultiplayerController::State state);

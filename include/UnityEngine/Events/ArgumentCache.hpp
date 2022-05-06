@@ -36,44 +36,36 @@ namespace UnityEngine::Events {
   // [TokenAttribute] Offset: FFFFFFFF
   class ArgumentCache : public ::Il2CppObject/*, public ::UnityEngine::ISerializationCallbackReceiver*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [FormerlySerializedAsAttribute] Offset: 0x11C4568
+    // [FormerlySerializedAsAttribute] Offset: 0x1049F80
     // private UnityEngine.Object m_ObjectArgument
     // Size: 0x8
     // Offset: 0x10
     ::UnityEngine::Object* m_ObjectArgument;
     // Field size check
     static_assert(sizeof(::UnityEngine::Object*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x11C45B4
+    // [FormerlySerializedAsAttribute] Offset: 0x1049FCC
     // private System.String m_ObjectArgumentAssemblyTypeName
     // Size: 0x8
     // Offset: 0x18
     ::StringW m_ObjectArgumentAssemblyTypeName;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x11C4600
+    // [FormerlySerializedAsAttribute] Offset: 0x104A018
     // private System.Int32 m_IntArgument
     // Size: 0x4
     // Offset: 0x20
     int m_IntArgument;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0x11C464C
+    // [FormerlySerializedAsAttribute] Offset: 0x104A064
     // private System.Single m_FloatArgument
     // Size: 0x4
     // Offset: 0x24
     float m_FloatArgument;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0x11C4698
+    // [FormerlySerializedAsAttribute] Offset: 0x104A0B0
     // private System.String m_StringArgument
     // Size: 0x8
     // Offset: 0x28
@@ -92,53 +84,51 @@ namespace UnityEngine::Events {
       return *reinterpret_cast<::UnityEngine::ISerializationCallbackReceiver*>(this);
     }
     // Get instance field reference: private UnityEngine.Object m_ObjectArgument
-    ::UnityEngine::Object*& dyn_m_ObjectArgument();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Object*& dyn_m_ObjectArgument();
     // Get instance field reference: private System.String m_ObjectArgumentAssemblyTypeName
-    ::StringW& dyn_m_ObjectArgumentAssemblyTypeName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_ObjectArgumentAssemblyTypeName();
     // Get instance field reference: private System.Int32 m_IntArgument
-    int& dyn_m_IntArgument();
+    [[deprecated("Use field access instead!")]] int& dyn_m_IntArgument();
     // Get instance field reference: private System.Single m_FloatArgument
-    float& dyn_m_FloatArgument();
+    [[deprecated("Use field access instead!")]] float& dyn_m_FloatArgument();
     // Get instance field reference: private System.String m_StringArgument
-    ::StringW& dyn_m_StringArgument();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_StringArgument();
     // Get instance field reference: private System.Boolean m_BoolArgument
-    bool& dyn_m_BoolArgument();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_BoolArgument();
     // public UnityEngine.Object get_unityObjectArgument()
-    // Offset: 0x1F30F28
+    // Offset: 0x1F97BE4
     ::UnityEngine::Object* get_unityObjectArgument();
     // public System.String get_unityObjectArgumentAssemblyTypeName()
-    // Offset: 0x1F30F30
+    // Offset: 0x1F97BEC
     ::StringW get_unityObjectArgumentAssemblyTypeName();
     // public System.Int32 get_intArgument()
-    // Offset: 0x1F30F38
+    // Offset: 0x1F97BF4
     int get_intArgument();
     // public System.Single get_floatArgument()
-    // Offset: 0x1F30F40
+    // Offset: 0x1F97BFC
     float get_floatArgument();
     // public System.String get_stringArgument()
-    // Offset: 0x1F30F48
+    // Offset: 0x1F97C04
     ::StringW get_stringArgument();
     // public System.Boolean get_boolArgument()
-    // Offset: 0x1F30F50
+    // Offset: 0x1F97C0C
     bool get_boolArgument();
-    // private System.Void TidyAssemblyTypeName()
-    // Offset: 0x1F30F58
-    void TidyAssemblyTypeName();
-    // public System.Void OnBeforeSerialize()
-    // Offset: 0x1F3116C
-    void OnBeforeSerialize();
-    // public System.Void OnAfterDeserialize()
-    // Offset: 0x1F31170
-    void OnAfterDeserialize();
     // public System.Void .ctor()
-    // Offset: 0x1F31174
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1F97E30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArgumentCache* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Events::ArgumentCache::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArgumentCache*, creationType>()));
     }
+    // private System.Void TidyAssemblyTypeName()
+    // Offset: 0x1F97C14
+    void TidyAssemblyTypeName();
+    // public System.Void OnBeforeSerialize()
+    // Offset: 0x1F97E28
+    void OnBeforeSerialize();
+    // public System.Void OnAfterDeserialize()
+    // Offset: 0x1F97E2C
+    void OnAfterDeserialize();
   }; // UnityEngine.Events.ArgumentCache
   #pragma pack(pop)
   static check_size<sizeof(ArgumentCache), 48 + sizeof(bool)> __UnityEngine_Events_ArgumentCacheSizeCheck;
@@ -193,6 +183,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::ArgumentCache*), "get_boolArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::Events::ArgumentCache::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Events::ArgumentCache::TidyAssemblyTypeName
 // Il2CppName: TidyAssemblyTypeName
 template<>
@@ -217,7 +211,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::ArgumentCache*), "OnAfterDeserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::Events::ArgumentCache::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

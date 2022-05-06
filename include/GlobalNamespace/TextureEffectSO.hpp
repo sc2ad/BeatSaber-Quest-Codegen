@@ -35,25 +35,24 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TextureEffectSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
-    // public System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x2AD9E30
-    void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
     // public System.Void .ctor()
-    // Offset: 0x2ACD570
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E76938
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextureEffectSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TextureEffectSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextureEffectSO*, creationType>()));
     }
+    // public System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
+    // Offset: 0x1E83240
+    void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
   }; // TextureEffectSO
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::TextureEffectSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TextureEffectSO::Render
 // Il2CppName: Render
 template<>
@@ -64,7 +63,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TextureEffectSO*), "Render", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, dest});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TextureEffectSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

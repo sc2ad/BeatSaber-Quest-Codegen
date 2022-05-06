@@ -51,13 +51,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public UnityEngine.Vector2 translation
-    ::UnityEngine::Vector2& dyn_translation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_translation();
     // Get instance field reference: public System.Single rotation
-    float& dyn_rotation();
+    [[deprecated("Use field access instead!")]] float& dyn_rotation();
     // Get instance field reference: public UnityEngine.Vector2 scale
-    ::UnityEngine::Vector2& dyn_scale();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_scale();
     // public override System.String ToString()
-    // Offset: 0x1C0F39C
+    // Offset: 0x1C49984
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

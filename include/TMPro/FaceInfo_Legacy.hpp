@@ -27,15 +27,7 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class FaceInfo_Legacy : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String Name
     // Size: 0x8
     // Offset: 0x10
@@ -164,51 +156,49 @@ namespace TMPro {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public System.String Name
-    ::StringW& dyn_Name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Name();
     // Get instance field reference: public System.Single PointSize
-    float& dyn_PointSize();
+    [[deprecated("Use field access instead!")]] float& dyn_PointSize();
     // Get instance field reference: public System.Single Scale
-    float& dyn_Scale();
+    [[deprecated("Use field access instead!")]] float& dyn_Scale();
     // Get instance field reference: public System.Int32 CharacterCount
-    int& dyn_CharacterCount();
+    [[deprecated("Use field access instead!")]] int& dyn_CharacterCount();
     // Get instance field reference: public System.Single LineHeight
-    float& dyn_LineHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_LineHeight();
     // Get instance field reference: public System.Single Baseline
-    float& dyn_Baseline();
+    [[deprecated("Use field access instead!")]] float& dyn_Baseline();
     // Get instance field reference: public System.Single Ascender
-    float& dyn_Ascender();
+    [[deprecated("Use field access instead!")]] float& dyn_Ascender();
     // Get instance field reference: public System.Single CapHeight
-    float& dyn_CapHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_CapHeight();
     // Get instance field reference: public System.Single Descender
-    float& dyn_Descender();
+    [[deprecated("Use field access instead!")]] float& dyn_Descender();
     // Get instance field reference: public System.Single CenterLine
-    float& dyn_CenterLine();
+    [[deprecated("Use field access instead!")]] float& dyn_CenterLine();
     // Get instance field reference: public System.Single SuperscriptOffset
-    float& dyn_SuperscriptOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_SuperscriptOffset();
     // Get instance field reference: public System.Single SubscriptOffset
-    float& dyn_SubscriptOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_SubscriptOffset();
     // Get instance field reference: public System.Single SubSize
-    float& dyn_SubSize();
+    [[deprecated("Use field access instead!")]] float& dyn_SubSize();
     // Get instance field reference: public System.Single Underline
-    float& dyn_Underline();
+    [[deprecated("Use field access instead!")]] float& dyn_Underline();
     // Get instance field reference: public System.Single UnderlineThickness
-    float& dyn_UnderlineThickness();
+    [[deprecated("Use field access instead!")]] float& dyn_UnderlineThickness();
     // Get instance field reference: public System.Single strikethrough
-    float& dyn_strikethrough();
+    [[deprecated("Use field access instead!")]] float& dyn_strikethrough();
     // Get instance field reference: public System.Single strikethroughThickness
-    float& dyn_strikethroughThickness();
+    [[deprecated("Use field access instead!")]] float& dyn_strikethroughThickness();
     // Get instance field reference: public System.Single TabWidth
-    float& dyn_TabWidth();
+    [[deprecated("Use field access instead!")]] float& dyn_TabWidth();
     // Get instance field reference: public System.Single Padding
-    float& dyn_Padding();
+    [[deprecated("Use field access instead!")]] float& dyn_Padding();
     // Get instance field reference: public System.Single AtlasWidth
-    float& dyn_AtlasWidth();
+    [[deprecated("Use field access instead!")]] float& dyn_AtlasWidth();
     // Get instance field reference: public System.Single AtlasHeight
-    float& dyn_AtlasHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_AtlasHeight();
     // public System.Void .ctor()
-    // Offset: 0x142EAD4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1437D14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FaceInfo_Legacy* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::FaceInfo_Legacy::.ctor");

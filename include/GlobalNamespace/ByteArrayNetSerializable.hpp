@@ -39,15 +39,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ByteArrayNetSerializable : public ::Il2CppObject/*, public ::LiteNetLib::Utils::INetSerializable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Byte[] _data
     // Size: 0x8
     // Offset: 0x10
@@ -86,43 +78,43 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
     // Get instance field reference: private System.Byte[] _data
-    ::ArrayW<uint8_t>& dyn__data();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__data();
     // Get instance field reference: private readonly System.String _name
-    ::StringW& dyn__name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__name();
     // Get instance field reference: private readonly System.Boolean _allowNull
-    bool& dyn__allowNull();
+    [[deprecated("Use field access instead!")]] bool& dyn__allowNull();
     // Get instance field reference: private readonly System.Int32 _minLength
-    int& dyn__minLength();
+    [[deprecated("Use field access instead!")]] int& dyn__minLength();
     // Get instance field reference: private readonly System.Int32 _maxLength
-    int& dyn__maxLength();
+    [[deprecated("Use field access instead!")]] int& dyn__maxLength();
     // public System.Byte[] get_data()
-    // Offset: 0x1503A18
+    // Offset: 0x153B320
     ::ArrayW<uint8_t> get_data();
     // public System.Void set_data(System.Byte[] value)
-    // Offset: 0x14FDD74
+    // Offset: 0x153567C
     void set_data(::ArrayW<uint8_t> value);
     // public System.Void .ctor(System.String name, System.Int32 minLength, System.Int32 maxLength, System.Boolean allowNull)
-    // Offset: 0x14FE650
+    // Offset: 0x1535F58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ByteArrayNetSerializable* New_ctor(::StringW name, int minLength, int maxLength, bool allowNull) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ByteArrayNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ByteArrayNetSerializable*, creationType>(name, minLength, maxLength, allowNull)));
     }
     // public System.Void .ctor(System.String name, System.Int32 size, System.Boolean allowNull)
-    // Offset: 0x14FE4A8
+    // Offset: 0x1535DB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ByteArrayNetSerializable* New_ctor(::StringW name, int size, bool allowNull) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ByteArrayNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ByteArrayNetSerializable*, creationType>(name, size, allowNull)));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x14FDFD8
+    // Offset: 0x15358E0
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x14FE150
+    // Offset: 0x1535A58
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Clear()
-    // Offset: 0x14FE3DC
+    // Offset: 0x1535CE4
     void Clear();
   }; // ByteArrayNetSerializable
   #pragma pack(pop)

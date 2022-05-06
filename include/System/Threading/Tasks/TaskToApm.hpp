@@ -45,10 +45,10 @@ namespace System::Threading::Tasks {
     // Nested type: ::System::Threading::Tasks::TaskToApm::$$c__DisplayClass3_0
     class $$c__DisplayClass3_0;
     // static public System.IAsyncResult Begin(System.Threading.Tasks.Task task, System.AsyncCallback callback, System.Object state)
-    // Offset: 0x1CF595C
+    // Offset: 0x1D30EB4
     static ::System::IAsyncResult* Begin(::System::Threading::Tasks::Task* task, ::System::AsyncCallback* callback, ::Il2CppObject* state);
     // static public System.Void End(System.IAsyncResult asyncResult)
-    // Offset: 0x1CF5B78
+    // Offset: 0x1D310D0
     static void End(::System::IAsyncResult* asyncResult);
     // static public TResult End(System.IAsyncResult asyncResult)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -60,7 +60,7 @@ namespace System::Threading::Tasks {
       return ::il2cpp_utils::RunMethodRethrow<TResult, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, asyncResult);
     }
     // static private System.Void InvokeCallbackWhenTaskCompletes(System.Threading.Tasks.Task antecedent, System.AsyncCallback callback, System.IAsyncResult asyncResult)
-    // Offset: 0x1CF5A9C
+    // Offset: 0x1D30FF4
     static void InvokeCallbackWhenTaskCompletes(::System::Threading::Tasks::Task* antecedent, ::System::AsyncCallback* callback, ::System::IAsyncResult* asyncResult);
   }; // System.Threading.Tasks.TaskToApm
   #pragma pack(pop)

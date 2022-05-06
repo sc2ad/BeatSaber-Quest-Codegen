@@ -47,11 +47,11 @@ namespace NUnit::Framework::Constraints {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Double Double
-    double& dyn_Double();
+    [[deprecated("Use field access instead!")]] double& dyn_Double();
     // Get instance field reference: public System.Int64 Long
-    int64_t& dyn_Long();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_Long();
     // Get instance field reference: public System.UInt64 ULong
-    uint64_t& dyn_ULong();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_ULong();
   }; // NUnit.Framework.Constraints.FloatingPointNumerics/NUnit.Framework.Constraints.DoubleLongUnion
   // WARNING Not writing size check since size may be invalid!
 }

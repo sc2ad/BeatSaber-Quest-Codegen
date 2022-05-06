@@ -47,15 +47,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PresentServerSettingsAfterNClicks : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Button _serverSettingsButton
     // Size: 0x8
     // Offset: 0x18
@@ -76,7 +68,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: numberOfClicksRequired and: settingsFlowCoordinator
     char __padding2[0x4] = {};
-    // [InjectAttribute] Offset: 0x125A7E0
+    // [InjectAttribute] Offset: 0x10DF3C4
     // private readonly SettingsFlowCoordinator _settingsFlowCoordinator
     // Size: 0x8
     // Offset: 0x30
@@ -101,45 +93,43 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Button _serverSettingsButton
-    ::UnityEngine::UI::Button*& dyn__serverSettingsButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__serverSettingsButton();
     // Get instance field reference: private HMUI.ViewController _serverSettingsViewController
-    ::HMUI::ViewController*& dyn__serverSettingsViewController();
+    [[deprecated("Use field access instead!")]] ::HMUI::ViewController*& dyn__serverSettingsViewController();
     // Get instance field reference: private System.Int32 _numberOfClicksRequired
-    int& dyn__numberOfClicksRequired();
+    [[deprecated("Use field access instead!")]] int& dyn__numberOfClicksRequired();
     // Get instance field reference: private readonly SettingsFlowCoordinator _settingsFlowCoordinator
-    ::GlobalNamespace::SettingsFlowCoordinator*& dyn__settingsFlowCoordinator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SettingsFlowCoordinator*& dyn__settingsFlowCoordinator();
     // Get instance field reference: private System.Int32 _currentNumberOfClicks
-    int& dyn__currentNumberOfClicks();
+    [[deprecated("Use field access instead!")]] int& dyn__currentNumberOfClicks();
     // Get instance field reference: private readonly HMUI.ButtonBinder _buttonBinder
-    ::HMUI::ButtonBinder*& dyn__buttonBinder();
-    // protected System.Void OnEnable()
-    // Offset: 0x137850C
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x13785A0
-    void OnDisable();
-    // private System.Void <OnEnable>b__6_0()
-    // Offset: 0x137862C
-    void $OnEnable$b__6_0();
+    [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // public System.Void .ctor()
-    // Offset: 0x13785BC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13DF8F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PresentServerSettingsAfterNClicks* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PresentServerSettingsAfterNClicks::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PresentServerSettingsAfterNClicks*, creationType>()));
     }
+    // protected System.Void OnEnable()
+    // Offset: 0x13DF848
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x13DF8DC
+    void OnDisable();
+    // private System.Void <OnEnable>b__6_0()
+    // Offset: 0x13DF968
+    void $OnEnable$b__6_0();
   }; // PresentServerSettingsAfterNClicks
   #pragma pack(pop)
   static check_size<sizeof(PresentServerSettingsAfterNClicks), 64 + sizeof(::HMUI::ButtonBinder*)> __GlobalNamespace_PresentServerSettingsAfterNClicksSizeCheck;
   static_assert(sizeof(PresentServerSettingsAfterNClicks) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::PresentServerSettingsAfterNClicks::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PresentServerSettingsAfterNClicks::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -164,7 +154,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PresentServerSettingsAfterNClicks*), "<OnEnable>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PresentServerSettingsAfterNClicks::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

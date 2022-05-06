@@ -57,7 +57,7 @@ namespace System::Xml {
     // Set static field: static public System.Xml.XmlTextReaderImpl/System.Xml.EntityExpandType OnlyCharacter
     static void _set_OnlyCharacter(::System::Xml::XmlTextReaderImpl::EntityExpandType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Xml.XmlTextReaderImpl/System.Xml.EntityExpandType
   #pragma pack(pop)
   static check_size<sizeof(XmlTextReaderImpl::EntityExpandType), 0 + sizeof(int)> __System_Xml_XmlTextReaderImpl_EntityExpandTypeSizeCheck;

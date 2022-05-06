@@ -84,7 +84,7 @@ namespace System::Globalization {
     // Set static field: static public System.Globalization.FORMATFLAGS UseDigitPrefixInTokens
     static void _set_UseDigitPrefixInTokens(::System::Globalization::FORMATFLAGS value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Globalization.FORMATFLAGS
   #pragma pack(pop)
   static check_size<sizeof(FORMATFLAGS), 0 + sizeof(int)> __System_Globalization_FORMATFLAGSSizeCheck;

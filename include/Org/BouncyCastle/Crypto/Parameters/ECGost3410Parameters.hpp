@@ -35,15 +35,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class ECGost3410Parameters : public ::Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier _publicKeyParamSet
     // Size: 0x8
     // Offset: 0x48
@@ -66,13 +58,13 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Deleting conversion operator: operator ::Org::BouncyCastle::Asn1::DerObjectIdentifier*
     constexpr operator ::Org::BouncyCastle::Asn1::DerObjectIdentifier*() const noexcept = delete;
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier _publicKeyParamSet
-    ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn__publicKeyParamSet();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn__publicKeyParamSet();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier _digestParamSet
-    ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn__digestParamSet();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn__digestParamSet();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier _encryptionParamSet
-    ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn__encryptionParamSet();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn__encryptionParamSet();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Parameters.ECNamedDomainParameters dp, Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet, Org.BouncyCastle.Asn1.DerObjectIdentifier digestParamSet, Org.BouncyCastle.Asn1.DerObjectIdentifier encryptionParamSet)
-    // Offset: 0x15C0E44
+    // Offset: 0x15F6754
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECGost3410Parameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters* dp, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters::.ctor");

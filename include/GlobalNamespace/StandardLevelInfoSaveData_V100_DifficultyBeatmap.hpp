@@ -24,15 +24,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StandardLevelInfoSaveData_V100::DifficultyBeatmap : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _difficulty
     // Size: 0x8
     // Offset: 0x10
@@ -67,32 +59,32 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.String _difficulty
-    ::StringW& dyn__difficulty();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__difficulty();
     // Get instance field reference: private System.Int32 _difficultyRank
-    int& dyn__difficultyRank();
+    [[deprecated("Use field access instead!")]] int& dyn__difficultyRank();
     // Get instance field reference: private System.String _beatmapFilename
-    ::StringW& dyn__beatmapFilename();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__beatmapFilename();
     // Get instance field reference: private System.Single _noteJumpMovementSpeed
-    float& dyn__noteJumpMovementSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__noteJumpMovementSpeed();
     // Get instance field reference: private System.Int32 _noteJumpStartBeatOffset
-    int& dyn__noteJumpStartBeatOffset();
+    [[deprecated("Use field access instead!")]] int& dyn__noteJumpStartBeatOffset();
     // public System.String get_difficulty()
-    // Offset: 0x1335110
+    // Offset: 0x1417178
     ::StringW get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0x1335118
+    // Offset: 0x1417180
     int get_difficultyRank();
     // public System.String get_beatmapFilename()
-    // Offset: 0x1335120
+    // Offset: 0x1417188
     ::StringW get_beatmapFilename();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x1335128
+    // Offset: 0x1417190
     float get_noteJumpMovementSpeed();
     // public System.Int32 get_noteJumpStartBeatOffset()
-    // Offset: 0x1335130
+    // Offset: 0x1417198
     int get_noteJumpStartBeatOffset();
     // public System.Void .ctor(System.String difficultyName, System.Int32 difficultyRank, System.String beatmapFilename, System.Single noteJumpMovementSpeed, System.Int32 noteJumpStartBeatOffset)
-    // Offset: 0x1335138
+    // Offset: 0x14171A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelInfoSaveData_V100::DifficultyBeatmap* New_ctor(::StringW difficultyName, int difficultyRank, ::StringW beatmapFilename, float noteJumpMovementSpeed, int noteJumpStartBeatOffset) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap::.ctor");

@@ -208,49 +208,49 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public Valve.VR.VREvent_Reserved_t reserved
-    ::Valve::VR::VREvent_Reserved_t& dyn_reserved();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VREvent_Reserved_t& dyn_reserved();
     // Get instance field reference: public Valve.VR.VREvent_Controller_t controller
-    ::Valve::VR::VREvent_Controller_t& dyn_controller();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VREvent_Controller_t& dyn_controller();
     // Get instance field reference: public Valve.VR.VREvent_Mouse_t mouse
-    ::Valve::VR::VREvent_Mouse_t& dyn_mouse();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VREvent_Mouse_t& dyn_mouse();
     // Get instance field reference: public Valve.VR.VREvent_Scroll_t scroll
-    ::Valve::VR::VREvent_Scroll_t& dyn_scroll();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VREvent_Scroll_t& dyn_scroll();
     // Get instance field reference: public Valve.VR.VREvent_Process_t process
-    ::Valve::VR::VREvent_Process_t& dyn_process();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VREvent_Process_t& dyn_process();
     // Get instance field reference: public Valve.VR.VREvent_Notification_t notification
-    ::Valve::VR::VREvent_Notification_t& dyn_notification();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VREvent_Notification_t& dyn_notification();
     // Get instance field reference: public Valve.VR.VREvent_Overlay_t overlay
-    ::Valve::VR::VREvent_Overlay_t& dyn_overlay();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VREvent_Overlay_t& dyn_overlay();
     // Get instance field reference: public Valve.VR.VREvent_Status_t status
-    ::Valve::VR::VREvent_Status_t& dyn_status();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VREvent_Status_t& dyn_status();
     // Get instance field reference: public Valve.VR.VREvent_Ipd_t ipd
-    ::Valve::VR::VREvent_Ipd_t& dyn_ipd();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VREvent_Ipd_t& dyn_ipd();
     // Get instance field reference: public Valve.VR.VREvent_Chaperone_t chaperone
-    ::Valve::VR::VREvent_Chaperone_t& dyn_chaperone();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VREvent_Chaperone_t& dyn_chaperone();
     // Get instance field reference: public Valve.VR.VREvent_PerformanceTest_t performanceTest
-    ::Valve::VR::VREvent_PerformanceTest_t& dyn_performanceTest();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VREvent_PerformanceTest_t& dyn_performanceTest();
     // Get instance field reference: public Valve.VR.VREvent_TouchPadMove_t touchPadMove
-    ::Valve::VR::VREvent_TouchPadMove_t& dyn_touchPadMove();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VREvent_TouchPadMove_t& dyn_touchPadMove();
     // Get instance field reference: public Valve.VR.VREvent_SeatedZeroPoseReset_t seatedZeroPoseReset
-    ::Valve::VR::VREvent_SeatedZeroPoseReset_t& dyn_seatedZeroPoseReset();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VREvent_SeatedZeroPoseReset_t& dyn_seatedZeroPoseReset();
     // Get instance field reference: public Valve.VR.VREvent_Screenshot_t screenshot
-    ::Valve::VR::VREvent_Screenshot_t& dyn_screenshot();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VREvent_Screenshot_t& dyn_screenshot();
     // Get instance field reference: public Valve.VR.VREvent_ScreenshotProgress_t screenshotProgress
-    ::Valve::VR::VREvent_ScreenshotProgress_t& dyn_screenshotProgress();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VREvent_ScreenshotProgress_t& dyn_screenshotProgress();
     // Get instance field reference: public Valve.VR.VREvent_ApplicationLaunch_t applicationLaunch
-    ::Valve::VR::VREvent_ApplicationLaunch_t& dyn_applicationLaunch();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VREvent_ApplicationLaunch_t& dyn_applicationLaunch();
     // Get instance field reference: public Valve.VR.VREvent_EditingCameraSurface_t cameraSurface
-    ::Valve::VR::VREvent_EditingCameraSurface_t& dyn_cameraSurface();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VREvent_EditingCameraSurface_t& dyn_cameraSurface();
     // Get instance field reference: public Valve.VR.VREvent_MessageOverlay_t messageOverlay
-    ::Valve::VR::VREvent_MessageOverlay_t& dyn_messageOverlay();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VREvent_MessageOverlay_t& dyn_messageOverlay();
     // Get instance field reference: public Valve.VR.VREvent_Property_t property
-    ::Valve::VR::VREvent_Property_t& dyn_property();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VREvent_Property_t& dyn_property();
     // Get instance field reference: public Valve.VR.VREvent_DualAnalog_t dualAnalog
-    ::Valve::VR::VREvent_DualAnalog_t& dyn_dualAnalog();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VREvent_DualAnalog_t& dyn_dualAnalog();
     // Get instance field reference: public Valve.VR.VREvent_HapticVibration_t hapticVibration
-    ::Valve::VR::VREvent_HapticVibration_t& dyn_hapticVibration();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VREvent_HapticVibration_t& dyn_hapticVibration();
     // Get instance field reference: public Valve.VR.VREvent_Keyboard_t keyboard
-    ::Valve::VR::VREvent_Keyboard_t& dyn_keyboard();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VREvent_Keyboard_t& dyn_keyboard();
   }; // Valve.VR.VREvent_Data_t
   // WARNING Not writing size check since size may be invalid!
 }

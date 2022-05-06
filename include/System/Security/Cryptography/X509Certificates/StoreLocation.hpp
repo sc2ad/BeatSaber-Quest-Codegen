@@ -54,7 +54,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static public System.Security.Cryptography.X509Certificates.StoreLocation LocalMachine
     static void _set_LocalMachine(::System::Security::Cryptography::X509Certificates::StoreLocation value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Security.Cryptography.X509Certificates.StoreLocation
   #pragma pack(pop)
   static check_size<sizeof(StoreLocation), 0 + sizeof(int)> __System_Security_Cryptography_X509Certificates_StoreLocationSizeCheck;

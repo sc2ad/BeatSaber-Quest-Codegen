@@ -55,15 +55,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HydraulicCarSuspensionEffect : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BasicBeatmapEventType _contractEvent
     // Size: 0x4
     // Offset: 0x18
@@ -78,7 +70,7 @@ namespace GlobalNamespace {
     ::ArrayW<int> contractEventValues;
     // Field size check
     static_assert(sizeof(::ArrayW<int>) == 0x8);
-    // [SpaceAttribute] Offset: 0x124955C
+    // [SpaceAttribute] Offset: 0x10CE054
     // private BasicBeatmapEventType _expandEvent
     // Size: 0x4
     // Offset: 0x28
@@ -93,7 +85,7 @@ namespace GlobalNamespace {
     ::ArrayW<int> expandEventValues;
     // Field size check
     static_assert(sizeof(::ArrayW<int>) == 0x8);
-    // [SpaceAttribute] Offset: 0x12495A4
+    // [SpaceAttribute] Offset: 0x10CE09C
     // private UnityEngine.SpringJoint _springJoint
     // Size: 0x8
     // Offset: 0x38
@@ -112,14 +104,14 @@ namespace GlobalNamespace {
     float expandDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x12495FC
+    // [SpaceAttribute] Offset: 0x10CE0F4
     // private UnityEngine.Rigidbody _rigidbody
     // Size: 0x8
     // Offset: 0x48
     ::UnityEngine::Rigidbody* rigidbody;
     // Field size check
     static_assert(sizeof(::UnityEngine::Rigidbody*) == 0x8);
-    // [InjectAttribute] Offset: 0x1249634
+    // [InjectAttribute] Offset: 0x10CE12C
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x50
@@ -154,62 +146,60 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BasicBeatmapEventType _contractEvent
-    ::GlobalNamespace::BasicBeatmapEventType& dyn__contractEvent();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BasicBeatmapEventType& dyn__contractEvent();
     // Get instance field reference: private System.Int32[] _contractEventValues
-    ::ArrayW<int>& dyn__contractEventValues();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__contractEventValues();
     // Get instance field reference: private BasicBeatmapEventType _expandEvent
-    ::GlobalNamespace::BasicBeatmapEventType& dyn__expandEvent();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BasicBeatmapEventType& dyn__expandEvent();
     // Get instance field reference: private System.Int32[] _expandEventValues
-    ::ArrayW<int>& dyn__expandEventValues();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__expandEventValues();
     // Get instance field reference: private UnityEngine.SpringJoint _springJoint
-    ::UnityEngine::SpringJoint*& dyn__springJoint();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::SpringJoint*& dyn__springJoint();
     // Get instance field reference: private System.Single _contractDistance
-    float& dyn__contractDistance();
+    [[deprecated("Use field access instead!")]] float& dyn__contractDistance();
     // Get instance field reference: private System.Single _expandDistance
-    float& dyn__expandDistance();
+    [[deprecated("Use field access instead!")]] float& dyn__expandDistance();
     // Get instance field reference: private UnityEngine.Rigidbody _rigidbody
-    ::UnityEngine::Rigidbody*& dyn__rigidbody();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rigidbody*& dyn__rigidbody();
     // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
-    ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.Int32> _contractEventValuesHashSet
-    ::System::Collections::Generic::HashSet_1<int>*& dyn__contractEventValuesHashSet();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<int>*& dyn__contractEventValuesHashSet();
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.Int32> _expandEventValuesHashSet
-    ::System::Collections::Generic::HashSet_1<int>*& dyn__expandEventValuesHashSet();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<int>*& dyn__expandEventValuesHashSet();
     // Get instance field reference: private BeatmapDataCallbackWrapper _contractBeatmapDataCallbackWrapper
-    ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__contractBeatmapDataCallbackWrapper();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__contractBeatmapDataCallbackWrapper();
     // Get instance field reference: private BeatmapDataCallbackWrapper _expandBeatmapDataCallbackWrapper
-    ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__expandBeatmapDataCallbackWrapper();
-    // protected System.Void Start()
-    // Offset: 0x13B3840
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13B3A24
-    void OnDestroy();
-    // private System.Void HandleContractBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x13B3A74
-    void HandleContractBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
-    // private System.Void HandleExpandBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x13B3B2C
-    void HandleExpandBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__expandBeatmapDataCallbackWrapper();
     // public System.Void .ctor()
-    // Offset: 0x13B3BE4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13AF090
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HydraulicCarSuspensionEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HydraulicCarSuspensionEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HydraulicCarSuspensionEffect*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x13AECEC
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13AEED0
+    void OnDestroy();
+    // private System.Void HandleContractBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
+    // Offset: 0x13AEF20
+    void HandleContractBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
+    // private System.Void HandleExpandBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
+    // Offset: 0x13AEFD8
+    void HandleExpandBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
   }; // HydraulicCarSuspensionEffect
   #pragma pack(pop)
   static check_size<sizeof(HydraulicCarSuspensionEffect), 112 + sizeof(::GlobalNamespace::BeatmapDataCallbackWrapper*)> __GlobalNamespace_HydraulicCarSuspensionEffectSizeCheck;
   static_assert(sizeof(HydraulicCarSuspensionEffect) == 0x78);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::HydraulicCarSuspensionEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::HydraulicCarSuspensionEffect::Start
 // Il2CppName: Start
 template<>
@@ -244,7 +234,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HydraulicCarSuspensionEffect*), "HandleExpandBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{basicBeatmapEventData});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::HydraulicCarSuspensionEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

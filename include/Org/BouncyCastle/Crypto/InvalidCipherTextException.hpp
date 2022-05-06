@@ -30,21 +30,18 @@ namespace Org::BouncyCastle::Crypto {
   class InvalidCipherTextException : public ::Org::BouncyCastle::Crypto::CryptoException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1DF7368
+    // Offset: 0x1E31C34
     // Implemented from: Org.BouncyCastle.Crypto.CryptoException
     // Base method: System.Void CryptoException::.ctor()
-    // Base method: System.Void Exception::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidCipherTextException* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::InvalidCipherTextException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidCipherTextException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1DF7370
+    // Offset: 0x1E31C3C
     // Implemented from: Org.BouncyCastle.Crypto.CryptoException
     // Base method: System.Void CryptoException::.ctor(System.String message)
-    // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidCipherTextException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::InvalidCipherTextException::.ctor");

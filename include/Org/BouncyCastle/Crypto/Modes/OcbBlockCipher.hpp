@@ -43,15 +43,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
   // [TokenAttribute] Offset: FFFFFFFF
   class OcbBlockCipher : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Crypto.IBlockCipher hashCipher
     // Size: 0x8
     // Offset: 0x10
@@ -192,115 +184,115 @@ namespace Org::BouncyCastle::Crypto::Modes {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*>(this);
     }
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IBlockCipher hashCipher
-    ::Org::BouncyCastle::Crypto::IBlockCipher*& dyn_hashCipher();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::IBlockCipher*& dyn_hashCipher();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IBlockCipher mainCipher
-    ::Org::BouncyCastle::Crypto::IBlockCipher*& dyn_mainCipher();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::IBlockCipher*& dyn_mainCipher();
     // Get instance field reference: private System.Boolean forEncryption
-    bool& dyn_forEncryption();
+    [[deprecated("Use field access instead!")]] bool& dyn_forEncryption();
     // Get instance field reference: private System.Int32 macSize
-    int& dyn_macSize();
+    [[deprecated("Use field access instead!")]] int& dyn_macSize();
     // Get instance field reference: private System.Byte[] initialAssociatedText
-    ::ArrayW<uint8_t>& dyn_initialAssociatedText();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_initialAssociatedText();
     // Get instance field reference: private System.Collections.IList L
-    ::System::Collections::IList*& dyn_L();
+    [[deprecated("Use field access instead!")]] ::System::Collections::IList*& dyn_L();
     // Get instance field reference: private System.Byte[] L_Asterisk
-    ::ArrayW<uint8_t>& dyn_L_Asterisk();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_L_Asterisk();
     // Get instance field reference: private System.Byte[] L_Dollar
-    ::ArrayW<uint8_t>& dyn_L_Dollar();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_L_Dollar();
     // Get instance field reference: private System.Byte[] KtopInput
-    ::ArrayW<uint8_t>& dyn_KtopInput();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_KtopInput();
     // Get instance field reference: private System.Byte[] Stretch
-    ::ArrayW<uint8_t>& dyn_Stretch();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_Stretch();
     // Get instance field reference: private System.Byte[] OffsetMAIN_0
-    ::ArrayW<uint8_t>& dyn_OffsetMAIN_0();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_OffsetMAIN_0();
     // Get instance field reference: private System.Byte[] hashBlock
-    ::ArrayW<uint8_t>& dyn_hashBlock();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_hashBlock();
     // Get instance field reference: private System.Byte[] mainBlock
-    ::ArrayW<uint8_t>& dyn_mainBlock();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_mainBlock();
     // Get instance field reference: private System.Int32 hashBlockPos
-    int& dyn_hashBlockPos();
+    [[deprecated("Use field access instead!")]] int& dyn_hashBlockPos();
     // Get instance field reference: private System.Int32 mainBlockPos
-    int& dyn_mainBlockPos();
+    [[deprecated("Use field access instead!")]] int& dyn_mainBlockPos();
     // Get instance field reference: private System.Int64 hashBlockCount
-    int64_t& dyn_hashBlockCount();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_hashBlockCount();
     // Get instance field reference: private System.Int64 mainBlockCount
-    int64_t& dyn_mainBlockCount();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_mainBlockCount();
     // Get instance field reference: private System.Byte[] OffsetHASH
-    ::ArrayW<uint8_t>& dyn_OffsetHASH();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_OffsetHASH();
     // Get instance field reference: private System.Byte[] Sum
-    ::ArrayW<uint8_t>& dyn_Sum();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_Sum();
     // Get instance field reference: private System.Byte[] OffsetMAIN
-    ::ArrayW<uint8_t>& dyn_OffsetMAIN();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_OffsetMAIN();
     // Get instance field reference: private System.Byte[] Checksum
-    ::ArrayW<uint8_t>& dyn_Checksum();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_Checksum();
     // Get instance field reference: private System.Byte[] macBlock
-    ::ArrayW<uint8_t>& dyn_macBlock();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_macBlock();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher hashCipher, Org.BouncyCastle.Crypto.IBlockCipher mainCipher)
-    // Offset: 0x1E092FC
+    // Offset: 0x1E43BC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OcbBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* hashCipher, ::Org::BouncyCastle::Crypto::IBlockCipher* mainCipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Modes::OcbBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OcbBlockCipher*, creationType>(hashCipher, mainCipher)));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1E096C8
+    // Offset: 0x1E43F94
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // protected System.Int32 ProcessNonce(System.Byte[] N)
-    // Offset: 0x1E09E28
+    // Offset: 0x1E446F4
     int ProcessNonce(::ArrayW<uint8_t> N);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1E0A074
+    // Offset: 0x1E44940
     int GetBlockSize();
     // public System.Int32 GetOutputSize(System.Int32 len)
-    // Offset: 0x1E0A07C
+    // Offset: 0x1E44948
     int GetOutputSize(int len);
     // public System.Int32 GetUpdateOutputSize(System.Int32 len)
-    // Offset: 0x1E0A0A4
+    // Offset: 0x1E44970
     int GetUpdateOutputSize(int len);
     // public System.Void ProcessAadBytes(System.Byte[] input, System.Int32 off, System.Int32 len)
-    // Offset: 0x1E0A0DC
+    // Offset: 0x1E449A8
     void ProcessAadBytes(::ArrayW<uint8_t> input, int off, int len);
     // public System.Int32 ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E0A1AC
+    // Offset: 0x1E44A78
     int ProcessBytes(::ArrayW<uint8_t> input, int inOff, int len, ::ArrayW<uint8_t> output, int outOff);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E0A2A8
+    // Offset: 0x1E44B74
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1E0A77C
+    // Offset: 0x1E45048
     void Reset();
     // protected System.Void Clear(System.Byte[] bs)
-    // Offset: 0x1E0A790
+    // Offset: 0x1E4505C
     void Clear(::ArrayW<uint8_t> bs);
     // protected System.Byte[] GetLSub(System.Int32 n)
-    // Offset: 0x1E0A7AC
+    // Offset: 0x1E45078
     ::ArrayW<uint8_t> GetLSub(int n);
     // protected System.Void ProcessHashBlock()
-    // Offset: 0x1E0AA94
+    // Offset: 0x1E45360
     void ProcessHashBlock();
     // protected System.Void ProcessMainBlock(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E0AB44
+    // Offset: 0x1E45410
     void ProcessMainBlock(::ArrayW<uint8_t> output, int outOff);
     // protected System.Void Reset(System.Boolean clearMac)
-    // Offset: 0x1E0AD20
+    // Offset: 0x1E455EC
     void Reset(bool clearMac);
     // protected System.Void UpdateHASH(System.Byte[] LSub)
-    // Offset: 0x1E0AF24
+    // Offset: 0x1E457F0
     void UpdateHASH(::ArrayW<uint8_t> LSub);
     // static protected System.Byte[] OCB_double(System.Byte[] block)
-    // Offset: 0x1E09D80
+    // Offset: 0x1E4464C
     static ::ArrayW<uint8_t> OCB_double(::ArrayW<uint8_t> block);
     // static protected System.Void OCB_extend(System.Byte[] block, System.Int32 pos)
-    // Offset: 0x1E0A6AC
+    // Offset: 0x1E44F78
     static void OCB_extend(::ArrayW<uint8_t> block, int pos);
     // static protected System.Int32 OCB_ntz(System.Int64 x)
-    // Offset: 0x1E0AB10
+    // Offset: 0x1E453DC
     static int OCB_ntz(int64_t x);
     // static protected System.Int32 ShiftLeft(System.Byte[] block, System.Byte[] output)
-    // Offset: 0x1E0B01C
+    // Offset: 0x1E458E8
     static int ShiftLeft(::ArrayW<uint8_t> block, ::ArrayW<uint8_t> output);
     // static protected System.Void Xor(System.Byte[] block, System.Byte[] val)
-    // Offset: 0x1E0A718
+    // Offset: 0x1E44FE4
     static void Xor(::ArrayW<uint8_t> block, ::ArrayW<uint8_t> val);
   }; // Org.BouncyCastle.Crypto.Modes.OcbBlockCipher
   #pragma pack(pop)

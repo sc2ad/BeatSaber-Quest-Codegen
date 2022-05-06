@@ -37,15 +37,7 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x21 to desired offset: 0x28
     char ___base_padding[0x7] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BoolSO _settingsValue
     // Size: 0x8
     // Offset: 0x28
@@ -54,28 +46,23 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
     public:
     // Get instance field reference: private BoolSO _settingsValue
-    ::GlobalNamespace::BoolSO*& dyn__settingsValue();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn__settingsValue();
     // public System.Void .ctor()
-    // Offset: 0x134D560
+    // Offset: 0x13367A8
     // Implemented from: SwitchSettingsController
     // Base method: System.Void SwitchSettingsController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BoolSettingsController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BoolSettingsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BoolSettingsController*, creationType>()));
     }
     // protected override System.Boolean GetInitValue()
-    // Offset: 0x134D4A8
+    // Offset: 0x13366F0
     // Implemented from: SwitchSettingsController
     // Base method: System.Boolean SwitchSettingsController::GetInitValue()
     bool GetInitValue();
     // protected override System.Void ApplyValue(System.Boolean value)
-    // Offset: 0x134D4F8
+    // Offset: 0x1336740
     // Implemented from: SwitchSettingsController
     // Base method: System.Void SwitchSettingsController::ApplyValue(System.Boolean value)
     void ApplyValue(bool value);

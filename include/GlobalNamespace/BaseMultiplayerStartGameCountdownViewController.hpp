@@ -57,15 +57,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseMultiplayerStartGameCountdownViewController : public ::HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BeatmapSelectionView _beatmapSelectionView
     // Size: 0x8
     // Offset: 0x70
@@ -98,56 +90,49 @@ namespace GlobalNamespace {
     static_assert(sizeof(::HMUI::ToggleBinder*) == 0x8);
     public:
     // Get instance field reference: private BeatmapSelectionView _beatmapSelectionView
-    ::GlobalNamespace::BeatmapSelectionView*& dyn__beatmapSelectionView();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapSelectionView*& dyn__beatmapSelectionView();
     // Get instance field reference: private ModifiersSelectionView _modifiersSelectionView
-    ::GlobalNamespace::ModifiersSelectionView*& dyn__modifiersSelectionView();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ModifiersSelectionView*& dyn__modifiersSelectionView();
     // Get instance field reference: protected UnityEngine.UI.Toggle _spectateToggle
-    ::UnityEngine::UI::Toggle*& dyn__spectateToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__spectateToggle();
     // Get instance field reference: private System.Action`1<System.Boolean> playerActiveStateChangedEvent
-    ::System::Action_1<bool>*& dyn_playerActiveStateChangedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<bool>*& dyn_playerActiveStateChangedEvent();
     // Get instance field reference: private readonly HMUI.ToggleBinder _toggleBinder
-    ::HMUI::ToggleBinder*& dyn__toggleBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ToggleBinder*& dyn__toggleBinder();
     // public System.Void add_playerActiveStateChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x135F2F0
+    // Offset: 0x1347570
     void add_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
     // public System.Void remove_playerActiveStateChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x135F394
+    // Offset: 0x1347614
     void remove_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
-    // public System.Void SetLevelGameplaySetupData(ILevelGameplaySetupData levelGameplaySetupData)
-    // Offset: 0x135F438
-    void SetLevelGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
-    // public System.Void SetLobbyPlayerData(ILobbyPlayerData lobbyPlayerData)
-    // Offset: 0x135F58C
-    void SetLobbyPlayerData(::GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
-    // private System.Void <DidActivate>b__9_0(System.Boolean value)
-    // Offset: 0x135F7A0
-    void $DidActivate$b__9_0(bool value);
     // public System.Void .ctor()
-    // Offset: 0x135F738
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13479B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseMultiplayerStartGameCountdownViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseMultiplayerStartGameCountdownViewController*, creationType>()));
     }
+    // public System.Void SetLevelGameplaySetupData(ILevelGameplaySetupData levelGameplaySetupData)
+    // Offset: 0x13476B8
+    void SetLevelGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
+    // public System.Void SetLobbyPlayerData(ILobbyPlayerData lobbyPlayerData)
+    // Offset: 0x134780C
+    void SetLobbyPlayerData(::GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
+    // private System.Void <DidActivate>b__9_0(System.Boolean value)
+    // Offset: 0x1347A20
+    void $DidActivate$b__9_0(bool value);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x135F664
+    // Offset: 0x13478E4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x135F700
+    // Offset: 0x1347980
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x135F71C
+    // Offset: 0x134799C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
@@ -175,6 +160,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*), "remove_playerActiveStateChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::SetLevelGameplaySetupData
 // Il2CppName: SetLevelGameplaySetupData
 template<>
@@ -202,10 +191,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*), "<DidActivate>b__9_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

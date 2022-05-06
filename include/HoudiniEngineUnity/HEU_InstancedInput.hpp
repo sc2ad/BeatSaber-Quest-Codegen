@@ -37,15 +37,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InstancedInput : public ::Il2CppObject/*, public ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.GameObject _instancedGameObject
     // Size: 0x8
     // Offset: 0x10
@@ -70,29 +62,31 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>*>(this);
     }
     // Get instance field reference: public UnityEngine.GameObject _instancedGameObject
-    ::UnityEngine::GameObject*& dyn__instancedGameObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__instancedGameObject();
     // Get instance field reference: public UnityEngine.Vector3 _rotationOffset
-    ::UnityEngine::Vector3& dyn__rotationOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__rotationOffset();
     // Get instance field reference: public UnityEngine.Vector3 _scaleOffset
-    ::UnityEngine::Vector3& dyn__scaleOffset();
-    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_InstancedInput other)
-    // Offset: 0x185AEC8
-    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InstancedInput* other);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__scaleOffset();
     // public System.Void .ctor()
-    // Offset: 0x185B024
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1894934
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InstancedInput* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InstancedInput::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_InstancedInput*, creationType>()));
     }
+    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_InstancedInput other)
+    // Offset: 0x18947D8
+    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InstancedInput* other);
   }; // HoudiniEngineUnity.HEU_InstancedInput
   #pragma pack(pop)
   static check_size<sizeof(HEU_InstancedInput), 36 + sizeof(::UnityEngine::Vector3)> __HoudiniEngineUnity_HEU_InstancedInputSizeCheck;
   static_assert(sizeof(HEU_InstancedInput) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InstancedInput::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InstancedInput::IsEquivalentTo
 // Il2CppName: IsEquivalentTo
 template<>
@@ -102,7 +96,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InstancedInput*), "IsEquivalentTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InstancedInput::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -26,15 +26,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class SliderState : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single dragStartPos
     // Size: 0x4
     // Offset: 0x10
@@ -55,15 +47,13 @@ namespace UnityEngine {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.Single dragStartPos
-    float& dyn_dragStartPos();
+    [[deprecated("Use field access instead!")]] float& dyn_dragStartPos();
     // Get instance field reference: public System.Single dragStartValue
-    float& dyn_dragStartValue();
+    [[deprecated("Use field access instead!")]] float& dyn_dragStartValue();
     // Get instance field reference: public System.Boolean isDragging
-    bool& dyn_isDragging();
+    [[deprecated("Use field access instead!")]] bool& dyn_isDragging();
     // public System.Void .ctor()
-    // Offset: 0x1FB82BC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2002B30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderState* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::SliderState::.ctor");

@@ -40,22 +40,24 @@ namespace Polyglot {
     public:
     // Nested type: ::Polyglot::CsvReader::ParsingMode
     struct ParsingMode;
-    // static public System.Collections.Generic.List`1<System.Collections.Generic.List`1<System.String>> Parse(System.String src)
-    // Offset: 0x29DCB2C
-    static ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* Parse(::StringW src);
     // public System.Void .ctor()
-    // Offset: 0x29DD068
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A3295C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CsvReader* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Polyglot::CsvReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CsvReader*, creationType>()));
     }
+    // static public System.Collections.Generic.List`1<System.Collections.Generic.List`1<System.String>> Parse(System.String src)
+    // Offset: 0x2A32420
+    static ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* Parse(::StringW src);
   }; // Polyglot.CsvReader
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Polyglot::CsvReader::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Polyglot::CsvReader::Parse
 // Il2CppName: Parse
 template<>
@@ -65,7 +67,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(Polyglot::CsvReader*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src});
   }
 };
-// Writing MetadataGetter for method: Polyglot::CsvReader::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

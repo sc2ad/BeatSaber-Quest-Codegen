@@ -28,26 +28,24 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassLightsUpdateSystem : public ::UnityEngine::MonoBehaviour {
     public:
-    // protected System.Void LateUpdate()
-    // Offset: 0x2ACDA98
-    void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x2ACDD44
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E7710C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassLightsUpdateSystem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassLightsUpdateSystem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassLightsUpdateSystem*, creationType>()));
     }
+    // protected System.Void LateUpdate()
+    // Offset: 0x1E76E60
+    void LateUpdate();
   }; // BloomPrePassLightsUpdateSystem
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassLightsUpdateSystem::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassLightsUpdateSystem::LateUpdate
 // Il2CppName: LateUpdate
 template<>
@@ -56,7 +54,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassLightsUpdateSystem*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassLightsUpdateSystem::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

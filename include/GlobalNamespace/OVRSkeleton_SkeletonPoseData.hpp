@@ -71,52 +71,52 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private OVRPlugin/Posef <RootPose>k__BackingField
-    ::GlobalNamespace::OVRPlugin::Posef& dyn_$RootPose$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Posef& dyn_$RootPose$k__BackingField();
     // Get instance field reference: private System.Single <RootScale>k__BackingField
-    float& dyn_$RootScale$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$RootScale$k__BackingField();
     // Get instance field reference: private OVRPlugin/Quatf[] <BoneRotations>k__BackingField
-    ::ArrayW<::GlobalNamespace::OVRPlugin::Quatf>& dyn_$BoneRotations$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::OVRPlugin::Quatf>& dyn_$BoneRotations$k__BackingField();
     // Get instance field reference: private System.Boolean <IsDataValid>k__BackingField
-    bool& dyn_$IsDataValid$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$IsDataValid$k__BackingField();
     // Get instance field reference: private System.Boolean <IsDataHighConfidence>k__BackingField
-    bool& dyn_$IsDataHighConfidence$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$IsDataHighConfidence$k__BackingField();
     // Get instance field reference: private System.Int32 <SkeletonChangedCount>k__BackingField
-    int& dyn_$SkeletonChangedCount$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$SkeletonChangedCount$k__BackingField();
     // public OVRPlugin/Posef get_RootPose()
-    // Offset: 0x2456CD8
+    // Offset: 0x24A079C
     ::GlobalNamespace::OVRPlugin::Posef get_RootPose();
     // public System.Void set_RootPose(OVRPlugin/Posef value)
-    // Offset: 0x2456CEC
+    // Offset: 0x24A07B0
     void set_RootPose(::GlobalNamespace::OVRPlugin::Posef value);
     // public System.Single get_RootScale()
-    // Offset: 0x2456D08
+    // Offset: 0x24A07CC
     float get_RootScale();
     // public System.Void set_RootScale(System.Single value)
-    // Offset: 0x2456D10
+    // Offset: 0x24A07D4
     void set_RootScale(float value);
     // public OVRPlugin/Quatf[] get_BoneRotations()
-    // Offset: 0x2456D18
+    // Offset: 0x24A07DC
     ::ArrayW<::GlobalNamespace::OVRPlugin::Quatf> get_BoneRotations();
     // public System.Void set_BoneRotations(OVRPlugin/Quatf[] value)
-    // Offset: 0x2456D20
+    // Offset: 0x24A07E4
     void set_BoneRotations(::ArrayW<::GlobalNamespace::OVRPlugin::Quatf> value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0x2456D28
+    // Offset: 0x24A07EC
     bool get_IsDataValid();
     // public System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0x2456D30
+    // Offset: 0x24A07F4
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0x2456D3C
+    // Offset: 0x24A0800
     bool get_IsDataHighConfidence();
     // public System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0x2456D44
+    // Offset: 0x24A0808
     void set_IsDataHighConfidence(bool value);
     // public System.Int32 get_SkeletonChangedCount()
-    // Offset: 0x2456D50
+    // Offset: 0x24A0814
     int get_SkeletonChangedCount();
     // public System.Void set_SkeletonChangedCount(System.Int32 value)
-    // Offset: 0x2456D58
+    // Offset: 0x24A081C
     void set_SkeletonChangedCount(int value);
   }; // OVRSkeleton/SkeletonPoseData
   #pragma pack(pop)

@@ -31,15 +31,7 @@ namespace BeatmapSaveDataVersion2_6_0AndEarlier {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapSaveData::NoteData : public ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _time
     // Size: 0x4
     // Offset: 0x10
@@ -72,36 +64,36 @@ namespace BeatmapSaveDataVersion2_6_0AndEarlier {
     static_assert(sizeof(::GlobalNamespace::NoteCutDirection) == 0x4);
     public:
     // Get instance field reference: private System.Single _time
-    float& dyn__time();
+    [[deprecated("Use field access instead!")]] float& dyn__time();
     // Get instance field reference: private System.Int32 _lineIndex
-    int& dyn__lineIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__lineIndex();
     // Get instance field reference: private NoteLineLayer _lineLayer
-    ::GlobalNamespace::NoteLineLayer& dyn__lineLayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteLineLayer& dyn__lineLayer();
     // Get instance field reference: private BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.NoteType _type
-    ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::NoteType& dyn__type();
+    [[deprecated("Use field access instead!")]] ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::NoteType& dyn__type();
     // Get instance field reference: private NoteCutDirection _cutDirection
-    ::GlobalNamespace::NoteCutDirection& dyn__cutDirection();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutDirection& dyn__cutDirection();
     // public System.Int32 get_lineIndex()
-    // Offset: 0x2819290
+    // Offset: 0x286B850
     int get_lineIndex();
     // public NoteLineLayer get_lineLayer()
-    // Offset: 0x2819298
+    // Offset: 0x286B858
     ::GlobalNamespace::NoteLineLayer get_lineLayer();
     // public BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.NoteType get_type()
-    // Offset: 0x28192A0
+    // Offset: 0x286B860
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::NoteType get_type();
     // public NoteCutDirection get_cutDirection()
-    // Offset: 0x28192A8
+    // Offset: 0x286B868
     ::GlobalNamespace::NoteCutDirection get_cutDirection();
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, NoteLineLayer lineLayer, BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.NoteType type, NoteCutDirection cutDirection)
-    // Offset: 0x28192B0
+    // Offset: 0x286B870
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::NoteData* New_ctor(float time, int lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::NoteType type, ::GlobalNamespace::NoteCutDirection cutDirection) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::NoteData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::NoteData*, creationType>(time, lineIndex, lineLayer, type, cutDirection)));
     }
     // public override System.Single get_time()
-    // Offset: 0x2819288
+    // Offset: 0x286B848
     // Implemented from: BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveDataItem
     // Base method: System.Single BeatmapSaveDataItem::get_time()
     float get_time();

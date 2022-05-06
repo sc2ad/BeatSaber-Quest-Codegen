@@ -49,9 +49,9 @@ namespace Mono {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: System.IntPtr* data
-    ::System::IntPtr*& dyn_data();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr*& dyn_data();
     // Get instance field reference: System.Int32 len
-    int& dyn_len();
+    [[deprecated("Use field access instead!")]] int& dyn_len();
   }; // Mono.RuntimeStructs/Mono.GPtrArray
   #pragma pack(pop)
   static check_size<sizeof(RuntimeStructs::GPtrArray), 8 + sizeof(int)> __Mono_RuntimeStructs_GPtrArraySizeCheck;

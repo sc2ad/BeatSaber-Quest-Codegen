@@ -48,15 +48,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PhysicsPositionsMovementEventEffect : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BasicBeatmapEventType _event
     // Size: 0x4
     // Offset: 0x18
@@ -105,14 +97,14 @@ namespace GlobalNamespace {
     float maxAcceleration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x12518EC
+    // [InjectAttribute] Offset: 0x10D6478
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x12518FC
+    // [InjectAttribute] Offset: 0x10D6488
     // private readonly SongTimeFixedUpdateController _songTimeFixedUpdateController
     // Size: 0x8
     // Offset: 0x48
@@ -179,77 +171,75 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BasicBeatmapEventType _event
-    ::GlobalNamespace::BasicBeatmapEventType& dyn__event();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BasicBeatmapEventType& dyn__event();
     // Get instance field reference: private UnityEngine.Vector3 _movementVector
-    ::UnityEngine::Vector3& dyn__movementVector();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__movementVector();
     // Get instance field reference: private System.Single _stepSize
-    float& dyn__stepSize();
+    [[deprecated("Use field access instead!")]] float& dyn__stepSize();
     // Get instance field reference: private System.Single _elasticity
-    float& dyn__elasticity();
+    [[deprecated("Use field access instead!")]] float& dyn__elasticity();
     // Get instance field reference: private System.Single _friction
-    float& dyn__friction();
+    [[deprecated("Use field access instead!")]] float& dyn__friction();
     // Get instance field reference: private System.Single _minMaxSpeed
-    float& dyn__minMaxSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__minMaxSpeed();
     // Get instance field reference: private System.Single _maxMaxSpeed
-    float& dyn__maxMaxSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__maxMaxSpeed();
     // Get instance field reference: private System.Single _maxAcceleration
-    float& dyn__maxAcceleration();
+    [[deprecated("Use field access instead!")]] float& dyn__maxAcceleration();
     // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
-    ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
     // Get instance field reference: private readonly SongTimeFixedUpdateController _songTimeFixedUpdateController
-    ::GlobalNamespace::SongTimeFixedUpdateController*& dyn__songTimeFixedUpdateController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongTimeFixedUpdateController*& dyn__songTimeFixedUpdateController();
     // Get instance field reference: private UnityEngine.Transform _transform
-    ::UnityEngine::Transform*& dyn__transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // Get instance field reference: private UnityEngine.Vector3 _startPos
-    ::UnityEngine::Vector3& dyn__startPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__startPos();
     // Get instance field reference: private UnityEngine.Vector3 _velocity
-    ::UnityEngine::Vector3& dyn__velocity();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__velocity();
     // Get instance field reference: private UnityEngine.Vector3 _prevPosition
-    ::UnityEngine::Vector3& dyn__prevPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__prevPosition();
     // Get instance field reference: private UnityEngine.Vector3 _position
-    ::UnityEngine::Vector3& dyn__position();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__position();
     // Get instance field reference: private UnityEngine.Vector3 _targetPosition
-    ::UnityEngine::Vector3& dyn__targetPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__targetPosition();
     // Get instance field reference: private System.Single _maxSpeed
-    float& dyn__maxSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__maxSpeed();
     // Get instance field reference: private System.Single _sqrMaxSpeed
-    float& dyn__sqrMaxSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__sqrMaxSpeed();
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
-    ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
-    // protected System.Void Start()
-    // Offset: 0x12F110C
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x12F130C
-    void OnDestroy();
-    // private System.Void HandleSongTimeFixedUpdate(System.Single fixedDeltaTime)
-    // Offset: 0x12F1440
-    void HandleSongTimeFixedUpdate(float fixedDeltaTime);
-    // private System.Void HandleSongTimeUpdate()
-    // Offset: 0x12F1700
-    void HandleSongTimeUpdate();
-    // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x12F17DC
-    void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // public System.Void .ctor()
-    // Offset: 0x12F1910
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13628C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PhysicsPositionsMovementEventEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PhysicsPositionsMovementEventEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PhysicsPositionsMovementEventEffect*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x13620C4
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13622C4
+    void OnDestroy();
+    // private System.Void HandleSongTimeFixedUpdate(System.Single fixedDeltaTime)
+    // Offset: 0x13623F8
+    void HandleSongTimeFixedUpdate(float fixedDeltaTime);
+    // private System.Void HandleSongTimeUpdate()
+    // Offset: 0x13626B8
+    void HandleSongTimeUpdate();
+    // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
+    // Offset: 0x1362794
+    void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
   }; // PhysicsPositionsMovementEventEffect
   #pragma pack(pop)
   static check_size<sizeof(PhysicsPositionsMovementEventEffect), 160 + sizeof(::GlobalNamespace::BeatmapDataCallbackWrapper*)> __GlobalNamespace_PhysicsPositionsMovementEventEffectSizeCheck;
   static_assert(sizeof(PhysicsPositionsMovementEventEffect) == 0xA8);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::PhysicsPositionsMovementEventEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PhysicsPositionsMovementEventEffect::Start
 // Il2CppName: Start
 template<>
@@ -292,7 +282,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PhysicsPositionsMovementEventEffect*), "HandleBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{basicBeatmapEventData});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PhysicsPositionsMovementEventEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

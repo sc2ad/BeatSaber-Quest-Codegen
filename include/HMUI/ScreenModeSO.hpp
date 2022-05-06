@@ -35,15 +35,7 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScreenModeSO : public ::UnityEngine::ScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.ScreenModeData _data
     // Size: 0x8
     // Offset: 0x18
@@ -54,16 +46,12 @@ namespace HMUI {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.ScreenModeData _data
-    ::HMUI::ScreenModeData*& dyn__data();
+    [[deprecated("Use field access instead!")]] ::HMUI::ScreenModeData*& dyn__data();
     // public HMUI.ScreenModeData get_data()
-    // Offset: 0x16882B0
+    // Offset: 0x16BEBC0
     ::HMUI::ScreenModeData* get_data();
     // public System.Void .ctor()
-    // Offset: 0x16882B8
-    // Implemented from: UnityEngine.ScriptableObject
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16BEBC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScreenModeSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ScreenModeSO::.ctor");

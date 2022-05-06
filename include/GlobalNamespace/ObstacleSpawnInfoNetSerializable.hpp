@@ -43,15 +43,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ObstacleSpawnInfoNetSerializable : public ::Il2CppObject/*, public ::LiteNetLib::Utils::INetSerializable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single time
     // Size: 0x4
     // Offset: 0x10
@@ -142,61 +134,63 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
     // Get instance field reference: public System.Single time
-    float& dyn_time();
+    [[deprecated("Use field access instead!")]] float& dyn_time();
     // Get instance field reference: public System.Int32 lineIndex
-    int& dyn_lineIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_lineIndex();
     // Get instance field reference: public NoteLineLayer lineLayer
-    ::GlobalNamespace::NoteLineLayer& dyn_lineLayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteLineLayer& dyn_lineLayer();
     // Get instance field reference: public System.Single duration
-    float& dyn_duration();
+    [[deprecated("Use field access instead!")]] float& dyn_duration();
     // Get instance field reference: public System.Int32 width
-    int& dyn_width();
+    [[deprecated("Use field access instead!")]] int& dyn_width();
     // Get instance field reference: public System.Int32 height
-    int& dyn_height();
+    [[deprecated("Use field access instead!")]] int& dyn_height();
     // Get instance field reference: public Vector3Serializable moveStartPos
-    ::GlobalNamespace::Vector3Serializable& dyn_moveStartPos();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3Serializable& dyn_moveStartPos();
     // Get instance field reference: public Vector3Serializable moveEndPos
-    ::GlobalNamespace::Vector3Serializable& dyn_moveEndPos();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3Serializable& dyn_moveEndPos();
     // Get instance field reference: public Vector3Serializable jumpEndPos
-    ::GlobalNamespace::Vector3Serializable& dyn_jumpEndPos();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3Serializable& dyn_jumpEndPos();
     // Get instance field reference: public System.Single obstacleHeight
-    float& dyn_obstacleHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_obstacleHeight();
     // Get instance field reference: public System.Single moveDuration
-    float& dyn_moveDuration();
+    [[deprecated("Use field access instead!")]] float& dyn_moveDuration();
     // Get instance field reference: public System.Single jumpDuration
-    float& dyn_jumpDuration();
+    [[deprecated("Use field access instead!")]] float& dyn_jumpDuration();
     // Get instance field reference: public System.Single noteLinesDistance
-    float& dyn_noteLinesDistance();
+    [[deprecated("Use field access instead!")]] float& dyn_noteLinesDistance();
     // Get instance field reference: public System.Single rotation
-    float& dyn_rotation();
+    [[deprecated("Use field access instead!")]] float& dyn_rotation();
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, NoteLineLayer lineLayer, System.Single duration, System.Int32 width, System.Int32 height, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single obstacleHeight, System.Single moveDuration, System.Single jumpDuration, System.Single noteLinesDistance, System.Single rotation)
-    // Offset: 0x29C1748
+    // Offset: 0x2A03ABC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleSpawnInfoNetSerializable* New_ctor(float time, int lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float duration, int width, int height, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos, float obstacleHeight, float moveDuration, float jumpDuration, float noteLinesDistance, float rotation) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObstacleSpawnInfoNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleSpawnInfoNetSerializable*, creationType>(time, lineIndex, lineLayer, duration, width, height, moveStartPos, moveEndPos, jumpEndPos, obstacleHeight, moveDuration, jumpDuration, noteLinesDistance, rotation)));
     }
-    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x29C18C0
-    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
-    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29C1A04
-    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x29C18B8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A03C2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleSpawnInfoNetSerializable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObstacleSpawnInfoNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleSpawnInfoNetSerializable*, creationType>()));
     }
+    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x2A03C34
+    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x2A03D78
+    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
   }; // ObstacleSpawnInfoNetSerializable
   #pragma pack(pop)
   static check_size<sizeof(ObstacleSpawnInfoNetSerializable), 92 + sizeof(float)> __GlobalNamespace_ObstacleSpawnInfoNetSerializableSizeCheck;
   static_assert(sizeof(ObstacleSpawnInfoNetSerializable) == 0x60);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleSpawnInfoNetSerializable::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleSpawnInfoNetSerializable::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -219,7 +213,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSpawnInfoNetSerializable*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ObstacleSpawnInfoNetSerializable::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

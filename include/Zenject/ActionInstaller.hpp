@@ -43,15 +43,7 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class ActionInstaller : public ::Zenject::Installer_1<::Zenject::ActionInstaller*> {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Action`1<Zenject.DiContainer> _installMethod
     // Size: 0x8
     // Offset: 0x18
@@ -62,24 +54,24 @@ namespace Zenject {
     // Deleting conversion operator: operator ::Zenject::DiContainer*
     constexpr operator ::Zenject::DiContainer*() const noexcept = delete;
     // Get instance field reference: private readonly System.Action`1<Zenject.DiContainer> _installMethod
-    ::System::Action_1<::Zenject::DiContainer*>*& dyn__installMethod();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::Zenject::DiContainer*>*& dyn__installMethod();
     // public System.Void .ctor(System.Action`1<Zenject.DiContainer> installMethod)
-    // Offset: 0x172FEA0
+    // Offset: 0x17687B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ActionInstaller* New_ctor(::System::Action_1<::Zenject::DiContainer*>* installMethod) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ActionInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ActionInstaller*, creationType>(installMethod)));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x172FF60
+    // Offset: 0x1768870
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // public override System.Void InstallBindings()
-    // Offset: 0x172FF04
+    // Offset: 0x1768814
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1730008
+    // Offset: 0x1768918
     // Implemented from: Zenject.Installer`1
     // Base method: Zenject.InjectTypeInfo Installer_1::__zenCreateInjectTypeInfo()
     // Base method: Zenject.InjectTypeInfo InstallerBase::__zenCreateInjectTypeInfo()

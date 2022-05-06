@@ -48,15 +48,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MenuShockwave : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.ParticleSystem _shockwavePS
     // Size: 0x8
     // Offset: 0x18
@@ -85,47 +77,45 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem _shockwavePS
-    ::UnityEngine::ParticleSystem*& dyn__shockwavePS();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn__shockwavePS();
     // Get instance field reference: private VRUIControls.VRPointer _vrPointer
-    ::VRUIControls::VRPointer*& dyn__vrPointer();
+    [[deprecated("Use field access instead!")]] ::VRUIControls::VRPointer*& dyn__vrPointer();
     // Get instance field reference: private Signal[] _buttonClickEvents
-    ::ArrayW<::GlobalNamespace::Signal*>& dyn__buttonClickEvents();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::Signal*>& dyn__buttonClickEvents();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _shockwavePSEmitParams
-    ::UnityEngine::ParticleSystem::EmitParams& dyn__shockwavePSEmitParams();
-    // protected System.Void Awake()
-    // Offset: 0x12FF578
-    void Awake();
-    // protected System.Void OnEnable()
-    // Offset: 0x12FF588
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x12FF65C
-    void OnDisable();
-    // private System.Void HandleButtonClickEvent()
-    // Offset: 0x12FF730
-    void HandleButtonClickEvent();
-    // public System.Void SpawnShockwave(UnityEngine.Vector3 pos)
-    // Offset: 0x12FF764
-    void SpawnShockwave(::UnityEngine::Vector3 pos);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::EmitParams& dyn__shockwavePSEmitParams();
     // public System.Void .ctor()
-    // Offset: 0x12FF814
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x12FBCEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuShockwave* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuShockwave::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MenuShockwave*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x12FBA50
+    void Awake();
+    // protected System.Void OnEnable()
+    // Offset: 0x12FBA60
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x12FBB34
+    void OnDisable();
+    // private System.Void HandleButtonClickEvent()
+    // Offset: 0x12FBC08
+    void HandleButtonClickEvent();
+    // public System.Void SpawnShockwave(UnityEngine.Vector3 pos)
+    // Offset: 0x12FBC3C
+    void SpawnShockwave(::UnityEngine::Vector3 pos);
   }; // MenuShockwave
   #pragma pack(pop)
   static check_size<sizeof(MenuShockwave), 48 + sizeof(::UnityEngine::ParticleSystem::EmitParams)> __GlobalNamespace_MenuShockwaveSizeCheck;
   static_assert(sizeof(MenuShockwave) == 0xBF);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MenuShockwave::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MenuShockwave::Awake
 // Il2CppName: Awake
 template<>
@@ -167,7 +157,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuShockwave*), "SpawnShockwave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pos});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MenuShockwave::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

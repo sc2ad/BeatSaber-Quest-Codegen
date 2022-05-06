@@ -60,7 +60,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Set static field: static public BeatSaberAPI.DataTransferObjects.PlatformEnviroment Production
     static void _set_Production(::BeatSaberAPI::DataTransferObjects::PlatformEnviroment value);
     // Get instance field reference: public System.Byte value__
-    uint8_t& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_value__();
   }; // BeatSaberAPI.DataTransferObjects.PlatformEnviroment
   #pragma pack(pop)
   static check_size<sizeof(PlatformEnviroment), 0 + sizeof(uint8_t)> __BeatSaberAPI_DataTransferObjects_PlatformEnviromentSizeCheck;

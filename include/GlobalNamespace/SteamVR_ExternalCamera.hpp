@@ -189,56 +189,48 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public System.Single x
-      float& dyn_x();
+      [[deprecated("Use field access instead!")]] float& dyn_x();
       // Get instance field reference: public System.Single y
-      float& dyn_y();
+      [[deprecated("Use field access instead!")]] float& dyn_y();
       // Get instance field reference: public System.Single z
-      float& dyn_z();
+      [[deprecated("Use field access instead!")]] float& dyn_z();
       // Get instance field reference: public System.Single rx
-      float& dyn_rx();
+      [[deprecated("Use field access instead!")]] float& dyn_rx();
       // Get instance field reference: public System.Single ry
-      float& dyn_ry();
+      [[deprecated("Use field access instead!")]] float& dyn_ry();
       // Get instance field reference: public System.Single rz
-      float& dyn_rz();
+      [[deprecated("Use field access instead!")]] float& dyn_rz();
       // Get instance field reference: public System.Single fov
-      float& dyn_fov();
+      [[deprecated("Use field access instead!")]] float& dyn_fov();
       // Get instance field reference: public System.Single near
-      float& dyn_near();
+      [[deprecated("Use field access instead!")]] float& dyn_near();
       // Get instance field reference: public System.Single far
-      float& dyn_far();
+      [[deprecated("Use field access instead!")]] float& dyn_far();
       // Get instance field reference: public System.Single sceneResolutionScale
-      float& dyn_sceneResolutionScale();
+      [[deprecated("Use field access instead!")]] float& dyn_sceneResolutionScale();
       // Get instance field reference: public System.Single frameSkip
-      float& dyn_frameSkip();
+      [[deprecated("Use field access instead!")]] float& dyn_frameSkip();
       // Get instance field reference: public System.Single nearOffset
-      float& dyn_nearOffset();
+      [[deprecated("Use field access instead!")]] float& dyn_nearOffset();
       // Get instance field reference: public System.Single farOffset
-      float& dyn_farOffset();
+      [[deprecated("Use field access instead!")]] float& dyn_farOffset();
       // Get instance field reference: public System.Single hmdOffset
-      float& dyn_hmdOffset();
+      [[deprecated("Use field access instead!")]] float& dyn_hmdOffset();
       // Get instance field reference: public System.Single r
-      float& dyn_r();
+      [[deprecated("Use field access instead!")]] float& dyn_r();
       // Get instance field reference: public System.Single g
-      float& dyn_g();
+      [[deprecated("Use field access instead!")]] float& dyn_g();
       // Get instance field reference: public System.Single b
-      float& dyn_b();
+      [[deprecated("Use field access instead!")]] float& dyn_b();
       // Get instance field reference: public System.Single a
-      float& dyn_a();
+      [[deprecated("Use field access instead!")]] float& dyn_a();
       // Get instance field reference: public System.Boolean disableStandardAssets
-      bool& dyn_disableStandardAssets();
+      [[deprecated("Use field access instead!")]] bool& dyn_disableStandardAssets();
     }; // SteamVR_ExternalCamera/Config
     #pragma pack(pop)
     static check_size<sizeof(SteamVR_ExternalCamera::Config), 72 + sizeof(bool)> __GlobalNamespace_SteamVR_ExternalCamera_ConfigSizeCheck;
     static_assert(sizeof(SteamVR_ExternalCamera::Config) == 0x49);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public SteamVR_ExternalCamera/Config config
     // Size: 0x49
     // Offset: 0x18
@@ -317,69 +309,63 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public SteamVR_ExternalCamera/Config config
-    ::GlobalNamespace::SteamVR_ExternalCamera::Config& dyn_config();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SteamVR_ExternalCamera::Config& dyn_config();
     // Get instance field reference: public System.String configPath
-    ::StringW& dyn_configPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_configPath();
     // Get instance field reference: private System.IO.FileSystemWatcher watcher
-    ::System::IO::FileSystemWatcher*& dyn_watcher();
+    [[deprecated("Use field access instead!")]] ::System::IO::FileSystemWatcher*& dyn_watcher();
     // Get instance field reference: private UnityEngine.Camera cam
-    ::UnityEngine::Camera*& dyn_cam();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Camera*& dyn_cam();
     // Get instance field reference: private UnityEngine.Transform target
-    ::UnityEngine::Transform*& dyn_target();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_target();
     // Get instance field reference: private UnityEngine.GameObject clipQuad
-    ::UnityEngine::GameObject*& dyn_clipQuad();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_clipQuad();
     // Get instance field reference: private UnityEngine.Material clipMaterial
-    ::UnityEngine::Material*& dyn_clipMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_clipMaterial();
     // Get instance field reference: private UnityEngine.Material colorMat
-    ::UnityEngine::Material*& dyn_colorMat();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_colorMat();
     // Get instance field reference: private UnityEngine.Material alphaMat
-    ::UnityEngine::Material*& dyn_alphaMat();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_alphaMat();
     // Get instance field reference: private UnityEngine.Camera[] cameras
-    ::ArrayW<::UnityEngine::Camera*>& dyn_cameras();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Camera*>& dyn_cameras();
     // Get instance field reference: private UnityEngine.Rect[] cameraRects
-    ::ArrayW<::UnityEngine::Rect>& dyn_cameraRects();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Rect>& dyn_cameraRects();
     // Get instance field reference: private System.Single sceneResolutionScale
-    float& dyn_sceneResolutionScale();
-    // public System.Void ReadConfig()
-    // Offset: 0x186AD30
-    void ReadConfig();
-    // private System.Void OnChanged(System.Object source, System.IO.FileSystemEventArgs e)
-    // Offset: 0x186B638
-    void OnChanged(::Il2CppObject* source, ::System::IO::FileSystemEventArgs* e);
-    // public System.Void AttachToCamera(SteamVR_Camera vrcam)
-    // Offset: 0x186B63C
-    void AttachToCamera(::GlobalNamespace::SteamVR_Camera* vrcam);
-    // public System.Single GetTargetDistance()
-    // Offset: 0x186BBEC
-    float GetTargetDistance();
-    // public System.Void RenderNear()
-    // Offset: 0x186BE98
-    void RenderNear();
-    // public System.Void RenderFar()
-    // Offset: 0x186C5F0
-    void RenderFar();
-    // private System.Void OnGUI()
-    // Offset: 0x186C710
-    void OnGUI();
-    // private System.Void OnEnable()
-    // Offset: 0x186C714
-    void OnEnable();
-    // private System.Void OnDisable()
-    // Offset: 0x186C964
-    void OnDisable();
+    [[deprecated("Use field access instead!")]] float& dyn_sceneResolutionScale();
     // public System.Void .ctor()
-    // Offset: 0x186CAA0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18A63B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_ExternalCamera* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_ExternalCamera::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_ExternalCamera*, creationType>()));
     }
+    // public System.Void ReadConfig()
+    // Offset: 0x18A4640
+    void ReadConfig();
+    // private System.Void OnChanged(System.Object source, System.IO.FileSystemEventArgs e)
+    // Offset: 0x18A4F48
+    void OnChanged(::Il2CppObject* source, ::System::IO::FileSystemEventArgs* e);
+    // public System.Void AttachToCamera(SteamVR_Camera vrcam)
+    // Offset: 0x18A4F4C
+    void AttachToCamera(::GlobalNamespace::SteamVR_Camera* vrcam);
+    // public System.Single GetTargetDistance()
+    // Offset: 0x18A54FC
+    float GetTargetDistance();
+    // public System.Void RenderNear()
+    // Offset: 0x18A57A8
+    void RenderNear();
+    // public System.Void RenderFar()
+    // Offset: 0x18A5F00
+    void RenderFar();
+    // private System.Void OnGUI()
+    // Offset: 0x18A6020
+    void OnGUI();
+    // private System.Void OnEnable()
+    // Offset: 0x18A6024
+    void OnEnable();
+    // private System.Void OnDisable()
+    // Offset: 0x18A6274
+    void OnDisable();
   }; // SteamVR_ExternalCamera
   #pragma pack(pop)
   static check_size<sizeof(SteamVR_ExternalCamera), 184 + sizeof(float)> __GlobalNamespace_SteamVR_ExternalCameraSizeCheck;
@@ -388,6 +374,10 @@ namespace GlobalNamespace {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SteamVR_ExternalCamera::Config, "", "SteamVR_ExternalCamera/Config");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ExternalCamera::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_ExternalCamera::ReadConfig
 // Il2CppName: ReadConfig
 template<>
@@ -463,7 +453,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ExternalCamera*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ExternalCamera::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

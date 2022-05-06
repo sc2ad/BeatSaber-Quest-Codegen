@@ -31,15 +31,7 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class NatPunchModule::NatIntroduceResponsePacket : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Net.IPEndPoint <Internal>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -60,33 +52,31 @@ namespace LiteNetLib {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.Net.IPEndPoint <Internal>k__BackingField
-    ::System::Net::IPEndPoint*& dyn_$Internal$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Net::IPEndPoint*& dyn_$Internal$k__BackingField();
     // Get instance field reference: private System.Net.IPEndPoint <External>k__BackingField
-    ::System::Net::IPEndPoint*& dyn_$External$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Net::IPEndPoint*& dyn_$External$k__BackingField();
     // Get instance field reference: private System.String <Token>k__BackingField
-    ::StringW& dyn_$Token$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$Token$k__BackingField();
     // public System.Net.IPEndPoint get_Internal()
-    // Offset: 0x2164574
+    // Offset: 0x21AFDE8
     ::System::Net::IPEndPoint* get_Internal();
     // public System.Void set_Internal(System.Net.IPEndPoint value)
-    // Offset: 0x216457C
+    // Offset: 0x21AFDF0
     void set_Internal(::System::Net::IPEndPoint* value);
     // public System.Net.IPEndPoint get_External()
-    // Offset: 0x2164584
+    // Offset: 0x21AFDF8
     ::System::Net::IPEndPoint* get_External();
     // public System.Void set_External(System.Net.IPEndPoint value)
-    // Offset: 0x216458C
+    // Offset: 0x21AFE00
     void set_External(::System::Net::IPEndPoint* value);
     // public System.String get_Token()
-    // Offset: 0x2164594
+    // Offset: 0x21AFE08
     ::StringW get_Token();
     // public System.Void set_Token(System.String value)
-    // Offset: 0x216459C
+    // Offset: 0x21AFE10
     void set_Token(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x21636C0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x21AEF34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NatPunchModule::NatIntroduceResponsePacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NatPunchModule::NatIntroduceResponsePacket::.ctor");

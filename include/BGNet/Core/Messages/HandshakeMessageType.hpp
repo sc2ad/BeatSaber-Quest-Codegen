@@ -96,7 +96,7 @@ namespace BGNet::Core::Messages {
     // Set static field: static public BGNet.Core.Messages.HandshakeMessageType MultipartMessage
     static void _set_MultipartMessage(::BGNet::Core::Messages::HandshakeMessageType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // BGNet.Core.Messages.HandshakeMessageType
   #pragma pack(pop)
   static check_size<sizeof(HandshakeMessageType), 0 + sizeof(int)> __BGNet_Core_Messages_HandshakeMessageTypeSizeCheck;

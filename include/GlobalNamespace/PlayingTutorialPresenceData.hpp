@@ -36,15 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayingTutorialPresenceData : public ::Il2CppObject/*, public ::GlobalNamespace::IRichPresenceData*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String <localizedDescription>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -60,7 +52,7 @@ namespace GlobalNamespace {
     constexpr operator ::StringW() const noexcept {
       return localizedDescription;
     }
-    // [LocalizationKeyAttribute] Offset: 0x124E784
+    // [LocalizationKeyAttribute] Offset: 0x10D327C
     // static field const value: static private System.String kPlayingCampaignRichPresenceLocalizationKey
     static constexpr const char* kPlayingCampaignRichPresenceLocalizationKey = "PLAYING_TUTORIAL_PRESENCE";
     // Get static field: static private System.String kPlayingCampaignRichPresenceLocalizationKey
@@ -68,20 +60,18 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kPlayingCampaignRichPresenceLocalizationKey
     static void _set_kPlayingCampaignRichPresenceLocalizationKey(::StringW value);
     // Get instance field reference: private System.String <localizedDescription>k__BackingField
-    ::StringW& dyn_$localizedDescription$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$localizedDescription$k__BackingField();
     // public System.String get_apiName()
-    // Offset: 0x1374394
+    // Offset: 0x13DB5E4
     ::StringW get_apiName();
     // public System.String get_localizedDescription()
-    // Offset: 0x13743DC
+    // Offset: 0x13DB62C
     ::StringW get_localizedDescription();
     // private System.Void set_localizedDescription(System.String value)
-    // Offset: 0x13743E4
+    // Offset: 0x13DB634
     void set_localizedDescription(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x13743EC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13DB63C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayingTutorialPresenceData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayingTutorialPresenceData::.ctor");

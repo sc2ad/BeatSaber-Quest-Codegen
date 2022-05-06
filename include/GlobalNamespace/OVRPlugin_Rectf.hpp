@@ -46,9 +46,9 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private OVRPlugin/Vector2f Pos
-    ::GlobalNamespace::OVRPlugin::Vector2f& dyn_Pos();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Vector2f& dyn_Pos();
     // Get instance field reference: private OVRPlugin/Sizef Size
-    ::GlobalNamespace::OVRPlugin::Sizef& dyn_Size();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Sizef& dyn_Size();
   }; // OVRPlugin/Rectf
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Rectf), 8 + sizeof(::GlobalNamespace::OVRPlugin::Sizef)> __GlobalNamespace_OVRPlugin_RectfSizeCheck;

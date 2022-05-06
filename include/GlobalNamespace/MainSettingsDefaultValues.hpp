@@ -111,7 +111,7 @@ namespace GlobalNamespace {
     static int _get_kDefaultWindowResolutionHeight();
     // Set static field: static public System.Int32 kDefaultWindowResolutionHeight
     static void _set_kDefaultWindowResolutionHeight(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x124CD2C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D1824
     // Get static field: static public readonly System.Int32 kDefaultMirrorGraphicsSettings
     static int _get_kDefaultMirrorGraphicsSettings();
     // Set static field: static public readonly System.Int32 kDefaultMirrorGraphicsSettings
@@ -206,25 +206,27 @@ namespace GlobalNamespace {
     static int _get_kDefaultPauseButtonPressDurationLevel();
     // Set static field: static public System.Int32 kDefaultPauseButtonPressDurationLevel
     static void _set_kDefaultPauseButtonPressDurationLevel(int value);
-    // static private System.Void .cctor()
-    // Offset: 0x15337D8
-    static void _cctor();
-    // static public System.Void SetFixedDefaultValues(MainSettingsModelSO mainSettingsModel)
-    // Offset: 0x153368C
-    static void SetFixedDefaultValues(::GlobalNamespace::MainSettingsModelSO* mainSettingsModel);
     // public System.Void .ctor()
-    // Offset: 0x15337D0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x156B0D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainSettingsDefaultValues* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainSettingsDefaultValues::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainSettingsDefaultValues*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x156B0E0
+    static void _cctor();
+    // static public System.Void SetFixedDefaultValues(MainSettingsModelSO mainSettingsModel)
+    // Offset: 0x156AF94
+    static void SetFixedDefaultValues(::GlobalNamespace::MainSettingsModelSO* mainSettingsModel);
   }; // MainSettingsDefaultValues
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsDefaultValues::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsDefaultValues::_cctor
 // Il2CppName: .cctor
 template<>
@@ -242,7 +244,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsDefaultValues*), "SetFixedDefaultValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mainSettingsModel});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MainSettingsDefaultValues::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

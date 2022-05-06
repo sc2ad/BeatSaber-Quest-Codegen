@@ -75,20 +75,12 @@ namespace GlobalNamespace {
       // Set static field: static public NoteExecutionRating/Rating BadCut
       static void _set_BadCut(::GlobalNamespace::NoteExecutionRating::Rating value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // NoteExecutionRating/Rating
     #pragma pack(pop)
     static check_size<sizeof(NoteExecutionRating::Rating), 0 + sizeof(int)> __GlobalNamespace_NoteExecutionRating_RatingSizeCheck;
     static_assert(sizeof(NoteExecutionRating::Rating) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly NoteExecutionRating/Rating rating
     // Size: 0x4
     // Offset: 0x14
@@ -129,19 +121,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator float
     constexpr operator float() const noexcept = delete;
     // Get instance field reference: public readonly NoteExecutionRating/Rating rating
-    ::GlobalNamespace::NoteExecutionRating::Rating& dyn_rating();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteExecutionRating::Rating& dyn_rating();
     // Get instance field reference: public readonly System.Int32 cutScore
-    int& dyn_cutScore();
+    [[deprecated("Use field access instead!")]] int& dyn_cutScore();
     // Get instance field reference: public readonly System.Int32 beforeCutScore
-    int& dyn_beforeCutScore();
+    [[deprecated("Use field access instead!")]] int& dyn_beforeCutScore();
     // Get instance field reference: public readonly System.Int32 centerDistanceCutScore
-    int& dyn_centerDistanceCutScore();
+    [[deprecated("Use field access instead!")]] int& dyn_centerDistanceCutScore();
     // Get instance field reference: public readonly System.Int32 afterCutScore
-    int& dyn_afterCutScore();
+    [[deprecated("Use field access instead!")]] int& dyn_afterCutScore();
     // Get instance field reference: public readonly NoteData/ScoringType scoringType
-    ::GlobalNamespace::NoteData::ScoringType& dyn_scoringType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteData::ScoringType& dyn_scoringType();
     // public System.Void .ctor(System.Single time, NoteData/ScoringType scoringType, NoteExecutionRating/Rating rating, System.Int32 cutScore, System.Int32 beforeCutScore, System.Int32 centerDistanceCutScore, System.Int32 afterCutScore)
-    // Offset: 0x1479CCC
+    // Offset: 0x14B04B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteExecutionRating* New_ctor(float time, ::GlobalNamespace::NoteData::ScoringType scoringType, ::GlobalNamespace::NoteExecutionRating::Rating rating, int cutScore, int beforeCutScore, int centerDistanceCutScore, int afterCutScore) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteExecutionRating::.ctor");

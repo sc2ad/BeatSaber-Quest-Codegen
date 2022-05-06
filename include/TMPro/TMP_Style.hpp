@@ -28,15 +28,7 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_Style : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String m_Name
     // Size: 0x8
     // Offset: 0x10
@@ -77,53 +69,51 @@ namespace TMPro {
     static_assert(sizeof(::ArrayW<int>) == 0x8);
     public:
     // Get instance field reference: private System.String m_Name
-    ::StringW& dyn_m_Name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_Name();
     // Get instance field reference: private System.Int32 m_HashCode
-    int& dyn_m_HashCode();
+    [[deprecated("Use field access instead!")]] int& dyn_m_HashCode();
     // Get instance field reference: private System.String m_OpeningDefinition
-    ::StringW& dyn_m_OpeningDefinition();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_OpeningDefinition();
     // Get instance field reference: private System.String m_ClosingDefinition
-    ::StringW& dyn_m_ClosingDefinition();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_ClosingDefinition();
     // Get instance field reference: private System.Int32[] m_OpeningTagArray
-    ::ArrayW<int>& dyn_m_OpeningTagArray();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_m_OpeningTagArray();
     // Get instance field reference: private System.Int32[] m_ClosingTagArray
-    ::ArrayW<int>& dyn_m_ClosingTagArray();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_m_ClosingTagArray();
     // public System.String get_name()
-    // Offset: 0x1454D20
+    // Offset: 0x1475BA0
     ::StringW get_name();
     // public System.Void set_name(System.String value)
-    // Offset: 0x1454D28
+    // Offset: 0x1475BA8
     void set_name(::StringW value);
     // public System.Int32 get_hashCode()
-    // Offset: 0x1454D64
+    // Offset: 0x1475BE4
     int get_hashCode();
     // public System.Void set_hashCode(System.Int32 value)
-    // Offset: 0x1454D6C
+    // Offset: 0x1475BEC
     void set_hashCode(int value);
     // public System.String get_styleOpeningDefinition()
-    // Offset: 0x1454D80
+    // Offset: 0x1475C00
     ::StringW get_styleOpeningDefinition();
     // public System.String get_styleClosingDefinition()
-    // Offset: 0x1454D88
+    // Offset: 0x1475C08
     ::StringW get_styleClosingDefinition();
     // public System.Int32[] get_styleOpeningTagArray()
-    // Offset: 0x1454D90
+    // Offset: 0x1475C10
     ::ArrayW<int> get_styleOpeningTagArray();
     // public System.Int32[] get_styleClosingTagArray()
-    // Offset: 0x1454D98
+    // Offset: 0x1475C18
     ::ArrayW<int> get_styleClosingTagArray();
-    // public System.Void RefreshStyle()
-    // Offset: 0x1454DA0
-    void RefreshStyle();
     // public System.Void .ctor()
-    // Offset: 0x1454F10
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1475D90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Style* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_Style::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Style*, creationType>()));
     }
+    // public System.Void RefreshStyle()
+    // Offset: 0x1475C20
+    void RefreshStyle();
   }; // TMPro.TMP_Style
   #pragma pack(pop)
   static check_size<sizeof(TMP_Style), 56 + sizeof(::ArrayW<int>)> __TMPro_TMP_StyleSizeCheck;
@@ -196,6 +186,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<in
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Style*), "get_styleClosingTagArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: TMPro::TMP_Style::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: TMPro::TMP_Style::RefreshStyle
 // Il2CppName: RefreshStyle
 template<>
@@ -204,7 +198,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Style*), "RefreshStyle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMPro::TMP_Style::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

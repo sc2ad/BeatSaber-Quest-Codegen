@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockPause : public ::Il2CppObject/*, public ::GlobalNamespace::IGamePause*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Action didPauseEvent
     // Size: 0x8
     // Offset: 0x10
@@ -68,50 +60,48 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IGamePause*>(this);
     }
     // Get instance field reference: private System.Action didPauseEvent
-    ::System::Action*& dyn_didPauseEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didPauseEvent();
     // Get instance field reference: private System.Action willResumeEvent
-    ::System::Action*& dyn_willResumeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_willResumeEvent();
     // Get instance field reference: private System.Action didResumeEvent
-    ::System::Action*& dyn_didResumeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didResumeEvent();
     // public System.Boolean get_isPaused()
-    // Offset: 0x13C5C6C
+    // Offset: 0x13C2118
     bool get_isPaused();
     // public System.Void add_didPauseEvent(System.Action value)
-    // Offset: 0x13C5C74
+    // Offset: 0x13C2120
     void add_didPauseEvent(::System::Action* value);
     // public System.Void remove_didPauseEvent(System.Action value)
-    // Offset: 0x13C5D18
+    // Offset: 0x13C21C4
     void remove_didPauseEvent(::System::Action* value);
     // public System.Void add_willResumeEvent(System.Action value)
-    // Offset: 0x13C5DBC
+    // Offset: 0x13C2268
     void add_willResumeEvent(::System::Action* value);
     // public System.Void remove_willResumeEvent(System.Action value)
-    // Offset: 0x13C5E60
+    // Offset: 0x13C230C
     void remove_willResumeEvent(::System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
-    // Offset: 0x13C5F04
+    // Offset: 0x13C23B0
     void add_didResumeEvent(::System::Action* value);
     // public System.Void remove_didResumeEvent(System.Action value)
-    // Offset: 0x13C5FA8
+    // Offset: 0x13C2454
     void remove_didResumeEvent(::System::Action* value);
-    // public System.Void Pause()
-    // Offset: 0x13C604C
-    void Pause();
-    // public System.Void WillResume()
-    // Offset: 0x13C60AC
-    void WillResume();
-    // public System.Void Resume()
-    // Offset: 0x13C610C
-    void Resume();
     // public System.Void .ctor()
-    // Offset: 0x13C616C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13C2618
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPause* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockPause::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockPause*, creationType>()));
     }
+    // public System.Void Pause()
+    // Offset: 0x13C24F8
+    void Pause();
+    // public System.Void WillResume()
+    // Offset: 0x13C2558
+    void WillResume();
+    // public System.Void Resume()
+    // Offset: 0x13C25B8
+    void Resume();
   }; // MockPause
   #pragma pack(pop)
   static check_size<sizeof(MockPause), 32 + sizeof(::System::Action*)> __GlobalNamespace_MockPauseSizeCheck;
@@ -180,6 +170,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPause*), "remove_didResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MockPause::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MockPause::Pause
 // Il2CppName: Pause
 template<>
@@ -204,7 +198,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPause*), "Resume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MockPause::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

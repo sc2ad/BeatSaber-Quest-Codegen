@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoteDebrisPoolInstaller : public ::Zenject::ScriptableObjectInstaller {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private NoteDebris _normalNoteDebrisHDPrefab
     // Size: 0x8
     // Offset: 0x20
@@ -90,34 +82,28 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
     public:
     // Get instance field reference: private NoteDebris _normalNoteDebrisHDPrefab
-    ::GlobalNamespace::NoteDebris*& dyn__normalNoteDebrisHDPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteDebris*& dyn__normalNoteDebrisHDPrefab();
     // Get instance field reference: private NoteDebris _normalNoteDebrisLWPrefab
-    ::GlobalNamespace::NoteDebris*& dyn__normalNoteDebrisLWPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteDebris*& dyn__normalNoteDebrisLWPrefab();
     // Get instance field reference: private NoteDebris _burstSliderHeadNoteDebrisHDPrefab
-    ::GlobalNamespace::NoteDebris*& dyn__burstSliderHeadNoteDebrisHDPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteDebris*& dyn__burstSliderHeadNoteDebrisHDPrefab();
     // Get instance field reference: private NoteDebris _burstSliderHeadNoteDebrisLWPrefab
-    ::GlobalNamespace::NoteDebris*& dyn__burstSliderHeadNoteDebrisLWPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteDebris*& dyn__burstSliderHeadNoteDebrisLWPrefab();
     // Get instance field reference: private NoteDebris _burstSliderElementNoteHDPrefab
-    ::GlobalNamespace::NoteDebris*& dyn__burstSliderElementNoteHDPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteDebris*& dyn__burstSliderElementNoteHDPrefab();
     // Get instance field reference: private NoteDebris _burstSliderElementNoteLWPrefab
-    ::GlobalNamespace::NoteDebris*& dyn__burstSliderElementNoteLWPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteDebris*& dyn__burstSliderElementNoteLWPrefab();
     // Get instance field reference: private BoolSO _noteDebrisHDConditionVariable
-    ::GlobalNamespace::BoolSO*& dyn__noteDebrisHDConditionVariable();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn__noteDebrisHDConditionVariable();
     // public System.Void .ctor()
-    // Offset: 0x1479398
-    // Implemented from: Zenject.ScriptableObjectInstaller
-    // Base method: System.Void ScriptableObjectInstaller::.ctor()
-    // Base method: System.Void ScriptableObjectInstallerBase::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14AFB80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteDebrisPoolInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteDebrisPoolInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteDebrisPoolInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1479184
+    // Offset: 0x14AF96C
     // Implemented from: Zenject.ScriptableObjectInstallerBase
     // Base method: System.Void ScriptableObjectInstallerBase::InstallBindings()
     void InstallBindings();

@@ -37,15 +37,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputInterfaceTerrain::HEU_InputDataTerrain : public ::HoudiniEngineUnity::HEU_InputData {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String _heightFieldName
     // Size: 0x8
     // Offset: 0x18
@@ -130,36 +122,35 @@ namespace HoudiniEngineUnity {
     // Deleting conversion operator: operator ::UnityEngine::GameObject*
     constexpr operator ::UnityEngine::GameObject*() const noexcept = delete;
     // Get instance field reference: public System.String _heightFieldName
-    ::StringW& dyn__heightFieldName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__heightFieldName();
     // Get instance field reference: public System.Int32 _parentNodeID
-    int& dyn__parentNodeID();
+    [[deprecated("Use field access instead!")]] int& dyn__parentNodeID();
     // Get instance field reference: public System.Single _voxelSize
-    float& dyn__voxelSize();
+    [[deprecated("Use field access instead!")]] float& dyn__voxelSize();
     // Get instance field reference: public UnityEngine.Terrain _terrain
-    ::UnityEngine::Terrain*& dyn__terrain();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Terrain*& dyn__terrain();
     // Get instance field reference: public UnityEngine.TerrainData _terrainData
-    ::UnityEngine::TerrainData*& dyn__terrainData();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TerrainData*& dyn__terrainData();
     // Get instance field reference: public System.Int32 _numPointsX
-    int& dyn__numPointsX();
+    [[deprecated("Use field access instead!")]] int& dyn__numPointsX();
     // Get instance field reference: public System.Int32 _numPointsY
-    int& dyn__numPointsY();
+    [[deprecated("Use field access instead!")]] int& dyn__numPointsY();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_Transform _transform
-    ::HoudiniEngineUnity::HAPI_Transform& dyn__transform();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_Transform& dyn__transform();
     // Get instance field reference: public System.Single _heightScale
-    float& dyn__heightScale();
+    [[deprecated("Use field access instead!")]] float& dyn__heightScale();
     // Get instance field reference: public System.Int32 _heightfieldNodeID
-    int& dyn__heightfieldNodeID();
+    [[deprecated("Use field access instead!")]] int& dyn__heightfieldNodeID();
     // Get instance field reference: public System.Int32 _heightNodeID
-    int& dyn__heightNodeID();
+    [[deprecated("Use field access instead!")]] int& dyn__heightNodeID();
     // Get instance field reference: public System.Int32 _maskNodeID
-    int& dyn__maskNodeID();
+    [[deprecated("Use field access instead!")]] int& dyn__maskNodeID();
     // Get instance field reference: public System.Int32 _mergeNodeID
-    int& dyn__mergeNodeID();
+    [[deprecated("Use field access instead!")]] int& dyn__mergeNodeID();
     // public System.Void .ctor()
-    // Offset: 0x1852AF8
+    // Offset: 0x188C408
     // Implemented from: HoudiniEngineUnity.HEU_InputData
     // Base method: System.Void HEU_InputData::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputInterfaceTerrain::HEU_InputDataTerrain* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputInterfaceTerrain::HEU_InputDataTerrain::.ctor");

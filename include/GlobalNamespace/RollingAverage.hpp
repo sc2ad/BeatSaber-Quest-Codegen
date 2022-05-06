@@ -29,15 +29,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class RollingAverage : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int64 _currentTotal
     // Size: 0x8
     // Offset: 0x10
@@ -78,33 +70,33 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int64 kGranularity
     static void _set_kGranularity(int64_t value);
     // Get instance field reference: private System.Int64 _currentTotal
-    int64_t& dyn__currentTotal();
+    [[deprecated("Use field access instead!")]] int64_t& dyn__currentTotal();
     // Get instance field reference: private System.Single _currentAverage
-    float& dyn__currentAverage();
+    [[deprecated("Use field access instead!")]] float& dyn__currentAverage();
     // Get instance field reference: private readonly System.Int64[] _buffer
-    ::ArrayW<int64_t>& dyn__buffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int64_t>& dyn__buffer();
     // Get instance field reference: private System.Int32 _index
-    int& dyn__index();
+    [[deprecated("Use field access instead!")]] int& dyn__index();
     // Get instance field reference: private System.Int32 _length
-    int& dyn__length();
+    [[deprecated("Use field access instead!")]] int& dyn__length();
     // public System.Single get_currentAverage()
-    // Offset: 0x25EBAD0
+    // Offset: 0x2638100
     float get_currentAverage();
     // public System.Boolean get_hasValue()
-    // Offset: 0x25EBAD8
+    // Offset: 0x2638108
     bool get_hasValue();
     // public System.Void .ctor(System.Int32 window)
-    // Offset: 0x25EBAE8
+    // Offset: 0x2638118
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RollingAverage* New_ctor(int window) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RollingAverage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RollingAverage*, creationType>(window)));
     }
     // public System.Void Update(System.Single value)
-    // Offset: 0x25EBB58
+    // Offset: 0x2638188
     void Update(float value);
     // public System.Void Reset()
-    // Offset: 0x25EBCA8
+    // Offset: 0x26382D8
     void Reset();
   }; // RollingAverage
   #pragma pack(pop)

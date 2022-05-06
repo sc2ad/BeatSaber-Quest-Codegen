@@ -32,15 +32,7 @@ namespace System::Runtime::Remoting::Contexts {
   // [TokenAttribute] Offset: FFFFFFFF
   class DynamicPropertyCollection::DynamicPropertyReg : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Runtime.Remoting.Contexts.IDynamicProperty Property
     // Size: 0x8
     // Offset: 0x10
@@ -55,11 +47,11 @@ namespace System::Runtime::Remoting::Contexts {
     static_assert(sizeof(::System::Runtime::Remoting::Contexts::IDynamicMessageSink*) == 0x8);
     public:
     // Get instance field reference: public System.Runtime.Remoting.Contexts.IDynamicProperty Property
-    ::System::Runtime::Remoting::Contexts::IDynamicProperty*& dyn_Property();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Contexts::IDynamicProperty*& dyn_Property();
     // Get instance field reference: public System.Runtime.Remoting.Contexts.IDynamicMessageSink Sink
-    ::System::Runtime::Remoting::Contexts::IDynamicMessageSink*& dyn_Sink();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Contexts::IDynamicMessageSink*& dyn_Sink();
     // public System.Void .ctor()
-    // Offset: 0x1C5FFB4
+    // Offset: 0x1C7D2C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

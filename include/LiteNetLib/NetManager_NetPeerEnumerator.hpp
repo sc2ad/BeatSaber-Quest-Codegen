@@ -55,26 +55,26 @@ namespace LiteNetLib {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::LiteNetLib::NetPeer*>*>(this);
     }
     // Get instance field reference: private readonly LiteNetLib.NetPeer _initialPeer
-    ::LiteNetLib::NetPeer*& dyn__initialPeer();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetPeer*& dyn__initialPeer();
     // Get instance field reference: private LiteNetLib.NetPeer _p
-    ::LiteNetLib::NetPeer*& dyn__p();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetPeer*& dyn__p();
     // public LiteNetLib.NetPeer get_Current()
-    // Offset: 0x216B410
+    // Offset: 0x21B6C84
     ::LiteNetLib::NetPeer* get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x216B418
+    // Offset: 0x21B6C8C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(LiteNetLib.NetPeer p)
-    // Offset: 0x216B214
+    // Offset: 0x21B6A88
     NetPeerEnumerator(::LiteNetLib::NetPeer* p);
     // public System.Void Dispose()
-    // Offset: 0x216B36C
+    // Offset: 0x21B6BE0
     void Dispose();
     // public System.Boolean MoveNext()
-    // Offset: 0x216B370
+    // Offset: 0x21B6BE4
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x216B3B0
+    // Offset: 0x21B6C24
     void Reset();
   }; // LiteNetLib.NetManager/LiteNetLib.NetPeerEnumerator
   #pragma pack(pop)

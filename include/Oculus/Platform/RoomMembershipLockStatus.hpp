@@ -41,21 +41,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x1240B88
+    // [DescriptionAttribute] Offset: 0x10C5660
     // static field const value: static public Oculus.Platform.RoomMembershipLockStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.RoomMembershipLockStatus Unknown
     static ::Oculus::Platform::RoomMembershipLockStatus _get_Unknown();
     // Set static field: static public Oculus.Platform.RoomMembershipLockStatus Unknown
     static void _set_Unknown(::Oculus::Platform::RoomMembershipLockStatus value);
-    // [DescriptionAttribute] Offset: 0x1240BC0
+    // [DescriptionAttribute] Offset: 0x10C5698
     // static field const value: static public Oculus.Platform.RoomMembershipLockStatus Lock
     static constexpr const int Lock = 1;
     // Get static field: static public Oculus.Platform.RoomMembershipLockStatus Lock
     static ::Oculus::Platform::RoomMembershipLockStatus _get_Lock();
     // Set static field: static public Oculus.Platform.RoomMembershipLockStatus Lock
     static void _set_Lock(::Oculus::Platform::RoomMembershipLockStatus value);
-    // [DescriptionAttribute] Offset: 0x1240BF8
+    // [DescriptionAttribute] Offset: 0x10C56D0
     // static field const value: static public Oculus.Platform.RoomMembershipLockStatus Unlock
     static constexpr const int Unlock = 2;
     // Get static field: static public Oculus.Platform.RoomMembershipLockStatus Unlock
@@ -63,7 +63,7 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.RoomMembershipLockStatus Unlock
     static void _set_Unlock(::Oculus::Platform::RoomMembershipLockStatus value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Oculus.Platform.RoomMembershipLockStatus
   #pragma pack(pop)
   static check_size<sizeof(RoomMembershipLockStatus), 0 + sizeof(int)> __Oculus_Platform_RoomMembershipLockStatusSizeCheck;

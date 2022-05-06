@@ -29,15 +29,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class LivestreamingVideoStats : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Int32 CommentCount
     // Size: 0x4
     // Offset: 0x10
@@ -58,13 +50,13 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly System.Int32 CommentCount
-    int& dyn_CommentCount();
+    [[deprecated("Use field access instead!")]] int& dyn_CommentCount();
     // Get instance field reference: public readonly System.Int32 ReactionCount
-    int& dyn_ReactionCount();
+    [[deprecated("Use field access instead!")]] int& dyn_ReactionCount();
     // Get instance field reference: public readonly System.String TotalViews
-    ::StringW& dyn_TotalViews();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_TotalViews();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19AF098
+    // Offset: 0x19E8680
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LivestreamingVideoStats* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::LivestreamingVideoStats::.ctor");

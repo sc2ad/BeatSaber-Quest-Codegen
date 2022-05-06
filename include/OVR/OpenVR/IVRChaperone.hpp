@@ -101,21 +101,21 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: OVR.OpenVR.IVRChaperone/OVR.OpenVR._GetCalibrationState GetCalibrationState
-    ::OVR::OpenVR::IVRChaperone::_GetCalibrationState*& dyn_GetCalibrationState();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperone::_GetCalibrationState*& dyn_GetCalibrationState();
     // Get instance field reference: OVR.OpenVR.IVRChaperone/OVR.OpenVR._GetPlayAreaSize GetPlayAreaSize
-    ::OVR::OpenVR::IVRChaperone::_GetPlayAreaSize*& dyn_GetPlayAreaSize();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperone::_GetPlayAreaSize*& dyn_GetPlayAreaSize();
     // Get instance field reference: OVR.OpenVR.IVRChaperone/OVR.OpenVR._GetPlayAreaRect GetPlayAreaRect
-    ::OVR::OpenVR::IVRChaperone::_GetPlayAreaRect*& dyn_GetPlayAreaRect();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperone::_GetPlayAreaRect*& dyn_GetPlayAreaRect();
     // Get instance field reference: OVR.OpenVR.IVRChaperone/OVR.OpenVR._ReloadInfo ReloadInfo
-    ::OVR::OpenVR::IVRChaperone::_ReloadInfo*& dyn_ReloadInfo();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperone::_ReloadInfo*& dyn_ReloadInfo();
     // Get instance field reference: OVR.OpenVR.IVRChaperone/OVR.OpenVR._SetSceneColor SetSceneColor
-    ::OVR::OpenVR::IVRChaperone::_SetSceneColor*& dyn_SetSceneColor();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperone::_SetSceneColor*& dyn_SetSceneColor();
     // Get instance field reference: OVR.OpenVR.IVRChaperone/OVR.OpenVR._GetBoundsColor GetBoundsColor
-    ::OVR::OpenVR::IVRChaperone::_GetBoundsColor*& dyn_GetBoundsColor();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperone::_GetBoundsColor*& dyn_GetBoundsColor();
     // Get instance field reference: OVR.OpenVR.IVRChaperone/OVR.OpenVR._AreBoundsVisible AreBoundsVisible
-    ::OVR::OpenVR::IVRChaperone::_AreBoundsVisible*& dyn_AreBoundsVisible();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperone::_AreBoundsVisible*& dyn_AreBoundsVisible();
     // Get instance field reference: OVR.OpenVR.IVRChaperone/OVR.OpenVR._ForceBoundsVisible ForceBoundsVisible
-    ::OVR::OpenVR::IVRChaperone::_ForceBoundsVisible*& dyn_ForceBoundsVisible();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperone::_ForceBoundsVisible*& dyn_ForceBoundsVisible();
   }; // OVR.OpenVR.IVRChaperone
   #pragma pack(pop)
   static check_size<sizeof(IVRChaperone), 56 + sizeof(::OVR::OpenVR::IVRChaperone::_ForceBoundsVisible*)> __OVR_OpenVR_IVRChaperoneSizeCheck;

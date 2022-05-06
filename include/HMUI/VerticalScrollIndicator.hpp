@@ -37,15 +37,7 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class VerticalScrollIndicator : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.RectTransform _handle
     // Size: 0x8
     // Offset: 0x18
@@ -86,51 +78,45 @@ namespace HMUI {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.RectTransform _handle
-    ::UnityEngine::RectTransform*& dyn__handle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__handle();
     // Get instance field reference: private UnityEngine.AnimationClip _normalAnimationClip
-    ::UnityEngine::AnimationClip*& dyn__normalAnimationClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationClip*& dyn__normalAnimationClip();
     // Get instance field reference: private UnityEngine.AnimationClip _disabledAnimationClip
-    ::UnityEngine::AnimationClip*& dyn__disabledAnimationClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationClip*& dyn__disabledAnimationClip();
     // Get instance field reference: private System.Single _padding
-    float& dyn__padding();
+    [[deprecated("Use field access instead!")]] float& dyn__padding();
     // Get instance field reference: private System.Single _progress
-    float& dyn__progress();
+    [[deprecated("Use field access instead!")]] float& dyn__progress();
     // Get instance field reference: private System.Single _normalizedPageHeight
-    float& dyn__normalizedPageHeight();
+    [[deprecated("Use field access instead!")]] float& dyn__normalizedPageHeight();
     // public System.Single get_progress()
-    // Offset: 0x29E2664
+    // Offset: 0x2A37F58
     float get_progress();
     // public System.Void set_progress(System.Single value)
-    // Offset: 0x29E24A0
+    // Offset: 0x2A37D94
     void set_progress(float value);
     // public System.Single get_normalizedPageHeight()
-    // Offset: 0x29E2708
+    // Offset: 0x2A37FFC
     float get_normalizedPageHeight();
     // public System.Void set_normalizedPageHeight(System.Single value)
-    // Offset: 0x29E266C
+    // Offset: 0x2A37F60
     void set_normalizedPageHeight(float value);
     // public System.Void set_disabled(System.Boolean value)
-    // Offset: 0x29E2710
+    // Offset: 0x2A38004
     void set_disabled(bool value);
-    // protected System.Void OnEnable()
-    // Offset: 0x29E275C
-    void OnEnable();
-    // private System.Void RefreshHandle()
-    // Offset: 0x29E253C
-    void RefreshHandle();
     // public System.Void .ctor()
-    // Offset: 0x29E2760
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A38054
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VerticalScrollIndicator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::VerticalScrollIndicator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VerticalScrollIndicator*, creationType>()));
     }
+    // protected System.Void OnEnable()
+    // Offset: 0x2A38050
+    void OnEnable();
+    // private System.Void RefreshHandle()
+    // Offset: 0x2A37E30
+    void RefreshHandle();
   }; // HMUI.VerticalScrollIndicator
   #pragma pack(pop)
   static check_size<sizeof(VerticalScrollIndicator), 56 + sizeof(float)> __HMUI_VerticalScrollIndicatorSizeCheck;
@@ -180,6 +166,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::VerticalScrollIndicator*), "set_disabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: HMUI::VerticalScrollIndicator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::VerticalScrollIndicator::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -196,7 +186,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::VerticalScrollIndicator*), "RefreshHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HMUI::VerticalScrollIndicator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

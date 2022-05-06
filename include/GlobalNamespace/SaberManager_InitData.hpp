@@ -25,15 +25,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaberManager::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Boolean oneSaberMode
     // Size: 0x1
     // Offset: 0x10
@@ -50,11 +42,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::SaberType) == 0x4);
     public:
     // Get instance field reference: public readonly System.Boolean oneSaberMode
-    bool& dyn_oneSaberMode();
+    [[deprecated("Use field access instead!")]] bool& dyn_oneSaberMode();
     // Get instance field reference: public readonly SaberType oneSaberType
-    ::GlobalNamespace::SaberType& dyn_oneSaberType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberType& dyn_oneSaberType();
     // public System.Void .ctor(System.Boolean oneSaberMode, SaberType oneSaberType)
-    // Offset: 0x141CD5C
+    // Offset: 0x145E434
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberManager::InitData* New_ctor(bool oneSaberMode, ::GlobalNamespace::SaberType oneSaberType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberManager::InitData::.ctor");

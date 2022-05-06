@@ -25,15 +25,7 @@ namespace OnlineServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class LevelScoreUploader::LevelScoreResultsDataUploadInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public OnlineServices.LevelScoreResultsData levelScoreResultsData
     // Size: 0x30
     // Offset: 0x10
@@ -48,13 +40,11 @@ namespace OnlineServices {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public OnlineServices.LevelScoreResultsData levelScoreResultsData
-    ::OnlineServices::LevelScoreResultsData& dyn_levelScoreResultsData();
+    [[deprecated("Use field access instead!")]] ::OnlineServices::LevelScoreResultsData& dyn_levelScoreResultsData();
     // Get instance field reference: public System.Int32 uploadAttemptCountLeft
-    int& dyn_uploadAttemptCountLeft();
+    [[deprecated("Use field access instead!")]] int& dyn_uploadAttemptCountLeft();
     // public System.Void .ctor()
-    // Offset: 0x12E6AB4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1357A54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelScoreUploader::LevelScoreResultsDataUploadInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo::.ctor");

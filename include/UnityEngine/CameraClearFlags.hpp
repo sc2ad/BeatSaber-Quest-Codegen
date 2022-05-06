@@ -72,7 +72,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.CameraClearFlags Nothing
     static void _set_Nothing(::UnityEngine::CameraClearFlags value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.CameraClearFlags
   #pragma pack(pop)
   static check_size<sizeof(CameraClearFlags), 0 + sizeof(int)> __UnityEngine_CameraClearFlagsSizeCheck;

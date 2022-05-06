@@ -36,15 +36,7 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MatchmakingOptions : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.IntPtr Handle
     // Size: 0x8
     // Offset: 0x10
@@ -57,57 +49,55 @@ namespace Oculus::Platform {
       return Handle;
     }
     // Get instance field reference: private System.IntPtr Handle
-    ::System::IntPtr& dyn_Handle();
-    // public System.Void SetCreateRoomDataStore(System.String key, System.String value)
-    // Offset: 0x19A5788
-    void SetCreateRoomDataStore(::StringW key, ::StringW value);
-    // public System.Void ClearCreateRoomDataStore()
-    // Offset: 0x19A580C
-    void ClearCreateRoomDataStore();
-    // public System.Void SetCreateRoomJoinPolicy(Oculus.Platform.RoomJoinPolicy value)
-    // Offset: 0x19A5878
-    void SetCreateRoomJoinPolicy(::Oculus::Platform::RoomJoinPolicy value);
-    // public System.Void SetCreateRoomMaxUsers(System.UInt32 value)
-    // Offset: 0x19A58F4
-    void SetCreateRoomMaxUsers(uint value);
-    // public System.Void AddEnqueueAdditionalUser(System.UInt64 userID)
-    // Offset: 0x19A5970
-    void AddEnqueueAdditionalUser(uint64_t userID);
-    // public System.Void ClearEnqueueAdditionalUsers()
-    // Offset: 0x19A59EC
-    void ClearEnqueueAdditionalUsers();
-    // public System.Void SetEnqueueDataSettings(System.String key, System.Int32 value)
-    // Offset: 0x19A5A58
-    void SetEnqueueDataSettings(::StringW key, int value);
-    // public System.Void SetEnqueueDataSettings(System.String key, System.Double value)
-    // Offset: 0x19A5ADC
-    void SetEnqueueDataSettings(::StringW key, double value);
-    // public System.Void SetEnqueueDataSettings(System.String key, System.String value)
-    // Offset: 0x19A5B68
-    void SetEnqueueDataSettings(::StringW key, ::StringW value);
-    // public System.Void ClearEnqueueDataSettings()
-    // Offset: 0x19A5BEC
-    void ClearEnqueueDataSettings();
-    // public System.Void SetEnqueueIsDebug(System.Boolean value)
-    // Offset: 0x19A5C58
-    void SetEnqueueIsDebug(bool value);
-    // public System.Void SetEnqueueQueryKey(System.String value)
-    // Offset: 0x19A5CD4
-    void SetEnqueueQueryKey(::StringW value);
-    // static public System.IntPtr op_Explicit(Oculus.Platform.MatchmakingOptions options)
-    // Offset: 0x19A46A4
-    // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Handle();
     // public System.Void .ctor()
-    // Offset: 0x19A5710
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x19DECF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchmakingOptions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::MatchmakingOptions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MatchmakingOptions*, creationType>()));
     }
+    // public System.Void SetCreateRoomDataStore(System.String key, System.String value)
+    // Offset: 0x19DED70
+    void SetCreateRoomDataStore(::StringW key, ::StringW value);
+    // public System.Void ClearCreateRoomDataStore()
+    // Offset: 0x19DEDF4
+    void ClearCreateRoomDataStore();
+    // public System.Void SetCreateRoomJoinPolicy(Oculus.Platform.RoomJoinPolicy value)
+    // Offset: 0x19DEE60
+    void SetCreateRoomJoinPolicy(::Oculus::Platform::RoomJoinPolicy value);
+    // public System.Void SetCreateRoomMaxUsers(System.UInt32 value)
+    // Offset: 0x19DEEDC
+    void SetCreateRoomMaxUsers(uint value);
+    // public System.Void AddEnqueueAdditionalUser(System.UInt64 userID)
+    // Offset: 0x19DEF58
+    void AddEnqueueAdditionalUser(uint64_t userID);
+    // public System.Void ClearEnqueueAdditionalUsers()
+    // Offset: 0x19DEFD4
+    void ClearEnqueueAdditionalUsers();
+    // public System.Void SetEnqueueDataSettings(System.String key, System.Int32 value)
+    // Offset: 0x19DF040
+    void SetEnqueueDataSettings(::StringW key, int value);
+    // public System.Void SetEnqueueDataSettings(System.String key, System.Double value)
+    // Offset: 0x19DF0C4
+    void SetEnqueueDataSettings(::StringW key, double value);
+    // public System.Void SetEnqueueDataSettings(System.String key, System.String value)
+    // Offset: 0x19DF150
+    void SetEnqueueDataSettings(::StringW key, ::StringW value);
+    // public System.Void ClearEnqueueDataSettings()
+    // Offset: 0x19DF1D4
+    void ClearEnqueueDataSettings();
+    // public System.Void SetEnqueueIsDebug(System.Boolean value)
+    // Offset: 0x19DF240
+    void SetEnqueueIsDebug(bool value);
+    // public System.Void SetEnqueueQueryKey(System.String value)
+    // Offset: 0x19DF2BC
+    void SetEnqueueQueryKey(::StringW value);
+    // static public System.IntPtr op_Explicit(Oculus.Platform.MatchmakingOptions options)
+    // Offset: 0x19DDC8C
+    // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
     // protected override System.Void Finalize()
-    // Offset: 0x19A5D50
+    // Offset: 0x19DF338
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -117,6 +107,10 @@ namespace Oculus::Platform {
   static_assert(sizeof(MatchmakingOptions) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Oculus::Platform::MatchmakingOptions::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::MatchmakingOptions::SetCreateRoomDataStore
 // Il2CppName: SetCreateRoomDataStore
 template<>
@@ -229,10 +223,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::MatchmakingOptions::operator ::System::IntPtr
 // Il2CppName: op_Explicit
 // Cannot perform method pointer template specialization from operators!
-// Writing MetadataGetter for method: Oculus::Platform::MatchmakingOptions::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::MatchmakingOptions::Finalize
 // Il2CppName: Finalize
 template<>

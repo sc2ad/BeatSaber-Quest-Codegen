@@ -24,20 +24,18 @@ namespace GlobalNamespace {
   class SteamVR_Events::Action : public ::Il2CppObject {
     public:
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0x1869460
+    // Offset: 0x18A2D70
     void set_enabled(bool value);
-    // public System.Void Enable(System.Boolean enabled)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    void Enable(bool enabled);
     // protected System.Void .ctor()
-    // Offset: 0x186ACF0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18A4600
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Events::Action* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Events::Action::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Events::Action*, creationType>()));
     }
+    // public System.Void Enable(System.Boolean enabled)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    void Enable(bool enabled);
   }; // SteamVR_Events/Action
   #pragma pack(pop)
 }
@@ -51,6 +49,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events::Action*), "set_enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::Action::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::Action::Enable
 // Il2CppName: Enable
 template<>
@@ -60,7 +62,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events::Action*), "Enable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enabled});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::Action::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

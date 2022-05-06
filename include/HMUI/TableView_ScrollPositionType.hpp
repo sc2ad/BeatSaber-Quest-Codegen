@@ -57,7 +57,7 @@ namespace HMUI {
     // Set static field: static public HMUI.TableView/HMUI.ScrollPositionType End
     static void _set_End(::HMUI::TableView::ScrollPositionType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HMUI.TableView/HMUI.ScrollPositionType
   #pragma pack(pop)
   static check_size<sizeof(TableView::ScrollPositionType), 0 + sizeof(int)> __HMUI_TableView_ScrollPositionTypeSizeCheck;

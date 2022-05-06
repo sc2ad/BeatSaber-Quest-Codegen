@@ -43,15 +43,7 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class Asn1StreamParser : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.IO.Stream _in
     // Size: 0x8
     // Offset: 0x10
@@ -74,39 +66,39 @@ namespace Org::BouncyCastle::Asn1 {
     static_assert(sizeof(::ArrayW<::ArrayW<uint8_t>>) == 0x8);
     public:
     // Get instance field reference: private readonly System.IO.Stream _in
-    ::System::IO::Stream*& dyn__in();
+    [[deprecated("Use field access instead!")]] ::System::IO::Stream*& dyn__in();
     // Get instance field reference: private readonly System.Int32 _limit
-    int& dyn__limit();
+    [[deprecated("Use field access instead!")]] int& dyn__limit();
     // Get instance field reference: private readonly System.Byte[][] tmpBuffers
-    ::ArrayW<::ArrayW<uint8_t>>& dyn_tmpBuffers();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::ArrayW<uint8_t>>& dyn_tmpBuffers();
     // public System.Void .ctor(System.IO.Stream inStream)
-    // Offset: 0x1BEA9C0
+    // Offset: 0x1C24FA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1StreamParser* New_ctor(::System::IO::Stream* inStream) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Asn1StreamParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1StreamParser*, creationType>(inStream)));
     }
     // public System.Void .ctor(System.IO.Stream inStream, System.Int32 limit)
-    // Offset: 0x1BEBEE4
+    // Offset: 0x1C264CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1StreamParser* New_ctor(::System::IO::Stream* inStream, int limit) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Asn1StreamParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1StreamParser*, creationType>(inStream, limit)));
     }
     // Org.BouncyCastle.Asn1.IAsn1Convertible ReadIndef(System.Int32 tagValue)
-    // Offset: 0x1BEFF94
+    // Offset: 0x1C2A57C
     ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadIndef(int tagValue);
     // Org.BouncyCastle.Asn1.Asn1Object ReadTaggedObject(System.Boolean constructed, System.Int32 tag)
-    // Offset: 0x1BEA9F4
+    // Offset: 0x1C24FDC
     ::Org::BouncyCastle::Asn1::Asn1Object* ReadTaggedObject(bool constructed, int tag);
     // public Org.BouncyCastle.Asn1.IAsn1Convertible ReadObject()
-    // Offset: 0x1BF02A4
+    // Offset: 0x1C2A88C
     ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
     // private System.Void Set00Check(System.Boolean enabled)
-    // Offset: 0x1BF07F8
+    // Offset: 0x1C2ADE0
     void Set00Check(bool enabled);
     // Org.BouncyCastle.Asn1.Asn1EncodableVector ReadVector()
-    // Offset: 0x1BF00D8
+    // Offset: 0x1C2A6C0
     ::Org::BouncyCastle::Asn1::Asn1EncodableVector* ReadVector();
   }; // Org.BouncyCastle.Asn1.Asn1StreamParser
   #pragma pack(pop)

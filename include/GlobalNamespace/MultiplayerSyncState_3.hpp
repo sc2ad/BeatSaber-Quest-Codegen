@@ -68,6 +68,13 @@ namespace GlobalNamespace {
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_player", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::GlobalNamespace::IConnectedPlayer*, false>(this, ___internal__method);
     }
+    // protected System.Void .ctor()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static MultiplayerSyncState_3<TStateTable, TType, TState>* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerSyncState_3::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<MultiplayerSyncState_3<TStateTable, TType, TState>*, creationType>()));
+    }
     // public System.Single GetLatestTime()
     // Offset: 0xFFFFFFFFFFFFFFFF
     float GetLatestTime() {
@@ -95,15 +102,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerSyncState_3::ClearBufferedStates");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ClearBufferedStates", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
-    }
-    // protected System.Void .ctor()
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MultiplayerSyncState_3<TStateTable, TType, TState>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerSyncState_3::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<MultiplayerSyncState_3<TStateTable, TType, TState>*, creationType>()));
     }
   }; // MultiplayerSyncState`3
   // Could not write size check! Type: MultiplayerSyncState`3 is generic, or has no fields that are valid for size checks!

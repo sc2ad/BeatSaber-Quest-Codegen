@@ -82,38 +82,36 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__20_0
     static void _set_$$9__20_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<int>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1C0F138
+    // Offset: 0x1C49720
     static void _cctor();
-    // System.Boolean <SetAutoUV>b__0_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1C0F1A4
-    bool $SetAutoUV$b__0_0(::UnityEngine::ProBuilder::Face* x);
-    // UnityEngine.Vector2 <GetUVs>b__11_0(UnityEngine.Vector4 x)
-    // Offset: 0x1C0F1BC
-    ::UnityEngine::Vector2 $GetUVs$b__11_0(::UnityEngine::Vector4 x);
-    // System.Int32 <SewUVs>b__13_1(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> y)
-    // Offset: 0x1C0F24C
-    int $SewUVs$b__13_1(::System::Collections::Generic::KeyValuePair_2<int, int> y);
-    // System.Collections.Generic.IEnumerable`1<System.Int32> <ProjectFacesAuto>b__17_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1C0F290
-    ::System::Collections::Generic::IEnumerable_1<int>* $ProjectFacesAuto$b__17_0(::UnityEngine::ProBuilder::Face* x);
-    // System.Collections.Generic.IEnumerable`1<System.Int32> <ProjectFacesAuto>b__17_1(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1C0F2AC
-    ::System::Collections::Generic::IEnumerable_1<int>* $ProjectFacesAuto$b__17_1(::UnityEngine::ProBuilder::Face* x);
-    // System.Collections.Generic.IEnumerable`1<System.Int32> <ProjectFacesBox>b__18_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1C0F2C8
-    ::System::Collections::Generic::IEnumerable_1<int>* $ProjectFacesBox$b__18_0(::UnityEngine::ProBuilder::Face* x);
-    // System.Collections.Generic.IEnumerable`1<System.Int32> <ProjectFacesBox>b__20_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1C0F2E4
-    ::System::Collections::Generic::IEnumerable_1<int>* $ProjectFacesBox$b__20_0(::UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x1C0F19C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C49784
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UVEditing::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UVEditing::$$c*, creationType>()));
     }
+    // System.Boolean <SetAutoUV>b__0_0(UnityEngine.ProBuilder.Face x)
+    // Offset: 0x1C4978C
+    bool $SetAutoUV$b__0_0(::UnityEngine::ProBuilder::Face* x);
+    // UnityEngine.Vector2 <GetUVs>b__11_0(UnityEngine.Vector4 x)
+    // Offset: 0x1C497A4
+    ::UnityEngine::Vector2 $GetUVs$b__11_0(::UnityEngine::Vector4 x);
+    // System.Int32 <SewUVs>b__13_1(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> y)
+    // Offset: 0x1C49834
+    int $SewUVs$b__13_1(::System::Collections::Generic::KeyValuePair_2<int, int> y);
+    // System.Collections.Generic.IEnumerable`1<System.Int32> <ProjectFacesAuto>b__17_0(UnityEngine.ProBuilder.Face x)
+    // Offset: 0x1C49878
+    ::System::Collections::Generic::IEnumerable_1<int>* $ProjectFacesAuto$b__17_0(::UnityEngine::ProBuilder::Face* x);
+    // System.Collections.Generic.IEnumerable`1<System.Int32> <ProjectFacesAuto>b__17_1(UnityEngine.ProBuilder.Face x)
+    // Offset: 0x1C49894
+    ::System::Collections::Generic::IEnumerable_1<int>* $ProjectFacesAuto$b__17_1(::UnityEngine::ProBuilder::Face* x);
+    // System.Collections.Generic.IEnumerable`1<System.Int32> <ProjectFacesBox>b__18_0(UnityEngine.ProBuilder.Face x)
+    // Offset: 0x1C498B0
+    ::System::Collections::Generic::IEnumerable_1<int>* $ProjectFacesBox$b__18_0(::UnityEngine::ProBuilder::Face* x);
+    // System.Collections.Generic.IEnumerable`1<System.Int32> <ProjectFacesBox>b__20_0(UnityEngine.ProBuilder.Face x)
+    // Offset: 0x1C498CC
+    ::System::Collections::Generic::IEnumerable_1<int>* $ProjectFacesBox$b__20_0(::UnityEngine::ProBuilder::Face* x);
   }; // UnityEngine.ProBuilder.MeshOperations.UVEditing/UnityEngine.ProBuilder.MeshOperations.<>c
   #pragma pack(pop)
 }
@@ -126,6 +124,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::$SetAutoUV$b__0_0
 // Il2CppName: <SetAutoUV>b__0_0
 template<>
@@ -189,7 +191,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c*), "<ProjectFacesBox>b__20_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

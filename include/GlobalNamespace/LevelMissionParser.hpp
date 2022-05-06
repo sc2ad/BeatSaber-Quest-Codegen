@@ -40,15 +40,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::LevelMissionParser::ParserFunction
     class ParserFunction;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.Dictionary`2<System.String,LevelMissionParser/ParserFunction> _functions
     // Size: 0x8
     // Offset: 0x10
@@ -61,34 +53,36 @@ namespace GlobalNamespace {
       return functions;
     }
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,LevelMissionParser/ParserFunction> _functions
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LevelMissionParser::ParserFunction*>*& dyn__functions();
-    // public System.Void AddFunction(System.String name, LevelMissionParser/ParserFunction function)
-    // Offset: 0x1484F94
-    void AddFunction(::StringW name, ::GlobalNamespace::LevelMissionParser::ParserFunction* function);
-    // public System.Boolean Parse(System.String s)
-    // Offset: 0x1485004
-    bool Parse(::StringW s);
-    // private System.Boolean Parse(System.String s, System.Int32 start, System.Int32 length)
-    // Offset: 0x1485020
-    bool Parse(::StringW s, int start, int length);
-    // private System.Boolean ParseFunction(System.String s, System.Int32 start, System.Int32 length)
-    // Offset: 0x14852FC
-    bool ParseFunction(::StringW s, int start, int length);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LevelMissionParser::ParserFunction*>*& dyn__functions();
     // public System.Void .ctor()
-    // Offset: 0x1484F1C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14BB79C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelMissionParser* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelMissionParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelMissionParser*, creationType>()));
     }
+    // public System.Void AddFunction(System.String name, LevelMissionParser/ParserFunction function)
+    // Offset: 0x14BB814
+    void AddFunction(::StringW name, ::GlobalNamespace::LevelMissionParser::ParserFunction* function);
+    // public System.Boolean Parse(System.String s)
+    // Offset: 0x14BB884
+    bool Parse(::StringW s);
+    // private System.Boolean Parse(System.String s, System.Int32 start, System.Int32 length)
+    // Offset: 0x14BB8A0
+    bool Parse(::StringW s, int start, int length);
+    // private System.Boolean ParseFunction(System.String s, System.Int32 start, System.Int32 length)
+    // Offset: 0x14BBB7C
+    bool ParseFunction(::StringW s, int start, int length);
   }; // LevelMissionParser
   #pragma pack(pop)
   static check_size<sizeof(LevelMissionParser), 16 + sizeof(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LevelMissionParser::ParserFunction*>*)> __GlobalNamespace_LevelMissionParserSizeCheck;
   static_assert(sizeof(LevelMissionParser) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::LevelMissionParser::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LevelMissionParser::AddFunction
 // Il2CppName: AddFunction
 template<>
@@ -130,7 +124,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelMissionParser*), "ParseFunction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, start, length});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LevelMissionParser::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

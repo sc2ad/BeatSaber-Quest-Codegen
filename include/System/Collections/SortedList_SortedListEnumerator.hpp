@@ -34,15 +34,7 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class SortedList::SortedListEnumerator : public ::Il2CppObject/*, public ::System::ICloneable, public ::System::Collections::IDictionaryEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.SortedList sortedList
     // Size: 0x8
     // Offset: 0x10
@@ -109,50 +101,50 @@ namespace System::Collections {
       return *reinterpret_cast<::System::Collections::IDictionaryEnumerator*>(this);
     }
     // Get instance field reference: private System.Collections.SortedList sortedList
-    ::System::Collections::SortedList*& dyn_sortedList();
+    [[deprecated("Use field access instead!")]] ::System::Collections::SortedList*& dyn_sortedList();
     // Get instance field reference: private System.Object key
-    ::Il2CppObject*& dyn_key();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_key();
     // Get instance field reference: private System.Object value
-    ::Il2CppObject*& dyn_value();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_value();
     // Get instance field reference: private System.Int32 index
-    int& dyn_index();
+    [[deprecated("Use field access instead!")]] int& dyn_index();
     // Get instance field reference: private System.Int32 startIndex
-    int& dyn_startIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_startIndex();
     // Get instance field reference: private System.Int32 endIndex
-    int& dyn_endIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_endIndex();
     // Get instance field reference: private System.Int32 version
-    int& dyn_version();
+    [[deprecated("Use field access instead!")]] int& dyn_version();
     // Get instance field reference: private System.Boolean current
-    bool& dyn_current();
+    [[deprecated("Use field access instead!")]] bool& dyn_current();
     // Get instance field reference: private System.Int32 getObjectRetType
-    int& dyn_getObjectRetType();
+    [[deprecated("Use field access instead!")]] int& dyn_getObjectRetType();
     // public System.Object get_Key()
-    // Offset: 0x1CC757C
+    // Offset: 0x1D02AD4
     ::Il2CppObject* get_Key();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x1CC7768
+    // Offset: 0x1D02CC0
     ::System::Collections::DictionaryEntry get_Entry();
     // public System.Object get_Current()
-    // Offset: 0x1CC7848
+    // Offset: 0x1D02DA0
     ::Il2CppObject* get_Current();
     // public System.Object get_Value()
-    // Offset: 0x1CC793C
+    // Offset: 0x1D02E94
     ::Il2CppObject* get_Value();
     // System.Void .ctor(System.Collections.SortedList sortedList, System.Int32 index, System.Int32 count, System.Int32 getObjRetType)
-    // Offset: 0x1CC65D8
+    // Offset: 0x1D01B30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SortedList::SortedListEnumerator* New_ctor(::System::Collections::SortedList* sortedList, int index, int count, int getObjRetType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::SortedList::SortedListEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortedList::SortedListEnumerator*, creationType>(sortedList, index, count, getObjRetType)));
     }
     // public System.Object Clone()
-    // Offset: 0x1CC7574
+    // Offset: 0x1D02ACC
     ::Il2CppObject* Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x1CC7640
+    // Offset: 0x1D02B98
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1CC7A00
+    // Offset: 0x1D02F58
     void Reset();
   }; // System.Collections.SortedList/System.Collections.SortedListEnumerator
   #pragma pack(pop)

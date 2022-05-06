@@ -29,10 +29,7 @@ namespace Zenject::Internal {
   class PreserveAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2A82F64
-    // Implemented from: System.Attribute
-    // Base method: System.Void Attribute::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2AD8CB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PreserveAttribute* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::PreserveAttribute::.ctor");

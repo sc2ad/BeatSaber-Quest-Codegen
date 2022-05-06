@@ -63,15 +63,7 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class BindInfo : public ::Il2CppObject/*, public ::System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean MarkAsCreationBinding
     // Size: 0x1
     // Offset: 0x10
@@ -196,65 +188,67 @@ namespace Zenject {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get instance field reference: public System.Boolean MarkAsCreationBinding
-    bool& dyn_MarkAsCreationBinding();
+    [[deprecated("Use field access instead!")]] bool& dyn_MarkAsCreationBinding();
     // Get instance field reference: public System.Boolean MarkAsUniqueSingleton
-    bool& dyn_MarkAsUniqueSingleton();
+    [[deprecated("Use field access instead!")]] bool& dyn_MarkAsUniqueSingleton();
     // Get instance field reference: public System.Object ConcreteIdentifier
-    ::Il2CppObject*& dyn_ConcreteIdentifier();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_ConcreteIdentifier();
     // Get instance field reference: public System.Boolean SaveProvider
-    bool& dyn_SaveProvider();
+    [[deprecated("Use field access instead!")]] bool& dyn_SaveProvider();
     // Get instance field reference: public System.Boolean OnlyBindIfNotBound
-    bool& dyn_OnlyBindIfNotBound();
+    [[deprecated("Use field access instead!")]] bool& dyn_OnlyBindIfNotBound();
     // Get instance field reference: public System.Boolean RequireExplicitScope
-    bool& dyn_RequireExplicitScope();
+    [[deprecated("Use field access instead!")]] bool& dyn_RequireExplicitScope();
     // Get instance field reference: public System.Object Identifier
-    ::Il2CppObject*& dyn_Identifier();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_Identifier();
     // Get instance field reference: public readonly System.Collections.Generic.List`1<System.Type> ContractTypes
-    ::System::Collections::Generic::List_1<::System::Type*>*& dyn_ContractTypes();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Type*>*& dyn_ContractTypes();
     // Get instance field reference: public Zenject.BindingInheritanceMethods BindingInheritanceMethod
-    ::Zenject::BindingInheritanceMethods& dyn_BindingInheritanceMethod();
+    [[deprecated("Use field access instead!")]] ::Zenject::BindingInheritanceMethods& dyn_BindingInheritanceMethod();
     // Get instance field reference: public Zenject.InvalidBindResponses InvalidBindResponse
-    ::Zenject::InvalidBindResponses& dyn_InvalidBindResponse();
+    [[deprecated("Use field access instead!")]] ::Zenject::InvalidBindResponses& dyn_InvalidBindResponse();
     // Get instance field reference: public System.Boolean NonLazy
-    bool& dyn_NonLazy();
+    [[deprecated("Use field access instead!")]] bool& dyn_NonLazy();
     // Get instance field reference: public Zenject.BindingCondition Condition
-    ::Zenject::BindingCondition*& dyn_Condition();
+    [[deprecated("Use field access instead!")]] ::Zenject::BindingCondition*& dyn_Condition();
     // Get instance field reference: public Zenject.ToChoices ToChoice
-    ::Zenject::ToChoices& dyn_ToChoice();
+    [[deprecated("Use field access instead!")]] ::Zenject::ToChoices& dyn_ToChoice();
     // Get instance field reference: public System.String ContextInfo
-    ::StringW& dyn_ContextInfo();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_ContextInfo();
     // Get instance field reference: public readonly System.Collections.Generic.List`1<System.Type> ToTypes
-    ::System::Collections::Generic::List_1<::System::Type*>*& dyn_ToTypes();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Type*>*& dyn_ToTypes();
     // Get instance field reference: public Zenject.ScopeTypes Scope
-    ::Zenject::ScopeTypes& dyn_Scope();
+    [[deprecated("Use field access instead!")]] ::Zenject::ScopeTypes& dyn_Scope();
     // Get instance field reference: public readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> Arguments
-    ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& dyn_Arguments();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& dyn_Arguments();
     // Get instance field reference: public System.Action`2<Zenject.InjectContext,System.Object> InstantiatedCallback
-    ::System::Action_2<::Zenject::InjectContext*, ::Il2CppObject*>*& dyn_InstantiatedCallback();
-    // public System.Void Dispose()
-    // Offset: 0x17326D4
-    void Dispose();
-    // public System.Void SetContextInfo(System.String contextInfo)
-    // Offset: 0x173273C
-    void SetContextInfo(::StringW contextInfo);
-    // public System.Void Reset()
-    // Offset: 0x173261C
-    void Reset();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::Zenject::InjectContext*, ::Il2CppObject*>*& dyn_InstantiatedCallback();
     // public System.Void .ctor()
-    // Offset: 0x173255C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x176AE6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BindInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BindInfo*, creationType>()));
     }
+    // public System.Void Dispose()
+    // Offset: 0x176AFE4
+    void Dispose();
+    // public System.Void SetContextInfo(System.String contextInfo)
+    // Offset: 0x176B04C
+    void SetContextInfo(::StringW contextInfo);
+    // public System.Void Reset()
+    // Offset: 0x176AF2C
+    void Reset();
   }; // Zenject.BindInfo
   #pragma pack(pop)
   static check_size<sizeof(BindInfo), 120 + sizeof(::System::Action_2<::Zenject::InjectContext*, ::Il2CppObject*>*)> __Zenject_BindInfoSizeCheck;
   static_assert(sizeof(BindInfo) == 0x80);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::BindInfo::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::BindInfo::Dispose
 // Il2CppName: Dispose
 template<>
@@ -280,7 +274,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
     return ::il2cpp_utils::FindMethod(classof(Zenject::BindInfo*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::BindInfo::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

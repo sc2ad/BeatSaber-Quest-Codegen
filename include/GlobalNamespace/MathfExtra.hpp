@@ -26,22 +26,24 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MathfExtra : public ::Il2CppObject {
     public:
-    // static public System.Single Mod(System.Single value, System.Single mod)
-    // Offset: 0x2A9B790
-    static float Mod(float value, float mod);
     // public System.Void .ctor()
-    // Offset: 0x2A9B80C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2AF117C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MathfExtra* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MathfExtra::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MathfExtra*, creationType>()));
     }
+    // static public System.Single Mod(System.Single value, System.Single mod)
+    // Offset: 0x2AF1100
+    static float Mod(float value, float mod);
   }; // MathfExtra
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MathfExtra::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MathfExtra::Mod
 // Il2CppName: Mod
 template<>
@@ -52,7 +54,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MathfExtra*), "Mod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, mod});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MathfExtra::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

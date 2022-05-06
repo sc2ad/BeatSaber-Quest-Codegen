@@ -28,15 +28,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class RandomValueToShader : public ::GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _lastFrameNum
     // Size: 0x4
     // Offset: 0x18
@@ -46,47 +38,32 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12381F8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BCCB0
     // Get static field: static private readonly System.Int32 _randomValueID
     static int _get__randomValueID();
     // Set static field: static private readonly System.Int32 _randomValueID
     static void _set__randomValueID(int value);
     // Get instance field reference: private System.Int32 _lastFrameNum
-    int& dyn__lastFrameNum();
-    // public System.Void SetRandomValueToShaders()
-    // Offset: 0x2ACF3B8
-    void SetRandomValueToShaders();
+    [[deprecated("Use field access instead!")]] int& dyn__lastFrameNum();
     // public System.Void .ctor()
-    // Offset: 0x2AD9338
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E82748
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RandomValueToShader* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RandomValueToShader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RandomValueToShader*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2AD9348
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x1E82758
     static void _cctor();
+    // public System.Void SetRandomValueToShaders()
+    // Offset: 0x1E78780
+    void SetRandomValueToShaders();
   }; // RandomValueToShader
   #pragma pack(pop)
   static check_size<sizeof(RandomValueToShader), 24 + sizeof(int)> __GlobalNamespace_RandomValueToShaderSizeCheck;
   static_assert(sizeof(RandomValueToShader) == 0x1C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::RandomValueToShader::SetRandomValueToShaders
-// Il2CppName: SetRandomValueToShaders
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RandomValueToShader::*)()>(&GlobalNamespace::RandomValueToShader::SetRandomValueToShaders)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RandomValueToShader*), "SetRandomValueToShaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::RandomValueToShader::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -97,5 +74,13 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::RandomValueToShader::_cctor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RandomValueToShader*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::RandomValueToShader::SetRandomValueToShaders
+// Il2CppName: SetRandomValueToShaders
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RandomValueToShader::*)()>(&GlobalNamespace::RandomValueToShader::SetRandomValueToShaders)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RandomValueToShader*), "SetRandomValueToShaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

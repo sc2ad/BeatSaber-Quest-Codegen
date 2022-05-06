@@ -70,15 +70,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLocalActivePlayerInGameMenuViewController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Button _disconnectButton
     // Size: 0x8
     // Offset: 0x18
@@ -103,7 +95,7 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Button* resumeButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1252C64
+    // [SpaceAttribute] Offset: 0x10D7848
     // private UnityEngine.GameObject _mainBar
     // Size: 0x8
     // Offset: 0x38
@@ -116,14 +108,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::DisconnectPromptView* disconnectPromptView;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::DisconnectPromptView*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1252CAC
+    // [SpaceAttribute] Offset: 0x10D7890
     // private LevelBar _levelBar
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::LevelBar* levelBar;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LevelBar*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1252CE4
+    // [SpaceAttribute] Offset: 0x10D78C8
     // private UnityEngine.GameObject _menuWrapperGameObject
     // Size: 0x8
     // Offset: 0x50
@@ -136,28 +128,28 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* menuControllersGameObject;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252D2C
+    // [InjectAttribute] Offset: 0x10D7910
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x60
     ::GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252D3C
+    // [InjectAttribute] Offset: 0x10D7920
     // private readonly LocalPlayerInGameMenuInitData _localPlayerInGameMenuInitData
     // Size: 0x8
     // Offset: 0x68
     ::GlobalNamespace::LocalPlayerInGameMenuInitData* localPlayerInGameMenuInitData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LocalPlayerInGameMenuInitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252D4C
+    // [InjectAttribute] Offset: 0x10D7930
     // private readonly VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
     // Offset: 0x70
     ::GlobalNamespace::VRControllersInputManager* vrControllersInputManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::VRControllersInputManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252D5C
+    // [InjectAttribute] Offset: 0x10D7940
     // private readonly MultiplayerLocalPlayerDisconnectHelper _disconnectHelper
     // Size: 0x8
     // Offset: 0x78
@@ -204,105 +196,99 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kDisabledInteractionDuration
     static void _set_kDisabledInteractionDuration(float value);
     // Get instance field reference: private UnityEngine.UI.Button _disconnectButton
-    ::UnityEngine::UI::Button*& dyn__disconnectButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__disconnectButton();
     // Get instance field reference: private Polyglot.LocalizedTextMeshProUGUI _disconnectButtonLocalizedText
-    ::Polyglot::LocalizedTextMeshProUGUI*& dyn__disconnectButtonLocalizedText();
+    [[deprecated("Use field access instead!")]] ::Polyglot::LocalizedTextMeshProUGUI*& dyn__disconnectButtonLocalizedText();
     // Get instance field reference: private UnityEngine.UI.Button _giveUpButton
-    ::UnityEngine::UI::Button*& dyn__giveUpButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__giveUpButton();
     // Get instance field reference: private UnityEngine.UI.Button _resumeButton
-    ::UnityEngine::UI::Button*& dyn__resumeButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__resumeButton();
     // Get instance field reference: private UnityEngine.GameObject _mainBar
-    ::UnityEngine::GameObject*& dyn__mainBar();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__mainBar();
     // Get instance field reference: private DisconnectPromptView _disconnectPromptView
-    ::GlobalNamespace::DisconnectPromptView*& dyn__disconnectPromptView();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DisconnectPromptView*& dyn__disconnectPromptView();
     // Get instance field reference: private LevelBar _levelBar
-    ::GlobalNamespace::LevelBar*& dyn__levelBar();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelBar*& dyn__levelBar();
     // Get instance field reference: private UnityEngine.GameObject _menuWrapperGameObject
-    ::UnityEngine::GameObject*& dyn__menuWrapperGameObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__menuWrapperGameObject();
     // Get instance field reference: private UnityEngine.GameObject _menuControllersGameObject
-    ::UnityEngine::GameObject*& dyn__menuControllersGameObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__menuControllersGameObject();
     // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
-    ::GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // Get instance field reference: private readonly LocalPlayerInGameMenuInitData _localPlayerInGameMenuInitData
-    ::GlobalNamespace::LocalPlayerInGameMenuInitData*& dyn__localPlayerInGameMenuInitData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LocalPlayerInGameMenuInitData*& dyn__localPlayerInGameMenuInitData();
     // Get instance field reference: private readonly VRControllersInputManager _vrControllersInputManager
-    ::GlobalNamespace::VRControllersInputManager*& dyn__vrControllersInputManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VRControllersInputManager*& dyn__vrControllersInputManager();
     // Get instance field reference: private readonly MultiplayerLocalPlayerDisconnectHelper _disconnectHelper
-    ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*& dyn__disconnectHelper();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*& dyn__disconnectHelper();
     // Get instance field reference: private System.Action didPressDisconnectButtonEvent
-    ::System::Action*& dyn_didPressDisconnectButtonEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didPressDisconnectButtonEvent();
     // Get instance field reference: private System.Action didPressGiveUpButtonEvent
-    ::System::Action*& dyn_didPressGiveUpButtonEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didPressGiveUpButtonEvent();
     // Get instance field reference: private System.Action didPressResumeButtonEvent
-    ::System::Action*& dyn_didPressResumeButtonEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didPressResumeButtonEvent();
     // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
-    ::HMUI::ButtonBinder*& dyn__buttonBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // Get instance field reference: private System.Single _disabledInteractionRemainingTime
-    float& dyn__disabledInteractionRemainingTime();
+    [[deprecated("Use field access instead!")]] float& dyn__disabledInteractionRemainingTime();
     // public System.Void add_didPressDisconnectButtonEvent(System.Action value)
-    // Offset: 0x1402070
+    // Offset: 0x140EB10
     void add_didPressDisconnectButtonEvent(::System::Action* value);
     // public System.Void remove_didPressDisconnectButtonEvent(System.Action value)
-    // Offset: 0x1402568
+    // Offset: 0x140F008
     void remove_didPressDisconnectButtonEvent(::System::Action* value);
     // public System.Void add_didPressGiveUpButtonEvent(System.Action value)
-    // Offset: 0x14021B8
+    // Offset: 0x140EC58
     void add_didPressGiveUpButtonEvent(::System::Action* value);
     // public System.Void remove_didPressGiveUpButtonEvent(System.Action value)
-    // Offset: 0x14026B0
+    // Offset: 0x140F150
     void remove_didPressGiveUpButtonEvent(::System::Action* value);
     // public System.Void add_didPressResumeButtonEvent(System.Action value)
-    // Offset: 0x1402114
+    // Offset: 0x140EBB4
     void add_didPressResumeButtonEvent(::System::Action* value);
     // public System.Void remove_didPressResumeButtonEvent(System.Action value)
-    // Offset: 0x140260C
+    // Offset: 0x140F0AC
     void remove_didPressResumeButtonEvent(::System::Action* value);
-    // protected System.Void Awake()
-    // Offset: 0x1402B50
-    void Awake();
-    // protected System.Void Start()
-    // Offset: 0x1402CDC
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x1402D70
-    void OnDestroy();
-    // protected System.Void Update()
-    // Offset: 0x1402E14
-    void Update();
-    // public System.Void ShowMenu()
-    // Offset: 0x1402870
-    void ShowMenu();
-    // public System.Void HideMenu()
-    // Offset: 0x14028CC
-    void HideMenu();
-    // private System.Void DisconnectButtonPressed()
-    // Offset: 0x1402EC4
-    void DisconnectButtonPressed();
-    // private System.Void HandleDisconnectPromptViewDidViewFinish(System.Boolean disconnect)
-    // Offset: 0x1402F04
-    void HandleDisconnectPromptViewDidViewFinish(bool disconnect);
-    // private System.Void GiveUpButtonPressed()
-    // Offset: 0x1402FD4
-    void GiveUpButtonPressed();
-    // private System.Void ResumeButtonPressed()
-    // Offset: 0x1402E84
-    void ResumeButtonPressed();
-    // private System.Void <HandleDisconnectPromptViewDidViewFinish>b__32_0()
-    // Offset: 0x1403030
-    void $HandleDisconnectPromptViewDidViewFinish$b__32_0();
     // public System.Void .ctor()
-    // Offset: 0x1403028
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x140FAC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalActivePlayerInGameMenuViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActivePlayerInGameMenuViewController*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x140F5F0
+    void Awake();
+    // protected System.Void Start()
+    // Offset: 0x140F77C
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x140F810
+    void OnDestroy();
+    // protected System.Void Update()
+    // Offset: 0x140F8B4
+    void Update();
+    // public System.Void ShowMenu()
+    // Offset: 0x140F310
+    void ShowMenu();
+    // public System.Void HideMenu()
+    // Offset: 0x140F36C
+    void HideMenu();
+    // private System.Void DisconnectButtonPressed()
+    // Offset: 0x140F964
+    void DisconnectButtonPressed();
+    // private System.Void HandleDisconnectPromptViewDidViewFinish(System.Boolean disconnect)
+    // Offset: 0x140F9A4
+    void HandleDisconnectPromptViewDidViewFinish(bool disconnect);
+    // private System.Void GiveUpButtonPressed()
+    // Offset: 0x140FA74
+    void GiveUpButtonPressed();
+    // private System.Void ResumeButtonPressed()
+    // Offset: 0x140F924
+    void ResumeButtonPressed();
+    // private System.Void <HandleDisconnectPromptViewDidViewFinish>b__32_0()
+    // Offset: 0x140FAD0
+    void $HandleDisconnectPromptViewDidViewFinish$b__32_0();
   }; // MultiplayerLocalActivePlayerInGameMenuViewController
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalActivePlayerInGameMenuViewController), 160 + sizeof(float)> __GlobalNamespace_MultiplayerLocalActivePlayerInGameMenuViewControllerSizeCheck;
@@ -363,6 +349,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController*), "remove_didPressResumeButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController::Awake
 // Il2CppName: Awake
 template<>
@@ -452,7 +442,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController*), "<HandleDisconnectPromptViewDidViewFinish>b__32_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

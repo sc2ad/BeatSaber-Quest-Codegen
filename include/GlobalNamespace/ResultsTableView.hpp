@@ -57,15 +57,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResultsTableView : public ::UnityEngine::MonoBehaviour/*, public ::HMUI::TableView::IDataSource*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.TableView _tableView
     // Size: 0x8
     // Offset: 0x18
@@ -106,44 +98,42 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kCellIdentifier
     static void _set_kCellIdentifier(::StringW value);
     // Get instance field reference: private HMUI.TableView _tableView
-    ::HMUI::TableView*& dyn__tableView();
+    [[deprecated("Use field access instead!")]] ::HMUI::TableView*& dyn__tableView();
     // Get instance field reference: private ResultsTableCell _cellPrefab
-    ::GlobalNamespace::ResultsTableCell*& dyn__cellPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ResultsTableCell*& dyn__cellPrefab();
     // Get instance field reference: private System.Single _rowHeight
-    float& dyn__rowHeight();
+    [[deprecated("Use field access instead!")]] float& dyn__rowHeight();
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> _dataList
-    ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*& dyn__dataList();
-    // public System.Single CellSize()
-    // Offset: 0x137E53C
-    float CellSize();
-    // public System.Int32 NumberOfCells()
-    // Offset: 0x137E544
-    int NumberOfCells();
-    // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x137E5F4
-    ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int idx);
-    // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> dataList)
-    // Offset: 0x137E7BC
-    void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* dataList);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*& dyn__dataList();
     // public System.Void .ctor()
-    // Offset: 0x137E7E8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14566BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultsTableView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ResultsTableView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResultsTableView*, creationType>()));
     }
+    // public System.Single CellSize()
+    // Offset: 0x1456410
+    float CellSize();
+    // public System.Int32 NumberOfCells()
+    // Offset: 0x1456418
+    int NumberOfCells();
+    // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
+    // Offset: 0x14564C8
+    ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int idx);
+    // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> dataList)
+    // Offset: 0x1456690
+    void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* dataList);
   }; // ResultsTableView
   #pragma pack(pop)
   static check_size<sizeof(ResultsTableView), 48 + sizeof(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*)> __GlobalNamespace_ResultsTableViewSizeCheck;
   static_assert(sizeof(ResultsTableView) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ResultsTableView::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ResultsTableView::CellSize
 // Il2CppName: CellSize
 template<>
@@ -179,7 +169,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsTableView*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dataList});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ResultsTableView::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

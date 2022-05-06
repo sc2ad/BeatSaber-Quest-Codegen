@@ -73,49 +73,51 @@ namespace System::IO {
     static ::ArrayW<::StringW> _get_NoStringsArray();
     // Set static field: static private System.String[] NoStringsArray
     static void _set_NoStringsArray(::ArrayW<::StringW> value);
-    // static private System.Void .cctor()
-    // Offset: 0x1CB5D10
-    static void _cctor();
-    // static public System.Boolean GetInstance(out System.IO.IFileWatcher watcher)
-    // Offset: 0x1CB3440
-    static bool GetInstance(ByRef<::System::IO::IFileWatcher*> watcher);
-    // public System.Void StartDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x1CB3518
-    void StartDispatching(::System::IO::FileSystemWatcher* fsw);
-    // public System.Void StopDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x1CB3D20
-    void StopDispatching(::System::IO::FileSystemWatcher* fsw);
-    // private System.Void Monitor()
-    // Offset: 0x1CB3F98
-    void Monitor();
-    // private System.Boolean UpdateDataAndDispatch(System.IO.DefaultWatcherData data, System.Boolean dispatch)
-    // Offset: 0x1CB3C0C
-    bool UpdateDataAndDispatch(::System::IO::DefaultWatcherData* data, bool dispatch);
-    // static private System.Void DispatchEvents(System.IO.FileSystemWatcher fsw, System.IO.FileAction action, System.String filename)
-    // Offset: 0x1CB4920
-    static void DispatchEvents(::System::IO::FileSystemWatcher* fsw, ::System::IO::FileAction action, ::StringW filename);
-    // private System.Void DoFiles(System.IO.DefaultWatcherData data, System.String directory, System.Boolean dispatch)
-    // Offset: 0x1CB46D4
-    void DoFiles(::System::IO::DefaultWatcherData* data, ::StringW directory, bool dispatch);
-    // private System.Void IterateAndModifyFilesData(System.IO.DefaultWatcherData data, System.String directory, System.Boolean dispatch, System.String[] files)
-    // Offset: 0x1CB4C0C
-    void IterateAndModifyFilesData(::System::IO::DefaultWatcherData* data, ::StringW directory, bool dispatch, ::ArrayW<::StringW> files);
-    // static private System.IO.FileData CreateFileData(System.String directory, System.String filename)
-    // Offset: 0x1CB5C30
-    static ::System::IO::FileData* CreateFileData(::StringW directory, ::StringW filename);
     // private System.Void .ctor()
-    // Offset: 0x1CB3438
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1CEF990
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultWatcher* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::DefaultWatcher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultWatcher*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1CF2268
+    static void _cctor();
+    // static public System.Boolean GetInstance(out System.IO.IFileWatcher watcher)
+    // Offset: 0x1CEF998
+    static bool GetInstance(ByRef<::System::IO::IFileWatcher*> watcher);
+    // public System.Void StartDispatching(System.IO.FileSystemWatcher fsw)
+    // Offset: 0x1CEFA70
+    void StartDispatching(::System::IO::FileSystemWatcher* fsw);
+    // public System.Void StopDispatching(System.IO.FileSystemWatcher fsw)
+    // Offset: 0x1CF0278
+    void StopDispatching(::System::IO::FileSystemWatcher* fsw);
+    // private System.Void Monitor()
+    // Offset: 0x1CF04F0
+    void Monitor();
+    // private System.Boolean UpdateDataAndDispatch(System.IO.DefaultWatcherData data, System.Boolean dispatch)
+    // Offset: 0x1CF0164
+    bool UpdateDataAndDispatch(::System::IO::DefaultWatcherData* data, bool dispatch);
+    // static private System.Void DispatchEvents(System.IO.FileSystemWatcher fsw, System.IO.FileAction action, System.String filename)
+    // Offset: 0x1CF0E78
+    static void DispatchEvents(::System::IO::FileSystemWatcher* fsw, ::System::IO::FileAction action, ::StringW filename);
+    // private System.Void DoFiles(System.IO.DefaultWatcherData data, System.String directory, System.Boolean dispatch)
+    // Offset: 0x1CF0C2C
+    void DoFiles(::System::IO::DefaultWatcherData* data, ::StringW directory, bool dispatch);
+    // private System.Void IterateAndModifyFilesData(System.IO.DefaultWatcherData data, System.String directory, System.Boolean dispatch, System.String[] files)
+    // Offset: 0x1CF1164
+    void IterateAndModifyFilesData(::System::IO::DefaultWatcherData* data, ::StringW directory, bool dispatch, ::ArrayW<::StringW> files);
+    // static private System.IO.FileData CreateFileData(System.String directory, System.String filename)
+    // Offset: 0x1CF2188
+    static ::System::IO::FileData* CreateFileData(::StringW directory, ::StringW filename);
   }; // System.IO.DefaultWatcher
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::IO::DefaultWatcher::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::IO::DefaultWatcher::_cctor
 // Il2CppName: .cctor
 template<>
@@ -213,7 +215,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::I
     return ::il2cpp_utils::FindMethod(classof(System::IO::DefaultWatcher*), "CreateFileData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{directory, filename});
   }
 };
-// Writing MetadataGetter for method: System::IO::DefaultWatcher::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

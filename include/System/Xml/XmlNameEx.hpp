@@ -50,15 +50,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlNameEx : public ::System::Xml::XmlName {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Byte flags
     // Size: 0x1
     // Offset: 0x48
@@ -87,66 +79,66 @@ namespace System::Xml {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: private System.Byte flags
-    uint8_t& dyn_flags();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_flags();
     // Get instance field reference: private System.Xml.Schema.XmlSchemaSimpleType memberType
-    ::System::Xml::Schema::XmlSchemaSimpleType*& dyn_memberType();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaSimpleType*& dyn_memberType();
     // Get instance field reference: private System.Xml.Schema.XmlSchemaType schemaType
-    ::System::Xml::Schema::XmlSchemaType*& dyn_schemaType();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaType*& dyn_schemaType();
     // Get instance field reference: private System.Object decl
-    ::Il2CppObject*& dyn_decl();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_decl();
     // System.Void .ctor(System.String prefix, System.String localName, System.String ns, System.Int32 hashCode, System.Xml.XmlDocument ownerDoc, System.Xml.XmlName next, System.Xml.Schema.IXmlSchemaInfo schemaInfo)
-    // Offset: 0x15A0BA8
+    // Offset: 0x15D64B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlNameEx* New_ctor(::StringW prefix, ::StringW localName, ::StringW ns, int hashCode, ::System::Xml::XmlDocument* ownerDoc, ::System::Xml::XmlName* next, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlNameEx::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlNameEx*, creationType>(prefix, localName, ns, hashCode, ownerDoc, next, schemaInfo)));
     }
     // public System.Void SetValidity(System.Xml.Schema.XmlSchemaValidity value)
-    // Offset: 0x15A122C
+    // Offset: 0x15D6B3C
     void SetValidity(::System::Xml::Schema::XmlSchemaValidity value);
     // public System.Void SetIsDefault(System.Boolean value)
-    // Offset: 0x15A1240
+    // Offset: 0x15D6B50
     void SetIsDefault(bool value);
     // public System.Void SetIsNil(System.Boolean value)
-    // Offset: 0x15A125C
+    // Offset: 0x15D6B6C
     void SetIsNil(bool value);
     // public override System.Xml.Schema.XmlSchemaValidity get_Validity()
-    // Offset: 0x15A1278
+    // Offset: 0x15D6B88
     // Implemented from: System.Xml.XmlName
     // Base method: System.Xml.Schema.XmlSchemaValidity XmlName::get_Validity()
     ::System::Xml::Schema::XmlSchemaValidity get_Validity();
     // public override System.Boolean get_IsDefault()
-    // Offset: 0x15A12A8
+    // Offset: 0x15D6BB8
     // Implemented from: System.Xml.XmlName
     // Base method: System.Boolean XmlName::get_IsDefault()
     bool get_IsDefault();
     // public override System.Boolean get_IsNil()
-    // Offset: 0x15A12B4
+    // Offset: 0x15D6BC4
     // Implemented from: System.Xml.XmlName
     // Base method: System.Boolean XmlName::get_IsNil()
     bool get_IsNil();
     // public override System.Xml.Schema.XmlSchemaSimpleType get_MemberType()
-    // Offset: 0x15A12C0
+    // Offset: 0x15D6BD0
     // Implemented from: System.Xml.XmlName
     // Base method: System.Xml.Schema.XmlSchemaSimpleType XmlName::get_MemberType()
     ::System::Xml::Schema::XmlSchemaSimpleType* get_MemberType();
     // public override System.Xml.Schema.XmlSchemaType get_SchemaType()
-    // Offset: 0x15A12C8
+    // Offset: 0x15D6BD8
     // Implemented from: System.Xml.XmlName
     // Base method: System.Xml.Schema.XmlSchemaType XmlName::get_SchemaType()
     ::System::Xml::Schema::XmlSchemaType* get_SchemaType();
     // public override System.Xml.Schema.XmlSchemaElement get_SchemaElement()
-    // Offset: 0x15A12D0
+    // Offset: 0x15D6BE0
     // Implemented from: System.Xml.XmlName
     // Base method: System.Xml.Schema.XmlSchemaElement XmlName::get_SchemaElement()
     ::System::Xml::Schema::XmlSchemaElement* get_SchemaElement();
     // public override System.Xml.Schema.XmlSchemaAttribute get_SchemaAttribute()
-    // Offset: 0x15A1354
+    // Offset: 0x15D6C64
     // Implemented from: System.Xml.XmlName
     // Base method: System.Xml.Schema.XmlSchemaAttribute XmlName::get_SchemaAttribute()
     ::System::Xml::Schema::XmlSchemaAttribute* get_SchemaAttribute();
     // public override System.Boolean Equals(System.Xml.Schema.IXmlSchemaInfo schemaInfo)
-    // Offset: 0x15A13D8
+    // Offset: 0x15D6CE8
     // Implemented from: System.Xml.XmlName
     // Base method: System.Boolean XmlName::Equals(System.Xml.Schema.IXmlSchemaInfo schemaInfo)
     bool Equals(::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);

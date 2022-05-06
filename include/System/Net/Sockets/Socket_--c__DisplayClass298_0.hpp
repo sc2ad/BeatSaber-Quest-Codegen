@@ -38,15 +38,7 @@ namespace System::Net::Sockets {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class Socket::$$c__DisplayClass298_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Net.Sockets.Socket <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -67,29 +59,31 @@ namespace System::Net::Sockets {
     static_assert(sizeof(::System::IntPtr) == 0x8);
     public:
     // Get instance field reference: public System.Net.Sockets.Socket <>4__this
-    ::System::Net::Sockets::Socket*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::System::Net::Sockets::Socket*& dyn_$$4__this();
     // Get instance field reference: public System.IOSelectorJob job
-    ::System::IOSelectorJob*& dyn_job();
+    [[deprecated("Use field access instead!")]] ::System::IOSelectorJob*& dyn_job();
     // Get instance field reference: public System.IntPtr handle
-    ::System::IntPtr& dyn_handle();
-    // System.Void <QueueIOSelectorJob>b__0(System.Threading.Tasks.Task t)
-    // Offset: 0x1B12D28
-    void $QueueIOSelectorJob$b__0(::System::Threading::Tasks::Task* t);
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_handle();
     // public System.Void .ctor()
-    // Offset: 0x1B12D20
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B4D308
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Socket::$$c__DisplayClass298_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Sockets::Socket::$$c__DisplayClass298_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Socket::$$c__DisplayClass298_0*, creationType>()));
     }
+    // System.Void <QueueIOSelectorJob>b__0(System.Threading.Tasks.Task t)
+    // Offset: 0x1B4D310
+    void $QueueIOSelectorJob$b__0(::System::Threading::Tasks::Task* t);
   }; // System.Net.Sockets.Socket/System.Net.Sockets.<>c__DisplayClass298_0
   #pragma pack(pop)
   static check_size<sizeof(Socket::$$c__DisplayClass298_0), 32 + sizeof(::System::IntPtr)> __System_Net_Sockets_Socket_$$c__DisplayClass298_0SizeCheck;
   static_assert(sizeof(Socket::$$c__DisplayClass298_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c__DisplayClass298_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c__DisplayClass298_0::$QueueIOSelectorJob$b__0
 // Il2CppName: <QueueIOSelectorJob>b__0
 template<>
@@ -99,7 +93,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket::$$c__DisplayClass298_0*), "<QueueIOSelectorJob>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
-// Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c__DisplayClass298_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

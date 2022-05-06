@@ -72,7 +72,7 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.ShaderPropertyType Texture
     static void _set_Texture(::UnityEngine::Rendering::ShaderPropertyType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.Rendering.ShaderPropertyType
   #pragma pack(pop)
   static check_size<sizeof(ShaderPropertyType), 0 + sizeof(int)> __UnityEngine_Rendering_ShaderPropertyTypeSizeCheck;

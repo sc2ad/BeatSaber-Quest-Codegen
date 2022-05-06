@@ -55,7 +55,7 @@ namespace Newtonsoft::Json::Linq {
     // Set static field: static public Newtonsoft.Json.Linq.LineInfoHandling Load
     static void _set_Load(::Newtonsoft::Json::Linq::LineInfoHandling value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Newtonsoft.Json.Linq.LineInfoHandling
   #pragma pack(pop)
   static check_size<sizeof(LineInfoHandling), 0 + sizeof(int)> __Newtonsoft_Json_Linq_LineInfoHandlingSizeCheck;

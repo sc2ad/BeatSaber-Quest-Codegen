@@ -90,24 +90,24 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<IReadonlyBeatmapData> <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*>& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*>& dyn_$$t__builder();
     // Get instance field reference: public CustomDifficultyBeatmap <>4__this
-    ::GlobalNamespace::CustomDifficultyBeatmap*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::CustomDifficultyBeatmap*& dyn_$$4__this();
     // Get instance field reference: public EnvironmentInfoSO environmentInfo
-    ::GlobalNamespace::EnvironmentInfoSO*& dyn_environmentInfo();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentInfoSO*& dyn_environmentInfo();
     // Get instance field reference: public PlayerSpecificSettings playerSpecificSettings
-    ::GlobalNamespace::PlayerSpecificSettings*& dyn_playerSpecificSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSpecificSettings*& dyn_playerSpecificSettings();
     // Get instance field reference: private CustomDifficultyBeatmap/<>c__DisplayClass28_0 <>8__1
-    ::GlobalNamespace::CustomDifficultyBeatmap::$$c__DisplayClass28_0*& dyn_$$8__1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::CustomDifficultyBeatmap::$$c__DisplayClass28_0*& dyn_$$8__1();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1409E34
+    // Offset: 0x1429BE0
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x140A0A4
+    // Offset: 0x1429E50
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // CustomDifficultyBeatmap/<GetBeatmapDataAsync>d__28
   // WARNING Not writing size check since size may be invalid!

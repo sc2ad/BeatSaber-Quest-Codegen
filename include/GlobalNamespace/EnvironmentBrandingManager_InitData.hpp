@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnvironmentBrandingManager::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Boolean hideBranding
     // Size: 0x1
     // Offset: 0x10
@@ -44,9 +36,9 @@ namespace GlobalNamespace {
       return hideBranding;
     }
     // Get instance field reference: public readonly System.Boolean hideBranding
-    bool& dyn_hideBranding();
+    [[deprecated("Use field access instead!")]] bool& dyn_hideBranding();
     // public System.Void .ctor(System.Boolean hideBranding)
-    // Offset: 0x13837EC
+    // Offset: 0x136B3C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentBrandingManager::InitData* New_ctor(bool hideBranding) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentBrandingManager::InitData::.ctor");

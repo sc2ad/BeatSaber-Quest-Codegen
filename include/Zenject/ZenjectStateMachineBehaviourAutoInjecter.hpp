@@ -43,15 +43,7 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class ZenjectStateMachineBehaviourAutoInjecter : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x18
@@ -68,40 +60,38 @@ namespace Zenject {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Zenject.DiContainer _container
-    ::Zenject::DiContainer*& dyn__container();
+    [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn__container();
     // Get instance field reference: private UnityEngine.Animator _animator
-    ::UnityEngine::Animator*& dyn__animator();
-    // public System.Void Construct(Zenject.DiContainer container)
-    // Offset: 0x1CF073C
-    void Construct(::Zenject::DiContainer* container);
-    // public System.Void Start()
-    // Offset: 0x1CF07A8
-    void Start();
-    // static private System.Void __zenInjectMethod0(System.Object P_0, System.Object[] P_1)
-    // Offset: 0x1CF08A4
-    static void __zenInjectMethod0(::Il2CppObject* P_0, ::ArrayW<::Il2CppObject*> P_1);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CF0998
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Animator*& dyn__animator();
     // public System.Void .ctor()
-    // Offset: 0x1CF089C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1D2BDF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenjectStateMachineBehaviourAutoInjecter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectStateMachineBehaviourAutoInjecter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectStateMachineBehaviourAutoInjecter*, creationType>()));
     }
+    // public System.Void Construct(Zenject.DiContainer container)
+    // Offset: 0x1D2BC94
+    void Construct(::Zenject::DiContainer* container);
+    // public System.Void Start()
+    // Offset: 0x1D2BD00
+    void Start();
+    // static private System.Void __zenInjectMethod0(System.Object P_0, System.Object[] P_1)
+    // Offset: 0x1D2BDFC
+    static void __zenInjectMethod0(::Il2CppObject* P_0, ::ArrayW<::Il2CppObject*> P_1);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1D2BEF0
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.ZenjectStateMachineBehaviourAutoInjecter
   #pragma pack(pop)
   static check_size<sizeof(ZenjectStateMachineBehaviourAutoInjecter), 32 + sizeof(::UnityEngine::Animator*)> __Zenject_ZenjectStateMachineBehaviourAutoInjecterSizeCheck;
   static_assert(sizeof(ZenjectStateMachineBehaviourAutoInjecter) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::ZenjectStateMachineBehaviourAutoInjecter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::ZenjectStateMachineBehaviourAutoInjecter::Construct
 // Il2CppName: Construct
 template<>
@@ -137,7 +127,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectStateMachineBehaviourAutoInjecter*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::ZenjectStateMachineBehaviourAutoInjecter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

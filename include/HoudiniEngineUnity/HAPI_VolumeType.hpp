@@ -66,7 +66,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HAPI_VolumeType HAPI_VOLUMETYPE_MAX
     static void _set_HAPI_VOLUMETYPE_MAX(::HoudiniEngineUnity::HAPI_VolumeType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HAPI_VolumeType
   #pragma pack(pop)
   static check_size<sizeof(HAPI_VolumeType), 0 + sizeof(int)> __HoudiniEngineUnity_HAPI_VolumeTypeSizeCheck;

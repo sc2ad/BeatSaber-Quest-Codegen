@@ -34,15 +34,7 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestNameGenerator::ArgListFragment : public ::NUnit::Framework::Internal::TestNameGenerator::NameFragment {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _maxStringLength
     // Size: 0x4
     // Offset: 0x10
@@ -55,16 +47,16 @@ namespace NUnit::Framework::Internal {
       return maxStringLength;
     }
     // Get instance field reference: private System.Int32 _maxStringLength
-    int& dyn__maxStringLength();
+    [[deprecated("Use field access instead!")]] int& dyn__maxStringLength();
     // public System.Void .ctor(System.Int32 maxStringLength)
-    // Offset: 0x29B30BC
+    // Offset: 0x2A0F0B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestNameGenerator::ArgListFragment* New_ctor(int maxStringLength) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestNameGenerator::ArgListFragment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator::ArgListFragment*, creationType>(maxStringLength)));
     }
     // public override System.String GetText(System.Reflection.MethodInfo method, System.Object[] arglist)
-    // Offset: 0x29B3184
+    // Offset: 0x2A0F17C
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.NameFragment
     // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] arglist)
     ::StringW GetText(::System::Reflection::MethodInfo* method, ::ArrayW<::Il2CppObject*> arglist);

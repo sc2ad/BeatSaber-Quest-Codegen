@@ -56,15 +56,7 @@ namespace GlobalNamespace {
     class BoolMonitor;
     // Nested type: ::GlobalNamespace::OVRHandTest::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.UI.Text uiText
     // Size: 0x8
     // Offset: 0x18
@@ -155,61 +147,65 @@ namespace GlobalNamespace {
     // Set static field: static private OVRHandTest/BoolMonitor controllers
     static void _set_controllers(::GlobalNamespace::OVRHandTest::BoolMonitor* value);
     // Get instance field reference: public UnityEngine.UI.Text uiText
-    ::UnityEngine::UI::Text*& dyn_uiText();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Text*& dyn_uiText();
     // Get instance field reference: private System.Collections.Generic.List`1<OVRHandTest/BoolMonitor> monitors
-    ::System::Collections::Generic::List_1<::GlobalNamespace::OVRHandTest::BoolMonitor*>*& dyn_monitors();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::OVRHandTest::BoolMonitor*>*& dyn_monitors();
     // Get instance field reference: private System.Text.StringBuilder data
-    ::System::Text::StringBuilder*& dyn_data();
+    [[deprecated("Use field access instead!")]] ::System::Text::StringBuilder*& dyn_data();
     // Get instance field reference: private OVRPlugin/HandState hs_LH
-    ::GlobalNamespace::OVRPlugin::HandState& dyn_hs_LH();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::HandState& dyn_hs_LH();
     // Get instance field reference: private OVRPlugin/HandState hs_RH
-    ::GlobalNamespace::OVRPlugin::HandState& dyn_hs_RH();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::HandState& dyn_hs_RH();
     // Get instance field reference: private OVRPlugin/Skeleton skel_LH
-    ::GlobalNamespace::OVRPlugin::Skeleton& dyn_skel_LH();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Skeleton& dyn_skel_LH();
     // Get instance field reference: private OVRPlugin/Skeleton skel_RH
-    ::GlobalNamespace::OVRPlugin::Skeleton& dyn_skel_RH();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Skeleton& dyn_skel_RH();
     // Get instance field reference: private OVRPlugin/Mesh mesh_LH
-    ::GlobalNamespace::OVRPlugin::Mesh*& dyn_mesh_LH();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Mesh*& dyn_mesh_LH();
     // Get instance field reference: private OVRPlugin/Mesh mesh_RH
-    ::GlobalNamespace::OVRPlugin::Mesh*& dyn_mesh_RH();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Mesh*& dyn_mesh_RH();
     // Get instance field reference: private System.Boolean result_skel_LH
-    bool& dyn_result_skel_LH();
+    [[deprecated("Use field access instead!")]] bool& dyn_result_skel_LH();
     // Get instance field reference: private System.Boolean result_skel_RH
-    bool& dyn_result_skel_RH();
+    [[deprecated("Use field access instead!")]] bool& dyn_result_skel_RH();
     // Get instance field reference: private System.Boolean result_mesh_LH
-    bool& dyn_result_mesh_LH();
+    [[deprecated("Use field access instead!")]] bool& dyn_result_mesh_LH();
     // Get instance field reference: private System.Boolean result_mesh_RH
-    bool& dyn_result_mesh_RH();
-    // private System.Void Start()
-    // Offset: 0x19B9C64
-    void Start();
-    // private System.Void Update()
-    // Offset: 0x19B9F38
-    void Update();
+    [[deprecated("Use field access instead!")]] bool& dyn_result_mesh_RH();
     // public System.Void .ctor()
-    // Offset: 0x19BAB40
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x19F4128
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHandTest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRHandTest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHandTest*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x19BABC8
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x19F41B0
     static void _cctor();
+    // private System.Void Start()
+    // Offset: 0x19F324C
+    void Start();
+    // private System.Void Update()
+    // Offset: 0x19F3520
+    void Update();
   }; // OVRHandTest
   #pragma pack(pop)
   static check_size<sizeof(OVRHandTest), 371 + sizeof(bool)> __GlobalNamespace_OVRHandTestSizeCheck;
   static_assert(sizeof(OVRHandTest) == 0x174);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OVRHandTest::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::OVRHandTest::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRHandTest::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHandTest*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRHandTest::Start
 // Il2CppName: Start
 template<>
@@ -224,17 +220,5 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHandTest::*)()>(&GlobalNamespace::OVRHandTest::Update)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHandTest*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::OVRHandTest::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::OVRHandTest::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRHandTest::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHandTest*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

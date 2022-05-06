@@ -51,15 +51,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorSchemeTableCell : public ::HMUI::TableCell {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _text
     // Size: 0x8
     // Offset: 0x58
@@ -80,39 +72,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::UI::Image*) == 0x8);
     public:
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
-    ::TMPro::TextMeshProUGUI*& dyn__text();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__text();
     // Get instance field reference: private ColorSchemeView _colorSchemeView
-    ::GlobalNamespace::ColorSchemeView*& dyn__colorSchemeView();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSchemeView*& dyn__colorSchemeView();
     // Get instance field reference: private UnityEngine.UI.Image _editIcon
-    ::UnityEngine::UI::Image*& dyn__editIcon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__editIcon();
     // public System.String get_text()
-    // Offset: 0x135820C
+    // Offset: 0x134148C
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x1357DD4
+    // Offset: 0x1341054
     void set_text(::StringW value);
     // public System.Void set_showEditIcon(System.Boolean value)
-    // Offset: 0x1357DB4
+    // Offset: 0x1341034
     void set_showEditIcon(bool value);
-    // public System.Void SetColors(UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environment0Color, UnityEngine.Color environment1Color, UnityEngine.Color obstacleColor)
-    // Offset: 0x1357DF0
-    void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color, ::UnityEngine::Color obstacleColor);
     // public System.Void .ctor()
-    // Offset: 0x1358228
-    // Implemented from: HMUI.TableCell
-    // Base method: System.Void TableCell::.ctor()
-    // Base method: System.Void SelectableCell::.ctor()
-    // Base method: System.Void Interactable::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13414A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorSchemeTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorSchemeTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorSchemeTableCell*, creationType>()));
     }
+    // public System.Void SetColors(UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environment0Color, UnityEngine.Color environment1Color, UnityEngine.Color obstacleColor)
+    // Offset: 0x1341070
+    void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color, ::UnityEngine::Color obstacleColor);
   }; // ColorSchemeTableCell
   #pragma pack(pop)
   static check_size<sizeof(ColorSchemeTableCell), 104 + sizeof(::UnityEngine::UI::Image*)> __GlobalNamespace_ColorSchemeTableCellSizeCheck;
@@ -145,6 +128,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeTableCell*), "set_showEditIcon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ColorSchemeTableCell::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeTableCell::SetColors
 // Il2CppName: SetColors
 template<>
@@ -158,7 +145,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeTableCell*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saberAColor, saberBColor, environment0Color, environment1Color, obstacleColor});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ColorSchemeTableCell::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

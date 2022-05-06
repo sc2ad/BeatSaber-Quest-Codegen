@@ -57,15 +57,7 @@ namespace GlobalNamespace {
     class $$c;
     // Nested type: ::GlobalNamespace::AppInit::$StartCoroutine$d__8
     class $StartCoroutine$d__8;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.GameObject _cameraGO
     // Size: 0x8
     // Offset: 0x20
@@ -78,14 +70,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerMockSettings* multiplayerMockSettings;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerMockSettings*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0x1249C90
+    // [InjectOptionalAttribute] Offset: 0x10CE788
     // private AppInitScenesTransitionSetupDataSO/AppInitSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1249CA0
+    // [InjectAttribute] Offset: 0x10CE798
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x38
@@ -94,30 +86,37 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::GameScenesManager*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.GameObject _cameraGO
-    ::UnityEngine::GameObject*& dyn__cameraGO();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__cameraGO();
     // Get instance field reference: private MultiplayerMockSettings _multiplayerMockSettings
-    ::GlobalNamespace::MultiplayerMockSettings*& dyn__multiplayerMockSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerMockSettings*& dyn__multiplayerMockSettings();
     // Get instance field reference: private AppInitScenesTransitionSetupDataSO/AppInitSceneSetupData _sceneSetupData
-    ::GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*& dyn__sceneSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*& dyn__sceneSetupData();
     // Get instance field reference: private GameScenesManager _gameScenesManager
-    ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // protected GameScenesManager get_gameScenesManager()
-    // Offset: 0x14B6134
+    // Offset: 0x14ED9EC
     ::GlobalNamespace::GameScenesManager* get_gameScenesManager();
+    // protected System.Void .ctor()
+    // Offset: 0x14EDDBC
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static AppInit* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AppInit::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<AppInit*, creationType>()));
+    }
     // private System.Collections.IEnumerator StartCoroutine()
-    // Offset: 0x14B62B4
+    // Offset: 0x14EDB6C
     ::System::Collections::IEnumerator* StartCoroutine();
     // protected System.Void OnDestroy()
-    // Offset: 0x14B6350
+    // Offset: 0x14EDC08
     void OnDestroy();
     // private System.Void HandleBeforeDismissingScenes()
-    // Offset: 0x14B6424
+    // Offset: 0x14EDCDC
     void HandleBeforeDismissingScenes();
     // protected MockPlayersModel GetMockPlayersModel()
-    // Offset: 0x14B64C4
+    // Offset: 0x14EDD7C
     ::GlobalNamespace::MockPlayersModel* GetMockPlayersModel();
     // protected AppInit/AppStartType GetAppStartType()
-    // Offset: 0x14B6210
+    // Offset: 0x14EDAC8
     ::GlobalNamespace::AppInit::AppStartType GetAppStartType();
     // protected System.Void AppStartAndMultiSceneEditorSetup()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -128,23 +127,8 @@ namespace GlobalNamespace {
     // protected System.Void TransitionToNextScene()
     // Offset: 0xFFFFFFFFFFFFFFFF
     void TransitionToNextScene();
-    // protected System.Void .ctor()
-    // Offset: 0x14B6504
-    // Implemented from: Zenject.MonoInstaller
-    // Base method: System.Void MonoInstaller::.ctor()
-    // Base method: System.Void MonoInstallerBase::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AppInit* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AppInit::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<AppInit*, creationType>()));
-    }
     // public override System.Void Start()
-    // Offset: 0x14B613C
+    // Offset: 0x14ED9F4
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::Start()
     void Start();
@@ -162,6 +146,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInit*), "get_gameScenesManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::AppInit::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AppInit::StartCoroutine
 // Il2CppName: StartCoroutine
 template<>
@@ -226,10 +214,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInit*), "TransitionToNextScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AppInit::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AppInit::Start
 // Il2CppName: Start
 template<>

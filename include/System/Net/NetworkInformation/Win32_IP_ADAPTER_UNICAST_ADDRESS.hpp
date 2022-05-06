@@ -107,25 +107,25 @@ namespace System::Net::NetworkInformation {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Net.NetworkInformation.Win32LengthFlagsUnion LengthFlags
-    ::System::Net::NetworkInformation::Win32LengthFlagsUnion& dyn_LengthFlags();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::Win32LengthFlagsUnion& dyn_LengthFlags();
     // Get instance field reference: public System.IntPtr Next
-    ::System::IntPtr& dyn_Next();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Next();
     // Get instance field reference: public System.Net.NetworkInformation.Win32_SOCKET_ADDRESS Address
-    ::System::Net::NetworkInformation::Win32_SOCKET_ADDRESS& dyn_Address();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::Win32_SOCKET_ADDRESS& dyn_Address();
     // Get instance field reference: public System.Net.NetworkInformation.PrefixOrigin PrefixOrigin
-    ::System::Net::NetworkInformation::PrefixOrigin& dyn_PrefixOrigin();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::PrefixOrigin& dyn_PrefixOrigin();
     // Get instance field reference: public System.Net.NetworkInformation.SuffixOrigin SuffixOrigin
-    ::System::Net::NetworkInformation::SuffixOrigin& dyn_SuffixOrigin();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::SuffixOrigin& dyn_SuffixOrigin();
     // Get instance field reference: public System.Net.NetworkInformation.DuplicateAddressDetectionState DadState
-    ::System::Net::NetworkInformation::DuplicateAddressDetectionState& dyn_DadState();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::DuplicateAddressDetectionState& dyn_DadState();
     // Get instance field reference: public System.UInt32 ValidLifetime
-    uint& dyn_ValidLifetime();
+    [[deprecated("Use field access instead!")]] uint& dyn_ValidLifetime();
     // Get instance field reference: public System.UInt32 PreferredLifetime
-    uint& dyn_PreferredLifetime();
+    [[deprecated("Use field access instead!")]] uint& dyn_PreferredLifetime();
     // Get instance field reference: public System.UInt32 LeaseLifetime
-    uint& dyn_LeaseLifetime();
+    [[deprecated("Use field access instead!")]] uint& dyn_LeaseLifetime();
     // Get instance field reference: public System.Byte OnLinkPrefixLength
-    uint8_t& dyn_OnLinkPrefixLength();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_OnLinkPrefixLength();
   }; // System.Net.NetworkInformation.Win32_IP_ADAPTER_UNICAST_ADDRESS
   #pragma pack(pop)
   static check_size<sizeof(Win32_IP_ADAPTER_UNICAST_ADDRESS), 56 + sizeof(uint8_t)> __System_Net_NetworkInformation_Win32_IP_ADAPTER_UNICAST_ADDRESSSizeCheck;

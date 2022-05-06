@@ -75,15 +75,7 @@ namespace System::Net::Http {
     struct $LoadIntoBufferAsync$d__17;
     // Nested type: ::System::Net::Http::HttpContent::$ReadAsStringAsync$d__20
     struct $ReadAsStringAsync$d__20;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Net.Http.HttpContent/System.Net.Http.FixedMemoryStream buffer
     // Size: 0x8
     // Offset: 0x10
@@ -110,49 +102,56 @@ namespace System::Net::Http {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get instance field reference: private System.Net.Http.HttpContent/System.Net.Http.FixedMemoryStream buffer
-    ::System::Net::Http::HttpContent::FixedMemoryStream*& dyn_buffer();
+    [[deprecated("Use field access instead!")]] ::System::Net::Http::HttpContent::FixedMemoryStream*& dyn_buffer();
     // Get instance field reference: private System.Boolean disposed
-    bool& dyn_disposed();
+    [[deprecated("Use field access instead!")]] bool& dyn_disposed();
     // Get instance field reference: private System.Net.Http.Headers.HttpContentHeaders headers
-    ::System::Net::Http::Headers::HttpContentHeaders*& dyn_headers();
+    [[deprecated("Use field access instead!")]] ::System::Net::Http::Headers::HttpContentHeaders*& dyn_headers();
     // public System.Net.Http.Headers.HttpContentHeaders get_Headers()
-    // Offset: 0x19532F8
+    // Offset: 0x198B8E0
     ::System::Net::Http::Headers::HttpContentHeaders* get_Headers();
     // System.Nullable`1<System.Int64> get_LoadedBufferLength()
-    // Offset: 0x1957950
+    // Offset: 0x198FF38
     ::System::Nullable_1<int64_t> get_LoadedBufferLength();
+    // protected System.Void .ctor()
+    // Offset: 0x198B488
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static HttpContent* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::HttpContent::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<HttpContent*, creationType>()));
+    }
     // System.Void CopyTo(System.IO.Stream stream)
-    // Offset: 0x1966244
+    // Offset: 0x199E82C
     void CopyTo(::System::IO::Stream* stream);
     // public System.Threading.Tasks.Task CopyToAsync(System.IO.Stream stream)
-    // Offset: 0x196615C
+    // Offset: 0x199E744
     ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* stream);
     // public System.Threading.Tasks.Task CopyToAsync(System.IO.Stream stream, System.Net.TransportContext context)
-    // Offset: 0x1966268
+    // Offset: 0x199E850
     ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
     // static private System.Net.Http.HttpContent/System.Net.Http.FixedMemoryStream CreateFixedMemoryStream(System.Int64 maxBufferSize)
-    // Offset: 0x196632C
+    // Offset: 0x199E914
     static ::System::Net::Http::HttpContent::FixedMemoryStream* CreateFixedMemoryStream(int64_t maxBufferSize);
     // public System.Void Dispose()
-    // Offset: 0x19663BC
+    // Offset: 0x199E9A4
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x19663CC
+    // Offset: 0x199E9B4
     void Dispose(bool disposing);
     // public System.Threading.Tasks.Task LoadIntoBufferAsync()
-    // Offset: 0x19663F8
+    // Offset: 0x199E9E0
     ::System::Threading::Tasks::Task* LoadIntoBufferAsync();
     // public System.Threading.Tasks.Task LoadIntoBufferAsync(System.Int64 maxBufferSize)
-    // Offset: 0x1963FFC
+    // Offset: 0x199C5E4
     ::System::Threading::Tasks::Task* LoadIntoBufferAsync(int64_t maxBufferSize);
     // public System.Threading.Tasks.Task`1<System.String> ReadAsStringAsync()
-    // Offset: 0x196398C
+    // Offset: 0x199BF74
     ::System::Threading::Tasks::Task_1<::StringW>* ReadAsStringAsync();
     // static private System.Text.Encoding GetEncodingFromBuffer(System.Byte[] buffer, System.Int32 length, ref System.Int32 preambleLength)
-    // Offset: 0x1966400
+    // Offset: 0x199E9E8
     static ::System::Text::Encoding* GetEncodingFromBuffer(::ArrayW<uint8_t> buffer, int length, ByRef<int> preambleLength);
     // static private System.Int32 StartsWith(System.Byte[] array, System.Int32 length, System.Byte[] value)
-    // Offset: 0x1966590
+    // Offset: 0x199EB78
     static int StartsWith(::ArrayW<uint8_t> array, int length, ::ArrayW<uint8_t> value);
     // protected internal System.Threading.Tasks.Task SerializeToStreamAsync(System.IO.Stream stream, System.Net.TransportContext context)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -160,15 +159,6 @@ namespace System::Net::Http {
     // protected internal System.Boolean TryComputeLength(out System.Int64 length)
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool TryComputeLength(ByRef<int64_t> length);
-    // protected System.Void .ctor()
-    // Offset: 0x1952EA0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HttpContent* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::HttpContent::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<HttpContent*, creationType>()));
-    }
   }; // System.Net.Http.HttpContent
   #pragma pack(pop)
   static check_size<sizeof(HttpContent), 32 + sizeof(::System::Net::Http::Headers::HttpContentHeaders*)> __System_Net_Http_HttpContentSizeCheck;
@@ -191,6 +181,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::N
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpContent*), "get_LoadedBufferLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Net::Http::HttpContent::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::HttpContent::CopyTo
 // Il2CppName: CopyTo
 template<>
@@ -311,7 +305,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpContent*), "TryComputeLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{length});
   }
 };
-// Writing MetadataGetter for method: System::Net::Http::HttpContent::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

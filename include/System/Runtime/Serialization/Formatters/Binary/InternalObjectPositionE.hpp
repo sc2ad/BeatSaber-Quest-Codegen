@@ -66,7 +66,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static public System.Runtime.Serialization.Formatters.Binary.InternalObjectPositionE Headers
     static void _set_Headers(::System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Runtime.Serialization.Formatters.Binary.InternalObjectPositionE
   #pragma pack(pop)
   static check_size<sizeof(InternalObjectPositionE), 0 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_InternalObjectPositionESizeCheck;

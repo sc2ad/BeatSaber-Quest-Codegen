@@ -60,7 +60,7 @@ namespace System::Xml {
     // Set static field: static public System.Xml.NewLineHandling None
     static void _set_None(::System::Xml::NewLineHandling value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Xml.NewLineHandling
   #pragma pack(pop)
   static check_size<sizeof(NewLineHandling), 0 + sizeof(int)> __System_Xml_NewLineHandlingSizeCheck;

@@ -49,11 +49,11 @@ namespace System::Xml::Schema {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 symbol
-    int& dyn_symbol();
+    [[deprecated("Use field access instead!")]] int& dyn_symbol();
     // Get instance field reference: public System.Object particle
-    ::Il2CppObject*& dyn_particle();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_particle();
     // public System.Void .ctor(System.Int32 symbol, System.Object particle)
-    // Offset: 0x1C28788
+    // Offset: 0x1C62D70
     // ABORTED: conflicts with another method.  Position(int symbol, ::Il2CppObject* particle);
   }; // System.Xml.Schema.Position
   #pragma pack(pop)

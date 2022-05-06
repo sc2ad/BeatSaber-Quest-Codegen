@@ -43,14 +43,14 @@ namespace UnityEngine::ResourceManagement::Util {
   struct ObjectInitializationData/*, public ::System::ValueType*/ {
     public:
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0x123DF40
+    // [FormerlySerializedAsAttribute] Offset: 0x10C2A18
     // private System.String m_Id
     // Size: 0x8
     // Offset: 0x0
     ::StringW m_Id;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x123DF8C
+    // [FormerlySerializedAsAttribute] Offset: 0x10C2A64
     // private UnityEngine.ResourceManagement.Util.SerializedType m_ObjectType
     // Size: 0x19
     // Offset: 0x8
@@ -59,7 +59,7 @@ namespace UnityEngine::ResourceManagement::Util {
     static_assert(sizeof(::UnityEngine::ResourceManagement::Util::SerializedType) == 0x19);
     // Padding between fields: m_ObjectType and: m_Data
     char __padding1[0x7] = {};
-    // [FormerlySerializedAsAttribute] Offset: 0x123DFD8
+    // [FormerlySerializedAsAttribute] Offset: 0x10C2AB0
     // private System.String m_Data
     // Size: 0x8
     // Offset: 0x28
@@ -74,19 +74,19 @@ namespace UnityEngine::ResourceManagement::Util {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private System.String m_Id
-    ::StringW& dyn_m_Id();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_Id();
     // Get instance field reference: private UnityEngine.ResourceManagement.Util.SerializedType m_ObjectType
-    ::UnityEngine::ResourceManagement::Util::SerializedType& dyn_m_ObjectType();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::Util::SerializedType& dyn_m_ObjectType();
     // Get instance field reference: private System.String m_Data
-    ::StringW& dyn_m_Data();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_Data();
     // public System.String get_Id()
-    // Offset: 0x1EA3770
+    // Offset: 0x1EF1CA8
     ::StringW get_Id();
     // public UnityEngine.ResourceManagement.Util.SerializedType get_ObjectType()
-    // Offset: 0x1EA3778
+    // Offset: 0x1EF1CB0
     ::UnityEngine::ResourceManagement::Util::SerializedType get_ObjectType();
     // public System.String get_Data()
-    // Offset: 0x1EA3788
+    // Offset: 0x1EF1CC0
     ::StringW get_Data();
     // public TObject CreateInstance(System.String idOverride)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -98,10 +98,10 @@ namespace UnityEngine::ResourceManagement::Util {
       return ::il2cpp_utils::RunMethodRethrow<TObject, false>(this, ___generic__method, idOverride);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle GetAsyncInitHandle(UnityEngine.ResourceManagement.ResourceManager rm, System.String idOverride)
-    // Offset: 0x1EA381C
+    // Offset: 0x1EF1D54
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle GetAsyncInitHandle(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW idOverride);
     // public override System.String ToString()
-    // Offset: 0x1EA3790
+    // Offset: 0x1EF1CC8
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

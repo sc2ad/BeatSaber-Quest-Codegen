@@ -182,53 +182,53 @@ namespace System::Net::NetworkInformation {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Char[] Name
-    ::ArrayW<::Il2CppChar>& dyn_Name();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppChar>& dyn_Name();
     // Get instance field reference: public System.Int32 Index
-    int& dyn_Index();
+    [[deprecated("Use field access instead!")]] int& dyn_Index();
     // Get instance field reference: public System.Net.NetworkInformation.NetworkInterfaceType Type
-    ::System::Net::NetworkInformation::NetworkInterfaceType& dyn_Type();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::NetworkInterfaceType& dyn_Type();
     // Get instance field reference: public System.Int32 Mtu
-    int& dyn_Mtu();
+    [[deprecated("Use field access instead!")]] int& dyn_Mtu();
     // Get instance field reference: public System.UInt32 Speed
-    uint& dyn_Speed();
+    [[deprecated("Use field access instead!")]] uint& dyn_Speed();
     // Get instance field reference: public System.Int32 PhysAddrLen
-    int& dyn_PhysAddrLen();
+    [[deprecated("Use field access instead!")]] int& dyn_PhysAddrLen();
     // Get instance field reference: public System.Byte[] PhysAddr
-    ::ArrayW<uint8_t>& dyn_PhysAddr();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_PhysAddr();
     // Get instance field reference: public System.UInt32 AdminStatus
-    uint& dyn_AdminStatus();
+    [[deprecated("Use field access instead!")]] uint& dyn_AdminStatus();
     // Get instance field reference: public System.UInt32 OperStatus
-    uint& dyn_OperStatus();
+    [[deprecated("Use field access instead!")]] uint& dyn_OperStatus();
     // Get instance field reference: public System.UInt32 LastChange
-    uint& dyn_LastChange();
+    [[deprecated("Use field access instead!")]] uint& dyn_LastChange();
     // Get instance field reference: public System.Int32 InOctets
-    int& dyn_InOctets();
+    [[deprecated("Use field access instead!")]] int& dyn_InOctets();
     // Get instance field reference: public System.Int32 InUcastPkts
-    int& dyn_InUcastPkts();
+    [[deprecated("Use field access instead!")]] int& dyn_InUcastPkts();
     // Get instance field reference: public System.Int32 InNUcastPkts
-    int& dyn_InNUcastPkts();
+    [[deprecated("Use field access instead!")]] int& dyn_InNUcastPkts();
     // Get instance field reference: public System.Int32 InDiscards
-    int& dyn_InDiscards();
+    [[deprecated("Use field access instead!")]] int& dyn_InDiscards();
     // Get instance field reference: public System.Int32 InErrors
-    int& dyn_InErrors();
+    [[deprecated("Use field access instead!")]] int& dyn_InErrors();
     // Get instance field reference: public System.Int32 InUnknownProtos
-    int& dyn_InUnknownProtos();
+    [[deprecated("Use field access instead!")]] int& dyn_InUnknownProtos();
     // Get instance field reference: public System.Int32 OutOctets
-    int& dyn_OutOctets();
+    [[deprecated("Use field access instead!")]] int& dyn_OutOctets();
     // Get instance field reference: public System.Int32 OutUcastPkts
-    int& dyn_OutUcastPkts();
+    [[deprecated("Use field access instead!")]] int& dyn_OutUcastPkts();
     // Get instance field reference: public System.Int32 OutNUcastPkts
-    int& dyn_OutNUcastPkts();
+    [[deprecated("Use field access instead!")]] int& dyn_OutNUcastPkts();
     // Get instance field reference: public System.Int32 OutDiscards
-    int& dyn_OutDiscards();
+    [[deprecated("Use field access instead!")]] int& dyn_OutDiscards();
     // Get instance field reference: public System.Int32 OutErrors
-    int& dyn_OutErrors();
+    [[deprecated("Use field access instead!")]] int& dyn_OutErrors();
     // Get instance field reference: public System.Int32 OutQLen
-    int& dyn_OutQLen();
+    [[deprecated("Use field access instead!")]] int& dyn_OutQLen();
     // Get instance field reference: public System.Int32 DescrLen
-    int& dyn_DescrLen();
+    [[deprecated("Use field access instead!")]] int& dyn_DescrLen();
     // Get instance field reference: public System.Byte[] Descr
-    ::ArrayW<uint8_t>& dyn_Descr();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_Descr();
   }; // System.Net.NetworkInformation.Win32_MIB_IFROW
   #pragma pack(pop)
   static check_size<sizeof(Win32_MIB_IFROW), 104 + sizeof(::ArrayW<uint8_t>)> __System_Net_NetworkInformation_Win32_MIB_IFROWSizeCheck;

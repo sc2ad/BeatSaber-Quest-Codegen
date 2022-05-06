@@ -51,15 +51,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::BitMaskSparse::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Int32 <bitCount>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -84,36 +76,36 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskSparse*>*>(this);
     }
     // Get instance field reference: private readonly System.Int32 <bitCount>k__BackingField
-    int& dyn_$bitCount$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$bitCount$k__BackingField();
     // Get instance field reference: private readonly System.Collections.Generic.SortedSet`1<System.UInt32> _sparseSet
-    ::System::Collections::Generic::SortedSet_1<uint>*& dyn__sparseSet();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::SortedSet_1<uint>*& dyn__sparseSet();
     // public System.Int32 get_bitCount()
-    // Offset: 0x29BD760
+    // Offset: 0x29FFAD4
     int get_bitCount();
     // public System.Void .ctor(System.Int32 bitCount)
-    // Offset: 0x29BBE34
+    // Offset: 0x29FE1A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BitMaskSparse* New_ctor(int bitCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BitMaskSparse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitMaskSparse*, creationType>(bitCount)));
     }
     // public System.Boolean Equals(BitMaskSparse other)
-    // Offset: 0x29BD768
+    // Offset: 0x29FFADC
     bool Equals(::GlobalNamespace::BitMaskSparse* other);
     // public BitMaskSparse SetBits(System.Int32 offset, System.UInt64 bits)
-    // Offset: 0x29BD7E8
+    // Offset: 0x29FFB5C
     ::GlobalNamespace::BitMaskSparse* SetBits(int offset, uint64_t bits);
     // public System.UInt64 GetBits(System.Int32 offset, System.Int32 count)
-    // Offset: 0x29BD880
+    // Offset: 0x29FFBF4
     uint64_t GetBits(int offset, int count);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x29BC16C
+    // Offset: 0x29FE4E0
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29BC2D0
+    // Offset: 0x29FE644
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.String ToString()
-    // Offset: 0x29BD91C
+    // Offset: 0x29FFC90
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

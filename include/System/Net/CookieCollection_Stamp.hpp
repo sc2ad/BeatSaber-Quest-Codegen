@@ -63,7 +63,7 @@ namespace System::Net {
     // Set static field: static public System.Net.CookieCollection/System.Net.Stamp SetToMaxUsed
     static void _set_SetToMaxUsed(::System::Net::CookieCollection::Stamp value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Net.CookieCollection/System.Net.Stamp
   #pragma pack(pop)
   static check_size<sizeof(CookieCollection::Stamp), 0 + sizeof(int)> __System_Net_CookieCollection_StampSizeCheck;

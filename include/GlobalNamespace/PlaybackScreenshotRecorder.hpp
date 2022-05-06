@@ -43,15 +43,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlaybackScreenshotRecorder : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _directory
     // Size: 0x8
     // Offset: 0x18
@@ -74,45 +66,39 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _directory
-    ::StringW& dyn__directory();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__directory();
     // Get instance field reference: private PlaybackRenderer _playbackRenderer
-    ::GlobalNamespace::PlaybackRenderer*& dyn__playbackRenderer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlaybackRenderer*& dyn__playbackRenderer();
     // Get instance field reference: private System.Int32 _frameNumber
-    int& dyn__frameNumber();
+    [[deprecated("Use field access instead!")]] int& dyn__frameNumber();
     // public System.String get_directory()
-    // Offset: 0x12F5AC8
+    // Offset: 0x1366BD0
     ::StringW get_directory();
-    // protected System.Void OnEnable()
-    // Offset: 0x12F5AD0
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x12F5B58
-    void OnDisable();
-    // public System.Void Init(System.String directory, System.Int32 framerate, PlaybackRenderer playbackRenderer)
-    // Offset: 0x12F5BE0
-    void Init(::StringW directory, int framerate, ::GlobalNamespace::PlaybackRenderer* playbackRenderer);
-    // private System.Void HandleTexturesReady()
-    // Offset: 0x12F5CEC
-    void HandleTexturesReady();
-    // private System.Void SaveScreenshot(UnityEngine.RenderTexture renderTexture, System.String directory)
-    // Offset: 0x12F5D7C
-    void SaveScreenshot(::UnityEngine::RenderTexture* renderTexture, ::StringW directory);
-    // static private UnityEngine.Texture2D ConvertRenderTexture(UnityEngine.RenderTexture renderTexture)
-    // Offset: 0x12F5E9C
-    static ::UnityEngine::Texture2D* ConvertRenderTexture(::UnityEngine::RenderTexture* renderTexture);
     // public System.Void .ctor()
-    // Offset: 0x12F5FC0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13670C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlaybackScreenshotRecorder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlaybackScreenshotRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlaybackScreenshotRecorder*, creationType>()));
     }
+    // protected System.Void OnEnable()
+    // Offset: 0x1366BD8
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x1366C60
+    void OnDisable();
+    // public System.Void Init(System.String directory, System.Int32 framerate, PlaybackRenderer playbackRenderer)
+    // Offset: 0x1366CE8
+    void Init(::StringW directory, int framerate, ::GlobalNamespace::PlaybackRenderer* playbackRenderer);
+    // private System.Void HandleTexturesReady()
+    // Offset: 0x1366DF4
+    void HandleTexturesReady();
+    // private System.Void SaveScreenshot(UnityEngine.RenderTexture renderTexture, System.String directory)
+    // Offset: 0x1366E84
+    void SaveScreenshot(::UnityEngine::RenderTexture* renderTexture, ::StringW directory);
+    // static private UnityEngine.Texture2D ConvertRenderTexture(UnityEngine.RenderTexture renderTexture)
+    // Offset: 0x1366FA4
+    static ::UnityEngine::Texture2D* ConvertRenderTexture(::UnityEngine::RenderTexture* renderTexture);
   }; // PlaybackScreenshotRecorder
   #pragma pack(pop)
   static check_size<sizeof(PlaybackScreenshotRecorder), 40 + sizeof(int)> __GlobalNamespace_PlaybackScreenshotRecorderSizeCheck;
@@ -127,6 +113,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlaybackScreenshotRecorder*), "get_directory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PlaybackScreenshotRecorder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PlaybackScreenshotRecorder::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -181,7 +171,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlaybackScreenshotRecorder*), "ConvertRenderTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{renderTexture});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PlaybackScreenshotRecorder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

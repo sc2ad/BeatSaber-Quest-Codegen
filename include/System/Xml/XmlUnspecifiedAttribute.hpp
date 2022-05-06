@@ -37,15 +37,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlUnspecifiedAttribute : public ::System::Xml::XmlAttribute {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean fSpecified
     // Size: 0x1
     // Offset: 0x28
@@ -54,22 +46,22 @@ namespace System::Xml {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Boolean fSpecified
-    bool& dyn_fSpecified();
+    [[deprecated("Use field access instead!")]] bool& dyn_fSpecified();
     // System.Void SetSpecified(System.Boolean f)
-    // Offset: 0x26BC718
+    // Offset: 0x270BC28
     void SetSpecified(bool f);
     // public override System.Boolean get_Specified()
-    // Offset: 0x26BC554
+    // Offset: 0x270BA64
     // Implemented from: System.Xml.XmlAttribute
     // Base method: System.Boolean XmlAttribute::get_Specified()
     bool get_Specified();
     // public override System.Void set_InnerText(System.String value)
-    // Offset: 0x26BC694
+    // Offset: 0x270BBA4
     // Implemented from: System.Xml.XmlAttribute
     // Base method: System.Void XmlAttribute::set_InnerText(System.String value)
     void set_InnerText(::StringW value);
     // protected internal System.Void .ctor(System.String prefix, System.String localName, System.String namespaceURI, System.Xml.XmlDocument doc)
-    // Offset: 0x26BC54C
+    // Offset: 0x270BA5C
     // Implemented from: System.Xml.XmlAttribute
     // Base method: System.Void XmlAttribute::.ctor(System.String prefix, System.String localName, System.String namespaceURI, System.Xml.XmlDocument doc)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -78,17 +70,17 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<XmlUnspecifiedAttribute*, creationType>(prefix, localName, namespaceURI, doc)));
     }
     // public override System.Xml.XmlNode CloneNode(System.Boolean deep)
-    // Offset: 0x26BC55C
+    // Offset: 0x270BA6C
     // Implemented from: System.Xml.XmlAttribute
     // Base method: System.Xml.XmlNode XmlAttribute::CloneNode(System.Boolean deep)
     ::System::Xml::XmlNode* CloneNode(bool deep);
     // public override System.Xml.XmlNode RemoveChild(System.Xml.XmlNode oldChild)
-    // Offset: 0x26BC6C0
+    // Offset: 0x270BBD0
     // Implemented from: System.Xml.XmlAttribute
     // Base method: System.Xml.XmlNode XmlAttribute::RemoveChild(System.Xml.XmlNode oldChild)
     ::System::Xml::XmlNode* RemoveChild(::System::Xml::XmlNode* oldChild);
     // public override System.Xml.XmlNode AppendChild(System.Xml.XmlNode newChild)
-    // Offset: 0x26BC6EC
+    // Offset: 0x270BBFC
     // Implemented from: System.Xml.XmlAttribute
     // Base method: System.Xml.XmlNode XmlAttribute::AppendChild(System.Xml.XmlNode newChild)
     ::System::Xml::XmlNode* AppendChild(::System::Xml::XmlNode* newChild);

@@ -107,20 +107,12 @@ namespace GlobalNamespace {
       // Set static field: static public MultiplayerModeSelectionViewController/MenuButton GameBrowser
       static void _set_GameBrowser(::GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // MultiplayerModeSelectionViewController/MenuButton
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerModeSelectionViewController::MenuButton), 0 + sizeof(int)> __GlobalNamespace_MultiplayerModeSelectionViewController_MenuButtonSizeCheck;
     static_assert(sizeof(MultiplayerModeSelectionViewController::MenuButton) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Button _quickPlayButton
     // Size: 0x8
     // Offset: 0x70
@@ -145,7 +137,7 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Button* createServerButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125C9CC
+    // [SpaceAttribute] Offset: 0x10E15B0
     // private TMPro.TextMeshProUGUI _maintenanceMessageText
     // Size: 0x8
     // Offset: 0x90
@@ -158,7 +150,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* customServerEndPointText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0x125CA14
+    // [InjectAttribute] Offset: 0x10E15F8
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
     // Offset: 0xA0
@@ -173,61 +165,54 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.UI.Button _quickPlayButton
-    ::UnityEngine::UI::Button*& dyn__quickPlayButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__quickPlayButton();
     // Get instance field reference: private UnityEngine.UI.Button _gameBrowserButton
-    ::UnityEngine::UI::Button*& dyn__gameBrowserButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__gameBrowserButton();
     // Get instance field reference: private UnityEngine.UI.Button _joinWithCodeButton
-    ::UnityEngine::UI::Button*& dyn__joinWithCodeButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__joinWithCodeButton();
     // Get instance field reference: private UnityEngine.UI.Button _createServerButton
-    ::UnityEngine::UI::Button*& dyn__createServerButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__createServerButton();
     // Get instance field reference: private TMPro.TextMeshProUGUI _maintenanceMessageText
-    ::TMPro::TextMeshProUGUI*& dyn__maintenanceMessageText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__maintenanceMessageText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _customServerEndPointText
-    ::TMPro::TextMeshProUGUI*& dyn__customServerEndPointText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__customServerEndPointText();
     // Get instance field reference: private readonly INetworkConfig _networkConfig
-    ::GlobalNamespace::INetworkConfig*& dyn__networkConfig();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::INetworkConfig*& dyn__networkConfig();
     // Get instance field reference: private System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> didFinishEvent
-    ::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> value)
-    // Offset: 0x139AB70
+    // Offset: 0x139701C
     void add_didFinishEvent(::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> value)
-    // Offset: 0x139B028
+    // Offset: 0x13974D4
     void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>* value);
-    // public System.Void SetData(MultiplayerStatusData multiplayerStatusData)
-    // Offset: 0x139E5F4
-    void SetData(::GlobalNamespace::MultiplayerStatusData* multiplayerStatusData);
-    // private System.Void HandleMenuButton(MultiplayerModeSelectionViewController/MenuButton menuButton)
-    // Offset: 0x139EADC
-    void HandleMenuButton(::GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton menuButton);
-    // private System.Void <DidActivate>b__11_0()
-    // Offset: 0x139EB5C
-    void $DidActivate$b__11_0();
-    // private System.Void <DidActivate>b__11_1()
-    // Offset: 0x139EB64
-    void $DidActivate$b__11_1();
-    // private System.Void <DidActivate>b__11_2()
-    // Offset: 0x139EB6C
-    void $DidActivate$b__11_2();
-    // private System.Void <DidActivate>b__11_3()
-    // Offset: 0x139EB74
-    void $DidActivate$b__11_3();
     // public System.Void .ctor()
-    // Offset: 0x139EB54
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x139B000
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerModeSelectionViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerModeSelectionViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerModeSelectionViewController*, creationType>()));
     }
+    // public System.Void SetData(MultiplayerStatusData multiplayerStatusData)
+    // Offset: 0x139AAA0
+    void SetData(::GlobalNamespace::MultiplayerStatusData* multiplayerStatusData);
+    // private System.Void HandleMenuButton(MultiplayerModeSelectionViewController/MenuButton menuButton)
+    // Offset: 0x139AF88
+    void HandleMenuButton(::GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton menuButton);
+    // private System.Void <DidActivate>b__11_0()
+    // Offset: 0x139B008
+    void $DidActivate$b__11_0();
+    // private System.Void <DidActivate>b__11_1()
+    // Offset: 0x139B010
+    void $DidActivate$b__11_1();
+    // private System.Void <DidActivate>b__11_2()
+    // Offset: 0x139B018
+    void $DidActivate$b__11_2();
+    // private System.Void <DidActivate>b__11_3()
+    // Offset: 0x139B020
+    void $DidActivate$b__11_3();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x139E844
+    // Offset: 0x139ACF0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -257,6 +242,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerModeSelectionViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionViewController::SetData
 // Il2CppName: SetData
 template<>
@@ -307,10 +296,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerModeSelectionViewController*), "<DidActivate>b__11_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

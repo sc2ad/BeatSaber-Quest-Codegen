@@ -36,15 +36,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo
     class MusicPackPromoInfo;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _defaultMusicPackPromoIndex
     // Size: 0x4
     // Offset: 0x18
@@ -75,31 +67,27 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _defaultMusicPackPromoIndex
-    int& dyn__defaultMusicPackPromoIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__defaultMusicPackPromoIndex();
     // Get instance field reference: private DlcPromoPanelDataSO/MusicPackPromoInfo[] _musicPackPromoInfos
-    ::ArrayW<::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*>& dyn__musicPackPromoInfos();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*>& dyn__musicPackPromoInfos();
     // Get instance field reference: private System.Int32 _cutOffTest
-    int& dyn__cutOffTest();
+    [[deprecated("Use field access instead!")]] int& dyn__cutOffTest();
     // Get instance field reference: private System.Int32 _minNumberOfNotOwnedPacks
-    int& dyn__minNumberOfNotOwnedPacks();
+    [[deprecated("Use field access instead!")]] int& dyn__minNumberOfNotOwnedPacks();
     // public System.Int32 get_cutOffTest()
-    // Offset: 0x140FED0
+    // Offset: 0x142FC7C
     int get_cutOffTest();
     // public System.Int32 get_minNumberOfNotOwnedPacks()
-    // Offset: 0x140FED8
+    // Offset: 0x142FC84
     int get_minNumberOfNotOwnedPacks();
     // public DlcPromoPanelDataSO/MusicPackPromoInfo[] get_musicPackPromoInfos()
-    // Offset: 0x140FEE0
+    // Offset: 0x142FC8C
     ::ArrayW<::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*> get_musicPackPromoInfos();
     // public DlcPromoPanelDataSO/MusicPackPromoInfo get_defaultMusicPackPromo()
-    // Offset: 0x140FEE8
+    // Offset: 0x142FC94
     ::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo* get_defaultMusicPackPromo();
     // public System.Void .ctor()
-    // Offset: 0x140FF28
-    // Implemented from: UnityEngine.ScriptableObject
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x142FCD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DlcPromoPanelDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DlcPromoPanelDataSO::.ctor");

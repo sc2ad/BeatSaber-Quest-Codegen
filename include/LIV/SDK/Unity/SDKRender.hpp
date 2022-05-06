@@ -73,15 +73,7 @@ namespace LIV::SDK::Unity {
   // [TokenAttribute] Offset: FFFFFFFF
   class SDKRender : public ::Il2CppObject/*, public ::System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Rendering.CommandBuffer _clipPlaneCommandBuffer
     // Size: 0x8
     // Offset: 0x10
@@ -252,206 +244,209 @@ namespace LIV::SDK::Unity {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get instance field reference: private UnityEngine.Rendering.CommandBuffer _clipPlaneCommandBuffer
-    ::UnityEngine::Rendering::CommandBuffer*& dyn__clipPlaneCommandBuffer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rendering::CommandBuffer*& dyn__clipPlaneCommandBuffer();
     // Get instance field reference: private UnityEngine.Rendering.CommandBuffer _combineAlphaCommandBuffer
-    ::UnityEngine::Rendering::CommandBuffer*& dyn__combineAlphaCommandBuffer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rendering::CommandBuffer*& dyn__combineAlphaCommandBuffer();
     // Get instance field reference: private UnityEngine.Rendering.CommandBuffer _captureTextureCommandBuffer
-    ::UnityEngine::Rendering::CommandBuffer*& dyn__captureTextureCommandBuffer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rendering::CommandBuffer*& dyn__captureTextureCommandBuffer();
     // Get instance field reference: private UnityEngine.Rendering.CommandBuffer _applyTextureCommandBuffer
-    ::UnityEngine::Rendering::CommandBuffer*& dyn__applyTextureCommandBuffer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rendering::CommandBuffer*& dyn__applyTextureCommandBuffer();
     // Get instance field reference: private UnityEngine.Rendering.CommandBuffer _optimizedRenderingCommandBuffer
-    ::UnityEngine::Rendering::CommandBuffer*& dyn__optimizedRenderingCommandBuffer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rendering::CommandBuffer*& dyn__optimizedRenderingCommandBuffer();
     // Get instance field reference: private UnityEngine.Rendering.CameraEvent _clipPlaneCameraEvent
-    ::UnityEngine::Rendering::CameraEvent& dyn__clipPlaneCameraEvent();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rendering::CameraEvent& dyn__clipPlaneCameraEvent();
     // Get instance field reference: private UnityEngine.Rendering.CameraEvent _optimizedRenderingCameraEvent
-    ::UnityEngine::Rendering::CameraEvent& dyn__optimizedRenderingCameraEvent();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rendering::CameraEvent& dyn__optimizedRenderingCameraEvent();
     // Get instance field reference: private UnityEngine.Mesh _clipPlaneMesh
-    ::UnityEngine::Mesh*& dyn__clipPlaneMesh();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Mesh*& dyn__clipPlaneMesh();
     // Get instance field reference: private UnityEngine.Material _clipPlaneSimpleMaterial
-    ::UnityEngine::Material*& dyn__clipPlaneSimpleMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__clipPlaneSimpleMaterial();
     // Get instance field reference: private UnityEngine.Material _clipPlaneSimpleDebugMaterial
-    ::UnityEngine::Material*& dyn__clipPlaneSimpleDebugMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__clipPlaneSimpleDebugMaterial();
     // Get instance field reference: private UnityEngine.Material _clipPlaneComplexMaterial
-    ::UnityEngine::Material*& dyn__clipPlaneComplexMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__clipPlaneComplexMaterial();
     // Get instance field reference: private UnityEngine.Material _clipPlaneComplexDebugMaterial
-    ::UnityEngine::Material*& dyn__clipPlaneComplexDebugMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__clipPlaneComplexDebugMaterial();
     // Get instance field reference: private UnityEngine.Material _writeOpaqueToAlphaMaterial
-    ::UnityEngine::Material*& dyn__writeOpaqueToAlphaMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__writeOpaqueToAlphaMaterial();
     // Get instance field reference: private UnityEngine.Material _combineAlphaMaterial
-    ::UnityEngine::Material*& dyn__combineAlphaMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__combineAlphaMaterial();
     // Get instance field reference: private UnityEngine.Material _writeMaterial
-    ::UnityEngine::Material*& dyn__writeMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__writeMaterial();
     // Get instance field reference: private UnityEngine.Material _forceForwardRenderingMaterial
-    ::UnityEngine::Material*& dyn__forceForwardRenderingMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__forceForwardRenderingMaterial();
     // Get instance field reference: private UnityEngine.RenderTexture _backgroundRenderTexture
-    ::UnityEngine::RenderTexture*& dyn__backgroundRenderTexture();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RenderTexture*& dyn__backgroundRenderTexture();
     // Get instance field reference: private UnityEngine.RenderTexture _foregroundRenderTexture
-    ::UnityEngine::RenderTexture*& dyn__foregroundRenderTexture();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RenderTexture*& dyn__foregroundRenderTexture();
     // Get instance field reference: private UnityEngine.RenderTexture _optimizedRenderTexture
-    ::UnityEngine::RenderTexture*& dyn__optimizedRenderTexture();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RenderTexture*& dyn__optimizedRenderTexture();
     // Get instance field reference: private UnityEngine.RenderTexture _complexClipPlaneRenderTexture
-    ::UnityEngine::RenderTexture*& dyn__complexClipPlaneRenderTexture();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RenderTexture*& dyn__complexClipPlaneRenderTexture();
     // Get instance field reference: private LIV.SDK.Unity.LIV _liv
-    ::LIV::SDK::Unity::LIV*& dyn__liv();
+    [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::LIV*& dyn__liv();
     // Get instance field reference: private LIV.SDK.Unity.SDKOutputFrame _outputFrame
-    ::LIV::SDK::Unity::SDKOutputFrame& dyn__outputFrame();
+    [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKOutputFrame& dyn__outputFrame();
     // Get instance field reference: private LIV.SDK.Unity.SDKInputFrame _inputFrame
-    ::LIV::SDK::Unity::SDKInputFrame& dyn__inputFrame();
+    [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKInputFrame& dyn__inputFrame();
     // Get instance field reference: private LIV.SDK.Unity.SDKResolution _resolution
-    ::LIV::SDK::Unity::SDKResolution& dyn__resolution();
+    [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKResolution& dyn__resolution();
     // Get instance field reference: private UnityEngine.Camera _cameraInstance
-    ::UnityEngine::Camera*& dyn__cameraInstance();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Camera*& dyn__cameraInstance();
     // Get instance field reference: private LIV.SDK.Unity.SDKPose _requestedPose
-    ::LIV::SDK::Unity::SDKPose& dyn__requestedPose();
+    [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKPose& dyn__requestedPose();
     // Get instance field reference: private System.Int32 _requestedPoseFrameIndex
-    int& dyn__requestedPoseFrameIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__requestedPoseFrameIndex();
     // private System.Boolean get_useDeferredRendering()
-    // Offset: 0x29FD8DC
+    // Offset: 0x2A5434C
     bool get_useDeferredRendering();
     // private System.Boolean get_interlacedRendering()
-    // Offset: 0x29FD934
+    // Offset: 0x2A543A4
     bool get_interlacedRendering();
     // private System.Boolean get_canRenderBackground()
-    // Offset: 0x29FD94C
+    // Offset: 0x2A543BC
     bool get_canRenderBackground();
     // private System.Boolean get_canRenderForeground()
-    // Offset: 0x29FD9E8
+    // Offset: 0x2A54458
     bool get_canRenderForeground();
     // private System.Boolean get_canRenderOptimized()
-    // Offset: 0x29FDA98
+    // Offset: 0x2A54508
     bool get_canRenderOptimized();
     // public LIV.SDK.Unity.LIV get_liv()
-    // Offset: 0x2A00B28
+    // Offset: 0x2A57630
     ::LIV::SDK::Unity::LIV* get_liv();
     // public LIV.SDK.Unity.SDKOutputFrame get_outputFrame()
-    // Offset: 0x2A00B30
+    // Offset: 0x2A57638
     ::LIV::SDK::Unity::SDKOutputFrame get_outputFrame();
     // public LIV.SDK.Unity.SDKInputFrame get_inputFrame()
-    // Offset: 0x2A00B40
+    // Offset: 0x2A57648
     ::LIV::SDK::Unity::SDKInputFrame get_inputFrame();
     // public LIV.SDK.Unity.SDKResolution get_resolution()
-    // Offset: 0x2A00B50
+    // Offset: 0x2A57658
     ::LIV::SDK::Unity::SDKResolution get_resolution();
     // public UnityEngine.Camera get_cameraInstance()
-    // Offset: 0x2A00B58
+    // Offset: 0x2A57660
     ::UnityEngine::Camera* get_cameraInstance();
     // public UnityEngine.Camera get_cameraReference()
-    // Offset: 0x29FFF50
+    // Offset: 0x2A56A58
     ::UnityEngine::Camera* get_cameraReference();
     // public UnityEngine.Camera get_hmdCamera()
-    // Offset: 0x2A00B60
+    // Offset: 0x2A57668
     ::UnityEngine::Camera* get_hmdCamera();
     // public UnityEngine.Transform get_stage()
-    // Offset: 0x2A00B7C
+    // Offset: 0x2A57684
     ::UnityEngine::Transform* get_stage();
     // public UnityEngine.Transform get_stageTransform()
-    // Offset: 0x2A00B94
+    // Offset: 0x2A5769C
     ::UnityEngine::Transform* get_stageTransform();
     // public UnityEngine.Matrix4x4 get_stageLocalToWorldMatrix()
-    // Offset: 0x2A00BB0
+    // Offset: 0x2A576B8
     ::UnityEngine::Matrix4x4 get_stageLocalToWorldMatrix();
     // public UnityEngine.Matrix4x4 get_localToWorldMatrix()
-    // Offset: 0x29FF568
+    // Offset: 0x2A54DA0
     ::UnityEngine::Matrix4x4 get_localToWorldMatrix();
     // public System.Int32 get_spectatorLayerMask()
-    // Offset: 0x29FF628
+    // Offset: 0x2A54E60
     int get_spectatorLayerMask();
     // public System.Boolean get_disableStandardAssets()
-    // Offset: 0x29FFBB8
+    // Offset: 0x2A566C0
     bool get_disableStandardAssets();
     // public System.Boolean get_canSetPose()
-    // Offset: 0x2A00C98
+    // Offset: 0x2A577A0
     bool get_canSetPose();
     // public System.Void .ctor(LIV.SDK.Unity.LIV liv)
-    // Offset: 0x29F9F74
+    // Offset: 0x2A509E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SDKRender* New_ctor(::LIV::SDK::Unity::LIV* liv) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LIV::SDK::Unity::SDKRender::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SDKRender*, creationType>(liv)));
     }
     // private UnityEngine.Material GetClipPlaneMaterial(System.Boolean debugClipPlane, System.Boolean complexClipPlane, UnityEngine.Rendering.ColorWriteMask colorWriteMask)
-    // Offset: 0x29FD704
+    // Offset: 0x2A54174
     ::UnityEngine::Material* GetClipPlaneMaterial(bool debugClipPlane, bool complexClipPlane, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask);
     // private UnityEngine.Material GetGroundClipPlaneMaterial(System.Boolean debugClipPlane, UnityEngine.Rendering.ColorWriteMask colorWriteMask)
-    // Offset: 0x29FD830
+    // Offset: 0x2A542A0
     ::UnityEngine::Material* GetGroundClipPlaneMaterial(bool debugClipPlane, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask);
+    // public System.Void UpdateCameraSettings()
+    // Offset: 0x2A54B80
+    void UpdateCameraSettings();
     // public System.Void Render()
-    // Offset: 0x29FA588
+    // Offset: 0x2A50FF8
     void Render();
     // private System.Void RenderBackground()
-    // Offset: 0x29FE778
+    // Offset: 0x2A555BC
     void RenderBackground();
     // private System.Void RenderForeground()
-    // Offset: 0x29FE8B4
+    // Offset: 0x2A556F8
     void RenderForeground();
     // private System.Void RenderOptimized()
-    // Offset: 0x29FEE48
+    // Offset: 0x2A55C8C
     void RenderOptimized();
     // private System.Void CreateAssets()
-    // Offset: 0x29FDB20
+    // Offset: 0x2A54590
     void CreateAssets();
     // private System.Void DestroyAssets()
-    // Offset: 0x2A00890
+    // Offset: 0x2A57398
     void DestroyAssets();
     // public System.Void Dispose()
-    // Offset: 0x29FA0C0
+    // Offset: 0x2A50B30
     void Dispose();
     // public System.Boolean SetPose(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, System.Single verticalFieldOfView, System.Boolean useLocalSpace)
-    // Offset: 0x2A00CB8
+    // Offset: 0x2A577C0
     bool SetPose(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, float verticalFieldOfView, bool useLocalSpace);
     // public System.Void SetGroundPlane(System.Single distance, UnityEngine.Vector3 normal, System.Boolean useLocalSpace)
-    // Offset: 0x2A01148
+    // Offset: 0x2A57C50
     void SetGroundPlane(float distance, ::UnityEngine::Vector3 normal, bool useLocalSpace);
     // public System.Void SetGroundPlane(UnityEngine.Plane plane, System.Boolean useLocalSpace)
-    // Offset: 0x2A0133C
+    // Offset: 0x2A57E44
     void SetGroundPlane(::UnityEngine::Plane plane, bool useLocalSpace);
     // public System.Void SetGroundPlane(UnityEngine.Transform transform, System.Boolean useLocalSpace)
-    // Offset: 0x2A013B8
+    // Offset: 0x2A57EC0
     void SetGroundPlane(::UnityEngine::Transform* transform, bool useLocalSpace);
     // private System.Void ReleaseBridgePoseControl()
-    // Offset: 0x2A00A10
+    // Offset: 0x2A57518
     void ReleaseBridgePoseControl();
     // private System.Void UpdateBridgeResolution()
-    // Offset: 0x29FE110
+    // Offset: 0x2A550DC
     void UpdateBridgeResolution();
     // private System.Void UpdateBridgeInputFrame()
-    // Offset: 0x29FE178
+    // Offset: 0x2A54C18
     void UpdateBridgeInputFrame();
     // private System.Void InvokePreRender()
-    // Offset: 0x29FE708
+    // Offset: 0x2A5554C
     void InvokePreRender();
     // private System.Void IvokePostRender()
-    // Offset: 0x29FF35C
+    // Offset: 0x2A561A0
     void IvokePostRender();
     // private System.Void InvokePreRenderBackground()
-    // Offset: 0x29FF93C
+    // Offset: 0x2A56444
     void InvokePreRenderBackground();
     // private System.Void InvokePostRenderBackground()
-    // Offset: 0x29FFAB0
+    // Offset: 0x2A565B8
     void InvokePostRenderBackground();
     // private System.Void InvokePreRenderForeground()
-    // Offset: 0x29FFD88
+    // Offset: 0x2A56890
     void InvokePreRenderForeground();
     // private System.Void InvokePostRenderForeground()
-    // Offset: 0x29FFDF8
+    // Offset: 0x2A56900
     void InvokePostRenderForeground();
     // private System.Void CreateBackgroundTexture()
-    // Offset: 0x2A01590
+    // Offset: 0x2A58098
     void CreateBackgroundTexture();
     // private System.Void CreateForegroundTexture()
-    // Offset: 0x2A01794
+    // Offset: 0x2A5829C
     void CreateForegroundTexture();
     // private System.Void CreateOptimizedTexture()
-    // Offset: 0x2A0182C
+    // Offset: 0x2A58334
     void CreateOptimizedTexture();
     // private System.Void CreateComplexClipPlaneTexture()
-    // Offset: 0x2A018C4
+    // Offset: 0x2A583CC
     void CreateComplexClipPlaneTexture();
     // private System.Void UpdateTextures()
-    // Offset: 0x29FE448
+    // Offset: 0x2A5528C
     void UpdateTextures();
     // private System.Void SendTextureToBridge(UnityEngine.RenderTexture texture, LIV.SDK.Unity.TEXTURE_ID id)
-    // Offset: 0x29FF9AC
+    // Offset: 0x2A564B4
     void SendTextureToBridge(::UnityEngine::RenderTexture* texture, ::LIV::SDK::Unity::TEXTURE_ID id);
   }; // LIV.SDK.Unity.SDKRender
   #pragma pack(pop)
@@ -634,6 +629,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     static auto* debugClipPlane = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* colorWriteMask = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ColorWriteMask")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::SDKRender*), "GetGroundClipPlaneMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{debugClipPlane, colorWriteMask});
+  }
+};
+// Writing MetadataGetter for method: LIV::SDK::Unity::SDKRender::UpdateCameraSettings
+// Il2CppName: UpdateCameraSettings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LIV::SDK::Unity::SDKRender::*)()>(&LIV::SDK::Unity::SDKRender::UpdateCameraSettings)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::SDKRender*), "UpdateCameraSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: LIV::SDK::Unity::SDKRender::Render

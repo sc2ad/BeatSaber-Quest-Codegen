@@ -53,36 +53,36 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private System.Single <RootScale>k__BackingField
-    float& dyn_$RootScale$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$RootScale$k__BackingField();
     // Get instance field reference: private System.Boolean <IsDataValid>k__BackingField
-    bool& dyn_$IsDataValid$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$IsDataValid$k__BackingField();
     // Get instance field reference: private System.Boolean <IsDataHighConfidence>k__BackingField
-    bool& dyn_$IsDataHighConfidence$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$IsDataHighConfidence$k__BackingField();
     // Get instance field reference: private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
-    bool& dyn_$ShouldUseSystemGestureMaterial$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$ShouldUseSystemGestureMaterial$k__BackingField();
     // public System.Single get_RootScale()
-    // Offset: 0x2458228
+    // Offset: 0x24A1CEC
     float get_RootScale();
     // public System.Void set_RootScale(System.Single value)
-    // Offset: 0x2458230
+    // Offset: 0x24A1CF4
     void set_RootScale(float value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0x2458238
+    // Offset: 0x24A1CFC
     bool get_IsDataValid();
     // public System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0x2458240
+    // Offset: 0x24A1D04
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0x245824C
+    // Offset: 0x24A1D10
     bool get_IsDataHighConfidence();
     // public System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0x2458254
+    // Offset: 0x24A1D18
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_ShouldUseSystemGestureMaterial()
-    // Offset: 0x2458260
+    // Offset: 0x24A1D24
     bool get_ShouldUseSystemGestureMaterial();
     // public System.Void set_ShouldUseSystemGestureMaterial(System.Boolean value)
-    // Offset: 0x2458268
+    // Offset: 0x24A1D2C
     void set_ShouldUseSystemGestureMaterial(bool value);
   }; // OVRSkeletonRenderer/SkeletonRendererData
   #pragma pack(pop)

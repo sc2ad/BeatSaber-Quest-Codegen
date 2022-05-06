@@ -47,15 +47,7 @@ namespace UnityEngine::TestTools::Logging {
   // [TokenAttribute] Offset: FFFFFFFF
   class LogMatch : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean m_UseRegex
     // Size: 0x1
     // Offset: 0x10
@@ -84,36 +76,34 @@ namespace UnityEngine::TestTools::Logging {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.Boolean m_UseRegex
-    bool& dyn_m_UseRegex();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_UseRegex();
     // Get instance field reference: private System.String m_Message
-    ::StringW& dyn_m_Message();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_Message();
     // Get instance field reference: private System.String m_MessageRegex
-    ::StringW& dyn_m_MessageRegex();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_MessageRegex();
     // Get instance field reference: private System.String m_LogType
-    ::StringW& dyn_m_LogType();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_LogType();
     // public System.String get_Message()
-    // Offset: 0x194B7A0
+    // Offset: 0x19834B4
     ::StringW get_Message();
     // public System.Text.RegularExpressions.Regex get_MessageRegex()
-    // Offset: 0x194B7A8
+    // Offset: 0x19834BC
     ::System::Text::RegularExpressions::Regex* get_MessageRegex();
     // public System.Nullable`1<UnityEngine.LogType> get_LogType()
-    // Offset: 0x194B820
+    // Offset: 0x1983534
     ::System::Nullable_1<::UnityEngine::LogType> get_LogType();
-    // public System.Boolean Matches(UnityEngine.TestTools.Logging.LogEvent log)
-    // Offset: 0x194B93C
-    bool Matches(::UnityEngine::TestTools::Logging::LogEvent* log);
     // public System.Void .ctor()
-    // Offset: 0x194BADC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x19837F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LogMatch* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::Logging::LogMatch::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LogMatch*, creationType>()));
     }
+    // public System.Boolean Matches(UnityEngine.TestTools.Logging.LogEvent log)
+    // Offset: 0x1983650
+    bool Matches(::UnityEngine::TestTools::Logging::LogEvent* log);
     // public override System.String ToString()
-    // Offset: 0x194BA14
+    // Offset: 0x1983728
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -147,6 +137,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::N
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogMatch*), "get_LogType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogMatch::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogMatch::Matches
 // Il2CppName: Matches
 template<>
@@ -156,10 +150,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogMatch*), "Matches", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{log});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogMatch::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogMatch::ToString
 // Il2CppName: ToString
 template<>

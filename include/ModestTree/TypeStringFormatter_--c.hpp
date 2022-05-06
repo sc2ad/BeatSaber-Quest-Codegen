@@ -44,20 +44,18 @@ namespace ModestTree {
     // Set static field: static public System.Func`2<System.Type,System.String> <>9__2_0
     static void _set_$$9__2_0(::System::Func_2<::System::Type*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x172DA88
+    // Offset: 0x1766398
     static void _cctor();
-    // System.String <PrettyNameInternal>b__2_0(System.Type t)
-    // Offset: 0x172DAF4
-    ::StringW $PrettyNameInternal$b__2_0(::System::Type* t);
     // public System.Void .ctor()
-    // Offset: 0x172DAEC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x17663FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeStringFormatter::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::TypeStringFormatter::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeStringFormatter::$$c*, creationType>()));
     }
+    // System.String <PrettyNameInternal>b__2_0(System.Type t)
+    // Offset: 0x1766404
+    ::StringW $PrettyNameInternal$b__2_0(::System::Type* t);
   }; // ModestTree.TypeStringFormatter/ModestTree.<>c
   #pragma pack(pop)
 }
@@ -70,6 +68,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeStringFormatter::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: ModestTree::TypeStringFormatter::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: ModestTree::TypeStringFormatter::$$c::$PrettyNameInternal$b__2_0
 // Il2CppName: <PrettyNameInternal>b__2_0
 template<>
@@ -79,7 +81,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeStringFormatter::$$c*), "<PrettyNameInternal>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
-// Writing MetadataGetter for method: ModestTree::TypeStringFormatter::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

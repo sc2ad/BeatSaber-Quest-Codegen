@@ -73,7 +73,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.MaterialGlobalIlluminationFlags AnyEmissive
     static void _set_AnyEmissive(::UnityEngine::MaterialGlobalIlluminationFlags value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.MaterialGlobalIlluminationFlags
   #pragma pack(pop)
   static check_size<sizeof(MaterialGlobalIlluminationFlags), 0 + sizeof(int)> __UnityEngine_MaterialGlobalIlluminationFlagsSizeCheck;

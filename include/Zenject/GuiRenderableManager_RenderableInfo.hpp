@@ -33,15 +33,7 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class GuiRenderableManager::RenderableInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Zenject.IGuiRenderable Renderable
     // Size: 0x8
     // Offset: 0x10
@@ -56,21 +48,21 @@ namespace Zenject {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public Zenject.IGuiRenderable Renderable
-    ::Zenject::IGuiRenderable*& dyn_Renderable();
+    [[deprecated("Use field access instead!")]] ::Zenject::IGuiRenderable*& dyn_Renderable();
     // Get instance field reference: public System.Int32 Priority
-    int& dyn_Priority();
+    [[deprecated("Use field access instead!")]] int& dyn_Priority();
     // public System.Void .ctor(Zenject.IGuiRenderable renderable, System.Int32 priority)
-    // Offset: 0x1DEC618
+    // Offset: 0x1E26EE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GuiRenderableManager::RenderableInfo* New_ctor(::Zenject::IGuiRenderable* renderable, int priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::RenderableInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GuiRenderableManager::RenderableInfo*, creationType>(renderable, priority)));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1DED170
+    // Offset: 0x1E27A3C
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1DED27C
+    // Offset: 0x1E27B48
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.GuiRenderableManager/Zenject.RenderableInfo
   #pragma pack(pop)

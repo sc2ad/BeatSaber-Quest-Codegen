@@ -27,6 +27,13 @@ namespace System::Linq {
   template<typename TElement>
   class EnumerableSorter_1 : public ::Il2CppObject {
     public:
+    // protected System.Void .ctor()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static EnumerableSorter_1<TElement>* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::EnumerableSorter_1::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<EnumerableSorter_1<TElement>*, creationType>()));
+    }
     // System.Void ComputeKeys(TElement[] elements, System.Int32 count)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void ComputeKeys(::ArrayW<TElement> elements, int count) {
@@ -54,15 +61,6 @@ namespace System::Linq {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::EnumerableSorter_1::QuickSort");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "QuickSort", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(map), ::il2cpp_utils::ExtractType(left), ::il2cpp_utils::ExtractType(right)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, map, left, right);
-    }
-    // protected System.Void .ctor()
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static EnumerableSorter_1<TElement>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::EnumerableSorter_1::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<EnumerableSorter_1<TElement>*, creationType>()));
     }
   }; // System.Linq.EnumerableSorter`1
   // Could not write size check! Type: System.Linq.EnumerableSorter`1 is generic, or has no fields that are valid for size checks!

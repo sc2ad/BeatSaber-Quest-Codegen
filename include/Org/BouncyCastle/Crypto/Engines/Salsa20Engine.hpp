@@ -37,15 +37,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class Salsa20Engine : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IStreamCipher*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected System.Int32 rounds
     // Size: 0x4
     // Offset: 0x10
@@ -115,92 +107,90 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static ::ArrayW<uint> _get_TAU_SIGMA();
     // Set static field: static private readonly System.UInt32[] TAU_SIGMA
     static void _set_TAU_SIGMA(::ArrayW<uint> value);
-    // [ObsoleteAttribute] Offset: 0x122EC20
+    // [ObsoleteAttribute] Offset: 0x10B2658
     // Get static field: static protected readonly System.Byte[] sigma
     static ::ArrayW<uint8_t> _get_sigma();
     // Set static field: static protected readonly System.Byte[] sigma
     static void _set_sigma(::ArrayW<uint8_t> value);
-    // [ObsoleteAttribute] Offset: 0x122EC30
+    // [ObsoleteAttribute] Offset: 0x10B2668
     // Get static field: static protected readonly System.Byte[] tau
     static ::ArrayW<uint8_t> _get_tau();
     // Set static field: static protected readonly System.Byte[] tau
     static void _set_tau(::ArrayW<uint8_t> value);
     // Get instance field reference: protected System.Int32 rounds
-    int& dyn_rounds();
+    [[deprecated("Use field access instead!")]] int& dyn_rounds();
     // Get instance field reference: private System.Int32 index
-    int& dyn_index();
+    [[deprecated("Use field access instead!")]] int& dyn_index();
     // Get instance field reference: System.UInt32[] engineState
-    ::ArrayW<uint>& dyn_engineState();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_engineState();
     // Get instance field reference: System.UInt32[] x
-    ::ArrayW<uint>& dyn_x();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_x();
     // Get instance field reference: private System.Byte[] keyStream
-    ::ArrayW<uint8_t>& dyn_keyStream();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_keyStream();
     // Get instance field reference: private System.Boolean initialised
-    bool& dyn_initialised();
+    [[deprecated("Use field access instead!")]] bool& dyn_initialised();
     // Get instance field reference: private System.UInt32 cW0
-    uint& dyn_cW0();
+    [[deprecated("Use field access instead!")]] uint& dyn_cW0();
     // Get instance field reference: private System.UInt32 cW1
-    uint& dyn_cW1();
+    [[deprecated("Use field access instead!")]] uint& dyn_cW1();
     // Get instance field reference: private System.UInt32 cW2
-    uint& dyn_cW2();
+    [[deprecated("Use field access instead!")]] uint& dyn_cW2();
     // protected System.Int32 get_NonceSize()
-    // Offset: 0x23C4CEC
+    // Offset: 0x240D560
     int get_NonceSize();
     // public System.String get_AlgorithmName()
-    // Offset: 0x23C4CF4
+    // Offset: 0x240D568
     ::StringW get_AlgorithmName();
+    // public System.Void .ctor()
+    // Offset: 0x240D0A4
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static Salsa20Engine* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<Salsa20Engine*, creationType>()));
+    }
     // public System.Void .ctor(System.Int32 rounds)
-    // Offset: 0x23C48A0
+    // Offset: 0x240D114
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Salsa20Engine* New_ctor(int rounds) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Salsa20Engine*, creationType>(rounds)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x23C5AA8
+    // Offset: 0x240E31C
     static void _cctor();
     // System.Void PackTauOrSigma(System.Int32 keyLength, System.UInt32[] state, System.Int32 stateOffset)
-    // Offset: 0x23C469C
+    // Offset: 0x240CF10
     void PackTauOrSigma(int keyLength, ::ArrayW<uint> state, int stateOffset);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x23C498C
+    // Offset: 0x240D200
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // protected System.Void AdvanceCounter()
-    // Offset: 0x23C4DC8
+    // Offset: 0x240D63C
     void AdvanceCounter();
     // public System.Void ProcessBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x23C4E2C
+    // Offset: 0x240D6A0
     void ProcessBytes(::ArrayW<uint8_t> inBytes, int inOff, int len, ::ArrayW<uint8_t> outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x23C50CC
+    // Offset: 0x240D940
     void Reset();
     // protected System.Void ResetCounter()
-    // Offset: 0x23C50F4
+    // Offset: 0x240D968
     void ResetCounter();
     // protected System.Void SetKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    // Offset: 0x23C512C
+    // Offset: 0x240D9A0
     void SetKey(::ArrayW<uint8_t> keyBytes, ::ArrayW<uint8_t> ivBytes);
     // protected System.Void GenerateKeyStream(System.Byte[] output)
-    // Offset: 0x23C5394
+    // Offset: 0x240DC08
     void GenerateKeyStream(::ArrayW<uint8_t> output);
     // static System.Void SalsaCore(System.Int32 rounds, System.UInt32[] input, System.UInt32[] x)
-    // Offset: 0x23C5430
+    // Offset: 0x240DCA4
     static void SalsaCore(int rounds, ::ArrayW<uint> input, ::ArrayW<uint> x);
     // private System.Void ResetLimitCounter()
-    // Offset: 0x23C50E8
+    // Offset: 0x240D95C
     void ResetLimitCounter();
     // private System.Boolean LimitExceeded(System.UInt32 len)
-    // Offset: 0x23C5090
+    // Offset: 0x240D904
     bool LimitExceeded(uint len);
-    // public System.Void .ctor()
-    // Offset: 0x23C4830
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Salsa20Engine* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<Salsa20Engine*, creationType>()));
-    }
   }; // Org.BouncyCastle.Crypto.Engines.Salsa20Engine
   #pragma pack(pop)
   static check_size<sizeof(Salsa20Engine), 60 + sizeof(uint)> __Org_BouncyCastle_Crypto_Engines_Salsa20EngineSizeCheck;
@@ -223,6 +213,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::Salsa20Engine*), "get_AlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::Salsa20Engine::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::Salsa20Engine::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -340,7 +334,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::Salsa20Engine*), "LimitExceeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{len});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::Salsa20Engine::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

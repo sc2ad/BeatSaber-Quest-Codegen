@@ -29,11 +29,10 @@ namespace System::Xml::Schema {
   class XmlSchemaSimpleTypeContent : public ::System::Xml::Schema::XmlSchemaAnnotated {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x2011D00
+    // Offset: 0x205B574
     // Implemented from: System.Xml.Schema.XmlSchemaAnnotated
     // Base method: System.Void XmlSchemaAnnotated::.ctor()
     // Base method: System.Void XmlSchemaObject::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaSimpleTypeContent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaSimpleTypeContent::.ctor");

@@ -70,20 +70,12 @@ namespace BeatmapSaveDataVersion3 {
       // Set static field: static public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox/BeatmapSaveDataVersion3.DistributionParamType Step
       static void _set_Step(::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::DistributionParamType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox/BeatmapSaveDataVersion3.DistributionParamType
     #pragma pack(pop)
     static check_size<sizeof(BeatmapSaveData::EventBox::DistributionParamType), 0 + sizeof(int)> __BeatmapSaveDataVersion3_BeatmapSaveData_EventBox_DistributionParamTypeSizeCheck;
     static_assert(sizeof(BeatmapSaveData::EventBox::DistributionParamType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter f
     // Size: 0x8
     // Offset: 0x10
@@ -104,22 +96,22 @@ namespace BeatmapSaveDataVersion3 {
     static_assert(sizeof(::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::DistributionParamType) == 0x4);
     public:
     // Get instance field reference: protected BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter f
-    ::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter*& dyn_f();
+    [[deprecated("Use field access instead!")]] ::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter*& dyn_f();
     // Get instance field reference: protected System.Single w
-    float& dyn_w();
+    [[deprecated("Use field access instead!")]] float& dyn_w();
     // Get instance field reference: protected BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox/BeatmapSaveDataVersion3.DistributionParamType d
-    ::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::DistributionParamType& dyn_d();
+    [[deprecated("Use field access instead!")]] ::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::DistributionParamType& dyn_d();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter get_indexFilter()
-    // Offset: 0x281B2F8
+    // Offset: 0x286D8B8
     ::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* get_indexFilter();
     // public System.Single get_beatDistributionParam()
-    // Offset: 0x281B300
+    // Offset: 0x286D8C0
     float get_beatDistributionParam();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox/BeatmapSaveDataVersion3.DistributionParamType get_beatDistributionParamType()
-    // Offset: 0x281B308
+    // Offset: 0x286D8C8
     ::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::DistributionParamType get_beatDistributionParamType();
     // protected System.Void .ctor(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter indexFilter, System.Single beatDistributionParam, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox/BeatmapSaveDataVersion3.DistributionParamType beatDistributionParamType)
-    // Offset: 0x281B310
+    // Offset: 0x286D8D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::EventBox* New_ctor(::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* indexFilter, float beatDistributionParam, ::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::DistributionParamType beatDistributionParamType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::.ctor");

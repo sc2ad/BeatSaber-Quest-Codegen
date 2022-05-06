@@ -34,22 +34,14 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKSolver::Point : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
     ::UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [RangeAttribute] Offset: 0x12766A0
+    // [RangeAttribute] Offset: 0x10FB358
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -82,50 +74,52 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     public:
     // Get instance field reference: public UnityEngine.Transform transform
-    ::UnityEngine::Transform*& dyn_transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public System.Single weight
-    float& dyn_weight();
+    [[deprecated("Use field access instead!")]] float& dyn_weight();
     // Get instance field reference: public UnityEngine.Vector3 solverPosition
-    ::UnityEngine::Vector3& dyn_solverPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_solverPosition();
     // Get instance field reference: public UnityEngine.Quaternion solverRotation
-    ::UnityEngine::Quaternion& dyn_solverRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_solverRotation();
     // Get instance field reference: public UnityEngine.Vector3 defaultLocalPosition
-    ::UnityEngine::Vector3& dyn_defaultLocalPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_defaultLocalPosition();
     // Get instance field reference: public UnityEngine.Quaternion defaultLocalRotation
-    ::UnityEngine::Quaternion& dyn_defaultLocalRotation();
-    // public System.Void StoreDefaultLocalState()
-    // Offset: 0x21DE908
-    void StoreDefaultLocalState();
-    // public System.Void FixTransform()
-    // Offset: 0x21DE958
-    void FixTransform();
-    // public System.Void UpdateSolverPosition()
-    // Offset: 0x21DEAE0
-    void UpdateSolverPosition();
-    // public System.Void UpdateSolverLocalPosition()
-    // Offset: 0x21DEB18
-    void UpdateSolverLocalPosition();
-    // public System.Void UpdateSolverState()
-    // Offset: 0x21DEB50
-    void UpdateSolverState();
-    // public System.Void UpdateSolverLocalState()
-    // Offset: 0x21DEBA0
-    void UpdateSolverLocalState();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_defaultLocalRotation();
     // public System.Void .ctor()
-    // Offset: 0x21DE3DC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x222BC50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolver::Point* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolver::Point::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolver::Point*, creationType>()));
     }
+    // public System.Void StoreDefaultLocalState()
+    // Offset: 0x222C17C
+    void StoreDefaultLocalState();
+    // public System.Void FixTransform()
+    // Offset: 0x222C1CC
+    void FixTransform();
+    // public System.Void UpdateSolverPosition()
+    // Offset: 0x222C354
+    void UpdateSolverPosition();
+    // public System.Void UpdateSolverLocalPosition()
+    // Offset: 0x222C38C
+    void UpdateSolverLocalPosition();
+    // public System.Void UpdateSolverState()
+    // Offset: 0x222C3C4
+    void UpdateSolverState();
+    // public System.Void UpdateSolverLocalState()
+    // Offset: 0x222C414
+    void UpdateSolverLocalState();
   }; // RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point
   #pragma pack(pop)
   static check_size<sizeof(IKSolver::Point), 68 + sizeof(::UnityEngine::Quaternion)> __RootMotion_FinalIK_IKSolver_PointSizeCheck;
   static_assert(sizeof(IKSolver::Point) == 0x54);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::Point::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::Point::StoreDefaultLocalState
 // Il2CppName: StoreDefaultLocalState
 template<>
@@ -174,7 +168,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolver::Point*), "UpdateSolverLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::Point::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

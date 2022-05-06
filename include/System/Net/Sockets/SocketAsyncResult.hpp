@@ -69,15 +69,7 @@ namespace System::Net::Sockets {
     char ___base_padding[0x6] = {};
     // Nested type: ::System::Net::Sockets::SocketAsyncResult::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Net.Sockets.Socket socket
     // Size: 0x8
     // Offset: 0x30
@@ -196,93 +188,92 @@ namespace System::Net::Sockets {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public System.Net.Sockets.Socket socket
-    ::System::Net::Sockets::Socket*& dyn_socket();
+    [[deprecated("Use field access instead!")]] ::System::Net::Sockets::Socket*& dyn_socket();
     // Get instance field reference: public System.Net.Sockets.SocketOperation operation
-    ::System::Net::Sockets::SocketOperation& dyn_operation();
+    [[deprecated("Use field access instead!")]] ::System::Net::Sockets::SocketOperation& dyn_operation();
     // Get instance field reference: private System.Exception DelayedException
-    ::System::Exception*& dyn_DelayedException();
+    [[deprecated("Use field access instead!")]] ::System::Exception*& dyn_DelayedException();
     // Get instance field reference: public System.Net.EndPoint EndPoint
-    ::System::Net::EndPoint*& dyn_EndPoint();
+    [[deprecated("Use field access instead!")]] ::System::Net::EndPoint*& dyn_EndPoint();
     // Get instance field reference: public System.Byte[] Buffer
-    ::ArrayW<uint8_t>& dyn_Buffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_Buffer();
     // Get instance field reference: public System.Int32 Offset
-    int& dyn_Offset();
+    [[deprecated("Use field access instead!")]] int& dyn_Offset();
     // Get instance field reference: public System.Int32 Size
-    int& dyn_Size();
+    [[deprecated("Use field access instead!")]] int& dyn_Size();
     // Get instance field reference: public System.Net.Sockets.SocketFlags SockFlags
-    ::System::Net::Sockets::SocketFlags& dyn_SockFlags();
+    [[deprecated("Use field access instead!")]] ::System::Net::Sockets::SocketFlags& dyn_SockFlags();
     // Get instance field reference: public System.Net.Sockets.Socket AcceptSocket
-    ::System::Net::Sockets::Socket*& dyn_AcceptSocket();
+    [[deprecated("Use field access instead!")]] ::System::Net::Sockets::Socket*& dyn_AcceptSocket();
     // Get instance field reference: public System.Net.IPAddress[] Addresses
-    ::ArrayW<::System::Net::IPAddress*>& dyn_Addresses();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Net::IPAddress*>& dyn_Addresses();
     // Get instance field reference: public System.Int32 Port
-    int& dyn_Port();
+    [[deprecated("Use field access instead!")]] int& dyn_Port();
     // Get instance field reference: public System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> Buffers
-    ::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>*& dyn_Buffers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>*& dyn_Buffers();
     // Get instance field reference: public System.Boolean ReuseSocket
-    bool& dyn_ReuseSocket();
+    [[deprecated("Use field access instead!")]] bool& dyn_ReuseSocket();
     // Get instance field reference: public System.Int32 CurrentAddress
-    int& dyn_CurrentAddress();
+    [[deprecated("Use field access instead!")]] int& dyn_CurrentAddress();
     // Get instance field reference: public System.Net.Sockets.Socket AcceptedSocket
-    ::System::Net::Sockets::Socket*& dyn_AcceptedSocket();
+    [[deprecated("Use field access instead!")]] ::System::Net::Sockets::Socket*& dyn_AcceptedSocket();
     // Get instance field reference: public System.Int32 Total
-    int& dyn_Total();
+    [[deprecated("Use field access instead!")]] int& dyn_Total();
     // Get instance field reference: System.Int32 error
-    int& dyn_error();
+    [[deprecated("Use field access instead!")]] int& dyn_error();
     // Get instance field reference: public System.Int32 EndCalled
-    int& dyn_EndCalled();
+    [[deprecated("Use field access instead!")]] int& dyn_EndCalled();
     // public System.IntPtr get_Handle()
-    // Offset: 0x1B13198
+    // Offset: 0x1B4D780
     ::System::IntPtr get_Handle();
     // public System.Net.Sockets.SocketError get_ErrorCode()
-    // Offset: 0x1B132A0
+    // Offset: 0x1B4D888
     ::System::Net::Sockets::SocketError get_ErrorCode();
     // public System.Void .ctor(System.Net.Sockets.Socket socket, System.AsyncCallback callback, System.Object state, System.Net.Sockets.SocketOperation operation)
-    // Offset: 0x1B1325C
+    // Offset: 0x1B4D844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SocketAsyncResult* New_ctor(::System::Net::Sockets::Socket* socket, ::System::AsyncCallback* callback, ::Il2CppObject* state, ::System::Net::Sockets::SocketOperation operation) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Sockets::SocketAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SocketAsyncResult*, creationType>(socket, callback, state, operation)));
     }
     // public System.Void Init(System.Net.Sockets.Socket socket, System.AsyncCallback callback, System.Object state, System.Net.Sockets.SocketOperation operation)
-    // Offset: 0x1B131F0
+    // Offset: 0x1B4D7D8
     void Init(::System::Net::Sockets::Socket* socket, ::System::AsyncCallback* callback, ::Il2CppObject* state, ::System::Net::Sockets::SocketOperation operation);
     // public System.Void CheckIfThrowDelayedException()
-    // Offset: 0x1B13328
+    // Offset: 0x1B4D910
     void CheckIfThrowDelayedException();
     // public System.Void Complete()
-    // Offset: 0x1B11820
+    // Offset: 0x1B4BE08
     void Complete();
     // public System.Void Complete(System.Boolean synch)
-    // Offset: 0x1B133E4
+    // Offset: 0x1B4D9CC
     void Complete(bool synch);
     // public System.Void Complete(System.Int32 total)
-    // Offset: 0x1B12168
+    // Offset: 0x1B4C750
     void Complete(int total);
     // public System.Void Complete(System.Exception e, System.Boolean synch)
-    // Offset: 0x1B133F0
+    // Offset: 0x1B4D9D8
     void Complete(::System::Exception* e, bool synch);
     // public System.Void Complete(System.Exception e)
-    // Offset: 0x1B1107C
+    // Offset: 0x1B4B664
     void Complete(::System::Exception* e);
     // public System.Void Complete(System.Net.Sockets.Socket s)
-    // Offset: 0x1B11084
+    // Offset: 0x1B4B66C
     void Complete(::System::Net::Sockets::Socket* s);
     // public System.Void Complete(System.Net.Sockets.Socket s, System.Int32 total)
-    // Offset: 0x1B11320
+    // Offset: 0x1B4B908
     void Complete(::System::Net::Sockets::Socket* s, int total);
     // public System.Void .ctor()
-    // Offset: 0x1B12FB0
+    // Offset: 0x1B4D598
     // Implemented from: System.IOAsyncResult
     // Base method: System.Void IOAsyncResult::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SocketAsyncResult* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Sockets::SocketAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SocketAsyncResult*, creationType>()));
     }
     // override System.Void CompleteDisposed()
-    // Offset: 0x1B133E0
+    // Offset: 0x1B4D9C8
     // Implemented from: System.IOAsyncResult
     // Base method: System.Void IOAsyncResult::CompleteDisposed()
     void CompleteDisposed();

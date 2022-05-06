@@ -31,15 +31,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PS4AchievementIdsModelSO::AchievementIdData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _trophyId
     // Size: 0x4
     // Offset: 0x10
@@ -56,19 +48,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::AchievementSO*) == 0x8);
     public:
     // Get instance field reference: private System.Int32 _trophyId
-    int& dyn__trophyId();
+    [[deprecated("Use field access instead!")]] int& dyn__trophyId();
     // Get instance field reference: private AchievementSO _achievement
-    ::GlobalNamespace::AchievementSO*& dyn__achievement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__achievement();
     // public System.Int32 get_ps4TrophyId()
-    // Offset: 0x12E9D70
+    // Offset: 0x135AD1C
     int get_ps4TrophyId();
     // public System.String get_achievementId()
-    // Offset: 0x12E9BA0
+    // Offset: 0x135AB4C
     ::StringW get_achievementId();
     // public System.Void .ctor()
-    // Offset: 0x12E9D78
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x135AD24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4AchievementIdsModelSO::AchievementIdData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData::.ctor");

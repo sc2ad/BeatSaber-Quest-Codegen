@@ -49,16 +49,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BurstFireEffect : public ::GlobalNamespace::FireEffect {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [SpaceAttribute] Offset: 0x1249644
+    // [SpaceAttribute] Offset: 0x10CE13C
     // private System.Single _fadeOutDuration
     // Size: 0x4
     // Offset: 0x80
@@ -79,14 +71,14 @@ namespace GlobalNamespace {
     ::UnityEngine::AnimationCurve* bloomFadeOutCurve;
     // Field size check
     static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
-    // [InjectAttribute] Offset: 0x124969C
+    // [InjectAttribute] Offset: 0x10CE194
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x98
     ::GlobalNamespace::IAudioTimeSource* audioTimeSource;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0x12496AC
+    // [InjectAttribute] Offset: 0x10CE1A4
     // private readonly Tweening.SongTimeTweeningManager _songTimeTweeningManager
     // Size: 0x8
     // Offset: 0xA0
@@ -101,58 +93,53 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Tweening::FloatTween*) == 0x8);
     public:
     // Get instance field reference: private System.Single _fadeOutDuration
-    float& dyn__fadeOutDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__fadeOutDuration();
     // Get instance field reference: private UnityEngine.AnimationCurve _flipbookFadeOutCurve
-    ::UnityEngine::AnimationCurve*& dyn__flipbookFadeOutCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__flipbookFadeOutCurve();
     // Get instance field reference: private UnityEngine.AnimationCurve _bloomFadeOutCurve
-    ::UnityEngine::AnimationCurve*& dyn__bloomFadeOutCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__bloomFadeOutCurve();
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
-    ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // Get instance field reference: private readonly Tweening.SongTimeTweeningManager _songTimeTweeningManager
-    ::Tweening::SongTimeTweeningManager*& dyn__songTimeTweeningManager();
+    [[deprecated("Use field access instead!")]] ::Tweening::SongTimeTweeningManager*& dyn__songTimeTweeningManager();
     // Get instance field reference: private Tweening.FloatTween _fadeOutTween
-    ::Tweening::FloatTween*& dyn__fadeOutTween();
+    [[deprecated("Use field access instead!")]] ::Tweening::FloatTween*& dyn__fadeOutTween();
     // protected System.Void Awake()
-    // Offset: 0x134E6FC
+    // Offset: 0x1337944
     void Awake();
     // private System.Void StartEffect(System.Single time)
-    // Offset: 0x134EB48
+    // Offset: 0x1337D90
     void StartEffect(float time);
     // private System.Void EndEffect()
-    // Offset: 0x134EB08
+    // Offset: 0x1337D50
     void EndEffect();
     // private System.Void SetInitialValues()
-    // Offset: 0x134E820
+    // Offset: 0x1337A68
     void SetInitialValues();
     // private System.Void UpdateFadeOutProgress(System.Single fadeOutProgress)
-    // Offset: 0x134EC38
+    // Offset: 0x1337E80
     void UpdateFadeOutProgress(float fadeOutProgress);
     // public System.Void .ctor()
-    // Offset: 0x134EE34
+    // Offset: 0x133807C
     // Implemented from: FireEffect
     // Base method: System.Void FireEffect::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BurstFireEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BurstFireEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BurstFireEffect*, creationType>()));
     }
     // protected override System.Void Start()
-    // Offset: 0x134E7F8
+    // Offset: 0x1337A40
     // Implemented from: FireEffect
     // Base method: System.Void FireEffect::Start()
     void Start();
     // protected override System.Void OnDestroy()
-    // Offset: 0x134E8F0
+    // Offset: 0x1337B38
     // Implemented from: FireEffect
     // Base method: System.Void FireEffect::OnDestroy()
     void OnDestroy();
     // protected override System.Void HandleColorChangeBeatmapEvent(LightColorBeatmapEventData e)
-    // Offset: 0x134E994
+    // Offset: 0x1337BDC
     // Implemented from: FireEffect
     // Base method: System.Void FireEffect::HandleColorChangeBeatmapEvent(LightColorBeatmapEventData e)
     void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* e);

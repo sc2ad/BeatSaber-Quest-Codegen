@@ -41,21 +41,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x1241368
+    // [DescriptionAttribute] Offset: 0x10C5E40
     // static field const value: static public Oculus.Platform.UserPresenceStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.UserPresenceStatus Unknown
     static ::Oculus::Platform::UserPresenceStatus _get_Unknown();
     // Set static field: static public Oculus.Platform.UserPresenceStatus Unknown
     static void _set_Unknown(::Oculus::Platform::UserPresenceStatus value);
-    // [DescriptionAttribute] Offset: 0x12413A0
+    // [DescriptionAttribute] Offset: 0x10C5E78
     // static field const value: static public Oculus.Platform.UserPresenceStatus Online
     static constexpr const int Online = 1;
     // Get static field: static public Oculus.Platform.UserPresenceStatus Online
     static ::Oculus::Platform::UserPresenceStatus _get_Online();
     // Set static field: static public Oculus.Platform.UserPresenceStatus Online
     static void _set_Online(::Oculus::Platform::UserPresenceStatus value);
-    // [DescriptionAttribute] Offset: 0x12413D8
+    // [DescriptionAttribute] Offset: 0x10C5EB0
     // static field const value: static public Oculus.Platform.UserPresenceStatus Offline
     static constexpr const int Offline = 2;
     // Get static field: static public Oculus.Platform.UserPresenceStatus Offline
@@ -63,7 +63,7 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.UserPresenceStatus Offline
     static void _set_Offline(::Oculus::Platform::UserPresenceStatus value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Oculus.Platform.UserPresenceStatus
   #pragma pack(pop)
   static check_size<sizeof(UserPresenceStatus), 0 + sizeof(int)> __Oculus_Platform_UserPresenceStatusSizeCheck;

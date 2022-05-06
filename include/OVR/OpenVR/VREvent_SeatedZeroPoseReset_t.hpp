@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
       return bResetBySystemMenu;
     }
     // Get instance field reference: public System.Boolean bResetBySystemMenu
-    bool& dyn_bResetBySystemMenu();
+    [[deprecated("Use field access instead!")]] bool& dyn_bResetBySystemMenu();
   }; // OVR.OpenVR.VREvent_SeatedZeroPoseReset_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_SeatedZeroPoseReset_t), 0 + sizeof(bool)> __OVR_OpenVR_VREvent_SeatedZeroPoseReset_tSizeCheck;

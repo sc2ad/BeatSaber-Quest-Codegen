@@ -43,20 +43,18 @@ namespace Newtonsoft::Json::Serialization {
     // Set static field: static public System.Func`2<System.Object,System.Type> <>9__18_1
     static void _set_$$9__18_1(::System::Func_2<::Il2CppObject*, ::System::Type*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x203B10C
+    // Offset: 0x2084980
     static void _cctor();
-    // System.Type <GetJsonConverterCreator>b__18_1(System.Object param)
-    // Offset: 0x203B178
-    ::System::Type* $GetJsonConverterCreator$b__18_1(::Il2CppObject* param);
     // public System.Void .ctor()
-    // Offset: 0x203B170
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x20849E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonTypeReflector::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonTypeReflector::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonTypeReflector::$$c*, creationType>()));
     }
+    // System.Type <GetJsonConverterCreator>b__18_1(System.Object param)
+    // Offset: 0x20849EC
+    ::System::Type* $GetJsonConverterCreator$b__18_1(::Il2CppObject* param);
   }; // Newtonsoft.Json.Serialization.JsonTypeReflector/Newtonsoft.Json.Serialization.<>c
   #pragma pack(pop)
 }
@@ -69,6 +67,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonTypeReflector::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonTypeReflector::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonTypeReflector::$$c::$GetJsonConverterCreator$b__18_1
 // Il2CppName: <GetJsonConverterCreator>b__18_1
 template<>
@@ -78,7 +80,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonTypeReflector::$$c*), "<GetJsonConverterCreator>b__18_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{param});
   }
 };
-// Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonTypeReflector::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

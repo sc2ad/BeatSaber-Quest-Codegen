@@ -76,7 +76,7 @@ namespace GlobalNamespace {
       // Set static field: static public EnvironmentIntensityReductionOptions/CompressExpandReductionType RemoveWithStrobeFilter
       static void _set_RemoveWithStrobeFilter(::GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // EnvironmentIntensityReductionOptions/CompressExpandReductionType
     #pragma pack(pop)
     static check_size<sizeof(EnvironmentIntensityReductionOptions::CompressExpandReductionType), 0 + sizeof(int)> __GlobalNamespace_EnvironmentIntensityReductionOptions_CompressExpandReductionTypeSizeCheck;
@@ -118,20 +118,12 @@ namespace GlobalNamespace {
       // Set static field: static public EnvironmentIntensityReductionOptions/RotateRingsReductionType RemoveWithStrobeFilter
       static void _set_RemoveWithStrobeFilter(::GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // EnvironmentIntensityReductionOptions/RotateRingsReductionType
     #pragma pack(pop)
     static check_size<sizeof(EnvironmentIntensityReductionOptions::RotateRingsReductionType), 0 + sizeof(int)> __GlobalNamespace_EnvironmentIntensityReductionOptions_RotateRingsReductionTypeSizeCheck;
     static_assert(sizeof(EnvironmentIntensityReductionOptions::RotateRingsReductionType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private EnvironmentIntensityReductionOptions/CompressExpandReductionType _compressExpand
     // Size: 0x4
     // Offset: 0x10
@@ -146,19 +138,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType) == 0x4);
     public:
     // Get instance field reference: private EnvironmentIntensityReductionOptions/CompressExpandReductionType _compressExpand
-    ::GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType& dyn__compressExpand();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType& dyn__compressExpand();
     // Get instance field reference: private EnvironmentIntensityReductionOptions/RotateRingsReductionType _rotateRings
-    ::GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType& dyn__rotateRings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType& dyn__rotateRings();
     // public EnvironmentIntensityReductionOptions/CompressExpandReductionType get_compressExpand()
-    // Offset: 0x1383B84
+    // Offset: 0x136B760
     ::GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType get_compressExpand();
     // public EnvironmentIntensityReductionOptions/RotateRingsReductionType get_rotateRings()
-    // Offset: 0x1383B8C
+    // Offset: 0x136B768
     ::GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType get_rotateRings();
     // public System.Void .ctor()
-    // Offset: 0x1383B94
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x136B770
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentIntensityReductionOptions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentIntensityReductionOptions::.ctor");

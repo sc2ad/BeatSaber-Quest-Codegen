@@ -50,23 +50,21 @@ namespace TMPro {
     // Set static field: static public System.Func`2<TMPro.KerningPair,System.UInt32> <>9__7_1
     static void _set_$$9__7_1(::System::Func_2<::TMPro::KerningPair*, uint>* value);
     // static private System.Void .cctor()
-    // Offset: 0x142FA7C
+    // Offset: 0x1438CBC
     static void _cctor();
-    // System.UInt32 <SortKerningPairs>b__7_0(TMPro.KerningPair s)
-    // Offset: 0x142FAE8
-    uint $SortKerningPairs$b__7_0(::TMPro::KerningPair* s);
-    // System.UInt32 <SortKerningPairs>b__7_1(TMPro.KerningPair s)
-    // Offset: 0x142FB00
-    uint $SortKerningPairs$b__7_1(::TMPro::KerningPair* s);
     // public System.Void .ctor()
-    // Offset: 0x142FAE0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1438D20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KerningTable::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::KerningTable::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KerningTable::$$c*, creationType>()));
     }
+    // System.UInt32 <SortKerningPairs>b__7_0(TMPro.KerningPair s)
+    // Offset: 0x1438D28
+    uint $SortKerningPairs$b__7_0(::TMPro::KerningPair* s);
+    // System.UInt32 <SortKerningPairs>b__7_1(TMPro.KerningPair s)
+    // Offset: 0x1438D40
+    uint $SortKerningPairs$b__7_1(::TMPro::KerningPair* s);
   }; // TMPro.KerningTable/TMPro.<>c
   #pragma pack(pop)
 }
@@ -79,6 +77,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: TMPro::KerningTable::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: TMPro::KerningTable::$$c::$SortKerningPairs$b__7_0
 // Il2CppName: <SortKerningPairs>b__7_0
 template<>
@@ -97,7 +99,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro
     return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable::$$c*), "<SortKerningPairs>b__7_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
 };
-// Writing MetadataGetter for method: TMPro::KerningTable::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

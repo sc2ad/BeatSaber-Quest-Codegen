@@ -37,15 +37,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
   // [TokenAttribute] Offset: FFFFFFFF
   class NullDigest : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IDigest*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.IO.MemoryStream bOut
     // Size: 0x8
     // Offset: 0x10
@@ -62,37 +54,35 @@ namespace Org::BouncyCastle::Crypto::Digests {
       return bOut;
     }
     // Get instance field reference: private readonly System.IO.MemoryStream bOut
-    ::System::IO::MemoryStream*& dyn_bOut();
+    [[deprecated("Use field access instead!")]] ::System::IO::MemoryStream*& dyn_bOut();
     // public System.String get_AlgorithmName()
-    // Offset: 0x224EEDC
+    // Offset: 0x2299750
     ::StringW get_AlgorithmName();
-    // public System.Int32 GetByteLength()
-    // Offset: 0x224EF24
-    int GetByteLength();
-    // public System.Int32 GetDigestSize()
-    // Offset: 0x224EF2C
-    int GetDigestSize();
-    // public System.Void Update(System.Byte b)
-    // Offset: 0x224EF54
-    void Update(uint8_t b);
-    // public System.Void BlockUpdate(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x224EF78
-    void BlockUpdate(::ArrayW<uint8_t> inBytes, int inOff, int len);
-    // public System.Int32 DoFinal(System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x224EF9C
-    int DoFinal(::ArrayW<uint8_t> outBytes, int outOff);
-    // public System.Void Reset()
-    // Offset: 0x224F028
-    void Reset();
     // public System.Void .ctor()
-    // Offset: 0x224F050
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x22998C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullDigest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::NullDigest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullDigest*, creationType>()));
     }
+    // public System.Int32 GetByteLength()
+    // Offset: 0x2299798
+    int GetByteLength();
+    // public System.Int32 GetDigestSize()
+    // Offset: 0x22997A0
+    int GetDigestSize();
+    // public System.Void Update(System.Byte b)
+    // Offset: 0x22997C8
+    void Update(uint8_t b);
+    // public System.Void BlockUpdate(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len)
+    // Offset: 0x22997EC
+    void BlockUpdate(::ArrayW<uint8_t> inBytes, int inOff, int len);
+    // public System.Int32 DoFinal(System.Byte[] outBytes, System.Int32 outOff)
+    // Offset: 0x2299810
+    int DoFinal(::ArrayW<uint8_t> outBytes, int outOff);
+    // public System.Void Reset()
+    // Offset: 0x229989C
+    void Reset();
   }; // Org.BouncyCastle.Crypto.Digests.NullDigest
   #pragma pack(pop)
   static check_size<sizeof(NullDigest), 16 + sizeof(::System::IO::MemoryStream*)> __Org_BouncyCastle_Crypto_Digests_NullDigestSizeCheck;
@@ -107,6 +97,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::NullDigest*), "get_AlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::NullDigest::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::NullDigest::GetByteLength
 // Il2CppName: GetByteLength
 template<>
@@ -161,7 +155,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::NullDigest*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::NullDigest::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

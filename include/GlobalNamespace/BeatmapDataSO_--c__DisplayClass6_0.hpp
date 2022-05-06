@@ -31,15 +31,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class BeatmapDataSO::$$c__DisplayClass6_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Action action
     // Size: 0x8
     // Offset: 0x10
@@ -52,25 +44,27 @@ namespace GlobalNamespace {
       return action;
     }
     // Get instance field reference: public System.Action action
-    ::System::Action*& dyn_action();
-    // System.Void <RunTaskAndLogException>b__0()
-    // Offset: 0x136D40C
-    void $RunTaskAndLogException$b__0();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_action();
     // public System.Void .ctor()
-    // Offset: 0x136D404
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1355690
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataSO::$$c__DisplayClass6_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataSO::$$c__DisplayClass6_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataSO::$$c__DisplayClass6_0*, creationType>()));
     }
+    // System.Void <RunTaskAndLogException>b__0()
+    // Offset: 0x1355698
+    void $RunTaskAndLogException$b__0();
   }; // BeatmapDataSO/<>c__DisplayClass6_0
   #pragma pack(pop)
   static check_size<sizeof(BeatmapDataSO::$$c__DisplayClass6_0), 16 + sizeof(::System::Action*)> __GlobalNamespace_BeatmapDataSO_$$c__DisplayClass6_0SizeCheck;
   static_assert(sizeof(BeatmapDataSO::$$c__DisplayClass6_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataSO::$$c__DisplayClass6_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataSO::$$c__DisplayClass6_0::$RunTaskAndLogException$b__0
 // Il2CppName: <RunTaskAndLogException>b__0
 template<>
@@ -79,7 +73,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataSO::$$c__DisplayClass6_0*), "<RunTaskAndLogException>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataSO::$$c__DisplayClass6_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

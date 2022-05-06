@@ -58,7 +58,7 @@ namespace System {
     // Set static field: static public System.TypeSpec/System.DisplayNameFormat NO_MODIFIERS
     static void _set_NO_MODIFIERS(::System::TypeSpec::DisplayNameFormat value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.TypeSpec/System.DisplayNameFormat
   #pragma pack(pop)
   static check_size<sizeof(TypeSpec::DisplayNameFormat), 0 + sizeof(int)> __System_TypeSpec_DisplayNameFormatSizeCheck;

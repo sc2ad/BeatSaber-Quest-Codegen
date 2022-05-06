@@ -43,15 +43,7 @@ namespace Mono::Net::Security::Private {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class CallbackHelpers::$$c__DisplayClass5_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Mono.Security.Interface.MonoRemoteCertificateValidationCallback callback
     // Size: 0x8
     // Offset: 0x10
@@ -64,25 +56,27 @@ namespace Mono::Net::Security::Private {
       return callback;
     }
     // Get instance field reference: public Mono.Security.Interface.MonoRemoteCertificateValidationCallback callback
-    ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback*& dyn_callback();
-    // System.Boolean <MonoToPublic>b__0(System.Object t, System.Security.Cryptography.X509Certificates.X509Certificate c, System.Security.Cryptography.X509Certificates.X509Chain ch, System.Net.Security.SslPolicyErrors e)
-    // Offset: 0x1AA3584
-    bool $MonoToPublic$b__0(::Il2CppObject* t, ::System::Security::Cryptography::X509Certificates::X509Certificate* c, ::System::Security::Cryptography::X509Certificates::X509Chain* ch, ::System::Net::Security::SslPolicyErrors e);
+    [[deprecated("Use field access instead!")]] ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback*& dyn_callback();
     // public System.Void .ctor()
-    // Offset: 0x1AA3558
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1ADDB40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CallbackHelpers::$$c__DisplayClass5_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass5_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CallbackHelpers::$$c__DisplayClass5_0*, creationType>()));
     }
+    // System.Boolean <MonoToPublic>b__0(System.Object t, System.Security.Cryptography.X509Certificates.X509Certificate c, System.Security.Cryptography.X509Certificates.X509Chain ch, System.Net.Security.SslPolicyErrors e)
+    // Offset: 0x1ADDB6C
+    bool $MonoToPublic$b__0(::Il2CppObject* t, ::System::Security::Cryptography::X509Certificates::X509Certificate* c, ::System::Security::Cryptography::X509Certificates::X509Chain* ch, ::System::Net::Security::SslPolicyErrors e);
   }; // Mono.Net.Security.Private.CallbackHelpers/Mono.Net.Security.Private.<>c__DisplayClass5_0
   #pragma pack(pop)
   static check_size<sizeof(CallbackHelpers::$$c__DisplayClass5_0), 16 + sizeof(::Mono::Security::Interface::MonoRemoteCertificateValidationCallback*)> __Mono_Net_Security_Private_CallbackHelpers_$$c__DisplayClass5_0SizeCheck;
   static_assert(sizeof(CallbackHelpers::$$c__DisplayClass5_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass5_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass5_0::$MonoToPublic$b__0
 // Il2CppName: <MonoToPublic>b__0
 template<>
@@ -95,7 +89,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass5_0*), "<MonoToPublic>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t, c, ch, e});
   }
 };
-// Writing MetadataGetter for method: Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass5_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

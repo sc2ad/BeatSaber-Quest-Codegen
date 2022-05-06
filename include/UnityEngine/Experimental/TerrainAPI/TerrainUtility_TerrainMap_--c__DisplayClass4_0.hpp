@@ -31,15 +31,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TerrainUtility::TerrainMap::$$c__DisplayClass4_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 groupID
     // Size: 0x4
     // Offset: 0x10
@@ -52,25 +44,27 @@ namespace UnityEngine::Experimental::TerrainAPI {
       return groupID;
     }
     // Get instance field reference: public System.Int32 groupID
-    int& dyn_groupID();
-    // System.Boolean <CreateFromPlacement>b__0(UnityEngine.Terrain x)
-    // Offset: 0x2A613E4
-    bool $CreateFromPlacement$b__0(::UnityEngine::Terrain* x);
+    [[deprecated("Use field access instead!")]] int& dyn_groupID();
     // public System.Void .ctor()
-    // Offset: 0x2A602C4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2AB76AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TerrainUtility::TerrainMap::$$c__DisplayClass4_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::$$c__DisplayClass4_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TerrainUtility::TerrainMap::$$c__DisplayClass4_0*, creationType>()));
     }
+    // System.Boolean <CreateFromPlacement>b__0(UnityEngine.Terrain x)
+    // Offset: 0x2AB87CC
+    bool $CreateFromPlacement$b__0(::UnityEngine::Terrain* x);
   }; // UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap/UnityEngine.Experimental.TerrainAPI.<>c__DisplayClass4_0
   #pragma pack(pop)
   static check_size<sizeof(TerrainUtility::TerrainMap::$$c__DisplayClass4_0), 16 + sizeof(int)> __UnityEngine_Experimental_TerrainAPI_TerrainUtility_TerrainMap_$$c__DisplayClass4_0SizeCheck;
   static_assert(sizeof(TerrainUtility::TerrainMap::$$c__DisplayClass4_0) == 0x14);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::$$c__DisplayClass4_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::$$c__DisplayClass4_0::$CreateFromPlacement$b__0
 // Il2CppName: <CreateFromPlacement>b__0
 template<>
@@ -80,7 +74,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::$$c__DisplayClass4_0*), "<CreateFromPlacement>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::$$c__DisplayClass4_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

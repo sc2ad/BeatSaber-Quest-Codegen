@@ -30,28 +30,21 @@ namespace Org::BouncyCastle::Security {
   class GeneralSecurityException : public ::System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x17B02FC
-    // Implemented from: System.Exception
-    // Base method: System.Void Exception::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x17E9C0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GeneralSecurityException* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Security::GeneralSecurityException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GeneralSecurityException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x17B0364
-    // Implemented from: System.Exception
-    // Base method: System.Void Exception::.ctor(System.String message)
+    // Offset: 0x17E9C74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GeneralSecurityException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Security::GeneralSecurityException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GeneralSecurityException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception exception)
-    // Offset: 0x17B03DC
-    // Implemented from: System.Exception
-    // Base method: System.Void Exception::.ctor(System.String message, System.Exception exception)
+    // Offset: 0x17E9CEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GeneralSecurityException* New_ctor(::StringW message, ::System::Exception* exception) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Security::GeneralSecurityException::.ctor");

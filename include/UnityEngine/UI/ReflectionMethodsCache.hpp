@@ -43,15 +43,7 @@ namespace UnityEngine::UI {
     class GetRayIntersectionAllCallback;
     // Nested type: ::UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback
     class GetRayIntersectionAllNonAllocCallback;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.Raycast3DCallback raycast3D
     // Size: 0x8
     // Offset: 0x10
@@ -94,32 +86,30 @@ namespace UnityEngine::UI {
     // Set static field: static private UnityEngine.UI.ReflectionMethodsCache s_ReflectionMethodsCache
     static void _set_s_ReflectionMethodsCache(::UnityEngine::UI::ReflectionMethodsCache* value);
     // Get instance field reference: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.Raycast3DCallback raycast3D
-    ::UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback*& dyn_raycast3D();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback*& dyn_raycast3D();
     // Get instance field reference: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.RaycastAllCallback raycast3DAll
-    ::UnityEngine::UI::ReflectionMethodsCache::RaycastAllCallback*& dyn_raycast3DAll();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::ReflectionMethodsCache::RaycastAllCallback*& dyn_raycast3DAll();
     // Get instance field reference: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.GetRaycastNonAllocCallback getRaycastNonAlloc
-    ::UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback*& dyn_getRaycastNonAlloc();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback*& dyn_getRaycastNonAlloc();
     // Get instance field reference: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.Raycast2DCallback raycast2D
-    ::UnityEngine::UI::ReflectionMethodsCache::Raycast2DCallback*& dyn_raycast2D();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::ReflectionMethodsCache::Raycast2DCallback*& dyn_raycast2D();
     // Get instance field reference: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.GetRayIntersectionAllCallback getRayIntersectionAll
-    ::UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllCallback*& dyn_getRayIntersectionAll();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllCallback*& dyn_getRayIntersectionAll();
     // Get instance field reference: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.GetRayIntersectionAllNonAllocCallback getRayIntersectionAllNonAlloc
-    ::UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*& dyn_getRayIntersectionAllNonAlloc();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*& dyn_getRayIntersectionAllNonAlloc();
     // static public UnityEngine.UI.ReflectionMethodsCache get_Singleton()
-    // Offset: 0x1E86318
+    // Offset: 0x1ED4850
     static ::UnityEngine::UI::ReflectionMethodsCache* get_Singleton();
-    // static private System.Void .cctor()
-    // Offset: 0x1E863D8
-    static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1E8582C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1ED3D64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionMethodsCache* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::ReflectionMethodsCache::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionMethodsCache*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1ED4910
+    static void _cctor();
   }; // UnityEngine.UI.ReflectionMethodsCache
   #pragma pack(pop)
   static check_size<sizeof(ReflectionMethodsCache), 56 + sizeof(::UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*)> __UnityEngine_UI_ReflectionMethodsCacheSizeCheck;
@@ -134,6 +124,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ReflectionMethodsCache*), "get_Singleton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::UI::ReflectionMethodsCache::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::UI::ReflectionMethodsCache::_cctor
 // Il2CppName: .cctor
 template<>
@@ -142,7 +136,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ReflectionMethodsCache*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::UI::ReflectionMethodsCache::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

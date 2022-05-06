@@ -33,22 +33,24 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MainSettingsBestGraphicsValues : public ::Il2CppObject {
     public:
-    // static public System.Void ApplyValues(MainSettingsModelSO mainSettingsModel)
-    // Offset: 0x1533540
-    static void ApplyValues(::GlobalNamespace::MainSettingsModelSO* mainSettingsModel);
     // public System.Void .ctor()
-    // Offset: 0x1533684
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x156AF8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainSettingsBestGraphicsValues* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainSettingsBestGraphicsValues::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainSettingsBestGraphicsValues*, creationType>()));
     }
+    // static public System.Void ApplyValues(MainSettingsModelSO mainSettingsModel)
+    // Offset: 0x156AE48
+    static void ApplyValues(::GlobalNamespace::MainSettingsModelSO* mainSettingsModel);
   }; // MainSettingsBestGraphicsValues
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsBestGraphicsValues::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsBestGraphicsValues::ApplyValues
 // Il2CppName: ApplyValues
 template<>
@@ -58,7 +60,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsBestGraphicsValues*), "ApplyValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mainSettingsModel});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MainSettingsBestGraphicsValues::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

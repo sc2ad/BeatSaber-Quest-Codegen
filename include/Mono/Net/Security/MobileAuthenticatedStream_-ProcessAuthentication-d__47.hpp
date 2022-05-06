@@ -118,32 +118,32 @@ namespace Mono::Net::Security {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public System.Boolean serverMode
-    bool& dyn_serverMode();
+    [[deprecated("Use field access instead!")]] bool& dyn_serverMode();
     // Get instance field reference: public System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate
-    ::System::Security::Cryptography::X509Certificates::X509Certificate*& dyn_serverCertificate();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509Certificate*& dyn_serverCertificate();
     // Get instance field reference: public System.String targetHost
-    ::StringW& dyn_targetHost();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_targetHost();
     // Get instance field reference: public Mono.Net.Security.MobileAuthenticatedStream <>4__this
-    ::Mono::Net::Security::MobileAuthenticatedStream*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::Mono::Net::Security::MobileAuthenticatedStream*& dyn_$$4__this();
     // Get instance field reference: public System.Boolean runSynchronously
-    bool& dyn_runSynchronously();
+    [[deprecated("Use field access instead!")]] bool& dyn_runSynchronously();
     // Get instance field reference: public System.Security.Authentication.SslProtocols enabledProtocols
-    ::System::Security::Authentication::SslProtocols& dyn_enabledProtocols();
+    [[deprecated("Use field access instead!")]] ::System::Security::Authentication::SslProtocols& dyn_enabledProtocols();
     // Get instance field reference: public System.Security.Cryptography.X509Certificates.X509CertificateCollection clientCertificates
-    ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& dyn_clientCertificates();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& dyn_clientCertificates();
     // Get instance field reference: public System.Boolean clientCertRequired
-    bool& dyn_clientCertRequired();
+    [[deprecated("Use field access instead!")]] bool& dyn_clientCertRequired();
     // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<Mono.Net.Security.AsyncProtocolResult> <>u__1
-    typename ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::Mono::Net::Security::AsyncProtocolResult*>::ConfiguredTaskAwaiter& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] typename ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::Mono::Net::Security::AsyncProtocolResult*>::ConfiguredTaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1AA0980
+    // Offset: 0x1ADAF68
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1AA11C0
+    // Offset: 0x1ADB7A8
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // Mono.Net.Security.MobileAuthenticatedStream/Mono.Net.Security.<ProcessAuthentication>d__47
   // WARNING Not writing size check since size may be invalid!

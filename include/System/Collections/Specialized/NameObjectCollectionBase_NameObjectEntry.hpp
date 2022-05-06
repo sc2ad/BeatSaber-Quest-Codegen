@@ -24,15 +24,7 @@ namespace System::Collections::Specialized {
   // [TokenAttribute] Offset: FFFFFFFF
   class NameObjectCollectionBase::NameObjectEntry : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.String Key
     // Size: 0x8
     // Offset: 0x10
@@ -47,11 +39,11 @@ namespace System::Collections::Specialized {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: System.String Key
-    ::StringW& dyn_Key();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Key();
     // Get instance field reference: System.Object Value
-    ::Il2CppObject*& dyn_Value();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_Value();
     // System.Void .ctor(System.String name, System.Object value)
-    // Offset: 0x1D54A18
+    // Offset: 0x1D8FF70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameObjectCollectionBase::NameObjectEntry* New_ctor(::StringW name, ::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry::.ctor");

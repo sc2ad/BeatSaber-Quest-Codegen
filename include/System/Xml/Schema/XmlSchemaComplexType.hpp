@@ -41,15 +41,7 @@ namespace System::Xml::Schema {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlSchemaComplexType : public ::System::Xml::Schema::XmlSchemaType {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Xml.Schema.XmlSchemaDerivationMethod block
     // Size: 0x4
     // Offset: 0x3C
@@ -88,46 +80,45 @@ namespace System::Xml::Schema {
     // Set static field: static private System.Xml.Schema.XmlSchemaComplexType untypedAnyType
     static void _set_untypedAnyType(::System::Xml::Schema::XmlSchemaComplexType* value);
     // Get instance field reference: private System.Xml.Schema.XmlSchemaDerivationMethod block
-    ::System::Xml::Schema::XmlSchemaDerivationMethod& dyn_block();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaDerivationMethod& dyn_block();
     // Get instance field reference: private System.Xml.Schema.XmlSchemaParticle contentTypeParticle
-    ::System::Xml::Schema::XmlSchemaParticle*& dyn_contentTypeParticle();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaParticle*& dyn_contentTypeParticle();
     // Get instance field reference: private System.Xml.Schema.XmlSchemaAnyAttribute attributeWildcard
-    ::System::Xml::Schema::XmlSchemaAnyAttribute*& dyn_attributeWildcard();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaAnyAttribute*& dyn_attributeWildcard();
     // Get instance field reference: private System.Byte pvFlags
-    uint8_t& dyn_pvFlags();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_pvFlags();
     // static System.Xml.Schema.XmlSchemaComplexType get_AnyType()
-    // Offset: 0x2010974
+    // Offset: 0x205A1E8
     static ::System::Xml::Schema::XmlSchemaComplexType* get_AnyType();
     // static System.Xml.Schema.ContentValidator get_AnyTypeContentValidator()
-    // Offset: 0x2010494
+    // Offset: 0x2059D08
     static ::System::Xml::Schema::ContentValidator* get_AnyTypeContentValidator();
     // public System.Xml.Schema.XmlSchemaParticle get_ContentTypeParticle()
-    // Offset: 0x20109F8
+    // Offset: 0x205A26C
     ::System::Xml::Schema::XmlSchemaParticle* get_ContentTypeParticle();
     // static private System.Void .cctor()
-    // Offset: 0x200FF5C
+    // Offset: 0x20597D0
     static void _cctor();
     // static private System.Xml.Schema.XmlSchemaComplexType CreateAnyType(System.Xml.Schema.XmlSchemaContentProcessing processContents)
-    // Offset: 0x2010118
+    // Offset: 0x205998C
     static ::System::Xml::Schema::XmlSchemaComplexType* CreateAnyType(::System::Xml::Schema::XmlSchemaContentProcessing processContents);
     // System.Void SetContentTypeParticle(System.Xml.Schema.XmlSchemaParticle value)
-    // Offset: 0x2010A00
+    // Offset: 0x205A274
     void SetContentTypeParticle(::System::Xml::Schema::XmlSchemaParticle* value);
     // System.Void SetAttributeWildcard(System.Xml.Schema.XmlSchemaAnyAttribute value)
-    // Offset: 0x2010A08
+    // Offset: 0x205A27C
     void SetAttributeWildcard(::System::Xml::Schema::XmlSchemaAnyAttribute* value);
     // public override System.Void set_IsMixed(System.Boolean value)
-    // Offset: 0x20109DC
+    // Offset: 0x205A250
     // Implemented from: System.Xml.Schema.XmlSchemaType
     // Base method: System.Void XmlSchemaType::set_IsMixed(System.Boolean value)
     void set_IsMixed(bool value);
     // public System.Void .ctor()
-    // Offset: 0x20103A4
+    // Offset: 0x2059C18
     // Implemented from: System.Xml.Schema.XmlSchemaType
     // Base method: System.Void XmlSchemaType::.ctor()
     // Base method: System.Void XmlSchemaAnnotated::.ctor()
     // Base method: System.Void XmlSchemaObject::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaComplexType* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaComplexType::.ctor");

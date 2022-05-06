@@ -30,15 +30,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PatternFightSongController::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly BeatmapData beatmapData
     // Size: 0x8
     // Offset: 0x10
@@ -51,9 +43,9 @@ namespace GlobalNamespace {
       return beatmapData;
     }
     // Get instance field reference: public readonly BeatmapData beatmapData
-    ::GlobalNamespace::BeatmapData*& dyn_beatmapData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapData*& dyn_beatmapData();
     // public System.Void .ctor(BeatmapData beatmapData)
-    // Offset: 0x12EDE68
+    // Offset: 0x135EE20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PatternFightSongController::InitData* New_ctor(::GlobalNamespace::BeatmapData* beatmapData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PatternFightSongController::InitData::.ctor");

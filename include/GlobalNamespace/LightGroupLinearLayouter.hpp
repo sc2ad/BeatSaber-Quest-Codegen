@@ -29,16 +29,8 @@ namespace GlobalNamespace {
   // [ExecuteAlways] Offset: FFFFFFFF
   class LightGroupLinearLayouter : public ::GlobalNamespace::LightGroupSubsystem {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [SpaceAttribute] Offset: 0x1251218
+    // [SpaceAttribute] Offset: 0x10D5D84
     // private UnityEngine.Vector3 _movementStep
     // Size: 0xC
     // Offset: 0x20
@@ -53,18 +45,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private UnityEngine.Vector3 _movementStep
-    ::UnityEngine::Vector3& dyn__movementStep();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__movementStep();
     // Get instance field reference: private System.Boolean _startFromCenter
-    bool& dyn__startFromCenter();
+    [[deprecated("Use field access instead!")]] bool& dyn__startFromCenter();
     // public System.Void .ctor()
-    // Offset: 0x148CB6C
+    // Offset: 0x14C33F4
     // Implemented from: LightGroupSubsystem
     // Base method: System.Void LightGroupSubsystem::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightGroupLinearLayouter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightGroupLinearLayouter::.ctor");

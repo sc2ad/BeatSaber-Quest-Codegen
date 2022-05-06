@@ -52,43 +52,43 @@ namespace UnityEngine::ProBuilder {
       return value;
     }
     // Get instance field reference: public UnityEngine.Vector4 value
-    ::UnityEngine::Vector4& dyn_value();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector4& dyn_value();
     // public System.Single get_x()
-    // Offset: 0x1F8D228
+    // Offset: 0x1FD8A9C
     float get_x();
     // public System.Single get_y()
-    // Offset: 0x1F8D230
+    // Offset: 0x1FD8AA4
     float get_y();
     // public System.Single get_z()
-    // Offset: 0x1F8D238
+    // Offset: 0x1FD8AAC
     float get_z();
     // public System.Single get_w()
-    // Offset: 0x1F8D240
+    // Offset: 0x1FD8AB4
     float get_w();
     // public System.Void .ctor(UnityEngine.Vector4 vector)
-    // Offset: 0x1F8D248
+    // Offset: 0x1FD8ABC
     // ABORTED: conflicts with another method.  IntVec4(::UnityEngine::Vector4 vector);
     // public System.Boolean Equals(UnityEngine.ProBuilder.IntVec4 p)
-    // Offset: 0x1F8D434
+    // Offset: 0x1FD8CA8
     bool Equals(::UnityEngine::ProBuilder::IntVec4 p);
     // public System.Boolean Equals(UnityEngine.Vector4 p)
-    // Offset: 0x1F8D5A4
+    // Offset: 0x1FD8E18
     bool Equals(::UnityEngine::Vector4 p);
     // static private System.Int32 round(System.Single v)
-    // Offset: 0x1F8D52C
+    // Offset: 0x1FD8DA0
     static int round(float v);
     // public override System.String ToString()
-    // Offset: 0x1F8D254
+    // Offset: 0x1FD8AC8
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();
     // public override System.Boolean Equals(System.Object b)
-    // Offset: 0x1F8D65C
+    // Offset: 0x1FD8ED0
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object b)
     bool Equals(::Il2CppObject* b);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1F8D728
+    // Offset: 0x1FD8F9C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -97,10 +97,10 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(IntVec4), 0 + sizeof(::UnityEngine::Vector4)> __UnityEngine_ProBuilder_IntVec4SizeCheck;
   static_assert(sizeof(IntVec4) == 0x10);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.IntVec4 a, UnityEngine.ProBuilder.IntVec4 b)
-  // Offset: 0x1F8D3F8
+  // Offset: 0x1FD8C6C
   bool operator ==(const ::UnityEngine::ProBuilder::IntVec4& a, const ::UnityEngine::ProBuilder::IntVec4& b);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.IntVec4 a, UnityEngine.ProBuilder.IntVec4 b)
-  // Offset: 0x1F8D4EC
+  // Offset: 0x1FD8D60
   bool operator !=(const ::UnityEngine::ProBuilder::IntVec4& a, const ::UnityEngine::ProBuilder::IntVec4& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

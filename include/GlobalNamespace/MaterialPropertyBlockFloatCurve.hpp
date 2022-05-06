@@ -38,16 +38,8 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x2D to desired offset: 0x30
     char ___base_padding[0x3] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [SpaceAttribute] Offset: 0x12396BC
+    // [SpaceAttribute] Offset: 0x10BE184
     // private UnityEngine.AnimationCurve _curve
     // Size: 0x8
     // Offset: 0x30
@@ -68,27 +60,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private UnityEngine.AnimationCurve _curve
-    ::UnityEngine::AnimationCurve*& dyn__curve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__curve();
     // Get instance field reference: private System.Single _valueMultiplier
-    float& dyn__valueMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__valueMultiplier();
     // Get instance field reference: private System.Single _speedMultiplier
-    float& dyn__speedMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__speedMultiplier();
     // public System.Void .ctor()
-    // Offset: 0x2AD5B7C
+    // Offset: 0x1E7EF8C
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MaterialPropertyBlockFloatCurve* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MaterialPropertyBlockFloatCurve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockFloatCurve*, creationType>()));
     }
     // protected override System.Void SetProperty()
-    // Offset: 0x2AD5AE0
+    // Offset: 0x1E7EEF0
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::SetProperty()
     void SetProperty();

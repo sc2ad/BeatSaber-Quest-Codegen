@@ -68,52 +68,52 @@ namespace TMPro {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private System.Single m_XPlacement
-    float& dyn_m_XPlacement();
+    [[deprecated("Use field access instead!")]] float& dyn_m_XPlacement();
     // Get instance field reference: private System.Single m_YPlacement
-    float& dyn_m_YPlacement();
+    [[deprecated("Use field access instead!")]] float& dyn_m_YPlacement();
     // Get instance field reference: private System.Single m_XAdvance
-    float& dyn_m_XAdvance();
+    [[deprecated("Use field access instead!")]] float& dyn_m_XAdvance();
     // Get instance field reference: private System.Single m_YAdvance
-    float& dyn_m_YAdvance();
+    [[deprecated("Use field access instead!")]] float& dyn_m_YAdvance();
     // public System.Single get_xPlacement()
-    // Offset: 0x143F124
+    // Offset: 0x1448364
     float get_xPlacement();
     // public System.Void set_xPlacement(System.Single value)
-    // Offset: 0x143F12C
+    // Offset: 0x144836C
     void set_xPlacement(float value);
     // public System.Single get_yPlacement()
-    // Offset: 0x143F134
+    // Offset: 0x1448374
     float get_yPlacement();
     // public System.Void set_yPlacement(System.Single value)
-    // Offset: 0x143F13C
+    // Offset: 0x144837C
     void set_yPlacement(float value);
     // public System.Single get_xAdvance()
-    // Offset: 0x143F144
+    // Offset: 0x1448384
     float get_xAdvance();
     // public System.Void set_xAdvance(System.Single value)
-    // Offset: 0x143F14C
+    // Offset: 0x144838C
     void set_xAdvance(float value);
     // public System.Single get_yAdvance()
-    // Offset: 0x143F154
+    // Offset: 0x1448394
     float get_yAdvance();
     // public System.Void set_yAdvance(System.Single value)
-    // Offset: 0x143F15C
+    // Offset: 0x144839C
     void set_yAdvance(float value);
     // public System.Void .ctor(System.Single xPlacement, System.Single yPlacement, System.Single xAdvance, System.Single yAdvance)
-    // Offset: 0x143D7AC
+    // Offset: 0x14469EC
     // ABORTED: conflicts with another method.  TMP_GlyphValueRecord(float xPlacement, float yPlacement, float xAdvance, float yAdvance);
     // System.Void .ctor(TMPro.GlyphValueRecord_Legacy valueRecord)
-    // Offset: 0x143F164
+    // Offset: 0x14483A4
     TMP_GlyphValueRecord(::TMPro::GlyphValueRecord_Legacy valueRecord);
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphValueRecord valueRecord)
-    // Offset: 0x143F058
+    // Offset: 0x1448298
     TMP_GlyphValueRecord(::UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord);
   }; // TMPro.TMP_GlyphValueRecord
   #pragma pack(pop)
   static check_size<sizeof(TMP_GlyphValueRecord), 12 + sizeof(float)> __TMPro_TMP_GlyphValueRecordSizeCheck;
   static_assert(sizeof(TMP_GlyphValueRecord) == 0x10);
   // static public TMPro.TMP_GlyphValueRecord op_Addition(TMPro.TMP_GlyphValueRecord a, TMPro.TMP_GlyphValueRecord b)
-  // Offset: 0x143F170
+  // Offset: 0x14483B0
   ::TMPro::TMP_GlyphValueRecord operator+(const ::TMPro::TMP_GlyphValueRecord& a, const ::TMPro::TMP_GlyphValueRecord& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

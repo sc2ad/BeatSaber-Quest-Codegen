@@ -46,15 +46,7 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class DedicatedServerHeartbeatRequest : public ::Il2CppObject/*, public ::BGNet::Core::Messages::IUnconnectedUnreliableMessage, public ::MasterServer::IDedicatedServerMasterServerClientToServerMessage*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String <dedicatedServerId>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -95,51 +87,49 @@ namespace MasterServer {
       return *reinterpret_cast<::MasterServer::IDedicatedServerMasterServerClientToServerMessage*>(this);
     }
     // Get instance field reference: private System.String <dedicatedServerId>k__BackingField
-    ::StringW& dyn_$dedicatedServerId$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$dedicatedServerId$k__BackingField();
     // Get instance field reference: private System.Int64 <dedicatedServerCreationTime>k__BackingField
-    int64_t& dyn_$dedicatedServerCreationTime$k__BackingField();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_$dedicatedServerCreationTime$k__BackingField();
     // Get instance field reference: public System.Int32 cpuUtilization
-    int& dyn_cpuUtilization();
+    [[deprecated("Use field access instead!")]] int& dyn_cpuUtilization();
     // Get instance field reference: public System.Int32 occupiedServerSlots
-    int& dyn_occupiedServerSlots();
+    [[deprecated("Use field access instead!")]] int& dyn_occupiedServerSlots();
     // Get instance field reference: public System.Int32 unoccupiedServerSlots
-    int& dyn_unoccupiedServerSlots();
+    [[deprecated("Use field access instead!")]] int& dyn_unoccupiedServerSlots();
     // static public PacketPool`1<MasterServer.DedicatedServerHeartbeatRequest> get_pool()
-    // Offset: 0x164DB38
+    // Offset: 0x1684448
     static ::GlobalNamespace::PacketPool_1<::MasterServer::DedicatedServerHeartbeatRequest*>* get_pool();
     // public System.String get_dedicatedServerId()
-    // Offset: 0x164DB80
+    // Offset: 0x1684490
     ::StringW get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x164DB88
+    // Offset: 0x1684498
     void set_dedicatedServerId(::StringW value);
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x164DB90
+    // Offset: 0x16844A0
     int64_t get_dedicatedServerCreationTime();
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x164DB98
+    // Offset: 0x16844A8
     void set_dedicatedServerCreationTime(int64_t value);
-    // public MasterServer.DedicatedServerHeartbeatRequest Init(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.Int32 cpuUtilization, System.Int32 occupiedServerSlots, System.Int32 unoccupiedServerSlots)
-    // Offset: 0x164DBA0
-    ::MasterServer::DedicatedServerHeartbeatRequest* Init(::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, int cpuUtilization, int occupiedServerSlots, int unoccupiedServerSlots);
-    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x164DBB0
-    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
-    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x164DC24
-    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
-    // public System.Void Release()
-    // Offset: 0x164DC9C
-    void Release();
     // public System.Void .ctor()
-    // Offset: 0x164DCF8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1684608
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DedicatedServerHeartbeatRequest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::MasterServer::DedicatedServerHeartbeatRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DedicatedServerHeartbeatRequest*, creationType>()));
     }
+    // public MasterServer.DedicatedServerHeartbeatRequest Init(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.Int32 cpuUtilization, System.Int32 occupiedServerSlots, System.Int32 unoccupiedServerSlots)
+    // Offset: 0x16844B0
+    ::MasterServer::DedicatedServerHeartbeatRequest* Init(::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, int cpuUtilization, int occupiedServerSlots, int unoccupiedServerSlots);
+    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x16844C0
+    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x1684534
+    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
+    // public System.Void Release()
+    // Offset: 0x16845AC
+    void Release();
   }; // MasterServer.DedicatedServerHeartbeatRequest
   #pragma pack(pop)
   static check_size<sizeof(DedicatedServerHeartbeatRequest), 40 + sizeof(int)> __MasterServer_DedicatedServerHeartbeatRequestSizeCheck;
@@ -188,6 +178,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
     return ::il2cpp_utils::FindMethod(classof(MasterServer::DedicatedServerHeartbeatRequest*), "set_dedicatedServerCreationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: MasterServer::DedicatedServerHeartbeatRequest::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: MasterServer::DedicatedServerHeartbeatRequest::Init
 // Il2CppName: Init
 template<>
@@ -227,7 +221,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
     return ::il2cpp_utils::FindMethod(classof(MasterServer::DedicatedServerHeartbeatRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MasterServer::DedicatedServerHeartbeatRequest::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

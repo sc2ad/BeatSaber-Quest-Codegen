@@ -41,49 +41,49 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x123F4B0
+    // [DescriptionAttribute] Offset: 0x10C3F88
     // static field const value: static public Oculus.Platform.LaunchResult Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.LaunchResult Unknown
     static ::Oculus::Platform::LaunchResult _get_Unknown();
     // Set static field: static public Oculus.Platform.LaunchResult Unknown
     static void _set_Unknown(::Oculus::Platform::LaunchResult value);
-    // [DescriptionAttribute] Offset: 0x123F4E8
+    // [DescriptionAttribute] Offset: 0x10C3FC0
     // static field const value: static public Oculus.Platform.LaunchResult Success
     static constexpr const int Success = 1;
     // Get static field: static public Oculus.Platform.LaunchResult Success
     static ::Oculus::Platform::LaunchResult _get_Success();
     // Set static field: static public Oculus.Platform.LaunchResult Success
     static void _set_Success(::Oculus::Platform::LaunchResult value);
-    // [DescriptionAttribute] Offset: 0x123F520
+    // [DescriptionAttribute] Offset: 0x10C3FF8
     // static field const value: static public Oculus.Platform.LaunchResult FailedRoomFull
     static constexpr const int FailedRoomFull = 2;
     // Get static field: static public Oculus.Platform.LaunchResult FailedRoomFull
     static ::Oculus::Platform::LaunchResult _get_FailedRoomFull();
     // Set static field: static public Oculus.Platform.LaunchResult FailedRoomFull
     static void _set_FailedRoomFull(::Oculus::Platform::LaunchResult value);
-    // [DescriptionAttribute] Offset: 0x123F558
+    // [DescriptionAttribute] Offset: 0x10C4030
     // static field const value: static public Oculus.Platform.LaunchResult FailedGameAlreadyStarted
     static constexpr const int FailedGameAlreadyStarted = 3;
     // Get static field: static public Oculus.Platform.LaunchResult FailedGameAlreadyStarted
     static ::Oculus::Platform::LaunchResult _get_FailedGameAlreadyStarted();
     // Set static field: static public Oculus.Platform.LaunchResult FailedGameAlreadyStarted
     static void _set_FailedGameAlreadyStarted(::Oculus::Platform::LaunchResult value);
-    // [DescriptionAttribute] Offset: 0x123F590
+    // [DescriptionAttribute] Offset: 0x10C4068
     // static field const value: static public Oculus.Platform.LaunchResult FailedRoomNotFound
     static constexpr const int FailedRoomNotFound = 4;
     // Get static field: static public Oculus.Platform.LaunchResult FailedRoomNotFound
     static ::Oculus::Platform::LaunchResult _get_FailedRoomNotFound();
     // Set static field: static public Oculus.Platform.LaunchResult FailedRoomNotFound
     static void _set_FailedRoomNotFound(::Oculus::Platform::LaunchResult value);
-    // [DescriptionAttribute] Offset: 0x123F5C8
+    // [DescriptionAttribute] Offset: 0x10C40A0
     // static field const value: static public Oculus.Platform.LaunchResult FailedUserDeclined
     static constexpr const int FailedUserDeclined = 5;
     // Get static field: static public Oculus.Platform.LaunchResult FailedUserDeclined
     static ::Oculus::Platform::LaunchResult _get_FailedUserDeclined();
     // Set static field: static public Oculus.Platform.LaunchResult FailedUserDeclined
     static void _set_FailedUserDeclined(::Oculus::Platform::LaunchResult value);
-    // [DescriptionAttribute] Offset: 0x123F600
+    // [DescriptionAttribute] Offset: 0x10C40D8
     // static field const value: static public Oculus.Platform.LaunchResult FailedOtherReason
     static constexpr const int FailedOtherReason = 6;
     // Get static field: static public Oculus.Platform.LaunchResult FailedOtherReason
@@ -91,7 +91,7 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.LaunchResult FailedOtherReason
     static void _set_FailedOtherReason(::Oculus::Platform::LaunchResult value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Oculus.Platform.LaunchResult
   #pragma pack(pop)
   static check_size<sizeof(LaunchResult), 0 + sizeof(int)> __Oculus_Platform_LaunchResultSizeCheck;

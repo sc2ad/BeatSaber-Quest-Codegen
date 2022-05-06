@@ -36,15 +36,7 @@ namespace UnityEngine::TestRunner::Utils {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TestRunCallbackListener::$$c__DisplayClass4_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public NUnit.Framework.Interfaces.ITestResult testResults
     // Size: 0x8
     // Offset: 0x10
@@ -57,25 +49,27 @@ namespace UnityEngine::TestRunner::Utils {
       return testResults;
     }
     // Get instance field reference: public NUnit.Framework.Interfaces.ITestResult testResults
-    ::NUnit::Framework::Interfaces::ITestResult*& dyn_testResults();
-    // System.Void <RunFinished>b__0(UnityEngine.TestRunner.ITestRunCallback callback)
-    // Offset: 0x1948024
-    void $RunFinished$b__0(::UnityEngine::TestRunner::ITestRunCallback* callback);
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Interfaces::ITestResult*& dyn_testResults();
     // public System.Void .ctor()
-    // Offset: 0x1947B48
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x197FD28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestRunCallbackListener::$$c__DisplayClass4_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c__DisplayClass4_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestRunCallbackListener::$$c__DisplayClass4_0*, creationType>()));
     }
+    // System.Void <RunFinished>b__0(UnityEngine.TestRunner.ITestRunCallback callback)
+    // Offset: 0x1980204
+    void $RunFinished$b__0(::UnityEngine::TestRunner::ITestRunCallback* callback);
   }; // UnityEngine.TestRunner.Utils.TestRunCallbackListener/UnityEngine.TestRunner.Utils.<>c__DisplayClass4_0
   #pragma pack(pop)
   static check_size<sizeof(TestRunCallbackListener::$$c__DisplayClass4_0), 16 + sizeof(::NUnit::Framework::Interfaces::ITestResult*)> __UnityEngine_TestRunner_Utils_TestRunCallbackListener_$$c__DisplayClass4_0SizeCheck;
   static_assert(sizeof(TestRunCallbackListener::$$c__DisplayClass4_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c__DisplayClass4_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c__DisplayClass4_0::$RunFinished$b__0
 // Il2CppName: <RunFinished>b__0
 template<>
@@ -85,7 +79,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c__DisplayClass4_0*), "<RunFinished>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c__DisplayClass4_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

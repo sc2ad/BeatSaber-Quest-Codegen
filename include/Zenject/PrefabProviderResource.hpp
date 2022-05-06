@@ -37,15 +37,7 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class PrefabProviderResource : public ::Il2CppObject/*, public ::Zenject::IPrefabProvider*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.String _resourcePath
     // Size: 0x8
     // Offset: 0x10
@@ -62,16 +54,16 @@ namespace Zenject {
       return resourcePath;
     }
     // Get instance field reference: private readonly System.String _resourcePath
-    ::StringW& dyn__resourcePath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__resourcePath();
     // public System.Void .ctor(System.String resourcePath)
-    // Offset: 0x1BDFCAC
+    // Offset: 0x1C1A294
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrefabProviderResource* New_ctor(::StringW resourcePath) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PrefabProviderResource::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrefabProviderResource*, creationType>(resourcePath)));
     }
     // public UnityEngine.Object GetPrefab()
-    // Offset: 0x1BDFCD8
+    // Offset: 0x1C1A2C0
     ::UnityEngine::Object* GetPrefab();
   }; // Zenject.PrefabProviderResource
   #pragma pack(pop)

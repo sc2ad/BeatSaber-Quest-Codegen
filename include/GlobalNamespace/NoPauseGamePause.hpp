@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoPauseGamePause : public ::Il2CppObject/*, public ::GlobalNamespace::IGamePause*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Action didPauseEvent
     // Size: 0x8
     // Offset: 0x10
@@ -74,52 +66,50 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IGamePause*>(this);
     }
     // Get instance field reference: private System.Action didPauseEvent
-    ::System::Action*& dyn_didPauseEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didPauseEvent();
     // Get instance field reference: private System.Action willResumeEvent
-    ::System::Action*& dyn_willResumeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_willResumeEvent();
     // Get instance field reference: private System.Action didResumeEvent
-    ::System::Action*& dyn_didResumeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didResumeEvent();
     // Get instance field reference: private System.Boolean _pause
-    bool& dyn__pause();
+    [[deprecated("Use field access instead!")]] bool& dyn__pause();
     // public System.Boolean get_isPaused()
-    // Offset: 0x1472184
+    // Offset: 0x14A896C
     bool get_isPaused();
     // public System.Void add_didPauseEvent(System.Action value)
-    // Offset: 0x147218C
+    // Offset: 0x14A8974
     void add_didPauseEvent(::System::Action* value);
     // public System.Void remove_didPauseEvent(System.Action value)
-    // Offset: 0x1472230
+    // Offset: 0x14A8A18
     void remove_didPauseEvent(::System::Action* value);
     // public System.Void add_willResumeEvent(System.Action value)
-    // Offset: 0x14722D4
+    // Offset: 0x14A8ABC
     void add_willResumeEvent(::System::Action* value);
     // public System.Void remove_willResumeEvent(System.Action value)
-    // Offset: 0x1472378
+    // Offset: 0x14A8B60
     void remove_willResumeEvent(::System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
-    // Offset: 0x147241C
+    // Offset: 0x14A8C04
     void add_didResumeEvent(::System::Action* value);
     // public System.Void remove_didResumeEvent(System.Action value)
-    // Offset: 0x14724C0
+    // Offset: 0x14A8CA8
     void remove_didResumeEvent(::System::Action* value);
-    // public System.Void Pause()
-    // Offset: 0x1472564
-    void Pause();
-    // public System.Void WillResume()
-    // Offset: 0x1472584
-    void WillResume();
-    // public System.Void Resume()
-    // Offset: 0x1472598
-    void Resume();
     // public System.Void .ctor()
-    // Offset: 0x14725B4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14A8D9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoPauseGamePause* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoPauseGamePause::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoPauseGamePause*, creationType>()));
     }
+    // public System.Void Pause()
+    // Offset: 0x14A8D4C
+    void Pause();
+    // public System.Void WillResume()
+    // Offset: 0x14A8D6C
+    void WillResume();
+    // public System.Void Resume()
+    // Offset: 0x14A8D80
+    void Resume();
   }; // NoPauseGamePause
   #pragma pack(pop)
   static check_size<sizeof(NoPauseGamePause), 40 + sizeof(bool)> __GlobalNamespace_NoPauseGamePauseSizeCheck;
@@ -188,6 +178,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoPauseGamePause*), "remove_didResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::NoPauseGamePause::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NoPauseGamePause::Pause
 // Il2CppName: Pause
 template<>
@@ -212,7 +206,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoPauseGamePause*), "Resume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NoPauseGamePause::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

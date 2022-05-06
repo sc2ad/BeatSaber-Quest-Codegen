@@ -46,36 +46,28 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerConnectedPlayerLevelFailController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private VFXController _failVFXController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::VFXController* failVFXController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::VFXController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253AEC
+    // [InjectAttribute] Offset: 0x10D86D0
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253AFC
+    // [InjectAttribute] Offset: 0x10D86E0
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253B0C
+    // [InjectAttribute] Offset: 0x10D86F0
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x30
@@ -98,51 +90,45 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private VFXController _failVFXController
-    ::GlobalNamespace::VFXController*& dyn__failVFXController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VFXController*& dyn__failVFXController();
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
-    ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
-    ::GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // Get instance field reference: private System.Action playerDidFailEvent
-    ::System::Action*& dyn_playerDidFailEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_playerDidFailEvent();
     // Get instance field reference: private System.Boolean _wasActive
-    bool& dyn__wasActive();
+    [[deprecated("Use field access instead!")]] bool& dyn__wasActive();
     // public System.Void add_playerDidFailEvent(System.Action value)
-    // Offset: 0x13D42AC
+    // Offset: 0x13D0758
     void add_playerDidFailEvent(::System::Action* value);
     // public System.Void remove_playerDidFailEvent(System.Action value)
-    // Offset: 0x13D3E30
+    // Offset: 0x13D02DC
     void remove_playerDidFailEvent(::System::Action* value);
-    // protected System.Void Start()
-    // Offset: 0x13D4F34
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13D50D8
-    void OnDestroy();
-    // private System.Void CheckIfPlayerFailed(IConnectedPlayer player)
-    // Offset: 0x13D527C
-    void CheckIfPlayerFailed(::GlobalNamespace::IConnectedPlayer* player);
-    // private System.Void HandlePlayerDisconnected(IConnectedPlayer player)
-    // Offset: 0x13D548C
-    void HandlePlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player);
-    // private System.Void HandlePlayerStateChanged(IConnectedPlayer player)
-    // Offset: 0x13D5490
-    void HandlePlayerStateChanged(::GlobalNamespace::IConnectedPlayer* player);
     // public System.Void .ctor()
-    // Offset: 0x13D5494
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D1940
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerLevelFailController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerLevelFailController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x13D13E0
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13D1584
+    void OnDestroy();
+    // private System.Void CheckIfPlayerFailed(IConnectedPlayer player)
+    // Offset: 0x13D1728
+    void CheckIfPlayerFailed(::GlobalNamespace::IConnectedPlayer* player);
+    // private System.Void HandlePlayerDisconnected(IConnectedPlayer player)
+    // Offset: 0x13D1938
+    void HandlePlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player);
+    // private System.Void HandlePlayerStateChanged(IConnectedPlayer player)
+    // Offset: 0x13D193C
+    void HandlePlayerStateChanged(::GlobalNamespace::IConnectedPlayer* player);
   }; // MultiplayerConnectedPlayerLevelFailController
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerLevelFailController), 64 + sizeof(bool)> __GlobalNamespace_MultiplayerConnectedPlayerLevelFailControllerSizeCheck;
@@ -167,6 +153,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerLevelFailController*), "remove_playerDidFailEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::Start
 // Il2CppName: Start
 template<>
@@ -210,7 +200,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerLevelFailController*), "HandlePlayerStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{player});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

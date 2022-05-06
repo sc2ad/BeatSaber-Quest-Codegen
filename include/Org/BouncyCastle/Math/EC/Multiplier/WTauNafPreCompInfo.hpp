@@ -36,15 +36,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   // [TokenAttribute] Offset: FFFFFFFF
   class WTauNafPreCompInfo : public ::Il2CppObject/*, public ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected Org.BouncyCastle.Math.EC.AbstractF2mPoint[] m_preComp
     // Size: 0x8
     // Offset: 0x10
@@ -61,17 +53,15 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
       return m_preComp;
     }
     // Get instance field reference: protected Org.BouncyCastle.Math.EC.AbstractF2mPoint[] m_preComp
-    ::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>& dyn_m_preComp();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>& dyn_m_preComp();
     // public Org.BouncyCastle.Math.EC.AbstractF2mPoint[] get_PreComp()
-    // Offset: 0x2292730
+    // Offset: 0x22DCFA4
     ::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*> get_PreComp();
     // public System.Void set_PreComp(Org.BouncyCastle.Math.EC.AbstractF2mPoint[] value)
-    // Offset: 0x2292738
+    // Offset: 0x22DCFAC
     void set_PreComp(::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*> value);
     // public System.Void .ctor()
-    // Offset: 0x2292728
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x22DCF9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WTauNafPreCompInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo::.ctor");

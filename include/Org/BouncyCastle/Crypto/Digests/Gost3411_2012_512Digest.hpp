@@ -40,39 +40,37 @@ namespace Org::BouncyCastle::Crypto::Digests {
     static ::ArrayW<uint8_t> _get_IV();
     // Set static field: static private readonly System.Byte[] IV
     static void _set_IV(::ArrayW<uint8_t> value);
+    // public System.Void .ctor()
+    // Offset: 0x2294C74
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static Gost3411_2012_512Digest* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<Gost3411_2012_512Digest*, creationType>()));
+    }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.Gost3411_2012_512Digest other)
-    // Offset: 0x224A498
+    // Offset: 0x2294D0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3411_2012_512Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3411_2012_512Digest*, creationType>(other)));
     }
     // public override System.String get_AlgorithmName()
-    // Offset: 0x224A3B8
+    // Offset: 0x2294C2C
     // Implemented from: Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
     // Base method: System.String Gost3411_2012Digest::get_AlgorithmName()
     ::StringW get_AlgorithmName();
-    // public System.Void .ctor()
-    // Offset: 0x224A400
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Gost3411_2012_512Digest* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<Gost3411_2012_512Digest*, creationType>()));
-    }
     // static private System.Void .cctor()
-    // Offset: 0x224A5B0
+    // Offset: 0x2294E24
     // Implemented from: Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
     // Base method: System.Void Gost3411_2012Digest::.cctor()
     static void _cctor();
     // public override System.Int32 GetDigestSize()
-    // Offset: 0x224A548
+    // Offset: 0x2294DBC
     // Implemented from: Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
     // Base method: System.Int32 Gost3411_2012Digest::GetDigestSize()
     int GetDigestSize();
     // public override Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x224A550
+    // Offset: 0x2294DC4
     // Implemented from: Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
     // Base method: Org.BouncyCastle.Utilities.IMemoable Gost3411_2012Digest::Copy()
     ::Org::BouncyCastle::Utilities::IMemoable* Copy();
@@ -80,6 +78,10 @@ namespace Org::BouncyCastle::Crypto::Digests {
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -92,10 +94,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest*), "get_AlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest::_cctor
 // Il2CppName: .cctor
 template<>

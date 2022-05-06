@@ -40,15 +40,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GradientTransitionSO : public ::GlobalNamespace::BaseTransitionSO {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private ColorSO _normalColor1
     // Size: 0x8
     // Offset: 0x20
@@ -123,73 +115,69 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::ColorSO*) == 0x8);
     public:
     // Get instance field reference: private ColorSO _normalColor1
-    ::GlobalNamespace::ColorSO*& dyn__normalColor1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn__normalColor1();
     // Get instance field reference: private ColorSO _normalColor2
-    ::GlobalNamespace::ColorSO*& dyn__normalColor2();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn__normalColor2();
     // Get instance field reference: private ColorSO _highlightColor1
-    ::GlobalNamespace::ColorSO*& dyn__highlightColor1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn__highlightColor1();
     // Get instance field reference: private ColorSO _highlightColor2
-    ::GlobalNamespace::ColorSO*& dyn__highlightColor2();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn__highlightColor2();
     // Get instance field reference: private ColorSO _pressedColor1
-    ::GlobalNamespace::ColorSO*& dyn__pressedColor1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn__pressedColor1();
     // Get instance field reference: private ColorSO _pressedColor2
-    ::GlobalNamespace::ColorSO*& dyn__pressedColor2();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn__pressedColor2();
     // Get instance field reference: private ColorSO _disabledColor1
-    ::GlobalNamespace::ColorSO*& dyn__disabledColor1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn__disabledColor1();
     // Get instance field reference: private ColorSO _disabledColor2
-    ::GlobalNamespace::ColorSO*& dyn__disabledColor2();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn__disabledColor2();
     // Get instance field reference: private ColorSO _selectedColor1
-    ::GlobalNamespace::ColorSO*& dyn__selectedColor1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn__selectedColor1();
     // Get instance field reference: private ColorSO _selectedColor2
-    ::GlobalNamespace::ColorSO*& dyn__selectedColor2();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn__selectedColor2();
     // Get instance field reference: private ColorSO _selectedAndHighlightedColor1
-    ::GlobalNamespace::ColorSO*& dyn__selectedAndHighlightedColor1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn__selectedAndHighlightedColor1();
     // Get instance field reference: private ColorSO _selectedAndHighlightedColor2
-    ::GlobalNamespace::ColorSO*& dyn__selectedAndHighlightedColor2();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn__selectedAndHighlightedColor2();
     // public UnityEngine.Color get_normalColor1()
-    // Offset: 0x13EAB74
+    // Offset: 0x13F7614
     ::UnityEngine::Color get_normalColor1();
     // public UnityEngine.Color get_normalColor2()
-    // Offset: 0x13EAB80
+    // Offset: 0x13F7620
     ::UnityEngine::Color get_normalColor2();
     // public UnityEngine.Color get_highlightColor1()
-    // Offset: 0x13EADF0
+    // Offset: 0x13F7890
     ::UnityEngine::Color get_highlightColor1();
     // public UnityEngine.Color get_highlightColor2()
-    // Offset: 0x13EADFC
+    // Offset: 0x13F789C
     ::UnityEngine::Color get_highlightColor2();
     // public UnityEngine.Color get_pressedColor1()
-    // Offset: 0x13EAE94
+    // Offset: 0x13F7934
     ::UnityEngine::Color get_pressedColor1();
     // public UnityEngine.Color get_pressedColor2()
-    // Offset: 0x13EAEA0
+    // Offset: 0x13F7940
     ::UnityEngine::Color get_pressedColor2();
     // public UnityEngine.Color get_disabledColor1()
-    // Offset: 0x13EAF38
+    // Offset: 0x13F79D8
     ::UnityEngine::Color get_disabledColor1();
     // public UnityEngine.Color get_disabledColor2()
-    // Offset: 0x13EAF44
+    // Offset: 0x13F79E4
     ::UnityEngine::Color get_disabledColor2();
     // public UnityEngine.Color get_selectedColor1()
-    // Offset: 0x13EAFDC
+    // Offset: 0x13F7A7C
     ::UnityEngine::Color get_selectedColor1();
     // public UnityEngine.Color get_selectedColor2()
-    // Offset: 0x13EAFE8
+    // Offset: 0x13F7A88
     ::UnityEngine::Color get_selectedColor2();
     // public UnityEngine.Color get_selectedAndHighlightedColor1()
-    // Offset: 0x13EB080
+    // Offset: 0x13F7B20
     ::UnityEngine::Color get_selectedAndHighlightedColor1();
     // public UnityEngine.Color get_selectedAndHighlightedColor2()
-    // Offset: 0x13EB08C
+    // Offset: 0x13F7B2C
     ::UnityEngine::Color get_selectedAndHighlightedColor2();
     // public System.Void .ctor()
-    // Offset: 0x13EB7C8
+    // Offset: 0x13F8268
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GradientTransitionSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GradientTransitionSO::.ctor");

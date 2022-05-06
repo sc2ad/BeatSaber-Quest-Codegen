@@ -151,7 +151,7 @@ namespace GlobalNamespace {
     // Set static field: static public GameplayModifierMask All
     static void _set_All(::GlobalNamespace::GameplayModifierMask value);
     // Get instance field reference: public System.UInt16 value__
-    uint16_t& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_value__();
   }; // GameplayModifierMask
   #pragma pack(pop)
   static check_size<sizeof(GameplayModifierMask), 0 + sizeof(uint16_t)> __GlobalNamespace_GameplayModifierMaskSizeCheck;

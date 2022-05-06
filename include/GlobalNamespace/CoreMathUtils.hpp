@@ -34,28 +34,30 @@ namespace GlobalNamespace {
     static float _get_kHalfJumpDistanceEpsilon();
     // Set static field: static private System.Single kHalfJumpDistanceEpsilon
     static void _set_kHalfJumpDistanceEpsilon(float value);
-    // static public System.Single CalculateHalfJumpDurationInBeats(System.Single startHalfJumpDurationInBeats, System.Single maxHalfJumpDistance, System.Single noteJumpMovementSpeed, System.Single oneBeatDuration, System.Single noteJumpStartBeatOffset)
-    // Offset: 0x2A9B4EC
-    static float CalculateHalfJumpDurationInBeats(float startHalfJumpDurationInBeats, float maxHalfJumpDistance, float noteJumpMovementSpeed, float oneBeatDuration, float noteJumpStartBeatOffset);
-    // static public System.Single __CalculateHalfJumpDurationInBeatsV2(System.Single startHalfJumpDurationInBeats, System.Single maxHalfJumpDistance, System.Single noteJumpMovementSpeed, System.Single oneBeatDuration, System.Single noteJumpStartBeatOffset)
-    // Offset: 0x2A9B52C
-    static float __CalculateHalfJumpDurationInBeatsV2(float startHalfJumpDurationInBeats, float maxHalfJumpDistance, float noteJumpMovementSpeed, float oneBeatDuration, float noteJumpStartBeatOffset);
-    // static public System.Int32 __CalculateHalfJumpDurationInBeatsV1(System.Single startHalfJumpDurationInBeats, System.Single maxHalfJumpDistance, System.Single noteJumpMovementSpeed, System.Single oneBeatDuration, System.Single minHalfJumpDistance)
-    // Offset: 0x2A9B560
-    static int __CalculateHalfJumpDurationInBeatsV1(float startHalfJumpDurationInBeats, float maxHalfJumpDistance, float noteJumpMovementSpeed, float oneBeatDuration, float minHalfJumpDistance);
     // public System.Void .ctor()
-    // Offset: 0x2A9B5AC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2AF0F1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CoreMathUtils* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CoreMathUtils::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CoreMathUtils*, creationType>()));
     }
+    // static public System.Single CalculateHalfJumpDurationInBeats(System.Single startHalfJumpDurationInBeats, System.Single maxHalfJumpDistance, System.Single noteJumpMovementSpeed, System.Single oneBeatDuration, System.Single noteJumpStartBeatOffset)
+    // Offset: 0x2AF0E5C
+    static float CalculateHalfJumpDurationInBeats(float startHalfJumpDurationInBeats, float maxHalfJumpDistance, float noteJumpMovementSpeed, float oneBeatDuration, float noteJumpStartBeatOffset);
+    // static public System.Single __CalculateHalfJumpDurationInBeatsV2(System.Single startHalfJumpDurationInBeats, System.Single maxHalfJumpDistance, System.Single noteJumpMovementSpeed, System.Single oneBeatDuration, System.Single noteJumpStartBeatOffset)
+    // Offset: 0x2AF0E9C
+    static float __CalculateHalfJumpDurationInBeatsV2(float startHalfJumpDurationInBeats, float maxHalfJumpDistance, float noteJumpMovementSpeed, float oneBeatDuration, float noteJumpStartBeatOffset);
+    // static public System.Int32 __CalculateHalfJumpDurationInBeatsV1(System.Single startHalfJumpDurationInBeats, System.Single maxHalfJumpDistance, System.Single noteJumpMovementSpeed, System.Single oneBeatDuration, System.Single minHalfJumpDistance)
+    // Offset: 0x2AF0ED0
+    static int __CalculateHalfJumpDurationInBeatsV1(float startHalfJumpDurationInBeats, float maxHalfJumpDistance, float noteJumpMovementSpeed, float oneBeatDuration, float minHalfJumpDistance);
   }; // CoreMathUtils
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::CoreMathUtils::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CoreMathUtils::CalculateHalfJumpDurationInBeats
 // Il2CppName: CalculateHalfJumpDurationInBeats
 template<>
@@ -95,7 +97,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(flo
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CoreMathUtils*), "__CalculateHalfJumpDurationInBeatsV1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{startHalfJumpDurationInBeats, maxHalfJumpDistance, noteJumpMovementSpeed, oneBeatDuration, minHalfJumpDistance});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CoreMathUtils::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

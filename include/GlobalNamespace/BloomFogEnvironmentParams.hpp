@@ -28,15 +28,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomFogEnvironmentParams : public ::GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single attenuation
     // Size: 0x4
     // Offset: 0x18
@@ -65,20 +57,15 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single attenuation
-    float& dyn_attenuation();
+    [[deprecated("Use field access instead!")]] float& dyn_attenuation();
     // Get instance field reference: public System.Single offset
-    float& dyn_offset();
+    [[deprecated("Use field access instead!")]] float& dyn_offset();
     // Get instance field reference: public System.Single heightFogStartY
-    float& dyn_heightFogStartY();
+    [[deprecated("Use field access instead!")]] float& dyn_heightFogStartY();
     // Get instance field reference: public System.Single heightFogHeight
-    float& dyn_heightFogHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_heightFogHeight();
     // public System.Void .ctor()
-    // Offset: 0x2AC939C
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E72764
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomFogEnvironmentParams* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomFogEnvironmentParams::.ctor");

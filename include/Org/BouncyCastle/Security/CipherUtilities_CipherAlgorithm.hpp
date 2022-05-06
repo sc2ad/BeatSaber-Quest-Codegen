@@ -273,7 +273,7 @@ namespace Org::BouncyCastle::Security {
     // Set static field: static public Org.BouncyCastle.Security.CipherUtilities/Org.BouncyCastle.Security.CipherAlgorithm XTEA
     static void _set_XTEA(::Org::BouncyCastle::Security::CipherUtilities::CipherAlgorithm value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Org.BouncyCastle.Security.CipherUtilities/Org.BouncyCastle.Security.CipherAlgorithm
   #pragma pack(pop)
   static check_size<sizeof(CipherUtilities::CipherAlgorithm), 0 + sizeof(int)> __Org_BouncyCastle_Security_CipherUtilities_CipherAlgorithmSizeCheck;

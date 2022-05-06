@@ -31,15 +31,7 @@ namespace UnityEngine::Networking::PlayerConnection {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PlayerConnection::$$c__DisplayClass20_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean msgReceived
     // Size: 0x1
     // Offset: 0x10
@@ -52,25 +44,27 @@ namespace UnityEngine::Networking::PlayerConnection {
       return msgReceived;
     }
     // Get instance field reference: public System.Boolean msgReceived
-    bool& dyn_msgReceived();
-    // System.Void <BlockUntilRecvMsg>b__0(UnityEngine.Networking.PlayerConnection.MessageEventArgs args)
-    // Offset: 0x1FFD02C
-    void $BlockUntilRecvMsg$b__0(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
+    [[deprecated("Use field access instead!")]] bool& dyn_msgReceived();
     // public System.Void .ctor()
-    // Offset: 0x1FFC6B0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2045F24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerConnection::$$c__DisplayClass20_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerConnection::$$c__DisplayClass20_0*, creationType>()));
     }
+    // System.Void <BlockUntilRecvMsg>b__0(UnityEngine.Networking.PlayerConnection.MessageEventArgs args)
+    // Offset: 0x20468A0
+    void $BlockUntilRecvMsg$b__0(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
   }; // UnityEngine.Networking.PlayerConnection.PlayerConnection/UnityEngine.Networking.PlayerConnection.<>c__DisplayClass20_0
   #pragma pack(pop)
   static check_size<sizeof(PlayerConnection::$$c__DisplayClass20_0), 16 + sizeof(bool)> __UnityEngine_Networking_PlayerConnection_PlayerConnection_$$c__DisplayClass20_0SizeCheck;
   static_assert(sizeof(PlayerConnection::$$c__DisplayClass20_0) == 0x11);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0::$BlockUntilRecvMsg$b__0
 // Il2CppName: <BlockUntilRecvMsg>b__0
 template<>
@@ -80,7 +74,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0*), "<BlockUntilRecvMsg>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

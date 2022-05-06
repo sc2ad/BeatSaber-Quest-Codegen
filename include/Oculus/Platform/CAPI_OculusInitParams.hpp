@@ -63,15 +63,15 @@ namespace Oculus::Platform {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 sType
-    int& dyn_sType();
+    [[deprecated("Use field access instead!")]] int& dyn_sType();
     // Get instance field reference: public System.String email
-    ::StringW& dyn_email();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_email();
     // Get instance field reference: public System.String password
-    ::StringW& dyn_password();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_password();
     // Get instance field reference: public System.UInt64 appId
-    uint64_t& dyn_appId();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_appId();
     // Get instance field reference: public System.String uriPrefixOverride
-    ::StringW& dyn_uriPrefixOverride();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_uriPrefixOverride();
   }; // Oculus.Platform.CAPI/Oculus.Platform.OculusInitParams
   #pragma pack(pop)
   static check_size<sizeof(CAPI::OculusInitParams), 32 + sizeof(::StringW)> __Oculus_Platform_CAPI_OculusInitParamsSizeCheck;

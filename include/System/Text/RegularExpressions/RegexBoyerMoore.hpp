@@ -35,15 +35,7 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class RegexBoyerMoore : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int32[] _positive
     // Size: 0x8
     // Offset: 0x10
@@ -102,41 +94,41 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(::System::Globalization::CultureInfo*) == 0x8);
     public:
     // Get instance field reference: System.Int32[] _positive
-    ::ArrayW<int>& dyn__positive();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__positive();
     // Get instance field reference: System.Int32[] _negativeASCII
-    ::ArrayW<int>& dyn__negativeASCII();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__negativeASCII();
     // Get instance field reference: System.Int32[][] _negativeUnicode
-    ::ArrayW<::ArrayW<int>>& dyn__negativeUnicode();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::ArrayW<int>>& dyn__negativeUnicode();
     // Get instance field reference: System.String _pattern
-    ::StringW& dyn__pattern();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__pattern();
     // Get instance field reference: System.Int32 _lowASCII
-    int& dyn__lowASCII();
+    [[deprecated("Use field access instead!")]] int& dyn__lowASCII();
     // Get instance field reference: System.Int32 _highASCII
-    int& dyn__highASCII();
+    [[deprecated("Use field access instead!")]] int& dyn__highASCII();
     // Get instance field reference: System.Boolean _rightToLeft
-    bool& dyn__rightToLeft();
+    [[deprecated("Use field access instead!")]] bool& dyn__rightToLeft();
     // Get instance field reference: System.Boolean _caseInsensitive
-    bool& dyn__caseInsensitive();
+    [[deprecated("Use field access instead!")]] bool& dyn__caseInsensitive();
     // Get instance field reference: System.Globalization.CultureInfo _culture
-    ::System::Globalization::CultureInfo*& dyn__culture();
+    [[deprecated("Use field access instead!")]] ::System::Globalization::CultureInfo*& dyn__culture();
     // System.Void .ctor(System.String pattern, System.Boolean caseInsensitive, System.Boolean rightToLeft, System.Globalization.CultureInfo culture)
-    // Offset: 0x1BC7078
+    // Offset: 0x1C01660
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexBoyerMoore* New_ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, ::System::Globalization::CultureInfo* culture) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexBoyerMoore::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexBoyerMoore*, creationType>(pattern, caseInsensitive, rightToLeft, culture)));
     }
     // private System.Boolean MatchPattern(System.String text, System.Int32 index)
-    // Offset: 0x1BC754C
+    // Offset: 0x1C01B34
     bool MatchPattern(::StringW text, int index);
     // System.Boolean IsMatch(System.String text, System.Int32 index, System.Int32 beglimit, System.Int32 endlimit)
-    // Offset: 0x1BC7674
+    // Offset: 0x1C01C5C
     bool IsMatch(::StringW text, int index, int beglimit, int endlimit);
     // System.Int32 Scan(System.String text, System.Int32 index, System.Int32 beglimit, System.Int32 endlimit)
-    // Offset: 0x1BC76E4
+    // Offset: 0x1C01CCC
     int Scan(::StringW text, int index, int beglimit, int endlimit);
     // public override System.String ToString()
-    // Offset: 0x1BC7A28
+    // Offset: 0x1C02010
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

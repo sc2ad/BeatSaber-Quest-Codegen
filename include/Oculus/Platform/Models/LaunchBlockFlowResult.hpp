@@ -28,15 +28,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class LaunchBlockFlowResult : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Boolean DidBlock
     // Size: 0x1
     // Offset: 0x10
@@ -51,11 +43,11 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public readonly System.Boolean DidBlock
-    bool& dyn_DidBlock();
+    [[deprecated("Use field access instead!")]] bool& dyn_DidBlock();
     // Get instance field reference: public readonly System.Boolean DidCancel
-    bool& dyn_DidCancel();
+    [[deprecated("Use field access instead!")]] bool& dyn_DidCancel();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19AD8F4
+    // Offset: 0x19E6EDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LaunchBlockFlowResult* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::LaunchBlockFlowResult::.ctor");

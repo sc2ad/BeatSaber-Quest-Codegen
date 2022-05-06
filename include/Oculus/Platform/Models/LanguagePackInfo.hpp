@@ -29,15 +29,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class LanguagePackInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.String EnglishName
     // Size: 0x8
     // Offset: 0x10
@@ -58,13 +50,13 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly System.String EnglishName
-    ::StringW& dyn_EnglishName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_EnglishName();
     // Get instance field reference: public readonly System.String NativeName
-    ::StringW& dyn_NativeName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_NativeName();
     // Get instance field reference: public readonly System.String Tag
-    ::StringW& dyn_Tag();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Tag();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19B3DC8
+    // Offset: 0x19ED3B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LanguagePackInfo* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::LanguagePackInfo::.ctor");

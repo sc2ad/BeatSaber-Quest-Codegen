@@ -42,15 +42,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class GameScenesManager::$$c__DisplayClass34_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public GameScenesManager/ScenesStackData scenesStackData
     // Size: 0x8
     // Offset: 0x10
@@ -77,34 +69,36 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action_1<::Zenject::DiContainer*>*) == 0x8);
     public:
     // Get instance field reference: public GameScenesManager/ScenesStackData scenesStackData
-    ::GlobalNamespace::GameScenesManager::ScenesStackData*& dyn_scenesStackData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager::ScenesStackData*& dyn_scenesStackData();
     // Get instance field reference: public ScenesTransitionSetupDataSO scenesTransitionSetupData
-    ::GlobalNamespace::ScenesTransitionSetupDataSO*& dyn_scenesTransitionSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ScenesTransitionSetupDataSO*& dyn_scenesTransitionSetupData();
     // Get instance field reference: public GameScenesManager <>4__this
-    ::GlobalNamespace::GameScenesManager*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager*& dyn_$$4__this();
     // Get instance field reference: public System.Action`1<Zenject.DiContainer> finishCallback
-    ::System::Action_1<::Zenject::DiContainer*>*& dyn_finishCallback();
-    // System.Void <AppendScenes>b__0(Zenject.DiContainer container)
-    // Offset: 0x1570B4C
-    void $AppendScenes$b__0(::Zenject::DiContainer* container);
-    // System.Void <AppendScenes>b__1(Zenject.DiContainer container)
-    // Offset: 0x1570BF0
-    void $AppendScenes$b__1(::Zenject::DiContainer* container);
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::Zenject::DiContainer*>*& dyn_finishCallback();
     // public System.Void .ctor()
-    // Offset: 0x156F448
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15A5D58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameScenesManager::$$c__DisplayClass34_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameScenesManager::$$c__DisplayClass34_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameScenesManager::$$c__DisplayClass34_0*, creationType>()));
     }
+    // System.Void <AppendScenes>b__0(Zenject.DiContainer container)
+    // Offset: 0x15A745C
+    void $AppendScenes$b__0(::Zenject::DiContainer* container);
+    // System.Void <AppendScenes>b__1(Zenject.DiContainer container)
+    // Offset: 0x15A7500
+    void $AppendScenes$b__1(::Zenject::DiContainer* container);
   }; // GameScenesManager/<>c__DisplayClass34_0
   #pragma pack(pop)
   static check_size<sizeof(GameScenesManager::$$c__DisplayClass34_0), 40 + sizeof(::System::Action_1<::Zenject::DiContainer*>*)> __GlobalNamespace_GameScenesManager_$$c__DisplayClass34_0SizeCheck;
   static_assert(sizeof(GameScenesManager::$$c__DisplayClass34_0) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::$$c__DisplayClass34_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::$$c__DisplayClass34_0::$AppendScenes$b__0
 // Il2CppName: <AppendScenes>b__0
 template<>
@@ -123,7 +117,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager::$$c__DisplayClass34_0*), "<AppendScenes>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::$$c__DisplayClass34_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

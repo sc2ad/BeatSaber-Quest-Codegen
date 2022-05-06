@@ -44,15 +44,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0::$$GetBeatmapData$b__3$d
     struct $$GetBeatmapData$b__3$d;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public BeatmapIdentifierNetSerializable beatmap
     // Size: 0x8
     // Offset: 0x10
@@ -73,35 +65,37 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::IDifficultyBeatmap*) == 0x8);
     public:
     // Get instance field reference: public BeatmapIdentifierNetSerializable beatmap
-    ::GlobalNamespace::BeatmapIdentifierNetSerializable*& dyn_beatmap();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapIdentifierNetSerializable*& dyn_beatmap();
     // Get instance field reference: public IReadonlyBeatmapData beatmapData
-    ::GlobalNamespace::IReadonlyBeatmapData*& dyn_beatmapData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IReadonlyBeatmapData*& dyn_beatmapData();
     // Get instance field reference: public IDifficultyBeatmap difficultyBeatmap
-    ::GlobalNamespace::IDifficultyBeatmap*& dyn_difficultyBeatmap();
-    // System.Boolean <GetBeatmapData>b__0(IDifficultyBeatmapSet bds)
-    // Offset: 0x13C4A94
-    bool $GetBeatmapData$b__0(::GlobalNamespace::IDifficultyBeatmapSet* bds);
-    // System.Boolean <GetBeatmapData>b__2(IDifficultyBeatmap dbm)
-    // Offset: 0x13C4B68
-    bool $GetBeatmapData$b__2(::GlobalNamespace::IDifficultyBeatmap* dbm);
-    // System.Threading.Tasks.Task <GetBeatmapData>b__3()
-    // Offset: 0x13C4C3C
-    ::System::Threading::Tasks::Task* $GetBeatmapData$b__3();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IDifficultyBeatmap*& dyn_difficultyBeatmap();
     // public System.Void .ctor()
-    // Offset: 0x13C4A8C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13C0F38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockBeatmapLoader::$$c__DisplayClass2_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockBeatmapLoader::$$c__DisplayClass2_0*, creationType>()));
     }
+    // System.Boolean <GetBeatmapData>b__0(IDifficultyBeatmapSet bds)
+    // Offset: 0x13C0F40
+    bool $GetBeatmapData$b__0(::GlobalNamespace::IDifficultyBeatmapSet* bds);
+    // System.Boolean <GetBeatmapData>b__2(IDifficultyBeatmap dbm)
+    // Offset: 0x13C1014
+    bool $GetBeatmapData$b__2(::GlobalNamespace::IDifficultyBeatmap* dbm);
+    // System.Threading.Tasks.Task <GetBeatmapData>b__3()
+    // Offset: 0x13C10E8
+    ::System::Threading::Tasks::Task* $GetBeatmapData$b__3();
   }; // MockBeatmapLoader/<>c__DisplayClass2_0
   #pragma pack(pop)
   static check_size<sizeof(MockBeatmapLoader::$$c__DisplayClass2_0), 32 + sizeof(::GlobalNamespace::IDifficultyBeatmap*)> __GlobalNamespace_MockBeatmapLoader_$$c__DisplayClass2_0SizeCheck;
   static_assert(sizeof(MockBeatmapLoader::$$c__DisplayClass2_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0::$GetBeatmapData$b__0
 // Il2CppName: <GetBeatmapData>b__0
 template<>
@@ -128,7 +122,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0*), "<GetBeatmapData>b__3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

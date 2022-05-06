@@ -25,15 +25,7 @@ namespace BeatmapSaveDataVersion3 {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapSaveData::BpmChangeEventData : public ::BeatmapSaveDataVersion3::BeatmapSaveData::BeatmapSaveDataItem {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single m
     // Size: 0x4
     // Offset: 0x14
@@ -44,12 +36,12 @@ namespace BeatmapSaveDataVersion3 {
     // Deleting conversion operator: operator float
     constexpr operator float() const noexcept = delete;
     // Get instance field reference: public System.Single m
-    float& dyn_m();
+    [[deprecated("Use field access instead!")]] float& dyn_m();
     // public System.Single get_bpm()
-    // Offset: 0x281B220
+    // Offset: 0x286D7E0
     float get_bpm();
     // public System.Void .ctor(System.Single beat, System.Single bpm)
-    // Offset: 0x281ADB8
+    // Offset: 0x286D378
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::BpmChangeEventData* New_ctor(float beat, float bpm) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::BpmChangeEventData::.ctor");

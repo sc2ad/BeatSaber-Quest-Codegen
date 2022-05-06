@@ -40,15 +40,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class InputFieldSettingsController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.InputFieldView _inputFieldView
     // Size: 0x8
     // Offset: 0x18
@@ -65,40 +57,38 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.InputFieldView _inputFieldView
-    ::HMUI::InputFieldView*& dyn__inputFieldView();
+    [[deprecated("Use field access instead!")]] ::HMUI::InputFieldView*& dyn__inputFieldView();
     // Get instance field reference: protected StringSO _settingsValue
-    ::GlobalNamespace::StringSO*& dyn__settingsValue();
-    // protected System.Void Awake()
-    // Offset: 0x13B443C
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13B44DC
-    void OnDestroy();
-    // protected System.Void OnEnable()
-    // Offset: 0x13B457C
-    void OnEnable();
-    // protected System.Void HandleInputFieldDidChange(HMUI.InputFieldView inputFieldView)
-    // Offset: 0x13B45D8
-    void HandleInputFieldDidChange(::HMUI::InputFieldView* inputFieldView);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::StringSO*& dyn__settingsValue();
     // public System.Void .ctor()
-    // Offset: 0x13B4644
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13AFAF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InputFieldSettingsController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::InputFieldSettingsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InputFieldSettingsController*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x13AF8E8
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13AF988
+    void OnDestroy();
+    // protected System.Void OnEnable()
+    // Offset: 0x13AFA28
+    void OnEnable();
+    // protected System.Void HandleInputFieldDidChange(HMUI.InputFieldView inputFieldView)
+    // Offset: 0x13AFA84
+    void HandleInputFieldDidChange(::HMUI::InputFieldView* inputFieldView);
   }; // InputFieldSettingsController
   #pragma pack(pop)
   static check_size<sizeof(InputFieldSettingsController), 32 + sizeof(::GlobalNamespace::StringSO*)> __GlobalNamespace_InputFieldSettingsControllerSizeCheck;
   static_assert(sizeof(InputFieldSettingsController) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::InputFieldSettingsController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::InputFieldSettingsController::Awake
 // Il2CppName: Awake
 template<>
@@ -132,7 +122,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InputFieldSettingsController*), "HandleInputFieldDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputFieldView});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::InputFieldSettingsController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

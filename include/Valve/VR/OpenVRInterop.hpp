@@ -41,43 +41,45 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   class OpenVRInterop : public ::Il2CppObject {
     public:
-    // static System.UInt32 InitInternal(ref Valve.VR.EVRInitError peError, Valve.VR.EVRApplicationType eApplicationType)
-    // Offset: 0x2A508E0
-    static uint InitInternal(ByRef<::Valve::VR::EVRInitError> peError, ::Valve::VR::EVRApplicationType eApplicationType);
-    // static System.Void ShutdownInternal()
-    // Offset: 0x2A50970
-    static void ShutdownInternal();
-    // static System.Boolean IsHmdPresent()
-    // Offset: 0x2A509E0
-    static bool IsHmdPresent();
-    // static System.Boolean IsRuntimeInstalled()
-    // Offset: 0x2A50A5C
-    static bool IsRuntimeInstalled();
-    // static System.IntPtr GetStringForHmdError(Valve.VR.EVRInitError error)
-    // Offset: 0x2A50AD8
-    static ::System::IntPtr GetStringForHmdError(::Valve::VR::EVRInitError error);
-    // static System.IntPtr GetGenericInterface(in System.String pchInterfaceVersion, ref Valve.VR.EVRInitError peError)
-    // Offset: 0x2A500B8
-    static ::System::IntPtr GetGenericInterface(ByRef<::StringW> pchInterfaceVersion, ByRef<::Valve::VR::EVRInitError> peError);
-    // static System.Boolean IsInterfaceVersionValid(in System.String pchInterfaceVersion)
-    // Offset: 0x2A50B58
-    static bool IsInterfaceVersionValid(ByRef<::StringW> pchInterfaceVersion);
-    // static System.UInt32 GetInitToken()
-    // Offset: 0x2A50BF4
-    static uint GetInitToken();
     // public System.Void .ctor()
-    // Offset: 0x2A50C68
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2AA8050
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OpenVRInterop* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Valve::VR::OpenVRInterop::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OpenVRInterop*, creationType>()));
     }
+    // static System.UInt32 InitInternal(ref Valve.VR.EVRInitError peError, Valve.VR.EVRApplicationType eApplicationType)
+    // Offset: 0x2AA7CC8
+    static uint InitInternal(ByRef<::Valve::VR::EVRInitError> peError, ::Valve::VR::EVRApplicationType eApplicationType);
+    // static System.Void ShutdownInternal()
+    // Offset: 0x2AA7D58
+    static void ShutdownInternal();
+    // static System.Boolean IsHmdPresent()
+    // Offset: 0x2AA7DC8
+    static bool IsHmdPresent();
+    // static System.Boolean IsRuntimeInstalled()
+    // Offset: 0x2AA7E44
+    static bool IsRuntimeInstalled();
+    // static System.IntPtr GetStringForHmdError(Valve.VR.EVRInitError error)
+    // Offset: 0x2AA7EC0
+    static ::System::IntPtr GetStringForHmdError(::Valve::VR::EVRInitError error);
+    // static System.IntPtr GetGenericInterface(in System.String pchInterfaceVersion, ref Valve.VR.EVRInitError peError)
+    // Offset: 0x2AA74A0
+    static ::System::IntPtr GetGenericInterface(ByRef<::StringW> pchInterfaceVersion, ByRef<::Valve::VR::EVRInitError> peError);
+    // static System.Boolean IsInterfaceVersionValid(in System.String pchInterfaceVersion)
+    // Offset: 0x2AA7F40
+    static bool IsInterfaceVersionValid(ByRef<::StringW> pchInterfaceVersion);
+    // static System.UInt32 GetInitToken()
+    // Offset: 0x2AA7FDC
+    static uint GetInitToken();
   }; // Valve.VR.OpenVRInterop
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Valve::VR::OpenVRInterop::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Valve::VR::OpenVRInterop::InitInternal
 // Il2CppName: InitInternal
 template<>
@@ -148,7 +150,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)()>
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVRInterop*), "GetInitToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Valve::VR::OpenVRInterop::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

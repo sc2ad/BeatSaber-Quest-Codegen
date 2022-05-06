@@ -30,15 +30,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LobbyPlayerData : public ::GlobalNamespace::LevelGameplaySetupData/*, public ::GlobalNamespace::ILobbyPlayerData*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean <isPartyOwner>k__BackingField
     // Size: 0x1
     // Offset: 0x20
@@ -69,42 +61,41 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::ILobbyPlayerData*>(this);
     }
     // Get instance field reference: private System.Boolean <isPartyOwner>k__BackingField
-    bool& dyn_$isPartyOwner$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$isPartyOwner$k__BackingField();
     // Get instance field reference: private System.Boolean <isActive>k__BackingField
-    bool& dyn_$isActive$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$isActive$k__BackingField();
     // Get instance field reference: private System.Boolean <isReady>k__BackingField
-    bool& dyn_$isReady$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$isReady$k__BackingField();
     // Get instance field reference: private System.Boolean <isInLobby>k__BackingField
-    bool& dyn_$isInLobby$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$isInLobby$k__BackingField();
     // public System.Boolean get_isPartyOwner()
-    // Offset: 0x151EFB4
+    // Offset: 0x15568BC
     bool get_isPartyOwner();
     // public System.Void set_isPartyOwner(System.Boolean value)
-    // Offset: 0x151EFBC
+    // Offset: 0x15568C4
     void set_isPartyOwner(bool value);
     // public System.Boolean get_isActive()
-    // Offset: 0x151EFC8
+    // Offset: 0x15568D0
     bool get_isActive();
     // public System.Void set_isActive(System.Boolean value)
-    // Offset: 0x151EFD0
+    // Offset: 0x15568D8
     void set_isActive(bool value);
     // public System.Boolean get_isReady()
-    // Offset: 0x151EFDC
+    // Offset: 0x15568E4
     bool get_isReady();
     // public System.Void set_isReady(System.Boolean value)
-    // Offset: 0x151EFE4
+    // Offset: 0x15568EC
     void set_isReady(bool value);
     // public System.Boolean get_isInLobby()
-    // Offset: 0x151EFF0
+    // Offset: 0x15568F8
     bool get_isInLobby();
     // public System.Void set_isInLobby(System.Boolean value)
-    // Offset: 0x151EFF8
+    // Offset: 0x1556900
     void set_isInLobby(bool value);
     // public System.Void .ctor()
-    // Offset: 0x151F004
+    // Offset: 0x155690C
     // Implemented from: LevelGameplaySetupData
     // Base method: System.Void LevelGameplaySetupData::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LobbyPlayerData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LobbyPlayerData::.ctor");

@@ -82,26 +82,26 @@ namespace LIV::SDK::Unity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.SByte pose
-    int8_t& dyn_pose();
+    [[deprecated("Use field access instead!")]] int8_t& dyn_pose();
     // Get instance field reference: public System.SByte clipPlane
-    int8_t& dyn_clipPlane();
+    [[deprecated("Use field access instead!")]] int8_t& dyn_clipPlane();
     // Get instance field reference: public System.SByte stage
-    int8_t& dyn_stage();
+    [[deprecated("Use field access instead!")]] int8_t& dyn_stage();
     // Get instance field reference: public System.SByte resolution
-    int8_t& dyn_resolution();
+    [[deprecated("Use field access instead!")]] int8_t& dyn_resolution();
     // Get instance field reference: public System.SByte feature
-    int8_t& dyn_feature();
+    [[deprecated("Use field access instead!")]] int8_t& dyn_feature();
     // Get instance field reference: public System.SByte nearFarAdjustment
-    int8_t& dyn_nearFarAdjustment();
+    [[deprecated("Use field access instead!")]] int8_t& dyn_nearFarAdjustment();
     // Get instance field reference: public System.SByte groundPlane
-    int8_t& dyn_groundPlane();
+    [[deprecated("Use field access instead!")]] int8_t& dyn_groundPlane();
     // Get instance field reference: public System.SByte reserved2
-    int8_t& dyn_reserved2();
+    [[deprecated("Use field access instead!")]] int8_t& dyn_reserved2();
     // static public LIV.SDK.Unity.SDKPriority get_empty()
-    // Offset: 0x29FBF6C
+    // Offset: 0x2A529DC
     static ::LIV::SDK::Unity::SDKPriority get_empty();
     // public override System.String ToString()
-    // Offset: 0x29FD09C
+    // Offset: 0x2A53B0C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

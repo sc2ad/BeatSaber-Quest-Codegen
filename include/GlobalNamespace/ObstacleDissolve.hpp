@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ObstacleDissolve : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private ObstacleControllerBase _obstacleController
     // Size: 0x8
     // Offset: 0x18
@@ -62,40 +54,38 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ObstacleControllerBase _obstacleController
-    ::GlobalNamespace::ObstacleControllerBase*& dyn__obstacleController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ObstacleControllerBase*& dyn__obstacleController();
     // Get instance field reference: private CutoutAnimateEffect _cutoutAnimateEffect
-    ::GlobalNamespace::CutoutAnimateEffect*& dyn__cutoutAnimateEffect();
-    // protected System.Void Awake()
-    // Offset: 0x147F0A4
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x147F17C
-    void OnDestroy();
-    // private System.Void HandleObstacleDidInitEvent(ObstacleControllerBase obstacleController)
-    // Offset: 0x147F298
-    void HandleObstacleDidInitEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController);
-    // private System.Void HandleObcstacleDidStartDissolvingEvent(ObstacleControllerBase obstacleController, System.Single duration)
-    // Offset: 0x147F2B4
-    void HandleObcstacleDidStartDissolvingEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController, float duration);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::CutoutAnimateEffect*& dyn__cutoutAnimateEffect();
     // public System.Void .ctor()
-    // Offset: 0x147F2DC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14B5B5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleDissolve* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObstacleDissolve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleDissolve*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x14B5924
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x14B59FC
+    void OnDestroy();
+    // private System.Void HandleObstacleDidInitEvent(ObstacleControllerBase obstacleController)
+    // Offset: 0x14B5B18
+    void HandleObstacleDidInitEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController);
+    // private System.Void HandleObcstacleDidStartDissolvingEvent(ObstacleControllerBase obstacleController, System.Single duration)
+    // Offset: 0x14B5B34
+    void HandleObcstacleDidStartDissolvingEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController, float duration);
   }; // ObstacleDissolve
   #pragma pack(pop)
   static check_size<sizeof(ObstacleDissolve), 32 + sizeof(::GlobalNamespace::CutoutAnimateEffect*)> __GlobalNamespace_ObstacleDissolveSizeCheck;
   static_assert(sizeof(ObstacleDissolve) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleDissolve::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleDissolve::Awake
 // Il2CppName: Awake
 template<>
@@ -131,7 +121,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleDissolve*), "HandleObcstacleDidStartDissolvingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obstacleController, duration});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ObstacleDissolve::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

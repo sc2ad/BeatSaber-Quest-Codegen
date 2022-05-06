@@ -26,15 +26,7 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class AbstractEventData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected System.Boolean m_Used
     // Size: 0x1
     // Offset: 0x10
@@ -47,25 +39,23 @@ namespace UnityEngine::EventSystems {
       return m_Used;
     }
     // Get instance field reference: protected System.Boolean m_Used
-    bool& dyn_m_Used();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_Used();
     // public System.Boolean get_used()
-    // Offset: 0x18F218C
+    // Offset: 0x192BA9C
     bool get_used();
-    // public System.Void Reset()
-    // Offset: 0x18F2178
-    void Reset();
-    // public System.Void Use()
-    // Offset: 0x18F2180
-    void Use();
     // protected System.Void .ctor()
-    // Offset: 0x18F2194
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x192BAA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AbstractEventData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::AbstractEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AbstractEventData*, creationType>()));
     }
+    // public System.Void Reset()
+    // Offset: 0x192BA88
+    void Reset();
+    // public System.Void Use()
+    // Offset: 0x192BA90
+    void Use();
   }; // UnityEngine.EventSystems.AbstractEventData
   #pragma pack(pop)
   static check_size<sizeof(AbstractEventData), 16 + sizeof(bool)> __UnityEngine_EventSystems_AbstractEventDataSizeCheck;
@@ -80,6 +70,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::AbstractEventData*), "get_used", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::EventSystems::AbstractEventData::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::EventSystems::AbstractEventData::Reset
 // Il2CppName: Reset
 template<>
@@ -96,7 +90,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::AbstractEventData*), "Use", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::EventSystems::AbstractEventData::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

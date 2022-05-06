@@ -54,7 +54,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.RectSelectMode Complete
     static void _set_Complete(::UnityEngine::ProBuilder::RectSelectMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.ProBuilder.RectSelectMode
   #pragma pack(pop)
   static check_size<sizeof(RectSelectMode), 0 + sizeof(int)> __UnityEngine_ProBuilder_RectSelectModeSizeCheck;

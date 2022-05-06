@@ -64,15 +64,7 @@ namespace GlobalNamespace {
     class $$c;
     // Nested type: ::GlobalNamespace::MissionMapAnimationController::$UpdateNodesAndConnectionCoroutine$d__15
     class $UpdateNodesAndConnectionCoroutine$d__15;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MissionNodesManager _missionNodesManager
     // Size: 0x8
     // Offset: 0x18
@@ -85,7 +77,7 @@ namespace GlobalNamespace {
     ::HMUI::ScrollView* mapScrollView;
     // Field size check
     static_assert(sizeof(::HMUI::ScrollView*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1259AEC
+    // [SpaceAttribute] Offset: 0x10DE6D0
     // private System.Single _startDelay
     // Size: 0x4
     // Offset: 0x28
@@ -118,7 +110,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: stageAnimationDuration and: shockwaveEffect
     char __padding6[0x4] = {};
-    // [InjectAttribute] Offset: 0x1259B64
+    // [InjectAttribute] Offset: 0x10DE748
     // private MenuShockwave _shockwaveEffect
     // Size: 0x8
     // Offset: 0x40
@@ -129,55 +121,49 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionNodesManager _missionNodesManager
-    ::GlobalNamespace::MissionNodesManager*& dyn__missionNodesManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionNodesManager*& dyn__missionNodesManager();
     // Get instance field reference: private HMUI.ScrollView _mapScrollView
-    ::HMUI::ScrollView*& dyn__mapScrollView();
+    [[deprecated("Use field access instead!")]] ::HMUI::ScrollView*& dyn__mapScrollView();
     // Get instance field reference: private System.Single _startDelay
-    float& dyn__startDelay();
+    [[deprecated("Use field access instead!")]] float& dyn__startDelay();
     // Get instance field reference: private System.Single _stageAnimationStartDelay
-    float& dyn__stageAnimationStartDelay();
+    [[deprecated("Use field access instead!")]] float& dyn__stageAnimationStartDelay();
     // Get instance field reference: private System.Single _missionConnectionAnimationStartDelay
-    float& dyn__missionConnectionAnimationStartDelay();
+    [[deprecated("Use field access instead!")]] float& dyn__missionConnectionAnimationStartDelay();
     // Get instance field reference: private System.Single _missionConnectionAnimationSeparationTime
-    float& dyn__missionConnectionAnimationSeparationTime();
+    [[deprecated("Use field access instead!")]] float& dyn__missionConnectionAnimationSeparationTime();
     // Get instance field reference: private System.Single _stageAnimationDuration
-    float& dyn__stageAnimationDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__stageAnimationDuration();
     // Get instance field reference: private MenuShockwave _shockwaveEffect
-    ::GlobalNamespace::MenuShockwave*& dyn__shockwaveEffect();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuShockwave*& dyn__shockwaveEffect();
     // public System.Boolean get_animatedUpdateIsRequired()
-    // Offset: 0x1307DB8
+    // Offset: 0x1304290
     bool get_animatedUpdateIsRequired();
-    // public System.Void ScrollToTopMostNotClearedMission()
-    // Offset: 0x1307F00
-    void ScrollToTopMostNotClearedMission();
-    // public System.Void UpdateMissionMapAfterMissionWasCleared(System.Boolean animated, System.Action finishCallback)
-    // Offset: 0x1308140
-    void UpdateMissionMapAfterMissionWasCleared(bool animated, ::System::Action* finishCallback);
-    // private System.Collections.IEnumerator UpdateMissionMapCoroutine(MissionNode lastClearedMissionNode, System.Action finishCallback)
-    // Offset: 0x130827C
-    ::System::Collections::IEnumerator* UpdateMissionMapCoroutine(::GlobalNamespace::MissionNode* lastClearedMissionNode, ::System::Action* finishCallback);
-    // private System.Collections.IEnumerator UpdateClearedNodeStateCoroutine(MissionNode lastClearedMissionNode)
-    // Offset: 0x130832C
-    ::System::Collections::IEnumerator* UpdateClearedNodeStateCoroutine(::GlobalNamespace::MissionNode* lastClearedMissionNode);
-    // private System.Collections.IEnumerator UpdateStageCoroutine()
-    // Offset: 0x13083D4
-    ::System::Collections::IEnumerator* UpdateStageCoroutine();
-    // private System.Collections.IEnumerator UpdateNodesAndConnectionCoroutine()
-    // Offset: 0x1308470
-    ::System::Collections::IEnumerator* UpdateNodesAndConnectionCoroutine();
     // public System.Void .ctor()
-    // Offset: 0x130850C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13049E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionMapAnimationController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionMapAnimationController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionMapAnimationController*, creationType>()));
     }
+    // public System.Void ScrollToTopMostNotClearedMission()
+    // Offset: 0x13043D8
+    void ScrollToTopMostNotClearedMission();
+    // public System.Void UpdateMissionMapAfterMissionWasCleared(System.Boolean animated, System.Action finishCallback)
+    // Offset: 0x1304618
+    void UpdateMissionMapAfterMissionWasCleared(bool animated, ::System::Action* finishCallback);
+    // private System.Collections.IEnumerator UpdateMissionMapCoroutine(MissionNode lastClearedMissionNode, System.Action finishCallback)
+    // Offset: 0x1304754
+    ::System::Collections::IEnumerator* UpdateMissionMapCoroutine(::GlobalNamespace::MissionNode* lastClearedMissionNode, ::System::Action* finishCallback);
+    // private System.Collections.IEnumerator UpdateClearedNodeStateCoroutine(MissionNode lastClearedMissionNode)
+    // Offset: 0x1304804
+    ::System::Collections::IEnumerator* UpdateClearedNodeStateCoroutine(::GlobalNamespace::MissionNode* lastClearedMissionNode);
+    // private System.Collections.IEnumerator UpdateStageCoroutine()
+    // Offset: 0x13048AC
+    ::System::Collections::IEnumerator* UpdateStageCoroutine();
+    // private System.Collections.IEnumerator UpdateNodesAndConnectionCoroutine()
+    // Offset: 0x1304948
+    ::System::Collections::IEnumerator* UpdateNodesAndConnectionCoroutine();
   }; // MissionMapAnimationController
   #pragma pack(pop)
   static check_size<sizeof(MissionMapAnimationController), 64 + sizeof(::GlobalNamespace::MenuShockwave*)> __GlobalNamespace_MissionMapAnimationControllerSizeCheck;
@@ -192,6 +178,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController*), "get_animatedUpdateIsRequired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::ScrollToTopMostNotClearedMission
 // Il2CppName: ScrollToTopMostNotClearedMission
 template<>
@@ -245,7 +235,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController*), "UpdateNodesAndConnectionCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

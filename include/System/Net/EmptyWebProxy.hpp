@@ -40,15 +40,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class EmptyWebProxy : public ::Il2CppObject/*, public ::System::Net::IWebProxy*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Net.ICredentials m_credentials
     // Size: 0x8
     // Offset: 0x10
@@ -65,25 +57,23 @@ namespace System::Net {
       return m_credentials;
     }
     // Get instance field reference: private System.Net.ICredentials m_credentials
-    ::System::Net::ICredentials*& dyn_m_credentials();
+    [[deprecated("Use field access instead!")]] ::System::Net::ICredentials*& dyn_m_credentials();
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x1A41A6C
+    // Offset: 0x1A7B054
     ::System::Net::ICredentials* get_Credentials();
-    // public System.Uri GetProxy(System.Uri uri)
-    // Offset: 0x1A41A5C
-    ::System::Uri* GetProxy(::System::Uri* uri);
-    // public System.Boolean IsBypassed(System.Uri uri)
-    // Offset: 0x1A41A64
-    bool IsBypassed(::System::Uri* uri);
     // public System.Void .ctor()
-    // Offset: 0x1A41A54
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1A7B03C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EmptyWebProxy* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::EmptyWebProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmptyWebProxy*, creationType>()));
     }
+    // public System.Uri GetProxy(System.Uri uri)
+    // Offset: 0x1A7B044
+    ::System::Uri* GetProxy(::System::Uri* uri);
+    // public System.Boolean IsBypassed(System.Uri uri)
+    // Offset: 0x1A7B04C
+    bool IsBypassed(::System::Uri* uri);
   }; // System.Net.EmptyWebProxy
   #pragma pack(pop)
   static check_size<sizeof(EmptyWebProxy), 16 + sizeof(::System::Net::ICredentials*)> __System_Net_EmptyWebProxySizeCheck;
@@ -98,6 +88,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::N
     return ::il2cpp_utils::FindMethod(classof(System::Net::EmptyWebProxy*), "get_Credentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Net::EmptyWebProxy::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::EmptyWebProxy::GetProxy
 // Il2CppName: GetProxy
 template<>
@@ -116,7 +110,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Net::EmptyWebProxy*), "IsBypassed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri});
   }
 };
-// Writing MetadataGetter for method: System::Net::EmptyWebProxy::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

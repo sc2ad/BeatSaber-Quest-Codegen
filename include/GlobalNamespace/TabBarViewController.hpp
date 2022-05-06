@@ -49,15 +49,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::TabBarViewController::TabBarItem
     class TabBarItem;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.TextSegmentedControl _segmentedControll
     // Size: 0x8
     // Offset: 0x70
@@ -90,57 +82,50 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private HMUI.TextSegmentedControl _segmentedControll
-    ::HMUI::TextSegmentedControl*& dyn__segmentedControll();
+    [[deprecated("Use field access instead!")]] ::HMUI::TextSegmentedControl*& dyn__segmentedControll();
     // Get instance field reference: private UnityEngine.UI.ContentSizeFitter _contentSizeFilter
-    ::UnityEngine::UI::ContentSizeFitter*& dyn__contentSizeFilter();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::ContentSizeFitter*& dyn__contentSizeFilter();
     // Get instance field reference: private System.String[] _labels
-    ::ArrayW<::StringW>& dyn__labels();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn__labels();
     // Get instance field reference: private TabBarViewController/TabBarItem[] _items
-    ::ArrayW<::GlobalNamespace::TabBarViewController::TabBarItem*>& dyn__items();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::TabBarViewController::TabBarItem*>& dyn__items();
     // Get instance field reference: private System.Boolean _shouldReloadData
-    bool& dyn__shouldReloadData();
+    [[deprecated("Use field access instead!")]] bool& dyn__shouldReloadData();
     // public System.Boolean get_sizeToFit()
-    // Offset: 0x1339908
+    // Offset: 0x141B838
     bool get_sizeToFit();
     // public System.Void set_sizeToFit(System.Boolean value)
-    // Offset: 0x13398E8
+    // Offset: 0x141B818
     void set_sizeToFit(bool value);
     // public System.Int32 get_selectedCellNumber()
-    // Offset: 0x1339924
+    // Offset: 0x141B854
     int get_selectedCellNumber();
-    // public System.Void Setup(TabBarViewController/TabBarItem[] items)
-    // Offset: 0x1339940
-    void Setup(::ArrayW<::GlobalNamespace::TabBarViewController::TabBarItem*> items);
-    // public System.Void SelectItem(System.Int32 index)
-    // Offset: 0x1339A7C
-    void SelectItem(int index);
-    // public System.Void Clear()
-    // Offset: 0x1339A98
-    void Clear();
-    // private System.Void HandleDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0x1339CA8
-    void HandleDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int cellNumber);
     // public System.Void .ctor()
-    // Offset: 0x1339CFC
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x141BC2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TabBarViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TabBarViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TabBarViewController*, creationType>()));
     }
+    // public System.Void Setup(TabBarViewController/TabBarItem[] items)
+    // Offset: 0x141B870
+    void Setup(::ArrayW<::GlobalNamespace::TabBarViewController::TabBarItem*> items);
+    // public System.Void SelectItem(System.Int32 index)
+    // Offset: 0x141B9AC
+    void SelectItem(int index);
+    // public System.Void Clear()
+    // Offset: 0x141B9C8
+    void Clear();
+    // private System.Void HandleDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
+    // Offset: 0x141BBD8
+    void HandleDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int cellNumber);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1339AF4
+    // Offset: 0x141BA24
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1339BC4
+    // Offset: 0x141BAF4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
@@ -175,6 +160,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TabBarViewController*), "get_selectedCellNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::Setup
 // Il2CppName: Setup
 template<>
@@ -211,10 +200,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TabBarViewController*), "HandleDidSelectCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{segmentedControl, cellNumber});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

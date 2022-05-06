@@ -35,15 +35,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlImplementation : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Xml.XmlNameTable nameTable
     // Size: 0x8
     // Offset: 0x10
@@ -56,29 +48,27 @@ namespace System::Xml {
       return nameTable;
     }
     // Get instance field reference: private System.Xml.XmlNameTable nameTable
-    ::System::Xml::XmlNameTable*& dyn_nameTable();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlNameTable*& dyn_nameTable();
     // System.Xml.XmlNameTable get_NameTable()
-    // Offset: 0x159C52C
+    // Offset: 0x15D1E3C
     ::System::Xml::XmlNameTable* get_NameTable();
+    // public System.Void .ctor()
+    // Offset: 0x15D1D40
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static XmlImplementation* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlImplementation::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<XmlImplementation*, creationType>()));
+    }
     // public System.Void .ctor(System.Xml.XmlNameTable nt)
-    // Offset: 0x159C49C
+    // Offset: 0x15D1DAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlImplementation* New_ctor(::System::Xml::XmlNameTable* nt) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlImplementation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlImplementation*, creationType>(nt)));
     }
     // public System.Xml.XmlDocument CreateDocument()
-    // Offset: 0x159C4C8
+    // Offset: 0x15D1DD8
     ::System::Xml::XmlDocument* CreateDocument();
-    // public System.Void .ctor()
-    // Offset: 0x159C430
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlImplementation* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlImplementation::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<XmlImplementation*, creationType>()));
-    }
   }; // System.Xml.XmlImplementation
   #pragma pack(pop)
   static check_size<sizeof(XmlImplementation), 16 + sizeof(::System::Xml::XmlNameTable*)> __System_Xml_XmlImplementationSizeCheck;
@@ -97,6 +87,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::X
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: System::Xml::XmlImplementation::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::XmlImplementation::CreateDocument
 // Il2CppName: CreateDocument
 template<>
@@ -105,7 +99,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::X
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlImplementation*), "CreateDocument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Xml::XmlImplementation::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

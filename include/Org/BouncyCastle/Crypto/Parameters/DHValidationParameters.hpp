@@ -27,15 +27,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class DHValidationParameters : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Byte[] seed
     // Size: 0x8
     // Offset: 0x10
@@ -50,26 +42,26 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private readonly System.Byte[] seed
-    ::ArrayW<uint8_t>& dyn_seed();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_seed();
     // Get instance field reference: private readonly System.Int32 counter
-    int& dyn_counter();
+    [[deprecated("Use field access instead!")]] int& dyn_counter();
     // public System.Void .ctor(System.Byte[] seed, System.Int32 counter)
-    // Offset: 0x15BEFB0
+    // Offset: 0x15F48C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHValidationParameters* New_ctor(::ArrayW<uint8_t> seed, int counter) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHValidationParameters*, creationType>(seed, counter)));
     }
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.DHValidationParameters other)
-    // Offset: 0x15BF13C
+    // Offset: 0x15F4A4C
     bool Equals(::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x15BF08C
+    // Offset: 0x15F499C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x15BF1E8
+    // Offset: 0x15F4AF8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

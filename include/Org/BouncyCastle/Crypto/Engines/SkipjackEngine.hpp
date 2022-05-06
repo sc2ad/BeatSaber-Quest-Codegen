@@ -37,15 +37,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class SkipjackEngine : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IBlockCipher*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32[] key0
     // Size: 0x8
     // Offset: 0x10
@@ -86,57 +78,55 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set static field: static private readonly System.Int16[] ftable
     static void _set_ftable(::ArrayW<int16_t> value);
     // Get instance field reference: private System.Int32[] key0
-    ::ArrayW<int>& dyn_key0();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_key0();
     // Get instance field reference: private System.Int32[] key1
-    ::ArrayW<int>& dyn_key1();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_key1();
     // Get instance field reference: private System.Int32[] key2
-    ::ArrayW<int>& dyn_key2();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_key2();
     // Get instance field reference: private System.Int32[] key3
-    ::ArrayW<int>& dyn_key3();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_key3();
     // Get instance field reference: private System.Boolean encrypting
-    bool& dyn_encrypting();
+    [[deprecated("Use field access instead!")]] bool& dyn_encrypting();
     // public System.String get_AlgorithmName()
-    // Offset: 0x23CBAAC
+    // Offset: 0x2414320
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x23CBAF4
+    // Offset: 0x2414368
     bool get_IsPartialBlockOkay();
     // static private System.Void .cctor()
-    // Offset: 0x23CC3D4
+    // Offset: 0x2414C48
     static void _cctor();
-    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x23CB778
-    void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-    // public System.Int32 GetBlockSize()
-    // Offset: 0x23CBAFC
-    int GetBlockSize();
-    // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x23CBB04
-    int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
-    // public System.Void Reset()
-    // Offset: 0x23CBC24
-    void Reset();
-    // private System.Int32 G(System.Int32 k, System.Int32 w)
-    // Offset: 0x23CBC28
-    int G(int k, int w);
-    // public System.Int32 EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x23CBD9C
-    int EncryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
-    // private System.Int32 H(System.Int32 k, System.Int32 w)
-    // Offset: 0x23CBFF0
-    int H(int k, int w);
-    // public System.Int32 DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x23CC164
-    int DecryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
     // public System.Void .ctor()
-    // Offset: 0x23CC450
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2414CC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SkipjackEngine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SkipjackEngine*, creationType>()));
     }
+    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
+    // Offset: 0x2413FEC
+    void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // public System.Int32 GetBlockSize()
+    // Offset: 0x2414370
+    int GetBlockSize();
+    // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
+    // Offset: 0x2414378
+    int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
+    // public System.Void Reset()
+    // Offset: 0x2414498
+    void Reset();
+    // private System.Int32 G(System.Int32 k, System.Int32 w)
+    // Offset: 0x241449C
+    int G(int k, int w);
+    // public System.Int32 EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
+    // Offset: 0x2414610
+    int EncryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
+    // private System.Int32 H(System.Int32 k, System.Int32 w)
+    // Offset: 0x2414864
+    int H(int k, int w);
+    // public System.Int32 DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
+    // Offset: 0x24149D8
+    int DecryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
   }; // Org.BouncyCastle.Crypto.Engines.SkipjackEngine
   #pragma pack(pop)
   static check_size<sizeof(SkipjackEngine), 48 + sizeof(bool)> __Org_BouncyCastle_Crypto_Engines_SkipjackEngineSizeCheck;
@@ -167,6 +157,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::SkipjackEngine*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::SkipjackEngine::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::SkipjackEngine::Init
 // Il2CppName: Init
 template<>
@@ -249,7 +243,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::SkipjackEngine*), "DecryptBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, inOff, outBytes, outOff});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::SkipjackEngine::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

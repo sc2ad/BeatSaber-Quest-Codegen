@@ -42,7 +42,7 @@ namespace System {
       return value;
     }
     // Get instance field reference: public System.Int16 value__
-    int16_t& dyn_value__();
+    [[deprecated("Use field access instead!")]] int16_t& dyn_value__();
   }; // System.Int16Enum
   #pragma pack(pop)
   static check_size<sizeof(Int16Enum), 0 + sizeof(int16_t)> __System_Int16EnumSizeCheck;

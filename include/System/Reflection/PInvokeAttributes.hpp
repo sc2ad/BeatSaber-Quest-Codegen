@@ -175,7 +175,7 @@ namespace System::Reflection {
     // Set static field: static public System.Reflection.PInvokeAttributes MaxValue
     static void _set_MaxValue(::System::Reflection::PInvokeAttributes value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Reflection.PInvokeAttributes
   #pragma pack(pop)
   static check_size<sizeof(PInvokeAttributes), 0 + sizeof(int)> __System_Reflection_PInvokeAttributesSizeCheck;

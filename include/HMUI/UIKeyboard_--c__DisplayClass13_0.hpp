@@ -31,15 +31,7 @@ namespace HMUI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class UIKeyboard::$$c__DisplayClass13_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public HMUI.UIKeyboardKey key
     // Size: 0x8
     // Offset: 0x10
@@ -54,27 +46,29 @@ namespace HMUI {
     static_assert(sizeof(::HMUI::UIKeyboard*) == 0x8);
     public:
     // Get instance field reference: public HMUI.UIKeyboardKey key
-    ::HMUI::UIKeyboardKey*& dyn_key();
+    [[deprecated("Use field access instead!")]] ::HMUI::UIKeyboardKey*& dyn_key();
     // Get instance field reference: public HMUI.UIKeyboard <>4__this
-    ::HMUI::UIKeyboard*& dyn_$$4__this();
-    // System.Void <Awake>b__2()
-    // Offset: 0x29E22A0
-    void $Awake$b__2();
+    [[deprecated("Use field access instead!")]] ::HMUI::UIKeyboard*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x29E1F98
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A3788C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UIKeyboard::$$c__DisplayClass13_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::UIKeyboard::$$c__DisplayClass13_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UIKeyboard::$$c__DisplayClass13_0*, creationType>()));
     }
+    // System.Void <Awake>b__2()
+    // Offset: 0x2A37B94
+    void $Awake$b__2();
   }; // HMUI.UIKeyboard/HMUI.<>c__DisplayClass13_0
   #pragma pack(pop)
   static check_size<sizeof(UIKeyboard::$$c__DisplayClass13_0), 24 + sizeof(::HMUI::UIKeyboard*)> __HMUI_UIKeyboard_$$c__DisplayClass13_0SizeCheck;
   static_assert(sizeof(UIKeyboard::$$c__DisplayClass13_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HMUI::UIKeyboard::$$c__DisplayClass13_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::UIKeyboard::$$c__DisplayClass13_0::$Awake$b__2
 // Il2CppName: <Awake>b__2
 template<>
@@ -83,7 +77,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::UIKeyboard::$$c__DisplayClass13_0*), "<Awake>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HMUI::UIKeyboard::$$c__DisplayClass13_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

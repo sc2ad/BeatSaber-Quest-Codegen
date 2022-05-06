@@ -60,7 +60,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.AnimatorRecorderMode Record
     static void _set_Record(::UnityEngine::AnimatorRecorderMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.AnimatorRecorderMode
   #pragma pack(pop)
   static check_size<sizeof(AnimatorRecorderMode), 0 + sizeof(int)> __UnityEngine_AnimatorRecorderModeSizeCheck;

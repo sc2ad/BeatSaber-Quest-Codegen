@@ -44,15 +44,7 @@ namespace NUnit::Framework::Internal::Commands {
   // [TokenAttribute] Offset: FFFFFFFF
   class SetUpTearDownItem : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.IList`1<System.Reflection.MethodInfo> _setUpMethods
     // Size: 0x8
     // Offset: 0x10
@@ -73,32 +65,32 @@ namespace NUnit::Framework::Internal::Commands {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Collections.Generic.IList`1<System.Reflection.MethodInfo> _setUpMethods
-    ::System::Collections::Generic::IList_1<::System::Reflection::MethodInfo*>*& dyn__setUpMethods();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IList_1<::System::Reflection::MethodInfo*>*& dyn__setUpMethods();
     // Get instance field reference: private System.Collections.Generic.IList`1<System.Reflection.MethodInfo> _tearDownMethods
-    ::System::Collections::Generic::IList_1<::System::Reflection::MethodInfo*>*& dyn__tearDownMethods();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IList_1<::System::Reflection::MethodInfo*>*& dyn__tearDownMethods();
     // Get instance field reference: private System.Boolean _setUpWasRun
-    bool& dyn__setUpWasRun();
+    [[deprecated("Use field access instead!")]] bool& dyn__setUpWasRun();
     // public System.Boolean get_HasMethods()
-    // Offset: 0x1C4E9AC
+    // Offset: 0x1CA6F44
     bool get_HasMethods();
     // public System.Void .ctor(System.Collections.Generic.IList`1<System.Reflection.MethodInfo> setUpMethods, System.Collections.Generic.IList`1<System.Reflection.MethodInfo> tearDownMethods)
-    // Offset: 0x1C4E974
+    // Offset: 0x1CA6F0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SetUpTearDownItem* New_ctor(::System::Collections::Generic::IList_1<::System::Reflection::MethodInfo*>* setUpMethods, ::System::Collections::Generic::IList_1<::System::Reflection::MethodInfo*>* tearDownMethods) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Commands::SetUpTearDownItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SetUpTearDownItem*, creationType>(setUpMethods, tearDownMethods)));
     }
     // public System.Void RunSetUp(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x1C4DD0C
+    // Offset: 0x1CA62A4
     void RunSetUp(::NUnit::Framework::Internal::ITestExecutionContext* context);
     // public System.Void RunTearDown(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x1C4E650
+    // Offset: 0x1CA6BE8
     void RunTearDown(::NUnit::Framework::Internal::ITestExecutionContext* context);
     // private System.Void RunSetUpOrTearDownMethod(NUnit.Framework.Internal.ITestExecutionContext context, System.Reflection.MethodInfo method)
-    // Offset: 0x1C4EAE8
+    // Offset: 0x1CA7080
     void RunSetUpOrTearDownMethod(::NUnit::Framework::Internal::ITestExecutionContext* context, ::System::Reflection::MethodInfo* method);
     // private System.Object RunNonAsyncMethod(System.Reflection.MethodInfo method, NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x1C4EAF8
+    // Offset: 0x1CA7090
     ::Il2CppObject* RunNonAsyncMethod(::System::Reflection::MethodInfo* method, ::NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // NUnit.Framework.Internal.Commands.SetUpTearDownItem
   #pragma pack(pop)

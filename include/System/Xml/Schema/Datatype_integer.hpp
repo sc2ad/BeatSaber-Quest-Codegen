@@ -49,25 +49,24 @@ namespace System::Xml::Schema {
   class Datatype_integer : public ::System::Xml::Schema::Datatype_decimal {
     public:
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1C1F2C8
+    // Offset: 0x1C598B0
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_decimal::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // public System.Void .ctor()
-    // Offset: 0x1C1F3F4
+    // Offset: 0x1C599DC
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Void Datatype_decimal::.ctor()
     // Base method: System.Void Datatype_anySimpleType::.ctor()
     // Base method: System.Void DatatypeImplementation::.ctor()
     // Base method: System.Void XmlSchemaDatatype::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Datatype_integer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::Datatype_integer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Datatype_integer*, creationType>()));
     }
     // override System.Exception TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
-    // Offset: 0x1C1F2D0
+    // Offset: 0x1C598B8
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Exception Datatype_decimal::TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
     ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::Il2CppObject*> typedValue);

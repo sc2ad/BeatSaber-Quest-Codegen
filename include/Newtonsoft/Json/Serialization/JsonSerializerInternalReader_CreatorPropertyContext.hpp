@@ -32,15 +32,7 @@ namespace Newtonsoft::Json::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class JsonSerializerInternalReader::CreatorPropertyContext : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String Name
     // Size: 0x8
     // Offset: 0x10
@@ -77,21 +69,19 @@ namespace Newtonsoft::Json::Serialization {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.String Name
-    ::StringW& dyn_Name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Name();
     // Get instance field reference: public Newtonsoft.Json.Serialization.JsonProperty Property
-    ::Newtonsoft::Json::Serialization::JsonProperty*& dyn_Property();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Serialization::JsonProperty*& dyn_Property();
     // Get instance field reference: public Newtonsoft.Json.Serialization.JsonProperty ConstructorProperty
-    ::Newtonsoft::Json::Serialization::JsonProperty*& dyn_ConstructorProperty();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Serialization::JsonProperty*& dyn_ConstructorProperty();
     // Get instance field reference: public System.Nullable`1<Newtonsoft.Json.Serialization.JsonSerializerInternalReader/Newtonsoft.Json.Serialization.PropertyPresence> Presence
-    ::System::Nullable_1<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader::PropertyPresence>& dyn_Presence();
+    [[deprecated("Use field access instead!")]] ::System::Nullable_1<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader::PropertyPresence>& dyn_Presence();
     // Get instance field reference: public System.Object Value
-    ::Il2CppObject*& dyn_Value();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_Value();
     // Get instance field reference: public System.Boolean Used
-    bool& dyn_Used();
+    [[deprecated("Use field access instead!")]] bool& dyn_Used();
     // public System.Void .ctor()
-    // Offset: 0x1D31EA4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1D6E3FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonSerializerInternalReader::CreatorPropertyContext* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CreatorPropertyContext::.ctor");

@@ -156,7 +156,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static public System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE String
     static void _set_String(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE
   #pragma pack(pop)
   static check_size<sizeof(InternalPrimitiveTypeE), 0 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_InternalPrimitiveTypeESizeCheck;

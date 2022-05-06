@@ -53,11 +53,11 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public HoudiniEngineUnity.HAPI_VolumeVisualType type
-    ::HoudiniEngineUnity::HAPI_VolumeVisualType& dyn_type();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_VolumeVisualType& dyn_type();
     // Get instance field reference: public System.Single iso
-    float& dyn_iso();
+    [[deprecated("Use field access instead!")]] float& dyn_iso();
     // Get instance field reference: public System.Single density
-    float& dyn_density();
+    [[deprecated("Use field access instead!")]] float& dyn_density();
   }; // HoudiniEngineUnity.HAPI_VolumeVisualInfo
   #pragma pack(pop)
   static check_size<sizeof(HAPI_VolumeVisualInfo), 8 + sizeof(float)> __HoudiniEngineUnity_HAPI_VolumeVisualInfoSizeCheck;

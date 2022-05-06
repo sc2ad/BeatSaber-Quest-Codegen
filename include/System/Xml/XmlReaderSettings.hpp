@@ -51,15 +51,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlReaderSettings : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean useAsync
     // Size: 0x1
     // Offset: 0x10
@@ -186,118 +178,116 @@ namespace System::Xml {
     // Set static field: static private System.Nullable`1<System.Boolean> s_enableLegacyXmlSettings
     static void _set_s_enableLegacyXmlSettings(::System::Nullable_1<bool> value);
     // Get instance field reference: private System.Boolean useAsync
-    bool& dyn_useAsync();
+    [[deprecated("Use field access instead!")]] bool& dyn_useAsync();
     // Get instance field reference: private System.Xml.XmlNameTable nameTable
-    ::System::Xml::XmlNameTable*& dyn_nameTable();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlNameTable*& dyn_nameTable();
     // Get instance field reference: private System.Xml.XmlResolver xmlResolver
-    ::System::Xml::XmlResolver*& dyn_xmlResolver();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlResolver*& dyn_xmlResolver();
     // Get instance field reference: private System.Int32 lineNumberOffset
-    int& dyn_lineNumberOffset();
+    [[deprecated("Use field access instead!")]] int& dyn_lineNumberOffset();
     // Get instance field reference: private System.Int32 linePositionOffset
-    int& dyn_linePositionOffset();
+    [[deprecated("Use field access instead!")]] int& dyn_linePositionOffset();
     // Get instance field reference: private System.Xml.ConformanceLevel conformanceLevel
-    ::System::Xml::ConformanceLevel& dyn_conformanceLevel();
+    [[deprecated("Use field access instead!")]] ::System::Xml::ConformanceLevel& dyn_conformanceLevel();
     // Get instance field reference: private System.Boolean checkCharacters
-    bool& dyn_checkCharacters();
+    [[deprecated("Use field access instead!")]] bool& dyn_checkCharacters();
     // Get instance field reference: private System.Int64 maxCharactersInDocument
-    int64_t& dyn_maxCharactersInDocument();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_maxCharactersInDocument();
     // Get instance field reference: private System.Int64 maxCharactersFromEntities
-    int64_t& dyn_maxCharactersFromEntities();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_maxCharactersFromEntities();
     // Get instance field reference: private System.Boolean ignoreWhitespace
-    bool& dyn_ignoreWhitespace();
+    [[deprecated("Use field access instead!")]] bool& dyn_ignoreWhitespace();
     // Get instance field reference: private System.Boolean ignorePIs
-    bool& dyn_ignorePIs();
+    [[deprecated("Use field access instead!")]] bool& dyn_ignorePIs();
     // Get instance field reference: private System.Boolean ignoreComments
-    bool& dyn_ignoreComments();
+    [[deprecated("Use field access instead!")]] bool& dyn_ignoreComments();
     // Get instance field reference: private System.Xml.DtdProcessing dtdProcessing
-    ::System::Xml::DtdProcessing& dyn_dtdProcessing();
+    [[deprecated("Use field access instead!")]] ::System::Xml::DtdProcessing& dyn_dtdProcessing();
     // Get instance field reference: private System.Xml.ValidationType validationType
-    ::System::Xml::ValidationType& dyn_validationType();
+    [[deprecated("Use field access instead!")]] ::System::Xml::ValidationType& dyn_validationType();
     // Get instance field reference: private System.Xml.Schema.XmlSchemaValidationFlags validationFlags
-    ::System::Xml::Schema::XmlSchemaValidationFlags& dyn_validationFlags();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaValidationFlags& dyn_validationFlags();
     // Get instance field reference: private System.Xml.Schema.XmlSchemaSet schemas
-    ::System::Xml::Schema::XmlSchemaSet*& dyn_schemas();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaSet*& dyn_schemas();
     // Get instance field reference: private System.Boolean closeInput
-    bool& dyn_closeInput();
+    [[deprecated("Use field access instead!")]] bool& dyn_closeInput();
     // Get instance field reference: private System.Boolean isReadOnly
-    bool& dyn_isReadOnly();
+    [[deprecated("Use field access instead!")]] bool& dyn_isReadOnly();
     // Get instance field reference: private System.Boolean <IsXmlResolverSet>k__BackingField
-    bool& dyn_$IsXmlResolverSet$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$IsXmlResolverSet$k__BackingField();
     // public System.Void set_NameTable(System.Xml.XmlNameTable value)
-    // Offset: 0x15A71F4
+    // Offset: 0x15DCB04
     void set_NameTable(::System::Xml::XmlNameTable* value);
     // System.Void set_IsXmlResolverSet(System.Boolean value)
-    // Offset: 0x15A732C
+    // Offset: 0x15DCC3C
     void set_IsXmlResolverSet(bool value);
     // public System.Void set_XmlResolver(System.Xml.XmlResolver value)
-    // Offset: 0x15A7338
+    // Offset: 0x15DCC48
     void set_XmlResolver(::System::Xml::XmlResolver* value);
     // public System.Void set_LineNumberOffset(System.Int32 value)
-    // Offset: 0x15A73AC
+    // Offset: 0x15DCCBC
     void set_LineNumberOffset(int value);
     // public System.Void set_LinePositionOffset(System.Int32 value)
-    // Offset: 0x15A7410
+    // Offset: 0x15DCD20
     void set_LinePositionOffset(int value);
     // public System.Void set_ConformanceLevel(System.Xml.ConformanceLevel value)
-    // Offset: 0x15A7474
+    // Offset: 0x15DCD84
     void set_ConformanceLevel(::System::Xml::ConformanceLevel value);
     // public System.Void set_CheckCharacters(System.Boolean value)
-    // Offset: 0x15A751C
+    // Offset: 0x15DCE2C
     void set_CheckCharacters(bool value);
     // public System.Void set_MaxCharactersInDocument(System.Int64 value)
-    // Offset: 0x15A7584
+    // Offset: 0x15DCE94
     void set_MaxCharactersInDocument(int64_t value);
     // public System.Void set_MaxCharactersFromEntities(System.Int64 value)
-    // Offset: 0x15A7628
+    // Offset: 0x15DCF38
     void set_MaxCharactersFromEntities(int64_t value);
     // public System.Void set_IgnoreWhitespace(System.Boolean value)
-    // Offset: 0x15A76CC
+    // Offset: 0x15DCFDC
     void set_IgnoreWhitespace(bool value);
     // public System.Void set_IgnoreProcessingInstructions(System.Boolean value)
-    // Offset: 0x15A7734
+    // Offset: 0x15DD044
     void set_IgnoreProcessingInstructions(bool value);
     // public System.Void set_IgnoreComments(System.Boolean value)
-    // Offset: 0x15A779C
+    // Offset: 0x15DD0AC
     void set_IgnoreComments(bool value);
     // public System.Void set_DtdProcessing(System.Xml.DtdProcessing value)
-    // Offset: 0x15A7804
+    // Offset: 0x15DD114
     void set_DtdProcessing(::System::Xml::DtdProcessing value);
     // public System.Xml.ValidationType get_ValidationType()
-    // Offset: 0x15A78AC
+    // Offset: 0x15DD1BC
     ::System::Xml::ValidationType get_ValidationType();
     // public System.Xml.Schema.XmlSchemaSet get_Schemas()
-    // Offset: 0x159C81C
+    // Offset: 0x15D212C
     ::System::Xml::Schema::XmlSchemaSet* get_Schemas();
     // System.Void set_ReadOnly(System.Boolean value)
-    // Offset: 0x15A78B4
+    // Offset: 0x15DD1C4
     void set_ReadOnly(bool value);
-    // System.Xml.XmlResolver GetXmlResolver()
-    // Offset: 0x15A73A4
-    ::System::Xml::XmlResolver* GetXmlResolver();
-    // private System.Void CheckReadOnly(System.String propertyName)
-    // Offset: 0x15A7258
-    void CheckReadOnly(::StringW propertyName);
-    // private System.Void Initialize()
-    // Offset: 0x15A71EC
-    void Initialize();
-    // private System.Void Initialize(System.Xml.XmlResolver resolver)
-    // Offset: 0x15A78C0
-    void Initialize(::System::Xml::XmlResolver* resolver);
-    // static private System.Xml.XmlResolver CreateDefaultResolver()
-    // Offset: 0x15A7930
-    static ::System::Xml::XmlResolver* CreateDefaultResolver();
-    // static System.Boolean EnableLegacyXmlSettings()
-    // Offset: 0x15A798C
-    static bool EnableLegacyXmlSettings();
     // public System.Void .ctor()
-    // Offset: 0x15A71C0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15DCAD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlReaderSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlReaderSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlReaderSettings*, creationType>()));
     }
+    // System.Xml.XmlResolver GetXmlResolver()
+    // Offset: 0x15DCCB4
+    ::System::Xml::XmlResolver* GetXmlResolver();
+    // private System.Void CheckReadOnly(System.String propertyName)
+    // Offset: 0x15DCB68
+    void CheckReadOnly(::StringW propertyName);
+    // private System.Void Initialize()
+    // Offset: 0x15DCAFC
+    void Initialize();
+    // private System.Void Initialize(System.Xml.XmlResolver resolver)
+    // Offset: 0x15DD1D0
+    void Initialize(::System::Xml::XmlResolver* resolver);
+    // static private System.Xml.XmlResolver CreateDefaultResolver()
+    // Offset: 0x15DD240
+    static ::System::Xml::XmlResolver* CreateDefaultResolver();
+    // static System.Boolean EnableLegacyXmlSettings()
+    // Offset: 0x15DD29C
+    static bool EnableLegacyXmlSettings();
   }; // System.Xml.XmlReaderSettings
   #pragma pack(pop)
   static check_size<sizeof(XmlReaderSettings), 98 + sizeof(bool)> __System_Xml_XmlReaderSettingsSizeCheck;
@@ -446,6 +436,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReaderSettings*), "set_ReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: System::Xml::XmlReaderSettings::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::XmlReaderSettings::GetXmlResolver
 // Il2CppName: GetXmlResolver
 template<>
@@ -496,7 +490,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReaderSettings*), "EnableLegacyXmlSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Xml::XmlReaderSettings::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

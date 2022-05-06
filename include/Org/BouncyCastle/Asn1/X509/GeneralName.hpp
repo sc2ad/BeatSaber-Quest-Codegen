@@ -38,15 +38,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class GeneralName : public ::Org::BouncyCastle::Asn1::Asn1Encodable/*, public ::Org::BouncyCastle::Asn1::IAsn1Choice*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // readonly Org.BouncyCastle.Asn1.Asn1Encodable obj
     // Size: 0x8
     // Offset: 0x10
@@ -65,32 +57,32 @@ namespace Org::BouncyCastle::Asn1::X509 {
       return *reinterpret_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(this);
     }
     // Get instance field reference: readonly Org.BouncyCastle.Asn1.Asn1Encodable obj
-    ::Org::BouncyCastle::Asn1::Asn1Encodable*& dyn_obj();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1Encodable*& dyn_obj();
     // Get instance field reference: readonly System.Int32 tag
-    int& dyn_tag();
+    [[deprecated("Use field access instead!")]] int& dyn_tag();
     // public System.Int32 get_TagNo()
-    // Offset: 0x1EC73EC
+    // Offset: 0x1F14924
     int get_TagNo();
     // public Org.BouncyCastle.Asn1.Asn1Encodable get_Name()
-    // Offset: 0x1EC73F4
+    // Offset: 0x1F1492C
     ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Name();
     // public System.Void .ctor(System.Int32 tag, Org.BouncyCastle.Asn1.Asn1Encodable name)
-    // Offset: 0x1EC6F40
+    // Offset: 0x1F14478
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GeneralName* New_ctor(int tag, ::Org::BouncyCastle::Asn1::Asn1Encodable* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::GeneralName::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GeneralName*, creationType>(tag, name)));
     }
     // static public Org.BouncyCastle.Asn1.X509.GeneralName GetInstance(System.Object obj)
-    // Offset: 0x1EC6F7C
+    // Offset: 0x1F144B4
     static ::Org::BouncyCastle::Asn1::X509::GeneralName* GetInstance(::Il2CppObject* obj);
     // public override System.String ToString()
-    // Offset: 0x1EC73FC
+    // Offset: 0x1F14934
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1EC75C4
+    // Offset: 0x1F14AFC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

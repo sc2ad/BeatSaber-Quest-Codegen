@@ -49,15 +49,7 @@ namespace System::Xml::Schema {
   // [TokenAttribute] Offset: FFFFFFFF
   class NamespaceListNode : public ::System::Xml::Schema::SyntaxTreeNode {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected System.Xml.Schema.NamespaceList namespaceList
     // Size: 0x8
     // Offset: 0x10
@@ -72,31 +64,31 @@ namespace System::Xml::Schema {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: protected System.Xml.Schema.NamespaceList namespaceList
-    ::System::Xml::Schema::NamespaceList*& dyn_namespaceList();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::NamespaceList*& dyn_namespaceList();
     // Get instance field reference: protected System.Object particle
-    ::Il2CppObject*& dyn_particle();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_particle();
     // public System.Void .ctor(System.Xml.Schema.NamespaceList namespaceList, System.Object particle)
-    // Offset: 0x1C24710
+    // Offset: 0x1C5ECF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamespaceListNode* New_ctor(::System::Xml::Schema::NamespaceList* namespaceList, ::Il2CppObject* particle) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::NamespaceListNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NamespaceListNode*, creationType>(namespaceList, particle)));
     }
     // public System.Collections.ICollection GetResolvedSymbols(System.Xml.Schema.SymbolsDictionary symbols)
-    // Offset: 0x1C24748
+    // Offset: 0x1C5ED30
     ::System::Collections::ICollection* GetResolvedSymbols(::System::Xml::Schema::SymbolsDictionary* symbols);
     // public override System.Boolean get_IsNullable()
-    // Offset: 0x1C25328
+    // Offset: 0x1C5F910
     // Implemented from: System.Xml.Schema.SyntaxTreeNode
     // Base method: System.Boolean SyntaxTreeNode::get_IsNullable()
     bool get_IsNullable();
     // public override System.Void ExpandTree(System.Xml.Schema.InteriorNode parent, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.Positions positions)
-    // Offset: 0x1C24E54
+    // Offset: 0x1C5F43C
     // Implemented from: System.Xml.Schema.SyntaxTreeNode
     // Base method: System.Void SyntaxTreeNode::ExpandTree(System.Xml.Schema.InteriorNode parent, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.Positions positions)
     void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
     // public override System.Void ConstructPos(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet lastpos, System.Xml.Schema.BitSet[] followpos)
-    // Offset: 0x1C252C8
+    // Offset: 0x1C5F8B0
     // Implemented from: System.Xml.Schema.SyntaxTreeNode
     // Base method: System.Void SyntaxTreeNode::ConstructPos(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet lastpos, System.Xml.Schema.BitSet[] followpos)
     void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos);

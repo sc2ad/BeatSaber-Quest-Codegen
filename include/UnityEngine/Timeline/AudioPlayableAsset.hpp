@@ -61,15 +61,7 @@ namespace UnityEngine::Timeline {
     public:
     // Nested type: ::UnityEngine::Timeline::AudioPlayableAsset::$get_outputs$d__16
     class $get_outputs$d__16;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.AudioClip m_Clip
     // Size: 0x8
     // Offset: 0x18
@@ -104,58 +96,53 @@ namespace UnityEngine::Timeline {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AudioClip m_Clip
-    ::UnityEngine::AudioClip*& dyn_m_Clip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioClip*& dyn_m_Clip();
     // Get instance field reference: private System.Boolean m_Loop
-    bool& dyn_m_Loop();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_Loop();
     // Get instance field reference: private System.Single m_bufferingTime
-    float& dyn_m_bufferingTime();
+    [[deprecated("Use field access instead!")]] float& dyn_m_bufferingTime();
     // Get instance field reference: private UnityEngine.Timeline.AudioClipProperties m_ClipProperties
-    ::UnityEngine::Timeline::AudioClipProperties*& dyn_m_ClipProperties();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Timeline::AudioClipProperties*& dyn_m_ClipProperties();
     // System.Single get_bufferingTime()
-    // Offset: 0x1D770F0
+    // Offset: 0x1DB2648
     float get_bufferingTime();
     // System.Void set_bufferingTime(System.Single value)
-    // Offset: 0x1D770F8
+    // Offset: 0x1DB2650
     void set_bufferingTime(float value);
     // public UnityEngine.AudioClip get_clip()
-    // Offset: 0x1D77100
+    // Offset: 0x1DB2658
     ::UnityEngine::AudioClip* get_clip();
     // public System.Void set_clip(UnityEngine.AudioClip value)
-    // Offset: 0x1D77108
+    // Offset: 0x1DB2660
     void set_clip(::UnityEngine::AudioClip* value);
     // public System.Boolean get_loop()
-    // Offset: 0x1D77110
+    // Offset: 0x1DB2668
     bool get_loop();
     // public System.Void set_loop(System.Boolean value)
-    // Offset: 0x1D77118
+    // Offset: 0x1DB2670
     void set_loop(bool value);
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x1D773CC
+    // Offset: 0x1DB2924
     ::UnityEngine::Timeline::ClipCaps get_clipCaps();
-    // public override System.Double get_duration()
-    // Offset: 0x1D77124
-    // Implemented from: UnityEngine.Playables.PlayableAsset
-    // Base method: System.Double PlayableAsset::get_duration()
-    double get_duration();
-    // public override System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> get_outputs()
-    // Offset: 0x1D771E8
-    // Implemented from: UnityEngine.Playables.PlayableAsset
-    // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> PlayableAsset::get_outputs()
-    ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
     // public System.Void .ctor()
-    // Offset: 0x1D773D8
-    // Implemented from: UnityEngine.Playables.PlayableAsset
-    // Base method: System.Void PlayableAsset::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1DB2930
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioPlayableAsset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::AudioPlayableAsset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioPlayableAsset*, creationType>()));
     }
+    // public override System.Double get_duration()
+    // Offset: 0x1DB267C
+    // Implemented from: UnityEngine.Playables.PlayableAsset
+    // Base method: System.Double PlayableAsset::get_duration()
+    double get_duration();
+    // public override System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> get_outputs()
+    // Offset: 0x1DB2740
+    // Implemented from: UnityEngine.Playables.PlayableAsset
+    // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> PlayableAsset::get_outputs()
+    ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x1D772A0
+    // Offset: 0x1DB27F8
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
@@ -224,6 +211,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AudioPlayableAsset*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::Timeline::AudioPlayableAsset::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Timeline::AudioPlayableAsset::get_duration
 // Il2CppName: get_duration
 template<>
@@ -240,10 +231,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AudioPlayableAsset*), "get_outputs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::Timeline::AudioPlayableAsset::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Timeline::AudioPlayableAsset::CreatePlayable
 // Il2CppName: CreatePlayable
 template<>

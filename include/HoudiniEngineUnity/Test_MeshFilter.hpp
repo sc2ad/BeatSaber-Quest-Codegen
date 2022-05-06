@@ -35,15 +35,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_MeshFilter : public ::Il2CppObject/*, public ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_MeshFilter*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.MeshFilter self
     // Size: 0x8
     // Offset: 0x10
@@ -60,19 +52,19 @@ namespace HoudiniEngineUnity {
       return self;
     }
     // Get instance field reference: public UnityEngine.MeshFilter self
-    ::UnityEngine::MeshFilter*& dyn_self();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MeshFilter*& dyn_self();
     // public System.Void .ctor(UnityEngine.MeshFilter self)
-    // Offset: 0x2A3E3CC
+    // Offset: 0x2A957B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_MeshFilter* New_ctor(::UnityEngine::MeshFilter* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_MeshFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_MeshFilter*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x2A3E3F8
+    // Offset: 0x2A957E0
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_MeshFilter other)
-    // Offset: 0x2A3E468
+    // Offset: 0x2A95850
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_MeshFilter* other);
   }; // HoudiniEngineUnity.Test_MeshFilter
   #pragma pack(pop)

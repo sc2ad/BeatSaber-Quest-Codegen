@@ -37,16 +37,8 @@ namespace GlobalNamespace {
   // [ExecuteAlways] Offset: FFFFFFFF
   class LightRotationGroup : public ::GlobalNamespace::LightGroupSubsystem {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [SpaceAttribute] Offset: 0x1251270
+    // [SpaceAttribute] Offset: 0x10D5DDC
     // private System.Boolean _mirrorX
     // Size: 0x1
     // Offset: 0x20
@@ -59,8 +51,14 @@ namespace GlobalNamespace {
     bool mirrorY;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Padding between fields: mirrorY and: xTransforms
-    char __padding1[0x6] = {};
+    // private System.Boolean _disableAutomaticTransformsGathering
+    // Size: 0x1
+    // Offset: 0x22
+    bool disableAutomaticTransformsGathering;
+    // Field size check
+    static_assert(sizeof(bool) == 0x1);
+    // Padding between fields: disableAutomaticTransformsGathering and: xTransforms
+    char __padding2[0x5] = {};
     // private UnityEngine.Transform[] _xTransforms
     // Size: 0x8
     // Offset: 0x28
@@ -75,34 +73,31 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<::UnityEngine::Transform*>) == 0x8);
     public:
     // Get instance field reference: private System.Boolean _mirrorX
-    bool& dyn__mirrorX();
+    [[deprecated("Use field access instead!")]] bool& dyn__mirrorX();
     // Get instance field reference: private System.Boolean _mirrorY
-    bool& dyn__mirrorY();
+    [[deprecated("Use field access instead!")]] bool& dyn__mirrorY();
+    // Get instance field reference: private System.Boolean _disableAutomaticTransformsGathering
+    [[deprecated("Use field access instead!")]] bool& dyn__disableAutomaticTransformsGathering();
     // Get instance field reference: private UnityEngine.Transform[] _xTransforms
-    ::ArrayW<::UnityEngine::Transform*>& dyn__xTransforms();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Transform*>& dyn__xTransforms();
     // Get instance field reference: private UnityEngine.Transform[] _yTransforms
-    ::ArrayW<::UnityEngine::Transform*>& dyn__yTransforms();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Transform*>& dyn__yTransforms();
     // public System.Boolean get_mirrorX()
-    // Offset: 0x148F010
+    // Offset: 0x14C5898
     bool get_mirrorX();
     // public System.Boolean get_mirrorY()
-    // Offset: 0x148F018
+    // Offset: 0x14C58A0
     bool get_mirrorY();
     // public UnityEngine.Transform[] get_xTransforms()
-    // Offset: 0x148F020
+    // Offset: 0x14C58A8
     ::ArrayW<::UnityEngine::Transform*> get_xTransforms();
     // public UnityEngine.Transform[] get_yTransforms()
-    // Offset: 0x148F028
+    // Offset: 0x14C58B0
     ::ArrayW<::UnityEngine::Transform*> get_yTransforms();
     // public System.Void .ctor()
-    // Offset: 0x148F030
+    // Offset: 0x14C58B8
     // Implemented from: LightGroupSubsystem
     // Base method: System.Void LightGroupSubsystem::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightRotationGroup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightRotationGroup::.ctor");

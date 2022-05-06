@@ -44,15 +44,7 @@ namespace UnityEngine::ResourceManagement::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   class LRUCacheAllocationStrategy : public ::Il2CppObject/*, public ::UnityEngine::ResourceManagement::Util::IAllocationStrategy*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 m_poolMaxSize
     // Size: 0x4
     // Offset: 0x10
@@ -91,33 +83,33 @@ namespace UnityEngine::ResourceManagement::Util {
       return *reinterpret_cast<::UnityEngine::ResourceManagement::Util::IAllocationStrategy*>(this);
     }
     // Get instance field reference: private System.Int32 m_poolMaxSize
-    int& dyn_m_poolMaxSize();
+    [[deprecated("Use field access instead!")]] int& dyn_m_poolMaxSize();
     // Get instance field reference: private System.Int32 m_poolInitialCapacity
-    int& dyn_m_poolInitialCapacity();
+    [[deprecated("Use field access instead!")]] int& dyn_m_poolInitialCapacity();
     // Get instance field reference: private System.Int32 m_poolCacheMaxSize
-    int& dyn_m_poolCacheMaxSize();
+    [[deprecated("Use field access instead!")]] int& dyn_m_poolCacheMaxSize();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Collections.Generic.List`1<System.Object>> m_poolCache
-    ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::Il2CppObject*>*>*& dyn_m_poolCache();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::Il2CppObject*>*>*& dyn_m_poolCache();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<System.Object>> m_cache
-    ::System::Collections::Generic::Dictionary_2<int, ::System::Collections::Generic::List_1<::Il2CppObject*>*>*& dyn_m_cache();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::System::Collections::Generic::List_1<::Il2CppObject*>*>*& dyn_m_cache();
     // public System.Void .ctor(System.Int32 poolMaxSize, System.Int32 poolCapacity, System.Int32 poolCacheMaxSize, System.Int32 initialPoolCacheCapacity)
-    // Offset: 0x1E980A0
+    // Offset: 0x1EE65D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LRUCacheAllocationStrategy* New_ctor(int poolMaxSize, int poolCapacity, int poolCacheMaxSize, int initialPoolCacheCapacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LRUCacheAllocationStrategy*, creationType>(poolMaxSize, poolCapacity, poolCacheMaxSize, initialPoolCacheCapacity)));
     }
     // private System.Collections.Generic.List`1<System.Object> GetPool()
-    // Offset: 0x1EA3420
+    // Offset: 0x1EF1958
     ::System::Collections::Generic::List_1<::Il2CppObject*>* GetPool();
     // private System.Void ReleasePool(System.Collections.Generic.List`1<System.Object> pool)
-    // Offset: 0x1EA34C8
+    // Offset: 0x1EF1A00
     void ReleasePool(::System::Collections::Generic::List_1<::Il2CppObject*>* pool);
     // public System.Object New(System.Type type, System.Int32 typeHash)
-    // Offset: 0x1EA3550
+    // Offset: 0x1EF1A88
     ::Il2CppObject* New(::System::Type* type, int typeHash);
     // public System.Void Release(System.Int32 typeHash, System.Object obj)
-    // Offset: 0x1EA3690
+    // Offset: 0x1EF1BC8
     void Release(int typeHash, ::Il2CppObject* obj);
   }; // UnityEngine.ResourceManagement.Util.LRUCacheAllocationStrategy
   #pragma pack(pop)

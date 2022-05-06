@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveDataV1_0_1::PlayerSpecificSettings : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean staticLights
     // Size: 0x1
     // Offset: 0x10
@@ -84,25 +76,23 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.Boolean staticLights
-    bool& dyn_staticLights();
+    [[deprecated("Use field access instead!")]] bool& dyn_staticLights();
     // Get instance field reference: public System.Boolean leftHanded
-    bool& dyn_leftHanded();
+    [[deprecated("Use field access instead!")]] bool& dyn_leftHanded();
     // Get instance field reference: public System.Boolean swapColors
-    bool& dyn_swapColors();
+    [[deprecated("Use field access instead!")]] bool& dyn_swapColors();
     // Get instance field reference: public System.Single playerHeight
-    float& dyn_playerHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_playerHeight();
     // Get instance field reference: public System.Boolean disableSFX
-    bool& dyn_disableSFX();
+    [[deprecated("Use field access instead!")]] bool& dyn_disableSFX();
     // Get instance field reference: public System.Boolean reduceDebris
-    bool& dyn_reduceDebris();
+    [[deprecated("Use field access instead!")]] bool& dyn_reduceDebris();
     // Get instance field reference: public System.Boolean advancedHud
-    bool& dyn_advancedHud();
+    [[deprecated("Use field access instead!")]] bool& dyn_advancedHud();
     // Get instance field reference: public System.Boolean noTextsAndHuds
-    bool& dyn_noTextsAndHuds();
+    [[deprecated("Use field access instead!")]] bool& dyn_noTextsAndHuds();
     // public System.Void .ctor()
-    // Offset: 0x13718C0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D8F1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveDataV1_0_1::PlayerSpecificSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings::.ctor");

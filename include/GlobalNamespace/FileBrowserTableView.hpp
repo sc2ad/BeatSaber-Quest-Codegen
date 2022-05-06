@@ -55,15 +55,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FileBrowserTableView : public ::UnityEngine::MonoBehaviour/*, public ::HMUI::TableView::IDataSource*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.TableView _tableView
     // Size: 0x8
     // Offset: 0x18
@@ -110,61 +102,55 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kCellIdentifier
     static void _set_kCellIdentifier(::StringW value);
     // Get instance field reference: private HMUI.TableView _tableView
-    ::HMUI::TableView*& dyn__tableView();
+    [[deprecated("Use field access instead!")]] ::HMUI::TableView*& dyn__tableView();
     // Get instance field reference: private FileBrowserTableCell _cellPrefab
-    ::GlobalNamespace::FileBrowserTableCell*& dyn__cellPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FileBrowserTableCell*& dyn__cellPrefab();
     // Get instance field reference: private System.Single _cellHeight
-    float& dyn__cellHeight();
+    [[deprecated("Use field access instead!")]] float& dyn__cellHeight();
     // Get instance field reference: private System.Action`2<FileBrowserTableView,FileBrowserItem> didSelectRow
-    ::System::Action_2<::GlobalNamespace::FileBrowserTableView*, ::GlobalNamespace::FileBrowserItem*>*& dyn_didSelectRow();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::FileBrowserTableView*, ::GlobalNamespace::FileBrowserItem*>*& dyn_didSelectRow();
     // Get instance field reference: private FileBrowserItem[] _items
-    ::ArrayW<::GlobalNamespace::FileBrowserItem*>& dyn__items();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::FileBrowserItem*>& dyn__items();
     // public System.Void add_didSelectRow(System.Action`2<FileBrowserTableView,FileBrowserItem> value)
-    // Offset: 0x138B850
+    // Offset: 0x1373364
     void add_didSelectRow(::System::Action_2<::GlobalNamespace::FileBrowserTableView*, ::GlobalNamespace::FileBrowserItem*>* value);
     // public System.Void remove_didSelectRow(System.Action`2<FileBrowserTableView,FileBrowserItem> value)
-    // Offset: 0x138B8F4
+    // Offset: 0x1373408
     void remove_didSelectRow(::System::Action_2<::GlobalNamespace::FileBrowserTableView*, ::GlobalNamespace::FileBrowserItem*>* value);
-    // public System.Void Init(FileBrowserItem[] items)
-    // Offset: 0x138B998
-    void Init(::ArrayW<::GlobalNamespace::FileBrowserItem*> items);
-    // public System.Void SetItems(FileBrowserItem[] items)
-    // Offset: 0x138BAA4
-    void SetItems(::ArrayW<::GlobalNamespace::FileBrowserItem*> items);
-    // public System.Boolean SelectAndScrollRowToItemWithPath(System.String folderPath)
-    // Offset: 0x138BAF4
-    bool SelectAndScrollRowToItemWithPath(::StringW folderPath);
-    // public System.Single CellSize()
-    // Offset: 0x138BBE4
-    float CellSize();
-    // public System.Int32 NumberOfCells()
-    // Offset: 0x138BBEC
-    int NumberOfCells();
-    // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x138BC04
-    ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int row);
-    // private System.Void HandleDidSelectRowEvent(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x138BD78
-    void HandleDidSelectRowEvent(::HMUI::TableView* tableView, int row);
-    // public System.Void SelectAndScrollRow(System.Int32 row)
-    // Offset: 0x138BB94
-    void SelectAndScrollRow(int row);
-    // public System.Void ClearSelection(System.Boolean animated, System.Boolean scrollToRow0)
-    // Offset: 0x138BE18
-    void ClearSelection(bool animated, bool scrollToRow0);
     // public System.Void .ctor()
-    // Offset: 0x138BE84
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1373998
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileBrowserTableView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FileBrowserTableView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileBrowserTableView*, creationType>()));
     }
+    // public System.Void Init(FileBrowserItem[] items)
+    // Offset: 0x13734AC
+    void Init(::ArrayW<::GlobalNamespace::FileBrowserItem*> items);
+    // public System.Void SetItems(FileBrowserItem[] items)
+    // Offset: 0x13735B8
+    void SetItems(::ArrayW<::GlobalNamespace::FileBrowserItem*> items);
+    // public System.Boolean SelectAndScrollRowToItemWithPath(System.String folderPath)
+    // Offset: 0x1373608
+    bool SelectAndScrollRowToItemWithPath(::StringW folderPath);
+    // public System.Single CellSize()
+    // Offset: 0x13736F8
+    float CellSize();
+    // public System.Int32 NumberOfCells()
+    // Offset: 0x1373700
+    int NumberOfCells();
+    // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
+    // Offset: 0x1373718
+    ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int row);
+    // private System.Void HandleDidSelectRowEvent(HMUI.TableView tableView, System.Int32 row)
+    // Offset: 0x137388C
+    void HandleDidSelectRowEvent(::HMUI::TableView* tableView, int row);
+    // public System.Void SelectAndScrollRow(System.Int32 row)
+    // Offset: 0x13736A8
+    void SelectAndScrollRow(int row);
+    // public System.Void ClearSelection(System.Boolean animated, System.Boolean scrollToRow0)
+    // Offset: 0x137392C
+    void ClearSelection(bool animated, bool scrollToRow0);
   }; // FileBrowserTableView
   #pragma pack(pop)
   static check_size<sizeof(FileBrowserTableView), 56 + sizeof(::ArrayW<::GlobalNamespace::FileBrowserItem*>)> __GlobalNamespace_FileBrowserTableViewSizeCheck;
@@ -189,6 +175,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "remove_didSelectRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::FileBrowserTableView::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserTableView::Init
 // Il2CppName: Init
 template<>
@@ -271,7 +261,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "ClearSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{animated, scrollToRow0});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FileBrowserTableView::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

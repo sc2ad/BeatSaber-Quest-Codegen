@@ -46,15 +46,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class JoiningLobbyViewController : public ::HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Button _cancelJoiningButton
     // Size: 0x8
     // Offset: 0x70
@@ -81,44 +73,37 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.UI.Button _cancelJoiningButton
-    ::UnityEngine::UI::Button*& dyn__cancelJoiningButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__cancelJoiningButton();
     // Get instance field reference: private LoadingControl _loadingControl
-    ::GlobalNamespace::LoadingControl*& dyn__loadingControl();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LoadingControl*& dyn__loadingControl();
     // Get instance field reference: private System.String _text
-    ::StringW& dyn__text();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__text();
     // Get instance field reference: private System.Action didCancelEvent
-    ::System::Action*& dyn_didCancelEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didCancelEvent();
     // public System.Void add_didCancelEvent(System.Action value)
-    // Offset: 0x13B6190
+    // Offset: 0x13B163C
     void add_didCancelEvent(::System::Action* value);
     // public System.Void remove_didCancelEvent(System.Action value)
-    // Offset: 0x13B6234
+    // Offset: 0x13B16E0
     void remove_didCancelEvent(::System::Action* value);
-    // public System.Void Init(System.String text)
-    // Offset: 0x13B62D8
-    void Init(::StringW text);
-    // public System.Void HideLoading()
-    // Offset: 0x13B6310
-    void HideLoading();
-    // private System.Void <DidActivate>b__8_0()
-    // Offset: 0x13B6424
-    void $DidActivate$b__8_0();
     // public System.Void .ctor()
-    // Offset: 0x13B641C
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13B18C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JoiningLobbyViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::JoiningLobbyViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JoiningLobbyViewController*, creationType>()));
     }
+    // public System.Void Init(System.String text)
+    // Offset: 0x13B1784
+    void Init(::StringW text);
+    // public System.Void HideLoading()
+    // Offset: 0x13B17BC
+    void HideLoading();
+    // private System.Void <DidActivate>b__8_0()
+    // Offset: 0x13B18D0
+    void $DidActivate$b__8_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13B635C
+    // Offset: 0x13B1808
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -146,6 +131,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JoiningLobbyViewController*), "remove_didCancelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::JoiningLobbyViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::JoiningLobbyViewController::Init
 // Il2CppName: Init
 template<>
@@ -171,10 +160,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JoiningLobbyViewController*), "<DidActivate>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::JoiningLobbyViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::JoiningLobbyViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

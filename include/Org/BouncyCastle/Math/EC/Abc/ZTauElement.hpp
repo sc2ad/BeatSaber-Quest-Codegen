@@ -33,15 +33,7 @@ namespace Org::BouncyCastle::Math::EC::Abc {
   // [TokenAttribute] Offset: FFFFFFFF
   class ZTauElement : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly Org.BouncyCastle.Math.BigInteger u
     // Size: 0x8
     // Offset: 0x10
@@ -56,11 +48,11 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     static_assert(sizeof(::Org::BouncyCastle::Math::BigInteger*) == 0x8);
     public:
     // Get instance field reference: public readonly Org.BouncyCastle.Math.BigInteger u
-    ::Org::BouncyCastle::Math::BigInteger*& dyn_u();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_u();
     // Get instance field reference: public readonly Org.BouncyCastle.Math.BigInteger v
-    ::Org::BouncyCastle::Math::BigInteger*& dyn_v();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_v();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger u, Org.BouncyCastle.Math.BigInteger v)
-    // Offset: 0x226FDF0
+    // Offset: 0x22BA664
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZTauElement* New_ctor(::Org::BouncyCastle::Math::BigInteger* u, ::Org::BouncyCastle::Math::BigInteger* v) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Abc::ZTauElement::.ctor");

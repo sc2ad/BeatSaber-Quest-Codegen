@@ -30,15 +30,7 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class OSSpecificSynchronizationContext::InvocationContext : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Threading.SendOrPostCallback m_Delegate
     // Size: 0x8
     // Offset: 0x10
@@ -53,18 +45,18 @@ namespace System::Threading {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: private System.Threading.SendOrPostCallback m_Delegate
-    ::System::Threading::SendOrPostCallback*& dyn_m_Delegate();
+    [[deprecated("Use field access instead!")]] ::System::Threading::SendOrPostCallback*& dyn_m_Delegate();
     // Get instance field reference: private System.Object m_State
-    ::Il2CppObject*& dyn_m_State();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_m_State();
     // public System.Void .ctor(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0x1DCC5B4
+    // Offset: 0x1DCE118
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OSSpecificSynchronizationContext::InvocationContext* New_ctor(::System::Threading::SendOrPostCallback* d, ::Il2CppObject* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::OSSpecificSynchronizationContext::InvocationContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OSSpecificSynchronizationContext::InvocationContext*, creationType>(d, state)));
     }
     // public System.Void Invoke()
-    // Offset: 0x1DCC5F0
+    // Offset: 0x1DCE154
     void Invoke();
   }; // System.Threading.OSSpecificSynchronizationContext/System.Threading.InvocationContext
   #pragma pack(pop)

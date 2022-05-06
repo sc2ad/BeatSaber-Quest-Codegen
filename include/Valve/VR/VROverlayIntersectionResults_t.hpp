@@ -60,13 +60,13 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public Valve.VR.HmdVector3_t vPoint
-    ::Valve::VR::HmdVector3_t& dyn_vPoint();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::HmdVector3_t& dyn_vPoint();
     // Get instance field reference: public Valve.VR.HmdVector3_t vNormal
-    ::Valve::VR::HmdVector3_t& dyn_vNormal();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::HmdVector3_t& dyn_vNormal();
     // Get instance field reference: public Valve.VR.HmdVector2_t vUVs
-    ::Valve::VR::HmdVector2_t& dyn_vUVs();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::HmdVector2_t& dyn_vUVs();
     // Get instance field reference: public System.Single fDistance
-    float& dyn_fDistance();
+    [[deprecated("Use field access instead!")]] float& dyn_fDistance();
   }; // Valve.VR.VROverlayIntersectionResults_t
   #pragma pack(pop)
   static check_size<sizeof(VROverlayIntersectionResults_t), 32 + sizeof(float)> __Valve_VR_VROverlayIntersectionResults_tSizeCheck;

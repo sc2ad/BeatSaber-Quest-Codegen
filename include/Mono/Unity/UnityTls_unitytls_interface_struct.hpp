@@ -91,15 +91,7 @@ namespace Mono::Unity {
     class unitytls_tlsctx_free_t;
     // Nested type: ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t
     class unitytls_random_generate_bytes_t;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.UInt64 UNITYTLS_INVALID_HANDLE
     // Size: 0x8
     // Offset: 0x10
@@ -300,75 +292,73 @@ namespace Mono::Unity {
     static_assert(sizeof(::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t*) == 0x8);
     public:
     // Get instance field reference: public readonly System.UInt64 UNITYTLS_INVALID_HANDLE
-    uint64_t& dyn_UNITYTLS_INVALID_HANDLE();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_UNITYTLS_INVALID_HANDLE();
     // Get instance field reference: public readonly Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_protocolrange UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT
-    ::Mono::Unity::UnityTls::unitytls_tlsctx_protocolrange& dyn_UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_tlsctx_protocolrange& dyn_UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_errorstate_create_t unitytls_errorstate_create
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_errorstate_create_t*& dyn_unitytls_errorstate_create();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_errorstate_create_t*& dyn_unitytls_errorstate_create();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_errorstate_raise_error_t unitytls_errorstate_raise_error
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_errorstate_raise_error_t*& dyn_unitytls_errorstate_raise_error();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_errorstate_raise_error_t*& dyn_unitytls_errorstate_raise_error();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_key_get_ref_t unitytls_key_get_ref
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_get_ref_t*& dyn_unitytls_key_get_ref();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_get_ref_t*& dyn_unitytls_key_get_ref();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_key_parse_der_t unitytls_key_parse_der
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_parse_der_t*& dyn_unitytls_key_parse_der();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_parse_der_t*& dyn_unitytls_key_parse_der();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_key_parse_pem_t unitytls_key_parse_pem
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_parse_pem_t*& dyn_unitytls_key_parse_pem();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_parse_pem_t*& dyn_unitytls_key_parse_pem();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_key_free_t unitytls_key_free
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_free_t*& dyn_unitytls_key_free();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_free_t*& dyn_unitytls_key_free();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509_export_der_t unitytls_x509_export_der
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509_export_der_t*& dyn_unitytls_x509_export_der();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509_export_der_t*& dyn_unitytls_x509_export_der();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_get_ref_t unitytls_x509list_get_ref
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_get_ref_t*& dyn_unitytls_x509list_get_ref();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_get_ref_t*& dyn_unitytls_x509list_get_ref();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_get_x509_t unitytls_x509list_get_x509
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_get_x509_t*& dyn_unitytls_x509list_get_x509();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_get_x509_t*& dyn_unitytls_x509list_get_x509();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_create_t unitytls_x509list_create
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_create_t*& dyn_unitytls_x509list_create();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_create_t*& dyn_unitytls_x509list_create();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_append_t unitytls_x509list_append
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_t*& dyn_unitytls_x509list_append();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_t*& dyn_unitytls_x509list_append();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_append_der_t unitytls_x509list_append_der
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_der_t*& dyn_unitytls_x509list_append_der();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_der_t*& dyn_unitytls_x509list_append_der();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_append_der_t unitytls_x509list_append_pem
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_der_t*& dyn_unitytls_x509list_append_pem();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_der_t*& dyn_unitytls_x509list_append_pem();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509list_free_t unitytls_x509list_free
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_free_t*& dyn_unitytls_x509list_free();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_free_t*& dyn_unitytls_x509list_free();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509verify_default_ca_t unitytls_x509verify_default_ca
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509verify_default_ca_t*& dyn_unitytls_x509verify_default_ca();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509verify_default_ca_t*& dyn_unitytls_x509verify_default_ca();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509verify_explicit_ca_t unitytls_x509verify_explicit_ca
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509verify_explicit_ca_t*& dyn_unitytls_x509verify_explicit_ca();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509verify_explicit_ca_t*& dyn_unitytls_x509verify_explicit_ca();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_create_server_t unitytls_tlsctx_create_server
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_server_t*& dyn_unitytls_tlsctx_create_server();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_server_t*& dyn_unitytls_tlsctx_create_server();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_create_client_t unitytls_tlsctx_create_client
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_client_t*& dyn_unitytls_tlsctx_create_client();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_client_t*& dyn_unitytls_tlsctx_create_client();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_server_require_client_authentication_t unitytls_tlsctx_server_require_client_authentication
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_server_require_client_authentication_t*& dyn_unitytls_tlsctx_server_require_client_authentication();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_server_require_client_authentication_t*& dyn_unitytls_tlsctx_server_require_client_authentication();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_set_certificate_callback_t unitytls_tlsctx_set_certificate_callback
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_certificate_callback_t*& dyn_unitytls_tlsctx_set_certificate_callback();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_certificate_callback_t*& dyn_unitytls_tlsctx_set_certificate_callback();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_set_trace_callback_t unitytls_tlsctx_set_trace_callback
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_trace_callback_t*& dyn_unitytls_tlsctx_set_trace_callback();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_trace_callback_t*& dyn_unitytls_tlsctx_set_trace_callback();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_set_x509verify_callback_t unitytls_tlsctx_set_x509verify_callback
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_x509verify_callback_t*& dyn_unitytls_tlsctx_set_x509verify_callback();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_x509verify_callback_t*& dyn_unitytls_tlsctx_set_x509verify_callback();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_set_supported_ciphersuites_t unitytls_tlsctx_set_supported_ciphersuites
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_supported_ciphersuites_t*& dyn_unitytls_tlsctx_set_supported_ciphersuites();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_supported_ciphersuites_t*& dyn_unitytls_tlsctx_set_supported_ciphersuites();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_get_ciphersuite_t unitytls_tlsctx_get_ciphersuite
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_get_ciphersuite_t*& dyn_unitytls_tlsctx_get_ciphersuite();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_get_ciphersuite_t*& dyn_unitytls_tlsctx_get_ciphersuite();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_get_protocol_t unitytls_tlsctx_get_protocol
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_get_protocol_t*& dyn_unitytls_tlsctx_get_protocol();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_get_protocol_t*& dyn_unitytls_tlsctx_get_protocol();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_process_handshake_t unitytls_tlsctx_process_handshake
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_process_handshake_t*& dyn_unitytls_tlsctx_process_handshake();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_process_handshake_t*& dyn_unitytls_tlsctx_process_handshake();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_read_t unitytls_tlsctx_read
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_read_t*& dyn_unitytls_tlsctx_read();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_read_t*& dyn_unitytls_tlsctx_read();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_write_t unitytls_tlsctx_write
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_write_t*& dyn_unitytls_tlsctx_write();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_write_t*& dyn_unitytls_tlsctx_write();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_notify_close_t unitytls_tlsctx_notify_close
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_notify_close_t*& dyn_unitytls_tlsctx_notify_close();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_notify_close_t*& dyn_unitytls_tlsctx_notify_close();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_tlsctx_free_t unitytls_tlsctx_free
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_free_t*& dyn_unitytls_tlsctx_free();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_free_t*& dyn_unitytls_tlsctx_free();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_random_generate_bytes_t unitytls_random_generate_bytes
-    ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t*& dyn_unitytls_random_generate_bytes();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t*& dyn_unitytls_random_generate_bytes();
     // public System.Void .ctor()
-    // Offset: 0x1AA47F4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1ADEDDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityTls::unitytls_interface_struct* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Unity::UnityTls::unitytls_interface_struct::.ctor");

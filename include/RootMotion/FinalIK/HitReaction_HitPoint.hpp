@@ -38,30 +38,22 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class HitReaction::HitPoint : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x12783DC
+    // [TooltipAttribute] Offset: 0x10FD094
     // public System.String name
     // Size: 0x8
     // Offset: 0x10
     ::StringW name;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [TooltipAttribute] Offset: 0x1278414
+    // [TooltipAttribute] Offset: 0x10FD0CC
     // public UnityEngine.Collider collider
     // Size: 0x8
     // Offset: 0x18
     ::UnityEngine::Collider* collider;
     // Field size check
     static_assert(sizeof(::UnityEngine::Collider*) == 0x8);
-    // [TooltipAttribute] Offset: 0x127844C
+    // [TooltipAttribute] Offset: 0x10FD104
     // private System.Single crossFadeTime
     // Size: 0x4
     // Offset: 0x20
@@ -112,57 +104,64 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public System.String name
-    ::StringW& dyn_name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_name();
     // Get instance field reference: public UnityEngine.Collider collider
-    ::UnityEngine::Collider*& dyn_collider();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Collider*& dyn_collider();
     // Get instance field reference: private System.Single crossFadeTime
-    float& dyn_crossFadeTime();
+    [[deprecated("Use field access instead!")]] float& dyn_crossFadeTime();
     // Get instance field reference: private System.Single <crossFader>k__BackingField
-    float& dyn_$crossFader$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$crossFader$k__BackingField();
     // Get instance field reference: private System.Single <timer>k__BackingField
-    float& dyn_$timer$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$timer$k__BackingField();
     // Get instance field reference: private UnityEngine.Vector3 <force>k__BackingField
-    ::UnityEngine::Vector3& dyn_$force$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_$force$k__BackingField();
     // Get instance field reference: private UnityEngine.Vector3 <point>k__BackingField
-    ::UnityEngine::Vector3& dyn_$point$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_$point$k__BackingField();
     // Get instance field reference: private System.Single length
-    float& dyn_length();
+    [[deprecated("Use field access instead!")]] float& dyn_length();
     // Get instance field reference: private System.Single crossFadeSpeed
-    float& dyn_crossFadeSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn_crossFadeSpeed();
     // Get instance field reference: private System.Single lastTime
-    float& dyn_lastTime();
+    [[deprecated("Use field access instead!")]] float& dyn_lastTime();
     // public System.Boolean get_inProgress()
-    // Offset: 0x21D3910
+    // Offset: 0x2221184
     bool get_inProgress();
     // protected System.Single get_crossFader()
-    // Offset: 0x21D3EB8
+    // Offset: 0x222172C
     float get_crossFader();
     // private System.Void set_crossFader(System.Single value)
-    // Offset: 0x21D3EC0
+    // Offset: 0x2221734
     void set_crossFader(float value);
     // protected System.Single get_timer()
-    // Offset: 0x21D3EC8
+    // Offset: 0x222173C
     float get_timer();
     // private System.Void set_timer(System.Single value)
-    // Offset: 0x21D3ED0
+    // Offset: 0x2221744
     void set_timer(float value);
     // protected UnityEngine.Vector3 get_force()
-    // Offset: 0x21D3ED8
+    // Offset: 0x222174C
     ::UnityEngine::Vector3 get_force();
     // private System.Void set_force(UnityEngine.Vector3 value)
-    // Offset: 0x21D3EE4
+    // Offset: 0x2221758
     void set_force(::UnityEngine::Vector3 value);
     // protected UnityEngine.Vector3 get_point()
-    // Offset: 0x21D3EF0
+    // Offset: 0x2221764
     ::UnityEngine::Vector3 get_point();
     // private System.Void set_point(UnityEngine.Vector3 value)
-    // Offset: 0x21D3EFC
+    // Offset: 0x2221770
     void set_point(::UnityEngine::Vector3 value);
+    // protected System.Void .ctor()
+    // Offset: 0x222177C
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static HitReaction::HitPoint* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::HitReaction::HitPoint::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<HitReaction::HitPoint*, creationType>()));
+    }
     // public System.Void Hit(UnityEngine.Vector3 force, UnityEngine.Vector3 point)
-    // Offset: 0x21D3D84
+    // Offset: 0x22215F8
     void Hit(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 point);
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
-    // Offset: 0x21D39F8
+    // Offset: 0x222126C
     void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);
     // protected System.Single GetLength()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -173,15 +172,6 @@ namespace RootMotion::FinalIK {
     // protected System.Void OnApply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void OnApply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);
-    // protected System.Void .ctor()
-    // Offset: 0x21D3F08
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HitReaction::HitPoint* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::HitReaction::HitPoint::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<HitReaction::HitPoint*, creationType>()));
-    }
   }; // RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPoint
   #pragma pack(pop)
   static check_size<sizeof(HitReaction::HitPoint), 76 + sizeof(float)> __RootMotion_FinalIK_HitReaction_HitPointSizeCheck;
@@ -264,6 +254,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::HitReaction::HitPoint*), "set_point", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: RootMotion::FinalIK::HitReaction::HitPoint::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::HitReaction::HitPoint::Hit
 // Il2CppName: Hit
 template<>
@@ -310,7 +304,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::HitReaction::HitPoint*), "OnApply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver, weight});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::HitReaction::HitPoint::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

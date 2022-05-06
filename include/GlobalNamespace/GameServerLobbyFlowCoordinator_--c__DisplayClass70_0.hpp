@@ -31,15 +31,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class GameServerLobbyFlowCoordinator::$$c__DisplayClass70_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public GameServerLobbyFlowCoordinator <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -54,13 +46,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action*) == 0x8);
     public:
     // Get instance field reference: public GameServerLobbyFlowCoordinator <>4__this
-    ::GlobalNamespace::GameServerLobbyFlowCoordinator*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameServerLobbyFlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: public System.Action finishedCallback
-    ::System::Action*& dyn_finishedCallback();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_finishedCallback();
     // public System.Void .ctor()
-    // Offset: 0x13DBEE8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13E8988
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerLobbyFlowCoordinator::$$c__DisplayClass70_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass70_0::.ctor");

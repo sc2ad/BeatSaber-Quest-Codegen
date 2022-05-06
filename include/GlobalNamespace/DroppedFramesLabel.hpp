@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DroppedFramesLabel : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _text
     // Size: 0x8
     // Offset: 0x18
@@ -96,49 +88,47 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
-    ::TMPro::TextMeshProUGUI*& dyn__text();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__text();
     // Get instance field reference: private System.Int32 _expectedFrameRate
-    int& dyn__expectedFrameRate();
+    [[deprecated("Use field access instead!")]] int& dyn__expectedFrameRate();
     // Get instance field reference: private System.Int32 _resetInterval
-    int& dyn__resetInterval();
+    [[deprecated("Use field access instead!")]] int& dyn__resetInterval();
     // Get instance field reference: private System.Int32 _totalNumberOfDroppedFrames
-    int& dyn__totalNumberOfDroppedFrames();
+    [[deprecated("Use field access instead!")]] int& dyn__totalNumberOfDroppedFrames();
     // Get instance field reference: private System.Single _syncedFrameTime
-    float& dyn__syncedFrameTime();
+    [[deprecated("Use field access instead!")]] float& dyn__syncedFrameTime();
     // Get instance field reference: private System.Single _intervalTime
-    float& dyn__intervalTime();
+    [[deprecated("Use field access instead!")]] float& dyn__intervalTime();
     // Get instance field reference: private System.Single _maxFrameTimeInInterval
-    float& dyn__maxFrameTimeInInterval();
+    [[deprecated("Use field access instead!")]] float& dyn__maxFrameTimeInInterval();
     // Get instance field reference: private System.Int32 _frameCountInInterval
-    int& dyn__frameCountInInterval();
-    // protected System.Void Start()
-    // Offset: 0x15697FC
-    void Start();
-    // protected System.Void Update()
-    // Offset: 0x1569870
-    void Update();
-    // private System.Void RefreshText()
-    // Offset: 0x156995C
-    void RefreshText();
+    [[deprecated("Use field access instead!")]] int& dyn__frameCountInInterval();
     // public System.Void .ctor()
-    // Offset: 0x1569A80
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15A0388
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DroppedFramesLabel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DroppedFramesLabel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DroppedFramesLabel*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x15A0104
+    void Start();
+    // protected System.Void Update()
+    // Offset: 0x15A0178
+    void Update();
+    // private System.Void RefreshText()
+    // Offset: 0x15A0264
+    void RefreshText();
   }; // DroppedFramesLabel
   #pragma pack(pop)
   static check_size<sizeof(DroppedFramesLabel), 56 + sizeof(int)> __GlobalNamespace_DroppedFramesLabelSizeCheck;
   static_assert(sizeof(DroppedFramesLabel) == 0x3C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::DroppedFramesLabel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::DroppedFramesLabel::Start
 // Il2CppName: Start
 template<>
@@ -163,7 +153,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DroppedFramesLabel*), "RefreshText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::DroppedFramesLabel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

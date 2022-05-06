@@ -26,15 +26,7 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class ReaderWriterCount : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int64 lockID
     // Size: 0x8
     // Offset: 0x10
@@ -69,19 +61,17 @@ namespace System::Threading {
     static_assert(sizeof(::System::Threading::ReaderWriterCount*) == 0x8);
     public:
     // Get instance field reference: public System.Int64 lockID
-    int64_t& dyn_lockID();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_lockID();
     // Get instance field reference: public System.Int32 readercount
-    int& dyn_readercount();
+    [[deprecated("Use field access instead!")]] int& dyn_readercount();
     // Get instance field reference: public System.Int32 writercount
-    int& dyn_writercount();
+    [[deprecated("Use field access instead!")]] int& dyn_writercount();
     // Get instance field reference: public System.Int32 upgradecount
-    int& dyn_upgradecount();
+    [[deprecated("Use field access instead!")]] int& dyn_upgradecount();
     // Get instance field reference: public System.Threading.ReaderWriterCount next
-    ::System::Threading::ReaderWriterCount*& dyn_next();
+    [[deprecated("Use field access instead!")]] ::System::Threading::ReaderWriterCount*& dyn_next();
     // public System.Void .ctor()
-    // Offset: 0x2A34550
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A8A938
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReaderWriterCount* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::ReaderWriterCount::.ctor");

@@ -39,15 +39,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ObstacleControllerBase : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Action`1<ObstacleControllerBase> didInitEvent
     // Size: 0x8
     // Offset: 0x18
@@ -64,40 +56,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Action`1<ObstacleControllerBase> didInitEvent
-    ::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>*& dyn_didInitEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>*& dyn_didInitEvent();
     // Get instance field reference: private System.Action`2<ObstacleControllerBase,System.Single> didStartDissolvingEvent
-    ::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float>*& dyn_didStartDissolvingEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float>*& dyn_didStartDissolvingEvent();
     // public System.Void add_didInitEvent(System.Action`1<ObstacleControllerBase> value)
-    // Offset: 0x147EE14
+    // Offset: 0x14B5694
     void add_didInitEvent(::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>* value);
     // public System.Void remove_didInitEvent(System.Action`1<ObstacleControllerBase> value)
-    // Offset: 0x147EEB8
+    // Offset: 0x14B5738
     void remove_didInitEvent(::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>* value);
     // public System.Void add_didStartDissolvingEvent(System.Action`2<ObstacleControllerBase,System.Single> value)
-    // Offset: 0x147EF5C
+    // Offset: 0x14B57DC
     void add_didStartDissolvingEvent(::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float>* value);
     // public System.Void remove_didStartDissolvingEvent(System.Action`2<ObstacleControllerBase,System.Single> value)
-    // Offset: 0x147F000
+    // Offset: 0x14B5880
     void remove_didStartDissolvingEvent(::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float>* value);
-    // protected System.Void InvokeDidInitEvent(ObstacleControllerBase obstacleController)
-    // Offset: 0x147E5E0
-    void InvokeDidInitEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController);
-    // protected System.Void InvokeDidStartDissolvingEvent(ObstacleControllerBase obstacleController, System.Single duration)
-    // Offset: 0x147ECCC
-    void InvokeDidStartDissolvingEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController, float duration);
     // protected System.Void .ctor()
-    // Offset: 0x147EBE8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14B5468
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleControllerBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObstacleControllerBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleControllerBase*, creationType>()));
     }
+    // protected System.Void InvokeDidInitEvent(ObstacleControllerBase obstacleController)
+    // Offset: 0x14B4E60
+    void InvokeDidInitEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController);
+    // protected System.Void InvokeDidStartDissolvingEvent(ObstacleControllerBase obstacleController, System.Single duration)
+    // Offset: 0x14B554C
+    void InvokeDidStartDissolvingEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController, float duration);
   }; // ObstacleControllerBase
   #pragma pack(pop)
   static check_size<sizeof(ObstacleControllerBase), 32 + sizeof(::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float>*)> __GlobalNamespace_ObstacleControllerBaseSizeCheck;
@@ -140,6 +126,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleControllerBase*), "remove_didStartDissolvingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleControllerBase::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleControllerBase::InvokeDidInitEvent
 // Il2CppName: InvokeDidInitEvent
 template<>
@@ -159,7 +149,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleControllerBase*), "InvokeDidStartDissolvingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obstacleController, duration});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ObstacleControllerBase::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

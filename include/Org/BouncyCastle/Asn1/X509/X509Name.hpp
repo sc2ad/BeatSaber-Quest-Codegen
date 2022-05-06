@@ -62,15 +62,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509Name : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.IList ordering
     // Size: 0x8
     // Offset: 0x10
@@ -263,47 +255,47 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Set static field: static public readonly System.Collections.Hashtable DefaultLookup
     static void _set_DefaultLookup(::System::Collections::Hashtable* value);
     // Get instance field reference: private readonly System.Collections.IList ordering
-    ::System::Collections::IList*& dyn_ordering();
+    [[deprecated("Use field access instead!")]] ::System::Collections::IList*& dyn_ordering();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.X509NameEntryConverter converter
-    ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter*& dyn_converter();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter*& dyn_converter();
     // Get instance field reference: private System.Collections.IList values
-    ::System::Collections::IList*& dyn_values();
+    [[deprecated("Use field access instead!")]] ::System::Collections::IList*& dyn_values();
     // Get instance field reference: private System.Collections.IList added
-    ::System::Collections::IList*& dyn_added();
+    [[deprecated("Use field access instead!")]] ::System::Collections::IList*& dyn_added();
     // Get instance field reference: private Org.BouncyCastle.Asn1.Asn1Sequence seq
-    ::Org::BouncyCastle::Asn1::Asn1Sequence*& dyn_seq();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1Sequence*& dyn_seq();
     // static public System.Boolean get_DefaultReverse()
-    // Offset: 0x1ECC944
+    // Offset: 0x1F19E7C
     static bool get_DefaultReverse();
     // static private System.Void .cctor()
-    // Offset: 0x1ECC9CC
+    // Offset: 0x1F19F04
     static void _cctor();
     // protected System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1ECDEC0
+    // Offset: 0x1F1B3F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Name* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::X509Name::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Name*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X509.X509Name GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x1EC7364
+    // Offset: 0x1F1489C
     static ::Org::BouncyCastle::Asn1::X509::X509Name* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // static public Org.BouncyCastle.Asn1.X509.X509Name GetInstance(System.Object obj)
-    // Offset: 0x1EC7520
+    // Offset: 0x1F14A58
     static ::Org::BouncyCastle::Asn1::X509::X509Name* GetInstance(::Il2CppObject* obj);
     // private System.Void AppendValue(System.Text.StringBuilder buf, System.Collections.IDictionary oidSymbols, Org.BouncyCastle.Asn1.DerObjectIdentifier oid, System.String val)
-    // Offset: 0x1ECEBB4
+    // Offset: 0x1F1C0EC
     void AppendValue(::System::Text::StringBuilder* buf, ::System::Collections::IDictionary* oidSymbols, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::StringW val);
     // public System.String ToString(System.Boolean reverse, System.Collections.IDictionary oidSymbols)
-    // Offset: 0x1ECEE78
+    // Offset: 0x1F1C3B0
     ::StringW ToString(bool reverse, ::System::Collections::IDictionary* oidSymbols);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1ECE718
+    // Offset: 0x1F1BC50
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x1ECF450
+    // Offset: 0x1F1C988
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

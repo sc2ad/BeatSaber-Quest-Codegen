@@ -91,31 +91,23 @@ namespace VRUIControls {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public readonly System.Boolean wasHit
-      bool& dyn_wasHit();
+      [[deprecated("Use field access instead!")]] bool& dyn_wasHit();
       // Get instance field reference: public readonly UnityEngine.Ray ray
-      ::UnityEngine::Ray& dyn_ray();
+      [[deprecated("Use field access instead!")]] ::UnityEngine::Ray& dyn_ray();
       // Get instance field reference: public readonly UnityEngine.RaycastHit hitInfo
-      ::UnityEngine::RaycastHit& dyn_hitInfo();
+      [[deprecated("Use field access instead!")]] ::UnityEngine::RaycastHit& dyn_hitInfo();
       // Get instance field reference: public readonly System.Single maxDistance
-      float& dyn_maxDistance();
+      [[deprecated("Use field access instead!")]] float& dyn_maxDistance();
       // Get instance field reference: public readonly System.Int32 layerMask
-      int& dyn_layerMask();
+      [[deprecated("Use field access instead!")]] int& dyn_layerMask();
       // public System.Void .ctor(System.Boolean wasHit, UnityEngine.Ray ray, UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask)
-      // Offset: 0x2A04178
+      // Offset: 0x2A59C80
       // ABORTED: conflicts with another method.  CachedRaycast(bool wasHit, ::UnityEngine::Ray ray, ::UnityEngine::RaycastHit hitInfo, float maxDistance, int layerMask);
     }; // VRUIControls.PhysicsRaycasterWithCache/VRUIControls.CachedRaycast
     #pragma pack(pop)
     static check_size<sizeof(PhysicsRaycasterWithCache::CachedRaycast), 76 + sizeof(int)> __VRUIControls_PhysicsRaycasterWithCache_CachedRaycastSizeCheck;
     static_assert(sizeof(PhysicsRaycasterWithCache::CachedRaycast) == 0x50);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.List`1<VRUIControls.PhysicsRaycasterWithCache/VRUIControls.CachedRaycast> _cachedRaycasts
     // Size: 0x8
     // Offset: 0x10
@@ -130,21 +122,19 @@ namespace VRUIControls {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private readonly System.Collections.Generic.List`1<VRUIControls.PhysicsRaycasterWithCache/VRUIControls.CachedRaycast> _cachedRaycasts
-    ::System::Collections::Generic::List_1<::VRUIControls::PhysicsRaycasterWithCache::CachedRaycast>*& dyn__cachedRaycasts();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::VRUIControls::PhysicsRaycasterWithCache::CachedRaycast>*& dyn__cachedRaycasts();
     // Get instance field reference: private System.Int32 _lastFrameCount
-    int& dyn__lastFrameCount();
-    // public System.Boolean Raycast(UnityEngine.Ray ray, out UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask)
-    // Offset: 0x2A03D14
-    bool Raycast(::UnityEngine::Ray ray, ByRef<::UnityEngine::RaycastHit> hitInfo, float maxDistance, int layerMask);
+    [[deprecated("Use field access instead!")]] int& dyn__lastFrameCount();
     // public System.Void .ctor()
-    // Offset: 0x2A041B8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A59CC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PhysicsRaycasterWithCache* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::VRUIControls::PhysicsRaycasterWithCache::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PhysicsRaycasterWithCache*, creationType>()));
     }
+    // public System.Boolean Raycast(UnityEngine.Ray ray, out UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask)
+    // Offset: 0x2A5981C
+    bool Raycast(::UnityEngine::Ray ray, ByRef<::UnityEngine::RaycastHit> hitInfo, float maxDistance, int layerMask);
   }; // VRUIControls.PhysicsRaycasterWithCache
   #pragma pack(pop)
   static check_size<sizeof(PhysicsRaycasterWithCache), 24 + sizeof(int)> __VRUIControls_PhysicsRaycasterWithCacheSizeCheck;
@@ -153,6 +143,10 @@ namespace VRUIControls {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::VRUIControls::PhysicsRaycasterWithCache::CachedRaycast, "VRUIControls", "PhysicsRaycasterWithCache/CachedRaycast");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: VRUIControls::PhysicsRaycasterWithCache::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: VRUIControls::PhysicsRaycasterWithCache::Raycast
 // Il2CppName: Raycast
 template<>
@@ -165,7 +159,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIC
     return ::il2cpp_utils::FindMethod(classof(VRUIControls::PhysicsRaycasterWithCache*), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ray, hitInfo, maxDistance, layerMask});
   }
 };
-// Writing MetadataGetter for method: VRUIControls::PhysicsRaycasterWithCache::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

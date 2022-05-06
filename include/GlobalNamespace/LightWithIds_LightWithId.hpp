@@ -27,15 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightWithIds::LightWithId : public ::Il2CppObject/*, public ::GlobalNamespace::ILightWithId*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _lightId
     // Size: 0x4
     // Offset: 0x10
@@ -68,50 +60,48 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::ILightWithId*>(this);
     }
     // Get instance field reference: private System.Int32 _lightId
-    int& dyn__lightId();
+    [[deprecated("Use field access instead!")]] int& dyn__lightId();
     // Get instance field reference: private UnityEngine.Color _color
-    ::UnityEngine::Color& dyn__color();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // Get instance field reference: private System.Boolean _isRegistered
-    bool& dyn__isRegistered();
+    [[deprecated("Use field access instead!")]] bool& dyn__isRegistered();
     // Get instance field reference: private LightWithIds _parentLightWithIds
-    ::GlobalNamespace::LightWithIds*& dyn__parentLightWithIds();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightWithIds*& dyn__parentLightWithIds();
     // public System.Int32 get_lightId()
-    // Offset: 0x2AD3B8C
+    // Offset: 0x1E7CF54
     int get_lightId();
     // public UnityEngine.Color get_color()
-    // Offset: 0x2AD3B94
+    // Offset: 0x1E7CF5C
     ::UnityEngine::Color get_color();
     // public System.Boolean get_isRegistered()
-    // Offset: 0x2AD3BA0
+    // Offset: 0x1E7CF68
     bool get_isRegistered();
+    // protected System.Void .ctor()
+    // Offset: 0x1E7CF84
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static LightWithIds::LightWithId* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightWithIds::LightWithId::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<LightWithIds::LightWithId*, creationType>()));
+    }
     // protected System.Void .ctor(System.Int32 lightId)
-    // Offset: 0x2AD3BC4
+    // Offset: 0x1E7CF8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightWithIds::LightWithId* New_ctor(int lightId) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightWithIds::LightWithId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightWithIds::LightWithId*, creationType>(lightId)));
     }
     // public System.Void __SetIsRegistered()
-    // Offset: 0x2AD3BA8
+    // Offset: 0x1E7CF70
     void __SetIsRegistered();
     // public System.Void __SetIsUnRegistered()
-    // Offset: 0x2AD3BB4
+    // Offset: 0x1E7CF7C
     void __SetIsUnRegistered();
     // public System.Void __SetParentLightWithIds(LightWithIds parentLightWithIds)
-    // Offset: 0x2AD3BF0
+    // Offset: 0x1E7CFB8
     void __SetParentLightWithIds(::GlobalNamespace::LightWithIds* parentLightWithIds);
     // public System.Void ColorWasSet(UnityEngine.Color newColor)
-    // Offset: 0x2AD3BF8
+    // Offset: 0x1E7CFC0
     void ColorWasSet(::UnityEngine::Color newColor);
-    // protected System.Void .ctor()
-    // Offset: 0x2AD3BBC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LightWithIds::LightWithId* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightWithIds::LightWithId::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<LightWithIds::LightWithId*, creationType>()));
-    }
   }; // LightWithIds/LightWithId
   #pragma pack(pop)
   static check_size<sizeof(LightWithIds::LightWithId), 40 + sizeof(::GlobalNamespace::LightWithIds*)> __GlobalNamespace_LightWithIds_LightWithIdSizeCheck;
@@ -142,6 +132,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIds::LightWithId*), "get_isRegistered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LightWithIds::LightWithId::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LightWithIds::LightWithId::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -180,7 +174,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIds::LightWithId*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newColor});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LightWithIds::LightWithId::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

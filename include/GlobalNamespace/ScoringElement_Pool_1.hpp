@@ -26,10 +26,6 @@ namespace GlobalNamespace {
     public:
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFFFFFFFFFF
-    // Implemented from: Zenject.MemoryPool`1
-    // Base method: System.Void MemoryPool_1::.ctor()
-    // Base method: System.Void MemoryPoolBase_1::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScoringElement::Pool_1<T>* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScoringElement::Pool_1::.ctor");

@@ -47,15 +47,7 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class WarningHeaderValue : public ::Il2CppObject/*, public ::System::ICloneable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String <Agent>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -84,70 +76,68 @@ namespace System::Net::Http::Headers {
       return *reinterpret_cast<::System::ICloneable*>(this);
     }
     // Get instance field reference: private System.String <Agent>k__BackingField
-    ::StringW& dyn_$Agent$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$Agent$k__BackingField();
     // Get instance field reference: private System.Int32 <Code>k__BackingField
-    int& dyn_$Code$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$Code$k__BackingField();
     // Get instance field reference: private System.Nullable`1<System.DateTimeOffset> <Date>k__BackingField
-    ::System::Nullable_1<::System::DateTimeOffset>& dyn_$Date$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Nullable_1<::System::DateTimeOffset>& dyn_$Date$k__BackingField();
     // Get instance field reference: private System.String <Text>k__BackingField
-    ::StringW& dyn_$Text$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$Text$k__BackingField();
     // public System.String get_Agent()
-    // Offset: 0x1961DE8
+    // Offset: 0x199A3D0
     ::StringW get_Agent();
     // private System.Void set_Agent(System.String value)
-    // Offset: 0x1961DF0
+    // Offset: 0x199A3D8
     void set_Agent(::StringW value);
     // public System.Int32 get_Code()
-    // Offset: 0x1961DF8
+    // Offset: 0x199A3E0
     int get_Code();
     // private System.Void set_Code(System.Int32 value)
-    // Offset: 0x1961E00
+    // Offset: 0x199A3E8
     void set_Code(int value);
     // public System.Nullable`1<System.DateTimeOffset> get_Date()
-    // Offset: 0x1961E08
+    // Offset: 0x199A3F0
     ::System::Nullable_1<::System::DateTimeOffset> get_Date();
     // private System.Void set_Date(System.Nullable`1<System.DateTimeOffset> value)
-    // Offset: 0x1961E1C
+    // Offset: 0x199A404
     void set_Date(::System::Nullable_1<::System::DateTimeOffset> value);
     // public System.String get_Text()
-    // Offset: 0x1961E30
+    // Offset: 0x199A418
     ::StringW get_Text();
     // private System.Void set_Text(System.String value)
-    // Offset: 0x1961E38
+    // Offset: 0x199A420
     void set_Text(::StringW value);
-    // static private System.Boolean IsCodeValid(System.Int32 code)
-    // Offset: 0x1961E40
-    static bool IsCodeValid(int code);
-    // private System.Object System.ICloneable.Clone()
-    // Offset: 0x1961E4C
-    ::Il2CppObject* System_ICloneable_Clone();
-    // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.WarningHeaderValue> result)
-    // Offset: 0x1962080
-    static bool TryParse(::StringW input, int minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::WarningHeaderValue*>*> result);
-    // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.WarningHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x1962120
-    static bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::WarningHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
     // private System.Void .ctor()
-    // Offset: 0x1961DE0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x199A3C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WarningHeaderValue* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::WarningHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WarningHeaderValue*, creationType>()));
     }
+    // static private System.Boolean IsCodeValid(System.Int32 code)
+    // Offset: 0x199A428
+    static bool IsCodeValid(int code);
+    // private System.Object System.ICloneable.Clone()
+    // Offset: 0x199A434
+    ::Il2CppObject* System_ICloneable_Clone();
+    // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.WarningHeaderValue> result)
+    // Offset: 0x199A668
+    static bool TryParse(::StringW input, int minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::WarningHeaderValue*>*> result);
+    // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.WarningHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
+    // Offset: 0x199A708
+    static bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::WarningHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1961E54
+    // Offset: 0x199A43C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1961F98
+    // Offset: 0x199A580
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x19623CC
+    // Offset: 0x199A9B4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -223,6 +213,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::WarningHeaderValue*), "set_Text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: System::Net::Http::Headers::WarningHeaderValue::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::WarningHeaderValue::IsCodeValid
 // Il2CppName: IsCodeValid
 template<>
@@ -262,10 +256,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::WarningHeaderValue*), "TryParseElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lexer, parsedValue, t});
   }
 };
-// Writing MetadataGetter for method: System::Net::Http::Headers::WarningHeaderValue::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::WarningHeaderValue::Equals
 // Il2CppName: Equals
 template<>

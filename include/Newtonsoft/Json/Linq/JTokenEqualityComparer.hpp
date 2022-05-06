@@ -40,25 +40,27 @@ namespace Newtonsoft::Json::Linq {
     operator ::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>*>(this);
     }
-    // public System.Boolean Equals(Newtonsoft.Json.Linq.JToken x, Newtonsoft.Json.Linq.JToken y)
-    // Offset: 0x171EA74
-    bool Equals(::Newtonsoft::Json::Linq::JToken* x, ::Newtonsoft::Json::Linq::JToken* y);
-    // public System.Int32 GetHashCode(Newtonsoft.Json.Linq.JToken obj)
-    // Offset: 0x171EB18
-    int GetHashCode(::Newtonsoft::Json::Linq::JToken* obj);
     // public System.Void .ctor()
-    // Offset: 0x171EB3C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x175744C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JTokenEqualityComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JTokenEqualityComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JTokenEqualityComparer*, creationType>()));
     }
+    // public System.Boolean Equals(Newtonsoft.Json.Linq.JToken x, Newtonsoft.Json.Linq.JToken y)
+    // Offset: 0x1757384
+    bool Equals(::Newtonsoft::Json::Linq::JToken* x, ::Newtonsoft::Json::Linq::JToken* y);
+    // public System.Int32 GetHashCode(Newtonsoft.Json.Linq.JToken obj)
+    // Offset: 0x1757428
+    int GetHashCode(::Newtonsoft::Json::Linq::JToken* obj);
   }; // Newtonsoft.Json.Linq.JTokenEqualityComparer
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Newtonsoft::Json::Linq::JTokenEqualityComparer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JTokenEqualityComparer::Equals
 // Il2CppName: Equals
 template<>
@@ -78,7 +80,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Newton
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JTokenEqualityComparer*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
-// Writing MetadataGetter for method: Newtonsoft::Json::Linq::JTokenEqualityComparer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

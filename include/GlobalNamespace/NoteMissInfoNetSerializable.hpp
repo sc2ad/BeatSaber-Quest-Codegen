@@ -47,15 +47,7 @@ namespace GlobalNamespace {
   // [PreserveAttribute] Offset: FFFFFFFF
   class NoteMissInfoNetSerializable : public ::Il2CppObject/*, public ::LiteNetLib::Utils::INetSerializable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private ColorType <colorType>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -86,66 +78,64 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
     // Get instance field reference: private ColorType <colorType>k__BackingField
-    ::GlobalNamespace::ColorType& dyn_$colorType$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorType& dyn_$colorType$k__BackingField();
     // Get instance field reference: private System.Single <noteTime>k__BackingField
-    float& dyn_$noteTime$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$noteTime$k__BackingField();
     // Get instance field reference: private System.Int32 <noteLineIndex>k__BackingField
-    int& dyn_$noteLineIndex$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$noteLineIndex$k__BackingField();
     // Get instance field reference: private NoteLineLayer <noteLineLayer>k__BackingField
-    ::GlobalNamespace::NoteLineLayer& dyn_$noteLineLayer$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteLineLayer& dyn_$noteLineLayer$k__BackingField();
     // public ColorType get_colorType()
-    // Offset: 0x29C0FA8
+    // Offset: 0x2A0331C
     ::GlobalNamespace::ColorType get_colorType();
     // private System.Void set_colorType(ColorType value)
-    // Offset: 0x29C0FB0
+    // Offset: 0x2A03324
     void set_colorType(::GlobalNamespace::ColorType value);
     // public System.Single get_noteTime()
-    // Offset: 0x29C0FB8
+    // Offset: 0x2A0332C
     float get_noteTime();
     // private System.Void set_noteTime(System.Single value)
-    // Offset: 0x29C0FC0
+    // Offset: 0x2A03334
     void set_noteTime(float value);
     // public System.Int32 get_noteLineIndex()
-    // Offset: 0x29C0FC8
+    // Offset: 0x2A0333C
     int get_noteLineIndex();
     // private System.Void set_noteLineIndex(System.Int32 value)
-    // Offset: 0x29C0FD0
+    // Offset: 0x2A03344
     void set_noteLineIndex(int value);
     // public NoteLineLayer get_noteLineLayer()
-    // Offset: 0x29C0FD8
+    // Offset: 0x2A0334C
     ::GlobalNamespace::NoteLineLayer get_noteLineLayer();
     // private System.Void set_noteLineLayer(NoteLineLayer value)
-    // Offset: 0x29C0FE0
+    // Offset: 0x2A03354
     void set_noteLineLayer(::GlobalNamespace::NoteLineLayer value);
+    // public System.Void .ctor()
+    // Offset: 0x2A0347C
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static NoteMissInfoNetSerializable* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteMissInfoNetSerializable::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<NoteMissInfoNetSerializable*, creationType>()));
+    }
     // public System.Void .ctor(NoteData noteData)
-    // Offset: 0x29C1110
+    // Offset: 0x2A03484
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteMissInfoNetSerializable* New_ctor(::GlobalNamespace::NoteData* noteData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteMissInfoNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteMissInfoNetSerializable*, creationType>(noteData)));
     }
     // public System.Void .ctor(ColorType colorType, NoteLineLayer lineLayer, System.Int32 noteLineIndex, System.Single noteTime)
-    // Offset: 0x29C1158
+    // Offset: 0x2A034CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteMissInfoNetSerializable* New_ctor(::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteLineLayer lineLayer, int noteLineIndex, float noteTime) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteMissInfoNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteMissInfoNetSerializable*, creationType>(colorType, lineLayer, noteLineIndex, noteTime)));
     }
     // private System.Void LiteNetLib.Utils.INetSerializable.Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29C0FE8
+    // Offset: 0x2A0335C
     void LiteNetLib_Utils_INetSerializable_Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // private System.Void LiteNetLib.Utils.INetSerializable.Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x29C1068
+    // Offset: 0x2A033DC
     void LiteNetLib_Utils_INetSerializable_Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
-    // public System.Void .ctor()
-    // Offset: 0x29C1108
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NoteMissInfoNetSerializable* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteMissInfoNetSerializable::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<NoteMissInfoNetSerializable*, creationType>()));
-    }
   }; // NoteMissInfoNetSerializable
   #pragma pack(pop)
   static check_size<sizeof(NoteMissInfoNetSerializable), 28 + sizeof(::GlobalNamespace::NoteLineLayer)> __GlobalNamespace_NoteMissInfoNetSerializableSizeCheck;
@@ -228,6 +218,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::NoteMissInfoNetSerializable::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NoteMissInfoNetSerializable::LiteNetLib_Utils_INetSerializable_Deserialize
 // Il2CppName: LiteNetLib.Utils.INetSerializable.Deserialize
 template<>
@@ -246,7 +240,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMissInfoNetSerializable*), "LiteNetLib.Utils.INetSerializable.Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NoteMissInfoNetSerializable::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

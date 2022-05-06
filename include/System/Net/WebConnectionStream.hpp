@@ -70,15 +70,7 @@ namespace System::Net {
     class $$c__DisplayClass76_0;
     // Nested type: ::System::Net::WebConnectionStream::$$c__DisplayClass80_0
     class $$c__DisplayClass80_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean isRead
     // Size: 0x1
     // Offset: 0x28
@@ -283,246 +275,244 @@ namespace System::Net {
     // Set static field: static private System.Byte[] crlf
     static void _set_crlf(::ArrayW<uint8_t> value);
     // Get instance field reference: private System.Boolean isRead
-    bool& dyn_isRead();
+    [[deprecated("Use field access instead!")]] bool& dyn_isRead();
     // Get instance field reference: private System.Net.WebConnection cnc
-    ::System::Net::WebConnection*& dyn_cnc();
+    [[deprecated("Use field access instead!")]] ::System::Net::WebConnection*& dyn_cnc();
     // Get instance field reference: private System.Net.HttpWebRequest request
-    ::System::Net::HttpWebRequest*& dyn_request();
+    [[deprecated("Use field access instead!")]] ::System::Net::HttpWebRequest*& dyn_request();
     // Get instance field reference: private System.Byte[] readBuffer
-    ::ArrayW<uint8_t>& dyn_readBuffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_readBuffer();
     // Get instance field reference: private System.Int32 readBufferOffset
-    int& dyn_readBufferOffset();
+    [[deprecated("Use field access instead!")]] int& dyn_readBufferOffset();
     // Get instance field reference: private System.Int32 readBufferSize
-    int& dyn_readBufferSize();
+    [[deprecated("Use field access instead!")]] int& dyn_readBufferSize();
     // Get instance field reference: private System.Int32 stream_length
-    int& dyn_stream_length();
+    [[deprecated("Use field access instead!")]] int& dyn_stream_length();
     // Get instance field reference: private System.Int64 contentLength
-    int64_t& dyn_contentLength();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_contentLength();
     // Get instance field reference: private System.Int64 totalRead
-    int64_t& dyn_totalRead();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_totalRead();
     // Get instance field reference: System.Int64 totalWritten
-    int64_t& dyn_totalWritten();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_totalWritten();
     // Get instance field reference: private System.Boolean nextReadCalled
-    bool& dyn_nextReadCalled();
+    [[deprecated("Use field access instead!")]] bool& dyn_nextReadCalled();
     // Get instance field reference: private System.Int32 pendingReads
-    int& dyn_pendingReads();
+    [[deprecated("Use field access instead!")]] int& dyn_pendingReads();
     // Get instance field reference: private System.Int32 pendingWrites
-    int& dyn_pendingWrites();
+    [[deprecated("Use field access instead!")]] int& dyn_pendingWrites();
     // Get instance field reference: private System.Threading.ManualResetEvent pending
-    ::System::Threading::ManualResetEvent*& dyn_pending();
+    [[deprecated("Use field access instead!")]] ::System::Threading::ManualResetEvent*& dyn_pending();
     // Get instance field reference: private System.Boolean allowBuffering
-    bool& dyn_allowBuffering();
+    [[deprecated("Use field access instead!")]] bool& dyn_allowBuffering();
     // Get instance field reference: private System.Boolean sendChunked
-    bool& dyn_sendChunked();
+    [[deprecated("Use field access instead!")]] bool& dyn_sendChunked();
     // Get instance field reference: private System.IO.MemoryStream writeBuffer
-    ::System::IO::MemoryStream*& dyn_writeBuffer();
+    [[deprecated("Use field access instead!")]] ::System::IO::MemoryStream*& dyn_writeBuffer();
     // Get instance field reference: private System.Boolean requestWritten
-    bool& dyn_requestWritten();
+    [[deprecated("Use field access instead!")]] bool& dyn_requestWritten();
     // Get instance field reference: private System.Byte[] headers
-    ::ArrayW<uint8_t>& dyn_headers();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_headers();
     // Get instance field reference: private System.Boolean disposed
-    bool& dyn_disposed();
+    [[deprecated("Use field access instead!")]] bool& dyn_disposed();
     // Get instance field reference: private System.Boolean headersSent
-    bool& dyn_headersSent();
+    [[deprecated("Use field access instead!")]] bool& dyn_headersSent();
     // Get instance field reference: private System.Object locker
-    ::Il2CppObject*& dyn_locker();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_locker();
     // Get instance field reference: private System.Boolean initRead
-    bool& dyn_initRead();
+    [[deprecated("Use field access instead!")]] bool& dyn_initRead();
     // Get instance field reference: private System.Boolean read_eof
-    bool& dyn_read_eof();
+    [[deprecated("Use field access instead!")]] bool& dyn_read_eof();
     // Get instance field reference: private System.Boolean complete_request_written
-    bool& dyn_complete_request_written();
+    [[deprecated("Use field access instead!")]] bool& dyn_complete_request_written();
     // Get instance field reference: private System.Int32 read_timeout
-    int& dyn_read_timeout();
+    [[deprecated("Use field access instead!")]] int& dyn_read_timeout();
     // Get instance field reference: private System.Int32 write_timeout
-    int& dyn_write_timeout();
+    [[deprecated("Use field access instead!")]] int& dyn_write_timeout();
     // Get instance field reference: private System.AsyncCallback cb_wrapper
-    ::System::AsyncCallback*& dyn_cb_wrapper();
+    [[deprecated("Use field access instead!")]] ::System::AsyncCallback*& dyn_cb_wrapper();
     // Get instance field reference: System.Boolean IgnoreIOErrors
-    bool& dyn_IgnoreIOErrors();
+    [[deprecated("Use field access instead!")]] bool& dyn_IgnoreIOErrors();
     // Get instance field reference: private System.Boolean <GetResponseOnClose>k__BackingField
-    bool& dyn_$GetResponseOnClose$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$GetResponseOnClose$k__BackingField();
     // System.Net.WebConnection get_Connection()
-    // Offset: 0x1B1E510
+    // Offset: 0x1B58AF8
     ::System::Net::WebConnection* get_Connection();
     // System.Boolean get_CompleteRequestWritten()
-    // Offset: 0x1B1E528
+    // Offset: 0x1B58B10
     bool get_CompleteRequestWritten();
     // System.Void set_SendChunked(System.Boolean value)
-    // Offset: 0x1B1E530
+    // Offset: 0x1B58B18
     void set_SendChunked(bool value);
     // System.Void set_ReadBuffer(System.Byte[] value)
-    // Offset: 0x1B1E53C
+    // Offset: 0x1B58B24
     void set_ReadBuffer(::ArrayW<uint8_t> value);
     // System.Void set_ReadBufferOffset(System.Int32 value)
-    // Offset: 0x1B1E544
+    // Offset: 0x1B58B2C
     void set_ReadBufferOffset(int value);
     // System.Void set_ReadBufferSize(System.Int32 value)
-    // Offset: 0x1B1E54C
+    // Offset: 0x1B58B34
     void set_ReadBufferSize(int value);
     // System.Byte[] get_WriteBuffer()
-    // Offset: 0x1B1E554
+    // Offset: 0x1B58B3C
     ::ArrayW<uint8_t> get_WriteBuffer();
     // System.Int32 get_WriteBufferLength()
-    // Offset: 0x1B1E578
+    // Offset: 0x1B58B60
     int get_WriteBufferLength();
     // System.Boolean get_RequestWritten()
-    // Offset: 0x1B20358
+    // Offset: 0x1B5A940
     bool get_RequestWritten();
     // System.Boolean get_GetResponseOnClose()
-    // Offset: 0x1B20530
+    // Offset: 0x1B5AB18
     bool get_GetResponseOnClose();
     // public System.Void .ctor(System.Net.WebConnection cnc, System.Net.WebConnectionData data)
-    // Offset: 0x1B19A64
+    // Offset: 0x1B5404C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionStream* New_ctor(::System::Net::WebConnection* cnc, ::System::Net::WebConnectionData* data) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebConnectionStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionStream*, creationType>(cnc, data)));
     }
     // public System.Void .ctor(System.Net.WebConnection cnc, System.Net.HttpWebRequest request)
-    // Offset: 0x1B1A458
+    // Offset: 0x1B54A40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionStream* New_ctor(::System::Net::WebConnection* cnc, ::System::Net::HttpWebRequest* request) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebConnectionStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionStream*, creationType>(cnc, request)));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1B5B070
+    static void _cctor();
     // private System.Boolean CheckAuthHeader(System.String headerName)
-    // Offset: 0x1B1E478
+    // Offset: 0x1B58A60
     bool CheckAuthHeader(::StringW headerName);
     // private System.Boolean IsNtlmAuth()
-    // Offset: 0x1B1DF60
+    // Offset: 0x1B58548
     bool IsNtlmAuth();
     // System.Void CheckResponseInBuffer()
-    // Offset: 0x1B19DE4
+    // Offset: 0x1B543CC
     void CheckResponseInBuffer();
     // System.Void ForceCompletion()
-    // Offset: 0x1B19E38
+    // Offset: 0x1B54420
     void ForceCompletion();
     // System.Void CheckComplete()
-    // Offset: 0x1B1E5A4
+    // Offset: 0x1B58B8C
     void CheckComplete();
     // System.Void ReadAll()
-    // Offset: 0x1B1E0A4
+    // Offset: 0x1B5868C
     void ReadAll();
     // private System.Void WriteCallbackWrapper(System.IAsyncResult r)
-    // Offset: 0x1B1E5E8
+    // Offset: 0x1B58BD0
     void WriteCallbackWrapper(::System::IAsyncResult* r);
     // private System.Void ReadCallbackWrapper(System.IAsyncResult r)
-    // Offset: 0x1B1E82C
+    // Offset: 0x1B58E14
     void ReadCallbackWrapper(::System::IAsyncResult* r);
     // private System.Void WriteAsyncCB(System.IAsyncResult r)
-    // Offset: 0x1B1F210
+    // Offset: 0x1B597F8
     void WriteAsyncCB(::System::IAsyncResult* r);
     // private System.Void CheckWriteOverflow(System.Int64 contentLength, System.Int64 totalWritten, System.Int64 size)
-    // Offset: 0x1B1FB60
+    // Offset: 0x1B5A148
     void CheckWriteOverflow(int64_t contentLength, int64_t totalWritten, int64_t size);
     // System.Void SetHeadersAsync(System.Boolean setInternalLength, System.Net.SimpleAsyncCallback callback)
-    // Offset: 0x1B1FFA4
+    // Offset: 0x1B5A58C
     void SetHeadersAsync(bool setInternalLength, ::System::Net::SimpleAsyncCallback* callback);
     // private System.Boolean SetHeadersAsync(System.Net.SimpleAsyncResult result, System.Boolean setInternalLength)
-    // Offset: 0x1B2006C
+    // Offset: 0x1B5A654
     bool SetHeadersAsync(::System::Net::SimpleAsyncResult* result, bool setInternalLength);
     // System.Boolean WriteRequestAsync(System.Net.SimpleAsyncResult result)
-    // Offset: 0x1B20360
+    // Offset: 0x1B5A948
     bool WriteRequestAsync(::System::Net::SimpleAsyncResult* result);
     // System.Void InternalClose()
-    // Offset: 0x1B20524
+    // Offset: 0x1B5AB0C
     void InternalClose();
     // System.Void KillBuffer()
-    // Offset: 0x1B1F4E0
+    // Offset: 0x1B59AC8
     void KillBuffer();
     // public override System.Int32 get_ReadTimeout()
-    // Offset: 0x1B1E518
+    // Offset: 0x1B58B00
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::get_ReadTimeout()
     int get_ReadTimeout();
     // public override System.Int32 get_WriteTimeout()
-    // Offset: 0x1B1E520
+    // Offset: 0x1B58B08
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::get_WriteTimeout()
     int get_WriteTimeout();
     // public override System.Boolean get_CanSeek()
-    // Offset: 0x1B20904
+    // Offset: 0x1B5AEEC
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanSeek()
     bool get_CanSeek();
     // public override System.Boolean get_CanRead()
-    // Offset: 0x1B2090C
+    // Offset: 0x1B5AEF4
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanRead()
     bool get_CanRead();
     // public override System.Boolean get_CanWrite()
-    // Offset: 0x1B2092C
+    // Offset: 0x1B5AF14
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanWrite()
     bool get_CanWrite();
     // public override System.Int64 get_Length()
-    // Offset: 0x1B2094C
+    // Offset: 0x1B5AF34
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Length()
     int64_t get_Length();
     // public override System.Int64 get_Position()
-    // Offset: 0x1B209C8
+    // Offset: 0x1B5AFB0
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Position()
     int64_t get_Position();
     // public override System.Void set_Position(System.Int64 value)
-    // Offset: 0x1B20A28
+    // Offset: 0x1B5B010
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::set_Position(System.Int64 value)
     void set_Position(int64_t value);
-    // static private System.Void .cctor()
-    // Offset: 0x1B20A88
-    // Implemented from: System.IO.Stream
-    // Base method: System.Void Stream::.cctor()
-    static void _cctor();
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x1B1EA38
+    // Offset: 0x1B59020
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     int Read(::ArrayW<uint8_t> buffer, int offset, int size);
     // public override System.IAsyncResult BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
-    // Offset: 0x1B1EBB0
+    // Offset: 0x1B59198
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
     ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t> buffer, int offset, int size, ::System::AsyncCallback* cb, ::Il2CppObject* state);
     // public override System.Int32 EndRead(System.IAsyncResult r)
-    // Offset: 0x1B1EEC8
+    // Offset: 0x1B594B0
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::EndRead(System.IAsyncResult r)
     int EndRead(::System::IAsyncResult* r);
     // public override System.IAsyncResult BeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
-    // Offset: 0x1B1F4E8
+    // Offset: 0x1B59AD0
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
     ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t> buffer, int offset, int size, ::System::AsyncCallback* cb, ::Il2CppObject* state);
     // public override System.Void EndWrite(System.IAsyncResult r)
-    // Offset: 0x1B1FC30
+    // Offset: 0x1B5A218
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::EndWrite(System.IAsyncResult r)
     void EndWrite(::System::IAsyncResult* r);
     // public override System.Void Write(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x1B1FE24
+    // Offset: 0x1B5A40C
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     void Write(::ArrayW<uint8_t> buffer, int offset, int size);
     // public override System.Void Flush()
-    // Offset: 0x1B1FFA0
+    // Offset: 0x1B5A588
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Flush()
     void Flush();
     // public override System.Void Close()
-    // Offset: 0x1B20538
+    // Offset: 0x1B5AB20
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Close()
     void Close();
     // public override System.Int64 Seek(System.Int64 a, System.IO.SeekOrigin b)
-    // Offset: 0x1B20844
+    // Offset: 0x1B5AE2C
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::Seek(System.Int64 a, System.IO.SeekOrigin b)
     int64_t Seek(int64_t a, ::System::IO::SeekOrigin b);
     // public override System.Void SetLength(System.Int64 a)
-    // Offset: 0x1B208A4
+    // Offset: 0x1B5AE8C
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::SetLength(System.Int64 a)
     void SetLength(int64_t a);
@@ -624,6 +614,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: System::Net::WebConnectionStream::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::WebConnectionStream::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionStream*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::CheckAuthHeader
 // Il2CppName: CheckAuthHeader
 template<>
@@ -819,14 +817,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionStream*), "set_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: System::Net::WebConnectionStream::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::WebConnectionStream::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionStream*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::Read

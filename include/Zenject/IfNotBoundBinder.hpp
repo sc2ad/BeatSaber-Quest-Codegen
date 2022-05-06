@@ -34,15 +34,7 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class IfNotBoundBinder : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Zenject.BindInfo <BindInfo>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -55,22 +47,22 @@ namespace Zenject {
       return BindInfo;
     }
     // Get instance field reference: private Zenject.BindInfo <BindInfo>k__BackingField
-    ::Zenject::BindInfo*& dyn_$BindInfo$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::Zenject::BindInfo*& dyn_$BindInfo$k__BackingField();
     // public Zenject.BindInfo get_BindInfo()
-    // Offset: 0x1DEE044
+    // Offset: 0x1E28910
     ::Zenject::BindInfo* get_BindInfo();
     // private System.Void set_BindInfo(Zenject.BindInfo value)
-    // Offset: 0x1DEE04C
+    // Offset: 0x1E28918
     void set_BindInfo(::Zenject::BindInfo* value);
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x1DEE018
+    // Offset: 0x1E288E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IfNotBoundBinder* New_ctor(::Zenject::BindInfo* bindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IfNotBoundBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IfNotBoundBinder*, creationType>(bindInfo)));
     }
     // public System.Void IfNotBound()
-    // Offset: 0x1DEE054
+    // Offset: 0x1E28920
     void IfNotBound();
   }; // Zenject.IfNotBoundBinder
   #pragma pack(pop)

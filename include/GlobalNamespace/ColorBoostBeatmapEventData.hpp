@@ -34,15 +34,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorBoostBeatmapEventData : public ::GlobalNamespace::BeatmapEventData {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Boolean boostColorsAreOn
     // Size: 0x1
     // Offset: 0x30
@@ -54,30 +46,30 @@ namespace GlobalNamespace {
     constexpr operator bool() const noexcept {
       return boostColorsAreOn;
     }
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x122925C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10ACC74
     // Get static field: static private readonly ColorBoostBeatmapEventData _defaultCopy
     static ::GlobalNamespace::ColorBoostBeatmapEventData* _get__defaultCopy();
     // Set static field: static private readonly ColorBoostBeatmapEventData _defaultCopy
     static void _set__defaultCopy(::GlobalNamespace::ColorBoostBeatmapEventData* value);
     // Get instance field reference: public readonly System.Boolean boostColorsAreOn
-    bool& dyn_boostColorsAreOn();
+    [[deprecated("Use field access instead!")]] bool& dyn_boostColorsAreOn();
     // public System.Void .ctor(System.Single time, System.Boolean boostColorsAreOn)
-    // Offset: 0x281BC7C
+    // Offset: 0x286E23C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorBoostBeatmapEventData* New_ctor(float time, bool boostColorsAreOn) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorBoostBeatmapEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorBoostBeatmapEventData*, creationType>(time, boostColorsAreOn)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x281BDC4
+    // Offset: 0x286E384
     static void _cctor();
     // public override BeatmapDataItem GetCopy()
-    // Offset: 0x281BCD0
+    // Offset: 0x286E290
     // Implemented from: BeatmapDataItem
     // Base method: BeatmapDataItem BeatmapDataItem::GetCopy()
     ::GlobalNamespace::BeatmapDataItem* GetCopy();
     // protected override BeatmapEventData GetDefault()
-    // Offset: 0x281BD5C
+    // Offset: 0x286E31C
     // Implemented from: BeatmapEventData
     // Base method: BeatmapEventData BeatmapEventData::GetDefault()
     ::GlobalNamespace::BeatmapEventData* GetDefault();

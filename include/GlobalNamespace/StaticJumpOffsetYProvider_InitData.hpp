@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StaticJumpOffsetYProvider::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Single jumpyYOffset
     // Size: 0x4
     // Offset: 0x10
@@ -44,9 +36,9 @@ namespace GlobalNamespace {
       return jumpyYOffset;
     }
     // Get instance field reference: public readonly System.Single jumpyYOffset
-    float& dyn_jumpyYOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_jumpyYOffset();
     // public System.Void .ctor(System.Single jumpyYOffset)
-    // Offset: 0x1335E44
+    // Offset: 0x1417D74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StaticJumpOffsetYProvider::InitData* New_ctor(float jumpyYOffset) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StaticJumpOffsetYProvider::InitData::.ctor");

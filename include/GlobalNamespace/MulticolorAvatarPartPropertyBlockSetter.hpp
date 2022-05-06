@@ -50,29 +50,21 @@ namespace GlobalNamespace {
     class ColorData;
     // Nested type: ::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MulticolorAvatarPartPropertyBlockSetter/ColorData[] _colorDataList
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*> colorDataList;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x124B3C8
+    // [SpaceAttribute] Offset: 0x10CFEC0
     // private UnityEngine.Renderer _renderer
     // Size: 0x8
     // Offset: 0x20
     ::UnityEngine::Renderer* renderer;
     // Field size check
     static_assert(sizeof(::UnityEngine::Renderer*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124B400
+    // [SpaceAttribute] Offset: 0x10CFEF8
     // private System.Boolean _editInPlayMode
     // Size: 0x1
     // Offset: 0x28
@@ -116,58 +108,56 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x124B438
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10CFF30
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static ::UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
     // Get instance field reference: private MulticolorAvatarPartPropertyBlockSetter/ColorData[] _colorDataList
-    ::ArrayW<::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*>& dyn__colorDataList();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*>& dyn__colorDataList();
     // Get instance field reference: private UnityEngine.Renderer _renderer
-    ::UnityEngine::Renderer*& dyn__renderer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Renderer*& dyn__renderer();
     // Get instance field reference: private System.Boolean _editInPlayMode
-    bool& dyn__editInPlayMode();
+    [[deprecated("Use field access instead!")]] bool& dyn__editInPlayMode();
     // Get instance field reference: private readonly UnityEngine.Vector4[] _colors
-    ::ArrayW<::UnityEngine::Vector4>& dyn__colors();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector4>& dyn__colors();
     // Get instance field reference: private readonly UnityEngine.Vector4[] _rimLightColors
-    ::ArrayW<::UnityEngine::Vector4>& dyn__rimLightColors();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector4>& dyn__rimLightColors();
     // Get instance field reference: private UnityEngine.Color[] _boostColors
-    ::ArrayW<::UnityEngine::Color>& dyn__boostColors();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Color>& dyn__boostColors();
     // Get instance field reference: private System.Boolean _highlighted
-    bool& dyn__highlighted();
+    [[deprecated("Use field access instead!")]] bool& dyn__highlighted();
     // Get instance field reference: private System.Int32 _uvSegment
-    int& dyn__uvSegment();
-    // protected System.Void OnValidate()
-    // Offset: 0x13CADC4
-    void OnValidate();
-    // public System.Void SetColors(params UnityEngine.Color[] colors)
-    // Offset: 0x13CAF3C
-    void SetColors(::ArrayW<::UnityEngine::Color> colors);
-    // public System.Void SetHighlight(System.Boolean highlighted, System.Int32 uvSegment)
-    // Offset: 0x13CB2C8
-    void SetHighlight(bool highlighted, int uvSegment);
-    // private System.Void UpdateRenderer()
-    // Offset: 0x13CB15C
-    void UpdateRenderer();
+    [[deprecated("Use field access instead!")]] int& dyn__uvSegment();
     // public System.Void .ctor()
-    // Offset: 0x13CB2D8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13C7784
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MulticolorAvatarPartPropertyBlockSetter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MulticolorAvatarPartPropertyBlockSetter*, creationType>()));
     }
+    // protected System.Void OnValidate()
+    // Offset: 0x13C7270
+    void OnValidate();
+    // public System.Void SetColors(params UnityEngine.Color[] colors)
+    // Offset: 0x13C73E8
+    void SetColors(::ArrayW<::UnityEngine::Color> colors);
+    // public System.Void SetHighlight(System.Boolean highlighted, System.Int32 uvSegment)
+    // Offset: 0x13C7774
+    void SetHighlight(bool highlighted, int uvSegment);
+    // private System.Void UpdateRenderer()
+    // Offset: 0x13C7608
+    void UpdateRenderer();
   }; // MulticolorAvatarPartPropertyBlockSetter
   #pragma pack(pop)
   static check_size<sizeof(MulticolorAvatarPartPropertyBlockSetter), 76 + sizeof(int)> __GlobalNamespace_MulticolorAvatarPartPropertyBlockSetterSizeCheck;
   static_assert(sizeof(MulticolorAvatarPartPropertyBlockSetter) == 0x50);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::OnValidate
 // Il2CppName: OnValidate
 template<>
@@ -203,7 +193,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter*), "UpdateRenderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

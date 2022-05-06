@@ -65,15 +65,15 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single x
-    float& dyn_x();
+    [[deprecated("Use field access instead!")]] float& dyn_x();
     // Get instance field reference: public System.Single y
-    float& dyn_y();
+    [[deprecated("Use field access instead!")]] float& dyn_y();
     // Get instance field reference: public System.Single transformedX
-    float& dyn_transformedX();
+    [[deprecated("Use field access instead!")]] float& dyn_transformedX();
     // Get instance field reference: public System.Single transformedY
-    float& dyn_transformedY();
+    [[deprecated("Use field access instead!")]] float& dyn_transformedY();
     // Get instance field reference: public Valve.VR.EDualAnalogWhich which
-    ::Valve::VR::EDualAnalogWhich& dyn_which();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::EDualAnalogWhich& dyn_which();
   }; // Valve.VR.VREvent_DualAnalog_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_DualAnalog_t), 16 + sizeof(::Valve::VR::EDualAnalogWhich)> __Valve_VR_VREvent_DualAnalog_tSizeCheck;

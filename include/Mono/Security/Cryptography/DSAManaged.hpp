@@ -20,7 +20,7 @@ namespace Mono::Security::Cryptography {
 // Forward declaring namespace: Mono::Math
 namespace Mono::Math {
   // Forward declaring type: BigInteger
-  class BigInteger;
+  class BigInteger_;
 }
 // Forward declaring namespace: System::Security::Cryptography
 namespace System::Security::Cryptography {
@@ -48,15 +48,7 @@ namespace Mono::Security::Cryptography {
     public:
     // Nested type: ::Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler
     class KeyGeneratedEventHandler;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean keypairGenerated
     // Size: 0x1
     // Offset: 0x20
@@ -74,45 +66,45 @@ namespace Mono::Security::Cryptography {
     // private Mono.Math.BigInteger p
     // Size: 0x8
     // Offset: 0x28
-    ::Mono::Math::BigInteger* p;
+    ::Mono::Math::BigInteger_* p;
     // Field size check
-    static_assert(sizeof(::Mono::Math::BigInteger*) == 0x8);
+    static_assert(sizeof(::Mono::Math::BigInteger_*) == 0x8);
     // private Mono.Math.BigInteger q
     // Size: 0x8
     // Offset: 0x30
-    ::Mono::Math::BigInteger* q;
+    ::Mono::Math::BigInteger_* q;
     // Field size check
-    static_assert(sizeof(::Mono::Math::BigInteger*) == 0x8);
+    static_assert(sizeof(::Mono::Math::BigInteger_*) == 0x8);
     // private Mono.Math.BigInteger g
     // Size: 0x8
     // Offset: 0x38
-    ::Mono::Math::BigInteger* g;
+    ::Mono::Math::BigInteger_* g;
     // Field size check
-    static_assert(sizeof(::Mono::Math::BigInteger*) == 0x8);
+    static_assert(sizeof(::Mono::Math::BigInteger_*) == 0x8);
     // private Mono.Math.BigInteger x
     // Size: 0x8
     // Offset: 0x40
-    ::Mono::Math::BigInteger* x;
+    ::Mono::Math::BigInteger_* x;
     // Field size check
-    static_assert(sizeof(::Mono::Math::BigInteger*) == 0x8);
+    static_assert(sizeof(::Mono::Math::BigInteger_*) == 0x8);
     // private Mono.Math.BigInteger y
     // Size: 0x8
     // Offset: 0x48
-    ::Mono::Math::BigInteger* y;
+    ::Mono::Math::BigInteger_* y;
     // Field size check
-    static_assert(sizeof(::Mono::Math::BigInteger*) == 0x8);
+    static_assert(sizeof(::Mono::Math::BigInteger_*) == 0x8);
     // private Mono.Math.BigInteger j
     // Size: 0x8
     // Offset: 0x50
-    ::Mono::Math::BigInteger* j;
+    ::Mono::Math::BigInteger_* j;
     // Field size check
-    static_assert(sizeof(::Mono::Math::BigInteger*) == 0x8);
+    static_assert(sizeof(::Mono::Math::BigInteger_*) == 0x8);
     // private Mono.Math.BigInteger seed
     // Size: 0x8
     // Offset: 0x58
-    ::Mono::Math::BigInteger* seed;
+    ::Mono::Math::BigInteger_* seed;
     // Field size check
-    static_assert(sizeof(::Mono::Math::BigInteger*) == 0x8);
+    static_assert(sizeof(::Mono::Math::BigInteger_*) == 0x8);
     // private System.Int32 counter
     // Size: 0x4
     // Offset: 0x60
@@ -133,7 +125,7 @@ namespace Mono::Security::Cryptography {
     ::System::Security::Cryptography::RandomNumberGenerator* rng;
     // Field size check
     static_assert(sizeof(::System::Security::Cryptography::RandomNumberGenerator*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0x11AF154
+    // [CompilerGeneratedAttribute] Offset: 0x1034B6C
     // private Mono.Security.Cryptography.DSAManaged/Mono.Security.Cryptography.KeyGeneratedEventHandler KeyGenerated
     // Size: 0x8
     // Offset: 0x70
@@ -142,92 +134,92 @@ namespace Mono::Security::Cryptography {
     static_assert(sizeof(::Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler*) == 0x8);
     public:
     // Get instance field reference: private System.Boolean keypairGenerated
-    bool& dyn_keypairGenerated();
+    [[deprecated("Use field access instead!")]] bool& dyn_keypairGenerated();
     // Get instance field reference: private System.Boolean m_disposed
-    bool& dyn_m_disposed();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_disposed();
     // Get instance field reference: private Mono.Math.BigInteger p
-    ::Mono::Math::BigInteger*& dyn_p();
+    [[deprecated("Use field access instead!")]] ::Mono::Math::BigInteger_*& dyn_p();
     // Get instance field reference: private Mono.Math.BigInteger q
-    ::Mono::Math::BigInteger*& dyn_q();
+    [[deprecated("Use field access instead!")]] ::Mono::Math::BigInteger_*& dyn_q();
     // Get instance field reference: private Mono.Math.BigInteger g
-    ::Mono::Math::BigInteger*& dyn_g();
+    [[deprecated("Use field access instead!")]] ::Mono::Math::BigInteger_*& dyn_g();
     // Get instance field reference: private Mono.Math.BigInteger x
-    ::Mono::Math::BigInteger*& dyn_x();
+    [[deprecated("Use field access instead!")]] ::Mono::Math::BigInteger_*& dyn_x();
     // Get instance field reference: private Mono.Math.BigInteger y
-    ::Mono::Math::BigInteger*& dyn_y();
+    [[deprecated("Use field access instead!")]] ::Mono::Math::BigInteger_*& dyn_y();
     // Get instance field reference: private Mono.Math.BigInteger j
-    ::Mono::Math::BigInteger*& dyn_j();
+    [[deprecated("Use field access instead!")]] ::Mono::Math::BigInteger_*& dyn_j();
     // Get instance field reference: private Mono.Math.BigInteger seed
-    ::Mono::Math::BigInteger*& dyn_seed();
+    [[deprecated("Use field access instead!")]] ::Mono::Math::BigInteger_*& dyn_seed();
     // Get instance field reference: private System.Int32 counter
-    int& dyn_counter();
+    [[deprecated("Use field access instead!")]] int& dyn_counter();
     // Get instance field reference: private System.Boolean j_missing
-    bool& dyn_j_missing();
+    [[deprecated("Use field access instead!")]] bool& dyn_j_missing();
     // Get instance field reference: private System.Security.Cryptography.RandomNumberGenerator rng
-    ::System::Security::Cryptography::RandomNumberGenerator*& dyn_rng();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::RandomNumberGenerator*& dyn_rng();
     // Get instance field reference: private Mono.Security.Cryptography.DSAManaged/Mono.Security.Cryptography.KeyGeneratedEventHandler KeyGenerated
-    ::Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler*& dyn_KeyGenerated();
+    [[deprecated("Use field access instead!")]] ::Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler*& dyn_KeyGenerated();
     // private System.Security.Cryptography.RandomNumberGenerator get_Random()
-    // Offset: 0x1F0AF04
+    // Offset: 0x1F5743C
     ::System::Security::Cryptography::RandomNumberGenerator* get_Random();
     // public System.Boolean get_PublicOnly()
-    // Offset: 0x1F0AF5C
+    // Offset: 0x1F57494
     bool get_PublicOnly();
     // public System.Void add_KeyGenerated(Mono.Security.Cryptography.DSAManaged/Mono.Security.Cryptography.KeyGeneratedEventHandler value)
-    // Offset: 0x1F0BD34
+    // Offset: 0x1F5826C
     void add_KeyGenerated(::Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler* value);
     // public System.Void remove_KeyGenerated(Mono.Security.Cryptography.DSAManaged/Mono.Security.Cryptography.KeyGeneratedEventHandler value)
-    // Offset: 0x1F0BDD8
+    // Offset: 0x1F58310
     void remove_KeyGenerated(::Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler* value);
     // public System.Void .ctor(System.Int32 dwKeySize)
-    // Offset: 0x1F0A1E8
+    // Offset: 0x1F56720
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DSAManaged* New_ctor(int dwKeySize) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Cryptography::DSAManaged::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DSAManaged*, creationType>(dwKeySize)));
     }
     // private System.Void Generate()
-    // Offset: 0x1F0A340
+    // Offset: 0x1F56878
     void Generate();
     // private System.Void GenerateKeyPair()
-    // Offset: 0x1F0A954
+    // Offset: 0x1F56E8C
     void GenerateKeyPair();
     // private System.Void add(System.Byte[] a, System.Byte[] b, System.Int32 value)
-    // Offset: 0x1F0AE50
+    // Offset: 0x1F57388
     void add(::ArrayW<uint8_t> a, ::ArrayW<uint8_t> b, int value);
     // private System.Void GenerateParams(System.Int32 keyLength)
-    // Offset: 0x1F0A390
+    // Offset: 0x1F568C8
     void GenerateParams(int keyLength);
     // private System.Byte[] NormalizeArray(System.Byte[] array)
-    // Offset: 0x1F0AFE4
+    // Offset: 0x1F5751C
     ::ArrayW<uint8_t> NormalizeArray(::ArrayW<uint8_t> array);
     // public override System.Int32 get_KeySize()
-    // Offset: 0x1F0AF30
+    // Offset: 0x1F57468
     // Implemented from: System.Security.Cryptography.AsymmetricAlgorithm
     // Base method: System.Int32 AsymmetricAlgorithm::get_KeySize()
     int get_KeySize();
     // protected override System.Void Finalize()
-    // Offset: 0x1F0A2CC
+    // Offset: 0x1F56804
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public override System.Security.Cryptography.DSAParameters ExportParameters(System.Boolean includePrivateParameters)
-    // Offset: 0x1F0B098
+    // Offset: 0x1F575D0
     // Implemented from: System.Security.Cryptography.DSA
     // Base method: System.Security.Cryptography.DSAParameters DSA::ExportParameters(System.Boolean includePrivateParameters)
     ::System::Security::Cryptography::DSAParameters ExportParameters(bool includePrivateParameters);
     // public override System.Void ImportParameters(System.Security.Cryptography.DSAParameters parameters)
-    // Offset: 0x1F0B340
+    // Offset: 0x1F57878
     // Implemented from: System.Security.Cryptography.DSA
     // Base method: System.Void DSA::ImportParameters(System.Security.Cryptography.DSAParameters parameters)
     void ImportParameters(::System::Security::Cryptography::DSAParameters parameters);
     // public override System.Boolean VerifySignature(System.Byte[] rgbHash, System.Byte[] rgbSignature)
-    // Offset: 0x1F0B614
+    // Offset: 0x1F57B4C
     // Implemented from: System.Security.Cryptography.DSA
     // Base method: System.Boolean DSA::VerifySignature(System.Byte[] rgbHash, System.Byte[] rgbSignature)
     bool VerifySignature(::ArrayW<uint8_t> rgbHash, ::ArrayW<uint8_t> rgbSignature);
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1F0BAEC
+    // Offset: 0x1F58024
     // Implemented from: System.Security.Cryptography.AsymmetricAlgorithm
     // Base method: System.Void AsymmetricAlgorithm::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);

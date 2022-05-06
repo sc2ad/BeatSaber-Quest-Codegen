@@ -36,41 +36,39 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::OVRTracker::Frustum
     struct Frustum;
     // public System.Boolean get_isPresent()
-    // Offset: 0x24594BC
+    // Offset: 0x24A2F80
     bool get_isPresent();
     // public System.Boolean get_isPositionTracked()
-    // Offset: 0x2459558
+    // Offset: 0x24A301C
     bool get_isPositionTracked();
     // public System.Boolean get_isEnabled()
-    // Offset: 0x24595B8
+    // Offset: 0x24A307C
     bool get_isEnabled();
     // public System.Void set_isEnabled(System.Boolean value)
-    // Offset: 0x2459654
+    // Offset: 0x24A3118
     void set_isEnabled(bool value);
     // public System.Int32 get_count()
-    // Offset: 0x24596F4
+    // Offset: 0x24A31B8
     int get_count();
-    // public OVRTracker/Frustum GetFrustum(System.Int32 tracker)
-    // Offset: 0x2459870
-    ::GlobalNamespace::OVRTracker::Frustum GetFrustum(int tracker);
-    // public OVRPose GetPose(System.Int32 tracker)
-    // Offset: 0x2459920
-    ::GlobalNamespace::OVRPose GetPose(int tracker);
-    // public System.Boolean GetPoseValid(System.Int32 tracker)
-    // Offset: 0x2459BB4
-    bool GetPoseValid(int tracker);
-    // public System.Boolean GetPresent(System.Int32 tracker)
-    // Offset: 0x2459734
-    bool GetPresent(int tracker);
     // public System.Void .ctor()
-    // Offset: 0x2459CF0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x24A37B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRTracker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRTracker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRTracker*, creationType>()));
     }
+    // public OVRTracker/Frustum GetFrustum(System.Int32 tracker)
+    // Offset: 0x24A3334
+    ::GlobalNamespace::OVRTracker::Frustum GetFrustum(int tracker);
+    // public OVRPose GetPose(System.Int32 tracker)
+    // Offset: 0x24A33E4
+    ::GlobalNamespace::OVRPose GetPose(int tracker);
+    // public System.Boolean GetPoseValid(System.Int32 tracker)
+    // Offset: 0x24A3678
+    bool GetPoseValid(int tracker);
+    // public System.Boolean GetPresent(System.Int32 tracker)
+    // Offset: 0x24A31F8
+    bool GetPresent(int tracker);
   }; // OVRTracker
   #pragma pack(pop)
 }
@@ -116,6 +114,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRTracker*), "get_count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::OVRTracker::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVRTracker::GetFrustum
 // Il2CppName: GetFrustum
 template<>
@@ -152,7 +154,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRTracker*), "GetPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tracker});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OVRTracker::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

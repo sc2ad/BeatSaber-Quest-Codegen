@@ -40,15 +40,7 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   class Switch : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.String description
     // Size: 0x8
     // Offset: 0x10
@@ -83,32 +75,32 @@ namespace System::Diagnostics {
     // Set static field: static private System.Int32 s_LastCollectionCount
     static void _set_s_LastCollectionCount(int value);
     // Get instance field reference: private readonly System.String description
-    ::StringW& dyn_description();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_description();
     // Get instance field reference: private readonly System.String displayName
-    ::StringW& dyn_displayName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_displayName();
     // Get instance field reference: private System.String switchValueString
-    ::StringW& dyn_switchValueString();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_switchValueString();
     // Get instance field reference: private System.String defaultValue
-    ::StringW& dyn_defaultValue();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_defaultValue();
     // protected System.Void .ctor(System.String displayName, System.String description)
-    // Offset: 0x1CA7284
+    // Offset: 0x1CE37DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Switch* New_ctor(::StringW displayName, ::StringW description) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::Switch::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Switch*, creationType>(displayName, description)));
     }
     // protected System.Void .ctor(System.String displayName, System.String description, System.String defaultSwitchValue)
-    // Offset: 0x1CAC6AC
+    // Offset: 0x1CE8C04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Switch* New_ctor(::StringW displayName, ::StringW description, ::StringW defaultSwitchValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::Switch::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Switch*, creationType>(displayName, description, defaultSwitchValue)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1CACCA4
+    // Offset: 0x1CE91FC
     static void _cctor();
     // static private System.Void _pruneCachedSwitches()
-    // Offset: 0x1CAC844
+    // Offset: 0x1CE8D9C
     static void _pruneCachedSwitches();
   }; // System.Diagnostics.Switch
   #pragma pack(pop)

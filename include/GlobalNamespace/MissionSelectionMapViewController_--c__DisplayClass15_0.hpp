@@ -31,15 +31,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MissionSelectionMapViewController::$$c__DisplayClass15_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public MissionSelectionMapViewController <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -54,27 +46,29 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::IPreviewBeatmapLevel*) == 0x8);
     public:
     // Get instance field reference: public MissionSelectionMapViewController <>4__this
-    ::GlobalNamespace::MissionSelectionMapViewController*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionSelectionMapViewController*& dyn_$$4__this();
     // Get instance field reference: public IPreviewBeatmapLevel level
-    ::GlobalNamespace::IPreviewBeatmapLevel*& dyn_level();
-    // System.Void <SongPlayerCrossfadeToLevelAsync>b__0()
-    // Offset: 0x13C2288
-    void $SongPlayerCrossfadeToLevelAsync$b__0();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPreviewBeatmapLevel*& dyn_level();
     // public System.Void .ctor()
-    // Offset: 0x13C2280
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13BE72C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionSelectionMapViewController::$$c__DisplayClass15_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionSelectionMapViewController::$$c__DisplayClass15_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionSelectionMapViewController::$$c__DisplayClass15_0*, creationType>()));
     }
+    // System.Void <SongPlayerCrossfadeToLevelAsync>b__0()
+    // Offset: 0x13BE734
+    void $SongPlayerCrossfadeToLevelAsync$b__0();
   }; // MissionSelectionMapViewController/<>c__DisplayClass15_0
   #pragma pack(pop)
   static check_size<sizeof(MissionSelectionMapViewController::$$c__DisplayClass15_0), 24 + sizeof(::GlobalNamespace::IPreviewBeatmapLevel*)> __GlobalNamespace_MissionSelectionMapViewController_$$c__DisplayClass15_0SizeCheck;
   static_assert(sizeof(MissionSelectionMapViewController::$$c__DisplayClass15_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MissionSelectionMapViewController::$$c__DisplayClass15_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionSelectionMapViewController::$$c__DisplayClass15_0::$SongPlayerCrossfadeToLevelAsync$b__0
 // Il2CppName: <SongPlayerCrossfadeToLevelAsync>b__0
 template<>
@@ -83,7 +77,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionSelectionMapViewController::$$c__DisplayClass15_0*), "<SongPlayerCrossfadeToLevelAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MissionSelectionMapViewController::$$c__DisplayClass15_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

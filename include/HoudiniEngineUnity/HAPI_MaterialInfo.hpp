@@ -50,11 +50,11 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 nodeId
-    int& dyn_nodeId();
+    [[deprecated("Use field access instead!")]] int& dyn_nodeId();
     // Get instance field reference: public System.Boolean exists
-    bool& dyn_exists();
+    [[deprecated("Use field access instead!")]] bool& dyn_exists();
     // Get instance field reference: public System.Boolean hasChanged
-    bool& dyn_hasChanged();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasChanged();
   }; // HoudiniEngineUnity.HAPI_MaterialInfo
   #pragma pack(pop)
   static check_size<sizeof(HAPI_MaterialInfo), 5 + sizeof(bool)> __HoudiniEngineUnity_HAPI_MaterialInfoSizeCheck;

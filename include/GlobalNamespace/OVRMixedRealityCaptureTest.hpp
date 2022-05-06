@@ -84,20 +84,12 @@ namespace GlobalNamespace {
       // Set static field: static public OVRMixedRealityCaptureTest/CameraMode ThirdPerson
       static void _set_ThirdPerson(::GlobalNamespace::OVRMixedRealityCaptureTest::CameraMode value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // OVRMixedRealityCaptureTest/CameraMode
     #pragma pack(pop)
     static check_size<sizeof(OVRMixedRealityCaptureTest::CameraMode), 0 + sizeof(int)> __GlobalNamespace_OVRMixedRealityCaptureTest_CameraModeSizeCheck;
     static_assert(sizeof(OVRMixedRealityCaptureTest::CameraMode) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean inited
     // Size: 0x1
     // Offset: 0x18
@@ -128,38 +120,32 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean inited
-    bool& dyn_inited();
+    [[deprecated("Use field access instead!")]] bool& dyn_inited();
     // Get instance field reference: private OVRMixedRealityCaptureTest/CameraMode currentMode
-    ::GlobalNamespace::OVRMixedRealityCaptureTest::CameraMode& dyn_currentMode();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRMixedRealityCaptureTest::CameraMode& dyn_currentMode();
     // Get instance field reference: public UnityEngine.Camera defaultExternalCamera
-    ::UnityEngine::Camera*& dyn_defaultExternalCamera();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Camera*& dyn_defaultExternalCamera();
     // Get instance field reference: private OVRPlugin/Fovf defaultFov
-    ::GlobalNamespace::OVRPlugin::Fovf& dyn_defaultFov();
-    // private System.Void Start()
-    // Offset: 0x16C0604
-    void Start();
-    // private System.Void Initialize()
-    // Offset: 0x16C06B4
-    void Initialize();
-    // private System.Void UpdateDefaultExternalCamera()
-    // Offset: 0x16C0AE4
-    void UpdateDefaultExternalCamera();
-    // private System.Void Update()
-    // Offset: 0x16C1354
-    void Update();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Fovf& dyn_defaultFov();
     // public System.Void .ctor()
-    // Offset: 0x16C1F88
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16F9898
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRMixedRealityCaptureTest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRMixedRealityCaptureTest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRMixedRealityCaptureTest*, creationType>()));
     }
+    // private System.Void Start()
+    // Offset: 0x16F7F14
+    void Start();
+    // private System.Void Initialize()
+    // Offset: 0x16F7FC4
+    void Initialize();
+    // private System.Void UpdateDefaultExternalCamera()
+    // Offset: 0x16F83F4
+    void UpdateDefaultExternalCamera();
+    // private System.Void Update()
+    // Offset: 0x16F8C64
+    void Update();
   }; // OVRMixedRealityCaptureTest
   #pragma pack(pop)
   static check_size<sizeof(OVRMixedRealityCaptureTest), 40 + sizeof(::GlobalNamespace::OVRPlugin::Fovf)> __GlobalNamespace_OVRMixedRealityCaptureTestSizeCheck;
@@ -168,6 +154,10 @@ namespace GlobalNamespace {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRMixedRealityCaptureTest::CameraMode, "", "OVRMixedRealityCaptureTest/CameraMode");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureTest::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureTest::Start
 // Il2CppName: Start
 template<>
@@ -200,7 +190,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureTest*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureTest::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

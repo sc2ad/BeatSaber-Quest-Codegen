@@ -79,22 +79,22 @@ namespace Newtonsoft::Json::Serialization {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: readonly System.String AssemblyName
-      ::StringW& dyn_AssemblyName();
+      [[deprecated("Use field access instead!")]] ::StringW& dyn_AssemblyName();
       // Get instance field reference: readonly System.String TypeName
-      ::StringW& dyn_TypeName();
+      [[deprecated("Use field access instead!")]] ::StringW& dyn_TypeName();
       // public System.Void .ctor(System.String assemblyName, System.String typeName)
-      // Offset: 0x1D21DD8
+      // Offset: 0x1D5E330
       // ABORTED: conflicts with another method.  TypeNameKey(::StringW assemblyName, ::StringW typeName);
       // public System.Boolean Equals(Newtonsoft.Json.Serialization.DefaultSerializationBinder/Newtonsoft.Json.Serialization.TypeNameKey other)
-      // Offset: 0x1D21FD0
+      // Offset: 0x1D5E528
       bool Equals(::Newtonsoft::Json::Serialization::DefaultSerializationBinder::TypeNameKey other);
       // public override System.Int32 GetHashCode()
-      // Offset: 0x1D21EF0
+      // Offset: 0x1D5E448
       // Implemented from: System.ValueType
       // Base method: System.Int32 ValueType::GetHashCode()
       int GetHashCode();
       // public override System.Boolean Equals(System.Object obj)
-      // Offset: 0x1D21F44
+      // Offset: 0x1D5E49C
       // Implemented from: System.ValueType
       // Base method: System.Boolean ValueType::Equals(System.Object obj)
       bool Equals(::Il2CppObject* obj);
@@ -102,15 +102,7 @@ namespace Newtonsoft::Json::Serialization {
     #pragma pack(pop)
     static check_size<sizeof(DefaultSerializationBinder::TypeNameKey), 8 + sizeof(::StringW)> __Newtonsoft_Json_Serialization_DefaultSerializationBinder_TypeNameKeySizeCheck;
     static_assert(sizeof(DefaultSerializationBinder::TypeNameKey) == 0x10);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Newtonsoft.Json.Utilities.ThreadSafeStore`2<Newtonsoft.Json.Serialization.DefaultSerializationBinder/Newtonsoft.Json.Serialization.TypeNameKey,System.Type> _typeCache
     // Size: 0x8
     // Offset: 0x10
@@ -127,25 +119,22 @@ namespace Newtonsoft::Json::Serialization {
     // Set static field: static readonly Newtonsoft.Json.Serialization.DefaultSerializationBinder Instance
     static void _set_Instance(::Newtonsoft::Json::Serialization::DefaultSerializationBinder* value);
     // Get instance field reference: private readonly Newtonsoft.Json.Utilities.ThreadSafeStore`2<Newtonsoft.Json.Serialization.DefaultSerializationBinder/Newtonsoft.Json.Serialization.TypeNameKey,System.Type> _typeCache
-    ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Serialization::DefaultSerializationBinder::TypeNameKey, ::System::Type*>*& dyn__typeCache();
-    // static private System.Void .cctor()
-    // Offset: 0x1D21E90
-    static void _cctor();
-    // static private System.Type GetTypeFromTypeNameKey(Newtonsoft.Json.Serialization.DefaultSerializationBinder/Newtonsoft.Json.Serialization.TypeNameKey typeNameKey)
-    // Offset: 0x1D21B1C
-    static ::System::Type* GetTypeFromTypeNameKey(::Newtonsoft::Json::Serialization::DefaultSerializationBinder::TypeNameKey typeNameKey);
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Serialization::DefaultSerializationBinder::TypeNameKey, ::System::Type*>*& dyn__typeCache();
     // public System.Void .ctor()
-    // Offset: 0x1D21DE0
-    // Implemented from: System.Runtime.Serialization.SerializationBinder
-    // Base method: System.Void SerializationBinder::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1D5E338
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultSerializationBinder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::DefaultSerializationBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultSerializationBinder*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1D5E3E8
+    static void _cctor();
+    // static private System.Type GetTypeFromTypeNameKey(Newtonsoft.Json.Serialization.DefaultSerializationBinder/Newtonsoft.Json.Serialization.TypeNameKey typeNameKey)
+    // Offset: 0x1D5E074
+    static ::System::Type* GetTypeFromTypeNameKey(::Newtonsoft::Json::Serialization::DefaultSerializationBinder::TypeNameKey typeNameKey);
     // public override System.Type BindToType(System.String assemblyName, System.String typeName)
-    // Offset: 0x1D21D68
+    // Offset: 0x1D5E2C0
     // Implemented from: System.Runtime.Serialization.SerializationBinder
     // Base method: System.Type SerializationBinder::BindToType(System.String assemblyName, System.String typeName)
     ::System::Type* BindToType(::StringW assemblyName, ::StringW typeName);
@@ -157,6 +146,10 @@ namespace Newtonsoft::Json::Serialization {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::DefaultSerializationBinder::TypeNameKey, "Newtonsoft.Json.Serialization", "DefaultSerializationBinder/TypeNameKey");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Newtonsoft::Json::Serialization::DefaultSerializationBinder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::DefaultSerializationBinder::_cctor
 // Il2CppName: .cctor
 template<>
@@ -174,10 +167,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::DefaultSerializationBinder*), "GetTypeFromTypeNameKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeNameKey});
   }
 };
-// Writing MetadataGetter for method: Newtonsoft::Json::Serialization::DefaultSerializationBinder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::DefaultSerializationBinder::BindToType
 // Il2CppName: BindToType
 template<>

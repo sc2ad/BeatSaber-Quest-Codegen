@@ -26,15 +26,7 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_TextElement_Legacy : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 id
     // Size: 0x4
     // Offset: 0x10
@@ -91,27 +83,25 @@ namespace TMPro {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public System.Int32 id
-    int& dyn_id();
+    [[deprecated("Use field access instead!")]] int& dyn_id();
     // Get instance field reference: public System.Single x
-    float& dyn_x();
+    [[deprecated("Use field access instead!")]] float& dyn_x();
     // Get instance field reference: public System.Single y
-    float& dyn_y();
+    [[deprecated("Use field access instead!")]] float& dyn_y();
     // Get instance field reference: public System.Single width
-    float& dyn_width();
+    [[deprecated("Use field access instead!")]] float& dyn_width();
     // Get instance field reference: public System.Single height
-    float& dyn_height();
+    [[deprecated("Use field access instead!")]] float& dyn_height();
     // Get instance field reference: public System.Single xOffset
-    float& dyn_xOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_xOffset();
     // Get instance field reference: public System.Single yOffset
-    float& dyn_yOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_yOffset();
     // Get instance field reference: public System.Single xAdvance
-    float& dyn_xAdvance();
+    [[deprecated("Use field access instead!")]] float& dyn_xAdvance();
     // Get instance field reference: public System.Single scale
-    float& dyn_scale();
+    [[deprecated("Use field access instead!")]] float& dyn_scale();
     // public System.Void .ctor()
-    // Offset: 0x18C40F8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18FDA08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_TextElement_Legacy* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_TextElement_Legacy::.ctor");

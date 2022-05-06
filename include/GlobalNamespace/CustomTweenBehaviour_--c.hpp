@@ -41,20 +41,18 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Int32,System.Single> <>9__21_0
     static void _set_$$9__21_0(::System::Func_2<int, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x140B380
+    // Offset: 0x142B12C
     static void _cctor();
-    // System.Single <OnBehaviourPlay>b__21_0(System.Int32 i)
-    // Offset: 0x140B3EC
-    float $OnBehaviourPlay$b__21_0(int i);
     // public System.Void .ctor()
-    // Offset: 0x140B3E4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x142B190
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomTweenBehaviour::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CustomTweenBehaviour::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomTweenBehaviour::$$c*, creationType>()));
     }
+    // System.Single <OnBehaviourPlay>b__21_0(System.Int32 i)
+    // Offset: 0x142B198
+    float $OnBehaviourPlay$b__21_0(int i);
   }; // CustomTweenBehaviour/<>c
   #pragma pack(pop)
 }
@@ -67,6 +65,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomTweenBehaviour::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::CustomTweenBehaviour::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CustomTweenBehaviour::$$c::$OnBehaviourPlay$b__21_0
 // Il2CppName: <OnBehaviourPlay>b__21_0
 template<>
@@ -76,7 +78,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomTweenBehaviour::$$c*), "<OnBehaviourPlay>b__21_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CustomTweenBehaviour::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -39,15 +39,7 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class LineLight : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Vector3 _p0
     // Size: 0xC
     // Offset: 0x18
@@ -74,50 +66,42 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.List`1<LineLight> _lineLights
     static void _set__lineLights(::System::Collections::Generic::List_1<::GlobalNamespace::LineLight*>* value);
     // Get instance field reference: private UnityEngine.Vector3 _p0
-    ::UnityEngine::Vector3& dyn__p0();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__p0();
     // Get instance field reference: private UnityEngine.Vector3 _p1
-    ::UnityEngine::Vector3& dyn__p1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__p1();
     // Get instance field reference: private UnityEngine.Color _color
-    ::UnityEngine::Color& dyn__color();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // public UnityEngine.Vector3 get_p0()
-    // Offset: 0x2AD4630
+    // Offset: 0x1E7DA40
     ::UnityEngine::Vector3 get_p0();
     // public UnityEngine.Vector3 get_p1()
-    // Offset: 0x2AD463C
+    // Offset: 0x1E7DA4C
     ::UnityEngine::Vector3 get_p1();
     // public UnityEngine.Color get_color()
-    // Offset: 0x2AD4648
+    // Offset: 0x1E7DA58
     ::UnityEngine::Color get_color();
     // static public System.Collections.Generic.List`1<LineLight> get_lineLights()
-    // Offset: 0x2AD4654
+    // Offset: 0x1E7DA64
     static ::System::Collections::Generic::List_1<::GlobalNamespace::LineLight*>* get_lineLights();
-    // protected System.Void OnEnable()
-    // Offset: 0x2AD46BC
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x2AD4740
-    void OnDisable();
-    // protected System.Void OnDrawGizmos()
-    // Offset: 0x2AD47C4
-    void OnDrawGizmos();
     // public System.Void .ctor()
-    // Offset: 0x2AD4858
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E7DC68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LineLight* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LineLight::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LineLight*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2AD4860
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x1E7DC70
     static void _cctor();
+    // protected System.Void OnEnable()
+    // Offset: 0x1E7DACC
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x1E7DB50
+    void OnDisable();
+    // protected System.Void OnDrawGizmos()
+    // Offset: 0x1E7DBD4
+    void OnDrawGizmos();
   }; // LineLight
   #pragma pack(pop)
   static check_size<sizeof(LineLight), 48 + sizeof(::UnityEngine::Color)> __GlobalNamespace_LineLightSizeCheck;
@@ -156,6 +140,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LineLight*), "get_lineLights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LineLight::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::LineLight::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::LineLight::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LineLight*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LineLight::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -178,17 +174,5 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LineLight::*)()>(&GlobalNamespace::LineLight::OnDrawGizmos)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LineLight*), "OnDrawGizmos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::LineLight::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::LineLight::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::LineLight::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LineLight*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

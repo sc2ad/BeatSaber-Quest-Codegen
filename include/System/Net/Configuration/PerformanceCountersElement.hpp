@@ -35,24 +35,26 @@ namespace System::Net::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class PerformanceCountersElement : public ::System::Configuration::ConfigurationElement {
     public:
-    // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x1A36980
-    // Implemented from: System.Configuration.ConfigurationElement
-    // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
-    ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
     // public System.Void .ctor()
-    // Offset: 0x1A36940
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1A6FF28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PerformanceCountersElement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Configuration::PerformanceCountersElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PerformanceCountersElement*, creationType>()));
     }
+    // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
+    // Offset: 0x1A6FF68
+    // Implemented from: System.Configuration.ConfigurationElement
+    // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
+    ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
   }; // System.Net.Configuration.PerformanceCountersElement
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Net::Configuration::PerformanceCountersElement::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Configuration::PerformanceCountersElement::get_Properties
 // Il2CppName: get_Properties
 template<>
@@ -61,7 +63,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(System::Net::Configuration::PerformanceCountersElement*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Net::Configuration::PerformanceCountersElement::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

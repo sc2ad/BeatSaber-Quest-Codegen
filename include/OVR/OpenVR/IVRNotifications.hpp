@@ -53,9 +53,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: OVR.OpenVR.IVRNotifications/OVR.OpenVR._CreateNotification CreateNotification
-    ::OVR::OpenVR::IVRNotifications::_CreateNotification*& dyn_CreateNotification();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRNotifications::_CreateNotification*& dyn_CreateNotification();
     // Get instance field reference: OVR.OpenVR.IVRNotifications/OVR.OpenVR._RemoveNotification RemoveNotification
-    ::OVR::OpenVR::IVRNotifications::_RemoveNotification*& dyn_RemoveNotification();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRNotifications::_RemoveNotification*& dyn_RemoveNotification();
   }; // OVR.OpenVR.IVRNotifications
   #pragma pack(pop)
   static check_size<sizeof(IVRNotifications), 8 + sizeof(::OVR::OpenVR::IVRNotifications::_RemoveNotification*)> __OVR_OpenVR_IVRNotificationsSizeCheck;

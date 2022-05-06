@@ -45,45 +45,37 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaberTrail : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private SaberTrailRenderer _trailRendererPrefab
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::SaberTrailRenderer* trailRendererPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberTrailRenderer*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1250D94
-    // [TooltipAttribute] Offset: 0x1250D94
+    // [HeaderAttribute] Offset: 0x10D58C8
+    // [TooltipAttribute] Offset: 0x10D58C8
     // private System.Single _trailDuration
     // Size: 0x4
     // Offset: 0x20
     float trailDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1250E04
+    // [TooltipAttribute] Offset: 0x10D5938
     // private System.Int32 _samplingFrequency
     // Size: 0x4
     // Offset: 0x24
     int samplingFrequency;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TooltipAttribute] Offset: 0x1250E50
+    // [TooltipAttribute] Offset: 0x10D5984
     // private System.Int32 _granularity
     // Size: 0x4
     // Offset: 0x28
     int granularity;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [RangeAttribute] Offset: 0x1250E9C
-    // [TooltipAttribute] Offset: 0x1250E9C
+    // [RangeAttribute] Offset: 0x10D59D0
+    // [TooltipAttribute] Offset: 0x10D59D0
     // private System.Single _whiteSectionMaxDuration
     // Size: 0x4
     // Offset: 0x2C
@@ -98,7 +90,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: colorOverwrite and: forcedColor
     char __padding5[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x1250F10
+    // [DrawIfAttribute] Offset: 0x10D5A44
     // private UnityEngine.Color _forcedColor
     // Size: 0x10
     // Offset: 0x34
@@ -191,88 +183,86 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kScaleCheckFramesInterval
     static void _set_kScaleCheckFramesInterval(int value);
     // Get instance field reference: private SaberTrailRenderer _trailRendererPrefab
-    ::GlobalNamespace::SaberTrailRenderer*& dyn__trailRendererPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberTrailRenderer*& dyn__trailRendererPrefab();
     // Get instance field reference: private System.Single _trailDuration
-    float& dyn__trailDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__trailDuration();
     // Get instance field reference: private System.Int32 _samplingFrequency
-    int& dyn__samplingFrequency();
+    [[deprecated("Use field access instead!")]] int& dyn__samplingFrequency();
     // Get instance field reference: private System.Int32 _granularity
-    int& dyn__granularity();
+    [[deprecated("Use field access instead!")]] int& dyn__granularity();
     // Get instance field reference: private System.Single _whiteSectionMaxDuration
-    float& dyn__whiteSectionMaxDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__whiteSectionMaxDuration();
     // Get instance field reference: private System.Boolean _colorOverwrite
-    bool& dyn__colorOverwrite();
+    [[deprecated("Use field access instead!")]] bool& dyn__colorOverwrite();
     // Get instance field reference: private UnityEngine.Color _forcedColor
-    ::UnityEngine::Color& dyn__forcedColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__forcedColor();
     // Get instance field reference: private UnityEngine.Color _color
-    ::UnityEngine::Color& dyn__color();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // Get instance field reference: private IBladeMovementData _movementData
-    ::GlobalNamespace::IBladeMovementData*& dyn__movementData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBladeMovementData*& dyn__movementData();
     // Get instance field reference: private System.Single _lastTrailElementTime
-    float& dyn__lastTrailElementTime();
+    [[deprecated("Use field access instead!")]] float& dyn__lastTrailElementTime();
     // Get instance field reference: private SaberTrailRenderer _trailRenderer
-    ::GlobalNamespace::SaberTrailRenderer*& dyn__trailRenderer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberTrailRenderer*& dyn__trailRenderer();
     // Get instance field reference: private TrailElementCollection _trailElementCollection
-    ::GlobalNamespace::TrailElementCollection*& dyn__trailElementCollection();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TrailElementCollection*& dyn__trailElementCollection();
     // Get instance field reference: private System.Single _sampleStep
-    float& dyn__sampleStep();
+    [[deprecated("Use field access instead!")]] float& dyn__sampleStep();
     // Get instance field reference: private System.Int32 _framesPassed
-    int& dyn__framesPassed();
+    [[deprecated("Use field access instead!")]] int& dyn__framesPassed();
     // Get instance field reference: private System.Single _lastZScale
-    float& dyn__lastZScale();
+    [[deprecated("Use field access instead!")]] float& dyn__lastZScale();
     // Get instance field reference: private System.Int32 _framesToScaleCheck
-    int& dyn__framesToScaleCheck();
+    [[deprecated("Use field access instead!")]] int& dyn__framesToScaleCheck();
     // Get instance field reference: private System.Boolean _inited
-    bool& dyn__inited();
-    // private System.Void Awake()
-    // Offset: 0x141EE5C
-    void Awake();
-    // public System.Void Setup(UnityEngine.Color color, IBladeMovementData movementData)
-    // Offset: 0x141D0E8
-    void Setup(::UnityEngine::Color color, ::GlobalNamespace::IBladeMovementData* movementData);
-    // private System.Void Init()
-    // Offset: 0x141EF80
-    void Init();
-    // private System.Void ResetTrailData()
-    // Offset: 0x141F2B0
-    void ResetTrailData();
-    // protected System.Void LateUpdate()
-    // Offset: 0x141F398
-    void LateUpdate();
-    // protected System.Void OnEnable()
-    // Offset: 0x141F958
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x141FA20
-    void OnDisable();
-    // protected System.Void OnDestroy()
-    // Offset: 0x141FAB4
-    void OnDestroy();
-    // private System.Single GetTrailWidth(BladeMovementDataElement lastAddedData)
-    // Offset: 0x141F1E8
-    float GetTrailWidth(::GlobalNamespace::BladeMovementDataElement lastAddedData);
-    // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x141FB80
-    void OnDrawGizmosSelected();
+    [[deprecated("Use field access instead!")]] bool& dyn__inited();
     // public System.Void .ctor()
-    // Offset: 0x141FD5C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1461414
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberTrail* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberTrail::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberTrail*, creationType>()));
     }
+    // private System.Void Awake()
+    // Offset: 0x1460514
+    void Awake();
+    // public System.Void Setup(UnityEngine.Color color, IBladeMovementData movementData)
+    // Offset: 0x145E7B8
+    void Setup(::UnityEngine::Color color, ::GlobalNamespace::IBladeMovementData* movementData);
+    // private System.Void Init()
+    // Offset: 0x1460638
+    void Init();
+    // private System.Void ResetTrailData()
+    // Offset: 0x1460968
+    void ResetTrailData();
+    // protected System.Void LateUpdate()
+    // Offset: 0x1460A50
+    void LateUpdate();
+    // protected System.Void OnEnable()
+    // Offset: 0x1461010
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x14610D8
+    void OnDisable();
+    // protected System.Void OnDestroy()
+    // Offset: 0x146116C
+    void OnDestroy();
+    // private System.Single GetTrailWidth(BladeMovementDataElement lastAddedData)
+    // Offset: 0x14608A0
+    float GetTrailWidth(::GlobalNamespace::BladeMovementDataElement lastAddedData);
+    // private System.Void OnDrawGizmosSelected()
+    // Offset: 0x1461238
+    void OnDrawGizmosSelected();
   }; // SaberTrail
   #pragma pack(pop)
   static check_size<sizeof(SaberTrail), 136 + sizeof(bool)> __GlobalNamespace_SaberTrailSizeCheck;
   static_assert(sizeof(SaberTrail) == 0x89);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SaberTrail::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SaberTrail::Awake
 // Il2CppName: Awake
 template<>
@@ -356,7 +346,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrail*), "OnDrawGizmosSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SaberTrail::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

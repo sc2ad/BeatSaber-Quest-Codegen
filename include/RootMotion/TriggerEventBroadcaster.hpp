@@ -37,15 +37,7 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class TriggerEventBroadcaster : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.GameObject target
     // Size: 0x8
     // Offset: 0x18
@@ -56,35 +48,33 @@ namespace RootMotion {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.GameObject target
-    ::UnityEngine::GameObject*& dyn_target();
-    // private System.Void OnTriggerEnter(UnityEngine.Collider collider)
-    // Offset: 0x1F82904
-    void OnTriggerEnter(::UnityEngine::Collider* collider);
-    // private System.Void OnTriggerStay(UnityEngine.Collider collider)
-    // Offset: 0x1F829BC
-    void OnTriggerStay(::UnityEngine::Collider* collider);
-    // private System.Void OnTriggerExit(UnityEngine.Collider collider)
-    // Offset: 0x1F82A74
-    void OnTriggerExit(::UnityEngine::Collider* collider);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_target();
     // public System.Void .ctor()
-    // Offset: 0x1F82B2C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FCF3A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TriggerEventBroadcaster* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::TriggerEventBroadcaster::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TriggerEventBroadcaster*, creationType>()));
     }
+    // private System.Void OnTriggerEnter(UnityEngine.Collider collider)
+    // Offset: 0x1FCF178
+    void OnTriggerEnter(::UnityEngine::Collider* collider);
+    // private System.Void OnTriggerStay(UnityEngine.Collider collider)
+    // Offset: 0x1FCF230
+    void OnTriggerStay(::UnityEngine::Collider* collider);
+    // private System.Void OnTriggerExit(UnityEngine.Collider collider)
+    // Offset: 0x1FCF2E8
+    void OnTriggerExit(::UnityEngine::Collider* collider);
   }; // RootMotion.TriggerEventBroadcaster
   #pragma pack(pop)
   static check_size<sizeof(TriggerEventBroadcaster), 24 + sizeof(::UnityEngine::GameObject*)> __RootMotion_TriggerEventBroadcasterSizeCheck;
   static_assert(sizeof(TriggerEventBroadcaster) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::TriggerEventBroadcaster::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::TriggerEventBroadcaster::OnTriggerEnter
 // Il2CppName: OnTriggerEnter
 template<>
@@ -112,7 +102,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::TriggerEventBroadcaster*), "OnTriggerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{collider});
   }
 };
-// Writing MetadataGetter for method: RootMotion::TriggerEventBroadcaster::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

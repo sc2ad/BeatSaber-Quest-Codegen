@@ -44,46 +44,46 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 <MaximumBufferSamplesCount>k__BackingField
     static void _set_$MaximumBufferSamplesCount$k__BackingField(int value);
     // static public System.Int32 get_SampleRateHz()
-    // Offset: 0x19BC338
+    // Offset: 0x19F5920
     static int get_SampleRateHz();
     // static private System.Void set_SampleRateHz(System.Int32 value)
-    // Offset: 0x19BC3A0
+    // Offset: 0x19F5988
     static void set_SampleRateHz(int value);
     // static public System.Int32 get_SampleSizeInBytes()
-    // Offset: 0x19BC40C
+    // Offset: 0x19F59F4
     static int get_SampleSizeInBytes();
     // static private System.Void set_SampleSizeInBytes(System.Int32 value)
-    // Offset: 0x19BC474
+    // Offset: 0x19F5A5C
     static void set_SampleSizeInBytes(int value);
     // static public System.Int32 get_MinimumSafeSamplesQueued()
-    // Offset: 0x19BC4E0
+    // Offset: 0x19F5AC8
     static int get_MinimumSafeSamplesQueued();
     // static private System.Void set_MinimumSafeSamplesQueued(System.Int32 value)
-    // Offset: 0x19BC548
+    // Offset: 0x19F5B30
     static void set_MinimumSafeSamplesQueued(int value);
     // static public System.Int32 get_MinimumBufferSamplesCount()
-    // Offset: 0x19BC5B4
+    // Offset: 0x19F5B9C
     static int get_MinimumBufferSamplesCount();
     // static private System.Void set_MinimumBufferSamplesCount(System.Int32 value)
-    // Offset: 0x19BC61C
+    // Offset: 0x19F5C04
     static void set_MinimumBufferSamplesCount(int value);
     // static public System.Int32 get_OptimalBufferSamplesCount()
-    // Offset: 0x19BC688
+    // Offset: 0x19F5C70
     static int get_OptimalBufferSamplesCount();
     // static private System.Void set_OptimalBufferSamplesCount(System.Int32 value)
-    // Offset: 0x19BC6F0
+    // Offset: 0x19F5CD8
     static void set_OptimalBufferSamplesCount(int value);
     // static public System.Int32 get_MaximumBufferSamplesCount()
-    // Offset: 0x19BC75C
+    // Offset: 0x19F5D44
     static int get_MaximumBufferSamplesCount();
     // static private System.Void set_MaximumBufferSamplesCount(System.Int32 value)
-    // Offset: 0x19BC7C4
+    // Offset: 0x19F5DAC
     static void set_MaximumBufferSamplesCount(int value);
     // static private System.Void .cctor()
-    // Offset: 0x19BC830
+    // Offset: 0x19F5E18
     static void _cctor();
     // static public System.Void Load()
-    // Offset: 0x19BB398
+    // Offset: 0x19F4980
     static void Load();
   }; // OVRHaptics/Config
   #pragma pack(pop)

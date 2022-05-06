@@ -54,7 +54,7 @@ namespace TMPro {
     // Set static field: static public TMPro.MaskingOffsetMode Pixel
     static void _set_Pixel(::TMPro::MaskingOffsetMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // TMPro.MaskingOffsetMode
   #pragma pack(pop)
   static check_size<sizeof(MaskingOffsetMode), 0 + sizeof(int)> __TMPro_MaskingOffsetModeSizeCheck;

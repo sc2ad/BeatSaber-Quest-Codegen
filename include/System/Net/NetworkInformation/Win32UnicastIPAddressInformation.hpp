@@ -42,15 +42,7 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class Win32UnicastIPAddressInformation : public ::System::Net::NetworkInformation::UnicastIPAddressInformation {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Net.NetworkInformation.Win32_IP_ADAPTER_UNICAST_ADDRESS info
     // Size: 0x39
     // Offset: 0x10
@@ -67,21 +59,21 @@ namespace System::Net::NetworkInformation {
     static_assert(sizeof(::System::Net::IPAddress*) == 0x8);
     public:
     // Get instance field reference: private System.Net.NetworkInformation.Win32_IP_ADAPTER_UNICAST_ADDRESS info
-    ::System::Net::NetworkInformation::Win32_IP_ADAPTER_UNICAST_ADDRESS& dyn_info();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::Win32_IP_ADAPTER_UNICAST_ADDRESS& dyn_info();
     // Get instance field reference: private System.Net.IPAddress ipv4Mask
-    ::System::Net::IPAddress*& dyn_ipv4Mask();
+    [[deprecated("Use field access instead!")]] ::System::Net::IPAddress*& dyn_ipv4Mask();
     // public System.Void .ctor(System.Net.NetworkInformation.Win32_IP_ADAPTER_UNICAST_ADDRESS info)
-    // Offset: 0x1B2D88C
+    // Offset: 0x1B67E74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32UnicastIPAddressInformation* New_ctor(::System::Net::NetworkInformation::Win32_IP_ADAPTER_UNICAST_ADDRESS info) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::Win32UnicastIPAddressInformation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32UnicastIPAddressInformation*, creationType>(info)));
     }
     // static private System.Net.IPAddress PrefixLengthToSubnetMask(System.Byte prefixLength, System.Net.Sockets.AddressFamily family)
-    // Offset: 0x1B2DABC
+    // Offset: 0x1B680A4
     static ::System::Net::IPAddress* PrefixLengthToSubnetMask(uint8_t prefixLength, ::System::Net::Sockets::AddressFamily family);
     // public override System.Net.IPAddress get_Address()
-    // Offset: 0x1B2DBA8
+    // Offset: 0x1B68190
     // Implemented from: System.Net.NetworkInformation.IPAddressInformation
     // Base method: System.Net.IPAddress IPAddressInformation::get_Address()
     ::System::Net::IPAddress* get_Address();

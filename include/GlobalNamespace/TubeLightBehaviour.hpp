@@ -51,15 +51,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::TubeLightBehaviour::ParameterType
     struct ParameterType;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean _noPredefinedStartValue
     // Size: 0x1
     // Offset: 0x10
@@ -68,7 +60,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: noPredefinedStartValue and: startColor
     char __padding0[0x7] = {};
-    // [DrawIfAttribute] Offset: 0x12600E8
+    // [DrawIfAttribute] Offset: 0x10E4D90
     // public ColorSO startColor
     // Size: 0x8
     // Offset: 0x18
@@ -129,42 +121,39 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
     public:
     // Get instance field reference: public System.Boolean _noPredefinedStartValue
-    bool& dyn__noPredefinedStartValue();
+    [[deprecated("Use field access instead!")]] bool& dyn__noPredefinedStartValue();
     // Get instance field reference: public ColorSO startColor
-    ::GlobalNamespace::ColorSO*& dyn_startColor();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn_startColor();
     // Get instance field reference: public ColorSO endColor
-    ::GlobalNamespace::ColorSO*& dyn_endColor();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn_endColor();
     // Get instance field reference: public System.Single blend
-    float& dyn_blend();
+    [[deprecated("Use field access instead!")]] float& dyn_blend();
     // Get instance field reference: private System.Boolean _initialized
-    bool& dyn__initialized();
+    [[deprecated("Use field access instead!")]] bool& dyn__initialized();
     // Get instance field reference: private UnityEngine.Color _originalColor
-    ::UnityEngine::Color& dyn__originalColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__originalColor();
     // Get instance field reference: private TubeBloomPrePassLight[] _tubeLights
-    ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*>& dyn__tubeLights();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*>& dyn__tubeLights();
     // Get instance field reference: private DirectionalLight[] _directionalLights
-    ::ArrayW<::GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
     // Get instance field reference: private System.Boolean started
-    bool& dyn_started();
+    [[deprecated("Use field access instead!")]] bool& dyn_started();
     // Get instance field reference: private UnityEngine.Color _firstFrameColor
-    ::UnityEngine::Color& dyn__firstFrameColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__firstFrameColor();
     // public System.Void .ctor()
-    // Offset: 0x1341FC8
-    // Implemented from: UnityEngine.Playables.PlayableBehaviour
-    // Base method: System.Void PlayableBehaviour::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x148E2C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TubeLightBehaviour* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TubeLightBehaviour::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TubeLightBehaviour*, creationType>()));
     }
     // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0x1341B44
+    // Offset: 0x148DE3C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
     // public override System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
-    // Offset: 0x1341EE8
+    // Offset: 0x148E1E0
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnPlayableDestroy(UnityEngine.Playables.Playable playable)
     void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);

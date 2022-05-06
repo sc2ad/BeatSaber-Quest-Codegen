@@ -85,20 +85,12 @@ namespace GlobalNamespace {
       // Set static field: static public BeatmapEventDataBox/DistributionParamType Step
       static void _set_Step(::GlobalNamespace::BeatmapEventDataBox::DistributionParamType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // BeatmapEventDataBox/DistributionParamType
     #pragma pack(pop)
     static check_size<sizeof(BeatmapEventDataBox::DistributionParamType), 0 + sizeof(int)> __GlobalNamespace_BeatmapEventDataBox_DistributionParamTypeSizeCheck;
     static_assert(sizeof(BeatmapEventDataBox::DistributionParamType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly IIndexFilter <indexFilter>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -119,11 +111,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::BeatmapEventDataBox::DistributionParamType) == 0x4);
     public:
     // Get instance field reference: private readonly IIndexFilter <indexFilter>k__BackingField
-    ::GlobalNamespace::IIndexFilter*& dyn_$indexFilter$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IIndexFilter*& dyn_$indexFilter$k__BackingField();
     // Get instance field reference: private readonly System.Single _beatDistributionParam
-    float& dyn__beatDistributionParam();
+    [[deprecated("Use field access instead!")]] float& dyn__beatDistributionParam();
     // Get instance field reference: private readonly BeatmapEventDataBox/DistributionParamType _beatDistributionParamType
-    ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType& dyn__beatDistributionParamType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType& dyn__beatDistributionParamType();
     // public System.Int32 get_subtypeIdentifier()
     // Offset: 0xFFFFFFFFFFFFFFFF
     int get_subtypeIdentifier();
@@ -131,13 +123,13 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     float get_beatStep();
     // public IIndexFilter get_indexFilter()
-    // Offset: 0x14C6DF0
+    // Offset: 0x14FE6F8
     ::GlobalNamespace::IIndexFilter* get_indexFilter();
     // protected System.Int32 get_numberOfElements()
-    // Offset: 0x14C6DF8
+    // Offset: 0x14FE700
     int get_numberOfElements();
     // protected System.Void .ctor(IIndexFilter indexFilter, BeatmapEventDataBox/DistributionParamType beatDistributionParamType, System.Single beatDistributionParam)
-    // Offset: 0x14C6EA8
+    // Offset: 0x14FE7B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEventDataBox* New_ctor(::GlobalNamespace::IIndexFilter* indexFilter, ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType beatDistributionParamType, float beatDistributionParam) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventDataBox::.ctor");
@@ -147,10 +139,10 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Unpack(float groupBoxBeat, int groupId, int elementId, int orderIndex, float maxBeat, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
     // protected System.Single GetBeatStep(System.Single lastBaseEventRelativeBeat)
-    // Offset: 0x14C6EF4
+    // Offset: 0x14FE7FC
     float GetBeatStep(float lastBaseEventRelativeBeat);
     // protected System.Single DistributionParamToStep(System.Single distributionParam, BeatmapEventDataBox/DistributionParamType distributionParamType)
-    // Offset: 0x14C6F94
+    // Offset: 0x14FE89C
     float DistributionParamToStep(float distributionParam, ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType distributionParamType);
   }; // BeatmapEventDataBox
   #pragma pack(pop)

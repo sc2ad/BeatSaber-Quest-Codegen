@@ -54,15 +54,7 @@ namespace GlobalNamespace {
     class IDataSource;
     // Nested type: ::GlobalNamespace::GridView::GridViewCellsEnumerator
     class GridViewCellsEnumerator;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.RectTransform _contentTransform
     // Size: 0x8
     // Offset: 0x18
@@ -109,42 +101,49 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.RectTransform _contentTransform
-    ::UnityEngine::RectTransform*& dyn__contentTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__contentTransform();
     // Get instance field reference: private GridView/GridViewCellsEnumerator <cellsEnumerator>k__BackingField
-    ::GlobalNamespace::GridView::GridViewCellsEnumerator*& dyn_$cellsEnumerator$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GridView::GridViewCellsEnumerator*& dyn_$cellsEnumerator$k__BackingField();
     // Get instance field reference: private GridView/IDataSource _dataSource
-    ::GlobalNamespace::GridView::IDataSource*& dyn__dataSource();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GridView::IDataSource*& dyn__dataSource();
     // Get instance field reference: private System.Int32 _columnCount
-    int& dyn__columnCount();
+    [[deprecated("Use field access instead!")]] int& dyn__columnCount();
     // Get instance field reference: private System.Int32 _rowCount
-    int& dyn__rowCount();
+    [[deprecated("Use field access instead!")]] int& dyn__rowCount();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<UnityEngine.MonoBehaviour,System.Collections.Generic.Queue`1<UnityEngine.MonoBehaviour>> _availableCellsPerPrefabDictionary
-    ::System::Collections::Generic::Dictionary_2<::UnityEngine::MonoBehaviour*, ::System::Collections::Generic::Queue_1<::UnityEngine::MonoBehaviour*>*>*& dyn__availableCellsPerPrefabDictionary();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::UnityEngine::MonoBehaviour*, ::System::Collections::Generic::Queue_1<::UnityEngine::MonoBehaviour*>*>*& dyn__availableCellsPerPrefabDictionary();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<UnityEngine.MonoBehaviour,System.Collections.Generic.List`1<UnityEngine.MonoBehaviour>> _spawnedCellsPerPrefabDictionary
-    ::System::Collections::Generic::Dictionary_2<::UnityEngine::MonoBehaviour*, ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*>*& dyn__spawnedCellsPerPrefabDictionary();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::UnityEngine::MonoBehaviour*, ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*>*& dyn__spawnedCellsPerPrefabDictionary();
     // public GridView/IDataSource get_dataSource()
-    // Offset: 0x13EB7D0
+    // Offset: 0x13F8270
     ::GlobalNamespace::GridView::IDataSource* get_dataSource();
     // public GridView/GridViewCellsEnumerator get_cellsEnumerator()
-    // Offset: 0x13EB7D8
+    // Offset: 0x13F8278
     ::GlobalNamespace::GridView::GridViewCellsEnumerator* get_cellsEnumerator();
     // private System.Void set_cellsEnumerator(GridView/GridViewCellsEnumerator value)
-    // Offset: 0x13EB7E0
+    // Offset: 0x13F8280
     void set_cellsEnumerator(::GlobalNamespace::GridView::GridViewCellsEnumerator* value);
     // public System.Int32 get_rowCount()
-    // Offset: 0x13EB7E8
+    // Offset: 0x13F8288
     int get_rowCount();
     // public System.Int32 get_columnCount()
-    // Offset: 0x13EB7F0
+    // Offset: 0x13F8290
     int get_columnCount();
+    // public System.Void .ctor()
+    // Offset: 0x13F8A88
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static GridView* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GridView::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<GridView*, creationType>()));
+    }
     // public System.Void SetDataSource(GridView/IDataSource newDataSource, System.Boolean reloadData)
-    // Offset: 0x13EB7F8
+    // Offset: 0x13F8298
     void SetDataSource(::GlobalNamespace::GridView::IDataSource* newDataSource, bool reloadData);
     // public System.Void ReloadData()
-    // Offset: 0x13EB8BC
+    // Offset: 0x13F835C
     void ReloadData();
     // public System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> GetActiveCellsForIdentifier(UnityEngine.MonoBehaviour prefab)
-    // Offset: 0x13EBF20
+    // Offset: 0x13F89C0
     ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* GetActiveCellsForIdentifier(::UnityEngine::MonoBehaviour* prefab);
     // public T GetReusableCellView(UnityEngine.MonoBehaviour prefab)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -155,19 +154,6 @@ namespace GlobalNamespace {
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetReusableCellView", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(prefab)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, prefab);
-    }
-    // public System.Void .ctor()
-    // Offset: 0x13EBFE8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GridView* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GridView::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<GridView*, creationType>()));
     }
   }; // GridView
   #pragma pack(pop)
@@ -216,6 +202,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GridView*), "get_columnCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::GridView::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GridView::SetDataSource
 // Il2CppName: SetDataSource
 template<>
@@ -246,7 +236,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
 // Writing MetadataGetter for method: GlobalNamespace::GridView::GetReusableCellView
 // Il2CppName: GetReusableCellView
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: GlobalNamespace::GridView::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

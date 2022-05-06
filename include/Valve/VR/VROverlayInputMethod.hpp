@@ -60,7 +60,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.VROverlayInputMethod DualAnalog
     static void _set_DualAnalog(::Valve::VR::VROverlayInputMethod value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Valve.VR.VROverlayInputMethod
   #pragma pack(pop)
   static check_size<sizeof(VROverlayInputMethod), 0 + sizeof(int)> __Valve_VR_VROverlayInputMethodSizeCheck;

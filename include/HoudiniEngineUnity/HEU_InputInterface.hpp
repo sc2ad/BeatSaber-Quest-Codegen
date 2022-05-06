@@ -40,15 +40,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputInterface : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected System.Int32 _priority
     // Size: 0x4
     // Offset: 0x10
@@ -67,19 +59,19 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Int32 DEFAULT_PRIORITY
     static void _set_DEFAULT_PRIORITY(int value);
     // Get instance field reference: protected System.Int32 _priority
-    int& dyn__priority();
+    [[deprecated("Use field access instead!")]] int& dyn__priority();
     // public System.Int32 get_Priority()
-    // Offset: 0x184D7D8
+    // Offset: 0x18870E8
     int get_Priority();
     // public System.Void .ctor(System.Int32 priority)
-    // Offset: 0x184D7E0
+    // Offset: 0x18870F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputInterface* New_ctor(int priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputInterface::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_InputInterface*, creationType>(priority)));
     }
     // public System.Void RegisterInterface()
-    // Offset: 0x184D80C
+    // Offset: 0x188711C
     void RegisterInterface();
     // public System.Boolean IsThisInputObjectSupported(UnityEngine.GameObject inputObject)
     // Offset: 0xFFFFFFFFFFFFFFFF

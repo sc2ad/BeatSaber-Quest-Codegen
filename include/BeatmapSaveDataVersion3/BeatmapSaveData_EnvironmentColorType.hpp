@@ -50,8 +50,14 @@ namespace BeatmapSaveDataVersion3 {
     static ::BeatmapSaveDataVersion3::BeatmapSaveData::EnvironmentColorType _get_Color1();
     // Set static field: static public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EnvironmentColorType Color1
     static void _set_Color1(::BeatmapSaveDataVersion3::BeatmapSaveData::EnvironmentColorType value);
+    // static field const value: static public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EnvironmentColorType ColorWhite
+    static constexpr const int ColorWhite = 2;
+    // Get static field: static public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EnvironmentColorType ColorWhite
+    static ::BeatmapSaveDataVersion3::BeatmapSaveData::EnvironmentColorType _get_ColorWhite();
+    // Set static field: static public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EnvironmentColorType ColorWhite
+    static void _set_ColorWhite(::BeatmapSaveDataVersion3::BeatmapSaveData::EnvironmentColorType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EnvironmentColorType
   #pragma pack(pop)
   static check_size<sizeof(BeatmapSaveData::EnvironmentColorType), 0 + sizeof(int)> __BeatmapSaveDataVersion3_BeatmapSaveData_EnvironmentColorTypeSizeCheck;

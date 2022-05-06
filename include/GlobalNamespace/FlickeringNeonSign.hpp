@@ -59,15 +59,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::FlickeringNeonSign::$FlickeringCoroutine$d__16
     class $FlickeringCoroutine$d__16;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.SpriteRenderer _flickeringSprite
     // Size: 0x8
     // Offset: 0x18
@@ -150,65 +142,63 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.SpriteRenderer _flickeringSprite
-    ::UnityEngine::SpriteRenderer*& dyn__flickeringSprite();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::SpriteRenderer*& dyn__flickeringSprite();
     // Get instance field reference: private TubeBloomPrePassLight _light
-    ::GlobalNamespace::TubeBloomPrePassLight*& dyn__light();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TubeBloomPrePassLight*& dyn__light();
     // Get instance field reference: private UnityEngine.ParticleSystem[] _particleSystems
-    ::ArrayW<::UnityEngine::ParticleSystem*>& dyn__particleSystems();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::ParticleSystem*>& dyn__particleSystems();
     // Get instance field reference: private System.Single _minOnDelay
-    float& dyn__minOnDelay();
+    [[deprecated("Use field access instead!")]] float& dyn__minOnDelay();
     // Get instance field reference: private System.Single _maxOnDelay
-    float& dyn__maxOnDelay();
+    [[deprecated("Use field access instead!")]] float& dyn__maxOnDelay();
     // Get instance field reference: private System.Single _minOffDelay
-    float& dyn__minOffDelay();
+    [[deprecated("Use field access instead!")]] float& dyn__minOffDelay();
     // Get instance field reference: private System.Single _maxOffDelay
-    float& dyn__maxOffDelay();
+    [[deprecated("Use field access instead!")]] float& dyn__maxOffDelay();
     // Get instance field reference: private UnityEngine.Color _spriteOnColor
-    ::UnityEngine::Color& dyn__spriteOnColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__spriteOnColor();
     // Get instance field reference: private UnityEngine.Color _lightOnColor
-    ::UnityEngine::Color& dyn__lightOnColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__lightOnColor();
     // Get instance field reference: private UnityEngine.Material _onMaterial
-    ::UnityEngine::Material*& dyn__onMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__onMaterial();
     // Get instance field reference: private UnityEngine.Material _offMaterial
-    ::UnityEngine::Material*& dyn__offMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__offMaterial();
     // Get instance field reference: private UnityEngine.AudioClip[] _sparksAudioClips
-    ::ArrayW<::UnityEngine::AudioClip*>& dyn__sparksAudioClips();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::AudioClip*>& dyn__sparksAudioClips();
     // Get instance field reference: private RandomObjectPicker`1<UnityEngine.AudioClip> _sparksAudioClipPicker
-    ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*& dyn__sparksAudioClipPicker();
-    // protected System.Void Awake()
-    // Offset: 0x138F8F8
-    void Awake();
-    // protected System.Void Start()
-    // Offset: 0x138F978
-    void Start();
-    // protected System.Void OnEnable()
-    // Offset: 0x138F9C0
-    void OnEnable();
-    // private System.Collections.IEnumerator FlickeringCoroutine()
-    // Offset: 0x138F9EC
-    ::System::Collections::IEnumerator* FlickeringCoroutine();
-    // private System.Void SetOn(System.Boolean on)
-    // Offset: 0x138FA88
-    void SetOn(bool on);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*& dyn__sparksAudioClipPicker();
     // public System.Void .ctor()
-    // Offset: 0x138FBA4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13776B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlickeringNeonSign* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FlickeringNeonSign::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlickeringNeonSign*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x137740C
+    void Awake();
+    // protected System.Void Start()
+    // Offset: 0x137748C
+    void Start();
+    // protected System.Void OnEnable()
+    // Offset: 0x13774D4
+    void OnEnable();
+    // private System.Collections.IEnumerator FlickeringCoroutine()
+    // Offset: 0x1377500
+    ::System::Collections::IEnumerator* FlickeringCoroutine();
+    // private System.Void SetOn(System.Boolean on)
+    // Offset: 0x137759C
+    void SetOn(bool on);
   }; // FlickeringNeonSign
   #pragma pack(pop)
   static check_size<sizeof(FlickeringNeonSign), 120 + sizeof(::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*)> __GlobalNamespace_FlickeringNeonSignSizeCheck;
   static_assert(sizeof(FlickeringNeonSign) == 0x80);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::FlickeringNeonSign::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FlickeringNeonSign::Awake
 // Il2CppName: Awake
 template<>
@@ -250,7 +240,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlickeringNeonSign*), "SetOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{on});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FlickeringNeonSign::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -42,7 +42,7 @@ namespace System {
       return value;
     }
     // Get instance field reference: public System.UInt32 value__
-    uint& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint& dyn_value__();
   }; // System.UInt32Enum
   #pragma pack(pop)
   static check_size<sizeof(UInt32Enum), 0 + sizeof(uint)> __System_UInt32EnumSizeCheck;

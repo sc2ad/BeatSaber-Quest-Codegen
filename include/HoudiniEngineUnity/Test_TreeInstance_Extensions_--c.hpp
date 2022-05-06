@@ -52,23 +52,21 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Converter`2<UnityEngine.TreeInstance,HoudiniEngineUnity.Test_TreeInstance> <>9__2_0
     static void _set_$$9__2_0(::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2A41758
+    // Offset: 0x2A98B40
     static void _cctor();
-    // HoudiniEngineUnity.Test_TreeInstance <ToTestObject>b__1_0(UnityEngine.TreeInstance lod)
-    // Offset: 0x2A417C4
-    ::HoudiniEngineUnity::Test_TreeInstance* $ToTestObject$b__1_0(::UnityEngine::TreeInstance lod);
-    // HoudiniEngineUnity.Test_TreeInstance <ToTestObject>b__2_0(UnityEngine.TreeInstance lod)
-    // Offset: 0x2A4184C
-    ::HoudiniEngineUnity::Test_TreeInstance* $ToTestObject$b__2_0(::UnityEngine::TreeInstance lod);
     // public System.Void .ctor()
-    // Offset: 0x2A417BC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A98BA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_TreeInstance_Extensions::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_TreeInstance_Extensions::$$c*, creationType>()));
     }
+    // HoudiniEngineUnity.Test_TreeInstance <ToTestObject>b__1_0(UnityEngine.TreeInstance lod)
+    // Offset: 0x2A98BAC
+    ::HoudiniEngineUnity::Test_TreeInstance* $ToTestObject$b__1_0(::UnityEngine::TreeInstance lod);
+    // HoudiniEngineUnity.Test_TreeInstance <ToTestObject>b__2_0(UnityEngine.TreeInstance lod)
+    // Offset: 0x2A98C34
+    ::HoudiniEngineUnity::Test_TreeInstance* $ToTestObject$b__2_0(::UnityEngine::TreeInstance lod);
   }; // HoudiniEngineUnity.Test_TreeInstance_Extensions/HoudiniEngineUnity.<>c
   #pragma pack(pop)
 }
@@ -81,6 +79,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c::$ToTestObject$b__1_0
 // Il2CppName: <ToTestObject>b__1_0
 template<>
@@ -99,7 +101,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEn
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c*), "<ToTestObject>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lod});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

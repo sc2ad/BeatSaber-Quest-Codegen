@@ -60,7 +60,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.HandleOrientation ActiveElement
     static void _set_ActiveElement(::UnityEngine::ProBuilder::HandleOrientation value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.ProBuilder.HandleOrientation
   #pragma pack(pop)
   static check_size<sizeof(HandleOrientation), 0 + sizeof(int)> __UnityEngine_ProBuilder_HandleOrientationSizeCheck;

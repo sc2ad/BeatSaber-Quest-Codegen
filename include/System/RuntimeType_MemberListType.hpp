@@ -63,7 +63,7 @@ namespace System {
     // Set static field: static public System.RuntimeType/System.MemberListType HandleToInfo
     static void _set_HandleToInfo(::System::RuntimeType::MemberListType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.RuntimeType/System.MemberListType
   #pragma pack(pop)
   static check_size<sizeof(RuntimeType::MemberListType), 0 + sizeof(int)> __System_RuntimeType_MemberListTypeSizeCheck;

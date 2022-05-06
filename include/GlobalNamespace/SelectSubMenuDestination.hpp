@@ -99,20 +99,12 @@ namespace GlobalNamespace {
       // Set static field: static public SelectSubMenuDestination/Destination Multiplayer
       static void _set_Multiplayer(::GlobalNamespace::SelectSubMenuDestination::Destination value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // SelectSubMenuDestination/Destination
     #pragma pack(pop)
     static check_size<sizeof(SelectSubMenuDestination::Destination), 0 + sizeof(int)> __GlobalNamespace_SelectSubMenuDestination_DestinationSizeCheck;
     static_assert(sizeof(SelectSubMenuDestination::Destination) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly SelectSubMenuDestination/Destination menuDestination
     // Size: 0x4
     // Offset: 0x10
@@ -125,9 +117,9 @@ namespace GlobalNamespace {
       return menuDestination;
     }
     // Get instance field reference: public readonly SelectSubMenuDestination/Destination menuDestination
-    ::GlobalNamespace::SelectSubMenuDestination::Destination& dyn_menuDestination();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SelectSubMenuDestination::Destination& dyn_menuDestination();
     // public System.Void .ctor(SelectSubMenuDestination/Destination menuDestination)
-    // Offset: 0x1427B68
+    // Offset: 0x146919C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectSubMenuDestination* New_ctor(::GlobalNamespace::SelectSubMenuDestination::Destination menuDestination) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SelectSubMenuDestination::.ctor");

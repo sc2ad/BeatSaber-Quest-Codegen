@@ -61,15 +61,7 @@ namespace Newtonsoft::Json::Serialization {
     public:
     // Nested type: ::Newtonsoft::Json::Serialization::JsonSerializerInternalBase::ReferenceEqualsEqualityComparer
     class ReferenceEqualsEqualityComparer;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Newtonsoft.Json.Serialization.ErrorContext _currentErrorContext
     // Size: 0x8
     // Offset: 0x10
@@ -102,33 +94,33 @@ namespace Newtonsoft::Json::Serialization {
     static_assert(sizeof(::Newtonsoft::Json::Serialization::JsonSerializerProxy*) == 0x8);
     public:
     // Get instance field reference: private Newtonsoft.Json.Serialization.ErrorContext _currentErrorContext
-    ::Newtonsoft::Json::Serialization::ErrorContext*& dyn__currentErrorContext();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Serialization::ErrorContext*& dyn__currentErrorContext();
     // Get instance field reference: private Newtonsoft.Json.Utilities.BidirectionalDictionary`2<System.String,System.Object> _mappings
-    ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::Il2CppObject*>*& dyn__mappings();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::Il2CppObject*>*& dyn__mappings();
     // Get instance field reference: readonly Newtonsoft.Json.JsonSerializer Serializer
-    ::Newtonsoft::Json::JsonSerializer*& dyn_Serializer();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::JsonSerializer*& dyn_Serializer();
     // Get instance field reference: readonly Newtonsoft.Json.Serialization.ITraceWriter TraceWriter
-    ::Newtonsoft::Json::Serialization::ITraceWriter*& dyn_TraceWriter();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Serialization::ITraceWriter*& dyn_TraceWriter();
     // Get instance field reference: protected Newtonsoft.Json.Serialization.JsonSerializerProxy InternalSerializer
-    ::Newtonsoft::Json::Serialization::JsonSerializerProxy*& dyn_InternalSerializer();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Serialization::JsonSerializerProxy*& dyn_InternalSerializer();
     // Newtonsoft.Json.Utilities.BidirectionalDictionary`2<System.String,System.Object> get_DefaultReferenceMappings()
-    // Offset: 0x1D217E4
+    // Offset: 0x1D5DD3C
     ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::Il2CppObject*>* get_DefaultReferenceMappings();
     // protected System.Void .ctor(Newtonsoft.Json.JsonSerializer serializer)
-    // Offset: 0x1D277E0
+    // Offset: 0x1D63D38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonSerializerInternalBase* New_ctor(::Newtonsoft::Json::JsonSerializer* serializer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonSerializerInternalBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonSerializerInternalBase*, creationType>(serializer)));
     }
     // private Newtonsoft.Json.Serialization.ErrorContext GetErrorContext(System.Object currentObject, System.Object member, System.String path, System.Exception error)
-    // Offset: 0x1D27878
+    // Offset: 0x1D63DD0
     ::Newtonsoft::Json::Serialization::ErrorContext* GetErrorContext(::Il2CppObject* currentObject, ::Il2CppObject* member, ::StringW path, ::System::Exception* error);
     // protected System.Void ClearErrorContext()
-    // Offset: 0x1D2795C
+    // Offset: 0x1D63EB4
     void ClearErrorContext();
     // protected System.Boolean IsErrorHandled(System.Object currentObject, Newtonsoft.Json.Serialization.JsonContract contract, System.Object keyValue, Newtonsoft.Json.IJsonLineInfo lineInfo, System.String path, System.Exception ex)
-    // Offset: 0x1D279E4
+    // Offset: 0x1D63F3C
     bool IsErrorHandled(::Il2CppObject* currentObject, ::Newtonsoft::Json::Serialization::JsonContract* contract, ::Il2CppObject* keyValue, ::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::System::Exception* ex);
   }; // Newtonsoft.Json.Serialization.JsonSerializerInternalBase
   #pragma pack(pop)

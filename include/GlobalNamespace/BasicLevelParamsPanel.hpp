@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BasicLevelParamsPanel : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _durationText
     // Size: 0x8
     // Offset: 0x18
@@ -60,23 +52,17 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _durationText
-    ::TMPro::TextMeshProUGUI*& dyn__durationText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__durationText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _bpmText
-    ::TMPro::TextMeshProUGUI*& dyn__bpmText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__bpmText();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x1361AA8
+    // Offset: 0x1349D28
     void set_duration(float value);
     // public System.Void set_bpm(System.Single value)
-    // Offset: 0x1361AE0
+    // Offset: 0x1349D60
     void set_bpm(float value);
     // public System.Void .ctor()
-    // Offset: 0x1361B24
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1349DA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicLevelParamsPanel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BasicLevelParamsPanel::.ctor");

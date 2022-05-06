@@ -26,15 +26,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MainSettingsModelSO::Config : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String version
     // Size: 0x8
     // Offset: 0x10
@@ -361,113 +353,111 @@ namespace GlobalNamespace {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String version
-    ::StringW& dyn_version();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_version();
     // Get instance field reference: public System.Int32 windowResolutionWidth
-    int& dyn_windowResolutionWidth();
+    [[deprecated("Use field access instead!")]] int& dyn_windowResolutionWidth();
     // Get instance field reference: public System.Int32 windowResolutionHeight
-    int& dyn_windowResolutionHeight();
+    [[deprecated("Use field access instead!")]] int& dyn_windowResolutionHeight();
     // Get instance field reference: public System.Int32 editorResolutionWidth
-    int& dyn_editorResolutionWidth();
+    [[deprecated("Use field access instead!")]] int& dyn_editorResolutionWidth();
     // Get instance field reference: public System.Int32 editorResolutionHeight
-    int& dyn_editorResolutionHeight();
+    [[deprecated("Use field access instead!")]] int& dyn_editorResolutionHeight();
     // Get instance field reference: public MainSettingsModelSO/WindowMode windowMode
-    ::GlobalNamespace::MainSettingsModelSO::WindowMode& dyn_windowMode();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainSettingsModelSO::WindowMode& dyn_windowMode();
     // Get instance field reference: public System.Single vrResolutionScale
-    float& dyn_vrResolutionScale();
+    [[deprecated("Use field access instead!")]] float& dyn_vrResolutionScale();
     // Get instance field reference: public System.Single menuVRResolutionScaleMultiplier
-    float& dyn_menuVRResolutionScaleMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn_menuVRResolutionScaleMultiplier();
     // Get instance field reference: public System.Boolean useFixedFoveatedRenderingDuringGameplay
-    bool& dyn_useFixedFoveatedRenderingDuringGameplay();
+    [[deprecated("Use field access instead!")]] bool& dyn_useFixedFoveatedRenderingDuringGameplay();
     // Get instance field reference: public System.Int32 antiAliasingLevel
-    int& dyn_antiAliasingLevel();
+    [[deprecated("Use field access instead!")]] int& dyn_antiAliasingLevel();
     // Get instance field reference: public System.Int32 mirrorGraphicsSettings
-    int& dyn_mirrorGraphicsSettings();
+    [[deprecated("Use field access instead!")]] int& dyn_mirrorGraphicsSettings();
     // Get instance field reference: public System.Int32 mainEffectGraphicsSettings
-    int& dyn_mainEffectGraphicsSettings();
+    [[deprecated("Use field access instead!")]] int& dyn_mainEffectGraphicsSettings();
     // Get instance field reference: public System.Int32 bloomGraphicsSettings
-    int& dyn_bloomGraphicsSettings();
+    [[deprecated("Use field access instead!")]] int& dyn_bloomGraphicsSettings();
     // Get instance field reference: public System.Int32 smokeGraphicsSettings
-    int& dyn_smokeGraphicsSettings();
+    [[deprecated("Use field access instead!")]] int& dyn_smokeGraphicsSettings();
     // Get instance field reference: public System.Boolean burnMarkTrailsEnabled
-    bool& dyn_burnMarkTrailsEnabled();
+    [[deprecated("Use field access instead!")]] bool& dyn_burnMarkTrailsEnabled();
     // Get instance field reference: public System.Boolean screenDisplacementEffectsEnabled
-    bool& dyn_screenDisplacementEffectsEnabled();
+    [[deprecated("Use field access instead!")]] bool& dyn_screenDisplacementEffectsEnabled();
     // Get instance field reference: public System.Single roomCenterX
-    float& dyn_roomCenterX();
+    [[deprecated("Use field access instead!")]] float& dyn_roomCenterX();
     // Get instance field reference: public System.Single roomCenterY
-    float& dyn_roomCenterY();
+    [[deprecated("Use field access instead!")]] float& dyn_roomCenterY();
     // Get instance field reference: public System.Single roomCenterZ
-    float& dyn_roomCenterZ();
+    [[deprecated("Use field access instead!")]] float& dyn_roomCenterZ();
     // Get instance field reference: public System.Single roomRotation
-    float& dyn_roomRotation();
+    [[deprecated("Use field access instead!")]] float& dyn_roomRotation();
     // Get instance field reference: public System.Single controllerPositionX
-    float& dyn_controllerPositionX();
+    [[deprecated("Use field access instead!")]] float& dyn_controllerPositionX();
     // Get instance field reference: public System.Single controllerPositionY
-    float& dyn_controllerPositionY();
+    [[deprecated("Use field access instead!")]] float& dyn_controllerPositionY();
     // Get instance field reference: public System.Single controllerPositionZ
-    float& dyn_controllerPositionZ();
+    [[deprecated("Use field access instead!")]] float& dyn_controllerPositionZ();
     // Get instance field reference: public System.Single controllerRotationX
-    float& dyn_controllerRotationX();
+    [[deprecated("Use field access instead!")]] float& dyn_controllerRotationX();
     // Get instance field reference: public System.Single controllerRotationY
-    float& dyn_controllerRotationY();
+    [[deprecated("Use field access instead!")]] float& dyn_controllerRotationY();
     // Get instance field reference: public System.Single controllerRotationZ
-    float& dyn_controllerRotationZ();
+    [[deprecated("Use field access instead!")]] float& dyn_controllerRotationZ();
     // Get instance field reference: public System.Int32 smoothCameraEnabled
-    int& dyn_smoothCameraEnabled();
+    [[deprecated("Use field access instead!")]] int& dyn_smoothCameraEnabled();
     // Get instance field reference: public System.Single smoothCameraFieldOfView
-    float& dyn_smoothCameraFieldOfView();
+    [[deprecated("Use field access instead!")]] float& dyn_smoothCameraFieldOfView();
     // Get instance field reference: public System.Single smoothCameraThirdPersonPositionX
-    float& dyn_smoothCameraThirdPersonPositionX();
+    [[deprecated("Use field access instead!")]] float& dyn_smoothCameraThirdPersonPositionX();
     // Get instance field reference: public System.Single smoothCameraThirdPersonPositionY
-    float& dyn_smoothCameraThirdPersonPositionY();
+    [[deprecated("Use field access instead!")]] float& dyn_smoothCameraThirdPersonPositionY();
     // Get instance field reference: public System.Single smoothCameraThirdPersonPositionZ
-    float& dyn_smoothCameraThirdPersonPositionZ();
+    [[deprecated("Use field access instead!")]] float& dyn_smoothCameraThirdPersonPositionZ();
     // Get instance field reference: public System.Single smoothCameraThirdPersonEulerAnglesX
-    float& dyn_smoothCameraThirdPersonEulerAnglesX();
+    [[deprecated("Use field access instead!")]] float& dyn_smoothCameraThirdPersonEulerAnglesX();
     // Get instance field reference: public System.Single smoothCameraThirdPersonEulerAnglesY
-    float& dyn_smoothCameraThirdPersonEulerAnglesY();
+    [[deprecated("Use field access instead!")]] float& dyn_smoothCameraThirdPersonEulerAnglesY();
     // Get instance field reference: public System.Single smoothCameraThirdPersonEulerAnglesZ
-    float& dyn_smoothCameraThirdPersonEulerAnglesZ();
+    [[deprecated("Use field access instead!")]] float& dyn_smoothCameraThirdPersonEulerAnglesZ();
     // Get instance field reference: public System.Int32 smoothCameraThirdPersonEnabled
-    int& dyn_smoothCameraThirdPersonEnabled();
+    [[deprecated("Use field access instead!")]] int& dyn_smoothCameraThirdPersonEnabled();
     // Get instance field reference: public System.Single smoothCameraRotationSmooth
-    float& dyn_smoothCameraRotationSmooth();
+    [[deprecated("Use field access instead!")]] float& dyn_smoothCameraRotationSmooth();
     // Get instance field reference: public System.Single smoothCameraPositionSmooth
-    float& dyn_smoothCameraPositionSmooth();
+    [[deprecated("Use field access instead!")]] float& dyn_smoothCameraPositionSmooth();
     // Get instance field reference: public System.Boolean useCustomServerEnvironment
-    bool& dyn_useCustomServerEnvironment();
+    [[deprecated("Use field access instead!")]] bool& dyn_useCustomServerEnvironment();
     // Get instance field reference: public System.Boolean forceGameLiftServerEnvironment
-    bool& dyn_forceGameLiftServerEnvironment();
+    [[deprecated("Use field access instead!")]] bool& dyn_forceGameLiftServerEnvironment();
     // Get instance field reference: public System.String customServerHostName
-    ::StringW& dyn_customServerHostName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_customServerHostName();
     // Get instance field reference: public System.Single volume
-    float& dyn_volume();
+    [[deprecated("Use field access instead!")]] float& dyn_volume();
     // Get instance field reference: public System.Single ambientVolumeScale
-    float& dyn_ambientVolumeScale();
+    [[deprecated("Use field access instead!")]] float& dyn_ambientVolumeScale();
     // Get instance field reference: public System.Boolean controllersRumbleEnabled
-    bool& dyn_controllersRumbleEnabled();
+    [[deprecated("Use field access instead!")]] bool& dyn_controllersRumbleEnabled();
     // Get instance field reference: public System.Int32 enableAlphaFeatures
-    int& dyn_enableAlphaFeatures();
+    [[deprecated("Use field access instead!")]] int& dyn_enableAlphaFeatures();
     // Get instance field reference: public System.Int32 pauseButtonPressDurationLevel
-    int& dyn_pauseButtonPressDurationLevel();
+    [[deprecated("Use field access instead!")]] int& dyn_pauseButtonPressDurationLevel();
     // Get instance field reference: public System.Int32 maxShockwaveParticles
-    int& dyn_maxShockwaveParticles();
+    [[deprecated("Use field access instead!")]] int& dyn_maxShockwaveParticles();
     // Get instance field reference: public System.Boolean overrideAudioLatency
-    bool& dyn_overrideAudioLatency();
+    [[deprecated("Use field access instead!")]] bool& dyn_overrideAudioLatency();
     // Get instance field reference: public System.Single audioLatency
-    float& dyn_audioLatency();
+    [[deprecated("Use field access instead!")]] float& dyn_audioLatency();
     // Get instance field reference: public System.Int32 maxNumberOfCutSoundEffects
-    int& dyn_maxNumberOfCutSoundEffects();
+    [[deprecated("Use field access instead!")]] int& dyn_maxNumberOfCutSoundEffects();
     // Get instance field reference: public System.Boolean onlineServicesEnabled
-    bool& dyn_onlineServicesEnabled();
+    [[deprecated("Use field access instead!")]] bool& dyn_onlineServicesEnabled();
     // Get instance field reference: public System.Boolean openVrThreadedHaptics
-    bool& dyn_openVrThreadedHaptics();
+    [[deprecated("Use field access instead!")]] bool& dyn_openVrThreadedHaptics();
     // Get instance field reference: public System.String language
-    ::StringW& dyn_language();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_language();
     // public System.Void .ctor()
-    // Offset: 0x12FB3F0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x12F78C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainSettingsModelSO::Config* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainSettingsModelSO::Config::.ctor");

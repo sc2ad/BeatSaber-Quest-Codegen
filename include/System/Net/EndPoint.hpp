@@ -39,23 +39,21 @@ namespace System::Net {
   class EndPoint : public ::Il2CppObject {
     public:
     // public System.Net.Sockets.AddressFamily get_AddressFamily()
-    // Offset: 0x1A41A74
+    // Offset: 0x1A7B05C
     ::System::Net::Sockets::AddressFamily get_AddressFamily();
-    // public System.Net.SocketAddress Serialize()
-    // Offset: 0x1A41B34
-    ::System::Net::SocketAddress* Serialize();
-    // public System.Net.EndPoint Create(System.Net.SocketAddress socketAddress)
-    // Offset: 0x1A41BF4
-    ::System::Net::EndPoint* Create(::System::Net::SocketAddress* socketAddress);
     // protected System.Void .ctor()
-    // Offset: 0x1A41C38
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1A7B220
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EndPoint* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::EndPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EndPoint*, creationType>()));
     }
+    // public System.Net.SocketAddress Serialize()
+    // Offset: 0x1A7B11C
+    ::System::Net::SocketAddress* Serialize();
+    // public System.Net.EndPoint Create(System.Net.SocketAddress socketAddress)
+    // Offset: 0x1A7B1DC
+    ::System::Net::EndPoint* Create(::System::Net::SocketAddress* socketAddress);
   }; // System.Net.EndPoint
   #pragma pack(pop)
 }
@@ -68,6 +66,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::N
     return ::il2cpp_utils::FindMethod(classof(System::Net::EndPoint*), "get_AddressFamily", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Net::EndPoint::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::EndPoint::Serialize
 // Il2CppName: Serialize
 template<>
@@ -85,7 +87,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::N
     return ::il2cpp_utils::FindMethod(classof(System::Net::EndPoint*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{socketAddress});
   }
 };
-// Writing MetadataGetter for method: System::Net::EndPoint::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

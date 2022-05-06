@@ -41,15 +41,7 @@ namespace HoudiniEngineUnity {
     class HEU_InputObjectUICache;
     // Nested type: ::HoudiniEngineUnity::HEU_InputNodeUICache::HEU_InputAssetUICache
     class HEU_InputAssetUICache;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputNodeUICache/HoudiniEngineUnity.HEU_InputObjectUICache> _inputObjectCache
     // Size: 0x8
     // Offset: 0x10
@@ -64,13 +56,11 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputNodeUICache::HEU_InputAssetUICache*>*) == 0x8);
     public:
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputNodeUICache/HoudiniEngineUnity.HEU_InputObjectUICache> _inputObjectCache
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputNodeUICache::HEU_InputObjectUICache*>*& dyn__inputObjectCache();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputNodeUICache::HEU_InputObjectUICache*>*& dyn__inputObjectCache();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputNodeUICache/HoudiniEngineUnity.HEU_InputAssetUICache> _inputAssetCache
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputNodeUICache::HEU_InputAssetUICache*>*& dyn__inputAssetCache();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputNodeUICache::HEU_InputAssetUICache*>*& dyn__inputAssetCache();
     // public System.Void .ctor()
-    // Offset: 0x185A430
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1893D40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputNodeUICache* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputNodeUICache::.ctor");

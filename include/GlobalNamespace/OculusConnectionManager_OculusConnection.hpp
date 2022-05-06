@@ -40,15 +40,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OculusConnectionManager::OculusConnection : public ::Il2CppObject/*, public ::System::IEquatable_1<::GlobalNamespace::OculusConnectionManager::OculusConnection*>, public ::GlobalNamespace::IConnection*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.UInt64 _id
     // Size: 0x8
     // Offset: 0x10
@@ -83,53 +75,53 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IConnection*>(this);
     }
     // Get instance field reference: private readonly System.UInt64 _id
-    uint64_t& dyn__id();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn__id();
     // Get instance field reference: private readonly System.String _userId
-    ::StringW& dyn__userId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__userId();
     // Get instance field reference: private readonly System.String _userName
-    ::StringW& dyn__userName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__userName();
     // Get instance field reference: private readonly System.Boolean _isConnectionOwner
-    bool& dyn__isConnectionOwner();
+    [[deprecated("Use field access instead!")]] bool& dyn__isConnectionOwner();
     // public System.UInt64 get_id()
-    // Offset: 0x150D6B0
+    // Offset: 0x1544FB8
     uint64_t get_id();
     // public System.String get_userId()
-    // Offset: 0x150D6B8
+    // Offset: 0x1544FC0
     ::StringW get_userId();
     // public System.String get_userName()
-    // Offset: 0x150D6C0
+    // Offset: 0x1544FC8
     ::StringW get_userName();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x150D6C8
+    // Offset: 0x1544FD0
     bool get_isConnectionOwner();
     // public System.Void .ctor(System.UInt64 id, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x150D0E4
+    // Offset: 0x15449EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusConnectionManager::OculusConnection* New_ctor(uint64_t id, ::StringW userName, bool isConnectionOwner) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusConnectionManager::OculusConnection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusConnectionManager::OculusConnection*, creationType>(id, userName, isConnectionOwner)));
     }
     // public System.Void Send(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x150C668
+    // Offset: 0x1543F70
     void Send(::LiteNetLib::Utils::NetDataWriter* writer, ::LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void Disconnect()
-    // Offset: 0x150CD3C
+    // Offset: 0x1544644
     void Disconnect();
     // public System.Boolean Equals(OculusConnectionManager/OculusConnection other)
-    // Offset: 0x150D6D0
+    // Offset: 0x1544FD8
     bool Equals(::GlobalNamespace::OculusConnectionManager::OculusConnection* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x150D700
+    // Offset: 0x1545008
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x150D814
+    // Offset: 0x154511C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x150D840
+    // Offset: 0x1545148
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

@@ -69,7 +69,7 @@ namespace System::IO {
     // Set static field: static public System.IO.SearchPattern2/System.IO.OpCode True
     static void _set_True(::System::IO::SearchPattern2::OpCode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.IO.SearchPattern2/System.IO.OpCode
   #pragma pack(pop)
   static check_size<sizeof(SearchPattern2::OpCode), 0 + sizeof(int)> __System_IO_SearchPattern2_OpCodeSizeCheck;

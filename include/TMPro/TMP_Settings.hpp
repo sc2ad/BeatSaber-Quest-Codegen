@@ -58,15 +58,7 @@ namespace TMPro {
     public:
     // Nested type: ::TMPro::TMP_Settings::LineBreakingTable
     class LineBreakingTable;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean m_enableWordWrapping
     // Size: 0x1
     // Offset: 0x18
@@ -247,184 +239,180 @@ namespace TMPro {
     // Set static field: static private TMPro.TMP_Settings s_Instance
     static void _set_s_Instance(::TMPro::TMP_Settings* value);
     // Get instance field reference: private System.Boolean m_enableWordWrapping
-    bool& dyn_m_enableWordWrapping();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_enableWordWrapping();
     // Get instance field reference: private System.Boolean m_enableKerning
-    bool& dyn_m_enableKerning();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_enableKerning();
     // Get instance field reference: private System.Boolean m_enableExtraPadding
-    bool& dyn_m_enableExtraPadding();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_enableExtraPadding();
     // Get instance field reference: private System.Boolean m_enableTintAllSprites
-    bool& dyn_m_enableTintAllSprites();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_enableTintAllSprites();
     // Get instance field reference: private System.Boolean m_enableParseEscapeCharacters
-    bool& dyn_m_enableParseEscapeCharacters();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_enableParseEscapeCharacters();
     // Get instance field reference: private System.Boolean m_EnableRaycastTarget
-    bool& dyn_m_EnableRaycastTarget();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_EnableRaycastTarget();
     // Get instance field reference: private System.Boolean m_GetFontFeaturesAtRuntime
-    bool& dyn_m_GetFontFeaturesAtRuntime();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_GetFontFeaturesAtRuntime();
     // Get instance field reference: private System.Int32 m_missingGlyphCharacter
-    int& dyn_m_missingGlyphCharacter();
+    [[deprecated("Use field access instead!")]] int& dyn_m_missingGlyphCharacter();
     // Get instance field reference: private System.Boolean m_warningsDisabled
-    bool& dyn_m_warningsDisabled();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_warningsDisabled();
     // Get instance field reference: private TMPro.TMP_FontAsset m_defaultFontAsset
-    ::TMPro::TMP_FontAsset*& dyn_m_defaultFontAsset();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_FontAsset*& dyn_m_defaultFontAsset();
     // Get instance field reference: private System.String m_defaultFontAssetPath
-    ::StringW& dyn_m_defaultFontAssetPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_defaultFontAssetPath();
     // Get instance field reference: private System.Single m_defaultFontSize
-    float& dyn_m_defaultFontSize();
+    [[deprecated("Use field access instead!")]] float& dyn_m_defaultFontSize();
     // Get instance field reference: private System.Single m_defaultAutoSizeMinRatio
-    float& dyn_m_defaultAutoSizeMinRatio();
+    [[deprecated("Use field access instead!")]] float& dyn_m_defaultAutoSizeMinRatio();
     // Get instance field reference: private System.Single m_defaultAutoSizeMaxRatio
-    float& dyn_m_defaultAutoSizeMaxRatio();
+    [[deprecated("Use field access instead!")]] float& dyn_m_defaultAutoSizeMaxRatio();
     // Get instance field reference: private UnityEngine.Vector2 m_defaultTextMeshProTextContainerSize
-    ::UnityEngine::Vector2& dyn_m_defaultTextMeshProTextContainerSize();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_m_defaultTextMeshProTextContainerSize();
     // Get instance field reference: private UnityEngine.Vector2 m_defaultTextMeshProUITextContainerSize
-    ::UnityEngine::Vector2& dyn_m_defaultTextMeshProUITextContainerSize();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_m_defaultTextMeshProUITextContainerSize();
     // Get instance field reference: private System.Boolean m_autoSizeTextContainer
-    bool& dyn_m_autoSizeTextContainer();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_autoSizeTextContainer();
     // Get instance field reference: private System.Collections.Generic.List`1<TMPro.TMP_FontAsset> m_fallbackFontAssets
-    ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>*& dyn_m_fallbackFontAssets();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>*& dyn_m_fallbackFontAssets();
     // Get instance field reference: private System.Boolean m_matchMaterialPreset
-    bool& dyn_m_matchMaterialPreset();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_matchMaterialPreset();
     // Get instance field reference: private TMPro.TMP_SpriteAsset m_defaultSpriteAsset
-    ::TMPro::TMP_SpriteAsset*& dyn_m_defaultSpriteAsset();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_SpriteAsset*& dyn_m_defaultSpriteAsset();
     // Get instance field reference: private System.String m_defaultSpriteAssetPath
-    ::StringW& dyn_m_defaultSpriteAssetPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_defaultSpriteAssetPath();
     // Get instance field reference: private System.String m_defaultColorGradientPresetsPath
-    ::StringW& dyn_m_defaultColorGradientPresetsPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_defaultColorGradientPresetsPath();
     // Get instance field reference: private System.Boolean m_enableEmojiSupport
-    bool& dyn_m_enableEmojiSupport();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_enableEmojiSupport();
     // Get instance field reference: private TMPro.TMP_StyleSheet m_defaultStyleSheet
-    ::TMPro::TMP_StyleSheet*& dyn_m_defaultStyleSheet();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_StyleSheet*& dyn_m_defaultStyleSheet();
     // Get instance field reference: private UnityEngine.TextAsset m_leadingCharacters
-    ::UnityEngine::TextAsset*& dyn_m_leadingCharacters();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TextAsset*& dyn_m_leadingCharacters();
     // Get instance field reference: private UnityEngine.TextAsset m_followingCharacters
-    ::UnityEngine::TextAsset*& dyn_m_followingCharacters();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TextAsset*& dyn_m_followingCharacters();
     // Get instance field reference: private TMPro.TMP_Settings/TMPro.LineBreakingTable m_linebreakingRules
-    ::TMPro::TMP_Settings::LineBreakingTable*& dyn_m_linebreakingRules();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_Settings::LineBreakingTable*& dyn_m_linebreakingRules();
     // static public System.String get_version()
-    // Offset: 0x1451BD4
+    // Offset: 0x1472A54
     static ::StringW get_version();
     // static public System.Boolean get_enableWordWrapping()
-    // Offset: 0x1451C1C
+    // Offset: 0x1472A9C
     static bool get_enableWordWrapping();
     // static public System.Boolean get_enableKerning()
-    // Offset: 0x1451CF4
+    // Offset: 0x1472B74
     static bool get_enableKerning();
     // static public System.Boolean get_enableExtraPadding()
-    // Offset: 0x1451D14
+    // Offset: 0x1472B94
     static bool get_enableExtraPadding();
     // static public System.Boolean get_enableTintAllSprites()
-    // Offset: 0x1451D34
+    // Offset: 0x1472BB4
     static bool get_enableTintAllSprites();
     // static public System.Boolean get_enableParseEscapeCharacters()
-    // Offset: 0x1451D54
+    // Offset: 0x1472BD4
     static bool get_enableParseEscapeCharacters();
     // static public System.Boolean get_enableRaycastTarget()
-    // Offset: 0x1451D74
+    // Offset: 0x1472BF4
     static bool get_enableRaycastTarget();
     // static public System.Boolean get_getFontFeaturesAtRuntime()
-    // Offset: 0x1451D94
+    // Offset: 0x1472C14
     static bool get_getFontFeaturesAtRuntime();
     // static public System.Int32 get_missingGlyphCharacter()
-    // Offset: 0x1451DB4
+    // Offset: 0x1472C34
     static int get_missingGlyphCharacter();
     // static public System.Void set_missingGlyphCharacter(System.Int32 value)
-    // Offset: 0x1451DD4
+    // Offset: 0x1472C54
     static void set_missingGlyphCharacter(int value);
     // static public System.Boolean get_warningsDisabled()
-    // Offset: 0x1451E00
+    // Offset: 0x1472C80
     static bool get_warningsDisabled();
     // static public TMPro.TMP_FontAsset get_defaultFontAsset()
-    // Offset: 0x1451E20
+    // Offset: 0x1472CA0
     static ::TMPro::TMP_FontAsset* get_defaultFontAsset();
     // static public System.String get_defaultFontAssetPath()
-    // Offset: 0x1451E40
+    // Offset: 0x1472CC0
     static ::StringW get_defaultFontAssetPath();
     // static public System.Single get_defaultFontSize()
-    // Offset: 0x1451E60
+    // Offset: 0x1472CE0
     static float get_defaultFontSize();
     // static public System.Single get_defaultTextAutoSizingMinRatio()
-    // Offset: 0x1451E80
+    // Offset: 0x1472D00
     static float get_defaultTextAutoSizingMinRatio();
     // static public System.Single get_defaultTextAutoSizingMaxRatio()
-    // Offset: 0x1451EA0
+    // Offset: 0x1472D20
     static float get_defaultTextAutoSizingMaxRatio();
     // static public UnityEngine.Vector2 get_defaultTextMeshProTextContainerSize()
-    // Offset: 0x1451EC0
+    // Offset: 0x1472D40
     static ::UnityEngine::Vector2 get_defaultTextMeshProTextContainerSize();
     // static public UnityEngine.Vector2 get_defaultTextMeshProUITextContainerSize()
-    // Offset: 0x1451EE0
+    // Offset: 0x1472D60
     static ::UnityEngine::Vector2 get_defaultTextMeshProUITextContainerSize();
     // static public System.Boolean get_autoSizeTextContainer()
-    // Offset: 0x1451F00
+    // Offset: 0x1472D80
     static bool get_autoSizeTextContainer();
     // static public System.Collections.Generic.List`1<TMPro.TMP_FontAsset> get_fallbackFontAssets()
-    // Offset: 0x1451F20
+    // Offset: 0x1472DA0
     static ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* get_fallbackFontAssets();
     // static public System.Boolean get_matchMaterialPreset()
-    // Offset: 0x1451F40
+    // Offset: 0x1472DC0
     static bool get_matchMaterialPreset();
     // static public TMPro.TMP_SpriteAsset get_defaultSpriteAsset()
-    // Offset: 0x1451F60
+    // Offset: 0x1472DE0
     static ::TMPro::TMP_SpriteAsset* get_defaultSpriteAsset();
     // static public System.String get_defaultSpriteAssetPath()
-    // Offset: 0x1451F80
+    // Offset: 0x1472E00
     static ::StringW get_defaultSpriteAssetPath();
     // static public System.String get_defaultColorGradientPresetsPath()
-    // Offset: 0x1451FA0
+    // Offset: 0x1472E20
     static ::StringW get_defaultColorGradientPresetsPath();
     // static public System.Boolean get_enableEmojiSupport()
-    // Offset: 0x1451FC0
+    // Offset: 0x1472E40
     static bool get_enableEmojiSupport();
     // static public System.Void set_enableEmojiSupport(System.Boolean value)
-    // Offset: 0x1451FE0
+    // Offset: 0x1472E60
     static void set_enableEmojiSupport(bool value);
     // static public TMPro.TMP_StyleSheet get_defaultStyleSheet()
-    // Offset: 0x1452010
+    // Offset: 0x1472E90
     static ::TMPro::TMP_StyleSheet* get_defaultStyleSheet();
     // static public UnityEngine.TextAsset get_leadingCharacters()
-    // Offset: 0x1452030
+    // Offset: 0x1472EB0
     static ::UnityEngine::TextAsset* get_leadingCharacters();
     // static public UnityEngine.TextAsset get_followingCharacters()
-    // Offset: 0x1452050
+    // Offset: 0x1472ED0
     static ::UnityEngine::TextAsset* get_followingCharacters();
     // static public TMPro.TMP_Settings/TMPro.LineBreakingTable get_linebreakingRules()
-    // Offset: 0x1452070
+    // Offset: 0x1472EF0
     static ::TMPro::TMP_Settings::LineBreakingTable* get_linebreakingRules();
     // static public TMPro.TMP_Settings get_instance()
-    // Offset: 0x1451C3C
+    // Offset: 0x1472ABC
     static ::TMPro::TMP_Settings* get_instance();
-    // static public TMPro.TMP_Settings LoadDefaultSettings()
-    // Offset: 0x14521B0
-    static ::TMPro::TMP_Settings* LoadDefaultSettings();
-    // static public TMPro.TMP_Settings GetSettings()
-    // Offset: 0x14522A4
-    static ::TMPro::TMP_Settings* GetSettings();
-    // static public TMPro.TMP_FontAsset GetFontAsset()
-    // Offset: 0x1452330
-    static ::TMPro::TMP_FontAsset* GetFontAsset();
-    // static public TMPro.TMP_SpriteAsset GetSpriteAsset()
-    // Offset: 0x14523C4
-    static ::TMPro::TMP_SpriteAsset* GetSpriteAsset();
-    // static public TMPro.TMP_StyleSheet GetStyleSheet()
-    // Offset: 0x1452458
-    static ::TMPro::TMP_StyleSheet* GetStyleSheet();
-    // static public System.Void LoadLinebreakingRules()
-    // Offset: 0x14520A4
-    static void LoadLinebreakingRules();
-    // static private System.Collections.Generic.Dictionary`2<System.Int32,System.Char> GetCharacters(UnityEngine.TextAsset file)
-    // Offset: 0x14524F4
-    static ::System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>* GetCharacters(::UnityEngine::TextAsset* file);
     // public System.Void .ctor()
-    // Offset: 0x1452604
-    // Implemented from: UnityEngine.ScriptableObject
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1473484
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Settings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_Settings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Settings*, creationType>()));
     }
+    // static public TMPro.TMP_Settings LoadDefaultSettings()
+    // Offset: 0x1473030
+    static ::TMPro::TMP_Settings* LoadDefaultSettings();
+    // static public TMPro.TMP_Settings GetSettings()
+    // Offset: 0x1473124
+    static ::TMPro::TMP_Settings* GetSettings();
+    // static public TMPro.TMP_FontAsset GetFontAsset()
+    // Offset: 0x14731B0
+    static ::TMPro::TMP_FontAsset* GetFontAsset();
+    // static public TMPro.TMP_SpriteAsset GetSpriteAsset()
+    // Offset: 0x1473244
+    static ::TMPro::TMP_SpriteAsset* GetSpriteAsset();
+    // static public TMPro.TMP_StyleSheet GetStyleSheet()
+    // Offset: 0x14732D8
+    static ::TMPro::TMP_StyleSheet* GetStyleSheet();
+    // static public System.Void LoadLinebreakingRules()
+    // Offset: 0x1472F24
+    static void LoadLinebreakingRules();
+    // static private System.Collections.Generic.Dictionary`2<System.Int32,System.Char> GetCharacters(UnityEngine.TextAsset file)
+    // Offset: 0x1473374
+    static ::System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>* GetCharacters(::UnityEngine::TextAsset* file);
   }; // TMPro.TMP_Settings
   #pragma pack(pop)
   static check_size<sizeof(TMP_Settings), 160 + sizeof(::TMPro::TMP_Settings::LineBreakingTable*)> __TMPro_TMP_SettingsSizeCheck;
@@ -681,6 +669,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TM
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: TMPro::TMP_Settings::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: TMPro::TMP_Settings::LoadDefaultSettings
 // Il2CppName: LoadDefaultSettings
 template<>
@@ -738,7 +730,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "GetCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{file});
   }
 };
-// Writing MetadataGetter for method: TMPro::TMP_Settings::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

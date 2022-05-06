@@ -31,15 +31,7 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetPeer::IncomingFragments : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public LiteNetLib.NetPacket[] Fragments
     // Size: 0x8
     // Offset: 0x10
@@ -66,17 +58,15 @@ namespace LiteNetLib {
     static_assert(sizeof(uint8_t) == 0x1);
     public:
     // Get instance field reference: public LiteNetLib.NetPacket[] Fragments
-    ::ArrayW<::LiteNetLib::NetPacket*>& dyn_Fragments();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::LiteNetLib::NetPacket*>& dyn_Fragments();
     // Get instance field reference: public System.Int32 ReceivedCount
-    int& dyn_ReceivedCount();
+    [[deprecated("Use field access instead!")]] int& dyn_ReceivedCount();
     // Get instance field reference: public System.Int32 TotalSize
-    int& dyn_TotalSize();
+    [[deprecated("Use field access instead!")]] int& dyn_TotalSize();
     // Get instance field reference: public System.Byte ChannelId
-    uint8_t& dyn_ChannelId();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_ChannelId();
     // public System.Void .ctor()
-    // Offset: 0x216CDB4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x21B8628
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPeer::IncomingFragments* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetPeer::IncomingFragments::.ctor");

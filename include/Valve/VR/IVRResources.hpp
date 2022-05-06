@@ -53,9 +53,9 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: Valve.VR.IVRResources/Valve.VR._LoadSharedResource LoadSharedResource
-    ::Valve::VR::IVRResources::_LoadSharedResource*& dyn_LoadSharedResource();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRResources::_LoadSharedResource*& dyn_LoadSharedResource();
     // Get instance field reference: Valve.VR.IVRResources/Valve.VR._GetResourceFullPath GetResourceFullPath
-    ::Valve::VR::IVRResources::_GetResourceFullPath*& dyn_GetResourceFullPath();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRResources::_GetResourceFullPath*& dyn_GetResourceFullPath();
   }; // Valve.VR.IVRResources
   #pragma pack(pop)
   static check_size<sizeof(IVRResources), 8 + sizeof(::Valve::VR::IVRResources::_GetResourceFullPath*)> __Valve_VR_IVRResourcesSizeCheck;

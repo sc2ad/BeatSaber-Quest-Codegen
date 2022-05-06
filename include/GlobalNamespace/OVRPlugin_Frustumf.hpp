@@ -54,13 +54,13 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single zNear
-    float& dyn_zNear();
+    [[deprecated("Use field access instead!")]] float& dyn_zNear();
     // Get instance field reference: public System.Single zFar
-    float& dyn_zFar();
+    [[deprecated("Use field access instead!")]] float& dyn_zFar();
     // Get instance field reference: public System.Single fovX
-    float& dyn_fovX();
+    [[deprecated("Use field access instead!")]] float& dyn_fovX();
     // Get instance field reference: public System.Single fovY
-    float& dyn_fovY();
+    [[deprecated("Use field access instead!")]] float& dyn_fovY();
   }; // OVRPlugin/Frustumf
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Frustumf), 12 + sizeof(float)> __GlobalNamespace_OVRPlugin_FrustumfSizeCheck;

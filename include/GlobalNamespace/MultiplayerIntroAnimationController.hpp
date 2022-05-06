@@ -73,16 +73,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerIntroAnimationController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [HeaderAttribute] Offset: 0x1254814
+    // [HeaderAttribute] Offset: 0x10D93F8
     // private UnityEngine.Playables.PlayableDirector _introPlayableDirector
     // Size: 0x8
     // Offset: 0x18
@@ -107,7 +99,7 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::PropertyName> playerTimelinePropertyNames;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::PropertyName>) == 0x8);
-    // [HeaderAttribute] Offset: 0x12548B8
+    // [HeaderAttribute] Offset: 0x10D949C
     // private System.String _localPlayerTrackName
     // Size: 0x8
     // Offset: 0x38
@@ -126,7 +118,7 @@ namespace GlobalNamespace {
     ::UnityEngine::PropertyName localPlayerTimelinePropertyName;
     // Field size check
     static_assert(sizeof(::UnityEngine::PropertyName) == 0x4);
-    // [HeaderAttribute] Offset: 0x125494C
+    // [HeaderAttribute] Offset: 0x10D9530
     // private System.Single _firstConnectedPlayerStart
     // Size: 0x4
     // Offset: 0x4C
@@ -147,28 +139,28 @@ namespace GlobalNamespace {
     ::StringW endMarkerName;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [SpaceAttribute] Offset: 0x12549B8
+    // [SpaceAttribute] Offset: 0x10D959C
     // private MultiplayerScoreRingManager _scoreRingManager
     // Size: 0x8
     // Offset: 0x60
     ::GlobalNamespace::MultiplayerScoreRingManager* scoreRingManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerScoreRingManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x12549F0
+    // [InjectAttribute] Offset: 0x10D95D4
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x68
     ::GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1254A00
+    // [InjectAttribute] Offset: 0x10D95E4
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x70
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1254A10
+    // [InjectAttribute] Offset: 0x10D95F4
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x78
@@ -197,88 +189,86 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Playables.PlayableDirector _introPlayableDirector
-    ::UnityEngine::Playables::PlayableDirector*& dyn__introPlayableDirector();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Playables::PlayableDirector*& dyn__introPlayableDirector();
     // Get instance field reference: private System.String[] _playerTimelineTrackNames
-    ::ArrayW<::StringW>& dyn__playerTimelineTrackNames();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn__playerTimelineTrackNames();
     // Get instance field reference: private System.String[] _ringTimelineTrackNames
-    ::ArrayW<::StringW>& dyn__ringTimelineTrackNames();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn__ringTimelineTrackNames();
     // Get instance field reference: private UnityEngine.PropertyName[] _playerTimelinePropertyNames
-    ::ArrayW<::UnityEngine::PropertyName>& dyn__playerTimelinePropertyNames();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::PropertyName>& dyn__playerTimelinePropertyNames();
     // Get instance field reference: private System.String _localPlayerTrackName
-    ::StringW& dyn__localPlayerTrackName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__localPlayerTrackName();
     // Get instance field reference: private System.String _localPlayerRingTrackName
-    ::StringW& dyn__localPlayerRingTrackName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__localPlayerRingTrackName();
     // Get instance field reference: private UnityEngine.PropertyName _localPlayerTimelinePropertyName
-    ::UnityEngine::PropertyName& dyn__localPlayerTimelinePropertyName();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::PropertyName& dyn__localPlayerTimelinePropertyName();
     // Get instance field reference: private System.Single _firstConnectedPlayerStart
-    float& dyn__firstConnectedPlayerStart();
+    [[deprecated("Use field access instead!")]] float& dyn__firstConnectedPlayerStart();
     // Get instance field reference: private System.Single _spawnDuration
-    float& dyn__spawnDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__spawnDuration();
     // Get instance field reference: private System.String _endMarkerName
-    ::StringW& dyn__endMarkerName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__endMarkerName();
     // Get instance field reference: private MultiplayerScoreRingManager _scoreRingManager
-    ::GlobalNamespace::MultiplayerScoreRingManager*& dyn__scoreRingManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerScoreRingManager*& dyn__scoreRingManager();
     // Get instance field reference: private readonly MultiplayerPlayersManager _multiplayerPlayersManager
-    ::GlobalNamespace::MultiplayerPlayersManager*& dyn__multiplayerPlayersManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerPlayersManager*& dyn__multiplayerPlayersManager();
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // Get instance field reference: private readonly MultiplayerLayoutProvider _layoutProvider
-    ::GlobalNamespace::MultiplayerLayoutProvider*& dyn__layoutProvider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLayoutProvider*& dyn__layoutProvider();
     // Get instance field reference: private System.Action _onCompleted
-    ::System::Action*& dyn__onCompleted();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn__onCompleted();
     // Get instance field reference: private System.Single _introDuration
-    float& dyn__introDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__introDuration();
     // Get instance field reference: private System.Boolean _bindingFinished
-    bool& dyn__bindingFinished();
-    // protected System.Void OnValidate()
-    // Offset: 0x13F25BC
-    void OnValidate();
-    // public System.Void SetBeforeIntroValue()
-    // Offset: 0x13F07B0
-    void SetBeforeIntroValue();
-    // public System.Void PlayIntroAnimation(System.Single maxDesiredIntroAnimationDuration, System.Action onCompleted)
-    // Offset: 0x13EEE0C
-    void PlayIntroAnimation(float maxDesiredIntroAnimationDuration, ::System::Action* onCompleted);
-    // public System.Single GetFullIntroAnimationTime()
-    // Offset: 0x13EEADC
-    float GetFullIntroAnimationTime();
-    // private System.Void BindTimeline()
-    // Offset: 0x13F2A90
-    void BindTimeline();
-    // private System.Void BindRingsAndSetTiming(System.Int32 connectedPlayersCount, UnityEngine.GameObject[] connectedRings, UnityEngine.GameObject localRing)
-    // Offset: 0x13F36F0
-    void BindRingsAndSetTiming(int connectedPlayersCount, ::ArrayW<::UnityEngine::GameObject*> connectedRings, ::UnityEngine::GameObject* localRing);
-    // public System.Void TransitionToAfterIntroAnimationState()
-    // Offset: 0x13EEF0C
-    void TransitionToAfterIntroAnimationState();
-    // private System.Collections.Generic.Queue`1<System.Int32> CalculatePlayerIndexSequence(System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> allActivePlayer)
-    // Offset: 0x13F3248
-    ::System::Collections::Generic::Queue_1<int>* CalculatePlayerIndexSequence(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* allActivePlayer);
-    // public System.Void SetTimelineMock(MultiplayerTimelineMock multiplayerIntroTimelineMock, System.Boolean isDuel)
-    // Offset: 0x13F3EA0
-    void SetTimelineMock(::GlobalNamespace::MultiplayerTimelineMock* multiplayerIntroTimelineMock, bool isDuel);
-    // public System.Void Completed()
-    // Offset: 0x13F3FD8
-    void Completed();
+    [[deprecated("Use field access instead!")]] bool& dyn__bindingFinished();
     // public System.Void .ctor()
-    // Offset: 0x13F4014
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1400AB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerIntroAnimationController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerIntroAnimationController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerIntroAnimationController*, creationType>()));
     }
+    // protected System.Void OnValidate()
+    // Offset: 0x13FF05C
+    void OnValidate();
+    // public System.Void SetBeforeIntroValue()
+    // Offset: 0x13FD250
+    void SetBeforeIntroValue();
+    // public System.Void PlayIntroAnimation(System.Single maxDesiredIntroAnimationDuration, System.Action onCompleted)
+    // Offset: 0x13FB8AC
+    void PlayIntroAnimation(float maxDesiredIntroAnimationDuration, ::System::Action* onCompleted);
+    // public System.Single GetFullIntroAnimationTime()
+    // Offset: 0x13FB57C
+    float GetFullIntroAnimationTime();
+    // private System.Void BindTimeline()
+    // Offset: 0x13FF530
+    void BindTimeline();
+    // private System.Void BindRingsAndSetTiming(System.Int32 connectedPlayersCount, UnityEngine.GameObject[] connectedRings, UnityEngine.GameObject localRing)
+    // Offset: 0x1400190
+    void BindRingsAndSetTiming(int connectedPlayersCount, ::ArrayW<::UnityEngine::GameObject*> connectedRings, ::UnityEngine::GameObject* localRing);
+    // public System.Void TransitionToAfterIntroAnimationState()
+    // Offset: 0x13FB9AC
+    void TransitionToAfterIntroAnimationState();
+    // private System.Collections.Generic.Queue`1<System.Int32> CalculatePlayerIndexSequence(System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> allActivePlayer)
+    // Offset: 0x13FFCE8
+    ::System::Collections::Generic::Queue_1<int>* CalculatePlayerIndexSequence(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* allActivePlayer);
+    // public System.Void SetTimelineMock(MultiplayerTimelineMock multiplayerIntroTimelineMock, System.Boolean isDuel)
+    // Offset: 0x1400940
+    void SetTimelineMock(::GlobalNamespace::MultiplayerTimelineMock* multiplayerIntroTimelineMock, bool isDuel);
+    // public System.Void Completed()
+    // Offset: 0x1400A78
+    void Completed();
   }; // MultiplayerIntroAnimationController
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerIntroAnimationController), 140 + sizeof(bool)> __GlobalNamespace_MultiplayerIntroAnimationControllerSizeCheck;
   static_assert(sizeof(MultiplayerIntroAnimationController) == 0x8D);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroAnimationController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroAnimationController::OnValidate
 // Il2CppName: OnValidate
 template<>
@@ -367,7 +357,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroAnimationController*), "Completed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroAnimationController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -43,16 +43,8 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class GenericBaker : public ::RootMotion::Baker {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x1272A20
+    // [TooltipAttribute] Offset: 0x10F76D8
     // public System.Boolean markAsLegacy
     // Size: 0x1
     // Offset: 0x74
@@ -61,28 +53,28 @@ namespace RootMotion {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: markAsLegacy and: root
     char __padding0[0x3] = {};
-    // [TooltipAttribute] Offset: 0x1272A58
+    // [TooltipAttribute] Offset: 0x10F7710
     // public UnityEngine.Transform root
     // Size: 0x8
     // Offset: 0x78
     ::UnityEngine::Transform* root;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1272A90
+    // [TooltipAttribute] Offset: 0x10F7748
     // public UnityEngine.Transform rootNode
     // Size: 0x8
     // Offset: 0x80
     ::UnityEngine::Transform* rootNode;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1272AC8
+    // [TooltipAttribute] Offset: 0x10F7780
     // public UnityEngine.Transform[] ignoreList
     // Size: 0x8
     // Offset: 0x88
     ::ArrayW<::UnityEngine::Transform*> ignoreList;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::Transform*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x1272B00
+    // [TooltipAttribute] Offset: 0x10F77B8
     // public UnityEngine.Transform[] bakePositionList
     // Size: 0x8
     // Offset: 0x90
@@ -109,66 +101,61 @@ namespace RootMotion {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public System.Boolean markAsLegacy
-    bool& dyn_markAsLegacy();
+    [[deprecated("Use field access instead!")]] bool& dyn_markAsLegacy();
     // Get instance field reference: public UnityEngine.Transform root
-    ::UnityEngine::Transform*& dyn_root();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_root();
     // Get instance field reference: public UnityEngine.Transform rootNode
-    ::UnityEngine::Transform*& dyn_rootNode();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_rootNode();
     // Get instance field reference: public UnityEngine.Transform[] ignoreList
-    ::ArrayW<::UnityEngine::Transform*>& dyn_ignoreList();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Transform*>& dyn_ignoreList();
     // Get instance field reference: public UnityEngine.Transform[] bakePositionList
-    ::ArrayW<::UnityEngine::Transform*>& dyn_bakePositionList();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Transform*>& dyn_bakePositionList();
     // Get instance field reference: private RootMotion.BakerTransform[] children
-    ::ArrayW<::RootMotion::BakerTransform*>& dyn_children();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::BakerTransform*>& dyn_children();
     // Get instance field reference: private RootMotion.BakerTransform rootChild
-    ::RootMotion::BakerTransform*& dyn_rootChild();
+    [[deprecated("Use field access instead!")]] ::RootMotion::BakerTransform*& dyn_rootChild();
     // Get instance field reference: private System.Int32 rootChildIndex
-    int& dyn_rootChildIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_rootChildIndex();
     // private System.Void Awake()
-    // Offset: 0x1F7DD34
+    // Offset: 0x1FCA5A8
     void Awake();
     // private System.Boolean IsIgnored(UnityEngine.Transform t)
-    // Offset: 0x1F7DF50
+    // Offset: 0x1FCA7C4
     bool IsIgnored(::UnityEngine::Transform* t);
     // private System.Boolean BakePosition(UnityEngine.Transform t)
-    // Offset: 0x1F7E028
+    // Offset: 0x1FCA89C
     bool BakePosition(::UnityEngine::Transform* t);
     // public System.Void .ctor()
-    // Offset: 0x1F7E38C
+    // Offset: 0x1FCAC00
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericBaker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::GenericBaker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericBaker*, creationType>()));
     }
     // protected override UnityEngine.Transform GetCharacterRoot()
-    // Offset: 0x1F7E100
+    // Offset: 0x1FCA974
     // Implemented from: RootMotion.Baker
     // Base method: UnityEngine.Transform Baker::GetCharacterRoot()
     ::UnityEngine::Transform* GetCharacterRoot();
     // protected override System.Void OnStartBaking()
-    // Offset: 0x1F7E108
+    // Offset: 0x1FCA97C
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnStartBaking()
     void OnStartBaking();
     // protected override System.Void OnSetLoopFrame(System.Single time)
-    // Offset: 0x1F7E218
+    // Offset: 0x1FCAA8C
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetLoopFrame(System.Single time)
     void OnSetLoopFrame(float time);
     // protected override System.Void OnSetCurves(ref UnityEngine.AnimationClip clip)
-    // Offset: 0x1F7E294
+    // Offset: 0x1FCAB08
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetCurves(ref UnityEngine.AnimationClip clip)
     void OnSetCurves(ByRef<::UnityEngine::AnimationClip*> clip);
     // protected override System.Void OnSetKeyframes(System.Single time, System.Boolean lastFrame)
-    // Offset: 0x1F7E310
+    // Offset: 0x1FCAB84
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetKeyframes(System.Single time, System.Boolean lastFrame)
     void OnSetKeyframes(float time, bool lastFrame);

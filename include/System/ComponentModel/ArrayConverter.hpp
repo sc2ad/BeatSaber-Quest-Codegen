@@ -53,28 +53,27 @@ namespace System::ComponentModel {
     // Nested type: ::System::ComponentModel::ArrayConverter::ArrayPropertyDescriptor
     class ArrayPropertyDescriptor;
     // public System.Void .ctor()
-    // Offset: 0x1D5881C
+    // Offset: 0x1D93D74
     // Implemented from: System.ComponentModel.CollectionConverter
     // Base method: System.Void CollectionConverter::.ctor()
     // Base method: System.Void TypeConverter::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArrayConverter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::ArrayConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArrayConverter*, creationType>()));
     }
     // public override System.Object ConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value, System.Type destinationType)
-    // Offset: 0x1D581B4
+    // Offset: 0x1D9370C
     // Implemented from: System.ComponentModel.CollectionConverter
     // Base method: System.Object CollectionConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value, System.Type destinationType)
     ::Il2CppObject* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::Il2CppObject* value, ::System::Type* destinationType);
     // public override System.ComponentModel.PropertyDescriptorCollection GetProperties(System.ComponentModel.ITypeDescriptorContext context, System.Object value, System.Attribute[] attributes)
-    // Offset: 0x1D5850C
+    // Offset: 0x1D93A64
     // Implemented from: System.ComponentModel.CollectionConverter
     // Base method: System.ComponentModel.PropertyDescriptorCollection CollectionConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext context, System.Object value, System.Attribute[] attributes)
     ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::ComponentModel::ITypeDescriptorContext* context, ::Il2CppObject* value, ::ArrayW<::System::Attribute*> attributes);
     // public override System.Boolean GetPropertiesSupported(System.ComponentModel.ITypeDescriptorContext context)
-    // Offset: 0x1D58814
+    // Offset: 0x1D93D6C
     // Implemented from: System.ComponentModel.CollectionConverter
     // Base method: System.Boolean CollectionConverter::GetPropertiesSupported(System.ComponentModel.ITypeDescriptorContext context)
     bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext* context);

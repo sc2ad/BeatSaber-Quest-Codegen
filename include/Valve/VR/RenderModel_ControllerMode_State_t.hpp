@@ -42,7 +42,7 @@ namespace Valve::VR {
       return bScrollWheelVisible;
     }
     // Get instance field reference: public System.Boolean bScrollWheelVisible
-    bool& dyn_bScrollWheelVisible();
+    [[deprecated("Use field access instead!")]] bool& dyn_bScrollWheelVisible();
   }; // Valve.VR.RenderModel_ControllerMode_State_t
   #pragma pack(pop)
   static check_size<sizeof(RenderModel_ControllerMode_State_t), 0 + sizeof(bool)> __Valve_VR_RenderModel_ControllerMode_State_tSizeCheck;

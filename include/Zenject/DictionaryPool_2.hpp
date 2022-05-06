@@ -55,6 +55,13 @@ namespace Zenject {
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DictionaryPool_2<TKey, TValue>*>::get(), "get_Instance", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::DictionaryPool_2<TKey, TValue>*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
+    // public System.Void .ctor()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static DictionaryPool_2<TKey, TValue>* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DictionaryPool_2::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<DictionaryPool_2<TKey, TValue>*, creationType>()));
+    }
     // static private System.Void .cctor()
     // Offset: 0xFFFFFFFFFFFFFFFF
     static void _cctor() {
@@ -75,15 +82,6 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DictionaryPool_2::OnDespawned");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DictionaryPool_2<TKey, TValue>*>::get(), "OnDespawned", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(items)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, items);
-    }
-    // public System.Void .ctor()
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DictionaryPool_2<TKey, TValue>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DictionaryPool_2::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<DictionaryPool_2<TKey, TValue>*, creationType>()));
     }
   }; // Zenject.DictionaryPool`2
   // Could not write size check! Type: Zenject.DictionaryPool`2 is generic, or has no fields that are valid for size checks!

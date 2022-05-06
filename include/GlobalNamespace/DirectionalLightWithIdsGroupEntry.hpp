@@ -81,27 +81,19 @@ namespace GlobalNamespace {
       // Set static field: static public DirectionalLightWithIdsGroupEntry/GroupLightsWeighting LinearFraction
       static void _set_LinearFraction(::GlobalNamespace::DirectionalLightWithIdsGroupEntry::GroupLightsWeighting value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // DirectionalLightWithIdsGroupEntry/GroupLightsWeighting
     #pragma pack(pop)
     static check_size<sizeof(DirectionalLightWithIdsGroupEntry::GroupLightsWeighting), 0 + sizeof(int)> __GlobalNamespace_DirectionalLightWithIdsGroupEntry_GroupLightsWeightingSizeCheck;
     static_assert(sizeof(DirectionalLightWithIdsGroupEntry::GroupLightsWeighting) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private DirectionalLightWithIds _directionalLightWithIds
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::DirectionalLightWithIds* directionalLightWithIds;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::DirectionalLightWithIds*) == 0x8);
-    // [SpaceAttribute] Offset: 0x123857C
+    // [SpaceAttribute] Offset: 0x10BD034
     // private DirectionalLightWithIdsGroupEntry/GroupLightData[] _groupLightData
     // Size: 0x8
     // Offset: 0x20
@@ -120,7 +112,7 @@ namespace GlobalNamespace {
     ::ArrayW<int> excludedLightIds;
     // Field size check
     static_assert(sizeof(::ArrayW<int>) == 0x8);
-    // [SpaceAttribute] Offset: 0x12385D4
+    // [SpaceAttribute] Offset: 0x10BD08C
     // private DirectionalLightWithIdsGroupEntry/GroupLightsWeighting _groupLightsWeighting
     // Size: 0x4
     // Offset: 0x38
@@ -131,23 +123,17 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private DirectionalLightWithIds _directionalLightWithIds
-    ::GlobalNamespace::DirectionalLightWithIds*& dyn__directionalLightWithIds();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DirectionalLightWithIds*& dyn__directionalLightWithIds();
     // Get instance field reference: private DirectionalLightWithIdsGroupEntry/GroupLightData[] _groupLightData
-    ::ArrayW<::GlobalNamespace::DirectionalLightWithIdsGroupEntry::GroupLightData*>& dyn__groupLightData();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::DirectionalLightWithIdsGroupEntry::GroupLightData*>& dyn__groupLightData();
     // Get instance field reference: private DirectionalLightWithIdsGroupEntry/LightIntensitiesWithId[] _individualLightData
-    ::ArrayW<::GlobalNamespace::DirectionalLightWithIdsGroupEntry::LightIntensitiesWithId*>& dyn__individualLightData();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::DirectionalLightWithIdsGroupEntry::LightIntensitiesWithId*>& dyn__individualLightData();
     // Get instance field reference: private System.Int32[] _excludedLightIds
-    ::ArrayW<int>& dyn__excludedLightIds();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__excludedLightIds();
     // Get instance field reference: private DirectionalLightWithIdsGroupEntry/GroupLightsWeighting _groupLightsWeighting
-    ::GlobalNamespace::DirectionalLightWithIdsGroupEntry::GroupLightsWeighting& dyn__groupLightsWeighting();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DirectionalLightWithIdsGroupEntry::GroupLightsWeighting& dyn__groupLightsWeighting();
     // public System.Void .ctor()
-    // Offset: 0x2ACF7C4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E78B8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DirectionalLightWithIdsGroupEntry* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DirectionalLightWithIdsGroupEntry::.ctor");

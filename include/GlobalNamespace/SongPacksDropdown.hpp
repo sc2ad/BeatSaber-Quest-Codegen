@@ -59,22 +59,14 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::SongPacksDropdown::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.SimpleTextDropdown _simpleTextDropdown
     // Size: 0x8
     // Offset: 0x18
     ::HMUI::SimpleTextDropdown* simpleTextDropdown;
     // Field size check
     static_assert(sizeof(::HMUI::SimpleTextDropdown*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125A2F0
+    // [SpaceAttribute] Offset: 0x10DEED4
     // private SongPackMaskModelSO _songPackMaskModel
     // Size: 0x8
     // Offset: 0x20
@@ -105,58 +97,52 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.SimpleTextDropdown _simpleTextDropdown
-    ::HMUI::SimpleTextDropdown*& dyn__simpleTextDropdown();
+    [[deprecated("Use field access instead!")]] ::HMUI::SimpleTextDropdown*& dyn__simpleTextDropdown();
     // Get instance field reference: private SongPackMaskModelSO _songPackMaskModel
-    ::GlobalNamespace::SongPackMaskModelSO*& dyn__songPackMaskModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongPackMaskModelSO*& dyn__songPackMaskModel();
     // Get instance field reference: private System.Action`1<System.Int32> didSelectCellWithIdxEvent
-    ::System::Action_1<int>*& dyn_didSelectCellWithIdxEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<int>*& dyn_didSelectCellWithIdxEvent();
     // Get instance field reference: private System.Boolean _initialized
-    bool& dyn__initialized();
+    [[deprecated("Use field access instead!")]] bool& dyn__initialized();
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> _songPackSerializedNames
-    ::System::Collections::Generic::List_1<::StringW>*& dyn__songPackSerializedNames();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn__songPackSerializedNames();
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x2AA66D8
+    // Offset: 0x138D2FC
     void add_didSelectCellWithIdxEvent(::System::Action_1<int>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x2AA677C
+    // Offset: 0x138D3A0
     void remove_didSelectCellWithIdxEvent(::System::Action_1<int>* value);
-    // private System.Void LazyInit()
-    // Offset: 0x2AA6820
-    void LazyInit();
-    // protected System.Void Start()
-    // Offset: 0x2AA697C
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x2AA6A18
-    void OnDestroy();
-    // public System.Void SetOverrideSongPacks(System.Collections.Generic.List`1<System.String> songPackSerializedNames)
-    // Offset: 0x2AA6AF4
-    void SetOverrideSongPacks(::System::Collections::Generic::List_1<::StringW>* songPackSerializedNames);
-    // public SongPackMask GetSelectedSongPackMask()
-    // Offset: 0x2AA6AFC
-    ::GlobalNamespace::SongPackMask GetSelectedSongPackMask();
-    // public System.Void SelectCellWithSongPackMask(SongPackMask songPackMask)
-    // Offset: 0x2AA6B90
-    void SelectCellWithSongPackMask(::GlobalNamespace::SongPackMask songPackMask);
-    // private System.Int32 GetIdxForSongPackMask(SongPackMask songPackMask)
-    // Offset: 0x2AA6C50
-    int GetIdxForSongPackMask(::GlobalNamespace::SongPackMask songPackMask);
-    // private System.Void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x2AA6D18
-    void HandleSimpleTextDropdownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // public System.Void .ctor()
-    // Offset: 0x2AA6D8C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x138D9B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPacksDropdown* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongPacksDropdown::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongPacksDropdown*, creationType>()));
     }
+    // private System.Void LazyInit()
+    // Offset: 0x138D444
+    void LazyInit();
+    // protected System.Void Start()
+    // Offset: 0x138D5A0
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x138D63C
+    void OnDestroy();
+    // public System.Void SetOverrideSongPacks(System.Collections.Generic.List`1<System.String> songPackSerializedNames)
+    // Offset: 0x138D718
+    void SetOverrideSongPacks(::System::Collections::Generic::List_1<::StringW>* songPackSerializedNames);
+    // public SongPackMask GetSelectedSongPackMask()
+    // Offset: 0x138D720
+    ::GlobalNamespace::SongPackMask GetSelectedSongPackMask();
+    // public System.Void SelectCellWithSongPackMask(SongPackMask songPackMask)
+    // Offset: 0x138D7B4
+    void SelectCellWithSongPackMask(::GlobalNamespace::SongPackMask songPackMask);
+    // private System.Int32 GetIdxForSongPackMask(SongPackMask songPackMask)
+    // Offset: 0x138D874
+    int GetIdxForSongPackMask(::GlobalNamespace::SongPackMask songPackMask);
+    // private System.Void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
+    // Offset: 0x138D93C
+    void HandleSimpleTextDropdownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
   }; // SongPacksDropdown
   #pragma pack(pop)
   static check_size<sizeof(SongPacksDropdown), 56 + sizeof(::System::Collections::Generic::List_1<::StringW>*)> __GlobalNamespace_SongPacksDropdownSizeCheck;
@@ -181,6 +167,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPacksDropdown*), "remove_didSelectCellWithIdxEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SongPacksDropdown::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SongPacksDropdown::LazyInit
 // Il2CppName: LazyInit
 template<>
@@ -250,7 +240,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPacksDropdown*), "HandleSimpleTextDropdownDidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dropdownWithTableView, idx});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SongPacksDropdown::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

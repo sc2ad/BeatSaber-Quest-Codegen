@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ProfanityFilter::TrieNode : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.Dictionary`2<System.Char,ProfanityFilter/TrieNode> _children
     // Size: 0x8
     // Offset: 0x10
@@ -55,30 +47,32 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Char,ProfanityFilter/TrieNode> _children
-    ::System::Collections::Generic::Dictionary_2<::Il2CppChar, ::GlobalNamespace::ProfanityFilter::TrieNode*>*& dyn__children();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::Il2CppChar, ::GlobalNamespace::ProfanityFilter::TrieNode*>*& dyn__children();
     // Get instance field reference: private System.Int32 _shortestWord
-    int& dyn__shortestWord();
-    // public System.Void AddWord(System.String word, System.Int32 index)
-    // Offset: 0x25EAEF8
-    void AddWord(::StringW word, int index);
-    // public System.Boolean IsMatch(System.String word, System.Int32 index)
-    // Offset: 0x25EB354
-    bool IsMatch(::StringW word, int index);
+    [[deprecated("Use field access instead!")]] int& dyn__shortestWord();
     // public System.Void .ctor()
-    // Offset: 0x25EAEE8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2637518
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProfanityFilter::TrieNode* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ProfanityFilter::TrieNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProfanityFilter::TrieNode*, creationType>()));
     }
+    // public System.Void AddWord(System.String word, System.Int32 index)
+    // Offset: 0x2637528
+    void AddWord(::StringW word, int index);
+    // public System.Boolean IsMatch(System.String word, System.Int32 index)
+    // Offset: 0x2637984
+    bool IsMatch(::StringW word, int index);
   }; // ProfanityFilter/TrieNode
   #pragma pack(pop)
   static check_size<sizeof(ProfanityFilter::TrieNode), 24 + sizeof(int)> __GlobalNamespace_ProfanityFilter_TrieNodeSizeCheck;
   static_assert(sizeof(ProfanityFilter::TrieNode) == 0x1C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ProfanityFilter::TrieNode::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ProfanityFilter::TrieNode::AddWord
 // Il2CppName: AddWord
 template<>
@@ -99,7 +93,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ProfanityFilter::TrieNode*), "IsMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{word, index});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ProfanityFilter::TrieNode::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

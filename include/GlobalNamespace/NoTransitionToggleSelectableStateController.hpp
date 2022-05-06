@@ -37,24 +37,19 @@ namespace GlobalNamespace {
   class NoTransitionToggleSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::HMUI::NoTransitionsToggle*> {
     public:
     // protected System.Void OnEnable()
-    // Offset: 0x1472768
+    // Offset: 0x14A8F50
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x14727FC
+    // Offset: 0x14A8FE4
     void OnDisable();
     // private System.Void HandleNoTransitionToggleSelectionStateDidChange(HMUI.UISelectionState state)
-    // Offset: 0x1472890
+    // Offset: 0x14A9078
     void HandleNoTransitionToggleSelectionStateDidChange(::HMUI::UISelectionState state);
     // public System.Void .ctor()
-    // Offset: 0x14728E4
+    // Offset: 0x14A90CC
     // Implemented from: SelectableStateController`1
     // Base method: System.Void SelectableStateController_1::.ctor()
     // Base method: System.Void SelectableStateController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoTransitionToggleSelectableStateController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoTransitionToggleSelectableStateController::.ctor");

@@ -44,15 +44,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class Ucs4Encoding : public ::System::Text::Encoding {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Xml.Ucs4Decoder ucs4Decoder
     // Size: 0x8
     // Offset: 0x38
@@ -65,81 +57,78 @@ namespace System::Xml {
       return ucs4Decoder;
     }
     // Get instance field reference: System.Xml.Ucs4Decoder ucs4Decoder
-    ::System::Xml::Ucs4Decoder*& dyn_ucs4Decoder();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Ucs4Decoder*& dyn_ucs4Decoder();
     // static System.Text.Encoding get_UCS4_Littleendian()
-    // Offset: 0x1B6E080
+    // Offset: 0x1BA8668
     static ::System::Text::Encoding* get_UCS4_Littleendian();
     // static System.Text.Encoding get_UCS4_Bigendian()
-    // Offset: 0x1B6E140
+    // Offset: 0x1BA8728
     static ::System::Text::Encoding* get_UCS4_Bigendian();
     // static System.Text.Encoding get_UCS4_2143()
-    // Offset: 0x1B6E200
+    // Offset: 0x1BA87E8
     static ::System::Text::Encoding* get_UCS4_2143();
     // static System.Text.Encoding get_UCS4_3412()
-    // Offset: 0x1B6E2C0
+    // Offset: 0x1BA88A8
     static ::System::Text::Encoding* get_UCS4_3412();
-    // public override System.String get_WebName()
-    // Offset: 0x1B6DF84
-    // Implemented from: System.Text.Encoding
-    // Base method: System.String Encoding::get_WebName()
-    ::StringW get_WebName();
-    // public override System.Int32 get_CodePage()
-    // Offset: 0x1B6E070
-    // Implemented from: System.Text.Encoding
-    // Base method: System.Int32 Encoding::get_CodePage()
-    int get_CodePage();
     // public System.Void .ctor()
-    // Offset: 0x1B6E380
-    // Implemented from: System.Text.Encoding
-    // Base method: System.Void Encoding::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1BA8968
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ucs4Encoding* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Ucs4Encoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Ucs4Encoding*, creationType>()));
     }
+    // public override System.String get_WebName()
+    // Offset: 0x1BA856C
+    // Implemented from: System.Text.Encoding
+    // Base method: System.String Encoding::get_WebName()
+    ::StringW get_WebName();
+    // public override System.Int32 get_CodePage()
+    // Offset: 0x1BA8658
+    // Implemented from: System.Text.Encoding
+    // Base method: System.Int32 Encoding::get_CodePage()
+    int get_CodePage();
     // public override System.Text.Decoder GetDecoder()
-    // Offset: 0x1B6DF90
+    // Offset: 0x1BA8578
     // Implemented from: System.Text.Encoding
     // Base method: System.Text.Decoder Encoding::GetDecoder()
     ::System::Text::Decoder* GetDecoder();
     // public override System.Int32 GetByteCount(System.Char[] chars, System.Int32 index, System.Int32 count)
-    // Offset: 0x1B6DF98
+    // Offset: 0x1BA8580
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetByteCount(System.Char[] chars, System.Int32 index, System.Int32 count)
     int GetByteCount(::ArrayW<::Il2CppChar> chars, int index, int count);
     // public override System.Byte[] GetBytes(System.String s)
-    // Offset: 0x1B6E000
+    // Offset: 0x1BA85E8
     // Implemented from: System.Text.Encoding
     // Base method: System.Byte[] Encoding::GetBytes(System.String s)
     ::ArrayW<uint8_t> GetBytes(::StringW s);
     // public override System.Int32 GetBytes(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex)
-    // Offset: 0x1B6E008
+    // Offset: 0x1BA85F0
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetBytes(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex)
     int GetBytes(::ArrayW<::Il2CppChar> chars, int charIndex, int charCount, ::ArrayW<uint8_t> bytes, int byteIndex);
     // public override System.Int32 GetMaxByteCount(System.Int32 charCount)
-    // Offset: 0x1B6E010
+    // Offset: 0x1BA85F8
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetMaxByteCount(System.Int32 charCount)
     int GetMaxByteCount(int charCount);
     // public override System.Int32 GetCharCount(System.Byte[] bytes, System.Int32 index, System.Int32 count)
-    // Offset: 0x1B6E018
+    // Offset: 0x1BA8600
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetCharCount(System.Byte[] bytes, System.Int32 index, System.Int32 count)
     int GetCharCount(::ArrayW<uint8_t> bytes, int index, int count);
     // public override System.Int32 GetChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex)
-    // Offset: 0x1B6E038
+    // Offset: 0x1BA8620
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex)
     int GetChars(::ArrayW<uint8_t> bytes, int byteIndex, int byteCount, ::ArrayW<::Il2CppChar> chars, int charIndex);
     // public override System.Int32 GetMaxCharCount(System.Int32 byteCount)
-    // Offset: 0x1B6E058
+    // Offset: 0x1BA8640
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetMaxCharCount(System.Int32 byteCount)
     int GetMaxCharCount(int byteCount);
     // public override System.Text.Encoder GetEncoder()
-    // Offset: 0x1B6E078
+    // Offset: 0x1BA8660
     // Implemented from: System.Text.Encoding
     // Base method: System.Text.Encoder Encoding::GetEncoder()
     ::System::Text::Encoder* GetEncoder();
@@ -181,6 +170,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Ucs4Encoding*), "get_UCS4_3412", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Xml::Ucs4Encoding::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::Ucs4Encoding::get_WebName
 // Il2CppName: get_WebName
 template<>
@@ -197,10 +190,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Ucs4Encoding*), "get_CodePage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Ucs4Encoding::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::Ucs4Encoding::GetDecoder
 // Il2CppName: GetDecoder
 template<>

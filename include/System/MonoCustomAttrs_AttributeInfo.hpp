@@ -30,15 +30,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoCustomAttrs::AttributeInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.AttributeUsageAttribute _usage
     // Size: 0x8
     // Offset: 0x10
@@ -53,17 +45,17 @@ namespace System {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.AttributeUsageAttribute _usage
-    ::System::AttributeUsageAttribute*& dyn__usage();
+    [[deprecated("Use field access instead!")]] ::System::AttributeUsageAttribute*& dyn__usage();
     // Get instance field reference: private System.Int32 _inheritanceLevel
-    int& dyn__inheritanceLevel();
+    [[deprecated("Use field access instead!")]] int& dyn__inheritanceLevel();
     // public System.AttributeUsageAttribute get_Usage()
-    // Offset: 0x1B99008
+    // Offset: 0x1BD35F0
     ::System::AttributeUsageAttribute* get_Usage();
     // public System.Int32 get_InheritanceLevel()
-    // Offset: 0x1B99010
+    // Offset: 0x1BD35F8
     int get_InheritanceLevel();
     // public System.Void .ctor(System.AttributeUsageAttribute usage, System.Int32 inheritanceLevel)
-    // Offset: 0x1B9838C
+    // Offset: 0x1BD2974
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoCustomAttrs::AttributeInfo* New_ctor(::System::AttributeUsageAttribute* usage, int inheritanceLevel) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::MonoCustomAttrs::AttributeInfo::.ctor");

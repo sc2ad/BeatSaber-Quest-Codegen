@@ -73,25 +73,17 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public readonly System.Single songTime
-      float& dyn_songTime();
+      [[deprecated("Use field access instead!")]] float& dyn_songTime();
       // Get instance field reference: public readonly System.Single yOffset
-      float& dyn_yOffset();
+      [[deprecated("Use field access instead!")]] float& dyn_yOffset();
       // public System.Void .ctor(System.Single songTime, System.Single yOffset)
-      // Offset: 0x14D472C
+      // Offset: 0x150C034
       // ABORTED: conflicts with another method.  BufferData(float songTime, float yOffset);
     }; // BeatmapObjectAvoidanceYOffsetEvaluator/BufferData
     #pragma pack(pop)
     static check_size<sizeof(BeatmapObjectAvoidanceYOffsetEvaluator::BufferData), 4 + sizeof(float)> __GlobalNamespace_BeatmapObjectAvoidanceYOffsetEvaluator_BufferDataSizeCheck;
     static_assert(sizeof(BeatmapObjectAvoidanceYOffsetEvaluator::BufferData) == 0x8);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _currentYJumpOffsetBufferEndIndex
     // Size: 0x4
     // Offset: 0x10
@@ -136,27 +128,27 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kYJumpOffsetBufferSongTimeInitValue
     static void _set_kYJumpOffsetBufferSongTimeInitValue(float value);
     // Get instance field reference: private System.Int32 _currentYJumpOffsetBufferEndIndex
-    int& dyn__currentYJumpOffsetBufferEndIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__currentYJumpOffsetBufferEndIndex();
     // Get instance field reference: private readonly System.Single _jumpDurationToDesiredZPosition
-    float& dyn__jumpDurationToDesiredZPosition();
+    [[deprecated("Use field access instead!")]] float& dyn__jumpDurationToDesiredZPosition();
     // Get instance field reference: private readonly BeatmapObjectAvoidanceYOffsetEvaluator/BufferData[] _yJumpOffsetBuffer
-    ::ArrayW<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::BufferData>& dyn__yJumpOffsetBuffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::BufferData>& dyn__yJumpOffsetBuffer();
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
-    ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // Get instance field reference: private readonly IBeatmapObjectSpawnController _beatmapObjectSpawnController
-    ::GlobalNamespace::IBeatmapObjectSpawnController*& dyn__beatmapObjectSpawnController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatmapObjectSpawnController*& dyn__beatmapObjectSpawnController();
     // public System.Void .ctor(IAudioTimeSource audioTimeSource, IBeatmapObjectSpawnController beatmapObjectSpawnController, System.Single moveToPlayerHeadTParam, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData)
-    // Offset: 0x14D45CC
+    // Offset: 0x150BED4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectAvoidanceYOffsetEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::IBeatmapObjectSpawnController* beatmapObjectSpawnController, float moveToPlayerHeadTParam, ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectAvoidanceYOffsetEvaluator*, creationType>(audioTimeSource, beatmapObjectSpawnController, moveToPlayerHeadTParam, noteSpawnData)));
     }
     // public System.Void ManualUpdate()
-    // Offset: 0x14D4734
+    // Offset: 0x150C03C
     void ManualUpdate();
     // public System.Single GetJumpOffsetYAtJumpStartSongTime(System.Single lastDeltaTime)
-    // Offset: 0x14D48C0
+    // Offset: 0x150C1C8
     float GetJumpOffsetYAtJumpStartSongTime(float lastDeltaTime);
   }; // BeatmapObjectAvoidanceYOffsetEvaluator
   #pragma pack(pop)

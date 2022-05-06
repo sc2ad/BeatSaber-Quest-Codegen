@@ -36,20 +36,18 @@ namespace NUnit::Framework::Internal {
     // Set static field: static public readonly NUnit.Framework.Internal.ExceptionHelper/NUnit.Framework.Internal.<>c <>9
     static void _set_$$9(::NUnit::Framework::Internal::ExceptionHelper::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x1C50148
+    // Offset: 0x1CA86E0
     static void _cctor();
-    // System.Void <.cctor>b__1_0(System.Exception _)
-    // Offset: 0x1C501B4
-    void $_cctor$b__1_0(::System::Exception* _);
     // public System.Void .ctor()
-    // Offset: 0x1C501AC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1CA8744
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExceptionHelper::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::ExceptionHelper::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExceptionHelper::$$c*, creationType>()));
     }
+    // System.Void <.cctor>b__1_0(System.Exception _)
+    // Offset: 0x1CA874C
+    void $_cctor$b__1_0(::System::Exception* _);
   }; // NUnit.Framework.Internal.ExceptionHelper/NUnit.Framework.Internal.<>c
   #pragma pack(pop)
 }
@@ -62,6 +60,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ExceptionHelper::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: NUnit::Framework::Internal::ExceptionHelper::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ExceptionHelper::$$c::$_cctor$b__1_0
 // Il2CppName: <.cctor>b__1_0
 template<>
@@ -71,7 +73,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ExceptionHelper::$$c*), "<.cctor>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::ExceptionHelper::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

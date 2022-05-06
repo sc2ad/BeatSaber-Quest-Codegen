@@ -44,15 +44,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::NoteCutHapticEffect::Type
     struct Type;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Libraries.HM.HMLib.VR.HapticPresetSO _normalPreset
     // Size: 0x8
     // Offset: 0x18
@@ -71,7 +63,7 @@ namespace GlobalNamespace {
     ::Libraries::HM::HMLib::VR::HapticPresetSO* shortWeakPreset;
     // Field size check
     static_assert(sizeof(::Libraries::HM::HMLib::VR::HapticPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x1250C14
+    // [InjectAttribute] Offset: 0x10D5748
     // private readonly HapticFeedbackController _hapticFeedbackController
     // Size: 0x8
     // Offset: 0x30
@@ -82,35 +74,33 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Libraries.HM.HMLib.VR.HapticPresetSO _normalPreset
-    ::Libraries::HM::HMLib::VR::HapticPresetSO*& dyn__normalPreset();
+    [[deprecated("Use field access instead!")]] ::Libraries::HM::HMLib::VR::HapticPresetSO*& dyn__normalPreset();
     // Get instance field reference: private Libraries.HM.HMLib.VR.HapticPresetSO _shortNormalPreset
-    ::Libraries::HM::HMLib::VR::HapticPresetSO*& dyn__shortNormalPreset();
+    [[deprecated("Use field access instead!")]] ::Libraries::HM::HMLib::VR::HapticPresetSO*& dyn__shortNormalPreset();
     // Get instance field reference: private Libraries.HM.HMLib.VR.HapticPresetSO _shortWeakPreset
-    ::Libraries::HM::HMLib::VR::HapticPresetSO*& dyn__shortWeakPreset();
+    [[deprecated("Use field access instead!")]] ::Libraries::HM::HMLib::VR::HapticPresetSO*& dyn__shortWeakPreset();
     // Get instance field reference: private readonly HapticFeedbackController _hapticFeedbackController
-    ::GlobalNamespace::HapticFeedbackController*& dyn__hapticFeedbackController();
-    // public System.Void HitNote(SaberType saberType, NoteCutHapticEffect/Type type)
-    // Offset: 0x1474F14
-    void HitNote(::GlobalNamespace::SaberType saberType, ::GlobalNamespace::NoteCutHapticEffect::Type type);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::HapticFeedbackController*& dyn__hapticFeedbackController();
     // public System.Void .ctor()
-    // Offset: 0x14760C0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14AC8A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutHapticEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutHapticEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutHapticEffect*, creationType>()));
     }
+    // public System.Void HitNote(SaberType saberType, NoteCutHapticEffect/Type type)
+    // Offset: 0x14AB6FC
+    void HitNote(::GlobalNamespace::SaberType saberType, ::GlobalNamespace::NoteCutHapticEffect::Type type);
   }; // NoteCutHapticEffect
   #pragma pack(pop)
   static check_size<sizeof(NoteCutHapticEffect), 48 + sizeof(::GlobalNamespace::HapticFeedbackController*)> __GlobalNamespace_NoteCutHapticEffectSizeCheck;
   static_assert(sizeof(NoteCutHapticEffect) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutHapticEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutHapticEffect::HitNote
 // Il2CppName: HitNote
 template<>
@@ -121,7 +111,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutHapticEffect*), "HitNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saberType, type});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NoteCutHapticEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

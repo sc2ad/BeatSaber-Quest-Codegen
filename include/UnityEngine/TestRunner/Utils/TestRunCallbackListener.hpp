@@ -62,15 +62,7 @@ namespace UnityEngine::TestRunner::Utils {
     class $$c__DisplayClass5_0;
     // Nested type: ::UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c__DisplayClass6_0
     class $$c__DisplayClass6_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.TestRunner.ITestRunCallback[] m_Callbacks
     // Size: 0x8
     // Offset: 0x18
@@ -81,42 +73,42 @@ namespace UnityEngine::TestRunner::Utils {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.TestRunner.ITestRunCallback[] m_Callbacks
-    ::ArrayW<::UnityEngine::TestRunner::ITestRunCallback*>& dyn_m_Callbacks();
-    // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
-    // Offset: 0x19475D0
-    void RunStarted(::NUnit::Framework::Interfaces::ITest* testsToRun);
-    // static private UnityEngine.TestRunner.ITestRunCallback[] GetAllCallbacks()
-    // Offset: 0x1947804
-    static ::ArrayW<::UnityEngine::TestRunner::ITestRunCallback*> GetAllCallbacks();
-    // private System.Void InvokeAllCallbacks(System.Action`1<UnityEngine.TestRunner.ITestRunCallback> invoker)
-    // Offset: 0x1947688
-    void InvokeAllCallbacks(::System::Action_1<::UnityEngine::TestRunner::ITestRunCallback*>* invoker);
-    // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0x1947A98
-    void RunFinished(::NUnit::Framework::Interfaces::ITestResult* testResults);
-    // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1947B50
-    void TestStarted(::NUnit::Framework::Interfaces::ITest* test);
-    // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x1947C08
-    void TestFinished(::NUnit::Framework::Interfaces::ITestResult* result);
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::TestRunner::ITestRunCallback*>& dyn_m_Callbacks();
     // public System.Void .ctor()
-    // Offset: 0x1947CC0
-    // Implemented from: UnityEngine.ScriptableObject
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x197FEA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestRunCallbackListener* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::Utils::TestRunCallbackListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestRunCallbackListener*, creationType>()));
     }
+    // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
+    // Offset: 0x197F7B0
+    void RunStarted(::NUnit::Framework::Interfaces::ITest* testsToRun);
+    // static private UnityEngine.TestRunner.ITestRunCallback[] GetAllCallbacks()
+    // Offset: 0x197F9E4
+    static ::ArrayW<::UnityEngine::TestRunner::ITestRunCallback*> GetAllCallbacks();
+    // private System.Void InvokeAllCallbacks(System.Action`1<UnityEngine.TestRunner.ITestRunCallback> invoker)
+    // Offset: 0x197F868
+    void InvokeAllCallbacks(::System::Action_1<::UnityEngine::TestRunner::ITestRunCallback*>* invoker);
+    // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
+    // Offset: 0x197FC78
+    void RunFinished(::NUnit::Framework::Interfaces::ITestResult* testResults);
+    // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
+    // Offset: 0x197FD30
+    void TestStarted(::NUnit::Framework::Interfaces::ITest* test);
+    // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
+    // Offset: 0x197FDE8
+    void TestFinished(::NUnit::Framework::Interfaces::ITestResult* result);
   }; // UnityEngine.TestRunner.Utils.TestRunCallbackListener
   #pragma pack(pop)
   static check_size<sizeof(TestRunCallbackListener), 24 + sizeof(::ArrayW<::UnityEngine::TestRunner::ITestRunCallback*>)> __UnityEngine_TestRunner_Utils_TestRunCallbackListenerSizeCheck;
   static_assert(sizeof(TestRunCallbackListener) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::TestRunner::Utils::TestRunCallbackListener::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestRunner::Utils::TestRunCallbackListener::RunStarted
 // Il2CppName: RunStarted
 template<>
@@ -170,7 +162,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::Utils::TestRunCallbackListener*), "TestFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestRunner::Utils::TestRunCallbackListener::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

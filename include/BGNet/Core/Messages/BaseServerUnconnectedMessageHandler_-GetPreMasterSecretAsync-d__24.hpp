@@ -85,24 +85,24 @@ namespace BGNet::Core::Messages {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Byte[]> <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t>>& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t>>& dyn_$$t__builder();
     // Get instance field reference: public IDiffieHellmanKeyPair serverKeys
-    ::GlobalNamespace::IDiffieHellmanKeyPair*& dyn_serverKeys();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IDiffieHellmanKeyPair*& dyn_serverKeys();
     // Get instance field reference: public System.Byte[] clientKey
-    ::ArrayW<uint8_t>& dyn_clientKey();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_clientKey();
     // Get instance field reference: public BGNet.Core.Messages.BaseServerUnconnectedMessageHandler <>4__this
-    ::BGNet::Core::Messages::BaseServerUnconnectedMessageHandler*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::BGNet::Core::Messages::BaseServerUnconnectedMessageHandler*& dyn_$$4__this();
     // Get instance field reference: private BGNet.Core.Messages.BaseServerUnconnectedMessageHandler/BGNet.Core.Messages.GetPreMasterSecretComputeOperation <preMasterSecretRequest>5__2
-    ::BGNet::Core::Messages::BaseServerUnconnectedMessageHandler::GetPreMasterSecretComputeOperation*& dyn_$preMasterSecretRequest$5__2();
+    [[deprecated("Use field access instead!")]] ::BGNet::Core::Messages::BaseServerUnconnectedMessageHandler::GetPreMasterSecretComputeOperation*& dyn_$preMasterSecretRequest$5__2();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x14FBBB8
+    // Offset: 0x15334C0
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x14FC054
+    // Offset: 0x153395C
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BGNet.Core.Messages.BaseServerUnconnectedMessageHandler/BGNet.Core.Messages.<GetPreMasterSecretAsync>d__24
   // WARNING Not writing size check since size may be invalid!

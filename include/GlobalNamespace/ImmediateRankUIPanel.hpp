@@ -47,15 +47,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ImmediateRankUIPanel : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _rankText
     // Size: 0x8
     // Offset: 0x18
@@ -68,7 +60,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* relativeScoreText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0x12523DC
+    // [InjectAttribute] Offset: 0x10D6F68
     // private readonly RelativeScoreAndImmediateRankCounter _relativeScoreAndImmediateRankCounter
     // Size: 0x8
     // Offset: 0x28
@@ -97,45 +89,43 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _rankText
-    ::TMPro::TextMeshProUGUI*& dyn__rankText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__rankText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _relativeScoreText
-    ::TMPro::TextMeshProUGUI*& dyn__relativeScoreText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__relativeScoreText();
     // Get instance field reference: private readonly RelativeScoreAndImmediateRankCounter _relativeScoreAndImmediateRankCounter
-    ::GlobalNamespace::RelativeScoreAndImmediateRankCounter*& dyn__relativeScoreAndImmediateRankCounter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::RelativeScoreAndImmediateRankCounter*& dyn__relativeScoreAndImmediateRankCounter();
     // Get instance field reference: private System.Text.StringBuilder _stringBuilder
-    ::System::Text::StringBuilder*& dyn__stringBuilder();
+    [[deprecated("Use field access instead!")]] ::System::Text::StringBuilder*& dyn__stringBuilder();
     // Get instance field reference: private System.Single _prevRelativeScore
-    float& dyn__prevRelativeScore();
+    [[deprecated("Use field access instead!")]] float& dyn__prevRelativeScore();
     // Get instance field reference: private RankModel/Rank _prevImmediateRank
-    ::GlobalNamespace::RankModel::Rank& dyn__prevImmediateRank();
-    // protected System.Void Start()
-    // Offset: 0x13B3C58
-    void Start();
-    // private System.Void HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange()
-    // Offset: 0x13B3E90
-    void HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange();
-    // private System.Void RefreshUI()
-    // Offset: 0x13B3D10
-    void RefreshUI();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::RankModel::Rank& dyn__prevImmediateRank();
     // public System.Void .ctor()
-    // Offset: 0x13B3E94
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13AF340
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ImmediateRankUIPanel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ImmediateRankUIPanel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ImmediateRankUIPanel*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x13AF104
+    void Start();
+    // private System.Void HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange()
+    // Offset: 0x13AF33C
+    void HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange();
+    // private System.Void RefreshUI()
+    // Offset: 0x13AF1BC
+    void RefreshUI();
   }; // ImmediateRankUIPanel
   #pragma pack(pop)
   static check_size<sizeof(ImmediateRankUIPanel), 60 + sizeof(::GlobalNamespace::RankModel::Rank)> __GlobalNamespace_ImmediateRankUIPanelSizeCheck;
   static_assert(sizeof(ImmediateRankUIPanel) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ImmediateRankUIPanel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ImmediateRankUIPanel::Start
 // Il2CppName: Start
 template<>
@@ -160,7 +150,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ImmediateRankUIPanel*), "RefreshUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ImmediateRankUIPanel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

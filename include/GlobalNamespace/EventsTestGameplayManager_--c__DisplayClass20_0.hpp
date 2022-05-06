@@ -31,15 +31,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class EventsTestGameplayManager::$$c__DisplayClass20_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 lightGroupId
     // Size: 0x4
     // Offset: 0x10
@@ -52,25 +44,27 @@ namespace GlobalNamespace {
       return lightGroupId;
     }
     // Get instance field reference: public System.Int32 lightGroupId
-    int& dyn_lightGroupId();
-    // System.Boolean <AddToggleEventsForLightGroup>b__0(LightGroup x)
-    // Offset: 0x1389520
-    bool $AddToggleEventsForLightGroup$b__0(::GlobalNamespace::LightGroup* x);
+    [[deprecated("Use field access instead!")]] int& dyn_lightGroupId();
     // public System.Void .ctor()
-    // Offset: 0x1388EDC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1370AB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventsTestGameplayManager::$$c__DisplayClass20_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EventsTestGameplayManager::$$c__DisplayClass20_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventsTestGameplayManager::$$c__DisplayClass20_0*, creationType>()));
     }
+    // System.Boolean <AddToggleEventsForLightGroup>b__0(LightGroup x)
+    // Offset: 0x13710F8
+    bool $AddToggleEventsForLightGroup$b__0(::GlobalNamespace::LightGroup* x);
   }; // EventsTestGameplayManager/<>c__DisplayClass20_0
   #pragma pack(pop)
   static check_size<sizeof(EventsTestGameplayManager::$$c__DisplayClass20_0), 16 + sizeof(int)> __GlobalNamespace_EventsTestGameplayManager_$$c__DisplayClass20_0SizeCheck;
   static_assert(sizeof(EventsTestGameplayManager::$$c__DisplayClass20_0) == 0x14);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::EventsTestGameplayManager::$$c__DisplayClass20_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EventsTestGameplayManager::$$c__DisplayClass20_0::$AddToggleEventsForLightGroup$b__0
 // Il2CppName: <AddToggleEventsForLightGroup>b__0
 template<>
@@ -80,7 +74,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EventsTestGameplayManager::$$c__DisplayClass20_0*), "<AddToggleEventsForLightGroup>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::EventsTestGameplayManager::$$c__DisplayClass20_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

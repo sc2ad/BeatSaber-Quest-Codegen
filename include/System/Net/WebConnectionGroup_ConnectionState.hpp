@@ -36,15 +36,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebConnectionGroup::ConnectionState : public ::Il2CppObject/*, public ::System::Net::IWebConnectionState*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Net.WebConnection <Connection>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -77,46 +69,46 @@ namespace System::Net {
       return *reinterpret_cast<::System::Net::IWebConnectionState*>(this);
     }
     // Get instance field reference: private System.Net.WebConnection <Connection>k__BackingField
-    ::System::Net::WebConnection*& dyn_$Connection$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Net::WebConnection*& dyn_$Connection$k__BackingField();
     // Get instance field reference: private System.Net.WebConnectionGroup <Group>k__BackingField
-    ::System::Net::WebConnectionGroup*& dyn_$Group$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Net::WebConnectionGroup*& dyn_$Group$k__BackingField();
     // Get instance field reference: private System.Boolean busy
-    bool& dyn_busy();
+    [[deprecated("Use field access instead!")]] bool& dyn_busy();
     // Get instance field reference: private System.DateTime idleSince
-    ::System::DateTime& dyn_idleSince();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_idleSince();
     // public System.Net.WebConnection get_Connection()
-    // Offset: 0x1B1DCD4
+    // Offset: 0x1B582BC
     ::System::Net::WebConnection* get_Connection();
     // private System.Void set_Connection(System.Net.WebConnection value)
-    // Offset: 0x1B1DCDC
+    // Offset: 0x1B582C4
     void set_Connection(::System::Net::WebConnection* value);
     // public System.Net.WebConnectionGroup get_Group()
-    // Offset: 0x1B1DCE4
+    // Offset: 0x1B582CC
     ::System::Net::WebConnectionGroup* get_Group();
     // private System.Void set_Group(System.Net.WebConnectionGroup value)
-    // Offset: 0x1B1DCEC
+    // Offset: 0x1B582D4
     void set_Group(::System::Net::WebConnectionGroup* value);
     // public System.Net.ServicePoint get_ServicePoint()
-    // Offset: 0x1B1DCF4
+    // Offset: 0x1B582DC
     ::System::Net::ServicePoint* get_ServicePoint();
     // public System.Boolean get_Busy()
-    // Offset: 0x1B1DD10
+    // Offset: 0x1B582F8
     bool get_Busy();
     // public System.DateTime get_IdleSince()
-    // Offset: 0x1B1DD18
+    // Offset: 0x1B58300
     ::System::DateTime get_IdleSince();
     // public System.Void .ctor(System.Net.WebConnectionGroup group)
-    // Offset: 0x1B1D724
+    // Offset: 0x1B57D0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionGroup::ConnectionState* New_ctor(::System::Net::WebConnectionGroup* group) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebConnectionGroup::ConnectionState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionGroup::ConnectionState*, creationType>(group)));
     }
     // public System.Boolean TrySetBusy()
-    // Offset: 0x1B1DD20
+    // Offset: 0x1B58308
     bool TrySetBusy();
     // public System.Void SetIdle()
-    // Offset: 0x1B1DE78
+    // Offset: 0x1B58460
     void SetIdle();
   }; // System.Net.WebConnectionGroup/System.Net.ConnectionState
   #pragma pack(pop)

@@ -180,7 +180,7 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.BuiltinRenderTextureType GBuffer7
     static void _set_GBuffer7(::UnityEngine::Rendering::BuiltinRenderTextureType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.Rendering.BuiltinRenderTextureType
   #pragma pack(pop)
   static check_size<sizeof(BuiltinRenderTextureType), 0 + sizeof(int)> __UnityEngine_Rendering_BuiltinRenderTextureTypeSizeCheck;

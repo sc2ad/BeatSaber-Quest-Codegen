@@ -45,15 +45,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::NamedIntListController::TextValuePair
     class TextValuePair;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private NamedIntListController/TextValuePair[] _textValuePairs
     // Size: 0x8
     // Offset: 0x28
@@ -80,50 +72,45 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::HMUI::IValueChanger_1<int>*>(this);
     }
     // Get instance field reference: private NamedIntListController/TextValuePair[] _textValuePairs
-    ::ArrayW<::GlobalNamespace::NamedIntListController::TextValuePair*>& dyn__textValuePairs();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::NamedIntListController::TextValuePair*>& dyn__textValuePairs();
     // Get instance field reference: private System.Int32 _value
-    int& dyn__value();
+    [[deprecated("Use field access instead!")]] int& dyn__value();
     // Get instance field reference: private System.Action`1<System.Int32> valueChangedEvent
-    ::System::Action_1<int>*& dyn_valueChangedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<int>*& dyn_valueChangedEvent();
     // public System.Void add_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x146E0C0
+    // Offset: 0x14A48A8
     void add_valueChangedEvent(::System::Action_1<int>* value);
     // public System.Void remove_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x146E164
+    // Offset: 0x14A494C
     void remove_valueChangedEvent(::System::Action_1<int>* value);
     // public System.Void InitValues(NamedIntListController/TextValuePair[] values)
-    // Offset: 0x146E208
+    // Offset: 0x14A49F0
     void InitValues(::ArrayW<::GlobalNamespace::NamedIntListController::TextValuePair*> values);
     // public System.Void SetValue(System.Int32 value)
-    // Offset: 0x146E218
+    // Offset: 0x14A4A00
     void SetValue(int value);
     // public System.Void .ctor()
-    // Offset: 0x146E390
+    // Offset: 0x14A4B78
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamedIntListController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NamedIntListController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NamedIntListController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x146E228
+    // Offset: 0x14A4A10
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x146E2C4
+    // Offset: 0x14A4AAC
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x146E33C
+    // Offset: 0x14A4B24
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::StringW TextForValue(int idx);

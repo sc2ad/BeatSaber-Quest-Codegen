@@ -54,15 +54,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SongStartHandler : public ::Il2CppObject/*, public ::System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
@@ -119,58 +111,58 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kFixedStartDelay
     static void _set_kFixedStartDelay(float value);
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // Get instance field reference: private readonly IGameplayRpcManager _gameplayRpcManager
-    ::GlobalNamespace::IGameplayRpcManager*& dyn__gameplayRpcManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IGameplayRpcManager*& dyn__gameplayRpcManager();
     // Get instance field reference: private readonly PlayersSpecificSettingsAtGameStartModel _playersAtGameStartModel
-    ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& dyn__playersAtGameStartModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& dyn__playersAtGameStartModel();
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.String> _readyPlayers
-    ::System::Collections::Generic::HashSet_1<::StringW>*& dyn__readyPlayers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::StringW>*& dyn__readyPlayers();
     // Get instance field reference: private System.Boolean _started
-    bool& dyn__started();
+    [[deprecated("Use field access instead!")]] bool& dyn__started();
     // Get instance field reference: private System.Single _startTime
-    float& dyn__startTime();
+    [[deprecated("Use field access instead!")]] float& dyn__startTime();
     // Get instance field reference: private System.Action`1<System.Single> setSongStartSyncTimeEvent
-    ::System::Action_1<float>*& dyn_setSongStartSyncTimeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<float>*& dyn_setSongStartSyncTimeEvent();
     // public System.Single get_songStartSyncTime()
-    // Offset: 0x25EE4D0
+    // Offset: 0x263AB00
     float get_songStartSyncTime();
     // public System.Void add_setSongStartSyncTimeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x25EE4D8
+    // Offset: 0x263AB08
     void add_setSongStartSyncTimeEvent(::System::Action_1<float>* value);
     // public System.Void remove_setSongStartSyncTimeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x25EE57C
+    // Offset: 0x263ABAC
     void remove_setSongStartSyncTimeEvent(::System::Action_1<float>* value);
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, PlayersSpecificSettingsAtGameStartModel playersAtGameStartModel)
-    // Offset: 0x25EE620
+    // Offset: 0x263AC50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongStartHandler* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongStartHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongStartHandler*, creationType>(multiplayerSessionManager, gameplayRpcManager, playersAtGameStartModel)));
     }
     // public System.Void GetLevelStartTimeOffset()
-    // Offset: 0x25EE6B8
+    // Offset: 0x263ACE8
     void GetLevelStartTimeOffset();
     // public System.Void Dispose()
-    // Offset: 0x25EEBC8
+    // Offset: 0x263B1F8
     void Dispose();
     // public System.Void ForceStart(System.String sessionGameId)
-    // Offset: 0x25EEDFC
+    // Offset: 0x263B42C
     void ForceStart(::StringW sessionGameId);
     // private System.Void StartSong()
-    // Offset: 0x25EF418
+    // Offset: 0x263BA48
     void StartSong();
     // private System.Void HandleSetGameplaySongReady(System.String user)
-    // Offset: 0x25EF6D8
+    // Offset: 0x263BD08
     void HandleSetGameplaySongReady(::StringW user);
     // private System.Void HandleGetGameplaySongReady(System.String user)
-    // Offset: 0x25EF998
+    // Offset: 0x263BFC8
     void HandleGetGameplaySongReady(::StringW user);
     // private System.Void HandleSetSongStartTime(System.String user, System.Single time)
-    // Offset: 0x25EFA4C
+    // Offset: 0x263C07C
     void HandleSetSongStartTime(::StringW user, float time);
     // private System.Void Log(System.String message)
-    // Offset: 0x25EFACC
+    // Offset: 0x263C0FC
     void Log(::StringW message);
   }; // SongStartHandler
   #pragma pack(pop)

@@ -40,15 +40,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class RagdollUtility::Rigidbone : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Rigidbody r
     // Size: 0x8
     // Offset: 0x10
@@ -119,39 +111,39 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     public:
     // Get instance field reference: public UnityEngine.Rigidbody r
-    ::UnityEngine::Rigidbody*& dyn_r();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rigidbody*& dyn_r();
     // Get instance field reference: public UnityEngine.Transform t
-    ::UnityEngine::Transform*& dyn_t();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_t();
     // Get instance field reference: public UnityEngine.Collider collider
-    ::UnityEngine::Collider*& dyn_collider();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Collider*& dyn_collider();
     // Get instance field reference: public UnityEngine.Joint joint
-    ::UnityEngine::Joint*& dyn_joint();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Joint*& dyn_joint();
     // Get instance field reference: public UnityEngine.Rigidbody c
-    ::UnityEngine::Rigidbody*& dyn_c();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rigidbody*& dyn_c();
     // Get instance field reference: public System.Boolean updateAnchor
-    bool& dyn_updateAnchor();
+    [[deprecated("Use field access instead!")]] bool& dyn_updateAnchor();
     // Get instance field reference: public UnityEngine.Vector3 deltaPosition
-    ::UnityEngine::Vector3& dyn_deltaPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_deltaPosition();
     // Get instance field reference: public UnityEngine.Quaternion deltaRotation
-    ::UnityEngine::Quaternion& dyn_deltaRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_deltaRotation();
     // Get instance field reference: public System.Single deltaTime
-    float& dyn_deltaTime();
+    [[deprecated("Use field access instead!")]] float& dyn_deltaTime();
     // Get instance field reference: public UnityEngine.Vector3 lastPosition
-    ::UnityEngine::Vector3& dyn_lastPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_lastPosition();
     // Get instance field reference: public UnityEngine.Quaternion lastRotation
-    ::UnityEngine::Quaternion& dyn_lastRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_lastRotation();
     // public System.Void .ctor(UnityEngine.Rigidbody r)
-    // Offset: 0x1F71A28
+    // Offset: 0x1FBE29C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RagdollUtility::Rigidbone* New_ctor(::UnityEngine::Rigidbody* r) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::RagdollUtility::Rigidbone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RagdollUtility::Rigidbone*, creationType>(r)));
     }
     // public System.Void RecordVelocity()
-    // Offset: 0x1F72634
+    // Offset: 0x1FBEEA8
     void RecordVelocity();
     // public System.Void WakeUp(System.Single velocityWeight, System.Single angularVelocityWeight)
-    // Offset: 0x1F72418
+    // Offset: 0x1FBEC8C
     void WakeUp(float velocityWeight, float angularVelocityWeight);
   }; // RootMotion.FinalIK.RagdollUtility/RootMotion.FinalIK.Rigidbone
   #pragma pack(pop)

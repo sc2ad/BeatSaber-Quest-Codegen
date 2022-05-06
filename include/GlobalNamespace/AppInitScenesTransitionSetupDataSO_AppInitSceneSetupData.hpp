@@ -34,15 +34,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData : public ::GlobalNamespace::SceneSetupData {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType <appInitOverrideStartType>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -59,23 +51,23 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::MockPlayersModel*) == 0x8);
     public:
     // Get instance field reference: private AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType <appInitOverrideStartType>k__BackingField
-    ::GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType& dyn_$appInitOverrideStartType$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType& dyn_$appInitOverrideStartType$k__BackingField();
     // Get instance field reference: private MockPlayersModel <overrideMockPlayersModel>k__BackingField
-    ::GlobalNamespace::MockPlayersModel*& dyn_$overrideMockPlayersModel$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MockPlayersModel*& dyn_$overrideMockPlayersModel$k__BackingField();
     // public AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType get_appInitOverrideStartType()
-    // Offset: 0x14B6A00
+    // Offset: 0x14EE2B8
     ::GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType get_appInitOverrideStartType();
     // private System.Void set_appInitOverrideStartType(AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType value)
-    // Offset: 0x14B6A08
+    // Offset: 0x14EE2C0
     void set_appInitOverrideStartType(::GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType value);
     // public MockPlayersModel get_overrideMockPlayersModel()
-    // Offset: 0x14B6A10
+    // Offset: 0x14EE2C8
     ::GlobalNamespace::MockPlayersModel* get_overrideMockPlayersModel();
     // private System.Void set_overrideMockPlayersModel(MockPlayersModel value)
-    // Offset: 0x14B6A18
+    // Offset: 0x14EE2D0
     void set_overrideMockPlayersModel(::GlobalNamespace::MockPlayersModel* value);
     // public System.Void .ctor(AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType appInitOverrideStartType, MockPlayersModel overrideMockPlayersModel)
-    // Offset: 0x14B6574
+    // Offset: 0x14EDE2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData* New_ctor(::GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType appInitOverrideStartType, ::GlobalNamespace::MockPlayersModel* overrideMockPlayersModel) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::.ctor");

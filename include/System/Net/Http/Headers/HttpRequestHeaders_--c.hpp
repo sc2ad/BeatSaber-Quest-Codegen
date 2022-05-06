@@ -59,29 +59,27 @@ namespace System::Net::Http::Headers {
     // Set static field: static public System.Predicate`1<System.Net.Http.Headers.TransferCodingHeaderValue> <>9__71_0
     static void _set_$$9__71_0(::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x195B6C0
+    // Offset: 0x1993CA8
     static void _cctor();
-    // System.Boolean <get_ConnectionClose>b__19_0(System.String l)
-    // Offset: 0x195B72C
-    bool $get_ConnectionClose$b__19_0(::StringW l);
-    // System.Boolean <get_ConnectionKeepAlive>b__22_0(System.String l)
-    // Offset: 0x195B784
-    bool $get_ConnectionKeepAlive$b__22_0(::StringW l);
-    // System.Boolean <get_ExpectContinue>b__29_0(System.Net.Http.Headers.TransferCodingHeaderValue l)
-    // Offset: 0x195B7DC
-    bool $get_ExpectContinue$b__29_0(::System::Net::Http::Headers::TransferCodingHeaderValue* l);
-    // System.Boolean <get_TransferEncodingChunked>b__71_0(System.Net.Http.Headers.TransferCodingHeaderValue l)
-    // Offset: 0x195B83C
-    bool $get_TransferEncodingChunked$b__71_0(::System::Net::Http::Headers::TransferCodingHeaderValue* l);
     // public System.Void .ctor()
-    // Offset: 0x195B724
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1993D0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpRequestHeaders::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::HttpRequestHeaders::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpRequestHeaders::$$c*, creationType>()));
     }
+    // System.Boolean <get_ConnectionClose>b__19_0(System.String l)
+    // Offset: 0x1993D14
+    bool $get_ConnectionClose$b__19_0(::StringW l);
+    // System.Boolean <get_ConnectionKeepAlive>b__22_0(System.String l)
+    // Offset: 0x1993D6C
+    bool $get_ConnectionKeepAlive$b__22_0(::StringW l);
+    // System.Boolean <get_ExpectContinue>b__29_0(System.Net.Http.Headers.TransferCodingHeaderValue l)
+    // Offset: 0x1993DC4
+    bool $get_ExpectContinue$b__29_0(::System::Net::Http::Headers::TransferCodingHeaderValue* l);
+    // System.Boolean <get_TransferEncodingChunked>b__71_0(System.Net.Http.Headers.TransferCodingHeaderValue l)
+    // Offset: 0x1993E24
+    bool $get_TransferEncodingChunked$b__71_0(::System::Net::Http::Headers::TransferCodingHeaderValue* l);
   }; // System.Net.Http.Headers.HttpRequestHeaders/System.Net.Http.Headers.<>c
   #pragma pack(pop)
 }
@@ -94,6 +92,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpRequestHeaders::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Net::Http::Headers::HttpRequestHeaders::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpRequestHeaders::$$c::$get_ConnectionClose$b__19_0
 // Il2CppName: <get_ConnectionClose>b__19_0
 template<>
@@ -130,7 +132,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpRequestHeaders::$$c*), "<get_TransferEncodingChunked>b__71_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{l});
   }
 };
-// Writing MetadataGetter for method: System::Net::Http::Headers::HttpRequestHeaders::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

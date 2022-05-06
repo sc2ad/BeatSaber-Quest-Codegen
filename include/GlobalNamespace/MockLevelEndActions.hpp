@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockLevelEndActions : public ::Il2CppObject/*, public ::GlobalNamespace::ILevelEndActions*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Action levelFailedEvent
     // Size: 0x8
     // Offset: 0x10
@@ -62,25 +54,23 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::ILevelEndActions*>(this);
     }
     // Get instance field reference: private System.Action levelFailedEvent
-    ::System::Action*& dyn_levelFailedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_levelFailedEvent();
     // Get instance field reference: private System.Action levelFinishedEvent
-    ::System::Action*& dyn_levelFinishedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_levelFinishedEvent();
     // public System.Void add_levelFailedEvent(System.Action value)
-    // Offset: 0x13C5958
+    // Offset: 0x13C1E04
     void add_levelFailedEvent(::System::Action* value);
     // public System.Void remove_levelFailedEvent(System.Action value)
-    // Offset: 0x13C59FC
+    // Offset: 0x13C1EA8
     void remove_levelFailedEvent(::System::Action* value);
     // public System.Void add_levelFinishedEvent(System.Action value)
-    // Offset: 0x13C5AA0
+    // Offset: 0x13C1F4C
     void add_levelFinishedEvent(::System::Action* value);
     // public System.Void remove_levelFinishedEvent(System.Action value)
-    // Offset: 0x13C5B44
+    // Offset: 0x13C1FF0
     void remove_levelFinishedEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x13C5BE8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13C2094
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockLevelEndActions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockLevelEndActions::.ctor");

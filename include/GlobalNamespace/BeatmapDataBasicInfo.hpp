@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapDataBasicInfo : public ::Il2CppObject/*, public ::GlobalNamespace::IBeatmapDataBasicInfo*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Int32 <numberOfLines>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -82,32 +74,32 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapDataBasicInfo*>(this);
     }
     // Get instance field reference: private readonly System.Int32 <numberOfLines>k__BackingField
-    int& dyn_$numberOfLines$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$numberOfLines$k__BackingField();
     // Get instance field reference: private readonly System.Int32 <cuttableNotesCount>k__BackingField
-    int& dyn_$cuttableNotesCount$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$cuttableNotesCount$k__BackingField();
     // Get instance field reference: private readonly System.Int32 <obstaclesCount>k__BackingField
-    int& dyn_$obstaclesCount$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$obstaclesCount$k__BackingField();
     // Get instance field reference: private readonly System.Int32 <bombsCount>k__BackingField
-    int& dyn_$bombsCount$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$bombsCount$k__BackingField();
     // Get instance field reference: private readonly System.Collections.Generic.IEnumerable`1<System.String> <specialBasicBeatmapEventKeywords>k__BackingField
-    ::System::Collections::Generic::IEnumerable_1<::StringW>*& dyn_$specialBasicBeatmapEventKeywords$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IEnumerable_1<::StringW>*& dyn_$specialBasicBeatmapEventKeywords$k__BackingField();
     // public System.Int32 get_numberOfLines()
-    // Offset: 0x1368BBC
+    // Offset: 0x1350E3C
     int get_numberOfLines();
     // public System.Int32 get_cuttableNotesCount()
-    // Offset: 0x1368BC4
+    // Offset: 0x1350E44
     int get_cuttableNotesCount();
     // public System.Int32 get_obstaclesCount()
-    // Offset: 0x1368BCC
+    // Offset: 0x1350E4C
     int get_obstaclesCount();
     // public System.Int32 get_bombsCount()
-    // Offset: 0x1368BD4
+    // Offset: 0x1350E54
     int get_bombsCount();
     // public System.Collections.Generic.IEnumerable`1<System.String> get_specialBasicBeatmapEventKeywords()
-    // Offset: 0x1368BDC
+    // Offset: 0x1350E5C
     ::System::Collections::Generic::IEnumerable_1<::StringW>* get_specialBasicBeatmapEventKeywords();
     // public System.Void .ctor(System.Int32 numberOfLines, System.Int32 cuttableNotesCount, System.Int32 obstaclesCount, System.Int32 bombsCount, System.Collections.Generic.IEnumerable`1<System.String> specialBasicBeatmapEventKeywords)
-    // Offset: 0x1368BE4
+    // Offset: 0x1350E64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataBasicInfo* New_ctor(int numberOfLines, int cuttableNotesCount, int obstaclesCount, int bombsCount, ::System::Collections::Generic::IEnumerable_1<::StringW>* specialBasicBeatmapEventKeywords) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataBasicInfo::.ctor");

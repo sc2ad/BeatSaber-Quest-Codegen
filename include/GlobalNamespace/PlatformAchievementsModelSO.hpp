@@ -50,15 +50,7 @@ namespace GlobalNamespace {
     class UnlockAchievementCompletionHandler;
     // Nested type: ::GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler
     class GetUnlockedAchievementsCompletionHandler;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private PS4AchievementIdsModelSO _ps4AchievementIdsModel
     // Size: 0x8
     // Offset: 0x18
@@ -81,38 +73,33 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private PS4AchievementIdsModelSO _ps4AchievementIdsModel
-    ::GlobalNamespace::PS4AchievementIdsModelSO*& dyn__ps4AchievementIdsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PS4AchievementIdsModelSO*& dyn__ps4AchievementIdsModel();
     // Get instance field reference: private AchievementIdsModelSO _achievementIdsModel
-    ::GlobalNamespace::AchievementIdsModelSO*& dyn__achievementIdsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementIdsModelSO*& dyn__achievementIdsModel();
     // Get instance field reference: private PlatformAchievementsHandler _platformAchievementsHandler
-    ::GlobalNamespace::PlatformAchievementsHandler*& dyn__platformAchievementsHandler();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlatformAchievementsHandler*& dyn__platformAchievementsHandler();
     // private PlatformAchievementsHandler get_platformAchievementsHandler()
-    // Offset: 0x12F19AC
+    // Offset: 0x1362964
     ::GlobalNamespace::PlatformAchievementsHandler* get_platformAchievementsHandler();
-    // public System.Void Initialize()
-    // Offset: 0x12F1A54
-    void Initialize();
-    // private System.Void CreatePlatformAchievementsHandler()
-    // Offset: 0x12F19DC
-    void CreatePlatformAchievementsHandler();
-    // public HMAsyncRequest UnlockAchievement(System.String achievementId, PlatformAchievementsModelSO/UnlockAchievementCompletionHandler completionHandler)
-    // Offset: 0x12F1A58
-    ::GlobalNamespace::HMAsyncRequest* UnlockAchievement(::StringW achievementId, ::GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler* completionHandler);
-    // public HMAsyncRequest GetUnlockedAchievements(PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler completionHandler)
-    // Offset: 0x12F1D40
-    ::GlobalNamespace::HMAsyncRequest* GetUnlockedAchievements(::GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler* completionHandler);
     // public System.Void .ctor()
-    // Offset: 0x12F2038
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1362FF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformAchievementsModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlatformAchievementsModelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformAchievementsModelSO*, creationType>()));
     }
+    // public System.Void Initialize()
+    // Offset: 0x1362A0C
+    void Initialize();
+    // private System.Void CreatePlatformAchievementsHandler()
+    // Offset: 0x1362994
+    void CreatePlatformAchievementsHandler();
+    // public HMAsyncRequest UnlockAchievement(System.String achievementId, PlatformAchievementsModelSO/UnlockAchievementCompletionHandler completionHandler)
+    // Offset: 0x1362A10
+    ::GlobalNamespace::HMAsyncRequest* UnlockAchievement(::StringW achievementId, ::GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler* completionHandler);
+    // public HMAsyncRequest GetUnlockedAchievements(PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler completionHandler)
+    // Offset: 0x1362CF8
+    ::GlobalNamespace::HMAsyncRequest* GetUnlockedAchievements(::GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler* completionHandler);
   }; // PlatformAchievementsModelSO
   #pragma pack(pop)
   static check_size<sizeof(PlatformAchievementsModelSO), 40 + sizeof(::GlobalNamespace::PlatformAchievementsHandler*)> __GlobalNamespace_PlatformAchievementsModelSOSizeCheck;
@@ -127,6 +114,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAchievementsModelSO*), "get_platformAchievementsHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PlatformAchievementsModelSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PlatformAchievementsModelSO::Initialize
 // Il2CppName: Initialize
 template<>
@@ -162,7 +153,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAchievementsModelSO*), "GetUnlockedAchievements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{completionHandler});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PlatformAchievementsModelSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

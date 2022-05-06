@@ -72,16 +72,8 @@ namespace OnlineServices {
     public:
     // Nested type: ::OnlineServices::ServerManager::$GetLeaderboardEntriesAsync$d__14
     struct $GetLeaderboardEntriesAsync$d__14;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x1260CF4
+    // [InjectAttribute] Offset: 0x10E599C
     // private readonly HTTPLeaderboardsModel _leaderboardsModel
     // Size: 0x8
     // Offset: 0x18
@@ -124,63 +116,57 @@ namespace OnlineServices {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly HTTPLeaderboardsModel _leaderboardsModel
-    ::GlobalNamespace::HTTPLeaderboardsModel*& dyn__leaderboardsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::HTTPLeaderboardsModel*& dyn__leaderboardsModel();
     // Get instance field reference: private System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> platformServicesAvailabilityInfoChangedEvent
-    ::System::Action_1<::OnlineServices::PlatformServicesAvailabilityInfo*>*& dyn_platformServicesAvailabilityInfoChangedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::OnlineServices::PlatformServicesAvailabilityInfo*>*& dyn_platformServicesAvailabilityInfoChangedEvent();
     // Get instance field reference: private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
-    ::System::Action_1<::StringW>*& dyn_scoreForLeaderboardDidUploadEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::StringW>*& dyn_scoreForLeaderboardDidUploadEvent();
     // Get instance field reference: private System.Boolean _initialized
-    bool& dyn__initialized();
+    [[deprecated("Use field access instead!")]] bool& dyn__initialized();
     // Get instance field reference: private OnlineServices.LevelScoreUploader _levelScoreUploader
-    ::OnlineServices::LevelScoreUploader*& dyn__levelScoreUploader();
+    [[deprecated("Use field access instead!")]] ::OnlineServices::LevelScoreUploader*& dyn__levelScoreUploader();
     // Get instance field reference: private OnlineServices.PlatformOnlineServicesAvailabilityModel _platformOnlineServicesAvailabilityModel
-    ::OnlineServices::PlatformOnlineServicesAvailabilityModel*& dyn__platformOnlineServicesAvailabilityModel();
+    [[deprecated("Use field access instead!")]] ::OnlineServices::PlatformOnlineServicesAvailabilityModel*& dyn__platformOnlineServicesAvailabilityModel();
     // public System.Boolean get_initialized()
-    // Offset: 0x12E7B8C
+    // Offset: 0x1358B2C
     bool get_initialized();
     // public System.Void add_platformServicesAvailabilityInfoChangedEvent(System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> value)
-    // Offset: 0x12E78FC
+    // Offset: 0x135889C
     void add_platformServicesAvailabilityInfoChangedEvent(::System::Action_1<::OnlineServices::PlatformServicesAvailabilityInfo*>* value);
     // public System.Void remove_platformServicesAvailabilityInfoChangedEvent(System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> value)
-    // Offset: 0x12E79A0
+    // Offset: 0x1358940
     void remove_platformServicesAvailabilityInfoChangedEvent(::System::Action_1<::OnlineServices::PlatformServicesAvailabilityInfo*>* value);
     // public System.Void add_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0x12E7A44
+    // Offset: 0x13589E4
     void add_scoreForLeaderboardDidUploadEvent(::System::Action_1<::StringW>* value);
     // public System.Void remove_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0x12E7AE8
+    // Offset: 0x1358A88
     void remove_scoreForLeaderboardDidUploadEvent(::System::Action_1<::StringW>* value);
-    // public System.Void Init()
-    // Offset: 0x12E7B94
-    void Init();
-    // public System.String GetLeaderboardId(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x12E7CBC
-    ::StringW GetLeaderboardId(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
-    // public System.Threading.Tasks.Task`1<OnlineServices.LeaderboardEntriesResult> GetLeaderboardEntriesAsync(OnlineServices.GetLeaderboardFilterData leaderboardFilterData, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x12E7CE8
-    ::System::Threading::Tasks::Task_1<::OnlineServices::LeaderboardEntriesResult*>* GetLeaderboardEntriesAsync(::OnlineServices::GetLeaderboardFilterData leaderboardFilterData, ::System::Threading::CancellationToken cancellationToken);
-    // public System.Void SendLevelScoreResult(OnlineServices.LevelScoreResultsData levelScoreResultsData)
-    // Offset: 0x12E7E14
-    void SendLevelScoreResult(::OnlineServices::LevelScoreResultsData levelScoreResultsData);
-    // private System.Void <Init>b__12_0(OnlineServices.PlatformServicesAvailabilityInfo availabilityInfo)
-    // Offset: 0x12E7E70
-    void $Init$b__12_0(::OnlineServices::PlatformServicesAvailabilityInfo* availabilityInfo);
-    // private System.Void <Init>b__12_1(System.String leaderboardId)
-    // Offset: 0x12E7EE4
-    void $Init$b__12_1(::StringW leaderboardId);
     // public System.Void .ctor()
-    // Offset: 0x12E7E68
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1358E08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::ServerManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerManager*, creationType>()));
     }
+    // public System.Void Init()
+    // Offset: 0x1358B34
+    void Init();
+    // public System.String GetLeaderboardId(IDifficultyBeatmap difficultyBeatmap)
+    // Offset: 0x1358C5C
+    ::StringW GetLeaderboardId(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
+    // public System.Threading.Tasks.Task`1<OnlineServices.LeaderboardEntriesResult> GetLeaderboardEntriesAsync(OnlineServices.GetLeaderboardFilterData leaderboardFilterData, System.Threading.CancellationToken cancellationToken)
+    // Offset: 0x1358C88
+    ::System::Threading::Tasks::Task_1<::OnlineServices::LeaderboardEntriesResult*>* GetLeaderboardEntriesAsync(::OnlineServices::GetLeaderboardFilterData leaderboardFilterData, ::System::Threading::CancellationToken cancellationToken);
+    // public System.Void SendLevelScoreResult(OnlineServices.LevelScoreResultsData levelScoreResultsData)
+    // Offset: 0x1358DB4
+    void SendLevelScoreResult(::OnlineServices::LevelScoreResultsData levelScoreResultsData);
+    // private System.Void <Init>b__12_0(OnlineServices.PlatformServicesAvailabilityInfo availabilityInfo)
+    // Offset: 0x1358E10
+    void $Init$b__12_0(::OnlineServices::PlatformServicesAvailabilityInfo* availabilityInfo);
+    // private System.Void <Init>b__12_1(System.String leaderboardId)
+    // Offset: 0x1358E84
+    void $Init$b__12_1(::StringW leaderboardId);
   }; // OnlineServices.ServerManager
   #pragma pack(pop)
   static check_size<sizeof(ServerManager), 64 + sizeof(::OnlineServices::PlatformOnlineServicesAvailabilityModel*)> __OnlineServices_ServerManagerSizeCheck;
@@ -231,6 +217,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Onlin
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::ServerManager*), "remove_scoreForLeaderboardDidUploadEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: OnlineServices::ServerManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: OnlineServices::ServerManager::Init
 // Il2CppName: Init
 template<>
@@ -285,7 +275,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Onlin
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::ServerManager*), "<Init>b__12_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardId});
   }
 };
-// Writing MetadataGetter for method: OnlineServices::ServerManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

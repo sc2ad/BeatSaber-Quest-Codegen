@@ -31,15 +31,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PartyFreePlayFlowCoordinator::$$c__DisplayClass22_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public PartyFreePlayFlowCoordinator <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -54,27 +46,29 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::ResultsViewController*) == 0x8);
     public:
     // Get instance field reference: public PartyFreePlayFlowCoordinator <>4__this
-    ::GlobalNamespace::PartyFreePlayFlowCoordinator*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PartyFreePlayFlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: public ResultsViewController resultsViewController
-    ::GlobalNamespace::ResultsViewController*& dyn_resultsViewController();
-    // System.Void <HandleResultsViewControllerRestartButtonPressed>b__0()
-    // Offset: 0x12ED144
-    void $HandleResultsViewControllerRestartButtonPressed$b__0();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ResultsViewController*& dyn_resultsViewController();
     // public System.Void .ctor()
-    // Offset: 0x12ED060
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x135E018
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PartyFreePlayFlowCoordinator::$$c__DisplayClass22_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass22_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PartyFreePlayFlowCoordinator::$$c__DisplayClass22_0*, creationType>()));
     }
+    // System.Void <HandleResultsViewControllerRestartButtonPressed>b__0()
+    // Offset: 0x135E0FC
+    void $HandleResultsViewControllerRestartButtonPressed$b__0();
   }; // PartyFreePlayFlowCoordinator/<>c__DisplayClass22_0
   #pragma pack(pop)
   static check_size<sizeof(PartyFreePlayFlowCoordinator::$$c__DisplayClass22_0), 24 + sizeof(::GlobalNamespace::ResultsViewController*)> __GlobalNamespace_PartyFreePlayFlowCoordinator_$$c__DisplayClass22_0SizeCheck;
   static_assert(sizeof(PartyFreePlayFlowCoordinator::$$c__DisplayClass22_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass22_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass22_0::$HandleResultsViewControllerRestartButtonPressed$b__0
 // Il2CppName: <HandleResultsViewControllerRestartButtonPressed>b__0
 template<>
@@ -83,7 +77,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass22_0*), "<HandleResultsViewControllerRestartButtonPressed>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass22_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

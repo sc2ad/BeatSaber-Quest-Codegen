@@ -41,15 +41,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AudioManagerSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Audio.AudioMixer _audioMixer
     // Size: 0x8
     // Offset: 0x18
@@ -144,61 +136,56 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kMusicPitchShifterWet
     static void _set_kMusicPitchShifterWet(::StringW value);
     // Get instance field reference: private UnityEngine.Audio.AudioMixer _audioMixer
-    ::UnityEngine::Audio::AudioMixer*& dyn__audioMixer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Audio::AudioMixer*& dyn__audioMixer();
     // Get instance field reference: private System.Single _spatializerPluginLatency
-    float& dyn__spatializerPluginLatency();
+    [[deprecated("Use field access instead!")]] float& dyn__spatializerPluginLatency();
     // Get instance field reference: private System.Single _spatializerSfxVolumeOffset
-    float& dyn__spatializerSfxVolumeOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__spatializerSfxVolumeOffset();
     // Get instance field reference: private System.Single _musicVolumeOffset
-    float& dyn__musicVolumeOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__musicVolumeOffset();
     // Get instance field reference: private System.Single _sfxVolumeOffset
-    float& dyn__sfxVolumeOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__sfxVolumeOffset();
     // Get instance field reference: private System.Single _sfxVolume
-    float& dyn__sfxVolume();
+    [[deprecated("Use field access instead!")]] float& dyn__sfxVolume();
     // Get instance field reference: private System.Boolean _sfxEnabled
-    bool& dyn__sfxEnabled();
+    [[deprecated("Use field access instead!")]] bool& dyn__sfxEnabled();
     // public System.Single get_sfxLatency()
-    // Offset: 0x14B9690
+    // Offset: 0x14F0F48
     float get_sfxLatency();
     // public System.Void set_mainVolume(System.Single value)
-    // Offset: 0x14B979C
+    // Offset: 0x14F1054
     void set_mainVolume(float value);
     // public System.Void set_musicVolume(System.Single value)
-    // Offset: 0x14B9808
+    // Offset: 0x14F10C0
     void set_musicVolume(float value);
     // public System.Single get_sfxVolume()
-    // Offset: 0x14B9878
+    // Offset: 0x14F1130
     float get_sfxVolume();
     // public System.Void set_sfxVolume(System.Single value)
-    // Offset: 0x14B9890
+    // Offset: 0x14F1148
     void set_sfxVolume(float value);
     // public System.Boolean get_sfxEnabled()
-    // Offset: 0x14B991C
+    // Offset: 0x14F11D4
     bool get_sfxEnabled();
     // public System.Void set_sfxEnabled(System.Boolean value)
-    // Offset: 0x14B9924
+    // Offset: 0x14F11DC
     void set_sfxEnabled(bool value);
     // public System.Void set_musicPitch(System.Single value)
-    // Offset: 0x14B9944
+    // Offset: 0x14F11FC
     void set_musicPitch(float value);
     // public System.Void set_musicSpeed(System.Single value)
-    // Offset: 0x14B9A14
+    // Offset: 0x14F12CC
     void set_musicSpeed(float value);
-    // public System.Void Init()
-    // Offset: 0x14B96F8
-    void Init();
     // public System.Void .ctor()
-    // Offset: 0x14B9A80
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14F1338
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioManagerSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AudioManagerSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioManagerSO*, creationType>()));
     }
+    // public System.Void Init()
+    // Offset: 0x14F0FB0
+    void Init();
   }; // AudioManagerSO
   #pragma pack(pop)
   static check_size<sizeof(AudioManagerSO), 52 + sizeof(bool)> __GlobalNamespace_AudioManagerSOSizeCheck;
@@ -283,6 +270,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioManagerSO*), "set_musicSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::AudioManagerSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AudioManagerSO::Init
 // Il2CppName: Init
 template<>
@@ -291,7 +282,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioManagerSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AudioManagerSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -50,15 +50,7 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class Submesh : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int32[] m_Indexes
     // Size: 0x8
     // Offset: 0x10
@@ -79,54 +71,54 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: System.Int32[] m_Indexes
-    ::ArrayW<int>& dyn_m_Indexes();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_m_Indexes();
     // Get instance field reference: UnityEngine.MeshTopology m_Topology
-    ::UnityEngine::MeshTopology& dyn_m_Topology();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MeshTopology& dyn_m_Topology();
     // Get instance field reference: System.Int32 m_SubmeshIndex
-    int& dyn_m_SubmeshIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_m_SubmeshIndex();
     // public System.Collections.Generic.IEnumerable`1<System.Int32> get_indexes()
-    // Offset: 0x2953030
+    // Offset: 0x29A35F0
     ::System::Collections::Generic::IEnumerable_1<int>* get_indexes();
     // public System.Void set_indexes(System.Collections.Generic.IEnumerable`1<System.Int32> value)
-    // Offset: 0x29530A0
+    // Offset: 0x29A3660
     void set_indexes(::System::Collections::Generic::IEnumerable_1<int>* value);
     // public UnityEngine.MeshTopology get_topology()
-    // Offset: 0x2953104
+    // Offset: 0x29A36C4
     ::UnityEngine::MeshTopology get_topology();
     // public System.Void set_topology(UnityEngine.MeshTopology value)
-    // Offset: 0x295310C
+    // Offset: 0x29A36CC
     void set_topology(::UnityEngine::MeshTopology value);
     // public System.Int32 get_submeshIndex()
-    // Offset: 0x2953114
+    // Offset: 0x29A36D4
     int get_submeshIndex();
     // public System.Void set_submeshIndex(System.Int32 value)
-    // Offset: 0x295311C
+    // Offset: 0x29A36DC
     void set_submeshIndex(int value);
     // public System.Void .ctor(System.Int32 submeshIndex, UnityEngine.MeshTopology topology, System.Collections.Generic.IEnumerable`1<System.Int32> indexes)
-    // Offset: 0x2953124
+    // Offset: 0x29A36E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Submesh* New_ctor(int submeshIndex, ::UnityEngine::MeshTopology topology, ::System::Collections::Generic::IEnumerable_1<int>* indexes) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Submesh::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Submesh*, creationType>(submeshIndex, topology, indexes)));
     }
     // public System.Void .ctor(UnityEngine.Mesh mesh, System.Int32 subMeshIndex)
-    // Offset: 0x29531E8
+    // Offset: 0x29A37A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Submesh* New_ctor(::UnityEngine::Mesh* mesh, int subMeshIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Submesh::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Submesh*, creationType>(mesh, subMeshIndex)));
     }
     // static System.Int32 GetSubmeshCount(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x29533E8
+    // Offset: 0x29A39A8
     static int GetSubmeshCount(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static public UnityEngine.ProBuilder.Submesh[] GetSubmeshes(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Int32 submeshCount, UnityEngine.MeshTopology preferredTopology)
-    // Offset: 0x295346C
+    // Offset: 0x29A3A2C
     static ::ArrayW<::UnityEngine::ProBuilder::Submesh*> GetSubmeshes(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, int submeshCount, ::UnityEngine::MeshTopology preferredTopology);
     // static System.Void MapFaceMaterialsToSubmeshIndex(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x2953D74
+    // Offset: 0x29A4334
     static void MapFaceMaterialsToSubmeshIndex(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // public override System.String ToString()
-    // Offset: 0x29532E4
+    // Offset: 0x29A38A4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

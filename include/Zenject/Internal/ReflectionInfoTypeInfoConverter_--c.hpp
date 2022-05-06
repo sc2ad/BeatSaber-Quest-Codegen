@@ -65,32 +65,30 @@ namespace Zenject::Internal {
     // Set static field: static public System.Func`2<System.Reflection.FieldInfo,System.String> <>9__8_1
     static void _set_$$9__8_1(::System::Func_2<::System::Reflection::FieldInfo*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1BD319C
+    // Offset: 0x1C0D784
     static void _cctor();
-    // Zenject.InjectableInfo <ConvertMethod>b__0_1(Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo x)
-    // Offset: 0x1BD3208
-    ::Zenject::InjectableInfo* $ConvertMethod$b__0_1(::Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo* x);
-    // Zenject.InjectableInfo <ConvertConstructor>b__1_0(Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo x)
-    // Offset: 0x1BD3220
-    ::Zenject::InjectableInfo* $ConvertConstructor$b__1_0(::Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo* x);
-    // System.String <GetOnlyPropertySetter>b__8_1(System.Reflection.FieldInfo f)
-    // Offset: 0x1BD3238
-    ::StringW $GetOnlyPropertySetter$b__8_1(::System::Reflection::FieldInfo* f);
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1BD3258
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1BD32B4
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1BD3200
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C0D7E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionInfoTypeInfoConverter::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionInfoTypeInfoConverter::$$c*, creationType>()));
     }
+    // Zenject.InjectableInfo <ConvertMethod>b__0_1(Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo x)
+    // Offset: 0x1C0D7F0
+    ::Zenject::InjectableInfo* $ConvertMethod$b__0_1(::Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo* x);
+    // Zenject.InjectableInfo <ConvertConstructor>b__1_0(Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo x)
+    // Offset: 0x1C0D808
+    ::Zenject::InjectableInfo* $ConvertConstructor$b__1_0(::Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo* x);
+    // System.String <GetOnlyPropertySetter>b__8_1(System.Reflection.FieldInfo f)
+    // Offset: 0x1C0D820
+    ::StringW $GetOnlyPropertySetter$b__8_1(::System::Reflection::FieldInfo* f);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1C0D840
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1C0D89C
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.Internal.ReflectionInfoTypeInfoConverter/Zenject.Internal.<>c
   #pragma pack(pop)
 }
@@ -103,6 +101,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::$ConvertMethod$b__0_1
 // Il2CppName: <ConvertMethod>b__0_1
 template<>
@@ -147,7 +149,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

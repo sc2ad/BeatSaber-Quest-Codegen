@@ -26,15 +26,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class QuickPlaySongPacksDropdown::SongPackMaskItem : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String serializedName
     // Size: 0x8
     // Offset: 0x10
@@ -63,17 +55,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::SongPackMask) == 0x10);
     public:
     // Get instance field reference: public System.String serializedName
-    ::StringW& dyn_serializedName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_serializedName();
     // Get instance field reference: public System.String localizedName
-    ::StringW& dyn_localizedName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_localizedName();
     // Get instance field reference: public System.Int32 order
-    int& dyn_order();
+    [[deprecated("Use field access instead!")]] int& dyn_order();
     // Get instance field reference: public SongPackMask songPackMask
-    ::GlobalNamespace::SongPackMask& dyn_songPackMask();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongPackMask& dyn_songPackMask();
     // public System.Void .ctor()
-    // Offset: 0x137BF38
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13E3280
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static QuickPlaySongPacksDropdown::SongPackMaskItem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem::.ctor");

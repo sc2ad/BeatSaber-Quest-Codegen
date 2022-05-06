@@ -34,15 +34,7 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class IdnMapping : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean allow_unassigned
     // Size: 0x1
     // Offset: 0x10
@@ -65,46 +57,46 @@ namespace System::Globalization {
     static_assert(sizeof(::System::Globalization::Punycode*) == 0x8);
     public:
     // Get instance field reference: private System.Boolean allow_unassigned
-    bool& dyn_allow_unassigned();
+    [[deprecated("Use field access instead!")]] bool& dyn_allow_unassigned();
     // Get instance field reference: private System.Boolean use_std3
-    bool& dyn_use_std3();
+    [[deprecated("Use field access instead!")]] bool& dyn_use_std3();
     // Get instance field reference: private System.Globalization.Punycode puny
-    ::System::Globalization::Punycode*& dyn_puny();
+    [[deprecated("Use field access instead!")]] ::System::Globalization::Punycode*& dyn_puny();
     // public System.String GetAscii(System.String unicode)
-    // Offset: 0x20F549C
+    // Offset: 0x213FD10
     ::StringW GetAscii(::StringW unicode);
     // public System.String GetAscii(System.String unicode, System.Int32 index, System.Int32 count)
-    // Offset: 0x20F5538
+    // Offset: 0x213FDAC
     ::StringW GetAscii(::StringW unicode, int index, int count);
     // private System.String Convert(System.String input, System.Int32 index, System.Int32 count, System.Boolean toAscii)
-    // Offset: 0x20F5648
+    // Offset: 0x213FEBC
     ::StringW Convert(::StringW input, int index, int count, bool toAscii);
     // private System.String ToAscii(System.String s, System.Int32 offset)
-    // Offset: 0x20F586C
+    // Offset: 0x21400E0
     ::StringW ToAscii(::StringW s, int offset);
     // private System.Void VerifyLength(System.String s, System.Int32 offset)
-    // Offset: 0x20F5FD8
+    // Offset: 0x214084C
     void VerifyLength(::StringW s, int offset);
     // private System.String NamePrep(System.String s, System.Int32 offset)
-    // Offset: 0x20F5C8C
+    // Offset: 0x2140500
     ::StringW NamePrep(::StringW s, int offset);
     // private System.Void VerifyProhibitedCharacters(System.String s, System.Int32 offset)
-    // Offset: 0x20F60D0
+    // Offset: 0x2140944
     void VerifyProhibitedCharacters(::StringW s, int offset);
     // private System.Void VerifyStd3AsciiRules(System.String s, System.Int32 offset)
-    // Offset: 0x20F5DE8
+    // Offset: 0x214065C
     void VerifyStd3AsciiRules(::StringW s, int offset);
     // public System.String GetUnicode(System.String ascii)
-    // Offset: 0x20F631C
+    // Offset: 0x2140B90
     ::StringW GetUnicode(::StringW ascii);
     // public System.String GetUnicode(System.String ascii, System.Int32 index, System.Int32 count)
-    // Offset: 0x20F63B8
+    // Offset: 0x2140C2C
     ::StringW GetUnicode(::StringW ascii, int index, int count);
     // private System.String ToUnicode(System.String s, System.Int32 offset)
-    // Offset: 0x20F5AAC
+    // Offset: 0x2140320
     ::StringW ToUnicode(::StringW s, int offset);
     // public System.Void .ctor()
-    // Offset: 0x20F52F0
+    // Offset: 0x213FB64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -113,12 +105,12 @@ namespace System::Globalization {
       return THROW_UNLESS((::il2cpp_utils::New<IdnMapping*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x20F53C8
+    // Offset: 0x213FC3C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x20F5480
+    // Offset: 0x213FCF4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

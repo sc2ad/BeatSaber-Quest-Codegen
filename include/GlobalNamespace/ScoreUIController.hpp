@@ -51,29 +51,21 @@ namespace GlobalNamespace {
     class InitData;
     // Nested type: ::GlobalNamespace::ScoreUIController::ScoreDisplayType
     struct ScoreDisplayType;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _scoreText
     // Size: 0x8
     // Offset: 0x18
     ::TMPro::TextMeshProUGUI* scoreText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0x12526E4
+    // [InjectOptionalAttribute] Offset: 0x10D72C8
     // private readonly ScoreUIController/InitData _initData
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::ScoreUIController::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ScoreUIController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x12526F4
+    // [InjectAttribute] Offset: 0x10D72D8
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x28
@@ -96,56 +88,54 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxNumberOfDigits
     static void _set_kMaxNumberOfDigits(int value);
     // Get instance field reference: private TMPro.TextMeshProUGUI _scoreText
-    ::TMPro::TextMeshProUGUI*& dyn__scoreText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__scoreText();
     // Get instance field reference: private readonly ScoreUIController/InitData _initData
-    ::GlobalNamespace::ScoreUIController::InitData*& dyn__initData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ScoreUIController::InitData*& dyn__initData();
     // Get instance field reference: private readonly IScoreController _scoreController
-    ::GlobalNamespace::IScoreController*& dyn__scoreController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IScoreController*& dyn__scoreController();
     // Get instance field reference: private System.Text.StringBuilder _stringBuilder
-    ::System::Text::StringBuilder*& dyn__stringBuilder();
-    // protected System.Void Start()
-    // Offset: 0x1425B14
-    void Start();
-    // protected System.Void OnEnable()
-    // Offset: 0x1425F38
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x1425F3C
-    void OnDisable();
-    // private System.Void RegisterForEvents()
-    // Offset: 0x1425B8C
-    void RegisterForEvents();
-    // private System.Void UnregisterFromEvents()
-    // Offset: 0x1425F40
-    void UnregisterFromEvents();
-    // private System.Void HandleScoreDidChangeRealtime(System.Int32 multipliedScore, System.Int32 modifiedScore)
-    // Offset: 0x1426040
-    void HandleScoreDidChangeRealtime(int multipliedScore, int modifiedScore);
-    // private System.Void UpdateScore(System.Int32 multipliedScore, System.Int32 modifiedScore)
-    // Offset: 0x1425D30
-    void UpdateScore(int multipliedScore, int modifiedScore);
-    // static private System.Void Append000Number(System.Text.StringBuilder stringBuilder, System.Int32 number)
-    // Offset: 0x1426044
-    static void Append000Number(::System::Text::StringBuilder* stringBuilder, int number);
+    [[deprecated("Use field access instead!")]] ::System::Text::StringBuilder*& dyn__stringBuilder();
     // public System.Void .ctor()
-    // Offset: 0x14260F4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1467728
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScoreUIController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScoreUIController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScoreUIController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x1467148
+    void Start();
+    // protected System.Void OnEnable()
+    // Offset: 0x146756C
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x1467570
+    void OnDisable();
+    // private System.Void RegisterForEvents()
+    // Offset: 0x14671C0
+    void RegisterForEvents();
+    // private System.Void UnregisterFromEvents()
+    // Offset: 0x1467574
+    void UnregisterFromEvents();
+    // private System.Void HandleScoreDidChangeRealtime(System.Int32 multipliedScore, System.Int32 modifiedScore)
+    // Offset: 0x1467674
+    void HandleScoreDidChangeRealtime(int multipliedScore, int modifiedScore);
+    // private System.Void UpdateScore(System.Int32 multipliedScore, System.Int32 modifiedScore)
+    // Offset: 0x1467364
+    void UpdateScore(int multipliedScore, int modifiedScore);
+    // static private System.Void Append000Number(System.Text.StringBuilder stringBuilder, System.Int32 number)
+    // Offset: 0x1467678
+    static void Append000Number(::System::Text::StringBuilder* stringBuilder, int number);
   }; // ScoreUIController
   #pragma pack(pop)
   static check_size<sizeof(ScoreUIController), 48 + sizeof(::System::Text::StringBuilder*)> __GlobalNamespace_ScoreUIControllerSizeCheck;
   static_assert(sizeof(ScoreUIController) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ScoreUIController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ScoreUIController::Start
 // Il2CppName: Start
 template<>
@@ -216,7 +206,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreUIController*), "Append000Number", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stringBuilder, number});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ScoreUIController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

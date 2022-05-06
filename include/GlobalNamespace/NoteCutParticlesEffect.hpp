@@ -45,15 +45,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoteCutParticlesEffect : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.ParticleSystem _sparklesPS
     // Size: 0x8
     // Offset: 0x18
@@ -142,56 +134,54 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem _sparklesPS
-    ::UnityEngine::ParticleSystem*& dyn__sparklesPS();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn__sparklesPS();
     // Get instance field reference: private UnityEngine.ParticleSystem _explosionPS
-    ::UnityEngine::ParticleSystem*& dyn__explosionPS();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn__explosionPS();
     // Get instance field reference: private UnityEngine.ParticleSystem _explosionCorePS
-    ::UnityEngine::ParticleSystem*& dyn__explosionCorePS();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn__explosionCorePS();
     // Get instance field reference: private UnityEngine.ParticleSystem _explosionPrePassBloomPS
-    ::UnityEngine::ParticleSystem*& dyn__explosionPrePassBloomPS();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn__explosionPrePassBloomPS();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _sparklesPSEmitParams
-    ::UnityEngine::ParticleSystem::EmitParams& dyn__sparklesPSEmitParams();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::EmitParams& dyn__sparklesPSEmitParams();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.MainModule _sparklesPSMainModule
-    ::UnityEngine::ParticleSystem::MainModule& dyn__sparklesPSMainModule();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::MainModule& dyn__sparklesPSMainModule();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _sparklesPSShapeModule
-    ::UnityEngine::ParticleSystem::ShapeModule& dyn__sparklesPSShapeModule();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::ShapeModule& dyn__sparklesPSShapeModule();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.MinMaxCurve _sparklesLifetimeMinMaxCurve
-    ::UnityEngine::ParticleSystem::MinMaxCurve& dyn__sparklesLifetimeMinMaxCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::MinMaxCurve& dyn__sparklesLifetimeMinMaxCurve();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _explosionPSEmitParams
-    ::UnityEngine::ParticleSystem::EmitParams& dyn__explosionPSEmitParams();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::EmitParams& dyn__explosionPSEmitParams();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _explosionCorePSEmitParams
-    ::UnityEngine::ParticleSystem::EmitParams& dyn__explosionCorePSEmitParams();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::EmitParams& dyn__explosionCorePSEmitParams();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.MainModule _explosionCorePSMainModule
-    ::UnityEngine::ParticleSystem::MainModule& dyn__explosionCorePSMainModule();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::MainModule& dyn__explosionCorePSMainModule();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _explosionCorePSShapeModule
-    ::UnityEngine::ParticleSystem::ShapeModule& dyn__explosionCorePSShapeModule();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::ShapeModule& dyn__explosionCorePSShapeModule();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _explosionPrePassBloomPSShapeModule
-    ::UnityEngine::ParticleSystem::ShapeModule& dyn__explosionPrePassBloomPSShapeModule();
-    // protected System.Void Awake()
-    // Offset: 0x14760C8
-    void Awake();
-    // public System.Void SpawnParticles(UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, UnityEngine.Vector3 saberDir, System.Single saberSpeed, UnityEngine.Vector3 noteMovementVec, UnityEngine.Color32 color, System.Int32 sparkleParticlesCount, System.Int32 explosionParticlesCount, System.Single lifetimeMultiplier)
-    // Offset: 0x14752C0
-    void SpawnParticles(::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, ::UnityEngine::Vector3 saberDir, float saberSpeed, ::UnityEngine::Vector3 noteMovementVec, ::UnityEngine::Color32 color, int sparkleParticlesCount, int explosionParticlesCount, float lifetimeMultiplier);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::ShapeModule& dyn__explosionPrePassBloomPSShapeModule();
     // public System.Void .ctor()
-    // Offset: 0x147621C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14ACA04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutParticlesEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutParticlesEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutParticlesEffect*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x14AC8B0
+    void Awake();
+    // public System.Void SpawnParticles(UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, UnityEngine.Vector3 saberDir, System.Single saberSpeed, UnityEngine.Vector3 noteMovementVec, UnityEngine.Color32 color, System.Int32 sparkleParticlesCount, System.Int32 explosionParticlesCount, System.Single lifetimeMultiplier)
+    // Offset: 0x14ABAA8
+    void SpawnParticles(::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, ::UnityEngine::Vector3 saberDir, float saberSpeed, ::UnityEngine::Vector3 noteMovementVec, ::UnityEngine::Color32 color, int sparkleParticlesCount, int explosionParticlesCount, float lifetimeMultiplier);
   }; // NoteCutParticlesEffect
   #pragma pack(pop)
   static check_size<sizeof(NoteCutParticlesEffect), 552 + sizeof(::UnityEngine::ParticleSystem::ShapeModule)> __GlobalNamespace_NoteCutParticlesEffectSizeCheck;
   static_assert(sizeof(NoteCutParticlesEffect) == 0x230);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutParticlesEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutParticlesEffect::Awake
 // Il2CppName: Awake
 template<>
@@ -217,7 +207,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutParticlesEffect*), "SpawnParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cutPoint, cutNormal, saberDir, saberSpeed, noteMovementVec, color, sparkleParticlesCount, explosionParticlesCount, lifetimeMultiplier});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NoteCutParticlesEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

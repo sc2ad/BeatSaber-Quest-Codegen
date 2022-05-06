@@ -38,15 +38,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::LightGroupSubsystem::RefreshContext
     struct RefreshContext;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private LightGroup _lightGroup
     // Size: 0x8
     // Offset: 0x18
@@ -57,21 +49,15 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private LightGroup _lightGroup
-    ::GlobalNamespace::LightGroup*& dyn__lightGroup();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightGroup*& dyn__lightGroup();
     // public System.Int32 get_groupId()
-    // Offset: 0x148CBCC
+    // Offset: 0x14C3454
     int get_groupId();
     // protected LightGroup get_lightGroup()
-    // Offset: 0x148CBE8
+    // Offset: 0x14C3470
     ::GlobalNamespace::LightGroup* get_lightGroup();
     // protected System.Void .ctor()
-    // Offset: 0x148BC04
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14C2484
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightGroupSubsystem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightGroupSubsystem::.ctor");

@@ -24,15 +24,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class NameTable::Entry : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.String str
     // Size: 0x8
     // Offset: 0x10
@@ -55,13 +47,13 @@ namespace System::Xml {
     static_assert(sizeof(::System::Xml::NameTable::Entry*) == 0x8);
     public:
     // Get instance field reference: System.String str
-    ::StringW& dyn_str();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_str();
     // Get instance field reference: System.Int32 hashCode
-    int& dyn_hashCode();
+    [[deprecated("Use field access instead!")]] int& dyn_hashCode();
     // Get instance field reference: System.Xml.NameTable/System.Xml.Entry next
-    ::System::Xml::NameTable::Entry*& dyn_next();
+    [[deprecated("Use field access instead!")]] ::System::Xml::NameTable::Entry*& dyn_next();
     // System.Void .ctor(System.String str, System.Int32 hashCode, System.Xml.NameTable/System.Xml.Entry next)
-    // Offset: 0x1A8F458
+    // Offset: 0x1AC9A40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameTable::Entry* New_ctor(::StringW str, int hashCode, ::System::Xml::NameTable::Entry* next) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::NameTable::Entry::.ctor");

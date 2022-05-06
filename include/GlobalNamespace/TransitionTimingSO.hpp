@@ -30,15 +30,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TransitionTimingSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private EaseType _easeType
     // Size: 0x4
     // Offset: 0x18
@@ -55,22 +47,17 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private EaseType _easeType
-    ::GlobalNamespace::EaseType& dyn__easeType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EaseType& dyn__easeType();
     // Get instance field reference: private System.Single _easeDuration
-    float& dyn__easeDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__easeDuration();
     // public EaseType get_easeType()
-    // Offset: 0x1341A7C
+    // Offset: 0x148DD74
     ::GlobalNamespace::EaseType get_easeType();
     // public System.Single get_easeDuration()
-    // Offset: 0x1341A84
+    // Offset: 0x148DD7C
     float get_easeDuration();
     // public System.Void .ctor()
-    // Offset: 0x1341A8C
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x148DD84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TransitionTimingSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TransitionTimingSO::.ctor");

@@ -25,23 +25,20 @@ namespace System::IO::Compression {
   // [TokenAttribute] Offset: FFFFFFFF
   class DeflateStreamNative::SafeDeflateStreamHandle : public ::System::Runtime::InteropServices::SafeHandle {
     public:
-    // public override System.Boolean get_IsInvalid()
-    // Offset: 0x1CB2934
-    // Implemented from: System.Runtime.InteropServices.SafeHandle
-    // Base method: System.Boolean SafeHandle::get_IsInvalid()
-    bool get_IsInvalid();
     // private System.Void .ctor()
-    // Offset: 0x1CB28E0
-    // Implemented from: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-    // Base method: System.Void CriticalFinalizerObject::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1CEEE38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DeflateStreamNative::SafeDeflateStreamHandle* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DeflateStreamNative::SafeDeflateStreamHandle*, creationType>()));
     }
+    // public override System.Boolean get_IsInvalid()
+    // Offset: 0x1CEEE8C
+    // Implemented from: System.Runtime.InteropServices.SafeHandle
+    // Base method: System.Boolean SafeHandle::get_IsInvalid()
+    bool get_IsInvalid();
     // protected override System.Boolean ReleaseHandle()
-    // Offset: 0x1CB2980
+    // Offset: 0x1CEEED8
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::ReleaseHandle()
     bool ReleaseHandle();
@@ -49,6 +46,10 @@ namespace System::IO::Compression {
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle::get_IsInvalid
 // Il2CppName: get_IsInvalid
 template<>
@@ -57,10 +58,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle*), "get_IsInvalid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle::ReleaseHandle
 // Il2CppName: ReleaseHandle
 template<>

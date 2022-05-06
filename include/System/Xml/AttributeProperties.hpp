@@ -66,7 +66,7 @@ namespace System::Xml {
     // Set static field: static public System.Xml.AttributeProperties NAME
     static void _set_NAME(::System::Xml::AttributeProperties value);
     // Get instance field reference: public System.UInt32 value__
-    uint& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint& dyn_value__();
   }; // System.Xml.AttributeProperties
   #pragma pack(pop)
   static check_size<sizeof(AttributeProperties), 0 + sizeof(uint)> __System_Xml_AttributePropertiesSizeCheck;

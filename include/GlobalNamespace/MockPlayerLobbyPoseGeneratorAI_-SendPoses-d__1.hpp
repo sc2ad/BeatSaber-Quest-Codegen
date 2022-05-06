@@ -157,44 +157,44 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public MockPlayerLobbyPoseGeneratorAI <>4__this
-    ::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI*& dyn_$$4__this();
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
-    ::System::Threading::CancellationToken& dyn_cancellationToken();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: private UnityEngine.Pose <headPose>5__2
-    ::UnityEngine::Pose& dyn_$headPose$5__2();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Pose& dyn_$headPose$5__2();
     // Get instance field reference: private UnityEngine.Pose <leftHandPose>5__3
-    ::UnityEngine::Pose& dyn_$leftHandPose$5__3();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Pose& dyn_$leftHandPose$5__3();
     // Get instance field reference: private UnityEngine.Pose <rightHandPose>5__4
-    ::UnityEngine::Pose& dyn_$rightHandPose$5__4();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Pose& dyn_$rightHandPose$5__4();
     // Get instance field reference: private System.Random <random>5__5
-    ::System::Random*& dyn_$random$5__5();
+    [[deprecated("Use field access instead!")]] ::System::Random*& dyn_$random$5__5();
     // Get instance field reference: private UnityEngine.Pose <lastHeadPoseTarget>5__6
-    ::UnityEngine::Pose& dyn_$lastHeadPoseTarget$5__6();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Pose& dyn_$lastHeadPoseTarget$5__6();
     // Get instance field reference: private UnityEngine.Pose <lastLeftHandPoseTarget>5__7
-    ::UnityEngine::Pose& dyn_$lastLeftHandPoseTarget$5__7();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Pose& dyn_$lastLeftHandPoseTarget$5__7();
     // Get instance field reference: private UnityEngine.Pose <lastRightHandPoseTarget>5__8
-    ::UnityEngine::Pose& dyn_$lastRightHandPoseTarget$5__8();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Pose& dyn_$lastRightHandPoseTarget$5__8();
     // Get instance field reference: private System.Single <lastTargetTime>5__9
-    float& dyn_$lastTargetTime$5__9();
+    [[deprecated("Use field access instead!")]] float& dyn_$lastTargetTime$5__9();
     // Get instance field reference: private UnityEngine.Pose <headPoseTarget>5__10
-    ::UnityEngine::Pose& dyn_$headPoseTarget$5__10();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Pose& dyn_$headPoseTarget$5__10();
     // Get instance field reference: private UnityEngine.Pose <leftHandPoseTarget>5__11
-    ::UnityEngine::Pose& dyn_$leftHandPoseTarget$5__11();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Pose& dyn_$leftHandPoseTarget$5__11();
     // Get instance field reference: private UnityEngine.Pose <rightHandPoseTarget>5__12
-    ::UnityEngine::Pose& dyn_$rightHandPoseTarget$5__12();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Pose& dyn_$rightHandPoseTarget$5__12();
     // Get instance field reference: private System.Single <nextTargetTime>5__13
-    float& dyn_$nextTargetTime$5__13();
+    [[deprecated("Use field access instead!")]] float& dyn_$nextTargetTime$5__13();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x2A55FC4
+    // Offset: 0x2AAD3AC
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x2A57050
+    // Offset: 0x2AAE438
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MockPlayerLobbyPoseGeneratorAI/<SendPoses>d__1
   #pragma pack(pop)

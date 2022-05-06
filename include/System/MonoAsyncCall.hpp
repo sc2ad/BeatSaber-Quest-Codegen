@@ -29,15 +29,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoAsyncCall : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Object msg
     // Size: 0x8
     // Offset: 0x10
@@ -76,19 +68,19 @@ namespace System {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: private System.Object msg
-    ::Il2CppObject*& dyn_msg();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_msg();
     // Get instance field reference: private System.IntPtr cb_method
-    ::System::IntPtr& dyn_cb_method();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_cb_method();
     // Get instance field reference: private System.Object cb_target
-    ::Il2CppObject*& dyn_cb_target();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_cb_target();
     // Get instance field reference: private System.Object state
-    ::Il2CppObject*& dyn_state();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_state();
     // Get instance field reference: private System.Object res
-    ::Il2CppObject*& dyn_res();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_res();
     // Get instance field reference: private System.Object out_args
-    ::Il2CppObject*& dyn_out_args();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_out_args();
     // public System.Void .ctor()
-    // Offset: 0x1B96EC0
+    // Offset: 0x1BD14A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

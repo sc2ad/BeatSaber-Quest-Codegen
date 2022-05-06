@@ -46,20 +46,18 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IConnectedPlayer,System.Int32> <>9__102_0
     static void _set_$$9__102_0(::System::Func_2<::GlobalNamespace::IConnectedPlayer*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x170564C
+    // Offset: 0x173DF5C
     static void _cctor();
-    // System.Int32 <TryUpdateConnectedPlayer>b__102_0(IConnectedPlayer p)
-    // Offset: 0x17056B8
-    int $TryUpdateConnectedPlayer$b__102_0(::GlobalNamespace::IConnectedPlayer* p);
     // public System.Void .ctor()
-    // Offset: 0x17056B0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x173DFC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerSessionManager::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerSessionManager::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerSessionManager::$$c*, creationType>()));
     }
+    // System.Int32 <TryUpdateConnectedPlayer>b__102_0(IConnectedPlayer p)
+    // Offset: 0x173DFC8
+    int $TryUpdateConnectedPlayer$b__102_0(::GlobalNamespace::IConnectedPlayer* p);
   }; // MultiplayerSessionManager/<>c
   #pragma pack(pop)
 }
@@ -72,6 +70,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::$$c::$TryUpdateConnectedPlayer$b__102_0
 // Il2CppName: <TryUpdateConnectedPlayer>b__102_0
 template<>
@@ -81,7 +83,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager::$$c*), "<TryUpdateConnectedPlayer>b__102_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

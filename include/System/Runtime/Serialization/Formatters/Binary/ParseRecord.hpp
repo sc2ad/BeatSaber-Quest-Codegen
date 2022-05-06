@@ -61,15 +61,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParseRecord : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Runtime.Serialization.Formatters.Binary.InternalParseTypeE PRparseTypeEnum
     // Size: 0x4
     // Offset: 0x10
@@ -328,93 +320,93 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static System.Int32 parseRecordIdCount
     static void _set_parseRecordIdCount(int value);
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalParseTypeE PRparseTypeEnum
-    ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE& dyn_PRparseTypeEnum();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE& dyn_PRparseTypeEnum();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalObjectTypeE PRobjectTypeEnum
-    ::System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE& dyn_PRobjectTypeEnum();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE& dyn_PRobjectTypeEnum();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalArrayTypeE PRarrayTypeEnum
-    ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE& dyn_PRarrayTypeEnum();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE& dyn_PRarrayTypeEnum();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalMemberTypeE PRmemberTypeEnum
-    ::System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE& dyn_PRmemberTypeEnum();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE& dyn_PRmemberTypeEnum();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalMemberValueE PRmemberValueEnum
-    ::System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE& dyn_PRmemberValueEnum();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE& dyn_PRmemberValueEnum();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalObjectPositionE PRobjectPositionEnum
-    ::System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE& dyn_PRobjectPositionEnum();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE& dyn_PRobjectPositionEnum();
     // Get instance field reference: System.String PRname
-    ::StringW& dyn_PRname();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_PRname();
     // Get instance field reference: System.String PRvalue
-    ::StringW& dyn_PRvalue();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_PRvalue();
     // Get instance field reference: System.Object PRvarValue
-    ::Il2CppObject*& dyn_PRvarValue();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_PRvarValue();
     // Get instance field reference: System.String PRkeyDt
-    ::StringW& dyn_PRkeyDt();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_PRkeyDt();
     // Get instance field reference: System.Type PRdtType
-    ::System::Type*& dyn_PRdtType();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_PRdtType();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE PRdtTypeCode
-    ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& dyn_PRdtTypeCode();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& dyn_PRdtTypeCode();
     // Get instance field reference: System.Boolean PRisEnum
-    bool& dyn_PRisEnum();
+    [[deprecated("Use field access instead!")]] bool& dyn_PRisEnum();
     // Get instance field reference: System.Int64 PRobjectId
-    int64_t& dyn_PRobjectId();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_PRobjectId();
     // Get instance field reference: System.Int64 PRidRef
-    int64_t& dyn_PRidRef();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_PRidRef();
     // Get instance field reference: System.String PRarrayElementTypeString
-    ::StringW& dyn_PRarrayElementTypeString();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_PRarrayElementTypeString();
     // Get instance field reference: System.Type PRarrayElementType
-    ::System::Type*& dyn_PRarrayElementType();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_PRarrayElementType();
     // Get instance field reference: System.Boolean PRisArrayVariant
-    bool& dyn_PRisArrayVariant();
+    [[deprecated("Use field access instead!")]] bool& dyn_PRisArrayVariant();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE PRarrayElementTypeCode
-    ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& dyn_PRarrayElementTypeCode();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& dyn_PRarrayElementTypeCode();
     // Get instance field reference: System.Int32 PRrank
-    int& dyn_PRrank();
+    [[deprecated("Use field access instead!")]] int& dyn_PRrank();
     // Get instance field reference: System.Int32[] PRlengthA
-    ::ArrayW<int>& dyn_PRlengthA();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_PRlengthA();
     // Get instance field reference: System.Int32[] PRpositionA
-    ::ArrayW<int>& dyn_PRpositionA();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_PRpositionA();
     // Get instance field reference: System.Int32[] PRlowerBoundA
-    ::ArrayW<int>& dyn_PRlowerBoundA();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_PRlowerBoundA();
     // Get instance field reference: System.Int32[] PRupperBoundA
-    ::ArrayW<int>& dyn_PRupperBoundA();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_PRupperBoundA();
     // Get instance field reference: System.Int32[] PRindexMap
-    ::ArrayW<int>& dyn_PRindexMap();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_PRindexMap();
     // Get instance field reference: System.Int32 PRmemberIndex
-    int& dyn_PRmemberIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_PRmemberIndex();
     // Get instance field reference: System.Int32 PRlinearlength
-    int& dyn_PRlinearlength();
+    [[deprecated("Use field access instead!")]] int& dyn_PRlinearlength();
     // Get instance field reference: System.Int32[] PRrectangularMap
-    ::ArrayW<int>& dyn_PRrectangularMap();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_PRrectangularMap();
     // Get instance field reference: System.Boolean PRisLowerBound
-    bool& dyn_PRisLowerBound();
+    [[deprecated("Use field access instead!")]] bool& dyn_PRisLowerBound();
     // Get instance field reference: System.Int64 PRtopId
-    int64_t& dyn_PRtopId();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_PRtopId();
     // Get instance field reference: System.Int64 PRheaderId
-    int64_t& dyn_PRheaderId();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_PRheaderId();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo PRobjectInfo
-    ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*& dyn_PRobjectInfo();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*& dyn_PRobjectInfo();
     // Get instance field reference: System.Boolean PRisValueTypeFixup
-    bool& dyn_PRisValueTypeFixup();
+    [[deprecated("Use field access instead!")]] bool& dyn_PRisValueTypeFixup();
     // Get instance field reference: System.Object PRnewObj
-    ::Il2CppObject*& dyn_PRnewObj();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_PRnewObj();
     // Get instance field reference: System.Object[] PRobjectA
-    ::ArrayW<::Il2CppObject*>& dyn_PRobjectA();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppObject*>& dyn_PRobjectA();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.PrimitiveArray PRprimitiveArray
-    ::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*& dyn_PRprimitiveArray();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*& dyn_PRprimitiveArray();
     // Get instance field reference: System.Boolean PRisRegistered
-    bool& dyn_PRisRegistered();
+    [[deprecated("Use field access instead!")]] bool& dyn_PRisRegistered();
     // Get instance field reference: System.Object[] PRmemberData
-    ::ArrayW<::Il2CppObject*>& dyn_PRmemberData();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppObject*>& dyn_PRmemberData();
     // Get instance field reference: System.Runtime.Serialization.SerializationInfo PRsi
-    ::System::Runtime::Serialization::SerializationInfo*& dyn_PRsi();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::SerializationInfo*& dyn_PRsi();
     // Get instance field reference: System.Int32 PRnullCount
-    int& dyn_PRnullCount();
+    [[deprecated("Use field access instead!")]] int& dyn_PRnullCount();
     // static private System.Void .cctor()
-    // Offset: 0x15F5D54
+    // Offset: 0x162B664
     static void _cctor();
     // System.Void Init()
-    // Offset: 0x15F5CF8
+    // Offset: 0x162B608
     void Init();
     // System.Void .ctor()
-    // Offset: 0x15F5CF0
+    // Offset: 0x162B600
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

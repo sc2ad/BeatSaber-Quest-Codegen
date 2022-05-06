@@ -24,15 +24,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamLevelProductsModelSO::LevelProductData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.UInt32 _appId
     // Size: 0x4
     // Offset: 0x10
@@ -49,19 +41,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.UInt32 _appId
-    uint& dyn__appId();
+    [[deprecated("Use field access instead!")]] uint& dyn__appId();
     // Get instance field reference: private System.String _levelId
-    ::StringW& dyn__levelId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__levelId();
     // public System.UInt32 get_appId()
-    // Offset: 0x133620C
+    // Offset: 0x141813C
     uint get_appId();
     // public System.String get_levelId()
-    // Offset: 0x1336214
+    // Offset: 0x1418144
     ::StringW get_levelId();
     // public System.Void .ctor()
-    // Offset: 0x133621C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x141814C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamLevelProductsModelSO::LevelProductData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamLevelProductsModelSO::LevelProductData::.ctor");

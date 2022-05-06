@@ -32,15 +32,7 @@ namespace NUnit::Framework::Internal {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class Reflect::$$c__DisplayClass9_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Reflection.MethodInfo method
     // Size: 0x8
     // Offset: 0x10
@@ -61,29 +53,31 @@ namespace NUnit::Framework::Internal {
     static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     public:
     // Get instance field reference: public System.Reflection.MethodInfo method
-    ::System::Reflection::MethodInfo*& dyn_method();
+    [[deprecated("Use field access instead!")]] ::System::Reflection::MethodInfo*& dyn_method();
     // Get instance field reference: public System.Object fixture
-    ::Il2CppObject*& dyn_fixture();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_fixture();
     // Get instance field reference: public System.Object[] args
-    ::ArrayW<::Il2CppObject*>& dyn_args();
-    // System.Object <InvokeMethod>b__0()
-    // Offset: 0x29AF7E4
-    ::Il2CppObject* $InvokeMethod$b__0();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppObject*>& dyn_args();
     // public System.Void .ctor()
-    // Offset: 0x29AF698
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A0B690
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Reflect::$$c__DisplayClass9_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Reflect::$$c__DisplayClass9_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Reflect::$$c__DisplayClass9_0*, creationType>()));
     }
+    // System.Object <InvokeMethod>b__0()
+    // Offset: 0x2A0B7DC
+    ::Il2CppObject* $InvokeMethod$b__0();
   }; // NUnit.Framework.Internal.Reflect/NUnit.Framework.Internal.<>c__DisplayClass9_0
   #pragma pack(pop)
   static check_size<sizeof(Reflect::$$c__DisplayClass9_0), 32 + sizeof(::ArrayW<::Il2CppObject*>)> __NUnit_Framework_Internal_Reflect_$$c__DisplayClass9_0SizeCheck;
   static_assert(sizeof(Reflect::$$c__DisplayClass9_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Reflect::$$c__DisplayClass9_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Reflect::$$c__DisplayClass9_0::$InvokeMethod$b__0
 // Il2CppName: <InvokeMethod>b__0
 template<>
@@ -92,7 +86,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Reflect::$$c__DisplayClass9_0*), "<InvokeMethod>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::Reflect::$$c__DisplayClass9_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

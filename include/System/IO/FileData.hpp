@@ -31,15 +31,7 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class FileData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String Directory
     // Size: 0x8
     // Offset: 0x10
@@ -74,19 +66,17 @@ namespace System::IO {
     static_assert(sizeof(::System::DateTime) == 0x8);
     public:
     // Get instance field reference: public System.String Directory
-    ::StringW& dyn_Directory();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Directory();
     // Get instance field reference: public System.IO.FileAttributes Attributes
-    ::System::IO::FileAttributes& dyn_Attributes();
+    [[deprecated("Use field access instead!")]] ::System::IO::FileAttributes& dyn_Attributes();
     // Get instance field reference: public System.Boolean NotExists
-    bool& dyn_NotExists();
+    [[deprecated("Use field access instead!")]] bool& dyn_NotExists();
     // Get instance field reference: public System.DateTime CreationTime
-    ::System::DateTime& dyn_CreationTime();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_CreationTime();
     // Get instance field reference: public System.DateTime LastWriteTime
-    ::System::DateTime& dyn_LastWriteTime();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_LastWriteTime();
     // public System.Void .ctor()
-    // Offset: 0x1CB5D08
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1CF2260
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::FileData::.ctor");

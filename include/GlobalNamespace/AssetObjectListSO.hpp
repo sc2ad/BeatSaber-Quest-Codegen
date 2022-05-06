@@ -35,16 +35,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssetObjectListSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [ReorderableAttribute] Offset: 0x125EA34
+    // [ReorderableAttribute] Offset: 0x10E3618
     // private UnityEngine.Object[] _objects
     // Size: 0x8
     // Offset: 0x18
@@ -55,17 +47,12 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Object[] _objects
-    ::ArrayW<::UnityEngine::Object*>& dyn__objects();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Object*>& dyn__objects();
     // public UnityEngine.Object[] get_objects()
-    // Offset: 0x14B6B70
+    // Offset: 0x14EE428
     ::ArrayW<::UnityEngine::Object*> get_objects();
     // public System.Void .ctor()
-    // Offset: 0x14B6B78
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14EE430
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetObjectListSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AssetObjectListSO::.ctor");

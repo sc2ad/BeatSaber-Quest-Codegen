@@ -34,15 +34,7 @@ namespace ModestTree {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TypeExtensions::$$c__DisplayClass39_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Type[] attributeTypes
     // Size: 0x8
     // Offset: 0x10
@@ -55,25 +47,27 @@ namespace ModestTree {
       return attributeTypes;
     }
     // Get instance field reference: public System.Type[] attributeTypes
-    ::ArrayW<::System::Type*>& dyn_attributeTypes();
-    // System.Boolean <AllAttributes>b__0(System.Attribute a)
-    // Offset: 0x172CB6C
-    bool $AllAttributes$b__0(::System::Attribute* a);
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Type*>& dyn_attributeTypes();
     // public System.Void .ctor()
-    // Offset: 0x172C920
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1765230
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeExtensions::$$c__DisplayClass39_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::TypeExtensions::$$c__DisplayClass39_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeExtensions::$$c__DisplayClass39_0*, creationType>()));
     }
+    // System.Boolean <AllAttributes>b__0(System.Attribute a)
+    // Offset: 0x176547C
+    bool $AllAttributes$b__0(::System::Attribute* a);
   }; // ModestTree.TypeExtensions/ModestTree.<>c__DisplayClass39_0
   #pragma pack(pop)
   static check_size<sizeof(TypeExtensions::$$c__DisplayClass39_0), 16 + sizeof(::ArrayW<::System::Type*>)> __ModestTree_TypeExtensions_$$c__DisplayClass39_0SizeCheck;
   static_assert(sizeof(TypeExtensions::$$c__DisplayClass39_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: ModestTree::TypeExtensions::$$c__DisplayClass39_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::$$c__DisplayClass39_0::$AllAttributes$b__0
 // Il2CppName: <AllAttributes>b__0
 template<>
@@ -83,7 +77,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Modes
     return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions::$$c__DisplayClass39_0*), "<AllAttributes>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a});
   }
 };
-// Writing MetadataGetter for method: ModestTree::TypeExtensions::$$c__DisplayClass39_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

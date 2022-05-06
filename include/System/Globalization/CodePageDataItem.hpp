@@ -28,15 +28,7 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class CodePageDataItem : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int32 m_dataIndex
     // Size: 0x4
     // Offset: 0x10
@@ -67,28 +59,28 @@ namespace System::Globalization {
     // Set static field: static private readonly System.Char[] sep
     static void _set_sep(::ArrayW<::Il2CppChar> value);
     // Get instance field reference: System.Int32 m_dataIndex
-    int& dyn_m_dataIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_m_dataIndex();
     // Get instance field reference: System.Int32 m_uiFamilyCodePage
-    int& dyn_m_uiFamilyCodePage();
+    [[deprecated("Use field access instead!")]] int& dyn_m_uiFamilyCodePage();
     // Get instance field reference: System.String m_webName
-    ::StringW& dyn_m_webName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_webName();
     // Get instance field reference: System.UInt32 m_flags
-    uint& dyn_m_flags();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_flags();
     // public System.String get_WebName()
-    // Offset: 0x192BD64
+    // Offset: 0x1963674
     ::StringW get_WebName();
     // System.Void .ctor(System.Int32 dataIndex)
-    // Offset: 0x192BBB4
+    // Offset: 0x19634C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CodePageDataItem* New_ctor(int dataIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::CodePageDataItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CodePageDataItem*, creationType>(dataIndex)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x192BE34
+    // Offset: 0x1963744
     static void _cctor();
     // static System.String CreateString(System.String pStrings, System.UInt32 index)
-    // Offset: 0x192BC90
+    // Offset: 0x19635A0
     static ::StringW CreateString(::StringW pStrings, uint index);
   }; // System.Globalization.CodePageDataItem
   #pragma pack(pop)

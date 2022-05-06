@@ -71,20 +71,20 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.IntPtr rVertexData
-    ::System::IntPtr& dyn_rVertexData();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_rVertexData();
     // Get instance field reference: public System.UInt32 unVertexCount
-    uint& dyn_unVertexCount();
+    [[deprecated("Use field access instead!")]] uint& dyn_unVertexCount();
     // Get instance field reference: public System.IntPtr rIndexData
-    ::System::IntPtr& dyn_rIndexData();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_rIndexData();
     // Get instance field reference: public System.UInt32 unTriangleCount
-    uint& dyn_unTriangleCount();
+    [[deprecated("Use field access instead!")]] uint& dyn_unTriangleCount();
     // Get instance field reference: public System.Int32 diffuseTextureId
-    int& dyn_diffuseTextureId();
+    [[deprecated("Use field access instead!")]] int& dyn_diffuseTextureId();
     // public System.Void .ctor(Valve.VR.RenderModel_t unpacked)
-    // Offset: 0x2A50CA0
+    // Offset: 0x2AA8088
     RenderModel_t_Packed(::Valve::VR::RenderModel_t unpacked);
     // public System.Void Unpack(ref Valve.VR.RenderModel_t unpacked)
-    // Offset: 0x2A50CCC
+    // Offset: 0x2AA80B4
     void Unpack(ByRef<::Valve::VR::RenderModel_t> unpacked);
   }; // Valve.VR.RenderModel_t_Packed
   #pragma pack(pop)

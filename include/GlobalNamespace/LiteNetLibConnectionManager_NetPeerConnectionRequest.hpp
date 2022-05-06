@@ -38,15 +38,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LiteNetLibConnectionManager::NetPeerConnectionRequest : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.String _userId
     // Size: 0x8
     // Offset: 0x10
@@ -75,34 +67,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(::LiteNetLib::ConnectionRequest*) == 0x8);
     public:
     // Get instance field reference: private readonly System.String _userId
-    ::StringW& dyn__userId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__userId();
     // Get instance field reference: private readonly System.String _userName
-    ::StringW& dyn__userName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__userName();
     // Get instance field reference: private readonly System.Boolean _isConnectionOwner
-    bool& dyn__isConnectionOwner();
+    [[deprecated("Use field access instead!")]] bool& dyn__isConnectionOwner();
     // Get instance field reference: private readonly LiteNetLib.ConnectionRequest _request
-    ::LiteNetLib::ConnectionRequest*& dyn__request();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::ConnectionRequest*& dyn__request();
     // public System.String get_userId()
-    // Offset: 0x164BF20
+    // Offset: 0x1682830
     ::StringW get_userId();
     // public System.String get_userName()
-    // Offset: 0x164BF28
+    // Offset: 0x1682838
     ::StringW get_userName();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x164BF30
+    // Offset: 0x1682840
     bool get_isConnectionOwner();
     // public System.Net.IPEndPoint get_endPoint()
-    // Offset: 0x164BF38
+    // Offset: 0x1682848
     ::System::Net::IPEndPoint* get_endPoint();
     // public System.Void .ctor(LiteNetLib.ConnectionRequest request, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x164BF54
+    // Offset: 0x1682864
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LiteNetLibConnectionManager::NetPeerConnectionRequest* New_ctor(::LiteNetLib::ConnectionRequest* request, ::StringW userId, ::StringW userName, bool isConnectionOwner) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LiteNetLibConnectionManager::NetPeerConnectionRequest*, creationType>(request, userId, userName, isConnectionOwner)));
     }
     // public LiteNetLib.NetPeer Accept()
-    // Offset: 0x164B148
+    // Offset: 0x1681A58
     ::LiteNetLib::NetPeer* Accept();
   }; // LiteNetLibConnectionManager/NetPeerConnectionRequest
   #pragma pack(pop)

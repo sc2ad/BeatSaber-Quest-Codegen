@@ -38,15 +38,7 @@ namespace GlobalNamespace {
     class Keyframe;
     // Nested type: ::GlobalNamespace::VRControllersRecorderSaveData::NodeInfo
     class NodeInfo;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public VRControllersRecorderSaveData/NodeInfo[] nodesInfo
     // Size: 0x8
     // Offset: 0x10
@@ -61,13 +53,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<::GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>) == 0x8);
     public:
     // Get instance field reference: public VRControllersRecorderSaveData/NodeInfo[] nodesInfo
-    ::ArrayW<::GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*>& dyn_nodesInfo();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*>& dyn_nodesInfo();
     // Get instance field reference: public VRControllersRecorderSaveData/Keyframe[] keyframes
-    ::ArrayW<::GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>& dyn_keyframes();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>& dyn_keyframes();
     // public System.Void .ctor()
-    // Offset: 0x2AC0494
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x149F9EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorderSaveData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRControllersRecorderSaveData::.ctor");

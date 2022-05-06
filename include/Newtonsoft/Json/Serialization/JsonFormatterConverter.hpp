@@ -46,15 +46,7 @@ namespace Newtonsoft::Json::Serialization {
   // [PreserveAttribute] Offset: FFFFFFFF
   class JsonFormatterConverter : public ::Il2CppObject/*, public ::System::Runtime::Serialization::IFormatterConverter*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Newtonsoft.Json.Serialization.JsonSerializerInternalReader _reader
     // Size: 0x8
     // Offset: 0x10
@@ -79,13 +71,13 @@ namespace Newtonsoft::Json::Serialization {
       return *reinterpret_cast<::System::Runtime::Serialization::IFormatterConverter*>(this);
     }
     // Get instance field reference: private readonly Newtonsoft.Json.Serialization.JsonSerializerInternalReader _reader
-    ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*& dyn__reader();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*& dyn__reader();
     // Get instance field reference: private readonly Newtonsoft.Json.Serialization.JsonISerializableContract _contract
-    ::Newtonsoft::Json::Serialization::JsonISerializableContract*& dyn__contract();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Serialization::JsonISerializableContract*& dyn__contract();
     // Get instance field reference: private readonly Newtonsoft.Json.Serialization.JsonProperty _member
-    ::Newtonsoft::Json::Serialization::JsonProperty*& dyn__member();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Serialization::JsonProperty*& dyn__member();
     // public System.Void .ctor(Newtonsoft.Json.Serialization.JsonSerializerInternalReader reader, Newtonsoft.Json.Serialization.JsonISerializableContract contract, Newtonsoft.Json.Serialization.JsonProperty member)
-    // Offset: 0x1D25EA0
+    // Offset: 0x1D623F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonFormatterConverter* New_ctor(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* reader, ::Newtonsoft::Json::Serialization::JsonISerializableContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonFormatterConverter::.ctor");
@@ -101,22 +93,22 @@ namespace Newtonsoft::Json::Serialization {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, value);
     }
     // public System.Object Convert(System.Object value, System.Type type)
-    // Offset: 0x1D25F40
+    // Offset: 0x1D62498
     ::Il2CppObject* Convert(::Il2CppObject* value, ::System::Type* type);
     // public System.Boolean ToBoolean(System.Object value)
-    // Offset: 0x1D2613C
+    // Offset: 0x1D62694
     bool ToBoolean(::Il2CppObject* value);
     // public System.Int32 ToInt32(System.Object value)
-    // Offset: 0x1D2619C
+    // Offset: 0x1D626F4
     int ToInt32(::Il2CppObject* value);
     // public System.Int64 ToInt64(System.Object value)
-    // Offset: 0x1D261FC
+    // Offset: 0x1D62754
     int64_t ToInt64(::Il2CppObject* value);
     // public System.Single ToSingle(System.Object value)
-    // Offset: 0x1D2625C
+    // Offset: 0x1D627B4
     float ToSingle(::Il2CppObject* value);
     // public System.String ToString(System.Object value)
-    // Offset: 0x1D262BC
+    // Offset: 0x1D62814
     ::StringW ToString(::Il2CppObject* value);
   }; // Newtonsoft.Json.Serialization.JsonFormatterConverter
   #pragma pack(pop)

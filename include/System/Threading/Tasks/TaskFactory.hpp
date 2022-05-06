@@ -60,15 +60,7 @@ namespace System::Threading::Tasks {
     public:
     // Nested type: ::System::Threading::Tasks::TaskFactory::CompleteOnInvokePromise
     class CompleteOnInvokePromise;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Threading.CancellationToken m_defaultCancellationToken
     // Size: 0x8
     // Offset: 0x10
@@ -95,28 +87,28 @@ namespace System::Threading::Tasks {
     static_assert(sizeof(::System::Threading::Tasks::TaskContinuationOptions) == 0x4);
     public:
     // Get instance field reference: private System.Threading.CancellationToken m_defaultCancellationToken
-    ::System::Threading::CancellationToken& dyn_m_defaultCancellationToken();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationToken& dyn_m_defaultCancellationToken();
     // Get instance field reference: private System.Threading.Tasks.TaskScheduler m_defaultScheduler
-    ::System::Threading::Tasks::TaskScheduler*& dyn_m_defaultScheduler();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskScheduler*& dyn_m_defaultScheduler();
     // Get instance field reference: private System.Threading.Tasks.TaskCreationOptions m_defaultCreationOptions
-    ::System::Threading::Tasks::TaskCreationOptions& dyn_m_defaultCreationOptions();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskCreationOptions& dyn_m_defaultCreationOptions();
     // Get instance field reference: private System.Threading.Tasks.TaskContinuationOptions m_defaultContinuationOptions
-    ::System::Threading::Tasks::TaskContinuationOptions& dyn_m_defaultContinuationOptions();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskContinuationOptions& dyn_m_defaultContinuationOptions();
     // public System.Void .ctor(System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.TaskContinuationOptions continuationOptions, System.Threading.Tasks.TaskScheduler scheduler)
-    // Offset: 0x1CF451C
+    // Offset: 0x1D2FA74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskFactory* New_ctor(::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskCreationOptions creationOptions, ::System::Threading::Tasks::TaskContinuationOptions continuationOptions, ::System::Threading::Tasks::TaskScheduler* scheduler) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::TaskFactory::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskFactory*, creationType>(cancellationToken, creationOptions, continuationOptions, scheduler)));
     }
     // private System.Threading.Tasks.TaskScheduler GetDefaultScheduler(System.Threading.Tasks.Task currTask)
-    // Offset: 0x1CF442C
+    // Offset: 0x1D2F984
     ::System::Threading::Tasks::TaskScheduler* GetDefaultScheduler(::System::Threading::Tasks::Task* currTask);
     // static System.Void CheckCreationOptions(System.Threading.Tasks.TaskCreationOptions creationOptions)
-    // Offset: 0x1CF4684
+    // Offset: 0x1D2FBDC
     static void CheckCreationOptions(::System::Threading::Tasks::TaskCreationOptions creationOptions);
     // public System.Threading.Tasks.Task StartNew(System.Action action, System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.TaskScheduler scheduler)
-    // Offset: 0x1CF470C
+    // Offset: 0x1D2FC64
     ::System::Threading::Tasks::Task* StartNew(::System::Action* action, ::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskCreationOptions creationOptions, ::System::Threading::Tasks::TaskScheduler* scheduler);
     // public System.Threading.Tasks.Task`1<TResult> StartNew(System.Func`2<System.Object,TResult> function, System.Object state)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -128,16 +120,16 @@ namespace System::Threading::Tasks {
       return ::il2cpp_utils::RunMethodRethrow<::System::Threading::Tasks::Task_1<TResult>*, false>(this, ___generic__method, function, state);
     }
     // static System.Void CheckFromAsyncOptions(System.Threading.Tasks.TaskCreationOptions creationOptions, System.Boolean hasBeginMethod)
-    // Offset: 0x1CF47C8
+    // Offset: 0x1D2FD20
     static void CheckFromAsyncOptions(::System::Threading::Tasks::TaskCreationOptions creationOptions, bool hasBeginMethod);
     // static System.Threading.Tasks.Task`1<System.Threading.Tasks.Task> CommonCWAnyLogic(System.Collections.Generic.IList`1<System.Threading.Tasks.Task> tasks)
-    // Offset: 0x1CF48CC
+    // Offset: 0x1D2FE24
     static ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>* CommonCWAnyLogic(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>* tasks);
     // static System.Void CheckMultiTaskContinuationOptions(System.Threading.Tasks.TaskContinuationOptions continuationOptions)
-    // Offset: 0x1CF4578
+    // Offset: 0x1D2FAD0
     static void CheckMultiTaskContinuationOptions(::System::Threading::Tasks::TaskContinuationOptions continuationOptions);
     // public System.Void .ctor()
-    // Offset: 0x1CF4508
+    // Offset: 0x1D2FA60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

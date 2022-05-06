@@ -37,15 +37,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class TwofishEngine : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IBlockCipher*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean encrypting
     // Size: 0x1
     // Offset: 0x10
@@ -114,107 +106,105 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set static field: static private readonly System.Byte[,] P
     static void _set_P(::ArrayW<uint8_t> value);
     // Get instance field reference: private System.Boolean encrypting
-    bool& dyn_encrypting();
+    [[deprecated("Use field access instead!")]] bool& dyn_encrypting();
     // Get instance field reference: private System.Int32[] gMDS0
-    ::ArrayW<int>& dyn_gMDS0();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_gMDS0();
     // Get instance field reference: private System.Int32[] gMDS1
-    ::ArrayW<int>& dyn_gMDS1();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_gMDS1();
     // Get instance field reference: private System.Int32[] gMDS2
-    ::ArrayW<int>& dyn_gMDS2();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_gMDS2();
     // Get instance field reference: private System.Int32[] gMDS3
-    ::ArrayW<int>& dyn_gMDS3();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_gMDS3();
     // Get instance field reference: private System.Int32[] gSubKeys
-    ::ArrayW<int>& dyn_gSubKeys();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_gSubKeys();
     // Get instance field reference: private System.Int32[] gSBox
-    ::ArrayW<int>& dyn_gSBox();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_gSBox();
     // Get instance field reference: private System.Int32 k64Cnt
-    int& dyn_k64Cnt();
+    [[deprecated("Use field access instead!")]] int& dyn_k64Cnt();
     // Get instance field reference: private System.Byte[] workingKey
-    ::ArrayW<uint8_t>& dyn_workingKey();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_workingKey();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1DF1C14
+    // Offset: 0x1E2C4E0
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1DF1C5C
+    // Offset: 0x1E2C528
     bool get_IsPartialBlockOkay();
-    // static private System.Void .cctor()
-    // Offset: 0x1DF2AD8
-    static void _cctor();
-    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1DF10EC
-    void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-    // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1DF1C64
-    int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
-    // public System.Void Reset()
-    // Offset: 0x1DF2298
-    void Reset();
-    // public System.Int32 GetBlockSize()
-    // Offset: 0x1DF22A8
-    int GetBlockSize();
-    // private System.Void SetKey(System.Byte[] key)
-    // Offset: 0x1DF1268
-    void SetKey(::ArrayW<uint8_t> key);
-    // private System.Void EncryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
-    // Offset: 0x1DF1D88
-    void EncryptBlock(::ArrayW<uint8_t> src, int srcIndex, ::ArrayW<uint8_t> dst, int dstIndex);
-    // private System.Void DecryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
-    // Offset: 0x1DF2010
-    void DecryptBlock(::ArrayW<uint8_t> src, int srcIndex, ::ArrayW<uint8_t> dst, int dstIndex);
-    // private System.Int32 F32(System.Int32 x, System.Int32[] k32)
-    // Offset: 0x1DF23CC
-    int F32(int x, ::ArrayW<int> k32);
-    // private System.Int32 RS_MDS_Encode(System.Int32 k0, System.Int32 k1)
-    // Offset: 0x1DF232C
-    int RS_MDS_Encode(int k0, int k1);
-    // private System.Int32 RS_rem(System.Int32 x)
-    // Offset: 0x1DF2A60
-    int RS_rem(int x);
-    // private System.Int32 LFSR1(System.Int32 x)
-    // Offset: 0x1DF2AA0
-    int LFSR1(int x);
-    // private System.Int32 LFSR2(System.Int32 x)
-    // Offset: 0x1DF2AB4
-    int LFSR2(int x);
-    // private System.Int32 Mx_X(System.Int32 x)
-    // Offset: 0x1DF1090
-    int Mx_X(int x);
-    // private System.Int32 Mx_Y(System.Int32 x)
-    // Offset: 0x1DF10B8
-    int Mx_Y(int x);
-    // private System.Int32 M_b0(System.Int32 x)
-    // Offset: 0x1DF287C
-    int M_b0(int x);
-    // private System.Int32 M_b1(System.Int32 x)
-    // Offset: 0x1DF2884
-    int M_b1(int x);
-    // private System.Int32 M_b2(System.Int32 x)
-    // Offset: 0x1DF288C
-    int M_b2(int x);
-    // private System.Int32 M_b3(System.Int32 x)
-    // Offset: 0x1DF2894
-    int M_b3(int x);
-    // private System.Int32 Fe32_0(System.Int32 x)
-    // Offset: 0x1DF289C
-    int Fe32_0(int x);
-    // private System.Int32 Fe32_3(System.Int32 x)
-    // Offset: 0x1DF2934
-    int Fe32_3(int x);
-    // private System.Int32 BytesTo32Bits(System.Byte[] b, System.Int32 p)
-    // Offset: 0x1DF22B0
-    int BytesTo32Bits(::ArrayW<uint8_t> b, int p);
-    // private System.Void Bits32ToBytes(System.Int32 inData, System.Byte[] b, System.Int32 offset)
-    // Offset: 0x1DF29D4
-    void Bits32ToBytes(int inData, ::ArrayW<uint8_t> b, int offset);
     // public System.Void .ctor()
-    // Offset: 0x1DF0CFC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E2B5C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TwofishEngine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::TwofishEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TwofishEngine*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1E2D3A4
+    static void _cctor();
+    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
+    // Offset: 0x1E2B9B8
+    void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
+    // Offset: 0x1E2C530
+    int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
+    // public System.Void Reset()
+    // Offset: 0x1E2CB64
+    void Reset();
+    // public System.Int32 GetBlockSize()
+    // Offset: 0x1E2CB74
+    int GetBlockSize();
+    // private System.Void SetKey(System.Byte[] key)
+    // Offset: 0x1E2BB34
+    void SetKey(::ArrayW<uint8_t> key);
+    // private System.Void EncryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
+    // Offset: 0x1E2C654
+    void EncryptBlock(::ArrayW<uint8_t> src, int srcIndex, ::ArrayW<uint8_t> dst, int dstIndex);
+    // private System.Void DecryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
+    // Offset: 0x1E2C8DC
+    void DecryptBlock(::ArrayW<uint8_t> src, int srcIndex, ::ArrayW<uint8_t> dst, int dstIndex);
+    // private System.Int32 F32(System.Int32 x, System.Int32[] k32)
+    // Offset: 0x1E2CC98
+    int F32(int x, ::ArrayW<int> k32);
+    // private System.Int32 RS_MDS_Encode(System.Int32 k0, System.Int32 k1)
+    // Offset: 0x1E2CBF8
+    int RS_MDS_Encode(int k0, int k1);
+    // private System.Int32 RS_rem(System.Int32 x)
+    // Offset: 0x1E2D32C
+    int RS_rem(int x);
+    // private System.Int32 LFSR1(System.Int32 x)
+    // Offset: 0x1E2D36C
+    int LFSR1(int x);
+    // private System.Int32 LFSR2(System.Int32 x)
+    // Offset: 0x1E2D380
+    int LFSR2(int x);
+    // private System.Int32 Mx_X(System.Int32 x)
+    // Offset: 0x1E2B95C
+    int Mx_X(int x);
+    // private System.Int32 Mx_Y(System.Int32 x)
+    // Offset: 0x1E2B984
+    int Mx_Y(int x);
+    // private System.Int32 M_b0(System.Int32 x)
+    // Offset: 0x1E2D148
+    int M_b0(int x);
+    // private System.Int32 M_b1(System.Int32 x)
+    // Offset: 0x1E2D150
+    int M_b1(int x);
+    // private System.Int32 M_b2(System.Int32 x)
+    // Offset: 0x1E2D158
+    int M_b2(int x);
+    // private System.Int32 M_b3(System.Int32 x)
+    // Offset: 0x1E2D160
+    int M_b3(int x);
+    // private System.Int32 Fe32_0(System.Int32 x)
+    // Offset: 0x1E2D168
+    int Fe32_0(int x);
+    // private System.Int32 Fe32_3(System.Int32 x)
+    // Offset: 0x1E2D200
+    int Fe32_3(int x);
+    // private System.Int32 BytesTo32Bits(System.Byte[] b, System.Int32 p)
+    // Offset: 0x1E2CB7C
+    int BytesTo32Bits(::ArrayW<uint8_t> b, int p);
+    // private System.Void Bits32ToBytes(System.Int32 inData, System.Byte[] b, System.Int32 offset)
+    // Offset: 0x1E2D2A0
+    void Bits32ToBytes(int inData, ::ArrayW<uint8_t> b, int offset);
   }; // Org.BouncyCastle.Crypto.Engines.TwofishEngine
   #pragma pack(pop)
   static check_size<sizeof(TwofishEngine), 80 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Crypto_Engines_TwofishEngineSizeCheck;
@@ -237,6 +227,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "get_IsPartialBlockOkay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::_cctor
 // Il2CppName: .cctor
 template<>
@@ -456,7 +450,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "Bits32ToBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inData, b, offset});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -53,15 +53,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class UIKeyboardManager : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.UIKeyboard _uiKeyboard
     // Size: 0x8
     // Offset: 0x18
@@ -86,7 +78,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Transform* parentContainerTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0x1258A54
+    // [InjectAttribute] Offset: 0x10DD638
     // private readonly VRUIControls.VRInputModule _vrInputModule
     // Size: 0x8
     // Offset: 0x38
@@ -109,63 +101,57 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kKeyboardTopOffset
     static void _set_kKeyboardTopOffset(float value);
     // Get instance field reference: private HMUI.UIKeyboard _uiKeyboard
-    ::HMUI::UIKeyboard*& dyn__uiKeyboard();
+    [[deprecated("Use field access instead!")]] ::HMUI::UIKeyboard*& dyn__uiKeyboard();
     // Get instance field reference: private HMUI.ModalView _keyboardModalView
-    ::HMUI::ModalView*& dyn__keyboardModalView();
+    [[deprecated("Use field access instead!")]] ::HMUI::ModalView*& dyn__keyboardModalView();
     // Get instance field reference: private UnityEngine.RectTransform _keyboardContainerTransform
-    ::UnityEngine::RectTransform*& dyn__keyboardContainerTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__keyboardContainerTransform();
     // Get instance field reference: private UnityEngine.Transform _parentContainerTransform
-    ::UnityEngine::Transform*& dyn__parentContainerTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__parentContainerTransform();
     // Get instance field reference: private readonly VRUIControls.VRInputModule _vrInputModule
-    ::VRUIControls::VRInputModule*& dyn__vrInputModule();
+    [[deprecated("Use field access instead!")]] ::VRUIControls::VRInputModule*& dyn__vrInputModule();
     // Get instance field reference: private HMUI.InputFieldView _selectedInput
-    ::HMUI::InputFieldView*& dyn__selectedInput();
+    [[deprecated("Use field access instead!")]] ::HMUI::InputFieldView*& dyn__selectedInput();
     // public HMUI.UIKeyboard get_keyboard()
-    // Offset: 0x2AB62D0
+    // Offset: 0x14953A0
     ::HMUI::UIKeyboard* get_keyboard();
-    // protected System.Void Start()
-    // Offset: 0x2AB62D8
-    void Start();
-    // protected System.Void OnEnable()
-    // Offset: 0x2AB636C
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x2AB63F8
-    void OnDisable();
-    // protected System.Void OnDestroy()
-    // Offset: 0x2AB6484
-    void OnDestroy();
-    // public System.Void OpenKeyboardFor(HMUI.InputFieldView input)
-    // Offset: 0x2AB655C
-    void OpenKeyboardFor(::HMUI::InputFieldView* input);
-    // public System.Void CloseKeyboard()
-    // Offset: 0x2AB67F0
-    void CloseKeyboard();
-    // private System.Void TransferKeyboardTo(HMUI.InputFieldView nextInput)
-    // Offset: 0x2AB6898
-    void TransferKeyboardTo(::HMUI::InputFieldView* nextInput);
-    // private System.Boolean ShouldCloseKeyboard(UnityEngine.GameObject root)
-    // Offset: 0x2AB693C
-    bool ShouldCloseKeyboard(::UnityEngine::GameObject* root);
-    // private System.Void ProcessMousePress(UnityEngine.GameObject currentOverGo)
-    // Offset: 0x2AB69A0
-    void ProcessMousePress(::UnityEngine::GameObject* currentOverGo);
-    // private System.Void HandleKeyboardOkButton()
-    // Offset: 0x2AB6B38
-    void HandleKeyboardOkButton();
     // public System.Void .ctor()
-    // Offset: 0x2AB6CBC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1495D8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UIKeyboardManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::UIKeyboardManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UIKeyboardManager*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x14953A8
+    void Start();
+    // protected System.Void OnEnable()
+    // Offset: 0x149543C
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x14954C8
+    void OnDisable();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1495554
+    void OnDestroy();
+    // public System.Void OpenKeyboardFor(HMUI.InputFieldView input)
+    // Offset: 0x149562C
+    void OpenKeyboardFor(::HMUI::InputFieldView* input);
+    // public System.Void CloseKeyboard()
+    // Offset: 0x14958C0
+    void CloseKeyboard();
+    // private System.Void TransferKeyboardTo(HMUI.InputFieldView nextInput)
+    // Offset: 0x1495968
+    void TransferKeyboardTo(::HMUI::InputFieldView* nextInput);
+    // private System.Boolean ShouldCloseKeyboard(UnityEngine.GameObject root)
+    // Offset: 0x1495A0C
+    bool ShouldCloseKeyboard(::UnityEngine::GameObject* root);
+    // private System.Void ProcessMousePress(UnityEngine.GameObject currentOverGo)
+    // Offset: 0x1495A70
+    void ProcessMousePress(::UnityEngine::GameObject* currentOverGo);
+    // private System.Void HandleKeyboardOkButton()
+    // Offset: 0x1495C08
+    void HandleKeyboardOkButton();
   }; // UIKeyboardManager
   #pragma pack(pop)
   static check_size<sizeof(UIKeyboardManager), 64 + sizeof(::HMUI::InputFieldView*)> __GlobalNamespace_UIKeyboardManagerSizeCheck;
@@ -180,6 +166,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::UIK
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboardManager*), "get_keyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::UIKeyboardManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::UIKeyboardManager::Start
 // Il2CppName: Start
 template<>
@@ -264,7 +254,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboardManager*), "HandleKeyboardOkButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::UIKeyboardManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -40,7 +40,7 @@ namespace Mono::Unity {
       return handle;
     }
     // Get instance field reference: public System.UInt64 handle
-    uint64_t& dyn_handle();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_handle();
   }; // Mono.Unity.UnityTls/Mono.Unity.unitytls_x509list_ref
   #pragma pack(pop)
   static check_size<sizeof(UnityTls::unitytls_x509list_ref), 0 + sizeof(uint64_t)> __Mono_Unity_UnityTls_unitytls_x509list_refSizeCheck;

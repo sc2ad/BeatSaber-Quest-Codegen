@@ -55,15 +55,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AsyncComputeManager : public ::Il2CppObject/*, public ::GlobalNamespace::IAsyncComputeManager*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Concurrent.BlockingCollection`1<AsyncComputeOperation> _asyncComputeRequests
     // Size: 0x8
     // Offset: 0x10
@@ -88,16 +80,23 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IAsyncComputeManager*>(this);
     }
     // Get instance field reference: private readonly System.Collections.Concurrent.BlockingCollection`1<AsyncComputeOperation> _asyncComputeRequests
-    ::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>*& dyn__asyncComputeRequests();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>*& dyn__asyncComputeRequests();
     // Get instance field reference: private readonly System.Threading.Thread _computeThread
-    ::System::Threading::Thread*& dyn__computeThread();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Thread*& dyn__computeThread();
     // Get instance field reference: private System.Boolean _disposed
-    bool& dyn__disposed();
+    [[deprecated("Use field access instead!")]] bool& dyn__disposed();
+    // public System.Void .ctor()
+    // Offset: 0x1529DFC
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static AsyncComputeManager* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncComputeManager::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<AsyncComputeManager*, creationType>()));
+    }
     // public System.Void Dispose()
-    // Offset: 0x14F25F8
+    // Offset: 0x1529F00
     void Dispose();
     // public System.Void BeginOperation(AsyncComputeOperation operation)
-    // Offset: 0x14F2668
+    // Offset: 0x1529F70
     void BeginOperation(::GlobalNamespace::AsyncComputeOperation* operation);
     // public System.Threading.Tasks.Task`1<T> BeginOperation(AsyncComputeOperation`1<T> operation)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -109,23 +108,18 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<::System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, operation);
     }
     // private System.Void ComputeThreadRun()
-    // Offset: 0x14F26D0
+    // Offset: 0x1529FD8
     void ComputeThreadRun();
-    // public System.Void .ctor()
-    // Offset: 0x14F24F4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AsyncComputeManager* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncComputeManager::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<AsyncComputeManager*, creationType>()));
-    }
   }; // AsyncComputeManager
   #pragma pack(pop)
   static check_size<sizeof(AsyncComputeManager), 32 + sizeof(bool)> __GlobalNamespace_AsyncComputeManagerSizeCheck;
   static_assert(sizeof(AsyncComputeManager) == 0x21);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::AsyncComputeManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AsyncComputeManager::Dispose
 // Il2CppName: Dispose
 template<>
@@ -154,7 +148,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AsyncComputeManager*), "ComputeThreadRun", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AsyncComputeManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

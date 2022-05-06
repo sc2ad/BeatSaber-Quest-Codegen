@@ -43,20 +43,18 @@ namespace NUnit::Framework::Interfaces {
     // Set static field: static public System.Text.RegularExpressions.MatchEvaluator <>9__38_0
     static void _set_$$9__38_0(::System::Text::RegularExpressions::MatchEvaluator* value);
     // static private System.Void .cctor()
-    // Offset: 0x1C47720
+    // Offset: 0x1C9FCB8
     static void _cctor();
-    // System.String <EscapeInvalidXmlCharacters>b__38_0(System.Text.RegularExpressions.Match match)
-    // Offset: 0x1C4778C
-    ::StringW $EscapeInvalidXmlCharacters$b__38_0(::System::Text::RegularExpressions::Match* match);
     // public System.Void .ctor()
-    // Offset: 0x1C47784
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C9FD1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TNode::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Interfaces::TNode::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TNode::$$c*, creationType>()));
     }
+    // System.String <EscapeInvalidXmlCharacters>b__38_0(System.Text.RegularExpressions.Match match)
+    // Offset: 0x1C9FD24
+    ::StringW $EscapeInvalidXmlCharacters$b__38_0(::System::Text::RegularExpressions::Match* match);
   }; // NUnit.Framework.Interfaces.TNode/NUnit.Framework.Interfaces.<>c
   #pragma pack(pop)
 }
@@ -69,6 +67,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::TNode::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: NUnit::Framework::Interfaces::TNode::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::TNode::$$c::$EscapeInvalidXmlCharacters$b__38_0
 // Il2CppName: <EscapeInvalidXmlCharacters>b__38_0
 template<>
@@ -78,7 +80,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::TNode::$$c*), "<EscapeInvalidXmlCharacters>b__38_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{match});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Interfaces::TNode::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

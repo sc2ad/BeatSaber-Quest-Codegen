@@ -42,16 +42,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class InstantMenuButtonTrigger : public ::Il2CppObject/*, public ::Zenject::ITickable, public ::GlobalNamespace::IMenuButtonTrigger*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x1252B34
+    // [InjectAttribute] Offset: 0x10D7718
     // private readonly VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
     // Offset: 0x10
@@ -74,27 +66,25 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IMenuButtonTrigger*>(this);
     }
     // Get instance field reference: private readonly VRControllersInputManager _vrControllersInputManager
-    ::GlobalNamespace::VRControllersInputManager*& dyn__vrControllersInputManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VRControllersInputManager*& dyn__vrControllersInputManager();
     // Get instance field reference: private System.Action menuButtonTriggeredEvent
-    ::System::Action*& dyn_menuButtonTriggeredEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_menuButtonTriggeredEvent();
     // public System.Void add_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0x13B464C
+    // Offset: 0x13AFAF8
     void add_menuButtonTriggeredEvent(::System::Action* value);
     // public System.Void remove_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0x13B46F0
+    // Offset: 0x13AFB9C
     void remove_menuButtonTriggeredEvent(::System::Action* value);
-    // public System.Void Tick()
-    // Offset: 0x13B4794
-    void Tick();
     // public System.Void .ctor()
-    // Offset: 0x13B47E0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13AFC8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InstantMenuButtonTrigger* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::InstantMenuButtonTrigger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InstantMenuButtonTrigger*, creationType>()));
     }
+    // public System.Void Tick()
+    // Offset: 0x13AFC40
+    void Tick();
   }; // InstantMenuButtonTrigger
   #pragma pack(pop)
   static check_size<sizeof(InstantMenuButtonTrigger), 24 + sizeof(::System::Action*)> __GlobalNamespace_InstantMenuButtonTriggerSizeCheck;
@@ -119,6 +109,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InstantMenuButtonTrigger*), "remove_menuButtonTriggeredEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::InstantMenuButtonTrigger::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::InstantMenuButtonTrigger::Tick
 // Il2CppName: Tick
 template<>
@@ -127,7 +121,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InstantMenuButtonTrigger*), "Tick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::InstantMenuButtonTrigger::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

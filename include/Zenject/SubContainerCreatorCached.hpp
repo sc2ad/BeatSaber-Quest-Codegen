@@ -44,15 +44,7 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class SubContainerCreatorCached : public ::Il2CppObject/*, public ::Zenject::ISubContainerCreator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Zenject.ISubContainerCreator _subCreator
     // Size: 0x8
     // Offset: 0x10
@@ -79,20 +71,20 @@ namespace Zenject {
       return *reinterpret_cast<::Zenject::ISubContainerCreator*>(this);
     }
     // Get instance field reference: private readonly Zenject.ISubContainerCreator _subCreator
-    ::Zenject::ISubContainerCreator*& dyn__subCreator();
+    [[deprecated("Use field access instead!")]] ::Zenject::ISubContainerCreator*& dyn__subCreator();
     // Get instance field reference: private System.Boolean _isLookingUp
-    bool& dyn__isLookingUp();
+    [[deprecated("Use field access instead!")]] bool& dyn__isLookingUp();
     // Get instance field reference: private Zenject.DiContainer _subContainer
-    ::Zenject::DiContainer*& dyn__subContainer();
+    [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn__subContainer();
     // public System.Void .ctor(Zenject.ISubContainerCreator subCreator)
-    // Offset: 0x1CE6450
+    // Offset: 0x1D219A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorCached* New_ctor(::Zenject::ISubContainerCreator* subCreator) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SubContainerCreatorCached::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorCached*, creationType>(subCreator)));
     }
     // public Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)
-    // Offset: 0x1CE8C40
+    // Offset: 0x1D24198
     ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
   }; // Zenject.SubContainerCreatorCached
   #pragma pack(pop)

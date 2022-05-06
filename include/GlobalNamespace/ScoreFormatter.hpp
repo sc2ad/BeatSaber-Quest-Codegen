@@ -34,26 +34,24 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScoreFormatter : public ::Il2CppObject {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x124BEC8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D09C0
     // Get static field: static private readonly System.Globalization.NumberFormatInfo _numberFormatInfo
     static ::System::Globalization::NumberFormatInfo* _get__numberFormatInfo();
     // Set static field: static private readonly System.Globalization.NumberFormatInfo _numberFormatInfo
     static void _set__numberFormatInfo(::System::Globalization::NumberFormatInfo* value);
     // static private System.Void .cctor()
-    // Offset: 0x14240A8
+    // Offset: 0x1465760
     static void _cctor();
-    // static public System.String Format(System.Int32 score)
-    // Offset: 0x1424184
-    static ::StringW Format(int score);
     // public System.Void .ctor()
-    // Offset: 0x1424208
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x146583C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScoreFormatter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScoreFormatter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScoreFormatter*, creationType>()));
     }
+    // static public System.String Format(System.Int32 score)
+    // Offset: 0x1456384
+    static ::StringW Format(int score);
   }; // ScoreFormatter
   #pragma pack(pop)
 }
@@ -66,6 +64,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreFormatter*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ScoreFormatter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ScoreFormatter::Format
 // Il2CppName: Format
 template<>
@@ -75,7 +77,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreFormatter*), "Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{score});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ScoreFormatter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

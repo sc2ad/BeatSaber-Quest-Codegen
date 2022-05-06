@@ -33,15 +33,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class UVEditing::$$c__DisplayClass9_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.ProBuilder.Face f1
     // Size: 0x8
     // Offset: 0x10
@@ -56,27 +48,29 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static_assert(sizeof(::UnityEngine::ProBuilder::Face*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.ProBuilder.Face f1
-    ::UnityEngine::ProBuilder::Face*& dyn_f1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Face*& dyn_f1();
     // Get instance field reference: public UnityEngine.ProBuilder.Face f2
-    ::UnityEngine::ProBuilder::Face*& dyn_f2();
-    // System.Boolean <AutoStitch>b__0(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x1C0F358
-    bool $AutoStitch$b__0(::UnityEngine::ProBuilder::WingedEdge* x);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Face*& dyn_f2();
     // public System.Void .ctor()
-    // Offset: 0x1C0C044
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C4662C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UVEditing::$$c__DisplayClass9_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass9_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UVEditing::$$c__DisplayClass9_0*, creationType>()));
     }
+    // System.Boolean <AutoStitch>b__0(UnityEngine.ProBuilder.WingedEdge x)
+    // Offset: 0x1C49940
+    bool $AutoStitch$b__0(::UnityEngine::ProBuilder::WingedEdge* x);
   }; // UnityEngine.ProBuilder.MeshOperations.UVEditing/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass9_0
   #pragma pack(pop)
   static check_size<sizeof(UVEditing::$$c__DisplayClass9_0), 24 + sizeof(::UnityEngine::ProBuilder::Face*)> __UnityEngine_ProBuilder_MeshOperations_UVEditing_$$c__DisplayClass9_0SizeCheck;
   static_assert(sizeof(UVEditing::$$c__DisplayClass9_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass9_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass9_0::$AutoStitch$b__0
 // Il2CppName: <AutoStitch>b__0
 template<>
@@ -86,7 +80,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass9_0*), "<AutoStitch>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass9_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

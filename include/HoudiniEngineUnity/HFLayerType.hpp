@@ -66,7 +66,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HFLayerType DETAIL
     static void _set_DETAIL(::HoudiniEngineUnity::HFLayerType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HFLayerType
   #pragma pack(pop)
   static check_size<sizeof(HFLayerType), 0 + sizeof(int)> __HoudiniEngineUnity_HFLayerTypeSizeCheck;

@@ -33,15 +33,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [TokenAttribute] Offset: FFFFFFFF
   class DTSweepBasin : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode leftNode
     // Size: 0x8
     // Offset: 0x10
@@ -74,19 +66,17 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode leftNode
-    ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_leftNode();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_leftNode();
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode bottomNode
-    ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_bottomNode();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_bottomNode();
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode rightNode
-    ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_rightNode();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_rightNode();
     // Get instance field reference: public System.Double width
-    double& dyn_width();
+    [[deprecated("Use field access instead!")]] double& dyn_width();
     // Get instance field reference: public System.Boolean leftHighest
-    bool& dyn_leftHighest();
+    [[deprecated("Use field access instead!")]] bool& dyn_leftHighest();
     // public System.Void .ctor()
-    // Offset: 0x2A3AAB8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A90EA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DTSweepBasin* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::.ctor");

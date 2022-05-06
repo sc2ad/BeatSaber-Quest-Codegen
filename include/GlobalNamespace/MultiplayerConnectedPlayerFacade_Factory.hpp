@@ -34,11 +34,7 @@ namespace GlobalNamespace {
   class MultiplayerConnectedPlayerFacade::Factory : public ::Zenject::PlaceholderFactory_3<::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::MultiplayerPlayerStartState, ::GlobalNamespace::MultiplayerConnectedPlayerFacade*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13D3A24
-    // Implemented from: Zenject.PlaceholderFactory`3
-    // Base method: System.Void PlaceholderFactory_3::.ctor()
-    // Base method: System.Void PlaceholderFactoryBase_1::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13CFED0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerFacade::Factory* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerFacade::Factory::.ctor");

@@ -51,23 +51,15 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::OVRScreenFade::$Fade$d__25
     class $Fade$d__25;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x12051A4
+    // [TooltipAttribute] Offset: 0x108ABBC
     // public System.Single fadeTime
     // Size: 0x4
     // Offset: 0x18
     float fadeTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x12051DC
+    // [TooltipAttribute] Offset: 0x108ABF4
     // public UnityEngine.Color fadeColor
     // Size: 0x10
     // Offset: 0x1C
@@ -138,79 +130,73 @@ namespace GlobalNamespace {
     // Set static field: static private OVRScreenFade <instance>k__BackingField
     static void _set_$instance$k__BackingField(::GlobalNamespace::OVRScreenFade* value);
     // Get instance field reference: public System.Single fadeTime
-    float& dyn_fadeTime();
+    [[deprecated("Use field access instead!")]] float& dyn_fadeTime();
     // Get instance field reference: public UnityEngine.Color fadeColor
-    ::UnityEngine::Color& dyn_fadeColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_fadeColor();
     // Get instance field reference: public System.Boolean fadeOnStart
-    bool& dyn_fadeOnStart();
+    [[deprecated("Use field access instead!")]] bool& dyn_fadeOnStart();
     // Get instance field reference: public System.Int32 renderQueue
-    int& dyn_renderQueue();
+    [[deprecated("Use field access instead!")]] int& dyn_renderQueue();
     // Get instance field reference: private System.Single explicitFadeAlpha
-    float& dyn_explicitFadeAlpha();
+    [[deprecated("Use field access instead!")]] float& dyn_explicitFadeAlpha();
     // Get instance field reference: private System.Single animatedFadeAlpha
-    float& dyn_animatedFadeAlpha();
+    [[deprecated("Use field access instead!")]] float& dyn_animatedFadeAlpha();
     // Get instance field reference: private System.Single uiFadeAlpha
-    float& dyn_uiFadeAlpha();
+    [[deprecated("Use field access instead!")]] float& dyn_uiFadeAlpha();
     // Get instance field reference: private UnityEngine.MeshRenderer fadeRenderer
-    ::UnityEngine::MeshRenderer*& dyn_fadeRenderer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MeshRenderer*& dyn_fadeRenderer();
     // Get instance field reference: private UnityEngine.MeshFilter fadeMesh
-    ::UnityEngine::MeshFilter*& dyn_fadeMesh();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MeshFilter*& dyn_fadeMesh();
     // Get instance field reference: private UnityEngine.Material fadeMaterial
-    ::UnityEngine::Material*& dyn_fadeMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_fadeMaterial();
     // Get instance field reference: private System.Boolean isFading
-    bool& dyn_isFading();
+    [[deprecated("Use field access instead!")]] bool& dyn_isFading();
     // static public OVRScreenFade get_instance()
-    // Offset: 0x1AE8770
+    // Offset: 0x1B22D58
     static ::GlobalNamespace::OVRScreenFade* get_instance();
     // static private System.Void set_instance(OVRScreenFade value)
-    // Offset: 0x1AE87C0
+    // Offset: 0x1B22DA8
     static void set_instance(::GlobalNamespace::OVRScreenFade* value);
     // public System.Single get_currentAlpha()
-    // Offset: 0x1AE8814
+    // Offset: 0x1B22DFC
     float get_currentAlpha();
-    // private System.Void Start()
-    // Offset: 0x1AE88D8
-    void Start();
-    // public System.Void FadeIn()
-    // Offset: 0x1AE8E14
-    void FadeIn();
-    // public System.Void FadeOut()
-    // Offset: 0x1AE8ECC
-    void FadeOut();
-    // private System.Void OnLevelFinishedLoading(System.Int32 level)
-    // Offset: 0x1AE8F00
-    void OnLevelFinishedLoading(int level);
-    // private System.Void OnEnable()
-    // Offset: 0x1AE8F34
-    void OnEnable();
-    // private System.Void OnDestroy()
-    // Offset: 0x1AE8F4C
-    void OnDestroy();
-    // public System.Void SetUIFade(System.Single level)
-    // Offset: 0x1AE90E8
-    void SetUIFade(float level);
-    // public System.Void SetExplicitFade(System.Single level)
-    // Offset: 0x1AE9280
-    void SetExplicitFade(float level);
-    // private System.Collections.IEnumerator Fade(System.Single startAlpha, System.Single endAlpha)
-    // Offset: 0x1AE8E48
-    ::System::Collections::IEnumerator* Fade(float startAlpha, float endAlpha);
-    // private System.Void SetMaterialAlpha()
-    // Offset: 0x1AE9168
-    void SetMaterialAlpha();
     // public System.Void .ctor()
-    // Offset: 0x1AE92B4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B2389C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRScreenFade* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRScreenFade::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRScreenFade*, creationType>()));
     }
+    // private System.Void Start()
+    // Offset: 0x1B22EC0
+    void Start();
+    // public System.Void FadeIn()
+    // Offset: 0x1B233FC
+    void FadeIn();
+    // public System.Void FadeOut()
+    // Offset: 0x1B234B4
+    void FadeOut();
+    // private System.Void OnLevelFinishedLoading(System.Int32 level)
+    // Offset: 0x1B234E8
+    void OnLevelFinishedLoading(int level);
+    // private System.Void OnEnable()
+    // Offset: 0x1B2351C
+    void OnEnable();
+    // private System.Void OnDestroy()
+    // Offset: 0x1B23534
+    void OnDestroy();
+    // public System.Void SetUIFade(System.Single level)
+    // Offset: 0x1B236D0
+    void SetUIFade(float level);
+    // public System.Void SetExplicitFade(System.Single level)
+    // Offset: 0x1B23868
+    void SetExplicitFade(float level);
+    // private System.Collections.IEnumerator Fade(System.Single startAlpha, System.Single endAlpha)
+    // Offset: 0x1B23430
+    ::System::Collections::IEnumerator* Fade(float startAlpha, float endAlpha);
+    // private System.Void SetMaterialAlpha()
+    // Offset: 0x1B23750
+    void SetMaterialAlpha();
   }; // OVRScreenFade
   #pragma pack(pop)
   static check_size<sizeof(OVRScreenFade), 88 + sizeof(bool)> __GlobalNamespace_OVRScreenFadeSizeCheck;
@@ -242,6 +228,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRScreenFade*), "get_currentAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::OVRScreenFade::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVRScreenFade::Start
 // Il2CppName: Start
 template<>
@@ -327,7 +317,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRScreenFade*), "SetMaterialAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OVRScreenFade::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

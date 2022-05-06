@@ -27,15 +27,7 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class RegexPrefix : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.String _prefix
     // Size: 0x8
     // Offset: 0x10
@@ -54,27 +46,27 @@ namespace System::Text::RegularExpressions {
     // Set static field: static System.Text.RegularExpressions.RegexPrefix _empty
     static void _set__empty(::System::Text::RegularExpressions::RegexPrefix* value);
     // Get instance field reference: System.String _prefix
-    ::StringW& dyn__prefix();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__prefix();
     // Get instance field reference: System.Boolean _caseInsensitive
-    bool& dyn__caseInsensitive();
+    [[deprecated("Use field access instead!")]] bool& dyn__caseInsensitive();
     // System.String get_Prefix()
-    // Offset: 0x1D938A0
+    // Offset: 0x1DE6184
     ::StringW get_Prefix();
     // System.Boolean get_CaseInsensitive()
-    // Offset: 0x1D938A8
+    // Offset: 0x1DE618C
     bool get_CaseInsensitive();
     // static System.Text.RegularExpressions.RegexPrefix get_Empty()
-    // Offset: 0x1D938B0
+    // Offset: 0x1DE6194
     static ::System::Text::RegularExpressions::RegexPrefix* get_Empty();
     // System.Void .ctor(System.String prefix, System.Boolean ci)
-    // Offset: 0x1D891D8
+    // Offset: 0x1DDBABC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexPrefix* New_ctor(::StringW prefix, bool ci) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexPrefix::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexPrefix*, creationType>(prefix, ci)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D93918
+    // Offset: 0x1DE61FC
     static void _cctor();
   }; // System.Text.RegularExpressions.RegexPrefix
   #pragma pack(pop)

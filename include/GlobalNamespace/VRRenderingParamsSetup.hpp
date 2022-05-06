@@ -86,20 +86,12 @@ namespace GlobalNamespace {
       // Set static field: static public VRRenderingParamsSetup/SceneType Game
       static void _set_Game(::GlobalNamespace::VRRenderingParamsSetup::SceneType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // VRRenderingParamsSetup/SceneType
     #pragma pack(pop)
     static check_size<sizeof(VRRenderingParamsSetup::SceneType), 0 + sizeof(int)> __GlobalNamespace_VRRenderingParamsSetup_SceneTypeSizeCheck;
     static_assert(sizeof(VRRenderingParamsSetup::SceneType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private FloatSO _vrResolutionScale
     // Size: 0x8
     // Offset: 0x18
@@ -126,7 +118,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::VRRenderingParamsSetup::SceneType) == 0x4);
     // Padding between fields: sceneType and: vrPlatformHelper
     char __padding3[0x4] = {};
-    // [InjectAttribute] Offset: 0x1242BAC
+    // [InjectAttribute] Offset: 0x10C7694
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x38
@@ -137,31 +129,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FloatSO _vrResolutionScale
-    ::GlobalNamespace::FloatSO*& dyn__vrResolutionScale();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FloatSO*& dyn__vrResolutionScale();
     // Get instance field reference: private FloatSO _menuVRResolutionScaleMultiplier
-    ::GlobalNamespace::FloatSO*& dyn__menuVRResolutionScaleMultiplier();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FloatSO*& dyn__menuVRResolutionScaleMultiplier();
     // Get instance field reference: private BoolSO _useFixedFoveatedRenderingDuringGameplay
-    ::GlobalNamespace::BoolSO*& dyn__useFixedFoveatedRenderingDuringGameplay();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn__useFixedFoveatedRenderingDuringGameplay();
     // Get instance field reference: private VRRenderingParamsSetup/SceneType _sceneType
-    ::GlobalNamespace::VRRenderingParamsSetup::SceneType& dyn__sceneType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VRRenderingParamsSetup::SceneType& dyn__sceneType();
     // Get instance field reference: private IVRPlatformHelper _vrPlatformHelper
-    ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
-    // protected System.Void OnEnable()
-    // Offset: 0x29EC838
-    void OnEnable();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // public System.Void .ctor()
-    // Offset: 0x29ECB38
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A43434
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRRenderingParamsSetup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRRenderingParamsSetup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRRenderingParamsSetup*, creationType>()));
     }
+    // protected System.Void OnEnable()
+    // Offset: 0x2A43134
+    void OnEnable();
   }; // VRRenderingParamsSetup
   #pragma pack(pop)
   static check_size<sizeof(VRRenderingParamsSetup), 56 + sizeof(::GlobalNamespace::IVRPlatformHelper*)> __GlobalNamespace_VRRenderingParamsSetupSizeCheck;
@@ -170,6 +156,10 @@ namespace GlobalNamespace {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VRRenderingParamsSetup::SceneType, "", "VRRenderingParamsSetup/SceneType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::VRRenderingParamsSetup::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::VRRenderingParamsSetup::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -178,7 +168,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRRenderingParamsSetup*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::VRRenderingParamsSetup::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

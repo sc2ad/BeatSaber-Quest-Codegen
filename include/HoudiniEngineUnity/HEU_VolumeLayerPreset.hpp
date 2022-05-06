@@ -27,15 +27,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_VolumeLayerPreset : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String _layerName
     // Size: 0x8
     // Offset: 0x10
@@ -56,7 +48,7 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: uiExpanded and: tile
     char __padding2[0x3] = {};
-    // [OptionalFieldAttribute] Offset: 0x127C2F4
+    // [OptionalFieldAttribute] Offset: 0x1100FAC
     // public System.Int32 _tile
     // Size: 0x4
     // Offset: 0x20
@@ -65,17 +57,15 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public System.String _layerName
-    ::StringW& dyn__layerName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__layerName();
     // Get instance field reference: public System.Single _strength
-    float& dyn__strength();
+    [[deprecated("Use field access instead!")]] float& dyn__strength();
     // Get instance field reference: public System.Boolean _uiExpanded
-    bool& dyn__uiExpanded();
+    [[deprecated("Use field access instead!")]] bool& dyn__uiExpanded();
     // Get instance field reference: public System.Int32 _tile
-    int& dyn__tile();
+    [[deprecated("Use field access instead!")]] int& dyn__tile();
     // public System.Void .ctor()
-    // Offset: 0x19D8DC4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1A123AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_VolumeLayerPreset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_VolumeLayerPreset::.ctor");

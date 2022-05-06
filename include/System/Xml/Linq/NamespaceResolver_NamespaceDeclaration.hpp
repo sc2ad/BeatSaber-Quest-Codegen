@@ -31,15 +31,7 @@ namespace System::Xml::Linq {
   // [TokenAttribute] Offset: FFFFFFFF
   class NamespaceResolver::NamespaceDeclaration : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String prefix
     // Size: 0x8
     // Offset: 0x10
@@ -68,17 +60,15 @@ namespace System::Xml::Linq {
     static_assert(sizeof(::System::Xml::Linq::NamespaceResolver::NamespaceDeclaration*) == 0x8);
     public:
     // Get instance field reference: public System.String prefix
-    ::StringW& dyn_prefix();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_prefix();
     // Get instance field reference: public System.Xml.Linq.XNamespace ns
-    ::System::Xml::Linq::XNamespace*& dyn_ns();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Linq::XNamespace*& dyn_ns();
     // Get instance field reference: public System.Int32 scope
-    int& dyn_scope();
+    [[deprecated("Use field access instead!")]] int& dyn_scope();
     // Get instance field reference: public System.Xml.Linq.NamespaceResolver/System.Xml.Linq.NamespaceDeclaration prev
-    ::System::Xml::Linq::NamespaceResolver::NamespaceDeclaration*& dyn_prev();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Linq::NamespaceResolver::NamespaceDeclaration*& dyn_prev();
     // public System.Void .ctor()
-    // Offset: 0x2A485AC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A9F994
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamespaceResolver::NamespaceDeclaration* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::NamespaceResolver::NamespaceDeclaration::.ctor");

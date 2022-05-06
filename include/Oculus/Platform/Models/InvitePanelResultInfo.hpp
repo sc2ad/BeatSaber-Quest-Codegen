@@ -28,15 +28,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class InvitePanelResultInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Boolean InvitesSent
     // Size: 0x1
     // Offset: 0x10
@@ -49,9 +41,9 @@ namespace Oculus::Platform::Models {
       return InvitesSent;
     }
     // Get instance field reference: public readonly System.Boolean InvitesSent
-    bool& dyn_InvitesSent();
+    [[deprecated("Use field access instead!")]] bool& dyn_InvitesSent();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19AD728
+    // Offset: 0x19E6D10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvitePanelResultInfo* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::InvitePanelResultInfo::.ctor");

@@ -60,7 +60,7 @@ namespace Zenject {
     // Set static field: static public Zenject.LoadSceneRelationship Sibling
     static void _set_Sibling(::Zenject::LoadSceneRelationship value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Zenject.LoadSceneRelationship
   #pragma pack(pop)
   static check_size<sizeof(LoadSceneRelationship), 0 + sizeof(int)> __Zenject_LoadSceneRelationshipSizeCheck;

@@ -64,29 +64,27 @@ namespace Zenject::Internal {
     // Set static field: static public System.Func`2<UnityEngine.GameObject,System.Boolean> <>9__10_0
     static void _set_$$9__10_0(::System::Func_2<::UnityEngine::GameObject*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1BD84FC
+    // Offset: 0x1C12AE4
     static void _cctor();
-    // System.Collections.Generic.IEnumerable`1<Zenject.SceneContext> <GetAllSceneContexts>b__3_0(UnityEngine.GameObject root)
-    // Offset: 0x1BD8568
-    ::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>* $GetAllSceneContexts$b__3_0(::UnityEngine::GameObject* root);
-    // System.Boolean <GetRootGameObjects>b__10_0(UnityEngine.GameObject x)
-    // Offset: 0x1BD85C0
-    bool $GetRootGameObjects$b__10_0(::UnityEngine::GameObject* x);
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1BD8650
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1BD86AC
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1BD8560
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C12B48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenUtilInternal::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::ZenUtilInternal::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenUtilInternal::$$c*, creationType>()));
     }
+    // System.Collections.Generic.IEnumerable`1<Zenject.SceneContext> <GetAllSceneContexts>b__3_0(UnityEngine.GameObject root)
+    // Offset: 0x1C12B50
+    ::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>* $GetAllSceneContexts$b__3_0(::UnityEngine::GameObject* root);
+    // System.Boolean <GetRootGameObjects>b__10_0(UnityEngine.GameObject x)
+    // Offset: 0x1C12BA8
+    bool $GetRootGameObjects$b__10_0(::UnityEngine::GameObject* x);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1C12C38
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1C12C94
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.Internal.ZenUtilInternal/Zenject.Internal.<>c
   #pragma pack(pop)
 }
@@ -99,6 +97,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenUtilInternal::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::$$c::$GetAllSceneContexts$b__3_0
 // Il2CppName: <GetAllSceneContexts>b__3_0
 template<>
@@ -134,7 +136,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenUtilInternal::$$c*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

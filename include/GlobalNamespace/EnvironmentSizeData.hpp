@@ -79,7 +79,7 @@ namespace GlobalNamespace {
       // Set static field: static public EnvironmentSizeData/FloorType CloseTo0
       static void _set_CloseTo0(::GlobalNamespace::EnvironmentSizeData::FloorType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // EnvironmentSizeData/FloorType
     #pragma pack(pop)
     static check_size<sizeof(EnvironmentSizeData::FloorType), 0 + sizeof(int)> __GlobalNamespace_EnvironmentSizeData_FloorTypeSizeCheck;
@@ -121,7 +121,7 @@ namespace GlobalNamespace {
       // Set static field: static public EnvironmentSizeData/CeilingType LowCeiling
       static void _set_LowCeiling(::GlobalNamespace::EnvironmentSizeData::CeilingType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // EnvironmentSizeData/CeilingType
     #pragma pack(pop)
     static check_size<sizeof(EnvironmentSizeData::CeilingType), 0 + sizeof(int)> __GlobalNamespace_EnvironmentSizeData_CeilingTypeSizeCheck;
@@ -163,20 +163,12 @@ namespace GlobalNamespace {
       // Set static field: static public EnvironmentSizeData/TrackLaneType Normal
       static void _set_Normal(::GlobalNamespace::EnvironmentSizeData::TrackLaneType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // EnvironmentSizeData/TrackLaneType
     #pragma pack(pop)
     static check_size<sizeof(EnvironmentSizeData::TrackLaneType), 0 + sizeof(int)> __GlobalNamespace_EnvironmentSizeData_TrackLaneTypeSizeCheck;
     static_assert(sizeof(EnvironmentSizeData::TrackLaneType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private EnvironmentSizeData/FloorType _floorType
     // Size: 0x4
     // Offset: 0x10
@@ -197,24 +189,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::EnvironmentSizeData::TrackLaneType) == 0x4);
     public:
     // Get instance field reference: private EnvironmentSizeData/FloorType _floorType
-    ::GlobalNamespace::EnvironmentSizeData::FloorType& dyn__floorType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentSizeData::FloorType& dyn__floorType();
     // Get instance field reference: private EnvironmentSizeData/CeilingType _ceilingType
-    ::GlobalNamespace::EnvironmentSizeData::CeilingType& dyn__ceilingType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentSizeData::CeilingType& dyn__ceilingType();
     // Get instance field reference: private EnvironmentSizeData/TrackLaneType _trackLaneType
-    ::GlobalNamespace::EnvironmentSizeData::TrackLaneType& dyn__trackLaneType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentSizeData::TrackLaneType& dyn__trackLaneType();
     // public EnvironmentSizeData/FloorType get_floorType()
-    // Offset: 0x1385168
+    // Offset: 0x136CD44
     ::GlobalNamespace::EnvironmentSizeData::FloorType get_floorType();
     // public EnvironmentSizeData/CeilingType get_ceilingType()
-    // Offset: 0x1385170
+    // Offset: 0x136CD4C
     ::GlobalNamespace::EnvironmentSizeData::CeilingType get_ceilingType();
     // public EnvironmentSizeData/TrackLaneType get_trackLaneType()
-    // Offset: 0x1385178
+    // Offset: 0x136CD54
     ::GlobalNamespace::EnvironmentSizeData::TrackLaneType get_trackLaneType();
     // public System.Void .ctor()
-    // Offset: 0x1385180
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x136CD5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentSizeData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentSizeData::.ctor");

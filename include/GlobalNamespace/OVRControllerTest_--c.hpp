@@ -155,113 +155,111 @@ namespace GlobalNamespace {
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_30
     static void _set_$$9__4_30(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // static private System.Void .cctor()
-    // Offset: 0x1621290
+    // Offset: 0x1656BA0
     static void _cctor();
-    // System.Boolean <Start>b__4_0()
-    // Offset: 0x16212FC
-    bool $Start$b__4_0();
-    // System.Boolean <Start>b__4_1()
-    // Offset: 0x1621364
-    bool $Start$b__4_1();
-    // System.Boolean <Start>b__4_2()
-    // Offset: 0x16213CC
-    bool $Start$b__4_2();
-    // System.Boolean <Start>b__4_3()
-    // Offset: 0x1621434
-    bool $Start$b__4_3();
-    // System.Boolean <Start>b__4_4()
-    // Offset: 0x162149C
-    bool $Start$b__4_4();
-    // System.Boolean <Start>b__4_5()
-    // Offset: 0x1621504
-    bool $Start$b__4_5();
-    // System.Boolean <Start>b__4_6()
-    // Offset: 0x162156C
-    bool $Start$b__4_6();
-    // System.Boolean <Start>b__4_7()
-    // Offset: 0x16215D4
-    bool $Start$b__4_7();
-    // System.Boolean <Start>b__4_8()
-    // Offset: 0x162163C
-    bool $Start$b__4_8();
-    // System.Boolean <Start>b__4_9()
-    // Offset: 0x16216A4
-    bool $Start$b__4_9();
-    // System.Boolean <Start>b__4_10()
-    // Offset: 0x162170C
-    bool $Start$b__4_10();
-    // System.Boolean <Start>b__4_11()
-    // Offset: 0x1621774
-    bool $Start$b__4_11();
-    // System.Boolean <Start>b__4_12()
-    // Offset: 0x16217DC
-    bool $Start$b__4_12();
-    // System.Boolean <Start>b__4_13()
-    // Offset: 0x1621844
-    bool $Start$b__4_13();
-    // System.Boolean <Start>b__4_14()
-    // Offset: 0x16218AC
-    bool $Start$b__4_14();
-    // System.Boolean <Start>b__4_15()
-    // Offset: 0x1621914
-    bool $Start$b__4_15();
-    // System.Boolean <Start>b__4_16()
-    // Offset: 0x162197C
-    bool $Start$b__4_16();
-    // System.Boolean <Start>b__4_17()
-    // Offset: 0x16219E4
-    bool $Start$b__4_17();
-    // System.Boolean <Start>b__4_18()
-    // Offset: 0x1621A4C
-    bool $Start$b__4_18();
-    // System.Boolean <Start>b__4_19()
-    // Offset: 0x1621AB4
-    bool $Start$b__4_19();
-    // System.Boolean <Start>b__4_20()
-    // Offset: 0x1621B1C
-    bool $Start$b__4_20();
-    // System.Boolean <Start>b__4_21()
-    // Offset: 0x1621B84
-    bool $Start$b__4_21();
-    // System.Boolean <Start>b__4_22()
-    // Offset: 0x1621BEC
-    bool $Start$b__4_22();
-    // System.Boolean <Start>b__4_23()
-    // Offset: 0x1621C54
-    bool $Start$b__4_23();
-    // System.Boolean <Start>b__4_24()
-    // Offset: 0x1621CBC
-    bool $Start$b__4_24();
-    // System.Boolean <Start>b__4_25()
-    // Offset: 0x1621D24
-    bool $Start$b__4_25();
-    // System.Boolean <Start>b__4_26()
-    // Offset: 0x1621D8C
-    bool $Start$b__4_26();
-    // System.Boolean <Start>b__4_27()
-    // Offset: 0x1621DF4
-    bool $Start$b__4_27();
-    // System.Boolean <Start>b__4_28()
-    // Offset: 0x1621E5C
-    bool $Start$b__4_28();
-    // System.Boolean <Start>b__4_29()
-    // Offset: 0x1621EC4
-    bool $Start$b__4_29();
-    // System.Boolean <Start>b__4_30()
-    // Offset: 0x1621F2C
-    bool $Start$b__4_30();
-    // System.Boolean <.cctor>b__9_0()
-    // Offset: 0x1621F94
-    bool $_cctor$b__9_0();
     // public System.Void .ctor()
-    // Offset: 0x16212F4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1656C04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRControllerTest::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRControllerTest::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRControllerTest::$$c*, creationType>()));
     }
+    // System.Boolean <Start>b__4_0()
+    // Offset: 0x1656C0C
+    bool $Start$b__4_0();
+    // System.Boolean <Start>b__4_1()
+    // Offset: 0x1656C74
+    bool $Start$b__4_1();
+    // System.Boolean <Start>b__4_2()
+    // Offset: 0x1656CDC
+    bool $Start$b__4_2();
+    // System.Boolean <Start>b__4_3()
+    // Offset: 0x1656D44
+    bool $Start$b__4_3();
+    // System.Boolean <Start>b__4_4()
+    // Offset: 0x1656DAC
+    bool $Start$b__4_4();
+    // System.Boolean <Start>b__4_5()
+    // Offset: 0x1656E14
+    bool $Start$b__4_5();
+    // System.Boolean <Start>b__4_6()
+    // Offset: 0x1656E7C
+    bool $Start$b__4_6();
+    // System.Boolean <Start>b__4_7()
+    // Offset: 0x1656EE4
+    bool $Start$b__4_7();
+    // System.Boolean <Start>b__4_8()
+    // Offset: 0x1656F4C
+    bool $Start$b__4_8();
+    // System.Boolean <Start>b__4_9()
+    // Offset: 0x1656FB4
+    bool $Start$b__4_9();
+    // System.Boolean <Start>b__4_10()
+    // Offset: 0x165701C
+    bool $Start$b__4_10();
+    // System.Boolean <Start>b__4_11()
+    // Offset: 0x1657084
+    bool $Start$b__4_11();
+    // System.Boolean <Start>b__4_12()
+    // Offset: 0x16570EC
+    bool $Start$b__4_12();
+    // System.Boolean <Start>b__4_13()
+    // Offset: 0x1657154
+    bool $Start$b__4_13();
+    // System.Boolean <Start>b__4_14()
+    // Offset: 0x16571BC
+    bool $Start$b__4_14();
+    // System.Boolean <Start>b__4_15()
+    // Offset: 0x1657224
+    bool $Start$b__4_15();
+    // System.Boolean <Start>b__4_16()
+    // Offset: 0x165728C
+    bool $Start$b__4_16();
+    // System.Boolean <Start>b__4_17()
+    // Offset: 0x16572F4
+    bool $Start$b__4_17();
+    // System.Boolean <Start>b__4_18()
+    // Offset: 0x165735C
+    bool $Start$b__4_18();
+    // System.Boolean <Start>b__4_19()
+    // Offset: 0x16573C4
+    bool $Start$b__4_19();
+    // System.Boolean <Start>b__4_20()
+    // Offset: 0x165742C
+    bool $Start$b__4_20();
+    // System.Boolean <Start>b__4_21()
+    // Offset: 0x1657494
+    bool $Start$b__4_21();
+    // System.Boolean <Start>b__4_22()
+    // Offset: 0x16574FC
+    bool $Start$b__4_22();
+    // System.Boolean <Start>b__4_23()
+    // Offset: 0x1657564
+    bool $Start$b__4_23();
+    // System.Boolean <Start>b__4_24()
+    // Offset: 0x16575CC
+    bool $Start$b__4_24();
+    // System.Boolean <Start>b__4_25()
+    // Offset: 0x1657634
+    bool $Start$b__4_25();
+    // System.Boolean <Start>b__4_26()
+    // Offset: 0x165769C
+    bool $Start$b__4_26();
+    // System.Boolean <Start>b__4_27()
+    // Offset: 0x1657704
+    bool $Start$b__4_27();
+    // System.Boolean <Start>b__4_28()
+    // Offset: 0x165776C
+    bool $Start$b__4_28();
+    // System.Boolean <Start>b__4_29()
+    // Offset: 0x16577D4
+    bool $Start$b__4_29();
+    // System.Boolean <Start>b__4_30()
+    // Offset: 0x165783C
+    bool $Start$b__4_30();
+    // System.Boolean <.cctor>b__9_0()
+    // Offset: 0x16578A4
+    bool $_cctor$b__9_0();
   }; // OVRControllerTest/<>c
   #pragma pack(pop)
 }
@@ -274,6 +272,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_0
 // Il2CppName: <Start>b__4_0
 template<>
@@ -530,7 +532,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<.cctor>b__9_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AnimationStartParams : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _timeOffset
     // Size: 0x4
     // Offset: 0x18
@@ -66,33 +58,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _timeOffset
-    float& dyn__timeOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__timeOffset();
     // Get instance field reference: private System.Single _speed
-    float& dyn__speed();
+    [[deprecated("Use field access instead!")]] float& dyn__speed();
     // Get instance field reference: private UnityEngine.Animation _animation
-    ::UnityEngine::Animation*& dyn__animation();
-    // protected System.Void Start()
-    // Offset: 0x15648C0
-    void Start();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Animation*& dyn__animation();
     // public System.Void .ctor()
-    // Offset: 0x1564B14
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x159B41C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimationStartParams* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AnimationStartParams::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimationStartParams*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x159B1C8
+    void Start();
   }; // AnimationStartParams
   #pragma pack(pop)
   static check_size<sizeof(AnimationStartParams), 32 + sizeof(::UnityEngine::Animation*)> __GlobalNamespace_AnimationStartParamsSizeCheck;
   static_assert(sizeof(AnimationStartParams) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::AnimationStartParams::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AnimationStartParams::Start
 // Il2CppName: Start
 template<>
@@ -101,7 +91,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnimationStartParams*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AnimationStartParams::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

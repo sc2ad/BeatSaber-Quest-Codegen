@@ -77,15 +77,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::StandardLevelDetailView::$SetContentForBeatmapDataAsync$d__34
     struct $SetContentForBeatmapDataAsync$d__34;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Button _actionButton
     // Size: 0x8
     // Offset: 0x18
@@ -174,100 +166,94 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Button _actionButton
-    ::UnityEngine::UI::Button*& dyn__actionButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__actionButton();
     // Get instance field reference: private TMPro.TextMeshProUGUI _actionButtonText
-    ::TMPro::TextMeshProUGUI*& dyn__actionButtonText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__actionButtonText();
     // Get instance field reference: private UnityEngine.UI.Button _practiceButton
-    ::UnityEngine::UI::Button*& dyn__practiceButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__practiceButton();
     // Get instance field reference: private LevelBar _levelBar
-    ::GlobalNamespace::LevelBar*& dyn__levelBar();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelBar*& dyn__levelBar();
     // Get instance field reference: private LevelParamsPanel _levelParamsPanel
-    ::GlobalNamespace::LevelParamsPanel*& dyn__levelParamsPanel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelParamsPanel*& dyn__levelParamsPanel();
     // Get instance field reference: private BeatmapDifficultySegmentedControlController _beatmapDifficultySegmentedControlController
-    ::GlobalNamespace::BeatmapDifficultySegmentedControlController*& dyn__beatmapDifficultySegmentedControlController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficultySegmentedControlController*& dyn__beatmapDifficultySegmentedControlController();
     // Get instance field reference: private BeatmapCharacteristicSegmentedControlController _beatmapCharacteristicSegmentedControlController
-    ::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*& dyn__beatmapCharacteristicSegmentedControlController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*& dyn__beatmapCharacteristicSegmentedControlController();
     // Get instance field reference: private UnityEngine.UI.Toggle _favoriteToggle
-    ::UnityEngine::UI::Toggle*& dyn__favoriteToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__favoriteToggle();
     // Get instance field reference: private System.Action`2<StandardLevelDetailView,IDifficultyBeatmap> didChangeDifficultyBeatmapEvent
-    ::System::Action_2<::GlobalNamespace::StandardLevelDetailView*, ::GlobalNamespace::IDifficultyBeatmap*>*& dyn_didChangeDifficultyBeatmapEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::StandardLevelDetailView*, ::GlobalNamespace::IDifficultyBeatmap*>*& dyn_didChangeDifficultyBeatmapEvent();
     // Get instance field reference: private System.Action`2<StandardLevelDetailView,UnityEngine.UI.Toggle> didFavoriteToggleChangeEvent
-    ::System::Action_2<::GlobalNamespace::StandardLevelDetailView*, ::UnityEngine::UI::Toggle*>*& dyn_didFavoriteToggleChangeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::StandardLevelDetailView*, ::UnityEngine::UI::Toggle*>*& dyn_didFavoriteToggleChangeEvent();
     // Get instance field reference: private IBeatmapLevel _level
-    ::GlobalNamespace::IBeatmapLevel*& dyn__level();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatmapLevel*& dyn__level();
     // Get instance field reference: private PlayerData _playerData
-    ::GlobalNamespace::PlayerData*& dyn__playerData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerData*& dyn__playerData();
     // Get instance field reference: private IDifficultyBeatmap _selectedDifficultyBeatmap
-    ::GlobalNamespace::IDifficultyBeatmap*& dyn__selectedDifficultyBeatmap();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IDifficultyBeatmap*& dyn__selectedDifficultyBeatmap();
     // Get instance field reference: private HMUI.ToggleBinder _toggleBinder
-    ::HMUI::ToggleBinder*& dyn__toggleBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ToggleBinder*& dyn__toggleBinder();
     // public IDifficultyBeatmap get_selectedDifficultyBeatmap()
-    // Offset: 0x2AACAF8
+    // Offset: 0x14106EC
     ::GlobalNamespace::IDifficultyBeatmap* get_selectedDifficultyBeatmap();
     // public UnityEngine.UI.Button get_actionButton()
-    // Offset: 0x2AACB00
+    // Offset: 0x14106F4
     ::UnityEngine::UI::Button* get_actionButton();
     // public System.Void set_actionButtonText(System.String value)
-    // Offset: 0x2AACB08
+    // Offset: 0x14106FC
     void set_actionButtonText(::StringW value);
     // public UnityEngine.UI.Button get_practiceButton()
-    // Offset: 0x2AACB24
+    // Offset: 0x1410718
     ::UnityEngine::UI::Button* get_practiceButton();
     // public System.Void set_hidePracticeButton(System.Boolean value)
-    // Offset: 0x2AACB2C
+    // Offset: 0x1410720
     void set_hidePracticeButton(bool value);
     // public System.Void add_didChangeDifficultyBeatmapEvent(System.Action`2<StandardLevelDetailView,IDifficultyBeatmap> value)
-    // Offset: 0x2AAC868
+    // Offset: 0x141045C
     void add_didChangeDifficultyBeatmapEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailView*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void remove_didChangeDifficultyBeatmapEvent(System.Action`2<StandardLevelDetailView,IDifficultyBeatmap> value)
-    // Offset: 0x2AAC90C
+    // Offset: 0x1410500
     void remove_didChangeDifficultyBeatmapEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailView*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void add_didFavoriteToggleChangeEvent(System.Action`2<StandardLevelDetailView,UnityEngine.UI.Toggle> value)
-    // Offset: 0x2AAC9B0
+    // Offset: 0x14105A4
     void add_didFavoriteToggleChangeEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailView*, ::UnityEngine::UI::Toggle*>* value);
     // public System.Void remove_didFavoriteToggleChangeEvent(System.Action`2<StandardLevelDetailView,UnityEngine.UI.Toggle> value)
-    // Offset: 0x2AACA54
+    // Offset: 0x1410648
     void remove_didFavoriteToggleChangeEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailView*, ::UnityEngine::UI::Toggle*>* value);
-    // public System.Void SetContent(IBeatmapLevel level, BeatmapDifficulty defaultDifficulty, BeatmapCharacteristicSO defaultBeatmapCharacteristic, PlayerData playerData)
-    // Offset: 0x2AACB6C
-    void SetContent(::GlobalNamespace::IBeatmapLevel* level, ::GlobalNamespace::BeatmapDifficulty defaultDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* defaultBeatmapCharacteristic, ::GlobalNamespace::PlayerData* playerData);
-    // protected System.Void Awake()
-    // Offset: 0x2AAD030
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x2AAD180
-    void OnDestroy();
-    // private System.Void HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty(BeatmapDifficultySegmentedControlController controller, BeatmapDifficulty difficulty)
-    // Offset: 0x2AAD2E8
-    void HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty(::GlobalNamespace::BeatmapDifficultySegmentedControlController* controller, ::GlobalNamespace::BeatmapDifficulty difficulty);
-    // private System.Void HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic(BeatmapCharacteristicSegmentedControlController controller, BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x2AAD358
-    void HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSegmentedControlController* controller, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
-    // public System.Void RefreshContent()
-    // Offset: 0x2AACE88
-    void RefreshContent();
-    // public System.Void SetContentForBeatmapDataAsync(IDifficultyBeatmap selectedDifficultyBeatmap)
-    // Offset: 0x2AAD4F4
-    void SetContentForBeatmapDataAsync(::GlobalNamespace::IDifficultyBeatmap* selectedDifficultyBeatmap);
-    // public System.Void ClearContent()
-    // Offset: 0x2AAD5B8
-    void ClearContent();
-    // private System.Void <Awake>b__29_0(System.Boolean on)
-    // Offset: 0x2AAD5C8
-    void $Awake$b__29_0(bool on);
     // public System.Void .ctor()
-    // Offset: 0x2AAD5C0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14111B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelDetailView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardLevelDetailView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelDetailView*, creationType>()));
     }
+    // public System.Void SetContent(IBeatmapLevel level, BeatmapDifficulty defaultDifficulty, BeatmapCharacteristicSO defaultBeatmapCharacteristic, PlayerData playerData)
+    // Offset: 0x1410760
+    void SetContent(::GlobalNamespace::IBeatmapLevel* level, ::GlobalNamespace::BeatmapDifficulty defaultDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* defaultBeatmapCharacteristic, ::GlobalNamespace::PlayerData* playerData);
+    // protected System.Void Awake()
+    // Offset: 0x1410C24
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1410D74
+    void OnDestroy();
+    // private System.Void HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty(BeatmapDifficultySegmentedControlController controller, BeatmapDifficulty difficulty)
+    // Offset: 0x1410EDC
+    void HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty(::GlobalNamespace::BeatmapDifficultySegmentedControlController* controller, ::GlobalNamespace::BeatmapDifficulty difficulty);
+    // private System.Void HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic(BeatmapCharacteristicSegmentedControlController controller, BeatmapCharacteristicSO beatmapCharacteristic)
+    // Offset: 0x1410F4C
+    void HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSegmentedControlController* controller, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
+    // public System.Void RefreshContent()
+    // Offset: 0x1410A7C
+    void RefreshContent();
+    // public System.Void SetContentForBeatmapDataAsync(IDifficultyBeatmap selectedDifficultyBeatmap)
+    // Offset: 0x14110E8
+    void SetContentForBeatmapDataAsync(::GlobalNamespace::IDifficultyBeatmap* selectedDifficultyBeatmap);
+    // public System.Void ClearContent()
+    // Offset: 0x14111AC
+    void ClearContent();
+    // private System.Void <Awake>b__29_0(System.Boolean on)
+    // Offset: 0x14111BC
+    void $Awake$b__29_0(bool on);
   }; // StandardLevelDetailView
   #pragma pack(pop)
   static check_size<sizeof(StandardLevelDetailView), 128 + sizeof(::HMUI::ToggleBinder*)> __GlobalNamespace_StandardLevelDetailViewSizeCheck;
@@ -352,6 +338,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "remove_didFavoriteToggleChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::SetContent
 // Il2CppName: SetContent
 template<>
@@ -434,7 +424,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "<Awake>b__29_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{on});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

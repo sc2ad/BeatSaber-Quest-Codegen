@@ -38,15 +38,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MultiplayerResultsTableView::$$c__DisplayClass30_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.RectTransform rectTransform
     // Size: 0x8
     // Offset: 0x10
@@ -61,30 +53,32 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::MultiplayerResultsTableCell*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.RectTransform rectTransform
-    ::UnityEngine::RectTransform*& dyn_rectTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn_rectTransform();
     // Get instance field reference: public MultiplayerResultsTableCell cell
-    ::GlobalNamespace::MultiplayerResultsTableCell*& dyn_cell();
-    // System.Void <StartAnimation>b__0(UnityEngine.Vector2 val)
-    // Offset: 0x13A7FB0
-    void $StartAnimation$b__0(::UnityEngine::Vector2 val);
-    // System.Void <StartAnimation>b__2(System.Single val)
-    // Offset: 0x13A7FCC
-    void $StartAnimation$b__2(float val);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerResultsTableCell*& dyn_cell();
     // public System.Void .ctor()
-    // Offset: 0x13A7DAC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13A4258
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerResultsTableView::$$c__DisplayClass30_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerResultsTableView::$$c__DisplayClass30_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsTableView::$$c__DisplayClass30_0*, creationType>()));
     }
+    // System.Void <StartAnimation>b__0(UnityEngine.Vector2 val)
+    // Offset: 0x13A445C
+    void $StartAnimation$b__0(::UnityEngine::Vector2 val);
+    // System.Void <StartAnimation>b__2(System.Single val)
+    // Offset: 0x13A4478
+    void $StartAnimation$b__2(float val);
   }; // MultiplayerResultsTableView/<>c__DisplayClass30_0
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerResultsTableView::$$c__DisplayClass30_0), 24 + sizeof(::GlobalNamespace::MultiplayerResultsTableCell*)> __GlobalNamespace_MultiplayerResultsTableView_$$c__DisplayClass30_0SizeCheck;
   static_assert(sizeof(MultiplayerResultsTableView::$$c__DisplayClass30_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsTableView::$$c__DisplayClass30_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsTableView::$$c__DisplayClass30_0::$StartAnimation$b__0
 // Il2CppName: <StartAnimation>b__0
 template<>
@@ -103,7 +97,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsTableView::$$c__DisplayClass30_0*), "<StartAnimation>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsTableView::$$c__DisplayClass30_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -31,15 +31,7 @@ namespace System::Net::Cache {
   // [TokenAttribute] Offset: FFFFFFFF
   class RequestCacheBinding : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Net.Cache.RequestCache m_RequestCache
     // Size: 0x8
     // Offset: 0x10
@@ -54,14 +46,14 @@ namespace System::Net::Cache {
     static_assert(sizeof(::System::Net::Cache::RequestCacheValidator*) == 0x8);
     public:
     // Get instance field reference: private System.Net.Cache.RequestCache m_RequestCache
-    ::System::Net::Cache::RequestCache*& dyn_m_RequestCache();
+    [[deprecated("Use field access instead!")]] ::System::Net::Cache::RequestCache*& dyn_m_RequestCache();
     // Get instance field reference: private System.Net.Cache.RequestCacheValidator m_CacheValidator
-    ::System::Net::Cache::RequestCacheValidator*& dyn_m_CacheValidator();
+    [[deprecated("Use field access instead!")]] ::System::Net::Cache::RequestCacheValidator*& dyn_m_CacheValidator();
     // System.Net.Cache.RequestCache get_Cache()
-    // Offset: 0x1CBC87C
+    // Offset: 0x1CF8DD4
     ::System::Net::Cache::RequestCache* get_Cache();
     // System.Net.Cache.RequestCacheValidator get_Validator()
-    // Offset: 0x1CBC884
+    // Offset: 0x1CF8DDC
     ::System::Net::Cache::RequestCacheValidator* get_Validator();
   }; // System.Net.Cache.RequestCacheBinding
   #pragma pack(pop)

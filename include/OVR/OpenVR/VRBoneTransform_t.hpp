@@ -48,9 +48,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public OVR.OpenVR.HmdVector4_t position
-    ::OVR::OpenVR::HmdVector4_t& dyn_position();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::HmdVector4_t& dyn_position();
     // Get instance field reference: public OVR.OpenVR.HmdQuaternionf_t orientation
-    ::OVR::OpenVR::HmdQuaternionf_t& dyn_orientation();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::HmdQuaternionf_t& dyn_orientation();
   }; // OVR.OpenVR.VRBoneTransform_t
   #pragma pack(pop)
   static check_size<sizeof(VRBoneTransform_t), 16 + sizeof(::OVR::OpenVR::HmdQuaternionf_t)> __OVR_OpenVR_VRBoneTransform_tSizeCheck;

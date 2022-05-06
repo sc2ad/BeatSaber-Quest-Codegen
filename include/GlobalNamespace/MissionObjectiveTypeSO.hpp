@@ -36,16 +36,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionObjectiveTypeSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [LocalizationKeyAttribute] Offset: 0x124D19C
+    // [LocalizationKeyAttribute] Offset: 0x10D1C94
     // private System.String _objectiveName
     // Size: 0x8
     // Offset: 0x18
@@ -70,30 +62,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _objectiveName
-    ::StringW& dyn__objectiveName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__objectiveName();
     // Get instance field reference: private System.Boolean _noConditionValue
-    bool& dyn__noConditionValue();
+    [[deprecated("Use field access instead!")]] bool& dyn__noConditionValue();
     // Get instance field reference: private ObjectiveValueFormatterSO _objectiveValueFormater
-    ::GlobalNamespace::ObjectiveValueFormatterSO*& dyn__objectiveValueFormater();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ObjectiveValueFormatterSO*& dyn__objectiveValueFormater();
     // public System.String get_objectiveName()
-    // Offset: 0x130C158
+    // Offset: 0x1308630
     ::StringW get_objectiveName();
     // public System.String get_objectiveNameLocalized()
-    // Offset: 0x130608C
+    // Offset: 0x1302564
     ::StringW get_objectiveNameLocalized();
     // public System.Boolean get_noConditionValue()
-    // Offset: 0x130C160
+    // Offset: 0x1308638
     bool get_noConditionValue();
     // public ObjectiveValueFormatterSO get_objectiveValueFormater()
-    // Offset: 0x130C168
+    // Offset: 0x1308640
     ::GlobalNamespace::ObjectiveValueFormatterSO* get_objectiveValueFormater();
     // public System.Void .ctor()
-    // Offset: 0x130C170
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1308648
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionObjectiveTypeSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionObjectiveTypeSO::.ctor");

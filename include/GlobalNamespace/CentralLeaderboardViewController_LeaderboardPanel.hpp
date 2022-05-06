@@ -24,15 +24,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CentralLeaderboardViewController::LeaderboardPanel : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.String title
     // Size: 0x8
     // Offset: 0x10
@@ -53,13 +45,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public readonly System.String title
-    ::StringW& dyn_title();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_title();
     // Get instance field reference: public readonly System.String hint
-    ::StringW& dyn_hint();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_hint();
     // Get instance field reference: public readonly System.Boolean mixed
-    bool& dyn_mixed();
+    [[deprecated("Use field access instead!")]] bool& dyn_mixed();
     // public System.Void .ctor(System.String title, System.String hint, System.Boolean mixed)
-    // Offset: 0x1353BBC
+    // Offset: 0x133CE04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CentralLeaderboardViewController::LeaderboardPanel* New_ctor(::StringW title, ::StringW hint, bool mixed) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel::.ctor");

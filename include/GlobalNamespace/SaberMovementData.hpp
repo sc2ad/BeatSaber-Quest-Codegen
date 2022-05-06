@@ -47,15 +47,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaberMovementData : public ::Il2CppObject/*, public ::GlobalNamespace::IBladeMovementData, public ::GlobalNamespace::ISaberMovementData*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly BladeMovementDataElement[] _data
     // Size: 0x8
     // Offset: 0x10
@@ -114,63 +106,61 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kSmoothDownBladeSpeedCoef
     static void _set_kSmoothDownBladeSpeedCoef(float value);
     // Get instance field reference: private readonly BladeMovementDataElement[] _data
-    ::ArrayW<::GlobalNamespace::BladeMovementDataElement>& dyn__data();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::BladeMovementDataElement>& dyn__data();
     // Get instance field reference: private readonly LazyCopyHashSet`1<ISaberMovementDataProcessor> _dataProcessors
-    ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberMovementDataProcessor*>*& dyn__dataProcessors();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberMovementDataProcessor*>*& dyn__dataProcessors();
     // Get instance field reference: private System.Int32 _nextAddIndex
-    int& dyn__nextAddIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__nextAddIndex();
     // Get instance field reference: private System.Int32 _validCount
-    int& dyn__validCount();
+    [[deprecated("Use field access instead!")]] int& dyn__validCount();
     // Get instance field reference: private System.Single _bladeSpeed
-    float& dyn__bladeSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__bladeSpeed();
     // public System.Single get_bladeSpeed()
-    // Offset: 0x141D204
+    // Offset: 0x145E8BC
     float get_bladeSpeed();
     // public BladeMovementDataElement get_lastAddedData()
-    // Offset: 0x141C164
+    // Offset: 0x145D83C
     ::GlobalNamespace::BladeMovementDataElement get_lastAddedData();
     // public BladeMovementDataElement get_prevAddedData()
-    // Offset: 0x141D20C
+    // Offset: 0x145E8C4
     ::GlobalNamespace::BladeMovementDataElement get_prevAddedData();
-    // public System.Void AddDataProcessor(ISaberMovementDataProcessor dataProcessor)
-    // Offset: 0x141D274
-    void AddDataProcessor(::GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
-    // public System.Void RemoveDataProcessor(ISaberMovementDataProcessor dataProcessor)
-    // Offset: 0x141D2DC
-    void RemoveDataProcessor(::GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
-    // public System.Void RequestLastDataProcessing(ISaberMovementDataProcessor dataProcessor)
-    // Offset: 0x141D344
-    void RequestLastDataProcessing(::GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
-    // public System.Void AddNewData(UnityEngine.Vector3 topPos, UnityEngine.Vector3 bottomPos, System.Single time)
-    // Offset: 0x1418BF8
-    void AddNewData(::UnityEngine::Vector3 topPos, ::UnityEngine::Vector3 bottomPos, float time);
-    // private System.Void ComputeAdditionalData(UnityEngine.Vector3 topPos, UnityEngine.Vector3 bottomPos, System.Int32 idxOffset, out UnityEngine.Vector3 segmentNormal, out System.Single segmentAngle)
-    // Offset: 0x141D4E8
-    void ComputeAdditionalData(::UnityEngine::Vector3 topPos, ::UnityEngine::Vector3 bottomPos, int idxOffset, ByRef<::UnityEngine::Vector3> segmentNormal, ByRef<float> segmentAngle);
-    // private UnityEngine.Vector3 ComputePlaneNormal(UnityEngine.Vector3 tp0, UnityEngine.Vector3 bp0, UnityEngine.Vector3 tp1, UnityEngine.Vector3 bp1)
-    // Offset: 0x141D6D0
-    ::UnityEngine::Vector3 ComputePlaneNormal(::UnityEngine::Vector3 tp0, ::UnityEngine::Vector3 bp0, ::UnityEngine::Vector3 tp1, ::UnityEngine::Vector3 bp1);
-    // public UnityEngine.Vector3 ComputeCutPlaneNormal()
-    // Offset: 0x141D834
-    ::UnityEngine::Vector3 ComputeCutPlaneNormal();
-    // public System.Single ComputeSwingRating(System.Single overrideSegmentAngle)
-    // Offset: 0x141D8E0
-    float ComputeSwingRating(float overrideSegmentAngle);
-    // public System.Single ComputeSwingRating()
-    // Offset: 0x141DB10
-    float ComputeSwingRating();
-    // private System.Single ComputeSwingRating(System.Boolean overrideSegmenAngle, System.Single overrideValue)
-    // Offset: 0x141D8E8
-    float ComputeSwingRating(bool overrideSegmenAngle, float overrideValue);
     // public System.Void .ctor()
-    // Offset: 0x141919C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x145A874
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberMovementData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberMovementData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberMovementData*, creationType>()));
     }
+    // public System.Void AddDataProcessor(ISaberMovementDataProcessor dataProcessor)
+    // Offset: 0x145E92C
+    void AddDataProcessor(::GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
+    // public System.Void RemoveDataProcessor(ISaberMovementDataProcessor dataProcessor)
+    // Offset: 0x145E994
+    void RemoveDataProcessor(::GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
+    // public System.Void RequestLastDataProcessing(ISaberMovementDataProcessor dataProcessor)
+    // Offset: 0x145E9FC
+    void RequestLastDataProcessing(::GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
+    // public System.Void AddNewData(UnityEngine.Vector3 topPos, UnityEngine.Vector3 bottomPos, System.Single time)
+    // Offset: 0x145A2D0
+    void AddNewData(::UnityEngine::Vector3 topPos, ::UnityEngine::Vector3 bottomPos, float time);
+    // private System.Void ComputeAdditionalData(UnityEngine.Vector3 topPos, UnityEngine.Vector3 bottomPos, System.Int32 idxOffset, out UnityEngine.Vector3 segmentNormal, out System.Single segmentAngle)
+    // Offset: 0x145EBA0
+    void ComputeAdditionalData(::UnityEngine::Vector3 topPos, ::UnityEngine::Vector3 bottomPos, int idxOffset, ByRef<::UnityEngine::Vector3> segmentNormal, ByRef<float> segmentAngle);
+    // private UnityEngine.Vector3 ComputePlaneNormal(UnityEngine.Vector3 tp0, UnityEngine.Vector3 bp0, UnityEngine.Vector3 tp1, UnityEngine.Vector3 bp1)
+    // Offset: 0x145ED88
+    ::UnityEngine::Vector3 ComputePlaneNormal(::UnityEngine::Vector3 tp0, ::UnityEngine::Vector3 bp0, ::UnityEngine::Vector3 tp1, ::UnityEngine::Vector3 bp1);
+    // public UnityEngine.Vector3 ComputeCutPlaneNormal()
+    // Offset: 0x145EEEC
+    ::UnityEngine::Vector3 ComputeCutPlaneNormal();
+    // public System.Single ComputeSwingRating(System.Single overrideSegmentAngle)
+    // Offset: 0x145EF98
+    float ComputeSwingRating(float overrideSegmentAngle);
+    // public System.Single ComputeSwingRating()
+    // Offset: 0x145F1C8
+    float ComputeSwingRating();
+    // private System.Single ComputeSwingRating(System.Boolean overrideSegmenAngle, System.Single overrideValue)
+    // Offset: 0x145EFA0
+    float ComputeSwingRating(bool overrideSegmenAngle, float overrideValue);
   }; // SaberMovementData
   #pragma pack(pop)
   static check_size<sizeof(SaberMovementData), 40 + sizeof(float)> __GlobalNamespace_SaberMovementDataSizeCheck;
@@ -201,6 +191,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), "get_prevAddedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SaberMovementData::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SaberMovementData::AddDataProcessor
 // Il2CppName: AddDataProcessor
 template<>
@@ -299,7 +293,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), "ComputeSwingRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{overrideSegmenAngle, overrideValue});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SaberMovementData::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

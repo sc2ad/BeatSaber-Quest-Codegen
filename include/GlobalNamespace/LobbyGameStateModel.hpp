@@ -36,15 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LobbyGameStateModel : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Action`1<MultiplayerGameState> gameStateDidChangeEvent
     // Size: 0x8
     // Offset: 0x10
@@ -65,44 +57,42 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::MultiplayerGameState) == 0x4);
     public:
     // Get instance field reference: private System.Action`1<MultiplayerGameState> gameStateDidChangeEvent
-    ::System::Action_1<::GlobalNamespace::MultiplayerGameState>*& dyn_gameStateDidChangeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::MultiplayerGameState>*& dyn_gameStateDidChangeEvent();
     // Get instance field reference: private System.Action`1<MultiplayerGameState> gameStateDidChangeAlwaysSentEvent
-    ::System::Action_1<::GlobalNamespace::MultiplayerGameState>*& dyn_gameStateDidChangeAlwaysSentEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::MultiplayerGameState>*& dyn_gameStateDidChangeAlwaysSentEvent();
     // Get instance field reference: private MultiplayerGameState _gameState
-    ::GlobalNamespace::MultiplayerGameState& dyn__gameState();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerGameState& dyn__gameState();
     // public MultiplayerGameState get_gameState()
-    // Offset: 0x1497A2C
+    // Offset: 0x14CE2E4
     ::GlobalNamespace::MultiplayerGameState get_gameState();
     // public System.Void add_gameStateDidChangeEvent(System.Action`1<MultiplayerGameState> value)
-    // Offset: 0x1497A34
+    // Offset: 0x14CE2EC
     void add_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void remove_gameStateDidChangeEvent(System.Action`1<MultiplayerGameState> value)
-    // Offset: 0x1497AD8
+    // Offset: 0x14CE390
     void remove_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void add_gameStateDidChangeAlwaysSentEvent(System.Action`1<MultiplayerGameState> value)
-    // Offset: 0x1497B7C
+    // Offset: 0x14CE434
     void add_gameStateDidChangeAlwaysSentEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void remove_gameStateDidChangeAlwaysSentEvent(System.Action`1<MultiplayerGameState> value)
-    // Offset: 0x1497C20
+    // Offset: 0x14CE4D8
     void remove_gameStateDidChangeAlwaysSentEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
-    // public System.Void SetGameState(MultiplayerGameState newGameState)
-    // Offset: 0x1496EB8
-    void SetGameState(::GlobalNamespace::MultiplayerGameState newGameState);
-    // public System.Void SetGameStateWithoutNotification(MultiplayerGameState newGameState)
-    // Offset: 0x1494F3C
-    void SetGameStateWithoutNotification(::GlobalNamespace::MultiplayerGameState newGameState);
-    // private System.Void SetGameState(MultiplayerGameState newGameState, System.Boolean sendNotification)
-    // Offset: 0x1497CC4
-    void SetGameState(::GlobalNamespace::MultiplayerGameState newGameState, bool sendNotification);
     // public System.Void .ctor()
-    // Offset: 0x1497D6C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14CE624
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LobbyGameStateModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LobbyGameStateModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LobbyGameStateModel*, creationType>()));
     }
+    // public System.Void SetGameState(MultiplayerGameState newGameState)
+    // Offset: 0x14CD770
+    void SetGameState(::GlobalNamespace::MultiplayerGameState newGameState);
+    // public System.Void SetGameStateWithoutNotification(MultiplayerGameState newGameState)
+    // Offset: 0x14CB7F4
+    void SetGameStateWithoutNotification(::GlobalNamespace::MultiplayerGameState newGameState);
+    // private System.Void SetGameState(MultiplayerGameState newGameState, System.Boolean sendNotification)
+    // Offset: 0x14CE57C
+    void SetGameState(::GlobalNamespace::MultiplayerGameState newGameState, bool sendNotification);
   }; // LobbyGameStateModel
   #pragma pack(pop)
   static check_size<sizeof(LobbyGameStateModel), 32 + sizeof(::GlobalNamespace::MultiplayerGameState)> __GlobalNamespace_LobbyGameStateModelSizeCheck;
@@ -153,6 +143,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyGameStateModel*), "remove_gameStateDidChangeAlwaysSentEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateModel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateModel::SetGameState
 // Il2CppName: SetGameState
 template<>
@@ -181,7 +175,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyGameStateModel*), "SetGameState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newGameState, sendNotification});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateModel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

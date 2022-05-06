@@ -79,19 +79,19 @@ namespace System {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: System.Int32 Bias
-    int& dyn_Bias();
+    [[deprecated("Use field access instead!")]] int& dyn_Bias();
     // Get instance field reference: System.String StandardName
-    ::StringW& dyn_StandardName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_StandardName();
     // Get instance field reference: System.TimeZoneInfo/System.SYSTEMTIME StandardDate
-    ::System::TimeZoneInfo::SYSTEMTIME& dyn_StandardDate();
+    [[deprecated("Use field access instead!")]] ::System::TimeZoneInfo::SYSTEMTIME& dyn_StandardDate();
     // Get instance field reference: System.Int32 StandardBias
-    int& dyn_StandardBias();
+    [[deprecated("Use field access instead!")]] int& dyn_StandardBias();
     // Get instance field reference: System.String DaylightName
-    ::StringW& dyn_DaylightName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_DaylightName();
     // Get instance field reference: System.TimeZoneInfo/System.SYSTEMTIME DaylightDate
-    ::System::TimeZoneInfo::SYSTEMTIME& dyn_DaylightDate();
+    [[deprecated("Use field access instead!")]] ::System::TimeZoneInfo::SYSTEMTIME& dyn_DaylightDate();
     // Get instance field reference: System.Int32 DaylightBias
-    int& dyn_DaylightBias();
+    [[deprecated("Use field access instead!")]] int& dyn_DaylightBias();
   }; // System.TimeZoneInfo/System.TIME_ZONE_INFORMATION
   #pragma pack(pop)
   static check_size<sizeof(TimeZoneInfo::TIME_ZONE_INFORMATION), 64 + sizeof(int)> __System_TimeZoneInfo_TIME_ZONE_INFORMATIONSizeCheck;

@@ -87,24 +87,16 @@ namespace HMUI {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public System.Boolean unfolded
-      bool& dyn_unfolded();
+      [[deprecated("Use field access instead!")]] bool& dyn_unfolded();
       // Get instance field reference: public System.Int32 startBaseRow
-      int& dyn_startBaseRow();
+      [[deprecated("Use field access instead!")]] int& dyn_startBaseRow();
       // Get instance field reference: public System.Int32 numberOfBaseRows
-      int& dyn_numberOfBaseRows();
+      [[deprecated("Use field access instead!")]] int& dyn_numberOfBaseRows();
     }; // HMUI.SectionTableView/HMUI.Section
     #pragma pack(pop)
     static check_size<sizeof(SectionTableView::Section), 8 + sizeof(int)> __HMUI_SectionTableView_SectionSizeCheck;
     static_assert(sizeof(SectionTableView::Section) == 0xC);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean _unfoldSectionsByDefault
     // Size: 0x1
     // Offset: 0xA2
@@ -143,87 +135,82 @@ namespace HMUI {
       return *reinterpret_cast<::HMUI::TableView::IDataSource*>(this);
     }
     // Get instance field reference: private System.Boolean _unfoldSectionsByDefault
-    bool& dyn__unfoldSectionsByDefault();
+    [[deprecated("Use field access instead!")]] bool& dyn__unfoldSectionsByDefault();
     // Get instance field reference: private System.Action`3<HMUI.SectionTableView,System.Int32,System.Int32> didSelectRowInSectionEvent
-    ::System::Action_3<::HMUI::SectionTableView*, int, int>*& dyn_didSelectRowInSectionEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_3<::HMUI::SectionTableView*, int, int>*& dyn_didSelectRowInSectionEvent();
     // Get instance field reference: private System.Action`2<HMUI.SectionTableView,System.Int32> didSelectHeaderEvent
-    ::System::Action_2<::HMUI::SectionTableView*, int>*& dyn_didSelectHeaderEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::HMUI::SectionTableView*, int>*& dyn_didSelectHeaderEvent();
     // Get instance field reference: private HMUI.SectionTableView/HMUI.IDataSource _dataSource
-    ::HMUI::SectionTableView::IDataSource*& dyn__dataSource();
+    [[deprecated("Use field access instead!")]] ::HMUI::SectionTableView::IDataSource*& dyn__dataSource();
     // Get instance field reference: private HMUI.SectionTableView/HMUI.Section[] _sections
-    ::ArrayW<::HMUI::SectionTableView::Section>& dyn__sections();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::HMUI::SectionTableView::Section>& dyn__sections();
     // public HMUI.SectionTableView/HMUI.IDataSource get_dataSource()
-    // Offset: 0x168B444
+    // Offset: 0x16C1D54
     ::HMUI::SectionTableView::IDataSource* get_dataSource();
     // public System.Void set_dataSource(HMUI.SectionTableView/HMUI.IDataSource value)
-    // Offset: 0x168B44C
+    // Offset: 0x16C1D5C
     void set_dataSource(::HMUI::SectionTableView::IDataSource* value);
     // public System.Void add_didSelectRowInSectionEvent(System.Action`3<HMUI.SectionTableView,System.Int32,System.Int32> value)
-    // Offset: 0x168B1B4
+    // Offset: 0x16C1AC4
     void add_didSelectRowInSectionEvent(::System::Action_3<::HMUI::SectionTableView*, int, int>* value);
     // public System.Void remove_didSelectRowInSectionEvent(System.Action`3<HMUI.SectionTableView,System.Int32,System.Int32> value)
-    // Offset: 0x168B258
+    // Offset: 0x16C1B68
     void remove_didSelectRowInSectionEvent(::System::Action_3<::HMUI::SectionTableView*, int, int>* value);
     // public System.Void add_didSelectHeaderEvent(System.Action`2<HMUI.SectionTableView,System.Int32> value)
-    // Offset: 0x168B2FC
+    // Offset: 0x16C1C0C
     void add_didSelectHeaderEvent(::System::Action_2<::HMUI::SectionTableView*, int>* value);
     // public System.Void remove_didSelectHeaderEvent(System.Action`2<HMUI.SectionTableView,System.Int32> value)
-    // Offset: 0x168B3A0
+    // Offset: 0x16C1CB0
     void remove_didSelectHeaderEvent(::System::Action_2<::HMUI::SectionTableView*, int>* value);
     // public System.Boolean IsSectionUnfolded(System.Int32 section)
-    // Offset: 0x168B470
+    // Offset: 0x16C1D80
     bool IsSectionUnfolded(int section);
     // public System.Single CellSize()
-    // Offset: 0x168B4B0
+    // Offset: 0x16C1DC0
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x168B560
+    // Offset: 0x16C1E70
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 baseRow)
-    // Offset: 0x168B5B0
+    // Offset: 0x16C1EC0
     ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int baseRow);
     // public System.Void ReloadData(System.Boolean resetFoldState)
-    // Offset: 0x168B858
+    // Offset: 0x16C2168
     void ReloadData(bool resetFoldState);
     // public System.Void UnfoldAllSections()
-    // Offset: 0x168BE30
+    // Offset: 0x16C2740
     void UnfoldAllSections();
     // public System.Void FoldAll()
-    // Offset: 0x168BE90
+    // Offset: 0x16C27A0
     void FoldAll();
     // public System.Void UnfoldSection(System.Int32 section)
-    // Offset: 0x168BEEC
+    // Offset: 0x16C27FC
     void UnfoldSection(int section);
     // public System.Void FoldSection(System.Int32 section)
-    // Offset: 0x168C374
+    // Offset: 0x16C2C84
     void FoldSection(int section);
     // public System.Void ScrollToRow(System.Int32 section, System.Int32 row, HMUI.TableView/HMUI.ScrollPositionType scrollPositionType, System.Boolean animated)
-    // Offset: 0x168C75C
+    // Offset: 0x16C306C
     void ScrollToRow(int section, int row, ::HMUI::TableView::ScrollPositionType scrollPositionType, bool animated);
     // public System.Void SectionAndRowForBaseRow(System.Int32 baseRow, out System.Int32 section, out System.Int32 row, out System.Boolean isSectionHeader)
-    // Offset: 0x168B760
+    // Offset: 0x16C2070
     void SectionAndRowForBaseRow(int baseRow, ByRef<int> section, ByRef<int> row, ByRef<bool> isSectionHeader);
     // public System.Void .ctor()
-    // Offset: 0x168C890
+    // Offset: 0x16C31A0
     // Implemented from: HMUI.TableView
     // Base method: System.Void TableView::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SectionTableView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::SectionTableView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SectionTableView*, creationType>()));
     }
     // public override System.Void ReloadData()
-    // Offset: 0x168B850
+    // Offset: 0x16C2160
     // Implemented from: HMUI.TableView
     // Base method: System.Void TableView::ReloadData()
     void ReloadData();
     // protected override System.Void DidSelectCellWithIdx(System.Int32 baseRow)
-    // Offset: 0x168BD68
+    // Offset: 0x16C2678
     // Implemented from: HMUI.TableView
     // Base method: System.Void TableView::DidSelectCellWithIdx(System.Int32 baseRow)
     void DidSelectCellWithIdx(int baseRow);

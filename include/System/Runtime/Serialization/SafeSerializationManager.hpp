@@ -58,15 +58,7 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class SafeSerializationManager : public ::Il2CppObject/*, public ::System::Runtime::Serialization::ISerializable, public ::System::Runtime::Serialization::IObjectReference*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.IList`1<System.Object> m_serializedStates
     // Size: 0x8
     // Offset: 0x10
@@ -91,7 +83,7 @@ namespace System::Runtime::Serialization {
     ::System::RuntimeType* m_realType;
     // Field size check
     static_assert(sizeof(::System::RuntimeType*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0x11B04A4
+    // [CompilerGeneratedAttribute] Offset: 0x1035EBC
     // private System.EventHandler`1<System.Runtime.Serialization.SafeSerializationEventArgs> SerializeObjectState
     // Size: 0x8
     // Offset: 0x30
@@ -114,42 +106,42 @@ namespace System::Runtime::Serialization {
     // Set static field: static private System.String RealTypeSerializationName
     static void _set_RealTypeSerializationName(::StringW value);
     // Get instance field reference: private System.Collections.Generic.IList`1<System.Object> m_serializedStates
-    ::System::Collections::Generic::IList_1<::Il2CppObject*>*& dyn_m_serializedStates();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IList_1<::Il2CppObject*>*& dyn_m_serializedStates();
     // Get instance field reference: private System.Runtime.Serialization.SerializationInfo m_savedSerializationInfo
-    ::System::Runtime::Serialization::SerializationInfo*& dyn_m_savedSerializationInfo();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::SerializationInfo*& dyn_m_savedSerializationInfo();
     // Get instance field reference: private System.Object m_realObject
-    ::Il2CppObject*& dyn_m_realObject();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_m_realObject();
     // Get instance field reference: private System.RuntimeType m_realType
-    ::System::RuntimeType*& dyn_m_realType();
+    [[deprecated("Use field access instead!")]] ::System::RuntimeType*& dyn_m_realType();
     // Get instance field reference: private System.EventHandler`1<System.Runtime.Serialization.SafeSerializationEventArgs> SerializeObjectState
-    ::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>*& dyn_SerializeObjectState();
+    [[deprecated("Use field access instead!")]] ::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>*& dyn_SerializeObjectState();
     // System.Boolean get_IsActive()
-    // Offset: 0x1606444
+    // Offset: 0x163BD54
     bool get_IsActive();
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1605F78
+    // Offset: 0x163B888
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeSerializationManager* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::SafeSerializationManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeSerializationManager*, creationType>(info, context)));
     }
     // System.Void CompleteSerialization(System.Object serializedObject, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1606454
+    // Offset: 0x163BD64
     void CompleteSerialization(::Il2CppObject* serializedObject, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // System.Void CompleteDeserialization(System.Object deserializedObject)
-    // Offset: 0x16067DC
+    // Offset: 0x163C0EC
     void CompleteDeserialization(::Il2CppObject* deserializedObject);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1606AF8
+    // Offset: 0x163C408
     void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // private System.Object System.Runtime.Serialization.IObjectReference.GetRealObject(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1606BA0
+    // Offset: 0x163C4B0
     ::Il2CppObject* System_Runtime_Serialization_IObjectReference_GetRealObject(::System::Runtime::Serialization::StreamingContext context);
     // private System.Void OnDeserialized(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1606E3C
+    // Offset: 0x163C74C
     void OnDeserialized(::System::Runtime::Serialization::StreamingContext context);
     // System.Void .ctor()
-    // Offset: 0x1605F70
+    // Offset: 0x163B880
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

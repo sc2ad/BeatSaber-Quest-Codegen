@@ -38,15 +38,7 @@ namespace System::ComponentModel::Design::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class InstanceDescriptor : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Reflection.MemberInfo member
     // Size: 0x8
     // Offset: 0x10
@@ -67,27 +59,27 @@ namespace System::ComponentModel::Design::Serialization {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Reflection.MemberInfo member
-    ::System::Reflection::MemberInfo*& dyn_member();
+    [[deprecated("Use field access instead!")]] ::System::Reflection::MemberInfo*& dyn_member();
     // Get instance field reference: private System.Collections.ICollection arguments
-    ::System::Collections::ICollection*& dyn_arguments();
+    [[deprecated("Use field access instead!")]] ::System::Collections::ICollection*& dyn_arguments();
     // Get instance field reference: private System.Boolean isComplete
-    bool& dyn_isComplete();
+    [[deprecated("Use field access instead!")]] bool& dyn_isComplete();
     // public System.Void .ctor(System.Reflection.MemberInfo member, System.Collections.ICollection arguments)
-    // Offset: 0x1D5BA18
+    // Offset: 0x1D96F70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InstanceDescriptor* New_ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::Design::Serialization::InstanceDescriptor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InstanceDescriptor*, creationType>(member, arguments)));
     }
     // public System.Void .ctor(System.Reflection.MemberInfo member, System.Collections.ICollection arguments, System.Boolean isComplete)
-    // Offset: 0x1D5C5D0
+    // Offset: 0x1D97B28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InstanceDescriptor* New_ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments, bool isComplete) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::Design::Serialization::InstanceDescriptor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InstanceDescriptor*, creationType>(member, arguments, isComplete)));
     }
     // public System.Object Invoke()
-    // Offset: 0x1D5CA64
+    // Offset: 0x1D97FBC
     ::Il2CppObject* Invoke();
   }; // System.ComponentModel.Design.Serialization.InstanceDescriptor
   #pragma pack(pop)

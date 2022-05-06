@@ -72,23 +72,21 @@ namespace NUnit::Framework::Internal {
     // Set static field: static private System.Int32 DefaultStringLength
     static void _set_DefaultStringLength(int value);
     // static public System.Void set_InitialSeed(System.Int32 value)
-    // Offset: 0x29AEC60
+    // Offset: 0x2A0AC58
     static void set_InitialSeed(int value);
     // static private System.Void .cctor()
-    // Offset: 0x29AEBB4
+    // Offset: 0x2A0ABAC
     static void _cctor();
-    // static public NUnit.Framework.Internal.Randomizer CreateRandomizer()
-    // Offset: 0x29AED08
-    static ::NUnit::Framework::Internal::Randomizer* CreateRandomizer();
     // public System.Void .ctor(System.Int32 seed)
-    // Offset: 0x29AEDA8
-    // Implemented from: System.Random
-    // Base method: System.Void Random::.ctor(System.Int32 seed)
+    // Offset: 0x2A0ADA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Randomizer* New_ctor(int seed) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Randomizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Randomizer*, creationType>(seed)));
     }
+    // static public NUnit.Framework.Internal.Randomizer CreateRandomizer()
+    // Offset: 0x2A0AD00
+    static ::NUnit::Framework::Internal::Randomizer* CreateRandomizer();
   }; // NUnit.Framework.Internal.Randomizer
   #pragma pack(pop)
 }
@@ -110,6 +108,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Randomizer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Randomizer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Randomizer::CreateRandomizer
 // Il2CppName: CreateRandomizer
 template<>
@@ -118,7 +120,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Fr
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Randomizer*), "CreateRandomizer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::Randomizer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

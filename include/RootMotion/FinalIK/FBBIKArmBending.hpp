@@ -35,15 +35,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class FBBIKArmBending : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public RootMotion.FinalIK.FullBodyBipedIK ik
     // Size: 0x8
     // Offset: 0x18
@@ -96,49 +88,47 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedIK ik
-    ::RootMotion::FinalIK::FullBodyBipedIK*& dyn_ik();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::FullBodyBipedIK*& dyn_ik();
     // Get instance field reference: public UnityEngine.Vector3 bendDirectionOffsetLeft
-    ::UnityEngine::Vector3& dyn_bendDirectionOffsetLeft();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_bendDirectionOffsetLeft();
     // Get instance field reference: public UnityEngine.Vector3 bendDirectionOffsetRight
-    ::UnityEngine::Vector3& dyn_bendDirectionOffsetRight();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_bendDirectionOffsetRight();
     // Get instance field reference: public UnityEngine.Vector3 characterSpaceBendOffsetLeft
-    ::UnityEngine::Vector3& dyn_characterSpaceBendOffsetLeft();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_characterSpaceBendOffsetLeft();
     // Get instance field reference: public UnityEngine.Vector3 characterSpaceBendOffsetRight
-    ::UnityEngine::Vector3& dyn_characterSpaceBendOffsetRight();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_characterSpaceBendOffsetRight();
     // Get instance field reference: private UnityEngine.Quaternion leftHandTargetRotation
-    ::UnityEngine::Quaternion& dyn_leftHandTargetRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_leftHandTargetRotation();
     // Get instance field reference: private UnityEngine.Quaternion rightHandTargetRotation
-    ::UnityEngine::Quaternion& dyn_rightHandTargetRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_rightHandTargetRotation();
     // Get instance field reference: private System.Boolean initiated
-    bool& dyn_initiated();
-    // private System.Void LateUpdate()
-    // Offset: 0x22060E4
-    void LateUpdate();
-    // private System.Void OnPostFBBIK()
-    // Offset: 0x220664C
-    void OnPostFBBIK();
-    // private System.Void OnDestroy()
-    // Offset: 0x220680C
-    void OnDestroy();
+    [[deprecated("Use field access instead!")]] bool& dyn_initiated();
     // public System.Void .ctor()
-    // Offset: 0x2206904
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2254178
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FBBIKArmBending* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::FBBIKArmBending::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FBBIKArmBending*, creationType>()));
     }
+    // private System.Void LateUpdate()
+    // Offset: 0x2253958
+    void LateUpdate();
+    // private System.Void OnPostFBBIK()
+    // Offset: 0x2253EC0
+    void OnPostFBBIK();
+    // private System.Void OnDestroy()
+    // Offset: 0x2254080
+    void OnDestroy();
   }; // RootMotion.FinalIK.FBBIKArmBending
   #pragma pack(pop)
   static check_size<sizeof(FBBIKArmBending), 112 + sizeof(bool)> __RootMotion_FinalIK_FBBIKArmBendingSizeCheck;
   static_assert(sizeof(FBBIKArmBending) == 0x71);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKArmBending::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKArmBending::LateUpdate
 // Il2CppName: LateUpdate
 template<>
@@ -163,7 +153,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKArmBending*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKArmBending::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

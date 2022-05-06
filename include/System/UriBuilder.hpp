@@ -34,15 +34,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class UriBuilder : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean _changed
     // Size: 0x1
     // Offset: 0x10
@@ -115,93 +107,91 @@ namespace System {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.Boolean _changed
-    bool& dyn__changed();
+    [[deprecated("Use field access instead!")]] bool& dyn__changed();
     // Get instance field reference: private System.String _fragment
-    ::StringW& dyn__fragment();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__fragment();
     // Get instance field reference: private System.String _host
-    ::StringW& dyn__host();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__host();
     // Get instance field reference: private System.String _password
-    ::StringW& dyn__password();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__password();
     // Get instance field reference: private System.String _path
-    ::StringW& dyn__path();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__path();
     // Get instance field reference: private System.Int32 _port
-    int& dyn__port();
+    [[deprecated("Use field access instead!")]] int& dyn__port();
     // Get instance field reference: private System.String _query
-    ::StringW& dyn__query();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__query();
     // Get instance field reference: private System.String _scheme
-    ::StringW& dyn__scheme();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__scheme();
     // Get instance field reference: private System.String _schemeDelimiter
-    ::StringW& dyn__schemeDelimiter();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__schemeDelimiter();
     // Get instance field reference: private System.Uri _uri
-    ::System::Uri*& dyn__uri();
+    [[deprecated("Use field access instead!")]] ::System::Uri*& dyn__uri();
     // Get instance field reference: private System.String _username
-    ::StringW& dyn__username();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__username();
     // public System.Void set_Host(System.String value)
-    // Offset: 0x2A64804
+    // Offset: 0x2ABBBEC
     void set_Host(::StringW value);
     // public System.Void set_Path(System.String value)
-    // Offset: 0x2A649B4
+    // Offset: 0x2ABBD9C
     void set_Path(::StringW value);
     // public System.Void set_Port(System.Int32 value)
-    // Offset: 0x2A64914
+    // Offset: 0x2ABBCFC
     void set_Port(int value);
     // public System.Void set_Query(System.String value)
-    // Offset: 0x2A64A74
+    // Offset: 0x2ABBE5C
     void set_Query(::StringW value);
     // public System.Void set_Scheme(System.String value)
-    // Offset: 0x2A646C8
+    // Offset: 0x2ABBAB0
     void set_Scheme(::StringW value);
     // public System.Uri get_Uri()
-    // Offset: 0x2A64B30
+    // Offset: 0x2ABBF18
     ::System::Uri* get_Uri();
+    // public System.Void .ctor()
+    // Offset: 0x2ABB3FC
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static UriBuilder* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::UriBuilder::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<UriBuilder*, creationType>()));
+    }
     // public System.Void .ctor(System.String uri)
-    // Offset: 0x2A64118
+    // Offset: 0x2ABB500
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriBuilder* New_ctor(::StringW uri) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::UriBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriBuilder*, creationType>(uri)));
     }
     // public System.Void .ctor(System.String schemeName, System.String hostName)
-    // Offset: 0x2A6459C
+    // Offset: 0x2ABB984
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriBuilder* New_ctor(::StringW schemeName, ::StringW hostName) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::UriBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriBuilder*, creationType>(schemeName, hostName)));
     }
     // public System.Void .ctor(System.String scheme, System.String host, System.Int32 portNumber)
-    // Offset: 0x2A648E8
+    // Offset: 0x2ABBCD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriBuilder* New_ctor(::StringW scheme, ::StringW host, int portNumber) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::UriBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriBuilder*, creationType>(scheme, host, portNumber)));
     }
     // private System.Void Init(System.Uri uri)
-    // Offset: 0x2A642B4
+    // Offset: 0x2ABB69C
     void Init(::System::Uri* uri);
     // private System.Void SetFieldsFromUri(System.Uri uri)
-    // Offset: 0x2A6442C
+    // Offset: 0x2ABB814
     void SetFieldsFromUri(::System::Uri* uri);
-    // public System.Void .ctor()
-    // Offset: 0x2A64014
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static UriBuilder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::UriBuilder::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<UriBuilder*, creationType>()));
-    }
     // public override System.Boolean Equals(System.Object rparam)
-    // Offset: 0x2A64BDC
+    // Offset: 0x2ABBFC4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object rparam)
     bool Equals(::Il2CppObject* rparam);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2A64C3C
+    // Offset: 0x2ABC024
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x2A64C60
+    // Offset: 0x2ABC048
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -276,6 +266,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::U
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: System::UriBuilder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::UriBuilder::Init
 // Il2CppName: Init
 template<>
@@ -294,10 +288,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::UriBuilder*), "SetFieldsFromUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri});
   }
 };
-// Writing MetadataGetter for method: System::UriBuilder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::UriBuilder::Equals
 // Il2CppName: Equals
 template<>

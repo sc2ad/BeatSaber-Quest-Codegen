@@ -42,15 +42,7 @@ namespace UnityEngine::TestTools::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerTestAssemblyProvider : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.TestTools.Utils.IAssemblyLoadProxy m_AssemblyLoadProxy
     // Size: 0x8
     // Offset: 0x10
@@ -69,21 +61,21 @@ namespace UnityEngine::TestTools::Utils {
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.TestTools.Utils.IAssemblyWrapper> m_LoadedAssemblies
     static void _set_m_LoadedAssemblies(::System::Collections::Generic::List_1<::UnityEngine::TestTools::Utils::IAssemblyWrapper*>* value);
     // Get instance field reference: private UnityEngine.TestTools.Utils.IAssemblyLoadProxy m_AssemblyLoadProxy
-    ::UnityEngine::TestTools::Utils::IAssemblyLoadProxy*& dyn_m_AssemblyLoadProxy();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TestTools::Utils::IAssemblyLoadProxy*& dyn_m_AssemblyLoadProxy();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.String> m_AssembliesToLoad
-    ::System::Collections::Generic::List_1<::StringW>*& dyn_m_AssembliesToLoad();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn_m_AssembliesToLoad();
     // System.Void .ctor(UnityEngine.TestTools.Utils.IAssemblyLoadProxy assemblyLoadProxy, System.Collections.Generic.List`1<System.String> assembliesToLoad)
-    // Offset: 0x2A7D36C
+    // Offset: 0x2AC701C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerTestAssemblyProvider* New_ctor(::UnityEngine::TestTools::Utils::IAssemblyLoadProxy* assemblyLoadProxy, ::System::Collections::Generic::List_1<::StringW>* assembliesToLoad) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::Utils::PlayerTestAssemblyProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerTestAssemblyProvider*, creationType>(assemblyLoadProxy, assembliesToLoad)));
     }
     // public System.Collections.Generic.List`1<UnityEngine.TestTools.Utils.IAssemblyWrapper> GetUserAssemblies()
-    // Offset: 0x2A7D634
+    // Offset: 0x2AC72E4
     ::System::Collections::Generic::List_1<::UnityEngine::TestTools::Utils::IAssemblyWrapper*>* GetUserAssemblies();
     // private System.Void LoadAssemblies()
-    // Offset: 0x2A7D3A8
+    // Offset: 0x2AC7058
     void LoadAssemblies();
   }; // UnityEngine.TestTools.Utils.PlayerTestAssemblyProvider
   #pragma pack(pop)

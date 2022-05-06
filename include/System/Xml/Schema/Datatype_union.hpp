@@ -37,15 +37,7 @@ namespace System::Xml::Schema {
   // [TokenAttribute] Offset: FFFFFFFF
   class Datatype_union : public ::System::Xml::Schema::Datatype_anySimpleType {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Xml.Schema.XmlSchemaSimpleType[] types
     // Size: 0x8
     // Offset: 0x38
@@ -66,12 +58,12 @@ namespace System::Xml::Schema {
     // Set static field: static private readonly System.Type listValueType
     static void _set_listValueType(::System::Type* value);
     // Get instance field reference: private System.Xml.Schema.XmlSchemaSimpleType[] types
-    ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*>& dyn_types();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*>& dyn_types();
     // System.Boolean HasAtomicMembers()
-    // Offset: 0x1C2073C
+    // Offset: 0x1C5AD24
     bool HasAtomicMembers();
     // static private System.Void .cctor()
-    // Offset: 0x1C207C8
+    // Offset: 0x1C5ADB0
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Void Datatype_anySimpleType::.cctor()
     // Base method: System.Void DatatypeImplementation::.cctor()

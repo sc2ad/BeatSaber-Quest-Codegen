@@ -66,7 +66,7 @@ namespace System::Xml::Linq {
     // Set static field: static public System.Xml.Linq.XObjectChange Value
     static void _set_Value(::System::Xml::Linq::XObjectChange value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Xml.Linq.XObjectChange
   #pragma pack(pop)
   static check_size<sizeof(XObjectChange), 0 + sizeof(int)> __System_Xml_Linq_XObjectChangeSizeCheck;

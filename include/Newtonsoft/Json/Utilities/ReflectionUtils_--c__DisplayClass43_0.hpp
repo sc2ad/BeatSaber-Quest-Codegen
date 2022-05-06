@@ -25,9 +25,7 @@ namespace Newtonsoft::Json::Utilities {
   class ReflectionUtils::$$c__DisplayClass43_0 : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x204D960
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x20971D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionUtils::$$c__DisplayClass43_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass43_0::.ctor");

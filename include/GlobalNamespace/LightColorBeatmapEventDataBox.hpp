@@ -50,15 +50,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightColorBeatmapEventDataBox : public ::GlobalNamespace::BeatmapEventDataBox {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.IReadOnlyList`1<LightColorBaseData> _lightColorBaseDataList
     // Size: 0x8
     // Offset: 0x20
@@ -85,32 +77,32 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private readonly System.Collections.Generic.IReadOnlyList`1<LightColorBaseData> _lightColorBaseDataList
-    ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>*& dyn__lightColorBaseDataList();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>*& dyn__lightColorBaseDataList();
     // Get instance field reference: private readonly System.Single _brightnessStep
-    float& dyn__brightnessStep();
+    [[deprecated("Use field access instead!")]] float& dyn__brightnessStep();
     // Get instance field reference: private readonly System.Single _beatStep
-    float& dyn__beatStep();
+    [[deprecated("Use field access instead!")]] float& dyn__beatStep();
     // Get instance field reference: private readonly System.Boolean _brightnessDistributionShouldAffectFirstBaseEvent
-    bool& dyn__brightnessDistributionShouldAffectFirstBaseEvent();
+    [[deprecated("Use field access instead!")]] bool& dyn__brightnessDistributionShouldAffectFirstBaseEvent();
     // public System.Void .ctor(IIndexFilter indexFilter, System.Single beatDistributionParam, BeatmapEventDataBox/DistributionParamType beatDistributionParamType, System.Single brightnessDistributionParam, BeatmapEventDataBox/DistributionParamType brightnessDistributionParamType, System.Boolean brightnessDistributionShouldAffectFirstBaseEvent, System.Collections.Generic.IReadOnlyList`1<LightColorBaseData> lightColorBaseDataList)
-    // Offset: 0x148B5F8
+    // Offset: 0x14C1E78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightColorBeatmapEventDataBox* New_ctor(::GlobalNamespace::IIndexFilter* indexFilter, float beatDistributionParam, ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType beatDistributionParamType, float brightnessDistributionParam, ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType brightnessDistributionParamType, bool brightnessDistributionShouldAffectFirstBaseEvent, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* lightColorBaseDataList) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightColorBeatmapEventDataBox::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightColorBeatmapEventDataBox*, creationType>(indexFilter, beatDistributionParam, beatDistributionParamType, brightnessDistributionParam, brightnessDistributionParamType, brightnessDistributionShouldAffectFirstBaseEvent, lightColorBaseDataList)));
     }
     // public override System.Int32 get_subtypeIdentifier()
-    // Offset: 0x148B5E8
+    // Offset: 0x14C1E68
     // Implemented from: BeatmapEventDataBox
     // Base method: System.Int32 BeatmapEventDataBox::get_subtypeIdentifier()
     int get_subtypeIdentifier();
     // public override System.Single get_beatStep()
-    // Offset: 0x148B5F0
+    // Offset: 0x14C1E70
     // Implemented from: BeatmapEventDataBox
     // Base method: System.Single BeatmapEventDataBox::get_beatStep()
     float get_beatStep();
     // public override System.Void Unpack(System.Single groupBoxBeat, System.Int32 groupId, System.Int32 elementId, System.Int32 orderIndex, System.Single maxBeat, IBeatToTimeConvertor beatToTimeConvertor, System.Collections.Generic.List`1<BeatmapEventData> output)
-    // Offset: 0x148B820
+    // Offset: 0x14C20A0
     // Implemented from: BeatmapEventDataBox
     // Base method: System.Void BeatmapEventDataBox::Unpack(System.Single groupBoxBeat, System.Int32 groupId, System.Int32 elementId, System.Int32 orderIndex, System.Single maxBeat, IBeatToTimeConvertor beatToTimeConvertor, System.Collections.Generic.List`1<BeatmapEventData> output)
     void Unpack(float groupBoxBeat, int groupId, int elementId, int orderIndex, float maxBeat, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);

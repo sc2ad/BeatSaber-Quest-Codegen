@@ -37,15 +37,7 @@ namespace Zenject::Internal {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class ReflectionTypeInfo::InjectConstructorInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Reflection.ConstructorInfo ConstructorInfo
     // Size: 0x8
     // Offset: 0x10
@@ -60,11 +52,11 @@ namespace Zenject::Internal {
     static_assert(sizeof(::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>*) == 0x8);
     public:
     // Get instance field reference: public readonly System.Reflection.ConstructorInfo ConstructorInfo
-    ::System::Reflection::ConstructorInfo*& dyn_ConstructorInfo();
+    [[deprecated("Use field access instead!")]] ::System::Reflection::ConstructorInfo*& dyn_ConstructorInfo();
     // Get instance field reference: public readonly System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo> Parameters
-    ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>*& dyn_Parameters();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>*& dyn_Parameters();
     // public System.Void .ctor(System.Reflection.ConstructorInfo constructorInfo, System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo> parameters)
-    // Offset: 0x1BD4F70
+    // Offset: 0x1C0F558
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionTypeInfo::InjectConstructorInfo* New_ctor(::System::Reflection::ConstructorInfo* constructorInfo, ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo::.ctor");

@@ -30,15 +30,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_HAPI_AssetInfo : public ::Il2CppObject/*, public ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AssetInfo*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public HoudiniEngineUnity.HAPI_AssetInfo self
     // Size: 0x3E
     // Offset: 0x10
@@ -55,16 +47,16 @@ namespace HoudiniEngineUnity {
       return self;
     }
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AssetInfo self
-    ::HoudiniEngineUnity::HAPI_AssetInfo& dyn_self();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_AssetInfo& dyn_self();
     // public System.Void .ctor(HoudiniEngineUnity.HAPI_AssetInfo self)
-    // Offset: 0x19E2F80
+    // Offset: 0x1A1C568
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_HAPI_AssetInfo* New_ctor(::HoudiniEngineUnity::HAPI_AssetInfo self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_HAPI_AssetInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_HAPI_AssetInfo*, creationType>(self)));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_HAPI_AssetInfo other)
-    // Offset: 0x19E2FB8
+    // Offset: 0x1A1C5A0
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_AssetInfo* other);
   }; // HoudiniEngineUnity.Test_HAPI_AssetInfo
   #pragma pack(pop)

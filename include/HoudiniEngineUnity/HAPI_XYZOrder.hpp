@@ -84,7 +84,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HAPI_XYZOrder HAPI_XYZORDER_DEFAULT
     static void _set_HAPI_XYZORDER_DEFAULT(::HoudiniEngineUnity::HAPI_XYZOrder value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HAPI_XYZOrder
   #pragma pack(pop)
   static check_size<sizeof(HAPI_XYZOrder), 0 + sizeof(int)> __HoudiniEngineUnity_HAPI_XYZOrderSizeCheck;

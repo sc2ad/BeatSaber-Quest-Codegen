@@ -36,15 +36,7 @@ namespace Zenject::Internal {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class LookupId : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Zenject.IProvider Provider
     // Size: 0x8
     // Offset: 0x10
@@ -59,27 +51,25 @@ namespace Zenject::Internal {
     static_assert(sizeof(::Zenject::BindingId) == 0x10);
     public:
     // Get instance field reference: public Zenject.IProvider Provider
-    ::Zenject::IProvider*& dyn_Provider();
+    [[deprecated("Use field access instead!")]] ::Zenject::IProvider*& dyn_Provider();
     // Get instance field reference: public Zenject.BindingId BindingId
-    ::Zenject::BindingId& dyn_BindingId();
-    // public System.Void .ctor(Zenject.IProvider provider, Zenject.BindingId bindingId)
-    // Offset: 0x1BD247C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LookupId* New_ctor(::Zenject::IProvider* provider, ::Zenject::BindingId bindingId) {
-      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::LookupId::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<LookupId*, creationType>(provider, bindingId)));
-    }
+    [[deprecated("Use field access instead!")]] ::Zenject::BindingId& dyn_BindingId();
     // public System.Void .ctor()
-    // Offset: 0x1BD2474
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C0CA5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LookupId* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::LookupId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LookupId*, creationType>()));
     }
+    // public System.Void .ctor(Zenject.IProvider provider, Zenject.BindingId bindingId)
+    // Offset: 0x1C0CA64
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static LookupId* New_ctor(::Zenject::IProvider* provider, ::Zenject::BindingId bindingId) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::LookupId::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<LookupId*, creationType>(provider, bindingId)));
+    }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1BD2520
+    // Offset: 0x1C0CB08
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

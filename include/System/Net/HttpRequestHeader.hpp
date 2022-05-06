@@ -288,7 +288,7 @@ namespace System::Net {
     // Set static field: static public System.Net.HttpRequestHeader UserAgent
     static void _set_UserAgent(::System::Net::HttpRequestHeader value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Net.HttpRequestHeader
   #pragma pack(pop)
   static check_size<sizeof(HttpRequestHeader), 0 + sizeof(int)> __System_Net_HttpRequestHeaderSizeCheck;

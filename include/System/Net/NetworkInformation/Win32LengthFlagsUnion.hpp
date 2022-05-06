@@ -44,9 +44,9 @@ namespace System::Net::NetworkInformation {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt32 Length
-    uint& dyn_Length();
+    [[deprecated("Use field access instead!")]] uint& dyn_Length();
     // Get instance field reference: public System.UInt32 Flags
-    uint& dyn_Flags();
+    [[deprecated("Use field access instead!")]] uint& dyn_Flags();
   }; // System.Net.NetworkInformation.Win32LengthFlagsUnion
   #pragma pack(pop)
   static check_size<sizeof(Win32LengthFlagsUnion), 4 + sizeof(uint)> __System_Net_NetworkInformation_Win32LengthFlagsUnionSizeCheck;

@@ -31,15 +31,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public IConnectedPlayer player
     // Size: 0x8
     // Offset: 0x10
@@ -52,25 +44,27 @@ namespace GlobalNamespace {
       return player;
     }
     // Get instance field reference: public IConnectedPlayer player
-    ::GlobalNamespace::IConnectedPlayer*& dyn_player();
-    // System.Boolean <SaveFromNetSerializable>b__0(IConnectedPlayer p)
-    // Offset: 0x25EA318
-    bool $SaveFromNetSerializable$b__0(::GlobalNamespace::IConnectedPlayer* p);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayer*& dyn_player();
     // public System.Void .ctor()
-    // Offset: 0x25EA310
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2636940
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0*, creationType>()));
     }
+    // System.Boolean <SaveFromNetSerializable>b__0(IConnectedPlayer p)
+    // Offset: 0x2636948
+    bool $SaveFromNetSerializable$b__0(::GlobalNamespace::IConnectedPlayer* p);
   }; // PlayersSpecificSettingsAtGameStartModel/<>c__DisplayClass13_0
   #pragma pack(pop)
   static check_size<sizeof(PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0), 16 + sizeof(::GlobalNamespace::IConnectedPlayer*)> __GlobalNamespace_PlayersSpecificSettingsAtGameStartModel_$$c__DisplayClass13_0SizeCheck;
   static_assert(sizeof(PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::$SaveFromNetSerializable$b__0
 // Il2CppName: <SaveFromNetSerializable>b__0
 template<>
@@ -80,7 +74,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0*), "<SaveFromNetSerializable>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

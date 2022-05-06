@@ -197,45 +197,45 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._CommitWorkingCopy CommitWorkingCopy
-    ::OVR::OpenVR::IVRChaperoneSetup::_CommitWorkingCopy*& dyn_CommitWorkingCopy();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperoneSetup::_CommitWorkingCopy*& dyn_CommitWorkingCopy();
     // Get instance field reference: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._RevertWorkingCopy RevertWorkingCopy
-    ::OVR::OpenVR::IVRChaperoneSetup::_RevertWorkingCopy*& dyn_RevertWorkingCopy();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperoneSetup::_RevertWorkingCopy*& dyn_RevertWorkingCopy();
     // Get instance field reference: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetWorkingPlayAreaSize GetWorkingPlayAreaSize
-    ::OVR::OpenVR::IVRChaperoneSetup::_GetWorkingPlayAreaSize*& dyn_GetWorkingPlayAreaSize();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperoneSetup::_GetWorkingPlayAreaSize*& dyn_GetWorkingPlayAreaSize();
     // Get instance field reference: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetWorkingPlayAreaRect GetWorkingPlayAreaRect
-    ::OVR::OpenVR::IVRChaperoneSetup::_GetWorkingPlayAreaRect*& dyn_GetWorkingPlayAreaRect();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperoneSetup::_GetWorkingPlayAreaRect*& dyn_GetWorkingPlayAreaRect();
     // Get instance field reference: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetWorkingCollisionBoundsInfo GetWorkingCollisionBoundsInfo
-    ::OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo*& dyn_GetWorkingCollisionBoundsInfo();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo*& dyn_GetWorkingCollisionBoundsInfo();
     // Get instance field reference: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetLiveCollisionBoundsInfo GetLiveCollisionBoundsInfo
-    ::OVR::OpenVR::IVRChaperoneSetup::_GetLiveCollisionBoundsInfo*& dyn_GetLiveCollisionBoundsInfo();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperoneSetup::_GetLiveCollisionBoundsInfo*& dyn_GetLiveCollisionBoundsInfo();
     // Get instance field reference: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetWorkingSeatedZeroPoseToRawTrackingPose GetWorkingSeatedZeroPoseToRawTrackingPose
-    ::OVR::OpenVR::IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose*& dyn_GetWorkingSeatedZeroPoseToRawTrackingPose();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose*& dyn_GetWorkingSeatedZeroPoseToRawTrackingPose();
     // Get instance field reference: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetWorkingStandingZeroPoseToRawTrackingPose GetWorkingStandingZeroPoseToRawTrackingPose
-    ::OVR::OpenVR::IVRChaperoneSetup::_GetWorkingStandingZeroPoseToRawTrackingPose*& dyn_GetWorkingStandingZeroPoseToRawTrackingPose();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperoneSetup::_GetWorkingStandingZeroPoseToRawTrackingPose*& dyn_GetWorkingStandingZeroPoseToRawTrackingPose();
     // Get instance field reference: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._SetWorkingPlayAreaSize SetWorkingPlayAreaSize
-    ::OVR::OpenVR::IVRChaperoneSetup::_SetWorkingPlayAreaSize*& dyn_SetWorkingPlayAreaSize();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperoneSetup::_SetWorkingPlayAreaSize*& dyn_SetWorkingPlayAreaSize();
     // Get instance field reference: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._SetWorkingCollisionBoundsInfo SetWorkingCollisionBoundsInfo
-    ::OVR::OpenVR::IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo*& dyn_SetWorkingCollisionBoundsInfo();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo*& dyn_SetWorkingCollisionBoundsInfo();
     // Get instance field reference: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._SetWorkingSeatedZeroPoseToRawTrackingPose SetWorkingSeatedZeroPoseToRawTrackingPose
-    ::OVR::OpenVR::IVRChaperoneSetup::_SetWorkingSeatedZeroPoseToRawTrackingPose*& dyn_SetWorkingSeatedZeroPoseToRawTrackingPose();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperoneSetup::_SetWorkingSeatedZeroPoseToRawTrackingPose*& dyn_SetWorkingSeatedZeroPoseToRawTrackingPose();
     // Get instance field reference: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._SetWorkingStandingZeroPoseToRawTrackingPose SetWorkingStandingZeroPoseToRawTrackingPose
-    ::OVR::OpenVR::IVRChaperoneSetup::_SetWorkingStandingZeroPoseToRawTrackingPose*& dyn_SetWorkingStandingZeroPoseToRawTrackingPose();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperoneSetup::_SetWorkingStandingZeroPoseToRawTrackingPose*& dyn_SetWorkingStandingZeroPoseToRawTrackingPose();
     // Get instance field reference: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._ReloadFromDisk ReloadFromDisk
-    ::OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk*& dyn_ReloadFromDisk();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk*& dyn_ReloadFromDisk();
     // Get instance field reference: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetLiveSeatedZeroPoseToRawTrackingPose GetLiveSeatedZeroPoseToRawTrackingPose
-    ::OVR::OpenVR::IVRChaperoneSetup::_GetLiveSeatedZeroPoseToRawTrackingPose*& dyn_GetLiveSeatedZeroPoseToRawTrackingPose();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperoneSetup::_GetLiveSeatedZeroPoseToRawTrackingPose*& dyn_GetLiveSeatedZeroPoseToRawTrackingPose();
     // Get instance field reference: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._SetWorkingCollisionBoundsTagsInfo SetWorkingCollisionBoundsTagsInfo
-    ::OVR::OpenVR::IVRChaperoneSetup::_SetWorkingCollisionBoundsTagsInfo*& dyn_SetWorkingCollisionBoundsTagsInfo();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperoneSetup::_SetWorkingCollisionBoundsTagsInfo*& dyn_SetWorkingCollisionBoundsTagsInfo();
     // Get instance field reference: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetLiveCollisionBoundsTagsInfo GetLiveCollisionBoundsTagsInfo
-    ::OVR::OpenVR::IVRChaperoneSetup::_GetLiveCollisionBoundsTagsInfo*& dyn_GetLiveCollisionBoundsTagsInfo();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperoneSetup::_GetLiveCollisionBoundsTagsInfo*& dyn_GetLiveCollisionBoundsTagsInfo();
     // Get instance field reference: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._SetWorkingPhysicalBoundsInfo SetWorkingPhysicalBoundsInfo
-    ::OVR::OpenVR::IVRChaperoneSetup::_SetWorkingPhysicalBoundsInfo*& dyn_SetWorkingPhysicalBoundsInfo();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperoneSetup::_SetWorkingPhysicalBoundsInfo*& dyn_SetWorkingPhysicalBoundsInfo();
     // Get instance field reference: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetLivePhysicalBoundsInfo GetLivePhysicalBoundsInfo
-    ::OVR::OpenVR::IVRChaperoneSetup::_GetLivePhysicalBoundsInfo*& dyn_GetLivePhysicalBoundsInfo();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperoneSetup::_GetLivePhysicalBoundsInfo*& dyn_GetLivePhysicalBoundsInfo();
     // Get instance field reference: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._ExportLiveToBuffer ExportLiveToBuffer
-    ::OVR::OpenVR::IVRChaperoneSetup::_ExportLiveToBuffer*& dyn_ExportLiveToBuffer();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperoneSetup::_ExportLiveToBuffer*& dyn_ExportLiveToBuffer();
     // Get instance field reference: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._ImportFromBufferToWorking ImportFromBufferToWorking
-    ::OVR::OpenVR::IVRChaperoneSetup::_ImportFromBufferToWorking*& dyn_ImportFromBufferToWorking();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperoneSetup::_ImportFromBufferToWorking*& dyn_ImportFromBufferToWorking();
   }; // OVR.OpenVR.IVRChaperoneSetup
   #pragma pack(pop)
   static check_size<sizeof(IVRChaperoneSetup), 152 + sizeof(::OVR::OpenVR::IVRChaperoneSetup::_ImportFromBufferToWorking*)> __OVR_OpenVR_IVRChaperoneSetupSizeCheck;

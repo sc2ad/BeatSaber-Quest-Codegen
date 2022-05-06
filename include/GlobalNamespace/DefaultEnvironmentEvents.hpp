@@ -36,15 +36,7 @@ namespace GlobalNamespace {
     class BasicBeatmapEvent;
     // Nested type: ::GlobalNamespace::DefaultEnvironmentEvents::LightGroupEvent
     class LightGroupEvent;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private DefaultEnvironmentEvents/BasicBeatmapEvent[] _basicBeatmapEvents
     // Size: 0x8
     // Offset: 0x10
@@ -59,22 +51,20 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<::GlobalNamespace::DefaultEnvironmentEvents::LightGroupEvent*>) == 0x8);
     public:
     // Get instance field reference: private DefaultEnvironmentEvents/BasicBeatmapEvent[] _basicBeatmapEvents
-    ::ArrayW<::GlobalNamespace::DefaultEnvironmentEvents::BasicBeatmapEvent*>& dyn__basicBeatmapEvents();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::DefaultEnvironmentEvents::BasicBeatmapEvent*>& dyn__basicBeatmapEvents();
     // Get instance field reference: private DefaultEnvironmentEvents/LightGroupEvent[] _lightGroupEvents
-    ::ArrayW<::GlobalNamespace::DefaultEnvironmentEvents::LightGroupEvent*>& dyn__lightGroupEvents();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::DefaultEnvironmentEvents::LightGroupEvent*>& dyn__lightGroupEvents();
     // public DefaultEnvironmentEvents/BasicBeatmapEvent[] get_basicBeatmapEvents()
-    // Offset: 0x140E428
+    // Offset: 0x142E1D4
     ::ArrayW<::GlobalNamespace::DefaultEnvironmentEvents::BasicBeatmapEvent*> get_basicBeatmapEvents();
     // public DefaultEnvironmentEvents/LightGroupEvent[] get_lightGroupEvents()
-    // Offset: 0x140E430
+    // Offset: 0x142E1DC
     ::ArrayW<::GlobalNamespace::DefaultEnvironmentEvents::LightGroupEvent*> get_lightGroupEvents();
     // public System.Boolean get_isEmpty()
-    // Offset: 0x140E438
+    // Offset: 0x142E1E4
     bool get_isEmpty();
     // public System.Void .ctor()
-    // Offset: 0x140E470
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x142E21C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultEnvironmentEvents* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DefaultEnvironmentEvents::.ctor");

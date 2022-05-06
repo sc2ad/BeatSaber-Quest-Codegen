@@ -50,11 +50,11 @@ namespace TMPro {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 spriteIndex
-    int& dyn_spriteIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_spriteIndex();
     // Get instance field reference: public System.Int32 characterIndex
-    int& dyn_characterIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_characterIndex();
     // Get instance field reference: public System.Int32 vertexIndex
-    int& dyn_vertexIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_vertexIndex();
   }; // TMPro.TMP_SpriteInfo
   #pragma pack(pop)
   static check_size<sizeof(TMP_SpriteInfo), 8 + sizeof(int)> __TMPro_TMP_SpriteInfoSizeCheck;

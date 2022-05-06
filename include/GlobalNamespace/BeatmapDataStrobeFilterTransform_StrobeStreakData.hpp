@@ -7,8 +7,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapDataStrobeFilterTransform
 #include "GlobalNamespace/BeatmapDataStrobeFilterTransform.hpp"
-// Including type: ColorType
-#include "GlobalNamespace/ColorType.hpp"
+// Including type: EnvironmentColorType
+#include "GlobalNamespace/EnvironmentColorType.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapDataStrobeFilterTransform::StrobeStreakData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean isActive
     // Size: 0x1
     // Offset: 0x10
@@ -55,24 +47,24 @@ namespace GlobalNamespace {
     float strobeStartTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // public ColorType startColorType
+    // public EnvironmentColorType startColorType
     // Size: 0x4
     // Offset: 0x18
-    ::GlobalNamespace::ColorType startColorType;
+    ::GlobalNamespace::EnvironmentColorType startColorType;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::ColorType) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::EnvironmentColorType) == 0x4);
     // public System.Single lastSwitchTime
     // Size: 0x4
     // Offset: 0x1C
     float lastSwitchTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // public ColorType lastColorType
+    // public EnvironmentColorType lastColorType
     // Size: 0x4
     // Offset: 0x20
-    ::GlobalNamespace::ColorType lastColorType;
+    ::GlobalNamespace::EnvironmentColorType lastColorType;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::ColorType) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::EnvironmentColorType) == 0x4);
     // public System.Boolean lastIsOn
     // Size: 0x1
     // Offset: 0x24
@@ -95,42 +87,44 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.Boolean isActive
-    bool& dyn_isActive();
+    [[deprecated("Use field access instead!")]] bool& dyn_isActive();
     // Get instance field reference: public System.Single strobeStartTime
-    float& dyn_strobeStartTime();
-    // Get instance field reference: public ColorType startColorType
-    ::GlobalNamespace::ColorType& dyn_startColorType();
+    [[deprecated("Use field access instead!")]] float& dyn_strobeStartTime();
+    // Get instance field reference: public EnvironmentColorType startColorType
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentColorType& dyn_startColorType();
     // Get instance field reference: public System.Single lastSwitchTime
-    float& dyn_lastSwitchTime();
-    // Get instance field reference: public ColorType lastColorType
-    ::GlobalNamespace::ColorType& dyn_lastColorType();
+    [[deprecated("Use field access instead!")]] float& dyn_lastSwitchTime();
+    // Get instance field reference: public EnvironmentColorType lastColorType
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentColorType& dyn_lastColorType();
     // Get instance field reference: public System.Boolean lastIsOn
-    bool& dyn_lastIsOn();
+    [[deprecated("Use field access instead!")]] bool& dyn_lastIsOn();
     // Get instance field reference: public BasicBeatmapEventData originalBasicBeatmapEventData
-    ::GlobalNamespace::BasicBeatmapEventData*& dyn_originalBasicBeatmapEventData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BasicBeatmapEventData*& dyn_originalBasicBeatmapEventData();
     // Get instance field reference: private System.Boolean _foundFirstColoredEventData
-    bool& dyn__foundFirstColoredEventData();
-    // public System.Void StartPotentialStrobe(BasicBeatmapEventData startBasicBeatmapEventData)
-    // Offset: 0x14C47E0
-    void StartPotentialStrobe(::GlobalNamespace::BasicBeatmapEventData* startBasicBeatmapEventData);
-    // public System.Void AddStrobeData(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x14C474C
-    void AddStrobeData(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
+    [[deprecated("Use field access instead!")]] bool& dyn__foundFirstColoredEventData();
     // public System.Void .ctor()
-    // Offset: 0x14C4744
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14FC030
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataStrobeFilterTransform::StrobeStreakData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataStrobeFilterTransform::StrobeStreakData*, creationType>()));
     }
+    // public System.Void StartPotentialStrobe(BasicBeatmapEventData startBasicBeatmapEventData)
+    // Offset: 0x14FC0FC
+    void StartPotentialStrobe(::GlobalNamespace::BasicBeatmapEventData* startBasicBeatmapEventData);
+    // public System.Void AddStrobeData(BasicBeatmapEventData basicBeatmapEventData)
+    // Offset: 0x14FC038
+    void AddStrobeData(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
   }; // BeatmapDataStrobeFilterTransform/StrobeStreakData
   #pragma pack(pop)
   static check_size<sizeof(BeatmapDataStrobeFilterTransform::StrobeStreakData), 48 + sizeof(bool)> __GlobalNamespace_BeatmapDataStrobeFilterTransform_StrobeStreakDataSizeCheck;
   static_assert(sizeof(BeatmapDataStrobeFilterTransform::StrobeStreakData) == 0x31);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData::StartPotentialStrobe
 // Il2CppName: StartPotentialStrobe
 template<>
@@ -149,7 +143,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData*), "AddStrobeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{basicBeatmapEventData});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

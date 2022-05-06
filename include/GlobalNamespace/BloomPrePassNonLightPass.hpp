@@ -95,20 +95,12 @@ namespace GlobalNamespace {
       // Set static field: static public BloomPrePassNonLightPass/ExecutionTimeType AfterBlur
       static void _set_AfterBlur(::GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // BloomPrePassNonLightPass/ExecutionTimeType
     #pragma pack(pop)
     static check_size<sizeof(BloomPrePassNonLightPass::ExecutionTimeType), 0 + sizeof(int)> __GlobalNamespace_BloomPrePassNonLightPass_ExecutionTimeTypeSizeCheck;
     static_assert(sizeof(BloomPrePassNonLightPass::ExecutionTimeType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BloomPrePassNonLightPass/ExecutionTimeType _executionTimeType
     // Size: 0x4
     // Offset: 0x18
@@ -133,54 +125,46 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.List`1<BloomPrePassNonLightPass> _bloomPrePassBeforeBlurList
     static void _set__bloomPrePassBeforeBlurList(::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* value);
     // Get instance field reference: private BloomPrePassNonLightPass/ExecutionTimeType _executionTimeType
-    ::GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType& dyn__executionTimeType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType& dyn__executionTimeType();
     // Get instance field reference: private BloomPrePassNonLightPass/ExecutionTimeType _registeredExecutionTimeType
-    ::GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType& dyn__registeredExecutionTimeType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType& dyn__registeredExecutionTimeType();
     // public BloomPrePassNonLightPass/ExecutionTimeType get_executionTimeType()
-    // Offset: 0x2ACDD4C
+    // Offset: 0x1E77114
     ::GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType get_executionTimeType();
     // static public System.Collections.Generic.List`1<BloomPrePassNonLightPass> get_bloomPrePassAfterBlurList()
-    // Offset: 0x2ACDD54
+    // Offset: 0x1E7711C
     static ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* get_bloomPrePassAfterBlurList();
     // static public System.Collections.Generic.List`1<BloomPrePassNonLightPass> get_bloomPrePassBeforeBlurList()
-    // Offset: 0x2ACDDBC
+    // Offset: 0x1E77184
     static ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* get_bloomPrePassBeforeBlurList();
-    // protected System.Void OnEnable()
-    // Offset: 0x2ACC9D0
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x2ACDE24
-    void OnDisable();
-    // protected System.Void Register()
-    // Offset: 0x2ACC890
-    void Register();
-    // protected System.Void Unregister()
-    // Offset: 0x2ACC7C0
-    void Unregister();
-    // protected System.Void OnValidate()
-    // Offset: 0x2ACD248
-    void OnValidate();
-    // public System.Void Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
     // protected System.Void .ctor()
-    // Offset: 0x2ACB2D0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E74698
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassNonLightPass* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassNonLightPass::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassNonLightPass*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2ACDE28
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x1E771F0
     static void _cctor();
+    // protected System.Void OnEnable()
+    // Offset: 0x1E75D98
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x1E771EC
+    void OnDisable();
+    // protected System.Void Register()
+    // Offset: 0x1E75C58
+    void Register();
+    // protected System.Void Unregister()
+    // Offset: 0x1E75B88
+    void Unregister();
+    // protected System.Void OnValidate()
+    // Offset: 0x1E76610
+    void OnValidate();
+    // public System.Void Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
   }; // BloomPrePassNonLightPass
   #pragma pack(pop)
   static check_size<sizeof(BloomPrePassNonLightPass), 28 + sizeof(::GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType)> __GlobalNamespace_BloomPrePassNonLightPassSizeCheck;
@@ -211,6 +195,18 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* (*)()>(&GlobalNamespace::BloomPrePassNonLightPass::get_bloomPrePassBeforeBlurList)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassNonLightPass*), "get_bloomPrePassBeforeBlurList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassNonLightPass::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassNonLightPass::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BloomPrePassNonLightPass::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassNonLightPass*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassNonLightPass::OnEnable
@@ -262,17 +258,5 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     static auto* viewMatrix = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
     static auto* projectionMatrix = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassNonLightPass*), "Render", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dest, viewMatrix, projectionMatrix});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassNonLightPass::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassNonLightPass::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BloomPrePassNonLightPass::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassNonLightPass*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

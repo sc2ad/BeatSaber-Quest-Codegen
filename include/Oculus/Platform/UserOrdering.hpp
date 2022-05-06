@@ -41,21 +41,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x12412C0
+    // [DescriptionAttribute] Offset: 0x10C5D98
     // static field const value: static public Oculus.Platform.UserOrdering Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.UserOrdering Unknown
     static ::Oculus::Platform::UserOrdering _get_Unknown();
     // Set static field: static public Oculus.Platform.UserOrdering Unknown
     static void _set_Unknown(::Oculus::Platform::UserOrdering value);
-    // [DescriptionAttribute] Offset: 0x12412F8
+    // [DescriptionAttribute] Offset: 0x10C5DD0
     // static field const value: static public Oculus.Platform.UserOrdering None
     static constexpr const int None = 1;
     // Get static field: static public Oculus.Platform.UserOrdering None
     static ::Oculus::Platform::UserOrdering _get_None();
     // Set static field: static public Oculus.Platform.UserOrdering None
     static void _set_None(::Oculus::Platform::UserOrdering value);
-    // [DescriptionAttribute] Offset: 0x1241330
+    // [DescriptionAttribute] Offset: 0x10C5E08
     // static field const value: static public Oculus.Platform.UserOrdering PresenceAlphabetical
     static constexpr const int PresenceAlphabetical = 2;
     // Get static field: static public Oculus.Platform.UserOrdering PresenceAlphabetical
@@ -63,7 +63,7 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.UserOrdering PresenceAlphabetical
     static void _set_PresenceAlphabetical(::Oculus::Platform::UserOrdering value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Oculus.Platform.UserOrdering
   #pragma pack(pop)
   static check_size<sizeof(UserOrdering), 0 + sizeof(int)> __Oculus_Platform_UserOrderingSizeCheck;

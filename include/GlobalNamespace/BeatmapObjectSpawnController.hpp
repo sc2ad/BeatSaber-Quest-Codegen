@@ -67,43 +67,35 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::BeatmapObjectSpawnController::InitData
     class InitData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BeatmapObjectSpawnMovementData _beatmapObjectSpawnMovementData
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::BeatmapObjectSpawnMovementData* beatmapObjectSpawnMovementData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectSpawnMovementData*) == 0x8);
-    // [InjectAttribute] Offset: 0x124ECAC
+    // [InjectAttribute] Offset: 0x10D37E0
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x124ECBC
+    // [InjectAttribute] Offset: 0x10D37F0
     // private readonly IBeatmapObjectSpawner _beatmapObjectSpawner
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::IBeatmapObjectSpawner* beatmapObjectSpawner;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IBeatmapObjectSpawner*) == 0x8);
-    // [InjectAttribute] Offset: 0x124ECCC
+    // [InjectAttribute] Offset: 0x10D3800
     // private readonly IJumpOffsetYProvider _jumpOffsetYProvider
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::IJumpOffsetYProvider* jumpOffsetYProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IJumpOffsetYProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x124ECDC
+    // [InjectAttribute] Offset: 0x10D3810
     // private readonly BeatmapObjectSpawnController/InitData _initData
     // Size: 0x8
     // Offset: 0x38
@@ -168,107 +160,101 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapObjectSpawnMovementData _beatmapObjectSpawnMovementData
-    ::GlobalNamespace::BeatmapObjectSpawnMovementData*& dyn__beatmapObjectSpawnMovementData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectSpawnMovementData*& dyn__beatmapObjectSpawnMovementData();
     // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
-    ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
     // Get instance field reference: private readonly IBeatmapObjectSpawner _beatmapObjectSpawner
-    ::GlobalNamespace::IBeatmapObjectSpawner*& dyn__beatmapObjectSpawner();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatmapObjectSpawner*& dyn__beatmapObjectSpawner();
     // Get instance field reference: private readonly IJumpOffsetYProvider _jumpOffsetYProvider
-    ::GlobalNamespace::IJumpOffsetYProvider*& dyn__jumpOffsetYProvider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IJumpOffsetYProvider*& dyn__jumpOffsetYProvider();
     // Get instance field reference: private readonly BeatmapObjectSpawnController/InitData _initData
-    ::GlobalNamespace::BeatmapObjectSpawnController::InitData*& dyn__initData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectSpawnController::InitData*& dyn__initData();
     // Get instance field reference: private System.Action didInitEvent
-    ::System::Action*& dyn_didInitEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didInitEvent();
     // Get instance field reference: private System.Boolean _disableSpawning
-    bool& dyn__disableSpawning();
+    [[deprecated("Use field access instead!")]] bool& dyn__disableSpawning();
     // Get instance field reference: private System.Boolean _isInitialized
-    bool& dyn__isInitialized();
+    [[deprecated("Use field access instead!")]] bool& dyn__isInitialized();
     // Get instance field reference: private BeatmapDataCallbackWrapper _obstacleDataCallbackWrapper
-    ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__obstacleDataCallbackWrapper();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__obstacleDataCallbackWrapper();
     // Get instance field reference: private BeatmapDataCallbackWrapper _noteDataCallbackWrapper
-    ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__noteDataCallbackWrapper();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__noteDataCallbackWrapper();
     // Get instance field reference: private BeatmapDataCallbackWrapper _sliderDataCallbackWrapper
-    ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__sliderDataCallbackWrapper();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__sliderDataCallbackWrapper();
     // Get instance field reference: private BeatmapDataCallbackWrapper _spawnRotationCallbackWrapper
-    ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__spawnRotationCallbackWrapper();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__spawnRotationCallbackWrapper();
     // Get instance field reference: private System.Single _spawnRotation
-    float& dyn__spawnRotation();
+    [[deprecated("Use field access instead!")]] float& dyn__spawnRotation();
     // public System.Int32 get_noteLinesCount()
-    // Offset: 0x14D8824
+    // Offset: 0x151012C
     int get_noteLinesCount();
     // public System.Single get_jumpOffsetY()
-    // Offset: 0x14D8840
+    // Offset: 0x1510148
     float get_jumpOffsetY();
     // public System.Single get_moveDuration()
-    // Offset: 0x14D8908
+    // Offset: 0x1510210
     float get_moveDuration();
     // public System.Single get_jumpDuration()
-    // Offset: 0x14D8924
+    // Offset: 0x151022C
     float get_jumpDuration();
     // public System.Single get_jumpDistance()
-    // Offset: 0x14D8940
+    // Offset: 0x1510248
     float get_jumpDistance();
     // public System.Single get_verticalLayerDistance()
-    // Offset: 0x14D895C
+    // Offset: 0x1510264
     float get_verticalLayerDistance();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x14D8988
+    // Offset: 0x1510290
     float get_noteJumpMovementSpeed();
     // public System.Single get_noteLinesDistance()
-    // Offset: 0x14D89A4
+    // Offset: 0x15102AC
     float get_noteLinesDistance();
     // public BeatmapObjectSpawnMovementData get_beatmapObjectSpawnMovementData()
-    // Offset: 0x14D89D0
+    // Offset: 0x15102D8
     ::GlobalNamespace::BeatmapObjectSpawnMovementData* get_beatmapObjectSpawnMovementData();
     // public System.Boolean get_isInitialized()
-    // Offset: 0x14D89D8
+    // Offset: 0x15102E0
     bool get_isInitialized();
     // public System.Void add_didInitEvent(System.Action value)
-    // Offset: 0x14D89E0
+    // Offset: 0x15102E8
     void add_didInitEvent(::System::Action* value);
     // public System.Void remove_didInitEvent(System.Action value)
-    // Offset: 0x14D8A84
+    // Offset: 0x151038C
     void remove_didInitEvent(::System::Action* value);
-    // protected System.Void Start()
-    // Offset: 0x14D8B28
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x14D906C
-    void OnDestroy();
-    // private System.Void HandleObstacleDataCallback(ObstacleData obstacleData)
-    // Offset: 0x14D90E4
-    void HandleObstacleDataCallback(::GlobalNamespace::ObstacleData* obstacleData);
-    // private System.Void HandleNoteDataCallback(NoteData noteData)
-    // Offset: 0x14D9474
-    void HandleNoteDataCallback(::GlobalNamespace::NoteData* noteData);
-    // private System.Void HandleSliderDataCallback(SliderData sliderNoteData)
-    // Offset: 0x14D97A4
-    void HandleSliderDataCallback(::GlobalNamespace::SliderData* sliderNoteData);
-    // private System.Void HandleSpawnRotationCallback(SpawnRotationBeatmapEventData beatmapEventData)
-    // Offset: 0x14D9B50
-    void HandleSpawnRotationCallback(::GlobalNamespace::SpawnRotationBeatmapEventData* beatmapEventData);
-    // public System.Void StopSpawning()
-    // Offset: 0x14D9B6C
-    void StopSpawning();
-    // public UnityEngine.Vector2 Get2DNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x14D9B78
-    ::UnityEngine::Vector2 Get2DNoteOffset(int noteLineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
-    // public System.Single JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(NoteLineLayer lineLayer, System.Single distanceFromPlayer)
-    // Offset: 0x14D9BB0
-    float JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(::GlobalNamespace::NoteLineLayer lineLayer, float distanceFromPlayer);
     // public System.Void .ctor()
-    // Offset: 0x14D9C44
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x151154C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectSpawnController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectSpawnController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectSpawnController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x1510430
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1510974
+    void OnDestroy();
+    // private System.Void HandleObstacleDataCallback(ObstacleData obstacleData)
+    // Offset: 0x15109EC
+    void HandleObstacleDataCallback(::GlobalNamespace::ObstacleData* obstacleData);
+    // private System.Void HandleNoteDataCallback(NoteData noteData)
+    // Offset: 0x1510D7C
+    void HandleNoteDataCallback(::GlobalNamespace::NoteData* noteData);
+    // private System.Void HandleSliderDataCallback(SliderData sliderNoteData)
+    // Offset: 0x15110AC
+    void HandleSliderDataCallback(::GlobalNamespace::SliderData* sliderNoteData);
+    // private System.Void HandleSpawnRotationCallback(SpawnRotationBeatmapEventData beatmapEventData)
+    // Offset: 0x1511458
+    void HandleSpawnRotationCallback(::GlobalNamespace::SpawnRotationBeatmapEventData* beatmapEventData);
+    // public System.Void StopSpawning()
+    // Offset: 0x1511474
+    void StopSpawning();
+    // public UnityEngine.Vector2 Get2DNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
+    // Offset: 0x1511480
+    ::UnityEngine::Vector2 Get2DNoteOffset(int noteLineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
+    // public System.Single JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(NoteLineLayer lineLayer, System.Single distanceFromPlayer)
+    // Offset: 0x15114B8
+    float JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(::GlobalNamespace::NoteLineLayer lineLayer, float distanceFromPlayer);
   }; // BeatmapObjectSpawnController
   #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectSpawnController), 112 + sizeof(float)> __GlobalNamespace_BeatmapObjectSpawnControllerSizeCheck;
@@ -373,6 +359,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "remove_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::Start
 // Il2CppName: Start
 template<>
@@ -453,7 +443,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lineLayer, distanceFromPlayer});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

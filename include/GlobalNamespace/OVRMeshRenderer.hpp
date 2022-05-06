@@ -91,7 +91,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRMeshRenderer/ConfidenceBehavior ToggleRenderer
       static void _set_ToggleRenderer(::GlobalNamespace::OVRMeshRenderer::ConfidenceBehavior value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // OVRMeshRenderer/ConfidenceBehavior
     #pragma pack(pop)
     static check_size<sizeof(OVRMeshRenderer::ConfidenceBehavior), 0 + sizeof(int)> __GlobalNamespace_OVRMeshRenderer_ConfidenceBehaviorSizeCheck;
@@ -133,20 +133,12 @@ namespace GlobalNamespace {
       // Set static field: static public OVRMeshRenderer/SystemGestureBehavior SwapMaterial
       static void _set_SwapMaterial(::GlobalNamespace::OVRMeshRenderer::SystemGestureBehavior value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // OVRMeshRenderer/SystemGestureBehavior
     #pragma pack(pop)
     static check_size<sizeof(OVRMeshRenderer::SystemGestureBehavior), 0 + sizeof(int)> __GlobalNamespace_OVRMeshRenderer_SystemGestureBehaviorSizeCheck;
     static_assert(sizeof(OVRMeshRenderer::SystemGestureBehavior) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private OVRMeshRenderer/IOVRMeshRendererDataProvider _dataProvider
     // Size: 0x8
     // Offset: 0x18
@@ -223,81 +215,75 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private OVRMeshRenderer/IOVRMeshRendererDataProvider _dataProvider
-    ::GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider*& dyn__dataProvider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider*& dyn__dataProvider();
     // Get instance field reference: private OVRMesh _ovrMesh
-    ::GlobalNamespace::OVRMesh*& dyn__ovrMesh();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRMesh*& dyn__ovrMesh();
     // Get instance field reference: private OVRSkeleton _ovrSkeleton
-    ::GlobalNamespace::OVRSkeleton*& dyn__ovrSkeleton();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRSkeleton*& dyn__ovrSkeleton();
     // Get instance field reference: private OVRMeshRenderer/ConfidenceBehavior _confidenceBehavior
-    ::GlobalNamespace::OVRMeshRenderer::ConfidenceBehavior& dyn__confidenceBehavior();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRMeshRenderer::ConfidenceBehavior& dyn__confidenceBehavior();
     // Get instance field reference: private OVRMeshRenderer/SystemGestureBehavior _systemGestureBehavior
-    ::GlobalNamespace::OVRMeshRenderer::SystemGestureBehavior& dyn__systemGestureBehavior();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRMeshRenderer::SystemGestureBehavior& dyn__systemGestureBehavior();
     // Get instance field reference: private UnityEngine.Material _systemGestureMaterial
-    ::UnityEngine::Material*& dyn__systemGestureMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__systemGestureMaterial();
     // Get instance field reference: private UnityEngine.Material _originalMaterial
-    ::UnityEngine::Material*& dyn__originalMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__originalMaterial();
     // Get instance field reference: private UnityEngine.SkinnedMeshRenderer _skinnedMeshRenderer
-    ::UnityEngine::SkinnedMeshRenderer*& dyn__skinnedMeshRenderer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::SkinnedMeshRenderer*& dyn__skinnedMeshRenderer();
     // Get instance field reference: private System.Boolean <IsInitialized>k__BackingField
-    bool& dyn_$IsInitialized$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$IsInitialized$k__BackingField();
     // Get instance field reference: private System.Boolean <IsDataValid>k__BackingField
-    bool& dyn_$IsDataValid$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$IsDataValid$k__BackingField();
     // Get instance field reference: private System.Boolean <IsDataHighConfidence>k__BackingField
-    bool& dyn_$IsDataHighConfidence$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$IsDataHighConfidence$k__BackingField();
     // Get instance field reference: private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
-    bool& dyn_$ShouldUseSystemGestureMaterial$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$ShouldUseSystemGestureMaterial$k__BackingField();
     // public System.Boolean get_IsInitialized()
-    // Offset: 0x16BD584
+    // Offset: 0x16F4E94
     bool get_IsInitialized();
     // private System.Void set_IsInitialized(System.Boolean value)
-    // Offset: 0x16BD58C
+    // Offset: 0x16F4E9C
     void set_IsInitialized(bool value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0x16BD598
+    // Offset: 0x16F4EA8
     bool get_IsDataValid();
     // private System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0x16BD5A0
+    // Offset: 0x16F4EB0
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0x16BD5AC
+    // Offset: 0x16F4EBC
     bool get_IsDataHighConfidence();
     // private System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0x16BD5B4
+    // Offset: 0x16F4EC4
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_ShouldUseSystemGestureMaterial()
-    // Offset: 0x16BD5C0
+    // Offset: 0x16F4ED0
     bool get_ShouldUseSystemGestureMaterial();
     // private System.Void set_ShouldUseSystemGestureMaterial(System.Boolean value)
-    // Offset: 0x16BD5C8
+    // Offset: 0x16F4ED8
     void set_ShouldUseSystemGestureMaterial(bool value);
-    // private System.Void Awake()
-    // Offset: 0x16BD5D4
-    void Awake();
-    // private System.Void Start()
-    // Offset: 0x16BD6D4
-    void Start();
-    // private System.Boolean ShouldInitialize()
-    // Offset: 0x16BD780
-    bool ShouldInitialize();
-    // private System.Void Initialize()
-    // Offset: 0x16BD898
-    void Initialize();
-    // private System.Void Update()
-    // Offset: 0x16BDD34
-    void Update();
     // public System.Void .ctor()
-    // Offset: 0x16BE010
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16F5920
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRMeshRenderer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRMeshRenderer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRMeshRenderer*, creationType>()));
     }
+    // private System.Void Awake()
+    // Offset: 0x16F4EE4
+    void Awake();
+    // private System.Void Start()
+    // Offset: 0x16F4FE4
+    void Start();
+    // private System.Boolean ShouldInitialize()
+    // Offset: 0x16F5090
+    bool ShouldInitialize();
+    // private System.Void Initialize()
+    // Offset: 0x16F51A8
+    void Initialize();
+    // private System.Void Update()
+    // Offset: 0x16F5644
+    void Update();
   }; // OVRMeshRenderer
   #pragma pack(pop)
   static check_size<sizeof(OVRMeshRenderer), 83 + sizeof(bool)> __GlobalNamespace_OVRMeshRendererSizeCheck;
@@ -376,6 +362,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMeshRenderer*), "set_ShouldUseSystemGestureMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::OVRMeshRenderer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVRMeshRenderer::Awake
 // Il2CppName: Awake
 template<>
@@ -416,7 +406,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMeshRenderer*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OVRMeshRenderer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

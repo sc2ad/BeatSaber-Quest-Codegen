@@ -34,15 +34,7 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class FixupHolderList : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Runtime.Serialization.FixupHolder[] m_values
     // Size: 0x8
     // Offset: 0x10
@@ -57,24 +49,24 @@ namespace System::Runtime::Serialization {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: System.Runtime.Serialization.FixupHolder[] m_values
-    ::ArrayW<::System::Runtime::Serialization::FixupHolder*>& dyn_m_values();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Runtime::Serialization::FixupHolder*>& dyn_m_values();
     // Get instance field reference: System.Int32 m_count
-    int& dyn_m_count();
+    [[deprecated("Use field access instead!")]] int& dyn_m_count();
     // System.Void .ctor(System.Int32 startingSize)
-    // Offset: 0x18B4E9C
+    // Offset: 0x18EE7AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixupHolderList* New_ctor(int startingSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::FixupHolderList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FixupHolderList*, creationType>(startingSize)));
     }
     // System.Void Add(System.Runtime.Serialization.FixupHolder fixup)
-    // Offset: 0x18B4F10
+    // Offset: 0x18EE820
     void Add(::System::Runtime::Serialization::FixupHolder* fixup);
     // private System.Void EnlargeArray()
-    // Offset: 0x18B4FC4
+    // Offset: 0x18EE8D4
     void EnlargeArray();
     // System.Void .ctor()
-    // Offset: 0x18B4E94
+    // Offset: 0x18EE7A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

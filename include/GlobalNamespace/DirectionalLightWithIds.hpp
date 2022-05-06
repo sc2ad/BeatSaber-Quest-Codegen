@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DirectionalLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private DirectionalLight _directionalLight
     // Size: 0x8
     // Offset: 0x48
@@ -60,7 +52,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: setIntensityOnly and: defaultColor
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x12384C4
+    // [DrawIfAttribute] Offset: 0x10BCF7C
     // private UnityEngine.Color _defaultColor
     // Size: 0x10
     // Offset: 0x54
@@ -69,28 +61,23 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
     public:
     // Get instance field reference: private DirectionalLight _directionalLight
-    ::GlobalNamespace::DirectionalLight*& dyn__directionalLight();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DirectionalLight*& dyn__directionalLight();
     // Get instance field reference: private System.Boolean _setIntensityOnly
-    bool& dyn__setIntensityOnly();
+    [[deprecated("Use field access instead!")]] bool& dyn__setIntensityOnly();
     // Get instance field reference: private UnityEngine.Color _defaultColor
-    ::UnityEngine::Color& dyn__defaultColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__defaultColor();
     // public System.Void .ctor()
-    // Offset: 0x2ACF780
+    // Offset: 0x1E78B48
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::.ctor()
     // Base method: System.Void LightWithIds::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DirectionalLightWithIds* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DirectionalLightWithIds::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DirectionalLightWithIds*, creationType>()));
     }
     // protected override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x2ACF730
+    // Offset: 0x1E78AF8
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);

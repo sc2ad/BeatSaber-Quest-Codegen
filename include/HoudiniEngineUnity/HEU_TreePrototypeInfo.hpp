@@ -29,15 +29,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_TreePrototypeInfo : public ::Il2CppObject/*, public ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String _prefabPath
     // Size: 0x8
     // Offset: 0x10
@@ -56,27 +48,29 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>*>(this);
     }
     // Get instance field reference: public System.String _prefabPath
-    ::StringW& dyn__prefabPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__prefabPath();
     // Get instance field reference: public System.Single _bendfactor
-    float& dyn__bendfactor();
-    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_TreePrototypeInfo other)
-    // Offset: 0x19D5218
-    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_TreePrototypeInfo* other);
+    [[deprecated("Use field access instead!")]] float& dyn__bendfactor();
     // public System.Void .ctor()
-    // Offset: 0x19D532C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1A0E914
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_TreePrototypeInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TreePrototypeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_TreePrototypeInfo*, creationType>()));
     }
+    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_TreePrototypeInfo other)
+    // Offset: 0x1A0E800
+    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_TreePrototypeInfo* other);
   }; // HoudiniEngineUnity.HEU_TreePrototypeInfo
   #pragma pack(pop)
   static check_size<sizeof(HEU_TreePrototypeInfo), 24 + sizeof(float)> __HoudiniEngineUnity_HEU_TreePrototypeInfoSizeCheck;
   static_assert(sizeof(HEU_TreePrototypeInfo) == 0x1C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TreePrototypeInfo::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TreePrototypeInfo::IsEquivalentTo
 // Il2CppName: IsEquivalentTo
 template<>
@@ -86,7 +80,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_TreePrototypeInfo*), "IsEquivalentTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TreePrototypeInfo::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

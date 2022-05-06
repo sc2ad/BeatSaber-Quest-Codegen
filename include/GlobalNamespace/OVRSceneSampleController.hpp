@@ -47,15 +47,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRSceneSampleController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.KeyCode quitKey
     // Size: 0x4
     // Offset: 0x18
@@ -114,58 +106,56 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.KeyCode quitKey
-    ::UnityEngine::KeyCode& dyn_quitKey();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::KeyCode& dyn_quitKey();
     // Get instance field reference: public UnityEngine.Texture fadeInTexture
-    ::UnityEngine::Texture*& dyn_fadeInTexture();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Texture*& dyn_fadeInTexture();
     // Get instance field reference: public System.Single speedRotationIncrement
-    float& dyn_speedRotationIncrement();
+    [[deprecated("Use field access instead!")]] float& dyn_speedRotationIncrement();
     // Get instance field reference: private OVRPlayerController playerController
-    ::GlobalNamespace::OVRPlayerController*& dyn_playerController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlayerController*& dyn_playerController();
     // Get instance field reference: private OVRCameraRig cameraController
-    ::GlobalNamespace::OVRCameraRig*& dyn_cameraController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRCameraRig*& dyn_cameraController();
     // Get instance field reference: public System.String layerName
-    ::StringW& dyn_layerName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_layerName();
     // Get instance field reference: private System.Boolean visionMode
-    bool& dyn_visionMode();
+    [[deprecated("Use field access instead!")]] bool& dyn_visionMode();
     // Get instance field reference: private OVRGridCube gridCube
-    ::GlobalNamespace::OVRGridCube*& dyn_gridCube();
-    // private System.Void Awake()
-    // Offset: 0x1AE80EC
-    void Awake();
-    // private System.Void Start()
-    // Offset: 0x1AE8288
-    void Start();
-    // private System.Void Update()
-    // Offset: 0x1AE8374
-    void Update();
-    // private System.Void UpdateVisionMode()
-    // Offset: 0x1AE8524
-    void UpdateVisionMode();
-    // private System.Void UpdateSpeedAndRotationScaleMultiplier()
-    // Offset: 0x1AE8608
-    void UpdateSpeedAndRotationScaleMultiplier();
-    // private System.Void UpdateRecenterPose()
-    // Offset: 0x1AE8458
-    void UpdateRecenterPose();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRGridCube*& dyn_gridCube();
     // public System.Void .ctor()
-    // Offset: 0x1AE86FC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B22CE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRSceneSampleController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRSceneSampleController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRSceneSampleController*, creationType>()));
     }
+    // private System.Void Awake()
+    // Offset: 0x1B226D4
+    void Awake();
+    // private System.Void Start()
+    // Offset: 0x1B22870
+    void Start();
+    // private System.Void Update()
+    // Offset: 0x1B2295C
+    void Update();
+    // private System.Void UpdateVisionMode()
+    // Offset: 0x1B22B0C
+    void UpdateVisionMode();
+    // private System.Void UpdateSpeedAndRotationScaleMultiplier()
+    // Offset: 0x1B22BF0
+    void UpdateSpeedAndRotationScaleMultiplier();
+    // private System.Void UpdateRecenterPose()
+    // Offset: 0x1B22A40
+    void UpdateRecenterPose();
   }; // OVRSceneSampleController
   #pragma pack(pop)
   static check_size<sizeof(OVRSceneSampleController), 80 + sizeof(::GlobalNamespace::OVRGridCube*)> __GlobalNamespace_OVRSceneSampleControllerSizeCheck;
   static_assert(sizeof(OVRSceneSampleController) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OVRSceneSampleController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVRSceneSampleController::Awake
 // Il2CppName: Awake
 template<>
@@ -214,7 +204,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSceneSampleController*), "UpdateRecenterPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OVRSceneSampleController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -50,15 +50,7 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class FaceRebuildData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.ProBuilder.Face face
     // Size: 0x8
     // Offset: 0x10
@@ -91,35 +83,33 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public UnityEngine.ProBuilder.Face face
-    ::UnityEngine::ProBuilder::Face*& dyn_face();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Face*& dyn_face();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices
-    ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*& dyn_vertices();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*& dyn_vertices();
     // Get instance field reference: public System.Collections.Generic.List`1<System.Int32> sharedIndexes
-    ::System::Collections::Generic::List_1<int>*& dyn_sharedIndexes();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<int>*& dyn_sharedIndexes();
     // Get instance field reference: public System.Collections.Generic.List`1<System.Int32> sharedIndexesUV
-    ::System::Collections::Generic::List_1<int>*& dyn_sharedIndexesUV();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<int>*& dyn_sharedIndexesUV();
     // Get instance field reference: private System.Int32 _appliedOffset
-    int& dyn__appliedOffset();
-    // public System.Int32 Offset()
-    // Offset: 0x1F87EDC
-    int Offset();
-    // static public System.Void Apply(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.FaceRebuildData> newFaces, UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x1F87F80
-    static void Apply(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::FaceRebuildData*>* newFaces, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces);
-    // static public System.Void Apply(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.FaceRebuildData> newFaces, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> faces, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> sharedVertexLookup, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> sharedTextureLookup)
-    // Offset: 0x1F880E0
-    static void Apply(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::FaceRebuildData*>* newFaces, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Collections::Generic::Dictionary_2<int, int>* sharedVertexLookup, ::System::Collections::Generic::Dictionary_2<int, int>* sharedTextureLookup);
+    [[deprecated("Use field access instead!")]] int& dyn__appliedOffset();
     // public System.Void .ctor()
-    // Offset: 0x1F885A8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FD3E1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FaceRebuildData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::FaceRebuildData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FaceRebuildData*, creationType>()));
     }
+    // public System.Int32 Offset()
+    // Offset: 0x1FD3750
+    int Offset();
+    // static public System.Void Apply(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.FaceRebuildData> newFaces, UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> faces)
+    // Offset: 0x1FD37F4
+    static void Apply(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::FaceRebuildData*>* newFaces, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces);
+    // static public System.Void Apply(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.FaceRebuildData> newFaces, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> faces, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> sharedVertexLookup, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> sharedTextureLookup)
+    // Offset: 0x1FD3954
+    static void Apply(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::FaceRebuildData*>* newFaces, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Collections::Generic::Dictionary_2<int, int>* sharedVertexLookup, ::System::Collections::Generic::Dictionary_2<int, int>* sharedTextureLookup);
     // public override System.String ToString()
-    // Offset: 0x1F87EE4
+    // Offset: 0x1FD3758
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -129,6 +119,10 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(FaceRebuildData) == 0x34);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::FaceRebuildData::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::FaceRebuildData::Offset
 // Il2CppName: Offset
 template<>
@@ -162,10 +156,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::FaceRebuildData*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newFaces, vertices, faces, sharedVertexLookup, sharedTextureLookup});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ProBuilder::FaceRebuildData::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::FaceRebuildData::ToString
 // Il2CppName: ToString
 template<>

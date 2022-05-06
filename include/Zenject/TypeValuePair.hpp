@@ -55,11 +55,11 @@ namespace Zenject {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Type Type
-    ::System::Type*& dyn_Type();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_Type();
     // Get instance field reference: public System.Object Value
-    ::Il2CppObject*& dyn_Value();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_Value();
     // public System.Void .ctor(System.Type type, System.Object value)
-    // Offset: 0x1CEE744
+    // Offset: 0x1D29C9C
     // ABORTED: conflicts with another method.  TypeValuePair(::System::Type* type, ::Il2CppObject* value);
   }; // Zenject.TypeValuePair
   #pragma pack(pop)

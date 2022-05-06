@@ -131,20 +131,12 @@ namespace Newtonsoft::Json::Bson {
       // Set static field: static public Newtonsoft.Json.Bson.BsonReader/Newtonsoft.Json.Bson.BsonReaderState CodeWScopeScopeEnd
       static void _set_CodeWScopeScopeEnd(::Newtonsoft::Json::Bson::BsonReader::BsonReaderState value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // Newtonsoft.Json.Bson.BsonReader/Newtonsoft.Json.Bson.BsonReaderState
     #pragma pack(pop)
     static check_size<sizeof(BsonReader::BsonReaderState), 0 + sizeof(int)> __Newtonsoft_Json_Bson_BsonReader_BsonReaderStateSizeCheck;
     static_assert(sizeof(BsonReader::BsonReaderState) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.IO.BinaryReader _reader
     // Size: 0x8
     // Offset: 0x78
@@ -223,96 +215,96 @@ namespace Newtonsoft::Json::Bson {
     // Set static field: static private readonly System.Byte[] SeqRange4
     static void _set_SeqRange4(::ArrayW<uint8_t> value);
     // Get instance field reference: private readonly System.IO.BinaryReader _reader
-    ::System::IO::BinaryReader*& dyn__reader();
+    [[deprecated("Use field access instead!")]] ::System::IO::BinaryReader*& dyn__reader();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Newtonsoft.Json.Bson.BsonReader/Newtonsoft.Json.Bson.ContainerContext> _stack
-    ::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::BsonReader::ContainerContext*>*& dyn__stack();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::BsonReader::ContainerContext*>*& dyn__stack();
     // Get instance field reference: private System.Byte[] _byteBuffer
-    ::ArrayW<uint8_t>& dyn__byteBuffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__byteBuffer();
     // Get instance field reference: private System.Char[] _charBuffer
-    ::ArrayW<::Il2CppChar>& dyn__charBuffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppChar>& dyn__charBuffer();
     // Get instance field reference: private Newtonsoft.Json.Bson.BsonType _currentElementType
-    ::Newtonsoft::Json::Bson::BsonType& dyn__currentElementType();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Bson::BsonType& dyn__currentElementType();
     // Get instance field reference: private Newtonsoft.Json.Bson.BsonReader/Newtonsoft.Json.Bson.BsonReaderState _bsonReaderState
-    ::Newtonsoft::Json::Bson::BsonReader::BsonReaderState& dyn__bsonReaderState();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Bson::BsonReader::BsonReaderState& dyn__bsonReaderState();
     // Get instance field reference: private Newtonsoft.Json.Bson.BsonReader/Newtonsoft.Json.Bson.ContainerContext _currentContext
-    ::Newtonsoft::Json::Bson::BsonReader::ContainerContext*& dyn__currentContext();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Bson::BsonReader::ContainerContext*& dyn__currentContext();
     // Get instance field reference: private System.Boolean _readRootValueAsArray
-    bool& dyn__readRootValueAsArray();
+    [[deprecated("Use field access instead!")]] bool& dyn__readRootValueAsArray();
     // Get instance field reference: private System.Boolean _jsonNet35BinaryCompatibility
-    bool& dyn__jsonNet35BinaryCompatibility();
+    [[deprecated("Use field access instead!")]] bool& dyn__jsonNet35BinaryCompatibility();
     // Get instance field reference: private System.DateTimeKind _dateTimeKindHandling
-    ::System::DateTimeKind& dyn__dateTimeKindHandling();
+    [[deprecated("Use field access instead!")]] ::System::DateTimeKind& dyn__dateTimeKindHandling();
     // public System.DateTimeKind get_DateTimeKindHandling()
-    // Offset: 0x1777F94
+    // Offset: 0x17B18A4
     ::System::DateTimeKind get_DateTimeKindHandling();
     // static private System.Void .cctor()
-    // Offset: 0x17797DC
+    // Offset: 0x17B30EC
     static void _cctor();
     // private System.String ReadElement()
-    // Offset: 0x1777F9C
+    // Offset: 0x17B18AC
     ::StringW ReadElement();
     // private System.Boolean ReadCodeWScope()
-    // Offset: 0x1778800
+    // Offset: 0x17B2110
     bool ReadCodeWScope();
     // private System.Boolean ReadReference()
-    // Offset: 0x177865C
+    // Offset: 0x17B1F6C
     bool ReadReference();
     // private System.Boolean ReadNormal()
-    // Offset: 0x1778464
+    // Offset: 0x17B1D74
     bool ReadNormal();
     // private System.Void PopContext()
-    // Offset: 0x1779098
+    // Offset: 0x17B29A8
     void PopContext();
     // private System.Void PushContext(Newtonsoft.Json.Bson.BsonReader/Newtonsoft.Json.Bson.ContainerContext newContext)
-    // Offset: 0x1778AC8
+    // Offset: 0x17B23D8
     void PushContext(::Newtonsoft::Json::Bson::BsonReader::ContainerContext* newContext);
     // private System.Byte ReadByte()
-    // Offset: 0x1779060
+    // Offset: 0x17B2970
     uint8_t ReadByte();
     // private System.Void ReadType(Newtonsoft.Json.Bson.BsonType type)
-    // Offset: 0x1778B74
+    // Offset: 0x17B2484
     void ReadType(::Newtonsoft::Json::Bson::BsonType type);
     // private System.Byte[] ReadBinary(out Newtonsoft.Json.Bson.BsonBinaryType binaryType)
-    // Offset: 0x1779188
+    // Offset: 0x17B2A98
     ::ArrayW<uint8_t> ReadBinary(ByRef<::Newtonsoft::Json::Bson::BsonBinaryType> binaryType);
     // private System.String ReadString()
-    // Offset: 0x1777FFC
+    // Offset: 0x17B190C
     ::StringW ReadString();
     // private System.String ReadLengthString()
-    // Offset: 0x1778A38
+    // Offset: 0x17B2348
     ::StringW ReadLengthString();
     // private System.String GetString(System.Int32 length)
-    // Offset: 0x1779368
+    // Offset: 0x17B2C78
     ::StringW GetString(int length);
     // private System.Int32 GetLastFullCharStop(System.Int32 start)
-    // Offset: 0x17792D0
+    // Offset: 0x17B2BE0
     int GetLastFullCharStop(int start);
     // private System.Int32 BytesInSequence(System.Byte b)
-    // Offset: 0x17795C4
+    // Offset: 0x17B2ED4
     int BytesInSequence(uint8_t b);
     // private System.Void EnsureBuffers()
-    // Offset: 0x1779228
+    // Offset: 0x17B2B38
     void EnsureBuffers();
     // private System.Double ReadDouble()
-    // Offset: 0x177914C
+    // Offset: 0x17B2A5C
     double ReadDouble();
     // private System.Int32 ReadInt32()
-    // Offset: 0x17789FC
+    // Offset: 0x17B230C
     int ReadInt32();
     // private System.Int64 ReadInt64()
-    // Offset: 0x17791EC
+    // Offset: 0x17B2AFC
     int64_t ReadInt64();
     // private Newtonsoft.Json.Bson.BsonType ReadType()
-    // Offset: 0x1777FC4
+    // Offset: 0x17B18D4
     ::Newtonsoft::Json::Bson::BsonType ReadType();
     // private System.Void MovePosition(System.Int32 count)
-    // Offset: 0x1779128
+    // Offset: 0x17B2A38
     void MovePosition(int count);
     // private System.Byte[] ReadBytes(System.Int32 count)
-    // Offset: 0x1778B38
+    // Offset: 0x17B2448
     ::ArrayW<uint8_t> ReadBytes(int count);
     // public override System.Boolean Read()
-    // Offset: 0x1778278
+    // Offset: 0x17B1B88
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: System.Boolean JsonReader::Read()
     bool Read();

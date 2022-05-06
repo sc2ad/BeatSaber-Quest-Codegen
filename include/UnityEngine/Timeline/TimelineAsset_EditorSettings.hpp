@@ -23,15 +23,7 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimelineAsset::EditorSettings : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single m_Framerate
     // Size: 0x4
     // Offset: 0x10
@@ -58,33 +50,31 @@ namespace UnityEngine::Timeline {
     // Set static field: static readonly System.Single kDefaultFps
     static void _set_kDefaultFps(float value);
     // Get instance field reference: private System.Single m_Framerate
-    float& dyn_m_Framerate();
+    [[deprecated("Use field access instead!")]] float& dyn_m_Framerate();
     // Get instance field reference: private System.Boolean m_ScenePreview
-    bool& dyn_m_ScenePreview();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_ScenePreview();
     // public System.Single get_fps()
-    // Offset: 0x29C6D08
+    // Offset: 0x2A18218
     float get_fps();
     // public System.Void set_fps(System.Single value)
-    // Offset: 0x29C6D10
+    // Offset: 0x2A18220
     void set_fps(float value);
     // public System.Boolean get_scenePreview()
-    // Offset: 0x29C6D38
+    // Offset: 0x2A18248
     bool get_scenePreview();
     // public System.Void set_scenePreview(System.Boolean value)
-    // Offset: 0x29C6D40
+    // Offset: 0x2A18250
     void set_scenePreview(bool value);
-    // static private System.Void .cctor()
-    // Offset: 0x29C6DCC
-    static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x29C6D4C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A1825C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimelineAsset::EditorSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::TimelineAsset::EditorSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimelineAsset::EditorSettings*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x2A182DC
+    static void _cctor();
   }; // UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.EditorSettings
   #pragma pack(pop)
   static check_size<sizeof(TimelineAsset::EditorSettings), 20 + sizeof(bool)> __UnityEngine_Timeline_TimelineAsset_EditorSettingsSizeCheck;
@@ -125,6 +115,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset::EditorSettings*), "set_scenePreview", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::EditorSettings::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::EditorSettings::_cctor
 // Il2CppName: .cctor
 template<>
@@ -133,7 +127,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset::EditorSettings*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::EditorSettings::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

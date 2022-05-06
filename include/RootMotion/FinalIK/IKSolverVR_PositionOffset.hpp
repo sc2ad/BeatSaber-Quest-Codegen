@@ -93,7 +93,7 @@ namespace RootMotion::FinalIK {
     // Set static field: static public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.PositionOffset RightHeel
     static void _set_RightHeel(::RootMotion::FinalIK::IKSolverVR::PositionOffset value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.PositionOffset
   #pragma pack(pop)
   static check_size<sizeof(IKSolverVR::PositionOffset), 0 + sizeof(int)> __RootMotion_FinalIK_IKSolverVR_PositionOffsetSizeCheck;

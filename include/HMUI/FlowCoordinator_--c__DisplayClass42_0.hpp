@@ -36,15 +36,7 @@ namespace HMUI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class FlowCoordinator::$$c__DisplayClass42_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean immediately
     // Size: 0x1
     // Offset: 0x10
@@ -73,31 +65,33 @@ namespace HMUI {
     static_assert(sizeof(::HMUI::ViewController*) == 0x8);
     public:
     // Get instance field reference: public System.Boolean immediately
-    bool& dyn_immediately();
+    [[deprecated("Use field access instead!")]] bool& dyn_immediately();
     // Get instance field reference: public HMUI.FlowCoordinator <>4__this
-    ::HMUI::FlowCoordinator*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::HMUI::FlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: public System.Action finishedCallback
-    ::System::Action*& dyn_finishedCallback();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_finishedCallback();
     // Get instance field reference: public HMUI.ViewController viewController
-    ::HMUI::ViewController*& dyn_viewController();
-    // System.Void <PushViewControllerToNavigationController>b__0()
-    // Offset: 0x16E74AC
-    void $PushViewControllerToNavigationController$b__0();
+    [[deprecated("Use field access instead!")]] ::HMUI::ViewController*& dyn_viewController();
     // public System.Void .ctor()
-    // Offset: 0x16E67E0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x171E0F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlowCoordinator::$$c__DisplayClass42_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::FlowCoordinator::$$c__DisplayClass42_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlowCoordinator::$$c__DisplayClass42_0*, creationType>()));
     }
+    // System.Void <PushViewControllerToNavigationController>b__0()
+    // Offset: 0x171EDBC
+    void $PushViewControllerToNavigationController$b__0();
   }; // HMUI.FlowCoordinator/HMUI.<>c__DisplayClass42_0
   #pragma pack(pop)
   static check_size<sizeof(FlowCoordinator::$$c__DisplayClass42_0), 40 + sizeof(::HMUI::ViewController*)> __HMUI_FlowCoordinator_$$c__DisplayClass42_0SizeCheck;
   static_assert(sizeof(FlowCoordinator::$$c__DisplayClass42_0) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HMUI::FlowCoordinator::$$c__DisplayClass42_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::FlowCoordinator::$$c__DisplayClass42_0::$PushViewControllerToNavigationController$b__0
 // Il2CppName: <PushViewControllerToNavigationController>b__0
 template<>
@@ -106,7 +100,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator::$$c__DisplayClass42_0*), "<PushViewControllerToNavigationController>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HMUI::FlowCoordinator::$$c__DisplayClass42_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

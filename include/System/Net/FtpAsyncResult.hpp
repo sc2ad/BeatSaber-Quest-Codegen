@@ -54,15 +54,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class FtpAsyncResult : public ::Il2CppObject/*, public ::System::IAsyncResult*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Net.FtpWebResponse response
     // Size: 0x8
     // Offset: 0x10
@@ -125,71 +117,71 @@ namespace System::Net {
       return *reinterpret_cast<::System::IAsyncResult*>(this);
     }
     // Get instance field reference: private System.Net.FtpWebResponse response
-    ::System::Net::FtpWebResponse*& dyn_response();
+    [[deprecated("Use field access instead!")]] ::System::Net::FtpWebResponse*& dyn_response();
     // Get instance field reference: private System.Threading.ManualResetEvent waitHandle
-    ::System::Threading::ManualResetEvent*& dyn_waitHandle();
+    [[deprecated("Use field access instead!")]] ::System::Threading::ManualResetEvent*& dyn_waitHandle();
     // Get instance field reference: private System.Exception exception
-    ::System::Exception*& dyn_exception();
+    [[deprecated("Use field access instead!")]] ::System::Exception*& dyn_exception();
     // Get instance field reference: private System.AsyncCallback callback
-    ::System::AsyncCallback*& dyn_callback();
+    [[deprecated("Use field access instead!")]] ::System::AsyncCallback*& dyn_callback();
     // Get instance field reference: private System.IO.Stream stream
-    ::System::IO::Stream*& dyn_stream();
+    [[deprecated("Use field access instead!")]] ::System::IO::Stream*& dyn_stream();
     // Get instance field reference: private System.Object state
-    ::Il2CppObject*& dyn_state();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_state();
     // Get instance field reference: private System.Boolean completed
-    bool& dyn_completed();
+    [[deprecated("Use field access instead!")]] bool& dyn_completed();
     // Get instance field reference: private System.Boolean synch
-    bool& dyn_synch();
+    [[deprecated("Use field access instead!")]] bool& dyn_synch();
     // Get instance field reference: private System.Object locker
-    ::Il2CppObject*& dyn_locker();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_locker();
     // public System.Object get_AsyncState()
-    // Offset: 0x1A4812C
+    // Offset: 0x1A81714
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x1A48134
+    // Offset: 0x1A8171C
     ::System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x1A4821C
+    // Offset: 0x1A81804
     bool get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1A48224
+    // Offset: 0x1A8180C
     bool get_IsCompleted();
     // System.Boolean get_GotException()
-    // Offset: 0x1A482B8
+    // Offset: 0x1A818A0
     bool get_GotException();
     // System.Exception get_Exception()
-    // Offset: 0x1A482C8
+    // Offset: 0x1A818B0
     ::System::Exception* get_Exception();
     // System.Net.FtpWebResponse get_Response()
-    // Offset: 0x1A482D0
+    // Offset: 0x1A818B8
     ::System::Net::FtpWebResponse* get_Response();
     // System.IO.Stream get_Stream()
-    // Offset: 0x1A482D8
+    // Offset: 0x1A818C0
     ::System::IO::Stream* get_Stream();
     // System.Void set_Stream(System.IO.Stream value)
-    // Offset: 0x1A482E0
+    // Offset: 0x1A818C8
     void set_Stream(::System::IO::Stream* value);
     // public System.Void .ctor(System.AsyncCallback callback, System.Object state)
-    // Offset: 0x1A480A8
+    // Offset: 0x1A81690
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FtpAsyncResult* New_ctor(::System::AsyncCallback* callback, ::Il2CppObject* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::FtpAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FtpAsyncResult*, creationType>(callback, state)));
     }
     // System.Boolean WaitUntilComplete(System.Int32 timeout, System.Boolean exitContext)
-    // Offset: 0x1A482E8
+    // Offset: 0x1A818D0
     bool WaitUntilComplete(int timeout, bool exitContext);
     // System.Void SetCompleted(System.Boolean synch, System.Exception exc, System.Net.FtpWebResponse response)
-    // Offset: 0x1A48350
+    // Offset: 0x1A81938
     void SetCompleted(bool synch, ::System::Exception* exc, ::System::Net::FtpWebResponse* response);
     // System.Void SetCompleted(System.Boolean synch, System.Net.FtpWebResponse response)
-    // Offset: 0x1A484D4
+    // Offset: 0x1A81ABC
     void SetCompleted(bool synch, ::System::Net::FtpWebResponse* response);
     // System.Void SetCompleted(System.Boolean synch, System.Exception exc)
-    // Offset: 0x1A484E4
+    // Offset: 0x1A81ACC
     void SetCompleted(bool synch, ::System::Exception* exc);
     // System.Void DoCallback()
-    // Offset: 0x1A4840C
+    // Offset: 0x1A819F4
     void DoCallback();
   }; // System.Net.FtpAsyncResult
   #pragma pack(pop)

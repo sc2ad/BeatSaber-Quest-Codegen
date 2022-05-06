@@ -38,8 +38,15 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class HEU_ExampleInstanceCustomAttribute : public ::UnityEngine::MonoBehaviour {
     public:
+    // public System.Void .ctor()
+    // Offset: 0x16E0790
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static HEU_ExampleInstanceCustomAttribute* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HEU_ExampleInstanceCustomAttribute::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<HEU_ExampleInstanceCustomAttribute*, creationType>()));
+    }
     // private System.Void InstancerCallback()
-    // Offset: 0x16A89F4
+    // Offset: 0x16E0304
     void InstancerCallback();
     // static private System.Void LogArray(System.String name, T[] arr, System.Int32 tupleSize)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -51,25 +58,16 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, name, arr, tupleSize);
     }
     // static private System.Void LogAttr(HoudiniEngineUnity.HEU_OutputAttribute outAttr)
-    // Offset: 0x16A8D38
+    // Offset: 0x16E0648
     static void LogAttr(::HoudiniEngineUnity::HEU_OutputAttribute* outAttr);
-    // public System.Void .ctor()
-    // Offset: 0x16A8E80
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HEU_ExampleInstanceCustomAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HEU_ExampleInstanceCustomAttribute::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<HEU_ExampleInstanceCustomAttribute*, creationType>()));
-    }
   }; // HEU_ExampleInstanceCustomAttribute
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::HEU_ExampleInstanceCustomAttribute::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::HEU_ExampleInstanceCustomAttribute::InstancerCallback
 // Il2CppName: InstancerCallback
 template<>
@@ -90,7 +88,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HEU_ExampleInstanceCustomAttribute*), "LogAttr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{outAttr});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::HEU_ExampleInstanceCustomAttribute::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

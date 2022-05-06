@@ -38,23 +38,15 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class BloomFogEnvironment : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BloomFogSO _bloomFog
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::BloomFogSO* bloomFog;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BloomFogSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1237578
-    // [FormerlySerializedAsAttribute] Offset: 0x1237578
+    // [SpaceAttribute] Offset: 0x10BBFD0
+    // [FormerlySerializedAsAttribute] Offset: 0x10BBFD0
     // private BloomFogEnvironmentParams _fogParams
     // Size: 0x8
     // Offset: 0x20
@@ -65,34 +57,32 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BloomFogSO _bloomFog
-    ::GlobalNamespace::BloomFogSO*& dyn__bloomFog();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomFogSO*& dyn__bloomFog();
     // Get instance field reference: private BloomFogEnvironmentParams _fogParams
-    ::GlobalNamespace::BloomFogEnvironmentParams*& dyn__fogParams();
-    // protected System.Void OnEnable()
-    // Offset: 0x2AC8FE0
-    void OnEnable();
-    // protected System.Void OnValidate()
-    // Offset: 0x2AC904C
-    void OnValidate();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomFogEnvironmentParams*& dyn__fogParams();
     // public System.Void .ctor()
-    // Offset: 0x2AC9394
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E7275C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomFogEnvironment* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomFogEnvironment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomFogEnvironment*, creationType>()));
     }
+    // protected System.Void OnEnable()
+    // Offset: 0x1E723A8
+    void OnEnable();
+    // protected System.Void OnValidate()
+    // Offset: 0x1E72414
+    void OnValidate();
   }; // BloomFogEnvironment
   #pragma pack(pop)
   static check_size<sizeof(BloomFogEnvironment), 32 + sizeof(::GlobalNamespace::BloomFogEnvironmentParams*)> __GlobalNamespace_BloomFogEnvironmentSizeCheck;
   static_assert(sizeof(BloomFogEnvironment) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogEnvironment::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogEnvironment::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -109,7 +99,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogEnvironment*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BloomFogEnvironment::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

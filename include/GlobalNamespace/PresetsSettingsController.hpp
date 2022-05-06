@@ -38,15 +38,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PresetsSettingsController : public ::GlobalNamespace::ListSettingsController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private IntSO _settingsValue
     // Size: 0x8
     // Offset: 0x28
@@ -67,7 +59,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: limitNumberOfElements and: numberOfElementsLimit
     char __padding2[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x125A678
+    // [DrawIfAttribute] Offset: 0x10DF25C
     // private System.Int32 _numberOfElementsLimit
     // Size: 0x4
     // Offset: 0x3C
@@ -76,40 +68,35 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private IntSO _settingsValue
-    ::GlobalNamespace::IntSO*& dyn__settingsValue();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IntSO*& dyn__settingsValue();
     // Get instance field reference: private NamedPresetsSO _presets
-    ::GlobalNamespace::NamedPresetsSO*& dyn__presets();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NamedPresetsSO*& dyn__presets();
     // Get instance field reference: private System.Boolean _limitNumberOfElements
-    bool& dyn__limitNumberOfElements();
+    [[deprecated("Use field access instead!")]] bool& dyn__limitNumberOfElements();
     // Get instance field reference: private System.Int32 _numberOfElementsLimit
-    int& dyn__numberOfElementsLimit();
+    [[deprecated("Use field access instead!")]] int& dyn__numberOfElementsLimit();
     // public System.Void .ctor()
-    // Offset: 0x1378868
+    // Offset: 0x13DFBA4
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PresetsSettingsController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PresetsSettingsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PresetsSettingsController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x1378670
+    // Offset: 0x13DF9AC
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x137879C
+    // Offset: 0x13DFAD8
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x1378804
+    // Offset: 0x13DFB40
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::StringW TextForValue(int idx);

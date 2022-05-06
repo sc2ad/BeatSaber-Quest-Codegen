@@ -117,20 +117,12 @@ namespace System::Security::Util {
       // Set static field: static public System.Security.Util.Tokenizer/System.Security.Util.TokenSource Other
       static void _set_Other(::System::Security::Util::Tokenizer::TokenSource value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // System.Security.Util.Tokenizer/System.Security.Util.TokenSource
     #pragma pack(pop)
     static check_size<sizeof(Tokenizer::TokenSource), 0 + sizeof(int)> __System_Security_Util_Tokenizer_TokenSourceSizeCheck;
     static_assert(sizeof(Tokenizer::TokenSource) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 LineNo
     // Size: 0x4
     // Offset: 0x10
@@ -229,58 +221,58 @@ namespace System::Security::Util {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.Int32 LineNo
-    int& dyn_LineNo();
+    [[deprecated("Use field access instead!")]] int& dyn_LineNo();
     // Get instance field reference: private System.Int32 _inProcessingTag
-    int& dyn__inProcessingTag();
+    [[deprecated("Use field access instead!")]] int& dyn__inProcessingTag();
     // Get instance field reference: private System.Byte[] _inBytes
-    ::ArrayW<uint8_t>& dyn__inBytes();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__inBytes();
     // Get instance field reference: private System.Char[] _inChars
-    ::ArrayW<::Il2CppChar>& dyn__inChars();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppChar>& dyn__inChars();
     // Get instance field reference: private System.String _inString
-    ::StringW& dyn__inString();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__inString();
     // Get instance field reference: private System.Int32 _inIndex
-    int& dyn__inIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__inIndex();
     // Get instance field reference: private System.Int32 _inSize
-    int& dyn__inSize();
+    [[deprecated("Use field access instead!")]] int& dyn__inSize();
     // Get instance field reference: private System.Int32 _inSavedCharacter
-    int& dyn__inSavedCharacter();
+    [[deprecated("Use field access instead!")]] int& dyn__inSavedCharacter();
     // Get instance field reference: private System.Security.Util.Tokenizer/System.Security.Util.TokenSource _inTokenSource
-    ::System::Security::Util::Tokenizer::TokenSource& dyn__inTokenSource();
+    [[deprecated("Use field access instead!")]] ::System::Security::Util::Tokenizer::TokenSource& dyn__inTokenSource();
     // Get instance field reference: private System.Security.Util.Tokenizer/System.Security.Util.ITokenReader _inTokenReader
-    ::System::Security::Util::Tokenizer::ITokenReader*& dyn__inTokenReader();
+    [[deprecated("Use field access instead!")]] ::System::Security::Util::Tokenizer::ITokenReader*& dyn__inTokenReader();
     // Get instance field reference: private System.Security.Util.Tokenizer/System.Security.Util.StringMaker _maker
-    ::System::Security::Util::Tokenizer::StringMaker*& dyn__maker();
+    [[deprecated("Use field access instead!")]] ::System::Security::Util::Tokenizer::StringMaker*& dyn__maker();
     // Get instance field reference: private System.String[] _searchStrings
-    ::ArrayW<::StringW>& dyn__searchStrings();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn__searchStrings();
     // Get instance field reference: private System.String[] _replaceStrings
-    ::ArrayW<::StringW>& dyn__replaceStrings();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn__replaceStrings();
     // Get instance field reference: private System.Int32 _inNestedIndex
-    int& dyn__inNestedIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__inNestedIndex();
     // Get instance field reference: private System.Int32 _inNestedSize
-    int& dyn__inNestedSize();
+    [[deprecated("Use field access instead!")]] int& dyn__inNestedSize();
     // Get instance field reference: private System.String _inNestedString
-    ::StringW& dyn__inNestedString();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__inNestedString();
     // System.Void .ctor(System.String input)
-    // Offset: 0x20D6D8C
+    // Offset: 0x2121600
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tokenizer* New_ctor(::StringW input) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Util::Tokenizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tokenizer*, creationType>(input)));
     }
     // System.Void BasicInitialization()
-    // Offset: 0x20D6DD8
+    // Offset: 0x212164C
     void BasicInitialization();
     // public System.Void Recycle()
-    // Offset: 0x20D6CB4
+    // Offset: 0x2121528
     void Recycle();
     // System.Void ChangeFormat(System.Text.Encoding encoding)
-    // Offset: 0x20D62F0
+    // Offset: 0x2120B64
     void ChangeFormat(::System::Text::Encoding* encoding);
     // System.Void GetTokens(System.Security.Util.TokenizerStream stream, System.Int32 maxNum, System.Boolean endAfterKet)
-    // Offset: 0x20D5A70
+    // Offset: 0x21202E4
     void GetTokens(::System::Security::Util::TokenizerStream* stream, int maxNum, bool endAfterKet);
     // private System.String GetStringToken()
-    // Offset: 0x20D779C
+    // Offset: 0x2122010
     ::StringW GetStringToken();
   }; // System.Security.Util.Tokenizer
   #pragma pack(pop)

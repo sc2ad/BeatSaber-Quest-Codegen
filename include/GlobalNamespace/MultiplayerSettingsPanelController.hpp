@@ -61,15 +61,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerSettingsPanelController : public ::UnityEngine::MonoBehaviour/*, public ::GlobalNamespace::IRefreshable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private ServerCodeView _serverCodeView
     // Size: 0x8
     // Offset: 0x18
@@ -128,67 +120,61 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ServerCodeView _serverCodeView
-    ::GlobalNamespace::ServerCodeView*& dyn__serverCodeView();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ServerCodeView*& dyn__serverCodeView();
     // Get instance field reference: private UnityEngine.UI.Toggle _spectateToggle
-    ::UnityEngine::UI::Toggle*& dyn__spectateToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__spectateToggle();
     // Get instance field reference: private UnityEngine.GameObject _connectionSettingsWrapper
-    ::UnityEngine::GameObject*& dyn__connectionSettingsWrapper();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__connectionSettingsWrapper();
     // Get instance field reference: private UnityEngine.GameObject _spectateSettingsWrapper
-    ::UnityEngine::GameObject*& dyn__spectateSettingsWrapper();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__spectateSettingsWrapper();
     // Get instance field reference: private HMUI.ToggleBinder _toggleBinder
-    ::HMUI::ToggleBinder*& dyn__toggleBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ToggleBinder*& dyn__toggleBinder();
     // Get instance field reference: private ILobbyPlayerData _lobbyPlayerData
-    ::GlobalNamespace::ILobbyPlayerData*& dyn__lobbyPlayerData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ILobbyPlayerData*& dyn__lobbyPlayerData();
     // Get instance field reference: private System.Boolean _refreshed
-    bool& dyn__refreshed();
+    [[deprecated("Use field access instead!")]] bool& dyn__refreshed();
     // Get instance field reference: private System.Action`1<System.Boolean> playerActiveStateChangedEvent
-    ::System::Action_1<bool>*& dyn_playerActiveStateChangedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<bool>*& dyn_playerActiveStateChangedEvent();
     // public System.Void add_playerActiveStateChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x13AB1DC
+    // Offset: 0x13A7688
     void add_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
     // public System.Void remove_playerActiveStateChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x13AB280
+    // Offset: 0x13A772C
     void remove_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
-    // public System.Void SetLobbyPlayerDataModel(ILobbyPlayerData lobbyPlayerData)
-    // Offset: 0x13AB324
-    void SetLobbyPlayerDataModel(::GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
-    // public System.Void HideConnectionSettings(System.Boolean hide)
-    // Offset: 0x13AB45C
-    void HideConnectionSettings(bool hide);
-    // public System.Void HideSpectateSettings(System.Boolean hide)
-    // Offset: 0x13AB480
-    void HideSpectateSettings(bool hide);
-    // public System.Void SetLobbyCode(System.String code)
-    // Offset: 0x13AB4A4
-    void SetLobbyCode(::StringW code);
-    // protected System.Void Awake()
-    // Offset: 0x13AB4C0
-    void Awake();
-    // private System.Void OnDestroy()
-    // Offset: 0x13AB578
-    void OnDestroy();
-    // private System.Void UpdateLocalPlayerIsActiveState(System.Boolean isActive)
-    // Offset: 0x13AB58C
-    void UpdateLocalPlayerIsActiveState(bool isActive);
-    // public System.Void Refresh()
-    // Offset: 0x13AB330
-    void Refresh();
-    // private System.Void <Awake>b__14_0(System.Boolean on)
-    // Offset: 0x13AB60C
-    void $Awake$b__14_0(bool on);
     // public System.Void .ctor()
-    // Offset: 0x13AB604
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13A7AB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerSettingsPanelController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerSettingsPanelController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerSettingsPanelController*, creationType>()));
     }
+    // public System.Void SetLobbyPlayerDataModel(ILobbyPlayerData lobbyPlayerData)
+    // Offset: 0x13A77D0
+    void SetLobbyPlayerDataModel(::GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
+    // public System.Void HideConnectionSettings(System.Boolean hide)
+    // Offset: 0x13A7908
+    void HideConnectionSettings(bool hide);
+    // public System.Void HideSpectateSettings(System.Boolean hide)
+    // Offset: 0x13A792C
+    void HideSpectateSettings(bool hide);
+    // public System.Void SetLobbyCode(System.String code)
+    // Offset: 0x13A7950
+    void SetLobbyCode(::StringW code);
+    // protected System.Void Awake()
+    // Offset: 0x13A796C
+    void Awake();
+    // private System.Void OnDestroy()
+    // Offset: 0x13A7A24
+    void OnDestroy();
+    // private System.Void UpdateLocalPlayerIsActiveState(System.Boolean isActive)
+    // Offset: 0x13A7A38
+    void UpdateLocalPlayerIsActiveState(bool isActive);
+    // public System.Void Refresh()
+    // Offset: 0x13A77DC
+    void Refresh();
+    // private System.Void <Awake>b__14_0(System.Boolean on)
+    // Offset: 0x13A7AB8
+    void $Awake$b__14_0(bool on);
   }; // MultiplayerSettingsPanelController
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerSettingsPanelController), 80 + sizeof(::System::Action_1<bool>*)> __GlobalNamespace_MultiplayerSettingsPanelControllerSizeCheck;
@@ -213,6 +199,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSettingsPanelController*), "remove_playerActiveStateChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSettingsPanelController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSettingsPanelController::SetLobbyPlayerDataModel
 // Il2CppName: SetLobbyPlayerDataModel
 template<>
@@ -291,7 +281,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSettingsPanelController*), "<Awake>b__14_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{on});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSettingsPanelController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

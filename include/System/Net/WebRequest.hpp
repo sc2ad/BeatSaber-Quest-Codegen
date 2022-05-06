@@ -106,15 +106,7 @@ namespace System::Net {
     class $$c__DisplayClass78_0;
     // Nested type: ::System::Net::WebRequest::$$c__DisplayClass79_0
     class $$c__DisplayClass79_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Net.Security.AuthenticationLevel m_AuthenticationLevel
     // Size: 0x4
     // Offset: 0x18
@@ -177,155 +169,152 @@ namespace System::Net {
     // Set static field: static private System.Boolean s_DefaultWebProxyInitialized
     static void _set_s_DefaultWebProxyInitialized(bool value);
     // Get instance field reference: private System.Net.Security.AuthenticationLevel m_AuthenticationLevel
-    ::System::Net::Security::AuthenticationLevel& dyn_m_AuthenticationLevel();
+    [[deprecated("Use field access instead!")]] ::System::Net::Security::AuthenticationLevel& dyn_m_AuthenticationLevel();
     // Get instance field reference: private System.Security.Principal.TokenImpersonationLevel m_ImpersonationLevel
-    ::System::Security::Principal::TokenImpersonationLevel& dyn_m_ImpersonationLevel();
+    [[deprecated("Use field access instead!")]] ::System::Security::Principal::TokenImpersonationLevel& dyn_m_ImpersonationLevel();
     // Get instance field reference: private System.Net.Cache.RequestCachePolicy m_CachePolicy
-    ::System::Net::Cache::RequestCachePolicy*& dyn_m_CachePolicy();
+    [[deprecated("Use field access instead!")]] ::System::Net::Cache::RequestCachePolicy*& dyn_m_CachePolicy();
     // Get instance field reference: private System.Net.Cache.RequestCacheProtocol m_CacheProtocol
-    ::System::Net::Cache::RequestCacheProtocol*& dyn_m_CacheProtocol();
+    [[deprecated("Use field access instead!")]] ::System::Net::Cache::RequestCacheProtocol*& dyn_m_CacheProtocol();
     // Get instance field reference: private System.Net.Cache.RequestCacheBinding m_CacheBinding
-    ::System::Net::Cache::RequestCacheBinding*& dyn_m_CacheBinding();
+    [[deprecated("Use field access instead!")]] ::System::Net::Cache::RequestCacheBinding*& dyn_m_CacheBinding();
     // static private System.Object get_InternalSyncObject()
-    // Offset: 0x1B24C08
+    // Offset: 0x1B5F1F0
     static ::Il2CppObject* get_InternalSyncObject();
     // static System.Collections.ArrayList get_PrefixList()
-    // Offset: 0x1B24F40
+    // Offset: 0x1B5F528
     static ::System::Collections::ArrayList* get_PrefixList();
     // public System.Void set_CachePolicy(System.Net.Cache.RequestCachePolicy value)
-    // Offset: 0x1B25588
+    // Offset: 0x1B5FB70
     void set_CachePolicy(::System::Net::Cache::RequestCachePolicy* value);
     // public System.String get_Method()
-    // Offset: 0x1B2564C
+    // Offset: 0x1B5FC34
     ::StringW get_Method();
     // public System.Void set_Method(System.String value)
-    // Offset: 0x1B25694
+    // Offset: 0x1B5FC7C
     void set_Method(::StringW value);
     // public System.Uri get_RequestUri()
-    // Offset: 0x1B256DC
+    // Offset: 0x1B5FCC4
     ::System::Uri* get_RequestUri();
     // public System.Void set_ConnectionGroupName(System.String value)
-    // Offset: 0x1B25724
+    // Offset: 0x1B5FD0C
     void set_ConnectionGroupName(::StringW value);
     // public System.Net.WebHeaderCollection get_Headers()
-    // Offset: 0x1B2576C
+    // Offset: 0x1B5FD54
     ::System::Net::WebHeaderCollection* get_Headers();
     // public System.Int64 get_ContentLength()
-    // Offset: 0x1B257B4
+    // Offset: 0x1B5FD9C
     int64_t get_ContentLength();
     // public System.Void set_ContentLength(System.Int64 value)
-    // Offset: 0x1B257FC
+    // Offset: 0x1B5FDE4
     void set_ContentLength(int64_t value);
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x1B25844
+    // Offset: 0x1B5FE2C
     ::System::Net::ICredentials* get_Credentials();
     // public System.Void set_Credentials(System.Net.ICredentials value)
-    // Offset: 0x1B2588C
+    // Offset: 0x1B5FE74
     void set_Credentials(::System::Net::ICredentials* value);
     // public System.Boolean get_UseDefaultCredentials()
-    // Offset: 0x1B258D4
+    // Offset: 0x1B5FEBC
     bool get_UseDefaultCredentials();
     // public System.Void set_UseDefaultCredentials(System.Boolean value)
-    // Offset: 0x1B2591C
+    // Offset: 0x1B5FF04
     void set_UseDefaultCredentials(bool value);
     // public System.Net.IWebProxy get_Proxy()
-    // Offset: 0x1B25964
+    // Offset: 0x1B5FF4C
     ::System::Net::IWebProxy* get_Proxy();
     // public System.Void set_Proxy(System.Net.IWebProxy value)
-    // Offset: 0x1B259AC
+    // Offset: 0x1B5FF94
     void set_Proxy(::System::Net::IWebProxy* value);
     // public System.Void set_PreAuthenticate(System.Boolean value)
-    // Offset: 0x1B259F4
+    // Offset: 0x1B5FFDC
     void set_PreAuthenticate(bool value);
     // public System.Int32 get_Timeout()
-    // Offset: 0x1B25A3C
+    // Offset: 0x1B60024
     int get_Timeout();
     // System.Net.Cache.RequestCacheProtocol get_CacheProtocol()
-    // Offset: 0x1B2616C
+    // Offset: 0x1B60754
     ::System::Net::Cache::RequestCacheProtocol* get_CacheProtocol();
     // System.Void set_CacheProtocol(System.Net.Cache.RequestCacheProtocol value)
-    // Offset: 0x1B26174
+    // Offset: 0x1B6075C
     void set_CacheProtocol(::System::Net::Cache::RequestCacheProtocol* value);
     // static System.Net.IWebProxy get_InternalDefaultWebProxy()
-    // Offset: 0x1B2617C
+    // Offset: 0x1B60764
     static ::System::Net::IWebProxy* get_InternalDefaultWebProxy();
     // static public System.Net.IWebProxy get_DefaultWebProxy()
-    // Offset: 0x1B26348
+    // Offset: 0x1B60930
     static ::System::Net::IWebProxy* get_DefaultWebProxy();
+    // protected System.Void .ctor()
+    // Offset: 0x1B5FB28
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static WebRequest* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebRequest::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<WebRequest*, creationType>()));
+    }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1B25570
+    // Offset: 0x1B5FB58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebRequest* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebRequest*, creationType>(serializationInfo, streamingContext)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1B263A4
+    // Offset: 0x1B6098C
     static void _cctor();
     // static private System.Net.WebRequest Create(System.Uri requestUri, System.Boolean useUriBase)
-    // Offset: 0x1B24CE8
+    // Offset: 0x1B5F2D0
     static ::System::Net::WebRequest* Create(::System::Uri* requestUri, bool useUriBase);
     // static public System.Net.WebRequest Create(System.String requestUriString)
-    // Offset: 0x1B17688
+    // Offset: 0x1B51C70
     static ::System::Net::WebRequest* Create(::StringW requestUriString);
     // static public System.Net.WebRequest Create(System.Uri requestUri)
-    // Offset: 0x1B25270
+    // Offset: 0x1B5F858
     static ::System::Net::WebRequest* Create(::System::Uri* requestUri);
     // static private System.Collections.ArrayList PopulatePrefixList()
-    // Offset: 0x1B25348
+    // Offset: 0x1B5F930
     static ::System::Collections::ArrayList* PopulatePrefixList();
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1B25578
+    // Offset: 0x1B5FB60
     void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
     // protected System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1B25584
+    // Offset: 0x1B5FB6C
     void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
     // private System.Void InternalSetCachePolicy(System.Net.Cache.RequestCachePolicy policy)
-    // Offset: 0x1B2558C
+    // Offset: 0x1B5FB74
     void InternalSetCachePolicy(::System::Net::Cache::RequestCachePolicy* policy);
     // public System.Net.WebResponse GetResponse()
-    // Offset: 0x1B25A84
+    // Offset: 0x1B6006C
     ::System::Net::WebResponse* GetResponse();
     // public System.IAsyncResult BeginGetResponse(System.AsyncCallback callback, System.Object state)
-    // Offset: 0x1B25ACC
+    // Offset: 0x1B600B4
     ::System::IAsyncResult* BeginGetResponse(::System::AsyncCallback* callback, ::Il2CppObject* state);
     // public System.Net.WebResponse EndGetResponse(System.IAsyncResult asyncResult)
-    // Offset: 0x1B25B14
+    // Offset: 0x1B600FC
     ::System::Net::WebResponse* EndGetResponse(::System::IAsyncResult* asyncResult);
     // public System.IAsyncResult BeginGetRequestStream(System.AsyncCallback callback, System.Object state)
-    // Offset: 0x1B25B5C
+    // Offset: 0x1B60144
     ::System::IAsyncResult* BeginGetRequestStream(::System::AsyncCallback* callback, ::Il2CppObject* state);
     // public System.IO.Stream EndGetRequestStream(System.IAsyncResult asyncResult)
-    // Offset: 0x1B25BA4
+    // Offset: 0x1B6018C
     ::System::IO::Stream* EndGetRequestStream(::System::IAsyncResult* asyncResult);
     // public System.Threading.Tasks.Task`1<System.IO.Stream> GetRequestStreamAsync()
-    // Offset: 0x1B25BEC
+    // Offset: 0x1B601D4
     ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* GetRequestStreamAsync();
     // public System.Threading.Tasks.Task`1<System.Net.WebResponse> GetResponseAsync()
-    // Offset: 0x1B25EB8
+    // Offset: 0x1B604A0
     ::System::Threading::Tasks::Task_1<::System::Net::WebResponse*>* GetResponseAsync();
     // private System.Security.Principal.WindowsIdentity SafeCaptureIdenity()
-    // Offset: 0x1B25E58
+    // Offset: 0x1B60440
     ::System::Security::Principal::WindowsIdentity* SafeCaptureIdenity();
     // public System.Void Abort()
-    // Offset: 0x1B26124
+    // Offset: 0x1B6070C
     void Abort();
     // private System.Threading.Tasks.Task`1<System.IO.Stream> <GetRequestStreamAsync>b__78_0()
-    // Offset: 0x1B26450
+    // Offset: 0x1B60A38
     ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* $GetRequestStreamAsync$b__78_0();
     // private System.Threading.Tasks.Task`1<System.Net.WebResponse> <GetResponseAsync>b__79_0()
-    // Offset: 0x1B26558
+    // Offset: 0x1B60B40
     ::System::Threading::Tasks::Task_1<::System::Net::WebResponse*>* $GetResponseAsync$b__79_0();
-    // protected System.Void .ctor()
-    // Offset: 0x1B25540
-    // Implemented from: System.MarshalByRefObject
-    // Base method: System.Void MarshalByRefObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static WebRequest* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebRequest::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<WebRequest*, creationType>()));
-    }
   }; // System.Net.WebRequest
   #pragma pack(pop)
   static check_size<sizeof(WebRequest), 48 + sizeof(::System::Net::Cache::RequestCacheBinding*)> __System_Net_WebRequestSizeCheck;
@@ -521,6 +510,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::N
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: System::Net::WebRequest::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::WebRequest::_cctor
 // Il2CppName: .cctor
 template<>
@@ -688,7 +681,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebRequest*), "<GetResponseAsync>b__79_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Net::WebRequest::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

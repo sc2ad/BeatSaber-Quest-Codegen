@@ -54,15 +54,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionObjectiveGameUIView : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Sprite _notFailedIcon
     // Size: 0x8
     // Offset: 0x18
@@ -125,7 +117,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: numberOfParticles and: nameText
     char __padding9[0x4] = {};
-    // [SpaceAttribute] Offset: 0x125248C
+    // [SpaceAttribute] Offset: 0x10D7018
     // private TMPro.TextMeshProUGUI _nameText
     // Size: 0x8
     // Offset: 0x80
@@ -154,67 +146,65 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Sprite _notFailedIcon
-    ::UnityEngine::Sprite*& dyn__notFailedIcon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__notFailedIcon();
     // Get instance field reference: private UnityEngine.Sprite _failedIcon
-    ::UnityEngine::Sprite*& dyn__failedIcon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__failedIcon();
     // Get instance field reference: private UnityEngine.Sprite _notClearedIcon
-    ::UnityEngine::Sprite*& dyn__notClearedIcon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__notClearedIcon();
     // Get instance field reference: private UnityEngine.Sprite _clearedIcon
-    ::UnityEngine::Sprite*& dyn__clearedIcon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__clearedIcon();
     // Get instance field reference: private UnityEngine.UI.Image _resultIcon
-    ::UnityEngine::UI::Image*& dyn__resultIcon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__resultIcon();
     // Get instance field reference: private UnityEngine.Color _finalClearIconColor
-    ::UnityEngine::Color& dyn__finalClearIconColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__finalClearIconColor();
     // Get instance field reference: private UnityEngine.Color _finalFailIconColor
-    ::UnityEngine::Color& dyn__finalFailIconColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__finalFailIconColor();
     // Get instance field reference: private UnityEngine.Color _nonFinalIconColor
-    ::UnityEngine::Color& dyn__nonFinalIconColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__nonFinalIconColor();
     // Get instance field reference: private UnityEngine.ParticleSystem _clearedPS
-    ::UnityEngine::ParticleSystem*& dyn__clearedPS();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn__clearedPS();
     // Get instance field reference: private System.Int32 _numberOfParticles
-    int& dyn__numberOfParticles();
+    [[deprecated("Use field access instead!")]] int& dyn__numberOfParticles();
     // Get instance field reference: private TMPro.TextMeshProUGUI _nameText
-    ::TMPro::TextMeshProUGUI*& dyn__nameText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__nameText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _valueText
-    ::TMPro::TextMeshProUGUI*& dyn__valueText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__valueText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _conditionText
-    ::TMPro::TextMeshProUGUI*& dyn__conditionText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__conditionText();
     // Get instance field reference: private MissionObjectiveChecker _missionObjectiveChecker
-    ::GlobalNamespace::MissionObjectiveChecker*& dyn__missionObjectiveChecker();
-    // public System.Void SetMissionObjectiveChecker(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0x130BD60
-    void SetMissionObjectiveChecker(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
-    // private System.Void HandleMissionObjectiveStatusDidChange(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0x130C10C
-    void HandleMissionObjectiveStatusDidChange(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
-    // private System.Void HandleMissionObjectiveCheckedValueDidChange(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0x130C110
-    void HandleMissionObjectiveCheckedValueDidChange(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
-    // private System.Void RefreshIcon()
-    // Offset: 0x130BF9C
-    void RefreshIcon();
-    // private System.Void RefreshValue()
-    // Offset: 0x130C0B0
-    void RefreshValue();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionObjectiveChecker*& dyn__missionObjectiveChecker();
     // public System.Void .ctor()
-    // Offset: 0x130C114
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13085EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionObjectiveGameUIView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionObjectiveGameUIView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionObjectiveGameUIView*, creationType>()));
     }
+    // public System.Void SetMissionObjectiveChecker(MissionObjectiveChecker missionObjectiveChecker)
+    // Offset: 0x1308238
+    void SetMissionObjectiveChecker(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
+    // private System.Void HandleMissionObjectiveStatusDidChange(MissionObjectiveChecker missionObjectiveChecker)
+    // Offset: 0x13085E4
+    void HandleMissionObjectiveStatusDidChange(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
+    // private System.Void HandleMissionObjectiveCheckedValueDidChange(MissionObjectiveChecker missionObjectiveChecker)
+    // Offset: 0x13085E8
+    void HandleMissionObjectiveCheckedValueDidChange(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
+    // private System.Void RefreshIcon()
+    // Offset: 0x1308474
+    void RefreshIcon();
+    // private System.Void RefreshValue()
+    // Offset: 0x1308588
+    void RefreshValue();
   }; // MissionObjectiveGameUIView
   #pragma pack(pop)
   static check_size<sizeof(MissionObjectiveGameUIView), 152 + sizeof(::GlobalNamespace::MissionObjectiveChecker*)> __GlobalNamespace_MissionObjectiveGameUIViewSizeCheck;
   static_assert(sizeof(MissionObjectiveGameUIView) == 0xA0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveGameUIView::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveGameUIView::SetMissionObjectiveChecker
 // Il2CppName: SetMissionObjectiveChecker
 template<>
@@ -258,7 +248,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveGameUIView*), "RefreshValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveGameUIView::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

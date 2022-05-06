@@ -58,13 +58,13 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public OVR.OpenVR.HmdVector3_t vPosition
-    ::OVR::OpenVR::HmdVector3_t& dyn_vPosition();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::HmdVector3_t& dyn_vPosition();
     // Get instance field reference: public OVR.OpenVR.HmdVector3_t vNormal
-    ::OVR::OpenVR::HmdVector3_t& dyn_vNormal();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::HmdVector3_t& dyn_vNormal();
     // Get instance field reference: public System.Single rfTextureCoord0
-    float& dyn_rfTextureCoord0();
+    [[deprecated("Use field access instead!")]] float& dyn_rfTextureCoord0();
     // Get instance field reference: public System.Single rfTextureCoord1
-    float& dyn_rfTextureCoord1();
+    [[deprecated("Use field access instead!")]] float& dyn_rfTextureCoord1();
   }; // OVR.OpenVR.RenderModel_Vertex_t
   #pragma pack(pop)
   static check_size<sizeof(RenderModel_Vertex_t), 28 + sizeof(float)> __OVR_OpenVR_RenderModel_Vertex_tSizeCheck;

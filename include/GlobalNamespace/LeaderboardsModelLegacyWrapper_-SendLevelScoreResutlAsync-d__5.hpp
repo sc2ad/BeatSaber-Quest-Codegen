@@ -85,24 +85,24 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public LeaderboardsModelLegacyWrapper <>4__this
-    ::GlobalNamespace::LeaderboardsModelLegacyWrapper*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LeaderboardsModelLegacyWrapper*& dyn_$$4__this();
     // Get instance field reference: public OnlineServices.LevelScoreResultsData levelScoreResultsData
-    ::OnlineServices::LevelScoreResultsData& dyn_levelScoreResultsData();
+    [[deprecated("Use field access instead!")]] ::OnlineServices::LevelScoreResultsData& dyn_levelScoreResultsData();
     // Get instance field reference: public LeaderboardsModelLegacyWrapper/HMAsyncRequestWithCancellationToken asyncRequest
-    ::GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*& dyn_asyncRequest();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*& dyn_asyncRequest();
     // Get instance field reference: public PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler
-    ::GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*& dyn_completionHandler();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*& dyn_completionHandler();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.SendLeaderboardEntryResult> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::OnlineServices::SendLeaderboardEntryResult>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::OnlineServices::SendLeaderboardEntryResult>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x13B8868
+    // Offset: 0x13B3D14
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x13B8BCC
+    // Offset: 0x13B4078
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LeaderboardsModelLegacyWrapper/<SendLevelScoreResutlAsync>d__5
   // WARNING Not writing size check since size may be invalid!

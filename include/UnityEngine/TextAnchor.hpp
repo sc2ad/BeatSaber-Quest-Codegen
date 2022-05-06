@@ -96,7 +96,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.TextAnchor LowerRight
     static void _set_LowerRight(::UnityEngine::TextAnchor value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.TextAnchor
   #pragma pack(pop)
   static check_size<sizeof(TextAnchor), 0 + sizeof(int)> __UnityEngine_TextAnchorSizeCheck;

@@ -120,7 +120,7 @@ namespace MasterServer {
     // Set static field: static public MasterServer.DedicatedServerMasterServerMessageType DedicatedServerPrepareForConnectionResponse
     static void _set_DedicatedServerPrepareForConnectionResponse(::MasterServer::DedicatedServerMasterServerMessageType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // MasterServer.DedicatedServerMasterServerMessageType
   #pragma pack(pop)
   static check_size<sizeof(DedicatedServerMasterServerMessageType), 0 + sizeof(int)> __MasterServer_DedicatedServerMasterServerMessageTypeSizeCheck;

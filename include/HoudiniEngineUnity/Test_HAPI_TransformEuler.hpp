@@ -30,15 +30,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_HAPI_TransformEuler : public ::Il2CppObject/*, public ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_TransformEuler*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public HoudiniEngineUnity.HAPI_TransformEuler self
     // Size: 0x28
     // Offset: 0x10
@@ -55,16 +47,16 @@ namespace HoudiniEngineUnity {
       return self;
     }
     // Get instance field reference: public HoudiniEngineUnity.HAPI_TransformEuler self
-    ::HoudiniEngineUnity::HAPI_TransformEuler& dyn_self();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_TransformEuler& dyn_self();
     // public System.Void .ctor(HoudiniEngineUnity.HAPI_TransformEuler self)
-    // Offset: 0x2A3CFA4
+    // Offset: 0x2A9438C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_HAPI_TransformEuler* New_ctor(::HoudiniEngineUnity::HAPI_TransformEuler self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_HAPI_TransformEuler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_HAPI_TransformEuler*, creationType>(self)));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_HAPI_TransformEuler other)
-    // Offset: 0x2A3CFDC
+    // Offset: 0x2A943C4
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_TransformEuler* other);
   }; // HoudiniEngineUnity.Test_HAPI_TransformEuler
   #pragma pack(pop)

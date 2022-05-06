@@ -126,7 +126,7 @@ namespace System {
     // Set static field: static public System.ParsingError CannotCreateRelative
     static void _set_CannotCreateRelative(::System::ParsingError value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.ParsingError
   #pragma pack(pop)
   static check_size<sizeof(ParsingError), 0 + sizeof(int)> __System_ParsingErrorSizeCheck;

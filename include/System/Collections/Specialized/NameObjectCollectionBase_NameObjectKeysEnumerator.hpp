@@ -25,15 +25,7 @@ namespace System::Collections::Specialized {
   // [TokenAttribute] Offset: FFFFFFFF
   class NameObjectCollectionBase::NameObjectKeysEnumerator : public ::Il2CppObject/*, public ::System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _pos
     // Size: 0x4
     // Offset: 0x10
@@ -60,26 +52,26 @@ namespace System::Collections::Specialized {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
     // Get instance field reference: private System.Int32 _pos
-    int& dyn__pos();
+    [[deprecated("Use field access instead!")]] int& dyn__pos();
     // Get instance field reference: private System.Collections.Specialized.NameObjectCollectionBase _coll
-    ::System::Collections::Specialized::NameObjectCollectionBase*& dyn__coll();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Specialized::NameObjectCollectionBase*& dyn__coll();
     // Get instance field reference: private System.Int32 _version
-    int& dyn__version();
+    [[deprecated("Use field access instead!")]] int& dyn__version();
     // public System.Object get_Current()
-    // Offset: 0x1D5553C
+    // Offset: 0x1D90A94
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Collections.Specialized.NameObjectCollectionBase coll)
-    // Offset: 0x1D54EFC
+    // Offset: 0x1D90454
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameObjectCollectionBase::NameObjectKeysEnumerator* New_ctor(::System::Collections::Specialized::NameObjectCollectionBase* coll) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameObjectCollectionBase::NameObjectKeysEnumerator*, creationType>(coll)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1D553A8
+    // Offset: 0x1D90900
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1D55498
+    // Offset: 0x1D909F0
     void Reset();
   }; // System.Collections.Specialized.NameObjectCollectionBase/System.Collections.Specialized.NameObjectKeysEnumerator
   #pragma pack(pop)

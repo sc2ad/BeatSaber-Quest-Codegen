@@ -82,43 +82,43 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::NodePoseSyncState>*>(this);
     }
     // Get instance field reference: private PoseSerializable _head
-    ::GlobalNamespace::PoseSerializable& dyn__head();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PoseSerializable& dyn__head();
     // Get instance field reference: private PoseSerializable _leftController
-    ::GlobalNamespace::PoseSerializable& dyn__leftController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PoseSerializable& dyn__leftController();
     // Get instance field reference: private PoseSerializable _rightController
-    ::GlobalNamespace::PoseSerializable& dyn__rightController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PoseSerializable& dyn__rightController();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x17067A8
+    // Offset: 0x173F0B8
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x17067EC
+    // Offset: 0x173F0FC
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void SetState(NodePoseSyncState/NodePose nodePose, PoseSerializable pose)
-    // Offset: 0x1706830
+    // Offset: 0x173F140
     void SetState(::GlobalNamespace::NodePoseSyncState_NodePose nodePose, ::GlobalNamespace::PoseSerializable pose);
     // public PoseSerializable GetState(NodePoseSyncState/NodePose nodePose)
-    // Offset: 0x1706880
+    // Offset: 0x173F190
     ::GlobalNamespace::PoseSerializable GetState(::GlobalNamespace::NodePoseSyncState_NodePose nodePose);
     // public System.Boolean Equals(in NodePoseSyncState other)
-    // Offset: 0x17068CC
+    // Offset: 0x173F1DC
     bool Equals(ByRef<::GlobalNamespace::NodePoseSyncState> other);
     // public NodePoseSyncState GetDelta(in NodePoseSyncState latest)
-    // Offset: 0x1706964
+    // Offset: 0x173F274
     ::GlobalNamespace::NodePoseSyncState GetDelta(ByRef<::GlobalNamespace::NodePoseSyncState> latest);
     // public NodePoseSyncState ApplyDelta(in NodePoseSyncState delta)
-    // Offset: 0x1706A90
+    // Offset: 0x173F3A0
     ::GlobalNamespace::NodePoseSyncState ApplyDelta(ByRef<::GlobalNamespace::NodePoseSyncState> delta);
     // public System.Int32 GetSize()
-    // Offset: 0x1706BBC
+    // Offset: 0x173F4CC
     int GetSize();
     // private NodePoseSyncState IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.GetDelta(in NodePoseSyncState stateTable)
-    // Offset: 0x1706C10
+    // Offset: 0x173F520
     ::GlobalNamespace::NodePoseSyncState IStateTable$NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable$_GetDelta(ByRef<::GlobalNamespace::NodePoseSyncState> stateTable);
     // private NodePoseSyncState IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.ApplyDelta(in NodePoseSyncState delta)
-    // Offset: 0x1706C14
+    // Offset: 0x173F524
     ::GlobalNamespace::NodePoseSyncState IStateTable$NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable$_ApplyDelta(ByRef<::GlobalNamespace::NodePoseSyncState> delta);
     // private System.Boolean IEquatableByReference<NodePoseSyncState>.Equals(in NodePoseSyncState other)
-    // Offset: 0x1706C18
+    // Offset: 0x173F528
     bool IEquatableByReference$NodePoseSyncState$_Equals(ByRef<::GlobalNamespace::NodePoseSyncState> other);
   }; // NodePoseSyncState
   #pragma pack(pop)

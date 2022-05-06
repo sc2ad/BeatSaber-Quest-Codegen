@@ -26,15 +26,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SetSaberBladeParams::PropertyTintColorPair : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Color tintColor
     // Size: 0x10
     // Offset: 0x10
@@ -49,13 +41,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.Color tintColor
-    ::UnityEngine::Color& dyn_tintColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_tintColor();
     // Get instance field reference: public System.String property
-    ::StringW& dyn_property();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_property();
     // public System.Void .ctor()
-    // Offset: 0x142A044
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x137F490
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SetSaberBladeParams::PropertyTintColorPair* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair::.ctor");

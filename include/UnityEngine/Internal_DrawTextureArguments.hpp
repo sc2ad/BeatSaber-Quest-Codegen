@@ -153,39 +153,39 @@ namespace UnityEngine {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public UnityEngine.Rect screenRect
-    ::UnityEngine::Rect& dyn_screenRect();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rect& dyn_screenRect();
     // Get instance field reference: public UnityEngine.Rect sourceRect
-    ::UnityEngine::Rect& dyn_sourceRect();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rect& dyn_sourceRect();
     // Get instance field reference: public System.Int32 leftBorder
-    int& dyn_leftBorder();
+    [[deprecated("Use field access instead!")]] int& dyn_leftBorder();
     // Get instance field reference: public System.Int32 rightBorder
-    int& dyn_rightBorder();
+    [[deprecated("Use field access instead!")]] int& dyn_rightBorder();
     // Get instance field reference: public System.Int32 topBorder
-    int& dyn_topBorder();
+    [[deprecated("Use field access instead!")]] int& dyn_topBorder();
     // Get instance field reference: public System.Int32 bottomBorder
-    int& dyn_bottomBorder();
+    [[deprecated("Use field access instead!")]] int& dyn_bottomBorder();
     // Get instance field reference: public UnityEngine.Color leftBorderColor
-    ::UnityEngine::Color& dyn_leftBorderColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_leftBorderColor();
     // Get instance field reference: public UnityEngine.Color rightBorderColor
-    ::UnityEngine::Color& dyn_rightBorderColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_rightBorderColor();
     // Get instance field reference: public UnityEngine.Color topBorderColor
-    ::UnityEngine::Color& dyn_topBorderColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_topBorderColor();
     // Get instance field reference: public UnityEngine.Color bottomBorderColor
-    ::UnityEngine::Color& dyn_bottomBorderColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_bottomBorderColor();
     // Get instance field reference: public UnityEngine.Color color
-    ::UnityEngine::Color& dyn_color();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_color();
     // Get instance field reference: public UnityEngine.Vector4 borderWidths
-    ::UnityEngine::Vector4& dyn_borderWidths();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector4& dyn_borderWidths();
     // Get instance field reference: public UnityEngine.Vector4 cornerRadiuses
-    ::UnityEngine::Vector4& dyn_cornerRadiuses();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector4& dyn_cornerRadiuses();
     // Get instance field reference: public System.Boolean smoothCorners
-    bool& dyn_smoothCorners();
+    [[deprecated("Use field access instead!")]] bool& dyn_smoothCorners();
     // Get instance field reference: public System.Int32 pass
-    int& dyn_pass();
+    [[deprecated("Use field access instead!")]] int& dyn_pass();
     // Get instance field reference: public UnityEngine.Texture texture
-    ::UnityEngine::Texture*& dyn_texture();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Texture*& dyn_texture();
     // Get instance field reference: public UnityEngine.Material mat
-    ::UnityEngine::Material*& dyn_mat();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_mat();
   }; // UnityEngine.Internal_DrawTextureArguments
   #pragma pack(pop)
   static check_size<sizeof(Internal_DrawTextureArguments), 176 + sizeof(::UnityEngine::Material*)> __UnityEngine_Internal_DrawTextureArgumentsSizeCheck;

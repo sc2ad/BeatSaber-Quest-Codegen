@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TextButton : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Text _text
     // Size: 0x8
     // Offset: 0x18
@@ -62,23 +54,17 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Text _text
-    ::UnityEngine::UI::Text*& dyn__text();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Text*& dyn__text();
     // Get instance field reference: private UnityEngine.UI.Button _button
-    ::UnityEngine::UI::Button*& dyn__button();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__button();
     // public UnityEngine.UI.Text get_text()
-    // Offset: 0x133DD08
+    // Offset: 0x141FC38
     ::UnityEngine::UI::Text* get_text();
     // public UnityEngine.UI.Button get_button()
-    // Offset: 0x133DD10
+    // Offset: 0x141FC40
     ::UnityEngine::UI::Button* get_button();
     // public System.Void .ctor()
-    // Offset: 0x133DD18
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x141FC48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextButton* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TextButton::.ctor");

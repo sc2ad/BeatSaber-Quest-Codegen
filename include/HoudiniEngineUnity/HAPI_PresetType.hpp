@@ -66,7 +66,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HAPI_PresetType HAPI_PRESETTYPE_MAX
     static void _set_HAPI_PRESETTYPE_MAX(::HoudiniEngineUnity::HAPI_PresetType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HAPI_PresetType
   #pragma pack(pop)
   static check_size<sizeof(HAPI_PresetType), 0 + sizeof(int)> __HoudiniEngineUnity_HAPI_PresetTypeSizeCheck;

@@ -29,15 +29,7 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class GroupPresenceOptions : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.IntPtr Handle
     // Size: 0x8
     // Offset: 0x10
@@ -50,33 +42,31 @@ namespace Oculus::Platform {
       return Handle;
     }
     // Get instance field reference: private System.IntPtr Handle
-    ::System::IntPtr& dyn_Handle();
-    // public System.Void SetDestinationApiName(System.String value)
-    // Offset: 0x19A1DB0
-    void SetDestinationApiName(::StringW value);
-    // public System.Void SetIsJoinable(System.Boolean value)
-    // Offset: 0x19A1E2C
-    void SetIsJoinable(bool value);
-    // public System.Void SetLobbySessionId(System.String value)
-    // Offset: 0x19A1EA8
-    void SetLobbySessionId(::StringW value);
-    // public System.Void SetMatchSessionId(System.String value)
-    // Offset: 0x19A1F24
-    void SetMatchSessionId(::StringW value);
-    // static public System.IntPtr op_Explicit(Oculus.Platform.GroupPresenceOptions options)
-    // Offset: 0x19A1730
-    // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Handle();
     // public System.Void .ctor()
-    // Offset: 0x19A1D38
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x19DB320
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GroupPresenceOptions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::GroupPresenceOptions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GroupPresenceOptions*, creationType>()));
     }
+    // public System.Void SetDestinationApiName(System.String value)
+    // Offset: 0x19DB398
+    void SetDestinationApiName(::StringW value);
+    // public System.Void SetIsJoinable(System.Boolean value)
+    // Offset: 0x19DB414
+    void SetIsJoinable(bool value);
+    // public System.Void SetLobbySessionId(System.String value)
+    // Offset: 0x19DB490
+    void SetLobbySessionId(::StringW value);
+    // public System.Void SetMatchSessionId(System.String value)
+    // Offset: 0x19DB50C
+    void SetMatchSessionId(::StringW value);
+    // static public System.IntPtr op_Explicit(Oculus.Platform.GroupPresenceOptions options)
+    // Offset: 0x19DAD18
+    // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
     // protected override System.Void Finalize()
-    // Offset: 0x19A1FA0
+    // Offset: 0x19DB588
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -86,6 +76,10 @@ namespace Oculus::Platform {
   static_assert(sizeof(GroupPresenceOptions) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Oculus::Platform::GroupPresenceOptions::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::GroupPresenceOptions::SetDestinationApiName
 // Il2CppName: SetDestinationApiName
 template<>
@@ -125,10 +119,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::GroupPresenceOptions::operator ::System::IntPtr
 // Il2CppName: op_Explicit
 // Cannot perform method pointer template specialization from operators!
-// Writing MetadataGetter for method: Oculus::Platform::GroupPresenceOptions::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::GroupPresenceOptions::Finalize
 // Il2CppName: Finalize
 template<>

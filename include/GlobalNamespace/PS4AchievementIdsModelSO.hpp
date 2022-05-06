@@ -45,15 +45,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData
     class AchievementIdData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.List`1<PS4AchievementIdsModelSO/AchievementIdData> _achievementsIds
     // Size: 0x8
     // Offset: 0x18
@@ -76,34 +68,29 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<PS4AchievementIdsModelSO/AchievementIdData> _achievementsIds
-    ::System::Collections::Generic::List_1<::GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*>*& dyn__achievementsIds();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*>*& dyn__achievementsIds();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Int32> _achievementIdToTrophyId
-    ::System::Collections::Generic::Dictionary_2<::StringW, int>*& dyn__achievementIdToTrophyId();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, int>*& dyn__achievementIdToTrophyId();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.String> _trophyIdToAchievementId
-    ::System::Collections::Generic::Dictionary_2<int, ::StringW>*& dyn__trophyIdToAchievementId();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::StringW>*& dyn__trophyIdToAchievementId();
     // public System.Collections.Generic.List`1<PS4AchievementIdsModelSO/AchievementIdData> get_achievementsIds()
-    // Offset: 0x12E99DC
+    // Offset: 0x135A988
     ::System::Collections::Generic::List_1<::GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*>* get_achievementsIds();
-    // public System.Boolean GetTrophyId(System.String achievementId, out System.Int32 trophyId)
-    // Offset: 0x12E9BBC
-    bool GetTrophyId(::StringW achievementId, ByRef<int> trophyId);
-    // public System.Boolean GetAchievementId(System.Int32 trophyId, out System.String achievementId)
-    // Offset: 0x12E9C30
-    bool GetAchievementId(int trophyId, ByRef<::StringW> achievementId);
     // public System.Void .ctor()
-    // Offset: 0x12E9CB0
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x135AC5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4AchievementIdsModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PS4AchievementIdsModelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PS4AchievementIdsModelSO*, creationType>()));
     }
+    // public System.Boolean GetTrophyId(System.String achievementId, out System.Int32 trophyId)
+    // Offset: 0x135AB68
+    bool GetTrophyId(::StringW achievementId, ByRef<int> trophyId);
+    // public System.Boolean GetAchievementId(System.Int32 trophyId, out System.String achievementId)
+    // Offset: 0x135ABDC
+    bool GetAchievementId(int trophyId, ByRef<::StringW> achievementId);
     // protected override System.Void OnEnable()
-    // Offset: 0x12E99E4
+    // Offset: 0x135A990
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
@@ -121,6 +108,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4AchievementIdsModelSO*), "get_achievementsIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PS4AchievementIdsModelSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PS4AchievementIdsModelSO::GetTrophyId
 // Il2CppName: GetTrophyId
 template<>
@@ -141,10 +132,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4AchievementIdsModelSO*), "GetAchievementId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{trophyId, achievementId});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PS4AchievementIdsModelSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PS4AchievementIdsModelSO::OnEnable
 // Il2CppName: OnEnable
 template<>

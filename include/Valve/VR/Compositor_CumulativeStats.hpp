@@ -122,35 +122,35 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt32 m_nPid
-    uint& dyn_m_nPid();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nPid();
     // Get instance field reference: public System.UInt32 m_nNumFramePresents
-    uint& dyn_m_nNumFramePresents();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nNumFramePresents();
     // Get instance field reference: public System.UInt32 m_nNumDroppedFrames
-    uint& dyn_m_nNumDroppedFrames();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nNumDroppedFrames();
     // Get instance field reference: public System.UInt32 m_nNumReprojectedFrames
-    uint& dyn_m_nNumReprojectedFrames();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nNumReprojectedFrames();
     // Get instance field reference: public System.UInt32 m_nNumFramePresentsOnStartup
-    uint& dyn_m_nNumFramePresentsOnStartup();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nNumFramePresentsOnStartup();
     // Get instance field reference: public System.UInt32 m_nNumDroppedFramesOnStartup
-    uint& dyn_m_nNumDroppedFramesOnStartup();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nNumDroppedFramesOnStartup();
     // Get instance field reference: public System.UInt32 m_nNumReprojectedFramesOnStartup
-    uint& dyn_m_nNumReprojectedFramesOnStartup();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nNumReprojectedFramesOnStartup();
     // Get instance field reference: public System.UInt32 m_nNumLoading
-    uint& dyn_m_nNumLoading();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nNumLoading();
     // Get instance field reference: public System.UInt32 m_nNumFramePresentsLoading
-    uint& dyn_m_nNumFramePresentsLoading();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nNumFramePresentsLoading();
     // Get instance field reference: public System.UInt32 m_nNumDroppedFramesLoading
-    uint& dyn_m_nNumDroppedFramesLoading();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nNumDroppedFramesLoading();
     // Get instance field reference: public System.UInt32 m_nNumReprojectedFramesLoading
-    uint& dyn_m_nNumReprojectedFramesLoading();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nNumReprojectedFramesLoading();
     // Get instance field reference: public System.UInt32 m_nNumTimedOut
-    uint& dyn_m_nNumTimedOut();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nNumTimedOut();
     // Get instance field reference: public System.UInt32 m_nNumFramePresentsTimedOut
-    uint& dyn_m_nNumFramePresentsTimedOut();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nNumFramePresentsTimedOut();
     // Get instance field reference: public System.UInt32 m_nNumDroppedFramesTimedOut
-    uint& dyn_m_nNumDroppedFramesTimedOut();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nNumDroppedFramesTimedOut();
     // Get instance field reference: public System.UInt32 m_nNumReprojectedFramesTimedOut
-    uint& dyn_m_nNumReprojectedFramesTimedOut();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nNumReprojectedFramesTimedOut();
   }; // Valve.VR.Compositor_CumulativeStats
   #pragma pack(pop)
   static check_size<sizeof(Compositor_CumulativeStats), 56 + sizeof(uint)> __Valve_VR_Compositor_CumulativeStatsSizeCheck;

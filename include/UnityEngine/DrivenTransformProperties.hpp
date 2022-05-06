@@ -193,7 +193,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.DrivenTransformProperties Pivot
     static void _set_Pivot(::UnityEngine::DrivenTransformProperties value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.DrivenTransformProperties
   #pragma pack(pop)
   static check_size<sizeof(DrivenTransformProperties), 0 + sizeof(int)> __UnityEngine_DrivenTransformPropertiesSizeCheck;

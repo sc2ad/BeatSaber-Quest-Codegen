@@ -139,20 +139,12 @@ namespace UnityEngine {
       // Set static field: static public UnityEngine.GUILayoutOption/UnityEngine.Type spacing
       static void _set_spacing(::UnityEngine::GUILayoutOption::Type value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // UnityEngine.GUILayoutOption/UnityEngine.Type
     #pragma pack(pop)
     static check_size<sizeof(GUILayoutOption::Type), 0 + sizeof(int)> __UnityEngine_GUILayoutOption_TypeSizeCheck;
     static_assert(sizeof(GUILayoutOption::Type) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // UnityEngine.GUILayoutOption/UnityEngine.Type type
     // Size: 0x4
     // Offset: 0x10
@@ -169,11 +161,11 @@ namespace UnityEngine {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: UnityEngine.GUILayoutOption/UnityEngine.Type type
-    ::UnityEngine::GUILayoutOption::Type& dyn_type();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GUILayoutOption::Type& dyn_type();
     // Get instance field reference: System.Object value
-    ::Il2CppObject*& dyn_value();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_value();
     // System.Void .ctor(UnityEngine.GUILayoutOption/UnityEngine.Type type, System.Object value)
-    // Offset: 0x1FACFA4
+    // Offset: 0x1FF7818
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUILayoutOption* New_ctor(::UnityEngine::GUILayoutOption::Type type, ::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::GUILayoutOption::.ctor");

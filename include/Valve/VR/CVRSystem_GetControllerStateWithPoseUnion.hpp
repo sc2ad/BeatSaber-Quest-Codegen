@@ -43,9 +43,9 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public Valve.VR.IVRSystem/Valve.VR._GetControllerStateWithPose pGetControllerStateWithPose
-    ::Valve::VR::IVRSystem::_GetControllerStateWithPose*& dyn_pGetControllerStateWithPose();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_GetControllerStateWithPose*& dyn_pGetControllerStateWithPose();
     // Get instance field reference: public Valve.VR.CVRSystem/Valve.VR._GetControllerStateWithPosePacked pGetControllerStateWithPosePacked
-    ::Valve::VR::CVRSystem::_GetControllerStateWithPosePacked*& dyn_pGetControllerStateWithPosePacked();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::CVRSystem::_GetControllerStateWithPosePacked*& dyn_pGetControllerStateWithPosePacked();
   }; // Valve.VR.CVRSystem/Valve.VR.GetControllerStateWithPoseUnion
   // WARNING Not writing size check since size may be invalid!
 }

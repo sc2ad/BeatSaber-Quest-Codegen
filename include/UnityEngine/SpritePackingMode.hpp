@@ -54,7 +54,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.SpritePackingMode Rectangle
     static void _set_Rectangle(::UnityEngine::SpritePackingMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.SpritePackingMode
   #pragma pack(pop)
   static check_size<sizeof(SpritePackingMode), 0 + sizeof(int)> __UnityEngine_SpritePackingModeSizeCheck;

@@ -60,15 +60,7 @@ namespace System::Net::Http::Headers {
     // Nested type: ::System::Net::Http::Headers::HeaderInfo::CollectionHeaderTypeInfo_2<T, U>
     template<typename T, typename U>
     class CollectionHeaderTypeInfo_2;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean AllowsMany
     // Size: 0x1
     // Offset: 0x10
@@ -97,24 +89,24 @@ namespace System::Net::Http::Headers {
     static_assert(sizeof(::System::Func_2<::Il2CppObject*, ::StringW>*) == 0x8);
     public:
     // Get instance field reference: public System.Boolean AllowsMany
-    bool& dyn_AllowsMany();
+    [[deprecated("Use field access instead!")]] bool& dyn_AllowsMany();
     // Get instance field reference: public readonly System.Net.Http.Headers.HttpHeaderKind HeaderKind
-    ::System::Net::Http::Headers::HttpHeaderKind& dyn_HeaderKind();
+    [[deprecated("Use field access instead!")]] ::System::Net::Http::Headers::HttpHeaderKind& dyn_HeaderKind();
     // Get instance field reference: public readonly System.String Name
-    ::StringW& dyn_Name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Name();
     // Get instance field reference: private System.Func`2<System.Object,System.String> <CustomToString>k__BackingField
-    ::System::Func_2<::Il2CppObject*, ::StringW>*& dyn_$CustomToString$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Func_2<::Il2CppObject*, ::StringW>*& dyn_$CustomToString$k__BackingField();
     // public System.Func`2<System.Object,System.String> get_CustomToString()
-    // Offset: 0x1957740
+    // Offset: 0x198FD28
     ::System::Func_2<::Il2CppObject*, ::StringW>* get_CustomToString();
     // private System.Void set_CustomToString(System.Func`2<System.Object,System.String> value)
-    // Offset: 0x1957748
+    // Offset: 0x198FD30
     void set_CustomToString(::System::Func_2<::Il2CppObject*, ::StringW>* value);
     // public System.String get_Separator()
-    // Offset: 0x1957750
+    // Offset: 0x198FD38
     ::StringW get_Separator();
     // protected System.Void .ctor(System.String name, System.Net.Http.Headers.HttpHeaderKind headerKind)
-    // Offset: 0x19576F4
+    // Offset: 0x198FCDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HeaderInfo* New_ctor(::StringW name, ::System::Net::Http::Headers::HttpHeaderKind headerKind) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::HeaderInfo::.ctor");
@@ -139,7 +131,7 @@ namespace System::Net::Http::Headers {
       return ::il2cpp_utils::RunMethodRethrow<::System::Net::Http::Headers::HeaderInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, name, elementParser, headerKind, minimalCount, separator);
     }
     // public System.Object CreateCollection(System.Net.Http.Headers.HttpHeaders headers)
-    // Offset: 0x1957730
+    // Offset: 0x198FD18
     ::Il2CppObject* CreateCollection(::System::Net::Http::Headers::HttpHeaders* headers);
     // public System.Void AddToCollection(System.Object collection, System.Object value)
     // Offset: 0xFFFFFFFFFFFFFFFF

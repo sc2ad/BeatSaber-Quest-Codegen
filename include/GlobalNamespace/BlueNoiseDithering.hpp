@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BlueNoiseDithering : public ::GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Texture2D _noiseTexture
     // Size: 0x8
     // Offset: 0x18
@@ -53,54 +45,37 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12381B8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BCC70
     // Get static field: static private readonly System.Int32 _noiseParamsID
     static int _get__noiseParamsID();
     // Set static field: static private readonly System.Int32 _noiseParamsID
     static void _set__noiseParamsID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12381C8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BCC80
     // Get static field: static private readonly System.Int32 _globalNoiseTextureID
     static int _get__globalNoiseTextureID();
     // Set static field: static private readonly System.Int32 _globalNoiseTextureID
     static void _set__globalNoiseTextureID(int value);
     // Get instance field reference: private UnityEngine.Texture2D _noiseTexture
-    ::UnityEngine::Texture2D*& dyn__noiseTexture();
-    // public System.Void SetBlueNoiseShaderParams(System.Int32 cameraPixelWidth, System.Int32 cameraPixelHeight)
-    // Offset: 0x2ACEFC4
-    void SetBlueNoiseShaderParams(int cameraPixelWidth, int cameraPixelHeight);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Texture2D*& dyn__noiseTexture();
     // public System.Void .ctor()
-    // Offset: 0x2ACF0E4
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E784AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BlueNoiseDithering* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BlueNoiseDithering::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BlueNoiseDithering*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2ACF0EC
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x1E784B4
     static void _cctor();
+    // public System.Void SetBlueNoiseShaderParams(System.Int32 cameraPixelWidth, System.Int32 cameraPixelHeight)
+    // Offset: 0x1E7838C
+    void SetBlueNoiseShaderParams(int cameraPixelWidth, int cameraPixelHeight);
   }; // BlueNoiseDithering
   #pragma pack(pop)
   static check_size<sizeof(BlueNoiseDithering), 24 + sizeof(::UnityEngine::Texture2D*)> __GlobalNamespace_BlueNoiseDitheringSizeCheck;
   static_assert(sizeof(BlueNoiseDithering) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::BlueNoiseDithering::SetBlueNoiseShaderParams
-// Il2CppName: SetBlueNoiseShaderParams
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BlueNoiseDithering::*)(int, int)>(&GlobalNamespace::BlueNoiseDithering::SetBlueNoiseShaderParams)> {
-  static const MethodInfo* get() {
-    static auto* cameraPixelWidth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* cameraPixelHeight = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlueNoiseDithering*), "SetBlueNoiseShaderParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cameraPixelWidth, cameraPixelHeight});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::BlueNoiseDithering::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -111,5 +86,15 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BlueNoiseDithering::_cctor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlueNoiseDithering*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BlueNoiseDithering::SetBlueNoiseShaderParams
+// Il2CppName: SetBlueNoiseShaderParams
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BlueNoiseDithering::*)(int, int)>(&GlobalNamespace::BlueNoiseDithering::SetBlueNoiseShaderParams)> {
+  static const MethodInfo* get() {
+    static auto* cameraPixelWidth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* cameraPixelHeight = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlueNoiseDithering*), "SetBlueNoiseShaderParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cameraPixelWidth, cameraPixelHeight});
   }
 };

@@ -48,15 +48,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResultObjectiveListItem : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Image _icon
     // Size: 0x8
     // Offset: 0x18
@@ -91,47 +83,41 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Image _icon
-    ::UnityEngine::UI::Image*& dyn__icon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__icon();
     // Get instance field reference: private UnityEngine.UI.Image _iconGlow
-    ::UnityEngine::UI::Image*& dyn__iconGlow();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__iconGlow();
     // Get instance field reference: private TMPro.TextMeshProUGUI _titleText
-    ::TMPro::TextMeshProUGUI*& dyn__titleText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__titleText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _conditionText
-    ::TMPro::TextMeshProUGUI*& dyn__conditionText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__conditionText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _valueText
-    ::TMPro::TextMeshProUGUI*& dyn__valueText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__valueText();
     // public System.Void set_iconColor(UnityEngine.Color value)
-    // Offset: 0x137DE1C
+    // Offset: 0x1455C70
     void set_iconColor(::UnityEngine::Color value);
     // public System.Void set_icon(UnityEngine.Sprite value)
-    // Offset: 0x137DE40
+    // Offset: 0x1455C94
     void set_icon(::UnityEngine::Sprite* value);
     // public System.Void set_iconGlow(UnityEngine.Sprite value)
-    // Offset: 0x137DE5C
+    // Offset: 0x1455CB0
     void set_iconGlow(::UnityEngine::Sprite* value);
     // public System.Void set_title(System.String value)
-    // Offset: 0x137DE78
+    // Offset: 0x1455CCC
     void set_title(::StringW value);
     // public System.Void set_conditionText(System.String value)
-    // Offset: 0x137DE94
+    // Offset: 0x1455CE8
     void set_conditionText(::StringW value);
     // public System.Void set_hideConditionText(System.Boolean value)
-    // Offset: 0x137DEB0
+    // Offset: 0x1455D04
     void set_hideConditionText(bool value);
     // public System.Void set_valueText(System.String value)
-    // Offset: 0x137DEF0
+    // Offset: 0x1455D44
     void set_valueText(::StringW value);
     // public System.Void set_hideValueText(System.Boolean value)
-    // Offset: 0x137DF0C
+    // Offset: 0x1455D60
     void set_hideValueText(bool value);
     // public System.Void .ctor()
-    // Offset: 0x137DF4C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1455DA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultObjectiveListItem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ResultObjectiveListItem::.ctor");

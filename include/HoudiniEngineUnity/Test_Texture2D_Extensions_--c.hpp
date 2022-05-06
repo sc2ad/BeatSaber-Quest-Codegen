@@ -55,23 +55,21 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Converter`2<UnityEngine.Texture2D,HoudiniEngineUnity.Test_Texture2D> <>9__2_0
     static void _set_$$9__2_0(::System::Converter_2<::UnityEngine::Texture2D*, ::HoudiniEngineUnity::Test_Texture2D*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2A40D14
+    // Offset: 0x2A980FC
     static void _cctor();
-    // HoudiniEngineUnity.Test_Texture2D <ToTestObject>b__1_0(UnityEngine.Texture2D lod)
-    // Offset: 0x2A40D80
-    ::HoudiniEngineUnity::Test_Texture2D* $ToTestObject$b__1_0(::UnityEngine::Texture2D* lod);
-    // HoudiniEngineUnity.Test_Texture2D <ToTestObject>b__2_0(UnityEngine.Texture2D lod)
-    // Offset: 0x2A40DE4
-    ::HoudiniEngineUnity::Test_Texture2D* $ToTestObject$b__2_0(::UnityEngine::Texture2D* lod);
     // public System.Void .ctor()
-    // Offset: 0x2A40D78
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A98160
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_Texture2D_Extensions::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_Texture2D_Extensions::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_Texture2D_Extensions::$$c*, creationType>()));
     }
+    // HoudiniEngineUnity.Test_Texture2D <ToTestObject>b__1_0(UnityEngine.Texture2D lod)
+    // Offset: 0x2A98168
+    ::HoudiniEngineUnity::Test_Texture2D* $ToTestObject$b__1_0(::UnityEngine::Texture2D* lod);
+    // HoudiniEngineUnity.Test_Texture2D <ToTestObject>b__2_0(UnityEngine.Texture2D lod)
+    // Offset: 0x2A981CC
+    ::HoudiniEngineUnity::Test_Texture2D* $ToTestObject$b__2_0(::UnityEngine::Texture2D* lod);
   }; // HoudiniEngineUnity.Test_Texture2D_Extensions/HoudiniEngineUnity.<>c
   #pragma pack(pop)
 }
@@ -84,6 +82,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_Texture2D_Extensions::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: HoudiniEngineUnity::Test_Texture2D_Extensions::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_Texture2D_Extensions::$$c::$ToTestObject$b__1_0
 // Il2CppName: <ToTestObject>b__1_0
 template<>
@@ -102,7 +104,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEn
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_Texture2D_Extensions::$$c*), "<ToTestObject>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lod});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::Test_Texture2D_Extensions::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

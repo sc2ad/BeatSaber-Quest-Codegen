@@ -29,15 +29,7 @@ namespace BeatmapSaveDataVersion3 {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapSaveData::ColorNoteData : public ::BeatmapSaveDataVersion3::BeatmapSaveData::BeatmapSaveDataItem {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 x
     // Size: 0x4
     // Offset: 0x14
@@ -72,32 +64,32 @@ namespace BeatmapSaveDataVersion3 {
     // Deleting conversion operator: operator float
     constexpr operator float() const noexcept = delete;
     // Get instance field reference: private System.Int32 x
-    int& dyn_x();
+    [[deprecated("Use field access instead!")]] int& dyn_x();
     // Get instance field reference: private System.Int32 y
-    int& dyn_y();
+    [[deprecated("Use field access instead!")]] int& dyn_y();
     // Get instance field reference: private System.Int32 a
-    int& dyn_a();
+    [[deprecated("Use field access instead!")]] int& dyn_a();
     // Get instance field reference: private BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.NoteColorType c
-    ::BeatmapSaveDataVersion3::BeatmapSaveData::NoteColorType& dyn_c();
+    [[deprecated("Use field access instead!")]] ::BeatmapSaveDataVersion3::BeatmapSaveData::NoteColorType& dyn_c();
     // Get instance field reference: private NoteCutDirection d
-    ::GlobalNamespace::NoteCutDirection& dyn_d();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutDirection& dyn_d();
     // public System.Int32 get_line()
-    // Offset: 0x281B2D0
+    // Offset: 0x286D890
     int get_line();
     // public System.Int32 get_layer()
-    // Offset: 0x281B2D8
+    // Offset: 0x286D898
     int get_layer();
     // public System.Int32 get_angleOffset()
-    // Offset: 0x281B2E0
+    // Offset: 0x286D8A0
     int get_angleOffset();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.NoteColorType get_color()
-    // Offset: 0x281B2E8
+    // Offset: 0x286D8A8
     ::BeatmapSaveDataVersion3::BeatmapSaveData::NoteColorType get_color();
     // public NoteCutDirection get_cutDirection()
-    // Offset: 0x281B2F0
+    // Offset: 0x286D8B0
     ::GlobalNamespace::NoteCutDirection get_cutDirection();
     // public System.Void .ctor(System.Single beat, System.Int32 line, System.Int32 layer, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.NoteColorType color, NoteCutDirection cutDirection, System.Int32 angleOffset)
-    // Offset: 0x281ABD0
+    // Offset: 0x286D190
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::ColorNoteData* New_ctor(float beat, int line, int layer, ::BeatmapSaveDataVersion3::BeatmapSaveData::NoteColorType color, ::GlobalNamespace::NoteCutDirection cutDirection, int angleOffset) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::ColorNoteData::.ctor");

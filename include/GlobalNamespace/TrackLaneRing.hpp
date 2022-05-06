@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TrackLaneRing : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _prevRotZ
     // Size: 0x4
     // Offset: 0x18
@@ -110,62 +102,56 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _prevRotZ
-    float& dyn__prevRotZ();
+    [[deprecated("Use field access instead!")]] float& dyn__prevRotZ();
     // Get instance field reference: private System.Single _rotZ
-    float& dyn__rotZ();
+    [[deprecated("Use field access instead!")]] float& dyn__rotZ();
     // Get instance field reference: private System.Single _destRotZ
-    float& dyn__destRotZ();
+    [[deprecated("Use field access instead!")]] float& dyn__destRotZ();
     // Get instance field reference: private System.Single _rotationSpeed
-    float& dyn__rotationSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__rotationSpeed();
     // Get instance field reference: private System.Single _prevPosZ
-    float& dyn__prevPosZ();
+    [[deprecated("Use field access instead!")]] float& dyn__prevPosZ();
     // Get instance field reference: private System.Single _posZ
-    float& dyn__posZ();
+    [[deprecated("Use field access instead!")]] float& dyn__posZ();
     // Get instance field reference: private System.Single _destPosZ
-    float& dyn__destPosZ();
+    [[deprecated("Use field access instead!")]] float& dyn__destPosZ();
     // Get instance field reference: private System.Single _moveSpeed
-    float& dyn__moveSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__moveSpeed();
     // Get instance field reference: private UnityEngine.Vector3 _positionOffset
-    ::UnityEngine::Vector3& dyn__positionOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__positionOffset();
     // Get instance field reference: private UnityEngine.Transform _transform
-    ::UnityEngine::Transform*& dyn__transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // public System.Single get_destRotZ()
-    // Offset: 0x133E218
+    // Offset: 0x1420148
     float get_destRotZ();
-    // public System.Void Init(UnityEngine.Vector3 position, UnityEngine.Vector3 positionOffset)
-    // Offset: 0x133E220
-    void Init(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 positionOffset);
-    // public System.Void FixedUpdateRing(System.Single fixedDeltaTime)
-    // Offset: 0x133E308
-    void FixedUpdateRing(float fixedDeltaTime);
-    // public System.Void LateUpdateRing(System.Single interpolationFactor)
-    // Offset: 0x133E3C8
-    void LateUpdateRing(float interpolationFactor);
-    // public System.Void SetDestRotation(System.Single destRotZ, System.Single rotateSpeed)
-    // Offset: 0x133E488
-    void SetDestRotation(float destRotZ, float rotateSpeed);
-    // public System.Single GetRotation()
-    // Offset: 0x133E490
-    float GetRotation();
-    // public System.Single GetDestinationRotation()
-    // Offset: 0x133E498
-    float GetDestinationRotation();
-    // public System.Void SetPosition(System.Single destPosZ, System.Single moveSpeed)
-    // Offset: 0x133E4A0
-    void SetPosition(float destPosZ, float moveSpeed);
     // public System.Void .ctor()
-    // Offset: 0x133E4A8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14203D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackLaneRing* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TrackLaneRing::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrackLaneRing*, creationType>()));
     }
+    // public System.Void Init(UnityEngine.Vector3 position, UnityEngine.Vector3 positionOffset)
+    // Offset: 0x1420150
+    void Init(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 positionOffset);
+    // public System.Void FixedUpdateRing(System.Single fixedDeltaTime)
+    // Offset: 0x1420238
+    void FixedUpdateRing(float fixedDeltaTime);
+    // public System.Void LateUpdateRing(System.Single interpolationFactor)
+    // Offset: 0x14202F8
+    void LateUpdateRing(float interpolationFactor);
+    // public System.Void SetDestRotation(System.Single destRotZ, System.Single rotateSpeed)
+    // Offset: 0x14203B8
+    void SetDestRotation(float destRotZ, float rotateSpeed);
+    // public System.Single GetRotation()
+    // Offset: 0x14203C0
+    float GetRotation();
+    // public System.Single GetDestinationRotation()
+    // Offset: 0x14203C8
+    float GetDestinationRotation();
+    // public System.Void SetPosition(System.Single destPosZ, System.Single moveSpeed)
+    // Offset: 0x14203D0
+    void SetPosition(float destPosZ, float moveSpeed);
   }; // TrackLaneRing
   #pragma pack(pop)
   static check_size<sizeof(TrackLaneRing), 72 + sizeof(::UnityEngine::Transform*)> __GlobalNamespace_TrackLaneRingSizeCheck;
@@ -180,6 +166,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRing*), "get_destRotZ", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::TrackLaneRing::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TrackLaneRing::Init
 // Il2CppName: Init
 template<>
@@ -244,7 +234,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRing*), "SetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{destPosZ, moveSpeed});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TrackLaneRing::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

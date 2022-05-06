@@ -128,35 +128,35 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public OVRPlugin/OverlayShape Shape
-    ::GlobalNamespace::OVRPlugin::OverlayShape& dyn_Shape();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::OverlayShape& dyn_Shape();
     // Get instance field reference: public OVRPlugin/LayerLayout Layout
-    ::GlobalNamespace::OVRPlugin::LayerLayout& dyn_Layout();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::LayerLayout& dyn_Layout();
     // Get instance field reference: public OVRPlugin/Sizei TextureSize
-    ::GlobalNamespace::OVRPlugin::Sizei& dyn_TextureSize();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Sizei& dyn_TextureSize();
     // Get instance field reference: public System.Int32 MipLevels
-    int& dyn_MipLevels();
+    [[deprecated("Use field access instead!")]] int& dyn_MipLevels();
     // Get instance field reference: public System.Int32 SampleCount
-    int& dyn_SampleCount();
+    [[deprecated("Use field access instead!")]] int& dyn_SampleCount();
     // Get instance field reference: public OVRPlugin/EyeTextureFormat Format
-    ::GlobalNamespace::OVRPlugin::EyeTextureFormat& dyn_Format();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::EyeTextureFormat& dyn_Format();
     // Get instance field reference: public System.Int32 LayerFlags
-    int& dyn_LayerFlags();
+    [[deprecated("Use field access instead!")]] int& dyn_LayerFlags();
     // Get instance field reference: public OVRPlugin/Fovf[] Fov
-    ::ArrayW<::GlobalNamespace::OVRPlugin::Fovf>& dyn_Fov();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::OVRPlugin::Fovf>& dyn_Fov();
     // Get instance field reference: public OVRPlugin/Rectf[] VisibleRect
-    ::ArrayW<::GlobalNamespace::OVRPlugin::Rectf>& dyn_VisibleRect();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::OVRPlugin::Rectf>& dyn_VisibleRect();
     // Get instance field reference: public OVRPlugin/Sizei MaxViewportSize
-    ::GlobalNamespace::OVRPlugin::Sizei& dyn_MaxViewportSize();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Sizei& dyn_MaxViewportSize();
     // Get instance field reference: public OVRPlugin/EyeTextureFormat DepthFormat
-    ::GlobalNamespace::OVRPlugin::EyeTextureFormat& dyn_DepthFormat();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::EyeTextureFormat& dyn_DepthFormat();
     // Get instance field reference: public OVRPlugin/EyeTextureFormat MotionVectorFormat
-    ::GlobalNamespace::OVRPlugin::EyeTextureFormat& dyn_MotionVectorFormat();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::EyeTextureFormat& dyn_MotionVectorFormat();
     // Get instance field reference: public OVRPlugin/EyeTextureFormat MotionVectorDepthFormat
-    ::GlobalNamespace::OVRPlugin::EyeTextureFormat& dyn_MotionVectorDepthFormat();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::EyeTextureFormat& dyn_MotionVectorDepthFormat();
     // Get instance field reference: public OVRPlugin/Sizei MotionVectorTextureSize
-    ::GlobalNamespace::OVRPlugin::Sizei& dyn_MotionVectorTextureSize();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Sizei& dyn_MotionVectorTextureSize();
     // public override System.String ToString()
-    // Offset: 0x1AD79D0
+    // Offset: 0x1B11FB8
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

@@ -98,26 +98,26 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public DlcPromoPanelModel <>4__this
-    ::GlobalNamespace::DlcPromoPanelModel*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DlcPromoPanelModel*& dyn_$$4__this();
     // Get instance field reference: private System.Collections.Generic.List`1<DlcPromoPanelDataSO/MusicPackPromoInfo> <newNotOwnedMusicPackPromoInfos>5__2
-    ::System::Collections::Generic::List_1<::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*>*& dyn_$newNotOwnedMusicPackPromoInfos$5__2();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*>*& dyn_$newNotOwnedMusicPackPromoInfos$5__2();
     // Get instance field reference: private DlcPromoPanelDataSO/MusicPackPromoInfo[] <>7__wrap2
-    ::ArrayW<::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*>& dyn_$$7__wrap2();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*>& dyn_$$7__wrap2();
     // Get instance field reference: private System.Int32 <>7__wrap3
-    int& dyn_$$7__wrap3();
+    [[deprecated("Use field access instead!")]] int& dyn_$$7__wrap3();
     // Get instance field reference: private DlcPromoPanelDataSO/MusicPackPromoInfo <packData>5__5
-    ::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*& dyn_$packData$5__5();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*& dyn_$packData$5__5();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/EntitlementStatus> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1410CB8
+    // Offset: 0x1430A64
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1411068
+    // Offset: 0x1430E14
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // DlcPromoPanelModel/<UpdateNotOwnedPacksAsync>d__17
   // WARNING Not writing size check since size may be invalid!

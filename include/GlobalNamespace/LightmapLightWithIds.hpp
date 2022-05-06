@@ -84,20 +84,12 @@ namespace GlobalNamespace {
       // Set static field: static public LightmapLightWithIds/MixType Sum
       static void _set_Sum(::GlobalNamespace::LightmapLightWithIds::MixType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // LightmapLightWithIds/MixType
     #pragma pack(pop)
     static check_size<sizeof(LightmapLightWithIds::MixType), 0 + sizeof(int)> __GlobalNamespace_LightmapLightWithIds_MixTypeSizeCheck;
     static_assert(sizeof(LightmapLightWithIds::MixType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private LightConstants/BakeId _bakeId
     // Size: 0x4
     // Offset: 0x2C
@@ -110,8 +102,12 @@ namespace GlobalNamespace {
     float intensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Padding between fields: intensity and: lightIntensityData
-    char __padding1[0x4] = {};
+    // private System.Single _probeIntensity
+    // Size: 0x4
+    // Offset: 0x34
+    float probeIntensity;
+    // Field size check
+    static_assert(sizeof(float) == 0x4);
     // private LightmapLightWithIds/LightIntensitiesWithId[] _lightIntensityData
     // Size: 0x8
     // Offset: 0x38
@@ -144,47 +140,44 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private LightConstants/BakeId _bakeId
-    ::GlobalNamespace::LightConstants::BakeId& dyn__bakeId();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightConstants::BakeId& dyn__bakeId();
     // Get instance field reference: private System.Single _intensity
-    float& dyn__intensity();
+    [[deprecated("Use field access instead!")]] float& dyn__intensity();
+    // Get instance field reference: private System.Single _probeIntensity
+    [[deprecated("Use field access instead!")]] float& dyn__probeIntensity();
     // Get instance field reference: private LightmapLightWithIds/LightIntensitiesWithId[] _lightIntensityData
-    ::ArrayW<::GlobalNamespace::LightmapLightWithIds::LightIntensitiesWithId*>& dyn__lightIntensityData();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::LightmapLightWithIds::LightIntensitiesWithId*>& dyn__lightIntensityData();
     // Get instance field reference: private LightmapLightWithIds/MixType _mixType
-    ::GlobalNamespace::LightmapLightWithIds::MixType& dyn__mixType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightmapLightWithIds::MixType& dyn__mixType();
     // Get instance field reference: private System.Int32 _lightmapLightIdColorPropertyId
-    int& dyn__lightmapLightIdColorPropertyId();
+    [[deprecated("Use field access instead!")]] int& dyn__lightmapLightIdColorPropertyId();
     // Get instance field reference: private System.Int32 _lightProbeLightIdColorPropertyId
-    int& dyn__lightProbeLightIdColorPropertyId();
+    [[deprecated("Use field access instead!")]] int& dyn__lightProbeLightIdColorPropertyId();
     // Get instance field reference: private System.Boolean _initializedPropertyIds
-    bool& dyn__initializedPropertyIds();
+    [[deprecated("Use field access instead!")]] bool& dyn__initializedPropertyIds();
     // public LightConstants/BakeId get_bakeId()
-    // Offset: 0x2AD3C20
+    // Offset: 0x1E7CFE8
     ::GlobalNamespace::LightConstants::BakeId get_bakeId();
     // protected System.Void Awake()
-    // Offset: 0x2AD3C28
+    // Offset: 0x1E7CFF0
     void Awake();
     // private System.Void SetDataToShaders(UnityEngine.Color lightmapColor, UnityEngine.Color probeColor)
-    // Offset: 0x2AD3DB4
+    // Offset: 0x1E7D17C
     void SetDataToShaders(::UnityEngine::Color lightmapColor, ::UnityEngine::Color probeColor);
     // private System.Void SetShaderProperties()
-    // Offset: 0x2AD3CE4
+    // Offset: 0x1E7D0AC
     void SetShaderProperties();
     // public System.Void .ctor()
-    // Offset: 0x2AD416C
+    // Offset: 0x1E7D574
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightmapLightWithIds* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightmapLightWithIds::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightmapLightWithIds*, creationType>()));
     }
     // protected override System.Void ProcessNewColorData()
-    // Offset: 0x2AD3E14
+    // Offset: 0x1E7D1DC
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::ProcessNewColorData()
     void ProcessNewColorData();

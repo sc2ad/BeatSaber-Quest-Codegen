@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SteamVR_RenderModel::$SetModelAsync$d__21 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -94,43 +86,43 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Object <>2__current
-    ::Il2CppObject*& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$$2__current();
     // Get instance field reference: public System.String renderModelName
-    ::StringW& dyn_renderModelName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_renderModelName();
     // Get instance field reference: public SteamVR_RenderModel <>4__this
-    ::GlobalNamespace::SteamVR_RenderModel*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SteamVR_RenderModel*& dyn_$$4__this();
     // Get instance field reference: private SteamVR_RenderModel/RenderModelInterfaceHolder <holder>5__2
-    ::GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder*& dyn_$holder$5__2();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder*& dyn_$holder$5__2();
     // Get instance field reference: private Valve.VR.CVRRenderModels <renderModels>5__3
-    ::Valve::VR::CVRRenderModels*& dyn_$renderModels$5__3();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::CVRRenderModels*& dyn_$renderModels$5__3();
     // Get instance field reference: private System.String[] <renderModelNames>5__4
-    ::ArrayW<::StringW>& dyn_$renderModelNames$5__4();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_$renderModelNames$5__4();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1879FD8
+    // Offset: 0x18B38E8
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x187A040
+    // Offset: 0x18B3950
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1876D20
+    // Offset: 0x18B0630
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_RenderModel::$SetModelAsync$d__21* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_RenderModel::$SetModelAsync$d__21::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_RenderModel::$SetModelAsync$d__21*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1879658
+    // Offset: 0x18B2F68
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1879734
+    // Offset: 0x18B3044
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x1879674
+    // Offset: 0x18B2F84
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1879FE0
+    // Offset: 0x18B38F0
     void System_Collections_IEnumerator_Reset();
   }; // SteamVR_RenderModel/<SetModelAsync>d__21
   #pragma pack(pop)

@@ -47,15 +47,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapEventDataBoxGroupProcessor : public ::Il2CppObject/*, public ::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.HashSet`1<BeatmapEventDataBoxGroup> _dirtyBoxGroups
     // Size: 0x8
     // Offset: 0x10
@@ -72,28 +64,26 @@ namespace GlobalNamespace {
       return dirtyBoxGroups;
     }
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<BeatmapEventDataBoxGroup> _dirtyBoxGroups
-    ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*& dyn__dirtyBoxGroups();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*& dyn__dirtyBoxGroups();
     // public System.Collections.Generic.IReadOnlyCollection`1<BeatmapEventDataBoxGroup> get_dirtyBoxGroups()
-    // Offset: 0x14C93A4
+    // Offset: 0x1500CAC
     ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* get_dirtyBoxGroups();
-    // public System.Void ProcessInsertedData(System.Collections.Generic.LinkedListNode`1<BeatmapEventDataBoxGroup> insertedNode)
-    // Offset: 0x14C93AC
-    void ProcessInsertedData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* insertedNode);
-    // public System.Void ProcessBeforeDeleteData(System.Collections.Generic.LinkedListNode`1<BeatmapEventDataBoxGroup> nodeToDelete)
-    // Offset: 0x14C98E0
-    void ProcessBeforeDeleteData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* nodeToDelete);
-    // public System.Void ClearDirtyData()
-    // Offset: 0x14C89B0
-    void ClearDirtyData();
     // public System.Void .ctor()
-    // Offset: 0x14C85FC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14FFF04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEventDataBoxGroupProcessor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventDataBoxGroupProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapEventDataBoxGroupProcessor*, creationType>()));
     }
+    // public System.Void ProcessInsertedData(System.Collections.Generic.LinkedListNode`1<BeatmapEventDataBoxGroup> insertedNode)
+    // Offset: 0x1500CB4
+    void ProcessInsertedData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* insertedNode);
+    // public System.Void ProcessBeforeDeleteData(System.Collections.Generic.LinkedListNode`1<BeatmapEventDataBoxGroup> nodeToDelete)
+    // Offset: 0x15011E8
+    void ProcessBeforeDeleteData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* nodeToDelete);
+    // public System.Void ClearDirtyData()
+    // Offset: 0x15002B8
+    void ClearDirtyData();
   }; // BeatmapEventDataBoxGroupProcessor
   #pragma pack(pop)
   static check_size<sizeof(BeatmapEventDataBoxGroupProcessor), 16 + sizeof(::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*)> __GlobalNamespace_BeatmapEventDataBoxGroupProcessorSizeCheck;
@@ -108,6 +98,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventDataBoxGroupProcessor*), "get_dirtyBoxGroups", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapEventDataBoxGroupProcessor::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEventDataBoxGroupProcessor::ProcessInsertedData
 // Il2CppName: ProcessInsertedData
 template<>
@@ -134,7 +128,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventDataBoxGroupProcessor*), "ClearDirtyData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapEventDataBoxGroupProcessor::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

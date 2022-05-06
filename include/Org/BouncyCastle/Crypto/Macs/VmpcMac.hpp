@@ -36,15 +36,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
   // [TokenAttribute] Offset: FFFFFFFF
   class VmpcMac : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IMac*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Byte g
     // Size: 0x1
     // Offset: 0x10
@@ -121,63 +113,65 @@ namespace Org::BouncyCastle::Crypto::Macs {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IMac*>(this);
     }
     // Get instance field reference: private System.Byte g
-    uint8_t& dyn_g();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_g();
     // Get instance field reference: private System.Byte n
-    uint8_t& dyn_n();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_n();
     // Get instance field reference: private System.Byte[] P
-    ::ArrayW<uint8_t>& dyn_P();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_P();
     // Get instance field reference: private System.Byte s
-    uint8_t& dyn_s();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_s();
     // Get instance field reference: private System.Byte[] T
-    ::ArrayW<uint8_t>& dyn_T();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_T();
     // Get instance field reference: private System.Byte[] workingIV
-    ::ArrayW<uint8_t>& dyn_workingIV();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_workingIV();
     // Get instance field reference: private System.Byte[] workingKey
-    ::ArrayW<uint8_t>& dyn_workingKey();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_workingKey();
     // Get instance field reference: private System.Byte x1
-    uint8_t& dyn_x1();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_x1();
     // Get instance field reference: private System.Byte x2
-    uint8_t& dyn_x2();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_x2();
     // Get instance field reference: private System.Byte x3
-    uint8_t& dyn_x3();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_x3();
     // Get instance field reference: private System.Byte x4
-    uint8_t& dyn_x4();
-    // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1DFD90C
-    int DoFinal(::ArrayW<uint8_t> output, int outOff);
-    // public System.Int32 GetMacSize()
-    // Offset: 0x1DFDD8C
-    int GetMacSize();
-    // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1DFDD94
-    void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-    // private System.Void initKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    // Offset: 0x1DFDF20
-    void initKey(::ArrayW<uint8_t> keyBytes, ::ArrayW<uint8_t> ivBytes);
-    // public System.Void Reset()
-    // Offset: 0x1DFE14C
-    void Reset();
-    // public System.Void Update(System.Byte input)
-    // Offset: 0x1DFE1F8
-    void Update(uint8_t input);
-    // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x1DFE464
-    void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int len);
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_x4();
     // public System.Void .ctor()
-    // Offset: 0x1DFE58C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E38E58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VmpcMac* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Macs::VmpcMac::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VmpcMac*, creationType>()));
     }
+    // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
+    // Offset: 0x1E381D8
+    int DoFinal(::ArrayW<uint8_t> output, int outOff);
+    // public System.Int32 GetMacSize()
+    // Offset: 0x1E38658
+    int GetMacSize();
+    // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
+    // Offset: 0x1E38660
+    void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // private System.Void initKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
+    // Offset: 0x1E387EC
+    void initKey(::ArrayW<uint8_t> keyBytes, ::ArrayW<uint8_t> ivBytes);
+    // public System.Void Reset()
+    // Offset: 0x1E38A18
+    void Reset();
+    // public System.Void Update(System.Byte input)
+    // Offset: 0x1E38AC4
+    void Update(uint8_t input);
+    // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
+    // Offset: 0x1E38D30
+    void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int len);
   }; // Org.BouncyCastle.Crypto.Macs.VmpcMac
   #pragma pack(pop)
   static check_size<sizeof(VmpcMac), 67 + sizeof(uint8_t)> __Org_BouncyCastle_Crypto_Macs_VmpcMacSizeCheck;
   static_assert(sizeof(VmpcMac) == 0x44);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::VmpcMac::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::VmpcMac::DoFinal
 // Il2CppName: DoFinal
 template<>
@@ -243,7 +237,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Macs::VmpcMac*), "BlockUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, inOff, len});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::VmpcMac::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

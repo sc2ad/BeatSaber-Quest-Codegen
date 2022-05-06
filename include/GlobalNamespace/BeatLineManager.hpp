@@ -52,15 +52,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatLineManager : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _linesYPosition
     // Size: 0x4
     // Offset: 0x18
@@ -69,21 +61,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: linesYPosition and: beatmapObjectManager
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0x124EA54
+    // [InjectAttribute] Offset: 0x10D3588
     // private BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x124EA64
+    // [InjectAttribute] Offset: 0x10D3598
     // private BeatLine/Pool _beatLinePool
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::BeatLine::Pool* beatLinePool;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatLine::Pool*) == 0x8);
-    // [InjectAttribute] Offset: 0x124EA74
+    // [InjectAttribute] Offset: 0x10D35A8
     // private AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x30
@@ -126,57 +118,51 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _linesYPosition
-    float& dyn__linesYPosition();
+    [[deprecated("Use field access instead!")]] float& dyn__linesYPosition();
     // Get instance field reference: private BeatmapObjectManager _beatmapObjectManager
-    ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // Get instance field reference: private BeatLine/Pool _beatLinePool
-    ::GlobalNamespace::BeatLine::Pool*& dyn__beatLinePool();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatLine::Pool*& dyn__beatLinePool();
     // Get instance field reference: private AudioTimeSyncController _audioTimeSyncController
-    ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<UnityEngine.Vector4,BeatLine> _activeBeatLines
-    ::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector4, ::GlobalNamespace::BeatLine*>*& dyn__activeBeatLines();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector4, ::GlobalNamespace::BeatLine*>*& dyn__activeBeatLines();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Vector4> _removeBeatLineKeyList
-    ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& dyn__removeBeatLineKeyList();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& dyn__removeBeatLineKeyList();
     // Get instance field reference: private System.Boolean _isMidRotationValid
-    bool& dyn__isMidRotationValid();
+    [[deprecated("Use field access instead!")]] bool& dyn__isMidRotationValid();
     // Get instance field reference: private System.Single _midRotation
-    float& dyn__midRotation();
+    [[deprecated("Use field access instead!")]] float& dyn__midRotation();
     // Get instance field reference: private System.Single _rotationRange
-    float& dyn__rotationRange();
+    [[deprecated("Use field access instead!")]] float& dyn__rotationRange();
     // public System.Boolean get_isMidRotationValid()
-    // Offset: 0x1363298
+    // Offset: 0x134B518
     bool get_isMidRotationValid();
     // public System.Single get_midRotation()
-    // Offset: 0x13632A0
+    // Offset: 0x134B520
     float get_midRotation();
     // public System.Single get_rotationRange()
-    // Offset: 0x13632A8
+    // Offset: 0x134B528
     float get_rotationRange();
-    // protected System.Void Start()
-    // Offset: 0x13632B0
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x1363344
-    void OnDestroy();
-    // protected System.Void Update()
-    // Offset: 0x13633D8
-    void Update();
-    // private System.Void HandleNoteWasSpawned(NoteController noteController)
-    // Offset: 0x136378C
-    void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
     // public System.Void .ctor()
-    // Offset: 0x1363988
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x134BC08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatLineManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatLineManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatLineManager*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x134B530
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x134B5C4
+    void OnDestroy();
+    // protected System.Void Update()
+    // Offset: 0x134B658
+    void Update();
+    // private System.Void HandleNoteWasSpawned(NoteController noteController)
+    // Offset: 0x134BA0C
+    void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
   }; // BeatLineManager
   #pragma pack(pop)
   static check_size<sizeof(BeatLineManager), 80 + sizeof(float)> __GlobalNamespace_BeatLineManagerSizeCheck;
@@ -207,6 +193,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatLineManager*), "get_rotationRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BeatLineManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatLineManager::Start
 // Il2CppName: Start
 template<>
@@ -240,7 +230,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatLineManager*), "HandleNoteWasSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteController});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatLineManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

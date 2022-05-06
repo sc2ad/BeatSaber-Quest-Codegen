@@ -75,20 +75,12 @@ namespace GlobalNamespace {
       // Set static field: static public BombExecutionRating/Rating NotGood
       static void _set_NotGood(::GlobalNamespace::BombExecutionRating::Rating value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // BombExecutionRating/Rating
     #pragma pack(pop)
     static check_size<sizeof(BombExecutionRating::Rating), 0 + sizeof(int)> __GlobalNamespace_BombExecutionRating_RatingSizeCheck;
     static_assert(sizeof(BombExecutionRating::Rating) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly BombExecutionRating/Rating <rating>k__BackingField
     // Size: 0x4
     // Offset: 0x14
@@ -99,12 +91,12 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator float
     constexpr operator float() const noexcept = delete;
     // Get instance field reference: private readonly BombExecutionRating/Rating <rating>k__BackingField
-    ::GlobalNamespace::BombExecutionRating::Rating& dyn_$rating$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BombExecutionRating::Rating& dyn_$rating$k__BackingField();
     // public BombExecutionRating/Rating get_rating()
-    // Offset: 0x134C874
+    // Offset: 0x1335ABC
     ::GlobalNamespace::BombExecutionRating::Rating get_rating();
     // public System.Void .ctor(System.Single time, BombExecutionRating/Rating rating)
-    // Offset: 0x134C87C
+    // Offset: 0x1335AC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BombExecutionRating* New_ctor(float time, ::GlobalNamespace::BombExecutionRating::Rating rating) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BombExecutionRating::.ctor");

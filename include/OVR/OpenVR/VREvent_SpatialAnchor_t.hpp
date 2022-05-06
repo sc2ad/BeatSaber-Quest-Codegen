@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
       return unHandle;
     }
     // Get instance field reference: public System.UInt32 unHandle
-    uint& dyn_unHandle();
+    [[deprecated("Use field access instead!")]] uint& dyn_unHandle();
   }; // OVR.OpenVR.VREvent_SpatialAnchor_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_SpatialAnchor_t), 0 + sizeof(uint)> __OVR_OpenVR_VREvent_SpatialAnchor_tSizeCheck;

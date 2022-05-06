@@ -38,15 +38,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StaticEnvironmentLights : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Color[] _lightColors
     // Size: 0x8
     // Offset: 0x18
@@ -63,31 +55,29 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Color[] _lightColors
-    ::ArrayW<::UnityEngine::Color>& dyn__lightColors();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Color>& dyn__lightColors();
     // Get instance field reference: private UnityEngine.Material[] _materials
-    ::ArrayW<::UnityEngine::Material*>& dyn__materials();
-    // protected System.Void Awake()
-    // Offset: 0x1335D70
-    void Awake();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Material*>& dyn__materials();
     // public System.Void .ctor()
-    // Offset: 0x1335E18
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1417D48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StaticEnvironmentLights* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StaticEnvironmentLights::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StaticEnvironmentLights*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x1417CA0
+    void Awake();
   }; // StaticEnvironmentLights
   #pragma pack(pop)
   static check_size<sizeof(StaticEnvironmentLights), 32 + sizeof(::ArrayW<::UnityEngine::Material*>)> __GlobalNamespace_StaticEnvironmentLightsSizeCheck;
   static_assert(sizeof(StaticEnvironmentLights) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::StaticEnvironmentLights::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::StaticEnvironmentLights::Awake
 // Il2CppName: Awake
 template<>
@@ -96,7 +86,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StaticEnvironmentLights*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::StaticEnvironmentLights::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -85,21 +85,21 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public HoudiniEngineUnity.HAPI_CurveType curveType
-    ::HoudiniEngineUnity::HAPI_CurveType& dyn_curveType();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_CurveType& dyn_curveType();
     // Get instance field reference: public System.Int32 curveCount
-    int& dyn_curveCount();
+    [[deprecated("Use field access instead!")]] int& dyn_curveCount();
     // Get instance field reference: public System.Int32 vertexCount
-    int& dyn_vertexCount();
+    [[deprecated("Use field access instead!")]] int& dyn_vertexCount();
     // Get instance field reference: public System.Int32 knotCount
-    int& dyn_knotCount();
+    [[deprecated("Use field access instead!")]] int& dyn_knotCount();
     // Get instance field reference: public System.Boolean isPeriodic
-    bool& dyn_isPeriodic();
+    [[deprecated("Use field access instead!")]] bool& dyn_isPeriodic();
     // Get instance field reference: public System.Boolean isRational
-    bool& dyn_isRational();
+    [[deprecated("Use field access instead!")]] bool& dyn_isRational();
     // Get instance field reference: public System.Int32 order
-    int& dyn_order();
+    [[deprecated("Use field access instead!")]] int& dyn_order();
     // Get instance field reference: public System.Boolean hasKnots
-    bool& dyn_hasKnots();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasKnots();
   }; // HoudiniEngineUnity.HAPI_CurveInfo
   #pragma pack(pop)
   static check_size<sizeof(HAPI_CurveInfo), 24 + sizeof(bool)> __HoudiniEngineUnity_HAPI_CurveInfoSizeCheck;

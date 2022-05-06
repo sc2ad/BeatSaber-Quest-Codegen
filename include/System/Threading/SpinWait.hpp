@@ -42,15 +42,15 @@ namespace System::Threading {
       return m_count;
     }
     // Get instance field reference: private System.Int32 m_count
-    int& dyn_m_count();
+    [[deprecated("Use field access instead!")]] int& dyn_m_count();
     // public System.Boolean get_NextSpinWillYield()
-    // Offset: 0x1DCE428
+    // Offset: 0x1DCFF8C
     bool get_NextSpinWillYield();
     // public System.Void SpinOnce()
-    // Offset: 0x1DC8744
+    // Offset: 0x1DC9F34
     void SpinOnce();
     // public System.Void Reset()
-    // Offset: 0x1DD05FC
+    // Offset: 0x1DD2160
     void Reset();
   }; // System.Threading.SpinWait
   #pragma pack(pop)

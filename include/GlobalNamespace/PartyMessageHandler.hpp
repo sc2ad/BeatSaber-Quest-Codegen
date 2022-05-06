@@ -82,20 +82,12 @@ namespace GlobalNamespace {
       // Set static field: static public PartyMessageHandler/MessageType ConnectToMasterServer
       static void _set_ConnectToMasterServer(::GlobalNamespace::PartyMessageHandler::MessageType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // PartyMessageHandler/MessageType
     #pragma pack(pop)
     static check_size<sizeof(PartyMessageHandler::MessageType), 0 + sizeof(int)> __GlobalNamespace_PartyMessageHandler_MessageTypeSizeCheck;
     static_assert(sizeof(PartyMessageHandler::MessageType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly NetworkPacketSerializer`2<PartyMessageHandler/MessageType,IConnectedPlayer> _serializer
     // Size: 0x8
     // Offset: 0x10
@@ -120,32 +112,32 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get instance field reference: private readonly NetworkPacketSerializer`2<PartyMessageHandler/MessageType,IConnectedPlayer> _serializer
-    ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::PartyMessageHandler::MessageType, ::GlobalNamespace::IConnectedPlayer*>*& dyn__serializer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::PartyMessageHandler::MessageType, ::GlobalNamespace::IConnectedPlayer*>*& dyn__serializer();
     // Get instance field reference: private readonly ConnectedPlayerManager _connectedPlayerManager
-    ::GlobalNamespace::ConnectedPlayerManager*& dyn__connectedPlayerManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ConnectedPlayerManager*& dyn__connectedPlayerManager();
     // Get instance field reference: private PartyMessageHandler/ConnectToMasterServerDelegate connectToMasterServerEvent
-    ::GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate*& dyn_connectToMasterServerEvent();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate*& dyn_connectToMasterServerEvent();
     // public System.Void add_connectToMasterServerEvent(PartyMessageHandler/ConnectToMasterServerDelegate value)
-    // Offset: 0x25E7A40
+    // Offset: 0x2634070
     void add_connectToMasterServerEvent(::GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate* value);
     // public System.Void remove_connectToMasterServerEvent(PartyMessageHandler/ConnectToMasterServerDelegate value)
-    // Offset: 0x25E7AE4
+    // Offset: 0x2634114
     void remove_connectToMasterServerEvent(::GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate* value);
     // public System.Void .ctor(ConnectedPlayerManager connectedPlayerManager)
-    // Offset: 0x25E7890
+    // Offset: 0x2633EC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PartyMessageHandler* New_ctor(::GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PartyMessageHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PartyMessageHandler*, creationType>(connectedPlayerManager)));
     }
     // public System.Void Dispose()
-    // Offset: 0x25E7A18
+    // Offset: 0x2634048
     void Dispose();
     // public System.Void ConnectToMasterServer(System.String secret)
-    // Offset: 0x25E7B88
+    // Offset: 0x26341B8
     void ConnectToMasterServer(::StringW secret);
     // private System.Void HandleConnectToMasterServer(PartyMessageHandler/ConnectToMasterServerMessage packet)
-    // Offset: 0x25E7C1C
+    // Offset: 0x263424C
     void HandleConnectToMasterServer(::GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage* packet);
   }; // PartyMessageHandler
   #pragma pack(pop)

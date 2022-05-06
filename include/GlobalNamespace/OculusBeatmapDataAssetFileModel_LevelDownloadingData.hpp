@@ -34,15 +34,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OculusBeatmapDataAssetFileModel::LevelDownloadingData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.String levelId
     // Size: 0x8
     // Offset: 0x10
@@ -63,13 +55,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*) == 0x8);
     public:
     // Get instance field reference: public readonly System.String levelId
-    ::StringW& dyn_levelId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_levelId();
     // Get instance field reference: public readonly System.String assetBundlePath
-    ::StringW& dyn_assetBundlePath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_assetBundlePath();
     // Get instance field reference: public readonly System.Threading.Tasks.TaskCompletionSource`1<GetAssetBundleFileResult> downloadAssetBundleFileTCS
-    ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*& dyn_downloadAssetBundleFileTCS();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*& dyn_downloadAssetBundleFileTCS();
     // public System.Void .ctor(System.String levelId, System.String assetBundlePath)
-    // Offset: 0x150B980
+    // Offset: 0x1543288
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusBeatmapDataAssetFileModel::LevelDownloadingData* New_ctor(::StringW levelId, ::StringW assetBundlePath) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusBeatmapDataAssetFileModel::LevelDownloadingData::.ctor");

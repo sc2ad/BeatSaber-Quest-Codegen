@@ -33,15 +33,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::ScoreMultiplierCounter::MultiplierEventType
     struct MultiplierEventType;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _multiplier
     // Size: 0x4
     // Offset: 0x10
@@ -62,32 +54,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Int32 _multiplier
-    int& dyn__multiplier();
+    [[deprecated("Use field access instead!")]] int& dyn__multiplier();
     // Get instance field reference: private System.Int32 _multiplierIncreaseProgress
-    int& dyn__multiplierIncreaseProgress();
+    [[deprecated("Use field access instead!")]] int& dyn__multiplierIncreaseProgress();
     // Get instance field reference: private System.Int32 _multiplierIncreaseMaxProgress
-    int& dyn__multiplierIncreaseMaxProgress();
+    [[deprecated("Use field access instead!")]] int& dyn__multiplierIncreaseMaxProgress();
     // public System.Int32 get_multiplier()
-    // Offset: 0x142535C
+    // Offset: 0x1466990
     int get_multiplier();
     // public System.Single get_normalizedProgress()
-    // Offset: 0x142380C
+    // Offset: 0x1464EC4
     float get_normalizedProgress();
-    // public System.Void Reset()
-    // Offset: 0x1424F54
-    void Reset();
-    // public System.Boolean ProcessMultiplierEvent(ScoreMultiplierCounter/MultiplierEventType multiplierEventType)
-    // Offset: 0x1423768
-    bool ProcessMultiplierEvent(::GlobalNamespace::ScoreMultiplierCounter::MultiplierEventType multiplierEventType);
     // public System.Void .ctor()
-    // Offset: 0x1424090
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1465748
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScoreMultiplierCounter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScoreMultiplierCounter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScoreMultiplierCounter*, creationType>()));
     }
+    // public System.Void Reset()
+    // Offset: 0x1466588
+    void Reset();
+    // public System.Boolean ProcessMultiplierEvent(ScoreMultiplierCounter/MultiplierEventType multiplierEventType)
+    // Offset: 0x1464E20
+    bool ProcessMultiplierEvent(::GlobalNamespace::ScoreMultiplierCounter::MultiplierEventType multiplierEventType);
   }; // ScoreMultiplierCounter
   #pragma pack(pop)
   static check_size<sizeof(ScoreMultiplierCounter), 24 + sizeof(int)> __GlobalNamespace_ScoreMultiplierCounterSizeCheck;
@@ -110,6 +100,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreMultiplierCounter*), "get_normalizedProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ScoreMultiplierCounter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ScoreMultiplierCounter::Reset
 // Il2CppName: Reset
 template<>
@@ -127,7 +121,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreMultiplierCounter*), "ProcessMultiplierEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiplierEventType});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ScoreMultiplierCounter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

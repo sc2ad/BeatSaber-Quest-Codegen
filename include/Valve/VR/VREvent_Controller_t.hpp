@@ -42,7 +42,7 @@ namespace Valve::VR {
       return button;
     }
     // Get instance field reference: public System.UInt32 button
-    uint& dyn_button();
+    [[deprecated("Use field access instead!")]] uint& dyn_button();
   }; // Valve.VR.VREvent_Controller_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Controller_t), 0 + sizeof(uint)> __Valve_VR_VREvent_Controller_tSizeCheck;

@@ -102,7 +102,7 @@ namespace UnityEngine::Playables {
       // Set static field: static public UnityEngine.Playables.FrameData/UnityEngine.Playables.Flags EffectivePlayStatePlaying
       static void _set_EffectivePlayStatePlaying(::UnityEngine::Playables::FrameData::Flags value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // UnityEngine.Playables.FrameData/UnityEngine.Playables.Flags
     #pragma pack(pop)
     static check_size<sizeof(FrameData::Flags), 0 + sizeof(int)> __UnityEngine_Playables_FrameData_FlagsSizeCheck;
@@ -172,49 +172,49 @@ namespace UnityEngine::Playables {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: System.UInt64 m_FrameID
-    uint64_t& dyn_m_FrameID();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_m_FrameID();
     // Get instance field reference: System.Double m_DeltaTime
-    double& dyn_m_DeltaTime();
+    [[deprecated("Use field access instead!")]] double& dyn_m_DeltaTime();
     // Get instance field reference: System.Single m_Weight
-    float& dyn_m_Weight();
+    [[deprecated("Use field access instead!")]] float& dyn_m_Weight();
     // Get instance field reference: System.Single m_EffectiveWeight
-    float& dyn_m_EffectiveWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_m_EffectiveWeight();
     // Get instance field reference: System.Double m_EffectiveParentDelay
-    double& dyn_m_EffectiveParentDelay();
+    [[deprecated("Use field access instead!")]] double& dyn_m_EffectiveParentDelay();
     // Get instance field reference: System.Single m_EffectiveParentSpeed
-    float& dyn_m_EffectiveParentSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn_m_EffectiveParentSpeed();
     // Get instance field reference: System.Single m_EffectiveSpeed
-    float& dyn_m_EffectiveSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn_m_EffectiveSpeed();
     // Get instance field reference: UnityEngine.Playables.FrameData/UnityEngine.Playables.Flags m_Flags
-    ::UnityEngine::Playables::FrameData::Flags& dyn_m_Flags();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Playables::FrameData::Flags& dyn_m_Flags();
     // Get instance field reference: UnityEngine.Playables.PlayableOutput m_Output
-    ::UnityEngine::Playables::PlayableOutput& dyn_m_Output();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Playables::PlayableOutput& dyn_m_Output();
     // public System.Single get_deltaTime()
-    // Offset: 0x1FFF1E0
+    // Offset: 0x2048A54
     float get_deltaTime();
     // public System.Single get_effectiveSpeed()
-    // Offset: 0x1FFF1EC
+    // Offset: 0x2048A60
     float get_effectiveSpeed();
     // public UnityEngine.Playables.FrameData/UnityEngine.Playables.EvaluationType get_evaluationType()
-    // Offset: 0x1FFF1F4
+    // Offset: 0x2048A68
     ::UnityEngine::Playables::FrameData::EvaluationType get_evaluationType();
     // public System.Boolean get_seekOccurred()
-    // Offset: 0x1FFF204
+    // Offset: 0x2048A78
     bool get_seekOccurred();
     // public System.Boolean get_timeLooped()
-    // Offset: 0x1FFF210
+    // Offset: 0x2048A84
     bool get_timeLooped();
     // public System.Boolean get_timeHeld()
-    // Offset: 0x1FFF21C
+    // Offset: 0x2048A90
     bool get_timeHeld();
     // public UnityEngine.Playables.PlayableOutput get_output()
-    // Offset: 0x1FFF228
+    // Offset: 0x2048A9C
     ::UnityEngine::Playables::PlayableOutput get_output();
     // public UnityEngine.Playables.PlayState get_effectivePlayState()
-    // Offset: 0x1FFF234
+    // Offset: 0x2048AA8
     ::UnityEngine::Playables::PlayState get_effectivePlayState();
     // private System.Boolean HasFlags(UnityEngine.Playables.FrameData/UnityEngine.Playables.Flags flag)
-    // Offset: 0x1FFF1D0
+    // Offset: 0x2048A44
     bool HasFlags(::UnityEngine::Playables::FrameData::Flags flag);
   }; // UnityEngine.Playables.FrameData
   #pragma pack(pop)

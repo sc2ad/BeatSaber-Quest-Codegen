@@ -46,15 +46,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_SessionData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public HoudiniEngineUnity.HAPI_Session _HAPISession
     // Size: 0x10
     // Offset: 0x10
@@ -127,112 +119,110 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Int64 INVALID_SESSION_ID
     static void _set_INVALID_SESSION_ID(int64_t value);
     // Get instance field reference: public HoudiniEngineUnity.HAPI_Session _HAPISession
-    ::HoudiniEngineUnity::HAPI_Session& dyn__HAPISession();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_Session& dyn__HAPISession();
     // Get instance field reference: private System.Int32 _serverProcessID
-    int& dyn__serverProcessID();
+    [[deprecated("Use field access instead!")]] int& dyn__serverProcessID();
     // Get instance field reference: private System.Boolean _initialized
-    bool& dyn__initialized();
+    [[deprecated("Use field access instead!")]] bool& dyn__initialized();
     // Get instance field reference: private System.String _pipeName
-    ::StringW& dyn__pipeName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__pipeName();
     // Get instance field reference: private System.Int32 _port
-    int& dyn__port();
+    [[deprecated("Use field access instead!")]] int& dyn__port();
     // Get instance field reference: private System.String _sessionClassType
-    ::StringW& dyn__sessionClassType();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__sessionClassType();
     // Get instance field reference: private System.Boolean _isDefaultSession
-    bool& dyn__isDefaultSession();
+    [[deprecated("Use field access instead!")]] bool& dyn__isDefaultSession();
     // Get instance field reference: private HoudiniEngineUnity.HEU_SessionSyncData _sessionSync
-    ::HoudiniEngineUnity::HEU_SessionSyncData*& dyn__sessionSync();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_SessionSyncData*& dyn__sessionSync();
     // Get instance field reference: private HoudiniEngineUnity.SessionConnectionState _connectionState
-    ::HoudiniEngineUnity::SessionConnectionState& dyn__connectionState();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::SessionConnectionState& dyn__connectionState();
     // Get instance field reference: private HoudiniEngineUnity.SessionMode _sessionMode
-    ::HoudiniEngineUnity::SessionMode& dyn__sessionMode();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::SessionMode& dyn__sessionMode();
     // public System.Int64 get_SessionID()
-    // Offset: 0x1AC941C
+    // Offset: 0x1B04A04
     int64_t get_SessionID();
     // public System.Void set_SessionID(System.Int64 value)
-    // Offset: 0x1AC8AC0
+    // Offset: 0x1B040A8
     void set_SessionID(int64_t value);
     // public System.Int32 get_ProcessID()
-    // Offset: 0x1AC9484
+    // Offset: 0x1B04A6C
     int get_ProcessID();
     // public System.Void set_ProcessID(System.Int32 value)
-    // Offset: 0x1AC948C
+    // Offset: 0x1B04A74
     void set_ProcessID(int value);
     // public HoudiniEngineUnity.HAPI_SessionType get_SessionType()
-    // Offset: 0x1AC9494
+    // Offset: 0x1B04A7C
     ::HoudiniEngineUnity::HAPI_SessionType get_SessionType();
     // public System.Void set_SessionType(HoudiniEngineUnity.HAPI_SessionType value)
-    // Offset: 0x1AC949C
+    // Offset: 0x1B04A84
     void set_SessionType(::HoudiniEngineUnity::HAPI_SessionType value);
     // public System.Boolean get_IsInitialized()
-    // Offset: 0x1AC94A4
+    // Offset: 0x1B04A8C
     bool get_IsInitialized();
     // public System.Void set_IsInitialized(System.Boolean value)
-    // Offset: 0x1AC94AC
+    // Offset: 0x1B04A94
     void set_IsInitialized(bool value);
     // public System.Boolean get_IsValidSessionID()
-    // Offset: 0x1AC94B8
+    // Offset: 0x1B04AA0
     bool get_IsValidSessionID();
     // public System.String get_PipeName()
-    // Offset: 0x1AC94C0
+    // Offset: 0x1B04AA8
     ::StringW get_PipeName();
     // public System.Void set_PipeName(System.String value)
-    // Offset: 0x1AC9508
+    // Offset: 0x1B04AF0
     void set_PipeName(::StringW value);
     // public System.Int32 get_Port()
-    // Offset: 0x1AC9510
+    // Offset: 0x1B04AF8
     int get_Port();
     // public System.Void set_Port(System.Int32 value)
-    // Offset: 0x1AC9518
+    // Offset: 0x1B04B00
     void set_Port(int value);
     // public System.Type get_SessionClassType()
-    // Offset: 0x1AC9520
+    // Offset: 0x1B04B08
     ::System::Type* get_SessionClassType();
     // public System.Void set_SessionClassType(System.Type value)
-    // Offset: 0x1AC95CC
+    // Offset: 0x1B04BB4
     void set_SessionClassType(::System::Type* value);
     // public System.Boolean get_IsDefaultSession()
-    // Offset: 0x1AC9608
+    // Offset: 0x1B04BF0
     bool get_IsDefaultSession();
     // public System.Void set_IsDefaultSession(System.Boolean value)
-    // Offset: 0x1AC9610
+    // Offset: 0x1B04BF8
     void set_IsDefaultSession(bool value);
     // public System.Boolean get_IsSessionSync()
-    // Offset: 0x1AC8678
+    // Offset: 0x1B03C60
     bool get_IsSessionSync();
     // public HoudiniEngineUnity.SessionConnectionState get_ThisConnectionMode()
-    // Offset: 0x1AC961C
+    // Offset: 0x1B04C04
     ::HoudiniEngineUnity::SessionConnectionState get_ThisConnectionMode();
     // public System.Void set_ThisConnectionMode(HoudiniEngineUnity.SessionConnectionState value)
-    // Offset: 0x1AC9624
+    // Offset: 0x1B04C0C
     void set_ThisConnectionMode(::HoudiniEngineUnity::SessionConnectionState value);
     // public HoudiniEngineUnity.SessionMode get_ThisSessionMode()
-    // Offset: 0x1AC962C
+    // Offset: 0x1B04C14
     ::HoudiniEngineUnity::SessionMode get_ThisSessionMode();
     // public System.Void set_ThisSessionMode(HoudiniEngineUnity.SessionMode value)
-    // Offset: 0x1AC9634
+    // Offset: 0x1B04C1C
     void set_ThisSessionMode(::HoudiniEngineUnity::SessionMode value);
-    // static private System.Void .cctor()
-    // Offset: 0x1AC964C
-    static void _cctor();
-    // public HoudiniEngineUnity.HEU_SessionSyncData GetOrCreateSessionSync()
-    // Offset: 0x1AC92F0
-    ::HoudiniEngineUnity::HEU_SessionSyncData* GetOrCreateSessionSync();
-    // public HoudiniEngineUnity.HEU_SessionSyncData GetSessionSync()
-    // Offset: 0x1AC940C
-    ::HoudiniEngineUnity::HEU_SessionSyncData* GetSessionSync();
-    // public System.Void SetSessionSync(HoudiniEngineUnity.HEU_SessionSyncData syncData)
-    // Offset: 0x1AC9414
-    void SetSessionSync(::HoudiniEngineUnity::HEU_SessionSyncData* syncData);
     // public System.Void .ctor()
-    // Offset: 0x1AC963C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B04C24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_SessionData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_SessionData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_SessionData*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1B04C34
+    static void _cctor();
+    // public HoudiniEngineUnity.HEU_SessionSyncData GetOrCreateSessionSync()
+    // Offset: 0x1B048D8
+    ::HoudiniEngineUnity::HEU_SessionSyncData* GetOrCreateSessionSync();
+    // public HoudiniEngineUnity.HEU_SessionSyncData GetSessionSync()
+    // Offset: 0x1B049F4
+    ::HoudiniEngineUnity::HEU_SessionSyncData* GetSessionSync();
+    // public System.Void SetSessionSync(HoudiniEngineUnity.HEU_SessionSyncData syncData)
+    // Offset: 0x1B049FC
+    void SetSessionSync(::HoudiniEngineUnity::HEU_SessionSyncData* syncData);
   }; // HoudiniEngineUnity.HEU_SessionData
   #pragma pack(pop)
   static check_size<sizeof(HEU_SessionData), 84 + sizeof(::HoudiniEngineUnity::SessionMode)> __HoudiniEngineUnity_HEU_SessionDataSizeCheck;
@@ -425,6 +415,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionData*), "set_ThisSessionMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionData::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionData::_cctor
 // Il2CppName: .cctor
 template<>
@@ -458,7 +452,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionData*), "SetSessionSync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{syncData});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionData::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

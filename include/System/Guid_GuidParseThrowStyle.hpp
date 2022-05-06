@@ -57,7 +57,7 @@ namespace System {
     // Set static field: static public System.Guid/System.GuidParseThrowStyle AllButOverflow
     static void _set_AllButOverflow(::System::Guid::GuidParseThrowStyle value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Guid/System.GuidParseThrowStyle
   #pragma pack(pop)
   static check_size<sizeof(Guid::GuidParseThrowStyle), 0 + sizeof(int)> __System_Guid_GuidParseThrowStyleSizeCheck;

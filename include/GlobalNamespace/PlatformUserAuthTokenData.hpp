@@ -80,20 +80,12 @@ namespace GlobalNamespace {
       // Set static field: static public PlatformUserAuthTokenData/PlatformEnviroment Production
       static void _set_Production(::GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment value);
       // Get instance field reference: public System.Byte value__
-      uint8_t& dyn_value__();
+      [[deprecated("Use field access instead!")]] uint8_t& dyn_value__();
     }; // PlatformUserAuthTokenData/PlatformEnviroment
     #pragma pack(pop)
     static check_size<sizeof(PlatformUserAuthTokenData::PlatformEnviroment), 0 + sizeof(uint8_t)> __GlobalNamespace_PlatformUserAuthTokenData_PlatformEnviromentSizeCheck;
     static_assert(sizeof(PlatformUserAuthTokenData::PlatformEnviroment) == 0x1);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String <token>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -108,23 +100,23 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment) == 0x1);
     public:
     // Get instance field reference: private System.String <token>k__BackingField
-    ::StringW& dyn_$token$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$token$k__BackingField();
     // Get instance field reference: private PlatformUserAuthTokenData/PlatformEnviroment <validPlatformEnvironment>k__BackingField
-    ::GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment& dyn_$validPlatformEnvironment$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment& dyn_$validPlatformEnvironment$k__BackingField();
     // public System.String get_token()
-    // Offset: 0x12F48D4
+    // Offset: 0x136588C
     ::StringW get_token();
     // private System.Void set_token(System.String value)
-    // Offset: 0x12F48DC
+    // Offset: 0x1365894
     void set_token(::StringW value);
     // public PlatformUserAuthTokenData/PlatformEnviroment get_validPlatformEnvironment()
-    // Offset: 0x12F48E4
+    // Offset: 0x136589C
     ::GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment get_validPlatformEnvironment();
     // private System.Void set_validPlatformEnvironment(PlatformUserAuthTokenData/PlatformEnviroment value)
-    // Offset: 0x12F48EC
+    // Offset: 0x13658A4
     void set_validPlatformEnvironment(::GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment value);
     // public System.Void .ctor(System.String token, PlatformUserAuthTokenData/PlatformEnviroment validPlatformEnvironment)
-    // Offset: 0x12F48F4
+    // Offset: 0x13658AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformUserAuthTokenData* New_ctor(::StringW token, ::GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment validPlatformEnvironment) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlatformUserAuthTokenData::.ctor");

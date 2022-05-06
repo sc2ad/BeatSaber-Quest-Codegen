@@ -44,15 +44,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_TestController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.List`1<System.Int32> controllerIndices
     // Size: 0x8
     // Offset: 0x18
@@ -87,49 +79,47 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<System.Int32> controllerIndices
-    ::System::Collections::Generic::List_1<int>*& dyn_controllerIndices();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<int>*& dyn_controllerIndices();
     // Get instance field reference: private Valve.VR.EVRButtonId[] buttonIds
-    ::ArrayW<::Valve::VR::EVRButtonId>& dyn_buttonIds();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Valve::VR::EVRButtonId>& dyn_buttonIds();
     // Get instance field reference: private Valve.VR.EVRButtonId[] axisIds
-    ::ArrayW<::Valve::VR::EVRButtonId>& dyn_axisIds();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Valve::VR::EVRButtonId>& dyn_axisIds();
     // Get instance field reference: public UnityEngine.Transform point
-    ::UnityEngine::Transform*& dyn_point();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_point();
     // Get instance field reference: public UnityEngine.Transform pointer
-    ::UnityEngine::Transform*& dyn_pointer();
-    // private System.Void OnDeviceConnected(System.Int32 index, System.Boolean connected)
-    // Offset: 0x187A698
-    void OnDeviceConnected(int index, bool connected);
-    // private System.Void OnEnable()
-    // Offset: 0x187AC9C
-    void OnEnable();
-    // private System.Void OnDisable()
-    // Offset: 0x187AD60
-    void OnDisable();
-    // private System.Void PrintControllerStatus(System.Int32 index)
-    // Offset: 0x187A84C
-    void PrintControllerStatus(int index);
-    // private System.Void Update()
-    // Offset: 0x187AE24
-    void Update();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_pointer();
     // public System.Void .ctor()
-    // Offset: 0x187B774
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18B5084
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_TestController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_TestController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_TestController*, creationType>()));
     }
+    // private System.Void OnDeviceConnected(System.Int32 index, System.Boolean connected)
+    // Offset: 0x18B3FA8
+    void OnDeviceConnected(int index, bool connected);
+    // private System.Void OnEnable()
+    // Offset: 0x18B45AC
+    void OnEnable();
+    // private System.Void OnDisable()
+    // Offset: 0x18B4670
+    void OnDisable();
+    // private System.Void PrintControllerStatus(System.Int32 index)
+    // Offset: 0x18B415C
+    void PrintControllerStatus(int index);
+    // private System.Void Update()
+    // Offset: 0x18B4734
+    void Update();
   }; // SteamVR_TestController
   #pragma pack(pop)
   static check_size<sizeof(SteamVR_TestController), 56 + sizeof(::UnityEngine::Transform*)> __GlobalNamespace_SteamVR_TestControllerSizeCheck;
   static_assert(sizeof(SteamVR_TestController) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_TestController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TestController::OnDeviceConnected
 // Il2CppName: OnDeviceConnected
 template<>
@@ -173,7 +163,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TestController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SteamVR_TestController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

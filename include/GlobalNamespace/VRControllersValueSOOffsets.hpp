@@ -39,15 +39,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRControllersValueSOOffsets : public ::GlobalNamespace::VRControllerTransformOffset {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Vector3SO _positionOffset
     // Size: 0x8
     // Offset: 0x18
@@ -70,41 +62,38 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Vector3SO _positionOffset
-    ::GlobalNamespace::Vector3SO*& dyn__positionOffset();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3SO*& dyn__positionOffset();
     // Get instance field reference: private Vector3SO _rotationOffset
-    ::GlobalNamespace::Vector3SO*& dyn__rotationOffset();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3SO*& dyn__rotationOffset();
     // Get instance field reference: private System.Boolean _mirror
-    bool& dyn__mirror();
-    // public override UnityEngine.Vector3 get_positionOffset()
-    // Offset: 0x2AC04B4
-    // Implemented from: VRControllerTransformOffset
-    // Base method: UnityEngine.Vector3 VRControllerTransformOffset::get_positionOffset()
-    ::UnityEngine::Vector3 get_positionOffset();
-    // public override UnityEngine.Vector3 get_rotationOffset()
-    // Offset: 0x2AC0518
-    // Implemented from: VRControllerTransformOffset
-    // Base method: UnityEngine.Vector3 VRControllerTransformOffset::get_rotationOffset()
-    ::UnityEngine::Vector3 get_rotationOffset();
+    [[deprecated("Use field access instead!")]] bool& dyn__mirror();
     // public System.Void .ctor()
-    // Offset: 0x2AC057C
-    // Implemented from: VRControllerTransformOffset
-    // Base method: System.Void VRControllerTransformOffset::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x149FAD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersValueSOOffsets* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRControllersValueSOOffsets::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersValueSOOffsets*, creationType>()));
     }
+    // public override UnityEngine.Vector3 get_positionOffset()
+    // Offset: 0x149FA0C
+    // Implemented from: VRControllerTransformOffset
+    // Base method: UnityEngine.Vector3 VRControllerTransformOffset::get_positionOffset()
+    ::UnityEngine::Vector3 get_positionOffset();
+    // public override UnityEngine.Vector3 get_rotationOffset()
+    // Offset: 0x149FA70
+    // Implemented from: VRControllerTransformOffset
+    // Base method: UnityEngine.Vector3 VRControllerTransformOffset::get_rotationOffset()
+    ::UnityEngine::Vector3 get_rotationOffset();
   }; // VRControllersValueSOOffsets
   #pragma pack(pop)
   static check_size<sizeof(VRControllersValueSOOffsets), 40 + sizeof(bool)> __GlobalNamespace_VRControllersValueSOOffsetsSizeCheck;
   static_assert(sizeof(VRControllersValueSOOffsets) == 0x29);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersValueSOOffsets::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersValueSOOffsets::get_positionOffset
 // Il2CppName: get_positionOffset
 template<>
@@ -121,7 +110,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersValueSOOffsets*), "get_rotationOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::VRControllersValueSOOffsets::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

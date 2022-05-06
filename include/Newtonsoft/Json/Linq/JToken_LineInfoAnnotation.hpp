@@ -23,15 +23,7 @@ namespace Newtonsoft::Json::Linq {
   // [TokenAttribute] Offset: FFFFFFFF
   class JToken::LineInfoAnnotation : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // readonly System.Int32 LineNumber
     // Size: 0x4
     // Offset: 0x10
@@ -46,11 +38,11 @@ namespace Newtonsoft::Json::Linq {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: readonly System.Int32 LineNumber
-    int& dyn_LineNumber();
+    [[deprecated("Use field access instead!")]] int& dyn_LineNumber();
     // Get instance field reference: readonly System.Int32 LinePosition
-    int& dyn_LinePosition();
+    [[deprecated("Use field access instead!")]] int& dyn_LinePosition();
     // public System.Void .ctor(System.Int32 lineNumber, System.Int32 linePosition)
-    // Offset: 0x171E280
+    // Offset: 0x1756B90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JToken::LineInfoAnnotation* New_ctor(int lineNumber, int linePosition) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JToken::LineInfoAnnotation::.ctor");

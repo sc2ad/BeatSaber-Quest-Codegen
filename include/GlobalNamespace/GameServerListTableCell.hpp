@@ -47,15 +47,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameServerListTableCell : public ::HMUI::TableCell {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.CurvedTextMeshPro _serverName
     // Size: 0x8
     // Offset: 0x58
@@ -86,7 +78,7 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* passwordProtected;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0x1257D50
+    // [InjectAttribute] Offset: 0x10DC934
     // private readonly SongPackMasksModel _songPackMasksModel
     // Size: 0x8
     // Offset: 0x80
@@ -95,42 +87,37 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::SongPackMasksModel*) == 0x8);
     public:
     // Get instance field reference: private HMUI.CurvedTextMeshPro _serverName
-    ::HMUI::CurvedTextMeshPro*& dyn__serverName();
+    [[deprecated("Use field access instead!")]] ::HMUI::CurvedTextMeshPro*& dyn__serverName();
     // Get instance field reference: private HMUI.CurvedTextMeshPro _difficultiesText
-    ::HMUI::CurvedTextMeshPro*& dyn__difficultiesText();
+    [[deprecated("Use field access instead!")]] ::HMUI::CurvedTextMeshPro*& dyn__difficultiesText();
     // Get instance field reference: private HMUI.CurvedTextMeshPro _musicPackText
-    ::HMUI::CurvedTextMeshPro*& dyn__musicPackText();
+    [[deprecated("Use field access instead!")]] ::HMUI::CurvedTextMeshPro*& dyn__musicPackText();
     // Get instance field reference: private HMUI.CurvedTextMeshPro _playerCount
-    ::HMUI::CurvedTextMeshPro*& dyn__playerCount();
+    [[deprecated("Use field access instead!")]] ::HMUI::CurvedTextMeshPro*& dyn__playerCount();
     // Get instance field reference: private UnityEngine.GameObject _passwordProtected
-    ::UnityEngine::GameObject*& dyn__passwordProtected();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__passwordProtected();
     // Get instance field reference: private readonly SongPackMasksModel _songPackMasksModel
-    ::GlobalNamespace::SongPackMasksModel*& dyn__songPackMasksModel();
-    // public System.Void SetData(INetworkPlayer player)
-    // Offset: 0x13D7778
-    void SetData(::GlobalNamespace::INetworkPlayer* player);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongPackMasksModel*& dyn__songPackMasksModel();
     // public System.Void .ctor()
-    // Offset: 0x13D7AF8
-    // Implemented from: HMUI.TableCell
-    // Base method: System.Void TableCell::.ctor()
-    // Base method: System.Void SelectableCell::.ctor()
-    // Base method: System.Void Interactable::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13E4598
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerListTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerListTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServerListTableCell*, creationType>()));
     }
+    // public System.Void SetData(INetworkPlayer player)
+    // Offset: 0x13E4218
+    void SetData(::GlobalNamespace::INetworkPlayer* player);
   }; // GameServerListTableCell
   #pragma pack(pop)
   static check_size<sizeof(GameServerListTableCell), 128 + sizeof(::GlobalNamespace::SongPackMasksModel*)> __GlobalNamespace_GameServerListTableCellSizeCheck;
   static_assert(sizeof(GameServerListTableCell) == 0x88);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::GameServerListTableCell::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameServerListTableCell::SetData
 // Il2CppName: SetData
 template<>
@@ -140,7 +127,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerListTableCell*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{player});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameServerListTableCell::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

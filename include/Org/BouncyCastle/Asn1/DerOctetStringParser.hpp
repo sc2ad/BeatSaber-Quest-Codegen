@@ -42,15 +42,7 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class DerOctetStringParser : public ::Il2CppObject/*, public ::Org::BouncyCastle::Asn1::Asn1OctetStringParser*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Asn1.DefiniteLengthInputStream stream
     // Size: 0x8
     // Offset: 0x10
@@ -67,19 +59,19 @@ namespace Org::BouncyCastle::Asn1 {
       return stream;
     }
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DefiniteLengthInputStream stream
-    ::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*& dyn_stream();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*& dyn_stream();
     // System.Void .ctor(Org.BouncyCastle.Asn1.DefiniteLengthInputStream stream)
-    // Offset: 0x1BF08F0
+    // Offset: 0x1C2AED8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerOctetStringParser* New_ctor(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* stream) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::DerOctetStringParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerOctetStringParser*, creationType>(stream)));
     }
     // public System.IO.Stream GetOctetStream()
-    // Offset: 0x1BFD17C
+    // Offset: 0x1C37764
     ::System::IO::Stream* GetOctetStream();
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1BFD184
+    // Offset: 0x1C3776C
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.DerOctetStringParser
   #pragma pack(pop)

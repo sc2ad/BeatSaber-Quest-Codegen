@@ -39,15 +39,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassEffectSO : public ::GlobalNamespace::TextureEffectSO/*, public ::GlobalNamespace::IBloomPrePassParams*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _textureWidth
     // Size: 0x4
     // Offset: 0x18
@@ -80,39 +72,35 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _textureWidth
-    int& dyn__textureWidth();
+    [[deprecated("Use field access instead!")]] int& dyn__textureWidth();
     // Get instance field reference: private System.Int32 _textureHeight
-    int& dyn__textureHeight();
+    [[deprecated("Use field access instead!")]] int& dyn__textureHeight();
     // Get instance field reference: private UnityEngine.Vector2 _fov
-    ::UnityEngine::Vector2& dyn__fov();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn__fov();
     // Get instance field reference: private System.Single _linesWidth
-    float& dyn__linesWidth();
+    [[deprecated("Use field access instead!")]] float& dyn__linesWidth();
     // public TextureEffectSO get_textureEffect()
-    // Offset: 0x2ACD4E4
+    // Offset: 0x1E768AC
     ::GlobalNamespace::TextureEffectSO* get_textureEffect();
     // public System.Int32 get_textureWidth()
-    // Offset: 0x2ACD4E8
+    // Offset: 0x1E768B0
     int get_textureWidth();
     // public System.Int32 get_textureHeight()
-    // Offset: 0x2ACD4F0
+    // Offset: 0x1E768B8
     int get_textureHeight();
     // public UnityEngine.Vector2 get_fov()
-    // Offset: 0x2ACD4F8
+    // Offset: 0x1E768C0
     ::UnityEngine::Vector2 get_fov();
     // public System.Single get_linesWidth()
-    // Offset: 0x2ACD500
+    // Offset: 0x1E768C8
     float get_linesWidth();
     // public ToneMapping get_toneMapping()
-    // Offset: 0x2ACD508
+    // Offset: 0x1E768D0
     ::GlobalNamespace::ToneMapping get_toneMapping();
     // protected System.Void .ctor()
-    // Offset: 0x2ACD510
+    // Offset: 0x1E768D8
     // Implemented from: TextureEffectSO
     // Base method: System.Void TextureEffectSO::.ctor()
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassEffectSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassEffectSO::.ctor");

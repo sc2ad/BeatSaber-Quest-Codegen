@@ -69,20 +69,12 @@ namespace LeaderboardsDTO {
       // Set static field: static public LeaderboardsDTO.LeaderboardQueryDTO/LeaderboardsDTO.ScoresScope Friends
       static void _set_Friends(::LeaderboardsDTO::LeaderboardQueryDTO::ScoresScope value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // LeaderboardsDTO.LeaderboardQueryDTO/LeaderboardsDTO.ScoresScope
     #pragma pack(pop)
     static check_size<sizeof(LeaderboardQueryDTO::ScoresScope), 0 + sizeof(int)> __LeaderboardsDTO_LeaderboardQueryDTO_ScoresScopeSizeCheck;
     static_assert(sizeof(LeaderboardQueryDTO::ScoresScope) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String leaderboardId
     // Size: 0x8
     // Offset: 0x10
@@ -123,21 +115,19 @@ namespace LeaderboardsDTO {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.String leaderboardId
-    ::StringW& dyn_leaderboardId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_leaderboardId();
     // Get instance field reference: public System.Int32 count
-    int& dyn_count();
+    [[deprecated("Use field access instead!")]] int& dyn_count();
     // Get instance field reference: public System.Int32 fromRank
-    int& dyn_fromRank();
+    [[deprecated("Use field access instead!")]] int& dyn_fromRank();
     // Get instance field reference: public LeaderboardsDTO.LeaderboardQueryDTO/LeaderboardsDTO.ScoresScope scope
-    ::LeaderboardsDTO::LeaderboardQueryDTO::ScoresScope& dyn_scope();
+    [[deprecated("Use field access instead!")]] ::LeaderboardsDTO::LeaderboardQueryDTO::ScoresScope& dyn_scope();
     // Get instance field reference: public System.String[] friendsUserIds
-    ::ArrayW<::StringW>& dyn_friendsUserIds();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_friendsUserIds();
     // Get instance field reference: public System.Boolean includedScoreWithModifiers
-    bool& dyn_includedScoreWithModifiers();
+    [[deprecated("Use field access instead!")]] bool& dyn_includedScoreWithModifiers();
     // public System.Void .ctor()
-    // Offset: 0x13B7F18
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13B33C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardQueryDTO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LeaderboardsDTO::LeaderboardQueryDTO::.ctor");

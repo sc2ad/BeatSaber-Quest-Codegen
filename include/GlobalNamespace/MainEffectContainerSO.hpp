@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MainEffectContainerSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MainEffectSO _mainEffect
     // Size: 0x8
     // Offset: 0x18
@@ -62,29 +54,24 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MainEffectSO _mainEffect
-    ::GlobalNamespace::MainEffectSO*& dyn__mainEffect();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainEffectSO*& dyn__mainEffect();
     // Get instance field reference: private BoolSO _postProcessEnabled
-    ::GlobalNamespace::BoolSO*& dyn__postProcessEnabled();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn__postProcessEnabled();
     // public MainEffectSO get_mainEffect()
-    // Offset: 0x29E8588
+    // Offset: 0x2A3EE84
     ::GlobalNamespace::MainEffectSO* get_mainEffect();
-    // public System.Void Init(MainEffectSO mainEffect)
-    // Offset: 0x29E8610
-    void Init(::GlobalNamespace::MainEffectSO* mainEffect);
     // public System.Void .ctor()
-    // Offset: 0x29E8694
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A3EF90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainEffectContainerSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainEffectContainerSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainEffectContainerSO*, creationType>()));
     }
+    // public System.Void Init(MainEffectSO mainEffect)
+    // Offset: 0x2A3EF0C
+    void Init(::GlobalNamespace::MainEffectSO* mainEffect);
     // protected override System.Void OnEnable()
-    // Offset: 0x29E8590
+    // Offset: 0x2A3EE8C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
@@ -102,6 +89,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectContainerSO*), "get_mainEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MainEffectContainerSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectContainerSO::Init
 // Il2CppName: Init
 template<>
@@ -111,10 +102,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectContainerSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mainEffect});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MainEffectContainerSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectContainerSO::OnEnable
 // Il2CppName: OnEnable
 template<>

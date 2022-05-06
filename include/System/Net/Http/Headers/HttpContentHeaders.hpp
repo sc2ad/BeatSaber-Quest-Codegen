@@ -43,15 +43,7 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpContentHeaders : public ::System::Net::Http::Headers::HttpHeaders {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Net.Http.HttpContent content
     // Size: 0x8
     // Offset: 0x20
@@ -64,18 +56,18 @@ namespace System::Net::Http::Headers {
       return content;
     }
     // Get instance field reference: private readonly System.Net.Http.HttpContent content
-    ::System::Net::Http::HttpContent*& dyn_content();
+    [[deprecated("Use field access instead!")]] ::System::Net::Http::HttpContent*& dyn_content();
     // public System.Nullable`1<System.Int64> get_ContentLength()
-    // Offset: 0x1957858
+    // Offset: 0x198FE40
     ::System::Nullable_1<int64_t> get_ContentLength();
     // public System.Net.Http.Headers.MediaTypeHeaderValue get_ContentType()
-    // Offset: 0x19579D4
+    // Offset: 0x198FFBC
     ::System::Net::Http::Headers::MediaTypeHeaderValue* get_ContentType();
     // public System.Void set_ContentType(System.Net.Http.Headers.MediaTypeHeaderValue value)
-    // Offset: 0x1953394
+    // Offset: 0x198B97C
     void set_ContentType(::System::Net::Http::Headers::MediaTypeHeaderValue* value);
     // System.Void .ctor(System.Net.Http.HttpContent content)
-    // Offset: 0x19577B0
+    // Offset: 0x198FD98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpContentHeaders* New_ctor(::System::Net::Http::HttpContent* content) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::HttpContentHeaders::.ctor");

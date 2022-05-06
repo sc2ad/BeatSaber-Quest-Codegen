@@ -40,25 +40,27 @@ namespace Org::BouncyCastle::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509ExtensionBase : public ::Il2CppObject {
     public:
-    // protected Org.BouncyCastle.Asn1.X509.X509Extensions GetX509Extensions()
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
-    // public Org.BouncyCastle.Asn1.Asn1OctetString GetExtensionValue(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x25AB430
-    ::Org::BouncyCastle::Asn1::Asn1OctetString* GetExtensionValue(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // protected System.Void .ctor()
-    // Offset: 0x25A6C70
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x25F22A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ExtensionBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::X509::X509ExtensionBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ExtensionBase*, creationType>()));
     }
+    // protected Org.BouncyCastle.Asn1.X509.X509Extensions GetX509Extensions()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
+    // public Org.BouncyCastle.Asn1.Asn1OctetString GetExtensionValue(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
+    // Offset: 0x25F6A60
+    ::Org::BouncyCastle::Asn1::Asn1OctetString* GetExtensionValue(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
   }; // Org.BouncyCastle.X509.X509ExtensionBase
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::X509::X509ExtensionBase::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509ExtensionBase::GetX509Extensions
 // Il2CppName: GetX509Extensions
 template<>
@@ -76,7 +78,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::Boun
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509ExtensionBase*), "GetExtensionValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{oid});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::X509::X509ExtensionBase::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

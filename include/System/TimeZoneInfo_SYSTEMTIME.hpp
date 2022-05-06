@@ -78,21 +78,21 @@ namespace System {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: System.UInt16 wYear
-    uint16_t& dyn_wYear();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_wYear();
     // Get instance field reference: System.UInt16 wMonth
-    uint16_t& dyn_wMonth();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_wMonth();
     // Get instance field reference: System.UInt16 wDayOfWeek
-    uint16_t& dyn_wDayOfWeek();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_wDayOfWeek();
     // Get instance field reference: System.UInt16 wDay
-    uint16_t& dyn_wDay();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_wDay();
     // Get instance field reference: System.UInt16 wHour
-    uint16_t& dyn_wHour();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_wHour();
     // Get instance field reference: System.UInt16 wMinute
-    uint16_t& dyn_wMinute();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_wMinute();
     // Get instance field reference: System.UInt16 wSecond
-    uint16_t& dyn_wSecond();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_wSecond();
     // Get instance field reference: System.UInt16 wMilliseconds
-    uint16_t& dyn_wMilliseconds();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_wMilliseconds();
   }; // System.TimeZoneInfo/System.SYSTEMTIME
   #pragma pack(pop)
   static check_size<sizeof(TimeZoneInfo::SYSTEMTIME), 14 + sizeof(uint16_t)> __System_TimeZoneInfo_SYSTEMTIMESizeCheck;

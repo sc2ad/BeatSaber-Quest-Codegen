@@ -47,15 +47,7 @@ namespace Newtonsoft::Json::Serialization {
   // [PreserveAttribute] Offset: FFFFFFFF
   class DefaultContractResolverState : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Collections.Generic.Dictionary`2<Newtonsoft.Json.Serialization.ResolverContractKey,Newtonsoft.Json.Serialization.JsonContract> ContractCache
     // Size: 0x8
     // Offset: 0x10
@@ -70,13 +62,11 @@ namespace Newtonsoft::Json::Serialization {
     static_assert(sizeof(::Newtonsoft::Json::Utilities::PropertyNameTable*) == 0x8);
     public:
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<Newtonsoft.Json.Serialization.ResolverContractKey,Newtonsoft.Json.Serialization.JsonContract> ContractCache
-    ::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Serialization::ResolverContractKey, ::Newtonsoft::Json::Serialization::JsonContract*>*& dyn_ContractCache();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Serialization::ResolverContractKey, ::Newtonsoft::Json::Serialization::JsonContract*>*& dyn_ContractCache();
     // Get instance field reference: public Newtonsoft.Json.Utilities.PropertyNameTable NameTable
-    ::Newtonsoft::Json::Utilities::PropertyNameTable*& dyn_NameTable();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Utilities::PropertyNameTable*& dyn_NameTable();
     // public System.Void .ctor()
-    // Offset: 0x1D21680
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1D5DBD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultContractResolverState* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::DefaultContractResolverState::.ctor");

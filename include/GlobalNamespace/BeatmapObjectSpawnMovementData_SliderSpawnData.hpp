@@ -93,27 +93,27 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public readonly UnityEngine.Vector3 headMoveStartPos
-    ::UnityEngine::Vector3& dyn_headMoveStartPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_headMoveStartPos();
     // Get instance field reference: public readonly UnityEngine.Vector3 headJumpStartPos
-    ::UnityEngine::Vector3& dyn_headJumpStartPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_headJumpStartPos();
     // Get instance field reference: public readonly UnityEngine.Vector3 headJumpEndPos
-    ::UnityEngine::Vector3& dyn_headJumpEndPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_headJumpEndPos();
     // Get instance field reference: public readonly System.Single headJumpGravity
-    float& dyn_headJumpGravity();
+    [[deprecated("Use field access instead!")]] float& dyn_headJumpGravity();
     // Get instance field reference: public readonly UnityEngine.Vector3 tailMoveStartPos
-    ::UnityEngine::Vector3& dyn_tailMoveStartPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_tailMoveStartPos();
     // Get instance field reference: public readonly UnityEngine.Vector3 tailJumpStartPos
-    ::UnityEngine::Vector3& dyn_tailJumpStartPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_tailJumpStartPos();
     // Get instance field reference: public readonly UnityEngine.Vector3 tailJumpEndPos
-    ::UnityEngine::Vector3& dyn_tailJumpEndPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_tailJumpEndPos();
     // Get instance field reference: public readonly System.Single tailJumpGravity
-    float& dyn_tailJumpGravity();
+    [[deprecated("Use field access instead!")]] float& dyn_tailJumpGravity();
     // Get instance field reference: public readonly System.Single moveDuration
-    float& dyn_moveDuration();
+    [[deprecated("Use field access instead!")]] float& dyn_moveDuration();
     // Get instance field reference: public readonly System.Single jumpDuration
-    float& dyn_jumpDuration();
+    [[deprecated("Use field access instead!")]] float& dyn_jumpDuration();
     // public System.Void .ctor(UnityEngine.Vector3 headMoveStartPos, UnityEngine.Vector3 headJumpStartPos, UnityEngine.Vector3 headJumpEndPos, System.Single headJumpGravity, UnityEngine.Vector3 tailMoveStartPos, UnityEngine.Vector3 tailJumpStartPos, UnityEngine.Vector3 tailJumpEndPos, System.Single tailJumpGravity, System.Single moveDuration, System.Single jumpDuration)
-    // Offset: 0x1345204
+    // Offset: 0x132E44C
     // ABORTED: conflicts with another method.  SliderSpawnData(::UnityEngine::Vector3 headMoveStartPos, ::UnityEngine::Vector3 headJumpStartPos, ::UnityEngine::Vector3 headJumpEndPos, float headJumpGravity, ::UnityEngine::Vector3 tailMoveStartPos, ::UnityEngine::Vector3 tailJumpStartPos, ::UnityEngine::Vector3 tailJumpEndPos, float tailJumpGravity, float moveDuration, float jumpDuration);
   }; // BeatmapObjectSpawnMovementData/SliderSpawnData
   #pragma pack(pop)

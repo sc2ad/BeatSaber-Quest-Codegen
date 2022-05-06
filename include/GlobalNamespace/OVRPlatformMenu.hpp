@@ -89,20 +89,12 @@ namespace GlobalNamespace {
       // Set static field: static public OVRPlatformMenu/eHandler RetreatOneLevel
       static void _set_RetreatOneLevel(::GlobalNamespace::OVRPlatformMenu::eHandler value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // OVRPlatformMenu/eHandler
     #pragma pack(pop)
     static check_size<sizeof(OVRPlatformMenu::eHandler), 0 + sizeof(int)> __GlobalNamespace_OVRPlatformMenu_eHandlerSizeCheck;
     static_assert(sizeof(OVRPlatformMenu::eHandler) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private OVRInput/RawButton inputCode
     // Size: 0x4
     // Offset: 0x18
@@ -129,44 +121,36 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.Stack`1<System.String> sceneStack
     static void _set_sceneStack(::System::Collections::Generic::Stack_1<::StringW>* value);
     // Get instance field reference: private OVRInput/RawButton inputCode
-    ::GlobalNamespace::OVRInput::RawButton& dyn_inputCode();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRInput::RawButton& dyn_inputCode();
     // Get instance field reference: public OVRPlatformMenu/eHandler shortPressHandler
-    ::GlobalNamespace::OVRPlatformMenu::eHandler& dyn_shortPressHandler();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlatformMenu::eHandler& dyn_shortPressHandler();
     // Get instance field reference: public System.Func`1<System.Boolean> OnShortPress
-    ::System::Func_1<bool>*& dyn_OnShortPress();
-    // private OVRPlatformMenu/eBackButtonAction HandleBackButtonState()
-    // Offset: 0x16CE434
-    ::GlobalNamespace::OVRPlatformMenu::eBackButtonAction HandleBackButtonState();
-    // private System.Void Awake()
-    // Offset: 0x16CE4AC
-    void Awake();
-    // private System.Void ShowConfirmQuitMenu()
-    // Offset: 0x16CE60C
-    void ShowConfirmQuitMenu();
-    // static private System.Boolean RetreatOneLevel()
-    // Offset: 0x16CE6E0
-    static bool RetreatOneLevel();
-    // private System.Void Update()
-    // Offset: 0x16CE7D4
-    void Update();
+    [[deprecated("Use field access instead!")]] ::System::Func_1<bool>*& dyn_OnShortPress();
     // public System.Void .ctor()
-    // Offset: 0x16CE84C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x170615C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRPlatformMenu* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRPlatformMenu::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRPlatformMenu*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x16CE85C
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x170616C
     static void _cctor();
+    // private OVRPlatformMenu/eBackButtonAction HandleBackButtonState()
+    // Offset: 0x1705D44
+    ::GlobalNamespace::OVRPlatformMenu::eBackButtonAction HandleBackButtonState();
+    // private System.Void Awake()
+    // Offset: 0x1705DBC
+    void Awake();
+    // private System.Void ShowConfirmQuitMenu()
+    // Offset: 0x1705F1C
+    void ShowConfirmQuitMenu();
+    // static private System.Boolean RetreatOneLevel()
+    // Offset: 0x1705FF0
+    static bool RetreatOneLevel();
+    // private System.Void Update()
+    // Offset: 0x17060E4
+    void Update();
   }; // OVRPlatformMenu
   #pragma pack(pop)
   static check_size<sizeof(OVRPlatformMenu), 32 + sizeof(::System::Func_1<bool>*)> __GlobalNamespace_OVRPlatformMenuSizeCheck;
@@ -175,6 +159,18 @@ namespace GlobalNamespace {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlatformMenu::eHandler, "", "OVRPlatformMenu/eHandler");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlatformMenu::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlatformMenu::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlatformMenu::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlatformMenu*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlatformMenu::HandleBackButtonState
 // Il2CppName: HandleBackButtonState
 template<>
@@ -213,17 +209,5 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlatformMenu::*)()>(&GlobalNamespace::OVRPlatformMenu::Update)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlatformMenu*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::OVRPlatformMenu::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::OVRPlatformMenu::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlatformMenu::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlatformMenu*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

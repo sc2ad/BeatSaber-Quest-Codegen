@@ -35,18 +35,16 @@ namespace BeatmapSaveDataVersion2_6_0AndEarlier {
     // public System.Single get_time()
     // Offset: 0xFFFFFFFFFFFFFFFF
     float get_time();
-    // public System.Int32 CompareTo(BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveDataItem other)
-    // Offset: 0x2819580
-    int CompareTo(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem* other);
     // protected System.Void .ctor()
-    // Offset: 0x2819280
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x286B840
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveDataItem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveDataItem*, creationType>()));
     }
+    // public System.Int32 CompareTo(BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveDataItem other)
+    // Offset: 0x286BB40
+    int CompareTo(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem* other);
   }; // BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveDataItem
   #pragma pack(pop)
 }
@@ -59,6 +57,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Beat
     return ::il2cpp_utils::FindMethod(classof(BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem::CompareTo
 // Il2CppName: CompareTo
 template<>
@@ -68,7 +70,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Beatma
     return ::il2cpp_utils::FindMethod(classof(BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem*), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
-// Writing MetadataGetter for method: BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

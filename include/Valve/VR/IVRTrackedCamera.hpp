@@ -133,29 +133,29 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: Valve.VR.IVRTrackedCamera/Valve.VR._GetCameraErrorNameFromEnum GetCameraErrorNameFromEnum
-    ::Valve::VR::IVRTrackedCamera::_GetCameraErrorNameFromEnum*& dyn_GetCameraErrorNameFromEnum();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRTrackedCamera::_GetCameraErrorNameFromEnum*& dyn_GetCameraErrorNameFromEnum();
     // Get instance field reference: Valve.VR.IVRTrackedCamera/Valve.VR._HasCamera HasCamera
-    ::Valve::VR::IVRTrackedCamera::_HasCamera*& dyn_HasCamera();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRTrackedCamera::_HasCamera*& dyn_HasCamera();
     // Get instance field reference: Valve.VR.IVRTrackedCamera/Valve.VR._GetCameraFrameSize GetCameraFrameSize
-    ::Valve::VR::IVRTrackedCamera::_GetCameraFrameSize*& dyn_GetCameraFrameSize();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRTrackedCamera::_GetCameraFrameSize*& dyn_GetCameraFrameSize();
     // Get instance field reference: Valve.VR.IVRTrackedCamera/Valve.VR._GetCameraIntrinsics GetCameraIntrinsics
-    ::Valve::VR::IVRTrackedCamera::_GetCameraIntrinsics*& dyn_GetCameraIntrinsics();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRTrackedCamera::_GetCameraIntrinsics*& dyn_GetCameraIntrinsics();
     // Get instance field reference: Valve.VR.IVRTrackedCamera/Valve.VR._GetCameraProjection GetCameraProjection
-    ::Valve::VR::IVRTrackedCamera::_GetCameraProjection*& dyn_GetCameraProjection();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRTrackedCamera::_GetCameraProjection*& dyn_GetCameraProjection();
     // Get instance field reference: Valve.VR.IVRTrackedCamera/Valve.VR._AcquireVideoStreamingService AcquireVideoStreamingService
-    ::Valve::VR::IVRTrackedCamera::_AcquireVideoStreamingService*& dyn_AcquireVideoStreamingService();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRTrackedCamera::_AcquireVideoStreamingService*& dyn_AcquireVideoStreamingService();
     // Get instance field reference: Valve.VR.IVRTrackedCamera/Valve.VR._ReleaseVideoStreamingService ReleaseVideoStreamingService
-    ::Valve::VR::IVRTrackedCamera::_ReleaseVideoStreamingService*& dyn_ReleaseVideoStreamingService();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRTrackedCamera::_ReleaseVideoStreamingService*& dyn_ReleaseVideoStreamingService();
     // Get instance field reference: Valve.VR.IVRTrackedCamera/Valve.VR._GetVideoStreamFrameBuffer GetVideoStreamFrameBuffer
-    ::Valve::VR::IVRTrackedCamera::_GetVideoStreamFrameBuffer*& dyn_GetVideoStreamFrameBuffer();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRTrackedCamera::_GetVideoStreamFrameBuffer*& dyn_GetVideoStreamFrameBuffer();
     // Get instance field reference: Valve.VR.IVRTrackedCamera/Valve.VR._GetVideoStreamTextureSize GetVideoStreamTextureSize
-    ::Valve::VR::IVRTrackedCamera::_GetVideoStreamTextureSize*& dyn_GetVideoStreamTextureSize();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRTrackedCamera::_GetVideoStreamTextureSize*& dyn_GetVideoStreamTextureSize();
     // Get instance field reference: Valve.VR.IVRTrackedCamera/Valve.VR._GetVideoStreamTextureD3D11 GetVideoStreamTextureD3D11
-    ::Valve::VR::IVRTrackedCamera::_GetVideoStreamTextureD3D11*& dyn_GetVideoStreamTextureD3D11();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRTrackedCamera::_GetVideoStreamTextureD3D11*& dyn_GetVideoStreamTextureD3D11();
     // Get instance field reference: Valve.VR.IVRTrackedCamera/Valve.VR._GetVideoStreamTextureGL GetVideoStreamTextureGL
-    ::Valve::VR::IVRTrackedCamera::_GetVideoStreamTextureGL*& dyn_GetVideoStreamTextureGL();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRTrackedCamera::_GetVideoStreamTextureGL*& dyn_GetVideoStreamTextureGL();
     // Get instance field reference: Valve.VR.IVRTrackedCamera/Valve.VR._ReleaseVideoStreamTextureGL ReleaseVideoStreamTextureGL
-    ::Valve::VR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL*& dyn_ReleaseVideoStreamTextureGL();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL*& dyn_ReleaseVideoStreamTextureGL();
   }; // Valve.VR.IVRTrackedCamera
   #pragma pack(pop)
   static check_size<sizeof(IVRTrackedCamera), 88 + sizeof(::Valve::VR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL*)> __Valve_VR_IVRTrackedCameraSizeCheck;

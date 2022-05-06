@@ -54,15 +54,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameplayModifierToggle : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private GameplayModifierParamsSO _gameplayModifier
     // Size: 0x8
     // Offset: 0x18
@@ -99,7 +91,7 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Toggle* toggle;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Toggle*) == 0x8);
-    // [SpaceAttribute] Offset: 0x12599D4
+    // [SpaceAttribute] Offset: 0x10DE5B8
     // private UnityEngine.Color _positiveColor
     // Size: 0x10
     // Offset: 0x48
@@ -110,41 +102,35 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private GameplayModifierParamsSO _gameplayModifier
-    ::GlobalNamespace::GameplayModifierParamsSO*& dyn__gameplayModifier();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifierParamsSO*& dyn__gameplayModifier();
     // Get instance field reference: private TMPro.TextMeshProUGUI _nameText
-    ::TMPro::TextMeshProUGUI*& dyn__nameText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__nameText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _multiplierText
-    ::TMPro::TextMeshProUGUI*& dyn__multiplierText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__multiplierText();
     // Get instance field reference: private HMUI.HoverTextSetter _hoverTextSetter
-    ::HMUI::HoverTextSetter*& dyn__hoverTextSetter();
+    [[deprecated("Use field access instead!")]] ::HMUI::HoverTextSetter*& dyn__hoverTextSetter();
     // Get instance field reference: private UnityEngine.UI.Image _icon
-    ::UnityEngine::UI::Image*& dyn__icon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__icon();
     // Get instance field reference: private UnityEngine.UI.Toggle _toggle
-    ::UnityEngine::UI::Toggle*& dyn__toggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__toggle();
     // Get instance field reference: private UnityEngine.Color _positiveColor
-    ::UnityEngine::Color& dyn__positiveColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__positiveColor();
     // public UnityEngine.UI.Toggle get_toggle()
-    // Offset: 0x13E531C
+    // Offset: 0x13F1DBC
     ::UnityEngine::UI::Toggle* get_toggle();
     // public GameplayModifierParamsSO get_gameplayModifier()
-    // Offset: 0x13E5324
+    // Offset: 0x13F1DC4
     ::GlobalNamespace::GameplayModifierParamsSO* get_gameplayModifier();
-    // protected System.Void Start()
-    // Offset: 0x13E532C
-    void Start();
     // public System.Void .ctor()
-    // Offset: 0x13E5688
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13F2128
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayModifierToggle* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayModifierToggle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifierToggle*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x13F1DCC
+    void Start();
   }; // GameplayModifierToggle
   #pragma pack(pop)
   static check_size<sizeof(GameplayModifierToggle), 72 + sizeof(::UnityEngine::Color)> __GlobalNamespace_GameplayModifierToggleSizeCheck;
@@ -167,6 +153,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifierToggle*), "get_gameplayModifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifierToggle::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifierToggle::Start
 // Il2CppName: Start
 template<>
@@ -175,7 +165,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifierToggle*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifierToggle::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

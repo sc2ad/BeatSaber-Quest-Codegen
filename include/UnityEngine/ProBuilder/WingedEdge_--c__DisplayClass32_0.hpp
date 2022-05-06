@@ -32,15 +32,7 @@ namespace UnityEngine::ProBuilder {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class WingedEdge::$$c__DisplayClass32_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Collections.Generic.HashSet`1<System.Int32> common
     // Size: 0x8
     // Offset: 0x10
@@ -53,25 +45,27 @@ namespace UnityEngine::ProBuilder {
       return common;
     }
     // Get instance field reference: public System.Collections.Generic.HashSet`1<System.Int32> common
-    ::System::Collections::Generic::HashSet_1<int>*& dyn_common();
-    // System.Boolean <SortCommonIndexesByAdjacency>b__0(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x295D57C
-    bool $SortCommonIndexesByAdjacency$b__0(::UnityEngine::ProBuilder::WingedEdge* x);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<int>*& dyn_common();
     // public System.Void .ctor()
-    // Offset: 0x295D380
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x29AD940
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WingedEdge::$$c__DisplayClass32_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::WingedEdge::$$c__DisplayClass32_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WingedEdge::$$c__DisplayClass32_0*, creationType>()));
     }
+    // System.Boolean <SortCommonIndexesByAdjacency>b__0(UnityEngine.ProBuilder.WingedEdge x)
+    // Offset: 0x29ADB3C
+    bool $SortCommonIndexesByAdjacency$b__0(::UnityEngine::ProBuilder::WingedEdge* x);
   }; // UnityEngine.ProBuilder.WingedEdge/UnityEngine.ProBuilder.<>c__DisplayClass32_0
   #pragma pack(pop)
   static check_size<sizeof(WingedEdge::$$c__DisplayClass32_0), 16 + sizeof(::System::Collections::Generic::HashSet_1<int>*)> __UnityEngine_ProBuilder_WingedEdge_$$c__DisplayClass32_0SizeCheck;
   static_assert(sizeof(WingedEdge::$$c__DisplayClass32_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::WingedEdge::$$c__DisplayClass32_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::WingedEdge::$$c__DisplayClass32_0::$SortCommonIndexesByAdjacency$b__0
 // Il2CppName: <SortCommonIndexesByAdjacency>b__0
 template<>
@@ -81,7 +75,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::WingedEdge::$$c__DisplayClass32_0*), "<SortCommonIndexesByAdjacency>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ProBuilder::WingedEdge::$$c__DisplayClass32_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -50,15 +50,7 @@ namespace Org::BouncyCastle::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509CrlEntry : public ::Org::BouncyCastle::X509::X509ExtensionBase {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Org.BouncyCastle.Asn1.X509.CrlEntry c
     // Size: 0x8
     // Offset: 0x10
@@ -101,53 +93,53 @@ namespace Org::BouncyCastle::X509 {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private Org.BouncyCastle.Asn1.X509.CrlEntry c
-    ::Org::BouncyCastle::Asn1::X509::CrlEntry*& dyn_c();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::X509::CrlEntry*& dyn_c();
     // Get instance field reference: private System.Boolean isIndirect
-    bool& dyn_isIndirect();
+    [[deprecated("Use field access instead!")]] bool& dyn_isIndirect();
     // Get instance field reference: private Org.BouncyCastle.Asn1.X509.X509Name previousCertificateIssuer
-    ::Org::BouncyCastle::Asn1::X509::X509Name*& dyn_previousCertificateIssuer();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::X509::X509Name*& dyn_previousCertificateIssuer();
     // Get instance field reference: private Org.BouncyCastle.Asn1.X509.X509Name certificateIssuer
-    ::Org::BouncyCastle::Asn1::X509::X509Name*& dyn_certificateIssuer();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::X509::X509Name*& dyn_certificateIssuer();
     // Get instance field reference: private System.Boolean hashValueSet
-    bool& dyn_hashValueSet();
+    [[deprecated("Use field access instead!")]] bool& dyn_hashValueSet();
     // Get instance field reference: private System.Int32 hashValue
-    int& dyn_hashValue();
+    [[deprecated("Use field access instead!")]] int& dyn_hashValue();
     // public Org.BouncyCastle.Math.BigInteger get_SerialNumber()
-    // Offset: 0x25AA35C
+    // Offset: 0x25F598C
     ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
     // public System.DateTime get_RevocationDate()
-    // Offset: 0x25AA384
+    // Offset: 0x25F59B4
     ::System::DateTime get_RevocationDate();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.CrlEntry c, System.Boolean isIndirect, Org.BouncyCastle.Asn1.X509.X509Name previousCertificateIssuer)
-    // Offset: 0x25A8EF4
+    // Offset: 0x25F4524
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CrlEntry* New_ctor(::Org::BouncyCastle::Asn1::X509::CrlEntry* c, bool isIndirect, ::Org::BouncyCastle::Asn1::X509::X509Name* previousCertificateIssuer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::X509::X509CrlEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CrlEntry*, creationType>(c, isIndirect, previousCertificateIssuer)));
     }
     // private Org.BouncyCastle.Asn1.X509.X509Name loadCertificateIssuer()
-    // Offset: 0x25AA174
+    // Offset: 0x25F57A4
     ::Org::BouncyCastle::Asn1::X509::X509Name* loadCertificateIssuer();
     // public Org.BouncyCastle.Asn1.X509.X509Name GetCertificateIssuer()
-    // Offset: 0x25AA338
+    // Offset: 0x25F5968
     ::Org::BouncyCastle::Asn1::X509::X509Name* GetCertificateIssuer();
     // protected override Org.BouncyCastle.Asn1.X509.X509Extensions GetX509Extensions()
-    // Offset: 0x25AA340
+    // Offset: 0x25F5970
     // Implemented from: Org.BouncyCastle.X509.X509ExtensionBase
     // Base method: Org.BouncyCastle.Asn1.X509.X509Extensions X509ExtensionBase::GetX509Extensions()
     ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0x25AA3AC
+    // Offset: 0x25F59DC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x25AA4A8
+    // Offset: 0x25F5AD8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x25AA510
+    // Offset: 0x25F5B40
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

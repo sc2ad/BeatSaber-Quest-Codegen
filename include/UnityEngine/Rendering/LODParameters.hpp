@@ -71,25 +71,25 @@ namespace UnityEngine::Rendering {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>*>(this);
     }
     // Get instance field reference: private System.Int32 m_IsOrthographic
-    int& dyn_m_IsOrthographic();
+    [[deprecated("Use field access instead!")]] int& dyn_m_IsOrthographic();
     // Get instance field reference: private UnityEngine.Vector3 m_CameraPosition
-    ::UnityEngine::Vector3& dyn_m_CameraPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_m_CameraPosition();
     // Get instance field reference: private System.Single m_FieldOfView
-    float& dyn_m_FieldOfView();
+    [[deprecated("Use field access instead!")]] float& dyn_m_FieldOfView();
     // Get instance field reference: private System.Single m_OrthoSize
-    float& dyn_m_OrthoSize();
+    [[deprecated("Use field access instead!")]] float& dyn_m_OrthoSize();
     // Get instance field reference: private System.Int32 m_CameraPixelHeight
-    int& dyn_m_CameraPixelHeight();
+    [[deprecated("Use field access instead!")]] int& dyn_m_CameraPixelHeight();
     // public System.Boolean Equals(UnityEngine.Rendering.LODParameters other)
-    // Offset: 0x20CBC00
+    // Offset: 0x2115474
     bool Equals(::UnityEngine::Rendering::LODParameters other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x20CBC88
+    // Offset: 0x21154FC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x20CBD28
+    // Offset: 0x211559C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

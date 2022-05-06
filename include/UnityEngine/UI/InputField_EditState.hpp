@@ -51,7 +51,7 @@ namespace UnityEngine::UI {
     // Set static field: static public UnityEngine.UI.InputField/UnityEngine.UI.EditState Finish
     static void _set_Finish(::UnityEngine::UI::InputField::EditState value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.UI.InputField/UnityEngine.UI.EditState
   #pragma pack(pop)
   static check_size<sizeof(InputField::EditState), 0 + sizeof(int)> __UnityEngine_UI_InputField_EditStateSizeCheck;

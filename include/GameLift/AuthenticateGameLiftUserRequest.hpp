@@ -48,15 +48,7 @@ namespace GameLift {
   // [TokenAttribute] Offset: FFFFFFFF
   class AuthenticateGameLiftUserRequest : public ::BGNet::Core::Messages::BaseReliableResponse/*, public ::BGNet::Core::Messages::IUnconnectedAuthenticateRequest, public ::GameLift::IGameLiftClientToServerMessage*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String <userId>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -85,51 +77,50 @@ namespace GameLift {
       return *reinterpret_cast<::GameLift::IGameLiftClientToServerMessage*>(this);
     }
     // Get instance field reference: private System.String <userId>k__BackingField
-    ::StringW& dyn_$userId$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$userId$k__BackingField();
     // Get instance field reference: private System.String <userName>k__BackingField
-    ::StringW& dyn_$userName$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$userName$k__BackingField();
     // Get instance field reference: public System.String playerSessionId
-    ::StringW& dyn_playerSessionId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_playerSessionId();
     // static public PacketPool`1<GameLift.AuthenticateGameLiftUserRequest> get_pool()
-    // Offset: 0x1642110
+    // Offset: 0x1678A20
     static ::GlobalNamespace::PacketPool_1<::GameLift::AuthenticateGameLiftUserRequest*>* get_pool();
     // public System.String get_userId()
-    // Offset: 0x1642158
+    // Offset: 0x1678A68
     ::StringW get_userId();
     // private System.Void set_userId(System.String value)
-    // Offset: 0x1642160
+    // Offset: 0x1678A70
     void set_userId(::StringW value);
     // public System.String get_userName()
-    // Offset: 0x1642168
+    // Offset: 0x1678A78
     ::StringW get_userName();
     // private System.Void set_userName(System.String value)
-    // Offset: 0x1642170
+    // Offset: 0x1678A80
     void set_userName(::StringW value);
     // public GameLift.AuthenticateGameLiftUserRequest Init(System.String userId, System.String userName, System.String playerSessionId)
-    // Offset: 0x1642178
+    // Offset: 0x1678A88
     ::GameLift::AuthenticateGameLiftUserRequest* Init(::StringW userId, ::StringW userName, ::StringW playerSessionId);
     // public System.Void .ctor()
-    // Offset: 0x164229C
+    // Offset: 0x1678BAC
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AuthenticateGameLiftUserRequest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GameLift::AuthenticateGameLiftUserRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticateGameLiftUserRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1642184
+    // Offset: 0x1678A94
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16421E0
+    // Offset: 0x1678AF0
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x1642240
+    // Offset: 0x1678B50
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Release()
     void Release();

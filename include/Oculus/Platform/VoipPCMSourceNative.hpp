@@ -29,15 +29,7 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class VoipPCMSourceNative : public ::Il2CppObject/*, public ::Oculus::Platform::IVoipPCMSource*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.UInt64 senderID
     // Size: 0x8
     // Offset: 0x10
@@ -54,34 +46,36 @@ namespace Oculus::Platform {
       return senderID;
     }
     // Get instance field reference: private System.UInt64 senderID
-    uint64_t& dyn_senderID();
-    // public System.Int32 GetPCM(System.Single[] dest, System.Int32 length)
-    // Offset: 0x2A2C74C
-    int GetPCM(::ArrayW<float> dest, int length);
-    // public System.Void SetSenderID(System.UInt64 senderID)
-    // Offset: 0x2A2C80C
-    void SetSenderID(uint64_t senderID);
-    // public System.Int32 PeekSizeElements()
-    // Offset: 0x2A2C814
-    int PeekSizeElements();
-    // public System.Void Update()
-    // Offset: 0x2A2C8B4
-    void Update();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_senderID();
     // public System.Void .ctor()
-    // Offset: 0x2A2BC28
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A82010
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VoipPCMSourceNative* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::VoipPCMSourceNative::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VoipPCMSourceNative*, creationType>()));
     }
+    // public System.Int32 GetPCM(System.Single[] dest, System.Int32 length)
+    // Offset: 0x2A82B34
+    int GetPCM(::ArrayW<float> dest, int length);
+    // public System.Void SetSenderID(System.UInt64 senderID)
+    // Offset: 0x2A82BF4
+    void SetSenderID(uint64_t senderID);
+    // public System.Int32 PeekSizeElements()
+    // Offset: 0x2A82BFC
+    int PeekSizeElements();
+    // public System.Void Update()
+    // Offset: 0x2A82C9C
+    void Update();
   }; // Oculus.Platform.VoipPCMSourceNative
   #pragma pack(pop)
   static check_size<sizeof(VoipPCMSourceNative), 16 + sizeof(uint64_t)> __Oculus_Platform_VoipPCMSourceNativeSizeCheck;
   static_assert(sizeof(VoipPCMSourceNative) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Oculus::Platform::VoipPCMSourceNative::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::VoipPCMSourceNative::GetPCM
 // Il2CppName: GetPCM
 template<>
@@ -117,7 +111,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::VoipPCMSourceNative*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Oculus::Platform::VoipPCMSourceNative::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

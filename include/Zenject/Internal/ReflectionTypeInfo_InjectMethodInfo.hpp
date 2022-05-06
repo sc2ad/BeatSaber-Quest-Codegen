@@ -37,15 +37,7 @@ namespace Zenject::Internal {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class ReflectionTypeInfo::InjectMethodInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Reflection.MethodInfo MethodInfo
     // Size: 0x8
     // Offset: 0x10
@@ -60,11 +52,11 @@ namespace Zenject::Internal {
     static_assert(sizeof(::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>*) == 0x8);
     public:
     // Get instance field reference: public readonly System.Reflection.MethodInfo MethodInfo
-    ::System::Reflection::MethodInfo*& dyn_MethodInfo();
+    [[deprecated("Use field access instead!")]] ::System::Reflection::MethodInfo*& dyn_MethodInfo();
     // Get instance field reference: public readonly System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo> Parameters
-    ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>*& dyn_Parameters();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>*& dyn_Parameters();
     // public System.Void .ctor(System.Reflection.MethodInfo methodInfo, System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo> parameters)
-    // Offset: 0x1BD4B6C
+    // Offset: 0x1C0F154
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionTypeInfo::InjectMethodInfo* New_ctor(::System::Reflection::MethodInfo* methodInfo, ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo::.ctor");

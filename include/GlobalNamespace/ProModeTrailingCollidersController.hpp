@@ -43,15 +43,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ProModeTrailingCollidersController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BoxCuttableBySaber _mainSmallCuttableBySaber
     // Size: 0x8
     // Offset: 0x18
@@ -80,41 +72,39 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BoxCuttableBySaber _mainSmallCuttableBySaber
-    ::GlobalNamespace::BoxCuttableBySaber*& dyn__mainSmallCuttableBySaber();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoxCuttableBySaber*& dyn__mainSmallCuttableBySaber();
     // Get instance field reference: private BoxCuttableBySaber[] _trailingSmallCuttableBySaberList
-    ::ArrayW<::GlobalNamespace::BoxCuttableBySaber*>& dyn__trailingSmallCuttableBySaberList();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::BoxCuttableBySaber*>& dyn__trailingSmallCuttableBySaberList();
     // Get instance field reference: private NoteMovement _noteMovement
-    ::GlobalNamespace::NoteMovement*& dyn__noteMovement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteMovement*& dyn__noteMovement();
     // Get instance field reference: private UnityEngine.Transform _transform
-    ::UnityEngine::Transform*& dyn__transform();
-    // protected System.Void Start()
-    // Offset: 0x1379D18
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x1379DB4
-    void OnDestroy();
-    // private System.Void HandleNoteDidMoveInJumpPhase()
-    // Offset: 0x1379E88
-    void HandleNoteDidMoveInJumpPhase();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // public System.Void .ctor()
-    // Offset: 0x137A030
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13E136C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProModeTrailingCollidersController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ProModeTrailingCollidersController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProModeTrailingCollidersController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x13E1054
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13E10F0
+    void OnDestroy();
+    // private System.Void HandleNoteDidMoveInJumpPhase()
+    // Offset: 0x13E11C4
+    void HandleNoteDidMoveInJumpPhase();
   }; // ProModeTrailingCollidersController
   #pragma pack(pop)
   static check_size<sizeof(ProModeTrailingCollidersController), 48 + sizeof(::UnityEngine::Transform*)> __GlobalNamespace_ProModeTrailingCollidersControllerSizeCheck;
   static_assert(sizeof(ProModeTrailingCollidersController) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ProModeTrailingCollidersController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ProModeTrailingCollidersController::Start
 // Il2CppName: Start
 template<>
@@ -139,7 +129,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ProModeTrailingCollidersController*), "HandleNoteDidMoveInJumpPhase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ProModeTrailingCollidersController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -84,7 +84,7 @@ namespace NUnit::Framework::Internal {
     // Set static field: static public NUnit.Framework.Internal.InternalTraceLevel Verbose
     static void _set_Verbose(::NUnit::Framework::Internal::InternalTraceLevel value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // NUnit.Framework.Internal.InternalTraceLevel
   #pragma pack(pop)
   static check_size<sizeof(InternalTraceLevel), 0 + sizeof(int)> __NUnit_Framework_Internal_InternalTraceLevelSizeCheck;

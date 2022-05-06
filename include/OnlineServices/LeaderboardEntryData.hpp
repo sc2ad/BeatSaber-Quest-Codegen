@@ -34,15 +34,7 @@ namespace OnlineServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardEntryData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Int32 score
     // Size: 0x4
     // Offset: 0x10
@@ -75,24 +67,24 @@ namespace OnlineServices {
     static_assert(sizeof(::GlobalNamespace::GameplayModifiers*) == 0x8);
     public:
     // Get instance field reference: public readonly System.Int32 score
-    int& dyn_score();
+    [[deprecated("Use field access instead!")]] int& dyn_score();
     // Get instance field reference: public readonly System.Int32 rank
-    int& dyn_rank();
+    [[deprecated("Use field access instead!")]] int& dyn_rank();
     // Get instance field reference: public System.String displayName
-    ::StringW& dyn_displayName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_displayName();
     // Get instance field reference: public readonly System.String playerId
-    ::StringW& dyn_playerId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_playerId();
     // Get instance field reference: public readonly GameplayModifiers gameplayModifiers
-    ::GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
     // public System.Void .ctor(System.Int32 score, System.Int32 rank, System.String displayName, System.String playerId, GameplayModifiers gameplayModifiers)
-    // Offset: 0x12E641C
+    // Offset: 0x13573BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardEntryData* New_ctor(int score, int rank, ::StringW displayName, ::StringW playerId, ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::LeaderboardEntryData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardEntryData*, creationType>(score, rank, displayName, playerId, gameplayModifiers)));
     }
     // public override System.String ToString()
-    // Offset: 0x12E6470
+    // Offset: 0x1357410
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

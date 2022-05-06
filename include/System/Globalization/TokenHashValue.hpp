@@ -29,15 +29,7 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class TokenHashValue : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.String tokenString
     // Size: 0x8
     // Offset: 0x10
@@ -58,13 +50,13 @@ namespace System::Globalization {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: System.String tokenString
-    ::StringW& dyn_tokenString();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_tokenString();
     // Get instance field reference: System.TokenType tokenType
-    ::System::TokenType& dyn_tokenType();
+    [[deprecated("Use field access instead!")]] ::System::TokenType& dyn_tokenType();
     // Get instance field reference: System.Int32 tokenValue
-    int& dyn_tokenValue();
+    [[deprecated("Use field access instead!")]] int& dyn_tokenValue();
     // System.Void .ctor(System.String tokenString, System.TokenType tokenType, System.Int32 tokenValue)
-    // Offset: 0x1F546CC
+    // Offset: 0x1FA0F40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TokenHashValue* New_ctor(::StringW tokenString, ::System::TokenType tokenType, int tokenValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::TokenHashValue::.ctor");

@@ -27,15 +27,7 @@ namespace Microsoft::Win32 {
   // [TokenAttribute] Offset: FFFFFFFF
   class ExpandString : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String value
     // Size: 0x8
     // Offset: 0x10
@@ -48,19 +40,19 @@ namespace Microsoft::Win32 {
       return value;
     }
     // Get instance field reference: private System.String value
-    ::StringW& dyn_value();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_value();
     // public System.Void .ctor(System.String s)
-    // Offset: 0x1EF0AC0
+    // Offset: 0x1F3DFF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExpandString* New_ctor(::StringW s) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Microsoft::Win32::ExpandString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExpandString*, creationType>(s)));
     }
     // public System.String Expand()
-    // Offset: 0x1EF0AF4
+    // Offset: 0x1F3E02C
     ::StringW Expand();
     // public override System.String ToString()
-    // Offset: 0x1EF0AEC
+    // Offset: 0x1F3E024
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

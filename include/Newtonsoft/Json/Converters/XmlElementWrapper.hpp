@@ -42,15 +42,7 @@ namespace Newtonsoft::Json::Converters {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlElementWrapper : public ::Newtonsoft::Json::Converters::XmlNodeWrapper/*, public ::Newtonsoft::Json::Converters::IXmlElement*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Xml.XmlElement _element
     // Size: 0x8
     // Offset: 0x28
@@ -67,22 +59,22 @@ namespace Newtonsoft::Json::Converters {
       return element;
     }
     // Get instance field reference: private readonly System.Xml.XmlElement _element
-    ::System::Xml::XmlElement*& dyn__element();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlElement*& dyn__element();
     // public System.Boolean get_IsEmpty()
-    // Offset: 0x178179C
+    // Offset: 0x17BB0AC
     bool get_IsEmpty();
     // public System.Void .ctor(System.Xml.XmlElement element)
-    // Offset: 0x1781390
+    // Offset: 0x17BACA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlElementWrapper* New_ctor(::System::Xml::XmlElement* element) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XmlElementWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlElementWrapper*, creationType>(element)));
     }
     // public System.Void SetAttributeNode(Newtonsoft.Json.Converters.IXmlNode attribute)
-    // Offset: 0x178168C
+    // Offset: 0x17BAF9C
     void SetAttributeNode(::Newtonsoft::Json::Converters::IXmlNode* attribute);
     // public System.String GetPrefixOfNamespace(System.String namespaceUri)
-    // Offset: 0x1781778
+    // Offset: 0x17BB088
     ::StringW GetPrefixOfNamespace(::StringW namespaceUri);
   }; // Newtonsoft.Json.Converters.XmlElementWrapper
   #pragma pack(pop)

@@ -94,15 +94,7 @@ namespace GlobalNamespace {
     class $PlayRandomRowSlideInSound$d__31;
     // Nested type: ::GlobalNamespace::MultiplayerResultsTableView::$PlayAvatarSlideInSound$d__32
     class $PlayAvatarSlideInSound$d__32;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.TableView _tableView
     // Size: 0x8
     // Offset: 0x18
@@ -127,7 +119,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerResultsTableCell* cellPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerResultsTableCell*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125E548
+    // [SpaceAttribute] Offset: 0x10E312C
     // private System.Single _startRowXPosition
     // Size: 0x4
     // Offset: 0x38
@@ -178,7 +170,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* multiplayerOffsetByLocalPlayerPosition;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*) == 0x8);
-    // [HeaderAttribute] Offset: 0x125E5F0
+    // [HeaderAttribute] Offset: 0x10E31D4
     // private UnityEngine.AudioSource _outroSfxAudioSource
     // Size: 0x8
     // Offset: 0x60
@@ -197,21 +189,21 @@ namespace GlobalNamespace {
     ::UnityEngine::AudioClip* avatarSlideAudioClip;
     // Field size check
     static_assert(sizeof(::UnityEngine::AudioClip*) == 0x8);
-    // [InjectAttribute] Offset: 0x125E65C
+    // [InjectAttribute] Offset: 0x10E3240
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x78
     ::Tweening::TimeTweeningManager* tweeningManager;
     // Field size check
     static_assert(sizeof(::Tweening::TimeTweeningManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x125E66C
+    // [InjectAttribute] Offset: 0x10E3250
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x80
     ::GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x125E67C
+    // [InjectAttribute] Offset: 0x10E3260
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x88
@@ -262,106 +254,104 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kCellIdentifier
     static void _set_kCellIdentifier(::StringW value);
     // Get instance field reference: private HMUI.TableView _tableView
-    ::HMUI::TableView*& dyn__tableView();
+    [[deprecated("Use field access instead!")]] ::HMUI::TableView*& dyn__tableView();
     // Get instance field reference: private UnityEngine.RectTransform _tableViewRectTransform
-    ::UnityEngine::RectTransform*& dyn__tableViewRectTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__tableViewRectTransform();
     // Get instance field reference: private MultiplayerResultsTableCell _winnerTableCell
-    ::GlobalNamespace::MultiplayerResultsTableCell*& dyn__winnerTableCell();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerResultsTableCell*& dyn__winnerTableCell();
     // Get instance field reference: private MultiplayerResultsTableCell _cellPrefab
-    ::GlobalNamespace::MultiplayerResultsTableCell*& dyn__cellPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerResultsTableCell*& dyn__cellPrefab();
     // Get instance field reference: private System.Single _startRowXPosition
-    float& dyn__startRowXPosition();
+    [[deprecated("Use field access instead!")]] float& dyn__startRowXPosition();
     // Get instance field reference: private System.Single _rowHeight
-    float& dyn__rowHeight();
+    [[deprecated("Use field access instead!")]] float& dyn__rowHeight();
     // Get instance field reference: private System.Single _rowXOffset
-    float& dyn__rowXOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__rowXOffset();
     // Get instance field reference: private System.Single _animationDuration
-    float& dyn__animationDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__animationDuration();
     // Get instance field reference: private System.Single _animationSeparationTime
-    float& dyn__animationSeparationTime();
+    [[deprecated("Use field access instead!")]] float& dyn__animationSeparationTime();
     // Get instance field reference: private System.Single _winnerAnimationDuration
-    float& dyn__winnerAnimationDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__winnerAnimationDuration();
     // Get instance field reference: private System.Single _duelTablePosXOffset
-    float& dyn__duelTablePosXOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__duelTablePosXOffset();
     // Get instance field reference: private MultiplayerOffsetPositionByLocalPlayerPosition _multiplayerOffsetByLocalPlayerPosition
-    ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*& dyn__multiplayerOffsetByLocalPlayerPosition();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*& dyn__multiplayerOffsetByLocalPlayerPosition();
     // Get instance field reference: private UnityEngine.AudioSource _outroSfxAudioSource
-    ::UnityEngine::AudioSource*& dyn__outroSfxAudioSource();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioSource*& dyn__outroSfxAudioSource();
     // Get instance field reference: private UnityEngine.AudioClip[] _rowSlideAudioClips
-    ::ArrayW<::UnityEngine::AudioClip*>& dyn__rowSlideAudioClips();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::AudioClip*>& dyn__rowSlideAudioClips();
     // Get instance field reference: private UnityEngine.AudioClip _avatarSlideAudioClip
-    ::UnityEngine::AudioClip*& dyn__avatarSlideAudioClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioClip*& dyn__avatarSlideAudioClip();
     // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
-    ::Tweening::TimeTweeningManager*& dyn__tweeningManager();
+    [[deprecated("Use field access instead!")]] ::Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private readonly MultiplayerLayoutProvider _layoutProvider
-    ::GlobalNamespace::MultiplayerLayoutProvider*& dyn__layoutProvider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLayoutProvider*& dyn__layoutProvider();
     // Get instance field reference: private readonly Zenject.DiContainer _container
-    ::Zenject::DiContainer*& dyn__container();
+    [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn__container();
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> _dataList
-    ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*& dyn__dataList();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*& dyn__dataList();
     // Get instance field reference: private UnityEngine.Vector3 _positionOffset
-    ::UnityEngine::Vector3& dyn__positionOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__positionOffset();
     // Get instance field reference: private UnityEngine.Quaternion _rotationOffset
-    ::UnityEngine::Quaternion& dyn__rotationOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__rotationOffset();
     // Get instance field reference: private UnityEngine.Vector3 _lastParentPosition
-    ::UnityEngine::Vector3& dyn__lastParentPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__lastParentPosition();
     // Get instance field reference: private UnityEngine.Quaternion _lastParentRotation
-    ::UnityEngine::Quaternion& dyn__lastParentRotation();
-    // public System.Single CellSize()
-    // Offset: 0x13A6CB8
-    float CellSize();
-    // public System.Int32 NumberOfCells()
-    // Offset: 0x13A6CC0
-    int NumberOfCells();
-    // protected System.Void Awake()
-    // Offset: 0x13A6D30
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13A6D90
-    void OnDestroy();
-    // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x13A6E28
-    ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int idx);
-    // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> dataList)
-    // Offset: 0x13A7288
-    void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* dataList);
-    // public System.Single StartAnimation()
-    // Offset: 0x13A7538
-    float StartAnimation();
-    // private System.Collections.IEnumerator PlayRandomRowSlideInSound(System.Single delay)
-    // Offset: 0x13A7DBC
-    ::System::Collections::IEnumerator* PlayRandomRowSlideInSound(float delay);
-    // private System.Collections.IEnumerator PlayAvatarSlideInSound(System.Single delay)
-    // Offset: 0x13A7E68
-    ::System::Collections::IEnumerator* PlayAvatarSlideInSound(float delay);
-    // private System.Void <StartAnimation>b__30_1()
-    // Offset: 0x13A7F30
-    void $StartAnimation$b__30_1();
-    // private System.Void <StartAnimation>b__30_4()
-    // Offset: 0x13A7F64
-    void $StartAnimation$b__30_4();
-    // private System.Void <StartAnimation>b__30_5(System.Single val)
-    // Offset: 0x13A7F98
-    void $StartAnimation$b__30_5(float val);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__lastParentRotation();
     // public System.Void .ctor()
-    // Offset: 0x13A7F14
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13A43C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerResultsTableView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerResultsTableView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsTableView*, creationType>()));
     }
+    // public System.Single CellSize()
+    // Offset: 0x13A3164
+    float CellSize();
+    // public System.Int32 NumberOfCells()
+    // Offset: 0x13A316C
+    int NumberOfCells();
+    // protected System.Void Awake()
+    // Offset: 0x13A31DC
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13A323C
+    void OnDestroy();
+    // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
+    // Offset: 0x13A32D4
+    ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int idx);
+    // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> dataList)
+    // Offset: 0x13A3734
+    void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* dataList);
+    // public System.Single StartAnimation()
+    // Offset: 0x13A39E4
+    float StartAnimation();
+    // private System.Collections.IEnumerator PlayRandomRowSlideInSound(System.Single delay)
+    // Offset: 0x13A4268
+    ::System::Collections::IEnumerator* PlayRandomRowSlideInSound(float delay);
+    // private System.Collections.IEnumerator PlayAvatarSlideInSound(System.Single delay)
+    // Offset: 0x13A4314
+    ::System::Collections::IEnumerator* PlayAvatarSlideInSound(float delay);
+    // private System.Void <StartAnimation>b__30_1()
+    // Offset: 0x13A43DC
+    void $StartAnimation$b__30_1();
+    // private System.Void <StartAnimation>b__30_4()
+    // Offset: 0x13A4410
+    void $StartAnimation$b__30_4();
+    // private System.Void <StartAnimation>b__30_5(System.Single val)
+    // Offset: 0x13A4444
+    void $StartAnimation$b__30_5(float val);
   }; // MultiplayerResultsTableView
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerResultsTableView), 192 + sizeof(::UnityEngine::Quaternion)> __GlobalNamespace_MultiplayerResultsTableViewSizeCheck;
   static_assert(sizeof(MultiplayerResultsTableView) == 0xD0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsTableView::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsTableView::CellSize
 // Il2CppName: CellSize
 template<>
@@ -464,7 +454,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsTableView*), "<StartAnimation>b__30_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsTableView::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

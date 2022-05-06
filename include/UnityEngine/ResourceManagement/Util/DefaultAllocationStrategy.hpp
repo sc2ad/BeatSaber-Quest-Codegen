@@ -39,25 +39,27 @@ namespace UnityEngine::ResourceManagement::Util {
     operator ::UnityEngine::ResourceManagement::Util::IAllocationStrategy() noexcept {
       return *reinterpret_cast<::UnityEngine::ResourceManagement::Util::IAllocationStrategy*>(this);
     }
-    // public System.Object New(System.Type type, System.Int32 typeHash)
-    // Offset: 0x1EA2338
-    ::Il2CppObject* New(::System::Type* type, int typeHash);
-    // public System.Void Release(System.Int32 typeHash, System.Object obj)
-    // Offset: 0x1EA2344
-    void Release(int typeHash, ::Il2CppObject* obj);
     // public System.Void .ctor()
-    // Offset: 0x1EA2348
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1EF0880
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultAllocationStrategy* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultAllocationStrategy*, creationType>()));
     }
+    // public System.Object New(System.Type type, System.Int32 typeHash)
+    // Offset: 0x1EF0870
+    ::Il2CppObject* New(::System::Type* type, int typeHash);
+    // public System.Void Release(System.Int32 typeHash, System.Object obj)
+    // Offset: 0x1EF087C
+    void Release(int typeHash, ::Il2CppObject* obj);
   }; // UnityEngine.ResourceManagement.Util.DefaultAllocationStrategy
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy::New
 // Il2CppName: New
 template<>
@@ -78,7 +80,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeHash, obj});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

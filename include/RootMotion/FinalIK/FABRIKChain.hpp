@@ -40,29 +40,21 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class FABRIKChain : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public RootMotion.FinalIK.FABRIK ik
     // Size: 0x8
     // Offset: 0x10
     ::RootMotion::FinalIK::FABRIK* ik;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::FABRIK*) == 0x8);
-    // [RangeAttribute] Offset: 0x1273CC0
+    // [RangeAttribute] Offset: 0x10F8978
     // public System.Single pull
     // Size: 0x4
     // Offset: 0x18
     float pull;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x1273CD8
+    // [RangeAttribute] Offset: 0x10F8990
     // public System.Single pin
     // Size: 0x4
     // Offset: 0x1C
@@ -77,43 +69,45 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::ArrayW<int>) == 0x8);
     public:
     // Get instance field reference: public RootMotion.FinalIK.FABRIK ik
-    ::RootMotion::FinalIK::FABRIK*& dyn_ik();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::FABRIK*& dyn_ik();
     // Get instance field reference: public System.Single pull
-    float& dyn_pull();
+    [[deprecated("Use field access instead!")]] float& dyn_pull();
     // Get instance field reference: public System.Single pin
-    float& dyn_pin();
+    [[deprecated("Use field access instead!")]] float& dyn_pin();
     // Get instance field reference: public System.Int32[] children
-    ::ArrayW<int>& dyn_children();
-    // public System.Boolean IsValid(ref System.String message)
-    // Offset: 0x220592C
-    bool IsValid(ByRef<::StringW> message);
-    // public System.Void Initiate()
-    // Offset: 0x22059F4
-    void Initiate();
-    // public System.Void Stage1(RootMotion.FinalIK.FABRIKChain[] chain)
-    // Offset: 0x2205A14
-    void Stage1(::ArrayW<::RootMotion::FinalIK::FABRIKChain*> chain);
-    // public System.Void Stage2(UnityEngine.Vector3 rootPosition, RootMotion.FinalIK.FABRIKChain[] chain)
-    // Offset: 0x2205DE4
-    void Stage2(::UnityEngine::Vector3 rootPosition, ::ArrayW<::RootMotion::FinalIK::FABRIKChain*> chain);
-    // private UnityEngine.Vector3 GetCentroid(RootMotion.FinalIK.FABRIKChain[] chain)
-    // Offset: 0x2205AE8
-    ::UnityEngine::Vector3 GetCentroid(::ArrayW<::RootMotion::FinalIK::FABRIKChain*> chain);
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_children();
     // public System.Void .ctor()
-    // Offset: 0x2205EDC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2253750
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FABRIKChain* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::FABRIKChain::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FABRIKChain*, creationType>()));
     }
+    // public System.Boolean IsValid(ref System.String message)
+    // Offset: 0x22531A0
+    bool IsValid(ByRef<::StringW> message);
+    // public System.Void Initiate()
+    // Offset: 0x2253268
+    void Initiate();
+    // public System.Void Stage1(RootMotion.FinalIK.FABRIKChain[] chain)
+    // Offset: 0x2253288
+    void Stage1(::ArrayW<::RootMotion::FinalIK::FABRIKChain*> chain);
+    // public System.Void Stage2(UnityEngine.Vector3 rootPosition, RootMotion.FinalIK.FABRIKChain[] chain)
+    // Offset: 0x2253658
+    void Stage2(::UnityEngine::Vector3 rootPosition, ::ArrayW<::RootMotion::FinalIK::FABRIKChain*> chain);
+    // private UnityEngine.Vector3 GetCentroid(RootMotion.FinalIK.FABRIKChain[] chain)
+    // Offset: 0x225335C
+    ::UnityEngine::Vector3 GetCentroid(::ArrayW<::RootMotion::FinalIK::FABRIKChain*> chain);
   }; // RootMotion.FinalIK.FABRIKChain
   #pragma pack(pop)
   static check_size<sizeof(FABRIKChain), 32 + sizeof(::ArrayW<int>)> __RootMotion_FinalIK_FABRIKChainSizeCheck;
   static_assert(sizeof(FABRIKChain) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::FABRIKChain::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::FABRIKChain::IsValid
 // Il2CppName: IsValid
 template<>
@@ -159,7 +153,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FABRIKChain*), "GetCentroid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chain});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::FABRIKChain::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

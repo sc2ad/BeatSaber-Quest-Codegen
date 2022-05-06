@@ -58,15 +58,7 @@ namespace MasterServer {
     public:
     // Nested type: ::MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass22_0::$$GetPublicServers$b__0$d
     struct $$GetPublicServers$b__0$d;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public MasterServer.UserMasterServerMessageHandler <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -117,39 +109,41 @@ namespace MasterServer {
     static_assert(sizeof(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*) == 0x8);
     public:
     // Get instance field reference: public MasterServer.UserMasterServerMessageHandler <>4__this
-    ::MasterServer::UserMasterServerMessageHandler*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::MasterServer::UserMasterServerMessageHandler*& dyn_$$4__this();
     // Get instance field reference: public System.Int32 offset
-    int& dyn_offset();
+    [[deprecated("Use field access instead!")]] int& dyn_offset();
     // Get instance field reference: public System.Int32 count
-    int& dyn_count();
+    [[deprecated("Use field access instead!")]] int& dyn_count();
     // Get instance field reference: public BeatmapLevelSelectionMask selectionMask
-    ::GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
     // Get instance field reference: public GameplayServerConfiguration configuration
-    ::GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
-    ::System::Threading::CancellationToken& dyn_cancellationToken();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: public System.Action`1<System.Collections.Generic.IReadOnlyList`1<PublicServerInfo>> onSuccess
-    ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>*>*& dyn_onSuccess();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>*>*& dyn_onSuccess();
     // Get instance field reference: public System.Action`1<ConnectionFailedReason> onFailure
-    ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*& dyn_onFailure();
-    // System.Threading.Tasks.Task <GetPublicServers>b__0()
-    // Offset: 0x16F6998
-    ::System::Threading::Tasks::Task* $GetPublicServers$b__0();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*& dyn_onFailure();
     // public System.Void .ctor()
-    // Offset: 0x16F56E0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x172DFF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserMasterServerMessageHandler::$$c__DisplayClass22_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass22_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UserMasterServerMessageHandler::$$c__DisplayClass22_0*, creationType>()));
     }
+    // System.Threading.Tasks.Task <GetPublicServers>b__0()
+    // Offset: 0x172F2A8
+    ::System::Threading::Tasks::Task* $GetPublicServers$b__0();
   }; // MasterServer.UserMasterServerMessageHandler/MasterServer.<>c__DisplayClass22_0
   #pragma pack(pop)
   static check_size<sizeof(UserMasterServerMessageHandler::$$c__DisplayClass22_0), 96 + sizeof(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*)> __MasterServer_UserMasterServerMessageHandler_$$c__DisplayClass22_0SizeCheck;
   static_assert(sizeof(UserMasterServerMessageHandler::$$c__DisplayClass22_0) == 0x68);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass22_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass22_0::$GetPublicServers$b__0
 // Il2CppName: <GetPublicServers>b__0
 template<>
@@ -158,7 +152,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass22_0*), "<GetPublicServers>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass22_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

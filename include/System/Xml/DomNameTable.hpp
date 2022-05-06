@@ -44,15 +44,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class DomNameTable : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Xml.XmlName[] entries
     // Size: 0x8
     // Offset: 0x10
@@ -85,30 +77,30 @@ namespace System::Xml {
     static_assert(sizeof(::System::Xml::XmlNameTable*) == 0x8);
     public:
     // Get instance field reference: private System.Xml.XmlName[] entries
-    ::ArrayW<::System::Xml::XmlName*>& dyn_entries();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Xml::XmlName*>& dyn_entries();
     // Get instance field reference: private System.Int32 count
-    int& dyn_count();
+    [[deprecated("Use field access instead!")]] int& dyn_count();
     // Get instance field reference: private System.Int32 mask
-    int& dyn_mask();
+    [[deprecated("Use field access instead!")]] int& dyn_mask();
     // Get instance field reference: private System.Xml.XmlDocument ownerDocument
-    ::System::Xml::XmlDocument*& dyn_ownerDocument();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlDocument*& dyn_ownerDocument();
     // Get instance field reference: private System.Xml.XmlNameTable nameTable
-    ::System::Xml::XmlNameTable*& dyn_nameTable();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlNameTable*& dyn_nameTable();
     // public System.Void .ctor(System.Xml.XmlDocument document)
-    // Offset: 0x1A81264
+    // Offset: 0x1ABB84C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DomNameTable* New_ctor(::System::Xml::XmlDocument* document) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::DomNameTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DomNameTable*, creationType>(document)));
     }
     // public System.Xml.XmlName GetName(System.String prefix, System.String localName, System.String ns, System.Xml.Schema.IXmlSchemaInfo schemaInfo)
-    // Offset: 0x1A812F8
+    // Offset: 0x1ABB8E0
     ::System::Xml::XmlName* GetName(::StringW prefix, ::StringW localName, ::StringW ns, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
     // public System.Xml.XmlName AddName(System.String prefix, System.String localName, System.String ns, System.Xml.Schema.IXmlSchemaInfo schemaInfo)
-    // Offset: 0x1A81470
+    // Offset: 0x1ABBA58
     ::System::Xml::XmlName* AddName(::StringW prefix, ::StringW localName, ::StringW ns, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
     // private System.Void Grow()
-    // Offset: 0x1A816F0
+    // Offset: 0x1ABBCD8
     void Grow();
   }; // System.Xml.DomNameTable
   #pragma pack(pop)

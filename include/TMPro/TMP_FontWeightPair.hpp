@@ -51,9 +51,9 @@ namespace TMPro {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public TMPro.TMP_FontAsset regularTypeface
-    ::TMPro::TMP_FontAsset*& dyn_regularTypeface();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_FontAsset*& dyn_regularTypeface();
     // Get instance field reference: public TMPro.TMP_FontAsset italicTypeface
-    ::TMPro::TMP_FontAsset*& dyn_italicTypeface();
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_FontAsset*& dyn_italicTypeface();
   }; // TMPro.TMP_FontWeightPair
   #pragma pack(pop)
   static check_size<sizeof(TMP_FontWeightPair), 8 + sizeof(::TMPro::TMP_FontAsset*)> __TMPro_TMP_FontWeightPairSizeCheck;

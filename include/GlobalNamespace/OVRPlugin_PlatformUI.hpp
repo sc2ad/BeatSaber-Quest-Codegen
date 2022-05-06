@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/PlatformUI GlobalMenuTutorial
     static void _set_GlobalMenuTutorial(::GlobalNamespace::OVRPlugin::PlatformUI value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVRPlugin/PlatformUI
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::PlatformUI), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_PlatformUISizeCheck;

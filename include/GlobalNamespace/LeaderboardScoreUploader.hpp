@@ -62,15 +62,7 @@ namespace GlobalNamespace {
     class $$c__DisplayClass14_0;
     // Nested type: ::GlobalNamespace::LeaderboardScoreUploader::$UploadScoresCoroutine$d__14
     class $UploadScoresCoroutine$d__14;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Action allScoresDidUploadEvent
     // Size: 0x8
     // Offset: 0x18
@@ -117,57 +109,51 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kScoresToUploadFileName
     static void _set_kScoresToUploadFileName(::StringW value);
     // Get instance field reference: private System.Action allScoresDidUploadEvent
-    ::System::Action*& dyn_allScoresDidUploadEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_allScoresDidUploadEvent();
     // Get instance field reference: private System.Collections.Generic.List`1<LeaderboardScoreUploader/ScoreData> _scoresToUpload
-    ::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardScoreUploader::ScoreData*>*& dyn__scoresToUpload();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardScoreUploader::ScoreData*>*& dyn__scoresToUpload();
     // Get instance field reference: private System.Collections.Generic.List`1<LeaderboardScoreUploader/ScoreData> _scoresToUploadForCurrentPlayer
-    ::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardScoreUploader::ScoreData*>*& dyn__scoresToUploadForCurrentPlayer();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardScoreUploader::ScoreData*>*& dyn__scoresToUploadForCurrentPlayer();
     // Get instance field reference: private LeaderboardScoreUploader/UploadScoreCallback _uploadScoreCallback
-    ::GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback*& dyn__uploadScoreCallback();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback*& dyn__uploadScoreCallback();
     // Get instance field reference: private System.String _playerId
-    ::StringW& dyn__playerId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__playerId();
     // Get instance field reference: private System.Boolean _uploading
-    bool& dyn__uploading();
+    [[deprecated("Use field access instead!")]] bool& dyn__uploading();
     // public System.Void add_allScoresDidUploadEvent(System.Action value)
-    // Offset: 0x13B68F8
+    // Offset: 0x13B1DA4
     void add_allScoresDidUploadEvent(::System::Action* value);
     // public System.Void remove_allScoresDidUploadEvent(System.Action value)
-    // Offset: 0x13B699C
+    // Offset: 0x13B1E48
     void remove_allScoresDidUploadEvent(::System::Action* value);
-    // public System.Void Init(LeaderboardScoreUploader/UploadScoreCallback uploadScoreCallback, System.String playerId)
-    // Offset: 0x13B6A40
-    void Init(::GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback* uploadScoreCallback, ::StringW playerId);
-    // private System.Void OnApplicationQuit()
-    // Offset: 0x13B6AEC
-    void OnApplicationQuit();
-    // private System.Collections.IEnumerator UploadScoresCoroutine()
-    // Offset: 0x13B6A7C
-    ::System::Collections::IEnumerator* UploadScoresCoroutine();
-    // private System.Void LoadScoresToUploadFromFile()
-    // Offset: 0x13B6B1C
-    void LoadScoresToUploadFromFile();
-    // private System.Void SaveScoresToUploadToFile()
-    // Offset: 0x13B6DAC
-    void SaveScoresToUploadToFile();
-    // public System.Void AddScore(LeaderboardScoreUploader/ScoreData scoreData)
-    // Offset: 0x13B6EB8
-    void AddScore(::GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData);
-    // private System.Boolean <UploadScoresCoroutine>b__14_1()
-    // Offset: 0x13B701C
-    bool $UploadScoresCoroutine$b__14_1();
     // public System.Void .ctor()
-    // Offset: 0x13B6F8C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13B2438
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardScoreUploader* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardScoreUploader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardScoreUploader*, creationType>()));
     }
+    // public System.Void Init(LeaderboardScoreUploader/UploadScoreCallback uploadScoreCallback, System.String playerId)
+    // Offset: 0x13B1EEC
+    void Init(::GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback* uploadScoreCallback, ::StringW playerId);
+    // private System.Void OnApplicationQuit()
+    // Offset: 0x13B1F98
+    void OnApplicationQuit();
+    // private System.Collections.IEnumerator UploadScoresCoroutine()
+    // Offset: 0x13B1F28
+    ::System::Collections::IEnumerator* UploadScoresCoroutine();
+    // private System.Void LoadScoresToUploadFromFile()
+    // Offset: 0x13B1FC8
+    void LoadScoresToUploadFromFile();
+    // private System.Void SaveScoresToUploadToFile()
+    // Offset: 0x13B2258
+    void SaveScoresToUploadToFile();
+    // public System.Void AddScore(LeaderboardScoreUploader/ScoreData scoreData)
+    // Offset: 0x13B2364
+    void AddScore(::GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData);
+    // private System.Boolean <UploadScoresCoroutine>b__14_1()
+    // Offset: 0x13B24C8
+    bool $UploadScoresCoroutine$b__14_1();
   }; // LeaderboardScoreUploader
   #pragma pack(pop)
   static check_size<sizeof(LeaderboardScoreUploader), 64 + sizeof(bool)> __GlobalNamespace_LeaderboardScoreUploaderSizeCheck;
@@ -192,6 +178,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader*), "remove_allScoresDidUploadEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::Init
 // Il2CppName: Init
 template<>
@@ -251,7 +241,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader*), "<UploadScoresCoroutine>b__14_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

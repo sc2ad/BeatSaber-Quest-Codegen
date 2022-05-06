@@ -42,7 +42,7 @@ namespace Valve::VR {
       return ipdMeters;
     }
     // Get instance field reference: public System.Single ipdMeters
-    float& dyn_ipdMeters();
+    [[deprecated("Use field access instead!")]] float& dyn_ipdMeters();
   }; // Valve.VR.VREvent_Ipd_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Ipd_t), 0 + sizeof(float)> __Valve_VR_VREvent_Ipd_tSizeCheck;

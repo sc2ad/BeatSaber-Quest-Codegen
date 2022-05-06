@@ -44,16 +44,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConditionalSpriteSwitcher : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [HeaderAttribute] Offset: 0x1256D30
+    // [HeaderAttribute] Offset: 0x10DB914
     // private UnityEngine.Sprite _sprite0
     // Size: 0x8
     // Offset: 0x18
@@ -66,7 +58,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Material* material0;
     // Field size check
     static_assert(sizeof(::UnityEngine::Material*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1256D8C
+    // [HeaderAttribute] Offset: 0x10DB970
     // private UnityEngine.Sprite _sprite1
     // Size: 0x8
     // Offset: 0x28
@@ -79,7 +71,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Material* material1;
     // Field size check
     static_assert(sizeof(::UnityEngine::Material*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1256DE8
+    // [SpaceAttribute] Offset: 0x10DB9CC
     // private BoolSO _value
     // Size: 0x8
     // Offset: 0x38
@@ -96,48 +88,42 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Sprite _sprite0
-    ::UnityEngine::Sprite*& dyn__sprite0();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__sprite0();
     // Get instance field reference: private UnityEngine.Material _material0
-    ::UnityEngine::Material*& dyn__material0();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__material0();
     // Get instance field reference: private UnityEngine.Sprite _sprite1
-    ::UnityEngine::Sprite*& dyn__sprite1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__sprite1();
     // Get instance field reference: private UnityEngine.Material _material1
-    ::UnityEngine::Material*& dyn__material1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__material1();
     // Get instance field reference: private BoolSO _value
-    ::GlobalNamespace::BoolSO*& dyn__value();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn__value();
     // Get instance field reference: private UnityEngine.SpriteRenderer _spriteRenderer
-    ::UnityEngine::SpriteRenderer*& dyn__spriteRenderer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::SpriteRenderer*& dyn__spriteRenderer();
     // public UnityEngine.Sprite get_falseSprite()
-    // Offset: 0x14051EC
+    // Offset: 0x1424F98
     ::UnityEngine::Sprite* get_falseSprite();
     // public System.Void set_falseSprite(UnityEngine.Sprite value)
-    // Offset: 0x14051F4
+    // Offset: 0x1424FA0
     void set_falseSprite(::UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_trueSprite()
-    // Offset: 0x14051FC
+    // Offset: 0x1424FA8
     ::UnityEngine::Sprite* get_trueSprite();
     // public System.Void set_trueSprite(UnityEngine.Sprite value)
-    // Offset: 0x1405204
+    // Offset: 0x1424FB0
     void set_trueSprite(::UnityEngine::Sprite* value);
-    // protected System.Void Awake()
-    // Offset: 0x140520C
-    void Awake();
-    // public System.Void Apply()
-    // Offset: 0x1405210
-    void Apply();
     // public System.Void .ctor()
-    // Offset: 0x14052B8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1425064
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConditionalSpriteSwitcher* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConditionalSpriteSwitcher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConditionalSpriteSwitcher*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x1424FB8
+    void Awake();
+    // public System.Void Apply()
+    // Offset: 0x1424FBC
+    void Apply();
   }; // ConditionalSpriteSwitcher
   #pragma pack(pop)
   static check_size<sizeof(ConditionalSpriteSwitcher), 64 + sizeof(::UnityEngine::SpriteRenderer*)> __GlobalNamespace_ConditionalSpriteSwitcherSizeCheck;
@@ -178,6 +164,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConditionalSpriteSwitcher*), "set_trueSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ConditionalSpriteSwitcher::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ConditionalSpriteSwitcher::Awake
 // Il2CppName: Awake
 template<>
@@ -194,7 +184,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConditionalSpriteSwitcher*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ConditionalSpriteSwitcher::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

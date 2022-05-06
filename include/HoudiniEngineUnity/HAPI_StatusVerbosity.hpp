@@ -84,7 +84,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HAPI_StatusVerbosity HAPI_STATUSVERBOSITY_MESSAGES
     static void _set_HAPI_STATUSVERBOSITY_MESSAGES(::HoudiniEngineUnity::HAPI_StatusVerbosity value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HAPI_StatusVerbosity
   #pragma pack(pop)
   static check_size<sizeof(HAPI_StatusVerbosity), 0 + sizeof(int)> __HoudiniEngineUnity_HAPI_StatusVerbositySizeCheck;

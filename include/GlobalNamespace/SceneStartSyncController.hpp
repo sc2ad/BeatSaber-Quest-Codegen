@@ -50,23 +50,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SceneStartSyncController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x124DC54
+    // [InjectAttribute] Offset: 0x10D274C
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x124DC64
+    // [InjectAttribute] Offset: 0x10D275C
     // private readonly IGameplayRpcManager _gameplayRpcManager
     // Size: 0x8
     // Offset: 0x20
@@ -131,72 +123,66 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kLoadSelfTimeout
     static void _set_kLoadSelfTimeout(float value);
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // Get instance field reference: private readonly IGameplayRpcManager _gameplayRpcManager
-    ::GlobalNamespace::IGameplayRpcManager*& dyn__gameplayRpcManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IGameplayRpcManager*& dyn__gameplayRpcManager();
     // Get instance field reference: private System.Action`1<System.String> syncStartDidSuccessEvent
-    ::System::Action_1<::StringW>*& dyn_syncStartDidSuccessEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::StringW>*& dyn_syncStartDidSuccessEvent();
     // Get instance field reference: private System.Action`1<System.String> syncStartDidReceiveTooLateEvent
-    ::System::Action_1<::StringW>*& dyn_syncStartDidReceiveTooLateEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::StringW>*& dyn_syncStartDidReceiveTooLateEvent();
     // Get instance field reference: private System.Action syncStartDidFailEvent
-    ::System::Action*& dyn_syncStartDidFailEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_syncStartDidFailEvent();
     // Get instance field reference: private SceneStartHandler _sceneStartHandler
-    ::GlobalNamespace::SceneStartHandler*& dyn__sceneStartHandler();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SceneStartHandler*& dyn__sceneStartHandler();
     // Get instance field reference: private PlayersSpecificSettingsAtGameStartModel _playersAtGameStartModel
-    ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& dyn__playersAtGameStartModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& dyn__playersAtGameStartModel();
     // Get instance field reference: private System.Single _waitStartTime
-    float& dyn__waitStartTime();
+    [[deprecated("Use field access instead!")]] float& dyn__waitStartTime();
     // Get instance field reference: private System.Boolean _sceneSyncStarted
-    bool& dyn__sceneSyncStarted();
+    [[deprecated("Use field access instead!")]] bool& dyn__sceneSyncStarted();
     // public System.Void add_syncStartDidSuccessEvent(System.Action`1<System.String> value)
-    // Offset: 0x14220A4
+    // Offset: 0x146375C
     void add_syncStartDidSuccessEvent(::System::Action_1<::StringW>* value);
     // public System.Void remove_syncStartDidSuccessEvent(System.Action`1<System.String> value)
-    // Offset: 0x1422148
+    // Offset: 0x1463800
     void remove_syncStartDidSuccessEvent(::System::Action_1<::StringW>* value);
     // public System.Void add_syncStartDidReceiveTooLateEvent(System.Action`1<System.String> value)
-    // Offset: 0x14221EC
+    // Offset: 0x14638A4
     void add_syncStartDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
     // public System.Void remove_syncStartDidReceiveTooLateEvent(System.Action`1<System.String> value)
-    // Offset: 0x1422290
+    // Offset: 0x1463948
     void remove_syncStartDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
     // public System.Void add_syncStartDidFailEvent(System.Action value)
-    // Offset: 0x1422334
+    // Offset: 0x14639EC
     void add_syncStartDidFailEvent(::System::Action* value);
     // public System.Void remove_syncStartDidFailEvent(System.Action value)
-    // Offset: 0x14223D8
+    // Offset: 0x1463A90
     void remove_syncStartDidFailEvent(::System::Action* value);
-    // protected System.Void Start()
-    // Offset: 0x142247C
-    void Start();
-    // protected System.Void Update()
-    // Offset: 0x1422494
-    void Update();
-    // protected System.Void OnDestroy()
-    // Offset: 0x14224F4
-    void OnDestroy();
-    // public System.Void StartSceneLoadSync(PlayersSpecificSettingsAtGameStartModel playersAtGameStartModel)
-    // Offset: 0x14225F0
-    void StartSceneLoadSync(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel);
-    // private System.Void HandleSceneSetupDidFinish(System.String sessionGameId)
-    // Offset: 0x1422734
-    void HandleSceneSetupDidFinish(::StringW sessionGameId);
-    // private System.Void HandleSceneSetupDidReceiveTooLate(System.String sessionGameId)
-    // Offset: 0x14227B8
-    void HandleSceneSetupDidReceiveTooLate(::StringW sessionGameId);
     // public System.Void .ctor()
-    // Offset: 0x142283C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1463EF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SceneStartSyncController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SceneStartSyncController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SceneStartSyncController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x1463B34
+    void Start();
+    // protected System.Void Update()
+    // Offset: 0x1463B4C
+    void Update();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1463BAC
+    void OnDestroy();
+    // public System.Void StartSceneLoadSync(PlayersSpecificSettingsAtGameStartModel playersAtGameStartModel)
+    // Offset: 0x1463CA8
+    void StartSceneLoadSync(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel);
+    // private System.Void HandleSceneSetupDidFinish(System.String sessionGameId)
+    // Offset: 0x1463DEC
+    void HandleSceneSetupDidFinish(::StringW sessionGameId);
+    // private System.Void HandleSceneSetupDidReceiveTooLate(System.String sessionGameId)
+    // Offset: 0x1463E70
+    void HandleSceneSetupDidReceiveTooLate(::StringW sessionGameId);
   }; // SceneStartSyncController
   #pragma pack(pop)
   static check_size<sizeof(SceneStartSyncController), 84 + sizeof(bool)> __GlobalNamespace_SceneStartSyncControllerSizeCheck;
@@ -257,6 +243,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneStartSyncController*), "remove_syncStartDidFailEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SceneStartSyncController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SceneStartSyncController::Start
 // Il2CppName: Start
 template<>
@@ -308,7 +298,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneStartSyncController*), "HandleSceneSetupDidReceiveTooLate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sessionGameId});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SceneStartSyncController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

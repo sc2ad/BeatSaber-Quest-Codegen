@@ -82,25 +82,25 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public UnityEngine.Vector3 position
-    ::UnityEngine::Vector3& dyn_position();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_position();
     // Get instance field reference: public UnityEngine.Quaternion rotation
-    ::UnityEngine::Quaternion& dyn_rotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_rotation();
     // Get instance field reference: public UnityEngine.Vector3 localPosition
-    ::UnityEngine::Vector3& dyn_localPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_localPosition();
     // Get instance field reference: public UnityEngine.Vector3 localScale
-    ::UnityEngine::Vector3& dyn_localScale();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_localScale();
     // Get instance field reference: public UnityEngine.Quaternion localRotation
-    ::UnityEngine::Quaternion& dyn_localRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_localRotation();
     // Get instance field reference: public UnityEngine.Transform parent
-    ::UnityEngine::Transform*& dyn_parent();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_parent();
     // public System.Void .ctor(UnityEngine.Transform other)
-    // Offset: 0x2A418D4
+    // Offset: 0x2A98CBC
     TransformData(::UnityEngine::Transform* other);
     // public System.Void CopyTo(UnityEngine.Transform other, System.Boolean copyParent)
-    // Offset: 0x2A41970
+    // Offset: 0x2A98D58
     void CopyTo(::UnityEngine::Transform* other, bool copyParent);
     // public System.Void CopyToLocal(UnityEngine.Transform other, System.Boolean copyParent)
-    // Offset: 0x2A41A00
+    // Offset: 0x2A98DE8
     void CopyToLocal(::UnityEngine::Transform* other, bool copyParent);
   }; // HoudiniEngineUnity.TransformData
   #pragma pack(pop)

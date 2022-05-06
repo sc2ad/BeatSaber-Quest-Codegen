@@ -1998,7 +1998,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.KeyCode Joystick8Button19
     static void _set_Joystick8Button19(::UnityEngine::KeyCode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.KeyCode
   #pragma pack(pop)
   static check_size<sizeof(KeyCode), 0 + sizeof(int)> __UnityEngine_KeyCodeSizeCheck;

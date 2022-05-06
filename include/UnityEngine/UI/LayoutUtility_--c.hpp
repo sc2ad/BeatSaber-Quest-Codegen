@@ -74,41 +74,39 @@ namespace UnityEngine::UI {
     // Set static field: static public System.Func`2<UnityEngine.UI.ILayoutElement,System.Single> <>9__8_0
     static void _set_$$9__8_0(::System::Func_2<::UnityEngine::UI::ILayoutElement*, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1E80224
+    // Offset: 0x1ECE75C
     static void _cctor();
-    // System.Single <GetMinWidth>b__3_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1E80290
-    float $GetMinWidth$b__3_0(::UnityEngine::UI::ILayoutElement* e);
-    // System.Single <GetPreferredWidth>b__4_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1E80340
-    float $GetPreferredWidth$b__4_0(::UnityEngine::UI::ILayoutElement* e);
-    // System.Single <GetPreferredWidth>b__4_1(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1E803F0
-    float $GetPreferredWidth$b__4_1(::UnityEngine::UI::ILayoutElement* e);
-    // System.Single <GetFlexibleWidth>b__5_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1E804A0
-    float $GetFlexibleWidth$b__5_0(::UnityEngine::UI::ILayoutElement* e);
-    // System.Single <GetMinHeight>b__6_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1E80550
-    float $GetMinHeight$b__6_0(::UnityEngine::UI::ILayoutElement* e);
-    // System.Single <GetPreferredHeight>b__7_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1E80600
-    float $GetPreferredHeight$b__7_0(::UnityEngine::UI::ILayoutElement* e);
-    // System.Single <GetPreferredHeight>b__7_1(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1E806B0
-    float $GetPreferredHeight$b__7_1(::UnityEngine::UI::ILayoutElement* e);
-    // System.Single <GetFlexibleHeight>b__8_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1E80760
-    float $GetFlexibleHeight$b__8_0(::UnityEngine::UI::ILayoutElement* e);
     // public System.Void .ctor()
-    // Offset: 0x1E80288
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1ECE7C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LayoutUtility::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::LayoutUtility::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LayoutUtility::$$c*, creationType>()));
     }
+    // System.Single <GetMinWidth>b__3_0(UnityEngine.UI.ILayoutElement e)
+    // Offset: 0x1ECE7C8
+    float $GetMinWidth$b__3_0(::UnityEngine::UI::ILayoutElement* e);
+    // System.Single <GetPreferredWidth>b__4_0(UnityEngine.UI.ILayoutElement e)
+    // Offset: 0x1ECE878
+    float $GetPreferredWidth$b__4_0(::UnityEngine::UI::ILayoutElement* e);
+    // System.Single <GetPreferredWidth>b__4_1(UnityEngine.UI.ILayoutElement e)
+    // Offset: 0x1ECE928
+    float $GetPreferredWidth$b__4_1(::UnityEngine::UI::ILayoutElement* e);
+    // System.Single <GetFlexibleWidth>b__5_0(UnityEngine.UI.ILayoutElement e)
+    // Offset: 0x1ECE9D8
+    float $GetFlexibleWidth$b__5_0(::UnityEngine::UI::ILayoutElement* e);
+    // System.Single <GetMinHeight>b__6_0(UnityEngine.UI.ILayoutElement e)
+    // Offset: 0x1ECEA88
+    float $GetMinHeight$b__6_0(::UnityEngine::UI::ILayoutElement* e);
+    // System.Single <GetPreferredHeight>b__7_0(UnityEngine.UI.ILayoutElement e)
+    // Offset: 0x1ECEB38
+    float $GetPreferredHeight$b__7_0(::UnityEngine::UI::ILayoutElement* e);
+    // System.Single <GetPreferredHeight>b__7_1(UnityEngine.UI.ILayoutElement e)
+    // Offset: 0x1ECEBE8
+    float $GetPreferredHeight$b__7_1(::UnityEngine::UI::ILayoutElement* e);
+    // System.Single <GetFlexibleHeight>b__8_0(UnityEngine.UI.ILayoutElement e)
+    // Offset: 0x1ECEC98
+    float $GetFlexibleHeight$b__8_0(::UnityEngine::UI::ILayoutElement* e);
   }; // UnityEngine.UI.LayoutUtility/UnityEngine.UI.<>c
   #pragma pack(pop)
 }
@@ -121,6 +119,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutUtility::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::UI::LayoutUtility::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutUtility::$$c::$GetMinWidth$b__3_0
 // Il2CppName: <GetMinWidth>b__3_0
 template<>
@@ -193,7 +195,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutUtility::$$c*), "<GetFlexibleHeight>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::UI::LayoutUtility::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

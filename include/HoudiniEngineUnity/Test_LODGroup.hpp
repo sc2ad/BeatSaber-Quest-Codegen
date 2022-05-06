@@ -35,15 +35,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_LODGroup : public ::Il2CppObject/*, public ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_LODGroup*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.LODGroup self
     // Size: 0x8
     // Offset: 0x10
@@ -60,19 +52,19 @@ namespace HoudiniEngineUnity {
       return self;
     }
     // Get instance field reference: public UnityEngine.LODGroup self
-    ::UnityEngine::LODGroup*& dyn_self();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::LODGroup*& dyn_self();
     // public System.Void .ctor(UnityEngine.LODGroup self)
-    // Offset: 0x2A3D2C0
+    // Offset: 0x2A946A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_LODGroup* New_ctor(::UnityEngine::LODGroup* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_LODGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_LODGroup*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x2A3D2EC
+    // Offset: 0x2A946D4
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_LODGroup other)
-    // Offset: 0x2A3D35C
+    // Offset: 0x2A94744
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_LODGroup* other);
   }; // HoudiniEngineUnity.Test_LODGroup
   #pragma pack(pop)

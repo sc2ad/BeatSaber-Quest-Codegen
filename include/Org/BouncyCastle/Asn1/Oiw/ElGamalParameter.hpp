@@ -44,15 +44,7 @@ namespace Org::BouncyCastle::Asn1::Oiw {
   // [TokenAttribute] Offset: FFFFFFFF
   class ElGamalParameter : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // Org.BouncyCastle.Asn1.DerInteger p
     // Size: 0x8
     // Offset: 0x10
@@ -67,24 +59,24 @@ namespace Org::BouncyCastle::Asn1::Oiw {
     static_assert(sizeof(::Org::BouncyCastle::Asn1::DerInteger*) == 0x8);
     public:
     // Get instance field reference: Org.BouncyCastle.Asn1.DerInteger p
-    ::Org::BouncyCastle::Asn1::DerInteger*& dyn_p();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerInteger*& dyn_p();
     // Get instance field reference: Org.BouncyCastle.Asn1.DerInteger g
-    ::Org::BouncyCastle::Asn1::DerInteger*& dyn_g();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerInteger*& dyn_g();
     // public Org.BouncyCastle.Math.BigInteger get_P()
-    // Offset: 0x1C8E7B0
+    // Offset: 0x1CCAD08
     ::Org::BouncyCastle::Math::BigInteger* get_P();
     // public Org.BouncyCastle.Math.BigInteger get_G()
-    // Offset: 0x1C8E7CC
+    // Offset: 0x1CCAD24
     ::Org::BouncyCastle::Math::BigInteger* get_G();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1C8E6B0
+    // Offset: 0x1CCAC08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ElGamalParameter* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Oiw::ElGamalParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ElGamalParameter*, creationType>(seq)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1C8E7E8
+    // Offset: 0x1CCAD40
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

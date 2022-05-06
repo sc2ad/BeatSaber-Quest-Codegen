@@ -27,11 +27,7 @@ namespace UnityEngine::UI::CoroutineTween {
   class ColorTween::ColorTweenCallback : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1901228
-    // Implemented from: UnityEngine.Events.UnityEvent`1
-    // Base method: System.Void UnityEvent_1::.ctor()
-    // Base method: System.Void UnityEventBase::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x193AB38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorTween::ColorTweenCallback* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenCallback::.ctor");

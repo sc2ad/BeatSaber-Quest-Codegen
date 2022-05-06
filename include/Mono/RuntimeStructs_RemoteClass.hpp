@@ -62,15 +62,15 @@ namespace Mono {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: System.IntPtr default_vtable
-    ::System::IntPtr& dyn_default_vtable();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_default_vtable();
     // Get instance field reference: System.IntPtr xdomain_vtable
-    ::System::IntPtr& dyn_xdomain_vtable();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_xdomain_vtable();
     // Get instance field reference: Mono.RuntimeStructs/Mono.MonoClass* proxy_class
-    ::Mono::RuntimeStructs::MonoClass*& dyn_proxy_class();
+    [[deprecated("Use field access instead!")]] ::Mono::RuntimeStructs::MonoClass*& dyn_proxy_class();
     // Get instance field reference: System.IntPtr proxy_class_name
-    ::System::IntPtr& dyn_proxy_class_name();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_proxy_class_name();
     // Get instance field reference: System.UInt32 interface_count
-    uint& dyn_interface_count();
+    [[deprecated("Use field access instead!")]] uint& dyn_interface_count();
   }; // Mono.RuntimeStructs/Mono.RemoteClass
   #pragma pack(pop)
   static check_size<sizeof(RuntimeStructs::RemoteClass), 32 + sizeof(uint)> __Mono_RuntimeStructs_RemoteClassSizeCheck;

@@ -92,21 +92,13 @@ namespace RootMotion::Demos {
       // Set static field: static public RootMotion.Demos.Navigator/RootMotion.Demos.State OnPath
       static void _set_OnPath(::RootMotion::Demos::Navigator::State value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // RootMotion.Demos.Navigator/RootMotion.Demos.State
     #pragma pack(pop)
     static check_size<sizeof(Navigator::State), 0 + sizeof(int)> __RootMotion_Demos_Navigator_StateSizeCheck;
     static_assert(sizeof(Navigator::State) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x1272C64
+    // [TooltipAttribute] Offset: 0x10F791C
     // public System.Boolean activeTargetSeeking
     // Size: 0x1
     // Offset: 0x10
@@ -115,28 +107,28 @@ namespace RootMotion::Demos {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: activeTargetSeeking and: cornerRadius
     char __padding0[0x3] = {};
-    // [TooltipAttribute] Offset: 0x1272C9C
+    // [TooltipAttribute] Offset: 0x10F7954
     // public System.Single cornerRadius
     // Size: 0x4
     // Offset: 0x14
     float cornerRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1272CD4
+    // [TooltipAttribute] Offset: 0x10F798C
     // public System.Single recalculateOnPathDistance
     // Size: 0x4
     // Offset: 0x18
     float recalculateOnPathDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1272D0C
+    // [TooltipAttribute] Offset: 0x10F79C4
     // public System.Single maxSampleDistance
     // Size: 0x4
     // Offset: 0x1C
     float maxSampleDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1272D44
+    // [TooltipAttribute] Offset: 0x10F79FC
     // public System.Single nextPathInterval
     // Size: 0x4
     // Offset: 0x20
@@ -205,75 +197,73 @@ namespace RootMotion::Demos {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public System.Boolean activeTargetSeeking
-    bool& dyn_activeTargetSeeking();
+    [[deprecated("Use field access instead!")]] bool& dyn_activeTargetSeeking();
     // Get instance field reference: public System.Single cornerRadius
-    float& dyn_cornerRadius();
+    [[deprecated("Use field access instead!")]] float& dyn_cornerRadius();
     // Get instance field reference: public System.Single recalculateOnPathDistance
-    float& dyn_recalculateOnPathDistance();
+    [[deprecated("Use field access instead!")]] float& dyn_recalculateOnPathDistance();
     // Get instance field reference: public System.Single maxSampleDistance
-    float& dyn_maxSampleDistance();
+    [[deprecated("Use field access instead!")]] float& dyn_maxSampleDistance();
     // Get instance field reference: public System.Single nextPathInterval
-    float& dyn_nextPathInterval();
+    [[deprecated("Use field access instead!")]] float& dyn_nextPathInterval();
     // Get instance field reference: private UnityEngine.Vector3 <normalizedDeltaPosition>k__BackingField
-    ::UnityEngine::Vector3& dyn_$normalizedDeltaPosition$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_$normalizedDeltaPosition$k__BackingField();
     // Get instance field reference: private RootMotion.Demos.Navigator/RootMotion.Demos.State <state>k__BackingField
-    ::RootMotion::Demos::Navigator::State& dyn_$state$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::RootMotion::Demos::Navigator::State& dyn_$state$k__BackingField();
     // Get instance field reference: private UnityEngine.Transform transform
-    ::UnityEngine::Transform*& dyn_transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: private System.Int32 cornerIndex
-    int& dyn_cornerIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_cornerIndex();
     // Get instance field reference: private UnityEngine.Vector3[] corners
-    ::ArrayW<::UnityEngine::Vector3>& dyn_corners();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn_corners();
     // Get instance field reference: private UnityEngine.AI.NavMeshPath path
-    ::UnityEngine::AI::NavMeshPath*& dyn_path();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AI::NavMeshPath*& dyn_path();
     // Get instance field reference: private UnityEngine.Vector3 lastTargetPosition
-    ::UnityEngine::Vector3& dyn_lastTargetPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_lastTargetPosition();
     // Get instance field reference: private System.Boolean initiated
-    bool& dyn_initiated();
+    [[deprecated("Use field access instead!")]] bool& dyn_initiated();
     // Get instance field reference: private System.Single nextPathTime
-    float& dyn_nextPathTime();
+    [[deprecated("Use field access instead!")]] float& dyn_nextPathTime();
     // public UnityEngine.Vector3 get_normalizedDeltaPosition()
-    // Offset: 0x2200C64
+    // Offset: 0x224E4D8
     ::UnityEngine::Vector3 get_normalizedDeltaPosition();
     // private System.Void set_normalizedDeltaPosition(UnityEngine.Vector3 value)
-    // Offset: 0x2200C70
+    // Offset: 0x224E4E4
     void set_normalizedDeltaPosition(::UnityEngine::Vector3 value);
     // public RootMotion.Demos.Navigator/RootMotion.Demos.State get_state()
-    // Offset: 0x2200C7C
+    // Offset: 0x224E4F0
     ::RootMotion::Demos::Navigator::State get_state();
     // private System.Void set_state(RootMotion.Demos.Navigator/RootMotion.Demos.State value)
-    // Offset: 0x2200C84
+    // Offset: 0x224E4F8
     void set_state(::RootMotion::Demos::Navigator::State value);
-    // public System.Void Initiate(UnityEngine.Transform transform)
-    // Offset: 0x2200C8C
-    void Initiate(::UnityEngine::Transform* transform);
-    // public System.Void Update(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x2200D60
-    void Update(::UnityEngine::Vector3 targetPosition);
-    // private System.Void CalculatePath(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x22012A4
-    void CalculatePath(::UnityEngine::Vector3 targetPosition);
-    // private System.Boolean Find(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x2201314
-    bool Find(::UnityEngine::Vector3 targetPosition);
-    // private System.Void Stop()
-    // Offset: 0x220116C
-    void Stop();
-    // private System.Single HorDistance(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
-    // Offset: 0x22011E0
-    float HorDistance(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2);
-    // public System.Void Visualize()
-    // Offset: 0x220145C
-    void Visualize();
     // public System.Void .ctor()
-    // Offset: 0x220160C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x224EE80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Navigator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::Demos::Navigator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Navigator*, creationType>()));
     }
+    // public System.Void Initiate(UnityEngine.Transform transform)
+    // Offset: 0x224E500
+    void Initiate(::UnityEngine::Transform* transform);
+    // public System.Void Update(UnityEngine.Vector3 targetPosition)
+    // Offset: 0x224E5D4
+    void Update(::UnityEngine::Vector3 targetPosition);
+    // private System.Void CalculatePath(UnityEngine.Vector3 targetPosition)
+    // Offset: 0x224EB18
+    void CalculatePath(::UnityEngine::Vector3 targetPosition);
+    // private System.Boolean Find(UnityEngine.Vector3 targetPosition)
+    // Offset: 0x224EB88
+    bool Find(::UnityEngine::Vector3 targetPosition);
+    // private System.Void Stop()
+    // Offset: 0x224E9E0
+    void Stop();
+    // private System.Single HorDistance(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
+    // Offset: 0x224EA54
+    float HorDistance(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2);
+    // public System.Void Visualize()
+    // Offset: 0x224ECD0
+    void Visualize();
   }; // RootMotion.Demos.Navigator
   #pragma pack(pop)
   static check_size<sizeof(Navigator), 104 + sizeof(float)> __RootMotion_Demos_NavigatorSizeCheck;
@@ -316,6 +306,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::Demos::Navigator*), "set_state", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: RootMotion::Demos::Navigator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::Demos::Navigator::Initiate
 // Il2CppName: Initiate
 template<>
@@ -378,7 +372,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::Demos::Navigator*), "Visualize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RootMotion::Demos::Navigator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

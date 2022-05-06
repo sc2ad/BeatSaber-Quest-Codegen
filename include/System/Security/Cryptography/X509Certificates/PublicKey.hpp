@@ -47,15 +47,7 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class PublicKey : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Security.Cryptography.AsymmetricAlgorithm _key
     // Size: 0x8
     // Offset: 0x10
@@ -86,43 +78,43 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static private System.Byte[] Empty
     static void _set_Empty(::ArrayW<uint8_t> value);
     // Get instance field reference: private System.Security.Cryptography.AsymmetricAlgorithm _key
-    ::System::Security::Cryptography::AsymmetricAlgorithm*& dyn__key();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::AsymmetricAlgorithm*& dyn__key();
     // Get instance field reference: private System.Security.Cryptography.AsnEncodedData _keyValue
-    ::System::Security::Cryptography::AsnEncodedData*& dyn__keyValue();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::AsnEncodedData*& dyn__keyValue();
     // Get instance field reference: private System.Security.Cryptography.AsnEncodedData _params
-    ::System::Security::Cryptography::AsnEncodedData*& dyn__params();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::AsnEncodedData*& dyn__params();
     // Get instance field reference: private System.Security.Cryptography.Oid _oid
-    ::System::Security::Cryptography::Oid*& dyn__oid();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::Oid*& dyn__oid();
     // public System.Security.Cryptography.AsnEncodedData get_EncodedKeyValue()
-    // Offset: 0x1BB28F4
+    // Offset: 0x1BECEDC
     ::System::Security::Cryptography::AsnEncodedData* get_EncodedKeyValue();
     // public System.Security.Cryptography.AsnEncodedData get_EncodedParameters()
-    // Offset: 0x1BB28FC
+    // Offset: 0x1BECEE4
     ::System::Security::Cryptography::AsnEncodedData* get_EncodedParameters();
     // public System.Security.Cryptography.AsymmetricAlgorithm get_Key()
-    // Offset: 0x1BB2904
+    // Offset: 0x1BECEEC
     ::System::Security::Cryptography::AsymmetricAlgorithm* get_Key();
     // public System.Security.Cryptography.Oid get_Oid()
-    // Offset: 0x1BB32CC
+    // Offset: 0x1BED8B4
     ::System::Security::Cryptography::Oid* get_Oid();
     // System.Void .ctor(Mono.Security.X509.X509Certificate certificate)
-    // Offset: 0x1BB2508
+    // Offset: 0x1BECAF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PublicKey* New_ctor(::Mono::Security::X509::X509Certificate* certificate) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::PublicKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PublicKey*, creationType>(certificate)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1BB3380
+    // Offset: 0x1BED968
     static void _cctor();
     // static private System.Byte[] GetUnsignedBigInteger(System.Byte[] integer)
-    // Offset: 0x1BB32D4
+    // Offset: 0x1BED8BC
     static ::ArrayW<uint8_t> GetUnsignedBigInteger(::ArrayW<uint8_t> integer);
     // static System.Security.Cryptography.DSA DecodeDSA(System.Byte[] rawPublicKey, System.Byte[] rawParameters)
-    // Offset: 0x1BB2E54
+    // Offset: 0x1BED43C
     static ::System::Security::Cryptography::DSA* DecodeDSA(::ArrayW<uint8_t> rawPublicKey, ::ArrayW<uint8_t> rawParameters);
     // static System.Security.Cryptography.RSA DecodeRSA(System.Byte[] rawPublicKey)
-    // Offset: 0x1BB2ABC
+    // Offset: 0x1BED0A4
     static ::System::Security::Cryptography::RSA* DecodeRSA(::ArrayW<uint8_t> rawPublicKey);
   }; // System.Security.Cryptography.X509Certificates.PublicKey
   #pragma pack(pop)

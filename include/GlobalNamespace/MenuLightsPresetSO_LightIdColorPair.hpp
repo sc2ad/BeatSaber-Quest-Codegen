@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MenuLightsPresetSO::LightIdColorPair : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 lightId
     // Size: 0x4
     // Offset: 0x10
@@ -58,7 +50,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::ColorSO* baseColor;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ColorSO*) == 0x8);
-    // [RangeAttribute] Offset: 0x1261348
+    // [RangeAttribute] Offset: 0x10E5FF0
     // public System.Single intensity
     // Size: 0x4
     // Offset: 0x20
@@ -67,18 +59,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public System.Int32 lightId
-    int& dyn_lightId();
+    [[deprecated("Use field access instead!")]] int& dyn_lightId();
     // Get instance field reference: public ColorSO baseColor
-    ::GlobalNamespace::ColorSO*& dyn_baseColor();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn_baseColor();
     // Get instance field reference: public System.Single intensity
-    float& dyn_intensity();
+    [[deprecated("Use field access instead!")]] float& dyn_intensity();
     // public UnityEngine.Color get_lightColor()
-    // Offset: 0x12FEF28
+    // Offset: 0x12FB400
     ::UnityEngine::Color get_lightColor();
     // public System.Void .ctor()
-    // Offset: 0x12FF334
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x12FB80C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuLightsPresetSO::LightIdColorPair* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuLightsPresetSO::LightIdColorPair::.ctor");

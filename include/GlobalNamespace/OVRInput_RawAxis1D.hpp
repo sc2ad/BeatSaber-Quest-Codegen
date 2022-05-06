@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRInput/RawAxis1D Any
     static void _set_Any(::GlobalNamespace::OVRInput::RawAxis1D value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVRInput/RawAxis1D
   #pragma pack(pop)
   static check_size<sizeof(OVRInput::RawAxis1D), 0 + sizeof(int)> __GlobalNamespace_OVRInput_RawAxis1DSizeCheck;

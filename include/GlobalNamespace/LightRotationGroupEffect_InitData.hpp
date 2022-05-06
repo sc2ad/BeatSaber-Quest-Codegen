@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightRotationGroupEffect::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Int32 groupId
     // Size: 0x4
     // Offset: 0x10
@@ -75,17 +67,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     public:
     // Get instance field reference: public readonly System.Int32 groupId
-    int& dyn_groupId();
+    [[deprecated("Use field access instead!")]] int& dyn_groupId();
     // Get instance field reference: public readonly System.Int32 elementId
-    int& dyn_elementId();
+    [[deprecated("Use field access instead!")]] int& dyn_elementId();
     // Get instance field reference: public readonly LightRotationBeatmapEventData/Axis axis
-    ::GlobalNamespace::LightRotationBeatmapEventData::Axis& dyn_axis();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightRotationBeatmapEventData::Axis& dyn_axis();
     // Get instance field reference: public readonly System.Boolean mirrored
-    bool& dyn_mirrored();
+    [[deprecated("Use field access instead!")]] bool& dyn_mirrored();
     // Get instance field reference: public readonly UnityEngine.Transform transform
-    ::UnityEngine::Transform*& dyn_transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_transform();
     // public System.Void .ctor(System.Int32 groupId, System.Int32 elementId, LightRotationBeatmapEventData/Axis axis, System.Boolean mirrored, UnityEngine.Transform transform)
-    // Offset: 0x148F6D0
+    // Offset: 0x14C5F58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightRotationGroupEffect::InitData* New_ctor(int groupId, int elementId, ::GlobalNamespace::LightRotationBeatmapEventData::Axis axis, bool mirrored, ::UnityEngine::Transform* transform) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightRotationGroupEffect::InitData::.ctor");

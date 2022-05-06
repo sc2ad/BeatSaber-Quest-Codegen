@@ -66,7 +66,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.HandleAxis Free
     static void _set_Free(::UnityEngine::ProBuilder::HandleAxis value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.ProBuilder.HandleAxis
   #pragma pack(pop)
   static check_size<sizeof(HandleAxis), 0 + sizeof(int)> __UnityEngine_ProBuilder_HandleAxisSizeCheck;

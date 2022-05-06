@@ -44,15 +44,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class GameScenesManager::$$c__DisplayClass35_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public GameScenesManager <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -73,32 +65,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Collections::Generic::List_1<::StringW>*) == 0x8);
     public:
     // Get instance field reference: public GameScenesManager <>4__this
-    ::GlobalNamespace::GameScenesManager*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager*& dyn_$$4__this();
     // Get instance field reference: public System.Action`1<Zenject.DiContainer> finishCallback
-    ::System::Action_1<::Zenject::DiContainer*>*& dyn_finishCallback();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::Zenject::DiContainer*>*& dyn_finishCallback();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> sceneNamesToRemove
-    ::System::Collections::Generic::List_1<::StringW>*& dyn_sceneNamesToRemove();
-    // System.Void <RemoveScenes>b__0(Zenject.DiContainer container)
-    // Offset: 0x1570CA4
-    void $RemoveScenes$b__0(::Zenject::DiContainer* container);
-    // System.Boolean <RemoveScenes>b__1(System.String scene)
-    // Offset: 0x1570D6C
-    bool $RemoveScenes$b__1(::StringW scene);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn_sceneNamesToRemove();
     // public System.Void .ctor()
-    // Offset: 0x156F720
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15A6030
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameScenesManager::$$c__DisplayClass35_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameScenesManager::$$c__DisplayClass35_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameScenesManager::$$c__DisplayClass35_0*, creationType>()));
     }
+    // System.Void <RemoveScenes>b__0(Zenject.DiContainer container)
+    // Offset: 0x15A75B4
+    void $RemoveScenes$b__0(::Zenject::DiContainer* container);
+    // System.Boolean <RemoveScenes>b__1(System.String scene)
+    // Offset: 0x15A767C
+    bool $RemoveScenes$b__1(::StringW scene);
   }; // GameScenesManager/<>c__DisplayClass35_0
   #pragma pack(pop)
   static check_size<sizeof(GameScenesManager::$$c__DisplayClass35_0), 32 + sizeof(::System::Collections::Generic::List_1<::StringW>*)> __GlobalNamespace_GameScenesManager_$$c__DisplayClass35_0SizeCheck;
   static_assert(sizeof(GameScenesManager::$$c__DisplayClass35_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::$$c__DisplayClass35_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::$$c__DisplayClass35_0::$RemoveScenes$b__0
 // Il2CppName: <RemoveScenes>b__0
 template<>
@@ -117,7 +111,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager::$$c__DisplayClass35_0*), "<RemoveScenes>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scene});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::$$c__DisplayClass35_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

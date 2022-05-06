@@ -41,15 +41,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseNoteVisuals : public ::UnityEngine::MonoBehaviour/*, public ::GlobalNamespace::INoteControllerDidInitEvent, public ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private NoteControllerBase _noteController
     // Size: 0x8
     // Offset: 0x18
@@ -74,43 +66,41 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private NoteControllerBase _noteController
-    ::GlobalNamespace::NoteControllerBase*& dyn__noteController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteControllerBase*& dyn__noteController();
     // Get instance field reference: private CutoutAnimateEffect _cutoutAnimateEffect
-    ::GlobalNamespace::CutoutAnimateEffect*& dyn__cutoutAnimateEffect();
-    // protected System.Void Awake()
-    // Offset: 0x13604FC
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x136064C
-    void OnDestroy();
-    // public System.Void HandleNoteControllerDidInit(NoteControllerBase noteController)
-    // Offset: 0x13607E4
-    void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
-    // public System.Void HandleNoteControllerNoteDidStartDissolving(NoteControllerBase noteController, System.Single duration)
-    // Offset: 0x1360800
-    void HandleNoteControllerNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController, float duration);
-    // private System.Void AnimateCutout(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0x1360810
-    void AnimateCutout(float cutoutStart, float cutoutEnd, float duration);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::CutoutAnimateEffect*& dyn__cutoutAnimateEffect();
     // public System.Void .ctor()
-    // Offset: 0x1360838
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1348AB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseNoteVisuals* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BaseNoteVisuals::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseNoteVisuals*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x134877C
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13488CC
+    void OnDestroy();
+    // public System.Void HandleNoteControllerDidInit(NoteControllerBase noteController)
+    // Offset: 0x1348A64
+    void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
+    // public System.Void HandleNoteControllerNoteDidStartDissolving(NoteControllerBase noteController, System.Single duration)
+    // Offset: 0x1348A80
+    void HandleNoteControllerNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController, float duration);
+    // private System.Void AnimateCutout(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
+    // Offset: 0x1348A90
+    void AnimateCutout(float cutoutStart, float cutoutEnd, float duration);
   }; // BaseNoteVisuals
   #pragma pack(pop)
   static check_size<sizeof(BaseNoteVisuals), 32 + sizeof(::GlobalNamespace::CutoutAnimateEffect*)> __GlobalNamespace_BaseNoteVisualsSizeCheck;
   static_assert(sizeof(BaseNoteVisuals) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BaseNoteVisuals::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BaseNoteVisuals::Awake
 // Il2CppName: Awake
 template<>
@@ -157,7 +147,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseNoteVisuals*), "AnimateCutout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cutoutStart, cutoutEnd, duration});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BaseNoteVisuals::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

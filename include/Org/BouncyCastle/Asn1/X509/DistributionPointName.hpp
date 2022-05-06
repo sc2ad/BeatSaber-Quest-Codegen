@@ -45,15 +45,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class DistributionPointName : public ::Org::BouncyCastle::Asn1::Asn1Encodable/*, public ::Org::BouncyCastle::Asn1::IAsn1Choice*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // readonly Org.BouncyCastle.Asn1.Asn1Encodable name
     // Size: 0x8
     // Offset: 0x10
@@ -72,32 +64,32 @@ namespace Org::BouncyCastle::Asn1::X509 {
       return *reinterpret_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(this);
     }
     // Get instance field reference: readonly Org.BouncyCastle.Asn1.Asn1Encodable name
-    ::Org::BouncyCastle::Asn1::Asn1Encodable*& dyn_name();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1Encodable*& dyn_name();
     // Get instance field reference: readonly System.Int32 type
-    int& dyn_type();
+    [[deprecated("Use field access instead!")]] int& dyn_type();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1TaggedObject obj)
-    // Offset: 0x1EC67F0
+    // Offset: 0x1F13D28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DistributionPointName* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::DistributionPointName::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DistributionPointName*, creationType>(obj)));
     }
     // static public Org.BouncyCastle.Asn1.X509.DistributionPointName GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x1EC6248
+    // Offset: 0x1F13780
     static ::Org::BouncyCastle::Asn1::X509::DistributionPointName* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // static public Org.BouncyCastle.Asn1.X509.DistributionPointName GetInstance(System.Object obj)
-    // Offset: 0x1EC6670
+    // Offset: 0x1F13BA8
     static ::Org::BouncyCastle::Asn1::X509::DistributionPointName* GetInstance(::Il2CppObject* obj);
     // private System.Void appendObject(System.Text.StringBuilder buf, System.String sep, System.String name, System.String val)
-    // Offset: 0x1EC69FC
+    // Offset: 0x1F13F34
     void appendObject(::System::Text::StringBuilder* buf, ::StringW sep, ::StringW name, ::StringW val);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1EC684C
+    // Offset: 0x1F13D84
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x1EC68C8
+    // Offset: 0x1F13E00
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

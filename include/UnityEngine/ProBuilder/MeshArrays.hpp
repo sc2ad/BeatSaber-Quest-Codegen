@@ -103,7 +103,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.MeshArrays All
     static void _set_All(::UnityEngine::ProBuilder::MeshArrays value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.ProBuilder.MeshArrays
   #pragma pack(pop)
   static check_size<sizeof(MeshArrays), 0 + sizeof(int)> __UnityEngine_ProBuilder_MeshArraysSizeCheck;

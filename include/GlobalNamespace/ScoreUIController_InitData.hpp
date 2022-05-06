@@ -25,15 +25,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScoreUIController::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly ScoreUIController/ScoreDisplayType scoreDisplayType
     // Size: 0x4
     // Offset: 0x10
@@ -46,9 +38,9 @@ namespace GlobalNamespace {
       return scoreDisplayType;
     }
     // Get instance field reference: public readonly ScoreUIController/ScoreDisplayType scoreDisplayType
-    ::GlobalNamespace::ScoreUIController::ScoreDisplayType& dyn_scoreDisplayType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ScoreUIController::ScoreDisplayType& dyn_scoreDisplayType();
     // public System.Void .ctor(ScoreUIController/ScoreDisplayType scoreDisplayType)
-    // Offset: 0x1426164
+    // Offset: 0x1467798
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScoreUIController::InitData* New_ctor(::GlobalNamespace::ScoreUIController::ScoreDisplayType scoreDisplayType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScoreUIController::InitData::.ctor");

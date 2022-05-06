@@ -26,15 +26,7 @@ namespace System::Net::Sockets {
   // [TokenAttribute] Offset: FFFFFFFF
   class LingerOption : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean enabled
     // Size: 0x1
     // Offset: 0x10
@@ -51,17 +43,17 @@ namespace System::Net::Sockets {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Boolean enabled
-    bool& dyn_enabled();
+    [[deprecated("Use field access instead!")]] bool& dyn_enabled();
     // Get instance field reference: private System.Int32 lingerTime
-    int& dyn_lingerTime();
+    [[deprecated("Use field access instead!")]] int& dyn_lingerTime();
     // public System.Void set_Enabled(System.Boolean value)
-    // Offset: 0x1B364A8
+    // Offset: 0x1B70A90
     void set_Enabled(bool value);
     // public System.Void set_LingerTime(System.Int32 value)
-    // Offset: 0x1B364B4
+    // Offset: 0x1B70A9C
     void set_LingerTime(int value);
     // public System.Void .ctor(System.Boolean enable, System.Int32 seconds)
-    // Offset: 0x1B36468
+    // Offset: 0x1B70A50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LingerOption* New_ctor(bool enable, int seconds) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Sockets::LingerOption::.ctor");

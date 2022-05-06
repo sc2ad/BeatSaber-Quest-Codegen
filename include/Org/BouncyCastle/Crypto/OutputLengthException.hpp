@@ -30,23 +30,20 @@ namespace Org::BouncyCastle::Crypto {
   class OutputLengthException : public ::Org::BouncyCastle::Crypto::DataLengthException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x15BC2D4
+    // Offset: 0x15F1BE4
     // Implemented from: Org.BouncyCastle.Crypto.DataLengthException
     // Base method: System.Void DataLengthException::.ctor()
     // Base method: System.Void CryptoException::.ctor()
-    // Base method: System.Void Exception::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OutputLengthException* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::OutputLengthException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OutputLengthException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x15BC2DC
+    // Offset: 0x15F1BEC
     // Implemented from: Org.BouncyCastle.Crypto.DataLengthException
     // Base method: System.Void DataLengthException::.ctor(System.String message)
     // Base method: System.Void CryptoException::.ctor(System.String message)
-    // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OutputLengthException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::OutputLengthException::.ctor");

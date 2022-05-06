@@ -56,29 +56,21 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::MultiplayerConnectedPlayerFacade::Factory
     class Factory;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.GameObject _outroAnimator
     // Size: 0x8
     // Offset: 0x18
     ::UnityEngine::GameObject* outroAnimator;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [NullAllowed] Offset: 0x1253840
+    // [NullAllowed] Offset: 0x10D8424
     // private MultiplayerBigAvatarAnimator _bigAvatarAnimator
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::MultiplayerBigAvatarAnimator* bigAvatarAnimator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerBigAvatarAnimator*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1253878
+    // [HeaderAttribute] Offset: 0x10D845C
     // private System.Single _bigAvatarDisappearDuration
     // Size: 0x4
     // Offset: 0x28
@@ -91,35 +83,35 @@ namespace GlobalNamespace {
     ::GlobalNamespace::EaseType bigAvatarDisappearEasing;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EaseType) == 0x4);
-    // [InjectAttribute] Offset: 0x12538D4
+    // [InjectAttribute] Offset: 0x10D84B8
     // private readonly MultiplayerConnectedPlayerSongTimeSyncController _songTimeSyncController
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* songTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0x12538E4
+    // [InjectAttribute] Offset: 0x10D84C8
     // private readonly MultiplayerConnectedPlayerIntroAnimator _introAnimator
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* introAnimator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0x12538F4
+    // [InjectAttribute] Offset: 0x10D84D8
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253904
+    // [InjectAttribute] Offset: 0x10D84E8
     // private readonly MultiplayerConnectedPlayerScoreDiffText _scoreDiffText
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText* scoreDiffText;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253914
+    // [InjectAttribute] Offset: 0x10D84F8
     // private readonly IConnectedPlayerBeatmapObjectEventManager _beatmapObjectEventManager
     // Size: 0x8
     // Offset: 0x50
@@ -130,63 +122,57 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.GameObject _outroAnimator
-    ::UnityEngine::GameObject*& dyn__outroAnimator();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__outroAnimator();
     // Get instance field reference: private MultiplayerBigAvatarAnimator _bigAvatarAnimator
-    ::GlobalNamespace::MultiplayerBigAvatarAnimator*& dyn__bigAvatarAnimator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerBigAvatarAnimator*& dyn__bigAvatarAnimator();
     // Get instance field reference: private System.Single _bigAvatarDisappearDuration
-    float& dyn__bigAvatarDisappearDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__bigAvatarDisappearDuration();
     // Get instance field reference: private EaseType _bigAvatarDisappearEasing
-    ::GlobalNamespace::EaseType& dyn__bigAvatarDisappearEasing();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EaseType& dyn__bigAvatarDisappearEasing();
     // Get instance field reference: private readonly MultiplayerConnectedPlayerSongTimeSyncController _songTimeSyncController
-    ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*& dyn__songTimeSyncController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*& dyn__songTimeSyncController();
     // Get instance field reference: private readonly MultiplayerConnectedPlayerIntroAnimator _introAnimator
-    ::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator*& dyn__introAnimator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator*& dyn__introAnimator();
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
-    ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // Get instance field reference: private readonly MultiplayerConnectedPlayerScoreDiffText _scoreDiffText
-    ::GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText*& dyn__scoreDiffText();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText*& dyn__scoreDiffText();
     // Get instance field reference: private readonly IConnectedPlayerBeatmapObjectEventManager _beatmapObjectEventManager
-    ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*& dyn__beatmapObjectEventManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*& dyn__beatmapObjectEventManager();
     // public MultiplayerConnectedPlayerIntroAnimator get_introAnimator()
-    // Offset: 0x13D3614
+    // Offset: 0x13CFAC0
     ::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* get_introAnimator();
     // public UnityEngine.GameObject get_outroAnimator()
-    // Offset: 0x13D361C
+    // Offset: 0x13CFAC8
     ::UnityEngine::GameObject* get_outroAnimator();
     // public MultiplayerConnectedPlayerScoreDiffText get_scoreDiffText()
-    // Offset: 0x13D3624
+    // Offset: 0x13CFAD0
     ::GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText* get_scoreDiffText();
-    // public System.Void SetSongStartSyncTime(System.Single songStartSyncTime)
-    // Offset: 0x13D362C
-    void SetSongStartSyncTime(float songStartSyncTime);
-    // public System.Void PauseSpawning()
-    // Offset: 0x13D376C
-    void PauseSpawning();
-    // public System.Void ResumeSpawning()
-    // Offset: 0x13D3820
-    void ResumeSpawning();
-    // public System.Void __ForceStopSong()
-    // Offset: 0x13D38D4
-    void __ForceStopSong();
-    // public System.Void HideBigAvatar()
-    // Offset: 0x13D3920
-    void HideBigAvatar();
-    // public AvatarPoseController __GetPlayerAvatar()
-    // Offset: 0x13D39BC
-    ::GlobalNamespace::AvatarPoseController* __GetPlayerAvatar();
     // public System.Void .ctor()
-    // Offset: 0x13D3A10
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13CFEBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerFacade* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerFacade::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerFacade*, creationType>()));
     }
+    // public System.Void SetSongStartSyncTime(System.Single songStartSyncTime)
+    // Offset: 0x13CFAD8
+    void SetSongStartSyncTime(float songStartSyncTime);
+    // public System.Void PauseSpawning()
+    // Offset: 0x13CFC18
+    void PauseSpawning();
+    // public System.Void ResumeSpawning()
+    // Offset: 0x13CFCCC
+    void ResumeSpawning();
+    // public System.Void __ForceStopSong()
+    // Offset: 0x13CFD80
+    void __ForceStopSong();
+    // public System.Void HideBigAvatar()
+    // Offset: 0x13CFDCC
+    void HideBigAvatar();
+    // public AvatarPoseController __GetPlayerAvatar()
+    // Offset: 0x13CFE68
+    ::GlobalNamespace::AvatarPoseController* __GetPlayerAvatar();
   }; // MultiplayerConnectedPlayerFacade
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerFacade), 80 + sizeof(::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*)> __GlobalNamespace_MultiplayerConnectedPlayerFacadeSizeCheck;
@@ -217,6 +203,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerFacade*), "get_scoreDiffText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerFacade::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerFacade::SetSongStartSyncTime
 // Il2CppName: SetSongStartSyncTime
 template<>
@@ -266,7 +256,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerFacade*), "__GetPlayerAvatar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerFacade::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

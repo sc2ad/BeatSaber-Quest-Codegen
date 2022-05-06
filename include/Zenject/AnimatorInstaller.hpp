@@ -40,15 +40,7 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class AnimatorInstaller : public ::Zenject::Installer_2<::UnityEngine::Animator*, ::Zenject::AnimatorInstaller*> {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly UnityEngine.Animator _animator
     // Size: 0x8
     // Offset: 0x18
@@ -59,24 +51,24 @@ namespace Zenject {
     // Deleting conversion operator: operator ::Zenject::DiContainer*
     constexpr operator ::Zenject::DiContainer*() const noexcept = delete;
     // Get instance field reference: private readonly UnityEngine.Animator _animator
-    ::UnityEngine::Animator*& dyn__animator();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Animator*& dyn__animator();
     // public System.Void .ctor(UnityEngine.Animator animator)
-    // Offset: 0x17318B4
+    // Offset: 0x176A1C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatorInstaller* New_ctor(::UnityEngine::Animator* animator) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AnimatorInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatorInstaller*, creationType>(animator)));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x17319E0
+    // Offset: 0x176A2F0
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // public override System.Void InstallBindings()
-    // Offset: 0x1731918
+    // Offset: 0x176A228
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1731AA4
+    // Offset: 0x176A3B4
     // Implemented from: Zenject.Installer`2
     // Base method: Zenject.InjectTypeInfo Installer_2::__zenCreateInjectTypeInfo()
     // Base method: Zenject.InjectTypeInfo InstallerBase::__zenCreateInjectTypeInfo()

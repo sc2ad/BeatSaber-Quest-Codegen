@@ -33,15 +33,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionObjectiveResult : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MissionObjective <missionObjective>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -64,31 +56,31 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private MissionObjective <missionObjective>k__BackingField
-    ::GlobalNamespace::MissionObjective*& dyn_$missionObjective$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionObjective*& dyn_$missionObjective$k__BackingField();
     // Get instance field reference: private System.Boolean <cleared>k__BackingField
-    bool& dyn_$cleared$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$cleared$k__BackingField();
     // Get instance field reference: private System.Int32 <value>k__BackingField
-    int& dyn_$value$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$value$k__BackingField();
     // public MissionObjective get_missionObjective()
-    // Offset: 0x130C124
+    // Offset: 0x13085FC
     ::GlobalNamespace::MissionObjective* get_missionObjective();
     // private System.Void set_missionObjective(MissionObjective value)
-    // Offset: 0x130C12C
+    // Offset: 0x1308604
     void set_missionObjective(::GlobalNamespace::MissionObjective* value);
     // public System.Boolean get_cleared()
-    // Offset: 0x130C134
+    // Offset: 0x130860C
     bool get_cleared();
     // private System.Void set_cleared(System.Boolean value)
-    // Offset: 0x130C13C
+    // Offset: 0x1308614
     void set_cleared(bool value);
     // public System.Int32 get_value()
-    // Offset: 0x130C148
+    // Offset: 0x1308620
     int get_value();
     // private System.Void set_value(System.Int32 value)
-    // Offset: 0x130C150
+    // Offset: 0x1308628
     void set_value(int value);
     // public System.Void .ctor(MissionObjective missionObjective, System.Boolean cleared, System.Int32 value)
-    // Offset: 0x130BBC8
+    // Offset: 0x13080A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionObjectiveResult* New_ctor(::GlobalNamespace::MissionObjective* missionObjective, bool cleared, int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionObjectiveResult::.ctor");

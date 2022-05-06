@@ -90,7 +90,7 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.StencilOp DecrementWrap
     static void _set_DecrementWrap(::UnityEngine::Rendering::StencilOp value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.Rendering.StencilOp
   #pragma pack(pop)
   static check_size<sizeof(StencilOp), 0 + sizeof(int)> __UnityEngine_Rendering_StencilOpSizeCheck;

@@ -31,15 +31,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class BeatmapObjectsInTimeRowProcessor::$$c__DisplayClass17_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single currentTimeSliceTime
     // Size: 0x4
     // Offset: 0x10
@@ -52,25 +44,27 @@ namespace GlobalNamespace {
       return currentTimeSliceTime;
     }
     // Get instance field reference: public System.Single currentTimeSliceTime
-    float& dyn_currentTimeSliceTime();
-    // System.Boolean <HandleCurrentTimeSliceColorNotesDidFinishTimeSlice>b__1(SliderData tail)
-    // Offset: 0x2818A28
-    bool $HandleCurrentTimeSliceColorNotesDidFinishTimeSlice$b__1(::GlobalNamespace::SliderData* tail);
+    [[deprecated("Use field access instead!")]] float& dyn_currentTimeSliceTime();
     // public System.Void .ctor()
-    // Offset: 0x281855C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x286AB1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectsInTimeRowProcessor::$$c__DisplayClass17_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::$$c__DisplayClass17_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectsInTimeRowProcessor::$$c__DisplayClass17_0*, creationType>()));
     }
+    // System.Boolean <HandleCurrentTimeSliceColorNotesDidFinishTimeSlice>b__1(SliderData tail)
+    // Offset: 0x286AFE8
+    bool $HandleCurrentTimeSliceColorNotesDidFinishTimeSlice$b__1(::GlobalNamespace::SliderData* tail);
   }; // BeatmapObjectsInTimeRowProcessor/<>c__DisplayClass17_0
   #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectsInTimeRowProcessor::$$c__DisplayClass17_0), 16 + sizeof(float)> __GlobalNamespace_BeatmapObjectsInTimeRowProcessor_$$c__DisplayClass17_0SizeCheck;
   static_assert(sizeof(BeatmapObjectsInTimeRowProcessor::$$c__DisplayClass17_0) == 0x14);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectsInTimeRowProcessor::$$c__DisplayClass17_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectsInTimeRowProcessor::$$c__DisplayClass17_0::$HandleCurrentTimeSliceColorNotesDidFinishTimeSlice$b__1
 // Il2CppName: <HandleCurrentTimeSliceColorNotesDidFinishTimeSlice>b__1
 template<>
@@ -80,7 +74,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectsInTimeRowProcessor::$$c__DisplayClass17_0*), "<HandleCurrentTimeSliceColorNotesDidFinishTimeSlice>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tail});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectsInTimeRowProcessor::$$c__DisplayClass17_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

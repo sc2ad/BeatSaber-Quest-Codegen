@@ -67,7 +67,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.TextGenerationError NoFont
     static void _set_NoFont(::UnityEngine::TextGenerationError value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.TextGenerationError
   #pragma pack(pop)
   static check_size<sizeof(TextGenerationError), 0 + sizeof(int)> __UnityEngine_TextGenerationErrorSizeCheck;

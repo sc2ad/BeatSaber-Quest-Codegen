@@ -43,28 +43,30 @@ namespace System::IO {
     static ::System::IO::IFileWatcher* _get_instance();
     // Set static field: static private System.IO.IFileWatcher instance
     static void _set_instance(::System::IO::IFileWatcher* value);
-    // public System.Void StartDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x1CB7408
-    void StartDispatching(::System::IO::FileSystemWatcher* fsw);
-    // public System.Void StopDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x1CB740C
-    void StopDispatching(::System::IO::FileSystemWatcher* fsw);
-    // static public System.Boolean GetInstance(out System.IO.IFileWatcher watcher)
-    // Offset: 0x1CB6A0C
-    static bool GetInstance(ByRef<::System::IO::IFileWatcher*> watcher);
     // public System.Void .ctor()
-    // Offset: 0x1CB7410
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1CF3968
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullFileWatcher* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::NullFileWatcher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullFileWatcher*, creationType>()));
     }
+    // public System.Void StartDispatching(System.IO.FileSystemWatcher fsw)
+    // Offset: 0x1CF3960
+    void StartDispatching(::System::IO::FileSystemWatcher* fsw);
+    // public System.Void StopDispatching(System.IO.FileSystemWatcher fsw)
+    // Offset: 0x1CF3964
+    void StopDispatching(::System::IO::FileSystemWatcher* fsw);
+    // static public System.Boolean GetInstance(out System.IO.IFileWatcher watcher)
+    // Offset: 0x1CF2F64
+    static bool GetInstance(ByRef<::System::IO::IFileWatcher*> watcher);
   }; // System.IO.NullFileWatcher
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::IO::NullFileWatcher::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::IO::NullFileWatcher::StartDispatching
 // Il2CppName: StartDispatching
 template<>
@@ -92,7 +94,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(By
     return ::il2cpp_utils::FindMethod(classof(System::IO::NullFileWatcher*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{watcher});
   }
 };
-// Writing MetadataGetter for method: System::IO::NullFileWatcher::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

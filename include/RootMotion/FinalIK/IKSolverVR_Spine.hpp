@@ -33,157 +33,149 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKSolverVR::Spine : public ::RootMotion::FinalIK::IKSolverVR::BodyPart {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x12772F8
+    // [TooltipAttribute] Offset: 0x10FBFB0
     // public UnityEngine.Transform headTarget
     // Size: 0x8
     // Offset: 0x48
     ::UnityEngine::Transform* headTarget;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1277330
+    // [TooltipAttribute] Offset: 0x10FBFE8
     // public UnityEngine.Transform pelvisTarget
     // Size: 0x8
     // Offset: 0x50
     ::UnityEngine::Transform* pelvisTarget;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1277368
-    // [RangeAttribute] Offset: 0x1277368
+    // [TooltipAttribute] Offset: 0x10FC020
+    // [RangeAttribute] Offset: 0x10FC020
     // public System.Single positionWeight
     // Size: 0x4
     // Offset: 0x58
     float positionWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x12773BC
-    // [RangeAttribute] Offset: 0x12773BC
+    // [TooltipAttribute] Offset: 0x10FC074
+    // [RangeAttribute] Offset: 0x10FC074
     // public System.Single rotationWeight
     // Size: 0x4
     // Offset: 0x5C
     float rotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1277410
-    // [RangeAttribute] Offset: 0x1277410
+    // [TooltipAttribute] Offset: 0x10FC0C8
+    // [RangeAttribute] Offset: 0x10FC0C8
     // public System.Single pelvisPositionWeight
     // Size: 0x4
     // Offset: 0x60
     float pelvisPositionWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1277464
-    // [RangeAttribute] Offset: 0x1277464
+    // [TooltipAttribute] Offset: 0x10FC11C
+    // [RangeAttribute] Offset: 0x10FC11C
     // public System.Single pelvisRotationWeight
     // Size: 0x4
     // Offset: 0x64
     float pelvisRotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x12774B8
+    // [TooltipAttribute] Offset: 0x10FC170
     // public UnityEngine.Transform chestGoal
     // Size: 0x8
     // Offset: 0x68
     ::UnityEngine::Transform* chestGoal;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x12774F0
-    // [RangeAttribute] Offset: 0x12774F0
+    // [TooltipAttribute] Offset: 0x10FC1A8
+    // [RangeAttribute] Offset: 0x10FC1A8
     // public System.Single chestGoalWeight
     // Size: 0x4
     // Offset: 0x70
     float chestGoalWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1277544
+    // [TooltipAttribute] Offset: 0x10FC1FC
     // public System.Single minHeadHeight
     // Size: 0x4
     // Offset: 0x74
     float minHeadHeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x127757C
-    // [RangeAttribute] Offset: 0x127757C
+    // [TooltipAttribute] Offset: 0x10FC234
+    // [RangeAttribute] Offset: 0x10FC234
     // public System.Single bodyPosStiffness
     // Size: 0x4
     // Offset: 0x78
     float bodyPosStiffness;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x12775D0
-    // [RangeAttribute] Offset: 0x12775D0
+    // [TooltipAttribute] Offset: 0x10FC288
+    // [RangeAttribute] Offset: 0x10FC288
     // public System.Single bodyRotStiffness
     // Size: 0x4
     // Offset: 0x7C
     float bodyRotStiffness;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1277624
-    // [FormerlySerializedAsAttribute] Offset: 0x1277624
-    // [RangeAttribute] Offset: 0x1277624
+    // [TooltipAttribute] Offset: 0x10FC2DC
+    // [FormerlySerializedAsAttribute] Offset: 0x10FC2DC
+    // [RangeAttribute] Offset: 0x10FC2DC
     // public System.Single neckStiffness
     // Size: 0x4
     // Offset: 0x80
     float neckStiffness;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x127769C
-    // [RangeAttribute] Offset: 0x127769C
+    // [TooltipAttribute] Offset: 0x10FC354
+    // [RangeAttribute] Offset: 0x10FC354
     // public System.Single rotateChestByHands
     // Size: 0x4
     // Offset: 0x84
     float rotateChestByHands;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x12776F0
-    // [RangeAttribute] Offset: 0x12776F0
+    // [TooltipAttribute] Offset: 0x10FC3A8
+    // [RangeAttribute] Offset: 0x10FC3A8
     // public System.Single chestClampWeight
     // Size: 0x4
     // Offset: 0x88
     float chestClampWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1277744
-    // [RangeAttribute] Offset: 0x1277744
+    // [TooltipAttribute] Offset: 0x10FC3FC
+    // [RangeAttribute] Offset: 0x10FC3FC
     // public System.Single headClampWeight
     // Size: 0x4
     // Offset: 0x8C
     float headClampWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1277798
+    // [TooltipAttribute] Offset: 0x10FC450
     // public System.Single moveBodyBackWhenCrouching
     // Size: 0x4
     // Offset: 0x90
     float moveBodyBackWhenCrouching;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x12777D0
-    // [RangeAttribute] Offset: 0x12777D0
+    // [TooltipAttribute] Offset: 0x10FC488
+    // [RangeAttribute] Offset: 0x10FC488
     // public System.Single maintainPelvisPosition
     // Size: 0x4
     // Offset: 0x94
     float maintainPelvisPosition;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1277824
-    // [RangeAttribute] Offset: 0x1277824
+    // [TooltipAttribute] Offset: 0x10FC4DC
+    // [RangeAttribute] Offset: 0x10FC4DC
     // public System.Single maxRootAngle
     // Size: 0x4
     // Offset: 0x98
     float maxRootAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x127787C
-    // [RangeAttribute] Offset: 0x127787C
+    // [TooltipAttribute] Offset: 0x10FC534
+    // [RangeAttribute] Offset: 0x10FC534
     // public System.Single rootHeadingOffset
     // Size: 0x4
     // Offset: 0x9C
@@ -410,204 +402,203 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: public UnityEngine.Transform headTarget
-    ::UnityEngine::Transform*& dyn_headTarget();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_headTarget();
     // Get instance field reference: public UnityEngine.Transform pelvisTarget
-    ::UnityEngine::Transform*& dyn_pelvisTarget();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_pelvisTarget();
     // Get instance field reference: public System.Single positionWeight
-    float& dyn_positionWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_positionWeight();
     // Get instance field reference: public System.Single rotationWeight
-    float& dyn_rotationWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_rotationWeight();
     // Get instance field reference: public System.Single pelvisPositionWeight
-    float& dyn_pelvisPositionWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_pelvisPositionWeight();
     // Get instance field reference: public System.Single pelvisRotationWeight
-    float& dyn_pelvisRotationWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_pelvisRotationWeight();
     // Get instance field reference: public UnityEngine.Transform chestGoal
-    ::UnityEngine::Transform*& dyn_chestGoal();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_chestGoal();
     // Get instance field reference: public System.Single chestGoalWeight
-    float& dyn_chestGoalWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_chestGoalWeight();
     // Get instance field reference: public System.Single minHeadHeight
-    float& dyn_minHeadHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_minHeadHeight();
     // Get instance field reference: public System.Single bodyPosStiffness
-    float& dyn_bodyPosStiffness();
+    [[deprecated("Use field access instead!")]] float& dyn_bodyPosStiffness();
     // Get instance field reference: public System.Single bodyRotStiffness
-    float& dyn_bodyRotStiffness();
+    [[deprecated("Use field access instead!")]] float& dyn_bodyRotStiffness();
     // Get instance field reference: public System.Single neckStiffness
-    float& dyn_neckStiffness();
+    [[deprecated("Use field access instead!")]] float& dyn_neckStiffness();
     // Get instance field reference: public System.Single rotateChestByHands
-    float& dyn_rotateChestByHands();
+    [[deprecated("Use field access instead!")]] float& dyn_rotateChestByHands();
     // Get instance field reference: public System.Single chestClampWeight
-    float& dyn_chestClampWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_chestClampWeight();
     // Get instance field reference: public System.Single headClampWeight
-    float& dyn_headClampWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_headClampWeight();
     // Get instance field reference: public System.Single moveBodyBackWhenCrouching
-    float& dyn_moveBodyBackWhenCrouching();
+    [[deprecated("Use field access instead!")]] float& dyn_moveBodyBackWhenCrouching();
     // Get instance field reference: public System.Single maintainPelvisPosition
-    float& dyn_maintainPelvisPosition();
+    [[deprecated("Use field access instead!")]] float& dyn_maintainPelvisPosition();
     // Get instance field reference: public System.Single maxRootAngle
-    float& dyn_maxRootAngle();
+    [[deprecated("Use field access instead!")]] float& dyn_maxRootAngle();
     // Get instance field reference: public System.Single rootHeadingOffset
-    float& dyn_rootHeadingOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_rootHeadingOffset();
     // Get instance field reference: public UnityEngine.Vector3 IKPositionHead
-    ::UnityEngine::Vector3& dyn_IKPositionHead();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_IKPositionHead();
     // Get instance field reference: public UnityEngine.Quaternion IKRotationHead
-    ::UnityEngine::Quaternion& dyn_IKRotationHead();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_IKRotationHead();
     // Get instance field reference: public UnityEngine.Vector3 IKPositionPelvis
-    ::UnityEngine::Vector3& dyn_IKPositionPelvis();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_IKPositionPelvis();
     // Get instance field reference: public UnityEngine.Quaternion IKRotationPelvis
-    ::UnityEngine::Quaternion& dyn_IKRotationPelvis();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_IKRotationPelvis();
     // Get instance field reference: public UnityEngine.Vector3 goalPositionChest
-    ::UnityEngine::Vector3& dyn_goalPositionChest();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_goalPositionChest();
     // Get instance field reference: public UnityEngine.Vector3 pelvisPositionOffset
-    ::UnityEngine::Vector3& dyn_pelvisPositionOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_pelvisPositionOffset();
     // Get instance field reference: public UnityEngine.Vector3 chestPositionOffset
-    ::UnityEngine::Vector3& dyn_chestPositionOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_chestPositionOffset();
     // Get instance field reference: public UnityEngine.Vector3 headPositionOffset
-    ::UnityEngine::Vector3& dyn_headPositionOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_headPositionOffset();
     // Get instance field reference: public UnityEngine.Quaternion pelvisRotationOffset
-    ::UnityEngine::Quaternion& dyn_pelvisRotationOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_pelvisRotationOffset();
     // Get instance field reference: public UnityEngine.Quaternion chestRotationOffset
-    ::UnityEngine::Quaternion& dyn_chestRotationOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_chestRotationOffset();
     // Get instance field reference: public UnityEngine.Quaternion headRotationOffset
-    ::UnityEngine::Quaternion& dyn_headRotationOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_headRotationOffset();
     // Get instance field reference: public UnityEngine.Vector3 faceDirection
-    ::UnityEngine::Vector3& dyn_faceDirection();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_faceDirection();
     // Get instance field reference: public UnityEngine.Vector3 locomotionHeadPositionOffset
-    ::UnityEngine::Vector3& dyn_locomotionHeadPositionOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_locomotionHeadPositionOffset();
     // Get instance field reference: public UnityEngine.Vector3 headPosition
-    ::UnityEngine::Vector3& dyn_headPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_headPosition();
     // Get instance field reference: private UnityEngine.Quaternion <anchorRotation>k__BackingField
-    ::UnityEngine::Quaternion& dyn_$anchorRotation$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_$anchorRotation$k__BackingField();
     // Get instance field reference: private UnityEngine.Quaternion <anchorRelativeToHead>k__BackingField
-    ::UnityEngine::Quaternion& dyn_$anchorRelativeToHead$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_$anchorRelativeToHead$k__BackingField();
     // Get instance field reference: private UnityEngine.Quaternion headRotation
-    ::UnityEngine::Quaternion& dyn_headRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_headRotation();
     // Get instance field reference: private UnityEngine.Quaternion pelvisRotation
-    ::UnityEngine::Quaternion& dyn_pelvisRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_pelvisRotation();
     // Get instance field reference: private UnityEngine.Quaternion anchorRelativeToPelvis
-    ::UnityEngine::Quaternion& dyn_anchorRelativeToPelvis();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_anchorRelativeToPelvis();
     // Get instance field reference: private UnityEngine.Quaternion pelvisRelativeRotation
-    ::UnityEngine::Quaternion& dyn_pelvisRelativeRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_pelvisRelativeRotation();
     // Get instance field reference: private UnityEngine.Quaternion chestRelativeRotation
-    ::UnityEngine::Quaternion& dyn_chestRelativeRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_chestRelativeRotation();
     // Get instance field reference: private UnityEngine.Vector3 headDeltaPosition
-    ::UnityEngine::Vector3& dyn_headDeltaPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_headDeltaPosition();
     // Get instance field reference: private UnityEngine.Quaternion pelvisDeltaRotation
-    ::UnityEngine::Quaternion& dyn_pelvisDeltaRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_pelvisDeltaRotation();
     // Get instance field reference: private UnityEngine.Quaternion chestTargetRotation
-    ::UnityEngine::Quaternion& dyn_chestTargetRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_chestTargetRotation();
     // Get instance field reference: private System.Int32 pelvisIndex
-    int& dyn_pelvisIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_pelvisIndex();
     // Get instance field reference: private System.Int32 spineIndex
-    int& dyn_spineIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_spineIndex();
     // Get instance field reference: private System.Int32 chestIndex
-    int& dyn_chestIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_chestIndex();
     // Get instance field reference: private System.Int32 neckIndex
-    int& dyn_neckIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_neckIndex();
     // Get instance field reference: private System.Int32 headIndex
-    int& dyn_headIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_headIndex();
     // Get instance field reference: private System.Single length
-    float& dyn_length();
+    [[deprecated("Use field access instead!")]] float& dyn_length();
     // Get instance field reference: private System.Boolean hasChest
-    bool& dyn_hasChest();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasChest();
     // Get instance field reference: private System.Boolean hasNeck
-    bool& dyn_hasNeck();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasNeck();
     // Get instance field reference: private System.Boolean hasLegs
-    bool& dyn_hasLegs();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasLegs();
     // Get instance field reference: private System.Single headHeight
-    float& dyn_headHeight();
+    [[deprecated("Use field access instead!")]] float& dyn_headHeight();
     // Get instance field reference: private System.Single sizeMlp
-    float& dyn_sizeMlp();
+    [[deprecated("Use field access instead!")]] float& dyn_sizeMlp();
     // Get instance field reference: private UnityEngine.Vector3 chestForward
-    ::UnityEngine::Vector3& dyn_chestForward();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_chestForward();
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone get_pelvis()
-    // Offset: 0x234D5E8
+    // Offset: 0x2396E5C
     ::RootMotion::FinalIK::IKSolverVR::VirtualBone* get_pelvis();
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone get_firstSpineBone()
-    // Offset: 0x234DC48
+    // Offset: 0x23974BC
     ::RootMotion::FinalIK::IKSolverVR::VirtualBone* get_firstSpineBone();
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone get_chest()
-    // Offset: 0x234DC88
+    // Offset: 0x23974FC
     ::RootMotion::FinalIK::IKSolverVR::VirtualBone* get_chest();
     // private RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone get_neck()
-    // Offset: 0x234DCDC
+    // Offset: 0x2397550
     ::RootMotion::FinalIK::IKSolverVR::VirtualBone* get_neck();
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone get_head()
-    // Offset: 0x234D628
+    // Offset: 0x2396E9C
     ::RootMotion::FinalIK::IKSolverVR::VirtualBone* get_head();
     // public UnityEngine.Quaternion get_anchorRotation()
-    // Offset: 0x234DD1C
+    // Offset: 0x2397590
     ::UnityEngine::Quaternion get_anchorRotation();
     // private System.Void set_anchorRotation(UnityEngine.Quaternion value)
-    // Offset: 0x234DD30
+    // Offset: 0x23975A4
     void set_anchorRotation(::UnityEngine::Quaternion value);
     // public UnityEngine.Quaternion get_anchorRelativeToHead()
-    // Offset: 0x234DD44
+    // Offset: 0x23975B8
     ::UnityEngine::Quaternion get_anchorRelativeToHead();
     // private System.Void set_anchorRelativeToHead(UnityEngine.Quaternion value)
-    // Offset: 0x234DD58
+    // Offset: 0x23975CC
     void set_anchorRelativeToHead(::UnityEngine::Quaternion value);
     // private System.Void CalculateChestTargetRotation(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone rootBone, RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm[] arms)
-    // Offset: 0x234F0C0
+    // Offset: 0x2398934
     void CalculateChestTargetRotation(::RootMotion::FinalIK::IKSolverVR::VirtualBone* rootBone, ::ArrayW<::RootMotion::FinalIK::IKSolverVR::Arm*> arms);
     // public System.Void Solve(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone rootBone, RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Leg[] legs, RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm[] arms)
-    // Offset: 0x234F680
+    // Offset: 0x2398EF4
     void Solve(::RootMotion::FinalIK::IKSolverVR::VirtualBone* rootBone, ::ArrayW<::RootMotion::FinalIK::IKSolverVR::Leg*> legs, ::ArrayW<::RootMotion::FinalIK::IKSolverVR::Arm*> arms);
     // private System.Void FABRIKPass(UnityEngine.Vector3 animatedPelvisPos, UnityEngine.Vector3 rootUp, System.Single weight)
-    // Offset: 0x23500C0
+    // Offset: 0x2399934
     void FABRIKPass(::UnityEngine::Vector3 animatedPelvisPos, ::UnityEngine::Vector3 rootUp, float weight);
     // private System.Void SolvePelvis()
-    // Offset: 0x23508EC
+    // Offset: 0x239A160
     void SolvePelvis();
     // private System.Void AdjustChestByHands(ref UnityEngine.Quaternion chestTargetRotation, RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm[] arms)
-    // Offset: 0x234F2F0
+    // Offset: 0x2398B64
     void AdjustChestByHands(ByRef<::UnityEngine::Quaternion> chestTargetRotation, ::ArrayW<::RootMotion::FinalIK::IKSolverVR::Arm*> arms);
     // public System.Void InverseTranslateToHead(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Leg[] legs, System.Boolean limited, System.Boolean useCurrentLegMag, UnityEngine.Vector3 offset, System.Single w)
-    // Offset: 0x2350534
+    // Offset: 0x2399DA8
     void InverseTranslateToHead(::ArrayW<::RootMotion::FinalIK::IKSolverVR::Leg*> legs, bool limited, bool useCurrentLegMag, ::UnityEngine::Vector3 offset, float w);
     // private System.Void TranslatePelvis(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Leg[] legs, UnityEngine.Vector3 deltaPosition, UnityEngine.Quaternion deltaRotation)
-    // Offset: 0x234FCA4
+    // Offset: 0x2399518
     void TranslatePelvis(::ArrayW<::RootMotion::FinalIK::IKSolverVR::Leg*> legs, ::UnityEngine::Vector3 deltaPosition, ::UnityEngine::Quaternion deltaRotation);
     // private UnityEngine.Vector3 LimitPelvisPosition(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Leg[] legs, UnityEngine.Vector3 pelvisPosition, System.Boolean useCurrentLegMag, System.Int32 it)
-    // Offset: 0x23513AC
+    // Offset: 0x239AC20
     ::UnityEngine::Vector3 LimitPelvisPosition(::ArrayW<::RootMotion::FinalIK::IKSolverVR::Leg*> legs, ::UnityEngine::Vector3 pelvisPosition, bool useCurrentLegMag, int it);
     // private System.Void Bend(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone[] bones, System.Int32 firstIndex, System.Int32 lastIndex, UnityEngine.Quaternion targetRotation, System.Single clampWeight, System.Boolean uniformWeight, System.Single w)
-    // Offset: 0x23506A0
+    // Offset: 0x2399F14
     void Bend(::ArrayW<::RootMotion::FinalIK::IKSolverVR::VirtualBone*> bones, int firstIndex, int lastIndex, ::UnityEngine::Quaternion targetRotation, float clampWeight, bool uniformWeight, float w);
     // private System.Void Bend(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone[] bones, System.Int32 firstIndex, System.Int32 lastIndex, UnityEngine.Quaternion targetRotation, UnityEngine.Quaternion rotationOffset, System.Single clampWeight, System.Boolean uniformWeight, System.Single w)
-    // Offset: 0x2350280
+    // Offset: 0x2399AF4
     void Bend(::ArrayW<::RootMotion::FinalIK::IKSolverVR::VirtualBone*> bones, int firstIndex, int lastIndex, ::UnityEngine::Quaternion targetRotation, ::UnityEngine::Quaternion rotationOffset, float clampWeight, bool uniformWeight, float w);
     // public System.Void .ctor()
-    // Offset: 0x23516D4
+    // Offset: 0x239AF48
     // Implemented from: RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.BodyPart
     // Base method: System.Void BodyPart::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolverVR::Spine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolverVR::Spine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverVR::Spine*, creationType>()));
     }
     // protected override System.Void OnRead(UnityEngine.Vector3[] positions, UnityEngine.Quaternion[] rotations, System.Boolean hasChest, System.Boolean hasNeck, System.Boolean hasShoulders, System.Boolean hasToes, System.Boolean hasLegs, System.Int32 rootIndex, System.Int32 index)
-    // Offset: 0x234DD6C
+    // Offset: 0x23975E0
     // Implemented from: RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.BodyPart
     // Base method: System.Void BodyPart::OnRead(UnityEngine.Vector3[] positions, UnityEngine.Quaternion[] rotations, System.Boolean hasChest, System.Boolean hasNeck, System.Boolean hasShoulders, System.Boolean hasToes, System.Boolean hasLegs, System.Int32 rootIndex, System.Int32 index)
     void OnRead(::ArrayW<::UnityEngine::Vector3> positions, ::ArrayW<::UnityEngine::Quaternion> rotations, bool hasChest, bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int rootIndex, int index);
     // public override System.Void PreSolve()
-    // Offset: 0x234E838
+    // Offset: 0x23980AC
     // Implemented from: RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.BodyPart
     // Base method: System.Void BodyPart::PreSolve()
     void PreSolve();
     // public override System.Void ApplyOffsets()
-    // Offset: 0x234EA48
+    // Offset: 0x23982BC
     // Implemented from: RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.BodyPart
     // Base method: System.Void BodyPart::ApplyOffsets()
     void ApplyOffsets();
     // public override System.Void Write(ref UnityEngine.Vector3[] solvedPositions, ref UnityEngine.Quaternion[] solvedRotations)
-    // Offset: 0x23510D4
+    // Offset: 0x239A948
     // Implemented from: RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.BodyPart
     // Base method: System.Void BodyPart::Write(ref UnityEngine.Vector3[] solvedPositions, ref UnityEngine.Quaternion[] solvedRotations)
     void Write(ByRef<::ArrayW<::UnityEngine::Vector3>> solvedPositions, ByRef<::ArrayW<::UnityEngine::Quaternion>> solvedRotations);
     // public override System.Void ResetOffsets()
-    // Offset: 0x23512B0
+    // Offset: 0x239AB24
     // Implemented from: RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.BodyPart
     // Base method: System.Void BodyPart::ResetOffsets()
     void ResetOffsets();

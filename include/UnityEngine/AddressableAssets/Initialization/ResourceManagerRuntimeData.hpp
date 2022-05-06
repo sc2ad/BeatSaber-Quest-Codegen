@@ -49,43 +49,35 @@ namespace UnityEngine::AddressableAssets::Initialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResourceManagerRuntimeData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String m_buildTarget
     // Size: 0x8
     // Offset: 0x10
     ::StringW m_buildTarget;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x1243770
+    // [FormerlySerializedAsAttribute] Offset: 0x10C8258
     // private System.String m_SettingsHash
     // Size: 0x8
     // Offset: 0x18
     ::StringW m_SettingsHash;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x12437BC
+    // [FormerlySerializedAsAttribute] Offset: 0x10C82A4
     // private System.Collections.Generic.List`1<UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData> m_CatalogLocations
     // Size: 0x8
     // Offset: 0x20
     ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* m_CatalogLocations;
     // Field size check
     static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x1243808
+    // [FormerlySerializedAsAttribute] Offset: 0x10C82F0
     // private System.Boolean m_ProfileEvents
     // Size: 0x1
     // Offset: 0x28
     bool m_ProfileEvents;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [FormerlySerializedAsAttribute] Offset: 0x1243854
+    // [FormerlySerializedAsAttribute] Offset: 0x10C833C
     // private System.Boolean m_LogResourceManagerExceptions
     // Size: 0x1
     // Offset: 0x29
@@ -94,7 +86,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_LogResourceManagerExceptions and: m_ExtraInitializationData
     char __padding4[0x6] = {};
-    // [FormerlySerializedAsAttribute] Offset: 0x12438A0
+    // [FormerlySerializedAsAttribute] Offset: 0x10C8388
     // private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.ObjectInitializationData> m_ExtraInitializationData
     // Size: 0x8
     // Offset: 0x30
@@ -143,91 +135,89 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Set static field: static public System.String kCatalogAddress
     static void _set_kCatalogAddress(::StringW value);
     // Get instance field reference: private System.String m_buildTarget
-    ::StringW& dyn_m_buildTarget();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_buildTarget();
     // Get instance field reference: private System.String m_SettingsHash
-    ::StringW& dyn_m_SettingsHash();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_SettingsHash();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData> m_CatalogLocations
-    ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>*& dyn_m_CatalogLocations();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>*& dyn_m_CatalogLocations();
     // Get instance field reference: private System.Boolean m_ProfileEvents
-    bool& dyn_m_ProfileEvents();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_ProfileEvents();
     // Get instance field reference: private System.Boolean m_LogResourceManagerExceptions
-    bool& dyn_m_LogResourceManagerExceptions();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_LogResourceManagerExceptions();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.ObjectInitializationData> m_ExtraInitializationData
-    ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>*& dyn_m_ExtraInitializationData();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>*& dyn_m_ExtraInitializationData();
     // Get instance field reference: private System.Boolean m_DisableCatalogUpdateOnStart
-    bool& dyn_m_DisableCatalogUpdateOnStart();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_DisableCatalogUpdateOnStart();
     // Get instance field reference: private System.Boolean m_IsLocalCatalogInBundle
-    bool& dyn_m_IsLocalCatalogInBundle();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_IsLocalCatalogInBundle();
     // Get instance field reference: private UnityEngine.ResourceManagement.Util.SerializedType m_CertificateHandlerType
-    ::UnityEngine::ResourceManagement::Util::SerializedType& dyn_m_CertificateHandlerType();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::Util::SerializedType& dyn_m_CertificateHandlerType();
     // Get instance field reference: private System.String m_AddressablesVersion
-    ::StringW& dyn_m_AddressablesVersion();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_AddressablesVersion();
     // Get instance field reference: private System.Int32 m_maxConcurrentWebRequests
-    int& dyn_m_maxConcurrentWebRequests();
+    [[deprecated("Use field access instead!")]] int& dyn_m_maxConcurrentWebRequests();
     // public System.String get_BuildTarget()
-    // Offset: 0x18920D4
+    // Offset: 0x18CB9E4
     ::StringW get_BuildTarget();
     // public System.Void set_BuildTarget(System.String value)
-    // Offset: 0x18920DC
+    // Offset: 0x18CB9EC
     void set_BuildTarget(::StringW value);
     // public System.String get_SettingsHash()
-    // Offset: 0x18920E4
+    // Offset: 0x18CB9F4
     ::StringW get_SettingsHash();
     // public System.Void set_SettingsHash(System.String value)
-    // Offset: 0x18920EC
+    // Offset: 0x18CB9FC
     void set_SettingsHash(::StringW value);
     // public System.Collections.Generic.List`1<UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData> get_CatalogLocations()
-    // Offset: 0x18920F4
+    // Offset: 0x18CBA04
     ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* get_CatalogLocations();
     // public System.Boolean get_ProfileEvents()
-    // Offset: 0x18920FC
+    // Offset: 0x18CBA0C
     bool get_ProfileEvents();
     // public System.Void set_ProfileEvents(System.Boolean value)
-    // Offset: 0x1892104
+    // Offset: 0x18CBA14
     void set_ProfileEvents(bool value);
     // public System.Boolean get_LogResourceManagerExceptions()
-    // Offset: 0x1892110
+    // Offset: 0x18CBA20
     bool get_LogResourceManagerExceptions();
     // public System.Void set_LogResourceManagerExceptions(System.Boolean value)
-    // Offset: 0x1892118
+    // Offset: 0x18CBA28
     void set_LogResourceManagerExceptions(bool value);
     // public System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.ObjectInitializationData> get_InitializationObjects()
-    // Offset: 0x1892124
+    // Offset: 0x18CBA34
     ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>* get_InitializationObjects();
     // public System.Boolean get_DisableCatalogUpdateOnStartup()
-    // Offset: 0x189212C
+    // Offset: 0x18CBA3C
     bool get_DisableCatalogUpdateOnStartup();
     // public System.Void set_DisableCatalogUpdateOnStartup(System.Boolean value)
-    // Offset: 0x1892134
+    // Offset: 0x18CBA44
     void set_DisableCatalogUpdateOnStartup(bool value);
     // public System.Boolean get_IsLocalCatalogInBundle()
-    // Offset: 0x1892140
+    // Offset: 0x18CBA50
     bool get_IsLocalCatalogInBundle();
     // public System.Void set_IsLocalCatalogInBundle(System.Boolean value)
-    // Offset: 0x1892148
+    // Offset: 0x18CBA58
     void set_IsLocalCatalogInBundle(bool value);
     // public System.Type get_CertificateHandlerType()
-    // Offset: 0x18901FC
+    // Offset: 0x18C9B0C
     ::System::Type* get_CertificateHandlerType();
     // public System.Void set_CertificateHandlerType(System.Type value)
-    // Offset: 0x1892154
+    // Offset: 0x18CBA64
     void set_CertificateHandlerType(::System::Type* value);
     // public System.String get_AddressablesVersion()
-    // Offset: 0x1892160
+    // Offset: 0x18CBA70
     ::StringW get_AddressablesVersion();
     // public System.Void set_AddressablesVersion(System.String value)
-    // Offset: 0x1892168
+    // Offset: 0x18CBA78
     void set_AddressablesVersion(::StringW value);
     // public System.Int32 get_MaxConcurrentWebRequests()
-    // Offset: 0x1892170
+    // Offset: 0x18CBA80
     int get_MaxConcurrentWebRequests();
     // public System.Void set_MaxConcurrentWebRequests(System.Int32 value)
-    // Offset: 0x1892178
+    // Offset: 0x18CBA88
     void set_MaxConcurrentWebRequests(int value);
     // public System.Void .ctor()
-    // Offset: 0x18921FC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18CBB0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceManagerRuntimeData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::.ctor");

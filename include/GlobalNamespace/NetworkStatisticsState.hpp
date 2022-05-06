@@ -121,40 +121,40 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public readonly System.Int64 packetsSent
-    int64_t& dyn_packetsSent();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_packetsSent();
     // Get instance field reference: public readonly System.Int64 packetsReceived
-    int64_t& dyn_packetsReceived();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_packetsReceived();
     // Get instance field reference: public readonly System.Int64 bytesSent
-    int64_t& dyn_bytesSent();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_bytesSent();
     // Get instance field reference: public readonly System.Int64 bytesReceived
-    int64_t& dyn_bytesReceived();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_bytesReceived();
     // Get instance field reference: public readonly System.Int64 packetsLost
-    int64_t& dyn_packetsLost();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_packetsLost();
     // Get instance field reference: public readonly System.Int64 packetsSentEncrypted
-    int64_t& dyn_packetsSentEncrypted();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_packetsSentEncrypted();
     // Get instance field reference: public readonly System.Int64 packetsSentPlaintext
-    int64_t& dyn_packetsSentPlaintext();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_packetsSentPlaintext();
     // Get instance field reference: public readonly System.Int64 packetsSentRejected
-    int64_t& dyn_packetsSentRejected();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_packetsSentRejected();
     // Get instance field reference: public readonly System.Int64 packetsReceivedEncrypted
-    int64_t& dyn_packetsReceivedEncrypted();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_packetsReceivedEncrypted();
     // Get instance field reference: public readonly System.Int64 packetsReceivedPlaintext
-    int64_t& dyn_packetsReceivedPlaintext();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_packetsReceivedPlaintext();
     // Get instance field reference: public readonly System.Int64 packetsReceivedRejected
-    int64_t& dyn_packetsReceivedRejected();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_packetsReceivedRejected();
     // Get instance field reference: public readonly System.Int64 encryptionProcessingTime
-    int64_t& dyn_encryptionProcessingTime();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_encryptionProcessingTime();
     // Get instance field reference: public readonly System.Int64 decryptionProcessingTime
-    int64_t& dyn_decryptionProcessingTime();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_decryptionProcessingTime();
     // public System.Void .ctor(System.Int64 packetsSent, System.Int64 packetsReceived, System.Int64 bytesSent, System.Int64 bytesReceived, System.Int64 packetsLost, System.Int64 packetsSentEncrypted, System.Int64 packetsSentPlaintext, System.Int64 packetsSentRejected, System.Int64 packetsReceivedEncrypted, System.Int64 packetsReceivedPlaintext, System.Int64 packetsReceivedRejected, System.Int64 encryptionProcessingTime, System.Int64 decryptionProcessingTime)
-    // Offset: 0x1705A08
+    // Offset: 0x173E318
     // ABORTED: conflicts with another method.  NetworkStatisticsState(int64_t packetsSent, int64_t packetsReceived, int64_t bytesSent, int64_t bytesReceived, int64_t packetsLost, int64_t packetsSentEncrypted, int64_t packetsSentPlaintext, int64_t packetsSentRejected, int64_t packetsReceivedEncrypted, int64_t packetsReceivedPlaintext, int64_t packetsReceivedRejected, int64_t encryptionProcessingTime, int64_t decryptionProcessingTime);
   }; // NetworkStatisticsState
   #pragma pack(pop)
   static check_size<sizeof(NetworkStatisticsState), 96 + sizeof(int64_t)> __GlobalNamespace_NetworkStatisticsStateSizeCheck;
   static_assert(sizeof(NetworkStatisticsState) == 0x68);
   // static public NetworkStatisticsDelta op_Subtraction(in NetworkStatisticsState a, in NetworkStatisticsState b)
-  // Offset: 0x1705A30
+  // Offset: 0x173E340
   ::GlobalNamespace::NetworkStatisticsDelta operator-(const ::GlobalNamespace::NetworkStatisticsState&& a, const ::GlobalNamespace::NetworkStatisticsState&& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

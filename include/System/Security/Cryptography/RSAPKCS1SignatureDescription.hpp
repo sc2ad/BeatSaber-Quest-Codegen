@@ -29,15 +29,7 @@ namespace System::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class RSAPKCS1SignatureDescription : public ::System::Security::Cryptography::SignatureDescription {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _hashAlgorithm
     // Size: 0x8
     // Offset: 0x30
@@ -50,9 +42,9 @@ namespace System::Security::Cryptography {
       return hashAlgorithm;
     }
     // Get instance field reference: private System.String _hashAlgorithm
-    ::StringW& dyn__hashAlgorithm();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__hashAlgorithm();
     // protected System.Void .ctor(System.String hashAlgorithm, System.String digestAlgorithm)
-    // Offset: 0x207BEA4
+    // Offset: 0x20C5718
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RSAPKCS1SignatureDescription* New_ctor(::StringW hashAlgorithm, ::StringW digestAlgorithm) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::RSAPKCS1SignatureDescription::.ctor");

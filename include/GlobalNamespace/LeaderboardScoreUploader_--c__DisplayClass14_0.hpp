@@ -26,15 +26,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class LeaderboardScoreUploader::$$c__DisplayClass14_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public LeaderboardScoreUploader/ScoreData scoreData
     // Size: 0x8
     // Offset: 0x10
@@ -49,27 +41,29 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::LeaderboardScoreUploader*) == 0x8);
     public:
     // Get instance field reference: public LeaderboardScoreUploader/ScoreData scoreData
-    ::GlobalNamespace::LeaderboardScoreUploader::ScoreData*& dyn_scoreData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LeaderboardScoreUploader::ScoreData*& dyn_scoreData();
     // Get instance field reference: public LeaderboardScoreUploader <>4__this
-    ::GlobalNamespace::LeaderboardScoreUploader*& dyn_$$4__this();
-    // System.Void <UploadScoresCoroutine>b__0(PlatformLeaderboardsModel/UploadScoreResult result)
-    // Offset: 0x13B7034
-    void $UploadScoresCoroutine$b__0(::GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult result);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LeaderboardScoreUploader*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x13B702C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13B24D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardScoreUploader::$$c__DisplayClass14_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardScoreUploader::$$c__DisplayClass14_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardScoreUploader::$$c__DisplayClass14_0*, creationType>()));
     }
+    // System.Void <UploadScoresCoroutine>b__0(PlatformLeaderboardsModel/UploadScoreResult result)
+    // Offset: 0x13B24E0
+    void $UploadScoresCoroutine$b__0(::GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult result);
   }; // LeaderboardScoreUploader/<>c__DisplayClass14_0
   #pragma pack(pop)
   static check_size<sizeof(LeaderboardScoreUploader::$$c__DisplayClass14_0), 24 + sizeof(::GlobalNamespace::LeaderboardScoreUploader*)> __GlobalNamespace_LeaderboardScoreUploader_$$c__DisplayClass14_0SizeCheck;
   static_assert(sizeof(LeaderboardScoreUploader::$$c__DisplayClass14_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::$$c__DisplayClass14_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::$$c__DisplayClass14_0::$UploadScoresCoroutine$b__0
 // Il2CppName: <UploadScoresCoroutine>b__0
 template<>
@@ -79,7 +73,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader::$$c__DisplayClass14_0*), "<UploadScoresCoroutine>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::$$c__DisplayClass14_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

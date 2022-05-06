@@ -28,15 +28,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSpaceConvertor : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Quaternion _worldToPlayerSpaceRotation
     // Size: 0x10
     // Offset: 0x18
@@ -47,26 +39,20 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Quaternion _worldToPlayerSpaceRotation
-    ::UnityEngine::Quaternion& dyn__worldToPlayerSpaceRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__worldToPlayerSpaceRotation();
     // public UnityEngine.Quaternion get_worldToPlayerSpaceRotation()
-    // Offset: 0x1372A60
+    // Offset: 0x13D9E44
     ::UnityEngine::Quaternion get_worldToPlayerSpaceRotation();
-    // protected System.Void Start()
-    // Offset: 0x1372A6C
-    void Start();
     // public System.Void .ctor()
-    // Offset: 0x1372B28
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D9F0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSpaceConvertor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSpaceConvertor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSpaceConvertor*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x13D9E50
+    void Start();
   }; // PlayerSpaceConvertor
   #pragma pack(pop)
   static check_size<sizeof(PlayerSpaceConvertor), 24 + sizeof(::UnityEngine::Quaternion)> __GlobalNamespace_PlayerSpaceConvertorSizeCheck;
@@ -81,6 +67,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpaceConvertor*), "get_worldToPlayerSpaceRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSpaceConvertor::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpaceConvertor::Start
 // Il2CppName: Start
 template<>
@@ -89,7 +79,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpaceConvertor*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PlayerSpaceConvertor::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

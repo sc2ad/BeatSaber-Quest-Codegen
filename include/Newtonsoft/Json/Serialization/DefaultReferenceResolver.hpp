@@ -38,15 +38,7 @@ namespace Newtonsoft::Json::Serialization {
   // [PreserveAttribute] Offset: FFFFFFFF
   class DefaultReferenceResolver : public ::Il2CppObject/*, public ::Newtonsoft::Json::Serialization::IReferenceResolver*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _referenceCount
     // Size: 0x4
     // Offset: 0x10
@@ -63,37 +55,39 @@ namespace Newtonsoft::Json::Serialization {
       return referenceCount;
     }
     // Get instance field reference: private System.Int32 _referenceCount
-    int& dyn__referenceCount();
-    // private Newtonsoft.Json.Utilities.BidirectionalDictionary`2<System.String,System.Object> GetMappings(System.Object context)
-    // Offset: 0x1D216E8
-    ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::Il2CppObject*>* GetMappings(::Il2CppObject* context);
-    // public System.Object ResolveReference(System.Object context, System.String reference)
-    // Offset: 0x1D218B4
-    ::Il2CppObject* ResolveReference(::Il2CppObject* context, ::StringW reference);
-    // public System.String GetReference(System.Object context, System.Object value)
-    // Offset: 0x1D21930
-    ::StringW GetReference(::Il2CppObject* context, ::Il2CppObject* value);
-    // public System.Void AddReference(System.Object context, System.String reference, System.Object value)
-    // Offset: 0x1D21A24
-    void AddReference(::Il2CppObject* context, ::StringW reference, ::Il2CppObject* value);
-    // public System.Boolean IsReferenced(System.Object context, System.Object value)
-    // Offset: 0x1D21A98
-    bool IsReferenced(::Il2CppObject* context, ::Il2CppObject* value);
+    [[deprecated("Use field access instead!")]] int& dyn__referenceCount();
     // public System.Void .ctor()
-    // Offset: 0x1D21B14
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1D5E06C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultReferenceResolver* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::DefaultReferenceResolver::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultReferenceResolver*, creationType>()));
     }
+    // private Newtonsoft.Json.Utilities.BidirectionalDictionary`2<System.String,System.Object> GetMappings(System.Object context)
+    // Offset: 0x1D5DC40
+    ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::Il2CppObject*>* GetMappings(::Il2CppObject* context);
+    // public System.Object ResolveReference(System.Object context, System.String reference)
+    // Offset: 0x1D5DE0C
+    ::Il2CppObject* ResolveReference(::Il2CppObject* context, ::StringW reference);
+    // public System.String GetReference(System.Object context, System.Object value)
+    // Offset: 0x1D5DE88
+    ::StringW GetReference(::Il2CppObject* context, ::Il2CppObject* value);
+    // public System.Void AddReference(System.Object context, System.String reference, System.Object value)
+    // Offset: 0x1D5DF7C
+    void AddReference(::Il2CppObject* context, ::StringW reference, ::Il2CppObject* value);
+    // public System.Boolean IsReferenced(System.Object context, System.Object value)
+    // Offset: 0x1D5DFF0
+    bool IsReferenced(::Il2CppObject* context, ::Il2CppObject* value);
   }; // Newtonsoft.Json.Serialization.DefaultReferenceResolver
   #pragma pack(pop)
   static check_size<sizeof(DefaultReferenceResolver), 16 + sizeof(int)> __Newtonsoft_Json_Serialization_DefaultReferenceResolverSizeCheck;
   static_assert(sizeof(DefaultReferenceResolver) == 0x14);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Newtonsoft::Json::Serialization::DefaultReferenceResolver::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::DefaultReferenceResolver::GetMappings
 // Il2CppName: GetMappings
 template<>
@@ -144,7 +138,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newto
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::DefaultReferenceResolver*), "IsReferenced", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context, value});
   }
 };
-// Writing MetadataGetter for method: Newtonsoft::Json::Serialization::DefaultReferenceResolver::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

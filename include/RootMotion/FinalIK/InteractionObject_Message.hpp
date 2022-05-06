@@ -38,23 +38,15 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionObject::Message : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x1277B28
+    // [TooltipAttribute] Offset: 0x10FC7E0
     // public System.String function
     // Size: 0x8
     // Offset: 0x10
     ::StringW function;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [TooltipAttribute] Offset: 0x1277B60
+    // [TooltipAttribute] Offset: 0x10FC818
     // public UnityEngine.GameObject recipient
     // Size: 0x8
     // Offset: 0x18
@@ -69,27 +61,29 @@ namespace RootMotion::FinalIK {
     // Set static field: static private System.String empty
     static void _set_empty(::StringW value);
     // Get instance field reference: public System.String function
-    ::StringW& dyn_function();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_function();
     // Get instance field reference: public UnityEngine.GameObject recipient
-    ::UnityEngine::GameObject*& dyn_recipient();
-    // public System.Void Send(UnityEngine.Transform t)
-    // Offset: 0x23572E4
-    void Send(::UnityEngine::Transform* t);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_recipient();
     // public System.Void .ctor()
-    // Offset: 0x23573DC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x23A0C50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionObject::Message* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionObject::Message::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionObject::Message*, creationType>()));
     }
+    // public System.Void Send(UnityEngine.Transform t)
+    // Offset: 0x23A0B58
+    void Send(::UnityEngine::Transform* t);
   }; // RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.Message
   #pragma pack(pop)
   static check_size<sizeof(InteractionObject::Message), 24 + sizeof(::UnityEngine::GameObject*)> __RootMotion_FinalIK_InteractionObject_MessageSizeCheck;
   static_assert(sizeof(InteractionObject::Message) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::Message::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::Message::Send
 // Il2CppName: Send
 template<>
@@ -99,7 +93,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject::Message*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::Message::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

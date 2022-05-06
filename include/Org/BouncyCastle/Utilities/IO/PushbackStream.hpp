@@ -35,15 +35,7 @@ namespace Org::BouncyCastle::Utilities::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class PushbackStream : public ::Org::BouncyCastle::Utilities::IO::FilterStream {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 buf
     // Size: 0x4
     // Offset: 0x30
@@ -52,12 +44,12 @@ namespace Org::BouncyCastle::Utilities::IO {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Int32 buf
-    int& dyn_buf();
+    [[deprecated("Use field access instead!")]] int& dyn_buf();
     // public System.Void Unread(System.Int32 b)
-    // Offset: 0x25A56B0
+    // Offset: 0x25F0CE0
     void Unread(int b);
     // public System.Void .ctor(System.IO.Stream s)
-    // Offset: 0x25A55EC
+    // Offset: 0x25F0C1C
     // Implemented from: Org.BouncyCastle.Utilities.IO.FilterStream
     // Base method: System.Void FilterStream::.ctor(System.IO.Stream s)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -66,12 +58,12 @@ namespace Org::BouncyCastle::Utilities::IO {
       return THROW_UNLESS((::il2cpp_utils::New<PushbackStream*, creationType>(s)));
     }
     // public override System.Int32 ReadByte()
-    // Offset: 0x25A55F8
+    // Offset: 0x25F0C28
     // Implemented from: Org.BouncyCastle.Utilities.IO.FilterStream
     // Base method: System.Int32 FilterStream::ReadByte()
     int ReadByte();
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x25A5638
+    // Offset: 0x25F0C68
     // Implemented from: Org.BouncyCastle.Utilities.IO.FilterStream
     // Base method: System.Int32 FilterStream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     int Read(::ArrayW<uint8_t> buffer, int offset, int count);

@@ -55,15 +55,7 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class SignalCallbackWithLookupWrapper : public ::Il2CppObject/*, public ::System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x10
@@ -112,37 +104,37 @@ namespace Zenject {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get instance field reference: private readonly Zenject.DiContainer _container
-    ::Zenject::DiContainer*& dyn__container();
+    [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn__container();
     // Get instance field reference: private readonly Zenject.SignalBus _signalBus
-    ::Zenject::SignalBus*& dyn__signalBus();
+    [[deprecated("Use field access instead!")]] ::Zenject::SignalBus*& dyn__signalBus();
     // Get instance field reference: private readonly System.Guid _lookupId
-    ::System::Guid& dyn__lookupId();
+    [[deprecated("Use field access instead!")]] ::System::Guid& dyn__lookupId();
     // Get instance field reference: private readonly System.Func`2<System.Object,System.Action`1<System.Object>> _methodGetter
-    ::System::Func_2<::Il2CppObject*, ::System::Action_1<::Il2CppObject*>*>*& dyn__methodGetter();
+    [[deprecated("Use field access instead!")]] ::System::Func_2<::Il2CppObject*, ::System::Action_1<::Il2CppObject*>*>*& dyn__methodGetter();
     // Get instance field reference: private readonly System.Type _objectType
-    ::System::Type*& dyn__objectType();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn__objectType();
     // Get instance field reference: private readonly System.Type _signalType
-    ::System::Type*& dyn__signalType();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn__signalType();
     // Get instance field reference: private readonly System.Object _identifier
-    ::Il2CppObject*& dyn__identifier();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__identifier();
     // public System.Void .ctor(Zenject.SignalBindingBindInfo signalBindInfo, System.Type objectType, System.Guid lookupId, System.Func`2<System.Object,System.Action`1<System.Object>> methodGetter, Zenject.SignalBus signalBus, Zenject.DiContainer container)
-    // Offset: 0x1CDFF94
+    // Offset: 0x1D1B4EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalCallbackWithLookupWrapper* New_ctor(::Zenject::SignalBindingBindInfo* signalBindInfo, ::System::Type* objectType, ::System::Guid lookupId, ::System::Func_2<::Il2CppObject*, ::System::Action_1<::Il2CppObject*>*>* methodGetter, ::Zenject::SignalBus* signalBus, ::Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalCallbackWithLookupWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalCallbackWithLookupWrapper*, creationType>(signalBindInfo, objectType, lookupId, methodGetter, signalBus, container)));
     }
     // private System.Void OnSignalFired(System.Object signal)
-    // Offset: 0x1CE0094
+    // Offset: 0x1D1B5EC
     void OnSignalFired(::Il2CppObject* signal);
     // public System.Void Dispose()
-    // Offset: 0x1CE026C
+    // Offset: 0x1D1B7C4
     void Dispose();
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1CE0314
+    // Offset: 0x1D1B86C
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CE054C
+    // Offset: 0x1D1BAA4
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.SignalCallbackWithLookupWrapper
   #pragma pack(pop)

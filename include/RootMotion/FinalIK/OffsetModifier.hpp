@@ -45,16 +45,8 @@ namespace RootMotion::FinalIK {
     class OffsetLimits;
     // Nested type: ::RootMotion::FinalIK::OffsetModifier::$Initiate$d__8
     class $Initiate$d__8;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x1275DEC
+    // [TooltipAttribute] Offset: 0x10FAAA4
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -63,7 +55,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: weight and: ik
     char __padding0[0x4] = {};
-    // [TooltipAttribute] Offset: 0x1275E24
+    // [TooltipAttribute] Offset: 0x10FAADC
     // public RootMotion.FinalIK.FullBodyBipedIK ik
     // Size: 0x8
     // Offset: 0x20
@@ -80,45 +72,39 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single weight
-    float& dyn_weight();
+    [[deprecated("Use field access instead!")]] float& dyn_weight();
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedIK ik
-    ::RootMotion::FinalIK::FullBodyBipedIK*& dyn_ik();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::FullBodyBipedIK*& dyn_ik();
     // Get instance field reference: protected System.Single lastTime
-    float& dyn_lastTime();
+    [[deprecated("Use field access instead!")]] float& dyn_lastTime();
     // protected System.Single get_deltaTime()
-    // Offset: 0x1F6FA6C
+    // Offset: 0x1FBC2E0
     float get_deltaTime();
-    // protected System.Void OnModifyOffset()
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    void OnModifyOffset();
-    // protected System.Void Start()
-    // Offset: 0x1F6FA98
-    void Start();
-    // private System.Collections.IEnumerator Initiate()
-    // Offset: 0x1F6FAC4
-    ::System::Collections::IEnumerator* Initiate();
-    // private System.Void ModifyOffset()
-    // Offset: 0x1F6FB60
-    void ModifyOffset();
-    // protected System.Void ApplyLimits(RootMotion.FinalIK.OffsetModifier/RootMotion.FinalIK.OffsetLimits[] limits)
-    // Offset: 0x1F6FC6C
-    void ApplyLimits(::ArrayW<::RootMotion::FinalIK::OffsetModifier::OffsetLimits*> limits);
-    // protected System.Void OnDestroy()
-    // Offset: 0x1F6FF88
-    void OnDestroy();
     // protected System.Void .ctor()
-    // Offset: 0x1F70080
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FBC8F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OffsetModifier* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::OffsetModifier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OffsetModifier*, creationType>()));
     }
+    // protected System.Void OnModifyOffset()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    void OnModifyOffset();
+    // protected System.Void Start()
+    // Offset: 0x1FBC30C
+    void Start();
+    // private System.Collections.IEnumerator Initiate()
+    // Offset: 0x1FBC338
+    ::System::Collections::IEnumerator* Initiate();
+    // private System.Void ModifyOffset()
+    // Offset: 0x1FBC3D4
+    void ModifyOffset();
+    // protected System.Void ApplyLimits(RootMotion.FinalIK.OffsetModifier/RootMotion.FinalIK.OffsetLimits[] limits)
+    // Offset: 0x1FBC4E0
+    void ApplyLimits(::ArrayW<::RootMotion::FinalIK::OffsetModifier::OffsetLimits*> limits);
+    // protected System.Void OnDestroy()
+    // Offset: 0x1FBC7FC
+    void OnDestroy();
   }; // RootMotion.FinalIK.OffsetModifier
   #pragma pack(pop)
   static check_size<sizeof(OffsetModifier), 40 + sizeof(float)> __RootMotion_FinalIK_OffsetModifierSizeCheck;
@@ -133,6 +119,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Root
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::OffsetModifier*), "get_deltaTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifier::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifier::OnModifyOffset
 // Il2CppName: OnModifyOffset
 template<>
@@ -182,7 +172,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::OffsetModifier*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifier::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

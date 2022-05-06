@@ -109,7 +109,7 @@ namespace HoudiniEngineUnity {
       // Set static field: static public HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskStatus UNUSED
       static void _set_UNUSED(::HoudiniEngineUnity::HEU_Task::TaskStatus value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskStatus
     #pragma pack(pop)
     static check_size<sizeof(HEU_Task::TaskStatus), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_Task_TaskStatusSizeCheck;
@@ -163,20 +163,12 @@ namespace HoudiniEngineUnity {
       // Set static field: static public HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskResult KILLED
       static void _set_KILLED(::HoudiniEngineUnity::HEU_Task::TaskResult value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskResult
     #pragma pack(pop)
     static check_size<sizeof(HEU_Task::TaskResult), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_Task_TaskResultSizeCheck;
     static_assert(sizeof(HEU_Task::TaskResult) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskStatus _status
     // Size: 0x4
     // Offset: 0x10
@@ -203,21 +195,28 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::HoudiniEngineUnity::HEU_Task::TaskCallback*) == 0x8);
     public:
     // Get instance field reference: public HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskStatus _status
-    ::HoudiniEngineUnity::HEU_Task::TaskStatus& dyn__status();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_Task::TaskStatus& dyn__status();
     // Get instance field reference: public HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskResult _result
-    ::HoudiniEngineUnity::HEU_Task::TaskResult& dyn__result();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_Task::TaskResult& dyn__result();
     // Get instance field reference: private System.Guid _guid
-    ::System::Guid& dyn__guid();
+    [[deprecated("Use field access instead!")]] ::System::Guid& dyn__guid();
     // Get instance field reference: public HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskCallback _taskCompletedDelegate
-    ::HoudiniEngineUnity::HEU_Task::TaskCallback*& dyn__taskCompletedDelegate();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_Task::TaskCallback*& dyn__taskCompletedDelegate();
     // public System.Guid get_TaskGuid()
-    // Offset: 0x1ACFF20
+    // Offset: 0x1B0B508
     ::System::Guid get_TaskGuid();
+    // public System.Void .ctor()
+    // Offset: 0x1B0B514
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static HEU_Task* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Task::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<HEU_Task*, creationType>()));
+    }
     // public System.Void DoTask()
     // Offset: 0xFFFFFFFFFFFFFFFF
     void DoTask();
     // public System.Void UpdateTask()
-    // Offset: 0x1ACFFA4
+    // Offset: 0x1B0B58C
     void UpdateTask();
     // public System.Void KillTask()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -225,15 +224,6 @@ namespace HoudiniEngineUnity {
     // public System.Void CompleteTask(HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskResult result)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void CompleteTask(::HoudiniEngineUnity::HEU_Task::TaskResult result);
-    // public System.Void .ctor()
-    // Offset: 0x1ACFF2C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HEU_Task* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Task::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<HEU_Task*, creationType>()));
-    }
   }; // HoudiniEngineUnity.HEU_Task
   #pragma pack(pop)
   static check_size<sizeof(HEU_Task), 40 + sizeof(::HoudiniEngineUnity::HEU_Task::TaskCallback*)> __HoudiniEngineUnity_HEU_TaskSizeCheck;
@@ -252,6 +242,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::G
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Task*), "get_TaskGuid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Task::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Task::DoTask
 // Il2CppName: DoTask
 template<>
@@ -285,7 +279,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Task*), "CompleteTask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Task::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

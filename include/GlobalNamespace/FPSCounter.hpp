@@ -28,15 +28,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FPSCounter : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <currentFPS>k__BackingField
     // Size: 0x4
     // Offset: 0x18
@@ -83,62 +75,56 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 <currentFPS>k__BackingField
-    int& dyn_$currentFPS$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$currentFPS$k__BackingField();
     // Get instance field reference: private System.Int32 <lowestFPS>k__BackingField
-    int& dyn_$lowestFPS$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$lowestFPS$k__BackingField();
     // Get instance field reference: private System.Int32 <highestFPS>k__BackingField
-    int& dyn_$highestFPS$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$highestFPS$k__BackingField();
     // Get instance field reference: private System.Int32 <droppedFrames>k__BackingField
-    int& dyn_$droppedFrames$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$droppedFrames$k__BackingField();
     // Get instance field reference: private System.Single _timeBuffer
-    float& dyn__timeBuffer();
+    [[deprecated("Use field access instead!")]] float& dyn__timeBuffer();
     // Get instance field reference: private System.Int32 _frameCounter
-    int& dyn__frameCounter();
+    [[deprecated("Use field access instead!")]] int& dyn__frameCounter();
     // Get instance field reference: private System.Single _minDeltaTime
-    float& dyn__minDeltaTime();
+    [[deprecated("Use field access instead!")]] float& dyn__minDeltaTime();
     // public System.Int32 get_currentFPS()
-    // Offset: 0x138A140
+    // Offset: 0x1371C54
     int get_currentFPS();
     // private System.Void set_currentFPS(System.Int32 value)
-    // Offset: 0x138A148
+    // Offset: 0x1371C5C
     void set_currentFPS(int value);
     // public System.Int32 get_lowestFPS()
-    // Offset: 0x138A150
+    // Offset: 0x1371C64
     int get_lowestFPS();
     // private System.Void set_lowestFPS(System.Int32 value)
-    // Offset: 0x138A158
+    // Offset: 0x1371C6C
     void set_lowestFPS(int value);
     // public System.Int32 get_highestFPS()
-    // Offset: 0x138A160
+    // Offset: 0x1371C74
     int get_highestFPS();
     // private System.Void set_highestFPS(System.Int32 value)
-    // Offset: 0x138A168
+    // Offset: 0x1371C7C
     void set_highestFPS(int value);
     // public System.Int32 get_droppedFrames()
-    // Offset: 0x138A170
+    // Offset: 0x1371C84
     int get_droppedFrames();
     // private System.Void set_droppedFrames(System.Int32 value)
-    // Offset: 0x138A178
+    // Offset: 0x1371C8C
     void set_droppedFrames(int value);
-    // protected System.Void Awake()
-    // Offset: 0x138A180
-    void Awake();
-    // protected System.Void Update()
-    // Offset: 0x138A190
-    void Update();
     // public System.Void .ctor()
-    // Offset: 0x138A2F0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1371E04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FPSCounter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FPSCounter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FPSCounter*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x1371C94
+    void Awake();
+    // protected System.Void Update()
+    // Offset: 0x1371CA4
+    void Update();
   }; // FPSCounter
   #pragma pack(pop)
   static check_size<sizeof(FPSCounter), 48 + sizeof(float)> __GlobalNamespace_FPSCounterSizeCheck;
@@ -213,6 +199,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FPSCounter*), "set_droppedFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::FPSCounter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FPSCounter::Awake
 // Il2CppName: Awake
 template<>
@@ -229,7 +219,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FPSCounter*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FPSCounter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

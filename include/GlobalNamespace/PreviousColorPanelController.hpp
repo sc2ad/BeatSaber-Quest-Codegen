@@ -53,15 +53,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PreviousColorPanelController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Graphic[] _graphics
     // Size: 0x8
     // Offset: 0x18
@@ -108,51 +100,45 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxColors
     static void _set_kMaxColors(int value);
     // Get instance field reference: private UnityEngine.UI.Graphic[] _graphics
-    ::ArrayW<::UnityEngine::UI::Graphic*>& dyn__graphics();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::UI::Graphic*>& dyn__graphics();
     // Get instance field reference: private UnityEngine.UI.Button _button
-    ::UnityEngine::UI::Button*& dyn__button();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__button();
     // Get instance field reference: private System.Action`1<UnityEngine.Color> colorWasSelectedEvent
-    ::System::Action_1<::UnityEngine::Color>*& dyn_colorWasSelectedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::UnityEngine::Color>*& dyn_colorWasSelectedEvent();
     // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
-    ::HMUI::ButtonBinder*& dyn__buttonBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // Get instance field reference: private UnityEngine.Color _color
-    ::UnityEngine::Color& dyn__color();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // Get instance field reference: private UnityEngine.Color _graphicsColor
-    ::UnityEngine::Color& dyn__graphicsColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__graphicsColor();
     // public System.Void add_colorWasSelectedEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x1379670
+    // Offset: 0x13E09AC
     void add_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
     // public System.Void remove_colorWasSelectedEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x1379714
+    // Offset: 0x13E0A50
     void remove_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
-    // protected System.Void Awake()
-    // Offset: 0x13797B8
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x1379868
-    void OnDestroy();
-    // public System.Void AddColor(UnityEngine.Color color)
-    // Offset: 0x1379884
-    void AddColor(::UnityEngine::Color color);
-    // public System.Void DiscardUpcomingColor()
-    // Offset: 0x137993C
-    void DiscardUpcomingColor();
-    // private System.Void <Awake>b__9_0()
-    // Offset: 0x137998C
-    void $Awake$b__9_0();
     // public System.Void .ctor()
-    // Offset: 0x1379948
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13E0C84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PreviousColorPanelController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PreviousColorPanelController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PreviousColorPanelController*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x13E0AF4
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13E0BA4
+    void OnDestroy();
+    // public System.Void AddColor(UnityEngine.Color color)
+    // Offset: 0x13E0BC0
+    void AddColor(::UnityEngine::Color color);
+    // public System.Void DiscardUpcomingColor()
+    // Offset: 0x13E0C78
+    void DiscardUpcomingColor();
+    // private System.Void <Awake>b__9_0()
+    // Offset: 0x13E0CC8
+    void $Awake$b__9_0();
   }; // PreviousColorPanelController
   #pragma pack(pop)
   static check_size<sizeof(PreviousColorPanelController), 72 + sizeof(::UnityEngine::Color)> __GlobalNamespace_PreviousColorPanelControllerSizeCheck;
@@ -177,6 +163,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviousColorPanelController*), "remove_colorWasSelectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PreviousColorPanelController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PreviousColorPanelController::Awake
 // Il2CppName: Awake
 template<>
@@ -218,7 +208,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviousColorPanelController*), "<Awake>b__9_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PreviousColorPanelController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

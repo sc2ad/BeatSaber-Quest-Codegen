@@ -72,27 +72,19 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public readonly System.Single bpmChangeStartTime
-      float& dyn_bpmChangeStartTime();
+      [[deprecated("Use field access instead!")]] float& dyn_bpmChangeStartTime();
       // Get instance field reference: public readonly System.Single bpmChangeStartBpmTime
-      float& dyn_bpmChangeStartBpmTime();
+      [[deprecated("Use field access instead!")]] float& dyn_bpmChangeStartBpmTime();
       // Get instance field reference: public readonly System.Single bpm
-      float& dyn_bpm();
+      [[deprecated("Use field access instead!")]] float& dyn_bpm();
       // public System.Void .ctor(System.Single bpmChangeStartTime, System.Single bpmChangeStartBpmTime, System.Single bpm)
-      // Offset: 0x136AF44
+      // Offset: 0x13531C8
       // ABORTED: conflicts with another method.  BpmChangeData(float bpmChangeStartTime, float bpmChangeStartBpmTime, float bpm);
     }; // BeatmapDataLoader/BpmTimeProcessor/BpmChangeData
     #pragma pack(pop)
     static check_size<sizeof(BeatmapDataLoader::BpmTimeProcessor::BpmChangeData), 8 + sizeof(float)> __GlobalNamespace_BeatmapDataLoader_BpmTimeProcessor_BpmChangeDataSizeCheck;
     static_assert(sizeof(BeatmapDataLoader::BpmTimeProcessor::BpmChangeData) == 0xC);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.List`1<BeatmapDataLoader/BpmTimeProcessor/BpmChangeData> _bpmChangeDataList
     // Size: 0x8
     // Offset: 0x10
@@ -111,21 +103,21 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IBeatToTimeConvertor*>(this);
     }
     // Get instance field reference: private readonly System.Collections.Generic.List`1<BeatmapDataLoader/BpmTimeProcessor/BpmChangeData> _bpmChangeDataList
-    ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataLoader::BpmTimeProcessor::BpmChangeData>*& dyn__bpmChangeDataList();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataLoader::BpmTimeProcessor::BpmChangeData>*& dyn__bpmChangeDataList();
     // Get instance field reference: private System.Int32 currentBpmChangesDataIdx
-    int& dyn_currentBpmChangesDataIdx();
+    [[deprecated("Use field access instead!")]] int& dyn_currentBpmChangesDataIdx();
     // public System.Void .ctor(System.Single startBpm, System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.BpmChangeEventData> bpmEventsSaveData)
-    // Offset: 0x1369B34
+    // Offset: 0x1351DB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataLoader::BpmTimeProcessor* New_ctor(float startBpm, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::BpmChangeEventData*>* bpmEventsSaveData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataLoader::BpmTimeProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataLoader::BpmTimeProcessor*, creationType>(startBpm, bpmEventsSaveData)));
     }
     // public System.Single ConvertBeatToTime(System.Single beat)
-    // Offset: 0x136AF50
+    // Offset: 0x13531D4
     float ConvertBeatToTime(float beat);
     // public System.Void Reset()
-    // Offset: 0x136A1E4
+    // Offset: 0x1352464
     void Reset();
   }; // BeatmapDataLoader/BpmTimeProcessor
   #pragma pack(pop)

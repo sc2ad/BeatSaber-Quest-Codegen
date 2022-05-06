@@ -29,15 +29,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpTransferUpdate : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.UInt64 ID
     // Size: 0x8
     // Offset: 0x10
@@ -58,13 +50,13 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public readonly System.UInt64 ID
-    uint64_t& dyn_ID();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_ID();
     // Get instance field reference: public readonly System.Byte[] Payload
-    ::ArrayW<uint8_t>& dyn_Payload();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_Payload();
     // Get instance field reference: public readonly System.Boolean IsCompleted
-    bool& dyn_IsCompleted();
+    [[deprecated("Use field access instead!")]] bool& dyn_IsCompleted();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19AD1F0
+    // Offset: 0x19E67D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpTransferUpdate* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::HttpTransferUpdate::.ctor");

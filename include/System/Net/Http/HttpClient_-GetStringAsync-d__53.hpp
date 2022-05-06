@@ -87,24 +87,24 @@ namespace System::Net::Http {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>& dyn_$$t__builder();
     // Get instance field reference: public System.Net.Http.HttpClient <>4__this
-    ::System::Net::Http::HttpClient*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::System::Net::Http::HttpClient*& dyn_$$4__this();
     // Get instance field reference: public System.Uri requestUri
-    ::System::Uri*& dyn_requestUri();
+    [[deprecated("Use field access instead!")]] ::System::Uri*& dyn_requestUri();
     // Get instance field reference: private System.Net.Http.HttpResponseMessage <resp>5__1
-    ::System::Net::Http::HttpResponseMessage*& dyn_$resp$5__1();
+    [[deprecated("Use field access instead!")]] ::System::Net::Http::HttpResponseMessage*& dyn_$resp$5__1();
     // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Net.Http.HttpResponseMessage> <>u__1
-    typename ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::System::Net::Http::HttpResponseMessage*>::ConfiguredTaskAwaiter& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] typename ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::System::Net::Http::HttpResponseMessage*>::ConfiguredTaskAwaiter& dyn_$$u__1();
     // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.String> <>u__2
-    typename ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::StringW>::ConfiguredTaskAwaiter& dyn_$$u__2();
+    [[deprecated("Use field access instead!")]] typename ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::StringW>::ConfiguredTaskAwaiter& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x19634E4
+    // Offset: 0x199BACC
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1963AAC
+    // Offset: 0x199C094
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // System.Net.Http.HttpClient/System.Net.Http.<GetStringAsync>d__53
   // WARNING Not writing size check since size may be invalid!

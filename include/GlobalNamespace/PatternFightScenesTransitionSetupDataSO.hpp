@@ -89,20 +89,12 @@ namespace GlobalNamespace {
       // Set static field: static public PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType ReturnToMenu
       static void _set_ReturnToMenu(::GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType
     #pragma pack(pop)
     static check_size<sizeof(PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType), 0 + sizeof(int)> __GlobalNamespace_PatternFightScenesTransitionSetupDataSO_PatternFightEndStateTypeSizeCheck;
     static_assert(sizeof(PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private EnvironmentInfoSO _environmentInfo
     // Size: 0x8
     // Offset: 0x30
@@ -129,38 +121,32 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action_2<::GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, ::GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>*) == 0x8);
     public:
     // Get instance field reference: private EnvironmentInfoSO _environmentInfo
-    ::GlobalNamespace::EnvironmentInfoSO*& dyn__environmentInfo();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentInfoSO*& dyn__environmentInfo();
     // Get instance field reference: private SceneInfo _patternFightSceneInfo
-    ::GlobalNamespace::SceneInfo*& dyn__patternFightSceneInfo();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SceneInfo*& dyn__patternFightSceneInfo();
     // Get instance field reference: private SceneInfo _gameCoreSceneInfo
-    ::GlobalNamespace::SceneInfo*& dyn__gameCoreSceneInfo();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SceneInfo*& dyn__gameCoreSceneInfo();
     // Get instance field reference: private System.Action`2<PatternFightScenesTransitionSetupDataSO,PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType> didFinishEvent
-    ::System::Action_2<::GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, ::GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, ::GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<PatternFightScenesTransitionSetupDataSO,PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType> value)
-    // Offset: 0x12EDEDC
+    // Offset: 0x135EE94
     void add_didFinishEvent(::System::Action_2<::GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, ::GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<PatternFightScenesTransitionSetupDataSO,PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType> value)
-    // Offset: 0x12EDF80
+    // Offset: 0x135EF38
     void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, ::GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>* value);
-    // public System.Void Init(PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0x12ED31C
-    void Init(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
-    // public System.Void Finish(PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType endState)
-    // Offset: 0x12EE024
-    void Finish(::GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType endState);
     // public System.Void .ctor()
-    // Offset: 0x12EE09C
-    // Implemented from: ScenesTransitionSetupDataSO
-    // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x135F054
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PatternFightScenesTransitionSetupDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PatternFightScenesTransitionSetupDataSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PatternFightScenesTransitionSetupDataSO*, creationType>()));
     }
+    // public System.Void Init(PlayerSpecificSettings playerSpecificSettings)
+    // Offset: 0x135E2D4
+    void Init(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
+    // public System.Void Finish(PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType endState)
+    // Offset: 0x135EFDC
+    void Finish(::GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType endState);
   }; // PatternFightScenesTransitionSetupDataSO
   #pragma pack(pop)
   static check_size<sizeof(PatternFightScenesTransitionSetupDataSO), 72 + sizeof(::System::Action_2<::GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, ::GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>*)> __GlobalNamespace_PatternFightScenesTransitionSetupDataSOSizeCheck;
@@ -187,6 +173,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PatternFightScenesTransitionSetupDataSO*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PatternFightScenesTransitionSetupDataSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PatternFightScenesTransitionSetupDataSO::Init
 // Il2CppName: Init
 template<>
@@ -205,7 +195,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PatternFightScenesTransitionSetupDataSO*), "Finish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{endState});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PatternFightScenesTransitionSetupDataSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

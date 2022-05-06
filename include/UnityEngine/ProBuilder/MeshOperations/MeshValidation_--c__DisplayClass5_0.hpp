@@ -34,15 +34,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MeshValidation::$$c__DisplayClass5_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.ProBuilder.Triangle triangle
     // Size: 0xC
     // Offset: 0x10
@@ -59,27 +51,29 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static_assert(sizeof(::System::Func_2<::UnityEngine::ProBuilder::Triangle, bool>*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.ProBuilder.Triangle triangle
-    ::UnityEngine::ProBuilder::Triangle& dyn_triangle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Triangle& dyn_triangle();
     // Get instance field reference: public System.Func`2<UnityEngine.ProBuilder.Triangle,System.Boolean> <>9__0
-    ::System::Func_2<::UnityEngine::ProBuilder::Triangle, bool>*& dyn_$$9__0();
-    // System.Boolean <CollectFaceGroups>b__0(UnityEngine.ProBuilder.Triangle x)
-    // Offset: 0x1C075D4
-    bool $CollectFaceGroups$b__0(::UnityEngine::ProBuilder::Triangle x);
+    [[deprecated("Use field access instead!")]] ::System::Func_2<::UnityEngine::ProBuilder::Triangle, bool>*& dyn_$$9__0();
     // public System.Void .ctor()
-    // Offset: 0x1C06368
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C40950
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MeshValidation::$$c__DisplayClass5_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c__DisplayClass5_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeshValidation::$$c__DisplayClass5_0*, creationType>()));
     }
+    // System.Boolean <CollectFaceGroups>b__0(UnityEngine.ProBuilder.Triangle x)
+    // Offset: 0x1C41BBC
+    bool $CollectFaceGroups$b__0(::UnityEngine::ProBuilder::Triangle x);
   }; // UnityEngine.ProBuilder.MeshOperations.MeshValidation/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass5_0
   #pragma pack(pop)
   static check_size<sizeof(MeshValidation::$$c__DisplayClass5_0), 32 + sizeof(::System::Func_2<::UnityEngine::ProBuilder::Triangle, bool>*)> __UnityEngine_ProBuilder_MeshOperations_MeshValidation_$$c__DisplayClass5_0SizeCheck;
   static_assert(sizeof(MeshValidation::$$c__DisplayClass5_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c__DisplayClass5_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c__DisplayClass5_0::$CollectFaceGroups$b__0
 // Il2CppName: <CollectFaceGroups>b__0
 template<>
@@ -89,7 +83,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c__DisplayClass5_0*), "<CollectFaceGroups>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c__DisplayClass5_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

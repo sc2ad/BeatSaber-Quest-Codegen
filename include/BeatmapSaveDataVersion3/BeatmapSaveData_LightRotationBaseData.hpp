@@ -76,20 +76,12 @@ namespace BeatmapSaveDataVersion3 {
       // Set static field: static public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightRotationBaseData/BeatmapSaveDataVersion3.RotationDirection Counterclockwise
       static void _set_Counterclockwise(::BeatmapSaveDataVersion3::BeatmapSaveData::LightRotationBaseData::RotationDirection value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightRotationBaseData/BeatmapSaveDataVersion3.RotationDirection
     #pragma pack(pop)
     static check_size<sizeof(BeatmapSaveData::LightRotationBaseData::RotationDirection), 0 + sizeof(int)> __BeatmapSaveDataVersion3_BeatmapSaveData_LightRotationBaseData_RotationDirectionSizeCheck;
     static_assert(sizeof(BeatmapSaveData::LightRotationBaseData::RotationDirection) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single b
     // Size: 0x4
     // Offset: 0x10
@@ -128,37 +120,37 @@ namespace BeatmapSaveDataVersion3 {
     static_assert(sizeof(::BeatmapSaveDataVersion3::BeatmapSaveData::LightRotationBaseData::RotationDirection) == 0x4);
     public:
     // Get instance field reference: private System.Single b
-    float& dyn_b();
+    [[deprecated("Use field access instead!")]] float& dyn_b();
     // Get instance field reference: private System.Int32 p
-    int& dyn_p();
+    [[deprecated("Use field access instead!")]] int& dyn_p();
     // Get instance field reference: private BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EaseType e
-    ::BeatmapSaveDataVersion3::BeatmapSaveData::EaseType& dyn_e();
+    [[deprecated("Use field access instead!")]] ::BeatmapSaveDataVersion3::BeatmapSaveData::EaseType& dyn_e();
     // Get instance field reference: private System.Int32 l
-    int& dyn_l();
+    [[deprecated("Use field access instead!")]] int& dyn_l();
     // Get instance field reference: private System.Single r
-    float& dyn_r();
+    [[deprecated("Use field access instead!")]] float& dyn_r();
     // Get instance field reference: private BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightRotationBaseData/BeatmapSaveDataVersion3.RotationDirection o
-    ::BeatmapSaveDataVersion3::BeatmapSaveData::LightRotationBaseData::RotationDirection& dyn_o();
+    [[deprecated("Use field access instead!")]] ::BeatmapSaveDataVersion3::BeatmapSaveData::LightRotationBaseData::RotationDirection& dyn_o();
     // public System.Single get_beat()
-    // Offset: 0x281B844
+    // Offset: 0x286DE04
     float get_beat();
     // public System.Boolean get_usePreviousEventRotationValue()
-    // Offset: 0x281B84C
+    // Offset: 0x286DE0C
     bool get_usePreviousEventRotationValue();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EaseType get_easeType()
-    // Offset: 0x281B85C
+    // Offset: 0x286DE1C
     ::BeatmapSaveDataVersion3::BeatmapSaveData::EaseType get_easeType();
     // public System.Int32 get_loopsCount()
-    // Offset: 0x281B864
+    // Offset: 0x286DE24
     int get_loopsCount();
     // public System.Single get_rotation()
-    // Offset: 0x281B86C
+    // Offset: 0x286DE2C
     float get_rotation();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightRotationBaseData/BeatmapSaveDataVersion3.RotationDirection get_rotationDirection()
-    // Offset: 0x281B874
+    // Offset: 0x286DE34
     ::BeatmapSaveDataVersion3::BeatmapSaveData::LightRotationBaseData::RotationDirection get_rotationDirection();
     // public System.Void .ctor(System.Single beat, System.Boolean usePreviousEventRotationValue, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EaseType easeType, System.Int32 loopsCount, System.Single rotation, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightRotationBaseData/BeatmapSaveDataVersion3.RotationDirection rotationDirection)
-    // Offset: 0x281B87C
+    // Offset: 0x286DE3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::LightRotationBaseData* New_ctor(float beat, bool usePreviousEventRotationValue, ::BeatmapSaveDataVersion3::BeatmapSaveData::EaseType easeType, int loopsCount, float rotation, ::BeatmapSaveDataVersion3::BeatmapSaveData::LightRotationBaseData::RotationDirection rotationDirection) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::LightRotationBaseData::.ctor");

@@ -39,15 +39,7 @@ namespace UnityOpus {
   // [TokenAttribute] Offset: FFFFFFFF
   class Encoder : public ::Il2CppObject/*, public ::System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 bitrate
     // Size: 0x4
     // Offset: 0x10
@@ -92,53 +84,53 @@ namespace UnityOpus {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get instance field reference: private System.Int32 bitrate
-    int& dyn_bitrate();
+    [[deprecated("Use field access instead!")]] int& dyn_bitrate();
     // Get instance field reference: private System.Int32 complexity
-    int& dyn_complexity();
+    [[deprecated("Use field access instead!")]] int& dyn_complexity();
     // Get instance field reference: private UnityOpus.OpusSignal signal
-    ::UnityOpus::OpusSignal& dyn_signal();
+    [[deprecated("Use field access instead!")]] ::UnityOpus::OpusSignal& dyn_signal();
     // Get instance field reference: private System.IntPtr encoder
-    ::System::IntPtr& dyn_encoder();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_encoder();
     // Get instance field reference: private UnityOpus.NumChannels channels
-    ::UnityOpus::NumChannels& dyn_channels();
+    [[deprecated("Use field access instead!")]] ::UnityOpus::NumChannels& dyn_channels();
     // Get instance field reference: private System.Boolean disposedValue
-    bool& dyn_disposedValue();
+    [[deprecated("Use field access instead!")]] bool& dyn_disposedValue();
     // public System.Int32 get_Bitrate()
-    // Offset: 0x2ABB1D0
+    // Offset: 0x149A728
     int get_Bitrate();
     // public System.Void set_Bitrate(System.Int32 value)
-    // Offset: 0x2ABB1D8
+    // Offset: 0x149A730
     void set_Bitrate(int value);
     // public System.Int32 get_Complexity()
-    // Offset: 0x2ABB294
+    // Offset: 0x149A7EC
     int get_Complexity();
     // public System.Void set_Complexity(System.Int32 value)
-    // Offset: 0x2ABB29C
+    // Offset: 0x149A7F4
     void set_Complexity(int value);
     // public UnityOpus.OpusSignal get_Signal()
-    // Offset: 0x2ABB358
+    // Offset: 0x149A8B0
     ::UnityOpus::OpusSignal get_Signal();
     // public System.Void set_Signal(UnityOpus.OpusSignal value)
-    // Offset: 0x2ABB360
+    // Offset: 0x149A8B8
     void set_Signal(::UnityOpus::OpusSignal value);
     // public System.Void .ctor(UnityOpus.SamplingFrequency samplingFrequency, UnityOpus.NumChannels channels, UnityOpus.OpusApplication application)
-    // Offset: 0x2ABB41C
+    // Offset: 0x149A974
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Encoder* New_ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels, ::UnityOpus::OpusApplication application) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityOpus::Encoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Encoder*, creationType>(samplingFrequency, channels, application)));
     }
     // public System.Int32 Encode(System.Single[] pcm, System.Int32 count, System.Byte[] output)
-    // Offset: 0x2ABB5E4
+    // Offset: 0x149AB3C
     int Encode(::ArrayW<float> pcm, int count, ::ArrayW<uint8_t> output);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x2ABB74C
+    // Offset: 0x149ACA4
     void Dispose(bool disposing);
     // public System.Void Dispose()
-    // Offset: 0x2ABB8B0
+    // Offset: 0x149AE08
     void Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x2ABB83C
+    // Offset: 0x149AD94
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

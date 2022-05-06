@@ -46,15 +46,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   class BundledAssetProvider::InternalOp : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.AssetBundleRequest m_RequestOperation
     // Size: 0x8
     // Offset: 0x10
@@ -75,41 +67,43 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.AssetBundleRequest m_RequestOperation
-    ::UnityEngine::AssetBundleRequest*& dyn_m_RequestOperation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AssetBundleRequest*& dyn_m_RequestOperation();
     // Get instance field reference: private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_ProvideHandle
-    ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& dyn_m_ProvideHandle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& dyn_m_ProvideHandle();
     // Get instance field reference: private System.String subObjectName
-    ::StringW& dyn_subObjectName();
-    // static UnityEngine.ResourceManagement.ResourceProviders.IAssetBundleResource LoadBundleFromDependecies(System.Collections.Generic.IList`1<System.Object> results)
-    // Offset: 0x1E9E408
-    static ::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource* LoadBundleFromDependecies(::System::Collections::Generic::IList_1<::Il2CppObject*>* results);
-    // public System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle provideHandle)
-    // Offset: 0x1E9DFBC
-    void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
-    // private System.Boolean WaitForCompletionHandler()
-    // Offset: 0x1E9EB4C
-    bool WaitForCompletionHandler();
-    // private System.Void ActionComplete(UnityEngine.AsyncOperation obj)
-    // Offset: 0x1E9E7D0
-    void ActionComplete(::UnityEngine::AsyncOperation* obj);
-    // public System.Single ProgressCallback()
-    // Offset: 0x1E9EF9C
-    float ProgressCallback();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_subObjectName();
     // public System.Void .ctor()
-    // Offset: 0x1E9DFB4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1EEC4EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BundledAssetProvider::InternalOp* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BundledAssetProvider::InternalOp*, creationType>()));
     }
+    // static UnityEngine.ResourceManagement.ResourceProviders.IAssetBundleResource LoadBundleFromDependecies(System.Collections.Generic.IList`1<System.Object> results)
+    // Offset: 0x1EEC940
+    static ::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource* LoadBundleFromDependecies(::System::Collections::Generic::IList_1<::Il2CppObject*>* results);
+    // public System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle provideHandle)
+    // Offset: 0x1EEC4F4
+    void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
+    // private System.Boolean WaitForCompletionHandler()
+    // Offset: 0x1EED084
+    bool WaitForCompletionHandler();
+    // private System.Void ActionComplete(UnityEngine.AsyncOperation obj)
+    // Offset: 0x1EECD08
+    void ActionComplete(::UnityEngine::AsyncOperation* obj);
+    // public System.Single ProgressCallback()
+    // Offset: 0x1EED4D4
+    float ProgressCallback();
   }; // UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider/UnityEngine.ResourceManagement.ResourceProviders.InternalOp
   #pragma pack(pop)
   static check_size<sizeof(BundledAssetProvider::InternalOp), 48 + sizeof(::StringW)> __UnityEngine_ResourceManagement_ResourceProviders_BundledAssetProvider_InternalOpSizeCheck;
   static_assert(sizeof(BundledAssetProvider::InternalOp) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::LoadBundleFromDependecies
 // Il2CppName: LoadBundleFromDependecies
 template<>
@@ -153,7 +147,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp*), "ProgressCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

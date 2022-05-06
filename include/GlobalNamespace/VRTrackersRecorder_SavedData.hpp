@@ -31,15 +31,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable
     class KeyframeSerializable;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public VRTrackersRecorder/SavedData/KeyframeSerializable[] _keyframes
     // Size: 0x8
     // Offset: 0x10
@@ -52,11 +44,9 @@ namespace GlobalNamespace {
       return keyframes;
     }
     // Get instance field reference: public VRTrackersRecorder/SavedData/KeyframeSerializable[] _keyframes
-    ::ArrayW<::GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*>& dyn__keyframes();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*>& dyn__keyframes();
     // public System.Void .ctor()
-    // Offset: 0x2AC20F8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14A1650
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRTrackersRecorder::SavedData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRTrackersRecorder::SavedData::.ctor");

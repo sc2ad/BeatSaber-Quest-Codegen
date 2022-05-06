@@ -48,34 +48,36 @@ namespace System::Net {
     static ::ArrayW<uint8_t> _get_AsciiToLower();
     // Set static field: static readonly System.Byte[] AsciiToLower
     static void _set_AsciiToLower(::ArrayW<uint8_t> value);
-    // static private System.Void .cctor()
-    // Offset: 0x1CBCEA8
-    static void _cctor();
-    // public System.Int32 GetHashCode(System.Object myObject)
-    // Offset: 0x1CBC964
-    int GetHashCode(::Il2CppObject* myObject);
-    // public System.Int32 Compare(System.Object firstObject, System.Object secondObject)
-    // Offset: 0x1CBCA88
-    int Compare(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
-    // private System.Int32 FastGetHashCode(System.String myString)
-    // Offset: 0x1CBCC0C
-    int FastGetHashCode(::StringW myString);
-    // public System.Boolean Equals(System.Object firstObject, System.Object secondObject)
-    // Offset: 0x1CBCD14
-    bool Equals(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
     // public System.Void .ctor()
-    // Offset: 0x1CBCEA0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1CF93F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CaseInsensitiveAscii* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::CaseInsensitiveAscii::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CaseInsensitiveAscii*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1CF9400
+    static void _cctor();
+    // public System.Int32 GetHashCode(System.Object myObject)
+    // Offset: 0x1CF8EBC
+    int GetHashCode(::Il2CppObject* myObject);
+    // public System.Int32 Compare(System.Object firstObject, System.Object secondObject)
+    // Offset: 0x1CF8FE0
+    int Compare(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
+    // private System.Int32 FastGetHashCode(System.String myString)
+    // Offset: 0x1CF9164
+    int FastGetHashCode(::StringW myString);
+    // public System.Boolean Equals(System.Object firstObject, System.Object secondObject)
+    // Offset: 0x1CF926C
+    bool Equals(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
   }; // System.Net.CaseInsensitiveAscii
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Net::CaseInsensitiveAscii::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::CaseInsensitiveAscii::_cctor
 // Il2CppName: .cctor
 template<>
@@ -122,7 +124,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Net::CaseInsensitiveAscii*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{firstObject, secondObject});
   }
 };
-// Writing MetadataGetter for method: System::Net::CaseInsensitiveAscii::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

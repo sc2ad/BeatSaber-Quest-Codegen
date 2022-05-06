@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CaptureAudioToWav : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _fileName
     // Size: 0x8
     // Offset: 0x18
@@ -82,52 +74,50 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _fileName
-    ::StringW& dyn__fileName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__fileName();
     // Get instance field reference: private System.Int32 _sampleRate
-    int& dyn__sampleRate();
+    [[deprecated("Use field access instead!")]] int& dyn__sampleRate();
     // Get instance field reference: private System.Int32 _headerSize
-    int& dyn__headerSize();
+    [[deprecated("Use field access instead!")]] int& dyn__headerSize();
     // Get instance field reference: private System.Boolean _recording
-    bool& dyn__recording();
+    [[deprecated("Use field access instead!")]] bool& dyn__recording();
     // Get instance field reference: private System.IO.FileStream _fileStream
-    ::System::IO::FileStream*& dyn__fileStream();
-    // protected System.Void Awake()
-    // Offset: 0x15652B4
-    void Awake();
-    // protected System.Void Update()
-    // Offset: 0x15652EC
-    void Update();
-    // private System.Void StartWriting(System.String name)
-    // Offset: 0x156539C
-    void StartWriting(::StringW name);
-    // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0x156583C
-    void OnAudioFilterRead(::ArrayW<float> data, int channels);
-    // private System.Void ConvertAndWrite(System.Single[] dataSource)
-    // Offset: 0x156584C
-    void ConvertAndWrite(::ArrayW<float> dataSource);
-    // private System.Void WriteHeader()
-    // Offset: 0x1565458
-    void WriteHeader();
+    [[deprecated("Use field access instead!")]] ::System::IO::FileStream*& dyn__fileStream();
     // public System.Void .ctor()
-    // Offset: 0x1565A08
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x159C310
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CaptureAudioToWav* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CaptureAudioToWav::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CaptureAudioToWav*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x159BBBC
+    void Awake();
+    // protected System.Void Update()
+    // Offset: 0x159BBF4
+    void Update();
+    // private System.Void StartWriting(System.String name)
+    // Offset: 0x159BCA4
+    void StartWriting(::StringW name);
+    // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
+    // Offset: 0x159C144
+    void OnAudioFilterRead(::ArrayW<float> data, int channels);
+    // private System.Void ConvertAndWrite(System.Single[] dataSource)
+    // Offset: 0x159C154
+    void ConvertAndWrite(::ArrayW<float> dataSource);
+    // private System.Void WriteHeader()
+    // Offset: 0x159BD60
+    void WriteHeader();
   }; // CaptureAudioToWav
   #pragma pack(pop)
   static check_size<sizeof(CaptureAudioToWav), 48 + sizeof(::System::IO::FileStream*)> __GlobalNamespace_CaptureAudioToWavSizeCheck;
   static_assert(sizeof(CaptureAudioToWav) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::CaptureAudioToWav::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CaptureAudioToWav::Awake
 // Il2CppName: Awake
 template<>
@@ -180,7 +170,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CaptureAudioToWav*), "WriteHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CaptureAudioToWav::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

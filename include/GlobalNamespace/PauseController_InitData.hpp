@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PauseController::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Boolean startPaused
     // Size: 0x1
     // Offset: 0x10
@@ -44,9 +36,9 @@ namespace GlobalNamespace {
       return startPaused;
     }
     // Get instance field reference: public readonly System.Boolean startPaused
-    bool& dyn_startPaused();
+    [[deprecated("Use field access instead!")]] bool& dyn_startPaused();
     // public System.Void .ctor(System.Boolean startPaused)
-    // Offset: 0x12F083C
+    // Offset: 0x13617F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PauseController::InitData* New_ctor(bool startPaused) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PauseController::InitData::.ctor");

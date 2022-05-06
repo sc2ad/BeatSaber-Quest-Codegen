@@ -38,45 +38,37 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionTrigger::CameraPosition : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x127803C
+    // [TooltipAttribute] Offset: 0x10FCCF4
     // public UnityEngine.Collider lookAtTarget
     // Size: 0x8
     // Offset: 0x10
     ::UnityEngine::Collider* lookAtTarget;
     // Field size check
     static_assert(sizeof(::UnityEngine::Collider*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1278074
+    // [TooltipAttribute] Offset: 0x10FCD2C
     // public UnityEngine.Vector3 direction
     // Size: 0xC
     // Offset: 0x18
     ::UnityEngine::Vector3 direction;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0x12780AC
+    // [TooltipAttribute] Offset: 0x10FCD64
     // public System.Single maxDistance
     // Size: 0x4
     // Offset: 0x24
     float maxDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x12780E4
-    // [RangeAttribute] Offset: 0x12780E4
+    // [TooltipAttribute] Offset: 0x10FCD9C
+    // [RangeAttribute] Offset: 0x10FCD9C
     // public System.Single maxAngle
     // Size: 0x4
     // Offset: 0x28
     float maxAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x127813C
+    // [TooltipAttribute] Offset: 0x10FCDF4
     // public System.Boolean fixYAxis
     // Size: 0x1
     // Offset: 0x2C
@@ -85,36 +77,38 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public UnityEngine.Collider lookAtTarget
-    ::UnityEngine::Collider*& dyn_lookAtTarget();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Collider*& dyn_lookAtTarget();
     // Get instance field reference: public UnityEngine.Vector3 direction
-    ::UnityEngine::Vector3& dyn_direction();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_direction();
     // Get instance field reference: public System.Single maxDistance
-    float& dyn_maxDistance();
+    [[deprecated("Use field access instead!")]] float& dyn_maxDistance();
     // Get instance field reference: public System.Single maxAngle
-    float& dyn_maxAngle();
+    [[deprecated("Use field access instead!")]] float& dyn_maxAngle();
     // Get instance field reference: public System.Boolean fixYAxis
-    bool& dyn_fixYAxis();
-    // public UnityEngine.Quaternion GetRotation()
-    // Offset: 0x1F6DA48
-    ::UnityEngine::Quaternion GetRotation();
-    // public System.Boolean IsInRange(UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit hit, UnityEngine.Transform trigger, out System.Single error)
-    // Offset: 0x1F6DBF0
-    bool IsInRange(::UnityEngine::Transform* raycastFrom, ::UnityEngine::RaycastHit hit, ::UnityEngine::Transform* trigger, ByRef<float> error);
+    [[deprecated("Use field access instead!")]] bool& dyn_fixYAxis();
     // public System.Void .ctor()
-    // Offset: 0x1F6DED0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FBA744
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionTrigger::CameraPosition* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionTrigger::CameraPosition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionTrigger::CameraPosition*, creationType>()));
     }
+    // public UnityEngine.Quaternion GetRotation()
+    // Offset: 0x1FBA2BC
+    ::UnityEngine::Quaternion GetRotation();
+    // public System.Boolean IsInRange(UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit hit, UnityEngine.Transform trigger, out System.Single error)
+    // Offset: 0x1FBA464
+    bool IsInRange(::UnityEngine::Transform* raycastFrom, ::UnityEngine::RaycastHit hit, ::UnityEngine::Transform* trigger, ByRef<float> error);
   }; // RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.CameraPosition
   #pragma pack(pop)
   static check_size<sizeof(InteractionTrigger::CameraPosition), 44 + sizeof(bool)> __RootMotion_FinalIK_InteractionTrigger_CameraPositionSizeCheck;
   static_assert(sizeof(InteractionTrigger::CameraPosition) == 0x2D);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::CameraPosition::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::CameraPosition::GetRotation
 // Il2CppName: GetRotation
 template<>
@@ -135,7 +129,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTrigger::CameraPosition*), "IsInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{raycastFrom, hit, trigger, error});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::CameraPosition::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

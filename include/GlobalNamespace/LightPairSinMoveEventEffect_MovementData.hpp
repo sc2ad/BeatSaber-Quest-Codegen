@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightPairSinMoveEventEffect::MovementData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean enabled
     // Size: 0x1
     // Offset: 0x10
@@ -89,23 +81,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public System.Boolean enabled
-    bool& dyn_enabled();
+    [[deprecated("Use field access instead!")]] bool& dyn_enabled();
     // Get instance field reference: public System.Single speed
-    float& dyn_speed();
+    [[deprecated("Use field access instead!")]] float& dyn_speed();
     // Get instance field reference: public UnityEngine.Vector3 startPosition
-    ::UnityEngine::Vector3& dyn_startPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_startPosition();
     // Get instance field reference: public UnityEngine.Transform transform
-    ::UnityEngine::Transform*& dyn_transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public System.Single startMovementValue
-    float& dyn_startMovementValue();
+    [[deprecated("Use field access instead!")]] float& dyn_startMovementValue();
     // Get instance field reference: public System.Single movementValue
-    float& dyn_movementValue();
+    [[deprecated("Use field access instead!")]] float& dyn_movementValue();
     // Get instance field reference: public System.Single side
-    float& dyn_side();
+    [[deprecated("Use field access instead!")]] float& dyn_side();
     // public System.Void .ctor()
-    // Offset: 0x148DC88
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14C4510
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightPairSinMoveEventEffect::MovementData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightPairSinMoveEventEffect::MovementData::.ctor");

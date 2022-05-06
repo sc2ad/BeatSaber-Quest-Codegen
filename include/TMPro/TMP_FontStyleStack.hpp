@@ -100,33 +100,33 @@ namespace TMPro {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Byte bold
-    uint8_t& dyn_bold();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_bold();
     // Get instance field reference: public System.Byte italic
-    uint8_t& dyn_italic();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_italic();
     // Get instance field reference: public System.Byte underline
-    uint8_t& dyn_underline();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_underline();
     // Get instance field reference: public System.Byte strikethrough
-    uint8_t& dyn_strikethrough();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_strikethrough();
     // Get instance field reference: public System.Byte highlight
-    uint8_t& dyn_highlight();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_highlight();
     // Get instance field reference: public System.Byte superscript
-    uint8_t& dyn_superscript();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_superscript();
     // Get instance field reference: public System.Byte subscript
-    uint8_t& dyn_subscript();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_subscript();
     // Get instance field reference: public System.Byte uppercase
-    uint8_t& dyn_uppercase();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_uppercase();
     // Get instance field reference: public System.Byte lowercase
-    uint8_t& dyn_lowercase();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_lowercase();
     // Get instance field reference: public System.Byte smallcaps
-    uint8_t& dyn_smallcaps();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_smallcaps();
     // public System.Void Clear()
-    // Offset: 0x143E984
+    // Offset: 0x1447BC4
     void Clear();
     // public System.Byte Add(TMPro.FontStyles style)
-    // Offset: 0x143E990
+    // Offset: 0x1447BD0
     uint8_t Add(::TMPro::FontStyles style);
     // public System.Byte Remove(TMPro.FontStyles style)
-    // Offset: 0x143EA58
+    // Offset: 0x1447C98
     uint8_t Remove(::TMPro::FontStyles style);
   }; // TMPro.TMP_FontStyleStack
   #pragma pack(pop)

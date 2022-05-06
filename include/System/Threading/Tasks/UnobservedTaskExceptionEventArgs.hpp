@@ -35,15 +35,7 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnobservedTaskExceptionEventArgs : public ::System::EventArgs {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.AggregateException m_exception
     // Size: 0x8
     // Offset: 0x10
@@ -58,11 +50,11 @@ namespace System::Threading::Tasks {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.AggregateException m_exception
-    ::System::AggregateException*& dyn_m_exception();
+    [[deprecated("Use field access instead!")]] ::System::AggregateException*& dyn_m_exception();
     // Get instance field reference: System.Boolean m_observed
-    bool& dyn_m_observed();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_observed();
     // public System.Void .ctor(System.AggregateException exception)
-    // Offset: 0x1CF38DC
+    // Offset: 0x1D2EE34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnobservedTaskExceptionEventArgs* New_ctor(::System::AggregateException* exception) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::UnobservedTaskExceptionEventArgs::.ctor");

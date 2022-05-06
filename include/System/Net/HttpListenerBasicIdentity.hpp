@@ -29,15 +29,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpListenerBasicIdentity : public ::System::Security::Principal::GenericIdentity {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String password
     // Size: 0x8
     // Offset: 0x88
@@ -50,11 +42,9 @@ namespace System::Net {
       return password;
     }
     // Get instance field reference: private System.String password
-    ::StringW& dyn_password();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_password();
     // public System.Void .ctor(System.String username, System.String password)
-    // Offset: 0x1A6BEF4
-    // Implemented from: System.Security.Principal.GenericIdentity
-    // Base method: System.Void GenericIdentity::.ctor(System.String username, System.String password)
+    // Offset: 0x1AA64DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListenerBasicIdentity* New_ctor(::StringW username, ::StringW password) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::HttpListenerBasicIdentity::.ctor");

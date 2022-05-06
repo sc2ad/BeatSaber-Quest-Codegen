@@ -62,11 +62,11 @@ namespace LiteNetLib {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public LiteNetLib.DisconnectReason Reason
-    ::LiteNetLib::DisconnectReason& dyn_Reason();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::DisconnectReason& dyn_Reason();
     // Get instance field reference: public System.Net.Sockets.SocketError SocketErrorCode
-    ::System::Net::Sockets::SocketError& dyn_SocketErrorCode();
+    [[deprecated("Use field access instead!")]] ::System::Net::Sockets::SocketError& dyn_SocketErrorCode();
     // Get instance field reference: public LiteNetLib.NetPacketReader AdditionalData
-    ::LiteNetLib::NetPacketReader*& dyn_AdditionalData();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetPacketReader*& dyn_AdditionalData();
   }; // LiteNetLib.DisconnectInfo
   #pragma pack(pop)
   static check_size<sizeof(DisconnectInfo), 8 + sizeof(::LiteNetLib::NetPacketReader*)> __LiteNetLib_DisconnectInfoSizeCheck;

@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PacketEncryptionLayer::EncryptionStatistics : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int64 _packetsReceivedPlaintext
     // Size: 0x8
     // Offset: 0x10
@@ -82,78 +74,76 @@ namespace GlobalNamespace {
     static_assert(sizeof(int64_t) == 0x8);
     public:
     // Get instance field reference: private System.Int64 _packetsReceivedPlaintext
-    int64_t& dyn__packetsReceivedPlaintext();
+    [[deprecated("Use field access instead!")]] int64_t& dyn__packetsReceivedPlaintext();
     // Get instance field reference: private System.Int64 _packetsReceivedEncrypted
-    int64_t& dyn__packetsReceivedEncrypted();
+    [[deprecated("Use field access instead!")]] int64_t& dyn__packetsReceivedEncrypted();
     // Get instance field reference: private System.Int64 _packetsReceivedRejected
-    int64_t& dyn__packetsReceivedRejected();
+    [[deprecated("Use field access instead!")]] int64_t& dyn__packetsReceivedRejected();
     // Get instance field reference: private System.Int64 _packetsSentPlaintext
-    int64_t& dyn__packetsSentPlaintext();
+    [[deprecated("Use field access instead!")]] int64_t& dyn__packetsSentPlaintext();
     // Get instance field reference: private System.Int64 _packetsSentEncrypted
-    int64_t& dyn__packetsSentEncrypted();
+    [[deprecated("Use field access instead!")]] int64_t& dyn__packetsSentEncrypted();
     // Get instance field reference: private System.Int64 _packetsSentRejected
-    int64_t& dyn__packetsSentRejected();
+    [[deprecated("Use field access instead!")]] int64_t& dyn__packetsSentRejected();
     // Get instance field reference: private System.Int64 _encryptionProcessingTime
-    int64_t& dyn__encryptionProcessingTime();
+    [[deprecated("Use field access instead!")]] int64_t& dyn__encryptionProcessingTime();
     // Get instance field reference: private System.Int64 _decryptionProcessingTime
-    int64_t& dyn__decryptionProcessingTime();
+    [[deprecated("Use field access instead!")]] int64_t& dyn__decryptionProcessingTime();
     // public System.Int64 get_packetsReceivedPlaintext()
-    // Offset: 0x25E6EA0
+    // Offset: 0x26334D0
     int64_t get_packetsReceivedPlaintext();
     // public System.Int64 get_packetsReceivedEncrypted()
-    // Offset: 0x25E6EAC
+    // Offset: 0x26334DC
     int64_t get_packetsReceivedEncrypted();
     // public System.Int64 get_packetsReceivedRejected()
-    // Offset: 0x25E6EB8
+    // Offset: 0x26334E8
     int64_t get_packetsReceivedRejected();
     // public System.Int64 get_packetsSentPlaintext()
-    // Offset: 0x25E6EC4
+    // Offset: 0x26334F4
     int64_t get_packetsSentPlaintext();
     // public System.Int64 get_packetsSentEncrypted()
-    // Offset: 0x25E6ED0
+    // Offset: 0x2633500
     int64_t get_packetsSentEncrypted();
     // public System.Int64 get_packetsSentRejected()
-    // Offset: 0x25E6EDC
+    // Offset: 0x263350C
     int64_t get_packetsSentRejected();
     // public System.Int64 get_encryptionProcessingTime()
-    // Offset: 0x25E6EE8
+    // Offset: 0x2633518
     int64_t get_encryptionProcessingTime();
     // public System.Int64 get_decryptionProcessingTime()
-    // Offset: 0x25E6F74
+    // Offset: 0x26335A4
     int64_t get_decryptionProcessingTime();
-    // public System.Void IncrementPacketsReceivedPlaintext()
-    // Offset: 0x25E7000
-    void IncrementPacketsReceivedPlaintext();
-    // public System.Void IncrementPacketsReceivedEncrypted()
-    // Offset: 0x25E700C
-    void IncrementPacketsReceivedEncrypted();
-    // public System.Void IncrementPacketsReceivedRejected()
-    // Offset: 0x25E7018
-    void IncrementPacketsReceivedRejected();
-    // public System.Void IncrementPacketsSentPlaintext()
-    // Offset: 0x25E7024
-    void IncrementPacketsSentPlaintext();
-    // public System.Void IncrementPacketsSentEncrypted()
-    // Offset: 0x25E7030
-    void IncrementPacketsSentEncrypted();
-    // public System.Void IncrementPacketsSentRejected()
-    // Offset: 0x25E703C
-    void IncrementPacketsSentRejected();
-    // public System.Void AddEncryptionProcessingTime(System.Int64 time)
-    // Offset: 0x25E7048
-    void AddEncryptionProcessingTime(int64_t time);
-    // public System.Void AddDecryptionProcessingTime(System.Int64 time)
-    // Offset: 0x25E7054
-    void AddDecryptionProcessingTime(int64_t time);
     // public System.Void .ctor()
-    // Offset: 0x25E7060
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2633690
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PacketEncryptionLayer::EncryptionStatistics* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PacketEncryptionLayer::EncryptionStatistics*, creationType>()));
     }
+    // public System.Void IncrementPacketsReceivedPlaintext()
+    // Offset: 0x2633630
+    void IncrementPacketsReceivedPlaintext();
+    // public System.Void IncrementPacketsReceivedEncrypted()
+    // Offset: 0x263363C
+    void IncrementPacketsReceivedEncrypted();
+    // public System.Void IncrementPacketsReceivedRejected()
+    // Offset: 0x2633648
+    void IncrementPacketsReceivedRejected();
+    // public System.Void IncrementPacketsSentPlaintext()
+    // Offset: 0x2633654
+    void IncrementPacketsSentPlaintext();
+    // public System.Void IncrementPacketsSentEncrypted()
+    // Offset: 0x2633660
+    void IncrementPacketsSentEncrypted();
+    // public System.Void IncrementPacketsSentRejected()
+    // Offset: 0x263366C
+    void IncrementPacketsSentRejected();
+    // public System.Void AddEncryptionProcessingTime(System.Int64 time)
+    // Offset: 0x2633678
+    void AddEncryptionProcessingTime(int64_t time);
+    // public System.Void AddDecryptionProcessingTime(System.Int64 time)
+    // Offset: 0x2633684
+    void AddDecryptionProcessingTime(int64_t time);
   }; // PacketEncryptionLayer/EncryptionStatistics
   #pragma pack(pop)
   static check_size<sizeof(PacketEncryptionLayer::EncryptionStatistics), 72 + sizeof(int64_t)> __GlobalNamespace_PacketEncryptionLayer_EncryptionStatisticsSizeCheck;
@@ -224,6 +214,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Gl
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics*), "get_decryptionProcessingTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsReceivedPlaintext
 // Il2CppName: IncrementPacketsReceivedPlaintext
 template<>
@@ -290,7 +284,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics*), "AddDecryptionProcessingTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

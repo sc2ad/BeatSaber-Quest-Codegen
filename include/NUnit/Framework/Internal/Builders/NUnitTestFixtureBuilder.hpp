@@ -49,15 +49,7 @@ namespace NUnit::Framework::Internal::Builders {
   // [TokenAttribute] Offset: FFFFFFFF
   class NUnitTestFixtureBuilder : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private NUnit.Framework.Interfaces.ITestCaseBuilder _testBuilder
     // Size: 0x8
     // Offset: 0x10
@@ -74,40 +66,42 @@ namespace NUnit::Framework::Internal::Builders {
     // Set static field: static private readonly System.String NO_TYPE_ARGS_MSG
     static void _set_NO_TYPE_ARGS_MSG(::StringW value);
     // Get instance field reference: private NUnit.Framework.Interfaces.ITestCaseBuilder _testBuilder
-    ::NUnit::Framework::Interfaces::ITestCaseBuilder*& dyn__testBuilder();
-    // static private System.Void .cctor()
-    // Offset: 0x1C4C648
-    static void _cctor();
-    // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x1C495D0
-    ::NUnit::Framework::Internal::TestSuite* BuildFrom(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
-    // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo, NUnit.Framework.Interfaces.ITestFixtureData testFixtureData)
-    // Offset: 0x1C4B628
-    ::NUnit::Framework::Internal::TestSuite* BuildFrom(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo, ::NUnit::Framework::Interfaces::ITestFixtureData* testFixtureData);
-    // private System.Void AddTestCasesToFixture(NUnit.Framework.Internal.TestFixture fixture)
-    // Offset: 0x1C4B3B4
-    void AddTestCasesToFixture(::NUnit::Framework::Internal::TestFixture* fixture);
-    // private NUnit.Framework.Internal.Test BuildTestCase(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.TestSuite suite)
-    // Offset: 0x1C4C4E8
-    ::NUnit::Framework::Internal::Test* BuildTestCase(::NUnit::Framework::Interfaces::IMethodInfo* method, ::NUnit::Framework::Internal::TestSuite* suite);
-    // static private System.Void CheckTestFixtureIsValid(NUnit.Framework.Internal.TestFixture fixture)
-    // Offset: 0x1C4B078
-    static void CheckTestFixtureIsValid(::NUnit::Framework::Internal::TestFixture* fixture);
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Interfaces::ITestCaseBuilder*& dyn__testBuilder();
     // public System.Void .ctor()
-    // Offset: 0x1C497B0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1CA1D48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NUnitTestFixtureBuilder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NUnitTestFixtureBuilder*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1CA4BE0
+    static void _cctor();
+    // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
+    // Offset: 0x1CA1B68
+    ::NUnit::Framework::Internal::TestSuite* BuildFrom(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
+    // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo, NUnit.Framework.Interfaces.ITestFixtureData testFixtureData)
+    // Offset: 0x1CA3BC0
+    ::NUnit::Framework::Internal::TestSuite* BuildFrom(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo, ::NUnit::Framework::Interfaces::ITestFixtureData* testFixtureData);
+    // private System.Void AddTestCasesToFixture(NUnit.Framework.Internal.TestFixture fixture)
+    // Offset: 0x1CA394C
+    void AddTestCasesToFixture(::NUnit::Framework::Internal::TestFixture* fixture);
+    // private NUnit.Framework.Internal.Test BuildTestCase(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.TestSuite suite)
+    // Offset: 0x1CA4A80
+    ::NUnit::Framework::Internal::Test* BuildTestCase(::NUnit::Framework::Interfaces::IMethodInfo* method, ::NUnit::Framework::Internal::TestSuite* suite);
+    // static private System.Void CheckTestFixtureIsValid(NUnit.Framework.Internal.TestFixture fixture)
+    // Offset: 0x1CA3610
+    static void CheckTestFixtureIsValid(::NUnit::Framework::Internal::TestFixture* fixture);
   }; // NUnit.Framework.Internal.Builders.NUnitTestFixtureBuilder
   #pragma pack(pop)
   static check_size<sizeof(NUnitTestFixtureBuilder), 16 + sizeof(::NUnit::Framework::Interfaces::ITestCaseBuilder*)> __NUnit_Framework_Internal_Builders_NUnitTestFixtureBuilderSizeCheck;
   static_assert(sizeof(NUnitTestFixtureBuilder) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::_cctor
 // Il2CppName: .cctor
 template<>
@@ -163,7 +157,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*), "CheckTestFixtureIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fixture});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

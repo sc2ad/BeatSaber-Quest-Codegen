@@ -73,17 +73,17 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public Valve.VR.EVRTrackedCameraFrameType eFrameType
-    ::Valve::VR::EVRTrackedCameraFrameType& dyn_eFrameType();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::EVRTrackedCameraFrameType& dyn_eFrameType();
     // Get instance field reference: public System.UInt32 nWidth
-    uint& dyn_nWidth();
+    [[deprecated("Use field access instead!")]] uint& dyn_nWidth();
     // Get instance field reference: public System.UInt32 nHeight
-    uint& dyn_nHeight();
+    [[deprecated("Use field access instead!")]] uint& dyn_nHeight();
     // Get instance field reference: public System.UInt32 nBytesPerPixel
-    uint& dyn_nBytesPerPixel();
+    [[deprecated("Use field access instead!")]] uint& dyn_nBytesPerPixel();
     // Get instance field reference: public System.UInt32 nFrameSequence
-    uint& dyn_nFrameSequence();
+    [[deprecated("Use field access instead!")]] uint& dyn_nFrameSequence();
     // Get instance field reference: public Valve.VR.TrackedDevicePose_t standingTrackedDevicePose
-    ::Valve::VR::TrackedDevicePose_t& dyn_standingTrackedDevicePose();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::TrackedDevicePose_t& dyn_standingTrackedDevicePose();
   }; // Valve.VR.CameraVideoStreamFrameHeader_t
   #pragma pack(pop)
   static check_size<sizeof(CameraVideoStreamFrameHeader_t), 20 + sizeof(::Valve::VR::TrackedDevicePose_t)> __Valve_VR_CameraVideoStreamFrameHeader_tSizeCheck;

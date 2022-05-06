@@ -55,11 +55,11 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public OVRPlugin/BoundaryType BoundaryType
-    ::GlobalNamespace::OVRPlugin::BoundaryType& dyn_BoundaryType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::BoundaryType& dyn_BoundaryType();
     // Get instance field reference: public OVRPlugin/Vector3f[] Points
-    ::ArrayW<::GlobalNamespace::OVRPlugin::Vector3f>& dyn_Points();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::OVRPlugin::Vector3f>& dyn_Points();
     // Get instance field reference: public System.Int32 PointsCount
-    int& dyn_PointsCount();
+    [[deprecated("Use field access instead!")]] int& dyn_PointsCount();
   }; // OVRPlugin/BoundaryGeometry
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::BoundaryGeometry), 16 + sizeof(int)> __GlobalNamespace_OVRPlugin_BoundaryGeometrySizeCheck;

@@ -60,7 +60,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.PivotPoint ActiveElement
     static void _set_ActiveElement(::UnityEngine::ProBuilder::PivotPoint value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.ProBuilder.PivotPoint
   #pragma pack(pop)
   static check_size<sizeof(PivotPoint), 0 + sizeof(int)> __UnityEngine_ProBuilder_PivotPointSizeCheck;

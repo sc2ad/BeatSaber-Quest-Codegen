@@ -39,22 +39,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AvatarDataModel : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private AvatarDataFileManagerSO _avatarDataFileManager
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::AvatarDataFileManagerSO* avatarDataFileManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AvatarDataFileManagerSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x124E4B4
+    // [InjectAttribute] Offset: 0x10D2FAC
     // private readonly AvatarPartsModel _avatarPartsModel
     // Size: 0x8
     // Offset: 0x20
@@ -71,45 +63,39 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private AvatarDataFileManagerSO _avatarDataFileManager
-    ::GlobalNamespace::AvatarDataFileManagerSO*& dyn__avatarDataFileManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarDataFileManagerSO*& dyn__avatarDataFileManager();
     // Get instance field reference: private readonly AvatarPartsModel _avatarPartsModel
-    ::GlobalNamespace::AvatarPartsModel*& dyn__avatarPartsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarPartsModel*& dyn__avatarPartsModel();
     // Get instance field reference: private AvatarData <avatarData>k__BackingField
-    ::GlobalNamespace::AvatarData*& dyn_$avatarData$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarData*& dyn_$avatarData$k__BackingField();
     // public AvatarData get_avatarData()
-    // Offset: 0x14BC3AC
+    // Offset: 0x14F3C64
     ::GlobalNamespace::AvatarData* get_avatarData();
     // public System.Void set_avatarData(AvatarData value)
-    // Offset: 0x14BC3B4
+    // Offset: 0x14F3C6C
     void set_avatarData(::GlobalNamespace::AvatarData* value);
-    // protected System.Void OnEnable()
-    // Offset: 0x14BC3BC
-    void OnEnable();
-    // public System.Void Randomize()
-    // Offset: 0x14BC3FC
-    void Randomize();
-    // public System.Void Save()
-    // Offset: 0x14BC520
-    void Save();
-    // public System.Void Load()
-    // Offset: 0x14BC3C0
-    void Load();
-    // private AvatarData CreateDefaultAvatarData()
-    // Offset: 0x14BC420
-    ::GlobalNamespace::AvatarData* CreateDefaultAvatarData();
     // public System.Void .ctor()
-    // Offset: 0x14BC590
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14F3E48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarDataModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarDataModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarDataModel*, creationType>()));
     }
+    // protected System.Void OnEnable()
+    // Offset: 0x14F3C74
+    void OnEnable();
+    // public System.Void Randomize()
+    // Offset: 0x14F3CB4
+    void Randomize();
+    // public System.Void Save()
+    // Offset: 0x14F3DD8
+    void Save();
+    // public System.Void Load()
+    // Offset: 0x14F3C78
+    void Load();
+    // private AvatarData CreateDefaultAvatarData()
+    // Offset: 0x14F3CD8
+    ::GlobalNamespace::AvatarData* CreateDefaultAvatarData();
   }; // AvatarDataModel
   #pragma pack(pop)
   static check_size<sizeof(AvatarDataModel), 40 + sizeof(::GlobalNamespace::AvatarData*)> __GlobalNamespace_AvatarDataModelSizeCheck;
@@ -133,6 +119,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarDataModel*), "set_avatarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::AvatarDataModel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AvatarDataModel::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -173,7 +163,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarDataModel*), "CreateDefaultAvatarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AvatarDataModel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

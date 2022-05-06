@@ -64,15 +64,7 @@ namespace GlobalNamespace {
     struct $SetDataFromLevelAsync$d__17;
     // Nested type: ::GlobalNamespace::LevelListTableCell::$RefreshAvailabilityAsync$d__22
     struct $RefreshAvailabilityAsync$d__22;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Image _backgroundImage
     // Size: 0x8
     // Offset: 0x58
@@ -85,7 +77,7 @@ namespace GlobalNamespace {
     ::UnityEngine::CanvasGroup* canvasGroup;
     // Field size check
     static_assert(sizeof(::UnityEngine::CanvasGroup*) == 0x8);
-    // [SpaceAttribute] Offset: 0x12580AC
+    // [SpaceAttribute] Offset: 0x10DCC90
     // private UnityEngine.UI.Image _coverImage
     // Size: 0x8
     // Offset: 0x68
@@ -122,7 +114,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* songBpmText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1258134
+    // [SpaceAttribute] Offset: 0x10DCD18
     // private UnityEngine.Color _highlightBackgroundColor
     // Size: 0x10
     // Offset: 0x98
@@ -183,79 +175,70 @@ namespace GlobalNamespace {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.UI.Image _backgroundImage
-    ::UnityEngine::UI::Image*& dyn__backgroundImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__backgroundImage();
     // Get instance field reference: private UnityEngine.CanvasGroup _canvasGroup
-    ::UnityEngine::CanvasGroup*& dyn__canvasGroup();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::CanvasGroup*& dyn__canvasGroup();
     // Get instance field reference: private UnityEngine.UI.Image _coverImage
-    ::UnityEngine::UI::Image*& dyn__coverImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__coverImage();
     // Get instance field reference: private TMPro.TextMeshProUGUI _songNameText
-    ::TMPro::TextMeshProUGUI*& dyn__songNameText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__songNameText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _songAuthorText
-    ::TMPro::TextMeshProUGUI*& dyn__songAuthorText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__songAuthorText();
     // Get instance field reference: private UnityEngine.UI.Image _favoritesBadgeImage
-    ::UnityEngine::UI::Image*& dyn__favoritesBadgeImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__favoritesBadgeImage();
     // Get instance field reference: private TMPro.TextMeshProUGUI _songDurationText
-    ::TMPro::TextMeshProUGUI*& dyn__songDurationText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__songDurationText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _songBpmText
-    ::TMPro::TextMeshProUGUI*& dyn__songBpmText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__songBpmText();
     // Get instance field reference: private UnityEngine.Color _highlightBackgroundColor
-    ::UnityEngine::Color& dyn__highlightBackgroundColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__highlightBackgroundColor();
     // Get instance field reference: private UnityEngine.Color _selectedBackgroundColor
-    ::UnityEngine::Color& dyn__selectedBackgroundColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__selectedBackgroundColor();
     // Get instance field reference: private UnityEngine.Color _selectedAndHighlightedBackgroundColor
-    ::UnityEngine::Color& dyn__selectedAndHighlightedBackgroundColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__selectedAndHighlightedBackgroundColor();
     // Get instance field reference: private System.Single _notOwnedAlpha
-    float& dyn__notOwnedAlpha();
+    [[deprecated("Use field access instead!")]] float& dyn__notOwnedAlpha();
     // Get instance field reference: private System.Threading.CancellationTokenSource _refreshingAvailabilityCancellationTokenSource
-    ::System::Threading::CancellationTokenSource*& dyn__refreshingAvailabilityCancellationTokenSource();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationTokenSource*& dyn__refreshingAvailabilityCancellationTokenSource();
     // Get instance field reference: private System.Threading.CancellationTokenSource _settingDataCancellationTokenSource
-    ::System::Threading::CancellationTokenSource*& dyn__settingDataCancellationTokenSource();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationTokenSource*& dyn__settingDataCancellationTokenSource();
     // Get instance field reference: private System.Boolean _notOwned
-    bool& dyn__notOwned();
+    [[deprecated("Use field access instead!")]] bool& dyn__notOwned();
     // Get instance field reference: private System.String _refreshingAvailabilityLevelID
-    ::StringW& dyn__refreshingAvailabilityLevelID();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__refreshingAvailabilityLevelID();
     // Get instance field reference: private System.String _settingDataFromLevelId
-    ::StringW& dyn__settingDataFromLevelId();
-    // public System.Void SetDataFromLevelAsync(IPreviewBeatmapLevel level, System.Boolean isFavorite)
-    // Offset: 0x1483F80
-    void SetDataFromLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* level, bool isFavorite);
-    // private System.Void RefreshVisuals()
-    // Offset: 0x1484058
-    void RefreshVisuals();
-    // public System.Void RefreshAvailabilityAsync(AdditionalContentModel contentModel, System.String levelID)
-    // Offset: 0x1484174
-    void RefreshAvailabilityAsync(::GlobalNamespace::AdditionalContentModel* contentModel, ::StringW levelID);
-    // public System.Void CancelAsyncOperations()
-    // Offset: 0x1484130
-    void CancelAsyncOperations();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__settingDataFromLevelId();
     // public System.Void .ctor()
-    // Offset: 0x1484244
-    // Implemented from: HMUI.TableCell
-    // Base method: System.Void TableCell::.ctor()
-    // Base method: System.Void SelectableCell::.ctor()
-    // Base method: System.Void Interactable::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14BAAC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelListTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelListTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelListTableCell*, creationType>()));
     }
+    // public System.Void SetDataFromLevelAsync(IPreviewBeatmapLevel level, System.Boolean isFavorite)
+    // Offset: 0x14BA800
+    void SetDataFromLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* level, bool isFavorite);
+    // private System.Void RefreshVisuals()
+    // Offset: 0x14BA8D8
+    void RefreshVisuals();
+    // public System.Void RefreshAvailabilityAsync(AdditionalContentModel contentModel, System.String levelID)
+    // Offset: 0x14BA9F4
+    void RefreshAvailabilityAsync(::GlobalNamespace::AdditionalContentModel* contentModel, ::StringW levelID);
+    // public System.Void CancelAsyncOperations()
+    // Offset: 0x14BA9B0
+    void CancelAsyncOperations();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x1484054
+    // Offset: 0x14BA8D4
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(::HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x1484128
+    // Offset: 0x14BA9A8
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(::HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void WasPreparedForReuse()
-    // Offset: 0x148412C
+    // Offset: 0x14BA9AC
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::WasPreparedForReuse()
     void WasPreparedForReuse();
@@ -265,6 +248,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelListTableCell) == 0xF8);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::LevelListTableCell::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LevelListTableCell::SetDataFromLevelAsync
 // Il2CppName: SetDataFromLevelAsync
 template<>
@@ -301,10 +288,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelListTableCell*), "CancelAsyncOperations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LevelListTableCell::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LevelListTableCell::SelectionDidChange
 // Il2CppName: SelectionDidChange
 template<>

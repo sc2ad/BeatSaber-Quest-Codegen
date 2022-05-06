@@ -40,15 +40,7 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class RectangularVertexClipper : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly UnityEngine.Vector3[] m_WorldCorners
     // Size: 0x8
     // Offset: 0x10
@@ -63,27 +55,29 @@ namespace UnityEngine::UI {
     static_assert(sizeof(::ArrayW<::UnityEngine::Vector3>) == 0x8);
     public:
     // Get instance field reference: private readonly UnityEngine.Vector3[] m_WorldCorners
-    ::ArrayW<::UnityEngine::Vector3>& dyn_m_WorldCorners();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn_m_WorldCorners();
     // Get instance field reference: private readonly UnityEngine.Vector3[] m_CanvasCorners
-    ::ArrayW<::UnityEngine::Vector3>& dyn_m_CanvasCorners();
-    // public UnityEngine.Rect GetCanvasRect(UnityEngine.RectTransform t, UnityEngine.Canvas c)
-    // Offset: 0x1E847E0
-    ::UnityEngine::Rect GetCanvasRect(::UnityEngine::RectTransform* t, ::UnityEngine::Canvas* c);
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn_m_CanvasCorners();
     // public System.Void .ctor()
-    // Offset: 0x1E84A5C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1ED2F94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RectangularVertexClipper* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::RectangularVertexClipper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RectangularVertexClipper*, creationType>()));
     }
+    // public UnityEngine.Rect GetCanvasRect(UnityEngine.RectTransform t, UnityEngine.Canvas c)
+    // Offset: 0x1ED2D18
+    ::UnityEngine::Rect GetCanvasRect(::UnityEngine::RectTransform* t, ::UnityEngine::Canvas* c);
   }; // UnityEngine.UI.RectangularVertexClipper
   #pragma pack(pop)
   static check_size<sizeof(RectangularVertexClipper), 24 + sizeof(::ArrayW<::UnityEngine::Vector3>)> __UnityEngine_UI_RectangularVertexClipperSizeCheck;
   static_assert(sizeof(RectangularVertexClipper) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::UI::RectangularVertexClipper::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::UI::RectangularVertexClipper::GetCanvasRect
 // Il2CppName: GetCanvasRect
 template<>
@@ -94,7 +88,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::RectangularVertexClipper*), "GetCanvasRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t, c});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::UI::RectangularVertexClipper::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

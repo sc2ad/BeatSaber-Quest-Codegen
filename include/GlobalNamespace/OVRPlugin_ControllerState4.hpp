@@ -296,95 +296,95 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt32 ConnectedControllers
-    uint& dyn_ConnectedControllers();
+    [[deprecated("Use field access instead!")]] uint& dyn_ConnectedControllers();
     // Get instance field reference: public System.UInt32 Buttons
-    uint& dyn_Buttons();
+    [[deprecated("Use field access instead!")]] uint& dyn_Buttons();
     // Get instance field reference: public System.UInt32 Touches
-    uint& dyn_Touches();
+    [[deprecated("Use field access instead!")]] uint& dyn_Touches();
     // Get instance field reference: public System.UInt32 NearTouches
-    uint& dyn_NearTouches();
+    [[deprecated("Use field access instead!")]] uint& dyn_NearTouches();
     // Get instance field reference: public System.Single LIndexTrigger
-    float& dyn_LIndexTrigger();
+    [[deprecated("Use field access instead!")]] float& dyn_LIndexTrigger();
     // Get instance field reference: public System.Single RIndexTrigger
-    float& dyn_RIndexTrigger();
+    [[deprecated("Use field access instead!")]] float& dyn_RIndexTrigger();
     // Get instance field reference: public System.Single LHandTrigger
-    float& dyn_LHandTrigger();
+    [[deprecated("Use field access instead!")]] float& dyn_LHandTrigger();
     // Get instance field reference: public System.Single RHandTrigger
-    float& dyn_RHandTrigger();
+    [[deprecated("Use field access instead!")]] float& dyn_RHandTrigger();
     // Get instance field reference: public OVRPlugin/Vector2f LThumbstick
-    ::GlobalNamespace::OVRPlugin::Vector2f& dyn_LThumbstick();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Vector2f& dyn_LThumbstick();
     // Get instance field reference: public OVRPlugin/Vector2f RThumbstick
-    ::GlobalNamespace::OVRPlugin::Vector2f& dyn_RThumbstick();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Vector2f& dyn_RThumbstick();
     // Get instance field reference: public OVRPlugin/Vector2f LTouchpad
-    ::GlobalNamespace::OVRPlugin::Vector2f& dyn_LTouchpad();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Vector2f& dyn_LTouchpad();
     // Get instance field reference: public OVRPlugin/Vector2f RTouchpad
-    ::GlobalNamespace::OVRPlugin::Vector2f& dyn_RTouchpad();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Vector2f& dyn_RTouchpad();
     // Get instance field reference: public System.Byte LBatteryPercentRemaining
-    uint8_t& dyn_LBatteryPercentRemaining();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_LBatteryPercentRemaining();
     // Get instance field reference: public System.Byte RBatteryPercentRemaining
-    uint8_t& dyn_RBatteryPercentRemaining();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_RBatteryPercentRemaining();
     // Get instance field reference: public System.Byte LRecenterCount
-    uint8_t& dyn_LRecenterCount();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_LRecenterCount();
     // Get instance field reference: public System.Byte RRecenterCount
-    uint8_t& dyn_RRecenterCount();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_RRecenterCount();
     // Get instance field reference: public System.Byte Reserved_27
-    uint8_t& dyn_Reserved_27();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_27();
     // Get instance field reference: public System.Byte Reserved_26
-    uint8_t& dyn_Reserved_26();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_26();
     // Get instance field reference: public System.Byte Reserved_25
-    uint8_t& dyn_Reserved_25();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_25();
     // Get instance field reference: public System.Byte Reserved_24
-    uint8_t& dyn_Reserved_24();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_24();
     // Get instance field reference: public System.Byte Reserved_23
-    uint8_t& dyn_Reserved_23();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_23();
     // Get instance field reference: public System.Byte Reserved_22
-    uint8_t& dyn_Reserved_22();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_22();
     // Get instance field reference: public System.Byte Reserved_21
-    uint8_t& dyn_Reserved_21();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_21();
     // Get instance field reference: public System.Byte Reserved_20
-    uint8_t& dyn_Reserved_20();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_20();
     // Get instance field reference: public System.Byte Reserved_19
-    uint8_t& dyn_Reserved_19();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_19();
     // Get instance field reference: public System.Byte Reserved_18
-    uint8_t& dyn_Reserved_18();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_18();
     // Get instance field reference: public System.Byte Reserved_17
-    uint8_t& dyn_Reserved_17();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_17();
     // Get instance field reference: public System.Byte Reserved_16
-    uint8_t& dyn_Reserved_16();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_16();
     // Get instance field reference: public System.Byte Reserved_15
-    uint8_t& dyn_Reserved_15();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_15();
     // Get instance field reference: public System.Byte Reserved_14
-    uint8_t& dyn_Reserved_14();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_14();
     // Get instance field reference: public System.Byte Reserved_13
-    uint8_t& dyn_Reserved_13();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_13();
     // Get instance field reference: public System.Byte Reserved_12
-    uint8_t& dyn_Reserved_12();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_12();
     // Get instance field reference: public System.Byte Reserved_11
-    uint8_t& dyn_Reserved_11();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_11();
     // Get instance field reference: public System.Byte Reserved_10
-    uint8_t& dyn_Reserved_10();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_10();
     // Get instance field reference: public System.Byte Reserved_09
-    uint8_t& dyn_Reserved_09();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_09();
     // Get instance field reference: public System.Byte Reserved_08
-    uint8_t& dyn_Reserved_08();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_08();
     // Get instance field reference: public System.Byte Reserved_07
-    uint8_t& dyn_Reserved_07();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_07();
     // Get instance field reference: public System.Byte Reserved_06
-    uint8_t& dyn_Reserved_06();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_06();
     // Get instance field reference: public System.Byte Reserved_05
-    uint8_t& dyn_Reserved_05();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_05();
     // Get instance field reference: public System.Byte Reserved_04
-    uint8_t& dyn_Reserved_04();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_04();
     // Get instance field reference: public System.Byte Reserved_03
-    uint8_t& dyn_Reserved_03();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_03();
     // Get instance field reference: public System.Byte Reserved_02
-    uint8_t& dyn_Reserved_02();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_02();
     // Get instance field reference: public System.Byte Reserved_01
-    uint8_t& dyn_Reserved_01();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_01();
     // Get instance field reference: public System.Byte Reserved_00
-    uint8_t& dyn_Reserved_00();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_00();
     // public System.Void .ctor(OVRPlugin/ControllerState2 cs)
-    // Offset: 0x1AD795C
+    // Offset: 0x1B11F44
     ControllerState4(::GlobalNamespace::OVRPlugin::ControllerState2 cs);
   }; // OVRPlugin/ControllerState4
   #pragma pack(pop)

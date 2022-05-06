@@ -87,15 +87,7 @@ namespace GlobalNamespace {
     class $SetModelAsync$d__21;
     // Nested type: ::GlobalNamespace::SteamVR_RenderModel::$FreeRenderModel$d__24
     class $FreeRenderModel$d__24;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public SteamVR_TrackedObject/EIndex index
     // Size: 0x4
     // Offset: 0x18
@@ -104,35 +96,35 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::SteamVR_TrackedObject::EIndex) == 0x4);
     // Padding between fields: index and: modelOverride
     char __padding0[0x4] = {};
-    // [TooltipAttribute] Offset: 0x1208CB0
+    // [TooltipAttribute] Offset: 0x108E6C8
     // public System.String modelOverride
     // Size: 0x8
     // Offset: 0x20
     ::StringW modelOverride;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [TooltipAttribute] Offset: 0x1208CE8
+    // [TooltipAttribute] Offset: 0x108E700
     // public UnityEngine.Shader shader
     // Size: 0x8
     // Offset: 0x28
     ::UnityEngine::Shader* shader;
     // Field size check
     static_assert(sizeof(::UnityEngine::Shader*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1208D20
+    // [TooltipAttribute] Offset: 0x108E738
     // public System.Boolean verbose
     // Size: 0x1
     // Offset: 0x30
     bool verbose;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0x1208D58
+    // [TooltipAttribute] Offset: 0x108E770
     // public System.Boolean createComponents
     // Size: 0x1
     // Offset: 0x31
     bool createComponents;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0x1208D90
+    // [TooltipAttribute] Offset: 0x108E7A8
     // public System.Boolean updateDynamically
     // Size: 0x1
     // Offset: 0x32
@@ -201,110 +193,102 @@ namespace GlobalNamespace {
     // Set static field: static public System.Collections.Hashtable materials
     static void _set_materials(::System::Collections::Hashtable* value);
     // Get instance field reference: public SteamVR_TrackedObject/EIndex index
-    ::GlobalNamespace::SteamVR_TrackedObject::EIndex& dyn_index();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SteamVR_TrackedObject::EIndex& dyn_index();
     // Get instance field reference: public System.String modelOverride
-    ::StringW& dyn_modelOverride();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_modelOverride();
     // Get instance field reference: public UnityEngine.Shader shader
-    ::UnityEngine::Shader*& dyn_shader();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Shader*& dyn_shader();
     // Get instance field reference: public System.Boolean verbose
-    bool& dyn_verbose();
+    [[deprecated("Use field access instead!")]] bool& dyn_verbose();
     // Get instance field reference: public System.Boolean createComponents
-    bool& dyn_createComponents();
+    [[deprecated("Use field access instead!")]] bool& dyn_createComponents();
     // Get instance field reference: public System.Boolean updateDynamically
-    bool& dyn_updateDynamically();
+    [[deprecated("Use field access instead!")]] bool& dyn_updateDynamically();
     // Get instance field reference: public Valve.VR.RenderModel_ControllerMode_State_t controllerModeState
-    ::Valve::VR::RenderModel_ControllerMode_State_t& dyn_controllerModeState();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::RenderModel_ControllerMode_State_t& dyn_controllerModeState();
     // Get instance field reference: private System.String <renderModelName>k__BackingField
-    ::StringW& dyn_$renderModelName$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$renderModelName$k__BackingField();
     // Get instance field reference: private SteamVR_Events/Action deviceConnectedAction
-    ::GlobalNamespace::SteamVR_Events::Action*& dyn_deviceConnectedAction();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SteamVR_Events::Action*& dyn_deviceConnectedAction();
     // Get instance field reference: private SteamVR_Events/Action hideRenderModelsAction
-    ::GlobalNamespace::SteamVR_Events::Action*& dyn_hideRenderModelsAction();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SteamVR_Events::Action*& dyn_hideRenderModelsAction();
     // Get instance field reference: private SteamVR_Events/Action modelSkinSettingsHaveChangedAction
-    ::GlobalNamespace::SteamVR_Events::Action*& dyn_modelSkinSettingsHaveChangedAction();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SteamVR_Events::Action*& dyn_modelSkinSettingsHaveChangedAction();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.String> nameCache
-    ::System::Collections::Generic::Dictionary_2<int, ::StringW>*& dyn_nameCache();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::StringW>*& dyn_nameCache();
     // public System.String get_renderModelName()
-    // Offset: 0x1876924
+    // Offset: 0x18B0234
     ::StringW get_renderModelName();
     // private System.Void set_renderModelName(System.String value)
-    // Offset: 0x187692C
+    // Offset: 0x18B023C
     void set_renderModelName(::StringW value);
-    // private System.Void OnModelSkinSettingsHaveChanged(Valve.VR.VREvent_t vrEvent)
-    // Offset: 0x1876934
-    void OnModelSkinSettingsHaveChanged(::Valve::VR::VREvent_t vrEvent);
-    // private System.Void OnHideRenderModels(System.Boolean hidden)
-    // Offset: 0x1876B58
-    void OnHideRenderModels(bool hidden);
-    // private System.Void OnDeviceConnected(System.Int32 i, System.Boolean connected)
-    // Offset: 0x1876C8C
-    void OnDeviceConnected(int i, bool connected);
-    // public System.Void UpdateModel()
-    // Offset: 0x18769A4
-    void UpdateModel();
-    // private System.Collections.IEnumerator SetModelAsync(System.String renderModelName)
-    // Offset: 0x1876CA4
-    ::System::Collections::IEnumerator* SetModelAsync(::StringW renderModelName);
-    // private System.Boolean SetModel(System.String renderModelName)
-    // Offset: 0x1876D4C
-    bool SetModel(::StringW renderModelName);
-    // private SteamVR_RenderModel/RenderModel LoadRenderModel(Valve.VR.CVRRenderModels renderModels, System.String renderModelName, System.String baseName)
-    // Offset: 0x1877FA0
-    ::GlobalNamespace::SteamVR_RenderModel::RenderModel* LoadRenderModel(::Valve::VR::CVRRenderModels* renderModels, ::StringW renderModelName, ::StringW baseName);
-    // private System.Collections.IEnumerator FreeRenderModel(System.IntPtr pRenderModel)
-    // Offset: 0x1878E94
-    ::System::Collections::IEnumerator* FreeRenderModel(::System::IntPtr pRenderModel);
-    // public UnityEngine.Transform FindComponent(System.String componentName)
-    // Offset: 0x1878F68
-    ::UnityEngine::Transform* FindComponent(::StringW componentName);
-    // private System.Void StripMesh(UnityEngine.GameObject go)
-    // Offset: 0x1877204
-    void StripMesh(::UnityEngine::GameObject* go);
-    // private System.Boolean LoadComponents(SteamVR_RenderModel/RenderModelInterfaceHolder holder, System.String renderModelName)
-    // Offset: 0x1877348
-    bool LoadComponents(::GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder* holder, ::StringW renderModelName);
-    // private System.Void OnEnable()
-    // Offset: 0x1879144
-    void OnEnable();
-    // private System.Void OnDisable()
-    // Offset: 0x187926C
-    void OnDisable();
-    // private System.Void Update()
-    // Offset: 0x18792D0
-    void Update();
-    // public System.Void UpdateComponents(Valve.VR.CVRRenderModels renderModels)
-    // Offset: 0x1877B5C
-    void UpdateComponents(::Valve::VR::CVRRenderModels* renderModels);
-    // public System.Void SetDeviceIndex(System.Int32 index)
-    // Offset: 0x1879354
-    void SetDeviceIndex(int index);
-    // static private System.Void Sleep()
-    // Offset: 0x1878A84
-    static void Sleep();
-    // private Valve.VR.RenderModel_t MarshalRenderModel(System.IntPtr pRenderModel)
-    // Offset: 0x1878A90
-    ::Valve::VR::RenderModel_t MarshalRenderModel(::System::IntPtr pRenderModel);
-    // private Valve.VR.RenderModel_TextureMap_t MarshalRenderModel_TextureMap(System.IntPtr pRenderModel)
-    // Offset: 0x1878C98
-    ::Valve::VR::RenderModel_TextureMap_t MarshalRenderModel_TextureMap(::System::IntPtr pRenderModel);
     // private System.Void .ctor()
-    // Offset: 0x1879004
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18B2914
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_RenderModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_RenderModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_RenderModel*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x18793D8
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x18B2CE8
     static void _cctor();
+    // private System.Void OnModelSkinSettingsHaveChanged(Valve.VR.VREvent_t vrEvent)
+    // Offset: 0x18B0244
+    void OnModelSkinSettingsHaveChanged(::Valve::VR::VREvent_t vrEvent);
+    // private System.Void OnHideRenderModels(System.Boolean hidden)
+    // Offset: 0x18B0468
+    void OnHideRenderModels(bool hidden);
+    // private System.Void OnDeviceConnected(System.Int32 i, System.Boolean connected)
+    // Offset: 0x18B059C
+    void OnDeviceConnected(int i, bool connected);
+    // public System.Void UpdateModel()
+    // Offset: 0x18B02B4
+    void UpdateModel();
+    // private System.Collections.IEnumerator SetModelAsync(System.String renderModelName)
+    // Offset: 0x18B05B4
+    ::System::Collections::IEnumerator* SetModelAsync(::StringW renderModelName);
+    // private System.Boolean SetModel(System.String renderModelName)
+    // Offset: 0x18B065C
+    bool SetModel(::StringW renderModelName);
+    // private SteamVR_RenderModel/RenderModel LoadRenderModel(Valve.VR.CVRRenderModels renderModels, System.String renderModelName, System.String baseName)
+    // Offset: 0x18B18B0
+    ::GlobalNamespace::SteamVR_RenderModel::RenderModel* LoadRenderModel(::Valve::VR::CVRRenderModels* renderModels, ::StringW renderModelName, ::StringW baseName);
+    // private System.Collections.IEnumerator FreeRenderModel(System.IntPtr pRenderModel)
+    // Offset: 0x18B27A4
+    ::System::Collections::IEnumerator* FreeRenderModel(::System::IntPtr pRenderModel);
+    // public UnityEngine.Transform FindComponent(System.String componentName)
+    // Offset: 0x18B2878
+    ::UnityEngine::Transform* FindComponent(::StringW componentName);
+    // private System.Void StripMesh(UnityEngine.GameObject go)
+    // Offset: 0x18B0B14
+    void StripMesh(::UnityEngine::GameObject* go);
+    // private System.Boolean LoadComponents(SteamVR_RenderModel/RenderModelInterfaceHolder holder, System.String renderModelName)
+    // Offset: 0x18B0C58
+    bool LoadComponents(::GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder* holder, ::StringW renderModelName);
+    // private System.Void OnEnable()
+    // Offset: 0x18B2A54
+    void OnEnable();
+    // private System.Void OnDisable()
+    // Offset: 0x18B2B7C
+    void OnDisable();
+    // private System.Void Update()
+    // Offset: 0x18B2BE0
+    void Update();
+    // public System.Void UpdateComponents(Valve.VR.CVRRenderModels renderModels)
+    // Offset: 0x18B146C
+    void UpdateComponents(::Valve::VR::CVRRenderModels* renderModels);
+    // public System.Void SetDeviceIndex(System.Int32 index)
+    // Offset: 0x18B2C64
+    void SetDeviceIndex(int index);
+    // static private System.Void Sleep()
+    // Offset: 0x18B2394
+    static void Sleep();
+    // private Valve.VR.RenderModel_t MarshalRenderModel(System.IntPtr pRenderModel)
+    // Offset: 0x18B23A0
+    ::Valve::VR::RenderModel_t MarshalRenderModel(::System::IntPtr pRenderModel);
+    // private Valve.VR.RenderModel_TextureMap_t MarshalRenderModel_TextureMap(System.IntPtr pRenderModel)
+    // Offset: 0x18B25A8
+    ::Valve::VR::RenderModel_TextureMap_t MarshalRenderModel_TextureMap(::System::IntPtr pRenderModel);
   }; // SteamVR_RenderModel
   #pragma pack(pop)
   static check_size<sizeof(SteamVR_RenderModel), 88 + sizeof(::System::Collections::Generic::Dictionary_2<int, ::StringW>*)> __GlobalNamespace_SteamVR_RenderModelSizeCheck;
@@ -326,6 +310,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "set_renderModelName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_RenderModel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_RenderModel::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SteamVR_RenderModel::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_RenderModel::OnModelSkinSettingsHaveChanged
@@ -496,17 +492,5 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR
   static const MethodInfo* get() {
     static auto* pRenderModel = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "MarshalRenderModel_TextureMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pRenderModel});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::SteamVR_RenderModel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::SteamVR_RenderModel::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SteamVR_RenderModel::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

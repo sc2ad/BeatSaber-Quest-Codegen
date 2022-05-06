@@ -66,7 +66,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.FullScreenMode Windowed
     static void _set_Windowed(::UnityEngine::FullScreenMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.FullScreenMode
   #pragma pack(pop)
   static check_size<sizeof(FullScreenMode), 0 + sizeof(int)> __UnityEngine_FullScreenModeSizeCheck;

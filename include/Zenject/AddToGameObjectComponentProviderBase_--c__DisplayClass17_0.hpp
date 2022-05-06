@@ -47,15 +47,7 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Zenject.AddToGameObjectComponentProviderBase <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -96,41 +88,43 @@ namespace Zenject {
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
     public:
     // Get instance field reference: public Zenject.AddToGameObjectComponentProviderBase <>4__this
-    ::Zenject::AddToGameObjectComponentProviderBase*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::Zenject::AddToGameObjectComponentProviderBase*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.Generic.List`1<Zenject.TypeValuePair> args
-    ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& dyn_args();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& dyn_args();
     // Get instance field reference: public System.Object instance
-    ::Il2CppObject*& dyn_instance();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_instance();
     // Get instance field reference: public Zenject.InjectContext context
-    ::Zenject::InjectContext*& dyn_context();
+    [[deprecated("Use field access instead!")]] ::Zenject::InjectContext*& dyn_context();
     // Get instance field reference: public System.Boolean wasActive
-    bool& dyn_wasActive();
+    [[deprecated("Use field access instead!")]] bool& dyn_wasActive();
     // Get instance field reference: public UnityEngine.GameObject gameObj
-    ::UnityEngine::GameObject*& dyn_gameObj();
-    // System.Void <GetAllInstancesWithInjectSplit>b__0()
-    // Offset: 0x1730E5C
-    void $GetAllInstancesWithInjectSplit$b__0();
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x173101C
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1731078
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_gameObj();
     // public System.Void .ctor()
-    // Offset: 0x1730E54
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1769764
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0*, creationType>()));
     }
+    // System.Void <GetAllInstancesWithInjectSplit>b__0()
+    // Offset: 0x176976C
+    void $GetAllInstancesWithInjectSplit$b__0();
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x176992C
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1769988
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.AddToGameObjectComponentProviderBase/Zenject.<>c__DisplayClass17_0
   #pragma pack(pop)
   static check_size<sizeof(AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0), 56 + sizeof(::UnityEngine::GameObject*)> __Zenject_AddToGameObjectComponentProviderBase_$$c__DisplayClass17_0SizeCheck;
   static_assert(sizeof(AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0::$GetAllInstancesWithInjectSplit$b__0
 // Il2CppName: <GetAllInstancesWithInjectSplit>b__0
 template<>
@@ -156,7 +150,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

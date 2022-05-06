@@ -51,15 +51,7 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class SerializationEvents : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.List`1<System.Reflection.MethodInfo> m_OnSerializingMethods
     // Size: 0x8
     // Offset: 0x10
@@ -86,40 +78,40 @@ namespace System::Runtime::Serialization {
     static_assert(sizeof(::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*) == 0x8);
     public:
     // Get instance field reference: private System.Collections.Generic.List`1<System.Reflection.MethodInfo> m_OnSerializingMethods
-    ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*& dyn_m_OnSerializingMethods();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*& dyn_m_OnSerializingMethods();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Reflection.MethodInfo> m_OnSerializedMethods
-    ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*& dyn_m_OnSerializedMethods();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*& dyn_m_OnSerializedMethods();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Reflection.MethodInfo> m_OnDeserializingMethods
-    ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*& dyn_m_OnDeserializingMethods();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*& dyn_m_OnDeserializingMethods();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Reflection.MethodInfo> m_OnDeserializedMethods
-    ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*& dyn_m_OnDeserializedMethods();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*& dyn_m_OnDeserializedMethods();
     // System.Boolean get_HasOnSerializingEvents()
-    // Offset: 0x16072B0
+    // Offset: 0x163CBC0
     bool get_HasOnSerializingEvents();
     // System.Void .ctor(System.Type t)
-    // Offset: 0x16071A4
+    // Offset: 0x163CAB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerializationEvents* New_ctor(::System::Type* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::SerializationEvents::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationEvents*, creationType>(t)));
     }
     // private System.Collections.Generic.List`1<System.Reflection.MethodInfo> GetMethodsWithAttribute(System.Type attribute, System.Type t)
-    // Offset: 0x1606FC0
+    // Offset: 0x163C8D0
     ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* GetMethodsWithAttribute(::System::Type* attribute, ::System::Type* t);
     // System.Void InvokeOnSerializing(System.Object obj, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x16072D0
+    // Offset: 0x163CBE0
     void InvokeOnSerializing(::Il2CppObject* obj, ::System::Runtime::Serialization::StreamingContext context);
     // System.Void InvokeOnDeserializing(System.Object obj, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1605BC0
+    // Offset: 0x163B4D0
     void InvokeOnDeserializing(::Il2CppObject* obj, ::System::Runtime::Serialization::StreamingContext context);
     // System.Void InvokeOnDeserialized(System.Object obj, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x16058F4
+    // Offset: 0x163B204
     void InvokeOnDeserialized(::Il2CppObject* obj, ::System::Runtime::Serialization::StreamingContext context);
     // System.Runtime.Serialization.SerializationEventHandler AddOnSerialized(System.Object obj, System.Runtime.Serialization.SerializationEventHandler handler)
-    // Offset: 0x1607500
+    // Offset: 0x163CE10
     ::System::Runtime::Serialization::SerializationEventHandler* AddOnSerialized(::Il2CppObject* obj, ::System::Runtime::Serialization::SerializationEventHandler* handler);
     // System.Runtime.Serialization.SerializationEventHandler AddOnDeserialized(System.Object obj, System.Runtime.Serialization.SerializationEventHandler handler)
-    // Offset: 0x1605650
+    // Offset: 0x163AF60
     ::System::Runtime::Serialization::SerializationEventHandler* AddOnDeserialized(::Il2CppObject* obj, ::System::Runtime::Serialization::SerializationEventHandler* handler);
   }; // System.Runtime.Serialization.SerializationEvents
   #pragma pack(pop)

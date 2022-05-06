@@ -87,26 +87,26 @@ namespace LIV::SDK::Unity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public LIV.SDK.Unity.SDKMatrix4x4 projectionMatrix
-    ::LIV::SDK::Unity::SDKMatrix4x4& dyn_projectionMatrix();
+    [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKMatrix4x4& dyn_projectionMatrix();
     // Get instance field reference: public LIV.SDK.Unity.SDKVector3 localPosition
-    ::LIV::SDK::Unity::SDKVector3& dyn_localPosition();
+    [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKVector3& dyn_localPosition();
     // Get instance field reference: public LIV.SDK.Unity.SDKQuaternion localRotation
-    ::LIV::SDK::Unity::SDKQuaternion& dyn_localRotation();
+    [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKQuaternion& dyn_localRotation();
     // Get instance field reference: public System.Single verticalFieldOfView
-    float& dyn_verticalFieldOfView();
+    [[deprecated("Use field access instead!")]] float& dyn_verticalFieldOfView();
     // Get instance field reference: public System.Single nearClipPlane
-    float& dyn_nearClipPlane();
+    [[deprecated("Use field access instead!")]] float& dyn_nearClipPlane();
     // Get instance field reference: public System.Single farClipPlane
-    float& dyn_farClipPlane();
+    [[deprecated("Use field access instead!")]] float& dyn_farClipPlane();
     // Get instance field reference: public System.Int32 unused0
-    int& dyn_unused0();
+    [[deprecated("Use field access instead!")]] int& dyn_unused0();
     // Get instance field reference: public System.Int32 unused1
-    int& dyn_unused1();
+    [[deprecated("Use field access instead!")]] int& dyn_unused1();
     // static public LIV.SDK.Unity.SDKPose get_empty()
-    // Offset: 0x29FBEDC
+    // Offset: 0x2A5294C
     static ::LIV::SDK::Unity::SDKPose get_empty();
     // public override System.String ToString()
-    // Offset: 0x29FCE50
+    // Offset: 0x2A538C0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

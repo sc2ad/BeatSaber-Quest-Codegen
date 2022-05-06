@@ -46,9 +46,9 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public Valve.VR.HmdVector2_t vTopLeft
-    ::Valve::VR::HmdVector2_t& dyn_vTopLeft();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::HmdVector2_t& dyn_vTopLeft();
     // Get instance field reference: public Valve.VR.HmdVector2_t vBottomRight
-    ::Valve::VR::HmdVector2_t& dyn_vBottomRight();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::HmdVector2_t& dyn_vBottomRight();
   }; // Valve.VR.HmdRect2_t
   #pragma pack(pop)
   static check_size<sizeof(HmdRect2_t), 8 + sizeof(::Valve::VR::HmdVector2_t)> __Valve_VR_HmdRect2_tSizeCheck;

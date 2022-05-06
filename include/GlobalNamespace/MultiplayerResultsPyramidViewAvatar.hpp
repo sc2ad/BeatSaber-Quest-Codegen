@@ -85,16 +85,8 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Factory
     class Factory;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [HeaderAttribute] Offset: 0x12551A0
+    // [HeaderAttribute] Offset: 0x10D9D84
     // private UnityEngine.Playables.PlayableDirector _badgeDirector
     // Size: 0x8
     // Offset: 0x18
@@ -113,7 +105,7 @@ namespace GlobalNamespace {
     ::StringW ghostSecondTrackName;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [HeaderAttribute] Offset: 0x125520C
+    // [HeaderAttribute] Offset: 0x10D9DF0
     // private UnityEngine.Transform _standWithAvatarTransform
     // Size: 0x8
     // Offset: 0x30
@@ -134,7 +126,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // Padding between fields: localPlayerColor and: positionText
     char __padding5[0x4] = {};
-    // [HeaderAttribute] Offset: 0x1255278
+    // [HeaderAttribute] Offset: 0x10D9E5C
     // private TMPro.TextMeshProUGUI _positionText
     // Size: 0x8
     // Offset: 0x50
@@ -153,7 +145,7 @@ namespace GlobalNamespace {
     ::HMUI::ImageView* nameBackground;
     // Field size check
     static_assert(sizeof(::HMUI::ImageView*) == 0x8);
-    // [HeaderAttribute] Offset: 0x12552E4
+    // [HeaderAttribute] Offset: 0x10D9EC8
     // private UnityEngine.CanvasGroup _badgeCanvas
     // Size: 0x8
     // Offset: 0x68
@@ -172,7 +164,7 @@ namespace GlobalNamespace {
     ::ArrayW<::HMUI::ImageView*> badgeImages;
     // Field size check
     static_assert(sizeof(::ArrayW<::HMUI::ImageView*>) == 0x8);
-    // [HeaderAttribute] Offset: 0x1255350
+    // [HeaderAttribute] Offset: 0x10D9F34
     // private TMPro.TextMeshProUGUI _badgeSubtitleText
     // Size: 0x8
     // Offset: 0x80
@@ -185,7 +177,7 @@ namespace GlobalNamespace {
     ::UnityEngine::CanvasGroup* badgeSubtitleCanvas;
     // Field size check
     static_assert(sizeof(::UnityEngine::CanvasGroup*) == 0x8);
-    // [HeaderAttribute] Offset: 0x12553AC
+    // [HeaderAttribute] Offset: 0x10D9F90
     // private GhostDuplicationEffect _ghostDuplicationEffect
     // Size: 0x8
     // Offset: 0x90
@@ -208,7 +200,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::GhostDuplicationEffect::GhostEffectParams) == 0x45);
     // Padding between fields: ghostReceive and: trophyImage
     char __padding16[0x3] = {};
-    // [HeaderAttribute] Offset: 0x1255418
+    // [HeaderAttribute] Offset: 0x10D9FFC
     // private HMUI.ImageView _trophyImage
     // Size: 0x8
     // Offset: 0x128
@@ -245,14 +237,14 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* personalBestVisual;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0x12554B4
+    // [InjectAttribute] Offset: 0x10DA098
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x160
     ::GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x12554C4
+    // [InjectAttribute] Offset: 0x10DA0A8
     // private readonly IDifficultyBeatmap _difficultyBeatmap
     // Size: 0x8
     // Offset: 0x168
@@ -315,7 +307,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // Padding between fields: originalBadgeLocalPos and: connectedPlayer
     char __padding33[0x4] = {};
-    // [InjectAttribute] Offset: 0x12554D4
+    // [InjectAttribute] Offset: 0x10DA0B8
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x1C0
@@ -326,100 +318,94 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Playables.PlayableDirector _badgeDirector
-    ::UnityEngine::Playables::PlayableDirector*& dyn__badgeDirector();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Playables::PlayableDirector*& dyn__badgeDirector();
     // Get instance field reference: private System.String _ghostFirstTrackName
-    ::StringW& dyn__ghostFirstTrackName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__ghostFirstTrackName();
     // Get instance field reference: private System.String _ghostSecondTrackName
-    ::StringW& dyn__ghostSecondTrackName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__ghostSecondTrackName();
     // Get instance field reference: private UnityEngine.Transform _standWithAvatarTransform
-    ::UnityEngine::Transform*& dyn__standWithAvatarTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__standWithAvatarTransform();
     // Get instance field reference: private System.Single _perPositionRotation
-    float& dyn__perPositionRotation();
+    [[deprecated("Use field access instead!")]] float& dyn__perPositionRotation();
     // Get instance field reference: private UnityEngine.Color _localPlayerColor
-    ::UnityEngine::Color& dyn__localPlayerColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__localPlayerColor();
     // Get instance field reference: private TMPro.TextMeshProUGUI _positionText
-    ::TMPro::TextMeshProUGUI*& dyn__positionText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__positionText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _nameText
-    ::TMPro::TextMeshProUGUI*& dyn__nameText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__nameText();
     // Get instance field reference: private HMUI.ImageView _nameBackground
-    ::HMUI::ImageView*& dyn__nameBackground();
+    [[deprecated("Use field access instead!")]] ::HMUI::ImageView*& dyn__nameBackground();
     // Get instance field reference: private UnityEngine.CanvasGroup _badgeCanvas
-    ::UnityEngine::CanvasGroup*& dyn__badgeCanvas();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::CanvasGroup*& dyn__badgeCanvas();
     // Get instance field reference: private TMPro.TextMeshProUGUI[] _badgeTitles
-    ::ArrayW<::TMPro::TextMeshProUGUI*>& dyn__badgeTitles();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::TMPro::TextMeshProUGUI*>& dyn__badgeTitles();
     // Get instance field reference: private HMUI.ImageView[] _badgeImages
-    ::ArrayW<::HMUI::ImageView*>& dyn__badgeImages();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::HMUI::ImageView*>& dyn__badgeImages();
     // Get instance field reference: private TMPro.TextMeshProUGUI _badgeSubtitleText
-    ::TMPro::TextMeshProUGUI*& dyn__badgeSubtitleText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__badgeSubtitleText();
     // Get instance field reference: private UnityEngine.CanvasGroup _badgeSubtitleCanvas
-    ::UnityEngine::CanvasGroup*& dyn__badgeSubtitleCanvas();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::CanvasGroup*& dyn__badgeSubtitleCanvas();
     // Get instance field reference: private GhostDuplicationEffect _ghostDuplicationEffect
-    ::GlobalNamespace::GhostDuplicationEffect*& dyn__ghostDuplicationEffect();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GhostDuplicationEffect*& dyn__ghostDuplicationEffect();
     // Get instance field reference: private GhostDuplicationEffect/GhostEffectParams _ghostAppear
-    ::GlobalNamespace::GhostDuplicationEffect::GhostEffectParams& dyn__ghostAppear();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GhostDuplicationEffect::GhostEffectParams& dyn__ghostAppear();
     // Get instance field reference: private GhostDuplicationEffect/GhostEffectParams _ghostReceive
-    ::GlobalNamespace::GhostDuplicationEffect::GhostEffectParams& dyn__ghostReceive();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GhostDuplicationEffect::GhostEffectParams& dyn__ghostReceive();
     // Get instance field reference: private HMUI.ImageView _trophyImage
-    ::HMUI::ImageView*& dyn__trophyImage();
+    [[deprecated("Use field access instead!")]] ::HMUI::ImageView*& dyn__trophyImage();
     // Get instance field reference: private UnityEngine.Sprite _firstPlaceTrophy
-    ::UnityEngine::Sprite*& dyn__firstPlaceTrophy();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__firstPlaceTrophy();
     // Get instance field reference: private UnityEngine.Sprite _secondPlaceTrophy
-    ::UnityEngine::Sprite*& dyn__secondPlaceTrophy();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__secondPlaceTrophy();
     // Get instance field reference: private UnityEngine.Sprite _thirdPlaceTrophy
-    ::UnityEngine::Sprite*& dyn__thirdPlaceTrophy();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__thirdPlaceTrophy();
     // Get instance field reference: private UnityEngine.Color _firstPlaceColor
-    ::UnityEngine::Color& dyn__firstPlaceColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__firstPlaceColor();
     // Get instance field reference: private UnityEngine.GameObject _personalBestVisual
-    ::UnityEngine::GameObject*& dyn__personalBestVisual();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__personalBestVisual();
     // Get instance field reference: private readonly PlayerDataModel _playerDataModel
-    ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
     // Get instance field reference: private readonly IDifficultyBeatmap _difficultyBeatmap
-    ::GlobalNamespace::IDifficultyBeatmap*& dyn__difficultyBeatmap();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IDifficultyBeatmap*& dyn__difficultyBeatmap();
     // Get instance field reference: private Tweening.Vector3Tween _riseTween
-    ::Tweening::Vector3Tween*& dyn__riseTween();
+    [[deprecated("Use field access instead!")]] ::Tweening::Vector3Tween*& dyn__riseTween();
     // Get instance field reference: private Tweening.Vector3Tween _avatarRiseTween
-    ::Tweening::Vector3Tween*& dyn__avatarRiseTween();
+    [[deprecated("Use field access instead!")]] ::Tweening::Vector3Tween*& dyn__avatarRiseTween();
     // Get instance field reference: private Tweening.Vector3Tween _badgePositionTween
-    ::Tweening::Vector3Tween*& dyn__badgePositionTween();
+    [[deprecated("Use field access instead!")]] ::Tweening::Vector3Tween*& dyn__badgePositionTween();
     // Get instance field reference: private Tweening.FloatTween _badgeOpacityTween
-    ::Tweening::FloatTween*& dyn__badgeOpacityTween();
+    [[deprecated("Use field access instead!")]] ::Tweening::FloatTween*& dyn__badgeOpacityTween();
     // Get instance field reference: private Tweening.FloatTween _nameOpacityTween
-    ::Tweening::FloatTween*& dyn__nameOpacityTween();
+    [[deprecated("Use field access instead!")]] ::Tweening::FloatTween*& dyn__nameOpacityTween();
     // Get instance field reference: private Tweening.Vector3Tween _namePositionTween
-    ::Tweening::Vector3Tween*& dyn__namePositionTween();
+    [[deprecated("Use field access instead!")]] ::Tweening::Vector3Tween*& dyn__namePositionTween();
     // Get instance field reference: private Tweening.ColorTween _localGlowTween
-    ::Tweening::ColorTween*& dyn__localGlowTween();
+    [[deprecated("Use field access instead!")]] ::Tweening::ColorTween*& dyn__localGlowTween();
     // Get instance field reference: private Tweening.Vector3Tween _titleMakingSpaceForBadgeTween
-    ::Tweening::Vector3Tween*& dyn__titleMakingSpaceForBadgeTween();
+    [[deprecated("Use field access instead!")]] ::Tweening::Vector3Tween*& dyn__titleMakingSpaceForBadgeTween();
     // Get instance field reference: private UnityEngine.Vector3 _originalBadgeLocalPos
-    ::UnityEngine::Vector3& dyn__originalBadgeLocalPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__originalBadgeLocalPos();
     // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
-    ::GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // public UnityEngine.Playables.PlayableDirector get_badgeDirector()
-    // Offset: 0x13A6730
+    // Offset: 0x13A2BDC
     ::UnityEngine::Playables::PlayableDirector* get_badgeDirector();
-    // protected System.Void Awake()
-    // Offset: 0x13A6738
-    void Awake();
-    // public System.Void Setup(MultiplayerPlayerResultsData resultData, System.Int32 position, System.Int32 playerCount)
-    // Offset: 0x13A61DC
-    void Setup(::GlobalNamespace::MultiplayerPlayerResultsData* resultData, int position, int playerCount);
-    // public System.Void SetupBadgeTimeline(UnityEngine.Transform startTransform, UnityEngine.Transform midTransform)
-    // Offset: 0x13A279C
-    void SetupBadgeTimeline(::UnityEngine::Transform* startTransform, ::UnityEngine::Transform* midTransform);
     // public System.Void .ctor()
-    // Offset: 0x13A6758
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13A2C04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerResultsPyramidViewAvatar* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsPyramidViewAvatar*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x13A2BE4
+    void Awake();
+    // public System.Void Setup(MultiplayerPlayerResultsData resultData, System.Int32 position, System.Int32 playerCount)
+    // Offset: 0x13A2688
+    void Setup(::GlobalNamespace::MultiplayerPlayerResultsData* resultData, int position, int playerCount);
+    // public System.Void SetupBadgeTimeline(UnityEngine.Transform startTransform, UnityEngine.Transform midTransform)
+    // Offset: 0x139EC48
+    void SetupBadgeTimeline(::UnityEngine::Transform* startTransform, ::UnityEngine::Transform* midTransform);
   }; // MultiplayerResultsPyramidViewAvatar
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerResultsPyramidViewAvatar), 448 + sizeof(::GlobalNamespace::IConnectedPlayer*)> __GlobalNamespace_MultiplayerResultsPyramidViewAvatarSizeCheck;
@@ -434,6 +420,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsPyramidViewAvatar*), "get_badgeDirector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsPyramidViewAvatar::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Awake
 // Il2CppName: Awake
 template<>
@@ -463,7 +453,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsPyramidViewAvatar*), "SetupBadgeTimeline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{startTransform, midTransform});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsPyramidViewAvatar::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -79,15 +79,7 @@ namespace HoudiniEngineUnity {
     class HEU_ColliderInfo;
     // Nested type: ::HoudiniEngineUnity::HEU_GenerateGeoCache::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <AssetID>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -398,177 +390,175 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::HoudiniEngineUnity::HEU_MeshIndexFormat*) == 0x8);
     public:
     // Get instance field reference: private System.Int32 <AssetID>k__BackingField
-    int& dyn_$AssetID$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$AssetID$k__BackingField();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_GeoInfo _geoInfo
-    ::HoudiniEngineUnity::HAPI_GeoInfo& dyn__geoInfo();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_GeoInfo& dyn__geoInfo();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_PartInfo _partInfo
-    ::HoudiniEngineUnity::HAPI_PartInfo& dyn__partInfo();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_PartInfo& dyn__partInfo();
     // Get instance field reference: public System.String _partName
-    ::StringW& dyn__partName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__partName();
     // Get instance field reference: public System.Int32[] _vertexList
-    ::ArrayW<int>& dyn__vertexList();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__vertexList();
     // Get instance field reference: public System.Int32[] _faceCounts
-    ::ArrayW<int>& dyn__faceCounts();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__faceCounts();
     // Get instance field reference: public System.Int32[] _houdiniMaterialIDs
-    ::ArrayW<int>& dyn__houdiniMaterialIDs();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__houdiniMaterialIDs();
     // Get instance field reference: public System.Boolean _singleFaceUnityMaterial
-    bool& dyn__singleFaceUnityMaterial();
+    [[deprecated("Use field access instead!")]] bool& dyn__singleFaceUnityMaterial();
     // Get instance field reference: public System.Boolean _singleFaceHoudiniMaterial
-    bool& dyn__singleFaceHoudiniMaterial();
+    [[deprecated("Use field access instead!")]] bool& dyn__singleFaceHoudiniMaterial();
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,HoudiniEngineUnity.HEU_UnityMaterialInfo> _unityMaterialInfos
-    ::System::Collections::Generic::Dictionary_2<int, ::HoudiniEngineUnity::HEU_UnityMaterialInfo*>*& dyn__unityMaterialInfos();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::HoudiniEngineUnity::HEU_UnityMaterialInfo*>*& dyn__unityMaterialInfos();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AttributeInfo _unityMaterialAttrInfo
-    ::HoudiniEngineUnity::HAPI_AttributeInfo& dyn__unityMaterialAttrInfo();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_AttributeInfo& dyn__unityMaterialAttrInfo();
     // Get instance field reference: public System.Int32[] _unityMaterialAttrName
-    ::ArrayW<int>& dyn__unityMaterialAttrName();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__unityMaterialAttrName();
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,System.String> _unityMaterialAttrStringsMap
-    ::System::Collections::Generic::Dictionary_2<int, ::StringW>*& dyn__unityMaterialAttrStringsMap();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::StringW>*& dyn__unityMaterialAttrStringsMap();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AttributeInfo _substanceMaterialAttrNameInfo
-    ::HoudiniEngineUnity::HAPI_AttributeInfo& dyn__substanceMaterialAttrNameInfo();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_AttributeInfo& dyn__substanceMaterialAttrNameInfo();
     // Get instance field reference: public System.Int32[] _substanceMaterialAttrName
-    ::ArrayW<int>& dyn__substanceMaterialAttrName();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__substanceMaterialAttrName();
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,System.String> _substanceMaterialAttrStringsMap
-    ::System::Collections::Generic::Dictionary_2<int, ::StringW>*& dyn__substanceMaterialAttrStringsMap();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::StringW>*& dyn__substanceMaterialAttrStringsMap();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AttributeInfo _substanceMaterialAttrIndexInfo
-    ::HoudiniEngineUnity::HAPI_AttributeInfo& dyn__substanceMaterialAttrIndexInfo();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_AttributeInfo& dyn__substanceMaterialAttrIndexInfo();
     // Get instance field reference: public System.Int32[] _substanceMaterialAttrIndex
-    ::ArrayW<int>& dyn__substanceMaterialAttrIndex();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__substanceMaterialAttrIndex();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_MaterialData> _inUseMaterials
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>*& dyn__inUseMaterials();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>*& dyn__inUseMaterials();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AttributeInfo _posAttrInfo
-    ::HoudiniEngineUnity::HAPI_AttributeInfo& dyn__posAttrInfo();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_AttributeInfo& dyn__posAttrInfo();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AttributeInfo[] _uvsAttrInfo
-    ::ArrayW<::HoudiniEngineUnity::HAPI_AttributeInfo>& dyn__uvsAttrInfo();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::HoudiniEngineUnity::HAPI_AttributeInfo>& dyn__uvsAttrInfo();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AttributeInfo _normalAttrInfo
-    ::HoudiniEngineUnity::HAPI_AttributeInfo& dyn__normalAttrInfo();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_AttributeInfo& dyn__normalAttrInfo();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AttributeInfo _colorAttrInfo
-    ::HoudiniEngineUnity::HAPI_AttributeInfo& dyn__colorAttrInfo();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_AttributeInfo& dyn__colorAttrInfo();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AttributeInfo _alphaAttrInfo
-    ::HoudiniEngineUnity::HAPI_AttributeInfo& dyn__alphaAttrInfo();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_AttributeInfo& dyn__alphaAttrInfo();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AttributeInfo _tangentAttrInfo
-    ::HoudiniEngineUnity::HAPI_AttributeInfo& dyn__tangentAttrInfo();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_AttributeInfo& dyn__tangentAttrInfo();
     // Get instance field reference: public System.Single[] _posAttr
-    ::ArrayW<float>& dyn__posAttr();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn__posAttr();
     // Get instance field reference: public System.Single[][] _uvsAttr
-    ::ArrayW<::ArrayW<float>>& dyn__uvsAttr();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::ArrayW<float>>& dyn__uvsAttr();
     // Get instance field reference: public System.Single[] _normalAttr
-    ::ArrayW<float>& dyn__normalAttr();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn__normalAttr();
     // Get instance field reference: public System.Single[] _colorAttr
-    ::ArrayW<float>& dyn__colorAttr();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn__colorAttr();
     // Get instance field reference: public System.Single[] _alphaAttr
-    ::ArrayW<float>& dyn__alphaAttr();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn__alphaAttr();
     // Get instance field reference: public System.Single[] _tangentAttr
-    ::ArrayW<float>& dyn__tangentAttr();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn__tangentAttr();
     // Get instance field reference: public System.String[] _groups
-    ::ArrayW<::StringW>& dyn__groups();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn__groups();
     // Get instance field reference: public System.Boolean _hasGroupGeometry
-    bool& dyn__hasGroupGeometry();
+    [[deprecated("Use field access instead!")]] bool& dyn__hasGroupGeometry();
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.String,System.Int32[]> _groupSplitVertexIndices
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<int>>*& dyn__groupSplitVertexIndices();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<int>>*& dyn__groupSplitVertexIndices();
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.Int32>> _groupSplitFaceIndices
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int>*>*& dyn__groupSplitFaceIndices();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int>*>*& dyn__groupSplitFaceIndices();
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.Int32>> _groupVertexOffsets
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int>*>*& dyn__groupVertexOffsets();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int>*>*& dyn__groupVertexOffsets();
     // Get instance field reference: public System.Int32[] _allCollisionVertexList
-    ::ArrayW<int>& dyn__allCollisionVertexList();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__allCollisionVertexList();
     // Get instance field reference: public System.Int32[] _allCollisionFaceIndices
-    ::ArrayW<int>& dyn__allCollisionFaceIndices();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__allCollisionFaceIndices();
     // Get instance field reference: public System.Single _normalCosineThreshold
-    float& dyn__normalCosineThreshold();
+    [[deprecated("Use field access instead!")]] float& dyn__normalCosineThreshold();
     // Get instance field reference: public System.Boolean _hasLODGroups
-    bool& dyn__hasLODGroups();
+    [[deprecated("Use field access instead!")]] bool& dyn__hasLODGroups();
     // Get instance field reference: public System.Single[] _LODTransitionValues
-    ::ArrayW<float>& dyn__LODTransitionValues();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn__LODTransitionValues();
     // Get instance field reference: public System.Boolean _isMeshReadWrite
-    bool& dyn__isMeshReadWrite();
+    [[deprecated("Use field access instead!")]] bool& dyn__isMeshReadWrite();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_GenerateGeoCache/HoudiniEngineUnity.HEU_ColliderInfo> _colliderInfos
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo*>*& dyn__colliderInfos();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo*>*& dyn__colliderInfos();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_MaterialData> _materialCache
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>*& dyn__materialCache();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>*& dyn__materialCache();
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,HoudiniEngineUnity.HEU_MaterialData> _materialIDToDataMap
-    ::System::Collections::Generic::Dictionary_2<int, ::HoudiniEngineUnity::HEU_MaterialData*>*& dyn__materialIDToDataMap();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::HoudiniEngineUnity::HEU_MaterialData*>*& dyn__materialIDToDataMap();
     // Get instance field reference: public System.String _assetCacheFolderPath
-    ::StringW& dyn__assetCacheFolderPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__assetCacheFolderPath();
     // Get instance field reference: public HoudiniEngineUnity.HEU_MeshIndexFormat _meshIndexFormat
-    ::HoudiniEngineUnity::HEU_MeshIndexFormat*& dyn__meshIndexFormat();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_MeshIndexFormat*& dyn__meshIndexFormat();
     // public System.Int32 get_GeoID()
-    // Offset: 0x17507D0
+    // Offset: 0x17890E0
     int get_GeoID();
     // public System.Int32 get_PartID()
-    // Offset: 0x17507D8
+    // Offset: 0x17890E8
     int get_PartID();
     // public System.Int32 get_AssetID()
-    // Offset: 0x17507E0
+    // Offset: 0x17890F0
     int get_AssetID();
     // public System.Void set_AssetID(System.Int32 value)
-    // Offset: 0x17507E8
+    // Offset: 0x17890F8
     void set_AssetID(int value);
-    // static public HoudiniEngineUnity.HEU_GenerateGeoCache GetPopulatedGeoCache(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 assetID, System.Int32 geoID, System.Int32 partID, System.Boolean bUseLODGroups, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_MaterialData> materialCache, System.String assetCacheFolderPath)
-    // Offset: 0x17507F0
-    static ::HoudiniEngineUnity::HEU_GenerateGeoCache* GetPopulatedGeoCache(::HoudiniEngineUnity::HEU_SessionBase* session, int assetID, int geoID, int partID, bool bUseLODGroups, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>* materialCache, ::StringW assetCacheFolderPath);
-    // public System.Void PopulateUnityMaterialData(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1750C34
-    void PopulateUnityMaterialData(::HoudiniEngineUnity::HEU_SessionBase* session);
-    // static public System.Int32 GetMaterialKeyFromAttributeIndex(HoudiniEngineUnity.HEU_GenerateGeoCache geoCache, System.Int32 attributeIndex, out System.String unityMaterialName, out System.String substanceName, out System.Int32 substanceIndex)
-    // Offset: 0x1752A7C
-    static int GetMaterialKeyFromAttributeIndex(::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, int attributeIndex, ByRef<::StringW> unityMaterialName, ByRef<::StringW> substanceName, ByRef<int> substanceIndex);
-    // static public System.Void CreateMaterialInfoEntryFromAttributeIndex(HoudiniEngineUnity.HEU_GenerateGeoCache geoCache, System.Int32 materialAttributeIndex)
-    // Offset: 0x175297C
-    static void CreateMaterialInfoEntryFromAttributeIndex(::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, int materialAttributeIndex);
-    // public System.Boolean PopulateGeometryData(HoudiniEngineUnity.HEU_SessionBase session, System.Boolean bUseLODGroups)
-    // Offset: 0x1751244
-    bool PopulateGeometryData(::HoudiniEngineUnity::HEU_SessionBase* session, bool bUseLODGroups);
-    // static public System.Void ParseLODTransitionAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, ref System.Single[] LODTransitionValues)
-    // Offset: 0x1752BF4
-    static void ParseLODTransitionAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ByRef<::ArrayW<float>> LODTransitionValues);
-    // static public System.Void UpdateColliders(HoudiniEngineUnity.HEU_GenerateGeoCache geoCache, HoudiniEngineUnity.HEU_GeneratedOutputData outputData)
-    // Offset: 0x1752D8C
-    static void UpdateColliders(::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, ::HoudiniEngineUnity::HEU_GeneratedOutputData* outputData);
-    // static public System.Void UpdateCollider(HoudiniEngineUnity.HEU_GenerateGeoCache geoCache, HoudiniEngineUnity.HEU_GeneratedOutputData outputData, HoudiniEngineUnity.HEU_GenerateGeoCache/HoudiniEngineUnity.HEU_ColliderInfo colliderInfo)
-    // Offset: 0x17530A4
-    static void UpdateCollider(::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, ::HoudiniEngineUnity::HEU_GeneratedOutputData* outputData, ::HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo* colliderInfo);
-    // static private System.Void GetFinalMaterialsFromComparingNewWithPrevious(UnityEngine.GameObject gameObject, UnityEngine.Material[] previousMaterials, UnityEngine.Material[] newMaterials, ref UnityEngine.Material[] finalMaterials)
-    // Offset: 0x1753670
-    static void GetFinalMaterialsFromComparingNewWithPrevious(::UnityEngine::GameObject* gameObject, ::ArrayW<::UnityEngine::Material*> previousMaterials, ::ArrayW<::UnityEngine::Material*> newMaterials, ByRef<::ArrayW<::UnityEngine::Material*>> finalMaterials);
-    // static public System.Boolean GenerateMeshFromSingleGroup(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_GeoGroup GeoGroup, HoudiniEngineUnity.HEU_GenerateGeoCache geoCache, HoudiniEngineUnity.HEU_GeneratedOutput generatedOutput, System.Int32 defaultMaterialKey, System.Boolean bGenerateUVs, System.Boolean bGenerateTangents, System.Boolean bGenerateNormals, System.Boolean bPartInstanced)
-    // Offset: 0x17539C0
-    static bool GenerateMeshFromSingleGroup(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GeoGroup* GeoGroup, ::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, ::HoudiniEngineUnity::HEU_GeneratedOutput* generatedOutput, int defaultMaterialKey, bool bGenerateUVs, bool bGenerateTangents, bool bGenerateNormals, bool bPartInstanced);
-    // static public System.Boolean GenerateLODMeshesFromGeoGroups(HoudiniEngineUnity.HEU_SessionBase session, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_GeoGroup> GeoGroupMeshes, HoudiniEngineUnity.HEU_GenerateGeoCache geoCache, HoudiniEngineUnity.HEU_GeneratedOutput generatedOutput, System.Int32 defaultMaterialKey, System.Boolean bGenerateUVs, System.Boolean bGenerateTangents, System.Boolean bGenerateNormals, System.Boolean bPartInstanced)
-    // Offset: 0x1754760
-    static bool GenerateLODMeshesFromGeoGroups(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>* GeoGroupMeshes, ::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, ::HoudiniEngineUnity::HEU_GeneratedOutput* generatedOutput, int defaultMaterialKey, bool bGenerateUVs, bool bGenerateTangents, bool bGenerateNormals, bool bPartInstanced);
-    // static public System.Boolean GenerateMeshFromGeoGroup(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_GeoGroup GeoGroup, HoudiniEngineUnity.HEU_GenerateGeoCache geoCache, System.Int32 defaultMaterialKey, System.Boolean bGenerateUVs, System.Boolean bGenerateTangents, System.Boolean bGenerateNormals, System.Boolean bPartInstanced, out UnityEngine.Mesh newMesh, out UnityEngine.Material[] newMaterials)
-    // Offset: 0x1753B78
-    static bool GenerateMeshFromGeoGroup(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GeoGroup* GeoGroup, ::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, int defaultMaterialKey, bool bGenerateUVs, bool bGenerateTangents, bool bGenerateNormals, bool bPartInstanced, ByRef<::UnityEngine::Mesh*> newMesh, ByRef<::ArrayW<::UnityEngine::Material*>> newMaterials);
-    // static public UnityEngine.Mesh CombineQuadMeshes(System.Collections.Generic.Dictionary`2<System.Int32,HoudiniEngineUnity.HEU_MeshData> subMeshesMap, System.Collections.Generic.List`1<System.Int32> subMeshIndices, System.Boolean bGenerateNormals)
-    // Offset: 0x175541C
-    static ::UnityEngine::Mesh* CombineQuadMeshes(::System::Collections::Generic::Dictionary_2<int, ::HoudiniEngineUnity::HEU_MeshData*>* subMeshesMap, ::System::Collections::Generic::List_1<int>* subMeshIndices, bool bGenerateNormals);
-    // static public UnityEngine.Mesh CombineMeshes(System.Collections.Generic.Dictionary`2<System.Int32,HoudiniEngineUnity.HEU_MeshData> subMeshesMap, System.Collections.Generic.List`1<System.Int32> submeshIndices, System.Boolean bGenerateUVs, System.Boolean bGenerateNormals, HoudiniEngineUnity.HEU_MeshIndexFormat meshIndexFormat)
-    // Offset: 0x1755948
-    static ::UnityEngine::Mesh* CombineMeshes(::System::Collections::Generic::Dictionary_2<int, ::HoudiniEngineUnity::HEU_MeshData*>* subMeshesMap, ::System::Collections::Generic::List_1<int>* submeshIndices, bool bGenerateUVs, bool bGenerateNormals, ::HoudiniEngineUnity::HEU_MeshIndexFormat* meshIndexFormat);
-    // static public UnityEngine.Mesh CreateMeshFromMeshData(HoudiniEngineUnity.HEU_MeshData submesh, System.Boolean bGenerateUVs, System.Boolean bGenerateNormals, HoudiniEngineUnity.HEU_MeshIndexFormat meshIndexFormat)
-    // Offset: 0x1755154
-    static ::UnityEngine::Mesh* CreateMeshFromMeshData(::HoudiniEngineUnity::HEU_MeshData* submesh, bool bGenerateUVs, bool bGenerateNormals, ::HoudiniEngineUnity::HEU_MeshIndexFormat* meshIndexFormat);
-    // static public System.Void TransferRegularAttributesToVertices(System.Int32[] groupVertexList, System.Int32[] allFaceCounts, System.Collections.Generic.List`1<System.Int32> groupFaces, System.Collections.Generic.List`1<System.Int32> groupVertexOffset, ref HoudiniEngineUnity.HAPI_AttributeInfo attribInfo, System.Single[] inData, ref System.Single[] outData)
-    // Offset: 0x1755C90
-    static void TransferRegularAttributesToVertices(::ArrayW<int> groupVertexList, ::ArrayW<int> allFaceCounts, ::System::Collections::Generic::List_1<int>* groupFaces, ::System::Collections::Generic::List_1<int>* groupVertexOffset, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attribInfo, ::ArrayW<float> inData, ByRef<::ArrayW<float>> outData);
-    // static public System.Boolean GenerateGeoGroupUsingGeoCacheVertices(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_GenerateGeoCache geoCache, System.Boolean bGenerateUVs, System.Boolean bGenerateTangents, System.Boolean bGenerateNormals, System.Boolean bUseLODGroups, System.Boolean bPartInstanced, out System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_GeoGroup> LODGroupMeshes, out System.Int32 defaultMaterialKey)
-    // Offset: 0x1755F98
-    static bool GenerateGeoGroupUsingGeoCacheVertices(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, bool bGenerateUVs, bool bGenerateTangents, bool bGenerateNormals, bool bUseLODGroups, bool bPartInstanced, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*> LODGroupMeshes, ByRef<int> defaultMaterialKey);
-    // static public System.Boolean GenerateGeoGroupUsingGeoCachePoints(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_GenerateGeoCache geoCache, System.Boolean bGenerateUVs, System.Boolean bGenerateTangents, System.Boolean bGenerateNormals, System.Boolean bUseLODGroups, System.Boolean bPartInstanced, out System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_GeoGroup> LODGroupMeshes, out System.Int32 defaultMaterialKey)
-    // Offset: 0x1758A30
-    static bool GenerateGeoGroupUsingGeoCachePoints(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, bool bGenerateUVs, bool bGenerateTangents, bool bGenerateNormals, bool bUseLODGroups, bool bPartInstanced, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*> LODGroupMeshes, ByRef<int> defaultMaterialKey);
-    // static public UnityEngine.MeshTopology CalculateGroupMeshTopology(System.Collections.Generic.List`1<System.Int32> groupFaces, System.Int32[] allFaceCounts)
-    // Offset: 0x175866C
-    static ::UnityEngine::MeshTopology CalculateGroupMeshTopology(::System::Collections::Generic::List_1<int>* groupFaces, ::ArrayW<int> allFaceCounts);
     // public System.Void .ctor()
-    // Offset: 0x1750ACC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x17893DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_GenerateGeoCache* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GenerateGeoCache::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_GenerateGeoCache*, creationType>()));
     }
+    // static public HoudiniEngineUnity.HEU_GenerateGeoCache GetPopulatedGeoCache(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 assetID, System.Int32 geoID, System.Int32 partID, System.Boolean bUseLODGroups, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_MaterialData> materialCache, System.String assetCacheFolderPath)
+    // Offset: 0x1789100
+    static ::HoudiniEngineUnity::HEU_GenerateGeoCache* GetPopulatedGeoCache(::HoudiniEngineUnity::HEU_SessionBase* session, int assetID, int geoID, int partID, bool bUseLODGroups, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>* materialCache, ::StringW assetCacheFolderPath);
+    // public System.Void PopulateUnityMaterialData(HoudiniEngineUnity.HEU_SessionBase session)
+    // Offset: 0x1789544
+    void PopulateUnityMaterialData(::HoudiniEngineUnity::HEU_SessionBase* session);
+    // static public System.Int32 GetMaterialKeyFromAttributeIndex(HoudiniEngineUnity.HEU_GenerateGeoCache geoCache, System.Int32 attributeIndex, out System.String unityMaterialName, out System.String substanceName, out System.Int32 substanceIndex)
+    // Offset: 0x178B38C
+    static int GetMaterialKeyFromAttributeIndex(::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, int attributeIndex, ByRef<::StringW> unityMaterialName, ByRef<::StringW> substanceName, ByRef<int> substanceIndex);
+    // static public System.Void CreateMaterialInfoEntryFromAttributeIndex(HoudiniEngineUnity.HEU_GenerateGeoCache geoCache, System.Int32 materialAttributeIndex)
+    // Offset: 0x178B28C
+    static void CreateMaterialInfoEntryFromAttributeIndex(::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, int materialAttributeIndex);
+    // public System.Boolean PopulateGeometryData(HoudiniEngineUnity.HEU_SessionBase session, System.Boolean bUseLODGroups)
+    // Offset: 0x1789B54
+    bool PopulateGeometryData(::HoudiniEngineUnity::HEU_SessionBase* session, bool bUseLODGroups);
+    // static public System.Void ParseLODTransitionAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, ref System.Single[] LODTransitionValues)
+    // Offset: 0x178B504
+    static void ParseLODTransitionAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ByRef<::ArrayW<float>> LODTransitionValues);
+    // static public System.Void UpdateColliders(HoudiniEngineUnity.HEU_GenerateGeoCache geoCache, HoudiniEngineUnity.HEU_GeneratedOutputData outputData)
+    // Offset: 0x178B69C
+    static void UpdateColliders(::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, ::HoudiniEngineUnity::HEU_GeneratedOutputData* outputData);
+    // static public System.Void UpdateCollider(HoudiniEngineUnity.HEU_GenerateGeoCache geoCache, HoudiniEngineUnity.HEU_GeneratedOutputData outputData, HoudiniEngineUnity.HEU_GenerateGeoCache/HoudiniEngineUnity.HEU_ColliderInfo colliderInfo)
+    // Offset: 0x178B9B4
+    static void UpdateCollider(::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, ::HoudiniEngineUnity::HEU_GeneratedOutputData* outputData, ::HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo* colliderInfo);
+    // static private System.Void GetFinalMaterialsFromComparingNewWithPrevious(UnityEngine.GameObject gameObject, UnityEngine.Material[] previousMaterials, UnityEngine.Material[] newMaterials, ref UnityEngine.Material[] finalMaterials)
+    // Offset: 0x178BF80
+    static void GetFinalMaterialsFromComparingNewWithPrevious(::UnityEngine::GameObject* gameObject, ::ArrayW<::UnityEngine::Material*> previousMaterials, ::ArrayW<::UnityEngine::Material*> newMaterials, ByRef<::ArrayW<::UnityEngine::Material*>> finalMaterials);
+    // static public System.Boolean GenerateMeshFromSingleGroup(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_GeoGroup GeoGroup, HoudiniEngineUnity.HEU_GenerateGeoCache geoCache, HoudiniEngineUnity.HEU_GeneratedOutput generatedOutput, System.Int32 defaultMaterialKey, System.Boolean bGenerateUVs, System.Boolean bGenerateTangents, System.Boolean bGenerateNormals, System.Boolean bPartInstanced)
+    // Offset: 0x178C2D0
+    static bool GenerateMeshFromSingleGroup(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GeoGroup* GeoGroup, ::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, ::HoudiniEngineUnity::HEU_GeneratedOutput* generatedOutput, int defaultMaterialKey, bool bGenerateUVs, bool bGenerateTangents, bool bGenerateNormals, bool bPartInstanced);
+    // static public System.Boolean GenerateLODMeshesFromGeoGroups(HoudiniEngineUnity.HEU_SessionBase session, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_GeoGroup> GeoGroupMeshes, HoudiniEngineUnity.HEU_GenerateGeoCache geoCache, HoudiniEngineUnity.HEU_GeneratedOutput generatedOutput, System.Int32 defaultMaterialKey, System.Boolean bGenerateUVs, System.Boolean bGenerateTangents, System.Boolean bGenerateNormals, System.Boolean bPartInstanced)
+    // Offset: 0x178D070
+    static bool GenerateLODMeshesFromGeoGroups(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>* GeoGroupMeshes, ::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, ::HoudiniEngineUnity::HEU_GeneratedOutput* generatedOutput, int defaultMaterialKey, bool bGenerateUVs, bool bGenerateTangents, bool bGenerateNormals, bool bPartInstanced);
+    // static public System.Boolean GenerateMeshFromGeoGroup(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_GeoGroup GeoGroup, HoudiniEngineUnity.HEU_GenerateGeoCache geoCache, System.Int32 defaultMaterialKey, System.Boolean bGenerateUVs, System.Boolean bGenerateTangents, System.Boolean bGenerateNormals, System.Boolean bPartInstanced, out UnityEngine.Mesh newMesh, out UnityEngine.Material[] newMaterials)
+    // Offset: 0x178C488
+    static bool GenerateMeshFromGeoGroup(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GeoGroup* GeoGroup, ::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, int defaultMaterialKey, bool bGenerateUVs, bool bGenerateTangents, bool bGenerateNormals, bool bPartInstanced, ByRef<::UnityEngine::Mesh*> newMesh, ByRef<::ArrayW<::UnityEngine::Material*>> newMaterials);
+    // static public UnityEngine.Mesh CombineQuadMeshes(System.Collections.Generic.Dictionary`2<System.Int32,HoudiniEngineUnity.HEU_MeshData> subMeshesMap, System.Collections.Generic.List`1<System.Int32> subMeshIndices, System.Boolean bGenerateNormals)
+    // Offset: 0x178DD2C
+    static ::UnityEngine::Mesh* CombineQuadMeshes(::System::Collections::Generic::Dictionary_2<int, ::HoudiniEngineUnity::HEU_MeshData*>* subMeshesMap, ::System::Collections::Generic::List_1<int>* subMeshIndices, bool bGenerateNormals);
+    // static public UnityEngine.Mesh CombineMeshes(System.Collections.Generic.Dictionary`2<System.Int32,HoudiniEngineUnity.HEU_MeshData> subMeshesMap, System.Collections.Generic.List`1<System.Int32> submeshIndices, System.Boolean bGenerateUVs, System.Boolean bGenerateNormals, HoudiniEngineUnity.HEU_MeshIndexFormat meshIndexFormat)
+    // Offset: 0x178E258
+    static ::UnityEngine::Mesh* CombineMeshes(::System::Collections::Generic::Dictionary_2<int, ::HoudiniEngineUnity::HEU_MeshData*>* subMeshesMap, ::System::Collections::Generic::List_1<int>* submeshIndices, bool bGenerateUVs, bool bGenerateNormals, ::HoudiniEngineUnity::HEU_MeshIndexFormat* meshIndexFormat);
+    // static public UnityEngine.Mesh CreateMeshFromMeshData(HoudiniEngineUnity.HEU_MeshData submesh, System.Boolean bGenerateUVs, System.Boolean bGenerateNormals, HoudiniEngineUnity.HEU_MeshIndexFormat meshIndexFormat)
+    // Offset: 0x178DA64
+    static ::UnityEngine::Mesh* CreateMeshFromMeshData(::HoudiniEngineUnity::HEU_MeshData* submesh, bool bGenerateUVs, bool bGenerateNormals, ::HoudiniEngineUnity::HEU_MeshIndexFormat* meshIndexFormat);
+    // static public System.Void TransferRegularAttributesToVertices(System.Int32[] groupVertexList, System.Int32[] allFaceCounts, System.Collections.Generic.List`1<System.Int32> groupFaces, System.Collections.Generic.List`1<System.Int32> groupVertexOffset, ref HoudiniEngineUnity.HAPI_AttributeInfo attribInfo, System.Single[] inData, ref System.Single[] outData)
+    // Offset: 0x178E5A0
+    static void TransferRegularAttributesToVertices(::ArrayW<int> groupVertexList, ::ArrayW<int> allFaceCounts, ::System::Collections::Generic::List_1<int>* groupFaces, ::System::Collections::Generic::List_1<int>* groupVertexOffset, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attribInfo, ::ArrayW<float> inData, ByRef<::ArrayW<float>> outData);
+    // static public System.Boolean GenerateGeoGroupUsingGeoCacheVertices(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_GenerateGeoCache geoCache, System.Boolean bGenerateUVs, System.Boolean bGenerateTangents, System.Boolean bGenerateNormals, System.Boolean bUseLODGroups, System.Boolean bPartInstanced, out System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_GeoGroup> LODGroupMeshes, out System.Int32 defaultMaterialKey)
+    // Offset: 0x178E8A8
+    static bool GenerateGeoGroupUsingGeoCacheVertices(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, bool bGenerateUVs, bool bGenerateTangents, bool bGenerateNormals, bool bUseLODGroups, bool bPartInstanced, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*> LODGroupMeshes, ByRef<int> defaultMaterialKey);
+    // static public System.Boolean GenerateGeoGroupUsingGeoCachePoints(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_GenerateGeoCache geoCache, System.Boolean bGenerateUVs, System.Boolean bGenerateTangents, System.Boolean bGenerateNormals, System.Boolean bUseLODGroups, System.Boolean bPartInstanced, out System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_GeoGroup> LODGroupMeshes, out System.Int32 defaultMaterialKey)
+    // Offset: 0x1791340
+    static bool GenerateGeoGroupUsingGeoCachePoints(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, bool bGenerateUVs, bool bGenerateTangents, bool bGenerateNormals, bool bUseLODGroups, bool bPartInstanced, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*> LODGroupMeshes, ByRef<int> defaultMaterialKey);
+    // static public UnityEngine.MeshTopology CalculateGroupMeshTopology(System.Collections.Generic.List`1<System.Int32> groupFaces, System.Int32[] allFaceCounts)
+    // Offset: 0x1790F7C
+    static ::UnityEngine::MeshTopology CalculateGroupMeshTopology(::System::Collections::Generic::List_1<int>* groupFaces, ::ArrayW<int> allFaceCounts);
   }; // HoudiniEngineUnity.HEU_GenerateGeoCache
   #pragma pack(pop)
   static check_size<sizeof(HEU_GenerateGeoCache), 688 + sizeof(::HoudiniEngineUnity::HEU_MeshIndexFormat*)> __HoudiniEngineUnity_HEU_GenerateGeoCacheSizeCheck;
@@ -608,6 +598,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GenerateGeoCache*), "set_AssetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GenerateGeoCache::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GenerateGeoCache::GetPopulatedGeoCache
 // Il2CppName: GetPopulatedGeoCache
 template<>
@@ -857,7 +851,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GenerateGeoCache*), "CalculateGroupMeshTopology", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{groupFaces, allFaceCounts});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GenerateGeoCache::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

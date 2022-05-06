@@ -35,15 +35,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKSolverVR::BodyPart : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single <sqrMag>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -96,33 +88,40 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Single <sqrMag>k__BackingField
-    float& dyn_$sqrMag$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$sqrMag$k__BackingField();
     // Get instance field reference: private System.Single <mag>k__BackingField
-    float& dyn_$mag$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$mag$k__BackingField();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone[] bones
-    ::ArrayW<::RootMotion::FinalIK::IKSolverVR::VirtualBone*>& dyn_bones();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::IKSolverVR::VirtualBone*>& dyn_bones();
     // Get instance field reference: protected System.Boolean initiated
-    bool& dyn_initiated();
+    [[deprecated("Use field access instead!")]] bool& dyn_initiated();
     // Get instance field reference: protected UnityEngine.Vector3 rootPosition
-    ::UnityEngine::Vector3& dyn_rootPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_rootPosition();
     // Get instance field reference: protected UnityEngine.Quaternion rootRotation
-    ::UnityEngine::Quaternion& dyn_rootRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_rootRotation();
     // Get instance field reference: protected System.Int32 index
-    int& dyn_index();
+    [[deprecated("Use field access instead!")]] int& dyn_index();
     // Get instance field reference: protected System.Int32 LOD
-    int& dyn_LOD();
+    [[deprecated("Use field access instead!")]] int& dyn_LOD();
     // public System.Single get_sqrMag()
-    // Offset: 0x2347AA4
+    // Offset: 0x2391318
     float get_sqrMag();
     // private System.Void set_sqrMag(System.Single value)
-    // Offset: 0x2347AAC
+    // Offset: 0x2391320
     void set_sqrMag(float value);
     // public System.Single get_mag()
-    // Offset: 0x2347AB4
+    // Offset: 0x2391328
     float get_mag();
     // private System.Void set_mag(System.Single value)
-    // Offset: 0x2347ABC
+    // Offset: 0x2391330
     void set_mag(float value);
+    // protected System.Void .ctor()
+    // Offset: 0x2391280
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static IKSolverVR::BodyPart* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolverVR::BodyPart::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<IKSolverVR::BodyPart*, creationType>()));
+    }
     // protected System.Void OnRead(UnityEngine.Vector3[] positions, UnityEngine.Quaternion[] rotations, System.Boolean hasChest, System.Boolean hasNeck, System.Boolean hasShoulders, System.Boolean hasToes, System.Boolean hasLegs, System.Int32 rootIndex, System.Int32 index)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void OnRead(::ArrayW<::UnityEngine::Vector3> positions, ::ArrayW<::UnityEngine::Quaternion> rotations, bool hasChest, bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int rootIndex, int index);
@@ -139,41 +138,32 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void ResetOffsets();
     // public System.Void SetLOD(System.Int32 LOD)
-    // Offset: 0x2347AC4
+    // Offset: 0x2391338
     void SetLOD(int LOD);
     // public System.Void Read(UnityEngine.Vector3[] positions, UnityEngine.Quaternion[] rotations, System.Boolean hasChest, System.Boolean hasNeck, System.Boolean hasShoulders, System.Boolean hasToes, System.Boolean hasLegs, System.Int32 rootIndex, System.Int32 index)
-    // Offset: 0x2347ACC
+    // Offset: 0x2391340
     void Read(::ArrayW<::UnityEngine::Vector3> positions, ::ArrayW<::UnityEngine::Quaternion> rotations, bool hasChest, bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int rootIndex, int index);
     // public System.Void MovePosition(UnityEngine.Vector3 position)
-    // Offset: 0x2347E88
+    // Offset: 0x23916FC
     void MovePosition(::UnityEngine::Vector3 position);
     // public System.Void MoveRotation(UnityEngine.Quaternion rotation)
-    // Offset: 0x2347FF4
+    // Offset: 0x2391868
     void MoveRotation(::UnityEngine::Quaternion rotation);
     // public System.Void Translate(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x2348284
+    // Offset: 0x2391AF8
     void Translate(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
     // public System.Void TranslateRoot(UnityEngine.Vector3 newRootPos, UnityEngine.Quaternion newRootRot)
-    // Offset: 0x23482D8
+    // Offset: 0x2391B4C
     void TranslateRoot(::UnityEngine::Vector3 newRootPos, ::UnityEngine::Quaternion newRootRot);
     // public System.Void RotateTo(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone bone, UnityEngine.Quaternion rotation, System.Single weight)
-    // Offset: 0x234738C
+    // Offset: 0x2390C00
     void RotateTo(::RootMotion::FinalIK::IKSolverVR::VirtualBone* bone, ::UnityEngine::Quaternion rotation, float weight);
     // public System.Void Visualize(UnityEngine.Color color)
-    // Offset: 0x23484C4
+    // Offset: 0x2391D38
     void Visualize(::UnityEngine::Color color);
     // public System.Void Visualize()
-    // Offset: 0x2348608
+    // Offset: 0x2391E7C
     void Visualize();
-    // protected System.Void .ctor()
-    // Offset: 0x2347A0C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static IKSolverVR::BodyPart* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolverVR::BodyPart::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<IKSolverVR::BodyPart*, creationType>()));
-    }
   }; // RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.BodyPart
   #pragma pack(pop)
   static check_size<sizeof(IKSolverVR::BodyPart), 68 + sizeof(int)> __RootMotion_FinalIK_IKSolverVR_BodyPartSizeCheck;
@@ -214,6 +204,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::BodyPart*), "set_mag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::BodyPart::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::BodyPart::OnRead
 // Il2CppName: OnRead
 template<>
@@ -357,7 +351,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::BodyPart*), "Visualize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::BodyPart::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

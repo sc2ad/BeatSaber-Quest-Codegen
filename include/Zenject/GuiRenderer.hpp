@@ -38,15 +38,7 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class GuiRenderer : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Zenject.GuiRenderableManager _renderableManager
     // Size: 0x8
     // Offset: 0x18
@@ -57,38 +49,36 @@ namespace Zenject {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Zenject.GuiRenderableManager _renderableManager
-    ::Zenject::GuiRenderableManager*& dyn__renderableManager();
-    // private System.Void Construct(Zenject.GuiRenderableManager renderableManager)
-    // Offset: 0x1DED4F0
-    void Construct(::Zenject::GuiRenderableManager* renderableManager);
-    // public System.Void OnGUI()
-    // Offset: 0x1DED4F8
-    void OnGUI();
-    // static private System.Void __zenInjectMethod0(System.Object P_0, System.Object[] P_1)
-    // Offset: 0x1DED518
-    static void __zenInjectMethod0(::Il2CppObject* P_0, ::ArrayW<::Il2CppObject*> P_1);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1DED604
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    [[deprecated("Use field access instead!")]] ::Zenject::GuiRenderableManager*& dyn__renderableManager();
     // public System.Void .ctor()
-    // Offset: 0x1DED510
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E27DDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GuiRenderer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GuiRenderer*, creationType>()));
     }
+    // private System.Void Construct(Zenject.GuiRenderableManager renderableManager)
+    // Offset: 0x1E27DBC
+    void Construct(::Zenject::GuiRenderableManager* renderableManager);
+    // public System.Void OnGUI()
+    // Offset: 0x1E27DC4
+    void OnGUI();
+    // static private System.Void __zenInjectMethod0(System.Object P_0, System.Object[] P_1)
+    // Offset: 0x1E27DE4
+    static void __zenInjectMethod0(::Il2CppObject* P_0, ::ArrayW<::Il2CppObject*> P_1);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1E27ED0
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.GuiRenderer
   #pragma pack(pop)
   static check_size<sizeof(GuiRenderer), 24 + sizeof(::Zenject::GuiRenderableManager*)> __Zenject_GuiRendererSizeCheck;
   static_assert(sizeof(GuiRenderer) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::GuiRenderer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::GuiRenderer::Construct
 // Il2CppName: Construct
 template<>
@@ -124,7 +114,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::GuiRenderer*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::GuiRenderer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -38,15 +38,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MenuTransitionsHelper::$$c__DisplayClass29_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public MenuTransitionsHelper <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -67,29 +59,31 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::MissionCompletionResults*) == 0x8);
     public:
     // Get instance field reference: public MenuTransitionsHelper <>4__this
-    ::GlobalNamespace::MenuTransitionsHelper*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuTransitionsHelper*& dyn_$$4__this();
     // Get instance field reference: public MissionLevelScenesTransitionSetupDataSO missionLevelScenesTransitionSetupData
-    ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& dyn_missionLevelScenesTransitionSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& dyn_missionLevelScenesTransitionSetupData();
     // Get instance field reference: public MissionCompletionResults missionCompletionResults
-    ::GlobalNamespace::MissionCompletionResults*& dyn_missionCompletionResults();
-    // System.Void <HandleMissionLevelSceneDidFinish>b__0(Zenject.DiContainer container)
-    // Offset: 0x13014A8
-    void $HandleMissionLevelSceneDidFinish$b__0(::Zenject::DiContainer* container);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionCompletionResults*& dyn_missionCompletionResults();
     // public System.Void .ctor()
-    // Offset: 0x1300E88
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x12FD360
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuTransitionsHelper::$$c__DisplayClass29_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass29_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MenuTransitionsHelper::$$c__DisplayClass29_0*, creationType>()));
     }
+    // System.Void <HandleMissionLevelSceneDidFinish>b__0(Zenject.DiContainer container)
+    // Offset: 0x12FD980
+    void $HandleMissionLevelSceneDidFinish$b__0(::Zenject::DiContainer* container);
   }; // MenuTransitionsHelper/<>c__DisplayClass29_0
   #pragma pack(pop)
   static check_size<sizeof(MenuTransitionsHelper::$$c__DisplayClass29_0), 32 + sizeof(::GlobalNamespace::MissionCompletionResults*)> __GlobalNamespace_MenuTransitionsHelper_$$c__DisplayClass29_0SizeCheck;
   static_assert(sizeof(MenuTransitionsHelper::$$c__DisplayClass29_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass29_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass29_0::$HandleMissionLevelSceneDidFinish$b__0
 // Il2CppName: <HandleMissionLevelSceneDidFinish>b__0
 template<>
@@ -99,7 +93,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass29_0*), "<HandleMissionLevelSceneDidFinish>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass29_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -51,15 +51,7 @@ namespace System::Net {
     public:
     // Nested type: ::System::Net::ChunkedInputStream::ReadBufferState
     class ReadBufferState;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean disposed
     // Size: 0x1
     // Offset: 0x50
@@ -88,40 +80,40 @@ namespace System::Net {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Boolean disposed
-    bool& dyn_disposed();
+    [[deprecated("Use field access instead!")]] bool& dyn_disposed();
     // Get instance field reference: private System.Net.MonoChunkStream decoder
-    ::System::Net::MonoChunkStream*& dyn_decoder();
+    [[deprecated("Use field access instead!")]] ::System::Net::MonoChunkStream*& dyn_decoder();
     // Get instance field reference: private System.Net.HttpListenerContext context
-    ::System::Net::HttpListenerContext*& dyn_context();
+    [[deprecated("Use field access instead!")]] ::System::Net::HttpListenerContext*& dyn_context();
     // Get instance field reference: private System.Boolean no_more_data
-    bool& dyn_no_more_data();
+    [[deprecated("Use field access instead!")]] bool& dyn_no_more_data();
     // public System.Void .ctor(System.Net.HttpListenerContext context, System.IO.Stream stream, System.Byte[] buffer, System.Int32 offset, System.Int32 length)
-    // Offset: 0x1A35924
+    // Offset: 0x1A6EF0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChunkedInputStream* New_ctor(::System::Net::HttpListenerContext* context, ::System::IO::Stream* stream, ::ArrayW<uint8_t> buffer, int offset, int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::ChunkedInputStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChunkedInputStream*, creationType>(context, stream, buffer, offset, length)));
     }
     // private System.Void OnRead(System.IAsyncResult base_ares)
-    // Offset: 0x1A35D80
+    // Offset: 0x1A6F368
     void OnRead(::System::IAsyncResult* base_ares);
     // public override System.Int32 Read(in System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1A35A28
+    // Offset: 0x1A6F010
     // Implemented from: System.Net.RequestStream
     // Base method: System.Int32 RequestStream::Read(in System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     int Read(ByRef<::ArrayW<uint8_t>> buffer, int offset, int count);
     // public override System.IAsyncResult BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback cback, System.Object state)
-    // Offset: 0x1A35A70
+    // Offset: 0x1A6F058
     // Implemented from: System.Net.RequestStream
     // Base method: System.IAsyncResult RequestStream::BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback cback, System.Object state)
     ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t> buffer, int offset, int count, ::System::AsyncCallback* cback, ::Il2CppObject* state);
     // public override System.Int32 EndRead(System.IAsyncResult ares)
-    // Offset: 0x1A36114
+    // Offset: 0x1A6F6FC
     // Implemented from: System.Net.RequestStream
     // Base method: System.Int32 RequestStream::EndRead(System.IAsyncResult ares)
     int EndRead(::System::IAsyncResult* ares);
     // public override System.Void Close()
-    // Offset: 0x1A363A4
+    // Offset: 0x1A6F98C
     // Implemented from: System.Net.RequestStream
     // Base method: System.Void RequestStream::Close()
     void Close();

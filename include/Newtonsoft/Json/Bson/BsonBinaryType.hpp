@@ -54,14 +54,14 @@ namespace Newtonsoft::Json::Bson {
     static ::Newtonsoft::Json::Bson::BsonBinaryType _get_Function();
     // Set static field: static public Newtonsoft.Json.Bson.BsonBinaryType Function
     static void _set_Function(::Newtonsoft::Json::Bson::BsonBinaryType value);
-    // [ObsoleteAttribute] Offset: 0x122C9F0
+    // [ObsoleteAttribute] Offset: 0x10B0428
     // static field const value: static public Newtonsoft.Json.Bson.BsonBinaryType BinaryOld
     static constexpr const uint8_t BinaryOld = 2u;
     // Get static field: static public Newtonsoft.Json.Bson.BsonBinaryType BinaryOld
     static ::Newtonsoft::Json::Bson::BsonBinaryType _get_BinaryOld();
     // Set static field: static public Newtonsoft.Json.Bson.BsonBinaryType BinaryOld
     static void _set_BinaryOld(::Newtonsoft::Json::Bson::BsonBinaryType value);
-    // [ObsoleteAttribute] Offset: 0x122CA28
+    // [ObsoleteAttribute] Offset: 0x10B0460
     // static field const value: static public Newtonsoft.Json.Bson.BsonBinaryType UuidOld
     static constexpr const uint8_t UuidOld = 3u;
     // Get static field: static public Newtonsoft.Json.Bson.BsonBinaryType UuidOld
@@ -87,7 +87,7 @@ namespace Newtonsoft::Json::Bson {
     // Set static field: static public Newtonsoft.Json.Bson.BsonBinaryType UserDefined
     static void _set_UserDefined(::Newtonsoft::Json::Bson::BsonBinaryType value);
     // Get instance field reference: public System.Byte value__
-    uint8_t& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_value__();
   }; // Newtonsoft.Json.Bson.BsonBinaryType
   #pragma pack(pop)
   static check_size<sizeof(BsonBinaryType), 0 + sizeof(uint8_t)> __Newtonsoft_Json_Bson_BsonBinaryTypeSizeCheck;

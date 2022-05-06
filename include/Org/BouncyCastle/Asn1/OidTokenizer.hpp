@@ -27,15 +27,7 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class OidTokenizer : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String oid
     // Size: 0x8
     // Offset: 0x10
@@ -50,21 +42,21 @@ namespace Org::BouncyCastle::Asn1 {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.String oid
-    ::StringW& dyn_oid();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_oid();
     // Get instance field reference: private System.Int32 index
-    int& dyn_index();
+    [[deprecated("Use field access instead!")]] int& dyn_index();
     // public System.Boolean get_HasMoreTokens()
-    // Offset: 0x1C8E610
+    // Offset: 0x1CCAB68
     bool get_HasMoreTokens();
     // public System.Void .ctor(System.String oid)
-    // Offset: 0x1C8E5E4
+    // Offset: 0x1CCAB3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OidTokenizer* New_ctor(::StringW oid) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::OidTokenizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OidTokenizer*, creationType>(oid)));
     }
     // public System.String NextToken()
-    // Offset: 0x1C8E620
+    // Offset: 0x1CCAB78
     ::StringW NextToken();
   }; // Org.BouncyCastle.Asn1.OidTokenizer
   #pragma pack(pop)

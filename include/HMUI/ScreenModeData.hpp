@@ -28,15 +28,7 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScreenModeData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Vector3 position
     // Size: 0xC
     // Offset: 0x10
@@ -69,14 +61,14 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: offsetHeightByHeadPos and: yOffsetRelativeToHead
     char __padding4[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x123B2C4
+    // [DrawIfAttribute] Offset: 0x10BFD9C
     // public System.Single yOffsetRelativeToHead
     // Size: 0x4
     // Offset: 0x34
     float yOffsetRelativeToHead;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0x123B35C
+    // [DrawIfAttribute] Offset: 0x10BFE34
     // public System.Single minYPos
     // Size: 0x4
     // Offset: 0x38
@@ -85,21 +77,21 @@ namespace HMUI {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public UnityEngine.Vector3 position
-    ::UnityEngine::Vector3& dyn_position();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_position();
     // Get instance field reference: public UnityEngine.Vector3 rotation
-    ::UnityEngine::Vector3& dyn_rotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_rotation();
     // Get instance field reference: public System.Single scale
-    float& dyn_scale();
+    [[deprecated("Use field access instead!")]] float& dyn_scale();
     // Get instance field reference: public System.Single radius
-    float& dyn_radius();
+    [[deprecated("Use field access instead!")]] float& dyn_radius();
     // Get instance field reference: public System.Boolean offsetHeightByHeadPos
-    bool& dyn_offsetHeightByHeadPos();
+    [[deprecated("Use field access instead!")]] bool& dyn_offsetHeightByHeadPos();
     // Get instance field reference: public System.Single yOffsetRelativeToHead
-    float& dyn_yOffsetRelativeToHead();
+    [[deprecated("Use field access instead!")]] float& dyn_yOffsetRelativeToHead();
     // Get instance field reference: public System.Single minYPos
-    float& dyn_minYPos();
+    [[deprecated("Use field access instead!")]] float& dyn_minYPos();
     // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Vector3 rotation, System.Single scale, System.Single radius, System.Boolean offsetHeightByHeadPos, System.Single yOffsetRelativeToHead, System.Single minYPos)
-    // Offset: 0x1687F90
+    // Offset: 0x16BE8A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScreenModeData* New_ctor(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 rotation, float scale, float radius, bool offsetHeightByHeadPos, float yOffsetRelativeToHead, float minYPos) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ScreenModeData::.ctor");

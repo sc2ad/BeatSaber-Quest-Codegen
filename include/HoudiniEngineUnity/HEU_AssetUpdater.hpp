@@ -41,38 +41,36 @@ namespace HoudiniEngineUnity {
   class HEU_AssetUpdater : public ::Il2CppObject {
     public:
     // static private System.Void .cctor()
-    // Offset: 0x16AE604
+    // Offset: 0x16E5F14
     static void _cctor();
-    // static private System.Void OnBeforeAssemblyReload()
-    // Offset: 0x16AE608
-    static void OnBeforeAssemblyReload();
-    // static private System.Void Update()
-    // Offset: 0x16AE668
-    static void Update();
-    // static public System.Void AddAssetForUpdate(HoudiniEngineUnity.HEU_HoudiniAsset asset)
-    // Offset: 0x16AE66C
-    static void AddAssetForUpdate(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
-    // static public System.Void RemoveAsset(HoudiniEngineUnity.HEU_HoudiniAsset asset)
-    // Offset: 0x16AE670
-    static void RemoveAsset(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
-    // static public System.Void AddNodeSyncForUpdate(HoudiniEngineUnity.HEU_BaseSync nodeSync)
-    // Offset: 0x16AE674
-    static void AddNodeSyncForUpdate(::HoudiniEngineUnity::HEU_BaseSync* nodeSync);
-    // static public System.Void RemoveNodeSync(HoudiniEngineUnity.HEU_BaseSync nodeSync)
-    // Offset: 0x16AE678
-    static void RemoveNodeSync(::HoudiniEngineUnity::HEU_BaseSync* nodeSync);
-    // static private System.Void OnPrefabInstanceUpdate(UnityEngine.GameObject instance)
-    // Offset: 0x16AE67C
-    static void OnPrefabInstanceUpdate(::UnityEngine::GameObject* instance);
     // public System.Void .ctor()
-    // Offset: 0x16AE680
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16E5F90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_AssetUpdater* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_AssetUpdater::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_AssetUpdater*, creationType>()));
     }
+    // static private System.Void OnBeforeAssemblyReload()
+    // Offset: 0x16E5F18
+    static void OnBeforeAssemblyReload();
+    // static private System.Void Update()
+    // Offset: 0x16E5F78
+    static void Update();
+    // static public System.Void AddAssetForUpdate(HoudiniEngineUnity.HEU_HoudiniAsset asset)
+    // Offset: 0x16E5F7C
+    static void AddAssetForUpdate(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
+    // static public System.Void RemoveAsset(HoudiniEngineUnity.HEU_HoudiniAsset asset)
+    // Offset: 0x16E5F80
+    static void RemoveAsset(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
+    // static public System.Void AddNodeSyncForUpdate(HoudiniEngineUnity.HEU_BaseSync nodeSync)
+    // Offset: 0x16E5F84
+    static void AddNodeSyncForUpdate(::HoudiniEngineUnity::HEU_BaseSync* nodeSync);
+    // static public System.Void RemoveNodeSync(HoudiniEngineUnity.HEU_BaseSync nodeSync)
+    // Offset: 0x16E5F88
+    static void RemoveNodeSync(::HoudiniEngineUnity::HEU_BaseSync* nodeSync);
+    // static private System.Void OnPrefabInstanceUpdate(UnityEngine.GameObject instance)
+    // Offset: 0x16E5F8C
+    static void OnPrefabInstanceUpdate(::UnityEngine::GameObject* instance);
   }; // HoudiniEngineUnity.HEU_AssetUpdater
   #pragma pack(pop)
 }
@@ -85,6 +83,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_AssetUpdater*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AssetUpdater::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AssetUpdater::OnBeforeAssemblyReload
 // Il2CppName: OnBeforeAssemblyReload
 template<>
@@ -146,7 +148,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_AssetUpdater*), "OnPrefabInstanceUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instance});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AssetUpdater::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

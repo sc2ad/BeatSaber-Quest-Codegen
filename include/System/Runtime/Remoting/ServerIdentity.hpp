@@ -66,15 +66,7 @@ namespace System::Runtime::Remoting {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected System.Type _objectType
     // Size: 0x8
     // Offset: 0x48
@@ -107,42 +99,42 @@ namespace System::Runtime::Remoting {
     static_assert(sizeof(::System::Runtime::Remoting::Lifetime::Lease*) == 0x8);
     public:
     // Get instance field reference: protected System.Type _objectType
-    ::System::Type*& dyn__objectType();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn__objectType();
     // Get instance field reference: protected System.MarshalByRefObject _serverObject
-    ::System::MarshalByRefObject*& dyn__serverObject();
+    [[deprecated("Use field access instead!")]] ::System::MarshalByRefObject*& dyn__serverObject();
     // Get instance field reference: protected System.Runtime.Remoting.Messaging.IMessageSink _serverSink
-    ::System::Runtime::Remoting::Messaging::IMessageSink*& dyn__serverSink();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Messaging::IMessageSink*& dyn__serverSink();
     // Get instance field reference: protected System.Runtime.Remoting.Contexts.Context _context
-    ::System::Runtime::Remoting::Contexts::Context*& dyn__context();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Contexts::Context*& dyn__context();
     // Get instance field reference: protected System.Runtime.Remoting.Lifetime.Lease _lease
-    ::System::Runtime::Remoting::Lifetime::Lease*& dyn__lease();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Lifetime::Lease*& dyn__lease();
     // public System.Type get_ObjectType()
-    // Offset: 0x18B21BC
+    // Offset: 0x18EBACC
     ::System::Type* get_ObjectType();
     // public System.Runtime.Remoting.Lifetime.Lease get_Lease()
-    // Offset: 0x18B2764
+    // Offset: 0x18EC074
     ::System::Runtime::Remoting::Lifetime::Lease* get_Lease();
     // public System.Runtime.Remoting.Contexts.Context get_Context()
-    // Offset: 0x18B276C
+    // Offset: 0x18EC07C
     ::System::Runtime::Remoting::Contexts::Context* get_Context();
     // public System.Void set_Context(System.Runtime.Remoting.Contexts.Context value)
-    // Offset: 0x18B2774
+    // Offset: 0x18EC084
     void set_Context(::System::Runtime::Remoting::Contexts::Context* value);
     // public System.Void .ctor(System.String objectUri, System.Runtime.Remoting.Contexts.Context context, System.Type objectType)
-    // Offset: 0x18B2180
+    // Offset: 0x18EBA90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerIdentity* New_ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::ServerIdentity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerIdentity*, creationType>(objectUri, context, objectType)));
     }
     // public System.Void StartTrackingLifetime(System.Runtime.Remoting.Lifetime.ILease lease)
-    // Offset: 0x18B000C
+    // Offset: 0x18E991C
     void StartTrackingLifetime(::System::Runtime::Remoting::Lifetime::ILease* lease);
     // public System.Void OnLifetimeExpired()
-    // Offset: 0x18B21C4
+    // Offset: 0x18EBAD4
     void OnLifetimeExpired();
     // public System.Void AttachServerObject(System.MarshalByRefObject serverObject, System.Runtime.Remoting.Contexts.Context context)
-    // Offset: 0x18B18E0
+    // Offset: 0x18EB1F0
     void AttachServerObject(::System::MarshalByRefObject* serverObject, ::System::Runtime::Remoting::Contexts::Context* context);
     // public System.Runtime.Remoting.Messaging.IMessage SyncObjectProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -151,10 +143,10 @@ namespace System::Runtime::Remoting {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg, ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
     // protected System.Void DisposeServerObject()
-    // Offset: 0x18B21C8
+    // Offset: 0x18EBAD8
     void DisposeServerObject();
     // public override System.Runtime.Remoting.ObjRef CreateObjRef(System.Type requestedType)
-    // Offset: 0x18B2254
+    // Offset: 0x18EBB64
     // Implemented from: System.Runtime.Remoting.Identity
     // Base method: System.Runtime.Remoting.ObjRef Identity::CreateObjRef(System.Type requestedType)
     ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType);

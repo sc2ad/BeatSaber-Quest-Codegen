@@ -38,15 +38,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockComboController : public ::Il2CppObject/*, public ::GlobalNamespace::IComboController*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Action`1<System.Int32> comboDidChangeEvent
     // Size: 0x8
     // Offset: 0x10
@@ -65,25 +57,23 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IComboController*>(this);
     }
     // Get instance field reference: private System.Action`1<System.Int32> comboDidChangeEvent
-    ::System::Action_1<int>*& dyn_comboDidChangeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<int>*& dyn_comboDidChangeEvent();
     // Get instance field reference: private System.Action comboBreakingEventHappenedEvent
-    ::System::Action*& dyn_comboBreakingEventHappenedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_comboBreakingEventHappenedEvent();
     // public System.Void add_comboDidChangeEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x13C56C0
+    // Offset: 0x13C1B6C
     void add_comboDidChangeEvent(::System::Action_1<int>* value);
     // public System.Void remove_comboDidChangeEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x13C5764
+    // Offset: 0x13C1C10
     void remove_comboDidChangeEvent(::System::Action_1<int>* value);
     // public System.Void add_comboBreakingEventHappenedEvent(System.Action value)
-    // Offset: 0x13C5808
+    // Offset: 0x13C1CB4
     void add_comboBreakingEventHappenedEvent(::System::Action* value);
     // public System.Void remove_comboBreakingEventHappenedEvent(System.Action value)
-    // Offset: 0x13C58AC
+    // Offset: 0x13C1D58
     void remove_comboBreakingEventHappenedEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x13C5950
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13C1DFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockComboController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockComboController::.ctor");

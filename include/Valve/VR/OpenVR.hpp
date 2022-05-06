@@ -1196,89 +1196,87 @@ namespace Valve::VR {
     // Set static field: static private Valve.VR.OpenVR/Valve.VR.COpenVRContext _OpenVRInternal_ModuleContext
     static void _set__OpenVRInternal_ModuleContext(::Valve::VR::OpenVR::COpenVRContext* value);
     // static private System.UInt32 get_VRToken()
-    // Offset: 0x222A340
+    // Offset: 0x2276BB4
     static uint get_VRToken();
     // static private System.Void set_VRToken(System.UInt32 value)
-    // Offset: 0x222A3A8
+    // Offset: 0x2276C1C
     static void set_VRToken(uint value);
     // static private Valve.VR.OpenVR/Valve.VR.COpenVRContext get_OpenVRInternal_ModuleContext()
-    // Offset: 0x222A414
+    // Offset: 0x2276C88
     static ::Valve::VR::OpenVR::COpenVRContext* get_OpenVRInternal_ModuleContext();
     // static public Valve.VR.CVRSystem get_System()
-    // Offset: 0x222A4E0
+    // Offset: 0x2276D54
     static ::Valve::VR::CVRSystem* get_System();
     // static public Valve.VR.CVRChaperone get_Chaperone()
-    // Offset: 0x222A54C
+    // Offset: 0x2276DC0
     static ::Valve::VR::CVRChaperone* get_Chaperone();
     // static public Valve.VR.CVRChaperoneSetup get_ChaperoneSetup()
-    // Offset: 0x222A5B8
+    // Offset: 0x2276E2C
     static ::Valve::VR::CVRChaperoneSetup* get_ChaperoneSetup();
     // static public Valve.VR.CVRCompositor get_Compositor()
-    // Offset: 0x222A624
+    // Offset: 0x2276E98
     static ::Valve::VR::CVRCompositor* get_Compositor();
     // static public Valve.VR.CVROverlay get_Overlay()
-    // Offset: 0x222A690
+    // Offset: 0x2276F04
     static ::Valve::VR::CVROverlay* get_Overlay();
     // static public Valve.VR.CVRRenderModels get_RenderModels()
-    // Offset: 0x222A6FC
+    // Offset: 0x2276F70
     static ::Valve::VR::CVRRenderModels* get_RenderModels();
     // static public Valve.VR.CVRExtendedDisplay get_ExtendedDisplay()
-    // Offset: 0x222A768
+    // Offset: 0x2276FDC
     static ::Valve::VR::CVRExtendedDisplay* get_ExtendedDisplay();
     // static public Valve.VR.CVRSettings get_Settings()
-    // Offset: 0x222A7D4
+    // Offset: 0x2277048
     static ::Valve::VR::CVRSettings* get_Settings();
     // static public Valve.VR.CVRApplications get_Applications()
-    // Offset: 0x222A840
+    // Offset: 0x22770B4
     static ::Valve::VR::CVRApplications* get_Applications();
     // static public Valve.VR.CVRScreenshots get_Screenshots()
-    // Offset: 0x222A8AC
+    // Offset: 0x2277120
     static ::Valve::VR::CVRScreenshots* get_Screenshots();
     // static public Valve.VR.CVRTrackedCamera get_TrackedCamera()
-    // Offset: 0x222A918
+    // Offset: 0x227718C
     static ::Valve::VR::CVRTrackedCamera* get_TrackedCamera();
-    // static private System.Void .cctor()
-    // Offset: 0x222AB54
-    static void _cctor();
-    // static public System.UInt32 InitInternal(ref Valve.VR.EVRInitError peError, Valve.VR.EVRApplicationType eApplicationType)
-    // Offset: 0x222A28C
-    static uint InitInternal(ByRef<::Valve::VR::EVRInitError> peError, ::Valve::VR::EVRApplicationType eApplicationType);
-    // static public System.Void ShutdownInternal()
-    // Offset: 0x222A294
-    static void ShutdownInternal();
-    // static public System.Boolean IsHmdPresent()
-    // Offset: 0x222A29C
-    static bool IsHmdPresent();
-    // static public System.Boolean IsRuntimeInstalled()
-    // Offset: 0x222A2A4
-    static bool IsRuntimeInstalled();
-    // static public System.String GetStringForHmdError(Valve.VR.EVRInitError error)
-    // Offset: 0x222A2AC
-    static ::StringW GetStringForHmdError(::Valve::VR::EVRInitError error);
-    // static public System.IntPtr GetGenericInterface(System.String pchInterfaceVersion, ref Valve.VR.EVRInitError peError)
-    // Offset: 0x222A328
-    static ::System::IntPtr GetGenericInterface(::StringW pchInterfaceVersion, ByRef<::Valve::VR::EVRInitError> peError);
-    // static public System.Boolean IsInterfaceVersionValid(System.String pchInterfaceVersion)
-    // Offset: 0x222A330
-    static bool IsInterfaceVersionValid(::StringW pchInterfaceVersion);
-    // static public System.UInt32 GetInitToken()
-    // Offset: 0x222A338
-    static uint GetInitToken();
-    // static public Valve.VR.CVRSystem Init(ref Valve.VR.EVRInitError peError, Valve.VR.EVRApplicationType eApplicationType)
-    // Offset: 0x222A984
-    static ::Valve::VR::CVRSystem* Init(ByRef<::Valve::VR::EVRInitError> peError, ::Valve::VR::EVRApplicationType eApplicationType);
-    // static public System.Void Shutdown()
-    // Offset: 0x222AAEC
-    static void Shutdown();
     // public System.Void .ctor()
-    // Offset: 0x222AB4C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x22773C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OpenVR* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Valve::VR::OpenVR::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OpenVR*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x22773C8
+    static void _cctor();
+    // static public System.UInt32 InitInternal(ref Valve.VR.EVRInitError peError, Valve.VR.EVRApplicationType eApplicationType)
+    // Offset: 0x2276B00
+    static uint InitInternal(ByRef<::Valve::VR::EVRInitError> peError, ::Valve::VR::EVRApplicationType eApplicationType);
+    // static public System.Void ShutdownInternal()
+    // Offset: 0x2276B08
+    static void ShutdownInternal();
+    // static public System.Boolean IsHmdPresent()
+    // Offset: 0x2276B10
+    static bool IsHmdPresent();
+    // static public System.Boolean IsRuntimeInstalled()
+    // Offset: 0x2276B18
+    static bool IsRuntimeInstalled();
+    // static public System.String GetStringForHmdError(Valve.VR.EVRInitError error)
+    // Offset: 0x2276B20
+    static ::StringW GetStringForHmdError(::Valve::VR::EVRInitError error);
+    // static public System.IntPtr GetGenericInterface(System.String pchInterfaceVersion, ref Valve.VR.EVRInitError peError)
+    // Offset: 0x2276B9C
+    static ::System::IntPtr GetGenericInterface(::StringW pchInterfaceVersion, ByRef<::Valve::VR::EVRInitError> peError);
+    // static public System.Boolean IsInterfaceVersionValid(System.String pchInterfaceVersion)
+    // Offset: 0x2276BA4
+    static bool IsInterfaceVersionValid(::StringW pchInterfaceVersion);
+    // static public System.UInt32 GetInitToken()
+    // Offset: 0x2276BAC
+    static uint GetInitToken();
+    // static public Valve.VR.CVRSystem Init(ref Valve.VR.EVRInitError peError, Valve.VR.EVRApplicationType eApplicationType)
+    // Offset: 0x22771F8
+    static ::Valve::VR::CVRSystem* Init(ByRef<::Valve::VR::EVRInitError> peError, ::Valve::VR::EVRApplicationType eApplicationType);
+    // static public System.Void Shutdown()
+    // Offset: 0x2277360
+    static void Shutdown();
   }; // Valve.VR.OpenVR
   #pragma pack(pop)
 }
@@ -1396,6 +1394,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVR*), "get_TrackedCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Valve::VR::OpenVR::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Valve::VR::OpenVR::_cctor
 // Il2CppName: .cctor
 template<>
@@ -1492,7 +1494,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVR*), "Shutdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Valve::VR::OpenVR::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -30,15 +30,7 @@ namespace NUnit::Framework {
   // [TokenAttribute] Offset: FFFFFFFF
   class RetryAttribute::RetryCommand : public ::NUnit::Framework::Internal::Commands::DelegatingTestCommand {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _retryCount
     // Size: 0x4
     // Offset: 0x20
@@ -47,9 +39,9 @@ namespace NUnit::Framework {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Int32 _retryCount
-    int& dyn__retryCount();
+    [[deprecated("Use field access instead!")]] int& dyn__retryCount();
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x29BA0A4
+    // Offset: 0x2A1609C
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     ::NUnit::Framework::Internal::TestResult* Execute(::NUnit::Framework::Internal::ITestExecutionContext* context);

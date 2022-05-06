@@ -57,15 +57,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::BeatEffect::Pool
     class Pool;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.SpriteRenderer _spriteRenderer
     // Size: 0x8
     // Offset: 0x18
@@ -84,7 +76,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::TubeBloomPrePassLight* tubeBloomPrePassLight;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::TubeBloomPrePassLight*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1250428
+    // [SpaceAttribute] Offset: 0x10D4F5C
     // private UnityEngine.AnimationCurve _lightIntensityCurve
     // Size: 0x8
     // Offset: 0x30
@@ -137,49 +129,43 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.SpriteRenderer _spriteRenderer
-    ::UnityEngine::SpriteRenderer*& dyn__spriteRenderer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::SpriteRenderer*& dyn__spriteRenderer();
     // Get instance field reference: private UnityEngine.Transform _spriteTransform
-    ::UnityEngine::Transform*& dyn__spriteTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__spriteTransform();
     // Get instance field reference: private TubeBloomPrePassLight _tubeBloomPrePassLight
-    ::GlobalNamespace::TubeBloomPrePassLight*& dyn__tubeBloomPrePassLight();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TubeBloomPrePassLight*& dyn__tubeBloomPrePassLight();
     // Get instance field reference: private UnityEngine.AnimationCurve _lightIntensityCurve
-    ::UnityEngine::AnimationCurve*& dyn__lightIntensityCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__lightIntensityCurve();
     // Get instance field reference: private UnityEngine.AnimationCurve _spriteXScaleCurve
-    ::UnityEngine::AnimationCurve*& dyn__spriteXScaleCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__spriteXScaleCurve();
     // Get instance field reference: private UnityEngine.AnimationCurve _spriteYScaleCurve
-    ::UnityEngine::AnimationCurve*& dyn__spriteYScaleCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__spriteYScaleCurve();
     // Get instance field reference: private UnityEngine.AnimationCurve _transparencyCurve
-    ::UnityEngine::AnimationCurve*& dyn__transparencyCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__transparencyCurve();
     // Get instance field reference: private readonly LazyCopyHashSet`1<IBeatEffectDidFinishEvent> _didFinishEvent
-    ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>*& dyn__didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>*& dyn__didFinishEvent();
     // Get instance field reference: private System.Single _animationDuration
-    float& dyn__animationDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__animationDuration();
     // Get instance field reference: private System.Single _elapsedTime
-    float& dyn__elapsedTime();
+    [[deprecated("Use field access instead!")]] float& dyn__elapsedTime();
     // Get instance field reference: private UnityEngine.Color _color
-    ::UnityEngine::Color& dyn__color();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // public ILazyCopyHashSet`1<IBeatEffectDidFinishEvent> get_didFinishEvent()
-    // Offset: 0x1362280
+    // Offset: 0x134A500
     ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* get_didFinishEvent();
-    // public System.Void Init(UnityEngine.Color color, System.Single animationDuration, UnityEngine.Quaternion rotation)
-    // Offset: 0x1362288
-    void Init(::UnityEngine::Color color, float animationDuration, ::UnityEngine::Quaternion rotation);
-    // public System.Void ManualUpdate(System.Single deltaTime)
-    // Offset: 0x136234C
-    void ManualUpdate(float deltaTime);
     // public System.Void .ctor()
-    // Offset: 0x1362604
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x134A884
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatEffect*, creationType>()));
     }
+    // public System.Void Init(UnityEngine.Color color, System.Single animationDuration, UnityEngine.Quaternion rotation)
+    // Offset: 0x134A508
+    void Init(::UnityEngine::Color color, float animationDuration, ::UnityEngine::Quaternion rotation);
+    // public System.Void ManualUpdate(System.Single deltaTime)
+    // Offset: 0x134A5CC
+    void ManualUpdate(float deltaTime);
   }; // BeatEffect
   #pragma pack(pop)
   static check_size<sizeof(BeatEffect), 96 + sizeof(::UnityEngine::Color)> __GlobalNamespace_BeatEffectSizeCheck;
@@ -194,6 +180,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatEffect*), "get_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BeatEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatEffect::Init
 // Il2CppName: Init
 template<>
@@ -214,7 +204,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatEffect*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deltaTime});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

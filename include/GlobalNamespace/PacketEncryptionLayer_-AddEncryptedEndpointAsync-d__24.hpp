@@ -99,28 +99,28 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<EncryptionUtility/IEncryptionState> <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EncryptionUtility::IEncryptionState*>& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EncryptionUtility::IEncryptionState*>& dyn_$$t__builder();
     // Get instance field reference: public System.Byte[] preMasterSecret
-    ::ArrayW<uint8_t>& dyn_preMasterSecret();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_preMasterSecret();
     // Get instance field reference: public System.Byte[] serverRandom
-    ::ArrayW<uint8_t>& dyn_serverRandom();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_serverRandom();
     // Get instance field reference: public System.Byte[] clientRandom
-    ::ArrayW<uint8_t>& dyn_clientRandom();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_clientRandom();
     // Get instance field reference: public System.Boolean isClient
-    bool& dyn_isClient();
+    [[deprecated("Use field access instead!")]] bool& dyn_isClient();
     // Get instance field reference: public PacketEncryptionLayer <>4__this
-    ::GlobalNamespace::PacketEncryptionLayer*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PacketEncryptionLayer*& dyn_$$4__this();
     // Get instance field reference: public System.Net.IPEndPoint endPoint
-    ::System::Net::IPEndPoint*& dyn_endPoint();
+    [[deprecated("Use field access instead!")]] ::System::Net::IPEndPoint*& dyn_endPoint();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<EncryptionUtility/IEncryptionState> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EncryptionUtility::IEncryptionState*>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EncryptionUtility::IEncryptionState*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x25E6724
+    // Offset: 0x2632D54
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x25E69E0
+    // Offset: 0x2633010
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // PacketEncryptionLayer/<AddEncryptedEndpointAsync>d__24
   // WARNING Not writing size check since size may be invalid!

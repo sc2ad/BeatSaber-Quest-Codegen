@@ -39,15 +39,7 @@ namespace System::Collections::Specialized {
   // [TokenAttribute] Offset: FFFFFFFF
   class OrderedDictionary::OrderedDictionaryKeyValueCollection : public ::Il2CppObject/*, public ::System::Collections::ICollection*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.ArrayList _objects
     // Size: 0x8
     // Offset: 0x10
@@ -66,27 +58,27 @@ namespace System::Collections::Specialized {
       return *reinterpret_cast<::System::Collections::ICollection*>(this);
     }
     // Get instance field reference: private System.Collections.ArrayList _objects
-    ::System::Collections::ArrayList*& dyn__objects();
+    [[deprecated("Use field access instead!")]] ::System::Collections::ArrayList*& dyn__objects();
     // Get instance field reference: private System.Boolean isKeys
-    bool& dyn_isKeys();
+    [[deprecated("Use field access instead!")]] bool& dyn_isKeys();
     // private System.Int32 System.Collections.ICollection.get_Count()
-    // Offset: 0x1D579A8
+    // Offset: 0x1D92F00
     int System_Collections_ICollection_get_Count();
     // private System.Object System.Collections.ICollection.get_SyncRoot()
-    // Offset: 0x1D579CC
+    // Offset: 0x1D92F24
     ::Il2CppObject* System_Collections_ICollection_get_SyncRoot();
     // public System.Void .ctor(System.Collections.ArrayList array, System.Boolean isKeys)
-    // Offset: 0x1D56174
+    // Offset: 0x1D916CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OrderedDictionary::OrderedDictionaryKeyValueCollection* New_ctor(::System::Collections::ArrayList* array, bool isKeys) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Specialized::OrderedDictionary::OrderedDictionaryKeyValueCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OrderedDictionary::OrderedDictionaryKeyValueCollection*, creationType>(array, isKeys)));
     }
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x1D576A0
+    // Offset: 0x1D92BF8
     void System_Collections_ICollection_CopyTo(::System::Array* array, int index);
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1D579F0
+    // Offset: 0x1D92F48
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Collections.Specialized.OrderedDictionary/System.Collections.Specialized.OrderedDictionaryKeyValueCollection
   #pragma pack(pop)

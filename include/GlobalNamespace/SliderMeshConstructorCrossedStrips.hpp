@@ -36,15 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SliderMeshConstructorCrossedStrips : public ::GlobalNamespace::SliderMeshConstructor {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Int32[] _triangleMap
     // Size: 0x8
     // Offset: 0x48
@@ -53,33 +45,28 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<int>) == 0x8);
     public:
     // Get instance field reference: private readonly System.Int32[] _triangleMap
-    ::ArrayW<int>& dyn__triangleMap();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__triangleMap();
     // public System.Void .ctor()
-    // Offset: 0x2AA266C
+    // Offset: 0x1389290
     // Implemented from: SliderMeshConstructor
     // Base method: System.Void SliderMeshConstructor::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderMeshConstructorCrossedStrips* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderMeshConstructorCrossedStrips::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderMeshConstructorCrossedStrips*, creationType>()));
     }
     // protected override System.Void CreateSliderMeshInternal(VertexPath path)
-    // Offset: 0x2AA2178
+    // Offset: 0x1388D9C
     // Implemented from: SliderMeshConstructor
     // Base method: System.Void SliderMeshConstructor::CreateSliderMeshInternal(VertexPath path)
     void CreateSliderMeshInternal(::GlobalNamespace::VertexPath* path);
     // protected override System.Int32 GetVertexCount(VertexPath path)
-    // Offset: 0x2AA2614
+    // Offset: 0x1389238
     // Implemented from: SliderMeshConstructor
     // Base method: System.Int32 SliderMeshConstructor::GetVertexCount(VertexPath path)
     int GetVertexCount(::GlobalNamespace::VertexPath* path);
     // protected override System.Int32 GetTrianglesCount(VertexPath path)
-    // Offset: 0x2AA263C
+    // Offset: 0x1389260
     // Implemented from: SliderMeshConstructor
     // Base method: System.Int32 SliderMeshConstructor::GetTrianglesCount(VertexPath path)
     int GetTrianglesCount(::GlobalNamespace::VertexPath* path);

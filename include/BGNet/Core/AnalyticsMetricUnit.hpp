@@ -84,7 +84,7 @@ namespace BGNet::Core {
     // Set static field: static public BGNet.Core.AnalyticsMetricUnit Bytes
     static void _set_Bytes(::BGNet::Core::AnalyticsMetricUnit value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // BGNet.Core.AnalyticsMetricUnit
   #pragma pack(pop)
   static check_size<sizeof(AnalyticsMetricUnit), 0 + sizeof(int)> __BGNet_Core_AnalyticsMetricUnitSizeCheck;

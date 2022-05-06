@@ -50,15 +50,7 @@ namespace System::Net::Http {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpResponseMessage : public ::Il2CppObject/*, public ::System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Net.Http.Headers.HttpResponseHeaders headers
     // Size: 0x8
     // Offset: 0x10
@@ -111,67 +103,67 @@ namespace System::Net::Http {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get instance field reference: private System.Net.Http.Headers.HttpResponseHeaders headers
-    ::System::Net::Http::Headers::HttpResponseHeaders*& dyn_headers();
+    [[deprecated("Use field access instead!")]] ::System::Net::Http::Headers::HttpResponseHeaders*& dyn_headers();
     // Get instance field reference: private System.String reasonPhrase
-    ::StringW& dyn_reasonPhrase();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_reasonPhrase();
     // Get instance field reference: private System.Net.HttpStatusCode statusCode
-    ::System::Net::HttpStatusCode& dyn_statusCode();
+    [[deprecated("Use field access instead!")]] ::System::Net::HttpStatusCode& dyn_statusCode();
     // Get instance field reference: private System.Version version
-    ::System::Version*& dyn_version();
+    [[deprecated("Use field access instead!")]] ::System::Version*& dyn_version();
     // Get instance field reference: private System.Boolean disposed
-    bool& dyn_disposed();
+    [[deprecated("Use field access instead!")]] bool& dyn_disposed();
     // Get instance field reference: private System.Net.Http.HttpContent <Content>k__BackingField
-    ::System::Net::Http::HttpContent*& dyn_$Content$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Net::Http::HttpContent*& dyn_$Content$k__BackingField();
     // Get instance field reference: private System.Net.Http.HttpRequestMessage <RequestMessage>k__BackingField
-    ::System::Net::Http::HttpRequestMessage*& dyn_$RequestMessage$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Net::Http::HttpRequestMessage*& dyn_$RequestMessage$k__BackingField();
     // public System.Net.Http.HttpContent get_Content()
-    // Offset: 0x196778C
+    // Offset: 0x199FD74
     ::System::Net::Http::HttpContent* get_Content();
     // public System.Void set_Content(System.Net.Http.HttpContent value)
-    // Offset: 0x1967794
+    // Offset: 0x199FD7C
     void set_Content(::System::Net::Http::HttpContent* value);
     // public System.Net.Http.Headers.HttpResponseHeaders get_Headers()
-    // Offset: 0x1964BB8
+    // Offset: 0x199D1A0
     ::System::Net::Http::Headers::HttpResponseHeaders* get_Headers();
     // public System.Boolean get_IsSuccessStatusCode()
-    // Offset: 0x196779C
+    // Offset: 0x199FD84
     bool get_IsSuccessStatusCode();
     // public System.String get_ReasonPhrase()
-    // Offset: 0x19677B0
+    // Offset: 0x199FD98
     ::StringW get_ReasonPhrase();
     // public System.Void set_ReasonPhrase(System.String value)
-    // Offset: 0x19677CC
+    // Offset: 0x199FDB4
     void set_ReasonPhrase(::StringW value);
     // public System.Void set_RequestMessage(System.Net.Http.HttpRequestMessage value)
-    // Offset: 0x19677D4
+    // Offset: 0x199FDBC
     void set_RequestMessage(::System::Net::Http::HttpRequestMessage* value);
     // public System.Net.HttpStatusCode get_StatusCode()
-    // Offset: 0x19677DC
+    // Offset: 0x199FDC4
     ::System::Net::HttpStatusCode get_StatusCode();
     // public System.Void set_StatusCode(System.Net.HttpStatusCode value)
-    // Offset: 0x1967708
+    // Offset: 0x199FCF0
     void set_StatusCode(::System::Net::HttpStatusCode value);
     // public System.Version get_Version()
-    // Offset: 0x19677E4
+    // Offset: 0x199FDCC
     ::System::Version* get_Version();
     // public System.Void .ctor(System.Net.HttpStatusCode statusCode)
-    // Offset: 0x1964B5C
+    // Offset: 0x199D144
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpResponseMessage* New_ctor(::System::Net::HttpStatusCode statusCode) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::HttpResponseMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpResponseMessage*, creationType>(statusCode)));
     }
     // public System.Void Dispose()
-    // Offset: 0x1967858
+    // Offset: 0x199FE40
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1967868
+    // Offset: 0x199FE50
     void Dispose(bool disposing);
     // public System.Net.Http.HttpResponseMessage EnsureSuccessStatusCode()
-    // Offset: 0x19638B4
+    // Offset: 0x199BE9C
     ::System::Net::Http::HttpResponseMessage* EnsureSuccessStatusCode();
     // public override System.String ToString()
-    // Offset: 0x196789C
+    // Offset: 0x199FE84
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

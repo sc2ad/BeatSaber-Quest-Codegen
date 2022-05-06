@@ -103,7 +103,7 @@ namespace GlobalNamespace {
       // Set static field: static public GhostEffectBehaviour/EndBehavior Nothing
       static void _set_Nothing(::GlobalNamespace::GhostEffectBehaviour::EndBehavior value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // GhostEffectBehaviour/EndBehavior
     #pragma pack(pop)
     static check_size<sizeof(GhostEffectBehaviour::EndBehavior), 0 + sizeof(int)> __GlobalNamespace_GhostEffectBehaviour_EndBehaviorSizeCheck;
@@ -145,20 +145,12 @@ namespace GlobalNamespace {
       // Set static field: static public GhostEffectBehaviour/GhostEffectType Canvas
       static void _set_Canvas(::GlobalNamespace::GhostEffectBehaviour::GhostEffectType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // GhostEffectBehaviour/GhostEffectType
     #pragma pack(pop)
     static check_size<sizeof(GhostEffectBehaviour::GhostEffectType), 0 + sizeof(int)> __GlobalNamespace_GhostEffectBehaviour_GhostEffectTypeSizeCheck;
     static_assert(sizeof(GhostEffectBehaviour::GhostEffectType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.AnimationCurve alphaCurve
     // Size: 0x8
     // Offset: 0x10
@@ -183,15 +175,15 @@ namespace GlobalNamespace {
     ::UnityEngine::Vector3 distanceMultiplier;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [SpaceAttribute] Offset: 0x125FCF4
-    // [TooltipAttribute] Offset: 0x125FCF4
+    // [SpaceAttribute] Offset: 0x10E499C
+    // [TooltipAttribute] Offset: 0x10E499C
     // public System.Boolean _useStartTransform
     // Size: 0x1
     // Offset: 0x34
     bool useStartTransform;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0x125FD40
+    // [TooltipAttribute] Offset: 0x10E49E8
     // public System.Boolean _useEndTransform
     // Size: 0x1
     // Offset: 0x35
@@ -200,8 +192,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useEndTransform and: startLocalPosition
     char __padding5[0x2] = {};
-    // [SpaceAttribute] Offset: 0x125FD78
-    // [DrawIfAttribute] Offset: 0x125FD78
+    // [SpaceAttribute] Offset: 0x10E4A20
+    // [DrawIfAttribute] Offset: 0x10E4A20
     // public UnityEngine.Vector3 _startLocalPosition
     // Size: 0xC
     // Offset: 0x38
@@ -210,15 +202,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // Padding between fields: startLocalPosition and: startTransform
     char __padding6[0x4] = {};
-    // [DrawIfAttribute] Offset: 0x125FE1C
-    // [NullAllowed] Offset: 0x125FE1C
+    // [DrawIfAttribute] Offset: 0x10E4AC4
+    // [NullAllowed] Offset: 0x10E4AC4
     // public UnityEngine.Transform _startTransform
     // Size: 0x8
     // Offset: 0x48
     ::UnityEngine::Transform* startTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [DrawIfAttribute] Offset: 0x125FEC4
+    // [DrawIfAttribute] Offset: 0x10E4B6C
     // public UnityEngine.Vector3 _endLocalPosition
     // Size: 0xC
     // Offset: 0x50
@@ -227,8 +219,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // Padding between fields: endLocalPosition and: endTransform
     char __padding8[0x4] = {};
-    // [DrawIfAttribute] Offset: 0x125FF58
-    // [NullAllowed] Offset: 0x125FF58
+    // [DrawIfAttribute] Offset: 0x10E4C00
+    // [NullAllowed] Offset: 0x10E4C00
     // public UnityEngine.Transform _endTransform
     // Size: 0x8
     // Offset: 0x60
@@ -241,7 +233,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::EaseType positionEasing;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EaseType) == 0x4);
-    // [SpaceAttribute] Offset: 0x1260000
+    // [SpaceAttribute] Offset: 0x10E4CA8
     // public GhostEffectBehaviour/EndBehavior _endBehavior
     // Size: 0x4
     // Offset: 0x6C
@@ -256,14 +248,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: progress and: textMeshPros
     char __padding12[0x4] = {};
-    // [NullAllowed] Offset: 0x1260010
+    // [NullAllowed] Offset: 0x10E4CB8
     // public TMPro.TextMeshPro[] textMeshPros
     // Size: 0x8
     // Offset: 0x78
     ::ArrayW<::TMPro::TextMeshPro*> textMeshPros;
     // Field size check
     static_assert(sizeof(::ArrayW<::TMPro::TextMeshPro*>) == 0x8);
-    // [NullAllowed] Offset: 0x1260048
+    // [NullAllowed] Offset: 0x10E4CF0
     // public UnityEngine.CanvasGroup[] _canvasGroups
     // Size: 0x8
     // Offset: 0x80
@@ -278,7 +270,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::GhostEffectBehaviour::GhostEffectType) == 0x4);
     // Padding between fields: ghostEffectType and: ghostEffectTransform
     char __padding15[0x4] = {};
-    // [NullAllowed] Offset: 0x1260090
+    // [NullAllowed] Offset: 0x10E4D38
     // public UnityEngine.Transform _ghostEffectTransform
     // Size: 0x8
     // Offset: 0x90
@@ -299,63 +291,60 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public UnityEngine.AnimationCurve alphaCurve
-    ::UnityEngine::AnimationCurve*& dyn_alphaCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_alphaCurve();
     // Get instance field reference: public UnityEngine.AnimationCurve sizeCurve
-    ::UnityEngine::AnimationCurve*& dyn_sizeCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_sizeCurve();
     // Get instance field reference: public UnityEngine.AnimationCurve distanceCurve
-    ::UnityEngine::AnimationCurve*& dyn_distanceCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_distanceCurve();
     // Get instance field reference: public UnityEngine.Vector3 _distanceMultiplier
-    ::UnityEngine::Vector3& dyn__distanceMultiplier();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__distanceMultiplier();
     // Get instance field reference: public System.Boolean _useStartTransform
-    bool& dyn__useStartTransform();
+    [[deprecated("Use field access instead!")]] bool& dyn__useStartTransform();
     // Get instance field reference: public System.Boolean _useEndTransform
-    bool& dyn__useEndTransform();
+    [[deprecated("Use field access instead!")]] bool& dyn__useEndTransform();
     // Get instance field reference: public UnityEngine.Vector3 _startLocalPosition
-    ::UnityEngine::Vector3& dyn__startLocalPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__startLocalPosition();
     // Get instance field reference: public UnityEngine.Transform _startTransform
-    ::UnityEngine::Transform*& dyn__startTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__startTransform();
     // Get instance field reference: public UnityEngine.Vector3 _endLocalPosition
-    ::UnityEngine::Vector3& dyn__endLocalPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__endLocalPosition();
     // Get instance field reference: public UnityEngine.Transform _endTransform
-    ::UnityEngine::Transform*& dyn__endTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__endTransform();
     // Get instance field reference: public EaseType _positionEasing
-    ::GlobalNamespace::EaseType& dyn__positionEasing();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EaseType& dyn__positionEasing();
     // Get instance field reference: public GhostEffectBehaviour/EndBehavior _endBehavior
-    ::GlobalNamespace::GhostEffectBehaviour::EndBehavior& dyn__endBehavior();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GhostEffectBehaviour::EndBehavior& dyn__endBehavior();
     // Get instance field reference: public System.Single progress
-    float& dyn_progress();
+    [[deprecated("Use field access instead!")]] float& dyn_progress();
     // Get instance field reference: public TMPro.TextMeshPro[] textMeshPros
-    ::ArrayW<::TMPro::TextMeshPro*>& dyn_textMeshPros();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::TMPro::TextMeshPro*>& dyn_textMeshPros();
     // Get instance field reference: public UnityEngine.CanvasGroup[] _canvasGroups
-    ::ArrayW<::UnityEngine::CanvasGroup*>& dyn__canvasGroups();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::CanvasGroup*>& dyn__canvasGroups();
     // Get instance field reference: public GhostEffectBehaviour/GhostEffectType _ghostEffectType
-    ::GlobalNamespace::GhostEffectBehaviour::GhostEffectType& dyn__ghostEffectType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GhostEffectBehaviour::GhostEffectType& dyn__ghostEffectType();
     // Get instance field reference: public UnityEngine.Transform _ghostEffectTransform
-    ::UnityEngine::Transform*& dyn__ghostEffectTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__ghostEffectTransform();
     // Get instance field reference: private UnityEngine.Vector3 _direction
-    ::UnityEngine::Vector3& dyn__direction();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__direction();
     // Get instance field reference: private System.Boolean _finished
-    bool& dyn__finished();
-    // private System.Void EnableObjects(System.Boolean on)
-    // Offset: 0x13EA044
-    void EnableObjects(bool on);
+    [[deprecated("Use field access instead!")]] bool& dyn__finished();
     // public System.Void .ctor()
-    // Offset: 0x13EA60C
-    // Implemented from: UnityEngine.Playables.PlayableBehaviour
-    // Base method: System.Void PlayableBehaviour::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13F70AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GhostEffectBehaviour* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GhostEffectBehaviour::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GhostEffectBehaviour*, creationType>()));
     }
+    // private System.Void EnableObjects(System.Boolean on)
+    // Offset: 0x13F6AE4
+    void EnableObjects(bool on);
     // public override System.Void OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x13E9EE8
+    // Offset: 0x13F6988
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
     // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0x13EA16C
+    // Offset: 0x13F6C0C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
@@ -369,6 +358,10 @@ DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GhostEffectBehaviour::GhostEffectType,
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GhostEffectBehaviour::EndBehavior, "", "GhostEffectBehaviour/EndBehavior");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::GhostEffectBehaviour::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GhostEffectBehaviour::EnableObjects
 // Il2CppName: EnableObjects
 template<>
@@ -378,10 +371,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GhostEffectBehaviour*), "EnableObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{on});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GhostEffectBehaviour::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GhostEffectBehaviour::OnBehaviourPlay
 // Il2CppName: OnBehaviourPlay
 template<>

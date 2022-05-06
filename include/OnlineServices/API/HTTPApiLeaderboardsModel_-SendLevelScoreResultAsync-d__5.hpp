@@ -83,22 +83,22 @@ namespace OnlineServices::API {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<OnlineServices.API.Response> <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OnlineServices::API::Response>& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OnlineServices::API::Response>& dyn_$$t__builder();
     // Get instance field reference: public OnlineServices.API.HTTPApiLeaderboardsModel <>4__this
-    ::OnlineServices::API::HTTPApiLeaderboardsModel*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::OnlineServices::API::HTTPApiLeaderboardsModel*& dyn_$$4__this();
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.LevelScoreResult levelScoreResult
-    ::BeatSaberAPI::DataTransferObjects::LevelScoreResult*& dyn_levelScoreResult();
+    [[deprecated("Use field access instead!")]] ::BeatSaberAPI::DataTransferObjects::LevelScoreResult*& dyn_levelScoreResult();
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
-    ::System::Threading::CancellationToken& dyn_cancellationToken();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x151B574
+    // Offset: 0x1552E7C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x151B7E8
+    // Offset: 0x15530F0
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.HTTPApiLeaderboardsModel/OnlineServices.API.<SendLevelScoreResultAsync>d__5
   // WARNING Not writing size check since size may be invalid!

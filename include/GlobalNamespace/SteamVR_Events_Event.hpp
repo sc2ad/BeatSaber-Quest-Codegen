@@ -32,30 +32,30 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_Events::Event : public ::UnityEngine::Events::UnityEvent {
     public:
-    // public System.Void Listen(UnityEngine.Events.UnityAction action)
-    // Offset: 0x186A078
-    void Listen(::UnityEngine::Events::UnityAction* action);
-    // public System.Void Remove(UnityEngine.Events.UnityAction action)
-    // Offset: 0x186A14C
-    void Remove(::UnityEngine::Events::UnityAction* action);
-    // public System.Void Send()
-    // Offset: 0x186AD28
-    void Send();
     // public System.Void .ctor()
-    // Offset: 0x186ACE8
-    // Implemented from: UnityEngine.Events.UnityEvent
-    // Base method: System.Void UnityEvent::.ctor()
-    // Base method: System.Void UnityEventBase::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18A45F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Events::Event* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Events::Event::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Events::Event*, creationType>()));
     }
+    // public System.Void Listen(UnityEngine.Events.UnityAction action)
+    // Offset: 0x18A3988
+    void Listen(::UnityEngine::Events::UnityAction* action);
+    // public System.Void Remove(UnityEngine.Events.UnityAction action)
+    // Offset: 0x18A3A5C
+    void Remove(::UnityEngine::Events::UnityAction* action);
+    // public System.Void Send()
+    // Offset: 0x18A4638
+    void Send();
   }; // SteamVR_Events/Event
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::Event::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::Event::Listen
 // Il2CppName: Listen
 template<>
@@ -82,7 +82,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events::Event*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::Event::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -25,15 +25,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class IesParameters : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::ICipherParameters*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Byte[] derivation
     // Size: 0x8
     // Offset: 0x10
@@ -58,19 +50,19 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
     // Get instance field reference: private System.Byte[] derivation
-    ::ArrayW<uint8_t>& dyn_derivation();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_derivation();
     // Get instance field reference: private System.Byte[] encoding
-    ::ArrayW<uint8_t>& dyn_encoding();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_encoding();
     // Get instance field reference: private System.Int32 macKeySize
-    int& dyn_macKeySize();
+    [[deprecated("Use field access instead!")]] int& dyn_macKeySize();
     // public System.Int32 get_MacKeySize()
-    // Offset: 0x15C38B4
+    // Offset: 0x15F91C4
     int get_MacKeySize();
     // public System.Byte[] GetDerivationV()
-    // Offset: 0x15C38A4
+    // Offset: 0x15F91B4
     ::ArrayW<uint8_t> GetDerivationV();
     // public System.Byte[] GetEncodingV()
-    // Offset: 0x15C38AC
+    // Offset: 0x15F91BC
     ::ArrayW<uint8_t> GetEncodingV();
   }; // Org.BouncyCastle.Crypto.Parameters.IesParameters
   #pragma pack(pop)

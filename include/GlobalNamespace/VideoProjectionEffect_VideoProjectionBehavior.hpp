@@ -44,15 +44,7 @@ namespace GlobalNamespace {
     class $$c__DisplayClass7_0;
     // Nested type: ::GlobalNamespace::VideoProjectionEffect::VideoProjectionBehavior::$LoadPreviewCoverAsset$d__8
     struct $LoadPreviewCoverAsset$d__8;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected System.Int32 _eventValue
     // Size: 0x4
     // Offset: 0x10
@@ -83,30 +75,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::IPreviewBeatmapLevel*) == 0x8);
     public:
     // Get instance field reference: protected System.Int32 _eventValue
-    int& dyn__eventValue();
+    [[deprecated("Use field access instead!")]] int& dyn__eventValue();
     // Get instance field reference: protected UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.Video.VideoClip> _videoClipHandle
-    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::Video::VideoClip*>& dyn__videoClipHandle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::Video::VideoClip*>& dyn__videoClipHandle();
     // Get instance field reference: private readonly VideoProjectionDataModelSO _model
-    ::GlobalNamespace::VideoProjectionDataModelSO*& dyn__model();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VideoProjectionDataModelSO*& dyn__model();
     // Get instance field reference: private readonly SongTimeSyncedVideoPlayer _videoPlayer
-    ::GlobalNamespace::SongTimeSyncedVideoPlayer*& dyn__videoPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongTimeSyncedVideoPlayer*& dyn__videoPlayer();
     // Get instance field reference: private readonly IPreviewBeatmapLevel _previewBeatmapLevel
-    ::GlobalNamespace::IPreviewBeatmapLevel*& dyn__previewBeatmapLevel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPreviewBeatmapLevel*& dyn__previewBeatmapLevel();
     // protected System.Void .ctor(VideoProjectionDataModelSO dataModel, SongTimeSyncedVideoPlayer videoPlayer, IPreviewBeatmapLevel previewBeatmapLevel)
-    // Offset: 0x2AC4578
+    // Offset: 0x2A2E344
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VideoProjectionEffect::VideoProjectionBehavior* New_ctor(::GlobalNamespace::VideoProjectionDataModelSO* dataModel, ::GlobalNamespace::SongTimeSyncedVideoPlayer* videoPlayer, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VideoProjectionEffect::VideoProjectionBehavior::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VideoProjectionEffect::VideoProjectionBehavior*, creationType>(dataModel, videoPlayer, previewBeatmapLevel)));
     }
     // public System.Void Dispose()
-    // Offset: 0x2AC48D8
+    // Offset: 0x2A2E6A4
     void Dispose();
     // protected System.Void LoadVideoFromModel(System.Int32 eventValue)
-    // Offset: 0x2AC45B8
+    // Offset: 0x2A2E384
     void LoadVideoFromModel(int eventValue);
     // protected System.Void LoadPreviewCoverAsset()
-    // Offset: 0x2AC47E4
+    // Offset: 0x2A2E5B0
     void LoadPreviewCoverAsset();
   }; // VideoProjectionEffect/VideoProjectionBehavior
   // WARNING Not writing size check since size may be invalid!

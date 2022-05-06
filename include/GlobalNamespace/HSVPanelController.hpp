@@ -52,15 +52,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HSVPanelController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private ColorSaturationValueSlider _colorSaturationValueSlider
     // Size: 0x8
     // Offset: 0x18
@@ -89,56 +81,50 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ColorSaturationValueSlider _colorSaturationValueSlider
-    ::GlobalNamespace::ColorSaturationValueSlider*& dyn__colorSaturationValueSlider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSaturationValueSlider*& dyn__colorSaturationValueSlider();
     // Get instance field reference: private ColorHueSlider _colorHueSlider
-    ::GlobalNamespace::ColorHueSlider*& dyn__colorHueSlider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorHueSlider*& dyn__colorHueSlider();
     // Get instance field reference: private System.Action`2<UnityEngine.Color,ColorChangeUIEventType> colorDidChangeEvent
-    ::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*& dyn_colorDidChangeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*& dyn_colorDidChangeEvent();
     // Get instance field reference: private UnityEngine.Vector3 _hsvColor
-    ::UnityEngine::Vector3& dyn__hsvColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__hsvColor();
     // public UnityEngine.Color get_color()
-    // Offset: 0x13AEBF8
+    // Offset: 0x13AA0A4
     ::UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x13AEC08
+    // Offset: 0x13AA0B4
     void set_color(::UnityEngine::Color value);
     // public System.Void add_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x13AEAB0
+    // Offset: 0x13A9F5C
     void add_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x13AEB54
+    // Offset: 0x13AA000
     void remove_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
-    // protected System.Void Awake()
-    // Offset: 0x13AECD0
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13AEDB0
-    void OnDestroy();
-    // private System.Void HandleColorSaturationOrValueDidChange(ColorSaturationValueSlider slider, UnityEngine.Vector2 colorSaturationAndValue, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x13AEF08
-    void HandleColorSaturationOrValueDidChange(::GlobalNamespace::ColorSaturationValueSlider* slider, ::UnityEngine::Vector2 colorSaturationAndValue, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
-    // private System.Void HandleColorHueDidChange(ColorHueSlider slider, System.Single hue, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x13AEFA0
-    void HandleColorHueDidChange(::GlobalNamespace::ColorHueSlider* slider, float hue, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
-    // private System.Void RefreshSlidersValues()
-    // Offset: 0x13AEC68
-    void RefreshSlidersValues();
-    // private System.Void RefreshSlidersColors()
-    // Offset: 0x13AEC44
-    void RefreshSlidersColors();
     // public System.Void .ctor()
-    // Offset: 0x13AF030
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13AA4DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HSVPanelController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HSVPanelController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HSVPanelController*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x13AA17C
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13AA25C
+    void OnDestroy();
+    // private System.Void HandleColorSaturationOrValueDidChange(ColorSaturationValueSlider slider, UnityEngine.Vector2 colorSaturationAndValue, ColorChangeUIEventType colorChangeUIEventType)
+    // Offset: 0x13AA3B4
+    void HandleColorSaturationOrValueDidChange(::GlobalNamespace::ColorSaturationValueSlider* slider, ::UnityEngine::Vector2 colorSaturationAndValue, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
+    // private System.Void HandleColorHueDidChange(ColorHueSlider slider, System.Single hue, ColorChangeUIEventType colorChangeUIEventType)
+    // Offset: 0x13AA44C
+    void HandleColorHueDidChange(::GlobalNamespace::ColorHueSlider* slider, float hue, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
+    // private System.Void RefreshSlidersValues()
+    // Offset: 0x13AA114
+    void RefreshSlidersValues();
+    // private System.Void RefreshSlidersColors()
+    // Offset: 0x13AA0F0
+    void RefreshSlidersColors();
   }; // HSVPanelController
   #pragma pack(pop)
   static check_size<sizeof(HSVPanelController), 48 + sizeof(::UnityEngine::Vector3)> __GlobalNamespace_HSVPanelControllerSizeCheck;
@@ -180,6 +166,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HSVPanelController*), "remove_colorDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::HSVPanelController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::HSVPanelController::Awake
 // Il2CppName: Awake
 template<>
@@ -234,7 +224,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HSVPanelController*), "RefreshSlidersColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::HSVPanelController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

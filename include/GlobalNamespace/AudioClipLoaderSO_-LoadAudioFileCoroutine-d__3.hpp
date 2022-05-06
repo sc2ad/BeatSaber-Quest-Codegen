@@ -45,15 +45,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class AudioClipLoaderSO::$LoadAudioFileCoroutine$d__3 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -98,41 +90,41 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Object <>2__current
-    ::Il2CppObject*& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$$2__current();
     // Get instance field reference: public System.String filePath
-    ::StringW& dyn_filePath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_filePath();
     // Get instance field reference: public System.Action`1<UnityEngine.AudioClip> finishCallback
-    ::System::Action_1<::UnityEngine::AudioClip*>*& dyn_finishCallback();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::UnityEngine::AudioClip*>*& dyn_finishCallback();
     // Get instance field reference: public AudioClipLoaderSO <>4__this
-    ::GlobalNamespace::AudioClipLoaderSO*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioClipLoaderSO*& dyn_$$4__this();
     // Get instance field reference: private UnityEngine.Networking.UnityWebRequest <www>5__2
-    ::UnityEngine::Networking::UnityWebRequest*& dyn_$www$5__2();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Networking::UnityWebRequest*& dyn_$www$5__2();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x14B8C2C
+    // Offset: 0x14F04E4
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x14B8C94
+    // Offset: 0x14F054C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x14B88F0
+    // Offset: 0x14F01A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioClipLoaderSO::$LoadAudioFileCoroutine$d__3* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AudioClipLoaderSO::$LoadAudioFileCoroutine$d__3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioClipLoaderSO::$LoadAudioFileCoroutine$d__3*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x14B8924
+    // Offset: 0x14F01DC
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x14B8A00
+    // Offset: 0x14F02B8
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x14B8940
+    // Offset: 0x14F01F8
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x14B8C34
+    // Offset: 0x14F04EC
     void System_Collections_IEnumerator_Reset();
   }; // AudioClipLoaderSO/<LoadAudioFileCoroutine>d__3
   #pragma pack(pop)

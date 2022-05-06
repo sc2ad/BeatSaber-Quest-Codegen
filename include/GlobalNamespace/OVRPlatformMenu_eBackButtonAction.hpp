@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlatformMenu/eBackButtonAction SHORT_PRESS
     static void _set_SHORT_PRESS(::GlobalNamespace::OVRPlatformMenu::eBackButtonAction value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVRPlatformMenu/eBackButtonAction
   #pragma pack(pop)
   static check_size<sizeof(OVRPlatformMenu::eBackButtonAction), 0 + sizeof(int)> __GlobalNamespace_OVRPlatformMenu_eBackButtonActionSizeCheck;

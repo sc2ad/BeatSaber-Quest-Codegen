@@ -38,15 +38,7 @@ namespace HoudiniEngineUnity {
     public:
     // Nested type: ::HoudiniEngineUnity::HEU_SessionSyncData::Status
     struct Status;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _status
     // Size: 0x4
     // Offset: 0x10
@@ -117,35 +109,33 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::HoudiniEngineUnity::HAPI_SessionSyncInfo) == 0x2);
     public:
     // Get instance field reference: private System.Int32 _status
-    int& dyn__status();
+    [[deprecated("Use field access instead!")]] int& dyn__status();
     // Get instance field reference: public System.Single _timeLastUpdate
-    float& dyn__timeLastUpdate();
+    [[deprecated("Use field access instead!")]] float& dyn__timeLastUpdate();
     // Get instance field reference: public System.Single _timeStartConnection
-    float& dyn__timeStartConnection();
+    [[deprecated("Use field access instead!")]] float& dyn__timeStartConnection();
     // Get instance field reference: public System.String _newNodeName
-    ::StringW& dyn__newNodeName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__newNodeName();
     // Get instance field reference: public System.Int32 _nodeTypeIndex
-    int& dyn__nodeTypeIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__nodeTypeIndex();
     // Get instance field reference: public System.Boolean _validForConnection
-    bool& dyn__validForConnection();
+    [[deprecated("Use field access instead!")]] bool& dyn__validForConnection();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_Viewport _viewportHAPI
-    ::HoudiniEngineUnity::HAPI_Viewport& dyn__viewportHAPI();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_Viewport& dyn__viewportHAPI();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_Viewport _viewportLocal
-    ::HoudiniEngineUnity::HAPI_Viewport& dyn__viewportLocal();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_Viewport& dyn__viewportLocal();
     // Get instance field reference: public System.Boolean _viewportJustUpdated
-    bool& dyn__viewportJustUpdated();
+    [[deprecated("Use field access instead!")]] bool& dyn__viewportJustUpdated();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_SessionSyncInfo _syncInfo
-    ::HoudiniEngineUnity::HAPI_SessionSyncInfo& dyn__syncInfo();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_SessionSyncInfo& dyn__syncInfo();
     // public HoudiniEngineUnity.HEU_SessionSyncData/HoudiniEngineUnity.Status get_SyncStatus()
-    // Offset: 0x1ACC638
+    // Offset: 0x1B07C20
     ::HoudiniEngineUnity::HEU_SessionSyncData::Status get_SyncStatus();
     // public System.Void set_SyncStatus(HoudiniEngineUnity.HEU_SessionSyncData/HoudiniEngineUnity.Status value)
-    // Offset: 0x1ACC64C
+    // Offset: 0x1B07C34
     void set_SyncStatus(::HoudiniEngineUnity::HEU_SessionSyncData::Status value);
     // public System.Void .ctor()
-    // Offset: 0x1AC9358
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B04940
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_SessionSyncData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_SessionSyncData::.ctor");

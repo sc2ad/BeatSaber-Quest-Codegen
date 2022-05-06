@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlatformLeaderboardsModel::LeaderboardScore : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Int32 score
     // Size: 0x4
     // Offset: 0x10
@@ -72,15 +64,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly System.Int32 score
-    int& dyn_score();
+    [[deprecated("Use field access instead!")]] int& dyn_score();
     // Get instance field reference: public readonly System.Int32 rank
-    int& dyn_rank();
+    [[deprecated("Use field access instead!")]] int& dyn_rank();
     // Get instance field reference: public readonly System.String playerName
-    ::StringW& dyn_playerName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_playerName();
     // Get instance field reference: public readonly System.String playerId
-    ::StringW& dyn_playerId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_playerId();
     // public System.Void .ctor(System.Int32 score, System.Int32 rank, System.String playerName, System.String playerId, System.Collections.Generic.List`1<GameplayModifierParamsSO> gameplayModifiers)
-    // Offset: 0x12F479C
+    // Offset: 0x1365754
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformLeaderboardsModel::LeaderboardScore* New_ctor(int score, int rank, ::StringW playerName, ::StringW playerId, ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* gameplayModifiers) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore::.ctor");

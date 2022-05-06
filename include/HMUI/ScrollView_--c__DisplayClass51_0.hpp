@@ -24,15 +24,7 @@ namespace HMUI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ScrollView::$$c__DisplayClass51_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single threshold
     // Size: 0x4
     // Offset: 0x10
@@ -45,25 +37,27 @@ namespace HMUI {
       return threshold;
     }
     // Get instance field reference: public System.Single threshold
-    float& dyn_threshold();
-    // System.Boolean <PageDownButtonPressed>b__0(System.Single pos)
-    // Offset: 0x168A684
-    bool $PageDownButtonPressed$b__0(float pos);
+    [[deprecated("Use field access instead!")]] float& dyn_threshold();
     // public System.Void .ctor()
-    // Offset: 0x1689D34
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16C0644
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScrollView::$$c__DisplayClass51_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ScrollView::$$c__DisplayClass51_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScrollView::$$c__DisplayClass51_0*, creationType>()));
     }
+    // System.Boolean <PageDownButtonPressed>b__0(System.Single pos)
+    // Offset: 0x16C0F94
+    bool $PageDownButtonPressed$b__0(float pos);
   }; // HMUI.ScrollView/HMUI.<>c__DisplayClass51_0
   #pragma pack(pop)
   static check_size<sizeof(ScrollView::$$c__DisplayClass51_0), 16 + sizeof(float)> __HMUI_ScrollView_$$c__DisplayClass51_0SizeCheck;
   static_assert(sizeof(ScrollView::$$c__DisplayClass51_0) == 0x14);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HMUI::ScrollView::$$c__DisplayClass51_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::ScrollView::$$c__DisplayClass51_0::$PageDownButtonPressed$b__0
 // Il2CppName: <PageDownButtonPressed>b__0
 template<>
@@ -73,7 +67,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView::$$c__DisplayClass51_0*), "<PageDownButtonPressed>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pos});
   }
 };
-// Writing MetadataGetter for method: HMUI::ScrollView::$$c__DisplayClass51_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

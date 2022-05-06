@@ -42,7 +42,7 @@ namespace System {
       return value;
     }
     // Get instance field reference: public System.Byte value__
-    uint8_t& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_value__();
   }; // System.ByteEnum
   #pragma pack(pop)
   static check_size<sizeof(ByteEnum), 0 + sizeof(uint8_t)> __System_ByteEnumSizeCheck;

@@ -26,15 +26,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlTextReaderImpl::XmlContext : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Xml.XmlSpace xmlSpace
     // Size: 0x4
     // Offset: 0x10
@@ -63,28 +55,26 @@ namespace System::Xml {
     static_assert(sizeof(::System::Xml::XmlTextReaderImpl::XmlContext*) == 0x8);
     public:
     // Get instance field reference: System.Xml.XmlSpace xmlSpace
-    ::System::Xml::XmlSpace& dyn_xmlSpace();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlSpace& dyn_xmlSpace();
     // Get instance field reference: System.String xmlLang
-    ::StringW& dyn_xmlLang();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_xmlLang();
     // Get instance field reference: System.String defaultNamespace
-    ::StringW& dyn_defaultNamespace();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_defaultNamespace();
     // Get instance field reference: System.Xml.XmlTextReaderImpl/System.Xml.XmlContext previousContext
-    ::System::Xml::XmlTextReaderImpl::XmlContext*& dyn_previousContext();
-    // System.Void .ctor(System.Xml.XmlTextReaderImpl/System.Xml.XmlContext previousContext)
-    // Offset: 0x26BC504
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlTextReaderImpl::XmlContext* New_ctor(::System::Xml::XmlTextReaderImpl::XmlContext* previousContext) {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlTextReaderImpl::XmlContext::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<XmlTextReaderImpl::XmlContext*, creationType>(previousContext)));
-    }
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlTextReaderImpl::XmlContext*& dyn_previousContext();
     // System.Void .ctor()
-    // Offset: 0x26BC490
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x270B9A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlTextReaderImpl::XmlContext* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlTextReaderImpl::XmlContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlTextReaderImpl::XmlContext*, creationType>()));
+    }
+    // System.Void .ctor(System.Xml.XmlTextReaderImpl/System.Xml.XmlContext previousContext)
+    // Offset: 0x270BA14
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static XmlTextReaderImpl::XmlContext* New_ctor(::System::Xml::XmlTextReaderImpl::XmlContext* previousContext) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlTextReaderImpl::XmlContext::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<XmlTextReaderImpl::XmlContext*, creationType>(previousContext)));
     }
   }; // System.Xml.XmlTextReaderImpl/System.Xml.XmlContext
   #pragma pack(pop)

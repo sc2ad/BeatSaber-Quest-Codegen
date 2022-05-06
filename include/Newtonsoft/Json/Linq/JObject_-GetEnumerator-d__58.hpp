@@ -35,15 +35,7 @@ namespace Newtonsoft::Json::Linq {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class JObject::$GetEnumerator$d__58 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -72,37 +64,37 @@ namespace Newtonsoft::Json::Linq {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Collections.Generic.KeyValuePair`2<System.String,Newtonsoft.Json.Linq.JToken> <>2__current
-    ::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>& dyn_$$2__current();
     // Get instance field reference: public Newtonsoft.Json.Linq.JObject <>4__this
-    ::Newtonsoft::Json::Linq::JObject*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Linq::JObject*& dyn_$$4__this();
     // Get instance field reference: private System.Collections.Generic.IEnumerator`1<Newtonsoft.Json.Linq.JToken> <>7__wrap1
-    ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>*& dyn_$$7__wrap1();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>*& dyn_$$7__wrap1();
     // private System.Collections.Generic.KeyValuePair`2<System.String,Newtonsoft.Json.Linq.JToken> System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.get_Current()
-    // Offset: 0x171628C
+    // Offset: 0x174EB9C
     ::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*> System_Collections_Generic_IEnumerator$System_Collections_Generic_KeyValuePair$System_String_Newtonsoft_Json_Linq_JToken$$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x17162F8
+    // Offset: 0x174EC08
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1715C90
+    // Offset: 0x174E5A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JObject::$GetEnumerator$d__58* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JObject::$GetEnumerator$d__58::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JObject::$GetEnumerator$d__58*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1715F14
+    // Offset: 0x174E824
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1715FF0
+    // Offset: 0x174E900
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x1715F30
+    // Offset: 0x174E840
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1716298
+    // Offset: 0x174EBA8
     void System_Collections_IEnumerator_Reset();
   }; // Newtonsoft.Json.Linq.JObject/Newtonsoft.Json.Linq.<GetEnumerator>d__58
   // WARNING Not writing size check since size may be invalid!

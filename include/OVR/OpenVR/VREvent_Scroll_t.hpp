@@ -50,11 +50,11 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single xdelta
-    float& dyn_xdelta();
+    [[deprecated("Use field access instead!")]] float& dyn_xdelta();
     // Get instance field reference: public System.Single ydelta
-    float& dyn_ydelta();
+    [[deprecated("Use field access instead!")]] float& dyn_ydelta();
     // Get instance field reference: public System.UInt32 repeatCount
-    uint& dyn_repeatCount();
+    [[deprecated("Use field access instead!")]] uint& dyn_repeatCount();
   }; // OVR.OpenVR.VREvent_Scroll_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Scroll_t), 8 + sizeof(uint)> __OVR_OpenVR_VREvent_Scroll_tSizeCheck;

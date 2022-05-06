@@ -40,31 +40,23 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: ::RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink
     class EffectorLink;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x1278D7C
+    // [TooltipAttribute] Offset: 0x10FDA34
     // public UnityEngine.Vector3 offset
     // Size: 0xC
     // Offset: 0x10
     ::UnityEngine::Vector3 offset;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0x1278DB4
-    // [RangeAttribute] Offset: 0x1278DB4
+    // [TooltipAttribute] Offset: 0x10FDA6C
+    // [RangeAttribute] Offset: 0x10FDA6C
     // public System.Single additivity
     // Size: 0x4
     // Offset: 0x1C
     float additivity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1278E08
+    // [TooltipAttribute] Offset: 0x10FDAC0
     // public System.Single maxAdditiveOffsetMag
     // Size: 0x4
     // Offset: 0x20
@@ -73,7 +65,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: maxAdditiveOffsetMag and: effectorLinks
     char __padding2[0x4] = {};
-    // [TooltipAttribute] Offset: 0x1278E40
+    // [TooltipAttribute] Offset: 0x10FDAF8
     // public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset/RootMotion.FinalIK.EffectorLink[] effectorLinks
     // Size: 0x8
     // Offset: 0x28
@@ -94,38 +86,40 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: public UnityEngine.Vector3 offset
-    ::UnityEngine::Vector3& dyn_offset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_offset();
     // Get instance field reference: public System.Single additivity
-    float& dyn_additivity();
+    [[deprecated("Use field access instead!")]] float& dyn_additivity();
     // Get instance field reference: public System.Single maxAdditiveOffsetMag
-    float& dyn_maxAdditiveOffsetMag();
+    [[deprecated("Use field access instead!")]] float& dyn_maxAdditiveOffsetMag();
     // Get instance field reference: public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset/RootMotion.FinalIK.EffectorLink[] effectorLinks
-    ::ArrayW<::RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*>& dyn_effectorLinks();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*>& dyn_effectorLinks();
     // Get instance field reference: private UnityEngine.Vector3 additiveOffset
-    ::UnityEngine::Vector3& dyn_additiveOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_additiveOffset();
     // Get instance field reference: private UnityEngine.Vector3 lastOffset
-    ::UnityEngine::Vector3& dyn_lastOffset();
-    // public System.Void Start()
-    // Offset: 0x1F73198
-    void Start();
-    // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Quaternion rotation, System.Single masterWeight, System.Single length, System.Single timeLeft)
-    // Offset: 0x1F73D28
-    void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, ::UnityEngine::Quaternion rotation, float masterWeight, float length, float timeLeft);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_lastOffset();
     // public System.Void .ctor()
-    // Offset: 0x1F7443C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FC0CB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Recoil::RecoilOffset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::Recoil::RecoilOffset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Recoil::RecoilOffset*, creationType>()));
     }
+    // public System.Void Start()
+    // Offset: 0x1FBFA0C
+    void Start();
+    // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Quaternion rotation, System.Single masterWeight, System.Single length, System.Single timeLeft)
+    // Offset: 0x1FC059C
+    void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, ::UnityEngine::Quaternion rotation, float masterWeight, float length, float timeLeft);
   }; // RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset
   #pragma pack(pop)
   static check_size<sizeof(Recoil::RecoilOffset), 60 + sizeof(::UnityEngine::Vector3)> __RootMotion_FinalIK_Recoil_RecoilOffsetSizeCheck;
   static_assert(sizeof(Recoil::RecoilOffset) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::Recoil::RecoilOffset::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::Recoil::RecoilOffset::Start
 // Il2CppName: Start
 template<>
@@ -147,7 +141,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Recoil::RecoilOffset*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver, rotation, masterWeight, length, timeLeft});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::Recoil::RecoilOffset::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

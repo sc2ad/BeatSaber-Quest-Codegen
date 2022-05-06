@@ -54,15 +54,7 @@ namespace UnityEngine::TestTools::Logging {
     public:
     // Nested type: ::UnityEngine::TestTools::Logging::LogScope::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Object m_Lock
     // Size: 0x8
     // Offset: 0x10
@@ -149,110 +141,108 @@ namespace UnityEngine::TestTools::Logging {
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.TestTools.Logging.LogScope> s_ActiveScopes
     static void _set_s_ActiveScopes(::System::Collections::Generic::List_1<::UnityEngine::TestTools::Logging::LogScope*>* value);
     // Get instance field reference: private readonly System.Object m_Lock
-    ::Il2CppObject*& dyn_m_Lock();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_m_Lock();
     // Get instance field reference: private System.Boolean m_Disposed
-    bool& dyn_m_Disposed();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_Disposed();
     // Get instance field reference: private System.Boolean m_NeedToProcessLogs
-    bool& dyn_m_NeedToProcessLogs();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_NeedToProcessLogs();
     // Get instance field reference: private System.Collections.Generic.Queue`1<UnityEngine.TestTools.Logging.LogMatch> <ExpectedLogs>k__BackingField
-    ::System::Collections::Generic::Queue_1<::UnityEngine::TestTools::Logging::LogMatch*>*& dyn_$ExpectedLogs$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Queue_1<::UnityEngine::TestTools::Logging::LogMatch*>*& dyn_$ExpectedLogs$k__BackingField();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.TestTools.Logging.LogEvent> <AllLogs>k__BackingField
-    ::System::Collections::Generic::List_1<::UnityEngine::TestTools::Logging::LogEvent*>*& dyn_$AllLogs$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::TestTools::Logging::LogEvent*>*& dyn_$AllLogs$k__BackingField();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.TestTools.Logging.LogEvent> <FailingLogs>k__BackingField
-    ::System::Collections::Generic::List_1<::UnityEngine::TestTools::Logging::LogEvent*>*& dyn_$FailingLogs$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::TestTools::Logging::LogEvent*>*& dyn_$FailingLogs$k__BackingField();
     // Get instance field reference: private System.Boolean <IgnoreFailingMessages>k__BackingField
-    bool& dyn_$IgnoreFailingMessages$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$IgnoreFailingMessages$k__BackingField();
     // Get instance field reference: private System.Boolean <IsNUnitException>k__BackingField
-    bool& dyn_$IsNUnitException$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$IsNUnitException$k__BackingField();
     // Get instance field reference: private System.Boolean <IsNUnitSuccessException>k__BackingField
-    bool& dyn_$IsNUnitSuccessException$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$IsNUnitSuccessException$k__BackingField();
     // Get instance field reference: private System.Boolean <IsNUnitInconclusiveException>k__BackingField
-    bool& dyn_$IsNUnitInconclusiveException$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$IsNUnitInconclusiveException$k__BackingField();
     // Get instance field reference: private System.Boolean <IsNUnitIgnoreException>k__BackingField
-    bool& dyn_$IsNUnitIgnoreException$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$IsNUnitIgnoreException$k__BackingField();
     // Get instance field reference: private System.String <NUnitExceptionMessage>k__BackingField
-    ::StringW& dyn_$NUnitExceptionMessage$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$NUnitExceptionMessage$k__BackingField();
     // public System.Collections.Generic.Queue`1<UnityEngine.TestTools.Logging.LogMatch> get_ExpectedLogs()
-    // Offset: 0x194BAE4
+    // Offset: 0x19837F8
     ::System::Collections::Generic::Queue_1<::UnityEngine::TestTools::Logging::LogMatch*>* get_ExpectedLogs();
     // public System.Void set_ExpectedLogs(System.Collections.Generic.Queue`1<UnityEngine.TestTools.Logging.LogMatch> value)
-    // Offset: 0x194BAEC
+    // Offset: 0x1983800
     void set_ExpectedLogs(::System::Collections::Generic::Queue_1<::UnityEngine::TestTools::Logging::LogMatch*>* value);
     // public System.Collections.Generic.List`1<UnityEngine.TestTools.Logging.LogEvent> get_AllLogs()
-    // Offset: 0x194BAF4
+    // Offset: 0x1983808
     ::System::Collections::Generic::List_1<::UnityEngine::TestTools::Logging::LogEvent*>* get_AllLogs();
     // public System.Collections.Generic.List`1<UnityEngine.TestTools.Logging.LogEvent> get_FailingLogs()
-    // Offset: 0x194BAFC
+    // Offset: 0x1983810
     ::System::Collections::Generic::List_1<::UnityEngine::TestTools::Logging::LogEvent*>* get_FailingLogs();
     // public System.Boolean get_IgnoreFailingMessages()
-    // Offset: 0x194BB04
+    // Offset: 0x1983818
     bool get_IgnoreFailingMessages();
     // public System.Void set_IgnoreFailingMessages(System.Boolean value)
-    // Offset: 0x194BB0C
+    // Offset: 0x1983820
     void set_IgnoreFailingMessages(bool value);
     // private System.Void set_IsNUnitException(System.Boolean value)
-    // Offset: 0x194BB18
+    // Offset: 0x198382C
     void set_IsNUnitException(bool value);
     // private System.Void set_IsNUnitSuccessException(System.Boolean value)
-    // Offset: 0x194BB24
+    // Offset: 0x1983838
     void set_IsNUnitSuccessException(bool value);
     // private System.Void set_IsNUnitInconclusiveException(System.Boolean value)
-    // Offset: 0x194BB30
+    // Offset: 0x1983844
     void set_IsNUnitInconclusiveException(bool value);
     // private System.Void set_IsNUnitIgnoreException(System.Boolean value)
-    // Offset: 0x194BB3C
+    // Offset: 0x1983850
     void set_IsNUnitIgnoreException(bool value);
     // private System.Void set_NUnitExceptionMessage(System.String value)
-    // Offset: 0x194BB48
+    // Offset: 0x198385C
     void set_NUnitExceptionMessage(::StringW value);
-    // static private System.Void .cctor()
-    // Offset: 0x194C71C
-    static void _cctor();
-    // private System.Void Activate()
-    // Offset: 0x194BB50
-    void Activate();
-    // private System.Void Deactivate()
-    // Offset: 0x194BCC4
-    void Deactivate();
-    // static private System.Void RegisterScope(UnityEngine.TestTools.Logging.LogScope logScope)
-    // Offset: 0x194BC4C
-    static void RegisterScope(::UnityEngine::TestTools::Logging::LogScope* logScope);
-    // static private System.Void UnregisterScope(UnityEngine.TestTools.Logging.LogScope logScope)
-    // Offset: 0x194BD88
-    static void UnregisterScope(::UnityEngine::TestTools::Logging::LogScope* logScope);
-    // public System.Void AddLog(System.String message, System.String stacktrace, UnityEngine.LogType type)
-    // Offset: 0x194BE00
-    void AddLog(::StringW message, ::StringW stacktrace, ::UnityEngine::LogType type);
-    // static private System.Boolean IsNUnitResultStateException(System.String stacktrace, UnityEngine.LogType logType)
-    // Offset: 0x194C12C
-    static bool IsNUnitResultStateException(::StringW stacktrace, ::UnityEngine::LogType logType);
-    // static private System.Boolean IsFailingLog(UnityEngine.LogType type)
-    // Offset: 0x194C1C8
-    static bool IsFailingLog(::UnityEngine::LogType type);
-    // public System.Void Dispose()
-    // Offset: 0x193AC30
-    void Dispose();
-    // private System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x194C1E4
-    void Dispose(bool disposing);
-    // public System.Boolean AnyFailingLogs()
-    // Offset: 0x193ABD8
-    bool AnyFailingLogs();
-    // public System.Void ProcessExpectedLogs()
-    // Offset: 0x194C200
-    void ProcessExpectedLogs();
-    // public System.Void NoUnexpectedReceived()
-    // Offset: 0x194C570
-    void NoUnexpectedReceived();
     // public System.Void .ctor()
-    // Offset: 0x193AAF4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x197275C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LogScope* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::Logging::LogScope::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LogScope*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1984430
+    static void _cctor();
+    // private System.Void Activate()
+    // Offset: 0x1983864
+    void Activate();
+    // private System.Void Deactivate()
+    // Offset: 0x19839D8
+    void Deactivate();
+    // static private System.Void RegisterScope(UnityEngine.TestTools.Logging.LogScope logScope)
+    // Offset: 0x1983960
+    static void RegisterScope(::UnityEngine::TestTools::Logging::LogScope* logScope);
+    // static private System.Void UnregisterScope(UnityEngine.TestTools.Logging.LogScope logScope)
+    // Offset: 0x1983A9C
+    static void UnregisterScope(::UnityEngine::TestTools::Logging::LogScope* logScope);
+    // public System.Void AddLog(System.String message, System.String stacktrace, UnityEngine.LogType type)
+    // Offset: 0x1983B14
+    void AddLog(::StringW message, ::StringW stacktrace, ::UnityEngine::LogType type);
+    // static private System.Boolean IsNUnitResultStateException(System.String stacktrace, UnityEngine.LogType logType)
+    // Offset: 0x1983E40
+    static bool IsNUnitResultStateException(::StringW stacktrace, ::UnityEngine::LogType logType);
+    // static private System.Boolean IsFailingLog(UnityEngine.LogType type)
+    // Offset: 0x1983EDC
+    static bool IsFailingLog(::UnityEngine::LogType type);
+    // public System.Void Dispose()
+    // Offset: 0x1972898
+    void Dispose();
+    // private System.Void Dispose(System.Boolean disposing)
+    // Offset: 0x1983EF8
+    void Dispose(bool disposing);
+    // public System.Boolean AnyFailingLogs()
+    // Offset: 0x1972840
+    bool AnyFailingLogs();
+    // public System.Void ProcessExpectedLogs()
+    // Offset: 0x1983F14
+    void ProcessExpectedLogs();
+    // public System.Void NoUnexpectedReceived()
+    // Offset: 0x1984284
+    void NoUnexpectedReceived();
   }; // UnityEngine.TestTools.Logging.LogScope
   #pragma pack(pop)
   static check_size<sizeof(LogScope), 64 + sizeof(::StringW)> __UnityEngine_TestTools_Logging_LogScopeSizeCheck;
@@ -354,6 +344,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "set_NUnitExceptionMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::_cctor
 // Il2CppName: .cctor
 template<>
@@ -467,7 +461,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "NoUnexpectedReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

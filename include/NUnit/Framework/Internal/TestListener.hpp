@@ -44,26 +44,24 @@ namespace NUnit::Framework::Internal {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::ITestListener*>(this);
     }
     // static public NUnit.Framework.Interfaces.ITestListener get_NULL()
-    // Offset: 0x29B1320
+    // Offset: 0x2A0D318
     static ::NUnit::Framework::Interfaces::ITestListener* get_NULL();
-    // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x29B2360
-    void TestStarted(::NUnit::Framework::Interfaces::ITest* test);
-    // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x29B2364
-    void TestFinished(::NUnit::Framework::Interfaces::ITestResult* result);
-    // public System.Void TestOutput(NUnit.Framework.Interfaces.TestOutput output)
-    // Offset: 0x29B2368
-    void TestOutput(::NUnit::Framework::Interfaces::TestOutput* output);
     // private System.Void .ctor()
-    // Offset: 0x29B236C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A0E364
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestListener* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestListener*, creationType>()));
     }
+    // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
+    // Offset: 0x2A0E358
+    void TestStarted(::NUnit::Framework::Interfaces::ITest* test);
+    // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
+    // Offset: 0x2A0E35C
+    void TestFinished(::NUnit::Framework::Interfaces::ITestResult* result);
+    // public System.Void TestOutput(NUnit.Framework.Interfaces.TestOutput output)
+    // Offset: 0x2A0E360
+    void TestOutput(::NUnit::Framework::Interfaces::TestOutput* output);
   }; // NUnit.Framework.Internal.TestListener
   #pragma pack(pop)
 }
@@ -76,6 +74,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Fr
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestListener*), "get_NULL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: NUnit::Framework::Internal::TestListener::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestListener::TestStarted
 // Il2CppName: TestStarted
 template<>
@@ -103,7 +105,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestListener*), "TestOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{output});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::TestListener::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

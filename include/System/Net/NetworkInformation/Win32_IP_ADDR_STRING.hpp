@@ -59,13 +59,13 @@ namespace System::Net::NetworkInformation {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.IntPtr Next
-    ::System::IntPtr& dyn_Next();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Next();
     // Get instance field reference: public System.String IpAddress
-    ::StringW& dyn_IpAddress();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_IpAddress();
     // Get instance field reference: public System.String IpMask
-    ::StringW& dyn_IpMask();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_IpMask();
     // Get instance field reference: public System.UInt32 Context
-    uint& dyn_Context();
+    [[deprecated("Use field access instead!")]] uint& dyn_Context();
   }; // System.Net.NetworkInformation.Win32_IP_ADDR_STRING
   #pragma pack(pop)
   static check_size<sizeof(Win32_IP_ADDR_STRING), 24 + sizeof(uint)> __System_Net_NetworkInformation_Win32_IP_ADDR_STRINGSizeCheck;

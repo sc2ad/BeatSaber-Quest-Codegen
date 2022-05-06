@@ -70,15 +70,7 @@ namespace System::Net::Http {
     class $$c;
     // Nested type: ::System::Net::Http::HttpClientHandler::$SendAsync$d__64
     struct $SendAsync$d__64;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean allowAutoRedirect
     // Size: 0x1
     // Offset: 0x10
@@ -177,65 +169,64 @@ namespace System::Net::Http {
     // Set static field: static private System.Int64 groupCounter
     static void _set_groupCounter(int64_t value);
     // Get instance field reference: private System.Boolean allowAutoRedirect
-    bool& dyn_allowAutoRedirect();
+    [[deprecated("Use field access instead!")]] bool& dyn_allowAutoRedirect();
     // Get instance field reference: private System.Net.DecompressionMethods automaticDecompression
-    ::System::Net::DecompressionMethods& dyn_automaticDecompression();
+    [[deprecated("Use field access instead!")]] ::System::Net::DecompressionMethods& dyn_automaticDecompression();
     // Get instance field reference: private System.Net.CookieContainer cookieContainer
-    ::System::Net::CookieContainer*& dyn_cookieContainer();
+    [[deprecated("Use field access instead!")]] ::System::Net::CookieContainer*& dyn_cookieContainer();
     // Get instance field reference: private System.Net.ICredentials credentials
-    ::System::Net::ICredentials*& dyn_credentials();
+    [[deprecated("Use field access instead!")]] ::System::Net::ICredentials*& dyn_credentials();
     // Get instance field reference: private System.Int32 maxAutomaticRedirections
-    int& dyn_maxAutomaticRedirections();
+    [[deprecated("Use field access instead!")]] int& dyn_maxAutomaticRedirections();
     // Get instance field reference: private System.Int64 maxRequestContentBufferSize
-    int64_t& dyn_maxRequestContentBufferSize();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_maxRequestContentBufferSize();
     // Get instance field reference: private System.Boolean preAuthenticate
-    bool& dyn_preAuthenticate();
+    [[deprecated("Use field access instead!")]] bool& dyn_preAuthenticate();
     // Get instance field reference: private System.Net.IWebProxy proxy
-    ::System::Net::IWebProxy*& dyn_proxy();
+    [[deprecated("Use field access instead!")]] ::System::Net::IWebProxy*& dyn_proxy();
     // Get instance field reference: private System.Boolean useCookies
-    bool& dyn_useCookies();
+    [[deprecated("Use field access instead!")]] bool& dyn_useCookies();
     // Get instance field reference: private System.Boolean useDefaultCredentials
-    bool& dyn_useDefaultCredentials();
+    [[deprecated("Use field access instead!")]] bool& dyn_useDefaultCredentials();
     // Get instance field reference: private System.Boolean useProxy
-    bool& dyn_useProxy();
+    [[deprecated("Use field access instead!")]] bool& dyn_useProxy();
     // Get instance field reference: private System.Boolean sentRequest
-    bool& dyn_sentRequest();
+    [[deprecated("Use field access instead!")]] bool& dyn_sentRequest();
     // Get instance field reference: private System.String connectionGroupName
-    ::StringW& dyn_connectionGroupName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_connectionGroupName();
     // Get instance field reference: private System.Boolean disposed
-    bool& dyn_disposed();
+    [[deprecated("Use field access instead!")]] bool& dyn_disposed();
     // public System.Net.CookieContainer get_CookieContainer()
-    // Offset: 0x1964160
+    // Offset: 0x199C748
     ::System::Net::CookieContainer* get_CookieContainer();
     // public System.Int64 get_MaxRequestContentBufferSize()
-    // Offset: 0x19641CC
+    // Offset: 0x199C7B4
     int64_t get_MaxRequestContentBufferSize();
     // System.Net.HttpWebRequest CreateWebRequest(System.Net.Http.HttpRequestMessage request)
-    // Offset: 0x1964278
+    // Offset: 0x199C860
     ::System::Net::HttpWebRequest* CreateWebRequest(::System::Net::Http::HttpRequestMessage* request);
     // private System.Net.Http.HttpResponseMessage CreateResponseMessage(System.Net.HttpWebResponse wr, System.Net.Http.HttpRequestMessage requestMessage, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x196493C
+    // Offset: 0x199CF24
     ::System::Net::Http::HttpResponseMessage* CreateResponseMessage(::System::Net::HttpWebResponse* wr, ::System::Net::Http::HttpRequestMessage* requestMessage, ::System::Threading::CancellationToken cancellationToken);
     // static private System.Boolean MethodHasBody(System.Net.Http.HttpMethod method)
-    // Offset: 0x1964C20
+    // Offset: 0x199D208
     static bool MethodHasBody(::System::Net::Http::HttpMethod* method);
     // public System.Void .ctor()
-    // Offset: 0x1962690
+    // Offset: 0x199AC78
     // Implemented from: System.Net.Http.HttpMessageHandler
     // Base method: System.Void HttpMessageHandler::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpClientHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::HttpClientHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpClientHandler*, creationType>()));
     }
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x19641D4
+    // Offset: 0x199C7BC
     // Implemented from: System.Net.Http.HttpMessageHandler
     // Base method: System.Void HttpMessageHandler::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // protected internal override System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1964D04
+    // Offset: 0x199D2EC
     // Implemented from: System.Net.Http.HttpMessageHandler
     // Base method: System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> HttpMessageHandler::SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
     ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request, ::System::Threading::CancellationToken cancellationToken);

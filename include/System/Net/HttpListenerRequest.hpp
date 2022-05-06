@@ -58,15 +58,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpListenerRequest : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String[] accept_types
     // Size: 0x8
     // Offset: 0x10
@@ -181,102 +173,102 @@ namespace System::Net {
     // Set static field: static private System.Char[] separators
     static void _set_separators(::ArrayW<::Il2CppChar> value);
     // Get instance field reference: private System.String[] accept_types
-    ::ArrayW<::StringW>& dyn_accept_types();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_accept_types();
     // Get instance field reference: private System.Int64 content_length
-    int64_t& dyn_content_length();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_content_length();
     // Get instance field reference: private System.Boolean cl_set
-    bool& dyn_cl_set();
+    [[deprecated("Use field access instead!")]] bool& dyn_cl_set();
     // Get instance field reference: private System.Net.CookieCollection cookies
-    ::System::Net::CookieCollection*& dyn_cookies();
+    [[deprecated("Use field access instead!")]] ::System::Net::CookieCollection*& dyn_cookies();
     // Get instance field reference: private System.Net.WebHeaderCollection headers
-    ::System::Net::WebHeaderCollection*& dyn_headers();
+    [[deprecated("Use field access instead!")]] ::System::Net::WebHeaderCollection*& dyn_headers();
     // Get instance field reference: private System.String method
-    ::StringW& dyn_method();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_method();
     // Get instance field reference: private System.IO.Stream input_stream
-    ::System::IO::Stream*& dyn_input_stream();
+    [[deprecated("Use field access instead!")]] ::System::IO::Stream*& dyn_input_stream();
     // Get instance field reference: private System.Version version
-    ::System::Version*& dyn_version();
+    [[deprecated("Use field access instead!")]] ::System::Version*& dyn_version();
     // Get instance field reference: private System.Collections.Specialized.NameValueCollection query_string
-    ::System::Collections::Specialized::NameValueCollection*& dyn_query_string();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Specialized::NameValueCollection*& dyn_query_string();
     // Get instance field reference: private System.String raw_url
-    ::StringW& dyn_raw_url();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_raw_url();
     // Get instance field reference: private System.Uri url
-    ::System::Uri*& dyn_url();
+    [[deprecated("Use field access instead!")]] ::System::Uri*& dyn_url();
     // Get instance field reference: private System.Uri referrer
-    ::System::Uri*& dyn_referrer();
+    [[deprecated("Use field access instead!")]] ::System::Uri*& dyn_referrer();
     // Get instance field reference: private System.String[] user_languages
-    ::ArrayW<::StringW>& dyn_user_languages();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_user_languages();
     // Get instance field reference: private System.Net.HttpListenerContext context
-    ::System::Net::HttpListenerContext*& dyn_context();
+    [[deprecated("Use field access instead!")]] ::System::Net::HttpListenerContext*& dyn_context();
     // Get instance field reference: private System.Boolean is_chunked
-    bool& dyn_is_chunked();
+    [[deprecated("Use field access instead!")]] bool& dyn_is_chunked();
     // Get instance field reference: private System.Boolean ka_set
-    bool& dyn_ka_set();
+    [[deprecated("Use field access instead!")]] bool& dyn_ka_set();
     // Get instance field reference: private System.Boolean keep_alive
-    bool& dyn_keep_alive();
+    [[deprecated("Use field access instead!")]] bool& dyn_keep_alive();
     // public System.Boolean get_HasEntityBody()
-    // Offset: 0x1A6D318
+    // Offset: 0x1AA7900
     bool get_HasEntityBody();
     // public System.Collections.Specialized.NameValueCollection get_Headers()
-    // Offset: 0x1A6D3F0
+    // Offset: 0x1AA79D8
     ::System::Collections::Specialized::NameValueCollection* get_Headers();
     // public System.IO.Stream get_InputStream()
-    // Offset: 0x1A6D33C
+    // Offset: 0x1AA7924
     ::System::IO::Stream* get_InputStream();
     // public System.Boolean get_IsSecureConnection()
-    // Offset: 0x1A6D1C4
+    // Offset: 0x1AA77AC
     bool get_IsSecureConnection();
     // public System.Boolean get_KeepAlive()
-    // Offset: 0x1A690F4
+    // Offset: 0x1AA36DC
     bool get_KeepAlive();
     // public System.Net.IPEndPoint get_LocalEndPoint()
-    // Offset: 0x1A6D1EC
+    // Offset: 0x1AA77D4
     ::System::Net::IPEndPoint* get_LocalEndPoint();
     // public System.Version get_ProtocolVersion()
-    // Offset: 0x1A6D3F8
+    // Offset: 0x1AA79E0
     ::System::Version* get_ProtocolVersion();
     // public System.Uri get_Url()
-    // Offset: 0x1A6D400
+    // Offset: 0x1AA79E8
     ::System::Uri* get_Url();
     // public System.String get_UserHostAddress()
-    // Offset: 0x1A6D1A0
+    // Offset: 0x1AA7788
     ::StringW get_UserHostAddress();
     // public System.String get_UserHostName()
-    // Offset: 0x1A6D144
+    // Offset: 0x1AA772C
     ::StringW get_UserHostName();
     // System.Void .ctor(System.Net.HttpListenerContext context)
-    // Offset: 0x1A6BF64
+    // Offset: 0x1AA654C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListenerRequest* New_ctor(::System::Net::HttpListenerContext* context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::HttpListenerRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerRequest*, creationType>(context)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1A6D408
+    // Offset: 0x1AA79F0
     static void _cctor();
     // System.Void SetRequestLine(System.String req)
-    // Offset: 0x1A67EF4
+    // Offset: 0x1AA24DC
     void SetRequestLine(::StringW req);
     // private System.Void CreateQueryString(System.String query)
-    // Offset: 0x1A6CCAC
+    // Offset: 0x1AA7294
     void CreateQueryString(::StringW query);
     // static private System.Boolean MaybeUri(System.String s)
-    // Offset: 0x1A6CF04
+    // Offset: 0x1AA74EC
     static bool MaybeUri(::StringW s);
     // static private System.Boolean IsPredefinedScheme(System.String scheme)
-    // Offset: 0x1A6CFBC
+    // Offset: 0x1AA75A4
     static bool IsPredefinedScheme(::StringW scheme);
     // System.Void FinishInitialization()
-    // Offset: 0x1A673D0
+    // Offset: 0x1AA19B8
     void FinishInitialization();
     // static System.String Unquote(System.String str)
-    // Offset: 0x1A6D2A8
+    // Offset: 0x1AA7890
     static ::StringW Unquote(::StringW str);
     // System.Void AddHeader(System.String header)
-    // Offset: 0x1A681F8
+    // Offset: 0x1AA27E0
     void AddHeader(::StringW header);
     // System.Boolean FlushInput()
-    // Offset: 0x1A6926C
+    // Offset: 0x1AA3854
     bool FlushInput();
   }; // System.Net.HttpListenerRequest
   #pragma pack(pop)

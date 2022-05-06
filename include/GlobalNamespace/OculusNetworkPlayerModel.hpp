@@ -101,16 +101,8 @@ namespace GlobalNamespace {
     class $$c__DisplayClass55_0;
     // Nested type: ::GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass64_0
     class $$c__DisplayClass64_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x124DC14
+    // [InjectAttribute] Offset: 0x10D270C
     // private readonly IPlatformUserModel _platformUserModel
     // Size: 0x8
     // Offset: 0x90
@@ -279,155 +271,149 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kAutoRefreshRate
     static void _set_kAutoRefreshRate(float value);
     // Get instance field reference: private readonly IPlatformUserModel _platformUserModel
-    ::GlobalNamespace::IPlatformUserModel*& dyn__platformUserModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPlatformUserModel*& dyn__platformUserModel();
     // Get instance field reference: private System.Single _lastRefreshTime
-    float& dyn__lastRefreshTime();
+    [[deprecated("Use field access instead!")]] float& dyn__lastRefreshTime();
     // Get instance field reference: private System.Boolean _isRefreshing
-    bool& dyn__isRefreshing();
+    [[deprecated("Use field access instead!")]] bool& dyn__isRefreshing();
     // Get instance field reference: private OculusNetworkPlayerModel/OculusNetworkPlayer _localPlayer
-    ::GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer*& dyn__localPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer*& dyn__localPlayer();
     // Get instance field reference: private Oculus.Platform.RoomJoinPolicy _joinPolicy
-    ::Oculus::Platform::RoomJoinPolicy& dyn__joinPolicy();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::RoomJoinPolicy& dyn__joinPolicy();
     // Get instance field reference: private System.Boolean _partyEnabled
-    bool& dyn__partyEnabled();
+    [[deprecated("Use field access instead!")]] bool& dyn__partyEnabled();
     // Get instance field reference: private System.Boolean _waitingOnRoomCreate
-    bool& dyn__waitingOnRoomCreate();
+    [[deprecated("Use field access instead!")]] bool& dyn__waitingOnRoomCreate();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.String> _roomDataStore
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn__roomDataStore();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn__roomDataStore();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<OculusNetworkPlayerModel/OculusNetworkPlayer> _partyPlayers
-    ::System::Collections::Generic::List_1<::GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer*>*& dyn__partyPlayers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer*>*& dyn__partyPlayers();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<OculusNetworkPlayerModel/OculusNetworkPlayer> _otherPlayers
-    ::System::Collections::Generic::List_1<::GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer*>*& dyn__otherPlayers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer*>*& dyn__otherPlayers();
     // Get instance field reference: private System.Action`1<System.Int32> partySizeChangedEvent
-    ::System::Action_1<int>*& dyn_partySizeChangedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<int>*& dyn_partySizeChangedEvent();
     // Get instance field reference: private System.Action`1<INetworkPlayerModel> partyChangedEvent
-    ::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*& dyn_partyChangedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*& dyn_partyChangedEvent();
     // Get instance field reference: private System.Action`1<INetworkPlayer> inviteRequestedEvent
-    ::System::Action_1<::GlobalNamespace::INetworkPlayer*>*& dyn_inviteRequestedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::INetworkPlayer*>*& dyn_inviteRequestedEvent();
     // public INetworkPlayer get_localPlayer()
-    // Offset: 0x150FBF8
+    // Offset: 0x1547500
     ::GlobalNamespace::INetworkPlayer* get_localPlayer();
     // protected OculusConnectionManager get_oculusConnectionManager()
-    // Offset: 0x1510064
+    // Offset: 0x154796C
     ::GlobalNamespace::OculusConnectionManager* get_oculusConnectionManager();
     // private OculusNetworkPlayerModel/OculusNetworkPlayer GetPlayer(System.UInt64 id)
-    // Offset: 0x151038C
+    // Offset: 0x1547C94
     ::GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer* GetPlayer(uint64_t id);
     // private OculusNetworkPlayerModel/OculusNetworkPlayer GetPlayer(System.String userId)
-    // Offset: 0x15104BC
+    // Offset: 0x1547DC4
     ::GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer* GetPlayer(::StringW userId);
     // private System.Void TryCreateRoom()
-    // Offset: 0x15105FC
+    // Offset: 0x1547F04
     void TryCreateRoom();
     // public System.String GetUserName(System.UInt64 id)
-    // Offset: 0x150D0C8
+    // Offset: 0x15449D0
     ::StringW GetUserName(uint64_t id);
     // private System.Threading.Tasks.Task`1<System.String> GetUserNameAsync(System.UInt64 id)
-    // Offset: 0x1510818
+    // Offset: 0x1548120
     ::System::Threading::Tasks::Task_1<::StringW>* GetUserNameAsync(uint64_t id);
     // private System.Void HandleRoomInviteReceived(Oculus.Platform.Message`1<Oculus.Platform.Models.RoomInviteNotification> message)
-    // Offset: 0x1510928
+    // Offset: 0x1548230
     void HandleRoomInviteReceived(::Oculus::Platform::Message_1<::Oculus::Platform::Models::RoomInviteNotification*>* message);
     // private System.Void HandleRoomInviteAccepted(Oculus.Platform.Message`1<System.String> message)
-    // Offset: 0x15109EC
+    // Offset: 0x15482F4
     void HandleRoomInviteAccepted(::Oculus::Platform::Message_1<::StringW>* message);
     // private System.Void HandleRoomUpdate(Oculus.Platform.Message`1<Oculus.Platform.Models.Room> message)
-    // Offset: 0x15109F0
+    // Offset: 0x15482F8
     void HandleRoomUpdate(::Oculus::Platform::Message_1<::Oculus::Platform::Models::Room*>* message);
     // private System.Void HandlePlayersChanged()
-    // Offset: 0x1510EB0
+    // Offset: 0x15487B8
     void HandlePlayersChanged();
     // public System.Void Refresh()
-    // Offset: 0x15101F0
+    // Offset: 0x1547AF8
     void Refresh();
     // private System.Void UpdateRoomDataStore()
-    // Offset: 0x1511520
+    // Offset: 0x1548E28
     void UpdateRoomDataStore();
     // private System.Void TryLeaveRoom()
-    // Offset: 0x1511104
+    // Offset: 0x1548A0C
     void TryLeaveRoom();
     // private System.Void TryConnectToServer()
-    // Offset: 0x1511014
+    // Offset: 0x154891C
     void TryConnectToServer();
     // public System.Threading.Tasks.Task`1<System.Boolean> ShouldAcceptConnectionFromPlayer(System.UInt64 userId)
-    // Offset: 0x150D518
+    // Offset: 0x1544E20
     ::System::Threading::Tasks::Task_1<bool>* ShouldAcceptConnectionFromPlayer(uint64_t userId);
     // private System.Void <TryCreateRoom>b__48_0(Oculus.Platform.Message`1<Oculus.Platform.Models.Room> result)
-    // Offset: 0x1511654
+    // Offset: 0x1548F5C
     void $TryCreateRoom$b__48_0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::Room*>* result);
     // public override System.Boolean get_localPlayerIsPartyOwner()
-    // Offset: 0x150FC00
+    // Offset: 0x1547508
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Boolean BaseNetworkPlayerModel::get_localPlayerIsPartyOwner()
     bool get_localPlayerIsPartyOwner();
     // public override System.Int32 get_currentPartySize()
-    // Offset: 0x150FC3C
+    // Offset: 0x1547544
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Int32 BaseNetworkPlayerModel::get_currentPartySize()
     int get_currentPartySize();
     // public override System.Void add_partySizeChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x150FC8C
+    // Offset: 0x1547594
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::add_partySizeChangedEvent(System.Action`1<System.Int32> value)
     void add_partySizeChangedEvent(::System::Action_1<int>* value);
     // public override System.Void remove_partySizeChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x150FD30
+    // Offset: 0x1547638
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::remove_partySizeChangedEvent(System.Action`1<System.Int32> value)
     void remove_partySizeChangedEvent(::System::Action_1<int>* value);
     // public override System.Void add_partyChangedEvent(System.Action`1<INetworkPlayerModel> value)
-    // Offset: 0x150FDD4
+    // Offset: 0x15476DC
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::add_partyChangedEvent(System.Action`1<INetworkPlayerModel> value)
     void add_partyChangedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* value);
     // public override System.Void remove_partyChangedEvent(System.Action`1<INetworkPlayerModel> value)
-    // Offset: 0x150FE78
+    // Offset: 0x1547780
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::remove_partyChangedEvent(System.Action`1<INetworkPlayerModel> value)
     void remove_partyChangedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* value);
     // public override System.Void add_inviteRequestedEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x150FF1C
+    // Offset: 0x1547824
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::add_inviteRequestedEvent(System.Action`1<INetworkPlayer> value)
     void add_inviteRequestedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
     // public override System.Void remove_inviteRequestedEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x150FFC0
+    // Offset: 0x15478C8
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::remove_inviteRequestedEvent(System.Action`1<INetworkPlayer> value)
     void remove_inviteRequestedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
     // public System.Void .ctor()
-    // Offset: 0x151158C
+    // Offset: 0x1548E94
     // Implemented from: PlatformNetworkPlayerModel
     // Base method: System.Void PlatformNetworkPlayerModel::.ctor()
     // Base method: System.Void BaseNetworkPlayerModel::.ctor()
-    // Base method: System.Void StandaloneMonobehavior::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusNetworkPlayerModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusNetworkPlayerModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusNetworkPlayerModel*, creationType>()));
     }
     // protected override System.Void Start()
-    // Offset: 0x15100BC
+    // Offset: 0x15479C4
     // Implemented from: StandaloneMonobehavior
     // Base method: System.Void StandaloneMonobehavior::Start()
     void Start();
     // protected override System.Void Update()
-    // Offset: 0x151017C
+    // Offset: 0x1547A84
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::Update()
     void Update();
     // protected override System.Collections.Generic.IEnumerable`1<INetworkPlayer> GetPartyPlayers()
-    // Offset: 0x151037C
+    // Offset: 0x1547C84
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Collections.Generic.IEnumerable`1<INetworkPlayer> BaseNetworkPlayerModel::GetPartyPlayers()
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* GetPartyPlayers();
     // protected override System.Collections.Generic.IEnumerable`1<INetworkPlayer> GetOtherPlayers()
-    // Offset: 0x1510384
+    // Offset: 0x1547C8C
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Collections.Generic.IEnumerable`1<INetworkPlayer> BaseNetworkPlayerModel::GetOtherPlayers()
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* GetOtherPlayers();
@@ -444,22 +430,22 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___generic__method, createConfig);
     }
     // public override System.Void DestroyPartyConnection()
-    // Offset: 0x15110D8
+    // Offset: 0x15489E0
     // Implemented from: PlatformNetworkPlayerModel
     // Base method: System.Void PlatformNetworkPlayerModel::DestroyPartyConnection()
     void DestroyPartyConnection();
     // protected override System.Void PlayerConnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0x15112BC
+    // Offset: 0x1548BC4
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::PlayerConnected(IConnectedPlayer connectedPlayer)
     void PlayerConnected(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // protected override System.Void PlayerDisconnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0x1511390
+    // Offset: 0x1548C98
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::PlayerDisconnected(IConnectedPlayer connectedPlayer)
     void PlayerDisconnected(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // protected override System.Void PartySizeChanged(System.Int32 currentPartySize)
-    // Offset: 0x1511478
+    // Offset: 0x1548D80
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::PartySizeChanged(System.Int32 currentPartySize)
     void PartySizeChanged(int currentPartySize);

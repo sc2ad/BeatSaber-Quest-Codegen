@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_Fade : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Color currentColor
     // Size: 0x10
     // Offset: 0x18
@@ -82,55 +74,59 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 fadeMaterialColorID
     static void _set_fadeMaterialColorID(int value);
     // Get instance field reference: private UnityEngine.Color currentColor
-    ::UnityEngine::Color& dyn_currentColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_currentColor();
     // Get instance field reference: private UnityEngine.Color targetColor
-    ::UnityEngine::Color& dyn_targetColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_targetColor();
     // Get instance field reference: private UnityEngine.Color deltaColor
-    ::UnityEngine::Color& dyn_deltaColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_deltaColor();
     // Get instance field reference: private System.Boolean fadeOverlay
-    bool& dyn_fadeOverlay();
-    // static public System.Void Start(UnityEngine.Color newColor, System.Single duration, System.Boolean fadeOverlay)
-    // Offset: 0x186CAA8
-    static void Start(::UnityEngine::Color newColor, float duration, bool fadeOverlay);
-    // static public System.Void View(UnityEngine.Color newColor, System.Single duration)
-    // Offset: 0x186CB6C
-    static void View(::UnityEngine::Color newColor, float duration);
-    // public System.Void OnStartFade(UnityEngine.Color newColor, System.Single duration, System.Boolean fadeOverlay)
-    // Offset: 0x186CC34
-    void OnStartFade(::UnityEngine::Color newColor, float duration, bool fadeOverlay);
-    // private System.Void OnEnable()
-    // Offset: 0x186CC9C
-    void OnEnable();
-    // private System.Void OnDisable()
-    // Offset: 0x186CE5C
-    void OnDisable();
-    // private System.Void OnPostRender()
-    // Offset: 0x186CF20
-    void OnPostRender();
+    [[deprecated("Use field access instead!")]] bool& dyn_fadeOverlay();
     // public System.Void .ctor()
-    // Offset: 0x186D248
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18A6B58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Fade* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Fade::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Fade*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x186D2F0
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x18A6C00
     static void _cctor();
+    // static public System.Void Start(UnityEngine.Color newColor, System.Single duration, System.Boolean fadeOverlay)
+    // Offset: 0x18A63B8
+    static void Start(::UnityEngine::Color newColor, float duration, bool fadeOverlay);
+    // static public System.Void View(UnityEngine.Color newColor, System.Single duration)
+    // Offset: 0x18A647C
+    static void View(::UnityEngine::Color newColor, float duration);
+    // public System.Void OnStartFade(UnityEngine.Color newColor, System.Single duration, System.Boolean fadeOverlay)
+    // Offset: 0x18A6544
+    void OnStartFade(::UnityEngine::Color newColor, float duration, bool fadeOverlay);
+    // private System.Void OnEnable()
+    // Offset: 0x18A65AC
+    void OnEnable();
+    // private System.Void OnDisable()
+    // Offset: 0x18A676C
+    void OnDisable();
+    // private System.Void OnPostRender()
+    // Offset: 0x18A6830
+    void OnPostRender();
   }; // SteamVR_Fade
   #pragma pack(pop)
   static check_size<sizeof(SteamVR_Fade), 72 + sizeof(bool)> __GlobalNamespace_SteamVR_FadeSizeCheck;
   static_assert(sizeof(SteamVR_Fade) == 0x49);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Fade::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Fade::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SteamVR_Fade::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Fade*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Fade::Start
 // Il2CppName: Start
 template<>
@@ -185,17 +181,5 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Fade::*)()>(&GlobalNamespace::SteamVR_Fade::OnPostRender)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Fade*), "OnPostRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Fade::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Fade::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SteamVR_Fade::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Fade*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

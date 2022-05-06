@@ -31,15 +31,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _keyword
     // Size: 0x8
     // Offset: 0x10
@@ -54,19 +46,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::BaseResultsEnvironmentController*) == 0x8);
     public:
     // Get instance field reference: private System.String _keyword
-    ::StringW& dyn__keyword();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__keyword();
     // Get instance field reference: private BaseResultsEnvironmentController _resultsEnvironmentController
-    ::GlobalNamespace::BaseResultsEnvironmentController*& dyn__resultsEnvironmentController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BaseResultsEnvironmentController*& dyn__resultsEnvironmentController();
     // public System.String get_keyword()
-    // Offset: 0x137E1FC
+    // Offset: 0x1456050
     ::StringW get_keyword();
     // public BaseResultsEnvironmentController get_resultsEnvironmentController()
-    // Offset: 0x137E204
+    // Offset: 0x1456058
     ::GlobalNamespace::BaseResultsEnvironmentController* get_resultsEnvironmentController();
     // public System.Void .ctor()
-    // Offset: 0x137E20C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1456060
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword::.ctor");

@@ -29,25 +29,24 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ObjectiveValueFormatterSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
-    // public System.String FormatValue(System.Int32 value)
-    // Offset: 0x147D3A8
-    ::StringW FormatValue(int value);
     // public System.Void .ctor()
-    // Offset: 0x147D3D0
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14B3BB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectiveValueFormatterSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObjectiveValueFormatterSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectiveValueFormatterSO*, creationType>()));
     }
+    // public System.String FormatValue(System.Int32 value)
+    // Offset: 0x14B3B90
+    ::StringW FormatValue(int value);
   }; // ObjectiveValueFormatterSO
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ObjectiveValueFormatterSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ObjectiveValueFormatterSO::FormatValue
 // Il2CppName: FormatValue
 template<>
@@ -57,7 +56,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObjectiveValueFormatterSO*), "FormatValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ObjectiveValueFormatterSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -36,15 +36,7 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class SignalTickPriorityCopyBinder : public ::Zenject::SignalCopyBinder {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Zenject.SignalDeclarationBindInfo <SignalBindInfo>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -55,22 +47,22 @@ namespace Zenject {
     // Deleting conversion operator: operator ::System::Collections::Generic::List_1<::Zenject::BindInfo*>*
     constexpr operator ::System::Collections::Generic::List_1<::Zenject::BindInfo*>*() const noexcept = delete;
     // Get instance field reference: private Zenject.SignalDeclarationBindInfo <SignalBindInfo>k__BackingField
-    ::Zenject::SignalDeclarationBindInfo*& dyn_$SignalBindInfo$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::Zenject::SignalDeclarationBindInfo*& dyn_$SignalBindInfo$k__BackingField();
     // protected Zenject.SignalDeclarationBindInfo get_SignalBindInfo()
-    // Offset: 0x1CE2C40
+    // Offset: 0x1D1E198
     ::Zenject::SignalDeclarationBindInfo* get_SignalBindInfo();
     // private System.Void set_SignalBindInfo(Zenject.SignalDeclarationBindInfo value)
-    // Offset: 0x1CE2C48
+    // Offset: 0x1D1E1A0
     void set_SignalBindInfo(::Zenject::SignalDeclarationBindInfo* value);
     // public System.Void .ctor(Zenject.SignalDeclarationBindInfo signalBindInfo)
-    // Offset: 0x1CE2C18
+    // Offset: 0x1D1E170
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalTickPriorityCopyBinder* New_ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalTickPriorityCopyBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalTickPriorityCopyBinder*, creationType>(signalBindInfo)));
     }
     // public Zenject.SignalCopyBinder WithTickPriority(System.Int32 priority)
-    // Offset: 0x1CE2C50
+    // Offset: 0x1D1E1A8
     ::Zenject::SignalCopyBinder* WithTickPriority(int priority);
   }; // Zenject.SignalTickPriorityCopyBinder
   #pragma pack(pop)

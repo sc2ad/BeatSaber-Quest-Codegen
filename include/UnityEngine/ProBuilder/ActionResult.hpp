@@ -86,20 +86,12 @@ namespace UnityEngine::ProBuilder {
       // Set static field: static public UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status NoChange
       static void _set_NoChange(::UnityEngine::ProBuilder::ActionResult::Status value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status
     #pragma pack(pop)
     static check_size<sizeof(ActionResult::Status), 0 + sizeof(int)> __UnityEngine_ProBuilder_ActionResult_StatusSizeCheck;
     static_assert(sizeof(ActionResult::Status) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status <status>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -116,42 +108,42 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status <status>k__BackingField
-    ::UnityEngine::ProBuilder::ActionResult::Status& dyn_$status$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::ActionResult::Status& dyn_$status$k__BackingField();
     // Get instance field reference: private System.String <notification>k__BackingField
-    ::StringW& dyn_$notification$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$notification$k__BackingField();
     // public UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status get_status()
-    // Offset: 0x24AF72C
+    // Offset: 0x24FB1F0
     ::UnityEngine::ProBuilder::ActionResult::Status get_status();
     // private System.Void set_status(UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status value)
-    // Offset: 0x24AF734
+    // Offset: 0x24FB1F8
     void set_status(::UnityEngine::ProBuilder::ActionResult::Status value);
     // public System.String get_notification()
-    // Offset: 0x24AF73C
+    // Offset: 0x24FB200
     ::StringW get_notification();
     // private System.Void set_notification(System.String value)
-    // Offset: 0x24AF744
+    // Offset: 0x24FB208
     void set_notification(::StringW value);
     // static public UnityEngine.ProBuilder.ActionResult get_Success()
-    // Offset: 0x24AF848
+    // Offset: 0x24FB30C
     static ::UnityEngine::ProBuilder::ActionResult* get_Success();
     // static public UnityEngine.ProBuilder.ActionResult get_NoSelection()
-    // Offset: 0x24AF8B8
+    // Offset: 0x24FB37C
     static ::UnityEngine::ProBuilder::ActionResult* get_NoSelection();
     // static public UnityEngine.ProBuilder.ActionResult get_UserCanceled()
-    // Offset: 0x24AF92C
+    // Offset: 0x24FB3F0
     static ::UnityEngine::ProBuilder::ActionResult* get_UserCanceled();
     // public System.Void .ctor(UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status status, System.String notification)
-    // Offset: 0x24AF74C
+    // Offset: 0x24FB210
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ActionResult* New_ctor(::UnityEngine::ProBuilder::ActionResult::Status status, ::StringW notification) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ActionResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ActionResult*, creationType>(status, notification)));
     }
     // public System.Boolean ToBool()
-    // Offset: 0x24AF79C
+    // Offset: 0x24FB260
     bool ToBool();
     // static public System.Boolean FromBool(System.Boolean success)
-    // Offset: 0x24AF7AC
+    // Offset: 0x24FB270
     static bool FromBool(bool success);
   }; // UnityEngine.ProBuilder.ActionResult
   #pragma pack(pop)

@@ -132,27 +132,19 @@ namespace HMUI {
       // Set static field: static public HMUI.InputFieldView/HMUI.SelectionState Selected
       static void _set_Selected(::HMUI::InputFieldView::SelectionState value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // HMUI.InputFieldView/HMUI.SelectionState
     #pragma pack(pop)
     static check_size<sizeof(InputFieldView::SelectionState), 0 + sizeof(int)> __HMUI_InputFieldView_SelectionStateSizeCheck;
     static_assert(sizeof(InputFieldView::SelectionState) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _textView
     // Size: 0x8
     // Offset: 0xF8
     ::TMPro::TextMeshProUGUI* textView;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [NullAllowed] Offset: 0x123BA4C
+    // [NullAllowed] Offset: 0x10C0524
     // private UnityEngine.CanvasGroup _textViewCanvasGroup
     // Size: 0x8
     // Offset: 0x100
@@ -177,7 +169,7 @@ namespace HMUI {
     ::UnityEngine::UI::Button* clearSearchButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [HeaderAttribute] Offset: 0x123BAB4
+    // [HeaderAttribute] Offset: 0x10C058C
     // private System.Boolean _useGlobalKeyboard
     // Size: 0x1
     // Offset: 0x120
@@ -192,7 +184,7 @@ namespace HMUI {
     ::UnityEngine::Vector3 keyboardPositionOffset;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [HeaderAttribute] Offset: 0x123BB10
+    // [HeaderAttribute] Offset: 0x10C05E8
     // private System.Boolean _useUppercase
     // Size: 0x1
     // Offset: 0x130
@@ -269,126 +261,118 @@ namespace HMUI {
     // Set static field: static private System.Single kBlinkingRate
     static void _set_kBlinkingRate(float value);
     // Get instance field reference: private TMPro.TextMeshProUGUI _textView
-    ::TMPro::TextMeshProUGUI*& dyn__textView();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__textView();
     // Get instance field reference: private UnityEngine.CanvasGroup _textViewCanvasGroup
-    ::UnityEngine::CanvasGroup*& dyn__textViewCanvasGroup();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::CanvasGroup*& dyn__textViewCanvasGroup();
     // Get instance field reference: private HMUI.ImageView _blinkingCaret
-    ::HMUI::ImageView*& dyn__blinkingCaret();
+    [[deprecated("Use field access instead!")]] ::HMUI::ImageView*& dyn__blinkingCaret();
     // Get instance field reference: private UnityEngine.GameObject _placeholderText
-    ::UnityEngine::GameObject*& dyn__placeholderText();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__placeholderText();
     // Get instance field reference: private UnityEngine.UI.Button _clearSearchButton
-    ::UnityEngine::UI::Button*& dyn__clearSearchButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__clearSearchButton();
     // Get instance field reference: private System.Boolean _useGlobalKeyboard
-    bool& dyn__useGlobalKeyboard();
+    [[deprecated("Use field access instead!")]] bool& dyn__useGlobalKeyboard();
     // Get instance field reference: private UnityEngine.Vector3 _keyboardPositionOffset
-    ::UnityEngine::Vector3& dyn__keyboardPositionOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__keyboardPositionOffset();
     // Get instance field reference: private System.Boolean _useUppercase
-    bool& dyn__useUppercase();
+    [[deprecated("Use field access instead!")]] bool& dyn__useUppercase();
     // Get instance field reference: private System.Int32 _textLengthLimit
-    int& dyn__textLengthLimit();
+    [[deprecated("Use field access instead!")]] int& dyn__textLengthLimit();
     // Get instance field reference: private System.Single _caretOffset
-    float& dyn__caretOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__caretOffset();
     // Get instance field reference: private System.Action`1<HMUI.InputFieldView/HMUI.SelectionState> selectionStateDidChangeEvent
-    ::System::Action_1<::HMUI::InputFieldView::SelectionState>*& dyn_selectionStateDidChangeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::HMUI::InputFieldView::SelectionState>*& dyn_selectionStateDidChangeEvent();
     // Get instance field reference: private HMUI.InputFieldView/HMUI.SelectionState _selectionState
-    ::HMUI::InputFieldView::SelectionState& dyn__selectionState();
+    [[deprecated("Use field access instead!")]] ::HMUI::InputFieldView::SelectionState& dyn__selectionState();
     // Get instance field reference: private System.String _text
-    ::StringW& dyn__text();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__text();
     // Get instance field reference: private System.Boolean _hasKeyboardAssigned
-    bool& dyn__hasKeyboardAssigned();
+    [[deprecated("Use field access instead!")]] bool& dyn__hasKeyboardAssigned();
     // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
-    ::HMUI::ButtonBinder*& dyn__buttonBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // Get instance field reference: private HMUI.InputFieldView/HMUI.InputFieldChanged _onValueChanged
-    ::HMUI::InputFieldView::InputFieldChanged*& dyn__onValueChanged();
+    [[deprecated("Use field access instead!")]] ::HMUI::InputFieldView::InputFieldChanged*& dyn__onValueChanged();
     // Get instance field reference: private readonly UnityEngine.YieldInstruction _blinkWaitYieldInstruction
-    ::UnityEngine::YieldInstruction*& dyn__blinkWaitYieldInstruction();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::YieldInstruction*& dyn__blinkWaitYieldInstruction();
     // public HMUI.InputFieldView/HMUI.SelectionState get_selectionState()
-    // Offset: 0x16815D4
+    // Offset: 0x16B7EE4
     ::HMUI::InputFieldView::SelectionState get_selectionState();
     // public UnityEngine.Vector3 get_keyboardPositionOffset()
-    // Offset: 0x16815DC
+    // Offset: 0x16B7EEC
     ::UnityEngine::Vector3 get_keyboardPositionOffset();
     // public HMUI.InputFieldView/HMUI.InputFieldChanged get_onValueChanged()
-    // Offset: 0x168173C
+    // Offset: 0x16B804C
     ::HMUI::InputFieldView::InputFieldChanged* get_onValueChanged();
     // public System.Void set_onValueChanged(HMUI.InputFieldView/HMUI.InputFieldChanged value)
-    // Offset: 0x1681744
+    // Offset: 0x16B8054
     void set_onValueChanged(::HMUI::InputFieldView::InputFieldChanged* value);
     // public System.Boolean get_useGlobalKeyboard()
-    // Offset: 0x168174C
+    // Offset: 0x16B805C
     bool get_useGlobalKeyboard();
     // public System.String get_text()
-    // Offset: 0x1681754
+    // Offset: 0x16B8064
     ::StringW get_text();
     // private System.Void set_text(System.String value)
-    // Offset: 0x168175C
+    // Offset: 0x16B806C
     void set_text(::StringW value);
     // public System.Void add_selectionStateDidChangeEvent(System.Action`1<HMUI.InputFieldView/HMUI.SelectionState> value)
-    // Offset: 0x16815EC
+    // Offset: 0x16B7EFC
     void add_selectionStateDidChangeEvent(::System::Action_1<::HMUI::InputFieldView::SelectionState>* value);
     // public System.Void remove_selectionStateDidChangeEvent(System.Action`1<HMUI.InputFieldView/HMUI.SelectionState> value)
-    // Offset: 0x1681694
+    // Offset: 0x16B7FA4
     void remove_selectionStateDidChangeEvent(::System::Action_1<::HMUI::InputFieldView::SelectionState>* value);
-    // public System.Void ActivateKeyboard(HMUI.UIKeyboard keyboard)
-    // Offset: 0x1681A8C
-    void ActivateKeyboard(::HMUI::UIKeyboard* keyboard);
-    // public System.Void DeactivateKeyboard(HMUI.UIKeyboard keyboard)
-    // Offset: 0x1681CA8
-    void DeactivateKeyboard(::HMUI::UIKeyboard* keyboard);
-    // public System.Void SetText(System.String value)
-    // Offset: 0x1681E68
-    void SetText(::StringW value);
-    // public System.Void ClearInput()
-    // Offset: 0x1681E8C
-    void ClearInput();
-    // private System.Void KeyboardKeyPressed(System.Char letter)
-    // Offset: 0x1681EE4
-    void KeyboardKeyPressed(::Il2CppChar letter);
-    // private System.Void KeyboardDeletePressed()
-    // Offset: 0x1682010
-    void KeyboardDeletePressed();
-    // private System.Collections.IEnumerator BlinkingCaretCoroutine()
-    // Offset: 0x1681C38
-    ::System::Collections::IEnumerator* BlinkingCaretCoroutine();
-    // private System.Void UpdateCaretPosition()
-    // Offset: 0x16817B8
-    void UpdateCaretPosition();
-    // private System.Void UpdatePlaceholder()
-    // Offset: 0x16818C8
-    void UpdatePlaceholder();
-    // private System.Void UpdateClearButton()
-    // Offset: 0x1681E28
-    void UpdateClearButton();
-    // private System.Void <Awake>b__34_0()
-    // Offset: 0x1682268
-    void $Awake$b__34_0();
     // public System.Void .ctor()
-    // Offset: 0x1682114
-    // Implemented from: UnityEngine.UI.Selectable
-    // Base method: System.Void Selectable::.ctor()
-    // Base method: System.Void UIBehaviour::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16B8A24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InputFieldView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::InputFieldView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InputFieldView*, creationType>()));
     }
+    // public System.Void ActivateKeyboard(HMUI.UIKeyboard keyboard)
+    // Offset: 0x16B839C
+    void ActivateKeyboard(::HMUI::UIKeyboard* keyboard);
+    // public System.Void DeactivateKeyboard(HMUI.UIKeyboard keyboard)
+    // Offset: 0x16B85B8
+    void DeactivateKeyboard(::HMUI::UIKeyboard* keyboard);
+    // public System.Void SetText(System.String value)
+    // Offset: 0x16B8778
+    void SetText(::StringW value);
+    // public System.Void ClearInput()
+    // Offset: 0x16B879C
+    void ClearInput();
+    // private System.Void KeyboardKeyPressed(System.Char letter)
+    // Offset: 0x16B87F4
+    void KeyboardKeyPressed(::Il2CppChar letter);
+    // private System.Void KeyboardDeletePressed()
+    // Offset: 0x16B8920
+    void KeyboardDeletePressed();
+    // private System.Collections.IEnumerator BlinkingCaretCoroutine()
+    // Offset: 0x16B8548
+    ::System::Collections::IEnumerator* BlinkingCaretCoroutine();
+    // private System.Void UpdateCaretPosition()
+    // Offset: 0x16B80C8
+    void UpdateCaretPosition();
+    // private System.Void UpdatePlaceholder()
+    // Offset: 0x16B81D8
+    void UpdatePlaceholder();
+    // private System.Void UpdateClearButton()
+    // Offset: 0x16B8738
+    void UpdateClearButton();
+    // private System.Void <Awake>b__34_0()
+    // Offset: 0x16B8B78
+    void $Awake$b__34_0();
     // protected override System.Void Awake()
-    // Offset: 0x1681904
+    // Offset: 0x16B8214
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::Awake()
     void Awake();
     // protected override System.Void OnDestroy()
-    // Offset: 0x16819DC
+    // Offset: 0x16B82EC
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDestroy()
     void OnDestroy();
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
-    // Offset: 0x16819F0
+    // Offset: 0x16B8300
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
     void DoStateTransition(::UnityEngine::UI::Selectable::SelectionState state, bool instant);
@@ -476,6 +460,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "remove_selectionStateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: HMUI::InputFieldView::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::InputFieldView::ActivateKeyboard
 // Il2CppName: ActivateKeyboard
 template<>
@@ -568,10 +556,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "<Awake>b__34_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HMUI::InputFieldView::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::InputFieldView::Awake
 // Il2CppName: Awake
 template<>

@@ -62,15 +62,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StandardLevelScenesTransitionSetupDataSO : public ::GlobalNamespace::LevelScenesTransitionSetupDataSO {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private SceneInfo _standardGameplaySceneInfo
     // Size: 0x8
     // Offset: 0x38
@@ -149,98 +141,93 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::GameplayModifiers*) == 0x8);
     public:
     // Get instance field reference: private SceneInfo _standardGameplaySceneInfo
-    ::GlobalNamespace::SceneInfo*& dyn__standardGameplaySceneInfo();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SceneInfo*& dyn__standardGameplaySceneInfo();
     // Get instance field reference: private SceneInfo _gameCoreSceneInfo
-    ::GlobalNamespace::SceneInfo*& dyn__gameCoreSceneInfo();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SceneInfo*& dyn__gameCoreSceneInfo();
     // Get instance field reference: private MainSettingsModelSO _mainSettingsModel
-    ::GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
     // Get instance field reference: private System.Action`2<StandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> didFinishEvent
-    ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>*& dyn_didFinishEvent();
     // Get instance field reference: private System.String <gameMode>k__BackingField
-    ::StringW& dyn_$gameMode$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$gameMode$k__BackingField();
     // Get instance field reference: private IDifficultyBeatmap <difficultyBeatmap>k__BackingField
-    ::GlobalNamespace::IDifficultyBeatmap*& dyn_$difficultyBeatmap$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IDifficultyBeatmap*& dyn_$difficultyBeatmap$k__BackingField();
     // Get instance field reference: private PracticeSettings <practiceSettings>k__BackingField
-    ::GlobalNamespace::PracticeSettings*& dyn_$practiceSettings$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PracticeSettings*& dyn_$practiceSettings$k__BackingField();
     // Get instance field reference: private System.Boolean <usingOverrideColorScheme>k__BackingField
-    bool& dyn_$usingOverrideColorScheme$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$usingOverrideColorScheme$k__BackingField();
     // Get instance field reference: private ColorScheme <colorScheme>k__BackingField
-    ::GlobalNamespace::ColorScheme*& dyn_$colorScheme$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorScheme*& dyn_$colorScheme$k__BackingField();
     // Get instance field reference: private System.Boolean <usingOverrideEnvironment>k__BackingField
-    bool& dyn_$usingOverrideEnvironment$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$usingOverrideEnvironment$k__BackingField();
     // Get instance field reference: private EnvironmentInfoSO <environmentInfo>k__BackingField
-    ::GlobalNamespace::EnvironmentInfoSO*& dyn_$environmentInfo$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentInfoSO*& dyn_$environmentInfo$k__BackingField();
     // Get instance field reference: private GameplayModifiers <gameplayModifiers>k__BackingField
-    ::GlobalNamespace::GameplayModifiers*& dyn_$gameplayModifiers$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers*& dyn_$gameplayModifiers$k__BackingField();
     // public System.String get_gameMode()
-    // Offset: 0x1335B5C
+    // Offset: 0x1417A8C
     ::StringW get_gameMode();
     // private System.Void set_gameMode(System.String value)
-    // Offset: 0x1335B64
+    // Offset: 0x1417A94
     void set_gameMode(::StringW value);
     // public IDifficultyBeatmap get_difficultyBeatmap()
-    // Offset: 0x1335B6C
+    // Offset: 0x1417A9C
     ::GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
     // private System.Void set_difficultyBeatmap(IDifficultyBeatmap value)
-    // Offset: 0x1335B74
+    // Offset: 0x1417AA4
     void set_difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
     // public PracticeSettings get_practiceSettings()
-    // Offset: 0x1335B7C
+    // Offset: 0x1417AAC
     ::GlobalNamespace::PracticeSettings* get_practiceSettings();
     // private System.Void set_practiceSettings(PracticeSettings value)
-    // Offset: 0x1335B84
+    // Offset: 0x1417AB4
     void set_practiceSettings(::GlobalNamespace::PracticeSettings* value);
     // public System.Boolean get_usingOverrideColorScheme()
-    // Offset: 0x1335B8C
+    // Offset: 0x1417ABC
     bool get_usingOverrideColorScheme();
     // private System.Void set_usingOverrideColorScheme(System.Boolean value)
-    // Offset: 0x1335B94
+    // Offset: 0x1417AC4
     void set_usingOverrideColorScheme(bool value);
     // public ColorScheme get_colorScheme()
-    // Offset: 0x1335BA0
+    // Offset: 0x1417AD0
     ::GlobalNamespace::ColorScheme* get_colorScheme();
     // private System.Void set_colorScheme(ColorScheme value)
-    // Offset: 0x1335BA8
+    // Offset: 0x1417AD8
     void set_colorScheme(::GlobalNamespace::ColorScheme* value);
     // public System.Boolean get_usingOverrideEnvironment()
-    // Offset: 0x1335BB0
+    // Offset: 0x1417AE0
     bool get_usingOverrideEnvironment();
     // private System.Void set_usingOverrideEnvironment(System.Boolean value)
-    // Offset: 0x1335BB8
+    // Offset: 0x1417AE8
     void set_usingOverrideEnvironment(bool value);
     // public EnvironmentInfoSO get_environmentInfo()
-    // Offset: 0x1335BC4
+    // Offset: 0x1417AF4
     ::GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
     // private System.Void set_environmentInfo(EnvironmentInfoSO value)
-    // Offset: 0x1335BCC
+    // Offset: 0x1417AFC
     void set_environmentInfo(::GlobalNamespace::EnvironmentInfoSO* value);
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x1335BD4
+    // Offset: 0x1417B04
     ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // private System.Void set_gameplayModifiers(GameplayModifiers value)
-    // Offset: 0x1335BDC
+    // Offset: 0x1417B0C
     void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
     // public System.Void add_didFinishEvent(System.Action`2<StandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> value)
-    // Offset: 0x1335A14
+    // Offset: 0x140FBF8
     void add_didFinishEvent(::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<StandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> value)
-    // Offset: 0x1335AB8
+    // Offset: 0x140FD2C
     void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* value);
     // public System.Void Init(System.String gameMode, IDifficultyBeatmap difficultyBeatmap, IPreviewBeatmapLevel previewBeatmapLevel, OverrideEnvironmentSettings overrideEnvironmentSettings, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.String backButtonText, System.Boolean useTestNoteCutSoundEffects, System.Boolean startPaused)
-    // Offset: 0x1335308
+    // Offset: 0x1417370
     void Init(::StringW gameMode, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::GlobalNamespace::ColorScheme* overrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, ::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused);
     // public System.Void Finish(LevelCompletionResults levelCompletionResults)
-    // Offset: 0x1333670
+    // Offset: 0x14156D8
     void Finish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0x1335BE4
+    // Offset: 0x1417B14
     // Implemented from: LevelScenesTransitionSetupDataSO
     // Base method: System.Void LevelScenesTransitionSetupDataSO::.ctor()
-    // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelScenesTransitionSetupDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::.ctor");

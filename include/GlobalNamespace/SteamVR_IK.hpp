@@ -36,15 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_IK : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Transform target
     // Size: 0x8
     // Offset: 0x18
@@ -111,50 +103,48 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Transform target
-    ::UnityEngine::Transform*& dyn_target();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_target();
     // Get instance field reference: public UnityEngine.Transform start
-    ::UnityEngine::Transform*& dyn_start();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_start();
     // Get instance field reference: public UnityEngine.Transform joint
-    ::UnityEngine::Transform*& dyn_joint();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_joint();
     // Get instance field reference: public UnityEngine.Transform end
-    ::UnityEngine::Transform*& dyn_end();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_end();
     // Get instance field reference: public UnityEngine.Transform poleVector
-    ::UnityEngine::Transform*& dyn_poleVector();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_poleVector();
     // Get instance field reference: public UnityEngine.Transform upVector
-    ::UnityEngine::Transform*& dyn_upVector();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_upVector();
     // Get instance field reference: public System.Single blendPct
-    float& dyn_blendPct();
+    [[deprecated("Use field access instead!")]] float& dyn_blendPct();
     // Get instance field reference: public UnityEngine.Transform startXform
-    ::UnityEngine::Transform*& dyn_startXform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_startXform();
     // Get instance field reference: public UnityEngine.Transform jointXform
-    ::UnityEngine::Transform*& dyn_jointXform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_jointXform();
     // Get instance field reference: public UnityEngine.Transform endXform
-    ::UnityEngine::Transform*& dyn_endXform();
-    // private System.Void LateUpdate()
-    // Offset: 0x186DF88
-    void LateUpdate();
-    // static public System.Boolean Solve(UnityEngine.Vector3 start, UnityEngine.Vector3 end, UnityEngine.Vector3 poleVector, System.Single jointDist, System.Single targetDist, ref UnityEngine.Vector3 result, out UnityEngine.Vector3 forward, out UnityEngine.Vector3 up)
-    // Offset: 0x186E930
-    static bool Solve(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::UnityEngine::Vector3 poleVector, float jointDist, float targetDist, ByRef<::UnityEngine::Vector3> result, ByRef<::UnityEngine::Vector3> forward, ByRef<::UnityEngine::Vector3> up);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_endXform();
     // public System.Void .ctor()
-    // Offset: 0x186EE48
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18A8758
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_IK* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_IK::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_IK*, creationType>()));
     }
+    // private System.Void LateUpdate()
+    // Offset: 0x18A7898
+    void LateUpdate();
+    // static public System.Boolean Solve(UnityEngine.Vector3 start, UnityEngine.Vector3 end, UnityEngine.Vector3 poleVector, System.Single jointDist, System.Single targetDist, ref UnityEngine.Vector3 result, out UnityEngine.Vector3 forward, out UnityEngine.Vector3 up)
+    // Offset: 0x18A8240
+    static bool Solve(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::UnityEngine::Vector3 poleVector, float jointDist, float targetDist, ByRef<::UnityEngine::Vector3> result, ByRef<::UnityEngine::Vector3> forward, ByRef<::UnityEngine::Vector3> up);
   }; // SteamVR_IK
   #pragma pack(pop)
   static check_size<sizeof(SteamVR_IK), 96 + sizeof(::UnityEngine::Transform*)> __GlobalNamespace_SteamVR_IKSizeCheck;
   static_assert(sizeof(SteamVR_IK) == 0x68);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_IK::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_IK::LateUpdate
 // Il2CppName: LateUpdate
 template<>
@@ -179,7 +169,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_IK*), "Solve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{start, end, poleVector, jointDist, targetDist, result, forward, up});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SteamVR_IK::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

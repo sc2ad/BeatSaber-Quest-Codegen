@@ -60,7 +60,7 @@ namespace System::Security::Authentication::ExtendedProtection {
     // Set static field: static public System.Security.Authentication.ExtendedProtection.PolicyEnforcement Always
     static void _set_Always(::System::Security::Authentication::ExtendedProtection::PolicyEnforcement value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Security.Authentication.ExtendedProtection.PolicyEnforcement
   #pragma pack(pop)
   static check_size<sizeof(PolicyEnforcement), 0 + sizeof(int)> __System_Security_Authentication_ExtendedProtection_PolicyEnforcementSizeCheck;

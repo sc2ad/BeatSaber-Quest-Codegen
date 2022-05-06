@@ -100,20 +100,12 @@ namespace MasterServer {
       // Set static field: static public MasterServer.CreateDedicatedServerInstanceResponse/MasterServer.Result UnknownError
       static void _set_UnknownError(::MasterServer::CreateDedicatedServerInstanceResponse::Result value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // MasterServer.CreateDedicatedServerInstanceResponse/MasterServer.Result
     #pragma pack(pop)
     static check_size<sizeof(CreateDedicatedServerInstanceResponse::Result), 0 + sizeof(int)> __MasterServer_CreateDedicatedServerInstanceResponse_ResultSizeCheck;
     static_assert(sizeof(CreateDedicatedServerInstanceResponse::Result) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public MasterServer.CreateDedicatedServerInstanceResponse/MasterServer.Result result
     // Size: 0x4
     // Offset: 0x18
@@ -170,74 +162,73 @@ namespace MasterServer {
       return *reinterpret_cast<::MasterServer::IDedicatedServerMasterServerClientToServerMessage*>(this);
     }
     // Get instance field reference: public MasterServer.CreateDedicatedServerInstanceResponse/MasterServer.Result result
-    ::MasterServer::CreateDedicatedServerInstanceResponse::Result& dyn_result();
+    [[deprecated("Use field access instead!")]] ::MasterServer::CreateDedicatedServerInstanceResponse::Result& dyn_result();
     // Get instance field reference: private System.String <dedicatedServerId>k__BackingField
-    ::StringW& dyn_$dedicatedServerId$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$dedicatedServerId$k__BackingField();
     // Get instance field reference: private System.Int64 <dedicatedServerCreationTime>k__BackingField
-    int64_t& dyn_$dedicatedServerCreationTime$k__BackingField();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_$dedicatedServerCreationTime$k__BackingField();
     // Get instance field reference: public System.String id
-    ::StringW& dyn_id();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_id();
     // Get instance field reference: public System.Int32 port
-    int& dyn_port();
+    [[deprecated("Use field access instead!")]] int& dyn_port();
     // Get instance field reference: public System.Int32 maxPlayerCount
-    int& dyn_maxPlayerCount();
+    [[deprecated("Use field access instead!")]] int& dyn_maxPlayerCount();
     // Get instance field reference: public readonly ByteArrayNetSerializable random
-    ::GlobalNamespace::ByteArrayNetSerializable*& dyn_random();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ByteArrayNetSerializable*& dyn_random();
     // Get instance field reference: public readonly ByteArrayNetSerializable publicKey
-    ::GlobalNamespace::ByteArrayNetSerializable*& dyn_publicKey();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ByteArrayNetSerializable*& dyn_publicKey();
     // static public PacketPool`1<MasterServer.CreateDedicatedServerInstanceResponse> get_pool()
-    // Offset: 0x164D6D0
+    // Offset: 0x1683FE0
     static ::GlobalNamespace::PacketPool_1<::MasterServer::CreateDedicatedServerInstanceResponse*>* get_pool();
     // public System.String get_dedicatedServerId()
-    // Offset: 0x164D7B0
+    // Offset: 0x16840C0
     ::StringW get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x164D7B8
+    // Offset: 0x16840C8
     void set_dedicatedServerId(::StringW value);
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x164D7C0
+    // Offset: 0x16840D0
     int64_t get_dedicatedServerCreationTime();
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x164D7C8
+    // Offset: 0x16840D8
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.CreateDedicatedServerInstanceResponse InitForFailure(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, MasterServer.CreateDedicatedServerInstanceResponse/MasterServer.Result result)
-    // Offset: 0x164DA18
+    // Offset: 0x1684328
     ::MasterServer::CreateDedicatedServerInstanceResponse* InitForFailure(::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, ::MasterServer::CreateDedicatedServerInstanceResponse::Result result);
     // public MasterServer.CreateDedicatedServerInstanceResponse InitForSuccess(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.String id, System.Int32 port, System.Byte[] random, System.Byte[] publicKey, System.Int32 maxPlayerCount)
-    // Offset: 0x164DA24
+    // Offset: 0x1684334
     ::MasterServer::CreateDedicatedServerInstanceResponse* InitForSuccess(::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, ::StringW id, int port, ::ArrayW<uint8_t> random, ::ArrayW<uint8_t> publicKey, int maxPlayerCount);
     // public override System.Byte get_resultCode()
-    // Offset: 0x164D718
+    // Offset: 0x1684028
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Byte BaseReliableResponse::get_resultCode()
     uint8_t get_resultCode();
     // public override System.String get_resultCodeString()
-    // Offset: 0x164D720
+    // Offset: 0x1684030
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.String BaseReliableResponse::get_resultCodeString()
     ::StringW get_resultCodeString();
     // public System.Void .ctor()
-    // Offset: 0x164DA84
+    // Offset: 0x1684394
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CreateDedicatedServerInstanceResponse* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::MasterServer::CreateDedicatedServerInstanceResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CreateDedicatedServerInstanceResponse*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x164D7D0
+    // Offset: 0x16840E0
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x164D8D0
+    // Offset: 0x16841E0
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x164D99C
+    // Offset: 0x16842AC
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Release()
     void Release();

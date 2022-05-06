@@ -48,25 +48,27 @@ namespace UnityEngine::UI {
     static ::UnityEngine::UI::DefaultControls::IFactoryControls* _get_Default();
     // Set static field: static public UnityEngine.UI.DefaultControls/UnityEngine.UI.IFactoryControls Default
     static void _set_Default(::UnityEngine::UI::DefaultControls::IFactoryControls* value);
-    // static private System.Void .cctor()
-    // Offset: 0x1905760
-    static void _cctor();
-    // public UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
-    // Offset: 0x19056E4
-    ::UnityEngine::GameObject* CreateGameObject(::StringW name, ::ArrayW<::System::Type*> components);
     // public System.Void .ctor()
-    // Offset: 0x1905758
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x193F068
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultControls::DefaultRuntimeFactory* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::DefaultControls::DefaultRuntimeFactory::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultControls::DefaultRuntimeFactory*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x193F070
+    static void _cctor();
+    // public UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
+    // Offset: 0x193EFF4
+    ::UnityEngine::GameObject* CreateGameObject(::StringW name, ::ArrayW<::System::Type*> components);
   }; // UnityEngine.UI.DefaultControls/UnityEngine.UI.DefaultRuntimeFactory
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::DefaultRuntimeFactory::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::DefaultRuntimeFactory::_cctor
 // Il2CppName: .cctor
 template<>
@@ -85,7 +87,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls::DefaultRuntimeFactory*), "CreateGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, components});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::DefaultRuntimeFactory::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

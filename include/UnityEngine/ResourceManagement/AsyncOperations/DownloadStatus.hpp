@@ -51,13 +51,13 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int64 TotalBytes
-    int64_t& dyn_TotalBytes();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_TotalBytes();
     // Get instance field reference: public System.Int64 DownloadedBytes
-    int64_t& dyn_DownloadedBytes();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_DownloadedBytes();
     // Get instance field reference: public System.Boolean IsDone
-    bool& dyn_IsDone();
+    [[deprecated("Use field access instead!")]] bool& dyn_IsDone();
     // public System.Single get_Percent()
-    // Offset: 0x1E94698
+    // Offset: 0x1EE2BD0
     float get_Percent();
   }; // UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus
   #pragma pack(pop)

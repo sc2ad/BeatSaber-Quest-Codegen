@@ -56,15 +56,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputObjectInfo : public ::Il2CppObject/*, public ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.GameObject _gameObject
     // Size: 0x8
     // Offset: 0x10
@@ -95,7 +87,7 @@ namespace HoudiniEngineUnity {
     ::UnityEngine::Matrix4x4 syncdTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Matrix4x4) == 0x40);
-    // [FormerlySerializedAsAttribute] Offset: 0x127CB54
+    // [FormerlySerializedAsAttribute] Offset: 0x110180C
     // public System.Boolean _useTransformOffset
     // Size: 0x1
     // Offset: 0x70
@@ -104,21 +96,21 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useTransformOffset and: translateOffset
     char __padding5[0x3] = {};
-    // [FormerlySerializedAsAttribute] Offset: 0x127CB8C
+    // [FormerlySerializedAsAttribute] Offset: 0x1101844
     // public UnityEngine.Vector3 _translateOffset
     // Size: 0xC
     // Offset: 0x74
     ::UnityEngine::Vector3 translateOffset;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [FormerlySerializedAsAttribute] Offset: 0x127CBC4
+    // [FormerlySerializedAsAttribute] Offset: 0x110187C
     // public UnityEngine.Vector3 _rotateOffset
     // Size: 0xC
     // Offset: 0x80
     ::UnityEngine::Vector3 rotateOffset;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [FormerlySerializedAsAttribute] Offset: 0x127CBFC
+    // [FormerlySerializedAsAttribute] Offset: 0x11018B4
     // public UnityEngine.Vector3 _scaleOffset
     // Size: 0xC
     // Offset: 0x8C
@@ -137,49 +129,51 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>*>(this);
     }
     // Get instance field reference: public UnityEngine.GameObject _gameObject
-    ::UnityEngine::GameObject*& dyn__gameObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__gameObject();
     // Get instance field reference: public UnityEngine.Terrain _terrainReference
-    ::UnityEngine::Terrain*& dyn__terrainReference();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Terrain*& dyn__terrainReference();
     // Get instance field reference: public HEU_BoundingVolume _boundingVolumeReference
-    ::GlobalNamespace::HEU_BoundingVolume*& dyn__boundingVolumeReference();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::HEU_BoundingVolume*& dyn__boundingVolumeReference();
     // Get instance field reference: public UnityEngine.Tilemaps.Tilemap _tilemapReference
-    ::UnityEngine::Tilemaps::Tilemap*& dyn__tilemapReference();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Tilemaps::Tilemap*& dyn__tilemapReference();
     // Get instance field reference: public UnityEngine.Matrix4x4 _syncdTransform
-    ::UnityEngine::Matrix4x4& dyn__syncdTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Matrix4x4& dyn__syncdTransform();
     // Get instance field reference: public System.Boolean _useTransformOffset
-    bool& dyn__useTransformOffset();
+    [[deprecated("Use field access instead!")]] bool& dyn__useTransformOffset();
     // Get instance field reference: public UnityEngine.Vector3 _translateOffset
-    ::UnityEngine::Vector3& dyn__translateOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__translateOffset();
     // Get instance field reference: public UnityEngine.Vector3 _rotateOffset
-    ::UnityEngine::Vector3& dyn__rotateOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__rotateOffset();
     // Get instance field reference: public UnityEngine.Vector3 _scaleOffset
-    ::UnityEngine::Vector3& dyn__scaleOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__scaleOffset();
     // Get instance field reference: public System.Type _inputInterfaceType
-    ::System::Type*& dyn__inputInterfaceType();
-    // public System.Void CopyTo(HoudiniEngineUnity.HEU_InputObjectInfo destObject)
-    // Offset: 0x1857B14
-    void CopyTo(::HoudiniEngineUnity::HEU_InputObjectInfo* destObject);
-    // public System.Void SetReferencesFromGameObject()
-    // Offset: 0x1858358
-    void SetReferencesFromGameObject();
-    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_InputObjectInfo other)
-    // Offset: 0x185A4D8
-    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InputObjectInfo* other);
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn__inputInterfaceType();
     // public System.Void .ctor()
-    // Offset: 0x1857A34
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1891344
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputObjectInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputObjectInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_InputObjectInfo*, creationType>()));
     }
+    // public System.Void CopyTo(HoudiniEngineUnity.HEU_InputObjectInfo destObject)
+    // Offset: 0x1891424
+    void CopyTo(::HoudiniEngineUnity::HEU_InputObjectInfo* destObject);
+    // public System.Void SetReferencesFromGameObject()
+    // Offset: 0x1891C68
+    void SetReferencesFromGameObject();
+    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_InputObjectInfo other)
+    // Offset: 0x1893DE8
+    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InputObjectInfo* other);
   }; // HoudiniEngineUnity.HEU_InputObjectInfo
   #pragma pack(pop)
   static check_size<sizeof(HEU_InputObjectInfo), 152 + sizeof(::System::Type*)> __HoudiniEngineUnity_HEU_InputObjectInfoSizeCheck;
   static_assert(sizeof(HEU_InputObjectInfo) == 0xA0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputObjectInfo::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputObjectInfo::CopyTo
 // Il2CppName: CopyTo
 template<>
@@ -206,7 +200,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InputObjectInfo*), "IsEquivalentTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputObjectInfo::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -66,32 +66,30 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Face> <>9__147_0
     static void _set_$$9__147_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1986480
+    // Offset: 0x19BFA68
     static void _cctor();
-    // UnityEngine.Vector2 <SetUVs>b__102_0(UnityEngine.Vector4 x)
-    // Offset: 0x19864EC
-    ::UnityEngine::Vector2 $SetUVs$b__102_0(::UnityEngine::Vector4 x);
-    // UnityEngine.Vector2 <SetUVs>b__102_1(UnityEngine.Vector4 x)
-    // Offset: 0x198657C
-    ::UnityEngine::Vector2 $SetUVs$b__102_1(::UnityEngine::Vector4 x);
-    // System.Int32 <get_indexCount>b__110_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x198660C
-    int $get_indexCount$b__110_0(::UnityEngine::ProBuilder::Face* x);
-    // System.Int32 <get_triangleCount>b__112_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1986630
-    int $get_triangleCount$b__112_0(::UnityEngine::ProBuilder::Face* x);
-    // UnityEngine.ProBuilder.Face <CopyFrom>b__147_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1986654
-    ::UnityEngine::ProBuilder::Face* $CopyFrom$b__147_0(::UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x19864E4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x19BFACC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProBuilderMesh::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ProBuilderMesh::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProBuilderMesh::$$c*, creationType>()));
     }
+    // UnityEngine.Vector2 <SetUVs>b__102_0(UnityEngine.Vector4 x)
+    // Offset: 0x19BFAD4
+    ::UnityEngine::Vector2 $SetUVs$b__102_0(::UnityEngine::Vector4 x);
+    // UnityEngine.Vector2 <SetUVs>b__102_1(UnityEngine.Vector4 x)
+    // Offset: 0x19BFB64
+    ::UnityEngine::Vector2 $SetUVs$b__102_1(::UnityEngine::Vector4 x);
+    // System.Int32 <get_indexCount>b__110_0(UnityEngine.ProBuilder.Face x)
+    // Offset: 0x19BFBF4
+    int $get_indexCount$b__110_0(::UnityEngine::ProBuilder::Face* x);
+    // System.Int32 <get_triangleCount>b__112_0(UnityEngine.ProBuilder.Face x)
+    // Offset: 0x19BFC18
+    int $get_triangleCount$b__112_0(::UnityEngine::ProBuilder::Face* x);
+    // UnityEngine.ProBuilder.Face <CopyFrom>b__147_0(UnityEngine.ProBuilder.Face x)
+    // Offset: 0x19BFC3C
+    ::UnityEngine::ProBuilder::Face* $CopyFrom$b__147_0(::UnityEngine::ProBuilder::Face* x);
   }; // UnityEngine.ProBuilder.ProBuilderMesh/UnityEngine.ProBuilder.<>c
   #pragma pack(pop)
 }
@@ -104,6 +102,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::$$c::$SetUVs$b__102_0
 // Il2CppName: <SetUVs>b__102_0
 template<>
@@ -149,7 +151,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh::$$c*), "<CopyFrom>b__147_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

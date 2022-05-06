@@ -31,15 +31,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class BeatmapDataSO::$$c__DisplayClass5_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public BeatmapSaveDataVersion3.BeatmapSaveData beatmapSaveData
     // Size: 0x8
     // Offset: 0x10
@@ -54,27 +46,29 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::BeatmapDataSO*) == 0x8);
     public:
     // Get instance field reference: public BeatmapSaveDataVersion3.BeatmapSaveData beatmapSaveData
-    ::BeatmapSaveDataVersion3::BeatmapSaveData*& dyn_beatmapSaveData();
+    [[deprecated("Use field access instead!")]] ::BeatmapSaveDataVersion3::BeatmapSaveData*& dyn_beatmapSaveData();
     // Get instance field reference: public BeatmapDataSO <>4__this
-    ::GlobalNamespace::BeatmapDataSO*& dyn_$$4__this();
-    // System.Void <LoadBeatmapSaveDataAsync>b__0()
-    // Offset: 0x136D384
-    void $LoadBeatmapSaveDataAsync$b__0();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataSO*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x136D37C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1355608
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataSO::$$c__DisplayClass5_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataSO::$$c__DisplayClass5_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataSO::$$c__DisplayClass5_0*, creationType>()));
     }
+    // System.Void <LoadBeatmapSaveDataAsync>b__0()
+    // Offset: 0x1355610
+    void $LoadBeatmapSaveDataAsync$b__0();
   }; // BeatmapDataSO/<>c__DisplayClass5_0
   #pragma pack(pop)
   static check_size<sizeof(BeatmapDataSO::$$c__DisplayClass5_0), 24 + sizeof(::GlobalNamespace::BeatmapDataSO*)> __GlobalNamespace_BeatmapDataSO_$$c__DisplayClass5_0SizeCheck;
   static_assert(sizeof(BeatmapDataSO::$$c__DisplayClass5_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataSO::$$c__DisplayClass5_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataSO::$$c__DisplayClass5_0::$LoadBeatmapSaveDataAsync$b__0
 // Il2CppName: <LoadBeatmapSaveDataAsync>b__0
 template<>
@@ -83,7 +77,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataSO::$$c__DisplayClass5_0*), "<LoadBeatmapSaveDataAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataSO::$$c__DisplayClass5_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

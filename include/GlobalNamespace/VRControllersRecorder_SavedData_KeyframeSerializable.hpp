@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRControllersRecorder::SavedData::KeyframeSerializable : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single _xPos1
     // Size: 0x4
     // Offset: 0x10
@@ -166,53 +158,51 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public System.Single _xPos1
-    float& dyn__xPos1();
+    [[deprecated("Use field access instead!")]] float& dyn__xPos1();
     // Get instance field reference: public System.Single _yPos1
-    float& dyn__yPos1();
+    [[deprecated("Use field access instead!")]] float& dyn__yPos1();
     // Get instance field reference: public System.Single _zPos1
-    float& dyn__zPos1();
+    [[deprecated("Use field access instead!")]] float& dyn__zPos1();
     // Get instance field reference: public System.Single _xPos2
-    float& dyn__xPos2();
+    [[deprecated("Use field access instead!")]] float& dyn__xPos2();
     // Get instance field reference: public System.Single _yPos2
-    float& dyn__yPos2();
+    [[deprecated("Use field access instead!")]] float& dyn__yPos2();
     // Get instance field reference: public System.Single _zPos2
-    float& dyn__zPos2();
+    [[deprecated("Use field access instead!")]] float& dyn__zPos2();
     // Get instance field reference: public System.Single _xPos3
-    float& dyn__xPos3();
+    [[deprecated("Use field access instead!")]] float& dyn__xPos3();
     // Get instance field reference: public System.Single _yPos3
-    float& dyn__yPos3();
+    [[deprecated("Use field access instead!")]] float& dyn__yPos3();
     // Get instance field reference: public System.Single _zPos3
-    float& dyn__zPos3();
+    [[deprecated("Use field access instead!")]] float& dyn__zPos3();
     // Get instance field reference: public System.Single _xRot1
-    float& dyn__xRot1();
+    [[deprecated("Use field access instead!")]] float& dyn__xRot1();
     // Get instance field reference: public System.Single _yRot1
-    float& dyn__yRot1();
+    [[deprecated("Use field access instead!")]] float& dyn__yRot1();
     // Get instance field reference: public System.Single _zRot1
-    float& dyn__zRot1();
+    [[deprecated("Use field access instead!")]] float& dyn__zRot1();
     // Get instance field reference: public System.Single _wRot1
-    float& dyn__wRot1();
+    [[deprecated("Use field access instead!")]] float& dyn__wRot1();
     // Get instance field reference: public System.Single _xRot2
-    float& dyn__xRot2();
+    [[deprecated("Use field access instead!")]] float& dyn__xRot2();
     // Get instance field reference: public System.Single _yRot2
-    float& dyn__yRot2();
+    [[deprecated("Use field access instead!")]] float& dyn__yRot2();
     // Get instance field reference: public System.Single _zRot2
-    float& dyn__zRot2();
+    [[deprecated("Use field access instead!")]] float& dyn__zRot2();
     // Get instance field reference: public System.Single _wRot2
-    float& dyn__wRot2();
+    [[deprecated("Use field access instead!")]] float& dyn__wRot2();
     // Get instance field reference: public System.Single _xRot3
-    float& dyn__xRot3();
+    [[deprecated("Use field access instead!")]] float& dyn__xRot3();
     // Get instance field reference: public System.Single _yRot3
-    float& dyn__yRot3();
+    [[deprecated("Use field access instead!")]] float& dyn__yRot3();
     // Get instance field reference: public System.Single _zRot3
-    float& dyn__zRot3();
+    [[deprecated("Use field access instead!")]] float& dyn__zRot3();
     // Get instance field reference: public System.Single _wRot3
-    float& dyn__wRot3();
+    [[deprecated("Use field access instead!")]] float& dyn__wRot3();
     // Get instance field reference: public System.Single _time
-    float& dyn__time();
+    [[deprecated("Use field access instead!")]] float& dyn__time();
     // public System.Void .ctor()
-    // Offset: 0x2ABE9E0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x149DF38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorder::SavedData::KeyframeSerializable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable::.ctor");

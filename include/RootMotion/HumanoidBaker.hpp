@@ -49,16 +49,8 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class HumanoidBaker : public ::RootMotion::Baker {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x1272B38
+    // [TooltipAttribute] Offset: 0x10F77F0
     // public System.Boolean bakeHandIK
     // Size: 0x1
     // Offset: 0x74
@@ -67,16 +59,16 @@ namespace RootMotion {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: bakeHandIK and: IKKeyReductionError
     char __padding0[0x3] = {};
-    // [TooltipAttribute] Offset: 0x1272B70
-    // [RangeAttribute] Offset: 0x1272B70
+    // [TooltipAttribute] Offset: 0x10F7828
+    // [RangeAttribute] Offset: 0x10F7828
     // public System.Single IKKeyReductionError
     // Size: 0x4
     // Offset: 0x78
     float IKKeyReductionError;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1272BC8
-    // [RangeAttribute] Offset: 0x1272BC8
+    // [TooltipAttribute] Offset: 0x10F7880
+    // [RangeAttribute] Offset: 0x10F7880
     // public System.Int32 muscleFrameRateDiv
     // Size: 0x4
     // Offset: 0x7C
@@ -163,79 +155,74 @@ namespace RootMotion {
     static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     public:
     // Get instance field reference: public System.Boolean bakeHandIK
-    bool& dyn_bakeHandIK();
+    [[deprecated("Use field access instead!")]] bool& dyn_bakeHandIK();
     // Get instance field reference: public System.Single IKKeyReductionError
-    float& dyn_IKKeyReductionError();
+    [[deprecated("Use field access instead!")]] float& dyn_IKKeyReductionError();
     // Get instance field reference: public System.Int32 muscleFrameRateDiv
-    int& dyn_muscleFrameRateDiv();
+    [[deprecated("Use field access instead!")]] int& dyn_muscleFrameRateDiv();
     // Get instance field reference: private RootMotion.BakerMuscle[] bakerMuscles
-    ::ArrayW<::RootMotion::BakerMuscle*>& dyn_bakerMuscles();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::BakerMuscle*>& dyn_bakerMuscles();
     // Get instance field reference: private RootMotion.BakerHumanoidQT rootQT
-    ::RootMotion::BakerHumanoidQT*& dyn_rootQT();
+    [[deprecated("Use field access instead!")]] ::RootMotion::BakerHumanoidQT*& dyn_rootQT();
     // Get instance field reference: private RootMotion.BakerHumanoidQT leftFootQT
-    ::RootMotion::BakerHumanoidQT*& dyn_leftFootQT();
+    [[deprecated("Use field access instead!")]] ::RootMotion::BakerHumanoidQT*& dyn_leftFootQT();
     // Get instance field reference: private RootMotion.BakerHumanoidQT rightFootQT
-    ::RootMotion::BakerHumanoidQT*& dyn_rightFootQT();
+    [[deprecated("Use field access instead!")]] ::RootMotion::BakerHumanoidQT*& dyn_rightFootQT();
     // Get instance field reference: private RootMotion.BakerHumanoidQT leftHandQT
-    ::RootMotion::BakerHumanoidQT*& dyn_leftHandQT();
+    [[deprecated("Use field access instead!")]] ::RootMotion::BakerHumanoidQT*& dyn_leftHandQT();
     // Get instance field reference: private RootMotion.BakerHumanoidQT rightHandQT
-    ::RootMotion::BakerHumanoidQT*& dyn_rightHandQT();
+    [[deprecated("Use field access instead!")]] ::RootMotion::BakerHumanoidQT*& dyn_rightHandQT();
     // Get instance field reference: private System.Single[] muscles
-    ::ArrayW<float>& dyn_muscles();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn_muscles();
     // Get instance field reference: private UnityEngine.HumanPose pose
-    ::UnityEngine::HumanPose& dyn_pose();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::HumanPose& dyn_pose();
     // Get instance field reference: private UnityEngine.HumanPoseHandler handler
-    ::UnityEngine::HumanPoseHandler*& dyn_handler();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::HumanPoseHandler*& dyn_handler();
     // Get instance field reference: private UnityEngine.Vector3 bodyPosition
-    ::UnityEngine::Vector3& dyn_bodyPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_bodyPosition();
     // Get instance field reference: private UnityEngine.Quaternion bodyRotation
-    ::UnityEngine::Quaternion& dyn_bodyRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_bodyRotation();
     // Get instance field reference: private System.Int32 mN
-    int& dyn_mN();
+    [[deprecated("Use field access instead!")]] int& dyn_mN();
     // Get instance field reference: private UnityEngine.Quaternion lastBodyRotation
-    ::UnityEngine::Quaternion& dyn_lastBodyRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_lastBodyRotation();
     // private System.Void Awake()
-    // Offset: 0x1F7F2C4
+    // Offset: 0x1FCBB38
     void Awake();
     // private System.Void UpdateHumanPose()
-    // Offset: 0x1F7FE00
+    // Offset: 0x1FCC674
     void UpdateHumanPose();
     // public System.Void .ctor()
-    // Offset: 0x1F7FEDC
+    // Offset: 0x1FCC750
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HumanoidBaker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::HumanoidBaker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HumanoidBaker*, creationType>()));
     }
     // protected override UnityEngine.Transform GetCharacterRoot()
-    // Offset: 0x1F7F6F0
+    // Offset: 0x1FCBF64
     // Implemented from: RootMotion.Baker
     // Base method: UnityEngine.Transform Baker::GetCharacterRoot()
     ::UnityEngine::Transform* GetCharacterRoot();
     // protected override System.Void OnStartBaking()
-    // Offset: 0x1F7F70C
+    // Offset: 0x1FCBF80
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnStartBaking()
     void OnStartBaking();
     // protected override System.Void OnSetLoopFrame(System.Single time)
-    // Offset: 0x1F7F82C
+    // Offset: 0x1FCC0A0
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetLoopFrame(System.Single time)
     void OnSetLoopFrame(float time);
     // protected override System.Void OnSetCurves(ref UnityEngine.AnimationClip clip)
-    // Offset: 0x1F7F908
+    // Offset: 0x1FCC17C
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetCurves(ref UnityEngine.AnimationClip clip)
     void OnSetCurves(ByRef<::UnityEngine::AnimationClip*> clip);
     // protected override System.Void OnSetKeyframes(System.Single time, System.Boolean lastFrame)
-    // Offset: 0x1F7FAD8
+    // Offset: 0x1FCC34C
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetKeyframes(System.Single time, System.Boolean lastFrame)
     void OnSetKeyframes(float time, bool lastFrame);

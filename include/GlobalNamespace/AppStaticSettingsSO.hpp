@@ -28,15 +28,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AppStaticSettingsSO : public ::UnityEngine::ScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean requirePrivacyPolicy
     // Size: 0x1
     // Offset: 0x18
@@ -65,19 +57,15 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Boolean requirePrivacyPolicy
-    bool& dyn_requirePrivacyPolicy();
+    [[deprecated("Use field access instead!")]] bool& dyn_requirePrivacyPolicy();
     // Get instance field reference: public System.Boolean enable360DegreeLevels
-    bool& dyn_enable360DegreeLevels();
+    [[deprecated("Use field access instead!")]] bool& dyn_enable360DegreeLevels();
     // Get instance field reference: public System.Boolean enableCustomLevels
-    bool& dyn_enableCustomLevels();
+    [[deprecated("Use field access instead!")]] bool& dyn_enableCustomLevels();
     // Get instance field reference: public System.Boolean disableMultiplayer
-    bool& dyn_disableMultiplayer();
+    [[deprecated("Use field access instead!")]] bool& dyn_disableMultiplayer();
     // public System.Void .ctor()
-    // Offset: 0x14B6A20
-    // Implemented from: UnityEngine.ScriptableObject
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14EE2D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AppStaticSettingsSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AppStaticSettingsSO::.ctor");

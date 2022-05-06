@@ -63,15 +63,7 @@ namespace GlobalNamespace {
     class Elements;
     // Nested type: ::GlobalNamespace::EnvironmentOverrideSettingsPanelController::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Toggle _overrideEnvironmentsToggle
     // Size: 0x8
     // Offset: 0x18
@@ -90,7 +82,7 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*> elements;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x1258CC4
+    // [SpaceAttribute] Offset: 0x10DD8A8
     // private HMUI.PanelAnimationSO _presentPanelAnimation
     // Size: 0x8
     // Offset: 0x30
@@ -103,14 +95,14 @@ namespace GlobalNamespace {
     ::HMUI::PanelAnimationSO* dismissPanelAnimation;
     // Field size check
     static_assert(sizeof(::HMUI::PanelAnimationSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1258D0C
+    // [SpaceAttribute] Offset: 0x10DD8F0
     // private EnvironmentsListSO _allEnvironments
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::EnvironmentsListSO* allEnvironments;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EnvironmentsListSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x1258D44
+    // [InjectAttribute] Offset: 0x10DD928
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x48
@@ -137,57 +129,51 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Toggle _overrideEnvironmentsToggle
-    ::UnityEngine::UI::Toggle*& dyn__overrideEnvironmentsToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__overrideEnvironmentsToggle();
     // Get instance field reference: private UnityEngine.GameObject _elementsGO
-    ::UnityEngine::GameObject*& dyn__elementsGO();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__elementsGO();
     // Get instance field reference: private EnvironmentOverrideSettingsPanelController/Elements[] _elements
-    ::ArrayW<::GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*>& dyn__elements();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*>& dyn__elements();
     // Get instance field reference: private HMUI.PanelAnimationSO _presentPanelAnimation
-    ::HMUI::PanelAnimationSO*& dyn__presentPanelAnimation();
+    [[deprecated("Use field access instead!")]] ::HMUI::PanelAnimationSO*& dyn__presentPanelAnimation();
     // Get instance field reference: private HMUI.PanelAnimationSO _dismissPanelAnimation
-    ::HMUI::PanelAnimationSO*& dyn__dismissPanelAnimation();
+    [[deprecated("Use field access instead!")]] ::HMUI::PanelAnimationSO*& dyn__dismissPanelAnimation();
     // Get instance field reference: private EnvironmentsListSO _allEnvironments
-    ::GlobalNamespace::EnvironmentsListSO*& dyn__allEnvironments();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentsListSO*& dyn__allEnvironments();
     // Get instance field reference: private readonly IAnalyticsModel _analyticsModel
-    ::GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
     // Get instance field reference: private OverrideEnvironmentSettings _overrideEnvironmentSettings
-    ::GlobalNamespace::OverrideEnvironmentSettings*& dyn__overrideEnvironmentSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OverrideEnvironmentSettings*& dyn__overrideEnvironmentSettings();
     // Get instance field reference: private System.Boolean _initialized
-    bool& dyn__initialized();
+    [[deprecated("Use field access instead!")]] bool& dyn__initialized();
     // public OverrideEnvironmentSettings get_overrideEnvironmentSettings()
-    // Offset: 0x1383E8C
+    // Offset: 0x136BA68
     ::GlobalNamespace::OverrideEnvironmentSettings* get_overrideEnvironmentSettings();
-    // public System.Void SetData(OverrideEnvironmentSettings overrideEnvironmentSettings)
-    // Offset: 0x1383E94
-    void SetData(::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings);
-    // protected System.Void OnDestroy()
-    // Offset: 0x1384224
-    void OnDestroy();
-    // public System.Void Refresh()
-    // Offset: 0x13843AC
-    void Refresh();
-    // private System.Void HandleDropDownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropDownWithTableView, System.Int32 idx)
-    // Offset: 0x1384514
-    void HandleDropDownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropDownWithTableView, int idx);
-    // private System.Void HandleOverrideEnvironmentsToggleValueChanged(System.Boolean isOn)
-    // Offset: 0x1384778
-    void HandleOverrideEnvironmentsToggleValueChanged(bool isOn);
-    // private System.Void <HandleOverrideEnvironmentsToggleValueChanged>b__16_0()
-    // Offset: 0x1384964
-    void $HandleOverrideEnvironmentsToggleValueChanged$b__16_0();
     // public System.Void .ctor()
-    // Offset: 0x138495C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x136C538
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentOverrideSettingsPanelController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentOverrideSettingsPanelController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentOverrideSettingsPanelController*, creationType>()));
     }
+    // public System.Void SetData(OverrideEnvironmentSettings overrideEnvironmentSettings)
+    // Offset: 0x136BA70
+    void SetData(::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings);
+    // protected System.Void OnDestroy()
+    // Offset: 0x136BE00
+    void OnDestroy();
+    // public System.Void Refresh()
+    // Offset: 0x136BF88
+    void Refresh();
+    // private System.Void HandleDropDownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropDownWithTableView, System.Int32 idx)
+    // Offset: 0x136C0F0
+    void HandleDropDownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropDownWithTableView, int idx);
+    // private System.Void HandleOverrideEnvironmentsToggleValueChanged(System.Boolean isOn)
+    // Offset: 0x136C354
+    void HandleOverrideEnvironmentsToggleValueChanged(bool isOn);
+    // private System.Void <HandleOverrideEnvironmentsToggleValueChanged>b__16_0()
+    // Offset: 0x136C540
+    void $HandleOverrideEnvironmentsToggleValueChanged$b__16_0();
   }; // EnvironmentOverrideSettingsPanelController
   #pragma pack(pop)
   static check_size<sizeof(EnvironmentOverrideSettingsPanelController), 88 + sizeof(bool)> __GlobalNamespace_EnvironmentOverrideSettingsPanelControllerSizeCheck;
@@ -202,6 +188,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentOverrideSettingsPanelController*), "get_overrideEnvironmentSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentOverrideSettingsPanelController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentOverrideSettingsPanelController::SetData
 // Il2CppName: SetData
 template<>
@@ -254,7 +244,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentOverrideSettingsPanelController*), "<HandleOverrideEnvironmentsToggleValueChanged>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::EnvironmentOverrideSettingsPanelController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -95,33 +95,33 @@ namespace System {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private System.Int32* num
-    int*& dyn_num();
+    [[deprecated("Use field access instead!")]] int*& dyn_num();
     // Get instance field reference: System.Int32 numCount
-    int& dyn_numCount();
+    [[deprecated("Use field access instead!")]] int& dyn_numCount();
     // Get instance field reference: System.Int32 month
-    int& dyn_month();
+    [[deprecated("Use field access instead!")]] int& dyn_month();
     // Get instance field reference: System.Int32 year
-    int& dyn_year();
+    [[deprecated("Use field access instead!")]] int& dyn_year();
     // Get instance field reference: System.Int32 dayOfWeek
-    int& dyn_dayOfWeek();
+    [[deprecated("Use field access instead!")]] int& dyn_dayOfWeek();
     // Get instance field reference: System.Int32 era
-    int& dyn_era();
+    [[deprecated("Use field access instead!")]] int& dyn_era();
     // Get instance field reference: System.DateTimeParse/System.TM timeMark
-    ::System::DateTimeParse::TM& dyn_timeMark();
+    [[deprecated("Use field access instead!")]] ::System::DateTimeParse::TM& dyn_timeMark();
     // Get instance field reference: System.Double fraction
-    double& dyn_fraction();
+    [[deprecated("Use field access instead!")]] double& dyn_fraction();
     // Get instance field reference: System.Boolean hasSameDateAndTimeSeparators
-    bool& dyn_hasSameDateAndTimeSeparators();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasSameDateAndTimeSeparators();
     // Get instance field reference: System.Boolean timeZone
-    bool& dyn_timeZone();
+    [[deprecated("Use field access instead!")]] bool& dyn_timeZone();
     // System.Void Init(System.Int32* numberBuffer)
-    // Offset: 0x2235798
+    // Offset: 0x228100C
     void Init(int* numberBuffer);
     // System.Void AddNumber(System.Int32 value)
-    // Offset: 0x2232170
+    // Offset: 0x227D9E4
     void AddNumber(int value);
     // System.Int32 GetNumber(System.Int32 index)
-    // Offset: 0x22333D4
+    // Offset: 0x227EC48
     int GetNumber(int index);
   }; // System.DateTimeRawInfo
   #pragma pack(pop)

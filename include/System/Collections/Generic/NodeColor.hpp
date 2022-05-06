@@ -54,7 +54,7 @@ namespace System::Collections::Generic {
     // Set static field: static public System.Collections.Generic.NodeColor Red
     static void _set_Red(::System::Collections::Generic::NodeColor value);
     // Get instance field reference: public System.Byte value__
-    uint8_t& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_value__();
   }; // System.Collections.Generic.NodeColor
   #pragma pack(pop)
   static check_size<sizeof(NodeColor), 0 + sizeof(uint8_t)> __System_Collections_Generic_NodeColorSizeCheck;

@@ -46,33 +46,35 @@ namespace GlobalNamespace {
     operator ::BGNet::Core::ITimeProvider() noexcept {
       return *reinterpret_cast<::BGNet::Core::ITimeProvider*>(this);
     }
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1232068
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B5AC0
     // Get static field: static private readonly System.DateTime _epoch
     static ::System::DateTime _get__epoch();
     // Set static field: static private readonly System.DateTime _epoch
     static void _set__epoch(::System::DateTime value);
-    // static private System.Void .cctor()
-    // Offset: 0x25F13DC
-    static void _cctor();
-    // public System.Int64 GetTimeMs()
-    // Offset: 0x25F1284
-    int64_t GetTimeMs();
-    // public System.Threading.Tasks.Task DelayMs(System.Int32 millis, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x25F135C
-    ::System::Threading::Tasks::Task* DelayMs(int millis, ::System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x25F13D4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x263DA04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UtcTimeProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::UtcTimeProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UtcTimeProvider*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x263DA0C
+    static void _cctor();
+    // public System.Int64 GetTimeMs()
+    // Offset: 0x263D8B4
+    int64_t GetTimeMs();
+    // public System.Threading.Tasks.Task DelayMs(System.Int32 millis, System.Threading.CancellationToken cancellationToken)
+    // Offset: 0x263D98C
+    ::System::Threading::Tasks::Task* DelayMs(int millis, ::System::Threading::CancellationToken cancellationToken);
   }; // UtcTimeProvider
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::UtcTimeProvider::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::UtcTimeProvider::_cctor
 // Il2CppName: .cctor
 template<>
@@ -99,7 +101,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UtcTimeProvider*), "DelayMs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{millis, cancellationToken});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::UtcTimeProvider::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

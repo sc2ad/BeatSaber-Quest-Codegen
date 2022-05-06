@@ -44,15 +44,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror::$SendPoses$d__2
     struct $SendPoses$d__2;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly NodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x20
@@ -65,16 +57,16 @@ namespace GlobalNamespace {
       return nodePoseSyncStateManager;
     }
     // Get instance field reference: private readonly NodePoseSyncStateManager _nodePoseSyncStateManager
-    ::GlobalNamespace::NodePoseSyncStateManager*& dyn__nodePoseSyncStateManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NodePoseSyncStateManager*& dyn__nodePoseSyncStateManager();
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, NodePoseSyncStateManager nodePoseSyncStateManager)
-    // Offset: 0x13C707C
+    // Offset: 0x13C3528
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPlayerLobbyPoseGeneratorMirror* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockPlayerLobbyPoseGeneratorMirror*, creationType>(multiplayerSessionManager, nodePoseSyncStateManager)));
     }
     // public override System.Void SendPoses(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13C933C
+    // Offset: 0x13C57E8
     // Implemented from: MockPlayerLobbyPoseGenerator
     // Base method: System.Void MockPlayerLobbyPoseGenerator::SendPoses(System.Threading.CancellationToken cancellationToken)
     void SendPoses(::System::Threading::CancellationToken cancellationToken);

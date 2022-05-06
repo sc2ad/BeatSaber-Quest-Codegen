@@ -33,15 +33,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class FileCompressionHelper::$$c__DisplayClass0_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean success
     // Size: 0x1
     // Offset: 0x10
@@ -70,34 +62,36 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action_1<bool>*) == 0x8);
     public:
     // Get instance field reference: public System.Boolean success
-    bool& dyn_success();
+    [[deprecated("Use field access instead!")]] bool& dyn_success();
     // Get instance field reference: public System.String sourceDirectoryName
-    ::StringW& dyn_sourceDirectoryName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_sourceDirectoryName();
     // Get instance field reference: public System.String destinationArchiveFileName
-    ::StringW& dyn_destinationArchiveFileName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_destinationArchiveFileName();
     // Get instance field reference: public System.Action`1<System.Boolean> finishCallback
-    ::System::Action_1<bool>*& dyn_finishCallback();
-    // System.Void <CreateZipFromDirectoryAsync>b__0()
-    // Offset: 0x156C654
-    void $CreateZipFromDirectoryAsync$b__0();
-    // System.Void <CreateZipFromDirectoryAsync>b__1()
-    // Offset: 0x156C660
-    void $CreateZipFromDirectoryAsync$b__1();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<bool>*& dyn_finishCallback();
     // public System.Void .ctor()
-    // Offset: 0x156C22C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15A2B34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileCompressionHelper::$$c__DisplayClass0_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FileCompressionHelper::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileCompressionHelper::$$c__DisplayClass0_0*, creationType>()));
     }
+    // System.Void <CreateZipFromDirectoryAsync>b__0()
+    // Offset: 0x15A2F5C
+    void $CreateZipFromDirectoryAsync$b__0();
+    // System.Void <CreateZipFromDirectoryAsync>b__1()
+    // Offset: 0x15A2F68
+    void $CreateZipFromDirectoryAsync$b__1();
   }; // FileCompressionHelper/<>c__DisplayClass0_0
   #pragma pack(pop)
   static check_size<sizeof(FileCompressionHelper::$$c__DisplayClass0_0), 40 + sizeof(::System::Action_1<bool>*)> __GlobalNamespace_FileCompressionHelper_$$c__DisplayClass0_0SizeCheck;
   static_assert(sizeof(FileCompressionHelper::$$c__DisplayClass0_0) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::FileCompressionHelper::$$c__DisplayClass0_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FileCompressionHelper::$$c__DisplayClass0_0::$CreateZipFromDirectoryAsync$b__0
 // Il2CppName: <CreateZipFromDirectoryAsync>b__0
 template<>
@@ -114,7 +108,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileCompressionHelper::$$c__DisplayClass0_0*), "<CreateZipFromDirectoryAsync>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FileCompressionHelper::$$c__DisplayClass0_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

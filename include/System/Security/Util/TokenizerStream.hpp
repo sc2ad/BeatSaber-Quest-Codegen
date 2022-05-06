@@ -36,15 +36,7 @@ namespace System::Security::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   class TokenizerStream : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 m_countTokens
     // Size: 0x4
     // Offset: 0x10
@@ -99,53 +91,53 @@ namespace System::Security::Util {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Int32 m_countTokens
-    int& dyn_m_countTokens();
+    [[deprecated("Use field access instead!")]] int& dyn_m_countTokens();
     // Get instance field reference: private System.Security.Util.TokenizerShortBlock m_headTokens
-    ::System::Security::Util::TokenizerShortBlock*& dyn_m_headTokens();
+    [[deprecated("Use field access instead!")]] ::System::Security::Util::TokenizerShortBlock*& dyn_m_headTokens();
     // Get instance field reference: private System.Security.Util.TokenizerShortBlock m_lastTokens
-    ::System::Security::Util::TokenizerShortBlock*& dyn_m_lastTokens();
+    [[deprecated("Use field access instead!")]] ::System::Security::Util::TokenizerShortBlock*& dyn_m_lastTokens();
     // Get instance field reference: private System.Security.Util.TokenizerShortBlock m_currentTokens
-    ::System::Security::Util::TokenizerShortBlock*& dyn_m_currentTokens();
+    [[deprecated("Use field access instead!")]] ::System::Security::Util::TokenizerShortBlock*& dyn_m_currentTokens();
     // Get instance field reference: private System.Int32 m_indexTokens
-    int& dyn_m_indexTokens();
+    [[deprecated("Use field access instead!")]] int& dyn_m_indexTokens();
     // Get instance field reference: private System.Security.Util.TokenizerStringBlock m_headStrings
-    ::System::Security::Util::TokenizerStringBlock*& dyn_m_headStrings();
+    [[deprecated("Use field access instead!")]] ::System::Security::Util::TokenizerStringBlock*& dyn_m_headStrings();
     // Get instance field reference: private System.Security.Util.TokenizerStringBlock m_currentStrings
-    ::System::Security::Util::TokenizerStringBlock*& dyn_m_currentStrings();
+    [[deprecated("Use field access instead!")]] ::System::Security::Util::TokenizerStringBlock*& dyn_m_currentStrings();
     // Get instance field reference: private System.Int32 m_indexStrings
-    int& dyn_m_indexStrings();
+    [[deprecated("Use field access instead!")]] int& dyn_m_indexStrings();
     // System.Void AddToken(System.Int16 token)
-    // Offset: 0x20D71FC
+    // Offset: 0x2121A70
     void AddToken(int16_t token);
     // System.Void AddString(System.String str)
-    // Offset: 0x20D77B4
+    // Offset: 0x2122028
     void AddString(::StringW str);
     // System.Void Reset()
-    // Offset: 0x20D6BA4
+    // Offset: 0x2121418
     void Reset();
     // System.Int16 GetNextFullToken()
-    // Offset: 0x20D6BC0
+    // Offset: 0x2121434
     int16_t GetNextFullToken();
     // System.Int16 GetNextToken()
-    // Offset: 0x20D560C
+    // Offset: 0x211FE80
     int16_t GetNextToken();
     // System.String GetNextString()
-    // Offset: 0x20D56A8
+    // Offset: 0x211FF1C
     ::StringW GetNextString();
     // System.Void ThrowAwayNextString()
-    // Offset: 0x20D5624
+    // Offset: 0x211FE98
     void ThrowAwayNextString();
     // System.Void TagLastToken(System.Int16 tag)
-    // Offset: 0x20D5628
+    // Offset: 0x211FE9C
     void TagLastToken(int16_t tag);
     // System.Int32 GetTokenCount()
-    // Offset: 0x20D7E50
+    // Offset: 0x21226C4
     int GetTokenCount();
     // System.Void GoToPosition(System.Int32 position)
-    // Offset: 0x20D628C
+    // Offset: 0x2120B00
     void GoToPosition(int position);
     // System.Void .ctor()
-    // Offset: 0x20D6B0C
+    // Offset: 0x2121380
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

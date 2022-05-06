@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     // Set static field: static public BeatmapDifficultyMask All
     static void _set_All(::GlobalNamespace::BeatmapDifficultyMask value);
     // Get instance field reference: public System.Byte value__
-    uint8_t& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_value__();
   }; // BeatmapDifficultyMask
   #pragma pack(pop)
   static check_size<sizeof(BeatmapDifficultyMask), 0 + sizeof(uint8_t)> __GlobalNamespace_BeatmapDifficultyMaskSizeCheck;

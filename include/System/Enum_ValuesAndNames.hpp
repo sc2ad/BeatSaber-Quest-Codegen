@@ -25,15 +25,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class Enum::ValuesAndNames : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.UInt64[] Values
     // Size: 0x8
     // Offset: 0x10
@@ -48,11 +40,11 @@ namespace System {
     static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     public:
     // Get instance field reference: public System.UInt64[] Values
-    ::ArrayW<uint64_t>& dyn_Values();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint64_t>& dyn_Values();
     // Get instance field reference: public System.String[] Names
-    ::ArrayW<::StringW>& dyn_Names();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_Names();
     // public System.Void .ctor(System.UInt64[] values, System.String[] names)
-    // Offset: 0x1921060
+    // Offset: 0x1958970
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Enum::ValuesAndNames* New_ctor(::ArrayW<uint64_t> values, ::ArrayW<::StringW> names) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Enum::ValuesAndNames::.ctor");

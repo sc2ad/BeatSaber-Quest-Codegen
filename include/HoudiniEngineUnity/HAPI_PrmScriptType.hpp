@@ -318,7 +318,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HAPI_PrmScriptType HAPI_PRM_SCRIPT_TYPE_GROUP
     static void _set_HAPI_PRM_SCRIPT_TYPE_GROUP(::HoudiniEngineUnity::HAPI_PrmScriptType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HAPI_PrmScriptType
   #pragma pack(pop)
   static check_size<sizeof(HAPI_PrmScriptType), 0 + sizeof(int)> __HoudiniEngineUnity_HAPI_PrmScriptTypeSizeCheck;

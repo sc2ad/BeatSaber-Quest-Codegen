@@ -36,22 +36,14 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class MatchmakingEnqueueResult : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly Oculus.Platform.Models.MatchmakingAdminSnapshot AdminSnapshotOptional
     // Size: 0x8
     // Offset: 0x10
     ::Oculus::Platform::Models::MatchmakingAdminSnapshot* AdminSnapshotOptional;
     // Field size check
     static_assert(sizeof(::Oculus::Platform::Models::MatchmakingAdminSnapshot*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0x1241918
+    // [ObsoleteAttribute] Offset: 0x10C63F0
     // public readonly Oculus.Platform.Models.MatchmakingAdminSnapshot AdminSnapshot
     // Size: 0x8
     // Offset: 0x18
@@ -100,23 +92,23 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly Oculus.Platform.Models.MatchmakingAdminSnapshot AdminSnapshotOptional
-    ::Oculus::Platform::Models::MatchmakingAdminSnapshot*& dyn_AdminSnapshotOptional();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::MatchmakingAdminSnapshot*& dyn_AdminSnapshotOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.MatchmakingAdminSnapshot AdminSnapshot
-    ::Oculus::Platform::Models::MatchmakingAdminSnapshot*& dyn_AdminSnapshot();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::MatchmakingAdminSnapshot*& dyn_AdminSnapshot();
     // Get instance field reference: public readonly System.UInt32 AverageWait
-    uint& dyn_AverageWait();
+    [[deprecated("Use field access instead!")]] uint& dyn_AverageWait();
     // Get instance field reference: public readonly System.UInt32 MatchesInLastHourCount
-    uint& dyn_MatchesInLastHourCount();
+    [[deprecated("Use field access instead!")]] uint& dyn_MatchesInLastHourCount();
     // Get instance field reference: public readonly System.UInt32 MaxExpectedWait
-    uint& dyn_MaxExpectedWait();
+    [[deprecated("Use field access instead!")]] uint& dyn_MaxExpectedWait();
     // Get instance field reference: public readonly System.String Pool
-    ::StringW& dyn_Pool();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Pool();
     // Get instance field reference: public readonly System.UInt32 RecentMatchPercentage
-    uint& dyn_RecentMatchPercentage();
+    [[deprecated("Use field access instead!")]] uint& dyn_RecentMatchPercentage();
     // Get instance field reference: public readonly System.String RequestHash
-    ::StringW& dyn_RequestHash();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_RequestHash();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19AF5D8
+    // Offset: 0x19E8BC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchmakingEnqueueResult* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::MatchmakingEnqueueResult::.ctor");

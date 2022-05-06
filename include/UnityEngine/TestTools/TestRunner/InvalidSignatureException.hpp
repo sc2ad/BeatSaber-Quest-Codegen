@@ -36,25 +36,26 @@ namespace UnityEngine::TestTools::TestRunner {
   // [TokenAttribute] Offset: FFFFFFFF
   class InvalidSignatureException : public ::NUnit::Framework::ResultStateException {
     public:
-    // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
-    // Offset: 0x19519A8
-    // Implemented from: NUnit.Framework.ResultStateException
-    // Base method: NUnit.Framework.Interfaces.ResultState ResultStateException::get_ResultState()
-    ::NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x19519A0
-    // Implemented from: NUnit.Framework.ResultStateException
-    // Base method: System.Void ResultStateException::.ctor(System.String message)
-    // Base method: System.Void Exception::.ctor(System.String message)
+    // Offset: 0x1989370
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidSignatureException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::InvalidSignatureException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidSignatureException*, creationType>(message)));
     }
+    // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
+    // Offset: 0x1989378
+    // Implemented from: NUnit.Framework.ResultStateException
+    // Base method: NUnit.Framework.Interfaces.ResultState ResultStateException::get_ResultState()
+    ::NUnit::Framework::Interfaces::ResultState* get_ResultState();
   }; // UnityEngine.TestTools.TestRunner.InvalidSignatureException
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::InvalidSignatureException::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::InvalidSignatureException::get_ResultState
 // Il2CppName: get_ResultState
 template<>
@@ -63,7 +64,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Fr
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::InvalidSignatureException*), "get_ResultState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::InvalidSignatureException::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

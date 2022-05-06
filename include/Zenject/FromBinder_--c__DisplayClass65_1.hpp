@@ -57,15 +57,7 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class FromBinder::$$c__DisplayClass65_1 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Zenject.DiContainer container
     // Size: 0x8
     // Offset: 0x10
@@ -92,40 +84,42 @@ namespace Zenject {
     static_assert(sizeof(::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::Component*>*) == 0x8);
     public:
     // Get instance field reference: public Zenject.DiContainer container
-    ::Zenject::DiContainer*& dyn_container();
+    [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn_container();
     // Get instance field reference: public System.Type concreteType
-    ::System::Type*& dyn_concreteType();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_concreteType();
     // Get instance field reference: public Zenject.FromBinder/Zenject.<>c__DisplayClass65_0 CS$<>8__locals1
-    ::Zenject::FromBinder::$$c__DisplayClass65_0*& dyn_CS$$$8__locals1();
+    [[deprecated("Use field access instead!")]] ::Zenject::FromBinder::$$c__DisplayClass65_0*& dyn_CS$$$8__locals1();
     // Get instance field reference: public System.Func`2<UnityEngine.GameObject,UnityEngine.Component> <>9__2
-    ::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::Component*>*& dyn_$$9__2();
-    // System.Collections.Generic.IEnumerable`1<System.Object> <FromComponentInHierarchy>b__1(Zenject.InjectContext ctx)
-    // Offset: 0x1DE90F4
-    ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* $FromComponentInHierarchy$b__1(::Zenject::InjectContext* ctx);
-    // UnityEngine.Component <FromComponentInHierarchy>b__2(UnityEngine.GameObject x)
-    // Offset: 0x1DE93A4
-    ::UnityEngine::Component* $FromComponentInHierarchy$b__2(::UnityEngine::GameObject* x);
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1DE93D8
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1DE9434
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    [[deprecated("Use field access instead!")]] ::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::Component*>*& dyn_$$9__2();
     // public System.Void .ctor()
-    // Offset: 0x1DE8F30
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E237FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FromBinder::$$c__DisplayClass65_1* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FromBinder::$$c__DisplayClass65_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FromBinder::$$c__DisplayClass65_1*, creationType>()));
     }
+    // System.Collections.Generic.IEnumerable`1<System.Object> <FromComponentInHierarchy>b__1(Zenject.InjectContext ctx)
+    // Offset: 0x1E239C0
+    ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* $FromComponentInHierarchy$b__1(::Zenject::InjectContext* ctx);
+    // UnityEngine.Component <FromComponentInHierarchy>b__2(UnityEngine.GameObject x)
+    // Offset: 0x1E23C70
+    ::UnityEngine::Component* $FromComponentInHierarchy$b__2(::UnityEngine::GameObject* x);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1E23CA4
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1E23D00
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.FromBinder/Zenject.<>c__DisplayClass65_1
   #pragma pack(pop)
   static check_size<sizeof(FromBinder::$$c__DisplayClass65_1), 40 + sizeof(::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::Component*>*)> __Zenject_FromBinder_$$c__DisplayClass65_1SizeCheck;
   static_assert(sizeof(FromBinder::$$c__DisplayClass65_1) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::FromBinder::$$c__DisplayClass65_1::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c__DisplayClass65_1::$FromComponentInHierarchy$b__1
 // Il2CppName: <FromComponentInHierarchy>b__1
 template<>
@@ -161,7 +155,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c__DisplayClass65_1*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::FromBinder::$$c__DisplayClass65_1::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

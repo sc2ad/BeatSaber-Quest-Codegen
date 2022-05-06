@@ -58,28 +58,28 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private UnityEngine.SceneManagement.Scene m_Scene
-    ::UnityEngine::SceneManagement::Scene& dyn_m_Scene();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::SceneManagement::Scene& dyn_m_Scene();
     // Get instance field reference: UnityEngine.AsyncOperation m_Operation
-    ::UnityEngine::AsyncOperation*& dyn_m_Operation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AsyncOperation*& dyn_m_Operation();
     // public UnityEngine.SceneManagement.Scene get_Scene()
-    // Offset: 0x1EA02AC
+    // Offset: 0x1EEE7E4
     ::UnityEngine::SceneManagement::Scene get_Scene();
     // System.Void set_Scene(UnityEngine.SceneManagement.Scene value)
-    // Offset: 0x1EA02B4
+    // Offset: 0x1EEE7EC
     void set_Scene(::UnityEngine::SceneManagement::Scene value);
     // public System.Void Activate()
-    // Offset: 0x1EA02BC
+    // Offset: 0x1EEE7F4
     void Activate();
     // public UnityEngine.AsyncOperation ActivateAsync()
-    // Offset: 0x1EA02DC
+    // Offset: 0x1EEE814
     ::UnityEngine::AsyncOperation* ActivateAsync();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1EA0314
+    // Offset: 0x1EEE84C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1EA0340
+    // Offset: 0x1EEE878
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

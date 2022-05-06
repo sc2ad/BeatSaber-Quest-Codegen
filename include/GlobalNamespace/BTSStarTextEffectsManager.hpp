@@ -51,22 +51,14 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::BTSStarTextEffectsManager::$DespawnEffectDelayed$d__5
     class $DespawnEffectDelayed$d__5;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BTSStarTextEventEffect _btsStarTextEventEffect
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::BTSStarTextEventEffect* btsStarTextEventEffect;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BTSStarTextEventEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0x1248B4C
+    // [InjectAttribute] Offset: 0x10CD644
     // private readonly BTSStarTextEffectController/Pool _btsStarTextEffectControllerPool
     // Size: 0x8
     // Offset: 0x20
@@ -77,40 +69,38 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BTSStarTextEventEffect _btsStarTextEventEffect
-    ::GlobalNamespace::BTSStarTextEventEffect*& dyn__btsStarTextEventEffect();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BTSStarTextEventEffect*& dyn__btsStarTextEventEffect();
     // Get instance field reference: private readonly BTSStarTextEffectController/Pool _btsStarTextEffectControllerPool
-    ::GlobalNamespace::BTSStarTextEffectController::Pool*& dyn__btsStarTextEffectControllerPool();
-    // protected System.Void Start()
-    // Offset: 0x135CC40
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x135CD74
-    void OnDestroy();
-    // private System.Void HandleBTSStarTextEventEffect(UnityEngine.Sprite sprite, UnityEngine.Transform parentTransform, System.Single desiredAnimationLength)
-    // Offset: 0x135CEA8
-    void HandleBTSStarTextEventEffect(::UnityEngine::Sprite* sprite, ::UnityEngine::Transform* parentTransform, float desiredAnimationLength);
-    // private System.Collections.IEnumerator DespawnEffectDelayed(BTSStarTextEffectController effectController)
-    // Offset: 0x135CF44
-    ::System::Collections::IEnumerator* DespawnEffectDelayed(::GlobalNamespace::BTSStarTextEffectController* effectController);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BTSStarTextEffectController::Pool*& dyn__btsStarTextEffectControllerPool();
     // public System.Void .ctor()
-    // Offset: 0x135CFEC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x134526C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSStarTextEffectsManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSStarTextEffectsManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSStarTextEffectsManager*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x1344EC0
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1344FF4
+    void OnDestroy();
+    // private System.Void HandleBTSStarTextEventEffect(UnityEngine.Sprite sprite, UnityEngine.Transform parentTransform, System.Single desiredAnimationLength)
+    // Offset: 0x1345128
+    void HandleBTSStarTextEventEffect(::UnityEngine::Sprite* sprite, ::UnityEngine::Transform* parentTransform, float desiredAnimationLength);
+    // private System.Collections.IEnumerator DespawnEffectDelayed(BTSStarTextEffectController effectController)
+    // Offset: 0x13451C4
+    ::System::Collections::IEnumerator* DespawnEffectDelayed(::GlobalNamespace::BTSStarTextEffectController* effectController);
   }; // BTSStarTextEffectsManager
   #pragma pack(pop)
   static check_size<sizeof(BTSStarTextEffectsManager), 32 + sizeof(::GlobalNamespace::BTSStarTextEffectController::Pool*)> __GlobalNamespace_BTSStarTextEffectsManagerSizeCheck;
   static_assert(sizeof(BTSStarTextEffectsManager) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEffectsManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEffectsManager::Start
 // Il2CppName: Start
 template<>
@@ -147,7 +137,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSStarTextEffectsManager*), "DespawnEffectDelayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{effectController});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEffectsManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

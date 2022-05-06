@@ -59,37 +59,37 @@ namespace Org::BouncyCastle::Crypto::Tls {
     // Set static field: static readonly System.Byte[][] SSL3_CONST
     static void _set_SSL3_CONST(::ArrayW<::ArrayW<uint8_t>> value);
     // static private System.Void .cctor()
-    // Offset: 0x15D22F0
+    // Offset: 0x1607C00
     static void _cctor();
     // static public System.Void WriteUint8(System.Byte i, System.IO.Stream output)
-    // Offset: 0x15D1EDC
+    // Offset: 0x16077EC
     static void WriteUint8(uint8_t i, ::System::IO::Stream* output);
     // static public System.Void WriteUint16(System.Int32 i, System.IO.Stream output)
-    // Offset: 0x15D1F08
+    // Offset: 0x1607818
     static void WriteUint16(int i, ::System::IO::Stream* output);
     // static public System.Void WriteOpaque8(System.Byte[] buf, System.IO.Stream output)
-    // Offset: 0x15D17E8
+    // Offset: 0x16070F8
     static void WriteOpaque8(::ArrayW<uint8_t> buf, ::System::IO::Stream* output);
     // static public System.Void WriteOpaque16(System.Byte[] buf, System.IO.Stream output)
-    // Offset: 0x15D0C90
+    // Offset: 0x16065A0
     static void WriteOpaque16(::ArrayW<uint8_t> buf, ::System::IO::Stream* output);
     // static public System.Byte ReadUint8(System.IO.Stream input)
-    // Offset: 0x15D1F5C
+    // Offset: 0x160786C
     static uint8_t ReadUint8(::System::IO::Stream* input);
     // static public System.Int32 ReadUint16(System.IO.Stream input)
-    // Offset: 0x15D1FEC
+    // Offset: 0x16078FC
     static int ReadUint16(::System::IO::Stream* input);
     // static public System.Void ReadFully(System.Byte[] buf, System.IO.Stream input)
-    // Offset: 0x15D2098
+    // Offset: 0x16079A8
     static void ReadFully(::ArrayW<uint8_t> buf, ::System::IO::Stream* input);
     // static public System.Byte[] ReadOpaque8(System.IO.Stream input)
-    // Offset: 0x15D2140
+    // Offset: 0x1607A50
     static ::ArrayW<uint8_t> ReadOpaque8(::System::IO::Stream* input);
     // static public System.Byte[] ReadOpaque16(System.IO.Stream input)
-    // Offset: 0x15D0C00
+    // Offset: 0x1606510
     static ::ArrayW<uint8_t> ReadOpaque16(::System::IO::Stream* input);
     // static private System.Byte[][] GenSsl3Const()
-    // Offset: 0x15D21D0
+    // Offset: 0x1607AE0
     static ::ArrayW<::ArrayW<uint8_t>> GenSsl3Const();
   }; // Org.BouncyCastle.Crypto.Tls.TlsUtilities
   #pragma pack(pop)

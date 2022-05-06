@@ -30,18 +30,16 @@ namespace System::Xml {
     // System.Boolean get_IsFull()
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsFull();
-    // System.Int32 Decode(System.Char[] chars, System.Int32 startPos, System.Int32 len)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    int Decode(::ArrayW<::Il2CppChar> chars, int startPos, int len);
     // protected System.Void .ctor()
-    // Offset: 0x1A8ED74
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1AC935C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IncrementalReadDecoder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::IncrementalReadDecoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IncrementalReadDecoder*, creationType>()));
     }
+    // System.Int32 Decode(System.Char[] chars, System.Int32 startPos, System.Int32 len)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    int Decode(::ArrayW<::Il2CppChar> chars, int startPos, int len);
   }; // System.Xml.IncrementalReadDecoder
   #pragma pack(pop)
 }
@@ -54,6 +52,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Xml::IncrementalReadDecoder*), "get_IsFull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Xml::IncrementalReadDecoder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::IncrementalReadDecoder::Decode
 // Il2CppName: Decode
 template<>
@@ -65,7 +67,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
     return ::il2cpp_utils::FindMethod(classof(System::Xml::IncrementalReadDecoder*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chars, startPos, len});
   }
 };
-// Writing MetadataGetter for method: System::Xml::IncrementalReadDecoder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

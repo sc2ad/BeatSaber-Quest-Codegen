@@ -54,7 +54,7 @@ namespace LiteNetLib {
     // Set static field: static public LiteNetLib.NatAddressType External
     static void _set_External(::LiteNetLib::NatAddressType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // LiteNetLib.NatAddressType
   #pragma pack(pop)
   static check_size<sizeof(NatAddressType), 0 + sizeof(int)> __LiteNetLib_NatAddressTypeSizeCheck;

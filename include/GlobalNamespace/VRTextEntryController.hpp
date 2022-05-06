@@ -56,15 +56,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::VRTextEntryController::$BlinkCursor$d__23
     class $BlinkCursor$d__23;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UIKeyboard _uiKeyboard
     // Size: 0x8
     // Offset: 0x18
@@ -125,87 +117,81 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UIKeyboard _uiKeyboard
-    ::GlobalNamespace::UIKeyboard*& dyn__uiKeyboard();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::UIKeyboard*& dyn__uiKeyboard();
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
-    ::TMPro::TextMeshProUGUI*& dyn__text();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__text();
     // Get instance field reference: private TMPro.TextMeshProUGUI _cursorText
-    ::TMPro::TextMeshProUGUI*& dyn__cursorText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__cursorText();
     // Get instance field reference: private System.Int32 _maxLength
-    int& dyn__maxLength();
+    [[deprecated("Use field access instead!")]] int& dyn__maxLength();
     // Get instance field reference: private System.Boolean _allowBlank
-    bool& dyn__allowBlank();
+    [[deprecated("Use field access instead!")]] bool& dyn__allowBlank();
     // Get instance field reference: private System.Action`1<System.String> textDidChangeEvent
-    ::System::Action_1<::StringW>*& dyn_textDidChangeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::StringW>*& dyn_textDidChangeEvent();
     // Get instance field reference: private System.Action okButtonWasPressedEvent
-    ::System::Action*& dyn_okButtonWasPressedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_okButtonWasPressedEvent();
     // Get instance field reference: private System.Action cancelButtonWasPressedEvent
-    ::System::Action*& dyn_cancelButtonWasPressedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_cancelButtonWasPressedEvent();
     // Get instance field reference: private System.Boolean _stopBlinkingCursor
-    bool& dyn__stopBlinkingCursor();
+    [[deprecated("Use field access instead!")]] bool& dyn__stopBlinkingCursor();
     // public System.Void set_hideCancelButton(System.Boolean value)
-    // Offset: 0x2AC095C
+    // Offset: 0x149FEB4
     void set_hideCancelButton(bool value);
     // public System.String get_text()
-    // Offset: 0x2AC0978
+    // Offset: 0x149FED0
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x2AC0994
+    // Offset: 0x149FEEC
     void set_text(::StringW value);
     // public System.Void add_textDidChangeEvent(System.Action`1<System.String> value)
-    // Offset: 0x2AC0584
+    // Offset: 0x149FADC
     void add_textDidChangeEvent(::System::Action_1<::StringW>* value);
     // public System.Void remove_textDidChangeEvent(System.Action`1<System.String> value)
-    // Offset: 0x2AC0628
+    // Offset: 0x149FB80
     void remove_textDidChangeEvent(::System::Action_1<::StringW>* value);
     // public System.Void add_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x2AC06CC
+    // Offset: 0x149FC24
     void add_okButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x2AC0770
+    // Offset: 0x149FCC8
     void remove_okButtonWasPressedEvent(::System::Action* value);
     // public System.Void add_cancelButtonWasPressedEvent(System.Action value)
-    // Offset: 0x2AC0814
+    // Offset: 0x149FD6C
     void add_cancelButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_cancelButtonWasPressedEvent(System.Action value)
-    // Offset: 0x2AC08B8
+    // Offset: 0x149FE10
     void remove_cancelButtonWasPressedEvent(::System::Action* value);
-    // protected System.Void Awake()
-    // Offset: 0x2AC0A58
-    void Awake();
-    // protected System.Void OnEnable()
-    // Offset: 0x2AC0BA8
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x2AC0C48
-    void OnDisable();
-    // private System.Collections.IEnumerator BlinkCursor()
-    // Offset: 0x2AC0BD8
-    ::System::Collections::IEnumerator* BlinkCursor();
-    // private System.Void HandleUIKeyboardTextKeyWasPressed(System.Char key)
-    // Offset: 0x2AC0C80
-    void HandleUIKeyboardTextKeyWasPressed(::Il2CppChar key);
-    // private System.Void HandleUIKeyboardDeleteButtonWasPressed()
-    // Offset: 0x2AC0D5C
-    void HandleUIKeyboardDeleteButtonWasPressed();
-    // private System.Void <Awake>b__20_0()
-    // Offset: 0x2AC0E40
-    void $Awake$b__20_0();
-    // private System.Void <Awake>b__20_1()
-    // Offset: 0x2AC0E54
-    void $Awake$b__20_1();
     // public System.Void .ctor()
-    // Offset: 0x2AC0E30
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14A0388
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRTextEntryController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRTextEntryController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRTextEntryController*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x149FFB0
+    void Awake();
+    // protected System.Void OnEnable()
+    // Offset: 0x14A0100
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x14A01A0
+    void OnDisable();
+    // private System.Collections.IEnumerator BlinkCursor()
+    // Offset: 0x14A0130
+    ::System::Collections::IEnumerator* BlinkCursor();
+    // private System.Void HandleUIKeyboardTextKeyWasPressed(System.Char key)
+    // Offset: 0x14A01D8
+    void HandleUIKeyboardTextKeyWasPressed(::Il2CppChar key);
+    // private System.Void HandleUIKeyboardDeleteButtonWasPressed()
+    // Offset: 0x14A02B4
+    void HandleUIKeyboardDeleteButtonWasPressed();
+    // private System.Void <Awake>b__20_0()
+    // Offset: 0x14A0398
+    void $Awake$b__20_0();
+    // private System.Void <Awake>b__20_1()
+    // Offset: 0x14A03AC
+    void $Awake$b__20_1();
   }; // VRTextEntryController
   #pragma pack(pop)
   static check_size<sizeof(VRTextEntryController), 80 + sizeof(bool)> __GlobalNamespace_VRTextEntryControllerSizeCheck;
@@ -292,6 +278,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRTextEntryController*), "remove_cancelButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::VRTextEntryController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::VRTextEntryController::Awake
 // Il2CppName: Awake
 template<>
@@ -357,7 +347,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRTextEntryController*), "<Awake>b__20_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::VRTextEntryController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

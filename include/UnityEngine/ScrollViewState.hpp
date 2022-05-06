@@ -30,15 +30,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScrollViewState : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Rect position
     // Size: 0x10
     // Offset: 0x10
@@ -71,19 +63,17 @@ namespace UnityEngine {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public UnityEngine.Rect position
-    ::UnityEngine::Rect& dyn_position();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rect& dyn_position();
     // Get instance field reference: public UnityEngine.Rect visibleRect
-    ::UnityEngine::Rect& dyn_visibleRect();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rect& dyn_visibleRect();
     // Get instance field reference: public UnityEngine.Rect viewRect
-    ::UnityEngine::Rect& dyn_viewRect();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rect& dyn_viewRect();
     // Get instance field reference: public UnityEngine.Vector2 scrollPosition
-    ::UnityEngine::Vector2& dyn_scrollPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_scrollPosition();
     // Get instance field reference: public System.Boolean apply
-    bool& dyn_apply();
+    [[deprecated("Use field access instead!")]] bool& dyn_apply();
     // public System.Void .ctor()
-    // Offset: 0x1FB6768
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2000FDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScrollViewState* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ScrollViewState::.ctor");

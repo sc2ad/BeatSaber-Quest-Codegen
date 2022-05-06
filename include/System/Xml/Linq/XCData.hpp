@@ -43,19 +43,19 @@ namespace System::Xml::Linq {
   class XCData : public ::System::Xml::Linq::XText {
     public:
     // public System.Void .ctor(System.Xml.Linq.XCData other)
-    // Offset: 0x2A49C90
+    // Offset: 0x2AA1078
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XCData* New_ctor(::System::Xml::Linq::XCData* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XCData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XCData*, creationType>(other)));
     }
     // public override System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x2A49D34
+    // Offset: 0x2AA111C
     // Implemented from: System.Xml.Linq.XText
     // Base method: System.Xml.XmlNodeType XText::get_NodeType()
     ::System::Xml::XmlNodeType get_NodeType();
     // public System.Void .ctor(System.String value)
-    // Offset: 0x2A49BF0
+    // Offset: 0x2AA0FD8
     // Implemented from: System.Xml.Linq.XText
     // Base method: System.Void XText::.ctor(System.String value)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -64,12 +64,12 @@ namespace System::Xml::Linq {
       return THROW_UNLESS((::il2cpp_utils::New<XCData*, creationType>(value)));
     }
     // public override System.Void WriteTo(System.Xml.XmlWriter writer)
-    // Offset: 0x2A49D3C
+    // Offset: 0x2AA1124
     // Implemented from: System.Xml.Linq.XText
     // Base method: System.Void XText::WriteTo(System.Xml.XmlWriter writer)
     void WriteTo(::System::Xml::XmlWriter* writer);
     // override System.Xml.Linq.XNode CloneNode()
-    // Offset: 0x2A49DDC
+    // Offset: 0x2AA11C4
     // Implemented from: System.Xml.Linq.XText
     // Base method: System.Xml.Linq.XNode XText::CloneNode()
     ::System::Xml::Linq::XNode* CloneNode();

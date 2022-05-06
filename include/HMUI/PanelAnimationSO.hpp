@@ -44,15 +44,7 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class PanelAnimationSO : public ::UnityEngine::ScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _duration
     // Size: 0x4
     // Offset: 0x18
@@ -89,44 +81,44 @@ namespace HMUI {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _duration
-    float& dyn__duration();
+    [[deprecated("Use field access instead!")]] float& dyn__duration();
     // Get instance field reference: private UnityEngine.AnimationCurve _scaleXAnimationCurve
-    ::UnityEngine::AnimationCurve*& dyn__scaleXAnimationCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__scaleXAnimationCurve();
     // Get instance field reference: private UnityEngine.AnimationCurve _scaleYAnimationCurve
-    ::UnityEngine::AnimationCurve*& dyn__scaleYAnimationCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__scaleYAnimationCurve();
     // Get instance field reference: private UnityEngine.AnimationCurve _alphaAnimationCurve
-    ::UnityEngine::AnimationCurve*& dyn__alphaAnimationCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__alphaAnimationCurve();
     // Get instance field reference: private UnityEngine.AnimationCurve _parentAlphaAnimationCurve
-    ::UnityEngine::AnimationCurve*& dyn__parentAlphaAnimationCurve();
-    // public System.Void ExecuteAnimation(UnityEngine.GameObject go)
-    // Offset: 0x16867F0
-    void ExecuteAnimation(::UnityEngine::GameObject* go);
-    // public System.Void ExecuteAnimation(UnityEngine.GameObject go, System.Action finishedCallback)
-    // Offset: 0x1686800
-    void ExecuteAnimation(::UnityEngine::GameObject* go, ::System::Action* finishedCallback);
-    // public System.Void ExecuteAnimation(UnityEngine.GameObject go, UnityEngine.CanvasGroup parentCanvasGroup, System.Action finishedCallback)
-    // Offset: 0x1686810
-    void ExecuteAnimation(::UnityEngine::GameObject* go, ::UnityEngine::CanvasGroup* parentCanvasGroup, ::System::Action* finishedCallback);
-    // public System.Void ExecuteAnimation(UnityEngine.GameObject go, UnityEngine.CanvasGroup parentCanvasGroup, System.Boolean instant, System.Action finishedCallback)
-    // Offset: 0x1683CCC
-    void ExecuteAnimation(::UnityEngine::GameObject* go, ::UnityEngine::CanvasGroup* parentCanvasGroup, bool instant, ::System::Action* finishedCallback);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__parentAlphaAnimationCurve();
     // public System.Void .ctor()
-    // Offset: 0x168681C
-    // Implemented from: UnityEngine.ScriptableObject
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16BD12C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PanelAnimationSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::PanelAnimationSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PanelAnimationSO*, creationType>()));
     }
+    // public System.Void ExecuteAnimation(UnityEngine.GameObject go)
+    // Offset: 0x16BD100
+    void ExecuteAnimation(::UnityEngine::GameObject* go);
+    // public System.Void ExecuteAnimation(UnityEngine.GameObject go, System.Action finishedCallback)
+    // Offset: 0x16BD110
+    void ExecuteAnimation(::UnityEngine::GameObject* go, ::System::Action* finishedCallback);
+    // public System.Void ExecuteAnimation(UnityEngine.GameObject go, UnityEngine.CanvasGroup parentCanvasGroup, System.Action finishedCallback)
+    // Offset: 0x16BD120
+    void ExecuteAnimation(::UnityEngine::GameObject* go, ::UnityEngine::CanvasGroup* parentCanvasGroup, ::System::Action* finishedCallback);
+    // public System.Void ExecuteAnimation(UnityEngine.GameObject go, UnityEngine.CanvasGroup parentCanvasGroup, System.Boolean instant, System.Action finishedCallback)
+    // Offset: 0x16BA5DC
+    void ExecuteAnimation(::UnityEngine::GameObject* go, ::UnityEngine::CanvasGroup* parentCanvasGroup, bool instant, ::System::Action* finishedCallback);
   }; // HMUI.PanelAnimationSO
   #pragma pack(pop)
   static check_size<sizeof(PanelAnimationSO), 56 + sizeof(::UnityEngine::AnimationCurve*)> __HMUI_PanelAnimationSOSizeCheck;
   static_assert(sizeof(PanelAnimationSO) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HMUI::PanelAnimationSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::PanelAnimationSO::ExecuteAnimation
 // Il2CppName: ExecuteAnimation
 template<>
@@ -169,7 +161,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::PanelAnimationSO*), "ExecuteAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{go, parentCanvasGroup, instant, finishedCallback});
   }
 };
-// Writing MetadataGetter for method: HMUI::PanelAnimationSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

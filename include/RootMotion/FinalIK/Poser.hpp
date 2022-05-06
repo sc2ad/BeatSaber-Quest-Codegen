@@ -37,36 +37,28 @@ namespace RootMotion::FinalIK {
     public:
     // Writing base type padding for base size: 0x33 to desired offset: 0x38
     char ___base_padding[0x5] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Transform poseRoot
     // Size: 0x8
     // Offset: 0x38
     ::UnityEngine::Transform* poseRoot;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [RangeAttribute] Offset: 0x1275120
+    // [RangeAttribute] Offset: 0x10F9DD8
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x40
     float weight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x1275138
+    // [RangeAttribute] Offset: 0x10F9DF0
     // public System.Single localRotationWeight
     // Size: 0x4
     // Offset: 0x44
     float localRotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x1275150
+    // [RangeAttribute] Offset: 0x10F9E08
     // public System.Single localPositionWeight
     // Size: 0x4
     // Offset: 0x48
@@ -81,20 +73,20 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public UnityEngine.Transform poseRoot
-    ::UnityEngine::Transform*& dyn_poseRoot();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_poseRoot();
     // Get instance field reference: public System.Single weight
-    float& dyn_weight();
+    [[deprecated("Use field access instead!")]] float& dyn_weight();
     // Get instance field reference: public System.Single localRotationWeight
-    float& dyn_localRotationWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_localRotationWeight();
     // Get instance field reference: public System.Single localPositionWeight
-    float& dyn_localPositionWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_localPositionWeight();
     // Get instance field reference: private System.Boolean initiated
-    bool& dyn_initiated();
+    [[deprecated("Use field access instead!")]] bool& dyn_initiated();
     // public System.Void AutoMapping()
     // Offset: 0xFFFFFFFFFFFFFFFF
     void AutoMapping();
     // public System.Void UpdateManual()
-    // Offset: 0x1F713D8
+    // Offset: 0x1FBDC4C
     void UpdateManual();
     // protected System.Void InitiatePoser()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -106,31 +98,26 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void FixPoserTransforms();
     // protected System.Void .ctor()
-    // Offset: 0x1F7148C
+    // Offset: 0x1FBDD00
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Poser* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::Poser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Poser*, creationType>()));
     }
     // protected override System.Void UpdateSolver()
-    // Offset: 0x1F713E4
+    // Offset: 0x1FBDC58
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::UpdateSolver()
     void UpdateSolver();
     // protected override System.Void InitiateSolver()
-    // Offset: 0x1F71438
+    // Offset: 0x1FBDCAC
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::InitiateSolver()
     void InitiateSolver();
     // protected override System.Void FixTransforms()
-    // Offset: 0x1F71474
+    // Offset: 0x1FBDCE8
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::FixTransforms()
     void FixTransforms();

@@ -34,15 +34,7 @@ namespace VRUIControls {
   // [TokenAttribute] Offset: FFFFFFFF
   class MouseButtonEventData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.FramePressState buttonState
     // Size: 0x4
     // Offset: 0x10
@@ -59,30 +51,32 @@ namespace VRUIControls {
     static_assert(sizeof(::UnityEngine::EventSystems::PointerEventData*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.FramePressState buttonState
-    ::UnityEngine::EventSystems::PointerEventData::FramePressState& dyn_buttonState();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::EventSystems::PointerEventData::FramePressState& dyn_buttonState();
     // Get instance field reference: public UnityEngine.EventSystems.PointerEventData buttonData
-    ::UnityEngine::EventSystems::PointerEventData*& dyn_buttonData();
-    // public System.Boolean PressedThisFrame()
-    // Offset: 0x2A0398C
-    bool PressedThisFrame();
-    // public System.Boolean ReleasedThisFrame()
-    // Offset: 0x2A039A0
-    bool ReleasedThisFrame();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::EventSystems::PointerEventData*& dyn_buttonData();
     // public System.Void .ctor()
-    // Offset: 0x2A039B4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A594BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MouseButtonEventData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::VRUIControls::MouseButtonEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MouseButtonEventData*, creationType>()));
     }
+    // public System.Boolean PressedThisFrame()
+    // Offset: 0x2A59494
+    bool PressedThisFrame();
+    // public System.Boolean ReleasedThisFrame()
+    // Offset: 0x2A594A8
+    bool ReleasedThisFrame();
   }; // VRUIControls.MouseButtonEventData
   #pragma pack(pop)
   static check_size<sizeof(MouseButtonEventData), 24 + sizeof(::UnityEngine::EventSystems::PointerEventData*)> __VRUIControls_MouseButtonEventDataSizeCheck;
   static_assert(sizeof(MouseButtonEventData) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: VRUIControls::MouseButtonEventData::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: VRUIControls::MouseButtonEventData::PressedThisFrame
 // Il2CppName: PressedThisFrame
 template<>
@@ -99,7 +93,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIC
     return ::il2cpp_utils::FindMethod(classof(VRUIControls::MouseButtonEventData*), "ReleasedThisFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRUIControls::MouseButtonEventData::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

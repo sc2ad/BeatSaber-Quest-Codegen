@@ -37,15 +37,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
   // [TokenAttribute] Offset: FFFFFFFF
   class GOfbBlockCipher : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IBlockCipher*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Byte[] IV
     // Size: 0x8
     // Offset: 0x10
@@ -104,51 +96,51 @@ namespace Org::BouncyCastle::Crypto::Modes {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IBlockCipher*>(this);
     }
     // Get instance field reference: private System.Byte[] IV
-    ::ArrayW<uint8_t>& dyn_IV();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_IV();
     // Get instance field reference: private System.Byte[] ofbV
-    ::ArrayW<uint8_t>& dyn_ofbV();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_ofbV();
     // Get instance field reference: private System.Byte[] ofbOutV
-    ::ArrayW<uint8_t>& dyn_ofbOutV();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_ofbOutV();
     // Get instance field reference: private readonly System.Int32 blockSize
-    int& dyn_blockSize();
+    [[deprecated("Use field access instead!")]] int& dyn_blockSize();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
-    ::Org::BouncyCastle::Crypto::IBlockCipher*& dyn_cipher();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::IBlockCipher*& dyn_cipher();
     // Get instance field reference: private System.Boolean firstStep
-    bool& dyn_firstStep();
+    [[deprecated("Use field access instead!")]] bool& dyn_firstStep();
     // Get instance field reference: private System.Int32 N3
-    int& dyn_N3();
+    [[deprecated("Use field access instead!")]] int& dyn_N3();
     // Get instance field reference: private System.Int32 N4
-    int& dyn_N4();
+    [[deprecated("Use field access instead!")]] int& dyn_N4();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1E05458
+    // Offset: 0x1E3FD24
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1E0551C
+    // Offset: 0x1E3FDE8
     bool get_IsPartialBlockOkay();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher)
-    // Offset: 0x1E04F10
+    // Offset: 0x1E3F7DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GOfbBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GOfbBlockCipher*, creationType>(cipher)));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1E051A0
+    // Offset: 0x1E3FA6C
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1E05524
+    // Offset: 0x1E3FDF0
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E0552C
+    // Offset: 0x1E3FDF8
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1E05384
+    // Offset: 0x1E3FC50
     void Reset();
     // private System.Int32 bytesToint(System.Byte[] inBytes, System.Int32 inOff)
-    // Offset: 0x1E058D4
+    // Offset: 0x1E401A0
     int bytesToint(::ArrayW<uint8_t> inBytes, int inOff);
     // private System.Void intTobytes(System.Int32 num, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1E05954
+    // Offset: 0x1E40220
     void intTobytes(int num, ::ArrayW<uint8_t> outBytes, int outOff);
   }; // Org.BouncyCastle.Crypto.Modes.GOfbBlockCipher
   #pragma pack(pop)

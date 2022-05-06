@@ -41,40 +41,46 @@ namespace UnityEngine::TestRunner::NUnitExtensions {
   class TestExtensions : public ::Il2CppObject {
     public:
     // static private System.Collections.Generic.IEnumerable`1<System.String> GetTestCategories(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1943530
+    // Offset: 0x197B4F0
     static ::System::Collections::Generic::IEnumerable_1<::StringW>* GetTestCategories(::NUnit::Framework::Interfaces::ITest* test);
     // static public System.Collections.Generic.List`1<System.String> GetAllCategoriesFromTest(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1943884
+    // Offset: 0x197B844
     static ::System::Collections::Generic::List_1<::StringW>* GetAllCategoriesFromTest(::NUnit::Framework::Interfaces::ITest* test);
     // static public System.Void ParseForNameDuplicates(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x19439F0
+    // Offset: 0x197B9B0
     static void ParseForNameDuplicates(::NUnit::Framework::Interfaces::ITest* test);
     // static public System.Int32 GetChildIndex(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1943F08
+    // Offset: 0x197BEC8
     static int GetChildIndex(::NUnit::Framework::Interfaces::ITest* test);
     // static public System.Boolean HasChildIndex(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x19440E4
+    // Offset: 0x197C0A4
     static bool HasChildIndex(::NUnit::Framework::Interfaces::ITest* test);
     // static private System.String GetAncestorPath(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1944298
+    // Offset: 0x197C258
     static ::StringW GetAncestorPath(::NUnit::Framework::Interfaces::ITest* test);
     // static public System.String GetUniqueName(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x19430A8
+    // Offset: 0x197B068
     static ::StringW GetUniqueName(::NUnit::Framework::Interfaces::ITest* test);
     // static public System.String GetFullName(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1944530
+    // Offset: 0x197C4F0
     static ::StringW GetFullName(::NUnit::Framework::Interfaces::ITest* test);
+    // static public System.String GetFullNameWithoutDllPath(NUnit.Framework.Interfaces.ITest test)
+    // Offset: 0x1971A3C
+    static ::StringW GetFullNameWithoutDllPath(::NUnit::Framework::Interfaces::ITest* test);
+    // static private System.Boolean IsAssembly(NUnit.Framework.Interfaces.ITest test)
+    // Offset: 0x197C9BC
+    static bool IsAssembly(::NUnit::Framework::Interfaces::ITest* test);
     // static public System.String GetSkipReason(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x19449FC
+    // Offset: 0x197CAE4
     static ::StringW GetSkipReason(::NUnit::Framework::Interfaces::ITest* test);
     // static public System.String GetParentId(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1944C48
+    // Offset: 0x197CD30
     static ::StringW GetParentId(::NUnit::Framework::Interfaces::ITest* test);
     // static public System.String GetParentFullName(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1944DD4
+    // Offset: 0x197CEBC
     static ::StringW GetParentFullName(::NUnit::Framework::Interfaces::ITest* test);
     // static public System.String GetParentUniqueName(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1944F64
+    // Offset: 0x197D04C
     static ::StringW GetParentUniqueName(::NUnit::Framework::Interfaces::ITest* test);
   }; // UnityEngine.TestRunner.NUnitExtensions.TestExtensions
   #pragma pack(pop)
@@ -150,6 +156,24 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
   static const MethodInfo* get() {
     static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::TestExtensions*), "GetFullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});
+  }
+};
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::TestExtensions::GetFullNameWithoutDllPath
+// Il2CppName: GetFullNameWithoutDllPath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestRunner::NUnitExtensions::TestExtensions::GetFullNameWithoutDllPath)> {
+  static const MethodInfo* get() {
+    static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITest")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::TestExtensions*), "GetFullNameWithoutDllPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});
+  }
+};
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::TestExtensions::IsAssembly
+// Il2CppName: IsAssembly
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestRunner::NUnitExtensions::TestExtensions::IsAssembly)> {
+  static const MethodInfo* get() {
+    static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITest")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::TestExtensions*), "IsAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::TestExtensions::GetSkipReason

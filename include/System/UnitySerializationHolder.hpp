@@ -57,15 +57,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnitySerializationHolder : public ::Il2CppObject/*, public ::System::Runtime::Serialization::ISerializable, public ::System::Runtime::Serialization::IObjectReference*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Type[] m_instantiation
     // Size: 0x8
     // Offset: 0x10
@@ -126,51 +118,51 @@ namespace System {
       return *reinterpret_cast<::System::Runtime::Serialization::IObjectReference*>(this);
     }
     // Get instance field reference: private System.Type[] m_instantiation
-    ::ArrayW<::System::Type*>& dyn_m_instantiation();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Type*>& dyn_m_instantiation();
     // Get instance field reference: private System.Int32[] m_elementTypes
-    ::ArrayW<int>& dyn_m_elementTypes();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_m_elementTypes();
     // Get instance field reference: private System.Int32 m_genericParameterPosition
-    int& dyn_m_genericParameterPosition();
+    [[deprecated("Use field access instead!")]] int& dyn_m_genericParameterPosition();
     // Get instance field reference: private System.Type m_declaringType
-    ::System::Type*& dyn_m_declaringType();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_m_declaringType();
     // Get instance field reference: private System.Reflection.MethodBase m_declaringMethod
-    ::System::Reflection::MethodBase*& dyn_m_declaringMethod();
+    [[deprecated("Use field access instead!")]] ::System::Reflection::MethodBase*& dyn_m_declaringMethod();
     // Get instance field reference: private System.String m_data
-    ::StringW& dyn_m_data();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_data();
     // Get instance field reference: private System.String m_assemblyName
-    ::StringW& dyn_m_assemblyName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_assemblyName();
     // Get instance field reference: private System.Int32 m_unityType
-    int& dyn_m_unityType();
+    [[deprecated("Use field access instead!")]] int& dyn_m_unityType();
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x29881E8
+    // Offset: 0x29D87A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnitySerializationHolder* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::UnitySerializationHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnitySerializationHolder*, creationType>(info, context)));
     }
     // static System.Void GetUnitySerializationInfo(System.Runtime.Serialization.SerializationInfo info, System.Reflection.Missing missing)
-    // Offset: 0x2987998
+    // Offset: 0x29D7F58
     static void GetUnitySerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, ::System::Reflection::Missing* missing);
     // static System.RuntimeType AddElementTypes(System.Runtime.Serialization.SerializationInfo info, System.RuntimeType type)
-    // Offset: 0x2987A3C
+    // Offset: 0x29D7FFC
     static ::System::RuntimeType* AddElementTypes(::System::Runtime::Serialization::SerializationInfo* info, ::System::RuntimeType* type);
     // System.Type MakeElementTypes(System.Type type)
-    // Offset: 0x2987C8C
+    // Offset: 0x29D824C
     ::System::Type* MakeElementTypes(::System::Type* type);
     // static System.Void GetUnitySerializationInfo(System.Runtime.Serialization.SerializationInfo info, System.RuntimeType type)
-    // Offset: 0x2987D8C
+    // Offset: 0x29D834C
     static void GetUnitySerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, ::System::RuntimeType* type);
     // static System.Void GetUnitySerializationInfo(System.Runtime.Serialization.SerializationInfo info, System.Int32 unityType, System.String data, System.Reflection.RuntimeAssembly assembly)
-    // Offset: 0x298809C
+    // Offset: 0x29D865C
     static void GetUnitySerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, int unityType, ::StringW data, ::System::Reflection::RuntimeAssembly* assembly);
     // private System.Void ThrowInsufficientInformation(System.String field)
-    // Offset: 0x29884EC
+    // Offset: 0x29D8AAC
     void ThrowInsufficientInformation(::StringW field);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x29885AC
+    // Offset: 0x29D8B6C
     void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // public System.Object GetRealObject(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x298862C
+    // Offset: 0x29D8BEC
     ::Il2CppObject* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
   }; // System.UnitySerializationHolder
   #pragma pack(pop)

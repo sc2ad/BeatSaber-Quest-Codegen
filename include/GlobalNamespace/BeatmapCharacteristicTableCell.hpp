@@ -47,15 +47,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapCharacteristicTableCell : public ::HMUI::TableCell {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _nameText
     // Size: 0x8
     // Offset: 0x58
@@ -80,7 +72,7 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Image* selectionImage;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Image*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1257BC8
+    // [SpaceAttribute] Offset: 0x10DC7AC
     // private UnityEngine.Color _bgNormalColor
     // Size: 0x10
     // Offset: 0x78
@@ -95,46 +87,37 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
     public:
     // Get instance field reference: private TMPro.TextMeshProUGUI _nameText
-    ::TMPro::TextMeshProUGUI*& dyn__nameText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__nameText();
     // Get instance field reference: private UnityEngine.UI.Image _iconImage
-    ::UnityEngine::UI::Image*& dyn__iconImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__iconImage();
     // Get instance field reference: private UnityEngine.UI.Image _bgImage
-    ::UnityEngine::UI::Image*& dyn__bgImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__bgImage();
     // Get instance field reference: private UnityEngine.UI.Image _selectionImage
-    ::UnityEngine::UI::Image*& dyn__selectionImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__selectionImage();
     // Get instance field reference: private UnityEngine.Color _bgNormalColor
-    ::UnityEngine::Color& dyn__bgNormalColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__bgNormalColor();
     // Get instance field reference: private UnityEngine.Color _bgHighlightColor
-    ::UnityEngine::Color& dyn__bgHighlightColor();
-    // public System.Void SetData(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x1366048
-    void SetData(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
-    // private System.Void RefreshVisuals()
-    // Offset: 0x13660B0
-    void RefreshVisuals();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__bgHighlightColor();
     // public System.Void .ctor()
-    // Offset: 0x136613C
-    // Implemented from: HMUI.TableCell
-    // Base method: System.Void TableCell::.ctor()
-    // Base method: System.Void SelectableCell::.ctor()
-    // Base method: System.Void Interactable::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x134E3BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCharacteristicTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapCharacteristicTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCharacteristicTableCell*, creationType>()));
     }
+    // public System.Void SetData(BeatmapCharacteristicSO beatmapCharacteristic)
+    // Offset: 0x134E2C8
+    void SetData(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
+    // private System.Void RefreshVisuals()
+    // Offset: 0x134E330
+    void RefreshVisuals();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x13660AC
+    // Offset: 0x134E32C
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(::HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x1366138
+    // Offset: 0x134E3B8
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(::HMUI::SelectableCell::TransitionType transitionType);
@@ -144,6 +127,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapCharacteristicTableCell) == 0x98);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicTableCell::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicTableCell::SetData
 // Il2CppName: SetData
 template<>
@@ -161,10 +148,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCharacteristicTableCell*), "RefreshVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicTableCell::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicTableCell::SelectionDidChange
 // Il2CppName: SelectionDidChange
 template<>

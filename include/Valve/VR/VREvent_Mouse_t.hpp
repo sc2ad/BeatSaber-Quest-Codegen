@@ -50,11 +50,11 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single x
-    float& dyn_x();
+    [[deprecated("Use field access instead!")]] float& dyn_x();
     // Get instance field reference: public System.Single y
-    float& dyn_y();
+    [[deprecated("Use field access instead!")]] float& dyn_y();
     // Get instance field reference: public System.UInt32 button
-    uint& dyn_button();
+    [[deprecated("Use field access instead!")]] uint& dyn_button();
   }; // Valve.VR.VREvent_Mouse_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Mouse_t), 8 + sizeof(uint)> __Valve_VR_VREvent_Mouse_tSizeCheck;

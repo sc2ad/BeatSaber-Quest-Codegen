@@ -40,15 +40,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BasicMockPlayerScoreCalculator : public ::Il2CppObject/*, public ::GlobalNamespace::IMockPlayerScoreCalculator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Single _hitFrequency
     // Size: 0x4
     // Offset: 0x10
@@ -81,22 +73,22 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IMockPlayerScoreCalculator*>(this);
     }
     // Get instance field reference: private readonly System.Single _hitFrequency
-    float& dyn__hitFrequency();
+    [[deprecated("Use field access instead!")]] float& dyn__hitFrequency();
     // Get instance field reference: private readonly System.Int32 _minScore
-    int& dyn__minScore();
+    [[deprecated("Use field access instead!")]] int& dyn__minScore();
     // Get instance field reference: private readonly System.Int32 _maxScore
-    int& dyn__maxScore();
+    [[deprecated("Use field access instead!")]] int& dyn__maxScore();
     // Get instance field reference: private readonly System.Random _random
-    ::System::Random*& dyn__random();
+    [[deprecated("Use field access instead!")]] ::System::Random*& dyn__random();
     // public System.Void .ctor(System.Single hitFrequency, System.Int32 minScore, System.Int32 maxScore)
-    // Offset: 0x2A50DE8
+    // Offset: 0x2AA81D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicMockPlayerScoreCalculator* New_ctor(float hitFrequency, int minScore, int maxScore) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BasicMockPlayerScoreCalculator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BasicMockPlayerScoreCalculator*, creationType>(hitFrequency, minScore, maxScore)));
     }
     // public System.Int32 GetScoreForNote(MockNoteData noteData)
-    // Offset: 0x2A50ED0
+    // Offset: 0x2AA82B8
     int GetScoreForNote(::GlobalNamespace::MockNoteData* noteData);
   }; // BasicMockPlayerScoreCalculator
   #pragma pack(pop)

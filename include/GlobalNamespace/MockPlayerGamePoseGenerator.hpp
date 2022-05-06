@@ -57,15 +57,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockPlayerGamePoseGenerator : public ::Il2CppObject/*, public ::System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected readonly IMultiplayerSessionManager multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
@@ -104,36 +96,36 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get instance field reference: protected readonly IMultiplayerSessionManager multiplayerSessionManager
-    ::GlobalNamespace::IMultiplayerSessionManager*& dyn_multiplayerSessionManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn_multiplayerSessionManager();
     // Get instance field reference: protected readonly IGameplayRpcManager gameplayRpcManager
-    ::GlobalNamespace::IGameplayRpcManager*& dyn_gameplayRpcManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IGameplayRpcManager*& dyn_gameplayRpcManager();
     // Get instance field reference: protected readonly System.Boolean leftHanded
-    bool& dyn_leftHanded();
+    [[deprecated("Use field access instead!")]] bool& dyn_leftHanded();
     // Get instance field reference: protected readonly MockNodePoseSyncStateSender mockNodePoseSyncStateSender
-    ::GlobalNamespace::MockNodePoseSyncStateSender*& dyn_mockNodePoseSyncStateSender();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MockNodePoseSyncStateSender*& dyn_mockNodePoseSyncStateSender();
     // Get instance field reference: protected readonly MockScoreSyncStateSender mockScoreSyncStateSender
-    ::GlobalNamespace::MockScoreSyncStateSender*& dyn_mockScoreSyncStateSender();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MockScoreSyncStateSender*& dyn_mockScoreSyncStateSender();
     // protected System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, System.Boolean leftHanded)
-    // Offset: 0x2A5158C
+    // Offset: 0x2AA8974
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPlayerGamePoseGenerator* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockPlayerGamePoseGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockPlayerGamePoseGenerator*, creationType>(multiplayerSessionManager, gameplayRpcManager, leftHanded)));
     }
     // public System.Void Dispose()
-    // Offset: 0x2A517A4
+    // Offset: 0x2AA8B8C
     void Dispose();
     // public System.Void SendPoses(System.Single introStartTime, MockBeatmapData beatmapData, GameplayModifiers gameplayModifiers, System.Threading.CancellationToken cancellationToken, System.Action onSongFinished)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void SendPoses(float introStartTime, ::GlobalNamespace::MockBeatmapData* beatmapData, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::System::Threading::CancellationToken cancellationToken, ::System::Action* onSongFinished);
     // public System.Void SimulateFail()
-    // Offset: 0x2A518AC
+    // Offset: 0x2AA8C94
     void SimulateFail();
     // public System.Void SimulateGiveUp()
-    // Offset: 0x2A51AB0
+    // Offset: 0x2AA8E98
     void SimulateGiveUp();
     // static private LevelCompletionResults CreateEmptyLevelCompletionResults(LevelCompletionResults/LevelEndStateType levelEndStateType)
-    // Offset: 0x2A519A4
+    // Offset: 0x2AA8D8C
     static ::GlobalNamespace::LevelCompletionResults* CreateEmptyLevelCompletionResults(::GlobalNamespace::LevelCompletionResults::LevelEndStateType levelEndStateType);
   }; // MockPlayerGamePoseGenerator
   #pragma pack(pop)

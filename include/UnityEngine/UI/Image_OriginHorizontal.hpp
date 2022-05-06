@@ -51,7 +51,7 @@ namespace UnityEngine::UI {
     // Set static field: static public UnityEngine.UI.Image/UnityEngine.UI.OriginHorizontal Right
     static void _set_Right(::UnityEngine::UI::Image::OriginHorizontal value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.UI.Image/UnityEngine.UI.OriginHorizontal
   #pragma pack(pop)
   static check_size<sizeof(Image::OriginHorizontal), 0 + sizeof(int)> __UnityEngine_UI_Image_OriginHorizontalSizeCheck;

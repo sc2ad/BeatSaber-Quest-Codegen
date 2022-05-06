@@ -31,15 +31,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class ObjectReader::TypeNAssembly : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Type type
     // Size: 0x8
     // Offset: 0x10
@@ -54,11 +46,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.Type type
-    ::System::Type*& dyn_type();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_type();
     // Get instance field reference: public System.String assemblyName
-    ::StringW& dyn_assemblyName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_assemblyName();
     // public System.Void .ctor()
-    // Offset: 0x18C0E20
+    // Offset: 0x18FA730
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

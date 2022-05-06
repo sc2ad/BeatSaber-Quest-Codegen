@@ -42,15 +42,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SphereCuttableBySaber : public ::GlobalNamespace::CuttableBySaber {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.SphereCollider _collider
     // Size: 0x8
     // Offset: 0x20
@@ -65,43 +57,38 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private UnityEngine.SphereCollider _collider
-    ::UnityEngine::SphereCollider*& dyn__collider();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::SphereCollider*& dyn__collider();
     // Get instance field reference: private System.Boolean _canBeCut
-    bool& dyn__canBeCut();
+    [[deprecated("Use field access instead!")]] bool& dyn__canBeCut();
     // protected System.Void Awake()
-    // Offset: 0x2AAB9E0
+    // Offset: 0x1392604
     void Awake();
     // public override System.Single get_radius()
-    // Offset: 0x2AAB980
+    // Offset: 0x13925A4
     // Implemented from: CuttableBySaber
     // Base method: System.Single CuttableBySaber::get_radius()
     float get_radius();
     // public override System.Boolean get_canBeCut()
-    // Offset: 0x2AAB9D8
+    // Offset: 0x13925FC
     // Implemented from: CuttableBySaber
     // Base method: System.Boolean CuttableBySaber::get_canBeCut()
     bool get_canBeCut();
     // public override System.Void set_canBeCut(System.Boolean value)
-    // Offset: 0x2AAB99C
+    // Offset: 0x13925C0
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::set_canBeCut(System.Boolean value)
     void set_canBeCut(bool value);
     // public System.Void .ctor()
-    // Offset: 0x2AABA3C
+    // Offset: 0x1392660
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SphereCuttableBySaber* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SphereCuttableBySaber::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SphereCuttableBySaber*, creationType>()));
     }
     // public override System.Void Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x2AABA18
+    // Offset: 0x139263C
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
     void Cut(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);

@@ -88,34 +88,26 @@ namespace GlobalNamespace {
       // Set static field: static public TrackLaneRingsRotationEffectSpawner/RotationStepType MaxOr0
       static void _set_MaxOr0(::GlobalNamespace::TrackLaneRingsRotationEffectSpawner::RotationStepType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // TrackLaneRingsRotationEffectSpawner/RotationStepType
     #pragma pack(pop)
     static check_size<sizeof(TrackLaneRingsRotationEffectSpawner::RotationStepType), 0 + sizeof(int)> __GlobalNamespace_TrackLaneRingsRotationEffectSpawner_RotationStepTypeSizeCheck;
     static_assert(sizeof(TrackLaneRingsRotationEffectSpawner::RotationStepType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TrackLaneRingsRotationEffect _trackLaneRingsRotationEffect
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::TrackLaneRingsRotationEffect* trackLaneRingsRotationEffect;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::TrackLaneRingsRotationEffect*) == 0x8);
-    // [SpaceAttribute] Offset: 0x12521BC
+    // [SpaceAttribute] Offset: 0x10D6D48
     // private BasicBeatmapEventType _beatmapEventType
     // Size: 0x4
     // Offset: 0x20
     ::GlobalNamespace::BasicBeatmapEventType beatmapEventType;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BasicBeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0x12521F4
+    // [SpaceAttribute] Offset: 0x10D6D80
     // private System.Single _rotation
     // Size: 0x4
     // Offset: 0x24
@@ -146,7 +138,7 @@ namespace GlobalNamespace {
     float rotationFlexySpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x125226C
+    // [InjectAttribute] Offset: 0x10D6DF8
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x38
@@ -163,45 +155,39 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TrackLaneRingsRotationEffect _trackLaneRingsRotationEffect
-    ::GlobalNamespace::TrackLaneRingsRotationEffect*& dyn__trackLaneRingsRotationEffect();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TrackLaneRingsRotationEffect*& dyn__trackLaneRingsRotationEffect();
     // Get instance field reference: private BasicBeatmapEventType _beatmapEventType
-    ::GlobalNamespace::BasicBeatmapEventType& dyn__beatmapEventType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BasicBeatmapEventType& dyn__beatmapEventType();
     // Get instance field reference: private System.Single _rotation
-    float& dyn__rotation();
+    [[deprecated("Use field access instead!")]] float& dyn__rotation();
     // Get instance field reference: private System.Single _rotationStep
-    float& dyn__rotationStep();
+    [[deprecated("Use field access instead!")]] float& dyn__rotationStep();
     // Get instance field reference: private TrackLaneRingsRotationEffectSpawner/RotationStepType _rotationStepType
-    ::GlobalNamespace::TrackLaneRingsRotationEffectSpawner::RotationStepType& dyn__rotationStepType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TrackLaneRingsRotationEffectSpawner::RotationStepType& dyn__rotationStepType();
     // Get instance field reference: private System.Int32 _rotationPropagationSpeed
-    int& dyn__rotationPropagationSpeed();
+    [[deprecated("Use field access instead!")]] int& dyn__rotationPropagationSpeed();
     // Get instance field reference: private System.Single _rotationFlexySpeed
-    float& dyn__rotationFlexySpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__rotationFlexySpeed();
     // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
-    ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
-    ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
-    // protected System.Void Start()
-    // Offset: 0x133F418
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x133F530
-    void OnDestroy();
-    // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x133F54C
-    void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // public System.Void .ctor()
-    // Offset: 0x133F620
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1421550
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackLaneRingsRotationEffectSpawner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TrackLaneRingsRotationEffectSpawner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrackLaneRingsRotationEffectSpawner*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x1421348
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1421460
+    void OnDestroy();
+    // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
+    // Offset: 0x142147C
+    void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
   }; // TrackLaneRingsRotationEffectSpawner
   #pragma pack(pop)
   static check_size<sizeof(TrackLaneRingsRotationEffectSpawner), 64 + sizeof(::GlobalNamespace::BeatmapDataCallbackWrapper*)> __GlobalNamespace_TrackLaneRingsRotationEffectSpawnerSizeCheck;
@@ -210,6 +196,10 @@ namespace GlobalNamespace {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TrackLaneRingsRotationEffectSpawner::RotationStepType, "", "TrackLaneRingsRotationEffectSpawner/RotationStepType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsRotationEffectSpawner::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsRotationEffectSpawner::Start
 // Il2CppName: Start
 template<>
@@ -235,7 +225,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRingsRotationEffectSpawner*), "HandleBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{basicBeatmapEventData});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsRotationEffectSpawner::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

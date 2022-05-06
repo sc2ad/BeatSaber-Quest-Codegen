@@ -32,15 +32,7 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class ArrayConverter::ArrayPropertyDescriptor : public ::System::ComponentModel::TypeConverter::SimplePropertyDescriptor {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 index
     // Size: 0x4
     // Offset: 0x90
@@ -53,9 +45,9 @@ namespace System::ComponentModel {
       return index;
     }
     // Get instance field reference: private System.Int32 index
-    int& dyn_index();
+    [[deprecated("Use field access instead!")]] int& dyn_index();
     // public System.Void .ctor(System.Type arrayType, System.Type elementType, System.Int32 index)
-    // Offset: 0x1D586C8
+    // Offset: 0x1D93C20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArrayConverter::ArrayPropertyDescriptor* New_ctor(::System::Type* arrayType, ::System::Type* elementType, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::ArrayConverter::ArrayPropertyDescriptor::.ctor");

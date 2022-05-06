@@ -43,7 +43,7 @@ namespace Valve::VR {
       return overlayHandle;
     }
     // Get instance field reference: public System.UInt64 overlayHandle
-    uint64_t& dyn_overlayHandle();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_overlayHandle();
   }; // Valve.VR.VREvent_Overlay_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Overlay_t), 0 + sizeof(uint64_t)> __Valve_VR_VREvent_Overlay_tSizeCheck;

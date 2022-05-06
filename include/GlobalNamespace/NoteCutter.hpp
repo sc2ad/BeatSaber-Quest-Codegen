@@ -45,15 +45,7 @@ namespace GlobalNamespace {
     class CuttableBySaberSortParams;
     // Nested type: ::GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer
     class CuttableBySaberSortParamsComparer;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly UnityEngine.Collider[] _colliders
     // Size: 0x8
     // Offset: 0x10
@@ -80,29 +72,31 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxNumberOfColliders
     static void _set_kMaxNumberOfColliders(int value);
     // Get instance field reference: private readonly UnityEngine.Collider[] _colliders
-    ::ArrayW<::UnityEngine::Collider*>& dyn__colliders();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Collider*>& dyn__colliders();
     // Get instance field reference: private readonly NoteCutter/CuttableBySaberSortParams[] _cuttableBySaberSortParams
-    ::ArrayW<::GlobalNamespace::NoteCutter::CuttableBySaberSortParams*>& dyn__cuttableBySaberSortParams();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::NoteCutter::CuttableBySaberSortParams*>& dyn__cuttableBySaberSortParams();
     // Get instance field reference: private readonly NoteCutter/CuttableBySaberSortParamsComparer _comparer
-    ::GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*& dyn__comparer();
-    // public System.Void Cut(Saber saber)
-    // Offset: 0x1477BD8
-    void Cut(::GlobalNamespace::Saber* saber);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*& dyn__comparer();
     // public System.Void .ctor()
-    // Offset: 0x1477AA0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14AE288
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutter*, creationType>()));
     }
+    // public System.Void Cut(Saber saber)
+    // Offset: 0x14AE3C0
+    void Cut(::GlobalNamespace::Saber* saber);
   }; // NoteCutter
   #pragma pack(pop)
   static check_size<sizeof(NoteCutter), 32 + sizeof(::GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*)> __GlobalNamespace_NoteCutterSizeCheck;
   static_assert(sizeof(NoteCutter) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutter::Cut
 // Il2CppName: Cut
 template<>
@@ -112,7 +106,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutter*), "Cut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saber});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NoteCutter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -49,36 +49,28 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EditAvatarAnalytics : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private EditAvatarFlowCoordinator _editAvatarFlowCoordinator
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::EditAvatarFlowCoordinator* editAvatarFlowCoordinator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EditAvatarFlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0x1249BC0
+    // [InjectAttribute] Offset: 0x10CE6B8
     // private readonly EditAvatarViewController _editAvatarViewController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::EditAvatarViewController* editAvatarViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EditAvatarViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1249BD0
+    // [InjectAttribute] Offset: 0x10CE6C8
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::IAnalyticsModel* analyticsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAnalyticsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x1249BE0
+    // [InjectAttribute] Offset: 0x10CE6D8
     // private readonly AvatarDataModel _avatarDataModel
     // Size: 0x8
     // Offset: 0x30
@@ -95,52 +87,50 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private EditAvatarFlowCoordinator _editAvatarFlowCoordinator
-    ::GlobalNamespace::EditAvatarFlowCoordinator*& dyn__editAvatarFlowCoordinator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EditAvatarFlowCoordinator*& dyn__editAvatarFlowCoordinator();
     // Get instance field reference: private readonly EditAvatarViewController _editAvatarViewController
-    ::GlobalNamespace::EditAvatarViewController*& dyn__editAvatarViewController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EditAvatarViewController*& dyn__editAvatarViewController();
     // Get instance field reference: private readonly IAnalyticsModel _analyticsModel
-    ::GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
     // Get instance field reference: private readonly AvatarDataModel _avatarDataModel
-    ::GlobalNamespace::AvatarDataModel*& dyn__avatarDataModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarDataModel*& dyn__avatarDataModel();
     // Get instance field reference: private EditAvatarFlowCoordinator/EditAvatarType _lastEditAvatarType
-    ::GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType& dyn__lastEditAvatarType();
-    // protected System.Void Awake()
-    // Offset: 0x1411B90
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x1411E9C
-    void OnDestroy();
-    // private System.Void HandleEditAvatarFlowCoordinatorWasSetup(EditAvatarFlowCoordinator/EditAvatarType editAvatarType)
-    // Offset: 0x1412220
-    void HandleEditAvatarFlowCoordinatorWasSetup(::GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType editAvatarType);
-    // private System.Void HandleEditAvatarViewControllerDidFinish(EditAvatarViewController/FinishAction finishAction)
-    // Offset: 0x1412500
-    void HandleEditAvatarViewControllerDidFinish(::GlobalNamespace::EditAvatarViewController::FinishAction finishAction);
-    // private System.Void HandleEditAvatarViewControllerRandomizeAllButtonWasPressed()
-    // Offset: 0x14125F0
-    void HandleEditAvatarViewControllerRandomizeAllButtonWasPressed();
-    // private System.Collections.Generic.Dictionary`2<System.String,System.String> CreateEditAvatarEventData()
-    // Offset: 0x1412304
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* CreateEditAvatarEventData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType& dyn__lastEditAvatarType();
     // public System.Void .ctor()
-    // Offset: 0x14126CC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1432478
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EditAvatarAnalytics* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EditAvatarAnalytics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EditAvatarAnalytics*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x143193C
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1431C48
+    void OnDestroy();
+    // private System.Void HandleEditAvatarFlowCoordinatorWasSetup(EditAvatarFlowCoordinator/EditAvatarType editAvatarType)
+    // Offset: 0x1431FCC
+    void HandleEditAvatarFlowCoordinatorWasSetup(::GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType editAvatarType);
+    // private System.Void HandleEditAvatarViewControllerDidFinish(EditAvatarViewController/FinishAction finishAction)
+    // Offset: 0x14322AC
+    void HandleEditAvatarViewControllerDidFinish(::GlobalNamespace::EditAvatarViewController::FinishAction finishAction);
+    // private System.Void HandleEditAvatarViewControllerRandomizeAllButtonWasPressed()
+    // Offset: 0x143239C
+    void HandleEditAvatarViewControllerRandomizeAllButtonWasPressed();
+    // private System.Collections.Generic.Dictionary`2<System.String,System.String> CreateEditAvatarEventData()
+    // Offset: 0x14320B0
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* CreateEditAvatarEventData();
   }; // EditAvatarAnalytics
   #pragma pack(pop)
   static check_size<sizeof(EditAvatarAnalytics), 56 + sizeof(::GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType)> __GlobalNamespace_EditAvatarAnalyticsSizeCheck;
   static_assert(sizeof(EditAvatarAnalytics) == 0x3C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarAnalytics::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EditAvatarAnalytics::Awake
 // Il2CppName: Awake
 template<>
@@ -191,7 +181,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarAnalytics*), "CreateEditAvatarEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::EditAvatarAnalytics::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

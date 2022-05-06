@@ -151,7 +151,7 @@ namespace Newtonsoft::Json::Linq {
     // Set static field: static public Newtonsoft.Json.Linq.JTokenType TimeSpan
     static void _set_TimeSpan(::Newtonsoft::Json::Linq::JTokenType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Newtonsoft.Json.Linq.JTokenType
   #pragma pack(pop)
   static check_size<sizeof(JTokenType), 0 + sizeof(int)> __Newtonsoft_Json_Linq_JTokenTypeSizeCheck;

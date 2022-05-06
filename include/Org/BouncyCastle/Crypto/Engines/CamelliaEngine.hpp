@@ -37,15 +37,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class CamelliaEngine : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IBlockCipher*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean initialised
     // Size: 0x1
     // Offset: 0x10
@@ -110,86 +102,84 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set static field: static private readonly System.UInt32[] SBOX3_3033
     static void _set_SBOX3_3033(::ArrayW<uint> value);
     // Get instance field reference: private System.Boolean initialised
-    bool& dyn_initialised();
+    [[deprecated("Use field access instead!")]] bool& dyn_initialised();
     // Get instance field reference: private System.Boolean _keyIs128
-    bool& dyn__keyIs128();
+    [[deprecated("Use field access instead!")]] bool& dyn__keyIs128();
     // Get instance field reference: private System.UInt32[] subkey
-    ::ArrayW<uint>& dyn_subkey();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_subkey();
     // Get instance field reference: private System.UInt32[] kw
-    ::ArrayW<uint>& dyn_kw();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_kw();
     // Get instance field reference: private System.UInt32[] ke
-    ::ArrayW<uint>& dyn_ke();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_ke();
     // Get instance field reference: private System.UInt32[] state
-    ::ArrayW<uint>& dyn_state();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_state();
     // public System.String get_AlgorithmName()
-    // Offset: 0x2321044
+    // Offset: 0x236A8B8
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x232108C
+    // Offset: 0x236A900
     bool get_IsPartialBlockOkay();
-    // static private System.Void .cctor()
-    // Offset: 0x23211C4
-    static void _cctor();
-    // static private System.UInt32 rightRotate(System.UInt32 x, System.Int32 s)
-    // Offset: 0x231E948
-    static uint rightRotate(uint x, int s);
-    // static private System.UInt32 leftRotate(System.UInt32 x, System.Int32 s)
-    // Offset: 0x231E95C
-    static uint leftRotate(uint x, int s);
-    // static private System.Void roldq(System.Int32 rot, System.UInt32[] ki, System.Int32 ioff, System.UInt32[] ko, System.Int32 ooff)
-    // Offset: 0x231E970
-    static void roldq(int rot, ::ArrayW<uint> ki, int ioff, ::ArrayW<uint> ko, int ooff);
-    // static private System.Void decroldq(System.Int32 rot, System.UInt32[] ki, System.Int32 ioff, System.UInt32[] ko, System.Int32 ooff)
-    // Offset: 0x231EB40
-    static void decroldq(int rot, ::ArrayW<uint> ki, int ioff, ::ArrayW<uint> ko, int ooff);
-    // static private System.Void roldqo32(System.Int32 rot, System.UInt32[] ki, System.Int32 ioff, System.UInt32[] ko, System.Int32 ooff)
-    // Offset: 0x231ED10
-    static void roldqo32(int rot, ::ArrayW<uint> ki, int ioff, ::ArrayW<uint> ko, int ooff);
-    // static private System.Void decroldqo32(System.Int32 rot, System.UInt32[] ki, System.Int32 ioff, System.UInt32[] ko, System.Int32 ooff)
-    // Offset: 0x231EEE4
-    static void decroldqo32(int rot, ::ArrayW<uint> ki, int ioff, ::ArrayW<uint> ko, int ooff);
-    // static private System.UInt32 bytes2uint(System.Byte[] src, System.Int32 offset)
-    // Offset: 0x231F0B8
-    static uint bytes2uint(::ArrayW<uint8_t> src, int offset);
-    // static private System.Void uint2bytes(System.UInt32 word, System.Byte[] dst, System.Int32 offset)
-    // Offset: 0x231F128
-    static void uint2bytes(uint word, ::ArrayW<uint8_t> dst, int offset);
-    // static private System.Void camelliaF2(System.UInt32[] s, System.UInt32[] skey, System.Int32 keyoff)
-    // Offset: 0x231F17C
-    static void camelliaF2(::ArrayW<uint> s, ::ArrayW<uint> skey, int keyoff);
-    // static private System.Void camelliaFLs(System.UInt32[] s, System.UInt32[] fkey, System.Int32 keyoff)
-    // Offset: 0x231F4B8
-    static void camelliaFLs(::ArrayW<uint> s, ::ArrayW<uint> fkey, int keyoff);
-    // private System.Void setKey(System.Boolean forEncryption, System.Byte[] key)
-    // Offset: 0x231F60C
-    void setKey(bool forEncryption, ::ArrayW<uint8_t> key);
-    // private System.Int32 processBlock128(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x232080C
-    int processBlock128(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
-    // private System.Int32 processBlock192or256(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x2320B4C
-    int processBlock192or256(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
-    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x2320F5C
-    void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-    // public System.Int32 GetBlockSize()
-    // Offset: 0x2321094
-    int GetBlockSize();
-    // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x232109C
-    int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
-    // public System.Void Reset()
-    // Offset: 0x23211C0
-    void Reset();
     // public System.Void .ctor()
-    // Offset: 0x2320EC8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x236A73C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CamelliaEngine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::CamelliaEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CamelliaEngine*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x236AA38
+    static void _cctor();
+    // static private System.UInt32 rightRotate(System.UInt32 x, System.Int32 s)
+    // Offset: 0x23681BC
+    static uint rightRotate(uint x, int s);
+    // static private System.UInt32 leftRotate(System.UInt32 x, System.Int32 s)
+    // Offset: 0x23681D0
+    static uint leftRotate(uint x, int s);
+    // static private System.Void roldq(System.Int32 rot, System.UInt32[] ki, System.Int32 ioff, System.UInt32[] ko, System.Int32 ooff)
+    // Offset: 0x23681E4
+    static void roldq(int rot, ::ArrayW<uint> ki, int ioff, ::ArrayW<uint> ko, int ooff);
+    // static private System.Void decroldq(System.Int32 rot, System.UInt32[] ki, System.Int32 ioff, System.UInt32[] ko, System.Int32 ooff)
+    // Offset: 0x23683B4
+    static void decroldq(int rot, ::ArrayW<uint> ki, int ioff, ::ArrayW<uint> ko, int ooff);
+    // static private System.Void roldqo32(System.Int32 rot, System.UInt32[] ki, System.Int32 ioff, System.UInt32[] ko, System.Int32 ooff)
+    // Offset: 0x2368584
+    static void roldqo32(int rot, ::ArrayW<uint> ki, int ioff, ::ArrayW<uint> ko, int ooff);
+    // static private System.Void decroldqo32(System.Int32 rot, System.UInt32[] ki, System.Int32 ioff, System.UInt32[] ko, System.Int32 ooff)
+    // Offset: 0x2368758
+    static void decroldqo32(int rot, ::ArrayW<uint> ki, int ioff, ::ArrayW<uint> ko, int ooff);
+    // static private System.UInt32 bytes2uint(System.Byte[] src, System.Int32 offset)
+    // Offset: 0x236892C
+    static uint bytes2uint(::ArrayW<uint8_t> src, int offset);
+    // static private System.Void uint2bytes(System.UInt32 word, System.Byte[] dst, System.Int32 offset)
+    // Offset: 0x236899C
+    static void uint2bytes(uint word, ::ArrayW<uint8_t> dst, int offset);
+    // static private System.Void camelliaF2(System.UInt32[] s, System.UInt32[] skey, System.Int32 keyoff)
+    // Offset: 0x23689F0
+    static void camelliaF2(::ArrayW<uint> s, ::ArrayW<uint> skey, int keyoff);
+    // static private System.Void camelliaFLs(System.UInt32[] s, System.UInt32[] fkey, System.Int32 keyoff)
+    // Offset: 0x2368D2C
+    static void camelliaFLs(::ArrayW<uint> s, ::ArrayW<uint> fkey, int keyoff);
+    // private System.Void setKey(System.Boolean forEncryption, System.Byte[] key)
+    // Offset: 0x2368E80
+    void setKey(bool forEncryption, ::ArrayW<uint8_t> key);
+    // private System.Int32 processBlock128(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
+    // Offset: 0x236A080
+    int processBlock128(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
+    // private System.Int32 processBlock192or256(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
+    // Offset: 0x236A3C0
+    int processBlock192or256(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
+    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
+    // Offset: 0x236A7D0
+    void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // public System.Int32 GetBlockSize()
+    // Offset: 0x236A908
+    int GetBlockSize();
+    // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
+    // Offset: 0x236A910
+    int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
+    // public System.Void Reset()
+    // Offset: 0x236AA34
+    void Reset();
   }; // Org.BouncyCastle.Crypto.Engines.CamelliaEngine
   #pragma pack(pop)
   static check_size<sizeof(CamelliaEngine), 48 + sizeof(::ArrayW<uint>)> __Org_BouncyCastle_Crypto_Engines_CamelliaEngineSizeCheck;
@@ -212,6 +202,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::CamelliaEngine*), "get_IsPartialBlockOkay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::CamelliaEngine::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::CamelliaEngine::_cctor
 // Il2CppName: .cctor
 template<>
@@ -407,7 +401,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::CamelliaEngine*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::CamelliaEngine::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

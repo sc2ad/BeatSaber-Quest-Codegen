@@ -35,20 +35,20 @@ namespace HoudiniEngineUnity {
   class HEU_Task::TaskCallback : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1ACFFA8
+    // Offset: 0x1B0B590
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_Task::TaskCallback* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Task::TaskCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_Task::TaskCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(HoudiniEngineUnity.HEU_Task task)
-    // Offset: 0x1ACFFB8
+    // Offset: 0x1B0B5A0
     void Invoke(::HoudiniEngineUnity::HEU_Task* task);
     // public System.IAsyncResult BeginInvoke(HoudiniEngineUnity.HEU_Task task, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AD034C
+    // Offset: 0x1B0B934
     ::System::IAsyncResult* BeginInvoke(::HoudiniEngineUnity::HEU_Task* task, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1AD0370
+    // Offset: 0x1B0B958
     void EndInvoke(::System::IAsyncResult* result);
   }; // HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskCallback
   #pragma pack(pop)

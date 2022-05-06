@@ -58,15 +58,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapLevelMask : public ::Il2CppObject/*, public ::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>, public ::LiteNetLib::Utils::INetSerializable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly BitMaskSparse _bloomFilter
     // Size: 0x8
     // Offset: 0x10
@@ -117,57 +109,55 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kToStringSuffix
     static void _set_kToStringSuffix(::StringW value);
     // Get instance field reference: private readonly BitMaskSparse _bloomFilter
-    ::GlobalNamespace::BitMaskSparse*& dyn__bloomFilter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BitMaskSparse*& dyn__bloomFilter();
+    // public System.Void .ctor()
+    // Offset: 0x29FE140
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static BeatmapLevelMask* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelMask::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelMask*, creationType>()));
+    }
     // public System.Void .ctor(System.String level)
-    // Offset: 0x29BBEB8
+    // Offset: 0x29FE22C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelMask* New_ctor(::StringW level) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelMask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelMask*, creationType>(level)));
     }
     // public System.Void .ctor(System.Collections.Generic.HashSet`1<System.String> levelSet)
-    // Offset: 0x29BBF4C
+    // Offset: 0x29FE2C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelMask* New_ctor(::System::Collections::Generic::HashSet_1<::StringW>* levelSet) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelMask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelMask*, creationType>(levelSet)));
     }
     // public System.Boolean Contains(System.String state)
-    // Offset: 0x29BC084
+    // Offset: 0x29FE3F8
     bool Contains(::StringW state);
     // public System.Void AddLevel(System.String state)
-    // Offset: 0x29BC0EC
+    // Offset: 0x29FE460
     void AddLevel(::StringW state);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x29BC154
+    // Offset: 0x29FE4C8
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29BC2B8
+    // Offset: 0x29FE62C
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(BeatmapLevelMask other)
-    // Offset: 0x29BC3F0
+    // Offset: 0x29FE764
     bool Equals(::GlobalNamespace::BeatmapLevelMask* other);
-    // public System.Void .ctor()
-    // Offset: 0x29BBDCC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BeatmapLevelMask* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelMask::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelMask*, creationType>()));
-    }
     // public override System.String ToString()
-    // Offset: 0x29BC370
+    // Offset: 0x29FE6E4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x29BC3D0
+    // Offset: 0x29FE744
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x29BC410
+    // Offset: 0x29FE784
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
@@ -177,6 +167,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapLevelMask) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelMask::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelMask::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -230,10 +224,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelMask*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelMask::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelMask::ToString
 // Il2CppName: ToString
 template<>

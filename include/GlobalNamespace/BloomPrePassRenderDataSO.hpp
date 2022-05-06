@@ -35,15 +35,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::BloomPrePassRenderDataSO::Data
     class Data;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly BloomPrePassRenderDataSO/Data data
     // Size: 0x8
     // Offset: 0x18
@@ -54,14 +46,9 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public readonly BloomPrePassRenderDataSO/Data data
-    ::GlobalNamespace::BloomPrePassRenderDataSO::Data*& dyn_data();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassRenderDataSO::Data*& dyn_data();
     // public System.Void .ctor()
-    // Offset: 0x2ACDEC4
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E7728C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassRenderDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassRenderDataSO::.ctor");

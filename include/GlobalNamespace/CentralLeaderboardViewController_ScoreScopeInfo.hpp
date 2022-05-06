@@ -33,15 +33,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CentralLeaderboardViewController::ScoreScopeInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public OnlineServices.ScoresScope scoreScope
     // Size: 0x4
     // Offset: 0x10
@@ -70,15 +62,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public OnlineServices.ScoresScope scoreScope
-    ::OnlineServices::ScoresScope& dyn_scoreScope();
+    [[deprecated("Use field access instead!")]] ::OnlineServices::ScoresScope& dyn_scoreScope();
     // Get instance field reference: public System.String localizedTitle
-    ::StringW& dyn_localizedTitle();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_localizedTitle();
     // Get instance field reference: public UnityEngine.Sprite icon
-    ::UnityEngine::Sprite*& dyn_icon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn_icon();
     // Get instance field reference: public System.Int32 playerScorePos
-    int& dyn_playerScorePos();
+    [[deprecated("Use field access instead!")]] int& dyn_playerScorePos();
     // public System.Void .ctor(OnlineServices.ScoresScope scoreScope, UnityEngine.Sprite icon, System.String localizedTitle)
-    // Offset: 0x1353C00
+    // Offset: 0x133CE48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CentralLeaderboardViewController::ScoreScopeInfo* New_ctor(::OnlineServices::ScoresScope scoreScope, ::UnityEngine::Sprite* icon, ::StringW localizedTitle) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo::.ctor");

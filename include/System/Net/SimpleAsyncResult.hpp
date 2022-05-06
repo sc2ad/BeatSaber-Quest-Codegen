@@ -57,15 +57,7 @@ namespace System::Net {
     class $$c__DisplayClass9_0;
     // Nested type: ::System::Net::SimpleAsyncResult::$$c__DisplayClass11_0
     class $$c__DisplayClass11_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Threading.ManualResetEvent handle
     // Size: 0x8
     // Offset: 0x10
@@ -124,90 +116,90 @@ namespace System::Net {
       return *reinterpret_cast<::System::IAsyncResult*>(this);
     }
     // Get instance field reference: private System.Threading.ManualResetEvent handle
-    ::System::Threading::ManualResetEvent*& dyn_handle();
+    [[deprecated("Use field access instead!")]] ::System::Threading::ManualResetEvent*& dyn_handle();
     // Get instance field reference: private System.Boolean synch
-    bool& dyn_synch();
+    [[deprecated("Use field access instead!")]] bool& dyn_synch();
     // Get instance field reference: private System.Boolean isCompleted
-    bool& dyn_isCompleted();
+    [[deprecated("Use field access instead!")]] bool& dyn_isCompleted();
     // Get instance field reference: private readonly System.Net.SimpleAsyncCallback cb
-    ::System::Net::SimpleAsyncCallback*& dyn_cb();
+    [[deprecated("Use field access instead!")]] ::System::Net::SimpleAsyncCallback*& dyn_cb();
     // Get instance field reference: private System.Object state
-    ::Il2CppObject*& dyn_state();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_state();
     // Get instance field reference: private System.Boolean callbackDone
-    bool& dyn_callbackDone();
+    [[deprecated("Use field access instead!")]] bool& dyn_callbackDone();
     // Get instance field reference: private System.Exception exc
-    ::System::Exception*& dyn_exc();
+    [[deprecated("Use field access instead!")]] ::System::Exception*& dyn_exc();
     // Get instance field reference: private System.Object locker
-    ::Il2CppObject*& dyn_locker();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_locker();
     // Get instance field reference: private System.Nullable`1<System.Boolean> user_read_synch
-    ::System::Nullable_1<bool>& dyn_user_read_synch();
+    [[deprecated("Use field access instead!")]] ::System::Nullable_1<bool>& dyn_user_read_synch();
     // public System.Object get_AsyncState()
-    // Offset: 0x1B3558C
+    // Offset: 0x1B6FB74
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x1B35434
+    // Offset: 0x1B6FA1C
     ::System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x1B35594
+    // Offset: 0x1B6FB7C
     bool get_CompletedSynchronously();
     // System.Boolean get_CompletedSynchronouslyPeek()
-    // Offset: 0x1B35644
+    // Offset: 0x1B6FC2C
     bool get_CompletedSynchronouslyPeek();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1B353A0
+    // Offset: 0x1B6F988
     bool get_IsCompleted();
     // System.Boolean get_GotException()
-    // Offset: 0x1B3564C
+    // Offset: 0x1B6FC34
     bool get_GotException();
     // System.Exception get_Exception()
-    // Offset: 0x1B3565C
+    // Offset: 0x1B6FC44
     ::System::Exception* get_Exception();
     // private System.Void .ctor(System.Net.SimpleAsyncCallback cb)
-    // Offset: 0x1B34D94
+    // Offset: 0x1B6F37C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleAsyncResult* New_ctor(::System::Net::SimpleAsyncCallback* cb) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::SimpleAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleAsyncResult*, creationType>(cb)));
     }
     // protected System.Void .ctor(System.AsyncCallback cb, System.Object state)
-    // Offset: 0x1B34E10
+    // Offset: 0x1B6F3F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleAsyncResult* New_ctor(::System::AsyncCallback* cb, ::Il2CppObject* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::SimpleAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleAsyncResult*, creationType>(cb, state)));
     }
     // static public System.Void Run(System.Func`2<System.Net.SimpleAsyncResult,System.Boolean> func, System.Net.SimpleAsyncCallback callback)
-    // Offset: 0x1B34EF0
+    // Offset: 0x1B6F4D8
     static void Run(::System::Func_2<::System::Net::SimpleAsyncResult*, bool>* func, ::System::Net::SimpleAsyncCallback* callback);
     // static public System.Void RunWithLock(System.Object locker, System.Func`2<System.Net.SimpleAsyncResult,System.Boolean> func, System.Net.SimpleAsyncCallback callback)
-    // Offset: 0x1B350C4
+    // Offset: 0x1B6F6AC
     static void RunWithLock(::Il2CppObject* locker, ::System::Func_2<::System::Net::SimpleAsyncResult*, bool>* func, ::System::Net::SimpleAsyncCallback* callback);
     // protected System.Void Reset_internal()
-    // Offset: 0x1B351AC
+    // Offset: 0x1B6F794
     void Reset_internal();
     // System.Void SetCompleted(System.Boolean synch, System.Exception e)
-    // Offset: 0x1B35078
+    // Offset: 0x1B6F660
     void SetCompleted(bool synch, ::System::Exception* e);
     // System.Void SetCompleted(System.Boolean synch)
-    // Offset: 0x1B35028
+    // Offset: 0x1B6F610
     void SetCompleted(bool synch);
     // private System.Void SetCompleted_internal(System.Boolean synch, System.Exception e)
-    // Offset: 0x1B35254
+    // Offset: 0x1B6F83C
     void SetCompleted_internal(bool synch, ::System::Exception* e);
     // protected System.Void SetCompleted_internal(System.Boolean synch)
-    // Offset: 0x1B35328
+    // Offset: 0x1B6F910
     void SetCompleted_internal(bool synch);
     // private System.Void DoCallback_private()
-    // Offset: 0x1B35304
+    // Offset: 0x1B6F8EC
     void DoCallback_private();
     // protected System.Void DoCallback_internal()
-    // Offset: 0x1B35334
+    // Offset: 0x1B6F91C
     void DoCallback_internal();
     // System.Void WaitUntilComplete()
-    // Offset: 0x1B35358
+    // Offset: 0x1B6F940
     void WaitUntilComplete();
     // System.Boolean WaitUntilComplete(System.Int32 timeout, System.Boolean exitContext)
-    // Offset: 0x1B35524
+    // Offset: 0x1B6FB0C
     bool WaitUntilComplete(int timeout, bool exitContext);
   }; // System.Net.SimpleAsyncResult
   // WARNING Not writing size check since size may be invalid!

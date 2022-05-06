@@ -38,15 +38,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CustomNetworkConfig : public ::Il2CppObject/*, public ::GlobalNamespace::INetworkConfig*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Int32 <maxPartySize>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -115,60 +107,60 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::INetworkConfig*>(this);
     }
     // Get instance field reference: private readonly System.Int32 <maxPartySize>k__BackingField
-    int& dyn_$maxPartySize$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$maxPartySize$k__BackingField();
     // Get instance field reference: private readonly System.Int32 <discoveryPort>k__BackingField
-    int& dyn_$discoveryPort$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$discoveryPort$k__BackingField();
     // Get instance field reference: private readonly System.Int32 <partyPort>k__BackingField
-    int& dyn_$partyPort$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$partyPort$k__BackingField();
     // Get instance field reference: private readonly System.Int32 <multiplayerPort>k__BackingField
-    int& dyn_$multiplayerPort$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$multiplayerPort$k__BackingField();
     // Get instance field reference: private readonly DnsEndPoint <masterServerEndPoint>k__BackingField
-    ::GlobalNamespace::DnsEndPoint*& dyn_$masterServerEndPoint$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DnsEndPoint*& dyn_$masterServerEndPoint$k__BackingField();
     // Get instance field reference: private readonly System.String <multiplayerStatusUrl>k__BackingField
-    ::StringW& dyn_$multiplayerStatusUrl$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$multiplayerStatusUrl$k__BackingField();
     // Get instance field reference: private readonly System.String <graphUrl>k__BackingField
-    ::StringW& dyn_$graphUrl$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$graphUrl$k__BackingField();
     // Get instance field reference: private readonly System.String <graphAccessToken>k__BackingField
-    ::StringW& dyn_$graphAccessToken$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$graphAccessToken$k__BackingField();
     // Get instance field reference: private readonly System.Boolean <forceGameLift>k__BackingField
-    bool& dyn_$forceGameLift$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$forceGameLift$k__BackingField();
     // Get instance field reference: private readonly ServiceEnvironment <serviceEnvironment>k__BackingField
-    ::GlobalNamespace::ServiceEnvironment& dyn_$serviceEnvironment$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ServiceEnvironment& dyn_$serviceEnvironment$k__BackingField();
     // public System.Int32 get_maxPartySize()
-    // Offset: 0x163E394
+    // Offset: 0x1674CA4
     int get_maxPartySize();
     // public System.Int32 get_discoveryPort()
-    // Offset: 0x163E39C
+    // Offset: 0x1674CAC
     int get_discoveryPort();
     // public System.Int32 get_partyPort()
-    // Offset: 0x163E3A4
+    // Offset: 0x1674CB4
     int get_partyPort();
     // public System.Int32 get_multiplayerPort()
-    // Offset: 0x163E3AC
+    // Offset: 0x1674CBC
     int get_multiplayerPort();
     // public DnsEndPoint get_masterServerEndPoint()
-    // Offset: 0x163E3B4
+    // Offset: 0x1674CC4
     ::GlobalNamespace::DnsEndPoint* get_masterServerEndPoint();
     // public System.String get_multiplayerStatusUrl()
-    // Offset: 0x163E3BC
+    // Offset: 0x1674CCC
     ::StringW get_multiplayerStatusUrl();
     // public System.String get_quickPlaySetupUrl()
-    // Offset: 0x163E3C4
+    // Offset: 0x1674CD4
     ::StringW get_quickPlaySetupUrl();
     // public System.String get_graphUrl()
-    // Offset: 0x163E414
+    // Offset: 0x1674D24
     ::StringW get_graphUrl();
     // public System.String get_graphAccessToken()
-    // Offset: 0x163E41C
+    // Offset: 0x1674D2C
     ::StringW get_graphAccessToken();
     // public System.Boolean get_forceGameLift()
-    // Offset: 0x163E424
+    // Offset: 0x1674D34
     bool get_forceGameLift();
     // public ServiceEnvironment get_serviceEnvironment()
-    // Offset: 0x163E42C
+    // Offset: 0x1674D3C
     ::GlobalNamespace::ServiceEnvironment get_serviceEnvironment();
     // public System.Void .ctor(INetworkConfig fromNetworkConfig, System.String customServerHostName, System.Int32 port, System.Boolean forceGameLift)
-    // Offset: 0x163E434
+    // Offset: 0x1674D44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomNetworkConfig* New_ctor(::GlobalNamespace::INetworkConfig* fromNetworkConfig, ::StringW customServerHostName, int port, bool forceGameLift) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CustomNetworkConfig::.ctor");

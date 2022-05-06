@@ -140,20 +140,12 @@ namespace GlobalNamespace {
       // Set static field: static public MainMenuViewController/MenuButton HowToPlay
       static void _set_HowToPlay(::GlobalNamespace::MainMenuViewController::MenuButton value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // MainMenuViewController/MenuButton
     #pragma pack(pop)
     static check_size<sizeof(MainMenuViewController::MenuButton), 0 + sizeof(int)> __GlobalNamespace_MainMenuViewController_MenuButtonSizeCheck;
     static_assert(sizeof(MainMenuViewController::MenuButton) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Button _soloButton
     // Size: 0x8
     // Offset: 0x70
@@ -214,21 +206,21 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MusicPackPromoBanner* musicPackPromoBanner;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MusicPackPromoBanner*) == 0x8);
-    // [InjectAttribute] Offset: 0x125BEF4
+    // [InjectAttribute] Offset: 0x10E0AD8
     // private readonly DlcPromoPanelModel _dlcPromoPanelModel
     // Size: 0x8
     // Offset: 0xC0
     ::GlobalNamespace::DlcPromoPanelModel* dlcPromoPanelModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::DlcPromoPanelModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x125BF04
+    // [InjectAttribute] Offset: 0x10E0AE8
     // private readonly AppStaticSettingsSO _appStaticSettings
     // Size: 0x8
     // Offset: 0xC8
     ::GlobalNamespace::AppStaticSettingsSO* appStaticSettings;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AppStaticSettingsSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x125BF14
+    // [InjectAttribute] Offset: 0x10E0AF8
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0xD0
@@ -249,93 +241,86 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.UI.Button _soloButton
-    ::UnityEngine::UI::Button*& dyn__soloButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__soloButton();
     // Get instance field reference: private UnityEngine.UI.Button _partyButton
-    ::UnityEngine::UI::Button*& dyn__partyButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__partyButton();
     // Get instance field reference: private UnityEngine.UI.Button _campaignButton
-    ::UnityEngine::UI::Button*& dyn__campaignButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__campaignButton();
     // Get instance field reference: private UnityEngine.UI.Button _quitButton
-    ::UnityEngine::UI::Button*& dyn__quitButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__quitButton();
     // Get instance field reference: private UnityEngine.UI.Button _howToPlayButton
-    ::UnityEngine::UI::Button*& dyn__howToPlayButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__howToPlayButton();
     // Get instance field reference: private UnityEngine.UI.Button _beatmapEditorButton
-    ::UnityEngine::UI::Button*& dyn__beatmapEditorButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__beatmapEditorButton();
     // Get instance field reference: private UnityEngine.UI.Button _multiplayerButton
-    ::UnityEngine::UI::Button*& dyn__multiplayerButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__multiplayerButton();
     // Get instance field reference: private UnityEngine.UI.Button _optionsButton
-    ::UnityEngine::UI::Button*& dyn__optionsButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__optionsButton();
     // Get instance field reference: private UnityEngine.UI.Button _musicPackPromoButton
-    ::UnityEngine::UI::Button*& dyn__musicPackPromoButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__musicPackPromoButton();
     // Get instance field reference: private MusicPackPromoBanner _musicPackPromoBanner
-    ::GlobalNamespace::MusicPackPromoBanner*& dyn__musicPackPromoBanner();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MusicPackPromoBanner*& dyn__musicPackPromoBanner();
     // Get instance field reference: private readonly DlcPromoPanelModel _dlcPromoPanelModel
-    ::GlobalNamespace::DlcPromoPanelModel*& dyn__dlcPromoPanelModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DlcPromoPanelModel*& dyn__dlcPromoPanelModel();
     // Get instance field reference: private readonly AppStaticSettingsSO _appStaticSettings
-    ::GlobalNamespace::AppStaticSettingsSO*& dyn__appStaticSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AppStaticSettingsSO*& dyn__appStaticSettings();
     // Get instance field reference: private readonly IAnalyticsModel _analyticsModel
-    ::GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
     // Get instance field reference: private System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> didFinishEvent
-    ::System::Action_2<::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::MainMenuViewController::MenuButton>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::MainMenuViewController::MenuButton>*& dyn_didFinishEvent();
     // Get instance field reference: private System.Action`2<IBeatmapLevelPack,IPreviewBeatmapLevel> musicPackPromoButtonWasPressedEvent
-    ::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>*& dyn_musicPackPromoButtonWasPressedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>*& dyn_musicPackPromoButtonWasPressedEvent();
     // public System.Void add_didFinishEvent(System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> value)
-    // Offset: 0x1530210
+    // Offset: 0x1567B18
     void add_didFinishEvent(::System::Action_2<::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::MainMenuViewController::MenuButton>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> value)
-    // Offset: 0x1530984
+    // Offset: 0x156828C
     void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::MainMenuViewController::MenuButton>* value);
     // public System.Void add_musicPackPromoButtonWasPressedEvent(System.Action`2<IBeatmapLevelPack,IPreviewBeatmapLevel> value)
-    // Offset: 0x15302B4
+    // Offset: 0x1567BBC
     void add_musicPackPromoButtonWasPressedEvent(::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // public System.Void remove_musicPackPromoButtonWasPressedEvent(System.Action`2<IBeatmapLevelPack,IPreviewBeatmapLevel> value)
-    // Offset: 0x1530A28
+    // Offset: 0x1568330
     void remove_musicPackPromoButtonWasPressedEvent(::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
-    // private System.Void PackPromoButtonWasPressed()
-    // Offset: 0x15332C4
-    void PackPromoButtonWasPressed();
-    // private System.Void HandleMenuButton(MainMenuViewController/MenuButton menuButton)
-    // Offset: 0x1533370
-    void HandleMenuButton(::GlobalNamespace::MainMenuViewController::MenuButton menuButton);
-    // private System.Void <DidActivate>b__20_0()
-    // Offset: 0x1533500
-    void $DidActivate$b__20_0();
-    // private System.Void <DidActivate>b__20_1()
-    // Offset: 0x1533508
-    void $DidActivate$b__20_1();
-    // private System.Void <DidActivate>b__20_2()
-    // Offset: 0x1533510
-    void $DidActivate$b__20_2();
-    // private System.Void <DidActivate>b__20_3()
-    // Offset: 0x1533518
-    void $DidActivate$b__20_3();
-    // private System.Void <DidActivate>b__20_4()
-    // Offset: 0x1533520
-    void $DidActivate$b__20_4();
-    // private System.Void <DidActivate>b__20_5()
-    // Offset: 0x1533528
-    void $DidActivate$b__20_5();
-    // private System.Void <DidActivate>b__20_6()
-    // Offset: 0x1533530
-    void $DidActivate$b__20_6();
-    // private System.Void <DidActivate>b__20_7()
-    // Offset: 0x1533538
-    void $DidActivate$b__20_7();
     // public System.Void .ctor()
-    // Offset: 0x15334F8
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x156AE00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainMenuViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainMenuViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainMenuViewController*, creationType>()));
     }
+    // private System.Void PackPromoButtonWasPressed()
+    // Offset: 0x156ABCC
+    void PackPromoButtonWasPressed();
+    // private System.Void HandleMenuButton(MainMenuViewController/MenuButton menuButton)
+    // Offset: 0x156AC78
+    void HandleMenuButton(::GlobalNamespace::MainMenuViewController::MenuButton menuButton);
+    // private System.Void <DidActivate>b__20_0()
+    // Offset: 0x156AE08
+    void $DidActivate$b__20_0();
+    // private System.Void <DidActivate>b__20_1()
+    // Offset: 0x156AE10
+    void $DidActivate$b__20_1();
+    // private System.Void <DidActivate>b__20_2()
+    // Offset: 0x156AE18
+    void $DidActivate$b__20_2();
+    // private System.Void <DidActivate>b__20_3()
+    // Offset: 0x156AE20
+    void $DidActivate$b__20_3();
+    // private System.Void <DidActivate>b__20_4()
+    // Offset: 0x156AE28
+    void $DidActivate$b__20_4();
+    // private System.Void <DidActivate>b__20_5()
+    // Offset: 0x156AE30
+    void $DidActivate$b__20_5();
+    // private System.Void <DidActivate>b__20_6()
+    // Offset: 0x156AE38
+    void $DidActivate$b__20_6();
+    // private System.Void <DidActivate>b__20_7()
+    // Offset: 0x156AE40
+    void $DidActivate$b__20_7();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1532E58
+    // Offset: 0x156A760
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -383,6 +368,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "remove_musicPackPromoButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::PackPromoButtonWasPressed
 // Il2CppName: PackPromoButtonWasPressed
 template<>
@@ -464,10 +453,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "<DidActivate>b__20_7", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

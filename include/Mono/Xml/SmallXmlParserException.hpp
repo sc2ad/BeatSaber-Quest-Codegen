@@ -29,15 +29,7 @@ namespace Mono::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class SmallXmlParserException : public ::System::SystemException {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 line
     // Size: 0x4
     // Offset: 0x88
@@ -52,11 +44,11 @@ namespace Mono::Xml {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Int32 line
-    int& dyn_line();
+    [[deprecated("Use field access instead!")]] int& dyn_line();
     // Get instance field reference: private System.Int32 column
-    int& dyn_column();
+    [[deprecated("Use field access instead!")]] int& dyn_column();
     // public System.Void .ctor(System.String msg, System.Int32 line, System.Int32 column)
-    // Offset: 0x1F1E7EC
+    // Offset: 0x1F6AD24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SmallXmlParserException* New_ctor(::StringW msg, int line, int column) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Xml::SmallXmlParserException::.ctor");

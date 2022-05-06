@@ -45,15 +45,7 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class HoverTextSetter : public ::UnityEngine::MonoBehaviour/*, public ::UnityEngine::EventSystems::IPointerEnterHandler, public ::UnityEngine::EventSystems::IPointerExitHandler*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.HoverTextController _hoverTextController
     // Size: 0x8
     // Offset: 0x18
@@ -78,37 +70,31 @@ namespace HMUI {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.HoverTextController _hoverTextController
-    ::HMUI::HoverTextController*& dyn__hoverTextController();
+    [[deprecated("Use field access instead!")]] ::HMUI::HoverTextController*& dyn__hoverTextController();
     // Get instance field reference: private System.String _text
-    ::StringW& dyn__text();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__text();
     // public System.String get_text()
-    // Offset: 0x16ED6F4
+    // Offset: 0x1725004
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x16ED6FC
+    // Offset: 0x172500C
     void set_text(::StringW value);
-    // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x16ED704
-    void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
-    // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x16ED724
-    void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
-    // protected System.Void OnDisable()
-    // Offset: 0x16ED73C
-    void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x16ED754
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1725064
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HoverTextSetter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::HoverTextSetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HoverTextSetter*, creationType>()));
     }
+    // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
+    // Offset: 0x1725014
+    void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
+    // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
+    // Offset: 0x1725034
+    void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
+    // protected System.Void OnDisable()
+    // Offset: 0x172504C
+    void OnDisable();
   }; // HMUI.HoverTextSetter
   #pragma pack(pop)
   static check_size<sizeof(HoverTextSetter), 32 + sizeof(::StringW)> __HMUI_HoverTextSetterSizeCheck;
@@ -132,6 +118,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::HoverTextSetter*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: HMUI::HoverTextSetter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::HoverTextSetter::OnPointerEnter
 // Il2CppName: OnPointerEnter
 template<>
@@ -158,7 +148,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::HoverTextSetter*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HMUI::HoverTextSetter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

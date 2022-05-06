@@ -43,15 +43,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlParserContext : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Xml.XmlNameTable _nt
     // Size: 0x8
     // Offset: 0x10
@@ -116,67 +108,67 @@ namespace System::Xml {
     static_assert(sizeof(::System::Text::Encoding*) == 0x8);
     public:
     // Get instance field reference: private System.Xml.XmlNameTable _nt
-    ::System::Xml::XmlNameTable*& dyn__nt();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlNameTable*& dyn__nt();
     // Get instance field reference: private System.Xml.XmlNamespaceManager _nsMgr
-    ::System::Xml::XmlNamespaceManager*& dyn__nsMgr();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlNamespaceManager*& dyn__nsMgr();
     // Get instance field reference: private System.String _docTypeName
-    ::StringW& dyn__docTypeName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__docTypeName();
     // Get instance field reference: private System.String _pubId
-    ::StringW& dyn__pubId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__pubId();
     // Get instance field reference: private System.String _sysId
-    ::StringW& dyn__sysId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__sysId();
     // Get instance field reference: private System.String _internalSubset
-    ::StringW& dyn__internalSubset();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__internalSubset();
     // Get instance field reference: private System.String _xmlLang
-    ::StringW& dyn__xmlLang();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__xmlLang();
     // Get instance field reference: private System.Xml.XmlSpace _xmlSpace
-    ::System::Xml::XmlSpace& dyn__xmlSpace();
+    [[deprecated("Use field access instead!")]] ::System::Xml::XmlSpace& dyn__xmlSpace();
     // Get instance field reference: private System.String _baseURI
-    ::StringW& dyn__baseURI();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__baseURI();
     // Get instance field reference: private System.Text.Encoding _encoding
-    ::System::Text::Encoding*& dyn__encoding();
+    [[deprecated("Use field access instead!")]] ::System::Text::Encoding*& dyn__encoding();
     // public System.Xml.XmlNameTable get_NameTable()
-    // Offset: 0x15A57FC
+    // Offset: 0x15DB10C
     ::System::Xml::XmlNameTable* get_NameTable();
     // public System.Xml.XmlNamespaceManager get_NamespaceManager()
-    // Offset: 0x15A5804
+    // Offset: 0x15DB114
     ::System::Xml::XmlNamespaceManager* get_NamespaceManager();
     // public System.String get_DocTypeName()
-    // Offset: 0x15A580C
+    // Offset: 0x15DB11C
     ::StringW get_DocTypeName();
     // public System.String get_PublicId()
-    // Offset: 0x15A5814
+    // Offset: 0x15DB124
     ::StringW get_PublicId();
     // public System.String get_SystemId()
-    // Offset: 0x15A581C
+    // Offset: 0x15DB12C
     ::StringW get_SystemId();
     // public System.String get_BaseURI()
-    // Offset: 0x15A5824
+    // Offset: 0x15DB134
     ::StringW get_BaseURI();
     // public System.String get_InternalSubset()
-    // Offset: 0x15A582C
+    // Offset: 0x15DB13C
     ::StringW get_InternalSubset();
     // public System.String get_XmlLang()
-    // Offset: 0x15A5834
+    // Offset: 0x15DB144
     ::StringW get_XmlLang();
     // public System.Xml.XmlSpace get_XmlSpace()
-    // Offset: 0x15A583C
+    // Offset: 0x15DB14C
     ::System::Xml::XmlSpace get_XmlSpace();
     // public System.Text.Encoding get_Encoding()
-    // Offset: 0x15A5844
+    // Offset: 0x15DB154
     ::System::Text::Encoding* get_Encoding();
     // System.Boolean get_HasDtdInfo()
-    // Offset: 0x15A584C
+    // Offset: 0x15DB15C
     bool get_HasDtdInfo();
     // public System.Void .ctor(System.Xml.XmlNameTable nt, System.Xml.XmlNamespaceManager nsMgr, System.String docTypeName, System.String pubId, System.String sysId, System.String internalSubset, System.String baseURI, System.String xmlLang, System.Xml.XmlSpace xmlSpace)
-    // Offset: 0x159F348
+    // Offset: 0x15D4C58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlParserContext* New_ctor(::System::Xml::XmlNameTable* nt, ::System::Xml::XmlNamespaceManager* nsMgr, ::StringW docTypeName, ::StringW pubId, ::StringW sysId, ::StringW internalSubset, ::StringW baseURI, ::StringW xmlLang, ::System::Xml::XmlSpace xmlSpace) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlParserContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlParserContext*, creationType>(nt, nsMgr, docTypeName, pubId, sysId, internalSubset, baseURI, xmlLang, xmlSpace)));
     }
     // public System.Void .ctor(System.Xml.XmlNameTable nt, System.Xml.XmlNamespaceManager nsMgr, System.String docTypeName, System.String pubId, System.String sysId, System.String internalSubset, System.String baseURI, System.String xmlLang, System.Xml.XmlSpace xmlSpace, System.Text.Encoding enc)
-    // Offset: 0x15A5624
+    // Offset: 0x15DAF34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlParserContext* New_ctor(::System::Xml::XmlNameTable* nt, ::System::Xml::XmlNamespaceManager* nsMgr, ::StringW docTypeName, ::StringW pubId, ::StringW sysId, ::StringW internalSubset, ::StringW baseURI, ::StringW xmlLang, ::System::Xml::XmlSpace xmlSpace, ::System::Text::Encoding* enc) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlParserContext::.ctor");

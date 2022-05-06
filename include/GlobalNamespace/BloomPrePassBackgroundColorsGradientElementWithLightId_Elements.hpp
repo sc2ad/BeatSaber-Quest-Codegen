@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassBackgroundColorsGradientElementWithLightId::Elements : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 elementNumber
     // Size: 0x4
     // Offset: 0x10
@@ -52,15 +44,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public System.Int32 elementNumber
-    int& dyn_elementNumber();
+    [[deprecated("Use field access instead!")]] int& dyn_elementNumber();
     // Get instance field reference: public System.Single intensity
-    float& dyn_intensity();
+    [[deprecated("Use field access instead!")]] float& dyn_intensity();
     // Get instance field reference: public System.Single minIntensity
-    float& dyn_minIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn_minIntensity();
     // public System.Void .ctor()
-    // Offset: 0x2ACB820
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E74BE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassBackgroundColorsGradientElementWithLightId::Elements* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements::.ctor");

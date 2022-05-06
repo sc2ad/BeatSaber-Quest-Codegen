@@ -261,74 +261,74 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public MockPlayerGamePoseGeneratorAI <>4__this
-    ::GlobalNamespace::MockPlayerGamePoseGeneratorAI*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MockPlayerGamePoseGeneratorAI*& dyn_$$4__this();
     // Get instance field reference: public MockBeatmapData beatmapData
-    ::GlobalNamespace::MockBeatmapData*& dyn_beatmapData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MockBeatmapData*& dyn_beatmapData();
     // Get instance field reference: public System.Single introStartTime
-    float& dyn_introStartTime();
+    [[deprecated("Use field access instead!")]] float& dyn_introStartTime();
     // Get instance field reference: public GameplayModifiers gameplayModifiers
-    ::GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
-    ::System::Threading::CancellationToken& dyn_cancellationToken();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: public System.Action onSongFinished
-    ::System::Action*& dyn_onSongFinished();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_onSongFinished();
     // Get instance field reference: private System.Single <lastEventTime>5__2
-    float& dyn_$lastEventTime$5__2();
+    [[deprecated("Use field access instead!")]] float& dyn_$lastEventTime$5__2();
     // Get instance field reference: private UnityEngine.Pose <lastHeadPose>5__3
-    ::UnityEngine::Pose& dyn_$lastHeadPose$5__3();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Pose& dyn_$lastHeadPose$5__3();
     // Get instance field reference: private UnityEngine.Pose <lastLeftHandPose>5__4
-    ::UnityEngine::Pose& dyn_$lastLeftHandPose$5__4();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Pose& dyn_$lastLeftHandPose$5__4();
     // Get instance field reference: private UnityEngine.Pose <lastRightHandPose>5__5
-    ::UnityEngine::Pose& dyn_$lastRightHandPose$5__5();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Pose& dyn_$lastRightHandPose$5__5();
     // Get instance field reference: private System.Single <lastSongTime>5__6
-    float& dyn_$lastSongTime$5__6();
+    [[deprecated("Use field access instead!")]] float& dyn_$lastSongTime$5__6();
     // Get instance field reference: private System.Int32 <lineCount>5__7
-    int& dyn_$lineCount$5__7();
+    [[deprecated("Use field access instead!")]] int& dyn_$lineCount$5__7();
     // Get instance field reference: private MockNoteData[] <leftNotes>5__8
-    ::ArrayW<::GlobalNamespace::MockNoteData*>& dyn_$leftNotes$5__8();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MockNoteData*>& dyn_$leftNotes$5__8();
     // Get instance field reference: private MockNoteData[] <rightNotes>5__9
-    ::ArrayW<::GlobalNamespace::MockNoteData*>& dyn_$rightNotes$5__9();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MockNoteData*>& dyn_$rightNotes$5__9();
     // Get instance field reference: private MockNoteData[] <bombNotes>5__10
-    ::ArrayW<::GlobalNamespace::MockNoteData*>& dyn_$bombNotes$5__10();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MockNoteData*>& dyn_$bombNotes$5__10();
     // Get instance field reference: private MockObstacleData[] <obstacles>5__11
-    ::ArrayW<::GlobalNamespace::MockObstacleData*>& dyn_$obstacles$5__11();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MockObstacleData*>& dyn_$obstacles$5__11();
     // Get instance field reference: private System.Int32 <leftNoteIndex>5__12
-    int& dyn_$leftNoteIndex$5__12();
+    [[deprecated("Use field access instead!")]] int& dyn_$leftNoteIndex$5__12();
     // Get instance field reference: private System.Int32 <rightNoteIndex>5__13
-    int& dyn_$rightNoteIndex$5__13();
+    [[deprecated("Use field access instead!")]] int& dyn_$rightNoteIndex$5__13();
     // Get instance field reference: private System.Int32 <bombNoteIndex>5__14
-    int& dyn_$bombNoteIndex$5__14();
+    [[deprecated("Use field access instead!")]] int& dyn_$bombNoteIndex$5__14();
     // Get instance field reference: private System.Int32 <obstacleIndex>5__15
-    int& dyn_$obstacleIndex$5__15();
+    [[deprecated("Use field access instead!")]] int& dyn_$obstacleIndex$5__15();
     // Get instance field reference: private System.Int32 <prevLeftScore>5__16
-    int& dyn_$prevLeftScore$5__16();
+    [[deprecated("Use field access instead!")]] int& dyn_$prevLeftScore$5__16();
     // Get instance field reference: private System.Int32 <prevRightScore>5__17
-    int& dyn_$prevRightScore$5__17();
+    [[deprecated("Use field access instead!")]] int& dyn_$prevRightScore$5__17();
     // Get instance field reference: private System.Int32 <nextLeftHitScore>5__18
-    int& dyn_$nextLeftHitScore$5__18();
+    [[deprecated("Use field access instead!")]] int& dyn_$nextLeftHitScore$5__18();
     // Get instance field reference: private System.Int32 <nextRightHitScore>5__19
-    int& dyn_$nextRightHitScore$5__19();
+    [[deprecated("Use field access instead!")]] int& dyn_$nextRightHitScore$5__19();
     // Get instance field reference: private System.Int32 <score>5__20
-    int& dyn_$score$5__20();
+    [[deprecated("Use field access instead!")]] int& dyn_$score$5__20();
     // Get instance field reference: private System.Int32 <combo>5__21
-    int& dyn_$combo$5__21();
+    [[deprecated("Use field access instead!")]] int& dyn_$combo$5__21();
     // Get instance field reference: private System.Int32 <multiplier>5__22
-    int& dyn_$multiplier$5__22();
+    [[deprecated("Use field access instead!")]] int& dyn_$multiplier$5__22();
     // Get instance field reference: private System.Boolean <fullCombo>5__23
-    bool& dyn_$fullCombo$5__23();
+    [[deprecated("Use field access instead!")]] bool& dyn_$fullCombo$5__23();
     // Get instance field reference: private System.Boolean <hasFinishedLevel>5__24
-    bool& dyn_$hasFinishedLevel$5__24();
+    [[deprecated("Use field access instead!")]] bool& dyn_$hasFinishedLevel$5__24();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x2A54C44
+    // Offset: 0x2AAC02C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x2A55E60
+    // Offset: 0x2AAD248
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MockPlayerGamePoseGeneratorAI/<SendPoses>d__6
   #pragma pack(pop)

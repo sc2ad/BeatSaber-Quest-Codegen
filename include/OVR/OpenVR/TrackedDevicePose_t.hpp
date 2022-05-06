@@ -75,17 +75,17 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public OVR.OpenVR.HmdMatrix34_t mDeviceToAbsoluteTracking
-    ::OVR::OpenVR::HmdMatrix34_t& dyn_mDeviceToAbsoluteTracking();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::HmdMatrix34_t& dyn_mDeviceToAbsoluteTracking();
     // Get instance field reference: public OVR.OpenVR.HmdVector3_t vVelocity
-    ::OVR::OpenVR::HmdVector3_t& dyn_vVelocity();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::HmdVector3_t& dyn_vVelocity();
     // Get instance field reference: public OVR.OpenVR.HmdVector3_t vAngularVelocity
-    ::OVR::OpenVR::HmdVector3_t& dyn_vAngularVelocity();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::HmdVector3_t& dyn_vAngularVelocity();
     // Get instance field reference: public OVR.OpenVR.ETrackingResult eTrackingResult
-    ::OVR::OpenVR::ETrackingResult& dyn_eTrackingResult();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::ETrackingResult& dyn_eTrackingResult();
     // Get instance field reference: public System.Boolean bPoseIsValid
-    bool& dyn_bPoseIsValid();
+    [[deprecated("Use field access instead!")]] bool& dyn_bPoseIsValid();
     // Get instance field reference: public System.Boolean bDeviceIsConnected
-    bool& dyn_bDeviceIsConnected();
+    [[deprecated("Use field access instead!")]] bool& dyn_bDeviceIsConnected();
   }; // OVR.OpenVR.TrackedDevicePose_t
   #pragma pack(pop)
   static check_size<sizeof(TrackedDevicePose_t), 77 + sizeof(bool)> __OVR_OpenVR_TrackedDevicePose_tSizeCheck;

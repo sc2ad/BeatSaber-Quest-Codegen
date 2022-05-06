@@ -34,15 +34,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveData::LocalPlayer : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String playerId
     // Size: 0x8
     // Offset: 0x10
@@ -195,57 +187,55 @@ namespace GlobalNamespace {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String playerId
-    ::StringW& dyn_playerId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_playerId();
     // Get instance field reference: public System.String playerName
-    ::StringW& dyn_playerName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_playerName();
     // Get instance field reference: public System.Boolean shouldShowTutorialPrompt
-    bool& dyn_shouldShowTutorialPrompt();
+    [[deprecated("Use field access instead!")]] bool& dyn_shouldShowTutorialPrompt();
     // Get instance field reference: public System.Boolean shouldShow360Warning
-    bool& dyn_shouldShow360Warning();
+    [[deprecated("Use field access instead!")]] bool& dyn_shouldShow360Warning();
     // Get instance field reference: public System.Boolean agreedToEula
-    bool& dyn_agreedToEula();
+    [[deprecated("Use field access instead!")]] bool& dyn_agreedToEula();
     // Get instance field reference: public System.Boolean didSelectLanguage
-    bool& dyn_didSelectLanguage();
+    [[deprecated("Use field access instead!")]] bool& dyn_didSelectLanguage();
     // Get instance field reference: public System.Boolean agreedToMultiplayerDisclaimer
-    bool& dyn_agreedToMultiplayerDisclaimer();
+    [[deprecated("Use field access instead!")]] bool& dyn_agreedToMultiplayerDisclaimer();
     // Get instance field reference: public System.Boolean avatarCreated
-    bool& dyn_avatarCreated();
+    [[deprecated("Use field access instead!")]] bool& dyn_avatarCreated();
     // Get instance field reference: public PlayerSaveData/PlayerAgreementsData playerAgreements
-    ::GlobalNamespace::PlayerSaveData::PlayerAgreementsData*& dyn_playerAgreements();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSaveData::PlayerAgreementsData*& dyn_playerAgreements();
     // Get instance field reference: public BeatmapDifficulty lastSelectedBeatmapDifficulty
-    ::GlobalNamespace::BeatmapDifficulty& dyn_lastSelectedBeatmapDifficulty();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficulty& dyn_lastSelectedBeatmapDifficulty();
     // Get instance field reference: public System.String lastSelectedBeatmapCharacteristicName
-    ::StringW& dyn_lastSelectedBeatmapCharacteristicName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_lastSelectedBeatmapCharacteristicName();
     // Get instance field reference: public PlayerSaveData/GameplayModifiers gameplayModifiers
-    ::GlobalNamespace::PlayerSaveData::GameplayModifiers*& dyn_gameplayModifiers();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSaveData::GameplayModifiers*& dyn_gameplayModifiers();
     // Get instance field reference: public PlayerSaveData/PlayerSpecificSettings playerSpecificSettings
-    ::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings*& dyn_playerSpecificSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings*& dyn_playerSpecificSettings();
     // Get instance field reference: public PlayerSaveData/PracticeSettings practiceSettings
-    ::GlobalNamespace::PlayerSaveData::PracticeSettings*& dyn_practiceSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSaveData::PracticeSettings*& dyn_practiceSettings();
     // Get instance field reference: public PlayerSaveData/PlayerAllOverallStatsData playerAllOverallStatsData
-    ::GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData*& dyn_playerAllOverallStatsData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData*& dyn_playerAllOverallStatsData();
     // Get instance field reference: public System.Collections.Generic.List`1<PlayerSaveData/PlayerLevelStatsData> levelsStatsData
-    ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveData::PlayerLevelStatsData*>*& dyn_levelsStatsData();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveData::PlayerLevelStatsData*>*& dyn_levelsStatsData();
     // Get instance field reference: public System.Collections.Generic.List`1<PlayerSaveData/PlayerMissionStatsData> missionsStatsData
-    ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveData::PlayerMissionStatsData*>*& dyn_missionsStatsData();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveData::PlayerMissionStatsData*>*& dyn_missionsStatsData();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> showedMissionHelpIds
-    ::System::Collections::Generic::List_1<::StringW>*& dyn_showedMissionHelpIds();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn_showedMissionHelpIds();
     // Get instance field reference: public PlayerSaveData/ColorSchemesSettings colorSchemesSettings
-    ::GlobalNamespace::PlayerSaveData::ColorSchemesSettings*& dyn_colorSchemesSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSaveData::ColorSchemesSettings*& dyn_colorSchemesSettings();
     // Get instance field reference: public PlayerSaveData/OverrideEnvironmentSettings overrideEnvironmentSettings
-    ::GlobalNamespace::PlayerSaveData::OverrideEnvironmentSettings*& dyn_overrideEnvironmentSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSaveData::OverrideEnvironmentSettings*& dyn_overrideEnvironmentSettings();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> favoritesLevelIds
-    ::System::Collections::Generic::List_1<::StringW>*& dyn_favoritesLevelIds();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn_favoritesLevelIds();
     // Get instance field reference: public PlayerSaveData/MultiplayerModeSettings multiplayerModeSettings
-    ::GlobalNamespace::PlayerSaveData::MultiplayerModeSettings*& dyn_multiplayerModeSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSaveData::MultiplayerModeSettings*& dyn_multiplayerModeSettings();
     // Get instance field reference: public System.Int32 currentDlcPromoDisplayCount
-    int& dyn_currentDlcPromoDisplayCount();
+    [[deprecated("Use field access instead!")]] int& dyn_currentDlcPromoDisplayCount();
     // Get instance field reference: public System.String currentDlcPromoId
-    ::StringW& dyn_currentDlcPromoId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_currentDlcPromoId();
     // public System.Void .ctor()
-    // Offset: 0x1371594
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D4680
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::LocalPlayer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::LocalPlayer::.ctor");

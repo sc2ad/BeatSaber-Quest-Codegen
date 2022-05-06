@@ -98,23 +98,23 @@ namespace System::Net::NetworkInformation {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.String HostName
-    ::StringW& dyn_HostName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_HostName();
     // Get instance field reference: public System.String DomainName
-    ::StringW& dyn_DomainName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_DomainName();
     // Get instance field reference: public System.IntPtr CurrentDnsServer
-    ::System::IntPtr& dyn_CurrentDnsServer();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_CurrentDnsServer();
     // Get instance field reference: public System.Net.NetworkInformation.Win32_IP_ADDR_STRING DnsServerList
-    ::System::Net::NetworkInformation::Win32_IP_ADDR_STRING& dyn_DnsServerList();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::Win32_IP_ADDR_STRING& dyn_DnsServerList();
     // Get instance field reference: public System.Net.NetworkInformation.NetBiosNodeType NodeType
-    ::System::Net::NetworkInformation::NetBiosNodeType& dyn_NodeType();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::NetBiosNodeType& dyn_NodeType();
     // Get instance field reference: public System.String ScopeId
-    ::StringW& dyn_ScopeId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_ScopeId();
     // Get instance field reference: public System.UInt32 EnableRouting
-    uint& dyn_EnableRouting();
+    [[deprecated("Use field access instead!")]] uint& dyn_EnableRouting();
     // Get instance field reference: public System.UInt32 EnableProxy
-    uint& dyn_EnableProxy();
+    [[deprecated("Use field access instead!")]] uint& dyn_EnableProxy();
     // Get instance field reference: public System.UInt32 EnableDns
-    uint& dyn_EnableDns();
+    [[deprecated("Use field access instead!")]] uint& dyn_EnableDns();
   }; // System.Net.NetworkInformation.Win32_FIXED_INFO
   #pragma pack(pop)
   static check_size<sizeof(Win32_FIXED_INFO), 80 + sizeof(uint)> __System_Net_NetworkInformation_Win32_FIXED_INFOSizeCheck;

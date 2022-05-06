@@ -36,15 +36,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlCharacterData : public ::System::Xml::XmlLinkedNode {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String data
     // Size: 0x8
     // Offset: 0x20
@@ -53,40 +45,40 @@ namespace System::Xml {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String data
-    ::StringW& dyn_data();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_data();
     // public System.String get_Data()
-    // Offset: 0x1B7577C
+    // Offset: 0x1BAFD64
     ::StringW get_Data();
     // public System.Void set_Data(System.String value)
-    // Offset: 0x1B757D8
+    // Offset: 0x1BAFDC0
     void set_Data(::StringW value);
     // protected internal System.Void .ctor(System.String data, System.Xml.XmlDocument doc)
-    // Offset: 0x1B74C00
+    // Offset: 0x1BAF1E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlCharacterData* New_ctor(::StringW data, ::System::Xml::XmlDocument* doc) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlCharacterData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlCharacterData*, creationType>(data, doc)));
     }
     // System.Boolean CheckOnData(System.String data)
-    // Offset: 0x1B75888
+    // Offset: 0x1BAFE70
     bool CheckOnData(::StringW data);
     // public override System.String get_Value()
-    // Offset: 0x1B75744
+    // Offset: 0x1BAFD2C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_Value()
     ::StringW get_Value();
     // public override System.Void set_Value(System.String value)
-    // Offset: 0x1B75754
+    // Offset: 0x1BAFD3C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::set_Value(System.String value)
     void set_Value(::StringW value);
     // public override System.String get_InnerText()
-    // Offset: 0x1B75764
+    // Offset: 0x1BAFD4C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_InnerText()
     ::StringW get_InnerText();
     // public override System.Void set_InnerText(System.String value)
-    // Offset: 0x1B75770
+    // Offset: 0x1BAFD58
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::set_InnerText(System.String value)
     void set_InnerText(::StringW value);

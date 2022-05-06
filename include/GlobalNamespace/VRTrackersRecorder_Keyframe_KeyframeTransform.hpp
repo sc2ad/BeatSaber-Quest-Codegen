@@ -27,15 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRTrackersRecorder::Keyframe::KeyframeTransform : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Vector3 _pos
     // Size: 0xC
     // Offset: 0x10
@@ -56,15 +48,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public UnityEngine.Vector3 _pos
-    ::UnityEngine::Vector3& dyn__pos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__pos();
     // Get instance field reference: public UnityEngine.Quaternion _rot
-    ::UnityEngine::Quaternion& dyn__rot();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__rot();
     // Get instance field reference: public System.Boolean _valid
-    bool& dyn__valid();
+    [[deprecated("Use field access instead!")]] bool& dyn__valid();
     // public System.Void .ctor()
-    // Offset: 0x2AC1CA4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14A11FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRTrackersRecorder::Keyframe::KeyframeTransform* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform::.ctor");

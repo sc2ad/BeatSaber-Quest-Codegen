@@ -48,15 +48,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class RsaBlindedEngine : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Crypto.IRsa core
     // Size: 0x8
     // Offset: 0x10
@@ -81,45 +73,47 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(this);
     }
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IRsa core
-    ::Org::BouncyCastle::Crypto::IRsa*& dyn_core();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::IRsa*& dyn_core();
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters key
-    ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& dyn_key();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& dyn_key();
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
-    ::Org::BouncyCastle::Security::SecureRandom*& dyn_random();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Security::SecureRandom*& dyn_random();
+    // public System.Void .ctor()
+    // Offset: 0x240B30C
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static RsaBlindedEngine* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<RsaBlindedEngine*, creationType>()));
+    }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IRsa rsa)
-    // Offset: 0x23C2B0C
+    // Offset: 0x240B380
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsaBlindedEngine* New_ctor(::Org::BouncyCastle::Crypto::IRsa* rsa) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsaBlindedEngine*, creationType>(rsa)));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters param)
-    // Offset: 0x23C2B38
+    // Offset: 0x240B3AC
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* param);
     // public System.Int32 GetInputBlockSize()
-    // Offset: 0x23C2D60
+    // Offset: 0x240B5D4
     int GetInputBlockSize();
     // public System.Int32 GetOutputBlockSize()
-    // Offset: 0x23C2E14
+    // Offset: 0x240B688
     int GetOutputBlockSize();
     // public System.Byte[] ProcessBlock(System.Byte[] inBuf, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x23C2EC8
+    // Offset: 0x240B73C
     ::ArrayW<uint8_t> ProcessBlock(::ArrayW<uint8_t> inBuf, int inOff, int inLen);
-    // public System.Void .ctor()
-    // Offset: 0x23C2A98
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RsaBlindedEngine* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<RsaBlindedEngine*, creationType>()));
-    }
   }; // Org.BouncyCastle.Crypto.Engines.RsaBlindedEngine
   #pragma pack(pop)
   static check_size<sizeof(RsaBlindedEngine), 32 + sizeof(::Org::BouncyCastle::Security::SecureRandom*)> __Org_BouncyCastle_Crypto_Engines_RsaBlindedEngineSizeCheck;
   static_assert(sizeof(RsaBlindedEngine) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -161,7 +155,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine*), "ProcessBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inBuf, inOff, inLen});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

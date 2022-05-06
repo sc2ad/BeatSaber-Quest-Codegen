@@ -107,7 +107,7 @@ namespace GlobalNamespace {
       // Set static field: static public NoteData/GameplayType BurstSliderElementFill
       static void _set_BurstSliderElementFill(::GlobalNamespace::NoteData::GameplayType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // NoteData/GameplayType
     #pragma pack(pop)
     static check_size<sizeof(NoteData::GameplayType), 0 + sizeof(int)> __GlobalNamespace_NoteData_GameplayTypeSizeCheck;
@@ -179,20 +179,12 @@ namespace GlobalNamespace {
       // Set static field: static public NoteData/ScoringType BurstSliderElement
       static void _set_BurstSliderElement(::GlobalNamespace::NoteData::ScoringType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // NoteData/ScoringType
     #pragma pack(pop)
     static check_size<sizeof(NoteData::ScoringType), 0 + sizeof(int)> __GlobalNamespace_NoteData_ScoringTypeSizeCheck;
     static_assert(sizeof(NoteData::ScoringType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private NoteData/GameplayType <gameplayType>k__BackingField
     // Size: 0x4
     // Offset: 0x20
@@ -273,171 +265,171 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private NoteData/GameplayType <gameplayType>k__BackingField
-    ::GlobalNamespace::NoteData::GameplayType& dyn_$gameplayType$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteData::GameplayType& dyn_$gameplayType$k__BackingField();
     // Get instance field reference: private NoteData/ScoringType <scoringType>k__BackingField
-    ::GlobalNamespace::NoteData::ScoringType& dyn_$scoringType$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteData::ScoringType& dyn_$scoringType$k__BackingField();
     // Get instance field reference: private ColorType <colorType>k__BackingField
-    ::GlobalNamespace::ColorType& dyn_$colorType$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorType& dyn_$colorType$k__BackingField();
     // Get instance field reference: private NoteCutDirection <cutDirection>k__BackingField
-    ::GlobalNamespace::NoteCutDirection& dyn_$cutDirection$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutDirection& dyn_$cutDirection$k__BackingField();
     // Get instance field reference: private System.Single <timeToNextColorNote>k__BackingField
-    float& dyn_$timeToNextColorNote$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$timeToNextColorNote$k__BackingField();
     // Get instance field reference: private System.Single <timeToPrevColorNote>k__BackingField
-    float& dyn_$timeToPrevColorNote$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$timeToPrevColorNote$k__BackingField();
     // Get instance field reference: private System.Int32 <lineIndex>k__BackingField
-    int& dyn_$lineIndex$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$lineIndex$k__BackingField();
     // Get instance field reference: private NoteLineLayer <noteLineLayer>k__BackingField
-    ::GlobalNamespace::NoteLineLayer& dyn_$noteLineLayer$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteLineLayer& dyn_$noteLineLayer$k__BackingField();
     // Get instance field reference: private NoteLineLayer <beforeJumpNoteLineLayer>k__BackingField
-    ::GlobalNamespace::NoteLineLayer& dyn_$beforeJumpNoteLineLayer$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteLineLayer& dyn_$beforeJumpNoteLineLayer$k__BackingField();
     // Get instance field reference: private System.Int32 <flipLineIndex>k__BackingField
-    int& dyn_$flipLineIndex$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$flipLineIndex$k__BackingField();
     // Get instance field reference: private System.Single <flipYSide>k__BackingField
-    float& dyn_$flipYSide$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$flipYSide$k__BackingField();
     // Get instance field reference: private System.Single <cutDirectionAngleOffset>k__BackingField
-    float& dyn_$cutDirectionAngleOffset$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$cutDirectionAngleOffset$k__BackingField();
     // Get instance field reference: private System.Single <cutSfxVolumeMultiplier>k__BackingField
-    float& dyn_$cutSfxVolumeMultiplier$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$cutSfxVolumeMultiplier$k__BackingField();
     // public NoteData/GameplayType get_gameplayType()
-    // Offset: 0x281CD48
+    // Offset: 0x286F308
     ::GlobalNamespace::NoteData::GameplayType get_gameplayType();
     // private System.Void set_gameplayType(NoteData/GameplayType value)
-    // Offset: 0x281CD50
+    // Offset: 0x286F310
     void set_gameplayType(::GlobalNamespace::NoteData::GameplayType value);
     // public NoteData/ScoringType get_scoringType()
-    // Offset: 0x281CD58
+    // Offset: 0x286F318
     ::GlobalNamespace::NoteData::ScoringType get_scoringType();
     // private System.Void set_scoringType(NoteData/ScoringType value)
-    // Offset: 0x281CD60
+    // Offset: 0x286F320
     void set_scoringType(::GlobalNamespace::NoteData::ScoringType value);
     // public ColorType get_colorType()
-    // Offset: 0x281CD68
+    // Offset: 0x286F328
     ::GlobalNamespace::ColorType get_colorType();
     // private System.Void set_colorType(ColorType value)
-    // Offset: 0x281CD70
+    // Offset: 0x286F330
     void set_colorType(::GlobalNamespace::ColorType value);
     // public NoteCutDirection get_cutDirection()
-    // Offset: 0x281CD78
+    // Offset: 0x286F338
     ::GlobalNamespace::NoteCutDirection get_cutDirection();
     // private System.Void set_cutDirection(NoteCutDirection value)
-    // Offset: 0x281CD80
+    // Offset: 0x286F340
     void set_cutDirection(::GlobalNamespace::NoteCutDirection value);
     // public System.Single get_timeToNextColorNote()
-    // Offset: 0x281CD88
+    // Offset: 0x286F348
     float get_timeToNextColorNote();
     // public System.Void set_timeToNextColorNote(System.Single value)
-    // Offset: 0x281CD90
+    // Offset: 0x286F350
     void set_timeToNextColorNote(float value);
     // public System.Single get_timeToPrevColorNote()
-    // Offset: 0x281CD98
+    // Offset: 0x286F358
     float get_timeToPrevColorNote();
     // public System.Void set_timeToPrevColorNote(System.Single value)
-    // Offset: 0x281CDA0
+    // Offset: 0x286F360
     void set_timeToPrevColorNote(float value);
     // public System.Int32 get_lineIndex()
-    // Offset: 0x281CDA8
+    // Offset: 0x286F368
     int get_lineIndex();
     // private System.Void set_lineIndex(System.Int32 value)
-    // Offset: 0x281CDB0
+    // Offset: 0x286F370
     void set_lineIndex(int value);
     // public NoteLineLayer get_noteLineLayer()
-    // Offset: 0x281CDB8
+    // Offset: 0x286F378
     ::GlobalNamespace::NoteLineLayer get_noteLineLayer();
     // private System.Void set_noteLineLayer(NoteLineLayer value)
-    // Offset: 0x281CDC0
+    // Offset: 0x286F380
     void set_noteLineLayer(::GlobalNamespace::NoteLineLayer value);
     // public NoteLineLayer get_beforeJumpNoteLineLayer()
-    // Offset: 0x281CDC8
+    // Offset: 0x286F388
     ::GlobalNamespace::NoteLineLayer get_beforeJumpNoteLineLayer();
     // private System.Void set_beforeJumpNoteLineLayer(NoteLineLayer value)
-    // Offset: 0x281CDD0
+    // Offset: 0x286F390
     void set_beforeJumpNoteLineLayer(::GlobalNamespace::NoteLineLayer value);
     // public System.Int32 get_flipLineIndex()
-    // Offset: 0x281CDD8
+    // Offset: 0x286F398
     int get_flipLineIndex();
     // private System.Void set_flipLineIndex(System.Int32 value)
-    // Offset: 0x281CDE0
+    // Offset: 0x286F3A0
     void set_flipLineIndex(int value);
     // public System.Single get_flipYSide()
-    // Offset: 0x281CDE8
+    // Offset: 0x286F3A8
     float get_flipYSide();
     // private System.Void set_flipYSide(System.Single value)
-    // Offset: 0x281CDF0
+    // Offset: 0x286F3B0
     void set_flipYSide(float value);
     // public System.Single get_cutDirectionAngleOffset()
-    // Offset: 0x281CDF8
+    // Offset: 0x286F3B8
     float get_cutDirectionAngleOffset();
     // private System.Void set_cutDirectionAngleOffset(System.Single value)
-    // Offset: 0x281CE00
+    // Offset: 0x286F3C0
     void set_cutDirectionAngleOffset(float value);
     // public System.Single get_cutSfxVolumeMultiplier()
-    // Offset: 0x281CE08
+    // Offset: 0x286F3C8
     float get_cutSfxVolumeMultiplier();
     // private System.Void set_cutSfxVolumeMultiplier(System.Single value)
-    // Offset: 0x281CE10
+    // Offset: 0x286F3D0
     void set_cutSfxVolumeMultiplier(float value);
     // protected System.Void .ctor(System.Single time, System.Int32 lineIndex, NoteLineLayer noteLineLayer, NoteLineLayer beforeJumpNoteLineLayer, NoteData/GameplayType gameplayType, NoteData/ScoringType scoringType, ColorType colorType, NoteCutDirection cutDirection, System.Single timeToNextColorNote, System.Single timeToPrevColorNote, System.Int32 flipLineIndex, System.Single flipYSide, System.Single cutDirectionAngleOffset, System.Single cutSfxVolumeMultiplier)
-    // Offset: 0x281CEDC
+    // Offset: 0x286F49C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteData* New_ctor(float time, int lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer, ::GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer, ::GlobalNamespace::NoteData::GameplayType gameplayType, ::GlobalNamespace::NoteData::ScoringType scoringType, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteCutDirection cutDirection, float timeToNextColorNote, float timeToPrevColorNote, int flipLineIndex, float flipYSide, float cutDirectionAngleOffset, float cutSfxVolumeMultiplier) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteData*, creationType>(time, lineIndex, noteLineLayer, beforeJumpNoteLineLayer, gameplayType, scoringType, colorType, cutDirection, timeToNextColorNote, timeToPrevColorNote, flipLineIndex, flipYSide, cutDirectionAngleOffset, cutSfxVolumeMultiplier)));
     }
     // static public NoteData CreateBombNoteData(System.Single time, System.Int32 lineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x281CFA0
+    // Offset: 0x286F560
     static ::GlobalNamespace::NoteData* CreateBombNoteData(float time, int lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
     // static public NoteData CreateBasicNoteData(System.Single time, System.Int32 lineIndex, NoteLineLayer noteLineLayer, ColorType colorType, NoteCutDirection cutDirection)
-    // Offset: 0x281D054
+    // Offset: 0x286F614
     static ::GlobalNamespace::NoteData* CreateBasicNoteData(float time, int lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteCutDirection cutDirection);
     // static public NoteData CreateBurstSliderNoteData(System.Single time, System.Int32 lineIndex, NoteLineLayer noteLineLayer, NoteLineLayer beforeJumpNoteLineLayer, ColorType colorType, NoteCutDirection cutDirection, System.Single cutSfxVolumeMultiplier)
-    // Offset: 0x281D114
+    // Offset: 0x286F6D4
     static ::GlobalNamespace::NoteData* CreateBurstSliderNoteData(float time, int lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer, ::GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteCutDirection cutDirection, float cutSfxVolumeMultiplier);
     // public NoteData CopyWith(System.Nullable`1<System.Single> time, System.Nullable`1<System.Int32> lineIndex, System.Nullable`1<NoteLineLayer> noteLineLayer, System.Nullable`1<NoteLineLayer> beforeJumpNoteLineLayer, System.Nullable`1<NoteData/GameplayType> gameplayType, System.Nullable`1<NoteData/ScoringType> scoringType, System.Nullable`1<ColorType> colorType, System.Nullable`1<NoteCutDirection> cutDirection, System.Nullable`1<System.Single> timeToNextColorNote, System.Nullable`1<System.Single> timeToPrevColorNote, System.Nullable`1<System.Int32> flipLineIndex, System.Nullable`1<System.Single> flipYSide, System.Nullable`1<System.Single> cutDirectionAngleOffset, System.Nullable`1<System.Single> cutSfxVolumeMultiplier)
-    // Offset: 0x281D1E0
+    // Offset: 0x286F7A0
     ::GlobalNamespace::NoteData* CopyWith(::System::Nullable_1<float> time, ::System::Nullable_1<int> lineIndex, ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> noteLineLayer, ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> beforeJumpNoteLineLayer, ::System::Nullable_1<::GlobalNamespace::NoteData::GameplayType> gameplayType, ::System::Nullable_1<::GlobalNamespace::NoteData::ScoringType> scoringType, ::System::Nullable_1<::GlobalNamespace::ColorType> colorType, ::System::Nullable_1<::GlobalNamespace::NoteCutDirection> cutDirection, ::System::Nullable_1<float> timeToNextColorNote, ::System::Nullable_1<float> timeToPrevColorNote, ::System::Nullable_1<int> flipLineIndex, ::System::Nullable_1<float> flipYSide, ::System::Nullable_1<float> cutDirectionAngleOffset, ::System::Nullable_1<float> cutSfxVolumeMultiplier);
     // public System.Void SetBeforeJumpNoteLineLayer(NoteLineLayer lineLayer)
-    // Offset: 0x2817D58
+    // Offset: 0x286A318
     void SetBeforeJumpNoteLineLayer(::GlobalNamespace::NoteLineLayer lineLayer);
     // public System.Void ChangeToBurstSliderHead()
-    // Offset: 0x2817DB8
+    // Offset: 0x286A378
     void ChangeToBurstSliderHead();
     // public System.Void ChangeToGameNote()
-    // Offset: 0x281D3B0
+    // Offset: 0x286F970
     void ChangeToGameNote();
     // public System.Void ChangeToSliderHead()
-    // Offset: 0x2817F34
+    // Offset: 0x286A4F4
     void ChangeToSliderHead();
     // public System.Void ChangeToSliderTail()
-    // Offset: 0x2817F98
+    // Offset: 0x286A558
     void ChangeToSliderTail();
     // public System.Void SetNoteFlipToNote(NoteData targetNote)
-    // Offset: 0x2818564
+    // Offset: 0x286AB24
     void SetNoteFlipToNote(::GlobalNamespace::NoteData* targetNote);
     // public System.Void SetCutDirectionAngleOffset(System.Single cutDirectionAngleOffset)
-    // Offset: 0x2817F20
+    // Offset: 0x286A4E0
     void SetCutDirectionAngleOffset(float cutDirectionAngleOffset);
     // public System.Void ResetNoteFlip()
-    // Offset: 0x281D3C0
+    // Offset: 0x286F980
     void ResetNoteFlip();
     // public System.Void SetNoteToAnyCutDirection()
-    // Offset: 0x281D430
+    // Offset: 0x286F9F0
     void SetNoteToAnyCutDirection();
     // public System.Void ChangeNoteCutDirection(NoteCutDirection newCutDirection)
-    // Offset: 0x281D43C
+    // Offset: 0x286F9FC
     void ChangeNoteCutDirection(::GlobalNamespace::NoteCutDirection newCutDirection);
     // public System.Void TransformNoteAOrBToRandomType()
-    // Offset: 0x281D444
+    // Offset: 0x286FA04
     void TransformNoteAOrBToRandomType();
     // static public System.Int32 SubtypeIdentifier(ColorType colorType)
-    // Offset: 0x281CF9C
+    // Offset: 0x286F55C
     static int SubtypeIdentifier(::GlobalNamespace::ColorType colorType);
     // public override BeatmapDataItem GetCopy()
-    // Offset: 0x281CE18
+    // Offset: 0x286F3D8
     // Implemented from: BeatmapDataItem
     // Base method: BeatmapDataItem BeatmapDataItem::GetCopy()
     ::GlobalNamespace::BeatmapDataItem* GetCopy();
     // public override System.Void Mirror(System.Int32 lineCount)
-    // Offset: 0x281D3CC
+    // Offset: 0x286F98C
     // Implemented from: BeatmapObjectData
     // Base method: System.Void BeatmapObjectData::Mirror(System.Int32 lineCount)
     void Mirror(int lineCount);

@@ -42,15 +42,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MenuPlayerController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private VRController _leftController
     // Size: 0x8
     // Offset: 0x18
@@ -73,31 +65,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private VRController _leftController
-    ::GlobalNamespace::VRController*& dyn__leftController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VRController*& dyn__leftController();
     // Get instance field reference: private VRController _rightController
-    ::GlobalNamespace::VRController*& dyn__rightController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VRController*& dyn__rightController();
     // Get instance field reference: private UnityEngine.Transform _headTransform
-    ::UnityEngine::Transform*& dyn__headTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__headTransform();
     // public VRController get_leftController()
-    // Offset: 0x12FF368
+    // Offset: 0x12FB840
     ::GlobalNamespace::VRController* get_leftController();
     // public VRController get_rightController()
-    // Offset: 0x12FF370
+    // Offset: 0x12FB848
     ::GlobalNamespace::VRController* get_rightController();
     // public UnityEngine.Vector3 get_headPos()
-    // Offset: 0x12FF378
+    // Offset: 0x12FB850
     ::UnityEngine::Vector3 get_headPos();
     // public UnityEngine.Quaternion get_headRot()
-    // Offset: 0x12FF394
+    // Offset: 0x12FB86C
     ::UnityEngine::Quaternion get_headRot();
     // public System.Void .ctor()
-    // Offset: 0x12FF3B0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x12FB888
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuPlayerController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuPlayerController::.ctor");

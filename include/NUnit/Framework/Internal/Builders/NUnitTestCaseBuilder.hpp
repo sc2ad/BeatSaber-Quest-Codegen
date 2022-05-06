@@ -47,15 +47,7 @@ namespace NUnit::Framework::Internal::Builders {
   // [TokenAttribute] Offset: FFFFFFFF
   class NUnitTestCaseBuilder : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly NUnit.Framework.Internal.Randomizer _randomizer
     // Size: 0x8
     // Offset: 0x10
@@ -70,33 +62,35 @@ namespace NUnit::Framework::Internal::Builders {
     static_assert(sizeof(::NUnit::Framework::Internal::TestNameGenerator*) == 0x8);
     public:
     // Get instance field reference: private readonly NUnit.Framework.Internal.Randomizer _randomizer
-    ::NUnit::Framework::Internal::Randomizer*& dyn__randomizer();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::Randomizer*& dyn__randomizer();
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestNameGenerator _nameGenerator
-    ::NUnit::Framework::Internal::TestNameGenerator*& dyn__nameGenerator();
-    // public NUnit.Framework.Internal.TestMethod BuildTestMethod(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite, NUnit.Framework.Internal.TestCaseParameters parms)
-    // Offset: 0x1C3A82C
-    ::NUnit::Framework::Internal::TestMethod* BuildTestMethod(::NUnit::Framework::Interfaces::IMethodInfo* method, ::NUnit::Framework::Internal::Test* parentSuite, ::NUnit::Framework::Internal::TestCaseParameters* parms);
-    // static private System.Boolean CheckTestMethodSignature(NUnit.Framework.Internal.TestMethod testMethod, NUnit.Framework.Internal.TestCaseParameters parms)
-    // Offset: 0x1C4A4E4
-    static bool CheckTestMethodSignature(::NUnit::Framework::Internal::TestMethod* testMethod, ::NUnit::Framework::Internal::TestCaseParameters* parms);
-    // static private System.Boolean MarkAsNotRunnable(NUnit.Framework.Internal.TestMethod testMethod, System.String reason)
-    // Offset: 0x1C4ACF0
-    static bool MarkAsNotRunnable(::NUnit::Framework::Internal::TestMethod* testMethod, ::StringW reason);
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::TestNameGenerator*& dyn__nameGenerator();
     // public System.Void .ctor()
-    // Offset: 0x1C3A0F8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C92690
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NUnitTestCaseBuilder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NUnitTestCaseBuilder*, creationType>()));
     }
+    // public NUnit.Framework.Internal.TestMethod BuildTestMethod(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite, NUnit.Framework.Internal.TestCaseParameters parms)
+    // Offset: 0x1C92DC4
+    ::NUnit::Framework::Internal::TestMethod* BuildTestMethod(::NUnit::Framework::Interfaces::IMethodInfo* method, ::NUnit::Framework::Internal::Test* parentSuite, ::NUnit::Framework::Internal::TestCaseParameters* parms);
+    // static private System.Boolean CheckTestMethodSignature(NUnit.Framework.Internal.TestMethod testMethod, NUnit.Framework.Internal.TestCaseParameters parms)
+    // Offset: 0x1CA2A7C
+    static bool CheckTestMethodSignature(::NUnit::Framework::Internal::TestMethod* testMethod, ::NUnit::Framework::Internal::TestCaseParameters* parms);
+    // static private System.Boolean MarkAsNotRunnable(NUnit.Framework.Internal.TestMethod testMethod, System.String reason)
+    // Offset: 0x1CA3288
+    static bool MarkAsNotRunnable(::NUnit::Framework::Internal::TestMethod* testMethod, ::StringW reason);
   }; // NUnit.Framework.Internal.Builders.NUnitTestCaseBuilder
   #pragma pack(pop)
   static check_size<sizeof(NUnitTestCaseBuilder), 24 + sizeof(::NUnit::Framework::Internal::TestNameGenerator*)> __NUnit_Framework_Internal_Builders_NUnitTestCaseBuilderSizeCheck;
   static_assert(sizeof(NUnitTestCaseBuilder) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::BuildTestMethod
 // Il2CppName: BuildTestMethod
 template<>
@@ -128,7 +122,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*), "MarkAsNotRunnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{testMethod, reason});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

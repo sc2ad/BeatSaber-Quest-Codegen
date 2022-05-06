@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LevelParamsPanel : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _notesPerSecondText
     // Size: 0x8
     // Offset: 0x18
@@ -72,33 +64,27 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _notesPerSecondText
-    ::TMPro::TextMeshProUGUI*& dyn__notesPerSecondText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__notesPerSecondText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _notesCountText
-    ::TMPro::TextMeshProUGUI*& dyn__notesCountText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__notesCountText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _obstaclesCountText
-    ::TMPro::TextMeshProUGUI*& dyn__obstaclesCountText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__obstaclesCountText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _bombsCountText
-    ::TMPro::TextMeshProUGUI*& dyn__bombsCountText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__bombsCountText();
     // public System.Void set_notesPerSecond(System.Single value)
-    // Offset: 0x14872A0
+    // Offset: 0x14BDB20
     void set_notesPerSecond(float value);
     // public System.Void set_notesCount(System.Int32 value)
-    // Offset: 0x1487320
+    // Offset: 0x14BDBA0
     void set_notesCount(int value);
     // public System.Void set_obstaclesCount(System.Int32 value)
-    // Offset: 0x1487364
+    // Offset: 0x14BDBE4
     void set_obstaclesCount(int value);
     // public System.Void set_bombsCount(System.Int32 value)
-    // Offset: 0x14873A8
+    // Offset: 0x14BDC28
     void set_bombsCount(int value);
     // public System.Void .ctor()
-    // Offset: 0x14873EC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14BDC6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelParamsPanel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelParamsPanel::.ctor");

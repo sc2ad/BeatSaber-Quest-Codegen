@@ -31,15 +31,7 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class PinnedBufferMemoryStream : public ::System::IO::UnmanagedMemoryStream {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Byte[] _array
     // Size: 0x8
     // Offset: 0x68
@@ -54,23 +46,23 @@ namespace System::IO {
     static_assert(sizeof(::System::Runtime::InteropServices::GCHandle) == 0x4);
     public:
     // Get instance field reference: private System.Byte[] _array
-    ::ArrayW<uint8_t>& dyn__array();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__array();
     // Get instance field reference: private System.Runtime.InteropServices.GCHandle _pinningHandle
-    ::System::Runtime::InteropServices::GCHandle& dyn__pinningHandle();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::InteropServices::GCHandle& dyn__pinningHandle();
     // System.Void .ctor(System.Byte[] array)
-    // Offset: 0x1F6C32C
+    // Offset: 0x1FB8BA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PinnedBufferMemoryStream* New_ctor(::ArrayW<uint8_t> array) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::PinnedBufferMemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PinnedBufferMemoryStream*, creationType>(array)));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1F6C410
+    // Offset: 0x1FB8C84
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1F6C488
+    // Offset: 0x1FB8CFC
     // Implemented from: System.IO.UnmanagedMemoryStream
     // Base method: System.Void UnmanagedMemoryStream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);

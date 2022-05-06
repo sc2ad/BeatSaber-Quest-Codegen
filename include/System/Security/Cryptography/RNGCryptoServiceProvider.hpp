@@ -31,15 +31,7 @@ namespace System::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class RNGCryptoServiceProvider : public ::System::Security::Cryptography::RandomNumberGenerator {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.IntPtr _handle
     // Size: 0x8
     // Offset: 0x10
@@ -56,27 +48,27 @@ namespace System::Security::Cryptography {
     // Set static field: static private System.Object _lock
     static void _set__lock(::Il2CppObject* value);
     // Get instance field reference: private System.IntPtr _handle
-    ::System::IntPtr& dyn__handle();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn__handle();
     // static private System.Void .cctor()
-    // Offset: 0x2079BEC
+    // Offset: 0x20C3460
     static void _cctor();
     // private System.Void Check()
-    // Offset: 0x2079CEC
+    // Offset: 0x20C3560
     void Check();
     // static private System.Boolean RngOpen()
-    // Offset: 0x2079C60
+    // Offset: 0x20C34D4
     static bool RngOpen();
     // static private System.IntPtr RngInitialize(System.Byte[] seed)
-    // Offset: 0x2079CE8
+    // Offset: 0x20C355C
     static ::System::IntPtr RngInitialize(::ArrayW<uint8_t> seed);
     // static private System.IntPtr RngGetBytes(System.IntPtr handle, System.Byte[] data)
-    // Offset: 0x2079D90
+    // Offset: 0x20C3604
     static ::System::IntPtr RngGetBytes(::System::IntPtr handle, ::ArrayW<uint8_t> data);
     // static private System.Void RngClose(System.IntPtr handle)
-    // Offset: 0x2079D94
+    // Offset: 0x20C3608
     static void RngClose(::System::IntPtr handle);
     // public System.Void .ctor()
-    // Offset: 0x2079C64
+    // Offset: 0x20C34D8
     // Implemented from: System.Security.Cryptography.RandomNumberGenerator
     // Base method: System.Void RandomNumberGenerator::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -86,17 +78,17 @@ namespace System::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<RNGCryptoServiceProvider*, creationType>()));
     }
     // public override System.Void GetBytes(System.Byte[] data)
-    // Offset: 0x2079D98
+    // Offset: 0x20C360C
     // Implemented from: System.Security.Cryptography.RandomNumberGenerator
     // Base method: System.Void RandomNumberGenerator::GetBytes(System.Byte[] data)
     void GetBytes(::ArrayW<uint8_t> data);
     // protected override System.Void Finalize()
-    // Offset: 0x2079F3C
+    // Offset: 0x20C37B0
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x207A00C
+    // Offset: 0x20C3880
     // Implemented from: System.Security.Cryptography.RandomNumberGenerator
     // Base method: System.Void RandomNumberGenerator::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);

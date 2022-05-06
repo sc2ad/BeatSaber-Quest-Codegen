@@ -27,15 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRControllersRecorder::Keyframe : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Vector3 _pos1
     // Size: 0xC
     // Offset: 0x10
@@ -80,23 +72,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public UnityEngine.Vector3 _pos1
-    ::UnityEngine::Vector3& dyn__pos1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__pos1();
     // Get instance field reference: public UnityEngine.Vector3 _pos2
-    ::UnityEngine::Vector3& dyn__pos2();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__pos2();
     // Get instance field reference: public UnityEngine.Vector3 _pos3
-    ::UnityEngine::Vector3& dyn__pos3();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__pos3();
     // Get instance field reference: public UnityEngine.Quaternion _rot1
-    ::UnityEngine::Quaternion& dyn__rot1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__rot1();
     // Get instance field reference: public UnityEngine.Quaternion _rot2
-    ::UnityEngine::Quaternion& dyn__rot2();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__rot2();
     // Get instance field reference: public UnityEngine.Quaternion _rot3
-    ::UnityEngine::Quaternion& dyn__rot3();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__rot3();
     // Get instance field reference: public System.Single _time
-    float& dyn__time();
+    [[deprecated("Use field access instead!")]] float& dyn__time();
     // public System.Void .ctor()
-    // Offset: 0x2ABE930
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x149DE88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorder::Keyframe* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRControllersRecorder::Keyframe::.ctor");

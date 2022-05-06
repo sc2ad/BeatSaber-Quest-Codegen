@@ -35,15 +35,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509Extension : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Boolean critical
     // Size: 0x1
     // Offset: 0x10
@@ -60,32 +52,32 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static_assert(sizeof(::Org::BouncyCastle::Asn1::Asn1OctetString*) == 0x8);
     public:
     // Get instance field reference: System.Boolean critical
-    bool& dyn_critical();
+    [[deprecated("Use field access instead!")]] bool& dyn_critical();
     // Get instance field reference: Org.BouncyCastle.Asn1.Asn1OctetString value
-    ::Org::BouncyCastle::Asn1::Asn1OctetString*& dyn_value();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1OctetString*& dyn_value();
     // public System.Boolean get_IsCritical()
-    // Offset: 0x1ECB4DC
+    // Offset: 0x1F18A14
     bool get_IsCritical();
     // public Org.BouncyCastle.Asn1.Asn1OctetString get_Value()
-    // Offset: 0x1ECB4E4
+    // Offset: 0x1F18A1C
     ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Value();
     // public System.Void .ctor(System.Boolean critical, Org.BouncyCastle.Asn1.Asn1OctetString value)
-    // Offset: 0x1ECB49C
+    // Offset: 0x1F189D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extension* New_ctor(bool critical, ::Org::BouncyCastle::Asn1::Asn1OctetString* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(critical, value)));
     }
     // static public Org.BouncyCastle.Asn1.Asn1Object ConvertValueToObject(Org.BouncyCastle.Asn1.X509.X509Extension ext)
-    // Offset: 0x1EC4654
+    // Offset: 0x1F11B8C
     static ::Org::BouncyCastle::Asn1::Asn1Object* ConvertValueToObject(::Org::BouncyCastle::Asn1::X509::X509Extension* ext);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1ECB4EC
+    // Offset: 0x1F18A24
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1ECB528
+    // Offset: 0x1F18A60
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

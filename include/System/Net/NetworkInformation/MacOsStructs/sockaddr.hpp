@@ -45,9 +45,9 @@ namespace System::Net::NetworkInformation::MacOsStructs {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Byte sa_len
-    uint8_t& dyn_sa_len();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_sa_len();
     // Get instance field reference: public System.Byte sa_family
-    uint8_t& dyn_sa_family();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_sa_family();
   }; // System.Net.NetworkInformation.MacOsStructs.sockaddr
   #pragma pack(pop)
   static check_size<sizeof(sockaddr), 1 + sizeof(uint8_t)> __System_Net_NetworkInformation_MacOsStructs_sockaddrSizeCheck;

@@ -117,7 +117,7 @@ namespace GlobalNamespace {
     // Set static field: static public PyramidBloomRendererSO/Pass UpsampleTentAndACESToneMapping
     static void _set_UpsampleTentAndACESToneMapping(::GlobalNamespace::PyramidBloomRendererSO::Pass value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // PyramidBloomRendererSO/Pass
   #pragma pack(pop)
   static check_size<sizeof(PyramidBloomRendererSO::Pass), 0 + sizeof(int)> __GlobalNamespace_PyramidBloomRendererSO_PassSizeCheck;

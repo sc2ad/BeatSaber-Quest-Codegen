@@ -29,25 +29,27 @@ namespace System::ComponentModel {
     operator ::System::Collections::IEqualityComparer() noexcept {
       return *reinterpret_cast<::System::Collections::IEqualityComparer*>(this);
     }
-    // private System.Boolean System.Collections.IEqualityComparer.Equals(System.Object x, System.Object y)
-    // Offset: 0x1CA5A5C
-    bool System_Collections_IEqualityComparer_Equals(::Il2CppObject* x, ::Il2CppObject* y);
-    // private System.Int32 System.Collections.IEqualityComparer.GetHashCode(System.Object obj)
-    // Offset: 0x1CA5BC0
-    int System_Collections_IEqualityComparer_GetHashCode(::Il2CppObject* obj);
     // public System.Void .ctor()
-    // Offset: 0x1CA5A54
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1CE1FAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WeakHashtable::WeakKeyComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::WeakHashtable::WeakKeyComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WeakHashtable::WeakKeyComparer*, creationType>()));
     }
+    // private System.Boolean System.Collections.IEqualityComparer.Equals(System.Object x, System.Object y)
+    // Offset: 0x1CE1FB4
+    bool System_Collections_IEqualityComparer_Equals(::Il2CppObject* x, ::Il2CppObject* y);
+    // private System.Int32 System.Collections.IEqualityComparer.GetHashCode(System.Object obj)
+    // Offset: 0x1CE2118
+    int System_Collections_IEqualityComparer_GetHashCode(::Il2CppObject* obj);
   }; // System.ComponentModel.WeakHashtable/System.ComponentModel.WeakKeyComparer
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::ComponentModel::WeakHashtable::WeakKeyComparer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::ComponentModel::WeakHashtable::WeakKeyComparer::System_Collections_IEqualityComparer_Equals
 // Il2CppName: System.Collections.IEqualityComparer.Equals
 template<>
@@ -67,7 +69,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::WeakHashtable::WeakKeyComparer*), "System.Collections.IEqualityComparer.GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
-// Writing MetadataGetter for method: System::ComponentModel::WeakHashtable::WeakKeyComparer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

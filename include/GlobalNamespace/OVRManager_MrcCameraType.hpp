@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRManager/MrcCameraType Background
     static void _set_Background(::GlobalNamespace::OVRManager_MrcCameraType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVRManager/MrcCameraType
   #pragma pack(pop)
   static check_size<sizeof(OVRManager_MrcCameraType), 0 + sizeof(int)> __GlobalNamespace_OVRManager_MrcCameraTypeSizeCheck;

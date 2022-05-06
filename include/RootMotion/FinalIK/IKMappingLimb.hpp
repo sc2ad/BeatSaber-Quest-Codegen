@@ -47,15 +47,7 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: ::RootMotion::FinalIK::IKMappingLimb::BoneMapType
     struct BoneMapType;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Transform parentBone
     // Size: 0x8
     // Offset: 0x10
@@ -80,14 +72,14 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Transform* bone3;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [RangeAttribute] Offset: 0x1274440
+    // [RangeAttribute] Offset: 0x10F90F8
     // public System.Single maintainRotationWeight
     // Size: 0x4
     // Offset: 0x30
     float maintainRotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x1274458
+    // [RangeAttribute] Offset: 0x10F9110
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x34
@@ -128,72 +120,71 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::RootMotion::FinalIK::IKMapping::BoneMap*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.Transform parentBone
-    ::UnityEngine::Transform*& dyn_parentBone();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_parentBone();
     // Get instance field reference: public UnityEngine.Transform bone1
-    ::UnityEngine::Transform*& dyn_bone1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_bone1();
     // Get instance field reference: public UnityEngine.Transform bone2
-    ::UnityEngine::Transform*& dyn_bone2();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_bone2();
     // Get instance field reference: public UnityEngine.Transform bone3
-    ::UnityEngine::Transform*& dyn_bone3();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_bone3();
     // Get instance field reference: public System.Single maintainRotationWeight
-    float& dyn_maintainRotationWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_maintainRotationWeight();
     // Get instance field reference: public System.Single weight
-    float& dyn_weight();
+    [[deprecated("Use field access instead!")]] float& dyn_weight();
     // Get instance field reference: public System.Boolean updatePlaneRotations
-    bool& dyn_updatePlaneRotations();
+    [[deprecated("Use field access instead!")]] bool& dyn_updatePlaneRotations();
     // Get instance field reference: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap boneMapParent
-    ::RootMotion::FinalIK::IKMapping::BoneMap*& dyn_boneMapParent();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKMapping::BoneMap*& dyn_boneMapParent();
     // Get instance field reference: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap boneMap1
-    ::RootMotion::FinalIK::IKMapping::BoneMap*& dyn_boneMap1();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKMapping::BoneMap*& dyn_boneMap1();
     // Get instance field reference: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap boneMap2
-    ::RootMotion::FinalIK::IKMapping::BoneMap*& dyn_boneMap2();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKMapping::BoneMap*& dyn_boneMap2();
     // Get instance field reference: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap boneMap3
-    ::RootMotion::FinalIK::IKMapping::BoneMap*& dyn_boneMap3();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKMapping::BoneMap*& dyn_boneMap3();
     // public System.Void .ctor(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3, UnityEngine.Transform parentBone)
-    // Offset: 0x21DB388
+    // Offset: 0x2228BFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKMappingLimb* New_ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Transform* parentBone) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKMappingLimb::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKMappingLimb*, creationType>(bone1, bone2, bone3, parentBone)));
     }
     // public RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap GetBoneMap(RootMotion.FinalIK.IKMappingLimb/RootMotion.FinalIK.BoneMapType boneMap)
-    // Offset: 0x21DAE58
+    // Offset: 0x22286CC
     ::RootMotion::FinalIK::IKMapping::BoneMap* GetBoneMap(::RootMotion::FinalIK::IKMappingLimb::BoneMapType boneMap);
     // public System.Void SetLimbOrientation(UnityEngine.Vector3 upper, UnityEngine.Vector3 lower)
-    // Offset: 0x21DAF2C
+    // Offset: 0x22287A0
     void SetLimbOrientation(::UnityEngine::Vector3 upper, ::UnityEngine::Vector3 lower);
     // public System.Void SetBones(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3, UnityEngine.Transform parentBone)
-    // Offset: 0x21DB4BC
+    // Offset: 0x2228D30
     void SetBones(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Transform* parentBone);
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x21DB4C8
+    // Offset: 0x2228D3C
     void StoreDefaultLocalState();
     // public System.Void FixTransforms()
-    // Offset: 0x21DB570
+    // Offset: 0x2228DE4
     void FixTransforms();
     // public System.Void ReadPose()
-    // Offset: 0x21DB898
+    // Offset: 0x222910C
     void ReadPose();
     // public System.Void WritePose(RootMotion.FinalIK.IKSolverFullBody solver, System.Boolean fullBody)
-    // Offset: 0x21DB950
+    // Offset: 0x22291C4
     void WritePose(::RootMotion::FinalIK::IKSolverFullBody* solver, bool fullBody);
     // public System.Void .ctor()
-    // Offset: 0x21DB280
+    // Offset: 0x2228AF4
     // Implemented from: RootMotion.FinalIK.IKMapping
     // Base method: System.Void IKMapping::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKMappingLimb* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKMappingLimb::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKMappingLimb*, creationType>()));
     }
     // public override System.Boolean IsValid(RootMotion.FinalIK.IKSolver solver, ref System.String message)
-    // Offset: 0x21DADD4
+    // Offset: 0x2228648
     // Implemented from: RootMotion.FinalIK.IKMapping
     // Base method: System.Boolean IKMapping::IsValid(RootMotion.FinalIK.IKSolver solver, ref System.String message)
     bool IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message);
     // public override System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x21DB628
+    // Offset: 0x2228E9C
     // Implemented from: RootMotion.FinalIK.IKMapping
     // Base method: System.Void IKMapping::Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
     void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);

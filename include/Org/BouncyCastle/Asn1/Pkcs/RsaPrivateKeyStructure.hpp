@@ -42,15 +42,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   // [TokenAttribute] Offset: FFFFFFFF
   class RsaPrivateKeyStructure : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Math.BigInteger modulus
     // Size: 0x8
     // Offset: 0x10
@@ -101,57 +93,57 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     static_assert(sizeof(::Org::BouncyCastle::Math::BigInteger*) == 0x8);
     public:
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger modulus
-    ::Org::BouncyCastle::Math::BigInteger*& dyn_modulus();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_modulus();
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger publicExponent
-    ::Org::BouncyCastle::Math::BigInteger*& dyn_publicExponent();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_publicExponent();
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger privateExponent
-    ::Org::BouncyCastle::Math::BigInteger*& dyn_privateExponent();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_privateExponent();
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger prime1
-    ::Org::BouncyCastle::Math::BigInteger*& dyn_prime1();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_prime1();
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger prime2
-    ::Org::BouncyCastle::Math::BigInteger*& dyn_prime2();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_prime2();
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger exponent1
-    ::Org::BouncyCastle::Math::BigInteger*& dyn_exponent1();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_exponent1();
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger exponent2
-    ::Org::BouncyCastle::Math::BigInteger*& dyn_exponent2();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_exponent2();
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger coefficient
-    ::Org::BouncyCastle::Math::BigInteger*& dyn_coefficient();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_coefficient();
     // public Org.BouncyCastle.Math.BigInteger get_Modulus()
-    // Offset: 0x1C941A8
+    // Offset: 0x1CD0700
     ::Org::BouncyCastle::Math::BigInteger* get_Modulus();
     // public Org.BouncyCastle.Math.BigInteger get_PublicExponent()
-    // Offset: 0x1C941B0
+    // Offset: 0x1CD0708
     ::Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
     // public Org.BouncyCastle.Math.BigInteger get_PrivateExponent()
-    // Offset: 0x1C941B8
+    // Offset: 0x1CD0710
     ::Org::BouncyCastle::Math::BigInteger* get_PrivateExponent();
     // public Org.BouncyCastle.Math.BigInteger get_Prime1()
-    // Offset: 0x1C941C0
+    // Offset: 0x1CD0718
     ::Org::BouncyCastle::Math::BigInteger* get_Prime1();
     // public Org.BouncyCastle.Math.BigInteger get_Prime2()
-    // Offset: 0x1C941C8
+    // Offset: 0x1CD0720
     ::Org::BouncyCastle::Math::BigInteger* get_Prime2();
     // public Org.BouncyCastle.Math.BigInteger get_Exponent1()
-    // Offset: 0x1C941D0
+    // Offset: 0x1CD0728
     ::Org::BouncyCastle::Math::BigInteger* get_Exponent1();
     // public Org.BouncyCastle.Math.BigInteger get_Exponent2()
-    // Offset: 0x1C941D8
+    // Offset: 0x1CD0730
     ::Org::BouncyCastle::Math::BigInteger* get_Exponent2();
     // public Org.BouncyCastle.Math.BigInteger get_Coefficient()
-    // Offset: 0x1C941E0
+    // Offset: 0x1CD0738
     ::Org::BouncyCastle::Math::BigInteger* get_Coefficient();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1C93E24
+    // Offset: 0x1CD037C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsaPrivateKeyStructure* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsaPrivateKeyStructure*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.Pkcs.RsaPrivateKeyStructure GetInstance(System.Object obj)
-    // Offset: 0x1C93D80
+    // Offset: 0x1CD02D8
     static ::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1C941E8
+    // Offset: 0x1CD0740
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

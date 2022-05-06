@@ -106,15 +106,7 @@ namespace BGNet::Core::Messages {
     struct $GetPreMasterSecretAsync$d__24;
     // Nested type: ::BGNet::Core::Messages::BaseServerUnconnectedMessageHandler::$RotateServerKeysAsync$d__26
     struct $RotateServerKeysAsync$d__26;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly ICertificateEncryptionProvider _certificateEncryptionProvider
     // Size: 0x8
     // Offset: 0x80
@@ -177,78 +169,78 @@ namespace BGNet::Core::Messages {
     // Set static field: static private System.Int64 kServerKeyExpirationLength
     static void _set_kServerKeyExpirationLength(int64_t value);
     // Get instance field reference: private readonly ICertificateEncryptionProvider _certificateEncryptionProvider
-    ::GlobalNamespace::ICertificateEncryptionProvider*& dyn__certificateEncryptionProvider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ICertificateEncryptionProvider*& dyn__certificateEncryptionProvider();
     // Get instance field reference: private readonly System.Byte[][] _certificateChain
-    ::ArrayW<::ArrayW<uint8_t>>& dyn__certificateChain();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::ArrayW<uint8_t>>& dyn__certificateChain();
     // Get instance field reference: private readonly LiteNetLib.Utils.NetDataWriter _cookieWriter
-    ::LiteNetLib::Utils::NetDataWriter*& dyn__cookieWriter();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::Utils::NetDataWriter*& dyn__cookieWriter();
     // Get instance field reference: private readonly LiteNetLib.Utils.NetDataWriter _signatureWriter
-    ::LiteNetLib::Utils::NetDataWriter*& dyn__signatureWriter();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::Utils::NetDataWriter*& dyn__signatureWriter();
     // Get instance field reference: private readonly IAsyncComputeManager _asyncCompute
-    ::GlobalNamespace::IAsyncComputeManager*& dyn__asyncCompute();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAsyncComputeManager*& dyn__asyncCompute();
     // Get instance field reference: private System.Int64 _lastServerKeyPairRequestTime
-    int64_t& dyn__lastServerKeyPairRequestTime();
+    [[deprecated("Use field access instead!")]] int64_t& dyn__lastServerKeyPairRequestTime();
     // Get instance field reference: private IDiffieHellmanKeyPair _serverKeys
-    ::GlobalNamespace::IDiffieHellmanKeyPair*& dyn__serverKeys();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IDiffieHellmanKeyPair*& dyn__serverKeys();
     // Get instance field reference: private System.Threading.Tasks.Task _serverKeyRotationTask
-    ::System::Threading::Tasks::Task*& dyn__serverKeyRotationTask();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::Task*& dyn__serverKeyRotationTask();
     // Get instance field reference: private readonly System.Byte[] _hmacKey
-    ::ArrayW<uint8_t>& dyn__hmacKey();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__hmacKey();
     // public System.Void .ctor(IUnconnectedMessageSender sender, BGNet.Core.ITimeProvider timeProvider, IAsyncComputeManager asyncCompute, BGNet.Core.IAnalyticsManager analytics, ICertificateEncryptionProvider certificateEncryptionProvider, System.Collections.Generic.IEnumerable`1<System.Security.Cryptography.X509Certificates.X509Certificate2> certificateList)
-    // Offset: 0x14FA264
+    // Offset: 0x1531B6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseServerUnconnectedMessageHandler* New_ctor(::GlobalNamespace::IUnconnectedMessageSender* sender, ::BGNet::Core::ITimeProvider* timeProvider, ::GlobalNamespace::IAsyncComputeManager* asyncCompute, ::BGNet::Core::IAnalyticsManager* analytics, ::GlobalNamespace::ICertificateEncryptionProvider* certificateEncryptionProvider, ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>* certificateList) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::BaseServerUnconnectedMessageHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseServerUnconnectedMessageHandler*, creationType>(sender, timeProvider, asyncCompute, analytics, certificateEncryptionProvider, certificateList)));
     }
     // private System.Void RegisterHandshakeMessageHandlers()
-    // Offset: 0x14FA518
+    // Offset: 0x1531E20
     void RegisterHandshakeMessageHandlers();
     // protected System.Void HandleClientHelloRequest(BGNet.Core.Messages.ClientHelloRequest packet, BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin origin)
-    // Offset: 0x14FB1B8
+    // Offset: 0x1532AC0
     void HandleClientHelloRequest(::BGNet::Core::Messages::ClientHelloRequest* packet, ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin origin);
     // protected System.Void HandleClientHelloWithCookieRequest(BGNet.Core.Messages.ClientHelloWithCookieRequest packet, BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin origin)
-    // Offset: 0x14FB4EC
+    // Offset: 0x1532DF4
     void HandleClientHelloWithCookieRequest(::BGNet::Core::Messages::ClientHelloWithCookieRequest* packet, ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin origin);
     // private System.Void StartServerAuthenticationFlow(System.UInt32 protocolVersion, System.Net.IPEndPoint endPoint, System.UInt32 requestId, System.UInt32 certificateResponseId, System.Byte[] clientRandom)
-    // Offset: 0x14FB538
+    // Offset: 0x1532E40
     void StartServerAuthenticationFlow(uint protocolVersion, ::System::Net::IPEndPoint* endPoint, uint requestId, uint certificateResponseId, ::ArrayW<uint8_t> clientRandom);
     // protected System.Threading.Tasks.Task VerifyAuthenticationRequest(System.UInt32 protocolVersion, System.Net.IPEndPoint endPoint, BGNet.Core.Messages.IUnconnectedAuthenticateRequest authenticateRequest)
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task* VerifyAuthenticationRequest(uint protocolVersion, ::System::Net::IPEndPoint* endPoint, ::BGNet::Core::Messages::IUnconnectedAuthenticateRequest* authenticateRequest);
     // private System.Threading.Tasks.Task StartServerAuthenticationFlowAsync(System.UInt32 protocolVersion, System.Net.IPEndPoint endPoint, System.UInt32 requestId, System.UInt32 certificateResponseId, System.Byte[] clientRandom)
-    // Offset: 0x14FB62C
+    // Offset: 0x1532F34
     ::System::Threading::Tasks::Task* StartServerAuthenticationFlowAsync(uint protocolVersion, ::System::Net::IPEndPoint* endPoint, uint requestId, uint certificateResponseId, ::ArrayW<uint8_t> clientRandom);
     // private System.Byte[] GetCookie(System.Net.IPEndPoint endPoint, System.Byte[] random)
-    // Offset: 0x14FAFB4
+    // Offset: 0x15328BC
     ::ArrayW<uint8_t> GetCookie(::System::Net::IPEndPoint* endPoint, ::ArrayW<uint8_t> random);
     // private System.Threading.Tasks.Task`1<System.Byte[]> GetSignatureAsync(System.Byte[] clientRandom, System.Byte[] serverRandom, System.Byte[] serverKey)
-    // Offset: 0x14FB76C
+    // Offset: 0x1533074
     ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* GetSignatureAsync(::ArrayW<uint8_t> clientRandom, ::ArrayW<uint8_t> serverRandom, ::ArrayW<uint8_t> serverKey);
     // private System.Threading.Tasks.Task`1<System.Byte[]> GetPreMasterSecretAsync(IDiffieHellmanKeyPair serverKeys, System.Byte[] clientKey)
-    // Offset: 0x14FB894
+    // Offset: 0x153319C
     ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* GetPreMasterSecretAsync(::GlobalNamespace::IDiffieHellmanKeyPair* serverKeys, ::ArrayW<uint8_t> clientKey);
     // private System.Void RotateServerKeys()
-    // Offset: 0x14FAD10
+    // Offset: 0x1532618
     void RotateServerKeys();
     // private System.Threading.Tasks.Task RotateServerKeysAsync()
-    // Offset: 0x14FB9AC
+    // Offset: 0x15332B4
     ::System::Threading::Tasks::Task* RotateServerKeysAsync();
     // private System.Void HandshakeLog(System.String message)
-    // Offset: 0x14FBA9C
+    // Offset: 0x15333A4
     void HandshakeLog(::StringW message);
     // public override System.Void PollUpdate()
-    // Offset: 0x14FAC50
+    // Offset: 0x1532558
     // Implemented from: BGNet.Core.Messages.UnconnectedMessageHandler
     // Base method: System.Void UnconnectedMessageHandler::PollUpdate()
     void PollUpdate();
     // protected override System.UInt32 GetMessageType(BGNet.Core.Messages.IUnconnectedMessage message)
-    // Offset: 0x14FAE3C
+    // Offset: 0x1532744
     // Implemented from: BGNet.Core.Messages.UnconnectedMessageHandler
     // Base method: System.UInt32 UnconnectedMessageHandler::GetMessageType(BGNet.Core.Messages.IUnconnectedMessage message)
     uint GetMessageType(::BGNet::Core::Messages::IUnconnectedMessage* message);
     // protected override System.Boolean ShouldHandleMessage(BGNet.Core.Messages.IUnconnectedMessage packet, BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin origin)
-    // Offset: 0x14FAEA4
+    // Offset: 0x15327AC
     // Implemented from: BGNet.Core.Messages.UnconnectedMessageHandler
     // Base method: System.Boolean UnconnectedMessageHandler::ShouldHandleMessage(BGNet.Core.Messages.IUnconnectedMessage packet, BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin origin)
     bool ShouldHandleMessage(::BGNet::Core::Messages::IUnconnectedMessage* packet, ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin origin);

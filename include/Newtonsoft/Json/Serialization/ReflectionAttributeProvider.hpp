@@ -29,15 +29,7 @@ namespace Newtonsoft::Json::Serialization {
   // [PreserveAttribute] Offset: FFFFFFFF
   class ReflectionAttributeProvider : public ::Il2CppObject/*, public ::Newtonsoft::Json::Serialization::IAttributeProvider*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Object _attributeProvider
     // Size: 0x8
     // Offset: 0x10
@@ -54,9 +46,9 @@ namespace Newtonsoft::Json::Serialization {
       return attributeProvider;
     }
     // Get instance field reference: private readonly System.Object _attributeProvider
-    ::Il2CppObject*& dyn__attributeProvider();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__attributeProvider();
     // public System.Void .ctor(System.Object attributeProvider)
-    // Offset: 0x203BA70
+    // Offset: 0x20852E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionAttributeProvider* New_ctor(::Il2CppObject* attributeProvider) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::ReflectionAttributeProvider::.ctor");

@@ -40,15 +40,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MaterialLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.MeshRenderer _meshRenderer
     // Size: 0x8
     // Offset: 0x48
@@ -61,14 +53,14 @@ namespace GlobalNamespace {
     bool setAlphaOnly;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [DrawIfAttribute] Offset: 0x1238D50
+    // [DrawIfAttribute] Offset: 0x10BD818
     // private System.Boolean _alphaIntoColor
     // Size: 0x1
     // Offset: 0x51
     bool alphaIntoColor;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [DrawIfAttribute] Offset: 0x1238DF4
+    // [DrawIfAttribute] Offset: 0x10BD8BC
     // private System.Boolean _setColorOnly
     // Size: 0x1
     // Offset: 0x52
@@ -102,54 +94,47 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1238EA8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BD970
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static ::UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
     // Get instance field reference: private UnityEngine.MeshRenderer _meshRenderer
-    ::UnityEngine::MeshRenderer*& dyn__meshRenderer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MeshRenderer*& dyn__meshRenderer();
     // Get instance field reference: private System.Boolean _setAlphaOnly
-    bool& dyn__setAlphaOnly();
+    [[deprecated("Use field access instead!")]] bool& dyn__setAlphaOnly();
     // Get instance field reference: private System.Boolean _alphaIntoColor
-    bool& dyn__alphaIntoColor();
+    [[deprecated("Use field access instead!")]] bool& dyn__alphaIntoColor();
     // Get instance field reference: private System.Boolean _setColorOnly
-    bool& dyn__setColorOnly();
+    [[deprecated("Use field access instead!")]] bool& dyn__setColorOnly();
     // Get instance field reference: private System.String _colorProperty
-    ::StringW& dyn__colorProperty();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__colorProperty();
     // Get instance field reference: private UnityEngine.Color _color
-    ::UnityEngine::Color& dyn__color();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // Get instance field reference: private System.Single _alpha
-    float& dyn__alpha();
+    [[deprecated("Use field access instead!")]] float& dyn__alpha();
     // Get instance field reference: private System.Int32 _propertyId
-    int& dyn__propertyId();
+    [[deprecated("Use field access instead!")]] int& dyn__propertyId();
+    // static private System.Void .cctor()
+    // Offset: 0x1E7E818
+    static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2AD53A0
+    // Offset: 0x1E7E7B0
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::.ctor()
     // Base method: System.Void LightWithIds::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MaterialLightWithIds* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MaterialLightWithIds::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MaterialLightWithIds*, creationType>()));
     }
-    // static private System.Void .cctor()
-    // Offset: 0x2AD5408
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
-    static void _cctor();
     // protected override System.Void Awake()
-    // Offset: 0x2AD5130
+    // Offset: 0x1E7E540
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::Awake()
     void Awake();
     // protected override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x2AD51FC
+    // Offset: 0x1E7E60C
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);
@@ -159,10 +144,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MaterialLightWithIds) == 0x78);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::MaterialLightWithIds::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MaterialLightWithIds::_cctor
 // Il2CppName: .cctor
 template<>
@@ -171,6 +152,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialLightWithIds*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MaterialLightWithIds::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MaterialLightWithIds::Awake
 // Il2CppName: Awake
 template<>

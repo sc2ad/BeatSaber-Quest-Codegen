@@ -39,15 +39,7 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x29 to desired offset: 0x30
     char ___base_padding[0x7] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MaterialPropertyBlockColorSetter _materialPropertyBlockColorSetter
     // Size: 0x8
     // Offset: 0x30
@@ -62,14 +54,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: setColorOnly and: intensity
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x123866C
+    // [DrawIfAttribute] Offset: 0x10BD124
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x3C
     float intensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0x1238710
+    // [DrawIfAttribute] Offset: 0x10BD1C8
     // private System.Single _minAlpha
     // Size: 0x4
     // Offset: 0x40
@@ -90,33 +82,28 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private MaterialPropertyBlockColorSetter _materialPropertyBlockColorSetter
-    ::GlobalNamespace::MaterialPropertyBlockColorSetter*& dyn__materialPropertyBlockColorSetter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MaterialPropertyBlockColorSetter*& dyn__materialPropertyBlockColorSetter();
     // Get instance field reference: private System.Boolean _setColorOnly
-    bool& dyn__setColorOnly();
+    [[deprecated("Use field access instead!")]] bool& dyn__setColorOnly();
     // Get instance field reference: private System.Single _intensity
-    float& dyn__intensity();
+    [[deprecated("Use field access instead!")]] float& dyn__intensity();
     // Get instance field reference: private System.Single _minAlpha
-    float& dyn__minAlpha();
+    [[deprecated("Use field access instead!")]] float& dyn__minAlpha();
     // Get instance field reference: private UnityEngine.Color _color
-    ::UnityEngine::Color& dyn__color();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // Get instance field reference: private System.Boolean _startColorWasSet
-    bool& dyn__startColorWasSet();
+    [[deprecated("Use field access instead!")]] bool& dyn__startColorWasSet();
     // public System.Void .ctor()
-    // Offset: 0x2ACFE30
+    // Offset: 0x1E791F8
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InstancedMaterialLightWithId* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::InstancedMaterialLightWithId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InstancedMaterialLightWithId*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color newColor)
-    // Offset: 0x2ACFD3C
+    // Offset: 0x1E79104
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color newColor)
     void ColorWasSet(::UnityEngine::Color newColor);

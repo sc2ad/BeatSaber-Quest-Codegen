@@ -38,15 +38,7 @@ namespace Mono::Security::Interface {
   // [TokenAttribute] Offset: FFFFFFFF
   class TlsException : public ::System::Exception {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Mono.Security.Interface.Alert alert
     // Size: 0x8
     // Offset: 0x88
@@ -59,16 +51,16 @@ namespace Mono::Security::Interface {
       return alert;
     }
     // Get instance field reference: private Mono.Security.Interface.Alert alert
-    ::Mono::Security::Interface::Alert*& dyn_alert();
+    [[deprecated("Use field access instead!")]] ::Mono::Security::Interface::Alert*& dyn_alert();
     // public System.Void .ctor(Mono.Security.Interface.Alert alert, System.String message)
-    // Offset: 0x22FCCC0
+    // Offset: 0x2346534
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TlsException* New_ctor(::Mono::Security::Interface::Alert* alert, ::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Interface::TlsException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TlsException*, creationType>(alert, message)));
     }
     // public System.Void .ctor(Mono.Security.Interface.AlertDescription description, System.String message)
-    // Offset: 0x22FCD44
+    // Offset: 0x23465B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TlsException* New_ctor(::Mono::Security::Interface::AlertDescription description, ::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Interface::TlsException::.ctor");

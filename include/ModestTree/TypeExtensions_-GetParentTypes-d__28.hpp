@@ -39,15 +39,7 @@ namespace ModestTree {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TypeExtensions::$GetParentTypes$d__28 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerable_1<::System::Type*>, public ::System::Collections::Generic::IEnumerator_1<::System::Type*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -98,47 +90,47 @@ namespace ModestTree {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::System::Type*>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Type <>2__current
-    ::System::Type*& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_$$2__current();
     // Get instance field reference: private System.Int32 <>l__initialThreadId
-    int& dyn_$$l__initialThreadId();
+    [[deprecated("Use field access instead!")]] int& dyn_$$l__initialThreadId();
     // Get instance field reference: private System.Type type
-    ::System::Type*& dyn_type();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_type();
     // Get instance field reference: public System.Type <>3__type
-    ::System::Type*& dyn_$$3__type();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_$$3__type();
     // Get instance field reference: private System.Collections.Generic.IEnumerator`1<System.Type> <>7__wrap1
-    ::System::Collections::Generic::IEnumerator_1<::System::Type*>*& dyn_$$7__wrap1();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IEnumerator_1<::System::Type*>*& dyn_$$7__wrap1();
     // private System.Type System.Collections.Generic.IEnumerator<System.Type>.get_Current()
-    // Offset: 0x172D254
+    // Offset: 0x1765B64
     ::System::Type* System_Collections_Generic_IEnumerator$System_Type$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x172D2BC
+    // Offset: 0x1765BCC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x172C408
+    // Offset: 0x1764D18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeExtensions::$GetParentTypes$d__28* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::TypeExtensions::$GetParentTypes$d__28::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeExtensions::$GetParentTypes$d__28*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x172CCC4
+    // Offset: 0x17655D4
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x172CDA0
+    // Offset: 0x17656B0
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x172CCE0
+    // Offset: 0x17655F0
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x172D25C
+    // Offset: 0x1765B6C
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.Type> System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator()
-    // Offset: 0x172D2C4
+    // Offset: 0x1765BD4
     ::System::Collections::Generic::IEnumerator_1<::System::Type*>* System_Collections_Generic_IEnumerable$System_Type$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x172D370
+    // Offset: 0x1765C80
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // ModestTree.TypeExtensions/ModestTree.<GetParentTypes>d__28
   #pragma pack(pop)

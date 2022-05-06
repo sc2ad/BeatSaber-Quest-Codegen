@@ -44,15 +44,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HealthCheckService : public ::Il2CppObject/*, public ::GlobalNamespace::IHealthCheckService*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Int32 _port
     // Size: 0x4
     // Offset: 0x10
@@ -99,30 +91,30 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kTimeoutLengthMs
     static void _set_kTimeoutLengthMs(int value);
     // Get instance field reference: private readonly System.Int32 _port
-    int& dyn__port();
+    [[deprecated("Use field access instead!")]] int& dyn__port();
     // Get instance field reference: private readonly System.Threading.Thread _runThread
-    ::System::Threading::Thread*& dyn__runThread();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Thread*& dyn__runThread();
     // Get instance field reference: private System.Boolean _disposed
-    bool& dyn__disposed();
+    [[deprecated("Use field access instead!")]] bool& dyn__disposed();
     // Get instance field reference: private System.Threading.ManualResetEvent _manualResetEvent
-    ::System::Threading::ManualResetEvent*& dyn__manualResetEvent();
+    [[deprecated("Use field access instead!")]] ::System::Threading::ManualResetEvent*& dyn__manualResetEvent();
     // Get instance field reference: private System.Net.HttpListener _listener
-    ::System::Net::HttpListener*& dyn__listener();
+    [[deprecated("Use field access instead!")]] ::System::Net::HttpListener*& dyn__listener();
     // public System.Void .ctor(System.Int32 port)
-    // Offset: 0x16489CC
+    // Offset: 0x167F2DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HealthCheckService* New_ctor(int port) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HealthCheckService::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HealthCheckService*, creationType>(port)));
     }
     // public System.Void Dispose()
-    // Offset: 0x1648AAC
+    // Offset: 0x167F3BC
     void Dispose();
     // public System.Void PollUpdate()
-    // Offset: 0x1648B84
+    // Offset: 0x167F494
     void PollUpdate();
     // private System.Void Run()
-    // Offset: 0x1648C4C
+    // Offset: 0x167F55C
     void Run();
   }; // HealthCheckService
   #pragma pack(pop)

@@ -32,15 +32,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_LoadBufferInstancer : public ::HoudiniEngineUnity::HEU_LoadBufferBase {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public HoudiniEngineUnity.HAPI_Transform[] _instanceTransforms
     // Size: 0x8
     // Offset: 0x30
@@ -73,20 +65,19 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     public:
     // Get instance field reference: public HoudiniEngineUnity.HAPI_Transform[] _instanceTransforms
-    ::ArrayW<::HoudiniEngineUnity::HAPI_Transform>& dyn__instanceTransforms();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::HoudiniEngineUnity::HAPI_Transform>& dyn__instanceTransforms();
     // Get instance field reference: public System.String[] _instancePrefixes
-    ::ArrayW<::StringW>& dyn__instancePrefixes();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn__instancePrefixes();
     // Get instance field reference: public System.Int32[] _instanceNodeIDs
-    ::ArrayW<int>& dyn__instanceNodeIDs();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__instanceNodeIDs();
     // Get instance field reference: public System.String[] _assetPaths
-    ::ArrayW<::StringW>& dyn__assetPaths();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn__assetPaths();
     // Get instance field reference: public System.String[] _collisionAssetPaths
-    ::ArrayW<::StringW>& dyn__collisionAssetPaths();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn__collisionAssetPaths();
     // public System.Void .ctor()
-    // Offset: 0x185B0D0
+    // Offset: 0x18949E0
     // Implemented from: HoudiniEngineUnity.HEU_LoadBufferBase
     // Base method: System.Void HEU_LoadBufferBase::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_LoadBufferInstancer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_LoadBufferInstancer::.ctor");

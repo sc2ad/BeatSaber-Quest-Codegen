@@ -63,7 +63,7 @@ namespace System::Xml::Schema {
     // Set static field: static public System.Xml.Schema.XsdDateTime/System.Xml.Schema.XsdDateTimeKind LocalEastOfZulu
     static void _set_LocalEastOfZulu(::System::Xml::Schema::XsdDateTime::XsdDateTimeKind value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Xml.Schema.XsdDateTime/System.Xml.Schema.XsdDateTimeKind
   #pragma pack(pop)
   static check_size<sizeof(XsdDateTime::XsdDateTimeKind), 0 + sizeof(int)> __System_Xml_Schema_XsdDateTime_XsdDateTimeKindSizeCheck;

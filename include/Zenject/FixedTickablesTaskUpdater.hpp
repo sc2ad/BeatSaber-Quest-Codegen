@@ -38,23 +38,22 @@ namespace Zenject {
   class FixedTickablesTaskUpdater : public ::Zenject::TaskUpdater_1<::Zenject::IFixedTickable*> {
     public:
     // protected System.Void UpdateItem(Zenject.IFixedTickable task)
-    // Offset: 0x1DE10EC
+    // Offset: 0x1E1B9B8
     void UpdateItem(::Zenject::IFixedTickable* task);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1DE11E8
+    // Offset: 0x1E1BAB4
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // public System.Void .ctor()
-    // Offset: 0x1DE1198
+    // Offset: 0x1E1BA64
     // Implemented from: Zenject.TaskUpdater`1
     // Base method: System.Void TaskUpdater_1::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixedTickablesTaskUpdater* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FixedTickablesTaskUpdater::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FixedTickablesTaskUpdater*, creationType>()));
     }
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1DE1240
+    // Offset: 0x1E1BB0C
     // Implemented from: Zenject.TaskUpdater`1
     // Base method: Zenject.InjectTypeInfo TaskUpdater_1::__zenCreateInjectTypeInfo()
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();

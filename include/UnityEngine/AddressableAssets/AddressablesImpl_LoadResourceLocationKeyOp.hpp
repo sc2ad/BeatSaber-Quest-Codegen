@@ -43,15 +43,7 @@ namespace UnityEngine::AddressableAssets {
   // [TokenAttribute] Offset: FFFFFFFF
   class AddressablesImpl::LoadResourceLocationKeyOp : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Object m_Keys
     // Size: 0x8
     // Offset: 0x80
@@ -78,38 +70,35 @@ namespace UnityEngine::AddressableAssets {
     static_assert(sizeof(::System::Type*) == 0x8);
     public:
     // Get instance field reference: private System.Object m_Keys
-    ::Il2CppObject*& dyn_m_Keys();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_m_Keys();
     // Get instance field reference: private System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> m_locations
-    ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& dyn_m_locations();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& dyn_m_locations();
     // Get instance field reference: private UnityEngine.AddressableAssets.AddressablesImpl m_Addressables
-    ::UnityEngine::AddressableAssets::AddressablesImpl*& dyn_m_Addressables();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AddressableAssets::AddressablesImpl*& dyn_m_Addressables();
     // Get instance field reference: private System.Type m_ResourceType
-    ::System::Type*& dyn_m_ResourceType();
-    // public System.Void Init(UnityEngine.AddressableAssets.AddressablesImpl aa, System.Type t, System.Object keys)
-    // Offset: 0x1887A58
-    void Init(::UnityEngine::AddressableAssets::AddressablesImpl* aa, ::System::Type* t, ::Il2CppObject* keys);
-    // protected override System.String get_DebugName()
-    // Offset: 0x188BC44
-    // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
-    // Base method: System.String AsyncOperationBase_1::get_DebugName()
-    ::StringW get_DebugName();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_m_ResourceType();
     // public System.Void .ctor()
-    // Offset: 0x1887A08
-    // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
-    // Base method: System.Void AsyncOperationBase_1::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18C1318
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddressablesImpl::LoadResourceLocationKeyOp* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeyOp::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddressablesImpl::LoadResourceLocationKeyOp*, creationType>()));
     }
+    // public System.Void Init(UnityEngine.AddressableAssets.AddressablesImpl aa, System.Type t, System.Object keys)
+    // Offset: 0x18C1368
+    void Init(::UnityEngine::AddressableAssets::AddressablesImpl* aa, ::System::Type* t, ::Il2CppObject* keys);
+    // protected override System.String get_DebugName()
+    // Offset: 0x18C5554
+    // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
+    // Base method: System.String AsyncOperationBase_1::get_DebugName()
+    ::StringW get_DebugName();
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x188BC64
+    // Offset: 0x18C5574
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();
     // protected override System.Void Execute()
-    // Offset: 0x188BCE0
+    // Offset: 0x18C55F0
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();
@@ -117,6 +106,10 @@ namespace UnityEngine::AddressableAssets {
   // WARNING Not writing size check since size may be invalid!
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeyOp::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeyOp::Init
 // Il2CppName: Init
 template<>
@@ -136,10 +129,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeyOp*), "get_DebugName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeyOp::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeyOp::InvokeWaitForCompletion
 // Il2CppName: InvokeWaitForCompletion
 template<>

@@ -53,15 +53,7 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class SubContainerDependencyProvider : public ::Il2CppObject/*, public ::Zenject::IProvider*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Zenject.ISubContainerCreator _subContainerCreator
     // Size: 0x8
     // Offset: 0x10
@@ -92,34 +84,34 @@ namespace Zenject {
       return *reinterpret_cast<::Zenject::IProvider*>(this);
     }
     // Get instance field reference: private readonly Zenject.ISubContainerCreator _subContainerCreator
-    ::Zenject::ISubContainerCreator*& dyn__subContainerCreator();
+    [[deprecated("Use field access instead!")]] ::Zenject::ISubContainerCreator*& dyn__subContainerCreator();
     // Get instance field reference: private readonly System.Type _dependencyType
-    ::System::Type*& dyn__dependencyType();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn__dependencyType();
     // Get instance field reference: private readonly System.Object _identifier
-    ::Il2CppObject*& dyn__identifier();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__identifier();
     // Get instance field reference: private readonly System.Boolean _resolveAll
-    bool& dyn__resolveAll();
+    [[deprecated("Use field access instead!")]] bool& dyn__resolveAll();
     // public System.Boolean get_IsCached()
-    // Offset: 0x1CE8E9C
+    // Offset: 0x1D243F4
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x1CE8EA4
+    // Offset: 0x1D243FC
     bool get_TypeVariesBasedOnMemberType();
     // public System.Void .ctor(System.Type dependencyType, System.Object identifier, Zenject.ISubContainerCreator subContainerCreator, System.Boolean resolveAll)
-    // Offset: 0x1CE6548
+    // Offset: 0x1D21AA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerDependencyProvider* New_ctor(::System::Type* dependencyType, ::Il2CppObject* identifier, ::Zenject::ISubContainerCreator* subContainerCreator, bool resolveAll) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SubContainerDependencyProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerDependencyProvider*, creationType>(dependencyType, identifier, subContainerCreator, resolveAll)));
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x1CE8EAC
+    // Offset: 0x1D24404
     ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
     // private Zenject.InjectContext CreateSubContext(Zenject.InjectContext parent, Zenject.DiContainer subContainer)
-    // Offset: 0x1CE8EB4
+    // Offset: 0x1D2440C
     ::Zenject::InjectContext* CreateSubContext(::Zenject::InjectContext* parent, ::Zenject::DiContainer* subContainer);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x1CE8EFC
+    // Offset: 0x1D24454
     void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.SubContainerDependencyProvider
   #pragma pack(pop)

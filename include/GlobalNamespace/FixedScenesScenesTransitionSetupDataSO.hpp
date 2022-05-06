@@ -38,15 +38,7 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x29 to desired offset: 0x30
     char ___base_padding[0x7] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private SceneInfo[] _sceneInfos
     // Size: 0x8
     // Offset: 0x30
@@ -55,18 +47,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<::GlobalNamespace::SceneInfo*>) == 0x8);
     public:
     // Get instance field reference: private SceneInfo[] _sceneInfos
-    ::ArrayW<::GlobalNamespace::SceneInfo*>& dyn__sceneInfos();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::SceneInfo*>& dyn__sceneInfos();
     // public System.Void Init()
-    // Offset: 0x156D338
+    // Offset: 0x15A3C48
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x156D348
+    // Offset: 0x15A3C58
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixedScenesScenesTransitionSetupDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FixedScenesScenesTransitionSetupDataSO::.ctor");

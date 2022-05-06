@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapObjectsInTimeRowProcessor::SliderTailData : public ::GlobalNamespace::BeatmapDataItem {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly SliderData slider
     // Size: 0x8
     // Offset: 0x20
@@ -53,16 +45,16 @@ namespace GlobalNamespace {
       return slider;
     }
     // Get instance field reference: public readonly SliderData slider
-    ::GlobalNamespace::SliderData*& dyn_slider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SliderData*& dyn_slider();
     // public System.Void .ctor(SliderData slider)
-    // Offset: 0x2816D58
+    // Offset: 0x2869318
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectsInTimeRowProcessor::SliderTailData* New_ctor(::GlobalNamespace::SliderData* slider) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::SliderTailData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectsInTimeRowProcessor::SliderTailData*, creationType>(slider)));
     }
     // public override BeatmapDataItem GetCopy()
-    // Offset: 0x2818AC0
+    // Offset: 0x286B080
     // Implemented from: BeatmapDataItem
     // Base method: BeatmapDataItem BeatmapDataItem::GetCopy()
     ::GlobalNamespace::BeatmapDataItem* GetCopy();

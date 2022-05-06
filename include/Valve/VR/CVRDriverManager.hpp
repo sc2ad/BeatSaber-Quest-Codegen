@@ -37,15 +37,7 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   class CVRDriverManager : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Valve.VR.IVRDriverManager FnTable
     // Size: 0x10
     // Offset: 0x10
@@ -58,19 +50,19 @@ namespace Valve::VR {
       return FnTable;
     }
     // Get instance field reference: private Valve.VR.IVRDriverManager FnTable
-    ::Valve::VR::IVRDriverManager& dyn_FnTable();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRDriverManager& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x1BAB2B0
+    // Offset: 0x1BE5898
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRDriverManager* New_ctor(::System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Valve::VR::CVRDriverManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRDriverManager*, creationType>(pInterface)));
     }
     // public System.UInt32 GetDriverCount()
-    // Offset: 0x1BAB3B0
+    // Offset: 0x1BE5998
     uint GetDriverCount();
     // public System.UInt32 GetDriverName(System.UInt32 nDriver, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize)
-    // Offset: 0x1BAB3CC
+    // Offset: 0x1BE59B4
     uint GetDriverName(uint nDriver, ::System::Text::StringBuilder* pchValue, uint unBufferSize);
   }; // Valve.VR.CVRDriverManager
   #pragma pack(pop)

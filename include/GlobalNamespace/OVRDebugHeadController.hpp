@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRDebugHeadController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean AllowPitchLook
     // Size: 0x1
     // Offset: 0x18
@@ -106,51 +98,49 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Boolean AllowPitchLook
-    bool& dyn_AllowPitchLook();
+    [[deprecated("Use field access instead!")]] bool& dyn_AllowPitchLook();
     // Get instance field reference: public System.Boolean AllowYawLook
-    bool& dyn_AllowYawLook();
+    [[deprecated("Use field access instead!")]] bool& dyn_AllowYawLook();
     // Get instance field reference: public System.Boolean InvertPitch
-    bool& dyn_InvertPitch();
+    [[deprecated("Use field access instead!")]] bool& dyn_InvertPitch();
     // Get instance field reference: public System.Single GamePad_PitchDegreesPerSec
-    float& dyn_GamePad_PitchDegreesPerSec();
+    [[deprecated("Use field access instead!")]] float& dyn_GamePad_PitchDegreesPerSec();
     // Get instance field reference: public System.Single GamePad_YawDegreesPerSec
-    float& dyn_GamePad_YawDegreesPerSec();
+    [[deprecated("Use field access instead!")]] float& dyn_GamePad_YawDegreesPerSec();
     // Get instance field reference: public System.Boolean AllowMovement
-    bool& dyn_AllowMovement();
+    [[deprecated("Use field access instead!")]] bool& dyn_AllowMovement();
     // Get instance field reference: public System.Single ForwardSpeed
-    float& dyn_ForwardSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn_ForwardSpeed();
     // Get instance field reference: public System.Single StrafeSpeed
-    float& dyn_StrafeSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn_StrafeSpeed();
     // Get instance field reference: protected OVRCameraRig CameraRig
-    ::GlobalNamespace::OVRCameraRig*& dyn_CameraRig();
-    // private System.Void Awake()
-    // Offset: 0x1623728
-    void Awake();
-    // private System.Void Start()
-    // Offset: 0x1623820
-    void Start();
-    // private System.Void Update()
-    // Offset: 0x1623824
-    void Update();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRCameraRig*& dyn_CameraRig();
     // public System.Void .ctor()
-    // Offset: 0x1623DB0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16596C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRDebugHeadController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRDebugHeadController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRDebugHeadController*, creationType>()));
     }
+    // private System.Void Awake()
+    // Offset: 0x1659038
+    void Awake();
+    // private System.Void Start()
+    // Offset: 0x1659130
+    void Start();
+    // private System.Void Update()
+    // Offset: 0x1659134
+    void Update();
   }; // OVRDebugHeadController
   #pragma pack(pop)
   static check_size<sizeof(OVRDebugHeadController), 48 + sizeof(::GlobalNamespace::OVRCameraRig*)> __GlobalNamespace_OVRDebugHeadControllerSizeCheck;
   static_assert(sizeof(OVRDebugHeadController) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OVRDebugHeadController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVRDebugHeadController::Awake
 // Il2CppName: Awake
 template<>
@@ -175,7 +165,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRDebugHeadController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OVRDebugHeadController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -53,9 +53,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: OVR.OpenVR.IVRResources/OVR.OpenVR._LoadSharedResource LoadSharedResource
-    ::OVR::OpenVR::IVRResources::_LoadSharedResource*& dyn_LoadSharedResource();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRResources::_LoadSharedResource*& dyn_LoadSharedResource();
     // Get instance field reference: OVR.OpenVR.IVRResources/OVR.OpenVR._GetResourceFullPath GetResourceFullPath
-    ::OVR::OpenVR::IVRResources::_GetResourceFullPath*& dyn_GetResourceFullPath();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRResources::_GetResourceFullPath*& dyn_GetResourceFullPath();
   }; // OVR.OpenVR.IVRResources
   #pragma pack(pop)
   static check_size<sizeof(IVRResources), 8 + sizeof(::OVR::OpenVR::IVRResources::_GetResourceFullPath*)> __OVR_OpenVR_IVRResourcesSizeCheck;

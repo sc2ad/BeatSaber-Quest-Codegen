@@ -38,16 +38,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayAudioOnGameEventController::EventAudioBinding : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [HeaderAttribute] Offset: 0x1260F14
+    // [HeaderAttribute] Offset: 0x10E5BBC
     // private Signal _signal
     // Size: 0x8
     // Offset: 0x10
@@ -82,39 +74,41 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::RandomObjectPicker_1<::GlobalNamespace::LocalizedAudioClipSO*>*) == 0x8);
     public:
     // Get instance field reference: private Signal _signal
-    ::GlobalNamespace::Signal*& dyn__signal();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Signal*& dyn__signal();
     // Get instance field reference: private System.Single _delay
-    float& dyn__delay();
+    [[deprecated("Use field access instead!")]] float& dyn__delay();
     // Get instance field reference: private LocalizedAudioClipSO[] _localizedAudioClips
-    ::ArrayW<::GlobalNamespace::LocalizedAudioClipSO*>& dyn__localizedAudioClips();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::LocalizedAudioClipSO*>& dyn__localizedAudioClips();
     // Get instance field reference: private AudioClipQueue _audioClipQueue
-    ::GlobalNamespace::AudioClipQueue*& dyn__audioClipQueue();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioClipQueue*& dyn__audioClipQueue();
     // Get instance field reference: private RandomObjectPicker`1<LocalizedAudioClipSO> _randomObjectPicker
-    ::GlobalNamespace::RandomObjectPicker_1<::GlobalNamespace::LocalizedAudioClipSO*>*& dyn__randomObjectPicker();
-    // public System.Void Init(AudioClipQueue audioClipQueue)
-    // Offset: 0x12F49A8
-    void Init(::GlobalNamespace::AudioClipQueue* audioClipQueue);
-    // public System.Void Deinit()
-    // Offset: 0x12F4ADC
-    void Deinit();
-    // private System.Void HandleGameEvent()
-    // Offset: 0x12F4B70
-    void HandleGameEvent();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::RandomObjectPicker_1<::GlobalNamespace::LocalizedAudioClipSO*>*& dyn__randomObjectPicker();
     // public System.Void .ctor()
-    // Offset: 0x12F4C44
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1365BFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayAudioOnGameEventController::EventAudioBinding* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayAudioOnGameEventController::EventAudioBinding*, creationType>()));
     }
+    // public System.Void Init(AudioClipQueue audioClipQueue)
+    // Offset: 0x1365960
+    void Init(::GlobalNamespace::AudioClipQueue* audioClipQueue);
+    // public System.Void Deinit()
+    // Offset: 0x1365A94
+    void Deinit();
+    // private System.Void HandleGameEvent()
+    // Offset: 0x1365B28
+    void HandleGameEvent();
   }; // PlayAudioOnGameEventController/EventAudioBinding
   #pragma pack(pop)
   static check_size<sizeof(PlayAudioOnGameEventController::EventAudioBinding), 48 + sizeof(::GlobalNamespace::RandomObjectPicker_1<::GlobalNamespace::LocalizedAudioClipSO*>*)> __GlobalNamespace_PlayAudioOnGameEventController_EventAudioBindingSizeCheck;
   static_assert(sizeof(PlayAudioOnGameEventController::EventAudioBinding) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding::Init
 // Il2CppName: Init
 template<>
@@ -140,7 +134,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*), "HandleGameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

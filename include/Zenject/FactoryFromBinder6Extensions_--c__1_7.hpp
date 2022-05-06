@@ -76,6 +76,13 @@ namespace Zenject {
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FactoryFromBinder6Extensions::$$c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
+    // public System.Void .ctor()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static FactoryFromBinder6Extensions::$$c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryFromBinder6Extensions::$$c__1_7::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<FactoryFromBinder6Extensions::$$c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*, creationType>()));
+    }
     // System.Void <FromPoolableMemoryPool>b__1_0(Zenject.MemoryPoolInitialSizeMaxSizeBinder`1<TContract> x)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void $FromPoolableMemoryPool$b__1_0(::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>* x) {
@@ -96,15 +103,6 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryFromBinder6Extensions::$$c__1_7::__zenCreateInjectTypeInfo");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FactoryFromBinder6Extensions::$$c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
-    }
-    // public System.Void .ctor()
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FactoryFromBinder6Extensions::$$c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryFromBinder6Extensions::$$c__1_7::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<FactoryFromBinder6Extensions::$$c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*, creationType>()));
     }
   }; // Zenject.FactoryFromBinder6Extensions/Zenject.<>c__1`7
   // Could not write size check! Type: Zenject.FactoryFromBinder6Extensions/Zenject.<>c__1`7 is generic, or has no fields that are valid for size checks!

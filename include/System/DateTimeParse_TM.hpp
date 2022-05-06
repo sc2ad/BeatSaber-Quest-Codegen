@@ -57,7 +57,7 @@ namespace System {
     // Set static field: static public System.DateTimeParse/System.TM PM
     static void _set_PM(::System::DateTimeParse::TM value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.DateTimeParse/System.TM
   #pragma pack(pop)
   static check_size<sizeof(DateTimeParse::TM), 0 + sizeof(int)> __System_DateTimeParse_TMSizeCheck;

@@ -45,15 +45,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SliderMeshConstructor : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.MeshFilter _meshFilter
     // Size: 0x8
     // Offset: 0x18
@@ -94,25 +86,32 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.MeshFilter _meshFilter
-    ::UnityEngine::MeshFilter*& dyn__meshFilter();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MeshFilter*& dyn__meshFilter();
     // Get instance field reference: protected UnityEngine.Vector3[] reusableVerts
-    ::ArrayW<::UnityEngine::Vector3>& dyn_reusableVerts();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn_reusableVerts();
     // Get instance field reference: protected UnityEngine.Vector2[] reusableUvs
-    ::ArrayW<::UnityEngine::Vector2>& dyn_reusableUvs();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector2>& dyn_reusableUvs();
     // Get instance field reference: protected UnityEngine.Vector3[] reusableNormals
-    ::ArrayW<::UnityEngine::Vector3>& dyn_reusableNormals();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn_reusableNormals();
     // Get instance field reference: protected System.Int32[] reusableTriangles
-    ::ArrayW<int>& dyn_reusableTriangles();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_reusableTriangles();
     // Get instance field reference: private UnityEngine.Mesh _mesh
-    ::UnityEngine::Mesh*& dyn__mesh();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Mesh*& dyn__mesh();
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x2AA1F1C
+    // Offset: 0x1388B40
     ::UnityEngine::Mesh* get_mesh();
+    // protected System.Void .ctor()
+    // Offset: 0x1388D94
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static SliderMeshConstructor* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderMeshConstructor::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<SliderMeshConstructor*, creationType>()));
+    }
     // public System.Void CreateMeshIfNonExisting()
-    // Offset: 0x2AA1F24
+    // Offset: 0x1388B48
     void CreateMeshIfNonExisting();
     // public System.Void CreateSliderMesh(VertexPath path)
-    // Offset: 0x2AA1FDC
+    // Offset: 0x1388C00
     void CreateSliderMesh(::GlobalNamespace::VertexPath* path);
     // protected System.Void CreateSliderMeshInternal(VertexPath path)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -123,19 +122,6 @@ namespace GlobalNamespace {
     // protected System.Int32 GetTrianglesCount(VertexPath path)
     // Offset: 0xFFFFFFFFFFFFFFFF
     int GetTrianglesCount(::GlobalNamespace::VertexPath* path);
-    // protected System.Void .ctor()
-    // Offset: 0x2AA2170
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SliderMeshConstructor* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderMeshConstructor::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<SliderMeshConstructor*, creationType>()));
-    }
   }; // SliderMeshConstructor
   #pragma pack(pop)
   static check_size<sizeof(SliderMeshConstructor), 64 + sizeof(::UnityEngine::Mesh*)> __GlobalNamespace_SliderMeshConstructorSizeCheck;
@@ -150,6 +136,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SliderMeshConstructor*), "get_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SliderMeshConstructor::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SliderMeshConstructor::CreateMeshIfNonExisting
 // Il2CppName: CreateMeshIfNonExisting
 template<>
@@ -194,7 +184,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SliderMeshConstructor*), "GetTrianglesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SliderMeshConstructor::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

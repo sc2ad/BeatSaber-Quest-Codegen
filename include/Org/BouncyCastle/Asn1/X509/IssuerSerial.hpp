@@ -48,15 +48,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class IssuerSerial : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // readonly Org.BouncyCastle.Asn1.X509.GeneralNames issuer
     // Size: 0x8
     // Offset: 0x10
@@ -77,26 +69,26 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static_assert(sizeof(::Org::BouncyCastle::Asn1::DerBitString*) == 0x8);
     public:
     // Get instance field reference: readonly Org.BouncyCastle.Asn1.X509.GeneralNames issuer
-    ::Org::BouncyCastle::Asn1::X509::GeneralNames*& dyn_issuer();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::X509::GeneralNames*& dyn_issuer();
     // Get instance field reference: readonly Org.BouncyCastle.Asn1.DerInteger serial
-    ::Org::BouncyCastle::Asn1::DerInteger*& dyn_serial();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerInteger*& dyn_serial();
     // Get instance field reference: readonly Org.BouncyCastle.Asn1.DerBitString issuerUid
-    ::Org::BouncyCastle::Asn1::DerBitString*& dyn_issuerUid();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerBitString*& dyn_issuerUid();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1EC7FA8
+    // Offset: 0x1F154E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IssuerSerial* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::IssuerSerial::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IssuerSerial*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X509.IssuerSerial GetInstance(System.Object obj)
-    // Offset: 0x1EC7E28
+    // Offset: 0x1F15360
     static ::Org::BouncyCastle::Asn1::X509::IssuerSerial* GetInstance(::Il2CppObject* obj);
     // static public Org.BouncyCastle.Asn1.X509.IssuerSerial GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x1EC7CBC
+    // Offset: 0x1F151F4
     static ::Org::BouncyCastle::Asn1::X509::IssuerSerial* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1EC8164
+    // Offset: 0x1F1569C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

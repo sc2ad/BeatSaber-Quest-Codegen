@@ -33,15 +33,7 @@ namespace BeatmapSaveDataVersion3 {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapSaveData::EventBoxGroup : public ::BeatmapSaveDataVersion3::BeatmapSaveData::BeatmapSaveDataItem {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 g
     // Size: 0x4
     // Offset: 0x14
@@ -52,15 +44,15 @@ namespace BeatmapSaveDataVersion3 {
     // Deleting conversion operator: operator float
     constexpr operator float() const noexcept = delete;
     // Get instance field reference: private System.Int32 g
-    int& dyn_g();
+    [[deprecated("Use field access instead!")]] int& dyn_g();
     // public System.Int32 get_groupId()
-    // Offset: 0x281B35C
+    // Offset: 0x286D91C
     int get_groupId();
     // public System.Collections.Generic.IReadOnlyList`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox> get_baseEventBoxes()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox*>* get_baseEventBoxes();
     // protected System.Void .ctor(System.Single beat, System.Int32 groupId)
-    // Offset: 0x281B364
+    // Offset: 0x286D924
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::EventBoxGroup* New_ctor(float beat, int groupId) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::EventBoxGroup::.ctor");

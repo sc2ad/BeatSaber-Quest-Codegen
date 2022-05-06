@@ -99,7 +99,7 @@ namespace Org::BouncyCastle::OpenSsl {
     // Set static field: static public Org.BouncyCastle.OpenSsl.PemUtilities/Org.BouncyCastle.OpenSsl.PemBaseAlg RC2_64
     static void _set_RC2_64(::Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Org.BouncyCastle.OpenSsl.PemUtilities/Org.BouncyCastle.OpenSsl.PemBaseAlg
   #pragma pack(pop)
   static check_size<sizeof(PemUtilities::PemBaseAlg), 0 + sizeof(int)> __Org_BouncyCastle_OpenSsl_PemUtilities_PemBaseAlgSizeCheck;

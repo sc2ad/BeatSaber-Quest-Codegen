@@ -38,15 +38,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class SerializationHeaderRecord : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int32 binaryFormatterMajorVersion
     // Size: 0x4
     // Offset: 0x10
@@ -91,40 +83,40 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: System.Int32 binaryFormatterMajorVersion
-    int& dyn_binaryFormatterMajorVersion();
+    [[deprecated("Use field access instead!")]] int& dyn_binaryFormatterMajorVersion();
     // Get instance field reference: System.Int32 binaryFormatterMinorVersion
-    int& dyn_binaryFormatterMinorVersion();
+    [[deprecated("Use field access instead!")]] int& dyn_binaryFormatterMinorVersion();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum
-    ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum& dyn_binaryHeaderEnum();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum& dyn_binaryHeaderEnum();
     // Get instance field reference: System.Int32 topId
-    int& dyn_topId();
+    [[deprecated("Use field access instead!")]] int& dyn_topId();
     // Get instance field reference: System.Int32 headerId
-    int& dyn_headerId();
+    [[deprecated("Use field access instead!")]] int& dyn_headerId();
     // Get instance field reference: System.Int32 majorVersion
-    int& dyn_majorVersion();
+    [[deprecated("Use field access instead!")]] int& dyn_majorVersion();
     // Get instance field reference: System.Int32 minorVersion
-    int& dyn_minorVersion();
+    [[deprecated("Use field access instead!")]] int& dyn_minorVersion();
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum, System.Int32 topId, System.Int32 headerId, System.Int32 majorVersion, System.Int32 minorVersion)
-    // Offset: 0x15F7EB8
+    // Offset: 0x162D7C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerializationHeaderRecord* New_ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum, int topId, int headerId, int majorVersion, int minorVersion) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationHeaderRecord*, creationType>(binaryHeaderEnum, topId, headerId, majorVersion, minorVersion)));
     }
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x15F7F14
+    // Offset: 0x162D824
     void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // static private System.Int32 GetInt32(System.Byte[] buffer, System.Int32 index)
-    // Offset: 0x15F800C
+    // Offset: 0x162D91C
     static int GetInt32(::ArrayW<uint8_t> buffer, int index);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x15F808C
+    // Offset: 0x162D99C
     void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x15F8264
+    // Offset: 0x162DB74
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x15F7EA8
+    // Offset: 0x162D7B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

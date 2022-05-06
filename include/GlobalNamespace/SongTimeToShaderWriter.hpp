@@ -35,16 +35,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SongTimeToShaderWriter : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x125F92C
+    // [InjectAttribute] Offset: 0x10E45D4
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x18
@@ -54,48 +46,32 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x125F93C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E45E4
     // Get static field: static private readonly System.Int32 _songTimePropertyId
     static int _get__songTimePropertyId();
     // Set static field: static private readonly System.Int32 _songTimePropertyId
     static void _set__songTimePropertyId(int value);
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
-    ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
-    // protected System.Void Update()
-    // Offset: 0x2AA9DB4
-    void Update();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // public System.Void .ctor()
-    // Offset: 0x2AAA03C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1390C60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongTimeToShaderWriter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongTimeToShaderWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongTimeToShaderWriter*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2AAA044
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x1390C68
     static void _cctor();
+    // protected System.Void Update()
+    // Offset: 0x13909D8
+    void Update();
   }; // SongTimeToShaderWriter
   #pragma pack(pop)
   static check_size<sizeof(SongTimeToShaderWriter), 24 + sizeof(::GlobalNamespace::IAudioTimeSource*)> __GlobalNamespace_SongTimeToShaderWriterSizeCheck;
   static_assert(sizeof(SongTimeToShaderWriter) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::SongTimeToShaderWriter::Update
-// Il2CppName: Update
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongTimeToShaderWriter::*)()>(&GlobalNamespace::SongTimeToShaderWriter::Update)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongTimeToShaderWriter*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::SongTimeToShaderWriter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -106,5 +82,13 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SongTimeToShaderWriter::_cctor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongTimeToShaderWriter*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::SongTimeToShaderWriter::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongTimeToShaderWriter::*)()>(&GlobalNamespace::SongTimeToShaderWriter::Update)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongTimeToShaderWriter*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

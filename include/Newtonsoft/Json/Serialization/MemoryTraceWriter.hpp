@@ -45,15 +45,7 @@ namespace Newtonsoft::Json::Serialization {
   // [PreserveAttribute] Offset: FFFFFFFF
   class MemoryTraceWriter : public ::Il2CppObject/*, public ::Newtonsoft::Json::Serialization::ITraceWriter*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.Queue`1<System.String> _traceMessages
     // Size: 0x8
     // Offset: 0x10
@@ -72,29 +64,27 @@ namespace Newtonsoft::Json::Serialization {
       return *reinterpret_cast<::Newtonsoft::Json::Serialization::ITraceWriter*>(this);
     }
     // Get instance field reference: private readonly System.Collections.Generic.Queue`1<System.String> _traceMessages
-    ::System::Collections::Generic::Queue_1<::StringW>*& dyn__traceMessages();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Queue_1<::StringW>*& dyn__traceMessages();
     // Get instance field reference: private System.Diagnostics.TraceLevel <LevelFilter>k__BackingField
-    ::System::Diagnostics::TraceLevel& dyn_$LevelFilter$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Diagnostics::TraceLevel& dyn_$LevelFilter$k__BackingField();
     // public System.Diagnostics.TraceLevel get_LevelFilter()
-    // Offset: 0x203B68C
+    // Offset: 0x2084F00
     ::System::Diagnostics::TraceLevel get_LevelFilter();
     // public System.Void set_LevelFilter(System.Diagnostics.TraceLevel value)
-    // Offset: 0x203B694
+    // Offset: 0x2084F08
     void set_LevelFilter(::System::Diagnostics::TraceLevel value);
-    // public System.Void Trace(System.Diagnostics.TraceLevel level, System.String message, System.Exception ex)
-    // Offset: 0x203B718
-    void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex);
     // public System.Void .ctor()
-    // Offset: 0x203B69C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2084F10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemoryTraceWriter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::MemoryTraceWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryTraceWriter*, creationType>()));
     }
+    // public System.Void Trace(System.Diagnostics.TraceLevel level, System.String message, System.Exception ex)
+    // Offset: 0x2084F8C
+    void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex);
     // public override System.String ToString()
-    // Offset: 0x203B8F0
+    // Offset: 0x2085164
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -121,6 +111,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::MemoryTraceWriter*), "set_LevelFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: Newtonsoft::Json::Serialization::MemoryTraceWriter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::MemoryTraceWriter::Trace
 // Il2CppName: Trace
 template<>
@@ -132,10 +126,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::MemoryTraceWriter*), "Trace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{level, message, ex});
   }
 };
-// Writing MetadataGetter for method: Newtonsoft::Json::Serialization::MemoryTraceWriter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::MemoryTraceWriter::ToString
 // Il2CppName: ToString
 template<>

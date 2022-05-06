@@ -84,7 +84,7 @@ namespace Mono::Net {
     // Set static field: static public Mono.Net.CFProxyType SOCKS
     static void _set_SOCKS(::Mono::Net::CFProxyType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Mono.Net.CFProxyType
   #pragma pack(pop)
   static check_size<sizeof(CFProxyType), 0 + sizeof(int)> __Mono_Net_CFProxyTypeSizeCheck;

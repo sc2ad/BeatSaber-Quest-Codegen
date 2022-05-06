@@ -45,15 +45,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Threading.CancellationToken cancellationToken
     // Size: 0x8
     // Offset: 0x10
@@ -80,34 +72,36 @@ namespace GlobalNamespace {
     static_assert(sizeof(typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PurchaseList*>::Callback*) == 0x8);
     public:
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
-    ::System::Threading::CancellationToken& dyn_cancellationToken();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<AdditionalContentModel/UpdateEntitlementsResult> getViewerPurchasesTaskSource
-    ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>*& dyn_getViewerPurchasesTaskSource();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>*& dyn_getViewerPurchasesTaskSource();
     // Get instance field reference: public OculusPlatformAdditionalContentModel <>4__this
-    ::GlobalNamespace::OculusPlatformAdditionalContentModel*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OculusPlatformAdditionalContentModel*& dyn_$$4__this();
     // Get instance field reference: public Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.PurchaseList> <>9__1
-    typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PurchaseList*>::Callback*& dyn_$$9__1();
-    // System.Void <CheckForNewEntitlementsAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetDetailsList> getListMsg)
-    // Offset: 0x15146C0
-    void $CheckForNewEntitlementsAsync$b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>* getListMsg);
-    // System.Void <CheckForNewEntitlementsAsync>b__1(Oculus.Platform.Message`1<Oculus.Platform.Models.PurchaseList> getPurchasesMsg)
-    // Offset: 0x1514AF8
-    void $CheckForNewEntitlementsAsync$b__1(::Oculus::Platform::Message_1<::Oculus::Platform::Models::PurchaseList*>* getPurchasesMsg);
+    [[deprecated("Use field access instead!")]] typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PurchaseList*>::Callback*& dyn_$$9__1();
     // public System.Void .ctor()
-    // Offset: 0x15146B8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x154BFC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0*, creationType>()));
     }
+    // System.Void <CheckForNewEntitlementsAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetDetailsList> getListMsg)
+    // Offset: 0x154BFC8
+    void $CheckForNewEntitlementsAsync$b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>* getListMsg);
+    // System.Void <CheckForNewEntitlementsAsync>b__1(Oculus.Platform.Message`1<Oculus.Platform.Models.PurchaseList> getPurchasesMsg)
+    // Offset: 0x154C400
+    void $CheckForNewEntitlementsAsync$b__1(::Oculus::Platform::Message_1<::Oculus::Platform::Models::PurchaseList*>* getPurchasesMsg);
   }; // OculusPlatformAdditionalContentModel/<>c__DisplayClass12_0
   #pragma pack(pop)
   static check_size<sizeof(OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0), 40 + sizeof(typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PurchaseList*>::Callback*)> __GlobalNamespace_OculusPlatformAdditionalContentModel_$$c__DisplayClass12_0SizeCheck;
   static_assert(sizeof(OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0::$CheckForNewEntitlementsAsync$b__0
 // Il2CppName: <CheckForNewEntitlementsAsync>b__0
 template<>
@@ -126,7 +120,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0*), "<CheckForNewEntitlementsAsync>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{getPurchasesMsg});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

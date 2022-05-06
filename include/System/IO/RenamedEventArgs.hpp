@@ -29,15 +29,7 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class RenamedEventArgs : public ::System::IO::FileSystemEventArgs {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String oldName
     // Size: 0x8
     // Offset: 0x28
@@ -52,11 +44,11 @@ namespace System::IO {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String oldName
-    ::StringW& dyn_oldName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_oldName();
     // Get instance field reference: private System.String oldFullPath
-    ::StringW& dyn_oldFullPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_oldFullPath();
     // public System.Void .ctor(System.IO.WatcherChangeTypes changeType, System.String directory, System.String name, System.String oldName)
-    // Offset: 0x1CB7128
+    // Offset: 0x1CF3680
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RenamedEventArgs* New_ctor(::System::IO::WatcherChangeTypes changeType, ::StringW directory, ::StringW name, ::StringW oldName) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::RenamedEventArgs::.ctor");

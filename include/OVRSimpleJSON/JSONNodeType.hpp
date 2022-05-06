@@ -90,7 +90,7 @@ namespace OVRSimpleJSON {
     // Set static field: static public OVRSimpleJSON.JSONNodeType Custom
     static void _set_Custom(::OVRSimpleJSON::JSONNodeType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVRSimpleJSON.JSONNodeType
   #pragma pack(pop)
   static check_size<sizeof(JSONNodeType), 0 + sizeof(int)> __OVRSimpleJSON_JSONNodeTypeSizeCheck;

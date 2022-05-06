@@ -26,15 +26,7 @@ namespace RootMotion::FinalIK {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OffsetModifierVRIK::$Initiate$d__7 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -61,32 +53,32 @@ namespace RootMotion::FinalIK {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Object <>2__current
-    ::Il2CppObject*& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$$2__current();
     // Get instance field reference: public RootMotion.FinalIK.OffsetModifierVRIK <>4__this
-    ::RootMotion::FinalIK::OffsetModifierVRIK*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::OffsetModifierVRIK*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1F70798
+    // Offset: 0x1FBD00C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1F70800
+    // Offset: 0x1FBD074
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1F70418
+    // Offset: 0x1FBCC8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OffsetModifierVRIK::$Initiate$d__7* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::OffsetModifierVRIK::$Initiate$d__7::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OffsetModifierVRIK::$Initiate$d__7*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1F70658
+    // Offset: 0x1FBCECC
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1F7065C
+    // Offset: 0x1FBCED0
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1F707A0
+    // Offset: 0x1FBD014
     void System_Collections_IEnumerator_Reset();
   }; // RootMotion.FinalIK.OffsetModifierVRIK/RootMotion.FinalIK.<Initiate>d__7
   #pragma pack(pop)

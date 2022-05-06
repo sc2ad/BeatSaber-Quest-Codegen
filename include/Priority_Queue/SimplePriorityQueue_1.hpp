@@ -60,7 +60,6 @@ namespace Priority_Queue {
     // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Priority_Queue.SimplePriorityQueue`2
     // Base method: System.Void SimplePriorityQueue_2::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimplePriorityQueue_1<TItem>* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Priority_Queue::SimplePriorityQueue_1::.ctor");

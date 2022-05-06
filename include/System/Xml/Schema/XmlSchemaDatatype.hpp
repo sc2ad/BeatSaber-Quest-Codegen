@@ -67,10 +67,10 @@ namespace System::Xml::Schema {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::XmlTokenizedType get_TokenizedType();
     // public System.Xml.Schema.XmlSchemaDatatypeVariety get_Variety()
-    // Offset: 0x2010A10
+    // Offset: 0x205A284
     ::System::Xml::Schema::XmlSchemaDatatypeVariety get_Variety();
     // public System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x2010A18
+    // Offset: 0x205A28C
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // System.Xml.Schema.XmlValueConverter get_ValueConverter()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -85,8 +85,15 @@ namespace System::Xml::Schema {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
     // System.String get_TypeCodeString()
-    // Offset: 0x2010A20
+    // Offset: 0x205A294
     ::StringW get_TypeCodeString();
+    // protected System.Void .ctor()
+    // Offset: 0x205A6D0
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static XmlSchemaDatatype* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaDatatype::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaDatatype*, creationType>()));
+    }
     // public System.Object ParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr)
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
@@ -100,20 +107,11 @@ namespace System::Xml::Schema {
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool IsEqual(::Il2CppObject* o1, ::Il2CppObject* o2);
     // System.String TypeCodeToString(System.Xml.Schema.XmlTypeCode typeCode)
-    // Offset: 0x2010B30
+    // Offset: 0x205A3A4
     ::StringW TypeCodeToString(::System::Xml::Schema::XmlTypeCode typeCode);
     // static System.Xml.Schema.XmlSchemaDatatype FromXmlTokenizedType(System.Xml.XmlTokenizedType token)
-    // Offset: 0x2010DF4
+    // Offset: 0x205A668
     static ::System::Xml::Schema::XmlSchemaDatatype* FromXmlTokenizedType(::System::Xml::XmlTokenizedType token);
-    // protected System.Void .ctor()
-    // Offset: 0x2010E5C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlSchemaDatatype* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaDatatype::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaDatatype*, creationType>()));
-    }
   }; // System.Xml.Schema.XmlSchemaDatatype
   #pragma pack(pop)
 }
@@ -190,6 +188,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaDatatype*), "get_TypeCodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaDatatype::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaDatatype::ParseValue
 // Il2CppName: ParseValue
 template<>
@@ -251,7 +253,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::X
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaDatatype*), "FromXmlTokenizedType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{token});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaDatatype::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -24,15 +24,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveData::PlayerMissionStatsData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String missionId
     // Size: 0x8
     // Offset: 0x10
@@ -47,13 +39,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.String missionId
-    ::StringW& dyn_missionId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_missionId();
     // Get instance field reference: public System.Boolean cleared
-    bool& dyn_cleared();
+    [[deprecated("Use field access instead!")]] bool& dyn_cleared();
     // public System.Void .ctor()
-    // Offset: 0x1371640
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D47E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::PlayerMissionStatsData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::PlayerMissionStatsData::.ctor");

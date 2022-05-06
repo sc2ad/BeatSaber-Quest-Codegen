@@ -39,15 +39,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EventBinder : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.List`1<System.Action> _unsubscribes
     // Size: 0x8
     // Offset: 0x10
@@ -60,28 +52,30 @@ namespace GlobalNamespace {
       return unsubscribes;
     }
     // Get instance field reference: private System.Collections.Generic.List`1<System.Action> _unsubscribes
-    ::System::Collections::Generic::List_1<::System::Action*>*& dyn__unsubscribes();
-    // public System.Void Bind(System.Action subscribe, System.Action unsubscribe)
-    // Offset: 0x156B344
-    void Bind(::System::Action* subscribe, ::System::Action* unsubscribe);
-    // public System.Void ClearAllBindings()
-    // Offset: 0x156B3C0
-    void ClearAllBindings();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Action*>*& dyn__unsubscribes();
     // public System.Void .ctor()
-    // Offset: 0x156B4D0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15A1DD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventBinder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EventBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventBinder*, creationType>()));
     }
+    // public System.Void Bind(System.Action subscribe, System.Action unsubscribe)
+    // Offset: 0x15A1C4C
+    void Bind(::System::Action* subscribe, ::System::Action* unsubscribe);
+    // public System.Void ClearAllBindings()
+    // Offset: 0x15A1CC8
+    void ClearAllBindings();
   }; // EventBinder
   #pragma pack(pop)
   static check_size<sizeof(EventBinder), 16 + sizeof(::System::Collections::Generic::List_1<::System::Action*>*)> __GlobalNamespace_EventBinderSizeCheck;
   static_assert(sizeof(EventBinder) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::EventBinder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EventBinder::Bind
 // Il2CppName: Bind
 template<>
@@ -100,7 +94,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EventBinder*), "ClearAllBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::EventBinder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

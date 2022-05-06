@@ -29,61 +29,63 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LayerMasks : public ::Il2CppObject {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1236EAC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BB904
     // Get static field: static public readonly UnityEngine.LayerMask saberLayerMask
     static ::UnityEngine::LayerMask _get_saberLayerMask();
     // Set static field: static public readonly UnityEngine.LayerMask saberLayerMask
     static void _set_saberLayerMask(::UnityEngine::LayerMask value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1236EBC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BB914
     // Get static field: static public readonly UnityEngine.LayerMask noteLayerMask
     static ::UnityEngine::LayerMask _get_noteLayerMask();
     // Set static field: static public readonly UnityEngine.LayerMask noteLayerMask
     static void _set_noteLayerMask(::UnityEngine::LayerMask value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1236ECC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BB924
     // Get static field: static public readonly UnityEngine.LayerMask noteDebrisLayerMask
     static ::UnityEngine::LayerMask _get_noteDebrisLayerMask();
     // Set static field: static public readonly UnityEngine.LayerMask noteDebrisLayerMask
     static void _set_noteDebrisLayerMask(::UnityEngine::LayerMask value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1236EDC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BB934
     // Get static field: static public readonly UnityEngine.LayerMask cutEffectParticlesLayerMask
     static ::UnityEngine::LayerMask _get_cutEffectParticlesLayerMask();
     // Set static field: static public readonly UnityEngine.LayerMask cutEffectParticlesLayerMask
     static void _set_cutEffectParticlesLayerMask(::UnityEngine::LayerMask value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1236EEC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BB944
     // Get static field: static public readonly System.Int32 noteDebrisLayer
     static int _get_noteDebrisLayer();
     // Set static field: static public readonly System.Int32 noteDebrisLayer
     static void _set_noteDebrisLayer(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1236EFC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BB954
     // Get static field: static public readonly System.Int32 cutEffectParticlesLayer
     static int _get_cutEffectParticlesLayer();
     // Set static field: static public readonly System.Int32 cutEffectParticlesLayer
     static void _set_cutEffectParticlesLayer(int value);
-    // static private System.Void .cctor()
-    // Offset: 0x2A9B634
-    static void _cctor();
-    // static private UnityEngine.LayerMask GetLayerMask(System.String layerName)
-    // Offset: 0x2A9B5B4
-    static ::UnityEngine::LayerMask GetLayerMask(::StringW layerName);
-    // static private UnityEngine.LayerMask GetLayerMask(System.Int32 layerNum)
-    // Offset: 0x2A9B5F0
-    static ::UnityEngine::LayerMask GetLayerMask(int layerNum);
-    // static private System.Int32 GetLayer(System.String layerName)
-    // Offset: 0x2A9B624
-    static int GetLayer(::StringW layerName);
     // public System.Void .ctor()
-    // Offset: 0x2A9B62C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2AF0F9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LayerMasks* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LayerMasks::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LayerMasks*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x2AF0FA4
+    static void _cctor();
+    // static private UnityEngine.LayerMask GetLayerMask(System.String layerName)
+    // Offset: 0x2AF0F24
+    static ::UnityEngine::LayerMask GetLayerMask(::StringW layerName);
+    // static private UnityEngine.LayerMask GetLayerMask(System.Int32 layerNum)
+    // Offset: 0x2AF0F60
+    static ::UnityEngine::LayerMask GetLayerMask(int layerNum);
+    // static private System.Int32 GetLayer(System.String layerName)
+    // Offset: 0x2AF0F94
+    static int GetLayer(::StringW layerName);
   }; // LayerMasks
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::LayerMasks::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LayerMasks::_cctor
 // Il2CppName: .cctor
 template<>
@@ -119,7 +121,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::S
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LayerMasks*), "GetLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerName});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LayerMasks::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

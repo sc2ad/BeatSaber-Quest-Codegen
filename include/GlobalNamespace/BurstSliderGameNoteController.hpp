@@ -67,15 +67,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::BurstSliderGameNoteController::Pool
     class Pool;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BoxCuttableBySaber[] _bigCuttableBySaberList
     // Size: 0x8
     // Offset: 0x80
@@ -94,7 +86,7 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* wrapperGO;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0x124EF20
+    // [InjectAttribute] Offset: 0x10D3A54
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x98
@@ -155,99 +147,94 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::INoteMovementProvider*>(this);
     }
     // Get instance field reference: private BoxCuttableBySaber[] _bigCuttableBySaberList
-    ::ArrayW<::GlobalNamespace::BoxCuttableBySaber*>& dyn__bigCuttableBySaberList();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::BoxCuttableBySaber*>& dyn__bigCuttableBySaberList();
     // Get instance field reference: private BoxCuttableBySaber[] _smallCuttableBySaberList
-    ::ArrayW<::GlobalNamespace::BoxCuttableBySaber*>& dyn__smallCuttableBySaberList();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::BoxCuttableBySaber*>& dyn__smallCuttableBySaberList();
     // Get instance field reference: private UnityEngine.GameObject _wrapperGO
-    ::UnityEngine::GameObject*& dyn__wrapperGO();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__wrapperGO();
     // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
-    ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // Get instance field reference: private System.Action`1<BurstSliderGameNoteController> cubeNoteControllerDidInitEvent
-    ::System::Action_1<::GlobalNamespace::BurstSliderGameNoteController*>*& dyn_cubeNoteControllerDidInitEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::BurstSliderGameNoteController*>*& dyn_cubeNoteControllerDidInitEvent();
     // Get instance field reference: private NoteVisualModifierType _noteVisualModifierType
-    ::GlobalNamespace::NoteVisualModifierType& dyn__noteVisualModifierType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteVisualModifierType& dyn__noteVisualModifierType();
     // Get instance field reference: private NoteData/GameplayType _gameplayType
-    ::GlobalNamespace::NoteData::GameplayType& dyn__gameplayType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteData::GameplayType& dyn__gameplayType();
     // Get instance field reference: private BoxCuttableBySaber _bigCuttableBySaber
-    ::GlobalNamespace::BoxCuttableBySaber*& dyn__bigCuttableBySaber();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoxCuttableBySaber*& dyn__bigCuttableBySaber();
     // Get instance field reference: private UnityEngine.Vector3 _originalColliderSize
-    ::UnityEngine::Vector3& dyn__originalColliderSize();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__originalColliderSize();
     // Get instance field reference: private UnityEngine.Vector3 _originalColliderCenter
-    ::UnityEngine::Vector3& dyn__originalColliderCenter();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__originalColliderCenter();
     // public NoteMovement get_noteMovement()
-    // Offset: 0x134EFEC
+    // Offset: 0x1338234
     ::GlobalNamespace::NoteMovement* get_noteMovement();
     // public NoteVisualModifierType get_noteVisualModifierType()
-    // Offset: 0x134EFF4
+    // Offset: 0x133823C
     ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
     // public NoteData/GameplayType get_gameplayType()
-    // Offset: 0x134EFFC
+    // Offset: 0x1338244
     ::GlobalNamespace::NoteData::GameplayType get_gameplayType();
     // public System.Void add_cubeNoteControllerDidInitEvent(System.Action`1<BurstSliderGameNoteController> value)
-    // Offset: 0x134EEA4
+    // Offset: 0x13380EC
     void add_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::BurstSliderGameNoteController*>* value);
     // public System.Void remove_cubeNoteControllerDidInitEvent(System.Action`1<BurstSliderGameNoteController> value)
-    // Offset: 0x134EF48
+    // Offset: 0x1338190
     void remove_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::BurstSliderGameNoteController*>* value);
     // public System.Void Init(NoteData noteData, System.Single worldRotation, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single moveDuration, System.Single jumpDuration, System.Single jumpGravity, NoteVisualModifierType noteVisualModifierType, System.Single uniformScale)
-    // Offset: 0x134F004
+    // Offset: 0x133824C
     void Init(::GlobalNamespace::NoteData* noteData, float worldRotation, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos, float moveDuration, float jumpDuration, float jumpGravity, ::GlobalNamespace::NoteVisualModifierType noteVisualModifierType, float uniformScale);
     // private System.Void HandleBigWasCutBySaber(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x134F884
+    // Offset: 0x1338ACC
     void HandleBigWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
     // private System.Void HandleSmallWasCutBySaber(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x134FDDC
+    // Offset: 0x1339024
     void HandleSmallWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
     // private System.Void HandleCut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec, System.Boolean allowBadCut)
-    // Offset: 0x134F89C
+    // Offset: 0x1338AE4
     void HandleCut(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec, bool allowBadCut);
     // public System.Void .ctor()
-    // Offset: 0x134FEF4
+    // Offset: 0x133913C
     // Implemented from: NoteController
     // Base method: System.Void NoteController::.ctor()
     // Base method: System.Void NoteControllerBase::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BurstSliderGameNoteController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BurstSliderGameNoteController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BurstSliderGameNoteController*, creationType>()));
     }
     // protected override System.Void Awake()
-    // Offset: 0x134F34C
+    // Offset: 0x1338594
     // Implemented from: NoteController
     // Base method: System.Void NoteController::Awake()
     void Awake();
     // protected override System.Void OnDestroy()
-    // Offset: 0x134F508
+    // Offset: 0x1338750
     // Implemented from: NoteController
     // Base method: System.Void NoteController::OnDestroy()
     void OnDestroy();
     // protected override System.Void NoteDidPassMissedMarker()
-    // Offset: 0x134F6E4
+    // Offset: 0x133892C
     // Implemented from: NoteController
     // Base method: System.Void NoteController::NoteDidPassMissedMarker()
     void NoteDidPassMissedMarker();
     // protected override System.Void NoteDidStartDissolving()
-    // Offset: 0x134F7B8
+    // Offset: 0x1338A00
     // Implemented from: NoteController
     // Base method: System.Void NoteController::NoteDidStartDissolving()
     void NoteDidStartDissolving();
     // protected override System.Void NoteDidStartJump()
-    // Offset: 0x134FDF4
+    // Offset: 0x133903C
     // Implemented from: NoteController
     // Base method: System.Void NoteController::NoteDidStartJump()
     void NoteDidStartJump();
     // protected override System.Void HiddenStateDidChange(System.Boolean hide)
-    // Offset: 0x134FEC0
+    // Offset: 0x1339108
     // Implemented from: NoteController
     // Base method: System.Void NoteController::HiddenStateDidChange(System.Boolean hide)
     void HiddenStateDidChange(bool hide);
     // public override System.Void Pause(System.Boolean pause)
-    // Offset: 0x134FEE4
+    // Offset: 0x133912C
     // Implemented from: NoteController
     // Base method: System.Void NoteController::Pause(System.Boolean pause)
     void Pause(bool pause);

@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameServersFilter : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean filterByDifficulty
     // Size: 0x1
     // Offset: 0x10
@@ -101,27 +93,25 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.Boolean filterByDifficulty
-    bool& dyn_filterByDifficulty();
+    [[deprecated("Use field access instead!")]] bool& dyn_filterByDifficulty();
     // Get instance field reference: public BeatmapDifficultyMask filteredDifficulty
-    ::GlobalNamespace::BeatmapDifficultyMask& dyn_filteredDifficulty();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficultyMask& dyn_filteredDifficulty();
     // Get instance field reference: public System.Boolean filterByModifiers
-    bool& dyn_filterByModifiers();
+    [[deprecated("Use field access instead!")]] bool& dyn_filterByModifiers();
     // Get instance field reference: public GameplayModifierMask filteredModifiers
-    ::GlobalNamespace::GameplayModifierMask& dyn_filteredModifiers();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifierMask& dyn_filteredModifiers();
     // Get instance field reference: public System.Boolean filterBySongPacks
-    bool& dyn_filterBySongPacks();
+    [[deprecated("Use field access instead!")]] bool& dyn_filterBySongPacks();
     // Get instance field reference: public SongPackMask filteredSongPacks
-    ::GlobalNamespace::SongPackMask& dyn_filteredSongPacks();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongPackMask& dyn_filteredSongPacks();
     // Get instance field reference: public System.Boolean showFull
-    bool& dyn_showFull();
+    [[deprecated("Use field access instead!")]] bool& dyn_showFull();
     // Get instance field reference: public System.Boolean showProtected
-    bool& dyn_showProtected();
+    [[deprecated("Use field access instead!")]] bool& dyn_showProtected();
     // Get instance field reference: public System.Boolean showInternetGames
-    bool& dyn_showInternetGames();
+    [[deprecated("Use field access instead!")]] bool& dyn_showInternetGames();
     // public System.Void .ctor()
-    // Offset: 0x13E1A88
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13EE528
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServersFilter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServersFilter::.ctor");

@@ -60,7 +60,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.CursorLockMode Confined
     static void _set_Confined(::UnityEngine::CursorLockMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.CursorLockMode
   #pragma pack(pop)
   static check_size<sizeof(CursorLockMode), 0 + sizeof(int)> __UnityEngine_CursorLockModeSizeCheck;

@@ -55,11 +55,11 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Char unWidth
-    ::Il2CppChar& dyn_unWidth();
+    [[deprecated("Use field access instead!")]] ::Il2CppChar& dyn_unWidth();
     // Get instance field reference: public System.Char unHeight
-    ::Il2CppChar& dyn_unHeight();
+    [[deprecated("Use field access instead!")]] ::Il2CppChar& dyn_unHeight();
     // Get instance field reference: public System.IntPtr rubTextureMapData
-    ::System::IntPtr& dyn_rubTextureMapData();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_rubTextureMapData();
   }; // Valve.VR.RenderModel_TextureMap_t
   #pragma pack(pop)
   static check_size<sizeof(RenderModel_TextureMap_t), 8 + sizeof(::System::IntPtr)> __Valve_VR_RenderModel_TextureMap_tSizeCheck;

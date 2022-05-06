@@ -58,15 +58,7 @@ namespace System::Xml::Linq {
     // Nested type: ::System::Xml::Linq::XObject::$Annotations$d__16_1<T>
     template<typename T>
     class $Annotations$d__16_1;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Xml.Linq.XContainer parent
     // Size: 0x8
     // Offset: 0x10
@@ -81,17 +73,24 @@ namespace System::Xml::Linq {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: System.Xml.Linq.XContainer parent
-    ::System::Xml::Linq::XContainer*& dyn_parent();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Linq::XContainer*& dyn_parent();
     // Get instance field reference: System.Object annotations
-    ::Il2CppObject*& dyn_annotations();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_annotations();
     // public System.Xml.XmlNodeType get_NodeType()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::XmlNodeType get_NodeType();
     // public System.Xml.Linq.XElement get_Parent()
-    // Offset: 0x2A4E5D0
+    // Offset: 0x2AA59B8
     ::System::Xml::Linq::XElement* get_Parent();
+    // System.Void .ctor()
+    // Offset: 0x2AA02F4
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static XObject* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XObject::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<XObject*, creationType>()));
+    }
     // public System.Object Annotation(System.Type type)
-    // Offset: 0x2A4E654
+    // Offset: 0x2AA5A3C
     ::Il2CppObject* Annotation(::System::Type* type);
     // public T Annotation()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -112,26 +111,17 @@ namespace System::Xml::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<T>*, false>(this, ___generic__method);
     }
     // System.Boolean NotifyChanged(System.Object sender, System.Xml.Linq.XObjectChangeEventArgs e)
-    // Offset: 0x2A4B4F4
+    // Offset: 0x2AA28DC
     bool NotifyChanged(::Il2CppObject* sender, ::System::Xml::Linq::XObjectChangeEventArgs* e);
     // System.Boolean NotifyChanging(System.Object sender, System.Xml.Linq.XObjectChangeEventArgs e)
-    // Offset: 0x2A4B43C
+    // Offset: 0x2AA2824
     bool NotifyChanging(::Il2CppObject* sender, ::System::Xml::Linq::XObjectChangeEventArgs* e);
     // System.Boolean SkipNotify()
-    // Offset: 0x2A4A7E8
+    // Offset: 0x2AA1BD0
     bool SkipNotify();
     // System.Xml.Linq.SaveOptions GetSaveOptionsFromAnnotations()
-    // Offset: 0x2A4E160
+    // Offset: 0x2AA5548
     ::System::Xml::Linq::SaveOptions GetSaveOptionsFromAnnotations();
-    // System.Void .ctor()
-    // Offset: 0x2A48F0C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XObject* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XObject::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<XObject*, creationType>()));
-    }
   }; // System.Xml.Linq.XObject
   #pragma pack(pop)
   static check_size<sizeof(XObject), 24 + sizeof(::Il2CppObject*)> __System_Xml_Linq_XObjectSizeCheck;
@@ -154,6 +144,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::X
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Linq::XObject*), "get_Parent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Xml::Linq::XObject::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::Linq::XObject::Annotation
 // Il2CppName: Annotation
 template<>
@@ -205,7 +199,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::X
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Linq::XObject*), "GetSaveOptionsFromAnnotations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Linq::XObject::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

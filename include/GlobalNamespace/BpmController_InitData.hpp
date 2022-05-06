@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BpmController::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Single startBpm
     // Size: 0x4
     // Offset: 0x10
@@ -44,9 +36,9 @@ namespace GlobalNamespace {
       return startBpm;
     }
     // Get instance field reference: public readonly System.Single startBpm
-    float& dyn_startBpm();
+    [[deprecated("Use field access instead!")]] float& dyn_startBpm();
     // public System.Void .ctor(System.Single startBpm)
-    // Offset: 0x134D8EC
+    // Offset: 0x1336B34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BpmController::InitData* New_ctor(float startBpm) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BpmController::InitData::.ctor");

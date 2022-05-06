@@ -93,15 +93,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::MultiplayerPlayersManager::$SwitchLocalPlayerToInactiveCoroutine$d__51
     class $SwitchLocalPlayerToInactiveCoroutine$d__51;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MultiplayerLocalActivePlayerFacade _activeLocalPlayerControllerPrefab
     // Size: 0x8
     // Offset: 0x18
@@ -132,35 +124,35 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerConnectedPlayerFacade* connectedPlayerDuelControllerPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerConnectedPlayerFacade*) == 0x8);
-    // [InjectAttribute] Offset: 0x1255000
+    // [InjectAttribute] Offset: 0x10D9BE4
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1255010
+    // [InjectAttribute] Offset: 0x10D9BF4
     // private readonly BeatmapObjectSpawnCenter _beatmapObjectSpawnCenter
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::BeatmapObjectSpawnCenter* beatmapObjectSpawnCenter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectSpawnCenter*) == 0x8);
-    // [InjectAttribute] Offset: 0x1255020
+    // [InjectAttribute] Offset: 0x10D9C04
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x1255030
+    // [InjectAttribute] Offset: 0x10D9C14
     // private readonly FadeInOutController _fadeInOutController
     // Size: 0x8
     // Offset: 0x58
     ::GlobalNamespace::FadeInOutController* fadeInOutController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FadeInOutController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1255040
+    // [InjectAttribute] Offset: 0x10D9C24
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x60
@@ -267,140 +259,134 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MultiplayerLocalActivePlayerFacade _activeLocalPlayerControllerPrefab
-    ::GlobalNamespace::MultiplayerLocalActivePlayerFacade*& dyn__activeLocalPlayerControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLocalActivePlayerFacade*& dyn__activeLocalPlayerControllerPrefab();
     // Get instance field reference: private MultiplayerLocalActivePlayerFacade _activeLocalPlayerDuelControllerPrefab
-    ::GlobalNamespace::MultiplayerLocalActivePlayerFacade*& dyn__activeLocalPlayerDuelControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLocalActivePlayerFacade*& dyn__activeLocalPlayerDuelControllerPrefab();
     // Get instance field reference: private MultiplayerLocalInactivePlayerFacade _inactiveLocalPlayerControllerPrefab
-    ::GlobalNamespace::MultiplayerLocalInactivePlayerFacade*& dyn__inactiveLocalPlayerControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLocalInactivePlayerFacade*& dyn__inactiveLocalPlayerControllerPrefab();
     // Get instance field reference: private MultiplayerConnectedPlayerFacade _connectedPlayerControllerPrefab
-    ::GlobalNamespace::MultiplayerConnectedPlayerFacade*& dyn__connectedPlayerControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerConnectedPlayerFacade*& dyn__connectedPlayerControllerPrefab();
     // Get instance field reference: private MultiplayerConnectedPlayerFacade _connectedPlayerDuelControllerPrefab
-    ::GlobalNamespace::MultiplayerConnectedPlayerFacade*& dyn__connectedPlayerDuelControllerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerConnectedPlayerFacade*& dyn__connectedPlayerDuelControllerPrefab();
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // Get instance field reference: private readonly BeatmapObjectSpawnCenter _beatmapObjectSpawnCenter
-    ::GlobalNamespace::BeatmapObjectSpawnCenter*& dyn__beatmapObjectSpawnCenter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectSpawnCenter*& dyn__beatmapObjectSpawnCenter();
     // Get instance field reference: private readonly MultiplayerLayoutProvider _layoutProvider
-    ::GlobalNamespace::MultiplayerLayoutProvider*& dyn__layoutProvider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLayoutProvider*& dyn__layoutProvider();
     // Get instance field reference: private readonly FadeInOutController _fadeInOutController
-    ::GlobalNamespace::FadeInOutController*& dyn__fadeInOutController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FadeInOutController*& dyn__fadeInOutController();
     // Get instance field reference: private readonly Zenject.DiContainer _container
-    ::Zenject::DiContainer*& dyn__container();
+    [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn__container();
     // Get instance field reference: private System.Boolean <playerSpawningFinished>k__BackingField
-    bool& dyn_$playerSpawningFinished$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$playerSpawningFinished$k__BackingField();
     // Get instance field reference: private System.Action playerSpawningDidFinishEvent
-    ::System::Action*& dyn_playerSpawningDidFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_playerSpawningDidFinishEvent();
     // Get instance field reference: private System.Action didSwitchPlayerToInactiveEvent
-    ::System::Action*& dyn_didSwitchPlayerToInactiveEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didSwitchPlayerToInactiveEvent();
     // Get instance field reference: private System.Action`1<MultiplayerLevelCompletionResults> playerDidFinishEvent
-    ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*& dyn_playerDidFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*& dyn_playerDidFinishEvent();
     // Get instance field reference: private System.Action`1<MultiplayerLevelCompletionResults> playerNetworkDidFailedEvent
-    ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*& dyn_playerNetworkDidFailedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*& dyn_playerNetworkDidFailedEvent();
     // Get instance field reference: private MultiplayerLocalActivePlayerFacade _activeLocalPlayerFacade
-    ::GlobalNamespace::MultiplayerLocalActivePlayerFacade*& dyn__activeLocalPlayerFacade();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLocalActivePlayerFacade*& dyn__activeLocalPlayerFacade();
     // Get instance field reference: private MultiplayerLocalInactivePlayerFacade _inactiveLocalPlayerFacade
-    ::GlobalNamespace::MultiplayerLocalInactivePlayerFacade*& dyn__inactiveLocalPlayerFacade();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLocalInactivePlayerFacade*& dyn__inactiveLocalPlayerFacade();
     // Get instance field reference: private IMultiplayerLevelEndActionsPublisher _currentEventsPublisher
-    ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*& dyn__currentEventsPublisher();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*& dyn__currentEventsPublisher();
     // Get instance field reference: private IStartSeekSongControllerProvider _currentStartSeekSongControllerProvider
-    ::GlobalNamespace::IStartSeekSongControllerProvider*& dyn__currentStartSeekSongControllerProvider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IStartSeekSongControllerProvider*& dyn__currentStartSeekSongControllerProvider();
     // Get instance field reference: private MultiplayerLocalActivePlayerFacade/Factory _activeLocalPlayerFactory
-    ::GlobalNamespace::MultiplayerLocalActivePlayerFacade::Factory*& dyn__activeLocalPlayerFactory();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLocalActivePlayerFacade::Factory*& dyn__activeLocalPlayerFactory();
     // Get instance field reference: private MultiplayerLocalInactivePlayerFacade/Factory _inactiveLocalPlayerFactory
-    ::GlobalNamespace::MultiplayerLocalInactivePlayerFacade::Factory*& dyn__inactiveLocalPlayerFactory();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLocalInactivePlayerFacade::Factory*& dyn__inactiveLocalPlayerFactory();
     // Get instance field reference: private MultiplayerConnectedPlayerFacade/Factory _connectedPlayerFactory
-    ::GlobalNamespace::MultiplayerConnectedPlayerFacade::Factory*& dyn__connectedPlayerFactory();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerConnectedPlayerFacade::Factory*& dyn__connectedPlayerFactory();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerConnectedPlayerFacade> _connectedPlayerControllersMap
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerConnectedPlayerFacade*>*& dyn__connectedPlayerControllersMap();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerConnectedPlayerFacade*>*& dyn__connectedPlayerControllersMap();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single> _connectedPlayerCenterFacingRotationsMap
-    ::System::Collections::Generic::Dictionary_2<::StringW, float>*& dyn__connectedPlayerCenterFacingRotationsMap();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, float>*& dyn__connectedPlayerCenterFacingRotationsMap();
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> _allActiveAtGameStartPlayers
-    ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>*& dyn__allActiveAtGameStartPlayers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>*& dyn__allActiveAtGameStartPlayers();
     // public System.Boolean get_playerSpawningFinished()
-    // Offset: 0x13A3A18
+    // Offset: 0x139FEC4
     bool get_playerSpawningFinished();
     // private System.Void set_playerSpawningFinished(System.Boolean value)
-    // Offset: 0x13A3A20
+    // Offset: 0x139FECC
     void set_playerSpawningFinished(bool value);
     // public System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> get_allActiveAtGameStartPlayers()
-    // Offset: 0x13A3A2C
+    // Offset: 0x139FED8
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* get_allActiveAtGameStartPlayers();
     // public IStartSeekSongControllerProvider get_localPlayerStartSeekSongController()
-    // Offset: 0x13A3A34
+    // Offset: 0x139FEE0
     ::GlobalNamespace::IStartSeekSongControllerProvider* get_localPlayerStartSeekSongController();
     // public MultiplayerLocalActivePlayerFacade get_activeLocalPlayerFacade()
-    // Offset: 0x13A3A3C
+    // Offset: 0x139FEE8
     ::GlobalNamespace::MultiplayerLocalActivePlayerFacade* get_activeLocalPlayerFacade();
     // public MultiplayerLocalInactivePlayerFacade get_inactivePlayerFacade()
-    // Offset: 0x13A3A44
+    // Offset: 0x139FEF0
     ::GlobalNamespace::MultiplayerLocalInactivePlayerFacade* get_inactivePlayerFacade();
     // public UnityEngine.Transform get_localPlayerTransform()
-    // Offset: 0x139EFE4
+    // Offset: 0x139B490
     ::UnityEngine::Transform* get_localPlayerTransform();
     // public System.Void add_playerSpawningDidFinishEvent(System.Action value)
-    // Offset: 0x13A02F8
+    // Offset: 0x139C7A4
     void add_playerSpawningDidFinishEvent(::System::Action* value);
     // public System.Void remove_playerSpawningDidFinishEvent(System.Action value)
-    // Offset: 0x13A0B88
+    // Offset: 0x139D034
     void remove_playerSpawningDidFinishEvent(::System::Action* value);
     // public System.Void add_didSwitchPlayerToInactiveEvent(System.Action value)
-    // Offset: 0x13A3A4C
+    // Offset: 0x139FEF8
     void add_didSwitchPlayerToInactiveEvent(::System::Action* value);
     // public System.Void remove_didSwitchPlayerToInactiveEvent(System.Action value)
-    // Offset: 0x13A3AF0
+    // Offset: 0x139FF9C
     void remove_didSwitchPlayerToInactiveEvent(::System::Action* value);
     // public System.Void add_playerDidFinishEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
-    // Offset: 0x13A3B94
+    // Offset: 0x13A0040
     void add_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void remove_playerDidFinishEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
-    // Offset: 0x13A3C38
+    // Offset: 0x13A00E4
     void remove_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void add_playerNetworkDidFailedEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
-    // Offset: 0x13A3CDC
+    // Offset: 0x13A0188
     void add_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void remove_playerNetworkDidFailedEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
-    // Offset: 0x13A3D80
+    // Offset: 0x13A022C
     void remove_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
-    // public System.Void SpawnPlayers(MultiplayerPlayerStartState localPlayerStartState, System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> allActiveAtGameStartPlayers)
-    // Offset: 0x13A3E24
-    void SpawnPlayers(::GlobalNamespace::MultiplayerPlayerStartState localPlayerStartState, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* allActiveAtGameStartPlayers);
-    // public System.Boolean TryGetConnectedPlayerController(System.String userId, out MultiplayerConnectedPlayerFacade connectedPlayerController)
-    // Offset: 0x139FB0C
-    bool TryGetConnectedPlayerController(::StringW userId, ByRef<::GlobalNamespace::MultiplayerConnectedPlayerFacade*> connectedPlayerController);
-    // public System.Boolean TryGetConnectedCenterFacingRotation(System.String userId, out System.Single centerFacingRotation)
-    // Offset: 0x13A49B0
-    bool TryGetConnectedCenterFacingRotation(::StringW userId, ByRef<float> centerFacingRotation);
-    // public System.Void SwitchLocalPlayerToInactive()
-    // Offset: 0x13A4A20
-    void SwitchLocalPlayerToInactive();
-    // public System.Void ReportLocalPlayerNetworkDidFailed(MultiplayerLevelCompletionResults levelCompletionResults)
-    // Offset: 0x13A4ABC
-    void ReportLocalPlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
-    // private System.Collections.IEnumerator SwitchLocalPlayerToInactiveCoroutine()
-    // Offset: 0x13A4A4C
-    ::System::Collections::IEnumerator* SwitchLocalPlayerToInactiveCoroutine();
-    // private System.Void BindPlayerFactories(MultiplayerPlayerLayout layout)
-    // Offset: 0x13A47B4
-    void BindPlayerFactories(::GlobalNamespace::MultiplayerPlayerLayout layout);
-    // private System.Void HandlePlayerDidFinish(MultiplayerLevelCompletionResults levelCompletionResults)
-    // Offset: 0x13A4B5C
-    void HandlePlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
-    // private System.Void HandlePlayerNetworkDidFailed(MultiplayerLevelCompletionResults levelCompletionResults)
-    // Offset: 0x13A4BD0
-    void HandlePlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0x13A4BD4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13A1080
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerPlayersManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerPlayersManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerPlayersManager*, creationType>()));
     }
+    // public System.Void SpawnPlayers(MultiplayerPlayerStartState localPlayerStartState, System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> allActiveAtGameStartPlayers)
+    // Offset: 0x13A02D0
+    void SpawnPlayers(::GlobalNamespace::MultiplayerPlayerStartState localPlayerStartState, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* allActiveAtGameStartPlayers);
+    // public System.Boolean TryGetConnectedPlayerController(System.String userId, out MultiplayerConnectedPlayerFacade connectedPlayerController)
+    // Offset: 0x139BFB8
+    bool TryGetConnectedPlayerController(::StringW userId, ByRef<::GlobalNamespace::MultiplayerConnectedPlayerFacade*> connectedPlayerController);
+    // public System.Boolean TryGetConnectedCenterFacingRotation(System.String userId, out System.Single centerFacingRotation)
+    // Offset: 0x13A0E5C
+    bool TryGetConnectedCenterFacingRotation(::StringW userId, ByRef<float> centerFacingRotation);
+    // public System.Void SwitchLocalPlayerToInactive()
+    // Offset: 0x13A0ECC
+    void SwitchLocalPlayerToInactive();
+    // public System.Void ReportLocalPlayerNetworkDidFailed(MultiplayerLevelCompletionResults levelCompletionResults)
+    // Offset: 0x13A0F68
+    void ReportLocalPlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
+    // private System.Collections.IEnumerator SwitchLocalPlayerToInactiveCoroutine()
+    // Offset: 0x13A0EF8
+    ::System::Collections::IEnumerator* SwitchLocalPlayerToInactiveCoroutine();
+    // private System.Void BindPlayerFactories(MultiplayerPlayerLayout layout)
+    // Offset: 0x13A0C60
+    void BindPlayerFactories(::GlobalNamespace::MultiplayerPlayerLayout layout);
+    // private System.Void HandlePlayerDidFinish(MultiplayerLevelCompletionResults levelCompletionResults)
+    // Offset: 0x13A1008
+    void HandlePlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
+    // private System.Void HandlePlayerNetworkDidFailed(MultiplayerLevelCompletionResults levelCompletionResults)
+    // Offset: 0x13A107C
+    void HandlePlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
   }; // MultiplayerPlayersManager
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerPlayersManager), 216 + sizeof(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>*)> __GlobalNamespace_MultiplayerPlayersManagerSizeCheck;
@@ -536,6 +522,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerPlayersManager*), "remove_playerNetworkDidFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerPlayersManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerPlayersManager::SpawnPlayers
 // Il2CppName: SpawnPlayers
 template<>
@@ -618,7 +608,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerPlayersManager*), "HandlePlayerNetworkDidFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelCompletionResults});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerPlayersManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

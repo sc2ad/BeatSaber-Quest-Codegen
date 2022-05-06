@@ -41,28 +41,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x1240368
+    // [DescriptionAttribute] Offset: 0x10C4E40
     // static field const value: static public Oculus.Platform.PermissionGrantStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.PermissionGrantStatus Unknown
     static ::Oculus::Platform::PermissionGrantStatus _get_Unknown();
     // Set static field: static public Oculus.Platform.PermissionGrantStatus Unknown
     static void _set_Unknown(::Oculus::Platform::PermissionGrantStatus value);
-    // [DescriptionAttribute] Offset: 0x12403A0
+    // [DescriptionAttribute] Offset: 0x10C4E78
     // static field const value: static public Oculus.Platform.PermissionGrantStatus Granted
     static constexpr const int Granted = 1;
     // Get static field: static public Oculus.Platform.PermissionGrantStatus Granted
     static ::Oculus::Platform::PermissionGrantStatus _get_Granted();
     // Set static field: static public Oculus.Platform.PermissionGrantStatus Granted
     static void _set_Granted(::Oculus::Platform::PermissionGrantStatus value);
-    // [DescriptionAttribute] Offset: 0x12403D8
+    // [DescriptionAttribute] Offset: 0x10C4EB0
     // static field const value: static public Oculus.Platform.PermissionGrantStatus Denied
     static constexpr const int Denied = 2;
     // Get static field: static public Oculus.Platform.PermissionGrantStatus Denied
     static ::Oculus::Platform::PermissionGrantStatus _get_Denied();
     // Set static field: static public Oculus.Platform.PermissionGrantStatus Denied
     static void _set_Denied(::Oculus::Platform::PermissionGrantStatus value);
-    // [DescriptionAttribute] Offset: 0x1240410
+    // [DescriptionAttribute] Offset: 0x10C4EE8
     // static field const value: static public Oculus.Platform.PermissionGrantStatus Blocked
     static constexpr const int Blocked = 3;
     // Get static field: static public Oculus.Platform.PermissionGrantStatus Blocked
@@ -70,7 +70,7 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.PermissionGrantStatus Blocked
     static void _set_Blocked(::Oculus::Platform::PermissionGrantStatus value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Oculus.Platform.PermissionGrantStatus
   #pragma pack(pop)
   static check_size<sizeof(PermissionGrantStatus), 0 + sizeof(int)> __Oculus_Platform_PermissionGrantStatusSizeCheck;

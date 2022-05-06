@@ -41,15 +41,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomFogSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean _bloomFogEnabled
     // Size: 0x1
     // Offset: 0x18
@@ -85,86 +77,79 @@ namespace GlobalNamespace {
     static ::StringW _get_kBloomFogEnabledKeyword();
     // Set static field: static private System.String kBloomFogEnabledKeyword
     static void _set_kBloomFogEnabledKeyword(::StringW value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12375E4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BC03C
     // Get static field: static private readonly System.Int32 _customFogAttenuationID
     static int _get__customFogAttenuationID();
     // Set static field: static private readonly System.Int32 _customFogAttenuationID
     static void _set__customFogAttenuationID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12375F4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BC04C
     // Get static field: static private readonly System.Int32 _customFogOffsetID
     static int _get__customFogOffsetID();
     // Set static field: static private readonly System.Int32 _customFogOffsetID
     static void _set__customFogOffsetID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1237604
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BC05C
     // Get static field: static private readonly System.Int32 _customFogHeightFogStartYID
     static int _get__customFogHeightFogStartYID();
     // Set static field: static private readonly System.Int32 _customFogHeightFogStartYID
     static void _set__customFogHeightFogStartYID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1237614
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BC06C
     // Get static field: static private readonly System.Int32 _customFogHeightFogHeightID
     static int _get__customFogHeightFogHeightID();
     // Set static field: static private readonly System.Int32 _customFogHeightFogHeightID
     static void _set__customFogHeightFogHeightID(int value);
     // Get instance field reference: private System.Boolean _bloomFogEnabled
-    bool& dyn__bloomFogEnabled();
+    [[deprecated("Use field access instead!")]] bool& dyn__bloomFogEnabled();
     // Get instance field reference: private System.Single _transition
-    float& dyn__transition();
+    [[deprecated("Use field access instead!")]] float& dyn__transition();
     // Get instance field reference: private BloomFogEnvironmentParams _defaultFogParams
-    ::GlobalNamespace::BloomFogEnvironmentParams*& dyn__defaultFogParams();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomFogEnvironmentParams*& dyn__defaultFogParams();
     // Get instance field reference: private BloomFogEnvironmentParams _transitionFogParams
-    ::GlobalNamespace::BloomFogEnvironmentParams*& dyn__transitionFogParams();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomFogEnvironmentParams*& dyn__transitionFogParams();
     // public System.Single get_transition()
-    // Offset: 0x2AC9828
+    // Offset: 0x1E72BF0
     float get_transition();
     // public System.Void set_transition(System.Single value)
-    // Offset: 0x2AC902C
+    // Offset: 0x1E723F4
     void set_transition(float value);
     // public BloomFogEnvironmentParams get_defaultForParams()
-    // Offset: 0x2AC9830
+    // Offset: 0x1E72BF8
     ::GlobalNamespace::BloomFogEnvironmentParams* get_defaultForParams();
     // public System.Void set_defaultForParams(BloomFogEnvironmentParams value)
-    // Offset: 0x2AC961C
+    // Offset: 0x1E729E4
     void set_defaultForParams(::GlobalNamespace::BloomFogEnvironmentParams* value);
     // public BloomFogEnvironmentParams get_transitionFogParams()
-    // Offset: 0x2AC9838
+    // Offset: 0x1E72C00
     ::GlobalNamespace::BloomFogEnvironmentParams* get_transitionFogParams();
     // public System.Void set_transitionFogParams(BloomFogEnvironmentParams value)
-    // Offset: 0x2AC943C
+    // Offset: 0x1E72804
     void set_transitionFogParams(::GlobalNamespace::BloomFogEnvironmentParams* value);
     // public System.Boolean get_bloomFogEnabled()
-    // Offset: 0x2AC9840
+    // Offset: 0x1E72C08
     bool get_bloomFogEnabled();
     // public System.Void set_bloomFogEnabled(System.Boolean value)
-    // Offset: 0x2AC90AC
+    // Offset: 0x1E72474
     void set_bloomFogEnabled(bool value);
-    // public System.Void Setup(BloomFogEnvironmentParams defaultFogParams)
-    // Offset: 0x2AC9044
-    void Setup(::GlobalNamespace::BloomFogEnvironmentParams* defaultFogParams);
-    // public System.Void UpdateShaderParams()
-    // Offset: 0x2AC9134
-    void UpdateShaderParams();
-    // static private System.Void SetParams(System.Single attenuation, System.Single offset, System.Single heightFogStartY, System.Single heightFogHeight)
-    // Offset: 0x2AC9870
-    static void SetParams(float attenuation, float offset, float heightFogStartY, float heightFogHeight);
     // public System.Void .ctor()
-    // Offset: 0x2AC9948
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E72D10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomFogSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomFogSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomFogSO*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2AC9958
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x1E72D20
     static void _cctor();
+    // public System.Void Setup(BloomFogEnvironmentParams defaultFogParams)
+    // Offset: 0x1E7240C
+    void Setup(::GlobalNamespace::BloomFogEnvironmentParams* defaultFogParams);
+    // public System.Void UpdateShaderParams()
+    // Offset: 0x1E724FC
+    void UpdateShaderParams();
+    // static private System.Void SetParams(System.Single attenuation, System.Single offset, System.Single heightFogStartY, System.Single heightFogHeight)
+    // Offset: 0x1E72C38
+    static void SetParams(float attenuation, float offset, float heightFogStartY, float heightFogHeight);
     // protected override System.Void OnEnable()
-    // Offset: 0x2AC9848
+    // Offset: 0x1E72C10
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
@@ -242,6 +227,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), "set_bloomFogEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BloomFogSO::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::Setup
 // Il2CppName: Setup
 template<>
@@ -269,18 +266,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(fl
     static auto* heightFogStartY = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* heightFogHeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), "SetParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attenuation, offset, heightFogStartY, heightFogHeight});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BloomFogSO::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::OnEnable

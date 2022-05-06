@@ -78,20 +78,20 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<MultiplayerStatusData> <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MultiplayerStatusData*>& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MultiplayerStatusData*>& dyn_$$t__builder();
     // Get instance field reference: public MultiplayerStatusModel <>4__this
-    ::GlobalNamespace::MultiplayerStatusModel*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerStatusModel*& dyn_$$4__this();
     // Get instance field reference: private System.UriBuilder <uriBuilder>5__2
-    ::System::UriBuilder*& dyn_$uriBuilder$5__2();
+    [[deprecated("Use field access instead!")]] ::System::UriBuilder*& dyn_$uriBuilder$5__2();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x13ACE84
+    // Offset: 0x13A9330
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x13AD680
+    // Offset: 0x13A9B2C
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MultiplayerStatusModel/<GetMultiplayerStatusAsyncInternal>d__9
   // WARNING Not writing size check since size may be invalid!

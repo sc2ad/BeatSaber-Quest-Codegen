@@ -54,23 +54,21 @@ namespace UnityEngine::AddressableAssets::Initialization {
       return *reinterpret_cast<::UnityEngine::ResourceManagement::Util::IInitializableObject*>(this);
     }
     // static public System.String get_RootPath()
-    // Offset: 0x188F4D0
+    // Offset: 0x18C8DE0
     static ::StringW get_RootPath();
-    // public System.Boolean Initialize(System.String id, System.String dataStr)
-    // Offset: 0x188F1F8
-    bool Initialize(::StringW id, ::StringW dataStr);
-    // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Boolean> InitializeAsync(UnityEngine.ResourceManagement.ResourceManager rm, System.String id, System.String data)
-    // Offset: 0x188F34C
-    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> InitializeAsync(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW id, ::StringW data);
     // public System.Void .ctor()
-    // Offset: 0x188F558
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18C8E68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CacheInitialization* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::Initialization::CacheInitialization::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CacheInitialization*, creationType>()));
     }
+    // public System.Boolean Initialize(System.String id, System.String dataStr)
+    // Offset: 0x18C8B08
+    bool Initialize(::StringW id, ::StringW dataStr);
+    // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Boolean> InitializeAsync(UnityEngine.ResourceManagement.ResourceManager rm, System.String id, System.String data)
+    // Offset: 0x18C8C5C
+    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> InitializeAsync(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW id, ::StringW data);
   }; // UnityEngine.AddressableAssets.Initialization.CacheInitialization
   #pragma pack(pop)
 }
@@ -83,6 +81,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::CacheInitialization*), "get_RootPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitialization::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitialization::Initialize
 // Il2CppName: Initialize
 template<>
@@ -104,7 +106,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::CacheInitialization*), "InitializeAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rm, id, data});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitialization::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

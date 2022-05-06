@@ -51,22 +51,14 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class HoverHint : public ::UnityEngine::MonoBehaviour/*, public ::UnityEngine::EventSystems::IPointerEnterHandler, public ::UnityEngine::EventSystems::IPointerExitHandler*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _text
     // Size: 0x8
     // Offset: 0x18
     ::StringW text;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [InjectAttribute] Offset: 0x123A96C
+    // [InjectAttribute] Offset: 0x10BF444
     // private readonly HMUI.HoverHintController _hoverHintController
     // Size: 0x8
     // Offset: 0x20
@@ -91,45 +83,39 @@ namespace HMUI {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _text
-    ::StringW& dyn__text();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__text();
     // Get instance field reference: private readonly HMUI.HoverHintController _hoverHintController
-    ::HMUI::HoverHintController*& dyn__hoverHintController();
+    [[deprecated("Use field access instead!")]] ::HMUI::HoverHintController*& dyn__hoverHintController();
     // Get instance field reference: private readonly UnityEngine.Vector3[] _worldCornersTemp
-    ::ArrayW<::UnityEngine::Vector3>& dyn__worldCornersTemp();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn__worldCornersTemp();
     // public System.String get_text()
-    // Offset: 0x16EBE50
+    // Offset: 0x1723760
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x16EBE58
+    // Offset: 0x1723768
     void set_text(::StringW value);
     // public UnityEngine.Vector2 get_size()
-    // Offset: 0x16EBE60
+    // Offset: 0x1723770
     ::UnityEngine::Vector2 get_size();
     // public UnityEngine.Vector3 get_worldCenter()
-    // Offset: 0x16EBEF8
+    // Offset: 0x1723808
     ::UnityEngine::Vector3 get_worldCenter();
-    // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x16EC080
-    void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
-    // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x16EC134
-    void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
-    // protected System.Void OnDisable()
-    // Offset: 0x16EC29C
-    void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x16EC32C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1723C3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HoverHint* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::HoverHint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HoverHint*, creationType>()));
     }
+    // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
+    // Offset: 0x1723990
+    void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
+    // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
+    // Offset: 0x1723A44
+    void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
+    // protected System.Void OnDisable()
+    // Offset: 0x1723BAC
+    void OnDisable();
   }; // HMUI.HoverHint
   #pragma pack(pop)
   static check_size<sizeof(HoverHint), 40 + sizeof(::ArrayW<::UnityEngine::Vector3>)> __HMUI_HoverHintSizeCheck;
@@ -169,6 +155,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHint*), "get_worldCenter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: HMUI::HoverHint::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::HoverHint::OnPointerEnter
 // Il2CppName: OnPointerEnter
 template<>
@@ -195,7 +185,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHint*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HMUI::HoverHint::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -55,15 +55,7 @@ namespace GlobalNamespace {
     struct $Initialize$d__6;
     // Nested type: ::GlobalNamespace::OculusDeviceConfigExperimentModel::$GetBooleanAsync$d__7
     struct $GetBooleanAsync$d__7;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Threading.Tasks.Task _initializationTask
     // Size: 0x8
     // Offset: 0x10
@@ -92,34 +84,36 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kIsEmployeeKey
     static void _set_kIsEmployeeKey(::StringW value);
     // Get instance field reference: private readonly System.Threading.Tasks.Task _initializationTask
-    ::System::Threading::Tasks::Task*& dyn__initializationTask();
-    // public System.Threading.Tasks.Task`1<System.Boolean> IsEmployee()
-    // Offset: 0x150E964
-    ::System::Threading::Tasks::Task_1<bool>* IsEmployee();
-    // public System.Threading.Tasks.Task`1<System.Boolean> IsInTest(IExperimentData data)
-    // Offset: 0x150EAD8
-    ::System::Threading::Tasks::Task_1<bool>* IsInTest(::GlobalNamespace::IExperimentData* data);
-    // private System.Threading.Tasks.Task Initialize()
-    // Offset: 0x150E87C
-    ::System::Threading::Tasks::Task* Initialize();
-    // private System.Threading.Tasks.Task`1<System.Boolean> GetBooleanAsync(System.String key)
-    // Offset: 0x150E9B4
-    ::System::Threading::Tasks::Task_1<bool>* GetBooleanAsync(::StringW key);
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::Task*& dyn__initializationTask();
     // public System.Void .ctor()
-    // Offset: 0x150E850
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1546158
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusDeviceConfigExperimentModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusDeviceConfigExperimentModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusDeviceConfigExperimentModel*, creationType>()));
     }
+    // public System.Threading.Tasks.Task`1<System.Boolean> IsEmployee()
+    // Offset: 0x154626C
+    ::System::Threading::Tasks::Task_1<bool>* IsEmployee();
+    // public System.Threading.Tasks.Task`1<System.Boolean> IsInTest(IExperimentData data)
+    // Offset: 0x15463E0
+    ::System::Threading::Tasks::Task_1<bool>* IsInTest(::GlobalNamespace::IExperimentData* data);
+    // private System.Threading.Tasks.Task Initialize()
+    // Offset: 0x1546184
+    ::System::Threading::Tasks::Task* Initialize();
+    // private System.Threading.Tasks.Task`1<System.Boolean> GetBooleanAsync(System.String key)
+    // Offset: 0x15462BC
+    ::System::Threading::Tasks::Task_1<bool>* GetBooleanAsync(::StringW key);
   }; // OculusDeviceConfigExperimentModel
   #pragma pack(pop)
   static check_size<sizeof(OculusDeviceConfigExperimentModel), 16 + sizeof(::System::Threading::Tasks::Task*)> __GlobalNamespace_OculusDeviceConfigExperimentModelSizeCheck;
   static_assert(sizeof(OculusDeviceConfigExperimentModel) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OculusDeviceConfigExperimentModel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OculusDeviceConfigExperimentModel::IsEmployee
 // Il2CppName: IsEmployee
 template<>
@@ -154,7 +148,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusDeviceConfigExperimentModel*), "GetBooleanAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OculusDeviceConfigExperimentModel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

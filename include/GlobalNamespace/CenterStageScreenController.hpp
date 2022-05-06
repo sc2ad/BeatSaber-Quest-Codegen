@@ -49,15 +49,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CenterStageScreenController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected MenuLightsPresetSO _defaultMenuLightsPreset
     // Size: 0x8
     // Offset: 0x18
@@ -76,7 +68,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MenuLightsPresetSO* countdownMenuLightsPreset;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MenuLightsPresetSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125C364
+    // [SpaceAttribute] Offset: 0x10E0F48
     // private BeatmapSelectionView _beatmapSelectionView
     // Size: 0x8
     // Offset: 0x30
@@ -89,7 +81,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::ModifiersSelectionView* modifiersSelectionView;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ModifiersSelectionView*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125C3AC
+    // [SpaceAttribute] Offset: 0x10E0F90
     // private CountdownController _countdownController
     // Size: 0x8
     // Offset: 0x40
@@ -102,14 +94,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator* multiplayerLobbyCenterScreenLayoutAnimator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0x125C3F4
+    // [InjectAttribute] Offset: 0x10E0FD8
     // private readonly ILobbyGameStateController _lobbyGameStateController
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::ILobbyGameStateController* lobbyGameStateController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILobbyGameStateController*) == 0x8);
-    // [InjectAttribute] Offset: 0x125C404
+    // [InjectAttribute] Offset: 0x10E0FE8
     // private readonly MenuLightsManager _menuLightsManager
     // Size: 0x8
     // Offset: 0x58
@@ -134,76 +126,70 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: protected MenuLightsPresetSO _defaultMenuLightsPreset
-    ::GlobalNamespace::MenuLightsPresetSO*& dyn__defaultMenuLightsPreset();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuLightsPresetSO*& dyn__defaultMenuLightsPreset();
     // Get instance field reference: protected MenuLightsPresetSO _lobbyLightsPreset
-    ::GlobalNamespace::MenuLightsPresetSO*& dyn__lobbyLightsPreset();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuLightsPresetSO*& dyn__lobbyLightsPreset();
     // Get instance field reference: protected MenuLightsPresetSO _countdownMenuLightsPreset
-    ::GlobalNamespace::MenuLightsPresetSO*& dyn__countdownMenuLightsPreset();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuLightsPresetSO*& dyn__countdownMenuLightsPreset();
     // Get instance field reference: private BeatmapSelectionView _beatmapSelectionView
-    ::GlobalNamespace::BeatmapSelectionView*& dyn__beatmapSelectionView();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapSelectionView*& dyn__beatmapSelectionView();
     // Get instance field reference: private ModifiersSelectionView _modifiersSelectionView
-    ::GlobalNamespace::ModifiersSelectionView*& dyn__modifiersSelectionView();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ModifiersSelectionView*& dyn__modifiersSelectionView();
     // Get instance field reference: private CountdownController _countdownController
-    ::GlobalNamespace::CountdownController*& dyn__countdownController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::CountdownController*& dyn__countdownController();
     // Get instance field reference: private MultiplayerLobbyCenterScreenLayoutAnimator _multiplayerLobbyCenterScreenLayoutAnimator
-    ::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator*& dyn__multiplayerLobbyCenterScreenLayoutAnimator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator*& dyn__multiplayerLobbyCenterScreenLayoutAnimator();
     // Get instance field reference: private readonly ILobbyGameStateController _lobbyGameStateController
-    ::GlobalNamespace::ILobbyGameStateController*& dyn__lobbyGameStateController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ILobbyGameStateController*& dyn__lobbyGameStateController();
     // Get instance field reference: private readonly MenuLightsManager _menuLightsManager
-    ::GlobalNamespace::MenuLightsManager*& dyn__menuLightsManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuLightsManager*& dyn__menuLightsManager();
     // Get instance field reference: private System.Boolean <countdownShown>k__BackingField
-    bool& dyn_$countdownShown$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$countdownShown$k__BackingField();
     // Get instance field reference: private System.Single _countdownEndTime
-    float& dyn__countdownEndTime();
+    [[deprecated("Use field access instead!")]] float& dyn__countdownEndTime();
     // public System.Boolean get_countdownShown()
-    // Offset: 0x1352C00
+    // Offset: 0x133BE48
     bool get_countdownShown();
     // private System.Void set_countdownShown(System.Boolean value)
-    // Offset: 0x1352C08
+    // Offset: 0x133BE50
     void set_countdownShown(bool value);
-    // public System.Void Setup(System.Boolean showModifiers)
-    // Offset: 0x1352C14
-    void Setup(bool showModifiers);
-    // public System.Void Show()
-    // Offset: 0x1352C50
-    void Show();
-    // public System.Void Hide()
-    // Offset: 0x1352F60
-    void Hide();
-    // public System.Void ShowCountdown(System.Single countdownEndTime)
-    // Offset: 0x13530DC
-    void ShowCountdown(float countdownEndTime);
-    // public System.Void HideCountdown(System.Boolean instant)
-    // Offset: 0x1353094
-    void HideCountdown(bool instant);
-    // public System.Void SetCountdownEndTime(System.Single countdownEndTime)
-    // Offset: 0x1353124
-    void SetCountdownEndTime(float countdownEndTime);
-    // public System.Void ShowCountdownColorPreset(System.Boolean animated)
-    // Offset: 0x135318C
-    void ShowCountdownColorPreset(bool animated);
-    // public System.Void ShowLobbyColorPreset(System.Boolean animated)
-    // Offset: 0x1352DE0
-    void ShowLobbyColorPreset(bool animated);
-    // private System.Void HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged(ILevelGameplaySetupData levelGameplaySetupData)
-    // Offset: 0x13531B8
-    void HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
-    // public System.Void SetNextGameplaySetupData(ILevelGameplaySetupData levelGameplaySetupData)
-    // Offset: 0x1352E0C
-    void SetNextGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
     // public System.Void .ctor()
-    // Offset: 0x13531BC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x133C404
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CenterStageScreenController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CenterStageScreenController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CenterStageScreenController*, creationType>()));
     }
+    // public System.Void Setup(System.Boolean showModifiers)
+    // Offset: 0x133BE5C
+    void Setup(bool showModifiers);
+    // public System.Void Show()
+    // Offset: 0x133BE98
+    void Show();
+    // public System.Void Hide()
+    // Offset: 0x133C1A8
+    void Hide();
+    // public System.Void ShowCountdown(System.Single countdownEndTime)
+    // Offset: 0x133C324
+    void ShowCountdown(float countdownEndTime);
+    // public System.Void HideCountdown(System.Boolean instant)
+    // Offset: 0x133C2DC
+    void HideCountdown(bool instant);
+    // public System.Void SetCountdownEndTime(System.Single countdownEndTime)
+    // Offset: 0x133C36C
+    void SetCountdownEndTime(float countdownEndTime);
+    // public System.Void ShowCountdownColorPreset(System.Boolean animated)
+    // Offset: 0x133C3D4
+    void ShowCountdownColorPreset(bool animated);
+    // public System.Void ShowLobbyColorPreset(System.Boolean animated)
+    // Offset: 0x133C028
+    void ShowLobbyColorPreset(bool animated);
+    // private System.Void HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged(ILevelGameplaySetupData levelGameplaySetupData)
+    // Offset: 0x133C400
+    void HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
+    // public System.Void SetNextGameplaySetupData(ILevelGameplaySetupData levelGameplaySetupData)
+    // Offset: 0x133C054
+    void SetNextGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
   }; // CenterStageScreenController
   #pragma pack(pop)
   static check_size<sizeof(CenterStageScreenController), 100 + sizeof(float)> __GlobalNamespace_CenterStageScreenControllerSizeCheck;
@@ -227,6 +213,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CenterStageScreenController*), "set_countdownShown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::Setup
 // Il2CppName: Setup
 template<>
@@ -315,7 +305,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CenterStageScreenController*), "SetNextGameplaySetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelGameplaySetupData});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

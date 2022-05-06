@@ -46,15 +46,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_AssetEventData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public HoudiniEngineUnity.HEU_HoudiniAsset Asset
     // Size: 0x8
     // Offset: 0x10
@@ -83,15 +75,15 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::HoudiniEngineUnity::HEU_AssetEventType) == 0x4);
     public:
     // Get instance field reference: public HoudiniEngineUnity.HEU_HoudiniAsset Asset
-    ::HoudiniEngineUnity::HEU_HoudiniAsset*& dyn_Asset();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_HoudiniAsset*& dyn_Asset();
     // Get instance field reference: public System.Boolean CookSuccess
-    bool& dyn_CookSuccess();
+    [[deprecated("Use field access instead!")]] bool& dyn_CookSuccess();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.GameObject> OutputObjects
-    ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*& dyn_OutputObjects();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*& dyn_OutputObjects();
     // Get instance field reference: public HoudiniEngineUnity.HEU_AssetEventType EventType
-    ::HoudiniEngineUnity::HEU_AssetEventType& dyn_EventType();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_AssetEventType& dyn_EventType();
     // public System.Void .ctor(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.Boolean successful, System.Collections.Generic.List`1<UnityEngine.GameObject> outputObjects)
-    // Offset: 0x16AC3D4
+    // Offset: 0x16E3CE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_AssetEventData* New_ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_AssetEventData::.ctor");

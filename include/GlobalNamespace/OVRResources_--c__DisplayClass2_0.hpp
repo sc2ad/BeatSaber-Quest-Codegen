@@ -25,15 +25,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OVRResources::$$c__DisplayClass2_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String path
     // Size: 0x8
     // Offset: 0x10
@@ -46,25 +38,27 @@ namespace GlobalNamespace {
       return path;
     }
     // Get instance field reference: public System.String path
-    ::StringW& dyn_path();
-    // System.Boolean <Load>b__0(System.String s)
-    // Offset: 0x1AE67BC
-    bool $Load$b__0(::StringW s);
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_path();
     // public System.Void .ctor()
-    // Offset: 0x1AE66F4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B20CDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRResources::$$c__DisplayClass2_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRResources::$$c__DisplayClass2_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRResources::$$c__DisplayClass2_0*, creationType>()));
     }
+    // System.Boolean <Load>b__0(System.String s)
+    // Offset: 0x1B20DA4
+    bool $Load$b__0(::StringW s);
   }; // OVRResources/<>c__DisplayClass2_0
   #pragma pack(pop)
   static check_size<sizeof(OVRResources::$$c__DisplayClass2_0), 16 + sizeof(::StringW)> __GlobalNamespace_OVRResources_$$c__DisplayClass2_0SizeCheck;
   static_assert(sizeof(OVRResources::$$c__DisplayClass2_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OVRResources::$$c__DisplayClass2_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVRResources::$$c__DisplayClass2_0::$Load$b__0
 // Il2CppName: <Load>b__0
 template<>
@@ -74,7 +68,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRResources::$$c__DisplayClass2_0*), "<Load>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OVRResources::$$c__DisplayClass2_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

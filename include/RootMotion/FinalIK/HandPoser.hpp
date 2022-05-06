@@ -38,15 +38,7 @@ namespace RootMotion::FinalIK {
     public:
     // Writing base type padding for base size: 0x4D to desired offset: 0x50
     char ___base_padding[0x3] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected UnityEngine.Transform[] children
     // Size: 0x8
     // Offset: 0x50
@@ -79,50 +71,45 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::ArrayW<::UnityEngine::Quaternion>) == 0x8);
     public:
     // Get instance field reference: protected UnityEngine.Transform[] children
-    ::ArrayW<::UnityEngine::Transform*>& dyn_children();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Transform*>& dyn_children();
     // Get instance field reference: private UnityEngine.Transform _poseRoot
-    ::UnityEngine::Transform*& dyn__poseRoot();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__poseRoot();
     // Get instance field reference: private UnityEngine.Transform[] poseChildren
-    ::ArrayW<::UnityEngine::Transform*>& dyn_poseChildren();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Transform*>& dyn_poseChildren();
     // Get instance field reference: private UnityEngine.Vector3[] defaultLocalPositions
-    ::ArrayW<::UnityEngine::Vector3>& dyn_defaultLocalPositions();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn_defaultLocalPositions();
     // Get instance field reference: private UnityEngine.Quaternion[] defaultLocalRotations
-    ::ArrayW<::UnityEngine::Quaternion>& dyn_defaultLocalRotations();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Quaternion>& dyn_defaultLocalRotations();
     // protected System.Void StoreDefaultState()
-    // Offset: 0x21D3244
+    // Offset: 0x2220AB8
     void StoreDefaultState();
     // public System.Void .ctor()
-    // Offset: 0x21D384C
+    // Offset: 0x22210C0
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::.ctor()
     // Base method: System.Void SolverManager::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HandPoser* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::HandPoser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HandPoser*, creationType>()));
     }
     // public override System.Void AutoMapping()
-    // Offset: 0x21D3134
+    // Offset: 0x22209A8
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::AutoMapping()
     void AutoMapping();
     // protected override System.Void InitiatePoser()
-    // Offset: 0x21D31E8
+    // Offset: 0x2220A5C
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::InitiatePoser()
     void InitiatePoser();
     // protected override System.Void FixPoserTransforms()
-    // Offset: 0x21D33A0
+    // Offset: 0x2220C14
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::FixPoserTransforms()
     void FixPoserTransforms();
     // protected override System.Void UpdatePoser()
-    // Offset: 0x21D349C
+    // Offset: 0x2220D10
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::UpdatePoser()
     void UpdatePoser();

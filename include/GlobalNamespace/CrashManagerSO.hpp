@@ -36,15 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CrashManagerSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _logString
     // Size: 0x8
     // Offset: 0x18
@@ -61,36 +53,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _logString
-    ::StringW& dyn__logString();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__logString();
     // Get instance field reference: private System.String _stackTrace
-    ::StringW& dyn__stackTrace();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__stackTrace();
     // public System.String get_logString()
-    // Offset: 0x1406E48
+    // Offset: 0x1426BF4
     ::StringW get_logString();
     // public System.String get_stackTrace()
-    // Offset: 0x1406E50
+    // Offset: 0x1426BFC
     ::StringW get_stackTrace();
-    // public System.Void StartCatchingExceptions()
-    // Offset: 0x1406E58
-    void StartCatchingExceptions();
-    // protected System.Void OnDisable()
-    // Offset: 0x1406ECC
-    void OnDisable();
-    // private System.Void HandleLog(System.String logString, System.String stackTrace, UnityEngine.LogType type)
-    // Offset: 0x1406F40
-    void HandleLog(::StringW logString, ::StringW stackTrace, ::UnityEngine::LogType type);
     // public System.Void .ctor()
-    // Offset: 0x1406FE4
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1426D90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrashManagerSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CrashManagerSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrashManagerSO*, creationType>()));
     }
+    // public System.Void StartCatchingExceptions()
+    // Offset: 0x1426C04
+    void StartCatchingExceptions();
+    // protected System.Void OnDisable()
+    // Offset: 0x1426C78
+    void OnDisable();
+    // private System.Void HandleLog(System.String logString, System.String stackTrace, UnityEngine.LogType type)
+    // Offset: 0x1426CEC
+    void HandleLog(::StringW logString, ::StringW stackTrace, ::UnityEngine::LogType type);
   }; // CrashManagerSO
   #pragma pack(pop)
   static check_size<sizeof(CrashManagerSO), 32 + sizeof(::StringW)> __GlobalNamespace_CrashManagerSOSizeCheck;
@@ -113,6 +100,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CrashManagerSO*), "get_stackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::CrashManagerSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CrashManagerSO::StartCatchingExceptions
 // Il2CppName: StartCatchingExceptions
 template<>
@@ -140,7 +131,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CrashManagerSO*), "HandleLog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{logString, stackTrace, type});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CrashManagerSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

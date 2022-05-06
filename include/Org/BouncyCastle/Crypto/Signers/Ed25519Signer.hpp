@@ -48,15 +48,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     public:
     // Nested type: ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer::Buffer
     class Buffer;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Crypto.Signers.Ed25519Signer/Org.BouncyCastle.Crypto.Signers.Buffer buffer
     // Size: 0x8
     // Offset: 0x10
@@ -89,40 +81,42 @@ namespace Org::BouncyCastle::Crypto::Signers {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::ISigner*>(this);
     }
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Signers.Ed25519Signer/Org.BouncyCastle.Crypto.Signers.Buffer buffer
-    ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer::Buffer*& dyn_buffer();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer::Buffer*& dyn_buffer();
     // Get instance field reference: private System.Boolean forSigning
-    bool& dyn_forSigning();
+    [[deprecated("Use field access instead!")]] bool& dyn_forSigning();
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.Ed25519PrivateKeyParameters privateKey
-    ::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters*& dyn_privateKey();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters*& dyn_privateKey();
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.Ed25519PublicKeyParameters publicKey
-    ::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*& dyn_publicKey();
-    // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x15C8704
-    void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-    // public System.Void BlockUpdate(System.Byte[] buf, System.Int32 off, System.Int32 len)
-    // Offset: 0x15C87BC
-    void BlockUpdate(::ArrayW<uint8_t> buf, int off, int len);
-    // public System.Byte[] GenerateSignature()
-    // Offset: 0x15C87E0
-    ::ArrayW<uint8_t> GenerateSignature();
-    // public System.Void Reset()
-    // Offset: 0x15C89D4
-    void Reset();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*& dyn_publicKey();
     // public System.Void .ctor()
-    // Offset: 0x15C8694
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15FDFA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ed25519Signer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Signers::Ed25519Signer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Ed25519Signer*, creationType>()));
     }
+    // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
+    // Offset: 0x15FE014
+    void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // public System.Void BlockUpdate(System.Byte[] buf, System.Int32 off, System.Int32 len)
+    // Offset: 0x15FE0CC
+    void BlockUpdate(::ArrayW<uint8_t> buf, int off, int len);
+    // public System.Byte[] GenerateSignature()
+    // Offset: 0x15FE0F0
+    ::ArrayW<uint8_t> GenerateSignature();
+    // public System.Void Reset()
+    // Offset: 0x15FE2E4
+    void Reset();
   }; // Org.BouncyCastle.Crypto.Signers.Ed25519Signer
   #pragma pack(pop)
   static check_size<sizeof(Ed25519Signer), 40 + sizeof(::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*)> __Org_BouncyCastle_Crypto_Signers_Ed25519SignerSizeCheck;
   static_assert(sizeof(Ed25519Signer) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::Ed25519Signer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::Ed25519Signer::Init
 // Il2CppName: Init
 template<>
@@ -160,7 +154,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::Ed25519Signer*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::Ed25519Signer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

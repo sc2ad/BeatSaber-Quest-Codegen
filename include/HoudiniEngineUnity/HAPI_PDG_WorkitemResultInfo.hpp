@@ -51,11 +51,11 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 resultSH
-    int& dyn_resultSH();
+    [[deprecated("Use field access instead!")]] int& dyn_resultSH();
     // Get instance field reference: public System.Int32 resultTagSH
-    int& dyn_resultTagSH();
+    [[deprecated("Use field access instead!")]] int& dyn_resultTagSH();
     // Get instance field reference: public System.Int64 resultHash
-    int64_t& dyn_resultHash();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_resultHash();
   }; // HoudiniEngineUnity.HAPI_PDG_WorkitemResultInfo
   #pragma pack(pop)
   static check_size<sizeof(HAPI_PDG_WorkitemResultInfo), 8 + sizeof(int64_t)> __HoudiniEngineUnity_HAPI_PDG_WorkitemResultInfoSizeCheck;

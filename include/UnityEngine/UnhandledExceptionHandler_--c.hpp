@@ -42,20 +42,18 @@ namespace UnityEngine {
     // Set static field: static public System.UnhandledExceptionEventHandler <>9__0_0
     static void _set_$$9__0_0(::System::UnhandledExceptionEventHandler* value);
     // static private System.Void .cctor()
-    // Offset: 0x2777A30
+    // Offset: 0x27C7F40
     static void _cctor();
-    // System.Void <RegisterUECatcher>b__0_0(System.Object sender, System.UnhandledExceptionEventArgs e)
-    // Offset: 0x2777A9C
-    void $RegisterUECatcher$b__0_0(::Il2CppObject* sender, ::System::UnhandledExceptionEventArgs* e);
     // public System.Void .ctor()
-    // Offset: 0x2777A94
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x27C7FA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnhandledExceptionHandler::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UnhandledExceptionHandler::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnhandledExceptionHandler::$$c*, creationType>()));
     }
+    // System.Void <RegisterUECatcher>b__0_0(System.Object sender, System.UnhandledExceptionEventArgs e)
+    // Offset: 0x27C7FAC
+    void $RegisterUECatcher$b__0_0(::Il2CppObject* sender, ::System::UnhandledExceptionEventArgs* e);
   }; // UnityEngine.UnhandledExceptionHandler/UnityEngine.<>c
   #pragma pack(pop)
 }
@@ -68,6 +66,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UnhandledExceptionHandler::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::UnhandledExceptionHandler::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::UnhandledExceptionHandler::$$c::$RegisterUECatcher$b__0_0
 // Il2CppName: <RegisterUECatcher>b__0_0
 template<>
@@ -78,7 +80,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UnhandledExceptionHandler::$$c*), "<RegisterUECatcher>b__0_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sender, e});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::UnhandledExceptionHandler::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

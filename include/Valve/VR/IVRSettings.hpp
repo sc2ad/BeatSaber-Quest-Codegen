@@ -133,29 +133,29 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: Valve.VR.IVRSettings/Valve.VR._GetSettingsErrorNameFromEnum GetSettingsErrorNameFromEnum
-    ::Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum*& dyn_GetSettingsErrorNameFromEnum();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum*& dyn_GetSettingsErrorNameFromEnum();
     // Get instance field reference: Valve.VR.IVRSettings/Valve.VR._Sync Sync
-    ::Valve::VR::IVRSettings::_Sync*& dyn_Sync();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSettings::_Sync*& dyn_Sync();
     // Get instance field reference: Valve.VR.IVRSettings/Valve.VR._SetBool SetBool
-    ::Valve::VR::IVRSettings::_SetBool*& dyn_SetBool();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSettings::_SetBool*& dyn_SetBool();
     // Get instance field reference: Valve.VR.IVRSettings/Valve.VR._SetInt32 SetInt32
-    ::Valve::VR::IVRSettings::_SetInt32*& dyn_SetInt32();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSettings::_SetInt32*& dyn_SetInt32();
     // Get instance field reference: Valve.VR.IVRSettings/Valve.VR._SetFloat SetFloat
-    ::Valve::VR::IVRSettings::_SetFloat*& dyn_SetFloat();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSettings::_SetFloat*& dyn_SetFloat();
     // Get instance field reference: Valve.VR.IVRSettings/Valve.VR._SetString SetString
-    ::Valve::VR::IVRSettings::_SetString*& dyn_SetString();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSettings::_SetString*& dyn_SetString();
     // Get instance field reference: Valve.VR.IVRSettings/Valve.VR._GetBool GetBool
-    ::Valve::VR::IVRSettings::_GetBool*& dyn_GetBool();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSettings::_GetBool*& dyn_GetBool();
     // Get instance field reference: Valve.VR.IVRSettings/Valve.VR._GetInt32 GetInt32
-    ::Valve::VR::IVRSettings::_GetInt32*& dyn_GetInt32();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSettings::_GetInt32*& dyn_GetInt32();
     // Get instance field reference: Valve.VR.IVRSettings/Valve.VR._GetFloat GetFloat
-    ::Valve::VR::IVRSettings::_GetFloat*& dyn_GetFloat();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSettings::_GetFloat*& dyn_GetFloat();
     // Get instance field reference: Valve.VR.IVRSettings/Valve.VR._GetString GetString
-    ::Valve::VR::IVRSettings::_GetString*& dyn_GetString();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSettings::_GetString*& dyn_GetString();
     // Get instance field reference: Valve.VR.IVRSettings/Valve.VR._RemoveSection RemoveSection
-    ::Valve::VR::IVRSettings::_RemoveSection*& dyn_RemoveSection();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSettings::_RemoveSection*& dyn_RemoveSection();
     // Get instance field reference: Valve.VR.IVRSettings/Valve.VR._RemoveKeyInSection RemoveKeyInSection
-    ::Valve::VR::IVRSettings::_RemoveKeyInSection*& dyn_RemoveKeyInSection();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSettings::_RemoveKeyInSection*& dyn_RemoveKeyInSection();
   }; // Valve.VR.IVRSettings
   #pragma pack(pop)
   static check_size<sizeof(IVRSettings), 88 + sizeof(::Valve::VR::IVRSettings::_RemoveKeyInSection*)> __Valve_VR_IVRSettingsSizeCheck;

@@ -84,20 +84,12 @@ namespace GlobalNamespace {
       // Set static field: static public OVRControllerHelper/ControllerType Quest2
       static void _set_Quest2(::GlobalNamespace::OVRControllerHelper::ControllerType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // OVRControllerHelper/ControllerType
     #pragma pack(pop)
     static check_size<sizeof(OVRControllerHelper::ControllerType), 0 + sizeof(int)> __GlobalNamespace_OVRControllerHelper_ControllerTypeSizeCheck;
     static_assert(sizeof(OVRControllerHelper::ControllerType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.GameObject m_modelOculusTouchQuestAndRiftSLeftController
     // Size: 0x8
     // Offset: 0x18
@@ -170,46 +162,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.GameObject m_modelOculusTouchQuestAndRiftSLeftController
-    ::UnityEngine::GameObject*& dyn_m_modelOculusTouchQuestAndRiftSLeftController();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_m_modelOculusTouchQuestAndRiftSLeftController();
     // Get instance field reference: public UnityEngine.GameObject m_modelOculusTouchQuestAndRiftSRightController
-    ::UnityEngine::GameObject*& dyn_m_modelOculusTouchQuestAndRiftSRightController();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_m_modelOculusTouchQuestAndRiftSRightController();
     // Get instance field reference: public UnityEngine.GameObject m_modelOculusTouchRiftLeftController
-    ::UnityEngine::GameObject*& dyn_m_modelOculusTouchRiftLeftController();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_m_modelOculusTouchRiftLeftController();
     // Get instance field reference: public UnityEngine.GameObject m_modelOculusTouchRiftRightController
-    ::UnityEngine::GameObject*& dyn_m_modelOculusTouchRiftRightController();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_m_modelOculusTouchRiftRightController();
     // Get instance field reference: public UnityEngine.GameObject m_modelOculusTouchQuest2LeftController
-    ::UnityEngine::GameObject*& dyn_m_modelOculusTouchQuest2LeftController();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_m_modelOculusTouchQuest2LeftController();
     // Get instance field reference: public UnityEngine.GameObject m_modelOculusTouchQuest2RightController
-    ::UnityEngine::GameObject*& dyn_m_modelOculusTouchQuest2RightController();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_m_modelOculusTouchQuest2RightController();
     // Get instance field reference: public OVRInput/Controller m_controller
-    ::GlobalNamespace::OVRInput::Controller& dyn_m_controller();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRInput::Controller& dyn_m_controller();
     // Get instance field reference: private UnityEngine.Animator m_animator
-    ::UnityEngine::Animator*& dyn_m_animator();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Animator*& dyn_m_animator();
     // Get instance field reference: private OVRControllerHelper/ControllerType activeControllerType
-    ::GlobalNamespace::OVRControllerHelper::ControllerType& dyn_activeControllerType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRControllerHelper::ControllerType& dyn_activeControllerType();
     // Get instance field reference: private System.Boolean m_prevControllerConnected
-    bool& dyn_m_prevControllerConnected();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_prevControllerConnected();
     // Get instance field reference: private System.Boolean m_prevControllerConnectedCached
-    bool& dyn_m_prevControllerConnectedCached();
-    // private System.Void Start()
-    // Offset: 0x161E860
-    void Start();
-    // private System.Void Update()
-    // Offset: 0x161EA80
-    void Update();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_prevControllerConnectedCached();
     // public System.Void .ctor()
-    // Offset: 0x161EFE4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16548F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRControllerHelper* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRControllerHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRControllerHelper*, creationType>()));
     }
+    // private System.Void Start()
+    // Offset: 0x1654170
+    void Start();
+    // private System.Void Update()
+    // Offset: 0x1654390
+    void Update();
   }; // OVRControllerHelper
   #pragma pack(pop)
   static check_size<sizeof(OVRControllerHelper), 93 + sizeof(bool)> __GlobalNamespace_OVRControllerHelperSizeCheck;
@@ -218,6 +204,10 @@ namespace GlobalNamespace {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRControllerHelper::ControllerType, "", "OVRControllerHelper/ControllerType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerHelper::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVRControllerHelper::Start
 // Il2CppName: Start
 template<>
@@ -234,7 +224,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerHelper*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OVRControllerHelper::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

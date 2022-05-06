@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_Events::ActionNoArgs : public ::GlobalNamespace::SteamVR_Events::Action {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private SteamVR_Events/Event _event
     // Size: 0x8
     // Offset: 0x10
@@ -55,18 +47,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Events::UnityAction*) == 0x8);
     public:
     // Get instance field reference: private SteamVR_Events/Event _event
-    ::GlobalNamespace::SteamVR_Events::Event*& dyn__event();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SteamVR_Events::Event*& dyn__event();
     // Get instance field reference: private UnityEngine.Events.UnityAction action
-    ::UnityEngine::Events::UnityAction*& dyn_action();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Events::UnityAction*& dyn_action();
     // public System.Void .ctor(SteamVR_Events/Event _event, UnityEngine.Events.UnityAction action)
-    // Offset: 0x186A33C
+    // Offset: 0x18A3C4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Events::ActionNoArgs* New_ctor(::GlobalNamespace::SteamVR_Events::Event* _event, ::UnityEngine::Events::UnityAction* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Events::ActionNoArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Events::ActionNoArgs*, creationType>(_event, action)));
     }
     // public override System.Void Enable(System.Boolean enabled)
-    // Offset: 0x186ACF8
+    // Offset: 0x18A4608
     // Implemented from: SteamVR_Events/Action
     // Base method: System.Void Action::Enable(System.Boolean enabled)
     void Enable(bool enabled);

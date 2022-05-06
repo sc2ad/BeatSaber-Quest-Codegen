@@ -44,22 +44,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLobbyAnalytics : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private GameServerLobbyFlowCoordinator _gameServerLobbyFlowCoordinator
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::GameServerLobbyFlowCoordinator* gameServerLobbyFlowCoordinator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameServerLobbyFlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0x1249C40
+    // [InjectAttribute] Offset: 0x10CE738
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x20
@@ -70,52 +62,50 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private GameServerLobbyFlowCoordinator _gameServerLobbyFlowCoordinator
-    ::GlobalNamespace::GameServerLobbyFlowCoordinator*& dyn__gameServerLobbyFlowCoordinator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameServerLobbyFlowCoordinator*& dyn__gameServerLobbyFlowCoordinator();
     // Get instance field reference: private readonly IAnalyticsModel _analyticsModel
-    ::GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
-    // protected System.Void Awake()
-    // Offset: 0x13F8BDC
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13F8D1C
-    void OnDestroy();
-    // private System.Void HandleGameServerLobbyFlowCoordinatorDidSetupEvent()
-    // Offset: 0x13F8EA4
-    void HandleGameServerLobbyFlowCoordinatorDidSetupEvent();
-    // private System.Void HandleGameServerLobbyFlowCoordinatorDidFinish()
-    // Offset: 0x13F9040
-    void HandleGameServerLobbyFlowCoordinatorDidFinish();
-    // private System.Void HandleGameServerLobbyFlowCoordinatorStartGameOrReady()
-    // Offset: 0x13F91F0
-    void HandleGameServerLobbyFlowCoordinatorStartGameOrReady();
-    // private System.Void HandleGameServerLobbyFlowCoordinatorDidOpenInvitePanel()
-    // Offset: 0x13F92BC
-    void HandleGameServerLobbyFlowCoordinatorDidOpenInvitePanel();
-    // private System.Void LogClick(System.Collections.Generic.Dictionary`2<System.String,System.String> clickData)
-    // Offset: 0x13F910C
-    void LogClick(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* clickData);
-    // private System.String GetEventTypeFromLobbyType(GameServerLobbyFlowCoordinator/LobbyType lobbyType)
-    // Offset: 0x13F8FDC
-    ::StringW GetEventTypeFromLobbyType(::GlobalNamespace::GameServerLobbyFlowCoordinator::LobbyType lobbyType);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
     // public System.Void .ctor()
-    // Offset: 0x13F9388
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1405E28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLobbyAnalytics* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLobbyAnalytics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLobbyAnalytics*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x140567C
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x14057BC
+    void OnDestroy();
+    // private System.Void HandleGameServerLobbyFlowCoordinatorDidSetupEvent()
+    // Offset: 0x1405944
+    void HandleGameServerLobbyFlowCoordinatorDidSetupEvent();
+    // private System.Void HandleGameServerLobbyFlowCoordinatorDidFinish()
+    // Offset: 0x1405AE0
+    void HandleGameServerLobbyFlowCoordinatorDidFinish();
+    // private System.Void HandleGameServerLobbyFlowCoordinatorStartGameOrReady()
+    // Offset: 0x1405C90
+    void HandleGameServerLobbyFlowCoordinatorStartGameOrReady();
+    // private System.Void HandleGameServerLobbyFlowCoordinatorDidOpenInvitePanel()
+    // Offset: 0x1405D5C
+    void HandleGameServerLobbyFlowCoordinatorDidOpenInvitePanel();
+    // private System.Void LogClick(System.Collections.Generic.Dictionary`2<System.String,System.String> clickData)
+    // Offset: 0x1405BAC
+    void LogClick(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* clickData);
+    // private System.String GetEventTypeFromLobbyType(GameServerLobbyFlowCoordinator/LobbyType lobbyType)
+    // Offset: 0x1405A7C
+    ::StringW GetEventTypeFromLobbyType(::GlobalNamespace::GameServerLobbyFlowCoordinator::LobbyType lobbyType);
   }; // MultiplayerLobbyAnalytics
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLobbyAnalytics), 32 + sizeof(::GlobalNamespace::IAnalyticsModel*)> __GlobalNamespace_MultiplayerLobbyAnalyticsSizeCheck;
   static_assert(sizeof(MultiplayerLobbyAnalytics) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAnalytics::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAnalytics::Awake
 // Il2CppName: Awake
 template<>
@@ -182,7 +172,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAnalytics*), "GetEventTypeFromLobbyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lobbyType});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAnalytics::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

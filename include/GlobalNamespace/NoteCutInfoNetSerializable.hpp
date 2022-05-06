@@ -54,15 +54,7 @@ namespace GlobalNamespace {
   // [PreserveAttribute] Offset: FFFFFFFF
   class NoteCutInfoNetSerializable : public ::Il2CppObject/*, public ::LiteNetLib::Utils::INetSerializable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single saberSpeed
     // Size: 0x4
     // Offset: 0x10
@@ -161,70 +153,72 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
     // Get instance field reference: public System.Single saberSpeed
-    float& dyn_saberSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn_saberSpeed();
     // Get instance field reference: public System.Boolean cutWasOk
-    bool& dyn_cutWasOk();
+    [[deprecated("Use field access instead!")]] bool& dyn_cutWasOk();
     // Get instance field reference: public Vector3Serializable saberDir
-    ::GlobalNamespace::Vector3Serializable& dyn_saberDir();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3Serializable& dyn_saberDir();
     // Get instance field reference: public Vector3Serializable cutPoint
-    ::GlobalNamespace::Vector3Serializable& dyn_cutPoint();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3Serializable& dyn_cutPoint();
     // Get instance field reference: public Vector3Serializable cutNormal
-    ::GlobalNamespace::Vector3Serializable& dyn_cutNormal();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3Serializable& dyn_cutNormal();
     // Get instance field reference: public Vector3Serializable notePosition
-    ::GlobalNamespace::Vector3Serializable& dyn_notePosition();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3Serializable& dyn_notePosition();
     // Get instance field reference: public Vector3Serializable noteScale
-    ::GlobalNamespace::Vector3Serializable& dyn_noteScale();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3Serializable& dyn_noteScale();
     // Get instance field reference: public QuaternionSerializable noteRotation
-    ::GlobalNamespace::QuaternionSerializable& dyn_noteRotation();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::QuaternionSerializable& dyn_noteRotation();
     // Get instance field reference: public NoteData/GameplayType gameplayType
-    ::GlobalNamespace::NoteData::GameplayType& dyn_gameplayType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteData::GameplayType& dyn_gameplayType();
     // Get instance field reference: public ColorType colorType
-    ::GlobalNamespace::ColorType& dyn_colorType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorType& dyn_colorType();
     // Get instance field reference: public System.Single noteTime
-    float& dyn_noteTime();
+    [[deprecated("Use field access instead!")]] float& dyn_noteTime();
     // Get instance field reference: public System.Int32 noteLineIndex
-    int& dyn_noteLineIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_noteLineIndex();
     // Get instance field reference: public NoteLineLayer lineLayer
-    ::GlobalNamespace::NoteLineLayer& dyn_lineLayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteLineLayer& dyn_lineLayer();
     // Get instance field reference: public System.Single timeToNextColorNote
-    float& dyn_timeToNextColorNote();
+    [[deprecated("Use field access instead!")]] float& dyn_timeToNextColorNote();
     // Get instance field reference: public Vector3Serializable moveVec
-    ::GlobalNamespace::Vector3Serializable& dyn_moveVec();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3Serializable& dyn_moveVec();
+    // public System.Void .ctor()
+    // Offset: 0x2A02F84
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static NoteCutInfoNetSerializable* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutInfoNetSerializable::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<NoteCutInfoNetSerializable*, creationType>()));
+    }
     // public System.Void .ctor(in NoteCutInfo noteCutInfo, NoteData noteData, UnityEngine.Vector3 notePosition, UnityEngine.Quaternion noteRotation, UnityEngine.Vector3 noteScale, UnityEngine.Vector3 moveVec)
-    // Offset: 0x29C0C18
+    // Offset: 0x2A02F8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutInfoNetSerializable* New_ctor(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteData* noteData, ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 noteScale, ::UnityEngine::Vector3 moveVec) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutInfoNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutInfoNetSerializable*, creationType>(byref(noteCutInfo), noteData, notePosition, noteRotation, noteScale, moveVec)));
     }
     // public System.Void .ctor(System.Single saberSpeed, System.Boolean cutWasOk, UnityEngine.Vector3 saberDir, UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, NoteData/GameplayType gameplayType, ColorType colorType, NoteLineLayer lineLayer, System.Int32 noteLineIndex, System.Single noteTime, System.Single timeToNextColorNote, UnityEngine.Vector3 notePosition, UnityEngine.Quaternion noteRotation, UnityEngine.Vector3 noteScale, UnityEngine.Vector3 moveVec)
-    // Offset: 0x29C0D00
+    // Offset: 0x2A03074
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutInfoNetSerializable* New_ctor(float saberSpeed, bool cutWasOk, ::UnityEngine::Vector3 saberDir, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, ::GlobalNamespace::NoteData::GameplayType gameplayType, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteLineLayer lineLayer, int noteLineIndex, float noteTime, float timeToNextColorNote, ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 noteScale, ::UnityEngine::Vector3 moveVec) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutInfoNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutInfoNetSerializable*, creationType>(saberSpeed, cutWasOk, saberDir, cutPoint, cutNormal, gameplayType, colorType, lineLayer, noteLineIndex, noteTime, timeToNextColorNote, notePosition, noteRotation, noteScale, moveVec)));
     }
     // private System.Void LiteNetLib.Utils.INetSerializable.Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29C07D0
+    // Offset: 0x2A02B44
     void LiteNetLib_Utils_INetSerializable_Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // private System.Void LiteNetLib.Utils.INetSerializable.Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x29C09BC
+    // Offset: 0x2A02D30
     void LiteNetLib_Utils_INetSerializable_Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
-    // public System.Void .ctor()
-    // Offset: 0x29C0C10
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NoteCutInfoNetSerializable* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutInfoNetSerializable::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<NoteCutInfoNetSerializable*, creationType>()));
-    }
   }; // NoteCutInfoNetSerializable
   #pragma pack(pop)
   static check_size<sizeof(NoteCutInfoNetSerializable), 120 + sizeof(::GlobalNamespace::Vector3Serializable)> __GlobalNamespace_NoteCutInfoNetSerializableSizeCheck;
   static_assert(sizeof(NoteCutInfoNetSerializable) == 0x84);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutInfoNetSerializable::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutInfoNetSerializable::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -251,7 +245,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutInfoNetSerializable*), "LiteNetLib.Utils.INetSerializable.Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NoteCutInfoNetSerializable::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

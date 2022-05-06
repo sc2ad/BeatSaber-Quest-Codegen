@@ -44,29 +44,21 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SliderHapticFeedbackInteractionEffect : public ::GlobalNamespace::SliderInteractionEffect {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Libraries.HM.HMLib.VR.HapticPresetSO _hapticPreset
     // Size: 0x8
     // Offset: 0x20
     ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset;
     // Field size check
     static_assert(sizeof(::Libraries::HM::HMLib::VR::HapticPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x124FB38
+    // [InjectAttribute] Offset: 0x10D466C
     // private readonly HapticFeedbackController _hapticFeedbackController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::HapticFeedbackController* hapticFeedbackController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::HapticFeedbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0x124FB48
+    // [InjectAttribute] Offset: 0x10D467C
     // private readonly IGamePause _gamePause
     // Size: 0x8
     // Offset: 0x30
@@ -87,45 +79,40 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kVibrationSaberInteractionParamThreshold
     static void _set_kVibrationSaberInteractionParamThreshold(float value);
     // Get instance field reference: private Libraries.HM.HMLib.VR.HapticPresetSO _hapticPreset
-    ::Libraries::HM::HMLib::VR::HapticPresetSO*& dyn__hapticPreset();
+    [[deprecated("Use field access instead!")]] ::Libraries::HM::HMLib::VR::HapticPresetSO*& dyn__hapticPreset();
     // Get instance field reference: private readonly HapticFeedbackController _hapticFeedbackController
-    ::GlobalNamespace::HapticFeedbackController*& dyn__hapticFeedbackController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::HapticFeedbackController*& dyn__hapticFeedbackController();
     // Get instance field reference: private readonly IGamePause _gamePause
-    ::GlobalNamespace::IGamePause*& dyn__gamePause();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IGamePause*& dyn__gamePause();
     // Get instance field reference: private SaberType _saberType
-    ::GlobalNamespace::SaberType& dyn__saberType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberType& dyn__saberType();
     // protected System.Void Update()
-    // Offset: 0x2AA074C
+    // Offset: 0x1387370
     void Update();
     // private System.Void Vibrate()
-    // Offset: 0x2AA084C
+    // Offset: 0x1387470
     void Vibrate();
     // public System.Void .ctor()
-    // Offset: 0x2AA08F4
+    // Offset: 0x1387518
     // Implemented from: SliderInteractionEffect
     // Base method: System.Void SliderInteractionEffect::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderHapticFeedbackInteractionEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderHapticFeedbackInteractionEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderHapticFeedbackInteractionEffect*, creationType>()));
     }
     // protected override System.Void Start()
-    // Offset: 0x2AA0614
+    // Offset: 0x1387238
     // Implemented from: SliderInteractionEffect
     // Base method: System.Void SliderInteractionEffect::Start()
     void Start();
     // protected override System.Void StartEffect(System.Single saberInteractionParam)
-    // Offset: 0x2AA0890
+    // Offset: 0x13874B4
     // Implemented from: SliderInteractionEffect
     // Base method: System.Void SliderInteractionEffect::StartEffect(System.Single saberInteractionParam)
     void StartEffect(float saberInteractionParam);
     // protected override System.Void EndEffect()
-    // Offset: 0x2AA08E8
+    // Offset: 0x138750C
     // Implemented from: SliderInteractionEffect
     // Base method: System.Void SliderInteractionEffect::EndEffect()
     void EndEffect();

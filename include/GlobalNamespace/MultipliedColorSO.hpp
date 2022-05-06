@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultipliedColorSO : public ::GlobalNamespace::ColorSO {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private SimpleColorSO _baseColor
     // Size: 0x8
     // Offset: 0x18
@@ -62,22 +54,18 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private SimpleColorSO _baseColor
-    ::GlobalNamespace::SimpleColorSO*& dyn__baseColor();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SimpleColorSO*& dyn__baseColor();
     // Get instance field reference: private UnityEngine.Color _multiplierColor
-    ::UnityEngine::Color& dyn__multiplierColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__multiplierColor();
     // public override UnityEngine.Color get_color()
-    // Offset: 0x2A983F4
+    // Offset: 0x2AED4AC
     // Implemented from: ColorSO
     // Base method: UnityEngine.Color ColorSO::get_color()
     ::UnityEngine::Color get_color();
     // public System.Void .ctor()
-    // Offset: 0x2A9845C
+    // Offset: 0x2AED514
     // Implemented from: ColorSO
     // Base method: System.Void ColorSO::.ctor()
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultipliedColorSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultipliedColorSO::.ctor");

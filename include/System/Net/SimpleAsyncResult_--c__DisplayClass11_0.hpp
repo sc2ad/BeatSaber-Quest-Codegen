@@ -37,15 +37,7 @@ namespace System::Net {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SimpleAsyncResult::$$c__DisplayClass11_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Func`2<System.Net.SimpleAsyncResult,System.Boolean> func
     // Size: 0x8
     // Offset: 0x10
@@ -66,32 +58,34 @@ namespace System::Net {
     static_assert(sizeof(::System::Net::SimpleAsyncCallback*) == 0x8);
     public:
     // Get instance field reference: public System.Func`2<System.Net.SimpleAsyncResult,System.Boolean> func
-    ::System::Func_2<::System::Net::SimpleAsyncResult*, bool>*& dyn_func();
+    [[deprecated("Use field access instead!")]] ::System::Func_2<::System::Net::SimpleAsyncResult*, bool>*& dyn_func();
     // Get instance field reference: public System.Object locker
-    ::Il2CppObject*& dyn_locker();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_locker();
     // Get instance field reference: public System.Net.SimpleAsyncCallback callback
-    ::System::Net::SimpleAsyncCallback*& dyn_callback();
-    // System.Boolean <RunWithLock>b__0(System.Net.SimpleAsyncResult inner)
-    // Offset: 0x1B35664
-    bool $RunWithLock$b__0(::System::Net::SimpleAsyncResult* inner);
-    // System.Void <RunWithLock>b__1(System.Net.SimpleAsyncResult inner)
-    // Offset: 0x1B356EC
-    void $RunWithLock$b__1(::System::Net::SimpleAsyncResult* inner);
+    [[deprecated("Use field access instead!")]] ::System::Net::SimpleAsyncCallback*& dyn_callback();
     // public System.Void .ctor()
-    // Offset: 0x1B351A4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B6F78C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleAsyncResult::$$c__DisplayClass11_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::SimpleAsyncResult::$$c__DisplayClass11_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleAsyncResult::$$c__DisplayClass11_0*, creationType>()));
     }
+    // System.Boolean <RunWithLock>b__0(System.Net.SimpleAsyncResult inner)
+    // Offset: 0x1B6FC4C
+    bool $RunWithLock$b__0(::System::Net::SimpleAsyncResult* inner);
+    // System.Void <RunWithLock>b__1(System.Net.SimpleAsyncResult inner)
+    // Offset: 0x1B6FCD4
+    void $RunWithLock$b__1(::System::Net::SimpleAsyncResult* inner);
   }; // System.Net.SimpleAsyncResult/System.Net.<>c__DisplayClass11_0
   #pragma pack(pop)
   static check_size<sizeof(SimpleAsyncResult::$$c__DisplayClass11_0), 32 + sizeof(::System::Net::SimpleAsyncCallback*)> __System_Net_SimpleAsyncResult_$$c__DisplayClass11_0SizeCheck;
   static_assert(sizeof(SimpleAsyncResult::$$c__DisplayClass11_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Net::SimpleAsyncResult::$$c__DisplayClass11_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::SimpleAsyncResult::$$c__DisplayClass11_0::$RunWithLock$b__0
 // Il2CppName: <RunWithLock>b__0
 template<>
@@ -110,7 +104,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Net::SimpleAsyncResult::$$c__DisplayClass11_0*), "<RunWithLock>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inner});
   }
 };
-// Writing MetadataGetter for method: System::Net::SimpleAsyncResult::$$c__DisplayClass11_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

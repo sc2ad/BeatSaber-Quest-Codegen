@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Set static field: static public EnvironmentEffectsFilterPreset NoEffects
     static void _set_NoEffects(::GlobalNamespace::EnvironmentEffectsFilterPreset value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // EnvironmentEffectsFilterPreset
   #pragma pack(pop)
   static check_size<sizeof(EnvironmentEffectsFilterPreset), 0 + sizeof(int)> __GlobalNamespace_EnvironmentEffectsFilterPresetSizeCheck;

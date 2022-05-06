@@ -48,15 +48,7 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class IconSegmentedControlCell : public ::HMUI::SegmentedControlCell {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Image _icon
     // Size: 0x8
     // Offset: 0x50
@@ -69,7 +61,7 @@ namespace HMUI {
     ::HMUI::HoverHint* hoverHint;
     // Field size check
     static_assert(sizeof(::HMUI::HoverHint*) == 0x8);
-    // [NullAllowed] Offset: 0x123AC5C
+    // [NullAllowed] Offset: 0x10BF734
     // private UnityEngine.GameObject _backgroundGameObject
     // Size: 0x8
     // Offset: 0x60
@@ -78,37 +70,32 @@ namespace HMUI {
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.UI.Image _icon
-    ::UnityEngine::UI::Image*& dyn__icon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__icon();
     // Get instance field reference: private HMUI.HoverHint _hoverHint
-    ::HMUI::HoverHint*& dyn__hoverHint();
+    [[deprecated("Use field access instead!")]] ::HMUI::HoverHint*& dyn__hoverHint();
     // Get instance field reference: private UnityEngine.GameObject _backgroundGameObject
-    ::UnityEngine::GameObject*& dyn__backgroundGameObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__backgroundGameObject();
     // public UnityEngine.Sprite get_sprite()
-    // Offset: 0x16EDCA8
+    // Offset: 0x17255B8
     ::UnityEngine::Sprite* get_sprite();
     // public System.Void set_sprite(UnityEngine.Sprite value)
-    // Offset: 0x16EDAE8
+    // Offset: 0x17253F8
     void set_sprite(::UnityEngine::Sprite* value);
     // public System.Void set_hintText(System.String value)
-    // Offset: 0x16EDB04
+    // Offset: 0x1725414
     void set_hintText(::StringW value);
     // public System.Void set_iconSize(System.Single value)
-    // Offset: 0x16EDBCC
+    // Offset: 0x17254DC
     void set_iconSize(float value);
     // public System.Void set_hideBackgroundImage(System.Boolean value)
-    // Offset: 0x16EDB20
+    // Offset: 0x1725430
     void set_hideBackgroundImage(bool value);
     // public System.Void .ctor()
-    // Offset: 0x16EDCC4
+    // Offset: 0x17255D4
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()
     // Base method: System.Void Interactable::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IconSegmentedControlCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::IconSegmentedControlCell::.ctor");

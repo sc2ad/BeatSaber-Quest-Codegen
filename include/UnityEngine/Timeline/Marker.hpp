@@ -37,17 +37,9 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class Marker : public ::UnityEngine::ScriptableObject/*, public ::UnityEngine::Timeline::IMarker*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TimeFieldAttribute] Offset: 0x120CA6C
-    // [TooltipAttribute] Offset: 0x120CA6C
+    // [TimeFieldAttribute] Offset: 0x1092484
+    // [TooltipAttribute] Offset: 0x1092484
     // private System.Double m_Time
     // Size: 0x8
     // Offset: 0x18
@@ -68,38 +60,34 @@ namespace UnityEngine::Timeline {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Double m_Time
-    double& dyn_m_Time();
+    [[deprecated("Use field access instead!")]] double& dyn_m_Time();
     // Get instance field reference: private UnityEngine.Timeline.TrackAsset <parent>k__BackingField
-    ::UnityEngine::Timeline::TrackAsset*& dyn_$parent$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Timeline::TrackAsset*& dyn_$parent$k__BackingField();
     // public UnityEngine.Timeline.TrackAsset get_parent()
-    // Offset: 0x1D7E5C8
+    // Offset: 0x1DB9B20
     ::UnityEngine::Timeline::TrackAsset* get_parent();
     // private System.Void set_parent(UnityEngine.Timeline.TrackAsset value)
-    // Offset: 0x1D7E5D0
+    // Offset: 0x1DB9B28
     void set_parent(::UnityEngine::Timeline::TrackAsset* value);
     // public System.Double get_time()
-    // Offset: 0x1D7E5D8
+    // Offset: 0x1DB9B30
     double get_time();
     // public System.Void set_time(System.Double value)
-    // Offset: 0x1D7E5E0
+    // Offset: 0x1DB9B38
     void set_time(double value);
-    // private System.Void UnityEngine.Timeline.IMarker.Initialize(UnityEngine.Timeline.TrackAsset parentTrack)
-    // Offset: 0x1D7E660
-    void UnityEngine_Timeline_IMarker_Initialize(::UnityEngine::Timeline::TrackAsset* parentTrack);
-    // public System.Void OnInitialize(UnityEngine.Timeline.TrackAsset aPent)
-    // Offset: 0x1D7E7C4
-    void OnInitialize(::UnityEngine::Timeline::TrackAsset* aPent);
     // protected System.Void .ctor()
-    // Offset: 0x1D7E7C8
-    // Implemented from: UnityEngine.ScriptableObject
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1DB9D20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Marker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::Marker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Marker*, creationType>()));
     }
+    // private System.Void UnityEngine.Timeline.IMarker.Initialize(UnityEngine.Timeline.TrackAsset parentTrack)
+    // Offset: 0x1DB9BB8
+    void UnityEngine_Timeline_IMarker_Initialize(::UnityEngine::Timeline::TrackAsset* parentTrack);
+    // public System.Void OnInitialize(UnityEngine.Timeline.TrackAsset aPent)
+    // Offset: 0x1DB9D1C
+    void OnInitialize(::UnityEngine::Timeline::TrackAsset* aPent);
   }; // UnityEngine.Timeline.Marker
   #pragma pack(pop)
   static check_size<sizeof(Marker), 32 + sizeof(::UnityEngine::Timeline::TrackAsset*)> __UnityEngine_Timeline_MarkerSizeCheck;
@@ -140,6 +128,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::Marker*), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::Timeline::Marker::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Timeline::Marker::UnityEngine_Timeline_IMarker_Initialize
 // Il2CppName: UnityEngine.Timeline.IMarker.Initialize
 template<>
@@ -158,7 +150,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::Marker*), "OnInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aPent});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::Timeline::Marker::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

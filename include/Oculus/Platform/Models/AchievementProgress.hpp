@@ -31,15 +31,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class AchievementProgress : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.String Bitfield
     // Size: 0x8
     // Offset: 0x10
@@ -74,17 +66,17 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::System::DateTime) == 0x8);
     public:
     // Get instance field reference: public readonly System.String Bitfield
-    ::StringW& dyn_Bitfield();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Bitfield();
     // Get instance field reference: public readonly System.UInt64 Count
-    uint64_t& dyn_Count();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_Count();
     // Get instance field reference: public readonly System.Boolean IsUnlocked
-    bool& dyn_IsUnlocked();
+    [[deprecated("Use field access instead!")]] bool& dyn_IsUnlocked();
     // Get instance field reference: public readonly System.String Name
-    ::StringW& dyn_Name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Name();
     // Get instance field reference: public readonly System.DateTime UnlockTime
-    ::System::DateTime& dyn_UnlockTime();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_UnlockTime();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19B3CFC
+    // Offset: 0x19ED2E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AchievementProgress* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::AchievementProgress::.ctor");

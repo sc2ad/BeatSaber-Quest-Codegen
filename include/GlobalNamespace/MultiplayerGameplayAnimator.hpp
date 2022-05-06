@@ -50,15 +50,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerGameplayAnimator : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected ColorSO _activeLightsColor
     // Size: 0x8
     // Offset: 0x18
@@ -77,7 +69,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::ColorSO* failedLightsColor;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ColorSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1254754
+    // [SpaceAttribute] Offset: 0x10D9338
     // protected System.Single _leadingSwitchCrossFadeDuration
     // Size: 0x4
     // Offset: 0x30
@@ -86,7 +78,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: leadingSwitchCrossFadeDuration and: gameplayLightsAnimators
     char __padding3[0x4] = {};
-    // [SpaceAttribute] Offset: 0x125478C
+    // [SpaceAttribute] Offset: 0x10D9370
     // protected LightsAnimator[] _gameplayLightsAnimators
     // Size: 0x8
     // Offset: 0x38
@@ -99,28 +91,28 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::LightsAnimator*> allLightsAnimators;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::LightsAnimator*>) == 0x8);
-    // [InjectAttribute] Offset: 0x12547D4
+    // [InjectAttribute] Offset: 0x10D93B8
     // private readonly MultiplayerLeadPlayerProvider _leadPlayerProvider
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::MultiplayerLeadPlayerProvider* leadPlayerProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLeadPlayerProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x12547E4
+    // [InjectAttribute] Offset: 0x10D93C8
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::MultiplayerController* multiplayerController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0x12547F4
+    // [InjectAttribute] Offset: 0x10D93D8
     // protected readonly Tweening.TimeTweeningManager tweeningManager
     // Size: 0x8
     // Offset: 0x58
     ::Tweening::TimeTweeningManager* tweeningManager;
     // Field size check
     static_assert(sizeof(::Tweening::TimeTweeningManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1254804
+    // [InjectAttribute] Offset: 0x10D93E8
     // protected readonly IConnectedPlayer connectedPlayer
     // Size: 0x8
     // Offset: 0x60
@@ -131,59 +123,57 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: protected ColorSO _activeLightsColor
-    ::GlobalNamespace::ColorSO*& dyn__activeLightsColor();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn__activeLightsColor();
     // Get instance field reference: protected ColorSO _leadingLightsColor
-    ::GlobalNamespace::ColorSO*& dyn__leadingLightsColor();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn__leadingLightsColor();
     // Get instance field reference: protected ColorSO _failedLightsColor
-    ::GlobalNamespace::ColorSO*& dyn__failedLightsColor();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn__failedLightsColor();
     // Get instance field reference: protected System.Single _leadingSwitchCrossFadeDuration
-    float& dyn__leadingSwitchCrossFadeDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__leadingSwitchCrossFadeDuration();
     // Get instance field reference: protected LightsAnimator[] _gameplayLightsAnimators
-    ::ArrayW<::GlobalNamespace::LightsAnimator*>& dyn__gameplayLightsAnimators();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::LightsAnimator*>& dyn__gameplayLightsAnimators();
     // Get instance field reference: protected LightsAnimator[] _allLightsAnimators
-    ::ArrayW<::GlobalNamespace::LightsAnimator*>& dyn__allLightsAnimators();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::LightsAnimator*>& dyn__allLightsAnimators();
     // Get instance field reference: private readonly MultiplayerLeadPlayerProvider _leadPlayerProvider
-    ::GlobalNamespace::MultiplayerLeadPlayerProvider*& dyn__leadPlayerProvider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLeadPlayerProvider*& dyn__leadPlayerProvider();
     // Get instance field reference: private readonly MultiplayerController _multiplayerController
-    ::GlobalNamespace::MultiplayerController*& dyn__multiplayerController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerController*& dyn__multiplayerController();
     // Get instance field reference: protected readonly Tweening.TimeTweeningManager tweeningManager
-    ::Tweening::TimeTweeningManager*& dyn_tweeningManager();
+    [[deprecated("Use field access instead!")]] ::Tweening::TimeTweeningManager*& dyn_tweeningManager();
     // Get instance field reference: protected readonly IConnectedPlayer connectedPlayer
-    ::GlobalNamespace::IConnectedPlayer*& dyn_connectedPlayer();
-    // protected System.Void Start()
-    // Offset: 0x13F22C4
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13F124C
-    void OnDestroy();
-    // protected System.Void AnimateNewLeaderSelected(System.Boolean isLeading)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    void AnimateNewLeaderSelected(bool isLeading);
-    // protected System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x13F1734
-    void HandleStateChanged(::GlobalNamespace::MultiplayerController::State state);
-    // private System.Void HandleNewLeaderWasSelected(System.String userId)
-    // Offset: 0x13F24B8
-    void HandleNewLeaderWasSelected(::StringW userId);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayer*& dyn_connectedPlayer();
     // protected System.Void .ctor()
-    // Offset: 0x13F18BC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13FE35C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerGameplayAnimator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerGameplayAnimator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerGameplayAnimator*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x13FED64
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13FDCEC
+    void OnDestroy();
+    // protected System.Void AnimateNewLeaderSelected(System.Boolean isLeading)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    void AnimateNewLeaderSelected(bool isLeading);
+    // protected System.Void HandleStateChanged(MultiplayerController/State state)
+    // Offset: 0x13FE1D4
+    void HandleStateChanged(::GlobalNamespace::MultiplayerController::State state);
+    // private System.Void HandleNewLeaderWasSelected(System.String userId)
+    // Offset: 0x13FEF58
+    void HandleNewLeaderWasSelected(::StringW userId);
   }; // MultiplayerGameplayAnimator
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerGameplayAnimator), 96 + sizeof(::GlobalNamespace::IConnectedPlayer*)> __GlobalNamespace_MultiplayerGameplayAnimatorSizeCheck;
   static_assert(sizeof(MultiplayerGameplayAnimator) == 0x68);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerGameplayAnimator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerGameplayAnimator::Start
 // Il2CppName: Start
 template<>
@@ -227,7 +217,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerGameplayAnimator*), "HandleNewLeaderWasSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerGameplayAnimator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

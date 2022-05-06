@@ -29,15 +29,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class ApplicationVersion : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Int32 CurrentCode
     // Size: 0x4
     // Offset: 0x10
@@ -68,15 +60,15 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly System.Int32 CurrentCode
-    int& dyn_CurrentCode();
+    [[deprecated("Use field access instead!")]] int& dyn_CurrentCode();
     // Get instance field reference: public readonly System.String CurrentName
-    ::StringW& dyn_CurrentName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_CurrentName();
     // Get instance field reference: public readonly System.Int32 LatestCode
-    int& dyn_LatestCode();
+    [[deprecated("Use field access instead!")]] int& dyn_LatestCode();
     // Get instance field reference: public readonly System.String LatestName
-    ::StringW& dyn_LatestName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_LatestName();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19AA518
+    // Offset: 0x19E3B00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ApplicationVersion* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::ApplicationVersion::.ctor");

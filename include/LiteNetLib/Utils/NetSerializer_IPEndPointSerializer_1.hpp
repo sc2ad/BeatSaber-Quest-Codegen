@@ -58,7 +58,6 @@ namespace LiteNetLib::Utils {
     // Base method: System.Void FastCallSpecificAuto_2::.ctor()
     // Base method: System.Void FastCallSpecific_2::.ctor()
     // Base method: System.Void FastCall_1::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSerializer::IPEndPointSerializer_1<T>* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetSerializer::IPEndPointSerializer_1::.ctor");

@@ -63,15 +63,7 @@ namespace GlobalNamespace {
     class LocalPlayer;
     // Nested type: ::GlobalNamespace::PlayerSaveDataV1_0_1::GuestPlayer
     class GuestPlayer;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String version
     // Size: 0x8
     // Offset: 0x10
@@ -110,17 +102,15 @@ namespace GlobalNamespace {
     // Set static field: static public System.String kCurrentVersion
     static void _set_kCurrentVersion(::StringW value);
     // Get instance field reference: public System.String version
-    ::StringW& dyn_version();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_version();
     // Get instance field reference: public System.Collections.Generic.List`1<PlayerSaveDataV1_0_1/LocalPlayer> localPlayers
-    ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveDataV1_0_1::LocalPlayer*>*& dyn_localPlayers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveDataV1_0_1::LocalPlayer*>*& dyn_localPlayers();
     // Get instance field reference: public System.Collections.Generic.List`1<PlayerSaveDataV1_0_1/GuestPlayer> guestPlayers
-    ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveDataV1_0_1::GuestPlayer*>*& dyn_guestPlayers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveDataV1_0_1::GuestPlayer*>*& dyn_guestPlayers();
     // Get instance field reference: public BeatmapDifficulty lastSelectedBeatmapDifficulty
-    ::GlobalNamespace::BeatmapDifficulty& dyn_lastSelectedBeatmapDifficulty();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficulty& dyn_lastSelectedBeatmapDifficulty();
     // public System.Void .ctor()
-    // Offset: 0x13716D4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D8D30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveDataV1_0_1* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveDataV1_0_1::.ctor");

@@ -74,19 +74,19 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 nodeId
-    int& dyn_nodeId();
+    [[deprecated("Use field access instead!")]] int& dyn_nodeId();
     // Get instance field reference: public System.Int32 workitemId
-    int& dyn_workitemId();
+    [[deprecated("Use field access instead!")]] int& dyn_workitemId();
     // Get instance field reference: public System.Int32 dependencyId
-    int& dyn_dependencyId();
+    [[deprecated("Use field access instead!")]] int& dyn_dependencyId();
     // Get instance field reference: public System.Int32 currentState
-    int& dyn_currentState();
+    [[deprecated("Use field access instead!")]] int& dyn_currentState();
     // Get instance field reference: public System.Int32 lastState
-    int& dyn_lastState();
+    [[deprecated("Use field access instead!")]] int& dyn_lastState();
     // Get instance field reference: public System.Int32 eventType
-    int& dyn_eventType();
+    [[deprecated("Use field access instead!")]] int& dyn_eventType();
     // Get instance field reference: public System.Int32 msgSH
-    int& dyn_msgSH();
+    [[deprecated("Use field access instead!")]] int& dyn_msgSH();
   }; // HoudiniEngineUnity.HAPI_PDG_EventInfo
   #pragma pack(pop)
   static check_size<sizeof(HAPI_PDG_EventInfo), 24 + sizeof(int)> __HoudiniEngineUnity_HAPI_PDG_EventInfoSizeCheck;

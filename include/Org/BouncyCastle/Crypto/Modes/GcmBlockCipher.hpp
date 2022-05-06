@@ -45,15 +45,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
   // [TokenAttribute] Offset: FFFFFFFF
   class GcmBlockCipher : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
     // Size: 0x8
     // Offset: 0x10
@@ -208,120 +200,120 @@ namespace Org::BouncyCastle::Crypto::Modes {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*>(this);
     }
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
-    ::Org::BouncyCastle::Crypto::IBlockCipher*& dyn_cipher();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::IBlockCipher*& dyn_cipher();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Modes.Gcm.IGcmMultiplier multiplier
-    ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*& dyn_multiplier();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*& dyn_multiplier();
     // Get instance field reference: private Org.BouncyCastle.Crypto.Modes.Gcm.IGcmExponentiator exp
-    ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator*& dyn_exp();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator*& dyn_exp();
     // Get instance field reference: private System.Boolean forEncryption
-    bool& dyn_forEncryption();
+    [[deprecated("Use field access instead!")]] bool& dyn_forEncryption();
     // Get instance field reference: private System.Boolean initialised
-    bool& dyn_initialised();
+    [[deprecated("Use field access instead!")]] bool& dyn_initialised();
     // Get instance field reference: private System.Int32 macSize
-    int& dyn_macSize();
+    [[deprecated("Use field access instead!")]] int& dyn_macSize();
     // Get instance field reference: private System.Byte[] lastKey
-    ::ArrayW<uint8_t>& dyn_lastKey();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_lastKey();
     // Get instance field reference: private System.Byte[] nonce
-    ::ArrayW<uint8_t>& dyn_nonce();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_nonce();
     // Get instance field reference: private System.Byte[] initialAssociatedText
-    ::ArrayW<uint8_t>& dyn_initialAssociatedText();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_initialAssociatedText();
     // Get instance field reference: private System.Byte[] H
-    ::ArrayW<uint8_t>& dyn_H();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_H();
     // Get instance field reference: private System.Byte[] J0
-    ::ArrayW<uint8_t>& dyn_J0();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_J0();
     // Get instance field reference: private System.Byte[] bufBlock
-    ::ArrayW<uint8_t>& dyn_bufBlock();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_bufBlock();
     // Get instance field reference: private System.Byte[] macBlock
-    ::ArrayW<uint8_t>& dyn_macBlock();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_macBlock();
     // Get instance field reference: private System.Byte[] S
-    ::ArrayW<uint8_t>& dyn_S();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_S();
     // Get instance field reference: private System.Byte[] S_at
-    ::ArrayW<uint8_t>& dyn_S_at();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_S_at();
     // Get instance field reference: private System.Byte[] S_atPre
-    ::ArrayW<uint8_t>& dyn_S_atPre();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_S_atPre();
     // Get instance field reference: private System.Byte[] counter
-    ::ArrayW<uint8_t>& dyn_counter();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_counter();
     // Get instance field reference: private System.UInt32 blocksRemaining
-    uint& dyn_blocksRemaining();
+    [[deprecated("Use field access instead!")]] uint& dyn_blocksRemaining();
     // Get instance field reference: private System.Int32 bufOff
-    int& dyn_bufOff();
+    [[deprecated("Use field access instead!")]] int& dyn_bufOff();
     // Get instance field reference: private System.UInt64 totalLength
-    uint64_t& dyn_totalLength();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_totalLength();
     // Get instance field reference: private System.Byte[] atBlock
-    ::ArrayW<uint8_t>& dyn_atBlock();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_atBlock();
     // Get instance field reference: private System.Int32 atBlockPos
-    int& dyn_atBlockPos();
+    [[deprecated("Use field access instead!")]] int& dyn_atBlockPos();
     // Get instance field reference: private System.UInt64 atLength
-    uint64_t& dyn_atLength();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_atLength();
     // Get instance field reference: private System.UInt64 atLengthPre
-    uint64_t& dyn_atLengthPre();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_atLengthPre();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher c)
-    // Offset: 0x1E0763C
+    // Offset: 0x1E41F08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GcmBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* c) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GcmBlockCipher*, creationType>(c)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher c, Org.BouncyCastle.Crypto.Modes.Gcm.IGcmMultiplier m)
-    // Offset: 0x1E07644
+    // Offset: 0x1E41F10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GcmBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* c, ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier* m) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GcmBlockCipher*, creationType>(c, m)));
     }
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1E077C8
+    // Offset: 0x1E42094
     int GetBlockSize();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1E077D0
+    // Offset: 0x1E4209C
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetOutputSize(System.Int32 len)
-    // Offset: 0x1E0802C
+    // Offset: 0x1E428F8
     int GetOutputSize(int len);
     // public System.Int32 GetUpdateOutputSize(System.Int32 len)
-    // Offset: 0x1E08054
+    // Offset: 0x1E42920
     int GetUpdateOutputSize(int len);
     // public System.Void ProcessAadBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x1E0808C
+    // Offset: 0x1E42958
     void ProcessAadBytes(::ArrayW<uint8_t> inBytes, int inOff, int len);
     // private System.Void InitCipher()
-    // Offset: 0x1E08208
+    // Offset: 0x1E42AD4
     void InitCipher();
     // public System.Int32 ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E083B8
+    // Offset: 0x1E42C84
     int ProcessBytes(::ArrayW<uint8_t> input, int inOff, int len, ::ArrayW<uint8_t> output, int outOff);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E087D0
+    // Offset: 0x1E4309C
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1E0903C
+    // Offset: 0x1E43908
     void Reset();
     // private System.Void Reset(System.Boolean clearMac)
-    // Offset: 0x1E08E70
+    // Offset: 0x1E4373C
     void Reset(bool clearMac);
     // private System.Void ProcessBlock(System.Byte[] buf, System.Int32 bufOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E08658
+    // Offset: 0x1E42F24
     void ProcessBlock(::ArrayW<uint8_t> buf, int bufOff, ::ArrayW<uint8_t> output, int outOff);
     // private System.Void ProcessPartial(System.Byte[] buf, System.Int32 off, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E08D0C
+    // Offset: 0x1E435D8
     void ProcessPartial(::ArrayW<uint8_t> buf, int off, int len, ::ArrayW<uint8_t> output, int outOff);
     // private System.Void gHASH(System.Byte[] Y, System.Byte[] b, System.Int32 len)
-    // Offset: 0x1E07E6C
+    // Offset: 0x1E42738
     void gHASH(::ArrayW<uint8_t> Y, ::ArrayW<uint8_t> b, int len);
     // private System.Void gHASHBlock(System.Byte[] Y, System.Byte[] b)
-    // Offset: 0x1E07F38
+    // Offset: 0x1E42804
     void gHASHBlock(::ArrayW<uint8_t> Y, ::ArrayW<uint8_t> b);
     // private System.Void gHASHBlock(System.Byte[] Y, System.Byte[] b, System.Int32 off)
-    // Offset: 0x1E091F8
+    // Offset: 0x1E43AC4
     void gHASHBlock(::ArrayW<uint8_t> Y, ::ArrayW<uint8_t> b, int off);
     // private System.Void gHASHPartial(System.Byte[] Y, System.Byte[] b, System.Int32 off, System.Int32 len)
-    // Offset: 0x1E082AC
+    // Offset: 0x1E42B78
     void gHASHPartial(::ArrayW<uint8_t> Y, ::ArrayW<uint8_t> b, int off, int len);
     // private System.Void GetNextCtrBlock(System.Byte[] block)
-    // Offset: 0x1E09044
+    // Offset: 0x1E43910
     void GetNextCtrBlock(::ArrayW<uint8_t> block);
     // private System.Void CheckStatus()
-    // Offset: 0x1E0816C
+    // Offset: 0x1E42A38
     void CheckStatus();
   }; // Org.BouncyCastle.Crypto.Modes.GcmBlockCipher
   #pragma pack(pop)

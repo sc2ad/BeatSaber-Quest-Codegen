@@ -120,7 +120,7 @@ namespace System::Net::Http::Headers {
       // Set static field: static public System.Net.Http.Headers.Token/System.Net.Http.Headers.Type OpenParens
       static void _set_OpenParens(::System::Net::Http::Headers::Token::Type value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // System.Net.Http.Headers.Token/System.Net.Http.Headers.Type
     #pragma pack(pop)
     static check_size<sizeof(Token::Type), 0 + sizeof(int)> __System_Net_Http_Headers_Token_TypeSizeCheck;
@@ -156,34 +156,34 @@ namespace System::Net::Http::Headers {
     // Set static field: static public readonly System.Net.Http.Headers.Token Empty
     static void _set_Empty(::System::Net::Http::Headers::Token value);
     // Get instance field reference: private readonly System.Net.Http.Headers.Token/System.Net.Http.Headers.Type type
-    ::System::Net::Http::Headers::Token::Type& dyn_type();
+    [[deprecated("Use field access instead!")]] ::System::Net::Http::Headers::Token::Type& dyn_type();
     // Get instance field reference: private System.Int32 <StartPosition>k__BackingField
-    int& dyn_$StartPosition$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$StartPosition$k__BackingField();
     // Get instance field reference: private System.Int32 <EndPosition>k__BackingField
-    int& dyn_$EndPosition$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$EndPosition$k__BackingField();
     // public System.Int32 get_StartPosition()
-    // Offset: 0x1960D7C
+    // Offset: 0x1999364
     int get_StartPosition();
     // private System.Void set_StartPosition(System.Int32 value)
-    // Offset: 0x1960D84
+    // Offset: 0x199936C
     void set_StartPosition(int value);
     // public System.Int32 get_EndPosition()
-    // Offset: 0x1960D8C
+    // Offset: 0x1999374
     int get_EndPosition();
     // private System.Void set_EndPosition(System.Int32 value)
-    // Offset: 0x1960D94
+    // Offset: 0x199937C
     void set_EndPosition(int value);
     // public System.Net.Http.Headers.Token/System.Net.Http.Headers.Type get_Kind()
-    // Offset: 0x1960D9C
+    // Offset: 0x1999384
     ::System::Net::Http::Headers::Token::Type get_Kind();
     // public System.Void .ctor(System.Net.Http.Headers.Token/System.Net.Http.Headers.Type type, System.Int32 startPosition, System.Int32 endPosition)
-    // Offset: 0x1953C94
+    // Offset: 0x198C27C
     // ABORTED: conflicts with another method.  Token(::System::Net::Http::Headers::Token::Type type, int startPosition, int endPosition);
     // static private System.Void .cctor()
-    // Offset: 0x1960E34
+    // Offset: 0x199941C
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0x1960DA8
+    // Offset: 0x1999390
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

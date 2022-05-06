@@ -53,9 +53,9 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: Valve.VR.IVRNotifications/Valve.VR._CreateNotification CreateNotification
-    ::Valve::VR::IVRNotifications::_CreateNotification*& dyn_CreateNotification();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRNotifications::_CreateNotification*& dyn_CreateNotification();
     // Get instance field reference: Valve.VR.IVRNotifications/Valve.VR._RemoveNotification RemoveNotification
-    ::Valve::VR::IVRNotifications::_RemoveNotification*& dyn_RemoveNotification();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRNotifications::_RemoveNotification*& dyn_RemoveNotification();
   }; // Valve.VR.IVRNotifications
   #pragma pack(pop)
   static check_size<sizeof(IVRNotifications), 8 + sizeof(::Valve::VR::IVRNotifications::_RemoveNotification*)> __Valve_VR_IVRNotificationsSizeCheck;

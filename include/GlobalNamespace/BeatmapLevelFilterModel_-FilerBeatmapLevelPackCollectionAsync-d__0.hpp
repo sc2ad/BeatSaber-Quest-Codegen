@@ -115,28 +115,28 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<IBeatmapLevelCollection> <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IBeatmapLevelCollection*>& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IBeatmapLevelCollection*>& dyn_$$t__builder();
     // Get instance field reference: public LevelFilterParams levelFilterParams
-    ::GlobalNamespace::LevelFilterParams*& dyn_levelFilterParams();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelFilterParams*& dyn_levelFilterParams();
     // Get instance field reference: public PlayerDataModel playerDataModel
-    ::GlobalNamespace::PlayerDataModel*& dyn_playerDataModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerDataModel*& dyn_playerDataModel();
     // Get instance field reference: public IBeatmapLevelPack[] beatmapLevelPacks
-    ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*>& dyn_beatmapLevelPacks();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*>& dyn_beatmapLevelPacks();
     // Get instance field reference: public AdditionalContentModel additionalContentModel
-    ::GlobalNamespace::AdditionalContentModel*& dyn_additionalContentModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AdditionalContentModel*& dyn_additionalContentModel();
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
-    ::System::Threading::CancellationToken& dyn_cancellationToken();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: private BeatmapLevelFilterModel/<>c__DisplayClass0_0 <>8__1
-    ::GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0*& dyn_$$8__1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0*& dyn_$$8__1();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Collections.Generic.List`1<IPreviewBeatmapLevel>> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::List_1<::GlobalNamespace::IPreviewBeatmapLevel*>*>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::List_1<::GlobalNamespace::IPreviewBeatmapLevel*>*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x14CE918
+    // Offset: 0x1506220
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x14CECF0
+    // Offset: 0x15065F8
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BeatmapLevelFilterModel/<FilerBeatmapLevelPackCollectionAsync>d__0
   // WARNING Not writing size check since size may be invalid!

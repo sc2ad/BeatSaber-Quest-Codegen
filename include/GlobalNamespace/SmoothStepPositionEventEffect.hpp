@@ -53,15 +53,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SmoothStepPositionEventEffect : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BasicBeatmapEventType _event
     // Size: 0x4
     // Offset: 0x18
@@ -76,21 +68,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: clampValue and: eventValueMin
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x125198C
+    // [DrawIfAttribute] Offset: 0x10D6518
     // private System.Int32 _eventValueMin
     // Size: 0x4
     // Offset: 0x20
     int eventValueMin;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DrawIfAttribute] Offset: 0x1251A34
+    // [DrawIfAttribute] Offset: 0x10D65C0
     // private System.Int32 _eventValueMax
     // Size: 0x4
     // Offset: 0x24
     int eventValueMax;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [SpaceAttribute] Offset: 0x1251ADC
+    // [SpaceAttribute] Offset: 0x10D6668
     // private UnityEngine.Vector3 _movementVector
     // Size: 0xC
     // Offset: 0x28
@@ -103,14 +95,14 @@ namespace GlobalNamespace {
     float stepSize;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x1251B28
+    // [InjectAttribute] Offset: 0x10D66B4
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1251B38
+    // [InjectAttribute] Offset: 0x10D66C4
     // private readonly Tweening.SongTimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x40
@@ -147,66 +139,64 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BasicBeatmapEventType _event
-    ::GlobalNamespace::BasicBeatmapEventType& dyn__event();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BasicBeatmapEventType& dyn__event();
     // Get instance field reference: private System.Boolean _clampValue
-    bool& dyn__clampValue();
+    [[deprecated("Use field access instead!")]] bool& dyn__clampValue();
     // Get instance field reference: private System.Int32 _eventValueMin
-    int& dyn__eventValueMin();
+    [[deprecated("Use field access instead!")]] int& dyn__eventValueMin();
     // Get instance field reference: private System.Int32 _eventValueMax
-    int& dyn__eventValueMax();
+    [[deprecated("Use field access instead!")]] int& dyn__eventValueMax();
     // Get instance field reference: private UnityEngine.Vector3 _movementVector
-    ::UnityEngine::Vector3& dyn__movementVector();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__movementVector();
     // Get instance field reference: private System.Single _stepSize
-    float& dyn__stepSize();
+    [[deprecated("Use field access instead!")]] float& dyn__stepSize();
     // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
-    ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
     // Get instance field reference: private readonly Tweening.SongTimeTweeningManager _tweeningManager
-    ::Tweening::SongTimeTweeningManager*& dyn__tweeningManager();
+    [[deprecated("Use field access instead!")]] ::Tweening::SongTimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private Tweening.Vector3Tween _positionTween
-    ::Tweening::Vector3Tween*& dyn__positionTween();
+    [[deprecated("Use field access instead!")]] ::Tweening::Vector3Tween*& dyn__positionTween();
     // Get instance field reference: private UnityEngine.Transform _transform
-    ::UnityEngine::Transform*& dyn__transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // Get instance field reference: private UnityEngine.Vector3 _startPos
-    ::UnityEngine::Vector3& dyn__startPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__startPos();
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
-    ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
-    // protected System.Void Awake()
-    // Offset: 0x2AA4070
-    void Awake();
-    // protected System.Void Start()
-    // Offset: 0x2AA4178
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x2AA4290
-    void OnDestroy();
-    // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x2AA433C
-    void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
-    // private UnityEngine.Vector3 GetPositionForValue(System.Int32 value)
-    // Offset: 0x2AA441C
-    ::UnityEngine::Vector3 GetPositionForValue(int value);
-    // private System.Void SetPosition(UnityEngine.Vector3 position)
-    // Offset: 0x2AA4538
-    void SetPosition(::UnityEngine::Vector3 position);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // public System.Void .ctor()
-    // Offset: 0x2AA4584
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x138B1A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SmoothStepPositionEventEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SmoothStepPositionEventEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SmoothStepPositionEventEffect*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x138AC94
+    void Awake();
+    // protected System.Void Start()
+    // Offset: 0x138AD9C
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x138AEB4
+    void OnDestroy();
+    // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
+    // Offset: 0x138AF60
+    void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
+    // private UnityEngine.Vector3 GetPositionForValue(System.Int32 value)
+    // Offset: 0x138B040
+    ::UnityEngine::Vector3 GetPositionForValue(int value);
+    // private System.Void SetPosition(UnityEngine.Vector3 position)
+    // Offset: 0x138B15C
+    void SetPosition(::UnityEngine::Vector3 position);
   }; // SmoothStepPositionEventEffect
   #pragma pack(pop)
   static check_size<sizeof(SmoothStepPositionEventEffect), 104 + sizeof(::GlobalNamespace::BeatmapDataCallbackWrapper*)> __GlobalNamespace_SmoothStepPositionEventEffectSizeCheck;
   static_assert(sizeof(SmoothStepPositionEventEffect) == 0x70);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SmoothStepPositionEventEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SmoothStepPositionEventEffect::Awake
 // Il2CppName: Awake
 template<>
@@ -258,7 +248,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SmoothStepPositionEventEffect*), "SetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SmoothStepPositionEventEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

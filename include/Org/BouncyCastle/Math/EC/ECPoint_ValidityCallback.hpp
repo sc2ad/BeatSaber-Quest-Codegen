@@ -32,15 +32,7 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class ECPoint::ValidityCallback : public ::Il2CppObject/*, public ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Math.EC.ECPoint m_outer
     // Size: 0x8
     // Offset: 0x10
@@ -65,20 +57,20 @@ namespace Org::BouncyCastle::Math::EC {
       return *reinterpret_cast<::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);
     }
     // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.ECPoint m_outer
-    ::Org::BouncyCastle::Math::EC::ECPoint*& dyn_m_outer();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::EC::ECPoint*& dyn_m_outer();
     // Get instance field reference: private readonly System.Boolean m_decompressed
-    bool& dyn_m_decompressed();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_decompressed();
     // Get instance field reference: private readonly System.Boolean m_checkOrder
-    bool& dyn_m_checkOrder();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_checkOrder();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECPoint outer, System.Boolean decompressed, System.Boolean checkOrder)
-    // Offset: 0x2705A44
+    // Offset: 0x2757F54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECPoint::ValidityCallback* New_ctor(::Org::BouncyCastle::Math::EC::ECPoint* outer, bool decompressed, bool checkOrder) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::ECPoint::ValidityCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECPoint::ValidityCallback*, creationType>(outer, decompressed, checkOrder)));
     }
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
-    // Offset: 0x2706310
+    // Offset: 0x2758820
     ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
   }; // Org.BouncyCastle.Math.EC.ECPoint/Org.BouncyCastle.Math.EC.ValidityCallback
   #pragma pack(pop)

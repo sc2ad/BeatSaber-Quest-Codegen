@@ -27,15 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapLevelDataSO::DifficultyBeatmapSet : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _beatmapCharacteristicSerializedName
     // Size: 0x8
     // Offset: 0x10
@@ -50,17 +42,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<::GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*>) == 0x8);
     public:
     // Get instance field reference: private System.String _beatmapCharacteristicSerializedName
-    ::StringW& dyn__beatmapCharacteristicSerializedName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__beatmapCharacteristicSerializedName();
     // Get instance field reference: private BeatmapLevelSO/DifficultyBeatmap[] _difficultyBeatmaps
-    ::ArrayW<::GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*>& dyn__difficultyBeatmaps();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*>& dyn__difficultyBeatmaps();
     // public System.String get_beatmapCharacteristicSerializedName()
-    // Offset: 0x14CDCAC
+    // Offset: 0x15055B4
     ::StringW get_beatmapCharacteristicSerializedName();
     // public BeatmapLevelSO/DifficultyBeatmap[] get_difficultyBeatmaps()
-    // Offset: 0x14CDCB4
+    // Offset: 0x15055BC
     ::ArrayW<::GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*> get_difficultyBeatmaps();
     // public System.Void .ctor(System.String beatmapCharacteristicSerializedName, BeatmapLevelSO/DifficultyBeatmap[] difficultyBeatmaps)
-    // Offset: 0x14CDCBC
+    // Offset: 0x15055C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelDataSO::DifficultyBeatmapSet* New_ctor(::StringW beatmapCharacteristicSerializedName, ::ArrayW<::GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*> difficultyBeatmaps) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet::.ctor");

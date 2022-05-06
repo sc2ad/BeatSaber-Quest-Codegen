@@ -56,15 +56,7 @@ namespace GlobalNamespace {
     class $$c;
     // Nested type: ::GlobalNamespace::MockBeatmapLoader::$GetBeatmapData$d__2
     struct $GetBeatmapData$d__2;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly BeatmapLevelsModel _beatmapLevelsModel
     // Size: 0x8
     // Offset: 0x10
@@ -81,19 +73,19 @@ namespace GlobalNamespace {
       return beatmapLevelsModel;
     }
     // Get instance field reference: private readonly BeatmapLevelsModel _beatmapLevelsModel
-    ::GlobalNamespace::BeatmapLevelsModel*& dyn__beatmapLevelsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelsModel*& dyn__beatmapLevelsModel();
     // public System.Void .ctor(BeatmapLevelsModel beatmapLevelsModel)
-    // Offset: 0x13C4828
+    // Offset: 0x13C0CD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockBeatmapLoader* New_ctor(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockBeatmapLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockBeatmapLoader*, creationType>(beatmapLevelsModel)));
     }
     // public System.Threading.Tasks.Task`1<MockBeatmapData> GetBeatmapData(BeatmapIdentifierNetSerializable beatmap, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13C4854
+    // Offset: 0x13C0D00
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::MockBeatmapData*>* GetBeatmapData(::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmap, ::System::Threading::CancellationToken cancellationToken);
     // public System.Void Dispose()
-    // Offset: 0x13C496C
+    // Offset: 0x13C0E18
     void Dispose();
   }; // MockBeatmapLoader
   #pragma pack(pop)

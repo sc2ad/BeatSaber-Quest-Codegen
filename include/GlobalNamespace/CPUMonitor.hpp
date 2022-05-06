@@ -40,15 +40,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CPUMonitor : public ::Il2CppObject/*, public ::GlobalNamespace::ICPUMonitor*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly RollingAverage _utilization
     // Size: 0x8
     // Offset: 0x10
@@ -87,30 +79,28 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::ICPUMonitor*>(this);
     }
     // Get instance field reference: private readonly RollingAverage _utilization
-    ::GlobalNamespace::RollingAverage*& dyn__utilization();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::RollingAverage*& dyn__utilization();
     // Get instance field reference: private readonly System.Diagnostics.Process _currentProcess
-    ::System::Diagnostics::Process*& dyn__currentProcess();
+    [[deprecated("Use field access instead!")]] ::System::Diagnostics::Process*& dyn__currentProcess();
     // Get instance field reference: private readonly System.Int32 _processorCount
-    int& dyn__processorCount();
+    [[deprecated("Use field access instead!")]] int& dyn__processorCount();
     // Get instance field reference: private System.Int64 _lastSampleTime
-    int64_t& dyn__lastSampleTime();
+    [[deprecated("Use field access instead!")]] int64_t& dyn__lastSampleTime();
     // Get instance field reference: private System.Int64 _lastSampleValue
-    int64_t& dyn__lastSampleValue();
+    [[deprecated("Use field access instead!")]] int64_t& dyn__lastSampleValue();
     // public System.Single get_utilization()
-    // Offset: 0x1503B28
+    // Offset: 0x153B430
     float get_utilization();
-    // public System.Void PollUpdate()
-    // Offset: 0x1503A20
-    void PollUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1503B50
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x153B458
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CPUMonitor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CPUMonitor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CPUMonitor*, creationType>()));
     }
+    // public System.Void PollUpdate()
+    // Offset: 0x153B328
+    void PollUpdate();
   }; // CPUMonitor
   #pragma pack(pop)
   static check_size<sizeof(CPUMonitor), 48 + sizeof(int64_t)> __GlobalNamespace_CPUMonitorSizeCheck;
@@ -125,6 +115,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CPUMonitor*), "get_utilization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::CPUMonitor::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CPUMonitor::PollUpdate
 // Il2CppName: PollUpdate
 template<>
@@ -133,7 +127,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CPUMonitor*), "PollUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CPUMonitor::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

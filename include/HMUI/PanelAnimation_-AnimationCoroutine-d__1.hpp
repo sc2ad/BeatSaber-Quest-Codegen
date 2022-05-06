@@ -42,15 +42,7 @@ namespace HMUI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PanelAnimation::$AnimationCoroutine$d__1 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -139,52 +131,52 @@ namespace HMUI {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Object <>2__current
-    ::Il2CppObject*& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$$2__current();
     // Get instance field reference: public UnityEngine.CanvasGroup canvasGroup
-    ::UnityEngine::CanvasGroup*& dyn_canvasGroup();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::CanvasGroup*& dyn_canvasGroup();
     // Get instance field reference: public System.Single duration
-    float& dyn_duration();
+    [[deprecated("Use field access instead!")]] float& dyn_duration();
     // Get instance field reference: public UnityEngine.CanvasGroup parentCanvasGroup
-    ::UnityEngine::CanvasGroup*& dyn_parentCanvasGroup();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::CanvasGroup*& dyn_parentCanvasGroup();
     // Get instance field reference: public UnityEngine.AnimationCurve parentAlphaAnimationCurve
-    ::UnityEngine::AnimationCurve*& dyn_parentAlphaAnimationCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_parentAlphaAnimationCurve();
     // Get instance field reference: public UnityEngine.AnimationCurve alphaAnimationCurve
-    ::UnityEngine::AnimationCurve*& dyn_alphaAnimationCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_alphaAnimationCurve();
     // Get instance field reference: public UnityEngine.AnimationCurve scaleXAnimationCurve
-    ::UnityEngine::AnimationCurve*& dyn_scaleXAnimationCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_scaleXAnimationCurve();
     // Get instance field reference: public UnityEngine.AnimationCurve scaleYAnimationCurve
-    ::UnityEngine::AnimationCurve*& dyn_scaleYAnimationCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn_scaleYAnimationCurve();
     // Get instance field reference: public HMUI.PanelAnimation <>4__this
-    ::HMUI::PanelAnimation*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::HMUI::PanelAnimation*& dyn_$$4__this();
     // Get instance field reference: public System.Action finishedCallback
-    ::System::Action*& dyn_finishedCallback();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_finishedCallback();
     // Get instance field reference: private UnityEngine.Transform <canvasTransform>5__2
-    ::UnityEngine::Transform*& dyn_$canvasTransform$5__2();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_$canvasTransform$5__2();
     // Get instance field reference: private System.Single <elapsedTime>5__3
-    float& dyn_$elapsedTime$5__3();
+    [[deprecated("Use field access instead!")]] float& dyn_$elapsedTime$5__3();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1686780
+    // Offset: 0x16BD090
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x16867E8
+    // Offset: 0x16BD0F8
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1686454
+    // Offset: 0x16BCD64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PanelAnimation::$AnimationCoroutine$d__1* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::PanelAnimation::$AnimationCoroutine$d__1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PanelAnimation::$AnimationCoroutine$d__1*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1686488
+    // Offset: 0x16BCD98
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x168648C
+    // Offset: 0x16BCD9C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1686788
+    // Offset: 0x16BD098
     void System_Collections_IEnumerator_Reset();
   }; // HMUI.PanelAnimation/HMUI.<AnimationCoroutine>d__1
   #pragma pack(pop)

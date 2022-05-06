@@ -27,15 +27,7 @@ namespace Assets::OVR::Scripts {
   // [TokenAttribute] Offset: FFFFFFFF
   class Record : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String category
     // Size: 0x8
     // Offset: 0x10
@@ -50,11 +42,11 @@ namespace Assets::OVR::Scripts {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String category
-    ::StringW& dyn_category();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_category();
     // Get instance field reference: public System.String message
-    ::StringW& dyn_message();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_message();
     // public System.Void .ctor(System.String cat, System.String msg)
-    // Offset: 0x1A525F0
+    // Offset: 0x1A8BBD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Record* New_ctor(::StringW cat, ::StringW msg) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Assets::OVR::Scripts::Record::.ctor");

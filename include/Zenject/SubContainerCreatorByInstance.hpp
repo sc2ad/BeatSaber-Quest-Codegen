@@ -44,15 +44,7 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class SubContainerCreatorByInstance : public ::Il2CppObject/*, public ::Zenject::ISubContainerCreator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Zenject.DiContainer _subcontainer
     // Size: 0x8
     // Offset: 0x10
@@ -69,16 +61,16 @@ namespace Zenject {
       return subcontainer;
     }
     // Get instance field reference: private readonly Zenject.DiContainer _subcontainer
-    ::Zenject::DiContainer*& dyn__subcontainer();
+    [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn__subcontainer();
     // public System.Void .ctor(Zenject.DiContainer subcontainer)
-    // Offset: 0x1CE5C10
+    // Offset: 0x1D21168
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorByInstance* New_ctor(::Zenject::DiContainer* subcontainer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SubContainerCreatorByInstance::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorByInstance*, creationType>(subcontainer)));
     }
     // public Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)
-    // Offset: 0x1CE73F4
+    // Offset: 0x1D2294C
     ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
   }; // Zenject.SubContainerCreatorByInstance
   #pragma pack(pop)

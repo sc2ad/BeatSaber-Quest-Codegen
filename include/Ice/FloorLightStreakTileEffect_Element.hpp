@@ -33,15 +33,7 @@ namespace Ice {
   // [TokenAttribute] Offset: FFFFFFFF
   class FloorLightStreakTileEffect::Element : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Action`1<Ice.FloorLightStreakTileEffect/Ice.Element> didMoveToNextTile
     // Size: 0x8
     // Offset: 0x10
@@ -80,41 +72,39 @@ namespace Ice {
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
     public:
     // Get instance field reference: public System.Action`1<Ice.FloorLightStreakTileEffect/Ice.Element> didMoveToNextTile
-    ::System::Action_1<::Ice::FloorLightStreakTileEffect::Element*>*& dyn_didMoveToNextTile();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::Ice::FloorLightStreakTileEffect::Element*>*& dyn_didMoveToNextTile();
     // Get instance field reference: private System.Int32 _currentTileY
-    int& dyn__currentTileY();
+    [[deprecated("Use field access instead!")]] int& dyn__currentTileY();
     // Get instance field reference: private System.Int32 _lineIndex
-    int& dyn__lineIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__lineIndex();
     // Get instance field reference: private System.Single _nextTileRemainingTime
-    float& dyn__nextTileRemainingTime();
+    [[deprecated("Use field access instead!")]] float& dyn__nextTileRemainingTime();
     // Get instance field reference: private System.Single _stayOnTileDuration
-    float& dyn__stayOnTileDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__stayOnTileDuration();
     // Get instance field reference: private UnityEngine.Color _color
-    ::UnityEngine::Color& dyn__color();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // public System.Int32 get_lineIndex()
-    // Offset: 0x2A6FCC8
+    // Offset: 0x2AC8030
     int get_lineIndex();
     // public System.Int32 get_currentTileY()
-    // Offset: 0x2A6FCD0
+    // Offset: 0x2AC8038
     int get_currentTileY();
     // public UnityEngine.Color get_color()
-    // Offset: 0x2A6FCD8
+    // Offset: 0x2AC8040
     ::UnityEngine::Color get_color();
-    // public System.Void Setup(UnityEngine.Color color, System.Int32 lineIndex, System.Single stayOnTileDuration)
-    // Offset: 0x2A6F814
-    void Setup(::UnityEngine::Color color, int lineIndex, float stayOnTileDuration);
-    // public System.Void ManualUpdate(System.Single deltaTime)
-    // Offset: 0x2A6F6A0
-    void ManualUpdate(float deltaTime);
     // public System.Void .ctor()
-    // Offset: 0x2A6FBFC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2AC7F64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FloorLightStreakTileEffect::Element* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Ice::FloorLightStreakTileEffect::Element::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FloorLightStreakTileEffect::Element*, creationType>()));
     }
+    // public System.Void Setup(UnityEngine.Color color, System.Int32 lineIndex, System.Single stayOnTileDuration)
+    // Offset: 0x2AC7B7C
+    void Setup(::UnityEngine::Color color, int lineIndex, float stayOnTileDuration);
+    // public System.Void ManualUpdate(System.Single deltaTime)
+    // Offset: 0x2AC7A08
+    void ManualUpdate(float deltaTime);
   }; // Ice.FloorLightStreakTileEffect/Ice.Element
   #pragma pack(pop)
   static check_size<sizeof(FloorLightStreakTileEffect::Element), 40 + sizeof(::UnityEngine::Color)> __Ice_FloorLightStreakTileEffect_ElementSizeCheck;
@@ -145,6 +135,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(Ice::FloorLightStreakTileEffect::Element*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Ice::FloorLightStreakTileEffect::Element::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Ice::FloorLightStreakTileEffect::Element::Setup
 // Il2CppName: Setup
 template<>
@@ -165,7 +159,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Ice::
     return ::il2cpp_utils::FindMethod(classof(Ice::FloorLightStreakTileEffect::Element*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deltaTime});
   }
 };
-// Writing MetadataGetter for method: Ice::FloorLightStreakTileEffect::Element::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

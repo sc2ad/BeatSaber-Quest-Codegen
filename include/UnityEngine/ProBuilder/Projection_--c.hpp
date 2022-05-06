@@ -52,23 +52,21 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2>,UnityEngine.Vector2> <>9__6_1
     static void _set_$$9__6_1(::System::Func_2<::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2>, ::UnityEngine::Vector2>* value);
     // static private System.Void .cctor()
-    // Offset: 0x198A064
+    // Offset: 0x19C364C
     static void _cctor();
-    // System.Int32 <Sort>b__6_0(UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2> a, UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2> b)
-    // Offset: 0x198A0D0
-    int $Sort$b__6_0(::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2> a, ::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2> b);
-    // UnityEngine.Vector2 <Sort>b__6_1(UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2> x)
-    // Offset: 0x198A128
-    ::UnityEngine::Vector2 $Sort$b__6_1(::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2> x);
     // public System.Void .ctor()
-    // Offset: 0x198A0C8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x19C36B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Projection::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Projection::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Projection::$$c*, creationType>()));
     }
+    // System.Int32 <Sort>b__6_0(UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2> a, UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2> b)
+    // Offset: 0x19C36B8
+    int $Sort$b__6_0(::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2> a, ::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2> b);
+    // UnityEngine.Vector2 <Sort>b__6_1(UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2> x)
+    // Offset: 0x19C3710
+    ::UnityEngine::Vector2 $Sort$b__6_1(::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2> x);
   }; // UnityEngine.ProBuilder.Projection/UnityEngine.ProBuilder.<>c
   #pragma pack(pop)
 }
@@ -81,6 +79,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Projection::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Projection::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Projection::$$c::$Sort$b__6_0
 // Il2CppName: <Sort>b__6_0
 template<>
@@ -100,7 +102,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Projection::$$c*), "<Sort>b__6_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ProBuilder::Projection::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

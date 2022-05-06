@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalizedTextAsset::TextInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Polyglot.Language language
     // Size: 0x4
     // Offset: 0x10
@@ -57,13 +49,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::TextAsset*) == 0x8);
     public:
     // Get instance field reference: public Polyglot.Language language
-    ::Polyglot::Language& dyn_language();
+    [[deprecated("Use field access instead!")]] ::Polyglot::Language& dyn_language();
     // Get instance field reference: public UnityEngine.TextAsset localizedText
-    ::UnityEngine::TextAsset*& dyn_localizedText();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TextAsset*& dyn_localizedText();
     // public System.Void .ctor()
-    // Offset: 0x152FB40
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1567448
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizedTextAsset::TextInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalizedTextAsset::TextInfo::.ctor");

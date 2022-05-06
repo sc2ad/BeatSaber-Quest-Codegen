@@ -27,15 +27,7 @@ namespace UnityEngine::Profiling::Memory::Experimental {
   // [TokenAttribute] Offset: FFFFFFFF
   class MetaData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String content
     // Size: 0x8
     // Offset: 0x10
@@ -50,13 +42,11 @@ namespace UnityEngine::Profiling::Memory::Experimental {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String content
-    ::StringW& dyn_content();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_content();
     // Get instance field reference: public System.String platform
-    ::StringW& dyn_platform();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_platform();
     // public System.Void .ctor()
-    // Offset: 0x20C1694
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x210AF08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MetaData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Profiling::Memory::Experimental::MetaData::.ctor");

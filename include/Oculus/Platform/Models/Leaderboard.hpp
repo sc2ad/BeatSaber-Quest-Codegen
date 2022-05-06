@@ -36,15 +36,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class Leaderboard : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.String ApiName
     // Size: 0x8
     // Offset: 0x10
@@ -57,7 +49,7 @@ namespace Oculus::Platform::Models {
     ::Oculus::Platform::Models::Destination* DestinationOptional;
     // Field size check
     static_assert(sizeof(::Oculus::Platform::Models::Destination*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0x12418A8
+    // [ObsoleteAttribute] Offset: 0x10C6380
     // public readonly Oculus.Platform.Models.Destination Destination
     // Size: 0x8
     // Offset: 0x20
@@ -72,15 +64,15 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(uint64_t) == 0x8);
     public:
     // Get instance field reference: public readonly System.String ApiName
-    ::StringW& dyn_ApiName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_ApiName();
     // Get instance field reference: public readonly Oculus.Platform.Models.Destination DestinationOptional
-    ::Oculus::Platform::Models::Destination*& dyn_DestinationOptional();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::Destination*& dyn_DestinationOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.Destination Destination
-    ::Oculus::Platform::Models::Destination*& dyn_Destination();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::Destination*& dyn_Destination();
     // Get instance field reference: public readonly System.UInt64 ID
-    uint64_t& dyn_ID();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_ID();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19B3F08
+    // Offset: 0x19ED4F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Leaderboard* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::Leaderboard::.ctor");

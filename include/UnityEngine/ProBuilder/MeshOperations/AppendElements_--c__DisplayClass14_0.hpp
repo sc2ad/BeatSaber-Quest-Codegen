@@ -33,15 +33,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class AppendElements::$$c__DisplayClass14_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 delCount
     // Size: 0x4
     // Offset: 0x10
@@ -54,25 +46,27 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return delCount;
     }
     // Get instance field reference: public System.Int32 delCount
-    int& dyn_delCount();
-    // UnityEngine.ProBuilder.Edge <AppendVerticesToEdge>b__0(UnityEngine.ProBuilder.EdgeLookup x)
-    // Offset: 0x19E4388
-    ::UnityEngine::ProBuilder::Edge $AppendVerticesToEdge$b__0(::UnityEngine::ProBuilder::EdgeLookup x);
+    [[deprecated("Use field access instead!")]] int& dyn_delCount();
     // public System.Void .ctor()
-    // Offset: 0x19E4380
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1A1D968
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AppendElements::$$c__DisplayClass14_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c__DisplayClass14_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AppendElements::$$c__DisplayClass14_0*, creationType>()));
     }
+    // UnityEngine.ProBuilder.Edge <AppendVerticesToEdge>b__0(UnityEngine.ProBuilder.EdgeLookup x)
+    // Offset: 0x1A1D970
+    ::UnityEngine::ProBuilder::Edge $AppendVerticesToEdge$b__0(::UnityEngine::ProBuilder::EdgeLookup x);
   }; // UnityEngine.ProBuilder.MeshOperations.AppendElements/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass14_0
   #pragma pack(pop)
   static check_size<sizeof(AppendElements::$$c__DisplayClass14_0), 16 + sizeof(int)> __UnityEngine_ProBuilder_MeshOperations_AppendElements_$$c__DisplayClass14_0SizeCheck;
   static_assert(sizeof(AppendElements::$$c__DisplayClass14_0) == 0x14);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c__DisplayClass14_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c__DisplayClass14_0::$AppendVerticesToEdge$b__0
 // Il2CppName: <AppendVerticesToEdge>b__0
 template<>
@@ -82,7 +76,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c__DisplayClass14_0*), "<AppendVerticesToEdge>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c__DisplayClass14_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

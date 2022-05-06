@@ -48,23 +48,15 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::VFXController::$MainCoroutine$d__9
     class $MainCoroutine$d__9;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [NullAllowed] Offset: 0x12255D8
+    // [NullAllowed] Offset: 0x10A9FF0
     // private UnityEngine.ParticleSystem[] _particleSystems
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<::UnityEngine::ParticleSystem*> particleSystems;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::ParticleSystem*>) == 0x8);
-    // [NullAllowed] Offset: 0x1225610
+    // [NullAllowed] Offset: 0x10AA028
     // private UnityEngine.Animation _animation
     // Size: 0x8
     // Offset: 0x20
@@ -81,39 +73,33 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem[] _particleSystems
-    ::ArrayW<::UnityEngine::ParticleSystem*>& dyn__particleSystems();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::ParticleSystem*>& dyn__particleSystems();
     // Get instance field reference: private UnityEngine.Animation _animation
-    ::UnityEngine::Animation*& dyn__animation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Animation*& dyn__animation();
     // Get instance field reference: private System.Boolean _deactivateAfterAnimationDuration
-    bool& dyn__deactivateAfterAnimationDuration();
+    [[deprecated("Use field access instead!")]] bool& dyn__deactivateAfterAnimationDuration();
     // public UnityEngine.Animation get_animation()
-    // Offset: 0x29DA0E8
+    // Offset: 0x2A2C5F8
     ::UnityEngine::Animation* get_animation();
     // public UnityEngine.ParticleSystem[] get_particleSystems()
-    // Offset: 0x29DA0F0
+    // Offset: 0x2A2C600
     ::ArrayW<::UnityEngine::ParticleSystem*> get_particleSystems();
-    // protected System.Void Awake()
-    // Offset: 0x29DA0F8
-    void Awake();
-    // public System.Void Play()
-    // Offset: 0x29DA120
-    void Play();
-    // private System.Collections.IEnumerator MainCoroutine(System.Boolean deactivateAfterDuration, System.Single duration)
-    // Offset: 0x29DA250
-    ::System::Collections::IEnumerator* MainCoroutine(bool deactivateAfterDuration, float duration);
     // public System.Void .ctor()
-    // Offset: 0x29DA310
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A2C820
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VFXController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VFXController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VFXController*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x2A2C608
+    void Awake();
+    // public System.Void Play()
+    // Offset: 0x2A2C630
+    void Play();
+    // private System.Collections.IEnumerator MainCoroutine(System.Boolean deactivateAfterDuration, System.Single duration)
+    // Offset: 0x2A2C760
+    ::System::Collections::IEnumerator* MainCoroutine(bool deactivateAfterDuration, float duration);
   }; // VFXController
   #pragma pack(pop)
   static check_size<sizeof(VFXController), 40 + sizeof(bool)> __GlobalNamespace_VFXControllerSizeCheck;
@@ -136,6 +122,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VFXController*), "get_particleSystems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::VFXController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::VFXController::Awake
 // Il2CppName: Awake
 template<>
@@ -162,7 +152,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VFXController*), "MainCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deactivateAfterDuration, duration});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::VFXController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

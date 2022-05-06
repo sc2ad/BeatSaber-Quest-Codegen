@@ -46,16 +46,16 @@ namespace GlobalNamespace {
   class BeatmapDataTransformHelper : public ::Il2CppObject {
     public:
     // static public IReadonlyBeatmapData CreateTransformedBeatmapData(IReadonlyBeatmapData beatmapData, IPreviewBeatmapLevel beatmapLevel, GameplayModifiers gameplayModifiers, System.Boolean leftHanded, EnvironmentEffectsFilterPreset environmentEffectsFilterPreset, EnvironmentIntensityReductionOptions environmentIntensityReductionOptions, MainSettingsModelSO mainSettingsModel)
-    // Offset: 0x14C4878
+    // Offset: 0x14FC180
     static ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool leftHanded, ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterPreset, ::GlobalNamespace::EnvironmentIntensityReductionOptions* environmentIntensityReductionOptions, ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel);
     // static private System.Void AddTestBurstSlider(System.Single time, System.Single duration, System.Int32 headLineIndex, NoteLineLayer headNoteLineLayer, NoteCutDirection headCutDirection, System.Int32 tailLineIndex, NoteLineLayer tailNoteLineLayer, NoteCutDirection tailCutDirection, System.Int32 sliceCount, System.Single squishAmount, BeatmapData beatmapData)
-    // Offset: 0x14C4B48
+    // Offset: 0x14FC450
     static void AddTestBurstSlider(float time, float duration, int headLineIndex, ::GlobalNamespace::NoteLineLayer headNoteLineLayer, ::GlobalNamespace::NoteCutDirection headCutDirection, int tailLineIndex, ::GlobalNamespace::NoteLineLayer tailNoteLineLayer, ::GlobalNamespace::NoteCutDirection tailCutDirection, int sliceCount, float squishAmount, ::GlobalNamespace::BeatmapData* beatmapData);
     // static private System.Void AddTestSlider(System.Single time, System.Single duration, System.Int32 headLineIndex, NoteLineLayer headNoteLineLayer, NoteCutDirection headCutDirection, System.Single headControlPointLength, System.Int32 tailLineIndex, NoteLineLayer tailNoteLineLayer, NoteCutDirection tailCutDirection, System.Single tailControlPointLength, System.Boolean hasHeadNote, System.Boolean hasTailNote, BeatmapData beatmapData)
-    // Offset: 0x14C4C48
+    // Offset: 0x14FC550
     static void AddTestSlider(float time, float duration, int headLineIndex, ::GlobalNamespace::NoteLineLayer headNoteLineLayer, ::GlobalNamespace::NoteCutDirection headCutDirection, float headControlPointLength, int tailLineIndex, ::GlobalNamespace::NoteLineLayer tailNoteLineLayer, ::GlobalNamespace::NoteCutDirection tailCutDirection, float tailControlPointLength, bool hasHeadNote, bool hasTailNote, ::GlobalNamespace::BeatmapData* beatmapData);
     // static public System.Boolean IsObstaclesMergingNeeded(IPreviewBeatmapLevel beatmapLevel, System.Boolean screenDisplacementEffectsEnabled)
-    // Offset: 0x14C4B3C
+    // Offset: 0x14FC444
     static bool IsObstaclesMergingNeeded(::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel, bool screenDisplacementEffectsEnabled);
   }; // BeatmapDataTransformHelper
   #pragma pack(pop)

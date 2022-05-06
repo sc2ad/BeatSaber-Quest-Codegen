@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRManager/CameraDevice ZEDCamera
     static void _set_ZEDCamera(::GlobalNamespace::OVRManager_CameraDevice value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVRManager/CameraDevice
   #pragma pack(pop)
   static check_size<sizeof(OVRManager_CameraDevice), 0 + sizeof(int)> __GlobalNamespace_OVRManager_CameraDeviceSizeCheck;

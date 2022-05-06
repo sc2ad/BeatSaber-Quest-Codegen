@@ -74,15 +74,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::GameplayModifiersPanelController::$$c__DisplayClass16_0
     class $$c__DisplayClass16_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private GameplayModifiersModelSO _gameplayModifiersModel
     // Size: 0x8
     // Offset: 0x18
@@ -101,7 +93,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* maxRankValueText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125B044
+    // [SpaceAttribute] Offset: 0x10DFC28
     // private UnityEngine.Color _positiveColor
     // Size: 0x10
     // Offset: 0x30
@@ -160,70 +152,64 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModel
-    ::GlobalNamespace::GameplayModifiersModelSO*& dyn__gameplayModifiersModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiersModelSO*& dyn__gameplayModifiersModel();
     // Get instance field reference: private TMPro.TextMeshProUGUI _totalMultiplierValueText
-    ::TMPro::TextMeshProUGUI*& dyn__totalMultiplierValueText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__totalMultiplierValueText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _maxRankValueText
-    ::TMPro::TextMeshProUGUI*& dyn__maxRankValueText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__maxRankValueText();
     // Get instance field reference: private UnityEngine.Color _positiveColor
-    ::UnityEngine::Color& dyn__positiveColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__positiveColor();
     // Get instance field reference: private UnityEngine.Color _negativeColor
-    ::UnityEngine::Color& dyn__negativeColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__negativeColor();
     // Get instance field reference: private System.Action didChangeGameplayModifiersEvent
-    ::System::Action*& dyn_didChangeGameplayModifiersEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didChangeGameplayModifiersEvent();
     // Get instance field reference: private GameplayModifiers _gameplayModifiers
-    ::GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // Get instance field reference: private HMUI.ToggleBinder _toggleBinder
-    ::HMUI::ToggleBinder*& dyn__toggleBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ToggleBinder*& dyn__toggleBinder();
     // Get instance field reference: private GameplayModifierToggle[] _gameplayModifierToggles
-    ::ArrayW<::GlobalNamespace::GameplayModifierToggle*>& dyn__gameplayModifierToggles();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::GameplayModifierToggle*>& dyn__gameplayModifierToggles();
     // Get instance field reference: private System.Boolean _changingGameplayModifierToggles
-    bool& dyn__changingGameplayModifierToggles();
+    [[deprecated("Use field access instead!")]] bool& dyn__changingGameplayModifierToggles();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<GameplayModifierParamsSO,UnityEngine.UI.Toggle> _toggleForGameplayModifierParam
-    ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::GameplayModifierParamsSO*, ::UnityEngine::UI::Toggle*>*& dyn__toggleForGameplayModifierParam();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::GameplayModifierParamsSO*, ::UnityEngine::UI::Toggle*>*& dyn__toggleForGameplayModifierParam();
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x13E7DA0
+    // Offset: 0x13F4840
     ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public System.Void add_didChangeGameplayModifiersEvent(System.Action value)
-    // Offset: 0x13E7C58
+    // Offset: 0x13F46F8
     void add_didChangeGameplayModifiersEvent(::System::Action* value);
     // public System.Void remove_didChangeGameplayModifiersEvent(System.Action value)
-    // Offset: 0x13E7CFC
+    // Offset: 0x13F479C
     void remove_didChangeGameplayModifiersEvent(::System::Action* value);
-    // public System.Void SetData(GameplayModifiers newGameplayModifiers)
-    // Offset: 0x13E7DA8
-    void SetData(::GlobalNamespace::GameplayModifiers* newGameplayModifiers);
-    // protected System.Void Awake()
-    // Offset: 0x13E7DB0
-    void Awake();
-    // private System.Void OnDestroy()
-    // Offset: 0x13E7F1C
-    void OnDestroy();
-    // private System.Void SetToggleValueWithGameplayModifierParams(GameplayModifierParamsSO gameplayModifierParams, System.Boolean value)
-    // Offset: 0x13E7F30
-    void SetToggleValueWithGameplayModifierParams(::GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams, bool value);
-    // private System.Boolean GetToggleValueWithGameplayModifierParams(GameplayModifierParamsSO gameplayModifierParams)
-    // Offset: 0x13E7FC8
-    bool GetToggleValueWithGameplayModifierParams(::GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams);
-    // private System.Void RefreshTotalMultiplierAndRankUI()
-    // Offset: 0x13E805C
-    void RefreshTotalMultiplierAndRankUI();
-    // private System.Void IRefreshable.Refresh()
-    // Offset: 0x13E8214
-    void IRefreshable_Refresh();
     // public System.Void .ctor()
-    // Offset: 0x13E831C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13F4DBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayModifiersPanelController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayModifiersPanelController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifiersPanelController*, creationType>()));
     }
+    // public System.Void SetData(GameplayModifiers newGameplayModifiers)
+    // Offset: 0x13F4848
+    void SetData(::GlobalNamespace::GameplayModifiers* newGameplayModifiers);
+    // protected System.Void Awake()
+    // Offset: 0x13F4850
+    void Awake();
+    // private System.Void OnDestroy()
+    // Offset: 0x13F49BC
+    void OnDestroy();
+    // private System.Void SetToggleValueWithGameplayModifierParams(GameplayModifierParamsSO gameplayModifierParams, System.Boolean value)
+    // Offset: 0x13F49D0
+    void SetToggleValueWithGameplayModifierParams(::GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams, bool value);
+    // private System.Boolean GetToggleValueWithGameplayModifierParams(GameplayModifierParamsSO gameplayModifierParams)
+    // Offset: 0x13F4A68
+    bool GetToggleValueWithGameplayModifierParams(::GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams);
+    // private System.Void RefreshTotalMultiplierAndRankUI()
+    // Offset: 0x13F4AFC
+    void RefreshTotalMultiplierAndRankUI();
+    // private System.Void IRefreshable.Refresh()
+    // Offset: 0x13F4CB4
+    void IRefreshable_Refresh();
   }; // GameplayModifiersPanelController
   #pragma pack(pop)
   static check_size<sizeof(GameplayModifiersPanelController), 120 + sizeof(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::GameplayModifierParamsSO*, ::UnityEngine::UI::Toggle*>*)> __GlobalNamespace_GameplayModifiersPanelControllerSizeCheck;
@@ -256,6 +242,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersPanelController*), "remove_didChangeGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersPanelController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersPanelController::SetData
 // Il2CppName: SetData
 template<>
@@ -316,7 +306,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersPanelController*), "IRefreshable.Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersPanelController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

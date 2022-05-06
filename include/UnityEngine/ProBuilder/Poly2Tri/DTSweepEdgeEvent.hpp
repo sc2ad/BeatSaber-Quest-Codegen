@@ -33,15 +33,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [TokenAttribute] Offset: FFFFFFFF
   class DTSweepEdgeEvent : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint ConstrainedEdge
     // Size: 0x8
     // Offset: 0x10
@@ -56,13 +48,11 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint ConstrainedEdge
-    ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*& dyn_ConstrainedEdge();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*& dyn_ConstrainedEdge();
     // Get instance field reference: public System.Boolean Right
-    bool& dyn_Right();
+    [[deprecated("Use field access instead!")]] bool& dyn_Right();
     // public System.Void .ctor()
-    // Offset: 0x2A3ACBC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A910A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DTSweepEdgeEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent::.ctor");

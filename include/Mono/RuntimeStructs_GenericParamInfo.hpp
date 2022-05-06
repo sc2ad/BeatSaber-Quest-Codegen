@@ -64,15 +64,15 @@ namespace Mono {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: Mono.RuntimeStructs/Mono.MonoClass* pklass
-    ::Mono::RuntimeStructs::MonoClass*& dyn_pklass();
+    [[deprecated("Use field access instead!")]] ::Mono::RuntimeStructs::MonoClass*& dyn_pklass();
     // Get instance field reference: System.IntPtr name
-    ::System::IntPtr& dyn_name();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_name();
     // Get instance field reference: System.UInt16 flags
-    uint16_t& dyn_flags();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_flags();
     // Get instance field reference: System.UInt32 token
-    uint& dyn_token();
+    [[deprecated("Use field access instead!")]] uint& dyn_token();
     // Get instance field reference: Mono.RuntimeStructs/Mono.MonoClass** constraints
-    ::Mono::RuntimeStructs::MonoClass**& dyn_constraints();
+    [[deprecated("Use field access instead!")]] ::Mono::RuntimeStructs::MonoClass**& dyn_constraints();
   }; // Mono.RuntimeStructs/Mono.GenericParamInfo
   #pragma pack(pop)
   static check_size<sizeof(RuntimeStructs::GenericParamInfo), 24 + sizeof(::Mono::RuntimeStructs::MonoClass**)> __Mono_RuntimeStructs_GenericParamInfoSizeCheck;

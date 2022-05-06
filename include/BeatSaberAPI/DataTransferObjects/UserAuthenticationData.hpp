@@ -31,15 +31,7 @@ namespace BeatSaberAPI::DataTransferObjects {
   // [TokenAttribute] Offset: FFFFFFFF
   class UserAuthenticationData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public BeatSaberAPI.DataTransferObjects.UserPlatform userPlatform
     // Size: 0x1
     // Offset: 0x10
@@ -86,23 +78,21 @@ namespace BeatSaberAPI::DataTransferObjects {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.UserPlatform userPlatform
-    ::BeatSaberAPI::DataTransferObjects::UserPlatform& dyn_userPlatform();
+    [[deprecated("Use field access instead!")]] ::BeatSaberAPI::DataTransferObjects::UserPlatform& dyn_userPlatform();
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.PlatformEnviroment platformEnviroment
-    ::BeatSaberAPI::DataTransferObjects::PlatformEnviroment& dyn_platformEnviroment();
+    [[deprecated("Use field access instead!")]] ::BeatSaberAPI::DataTransferObjects::PlatformEnviroment& dyn_platformEnviroment();
     // Get instance field reference: public System.String platformUserId
-    ::StringW& dyn_platformUserId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_platformUserId();
     // Get instance field reference: public System.String platformAuthToken
-    ::StringW& dyn_platformAuthToken();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_platformAuthToken();
     // Get instance field reference: public System.String bsAuthToken
-    ::StringW& dyn_bsAuthToken();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_bsAuthToken();
     // Get instance field reference: public System.String gameBuildVersion
-    ::StringW& dyn_gameBuildVersion();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_gameBuildVersion();
     // Get instance field reference: public System.String publicUserDisplayName
-    ::StringW& dyn_publicUserDisplayName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_publicUserDisplayName();
     // public System.Void .ctor()
-    // Offset: 0x1363A68
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x134BCE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserAuthenticationData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatSaberAPI::DataTransferObjects::UserAuthenticationData::.ctor");

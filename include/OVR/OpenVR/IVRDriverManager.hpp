@@ -61,11 +61,11 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: OVR.OpenVR.IVRDriverManager/OVR.OpenVR._GetDriverCount GetDriverCount
-    ::OVR::OpenVR::IVRDriverManager::_GetDriverCount*& dyn_GetDriverCount();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRDriverManager::_GetDriverCount*& dyn_GetDriverCount();
     // Get instance field reference: OVR.OpenVR.IVRDriverManager/OVR.OpenVR._GetDriverName GetDriverName
-    ::OVR::OpenVR::IVRDriverManager::_GetDriverName*& dyn_GetDriverName();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRDriverManager::_GetDriverName*& dyn_GetDriverName();
     // Get instance field reference: OVR.OpenVR.IVRDriverManager/OVR.OpenVR._GetDriverHandle GetDriverHandle
-    ::OVR::OpenVR::IVRDriverManager::_GetDriverHandle*& dyn_GetDriverHandle();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRDriverManager::_GetDriverHandle*& dyn_GetDriverHandle();
   }; // OVR.OpenVR.IVRDriverManager
   #pragma pack(pop)
   static check_size<sizeof(IVRDriverManager), 16 + sizeof(::OVR::OpenVR::IVRDriverManager::_GetDriverHandle*)> __OVR_OpenVR_IVRDriverManagerSizeCheck;

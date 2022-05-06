@@ -26,15 +26,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class VFXController::$MainCoroutine$d__9 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -75,36 +67,36 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Object <>2__current
-    ::Il2CppObject*& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$$2__current();
     // Get instance field reference: public VFXController <>4__this
-    ::GlobalNamespace::VFXController*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VFXController*& dyn_$$4__this();
     // Get instance field reference: public System.Boolean deactivateAfterDuration
-    bool& dyn_deactivateAfterDuration();
+    [[deprecated("Use field access instead!")]] bool& dyn_deactivateAfterDuration();
     // Get instance field reference: public System.Single duration
-    float& dyn_duration();
+    [[deprecated("Use field access instead!")]] float& dyn_duration();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x29DA4B0
+    // Offset: 0x2A2C9C0
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x29DA518
+    // Offset: 0x2A2CA28
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x29DA2E4
+    // Offset: 0x2A2C7F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VFXController::$MainCoroutine$d__9* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VFXController::$MainCoroutine$d__9::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VFXController::$MainCoroutine$d__9*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x29DA318
+    // Offset: 0x2A2C828
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x29DA31C
+    // Offset: 0x2A2C82C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x29DA4B8
+    // Offset: 0x2A2C9C8
     void System_Collections_IEnumerator_Reset();
   }; // VFXController/<MainCoroutine>d__9
   #pragma pack(pop)

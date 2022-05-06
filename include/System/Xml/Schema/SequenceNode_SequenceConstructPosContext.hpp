@@ -66,17 +66,17 @@ namespace System::Xml::Schema {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Xml.Schema.SequenceNode this_
-    ::System::Xml::Schema::SequenceNode*& dyn_this_();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::SequenceNode*& dyn_this_();
     // Get instance field reference: public System.Xml.Schema.BitSet firstpos
-    ::System::Xml::Schema::BitSet*& dyn_firstpos();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::BitSet*& dyn_firstpos();
     // Get instance field reference: public System.Xml.Schema.BitSet lastpos
-    ::System::Xml::Schema::BitSet*& dyn_lastpos();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::BitSet*& dyn_lastpos();
     // Get instance field reference: public System.Xml.Schema.BitSet lastposLeft
-    ::System::Xml::Schema::BitSet*& dyn_lastposLeft();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::BitSet*& dyn_lastposLeft();
     // Get instance field reference: public System.Xml.Schema.BitSet firstposRight
-    ::System::Xml::Schema::BitSet*& dyn_firstposRight();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::BitSet*& dyn_firstposRight();
     // public System.Void .ctor(System.Xml.Schema.SequenceNode node, System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet lastpos)
-    // Offset: 0x1C2A6C8
+    // Offset: 0x1C64CB0
     SequenceConstructPosContext(::System::Xml::Schema::SequenceNode* node, ::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos);
   }; // System.Xml.Schema.SequenceNode/System.Xml.Schema.SequenceConstructPosContext
   #pragma pack(pop)

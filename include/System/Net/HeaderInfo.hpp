@@ -34,15 +34,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class HeaderInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // readonly System.Boolean IsRequestRestricted
     // Size: 0x1
     // Offset: 0x10
@@ -77,17 +69,17 @@ namespace System::Net {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: readonly System.Boolean IsRequestRestricted
-    bool& dyn_IsRequestRestricted();
+    [[deprecated("Use field access instead!")]] bool& dyn_IsRequestRestricted();
     // Get instance field reference: readonly System.Boolean IsResponseRestricted
-    bool& dyn_IsResponseRestricted();
+    [[deprecated("Use field access instead!")]] bool& dyn_IsResponseRestricted();
     // Get instance field reference: readonly System.Net.HeaderParser Parser
-    ::System::Net::HeaderParser*& dyn_Parser();
+    [[deprecated("Use field access instead!")]] ::System::Net::HeaderParser*& dyn_Parser();
     // Get instance field reference: readonly System.String HeaderName
-    ::StringW& dyn_HeaderName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_HeaderName();
     // Get instance field reference: readonly System.Boolean AllowMultiValues
-    bool& dyn_AllowMultiValues();
+    [[deprecated("Use field access instead!")]] bool& dyn_AllowMultiValues();
     // System.Void .ctor(System.String name, System.Boolean requestRestricted, System.Boolean responseRestricted, System.Boolean multi, System.Net.HeaderParser p)
-    // Offset: 0x1A4F550
+    // Offset: 0x1A88B38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HeaderInfo* New_ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, ::System::Net::HeaderParser* p) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::HeaderInfo::.ctor");

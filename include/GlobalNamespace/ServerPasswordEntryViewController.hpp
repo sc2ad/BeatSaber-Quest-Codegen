@@ -49,16 +49,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ServerPasswordEntryViewController : public ::HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [HeaderAttribute] Offset: 0x125CB24
+    // [HeaderAttribute] Offset: 0x10E1708
     // private HMUI.InputFieldView _passwordInput
     // Size: 0x8
     // Offset: 0x70
@@ -85,49 +77,42 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::INetworkPlayer*) == 0x8);
     public:
     // Get instance field reference: private HMUI.InputFieldView _passwordInput
-    ::HMUI::InputFieldView*& dyn__passwordInput();
+    [[deprecated("Use field access instead!")]] ::HMUI::InputFieldView*& dyn__passwordInput();
     // Get instance field reference: private HMUI.UIKeyboard _uiKeyboard
-    ::HMUI::UIKeyboard*& dyn__uiKeyboard();
+    [[deprecated("Use field access instead!")]] ::HMUI::UIKeyboard*& dyn__uiKeyboard();
     // Get instance field reference: private System.Action`2<INetworkPlayer,System.String> didFinishEvent
-    ::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>*& dyn_didFinishEvent();
     // Get instance field reference: private INetworkPlayer _selectedNetworkPlayer
-    ::GlobalNamespace::INetworkPlayer*& dyn__selectedNetworkPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::INetworkPlayer*& dyn__selectedNetworkPlayer();
     // public System.Void add_didFinishEvent(System.Action`2<INetworkPlayer,System.String> value)
-    // Offset: 0x142878C
+    // Offset: 0x1469DC0
     void add_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<INetworkPlayer,System.String> value)
-    // Offset: 0x1428830
+    // Offset: 0x1469E64
     void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
-    // public System.Void Setup(INetworkPlayer selectedPlayer)
-    // Offset: 0x14288D4
-    void Setup(::GlobalNamespace::INetworkPlayer* selectedPlayer);
-    // private System.Void HandleJoinClicked()
-    // Offset: 0x1428A5C
-    void HandleJoinClicked();
-    // private System.Void HandleUIKeyboardOkButtonWasPressed()
-    // Offset: 0x1428AD0
-    void HandleUIKeyboardOkButtonWasPressed();
     // public System.Void .ctor()
-    // Offset: 0x1428B44
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x146A178
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerPasswordEntryViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ServerPasswordEntryViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerPasswordEntryViewController*, creationType>()));
     }
+    // public System.Void Setup(INetworkPlayer selectedPlayer)
+    // Offset: 0x1469F08
+    void Setup(::GlobalNamespace::INetworkPlayer* selectedPlayer);
+    // private System.Void HandleJoinClicked()
+    // Offset: 0x146A090
+    void HandleJoinClicked();
+    // private System.Void HandleUIKeyboardOkButtonWasPressed()
+    // Offset: 0x146A104
+    void HandleUIKeyboardOkButtonWasPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x14288DC
+    // Offset: 0x1469F10
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x14289A4
+    // Offset: 0x1469FD8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
@@ -155,6 +140,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPasswordEntryViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ServerPasswordEntryViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ServerPasswordEntryViewController::Setup
 // Il2CppName: Setup
 template<>
@@ -180,10 +169,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPasswordEntryViewController*), "HandleUIKeyboardOkButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ServerPasswordEntryViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ServerPasswordEntryViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

@@ -94,20 +94,12 @@ namespace GlobalNamespace {
       // Set static field: static public FullVRControllersRecorder/Mode Off
       static void _set_Off(::GlobalNamespace::FullVRControllersRecorder::Mode value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // FullVRControllersRecorder/Mode
     #pragma pack(pop)
     static check_size<sizeof(FullVRControllersRecorder::Mode), 0 + sizeof(int)> __GlobalNamespace_FullVRControllersRecorder_ModeSizeCheck;
     static_assert(sizeof(FullVRControllersRecorder::Mode) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _recordingFilePath
     // Size: 0x8
     // Offset: 0x18
@@ -146,14 +138,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: playbackFloorOffset and: controllers
     char __padding5[0x4] = {};
-    // [SpaceAttribute] Offset: 0x125F48C
+    // [SpaceAttribute] Offset: 0x10E4134
     // private VRController[] _controllers
     // Size: 0x8
     // Offset: 0x38
     ::ArrayW<::GlobalNamespace::VRController*> controllers;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::VRController*>) == 0x8);
-    // [InjectAttribute] Offset: 0x125F4C4
+    // [InjectAttribute] Offset: 0x10E416C
     // private AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x40
@@ -184,64 +176,58 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _recordingFilePath
-    ::StringW& dyn__recordingFilePath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__recordingFilePath();
     // Get instance field reference: private FullVRControllersRecorder/Mode _mode
-    ::GlobalNamespace::FullVRControllersRecorder::Mode& dyn__mode();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FullVRControllersRecorder::Mode& dyn__mode();
     // Get instance field reference: private System.Single _timeOffset
-    float& dyn__timeOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__timeOffset();
     // Get instance field reference: private System.Single _othersSmooth
-    float& dyn__othersSmooth();
+    [[deprecated("Use field access instead!")]] float& dyn__othersSmooth();
     // Get instance field reference: private System.Single _handsSmooth
-    float& dyn__handsSmooth();
+    [[deprecated("Use field access instead!")]] float& dyn__handsSmooth();
     // Get instance field reference: private System.Single _playbackFloorOffset
-    float& dyn__playbackFloorOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__playbackFloorOffset();
     // Get instance field reference: private VRController[] _controllers
-    ::ArrayW<::GlobalNamespace::VRController*>& dyn__controllers();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::VRController*>& dyn__controllers();
     // Get instance field reference: private AudioTimeSyncController _audioTimeSyncController
-    ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // Get instance field reference: private System.Action`1<VRController> didSetControllerTransformEvent
-    ::System::Action_1<::GlobalNamespace::VRController*>*& dyn_didSetControllerTransformEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::VRController*>*& dyn_didSetControllerTransformEvent();
     // Get instance field reference: private System.Int32 _keyframeIndex
-    int& dyn__keyframeIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__keyframeIndex();
     // Get instance field reference: private VRControllersRecorderData _data
-    ::GlobalNamespace::VRControllersRecorderData*& dyn__data();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VRControllersRecorderData*& dyn__data();
     // public System.Void add_didSetControllerTransformEvent(System.Action`1<VRController> value)
-    // Offset: 0x13932C0
+    // Offset: 0x137ADD4
     void add_didSetControllerTransformEvent(::System::Action_1<::GlobalNamespace::VRController*>* value);
     // public System.Void remove_didSetControllerTransformEvent(System.Action`1<VRController> value)
-    // Offset: 0x1393364
+    // Offset: 0x137AE78
     void remove_didSetControllerTransformEvent(::System::Action_1<::GlobalNamespace::VRController*>* value);
-    // protected System.Void Start()
-    // Offset: 0x1393408
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13937FC
-    void OnDestroy();
-    // private System.Void PlaybackTick()
-    // Offset: 0x13938A8
-    void PlaybackTick();
-    // private System.Void RecordTick()
-    // Offset: 0x1393C88
-    void RecordTick();
-    // protected System.Void Update()
-    // Offset: 0x1393E30
-    void Update();
-    // protected System.Void LateUpdate()
-    // Offset: 0x1393E80
-    void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1393E90
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x137B9A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FullVRControllersRecorder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FullVRControllersRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FullVRControllersRecorder*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x137AF1C
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x137B310
+    void OnDestroy();
+    // private System.Void PlaybackTick()
+    // Offset: 0x137B3BC
+    void PlaybackTick();
+    // private System.Void RecordTick()
+    // Offset: 0x137B79C
+    void RecordTick();
+    // protected System.Void Update()
+    // Offset: 0x137B944
+    void Update();
+    // protected System.Void LateUpdate()
+    // Offset: 0x137B994
+    void LateUpdate();
   }; // FullVRControllersRecorder
   #pragma pack(pop)
   static check_size<sizeof(FullVRControllersRecorder), 88 + sizeof(::GlobalNamespace::VRControllersRecorderData*)> __GlobalNamespace_FullVRControllersRecorderSizeCheck;
@@ -268,6 +254,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FullVRControllersRecorder*), "remove_didSetControllerTransformEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::FullVRControllersRecorder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FullVRControllersRecorder::Start
 // Il2CppName: Start
 template<>
@@ -316,7 +306,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FullVRControllersRecorder*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FullVRControllersRecorder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -135,7 +135,7 @@ namespace System::Net {
       // Set static field: static public System.Net.HttpConnection/System.Net.InputState Headers
       static void _set_Headers(::System::Net::HttpConnection::InputState value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // System.Net.HttpConnection/System.Net.InputState
     #pragma pack(pop)
     static check_size<sizeof(HttpConnection::InputState), 0 + sizeof(int)> __System_Net_HttpConnection_InputStateSizeCheck;
@@ -183,20 +183,12 @@ namespace System::Net {
       // Set static field: static public System.Net.HttpConnection/System.Net.LineState LF
       static void _set_LF(::System::Net::HttpConnection::LineState value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // System.Net.HttpConnection/System.Net.LineState
     #pragma pack(pop)
     static check_size<sizeof(HttpConnection::LineState), 0 + sizeof(int)> __System_Net_HttpConnection_LineStateSizeCheck;
     static_assert(sizeof(HttpConnection::LineState) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Net.Sockets.Socket sock
     // Size: 0x8
     // Offset: 0x10
@@ -359,124 +351,124 @@ namespace System::Net {
     // Set static field: static private System.AsyncCallback onread_cb
     static void _set_onread_cb(::System::AsyncCallback* value);
     // Get instance field reference: private System.Net.Sockets.Socket sock
-    ::System::Net::Sockets::Socket*& dyn_sock();
+    [[deprecated("Use field access instead!")]] ::System::Net::Sockets::Socket*& dyn_sock();
     // Get instance field reference: private System.IO.Stream stream
-    ::System::IO::Stream*& dyn_stream();
+    [[deprecated("Use field access instead!")]] ::System::IO::Stream*& dyn_stream();
     // Get instance field reference: private System.Net.EndPointListener epl
-    ::System::Net::EndPointListener*& dyn_epl();
+    [[deprecated("Use field access instead!")]] ::System::Net::EndPointListener*& dyn_epl();
     // Get instance field reference: private System.IO.MemoryStream ms
-    ::System::IO::MemoryStream*& dyn_ms();
+    [[deprecated("Use field access instead!")]] ::System::IO::MemoryStream*& dyn_ms();
     // Get instance field reference: private System.Byte[] buffer
-    ::ArrayW<uint8_t>& dyn_buffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_buffer();
     // Get instance field reference: private System.Net.HttpListenerContext context
-    ::System::Net::HttpListenerContext*& dyn_context();
+    [[deprecated("Use field access instead!")]] ::System::Net::HttpListenerContext*& dyn_context();
     // Get instance field reference: private System.Text.StringBuilder current_line
-    ::System::Text::StringBuilder*& dyn_current_line();
+    [[deprecated("Use field access instead!")]] ::System::Text::StringBuilder*& dyn_current_line();
     // Get instance field reference: private System.Net.ListenerPrefix prefix
-    ::System::Net::ListenerPrefix*& dyn_prefix();
+    [[deprecated("Use field access instead!")]] ::System::Net::ListenerPrefix*& dyn_prefix();
     // Get instance field reference: private System.Net.RequestStream i_stream
-    ::System::Net::RequestStream*& dyn_i_stream();
+    [[deprecated("Use field access instead!")]] ::System::Net::RequestStream*& dyn_i_stream();
     // Get instance field reference: private System.Net.ResponseStream o_stream
-    ::System::Net::ResponseStream*& dyn_o_stream();
+    [[deprecated("Use field access instead!")]] ::System::Net::ResponseStream*& dyn_o_stream();
     // Get instance field reference: private System.Boolean chunked
-    bool& dyn_chunked();
+    [[deprecated("Use field access instead!")]] bool& dyn_chunked();
     // Get instance field reference: private System.Int32 reuses
-    int& dyn_reuses();
+    [[deprecated("Use field access instead!")]] int& dyn_reuses();
     // Get instance field reference: private System.Boolean context_bound
-    bool& dyn_context_bound();
+    [[deprecated("Use field access instead!")]] bool& dyn_context_bound();
     // Get instance field reference: private System.Boolean secure
-    bool& dyn_secure();
+    [[deprecated("Use field access instead!")]] bool& dyn_secure();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate cert
-    ::System::Security::Cryptography::X509Certificates::X509Certificate*& dyn_cert();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509Certificate*& dyn_cert();
     // Get instance field reference: private System.Int32 s_timeout
-    int& dyn_s_timeout();
+    [[deprecated("Use field access instead!")]] int& dyn_s_timeout();
     // Get instance field reference: private System.Threading.Timer timer
-    ::System::Threading::Timer*& dyn_timer();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Timer*& dyn_timer();
     // Get instance field reference: private System.Net.IPEndPoint local_ep
-    ::System::Net::IPEndPoint*& dyn_local_ep();
+    [[deprecated("Use field access instead!")]] ::System::Net::IPEndPoint*& dyn_local_ep();
     // Get instance field reference: private System.Net.HttpListener last_listener
-    ::System::Net::HttpListener*& dyn_last_listener();
+    [[deprecated("Use field access instead!")]] ::System::Net::HttpListener*& dyn_last_listener();
     // Get instance field reference: private System.Int32[] client_cert_errors
-    ::ArrayW<int>& dyn_client_cert_errors();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_client_cert_errors();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate2 client_cert
-    ::System::Security::Cryptography::X509Certificates::X509Certificate2*& dyn_client_cert();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509Certificate2*& dyn_client_cert();
     // Get instance field reference: private System.Net.Security.SslStream ssl_stream
-    ::System::Net::Security::SslStream*& dyn_ssl_stream();
+    [[deprecated("Use field access instead!")]] ::System::Net::Security::SslStream*& dyn_ssl_stream();
     // Get instance field reference: private System.Net.HttpConnection/System.Net.InputState input_state
-    ::System::Net::HttpConnection::InputState& dyn_input_state();
+    [[deprecated("Use field access instead!")]] ::System::Net::HttpConnection::InputState& dyn_input_state();
     // Get instance field reference: private System.Net.HttpConnection/System.Net.LineState line_state
-    ::System::Net::HttpConnection::LineState& dyn_line_state();
+    [[deprecated("Use field access instead!")]] ::System::Net::HttpConnection::LineState& dyn_line_state();
     // Get instance field reference: private System.Int32 position
-    int& dyn_position();
+    [[deprecated("Use field access instead!")]] int& dyn_position();
     // public System.Int32 get_Reuses()
-    // Offset: 0x1A661D0
+    // Offset: 0x1AA07B8
     int get_Reuses();
     // public System.Net.IPEndPoint get_LocalEndPoint()
-    // Offset: 0x1A661D8
+    // Offset: 0x1AA07C0
     ::System::Net::IPEndPoint* get_LocalEndPoint();
     // public System.Boolean get_IsSecure()
-    // Offset: 0x1A66274
+    // Offset: 0x1AA085C
     bool get_IsSecure();
     // public System.Void set_Prefix(System.Net.ListenerPrefix value)
-    // Offset: 0x1A6627C
+    // Offset: 0x1AA0864
     void set_Prefix(::System::Net::ListenerPrefix* value);
     // public System.Void .ctor(System.Net.Sockets.Socket sock, System.Net.EndPointListener epl, System.Boolean secure, System.Security.Cryptography.X509Certificates.X509Certificate cert)
-    // Offset: 0x1A65D10
+    // Offset: 0x1AA02F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpConnection* New_ctor(::System::Net::Sockets::Socket* sock, ::System::Net::EndPointListener* epl, bool secure, ::System::Security::Cryptography::X509Certificates::X509Certificate* cert) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::HttpConnection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpConnection*, creationType>(sock, epl, secure, cert)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1A69544
+    // Offset: 0x1AA3B2C
     static void _cctor();
     // private System.Void Init()
-    // Offset: 0x1A66094
+    // Offset: 0x1AA067C
     void Init();
     // private System.Void OnTimeout(System.Object unused)
-    // Offset: 0x1A66284
+    // Offset: 0x1AA086C
     void OnTimeout(::Il2CppObject* unused);
     // public System.Void BeginReadRequest()
-    // Offset: 0x1A66408
+    // Offset: 0x1AA09F0
     void BeginReadRequest();
     // public System.Net.RequestStream GetRequestStream(System.Boolean chunked, System.Int64 contentlength)
-    // Offset: 0x1A665AC
+    // Offset: 0x1AA0B94
     ::System::Net::RequestStream* GetRequestStream(bool chunked, int64_t contentlength);
     // public System.Net.ResponseStream GetResponseStream()
-    // Offset: 0x1A667F8
+    // Offset: 0x1AA0DE0
     ::System::Net::ResponseStream* GetResponseStream();
     // static private System.Void OnRead(System.IAsyncResult ares)
-    // Offset: 0x1A668CC
+    // Offset: 0x1AA0EB4
     static void OnRead(::System::IAsyncResult* ares);
     // private System.Void OnReadInternal(System.IAsyncResult ares)
-    // Offset: 0x1A669A4
+    // Offset: 0x1AA0F8C
     void OnReadInternal(::System::IAsyncResult* ares);
     // private System.Void RemoveConnection()
-    // Offset: 0x1A679CC
+    // Offset: 0x1AA1FB4
     void RemoveConnection();
     // private System.Boolean ProcessInput(System.IO.MemoryStream ms)
-    // Offset: 0x1A670F8
+    // Offset: 0x1AA16E0
     bool ProcessInput(::System::IO::MemoryStream* ms);
     // private System.String ReadLine(System.Byte[] buffer, System.Int32 offset, System.Int32 len, ref System.Int32 used)
-    // Offset: 0x1A67D70
+    // Offset: 0x1AA2358
     ::StringW ReadLine(::ArrayW<uint8_t> buffer, int offset, int len, ByRef<int> used);
     // public System.Void SendError(System.String msg, System.Int32 status)
-    // Offset: 0x1A66CD4
+    // Offset: 0x1AA12BC
     void SendError(::StringW msg, int status);
     // public System.Void SendError()
-    // Offset: 0x1A670D8
+    // Offset: 0x1AA16C0
     void SendError();
     // private System.Void Unbind()
-    // Offset: 0x1A663C8
+    // Offset: 0x1AA09B0
     void Unbind();
     // private System.Void CloseSocket()
-    // Offset: 0x1A662A8
+    // Offset: 0x1AA0890
     void CloseSocket();
     // System.Void Close(System.Boolean force_close)
-    // Offset: 0x1A66E98
+    // Offset: 0x1AA1480
     void Close(bool force_close);
     // private System.Boolean <.ctor>b__24_0(System.Object t, System.Security.Cryptography.X509Certificates.X509Certificate c, System.Security.Cryptography.X509Certificates.X509Chain ch, System.Net.Security.SslPolicyErrors e)
-    // Offset: 0x1A695C0
+    // Offset: 0x1AA3BA8
     bool $_ctor$b__24_0(::Il2CppObject* t, ::System::Security::Cryptography::X509Certificates::X509Certificate* c, ::System::Security::Cryptography::X509Certificates::X509Chain* ch, ::System::Net::Security::SslPolicyErrors e);
   }; // System.Net.HttpConnection
   #pragma pack(pop)

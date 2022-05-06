@@ -51,7 +51,7 @@ namespace UnityEngine::Experimental::XR {
     // Set static field: static public UnityEngine.Experimental.XR.Boundary/UnityEngine.Experimental.XR.Type TrackedArea
     static void _set_TrackedArea(::UnityEngine::Experimental::XR::Boundary::Type value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.Experimental.XR.Boundary/UnityEngine.Experimental.XR.Type
   #pragma pack(pop)
   static check_size<sizeof(Boundary::Type), 0 + sizeof(int)> __UnityEngine_Experimental_XR_Boundary_TypeSizeCheck;

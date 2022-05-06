@@ -44,15 +44,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerPositionDisplay : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshPro _text
     // Size: 0x8
     // Offset: 0x18
@@ -97,14 +89,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: fadeOutDuration and: scoreProvider
     char __padding6[0x4] = {};
-    // [InjectAttribute] Offset: 0x1255110
+    // [InjectAttribute] Offset: 0x10D9CF4
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x60
     ::GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x1255120
+    // [InjectAttribute] Offset: 0x10D9D04
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x68
@@ -159,80 +151,78 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshPro _text
-    ::TMPro::TextMeshPro*& dyn__text();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshPro*& dyn__text();
     // Get instance field reference: private UnityEngine.Color _normalColor
-    ::UnityEngine::Color& dyn__normalColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__normalColor();
     // Get instance field reference: private UnityEngine.Color _leadingColor
-    ::UnityEngine::Color& dyn__leadingColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__leadingColor();
     // Get instance field reference: private UnityEngine.Color _failedColor
-    ::UnityEngine::Color& dyn__failedColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__failedColor();
     // Get instance field reference: private System.Single _fadeInDuration
-    float& dyn__fadeInDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__fadeInDuration();
     // Get instance field reference: private System.Single _crossFadeDuration
-    float& dyn__crossFadeDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__crossFadeDuration();
     // Get instance field reference: private System.Single _fadeOutDuration
-    float& dyn__fadeOutDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__fadeOutDuration();
     // Get instance field reference: private readonly MultiplayerScoreProvider _scoreProvider
-    ::GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreProvider();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreProvider();
     // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
-    ::GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // Get instance field reference: private System.Boolean _wasFirst
-    bool& dyn__wasFirst();
+    [[deprecated("Use field access instead!")]] bool& dyn__wasFirst();
     // Get instance field reference: private System.Boolean _isFailed
-    bool& dyn__isFailed();
+    [[deprecated("Use field access instead!")]] bool& dyn__isFailed();
     // Get instance field reference: private System.Boolean _updatingColor
-    bool& dyn__updatingColor();
+    [[deprecated("Use field access instead!")]] bool& dyn__updatingColor();
     // Get instance field reference: private UnityEngine.Color _startColor
-    ::UnityEngine::Color& dyn__startColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__startColor();
     // Get instance field reference: private UnityEngine.Color _targetColor
-    ::UnityEngine::Color& dyn__targetColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__targetColor();
     // Get instance field reference: private System.Single _colorAnimationStartTime
-    float& dyn__colorAnimationStartTime();
+    [[deprecated("Use field access instead!")]] float& dyn__colorAnimationStartTime();
     // Get instance field reference: private System.Single _colorAnimationStartDuration
-    float& dyn__colorAnimationStartDuration();
-    // protected System.Void Start()
-    // Offset: 0x13A50C8
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13A5298
-    void OnDestroy();
-    // protected System.Void Update()
-    // Offset: 0x13A54AC
-    void Update();
-    // private System.Void UpdateColors()
-    // Offset: 0x13A5508
-    void UpdateColors();
-    // private System.Void UpdatePosition()
-    // Offset: 0x13A55A8
-    void UpdatePosition();
-    // private System.Void HandlePlayerFailed()
-    // Offset: 0x13A5720
-    void HandlePlayerFailed();
-    // private System.Void HandleFirstPlayerDidChange(MultiplayerScoreProvider/RankedPlayer obj)
-    // Offset: 0x13A5804
-    void HandleFirstPlayerDidChange(::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* obj);
-    // private System.Void ChangeColor(UnityEngine.Color toColor, System.Single duration)
-    // Offset: 0x13A5424
-    void ChangeColor(::UnityEngine::Color toColor, float duration);
+    [[deprecated("Use field access instead!")]] float& dyn__colorAnimationStartDuration();
     // public System.Void .ctor()
-    // Offset: 0x13A58B8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13A1D64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerPositionDisplay* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerPositionDisplay::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerPositionDisplay*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x13A1574
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13A1744
+    void OnDestroy();
+    // protected System.Void Update()
+    // Offset: 0x13A1958
+    void Update();
+    // private System.Void UpdateColors()
+    // Offset: 0x13A19B4
+    void UpdateColors();
+    // private System.Void UpdatePosition()
+    // Offset: 0x13A1A54
+    void UpdatePosition();
+    // private System.Void HandlePlayerFailed()
+    // Offset: 0x13A1BCC
+    void HandlePlayerFailed();
+    // private System.Void HandleFirstPlayerDidChange(MultiplayerScoreProvider/RankedPlayer obj)
+    // Offset: 0x13A1CB0
+    void HandleFirstPlayerDidChange(::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* obj);
+    // private System.Void ChangeColor(UnityEngine.Color toColor, System.Single duration)
+    // Offset: 0x13A18D0
+    void ChangeColor(::UnityEngine::Color toColor, float duration);
   }; // MultiplayerPositionDisplay
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerPositionDisplay), 152 + sizeof(float)> __GlobalNamespace_MultiplayerPositionDisplaySizeCheck;
   static_assert(sizeof(MultiplayerPositionDisplay) == 0x9C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerPositionDisplay::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerPositionDisplay::Start
 // Il2CppName: Start
 template<>
@@ -300,7 +290,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerPositionDisplay*), "ChangeColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{toColor, duration});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerPositionDisplay::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

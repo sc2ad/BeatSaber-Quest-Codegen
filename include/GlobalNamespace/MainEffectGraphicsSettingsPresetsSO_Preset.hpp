@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MainEffectGraphicsSettingsPresetsSO::Preset : public ::GlobalNamespace::NamedPreset {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public MainEffectSO mainEffect
     // Size: 0x8
     // Offset: 0x18
@@ -51,12 +43,11 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::StringW
     constexpr operator ::StringW() const noexcept = delete;
     // Get instance field reference: public MainEffectSO mainEffect
-    ::GlobalNamespace::MainEffectSO*& dyn_mainEffect();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainEffectSO*& dyn_mainEffect();
     // public System.Void .ctor()
-    // Offset: 0x152FE1C
+    // Offset: 0x1567724
     // Implemented from: NamedPreset
     // Base method: System.Void NamedPreset::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainEffectGraphicsSettingsPresetsSO::Preset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset::.ctor");

@@ -59,8 +59,14 @@ namespace GlobalNamespace {
     static ::GlobalNamespace::EnvironmentColorType _get_Color1();
     // Set static field: static public EnvironmentColorType Color1
     static void _set_Color1(::GlobalNamespace::EnvironmentColorType value);
+    // static field const value: static public EnvironmentColorType ColorW
+    static constexpr const int ColorW = 2;
+    // Get static field: static public EnvironmentColorType ColorW
+    static ::GlobalNamespace::EnvironmentColorType _get_ColorW();
+    // Set static field: static public EnvironmentColorType ColorW
+    static void _set_ColorW(::GlobalNamespace::EnvironmentColorType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // EnvironmentColorType
   #pragma pack(pop)
   static check_size<sizeof(EnvironmentColorType), 0 + sizeof(int)> __GlobalNamespace_EnvironmentColorTypeSizeCheck;

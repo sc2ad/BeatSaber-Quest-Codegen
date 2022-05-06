@@ -36,15 +36,7 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   class TraceEventCache : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int64 timeStamp
     // Size: 0x8
     // Offset: 0x10
@@ -73,47 +65,45 @@ namespace System::Diagnostics {
     // Set static field: static private System.String processName
     static void _set_processName(::StringW value);
     // Get instance field reference: private System.Int64 timeStamp
-    int64_t& dyn_timeStamp();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_timeStamp();
     // Get instance field reference: private System.DateTime dateTime
-    ::System::DateTime& dyn_dateTime();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_dateTime();
     // Get instance field reference: private System.String stackTrace
-    ::StringW& dyn_stackTrace();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_stackTrace();
     // public System.String get_Callstack()
-    // Offset: 0x1CAD1F0
+    // Offset: 0x1CE9748
     ::StringW get_Callstack();
     // public System.Collections.Stack get_LogicalOperationStack()
-    // Offset: 0x1CAD21C
+    // Offset: 0x1CE9774
     ::System::Collections::Stack* get_LogicalOperationStack();
     // public System.DateTime get_DateTime()
-    // Offset: 0x1CAD238
+    // Offset: 0x1CE9790
     ::System::DateTime get_DateTime();
     // public System.Int32 get_ProcessId()
-    // Offset: 0x1CAD2EC
+    // Offset: 0x1CE9844
     int get_ProcessId();
     // public System.String get_ThreadId()
-    // Offset: 0x1CAD34C
+    // Offset: 0x1CE98A4
     ::StringW get_ThreadId();
     // public System.Int64 get_Timestamp()
-    // Offset: 0x1CAD3F0
+    // Offset: 0x1CE9948
     int64_t get_Timestamp();
-    // static private System.Void InitProcessInfo()
-    // Offset: 0x1CAD464
-    static void InitProcessInfo();
-    // static System.Int32 GetProcessId()
-    // Offset: 0x1CAD2F0
-    static int GetProcessId();
-    // static System.Int32 GetThreadId()
-    // Offset: 0x1CAD3CC
-    static int GetThreadId();
     // public System.Void .ctor()
-    // Offset: 0x1CAD56C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1CE9AC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TraceEventCache* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::TraceEventCache::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TraceEventCache*, creationType>()));
     }
+    // static private System.Void InitProcessInfo()
+    // Offset: 0x1CE99BC
+    static void InitProcessInfo();
+    // static System.Int32 GetProcessId()
+    // Offset: 0x1CE9848
+    static int GetProcessId();
+    // static System.Int32 GetThreadId()
+    // Offset: 0x1CE9924
+    static int GetThreadId();
   }; // System.Diagnostics.TraceEventCache
   #pragma pack(pop)
   static check_size<sizeof(TraceEventCache), 32 + sizeof(::StringW)> __System_Diagnostics_TraceEventCacheSizeCheck;
@@ -168,6 +158,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Sy
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::TraceEventCache*), "get_Timestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Diagnostics::TraceEventCache::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Diagnostics::TraceEventCache::InitProcessInfo
 // Il2CppName: InitProcessInfo
 template<>
@@ -192,7 +186,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::TraceEventCache*), "GetThreadId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Diagnostics::TraceEventCache::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

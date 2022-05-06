@@ -72,7 +72,7 @@ namespace System::Threading::Tasks {
     // Set static field: static public System.Threading.Tasks.CausalityRelation Error
     static void _set_Error(::System::Threading::Tasks::CausalityRelation value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Threading.Tasks.CausalityRelation
   #pragma pack(pop)
   static check_size<sizeof(CausalityRelation), 0 + sizeof(int)> __System_Threading_Tasks_CausalityRelationSizeCheck;

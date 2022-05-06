@@ -51,15 +51,7 @@ namespace TMPro {
     public:
     // Nested type: ::TMPro::TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7
     class $DoSpriteAnimationInternal$d__7;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.Dictionary`2<System.Int32,System.Boolean> m_animations
     // Size: 0x8
     // Offset: 0x18
@@ -76,46 +68,44 @@ namespace TMPro {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.Boolean> m_animations
-    ::System::Collections::Generic::Dictionary_2<int, bool>*& dyn_m_animations();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, bool>*& dyn_m_animations();
     // Get instance field reference: private TMPro.TMP_Text m_TextComponent
-    ::TMPro::TMP_Text*& dyn_m_TextComponent();
-    // private System.Void Awake()
-    // Offset: 0x145261C
-    void Awake();
-    // private System.Void OnEnable()
-    // Offset: 0x1452674
-    void OnEnable();
-    // private System.Void OnDisable()
-    // Offset: 0x1452678
-    void OnDisable();
-    // public System.Void StopAllAnimations()
-    // Offset: 0x145267C
-    void StopAllAnimations();
-    // public System.Void DoSpriteAnimation(System.Int32 currentCharacter, TMPro.TMP_SpriteAsset spriteAsset, System.Int32 start, System.Int32 end, System.Int32 framerate)
-    // Offset: 0x14526E0
-    void DoSpriteAnimation(int currentCharacter, ::TMPro::TMP_SpriteAsset* spriteAsset, int start, int end, int framerate);
-    // private System.Collections.IEnumerator DoSpriteAnimationInternal(System.Int32 currentCharacter, TMPro.TMP_SpriteAsset spriteAsset, System.Int32 start, System.Int32 end, System.Int32 framerate)
-    // Offset: 0x14527C4
-    ::System::Collections::IEnumerator* DoSpriteAnimationInternal(int currentCharacter, ::TMPro::TMP_SpriteAsset* spriteAsset, int start, int end, int framerate);
+    [[deprecated("Use field access instead!")]] ::TMPro::TMP_Text*& dyn_m_TextComponent();
     // public System.Void .ctor()
-    // Offset: 0x1452898
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1473718
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_SpriteAnimator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_SpriteAnimator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_SpriteAnimator*, creationType>()));
     }
+    // private System.Void Awake()
+    // Offset: 0x147349C
+    void Awake();
+    // private System.Void OnEnable()
+    // Offset: 0x14734F4
+    void OnEnable();
+    // private System.Void OnDisable()
+    // Offset: 0x14734F8
+    void OnDisable();
+    // public System.Void StopAllAnimations()
+    // Offset: 0x14734FC
+    void StopAllAnimations();
+    // public System.Void DoSpriteAnimation(System.Int32 currentCharacter, TMPro.TMP_SpriteAsset spriteAsset, System.Int32 start, System.Int32 end, System.Int32 framerate)
+    // Offset: 0x1473560
+    void DoSpriteAnimation(int currentCharacter, ::TMPro::TMP_SpriteAsset* spriteAsset, int start, int end, int framerate);
+    // private System.Collections.IEnumerator DoSpriteAnimationInternal(System.Int32 currentCharacter, TMPro.TMP_SpriteAsset spriteAsset, System.Int32 start, System.Int32 end, System.Int32 framerate)
+    // Offset: 0x1473644
+    ::System::Collections::IEnumerator* DoSpriteAnimationInternal(int currentCharacter, ::TMPro::TMP_SpriteAsset* spriteAsset, int start, int end, int framerate);
   }; // TMPro.TMP_SpriteAnimator
   #pragma pack(pop)
   static check_size<sizeof(TMP_SpriteAnimator), 32 + sizeof(::TMPro::TMP_Text*)> __TMPro_TMP_SpriteAnimatorSizeCheck;
   static_assert(sizeof(TMP_SpriteAnimator) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: TMPro::TMP_SpriteAnimator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAnimator::Awake
 // Il2CppName: Awake
 template<>
@@ -174,7 +164,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAnimator*), "DoSpriteAnimationInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{currentCharacter, spriteAsset, start, end, framerate});
   }
 };
-// Writing MetadataGetter for method: TMPro::TMP_SpriteAnimator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

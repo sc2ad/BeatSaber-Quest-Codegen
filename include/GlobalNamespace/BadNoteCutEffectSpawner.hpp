@@ -45,36 +45,28 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BadNoteCutEffectSpawner : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private FlyingSpriteSpawner _failFlyingSpriteSpawner
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::FlyingSpriteSpawner* failFlyingSpriteSpawner;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FlyingSpriteSpawner*) == 0x8);
-    // [InjectAttribute] Offset: 0x124FEF0
+    // [InjectAttribute] Offset: 0x10D4A24
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x124FF00
+    // [InjectAttribute] Offset: 0x10D4A34
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0x124FF10
+    // [InjectAttribute] Offset: 0x10D4A44
     // private readonly CoreGameHUDController/InitData _initData
     // Size: 0x8
     // Offset: 0x30
@@ -85,41 +77,39 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FlyingSpriteSpawner _failFlyingSpriteSpawner
-    ::GlobalNamespace::FlyingSpriteSpawner*& dyn__failFlyingSpriteSpawner();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FlyingSpriteSpawner*& dyn__failFlyingSpriteSpawner();
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
-    ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
-    ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // Get instance field reference: private readonly CoreGameHUDController/InitData _initData
-    ::GlobalNamespace::CoreGameHUDController::InitData*& dyn__initData();
-    // protected System.Void Start()
-    // Offset: 0x135DA4C
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x135DB04
-    void OnDestroy();
-    // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x135DB9C
-    void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::CoreGameHUDController::InitData*& dyn__initData();
     // public System.Void .ctor()
-    // Offset: 0x135DCC4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1345F44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BadNoteCutEffectSpawner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BadNoteCutEffectSpawner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BadNoteCutEffectSpawner*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x1345CCC
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1345D84
+    void OnDestroy();
+    // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
+    // Offset: 0x1345E1C
+    void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
   }; // BadNoteCutEffectSpawner
   #pragma pack(pop)
   static check_size<sizeof(BadNoteCutEffectSpawner), 48 + sizeof(::GlobalNamespace::CoreGameHUDController::InitData*)> __GlobalNamespace_BadNoteCutEffectSpawnerSizeCheck;
   static_assert(sizeof(BadNoteCutEffectSpawner) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BadNoteCutEffectSpawner::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BadNoteCutEffectSpawner::Start
 // Il2CppName: Start
 template<>
@@ -146,7 +136,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BadNoteCutEffectSpawner*), "HandleNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteController, noteCutInfo});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BadNoteCutEffectSpawner::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

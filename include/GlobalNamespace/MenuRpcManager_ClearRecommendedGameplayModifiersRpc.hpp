@@ -26,10 +26,9 @@ namespace GlobalNamespace {
   class MenuRpcManager::ClearRecommendedGameplayModifiersRpc : public ::GlobalNamespace::RemoteProcedureCall {
     public:
     // public System.Void .ctor()
-    // Offset: 0x170027C
+    // Offset: 0x1738B8C
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuRpcManager::ClearRecommendedGameplayModifiersRpc* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuRpcManager::ClearRecommendedGameplayModifiersRpc::.ctor");

@@ -41,15 +41,7 @@ namespace UnityEngine::ResourceManagement {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebRequestQueueOperation : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Networking.UnityWebRequestAsyncOperation Result
     // Size: 0x8
     // Offset: 0x10
@@ -70,23 +62,23 @@ namespace UnityEngine::ResourceManagement {
     static_assert(sizeof(::UnityEngine::Networking::UnityWebRequest*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.Networking.UnityWebRequestAsyncOperation Result
-    ::UnityEngine::Networking::UnityWebRequestAsyncOperation*& dyn_Result();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Networking::UnityWebRequestAsyncOperation*& dyn_Result();
     // Get instance field reference: public System.Action`1<UnityEngine.Networking.UnityWebRequestAsyncOperation> OnComplete
-    ::System::Action_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>*& dyn_OnComplete();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>*& dyn_OnComplete();
     // Get instance field reference: UnityEngine.Networking.UnityWebRequest m_WebRequest
-    ::UnityEngine::Networking::UnityWebRequest*& dyn_m_WebRequest();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Networking::UnityWebRequest*& dyn_m_WebRequest();
     // public System.Boolean get_IsDone()
-    // Offset: 0x1E9DA48
+    // Offset: 0x1EEBF80
     bool get_IsDone();
     // public System.Void .ctor(UnityEngine.Networking.UnityWebRequest request)
-    // Offset: 0x1EA3EF4
+    // Offset: 0x1EF242C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebRequestQueueOperation* New_ctor(::UnityEngine::Networking::UnityWebRequest* request) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::WebRequestQueueOperation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebRequestQueueOperation*, creationType>(request)));
     }
     // System.Void Complete(UnityEngine.Networking.UnityWebRequestAsyncOperation asyncOp)
-    // Offset: 0x1EA40E4
+    // Offset: 0x1EF261C
     void Complete(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
   }; // UnityEngine.ResourceManagement.WebRequestQueueOperation
   #pragma pack(pop)

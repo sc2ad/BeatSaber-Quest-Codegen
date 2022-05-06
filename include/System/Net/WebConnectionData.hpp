@@ -49,15 +49,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebConnectionData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Net.HttpWebRequest _request
     // Size: 0x8
     // Offset: 0x10
@@ -116,50 +108,48 @@ namespace System::Net {
     static_assert(sizeof(::System::Net::ReadState) == 0x4);
     public:
     // Get instance field reference: private System.Net.HttpWebRequest _request
-    ::System::Net::HttpWebRequest*& dyn__request();
+    [[deprecated("Use field access instead!")]] ::System::Net::HttpWebRequest*& dyn__request();
     // Get instance field reference: public System.Int32 StatusCode
-    int& dyn_StatusCode();
+    [[deprecated("Use field access instead!")]] int& dyn_StatusCode();
     // Get instance field reference: public System.String StatusDescription
-    ::StringW& dyn_StatusDescription();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_StatusDescription();
     // Get instance field reference: public System.Net.WebHeaderCollection Headers
-    ::System::Net::WebHeaderCollection*& dyn_Headers();
+    [[deprecated("Use field access instead!")]] ::System::Net::WebHeaderCollection*& dyn_Headers();
     // Get instance field reference: public System.Version Version
-    ::System::Version*& dyn_Version();
+    [[deprecated("Use field access instead!")]] ::System::Version*& dyn_Version();
     // Get instance field reference: public System.Version ProxyVersion
-    ::System::Version*& dyn_ProxyVersion();
+    [[deprecated("Use field access instead!")]] ::System::Version*& dyn_ProxyVersion();
     // Get instance field reference: public System.IO.Stream stream
-    ::System::IO::Stream*& dyn_stream();
+    [[deprecated("Use field access instead!")]] ::System::IO::Stream*& dyn_stream();
     // Get instance field reference: public System.String[] Challenge
-    ::ArrayW<::StringW>& dyn_Challenge();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_Challenge();
     // Get instance field reference: private System.Net.ReadState _readState
-    ::System::Net::ReadState& dyn__readState();
+    [[deprecated("Use field access instead!")]] ::System::Net::ReadState& dyn__readState();
     // public System.Net.HttpWebRequest get_request()
-    // Offset: 0x1B1CBE8
+    // Offset: 0x1B571D0
     ::System::Net::HttpWebRequest* get_request();
     // public System.Void set_request(System.Net.HttpWebRequest value)
-    // Offset: 0x1B1CBF0
+    // Offset: 0x1B571D8
     void set_request(::System::Net::HttpWebRequest* value);
     // public System.Net.ReadState get_ReadState()
-    // Offset: 0x1B1CBF8
+    // Offset: 0x1B571E0
     ::System::Net::ReadState get_ReadState();
     // public System.Void set_ReadState(System.Net.ReadState value)
-    // Offset: 0x1B197FC
+    // Offset: 0x1B53DE4
     void set_ReadState(::System::Net::ReadState value);
-    // public System.Void .ctor(System.Net.HttpWebRequest request)
-    // Offset: 0x1B1A418
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static WebConnectionData* New_ctor(::System::Net::HttpWebRequest* request) {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebConnectionData::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<WebConnectionData*, creationType>(request)));
-    }
     // public System.Void .ctor()
-    // Offset: 0x1B1676C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B50D54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebConnectionData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionData*, creationType>()));
+    }
+    // public System.Void .ctor(System.Net.HttpWebRequest request)
+    // Offset: 0x1B54A00
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static WebConnectionData* New_ctor(::System::Net::HttpWebRequest* request) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebConnectionData::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<WebConnectionData*, creationType>(request)));
     }
   }; // System.Net.WebConnectionData
   #pragma pack(pop)

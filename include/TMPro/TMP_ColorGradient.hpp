@@ -32,15 +32,7 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_ColorGradient : public ::UnityEngine::ScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public TMPro.ColorMode colorMode
     // Size: 0x4
     // Offset: 0x18
@@ -85,44 +77,38 @@ namespace TMPro {
     // Set static field: static private readonly UnityEngine.Color k_DefaultColor
     static void _set_k_DefaultColor(::UnityEngine::Color value);
     // Get instance field reference: public TMPro.ColorMode colorMode
-    ::TMPro::ColorMode& dyn_colorMode();
+    [[deprecated("Use field access instead!")]] ::TMPro::ColorMode& dyn_colorMode();
     // Get instance field reference: public UnityEngine.Color topLeft
-    ::UnityEngine::Color& dyn_topLeft();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_topLeft();
     // Get instance field reference: public UnityEngine.Color topRight
-    ::UnityEngine::Color& dyn_topRight();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_topRight();
     // Get instance field reference: public UnityEngine.Color bottomLeft
-    ::UnityEngine::Color& dyn_bottomLeft();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_bottomLeft();
     // Get instance field reference: public UnityEngine.Color bottomRight
-    ::UnityEngine::Color& dyn_bottomRight();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_bottomRight();
+    // public System.Void .ctor()
+    // Offset: 0x143C894
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static TMP_ColorGradient* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_ColorGradient::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<TMP_ColorGradient*, creationType>()));
+    }
     // public System.Void .ctor(UnityEngine.Color color)
-    // Offset: 0x1433700
+    // Offset: 0x143C940
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_ColorGradient* New_ctor(::UnityEngine::Color color) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_ColorGradient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_ColorGradient*, creationType>(color)));
     }
     // public System.Void .ctor(UnityEngine.Color color0, UnityEngine.Color color1, UnityEngine.Color color2, UnityEngine.Color color3)
-    // Offset: 0x1433770
+    // Offset: 0x143C9B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_ColorGradient* New_ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_ColorGradient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_ColorGradient*, creationType>(color0, color1, color2, color3)));
     }
-    // public System.Void .ctor()
-    // Offset: 0x1433654
-    // Implemented from: UnityEngine.ScriptableObject
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TMP_ColorGradient* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_ColorGradient::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<TMP_ColorGradient*, creationType>()));
-    }
     // static private System.Void .cctor()
-    // Offset: 0x1433818
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x143CA58
     static void _cctor();
   }; // TMPro.TMP_ColorGradient
   #pragma pack(pop)

@@ -27,16 +27,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NamedPreset : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [LocalizationKeyAttribute] Offset: 0x124CFEC
+    // [LocalizationKeyAttribute] Offset: 0x10D1AE4
     // private System.String _presetNameLocalizationKey
     // Size: 0x8
     // Offset: 0x10
@@ -49,14 +41,12 @@ namespace GlobalNamespace {
       return presetNameLocalizationKey;
     }
     // Get instance field reference: private System.String _presetNameLocalizationKey
-    ::StringW& dyn__presetNameLocalizationKey();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__presetNameLocalizationKey();
     // public System.String get_presetNameLocalizationKey()
-    // Offset: 0x146E580
+    // Offset: 0x14A4D68
     ::StringW get_presetNameLocalizationKey();
     // public System.Void .ctor()
-    // Offset: 0x146E588
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14A4D70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamedPreset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NamedPreset::.ctor");

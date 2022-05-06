@@ -51,11 +51,11 @@ namespace UnityEngine {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private System.Int32 m_Index
-    int& dyn_m_Index();
+    [[deprecated("Use field access instead!")]] int& dyn_m_Index();
     // Get instance field reference: private System.Byte m_PrevState
-    uint8_t& dyn_m_PrevState();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_m_PrevState();
     // Get instance field reference: private System.Byte m_ThisState
-    uint8_t& dyn_m_ThisState();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_m_ThisState();
   }; // UnityEngine.CullingGroupEvent
   #pragma pack(pop)
   static check_size<sizeof(CullingGroupEvent), 5 + sizeof(uint8_t)> __UnityEngine_CullingGroupEventSizeCheck;

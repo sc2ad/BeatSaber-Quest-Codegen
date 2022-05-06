@@ -126,7 +126,7 @@ namespace UnityEngine::TextCore::LowLevel {
     // Set static field: static public UnityEngine.TextCore.LowLevel.FontEngineError Invalid_SharedTextureData
     static void _set_Invalid_SharedTextureData(::UnityEngine::TextCore::LowLevel::FontEngineError value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.TextCore.LowLevel.FontEngineError
   #pragma pack(pop)
   static check_size<sizeof(FontEngineError), 0 + sizeof(int)> __UnityEngine_TextCore_LowLevel_FontEngineErrorSizeCheck;

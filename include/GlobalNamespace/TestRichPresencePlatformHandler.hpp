@@ -39,25 +39,27 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IRichPresencePlatformHandler() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IRichPresencePlatformHandler*>(this);
     }
-    // public System.Void SetPresence(IRichPresenceData richPresenceData)
-    // Offset: 0x133DBB0
-    void SetPresence(::GlobalNamespace::IRichPresenceData* richPresenceData);
-    // public System.Void Clear()
-    // Offset: 0x133DC94
-    void Clear();
     // public System.Void .ctor()
-    // Offset: 0x133DD00
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x141FC30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestRichPresencePlatformHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TestRichPresencePlatformHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestRichPresencePlatformHandler*, creationType>()));
     }
+    // public System.Void SetPresence(IRichPresenceData richPresenceData)
+    // Offset: 0x141FAE0
+    void SetPresence(::GlobalNamespace::IRichPresenceData* richPresenceData);
+    // public System.Void Clear()
+    // Offset: 0x141FBC4
+    void Clear();
   }; // TestRichPresencePlatformHandler
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::TestRichPresencePlatformHandler::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TestRichPresencePlatformHandler::SetPresence
 // Il2CppName: SetPresence
 template<>
@@ -75,7 +77,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestRichPresencePlatformHandler*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TestRichPresencePlatformHandler::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

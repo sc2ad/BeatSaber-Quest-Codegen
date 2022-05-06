@@ -41,34 +41,32 @@ namespace Org::BouncyCastle::Asn1 {
     operator ::Org::BouncyCastle::Asn1::IAsn1Convertible() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Asn1::IAsn1Convertible*>(this);
     }
-    // public System.Byte[] GetEncoded()
-    // Offset: 0x1BE9204
-    ::ArrayW<uint8_t> GetEncoded();
-    // public System.Byte[] GetEncoded(System.String encoding)
-    // Offset: 0x1BE92C4
-    ::ArrayW<uint8_t> GetEncoded(::StringW encoding);
-    // public System.Byte[] GetDerEncoded()
-    // Offset: 0x1BE93BC
-    ::ArrayW<uint8_t> GetDerEncoded();
-    // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // protected System.Void .ctor()
-    // Offset: 0x1BE95EC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C23BD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1Encodable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Asn1Encodable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Encodable*, creationType>()));
     }
+    // public System.Byte[] GetEncoded()
+    // Offset: 0x1C237EC
+    ::ArrayW<uint8_t> GetEncoded();
+    // public System.Byte[] GetEncoded(System.String encoding)
+    // Offset: 0x1C238AC
+    ::ArrayW<uint8_t> GetEncoded(::StringW encoding);
+    // public System.Byte[] GetDerEncoded()
+    // Offset: 0x1C239A4
+    ::ArrayW<uint8_t> GetDerEncoded();
+    // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1BE9484
+    // Offset: 0x1C23A6C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1BE94BC
+    // Offset: 0x1C23AA4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
@@ -76,6 +74,10 @@ namespace Org::BouncyCastle::Asn1 {
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1Encodable::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1Encodable::GetEncoded
 // Il2CppName: GetEncoded
 template<>
@@ -109,10 +111,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::Boun
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1Encodable*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1Encodable::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1Encodable::GetHashCode
 // Il2CppName: GetHashCode
 template<>

@@ -37,15 +37,7 @@ namespace UnityOpus {
   // [TokenAttribute] Offset: FFFFFFFF
   class Decoder : public ::Il2CppObject/*, public ::System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.IntPtr decoder
     // Size: 0x8
     // Offset: 0x10
@@ -84,31 +76,31 @@ namespace UnityOpus {
     // Set static field: static public System.Int32 maximumPacketDuration
     static void _set_maximumPacketDuration(int value);
     // Get instance field reference: private System.IntPtr decoder
-    ::System::IntPtr& dyn_decoder();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_decoder();
     // Get instance field reference: private readonly UnityOpus.NumChannels channels
-    ::UnityOpus::NumChannels& dyn_channels();
+    [[deprecated("Use field access instead!")]] ::UnityOpus::NumChannels& dyn_channels();
     // Get instance field reference: private readonly System.Single[] softclipMem
-    ::ArrayW<float>& dyn_softclipMem();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn_softclipMem();
     // Get instance field reference: private System.Boolean disposedValue
-    bool& dyn_disposedValue();
+    [[deprecated("Use field access instead!")]] bool& dyn_disposedValue();
     // public System.Void .ctor(UnityOpus.SamplingFrequency samplingFrequency, UnityOpus.NumChannels channels)
-    // Offset: 0x2ABABDC
+    // Offset: 0x149A134
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Decoder* New_ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityOpus::Decoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Decoder*, creationType>(samplingFrequency, channels)));
     }
     // public System.Int32 Decode(System.Byte[] data, System.Int32 dataLength, System.Single[] pcm, System.Int32 decodeFec)
-    // Offset: 0x2ABADA4
+    // Offset: 0x149A2FC
     int Decode(::ArrayW<uint8_t> data, int dataLength, ::ArrayW<float> pcm, int decodeFec);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x2ABAFF0
+    // Offset: 0x149A548
     void Dispose(bool disposing);
     // public System.Void Dispose()
-    // Offset: 0x2ABB154
+    // Offset: 0x149A6AC
     void Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x2ABB0E0
+    // Offset: 0x149A638
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

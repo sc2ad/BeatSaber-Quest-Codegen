@@ -54,7 +54,7 @@ namespace LIV::SDK::Unity {
     // Set static field: static public LIV.SDK.Unity.TEXTURE_TYPE COLOR_BUFFER
     static void _set_COLOR_BUFFER(::LIV::SDK::Unity::TEXTURE_TYPE value);
     // Get instance field reference: public System.UInt32 value__
-    uint& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint& dyn_value__();
   }; // LIV.SDK.Unity.TEXTURE_TYPE
   #pragma pack(pop)
   static check_size<sizeof(TEXTURE_TYPE), 0 + sizeof(uint)> __LIV_SDK_Unity_TEXTURE_TYPESizeCheck;

@@ -66,7 +66,7 @@ namespace TMPro {
     // Set static field: static public TMPro.TextureMappingOptions MatchAspect
     static void _set_MatchAspect(::TMPro::TextureMappingOptions value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // TMPro.TextureMappingOptions
   #pragma pack(pop)
   static check_size<sizeof(TextureMappingOptions), 0 + sizeof(int)> __TMPro_TextureMappingOptionsSizeCheck;

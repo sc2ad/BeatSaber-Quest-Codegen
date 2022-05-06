@@ -78,7 +78,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static public System.Security.Cryptography.X509Certificates.X509NameType UrlName
     static void _set_UrlName(::System::Security::Cryptography::X509Certificates::X509NameType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Security.Cryptography.X509Certificates.X509NameType
   #pragma pack(pop)
   static check_size<sizeof(X509NameType), 0 + sizeof(int)> __System_Security_Cryptography_X509Certificates_X509NameTypeSizeCheck;

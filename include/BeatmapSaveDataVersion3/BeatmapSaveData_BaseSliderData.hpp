@@ -29,15 +29,7 @@ namespace BeatmapSaveDataVersion3 {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapSaveData::BaseSliderData : public ::BeatmapSaveDataVersion3::BeatmapSaveData::BeatmapSaveDataItem {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.NoteColorType c
     // Size: 0x4
     // Offset: 0x14
@@ -84,42 +76,42 @@ namespace BeatmapSaveDataVersion3 {
     // Deleting conversion operator: operator float
     constexpr operator float() const noexcept = delete;
     // Get instance field reference: protected BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.NoteColorType c
-    ::BeatmapSaveDataVersion3::BeatmapSaveData::NoteColorType& dyn_c();
+    [[deprecated("Use field access instead!")]] ::BeatmapSaveDataVersion3::BeatmapSaveData::NoteColorType& dyn_c();
     // Get instance field reference: protected System.Int32 x
-    int& dyn_x();
+    [[deprecated("Use field access instead!")]] int& dyn_x();
     // Get instance field reference: protected System.Int32 y
-    int& dyn_y();
+    [[deprecated("Use field access instead!")]] int& dyn_y();
     // Get instance field reference: protected NoteCutDirection d
-    ::GlobalNamespace::NoteCutDirection& dyn_d();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutDirection& dyn_d();
     // Get instance field reference: protected System.Single tb
-    float& dyn_tb();
+    [[deprecated("Use field access instead!")]] float& dyn_tb();
     // Get instance field reference: protected System.Int32 tx
-    int& dyn_tx();
+    [[deprecated("Use field access instead!")]] int& dyn_tx();
     // Get instance field reference: protected System.Int32 ty
-    int& dyn_ty();
+    [[deprecated("Use field access instead!")]] int& dyn_ty();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.NoteColorType get_colorType()
-    // Offset: 0x281B0BC
+    // Offset: 0x286D67C
     ::BeatmapSaveDataVersion3::BeatmapSaveData::NoteColorType get_colorType();
     // public System.Int32 get_headLine()
-    // Offset: 0x281B0C4
+    // Offset: 0x286D684
     int get_headLine();
     // public System.Int32 get_headLayer()
-    // Offset: 0x281B0CC
+    // Offset: 0x286D68C
     int get_headLayer();
     // public NoteCutDirection get_headCutDirection()
-    // Offset: 0x281B0D4
+    // Offset: 0x286D694
     ::GlobalNamespace::NoteCutDirection get_headCutDirection();
     // public System.Single get_tailBeat()
-    // Offset: 0x281B0DC
+    // Offset: 0x286D69C
     float get_tailBeat();
     // public System.Int32 get_tailLine()
-    // Offset: 0x281B0E4
+    // Offset: 0x286D6A4
     int get_tailLine();
     // public System.Int32 get_tailLayer()
-    // Offset: 0x281B0EC
+    // Offset: 0x286D6AC
     int get_tailLayer();
     // protected System.Void .ctor(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.NoteColorType colorType, System.Single headBeat, System.Int32 headLine, System.Int32 headLayer, NoteCutDirection headCutDirection, System.Single tailBeat, System.Int32 tailLine, System.Int32 tailLayer)
-    // Offset: 0x281B0F4
+    // Offset: 0x286D6B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::BaseSliderData* New_ctor(::BeatmapSaveDataVersion3::BeatmapSaveData::NoteColorType colorType, float headBeat, int headLine, int headLayer, ::GlobalNamespace::NoteCutDirection headCutDirection, float tailBeat, int tailLine, int tailLayer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::BaseSliderData::.ctor");

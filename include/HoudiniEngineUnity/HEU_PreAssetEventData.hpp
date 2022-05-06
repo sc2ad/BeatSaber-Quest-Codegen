@@ -35,15 +35,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_PreAssetEventData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public HoudiniEngineUnity.HEU_HoudiniAsset Asset
     // Size: 0x8
     // Offset: 0x10
@@ -58,11 +50,11 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::HoudiniEngineUnity::HEU_AssetEventType) == 0x4);
     public:
     // Get instance field reference: public HoudiniEngineUnity.HEU_HoudiniAsset Asset
-    ::HoudiniEngineUnity::HEU_HoudiniAsset*& dyn_Asset();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_HoudiniAsset*& dyn_Asset();
     // Get instance field reference: public HoudiniEngineUnity.HEU_AssetEventType AssetType
-    ::HoudiniEngineUnity::HEU_AssetEventType& dyn_AssetType();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_AssetEventType& dyn_AssetType();
     // public System.Void .ctor(HoudiniEngineUnity.HEU_HoudiniAsset asset, HoudiniEngineUnity.HEU_AssetEventType assetType)
-    // Offset: 0x1AC8144
+    // Offset: 0x1B0372C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_PreAssetEventData* New_ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::HoudiniEngineUnity::HEU_AssetEventType assetType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_PreAssetEventData::.ctor");

@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Set static field: static public AdditionalContentModel/UpdateEntitlementsResult Failed
     static void _set_Failed(::GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // AdditionalContentModel/UpdateEntitlementsResult
   #pragma pack(pop)
   static check_size<sizeof(AdditionalContentModel::UpdateEntitlementsResult), 0 + sizeof(int)> __GlobalNamespace_AdditionalContentModel_UpdateEntitlementsResultSizeCheck;

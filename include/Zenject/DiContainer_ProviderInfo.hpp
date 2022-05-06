@@ -35,15 +35,7 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class DiContainer::ProviderInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly Zenject.DiContainer Container
     // Size: 0x8
     // Offset: 0x10
@@ -72,25 +64,25 @@ namespace Zenject {
     static_assert(sizeof(::Zenject::BindingCondition*) == 0x8);
     public:
     // Get instance field reference: public readonly Zenject.DiContainer Container
-    ::Zenject::DiContainer*& dyn_Container();
+    [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn_Container();
     // Get instance field reference: public readonly System.Boolean NonLazy
-    bool& dyn_NonLazy();
+    [[deprecated("Use field access instead!")]] bool& dyn_NonLazy();
     // Get instance field reference: public readonly Zenject.IProvider Provider
-    ::Zenject::IProvider*& dyn_Provider();
+    [[deprecated("Use field access instead!")]] ::Zenject::IProvider*& dyn_Provider();
     // Get instance field reference: public readonly Zenject.BindingCondition Condition
-    ::Zenject::BindingCondition*& dyn_Condition();
+    [[deprecated("Use field access instead!")]] ::Zenject::BindingCondition*& dyn_Condition();
     // public System.Void .ctor(Zenject.IProvider provider, Zenject.BindingCondition condition, System.Boolean nonLazy, Zenject.DiContainer container)
-    // Offset: 0x1DDA36C
+    // Offset: 0x1E14C38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiContainer::ProviderInfo* New_ctor(::Zenject::IProvider* provider, ::Zenject::BindingCondition* condition, bool nonLazy, ::Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ProviderInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiContainer::ProviderInfo*, creationType>(provider, condition, nonLazy, container)));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1DDA3C0
+    // Offset: 0x1E14C8C
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1DDA554
+    // Offset: 0x1E14E20
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.DiContainer/Zenject.ProviderInfo
   #pragma pack(pop)

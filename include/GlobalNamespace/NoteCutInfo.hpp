@@ -167,54 +167,54 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public readonly NoteData noteData
-    ::GlobalNamespace::NoteData*& dyn_noteData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteData*& dyn_noteData();
     // Get instance field reference: public readonly System.Boolean speedOK
-    bool& dyn_speedOK();
+    [[deprecated("Use field access instead!")]] bool& dyn_speedOK();
     // Get instance field reference: public readonly System.Boolean directionOK
-    bool& dyn_directionOK();
+    [[deprecated("Use field access instead!")]] bool& dyn_directionOK();
     // Get instance field reference: public readonly System.Boolean saberTypeOK
-    bool& dyn_saberTypeOK();
+    [[deprecated("Use field access instead!")]] bool& dyn_saberTypeOK();
     // Get instance field reference: public readonly System.Boolean wasCutTooSoon
-    bool& dyn_wasCutTooSoon();
+    [[deprecated("Use field access instead!")]] bool& dyn_wasCutTooSoon();
     // Get instance field reference: public readonly System.Single saberSpeed
-    float& dyn_saberSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn_saberSpeed();
     // Get instance field reference: public readonly UnityEngine.Vector3 saberDir
-    ::UnityEngine::Vector3& dyn_saberDir();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_saberDir();
     // Get instance field reference: public readonly SaberType saberType
-    ::GlobalNamespace::SaberType& dyn_saberType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberType& dyn_saberType();
     // Get instance field reference: public readonly System.Single timeDeviation
-    float& dyn_timeDeviation();
+    [[deprecated("Use field access instead!")]] float& dyn_timeDeviation();
     // Get instance field reference: public readonly System.Single cutDirDeviation
-    float& dyn_cutDirDeviation();
+    [[deprecated("Use field access instead!")]] float& dyn_cutDirDeviation();
     // Get instance field reference: public readonly UnityEngine.Vector3 cutPoint
-    ::UnityEngine::Vector3& dyn_cutPoint();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_cutPoint();
     // Get instance field reference: public readonly UnityEngine.Vector3 cutNormal
-    ::UnityEngine::Vector3& dyn_cutNormal();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_cutNormal();
     // Get instance field reference: public readonly System.Single cutAngle
-    float& dyn_cutAngle();
+    [[deprecated("Use field access instead!")]] float& dyn_cutAngle();
     // Get instance field reference: public readonly System.Single cutDistanceToCenter
-    float& dyn_cutDistanceToCenter();
+    [[deprecated("Use field access instead!")]] float& dyn_cutDistanceToCenter();
     // Get instance field reference: public readonly UnityEngine.Quaternion worldRotation
-    ::UnityEngine::Quaternion& dyn_worldRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_worldRotation();
     // Get instance field reference: public readonly UnityEngine.Quaternion inverseWorldRotation
-    ::UnityEngine::Quaternion& dyn_inverseWorldRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_inverseWorldRotation();
     // Get instance field reference: public readonly UnityEngine.Quaternion noteRotation
-    ::UnityEngine::Quaternion& dyn_noteRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_noteRotation();
     // Get instance field reference: public readonly UnityEngine.Vector3 notePosition
-    ::UnityEngine::Vector3& dyn_notePosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_notePosition();
     // Get instance field reference: public readonly ISaberMovementData saberMovementData
-    ::GlobalNamespace::ISaberMovementData*& dyn_saberMovementData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ISaberMovementData*& dyn_saberMovementData();
     // public System.Boolean get_allIsOK()
-    // Offset: 0x29C0614
+    // Offset: 0x2A02988
     bool get_allIsOK();
     // public System.Boolean get_allExceptSaberTypeIsOK()
-    // Offset: 0x29C0644
+    // Offset: 0x2A029B8
     bool get_allExceptSaberTypeIsOK();
     // public NoteCutInfo/FailReason get_failReason()
-    // Offset: 0x29C066C
+    // Offset: 0x2A029E0
     ::GlobalNamespace::NoteCutInfo::FailReason get_failReason();
     // public System.Void .ctor(NoteData noteData, System.Boolean speedOK, System.Boolean directionOK, System.Boolean saberTypeOK, System.Boolean wasCutTooSoon, System.Single saberSpeed, UnityEngine.Vector3 saberDir, SaberType saberType, System.Single timeDeviation, System.Single cutDirDeviation, UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, System.Single cutDistanceToCenter, System.Single cutAngle, UnityEngine.Quaternion worldRotation, UnityEngine.Quaternion inverseWorldRotation, UnityEngine.Quaternion noteRotation, UnityEngine.Vector3 notePosition, ISaberMovementData saberMovementData)
-    // Offset: 0x29C06B0
+    // Offset: 0x2A02A24
     // ABORTED: conflicts with another method.  NoteCutInfo(::GlobalNamespace::NoteData* noteData, bool speedOK, bool directionOK, bool saberTypeOK, bool wasCutTooSoon, float saberSpeed, ::UnityEngine::Vector3 saberDir, ::GlobalNamespace::SaberType saberType, float timeDeviation, float cutDirDeviation, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, float cutDistanceToCenter, float cutAngle, ::UnityEngine::Quaternion worldRotation, ::UnityEngine::Quaternion inverseWorldRotation, ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 notePosition, ::GlobalNamespace::ISaberMovementData* saberMovementData);
   }; // NoteCutInfo
   #pragma pack(pop)

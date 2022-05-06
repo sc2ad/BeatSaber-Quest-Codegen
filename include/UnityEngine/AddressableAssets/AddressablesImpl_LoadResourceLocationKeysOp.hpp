@@ -50,15 +50,7 @@ namespace UnityEngine::AddressableAssets {
   // [TokenAttribute] Offset: FFFFFFFF
   class AddressablesImpl::LoadResourceLocationKeysOp : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.IEnumerable m_Key
     // Size: 0x8
     // Offset: 0x80
@@ -91,40 +83,37 @@ namespace UnityEngine::AddressableAssets {
     static_assert(sizeof(::System::Type*) == 0x8);
     public:
     // Get instance field reference: private System.Collections.IEnumerable m_Key
-    ::System::Collections::IEnumerable*& dyn_m_Key();
+    [[deprecated("Use field access instead!")]] ::System::Collections::IEnumerable*& dyn_m_Key();
     // Get instance field reference: private UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode m_MergeMode
-    ::UnityEngine::AddressableAssets::Addressables::MergeMode& dyn_m_MergeMode();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AddressableAssets::Addressables::MergeMode& dyn_m_MergeMode();
     // Get instance field reference: private System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> m_locations
-    ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& dyn_m_locations();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& dyn_m_locations();
     // Get instance field reference: private UnityEngine.AddressableAssets.AddressablesImpl m_Addressables
-    ::UnityEngine::AddressableAssets::AddressablesImpl*& dyn_m_Addressables();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AddressableAssets::AddressablesImpl*& dyn_m_Addressables();
     // Get instance field reference: private System.Type m_ResourceType
-    ::System::Type*& dyn_m_ResourceType();
-    // public System.Void Init(UnityEngine.AddressableAssets.AddressablesImpl aa, System.Type t, System.Collections.IEnumerable key, UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode mergeMode)
-    // Offset: 0x18878D8
-    void Init(::UnityEngine::AddressableAssets::AddressablesImpl* aa, ::System::Type* t, ::System::Collections::IEnumerable* key, ::UnityEngine::AddressableAssets::Addressables::MergeMode mergeMode);
-    // protected override System.String get_DebugName()
-    // Offset: 0x188BDA4
-    // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
-    // Base method: System.String AsyncOperationBase_1::get_DebugName()
-    ::StringW get_DebugName();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_m_ResourceType();
     // public System.Void .ctor()
-    // Offset: 0x1887888
-    // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
-    // Base method: System.Void AsyncOperationBase_1::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18C1198
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddressablesImpl::LoadResourceLocationKeysOp* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddressablesImpl::LoadResourceLocationKeysOp*, creationType>()));
     }
+    // public System.Void Init(UnityEngine.AddressableAssets.AddressablesImpl aa, System.Type t, System.Collections.IEnumerable key, UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode mergeMode)
+    // Offset: 0x18C11E8
+    void Init(::UnityEngine::AddressableAssets::AddressablesImpl* aa, ::System::Type* t, ::System::Collections::IEnumerable* key, ::UnityEngine::AddressableAssets::Addressables::MergeMode mergeMode);
+    // protected override System.String get_DebugName()
+    // Offset: 0x18C56B4
+    // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
+    // Base method: System.String AsyncOperationBase_1::get_DebugName()
+    ::StringW get_DebugName();
     // protected override System.Void Execute()
-    // Offset: 0x188BDEC
+    // Offset: 0x18C56FC
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x188BEB4
+    // Offset: 0x18C57C4
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();
@@ -132,6 +121,10 @@ namespace UnityEngine::AddressableAssets {
   // WARNING Not writing size check since size may be invalid!
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::Init
 // Il2CppName: Init
 template<>
@@ -152,10 +145,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp*), "get_DebugName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::Execute
 // Il2CppName: Execute
 template<>

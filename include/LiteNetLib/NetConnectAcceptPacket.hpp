@@ -35,15 +35,7 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetConnectAcceptPacket : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Int64 ConnectionId
     // Size: 0x8
     // Offset: 0x10
@@ -70,23 +62,23 @@ namespace LiteNetLib {
     // Set static field: static public System.Int32 Size
     static void _set_Size(int value);
     // Get instance field reference: public readonly System.Int64 ConnectionId
-    int64_t& dyn_ConnectionId();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_ConnectionId();
     // Get instance field reference: public readonly System.Byte ConnectionNumber
-    uint8_t& dyn_ConnectionNumber();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_ConnectionNumber();
     // Get instance field reference: public readonly System.Boolean IsReusedPeer
-    bool& dyn_IsReusedPeer();
+    [[deprecated("Use field access instead!")]] bool& dyn_IsReusedPeer();
     // private System.Void .ctor(System.Int64 connectionId, System.Byte connectionNumber, System.Boolean isReusedPeer)
-    // Offset: 0x21645C8
+    // Offset: 0x21AFE3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetConnectAcceptPacket* New_ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetConnectAcceptPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetConnectAcceptPacket*, creationType>(connectionId, connectionNumber, isReusedPeer)));
     }
     // static public LiteNetLib.NetConnectAcceptPacket FromData(LiteNetLib.NetPacket packet)
-    // Offset: 0x2164610
+    // Offset: 0x21AFE84
     static ::LiteNetLib::NetConnectAcceptPacket* FromData(::LiteNetLib::NetPacket* packet);
     // static public LiteNetLib.NetPacket Make(System.Int64 connectId, System.Byte connectNum, System.Boolean reusedPeer)
-    // Offset: 0x2164720
+    // Offset: 0x21AFF94
     static ::LiteNetLib::NetPacket* Make(int64_t connectId, uint8_t connectNum, bool reusedPeer);
   }; // LiteNetLib.NetConnectAcceptPacket
   #pragma pack(pop)

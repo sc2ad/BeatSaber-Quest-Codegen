@@ -57,15 +57,7 @@ namespace UnityEngine::Timeline {
     public:
     // Nested type: ::UnityEngine::Timeline::SignalReceiver::EventKeyValue
     class EventKeyValue;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Timeline.SignalReceiver/UnityEngine.Timeline.EventKeyValue m_Events
     // Size: 0x8
     // Offset: 0x18
@@ -80,65 +72,63 @@ namespace UnityEngine::Timeline {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Timeline.SignalReceiver/UnityEngine.Timeline.EventKeyValue m_Events
-    ::UnityEngine::Timeline::SignalReceiver::EventKeyValue*& dyn_m_Events();
-    // public System.Void OnNotify(UnityEngine.Playables.Playable origin, UnityEngine.Playables.INotification notification, System.Object context)
-    // Offset: 0x1D81C8C
-    void OnNotify(::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::Il2CppObject* context);
-    // public System.Void AddReaction(UnityEngine.Timeline.SignalAsset asset, UnityEngine.Events.UnityEvent reaction)
-    // Offset: 0x1D81E68
-    void AddReaction(::UnityEngine::Timeline::SignalAsset* asset, ::UnityEngine::Events::UnityEvent* reaction);
-    // public System.Int32 AddEmptyReaction(UnityEngine.Events.UnityEvent reaction)
-    // Offset: 0x1D82018
-    int AddEmptyReaction(::UnityEngine::Events::UnityEvent* reaction);
-    // public System.Void Remove(UnityEngine.Timeline.SignalAsset asset)
-    // Offset: 0x1D82094
-    void Remove(::UnityEngine::Timeline::SignalAsset* asset);
-    // public System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.SignalAsset> GetRegisteredSignals()
-    // Offset: 0x1D82210
-    ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::SignalAsset*>* GetRegisteredSignals();
-    // public UnityEngine.Events.UnityEvent GetReaction(UnityEngine.Timeline.SignalAsset key)
-    // Offset: 0x1D8222C
-    ::UnityEngine::Events::UnityEvent* GetReaction(::UnityEngine::Timeline::SignalAsset* key);
-    // public System.Int32 Count()
-    // Offset: 0x1D82268
-    int Count();
-    // public System.Void ChangeSignalAtIndex(System.Int32 idx, UnityEngine.Timeline.SignalAsset newKey)
-    // Offset: 0x1D822C0
-    void ChangeSignalAtIndex(int idx, ::UnityEngine::Timeline::SignalAsset* newKey);
-    // public System.Void RemoveAtIndex(System.Int32 idx)
-    // Offset: 0x1D82510
-    void RemoveAtIndex(int idx);
-    // public System.Void ChangeReactionAtIndex(System.Int32 idx, UnityEngine.Events.UnityEvent reaction)
-    // Offset: 0x1D82654
-    void ChangeReactionAtIndex(int idx, ::UnityEngine::Events::UnityEvent* reaction);
-    // public UnityEngine.Events.UnityEvent GetReactionAtIndex(System.Int32 idx)
-    // Offset: 0x1D82710
-    ::UnityEngine::Events::UnityEvent* GetReactionAtIndex(int idx);
-    // public UnityEngine.Timeline.SignalAsset GetSignalAssetAtIndex(System.Int32 idx)
-    // Offset: 0x1D827D0
-    ::UnityEngine::Timeline::SignalAsset* GetSignalAssetAtIndex(int idx);
-    // private System.Void OnEnable()
-    // Offset: 0x1D82890
-    void OnEnable();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Timeline::SignalReceiver::EventKeyValue*& dyn_m_Events();
     // public System.Void .ctor()
-    // Offset: 0x1D82894
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1DBDDEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalReceiver* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::SignalReceiver::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalReceiver*, creationType>()));
     }
+    // public System.Void OnNotify(UnityEngine.Playables.Playable origin, UnityEngine.Playables.INotification notification, System.Object context)
+    // Offset: 0x1DBD1E4
+    void OnNotify(::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::Il2CppObject* context);
+    // public System.Void AddReaction(UnityEngine.Timeline.SignalAsset asset, UnityEngine.Events.UnityEvent reaction)
+    // Offset: 0x1DBD3C0
+    void AddReaction(::UnityEngine::Timeline::SignalAsset* asset, ::UnityEngine::Events::UnityEvent* reaction);
+    // public System.Int32 AddEmptyReaction(UnityEngine.Events.UnityEvent reaction)
+    // Offset: 0x1DBD570
+    int AddEmptyReaction(::UnityEngine::Events::UnityEvent* reaction);
+    // public System.Void Remove(UnityEngine.Timeline.SignalAsset asset)
+    // Offset: 0x1DBD5EC
+    void Remove(::UnityEngine::Timeline::SignalAsset* asset);
+    // public System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.SignalAsset> GetRegisteredSignals()
+    // Offset: 0x1DBD768
+    ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::SignalAsset*>* GetRegisteredSignals();
+    // public UnityEngine.Events.UnityEvent GetReaction(UnityEngine.Timeline.SignalAsset key)
+    // Offset: 0x1DBD784
+    ::UnityEngine::Events::UnityEvent* GetReaction(::UnityEngine::Timeline::SignalAsset* key);
+    // public System.Int32 Count()
+    // Offset: 0x1DBD7C0
+    int Count();
+    // public System.Void ChangeSignalAtIndex(System.Int32 idx, UnityEngine.Timeline.SignalAsset newKey)
+    // Offset: 0x1DBD818
+    void ChangeSignalAtIndex(int idx, ::UnityEngine::Timeline::SignalAsset* newKey);
+    // public System.Void RemoveAtIndex(System.Int32 idx)
+    // Offset: 0x1DBDA68
+    void RemoveAtIndex(int idx);
+    // public System.Void ChangeReactionAtIndex(System.Int32 idx, UnityEngine.Events.UnityEvent reaction)
+    // Offset: 0x1DBDBAC
+    void ChangeReactionAtIndex(int idx, ::UnityEngine::Events::UnityEvent* reaction);
+    // public UnityEngine.Events.UnityEvent GetReactionAtIndex(System.Int32 idx)
+    // Offset: 0x1DBDC68
+    ::UnityEngine::Events::UnityEvent* GetReactionAtIndex(int idx);
+    // public UnityEngine.Timeline.SignalAsset GetSignalAssetAtIndex(System.Int32 idx)
+    // Offset: 0x1DBDD28
+    ::UnityEngine::Timeline::SignalAsset* GetSignalAssetAtIndex(int idx);
+    // private System.Void OnEnable()
+    // Offset: 0x1DBDDE8
+    void OnEnable();
   }; // UnityEngine.Timeline.SignalReceiver
   #pragma pack(pop)
   static check_size<sizeof(SignalReceiver), 24 + sizeof(::UnityEngine::Timeline::SignalReceiver::EventKeyValue*)> __UnityEngine_Timeline_SignalReceiverSizeCheck;
   static_assert(sizeof(SignalReceiver) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::OnNotify
 // Il2CppName: OnNotify
 template<>
@@ -258,7 +248,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

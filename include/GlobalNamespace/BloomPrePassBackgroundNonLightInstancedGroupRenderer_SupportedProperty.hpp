@@ -26,15 +26,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassBackgroundNonLightInstancedGroupRenderer::SupportedProperty : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public BloomPrePassBackgroundNonLightInstancedGroupRenderer/PropertyType propertyType
     // Size: 0x4
     // Offset: 0x10
@@ -57,15 +49,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public BloomPrePassBackgroundNonLightInstancedGroupRenderer/PropertyType propertyType
-    ::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer::PropertyType& dyn_propertyType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer::PropertyType& dyn_propertyType();
     // Get instance field reference: public System.String propertyName
-    ::StringW& dyn_propertyName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_propertyName();
     // Get instance field reference: public System.Int32 propertyId
-    int& dyn_propertyId();
+    [[deprecated("Use field access instead!")]] int& dyn_propertyId();
     // public System.Void .ctor()
-    // Offset: 0x2ACC7A0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E75B68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassBackgroundNonLightInstancedGroupRenderer::SupportedProperty* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer::SupportedProperty::.ctor");

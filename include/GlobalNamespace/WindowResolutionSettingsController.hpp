@@ -39,15 +39,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class WindowResolutionSettingsController : public ::GlobalNamespace::ListSettingsController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Vector2IntSO _windowResolution
     // Size: 0x8
     // Offset: 0x28
@@ -62,36 +54,31 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<::UnityEngine::Vector2Int>) == 0x8);
     public:
     // Get instance field reference: private Vector2IntSO _windowResolution
-    ::GlobalNamespace::Vector2IntSO*& dyn__windowResolution();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector2IntSO*& dyn__windowResolution();
     // Get instance field reference: private UnityEngine.Vector2Int[] _windowResolutions
-    ::ArrayW<::UnityEngine::Vector2Int>& dyn__windowResolutions();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector2Int>& dyn__windowResolutions();
     // public System.Void .ctor()
-    // Offset: 0x2A9B290
+    // Offset: 0x2A321BC
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WindowResolutionSettingsController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::WindowResolutionSettingsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WindowResolutionSettingsController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x2A9AE80
+    // Offset: 0x2A31DAC
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x2A9B104
+    // Offset: 0x2A32030
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x2A9B190
+    // Offset: 0x2A320BC
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::StringW TextForValue(int idx);

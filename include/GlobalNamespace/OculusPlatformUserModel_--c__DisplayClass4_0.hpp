@@ -48,15 +48,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OculusPlatformUserModel::$$c__DisplayClass4_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Threading.Tasks.TaskCompletionSource`1<PlatformUserAuthTokenData> tcs
     // Size: 0x8
     // Offset: 0x10
@@ -69,25 +61,27 @@ namespace GlobalNamespace {
       return tcs;
     }
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<PlatformUserAuthTokenData> tcs
-    ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlatformUserAuthTokenData*>*& dyn_tcs();
-    // System.Void <GetUserAuthToken>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.UserProof> message)
-    // Offset: 0x1517834
-    void $GetUserAuthToken$b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserProof*>* message);
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlatformUserAuthTokenData*>*& dyn_tcs();
     // public System.Void .ctor()
-    // Offset: 0x151782C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x154F134
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusPlatformUserModel::$$c__DisplayClass4_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass4_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusPlatformUserModel::$$c__DisplayClass4_0*, creationType>()));
     }
+    // System.Void <GetUserAuthToken>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.UserProof> message)
+    // Offset: 0x154F13C
+    void $GetUserAuthToken$b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserProof*>* message);
   }; // OculusPlatformUserModel/<>c__DisplayClass4_0
   #pragma pack(pop)
   static check_size<sizeof(OculusPlatformUserModel::$$c__DisplayClass4_0), 16 + sizeof(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlatformUserAuthTokenData*>*)> __GlobalNamespace_OculusPlatformUserModel_$$c__DisplayClass4_0SizeCheck;
   static_assert(sizeof(OculusPlatformUserModel::$$c__DisplayClass4_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass4_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass4_0::$GetUserAuthToken$b__0
 // Il2CppName: <GetUserAuthToken>b__0
 template<>
@@ -97,7 +91,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass4_0*), "<GetUserAuthToken>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass4_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

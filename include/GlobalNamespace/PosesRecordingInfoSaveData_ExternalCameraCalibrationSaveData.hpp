@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PosesRecordingInfoSaveData::ExternalCameraCalibrationSaveData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _fieldOfVision
     // Size: 0x4
     // Offset: 0x10
@@ -64,32 +56,32 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private System.Single _fieldOfVision
-    float& dyn__fieldOfVision();
+    [[deprecated("Use field access instead!")]] float& dyn__fieldOfVision();
     // Get instance field reference: private System.Single _nearClip
-    float& dyn__nearClip();
+    [[deprecated("Use field access instead!")]] float& dyn__nearClip();
     // Get instance field reference: private System.Single _farClip
-    float& dyn__farClip();
+    [[deprecated("Use field access instead!")]] float& dyn__farClip();
     // Get instance field reference: private System.Single _hmdOffset
-    float& dyn__hmdOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__hmdOffset();
     // Get instance field reference: private System.Single _nearOffset
-    float& dyn__nearOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__nearOffset();
     // public System.Single get_fieldOfVision()
-    // Offset: 0x1375444
+    // Offset: 0x13DC7D0
     float get_fieldOfVision();
     // public System.Single get_nearClip()
-    // Offset: 0x137544C
+    // Offset: 0x13DC7D8
     float get_nearClip();
     // public System.Single get_farClip()
-    // Offset: 0x1375454
+    // Offset: 0x13DC7E0
     float get_farClip();
     // public System.Single get_hmdOffset()
-    // Offset: 0x137545C
+    // Offset: 0x13DC7E8
     float get_hmdOffset();
     // public System.Single get_nearOffset()
-    // Offset: 0x1375464
+    // Offset: 0x13DC7F0
     float get_nearOffset();
     // public System.Void .ctor(System.Single fieldOfVision, System.Single nearClip, System.Single farClip, System.Single hmdOffset, System.Single nearOffset)
-    // Offset: 0x137546C
+    // Offset: 0x13DC7F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PosesRecordingInfoSaveData::ExternalCameraCalibrationSaveData* New_ctor(float fieldOfVision, float nearClip, float farClip, float hmdOffset, float nearOffset) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosesRecordingInfoSaveData::ExternalCameraCalibrationSaveData::.ctor");

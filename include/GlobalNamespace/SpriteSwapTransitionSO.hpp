@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SpriteSwapTransitionSO : public ::GlobalNamespace::BaseTransitionSO {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Sprite _normalSprite
     // Size: 0x8
     // Offset: 0x20
@@ -82,43 +74,39 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.Sprite _normalSprite
-    ::UnityEngine::Sprite*& dyn__normalSprite();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__normalSprite();
     // Get instance field reference: private UnityEngine.Sprite _highlightedSprite
-    ::UnityEngine::Sprite*& dyn__highlightedSprite();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__highlightedSprite();
     // Get instance field reference: private UnityEngine.Sprite _pressedSprite
-    ::UnityEngine::Sprite*& dyn__pressedSprite();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__pressedSprite();
     // Get instance field reference: private UnityEngine.Sprite _disabledSprite
-    ::UnityEngine::Sprite*& dyn__disabledSprite();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__disabledSprite();
     // Get instance field reference: private UnityEngine.Sprite _selectedSprite
-    ::UnityEngine::Sprite*& dyn__selectedSprite();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__selectedSprite();
     // Get instance field reference: private UnityEngine.Sprite _selectedAndHighlightedSprite
-    ::UnityEngine::Sprite*& dyn__selectedAndHighlightedSprite();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__selectedAndHighlightedSprite();
     // public UnityEngine.Sprite get_normalSprite()
-    // Offset: 0x2AABD44
+    // Offset: 0x1392968
     ::UnityEngine::Sprite* get_normalSprite();
     // public UnityEngine.Sprite get_highlightedSprite()
-    // Offset: 0x2AABD4C
+    // Offset: 0x1392970
     ::UnityEngine::Sprite* get_highlightedSprite();
     // public UnityEngine.Sprite get_pressedSprite()
-    // Offset: 0x2AABD54
+    // Offset: 0x1392978
     ::UnityEngine::Sprite* get_pressedSprite();
     // public UnityEngine.Sprite get_disabledSprite()
-    // Offset: 0x2AABD5C
+    // Offset: 0x1392980
     ::UnityEngine::Sprite* get_disabledSprite();
     // public UnityEngine.Sprite get_selectedSprite()
-    // Offset: 0x2AABD64
+    // Offset: 0x1392988
     ::UnityEngine::Sprite* get_selectedSprite();
     // public UnityEngine.Sprite get_selectedAndHighlightedSprite()
-    // Offset: 0x2AABD6C
+    // Offset: 0x1392990
     ::UnityEngine::Sprite* get_selectedAndHighlightedSprite();
     // public System.Void .ctor()
-    // Offset: 0x2AABD74
+    // Offset: 0x1392998
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SpriteSwapTransitionSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SpriteSwapTransitionSO::.ctor");

@@ -28,15 +28,7 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class CustomFormatRangeValuesSlider : public ::HMUI::RangeValuesTextSlider {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _formatString
     // Size: 0x8
     // Offset: 0x168
@@ -45,26 +37,19 @@ namespace HMUI {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String _formatString
-    ::StringW& dyn__formatString();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__formatString();
     // public System.Void .ctor()
-    // Offset: 0x16E3950
+    // Offset: 0x171B260
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.Void RangeValuesTextSlider::.ctor()
     // Base method: System.Void TextSlider::.ctor()
-    // Base method: System.Void Selectable::.ctor()
-    // Base method: System.Void UIBehaviour::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomFormatRangeValuesSlider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::CustomFormatRangeValuesSlider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomFormatRangeValuesSlider*, creationType>()));
     }
     // protected override System.String TextForValue(System.Single value)
-    // Offset: 0x16E38D8
+    // Offset: 0x171B1E8
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
     ::StringW TextForValue(float value);

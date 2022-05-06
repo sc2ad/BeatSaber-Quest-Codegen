@@ -33,25 +33,27 @@ namespace System::Net {
     static ::System::Net::PathList::PathListComparer* _get_StaticInstance();
     // Set static field: static readonly System.Net.PathList/System.Net.PathListComparer StaticInstance
     static void _set_StaticInstance(::System::Net::PathList::PathListComparer* value);
-    // static private System.Void .cctor()
-    // Offset: 0x1B2E494
-    static void _cctor();
-    // private System.Int32 System.Collections.IComparer.Compare(System.Object ol, System.Object or)
-    // Offset: 0x1B2E310
-    int System_Collections_IComparer_Compare(::Il2CppObject* ol, ::Il2CppObject* _or);
     // public System.Void .ctor()
-    // Offset: 0x1B2E48C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B68A74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PathList::PathListComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::PathList::PathListComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PathList::PathListComparer*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1B68A7C
+    static void _cctor();
+    // private System.Int32 System.Collections.IComparer.Compare(System.Object ol, System.Object or)
+    // Offset: 0x1B688F8
+    int System_Collections_IComparer_Compare(::Il2CppObject* ol, ::Il2CppObject* _or);
   }; // System.Net.PathList/System.Net.PathListComparer
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Net::PathList::PathListComparer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::PathList::PathListComparer::_cctor
 // Il2CppName: .cctor
 template<>
@@ -70,7 +72,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
     return ::il2cpp_utils::FindMethod(classof(System::Net::PathList::PathListComparer*), "System.Collections.IComparer.Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ol, _or});
   }
 };
-// Writing MetadataGetter for method: System::Net::PathList::PathListComparer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

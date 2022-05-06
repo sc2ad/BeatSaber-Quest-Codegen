@@ -46,20 +46,18 @@ namespace UnityEngine::UI {
     // Set static field: static public System.Comparison`1<UnityEngine.UI.Graphic> <>9__24_0
     static void _set_$$9__24_0(::System::Comparison_1<::UnityEngine::UI::Graphic*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1E25E40
+    // Offset: 0x1E6070C
     static void _cctor();
-    // System.Int32 <Raycast>b__24_0(UnityEngine.UI.Graphic g1, UnityEngine.UI.Graphic g2)
-    // Offset: 0x1E25EAC
-    int $Raycast$b__24_0(::UnityEngine::UI::Graphic* g1, ::UnityEngine::UI::Graphic* g2);
     // public System.Void .ctor()
-    // Offset: 0x1E25EA4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E60770
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GraphicRaycaster::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::GraphicRaycaster::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GraphicRaycaster::$$c*, creationType>()));
     }
+    // System.Int32 <Raycast>b__24_0(UnityEngine.UI.Graphic g1, UnityEngine.UI.Graphic g2)
+    // Offset: 0x1E60778
+    int $Raycast$b__24_0(::UnityEngine::UI::Graphic* g1, ::UnityEngine::UI::Graphic* g2);
   }; // UnityEngine.UI.GraphicRaycaster/UnityEngine.UI.<>c
   #pragma pack(pop)
 }
@@ -72,6 +70,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRaycaster::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::$$c::$Raycast$b__24_0
 // Il2CppName: <Raycast>b__24_0
 template<>
@@ -82,7 +84,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRaycaster::$$c*), "<Raycast>b__24_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{g1, g2});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

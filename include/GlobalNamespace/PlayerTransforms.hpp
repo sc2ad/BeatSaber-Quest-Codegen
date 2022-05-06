@@ -35,15 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerTransforms : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Transform _headTransform
     // Size: 0x8
     // Offset: 0x18
@@ -146,95 +138,89 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform _headTransform
-    ::UnityEngine::Transform*& dyn__headTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__headTransform();
     // Get instance field reference: private UnityEngine.Transform _originTransform
-    ::UnityEngine::Transform*& dyn__originTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__originTransform();
     // Get instance field reference: private UnityEngine.Transform _leftHandTransform
-    ::UnityEngine::Transform*& dyn__leftHandTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__leftHandTransform();
     // Get instance field reference: private UnityEngine.Transform _rightHandTransform
-    ::UnityEngine::Transform*& dyn__rightHandTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__rightHandTransform();
     // Get instance field reference: private System.Boolean _overrideHeadPos
-    bool& dyn__overrideHeadPos();
+    [[deprecated("Use field access instead!")]] bool& dyn__overrideHeadPos();
     // Get instance field reference: private UnityEngine.Vector3 _overriddenHeadPos
-    ::UnityEngine::Vector3& dyn__overriddenHeadPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__overriddenHeadPos();
     // Get instance field reference: private UnityEngine.Vector3 _headWorldPos
-    ::UnityEngine::Vector3& dyn__headWorldPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__headWorldPos();
     // Get instance field reference: private UnityEngine.Quaternion _headWorldRot
-    ::UnityEngine::Quaternion& dyn__headWorldRot();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__headWorldRot();
     // Get instance field reference: private UnityEngine.Vector3 _headPseudoLocalPos
-    ::UnityEngine::Vector3& dyn__headPseudoLocalPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__headPseudoLocalPos();
     // Get instance field reference: private UnityEngine.Quaternion _headPseudoLocalRot
-    ::UnityEngine::Quaternion& dyn__headPseudoLocalRot();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__headPseudoLocalRot();
     // Get instance field reference: private UnityEngine.Vector3 _leftHandPseudoLocalPos
-    ::UnityEngine::Vector3& dyn__leftHandPseudoLocalPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__leftHandPseudoLocalPos();
     // Get instance field reference: private UnityEngine.Quaternion _leftHandPseudoLocalRot
-    ::UnityEngine::Quaternion& dyn__leftHandPseudoLocalRot();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__leftHandPseudoLocalRot();
     // Get instance field reference: private UnityEngine.Vector3 _rightHandPseudoLocalPos
-    ::UnityEngine::Vector3& dyn__rightHandPseudoLocalPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__rightHandPseudoLocalPos();
     // Get instance field reference: private UnityEngine.Quaternion _rightHandPseudoLocalRot
-    ::UnityEngine::Quaternion& dyn__rightHandPseudoLocalRot();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__rightHandPseudoLocalRot();
     // Get instance field reference: private UnityEngine.Transform _originParentTransform
-    ::UnityEngine::Transform*& dyn__originParentTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__originParentTransform();
     // Get instance field reference: private System.Boolean _useOriginParentTransformForPseudoLocalCalculations
-    bool& dyn__useOriginParentTransformForPseudoLocalCalculations();
+    [[deprecated("Use field access instead!")]] bool& dyn__useOriginParentTransformForPseudoLocalCalculations();
     // public UnityEngine.Vector3 get_headWorldPos()
-    // Offset: 0x1373854
+    // Offset: 0x13DAAA4
     ::UnityEngine::Vector3 get_headWorldPos();
     // public UnityEngine.Quaternion get_headWorldRot()
-    // Offset: 0x1373860
+    // Offset: 0x13DAAB0
     ::UnityEngine::Quaternion get_headWorldRot();
     // public UnityEngine.Vector3 get_headPseudoLocalPos()
-    // Offset: 0x137386C
+    // Offset: 0x13DAABC
     ::UnityEngine::Vector3 get_headPseudoLocalPos();
     // public UnityEngine.Quaternion get_headPseudoLocalRot()
-    // Offset: 0x1373878
+    // Offset: 0x13DAAC8
     ::UnityEngine::Quaternion get_headPseudoLocalRot();
     // public UnityEngine.Vector3 get_leftHandPseudoLocalPos()
-    // Offset: 0x1373884
+    // Offset: 0x13DAAD4
     ::UnityEngine::Vector3 get_leftHandPseudoLocalPos();
     // public UnityEngine.Quaternion get_leftHandPseudoLocalRot()
-    // Offset: 0x1373890
+    // Offset: 0x13DAAE0
     ::UnityEngine::Quaternion get_leftHandPseudoLocalRot();
     // public UnityEngine.Vector3 get_rightHandPseudoLocalPos()
-    // Offset: 0x137389C
+    // Offset: 0x13DAAEC
     ::UnityEngine::Vector3 get_rightHandPseudoLocalPos();
     // public UnityEngine.Quaternion get_rightHandPseudoLocalRot()
-    // Offset: 0x13738A8
+    // Offset: 0x13DAAF8
     ::UnityEngine::Quaternion get_rightHandPseudoLocalRot();
-    // protected System.Void Awake()
-    // Offset: 0x13738B4
-    void Awake();
-    // public System.Void OverrideHeadPos(UnityEngine.Vector3 pos)
-    // Offset: 0x1373948
-    void OverrideHeadPos(::UnityEngine::Vector3 pos);
-    // protected System.Void Update()
-    // Offset: 0x1373964
-    void Update();
-    // public System.Single MoveTowardsHead(System.Single start, System.Single end, UnityEngine.Quaternion noteInverseWorldRotation, System.Single t)
-    // Offset: 0x1373B40
-    float MoveTowardsHead(float start, float end, ::UnityEngine::Quaternion noteInverseWorldRotation, float t);
-    // public System.Single GetZPosOffsetByHeadPosAtTime(System.Single start, System.Single end, System.Single t)
-    // Offset: 0x1373CF0
-    float GetZPosOffsetByHeadPosAtTime(float start, float end, float t);
-    // private System.Single GetZPos(System.Single start, System.Single end, System.Single headOffsetZ, System.Single t)
-    // Offset: 0x1373C50
-    float GetZPos(float start, float end, float headOffsetZ, float t);
-    // public System.Single HeadOffsetZ(UnityEngine.Quaternion noteInverseWorldRotation)
-    // Offset: 0x1373B90
-    float HeadOffsetZ(::UnityEngine::Quaternion noteInverseWorldRotation);
     // public System.Void .ctor()
-    // Offset: 0x1373CFC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13DAF4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerTransforms* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerTransforms::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerTransforms*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x13DAB04
+    void Awake();
+    // public System.Void OverrideHeadPos(UnityEngine.Vector3 pos)
+    // Offset: 0x13DAB98
+    void OverrideHeadPos(::UnityEngine::Vector3 pos);
+    // protected System.Void Update()
+    // Offset: 0x13DABB4
+    void Update();
+    // public System.Single MoveTowardsHead(System.Single start, System.Single end, UnityEngine.Quaternion noteInverseWorldRotation, System.Single t)
+    // Offset: 0x13DAD90
+    float MoveTowardsHead(float start, float end, ::UnityEngine::Quaternion noteInverseWorldRotation, float t);
+    // public System.Single GetZPosOffsetByHeadPosAtTime(System.Single start, System.Single end, System.Single t)
+    // Offset: 0x13DAF40
+    float GetZPosOffsetByHeadPosAtTime(float start, float end, float t);
+    // private System.Single GetZPos(System.Single start, System.Single end, System.Single headOffsetZ, System.Single t)
+    // Offset: 0x13DAEA0
+    float GetZPos(float start, float end, float headOffsetZ, float t);
+    // public System.Single HeadOffsetZ(UnityEngine.Quaternion noteInverseWorldRotation)
+    // Offset: 0x13DADE0
+    float HeadOffsetZ(::UnityEngine::Quaternion noteInverseWorldRotation);
   }; // PlayerTransforms
   #pragma pack(pop)
   static check_size<sizeof(PlayerTransforms), 192 + sizeof(bool)> __GlobalNamespace_PlayerTransformsSizeCheck;
@@ -305,6 +291,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerTransforms*), "get_rightHandPseudoLocalRot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PlayerTransforms::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerTransforms::Awake
 // Il2CppName: Awake
 template<>
@@ -374,7 +364,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerTransforms*), "HeadOffsetZ", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteInverseWorldRotation});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PlayerTransforms::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

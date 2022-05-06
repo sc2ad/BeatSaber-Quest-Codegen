@@ -33,10 +33,10 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x1ADB138
+    // Offset: 0x1B15720
     static void _cctor();
     // static public OVRPlugin/Bool ovrp_SetOverlayQuad2(OVRPlugin/Bool onTop, OVRPlugin/Bool headLocked, System.IntPtr texture, System.IntPtr device, OVRPlugin/Posef pose, OVRPlugin/Vector3f scale)
-    // Offset: 0x1ADB050
+    // Offset: 0x1B15638
     static ::GlobalNamespace::OVRPlugin::Bool ovrp_SetOverlayQuad2(::GlobalNamespace::OVRPlugin::Bool onTop, ::GlobalNamespace::OVRPlugin::Bool headLocked, ::System::IntPtr texture, ::System::IntPtr device, ::GlobalNamespace::OVRPlugin::Posef pose, ::GlobalNamespace::OVRPlugin::Vector3f scale);
   }; // OVRPlugin/OVRP_0_1_1
   #pragma pack(pop)

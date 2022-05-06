@@ -210,7 +210,7 @@ namespace GlobalNamespace {
     // Set static field: static public BasicBeatmapEventType BpmChange
     static void _set_BpmChange(::GlobalNamespace::BasicBeatmapEventType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // BasicBeatmapEventType
   #pragma pack(pop)
   static check_size<sizeof(BasicBeatmapEventType), 0 + sizeof(int)> __GlobalNamespace_BasicBeatmapEventTypeSizeCheck;

@@ -42,9 +42,9 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single x
-    float& dyn_x();
+    [[deprecated("Use field access instead!")]] float& dyn_x();
     // Get instance field reference: public System.Single y
-    float& dyn_y();
+    [[deprecated("Use field access instead!")]] float& dyn_y();
   }; // OVRPlugin/Vector2f
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Vector2f), 4 + sizeof(float)> __GlobalNamespace_OVRPlugin_Vector2fSizeCheck;

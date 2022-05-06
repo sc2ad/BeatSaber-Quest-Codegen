@@ -35,10 +35,7 @@ namespace NUnit::Framework::Interfaces {
   class NodeList : public ::System::Collections::Generic::List_1<::NUnit::Framework::Interfaces::TNode*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1C464AC
-    // Implemented from: System.Collections.Generic.List`1
-    // Base method: System.Void List_1::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C9EA44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NodeList* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Interfaces::NodeList::.ctor");

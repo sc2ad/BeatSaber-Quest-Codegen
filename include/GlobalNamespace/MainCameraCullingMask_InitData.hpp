@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MainCameraCullingMask::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Boolean showDebris
     // Size: 0x1
     // Offset: 0x10
@@ -44,9 +36,9 @@ namespace GlobalNamespace {
       return showDebris;
     }
     // Get instance field reference: public readonly System.Boolean showDebris
-    bool& dyn_showDebris();
+    [[deprecated("Use field access instead!")]] bool& dyn_showDebris();
     // public System.Void .ctor(System.Boolean showDebris)
-    // Offset: 0x29E8558
+    // Offset: 0x2A3EE54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainCameraCullingMask::InitData* New_ctor(bool showDebris) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainCameraCullingMask::InitData::.ctor");

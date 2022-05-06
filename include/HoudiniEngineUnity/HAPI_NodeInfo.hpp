@@ -145,41 +145,41 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 id
-    int& dyn_id();
+    [[deprecated("Use field access instead!")]] int& dyn_id();
     // Get instance field reference: public System.Int32 parentId
-    int& dyn_parentId();
+    [[deprecated("Use field access instead!")]] int& dyn_parentId();
     // Get instance field reference: public System.Int32 nameSH
-    int& dyn_nameSH();
+    [[deprecated("Use field access instead!")]] int& dyn_nameSH();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_NodeType type
-    ::HoudiniEngineUnity::HAPI_NodeType& dyn_type();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_NodeType& dyn_type();
     // Get instance field reference: public System.Boolean isValid
-    bool& dyn_isValid();
+    [[deprecated("Use field access instead!")]] bool& dyn_isValid();
     // Get instance field reference: public System.Int32 totalCookCount
-    int& dyn_totalCookCount();
+    [[deprecated("Use field access instead!")]] int& dyn_totalCookCount();
     // Get instance field reference: public System.Int32 uniqueHoudiniNodeId
-    int& dyn_uniqueHoudiniNodeId();
+    [[deprecated("Use field access instead!")]] int& dyn_uniqueHoudiniNodeId();
     // Get instance field reference: public System.Int32 internalNodePathSH
-    int& dyn_internalNodePathSH();
+    [[deprecated("Use field access instead!")]] int& dyn_internalNodePathSH();
     // Get instance field reference: public System.Int32 parmCount
-    int& dyn_parmCount();
+    [[deprecated("Use field access instead!")]] int& dyn_parmCount();
     // Get instance field reference: public System.Int32 parmIntValueCount
-    int& dyn_parmIntValueCount();
+    [[deprecated("Use field access instead!")]] int& dyn_parmIntValueCount();
     // Get instance field reference: public System.Int32 parmFloatValueCount
-    int& dyn_parmFloatValueCount();
+    [[deprecated("Use field access instead!")]] int& dyn_parmFloatValueCount();
     // Get instance field reference: public System.Int32 parmStringValueCount
-    int& dyn_parmStringValueCount();
+    [[deprecated("Use field access instead!")]] int& dyn_parmStringValueCount();
     // Get instance field reference: public System.Int32 parmChoiceCount
-    int& dyn_parmChoiceCount();
+    [[deprecated("Use field access instead!")]] int& dyn_parmChoiceCount();
     // Get instance field reference: public System.Int32 childNodeCount
-    int& dyn_childNodeCount();
+    [[deprecated("Use field access instead!")]] int& dyn_childNodeCount();
     // Get instance field reference: public System.Int32 inputCount
-    int& dyn_inputCount();
+    [[deprecated("Use field access instead!")]] int& dyn_inputCount();
     // Get instance field reference: public System.Int32 outputCount
-    int& dyn_outputCount();
+    [[deprecated("Use field access instead!")]] int& dyn_outputCount();
     // Get instance field reference: public System.Boolean createdPostAssetLoad
-    bool& dyn_createdPostAssetLoad();
+    [[deprecated("Use field access instead!")]] bool& dyn_createdPostAssetLoad();
     // Get instance field reference: public System.Boolean isTimeDependent
-    bool& dyn_isTimeDependent();
+    [[deprecated("Use field access instead!")]] bool& dyn_isTimeDependent();
   }; // HoudiniEngineUnity.HAPI_NodeInfo
   #pragma pack(pop)
   static check_size<sizeof(HAPI_NodeInfo), 65 + sizeof(bool)> __HoudiniEngineUnity_HAPI_NodeInfoSizeCheck;

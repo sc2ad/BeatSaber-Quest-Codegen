@@ -54,15 +54,7 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class MethodProviderUntyped : public ::Il2CppObject/*, public ::Zenject::IProvider*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x10
@@ -81,27 +73,27 @@ namespace Zenject {
       return *reinterpret_cast<::Zenject::IProvider*>(this);
     }
     // Get instance field reference: private readonly Zenject.DiContainer _container
-    ::Zenject::DiContainer*& dyn__container();
+    [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn__container();
     // Get instance field reference: private readonly System.Func`2<Zenject.InjectContext,System.Object> _method
-    ::System::Func_2<::Zenject::InjectContext*, ::Il2CppObject*>*& dyn__method();
+    [[deprecated("Use field access instead!")]] ::System::Func_2<::Zenject::InjectContext*, ::Il2CppObject*>*& dyn__method();
     // public System.Boolean get_IsCached()
-    // Offset: 0x1BDA4DC
+    // Offset: 0x1C14AC4
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x1BDA4E4
+    // Offset: 0x1C14ACC
     bool get_TypeVariesBasedOnMemberType();
     // public System.Void .ctor(System.Func`2<Zenject.InjectContext,System.Object> method, Zenject.DiContainer container)
-    // Offset: 0x1BDA4A4
+    // Offset: 0x1C14A8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MethodProviderUntyped* New_ctor(::System::Func_2<::Zenject::InjectContext*, ::Il2CppObject*>* method, ::Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MethodProviderUntyped::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MethodProviderUntyped*, creationType>(method, container)));
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x1BDA4EC
+    // Offset: 0x1C14AD4
     ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x1BDA508
+    // Offset: 0x1C14AF0
     void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.MethodProviderUntyped
   #pragma pack(pop)

@@ -30,15 +30,7 @@ namespace System::Runtime::Remoting {
   // [TokenAttribute] Offset: FFFFFFFF
   class SoapServices::TypeInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Collections.Hashtable Attributes
     // Size: 0x8
     // Offset: 0x10
@@ -53,11 +45,11 @@ namespace System::Runtime::Remoting {
     static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     public:
     // Get instance field reference: public System.Collections.Hashtable Attributes
-    ::System::Collections::Hashtable*& dyn_Attributes();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn_Attributes();
     // Get instance field reference: public System.Collections.Hashtable Elements
-    ::System::Collections::Hashtable*& dyn_Elements();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn_Elements();
     // public System.Void .ctor()
-    // Offset: 0x18B42BC
+    // Offset: 0x18EDBCC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

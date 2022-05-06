@@ -26,15 +26,7 @@ namespace UnityEngine::TestTools::TestRunner {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PlaymodeTestsController::$TestRunnerCoroutine$d__15 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -61,32 +53,32 @@ namespace UnityEngine::TestTools::TestRunner {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Object <>2__current
-    ::Il2CppObject*& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$$2__current();
     // Get instance field reference: public UnityEngine.TestTools.TestRunner.PlaymodeTestsController <>4__this
-    ::UnityEngine::TestTools::TestRunner::PlaymodeTestsController*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TestTools::TestRunner::PlaymodeTestsController*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1952938
+    // Offset: 0x198A270
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x19529A0
+    // Offset: 0x198A2D8
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1951C14
+    // Offset: 0x19895E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlaymodeTestsController::$TestRunnerCoroutine$d__15* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$TestRunnerCoroutine$d__15::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlaymodeTestsController::$TestRunnerCoroutine$d__15*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1952770
+    // Offset: 0x198A0A8
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1952774
+    // Offset: 0x198A0AC
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1952940
+    // Offset: 0x198A278
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.TestTools.TestRunner.PlaymodeTestsController/UnityEngine.TestTools.TestRunner.<TestRunnerCoroutine>d__15
   #pragma pack(pop)

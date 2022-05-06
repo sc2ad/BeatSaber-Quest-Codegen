@@ -37,22 +37,14 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class SelectableCellStaticAnimations : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.SelectableCell _selectableCell
     // Size: 0x8
     // Offset: 0x18
     ::HMUI::SelectableCell* selectableCell;
     // Field size check
     static_assert(sizeof(::HMUI::SelectableCell*) == 0x8);
-    // [SpaceAttribute] Offset: 0x123C0B4
+    // [SpaceAttribute] Offset: 0x10C0B8C
     // private UnityEngine.AnimationClip _normalAnimationClip
     // Size: 0x8
     // Offset: 0x20
@@ -81,52 +73,50 @@ namespace HMUI {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.SelectableCell _selectableCell
-    ::HMUI::SelectableCell*& dyn__selectableCell();
+    [[deprecated("Use field access instead!")]] ::HMUI::SelectableCell*& dyn__selectableCell();
     // Get instance field reference: private UnityEngine.AnimationClip _normalAnimationClip
-    ::UnityEngine::AnimationClip*& dyn__normalAnimationClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationClip*& dyn__normalAnimationClip();
     // Get instance field reference: private UnityEngine.AnimationClip _highlightedAnimationClip
-    ::UnityEngine::AnimationClip*& dyn__highlightedAnimationClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationClip*& dyn__highlightedAnimationClip();
     // Get instance field reference: private UnityEngine.AnimationClip _selectedAnimationClip
-    ::UnityEngine::AnimationClip*& dyn__selectedAnimationClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationClip*& dyn__selectedAnimationClip();
     // Get instance field reference: private UnityEngine.AnimationClip _selectedAndHighlightedAnimationClip
-    ::UnityEngine::AnimationClip*& dyn__selectedAndHighlightedAnimationClip();
-    // protected System.Void Awake()
-    // Offset: 0x168DB78
-    void Awake();
-    // protected System.Void Start()
-    // Offset: 0x168DC50
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x168DCC4
-    void OnDestroy();
-    // private System.Void HandleSelectionDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/HMUI.TransitionType transitionType, System.Object changeOwner)
-    // Offset: 0x168DD9C
-    void HandleSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell::TransitionType transitionType, ::Il2CppObject* changeOwner);
-    // private System.Void HandleHighlightDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x168DDA0
-    void HandleHighlightDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell::TransitionType transitionType);
-    // private System.Void RefreshVisuals()
-    // Offset: 0x168DC54
-    void RefreshVisuals();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationClip*& dyn__selectedAndHighlightedAnimationClip();
     // public System.Void .ctor()
-    // Offset: 0x168DDA4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16C46B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectableCellStaticAnimations* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::SelectableCellStaticAnimations::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectableCellStaticAnimations*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x16C4488
+    void Awake();
+    // protected System.Void Start()
+    // Offset: 0x16C4560
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x16C45D4
+    void OnDestroy();
+    // private System.Void HandleSelectionDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/HMUI.TransitionType transitionType, System.Object changeOwner)
+    // Offset: 0x16C46AC
+    void HandleSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell::TransitionType transitionType, ::Il2CppObject* changeOwner);
+    // private System.Void HandleHighlightDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/HMUI.TransitionType transitionType)
+    // Offset: 0x16C46B0
+    void HandleHighlightDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell::TransitionType transitionType);
+    // private System.Void RefreshVisuals()
+    // Offset: 0x16C4564
+    void RefreshVisuals();
   }; // HMUI.SelectableCellStaticAnimations
   #pragma pack(pop)
   static check_size<sizeof(SelectableCellStaticAnimations), 56 + sizeof(::UnityEngine::AnimationClip*)> __HMUI_SelectableCellStaticAnimationsSizeCheck;
   static_assert(sizeof(SelectableCellStaticAnimations) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HMUI::SelectableCellStaticAnimations::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::SelectableCellStaticAnimations::Awake
 // Il2CppName: Awake
 template<>
@@ -180,7 +170,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::SelectableCellStaticAnimations*), "RefreshVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HMUI::SelectableCellStaticAnimations::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

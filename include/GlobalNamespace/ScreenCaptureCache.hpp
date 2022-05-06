@@ -90,20 +90,12 @@ namespace GlobalNamespace {
       // Set static field: static public ScreenCaptureCache/ScreenshotType Other
       static void _set_Other(::GlobalNamespace::ScreenCaptureCache::ScreenshotType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // ScreenCaptureCache/ScreenshotType
     #pragma pack(pop)
     static check_size<sizeof(ScreenCaptureCache::ScreenshotType), 0 + sizeof(int)> __GlobalNamespace_ScreenCaptureCache_ScreenshotTypeSizeCheck;
     static_assert(sizeof(ScreenCaptureCache::ScreenshotType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.Dictionary`2<ScreenCaptureCache/ScreenshotType,UnityEngine.Texture2D> _cache
     // Size: 0x8
     // Offset: 0x10
@@ -116,22 +108,20 @@ namespace GlobalNamespace {
       return cache;
     }
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<ScreenCaptureCache/ScreenshotType,UnityEngine.Texture2D> _cache
-    ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ScreenCaptureCache::ScreenshotType, ::UnityEngine::Texture2D*>*& dyn__cache();
-    // public UnityEngine.Texture2D GetLastScreenshot(ScreenCaptureCache/ScreenshotType screenshotType)
-    // Offset: 0x29EC1B0
-    ::UnityEngine::Texture2D* GetLastScreenshot(::GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType);
-    // public System.Void StoreScreenshot(ScreenCaptureCache/ScreenshotType screenshotType, UnityEngine.Texture2D texture)
-    // Offset: 0x29EBE70
-    void StoreScreenshot(::GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType, ::UnityEngine::Texture2D* texture);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ScreenCaptureCache::ScreenshotType, ::UnityEngine::Texture2D*>*& dyn__cache();
     // public System.Void .ctor()
-    // Offset: 0x29EC230
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A42B2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScreenCaptureCache* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScreenCaptureCache::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScreenCaptureCache*, creationType>()));
     }
+    // public UnityEngine.Texture2D GetLastScreenshot(ScreenCaptureCache/ScreenshotType screenshotType)
+    // Offset: 0x2A42AAC
+    ::UnityEngine::Texture2D* GetLastScreenshot(::GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType);
+    // public System.Void StoreScreenshot(ScreenCaptureCache/ScreenshotType screenshotType, UnityEngine.Texture2D texture)
+    // Offset: 0x2A4276C
+    void StoreScreenshot(::GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType, ::UnityEngine::Texture2D* texture);
   }; // ScreenCaptureCache
   #pragma pack(pop)
   static check_size<sizeof(ScreenCaptureCache), 16 + sizeof(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ScreenCaptureCache::ScreenshotType, ::UnityEngine::Texture2D*>*)> __GlobalNamespace_ScreenCaptureCacheSizeCheck;
@@ -140,6 +130,10 @@ namespace GlobalNamespace {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScreenCaptureCache::ScreenshotType, "", "ScreenCaptureCache/ScreenshotType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ScreenCaptureCache::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ScreenCaptureCache::GetLastScreenshot
 // Il2CppName: GetLastScreenshot
 template<>
@@ -159,7 +153,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenCaptureCache*), "StoreScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{screenshotType, texture});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ScreenCaptureCache::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

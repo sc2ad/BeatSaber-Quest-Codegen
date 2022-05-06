@@ -43,9 +43,9 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public Valve.VR.IVROverlay/Valve.VR._PollNextOverlayEvent pPollNextOverlayEvent
-    ::Valve::VR::IVROverlay::_PollNextOverlayEvent*& dyn_pPollNextOverlayEvent();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVROverlay::_PollNextOverlayEvent*& dyn_pPollNextOverlayEvent();
     // Get instance field reference: public Valve.VR.CVROverlay/Valve.VR._PollNextOverlayEventPacked pPollNextOverlayEventPacked
-    ::Valve::VR::CVROverlay::_PollNextOverlayEventPacked*& dyn_pPollNextOverlayEventPacked();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::CVROverlay::_PollNextOverlayEventPacked*& dyn_pPollNextOverlayEventPacked();
   }; // Valve.VR.CVROverlay/Valve.VR.PollNextOverlayEventUnion
   // WARNING Not writing size check since size may be invalid!
 }

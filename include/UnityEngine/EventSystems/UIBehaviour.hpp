@@ -28,62 +28,60 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class UIBehaviour : public ::UnityEngine::MonoBehaviour {
     public:
-    // protected System.Void Awake()
-    // Offset: 0x18FD174
-    void Awake();
-    // protected System.Void OnEnable()
-    // Offset: 0x18F2804
-    void OnEnable();
-    // protected System.Void Start()
-    // Offset: 0x18FD178
-    void Start();
-    // protected System.Void OnDisable()
-    // Offset: 0x18F296C
-    void OnDisable();
-    // protected System.Void OnDestroy()
-    // Offset: 0x18FD17C
-    void OnDestroy();
-    // public System.Boolean IsActive()
-    // Offset: 0x18FD180
-    bool IsActive();
-    // protected System.Void OnRectTransformDimensionsChange()
-    // Offset: 0x18FD188
-    void OnRectTransformDimensionsChange();
-    // protected System.Void OnBeforeTransformParentChanged()
-    // Offset: 0x18FD18C
-    void OnBeforeTransformParentChanged();
-    // protected System.Void OnTransformParentChanged()
-    // Offset: 0x18F3B1C
-    void OnTransformParentChanged();
-    // protected System.Void OnDidApplyAnimationProperties()
-    // Offset: 0x18FD190
-    void OnDidApplyAnimationProperties();
-    // protected System.Void OnCanvasGroupChanged()
-    // Offset: 0x18FD194
-    void OnCanvasGroupChanged();
-    // protected System.Void OnCanvasHierarchyChanged()
-    // Offset: 0x18F3B10
-    void OnCanvasHierarchyChanged();
-    // public System.Boolean IsDestroyed()
-    // Offset: 0x18FD198
-    bool IsDestroyed();
     // protected System.Void .ctor()
-    // Offset: 0x18F2564
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x192BE74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UIBehaviour* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::UIBehaviour::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UIBehaviour*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x1936A84
+    void Awake();
+    // protected System.Void OnEnable()
+    // Offset: 0x192C114
+    void OnEnable();
+    // protected System.Void Start()
+    // Offset: 0x1936A88
+    void Start();
+    // protected System.Void OnDisable()
+    // Offset: 0x192C27C
+    void OnDisable();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1936A8C
+    void OnDestroy();
+    // public System.Boolean IsActive()
+    // Offset: 0x1936A90
+    bool IsActive();
+    // protected System.Void OnRectTransformDimensionsChange()
+    // Offset: 0x1936A98
+    void OnRectTransformDimensionsChange();
+    // protected System.Void OnBeforeTransformParentChanged()
+    // Offset: 0x1936A9C
+    void OnBeforeTransformParentChanged();
+    // protected System.Void OnTransformParentChanged()
+    // Offset: 0x192D42C
+    void OnTransformParentChanged();
+    // protected System.Void OnDidApplyAnimationProperties()
+    // Offset: 0x1936AA0
+    void OnDidApplyAnimationProperties();
+    // protected System.Void OnCanvasGroupChanged()
+    // Offset: 0x1936AA4
+    void OnCanvasGroupChanged();
+    // protected System.Void OnCanvasHierarchyChanged()
+    // Offset: 0x192D420
+    void OnCanvasHierarchyChanged();
+    // public System.Boolean IsDestroyed()
+    // Offset: 0x1936AA8
+    bool IsDestroyed();
   }; // UnityEngine.EventSystems.UIBehaviour
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::EventSystems::UIBehaviour::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::EventSystems::UIBehaviour::Awake
 // Il2CppName: Awake
 template<>
@@ -188,7 +186,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::UIBehaviour*), "IsDestroyed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::EventSystems::UIBehaviour::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -42,15 +42,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapObjectAvoidancePathEvaluator : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Single _jumpStartZ
     // Size: 0x4
     // Offset: 0x10
@@ -107,32 +99,32 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::PlayerTransforms*) == 0x8);
     public:
     // Get instance field reference: private readonly System.Single _jumpStartZ
-    float& dyn__jumpStartZ();
+    [[deprecated("Use field access instead!")]] float& dyn__jumpStartZ();
     // Get instance field reference: private readonly System.Single _jumpEndZ
-    float& dyn__jumpEndZ();
+    [[deprecated("Use field access instead!")]] float& dyn__jumpEndZ();
     // Get instance field reference: private readonly System.Single _zOffset
-    float& dyn__zOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__zOffset();
     // Get instance field reference: private readonly System.Single _yOffset
-    float& dyn__yOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__yOffset();
     // Get instance field reference: private readonly System.Single _noteJumpSpeed
-    float& dyn__noteJumpSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn__noteJumpSpeed();
     // Get instance field reference: private readonly System.Single _moveToPlayerHeadTParam
-    float& dyn__moveToPlayerHeadTParam();
+    [[deprecated("Use field access instead!")]] float& dyn__moveToPlayerHeadTParam();
     // Get instance field reference: private readonly BezierSplineEvaluator _pathBezierCurveEvaluator
-    ::GlobalNamespace::BezierSplineEvaluator*& dyn__pathBezierCurveEvaluator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BezierSplineEvaluator*& dyn__pathBezierCurveEvaluator();
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
-    ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // Get instance field reference: private readonly PlayerTransforms _playerTransforms
-    ::GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
     // public System.Void .ctor(IAudioTimeSource audioTimeSource, PlayerTransforms playerTransforms, BezierSplineEvaluator pathBezierCurveEvaluator, System.Single jumpStartZ, System.Single jumpEndZ, System.Single yOffset, System.Single zOffset, System.Single noteJumpSeed, System.Single moveToPlayerHeadTParam)
-    // Offset: 0x14D41F4
+    // Offset: 0x150BAFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectAvoidancePathEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::PlayerTransforms* playerTransforms, ::GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator, float jumpStartZ, float jumpEndZ, float yOffset, float zOffset, float noteJumpSeed, float moveToPlayerHeadTParam) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectAvoidancePathEvaluator*, creationType>(audioTimeSource, playerTransforms, pathBezierCurveEvaluator, jumpStartZ, jumpEndZ, yOffset, zOffset, noteJumpSeed, moveToPlayerHeadTParam)));
     }
     // public UnityEngine.Vector3 GetCurrentPathPosition()
-    // Offset: 0x14D4270
+    // Offset: 0x150BB78
     ::UnityEngine::Vector3 GetCurrentPathPosition();
   }; // BeatmapObjectAvoidancePathEvaluator
   #pragma pack(pop)

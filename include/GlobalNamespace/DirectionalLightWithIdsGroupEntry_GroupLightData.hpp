@@ -30,15 +30,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DirectionalLightWithIdsGroupEntry::GroupLightData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private LightGroup _lightGroup
     // Size: 0x8
     // Offset: 0x10
@@ -53,19 +45,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private LightGroup _lightGroup
-    ::GlobalNamespace::LightGroup*& dyn__lightGroup();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightGroup*& dyn__lightGroup();
     // Get instance field reference: private System.Single _groupIntensity
-    float& dyn__groupIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn__groupIntensity();
     // public LightGroup get_lightGroup()
-    // Offset: 0x2ACF7CC
+    // Offset: 0x1E78B94
     ::GlobalNamespace::LightGroup* get_lightGroup();
     // public System.Single get_groupIntensity()
-    // Offset: 0x2ACF7D4
+    // Offset: 0x1E78B9C
     float get_groupIntensity();
     // public System.Void .ctor()
-    // Offset: 0x2ACF7DC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E78BA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DirectionalLightWithIdsGroupEntry::GroupLightData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DirectionalLightWithIdsGroupEntry::GroupLightData::.ctor");

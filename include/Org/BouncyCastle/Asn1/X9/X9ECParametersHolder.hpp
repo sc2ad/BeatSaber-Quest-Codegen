@@ -33,15 +33,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X9ECParametersHolder : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Org.BouncyCastle.Asn1.X9.X9ECParameters parameters
     // Size: 0x8
     // Offset: 0x10
@@ -54,22 +46,20 @@ namespace Org::BouncyCastle::Asn1::X9 {
       return parameters;
     }
     // Get instance field reference: private Org.BouncyCastle.Asn1.X9.X9ECParameters parameters
-    ::Org::BouncyCastle::Asn1::X9::X9ECParameters*& dyn_parameters();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::X9::X9ECParameters*& dyn_parameters();
     // public Org.BouncyCastle.Asn1.X9.X9ECParameters get_Parameters()
-    // Offset: 0x1ED1804
+    // Offset: 0x1F1ED3C
     ::Org::BouncyCastle::Asn1::X9::X9ECParameters* get_Parameters();
-    // protected Org.BouncyCastle.Asn1.X9.X9ECParameters CreateParameters()
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
     // protected System.Void .ctor()
-    // Offset: 0x1ED18A0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1F1EDD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9ECParametersHolder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9ECParametersHolder*, creationType>()));
     }
+    // protected Org.BouncyCastle.Asn1.X9.X9ECParameters CreateParameters()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
   }; // Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
   #pragma pack(pop)
   static check_size<sizeof(X9ECParametersHolder), 16 + sizeof(::Org::BouncyCastle::Asn1::X9::X9ECParameters*)> __Org_BouncyCastle_Asn1_X9_X9ECParametersHolderSizeCheck;
@@ -84,6 +74,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::Boun
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*), "get_Parameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::CreateParameters
 // Il2CppName: CreateParameters
 template<>
@@ -92,7 +86,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::Boun
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

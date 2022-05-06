@@ -77,20 +77,20 @@ namespace MasterServer {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<BGNet.Core.Messages.IUnconnectedAuthenticateRequest> <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BGNet::Core::Messages::IUnconnectedAuthenticateRequest*>& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BGNet::Core::Messages::IUnconnectedAuthenticateRequest*>& dyn_$$t__builder();
     // Get instance field reference: public MasterServer.UserMasterServerMessageHandler <>4__this
-    ::MasterServer::UserMasterServerMessageHandler*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::MasterServer::UserMasterServerMessageHandler*& dyn_$$4__this();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<IAuthenticationTokenProvider> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IAuthenticationTokenProvider*>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IAuthenticationTokenProvider*>& dyn_$$u__1();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<AuthenticationToken> <>u__2
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AuthenticationToken>& dyn_$$u__2();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AuthenticationToken>& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x16F6E54
+    // Offset: 0x172F764
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x16F71A0
+    // Offset: 0x172FAB0
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.UserMasterServerMessageHandler/MasterServer.<GetAuthenticationRequest>d__17
   // WARNING Not writing size check since size may be invalid!

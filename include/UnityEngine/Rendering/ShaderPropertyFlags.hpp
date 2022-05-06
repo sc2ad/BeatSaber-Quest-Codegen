@@ -103,7 +103,7 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.ShaderPropertyFlags MainColor
     static void _set_MainColor(::UnityEngine::Rendering::ShaderPropertyFlags value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.Rendering.ShaderPropertyFlags
   #pragma pack(pop)
   static check_size<sizeof(ShaderPropertyFlags), 0 + sizeof(int)> __UnityEngine_Rendering_ShaderPropertyFlagsSizeCheck;

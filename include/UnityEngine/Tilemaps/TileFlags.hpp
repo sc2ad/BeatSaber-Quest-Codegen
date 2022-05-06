@@ -73,7 +73,7 @@ namespace UnityEngine::Tilemaps {
     // Set static field: static public UnityEngine.Tilemaps.TileFlags LockAll
     static void _set_LockAll(::UnityEngine::Tilemaps::TileFlags value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.Tilemaps.TileFlags
   #pragma pack(pop)
   static check_size<sizeof(TileFlags), 0 + sizeof(int)> __UnityEngine_Tilemaps_TileFlagsSizeCheck;

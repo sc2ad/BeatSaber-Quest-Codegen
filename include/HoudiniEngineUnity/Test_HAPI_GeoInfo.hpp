@@ -30,15 +30,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_HAPI_GeoInfo : public ::Il2CppObject/*, public ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public HoudiniEngineUnity.HAPI_GeoInfo self
     // Size: 0x24
     // Offset: 0x10
@@ -55,16 +47,16 @@ namespace HoudiniEngineUnity {
       return self;
     }
     // Get instance field reference: public HoudiniEngineUnity.HAPI_GeoInfo self
-    ::HoudiniEngineUnity::HAPI_GeoInfo& dyn_self();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_GeoInfo& dyn_self();
     // public System.Void .ctor(HoudiniEngineUnity.HAPI_GeoInfo self)
-    // Offset: 0x19E3410
+    // Offset: 0x1A1C9F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_HAPI_GeoInfo* New_ctor(::HoudiniEngineUnity::HAPI_GeoInfo self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_HAPI_GeoInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_HAPI_GeoInfo*, creationType>(self)));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_HAPI_GeoInfo other)
-    // Offset: 0x19E3448
+    // Offset: 0x1A1CA30
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_GeoInfo* other);
   }; // HoudiniEngineUnity.Test_HAPI_GeoInfo
   #pragma pack(pop)

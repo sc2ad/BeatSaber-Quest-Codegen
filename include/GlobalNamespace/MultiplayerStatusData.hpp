@@ -82,20 +82,12 @@ namespace GlobalNamespace {
       // Set static field: static public MultiplayerStatusData/AvailabilityStatus Offline
       static void _set_Offline(::GlobalNamespace::MultiplayerStatusData::AvailabilityStatus value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // MultiplayerStatusData/AvailabilityStatus
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerStatusData::AvailabilityStatus), 0 + sizeof(int)> __GlobalNamespace_MultiplayerStatusData_AvailabilityStatusSizeCheck;
     static_assert(sizeof(MultiplayerStatusData::AvailabilityStatus) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String minimumAppVersion
     // Size: 0x8
     // Offset: 0x10
@@ -136,45 +128,43 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.String minimumAppVersion
-    ::StringW& dyn_minimumAppVersion();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_minimumAppVersion();
     // Get instance field reference: public MultiplayerStatusData/AvailabilityStatus status
-    ::GlobalNamespace::MultiplayerStatusData::AvailabilityStatus& dyn_status();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerStatusData::AvailabilityStatus& dyn_status();
     // Get instance field reference: public System.Int64 maintenanceStartTime
-    int64_t& dyn_maintenanceStartTime();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_maintenanceStartTime();
     // Get instance field reference: public System.Int64 maintenanceEndTime
-    int64_t& dyn_maintenanceEndTime();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_maintenanceEndTime();
     // Get instance field reference: public MultiplayerStatusData/UserMessage userMessage
-    ::GlobalNamespace::MultiplayerStatusData::UserMessage*& dyn_userMessage();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerStatusData::UserMessage*& dyn_userMessage();
     // Get instance field reference: public System.Boolean useGamelift
-    bool& dyn_useGamelift();
+    [[deprecated("Use field access instead!")]] bool& dyn_useGamelift();
     // private System.String get__minimumAppVersion()
-    // Offset: 0x13ACB74
+    // Offset: 0x13A9020
     ::StringW get__minimumAppVersion();
     // private System.Void set__minimumAppVersion(System.String value)
-    // Offset: 0x13ACB7C
+    // Offset: 0x13A9028
     void set__minimumAppVersion(::StringW value);
     // private System.Int64 get__maintenanceStartTime()
-    // Offset: 0x13ACB84
+    // Offset: 0x13A9030
     int64_t get__maintenanceStartTime();
     // private System.Void set__maintenanceStartTime(System.Int64 value)
-    // Offset: 0x13ACB8C
+    // Offset: 0x13A9038
     void set__maintenanceStartTime(int64_t value);
     // private MultiplayerStatusData/UserMessage get__userMessage()
-    // Offset: 0x13ACB94
+    // Offset: 0x13A9040
     ::GlobalNamespace::MultiplayerStatusData::UserMessage* get__userMessage();
     // private System.Void set__userMessage(MultiplayerStatusData/UserMessage value)
-    // Offset: 0x13ACB9C
+    // Offset: 0x13A9048
     void set__userMessage(::GlobalNamespace::MultiplayerStatusData::UserMessage* value);
     // private System.Boolean get__useGamelift()
-    // Offset: 0x13ACBA4
+    // Offset: 0x13A9050
     bool get__useGamelift();
     // private System.Void set__useGamelift(System.Boolean value)
-    // Offset: 0x13ACBAC
+    // Offset: 0x13A9058
     void set__useGamelift(bool value);
     // public System.Void .ctor()
-    // Offset: 0x13ACBB8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13A9064
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerStatusData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerStatusData::.ctor");

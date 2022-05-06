@@ -36,15 +36,7 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetSyncOptions : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.IntPtr Handle
     // Size: 0x8
     // Offset: 0x10
@@ -57,30 +49,28 @@ namespace Oculus::Platform {
       return Handle;
     }
     // Get instance field reference: private System.IntPtr Handle
-    ::System::IntPtr& dyn_Handle();
-    // public System.Void SetVoipGroup(System.String value)
-    // Offset: 0x2A23CA0
-    void SetVoipGroup(::StringW value);
-    // public System.Void SetVoipStreamDefault(Oculus.Platform.NetSyncVoipStreamMode value)
-    // Offset: 0x2A23D1C
-    void SetVoipStreamDefault(::Oculus::Platform::NetSyncVoipStreamMode value);
-    // public System.Void SetZoneId(System.String value)
-    // Offset: 0x2A23D98
-    void SetZoneId(::StringW value);
-    // static public System.IntPtr op_Explicit(Oculus.Platform.NetSyncOptions options)
-    // Offset: 0x2A23E14
-    // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Handle();
     // public System.Void .ctor()
-    // Offset: 0x2A23C28
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A7A010
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSyncOptions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::NetSyncOptions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetSyncOptions*, creationType>()));
     }
+    // public System.Void SetVoipGroup(System.String value)
+    // Offset: 0x2A7A088
+    void SetVoipGroup(::StringW value);
+    // public System.Void SetVoipStreamDefault(Oculus.Platform.NetSyncVoipStreamMode value)
+    // Offset: 0x2A7A104
+    void SetVoipStreamDefault(::Oculus::Platform::NetSyncVoipStreamMode value);
+    // public System.Void SetZoneId(System.String value)
+    // Offset: 0x2A7A180
+    void SetZoneId(::StringW value);
+    // static public System.IntPtr op_Explicit(Oculus.Platform.NetSyncOptions options)
+    // Offset: 0x2A7A1FC
+    // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
     // protected override System.Void Finalize()
-    // Offset: 0x2A23E64
+    // Offset: 0x2A7A24C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -90,6 +80,10 @@ namespace Oculus::Platform {
   static_assert(sizeof(NetSyncOptions) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Oculus::Platform::NetSyncOptions::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::NetSyncOptions::SetVoipGroup
 // Il2CppName: SetVoipGroup
 template<>
@@ -120,10 +114,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::NetSyncOptions::operator ::System::IntPtr
 // Il2CppName: op_Explicit
 // Cannot perform method pointer template specialization from operators!
-// Writing MetadataGetter for method: Oculus::Platform::NetSyncOptions::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::NetSyncOptions::Finalize
 // Il2CppName: Finalize
 template<>

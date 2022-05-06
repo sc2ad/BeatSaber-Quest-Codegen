@@ -41,20 +41,18 @@ namespace NUnit::Framework::Internal {
     // Set static field: static public NUnit.Framework.Constraints.ValueFormatter <>9__9_0
     static void _set_$$9__9_0(::NUnit::Framework::Constraints::ValueFormatter* value);
     // static private System.Void .cctor()
-    // Offset: 0x29B15C0
+    // Offset: 0x2A0D5B8
     static void _cctor();
-    // System.String <.ctor>b__9_0(System.Object val)
-    // Offset: 0x29B162C
-    ::StringW $_ctor$b__9_0(::Il2CppObject* val);
     // public System.Void .ctor()
-    // Offset: 0x29B1624
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A0D61C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestExecutionContext::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestExecutionContext::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestExecutionContext::$$c*, creationType>()));
     }
+    // System.String <.ctor>b__9_0(System.Object val)
+    // Offset: 0x2A0D624
+    ::StringW $_ctor$b__9_0(::Il2CppObject* val);
   }; // NUnit.Framework.Internal.TestExecutionContext/NUnit.Framework.Internal.<>c
   #pragma pack(pop)
 }
@@ -67,6 +65,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestExecutionContext::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: NUnit::Framework::Internal::TestExecutionContext::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestExecutionContext::$$c::$_ctor$b__9_0
 // Il2CppName: <.ctor>b__9_0
 template<>
@@ -76,7 +78,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestExecutionContext::$$c*), "<.ctor>b__9_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::TestExecutionContext::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

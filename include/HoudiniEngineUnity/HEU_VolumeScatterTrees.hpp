@@ -46,15 +46,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_VolumeScatterTrees : public ::Il2CppObject/*, public ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_TreePrototypeInfo> _treePrototypInfos
     // Size: 0x8
     // Offset: 0x10
@@ -115,41 +107,43 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>*>(this);
     }
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_TreePrototypeInfo> _treePrototypInfos
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>*& dyn__treePrototypInfos();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>*& dyn__treePrototypInfos();
     // Get instance field reference: public UnityEngine.Color32[] _colors
-    ::ArrayW<::UnityEngine::Color32>& dyn__colors();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Color32>& dyn__colors();
     // Get instance field reference: public System.Single[] _heightScales
-    ::ArrayW<float>& dyn__heightScales();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn__heightScales();
     // Get instance field reference: public UnityEngine.Color32[] _lightmapColors
-    ::ArrayW<::UnityEngine::Color32>& dyn__lightmapColors();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Color32>& dyn__lightmapColors();
     // Get instance field reference: public UnityEngine.Vector3[] _positions
-    ::ArrayW<::UnityEngine::Vector3>& dyn__positions();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn__positions();
     // Get instance field reference: public System.Int32[] _prototypeIndices
-    ::ArrayW<int>& dyn__prototypeIndices();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__prototypeIndices();
     // Get instance field reference: public System.Single[] _rotations
-    ::ArrayW<float>& dyn__rotations();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn__rotations();
     // Get instance field reference: public System.Single[] _widthScales
-    ::ArrayW<float>& dyn__widthScales();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn__widthScales();
     // Get instance field reference: public System.Int32[] _terrainTiles
-    ::ArrayW<int>& dyn__terrainTiles();
-    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_VolumeScatterTrees other)
-    // Offset: 0x19D965C
-    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeScatterTrees* other);
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__terrainTiles();
     // public System.Void .ctor()
-    // Offset: 0x19D4434
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1A0DA1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_VolumeScatterTrees* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_VolumeScatterTrees::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_VolumeScatterTrees*, creationType>()));
     }
+    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_VolumeScatterTrees other)
+    // Offset: 0x1A12C44
+    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeScatterTrees* other);
   }; // HoudiniEngineUnity.HEU_VolumeScatterTrees
   #pragma pack(pop)
   static check_size<sizeof(HEU_VolumeScatterTrees), 80 + sizeof(::ArrayW<int>)> __HoudiniEngineUnity_HEU_VolumeScatterTreesSizeCheck;
   static_assert(sizeof(HEU_VolumeScatterTrees) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_VolumeScatterTrees::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_VolumeScatterTrees::IsEquivalentTo
 // Il2CppName: IsEquivalentTo
 template<>
@@ -159,7 +153,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_VolumeScatterTrees*), "IsEquivalentTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_VolumeScatterTrees::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

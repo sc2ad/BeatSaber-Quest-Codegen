@@ -66,7 +66,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Set static field: static public System.Runtime.Remoting.Messaging.CallType OneWay
     static void _set_OneWay(::System::Runtime::Remoting::Messaging::CallType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Runtime.Remoting.Messaging.CallType
   #pragma pack(pop)
   static check_size<sizeof(CallType), 0 + sizeof(int)> __System_Runtime_Remoting_Messaging_CallTypeSizeCheck;

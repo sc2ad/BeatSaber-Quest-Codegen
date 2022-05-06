@@ -40,15 +40,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   // [TokenAttribute] Offset: FFFFFFFF
   class WNafUtilities::PrecomputeCallback : public ::Il2CppObject/*, public ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Math.EC.ECPoint m_p
     // Size: 0x8
     // Offset: 0x10
@@ -73,26 +65,26 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
       return *reinterpret_cast<::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);
     }
     // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.ECPoint m_p
-    ::Org::BouncyCastle::Math::EC::ECPoint*& dyn_m_p();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::EC::ECPoint*& dyn_m_p();
     // Get instance field reference: private readonly System.Int32 m_minWidth
-    int& dyn_m_minWidth();
+    [[deprecated("Use field access instead!")]] int& dyn_m_minWidth();
     // Get instance field reference: private readonly System.Boolean m_includeNegated
-    bool& dyn_m_includeNegated();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_includeNegated();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECPoint p, System.Int32 minWidth, System.Boolean includeNegated)
-    // Offset: 0x2290B10
+    // Offset: 0x22DB384
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WNafUtilities::PrecomputeCallback* New_ctor(::Org::BouncyCastle::Math::EC::ECPoint* p, int minWidth, bool includeNegated) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WNafUtilities::PrecomputeCallback*, creationType>(p, minWidth, includeNegated)));
     }
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
-    // Offset: 0x2290FF8
+    // Offset: 0x22DB86C
     ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
     // private System.Boolean CheckExisting(Org.BouncyCastle.Math.EC.Multiplier.WNafPreCompInfo existingWNaf, System.Int32 width, System.Int32 reqPreCompLen, System.Boolean includeNegated)
-    // Offset: 0x2291818
+    // Offset: 0x22DC08C
     bool CheckExisting(::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* existingWNaf, int width, int reqPreCompLen, bool includeNegated);
     // private System.Boolean CheckTable(Org.BouncyCastle.Math.EC.ECPoint[] table, System.Int32 reqLen)
-    // Offset: 0x2291930
+    // Offset: 0x22DC1A4
     bool CheckTable(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> table, int reqLen);
   }; // Org.BouncyCastle.Math.EC.Multiplier.WNafUtilities/Org.BouncyCastle.Math.EC.Multiplier.PrecomputeCallback
   #pragma pack(pop)

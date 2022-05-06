@@ -105,28 +105,28 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Int64> <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int64_t>& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int64_t>& dyn_$$t__builder();
     // Get instance field reference: public System.String url
-    ::StringW& dyn_url();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_url();
     // Get instance field reference: private UnityEngine.Ping[] <pings>5__2
-    ::ArrayW<::UnityEngine::Ping*>& dyn_$pings$5__2();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Ping*>& dyn_$pings$5__2();
     // Get instance field reference: private System.Int64 <ping>5__3
-    int64_t& dyn_$ping$5__3();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_$ping$5__3();
     // Get instance field reference: private System.Boolean <found>5__4
-    bool& dyn_$found$5__4();
+    [[deprecated("Use field access instead!")]] bool& dyn_$found$5__4();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Net.IPAddress[]> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::System::Net::IPAddress*>>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::System::Net::IPAddress*>>& dyn_$$u__1();
     // Get instance field reference: private System.Int32 <t>5__5
-    int& dyn_$t$5__5();
+    [[deprecated("Use field access instead!")]] int& dyn_$t$5__5();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__2
-    ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__2();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x25E87C0
+    // Offset: 0x2634DF0
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x25E8C88
+    // Offset: 0x26352B8
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // PingUtility/<PingAsync>d__0
   // WARNING Not writing size check since size may be invalid!

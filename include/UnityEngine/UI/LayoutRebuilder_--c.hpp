@@ -68,35 +68,33 @@ namespace UnityEngine::UI {
     // Set static field: static public UnityEngine.Events.UnityAction`1<UnityEngine.Component> <>9__12_3
     static void _set_$$9__12_3(::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1E7F31C
+    // Offset: 0x1ECD854
     static void _cctor();
-    // System.Void <.cctor>b__5_0(UnityEngine.UI.LayoutRebuilder x)
-    // Offset: 0x1E7F388
-    void $_cctor$b__5_0(::UnityEngine::UI::LayoutRebuilder* x);
-    // System.Boolean <StripDisabledBehavioursFromList>b__10_0(UnityEngine.Component e)
-    // Offset: 0x1E7F3A4
-    bool $StripDisabledBehavioursFromList$b__10_0(::UnityEngine::Component* e);
-    // System.Void <Rebuild>b__12_0(UnityEngine.Component e)
-    // Offset: 0x1E7F438
-    void $Rebuild$b__12_0(::UnityEngine::Component* e);
-    // System.Void <Rebuild>b__12_1(UnityEngine.Component e)
-    // Offset: 0x1E7F504
-    void $Rebuild$b__12_1(::UnityEngine::Component* e);
-    // System.Void <Rebuild>b__12_2(UnityEngine.Component e)
-    // Offset: 0x1E7F5D0
-    void $Rebuild$b__12_2(::UnityEngine::Component* e);
-    // System.Void <Rebuild>b__12_3(UnityEngine.Component e)
-    // Offset: 0x1E7F6A0
-    void $Rebuild$b__12_3(::UnityEngine::Component* e);
     // public System.Void .ctor()
-    // Offset: 0x1E7F380
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1ECD8B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LayoutRebuilder::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::LayoutRebuilder::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LayoutRebuilder::$$c*, creationType>()));
     }
+    // System.Void <.cctor>b__5_0(UnityEngine.UI.LayoutRebuilder x)
+    // Offset: 0x1ECD8C0
+    void $_cctor$b__5_0(::UnityEngine::UI::LayoutRebuilder* x);
+    // System.Boolean <StripDisabledBehavioursFromList>b__10_0(UnityEngine.Component e)
+    // Offset: 0x1ECD8DC
+    bool $StripDisabledBehavioursFromList$b__10_0(::UnityEngine::Component* e);
+    // System.Void <Rebuild>b__12_0(UnityEngine.Component e)
+    // Offset: 0x1ECD970
+    void $Rebuild$b__12_0(::UnityEngine::Component* e);
+    // System.Void <Rebuild>b__12_1(UnityEngine.Component e)
+    // Offset: 0x1ECDA3C
+    void $Rebuild$b__12_1(::UnityEngine::Component* e);
+    // System.Void <Rebuild>b__12_2(UnityEngine.Component e)
+    // Offset: 0x1ECDB08
+    void $Rebuild$b__12_2(::UnityEngine::Component* e);
+    // System.Void <Rebuild>b__12_3(UnityEngine.Component e)
+    // Offset: 0x1ECDBD8
+    void $Rebuild$b__12_3(::UnityEngine::Component* e);
   }; // UnityEngine.UI.LayoutRebuilder/UnityEngine.UI.<>c
   #pragma pack(pop)
 }
@@ -109,6 +107,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::$$c::$_cctor$b__5_0
 // Il2CppName: <.cctor>b__5_0
 template<>
@@ -163,7 +165,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder::$$c*), "<Rebuild>b__12_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

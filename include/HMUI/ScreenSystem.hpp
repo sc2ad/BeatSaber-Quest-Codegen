@@ -49,15 +49,7 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScreenSystem : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.Screen _mainScreen
     // Size: 0x8
     // Offset: 0x18
@@ -124,74 +116,68 @@ namespace HMUI {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.Screen _mainScreen
-    ::HMUI::Screen*& dyn__mainScreen();
+    [[deprecated("Use field access instead!")]] ::HMUI::Screen*& dyn__mainScreen();
     // Get instance field reference: private HMUI.Screen _leftScreen
-    ::HMUI::Screen*& dyn__leftScreen();
+    [[deprecated("Use field access instead!")]] ::HMUI::Screen*& dyn__leftScreen();
     // Get instance field reference: private HMUI.Screen _rightScreen
-    ::HMUI::Screen*& dyn__rightScreen();
+    [[deprecated("Use field access instead!")]] ::HMUI::Screen*& dyn__rightScreen();
     // Get instance field reference: private HMUI.Screen _bottomScreen
-    ::HMUI::Screen*& dyn__bottomScreen();
+    [[deprecated("Use field access instead!")]] ::HMUI::Screen*& dyn__bottomScreen();
     // Get instance field reference: private HMUI.Screen _topScreen
-    ::HMUI::Screen*& dyn__topScreen();
+    [[deprecated("Use field access instead!")]] ::HMUI::Screen*& dyn__topScreen();
     // Get instance field reference: private UnityEngine.UI.Button _backButton
-    ::UnityEngine::UI::Button*& dyn__backButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__backButton();
     // Get instance field reference: private HMUI.TitleViewController _titleViewController
-    ::HMUI::TitleViewController*& dyn__titleViewController();
+    [[deprecated("Use field access instead!")]] ::HMUI::TitleViewController*& dyn__titleViewController();
     // Get instance field reference: private System.Action backButtonWasPressedEvent
-    ::System::Action*& dyn_backButtonWasPressedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_backButtonWasPressedEvent();
     // Get instance field reference: private System.Boolean _backButtonIsVisible
-    bool& dyn__backButtonIsVisible();
+    [[deprecated("Use field access instead!")]] bool& dyn__backButtonIsVisible();
     // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
-    ::HMUI::ButtonBinder*& dyn__buttonBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // public HMUI.TitleViewController get_titleViewController()
-    // Offset: 0x16882C0
+    // Offset: 0x16BEBD0
     ::HMUI::TitleViewController* get_titleViewController();
     // public HMUI.Screen get_mainScreen()
-    // Offset: 0x16882C8
+    // Offset: 0x16BEBD8
     ::HMUI::Screen* get_mainScreen();
     // public HMUI.Screen get_leftScreen()
-    // Offset: 0x16882D0
+    // Offset: 0x16BEBE0
     ::HMUI::Screen* get_leftScreen();
     // public HMUI.Screen get_rightScreen()
-    // Offset: 0x16882D8
+    // Offset: 0x16BEBE8
     ::HMUI::Screen* get_rightScreen();
     // public HMUI.Screen get_bottomScreen()
-    // Offset: 0x16882E0
+    // Offset: 0x16BEBF0
     ::HMUI::Screen* get_bottomScreen();
     // public HMUI.Screen get_topScreen()
-    // Offset: 0x16882E8
+    // Offset: 0x16BEBF8
     ::HMUI::Screen* get_topScreen();
     // public System.Void add_backButtonWasPressedEvent(System.Action value)
-    // Offset: 0x16882F0
+    // Offset: 0x16BEC00
     void add_backButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_backButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1688394
+    // Offset: 0x16BECA4
     void remove_backButtonWasPressedEvent(::System::Action* value);
-    // private System.Void Awake()
-    // Offset: 0x1688438
-    void Awake();
-    // private System.Void OnDestroy()
-    // Offset: 0x16884E8
-    void OnDestroy();
-    // public System.Void SetBackButton(System.Boolean visible, System.Boolean animated)
-    // Offset: 0x1688504
-    void SetBackButton(bool visible, bool animated);
-    // private System.Void <Awake>b__24_0()
-    // Offset: 0x1688548
-    void $Awake$b__24_0();
     // public System.Void .ctor()
-    // Offset: 0x1688540
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16BEE50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScreenSystem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ScreenSystem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScreenSystem*, creationType>()));
     }
+    // private System.Void Awake()
+    // Offset: 0x16BED48
+    void Awake();
+    // private System.Void OnDestroy()
+    // Offset: 0x16BEDF8
+    void OnDestroy();
+    // public System.Void SetBackButton(System.Boolean visible, System.Boolean animated)
+    // Offset: 0x16BEE14
+    void SetBackButton(bool visible, bool animated);
+    // private System.Void <Awake>b__24_0()
+    // Offset: 0x16BEE58
+    void $Awake$b__24_0();
   }; // HMUI.ScreenSystem
   #pragma pack(pop)
   static check_size<sizeof(ScreenSystem), 96 + sizeof(::HMUI::ButtonBinder*)> __HMUI_ScreenSystemSizeCheck;
@@ -264,6 +250,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::ScreenSystem*), "remove_backButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: HMUI::ScreenSystem::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::ScreenSystem::Awake
 // Il2CppName: Awake
 template<>
@@ -298,7 +288,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::ScreenSystem*), "<Awake>b__24_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HMUI::ScreenSystem::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

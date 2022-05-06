@@ -62,15 +62,7 @@ namespace Zenject {
     class $$c__DisplayClass6_0;
     // Nested type: ::Zenject::SubContainerPrefabBindingFinalizer::$$c__DisplayClass6_1
     class $$c__DisplayClass6_1;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Object _subIdentifier
     // Size: 0x8
     // Offset: 0x18
@@ -95,26 +87,26 @@ namespace Zenject {
     // Deleting conversion operator: operator ::Zenject::BindInfo*
     constexpr operator ::Zenject::BindInfo*() const noexcept = delete;
     // Get instance field reference: private readonly System.Object _subIdentifier
-    ::Il2CppObject*& dyn__subIdentifier();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__subIdentifier();
     // Get instance field reference: private readonly System.Boolean _resolveAll
-    bool& dyn__resolveAll();
+    [[deprecated("Use field access instead!")]] bool& dyn__resolveAll();
     // Get instance field reference: private readonly System.Func`2<Zenject.DiContainer,Zenject.ISubContainerCreator> _subContainerCreatorFactory
-    ::System::Func_2<::Zenject::DiContainer*, ::Zenject::ISubContainerCreator*>*& dyn__subContainerCreatorFactory();
+    [[deprecated("Use field access instead!")]] ::System::Func_2<::Zenject::DiContainer*, ::Zenject::ISubContainerCreator*>*& dyn__subContainerCreatorFactory();
     // public System.Void .ctor(Zenject.BindInfo bindInfo, System.Object subIdentifier, System.Boolean resolveAll, System.Func`2<Zenject.DiContainer,Zenject.ISubContainerCreator> subContainerCreatorFactory)
-    // Offset: 0x1CE3628
+    // Offset: 0x1D1EB80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerPrefabBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo, ::Il2CppObject* subIdentifier, bool resolveAll, ::System::Func_2<::Zenject::DiContainer*, ::Zenject::ISubContainerCreator*>* subContainerCreatorFactory) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SubContainerPrefabBindingFinalizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerPrefabBindingFinalizer*, creationType>(bindInfo, subIdentifier, resolveAll, subContainerCreatorFactory)));
     }
     // private System.Void FinalizeBindingConcrete(Zenject.DiContainer container, System.Collections.Generic.List`1<System.Type> concreteTypes)
-    // Offset: 0x1CE9290
+    // Offset: 0x1D247E8
     void FinalizeBindingConcrete(::Zenject::DiContainer* container, ::System::Collections::Generic::List_1<::System::Type*>* concreteTypes);
     // private System.Void FinalizeBindingSelf(Zenject.DiContainer container)
-    // Offset: 0x1CE90E8
+    // Offset: 0x1D24640
     void FinalizeBindingSelf(::Zenject::DiContainer* container);
     // protected override System.Void OnFinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0x1CE9050
+    // Offset: 0x1D245A8
     // Implemented from: Zenject.ProviderBindingFinalizer
     // Base method: System.Void ProviderBindingFinalizer::OnFinalizeBinding(Zenject.DiContainer container)
     void OnFinalizeBinding(::Zenject::DiContainer* container);

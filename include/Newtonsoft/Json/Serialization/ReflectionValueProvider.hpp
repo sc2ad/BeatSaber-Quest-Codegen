@@ -36,15 +36,7 @@ namespace Newtonsoft::Json::Serialization {
   // [PreserveAttribute] Offset: FFFFFFFF
   class ReflectionValueProvider : public ::Il2CppObject/*, public ::Newtonsoft::Json::Serialization::IValueProvider*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Reflection.MemberInfo _memberInfo
     // Size: 0x8
     // Offset: 0x10
@@ -61,19 +53,19 @@ namespace Newtonsoft::Json::Serialization {
       return memberInfo;
     }
     // Get instance field reference: private readonly System.Reflection.MemberInfo _memberInfo
-    ::System::Reflection::MemberInfo*& dyn__memberInfo();
+    [[deprecated("Use field access instead!")]] ::System::Reflection::MemberInfo*& dyn__memberInfo();
     // public System.Void .ctor(System.Reflection.MemberInfo memberInfo)
-    // Offset: 0x203BAE0
+    // Offset: 0x2085354
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionValueProvider* New_ctor(::System::Reflection::MemberInfo* memberInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::ReflectionValueProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionValueProvider*, creationType>(memberInfo)));
     }
     // public System.Void SetValue(System.Object target, System.Object value)
-    // Offset: 0x203BB50
+    // Offset: 0x20853C4
     void SetValue(::Il2CppObject* target, ::Il2CppObject* value);
     // public System.Object GetValue(System.Object target)
-    // Offset: 0x203BFD4
+    // Offset: 0x2085848
     ::Il2CppObject* GetValue(::Il2CppObject* target);
   }; // Newtonsoft.Json.Serialization.ReflectionValueProvider
   #pragma pack(pop)

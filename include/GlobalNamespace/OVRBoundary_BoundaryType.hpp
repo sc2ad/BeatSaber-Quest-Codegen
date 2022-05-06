@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRBoundary/BoundaryType PlayArea
     static void _set_PlayArea(::GlobalNamespace::OVRBoundary::BoundaryType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVRBoundary/BoundaryType
   #pragma pack(pop)
   static check_size<sizeof(OVRBoundary::BoundaryType), 0 + sizeof(int)> __GlobalNamespace_OVRBoundary_BoundaryTypeSizeCheck;

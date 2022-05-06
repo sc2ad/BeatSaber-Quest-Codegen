@@ -50,15 +50,7 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class SubContainerCreatorByInstanceGetter : public ::Il2CppObject/*, public ::Zenject::ISubContainerCreator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Func`2<Zenject.InjectContext,Zenject.DiContainer> _subcontainerGetter
     // Size: 0x8
     // Offset: 0x10
@@ -75,16 +67,16 @@ namespace Zenject {
       return subcontainerGetter;
     }
     // Get instance field reference: private readonly System.Func`2<Zenject.InjectContext,Zenject.DiContainer> _subcontainerGetter
-    ::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>*& dyn__subcontainerGetter();
+    [[deprecated("Use field access instead!")]] ::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>*& dyn__subcontainerGetter();
     // public System.Void .ctor(System.Func`2<Zenject.InjectContext,Zenject.DiContainer> subcontainerGetter)
-    // Offset: 0x1CE5E60
+    // Offset: 0x1D213B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorByInstanceGetter* New_ctor(::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>* subcontainerGetter) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SubContainerCreatorByInstanceGetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorByInstanceGetter*, creationType>(subcontainerGetter)));
     }
     // public Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)
-    // Offset: 0x1CE7464
+    // Offset: 0x1D229BC
     ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
   }; // Zenject.SubContainerCreatorByInstanceGetter
   #pragma pack(pop)

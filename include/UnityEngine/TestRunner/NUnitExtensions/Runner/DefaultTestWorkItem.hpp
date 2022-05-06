@@ -55,15 +55,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     public:
     // Nested type: ::UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem::$PerformWork$d__2
     class $PerformWork$d__2;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private NUnit.Framework.Internal.Commands.TestCommand _command
     // Size: 0x8
     // Offset: 0x58
@@ -76,16 +68,16 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
       return command;
     }
     // Get instance field reference: private NUnit.Framework.Internal.Commands.TestCommand _command
-    ::NUnit::Framework::Internal::Commands::TestCommand*& dyn__command();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::Commands::TestCommand*& dyn__command();
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod test, NUnit.Framework.Interfaces.ITestFilter filter)
-    // Offset: 0x193ED3C
+    // Offset: 0x19769A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultTestWorkItem* New_ctor(::NUnit::Framework::Internal::TestMethod* test, ::NUnit::Framework::Interfaces::ITestFilter* filter) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultTestWorkItem*, creationType>(test, filter)));
     }
     // protected override System.Collections.IEnumerable PerformWork()
-    // Offset: 0x193ED80
+    // Offset: 0x19769E8
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem
     // Base method: System.Collections.IEnumerable UnityWorkItem::PerformWork()
     ::System::Collections::IEnumerable* PerformWork();

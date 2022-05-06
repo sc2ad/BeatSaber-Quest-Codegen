@@ -89,15 +89,7 @@ namespace LiteNetLib {
     public:
     // Nested type: ::LiteNetLib::NetPeer::IncomingFragments
     class IncomingFragments;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _rtt
     // Size: 0x4
     // Offset: 0x10
@@ -410,246 +402,246 @@ namespace LiteNetLib {
     // Set static field: static private System.Int32 ShutdownDelay
     static void _set_ShutdownDelay(int value);
     // Get instance field reference: private System.Int32 _rtt
-    int& dyn__rtt();
+    [[deprecated("Use field access instead!")]] int& dyn__rtt();
     // Get instance field reference: private System.Int32 _avgRtt
-    int& dyn__avgRtt();
+    [[deprecated("Use field access instead!")]] int& dyn__avgRtt();
     // Get instance field reference: private System.Int32 _rttCount
-    int& dyn__rttCount();
+    [[deprecated("Use field access instead!")]] int& dyn__rttCount();
     // Get instance field reference: private System.Double _resendDelay
-    double& dyn__resendDelay();
+    [[deprecated("Use field access instead!")]] double& dyn__resendDelay();
     // Get instance field reference: private System.Int32 _pingSendTimer
-    int& dyn__pingSendTimer();
+    [[deprecated("Use field access instead!")]] int& dyn__pingSendTimer();
     // Get instance field reference: private System.Int32 _rttResetTimer
-    int& dyn__rttResetTimer();
+    [[deprecated("Use field access instead!")]] int& dyn__rttResetTimer();
     // Get instance field reference: private readonly System.Diagnostics.Stopwatch _pingTimer
-    ::System::Diagnostics::Stopwatch*& dyn__pingTimer();
+    [[deprecated("Use field access instead!")]] ::System::Diagnostics::Stopwatch*& dyn__pingTimer();
     // Get instance field reference: private System.Int32 _timeSinceLastPacket
-    int& dyn__timeSinceLastPacket();
+    [[deprecated("Use field access instead!")]] int& dyn__timeSinceLastPacket();
     // Get instance field reference: private System.Int64 _remoteDelta
-    int64_t& dyn__remoteDelta();
+    [[deprecated("Use field access instead!")]] int64_t& dyn__remoteDelta();
     // Get instance field reference: private readonly LiteNetLib.NetPacketPool _packetPool
-    ::LiteNetLib::NetPacketPool*& dyn__packetPool();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetPacketPool*& dyn__packetPool();
     // Get instance field reference: private readonly System.Object _flushLock
-    ::Il2CppObject*& dyn__flushLock();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__flushLock();
     // Get instance field reference: private readonly System.Object _sendLock
-    ::Il2CppObject*& dyn__sendLock();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__sendLock();
     // Get instance field reference: private readonly System.Object _shutdownLock
-    ::Il2CppObject*& dyn__shutdownLock();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__shutdownLock();
     // Get instance field reference: LiteNetLib.NetPeer NextPeer
-    ::LiteNetLib::NetPeer*& dyn_NextPeer();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetPeer*& dyn_NextPeer();
     // Get instance field reference: LiteNetLib.NetPeer PrevPeer
-    ::LiteNetLib::NetPeer*& dyn_PrevPeer();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetPeer*& dyn_PrevPeer();
     // Get instance field reference: private readonly System.Collections.Generic.Queue`1<LiteNetLib.NetPacket> _unreliableChannel
-    ::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>*& dyn__unreliableChannel();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>*& dyn__unreliableChannel();
     // Get instance field reference: private readonly LiteNetLib.BaseChannel[] _channels
-    ::ArrayW<::LiteNetLib::BaseChannel*>& dyn__channels();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::LiteNetLib::BaseChannel*>& dyn__channels();
     // Get instance field reference: private LiteNetLib.BaseChannel _headChannel
-    ::LiteNetLib::BaseChannel*& dyn__headChannel();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::BaseChannel*& dyn__headChannel();
     // Get instance field reference: private System.Int32 _mtu
-    int& dyn__mtu();
+    [[deprecated("Use field access instead!")]] int& dyn__mtu();
     // Get instance field reference: private System.Int32 _mtuIdx
-    int& dyn__mtuIdx();
+    [[deprecated("Use field access instead!")]] int& dyn__mtuIdx();
     // Get instance field reference: private System.Boolean _finishMtu
-    bool& dyn__finishMtu();
+    [[deprecated("Use field access instead!")]] bool& dyn__finishMtu();
     // Get instance field reference: private System.Int32 _mtuCheckTimer
-    int& dyn__mtuCheckTimer();
+    [[deprecated("Use field access instead!")]] int& dyn__mtuCheckTimer();
     // Get instance field reference: private System.Int32 _mtuCheckAttempts
-    int& dyn__mtuCheckAttempts();
+    [[deprecated("Use field access instead!")]] int& dyn__mtuCheckAttempts();
     // Get instance field reference: private readonly System.Object _mtuMutex
-    ::Il2CppObject*& dyn__mtuMutex();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__mtuMutex();
     // Get instance field reference: private System.UInt16 _fragmentId
-    uint16_t& dyn__fragmentId();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn__fragmentId();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.UInt16,LiteNetLib.NetPeer/LiteNetLib.IncomingFragments> _holdedFragments
-    ::System::Collections::Generic::Dictionary_2<uint16_t, ::LiteNetLib::NetPeer::IncomingFragments*>*& dyn__holdedFragments();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<uint16_t, ::LiteNetLib::NetPeer::IncomingFragments*>*& dyn__holdedFragments();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.UInt16,System.UInt16> _deliveredFramgnets
-    ::System::Collections::Generic::Dictionary_2<uint16_t, uint16_t>*& dyn__deliveredFramgnets();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<uint16_t, uint16_t>*& dyn__deliveredFramgnets();
     // Get instance field reference: private readonly LiteNetLib.NetPacket _mergeData
-    ::LiteNetLib::NetPacket*& dyn__mergeData();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetPacket*& dyn__mergeData();
     // Get instance field reference: private System.Int32 _mergePos
-    int& dyn__mergePos();
+    [[deprecated("Use field access instead!")]] int& dyn__mergePos();
     // Get instance field reference: private System.Int32 _mergeCount
-    int& dyn__mergeCount();
+    [[deprecated("Use field access instead!")]] int& dyn__mergeCount();
     // Get instance field reference: private System.Int32 _connectAttempts
-    int& dyn__connectAttempts();
+    [[deprecated("Use field access instead!")]] int& dyn__connectAttempts();
     // Get instance field reference: private System.Int32 _connectTimer
-    int& dyn__connectTimer();
+    [[deprecated("Use field access instead!")]] int& dyn__connectTimer();
     // Get instance field reference: private System.Int64 _connectTime
-    int64_t& dyn__connectTime();
+    [[deprecated("Use field access instead!")]] int64_t& dyn__connectTime();
     // Get instance field reference: private System.Byte _connectNum
-    uint8_t& dyn__connectNum();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn__connectNum();
     // Get instance field reference: private LiteNetLib.ConnectionState _connectionState
-    ::LiteNetLib::ConnectionState& dyn__connectionState();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::ConnectionState& dyn__connectionState();
     // Get instance field reference: private LiteNetLib.NetPacket _shutdownPacket
-    ::LiteNetLib::NetPacket*& dyn__shutdownPacket();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetPacket*& dyn__shutdownPacket();
     // Get instance field reference: private System.Int32 _shutdownTimer
-    int& dyn__shutdownTimer();
+    [[deprecated("Use field access instead!")]] int& dyn__shutdownTimer();
     // Get instance field reference: private readonly LiteNetLib.NetPacket _pingPacket
-    ::LiteNetLib::NetPacket*& dyn__pingPacket();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetPacket*& dyn__pingPacket();
     // Get instance field reference: private readonly LiteNetLib.NetPacket _pongPacket
-    ::LiteNetLib::NetPacket*& dyn__pongPacket();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetPacket*& dyn__pongPacket();
     // Get instance field reference: private readonly LiteNetLib.NetPacket _connectRequestPacket
-    ::LiteNetLib::NetPacket*& dyn__connectRequestPacket();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetPacket*& dyn__connectRequestPacket();
     // Get instance field reference: private readonly LiteNetLib.NetPacket _connectAcceptPacket
-    ::LiteNetLib::NetPacket*& dyn__connectAcceptPacket();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetPacket*& dyn__connectAcceptPacket();
     // Get instance field reference: public readonly System.Net.IPEndPoint EndPoint
-    ::System::Net::IPEndPoint*& dyn_EndPoint();
+    [[deprecated("Use field access instead!")]] ::System::Net::IPEndPoint*& dyn_EndPoint();
     // Get instance field reference: public readonly LiteNetLib.NetManager NetManager
-    ::LiteNetLib::NetManager*& dyn_NetManager();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetManager*& dyn_NetManager();
     // Get instance field reference: public readonly System.Int32 Id
-    int& dyn_Id();
+    [[deprecated("Use field access instead!")]] int& dyn_Id();
     // Get instance field reference: public System.Object Tag
-    ::Il2CppObject*& dyn_Tag();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_Tag();
     // Get instance field reference: public readonly LiteNetLib.NetStatistics Statistics
-    ::LiteNetLib::NetStatistics*& dyn_Statistics();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetStatistics*& dyn_Statistics();
     // System.Byte get_ConnectionNum()
-    // Offset: 0x216B980
+    // Offset: 0x21B71F4
     uint8_t get_ConnectionNum();
     // private System.Void set_ConnectionNum(System.Byte value)
-    // Offset: 0x216B988
+    // Offset: 0x21B71FC
     void set_ConnectionNum(uint8_t value);
     // public LiteNetLib.ConnectionState get_ConnectionState()
-    // Offset: 0x216B9D8
+    // Offset: 0x21B724C
     ::LiteNetLib::ConnectionState get_ConnectionState();
     // System.Int64 get_ConnectTime()
-    // Offset: 0x216B9E0
+    // Offset: 0x21B7254
     int64_t get_ConnectTime();
     // public System.Int32 get_Ping()
-    // Offset: 0x216B9E8
+    // Offset: 0x21B725C
     int get_Ping();
     // public System.Int32 get_Mtu()
-    // Offset: 0x216B9FC
+    // Offset: 0x21B7270
     int get_Mtu();
     // public System.Int64 get_RemoteTimeDelta()
-    // Offset: 0x216BA04
+    // Offset: 0x21B7278
     int64_t get_RemoteTimeDelta();
     // public System.DateTime get_RemoteUtcTime()
-    // Offset: 0x216BA0C
+    // Offset: 0x21B7280
     ::System::DateTime get_RemoteUtcTime();
     // public System.Int32 get_TimeSinceLastPacket()
-    // Offset: 0x216BAAC
+    // Offset: 0x21B7320
     int get_TimeSinceLastPacket();
     // System.Double get_ResendDelay()
-    // Offset: 0x216BAB4
+    // Offset: 0x21B7328
     double get_ResendDelay();
     // System.Void .ctor(LiteNetLib.NetManager netManager, System.Net.IPEndPoint remoteEndPoint, System.Int32 id)
-    // Offset: 0x2167F54
+    // Offset: 0x21B37C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPeer* New_ctor(::LiteNetLib::NetManager* netManager, ::System::Net::IPEndPoint* remoteEndPoint, int id) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetPeer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPeer*, creationType>(netManager, remoteEndPoint, id)));
     }
     // System.Void .ctor(LiteNetLib.NetManager netManager, System.Net.IPEndPoint remoteEndPoint, System.Int32 id, System.Byte connectNum, LiteNetLib.Utils.NetDataWriter connectData)
-    // Offset: 0x216AB60
+    // Offset: 0x21B63D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPeer* New_ctor(::LiteNetLib::NetManager* netManager, ::System::Net::IPEndPoint* remoteEndPoint, int id, uint8_t connectNum, ::LiteNetLib::Utils::NetDataWriter* connectData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetPeer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPeer*, creationType>(netManager, remoteEndPoint, id, connectNum, connectData)));
     }
     // System.Void .ctor(LiteNetLib.NetManager netManager, System.Net.IPEndPoint remoteEndPoint, System.Int32 id, System.Int64 connectId, System.Byte connectNum)
-    // Offset: 0x21681F0
+    // Offset: 0x21B3A64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPeer* New_ctor(::LiteNetLib::NetManager* netManager, ::System::Net::IPEndPoint* remoteEndPoint, int id, int64_t connectId, uint8_t connectNum) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetPeer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPeer*, creationType>(netManager, remoteEndPoint, id, connectId, connectNum)));
     }
     // private System.Void SetMtu(System.Int32 mtuIdx)
-    // Offset: 0x216BABC
+    // Offset: 0x21B7330
     void SetMtu(int mtuIdx);
     // public System.Int32 GetPacketsCountInReliableQueue(System.Byte channelNumber, System.Boolean ordered)
-    // Offset: 0x216BB80
+    // Offset: 0x21B73F4
     int GetPacketsCountInReliableQueue(uint8_t channelNumber, bool ordered);
     // private LiteNetLib.BaseChannel CreateChannel(System.Byte idx)
-    // Offset: 0x216BC40
+    // Offset: 0x21B74B4
     ::LiteNetLib::BaseChannel* CreateChannel(uint8_t idx);
     // System.Void Reject(System.Int64 connectionId, System.Byte connectionNumber, System.Byte[] data, System.Int32 start, System.Int32 length)
-    // Offset: 0x21681D4
+    // Offset: 0x21B3A48
     void Reject(int64_t connectionId, uint8_t connectionNumber, ::ArrayW<uint8_t> data, int start, int length);
     // System.Boolean ProcessConnectAccept(LiteNetLib.NetConnectAcceptPacket packet)
-    // Offset: 0x2168990
+    // Offset: 0x21B4204
     bool ProcessConnectAccept(::LiteNetLib::NetConnectAcceptPacket* packet);
     // public System.Int32 GetMaxSinglePacketSize(LiteNetLib.DeliveryMethod options)
-    // Offset: 0x216BFF0
+    // Offset: 0x21B7864
     int GetMaxSinglePacketSize(::LiteNetLib::DeliveryMethod options);
     // public System.Void SendWithDeliveryEvent(System.Byte[] data, System.Byte channelNumber, LiteNetLib.DeliveryMethod deliveryMethod, System.Object userData)
-    // Offset: 0x216C074
+    // Offset: 0x21B78E8
     void SendWithDeliveryEvent(::ArrayW<uint8_t> data, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod, ::Il2CppObject* userData);
     // public System.Void SendWithDeliveryEvent(System.Byte[] data, System.Int32 start, System.Int32 length, System.Byte channelNumber, LiteNetLib.DeliveryMethod deliveryMethod, System.Object userData)
-    // Offset: 0x216C634
+    // Offset: 0x21B7EA8
     void SendWithDeliveryEvent(::ArrayW<uint8_t> data, int start, int length, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod, ::Il2CppObject* userData);
     // public System.Void SendWithDeliveryEvent(LiteNetLib.Utils.NetDataWriter dataWriter, System.Byte channelNumber, LiteNetLib.DeliveryMethod deliveryMethod, System.Object userData)
-    // Offset: 0x216C70C
+    // Offset: 0x21B7F80
     void SendWithDeliveryEvent(::LiteNetLib::Utils::NetDataWriter* dataWriter, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod, ::Il2CppObject* userData);
     // public System.Void Send(System.Byte[] data, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x216C7DC
+    // Offset: 0x21B8050
     void Send(::ArrayW<uint8_t> data, ::LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void Send(LiteNetLib.Utils.NetDataWriter dataWriter, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x216C804
+    // Offset: 0x21B8078
     void Send(::LiteNetLib::Utils::NetDataWriter* dataWriter, ::LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void Send(System.Byte[] data, System.Int32 start, System.Int32 length, LiteNetLib.DeliveryMethod options)
-    // Offset: 0x216C834
+    // Offset: 0x21B80A8
     void Send(::ArrayW<uint8_t> data, int start, int length, ::LiteNetLib::DeliveryMethod options);
     // public System.Void Send(System.Byte[] data, System.Byte channelNumber, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x216C844
+    // Offset: 0x21B80B8
     void Send(::ArrayW<uint8_t> data, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void Send(LiteNetLib.Utils.NetDataWriter dataWriter, System.Byte channelNumber, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x216C86C
+    // Offset: 0x21B80E0
     void Send(::LiteNetLib::Utils::NetDataWriter* dataWriter, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void Send(System.Byte[] data, System.Int32 start, System.Int32 length, System.Byte channelNumber, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x2169380
+    // Offset: 0x21B4BF4
     void Send(::ArrayW<uint8_t> data, int start, int length, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod);
     // private System.Void SendInternal(System.Byte[] data, System.Int32 start, System.Int32 length, System.Byte channelNumber, LiteNetLib.DeliveryMethod deliveryMethod, System.Object userData)
-    // Offset: 0x216C144
+    // Offset: 0x21B79B8
     void SendInternal(::ArrayW<uint8_t> data, int start, int length, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod, ::Il2CppObject* userData);
     // public System.Void Disconnect(System.Byte[] data)
-    // Offset: 0x216C8A4
+    // Offset: 0x21B8118
     void Disconnect(::ArrayW<uint8_t> data);
     // public System.Void Disconnect(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x216C8C8
+    // Offset: 0x21B813C
     void Disconnect(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Disconnect(System.Byte[] data, System.Int32 start, System.Int32 count)
-    // Offset: 0x216C8EC
+    // Offset: 0x21B8160
     void Disconnect(::ArrayW<uint8_t> data, int start, int count);
     // public System.Void Disconnect()
-    // Offset: 0x216C938
+    // Offset: 0x21B81AC
     void Disconnect();
     // LiteNetLib.DisconnectResult ProcessDisconnect(LiteNetLib.NetPacket packet)
-    // Offset: 0x21688AC
+    // Offset: 0x21B4120
     ::LiteNetLib::DisconnectResult ProcessDisconnect(::LiteNetLib::NetPacket* packet);
     // LiteNetLib.ShutdownResult Shutdown(System.Byte[] data, System.Int32 start, System.Int32 length, System.Boolean force)
-    // Offset: 0x21666AC
+    // Offset: 0x21B1F20
     ::LiteNetLib::ShutdownResult Shutdown(::ArrayW<uint8_t> data, int start, int length, bool force);
     // private System.Void UpdateRoundTripTime(System.Int32 roundTripTime)
-    // Offset: 0x216C980
+    // Offset: 0x21B81F4
     void UpdateRoundTripTime(int roundTripTime);
     // System.Void AddReliablePacket(LiteNetLib.DeliveryMethod method, LiteNetLib.NetPacket p)
-    // Offset: 0x216C9BC
+    // Offset: 0x21B8230
     void AddReliablePacket(::LiteNetLib::DeliveryMethod method, ::LiteNetLib::NetPacket* p);
     // private System.Void ProcessMtuPacket(LiteNetLib.NetPacket packet)
-    // Offset: 0x216CDBC
+    // Offset: 0x21B8630
     void ProcessMtuPacket(::LiteNetLib::NetPacket* packet);
     // private System.Void UpdateMtuLogic(System.Int32 deltaTime)
-    // Offset: 0x216D178
+    // Offset: 0x21B89EC
     void UpdateMtuLogic(int deltaTime);
     // LiteNetLib.ConnectRequestResult ProcessConnectRequest(LiteNetLib.NetConnectRequestPacket connRequest)
-    // Offset: 0x2168518
+    // Offset: 0x21B3D8C
     ::LiteNetLib::ConnectRequestResult ProcessConnectRequest(::LiteNetLib::NetConnectRequestPacket* connRequest);
     // System.Void ProcessPacket(LiteNetLib.NetPacket packet)
-    // Offset: 0x2168A00
+    // Offset: 0x21B4274
     void ProcessPacket(::LiteNetLib::NetPacket* packet);
     // private System.Void SendMerged()
-    // Offset: 0x216D3D4
+    // Offset: 0x21B8C48
     void SendMerged();
     // System.Void SendUserData(LiteNetLib.NetPacket packet)
-    // Offset: 0x216D478
+    // Offset: 0x21B8CEC
     void SendUserData(::LiteNetLib::NetPacket* packet);
     // public System.Void Flush()
-    // Offset: 0x216A3E4
+    // Offset: 0x21B5C58
     void Flush();
     // System.Void Update(System.Int32 deltaTime)
-    // Offset: 0x216724C
+    // Offset: 0x21B2AC0
     void Update(int deltaTime);
     // System.Void RecycleAndDeliver(LiteNetLib.NetPacket packet)
-    // Offset: 0x216D598
+    // Offset: 0x21B8E0C
     void RecycleAndDeliver(::LiteNetLib::NetPacket* packet);
   }; // LiteNetLib.NetPeer
   #pragma pack(pop)

@@ -34,15 +34,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OculusPlatformLeaderboardsHandler::$$c__DisplayClass6_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public OculusPlatformLeaderboardsHandler <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -57,27 +49,29 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*) == 0x8);
     public:
     // Get instance field reference: public OculusPlatformLeaderboardsHandler <>4__this
-    ::GlobalNamespace::OculusPlatformLeaderboardsHandler*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OculusPlatformLeaderboardsHandler*& dyn_$$4__this();
     // Get instance field reference: public PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler
-    ::GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*& dyn_completionHandler();
-    // System.Void <UploadScore>b__0(Oculus.Platform.Message`1<System.Boolean> messsage)
-    // Offset: 0x1516F28
-    void $UploadScore$b__0(::Oculus::Platform::Message_1<bool>* messsage);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*& dyn_completionHandler();
     // public System.Void .ctor()
-    // Offset: 0x1516B74
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x154E47C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusPlatformLeaderboardsHandler::$$c__DisplayClass6_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c__DisplayClass6_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusPlatformLeaderboardsHandler::$$c__DisplayClass6_0*, creationType>()));
     }
+    // System.Void <UploadScore>b__0(Oculus.Platform.Message`1<System.Boolean> messsage)
+    // Offset: 0x154E830
+    void $UploadScore$b__0(::Oculus::Platform::Message_1<bool>* messsage);
   }; // OculusPlatformLeaderboardsHandler/<>c__DisplayClass6_0
   #pragma pack(pop)
   static check_size<sizeof(OculusPlatformLeaderboardsHandler::$$c__DisplayClass6_0), 24 + sizeof(::GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*)> __GlobalNamespace_OculusPlatformLeaderboardsHandler_$$c__DisplayClass6_0SizeCheck;
   static_assert(sizeof(OculusPlatformLeaderboardsHandler::$$c__DisplayClass6_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c__DisplayClass6_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c__DisplayClass6_0::$UploadScore$b__0
 // Il2CppName: <UploadScore>b__0
 template<>
@@ -87,7 +81,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c__DisplayClass6_0*), "<UploadScore>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{messsage});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c__DisplayClass6_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

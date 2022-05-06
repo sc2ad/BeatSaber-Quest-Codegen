@@ -43,15 +43,7 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class ChallengeOptions : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.IntPtr Handle
     // Size: 0x8
     // Offset: 0x10
@@ -64,51 +56,49 @@ namespace Oculus::Platform {
       return Handle;
     }
     // Get instance field reference: private System.IntPtr Handle
-    ::System::IntPtr& dyn_Handle();
-    // public System.Void SetDescription(System.String value)
-    // Offset: 0x199E420
-    void SetDescription(::StringW value);
-    // public System.Void SetEndDate(System.DateTime value)
-    // Offset: 0x199E49C
-    void SetEndDate(::System::DateTime value);
-    // public System.Void SetIncludeActiveChallenges(System.Boolean value)
-    // Offset: 0x199E518
-    void SetIncludeActiveChallenges(bool value);
-    // public System.Void SetIncludeFutureChallenges(System.Boolean value)
-    // Offset: 0x199E594
-    void SetIncludeFutureChallenges(bool value);
-    // public System.Void SetIncludePastChallenges(System.Boolean value)
-    // Offset: 0x199E610
-    void SetIncludePastChallenges(bool value);
-    // public System.Void SetLeaderboardName(System.String value)
-    // Offset: 0x199E68C
-    void SetLeaderboardName(::StringW value);
-    // public System.Void SetStartDate(System.DateTime value)
-    // Offset: 0x199E708
-    void SetStartDate(::System::DateTime value);
-    // public System.Void SetTitle(System.String value)
-    // Offset: 0x199E784
-    void SetTitle(::StringW value);
-    // public System.Void SetViewerFilter(Oculus.Platform.ChallengeViewerFilter value)
-    // Offset: 0x199E800
-    void SetViewerFilter(::Oculus::Platform::ChallengeViewerFilter value);
-    // public System.Void SetVisibility(Oculus.Platform.ChallengeVisibility value)
-    // Offset: 0x199E87C
-    void SetVisibility(::Oculus::Platform::ChallengeVisibility value);
-    // static public System.IntPtr op_Explicit(Oculus.Platform.ChallengeOptions options)
-    // Offset: 0x199E8F8
-    // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Handle();
     // public System.Void .ctor()
-    // Offset: 0x199E3A8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x19D7990
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChallengeOptions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::ChallengeOptions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChallengeOptions*, creationType>()));
     }
+    // public System.Void SetDescription(System.String value)
+    // Offset: 0x19D7A08
+    void SetDescription(::StringW value);
+    // public System.Void SetEndDate(System.DateTime value)
+    // Offset: 0x19D7A84
+    void SetEndDate(::System::DateTime value);
+    // public System.Void SetIncludeActiveChallenges(System.Boolean value)
+    // Offset: 0x19D7B00
+    void SetIncludeActiveChallenges(bool value);
+    // public System.Void SetIncludeFutureChallenges(System.Boolean value)
+    // Offset: 0x19D7B7C
+    void SetIncludeFutureChallenges(bool value);
+    // public System.Void SetIncludePastChallenges(System.Boolean value)
+    // Offset: 0x19D7BF8
+    void SetIncludePastChallenges(bool value);
+    // public System.Void SetLeaderboardName(System.String value)
+    // Offset: 0x19D7C74
+    void SetLeaderboardName(::StringW value);
+    // public System.Void SetStartDate(System.DateTime value)
+    // Offset: 0x19D7CF0
+    void SetStartDate(::System::DateTime value);
+    // public System.Void SetTitle(System.String value)
+    // Offset: 0x19D7D6C
+    void SetTitle(::StringW value);
+    // public System.Void SetViewerFilter(Oculus.Platform.ChallengeViewerFilter value)
+    // Offset: 0x19D7DE8
+    void SetViewerFilter(::Oculus::Platform::ChallengeViewerFilter value);
+    // public System.Void SetVisibility(Oculus.Platform.ChallengeVisibility value)
+    // Offset: 0x19D7E64
+    void SetVisibility(::Oculus::Platform::ChallengeVisibility value);
+    // static public System.IntPtr op_Explicit(Oculus.Platform.ChallengeOptions options)
+    // Offset: 0x19D7EE0
+    // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
     // protected override System.Void Finalize()
-    // Offset: 0x199E948
+    // Offset: 0x19D7F30
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -118,6 +108,10 @@ namespace Oculus::Platform {
   static_assert(sizeof(ChallengeOptions) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Oculus::Platform::ChallengeOptions::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::ChallengeOptions::SetDescription
 // Il2CppName: SetDescription
 template<>
@@ -211,10 +205,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::ChallengeOptions::operator ::System::IntPtr
 // Il2CppName: op_Explicit
 // Cannot perform method pointer template specialization from operators!
-// Writing MetadataGetter for method: Oculus::Platform::ChallengeOptions::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::ChallengeOptions::Finalize
 // Il2CppName: Finalize
 template<>

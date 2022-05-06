@@ -42,15 +42,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestResultRendererCallback : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer m_ResultRenderer
     // Size: 0x8
     // Offset: 0x18
@@ -61,41 +53,39 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer m_ResultRenderer
-    ::UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer*& dyn_m_ResultRenderer();
-    // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
-    // Offset: 0x1950140
-    void RunStarted(::NUnit::Framework::Interfaces::ITest* testsToRun);
-    // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0x1950144
-    void RunFinished(::NUnit::Framework::Interfaces::ITestResult* testResults);
-    // public System.Void OnGUI()
-    // Offset: 0x195022C
-    void OnGUI();
-    // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x195023C
-    void TestStarted(::NUnit::Framework::Interfaces::ITest* test);
-    // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x1950240
-    void TestFinished(::NUnit::Framework::Interfaces::ITestResult* result);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer*& dyn_m_ResultRenderer();
     // public System.Void .ctor()
-    // Offset: 0x1950244
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1987C14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestResultRendererCallback* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::Callbacks::TestResultRendererCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestResultRendererCallback*, creationType>()));
     }
+    // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
+    // Offset: 0x1987B10
+    void RunStarted(::NUnit::Framework::Interfaces::ITest* testsToRun);
+    // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
+    // Offset: 0x1987B14
+    void RunFinished(::NUnit::Framework::Interfaces::ITestResult* testResults);
+    // public System.Void OnGUI()
+    // Offset: 0x1987BFC
+    void OnGUI();
+    // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
+    // Offset: 0x1987C0C
+    void TestStarted(::NUnit::Framework::Interfaces::ITest* test);
+    // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
+    // Offset: 0x1987C10
+    void TestFinished(::NUnit::Framework::Interfaces::ITestResult* result);
   }; // UnityEngine.TestTools.TestRunner.Callbacks.TestResultRendererCallback
   #pragma pack(pop)
   static check_size<sizeof(TestResultRendererCallback), 24 + sizeof(::UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer*)> __UnityEngine_TestTools_TestRunner_Callbacks_TestResultRendererCallbackSizeCheck;
   static_assert(sizeof(TestResultRendererCallback) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::TestResultRendererCallback::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::TestResultRendererCallback::RunStarted
 // Il2CppName: RunStarted
 template<>
@@ -140,7 +130,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRendererCallback*), "TestFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::TestResultRendererCallback::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

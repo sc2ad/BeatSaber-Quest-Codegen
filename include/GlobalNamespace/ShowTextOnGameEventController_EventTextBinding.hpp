@@ -33,22 +33,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ShowTextOnGameEventController::EventTextBinding : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Signal _signal
     // Size: 0x8
     // Offset: 0x10
     ::GlobalNamespace::Signal* signal;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Signal*) == 0x8);
-    // [TextAreaAttribute] Offset: 0x126189C
+    // [TextAreaAttribute] Offset: 0x10E6544
     // private System.String _text
     // Size: 0x8
     // Offset: 0x18
@@ -63,35 +55,37 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::TextFadeTransitions*) == 0x8);
     public:
     // Get instance field reference: private Signal _signal
-    ::GlobalNamespace::Signal*& dyn__signal();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Signal*& dyn__signal();
     // Get instance field reference: private System.String _text
-    ::StringW& dyn__text();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__text();
     // Get instance field reference: private TextFadeTransitions _textFadeTransitions
-    ::GlobalNamespace::TextFadeTransitions*& dyn__textFadeTransitions();
-    // public System.Void Init(TextFadeTransitions textFadeTransitions)
-    // Offset: 0x142B504
-    void Init(::GlobalNamespace::TextFadeTransitions* textFadeTransitions);
-    // public System.Void Deinit()
-    // Offset: 0x142B600
-    void Deinit();
-    // private System.Void HandleGameEvent()
-    // Offset: 0x142B694
-    void HandleGameEvent();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TextFadeTransitions*& dyn__textFadeTransitions();
     // public System.Void .ctor()
-    // Offset: 0x142B6D0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1380B34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShowTextOnGameEventController::EventTextBinding* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ShowTextOnGameEventController::EventTextBinding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShowTextOnGameEventController::EventTextBinding*, creationType>()));
     }
+    // public System.Void Init(TextFadeTransitions textFadeTransitions)
+    // Offset: 0x1380968
+    void Init(::GlobalNamespace::TextFadeTransitions* textFadeTransitions);
+    // public System.Void Deinit()
+    // Offset: 0x1380A64
+    void Deinit();
+    // private System.Void HandleGameEvent()
+    // Offset: 0x1380AF8
+    void HandleGameEvent();
   }; // ShowTextOnGameEventController/EventTextBinding
   #pragma pack(pop)
   static check_size<sizeof(ShowTextOnGameEventController::EventTextBinding), 32 + sizeof(::GlobalNamespace::TextFadeTransitions*)> __GlobalNamespace_ShowTextOnGameEventController_EventTextBindingSizeCheck;
   static_assert(sizeof(ShowTextOnGameEventController::EventTextBinding) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ShowTextOnGameEventController::EventTextBinding::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ShowTextOnGameEventController::EventTextBinding::Init
 // Il2CppName: Init
 template<>
@@ -117,7 +111,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*), "HandleGameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ShowTextOnGameEventController::EventTextBinding::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

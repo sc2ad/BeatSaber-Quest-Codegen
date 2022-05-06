@@ -41,28 +41,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x12416E8
+    // [DescriptionAttribute] Offset: 0x10C61C0
     // static field const value: static public Oculus.Platform.VoipSampleRate Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.VoipSampleRate Unknown
     static ::Oculus::Platform::VoipSampleRate _get_Unknown();
     // Set static field: static public Oculus.Platform.VoipSampleRate Unknown
     static void _set_Unknown(::Oculus::Platform::VoipSampleRate value);
-    // [DescriptionAttribute] Offset: 0x1241720
+    // [DescriptionAttribute] Offset: 0x10C61F8
     // static field const value: static public Oculus.Platform.VoipSampleRate HZ24000
     static constexpr const int HZ24000 = 1;
     // Get static field: static public Oculus.Platform.VoipSampleRate HZ24000
     static ::Oculus::Platform::VoipSampleRate _get_HZ24000();
     // Set static field: static public Oculus.Platform.VoipSampleRate HZ24000
     static void _set_HZ24000(::Oculus::Platform::VoipSampleRate value);
-    // [DescriptionAttribute] Offset: 0x1241758
+    // [DescriptionAttribute] Offset: 0x10C6230
     // static field const value: static public Oculus.Platform.VoipSampleRate HZ44100
     static constexpr const int HZ44100 = 2;
     // Get static field: static public Oculus.Platform.VoipSampleRate HZ44100
     static ::Oculus::Platform::VoipSampleRate _get_HZ44100();
     // Set static field: static public Oculus.Platform.VoipSampleRate HZ44100
     static void _set_HZ44100(::Oculus::Platform::VoipSampleRate value);
-    // [DescriptionAttribute] Offset: 0x1241790
+    // [DescriptionAttribute] Offset: 0x10C6268
     // static field const value: static public Oculus.Platform.VoipSampleRate HZ48000
     static constexpr const int HZ48000 = 3;
     // Get static field: static public Oculus.Platform.VoipSampleRate HZ48000
@@ -70,7 +70,7 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.VoipSampleRate HZ48000
     static void _set_HZ48000(::Oculus::Platform::VoipSampleRate value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Oculus.Platform.VoipSampleRate
   #pragma pack(pop)
   static check_size<sizeof(VoipSampleRate), 0 + sizeof(int)> __Oculus_Platform_VoipSampleRateSizeCheck;

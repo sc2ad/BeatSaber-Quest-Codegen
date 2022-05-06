@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TrackLaneRingsRotationEffect::RingRotationEffect : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single rotationAngle
     // Size: 0x4
     // Offset: 0x10
@@ -64,19 +56,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public System.Single rotationAngle
-    float& dyn_rotationAngle();
+    [[deprecated("Use field access instead!")]] float& dyn_rotationAngle();
     // Get instance field reference: public System.Single rotationStep
-    float& dyn_rotationStep();
+    [[deprecated("Use field access instead!")]] float& dyn_rotationStep();
     // Get instance field reference: public System.Single rotationFlexySpeed
-    float& dyn_rotationFlexySpeed();
+    [[deprecated("Use field access instead!")]] float& dyn_rotationFlexySpeed();
     // Get instance field reference: public System.Int32 rotationPropagationSpeed
-    int& dyn_rotationPropagationSpeed();
+    [[deprecated("Use field access instead!")]] int& dyn_rotationPropagationSpeed();
     // Get instance field reference: public System.Int32 progressPos
-    int& dyn_progressPos();
+    [[deprecated("Use field access instead!")]] int& dyn_progressPos();
     // public System.Void .ctor()
-    // Offset: 0x133EFDC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1420F0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackLaneRingsRotationEffect::RingRotationEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect::.ctor");

@@ -62,15 +62,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::OnlineServicesInfoViewController::$GetServerStatus$d__8
     struct $GetServerStatus$d__8;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.TextPageScrollView _textPageScrollView
     // Size: 0x8
     // Offset: 0x70
@@ -95,14 +87,14 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Button* refreshButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [InjectAttribute] Offset: 0x125CD24
+    // [InjectAttribute] Offset: 0x10E1908
     // private readonly OnlineServices.ServerManager _serverManager
     // Size: 0x8
     // Offset: 0x90
     ::OnlineServices::ServerManager* serverManager;
     // Field size check
     static_assert(sizeof(::OnlineServices::ServerManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x125CD34
+    // [InjectAttribute] Offset: 0x10E1918
     // private readonly IPlatformUserModel _platformUserModel
     // Size: 0x8
     // Offset: 0x98
@@ -117,41 +109,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Text::StringBuilder*) == 0x8);
     public:
     // Get instance field reference: private HMUI.TextPageScrollView _textPageScrollView
-    ::HMUI::TextPageScrollView*& dyn__textPageScrollView();
+    [[deprecated("Use field access instead!")]] ::HMUI::TextPageScrollView*& dyn__textPageScrollView();
     // Get instance field reference: private BeatmapLevelSO _testBeatmapLevel
-    ::GlobalNamespace::BeatmapLevelSO*& dyn__testBeatmapLevel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelSO*& dyn__testBeatmapLevel();
     // Get instance field reference: private BeatmapCharacteristicSO _testBeatmapCharacteristic
-    ::GlobalNamespace::BeatmapCharacteristicSO*& dyn__testBeatmapCharacteristic();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCharacteristicSO*& dyn__testBeatmapCharacteristic();
     // Get instance field reference: private UnityEngine.UI.Button _refreshButton
-    ::UnityEngine::UI::Button*& dyn__refreshButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__refreshButton();
     // Get instance field reference: private readonly OnlineServices.ServerManager _serverManager
-    ::OnlineServices::ServerManager*& dyn__serverManager();
+    [[deprecated("Use field access instead!")]] ::OnlineServices::ServerManager*& dyn__serverManager();
     // Get instance field reference: private readonly IPlatformUserModel _platformUserModel
-    ::GlobalNamespace::IPlatformUserModel*& dyn__platformUserModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPlatformUserModel*& dyn__platformUserModel();
     // Get instance field reference: private System.Text.StringBuilder _sb
-    ::System::Text::StringBuilder*& dyn__sb();
-    // private System.Void GetServerStatus()
-    // Offset: 0x12E83D8
-    void GetServerStatus();
-    // private System.Void AppendLine(System.String line)
-    // Offset: 0x12E8490
-    void AppendLine(::StringW line);
+    [[deprecated("Use field access instead!")]] ::System::Text::StringBuilder*& dyn__sb();
     // public System.Void .ctor()
-    // Offset: 0x12E84E8
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1359488
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OnlineServicesInfoViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OnlineServicesInfoViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OnlineServicesInfoViewController*, creationType>()));
     }
+    // private System.Void GetServerStatus()
+    // Offset: 0x1359378
+    void GetServerStatus();
+    // private System.Void AppendLine(System.String line)
+    // Offset: 0x1359430
+    void AppendLine(::StringW line);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x12E8324
+    // Offset: 0x13592C4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -161,6 +146,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(OnlineServicesInfoViewController) == 0xA8);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OnlineServicesInfoViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OnlineServicesInfoViewController::GetServerStatus
 // Il2CppName: GetServerStatus
 template<>
@@ -178,10 +167,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OnlineServicesInfoViewController*), "AppendLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{line});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OnlineServicesInfoViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OnlineServicesInfoViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

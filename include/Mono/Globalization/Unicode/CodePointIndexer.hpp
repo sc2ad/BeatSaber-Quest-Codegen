@@ -77,31 +77,23 @@ namespace Mono::Globalization::Unicode {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public readonly System.Int32 Start
-      int& dyn_Start();
+      [[deprecated("Use field access instead!")]] int& dyn_Start();
       // Get instance field reference: public readonly System.Int32 End
-      int& dyn_End();
+      [[deprecated("Use field access instead!")]] int& dyn_End();
       // Get instance field reference: public readonly System.Int32 Count
-      int& dyn_Count();
+      [[deprecated("Use field access instead!")]] int& dyn_Count();
       // Get instance field reference: public readonly System.Int32 IndexStart
-      int& dyn_IndexStart();
+      [[deprecated("Use field access instead!")]] int& dyn_IndexStart();
       // Get instance field reference: public readonly System.Int32 IndexEnd
-      int& dyn_IndexEnd();
+      [[deprecated("Use field access instead!")]] int& dyn_IndexEnd();
       // public System.Void .ctor(System.Int32 start, System.Int32 end, System.Int32 indexStart)
-      // Offset: 0x1EF7DC8
+      // Offset: 0x1F45300
       TableRange(int start, int end, int indexStart);
     }; // Mono.Globalization.Unicode.CodePointIndexer/Mono.Globalization.Unicode.TableRange
     #pragma pack(pop)
     static check_size<sizeof(CodePointIndexer::TableRange), 16 + sizeof(int)> __Mono_Globalization_Unicode_CodePointIndexer_TableRangeSizeCheck;
     static_assert(sizeof(CodePointIndexer::TableRange) == 0x14);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Mono.Globalization.Unicode.CodePointIndexer/Mono.Globalization.Unicode.TableRange[] ranges
     // Size: 0x8
     // Offset: 0x10
@@ -128,22 +120,22 @@ namespace Mono::Globalization::Unicode {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private readonly Mono.Globalization.Unicode.CodePointIndexer/Mono.Globalization.Unicode.TableRange[] ranges
-    ::ArrayW<::Mono::Globalization::Unicode::CodePointIndexer::TableRange>& dyn_ranges();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Mono::Globalization::Unicode::CodePointIndexer::TableRange>& dyn_ranges();
     // Get instance field reference: public readonly System.Int32 TotalCount
-    int& dyn_TotalCount();
+    [[deprecated("Use field access instead!")]] int& dyn_TotalCount();
     // Get instance field reference: private System.Int32 defaultIndex
-    int& dyn_defaultIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_defaultIndex();
     // Get instance field reference: private System.Int32 defaultCP
-    int& dyn_defaultCP();
+    [[deprecated("Use field access instead!")]] int& dyn_defaultCP();
     // public System.Void .ctor(System.Int32[] starts, System.Int32[] ends, System.Int32 defaultIndex, System.Int32 defaultCP)
-    // Offset: 0x1EF7C54
+    // Offset: 0x1F4518C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CodePointIndexer* New_ctor(::ArrayW<int> starts, ::ArrayW<int> ends, int defaultIndex, int defaultCP) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Globalization::Unicode::CodePointIndexer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CodePointIndexer*, creationType>(starts, ends, defaultIndex, defaultCP)));
     }
     // public System.Int32 ToIndex(System.Int32 cp)
-    // Offset: 0x1EF7DE0
+    // Offset: 0x1F45318
     int ToIndex(int cp);
   }; // Mono.Globalization.Unicode.CodePointIndexer
   #pragma pack(pop)

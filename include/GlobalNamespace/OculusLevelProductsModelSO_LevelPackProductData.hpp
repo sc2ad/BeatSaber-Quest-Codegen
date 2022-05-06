@@ -25,15 +25,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OculusLevelProductsModelSO::LevelPackProductData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _sku
     // Size: 0x8
     // Offset: 0x10
@@ -54,24 +46,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<::GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>) == 0x8);
     public:
     // Get instance field reference: private System.String _sku
-    ::StringW& dyn__sku();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__sku();
     // Get instance field reference: private System.String _levelPackId
-    ::StringW& dyn__levelPackId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__levelPackId();
     // Get instance field reference: private OculusLevelProductsModelSO/LevelProductData[] _levelProductsData
-    ::ArrayW<::GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>& dyn__levelProductsData();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>& dyn__levelProductsData();
     // public System.String get_sku()
-    // Offset: 0x150FB60
+    // Offset: 0x1547468
     ::StringW get_sku();
     // public System.String get_levelPackId()
-    // Offset: 0x150FB68
+    // Offset: 0x1547470
     ::StringW get_levelPackId();
     // public OculusLevelProductsModelSO/LevelProductData[] get_levelProductsData()
-    // Offset: 0x150FB70
+    // Offset: 0x1547478
     ::ArrayW<::GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*> get_levelProductsData();
     // public System.Void .ctor()
-    // Offset: 0x150FB78
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1547480
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusLevelProductsModelSO::LevelPackProductData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData::.ctor");

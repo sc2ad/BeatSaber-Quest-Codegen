@@ -89,15 +89,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnityTestExecutionContext : public ::Il2CppObject/*, public ::NUnit::Framework::Internal::ITestExecutionContext*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext _priorContext
     // Size: 0x8
     // Offset: 0x10
@@ -276,181 +268,179 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Set static field: static private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <CurrentContext>k__BackingField
     static void _set_$CurrentContext$k__BackingField(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* value);
     // Get instance field reference: private readonly UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext _priorContext
-    ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*& dyn__priorContext();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*& dyn__priorContext();
     // Get instance field reference: private NUnit.Framework.Internal.TestResult _currentResult
-    ::NUnit::Framework::Internal::TestResult*& dyn__currentResult();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::TestResult*& dyn__currentResult();
     // Get instance field reference: private System.Int32 _assertCount
-    int& dyn__assertCount();
+    [[deprecated("Use field access instead!")]] int& dyn__assertCount();
     // Get instance field reference: private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <Context>k__BackingField
-    ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*& dyn_$Context$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*& dyn_$Context$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Internal.Test <CurrentTest>k__BackingField
-    ::NUnit::Framework::Internal::Test*& dyn_$CurrentTest$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::Test*& dyn_$CurrentTest$k__BackingField();
     // Get instance field reference: private System.DateTime <StartTime>k__BackingField
-    ::System::DateTime& dyn_$StartTime$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_$StartTime$k__BackingField();
     // Get instance field reference: private System.Int64 <StartTicks>k__BackingField
-    int64_t& dyn_$StartTicks$k__BackingField();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_$StartTicks$k__BackingField();
     // Get instance field reference: private System.Object <TestObject>k__BackingField
-    ::Il2CppObject*& dyn_$TestObject$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$TestObject$k__BackingField();
     // Get instance field reference: private System.String <WorkDirectory>k__BackingField
-    ::StringW& dyn_$WorkDirectory$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$WorkDirectory$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Internal.TestExecutionStatus _executionStatus
-    ::NUnit::Framework::Internal::TestExecutionStatus& dyn__executionStatus();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::TestExecutionStatus& dyn__executionStatus();
     // Get instance field reference: private System.Collections.Generic.List`1<NUnit.Framework.ITestAction> <UpstreamActions>k__BackingField
-    ::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>*& dyn_$UpstreamActions$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>*& dyn_$UpstreamActions$k__BackingField();
     // Get instance field reference: private System.Int32 <TestCaseTimeout>k__BackingField
-    int& dyn_$TestCaseTimeout$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$TestCaseTimeout$k__BackingField();
     // Get instance field reference: private System.Globalization.CultureInfo <CurrentCulture>k__BackingField
-    ::System::Globalization::CultureInfo*& dyn_$CurrentCulture$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Globalization::CultureInfo*& dyn_$CurrentCulture$k__BackingField();
     // Get instance field reference: private System.Globalization.CultureInfo <CurrentUICulture>k__BackingField
-    ::System::Globalization::CultureInfo*& dyn_$CurrentUICulture$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Globalization::CultureInfo*& dyn_$CurrentUICulture$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Interfaces.ITestListener <Listener>k__BackingField
-    ::NUnit::Framework::Interfaces::ITestListener*& dyn_$Listener$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Interfaces::ITestListener*& dyn_$Listener$k__BackingField();
     // Get instance field reference: private System.IO.TextWriter <OutWriter>k__BackingField
-    ::System::IO::TextWriter*& dyn_$OutWriter$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::IO::TextWriter*& dyn_$OutWriter$k__BackingField();
     // Get instance field reference: private System.Boolean <StopOnError>k__BackingField
-    bool& dyn_$StopOnError$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$StopOnError$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Internal.Execution.IWorkItemDispatcher <Dispatcher>k__BackingField
-    ::NUnit::Framework::Internal::Execution::IWorkItemDispatcher*& dyn_$Dispatcher$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::Execution::IWorkItemDispatcher*& dyn_$Dispatcher$k__BackingField();
     // Get instance field reference: private NUnit.Framework.ParallelScope <ParallelScope>k__BackingField
-    ::NUnit::Framework::ParallelScope& dyn_$ParallelScope$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::ParallelScope& dyn_$ParallelScope$k__BackingField();
     // Get instance field reference: private System.String <WorkerId>k__BackingField
-    ::StringW& dyn_$WorkerId$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$WorkerId$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Internal.Randomizer <RandomGenerator>k__BackingField
-    ::NUnit::Framework::Internal::Randomizer*& dyn_$RandomGenerator$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::Randomizer*& dyn_$RandomGenerator$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Constraints.ValueFormatter <CurrentValueFormatter>k__BackingField
-    ::NUnit::Framework::Constraints::ValueFormatter*& dyn_$CurrentValueFormatter$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Constraints::ValueFormatter*& dyn_$CurrentValueFormatter$k__BackingField();
     // Get instance field reference: private System.Boolean <IsSingleThreaded>k__BackingField
-    bool& dyn_$IsSingleThreaded$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$IsSingleThreaded$k__BackingField();
     // Get instance field reference: private UnityEngine.TestTools.BeforeAfterTestCommandState <SetUpTearDownState>k__BackingField
-    ::UnityEngine::TestTools::BeforeAfterTestCommandState*& dyn_$SetUpTearDownState$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TestTools::BeforeAfterTestCommandState*& dyn_$SetUpTearDownState$k__BackingField();
     // Get instance field reference: private UnityEngine.TestTools.BeforeAfterTestCommandState <OuterUnityTestActionState>k__BackingField
-    ::UnityEngine::TestTools::BeforeAfterTestCommandState*& dyn_$OuterUnityTestActionState$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TestTools::BeforeAfterTestCommandState*& dyn_$OuterUnityTestActionState$k__BackingField();
     // Get instance field reference: private UnityEngine.TestTools.EnumerableTestState <EnumerableTestState>k__BackingField
-    ::UnityEngine::TestTools::EnumerableTestState*& dyn_$EnumerableTestState$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TestTools::EnumerableTestState*& dyn_$EnumerableTestState$k__BackingField();
     // static public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext get_CurrentContext()
-    // Offset: 0x1942CB4
+    // Offset: 0x197AC74
     static ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* get_CurrentContext();
     // static public System.Void set_CurrentContext(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext value)
-    // Offset: 0x1942D04
+    // Offset: 0x197ACC4
     static void set_CurrentContext(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* value);
     // public NUnit.Framework.Internal.Test get_CurrentTest()
-    // Offset: 0x1942D58
+    // Offset: 0x197AD18
     ::NUnit::Framework::Internal::Test* get_CurrentTest();
     // public System.Void set_CurrentTest(NUnit.Framework.Internal.Test value)
-    // Offset: 0x1942D60
+    // Offset: 0x197AD20
     void set_CurrentTest(::NUnit::Framework::Internal::Test* value);
     // public System.DateTime get_StartTime()
-    // Offset: 0x1942D68
+    // Offset: 0x197AD28
     ::System::DateTime get_StartTime();
     // public System.Void set_StartTime(System.DateTime value)
-    // Offset: 0x1942D70
+    // Offset: 0x197AD30
     void set_StartTime(::System::DateTime value);
     // public System.Int64 get_StartTicks()
-    // Offset: 0x1942D78
+    // Offset: 0x197AD38
     int64_t get_StartTicks();
     // public System.Void set_StartTicks(System.Int64 value)
-    // Offset: 0x1942D80
+    // Offset: 0x197AD40
     void set_StartTicks(int64_t value);
     // public NUnit.Framework.Internal.TestResult get_CurrentResult()
-    // Offset: 0x1942D88
+    // Offset: 0x197AD48
     ::NUnit::Framework::Internal::TestResult* get_CurrentResult();
     // public System.Void set_CurrentResult(NUnit.Framework.Internal.TestResult value)
-    // Offset: 0x1942D90
+    // Offset: 0x197AD50
     void set_CurrentResult(::NUnit::Framework::Internal::TestResult* value);
     // public System.Object get_TestObject()
-    // Offset: 0x1942DA4
+    // Offset: 0x197AD64
     ::Il2CppObject* get_TestObject();
     // public System.Void set_TestObject(System.Object value)
-    // Offset: 0x1942DAC
+    // Offset: 0x197AD6C
     void set_TestObject(::Il2CppObject* value);
     // public System.String get_WorkDirectory()
-    // Offset: 0x1942DB4
+    // Offset: 0x197AD74
     ::StringW get_WorkDirectory();
     // public System.Void set_WorkDirectory(System.String value)
-    // Offset: 0x1942DBC
+    // Offset: 0x197AD7C
     void set_WorkDirectory(::StringW value);
     // public NUnit.Framework.Internal.TestExecutionStatus get_ExecutionStatus()
-    // Offset: 0x193A3EC
+    // Offset: 0x1972054
     ::NUnit::Framework::Internal::TestExecutionStatus get_ExecutionStatus();
     // public System.Void set_ExecutionStatus(NUnit.Framework.Internal.TestExecutionStatus value)
-    // Offset: 0x193C670
+    // Offset: 0x19742D8
     void set_ExecutionStatus(::NUnit::Framework::Internal::TestExecutionStatus value);
     // public System.Collections.Generic.List`1<NUnit.Framework.ITestAction> get_UpstreamActions()
-    // Offset: 0x1942DC4
+    // Offset: 0x197AD84
     ::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>* get_UpstreamActions();
     // private System.Void set_UpstreamActions(System.Collections.Generic.List`1<NUnit.Framework.ITestAction> value)
-    // Offset: 0x1942DCC
+    // Offset: 0x197AD8C
     void set_UpstreamActions(::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>* value);
     // public System.Int32 get_TestCaseTimeout()
-    // Offset: 0x1942DD4
+    // Offset: 0x197AD94
     int get_TestCaseTimeout();
     // public System.Void set_TestCaseTimeout(System.Int32 value)
-    // Offset: 0x1942DDC
+    // Offset: 0x197AD9C
     void set_TestCaseTimeout(int value);
     // public System.Globalization.CultureInfo get_CurrentCulture()
-    // Offset: 0x1942DE4
+    // Offset: 0x197ADA4
     ::System::Globalization::CultureInfo* get_CurrentCulture();
     // public System.Void set_CurrentCulture(System.Globalization.CultureInfo value)
-    // Offset: 0x1942DEC
+    // Offset: 0x197ADAC
     void set_CurrentCulture(::System::Globalization::CultureInfo* value);
     // public System.Globalization.CultureInfo get_CurrentUICulture()
-    // Offset: 0x1942DF4
+    // Offset: 0x197ADB4
     ::System::Globalization::CultureInfo* get_CurrentUICulture();
     // public System.Void set_CurrentUICulture(System.Globalization.CultureInfo value)
-    // Offset: 0x1942DFC
+    // Offset: 0x197ADBC
     void set_CurrentUICulture(::System::Globalization::CultureInfo* value);
     // public NUnit.Framework.Interfaces.ITestListener get_Listener()
-    // Offset: 0x1942E04
+    // Offset: 0x197ADC4
     ::NUnit::Framework::Interfaces::ITestListener* get_Listener();
     // public System.Void set_Listener(NUnit.Framework.Interfaces.ITestListener value)
-    // Offset: 0x1942E0C
+    // Offset: 0x197ADCC
     void set_Listener(::NUnit::Framework::Interfaces::ITestListener* value);
     // public System.IO.TextWriter get_OutWriter()
-    // Offset: 0x1942E14
+    // Offset: 0x197ADD4
     ::System::IO::TextWriter* get_OutWriter();
     // private System.Void set_OutWriter(System.IO.TextWriter value)
-    // Offset: 0x1942E1C
+    // Offset: 0x197ADDC
     void set_OutWriter(::System::IO::TextWriter* value);
     // public NUnit.Framework.Constraints.ValueFormatter get_CurrentValueFormatter()
-    // Offset: 0x1942E24
+    // Offset: 0x197ADE4
     ::NUnit::Framework::Constraints::ValueFormatter* get_CurrentValueFormatter();
     // public UnityEngine.TestTools.BeforeAfterTestCommandState get_SetUpTearDownState()
-    // Offset: 0x1942E2C
+    // Offset: 0x197ADEC
     ::UnityEngine::TestTools::BeforeAfterTestCommandState* get_SetUpTearDownState();
     // public System.Void set_SetUpTearDownState(UnityEngine.TestTools.BeforeAfterTestCommandState value)
-    // Offset: 0x1942E34
+    // Offset: 0x197ADF4
     void set_SetUpTearDownState(::UnityEngine::TestTools::BeforeAfterTestCommandState* value);
     // public UnityEngine.TestTools.BeforeAfterTestCommandState get_OuterUnityTestActionState()
-    // Offset: 0x1942E3C
+    // Offset: 0x197ADFC
     ::UnityEngine::TestTools::BeforeAfterTestCommandState* get_OuterUnityTestActionState();
     // public System.Void set_OuterUnityTestActionState(UnityEngine.TestTools.BeforeAfterTestCommandState value)
-    // Offset: 0x1942E44
+    // Offset: 0x197AE04
     void set_OuterUnityTestActionState(::UnityEngine::TestTools::BeforeAfterTestCommandState* value);
     // public UnityEngine.TestTools.EnumerableTestState get_EnumerableTestState()
-    // Offset: 0x1942E4C
+    // Offset: 0x197AE0C
     ::UnityEngine::TestTools::EnumerableTestState* get_EnumerableTestState();
     // public System.Void set_EnumerableTestState(UnityEngine.TestTools.EnumerableTestState value)
-    // Offset: 0x1942E54
+    // Offset: 0x197AE14
     void set_EnumerableTestState(::UnityEngine::TestTools::EnumerableTestState* value);
+    // public System.Void .ctor()
+    // Offset: 0x197A798
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static UnityTestExecutionContext* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<UnityTestExecutionContext*, creationType>()));
+    }
     // public System.Void .ctor(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext other)
-    // Offset: 0x193D4E8
+    // Offset: 0x1975150
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityTestExecutionContext* New_ctor(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityTestExecutionContext*, creationType>(other)));
     }
     // public System.Void IncrementAssertCount()
-    // Offset: 0x1942E5C
+    // Offset: 0x197AE1C
     void IncrementAssertCount();
-    // public System.Void .ctor()
-    // Offset: 0x19427D8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static UnityTestExecutionContext* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<UnityTestExecutionContext*, creationType>()));
-    }
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext
   #pragma pack(pop)
   static check_size<sizeof(UnityTestExecutionContext), 216 + sizeof(::UnityEngine::TestTools::EnumerableTestState*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_UnityTestExecutionContextSizeCheck;
@@ -758,6 +748,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::IncrementAssertCount
 // Il2CppName: IncrementAssertCount
 template<>
@@ -766,7 +760,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "IncrementAssertCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

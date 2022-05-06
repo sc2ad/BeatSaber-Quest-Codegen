@@ -101,20 +101,12 @@ namespace UnityEngine::EventSystems {
       // Set static field: static public UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton Middle
       static void _set_Middle(::UnityEngine::EventSystems::PointerEventData::InputButton value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton
     #pragma pack(pop)
     static check_size<sizeof(PointerEventData::InputButton), 0 + sizeof(int)> __UnityEngine_EventSystems_PointerEventData_InputButtonSizeCheck;
     static_assert(sizeof(PointerEventData::InputButton) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.GameObject <pointerEnter>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -247,181 +239,181 @@ namespace UnityEngine::EventSystems {
     static_assert(sizeof(::UnityEngine::EventSystems::PointerEventData::InputButton) == 0x4);
     public:
     // Get instance field reference: private UnityEngine.GameObject <pointerEnter>k__BackingField
-    ::UnityEngine::GameObject*& dyn_$pointerEnter$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_$pointerEnter$k__BackingField();
     // Get instance field reference: private UnityEngine.GameObject m_PointerPress
-    ::UnityEngine::GameObject*& dyn_m_PointerPress();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_m_PointerPress();
     // Get instance field reference: private UnityEngine.GameObject <lastPress>k__BackingField
-    ::UnityEngine::GameObject*& dyn_$lastPress$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_$lastPress$k__BackingField();
     // Get instance field reference: private UnityEngine.GameObject <rawPointerPress>k__BackingField
-    ::UnityEngine::GameObject*& dyn_$rawPointerPress$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_$rawPointerPress$k__BackingField();
     // Get instance field reference: private UnityEngine.GameObject <pointerDrag>k__BackingField
-    ::UnityEngine::GameObject*& dyn_$pointerDrag$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_$pointerDrag$k__BackingField();
     // Get instance field reference: private UnityEngine.EventSystems.RaycastResult <pointerCurrentRaycast>k__BackingField
-    ::UnityEngine::EventSystems::RaycastResult& dyn_$pointerCurrentRaycast$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::EventSystems::RaycastResult& dyn_$pointerCurrentRaycast$k__BackingField();
     // Get instance field reference: private UnityEngine.EventSystems.RaycastResult <pointerPressRaycast>k__BackingField
-    ::UnityEngine::EventSystems::RaycastResult& dyn_$pointerPressRaycast$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::EventSystems::RaycastResult& dyn_$pointerPressRaycast$k__BackingField();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.GameObject> hovered
-    ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*& dyn_hovered();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*& dyn_hovered();
     // Get instance field reference: private System.Boolean <eligibleForClick>k__BackingField
-    bool& dyn_$eligibleForClick$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$eligibleForClick$k__BackingField();
     // Get instance field reference: private System.Int32 <pointerId>k__BackingField
-    int& dyn_$pointerId$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$pointerId$k__BackingField();
     // Get instance field reference: private UnityEngine.Vector2 <position>k__BackingField
-    ::UnityEngine::Vector2& dyn_$position$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_$position$k__BackingField();
     // Get instance field reference: private UnityEngine.Vector2 <delta>k__BackingField
-    ::UnityEngine::Vector2& dyn_$delta$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_$delta$k__BackingField();
     // Get instance field reference: private UnityEngine.Vector2 <pressPosition>k__BackingField
-    ::UnityEngine::Vector2& dyn_$pressPosition$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_$pressPosition$k__BackingField();
     // Get instance field reference: private UnityEngine.Vector3 <worldPosition>k__BackingField
-    ::UnityEngine::Vector3& dyn_$worldPosition$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_$worldPosition$k__BackingField();
     // Get instance field reference: private UnityEngine.Vector3 <worldNormal>k__BackingField
-    ::UnityEngine::Vector3& dyn_$worldNormal$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_$worldNormal$k__BackingField();
     // Get instance field reference: private System.Single <clickTime>k__BackingField
-    float& dyn_$clickTime$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$clickTime$k__BackingField();
     // Get instance field reference: private System.Int32 <clickCount>k__BackingField
-    int& dyn_$clickCount$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$clickCount$k__BackingField();
     // Get instance field reference: private UnityEngine.Vector2 <scrollDelta>k__BackingField
-    ::UnityEngine::Vector2& dyn_$scrollDelta$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_$scrollDelta$k__BackingField();
     // Get instance field reference: private System.Boolean <useDragThreshold>k__BackingField
-    bool& dyn_$useDragThreshold$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$useDragThreshold$k__BackingField();
     // Get instance field reference: private System.Boolean <dragging>k__BackingField
-    bool& dyn_$dragging$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$dragging$k__BackingField();
     // Get instance field reference: private UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton <button>k__BackingField
-    ::UnityEngine::EventSystems::PointerEventData::InputButton& dyn_$button$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::EventSystems::PointerEventData::InputButton& dyn_$button$k__BackingField();
     // public UnityEngine.GameObject get_pointerEnter()
-    // Offset: 0x18F7D1C
+    // Offset: 0x193162C
     ::UnityEngine::GameObject* get_pointerEnter();
     // public System.Void set_pointerEnter(UnityEngine.GameObject value)
-    // Offset: 0x18F7D24
+    // Offset: 0x1931634
     void set_pointerEnter(::UnityEngine::GameObject* value);
     // public UnityEngine.GameObject get_lastPress()
-    // Offset: 0x18F7D2C
+    // Offset: 0x193163C
     ::UnityEngine::GameObject* get_lastPress();
     // private System.Void set_lastPress(UnityEngine.GameObject value)
-    // Offset: 0x18F7D34
+    // Offset: 0x1931644
     void set_lastPress(::UnityEngine::GameObject* value);
     // public UnityEngine.GameObject get_rawPointerPress()
-    // Offset: 0x18F7D3C
+    // Offset: 0x193164C
     ::UnityEngine::GameObject* get_rawPointerPress();
     // public System.Void set_rawPointerPress(UnityEngine.GameObject value)
-    // Offset: 0x18F7D44
+    // Offset: 0x1931654
     void set_rawPointerPress(::UnityEngine::GameObject* value);
     // public UnityEngine.GameObject get_pointerDrag()
-    // Offset: 0x18F7D4C
+    // Offset: 0x193165C
     ::UnityEngine::GameObject* get_pointerDrag();
     // public System.Void set_pointerDrag(UnityEngine.GameObject value)
-    // Offset: 0x18F7D54
+    // Offset: 0x1931664
     void set_pointerDrag(::UnityEngine::GameObject* value);
     // public UnityEngine.EventSystems.RaycastResult get_pointerCurrentRaycast()
-    // Offset: 0x18F7D5C
+    // Offset: 0x193166C
     ::UnityEngine::EventSystems::RaycastResult get_pointerCurrentRaycast();
     // public System.Void set_pointerCurrentRaycast(UnityEngine.EventSystems.RaycastResult value)
-    // Offset: 0x18F7D6C
+    // Offset: 0x193167C
     void set_pointerCurrentRaycast(::UnityEngine::EventSystems::RaycastResult value);
     // public UnityEngine.EventSystems.RaycastResult get_pointerPressRaycast()
-    // Offset: 0x18F7D88
+    // Offset: 0x1931698
     ::UnityEngine::EventSystems::RaycastResult get_pointerPressRaycast();
     // public System.Void set_pointerPressRaycast(UnityEngine.EventSystems.RaycastResult value)
-    // Offset: 0x18F7D98
+    // Offset: 0x19316A8
     void set_pointerPressRaycast(::UnityEngine::EventSystems::RaycastResult value);
     // public System.Boolean get_eligibleForClick()
-    // Offset: 0x18F7DB4
+    // Offset: 0x19316C4
     bool get_eligibleForClick();
     // public System.Void set_eligibleForClick(System.Boolean value)
-    // Offset: 0x18F7DBC
+    // Offset: 0x19316CC
     void set_eligibleForClick(bool value);
     // public System.Int32 get_pointerId()
-    // Offset: 0x18F7DC8
+    // Offset: 0x19316D8
     int get_pointerId();
     // public System.Void set_pointerId(System.Int32 value)
-    // Offset: 0x18F7DD0
+    // Offset: 0x19316E0
     void set_pointerId(int value);
     // public UnityEngine.Vector2 get_position()
-    // Offset: 0x18F7DD8
+    // Offset: 0x19316E8
     ::UnityEngine::Vector2 get_position();
     // public System.Void set_position(UnityEngine.Vector2 value)
-    // Offset: 0x18F7DE0
+    // Offset: 0x19316F0
     void set_position(::UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_delta()
-    // Offset: 0x18F7DE8
+    // Offset: 0x19316F8
     ::UnityEngine::Vector2 get_delta();
     // public System.Void set_delta(UnityEngine.Vector2 value)
-    // Offset: 0x18F7DF0
+    // Offset: 0x1931700
     void set_delta(::UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_pressPosition()
-    // Offset: 0x18F7DF8
+    // Offset: 0x1931708
     ::UnityEngine::Vector2 get_pressPosition();
     // public System.Void set_pressPosition(UnityEngine.Vector2 value)
-    // Offset: 0x18F7E00
+    // Offset: 0x1931710
     void set_pressPosition(::UnityEngine::Vector2 value);
     // public UnityEngine.Vector3 get_worldPosition()
-    // Offset: 0x18F7E08
+    // Offset: 0x1931718
     ::UnityEngine::Vector3 get_worldPosition();
     // public System.Void set_worldPosition(UnityEngine.Vector3 value)
-    // Offset: 0x18F7E18
+    // Offset: 0x1931728
     void set_worldPosition(::UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_worldNormal()
-    // Offset: 0x18F7E28
+    // Offset: 0x1931738
     ::UnityEngine::Vector3 get_worldNormal();
     // public System.Void set_worldNormal(UnityEngine.Vector3 value)
-    // Offset: 0x18F7E38
+    // Offset: 0x1931748
     void set_worldNormal(::UnityEngine::Vector3 value);
     // public System.Single get_clickTime()
-    // Offset: 0x18F7E48
+    // Offset: 0x1931758
     float get_clickTime();
     // public System.Void set_clickTime(System.Single value)
-    // Offset: 0x18F7E50
+    // Offset: 0x1931760
     void set_clickTime(float value);
     // public System.Int32 get_clickCount()
-    // Offset: 0x18F7E58
+    // Offset: 0x1931768
     int get_clickCount();
     // public System.Void set_clickCount(System.Int32 value)
-    // Offset: 0x18F7E60
+    // Offset: 0x1931770
     void set_clickCount(int value);
     // public UnityEngine.Vector2 get_scrollDelta()
-    // Offset: 0x18F7E68
+    // Offset: 0x1931778
     ::UnityEngine::Vector2 get_scrollDelta();
     // public System.Void set_scrollDelta(UnityEngine.Vector2 value)
-    // Offset: 0x18F7E74
+    // Offset: 0x1931784
     void set_scrollDelta(::UnityEngine::Vector2 value);
     // public System.Boolean get_useDragThreshold()
-    // Offset: 0x18F7E80
+    // Offset: 0x1931790
     bool get_useDragThreshold();
     // public System.Void set_useDragThreshold(System.Boolean value)
-    // Offset: 0x18F7E88
+    // Offset: 0x1931798
     void set_useDragThreshold(bool value);
     // public System.Boolean get_dragging()
-    // Offset: 0x18F7E94
+    // Offset: 0x19317A4
     bool get_dragging();
     // public System.Void set_dragging(System.Boolean value)
-    // Offset: 0x18F7E9C
+    // Offset: 0x19317AC
     void set_dragging(bool value);
     // public UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton get_button()
-    // Offset: 0x18F7EA8
+    // Offset: 0x19317B8
     ::UnityEngine::EventSystems::PointerEventData::InputButton get_button();
     // public System.Void set_button(UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton value)
-    // Offset: 0x18F7EB0
+    // Offset: 0x19317C0
     void set_button(::UnityEngine::EventSystems::PointerEventData::InputButton value);
     // public UnityEngine.Camera get_enterEventCamera()
-    // Offset: 0x18F8014
+    // Offset: 0x1931924
     ::UnityEngine::Camera* get_enterEventCamera();
     // public UnityEngine.Camera get_pressEventCamera()
-    // Offset: 0x18F80B4
+    // Offset: 0x19319C4
     ::UnityEngine::Camera* get_pressEventCamera();
     // public UnityEngine.GameObject get_pointerPress()
-    // Offset: 0x18F8154
+    // Offset: 0x1931A64
     ::UnityEngine::GameObject* get_pointerPress();
     // public System.Void set_pointerPress(UnityEngine.GameObject value)
-    // Offset: 0x18F815C
+    // Offset: 0x1931A6C
     void set_pointerPress(::UnityEngine::GameObject* value);
     // public System.Boolean IsPointerMoving()
-    // Offset: 0x18F7FAC
+    // Offset: 0x19318BC
     bool IsPointerMoving();
     // public System.Boolean IsScrolling()
-    // Offset: 0x18F7FE0
+    // Offset: 0x19318F0
     bool IsScrolling();
     // public System.Void .ctor(UnityEngine.EventSystems.EventSystem eventSystem)
-    // Offset: 0x18F7EB8
+    // Offset: 0x19317C8
     // Implemented from: UnityEngine.EventSystems.BaseEventData
     // Base method: System.Void BaseEventData::.ctor(UnityEngine.EventSystems.EventSystem eventSystem)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -430,7 +422,7 @@ namespace UnityEngine::EventSystems {
       return THROW_UNLESS((::il2cpp_utils::New<PointerEventData*, creationType>(eventSystem)));
     }
     // public override System.String ToString()
-    // Offset: 0x18F81E8
+    // Offset: 0x1931AF8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

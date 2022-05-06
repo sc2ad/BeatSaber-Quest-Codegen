@@ -30,15 +30,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_LayerMask : public ::Il2CppObject/*, public ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.LayerMask self
     // Size: 0x4
     // Offset: 0x10
@@ -55,16 +47,16 @@ namespace HoudiniEngineUnity {
       return self;
     }
     // Get instance field reference: public UnityEngine.LayerMask self
-    ::UnityEngine::LayerMask& dyn_self();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::LayerMask& dyn_self();
     // public System.Void .ctor(UnityEngine.LayerMask self)
-    // Offset: 0x2A3D924
+    // Offset: 0x2A94D0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_LayerMask* New_ctor(::UnityEngine::LayerMask self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_LayerMask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_LayerMask*, creationType>(self)));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_LayerMask other)
-    // Offset: 0x2A3D950
+    // Offset: 0x2A94D38
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_LayerMask* other);
   }; // HoudiniEngineUnity.Test_LayerMask
   #pragma pack(pop)

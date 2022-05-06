@@ -55,7 +55,7 @@ namespace UnityEngine::Bindings {
     // Set static field: static public UnityEngine.Bindings.TargetType Field
     static void _set_Field(::UnityEngine::Bindings::TargetType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.Bindings.TargetType
   #pragma pack(pop)
   static check_size<sizeof(TargetType), 0 + sizeof(int)> __UnityEngine_Bindings_TargetTypeSizeCheck;

@@ -52,15 +52,7 @@ namespace System::Runtime::Remoting::Lifetime {
     public:
     // Nested type: ::System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate
     class RenewalDelegate;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.DateTime _leaseExpireTime
     // Size: 0x8
     // Offset: 0x18
@@ -119,50 +111,50 @@ namespace System::Runtime::Remoting::Lifetime {
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get instance field reference: private System.DateTime _leaseExpireTime
-    ::System::DateTime& dyn__leaseExpireTime();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn__leaseExpireTime();
     // Get instance field reference: private System.Runtime.Remoting.Lifetime.LeaseState _currentState
-    ::System::Runtime::Remoting::Lifetime::LeaseState& dyn__currentState();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Lifetime::LeaseState& dyn__currentState();
     // Get instance field reference: private System.TimeSpan _initialLeaseTime
-    ::System::TimeSpan& dyn__initialLeaseTime();
+    [[deprecated("Use field access instead!")]] ::System::TimeSpan& dyn__initialLeaseTime();
     // Get instance field reference: private System.TimeSpan _renewOnCallTime
-    ::System::TimeSpan& dyn__renewOnCallTime();
+    [[deprecated("Use field access instead!")]] ::System::TimeSpan& dyn__renewOnCallTime();
     // Get instance field reference: private System.TimeSpan _sponsorshipTimeout
-    ::System::TimeSpan& dyn__sponsorshipTimeout();
+    [[deprecated("Use field access instead!")]] ::System::TimeSpan& dyn__sponsorshipTimeout();
     // Get instance field reference: private System.Collections.ArrayList _sponsors
-    ::System::Collections::ArrayList*& dyn__sponsors();
+    [[deprecated("Use field access instead!")]] ::System::Collections::ArrayList*& dyn__sponsors();
     // Get instance field reference: private System.Collections.Queue _renewingSponsors
-    ::System::Collections::Queue*& dyn__renewingSponsors();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Queue*& dyn__renewingSponsors();
     // Get instance field reference: private System.Runtime.Remoting.Lifetime.Lease/System.Runtime.Remoting.Lifetime.RenewalDelegate _renewalDelegate
-    ::System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate*& dyn__renewalDelegate();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate*& dyn__renewalDelegate();
     // public System.TimeSpan get_CurrentLeaseTime()
-    // Offset: 0x1C60A34
+    // Offset: 0x1C7DD40
     ::System::TimeSpan get_CurrentLeaseTime();
     // public System.Runtime.Remoting.Lifetime.LeaseState get_CurrentState()
-    // Offset: 0x1C60AAC
+    // Offset: 0x1C7DDB8
     ::System::Runtime::Remoting::Lifetime::LeaseState get_CurrentState();
     // public System.TimeSpan get_RenewOnCallTime()
-    // Offset: 0x1C60AC0
+    // Offset: 0x1C7DDCC
     ::System::TimeSpan get_RenewOnCallTime();
     // public System.Void Activate()
-    // Offset: 0x1C60AB4
+    // Offset: 0x1C7DDC0
     void Activate();
     // public System.TimeSpan Renew(System.TimeSpan renewalTime)
-    // Offset: 0x1C60AC8
+    // Offset: 0x1C7DDD4
     ::System::TimeSpan Renew(::System::TimeSpan renewalTime);
     // public System.Void Unregister(System.Runtime.Remoting.Lifetime.ISponsor obj)
-    // Offset: 0x1C60B64
+    // Offset: 0x1C7DE70
     void Unregister(::System::Runtime::Remoting::Lifetime::ISponsor* obj);
     // System.Void UpdateState()
-    // Offset: 0x1C60C74
+    // Offset: 0x1C7DF80
     void UpdateState();
     // private System.Void CheckNextSponsor()
-    // Offset: 0x1C60DC0
+    // Offset: 0x1C7E0CC
     void CheckNextSponsor();
     // private System.Void ProcessSponsorResponse(System.Object state, System.Boolean timedOut)
-    // Offset: 0x1C61024
+    // Offset: 0x1C7E330
     void ProcessSponsorResponse(::Il2CppObject* state, bool timedOut);
     // public System.Void .ctor()
-    // Offset: 0x1C6089C
+    // Offset: 0x1C7DBA8
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()

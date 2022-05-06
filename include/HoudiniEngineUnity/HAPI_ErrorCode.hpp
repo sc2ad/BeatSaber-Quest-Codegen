@@ -55,7 +55,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HAPI_ErrorCode HAPI_ERRORCODE_PYTHON_NODE_ERROR
     static void _set_HAPI_ERRORCODE_PYTHON_NODE_ERROR(::HoudiniEngineUnity::HAPI_ErrorCode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // HoudiniEngineUnity.HAPI_ErrorCode
   #pragma pack(pop)
   static check_size<sizeof(HAPI_ErrorCode), 0 + sizeof(int)> __HoudiniEngineUnity_HAPI_ErrorCodeSizeCheck;

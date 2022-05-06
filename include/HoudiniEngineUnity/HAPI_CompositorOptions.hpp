@@ -44,9 +44,9 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 maximumResolutionX
-    int& dyn_maximumResolutionX();
+    [[deprecated("Use field access instead!")]] int& dyn_maximumResolutionX();
     // Get instance field reference: public System.Int32 maximumResolutionY
-    int& dyn_maximumResolutionY();
+    [[deprecated("Use field access instead!")]] int& dyn_maximumResolutionY();
   }; // HoudiniEngineUnity.HAPI_CompositorOptions
   #pragma pack(pop)
   static check_size<sizeof(HAPI_CompositorOptions), 4 + sizeof(int)> __HoudiniEngineUnity_HAPI_CompositorOptionsSizeCheck;

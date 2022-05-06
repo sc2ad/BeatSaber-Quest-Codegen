@@ -60,7 +60,7 @@ namespace UnityEngine::Timeline {
     // Set static field: static public UnityEngine.Timeline.TrackOffset Auto
     static void _set_Auto(::UnityEngine::Timeline::TrackOffset value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.Timeline.TrackOffset
   #pragma pack(pop)
   static check_size<sizeof(TrackOffset), 0 + sizeof(int)> __UnityEngine_Timeline_TrackOffsetSizeCheck;

@@ -42,15 +42,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class MatchmakingEnqueuedUser : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Collections.Generic.Dictionary`2<System.String,System.String> CustomData
     // Size: 0x8
     // Offset: 0x10
@@ -63,7 +55,7 @@ namespace Oculus::Platform::Models {
     ::Oculus::Platform::Models::User* UserOptional;
     // Field size check
     static_assert(sizeof(::Oculus::Platform::Models::User*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0x1241950
+    // [ObsoleteAttribute] Offset: 0x10C6428
     // public readonly Oculus.Platform.Models.User User
     // Size: 0x8
     // Offset: 0x20
@@ -72,13 +64,13 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Oculus::Platform::Models::User*) == 0x8);
     public:
     // Get instance field reference: public readonly System.Collections.Generic.Dictionary`2<System.String,System.String> CustomData
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn_CustomData();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn_CustomData();
     // Get instance field reference: public readonly Oculus.Platform.Models.User UserOptional
-    ::Oculus::Platform::Models::User*& dyn_UserOptional();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::User*& dyn_UserOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.User User
-    ::Oculus::Platform::Models::User*& dyn_User();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::User*& dyn_User();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19B4908
+    // Offset: 0x19EDEF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchmakingEnqueuedUser* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::MatchmakingEnqueuedUser::.ctor");

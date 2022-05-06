@@ -44,16 +44,8 @@ namespace Ice {
   // [TokenAttribute] Offset: FFFFFFFF
   class FloorLightTilesGrid : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x127BC30
+    // [InjectAttribute] Offset: 0x11008E8
     // private readonly Ice.FloorLightTile/Ice.Pool _floorLightTileMemoryPool
     // Size: 0x8
     // Offset: 0x18
@@ -100,50 +92,44 @@ namespace Ice {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly Ice.FloorLightTile/Ice.Pool _floorLightTileMemoryPool
-    ::Ice::FloorLightTile::Pool*& dyn__floorLightTileMemoryPool();
+    [[deprecated("Use field access instead!")]] ::Ice::FloorLightTile::Pool*& dyn__floorLightTileMemoryPool();
     // Get instance field reference: private MemoryPoolContainer`1<Ice.FloorLightTile> _floorLightTileMemoryPoolContainer
-    ::GlobalNamespace::MemoryPoolContainer_1<::Ice::FloorLightTile*>*& dyn__floorLightTileMemoryPoolContainer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MemoryPoolContainer_1<::Ice::FloorLightTile*>*& dyn__floorLightTileMemoryPoolContainer();
     // Get instance field reference: private Ice.FloorLightTile[][] _grid
-    ::ArrayW<::ArrayW<::Ice::FloorLightTile*>>& dyn__grid();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::ArrayW<::Ice::FloorLightTile*>>& dyn__grid();
     // Get instance field reference: private System.Single _tileWidth
-    float& dyn__tileWidth();
+    [[deprecated("Use field access instead!")]] float& dyn__tileWidth();
     // Get instance field reference: private System.Single _tileHeight
-    float& dyn__tileHeight();
+    [[deprecated("Use field access instead!")]] float& dyn__tileHeight();
     // Get instance field reference: private UnityEngine.Vector3 _anchorPoint
-    ::UnityEngine::Vector3& dyn__anchorPoint();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__anchorPoint();
     // Get instance field reference: private System.Int32 _ySize
-    int& dyn__ySize();
+    [[deprecated("Use field access instead!")]] int& dyn__ySize();
     // public System.Int32 get_ySize()
-    // Offset: 0x2A702AC
+    // Offset: 0x2AC8614
     int get_ySize();
-    // public System.Void Init(UnityEngine.Vector3 anchorPoint, System.Int32 xSize, System.Int32 ySize, System.Single tileWidth, System.Single tileHeight)
-    // Offset: 0x2A6F2D0
-    void Init(::UnityEngine::Vector3 anchorPoint, int xSize, int ySize, float tileWidth, float tileHeight);
-    // public System.Void HighlightTile(System.Int32 x, System.Int32 y, System.Single fadeInDuration, System.Single fadeOutDuration, UnityEngine.Color color)
-    // Offset: 0x2A6F828
-    void HighlightTile(int x, int y, float fadeInDuration, float fadeOutDuration, ::UnityEngine::Color color);
-    // public System.Void DespawnAllTiles()
-    // Offset: 0x2A702B4
-    void DespawnAllTiles();
-    // private System.Void HandleFloorLightTileDidFinish(Ice.FloorLightTile floorLightTile)
-    // Offset: 0x2A703E4
-    void HandleFloorLightTileDidFinish(::Ice::FloorLightTile* floorLightTile);
-    // private System.Void DespawnTile(Ice.FloorLightTile floorLightTile)
-    // Offset: 0x2A70374
-    void DespawnTile(::Ice::FloorLightTile* floorLightTile);
     // public System.Void .ctor()
-    // Offset: 0x2A703E8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2AC8750
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FloorLightTilesGrid* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Ice::FloorLightTilesGrid::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FloorLightTilesGrid*, creationType>()));
     }
+    // public System.Void Init(UnityEngine.Vector3 anchorPoint, System.Int32 xSize, System.Int32 ySize, System.Single tileWidth, System.Single tileHeight)
+    // Offset: 0x2AC7638
+    void Init(::UnityEngine::Vector3 anchorPoint, int xSize, int ySize, float tileWidth, float tileHeight);
+    // public System.Void HighlightTile(System.Int32 x, System.Int32 y, System.Single fadeInDuration, System.Single fadeOutDuration, UnityEngine.Color color)
+    // Offset: 0x2AC7B90
+    void HighlightTile(int x, int y, float fadeInDuration, float fadeOutDuration, ::UnityEngine::Color color);
+    // public System.Void DespawnAllTiles()
+    // Offset: 0x2AC861C
+    void DespawnAllTiles();
+    // private System.Void HandleFloorLightTileDidFinish(Ice.FloorLightTile floorLightTile)
+    // Offset: 0x2AC874C
+    void HandleFloorLightTileDidFinish(::Ice::FloorLightTile* floorLightTile);
+    // private System.Void DespawnTile(Ice.FloorLightTile floorLightTile)
+    // Offset: 0x2AC86DC
+    void DespawnTile(::Ice::FloorLightTile* floorLightTile);
   }; // Ice.FloorLightTilesGrid
   #pragma pack(pop)
   static check_size<sizeof(FloorLightTilesGrid), 68 + sizeof(int)> __Ice_FloorLightTilesGridSizeCheck;
@@ -158,6 +144,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Ice::F
     return ::il2cpp_utils::FindMethod(classof(Ice::FloorLightTilesGrid*), "get_ySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Ice::FloorLightTilesGrid::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Ice::FloorLightTilesGrid::Init
 // Il2CppName: Init
 template<>
@@ -210,7 +200,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Ice::
     return ::il2cpp_utils::FindMethod(classof(Ice::FloorLightTilesGrid*), "DespawnTile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{floorLightTile});
   }
 };
-// Writing MetadataGetter for method: Ice::FloorLightTilesGrid::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

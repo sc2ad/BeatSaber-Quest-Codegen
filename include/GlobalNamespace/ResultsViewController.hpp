@@ -79,15 +79,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::ResultsViewController::$StartFireworksAfterDelay$d__32
     class $StartFireworksAfterDelay$d__32;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Button _restartButton
     // Size: 0x8
     // Offset: 0x70
@@ -100,7 +92,7 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Button* continueButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125D208
+    // [SpaceAttribute] Offset: 0x10E1DEC
     // private UnityEngine.GameObject _clearedPanel
     // Size: 0x8
     // Offset: 0x80
@@ -137,7 +129,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* comboText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125D290
+    // [SpaceAttribute] Offset: 0x10E1E74
     // private UnityEngine.GameObject _clearedBannerGo
     // Size: 0x8
     // Offset: 0xB0
@@ -150,35 +142,35 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* failedBannerGo;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125D2D8
+    // [SpaceAttribute] Offset: 0x10E1EBC
     // private LevelBar _levelBar
     // Size: 0x8
     // Offset: 0xC0
     ::GlobalNamespace::LevelBar* levelBar;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LevelBar*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125D310
+    // [SpaceAttribute] Offset: 0x10E1EF4
     // private UnityEngine.AudioClip _levelClearedAudioClip
     // Size: 0x8
     // Offset: 0xC8
     ::UnityEngine::AudioClip* levelClearedAudioClip;
     // Field size check
     static_assert(sizeof(::UnityEngine::AudioClip*) == 0x8);
-    // [InjectAttribute] Offset: 0x125D348
+    // [InjectAttribute] Offset: 0x10E1F2C
     // private readonly FireworksController _fireworksController
     // Size: 0x8
     // Offset: 0xD0
     ::GlobalNamespace::FireworksController* fireworksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FireworksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x125D358
+    // [InjectAttribute] Offset: 0x10E1F3C
     // private readonly SongPreviewPlayer _songPreviewPlayer
     // Size: 0x8
     // Offset: 0xD8
     ::GlobalNamespace::SongPreviewPlayer* songPreviewPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SongPreviewPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0x125D368
+    // [InjectAttribute] Offset: 0x10E1F4C
     // private readonly ResultsEnvironmentManager _resultsEnvironmentManager
     // Size: 0x8
     // Offset: 0xE0
@@ -235,108 +227,101 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private UnityEngine.UI.Button _restartButton
-    ::UnityEngine::UI::Button*& dyn__restartButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__restartButton();
     // Get instance field reference: private UnityEngine.UI.Button _continueButton
-    ::UnityEngine::UI::Button*& dyn__continueButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__continueButton();
     // Get instance field reference: private UnityEngine.GameObject _clearedPanel
-    ::UnityEngine::GameObject*& dyn__clearedPanel();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__clearedPanel();
     // Get instance field reference: private TMPro.TextMeshProUGUI _scoreText
-    ::TMPro::TextMeshProUGUI*& dyn__scoreText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__scoreText();
     // Get instance field reference: private UnityEngine.GameObject _newHighScoreText
-    ::UnityEngine::GameObject*& dyn__newHighScoreText();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__newHighScoreText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _rankText
-    ::TMPro::TextMeshProUGUI*& dyn__rankText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__rankText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _goodCutsPercentageText
-    ::TMPro::TextMeshProUGUI*& dyn__goodCutsPercentageText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__goodCutsPercentageText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _comboText
-    ::TMPro::TextMeshProUGUI*& dyn__comboText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__comboText();
     // Get instance field reference: private UnityEngine.GameObject _clearedBannerGo
-    ::UnityEngine::GameObject*& dyn__clearedBannerGo();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__clearedBannerGo();
     // Get instance field reference: private UnityEngine.GameObject _failedBannerGo
-    ::UnityEngine::GameObject*& dyn__failedBannerGo();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__failedBannerGo();
     // Get instance field reference: private LevelBar _levelBar
-    ::GlobalNamespace::LevelBar*& dyn__levelBar();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelBar*& dyn__levelBar();
     // Get instance field reference: private UnityEngine.AudioClip _levelClearedAudioClip
-    ::UnityEngine::AudioClip*& dyn__levelClearedAudioClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioClip*& dyn__levelClearedAudioClip();
     // Get instance field reference: private readonly FireworksController _fireworksController
-    ::GlobalNamespace::FireworksController*& dyn__fireworksController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FireworksController*& dyn__fireworksController();
     // Get instance field reference: private readonly SongPreviewPlayer _songPreviewPlayer
-    ::GlobalNamespace::SongPreviewPlayer*& dyn__songPreviewPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongPreviewPlayer*& dyn__songPreviewPlayer();
     // Get instance field reference: private readonly ResultsEnvironmentManager _resultsEnvironmentManager
-    ::GlobalNamespace::ResultsEnvironmentManager*& dyn__resultsEnvironmentManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ResultsEnvironmentManager*& dyn__resultsEnvironmentManager();
     // Get instance field reference: private System.Action`1<ResultsViewController> continueButtonPressedEvent
-    ::System::Action_1<::GlobalNamespace::ResultsViewController*>*& dyn_continueButtonPressedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::ResultsViewController*>*& dyn_continueButtonPressedEvent();
     // Get instance field reference: private System.Action`1<ResultsViewController> restartButtonPressedEvent
-    ::System::Action_1<::GlobalNamespace::ResultsViewController*>*& dyn_restartButtonPressedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::ResultsViewController*>*& dyn_restartButtonPressedEvent();
     // Get instance field reference: private LevelCompletionResults _levelCompletionResults
-    ::GlobalNamespace::LevelCompletionResults*& dyn__levelCompletionResults();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelCompletionResults*& dyn__levelCompletionResults();
     // Get instance field reference: private IDifficultyBeatmap _difficultyBeatmap
-    ::GlobalNamespace::IDifficultyBeatmap*& dyn__difficultyBeatmap();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IDifficultyBeatmap*& dyn__difficultyBeatmap();
     // Get instance field reference: private IReadonlyBeatmapData _transformedBeatmapData
-    ::GlobalNamespace::IReadonlyBeatmapData*& dyn__transformedBeatmapData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IReadonlyBeatmapData*& dyn__transformedBeatmapData();
     // Get instance field reference: private UnityEngine.Coroutine _startFireworksAfterDelayCoroutine
-    ::UnityEngine::Coroutine*& dyn__startFireworksAfterDelayCoroutine();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Coroutine*& dyn__startFireworksAfterDelayCoroutine();
     // Get instance field reference: private System.Boolean _newHighScore
-    bool& dyn__newHighScore();
+    [[deprecated("Use field access instead!")]] bool& dyn__newHighScore();
     // Get instance field reference: private System.Boolean _practice
-    bool& dyn__practice();
+    [[deprecated("Use field access instead!")]] bool& dyn__practice();
     // public System.Boolean get_practice()
-    // Offset: 0x137EA8C
+    // Offset: 0x1456960
     bool get_practice();
     // public System.Void add_continueButtonPressedEvent(System.Action`1<ResultsViewController> value)
-    // Offset: 0x137E7FC
+    // Offset: 0x14566D0
     void add_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value);
     // public System.Void remove_continueButtonPressedEvent(System.Action`1<ResultsViewController> value)
-    // Offset: 0x137E8A0
+    // Offset: 0x1456774
     void remove_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value);
     // public System.Void add_restartButtonPressedEvent(System.Action`1<ResultsViewController> value)
-    // Offset: 0x137E944
+    // Offset: 0x1456818
     void add_restartButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value);
     // public System.Void remove_restartButtonPressedEvent(System.Action`1<ResultsViewController> value)
-    // Offset: 0x137E9E8
+    // Offset: 0x14568BC
     void remove_restartButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value);
-    // public System.Void Init(LevelCompletionResults levelCompletionResults, IReadonlyBeatmapData transformedBeatmapData, IDifficultyBeatmap difficultyBeatmap, System.Boolean practice, System.Boolean newHighScore)
-    // Offset: 0x137EA94
-    void Init(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, bool practice, bool newHighScore);
-    // private System.Collections.IEnumerator StartFireworksAfterDelay(System.Single delay)
-    // Offset: 0x137F4D4
-    ::System::Collections::IEnumerator* StartFireworksAfterDelay(float delay);
-    // private System.Void SetDataToUI()
-    // Offset: 0x137EC54
-    void SetDataToUI();
-    // private System.Void EnableResultsEnvironmentController()
-    // Offset: 0x137F128
-    void EnableResultsEnvironmentController();
-    // private System.Void DisableResultEnvironmentController()
-    // Offset: 0x137F630
-    void DisableResultEnvironmentController();
-    // private System.Void ContinueButtonPressed()
-    // Offset: 0x137F920
-    void ContinueButtonPressed();
-    // private System.Void RestartButtonPressed()
-    // Offset: 0x137F98C
-    void RestartButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0x137F9F8
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14578C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultsViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ResultsViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResultsViewController*, creationType>()));
     }
+    // public System.Void Init(LevelCompletionResults levelCompletionResults, IReadonlyBeatmapData transformedBeatmapData, IDifficultyBeatmap difficultyBeatmap, System.Boolean practice, System.Boolean newHighScore)
+    // Offset: 0x1456968
+    void Init(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, bool practice, bool newHighScore);
+    // private System.Collections.IEnumerator StartFireworksAfterDelay(System.Single delay)
+    // Offset: 0x14573A4
+    ::System::Collections::IEnumerator* StartFireworksAfterDelay(float delay);
+    // private System.Void SetDataToUI()
+    // Offset: 0x1456B28
+    void SetDataToUI();
+    // private System.Void EnableResultsEnvironmentController()
+    // Offset: 0x1456FF8
+    void EnableResultsEnvironmentController();
+    // private System.Void DisableResultEnvironmentController()
+    // Offset: 0x1457500
+    void DisableResultEnvironmentController();
+    // private System.Void ContinueButtonPressed()
+    // Offset: 0x14577F0
+    void ContinueButtonPressed();
+    // private System.Void RestartButtonPressed()
+    // Offset: 0x145785C
+    void RestartButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x137EAB0
+    // Offset: 0x1456984
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x137F554
+    // Offset: 0x1457424
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
@@ -390,6 +375,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsViewController*), "remove_restartButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ResultsViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ResultsViewController::Init
 // Il2CppName: Init
 template<>
@@ -452,10 +441,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsViewController*), "RestartButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ResultsViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ResultsViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

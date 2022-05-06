@@ -25,15 +25,7 @@ namespace BeatmapSaveDataVersion2_6_0AndEarlier {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapSaveData::EventData : public ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _time
     // Size: 0x4
     // Offset: 0x10
@@ -60,31 +52,31 @@ namespace BeatmapSaveDataVersion2_6_0AndEarlier {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private System.Single _time
-    float& dyn__time();
+    [[deprecated("Use field access instead!")]] float& dyn__time();
     // Get instance field reference: private BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapEventType _type
-    ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::BeatmapEventType& dyn__type();
+    [[deprecated("Use field access instead!")]] ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::BeatmapEventType& dyn__type();
     // Get instance field reference: private System.Int32 _value
-    int& dyn__value();
+    [[deprecated("Use field access instead!")]] int& dyn__value();
     // Get instance field reference: private System.Single _floatValue
-    float& dyn__floatValue();
+    [[deprecated("Use field access instead!")]] float& dyn__floatValue();
     // public BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapEventType get_type()
-    // Offset: 0x2819268
+    // Offset: 0x286B828
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::BeatmapEventType get_type();
     // public System.Int32 get_value()
-    // Offset: 0x2819270
+    // Offset: 0x286B830
     int get_value();
     // public System.Single get_floatValue()
-    // Offset: 0x2819278
+    // Offset: 0x286B838
     float get_floatValue();
     // public System.Void .ctor(System.Single time, BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapEventType type, System.Int32 value, System.Single floatValue)
-    // Offset: 0x281915C
+    // Offset: 0x286B71C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::EventData* New_ctor(float time, ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::BeatmapEventType type, int value, float floatValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::EventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::EventData*, creationType>(time, type, value, floatValue)));
     }
     // public override System.Single get_time()
-    // Offset: 0x2819260
+    // Offset: 0x286B820
     // Implemented from: BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveDataItem
     // Base method: System.Single BeatmapSaveDataItem::get_time()
     float get_time();

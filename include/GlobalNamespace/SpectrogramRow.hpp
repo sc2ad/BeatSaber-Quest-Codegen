@@ -43,15 +43,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SpectrogramRow : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.MeshRenderer[] _meshRenderers
     // Size: 0x8
     // Offset: 0x18
@@ -66,7 +58,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: dataIndex and: spectrogramData
     char __padding1[0x4] = {};
-    // [InjectAttribute] Offset: 0x1251FF0
+    // [InjectAttribute] Offset: 0x10D6B7C
     // private readonly BasicSpectrogramData _spectrogramData
     // Size: 0x8
     // Offset: 0x28
@@ -76,7 +68,7 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1252000
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D6B8C
     // Get static field: static private readonly System.Int32 _spectrogramDataID
     static int _get__spectrogramDataID();
     // Set static field: static private readonly System.Int32 _spectrogramDataID
@@ -86,41 +78,45 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
     // Get instance field reference: private UnityEngine.MeshRenderer[] _meshRenderers
-    ::ArrayW<::UnityEngine::MeshRenderer*>& dyn__meshRenderers();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::MeshRenderer*>& dyn__meshRenderers();
     // Get instance field reference: private System.Int32 _dataIndex
-    int& dyn__dataIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__dataIndex();
     // Get instance field reference: private readonly BasicSpectrogramData _spectrogramData
-    ::GlobalNamespace::BasicSpectrogramData*& dyn__spectrogramData();
-    // protected System.Void Awake()
-    // Offset: 0x2AAB720
-    void Awake();
-    // protected System.Void Update()
-    // Offset: 0x2AAB7CC
-    void Update();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BasicSpectrogramData*& dyn__spectrogramData();
     // public System.Void .ctor()
-    // Offset: 0x2AAB914
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1392538
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SpectrogramRow* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SpectrogramRow::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SpectrogramRow*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2AAB91C
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x1392540
     static void _cctor();
+    // protected System.Void Awake()
+    // Offset: 0x1392344
+    void Awake();
+    // protected System.Void Update()
+    // Offset: 0x13923F0
+    void Update();
   }; // SpectrogramRow
   #pragma pack(pop)
   static check_size<sizeof(SpectrogramRow), 40 + sizeof(::GlobalNamespace::BasicSpectrogramData*)> __GlobalNamespace_SpectrogramRowSizeCheck;
   static_assert(sizeof(SpectrogramRow) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SpectrogramRow::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::SpectrogramRow::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SpectrogramRow::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpectrogramRow*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SpectrogramRow::Awake
 // Il2CppName: Awake
 template<>
@@ -135,17 +131,5 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SpectrogramRow::*)()>(&GlobalNamespace::SpectrogramRow::Update)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpectrogramRow*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::SpectrogramRow::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::SpectrogramRow::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SpectrogramRow::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpectrogramRow*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

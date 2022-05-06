@@ -62,15 +62,7 @@ namespace HMUI {
     class $$c__DisplayClass17_0;
     // Nested type: ::HMUI::ModalView::$$c__DisplayClass21_0
     class $$c__DisplayClass21_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.PanelAnimationSO _presentPanelAnimations
     // Size: 0x8
     // Offset: 0x18
@@ -91,7 +83,7 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: animateParentCanvas and: container
     char __padding2[0x7] = {};
-    // [InjectAttribute] Offset: 0x123BC44
+    // [InjectAttribute] Offset: 0x10C071C
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x30
@@ -152,75 +144,69 @@ namespace HMUI {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.PanelAnimationSO _presentPanelAnimations
-    ::HMUI::PanelAnimationSO*& dyn__presentPanelAnimations();
+    [[deprecated("Use field access instead!")]] ::HMUI::PanelAnimationSO*& dyn__presentPanelAnimations();
     // Get instance field reference: private HMUI.PanelAnimationSO _dismissPanelAnimation
-    ::HMUI::PanelAnimationSO*& dyn__dismissPanelAnimation();
+    [[deprecated("Use field access instead!")]] ::HMUI::PanelAnimationSO*& dyn__dismissPanelAnimation();
     // Get instance field reference: private System.Boolean _animateParentCanvas
-    bool& dyn__animateParentCanvas();
+    [[deprecated("Use field access instead!")]] bool& dyn__animateParentCanvas();
     // Get instance field reference: private readonly Zenject.DiContainer _container
-    ::Zenject::DiContainer*& dyn__container();
+    [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn__container();
     // Get instance field reference: private System.Action blockerClickedEvent
-    ::System::Action*& dyn_blockerClickedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_blockerClickedEvent();
     // Get instance field reference: private UnityEngine.Transform _previousParent
-    ::UnityEngine::Transform*& dyn__previousParent();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__previousParent();
     // Get instance field reference: private System.Boolean _isShown
-    bool& dyn__isShown();
+    [[deprecated("Use field access instead!")]] bool& dyn__isShown();
     // Get instance field reference: private System.Boolean _viewIsValid
-    bool& dyn__viewIsValid();
+    [[deprecated("Use field access instead!")]] bool& dyn__viewIsValid();
     // Get instance field reference: private UnityEngine.Canvas _mainCanvas
-    ::UnityEngine::Canvas*& dyn__mainCanvas();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Canvas*& dyn__mainCanvas();
     // Get instance field reference: private UnityEngine.CanvasGroup _parentCanvasGroup
-    ::UnityEngine::CanvasGroup*& dyn__parentCanvasGroup();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::CanvasGroup*& dyn__parentCanvasGroup();
     // Get instance field reference: private UnityEngine.GameObject _blockerGO
-    ::UnityEngine::GameObject*& dyn__blockerGO();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__blockerGO();
     // Get instance field reference: private System.Int32 _test
-    int& dyn__test();
+    [[deprecated("Use field access instead!")]] int& dyn__test();
     // public System.Void add_blockerClickedEvent(System.Action value)
-    // Offset: 0x1683670
+    // Offset: 0x16B9F80
     void add_blockerClickedEvent(::System::Action* value);
     // public System.Void remove_blockerClickedEvent(System.Action value)
-    // Offset: 0x1683714
+    // Offset: 0x16BA024
     void remove_blockerClickedEvent(::System::Action* value);
-    // private System.Void OnDisable()
-    // Offset: 0x16837B8
-    void OnDisable();
-    // private System.Void OnDestroy()
-    // Offset: 0x168399C
-    void OnDestroy();
-    // private System.Void SetupView(UnityEngine.Transform screenTransform)
-    // Offset: 0x1683A4C
-    void SetupView(::UnityEngine::Transform* screenTransform);
-    // public System.Void Hide(System.Boolean animated, System.Action finishedCallback)
-    // Offset: 0x16837C4
-    void Hide(bool animated, ::System::Action* finishedCallback);
-    // public System.Void Show(System.Boolean animated, System.Boolean moveToCenter, System.Action finishedCallback)
-    // Offset: 0x1683D8C
-    void Show(bool animated, bool moveToCenter, ::System::Action* finishedCallback);
-    // private UnityEngine.GameObject CreateBlocker()
-    // Offset: 0x1684280
-    ::UnityEngine::GameObject* CreateBlocker();
-    // private System.Void HandleBlockerButtonClicked()
-    // Offset: 0x1684668
-    void HandleBlockerButtonClicked();
-    // private System.Void HandleParentViewControllerDidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x168467C
-    void HandleParentViewControllerDidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
-    // static private UnityEngine.Transform GetModalRootTransform(UnityEngine.Transform transform, out UnityEngine.Canvas canvas, out HMUI.ViewController viewController)
-    // Offset: 0x1684194
-    static ::UnityEngine::Transform* GetModalRootTransform(::UnityEngine::Transform* transform, ByRef<::UnityEngine::Canvas*> canvas, ByRef<::HMUI::ViewController*> viewController);
     // public System.Void .ctor()
-    // Offset: 0x1684744
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16BB054
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ModalView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ModalView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ModalView*, creationType>()));
     }
+    // private System.Void OnDisable()
+    // Offset: 0x16BA0C8
+    void OnDisable();
+    // private System.Void OnDestroy()
+    // Offset: 0x16BA2AC
+    void OnDestroy();
+    // private System.Void SetupView(UnityEngine.Transform screenTransform)
+    // Offset: 0x16BA35C
+    void SetupView(::UnityEngine::Transform* screenTransform);
+    // public System.Void Hide(System.Boolean animated, System.Action finishedCallback)
+    // Offset: 0x16BA0D4
+    void Hide(bool animated, ::System::Action* finishedCallback);
+    // public System.Void Show(System.Boolean animated, System.Boolean moveToCenter, System.Action finishedCallback)
+    // Offset: 0x16BA69C
+    void Show(bool animated, bool moveToCenter, ::System::Action* finishedCallback);
+    // private UnityEngine.GameObject CreateBlocker()
+    // Offset: 0x16BAB90
+    ::UnityEngine::GameObject* CreateBlocker();
+    // private System.Void HandleBlockerButtonClicked()
+    // Offset: 0x16BAF78
+    void HandleBlockerButtonClicked();
+    // private System.Void HandleParentViewControllerDidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    // Offset: 0x16BAF8C
+    void HandleParentViewControllerDidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
+    // static private UnityEngine.Transform GetModalRootTransform(UnityEngine.Transform transform, out UnityEngine.Canvas canvas, out HMUI.ViewController viewController)
+    // Offset: 0x16BAAA4
+    static ::UnityEngine::Transform* GetModalRootTransform(::UnityEngine::Transform* transform, ByRef<::UnityEngine::Canvas*> canvas, ByRef<::HMUI::ViewController*> viewController);
   }; // HMUI.ModalView
   #pragma pack(pop)
   static check_size<sizeof(ModalView), 104 + sizeof(int)> __HMUI_ModalViewSizeCheck;
@@ -245,6 +231,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::ModalView*), "remove_blockerClickedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: HMUI::ModalView::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::ModalView::OnDisable
 // Il2CppName: OnDisable
 template<>
@@ -328,7 +318,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(HMUI::ModalView*), "GetModalRootTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transform, canvas, viewController});
   }
 };
-// Writing MetadataGetter for method: HMUI::ModalView::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

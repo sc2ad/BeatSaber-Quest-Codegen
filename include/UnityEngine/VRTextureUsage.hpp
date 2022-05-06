@@ -66,7 +66,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.VRTextureUsage DeviceSpecific
     static void _set_DeviceSpecific(::UnityEngine::VRTextureUsage value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.VRTextureUsage
   #pragma pack(pop)
   static check_size<sizeof(VRTextureUsage), 0 + sizeof(int)> __UnityEngine_VRTextureUsageSizeCheck;

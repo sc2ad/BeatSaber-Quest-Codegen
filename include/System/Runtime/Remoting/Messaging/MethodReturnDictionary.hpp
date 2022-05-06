@@ -46,14 +46,14 @@ namespace System::Runtime::Remoting::Messaging {
     // Set static field: static public System.String[] InternalExceptionKeys
     static void _set_InternalExceptionKeys(::ArrayW<::StringW> value);
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodReturnMessage message)
-    // Offset: 0x1C6D4C4
+    // Offset: 0x1C8A7D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MethodReturnDictionary* New_ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::MethodReturnDictionary::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MethodReturnDictionary*, creationType>(message)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1C6DAD0
+    // Offset: 0x1C8ADDC
     static void _cctor();
   }; // System.Runtime.Remoting.Messaging.MethodReturnDictionary
   #pragma pack(pop)

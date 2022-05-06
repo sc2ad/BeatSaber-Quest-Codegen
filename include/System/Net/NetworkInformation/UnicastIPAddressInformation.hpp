@@ -29,10 +29,9 @@ namespace System::Net::NetworkInformation {
   class UnicastIPAddressInformation : public ::System::Net::NetworkInformation::IPAddressInformation {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x1B2C90C
+    // Offset: 0x1B66EF4
     // Implemented from: System.Net.NetworkInformation.IPAddressInformation
     // Base method: System.Void IPAddressInformation::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnicastIPAddressInformation* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::UnicastIPAddressInformation::.ctor");

@@ -46,9 +46,9 @@ namespace System::Globalization {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: System.String webName
-    ::StringW& dyn_webName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_webName();
     // Get instance field reference: System.UInt16 codePage
-    uint16_t& dyn_codePage();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_codePage();
   }; // System.Globalization.InternalEncodingDataItem
   #pragma pack(pop)
   static check_size<sizeof(InternalEncodingDataItem), 8 + sizeof(uint16_t)> __System_Globalization_InternalEncodingDataItemSizeCheck;

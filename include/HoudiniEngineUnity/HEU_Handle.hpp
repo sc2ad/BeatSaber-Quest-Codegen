@@ -92,20 +92,12 @@ namespace HoudiniEngineUnity {
       // Set static field: static public HoudiniEngineUnity.HEU_Handle/HoudiniEngineUnity.HEU_HandleType UNSUPPORTED
       static void _set_UNSUPPORTED(::HoudiniEngineUnity::HEU_Handle::HEU_HandleType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // HoudiniEngineUnity.HEU_Handle/HoudiniEngineUnity.HEU_HandleType
     #pragma pack(pop)
     static check_size<sizeof(HEU_Handle::HEU_HandleType), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_Handle_HEU_HandleTypeSizeCheck;
     static_assert(sizeof(HEU_Handle::HEU_HandleType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _handleName
     // Size: 0x8
     // Offset: 0x18
@@ -186,112 +178,108 @@ namespace HoudiniEngineUnity {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _handleName
-    ::StringW& dyn__handleName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__handleName();
     // Get instance field reference: private HoudiniEngineUnity.HEU_Handle/HoudiniEngineUnity.HEU_HandleType _handleType
-    ::HoudiniEngineUnity::HEU_Handle::HEU_HandleType& dyn__handleType();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_Handle::HEU_HandleType& dyn__handleType();
     // Get instance field reference: private System.Int32 _handleIndex
-    int& dyn__handleIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__handleIndex();
     // Get instance field reference: private HoudiniEngineUnity.HEU_HandleParamBinding _handleParamTranslateBinding
-    ::HoudiniEngineUnity::HEU_HandleParamBinding*& dyn__handleParamTranslateBinding();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_HandleParamBinding*& dyn__handleParamTranslateBinding();
     // Get instance field reference: private HoudiniEngineUnity.HEU_HandleParamBinding _handleParamRotateBinding
-    ::HoudiniEngineUnity::HEU_HandleParamBinding*& dyn__handleParamRotateBinding();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_HandleParamBinding*& dyn__handleParamRotateBinding();
     // Get instance field reference: private HoudiniEngineUnity.HEU_HandleParamBinding _handleParamScaleBinding
-    ::HoudiniEngineUnity::HEU_HandleParamBinding*& dyn__handleParamScaleBinding();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_HandleParamBinding*& dyn__handleParamScaleBinding();
     // Get instance field reference: private UnityEngine.Vector3 _handlePosition
-    ::UnityEngine::Vector3& dyn__handlePosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__handlePosition();
     // Get instance field reference: private UnityEngine.Quaternion _handleRotation
-    ::UnityEngine::Quaternion& dyn__handleRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__handleRotation();
     // Get instance field reference: private UnityEngine.Vector3 _handleScale
-    ::UnityEngine::Vector3& dyn__handleScale();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__handleScale();
     // Get instance field reference: private HoudiniEngineUnity.HAPI_RSTOrder _rstOrder
-    ::HoudiniEngineUnity::HAPI_RSTOrder& dyn__rstOrder();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_RSTOrder& dyn__rstOrder();
     // Get instance field reference: private HoudiniEngineUnity.HAPI_XYZOrder _xyzOrder
-    ::HoudiniEngineUnity::HAPI_XYZOrder& dyn__xyzOrder();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_XYZOrder& dyn__xyzOrder();
     // Get instance field reference: private HoudiniEngineUnity.HAPI_TransformEuler _convertedTransformEuler
-    ::HoudiniEngineUnity::HAPI_TransformEuler& dyn__convertedTransformEuler();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_TransformEuler& dyn__convertedTransformEuler();
     // public System.String get_HandleName()
-    // Offset: 0x18E0FA8
+    // Offset: 0x19198B8
     ::StringW get_HandleName();
     // public HoudiniEngineUnity.HEU_Handle/HoudiniEngineUnity.HEU_HandleType get_HandleType()
-    // Offset: 0x18E0FB0
+    // Offset: 0x19198C0
     ::HoudiniEngineUnity::HEU_Handle::HEU_HandleType get_HandleType();
     // public HoudiniEngineUnity.HAPI_RSTOrder get_RSTOrder()
-    // Offset: 0x18E0FB8
+    // Offset: 0x19198C8
     ::HoudiniEngineUnity::HAPI_RSTOrder get_RSTOrder();
     // public HoudiniEngineUnity.HAPI_XYZOrder get_XYZOrder()
-    // Offset: 0x18E0FC0
+    // Offset: 0x19198D0
     ::HoudiniEngineUnity::HAPI_XYZOrder get_XYZOrder();
     // public HoudiniEngineUnity.HAPI_TransformEuler get_ConvertedTransformEuler()
-    // Offset: 0x18E0FC8
+    // Offset: 0x19198D8
     ::HoudiniEngineUnity::HAPI_TransformEuler get_ConvertedTransformEuler();
     // public UnityEngine.Vector3 get_HandlePosition()
-    // Offset: 0x18E1084
+    // Offset: 0x1919994
     ::UnityEngine::Vector3 get_HandlePosition();
     // public UnityEngine.Quaternion get_HandleRotation()
-    // Offset: 0x18E1090
+    // Offset: 0x19199A0
     ::UnityEngine::Quaternion get_HandleRotation();
     // public UnityEngine.Vector3 get_HandleScale()
-    // Offset: 0x18E109C
+    // Offset: 0x19199AC
     ::UnityEngine::Vector3 get_HandleScale();
-    // public System.Boolean HasTranslateHandle()
-    // Offset: 0x18E0FDC
-    bool HasTranslateHandle();
-    // public System.Boolean HasRotateHandle()
-    // Offset: 0x18E0FEC
-    bool HasRotateHandle();
-    // public System.Boolean HasScaleHandle()
-    // Offset: 0x18E0FFC
-    bool HasScaleHandle();
-    // public System.Boolean IsTranslateHandleDisabled()
-    // Offset: 0x18E100C
-    bool IsTranslateHandleDisabled();
-    // public System.Boolean IsRotateHandleDisabled()
-    // Offset: 0x18E102C
-    bool IsRotateHandleDisabled();
-    // public System.Boolean IsScaleHandleDisabled()
-    // Offset: 0x18E104C
-    bool IsScaleHandleDisabled();
-    // public HoudiniEngineUnity.HEU_HandleParamBinding GetTranslateBinding()
-    // Offset: 0x18E106C
-    ::HoudiniEngineUnity::HEU_HandleParamBinding* GetTranslateBinding();
-    // public HoudiniEngineUnity.HEU_HandleParamBinding GetRotateBinding()
-    // Offset: 0x18E1074
-    ::HoudiniEngineUnity::HEU_HandleParamBinding* GetRotateBinding();
-    // public HoudiniEngineUnity.HEU_HandleParamBinding GetScaleBinding()
-    // Offset: 0x18E107C
-    ::HoudiniEngineUnity::HEU_HandleParamBinding* GetScaleBinding();
-    // public System.Boolean SetupHandle(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 assetID, System.Int32 handleIndex, System.String handleName, HoudiniEngineUnity.HEU_Handle/HoudiniEngineUnity.HEU_HandleType handleType, ref HoudiniEngineUnity.HAPI_HandleInfo handleInfo, HoudiniEngineUnity.HEU_Parameters parameters)
-    // Offset: 0x18E10A8
-    bool SetupHandle(::HoudiniEngineUnity::HEU_SessionBase* session, int assetID, int handleIndex, ::StringW handleName, ::HoudiniEngineUnity::HEU_Handle::HEU_HandleType handleType, ByRef<::HoudiniEngineUnity::HAPI_HandleInfo> handleInfo, ::HoudiniEngineUnity::HEU_Parameters* parameters);
-    // public System.Void CleanUp()
-    // Offset: 0x18E1EA0
-    void CleanUp();
-    // public System.Void GenerateTransform(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_Parameters parameters)
-    // Offset: 0x18E18BC
-    void GenerateTransform(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_Parameters* parameters);
-    // public System.Boolean GetUpdatedPosition(HoudiniEngineUnity.HEU_HoudiniAsset asset, ref UnityEngine.Vector3 inPosition)
-    // Offset: 0x18E1EC4
-    bool GetUpdatedPosition(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ByRef<::UnityEngine::Vector3> inPosition);
-    // public System.Boolean GetUpdatedRotation(HoudiniEngineUnity.HEU_HoudiniAsset asset, ref UnityEngine.Quaternion inRotation)
-    // Offset: 0x18E2230
-    bool GetUpdatedRotation(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ByRef<::UnityEngine::Quaternion> inRotation);
-    // static public System.Boolean IsSpecialRSTOrder(HoudiniEngineUnity.HAPI_RSTOrder rstOrder)
-    // Offset: 0x18E1EAC
-    static bool IsSpecialRSTOrder(::HoudiniEngineUnity::HAPI_RSTOrder rstOrder);
-    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_Handle other)
-    // Offset: 0x18E249C
-    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_Handle* other);
     // public System.Void .ctor()
-    // Offset: 0x18E2884
-    // Implemented from: UnityEngine.ScriptableObject
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x191B194
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_Handle* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Handle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_Handle*, creationType>()));
     }
+    // public System.Boolean HasTranslateHandle()
+    // Offset: 0x19198EC
+    bool HasTranslateHandle();
+    // public System.Boolean HasRotateHandle()
+    // Offset: 0x19198FC
+    bool HasRotateHandle();
+    // public System.Boolean HasScaleHandle()
+    // Offset: 0x191990C
+    bool HasScaleHandle();
+    // public System.Boolean IsTranslateHandleDisabled()
+    // Offset: 0x191991C
+    bool IsTranslateHandleDisabled();
+    // public System.Boolean IsRotateHandleDisabled()
+    // Offset: 0x191993C
+    bool IsRotateHandleDisabled();
+    // public System.Boolean IsScaleHandleDisabled()
+    // Offset: 0x191995C
+    bool IsScaleHandleDisabled();
+    // public HoudiniEngineUnity.HEU_HandleParamBinding GetTranslateBinding()
+    // Offset: 0x191997C
+    ::HoudiniEngineUnity::HEU_HandleParamBinding* GetTranslateBinding();
+    // public HoudiniEngineUnity.HEU_HandleParamBinding GetRotateBinding()
+    // Offset: 0x1919984
+    ::HoudiniEngineUnity::HEU_HandleParamBinding* GetRotateBinding();
+    // public HoudiniEngineUnity.HEU_HandleParamBinding GetScaleBinding()
+    // Offset: 0x191998C
+    ::HoudiniEngineUnity::HEU_HandleParamBinding* GetScaleBinding();
+    // public System.Boolean SetupHandle(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 assetID, System.Int32 handleIndex, System.String handleName, HoudiniEngineUnity.HEU_Handle/HoudiniEngineUnity.HEU_HandleType handleType, ref HoudiniEngineUnity.HAPI_HandleInfo handleInfo, HoudiniEngineUnity.HEU_Parameters parameters)
+    // Offset: 0x19199B8
+    bool SetupHandle(::HoudiniEngineUnity::HEU_SessionBase* session, int assetID, int handleIndex, ::StringW handleName, ::HoudiniEngineUnity::HEU_Handle::HEU_HandleType handleType, ByRef<::HoudiniEngineUnity::HAPI_HandleInfo> handleInfo, ::HoudiniEngineUnity::HEU_Parameters* parameters);
+    // public System.Void CleanUp()
+    // Offset: 0x191A7B0
+    void CleanUp();
+    // public System.Void GenerateTransform(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_Parameters parameters)
+    // Offset: 0x191A1CC
+    void GenerateTransform(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_Parameters* parameters);
+    // public System.Boolean GetUpdatedPosition(HoudiniEngineUnity.HEU_HoudiniAsset asset, ref UnityEngine.Vector3 inPosition)
+    // Offset: 0x191A7D4
+    bool GetUpdatedPosition(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ByRef<::UnityEngine::Vector3> inPosition);
+    // public System.Boolean GetUpdatedRotation(HoudiniEngineUnity.HEU_HoudiniAsset asset, ref UnityEngine.Quaternion inRotation)
+    // Offset: 0x191AB40
+    bool GetUpdatedRotation(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ByRef<::UnityEngine::Quaternion> inRotation);
+    // static public System.Boolean IsSpecialRSTOrder(HoudiniEngineUnity.HAPI_RSTOrder rstOrder)
+    // Offset: 0x191A7BC
+    static bool IsSpecialRSTOrder(::HoudiniEngineUnity::HAPI_RSTOrder rstOrder);
+    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_Handle other)
+    // Offset: 0x191ADAC
+    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_Handle* other);
   }; // HoudiniEngineUnity.HEU_Handle
   #pragma pack(pop)
   static check_size<sizeof(HEU_Handle), 112 + sizeof(::HoudiniEngineUnity::HAPI_TransformEuler)> __HoudiniEngineUnity_HEU_HandleSizeCheck;
@@ -364,6 +352,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Handle*), "get_HandleScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Handle::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Handle::HasTranslateHandle
 // Il2CppName: HasTranslateHandle
 template<>
@@ -507,7 +499,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Handle*), "IsEquivalentTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Handle::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

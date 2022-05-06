@@ -49,15 +49,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionNodeConnection : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _separator
     // Size: 0x4
     // Offset: 0x18
@@ -82,14 +74,14 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Image* image;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Image*) == 0x8);
-    // [NullAllowed] Offset: 0x1259C3C
+    // [NullAllowed] Offset: 0x10DE820
     // private MissionNodeVisualController _parentMissionNode
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::MissionNodeVisualController* parentMissionNode;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissionNodeVisualController*) == 0x8);
-    // [NullAllowed] Offset: 0x1259C78
+    // [NullAllowed] Offset: 0x10DE85C
     // private MissionNodeVisualController _childMissionNode
     // Size: 0x8
     // Offset: 0x38
@@ -124,59 +116,53 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _separator
-    float& dyn__separator();
+    [[deprecated("Use field access instead!")]] float& dyn__separator();
     // Get instance field reference: private System.Single _width
-    float& dyn__width();
+    [[deprecated("Use field access instead!")]] float& dyn__width();
     // Get instance field reference: private UnityEngine.RectTransform _rectTransform
-    ::UnityEngine::RectTransform*& dyn__rectTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__rectTransform();
     // Get instance field reference: private UnityEngine.UI.Image _image
-    ::UnityEngine::UI::Image*& dyn__image();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__image();
     // Get instance field reference: private MissionNodeVisualController _parentMissionNode
-    ::GlobalNamespace::MissionNodeVisualController*& dyn__parentMissionNode();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionNodeVisualController*& dyn__parentMissionNode();
     // Get instance field reference: private MissionNodeVisualController _childMissionNode
-    ::GlobalNamespace::MissionNodeVisualController*& dyn__childMissionNode();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionNodeVisualController*& dyn__childMissionNode();
     // Get instance field reference: private UnityEngine.Animator _animator
-    ::UnityEngine::Animator*& dyn__animator();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Animator*& dyn__animator();
     // Get instance field reference: private UnityEngine.Vector2 _parentMissionNodePosition
-    ::UnityEngine::Vector2& dyn__parentMissionNodePosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn__parentMissionNodePosition();
     // Get instance field reference: private UnityEngine.Vector2 _childMissionNodePosition
-    ::UnityEngine::Vector2& dyn__childMissionNodePosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn__childMissionNodePosition();
     // Get instance field reference: private System.Boolean _isActive
-    bool& dyn__isActive();
+    [[deprecated("Use field access instead!")]] bool& dyn__isActive();
     // public MissionNodeVisualController get_parentMissionNode()
-    // Offset: 0x13092FC
+    // Offset: 0x13057D4
     ::GlobalNamespace::MissionNodeVisualController* get_parentMissionNode();
     // public MissionNodeVisualController get_childMissionNode()
-    // Offset: 0x1309304
+    // Offset: 0x13057DC
     ::GlobalNamespace::MissionNodeVisualController* get_childMissionNode();
     // public System.Boolean get_isActive()
-    // Offset: 0x130930C
+    // Offset: 0x13057E4
     bool get_isActive();
-    // public System.Void Setup(MissionNodeVisualController parentMissionNode, MissionNodeVisualController childMissionNode)
-    // Offset: 0x1304DC0
-    void Setup(::GlobalNamespace::MissionNodeVisualController* parentMissionNode, ::GlobalNamespace::MissionNodeVisualController* childMissionNode);
-    // public System.Void UpdateConnectionRectTransform()
-    // Offset: 0x1309314
-    void UpdateConnectionRectTransform();
-    // public System.Void SetActive(System.Boolean animated)
-    // Offset: 0x1308E9C
-    void SetActive(bool animated);
-    // public System.Void MissionConnectionEnabledDidFinish()
-    // Offset: 0x1309604
-    void MissionConnectionEnabledDidFinish();
     // public System.Void .ctor()
-    // Offset: 0x1309624
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1305AFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionNodeConnection* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionNodeConnection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionNodeConnection*, creationType>()));
     }
+    // public System.Void Setup(MissionNodeVisualController parentMissionNode, MissionNodeVisualController childMissionNode)
+    // Offset: 0x1301298
+    void Setup(::GlobalNamespace::MissionNodeVisualController* parentMissionNode, ::GlobalNamespace::MissionNodeVisualController* childMissionNode);
+    // public System.Void UpdateConnectionRectTransform()
+    // Offset: 0x13057EC
+    void UpdateConnectionRectTransform();
+    // public System.Void SetActive(System.Boolean animated)
+    // Offset: 0x1305374
+    void SetActive(bool animated);
+    // public System.Void MissionConnectionEnabledDidFinish()
+    // Offset: 0x1305ADC
+    void MissionConnectionEnabledDidFinish();
   }; // MissionNodeConnection
   #pragma pack(pop)
   static check_size<sizeof(MissionNodeConnection), 88 + sizeof(bool)> __GlobalNamespace_MissionNodeConnectionSizeCheck;
@@ -207,6 +193,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeConnection*), "get_isActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodeConnection::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeConnection::Setup
 // Il2CppName: Setup
 template<>
@@ -242,7 +232,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeConnection*), "MissionConnectionEnabledDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MissionNodeConnection::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -27,15 +27,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class Array::ArrayEnumerator : public ::Il2CppObject/*, public ::System::ICloneable, public ::System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Array _array
     // Size: 0x8
     // Offset: 0x10
@@ -64,29 +56,29 @@ namespace System {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
     // Get instance field reference: private System.Array _array
-    ::System::Array*& dyn__array();
+    [[deprecated("Use field access instead!")]] ::System::Array*& dyn__array();
     // Get instance field reference: private System.Int32 _index
-    int& dyn__index();
+    [[deprecated("Use field access instead!")]] int& dyn__index();
     // Get instance field reference: private System.Int32 _endIndex
-    int& dyn__endIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__endIndex();
     // public System.Object get_Current()
-    // Offset: 0x1E69248
+    // Offset: 0x1EB7780
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Array array)
-    // Offset: 0x1E68828
+    // Offset: 0x1EB6D60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Array::ArrayEnumerator* New_ctor(::System::Array* array) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Array::ArrayEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Array::ArrayEnumerator*, creationType>(array)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1E6920C
+    // Offset: 0x1EB7744
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1E69234
+    // Offset: 0x1EB776C
     void Reset();
     // public System.Object Clone()
-    // Offset: 0x1E69240
+    // Offset: 0x1EB7778
     ::Il2CppObject* Clone();
   }; // System.Array/System.ArrayEnumerator
   #pragma pack(pop)

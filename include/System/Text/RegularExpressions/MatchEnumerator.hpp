@@ -37,15 +37,7 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class MatchEnumerator : public ::Il2CppObject/*, public ::System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Text.RegularExpressions.MatchCollection _matchcoll
     // Size: 0x8
     // Offset: 0x10
@@ -76,28 +68,28 @@ namespace System::Text::RegularExpressions {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
     // Get instance field reference: System.Text.RegularExpressions.MatchCollection _matchcoll
-    ::System::Text::RegularExpressions::MatchCollection*& dyn__matchcoll();
+    [[deprecated("Use field access instead!")]] ::System::Text::RegularExpressions::MatchCollection*& dyn__matchcoll();
     // Get instance field reference: System.Text.RegularExpressions.Match _match
-    ::System::Text::RegularExpressions::Match*& dyn__match();
+    [[deprecated("Use field access instead!")]] ::System::Text::RegularExpressions::Match*& dyn__match();
     // Get instance field reference: System.Int32 _curindex
-    int& dyn__curindex();
+    [[deprecated("Use field access instead!")]] int& dyn__curindex();
     // Get instance field reference: System.Boolean _done
-    bool& dyn__done();
+    [[deprecated("Use field access instead!")]] bool& dyn__done();
     // public System.Object get_Current()
-    // Offset: 0x1BC4C44
+    // Offset: 0x1BFF22C
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Text.RegularExpressions.MatchCollection matchcoll)
-    // Offset: 0x1BC4B20
+    // Offset: 0x1BFF108
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchEnumerator* New_ctor(::System::Text::RegularExpressions::MatchCollection* matchcoll) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::MatchEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MatchEnumerator*, creationType>(matchcoll)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1BC4BE0
+    // Offset: 0x1BFF1C8
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1BC4CDC
+    // Offset: 0x1BFF2C4
     void Reset();
   }; // System.Text.RegularExpressions.MatchEnumerator
   #pragma pack(pop)

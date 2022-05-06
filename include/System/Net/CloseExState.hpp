@@ -61,7 +61,7 @@ namespace System::Net {
     // Set static field: static public System.Net.CloseExState Silent
     static void _set_Silent(::System::Net::CloseExState value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Net.CloseExState
   #pragma pack(pop)
   static check_size<sizeof(CloseExState), 0 + sizeof(int)> __System_Net_CloseExStateSizeCheck;

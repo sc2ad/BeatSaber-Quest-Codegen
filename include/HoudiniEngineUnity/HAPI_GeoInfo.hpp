@@ -116,31 +116,31 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public HoudiniEngineUnity.HAPI_GeoType type
-    ::HoudiniEngineUnity::HAPI_GeoType& dyn_type();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_GeoType& dyn_type();
     // Get instance field reference: public System.Int32 nameSH
-    int& dyn_nameSH();
+    [[deprecated("Use field access instead!")]] int& dyn_nameSH();
     // Get instance field reference: public System.Int32 nodeId
-    int& dyn_nodeId();
+    [[deprecated("Use field access instead!")]] int& dyn_nodeId();
     // Get instance field reference: public System.Boolean isEditable
-    bool& dyn_isEditable();
+    [[deprecated("Use field access instead!")]] bool& dyn_isEditable();
     // Get instance field reference: public System.Boolean isTemplated
-    bool& dyn_isTemplated();
+    [[deprecated("Use field access instead!")]] bool& dyn_isTemplated();
     // Get instance field reference: public System.Boolean isDisplayGeo
-    bool& dyn_isDisplayGeo();
+    [[deprecated("Use field access instead!")]] bool& dyn_isDisplayGeo();
     // Get instance field reference: public System.Boolean hasGeoChanged
-    bool& dyn_hasGeoChanged();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasGeoChanged();
     // Get instance field reference: public System.Boolean hasMaterialChanged
-    bool& dyn_hasMaterialChanged();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasMaterialChanged();
     // Get instance field reference: public System.Int32 pointGroupCount
-    int& dyn_pointGroupCount();
+    [[deprecated("Use field access instead!")]] int& dyn_pointGroupCount();
     // Get instance field reference: public System.Int32 primitiveGroupCount
-    int& dyn_primitiveGroupCount();
+    [[deprecated("Use field access instead!")]] int& dyn_primitiveGroupCount();
     // Get instance field reference: public System.Int32 edgeGroupCount
-    int& dyn_edgeGroupCount();
+    [[deprecated("Use field access instead!")]] int& dyn_edgeGroupCount();
     // Get instance field reference: public System.Int32 partCount
-    int& dyn_partCount();
+    [[deprecated("Use field access instead!")]] int& dyn_partCount();
     // public System.Int32 getGroupCountByType(HoudiniEngineUnity.HAPI_GroupType type)
-    // Offset: 0x16AA208
+    // Offset: 0x16E1B18
     int getGroupCountByType(::HoudiniEngineUnity::HAPI_GroupType type);
   }; // HoudiniEngineUnity.HAPI_GeoInfo
   #pragma pack(pop)

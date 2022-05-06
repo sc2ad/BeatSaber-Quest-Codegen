@@ -28,15 +28,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PracticeSettings : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _startSongTime
     // Size: 0x4
     // Offset: 0x10
@@ -63,58 +55,56 @@ namespace GlobalNamespace {
     // Set static field: static public System.Single kDelayBeforeStart
     static void _set_kDelayBeforeStart(float value);
     // Get instance field reference: private System.Single _startSongTime
-    float& dyn__startSongTime();
+    [[deprecated("Use field access instead!")]] float& dyn__startSongTime();
     // Get instance field reference: private System.Single _songSpeedMul
-    float& dyn__songSpeedMul();
+    [[deprecated("Use field access instead!")]] float& dyn__songSpeedMul();
     // Get instance field reference: private System.Boolean _startInAdvanceAndClearNotes
-    bool& dyn__startInAdvanceAndClearNotes();
+    [[deprecated("Use field access instead!")]] bool& dyn__startInAdvanceAndClearNotes();
     // public System.Single get_startSongTime()
-    // Offset: 0x13777A0
+    // Offset: 0x13DEB5C
     float get_startSongTime();
     // public System.Void set_startSongTime(System.Single value)
-    // Offset: 0x13777A8
+    // Offset: 0x13DEB64
     void set_startSongTime(float value);
     // public System.Single get_songSpeedMul()
-    // Offset: 0x13777B0
+    // Offset: 0x13DEB6C
     float get_songSpeedMul();
     // public System.Void set_songSpeedMul(System.Single value)
-    // Offset: 0x13777B8
+    // Offset: 0x13DEB74
     void set_songSpeedMul(float value);
     // public System.Boolean get_startInAdvanceAndClearNotes()
-    // Offset: 0x13777C0
+    // Offset: 0x13DEB7C
     bool get_startInAdvanceAndClearNotes();
     // public System.Void set_startInAdvanceAndClearNotes(System.Boolean value)
-    // Offset: 0x13777C8
+    // Offset: 0x13DEB84
     void set_startInAdvanceAndClearNotes(bool value);
     // static public PracticeSettings get_defaultPracticeSettings()
-    // Offset: 0x13777D4
+    // Offset: 0x13DEB90
     static ::GlobalNamespace::PracticeSettings* get_defaultPracticeSettings();
+    // public System.Void .ctor()
+    // Offset: 0x13D6A48
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static PracticeSettings* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PracticeSettings::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<PracticeSettings*, creationType>()));
+    }
     // public System.Void .ctor(PracticeSettings practiceSettings)
-    // Offset: 0x137789C
+    // Offset: 0x13DEC1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PracticeSettings* New_ctor(::GlobalNamespace::PracticeSettings* practiceSettings) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PracticeSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PracticeSettings*, creationType>(practiceSettings)));
     }
     // public System.Void .ctor(System.Single startSongTime, System.Single songSpeedMul)
-    // Offset: 0x13778F0
+    // Offset: 0x13D6340
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PracticeSettings* New_ctor(float startSongTime, float songSpeedMul) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PracticeSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PracticeSettings*, creationType>(startSongTime, songSpeedMul)));
     }
     // public System.Void ResetToDefault()
-    // Offset: 0x1377884
+    // Offset: 0x13DEC04
     void ResetToDefault();
-    // public System.Void .ctor()
-    // Offset: 0x1377848
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PracticeSettings* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PracticeSettings::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<PracticeSettings*, creationType>()));
-    }
   }; // PracticeSettings
   #pragma pack(pop)
   static check_size<sizeof(PracticeSettings), 24 + sizeof(bool)> __GlobalNamespace_PracticeSettingsSizeCheck;
@@ -188,6 +178,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::PracticeSettings::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PracticeSettings::ResetToDefault
 // Il2CppName: ResetToDefault
 template<>
@@ -196,7 +190,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeSettings*), "ResetToDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PracticeSettings::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

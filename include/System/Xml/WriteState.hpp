@@ -84,7 +84,7 @@ namespace System::Xml {
     // Set static field: static public System.Xml.WriteState Error
     static void _set_Error(::System::Xml::WriteState value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Xml.WriteState
   #pragma pack(pop)
   static check_size<sizeof(WriteState), 0 + sizeof(int)> __System_Xml_WriteStateSizeCheck;

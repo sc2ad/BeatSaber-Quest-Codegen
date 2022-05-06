@@ -45,26 +45,26 @@ namespace System::Globalization {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private System.Int32 m_pos
-    int& dyn_m_pos();
+    [[deprecated("Use field access instead!")]] int& dyn_m_pos();
     // Get instance field reference: private System.String m_value
-    ::StringW& dyn_m_value();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_value();
     // System.Boolean get_EOL()
-    // Offset: 0x1F546A0
+    // Offset: 0x1FA0F14
     bool get_EOL();
     // System.Char get_NextChar()
-    // Offset: 0x1F54690
+    // Offset: 0x1FA0F04
     ::Il2CppChar get_NextChar();
     // System.Char get_CurrentChar()
-    // Offset: 0x1F54658
+    // Offset: 0x1FA0ECC
     ::Il2CppChar get_CurrentChar();
     // System.Void Init(System.String input)
-    // Offset: 0x1F54508
+    // Offset: 0x1FA0D7C
     void Init(::StringW input);
     // System.Void Init(System.String input, System.Int32 startPosition)
-    // Offset: 0x1F54514
+    // Offset: 0x1FA0D88
     void Init(::StringW input, int startPosition);
     // System.Globalization.TimeSpanParse/System.Globalization.TimeSpanToken GetNextToken()
-    // Offset: 0x1F54520
+    // Offset: 0x1FA0D94
     ::System::Globalization::TimeSpanParse::TimeSpanToken GetNextToken();
   }; // System.Globalization.TimeSpanParse/System.Globalization.TimeSpanTokenizer
   #pragma pack(pop)

@@ -43,30 +43,22 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class FontData : public ::Il2CppObject/*, public ::UnityEngine::ISerializationCallbackReceiver*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [FormerlySerializedAsAttribute] Offset: 0x11FA754
+    // [FormerlySerializedAsAttribute] Offset: 0x108016C
     // private UnityEngine.Font m_Font
     // Size: 0x8
     // Offset: 0x10
     ::UnityEngine::Font* m_Font;
     // Field size check
     static_assert(sizeof(::UnityEngine::Font*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x11FA7A0
+    // [FormerlySerializedAsAttribute] Offset: 0x10801B8
     // private System.Int32 m_FontSize
     // Size: 0x4
     // Offset: 0x18
     int m_FontSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0x11FA7EC
+    // [FormerlySerializedAsAttribute] Offset: 0x1080204
     // private UnityEngine.FontStyle m_FontStyle
     // Size: 0x4
     // Offset: 0x1C
@@ -93,7 +85,7 @@ namespace UnityEngine::UI {
     int m_MaxSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0x11FA868
+    // [FormerlySerializedAsAttribute] Offset: 0x1080280
     // private UnityEngine.TextAnchor m_Alignment
     // Size: 0x4
     // Offset: 0x2C
@@ -106,7 +98,7 @@ namespace UnityEngine::UI {
     bool m_AlignByGeometry;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [FormerlySerializedAsAttribute] Offset: 0x11FA8C4
+    // [FormerlySerializedAsAttribute] Offset: 0x10802DC
     // private System.Boolean m_RichText
     // Size: 0x1
     // Offset: 0x31
@@ -139,119 +131,117 @@ namespace UnityEngine::UI {
       return *reinterpret_cast<::UnityEngine::ISerializationCallbackReceiver*>(this);
     }
     // Get instance field reference: private UnityEngine.Font m_Font
-    ::UnityEngine::Font*& dyn_m_Font();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Font*& dyn_m_Font();
     // Get instance field reference: private System.Int32 m_FontSize
-    int& dyn_m_FontSize();
+    [[deprecated("Use field access instead!")]] int& dyn_m_FontSize();
     // Get instance field reference: private UnityEngine.FontStyle m_FontStyle
-    ::UnityEngine::FontStyle& dyn_m_FontStyle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::FontStyle& dyn_m_FontStyle();
     // Get instance field reference: private System.Boolean m_BestFit
-    bool& dyn_m_BestFit();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_BestFit();
     // Get instance field reference: private System.Int32 m_MinSize
-    int& dyn_m_MinSize();
+    [[deprecated("Use field access instead!")]] int& dyn_m_MinSize();
     // Get instance field reference: private System.Int32 m_MaxSize
-    int& dyn_m_MaxSize();
+    [[deprecated("Use field access instead!")]] int& dyn_m_MaxSize();
     // Get instance field reference: private UnityEngine.TextAnchor m_Alignment
-    ::UnityEngine::TextAnchor& dyn_m_Alignment();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TextAnchor& dyn_m_Alignment();
     // Get instance field reference: private System.Boolean m_AlignByGeometry
-    bool& dyn_m_AlignByGeometry();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_AlignByGeometry();
     // Get instance field reference: private System.Boolean m_RichText
-    bool& dyn_m_RichText();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_RichText();
     // Get instance field reference: private UnityEngine.HorizontalWrapMode m_HorizontalOverflow
-    ::UnityEngine::HorizontalWrapMode& dyn_m_HorizontalOverflow();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::HorizontalWrapMode& dyn_m_HorizontalOverflow();
     // Get instance field reference: private UnityEngine.VerticalWrapMode m_VerticalOverflow
-    ::UnityEngine::VerticalWrapMode& dyn_m_VerticalOverflow();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::VerticalWrapMode& dyn_m_VerticalOverflow();
     // Get instance field reference: private System.Single m_LineSpacing
-    float& dyn_m_LineSpacing();
+    [[deprecated("Use field access instead!")]] float& dyn_m_LineSpacing();
     // static public UnityEngine.UI.FontData get_defaultFontData()
-    // Offset: 0x1E20E10
+    // Offset: 0x1E5B6DC
     static ::UnityEngine::UI::FontData* get_defaultFontData();
     // public UnityEngine.Font get_font()
-    // Offset: 0x1E20EB0
+    // Offset: 0x1E5B77C
     ::UnityEngine::Font* get_font();
     // public System.Void set_font(UnityEngine.Font value)
-    // Offset: 0x1E20EB8
+    // Offset: 0x1E5B784
     void set_font(::UnityEngine::Font* value);
     // public System.Int32 get_fontSize()
-    // Offset: 0x1E20EC0
+    // Offset: 0x1E5B78C
     int get_fontSize();
     // public System.Void set_fontSize(System.Int32 value)
-    // Offset: 0x1E20EC8
+    // Offset: 0x1E5B794
     void set_fontSize(int value);
     // public UnityEngine.FontStyle get_fontStyle()
-    // Offset: 0x1E20ED0
+    // Offset: 0x1E5B79C
     ::UnityEngine::FontStyle get_fontStyle();
     // public System.Void set_fontStyle(UnityEngine.FontStyle value)
-    // Offset: 0x1E20ED8
+    // Offset: 0x1E5B7A4
     void set_fontStyle(::UnityEngine::FontStyle value);
     // public System.Boolean get_bestFit()
-    // Offset: 0x1E20EE0
+    // Offset: 0x1E5B7AC
     bool get_bestFit();
     // public System.Void set_bestFit(System.Boolean value)
-    // Offset: 0x1E20EE8
+    // Offset: 0x1E5B7B4
     void set_bestFit(bool value);
     // public System.Int32 get_minSize()
-    // Offset: 0x1E20EF4
+    // Offset: 0x1E5B7C0
     int get_minSize();
     // public System.Void set_minSize(System.Int32 value)
-    // Offset: 0x1E20EFC
+    // Offset: 0x1E5B7C8
     void set_minSize(int value);
     // public System.Int32 get_maxSize()
-    // Offset: 0x1E20F04
+    // Offset: 0x1E5B7D0
     int get_maxSize();
     // public System.Void set_maxSize(System.Int32 value)
-    // Offset: 0x1E20F0C
+    // Offset: 0x1E5B7D8
     void set_maxSize(int value);
     // public UnityEngine.TextAnchor get_alignment()
-    // Offset: 0x1E20F14
+    // Offset: 0x1E5B7E0
     ::UnityEngine::TextAnchor get_alignment();
     // public System.Void set_alignment(UnityEngine.TextAnchor value)
-    // Offset: 0x1E20F1C
+    // Offset: 0x1E5B7E8
     void set_alignment(::UnityEngine::TextAnchor value);
     // public System.Boolean get_alignByGeometry()
-    // Offset: 0x1E20F24
+    // Offset: 0x1E5B7F0
     bool get_alignByGeometry();
     // public System.Void set_alignByGeometry(System.Boolean value)
-    // Offset: 0x1E20F2C
+    // Offset: 0x1E5B7F8
     void set_alignByGeometry(bool value);
     // public System.Boolean get_richText()
-    // Offset: 0x1E20F38
+    // Offset: 0x1E5B804
     bool get_richText();
     // public System.Void set_richText(System.Boolean value)
-    // Offset: 0x1E20F40
+    // Offset: 0x1E5B80C
     void set_richText(bool value);
     // public UnityEngine.HorizontalWrapMode get_horizontalOverflow()
-    // Offset: 0x1E20F4C
+    // Offset: 0x1E5B818
     ::UnityEngine::HorizontalWrapMode get_horizontalOverflow();
     // public System.Void set_horizontalOverflow(UnityEngine.HorizontalWrapMode value)
-    // Offset: 0x1E20F54
+    // Offset: 0x1E5B820
     void set_horizontalOverflow(::UnityEngine::HorizontalWrapMode value);
     // public UnityEngine.VerticalWrapMode get_verticalOverflow()
-    // Offset: 0x1E20F5C
+    // Offset: 0x1E5B828
     ::UnityEngine::VerticalWrapMode get_verticalOverflow();
     // public System.Void set_verticalOverflow(UnityEngine.VerticalWrapMode value)
-    // Offset: 0x1E20F64
+    // Offset: 0x1E5B830
     void set_verticalOverflow(::UnityEngine::VerticalWrapMode value);
     // public System.Single get_lineSpacing()
-    // Offset: 0x1E20F6C
+    // Offset: 0x1E5B838
     float get_lineSpacing();
     // public System.Void set_lineSpacing(System.Single value)
-    // Offset: 0x1E20F74
+    // Offset: 0x1E5B840
     void set_lineSpacing(float value);
-    // private System.Void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize()
-    // Offset: 0x1E20F7C
-    void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
-    // private System.Void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize()
-    // Offset: 0x1E20F80
-    void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
     // public System.Void .ctor()
-    // Offset: 0x1E20EA8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E5B774
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FontData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::FontData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FontData*, creationType>()));
     }
+    // private System.Void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize()
+    // Offset: 0x1E5B848
+    void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
+    // private System.Void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize()
+    // Offset: 0x1E5B84C
+    void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
   }; // UnityEngine.UI.FontData
   #pragma pack(pop)
   static check_size<sizeof(FontData), 60 + sizeof(float)> __UnityEngine_UI_FontDataSizeCheck;
@@ -470,6 +460,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::FontData*), "set_lineSpacing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::UI::FontData::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::UI::FontData::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize
 // Il2CppName: UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize
 template<>
@@ -486,7 +480,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::FontData*), "UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::UI::FontData::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

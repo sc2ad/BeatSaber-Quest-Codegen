@@ -52,28 +52,30 @@ namespace System::Net::Http {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
-    // public System.Void Dispose()
-    // Offset: 0x1966DFC
-    void Dispose();
-    // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1964274
-    void Dispose(bool disposing);
-    // protected internal System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request, ::System::Threading::CancellationToken cancellationToken);
     // protected System.Void .ctor()
-    // Offset: 0x1964158
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x199C740
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpMessageHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::HttpMessageHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpMessageHandler*, creationType>()));
     }
+    // public System.Void Dispose()
+    // Offset: 0x199F3E4
+    void Dispose();
+    // protected System.Void Dispose(System.Boolean disposing)
+    // Offset: 0x199C85C
+    void Dispose(bool disposing);
+    // protected internal System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request, ::System::Threading::CancellationToken cancellationToken);
   }; // System.Net.Http.HttpMessageHandler
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Net::Http::HttpMessageHandler::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::HttpMessageHandler::Dispose
 // Il2CppName: Dispose
 template<>
@@ -101,7 +103,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpMessageHandler*), "SendAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{request, cancellationToken});
   }
 };
-// Writing MetadataGetter for method: System::Net::Http::HttpMessageHandler::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

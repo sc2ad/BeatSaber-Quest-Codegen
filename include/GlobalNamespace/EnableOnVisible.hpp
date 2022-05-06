@@ -41,15 +41,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnableOnVisible : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Action`1<System.Boolean> VisibilityChangedEvent
     // Size: 0x8
     // Offset: 0x18
@@ -66,37 +58,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Action`1<System.Boolean> VisibilityChangedEvent
-    ::System::Action_1<bool>*& dyn_VisibilityChangedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<bool>*& dyn_VisibilityChangedEvent();
     // Get instance field reference: public UnityEngine.Behaviour[] _components
-    ::ArrayW<::UnityEngine::Behaviour*>& dyn__components();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Behaviour*>& dyn__components();
     // public System.Void add_VisibilityChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x156AE44
+    // Offset: 0x15A174C
     void add_VisibilityChangedEvent(::System::Action_1<bool>* value);
     // public System.Void remove_VisibilityChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x156AEE8
+    // Offset: 0x15A17F0
     void remove_VisibilityChangedEvent(::System::Action_1<bool>* value);
-    // protected System.Void Awake()
-    // Offset: 0x156AF8C
-    void Awake();
-    // protected System.Void OnBecameVisible()
-    // Offset: 0x156AFFC
-    void OnBecameVisible();
-    // protected System.Void OnBecameInvisible()
-    // Offset: 0x156B0B4
-    void OnBecameInvisible();
     // public System.Void .ctor()
-    // Offset: 0x156B16C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15A1A74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnableOnVisible* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnableOnVisible::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnableOnVisible*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x15A1894
+    void Awake();
+    // protected System.Void OnBecameVisible()
+    // Offset: 0x15A1904
+    void OnBecameVisible();
+    // protected System.Void OnBecameInvisible()
+    // Offset: 0x15A19BC
+    void OnBecameInvisible();
   }; // EnableOnVisible
   #pragma pack(pop)
   static check_size<sizeof(EnableOnVisible), 32 + sizeof(::ArrayW<::UnityEngine::Behaviour*>)> __GlobalNamespace_EnableOnVisibleSizeCheck;
@@ -121,6 +107,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnableOnVisible*), "remove_VisibilityChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::EnableOnVisible::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EnableOnVisible::Awake
 // Il2CppName: Awake
 template<>
@@ -145,7 +135,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnableOnVisible*), "OnBecameInvisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::EnableOnVisible::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

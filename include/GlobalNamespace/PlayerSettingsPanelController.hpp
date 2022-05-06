@@ -75,15 +75,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::PlayerSettingsPanelController::PlayerSettingsPanelLayout
     struct PlayerSettingsPanelLayout;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Toggle _leftHandedToggle
     // Size: 0x8
     // Offset: 0x18
@@ -198,7 +190,7 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Toggle* adaptiveSfxToggle;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Toggle*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125B2DC
+    // [SpaceAttribute] Offset: 0x10DFEC0
     // private UnityEngine.CanvasGroup _singleplayerOnlyCanvasGroup
     // Size: 0x8
     // Offset: 0xB0
@@ -257,163 +249,157 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kDisabledSectionAlpha
     static void _set_kDisabledSectionAlpha(float value);
     // Get instance field reference: private UnityEngine.UI.Toggle _leftHandedToggle
-    ::UnityEngine::UI::Toggle*& dyn__leftHandedToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__leftHandedToggle();
     // Get instance field reference: private UnityEngine.UI.Toggle _reduceDebrisToggle
-    ::UnityEngine::UI::Toggle*& dyn__reduceDebrisToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__reduceDebrisToggle();
     // Get instance field reference: private UnityEngine.UI.Toggle _noTextsAndHudsToggle
-    ::UnityEngine::UI::Toggle*& dyn__noTextsAndHudsToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__noTextsAndHudsToggle();
     // Get instance field reference: private UnityEngine.UI.Toggle _advanceHudToggle
-    ::UnityEngine::UI::Toggle*& dyn__advanceHudToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__advanceHudToggle();
     // Get instance field reference: private UnityEngine.UI.Toggle _autoRestartToggle
-    ::UnityEngine::UI::Toggle*& dyn__autoRestartToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__autoRestartToggle();
     // Get instance field reference: private PlayerHeightSettingsController _playerHeightSettingsController
-    ::GlobalNamespace::PlayerHeightSettingsController*& dyn__playerHeightSettingsController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerHeightSettingsController*& dyn__playerHeightSettingsController();
     // Get instance field reference: private UnityEngine.CanvasGroup _playerHeightSettingsCanvasGroup
-    ::UnityEngine::CanvasGroup*& dyn__playerHeightSettingsCanvasGroup();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::CanvasGroup*& dyn__playerHeightSettingsCanvasGroup();
     // Get instance field reference: private UnityEngine.UI.Toggle _automaticPlayerHeightToggle
-    ::UnityEngine::UI::Toggle*& dyn__automaticPlayerHeightToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__automaticPlayerHeightToggle();
     // Get instance field reference: private FormattedFloatListSettingsController _sfxVolumeSettingsController
-    ::GlobalNamespace::FormattedFloatListSettingsController*& dyn__sfxVolumeSettingsController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FormattedFloatListSettingsController*& dyn__sfxVolumeSettingsController();
     // Get instance field reference: private FormattedFloatListSettingsController _saberTrailIntensitySettingsController
-    ::GlobalNamespace::FormattedFloatListSettingsController*& dyn__saberTrailIntensitySettingsController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FormattedFloatListSettingsController*& dyn__saberTrailIntensitySettingsController();
     // Get instance field reference: private NoteJumpDurationTypeSettingsDropdown _noteJumpDurationTypeSettingsDropdown
-    ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*& dyn__noteJumpDurationTypeSettingsDropdown();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*& dyn__noteJumpDurationTypeSettingsDropdown();
     // Get instance field reference: private FormattedFloatListSettingsController _noteJumpFixedDurationSettingsController
-    ::GlobalNamespace::FormattedFloatListSettingsController*& dyn__noteJumpFixedDurationSettingsController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FormattedFloatListSettingsController*& dyn__noteJumpFixedDurationSettingsController();
     // Get instance field reference: private UnityEngine.CanvasGroup _noteJumpFixedDurationSettingsCanvasGroup
-    ::UnityEngine::CanvasGroup*& dyn__noteJumpFixedDurationSettingsCanvasGroup();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::CanvasGroup*& dyn__noteJumpFixedDurationSettingsCanvasGroup();
     // Get instance field reference: private NoteJumpStartBeatOffsetDropdown _noteJumpStartBeatOffsetDropdown
-    ::GlobalNamespace::NoteJumpStartBeatOffsetDropdown*& dyn__noteJumpStartBeatOffsetDropdown();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteJumpStartBeatOffsetDropdown*& dyn__noteJumpStartBeatOffsetDropdown();
     // Get instance field reference: private UnityEngine.CanvasGroup _noteJumpStartBeatOffsetCanvasGroup
-    ::UnityEngine::CanvasGroup*& dyn__noteJumpStartBeatOffsetCanvasGroup();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::CanvasGroup*& dyn__noteJumpStartBeatOffsetCanvasGroup();
     // Get instance field reference: private EnvironmentEffectsFilterPresetDropdown _environmentEffectsFilterDefaultPresetDropdown
-    ::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*& dyn__environmentEffectsFilterDefaultPresetDropdown();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*& dyn__environmentEffectsFilterDefaultPresetDropdown();
     // Get instance field reference: private EnvironmentEffectsFilterPresetDropdown _environmentEffectsFilterExpertPlusPresetDropdown
-    ::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*& dyn__environmentEffectsFilterExpertPlusPresetDropdown();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*& dyn__environmentEffectsFilterExpertPlusPresetDropdown();
     // Get instance field reference: private UnityEngine.UI.Toggle _hideNoteSpawnEffectToggle
-    ::UnityEngine::UI::Toggle*& dyn__hideNoteSpawnEffectToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__hideNoteSpawnEffectToggle();
     // Get instance field reference: private UnityEngine.UI.Toggle _adaptiveSfxToggle
-    ::UnityEngine::UI::Toggle*& dyn__adaptiveSfxToggle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__adaptiveSfxToggle();
     // Get instance field reference: private UnityEngine.CanvasGroup _singleplayerOnlyCanvasGroup
-    ::UnityEngine::CanvasGroup*& dyn__singleplayerOnlyCanvasGroup();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::CanvasGroup*& dyn__singleplayerOnlyCanvasGroup();
     // Get instance field reference: private System.Action didChangePlayerSettingsEvent
-    ::System::Action*& dyn_didChangePlayerSettingsEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didChangePlayerSettingsEvent();
     // Get instance field reference: private PlayerSpecificSettings _playerSpecificSettings
-    ::GlobalNamespace::PlayerSpecificSettings*& dyn__playerSpecificSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSpecificSettings*& dyn__playerSpecificSettings();
     // Get instance field reference: private HMUI.ToggleBinder _toggleBinder
-    ::HMUI::ToggleBinder*& dyn__toggleBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ToggleBinder*& dyn__toggleBinder();
     // Get instance field reference: private System.Boolean _dirty
-    bool& dyn__dirty();
+    [[deprecated("Use field access instead!")]] bool& dyn__dirty();
     // Get instance field reference: private System.Boolean _refreshed
-    bool& dyn__refreshed();
+    [[deprecated("Use field access instead!")]] bool& dyn__refreshed();
     // Get instance field reference: private readonly EventBinder _eventBinder
-    ::GlobalNamespace::EventBinder*& dyn__eventBinder();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EventBinder*& dyn__eventBinder();
     // public PlayerSpecificSettings get_playerSpecificSettings()
-    // Offset: 0x13710C8
+    // Offset: 0x13D89C8
     ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
     // public System.Void add_didChangePlayerSettingsEvent(System.Action value)
-    // Offset: 0x13718C8
+    // Offset: 0x13D8F24
     void add_didChangePlayerSettingsEvent(::System::Action* value);
     // public System.Void remove_didChangePlayerSettingsEvent(System.Action value)
-    // Offset: 0x137196C
+    // Offset: 0x13D8FC8
     void remove_didChangePlayerSettingsEvent(::System::Action* value);
-    // public System.Void SetData(PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0x1370D98
-    void SetData(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
-    // public System.Void SetLayout(PlayerSettingsPanelController/PlayerSettingsPanelLayout layout)
-    // Offset: 0x1370D68
-    void SetLayout(::GlobalNamespace::PlayerSettingsPanelController::PlayerSettingsPanelLayout layout);
-    // protected System.Void Awake()
-    // Offset: 0x1371CF4
-    void Awake();
-    // protected System.Void OnEnable()
-    // Offset: 0x1371D54
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x1372040
-    void OnDisable();
-    // private System.Void OnDestroy()
-    // Offset: 0x1372088
-    void OnDestroy();
-    // private System.Void UnsubscribeAllUICallbacks()
-    // Offset: 0x1372044
-    void UnsubscribeAllUICallbacks();
-    // public System.Void Refresh()
-    // Offset: 0x1370DA4
-    void Refresh();
-    // private System.Void HandleSFXVolumeSettingsControllerValueDidChange(FormattedFloatListSettingsController settingsController, System.Single value)
-    // Offset: 0x13720CC
-    void HandleSFXVolumeSettingsControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* settingsController, float value);
-    // private System.Void HandleSaberTrailIntensitySettingsControllerValueDidChange(FormattedFloatListSettingsController settingsController, System.Single value)
-    // Offset: 0x137210C
-    void HandleSaberTrailIntensitySettingsControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* settingsController, float value);
-    // private System.Void HandlePlayerHeightSettingsControllerValueDidChange(System.Single value)
-    // Offset: 0x137212C
-    void HandlePlayerHeightSettingsControllerValueDidChange(float value);
-    // private System.Void HandleNoteJumpStartBeatOffsetPositionSelected(System.Int32 idx, System.Single startBeatOffset)
-    // Offset: 0x137214C
-    void HandleNoteJumpStartBeatOffsetPositionSelected(int idx, float startBeatOffset);
-    // private System.Void HandleLightReductionAmountSelected(System.Int32 obj, EnvironmentEffectsFilterPreset environmentEffectsFilterPreset)
-    // Offset: 0x137216C
-    void HandleLightReductionAmountSelected(int obj, ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterPreset);
-    // private System.Void HandleAdvancedHudToggleChanged(System.Boolean on)
-    // Offset: 0x137218C
-    void HandleAdvancedHudToggleChanged(bool on);
-    // private System.Void HandleNoteJumpDurationTypeSettingsDropdownDidSelectCellWithIdx(System.Int32 idx, NoteJumpDurationTypeSettings noteJumpDurationTypeSettings)
-    // Offset: 0x13721E4
-    void HandleNoteJumpDurationTypeSettingsDropdownDidSelectCellWithIdx(int idx, ::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings);
-    // private System.Void HandleNoteJumpFixedDurationSettingsControllerValueDidChange(FormattedFloatListSettingsController formattedFloatListSettingsController, System.Single value)
-    // Offset: 0x1372228
-    void HandleNoteJumpFixedDurationSettingsControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* formattedFloatListSettingsController, float value);
-    // private System.Void HandleNoTextsAndHudsToggleChanged(System.Boolean on)
-    // Offset: 0x1372248
-    void HandleNoTextsAndHudsToggleChanged(bool on);
-    // private System.Void SetIsDirty()
-    // Offset: 0x13720EC
-    void SetIsDirty();
-    // private System.Void RefreshNoteJumpUI(NoteJumpDurationTypeSettings noteJumpDurationTypeSettings)
-    // Offset: 0x137208C
-    void RefreshNoteJumpUI(::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings);
-    // private System.Void SetSectionDisabled(UnityEngine.CanvasGroup sectionCanvasGroup, System.Boolean disable)
-    // Offset: 0x1371C88
-    void SetSectionDisabled(::UnityEngine::CanvasGroup* sectionCanvasGroup, bool disable);
-    // private System.Void <OnEnable>b__35_0(System.Boolean on)
-    // Offset: 0x1372308
-    void $OnEnable$b__35_0(bool on);
-    // private System.Void <OnEnable>b__35_1(System.Boolean on)
-    // Offset: 0x1372328
-    void $OnEnable$b__35_1(bool on);
-    // private System.Void <OnEnable>b__35_2(System.Boolean on)
-    // Offset: 0x1372348
-    void $OnEnable$b__35_2(bool on);
-    // private System.Void <OnEnable>b__35_3(System.Boolean on)
-    // Offset: 0x1372368
-    void $OnEnable$b__35_3(bool on);
-    // private System.Void <OnEnable>b__35_4(System.Boolean on)
-    // Offset: 0x1372388
-    void $OnEnable$b__35_4(bool on);
-    // private System.Void <OnEnable>b__35_5(System.Boolean on)
-    // Offset: 0x13723A8
-    void $OnEnable$b__35_5(bool on);
-    // private System.Void <OnEnable>b__35_6()
-    // Offset: 0x13723F4
-    void $OnEnable$b__35_6();
-    // private System.Void <OnEnable>b__35_7()
-    // Offset: 0x1372688
-    void $OnEnable$b__35_7();
     // public System.Void .ctor()
-    // Offset: 0x13722A0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D9684
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSettingsPanelController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSettingsPanelController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSettingsPanelController*, creationType>()));
     }
+    // public System.Void SetData(PlayerSpecificSettings playerSpecificSettings)
+    // Offset: 0x13D8698
+    void SetData(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
+    // public System.Void SetLayout(PlayerSettingsPanelController/PlayerSettingsPanelLayout layout)
+    // Offset: 0x13D8668
+    void SetLayout(::GlobalNamespace::PlayerSettingsPanelController::PlayerSettingsPanelLayout layout);
+    // protected System.Void Awake()
+    // Offset: 0x13D90D8
+    void Awake();
+    // protected System.Void OnEnable()
+    // Offset: 0x13D9138
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x13D9424
+    void OnDisable();
+    // private System.Void OnDestroy()
+    // Offset: 0x13D946C
+    void OnDestroy();
+    // private System.Void UnsubscribeAllUICallbacks()
+    // Offset: 0x13D9428
+    void UnsubscribeAllUICallbacks();
+    // public System.Void Refresh()
+    // Offset: 0x13D86A4
+    void Refresh();
+    // private System.Void HandleSFXVolumeSettingsControllerValueDidChange(FormattedFloatListSettingsController settingsController, System.Single value)
+    // Offset: 0x13D94B0
+    void HandleSFXVolumeSettingsControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* settingsController, float value);
+    // private System.Void HandleSaberTrailIntensitySettingsControllerValueDidChange(FormattedFloatListSettingsController settingsController, System.Single value)
+    // Offset: 0x13D94F0
+    void HandleSaberTrailIntensitySettingsControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* settingsController, float value);
+    // private System.Void HandlePlayerHeightSettingsControllerValueDidChange(System.Single value)
+    // Offset: 0x13D9510
+    void HandlePlayerHeightSettingsControllerValueDidChange(float value);
+    // private System.Void HandleNoteJumpStartBeatOffsetPositionSelected(System.Int32 idx, System.Single startBeatOffset)
+    // Offset: 0x13D9530
+    void HandleNoteJumpStartBeatOffsetPositionSelected(int idx, float startBeatOffset);
+    // private System.Void HandleLightReductionAmountSelected(System.Int32 obj, EnvironmentEffectsFilterPreset environmentEffectsFilterPreset)
+    // Offset: 0x13D9550
+    void HandleLightReductionAmountSelected(int obj, ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterPreset);
+    // private System.Void HandleAdvancedHudToggleChanged(System.Boolean on)
+    // Offset: 0x13D9570
+    void HandleAdvancedHudToggleChanged(bool on);
+    // private System.Void HandleNoteJumpDurationTypeSettingsDropdownDidSelectCellWithIdx(System.Int32 idx, NoteJumpDurationTypeSettings noteJumpDurationTypeSettings)
+    // Offset: 0x13D95C8
+    void HandleNoteJumpDurationTypeSettingsDropdownDidSelectCellWithIdx(int idx, ::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings);
+    // private System.Void HandleNoteJumpFixedDurationSettingsControllerValueDidChange(FormattedFloatListSettingsController formattedFloatListSettingsController, System.Single value)
+    // Offset: 0x13D960C
+    void HandleNoteJumpFixedDurationSettingsControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* formattedFloatListSettingsController, float value);
+    // private System.Void HandleNoTextsAndHudsToggleChanged(System.Boolean on)
+    // Offset: 0x13D962C
+    void HandleNoTextsAndHudsToggleChanged(bool on);
+    // private System.Void SetIsDirty()
+    // Offset: 0x13D94D0
+    void SetIsDirty();
+    // private System.Void RefreshNoteJumpUI(NoteJumpDurationTypeSettings noteJumpDurationTypeSettings)
+    // Offset: 0x13D9470
+    void RefreshNoteJumpUI(::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings);
+    // private System.Void SetSectionDisabled(UnityEngine.CanvasGroup sectionCanvasGroup, System.Boolean disable)
+    // Offset: 0x13D906C
+    void SetSectionDisabled(::UnityEngine::CanvasGroup* sectionCanvasGroup, bool disable);
+    // private System.Void <OnEnable>b__35_0(System.Boolean on)
+    // Offset: 0x13D96EC
+    void $OnEnable$b__35_0(bool on);
+    // private System.Void <OnEnable>b__35_1(System.Boolean on)
+    // Offset: 0x13D970C
+    void $OnEnable$b__35_1(bool on);
+    // private System.Void <OnEnable>b__35_2(System.Boolean on)
+    // Offset: 0x13D972C
+    void $OnEnable$b__35_2(bool on);
+    // private System.Void <OnEnable>b__35_3(System.Boolean on)
+    // Offset: 0x13D974C
+    void $OnEnable$b__35_3(bool on);
+    // private System.Void <OnEnable>b__35_4(System.Boolean on)
+    // Offset: 0x13D976C
+    void $OnEnable$b__35_4(bool on);
+    // private System.Void <OnEnable>b__35_5(System.Boolean on)
+    // Offset: 0x13D978C
+    void $OnEnable$b__35_5(bool on);
+    // private System.Void <OnEnable>b__35_6()
+    // Offset: 0x13D97D8
+    void $OnEnable$b__35_6();
+    // private System.Void <OnEnable>b__35_7()
+    // Offset: 0x13D9A6C
+    void $OnEnable$b__35_7();
   }; // PlayerSettingsPanelController
   #pragma pack(pop)
   static check_size<sizeof(PlayerSettingsPanelController), 216 + sizeof(::GlobalNamespace::EventBinder*)> __GlobalNamespace_PlayerSettingsPanelControllerSizeCheck;
@@ -446,6 +432,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSettingsPanelController*), "remove_didChangePlayerSettingsEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::SetData
 // Il2CppName: SetData
 template<>
@@ -696,7 +686,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSettingsPanelController*), "<OnEnable>b__35_7", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -135,35 +135,35 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 nameSH
-    int& dyn_nameSH();
+    [[deprecated("Use field access instead!")]] int& dyn_nameSH();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_VolumeType type
-    ::HoudiniEngineUnity::HAPI_VolumeType& dyn_type();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_VolumeType& dyn_type();
     // Get instance field reference: public System.Int32 xLength
-    int& dyn_xLength();
+    [[deprecated("Use field access instead!")]] int& dyn_xLength();
     // Get instance field reference: public System.Int32 yLength
-    int& dyn_yLength();
+    [[deprecated("Use field access instead!")]] int& dyn_yLength();
     // Get instance field reference: public System.Int32 zLength
-    int& dyn_zLength();
+    [[deprecated("Use field access instead!")]] int& dyn_zLength();
     // Get instance field reference: public System.Int32 minX
-    int& dyn_minX();
+    [[deprecated("Use field access instead!")]] int& dyn_minX();
     // Get instance field reference: public System.Int32 minY
-    int& dyn_minY();
+    [[deprecated("Use field access instead!")]] int& dyn_minY();
     // Get instance field reference: public System.Int32 minZ
-    int& dyn_minZ();
+    [[deprecated("Use field access instead!")]] int& dyn_minZ();
     // Get instance field reference: public System.Int32 tupleSize
-    int& dyn_tupleSize();
+    [[deprecated("Use field access instead!")]] int& dyn_tupleSize();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_StorageType storage
-    ::HoudiniEngineUnity::HAPI_StorageType& dyn_storage();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_StorageType& dyn_storage();
     // Get instance field reference: public System.Int32 tileSize
-    int& dyn_tileSize();
+    [[deprecated("Use field access instead!")]] int& dyn_tileSize();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_Transform transform
-    ::HoudiniEngineUnity::HAPI_Transform& dyn_transform();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_Transform& dyn_transform();
     // Get instance field reference: public System.Boolean hasTaper
-    bool& dyn_hasTaper();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasTaper();
     // Get instance field reference: public System.Single xTaper
-    float& dyn_xTaper();
+    [[deprecated("Use field access instead!")]] float& dyn_xTaper();
     // Get instance field reference: public System.Single yTaper
-    float& dyn_yTaper();
+    [[deprecated("Use field access instead!")]] float& dyn_yTaper();
   }; // HoudiniEngineUnity.HAPI_VolumeInfo
   #pragma pack(pop)
   static check_size<sizeof(HAPI_VolumeInfo), 96 + sizeof(float)> __HoudiniEngineUnity_HAPI_VolumeInfoSizeCheck;

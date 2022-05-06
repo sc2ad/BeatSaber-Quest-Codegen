@@ -66,7 +66,7 @@ namespace LiteNetLib {
     // Set static field: static public LiteNetLib.ConnectRequestResult NewConnection
     static void _set_NewConnection(::LiteNetLib::ConnectRequestResult value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // LiteNetLib.ConnectRequestResult
   #pragma pack(pop)
   static check_size<sizeof(ConnectRequestResult), 0 + sizeof(int)> __LiteNetLib_ConnectRequestResultSizeCheck;

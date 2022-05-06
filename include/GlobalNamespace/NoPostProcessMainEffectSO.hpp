@@ -37,23 +37,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoPostProcessMainEffectSO : public ::GlobalNamespace::MainEffectSO {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Shader _fadeShader
     // Size: 0x8
     // Offset: 0x18
     ::UnityEngine::Shader* fadeShader;
     // Field size check
     static_assert(sizeof(::UnityEngine::Shader*) == 0x8);
-    // [SpaceAttribute] Offset: 0x12425A4
-    // [RangeAttribute] Offset: 0x12425A4
+    // [SpaceAttribute] Offset: 0x10C708C
+    // [RangeAttribute] Offset: 0x10C708C
     // private System.Single _baseColorBoost
     // Size: 0x4
     // Offset: 0x20
@@ -76,49 +68,45 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Shader _fadeShader
-    ::UnityEngine::Shader*& dyn__fadeShader();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Shader*& dyn__fadeShader();
     // Get instance field reference: private System.Single _baseColorBoost
-    float& dyn__baseColorBoost();
+    [[deprecated("Use field access instead!")]] float& dyn__baseColorBoost();
     // Get instance field reference: private System.Single _baseColorBoostThreshold
-    float& dyn__baseColorBoostThreshold();
+    [[deprecated("Use field access instead!")]] float& dyn__baseColorBoostThreshold();
     // Get instance field reference: private UnityEngine.Material _fadeMaterial
-    ::UnityEngine::Material*& dyn__fadeMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__fadeMaterial();
     // protected System.Void OnDisable()
-    // Offset: 0x29EABF4
+    // Offset: 0x2A414F0
     void OnDisable();
     // public System.Void DrawFadeQuad(System.Single alpha)
-    // Offset: 0x29EAC80
+    // Offset: 0x2A4157C
     void DrawFadeQuad(float alpha);
     // public override System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x29EAB5C
+    // Offset: 0x2A41458
     // Implemented from: MainEffectSO
     // Base method: System.Boolean MainEffectSO::get_hasPostProcessEffect()
     bool get_hasPostProcessEffect();
     // public System.Void .ctor()
-    // Offset: 0x29EAD94
+    // Offset: 0x2A41690
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::.ctor()
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoPostProcessMainEffectSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoPostProcessMainEffectSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoPostProcessMainEffectSO*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x29EAB64
+    // Offset: 0x2A41460
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public override System.Void PreRender()
-    // Offset: 0x29EAC00
+    // Offset: 0x2A414FC
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::PreRender()
     void PreRender();
     // public override System.Void PostRender(System.Single fade)
-    // Offset: 0x29EAC74
+    // Offset: 0x2A41570
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::PostRender(System.Single fade)
     void PostRender(float fade);

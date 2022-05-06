@@ -90,26 +90,26 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt32 unPacketNum
-    uint& dyn_unPacketNum();
+    [[deprecated("Use field access instead!")]] uint& dyn_unPacketNum();
     // Get instance field reference: public System.UInt64 ulButtonPressed
-    uint64_t& dyn_ulButtonPressed();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_ulButtonPressed();
     // Get instance field reference: public System.UInt64 ulButtonTouched
-    uint64_t& dyn_ulButtonTouched();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_ulButtonTouched();
     // Get instance field reference: public Valve.VR.VRControllerAxis_t rAxis0
-    ::Valve::VR::VRControllerAxis_t& dyn_rAxis0();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VRControllerAxis_t& dyn_rAxis0();
     // Get instance field reference: public Valve.VR.VRControllerAxis_t rAxis1
-    ::Valve::VR::VRControllerAxis_t& dyn_rAxis1();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VRControllerAxis_t& dyn_rAxis1();
     // Get instance field reference: public Valve.VR.VRControllerAxis_t rAxis2
-    ::Valve::VR::VRControllerAxis_t& dyn_rAxis2();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VRControllerAxis_t& dyn_rAxis2();
     // Get instance field reference: public Valve.VR.VRControllerAxis_t rAxis3
-    ::Valve::VR::VRControllerAxis_t& dyn_rAxis3();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VRControllerAxis_t& dyn_rAxis3();
     // Get instance field reference: public Valve.VR.VRControllerAxis_t rAxis4
-    ::Valve::VR::VRControllerAxis_t& dyn_rAxis4();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::VRControllerAxis_t& dyn_rAxis4();
     // public System.Void .ctor(Valve.VR.VRControllerState_t unpacked)
-    // Offset: 0x2A50CF8
+    // Offset: 0x2AA80E0
     VRControllerState_t_Packed(::Valve::VR::VRControllerState_t unpacked);
     // public System.Void Unpack(ref Valve.VR.VRControllerState_t unpacked)
-    // Offset: 0x2A50D3C
+    // Offset: 0x2AA8124
     void Unpack(ByRef<::Valve::VR::VRControllerState_t> unpacked);
   }; // Valve.VR.VRControllerState_t_Packed
   #pragma pack(pop)

@@ -47,15 +47,7 @@ namespace Org::BouncyCastle::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509V2AttributeCertificate : public ::Org::BouncyCastle::X509::X509ExtensionBase/*, public ::Org::BouncyCastle::X509::IX509AttributeCertificate*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Asn1.X509.AttributeCertificate cert
     // Size: 0x8
     // Offset: 0x10
@@ -80,47 +72,47 @@ namespace Org::BouncyCastle::X509 {
       return *reinterpret_cast<::Org::BouncyCastle::X509::IX509AttributeCertificate*>(this);
     }
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.AttributeCertificate cert
-    ::Org::BouncyCastle::Asn1::X509::AttributeCertificate*& dyn_cert();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::X509::AttributeCertificate*& dyn_cert();
     // Get instance field reference: private readonly System.DateTime notBefore
-    ::System::DateTime& dyn_notBefore();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_notBefore();
     // Get instance field reference: private readonly System.DateTime notAfter
-    ::System::DateTime& dyn_notAfter();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_notAfter();
     // public System.Void .ctor(System.IO.Stream encIn)
-    // Offset: 0x25AB948
+    // Offset: 0x25F6F78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509V2AttributeCertificate* New_ctor(::System::IO::Stream* encIn) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::X509::X509V2AttributeCertificate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509V2AttributeCertificate*, creationType>(encIn)));
     }
     // public System.Void .ctor(System.Byte[] encoded)
-    // Offset: 0x25ABB04
+    // Offset: 0x25F7134
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509V2AttributeCertificate* New_ctor(::ArrayW<uint8_t> encoded) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::X509::X509V2AttributeCertificate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509V2AttributeCertificate*, creationType>(encoded)));
     }
     // System.Void .ctor(Org.BouncyCastle.Asn1.X509.AttributeCertificate cert)
-    // Offset: 0x25AB974
+    // Offset: 0x25F6FA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509V2AttributeCertificate* New_ctor(::Org::BouncyCastle::Asn1::X509::AttributeCertificate* cert) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::X509::X509V2AttributeCertificate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509V2AttributeCertificate*, creationType>(cert)));
     }
     // static private Org.BouncyCastle.Asn1.X509.AttributeCertificate GetObject(System.IO.Stream input)
-    // Offset: 0x25AB810
+    // Offset: 0x25F6E40
     static ::Org::BouncyCastle::Asn1::X509::AttributeCertificate* GetObject(::System::IO::Stream* input);
     // protected override Org.BouncyCastle.Asn1.X509.X509Extensions GetX509Extensions()
-    // Offset: 0x25ABB84
+    // Offset: 0x25F71B4
     // Implemented from: Org.BouncyCastle.X509.X509ExtensionBase
     // Base method: Org.BouncyCastle.Asn1.X509.X509Extensions X509ExtensionBase::GetX509Extensions()
     ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x25ABBAC
+    // Offset: 0x25F71DC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x25ABC70
+    // Offset: 0x25F72A0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

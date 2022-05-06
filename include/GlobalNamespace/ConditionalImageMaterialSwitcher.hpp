@@ -45,30 +45,22 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConditionalImageMaterialSwitcher : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [HeaderAttribute] Offset: 0x1256B40
+    // [HeaderAttribute] Offset: 0x10DB724
     // private UnityEngine.Material _material0
     // Size: 0x8
     // Offset: 0x18
     ::UnityEngine::Material* material0;
     // Field size check
     static_assert(sizeof(::UnityEngine::Material*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1256B8C
+    // [HeaderAttribute] Offset: 0x10DB770
     // private UnityEngine.Material _material1
     // Size: 0x8
     // Offset: 0x20
     ::UnityEngine::Material* material1;
     // Field size check
     static_assert(sizeof(::UnityEngine::Material*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1256BD8
+    // [SpaceAttribute] Offset: 0x10DB7BC
     // private BoolSO _value
     // Size: 0x8
     // Offset: 0x28
@@ -85,35 +77,33 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Material _material0
-    ::UnityEngine::Material*& dyn__material0();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__material0();
     // Get instance field reference: private UnityEngine.Material _material1
-    ::UnityEngine::Material*& dyn__material1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__material1();
     // Get instance field reference: private BoolSO _value
-    ::GlobalNamespace::BoolSO*& dyn__value();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn__value();
     // Get instance field reference: private UnityEngine.UI.Image _image
-    ::UnityEngine::UI::Image*& dyn__image();
-    // public System.Void Awake()
-    // Offset: 0x1404FAC
-    void Awake();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__image();
     // public System.Void .ctor()
-    // Offset: 0x1405034
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1424DE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConditionalImageMaterialSwitcher* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConditionalImageMaterialSwitcher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConditionalImageMaterialSwitcher*, creationType>()));
     }
+    // public System.Void Awake()
+    // Offset: 0x1424D58
+    void Awake();
   }; // ConditionalImageMaterialSwitcher
   #pragma pack(pop)
   static check_size<sizeof(ConditionalImageMaterialSwitcher), 48 + sizeof(::UnityEngine::UI::Image*)> __GlobalNamespace_ConditionalImageMaterialSwitcherSizeCheck;
   static_assert(sizeof(ConditionalImageMaterialSwitcher) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ConditionalImageMaterialSwitcher::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ConditionalImageMaterialSwitcher::Awake
 // Il2CppName: Awake
 template<>
@@ -122,7 +112,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConditionalImageMaterialSwitcher*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ConditionalImageMaterialSwitcher::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

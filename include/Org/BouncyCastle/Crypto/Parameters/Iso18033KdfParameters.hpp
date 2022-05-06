@@ -25,15 +25,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class Iso18033KdfParameters : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IDerivationParameters*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Byte[] seed
     // Size: 0x8
     // Offset: 0x10
@@ -50,9 +42,9 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return seed;
     }
     // Get instance field reference: private System.Byte[] seed
-    ::ArrayW<uint8_t>& dyn_seed();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_seed();
     // public System.Byte[] GetSeed()
-    // Offset: 0x15C38C4
+    // Offset: 0x15F91D4
     ::ArrayW<uint8_t> GetSeed();
   }; // Org.BouncyCastle.Crypto.Parameters.Iso18033KdfParameters
   #pragma pack(pop)

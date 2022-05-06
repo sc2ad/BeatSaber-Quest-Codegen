@@ -60,15 +60,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::BloomPrePassLight::LightsDataItem
     class LightsDataItem;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BloomPrePassLightTypeSO _lightType
     // Size: 0x8
     // Offset: 0x18
@@ -105,36 +97,46 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Collections.Generic.List`1<BloomPrePassLight/LightsDataItem> _lightsDataItems
     static void _set__lightsDataItems(::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassLight::LightsDataItem*>* value);
     // Get instance field reference: private BloomPrePassLightTypeSO _lightType
-    ::GlobalNamespace::BloomPrePassLightTypeSO*& dyn__lightType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassLightTypeSO*& dyn__lightType();
     // Get instance field reference: private BloomPrePassLightTypeSO _registeredWithLightType
-    ::GlobalNamespace::BloomPrePassLightTypeSO*& dyn__registeredWithLightType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassLightTypeSO*& dyn__registeredWithLightType();
     // Get instance field reference: private System.Boolean _isRegistered
-    bool& dyn__isRegistered();
+    [[deprecated("Use field access instead!")]] bool& dyn__isRegistered();
     // Get instance field reference: private System.Boolean _isBeingDestroyed
-    bool& dyn__isBeingDestroyed();
+    [[deprecated("Use field access instead!")]] bool& dyn__isBeingDestroyed();
     // static public System.Collections.Generic.Dictionary`2<BloomPrePassLightTypeSO,System.Collections.Generic.HashSet`1<BloomPrePassLight>> get_bloomLightsDict()
-    // Offset: 0x2ACD578
+    // Offset: 0x1E76940
     static ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BloomPrePassLightTypeSO*, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight*>*>* get_bloomLightsDict();
     // static public System.Collections.Generic.List`1<BloomPrePassLight/LightsDataItem> get_lightsDataItems()
-    // Offset: 0x2ACD5E0
+    // Offset: 0x1E769A8
     static ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassLight::LightsDataItem*>* get_lightsDataItems();
     // public System.Boolean get_isDirty()
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_isDirty();
+    // protected System.Void .ctor()
+    // Offset: 0x1E76D9C
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static BloomPrePassLight* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassLight::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassLight*, creationType>()));
+    }
+    // static private System.Void .cctor()
+    // Offset: 0x1E76DA4
+    static void _cctor();
     // protected System.Void OnEnable()
-    // Offset: 0x2ACD648
+    // Offset: 0x1E76A10
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x2ACD8C8
+    // Offset: 0x1E76C90
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x2ACD990
+    // Offset: 0x1E76D58
     void OnDestroy();
     // private System.Void RegisterLight()
-    // Offset: 0x2ACD64C
+    // Offset: 0x1E76A14
     void RegisterLight();
     // private System.Void UnregisterLight()
-    // Offset: 0x2ACD8CC
+    // Offset: 0x1E76C94
     void UnregisterLight();
     // protected System.Void DidRegisterLight()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -145,24 +147,6 @@ namespace GlobalNamespace {
     // public System.Void Refresh()
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Refresh();
-    // protected System.Void .ctor()
-    // Offset: 0x2ACD9D4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BloomPrePassLight* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassLight::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassLight*, creationType>()));
-    }
-    // static private System.Void .cctor()
-    // Offset: 0x2ACD9DC
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
-    static void _cctor();
   }; // BloomPrePassLight
   #pragma pack(pop)
   static check_size<sizeof(BloomPrePassLight), 41 + sizeof(bool)> __GlobalNamespace_BloomPrePassLightSizeCheck;
@@ -191,6 +175,18 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BloomPrePassLight::*)()>(&GlobalNamespace::BloomPrePassLight::get_isDirty)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassLight*), "get_isDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassLight::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassLight::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BloomPrePassLight::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassLight*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassLight::OnEnable
@@ -263,17 +259,5 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassLight::*)()>(&GlobalNamespace::BloomPrePassLight::Refresh)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassLight*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassLight::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassLight::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BloomPrePassLight::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassLight*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

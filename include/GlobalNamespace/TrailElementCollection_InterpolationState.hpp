@@ -42,9 +42,9 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 segmentIndex
-    int& dyn_segmentIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_segmentIndex();
     // Get instance field reference: public System.Single segmentLerp
-    float& dyn_segmentLerp();
+    [[deprecated("Use field access instead!")]] float& dyn_segmentLerp();
   }; // TrailElementCollection/InterpolationState
   #pragma pack(pop)
   static check_size<sizeof(TrailElementCollection::InterpolationState), 4 + sizeof(float)> __GlobalNamespace_TrailElementCollection_InterpolationStateSizeCheck;

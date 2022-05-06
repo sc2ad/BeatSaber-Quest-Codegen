@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapObjectAvoidanceTiltEvaluator : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x10
@@ -84,24 +76,24 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kLookAheadTime
     static void _set_kLookAheadTime(float value);
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
-    ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // Get instance field reference: private readonly UnityEngine.Vector2 _gravity
-    ::UnityEngine::Vector2& dyn__gravity();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn__gravity();
     // Get instance field reference: private readonly UnityEngine.Vector2 _normalizedGravity
-    ::UnityEngine::Vector2& dyn__normalizedGravity();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn__normalizedGravity();
     // Get instance field reference: private readonly BezierSplineEvaluator _bezierSplineEvaluator
-    ::GlobalNamespace::BezierSplineEvaluator*& dyn__bezierSplineEvaluator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BezierSplineEvaluator*& dyn__bezierSplineEvaluator();
     // Get instance field reference: private System.Single _currentAcceleration
-    float& dyn__currentAcceleration();
+    [[deprecated("Use field access instead!")]] float& dyn__currentAcceleration();
     // public System.Void .ctor(IAudioTimeSource audioTimeSource, BezierSplineEvaluator bezierSplineEvaluator, UnityEngine.Vector2 gravity)
-    // Offset: 0x14D43A0
+    // Offset: 0x150BCA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectAvoidanceTiltEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator, ::UnityEngine::Vector2 gravity) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectAvoidanceTiltEvaluator*, creationType>(audioTimeSource, bezierSplineEvaluator, gravity)));
     }
     // public System.Single GetTiltAngle()
-    // Offset: 0x14D4404
+    // Offset: 0x150BD0C
     float GetTiltAngle();
   }; // BeatmapObjectAvoidanceTiltEvaluator
   #pragma pack(pop)

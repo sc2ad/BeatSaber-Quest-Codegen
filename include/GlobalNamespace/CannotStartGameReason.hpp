@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     // Set static field: static public CannotStartGameReason DoNotOwnSong
     static void _set_DoNotOwnSong(::GlobalNamespace::CannotStartGameReason value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // CannotStartGameReason
   #pragma pack(pop)
   static check_size<sizeof(CannotStartGameReason), 0 + sizeof(int)> __GlobalNamespace_CannotStartGameReasonSizeCheck;

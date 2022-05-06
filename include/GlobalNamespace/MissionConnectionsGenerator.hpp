@@ -51,15 +51,7 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class MissionConnectionsGenerator : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MissionNodesManager _missionNodesManager
     // Size: 0x8
     // Offset: 0x18
@@ -88,41 +80,35 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionNodesManager _missionNodesManager
-    ::GlobalNamespace::MissionNodesManager*& dyn__missionNodesManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionNodesManager*& dyn__missionNodesManager();
     // Get instance field reference: private MissionNodeConnection _nodeConnectionPref
-    ::GlobalNamespace::MissionNodeConnection*& dyn__nodeConnectionPref();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionNodeConnection*& dyn__nodeConnectionPref();
     // Get instance field reference: private UnityEngine.GameObject _connectionsCanvas
-    ::UnityEngine::GameObject*& dyn__connectionsCanvas();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__connectionsCanvas();
     // Get instance field reference: private System.Collections.Generic.List`1<MissionNode> _missionNodes
-    ::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>*& dyn__missionNodes();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>*& dyn__missionNodes();
     // private MissionNode get__rootMissionNode()
-    // Offset: 0x13046B4
+    // Offset: 0x1300B8C
     ::GlobalNamespace::MissionNode* get__rootMissionNode();
-    // private System.Void CreateNodeConnections()
-    // Offset: 0x13046D0
-    void CreateNodeConnections();
-    // private System.Void RemoveOldConnections()
-    // Offset: 0x1304758
-    void RemoveOldConnections();
-    // private System.Void CreateConnections(MissionNode missionNode, System.Collections.Generic.List`1<MissionNode> visitedNodes)
-    // Offset: 0x1304B24
-    void CreateConnections(::GlobalNamespace::MissionNode* missionNode, ::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>* visitedNodes);
-    // private MissionNodeConnection CreateConnectionBetweenNodes(MissionNode parentMissionNode, MissionNode childMissionNode)
-    // Offset: 0x1304CBC
-    ::GlobalNamespace::MissionNodeConnection* CreateConnectionBetweenNodes(::GlobalNamespace::MissionNode* parentMissionNode, ::GlobalNamespace::MissionNode* childMissionNode);
     // public System.Void .ctor()
-    // Offset: 0x1304DC8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13012A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionConnectionsGenerator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionConnectionsGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionConnectionsGenerator*, creationType>()));
     }
+    // private System.Void CreateNodeConnections()
+    // Offset: 0x1300BA8
+    void CreateNodeConnections();
+    // private System.Void RemoveOldConnections()
+    // Offset: 0x1300C30
+    void RemoveOldConnections();
+    // private System.Void CreateConnections(MissionNode missionNode, System.Collections.Generic.List`1<MissionNode> visitedNodes)
+    // Offset: 0x1300FFC
+    void CreateConnections(::GlobalNamespace::MissionNode* missionNode, ::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>* visitedNodes);
+    // private MissionNodeConnection CreateConnectionBetweenNodes(MissionNode parentMissionNode, MissionNode childMissionNode)
+    // Offset: 0x1301194
+    ::GlobalNamespace::MissionNodeConnection* CreateConnectionBetweenNodes(::GlobalNamespace::MissionNode* parentMissionNode, ::GlobalNamespace::MissionNode* childMissionNode);
   }; // MissionConnectionsGenerator
   #pragma pack(pop)
   static check_size<sizeof(MissionConnectionsGenerator), 48 + sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>*)> __GlobalNamespace_MissionConnectionsGeneratorSizeCheck;
@@ -137,6 +123,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionConnectionsGenerator*), "get__rootMissionNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MissionConnectionsGenerator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionConnectionsGenerator::CreateNodeConnections
 // Il2CppName: CreateNodeConnections
 template<>
@@ -173,7 +163,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionConnectionsGenerator*), "CreateConnectionBetweenNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parentMissionNode, childMissionNode});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MissionConnectionsGenerator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

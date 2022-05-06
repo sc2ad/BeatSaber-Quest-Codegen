@@ -40,15 +40,7 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::ScoringElement::Pool_1<T>
     template<typename T>
     class Pool_1;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private NoteData <noteData>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -79,36 +71,36 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::IComparable_1<::GlobalNamespace::ScoringElement*>*>(this);
     }
     // Get instance field reference: private NoteData <noteData>k__BackingField
-    ::GlobalNamespace::NoteData*& dyn_$noteData$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteData*& dyn_$noteData$k__BackingField();
     // Get instance field reference: private System.Int32 <multiplier>k__BackingField
-    int& dyn_$multiplier$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$multiplier$k__BackingField();
     // Get instance field reference: private System.Int32 <maxMultiplier>k__BackingField
-    int& dyn_$maxMultiplier$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$maxMultiplier$k__BackingField();
     // Get instance field reference: private System.Boolean <isFinished>k__BackingField
-    bool& dyn_$isFinished$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$isFinished$k__BackingField();
     // public NoteData get_noteData()
-    // Offset: 0x1426190
+    // Offset: 0x14677C4
     ::GlobalNamespace::NoteData* get_noteData();
     // protected System.Void set_noteData(NoteData value)
-    // Offset: 0x1426198
+    // Offset: 0x14677CC
     void set_noteData(::GlobalNamespace::NoteData* value);
     // public System.Int32 get_maxPossibleCutScore()
-    // Offset: 0x1423820
+    // Offset: 0x1464ED8
     int get_maxPossibleCutScore();
     // public System.Single get_time()
-    // Offset: 0x142374C
+    // Offset: 0x1464E04
     float get_time();
     // public System.Int32 get_multiplier()
-    // Offset: 0x14261A0
+    // Offset: 0x14677D4
     int get_multiplier();
     // private System.Void set_multiplier(System.Int32 value)
-    // Offset: 0x14261A8
+    // Offset: 0x14677DC
     void set_multiplier(int value);
     // public System.Int32 get_maxMultiplier()
-    // Offset: 0x14261B0
+    // Offset: 0x14677E4
     int get_maxMultiplier();
     // private System.Void set_maxMultiplier(System.Int32 value)
-    // Offset: 0x14261B8
+    // Offset: 0x14677EC
     void set_maxMultiplier(int value);
     // public System.Int32 get_cutScore()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -120,32 +112,30 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::ScoreMultiplierCounter::MultiplierEventType get_multiplierEventType();
     // public System.Boolean get_isFinished()
-    // Offset: 0x14261C0
+    // Offset: 0x14677F4
     bool get_isFinished();
     // protected System.Void set_isFinished(System.Boolean value)
-    // Offset: 0x14261C8
+    // Offset: 0x14677FC
     void set_isFinished(bool value);
     // protected System.Int32 get_executionOrder()
     // Offset: 0xFFFFFFFFFFFFFFFF
     int get_executionOrder();
-    // public System.Int32 CompareTo(ScoringElement other)
-    // Offset: 0x14261D4
-    int CompareTo(::GlobalNamespace::ScoringElement* other);
-    // public System.Void SetMultipliers(System.Int32 multiplier, System.Int32 maxMultiplier)
-    // Offset: 0x1423804
-    void SetMultipliers(int multiplier, int maxMultiplier);
-    // protected System.Void Reinitialize()
-    // Offset: 0x1426268
-    void Reinitialize();
     // protected System.Void .ctor()
-    // Offset: 0x142626C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14678A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScoringElement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScoringElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScoringElement*, creationType>()));
     }
+    // public System.Int32 CompareTo(ScoringElement other)
+    // Offset: 0x1467808
+    int CompareTo(::GlobalNamespace::ScoringElement* other);
+    // public System.Void SetMultipliers(System.Int32 multiplier, System.Int32 maxMultiplier)
+    // Offset: 0x1464EBC
+    void SetMultipliers(int multiplier, int maxMultiplier);
+    // protected System.Void Reinitialize()
+    // Offset: 0x146789C
+    void Reinitialize();
   }; // ScoringElement
   #pragma pack(pop)
   static check_size<sizeof(ScoringElement), 32 + sizeof(bool)> __GlobalNamespace_ScoringElementSizeCheck;
@@ -268,6 +258,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoringElement*), "get_executionOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ScoringElement::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ScoringElement::CompareTo
 // Il2CppName: CompareTo
 template<>
@@ -295,7 +289,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoringElement*), "Reinitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ScoringElement::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

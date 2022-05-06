@@ -37,15 +37,7 @@ namespace Mono::Globalization::Unicode {
   // [TokenAttribute] Offset: FFFFFFFF
   class SortKeyBuffer : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Byte[] l1b
     // Size: 0x8
     // Offset: 0x10
@@ -180,85 +172,85 @@ namespace Mono::Globalization::Unicode {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Byte[] l1b
-    ::ArrayW<uint8_t>& dyn_l1b();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_l1b();
     // Get instance field reference: private System.Byte[] l2b
-    ::ArrayW<uint8_t>& dyn_l2b();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_l2b();
     // Get instance field reference: private System.Byte[] l3b
-    ::ArrayW<uint8_t>& dyn_l3b();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_l3b();
     // Get instance field reference: private System.Byte[] l4sb
-    ::ArrayW<uint8_t>& dyn_l4sb();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_l4sb();
     // Get instance field reference: private System.Byte[] l4tb
-    ::ArrayW<uint8_t>& dyn_l4tb();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_l4tb();
     // Get instance field reference: private System.Byte[] l4kb
-    ::ArrayW<uint8_t>& dyn_l4kb();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_l4kb();
     // Get instance field reference: private System.Byte[] l4wb
-    ::ArrayW<uint8_t>& dyn_l4wb();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_l4wb();
     // Get instance field reference: private System.Byte[] l5b
-    ::ArrayW<uint8_t>& dyn_l5b();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_l5b();
     // Get instance field reference: private System.String source
-    ::StringW& dyn_source();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_source();
     // Get instance field reference: private System.Int32 l1
-    int& dyn_l1();
+    [[deprecated("Use field access instead!")]] int& dyn_l1();
     // Get instance field reference: private System.Int32 l2
-    int& dyn_l2();
+    [[deprecated("Use field access instead!")]] int& dyn_l2();
     // Get instance field reference: private System.Int32 l3
-    int& dyn_l3();
+    [[deprecated("Use field access instead!")]] int& dyn_l3();
     // Get instance field reference: private System.Int32 l4s
-    int& dyn_l4s();
+    [[deprecated("Use field access instead!")]] int& dyn_l4s();
     // Get instance field reference: private System.Int32 l4t
-    int& dyn_l4t();
+    [[deprecated("Use field access instead!")]] int& dyn_l4t();
     // Get instance field reference: private System.Int32 l4k
-    int& dyn_l4k();
+    [[deprecated("Use field access instead!")]] int& dyn_l4k();
     // Get instance field reference: private System.Int32 l4w
-    int& dyn_l4w();
+    [[deprecated("Use field access instead!")]] int& dyn_l4w();
     // Get instance field reference: private System.Int32 l5
-    int& dyn_l5();
+    [[deprecated("Use field access instead!")]] int& dyn_l5();
     // Get instance field reference: private System.Int32 lcid
-    int& dyn_lcid();
+    [[deprecated("Use field access instead!")]] int& dyn_lcid();
     // Get instance field reference: private System.Globalization.CompareOptions options
-    ::System::Globalization::CompareOptions& dyn_options();
+    [[deprecated("Use field access instead!")]] ::System::Globalization::CompareOptions& dyn_options();
     // Get instance field reference: private System.Boolean processLevel2
-    bool& dyn_processLevel2();
+    [[deprecated("Use field access instead!")]] bool& dyn_processLevel2();
     // Get instance field reference: private System.Boolean frenchSort
-    bool& dyn_frenchSort();
+    [[deprecated("Use field access instead!")]] bool& dyn_frenchSort();
     // Get instance field reference: private System.Boolean frenchSorted
-    bool& dyn_frenchSorted();
+    [[deprecated("Use field access instead!")]] bool& dyn_frenchSorted();
     // public System.Void .ctor(System.Int32 lcid)
-    // Offset: 0x1EFB868
+    // Offset: 0x1F48DA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SortKeyBuffer* New_ctor(int lcid) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Globalization::Unicode::SortKeyBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortKeyBuffer*, creationType>(lcid)));
     }
     // public System.Void Reset()
-    // Offset: 0x1EFFEEC
+    // Offset: 0x1F4D424
     void Reset();
     // System.Void Initialize(System.Globalization.CompareOptions options, System.Int32 lcid, System.String s, System.Boolean frenchSort)
-    // Offset: 0x1EFB870
+    // Offset: 0x1F48DA8
     void Initialize(::System::Globalization::CompareOptions options, int lcid, ::StringW s, bool frenchSort);
     // System.Void AppendCJKExtension(System.Byte lv1msb, System.Byte lv1lsb)
-    // Offset: 0x1EFC33C
+    // Offset: 0x1F49874
     void AppendCJKExtension(uint8_t lv1msb, uint8_t lv1lsb);
     // System.Void AppendKana(System.Byte category, System.Byte lv1, System.Byte lv2, System.Byte lv3, System.Boolean isSmallKana, System.Byte markType, System.Boolean isKatakana, System.Boolean isHalfWidth)
-    // Offset: 0x1EFC494
+    // Offset: 0x1F499CC
     void AppendKana(uint8_t category, uint8_t lv1, uint8_t lv2, uint8_t lv3, bool isSmallKana, uint8_t markType, bool isKatakana, bool isHalfWidth);
     // System.Void AppendNormal(System.Byte category, System.Byte lv1, System.Byte lv2, System.Byte lv3)
-    // Offset: 0x1EFC1EC
+    // Offset: 0x1F49724
     void AppendNormal(uint8_t category, uint8_t lv1, uint8_t lv2, uint8_t lv3);
     // private System.Void AppendLevel5(System.Byte category, System.Byte lv1)
-    // Offset: 0x1EFFFD4
+    // Offset: 0x1F4D50C
     void AppendLevel5(uint8_t category, uint8_t lv1);
     // private System.Void AppendBufferPrimitive(System.Byte value, ref System.Byte[] buf, ref System.Int32 bidx)
-    // Offset: 0x1EFFEFC
+    // Offset: 0x1F4D434
     void AppendBufferPrimitive(uint8_t value, ByRef<::ArrayW<uint8_t>> buf, ByRef<int> bidx);
     // public System.Globalization.SortKey GetResultAndReset()
-    // Offset: 0x1EFBDC4
+    // Offset: 0x1F492FC
     ::System::Globalization::SortKey* GetResultAndReset();
     // private System.Int32 GetOptimizedLength(System.Byte[] data, System.Int32 len, System.Byte defaultValue)
-    // Offset: 0x1F00558
+    // Offset: 0x1F4DA90
     int GetOptimizedLength(::ArrayW<uint8_t> data, int len, uint8_t defaultValue);
     // public System.Globalization.SortKey GetResult()
-    // Offset: 0x1F00078
+    // Offset: 0x1F4D5B0
     ::System::Globalization::SortKey* GetResult();
   }; // Mono.Globalization.Unicode.SortKeyBuffer
   #pragma pack(pop)

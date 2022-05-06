@@ -31,15 +31,7 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class Compute_DT_EventArgs : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public TMPro.Compute_DistanceTransform_EventTypes EventType
     // Size: 0x4
     // Offset: 0x10
@@ -60,20 +52,20 @@ namespace TMPro {
     static_assert(sizeof(::ArrayW<::UnityEngine::Color>) == 0x8);
     public:
     // Get instance field reference: public TMPro.Compute_DistanceTransform_EventTypes EventType
-    ::TMPro::Compute_DistanceTransform_EventTypes& dyn_EventType();
+    [[deprecated("Use field access instead!")]] ::TMPro::Compute_DistanceTransform_EventTypes& dyn_EventType();
     // Get instance field reference: public System.Single ProgressPercentage
-    float& dyn_ProgressPercentage();
+    [[deprecated("Use field access instead!")]] float& dyn_ProgressPercentage();
     // Get instance field reference: public UnityEngine.Color[] Colors
-    ::ArrayW<::UnityEngine::Color>& dyn_Colors();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Color>& dyn_Colors();
     // public System.Void .ctor(TMPro.Compute_DistanceTransform_EventTypes type, System.Single progress)
-    // Offset: 0x142E7D0
+    // Offset: 0x1437A10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Compute_DT_EventArgs* New_ctor(::TMPro::Compute_DistanceTransform_EventTypes type, float progress) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::Compute_DT_EventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Compute_DT_EventArgs*, creationType>(type, progress)));
     }
     // public System.Void .ctor(TMPro.Compute_DistanceTransform_EventTypes type, UnityEngine.Color[] colors)
-    // Offset: 0x142E80C
+    // Offset: 0x1437A4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Compute_DT_EventArgs* New_ctor(::TMPro::Compute_DistanceTransform_EventTypes type, ::ArrayW<::UnityEngine::Color> colors) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::Compute_DT_EventArgs::.ctor");

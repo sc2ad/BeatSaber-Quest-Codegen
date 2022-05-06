@@ -93,24 +93,24 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public MenuDestination menuDestination
-    ::GlobalNamespace::MenuDestination*& dyn_menuDestination();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuDestination*& dyn_menuDestination();
     // Get instance field reference: public MainMenuDestinationRequestController <>4__this
-    ::GlobalNamespace::MainMenuDestinationRequestController*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainMenuDestinationRequestController*& dyn_$$4__this();
     // Get instance field reference: private MainMenuDestinationRequestController/<>c__DisplayClass8_0 <>8__1
-    ::GlobalNamespace::MainMenuDestinationRequestController::$$c__DisplayClass8_0*& dyn_$$8__1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainMenuDestinationRequestController::$$c__DisplayClass8_0*& dyn_$$8__1();
     // Get instance field reference: private System.Threading.CancellationToken <cancellationToken>5__2
-    ::System::Threading::CancellationToken& dyn_$cancellationToken$5__2();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationToken& dyn_$cancellationToken$5__2();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1532968
+    // Offset: 0x156A270
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1532E4C
+    // Offset: 0x156A754
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MainMenuDestinationRequestController/<ProcessDestinationRequest>d__8
   #pragma pack(pop)

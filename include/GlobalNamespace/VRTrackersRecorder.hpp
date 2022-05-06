@@ -99,20 +99,12 @@ namespace GlobalNamespace {
       // Set static field: static public VRTrackersRecorder/RecordMode Off
       static void _set_Off(::GlobalNamespace::VRTrackersRecorder::RecordMode value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // VRTrackersRecorder/RecordMode
     #pragma pack(pop)
     static check_size<sizeof(VRTrackersRecorder::RecordMode), 0 + sizeof(int)> __GlobalNamespace_VRTrackersRecorder_RecordModeSizeCheck;
     static_assert(sizeof(VRTrackersRecorder::RecordMode) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private FloatSO _songTime
     // Size: 0x8
     // Offset: 0x18
@@ -181,62 +173,56 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FloatSO _songTime
-    ::GlobalNamespace::FloatSO*& dyn__songTime();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FloatSO*& dyn__songTime();
     // Get instance field reference: private System.String _saveFilename
-    ::StringW& dyn__saveFilename();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__saveFilename();
     // Get instance field reference: private VRTrackersRecorder/RecordMode _mode
-    ::GlobalNamespace::VRTrackersRecorder::RecordMode& dyn__mode();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VRTrackersRecorder::RecordMode& dyn__mode();
     // Get instance field reference: private UnityEngine.Transform _originTransform
-    ::UnityEngine::Transform*& dyn__originTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__originTransform();
     // Get instance field reference: private UnityEngine.Transform[] _playbackTransforms
-    ::ArrayW<::UnityEngine::Transform*>& dyn__playbackTransforms();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Transform*>& dyn__playbackTransforms();
     // Get instance field reference: private System.Collections.Generic.List`1<VRTrackersRecorder/Keyframe> _keyframes
-    ::System::Collections::Generic::List_1<::GlobalNamespace::VRTrackersRecorder::Keyframe*>*& dyn__keyframes();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::VRTrackersRecorder::Keyframe*>*& dyn__keyframes();
     // Get instance field reference: private System.Int32 _keyframeIndex
-    int& dyn__keyframeIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__keyframeIndex();
     // Get instance field reference: private SteamVR_Events/Action _newPosesAction
-    ::GlobalNamespace::SteamVR_Events::Action*& dyn__newPosesAction();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SteamVR_Events::Action*& dyn__newPosesAction();
     // Get instance field reference: private UnityEngine.Vector3 _loadedOriginPos
-    ::UnityEngine::Vector3& dyn__loadedOriginPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__loadedOriginPos();
     // Get instance field reference: private UnityEngine.Quaternion _loadedOriginRot
-    ::UnityEngine::Quaternion& dyn__loadedOriginRot();
-    // protected System.Void Awake()
-    // Offset: 0x2AC1040
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x2AC16BC
-    void OnDestroy();
-    // protected System.Void OnEnable()
-    // Offset: 0x2AC19F0
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x2AC1A14
-    void OnDisable();
-    // private System.Void OnNewPoses(Valve.VR.TrackedDevicePose_t[] poses)
-    // Offset: 0x2AC1A38
-    void OnNewPoses(::ArrayW<::Valve::VR::TrackedDevicePose_t> poses);
-    // protected System.Void Update()
-    // Offset: 0x2AC1CAC
-    void Update();
-    // private System.Void Save()
-    // Offset: 0x2AC16CC
-    void Save();
-    // private System.Void Load()
-    // Offset: 0x2AC11D8
-    void Load();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__loadedOriginRot();
     // public System.Void .ctor()
-    // Offset: 0x2AC2110
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14A1668
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRTrackersRecorder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRTrackersRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRTrackersRecorder*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x14A0598
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x14A0C14
+    void OnDestroy();
+    // protected System.Void OnEnable()
+    // Offset: 0x14A0F48
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x14A0F6C
+    void OnDisable();
+    // private System.Void OnNewPoses(Valve.VR.TrackedDevicePose_t[] poses)
+    // Offset: 0x14A0F90
+    void OnNewPoses(::ArrayW<::Valve::VR::TrackedDevicePose_t> poses);
+    // protected System.Void Update()
+    // Offset: 0x14A1204
+    void Update();
+    // private System.Void Save()
+    // Offset: 0x14A0C24
+    void Save();
+    // private System.Void Load()
+    // Offset: 0x14A0730
+    void Load();
   }; // VRTrackersRecorder
   #pragma pack(pop)
   static check_size<sizeof(VRTrackersRecorder), 100 + sizeof(::UnityEngine::Quaternion)> __GlobalNamespace_VRTrackersRecorderSizeCheck;
@@ -245,6 +231,10 @@ namespace GlobalNamespace {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VRTrackersRecorder::RecordMode, "", "VRTrackersRecorder/RecordMode");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::VRTrackersRecorder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::VRTrackersRecorder::Awake
 // Il2CppName: Awake
 template<>
@@ -310,7 +300,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRTrackersRecorder*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::VRTrackersRecorder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

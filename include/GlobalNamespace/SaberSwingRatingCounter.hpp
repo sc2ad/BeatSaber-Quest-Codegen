@@ -55,15 +55,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaberSwingRatingCounter : public ::Il2CppObject/*, public ::GlobalNamespace::ISaberMovementDataProcessor, public ::GlobalNamespace::ISaberSwingRatingCounter*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private ISaberMovementData _saberMovementData
     // Size: 0x8
     // Offset: 0x10
@@ -204,86 +196,84 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::ISaberSwingRatingCounter*>(this);
     }
     // Get instance field reference: private ISaberMovementData _saberMovementData
-    ::GlobalNamespace::ISaberMovementData*& dyn__saberMovementData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ISaberMovementData*& dyn__saberMovementData();
     // Get instance field reference: private UnityEngine.Vector3 _cutPlaneNormal
-    ::UnityEngine::Vector3& dyn__cutPlaneNormal();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__cutPlaneNormal();
     // Get instance field reference: private System.Single _cutTime
-    float& dyn__cutTime();
+    [[deprecated("Use field access instead!")]] float& dyn__cutTime();
     // Get instance field reference: private System.Single _afterCutRating
-    float& dyn__afterCutRating();
+    [[deprecated("Use field access instead!")]] float& dyn__afterCutRating();
     // Get instance field reference: private System.Single _beforeCutRating
-    float& dyn__beforeCutRating();
+    [[deprecated("Use field access instead!")]] float& dyn__beforeCutRating();
     // Get instance field reference: private UnityEngine.Plane _notePlane
-    ::UnityEngine::Plane& dyn__notePlane();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Plane& dyn__notePlane();
     // Get instance field reference: private System.Boolean _notePlaneWasCut
-    bool& dyn__notePlaneWasCut();
+    [[deprecated("Use field access instead!")]] bool& dyn__notePlaneWasCut();
     // Get instance field reference: private UnityEngine.Vector3 _noteForward
-    ::UnityEngine::Vector3& dyn__noteForward();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__noteForward();
     // Get instance field reference: private System.Boolean _rateBeforeCut
-    bool& dyn__rateBeforeCut();
+    [[deprecated("Use field access instead!")]] bool& dyn__rateBeforeCut();
     // Get instance field reference: private System.Boolean _rateAfterCut
-    bool& dyn__rateAfterCut();
+    [[deprecated("Use field access instead!")]] bool& dyn__rateAfterCut();
     // Get instance field reference: private readonly LazyCopyHashSet`1<ISaberSwingRatingCounterDidChangeReceiver> _didChangeReceivers
-    ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>*& dyn__didChangeReceivers();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>*& dyn__didChangeReceivers();
     // Get instance field reference: private readonly LazyCopyHashSet`1<ISaberSwingRatingCounterDidFinishReceiver> _didFinishReceivers
-    ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>*& dyn__didFinishReceivers();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>*& dyn__didFinishReceivers();
     // Get instance field reference: private UnityEngine.Vector3 _notePlaneCenter
-    ::UnityEngine::Vector3& dyn__notePlaneCenter();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__notePlaneCenter();
     // Get instance field reference: private UnityEngine.Vector3 _beforeCutTopPos
-    ::UnityEngine::Vector3& dyn__beforeCutTopPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__beforeCutTopPos();
     // Get instance field reference: private UnityEngine.Vector3 _beforeCutBottomPos
-    ::UnityEngine::Vector3& dyn__beforeCutBottomPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__beforeCutBottomPos();
     // Get instance field reference: private UnityEngine.Vector3 _afterCutTopPos
-    ::UnityEngine::Vector3& dyn__afterCutTopPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__afterCutTopPos();
     // Get instance field reference: private UnityEngine.Vector3 _afterCutBottomPos
-    ::UnityEngine::Vector3& dyn__afterCutBottomPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__afterCutBottomPos();
     // Get instance field reference: private UnityEngine.Vector3 _newPlaneNormal
-    ::UnityEngine::Vector3& dyn__newPlaneNormal();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__newPlaneNormal();
     // Get instance field reference: private UnityEngine.Vector3 _cutTopPos
-    ::UnityEngine::Vector3& dyn__cutTopPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__cutTopPos();
     // Get instance field reference: private UnityEngine.Vector3 _cutBottomPos
-    ::UnityEngine::Vector3& dyn__cutBottomPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__cutBottomPos();
     // Get instance field reference: private System.Boolean _finished
-    bool& dyn__finished();
+    [[deprecated("Use field access instead!")]] bool& dyn__finished();
     // public System.Single get_beforeCutRating()
-    // Offset: 0x141DE8C
+    // Offset: 0x145F544
     float get_beforeCutRating();
     // public System.Single get_afterCutRating()
-    // Offset: 0x141DE94
+    // Offset: 0x145F54C
     float get_afterCutRating();
-    // public System.Void RegisterDidChangeReceiver(ISaberSwingRatingCounterDidChangeReceiver receiver)
-    // Offset: 0x141DE9C
-    void RegisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
-    // public System.Void RegisterDidFinishReceiver(ISaberSwingRatingCounterDidFinishReceiver receiver)
-    // Offset: 0x141DF04
-    void RegisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
-    // public System.Void UnregisterDidChangeReceiver(ISaberSwingRatingCounterDidChangeReceiver receiver)
-    // Offset: 0x141DF6C
-    void UnregisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
-    // public System.Void UnregisterDidFinishReceiver(ISaberSwingRatingCounterDidFinishReceiver receiver)
-    // Offset: 0x141DFD4
-    void UnregisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
-    // public System.Void Init(ISaberMovementData saberMovementData, UnityEngine.Vector3 notePosition, UnityEngine.Quaternion noteRotation, System.Boolean rateBeforeCut, System.Boolean rateAfterCut)
-    // Offset: 0x141E03C
-    void Init(::GlobalNamespace::ISaberMovementData* saberMovementData, ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation, bool rateBeforeCut, bool rateAfterCut);
-    // public System.Void ProcessNewData(BladeMovementDataElement newData, BladeMovementDataElement prevData, System.Boolean prevDataAreValid)
-    // Offset: 0x141E3AC
-    void ProcessNewData(::GlobalNamespace::BladeMovementDataElement newData, ::GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
-    // public System.Void Finish()
-    // Offset: 0x141E944
-    void Finish();
-    // public System.Void DrawGizmos()
-    // Offset: 0x141EAE0
-    void DrawGizmos();
     // public System.Void .ctor()
-    // Offset: 0x141EDC4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x146047C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberSwingRatingCounter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberSwingRatingCounter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberSwingRatingCounter*, creationType>()));
     }
+    // public System.Void RegisterDidChangeReceiver(ISaberSwingRatingCounterDidChangeReceiver receiver)
+    // Offset: 0x145F554
+    void RegisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
+    // public System.Void RegisterDidFinishReceiver(ISaberSwingRatingCounterDidFinishReceiver receiver)
+    // Offset: 0x145F5BC
+    void RegisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
+    // public System.Void UnregisterDidChangeReceiver(ISaberSwingRatingCounterDidChangeReceiver receiver)
+    // Offset: 0x145F624
+    void UnregisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
+    // public System.Void UnregisterDidFinishReceiver(ISaberSwingRatingCounterDidFinishReceiver receiver)
+    // Offset: 0x145F68C
+    void UnregisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
+    // public System.Void Init(ISaberMovementData saberMovementData, UnityEngine.Vector3 notePosition, UnityEngine.Quaternion noteRotation, System.Boolean rateBeforeCut, System.Boolean rateAfterCut)
+    // Offset: 0x145F6F4
+    void Init(::GlobalNamespace::ISaberMovementData* saberMovementData, ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation, bool rateBeforeCut, bool rateAfterCut);
+    // public System.Void ProcessNewData(BladeMovementDataElement newData, BladeMovementDataElement prevData, System.Boolean prevDataAreValid)
+    // Offset: 0x145FA64
+    void ProcessNewData(::GlobalNamespace::BladeMovementDataElement newData, ::GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
+    // public System.Void Finish()
+    // Offset: 0x145FFFC
+    void Finish();
+    // public System.Void DrawGizmos()
+    // Offset: 0x1460198
+    void DrawGizmos();
   }; // SaberSwingRatingCounter
   #pragma pack(pop)
   static check_size<sizeof(SaberSwingRatingCounter), 200 + sizeof(bool)> __GlobalNamespace_SaberSwingRatingCounterSizeCheck;
@@ -306,6 +296,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberSwingRatingCounter*), "get_afterCutRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SaberSwingRatingCounter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SaberSwingRatingCounter::RegisterDidChangeReceiver
 // Il2CppName: RegisterDidChangeReceiver
 template<>
@@ -382,7 +376,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberSwingRatingCounter*), "DrawGizmos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SaberSwingRatingCounter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

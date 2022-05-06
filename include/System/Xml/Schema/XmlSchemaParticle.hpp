@@ -85,20 +85,12 @@ namespace System::Xml::Schema {
       // Set static field: static public System.Xml.Schema.XmlSchemaParticle/System.Xml.Schema.Occurs Max
       static void _set_Max(::System::Xml::Schema::XmlSchemaParticle::Occurs value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // System.Xml.Schema.XmlSchemaParticle/System.Xml.Schema.Occurs
     #pragma pack(pop)
     static check_size<sizeof(XmlSchemaParticle::Occurs), 0 + sizeof(int)> __System_Xml_Schema_XmlSchemaParticle_OccursSizeCheck;
     static_assert(sizeof(XmlSchemaParticle::Occurs) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Decimal minOccurs
     // Size: 0x10
     // Offset: 0x10
@@ -123,26 +115,25 @@ namespace System::Xml::Schema {
     // Set static field: static readonly System.Xml.Schema.XmlSchemaParticle Empty
     static void _set_Empty(::System::Xml::Schema::XmlSchemaParticle* value);
     // Get instance field reference: private System.Decimal minOccurs
-    ::System::Decimal& dyn_minOccurs();
+    [[deprecated("Use field access instead!")]] ::System::Decimal& dyn_minOccurs();
     // Get instance field reference: private System.Decimal maxOccurs
-    ::System::Decimal& dyn_maxOccurs();
+    [[deprecated("Use field access instead!")]] ::System::Decimal& dyn_maxOccurs();
     // Get instance field reference: private System.Xml.Schema.XmlSchemaParticle/System.Xml.Schema.Occurs flags
-    ::System::Xml::Schema::XmlSchemaParticle::Occurs& dyn_flags();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaParticle::Occurs& dyn_flags();
     // public System.Void set_MinOccurs(System.Decimal value)
-    // Offset: 0x2010514
+    // Offset: 0x2059D88
     void set_MinOccurs(::System::Decimal value);
     // public System.Void set_MaxOccurs(System.Decimal value)
-    // Offset: 0x2010648
+    // Offset: 0x2059EBC
     void set_MaxOccurs(::System::Decimal value);
     // static private System.Void .cctor()
-    // Offset: 0x201192C
+    // Offset: 0x205B1A0
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0x200FE0C
+    // Offset: 0x2059680
     // Implemented from: System.Xml.Schema.XmlSchemaAnnotated
     // Base method: System.Void XmlSchemaAnnotated::.ctor()
     // Base method: System.Void XmlSchemaObject::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaParticle* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaParticle::.ctor");

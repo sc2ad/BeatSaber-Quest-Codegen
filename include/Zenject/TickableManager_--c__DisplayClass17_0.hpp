@@ -45,15 +45,7 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TickableManager::$$c__DisplayClass17_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Zenject.IFixedTickable tickable
     // Size: 0x8
     // Offset: 0x10
@@ -66,31 +58,33 @@ namespace Zenject {
       return tickable;
     }
     // Get instance field reference: public Zenject.IFixedTickable tickable
-    ::Zenject::IFixedTickable*& dyn_tickable();
-    // System.Boolean <InitFixedTickables>b__1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1CEC5AC
-    bool $InitFixedTickables$b__1(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1CEC644
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CEC6A0
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    [[deprecated("Use field access instead!")]] ::Zenject::IFixedTickable*& dyn_tickable();
     // public System.Void .ctor()
-    // Offset: 0x1CEB248
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1D267A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TickableManager::$$c__DisplayClass17_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c__DisplayClass17_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TickableManager::$$c__DisplayClass17_0*, creationType>()));
     }
+    // System.Boolean <InitFixedTickables>b__1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
+    // Offset: 0x1D27B04
+    bool $InitFixedTickables$b__1(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1D27B9C
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1D27BF8
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.TickableManager/Zenject.<>c__DisplayClass17_0
   #pragma pack(pop)
   static check_size<sizeof(TickableManager::$$c__DisplayClass17_0), 16 + sizeof(::Zenject::IFixedTickable*)> __Zenject_TickableManager_$$c__DisplayClass17_0SizeCheck;
   static_assert(sizeof(TickableManager::$$c__DisplayClass17_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::TickableManager::$$c__DisplayClass17_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::TickableManager::$$c__DisplayClass17_0::$InitFixedTickables$b__1
 // Il2CppName: <InitFixedTickables>b__1
 template<>
@@ -117,7 +111,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager::$$c__DisplayClass17_0*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::TickableManager::$$c__DisplayClass17_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

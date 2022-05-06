@@ -38,15 +38,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameLiftClientConnectionRequestHandler : public ::Il2CppObject/*, public ::GlobalNamespace::IConnectionRequestHandler*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String <playerSessionId>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -63,28 +55,26 @@ namespace GlobalNamespace {
       return playerSessionId;
     }
     // Get instance field reference: private System.String <playerSessionId>k__BackingField
-    ::StringW& dyn_$playerSessionId$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$playerSessionId$k__BackingField();
     // public System.String get_playerSessionId()
-    // Offset: 0x16425D8
+    // Offset: 0x1678EE8
     ::StringW get_playerSessionId();
     // public System.Void set_playerSessionId(System.String value)
-    // Offset: 0x16425E0
+    // Offset: 0x1678EF0
     void set_playerSessionId(::StringW value);
-    // public System.Void GetConnectionMessage(LiteNetLib.Utils.NetDataWriter writer, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x16425E8
-    void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
-    // public System.Boolean ValidateConnectionMessage(LiteNetLib.Utils.NetDataReader reader, out System.String userId, out System.String userName, out System.Boolean isConnectionOwner)
-    // Offset: 0x164265C
-    bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner);
     // public System.Void .ctor()
-    // Offset: 0x1642670
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1678F80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameLiftClientConnectionRequestHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameLiftClientConnectionRequestHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameLiftClientConnectionRequestHandler*, creationType>()));
     }
+    // public System.Void GetConnectionMessage(LiteNetLib.Utils.NetDataWriter writer, System.String userId, System.String userName, System.Boolean isConnectionOwner)
+    // Offset: 0x1678EF8
+    void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
+    // public System.Boolean ValidateConnectionMessage(LiteNetLib.Utils.NetDataReader reader, out System.String userId, out System.String userName, out System.Boolean isConnectionOwner)
+    // Offset: 0x1678F6C
+    bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner);
   }; // GameLiftClientConnectionRequestHandler
   #pragma pack(pop)
   static check_size<sizeof(GameLiftClientConnectionRequestHandler), 16 + sizeof(::StringW)> __GlobalNamespace_GameLiftClientConnectionRequestHandlerSizeCheck;
@@ -108,6 +98,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameLiftClientConnectionRequestHandler*), "set_playerSessionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::GameLiftClientConnectionRequestHandler::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameLiftClientConnectionRequestHandler::GetConnectionMessage
 // Il2CppName: GetConnectionMessage
 template<>
@@ -132,7 +126,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameLiftClientConnectionRequestHandler*), "ValidateConnectionMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader, userId, userName, isConnectionOwner});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameLiftClientConnectionRequestHandler::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

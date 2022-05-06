@@ -96,7 +96,7 @@ namespace MasterServer {
     // Set static field: static public MasterServer.UserMasterServerMessageType GetPublicServersResponse
     static void _set_GetPublicServersResponse(::MasterServer::UserMasterServerMessageType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // MasterServer.UserMasterServerMessageType
   #pragma pack(pop)
   static check_size<sizeof(UserMasterServerMessageType), 0 + sizeof(int)> __MasterServer_UserMasterServerMessageTypeSizeCheck;

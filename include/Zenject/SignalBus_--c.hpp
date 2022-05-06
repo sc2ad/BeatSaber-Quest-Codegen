@@ -62,32 +62,30 @@ namespace Zenject {
     // Set static field: static public System.Func`2<Zenject.SignalSubscription,System.String> <>9__12_0
     static void _set_$$9__12_0(::System::Func_2<::Zenject::SignalSubscription*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1CDF9DC
+    // Offset: 0x1D1AF34
     static void _cctor();
-    // Zenject.BindingId <.ctor>b__7_0(Zenject.SignalDeclaration x)
-    // Offset: 0x1CDFA48
-    ::Zenject::BindingId $_ctor$b__7_0(::Zenject::SignalDeclaration* x);
-    // Zenject.SignalDeclaration <.ctor>b__7_1(Zenject.SignalDeclaration x)
-    // Offset: 0x1CDFA60
-    ::Zenject::SignalDeclaration* $_ctor$b__7_1(::Zenject::SignalDeclaration* x);
-    // System.String <LateDispose>b__12_0(Zenject.SignalSubscription x)
-    // Offset: 0x1CDFA68
-    ::StringW $LateDispose$b__12_0(::Zenject::SignalSubscription* x);
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1CDFAA0
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CDFAFC
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1CDFA40
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1D1AF98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalBus::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalBus::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalBus::$$c*, creationType>()));
     }
+    // Zenject.BindingId <.ctor>b__7_0(Zenject.SignalDeclaration x)
+    // Offset: 0x1D1AFA0
+    ::Zenject::BindingId $_ctor$b__7_0(::Zenject::SignalDeclaration* x);
+    // Zenject.SignalDeclaration <.ctor>b__7_1(Zenject.SignalDeclaration x)
+    // Offset: 0x1D1AFB8
+    ::Zenject::SignalDeclaration* $_ctor$b__7_1(::Zenject::SignalDeclaration* x);
+    // System.String <LateDispose>b__12_0(Zenject.SignalSubscription x)
+    // Offset: 0x1D1AFC0
+    ::StringW $LateDispose$b__12_0(::Zenject::SignalSubscription* x);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1D1AFF8
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1D1B054
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.SignalBus/Zenject.<>c
   #pragma pack(pop)
 }
@@ -100,6 +98,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(Zenject::SignalBus::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Zenject::SignalBus::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::SignalBus::$$c::$_ctor$b__7_0
 // Il2CppName: <.ctor>b__7_0
 template<>
@@ -144,7 +146,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::SignalBus::$$c*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::SignalBus::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

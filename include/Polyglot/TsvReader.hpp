@@ -35,22 +35,24 @@ namespace Polyglot {
   // [TokenAttribute] Offset: FFFFFFFF
   class TsvReader : public ::Il2CppObject {
     public:
-    // static public System.Collections.Generic.List`1<System.Collections.Generic.List`1<System.String>> Parse(System.String src)
-    // Offset: 0x29E0464
-    static ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* Parse(::StringW src);
     // public System.Void .ctor()
-    // Offset: 0x29E1640
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A36F34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TsvReader* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Polyglot::TsvReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TsvReader*, creationType>()));
     }
+    // static public System.Collections.Generic.List`1<System.Collections.Generic.List`1<System.String>> Parse(System.String src)
+    // Offset: 0x2A35D58
+    static ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* Parse(::StringW src);
   }; // Polyglot.TsvReader
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Polyglot::TsvReader::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Polyglot::TsvReader::Parse
 // Il2CppName: Parse
 template<>
@@ -60,7 +62,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(Polyglot::TsvReader*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src});
   }
 };
-// Writing MetadataGetter for method: Polyglot::TsvReader::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

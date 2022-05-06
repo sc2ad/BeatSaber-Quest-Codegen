@@ -33,15 +33,7 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class AsymmetricCipherKeyPair : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Crypto.AsymmetricKeyParameter publicParameter
     // Size: 0x8
     // Offset: 0x10
@@ -56,17 +48,17 @@ namespace Org::BouncyCastle::Crypto {
     static_assert(sizeof(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*) == 0x8);
     public:
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.AsymmetricKeyParameter publicParameter
-    ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& dyn_publicParameter();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& dyn_publicParameter();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.AsymmetricKeyParameter privateParameter
-    ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& dyn_privateParameter();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& dyn_privateParameter();
     // public Org.BouncyCastle.Crypto.AsymmetricKeyParameter get_Public()
-    // Offset: 0x1ED8254
+    // Offset: 0x1F2578C
     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Public();
     // public Org.BouncyCastle.Crypto.AsymmetricKeyParameter get_Private()
-    // Offset: 0x1ED825C
+    // Offset: 0x1F25794
     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Private();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.AsymmetricKeyParameter publicParameter, Org.BouncyCastle.Crypto.AsymmetricKeyParameter privateParameter)
-    // Offset: 0x1ED816C
+    // Offset: 0x1F256A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsymmetricCipherKeyPair* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicParameter, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateParameter) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::.ctor");

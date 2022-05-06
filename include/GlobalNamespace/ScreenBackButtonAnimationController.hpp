@@ -110,20 +110,12 @@ namespace GlobalNamespace {
       // Set static field: static public ScreenBackButtonAnimationController/AnimationType MoveOut2
       static void _set_MoveOut2(::GlobalNamespace::ScreenBackButtonAnimationController::AnimationType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // ScreenBackButtonAnimationController/AnimationType
     #pragma pack(pop)
     static check_size<sizeof(ScreenBackButtonAnimationController::AnimationType), 0 + sizeof(int)> __GlobalNamespace_ScreenBackButtonAnimationController_AnimationTypeSizeCheck;
     static_assert(sizeof(ScreenBackButtonAnimationController::AnimationType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Animator _animator
     // Size: 0x8
     // Offset: 0x18
@@ -140,28 +132,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Animator _animator
-    ::UnityEngine::Animator*& dyn__animator();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Animator*& dyn__animator();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<ScreenBackButtonAnimationController/AnimationType,System.Int32> _animationHashes
-    ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, int>*& dyn__animationHashes();
-    // protected System.Void Awake()
-    // Offset: 0x29E5364
-    void Awake();
-    // public System.Void StartAnimation(ScreenBackButtonAnimationController/AnimationType animationType)
-    // Offset: 0x29E5384
-    void StartAnimation(::GlobalNamespace::ScreenBackButtonAnimationController::AnimationType animationType);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, int>*& dyn__animationHashes();
     // public System.Void .ctor()
-    // Offset: 0x29E5404
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A3ACF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScreenBackButtonAnimationController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScreenBackButtonAnimationController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScreenBackButtonAnimationController*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x2A3AC58
+    void Awake();
+    // public System.Void StartAnimation(ScreenBackButtonAnimationController/AnimationType animationType)
+    // Offset: 0x2A3AC78
+    void StartAnimation(::GlobalNamespace::ScreenBackButtonAnimationController::AnimationType animationType);
   }; // ScreenBackButtonAnimationController
   #pragma pack(pop)
   static check_size<sizeof(ScreenBackButtonAnimationController), 32 + sizeof(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, int>*)> __GlobalNamespace_ScreenBackButtonAnimationControllerSizeCheck;
@@ -170,6 +156,10 @@ namespace GlobalNamespace {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, "", "ScreenBackButtonAnimationController/AnimationType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ScreenBackButtonAnimationController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ScreenBackButtonAnimationController::Awake
 // Il2CppName: Awake
 template<>
@@ -187,7 +177,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenBackButtonAnimationController*), "StartAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{animationType});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ScreenBackButtonAnimationController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -40,15 +40,7 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509ExtensionEnumerator : public ::Il2CppObject/*, public ::System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.IEnumerator enumerator
     // Size: 0x8
     // Offset: 0x10
@@ -65,25 +57,25 @@ namespace System::Security::Cryptography::X509Certificates {
       return enumerator;
     }
     // Get instance field reference: private System.Collections.IEnumerator enumerator
-    ::System::Collections::IEnumerator*& dyn_enumerator();
+    [[deprecated("Use field access instead!")]] ::System::Collections::IEnumerator*& dyn_enumerator();
     // public System.Security.Cryptography.X509Certificates.X509Extension get_Current()
-    // Offset: 0x1BBEA7C
+    // Offset: 0x1BF9064
     ::System::Security::Cryptography::X509Certificates::X509Extension* get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1BC0B14
+    // Offset: 0x1BFB0FC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // System.Void .ctor(System.Collections.ArrayList list)
-    // Offset: 0x1BC0A04
+    // Offset: 0x1BFAFEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ExtensionEnumerator* New_ctor(::System::Collections::ArrayList* list) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ExtensionEnumerator*, creationType>(list)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1BBEB70
+    // Offset: 0x1BF9158
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1BC0BC8
+    // Offset: 0x1BFB1B0
     void Reset();
   }; // System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator
   #pragma pack(pop)

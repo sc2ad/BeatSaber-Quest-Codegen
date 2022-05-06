@@ -26,15 +26,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OculusTestExperiment::ExperimentData : public ::Il2CppObject/*, public ::GlobalNamespace::IExperimentData*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.String _experimentPlatformKey
     // Size: 0x8
     // Offset: 0x10
@@ -51,12 +43,12 @@ namespace GlobalNamespace {
       return experimentPlatformKey;
     }
     // Get instance field reference: private readonly System.String _experimentPlatformKey
-    ::StringW& dyn__experimentPlatformKey();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__experimentPlatformKey();
     // public System.String get_experimentPlatformKey()
-    // Offset: 0x1519134
+    // Offset: 0x1550A3C
     ::StringW get_experimentPlatformKey();
     // public System.Void .ctor(System.String experimentPlatformKey)
-    // Offset: 0x15190FC
+    // Offset: 0x1550A04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusTestExperiment::ExperimentData* New_ctor(::StringW experimentPlatformKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusTestExperiment::ExperimentData::.ctor");

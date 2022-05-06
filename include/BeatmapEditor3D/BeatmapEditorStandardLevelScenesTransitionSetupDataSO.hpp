@@ -57,15 +57,7 @@ namespace BeatmapEditor3D {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapEditorStandardLevelScenesTransitionSetupDataSO : public ::GlobalNamespace::LevelScenesTransitionSetupDataSO {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private SceneInfo _standardGameplaySceneInfo
     // Size: 0x8
     // Offset: 0x38
@@ -98,36 +90,31 @@ namespace BeatmapEditor3D {
     static_assert(sizeof(::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>*) == 0x8);
     public:
     // Get instance field reference: private SceneInfo _standardGameplaySceneInfo
-    ::GlobalNamespace::SceneInfo*& dyn__standardGameplaySceneInfo();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SceneInfo*& dyn__standardGameplaySceneInfo();
     // Get instance field reference: private SceneInfo _beatmapEditorGameplaySceneInfo
-    ::GlobalNamespace::SceneInfo*& dyn__beatmapEditorGameplaySceneInfo();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SceneInfo*& dyn__beatmapEditorGameplaySceneInfo();
     // Get instance field reference: private SceneInfo _gameCoreSceneInfo
-    ::GlobalNamespace::SceneInfo*& dyn__gameCoreSceneInfo();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SceneInfo*& dyn__gameCoreSceneInfo();
     // Get instance field reference: private MainSettingsModelSO _mainSettingsModel
-    ::GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
     // Get instance field reference: private System.Action`2<BeatmapEditor3D.BeatmapEditorStandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> didFinishEvent
-    ::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<BeatmapEditor3D.BeatmapEditorStandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> value)
-    // Offset: 0x14C61A4
+    // Offset: 0x14FDAAC
     void add_didFinishEvent(::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<BeatmapEditor3D.BeatmapEditorStandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> value)
-    // Offset: 0x14C6248
+    // Offset: 0x14FDB50
     void remove_didFinishEvent(::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* value);
     // public System.Void Init(IDifficultyBeatmap difficultyBeatmap, IPreviewBeatmapLevel previewBeatmapLevel, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.Boolean useFirstPersonFlyingController, System.Action beforeSceneSwitchCallback, System.Action`2<BeatmapEditor3D.BeatmapEditorStandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> levelFinishedCallback)
-    // Offset: 0x14C62EC
+    // Offset: 0x14FDBF4
     void Init(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, bool useFirstPersonFlyingController, ::System::Action* beforeSceneSwitchCallback, ::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback);
     // public System.Void Finish(LevelCompletionResults levelCompletionResults)
-    // Offset: 0x14C6AE0
+    // Offset: 0x14FE3E8
     void Finish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0x14C6B58
+    // Offset: 0x14FE460
     // Implemented from: LevelScenesTransitionSetupDataSO
     // Base method: System.Void LevelScenesTransitionSetupDataSO::.ctor()
-    // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEditorStandardLevelScenesTransitionSetupDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO::.ctor");

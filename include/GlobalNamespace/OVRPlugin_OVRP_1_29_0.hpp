@@ -33,19 +33,19 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x1ADF078
+    // Offset: 0x1B19660
     static void _cctor();
     // static public OVRPlugin/Result ovrp_GetLayerAndroidSurfaceObject(System.Int32 layerId, ref System.IntPtr surfaceObject)
-    // Offset: 0x1ADEE20
+    // Offset: 0x1B19408
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetLayerAndroidSurfaceObject(int layerId, ByRef<::System::IntPtr> surfaceObject);
     // static public OVRPlugin/Result ovrp_SetHeadPoseModifier(ref OVRPlugin/Quatf relativeRotation, ref OVRPlugin/Vector3f relativeTranslation)
-    // Offset: 0x1ADEEB0
+    // Offset: 0x1B19498
     static ::GlobalNamespace::OVRPlugin::Result ovrp_SetHeadPoseModifier(ByRef<::GlobalNamespace::OVRPlugin::Quatf> relativeRotation, ByRef<::GlobalNamespace::OVRPlugin::Vector3f> relativeTranslation);
     // static public OVRPlugin/Result ovrp_GetHeadPoseModifier(out OVRPlugin/Quatf relativeRotation, out OVRPlugin/Vector3f relativeTranslation)
-    // Offset: 0x1ADEF40
+    // Offset: 0x1B19528
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetHeadPoseModifier(ByRef<::GlobalNamespace::OVRPlugin::Quatf> relativeRotation, ByRef<::GlobalNamespace::OVRPlugin::Vector3f> relativeTranslation);
     // static public OVRPlugin/Result ovrp_GetNodePoseStateRaw(OVRPlugin/Step stepId, System.Int32 frameIndex, OVRPlugin/Node nodeId, out OVRPlugin/PoseStatef nodePoseState)
-    // Offset: 0x1ADEFD0
+    // Offset: 0x1B195B8
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetNodePoseStateRaw(::GlobalNamespace::OVRPlugin::Step stepId, int frameIndex, ::GlobalNamespace::OVRPlugin::Node nodeId, ByRef<::GlobalNamespace::OVRPlugin::PoseStatef> nodePoseState);
   }; // OVRPlugin/OVRP_1_29_0
   #pragma pack(pop)

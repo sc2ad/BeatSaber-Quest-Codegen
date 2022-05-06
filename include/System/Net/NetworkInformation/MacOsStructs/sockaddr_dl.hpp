@@ -89,23 +89,23 @@ namespace System::Net::NetworkInformation::MacOsStructs {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Byte sdl_len
-    uint8_t& dyn_sdl_len();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_sdl_len();
     // Get instance field reference: public System.Byte sdl_family
-    uint8_t& dyn_sdl_family();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_sdl_family();
     // Get instance field reference: public System.UInt16 sdl_index
-    uint16_t& dyn_sdl_index();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_sdl_index();
     // Get instance field reference: public System.Byte sdl_type
-    uint8_t& dyn_sdl_type();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_sdl_type();
     // Get instance field reference: public System.Byte sdl_nlen
-    uint8_t& dyn_sdl_nlen();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_sdl_nlen();
     // Get instance field reference: public System.Byte sdl_alen
-    uint8_t& dyn_sdl_alen();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_sdl_alen();
     // Get instance field reference: public System.Byte sdl_slen
-    uint8_t& dyn_sdl_slen();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_sdl_slen();
     // Get instance field reference: public System.Byte[] sdl_data
-    ::ArrayW<uint8_t>& dyn_sdl_data();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_sdl_data();
     // System.Void Read(System.IntPtr ptr)
-    // Offset: 0x1B2A378
+    // Offset: 0x1B64960
     void Read(::System::IntPtr ptr);
   }; // System.Net.NetworkInformation.MacOsStructs.sockaddr_dl
   #pragma pack(pop)

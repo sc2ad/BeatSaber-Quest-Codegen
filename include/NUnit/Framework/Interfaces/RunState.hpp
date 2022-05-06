@@ -72,7 +72,7 @@ namespace NUnit::Framework::Interfaces {
     // Set static field: static public NUnit.Framework.Interfaces.RunState Ignored
     static void _set_Ignored(::NUnit::Framework::Interfaces::RunState value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // NUnit.Framework.Interfaces.RunState
   #pragma pack(pop)
   static check_size<sizeof(RunState), 0 + sizeof(int)> __NUnit_Framework_Interfaces_RunStateSizeCheck;

@@ -47,22 +47,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FloorAdjustViewController : public ::HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Vector3SO _roomCenter
     // Size: 0x8
     // Offset: 0x70
     ::GlobalNamespace::Vector3SO* roomCenter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Vector3SO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125AF7C
+    // [SpaceAttribute] Offset: 0x10DFB60
     // private UnityEngine.UI.Button _yIncButton
     // Size: 0x8
     // Offset: 0x78
@@ -81,7 +73,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* playerHeightText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0x125AFD4
+    // [InjectAttribute] Offset: 0x10DFBB8
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x90
@@ -114,42 +106,35 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMaxPlayerHeight
     static void _set_kMaxPlayerHeight(float value);
     // Get instance field reference: private Vector3SO _roomCenter
-    ::GlobalNamespace::Vector3SO*& dyn__roomCenter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3SO*& dyn__roomCenter();
     // Get instance field reference: private UnityEngine.UI.Button _yIncButton
-    ::UnityEngine::UI::Button*& dyn__yIncButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__yIncButton();
     // Get instance field reference: private UnityEngine.UI.Button _yDecButton
-    ::UnityEngine::UI::Button*& dyn__yDecButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__yDecButton();
     // Get instance field reference: private TMPro.TextMeshProUGUI _playerHeightText
-    ::TMPro::TextMeshProUGUI*& dyn__playerHeightText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__playerHeightText();
     // Get instance field reference: private IVRPlatformHelper _vrPlatformHelper
-    ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // Get instance field reference: private System.Single _playerHeight
-    float& dyn__playerHeight();
-    // protected System.Void Update()
-    // Offset: 0x138FE50
-    void Update();
-    // private System.Void <DidActivate>b__9_0()
-    // Offset: 0x1390070
-    void $DidActivate$b__9_0();
-    // private System.Void <DidActivate>b__9_1()
-    // Offset: 0x13900E8
-    void $DidActivate$b__9_1();
+    [[deprecated("Use field access instead!")]] float& dyn__playerHeight();
     // public System.Void .ctor()
-    // Offset: 0x1390068
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1377B7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FloorAdjustViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FloorAdjustViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FloorAdjustViewController*, creationType>()));
     }
+    // protected System.Void Update()
+    // Offset: 0x1377964
+    void Update();
+    // private System.Void <DidActivate>b__9_0()
+    // Offset: 0x1377B84
+    void $DidActivate$b__9_0();
+    // private System.Void <DidActivate>b__9_1()
+    // Offset: 0x1377BFC
+    void $DidActivate$b__9_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x138FD54
+    // Offset: 0x1377868
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -159,6 +144,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(FloorAdjustViewController) == 0x9C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::FloorAdjustViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FloorAdjustViewController::Update
 // Il2CppName: Update
 template<>
@@ -183,10 +172,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FloorAdjustViewController*), "<DidActivate>b__9_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FloorAdjustViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FloorAdjustViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

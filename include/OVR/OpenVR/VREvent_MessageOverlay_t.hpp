@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
       return unVRMessageOverlayResponse;
     }
     // Get instance field reference: public System.UInt32 unVRMessageOverlayResponse
-    uint& dyn_unVRMessageOverlayResponse();
+    [[deprecated("Use field access instead!")]] uint& dyn_unVRMessageOverlayResponse();
   }; // OVR.OpenVR.VREvent_MessageOverlay_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_MessageOverlay_t), 0 + sizeof(uint)> __OVR_OpenVR_VREvent_MessageOverlay_tSizeCheck;

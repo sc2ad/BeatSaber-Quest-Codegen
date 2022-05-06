@@ -37,15 +37,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class RijndaelEngine : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IBlockCipher*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 BC
     // Size: 0x4
     // Offset: 0x10
@@ -164,120 +156,118 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set static field: static private readonly System.Byte[][] shifts1
     static void _set_shifts1(::ArrayW<::ArrayW<uint8_t>> value);
     // Get instance field reference: private System.Int32 BC
-    int& dyn_BC();
+    [[deprecated("Use field access instead!")]] int& dyn_BC();
     // Get instance field reference: private System.Int64 BC_MASK
-    int64_t& dyn_BC_MASK();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_BC_MASK();
     // Get instance field reference: private System.Int32 ROUNDS
-    int& dyn_ROUNDS();
+    [[deprecated("Use field access instead!")]] int& dyn_ROUNDS();
     // Get instance field reference: private System.Int32 blockBits
-    int& dyn_blockBits();
+    [[deprecated("Use field access instead!")]] int& dyn_blockBits();
     // Get instance field reference: private System.Int64[][] workingKey
-    ::ArrayW<::ArrayW<int64_t>>& dyn_workingKey();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::ArrayW<int64_t>>& dyn_workingKey();
     // Get instance field reference: private System.Int64 A0
-    int64_t& dyn_A0();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_A0();
     // Get instance field reference: private System.Int64 A1
-    int64_t& dyn_A1();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_A1();
     // Get instance field reference: private System.Int64 A2
-    int64_t& dyn_A2();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_A2();
     // Get instance field reference: private System.Int64 A3
-    int64_t& dyn_A3();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_A3();
     // Get instance field reference: private System.Boolean forEncryption
-    bool& dyn_forEncryption();
+    [[deprecated("Use field access instead!")]] bool& dyn_forEncryption();
     // Get instance field reference: private System.Byte[] shifts0SC
-    ::ArrayW<uint8_t>& dyn_shifts0SC();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_shifts0SC();
     // Get instance field reference: private System.Byte[] shifts1SC
-    ::ArrayW<uint8_t>& dyn_shifts1SC();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_shifts1SC();
     // public System.String get_AlgorithmName()
-    // Offset: 0x23C1F64
+    // Offset: 0x240A7D8
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x23C1FAC
+    // Offset: 0x240A820
     bool get_IsPartialBlockOkay();
+    // public System.Void .ctor()
+    // Offset: 0x240A328
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static RijndaelEngine* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::RijndaelEngine::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<RijndaelEngine*, creationType>()));
+    }
     // public System.Void .ctor(System.Int32 blockBits)
-    // Offset: 0x23C1ABC
+    // Offset: 0x240A330
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RijndaelEngine* New_ctor(int blockBits) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::RijndaelEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RijndaelEngine*, creationType>(blockBits)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x23C25D0
+    // Offset: 0x240AE44
     static void _cctor();
     // private System.Byte Mul0x2(System.Int32 b)
-    // Offset: 0x23C06D0
+    // Offset: 0x2408F44
     uint8_t Mul0x2(int b);
     // private System.Byte Mul0x3(System.Int32 b)
-    // Offset: 0x23C0790
+    // Offset: 0x2409004
     uint8_t Mul0x3(int b);
     // private System.Byte Mul0x9(System.Int32 b)
-    // Offset: 0x23C0850
+    // Offset: 0x24090C4
     uint8_t Mul0x9(int b);
     // private System.Byte Mul0xb(System.Int32 b)
-    // Offset: 0x23C08F4
+    // Offset: 0x2409168
     uint8_t Mul0xb(int b);
     // private System.Byte Mul0xd(System.Int32 b)
-    // Offset: 0x23C0998
+    // Offset: 0x240920C
     uint8_t Mul0xd(int b);
     // private System.Byte Mul0xe(System.Int32 b)
-    // Offset: 0x23C0A3C
+    // Offset: 0x24092B0
     uint8_t Mul0xe(int b);
     // private System.Void KeyAddition(System.Int64[] rk)
-    // Offset: 0x23C0AE0
+    // Offset: 0x2409354
     void KeyAddition(::ArrayW<int64_t> rk);
     // private System.Int64 Shift(System.Int64 r, System.Int32 shift)
-    // Offset: 0x23C0B70
+    // Offset: 0x24093E4
     int64_t Shift(int64_t r, int shift);
     // private System.Void ShiftRow(System.Byte[] shiftsSC)
-    // Offset: 0x23C0B9C
+    // Offset: 0x2409410
     void ShiftRow(::ArrayW<uint8_t> shiftsSC);
     // private System.Int64 ApplyS(System.Int64 r, System.Byte[] box)
-    // Offset: 0x23C0C70
+    // Offset: 0x24094E4
     int64_t ApplyS(int64_t r, ::ArrayW<uint8_t> box);
     // private System.Void Substitution(System.Byte[] box)
-    // Offset: 0x23C0CE4
+    // Offset: 0x2409558
     void Substitution(::ArrayW<uint8_t> box);
     // private System.Void MixColumn()
-    // Offset: 0x23C0D54
+    // Offset: 0x24095C8
     void MixColumn();
     // private System.Void InvMixColumn()
-    // Offset: 0x23C0EF8
+    // Offset: 0x240976C
     void InvMixColumn();
     // private System.Int64[][] GenerateWorkingKey(System.Byte[] key)
-    // Offset: 0x23C123C
+    // Offset: 0x2409AB0
     ::ArrayW<::ArrayW<int64_t>> GenerateWorkingKey(::ArrayW<uint8_t> key);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x23C1DD4
+    // Offset: 0x240A648
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x23C1FB4
+    // Offset: 0x240A828
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x23C1FC8
+    // Offset: 0x240A83C
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x23C25CC
+    // Offset: 0x240AE40
     void Reset();
     // private System.Void UnPackBlock(System.Byte[] bytes, System.Int32 off)
-    // Offset: 0x23C2110
+    // Offset: 0x240A984
     void UnPackBlock(::ArrayW<uint8_t> bytes, int off);
     // private System.Void PackBlock(System.Byte[] bytes, System.Int32 off)
-    // Offset: 0x23C2500
+    // Offset: 0x240AD74
     void PackBlock(::ArrayW<uint8_t> bytes, int off);
     // private System.Void EncryptBlock(System.Int64[][] rk)
-    // Offset: 0x23C2254
+    // Offset: 0x240AAC8
     void EncryptBlock(::ArrayW<::ArrayW<int64_t>> rk);
     // private System.Void DecryptBlock(System.Int64[][] rk)
-    // Offset: 0x23C23B4
+    // Offset: 0x240AC28
     void DecryptBlock(::ArrayW<::ArrayW<int64_t>> rk);
-    // public System.Void .ctor()
-    // Offset: 0x23C1AB4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RijndaelEngine* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::RijndaelEngine::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<RijndaelEngine*, creationType>()));
-    }
   }; // Org.BouncyCastle.Crypto.Engines.RijndaelEngine
   #pragma pack(pop)
   static check_size<sizeof(RijndaelEngine), 96 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Crypto_Engines_RijndaelEngineSizeCheck;
@@ -300,6 +290,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::RijndaelEngine*), "get_IsPartialBlockOkay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::RijndaelEngine::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::RijndaelEngine::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -514,7 +508,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::RijndaelEngine*), "DecryptBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rk});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::RijndaelEngine::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

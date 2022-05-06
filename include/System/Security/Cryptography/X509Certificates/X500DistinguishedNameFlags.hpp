@@ -103,7 +103,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static public System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags ForceUTF8Encoding
     static void _set_ForceUTF8Encoding(::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags
   #pragma pack(pop)
   static check_size<sizeof(X500DistinguishedNameFlags), 0 + sizeof(int)> __System_Security_Cryptography_X509Certificates_X500DistinguishedNameFlagsSizeCheck;

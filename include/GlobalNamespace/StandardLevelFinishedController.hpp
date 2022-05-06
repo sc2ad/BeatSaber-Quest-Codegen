@@ -39,29 +39,21 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StandardLevelFinishedController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private StandardLevelScenesTransitionSetupDataSO _standardLevelSceneSetupData
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253364
+    // [InjectAttribute] Offset: 0x10D7F48
     // private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PrepareLevelCompletionResults*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253374
+    // [InjectAttribute] Offset: 0x10D7F58
     // private ILevelEndActions _gameplayManager
     // Size: 0x8
     // Offset: 0x28
@@ -72,42 +64,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private StandardLevelScenesTransitionSetupDataSO _standardLevelSceneSetupData
-    ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& dyn__standardLevelSceneSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& dyn__standardLevelSceneSetupData();
     // Get instance field reference: private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
-    ::GlobalNamespace::PrepareLevelCompletionResults*& dyn__prepareLevelCompletionResults();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PrepareLevelCompletionResults*& dyn__prepareLevelCompletionResults();
     // Get instance field reference: private ILevelEndActions _gameplayManager
-    ::GlobalNamespace::ILevelEndActions*& dyn__gameplayManager();
-    // protected System.Void Start()
-    // Offset: 0x1333788
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x1333874
-    void OnDestroy();
-    // private System.Void HandleLevelFinished()
-    // Offset: 0x133396C
-    void HandleLevelFinished();
-    // private System.Void StartLevelFinished()
-    // Offset: 0x1333970
-    void StartLevelFinished();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ILevelEndActions*& dyn__gameplayManager();
     // public System.Void .ctor()
-    // Offset: 0x13339B8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1415A20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelFinishedController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardLevelFinishedController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelFinishedController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x14157F0
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x14158DC
+    void OnDestroy();
+    // private System.Void HandleLevelFinished()
+    // Offset: 0x14159D4
+    void HandleLevelFinished();
+    // private System.Void StartLevelFinished()
+    // Offset: 0x14159D8
+    void StartLevelFinished();
   }; // StandardLevelFinishedController
   #pragma pack(pop)
   static check_size<sizeof(StandardLevelFinishedController), 40 + sizeof(::GlobalNamespace::ILevelEndActions*)> __GlobalNamespace_StandardLevelFinishedControllerSizeCheck;
   static_assert(sizeof(StandardLevelFinishedController) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelFinishedController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelFinishedController::Start
 // Il2CppName: Start
 template<>
@@ -140,7 +130,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelFinishedController*), "StartLevelFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::StandardLevelFinishedController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

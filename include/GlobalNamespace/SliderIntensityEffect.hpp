@@ -58,15 +58,7 @@ namespace GlobalNamespace {
     class IntensityCalculationDelegate;
     // Nested type: ::GlobalNamespace::SliderIntensityEffect::$ProcessEffectCoroutine$d__27
     class $ProcessEffectCoroutine$d__27;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _longSliderHeadIntensity
     // Size: 0x4
     // Offset: 0x18
@@ -85,7 +77,7 @@ namespace GlobalNamespace {
     float tailIntensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x124FB88
+    // [SpaceAttribute] Offset: 0x10D46BC
     // private System.Single _fadeOutDuration
     // Size: 0x4
     // Offset: 0x24
@@ -98,7 +90,7 @@ namespace GlobalNamespace {
     float stayOffDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x124FBD0
+    // [SpaceAttribute] Offset: 0x10D4704
     // private System.Single _flashBoost
     // Size: 0x4
     // Offset: 0x2C
@@ -117,7 +109,7 @@ namespace GlobalNamespace {
     float flashOutDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x124FC28
+    // [InjectAttribute] Offset: 0x10D475C
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x38
@@ -184,84 +176,78 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _longSliderHeadIntensity
-    float& dyn__longSliderHeadIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn__longSliderHeadIntensity();
     // Get instance field reference: private System.Single _shortSliderHeadIntensity
-    float& dyn__shortSliderHeadIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn__shortSliderHeadIntensity();
     // Get instance field reference: private System.Single _tailIntensity
-    float& dyn__tailIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn__tailIntensity();
     // Get instance field reference: private System.Single _fadeOutDuration
-    float& dyn__fadeOutDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__fadeOutDuration();
     // Get instance field reference: private System.Single _stayOffDuration
-    float& dyn__stayOffDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__stayOffDuration();
     // Get instance field reference: private System.Single _flashBoost
-    float& dyn__flashBoost();
+    [[deprecated("Use field access instead!")]] float& dyn__flashBoost();
     // Get instance field reference: private System.Single _flashInDuration
-    float& dyn__flashInDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__flashInDuration();
     // Get instance field reference: private System.Single _flashOutDuration
-    float& dyn__flashOutDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__flashOutDuration();
     // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
-    ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // Get instance field reference: private System.Action fadeInDidStartEvent
-    ::System::Action*& dyn_fadeInDidStartEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_fadeInDidStartEvent();
     // Get instance field reference: private System.Single _coreIntensity
-    float& dyn__coreIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn__coreIntensity();
     // Get instance field reference: private System.Single _effectIntensity
-    float& dyn__effectIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn__effectIntensity();
     // Get instance field reference: private System.Single _halfJumpDuration
-    float& dyn__halfJumpDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__halfJumpDuration();
     // Get instance field reference: private System.Single _sliderDuration
-    float& dyn__sliderDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__sliderDuration();
     // Get instance field reference: private System.Single headIntensity
-    float& dyn_headIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn_headIntensity();
     // Get instance field reference: private SliderIntensityEffect/IntensityCalculationDelegate _intensityCalculationDelegate
-    ::GlobalNamespace::SliderIntensityEffect::IntensityCalculationDelegate*& dyn__intensityCalculationDelegate();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SliderIntensityEffect::IntensityCalculationDelegate*& dyn__intensityCalculationDelegate();
     // Get instance field reference: private SliderIntensityEffect/FadeElement[] _dipEffectFadeElements
-    ::ArrayW<::GlobalNamespace::SliderIntensityEffect::FadeElement*>& dyn__dipEffectFadeElements();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::SliderIntensityEffect::FadeElement*>& dyn__dipEffectFadeElements();
     // Get instance field reference: private SliderIntensityEffect/FadeElement[] _flashEffectFadeElements
-    ::ArrayW<::GlobalNamespace::SliderIntensityEffect::FadeElement*>& dyn__flashEffectFadeElements();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::SliderIntensityEffect::FadeElement*>& dyn__flashEffectFadeElements();
     // public System.Single get_intensity()
-    // Offset: 0x2A9D3DC
+    // Offset: 0x1384000
     float get_intensity();
     // public System.Void add_fadeInDidStartEvent(System.Action value)
-    // Offset: 0x2A9EC30
+    // Offset: 0x1385854
     void add_fadeInDidStartEvent(::System::Action* value);
     // public System.Void remove_fadeInDidStartEvent(System.Action value)
-    // Offset: 0x2A9F10C
+    // Offset: 0x1385D30
     void remove_fadeInDidStartEvent(::System::Action* value);
-    // protected System.Void Awake()
-    // Offset: 0x2AA0904
-    void Awake();
-    // public System.Void Init(System.Single sliderDuration, System.Single halfJumpDuration)
-    // Offset: 0x2A9D978
-    void Init(float sliderDuration, float halfJumpDuration);
-    // public System.Void ManualUpdate(System.Single timeSinceHeadNoteJump)
-    // Offset: 0x2A9F4CC
-    void ManualUpdate(float timeSinceHeadNoteJump);
-    // private System.Collections.IEnumerator ProcessEffectCoroutine(System.Collections.Generic.IEnumerable`1<SliderIntensityEffect/FadeElement> fadeElements)
-    // Offset: 0x2AA0BC4
-    ::System::Collections::IEnumerator* ProcessEffectCoroutine(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SliderIntensityEffect::FadeElement*>* fadeElements);
-    // public System.Void StartIntensityDipEffect()
-    // Offset: 0x2A9FDF0
-    void StartIntensityDipEffect();
-    // public System.Void StartFlashEffect()
-    // Offset: 0x2AA0C6C
-    void StartFlashEffect();
-    // private System.Void <Awake>b__24_0()
-    // Offset: 0x2AA0CC8
-    void $Awake$b__24_0();
     // public System.Void .ctor()
-    // Offset: 0x2AA0CA8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13878CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderIntensityEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderIntensityEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderIntensityEffect*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x1387528
+    void Awake();
+    // public System.Void Init(System.Single sliderDuration, System.Single halfJumpDuration)
+    // Offset: 0x138459C
+    void Init(float sliderDuration, float halfJumpDuration);
+    // public System.Void ManualUpdate(System.Single timeSinceHeadNoteJump)
+    // Offset: 0x13860F0
+    void ManualUpdate(float timeSinceHeadNoteJump);
+    // private System.Collections.IEnumerator ProcessEffectCoroutine(System.Collections.Generic.IEnumerable`1<SliderIntensityEffect/FadeElement> fadeElements)
+    // Offset: 0x13877E8
+    ::System::Collections::IEnumerator* ProcessEffectCoroutine(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SliderIntensityEffect::FadeElement*>* fadeElements);
+    // public System.Void StartIntensityDipEffect()
+    // Offset: 0x1386A14
+    void StartIntensityDipEffect();
+    // public System.Void StartFlashEffect()
+    // Offset: 0x1387890
+    void StartFlashEffect();
+    // private System.Void <Awake>b__24_0()
+    // Offset: 0x13878EC
+    void $Awake$b__24_0();
   }; // SliderIntensityEffect
   #pragma pack(pop)
   static check_size<sizeof(SliderIntensityEffect), 112 + sizeof(::ArrayW<::GlobalNamespace::SliderIntensityEffect::FadeElement*>)> __GlobalNamespace_SliderIntensityEffectSizeCheck;
@@ -294,6 +280,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SliderIntensityEffect*), "remove_fadeInDidStartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SliderIntensityEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SliderIntensityEffect::Awake
 // Il2CppName: Awake
 template<>
@@ -354,7 +344,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SliderIntensityEffect*), "<Awake>b__24_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SliderIntensityEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

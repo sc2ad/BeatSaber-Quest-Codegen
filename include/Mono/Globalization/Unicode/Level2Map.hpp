@@ -26,15 +26,7 @@ namespace Mono::Globalization::Unicode {
   // [TokenAttribute] Offset: FFFFFFFF
   class Level2Map : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Byte Source
     // Size: 0x1
     // Offset: 0x10
@@ -49,11 +41,11 @@ namespace Mono::Globalization::Unicode {
     static_assert(sizeof(uint8_t) == 0x1);
     public:
     // Get instance field reference: public System.Byte Source
-    uint8_t& dyn_Source();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Source();
     // Get instance field reference: public System.Byte Replace
-    uint8_t& dyn_Replace();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_Replace();
     // public System.Void .ctor(System.Byte source, System.Byte replace)
-    // Offset: 0x1EF7FC8
+    // Offset: 0x1F45500
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Level2Map* New_ctor(uint8_t source, uint8_t replace) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Globalization::Unicode::Level2Map::.ctor");

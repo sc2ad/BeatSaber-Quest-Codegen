@@ -67,16 +67,8 @@ namespace HMUI {
     public:
     // Nested type: ::HMUI::SegmentedControl::IDataSource
     class IDataSource;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [NullAllowed] Offset: 0x123AC94
+    // [NullAllowed] Offset: 0x10BF76C
     // private UnityEngine.Transform _separatorPrefab
     // Size: 0x8
     // Offset: 0x18
@@ -133,67 +125,61 @@ namespace HMUI {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform _separatorPrefab
-    ::UnityEngine::Transform*& dyn__separatorPrefab();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__separatorPrefab();
     // Get instance field reference: private System.Action`2<HMUI.SegmentedControl,System.Int32> didSelectCellEvent
-    ::System::Action_2<::HMUI::SegmentedControl*, int>*& dyn_didSelectCellEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::HMUI::SegmentedControl*, int>*& dyn_didSelectCellEvent();
     // Get instance field reference: private System.Int32 _numberOfCells
-    int& dyn__numberOfCells();
+    [[deprecated("Use field access instead!")]] int& dyn__numberOfCells();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<HMUI.SegmentedControlCell> _cells
-    ::System::Collections::Generic::List_1<::HMUI::SegmentedControlCell*>*& dyn__cells();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HMUI::SegmentedControlCell*>*& dyn__cells();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.GameObject> _separators
-    ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*& dyn__separators();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*& dyn__separators();
     // Get instance field reference: private HMUI.SegmentedControl/HMUI.IDataSource _dataSource
-    ::HMUI::SegmentedControl::IDataSource*& dyn__dataSource();
+    [[deprecated("Use field access instead!")]] ::HMUI::SegmentedControl::IDataSource*& dyn__dataSource();
     // Get instance field reference: private System.Int32 _selectedCellNumber
-    int& dyn__selectedCellNumber();
+    [[deprecated("Use field access instead!")]] int& dyn__selectedCellNumber();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.Action`1<System.Int32>> _callbacks
-    ::System::Collections::Generic::Dictionary_2<int, ::System::Action_1<int>*>*& dyn__callbacks();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::System::Action_1<int>*>*& dyn__callbacks();
     // public HMUI.SegmentedControl/HMUI.IDataSource get_dataSource()
-    // Offset: 0x168CA84
+    // Offset: 0x16C3394
     ::HMUI::SegmentedControl::IDataSource* get_dataSource();
     // public System.Void set_dataSource(HMUI.SegmentedControl/HMUI.IDataSource value)
-    // Offset: 0x168CA8C
+    // Offset: 0x16C339C
     void set_dataSource(::HMUI::SegmentedControl::IDataSource* value);
     // public System.Int32 get_selectedCellNumber()
-    // Offset: 0x168CDB8
+    // Offset: 0x16C36C8
     int get_selectedCellNumber();
     // public System.Collections.Generic.IReadOnlyList`1<HMUI.SegmentedControlCell> get_cells()
-    // Offset: 0x168CDC0
+    // Offset: 0x16C36D0
     ::System::Collections::Generic::IReadOnlyList_1<::HMUI::SegmentedControlCell*>* get_cells();
     // public System.Void add_didSelectCellEvent(System.Action`2<HMUI.SegmentedControl,System.Int32> value)
-    // Offset: 0x168C93C
+    // Offset: 0x16C324C
     void add_didSelectCellEvent(::System::Action_2<::HMUI::SegmentedControl*, int>* value);
     // public System.Void remove_didSelectCellEvent(System.Action`2<HMUI.SegmentedControl,System.Int32> value)
-    // Offset: 0x168C9E0
+    // Offset: 0x16C32F0
     void remove_didSelectCellEvent(::System::Action_2<::HMUI::SegmentedControl*, int>* value);
-    // private System.Void CreateCells()
-    // Offset: 0x168CDC8
-    void CreateCells();
-    // private System.Void HandleCellSelectionDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/HMUI.TransitionType transitionType, System.Object changeOwner)
-    // Offset: 0x168D3CC
-    void HandleCellSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell::TransitionType transitionType, ::Il2CppObject* changeOwner);
-    // public System.Void SetCallbackForCell(System.Int32 cellNumber, System.Action`1<System.Int32> callback)
-    // Offset: 0x168D524
-    void SetCallbackForCell(int cellNumber, ::System::Action_1<int>* callback);
-    // public System.Void ReloadData()
-    // Offset: 0x168CA94
-    void ReloadData();
-    // public System.Void SelectCellWithNumber(System.Int32 selectCellNumber)
-    // Offset: 0x168D594
-    void SelectCellWithNumber(int selectCellNumber);
     // public System.Void .ctor()
-    // Offset: 0x168D650
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16C3F60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SegmentedControl* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::SegmentedControl::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SegmentedControl*, creationType>()));
     }
+    // private System.Void CreateCells()
+    // Offset: 0x16C36D8
+    void CreateCells();
+    // private System.Void HandleCellSelectionDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/HMUI.TransitionType transitionType, System.Object changeOwner)
+    // Offset: 0x16C3CDC
+    void HandleCellSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell::TransitionType transitionType, ::Il2CppObject* changeOwner);
+    // public System.Void SetCallbackForCell(System.Int32 cellNumber, System.Action`1<System.Int32> callback)
+    // Offset: 0x16C3E34
+    void SetCallbackForCell(int cellNumber, ::System::Action_1<int>* callback);
+    // public System.Void ReloadData()
+    // Offset: 0x16C33A4
+    void ReloadData();
+    // public System.Void SelectCellWithNumber(System.Int32 selectCellNumber)
+    // Offset: 0x16C3EA4
+    void SelectCellWithNumber(int selectCellNumber);
   }; // HMUI.SegmentedControl
   #pragma pack(pop)
   static check_size<sizeof(SegmentedControl), 80 + sizeof(::System::Collections::Generic::Dictionary_2<int, ::System::Action_1<int>*>*)> __HMUI_SegmentedControlSizeCheck;
@@ -251,6 +237,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControl*), "remove_didSelectCellEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: HMUI::SegmentedControl::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::SegmentedControl::CreateCells
 // Il2CppName: CreateCells
 template<>
@@ -297,7 +287,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControl*), "SelectCellWithNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{selectCellNumber});
   }
 };
-// Writing MetadataGetter for method: HMUI::SegmentedControl::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

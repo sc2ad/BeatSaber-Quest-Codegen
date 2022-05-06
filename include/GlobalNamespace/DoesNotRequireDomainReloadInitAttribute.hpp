@@ -29,11 +29,7 @@ namespace GlobalNamespace {
   class DoesNotRequireDomainReloadInitAttribute : public ::UnityEngine::PropertyAttribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1569560
-    // Implemented from: UnityEngine.PropertyAttribute
-    // Base method: System.Void PropertyAttribute::.ctor()
-    // Base method: System.Void Attribute::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x159FE68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DoesNotRequireDomainReloadInitAttribute* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DoesNotRequireDomainReloadInitAttribute::.ctor");

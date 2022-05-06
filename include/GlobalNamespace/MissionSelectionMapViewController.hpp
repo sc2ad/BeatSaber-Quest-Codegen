@@ -66,15 +66,7 @@ namespace GlobalNamespace {
     class $$c__DisplayClass15_0;
     // Nested type: ::GlobalNamespace::MissionSelectionMapViewController::$SongPlayerCrossfadeToLevelAsync$d__15
     struct $SongPlayerCrossfadeToLevelAsync$d__15;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.ScrollView _mapScrollView
     // Size: 0x8
     // Offset: 0x70
@@ -93,21 +85,21 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MissionMapAnimationController* missionMapAnimationController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissionMapAnimationController*) == 0x8);
-    // [InjectAttribute] Offset: 0x125C264
+    // [InjectAttribute] Offset: 0x10E0E48
     // private readonly SongPreviewPlayer _songPreviewPlayer
     // Size: 0x8
     // Offset: 0x88
     ::GlobalNamespace::SongPreviewPlayer* songPreviewPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SongPreviewPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0x125C274
+    // [InjectAttribute] Offset: 0x10E0E58
     // private readonly PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
     // Size: 0x8
     // Offset: 0x90
     ::GlobalNamespace::PerceivedLoudnessPerLevelModel* perceivedLoudnessPerLevelModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PerceivedLoudnessPerLevelModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x125C284
+    // [InjectAttribute] Offset: 0x10E0E68
     // private readonly AudioClipAsyncLoader _audioClipAsyncLoader
     // Size: 0x8
     // Offset: 0x98
@@ -128,63 +120,56 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::MissionNode*) == 0x8);
     public:
     // Get instance field reference: private HMUI.ScrollView _mapScrollView
-    ::HMUI::ScrollView*& dyn__mapScrollView();
+    [[deprecated("Use field access instead!")]] ::HMUI::ScrollView*& dyn__mapScrollView();
     // Get instance field reference: private MissionNodeSelectionManager _missionNodeSelectionManager
-    ::GlobalNamespace::MissionNodeSelectionManager*& dyn__missionNodeSelectionManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionNodeSelectionManager*& dyn__missionNodeSelectionManager();
     // Get instance field reference: private MissionMapAnimationController _missionMapAnimationController
-    ::GlobalNamespace::MissionMapAnimationController*& dyn__missionMapAnimationController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionMapAnimationController*& dyn__missionMapAnimationController();
     // Get instance field reference: private readonly SongPreviewPlayer _songPreviewPlayer
-    ::GlobalNamespace::SongPreviewPlayer*& dyn__songPreviewPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongPreviewPlayer*& dyn__songPreviewPlayer();
     // Get instance field reference: private readonly PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
-    ::GlobalNamespace::PerceivedLoudnessPerLevelModel*& dyn__perceivedLoudnessPerLevelModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PerceivedLoudnessPerLevelModel*& dyn__perceivedLoudnessPerLevelModel();
     // Get instance field reference: private readonly AudioClipAsyncLoader _audioClipAsyncLoader
-    ::GlobalNamespace::AudioClipAsyncLoader*& dyn__audioClipAsyncLoader();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioClipAsyncLoader*& dyn__audioClipAsyncLoader();
     // Get instance field reference: private System.Action`2<MissionSelectionMapViewController,MissionNode> didSelectMissionLevelEvent
-    ::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::GlobalNamespace::MissionNode*>*& dyn_didSelectMissionLevelEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::GlobalNamespace::MissionNode*>*& dyn_didSelectMissionLevelEvent();
     // Get instance field reference: private MissionNode _selectedMissionNode
-    ::GlobalNamespace::MissionNode*& dyn__selectedMissionNode();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionNode*& dyn__selectedMissionNode();
     // public System.Boolean get_animatedUpdateIsRequired()
-    // Offset: 0x13C1E40
+    // Offset: 0x13BE2EC
     bool get_animatedUpdateIsRequired();
     // public System.Void add_didSelectMissionLevelEvent(System.Action`2<MissionSelectionMapViewController,MissionNode> value)
-    // Offset: 0x13C1CF8
+    // Offset: 0x13BE1A4
     void add_didSelectMissionLevelEvent(::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::GlobalNamespace::MissionNode*>* value);
     // public System.Void remove_didSelectMissionLevelEvent(System.Action`2<MissionSelectionMapViewController,MissionNode> value)
-    // Offset: 0x13C1D9C
+    // Offset: 0x13BE248
     void remove_didSelectMissionLevelEvent(::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::GlobalNamespace::MissionNode*>* value);
-    // private System.Void HandleMissionNodeSelectionManagerDidSelectMissionNode(MissionNodeVisualController missionNodeVisualController)
-    // Offset: 0x13C20D0
-    void HandleMissionNodeSelectionManagerDidSelectMissionNode(::GlobalNamespace::MissionNodeVisualController* missionNodeVisualController);
-    // private System.Void SongPlayerCrossfadeToLevelAsync(IPreviewBeatmapLevel level)
-    // Offset: 0x13C2170
-    void SongPlayerCrossfadeToLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* level);
-    // public System.Void ShowMissionClearedAnimation(System.Action finishCallback)
-    // Offset: 0x13C2238
-    void ShowMissionClearedAnimation(::System::Action* finishCallback);
-    // public System.Void DeselectSelectedNode()
-    // Offset: 0x13C225C
-    void DeselectSelectedNode();
     // public System.Void .ctor()
-    // Offset: 0x13C2278
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13BE724
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionSelectionMapViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionSelectionMapViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionSelectionMapViewController*, creationType>()));
     }
+    // private System.Void HandleMissionNodeSelectionManagerDidSelectMissionNode(MissionNodeVisualController missionNodeVisualController)
+    // Offset: 0x13BE57C
+    void HandleMissionNodeSelectionManagerDidSelectMissionNode(::GlobalNamespace::MissionNodeVisualController* missionNodeVisualController);
+    // private System.Void SongPlayerCrossfadeToLevelAsync(IPreviewBeatmapLevel level)
+    // Offset: 0x13BE61C
+    void SongPlayerCrossfadeToLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* level);
+    // public System.Void ShowMissionClearedAnimation(System.Action finishCallback)
+    // Offset: 0x13BE6E4
+    void ShowMissionClearedAnimation(::System::Action* finishCallback);
+    // public System.Void DeselectSelectedNode()
+    // Offset: 0x13BE708
+    void DeselectSelectedNode();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13C1E5C
+    // Offset: 0x13BE308
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x13C1F9C
+    // Offset: 0x13BE448
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
@@ -220,6 +205,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionSelectionMapViewController*), "remove_didSelectMissionLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MissionSelectionMapViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionSelectionMapViewController::HandleMissionNodeSelectionManagerDidSelectMissionNode
 // Il2CppName: HandleMissionNodeSelectionManagerDidSelectMissionNode
 template<>
@@ -255,10 +244,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionSelectionMapViewController*), "DeselectSelectedNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MissionSelectionMapViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionSelectionMapViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

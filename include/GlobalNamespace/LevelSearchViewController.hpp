@@ -87,15 +87,7 @@ namespace GlobalNamespace {
     class BeatmapLevelPackCollection;
     // Nested type: ::GlobalNamespace::LevelSearchViewController::$UpdateBeatmapLevelPackCollectionAsync$d__30
     struct $UpdateBeatmapLevelPackCollectionAsync$d__30;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Button _searchButton
     // Size: 0x8
     // Offset: 0x70
@@ -126,21 +118,21 @@ namespace GlobalNamespace {
     ::HMUI::InputFieldView* searchTextInputFieldView;
     // Field size check
     static_assert(sizeof(::HMUI::InputFieldView*) == 0x8);
-    // [InjectAttribute] Offset: 0x125B9F4
+    // [InjectAttribute] Offset: 0x10E05D8
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x98
     ::GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x125BA04
+    // [InjectAttribute] Offset: 0x10E05E8
     // private readonly SongPackMasksModel _songPackMasksModel
     // Size: 0x8
     // Offset: 0xA0
     ::GlobalNamespace::SongPackMasksModel* songPackMasksModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SongPackMasksModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x125BA14
+    // [InjectAttribute] Offset: 0x10E05F8
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0xA8
@@ -205,114 +197,107 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<::GlobalNamespace::IBeatmapLevelPack*>) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.UI.Button _searchButton
-    ::UnityEngine::UI::Button*& dyn__searchButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__searchButton();
     // Get instance field reference: private UnityEngine.UI.Button _clearFiltersButton
-    ::UnityEngine::UI::Button*& dyn__clearFiltersButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__clearFiltersButton();
     // Get instance field reference: private TMPro.TextMeshProUGUI _filterParamsText
-    ::TMPro::TextMeshProUGUI*& dyn__filterParamsText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__filterParamsText();
     // Get instance field reference: private UnityEngine.GameObject _filterPlaceholder
-    ::UnityEngine::GameObject*& dyn__filterPlaceholder();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__filterPlaceholder();
     // Get instance field reference: private HMUI.InputFieldView _searchTextInputFieldView
-    ::HMUI::InputFieldView*& dyn__searchTextInputFieldView();
+    [[deprecated("Use field access instead!")]] ::HMUI::InputFieldView*& dyn__searchTextInputFieldView();
     // Get instance field reference: private readonly PlayerDataModel _playerDataModel
-    ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
     // Get instance field reference: private readonly SongPackMasksModel _songPackMasksModel
-    ::GlobalNamespace::SongPackMasksModel*& dyn__songPackMasksModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongPackMasksModel*& dyn__songPackMasksModel();
     // Get instance field reference: private readonly AdditionalContentModel _additionalContentModel
-    ::GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
     // Get instance field reference: private System.Action`2<LevelSearchViewController,LevelFilterParams> didPressSearchButtonEvent
-    ::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilterParams*>*& dyn_didPressSearchButtonEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilterParams*>*& dyn_didPressSearchButtonEvent();
     // Get instance field reference: private System.Action`2<IAnnotatedBeatmapLevelCollection,BeatmapCharacteristicSO> didFilterBeatmapLevelCollectionEvent
-    ::System::Action_2<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*, ::GlobalNamespace::BeatmapCharacteristicSO*>*& dyn_didFilterBeatmapLevelCollectionEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*, ::GlobalNamespace::BeatmapCharacteristicSO*>*& dyn_didFilterBeatmapLevelCollectionEvent();
     // Get instance field reference: private System.Action`1<LevelSearchViewController> didStartLoadingEvent
-    ::System::Action_1<::GlobalNamespace::LevelSearchViewController*>*& dyn_didStartLoadingEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::LevelSearchViewController*>*& dyn_didStartLoadingEvent();
     // Get instance field reference: private LevelSearchViewController/BeatmapLevelPackCollection _beatmapLevelPackCollection
-    ::GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection*& dyn__beatmapLevelPackCollection();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection*& dyn__beatmapLevelPackCollection();
     // Get instance field reference: private BeatmapCharacteristicSO _preferredBeatmapCharacteristic
-    ::GlobalNamespace::BeatmapCharacteristicSO*& dyn__preferredBeatmapCharacteristic();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCharacteristicSO*& dyn__preferredBeatmapCharacteristic();
     // Get instance field reference: private LevelFilterParams _currentFilterParams
-    ::GlobalNamespace::LevelFilterParams*& dyn__currentFilterParams();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelFilterParams*& dyn__currentFilterParams();
     // Get instance field reference: private System.Boolean _onlyFavorites
-    bool& dyn__onlyFavorites();
+    [[deprecated("Use field access instead!")]] bool& dyn__onlyFavorites();
     // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    ::System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // Get instance field reference: private IBeatmapLevelPack[] _beatmapLevelPacks
-    ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*>& dyn__beatmapLevelPacks();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*>& dyn__beatmapLevelPacks();
     // public System.Void add_didPressSearchButtonEvent(System.Action`2<LevelSearchViewController,LevelFilterParams> value)
-    // Offset: 0x14876BC
+    // Offset: 0x14BDF3C
     void add_didPressSearchButtonEvent(::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilterParams*>* value);
     // public System.Void remove_didPressSearchButtonEvent(System.Action`2<LevelSearchViewController,LevelFilterParams> value)
-    // Offset: 0x1487760
+    // Offset: 0x14BDFE0
     void remove_didPressSearchButtonEvent(::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilterParams*>* value);
     // public System.Void add_didFilterBeatmapLevelCollectionEvent(System.Action`2<IAnnotatedBeatmapLevelCollection,BeatmapCharacteristicSO> value)
-    // Offset: 0x1487804
+    // Offset: 0x14BE084
     void add_didFilterBeatmapLevelCollectionEvent(::System::Action_2<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*, ::GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void remove_didFilterBeatmapLevelCollectionEvent(System.Action`2<IAnnotatedBeatmapLevelCollection,BeatmapCharacteristicSO> value)
-    // Offset: 0x14878A8
+    // Offset: 0x14BE128
     void remove_didFilterBeatmapLevelCollectionEvent(::System::Action_2<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*, ::GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void add_didStartLoadingEvent(System.Action`1<LevelSearchViewController> value)
-    // Offset: 0x148794C
+    // Offset: 0x14BE1CC
     void add_didStartLoadingEvent(::System::Action_1<::GlobalNamespace::LevelSearchViewController*>* value);
     // public System.Void remove_didStartLoadingEvent(System.Action`1<LevelSearchViewController> value)
-    // Offset: 0x14879F0
+    // Offset: 0x14BE270
     void remove_didStartLoadingEvent(::System::Action_1<::GlobalNamespace::LevelSearchViewController*>* value);
-    // public System.Void Setup(IBeatmapLevelPack[] beatmapLevelPacks)
-    // Offset: 0x1487A94
-    void Setup(::ArrayW<::GlobalNamespace::IBeatmapLevelPack*> beatmapLevelPacks);
-    // public System.Void ResetFilterParams(System.Boolean onlyFavorites)
-    // Offset: 0x1487BCC
-    void ResetFilterParams(bool onlyFavorites);
-    // public System.Void UpdateSearchLevelFilterParams(LevelFilterParams levelFilterParams)
-    // Offset: 0x1487D0C
-    void UpdateSearchLevelFilterParams(::GlobalNamespace::LevelFilterParams* levelFilterParams);
-    // private System.Void ResetCurrentFilterParams()
-    // Offset: 0x1487AA0
-    void ResetCurrentFilterParams();
-    // private System.Void UpdateBeatmapLevelPackCollectionAsync()
-    // Offset: 0x1487C4C
-    void UpdateBeatmapLevelPackCollectionAsync();
-    // private System.Void SearchTextInputFieldViewOnValueChanged(HMUI.InputFieldView inputFieldView)
-    // Offset: 0x1487F68
-    void SearchTextInputFieldViewOnValueChanged(::HMUI::InputFieldView* inputFieldView);
-    // private System.Void UpdateCurrentFilterParams()
-    // Offset: 0x1487BF8
-    void UpdateCurrentFilterParams();
-    // public System.Void RefreshAfterIncreaseNumberOfGameplay()
-    // Offset: 0x1487F90
-    void RefreshAfterIncreaseNumberOfGameplay();
-    // private System.Void Refresh()
-    // Offset: 0x1487D14
-    void Refresh();
-    // private System.String LocalizedLevelFilterParamsDescription(LevelFilterParams levelFilterParams)
-    // Offset: 0x1487FB4
-    ::StringW LocalizedLevelFilterParamsDescription(::GlobalNamespace::LevelFilterParams* levelFilterParams);
-    // private System.Void <DidActivate>b__27_0()
-    // Offset: 0x14882D0
-    void $DidActivate$b__27_0();
-    // private System.Void <DidActivate>b__27_1()
-    // Offset: 0x1488338
-    void $DidActivate$b__27_1();
     // public System.Void .ctor()
-    // Offset: 0x14882C8
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14BEB48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelSearchViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelSearchViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelSearchViewController*, creationType>()));
     }
+    // public System.Void Setup(IBeatmapLevelPack[] beatmapLevelPacks)
+    // Offset: 0x14BE314
+    void Setup(::ArrayW<::GlobalNamespace::IBeatmapLevelPack*> beatmapLevelPacks);
+    // public System.Void ResetFilterParams(System.Boolean onlyFavorites)
+    // Offset: 0x14BE44C
+    void ResetFilterParams(bool onlyFavorites);
+    // public System.Void UpdateSearchLevelFilterParams(LevelFilterParams levelFilterParams)
+    // Offset: 0x14BE58C
+    void UpdateSearchLevelFilterParams(::GlobalNamespace::LevelFilterParams* levelFilterParams);
+    // private System.Void ResetCurrentFilterParams()
+    // Offset: 0x14BE320
+    void ResetCurrentFilterParams();
+    // private System.Void UpdateBeatmapLevelPackCollectionAsync()
+    // Offset: 0x14BE4CC
+    void UpdateBeatmapLevelPackCollectionAsync();
+    // private System.Void SearchTextInputFieldViewOnValueChanged(HMUI.InputFieldView inputFieldView)
+    // Offset: 0x14BE7E8
+    void SearchTextInputFieldViewOnValueChanged(::HMUI::InputFieldView* inputFieldView);
+    // private System.Void UpdateCurrentFilterParams()
+    // Offset: 0x14BE478
+    void UpdateCurrentFilterParams();
+    // public System.Void RefreshAfterIncreaseNumberOfGameplay()
+    // Offset: 0x14BE810
+    void RefreshAfterIncreaseNumberOfGameplay();
+    // private System.Void Refresh()
+    // Offset: 0x14BE594
+    void Refresh();
+    // private System.String LocalizedLevelFilterParamsDescription(LevelFilterParams levelFilterParams)
+    // Offset: 0x14BE834
+    ::StringW LocalizedLevelFilterParamsDescription(::GlobalNamespace::LevelFilterParams* levelFilterParams);
+    // private System.Void <DidActivate>b__27_0()
+    // Offset: 0x14BEB50
+    void $DidActivate$b__27_0();
+    // private System.Void <DidActivate>b__27_1()
+    // Offset: 0x14BEBB8
+    void $DidActivate$b__27_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1487D18
+    // Offset: 0x14BE598
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1487EA4
+    // Offset: 0x14BE724
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
@@ -376,6 +361,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController*), "remove_didStartLoadingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::Setup
 // Il2CppName: Setup
 template<>
@@ -477,10 +466,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController*), "<DidActivate>b__27_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

@@ -48,15 +48,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebAsyncResult : public ::System::Net::SimpleAsyncResult {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 nbytes
     // Size: 0x4
     // Offset: 0x4C
@@ -119,83 +111,83 @@ namespace System::Net {
     static_assert(sizeof(::System::Net::HttpWebRequest*) == 0x8);
     public:
     // Get instance field reference: private System.Int32 nbytes
-    int& dyn_nbytes();
+    [[deprecated("Use field access instead!")]] int& dyn_nbytes();
     // Get instance field reference: private System.IAsyncResult innerAsyncResult
-    ::System::IAsyncResult*& dyn_innerAsyncResult();
+    [[deprecated("Use field access instead!")]] ::System::IAsyncResult*& dyn_innerAsyncResult();
     // Get instance field reference: private System.Net.HttpWebResponse response
-    ::System::Net::HttpWebResponse*& dyn_response();
+    [[deprecated("Use field access instead!")]] ::System::Net::HttpWebResponse*& dyn_response();
     // Get instance field reference: private System.IO.Stream writeStream
-    ::System::IO::Stream*& dyn_writeStream();
+    [[deprecated("Use field access instead!")]] ::System::IO::Stream*& dyn_writeStream();
     // Get instance field reference: private System.Byte[] buffer
-    ::ArrayW<uint8_t>& dyn_buffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_buffer();
     // Get instance field reference: private System.Int32 offset
-    int& dyn_offset();
+    [[deprecated("Use field access instead!")]] int& dyn_offset();
     // Get instance field reference: private System.Int32 size
-    int& dyn_size();
+    [[deprecated("Use field access instead!")]] int& dyn_size();
     // Get instance field reference: public System.Boolean EndCalled
-    bool& dyn_EndCalled();
+    [[deprecated("Use field access instead!")]] bool& dyn_EndCalled();
     // Get instance field reference: public System.Boolean AsyncWriteAll
-    bool& dyn_AsyncWriteAll();
+    [[deprecated("Use field access instead!")]] bool& dyn_AsyncWriteAll();
     // Get instance field reference: public System.Net.HttpWebRequest AsyncObject
-    ::System::Net::HttpWebRequest*& dyn_AsyncObject();
+    [[deprecated("Use field access instead!")]] ::System::Net::HttpWebRequest*& dyn_AsyncObject();
     // System.Int32 get_NBytes()
-    // Offset: 0x1B1658C
+    // Offset: 0x1B50B74
     int get_NBytes();
     // System.Void set_NBytes(System.Int32 value)
-    // Offset: 0x1B16594
+    // Offset: 0x1B50B7C
     void set_NBytes(int value);
     // System.IAsyncResult get_InnerAsyncResult()
-    // Offset: 0x1B1659C
+    // Offset: 0x1B50B84
     ::System::IAsyncResult* get_InnerAsyncResult();
     // System.Void set_InnerAsyncResult(System.IAsyncResult value)
-    // Offset: 0x1B165A4
+    // Offset: 0x1B50B8C
     void set_InnerAsyncResult(::System::IAsyncResult* value);
     // System.IO.Stream get_WriteStream()
-    // Offset: 0x1B165AC
+    // Offset: 0x1B50B94
     ::System::IO::Stream* get_WriteStream();
     // System.Net.HttpWebResponse get_Response()
-    // Offset: 0x1B165B4
+    // Offset: 0x1B50B9C
     ::System::Net::HttpWebResponse* get_Response();
     // System.Byte[] get_Buffer()
-    // Offset: 0x1B165BC
+    // Offset: 0x1B50BA4
     ::ArrayW<uint8_t> get_Buffer();
     // System.Int32 get_Offset()
-    // Offset: 0x1B165C4
+    // Offset: 0x1B50BAC
     int get_Offset();
     // System.Int32 get_Size()
-    // Offset: 0x1B165CC
+    // Offset: 0x1B50BB4
     int get_Size();
     // public System.Void .ctor(System.Net.HttpWebRequest request, System.AsyncCallback cb, System.Object state)
-    // Offset: 0x1B164CC
+    // Offset: 0x1B50AB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebAsyncResult* New_ctor(::System::Net::HttpWebRequest* request, ::System::AsyncCallback* cb, ::Il2CppObject* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebAsyncResult*, creationType>(request, cb, state)));
     }
     // public System.Void .ctor(System.AsyncCallback cb, System.Object state, System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x1B16500
+    // Offset: 0x1B50AE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebAsyncResult* New_ctor(::System::AsyncCallback* cb, ::Il2CppObject* state, ::ArrayW<uint8_t> buffer, int offset, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebAsyncResult*, creationType>(cb, state, buffer, offset, size)));
     }
     // System.Void Reset()
-    // Offset: 0x1B16540
+    // Offset: 0x1B50B28
     void Reset();
     // System.Void SetCompleted(System.Boolean synch, System.Int32 nbytes)
-    // Offset: 0x1B16554
+    // Offset: 0x1B50B3C
     void SetCompleted(bool synch, int nbytes);
     // System.Void SetCompleted(System.Boolean synch, System.IO.Stream writeStream)
-    // Offset: 0x1B16564
+    // Offset: 0x1B50B4C
     void SetCompleted(bool synch, ::System::IO::Stream* writeStream);
     // System.Void SetCompleted(System.Boolean synch, System.Net.HttpWebResponse response)
-    // Offset: 0x1B16574
+    // Offset: 0x1B50B5C
     void SetCompleted(bool synch, ::System::Net::HttpWebResponse* response);
     // System.Void DoCallback()
-    // Offset: 0x1B16584
+    // Offset: 0x1B50B6C
     void DoCallback();
     // public System.Void .ctor(System.AsyncCallback cb, System.Object state)
-    // Offset: 0x1B164C4
+    // Offset: 0x1B50AAC
     // Implemented from: System.Net.SimpleAsyncResult
     // Base method: System.Void SimpleAsyncResult::.ctor(System.AsyncCallback cb, System.Object state)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

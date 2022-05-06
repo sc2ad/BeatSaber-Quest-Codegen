@@ -40,15 +40,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_Shelf : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String _shelfName
     // Size: 0x8
     // Offset: 0x10
@@ -77,17 +69,15 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData*>*) == 0x8);
     public:
     // Get instance field reference: public System.String _shelfName
-    ::StringW& dyn__shelfName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__shelfName();
     // Get instance field reference: public System.String _shelfPath
-    ::StringW& dyn__shelfPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__shelfPath();
     // Get instance field reference: public System.Boolean _defaultShelf
-    bool& dyn__defaultShelf();
+    [[deprecated("Use field access instead!")]] bool& dyn__defaultShelf();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ShelfToolData> _tools
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData*>*& dyn__tools();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData*>*& dyn__tools();
     // public System.Void .ctor()
-    // Offset: 0x1ACC658
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B07C40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_Shelf* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Shelf::.ctor");

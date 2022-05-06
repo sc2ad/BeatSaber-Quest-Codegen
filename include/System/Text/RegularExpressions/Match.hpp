@@ -39,15 +39,7 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class Match : public ::System::Text::RegularExpressions::Group {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Text.RegularExpressions.GroupCollection _groupcoll
     // Size: 0x8
     // Offset: 0x38
@@ -108,80 +100,79 @@ namespace System::Text::RegularExpressions {
     // Set static field: static System.Text.RegularExpressions.Match _empty
     static void _set__empty(::System::Text::RegularExpressions::Match* value);
     // Get instance field reference: System.Text.RegularExpressions.GroupCollection _groupcoll
-    ::System::Text::RegularExpressions::GroupCollection*& dyn__groupcoll();
+    [[deprecated("Use field access instead!")]] ::System::Text::RegularExpressions::GroupCollection*& dyn__groupcoll();
     // Get instance field reference: System.Text.RegularExpressions.Regex _regex
-    ::System::Text::RegularExpressions::Regex*& dyn__regex();
+    [[deprecated("Use field access instead!")]] ::System::Text::RegularExpressions::Regex*& dyn__regex();
     // Get instance field reference: System.Int32 _textbeg
-    int& dyn__textbeg();
+    [[deprecated("Use field access instead!")]] int& dyn__textbeg();
     // Get instance field reference: System.Int32 _textpos
-    int& dyn__textpos();
+    [[deprecated("Use field access instead!")]] int& dyn__textpos();
     // Get instance field reference: System.Int32 _textend
-    int& dyn__textend();
+    [[deprecated("Use field access instead!")]] int& dyn__textend();
     // Get instance field reference: System.Int32 _textstart
-    int& dyn__textstart();
+    [[deprecated("Use field access instead!")]] int& dyn__textstart();
     // Get instance field reference: System.Int32[][] _matches
-    ::ArrayW<::ArrayW<int>>& dyn__matches();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::ArrayW<int>>& dyn__matches();
     // Get instance field reference: System.Int32[] _matchcount
-    ::ArrayW<int>& dyn__matchcount();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__matchcount();
     // Get instance field reference: System.Boolean _balancing
-    bool& dyn__balancing();
+    [[deprecated("Use field access instead!")]] bool& dyn__balancing();
     // static public System.Text.RegularExpressions.Match get_Empty()
-    // Offset: 0x1BC3774
+    // Offset: 0x1BFDD5C
     static ::System::Text::RegularExpressions::Match* get_Empty();
     // public System.Text.RegularExpressions.GroupCollection get_Groups()
-    // Offset: 0x1BC39A0
+    // Offset: 0x1BFDF88
     ::System::Text::RegularExpressions::GroupCollection* get_Groups();
     // System.Void .ctor(System.Text.RegularExpressions.Regex regex, System.Int32 capcount, System.String text, System.Int32 begpos, System.Int32 len, System.Int32 startpos)
-    // Offset: 0x1BC37DC
+    // Offset: 0x1BFDDC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Match* New_ctor(::System::Text::RegularExpressions::Regex* regex, int capcount, ::StringW text, int begpos, int len, int startpos) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::Match::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Match*, creationType>(regex, capcount, text, begpos, len, startpos)));
     }
     // System.Void Reset(System.Text.RegularExpressions.Regex regex, System.String text, System.Int32 textbeg, System.Int32 textend, System.Int32 textstart)
-    // Offset: 0x1BC3938
+    // Offset: 0x1BFDF20
     void Reset(::System::Text::RegularExpressions::Regex* regex, ::StringW text, int textbeg, int textend, int textstart);
     // public System.Text.RegularExpressions.Match NextMatch()
-    // Offset: 0x1BC3A10
+    // Offset: 0x1BFDFF8
     ::System::Text::RegularExpressions::Match* NextMatch();
     // System.String GroupToStringImpl(System.Int32 groupnum)
-    // Offset: 0x1BC3D08
+    // Offset: 0x1BFE2F0
     ::StringW GroupToStringImpl(int groupnum);
     // System.String LastGroupToStringImpl()
-    // Offset: 0x1BC3E08
+    // Offset: 0x1BFE3F0
     ::StringW LastGroupToStringImpl();
     // System.Void AddMatch(System.Int32 cap, System.Int32 start, System.Int32 len)
-    // Offset: 0x1BC3E30
+    // Offset: 0x1BFE418
     void AddMatch(int cap, int start, int len);
     // System.Void BalanceMatch(System.Int32 cap)
-    // Offset: 0x1BC4090
+    // Offset: 0x1BFE678
     void BalanceMatch(int cap);
     // System.Void RemoveMatch(System.Int32 cap)
-    // Offset: 0x1BC4174
+    // Offset: 0x1BFE75C
     void RemoveMatch(int cap);
     // System.Boolean IsMatched(System.Int32 cap)
-    // Offset: 0x1BC41B8
+    // Offset: 0x1BFE7A0
     bool IsMatched(int cap);
     // System.Int32 MatchIndex(System.Int32 cap)
-    // Offset: 0x1BC4254
+    // Offset: 0x1BFE83C
     int MatchIndex(int cap);
     // System.Int32 MatchLength(System.Int32 cap)
-    // Offset: 0x1BC42EC
+    // Offset: 0x1BFE8D4
     int MatchLength(int cap);
     // System.Void Tidy(System.Int32 textpos)
-    // Offset: 0x1BC4384
+    // Offset: 0x1BFE96C
     void Tidy(int textpos);
     // static private System.Void .cctor()
-    // Offset: 0x1BC4518
+    // Offset: 0x1BFEB00
     // Implemented from: System.Text.RegularExpressions.Group
     // Base method: System.Void Group::.cctor()
     static void _cctor();
     // System.Void .ctor()
-    // Offset: 0x1BC45AC
+    // Offset: 0x1BFEB94
     // Implemented from: System.Text.RegularExpressions.Group
     // Base method: System.Void Group::.ctor()
     // Base method: System.Void Capture::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Match* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::Match::.ctor");

@@ -44,16 +44,8 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::LightWithIds::LightWithId
     class LightWithId;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x1238804
+    // [InjectAttribute] Offset: 0x10BD2BC
     // private LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x18
@@ -82,59 +74,57 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private LightWithIdManager _lightManager
-    ::GlobalNamespace::LightWithIdManager*& dyn__lightManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightWithIdManager*& dyn__lightManager();
     // Get instance field reference: private System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> _lightWithIds
-    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds::LightWithId*>*& dyn__lightWithIds();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds::LightWithId*>*& dyn__lightWithIds();
     // Get instance field reference: private System.Boolean _isRegistered
-    bool& dyn__isRegistered();
+    [[deprecated("Use field access instead!")]] bool& dyn__isRegistered();
     // Get instance field reference: private System.Boolean _childrenColorWasSet
-    bool& dyn__childrenColorWasSet();
-    // protected System.Void Start()
-    // Offset: 0x2AD3528
-    void Start();
-    // protected System.Void OnEnable()
-    // Offset: 0x2AD3840
-    void OnEnable();
-    // private System.Void MarkChildrenColorAsSet()
-    // Offset: 0x2AD3844
-    void MarkChildrenColorAsSet();
-    // protected System.Void SetNewLightsWithIds(System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> lightsWithIds)
-    // Offset: 0x2AD3850
-    void SetNewLightsWithIds(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds::LightWithId*>* lightsWithIds);
-    // private System.Void RegisterForColorChanges()
-    // Offset: 0x2AD352C
-    void RegisterForColorChanges();
-    // private System.Void UnregisterFromColorChanges()
-    // Offset: 0x2AD387C
-    void UnregisterFromColorChanges();
-    // protected System.Void OnDisable()
-    // Offset: 0x2AD3B64
-    void OnDisable();
-    // private System.Void HandleLightManagerDidChangeSomeColorsThisFrame()
-    // Offset: 0x2AD3B68
-    void HandleLightManagerDidChangeSomeColorsThisFrame();
-    // protected System.Void ProcessNewColorData()
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    void ProcessNewColorData();
+    [[deprecated("Use field access instead!")]] bool& dyn__childrenColorWasSet();
     // protected System.Void .ctor()
-    // Offset: 0x2AD3B84
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E7CF4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightWithIds* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightWithIds::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightWithIds*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x1E7C8F0
+    void Start();
+    // protected System.Void OnEnable()
+    // Offset: 0x1E7CC08
+    void OnEnable();
+    // private System.Void MarkChildrenColorAsSet()
+    // Offset: 0x1E7CC0C
+    void MarkChildrenColorAsSet();
+    // protected System.Void SetNewLightsWithIds(System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> lightsWithIds)
+    // Offset: 0x1E7CC18
+    void SetNewLightsWithIds(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds::LightWithId*>* lightsWithIds);
+    // private System.Void RegisterForColorChanges()
+    // Offset: 0x1E7C8F4
+    void RegisterForColorChanges();
+    // private System.Void UnregisterFromColorChanges()
+    // Offset: 0x1E7CC44
+    void UnregisterFromColorChanges();
+    // protected System.Void OnDisable()
+    // Offset: 0x1E7CF2C
+    void OnDisable();
+    // private System.Void HandleLightManagerDidChangeSomeColorsThisFrame()
+    // Offset: 0x1E7CF30
+    void HandleLightManagerDidChangeSomeColorsThisFrame();
+    // protected System.Void ProcessNewColorData()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    void ProcessNewColorData();
   }; // LightWithIds
   #pragma pack(pop)
   static check_size<sizeof(LightWithIds), 41 + sizeof(bool)> __GlobalNamespace_LightWithIdsSizeCheck;
   static_assert(sizeof(LightWithIds) == 0x2A);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::LightWithIds::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LightWithIds::Start
 // Il2CppName: Start
 template<>
@@ -208,7 +198,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIds*), "ProcessNewColorData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LightWithIds::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

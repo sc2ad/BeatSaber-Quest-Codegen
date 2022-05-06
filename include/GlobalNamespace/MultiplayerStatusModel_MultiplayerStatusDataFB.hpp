@@ -32,15 +32,7 @@ namespace GlobalNamespace {
   // [PreserveAttribute] Offset: FFFFFFFF
   class MultiplayerStatusModel::MultiplayerStatusDataFB : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public MultiplayerStatusData[] data
     // Size: 0x8
     // Offset: 0x10
@@ -53,11 +45,9 @@ namespace GlobalNamespace {
       return data;
     }
     // Get instance field reference: public MultiplayerStatusData[] data
-    ::ArrayW<::GlobalNamespace::MultiplayerStatusData*>& dyn_data();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MultiplayerStatusData*>& dyn_data();
     // public System.Void .ctor()
-    // Offset: 0x13AD6E0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13A9B8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerStatusModel::MultiplayerStatusDataFB* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerStatusModel::MultiplayerStatusDataFB::.ctor");

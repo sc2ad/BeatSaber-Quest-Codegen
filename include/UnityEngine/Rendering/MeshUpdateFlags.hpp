@@ -73,7 +73,7 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.MeshUpdateFlags DontRecalculateBounds
     static void _set_DontRecalculateBounds(::UnityEngine::Rendering::MeshUpdateFlags value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.Rendering.MeshUpdateFlags
   #pragma pack(pop)
   static check_size<sizeof(MeshUpdateFlags), 0 + sizeof(int)> __UnityEngine_Rendering_MeshUpdateFlagsSizeCheck;

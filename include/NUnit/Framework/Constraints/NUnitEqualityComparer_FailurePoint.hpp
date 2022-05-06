@@ -23,15 +23,7 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class NUnitEqualityComparer::FailurePoint : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int64 Position
     // Size: 0x8
     // Offset: 0x10
@@ -64,19 +56,17 @@ namespace NUnit::Framework::Constraints {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.Int64 Position
-    int64_t& dyn_Position();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_Position();
     // Get instance field reference: public System.Object ExpectedValue
-    ::Il2CppObject*& dyn_ExpectedValue();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_ExpectedValue();
     // Get instance field reference: public System.Object ActualValue
-    ::Il2CppObject*& dyn_ActualValue();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_ActualValue();
     // Get instance field reference: public System.Boolean ExpectedHasData
-    bool& dyn_ExpectedHasData();
+    [[deprecated("Use field access instead!")]] bool& dyn_ExpectedHasData();
     // Get instance field reference: public System.Boolean ActualHasData
-    bool& dyn_ActualHasData();
+    [[deprecated("Use field access instead!")]] bool& dyn_ActualHasData();
     // public System.Void .ctor()
-    // Offset: 0x1C443FC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C9C994
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NUnitEqualityComparer::FailurePoint* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint::.ctor");

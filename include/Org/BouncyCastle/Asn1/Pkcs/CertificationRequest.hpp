@@ -49,15 +49,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   // [TokenAttribute] Offset: FFFFFFFF
   class CertificationRequest : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected Org.BouncyCastle.Asn1.Pkcs.CertificationRequestInfo reqInfo
     // Size: 0x8
     // Offset: 0x10
@@ -78,20 +70,20 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     static_assert(sizeof(::Org::BouncyCastle::Asn1::DerBitString*) == 0x8);
     public:
     // Get instance field reference: protected Org.BouncyCastle.Asn1.Pkcs.CertificationRequestInfo reqInfo
-    ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo*& dyn_reqInfo();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo*& dyn_reqInfo();
     // Get instance field reference: protected Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier sigAlgId
-    ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& dyn_sigAlgId();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& dyn_sigAlgId();
     // Get instance field reference: protected Org.BouncyCastle.Asn1.DerBitString sigBits
-    ::Org::BouncyCastle::Asn1::DerBitString*& dyn_sigBits();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerBitString*& dyn_sigBits();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1C8EEC4
+    // Offset: 0x1CCB41C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CertificationRequest* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CertificationRequest*, creationType>(seq)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1C8F0B0
+    // Offset: 0x1CCB608
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

@@ -54,7 +54,7 @@ namespace System {
     // Set static field: static public System.ConsoleSpecialKey ControlBreak
     static void _set_ControlBreak(::System::ConsoleSpecialKey value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.ConsoleSpecialKey
   #pragma pack(pop)
   static check_size<sizeof(ConsoleSpecialKey), 0 + sizeof(int)> __System_ConsoleSpecialKeySizeCheck;

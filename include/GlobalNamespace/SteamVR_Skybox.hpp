@@ -94,20 +94,12 @@ namespace GlobalNamespace {
       // Set static field: static public SteamVR_Skybox/CellSize x8
       static void _set_x8(::GlobalNamespace::SteamVR_Skybox::CellSize value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // SteamVR_Skybox/CellSize
     #pragma pack(pop)
     static check_size<sizeof(SteamVR_Skybox::CellSize), 0 + sizeof(int)> __GlobalNamespace_SteamVR_Skybox_CellSizeSizeCheck;
     static_assert(sizeof(SteamVR_Skybox::CellSize) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Texture front
     // Size: 0x8
     // Offset: 0x18
@@ -160,52 +152,46 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Texture front
-    ::UnityEngine::Texture*& dyn_front();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Texture*& dyn_front();
     // Get instance field reference: public UnityEngine.Texture back
-    ::UnityEngine::Texture*& dyn_back();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Texture*& dyn_back();
     // Get instance field reference: public UnityEngine.Texture left
-    ::UnityEngine::Texture*& dyn_left();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Texture*& dyn_left();
     // Get instance field reference: public UnityEngine.Texture right
-    ::UnityEngine::Texture*& dyn_right();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Texture*& dyn_right();
     // Get instance field reference: public UnityEngine.Texture top
-    ::UnityEngine::Texture*& dyn_top();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Texture*& dyn_top();
     // Get instance field reference: public UnityEngine.Texture bottom
-    ::UnityEngine::Texture*& dyn_bottom();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Texture*& dyn_bottom();
     // Get instance field reference: public SteamVR_Skybox/CellSize StereoCellSize
-    ::GlobalNamespace::SteamVR_Skybox::CellSize& dyn_StereoCellSize();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SteamVR_Skybox::CellSize& dyn_StereoCellSize();
     // Get instance field reference: public System.Single StereoIpdMm
-    float& dyn_StereoIpdMm();
-    // public System.Void SetTextureByIndex(System.Int32 i, UnityEngine.Texture t)
-    // Offset: 0x187A0E0
-    void SetTextureByIndex(int i, ::UnityEngine::Texture* t);
-    // public UnityEngine.Texture GetTextureByIndex(System.Int32 i)
-    // Offset: 0x187A134
-    ::UnityEngine::Texture* GetTextureByIndex(int i);
-    // static public System.Void SetOverride(UnityEngine.Texture front, UnityEngine.Texture back, UnityEngine.Texture left, UnityEngine.Texture right, UnityEngine.Texture top, UnityEngine.Texture bottom)
-    // Offset: 0x1870B80
-    static void SetOverride(::UnityEngine::Texture* front, ::UnityEngine::Texture* back, ::UnityEngine::Texture* left, ::UnityEngine::Texture* right, ::UnityEngine::Texture* top, ::UnityEngine::Texture* bottom);
-    // static public System.Void ClearOverride()
-    // Offset: 0x1870FAC
-    static void ClearOverride();
-    // private System.Void OnEnable()
-    // Offset: 0x187A190
-    void OnEnable();
-    // private System.Void OnDisable()
-    // Offset: 0x187A1A4
-    void OnDisable();
+    [[deprecated("Use field access instead!")]] float& dyn_StereoIpdMm();
     // public System.Void .ctor()
-    // Offset: 0x187A1A8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x18B3AB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Skybox* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Skybox::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Skybox*, creationType>()));
     }
+    // public System.Void SetTextureByIndex(System.Int32 i, UnityEngine.Texture t)
+    // Offset: 0x18B39F0
+    void SetTextureByIndex(int i, ::UnityEngine::Texture* t);
+    // public UnityEngine.Texture GetTextureByIndex(System.Int32 i)
+    // Offset: 0x18B3A44
+    ::UnityEngine::Texture* GetTextureByIndex(int i);
+    // static public System.Void SetOverride(UnityEngine.Texture front, UnityEngine.Texture back, UnityEngine.Texture left, UnityEngine.Texture right, UnityEngine.Texture top, UnityEngine.Texture bottom)
+    // Offset: 0x18AA490
+    static void SetOverride(::UnityEngine::Texture* front, ::UnityEngine::Texture* back, ::UnityEngine::Texture* left, ::UnityEngine::Texture* right, ::UnityEngine::Texture* top, ::UnityEngine::Texture* bottom);
+    // static public System.Void ClearOverride()
+    // Offset: 0x18AA8BC
+    static void ClearOverride();
+    // private System.Void OnEnable()
+    // Offset: 0x18B3AA0
+    void OnEnable();
+    // private System.Void OnDisable()
+    // Offset: 0x18B3AB4
+    void OnDisable();
   }; // SteamVR_Skybox
   #pragma pack(pop)
   static check_size<sizeof(SteamVR_Skybox), 76 + sizeof(float)> __GlobalNamespace_SteamVR_SkyboxSizeCheck;
@@ -214,6 +200,10 @@ namespace GlobalNamespace {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SteamVR_Skybox::CellSize, "", "SteamVR_Skybox/CellSize");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Skybox::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Skybox::SetTextureByIndex
 // Il2CppName: SetTextureByIndex
 template<>
@@ -271,7 +261,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Skybox*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Skybox::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

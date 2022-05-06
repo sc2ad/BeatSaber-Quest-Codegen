@@ -41,22 +41,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DlcPromoPanelDataSO::MusicPackPromoInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private PreviewBeatmapLevelPackSO _beatmapLevelPack
     // Size: 0x8
     // Offset: 0x10
     ::GlobalNamespace::PreviewBeatmapLevelPackSO* beatmapLevelPack;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PreviewBeatmapLevelPackSO*) == 0x8);
-    // [NullAllowed] Offset: 0x1261B70
+    // [NullAllowed] Offset: 0x10E6818
     // private BeatmapLevelSO _beatmapLevel
     // Size: 0x8
     // Offset: 0x18
@@ -71,24 +63,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
     public:
     // Get instance field reference: private PreviewBeatmapLevelPackSO _beatmapLevelPack
-    ::GlobalNamespace::PreviewBeatmapLevelPackSO*& dyn__beatmapLevelPack();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PreviewBeatmapLevelPackSO*& dyn__beatmapLevelPack();
     // Get instance field reference: private BeatmapLevelSO _beatmapLevel
-    ::GlobalNamespace::BeatmapLevelSO*& dyn__beatmapLevel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelSO*& dyn__beatmapLevel();
     // Get instance field reference: private UnityEngine.Sprite _bannerImage
-    ::UnityEngine::Sprite*& dyn__bannerImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__bannerImage();
     // public IBeatmapLevelPack get_previewBeatmapLevelPack()
-    // Offset: 0x140FF38
+    // Offset: 0x142FCE4
     ::GlobalNamespace::IBeatmapLevelPack* get_previewBeatmapLevelPack();
     // public IPreviewBeatmapLevel get_previewBeatmapLevel()
-    // Offset: 0x140FF40
+    // Offset: 0x142FCEC
     ::GlobalNamespace::IPreviewBeatmapLevel* get_previewBeatmapLevel();
     // public UnityEngine.Sprite get_bannerImage()
-    // Offset: 0x140FF48
+    // Offset: 0x142FCF4
     ::UnityEngine::Sprite* get_bannerImage();
     // public System.Void .ctor()
-    // Offset: 0x140FF50
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x142FCFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DlcPromoPanelDataSO::MusicPackPromoInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo::.ctor");

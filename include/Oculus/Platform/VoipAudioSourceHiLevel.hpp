@@ -44,15 +44,7 @@ namespace Oculus::Platform {
     public:
     // Nested type: ::Oculus::Platform::VoipAudioSourceHiLevel::FilterReadDelegate
     class FilterReadDelegate;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 initialPlaybackDelayMS
     // Size: 0x4
     // Offset: 0x18
@@ -93,55 +85,47 @@ namespace Oculus::Platform {
     // Set static field: static private System.Boolean verboseLogging
     static void _set_verboseLogging(bool value);
     // Get instance field reference: private System.Int32 initialPlaybackDelayMS
-    int& dyn_initialPlaybackDelayMS();
+    [[deprecated("Use field access instead!")]] int& dyn_initialPlaybackDelayMS();
     // Get instance field reference: public UnityEngine.AudioSource audioSource
-    ::UnityEngine::AudioSource*& dyn_audioSource();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioSource*& dyn_audioSource();
     // Get instance field reference: public System.Single peakAmplitude
-    float& dyn_peakAmplitude();
+    [[deprecated("Use field access instead!")]] float& dyn_peakAmplitude();
     // Get instance field reference: protected Oculus.Platform.IVoipPCMSource pcmSource
-    ::Oculus::Platform::IVoipPCMSource*& dyn_pcmSource();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::IVoipPCMSource*& dyn_pcmSource();
     // public System.Void set_senderID(System.UInt64 value)
-    // Offset: 0x2A2B800
+    // Offset: 0x2A81BE8
     void set_senderID(uint64_t value);
-    // protected System.Void Stop()
-    // Offset: 0x2A2B8C4
-    void Stop();
-    // private Oculus.Platform.VoipSampleRate SampleRateToEnum(System.Int32 rate)
-    // Offset: 0x2A2B8C8
-    ::Oculus::Platform::VoipSampleRate SampleRateToEnum(int rate);
-    // protected System.Void Awake()
-    // Offset: 0x2A2B904
-    void Awake();
-    // private System.Void Start()
-    // Offset: 0x2A2BBAC
-    void Start();
-    // protected System.Void CreatePCMSource()
-    // Offset: 0x2A2BBC8
-    void CreatePCMSource();
-    // static protected System.Int32 MSToElements(System.Int32 ms)
-    // Offset: 0x2A2BC30
-    static int MSToElements(int ms);
-    // private System.Void Update()
-    // Offset: 0x2A2BCB8
-    void Update();
     // public System.Void .ctor()
-    // Offset: 0x2A2BF90
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A82378
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VoipAudioSourceHiLevel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::VoipAudioSourceHiLevel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VoipAudioSourceHiLevel*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2A2BF98
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x2A82380
     static void _cctor();
+    // protected System.Void Stop()
+    // Offset: 0x2A81CAC
+    void Stop();
+    // private Oculus.Platform.VoipSampleRate SampleRateToEnum(System.Int32 rate)
+    // Offset: 0x2A81CB0
+    ::Oculus::Platform::VoipSampleRate SampleRateToEnum(int rate);
+    // protected System.Void Awake()
+    // Offset: 0x2A81CEC
+    void Awake();
+    // private System.Void Start()
+    // Offset: 0x2A81F94
+    void Start();
+    // protected System.Void CreatePCMSource()
+    // Offset: 0x2A81FB0
+    void CreatePCMSource();
+    // static protected System.Int32 MSToElements(System.Int32 ms)
+    // Offset: 0x2A82018
+    static int MSToElements(int ms);
+    // private System.Void Update()
+    // Offset: 0x2A820A0
+    void Update();
   }; // Oculus.Platform.VoipAudioSourceHiLevel
   #pragma pack(pop)
   static check_size<sizeof(VoipAudioSourceHiLevel), 48 + sizeof(::Oculus::Platform::IVoipPCMSource*)> __Oculus_Platform_VoipAudioSourceHiLevelSizeCheck;
@@ -155,6 +139,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::VoipAudioSourceHiLevel*), "set_senderID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: Oculus::Platform::VoipAudioSourceHiLevel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: Oculus::Platform::VoipAudioSourceHiLevel::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Oculus::Platform::VoipAudioSourceHiLevel::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::VoipAudioSourceHiLevel*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::VoipAudioSourceHiLevel::Stop
@@ -213,17 +209,5 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::VoipAudioSourceHiLevel::*)()>(&Oculus::Platform::VoipAudioSourceHiLevel::Update)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::VoipAudioSourceHiLevel*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Oculus::Platform::VoipAudioSourceHiLevel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: Oculus::Platform::VoipAudioSourceHiLevel::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Oculus::Platform::VoipAudioSourceHiLevel::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::VoipAudioSourceHiLevel*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

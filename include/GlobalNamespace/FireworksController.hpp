@@ -45,15 +45,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::FireworksController::$SpawningCoroutine$d__8
     class $SpawningCoroutine$d__8;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Vector3 _spawnSize
     // Size: 0xC
     // Offset: 0x18
@@ -74,8 +66,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: maxSpawnInterval and: directionalLights
     char __padding2[0x4] = {};
-    // [HeaderAttribute] Offset: 0x1250A08
-    // [NullAllowed] Offset: 0x1250A08
+    // [HeaderAttribute] Offset: 0x10D553C
+    // [NullAllowed] Offset: 0x10D553C
     // private DirectionalLight[] _directionalLights
     // Size: 0x8
     // Offset: 0x30
@@ -94,7 +86,7 @@ namespace GlobalNamespace {
     int currentLightId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [InjectAttribute] Offset: 0x1250A74
+    // [InjectAttribute] Offset: 0x10D55A8
     // private readonly FireworkItemController/Pool _fireworkItemPool
     // Size: 0x8
     // Offset: 0x40
@@ -105,50 +97,48 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Vector3 _spawnSize
-    ::UnityEngine::Vector3& dyn__spawnSize();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__spawnSize();
     // Get instance field reference: private System.Single _minSpawnInterval
-    float& dyn__minSpawnInterval();
+    [[deprecated("Use field access instead!")]] float& dyn__minSpawnInterval();
     // Get instance field reference: private System.Single _maxSpawnInterval
-    float& dyn__maxSpawnInterval();
+    [[deprecated("Use field access instead!")]] float& dyn__maxSpawnInterval();
     // Get instance field reference: private DirectionalLight[] _directionalLights
-    ::ArrayW<::GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
     // Get instance field reference: private System.Single _lightsIntensity
-    float& dyn__lightsIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn__lightsIntensity();
     // Get instance field reference: private System.Int32 _currentLightId
-    int& dyn__currentLightId();
+    [[deprecated("Use field access instead!")]] int& dyn__currentLightId();
     // Get instance field reference: private readonly FireworkItemController/Pool _fireworkItemPool
-    ::GlobalNamespace::FireworkItemController::Pool*& dyn__fireworkItemPool();
-    // protected System.Void OnEnable()
-    // Offset: 0x138E8F4
-    void OnEnable();
-    // private System.Collections.IEnumerator SpawningCoroutine()
-    // Offset: 0x138E920
-    ::System::Collections::IEnumerator* SpawningCoroutine();
-    // private System.Void HandleFireworkItemControllerDidFinish(FireworkItemController fireworkItemController)
-    // Offset: 0x138E9BC
-    void HandleFireworkItemControllerDidFinish(::GlobalNamespace::FireworkItemController* fireworkItemController);
-    // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x138EA68
-    void OnDrawGizmosSelected();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FireworkItemController::Pool*& dyn__fireworkItemPool();
     // public System.Void .ctor()
-    // Offset: 0x138EAEC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1376600
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FireworksController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FireworksController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FireworksController*, creationType>()));
     }
+    // protected System.Void OnEnable()
+    // Offset: 0x1376408
+    void OnEnable();
+    // private System.Collections.IEnumerator SpawningCoroutine()
+    // Offset: 0x1376434
+    ::System::Collections::IEnumerator* SpawningCoroutine();
+    // private System.Void HandleFireworkItemControllerDidFinish(FireworkItemController fireworkItemController)
+    // Offset: 0x13764D0
+    void HandleFireworkItemControllerDidFinish(::GlobalNamespace::FireworkItemController* fireworkItemController);
+    // private System.Void OnDrawGizmosSelected()
+    // Offset: 0x137657C
+    void OnDrawGizmosSelected();
   }; // FireworksController
   #pragma pack(pop)
   static check_size<sizeof(FireworksController), 64 + sizeof(::GlobalNamespace::FireworkItemController::Pool*)> __GlobalNamespace_FireworksControllerSizeCheck;
   static_assert(sizeof(FireworksController) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::FireworksController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FireworksController::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -182,7 +172,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FireworksController*), "OnDrawGizmosSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FireworksController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -36,15 +36,7 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class TextPageScrollView : public ::HMUI::ScrollView {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _text
     // Size: 0x8
     // Offset: 0xA0
@@ -53,19 +45,14 @@ namespace HMUI {
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
     public:
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
-    ::TMPro::TextMeshProUGUI*& dyn__text();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__text();
     // public System.Void SetText(System.String text)
-    // Offset: 0x16924F0
+    // Offset: 0x16C8E00
     void SetText(::StringW text);
     // public System.Void .ctor()
-    // Offset: 0x1692554
+    // Offset: 0x16C8E64
     // Implemented from: HMUI.ScrollView
     // Base method: System.Void ScrollView::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextPageScrollView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::TextPageScrollView::.ctor");

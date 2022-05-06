@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScoreModel::NoteScoreDefinition : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Int32 maxCenterDistanceCutScore
     // Size: 0x4
     // Offset: 0x10
@@ -70,25 +62,25 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public readonly System.Int32 maxCenterDistanceCutScore
-    int& dyn_maxCenterDistanceCutScore();
+    [[deprecated("Use field access instead!")]] int& dyn_maxCenterDistanceCutScore();
     // Get instance field reference: public readonly System.Int32 minBeforeCutScore
-    int& dyn_minBeforeCutScore();
+    [[deprecated("Use field access instead!")]] int& dyn_minBeforeCutScore();
     // Get instance field reference: public readonly System.Int32 maxBeforeCutScore
-    int& dyn_maxBeforeCutScore();
+    [[deprecated("Use field access instead!")]] int& dyn_maxBeforeCutScore();
     // Get instance field reference: public readonly System.Int32 minAfterCutScore
-    int& dyn_minAfterCutScore();
+    [[deprecated("Use field access instead!")]] int& dyn_minAfterCutScore();
     // Get instance field reference: public readonly System.Int32 maxAfterCutScore
-    int& dyn_maxAfterCutScore();
+    [[deprecated("Use field access instead!")]] int& dyn_maxAfterCutScore();
     // Get instance field reference: public readonly System.Int32 fixedCutScore
-    int& dyn_fixedCutScore();
+    [[deprecated("Use field access instead!")]] int& dyn_fixedCutScore();
     // public System.Int32 get_maxCutScore()
-    // Offset: 0x1424F6C
+    // Offset: 0x14665A0
     int get_maxCutScore();
     // public System.Int32 get_executionOrder()
-    // Offset: 0x1425340
+    // Offset: 0x1466974
     int get_executionOrder();
     // public System.Void .ctor(System.Int32 maxCenterDistanceCutScore, System.Int32 minBeforeCutScore, System.Int32 maxBeforeCutScore, System.Int32 minAfterCutScore, System.Int32 maxAfterCutScore, System.Int32 fixedCutScore)
-    // Offset: 0x1425244
+    // Offset: 0x1466878
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScoreModel::NoteScoreDefinition* New_ctor(int maxCenterDistanceCutScore, int minBeforeCutScore, int maxBeforeCutScore, int minAfterCutScore, int maxAfterCutScore, int fixedCutScore) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScoreModel::NoteScoreDefinition::.ctor");

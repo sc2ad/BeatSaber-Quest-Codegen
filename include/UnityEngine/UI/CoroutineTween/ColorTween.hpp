@@ -89,7 +89,7 @@ namespace UnityEngine::UI::CoroutineTween {
       // Set static field: static public UnityEngine.UI.CoroutineTween.ColorTween/UnityEngine.UI.CoroutineTween.ColorTweenMode Alpha
       static void _set_Alpha(::UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // UnityEngine.UI.CoroutineTween.ColorTween/UnityEngine.UI.CoroutineTween.ColorTweenMode
     #pragma pack(pop)
     static check_size<sizeof(ColorTween::ColorTweenMode), 0 + sizeof(int)> __UnityEngine_UI_CoroutineTween_ColorTween_ColorTweenModeSizeCheck;
@@ -143,61 +143,61 @@ namespace UnityEngine::UI::CoroutineTween {
       return *reinterpret_cast<::UnityEngine::UI::CoroutineTween::ITweenValue*>(this);
     }
     // Get instance field reference: private UnityEngine.UI.CoroutineTween.ColorTween/UnityEngine.UI.CoroutineTween.ColorTweenCallback m_Target
-    ::UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenCallback*& dyn_m_Target();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenCallback*& dyn_m_Target();
     // Get instance field reference: private UnityEngine.Color m_StartColor
-    ::UnityEngine::Color& dyn_m_StartColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_m_StartColor();
     // Get instance field reference: private UnityEngine.Color m_TargetColor
-    ::UnityEngine::Color& dyn_m_TargetColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_m_TargetColor();
     // Get instance field reference: private UnityEngine.UI.CoroutineTween.ColorTween/UnityEngine.UI.CoroutineTween.ColorTweenMode m_TweenMode
-    ::UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode& dyn_m_TweenMode();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode& dyn_m_TweenMode();
     // Get instance field reference: private System.Single m_Duration
-    float& dyn_m_Duration();
+    [[deprecated("Use field access instead!")]] float& dyn_m_Duration();
     // Get instance field reference: private System.Boolean m_IgnoreTimeScale
-    bool& dyn_m_IgnoreTimeScale();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_IgnoreTimeScale();
     // public UnityEngine.Color get_startColor()
-    // Offset: 0x1901060
+    // Offset: 0x193A970
     ::UnityEngine::Color get_startColor();
     // public System.Void set_startColor(UnityEngine.Color value)
-    // Offset: 0x190106C
+    // Offset: 0x193A97C
     void set_startColor(::UnityEngine::Color value);
     // public UnityEngine.Color get_targetColor()
-    // Offset: 0x1901078
+    // Offset: 0x193A988
     ::UnityEngine::Color get_targetColor();
     // public System.Void set_targetColor(UnityEngine.Color value)
-    // Offset: 0x1901084
+    // Offset: 0x193A994
     void set_targetColor(::UnityEngine::Color value);
     // public UnityEngine.UI.CoroutineTween.ColorTween/UnityEngine.UI.CoroutineTween.ColorTweenMode get_tweenMode()
-    // Offset: 0x1901090
+    // Offset: 0x193A9A0
     ::UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode get_tweenMode();
     // public System.Void set_tweenMode(UnityEngine.UI.CoroutineTween.ColorTween/UnityEngine.UI.CoroutineTween.ColorTweenMode value)
-    // Offset: 0x1901098
+    // Offset: 0x193A9A8
     void set_tweenMode(::UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode value);
     // public System.Single get_duration()
-    // Offset: 0x19010A0
+    // Offset: 0x193A9B0
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x19010A8
+    // Offset: 0x193A9B8
     void set_duration(float value);
     // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0x19010B0
+    // Offset: 0x193A9C0
     bool get_ignoreTimeScale();
     // public System.Void set_ignoreTimeScale(System.Boolean value)
-    // Offset: 0x19010B8
+    // Offset: 0x193A9C8
     void set_ignoreTimeScale(bool value);
     // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0x19010C4
+    // Offset: 0x193A9D4
     void TweenValue(float floatPercentage);
     // public System.Void AddOnChangedCallback(UnityEngine.Events.UnityAction`1<UnityEngine.Color> callback)
-    // Offset: 0x190119C
+    // Offset: 0x193AAAC
     void AddOnChangedCallback(::UnityEngine::Events::UnityAction_1<::UnityEngine::Color>* callback);
     // public System.Boolean GetIgnoreTimescale()
-    // Offset: 0x1901278
+    // Offset: 0x193AB88
     bool GetIgnoreTimescale();
     // public System.Single GetDuration()
-    // Offset: 0x1901280
+    // Offset: 0x193AB90
     float GetDuration();
     // public System.Boolean ValidTarget()
-    // Offset: 0x190118C
+    // Offset: 0x193AA9C
     bool ValidTarget();
   }; // UnityEngine.UI.CoroutineTween.ColorTween
   #pragma pack(pop)

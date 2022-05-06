@@ -96,7 +96,7 @@ namespace System::Xml {
     // Set static field: static public System.Xml.ElementProperties HAS_NS
     static void _set_HAS_NS(::System::Xml::ElementProperties value);
     // Get instance field reference: public System.UInt32 value__
-    uint& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint& dyn_value__();
   }; // System.Xml.ElementProperties
   #pragma pack(pop)
   static check_size<sizeof(ElementProperties), 0 + sizeof(uint)> __System_Xml_ElementPropertiesSizeCheck;

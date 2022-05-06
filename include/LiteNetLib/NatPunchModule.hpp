@@ -106,11 +106,11 @@ namespace LiteNetLib {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public System.Net.IPEndPoint LocalEndPoint
-      ::System::Net::IPEndPoint*& dyn_LocalEndPoint();
+      [[deprecated("Use field access instead!")]] ::System::Net::IPEndPoint*& dyn_LocalEndPoint();
       // Get instance field reference: public System.Net.IPEndPoint RemoteEndPoint
-      ::System::Net::IPEndPoint*& dyn_RemoteEndPoint();
+      [[deprecated("Use field access instead!")]] ::System::Net::IPEndPoint*& dyn_RemoteEndPoint();
       // Get instance field reference: public System.String Token
-      ::StringW& dyn_Token();
+      [[deprecated("Use field access instead!")]] ::StringW& dyn_Token();
     }; // LiteNetLib.NatPunchModule/LiteNetLib.RequestEventData
     #pragma pack(pop)
     static check_size<sizeof(NatPunchModule::RequestEventData), 16 + sizeof(::StringW)> __LiteNetLib_NatPunchModule_RequestEventDataSizeCheck;
@@ -151,24 +151,16 @@ namespace LiteNetLib {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public System.Net.IPEndPoint TargetEndPoint
-      ::System::Net::IPEndPoint*& dyn_TargetEndPoint();
+      [[deprecated("Use field access instead!")]] ::System::Net::IPEndPoint*& dyn_TargetEndPoint();
       // Get instance field reference: public LiteNetLib.NatAddressType Type
-      ::LiteNetLib::NatAddressType& dyn_Type();
+      [[deprecated("Use field access instead!")]] ::LiteNetLib::NatAddressType& dyn_Type();
       // Get instance field reference: public System.String Token
-      ::StringW& dyn_Token();
+      [[deprecated("Use field access instead!")]] ::StringW& dyn_Token();
     }; // LiteNetLib.NatPunchModule/LiteNetLib.SuccessEventData
     #pragma pack(pop)
     static check_size<sizeof(NatPunchModule::SuccessEventData), 16 + sizeof(::StringW)> __LiteNetLib_NatPunchModule_SuccessEventDataSizeCheck;
     static_assert(sizeof(NatPunchModule::SuccessEventData) == 0x18);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly LiteNetLib.NetSocket _socket
     // Size: 0x8
     // Offset: 0x10
@@ -219,31 +211,31 @@ namespace LiteNetLib {
     // Set static field: static public System.Int32 MaxTokenLength
     static void _set_MaxTokenLength(int value);
     // Get instance field reference: private readonly LiteNetLib.NetSocket _socket
-    ::LiteNetLib::NetSocket*& dyn__socket();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::NetSocket*& dyn__socket();
     // Get instance field reference: private readonly System.Collections.Generic.Queue`1<LiteNetLib.NatPunchModule/LiteNetLib.RequestEventData> _requestEvents
-    ::System::Collections::Generic::Queue_1<::LiteNetLib::NatPunchModule::RequestEventData>*& dyn__requestEvents();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Queue_1<::LiteNetLib::NatPunchModule::RequestEventData>*& dyn__requestEvents();
     // Get instance field reference: private readonly System.Collections.Generic.Queue`1<LiteNetLib.NatPunchModule/LiteNetLib.SuccessEventData> _successEvents
-    ::System::Collections::Generic::Queue_1<::LiteNetLib::NatPunchModule::SuccessEventData>*& dyn__successEvents();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Queue_1<::LiteNetLib::NatPunchModule::SuccessEventData>*& dyn__successEvents();
     // Get instance field reference: private readonly LiteNetLib.Utils.NetDataReader _cacheReader
-    ::LiteNetLib::Utils::NetDataReader*& dyn__cacheReader();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::Utils::NetDataReader*& dyn__cacheReader();
     // Get instance field reference: private readonly LiteNetLib.Utils.NetDataWriter _cacheWriter
-    ::LiteNetLib::Utils::NetDataWriter*& dyn__cacheWriter();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::Utils::NetDataWriter*& dyn__cacheWriter();
     // Get instance field reference: private readonly LiteNetLib.Utils.NetPacketProcessor _netPacketProcessor
-    ::LiteNetLib::Utils::NetPacketProcessor*& dyn__netPacketProcessor();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::Utils::NetPacketProcessor*& dyn__netPacketProcessor();
     // Get instance field reference: private LiteNetLib.INatPunchListener _natPunchListener
-    ::LiteNetLib::INatPunchListener*& dyn__natPunchListener();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::INatPunchListener*& dyn__natPunchListener();
     // System.Void .ctor(LiteNetLib.NetSocket socket)
-    // Offset: 0x21632D8
+    // Offset: 0x21AEB4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NatPunchModule* New_ctor(::LiteNetLib::NetSocket* socket) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NatPunchModule::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NatPunchModule*, creationType>(socket)));
     }
     // System.Void ProcessMessage(System.Net.IPEndPoint senderEndPoint, LiteNetLib.NetPacket packet)
-    // Offset: 0x21634FC
+    // Offset: 0x21AED70
     void ProcessMessage(::System::Net::IPEndPoint* senderEndPoint, ::LiteNetLib::NetPacket* packet);
     // public System.Void Init(LiteNetLib.INatPunchListener listener)
-    // Offset: 0x21635F0
+    // Offset: 0x21AEE64
     void Init(::LiteNetLib::INatPunchListener* listener);
     // private System.Void Send(T packet, System.Net.IPEndPoint target)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -255,25 +247,25 @@ namespace LiteNetLib {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, packet, target);
     }
     // public System.Void NatIntroduce(System.Net.IPEndPoint hostInternal, System.Net.IPEndPoint hostExternal, System.Net.IPEndPoint clientInternal, System.Net.IPEndPoint clientExternal, System.String additionalInfo)
-    // Offset: 0x21635F8
+    // Offset: 0x21AEE6C
     void NatIntroduce(::System::Net::IPEndPoint* hostInternal, ::System::Net::IPEndPoint* hostExternal, ::System::Net::IPEndPoint* clientInternal, ::System::Net::IPEndPoint* clientExternal, ::StringW additionalInfo);
     // public System.Void PollEvents()
-    // Offset: 0x21636C8
+    // Offset: 0x21AEF3C
     void PollEvents();
     // public System.Void SendNatIntroduceRequest(System.String host, System.Int32 port, System.String additionalInfo)
-    // Offset: 0x2163A10
+    // Offset: 0x21AF284
     void SendNatIntroduceRequest(::StringW host, int port, ::StringW additionalInfo);
     // public System.Void SendNatIntroduceRequest(System.Net.IPEndPoint masterServerEndPoint, System.String additionalInfo)
-    // Offset: 0x2163B48
+    // Offset: 0x21AF3BC
     void SendNatIntroduceRequest(::System::Net::IPEndPoint* masterServerEndPoint, ::StringW additionalInfo);
     // private System.Void OnNatIntroductionRequest(LiteNetLib.NatPunchModule/LiteNetLib.NatIntroduceRequestPacket req, System.Net.IPEndPoint senderEndPoint)
-    // Offset: 0x2163E2C
+    // Offset: 0x21AF6A0
     void OnNatIntroductionRequest(::LiteNetLib::NatPunchModule::NatIntroduceRequestPacket* req, ::System::Net::IPEndPoint* senderEndPoint);
     // private System.Void OnNatIntroductionResponse(LiteNetLib.NatPunchModule/LiteNetLib.NatIntroduceResponsePacket req)
-    // Offset: 0x2163F1C
+    // Offset: 0x21AF790
     void OnNatIntroductionResponse(::LiteNetLib::NatPunchModule::NatIntroduceResponsePacket* req);
     // private System.Void OnNatPunch(LiteNetLib.NatPunchModule/LiteNetLib.NatPunchPacket req, System.Net.IPEndPoint senderEndPoint)
-    // Offset: 0x2164434
+    // Offset: 0x21AFCA8
     void OnNatPunch(::LiteNetLib::NatPunchModule::NatPunchPacket* req, ::System::Net::IPEndPoint* senderEndPoint);
   }; // LiteNetLib.NatPunchModule
   #pragma pack(pop)

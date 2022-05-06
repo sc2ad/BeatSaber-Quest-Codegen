@@ -29,10 +29,9 @@ namespace Org::BouncyCastle::Math::EC {
   class AbstractFpFieldElement : public ::Org::BouncyCastle::Math::EC::ECFieldElement {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x227383C
+    // Offset: 0x22BE0B0
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: System.Void ECFieldElement::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AbstractFpFieldElement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::AbstractFpFieldElement::.ctor");

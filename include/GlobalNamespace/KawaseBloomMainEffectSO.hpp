@@ -44,15 +44,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class KawaseBloomMainEffectSO : public ::GlobalNamespace::MainEffectSO {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private KawaseBlurRendererSO _kawaseBlurRenderer
     // Size: 0x8
     // Offset: 0x18
@@ -71,8 +63,8 @@ namespace GlobalNamespace {
     ::UnityEngine::Shader* mainEffectShader;
     // Field size check
     static_assert(sizeof(::UnityEngine::Shader*) == 0x8);
-    // [SpaceAttribute] Offset: 0x12423EC
-    // [RangeAttribute] Offset: 0x12423EC
+    // [SpaceAttribute] Offset: 0x10C6ED4
+    // [RangeAttribute] Offset: 0x10C6ED4
     // private System.Single _bloomIntensity
     // Size: 0x4
     // Offset: 0x30
@@ -97,15 +89,15 @@ namespace GlobalNamespace {
     float bloomAlphaWeights;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x124246C
+    // [SpaceAttribute] Offset: 0x10C6F54
     // private System.Int32 _bloomTextureWidth
     // Size: 0x4
     // Offset: 0x40
     int bloomTextureWidth;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [SpaceAttribute] Offset: 0x12424A4
-    // [RangeAttribute] Offset: 0x12424A4
+    // [SpaceAttribute] Offset: 0x10C6F8C
+    // [RangeAttribute] Offset: 0x10C6F8C
     // private System.Single _baseColorBoost
     // Size: 0x4
     // Offset: 0x44
@@ -135,81 +127,75 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1242504
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C6FEC
     // Get static field: static private readonly System.Int32 _bloomTexID
     static int _get__bloomTexID();
     // Set static field: static private readonly System.Int32 _bloomTexID
     static void _set__bloomTexID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1242514
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C6FFC
     // Get static field: static private readonly System.Int32 _bloomIntensityID
     static int _get__bloomIntensityID();
     // Set static field: static private readonly System.Int32 _bloomIntensityID
     static void _set__bloomIntensityID(int value);
     // Get instance field reference: private KawaseBlurRendererSO _kawaseBlurRenderer
-    ::GlobalNamespace::KawaseBlurRendererSO*& dyn__kawaseBlurRenderer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::KawaseBlurRendererSO*& dyn__kawaseBlurRenderer();
     // Get instance field reference: private UnityEngine.Shader _fadeShader
-    ::UnityEngine::Shader*& dyn__fadeShader();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Shader*& dyn__fadeShader();
     // Get instance field reference: private UnityEngine.Shader _mainEffectShader
-    ::UnityEngine::Shader*& dyn__mainEffectShader();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Shader*& dyn__mainEffectShader();
     // Get instance field reference: private System.Single _bloomIntensity
-    float& dyn__bloomIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn__bloomIntensity();
     // Get instance field reference: private System.Int32 _bloomIterations
-    int& dyn__bloomIterations();
+    [[deprecated("Use field access instead!")]] int& dyn__bloomIterations();
     // Get instance field reference: private System.Single _bloomBoost
-    float& dyn__bloomBoost();
+    [[deprecated("Use field access instead!")]] float& dyn__bloomBoost();
     // Get instance field reference: private System.Single _bloomAlphaWeights
-    float& dyn__bloomAlphaWeights();
+    [[deprecated("Use field access instead!")]] float& dyn__bloomAlphaWeights();
     // Get instance field reference: private System.Int32 _bloomTextureWidth
-    int& dyn__bloomTextureWidth();
+    [[deprecated("Use field access instead!")]] int& dyn__bloomTextureWidth();
     // Get instance field reference: private System.Single _baseColorBoost
-    float& dyn__baseColorBoost();
+    [[deprecated("Use field access instead!")]] float& dyn__baseColorBoost();
     // Get instance field reference: private System.Single _baseColorBoostThreshold
-    float& dyn__baseColorBoostThreshold();
+    [[deprecated("Use field access instead!")]] float& dyn__baseColorBoostThreshold();
     // Get instance field reference: private UnityEngine.Material _fadeMaterial
-    ::UnityEngine::Material*& dyn__fadeMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__fadeMaterial();
     // Get instance field reference: private UnityEngine.Material _mainEffectMaterial
-    ::UnityEngine::Material*& dyn__mainEffectMaterial();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__mainEffectMaterial();
+    // static private System.Void .cctor()
+    // Offset: 0x2A3EC78
+    static void _cctor();
     // protected System.Void OnDisable()
-    // Offset: 0x29E7F70
+    // Offset: 0x2A3E86C
     void OnDisable();
     // private System.Void LazyInitializeMaterials()
-    // Offset: 0x29E7E38
+    // Offset: 0x2A3E734
     void LazyInitializeMaterials();
     // public override System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x29E7E08
+    // Offset: 0x2A3E704
     // Implemented from: MainEffectSO
     // Base method: System.Boolean MainEffectSO::get_hasPostProcessEffect()
     bool get_hasPostProcessEffect();
     // public System.Void .ctor()
-    // Offset: 0x29E834C
+    // Offset: 0x2A3EC48
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::.ctor()
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KawaseBloomMainEffectSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::KawaseBloomMainEffectSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KawaseBloomMainEffectSO*, creationType>()));
     }
-    // static private System.Void .cctor()
-    // Offset: 0x29E837C
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
-    static void _cctor();
     // protected override System.Void OnEnable()
-    // Offset: 0x29E7E10
+    // Offset: 0x2A3E70C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public override System.Void PreRender()
-    // Offset: 0x29E7FAC
+    // Offset: 0x2A3E8A8
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::PreRender()
     void PreRender();
     // public override System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
-    // Offset: 0x29E80B8
+    // Offset: 0x2A3E9B4
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
     void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float fade);
@@ -219,6 +205,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(KawaseBloomMainEffectSO) == 0x60);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::KawaseBloomMainEffectSO::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::KawaseBloomMainEffectSO::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBloomMainEffectSO*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::KawaseBloomMainEffectSO::OnDisable
 // Il2CppName: OnDisable
 template<>
@@ -247,14 +241,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::KawaseBloomMainEffectSO::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::KawaseBloomMainEffectSO::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBloomMainEffectSO*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::KawaseBloomMainEffectSO::OnEnable
 // Il2CppName: OnEnable
 template<>

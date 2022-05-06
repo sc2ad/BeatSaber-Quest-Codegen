@@ -54,7 +54,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRControllerEventOutputType ControllerEventOutput_VREvents
     static void _set_ControllerEventOutput_VREvents(::OVR::OpenVR::EVRControllerEventOutputType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVR.OpenVR.EVRControllerEventOutputType
   #pragma pack(pop)
   static check_size<sizeof(EVRControllerEventOutputType), 0 + sizeof(int)> __OVR_OpenVR_EVRControllerEventOutputTypeSizeCheck;

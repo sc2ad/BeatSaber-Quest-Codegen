@@ -52,15 +52,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [TokenAttribute] Offset: FFFFFFFF
   class TriangulationContext : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.ProBuilder.Poly2Tri.TriangulationDebugContext <DebugContext>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -107,70 +99,68 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private UnityEngine.ProBuilder.Poly2Tri.TriangulationDebugContext <DebugContext>k__BackingField
-    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext*& dyn_$DebugContext$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext*& dyn_$DebugContext$k__BackingField();
     // Get instance field reference: public readonly System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> Triangles
-    ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*& dyn_Triangles();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*& dyn_Triangles();
     // Get instance field reference: public readonly System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint> Points
-    ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*& dyn_Points();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*& dyn_Points();
     // Get instance field reference: private UnityEngine.ProBuilder.Poly2Tri.TriangulationMode <TriangulationMode>k__BackingField
-    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode& dyn_$TriangulationMode$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode& dyn_$TriangulationMode$k__BackingField();
     // Get instance field reference: private UnityEngine.ProBuilder.Poly2Tri.Triangulatable <Triangulatable>k__BackingField
-    ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable*& dyn_$Triangulatable$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable*& dyn_$Triangulatable$k__BackingField();
     // Get instance field reference: private System.Int32 <StepCount>k__BackingField
-    int& dyn_$StepCount$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$StepCount$k__BackingField();
     // Get instance field reference: private System.Boolean <IsDebugEnabled>k__BackingField
-    bool& dyn_$IsDebugEnabled$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$IsDebugEnabled$k__BackingField();
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationDebugContext get_DebugContext()
-    // Offset: 0x2A3CAF4
+    // Offset: 0x2A92EDC
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* get_DebugContext();
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationMode get_TriangulationMode()
-    // Offset: 0x2A3CAFC
+    // Offset: 0x2A92EE4
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode get_TriangulationMode();
     // protected System.Void set_TriangulationMode(UnityEngine.ProBuilder.Poly2Tri.TriangulationMode value)
-    // Offset: 0x2A3CB04
+    // Offset: 0x2A92EEC
     void set_TriangulationMode(::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode value);
     // public UnityEngine.ProBuilder.Poly2Tri.Triangulatable get_Triangulatable()
-    // Offset: 0x2A3CB0C
+    // Offset: 0x2A92EF4
     ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* get_Triangulatable();
     // private System.Void set_Triangulatable(UnityEngine.ProBuilder.Poly2Tri.Triangulatable value)
-    // Offset: 0x2A3CB14
+    // Offset: 0x2A92EFC
     void set_Triangulatable(::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* value);
     // public System.Int32 get_StepCount()
-    // Offset: 0x2A3CB1C
+    // Offset: 0x2A92F04
     int get_StepCount();
     // private System.Void set_StepCount(System.Int32 value)
-    // Offset: 0x2A3CB24
+    // Offset: 0x2A92F0C
     void set_StepCount(int value);
     // public System.Boolean get_IsDebugEnabled()
-    // Offset: 0x2A3CB2C
+    // Offset: 0x2A92F14
     bool get_IsDebugEnabled();
     // public UnityEngine.ProBuilder.Poly2Tri.DTSweepDebugContext get_DTDebugContext()
-    // Offset: 0x2A3703C
+    // Offset: 0x2A8D424
     ::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext* get_DTDebugContext();
-    // public System.Void Done()
-    // Offset: 0x2A36EF8
-    void Done();
-    // public System.Void PrepareTriangulation(UnityEngine.ProBuilder.Poly2Tri.Triangulatable t)
-    // Offset: 0x2A3B194
-    void PrepareTriangulation(::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* t);
-    // public UnityEngine.ProBuilder.Poly2Tri.TriangulationConstraint NewConstraint(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint a, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint b)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint* NewConstraint(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b);
-    // public System.Void Update(System.String message)
-    // Offset: 0x2A372E4
-    void Update(::StringW message);
-    // public System.Void Clear()
-    // Offset: 0x2A3AEFC
-    void Clear();
     // protected System.Void .ctor()
-    // Offset: 0x2A3ACCC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A910B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TriangulationContext* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TriangulationContext*, creationType>()));
     }
+    // public System.Void Done()
+    // Offset: 0x2A8D2E0
+    void Done();
+    // public System.Void PrepareTriangulation(UnityEngine.ProBuilder.Poly2Tri.Triangulatable t)
+    // Offset: 0x2A9157C
+    void PrepareTriangulation(::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* t);
+    // public UnityEngine.ProBuilder.Poly2Tri.TriangulationConstraint NewConstraint(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint a, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint b)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint* NewConstraint(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b);
+    // public System.Void Update(System.String message)
+    // Offset: 0x2A8D6CC
+    void Update(::StringW message);
+    // public System.Void Clear()
+    // Offset: 0x2A912E4
+    void Clear();
   }; // UnityEngine.ProBuilder.Poly2Tri.TriangulationContext
   #pragma pack(pop)
   static check_size<sizeof(TriangulationContext), 60 + sizeof(bool)> __UnityEngine_ProBuilder_Poly2Tri_TriangulationContextSizeCheck;
@@ -252,6 +242,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "get_DTDebugContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::Done
 // Il2CppName: Done
 template<>
@@ -296,7 +290,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

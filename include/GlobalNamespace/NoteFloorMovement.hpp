@@ -47,29 +47,21 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoteFloorMovement : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Transform _rotatedObject
     // Size: 0x8
     // Offset: 0x18
     ::UnityEngine::Transform* rotatedObject;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0x124F360
+    // [InjectAttribute] Offset: 0x10D3E94
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0x124F370
+    // [InjectAttribute] Offset: 0x10D3EA4
     // private readonly IAudioTimeSource _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x28
@@ -128,79 +120,73 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform _rotatedObject
-    ::UnityEngine::Transform*& dyn__rotatedObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__rotatedObject();
     // Get instance field reference: private readonly PlayerTransforms _playerTransforms
-    ::GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSyncController
-    ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSyncController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSyncController();
     // Get instance field reference: private System.Action floorMovementDidFinishEvent
-    ::System::Action*& dyn_floorMovementDidFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_floorMovementDidFinishEvent();
     // Get instance field reference: private UnityEngine.Vector3 _startPos
-    ::UnityEngine::Vector3& dyn__startPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__startPos();
     // Get instance field reference: private UnityEngine.Vector3 _endPos
-    ::UnityEngine::Vector3& dyn__endPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__endPos();
     // Get instance field reference: private System.Single _moveDuration
-    float& dyn__moveDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__moveDuration();
     // Get instance field reference: private System.Single _startTime
-    float& dyn__startTime();
+    [[deprecated("Use field access instead!")]] float& dyn__startTime();
     // Get instance field reference: private UnityEngine.Quaternion _worldRotation
-    ::UnityEngine::Quaternion& dyn__worldRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__worldRotation();
     // Get instance field reference: private UnityEngine.Quaternion _inverseWorldRotation
-    ::UnityEngine::Quaternion& dyn__inverseWorldRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__inverseWorldRotation();
     // Get instance field reference: private UnityEngine.Vector3 _localPosition
-    ::UnityEngine::Vector3& dyn__localPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__localPosition();
     // public System.Single get_distanceToPlayer()
-    // Offset: 0x1479E74
+    // Offset: 0x14B065C
     float get_distanceToPlayer();
     // public UnityEngine.Vector3 get_startPos()
-    // Offset: 0x1479F60
+    // Offset: 0x14B0748
     ::UnityEngine::Vector3 get_startPos();
     // public UnityEngine.Vector3 get_endPos()
-    // Offset: 0x1479F6C
+    // Offset: 0x14B0754
     ::UnityEngine::Vector3 get_endPos();
     // public System.Single get_startTime()
-    // Offset: 0x1479F78
+    // Offset: 0x14B0760
     float get_startTime();
     // public System.Single get_moveDuration()
-    // Offset: 0x1479F80
+    // Offset: 0x14B0768
     float get_moveDuration();
     // public UnityEngine.Quaternion get_worldRotation()
-    // Offset: 0x1479F88
+    // Offset: 0x14B0770
     ::UnityEngine::Quaternion get_worldRotation();
     // public UnityEngine.Quaternion get_inverseWorldRotation()
-    // Offset: 0x1479F94
+    // Offset: 0x14B077C
     ::UnityEngine::Quaternion get_inverseWorldRotation();
     // public UnityEngine.Vector3 get_localPosition()
-    // Offset: 0x1479FA0
+    // Offset: 0x14B0788
     ::UnityEngine::Vector3 get_localPosition();
     // public System.Void add_floorMovementDidFinishEvent(System.Action value)
-    // Offset: 0x1479D2C
+    // Offset: 0x14B0514
     void add_floorMovementDidFinishEvent(::System::Action* value);
     // public System.Void remove_floorMovementDidFinishEvent(System.Action value)
-    // Offset: 0x1479DD0
+    // Offset: 0x14B05B8
     void remove_floorMovementDidFinishEvent(::System::Action* value);
-    // public System.Void Init(System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 endPos, System.Single moveDuration, System.Single startTime)
-    // Offset: 0x1479FAC
-    void Init(float worldRotation, ::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 endPos, float moveDuration, float startTime);
-    // public UnityEngine.Vector3 SetToStart()
-    // Offset: 0x147A0A4
-    ::UnityEngine::Vector3 SetToStart();
-    // public UnityEngine.Vector3 ManualUpdate()
-    // Offset: 0x147A1D4
-    ::UnityEngine::Vector3 ManualUpdate();
     // public System.Void .ctor()
-    // Offset: 0x147A3B8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14B0BA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteFloorMovement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteFloorMovement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteFloorMovement*, creationType>()));
     }
+    // public System.Void Init(System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 endPos, System.Single moveDuration, System.Single startTime)
+    // Offset: 0x14B0794
+    void Init(float worldRotation, ::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 endPos, float moveDuration, float startTime);
+    // public UnityEngine.Vector3 SetToStart()
+    // Offset: 0x14B088C
+    ::UnityEngine::Vector3 SetToStart();
+    // public UnityEngine.Vector3 ManualUpdate()
+    // Offset: 0x14B09BC
+    ::UnityEngine::Vector3 ManualUpdate();
   }; // NoteFloorMovement
   #pragma pack(pop)
   static check_size<sizeof(NoteFloorMovement), 120 + sizeof(::UnityEngine::Vector3)> __GlobalNamespace_NoteFloorMovementSizeCheck;
@@ -289,6 +275,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteFloorMovement*), "remove_floorMovementDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::NoteFloorMovement::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NoteFloorMovement::Init
 // Il2CppName: Init
 template<>
@@ -318,7 +308,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteFloorMovement*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NoteFloorMovement::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

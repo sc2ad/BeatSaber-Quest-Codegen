@@ -30,15 +30,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <ReadCount>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -55,23 +47,23 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::OVRHapticsClip*) == 0x8);
     public:
     // Get instance field reference: private System.Int32 <ReadCount>k__BackingField
-    int& dyn_$ReadCount$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$ReadCount$k__BackingField();
     // Get instance field reference: private OVRHapticsClip <Clip>k__BackingField
-    ::GlobalNamespace::OVRHapticsClip*& dyn_$Clip$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRHapticsClip*& dyn_$Clip$k__BackingField();
     // public System.Int32 get_ReadCount()
-    // Offset: 0x19BD288
+    // Offset: 0x19F6870
     int get_ReadCount();
     // public System.Void set_ReadCount(System.Int32 value)
-    // Offset: 0x19BD290
+    // Offset: 0x19F6878
     void set_ReadCount(int value);
     // public OVRHapticsClip get_Clip()
-    // Offset: 0x19BD298
+    // Offset: 0x19F6880
     ::GlobalNamespace::OVRHapticsClip* get_Clip();
     // public System.Void set_Clip(OVRHapticsClip value)
-    // Offset: 0x19BD2A0
+    // Offset: 0x19F6888
     void set_Clip(::GlobalNamespace::OVRHapticsClip* value);
     // public System.Void .ctor(OVRHapticsClip clip)
-    // Offset: 0x19BD00C
+    // Offset: 0x19F65F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker* New_ctor(::GlobalNamespace::OVRHapticsClip* clip) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::.ctor");

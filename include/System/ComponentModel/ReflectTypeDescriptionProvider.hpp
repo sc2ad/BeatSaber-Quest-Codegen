@@ -58,15 +58,7 @@ namespace System::ComponentModel {
     public:
     // Nested type: ::System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData
     class ReflectedTypeData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Hashtable _typeData
     // Size: 0x8
     // Offset: 0x20
@@ -123,70 +115,69 @@ namespace System::ComponentModel {
     // Set static field: static private System.Object _internalSyncObject
     static void _set__internalSyncObject(::Il2CppObject* value);
     // Get instance field reference: private System.Collections.Hashtable _typeData
-    ::System::Collections::Hashtable*& dyn__typeData();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn__typeData();
     // static private System.Collections.Hashtable get_IntrinsicTypeConverters()
-    // Offset: 0x1D64FD0
+    // Offset: 0x1DA0528
     static ::System::Collections::Hashtable* get_IntrinsicTypeConverters();
     // static private System.Void .cctor()
-    // Offset: 0x1D677E8
+    // Offset: 0x1DA2D40
     static void _cctor();
     // static private System.Object CreateInstance(System.Type objectType, System.Type callingType)
-    // Offset: 0x1D65878
+    // Offset: 0x1DA0DD0
     static ::Il2CppObject* CreateInstance(::System::Type* objectType, ::System::Type* callingType);
     // System.ComponentModel.AttributeCollection GetAttributes(System.Type type)
-    // Offset: 0x1D65980
+    // Offset: 0x1DA0ED8
     ::System::ComponentModel::AttributeCollection* GetAttributes(::System::Type* type);
     // System.ComponentModel.TypeConverter GetConverter(System.Type type, System.Object instance)
-    // Offset: 0x1D66474
+    // Offset: 0x1DA19CC
     ::System::ComponentModel::TypeConverter* GetConverter(::System::Type* type, ::Il2CppObject* instance);
     // System.ComponentModel.AttributeCollection GetExtendedAttributes(System.Object instance)
-    // Offset: 0x1D66928
+    // Offset: 0x1DA1E80
     ::System::ComponentModel::AttributeCollection* GetExtendedAttributes(::Il2CppObject* instance);
     // System.ComponentModel.TypeConverter GetExtendedConverter(System.Object instance)
-    // Offset: 0x1D66990
+    // Offset: 0x1DA1EE8
     ::System::ComponentModel::TypeConverter* GetExtendedConverter(::Il2CppObject* instance);
     // private System.ComponentModel.ReflectTypeDescriptionProvider/System.ComponentModel.ReflectedTypeData GetTypeData(System.Type type, System.Boolean createIfNeeded)
-    // Offset: 0x1D659A0
+    // Offset: 0x1DA0EF8
     ::System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData* GetTypeData(::System::Type* type, bool createIfNeeded);
     // System.Boolean IsPopulated(System.Type type)
-    // Offset: 0x1D66A14
+    // Offset: 0x1DA1F6C
     bool IsPopulated(::System::Type* type);
     // static private System.Attribute[] ReflectGetAttributes(System.Type type)
-    // Offset: 0x1D66A64
+    // Offset: 0x1DA1FBC
     static ::ArrayW<::System::Attribute*> ReflectGetAttributes(::System::Type* type);
     // System.Void Refresh(System.Type type)
-    // Offset: 0x1D66E9C
+    // Offset: 0x1DA23F4
     void Refresh(::System::Type* type);
     // static private System.Object SearchIntrinsicTable(System.Collections.Hashtable table, System.Type callingType)
-    // Offset: 0x1D66EE4
+    // Offset: 0x1DA243C
     static ::Il2CppObject* SearchIntrinsicTable(::System::Collections::Hashtable* table, ::System::Type* callingType);
     // System.Void .ctor()
-    // Offset: 0x1D64FC8
+    // Offset: 0x1DA0520
     // Implemented from: System.ComponentModel.TypeDescriptionProvider
     // Base method: System.Void TypeDescriptionProvider::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectTypeDescriptionProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::ReflectTypeDescriptionProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectTypeDescriptionProvider*, creationType>()));
     }
     // public override System.Collections.IDictionary GetCache(System.Object instance)
-    // Offset: 0x1D6611C
+    // Offset: 0x1DA1674
     // Implemented from: System.ComponentModel.TypeDescriptionProvider
     // Base method: System.Collections.IDictionary TypeDescriptionProvider::GetCache(System.Object instance)
     ::System::Collections::IDictionary* GetCache(::Il2CppObject* instance);
     // public override System.ComponentModel.ICustomTypeDescriptor GetExtendedTypeDescriptor(System.Object instance)
-    // Offset: 0x1D669D0
+    // Offset: 0x1DA1F28
     // Implemented from: System.ComponentModel.TypeDescriptionProvider
     // Base method: System.ComponentModel.ICustomTypeDescriptor TypeDescriptionProvider::GetExtendedTypeDescriptor(System.Object instance)
     ::System::ComponentModel::ICustomTypeDescriptor* GetExtendedTypeDescriptor(::Il2CppObject* instance);
     // public override System.Type GetReflectionType(System.Type objectType, System.Object instance)
-    // Offset: 0x1D669D8
+    // Offset: 0x1DA1F30
     // Implemented from: System.ComponentModel.TypeDescriptionProvider
     // Base method: System.Type TypeDescriptionProvider::GetReflectionType(System.Type objectType, System.Object instance)
     ::System::Type* GetReflectionType(::System::Type* objectType, ::Il2CppObject* instance);
     // public override System.ComponentModel.ICustomTypeDescriptor GetTypeDescriptor(System.Type objectType, System.Object instance)
-    // Offset: 0x1D66A0C
+    // Offset: 0x1DA1F64
     // Implemented from: System.ComponentModel.TypeDescriptionProvider
     // Base method: System.ComponentModel.ICustomTypeDescriptor TypeDescriptionProvider::GetTypeDescriptor(System.Type objectType, System.Object instance)
     ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::System::Type* objectType, ::Il2CppObject* instance);

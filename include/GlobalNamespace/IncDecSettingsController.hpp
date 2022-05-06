@@ -36,15 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IncDecSettingsController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private StepValuePicker _stepValuePicker
     // Size: 0x8
     // Offset: 0x18
@@ -55,21 +47,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private StepValuePicker _stepValuePicker
-    ::GlobalNamespace::StepValuePicker*& dyn__stepValuePicker();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::StepValuePicker*& dyn__stepValuePicker();
     // protected System.Void set_enableDec(System.Boolean value)
-    // Offset: 0x13B420C
+    // Offset: 0x13AF6B8
     void set_enableDec(bool value);
     // protected System.Void set_enableInc(System.Boolean value)
-    // Offset: 0x13B422C
+    // Offset: 0x13AF6D8
     void set_enableInc(bool value);
     // protected System.Void set_text(System.String value)
-    // Offset: 0x13B424C
+    // Offset: 0x13AF6F8
     void set_text(::StringW value);
+    // protected System.Void .ctor()
+    // Offset: 0x13AF8E0
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static IncDecSettingsController* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IncDecSettingsController::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<IncDecSettingsController*, creationType>()));
+    }
     // protected System.Void Awake()
-    // Offset: 0x13B4268
+    // Offset: 0x13AF714
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x13B432C
+    // Offset: 0x13AF7D8
     void OnDestroy();
     // protected System.Void IncButtonPressed()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -77,19 +76,6 @@ namespace GlobalNamespace {
     // protected System.Void DecButtonPressed()
     // Offset: 0xFFFFFFFFFFFFFFFF
     void DecButtonPressed();
-    // protected System.Void .ctor()
-    // Offset: 0x13B4434
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static IncDecSettingsController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IncDecSettingsController::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<IncDecSettingsController*, creationType>()));
-    }
   }; // IncDecSettingsController
   #pragma pack(pop)
   static check_size<sizeof(IncDecSettingsController), 24 + sizeof(::GlobalNamespace::StepValuePicker*)> __GlobalNamespace_IncDecSettingsControllerSizeCheck;
@@ -123,6 +109,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IncDecSettingsController*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::IncDecSettingsController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::IncDecSettingsController::Awake
 // Il2CppName: Awake
 template<>
@@ -155,7 +145,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IncDecSettingsController*), "DecButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::IncDecSettingsController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -50,15 +50,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorStepValuePicker : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Button _decButton
     // Size: 0x8
     // Offset: 0x18
@@ -93,64 +85,58 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Button _decButton
-    ::UnityEngine::UI::Button*& dyn__decButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__decButton();
     // Get instance field reference: private UnityEngine.UI.Button _incButton
-    ::UnityEngine::UI::Button*& dyn__incButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__incButton();
     // Get instance field reference: private HMUI.ImageView _valueImage
-    ::HMUI::ImageView*& dyn__valueImage();
+    [[deprecated("Use field access instead!")]] ::HMUI::ImageView*& dyn__valueImage();
     // Get instance field reference: private System.Action decButtonWasPressedEvent
-    ::System::Action*& dyn_decButtonWasPressedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_decButtonWasPressedEvent();
     // Get instance field reference: private System.Action incButtonWasPressedEvent
-    ::System::Action*& dyn_incButtonWasPressedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_incButtonWasPressedEvent();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1358A80
+    // Offset: 0x1341D00
     ::UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x1358AA4
+    // Offset: 0x1341D24
     void set_color(::UnityEngine::Color value);
     // public System.Void set_decButtonInteractable(System.Boolean value)
-    // Offset: 0x1358AC8
+    // Offset: 0x1341D48
     void set_decButtonInteractable(bool value);
     // public System.Void set_incButtonInteractable(System.Boolean value)
-    // Offset: 0x1358AE8
+    // Offset: 0x1341D68
     void set_incButtonInteractable(bool value);
     // public System.Void add_decButtonWasPressedEvent(System.Action value)
-    // Offset: 0x13587F0
+    // Offset: 0x1341A70
     void add_decButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_decButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1358894
+    // Offset: 0x1341B14
     void remove_decButtonWasPressedEvent(::System::Action* value);
     // public System.Void add_incButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1358938
+    // Offset: 0x1341BB8
     void add_incButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_incButtonWasPressedEvent(System.Action value)
-    // Offset: 0x13589DC
+    // Offset: 0x1341C5C
     void remove_incButtonWasPressedEvent(::System::Action* value);
-    // protected System.Void OnEnable()
-    // Offset: 0x1358B08
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x1358BE0
-    void OnDisable();
-    // private System.Void IncButtonPressed()
-    // Offset: 0x1358CB8
-    void IncButtonPressed();
-    // private System.Void DecButtonPressed()
-    // Offset: 0x1358CCC
-    void DecButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0x1358CE0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1341F60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorStepValuePicker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorStepValuePicker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorStepValuePicker*, creationType>()));
     }
+    // protected System.Void OnEnable()
+    // Offset: 0x1341D88
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x1341E60
+    void OnDisable();
+    // private System.Void IncButtonPressed()
+    // Offset: 0x1341F38
+    void IncButtonPressed();
+    // private System.Void DecButtonPressed()
+    // Offset: 0x1341F4C
+    void DecButtonPressed();
   }; // ColorStepValuePicker
   #pragma pack(pop)
   static check_size<sizeof(ColorStepValuePicker), 56 + sizeof(::System::Action*)> __GlobalNamespace_ColorStepValuePickerSizeCheck;
@@ -228,6 +214,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), "remove_incButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -260,7 +250,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), "DecButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -61,7 +61,7 @@ namespace System::Globalization {
     // Set static field: static public System.Globalization.MonthNameStyles LeapYear
     static void _set_LeapYear(::System::Globalization::MonthNameStyles value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Globalization.MonthNameStyles
   #pragma pack(pop)
   static check_size<sizeof(MonthNameStyles), 0 + sizeof(int)> __System_Globalization_MonthNameStylesSizeCheck;

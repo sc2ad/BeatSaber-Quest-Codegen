@@ -42,15 +42,7 @@ namespace System::Threading {
     class WorkStealingQueue;
     // Nested type: ::System::Threading::ThreadPoolWorkQueue::QueueSegment
     class QueueSegment;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Threading.ThreadPoolWorkQueue/System.Threading.QueueSegment queueHead
     // Size: 0x8
     // Offset: 0x10
@@ -75,37 +67,37 @@ namespace System::Threading {
     // Set static field: static System.Threading.ThreadPoolWorkQueue/System.Threading.SparseArray`1<System.Threading.ThreadPoolWorkQueue/System.Threading.WorkStealingQueue> allThreadQueues
     static void _set_allThreadQueues(::System::Threading::ThreadPoolWorkQueue::SparseArray_1<::System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*>* value);
     // Get instance field reference: System.Threading.ThreadPoolWorkQueue/System.Threading.QueueSegment queueHead
-    ::System::Threading::ThreadPoolWorkQueue::QueueSegment*& dyn_queueHead();
+    [[deprecated("Use field access instead!")]] ::System::Threading::ThreadPoolWorkQueue::QueueSegment*& dyn_queueHead();
     // Get instance field reference: System.Threading.ThreadPoolWorkQueue/System.Threading.QueueSegment queueTail
-    ::System::Threading::ThreadPoolWorkQueue::QueueSegment*& dyn_queueTail();
+    [[deprecated("Use field access instead!")]] ::System::Threading::ThreadPoolWorkQueue::QueueSegment*& dyn_queueTail();
     // Get instance field reference: private System.Int32 numOutstandingThreadRequests
-    int& dyn_numOutstandingThreadRequests();
+    [[deprecated("Use field access instead!")]] int& dyn_numOutstandingThreadRequests();
     // static private System.Void .cctor()
-    // Offset: 0x1CF9D20
+    // Offset: 0x1D35278
     static void _cctor();
     // public System.Threading.ThreadPoolWorkQueueThreadLocals EnsureCurrentThreadHasQueue()
-    // Offset: 0x1CF8774
+    // Offset: 0x1D33CCC
     ::System::Threading::ThreadPoolWorkQueueThreadLocals* EnsureCurrentThreadHasQueue();
     // System.Void EnsureThreadRequested()
-    // Offset: 0x1CF88F4
+    // Offset: 0x1D33E4C
     void EnsureThreadRequested();
     // System.Void MarkThreadRequestSatisfied()
-    // Offset: 0x1CF89AC
+    // Offset: 0x1D33F04
     void MarkThreadRequestSatisfied();
     // public System.Void Enqueue(System.Threading.IThreadPoolWorkItem callback, System.Boolean forceGlobal)
-    // Offset: 0x1CF843C
+    // Offset: 0x1D33994
     void Enqueue(::System::Threading::IThreadPoolWorkItem* callback, bool forceGlobal);
     // System.Boolean LocalFindAndPop(System.Threading.IThreadPoolWorkItem callback)
-    // Offset: 0x1CF8568
+    // Offset: 0x1D33AC0
     bool LocalFindAndPop(::System::Threading::IThreadPoolWorkItem* callback);
     // public System.Void Dequeue(System.Threading.ThreadPoolWorkQueueThreadLocals tl, out System.Threading.IThreadPoolWorkItem callback, out System.Boolean missedSteal)
-    // Offset: 0x1CF91D0
+    // Offset: 0x1D34728
     void Dequeue(::System::Threading::ThreadPoolWorkQueueThreadLocals* tl, ByRef<::System::Threading::IThreadPoolWorkItem*> callback, ByRef<bool> missedSteal);
     // static System.Boolean Dispatch()
-    // Offset: 0x1CF9794
+    // Offset: 0x1D34CEC
     static bool Dispatch();
     // public System.Void .ctor()
-    // Offset: 0x1CF869C
+    // Offset: 0x1D33BF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

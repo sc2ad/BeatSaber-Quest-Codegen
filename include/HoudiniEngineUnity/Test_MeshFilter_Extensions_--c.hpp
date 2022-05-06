@@ -55,23 +55,21 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Converter`2<UnityEngine.MeshFilter,HoudiniEngineUnity.Test_MeshFilter> <>9__2_0
     static void _set_$$9__2_0(::System::Converter_2<::UnityEngine::MeshFilter*, ::HoudiniEngineUnity::Test_MeshFilter*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2A3E8A0
+    // Offset: 0x2A95C88
     static void _cctor();
-    // HoudiniEngineUnity.Test_MeshFilter <ToTestObject>b__1_0(UnityEngine.MeshFilter lod)
-    // Offset: 0x2A3E90C
-    ::HoudiniEngineUnity::Test_MeshFilter* $ToTestObject$b__1_0(::UnityEngine::MeshFilter* lod);
-    // HoudiniEngineUnity.Test_MeshFilter <ToTestObject>b__2_0(UnityEngine.MeshFilter lod)
-    // Offset: 0x2A3E970
-    ::HoudiniEngineUnity::Test_MeshFilter* $ToTestObject$b__2_0(::UnityEngine::MeshFilter* lod);
     // public System.Void .ctor()
-    // Offset: 0x2A3E904
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A95CEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_MeshFilter_Extensions::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_MeshFilter_Extensions::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_MeshFilter_Extensions::$$c*, creationType>()));
     }
+    // HoudiniEngineUnity.Test_MeshFilter <ToTestObject>b__1_0(UnityEngine.MeshFilter lod)
+    // Offset: 0x2A95CF4
+    ::HoudiniEngineUnity::Test_MeshFilter* $ToTestObject$b__1_0(::UnityEngine::MeshFilter* lod);
+    // HoudiniEngineUnity.Test_MeshFilter <ToTestObject>b__2_0(UnityEngine.MeshFilter lod)
+    // Offset: 0x2A95D58
+    ::HoudiniEngineUnity::Test_MeshFilter* $ToTestObject$b__2_0(::UnityEngine::MeshFilter* lod);
   }; // HoudiniEngineUnity.Test_MeshFilter_Extensions/HoudiniEngineUnity.<>c
   #pragma pack(pop)
 }
@@ -84,6 +82,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_MeshFilter_Extensions::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: HoudiniEngineUnity::Test_MeshFilter_Extensions::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_MeshFilter_Extensions::$$c::$ToTestObject$b__1_0
 // Il2CppName: <ToTestObject>b__1_0
 template<>
@@ -102,7 +104,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEn
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_MeshFilter_Extensions::$$c*), "<ToTestObject>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lod});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::Test_MeshFilter_Extensions::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

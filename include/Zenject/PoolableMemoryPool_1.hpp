@@ -43,7 +43,6 @@ namespace Zenject {
     // Implemented from: Zenject.MemoryPool`1
     // Base method: System.Void MemoryPool_1::.ctor()
     // Base method: System.Void MemoryPoolBase_1::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PoolableMemoryPool_1<TValue>* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableMemoryPool_1::.ctor");

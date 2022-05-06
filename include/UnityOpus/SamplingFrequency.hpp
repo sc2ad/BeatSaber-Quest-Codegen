@@ -72,7 +72,7 @@ namespace UnityOpus {
     // Set static field: static public UnityOpus.SamplingFrequency Frequency_48000
     static void _set_Frequency_48000(::UnityOpus::SamplingFrequency value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityOpus.SamplingFrequency
   #pragma pack(pop)
   static check_size<sizeof(SamplingFrequency), 0 + sizeof(int)> __UnityOpus_SamplingFrequencySizeCheck;

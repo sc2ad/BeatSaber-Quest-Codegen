@@ -84,15 +84,7 @@ namespace VRUIControls {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRInputModule : public ::UnityEngine::EventSystems::BaseInputModule {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private VRUIControls.VRPointer _vrPointer
     // Size: 0x8
     // Offset: 0x48
@@ -105,7 +97,7 @@ namespace VRUIControls {
     ::Libraries::HM::HMLib::VR::HapticPresetSO* rumblePreset;
     // Field size check
     static_assert(sizeof(::Libraries::HM::HMLib::VR::HapticPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x1244170
+    // [InjectAttribute] Offset: 0x10C8C58
     // private readonly HapticFeedbackController _hapticFeedbackController
     // Size: 0x8
     // Offset: 0x58
@@ -157,117 +149,105 @@ namespace VRUIControls {
     static float _get_kMinPressValue();
     // Set static field: static private System.Single kMinPressValue
     static void _set_kMinPressValue(float value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12441A0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C8C88
     // Get static field: static private readonly System.Comparison`1<UnityEngine.EventSystems.RaycastResult> _raycastComparer
     static ::System::Comparison_1<::UnityEngine::EventSystems::RaycastResult>* _get__raycastComparer();
     // Set static field: static private readonly System.Comparison`1<UnityEngine.EventSystems.RaycastResult> _raycastComparer
     static void _set__raycastComparer(::System::Comparison_1<::UnityEngine::EventSystems::RaycastResult>* value);
     // Get instance field reference: private VRUIControls.VRPointer _vrPointer
-    ::VRUIControls::VRPointer*& dyn__vrPointer();
+    [[deprecated("Use field access instead!")]] ::VRUIControls::VRPointer*& dyn__vrPointer();
     // Get instance field reference: private Libraries.HM.HMLib.VR.HapticPresetSO _rumblePreset
-    ::Libraries::HM::HMLib::VR::HapticPresetSO*& dyn__rumblePreset();
+    [[deprecated("Use field access instead!")]] ::Libraries::HM::HMLib::VR::HapticPresetSO*& dyn__rumblePreset();
     // Get instance field reference: private readonly HapticFeedbackController _hapticFeedbackController
-    ::GlobalNamespace::HapticFeedbackController*& dyn__hapticFeedbackController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::HapticFeedbackController*& dyn__hapticFeedbackController();
     // Get instance field reference: private System.Boolean <useMouseForPressInput>k__BackingField
-    bool& dyn_$useMouseForPressInput$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$useMouseForPressInput$k__BackingField();
     // Get instance field reference: private System.Action`1<UnityEngine.GameObject> onProcessMousePressEvent
-    ::System::Action_1<::UnityEngine::GameObject*>*& dyn_onProcessMousePressEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::UnityEngine::GameObject*>*& dyn_onProcessMousePressEvent();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData> _pointerData
-    ::System::Collections::Generic::Dictionary_2<int, ::UnityEngine::EventSystems::PointerEventData*>*& dyn__pointerData();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::UnityEngine::EventSystems::PointerEventData*>*& dyn__pointerData();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.Component> _componentList
-    ::System::Collections::Generic::List_1<::UnityEngine::Component*>*& dyn__componentList();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Component*>*& dyn__componentList();
     // Get instance field reference: private readonly VRUIControls.MouseState _mouseState
-    ::VRUIControls::MouseState*& dyn__mouseState();
+    [[deprecated("Use field access instead!")]] ::VRUIControls::MouseState*& dyn__mouseState();
     // public System.Boolean get_useMouseForPressInput()
-    // Offset: 0x2A0563C
+    // Offset: 0x2A5B144
     bool get_useMouseForPressInput();
     // public System.Void set_useMouseForPressInput(System.Boolean value)
-    // Offset: 0x2A05644
+    // Offset: 0x2A5B14C
     void set_useMouseForPressInput(bool value);
     // public System.Void add_onProcessMousePressEvent(System.Action`1<UnityEngine.GameObject> value)
-    // Offset: 0x2A05650
+    // Offset: 0x2A5B158
     void add_onProcessMousePressEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
     // public System.Void remove_onProcessMousePressEvent(System.Action`1<UnityEngine.GameObject> value)
-    // Offset: 0x2A056F4
+    // Offset: 0x2A5B1FC
     void remove_onProcessMousePressEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
-    // protected System.Boolean GetPointerData(System.Int32 id, out UnityEngine.EventSystems.PointerEventData data, System.Boolean create)
-    // Offset: 0x2A05950
-    bool GetPointerData(int id, ByRef<::UnityEngine::EventSystems::PointerEventData*> data, bool create);
-    // protected VRUIControls.MouseState GetMousePointerEventData(System.Int32 id)
-    // Offset: 0x2A05A34
-    ::VRUIControls::MouseState* GetMousePointerEventData(int id);
-    // protected UnityEngine.EventSystems.PointerEventData GetLastPointerEventData(System.Int32 id)
-    // Offset: 0x2A05E08
-    ::UnityEngine::EventSystems::PointerEventData* GetLastPointerEventData(int id);
-    // private System.Boolean ShouldStartDrag(UnityEngine.Vector2 pressPos, UnityEngine.Vector2 currentPos, System.Single threshold, System.Boolean useDragThreshold)
-    // Offset: 0x2A05E34
-    bool ShouldStartDrag(::UnityEngine::Vector2 pressPos, ::UnityEngine::Vector2 currentPos, float threshold, bool useDragThreshold);
-    // protected System.Void ProcessMove(UnityEngine.EventSystems.PointerEventData pointerEvent)
-    // Offset: 0x2A05F04
-    void ProcessMove(::UnityEngine::EventSystems::PointerEventData* pointerEvent);
-    // protected System.Void ProcessDrag(UnityEngine.EventSystems.PointerEventData pointerEvent)
-    // Offset: 0x2A06838
-    void ProcessDrag(::UnityEngine::EventSystems::PointerEventData* pointerEvent);
-    // protected System.Void ClearSelection()
-    // Offset: 0x2A057C0
-    void ClearSelection();
-    // protected System.Void DeselectIfSelectionChanged(UnityEngine.GameObject currentOverGo, UnityEngine.EventSystems.BaseEventData pointerEvent)
-    // Offset: 0x2A06DC4
-    void DeselectIfSelectionChanged(::UnityEngine::GameObject* currentOverGo, ::UnityEngine::EventSystems::BaseEventData* pointerEvent);
-    // protected System.Boolean SendUpdateEventToSelectedObject()
-    // Offset: 0x2A07898
-    bool SendUpdateEventToSelectedObject();
-    // protected System.Void ProcessMousePress(VRUIControls.MouseButtonEventData data)
-    // Offset: 0x2A0708C
-    void ProcessMousePress(::VRUIControls::MouseButtonEventData* data);
-    // static private System.Int32 RaycastComparer(UnityEngine.EventSystems.RaycastResult lhs, UnityEngine.EventSystems.RaycastResult rhs)
-    // Offset: 0x2A079EC
-    static int RaycastComparer(::UnityEngine::EventSystems::RaycastResult lhs, ::UnityEngine::EventSystems::RaycastResult rhs);
     // public System.Void .ctor()
-    // Offset: 0x2A07DBC
-    // Implemented from: UnityEngine.EventSystems.BaseInputModule
-    // Base method: System.Void BaseInputModule::.ctor()
-    // Base method: System.Void UIBehaviour::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A5D8C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRInputModule* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::VRUIControls::VRInputModule::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRInputModule*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2A07E74
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x2A5D97C
     static void _cctor();
+    // protected System.Boolean GetPointerData(System.Int32 id, out UnityEngine.EventSystems.PointerEventData data, System.Boolean create)
+    // Offset: 0x2A5B458
+    bool GetPointerData(int id, ByRef<::UnityEngine::EventSystems::PointerEventData*> data, bool create);
+    // protected VRUIControls.MouseState GetMousePointerEventData(System.Int32 id)
+    // Offset: 0x2A5B53C
+    ::VRUIControls::MouseState* GetMousePointerEventData(int id);
+    // protected UnityEngine.EventSystems.PointerEventData GetLastPointerEventData(System.Int32 id)
+    // Offset: 0x2A5B910
+    ::UnityEngine::EventSystems::PointerEventData* GetLastPointerEventData(int id);
+    // private System.Boolean ShouldStartDrag(UnityEngine.Vector2 pressPos, UnityEngine.Vector2 currentPos, System.Single threshold, System.Boolean useDragThreshold)
+    // Offset: 0x2A5B93C
+    bool ShouldStartDrag(::UnityEngine::Vector2 pressPos, ::UnityEngine::Vector2 currentPos, float threshold, bool useDragThreshold);
+    // protected System.Void ProcessMove(UnityEngine.EventSystems.PointerEventData pointerEvent)
+    // Offset: 0x2A5BA0C
+    void ProcessMove(::UnityEngine::EventSystems::PointerEventData* pointerEvent);
+    // protected System.Void ProcessDrag(UnityEngine.EventSystems.PointerEventData pointerEvent)
+    // Offset: 0x2A5C340
+    void ProcessDrag(::UnityEngine::EventSystems::PointerEventData* pointerEvent);
+    // protected System.Void ClearSelection()
+    // Offset: 0x2A5B2C8
+    void ClearSelection();
+    // protected System.Void DeselectIfSelectionChanged(UnityEngine.GameObject currentOverGo, UnityEngine.EventSystems.BaseEventData pointerEvent)
+    // Offset: 0x2A5C8CC
+    void DeselectIfSelectionChanged(::UnityEngine::GameObject* currentOverGo, ::UnityEngine::EventSystems::BaseEventData* pointerEvent);
+    // protected System.Boolean SendUpdateEventToSelectedObject()
+    // Offset: 0x2A5D3A0
+    bool SendUpdateEventToSelectedObject();
+    // protected System.Void ProcessMousePress(VRUIControls.MouseButtonEventData data)
+    // Offset: 0x2A5CB94
+    void ProcessMousePress(::VRUIControls::MouseButtonEventData* data);
+    // protected System.Void HandlePointerExitAndEnter(UnityEngine.EventSystems.PointerEventData currentPointerData, UnityEngine.GameObject newEnterTarget)
+    // Offset: 0x2A5BA24
+    void HandlePointerExitAndEnter(::UnityEngine::EventSystems::PointerEventData* currentPointerData, ::UnityEngine::GameObject* newEnterTarget);
+    // static private System.Int32 RaycastComparer(UnityEngine.EventSystems.RaycastResult lhs, UnityEngine.EventSystems.RaycastResult rhs)
+    // Offset: 0x2A5D4F4
+    static int RaycastComparer(::UnityEngine::EventSystems::RaycastResult lhs, ::UnityEngine::EventSystems::RaycastResult rhs);
     // protected override System.Void OnDisable()
-    // Offset: 0x2A05798
+    // Offset: 0x2A5B2A0
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::OnDisable()
     void OnDisable();
     // public override System.Boolean IsPointerOverGameObject(System.Int32 pointerId)
-    // Offset: 0x2A06B34
+    // Offset: 0x2A5C63C
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Boolean BaseInputModule::IsPointerOverGameObject(System.Int32 pointerId)
     bool IsPointerOverGameObject(int pointerId);
     // public override System.String ToString()
-    // Offset: 0x2A06BE0
+    // Offset: 0x2A5C6E8
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
     // public override System.Void Process()
-    // Offset: 0x2A06EB4
+    // Offset: 0x2A5C9BC
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::Process()
     void Process();
-    // protected System.Void HandlePointerExitAndEnter(UnityEngine.EventSystems.PointerEventData currentPointerData, UnityEngine.GameObject newEnterTarget)
-    // Offset: 0x2A05F1C
-    // Implemented from: UnityEngine.EventSystems.BaseInputModule
-    // Base method: System.Void BaseInputModule::HandlePointerExitAndEnter(UnityEngine.EventSystems.PointerEventData currentPointerData, UnityEngine.GameObject newEnterTarget)
-    void HandlePointerExitAndEnter(::UnityEngine::EventSystems::PointerEventData* currentPointerData, ::UnityEngine::GameObject* newEnterTarget);
   }; // VRUIControls.VRInputModule
   #pragma pack(pop)
   static check_size<sizeof(VRInputModule), 128 + sizeof(::VRUIControls::MouseState*)> __VRUIControls_VRInputModuleSizeCheck;
@@ -307,6 +287,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIC
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "remove_onProcessMousePressEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: VRUIControls::VRInputModule::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: VRUIControls::VRInputModule::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VRUIControls::VRInputModule::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::GetPointerData
@@ -403,6 +395,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIC
     return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "ProcessMousePress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
   }
 };
+// Writing MetadataGetter for method: VRUIControls::VRInputModule::HandlePointerExitAndEnter
+// Il2CppName: HandlePointerExitAndEnter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRInputModule::*)(::UnityEngine::EventSystems::PointerEventData*, ::UnityEngine::GameObject*)>(&VRUIControls::VRInputModule::HandlePointerExitAndEnter)> {
+  static const MethodInfo* get() {
+    static auto* currentPointerData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
+    static auto* newEnterTarget = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "HandlePointerExitAndEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{currentPointerData, newEnterTarget});
+  }
+};
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::RaycastComparer
 // Il2CppName: RaycastComparer
 template<>
@@ -411,18 +413,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::U
     static auto* lhs = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "RaycastResult")->byval_arg;
     static auto* rhs = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "RaycastResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "RaycastComparer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lhs, rhs});
-  }
-};
-// Writing MetadataGetter for method: VRUIControls::VRInputModule::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: VRUIControls::VRInputModule::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VRUIControls::VRInputModule::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::OnDisable
@@ -456,15 +446,5 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRInputModule::*)()>(&VRUIControls::VRInputModule::Process)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "Process", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VRUIControls::VRInputModule::HandlePointerExitAndEnter
-// Il2CppName: HandlePointerExitAndEnter
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRInputModule::*)(::UnityEngine::EventSystems::PointerEventData*, ::UnityEngine::GameObject*)>(&VRUIControls::VRInputModule::HandlePointerExitAndEnter)> {
-  static const MethodInfo* get() {
-    static auto* currentPointerData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
-    static auto* newEnterTarget = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "HandlePointerExitAndEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{currentPointerData, newEnterTarget});
   }
 };

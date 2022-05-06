@@ -26,15 +26,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AutoSetupData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean selectBasedOnSuggestions
     // Size: 0x1
     // Offset: 0x10
@@ -61,17 +53,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.Boolean selectBasedOnSuggestions
-    bool& dyn_selectBasedOnSuggestions();
+    [[deprecated("Use field access instead!")]] bool& dyn_selectBasedOnSuggestions();
     // Get instance field reference: public System.Boolean autoStartWhenAllReady
-    bool& dyn_autoStartWhenAllReady();
+    [[deprecated("Use field access instead!")]] bool& dyn_autoStartWhenAllReady();
     // Get instance field reference: public System.Boolean forceAutoStartAfterSongSelection
-    bool& dyn_forceAutoStartAfterSongSelection();
+    [[deprecated("Use field access instead!")]] bool& dyn_forceAutoStartAfterSongSelection();
     // Get instance field reference: public System.Boolean randomSongIfNoneSuggested
-    bool& dyn_randomSongIfNoneSuggested();
+    [[deprecated("Use field access instead!")]] bool& dyn_randomSongIfNoneSuggested();
     // public System.Void .ctor()
-    // Offset: 0x14BB09C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14F2954
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AutoSetupData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AutoSetupData::.ctor");

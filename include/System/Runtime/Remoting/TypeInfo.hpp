@@ -37,15 +37,7 @@ namespace System::Runtime::Remoting {
   // [TokenAttribute] Offset: FFFFFFFF
   class TypeInfo : public ::Il2CppObject/*, public ::System::Runtime::Remoting::IRemotingTypeInfo*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String serverType
     // Size: 0x8
     // Offset: 0x10
@@ -70,23 +62,23 @@ namespace System::Runtime::Remoting {
       return *reinterpret_cast<::System::Runtime::Remoting::IRemotingTypeInfo*>(this);
     }
     // Get instance field reference: private System.String serverType
-    ::StringW& dyn_serverType();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_serverType();
     // Get instance field reference: private System.String[] serverHierarchy
-    ::ArrayW<::StringW>& dyn_serverHierarchy();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_serverHierarchy();
     // Get instance field reference: private System.String[] interfacesImplemented
-    ::ArrayW<::StringW>& dyn_interfacesImplemented();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_interfacesImplemented();
     // public System.String get_TypeName()
-    // Offset: 0x18B43E0
+    // Offset: 0x18EDCF0
     ::StringW get_TypeName();
     // public System.Void .ctor(System.Type type)
-    // Offset: 0x18B23D8
+    // Offset: 0x18EBCE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeInfo* New_ctor(::System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::TypeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeInfo*, creationType>(type)));
     }
     // public System.Boolean CanCastTo(System.Type fromType, System.Object o)
-    // Offset: 0x18B43E8
+    // Offset: 0x18EDCF8
     bool CanCastTo(::System::Type* fromType, ::Il2CppObject* o);
   }; // System.Runtime.Remoting.TypeInfo
   #pragma pack(pop)

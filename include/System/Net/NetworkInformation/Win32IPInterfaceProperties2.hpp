@@ -45,15 +45,7 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class Win32IPInterfaceProperties2 : public ::System::Net::NetworkInformation::IPInterfaceProperties {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr
     // Size: 0x108
     // Offset: 0x10
@@ -74,28 +66,28 @@ namespace System::Net::NetworkInformation {
     static_assert(sizeof(::System::Net::NetworkInformation::Win32_MIB_IFROW) == 0x70);
     public:
     // Get instance field reference: private readonly System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr
-    ::System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES& dyn_addr();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES& dyn_addr();
     // Get instance field reference: private readonly System.Net.NetworkInformation.Win32_MIB_IFROW mib4
-    ::System::Net::NetworkInformation::Win32_MIB_IFROW& dyn_mib4();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::Win32_MIB_IFROW& dyn_mib4();
     // Get instance field reference: private readonly System.Net.NetworkInformation.Win32_MIB_IFROW mib6
-    ::System::Net::NetworkInformation::Win32_MIB_IFROW& dyn_mib6();
+    [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::Win32_MIB_IFROW& dyn_mib6();
     // public System.Void .ctor(System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr, System.Net.NetworkInformation.Win32_MIB_IFROW mib4, System.Net.NetworkInformation.Win32_MIB_IFROW mib6)
-    // Offset: 0x1B2D214
+    // Offset: 0x1B677FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32IPInterfaceProperties2* New_ctor(::System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES addr, ::System::Net::NetworkInformation::Win32_MIB_IFROW mib4, ::System::Net::NetworkInformation::Win32_MIB_IFROW mib6) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::Win32IPInterfaceProperties2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32IPInterfaceProperties2*, creationType>(addr, mib4, mib6)));
     }
     // static private System.Net.NetworkInformation.UnicastIPAddressInformationCollection Win32FromUnicast(System.IntPtr ptr)
-    // Offset: 0x1B2D6E4
+    // Offset: 0x1B67CCC
     static ::System::Net::NetworkInformation::UnicastIPAddressInformationCollection* Win32FromUnicast(::System::IntPtr ptr);
     // public override System.Net.NetworkInformation.GatewayIPAddressInformationCollection get_GatewayAddresses()
-    // Offset: 0x1B2D27C
+    // Offset: 0x1B67864
     // Implemented from: System.Net.NetworkInformation.IPInterfaceProperties
     // Base method: System.Net.NetworkInformation.GatewayIPAddressInformationCollection IPInterfaceProperties::get_GatewayAddresses()
     ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
     // public override System.Net.NetworkInformation.UnicastIPAddressInformationCollection get_UnicastAddresses()
-    // Offset: 0x1B2D60C
+    // Offset: 0x1B67BF4
     // Implemented from: System.Net.NetworkInformation.IPInterfaceProperties
     // Base method: System.Net.NetworkInformation.UnicastIPAddressInformationCollection IPInterfaceProperties::get_UnicastAddresses()
     ::System::Net::NetworkInformation::UnicastIPAddressInformationCollection* get_UnicastAddresses();

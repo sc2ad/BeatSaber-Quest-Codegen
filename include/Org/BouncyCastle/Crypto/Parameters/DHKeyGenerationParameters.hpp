@@ -42,15 +42,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     public:
     // Writing base type padding for base size: 0x1C to desired offset: 0x20
     char ___base_padding[0x4] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Crypto.Parameters.DHParameters parameters
     // Size: 0x8
     // Offset: 0x20
@@ -63,19 +55,19 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return parameters;
     }
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Parameters.DHParameters parameters
-    ::Org::BouncyCastle::Crypto::Parameters::DHParameters*& dyn_parameters();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::DHParameters*& dyn_parameters();
     // public Org.BouncyCastle.Crypto.Parameters.DHParameters get_Parameters()
-    // Offset: 0x15BD6CC
+    // Offset: 0x15F2FDC
     ::Org::BouncyCastle::Crypto::Parameters::DHParameters* get_Parameters();
     // public System.Void .ctor(Org.BouncyCastle.Security.SecureRandom random, Org.BouncyCastle.Crypto.Parameters.DHParameters parameters)
-    // Offset: 0x15BD64C
+    // Offset: 0x15F2F5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHKeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHKeyGenerationParameters*, creationType>(random, parameters)));
     }
     // static System.Int32 GetStrength(Org.BouncyCastle.Crypto.Parameters.DHParameters parameters)
-    // Offset: 0x15BD698
+    // Offset: 0x15F2FA8
     static int GetStrength(::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
   }; // Org.BouncyCastle.Crypto.Parameters.DHKeyGenerationParameters
   #pragma pack(pop)

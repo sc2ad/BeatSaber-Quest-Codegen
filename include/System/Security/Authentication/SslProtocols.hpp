@@ -66,14 +66,14 @@ namespace System::Security::Authentication {
     static ::System::Security::Authentication::SslProtocols _get_Tls();
     // Set static field: static public System.Security.Authentication.SslProtocols Tls
     static void _set_Tls(::System::Security::Authentication::SslProtocols value);
-    // [MonoTODOAttribute] Offset: 0x11B82F0
+    // [MonoTODOAttribute] Offset: 0x103DD08
     // static field const value: static public System.Security.Authentication.SslProtocols Tls11
     static constexpr const int Tls11 = 768;
     // Get static field: static public System.Security.Authentication.SslProtocols Tls11
     static ::System::Security::Authentication::SslProtocols _get_Tls11();
     // Set static field: static public System.Security.Authentication.SslProtocols Tls11
     static void _set_Tls11(::System::Security::Authentication::SslProtocols value);
-    // [MonoTODOAttribute] Offset: 0x11B8328
+    // [MonoTODOAttribute] Offset: 0x103DD40
     // static field const value: static public System.Security.Authentication.SslProtocols Tls12
     static constexpr const int Tls12 = 3072;
     // Get static field: static public System.Security.Authentication.SslProtocols Tls12
@@ -87,7 +87,7 @@ namespace System::Security::Authentication {
     // Set static field: static public System.Security.Authentication.SslProtocols Default
     static void _set_Default(::System::Security::Authentication::SslProtocols value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Security.Authentication.SslProtocols
   #pragma pack(pop)
   static check_size<sizeof(SslProtocols), 0 + sizeof(int)> __System_Security_Authentication_SslProtocolsSizeCheck;

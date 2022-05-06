@@ -35,15 +35,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_Material : public ::Il2CppObject/*, public ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Material*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Material self
     // Size: 0x8
     // Offset: 0x10
@@ -60,19 +52,19 @@ namespace HoudiniEngineUnity {
       return self;
     }
     // Get instance field reference: public UnityEngine.Material self
-    ::UnityEngine::Material*& dyn_self();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_self();
     // public System.Void .ctor(UnityEngine.Material self)
-    // Offset: 0x2A3DA88
+    // Offset: 0x2A94E70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_Material* New_ctor(::UnityEngine::Material* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_Material::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_Material*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x2A3DAB4
+    // Offset: 0x2A94E9C
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_Material other)
-    // Offset: 0x2A3DB24
+    // Offset: 0x2A94F0C
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_Material* other);
   }; // HoudiniEngineUnity.Test_Material
   #pragma pack(pop)

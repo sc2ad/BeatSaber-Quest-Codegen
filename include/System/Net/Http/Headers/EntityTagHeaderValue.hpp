@@ -44,15 +44,7 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class EntityTagHeaderValue : public ::Il2CppObject/*, public ::System::ICloneable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean <IsWeak>k__BackingField
     // Size: 0x1
     // Offset: 0x10
@@ -77,57 +69,55 @@ namespace System::Net::Http::Headers {
     // Set static field: static private readonly System.Net.Http.Headers.EntityTagHeaderValue any
     static void _set_any(::System::Net::Http::Headers::EntityTagHeaderValue* value);
     // Get instance field reference: private System.Boolean <IsWeak>k__BackingField
-    bool& dyn_$IsWeak$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$IsWeak$k__BackingField();
     // Get instance field reference: private System.String <Tag>k__BackingField
-    ::StringW& dyn_$Tag$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$Tag$k__BackingField();
     // public System.Boolean get_IsWeak()
-    // Offset: 0x19570FC
+    // Offset: 0x198F6E4
     bool get_IsWeak();
     // System.Void set_IsWeak(System.Boolean value)
-    // Offset: 0x1957104
+    // Offset: 0x198F6EC
     void set_IsWeak(bool value);
     // public System.String get_Tag()
-    // Offset: 0x1957110
+    // Offset: 0x198F6F8
     ::StringW get_Tag();
     // System.Void set_Tag(System.String value)
-    // Offset: 0x1957118
+    // Offset: 0x198F700
     void set_Tag(::StringW value);
-    // static private System.Void .cctor()
-    // Offset: 0x1957678
-    static void _cctor();
-    // private System.Object System.ICloneable.Clone()
-    // Offset: 0x1957120
-    ::Il2CppObject* System_ICloneable_Clone();
-    // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.EntityTagHeaderValue parsedValue)
-    // Offset: 0x1957244
-    static bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::EntityTagHeaderValue*> parsedValue);
-    // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.EntityTagHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x1957330
-    static bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::EntityTagHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
-    // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.EntityTagHeaderValue> result)
-    // Offset: 0x195756C
-    static bool TryParse(::StringW input, int minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::EntityTagHeaderValue*>*> result);
     // System.Void .ctor()
-    // Offset: 0x19570F4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x198F6DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EntityTagHeaderValue* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::EntityTagHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EntityTagHeaderValue*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x198FC60
+    static void _cctor();
+    // private System.Object System.ICloneable.Clone()
+    // Offset: 0x198F708
+    ::Il2CppObject* System_ICloneable_Clone();
+    // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.EntityTagHeaderValue parsedValue)
+    // Offset: 0x198F82C
+    static bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::EntityTagHeaderValue*> parsedValue);
+    // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.EntityTagHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
+    // Offset: 0x198F918
+    static bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::EntityTagHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
+    // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.EntityTagHeaderValue> result)
+    // Offset: 0x198FB54
+    static bool TryParse(::StringW input, int minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::EntityTagHeaderValue*>*> result);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1957128
+    // Offset: 0x198F710
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x19571F0
+    // Offset: 0x198F7D8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x195760C
+    // Offset: 0x198FBF4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -171,6 +161,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::EntityTagHeaderValue*), "set_Tag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: System::Net::Http::Headers::EntityTagHeaderValue::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::EntityTagHeaderValue::_cctor
 // Il2CppName: .cctor
 template<>
@@ -219,10 +213,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::EntityTagHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, minimalCount, result});
   }
 };
-// Writing MetadataGetter for method: System::Net::Http::Headers::EntityTagHeaderValue::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::EntityTagHeaderValue::Equals
 // Il2CppName: Equals
 template<>

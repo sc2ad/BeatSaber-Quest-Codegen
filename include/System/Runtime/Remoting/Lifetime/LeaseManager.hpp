@@ -48,15 +48,7 @@ namespace System::Runtime::Remoting::Lifetime {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaseManager : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.ArrayList _objects
     // Size: 0x8
     // Offset: 0x10
@@ -71,26 +63,26 @@ namespace System::Runtime::Remoting::Lifetime {
     static_assert(sizeof(::System::Threading::Timer*) == 0x8);
     public:
     // Get instance field reference: private System.Collections.ArrayList _objects
-    ::System::Collections::ArrayList*& dyn__objects();
+    [[deprecated("Use field access instead!")]] ::System::Collections::ArrayList*& dyn__objects();
     // Get instance field reference: private System.Threading.Timer _timer
-    ::System::Threading::Timer*& dyn__timer();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Timer*& dyn__timer();
     // public System.Void SetPollTime(System.TimeSpan timeSpan)
-    // Offset: 0x1C615C8
+    // Offset: 0x1C7E8D4
     void SetPollTime(::System::TimeSpan timeSpan);
     // public System.Void TrackLifetime(System.Runtime.Remoting.ServerIdentity identity)
-    // Offset: 0x1C6168C
+    // Offset: 0x1C7E998
     void TrackLifetime(::System::Runtime::Remoting::ServerIdentity* identity);
     // public System.Void StartManager()
-    // Offset: 0x1C61788
+    // Offset: 0x1C7EA94
     void StartManager();
     // public System.Void StopManager()
-    // Offset: 0x1C618EC
+    // Offset: 0x1C7EBF8
     void StopManager();
     // public System.Void ManageLeases(System.Object state)
-    // Offset: 0x1C61908
+    // Offset: 0x1C7EC14
     void ManageLeases(::Il2CppObject* state);
     // public System.Void .ctor()
-    // Offset: 0x1C61B3C
+    // Offset: 0x1C7EE48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
       return button;
     }
     // Get instance field reference: public System.UInt32 button
-    uint& dyn_button();
+    [[deprecated("Use field access instead!")]] uint& dyn_button();
   }; // OVR.OpenVR.VREvent_Controller_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Controller_t), 0 + sizeof(uint)> __OVR_OpenVR_VREvent_Controller_tSizeCheck;

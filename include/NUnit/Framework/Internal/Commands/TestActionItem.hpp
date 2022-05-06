@@ -38,15 +38,7 @@ namespace NUnit::Framework::Internal::Commands {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestActionItem : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly NUnit.Framework.ITestAction _action
     // Size: 0x8
     // Offset: 0x10
@@ -61,21 +53,21 @@ namespace NUnit::Framework::Internal::Commands {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private readonly NUnit.Framework.ITestAction _action
-    ::NUnit::Framework::ITestAction*& dyn__action();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::ITestAction*& dyn__action();
     // Get instance field reference: private System.Boolean _beforeTestWasRun
-    bool& dyn__beforeTestWasRun();
+    [[deprecated("Use field access instead!")]] bool& dyn__beforeTestWasRun();
     // public System.Void .ctor(NUnit.Framework.ITestAction action)
-    // Offset: 0x1C4EFEC
+    // Offset: 0x1CA7584
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestActionItem* New_ctor(::NUnit::Framework::ITestAction* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Commands::TestActionItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestActionItem*, creationType>(action)));
     }
     // public System.Void BeforeTest(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1C4DF70
+    // Offset: 0x1CA6508
     void BeforeTest(::NUnit::Framework::Interfaces::ITest* test);
     // public System.Void AfterTest(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1C4E574
+    // Offset: 0x1CA6B0C
     void AfterTest(::NUnit::Framework::Interfaces::ITest* test);
   }; // NUnit.Framework.Internal.Commands.TestActionItem
   #pragma pack(pop)

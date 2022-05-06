@@ -39,16 +39,8 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class SolverManager : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x1272C2C
+    // [TooltipAttribute] Offset: 0x10F78E4
     // public System.Boolean fixTransforms
     // Size: 0x1
     // Offset: 0x18
@@ -91,72 +83,66 @@ namespace RootMotion {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Boolean fixTransforms
-    bool& dyn_fixTransforms();
+    [[deprecated("Use field access instead!")]] bool& dyn_fixTransforms();
     // Get instance field reference: private UnityEngine.Animator animator
-    ::UnityEngine::Animator*& dyn_animator();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Animator*& dyn_animator();
     // Get instance field reference: private UnityEngine.Animation legacy
-    ::UnityEngine::Animation*& dyn_legacy();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Animation*& dyn_legacy();
     // Get instance field reference: private System.Boolean updateFrame
-    bool& dyn_updateFrame();
+    [[deprecated("Use field access instead!")]] bool& dyn_updateFrame();
     // Get instance field reference: private System.Boolean componentInitiated
-    bool& dyn_componentInitiated();
+    [[deprecated("Use field access instead!")]] bool& dyn_componentInitiated();
     // Get instance field reference: private System.Boolean skipSolverUpdate
-    bool& dyn_skipSolverUpdate();
+    [[deprecated("Use field access instead!")]] bool& dyn_skipSolverUpdate();
     // private System.Boolean get_animatePhysics()
-    // Offset: 0x1F823DC
+    // Offset: 0x1FCEC50
     bool get_animatePhysics();
     // private System.Boolean get_isAnimated()
-    // Offset: 0x1F826D8
+    // Offset: 0x1FCEF4C
     bool get_isAnimated();
-    // public System.Void Disable()
-    // Offset: 0x1F822A4
-    void Disable();
-    // protected System.Void InitiateSolver()
-    // Offset: 0x1F8233C
-    void InitiateSolver();
-    // protected System.Void UpdateSolver()
-    // Offset: 0x1F82340
-    void UpdateSolver();
-    // protected System.Void FixTransforms()
-    // Offset: 0x1F82344
-    void FixTransforms();
-    // private System.Void OnDisable()
-    // Offset: 0x1F82348
-    void OnDisable();
-    // private System.Void Start()
-    // Offset: 0x1F823D8
-    void Start();
-    // private System.Void Initiate()
-    // Offset: 0x1F82380
-    void Initiate();
-    // private System.Void Update()
-    // Offset: 0x1F8268C
-    void Update();
-    // private System.Void FindAnimatorRecursive(UnityEngine.Transform t, System.Boolean findInChildren)
-    // Offset: 0x1F824CC
-    void FindAnimatorRecursive(::UnityEngine::Transform* t, bool findInChildren);
-    // private System.Void FixedUpdate()
-    // Offset: 0x1F82794
-    void FixedUpdate();
-    // private System.Void LateUpdate()
-    // Offset: 0x1F827F0
-    void LateUpdate();
-    // public System.Void UpdateSolverExternal()
-    // Offset: 0x1F8284C
-    void UpdateSolverExternal();
     // public System.Void .ctor()
-    // Offset: 0x1F714A4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FBDD18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SolverManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::SolverManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SolverManager*, creationType>()));
     }
+    // public System.Void Disable()
+    // Offset: 0x1FCEB18
+    void Disable();
+    // protected System.Void InitiateSolver()
+    // Offset: 0x1FCEBB0
+    void InitiateSolver();
+    // protected System.Void UpdateSolver()
+    // Offset: 0x1FCEBB4
+    void UpdateSolver();
+    // protected System.Void FixTransforms()
+    // Offset: 0x1FCEBB8
+    void FixTransforms();
+    // private System.Void OnDisable()
+    // Offset: 0x1FCEBBC
+    void OnDisable();
+    // private System.Void Start()
+    // Offset: 0x1FCEC4C
+    void Start();
+    // private System.Void Initiate()
+    // Offset: 0x1FCEBF4
+    void Initiate();
+    // private System.Void Update()
+    // Offset: 0x1FCEF00
+    void Update();
+    // private System.Void FindAnimatorRecursive(UnityEngine.Transform t, System.Boolean findInChildren)
+    // Offset: 0x1FCED40
+    void FindAnimatorRecursive(::UnityEngine::Transform* t, bool findInChildren);
+    // private System.Void FixedUpdate()
+    // Offset: 0x1FCF008
+    void FixedUpdate();
+    // private System.Void LateUpdate()
+    // Offset: 0x1FCF064
+    void LateUpdate();
+    // public System.Void UpdateSolverExternal()
+    // Offset: 0x1FCF0C0
+    void UpdateSolverExternal();
   }; // RootMotion.SolverManager
   #pragma pack(pop)
   static check_size<sizeof(SolverManager), 50 + sizeof(bool)> __RootMotion_SolverManagerSizeCheck;
@@ -179,6 +165,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::SolverManager*), "get_isAnimated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: RootMotion::SolverManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::SolverManager::Disable
 // Il2CppName: Disable
 template<>
@@ -277,7 +267,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::SolverManager*), "UpdateSolverExternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RootMotion::SolverManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

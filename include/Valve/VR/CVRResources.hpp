@@ -38,15 +38,7 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   class CVRResources : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Valve.VR.IVRResources FnTable
     // Size: 0x10
     // Offset: 0x10
@@ -59,19 +51,19 @@ namespace Valve::VR {
       return FnTable;
     }
     // Get instance field reference: private Valve.VR.IVRResources FnTable
-    ::Valve::VR::IVRResources& dyn_FnTable();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRResources& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x1BAD0F4
+    // Offset: 0x1BE76DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRResources* New_ctor(::System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Valve::VR::CVRResources::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRResources*, creationType>(pInterface)));
     }
     // public System.UInt32 LoadSharedResource(System.String pchResourceName, System.String pchBuffer, System.UInt32 unBufferLen)
-    // Offset: 0x1BAD1F4
+    // Offset: 0x1BE77DC
     uint LoadSharedResource(::StringW pchResourceName, ::StringW pchBuffer, uint unBufferLen);
     // public System.UInt32 GetResourceFullPath(System.String pchResourceName, System.String pchResourceTypeDirectory, System.Text.StringBuilder pchPathBuffer, System.UInt32 unBufferLen)
-    // Offset: 0x1BAD210
+    // Offset: 0x1BE77F8
     uint GetResourceFullPath(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, ::System::Text::StringBuilder* pchPathBuffer, uint unBufferLen);
   }; // Valve.VR.CVRResources
   #pragma pack(pop)

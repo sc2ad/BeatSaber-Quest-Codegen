@@ -35,15 +35,7 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class ArraySubsetEnumerator : public ::Il2CppObject/*, public ::System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Array array
     // Size: 0x8
     // Offset: 0x10
@@ -68,26 +60,26 @@ namespace System::ComponentModel {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
     // Get instance field reference: private System.Array array
-    ::System::Array*& dyn_array();
+    [[deprecated("Use field access instead!")]] ::System::Array*& dyn_array();
     // Get instance field reference: private System.Int32 total
-    int& dyn_total();
+    [[deprecated("Use field access instead!")]] int& dyn_total();
     // Get instance field reference: private System.Int32 current
-    int& dyn_current();
+    [[deprecated("Use field access instead!")]] int& dyn_current();
     // public System.Object get_Current()
-    // Offset: 0x1D58938
+    // Offset: 0x1D93E90
     ::Il2CppObject* get_Current();
     // public System.Void .ctor(System.Array array, System.Int32 count)
-    // Offset: 0x1D588C4
+    // Offset: 0x1D93E1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArraySubsetEnumerator* New_ctor(::System::Array* array, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::ArraySubsetEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArraySubsetEnumerator*, creationType>(array, count)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1D58904
+    // Offset: 0x1D93E5C
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1D5892C
+    // Offset: 0x1D93E84
     void Reset();
   }; // System.ComponentModel.ArraySubsetEnumerator
   #pragma pack(pop)

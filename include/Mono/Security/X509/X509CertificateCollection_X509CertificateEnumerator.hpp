@@ -32,15 +32,7 @@ namespace Mono::Security::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509CertificateCollection::X509CertificateEnumerator : public ::Il2CppObject/*, public ::System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.IEnumerator enumerator
     // Size: 0x8
     // Offset: 0x10
@@ -57,28 +49,28 @@ namespace Mono::Security::X509 {
       return enumerator;
     }
     // Get instance field reference: private System.Collections.IEnumerator enumerator
-    ::System::Collections::IEnumerator*& dyn_enumerator();
+    [[deprecated("Use field access instead!")]] ::System::Collections::IEnumerator*& dyn_enumerator();
     // public Mono.Security.X509.X509Certificate get_Current()
-    // Offset: 0x2A5B820
+    // Offset: 0x2AB1C08
     ::Mono::Security::X509::X509Certificate* get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x2A5B914
+    // Offset: 0x2AB1CFC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(Mono.Security.X509.X509CertificateCollection mappings)
-    // Offset: 0x2A5B700
+    // Offset: 0x2AB1AE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateCollection::X509CertificateEnumerator* New_ctor(::Mono::Security::X509::X509CertificateCollection* mappings) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::X509::X509CertificateCollection::X509CertificateEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateCollection::X509CertificateEnumerator*, creationType>(mappings)));
     }
     // private System.Boolean System.Collections.IEnumerator.MoveNext()
-    // Offset: 0x2A5B9C8
+    // Offset: 0x2AB1DB0
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x2A5BA78
+    // Offset: 0x2AB1E60
     void System_Collections_IEnumerator_Reset();
     // public System.Boolean MoveNext()
-    // Offset: 0x2A5BB2C
+    // Offset: 0x2AB1F14
     bool MoveNext();
   }; // Mono.Security.X509.X509CertificateCollection/Mono.Security.X509.X509CertificateEnumerator
   #pragma pack(pop)

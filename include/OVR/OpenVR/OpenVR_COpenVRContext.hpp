@@ -54,15 +54,7 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   class OpenVR::COpenVRContext : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private OVR.OpenVR.CVRSystem m_pVRSystem
     // Size: 0x8
     // Offset: 0x10
@@ -143,91 +135,93 @@ namespace OVR::OpenVR {
     static_assert(sizeof(::OVR::OpenVR::CVRSpatialAnchors*) == 0x8);
     public:
     // Get instance field reference: private OVR.OpenVR.CVRSystem m_pVRSystem
-    ::OVR::OpenVR::CVRSystem*& dyn_m_pVRSystem();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::CVRSystem*& dyn_m_pVRSystem();
     // Get instance field reference: private OVR.OpenVR.CVRChaperone m_pVRChaperone
-    ::OVR::OpenVR::CVRChaperone*& dyn_m_pVRChaperone();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::CVRChaperone*& dyn_m_pVRChaperone();
     // Get instance field reference: private OVR.OpenVR.CVRChaperoneSetup m_pVRChaperoneSetup
-    ::OVR::OpenVR::CVRChaperoneSetup*& dyn_m_pVRChaperoneSetup();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::CVRChaperoneSetup*& dyn_m_pVRChaperoneSetup();
     // Get instance field reference: private OVR.OpenVR.CVRCompositor m_pVRCompositor
-    ::OVR::OpenVR::CVRCompositor*& dyn_m_pVRCompositor();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::CVRCompositor*& dyn_m_pVRCompositor();
     // Get instance field reference: private OVR.OpenVR.CVROverlay m_pVROverlay
-    ::OVR::OpenVR::CVROverlay*& dyn_m_pVROverlay();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::CVROverlay*& dyn_m_pVROverlay();
     // Get instance field reference: private OVR.OpenVR.CVRRenderModels m_pVRRenderModels
-    ::OVR::OpenVR::CVRRenderModels*& dyn_m_pVRRenderModels();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::CVRRenderModels*& dyn_m_pVRRenderModels();
     // Get instance field reference: private OVR.OpenVR.CVRExtendedDisplay m_pVRExtendedDisplay
-    ::OVR::OpenVR::CVRExtendedDisplay*& dyn_m_pVRExtendedDisplay();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::CVRExtendedDisplay*& dyn_m_pVRExtendedDisplay();
     // Get instance field reference: private OVR.OpenVR.CVRSettings m_pVRSettings
-    ::OVR::OpenVR::CVRSettings*& dyn_m_pVRSettings();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::CVRSettings*& dyn_m_pVRSettings();
     // Get instance field reference: private OVR.OpenVR.CVRApplications m_pVRApplications
-    ::OVR::OpenVR::CVRApplications*& dyn_m_pVRApplications();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::CVRApplications*& dyn_m_pVRApplications();
     // Get instance field reference: private OVR.OpenVR.CVRScreenshots m_pVRScreenshots
-    ::OVR::OpenVR::CVRScreenshots*& dyn_m_pVRScreenshots();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::CVRScreenshots*& dyn_m_pVRScreenshots();
     // Get instance field reference: private OVR.OpenVR.CVRTrackedCamera m_pVRTrackedCamera
-    ::OVR::OpenVR::CVRTrackedCamera*& dyn_m_pVRTrackedCamera();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::CVRTrackedCamera*& dyn_m_pVRTrackedCamera();
     // Get instance field reference: private OVR.OpenVR.CVRInput m_pVRInput
-    ::OVR::OpenVR::CVRInput*& dyn_m_pVRInput();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::CVRInput*& dyn_m_pVRInput();
     // Get instance field reference: private OVR.OpenVR.CVRSpatialAnchors m_pVRSpatialAnchors
-    ::OVR::OpenVR::CVRSpatialAnchors*& dyn_m_pVRSpatialAnchors();
-    // public System.Void Clear()
-    // Offset: 0x1619FD4
-    void Clear();
-    // private System.Void CheckClear()
-    // Offset: 0x161A05C
-    void CheckClear();
-    // public OVR.OpenVR.CVRSystem VRSystem()
-    // Offset: 0x1618ECC
-    ::OVR::OpenVR::CVRSystem* VRSystem();
-    // public OVR.OpenVR.CVRChaperone VRChaperone()
-    // Offset: 0x1618FF4
-    ::OVR::OpenVR::CVRChaperone* VRChaperone();
-    // public OVR.OpenVR.CVRChaperoneSetup VRChaperoneSetup()
-    // Offset: 0x161911C
-    ::OVR::OpenVR::CVRChaperoneSetup* VRChaperoneSetup();
-    // public OVR.OpenVR.CVRCompositor VRCompositor()
-    // Offset: 0x1619244
-    ::OVR::OpenVR::CVRCompositor* VRCompositor();
-    // public OVR.OpenVR.CVROverlay VROverlay()
-    // Offset: 0x161936C
-    ::OVR::OpenVR::CVROverlay* VROverlay();
-    // public OVR.OpenVR.CVRRenderModels VRRenderModels()
-    // Offset: 0x1619494
-    ::OVR::OpenVR::CVRRenderModels* VRRenderModels();
-    // public OVR.OpenVR.CVRExtendedDisplay VRExtendedDisplay()
-    // Offset: 0x16195BC
-    ::OVR::OpenVR::CVRExtendedDisplay* VRExtendedDisplay();
-    // public OVR.OpenVR.CVRSettings VRSettings()
-    // Offset: 0x16196E4
-    ::OVR::OpenVR::CVRSettings* VRSettings();
-    // public OVR.OpenVR.CVRApplications VRApplications()
-    // Offset: 0x161980C
-    ::OVR::OpenVR::CVRApplications* VRApplications();
-    // public OVR.OpenVR.CVRScreenshots VRScreenshots()
-    // Offset: 0x1619934
-    ::OVR::OpenVR::CVRScreenshots* VRScreenshots();
-    // public OVR.OpenVR.CVRTrackedCamera VRTrackedCamera()
-    // Offset: 0x1619A5C
-    ::OVR::OpenVR::CVRTrackedCamera* VRTrackedCamera();
-    // public OVR.OpenVR.CVRInput VRInput()
-    // Offset: 0x1619B84
-    ::OVR::OpenVR::CVRInput* VRInput();
-    // public OVR.OpenVR.CVRSpatialAnchors VRSpatialAnchors()
-    // Offset: 0x1619CAC
-    ::OVR::OpenVR::CVRSpatialAnchors* VRSpatialAnchors();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::CVRSpatialAnchors*& dyn_m_pVRSpatialAnchors();
     // public System.Void .ctor()
-    // Offset: 0x1618E34
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x164E744
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OpenVR::COpenVRContext* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::OVR::OpenVR::OpenVR::COpenVRContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OpenVR::COpenVRContext*, creationType>()));
     }
+    // public System.Void Clear()
+    // Offset: 0x164F8E4
+    void Clear();
+    // private System.Void CheckClear()
+    // Offset: 0x164F96C
+    void CheckClear();
+    // public OVR.OpenVR.CVRSystem VRSystem()
+    // Offset: 0x164E7DC
+    ::OVR::OpenVR::CVRSystem* VRSystem();
+    // public OVR.OpenVR.CVRChaperone VRChaperone()
+    // Offset: 0x164E904
+    ::OVR::OpenVR::CVRChaperone* VRChaperone();
+    // public OVR.OpenVR.CVRChaperoneSetup VRChaperoneSetup()
+    // Offset: 0x164EA2C
+    ::OVR::OpenVR::CVRChaperoneSetup* VRChaperoneSetup();
+    // public OVR.OpenVR.CVRCompositor VRCompositor()
+    // Offset: 0x164EB54
+    ::OVR::OpenVR::CVRCompositor* VRCompositor();
+    // public OVR.OpenVR.CVROverlay VROverlay()
+    // Offset: 0x164EC7C
+    ::OVR::OpenVR::CVROverlay* VROverlay();
+    // public OVR.OpenVR.CVRRenderModels VRRenderModels()
+    // Offset: 0x164EDA4
+    ::OVR::OpenVR::CVRRenderModels* VRRenderModels();
+    // public OVR.OpenVR.CVRExtendedDisplay VRExtendedDisplay()
+    // Offset: 0x164EECC
+    ::OVR::OpenVR::CVRExtendedDisplay* VRExtendedDisplay();
+    // public OVR.OpenVR.CVRSettings VRSettings()
+    // Offset: 0x164EFF4
+    ::OVR::OpenVR::CVRSettings* VRSettings();
+    // public OVR.OpenVR.CVRApplications VRApplications()
+    // Offset: 0x164F11C
+    ::OVR::OpenVR::CVRApplications* VRApplications();
+    // public OVR.OpenVR.CVRScreenshots VRScreenshots()
+    // Offset: 0x164F244
+    ::OVR::OpenVR::CVRScreenshots* VRScreenshots();
+    // public OVR.OpenVR.CVRTrackedCamera VRTrackedCamera()
+    // Offset: 0x164F36C
+    ::OVR::OpenVR::CVRTrackedCamera* VRTrackedCamera();
+    // public OVR.OpenVR.CVRInput VRInput()
+    // Offset: 0x164F494
+    ::OVR::OpenVR::CVRInput* VRInput();
+    // public OVR.OpenVR.CVRSpatialAnchors VRSpatialAnchors()
+    // Offset: 0x164F5BC
+    ::OVR::OpenVR::CVRSpatialAnchors* VRSpatialAnchors();
   }; // OVR.OpenVR.OpenVR/OVR.OpenVR.COpenVRContext
   #pragma pack(pop)
   static check_size<sizeof(OpenVR::COpenVRContext), 112 + sizeof(::OVR::OpenVR::CVRSpatialAnchors*)> __OVR_OpenVR_OpenVR_COpenVRContextSizeCheck;
   static_assert(sizeof(OpenVR::COpenVRContext) == 0x78);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::Clear
 // Il2CppName: Clear
 template<>
@@ -348,7 +342,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::Open
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRSpatialAnchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

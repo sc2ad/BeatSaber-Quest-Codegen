@@ -119,7 +119,7 @@ namespace GlobalNamespace {
       // Set static field: static public AuthenticationToken/Platform Oculus
       static void _set_Oculus(::GlobalNamespace::AuthenticationToken::Platform value);
       // Get instance field reference: public System.Byte value__
-      uint8_t& dyn_value__();
+      [[deprecated("Use field access instead!")]] uint8_t& dyn_value__();
     }; // AuthenticationToken/Platform
     #pragma pack(pop)
     static check_size<sizeof(AuthenticationToken::Platform), 0 + sizeof(uint8_t)> __GlobalNamespace_AuthenticationToken_PlatformSizeCheck;
@@ -163,39 +163,39 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>*>(this);
     }
     // Get instance field reference: public readonly AuthenticationToken/Platform platform
-    ::GlobalNamespace::AuthenticationToken::Platform& dyn_platform();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AuthenticationToken::Platform& dyn_platform();
     // Get instance field reference: public readonly System.String userId
-    ::StringW& dyn_userId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_userId();
     // Get instance field reference: public readonly System.String userName
-    ::StringW& dyn_userName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_userName();
     // Get instance field reference: public readonly System.String sessionToken
-    ::StringW& dyn_sessionToken();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_sessionToken();
     // public System.Void .ctor(AuthenticationToken/Platform platform, System.String userId, System.String userName, System.String sessionToken)
-    // Offset: 0x14F2990
+    // Offset: 0x152A298
     // ABORTED: conflicts with another method.  AuthenticationToken(::GlobalNamespace::AuthenticationToken::Platform platform, ::StringW userId, ::StringW userName, ::StringW sessionToken);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x14F29A0
+    // Offset: 0x152A2A8
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public AuthenticationToken CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x14F2B6C
+    // Offset: 0x152A474
     ::GlobalNamespace::AuthenticationToken CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
     // static public AuthenticationToken Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x14F2B74
+    // Offset: 0x152A47C
     static ::GlobalNamespace::AuthenticationToken Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // static private System.Byte[] FromHex(System.String str)
-    // Offset: 0x14F2A74
+    // Offset: 0x152A37C
     static ::ArrayW<uint8_t> FromHex(::StringW str);
     // static private System.Byte GetHexVal(System.Char c)
-    // Offset: 0x14F2D38
+    // Offset: 0x152A640
     static uint8_t GetHexVal(::Il2CppChar c);
     // static private System.Byte[] FromUtf8(System.String str)
-    // Offset: 0x14F2A38
+    // Offset: 0x152A340
     static ::ArrayW<uint8_t> FromUtf8(::StringW str);
     // static private System.String ToHex(System.Byte[] bytes)
-    // Offset: 0x14F2CA8
+    // Offset: 0x152A5B0
     static ::StringW ToHex(::ArrayW<uint8_t> bytes);
     // static private System.String ToUtf8(System.Byte[] bytes)
-    // Offset: 0x14F2C6C
+    // Offset: 0x152A574
     static ::StringW ToUtf8(::ArrayW<uint8_t> bytes);
   }; // AuthenticationToken
   #pragma pack(pop)

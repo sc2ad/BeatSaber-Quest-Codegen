@@ -46,20 +46,18 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<BeatmapDataItem,System.Boolean> <>9__17_0
     static void _set_$$9__17_0(::System::Func_2<::GlobalNamespace::BeatmapDataItem*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2818908
+    // Offset: 0x286AEC8
     static void _cctor();
-    // System.Boolean <HandleCurrentTimeSliceColorNotesDidFinishTimeSlice>b__17_0(BeatmapDataItem item)
-    // Offset: 0x2818974
-    bool $HandleCurrentTimeSliceColorNotesDidFinishTimeSlice$b__17_0(::GlobalNamespace::BeatmapDataItem* item);
     // public System.Void .ctor()
-    // Offset: 0x281896C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x286AF2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectsInTimeRowProcessor::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectsInTimeRowProcessor::$$c*, creationType>()));
     }
+    // System.Boolean <HandleCurrentTimeSliceColorNotesDidFinishTimeSlice>b__17_0(BeatmapDataItem item)
+    // Offset: 0x286AF34
+    bool $HandleCurrentTimeSliceColorNotesDidFinishTimeSlice$b__17_0(::GlobalNamespace::BeatmapDataItem* item);
   }; // BeatmapObjectsInTimeRowProcessor/<>c
   #pragma pack(pop)
 }
@@ -72,6 +70,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectsInTimeRowProcessor::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectsInTimeRowProcessor::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectsInTimeRowProcessor::$$c::$HandleCurrentTimeSliceColorNotesDidFinishTimeSlice$b__17_0
 // Il2CppName: <HandleCurrentTimeSliceColorNotesDidFinishTimeSlice>b__17_0
 template<>
@@ -81,7 +83,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectsInTimeRowProcessor::$$c*), "<HandleCurrentTimeSliceColorNotesDidFinishTimeSlice>b__17_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{item});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectsInTimeRowProcessor::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

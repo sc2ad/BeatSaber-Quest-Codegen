@@ -99,25 +99,17 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public System.Collections.Generic.List`1<System.String> scenes
-      ::System::Collections::Generic::List_1<::StringW>*& dyn_scenes();
+      [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn_scenes();
       // Get instance field reference: public System.Int64 version
-      int64_t& dyn_version();
+      [[deprecated("Use field access instead!")]] int64_t& dyn_version();
       // public System.Void .ctor(System.Collections.Generic.List`1<System.String> sceneList, System.Int64 currentSceneEpochVersion)
-      // Offset: 0x1AE80E4
+      // Offset: 0x1B226CC
       // ABORTED: conflicts with another method.  SceneInfo(::System::Collections::Generic::List_1<::StringW>* sceneList, int64_t currentSceneEpochVersion);
     }; // OVRSceneLoader/SceneInfo
     #pragma pack(pop)
     static check_size<sizeof(OVRSceneLoader::SceneInfo), 8 + sizeof(int64_t)> __GlobalNamespace_OVRSceneLoader_SceneInfoSizeCheck;
     static_assert(sizeof(OVRSceneLoader::SceneInfo) == 0x10);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single sceneCheckIntervalSeconds
     // Size: 0x4
     // Offset: 0x18
@@ -220,74 +212,68 @@ namespace GlobalNamespace {
     // Set static field: static public System.String resourceBundleName
     static void _set_resourceBundleName(::StringW value);
     // Get instance field reference: public System.Single sceneCheckIntervalSeconds
-    float& dyn_sceneCheckIntervalSeconds();
+    [[deprecated("Use field access instead!")]] float& dyn_sceneCheckIntervalSeconds();
     // Get instance field reference: public System.Single logCloseTime
-    float& dyn_logCloseTime();
+    [[deprecated("Use field access instead!")]] float& dyn_logCloseTime();
     // Get instance field reference: public UnityEngine.Canvas mainCanvas
-    ::UnityEngine::Canvas*& dyn_mainCanvas();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Canvas*& dyn_mainCanvas();
     // Get instance field reference: public UnityEngine.UI.Text logTextBox
-    ::UnityEngine::UI::Text*& dyn_logTextBox();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Text*& dyn_logTextBox();
     // Get instance field reference: private UnityEngine.AsyncOperation loadSceneOperation
-    ::UnityEngine::AsyncOperation*& dyn_loadSceneOperation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AsyncOperation*& dyn_loadSceneOperation();
     // Get instance field reference: private System.String formattedLogText
-    ::StringW& dyn_formattedLogText();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_formattedLogText();
     // Get instance field reference: private System.Single closeLogTimer
-    float& dyn_closeLogTimer();
+    [[deprecated("Use field access instead!")]] float& dyn_closeLogTimer();
     // Get instance field reference: private System.Boolean closeLogDialogue
-    bool& dyn_closeLogDialogue();
+    [[deprecated("Use field access instead!")]] bool& dyn_closeLogDialogue();
     // Get instance field reference: private System.Boolean canvasPosUpdated
-    bool& dyn_canvasPosUpdated();
+    [[deprecated("Use field access instead!")]] bool& dyn_canvasPosUpdated();
     // Get instance field reference: private System.String scenePath
-    ::StringW& dyn_scenePath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_scenePath();
     // Get instance field reference: private System.String sceneLoadDataPath
-    ::StringW& dyn_sceneLoadDataPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_sceneLoadDataPath();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.AssetBundle> loadedAssetBundles
-    ::System::Collections::Generic::List_1<::UnityEngine::AssetBundle*>*& dyn_loadedAssetBundles();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::AssetBundle*>*& dyn_loadedAssetBundles();
     // Get instance field reference: private OVRSceneLoader/SceneInfo currentSceneInfo
-    ::GlobalNamespace::OVRSceneLoader::SceneInfo& dyn_currentSceneInfo();
-    // private System.Void Awake()
-    // Offset: 0x1AE6804
-    void Awake();
-    // private System.Void Start()
-    // Offset: 0x1AE6880
-    void Start();
-    // private System.Void LoadScene(OVRSceneLoader/SceneInfo sceneInfo)
-    // Offset: 0x1AE6C30
-    void LoadScene(::GlobalNamespace::OVRSceneLoader::SceneInfo sceneInfo);
-    // private System.Void LoadSceneOperation_completed(UnityEngine.AsyncOperation obj)
-    // Offset: 0x1AE7498
-    void LoadSceneOperation_completed(::UnityEngine::AsyncOperation* obj);
-    // public System.Void Update()
-    // Offset: 0x1AE75EC
-    void Update();
-    // private System.Void UpdateCanvasPosition()
-    // Offset: 0x1AE783C
-    void UpdateCanvasPosition();
-    // private OVRSceneLoader/SceneInfo GetSceneInfo()
-    // Offset: 0x1AE6A18
-    ::GlobalNamespace::OVRSceneLoader::SceneInfo GetSceneInfo();
-    // private System.Collections.IEnumerator DelayCanvasPosUpdate()
-    // Offset: 0x1AE69A8
-    ::System::Collections::IEnumerator* DelayCanvasPosUpdate();
-    // private System.Collections.IEnumerator onCheckSceneCoroutine()
-    // Offset: 0x1AE757C
-    ::System::Collections::IEnumerator* onCheckSceneCoroutine();
-    // private System.Void DestroyAllGameObjects()
-    // Offset: 0x1AE7B00
-    void DestroyAllGameObjects();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRSceneLoader::SceneInfo& dyn_currentSceneInfo();
     // public System.Void .ctor()
-    // Offset: 0x1AE7C14
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B221FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRSceneLoader* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRSceneLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRSceneLoader*, creationType>()));
     }
+    // private System.Void Awake()
+    // Offset: 0x1B20DEC
+    void Awake();
+    // private System.Void Start()
+    // Offset: 0x1B20E68
+    void Start();
+    // private System.Void LoadScene(OVRSceneLoader/SceneInfo sceneInfo)
+    // Offset: 0x1B21218
+    void LoadScene(::GlobalNamespace::OVRSceneLoader::SceneInfo sceneInfo);
+    // private System.Void LoadSceneOperation_completed(UnityEngine.AsyncOperation obj)
+    // Offset: 0x1B21A80
+    void LoadSceneOperation_completed(::UnityEngine::AsyncOperation* obj);
+    // public System.Void Update()
+    // Offset: 0x1B21BD4
+    void Update();
+    // private System.Void UpdateCanvasPosition()
+    // Offset: 0x1B21E24
+    void UpdateCanvasPosition();
+    // private OVRSceneLoader/SceneInfo GetSceneInfo()
+    // Offset: 0x1B21000
+    ::GlobalNamespace::OVRSceneLoader::SceneInfo GetSceneInfo();
+    // private System.Collections.IEnumerator DelayCanvasPosUpdate()
+    // Offset: 0x1B20F90
+    ::System::Collections::IEnumerator* DelayCanvasPosUpdate();
+    // private System.Collections.IEnumerator onCheckSceneCoroutine()
+    // Offset: 0x1B21B64
+    ::System::Collections::IEnumerator* onCheckSceneCoroutine();
+    // private System.Void DestroyAllGameObjects()
+    // Offset: 0x1B220E8
+    void DestroyAllGameObjects();
   }; // OVRSceneLoader
   #pragma pack(pop)
   static check_size<sizeof(OVRSceneLoader), 96 + sizeof(::GlobalNamespace::OVRSceneLoader::SceneInfo)> __GlobalNamespace_OVRSceneLoaderSizeCheck;
@@ -296,6 +282,10 @@ namespace GlobalNamespace {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRSceneLoader::SceneInfo, "", "OVRSceneLoader/SceneInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OVRSceneLoader::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVRSceneLoader::Awake
 // Il2CppName: Awake
 template<>
@@ -378,7 +368,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSceneLoader*), "DestroyAllGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OVRSceneLoader::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

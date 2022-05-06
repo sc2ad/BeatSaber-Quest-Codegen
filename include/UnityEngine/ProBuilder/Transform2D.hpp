@@ -29,15 +29,7 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class Transform2D : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Vector2 position
     // Size: 0x8
     // Offset: 0x10
@@ -58,23 +50,23 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.Vector2 position
-    ::UnityEngine::Vector2& dyn_position();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_position();
     // Get instance field reference: public System.Single rotation
-    float& dyn_rotation();
+    [[deprecated("Use field access instead!")]] float& dyn_rotation();
     // Get instance field reference: public UnityEngine.Vector2 scale
-    ::UnityEngine::Vector2& dyn_scale();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_scale();
     // public System.Void .ctor(UnityEngine.Vector2 position, System.Single rotation, UnityEngine.Vector2 scale)
-    // Offset: 0x2953EAC
+    // Offset: 0x29A446C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Transform2D* New_ctor(::UnityEngine::Vector2 position, float rotation, ::UnityEngine::Vector2 scale) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Transform2D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Transform2D*, creationType>(position, rotation, scale)));
     }
     // public UnityEngine.Vector2 TransformPoint(UnityEngine.Vector2 p)
-    // Offset: 0x2953F08
+    // Offset: 0x29A44C8
     ::UnityEngine::Vector2 TransformPoint(::UnityEngine::Vector2 p);
     // public override System.String ToString()
-    // Offset: 0x2953FDC
+    // Offset: 0x29A459C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

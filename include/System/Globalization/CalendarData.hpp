@@ -31,15 +31,7 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class CalendarData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.String sNativeName
     // Size: 0x8
     // Offset: 0x10
@@ -166,76 +158,76 @@ namespace System::Globalization {
     // Set static field: static System.Globalization.CalendarData Invariant
     static void _set_Invariant(::System::Globalization::CalendarData* value);
     // Get instance field reference: System.String sNativeName
-    ::StringW& dyn_sNativeName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_sNativeName();
     // Get instance field reference: System.String[] saShortDates
-    ::ArrayW<::StringW>& dyn_saShortDates();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_saShortDates();
     // Get instance field reference: System.String[] saYearMonths
-    ::ArrayW<::StringW>& dyn_saYearMonths();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_saYearMonths();
     // Get instance field reference: System.String[] saLongDates
-    ::ArrayW<::StringW>& dyn_saLongDates();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_saLongDates();
     // Get instance field reference: System.String sMonthDay
-    ::StringW& dyn_sMonthDay();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_sMonthDay();
     // Get instance field reference: System.String[] saEraNames
-    ::ArrayW<::StringW>& dyn_saEraNames();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_saEraNames();
     // Get instance field reference: System.String[] saAbbrevEraNames
-    ::ArrayW<::StringW>& dyn_saAbbrevEraNames();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_saAbbrevEraNames();
     // Get instance field reference: System.String[] saAbbrevEnglishEraNames
-    ::ArrayW<::StringW>& dyn_saAbbrevEnglishEraNames();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_saAbbrevEnglishEraNames();
     // Get instance field reference: System.String[] saDayNames
-    ::ArrayW<::StringW>& dyn_saDayNames();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_saDayNames();
     // Get instance field reference: System.String[] saAbbrevDayNames
-    ::ArrayW<::StringW>& dyn_saAbbrevDayNames();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_saAbbrevDayNames();
     // Get instance field reference: System.String[] saSuperShortDayNames
-    ::ArrayW<::StringW>& dyn_saSuperShortDayNames();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_saSuperShortDayNames();
     // Get instance field reference: System.String[] saMonthNames
-    ::ArrayW<::StringW>& dyn_saMonthNames();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_saMonthNames();
     // Get instance field reference: System.String[] saAbbrevMonthNames
-    ::ArrayW<::StringW>& dyn_saAbbrevMonthNames();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_saAbbrevMonthNames();
     // Get instance field reference: System.String[] saMonthGenitiveNames
-    ::ArrayW<::StringW>& dyn_saMonthGenitiveNames();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_saMonthGenitiveNames();
     // Get instance field reference: System.String[] saAbbrevMonthGenitiveNames
-    ::ArrayW<::StringW>& dyn_saAbbrevMonthGenitiveNames();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_saAbbrevMonthGenitiveNames();
     // Get instance field reference: System.String[] saLeapYearMonthNames
-    ::ArrayW<::StringW>& dyn_saLeapYearMonthNames();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_saLeapYearMonthNames();
     // Get instance field reference: System.Int32 iTwoDigitYearMax
-    int& dyn_iTwoDigitYearMax();
+    [[deprecated("Use field access instead!")]] int& dyn_iTwoDigitYearMax();
     // Get instance field reference: System.Int32 iCurrentEra
-    int& dyn_iCurrentEra();
+    [[deprecated("Use field access instead!")]] int& dyn_iCurrentEra();
     // Get instance field reference: System.Boolean bUseUserOverrides
-    bool& dyn_bUseUserOverrides();
+    [[deprecated("Use field access instead!")]] bool& dyn_bUseUserOverrides();
     // static private System.Void .cctor()
-    // Offset: 0x19299FC
+    // Offset: 0x196130C
     static void _cctor();
     // System.Void .ctor(System.String localeName, System.Int32 calendarId, System.Boolean bUseUserOverrides)
-    // Offset: 0x192A6AC
+    // Offset: 0x1961FBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CalendarData* New_ctor(::StringW localeName, int calendarId, bool bUseUserOverrides) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::CalendarData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CalendarData*, creationType>(localeName, calendarId, bUseUserOverrides)));
     }
     // private System.Void InitializeEraNames(System.String localeName, System.Int32 calendarId)
-    // Offset: 0x192AC10
+    // Offset: 0x1962520
     void InitializeEraNames(::StringW localeName, int calendarId);
     // private System.Void InitializeAbbreviatedEraNames(System.String localeName, System.Int32 calendarId)
-    // Offset: 0x192AF6C
+    // Offset: 0x196287C
     void InitializeAbbreviatedEraNames(::StringW localeName, int calendarId);
     // static System.Globalization.CalendarData GetCalendarData(System.Int32 calendarId)
-    // Offset: 0x192949C
+    // Offset: 0x1960DAC
     static ::System::Globalization::CalendarData* GetCalendarData(int calendarId);
     // static private System.String CalendarIdToCultureName(System.Int32 calendarId)
-    // Offset: 0x192B1E4
+    // Offset: 0x1962AF4
     static ::StringW CalendarIdToCultureName(int calendarId);
     // static public System.Int32 nativeGetTwoDigitYearMax(System.Int32 calID)
-    // Offset: 0x19299E4
+    // Offset: 0x19612F4
     static int nativeGetTwoDigitYearMax(int calID);
     // static private System.Boolean nativeGetCalendarData(System.Globalization.CalendarData data, System.String localeName, System.Int32 calendarId)
-    // Offset: 0x192ABC4
+    // Offset: 0x19624D4
     static bool nativeGetCalendarData(::System::Globalization::CalendarData* data, ::StringW localeName, int calendarId);
     // private System.Boolean fill_calendar_data(System.String localeName, System.Int32 datetimeIndex)
-    // Offset: 0x192B558
+    // Offset: 0x1962E68
     bool fill_calendar_data(::StringW localeName, int datetimeIndex);
     // private System.Void .ctor()
-    // Offset: 0x19299EC
+    // Offset: 0x19612FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

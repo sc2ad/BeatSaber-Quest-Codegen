@@ -52,16 +52,8 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::CustomTweenBehaviour::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [NullAllowed] Offset: 0x125FBF8
+    // [NullAllowed] Offset: 0x10E48A0
     // public UnityEngine.Transform[] _transforms
     // Size: 0x8
     // Offset: 0x10
@@ -76,7 +68,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: startLocationCurrentPosition and: startLocalPos
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x125FC30
+    // [DrawIfAttribute] Offset: 0x10E48D8
     // public UnityEngine.Vector3 startLocalPos
     // Size: 0xC
     // Offset: 0x1C
@@ -109,7 +101,7 @@ namespace GlobalNamespace {
     float elementDelay;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x125FCD4
+    // [SpaceAttribute] Offset: 0x10E497C
     // public System.Boolean _lockX
     // Size: 0x1
     // Offset: 0x40
@@ -180,68 +172,65 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<float>) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.Transform[] _transforms
-    ::ArrayW<::UnityEngine::Transform*>& dyn__transforms();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Transform*>& dyn__transforms();
     // Get instance field reference: public System.Boolean startLocationCurrentPosition
-    bool& dyn_startLocationCurrentPosition();
+    [[deprecated("Use field access instead!")]] bool& dyn_startLocationCurrentPosition();
     // Get instance field reference: public UnityEngine.Vector3 startLocalPos
-    ::UnityEngine::Vector3& dyn_startLocalPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_startLocalPos();
     // Get instance field reference: public UnityEngine.Vector3 endLocalPos
-    ::UnityEngine::Vector3& dyn_endLocalPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_endLocalPos();
     // Get instance field reference: public EaseType easeType
-    ::GlobalNamespace::EaseType& dyn_easeType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EaseType& dyn_easeType();
     // Get instance field reference: public System.Boolean endXRelativeToSelfRotation
-    bool& dyn_endXRelativeToSelfRotation();
+    [[deprecated("Use field access instead!")]] bool& dyn_endXRelativeToSelfRotation();
     // Get instance field reference: public System.Single elementDelay
-    float& dyn_elementDelay();
+    [[deprecated("Use field access instead!")]] float& dyn_elementDelay();
     // Get instance field reference: public System.Boolean _lockX
-    bool& dyn__lockX();
+    [[deprecated("Use field access instead!")]] bool& dyn__lockX();
     // Get instance field reference: public System.Boolean _lockY
-    bool& dyn__lockY();
+    [[deprecated("Use field access instead!")]] bool& dyn__lockY();
     // Get instance field reference: public System.Boolean _lockZ
-    bool& dyn__lockZ();
+    [[deprecated("Use field access instead!")]] bool& dyn__lockZ();
     // Get instance field reference: public System.Boolean _randomizeOrder
-    bool& dyn__randomizeOrder();
+    [[deprecated("Use field access instead!")]] bool& dyn__randomizeOrder();
     // Get instance field reference: public System.Single _randomizedMinDurationMultiplier
-    float& dyn__randomizedMinDurationMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__randomizedMinDurationMultiplier();
     // Get instance field reference: private System.Single _duration
-    float& dyn__duration();
+    [[deprecated("Use field access instead!")]] float& dyn__duration();
     // Get instance field reference: private System.Single _perItemDuration
-    float& dyn__perItemDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__perItemDuration();
     // Get instance field reference: private UnityEngine.Vector3[] _originalLocalPos
-    ::ArrayW<::UnityEngine::Vector3>& dyn__originalLocalPos();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn__originalLocalPos();
     // Get instance field reference: private System.Boolean _initialized
-    bool& dyn__initialized();
+    [[deprecated("Use field access instead!")]] bool& dyn__initialized();
     // Get instance field reference: private System.Int32[] _randomizedOrder
-    ::ArrayW<int>& dyn__randomizedOrder();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__randomizedOrder();
     // Get instance field reference: private System.Single[] _randomizedDuration
-    ::ArrayW<float>& dyn__randomizedDuration();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn__randomizedDuration();
     // public System.Void .ctor()
-    // Offset: 0x140B368
-    // Implemented from: UnityEngine.Playables.PlayableBehaviour
-    // Base method: System.Void PlayableBehaviour::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x142B114
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomTweenBehaviour* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CustomTweenBehaviour::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomTweenBehaviour*, creationType>()));
     }
     // public override System.Void OnGraphStart(UnityEngine.Playables.Playable playable)
-    // Offset: 0x140AA00
+    // Offset: 0x142A7AC
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnGraphStart(UnityEngine.Playables.Playable playable)
     void OnGraphStart(::UnityEngine::Playables::Playable playable);
     // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0x140AB44
+    // Offset: 0x142A8F0
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
     // public override System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
-    // Offset: 0x140B070
+    // Offset: 0x142AE1C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnPlayableDestroy(UnityEngine.Playables.Playable playable)
     void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
     // public override System.Void OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x140B18C
+    // Offset: 0x142AF38
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);

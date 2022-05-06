@@ -35,23 +35,15 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class BodyTilt : public ::RootMotion::FinalIK::OffsetModifier {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x12758E0
+    // [TooltipAttribute] Offset: 0x10FA598
     // public System.Single tiltSpeed
     // Size: 0x4
     // Offset: 0x2C
     float tiltSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1275918
+    // [TooltipAttribute] Offset: 0x10FA5D0
     // public System.Single tiltSensitivity
     // Size: 0x4
     // Offset: 0x30
@@ -60,14 +52,14 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: tiltSensitivity and: poseLeft
     char __padding1[0x4] = {};
-    // [TooltipAttribute] Offset: 0x1275950
+    // [TooltipAttribute] Offset: 0x10FA608
     // public RootMotion.FinalIK.OffsetPose poseLeft
     // Size: 0x8
     // Offset: 0x38
     ::RootMotion::FinalIK::OffsetPose* poseLeft;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::OffsetPose*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1275988
+    // [TooltipAttribute] Offset: 0x10FA640
     // public RootMotion.FinalIK.OffsetPose poseRight
     // Size: 0x8
     // Offset: 0x40
@@ -88,38 +80,33 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: public System.Single tiltSpeed
-    float& dyn_tiltSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn_tiltSpeed();
     // Get instance field reference: public System.Single tiltSensitivity
-    float& dyn_tiltSensitivity();
+    [[deprecated("Use field access instead!")]] float& dyn_tiltSensitivity();
     // Get instance field reference: public RootMotion.FinalIK.OffsetPose poseLeft
-    ::RootMotion::FinalIK::OffsetPose*& dyn_poseLeft();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::OffsetPose*& dyn_poseLeft();
     // Get instance field reference: public RootMotion.FinalIK.OffsetPose poseRight
-    ::RootMotion::FinalIK::OffsetPose*& dyn_poseRight();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::OffsetPose*& dyn_poseRight();
     // Get instance field reference: private System.Single tiltAngle
-    float& dyn_tiltAngle();
+    [[deprecated("Use field access instead!")]] float& dyn_tiltAngle();
     // Get instance field reference: private UnityEngine.Vector3 lastForward
-    ::UnityEngine::Vector3& dyn_lastForward();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_lastForward();
     // public System.Void .ctor()
-    // Offset: 0x2204BB8
+    // Offset: 0x225242C
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BodyTilt* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::BodyTilt::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BodyTilt*, creationType>()));
     }
     // protected override System.Void Start()
-    // Offset: 0x2204940
+    // Offset: 0x22521B4
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::Start()
     void Start();
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x2204988
+    // Offset: 0x22521FC
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();

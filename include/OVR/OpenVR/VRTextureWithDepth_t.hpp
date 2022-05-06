@@ -44,7 +44,7 @@ namespace OVR::OpenVR {
       return depth;
     }
     // Get instance field reference: public OVR.OpenVR.VRTextureDepthInfo_t depth
-    ::OVR::OpenVR::VRTextureDepthInfo_t& dyn_depth();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::VRTextureDepthInfo_t& dyn_depth();
   }; // OVR.OpenVR.VRTextureWithDepth_t
   #pragma pack(pop)
   static check_size<sizeof(VRTextureWithDepth_t), 0 + sizeof(::OVR::OpenVR::VRTextureDepthInfo_t)> __OVR_OpenVR_VRTextureWithDepth_tSizeCheck;

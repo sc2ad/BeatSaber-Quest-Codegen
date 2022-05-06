@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SmallBufferPool : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheSmall
     // Size: 0x8
     // Offset: 0x10
@@ -120,34 +112,36 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kCacheMaxMaxCapacity
     static void _set_kCacheMaxMaxCapacity(int value);
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheSmall
-    ::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*& dyn__cacheSmall();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*& dyn__cacheSmall();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheMedium
-    ::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*& dyn__cacheMedium();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*& dyn__cacheMedium();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheLarge
-    ::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*& dyn__cacheLarge();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*& dyn__cacheLarge();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheMax
-    ::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*& dyn__cacheMax();
-    // public System.Byte[] GetBuffer(System.Int32 length)
-    // Offset: 0x25EE0F0
-    ::ArrayW<uint8_t> GetBuffer(int length);
-    // public System.Void ReleaseBuffer(System.Byte[] buffer)
-    // Offset: 0x25EE2C0
-    void ReleaseBuffer(::ArrayW<uint8_t> buffer);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*& dyn__cacheMax();
     // public System.Void .ctor()
-    // Offset: 0x25EE400
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x263AA30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SmallBufferPool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SmallBufferPool::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SmallBufferPool*, creationType>()));
     }
+    // public System.Byte[] GetBuffer(System.Int32 length)
+    // Offset: 0x263A720
+    ::ArrayW<uint8_t> GetBuffer(int length);
+    // public System.Void ReleaseBuffer(System.Byte[] buffer)
+    // Offset: 0x263A8F0
+    void ReleaseBuffer(::ArrayW<uint8_t> buffer);
   }; // SmallBufferPool
   #pragma pack(pop)
   static check_size<sizeof(SmallBufferPool), 40 + sizeof(::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*)> __GlobalNamespace_SmallBufferPoolSizeCheck;
   static_assert(sizeof(SmallBufferPool) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SmallBufferPool::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SmallBufferPool::GetBuffer
 // Il2CppName: GetBuffer
 template<>
@@ -166,7 +160,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SmallBufferPool*), "ReleaseBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SmallBufferPool::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

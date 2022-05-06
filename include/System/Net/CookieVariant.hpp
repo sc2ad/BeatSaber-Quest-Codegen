@@ -72,7 +72,7 @@ namespace System::Net {
     // Set static field: static public System.Net.CookieVariant Default
     static void _set_Default(::System::Net::CookieVariant value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Net.CookieVariant
   #pragma pack(pop)
   static check_size<sizeof(CookieVariant), 0 + sizeof(int)> __System_Net_CookieVariantSizeCheck;

@@ -35,15 +35,7 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class ObjectHolderListEnumerator : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean m_isFixupEnumerator
     // Size: 0x1
     // Offset: 0x10
@@ -72,25 +64,25 @@ namespace System::Runtime::Serialization {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Boolean m_isFixupEnumerator
-    bool& dyn_m_isFixupEnumerator();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_isFixupEnumerator();
     // Get instance field reference: private System.Runtime.Serialization.ObjectHolderList m_list
-    ::System::Runtime::Serialization::ObjectHolderList*& dyn_m_list();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::ObjectHolderList*& dyn_m_list();
     // Get instance field reference: private System.Int32 m_startingVersion
-    int& dyn_m_startingVersion();
+    [[deprecated("Use field access instead!")]] int& dyn_m_startingVersion();
     // Get instance field reference: private System.Int32 m_currPos
-    int& dyn_m_currPos();
+    [[deprecated("Use field access instead!")]] int& dyn_m_currPos();
     // System.Runtime.Serialization.ObjectHolder get_Current()
-    // Offset: 0x1602068
+    // Offset: 0x1637978
     ::System::Runtime::Serialization::ObjectHolder* get_Current();
     // System.Void .ctor(System.Runtime.Serialization.ObjectHolderList list, System.Boolean isFixupEnumerator)
-    // Offset: 0x1601F50
+    // Offset: 0x1637860
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectHolderListEnumerator* New_ctor(::System::Runtime::Serialization::ObjectHolderList* list, bool isFixupEnumerator) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::ObjectHolderListEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectHolderListEnumerator*, creationType>(list, isFixupEnumerator)));
     }
     // System.Boolean MoveNext()
-    // Offset: 0x1601FB4
+    // Offset: 0x16378C4
     bool MoveNext();
   }; // System.Runtime.Serialization.ObjectHolderListEnumerator
   #pragma pack(pop)

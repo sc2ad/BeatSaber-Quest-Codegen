@@ -59,15 +59,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::BeatmapCallbacksController::InitData
     class InitData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.Dictionary`2<System.Single,CallbacksInTime> _callbacksInTimes
     // Size: 0x8
     // Offset: 0x10
@@ -116,40 +108,40 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Single,CallbacksInTime> _callbacksInTimes
-    ::System::Collections::Generic::Dictionary_2<float, ::GlobalNamespace::CallbacksInTime*>*& dyn__callbacksInTimes();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<float, ::GlobalNamespace::CallbacksInTime*>*& dyn__callbacksInTimes();
     // Get instance field reference: private readonly IReadonlyBeatmapData _beatmapData
-    ::GlobalNamespace::IReadonlyBeatmapData*& dyn__beatmapData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IReadonlyBeatmapData*& dyn__beatmapData();
     // Get instance field reference: private readonly System.Single _startFilterTime
-    float& dyn__startFilterTime();
+    [[deprecated("Use field access instead!")]] float& dyn__startFilterTime();
     // Get instance field reference: private System.Single _prevSongTime
-    float& dyn__prevSongTime();
+    [[deprecated("Use field access instead!")]] float& dyn__prevSongTime();
     // Get instance field reference: private System.Single _songTime
-    float& dyn__songTime();
+    [[deprecated("Use field access instead!")]] float& dyn__songTime();
     // Get instance field reference: private System.Boolean _sendCallbacksOnBeatmapDataChangeChange
-    bool& dyn__sendCallbacksOnBeatmapDataChangeChange();
+    [[deprecated("Use field access instead!")]] bool& dyn__sendCallbacksOnBeatmapDataChangeChange();
     // Get instance field reference: private System.Boolean _processingCallbacks
-    bool& dyn__processingCallbacks();
+    [[deprecated("Use field access instead!")]] bool& dyn__processingCallbacks();
     // public System.Boolean get_sendCallbacksOnBeatmapDataChange()
-    // Offset: 0x1363BEC
+    // Offset: 0x134BE6C
     bool get_sendCallbacksOnBeatmapDataChange();
     // public System.Void set_sendCallbacksOnBeatmapDataChange(System.Boolean value)
-    // Offset: 0x1363BF4
+    // Offset: 0x134BE74
     void set_sendCallbacksOnBeatmapDataChange(bool value);
     // public System.Single get_songTime()
-    // Offset: 0x1363C00
+    // Offset: 0x134BE80
     float get_songTime();
     // public System.Void .ctor(BeatmapCallbacksController/InitData initData)
-    // Offset: 0x1363C08
+    // Offset: 0x134BE88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCallbacksController* New_ctor(::GlobalNamespace::BeatmapCallbacksController::InitData* initData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapCallbacksController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCallbacksController*, creationType>(initData)));
     }
     // public System.Void Dispose()
-    // Offset: 0x1363E8C
+    // Offset: 0x134C10C
     void Dispose();
     // public System.Void ManualUpdate(System.Single songTime)
-    // Offset: 0x13640D4
+    // Offset: 0x134C354
     void ManualUpdate(float songTime);
     // public BeatmapDataCallbackWrapper AddBeatmapCallback(System.Single aheadTime, BeatmapDataCallback`1<T> callback)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -192,19 +184,19 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<::GlobalNamespace::BeatmapDataCallbackWrapper*, false>(this, ___generic__method, aheadTime, callback, beatmapDataSubtypeIdentifiers);
     }
     // public System.Void RemoveBeatmapCallback(BeatmapDataCallbackWrapper callbackWrapper)
-    // Offset: 0x135C748
+    // Offset: 0x13449C8
     void RemoveBeatmapCallback(::GlobalNamespace::BeatmapDataCallbackWrapper* callbackWrapper);
     // public System.Void TriggerBeatmapEvent(BeatmapEventData beatmapEventData)
-    // Offset: 0x13644A4
+    // Offset: 0x134C724
     void TriggerBeatmapEvent(::GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void HandleBeatmapEventDataWasInserted(BeatmapEventData beatmapEventData, System.Collections.Generic.LinkedListNode`1<BeatmapDataItem> node)
-    // Offset: 0x13645B4
+    // Offset: 0x134C834
     void HandleBeatmapEventDataWasInserted(::GlobalNamespace::BeatmapEventData* beatmapEventData, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* node);
     // private System.Void HandleBeatmapEventDataWillBeRemoved(BeatmapEventData beatmapEventDataToRemove, System.Collections.Generic.LinkedListNode`1<BeatmapDataItem> nodeToRemove)
-    // Offset: 0x1364918
+    // Offset: 0x134CB98
     void HandleBeatmapEventDataWillBeRemoved(::GlobalNamespace::BeatmapEventData* beatmapEventDataToRemove, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToRemove);
     // private System.Void HandleBeatmapEventDataWasRemoved(BeatmapEventData beatmapEventData)
-    // Offset: 0x1364B1C
+    // Offset: 0x134CD9C
     void HandleBeatmapEventDataWasRemoved(::GlobalNamespace::BeatmapEventData* beatmapEventData);
   }; // BeatmapCallbacksController
   #pragma pack(pop)

@@ -299,14 +299,14 @@ namespace UnityEngine {
     static ::UnityEngine::TextureFormat _get_ASTC_12x12();
     // Set static field: static public UnityEngine.TextureFormat ASTC_12x12
     static void _set_ASTC_12x12(::UnityEngine::TextureFormat value);
-    // [ObsoleteAttribute] Offset: 0x11C37C0
+    // [ObsoleteAttribute] Offset: 0x10491D8
     // static field const value: static public UnityEngine.TextureFormat ETC_RGB4_3DS
     static constexpr const int ETC_RGB4_3DS = 60;
     // Get static field: static public UnityEngine.TextureFormat ETC_RGB4_3DS
     static ::UnityEngine::TextureFormat _get_ETC_RGB4_3DS();
     // Set static field: static public UnityEngine.TextureFormat ETC_RGB4_3DS
     static void _set_ETC_RGB4_3DS(::UnityEngine::TextureFormat value);
-    // [ObsoleteAttribute] Offset: 0x11C37F8
+    // [ObsoleteAttribute] Offset: 0x1049210
     // static field const value: static public UnityEngine.TextureFormat ETC_RGBA8_3DS
     static constexpr const int ETC_RGBA8_3DS = 61;
     // Get static field: static public UnityEngine.TextureFormat ETC_RGBA8_3DS
@@ -464,7 +464,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.TextureFormat ASTC_RGBA_12x12
     static void _set_ASTC_RGBA_12x12(::UnityEngine::TextureFormat value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.TextureFormat
   #pragma pack(pop)
   static check_size<sizeof(TextureFormat), 0 + sizeof(int)> __UnityEngine_TextureFormatSizeCheck;

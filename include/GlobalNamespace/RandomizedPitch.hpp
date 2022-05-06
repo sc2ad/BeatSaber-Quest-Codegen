@@ -49,15 +49,7 @@ namespace GlobalNamespace {
     class $PlayDelayedCoroutine$d__9;
     // Nested type: ::GlobalNamespace::RandomizedPitch::$RestorePitchWithDelay$d__10
     class $RestorePitchWithDelay$d__10;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.AudioSource _audioSource
     // Size: 0x8
     // Offset: 0x18
@@ -100,51 +92,49 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AudioSource _audioSource
-    ::UnityEngine::AudioSource*& dyn__audioSource();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioSource*& dyn__audioSource();
     // Get instance field reference: private System.Single _minPitchMultiplier
-    float& dyn__minPitchMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__minPitchMultiplier();
     // Get instance field reference: private System.Single _maxPitchMultiplier
-    float& dyn__maxPitchMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__maxPitchMultiplier();
     // Get instance field reference: private System.Boolean _playOnAwake
-    bool& dyn__playOnAwake();
+    [[deprecated("Use field access instead!")]] bool& dyn__playOnAwake();
     // Get instance field reference: private System.Single _originalPitch
-    float& dyn__originalPitch();
+    [[deprecated("Use field access instead!")]] float& dyn__originalPitch();
     // Get instance field reference: private UnityEngine.Coroutine _restoringCoroutine
-    ::UnityEngine::Coroutine*& dyn__restoringCoroutine();
-    // protected System.Void OnEnable()
-    // Offset: 0x29D4158
-    void OnEnable();
-    // public System.Void Play()
-    // Offset: 0x29D41C0
-    void Play();
-    // public System.Void PlayDelayed(System.Single delay)
-    // Offset: 0x29D432C
-    void PlayDelayed(float delay);
-    // private System.Collections.IEnumerator PlayDelayedCoroutine(System.Single delay)
-    // Offset: 0x29D4374
-    ::System::Collections::IEnumerator* PlayDelayedCoroutine(float delay);
-    // private System.Collections.IEnumerator RestorePitchWithDelay(System.Single delay)
-    // Offset: 0x29D42AC
-    ::System::Collections::IEnumerator* RestorePitchWithDelay(float delay);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Coroutine*& dyn__restoringCoroutine();
     // public System.Void .ctor()
-    // Offset: 0x29D444C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A2695C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RandomizedPitch* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RandomizedPitch::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RandomizedPitch*, creationType>()));
     }
+    // protected System.Void OnEnable()
+    // Offset: 0x2A26668
+    void OnEnable();
+    // public System.Void Play()
+    // Offset: 0x2A266D0
+    void Play();
+    // public System.Void PlayDelayed(System.Single delay)
+    // Offset: 0x2A2683C
+    void PlayDelayed(float delay);
+    // private System.Collections.IEnumerator PlayDelayedCoroutine(System.Single delay)
+    // Offset: 0x2A26884
+    ::System::Collections::IEnumerator* PlayDelayedCoroutine(float delay);
+    // private System.Collections.IEnumerator RestorePitchWithDelay(System.Single delay)
+    // Offset: 0x2A267BC
+    ::System::Collections::IEnumerator* RestorePitchWithDelay(float delay);
   }; // RandomizedPitch
   #pragma pack(pop)
   static check_size<sizeof(RandomizedPitch), 48 + sizeof(::UnityEngine::Coroutine*)> __GlobalNamespace_RandomizedPitchSizeCheck;
   static_assert(sizeof(RandomizedPitch) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::RandomizedPitch::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::RandomizedPitch::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -188,7 +178,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RandomizedPitch*), "RestorePitchWithDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delay});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::RandomizedPitch::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

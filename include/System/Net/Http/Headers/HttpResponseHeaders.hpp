@@ -28,10 +28,9 @@ namespace System::Net::Http::Headers {
   class HttpResponseHeaders : public ::System::Net::Http::Headers::HttpHeaders {
     public:
     // System.Void .ctor()
-    // Offset: 0x195B89C
+    // Offset: 0x1993E84
     // Implemented from: System.Net.Http.Headers.HttpHeaders
     // Base method: System.Void HttpHeaders::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpResponseHeaders* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::HttpResponseHeaders::.ctor");

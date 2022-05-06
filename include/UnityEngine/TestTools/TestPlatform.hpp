@@ -61,7 +61,7 @@ namespace UnityEngine::TestTools {
     // Set static field: static public UnityEngine.TestTools.TestPlatform PlayMode
     static void _set_PlayMode(::UnityEngine::TestTools::TestPlatform value);
     // Get instance field reference: public System.Byte value__
-    uint8_t& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_value__();
   }; // UnityEngine.TestTools.TestPlatform
   #pragma pack(pop)
   static check_size<sizeof(TestPlatform), 0 + sizeof(uint8_t)> __UnityEngine_TestTools_TestPlatformSizeCheck;

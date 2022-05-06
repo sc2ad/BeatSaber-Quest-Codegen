@@ -24,15 +24,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class DtdParser::UndeclaredNotation : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.String name
     // Size: 0x8
     // Offset: 0x10
@@ -59,15 +51,15 @@ namespace System::Xml {
     static_assert(sizeof(::System::Xml::DtdParser::UndeclaredNotation*) == 0x8);
     public:
     // Get instance field reference: System.String name
-    ::StringW& dyn_name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_name();
     // Get instance field reference: System.Int32 lineNo
-    int& dyn_lineNo();
+    [[deprecated("Use field access instead!")]] int& dyn_lineNo();
     // Get instance field reference: System.Int32 linePos
-    int& dyn_linePos();
+    [[deprecated("Use field access instead!")]] int& dyn_linePos();
     // Get instance field reference: System.Xml.DtdParser/System.Xml.UndeclaredNotation next
-    ::System::Xml::DtdParser::UndeclaredNotation*& dyn_next();
+    [[deprecated("Use field access instead!")]] ::System::Xml::DtdParser::UndeclaredNotation*& dyn_next();
     // System.Void .ctor(System.String name, System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x1A86AD0
+    // Offset: 0x1AC10B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DtdParser::UndeclaredNotation* New_ctor(::StringW name, int lineNo, int linePos) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::DtdParser::UndeclaredNotation::.ctor");

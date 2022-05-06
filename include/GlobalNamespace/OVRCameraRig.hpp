@@ -47,15 +47,7 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class OVRCameraRig : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Transform <trackingSpace>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -218,169 +210,163 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform <trackingSpace>k__BackingField
-    ::UnityEngine::Transform*& dyn_$trackingSpace$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_$trackingSpace$k__BackingField();
     // Get instance field reference: private UnityEngine.Transform <leftEyeAnchor>k__BackingField
-    ::UnityEngine::Transform*& dyn_$leftEyeAnchor$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_$leftEyeAnchor$k__BackingField();
     // Get instance field reference: private UnityEngine.Transform <centerEyeAnchor>k__BackingField
-    ::UnityEngine::Transform*& dyn_$centerEyeAnchor$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_$centerEyeAnchor$k__BackingField();
     // Get instance field reference: private UnityEngine.Transform <rightEyeAnchor>k__BackingField
-    ::UnityEngine::Transform*& dyn_$rightEyeAnchor$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_$rightEyeAnchor$k__BackingField();
     // Get instance field reference: private UnityEngine.Transform <leftHandAnchor>k__BackingField
-    ::UnityEngine::Transform*& dyn_$leftHandAnchor$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_$leftHandAnchor$k__BackingField();
     // Get instance field reference: private UnityEngine.Transform <rightHandAnchor>k__BackingField
-    ::UnityEngine::Transform*& dyn_$rightHandAnchor$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_$rightHandAnchor$k__BackingField();
     // Get instance field reference: private UnityEngine.Transform <leftControllerAnchor>k__BackingField
-    ::UnityEngine::Transform*& dyn_$leftControllerAnchor$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_$leftControllerAnchor$k__BackingField();
     // Get instance field reference: private UnityEngine.Transform <rightControllerAnchor>k__BackingField
-    ::UnityEngine::Transform*& dyn_$rightControllerAnchor$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_$rightControllerAnchor$k__BackingField();
     // Get instance field reference: private UnityEngine.Transform <trackerAnchor>k__BackingField
-    ::UnityEngine::Transform*& dyn_$trackerAnchor$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_$trackerAnchor$k__BackingField();
     // Get instance field reference: private System.Action`1<OVRCameraRig> UpdatedAnchors
-    ::System::Action_1<::GlobalNamespace::OVRCameraRig*>*& dyn_UpdatedAnchors();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::OVRCameraRig*>*& dyn_UpdatedAnchors();
     // Get instance field reference: public System.Boolean usePerEyeCameras
-    bool& dyn_usePerEyeCameras();
+    [[deprecated("Use field access instead!")]] bool& dyn_usePerEyeCameras();
     // Get instance field reference: public System.Boolean useFixedUpdateForTracking
-    bool& dyn_useFixedUpdateForTracking();
+    [[deprecated("Use field access instead!")]] bool& dyn_useFixedUpdateForTracking();
     // Get instance field reference: public System.Boolean disableEyeAnchorCameras
-    bool& dyn_disableEyeAnchorCameras();
+    [[deprecated("Use field access instead!")]] bool& dyn_disableEyeAnchorCameras();
     // Get instance field reference: protected System.Boolean _skipUpdate
-    bool& dyn__skipUpdate();
+    [[deprecated("Use field access instead!")]] bool& dyn__skipUpdate();
     // Get instance field reference: protected readonly System.String trackingSpaceName
-    ::StringW& dyn_trackingSpaceName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_trackingSpaceName();
     // Get instance field reference: protected readonly System.String trackerAnchorName
-    ::StringW& dyn_trackerAnchorName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_trackerAnchorName();
     // Get instance field reference: protected readonly System.String leftEyeAnchorName
-    ::StringW& dyn_leftEyeAnchorName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_leftEyeAnchorName();
     // Get instance field reference: protected readonly System.String centerEyeAnchorName
-    ::StringW& dyn_centerEyeAnchorName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_centerEyeAnchorName();
     // Get instance field reference: protected readonly System.String rightEyeAnchorName
-    ::StringW& dyn_rightEyeAnchorName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_rightEyeAnchorName();
     // Get instance field reference: protected readonly System.String leftHandAnchorName
-    ::StringW& dyn_leftHandAnchorName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_leftHandAnchorName();
     // Get instance field reference: protected readonly System.String rightHandAnchorName
-    ::StringW& dyn_rightHandAnchorName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_rightHandAnchorName();
     // Get instance field reference: protected readonly System.String leftControllerAnchorName
-    ::StringW& dyn_leftControllerAnchorName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_leftControllerAnchorName();
     // Get instance field reference: protected readonly System.String rightControllerAnchorName
-    ::StringW& dyn_rightControllerAnchorName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_rightControllerAnchorName();
     // Get instance field reference: protected UnityEngine.Camera _centerEyeCamera
-    ::UnityEngine::Camera*& dyn__centerEyeCamera();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Camera*& dyn__centerEyeCamera();
     // Get instance field reference: protected UnityEngine.Camera _leftEyeCamera
-    ::UnityEngine::Camera*& dyn__leftEyeCamera();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Camera*& dyn__leftEyeCamera();
     // Get instance field reference: protected UnityEngine.Camera _rightEyeCamera
-    ::UnityEngine::Camera*& dyn__rightEyeCamera();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Camera*& dyn__rightEyeCamera();
     // public UnityEngine.Camera get_leftEyeCamera()
-    // Offset: 0x161B360
+    // Offset: 0x1650C70
     ::UnityEngine::Camera* get_leftEyeCamera();
     // public UnityEngine.Camera get_rightEyeCamera()
-    // Offset: 0x161B37C
+    // Offset: 0x1650C8C
     ::UnityEngine::Camera* get_rightEyeCamera();
     // public UnityEngine.Transform get_trackingSpace()
-    // Offset: 0x161B398
+    // Offset: 0x1650CA8
     ::UnityEngine::Transform* get_trackingSpace();
     // private System.Void set_trackingSpace(UnityEngine.Transform value)
-    // Offset: 0x161B3A0
+    // Offset: 0x1650CB0
     void set_trackingSpace(::UnityEngine::Transform* value);
     // public UnityEngine.Transform get_leftEyeAnchor()
-    // Offset: 0x161B3A8
+    // Offset: 0x1650CB8
     ::UnityEngine::Transform* get_leftEyeAnchor();
     // private System.Void set_leftEyeAnchor(UnityEngine.Transform value)
-    // Offset: 0x161B3B0
+    // Offset: 0x1650CC0
     void set_leftEyeAnchor(::UnityEngine::Transform* value);
     // public UnityEngine.Transform get_centerEyeAnchor()
-    // Offset: 0x161B3B8
+    // Offset: 0x1650CC8
     ::UnityEngine::Transform* get_centerEyeAnchor();
     // private System.Void set_centerEyeAnchor(UnityEngine.Transform value)
-    // Offset: 0x161B3C0
+    // Offset: 0x1650CD0
     void set_centerEyeAnchor(::UnityEngine::Transform* value);
     // public UnityEngine.Transform get_rightEyeAnchor()
-    // Offset: 0x161B3C8
+    // Offset: 0x1650CD8
     ::UnityEngine::Transform* get_rightEyeAnchor();
     // private System.Void set_rightEyeAnchor(UnityEngine.Transform value)
-    // Offset: 0x161B3D0
+    // Offset: 0x1650CE0
     void set_rightEyeAnchor(::UnityEngine::Transform* value);
     // public UnityEngine.Transform get_leftHandAnchor()
-    // Offset: 0x161B3D8
+    // Offset: 0x1650CE8
     ::UnityEngine::Transform* get_leftHandAnchor();
     // private System.Void set_leftHandAnchor(UnityEngine.Transform value)
-    // Offset: 0x161B3E0
+    // Offset: 0x1650CF0
     void set_leftHandAnchor(::UnityEngine::Transform* value);
     // public UnityEngine.Transform get_rightHandAnchor()
-    // Offset: 0x161B3E8
+    // Offset: 0x1650CF8
     ::UnityEngine::Transform* get_rightHandAnchor();
     // private System.Void set_rightHandAnchor(UnityEngine.Transform value)
-    // Offset: 0x161B3F0
+    // Offset: 0x1650D00
     void set_rightHandAnchor(::UnityEngine::Transform* value);
     // public UnityEngine.Transform get_leftControllerAnchor()
-    // Offset: 0x161B3F8
+    // Offset: 0x1650D08
     ::UnityEngine::Transform* get_leftControllerAnchor();
     // private System.Void set_leftControllerAnchor(UnityEngine.Transform value)
-    // Offset: 0x161B400
+    // Offset: 0x1650D10
     void set_leftControllerAnchor(::UnityEngine::Transform* value);
     // public UnityEngine.Transform get_rightControllerAnchor()
-    // Offset: 0x161B408
+    // Offset: 0x1650D18
     ::UnityEngine::Transform* get_rightControllerAnchor();
     // private System.Void set_rightControllerAnchor(UnityEngine.Transform value)
-    // Offset: 0x161B410
+    // Offset: 0x1650D20
     void set_rightControllerAnchor(::UnityEngine::Transform* value);
     // public UnityEngine.Transform get_trackerAnchor()
-    // Offset: 0x161B418
+    // Offset: 0x1650D28
     ::UnityEngine::Transform* get_trackerAnchor();
     // private System.Void set_trackerAnchor(UnityEngine.Transform value)
-    // Offset: 0x161B420
+    // Offset: 0x1650D30
     void set_trackerAnchor(::UnityEngine::Transform* value);
     // public System.Void add_UpdatedAnchors(System.Action`1<OVRCameraRig> value)
-    // Offset: 0x161B428
+    // Offset: 0x1650D38
     void add_UpdatedAnchors(::System::Action_1<::GlobalNamespace::OVRCameraRig*>* value);
     // public System.Void remove_UpdatedAnchors(System.Action`1<OVRCameraRig> value)
-    // Offset: 0x161B4CC
+    // Offset: 0x1650DDC
     void remove_UpdatedAnchors(::System::Action_1<::GlobalNamespace::OVRCameraRig*>* value);
-    // protected System.Void Awake()
-    // Offset: 0x161B570
-    void Awake();
-    // protected System.Void Start()
-    // Offset: 0x161B584
-    void Start();
-    // protected System.Void FixedUpdate()
-    // Offset: 0x161B614
-    void FixedUpdate();
-    // protected System.Void Update()
-    // Offset: 0x161B634
-    void Update();
-    // protected System.Void OnDestroy()
-    // Offset: 0x161B658
-    void OnDestroy();
-    // protected System.Void UpdateAnchors(System.Boolean updateEyeAnchors, System.Boolean updateHandAnchors)
-    // Offset: 0x161B6D0
-    void UpdateAnchors(bool updateEyeAnchors, bool updateHandAnchors);
-    // protected System.Void OnBeforeRenderCallback()
-    // Offset: 0x161C544
-    void OnBeforeRenderCallback();
-    // protected System.Void RaiseUpdatedAnchorsEvent()
-    // Offset: 0x161C650
-    void RaiseUpdatedAnchorsEvent();
-    // public System.Void EnsureGameObjectIntegrity()
-    // Offset: 0x161C6B4
-    void EnsureGameObjectIntegrity();
-    // protected UnityEngine.Transform ConfigureAnchor(UnityEngine.Transform root, System.String name)
-    // Offset: 0x161CF40
-    ::UnityEngine::Transform* ConfigureAnchor(::UnityEngine::Transform* root, ::StringW name);
-    // public UnityEngine.Matrix4x4 ComputeTrackReferenceMatrix()
-    // Offset: 0x161D178
-    ::UnityEngine::Matrix4x4 ComputeTrackReferenceMatrix();
     // public System.Void .ctor()
-    // Offset: 0x161D474
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1652D84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRCameraRig* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRCameraRig::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRCameraRig*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x1650E80
+    void Awake();
+    // protected System.Void Start()
+    // Offset: 0x1650E94
+    void Start();
+    // protected System.Void FixedUpdate()
+    // Offset: 0x1650F24
+    void FixedUpdate();
+    // protected System.Void Update()
+    // Offset: 0x1650F44
+    void Update();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1650F68
+    void OnDestroy();
+    // protected System.Void UpdateAnchors(System.Boolean updateEyeAnchors, System.Boolean updateHandAnchors)
+    // Offset: 0x1650FE0
+    void UpdateAnchors(bool updateEyeAnchors, bool updateHandAnchors);
+    // protected System.Void OnBeforeRenderCallback()
+    // Offset: 0x1651E54
+    void OnBeforeRenderCallback();
+    // protected System.Void RaiseUpdatedAnchorsEvent()
+    // Offset: 0x1651F60
+    void RaiseUpdatedAnchorsEvent();
+    // public System.Void EnsureGameObjectIntegrity()
+    // Offset: 0x1651FC4
+    void EnsureGameObjectIntegrity();
+    // protected UnityEngine.Transform ConfigureAnchor(UnityEngine.Transform root, System.String name)
+    // Offset: 0x1652850
+    ::UnityEngine::Transform* ConfigureAnchor(::UnityEngine::Transform* root, ::StringW name);
+    // public UnityEngine.Matrix4x4 ComputeTrackReferenceMatrix()
+    // Offset: 0x1652A88
+    ::UnityEngine::Matrix4x4 ComputeTrackReferenceMatrix();
   }; // OVRCameraRig
   #pragma pack(pop)
   static check_size<sizeof(OVRCameraRig), 200 + sizeof(::UnityEngine::Camera*)> __GlobalNamespace_OVRCameraRigSizeCheck;
@@ -574,6 +560,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "remove_UpdatedAnchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::Awake
 // Il2CppName: Awake
 template<>
@@ -666,7 +656,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "ComputeTrackReferenceMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

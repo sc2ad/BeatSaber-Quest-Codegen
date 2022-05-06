@@ -36,15 +36,7 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class StencilMaterial::MatEntry : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Material baseMat
     // Size: 0x8
     // Offset: 0x10
@@ -109,29 +101,27 @@ namespace UnityEngine::UI {
     static_assert(sizeof(::UnityEngine::Rendering::ColorWriteMask) == 0x4);
     public:
     // Get instance field reference: public UnityEngine.Material baseMat
-    ::UnityEngine::Material*& dyn_baseMat();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_baseMat();
     // Get instance field reference: public UnityEngine.Material customMat
-    ::UnityEngine::Material*& dyn_customMat();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_customMat();
     // Get instance field reference: public System.Int32 count
-    int& dyn_count();
+    [[deprecated("Use field access instead!")]] int& dyn_count();
     // Get instance field reference: public System.Int32 stencilId
-    int& dyn_stencilId();
+    [[deprecated("Use field access instead!")]] int& dyn_stencilId();
     // Get instance field reference: public UnityEngine.Rendering.StencilOp operation
-    ::UnityEngine::Rendering::StencilOp& dyn_operation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rendering::StencilOp& dyn_operation();
     // Get instance field reference: public UnityEngine.Rendering.CompareFunction compareFunction
-    ::UnityEngine::Rendering::CompareFunction& dyn_compareFunction();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rendering::CompareFunction& dyn_compareFunction();
     // Get instance field reference: public System.Int32 readMask
-    int& dyn_readMask();
+    [[deprecated("Use field access instead!")]] int& dyn_readMask();
     // Get instance field reference: public System.Int32 writeMask
-    int& dyn_writeMask();
+    [[deprecated("Use field access instead!")]] int& dyn_writeMask();
     // Get instance field reference: public System.Boolean useAlphaClip
-    bool& dyn_useAlphaClip();
+    [[deprecated("Use field access instead!")]] bool& dyn_useAlphaClip();
     // Get instance field reference: public UnityEngine.Rendering.ColorWriteMask colorMask
-    ::UnityEngine::Rendering::ColorWriteMask& dyn_colorMask();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Rendering::ColorWriteMask& dyn_colorMask();
     // public System.Void .ctor()
-    // Offset: 0x2A42524
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A9A90C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StencilMaterial::MatEntry* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::StencilMaterial::MatEntry::.ctor");

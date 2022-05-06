@@ -45,11 +45,11 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single[] center
-    ::ArrayW<float>& dyn_center();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn_center();
     // Get instance field reference: public System.Single radius
-    float& dyn_radius();
+    [[deprecated("Use field access instead!")]] float& dyn_radius();
     // public System.Void .ctor(System.Boolean initialize_fields)
-    // Offset: 0x16AA4E0
+    // Offset: 0x16E1DF0
     HAPI_SphereInfo(bool initialize_fields);
   }; // HoudiniEngineUnity.HAPI_SphereInfo
   #pragma pack(pop)

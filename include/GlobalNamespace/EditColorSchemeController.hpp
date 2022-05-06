@@ -68,15 +68,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EditColorSchemeController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private ColorSchemeColorsToggleGroup _colorSchemeColorsToggleGroup
     // Size: 0x8
     // Offset: 0x18
@@ -129,70 +121,64 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ColorSchemeColorsToggleGroup _colorSchemeColorsToggleGroup
-    ::GlobalNamespace::ColorSchemeColorsToggleGroup*& dyn__colorSchemeColorsToggleGroup();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSchemeColorsToggleGroup*& dyn__colorSchemeColorsToggleGroup();
     // Get instance field reference: private RGBPanelController _rgbPanelController
-    ::GlobalNamespace::RGBPanelController*& dyn__rgbPanelController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::RGBPanelController*& dyn__rgbPanelController();
     // Get instance field reference: private HSVPanelController _hsvPanelController
-    ::GlobalNamespace::HSVPanelController*& dyn__hsvPanelController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::HSVPanelController*& dyn__hsvPanelController();
     // Get instance field reference: private PreviousColorPanelController _previousColorPanelController
-    ::GlobalNamespace::PreviousColorPanelController*& dyn__previousColorPanelController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PreviousColorPanelController*& dyn__previousColorPanelController();
     // Get instance field reference: private UnityEngine.UI.Button _closeButton
-    ::UnityEngine::UI::Button*& dyn__closeButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__closeButton();
     // Get instance field reference: private System.Action didFinishEvent
-    ::System::Action*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didFinishEvent();
     // Get instance field reference: private System.Action`1<ColorScheme> didChangeColorSchemeEvent
-    ::System::Action_1<::GlobalNamespace::ColorScheme*>*& dyn_didChangeColorSchemeEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::ColorScheme*>*& dyn_didChangeColorSchemeEvent();
     // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
-    ::HMUI::ButtonBinder*& dyn__buttonBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // public System.Void add_didFinishEvent(System.Action value)
-    // Offset: 0x141541C
+    // Offset: 0x14351C8
     void add_didFinishEvent(::System::Action* value);
     // public System.Void remove_didFinishEvent(System.Action value)
-    // Offset: 0x14154C0
+    // Offset: 0x143526C
     void remove_didFinishEvent(::System::Action* value);
     // public System.Void add_didChangeColorSchemeEvent(System.Action`1<ColorScheme> value)
-    // Offset: 0x1415564
+    // Offset: 0x1435310
     void add_didChangeColorSchemeEvent(::System::Action_1<::GlobalNamespace::ColorScheme*>* value);
     // public System.Void remove_didChangeColorSchemeEvent(System.Action`1<ColorScheme> value)
-    // Offset: 0x1415608
+    // Offset: 0x14353B4
     void remove_didChangeColorSchemeEvent(::System::Action_1<::GlobalNamespace::ColorScheme*>* value);
-    // public System.Void SetColorScheme(ColorScheme colorScheme)
-    // Offset: 0x14156AC
-    void SetColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
-    // protected System.Void Start()
-    // Offset: 0x14156C8
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x1415904
-    void OnDestroy();
-    // private System.Void HandleColorSchemeColorsToggleGroupSelectedColorDidChange(UnityEngine.Color color)
-    // Offset: 0x1415AD8
-    void HandleColorSchemeColorsToggleGroupSelectedColorDidChange(::UnityEngine::Color color);
-    // private System.Void HandleRGBPanelControllerColorDidChange(UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x1415B64
-    void HandleRGBPanelControllerColorDidChange(::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
-    // private System.Void HandleHSVPanelControllerColorDidChange(UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x1415C80
-    void HandleHSVPanelControllerColorDidChange(::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
-    // private System.Void HandlePreviousColorPanelControllerColorWasSelected(UnityEngine.Color color)
-    // Offset: 0x1415D9C
-    void HandlePreviousColorPanelControllerColorWasSelected(::UnityEngine::Color color);
-    // private System.Void <Start>b__13_0()
-    // Offset: 0x1415EA8
-    void $Start$b__13_0();
     // public System.Void .ctor()
-    // Offset: 0x1415EA0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1435C4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EditColorSchemeController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EditColorSchemeController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EditColorSchemeController*, creationType>()));
     }
+    // public System.Void SetColorScheme(ColorScheme colorScheme)
+    // Offset: 0x1435458
+    void SetColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
+    // protected System.Void Start()
+    // Offset: 0x1435474
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x14356B0
+    void OnDestroy();
+    // private System.Void HandleColorSchemeColorsToggleGroupSelectedColorDidChange(UnityEngine.Color color)
+    // Offset: 0x1435884
+    void HandleColorSchemeColorsToggleGroupSelectedColorDidChange(::UnityEngine::Color color);
+    // private System.Void HandleRGBPanelControllerColorDidChange(UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
+    // Offset: 0x1435910
+    void HandleRGBPanelControllerColorDidChange(::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
+    // private System.Void HandleHSVPanelControllerColorDidChange(UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
+    // Offset: 0x1435A2C
+    void HandleHSVPanelControllerColorDidChange(::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
+    // private System.Void HandlePreviousColorPanelControllerColorWasSelected(UnityEngine.Color color)
+    // Offset: 0x1435B48
+    void HandlePreviousColorPanelControllerColorWasSelected(::UnityEngine::Color color);
+    // private System.Void <Start>b__13_0()
+    // Offset: 0x1435C54
+    void $Start$b__13_0();
   }; // EditColorSchemeController
   #pragma pack(pop)
   static check_size<sizeof(EditColorSchemeController), 80 + sizeof(::HMUI::ButtonBinder*)> __GlobalNamespace_EditColorSchemeControllerSizeCheck;
@@ -235,6 +221,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditColorSchemeController*), "remove_didChangeColorSchemeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::EditColorSchemeController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EditColorSchemeController::SetColorScheme
 // Il2CppName: SetColorScheme
 template<>
@@ -306,7 +296,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditColorSchemeController*), "<Start>b__13_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::EditColorSchemeController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

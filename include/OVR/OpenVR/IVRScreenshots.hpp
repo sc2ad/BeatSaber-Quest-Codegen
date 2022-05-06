@@ -93,19 +93,19 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._RequestScreenshot RequestScreenshot
-    ::OVR::OpenVR::IVRScreenshots::_RequestScreenshot*& dyn_RequestScreenshot();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRScreenshots::_RequestScreenshot*& dyn_RequestScreenshot();
     // Get instance field reference: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._HookScreenshot HookScreenshot
-    ::OVR::OpenVR::IVRScreenshots::_HookScreenshot*& dyn_HookScreenshot();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRScreenshots::_HookScreenshot*& dyn_HookScreenshot();
     // Get instance field reference: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._GetScreenshotPropertyType GetScreenshotPropertyType
-    ::OVR::OpenVR::IVRScreenshots::_GetScreenshotPropertyType*& dyn_GetScreenshotPropertyType();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRScreenshots::_GetScreenshotPropertyType*& dyn_GetScreenshotPropertyType();
     // Get instance field reference: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._GetScreenshotPropertyFilename GetScreenshotPropertyFilename
-    ::OVR::OpenVR::IVRScreenshots::_GetScreenshotPropertyFilename*& dyn_GetScreenshotPropertyFilename();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRScreenshots::_GetScreenshotPropertyFilename*& dyn_GetScreenshotPropertyFilename();
     // Get instance field reference: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._UpdateScreenshotProgress UpdateScreenshotProgress
-    ::OVR::OpenVR::IVRScreenshots::_UpdateScreenshotProgress*& dyn_UpdateScreenshotProgress();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRScreenshots::_UpdateScreenshotProgress*& dyn_UpdateScreenshotProgress();
     // Get instance field reference: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._TakeStereoScreenshot TakeStereoScreenshot
-    ::OVR::OpenVR::IVRScreenshots::_TakeStereoScreenshot*& dyn_TakeStereoScreenshot();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRScreenshots::_TakeStereoScreenshot*& dyn_TakeStereoScreenshot();
     // Get instance field reference: OVR.OpenVR.IVRScreenshots/OVR.OpenVR._SubmitScreenshot SubmitScreenshot
-    ::OVR::OpenVR::IVRScreenshots::_SubmitScreenshot*& dyn_SubmitScreenshot();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRScreenshots::_SubmitScreenshot*& dyn_SubmitScreenshot();
   }; // OVR.OpenVR.IVRScreenshots
   #pragma pack(pop)
   static check_size<sizeof(IVRScreenshots), 48 + sizeof(::OVR::OpenVR::IVRScreenshots::_SubmitScreenshot*)> __OVR_OpenVR_IVRScreenshotsSizeCheck;

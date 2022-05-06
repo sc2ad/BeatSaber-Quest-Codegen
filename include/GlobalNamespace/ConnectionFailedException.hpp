@@ -31,15 +31,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConnectionFailedException : public ::System::Exception {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly ConnectionFailedReason reason
     // Size: 0x4
     // Offset: 0x88
@@ -52,16 +44,16 @@ namespace GlobalNamespace {
       return reason;
     }
     // Get instance field reference: public readonly ConnectionFailedReason reason
-    ::GlobalNamespace::ConnectionFailedReason& dyn_reason();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ConnectionFailedReason& dyn_reason();
     // public System.Void .ctor(ConnectionFailedReason reason)
-    // Offset: 0x163E168
+    // Offset: 0x1674A78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectionFailedException* New_ctor(::GlobalNamespace::ConnectionFailedReason reason) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConnectionFailedException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectionFailedException*, creationType>(reason)));
     }
     // public System.Void .ctor(ConnectionFailedReason reason, System.String message)
-    // Offset: 0x163E1E4
+    // Offset: 0x1674AF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectionFailedException* New_ctor(::GlobalNamespace::ConnectionFailedReason reason, ::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConnectionFailedException::.ctor");

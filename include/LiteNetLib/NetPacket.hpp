@@ -29,15 +29,7 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetPacket : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Byte[] RawData
     // Size: 0x8
     // Offset: 0x10
@@ -64,84 +56,84 @@ namespace LiteNetLib {
     // Set static field: static private readonly System.Int32 LastProperty
     static void _set_LastProperty(int value);
     // Get instance field reference: public System.Byte[] RawData
-    ::ArrayW<uint8_t>& dyn_RawData();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_RawData();
     // Get instance field reference: public System.Int32 Size
-    int& dyn_Size();
+    [[deprecated("Use field access instead!")]] int& dyn_Size();
     // Get instance field reference: public System.Object UserData
-    ::Il2CppObject*& dyn_UserData();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_UserData();
     // public LiteNetLib.PacketProperty get_Property()
-    // Offset: 0x21687C0
+    // Offset: 0x21B4034
     ::LiteNetLib::PacketProperty get_Property();
     // public System.Void set_Property(LiteNetLib.PacketProperty value)
-    // Offset: 0x216A06C
+    // Offset: 0x21B58E0
     void set_Property(::LiteNetLib::PacketProperty value);
     // public System.Byte get_ConnectionNumber()
-    // Offset: 0x2164B24
+    // Offset: 0x21B0398
     uint8_t get_ConnectionNumber();
     // public System.Void set_ConnectionNumber(System.Byte value)
-    // Offset: 0x2167E18
+    // Offset: 0x21B368C
     void set_ConnectionNumber(uint8_t value);
     // public System.UInt16 get_Sequence()
-    // Offset: 0x216B420
+    // Offset: 0x21B6C94
     uint16_t get_Sequence();
     // public System.Void set_Sequence(System.UInt16 value)
-    // Offset: 0x216B490
+    // Offset: 0x21B6D04
     void set_Sequence(uint16_t value);
     // public System.Boolean get_IsFragmented()
-    // Offset: 0x216B4A4
+    // Offset: 0x21B6D18
     bool get_IsFragmented();
     // public System.Byte get_ChannelId()
-    // Offset: 0x216B51C
+    // Offset: 0x21B6D90
     uint8_t get_ChannelId();
     // public System.Void set_ChannelId(System.Byte value)
-    // Offset: 0x216B554
+    // Offset: 0x21B6DC8
     void set_ChannelId(uint8_t value);
     // public System.UInt16 get_FragmentId()
-    // Offset: 0x216B58C
+    // Offset: 0x21B6E00
     uint16_t get_FragmentId();
     // public System.Void set_FragmentId(System.UInt16 value)
-    // Offset: 0x216B5FC
+    // Offset: 0x21B6E70
     void set_FragmentId(uint16_t value);
     // public System.UInt16 get_FragmentPart()
-    // Offset: 0x216B60C
+    // Offset: 0x21B6E80
     uint16_t get_FragmentPart();
     // public System.Void set_FragmentPart(System.UInt16 value)
-    // Offset: 0x216B67C
+    // Offset: 0x21B6EF0
     void set_FragmentPart(uint16_t value);
     // public System.UInt16 get_FragmentsTotal()
-    // Offset: 0x216B68C
+    // Offset: 0x21B6F00
     uint16_t get_FragmentsTotal();
     // public System.Void set_FragmentsTotal(System.UInt16 value)
-    // Offset: 0x216B6FC
+    // Offset: 0x21B6F70
     void set_FragmentsTotal(uint16_t value);
     // public System.Void .ctor(System.Int32 size)
-    // Offset: 0x216B70C
+    // Offset: 0x21B6F80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPacket* New_ctor(int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPacket*, creationType>(size)));
     }
     // public System.Void .ctor(LiteNetLib.PacketProperty property, System.Int32 size)
-    // Offset: 0x21647EC
+    // Offset: 0x21B0060
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPacket* New_ctor(::LiteNetLib::PacketProperty property, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPacket*, creationType>(property, size)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x216B818
+    // Offset: 0x21B708C
     static void _cctor();
     // public System.Void MarkFragmented()
-    // Offset: 0x216B4E0
+    // Offset: 0x21B6D54
     void MarkFragmented();
     // static public System.Int32 GetHeaderSize(LiteNetLib.PacketProperty property)
-    // Offset: 0x216A040
+    // Offset: 0x21B58B4
     static int GetHeaderSize(::LiteNetLib::PacketProperty property);
     // public System.Int32 GetHeaderSize()
-    // Offset: 0x216B780
+    // Offset: 0x21B6FF4
     int GetHeaderSize();
     // public System.Boolean FromBytes(System.Byte[] data, System.Int32 start, System.Int32 packetSize)
-    // Offset: 0x2168674
+    // Offset: 0x21B3EE8
     bool FromBytes(::ArrayW<uint8_t> data, int start, int packetSize);
   }; // LiteNetLib.NetPacket
   #pragma pack(pop)

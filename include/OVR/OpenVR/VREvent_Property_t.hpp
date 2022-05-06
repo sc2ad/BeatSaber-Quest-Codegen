@@ -47,9 +47,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt64 container
-    uint64_t& dyn_container();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_container();
     // Get instance field reference: public OVR.OpenVR.ETrackedDeviceProperty prop
-    ::OVR::OpenVR::ETrackedDeviceProperty& dyn_prop();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::ETrackedDeviceProperty& dyn_prop();
   }; // OVR.OpenVR.VREvent_Property_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Property_t), 8 + sizeof(::OVR::OpenVR::ETrackedDeviceProperty)> __OVR_OpenVR_VREvent_Property_tSizeCheck;

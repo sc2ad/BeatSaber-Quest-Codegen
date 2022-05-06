@@ -40,15 +40,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X9FieldElement : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Org.BouncyCastle.Math.EC.ECFieldElement f
     // Size: 0x8
     // Offset: 0x10
@@ -61,16 +53,16 @@ namespace Org::BouncyCastle::Asn1::X9 {
       return f;
     }
     // Get instance field reference: private Org.BouncyCastle.Math.EC.ECFieldElement f
-    ::Org::BouncyCastle::Math::EC::ECFieldElement*& dyn_f();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::EC::ECFieldElement*& dyn_f();
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECFieldElement f)
-    // Offset: 0x1ED5790
+    // Offset: 0x1F22CC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9FieldElement* New_ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* f) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X9::X9FieldElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9FieldElement*, creationType>(f)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1ED64F0
+    // Offset: 0x1F23A28
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

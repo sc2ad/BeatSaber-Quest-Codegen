@@ -36,15 +36,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class ChallengeEntryList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::ChallengeEntry*> {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.UInt64 TotalCount
     // Size: 0x8
     // Offset: 0x28
@@ -57,9 +49,9 @@ namespace Oculus::Platform::Models {
       return TotalCount;
     }
     // Get instance field reference: public readonly System.UInt64 TotalCount
-    uint64_t& dyn_TotalCount();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_TotalCount();
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x19ABAD0
+    // Offset: 0x19E50B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChallengeEntryList* New_ctor(::System::IntPtr a) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::ChallengeEntryList::.ctor");

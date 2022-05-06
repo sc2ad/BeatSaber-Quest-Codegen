@@ -38,15 +38,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerLobbyPermissionConfigurationNetSerializable : public ::Il2CppObject/*, public ::LiteNetLib::Utils::INetSerializable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _userId
     // Size: 0x8
     // Offset: 0x10
@@ -89,57 +81,55 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
     // Get instance field reference: private System.String _userId
-    ::StringW& dyn__userId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__userId();
     // Get instance field reference: private System.Boolean _isServerOwner
-    bool& dyn__isServerOwner();
+    [[deprecated("Use field access instead!")]] bool& dyn__isServerOwner();
     // Get instance field reference: private System.Boolean _hasRecommendBeatmapsPermission
-    bool& dyn__hasRecommendBeatmapsPermission();
+    [[deprecated("Use field access instead!")]] bool& dyn__hasRecommendBeatmapsPermission();
     // Get instance field reference: private System.Boolean _hasRecommendGameplayModifiersPermission
-    bool& dyn__hasRecommendGameplayModifiersPermission();
+    [[deprecated("Use field access instead!")]] bool& dyn__hasRecommendGameplayModifiersPermission();
     // Get instance field reference: private System.Boolean _hasKickVotePermission
-    bool& dyn__hasKickVotePermission();
+    [[deprecated("Use field access instead!")]] bool& dyn__hasKickVotePermission();
     // Get instance field reference: private System.Boolean _hasInvitePermission
-    bool& dyn__hasInvitePermission();
+    [[deprecated("Use field access instead!")]] bool& dyn__hasInvitePermission();
     // public System.String get_userId()
-    // Offset: 0x29C1B20
+    // Offset: 0x2A03E94
     ::StringW get_userId();
     // public System.Boolean get_isServerOwner()
-    // Offset: 0x29C1B28
+    // Offset: 0x2A03E9C
     bool get_isServerOwner();
     // public System.Boolean get_hasRecommendBeatmapsPermission()
-    // Offset: 0x29C1B30
+    // Offset: 0x2A03EA4
     bool get_hasRecommendBeatmapsPermission();
     // public System.Boolean get_hasRecommendGameplayModifiersPermission()
-    // Offset: 0x29C1B38
+    // Offset: 0x2A03EAC
     bool get_hasRecommendGameplayModifiersPermission();
     // public System.Boolean get_hasKickVotePermission()
-    // Offset: 0x29C1B40
+    // Offset: 0x2A03EB4
     bool get_hasKickVotePermission();
     // public System.Boolean get_hasInvitePermission()
-    // Offset: 0x29C1B48
+    // Offset: 0x2A03EBC
     bool get_hasInvitePermission();
     // public System.Void .ctor(System.String userId, System.Boolean isServerOwner, System.Boolean hasRecommendBeatmapsPermission, System.Boolean hasRecommendGameplayModifiersPermission, System.Boolean hasKickVotePermission, System.Boolean hasInvitePermission)
-    // Offset: 0x29C1B50
+    // Offset: 0x2A03EC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerLobbyPermissionConfigurationNetSerializable* New_ctor(::StringW userId, bool isServerOwner, bool hasRecommendBeatmapsPermission, bool hasRecommendGameplayModifiersPermission, bool hasKickVotePermission, bool hasInvitePermission) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerLobbyPermissionConfigurationNetSerializable*, creationType>(userId, isServerOwner, hasRecommendBeatmapsPermission, hasRecommendGameplayModifiersPermission, hasKickVotePermission, hasInvitePermission)));
     }
-    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x29C1BD8
-    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
-    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29C1C6C
-    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x29C1BD0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A03F44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerLobbyPermissionConfigurationNetSerializable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerLobbyPermissionConfigurationNetSerializable*, creationType>()));
     }
+    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x2A03F4C
+    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x2A03FE0
+    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
   }; // PlayerLobbyPermissionConfigurationNetSerializable
   #pragma pack(pop)
   static check_size<sizeof(PlayerLobbyPermissionConfigurationNetSerializable), 28 + sizeof(bool)> __GlobalNamespace_PlayerLobbyPermissionConfigurationNetSerializableSizeCheck;
@@ -198,6 +188,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::Serialize
 // Il2CppName: Serialize
 template<>
@@ -216,7 +210,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

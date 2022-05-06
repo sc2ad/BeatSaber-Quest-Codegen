@@ -60,7 +60,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.IndexFormat Both
     static void _set_Both(::UnityEngine::ProBuilder::IndexFormat value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.ProBuilder.IndexFormat
   #pragma pack(pop)
   static check_size<sizeof(IndexFormat), 0 + sizeof(int)> __UnityEngine_ProBuilder_IndexFormatSizeCheck;

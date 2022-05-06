@@ -37,20 +37,18 @@ namespace HMUI {
     // Set static field: static public readonly HMUI.StackedController/HMUI.<>c <>9
     static void _set_$$9(::HMUI::StackedController::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x168FE78
+    // Offset: 0x16C6788
     static void _cctor();
-    // System.Void <PushViewController>g__AnimationLayouter|3_0(System.Single t, HMUI.ViewController[] viewControllers)
-    // Offset: 0x168FEE4
-    void $PushViewController$g__AnimationLayouter_3_0(float t, ::ArrayW<::HMUI::ViewController*> viewControllers);
     // public System.Void .ctor()
-    // Offset: 0x168FEDC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16C67EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackedController::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::StackedController::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackedController::$$c*, creationType>()));
     }
+    // System.Void <PushViewController>g__AnimationLayouter|3_0(System.Single t, HMUI.ViewController[] viewControllers)
+    // Offset: 0x16C67F4
+    void $PushViewController$g__AnimationLayouter_3_0(float t, ::ArrayW<::HMUI::ViewController*> viewControllers);
   }; // HMUI.StackedController/HMUI.<>c
   #pragma pack(pop)
 }
@@ -63,6 +61,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(HMUI::StackedController::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: HMUI::StackedController::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::StackedController::$$c::$PushViewController$g__AnimationLayouter_3_0
 // Il2CppName: <PushViewController>g__AnimationLayouter|3_0
 template<>
@@ -73,7 +75,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::StackedController::$$c*), "<PushViewController>g__AnimationLayouter|3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t, viewControllers});
   }
 };
-// Writing MetadataGetter for method: HMUI::StackedController::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

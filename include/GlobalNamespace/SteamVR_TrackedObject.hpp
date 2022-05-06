@@ -167,20 +167,12 @@ namespace GlobalNamespace {
       // Set static field: static public SteamVR_TrackedObject/EIndex Device15
       static void _set_Device15(::GlobalNamespace::SteamVR_TrackedObject::EIndex value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // SteamVR_TrackedObject/EIndex
     #pragma pack(pop)
     static check_size<sizeof(SteamVR_TrackedObject::EIndex), 0 + sizeof(int)> __GlobalNamespace_SteamVR_TrackedObject_EIndexSizeCheck;
     static_assert(sizeof(SteamVR_TrackedObject::EIndex) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public SteamVR_TrackedObject/EIndex index
     // Size: 0x4
     // Offset: 0x18
@@ -189,7 +181,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::SteamVR_TrackedObject::EIndex) == 0x4);
     // Padding between fields: index and: origin
     char __padding0[0x4] = {};
-    // [TooltipAttribute] Offset: 0x1208DD8
+    // [TooltipAttribute] Offset: 0x108E7F0
     // public UnityEngine.Transform origin
     // Size: 0x8
     // Offset: 0x20
@@ -214,44 +206,38 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public SteamVR_TrackedObject/EIndex index
-    ::GlobalNamespace::SteamVR_TrackedObject::EIndex& dyn_index();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SteamVR_TrackedObject::EIndex& dyn_index();
     // Get instance field reference: public UnityEngine.Transform origin
-    ::UnityEngine::Transform*& dyn_origin();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_origin();
     // Get instance field reference: private System.Boolean <isValid>k__BackingField
-    bool& dyn_$isValid$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$isValid$k__BackingField();
     // Get instance field reference: private SteamVR_Events/Action newPosesAction
-    ::GlobalNamespace::SteamVR_Events::Action*& dyn_newPosesAction();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SteamVR_Events::Action*& dyn_newPosesAction();
     // public System.Boolean get_isValid()
-    // Offset: 0x1B9DB58
+    // Offset: 0x1BD8140
     bool get_isValid();
     // private System.Void set_isValid(System.Boolean value)
-    // Offset: 0x1B9DB60
+    // Offset: 0x1BD8148
     void set_isValid(bool value);
-    // private System.Void OnNewPoses(Valve.VR.TrackedDevicePose_t[] poses)
-    // Offset: 0x1B9DB6C
-    void OnNewPoses(::ArrayW<::Valve::VR::TrackedDevicePose_t> poses);
-    // private System.Void OnEnable()
-    // Offset: 0x1B9DE78
-    void OnEnable();
-    // private System.Void OnDisable()
-    // Offset: 0x1B9DF28
-    void OnDisable();
-    // public System.Void SetDeviceIndex(System.Int32 index)
-    // Offset: 0x1B9DF60
-    void SetDeviceIndex(int index);
     // private System.Void .ctor()
-    // Offset: 0x1B9DDC8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1BD83B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_TrackedObject* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_TrackedObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_TrackedObject*, creationType>()));
     }
+    // private System.Void OnNewPoses(Valve.VR.TrackedDevicePose_t[] poses)
+    // Offset: 0x1BD8154
+    void OnNewPoses(::ArrayW<::Valve::VR::TrackedDevicePose_t> poses);
+    // private System.Void OnEnable()
+    // Offset: 0x1BD8460
+    void OnEnable();
+    // private System.Void OnDisable()
+    // Offset: 0x1BD8510
+    void OnDisable();
+    // public System.Void SetDeviceIndex(System.Int32 index)
+    // Offset: 0x1BD8548
+    void SetDeviceIndex(int index);
   }; // SteamVR_TrackedObject
   #pragma pack(pop)
   static check_size<sizeof(SteamVR_TrackedObject), 48 + sizeof(::GlobalNamespace::SteamVR_Events::Action*)> __GlobalNamespace_SteamVR_TrackedObjectSizeCheck;
@@ -277,6 +263,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedObject*), "set_isValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedObject::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedObject::OnNewPoses
 // Il2CppName: OnNewPoses
 template<>
@@ -311,7 +301,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedObject*), "SetDeviceIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedObject::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -62,15 +62,7 @@ namespace UnityEngine::UI {
     public:
     // Nested type: ::UnityEngine::UI::LayoutRebuilder::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.RectTransform m_ToRebuild
     // Size: 0x8
     // Offset: 0x10
@@ -93,78 +85,76 @@ namespace UnityEngine::UI {
     // Set static field: static private UnityEngine.UI.ObjectPool`1<UnityEngine.UI.LayoutRebuilder> s_Rebuilders
     static void _set_s_Rebuilders(::UnityEngine::UI::ObjectPool_1<::UnityEngine::UI::LayoutRebuilder*>* value);
     // Get instance field reference: private UnityEngine.RectTransform m_ToRebuild
-    ::UnityEngine::RectTransform*& dyn_m_ToRebuild();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn_m_ToRebuild();
     // Get instance field reference: private System.Int32 m_CachedHashFromTransform
-    int& dyn_m_CachedHashFromTransform();
+    [[deprecated("Use field access instead!")]] int& dyn_m_CachedHashFromTransform();
     // public UnityEngine.Transform get_transform()
-    // Offset: 0x1E7E3A8
+    // Offset: 0x1ECC8E0
     ::UnityEngine::Transform* get_transform();
     // static private System.Void .cctor()
-    // Offset: 0x1E7E234
+    // Offset: 0x1ECC76C
     static void _cctor();
-    // private System.Void Initialize(UnityEngine.RectTransform controller)
-    // Offset: 0x1E7E1E8
-    void Initialize(::UnityEngine::RectTransform* controller);
-    // private System.Void Clear()
-    // Offset: 0x1E7E228
-    void Clear();
-    // static private System.Void ReapplyDrivenProperties(UnityEngine.RectTransform driven)
-    // Offset: 0x1E7E344
-    static void ReapplyDrivenProperties(::UnityEngine::RectTransform* driven);
-    // public System.Boolean IsDestroyed()
-    // Offset: 0x1E7E3B0
-    bool IsDestroyed();
-    // static private System.Void StripDisabledBehavioursFromList(System.Collections.Generic.List`1<UnityEngine.Component> components)
-    // Offset: 0x1E7E420
-    static void StripDisabledBehavioursFromList(::System::Collections::Generic::List_1<::UnityEngine::Component*>* components);
-    // static public System.Void ForceRebuildLayoutImmediate(UnityEngine.RectTransform layoutRoot)
-    // Offset: 0x1E7E514
-    static void ForceRebuildLayoutImmediate(::UnityEngine::RectTransform* layoutRoot);
-    // public System.Void Rebuild(UnityEngine.UI.CanvasUpdate executing)
-    // Offset: 0x1E7E5F0
-    void Rebuild(::UnityEngine::UI::CanvasUpdate executing);
-    // private System.Void PerformLayoutControl(UnityEngine.RectTransform rect, UnityEngine.Events.UnityAction`1<UnityEngine.Component> action)
-    // Offset: 0x1E7EBA0
-    void PerformLayoutControl(::UnityEngine::RectTransform* rect, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* action);
-    // private System.Void PerformLayoutCalculation(UnityEngine.RectTransform rect, UnityEngine.Events.UnityAction`1<UnityEngine.Component> action)
-    // Offset: 0x1E7E8D4
-    void PerformLayoutCalculation(::UnityEngine::RectTransform* rect, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* action);
-    // static public System.Void MarkLayoutForRebuild(UnityEngine.RectTransform rect)
-    // Offset: 0x1E7CC38
-    static void MarkLayoutForRebuild(::UnityEngine::RectTransform* rect);
-    // static private System.Boolean ValidController(UnityEngine.RectTransform layoutRoot, System.Collections.Generic.List`1<UnityEngine.Component> comps)
-    // Offset: 0x1E7EEA4
-    static bool ValidController(::UnityEngine::RectTransform* layoutRoot, ::System::Collections::Generic::List_1<::UnityEngine::Component*>* comps);
-    // static private System.Void MarkLayoutRootForRebuild(UnityEngine.RectTransform controller)
-    // Offset: 0x1E7F080
-    static void MarkLayoutRootForRebuild(::UnityEngine::RectTransform* controller);
-    // public System.Void LayoutComplete()
-    // Offset: 0x1E7F1DC
-    void LayoutComplete();
-    // public System.Void GraphicUpdateComplete()
-    // Offset: 0x1E7F260
-    void GraphicUpdateComplete();
     // public System.Void .ctor()
-    // Offset: 0x1E7F314
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1ECD84C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LayoutRebuilder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::LayoutRebuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LayoutRebuilder*, creationType>()));
     }
+    // private System.Void Initialize(UnityEngine.RectTransform controller)
+    // Offset: 0x1ECC720
+    void Initialize(::UnityEngine::RectTransform* controller);
+    // private System.Void Clear()
+    // Offset: 0x1ECC760
+    void Clear();
+    // static private System.Void ReapplyDrivenProperties(UnityEngine.RectTransform driven)
+    // Offset: 0x1ECC87C
+    static void ReapplyDrivenProperties(::UnityEngine::RectTransform* driven);
+    // public System.Boolean IsDestroyed()
+    // Offset: 0x1ECC8E8
+    bool IsDestroyed();
+    // static private System.Void StripDisabledBehavioursFromList(System.Collections.Generic.List`1<UnityEngine.Component> components)
+    // Offset: 0x1ECC958
+    static void StripDisabledBehavioursFromList(::System::Collections::Generic::List_1<::UnityEngine::Component*>* components);
+    // static public System.Void ForceRebuildLayoutImmediate(UnityEngine.RectTransform layoutRoot)
+    // Offset: 0x1ECCA4C
+    static void ForceRebuildLayoutImmediate(::UnityEngine::RectTransform* layoutRoot);
+    // public System.Void Rebuild(UnityEngine.UI.CanvasUpdate executing)
+    // Offset: 0x1ECCB28
+    void Rebuild(::UnityEngine::UI::CanvasUpdate executing);
+    // private System.Void PerformLayoutControl(UnityEngine.RectTransform rect, UnityEngine.Events.UnityAction`1<UnityEngine.Component> action)
+    // Offset: 0x1ECD0D8
+    void PerformLayoutControl(::UnityEngine::RectTransform* rect, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* action);
+    // private System.Void PerformLayoutCalculation(UnityEngine.RectTransform rect, UnityEngine.Events.UnityAction`1<UnityEngine.Component> action)
+    // Offset: 0x1ECCE0C
+    void PerformLayoutCalculation(::UnityEngine::RectTransform* rect, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* action);
+    // static public System.Void MarkLayoutForRebuild(UnityEngine.RectTransform rect)
+    // Offset: 0x1ECB170
+    static void MarkLayoutForRebuild(::UnityEngine::RectTransform* rect);
+    // static private System.Boolean ValidController(UnityEngine.RectTransform layoutRoot, System.Collections.Generic.List`1<UnityEngine.Component> comps)
+    // Offset: 0x1ECD3DC
+    static bool ValidController(::UnityEngine::RectTransform* layoutRoot, ::System::Collections::Generic::List_1<::UnityEngine::Component*>* comps);
+    // static private System.Void MarkLayoutRootForRebuild(UnityEngine.RectTransform controller)
+    // Offset: 0x1ECD5B8
+    static void MarkLayoutRootForRebuild(::UnityEngine::RectTransform* controller);
+    // public System.Void LayoutComplete()
+    // Offset: 0x1ECD714
+    void LayoutComplete();
+    // public System.Void GraphicUpdateComplete()
+    // Offset: 0x1ECD798
+    void GraphicUpdateComplete();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1E7F264
+    // Offset: 0x1ECD79C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1E7F26C
+    // Offset: 0x1ECD7A4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.String ToString()
-    // Offset: 0x1E7F2C0
+    // Offset: 0x1ECD7F8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -190,6 +180,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::Initialize
 // Il2CppName: Initialize
 template<>
@@ -315,10 +309,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "GraphicUpdateComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::GetHashCode
 // Il2CppName: GetHashCode
 template<>

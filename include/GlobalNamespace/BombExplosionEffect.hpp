@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BombExplosionEffect : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.ParticleSystem _debrisPS
     // Size: 0x8
     // Offset: 0x18
@@ -88,42 +80,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem _debrisPS
-    ::UnityEngine::ParticleSystem*& dyn__debrisPS();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn__debrisPS();
     // Get instance field reference: private UnityEngine.ParticleSystem _explosionPS
-    ::UnityEngine::ParticleSystem*& dyn__explosionPS();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn__explosionPS();
     // Get instance field reference: private System.Int32 _debrisCount
-    int& dyn__debrisCount();
+    [[deprecated("Use field access instead!")]] int& dyn__debrisCount();
     // Get instance field reference: private System.Int32 _explosionParticlesCount
-    int& dyn__explosionParticlesCount();
+    [[deprecated("Use field access instead!")]] int& dyn__explosionParticlesCount();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _emitParams
-    ::UnityEngine::ParticleSystem::EmitParams& dyn__emitParams();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::EmitParams& dyn__emitParams();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _explosionPSEmitParams
-    ::UnityEngine::ParticleSystem::EmitParams& dyn__explosionPSEmitParams();
-    // protected System.Void Awake()
-    // Offset: 0x134C8A8
-    void Awake();
-    // public System.Void SpawnExplosion(UnityEngine.Vector3 pos)
-    // Offset: 0x134C8E0
-    void SpawnExplosion(::UnityEngine::Vector3 pos);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::EmitParams& dyn__explosionPSEmitParams();
     // public System.Void .ctor()
-    // Offset: 0x134C9A8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1335BF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BombExplosionEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BombExplosionEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BombExplosionEffect*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x1335AF0
+    void Awake();
+    // public System.Void SpawnExplosion(UnityEngine.Vector3 pos)
+    // Offset: 0x1335B28
+    void SpawnExplosion(::UnityEngine::Vector3 pos);
   }; // BombExplosionEffect
   #pragma pack(pop)
   static check_size<sizeof(BombExplosionEffect), 192 + sizeof(::UnityEngine::ParticleSystem::EmitParams)> __GlobalNamespace_BombExplosionEffectSizeCheck;
   static_assert(sizeof(BombExplosionEffect) == 0x14F);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BombExplosionEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BombExplosionEffect::Awake
 // Il2CppName: Awake
 template<>
@@ -141,7 +131,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BombExplosionEffect*), "SpawnExplosion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pos});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BombExplosionEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

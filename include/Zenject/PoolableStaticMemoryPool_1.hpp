@@ -35,6 +35,13 @@ namespace Zenject {
   template<typename TValue>
   class PoolableStaticMemoryPool_1 : public ::Zenject::StaticMemoryPool_1<TValue> {
     public:
+    // public System.Void .ctor()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static PoolableStaticMemoryPool_1<TValue>* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableStaticMemoryPool_1::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<PoolableStaticMemoryPool_1<TValue>*, creationType>()));
+    }
     // static private System.Void OnSpawned(TValue value)
     // Offset: 0xFFFFFFFFFFFFFFFF
     static void OnSpawned(TValue value) {
@@ -48,15 +55,6 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableStaticMemoryPool_1::OnDespawned");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PoolableStaticMemoryPool_1<TValue>*>::get(), "OnDespawned", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, value);
-    }
-    // public System.Void .ctor()
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PoolableStaticMemoryPool_1<TValue>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableStaticMemoryPool_1::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<PoolableStaticMemoryPool_1<TValue>*, creationType>()));
     }
   }; // Zenject.PoolableStaticMemoryPool`1
   // Could not write size check! Type: Zenject.PoolableStaticMemoryPool`1 is generic, or has no fields that are valid for size checks!

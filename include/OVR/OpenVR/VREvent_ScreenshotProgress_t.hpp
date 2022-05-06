@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
       return progress;
     }
     // Get instance field reference: public System.Single progress
-    float& dyn_progress();
+    [[deprecated("Use field access instead!")]] float& dyn_progress();
   }; // OVR.OpenVR.VREvent_ScreenshotProgress_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_ScreenshotProgress_t), 0 + sizeof(float)> __OVR_OpenVR_VREvent_ScreenshotProgress_tSizeCheck;

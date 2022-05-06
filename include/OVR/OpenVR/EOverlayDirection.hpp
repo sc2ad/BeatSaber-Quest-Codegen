@@ -72,7 +72,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EOverlayDirection Count
     static void _set_Count(::OVR::OpenVR::EOverlayDirection value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVR.OpenVR.EOverlayDirection
   #pragma pack(pop)
   static check_size<sizeof(EOverlayDirection), 0 + sizeof(int)> __OVR_OpenVR_EOverlayDirectionSizeCheck;

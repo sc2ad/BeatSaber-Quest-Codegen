@@ -59,7 +59,7 @@ namespace UnityEngine::Rendering {
     static ::UnityEngine::Rendering::PassType _get_VertexLM();
     // Set static field: static public UnityEngine.Rendering.PassType VertexLM
     static void _set_VertexLM(::UnityEngine::Rendering::PassType value);
-    // [ObsoleteAttribute] Offset: 0x11C4BD8
+    // [ObsoleteAttribute] Offset: 0x104A5F0
     // static field const value: static public UnityEngine.Rendering.PassType VertexLMRGBM
     static constexpr const int VertexLMRGBM = 3;
     // Get static field: static public UnityEngine.Rendering.PassType VertexLMRGBM
@@ -127,7 +127,7 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.PassType ScriptableRenderPipelineDefaultUnlit
     static void _set_ScriptableRenderPipelineDefaultUnlit(::UnityEngine::Rendering::PassType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.Rendering.PassType
   #pragma pack(pop)
   static check_size<sizeof(PassType), 0 + sizeof(int)> __UnityEngine_Rendering_PassTypeSizeCheck;

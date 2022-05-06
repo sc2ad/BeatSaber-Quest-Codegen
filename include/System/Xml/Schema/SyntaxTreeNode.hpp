@@ -44,23 +44,21 @@ namespace System::Xml::Schema {
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsNullable();
     // public System.Boolean get_IsRangeNode()
-    // Offset: 0x1C2B018
+    // Offset: 0x1C65600
     bool get_IsRangeNode();
+    // protected System.Void .ctor()
+    // Offset: 0x1C5E170
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static SyntaxTreeNode* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::SyntaxTreeNode::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<SyntaxTreeNode*, creationType>()));
+    }
     // public System.Void ExpandTree(System.Xml.Schema.InteriorNode parent, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.Positions positions)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
     // public System.Void ConstructPos(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet lastpos, System.Xml.Schema.BitSet[] followpos)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos);
-    // protected System.Void .ctor()
-    // Offset: 0x1C23B88
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SyntaxTreeNode* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::SyntaxTreeNode::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<SyntaxTreeNode*, creationType>()));
-    }
   }; // System.Xml.Schema.SyntaxTreeNode
   #pragma pack(pop)
 }
@@ -81,6 +79,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SyntaxTreeNode*), "get_IsRangeNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Xml::Schema::SyntaxTreeNode::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::Schema::SyntaxTreeNode::ExpandTree
 // Il2CppName: ExpandTree
 template<>
@@ -103,7 +105,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SyntaxTreeNode*), "ConstructPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{firstpos, lastpos, followpos});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Schema::SyntaxTreeNode::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

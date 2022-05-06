@@ -43,7 +43,7 @@ namespace GlobalNamespace {
   struct BeatmapLevelSelectionMask/*, public ::System::ValueType, public ::System::IEquatable_1<::GlobalNamespace::BeatmapLevelSelectionMask>*/ {
     public:
     public:
-    // [JsonPropertyAttribute] Offset: 0x1231320
+    // [JsonPropertyAttribute] Offset: 0x10B4D78
     // public readonly BeatmapDifficultyMask difficulties
     // Size: 0x1
     // Offset: 0x0
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::BeatmapDifficultyMask) == 0x1);
     // Padding between fields: difficulties and: modifiers
     char __padding0[0x1] = {};
-    // [JsonPropertyAttribute] Offset: 0x1231358
+    // [JsonPropertyAttribute] Offset: 0x10B4DB0
     // public readonly GameplayModifierMask modifiers
     // Size: 0x2
     // Offset: 0x2
@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::GameplayModifierMask) == 0x2);
     // Padding between fields: modifiers and: songPacks
     char __padding1[0x4] = {};
-    // [JsonPropertyAttribute] Offset: 0x1231390
+    // [JsonPropertyAttribute] Offset: 0x10B4DE8
     // public readonly SongPackMask songPacks
     // Size: 0x10
     // Offset: 0x8
@@ -80,30 +80,30 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::BeatmapLevelSelectionMask>*>(this);
     }
     // Get instance field reference: public readonly BeatmapDifficultyMask difficulties
-    ::GlobalNamespace::BeatmapDifficultyMask& dyn_difficulties();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficultyMask& dyn_difficulties();
     // Get instance field reference: public readonly GameplayModifierMask modifiers
-    ::GlobalNamespace::GameplayModifierMask& dyn_modifiers();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifierMask& dyn_modifiers();
     // Get instance field reference: public readonly SongPackMask songPacks
-    ::GlobalNamespace::SongPackMask& dyn_songPacks();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongPackMask& dyn_songPacks();
     // public System.Void .ctor(BeatmapDifficultyMask difficulties, GameplayModifierMask modifiers, SongPackMask songPacks)
-    // Offset: 0x15036C0
+    // Offset: 0x153AFC8
     // ABORTED: conflicts with another method.  BeatmapLevelSelectionMask(::GlobalNamespace::BeatmapDifficultyMask difficulties, ::GlobalNamespace::GameplayModifierMask modifiers, ::GlobalNamespace::SongPackMask songPacks);
     // public System.Boolean Equals(BeatmapLevelSelectionMask other)
-    // Offset: 0x1503770
+    // Offset: 0x153B078
     bool Equals(::GlobalNamespace::BeatmapLevelSelectionMask other);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer, System.UInt32 version)
-    // Offset: 0x15038DC
+    // Offset: 0x153B1E4
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer, uint version);
     // static public BeatmapLevelSelectionMask Deserialize(LiteNetLib.Utils.NetDataReader reader, System.UInt32 version)
-    // Offset: 0x1503930
+    // Offset: 0x153B238
     static ::GlobalNamespace::BeatmapLevelSelectionMask Deserialize(::LiteNetLib::Utils::NetDataReader* reader, uint version);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x15036D0
+    // Offset: 0x153AFD8
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x15038A8
+    // Offset: 0x153B1B0
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -112,10 +112,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapLevelSelectionMask), 8 + sizeof(::GlobalNamespace::SongPackMask)> __GlobalNamespace_BeatmapLevelSelectionMaskSizeCheck;
   static_assert(sizeof(BeatmapLevelSelectionMask) == 0x18);
   // static public System.Boolean op_Equality(BeatmapLevelSelectionMask l, BeatmapLevelSelectionMask r)
-  // Offset: 0x1503998
+  // Offset: 0x153B2A0
   bool operator ==(const ::GlobalNamespace::BeatmapLevelSelectionMask& l, const ::GlobalNamespace::BeatmapLevelSelectionMask& r);
   // static public System.Boolean op_Inequality(BeatmapLevelSelectionMask l, BeatmapLevelSelectionMask r)
-  // Offset: 0x15039D8
+  // Offset: 0x153B2E0
   bool operator !=(const ::GlobalNamespace::BeatmapLevelSelectionMask& l, const ::GlobalNamespace::BeatmapLevelSelectionMask& r);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

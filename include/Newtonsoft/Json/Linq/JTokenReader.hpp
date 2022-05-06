@@ -44,15 +44,7 @@ namespace Newtonsoft::Json::Linq {
   // [PreserveAttribute] Offset: FFFFFFFF
   class JTokenReader : public ::Newtonsoft::Json::JsonReader/*, public ::Newtonsoft::Json::IJsonLineInfo*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Newtonsoft.Json.Linq.JToken _root
     // Size: 0x8
     // Offset: 0x78
@@ -83,60 +75,60 @@ namespace Newtonsoft::Json::Linq {
       return *reinterpret_cast<::Newtonsoft::Json::IJsonLineInfo*>(this);
     }
     // Get instance field reference: private readonly Newtonsoft.Json.Linq.JToken _root
-    ::Newtonsoft::Json::Linq::JToken*& dyn__root();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Linq::JToken*& dyn__root();
     // Get instance field reference: private System.String _initialPath
-    ::StringW& dyn__initialPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__initialPath();
     // Get instance field reference: private Newtonsoft.Json.Linq.JToken _parent
-    ::Newtonsoft::Json::Linq::JToken*& dyn__parent();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Linq::JToken*& dyn__parent();
     // Get instance field reference: private Newtonsoft.Json.Linq.JToken _current
-    ::Newtonsoft::Json::Linq::JToken*& dyn__current();
+    [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Linq::JToken*& dyn__current();
     // public Newtonsoft.Json.Linq.JToken get_CurrentToken()
-    // Offset: 0x171EB44
+    // Offset: 0x1757454
     ::Newtonsoft::Json::Linq::JToken* get_CurrentToken();
     // private System.Int32 Newtonsoft.Json.IJsonLineInfo.get_LineNumber()
-    // Offset: 0x171F52C
+    // Offset: 0x1757E3C
     int Newtonsoft_Json_IJsonLineInfo_get_LineNumber();
     // private System.Int32 Newtonsoft.Json.IJsonLineInfo.get_LinePosition()
-    // Offset: 0x171F5F4
+    // Offset: 0x1757F04
     int Newtonsoft_Json_IJsonLineInfo_get_LinePosition();
     // public System.Void .ctor(Newtonsoft.Json.Linq.JToken token)
-    // Offset: 0x171CE90
+    // Offset: 0x17557A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JTokenReader* New_ctor(::Newtonsoft::Json::Linq::JToken* token) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JTokenReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JTokenReader*, creationType>(token)));
     }
     // private System.Boolean ReadOver(Newtonsoft.Json.Linq.JToken t)
-    // Offset: 0x171EC90
+    // Offset: 0x17575A0
     bool ReadOver(::Newtonsoft::Json::Linq::JToken* t);
     // private System.Boolean ReadToEnd()
-    // Offset: 0x171F254
+    // Offset: 0x1757B64
     bool ReadToEnd();
     // private System.Nullable`1<Newtonsoft.Json.JsonToken> GetEndToken(Newtonsoft.Json.Linq.JContainer c)
-    // Offset: 0x171F304
+    // Offset: 0x1757C14
     ::System::Nullable_1<::Newtonsoft::Json::JsonToken> GetEndToken(::Newtonsoft::Json::Linq::JContainer* c);
     // private System.Boolean ReadInto(Newtonsoft.Json.Linq.JContainer c)
-    // Offset: 0x171EC18
+    // Offset: 0x1757528
     bool ReadInto(::Newtonsoft::Json::Linq::JContainer* c);
     // private System.Boolean SetEnd(Newtonsoft.Json.Linq.JContainer c)
-    // Offset: 0x171F278
+    // Offset: 0x1757B88
     bool SetEnd(::Newtonsoft::Json::Linq::JContainer* c);
     // private System.Void SetToken(Newtonsoft.Json.Linq.JToken token)
-    // Offset: 0x171ED54
+    // Offset: 0x1757664
     void SetToken(::Newtonsoft::Json::Linq::JToken* token);
     // private System.String SafeToString(System.Object value)
-    // Offset: 0x171F448
+    // Offset: 0x1757D58
     ::StringW SafeToString(::Il2CppObject* value);
     // private System.Boolean Newtonsoft.Json.IJsonLineInfo.HasLineInfo()
-    // Offset: 0x171F468
+    // Offset: 0x1757D78
     bool Newtonsoft_Json_IJsonLineInfo_HasLineInfo();
     // public override System.String get_Path()
-    // Offset: 0x171F6BC
+    // Offset: 0x1757FCC
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: System.String JsonReader::get_Path()
     ::StringW get_Path();
     // public override System.Boolean Read()
-    // Offset: 0x171EB4C
+    // Offset: 0x175745C
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: System.Boolean JsonReader::Read()
     bool Read();

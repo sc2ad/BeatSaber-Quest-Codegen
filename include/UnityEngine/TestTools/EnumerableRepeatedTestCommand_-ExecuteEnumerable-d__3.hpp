@@ -44,15 +44,7 @@ namespace UnityEngine::TestTools {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>, public ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -129,55 +121,55 @@ namespace UnityEngine::TestTools {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Object <>2__current
-    ::Il2CppObject*& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$$2__current();
     // Get instance field reference: private System.Int32 <>l__initialThreadId
-    int& dyn_$$l__initialThreadId();
+    [[deprecated("Use field access instead!")]] int& dyn_$$l__initialThreadId();
     // Get instance field reference: private NUnit.Framework.Internal.ITestExecutionContext context
-    ::NUnit::Framework::Internal::ITestExecutionContext*& dyn_context();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::ITestExecutionContext*& dyn_context();
     // Get instance field reference: public NUnit.Framework.Internal.ITestExecutionContext <>3__context
-    ::NUnit::Framework::Internal::ITestExecutionContext*& dyn_$$3__context();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::ITestExecutionContext*& dyn_$$3__context();
     // Get instance field reference: public UnityEngine.TestTools.EnumerableRepeatedTestCommand <>4__this
-    ::UnityEngine::TestTools::EnumerableRepeatedTestCommand*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TestTools::EnumerableRepeatedTestCommand*& dyn_$$4__this();
     // Get instance field reference: private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <unityContext>5__2
-    ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*& dyn_$unityContext$5__2();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*& dyn_$unityContext$5__2();
     // Get instance field reference: private System.Int32 <count>5__3
-    int& dyn_$count$5__3();
+    [[deprecated("Use field access instead!")]] int& dyn_$count$5__3();
     // Get instance field reference: private System.Boolean <firstCycleAfterResume>5__4
-    bool& dyn_$firstCycleAfterResume$5__4();
+    [[deprecated("Use field access instead!")]] bool& dyn_$firstCycleAfterResume$5__4();
     // Get instance field reference: private System.Collections.IEnumerator <>7__wrap4
-    ::System::Collections::IEnumerator*& dyn_$$7__wrap4();
+    [[deprecated("Use field access instead!")]] ::System::Collections::IEnumerator*& dyn_$$7__wrap4();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1949288
+    // Offset: 0x19814C0
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x19492F0
+    // Offset: 0x1981528
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1948BA0
+    // Offset: 0x1980D80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1948BD8
+    // Offset: 0x1980DB8
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1948CC0
+    // Offset: 0x1980EA0
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x1948BF4
+    // Offset: 0x1980DD4
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1949290
+    // Offset: 0x19814C8
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.Object> System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator()
-    // Offset: 0x19492F8
+    // Offset: 0x1981530
     ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>* System_Collections_Generic_IEnumerable$System_Object$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x19493AC
+    // Offset: 0x19815E4
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.TestTools.EnumerableRepeatedTestCommand/UnityEngine.TestTools.<ExecuteEnumerable>d__3
   #pragma pack(pop)

@@ -31,15 +31,7 @@ namespace UnityEngine::Networking::PlayerConnection {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerEditorConnectionEvents::MessageTypeSubscribers : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String m_messageTypeId
     // Size: 0x8
     // Offset: 0x10
@@ -62,21 +54,19 @@ namespace UnityEngine::Networking::PlayerConnection {
     static_assert(sizeof(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent*) == 0x8);
     public:
     // Get instance field reference: private System.String m_messageTypeId
-    ::StringW& dyn_m_messageTypeId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_messageTypeId();
     // Get instance field reference: public System.Int32 subscriberCount
-    int& dyn_subscriberCount();
+    [[deprecated("Use field access instead!")]] int& dyn_subscriberCount();
     // Get instance field reference: public UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/UnityEngine.Networking.PlayerConnection.MessageEvent messageCallback
-    ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent*& dyn_messageCallback();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent*& dyn_messageCallback();
     // public System.Guid get_MessageTypeId()
-    // Offset: 0x1FFCF48
+    // Offset: 0x20467BC
     ::System::Guid get_MessageTypeId();
     // public System.Void set_MessageTypeId(System.Guid value)
-    // Offset: 0x1FFD0B0
+    // Offset: 0x2046924
     void set_MessageTypeId(::System::Guid value);
     // public System.Void .ctor()
-    // Offset: 0x1FFD048
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x20468BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerEditorConnectionEvents::MessageTypeSubscribers* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageTypeSubscribers::.ctor");

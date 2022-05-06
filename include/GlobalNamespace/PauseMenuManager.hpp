@@ -68,22 +68,14 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::PauseMenuManager::InitData
     class InitData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private PauseAnimationController _pauseAnimationController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::PauseAnimationController* pauseAnimationController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PauseAnimationController*) == 0x8);
-    // [NullAllowed] Offset: 0x125305C
+    // [NullAllowed] Offset: 0x10D7C40
     // private LevelBar _levelBar
     // Size: 0x8
     // Offset: 0x20
@@ -120,21 +112,21 @@ namespace GlobalNamespace {
     ::UnityEngine::Transform* pauseContainerTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0x12530E4
+    // [InjectAttribute] Offset: 0x10D7CC8
     // private readonly PauseMenuManager/InitData _initData
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::PauseMenuManager::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PauseMenuManager::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x12530F4
+    // [InjectAttribute] Offset: 0x10D7CD8
     // private readonly VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
     // Offset: 0x58
     ::GlobalNamespace::VRControllersInputManager* vrControllersInputManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::VRControllersInputManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1253104
+    // [InjectAttribute] Offset: 0x10D7CE8
     // private readonly EnvironmentSpawnRotation _environmentSpawnRotation
     // Size: 0x8
     // Offset: 0x60
@@ -187,104 +179,98 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kDisabledInteractionDuration
     static void _set_kDisabledInteractionDuration(float value);
     // Get instance field reference: private PauseAnimationController _pauseAnimationController
-    ::GlobalNamespace::PauseAnimationController*& dyn__pauseAnimationController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PauseAnimationController*& dyn__pauseAnimationController();
     // Get instance field reference: private LevelBar _levelBar
-    ::GlobalNamespace::LevelBar*& dyn__levelBar();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelBar*& dyn__levelBar();
     // Get instance field reference: private UnityEngine.UI.Button _continueButton
-    ::UnityEngine::UI::Button*& dyn__continueButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__continueButton();
     // Get instance field reference: private UnityEngine.UI.Button _restartButton
-    ::UnityEngine::UI::Button*& dyn__restartButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__restartButton();
     // Get instance field reference: private UnityEngine.UI.Button _backButton
-    ::UnityEngine::UI::Button*& dyn__backButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__backButton();
     // Get instance field reference: private TMPro.TextMeshProUGUI _backButtonText
-    ::TMPro::TextMeshProUGUI*& dyn__backButtonText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__backButtonText();
     // Get instance field reference: private UnityEngine.Transform _pauseContainerTransform
-    ::UnityEngine::Transform*& dyn__pauseContainerTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__pauseContainerTransform();
     // Get instance field reference: private readonly PauseMenuManager/InitData _initData
-    ::GlobalNamespace::PauseMenuManager::InitData*& dyn__initData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PauseMenuManager::InitData*& dyn__initData();
     // Get instance field reference: private readonly VRControllersInputManager _vrControllersInputManager
-    ::GlobalNamespace::VRControllersInputManager*& dyn__vrControllersInputManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::VRControllersInputManager*& dyn__vrControllersInputManager();
     // Get instance field reference: private readonly EnvironmentSpawnRotation _environmentSpawnRotation
-    ::GlobalNamespace::EnvironmentSpawnRotation*& dyn__environmentSpawnRotation();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentSpawnRotation*& dyn__environmentSpawnRotation();
     // Get instance field reference: private System.Action didPressContinueButtonEvent
-    ::System::Action*& dyn_didPressContinueButtonEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didPressContinueButtonEvent();
     // Get instance field reference: private System.Action didPressMenuButtonEvent
-    ::System::Action*& dyn_didPressMenuButtonEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didPressMenuButtonEvent();
     // Get instance field reference: private System.Action didPressRestartButtonEvent
-    ::System::Action*& dyn_didPressRestartButtonEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didPressRestartButtonEvent();
     // Get instance field reference: private System.Action didFinishResumeAnimationEvent
-    ::System::Action*& dyn_didFinishResumeAnimationEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didFinishResumeAnimationEvent();
     // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
-    ::HMUI::ButtonBinder*& dyn__buttonBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // Get instance field reference: private System.Single _disabledInteractionRemainingTime
-    float& dyn__disabledInteractionRemainingTime();
+    [[deprecated("Use field access instead!")]] float& dyn__disabledInteractionRemainingTime();
     // public System.Void add_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0x12EF8A4
+    // Offset: 0x136085C
     void add_didPressContinueButtonEvent(::System::Action* value);
     // public System.Void remove_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0x12F008C
+    // Offset: 0x1361044
     void remove_didPressContinueButtonEvent(::System::Action* value);
     // public System.Void add_didPressMenuButtonEvent(System.Action value)
-    // Offset: 0x12EF9EC
+    // Offset: 0x13609A4
     void add_didPressMenuButtonEvent(::System::Action* value);
     // public System.Void remove_didPressMenuButtonEvent(System.Action value)
-    // Offset: 0x12F01D4
+    // Offset: 0x136118C
     void remove_didPressMenuButtonEvent(::System::Action* value);
     // public System.Void add_didPressRestartButtonEvent(System.Action value)
-    // Offset: 0x12EF948
+    // Offset: 0x1360900
     void add_didPressRestartButtonEvent(::System::Action* value);
     // public System.Void remove_didPressRestartButtonEvent(System.Action value)
-    // Offset: 0x12F0130
+    // Offset: 0x13610E8
     void remove_didPressRestartButtonEvent(::System::Action* value);
     // public System.Void add_didFinishResumeAnimationEvent(System.Action value)
-    // Offset: 0x12EF800
+    // Offset: 0x13607B8
     void add_didFinishResumeAnimationEvent(::System::Action* value);
     // public System.Void remove_didFinishResumeAnimationEvent(System.Action value)
-    // Offset: 0x12EFFE8
+    // Offset: 0x1360FA0
     void remove_didFinishResumeAnimationEvent(::System::Action* value);
-    // protected System.Void Awake()
-    // Offset: 0x12F086C
-    void Awake();
-    // protected System.Void Start()
-    // Offset: 0x12F09F4
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x12F0B34
-    void OnDestroy();
-    // protected System.Void Update()
-    // Offset: 0x12F0C14
-    void Update();
-    // public System.Void ShowMenu()
-    // Offset: 0x12F039C
-    void ShowMenu();
-    // public System.Void StartResumeAnimation()
-    // Offset: 0x12F0678
-    void StartResumeAnimation();
-    // private System.Void HandleResumeFromPauseAnimationDidFinish()
-    // Offset: 0x12F0DA0
-    void HandleResumeFromPauseAnimationDidFinish();
-    // private System.Void MenuButtonPressed()
-    // Offset: 0x12F0D60
-    void MenuButtonPressed();
-    // private System.Void RestartButtonPressed()
-    // Offset: 0x12F0D0C
-    void RestartButtonPressed();
-    // private System.Void ContinueButtonPressed()
-    // Offset: 0x12F0CCC
-    void ContinueButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0x12F0DB4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1361D6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PauseMenuManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PauseMenuManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PauseMenuManager*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x1361824
+    void Awake();
+    // protected System.Void Start()
+    // Offset: 0x13619AC
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1361AEC
+    void OnDestroy();
+    // protected System.Void Update()
+    // Offset: 0x1361BCC
+    void Update();
+    // public System.Void ShowMenu()
+    // Offset: 0x1361354
+    void ShowMenu();
+    // public System.Void StartResumeAnimation()
+    // Offset: 0x1361630
+    void StartResumeAnimation();
+    // private System.Void HandleResumeFromPauseAnimationDidFinish()
+    // Offset: 0x1361D58
+    void HandleResumeFromPauseAnimationDidFinish();
+    // private System.Void MenuButtonPressed()
+    // Offset: 0x1361D18
+    void MenuButtonPressed();
+    // private System.Void RestartButtonPressed()
+    // Offset: 0x1361CC4
+    void RestartButtonPressed();
+    // private System.Void ContinueButtonPressed()
+    // Offset: 0x1361C84
+    void ContinueButtonPressed();
   }; // PauseMenuManager
   #pragma pack(pop)
   static check_size<sizeof(PauseMenuManager), 144 + sizeof(float)> __GlobalNamespace_PauseMenuManagerSizeCheck;
@@ -363,6 +349,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PauseMenuManager*), "remove_didFinishResumeAnimationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PauseMenuManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PauseMenuManager::Awake
 // Il2CppName: Awake
 template<>
@@ -443,7 +433,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PauseMenuManager*), "ContinueButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PauseMenuManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

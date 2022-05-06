@@ -42,15 +42,7 @@ namespace Assets::OVR::Scripts {
   // [TokenAttribute] Offset: FFFFFFFF
   class FixRecord : public ::Assets::OVR::Scripts::Record {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Assets.OVR.Scripts.FixMethodDelegate fixMethod
     // Size: 0x8
     // Offset: 0x20
@@ -83,17 +75,17 @@ namespace Assets::OVR::Scripts {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public Assets.OVR.Scripts.FixMethodDelegate fixMethod
-    ::Assets::OVR::Scripts::FixMethodDelegate*& dyn_fixMethod();
+    [[deprecated("Use field access instead!")]] ::Assets::OVR::Scripts::FixMethodDelegate*& dyn_fixMethod();
     // Get instance field reference: public UnityEngine.Object targetObject
-    ::UnityEngine::Object*& dyn_targetObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Object*& dyn_targetObject();
     // Get instance field reference: public System.String[] buttonNames
-    ::ArrayW<::StringW>& dyn_buttonNames();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_buttonNames();
     // Get instance field reference: public System.Boolean editModeRequired
-    bool& dyn_editModeRequired();
+    [[deprecated("Use field access instead!")]] bool& dyn_editModeRequired();
     // Get instance field reference: public System.Boolean complete
-    bool& dyn_complete();
+    [[deprecated("Use field access instead!")]] bool& dyn_complete();
     // public System.Void .ctor(System.String cat, System.String msg, Assets.OVR.Scripts.FixMethodDelegate fix, UnityEngine.Object target, System.Boolean editRequired, System.String[] buttons)
-    // Offset: 0x1A52584
+    // Offset: 0x1A8BB6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixRecord* New_ctor(::StringW cat, ::StringW msg, ::Assets::OVR::Scripts::FixMethodDelegate* fix, ::UnityEngine::Object* target, bool editRequired, ::ArrayW<::StringW> buttons) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Assets::OVR::Scripts::FixRecord::.ctor");

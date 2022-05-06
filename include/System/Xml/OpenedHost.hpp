@@ -26,15 +26,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class OpenedHost : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int32 nonCachedConnectionsCount
     // Size: 0x4
     // Offset: 0x10
@@ -47,11 +39,9 @@ namespace System::Xml {
       return nonCachedConnectionsCount;
     }
     // Get instance field reference: System.Int32 nonCachedConnectionsCount
-    int& dyn_nonCachedConnectionsCount();
+    [[deprecated("Use field access instead!")]] int& dyn_nonCachedConnectionsCount();
     // public System.Void .ctor()
-    // Offset: 0x1A8F9AC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1AC9F94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OpenedHost* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::OpenedHost::.ctor");

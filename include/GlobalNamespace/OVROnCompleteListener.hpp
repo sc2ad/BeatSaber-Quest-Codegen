@@ -28,25 +28,27 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVROnCompleteListener : public ::UnityEngine::AndroidJavaProxy {
     public:
+    // public System.Void .ctor()
+    // Offset: 0x16FDBA8
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static OVROnCompleteListener* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVROnCompleteListener::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<OVROnCompleteListener*, creationType>()));
+    }
     // public System.Void onSuccess()
     // Offset: 0xFFFFFFFFFFFFFFFF
     void onSuccess();
     // public System.Void onFailure()
     // Offset: 0xFFFFFFFFFFFFFFFF
     void onFailure();
-    // public System.Void .ctor()
-    // Offset: 0x16C6298
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static OVROnCompleteListener* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVROnCompleteListener::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<OVROnCompleteListener*, creationType>()));
-    }
   }; // OVROnCompleteListener
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OVROnCompleteListener::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVROnCompleteListener::onSuccess
 // Il2CppName: onSuccess
 template<>
@@ -63,7 +65,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROnCompleteListener*), "onFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OVROnCompleteListener::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -40,15 +40,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapDataCallbackWrapper : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Type BasicBeatmapEventType
     // Size: 0x8
     // Offset: 0x10
@@ -71,13 +63,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<int>) == 0x8);
     public:
     // Get instance field reference: public readonly System.Type BasicBeatmapEventType
-    ::System::Type*& dyn_BasicBeatmapEventType();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_BasicBeatmapEventType();
     // Get instance field reference: public readonly System.Single aheadTime
-    float& dyn_aheadTime();
+    [[deprecated("Use field access instead!")]] float& dyn_aheadTime();
     // Get instance field reference: public readonly System.Int32[] subtypeIdentifiers
-    ::ArrayW<int>& dyn_subtypeIdentifiers();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_subtypeIdentifiers();
     // protected System.Void .ctor(System.Single aheadTime, System.Type BasicBeatmapEventType, params System.Int32[] subtypeIdentifiers)
-    // Offset: 0x1368C38
+    // Offset: 0x1350EB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataCallbackWrapper* New_ctor(float aheadTime, ::System::Type* BasicBeatmapEventType, ::ArrayW<int> subtypeIdentifiers) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataCallbackWrapper::.ctor");

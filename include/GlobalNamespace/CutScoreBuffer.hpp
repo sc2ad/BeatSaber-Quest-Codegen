@@ -50,15 +50,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CutScoreBuffer : public ::Il2CppObject/*, public ::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver, public ::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver, public ::GlobalNamespace::IReadonlyCutScoreBuffer*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly SaberSwingRatingCounter _saberSwingRatingCounter
     // Size: 0x8
     // Offset: 0x10
@@ -135,91 +127,89 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IReadonlyCutScoreBuffer*>(this);
     }
     // Get instance field reference: private readonly SaberSwingRatingCounter _saberSwingRatingCounter
-    ::GlobalNamespace::SaberSwingRatingCounter*& dyn__saberSwingRatingCounter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberSwingRatingCounter*& dyn__saberSwingRatingCounter();
     // Get instance field reference: private NoteCutInfo _noteCutInfo
-    ::GlobalNamespace::NoteCutInfo& dyn__noteCutInfo();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutInfo& dyn__noteCutInfo();
     // Get instance field reference: private ScoreModel/NoteScoreDefinition _noteScoreDefinition
-    ::GlobalNamespace::ScoreModel::NoteScoreDefinition*& dyn__noteScoreDefinition();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ScoreModel::NoteScoreDefinition*& dyn__noteScoreDefinition();
     // Get instance field reference: private System.Int32 _afterCutScore
-    int& dyn__afterCutScore();
+    [[deprecated("Use field access instead!")]] int& dyn__afterCutScore();
     // Get instance field reference: private System.Int32 _beforeCutScore
-    int& dyn__beforeCutScore();
+    [[deprecated("Use field access instead!")]] int& dyn__beforeCutScore();
     // Get instance field reference: private System.Int32 _centerDistanceCutScore
-    int& dyn__centerDistanceCutScore();
+    [[deprecated("Use field access instead!")]] int& dyn__centerDistanceCutScore();
     // Get instance field reference: private System.Boolean _initialized
-    bool& dyn__initialized();
+    [[deprecated("Use field access instead!")]] bool& dyn__initialized();
     // Get instance field reference: private System.Boolean _isFinished
-    bool& dyn__isFinished();
+    [[deprecated("Use field access instead!")]] bool& dyn__isFinished();
     // Get instance field reference: private readonly LazyCopyHashSet`1<ICutScoreBufferDidFinishReceiver> _didFinishEvent
-    ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>*& dyn__didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>*& dyn__didFinishEvent();
     // Get instance field reference: private readonly LazyCopyHashSet`1<ICutScoreBufferDidChangeReceiver> _didChangeEvent
-    ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>*& dyn__didChangeEvent();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>*& dyn__didChangeEvent();
     // public System.Int32 get_executionOrder()
-    // Offset: 0x140B3F4
+    // Offset: 0x142B1A0
     int get_executionOrder();
     // public System.Int32 get_maxPossibleCutScore()
-    // Offset: 0x140B410
+    // Offset: 0x142B1BC
     int get_maxPossibleCutScore();
     // public System.Boolean get_isFinished()
-    // Offset: 0x140B42C
+    // Offset: 0x142B1D8
     bool get_isFinished();
     // public System.Int32 get_cutScore()
-    // Offset: 0x140B434
+    // Offset: 0x142B1E0
     int get_cutScore();
     // public System.Int32 get_beforeCutScore()
-    // Offset: 0x140B464
+    // Offset: 0x142B210
     int get_beforeCutScore();
     // public System.Int32 get_centerDistanceCutScore()
-    // Offset: 0x140B46C
+    // Offset: 0x142B218
     int get_centerDistanceCutScore();
     // public System.Int32 get_afterCutScore()
-    // Offset: 0x140B474
+    // Offset: 0x142B220
     int get_afterCutScore();
     // public ScoreModel/NoteScoreDefinition get_noteScoreDefinition()
-    // Offset: 0x140B47C
+    // Offset: 0x142B228
     ::GlobalNamespace::ScoreModel::NoteScoreDefinition* get_noteScoreDefinition();
     // public NoteCutInfo get_noteCutInfo()
-    // Offset: 0x140B484
+    // Offset: 0x142B230
     ::GlobalNamespace::NoteCutInfo get_noteCutInfo();
     // public System.Single get_beforeCutSwingRating()
-    // Offset: 0x140B494
+    // Offset: 0x142B240
     float get_beforeCutSwingRating();
     // public System.Single get_afterCutSwingRating()
-    // Offset: 0x140B4B0
+    // Offset: 0x142B25C
     float get_afterCutSwingRating();
-    // public System.Void RegisterDidChangeReceiver(ICutScoreBufferDidChangeReceiver receiver)
-    // Offset: 0x140B4CC
-    void RegisterDidChangeReceiver(::GlobalNamespace::ICutScoreBufferDidChangeReceiver* receiver);
-    // public System.Void RegisterDidFinishReceiver(ICutScoreBufferDidFinishReceiver receiver)
-    // Offset: 0x140B534
-    void RegisterDidFinishReceiver(::GlobalNamespace::ICutScoreBufferDidFinishReceiver* receiver);
-    // public System.Void UnregisterDidChangeReceiver(ICutScoreBufferDidChangeReceiver receiver)
-    // Offset: 0x140B59C
-    void UnregisterDidChangeReceiver(::GlobalNamespace::ICutScoreBufferDidChangeReceiver* receiver);
-    // public System.Void UnregisterDidFinishReceiver(ICutScoreBufferDidFinishReceiver receiver)
-    // Offset: 0x140B604
-    void UnregisterDidFinishReceiver(::GlobalNamespace::ICutScoreBufferDidFinishReceiver* receiver);
-    // public System.Boolean Init(in NoteCutInfo noteCutInfo)
-    // Offset: 0x140B66C
-    bool Init(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
-    // private System.Void RefreshScores()
-    // Offset: 0x140B84C
-    void RefreshScores();
-    // public System.Void HandleSaberSwingRatingCounterDidChange(ISaberSwingRatingCounter swingRatingCounter, System.Single rating)
-    // Offset: 0x140B92C
-    void HandleSaberSwingRatingCounterDidChange(::GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter, float rating);
-    // public System.Void HandleSaberSwingRatingCounterDidFinish(ISaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0x140BAAC
-    void HandleSaberSwingRatingCounterDidFinish(::GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
     // public System.Void .ctor()
-    // Offset: 0x140BD14
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x142BAC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CutScoreBuffer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CutScoreBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CutScoreBuffer*, creationType>()));
     }
+    // public System.Void RegisterDidChangeReceiver(ICutScoreBufferDidChangeReceiver receiver)
+    // Offset: 0x142B278
+    void RegisterDidChangeReceiver(::GlobalNamespace::ICutScoreBufferDidChangeReceiver* receiver);
+    // public System.Void RegisterDidFinishReceiver(ICutScoreBufferDidFinishReceiver receiver)
+    // Offset: 0x142B2E0
+    void RegisterDidFinishReceiver(::GlobalNamespace::ICutScoreBufferDidFinishReceiver* receiver);
+    // public System.Void UnregisterDidChangeReceiver(ICutScoreBufferDidChangeReceiver receiver)
+    // Offset: 0x142B348
+    void UnregisterDidChangeReceiver(::GlobalNamespace::ICutScoreBufferDidChangeReceiver* receiver);
+    // public System.Void UnregisterDidFinishReceiver(ICutScoreBufferDidFinishReceiver receiver)
+    // Offset: 0x142B3B0
+    void UnregisterDidFinishReceiver(::GlobalNamespace::ICutScoreBufferDidFinishReceiver* receiver);
+    // public System.Boolean Init(in NoteCutInfo noteCutInfo)
+    // Offset: 0x142B418
+    bool Init(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+    // private System.Void RefreshScores()
+    // Offset: 0x142B5F8
+    void RefreshScores();
+    // public System.Void HandleSaberSwingRatingCounterDidChange(ISaberSwingRatingCounter swingRatingCounter, System.Single rating)
+    // Offset: 0x142B6D8
+    void HandleSaberSwingRatingCounterDidChange(::GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter, float rating);
+    // public System.Void HandleSaberSwingRatingCounterDidFinish(ISaberSwingRatingCounter swingRatingCounter)
+    // Offset: 0x142B858
+    void HandleSaberSwingRatingCounterDidFinish(::GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
   }; // CutScoreBuffer
   #pragma pack(pop)
   static check_size<sizeof(CutScoreBuffer), 200 + sizeof(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>*)> __GlobalNamespace_CutScoreBufferSizeCheck;
@@ -314,6 +304,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CutScoreBuffer*), "get_afterCutSwingRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::CutScoreBuffer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CutScoreBuffer::RegisterDidChangeReceiver
 // Il2CppName: RegisterDidChangeReceiver
 template<>
@@ -386,7 +380,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CutScoreBuffer*), "HandleSaberSwingRatingCounterDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{swingRatingCounter});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CutScoreBuffer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -93,7 +93,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.TerrainData/UnityEngine.BoundaryValueType MaxBaseMapRes
     static void _set_MaxBaseMapRes(::UnityEngine::TerrainData::BoundaryValueType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.TerrainData/UnityEngine.BoundaryValueType
   #pragma pack(pop)
   static check_size<sizeof(TerrainData::BoundaryValueType), 0 + sizeof(int)> __UnityEngine_TerrainData_BoundaryValueTypeSizeCheck;

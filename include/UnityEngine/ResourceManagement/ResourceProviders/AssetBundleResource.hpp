@@ -67,15 +67,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssetBundleResource : public ::Il2CppObject/*, public ::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.AssetBundle m_AssetBundle
     // Size: 0x8
     // Offset: 0x10
@@ -144,73 +136,75 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
       return *reinterpret_cast<::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>(this);
     }
     // Get instance field reference: private UnityEngine.AssetBundle m_AssetBundle
-    ::UnityEngine::AssetBundle*& dyn_m_AssetBundle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AssetBundle*& dyn_m_AssetBundle();
     // Get instance field reference: private UnityEngine.Networking.DownloadHandlerAssetBundle m_downloadHandler
-    ::UnityEngine::Networking::DownloadHandlerAssetBundle*& dyn_m_downloadHandler();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Networking::DownloadHandlerAssetBundle*& dyn_m_downloadHandler();
     // Get instance field reference: private UnityEngine.AsyncOperation m_RequestOperation
-    ::UnityEngine::AsyncOperation*& dyn_m_RequestOperation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AsyncOperation*& dyn_m_RequestOperation();
     // Get instance field reference: private UnityEngine.ResourceManagement.WebRequestQueueOperation m_WebRequestQueueOperation
-    ::UnityEngine::ResourceManagement::WebRequestQueueOperation*& dyn_m_WebRequestQueueOperation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::WebRequestQueueOperation*& dyn_m_WebRequestQueueOperation();
     // Get instance field reference: UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_ProvideHandle
-    ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& dyn_m_ProvideHandle();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& dyn_m_ProvideHandle();
     // Get instance field reference: UnityEngine.ResourceManagement.ResourceProviders.AssetBundleRequestOptions m_Options
-    ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*& dyn_m_Options();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*& dyn_m_Options();
     // Get instance field reference: private System.Int32 m_Retries
-    int& dyn_m_Retries();
+    [[deprecated("Use field access instead!")]] int& dyn_m_Retries();
     // Get instance field reference: private System.Int64 m_BytesToDownload
-    int64_t& dyn_m_BytesToDownload();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_m_BytesToDownload();
     // Get instance field reference: private System.Int64 m_DownloadedBytes
-    int64_t& dyn_m_DownloadedBytes();
+    [[deprecated("Use field access instead!")]] int64_t& dyn_m_DownloadedBytes();
     // Get instance field reference: private System.Boolean m_Completed
-    bool& dyn_m_Completed();
-    // UnityEngine.Networking.UnityWebRequest CreateWebRequest(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation loc)
-    // Offset: 0x1E9C3E8
-    ::UnityEngine::Networking::UnityWebRequest* CreateWebRequest(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);
-    // private System.Single PercentComplete()
-    // Offset: 0x1E9C5BC
-    float PercentComplete();
-    // private UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus GetDownloadStatus()
-    // Offset: 0x1E9C5D4
-    ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus();
-    // public UnityEngine.AssetBundle GetAssetBundle()
-    // Offset: 0x1E9C790
-    ::UnityEngine::AssetBundle* GetAssetBundle();
-    // System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle provideHandle)
-    // Offset: 0x1E9BC5C
-    void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
-    // private System.Boolean WaitForCompletionHandler()
-    // Offset: 0x1E9CF40
-    bool WaitForCompletionHandler();
-    // private System.Void BeginOperation()
-    // Offset: 0x1E9CC1C
-    void BeginOperation();
-    // private System.Void LocalRequestOperationCompleted(UnityEngine.AsyncOperation op)
-    // Offset: 0x1E9D094
-    void LocalRequestOperationCompleted(::UnityEngine::AsyncOperation* op);
-    // private System.Void WebRequestOperationCompleted(UnityEngine.AsyncOperation op)
-    // Offset: 0x1E9D274
-    void WebRequestOperationCompleted(::UnityEngine::AsyncOperation* op);
-    // public System.Void Unload()
-    // Offset: 0x1E9C060
-    void Unload();
-    // private System.Void <BeginOperation>b__16_0(UnityEngine.Networking.UnityWebRequestAsyncOperation asyncOp)
-    // Offset: 0x1E9DA58
-    void $BeginOperation$b__16_0(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
+    [[deprecated("Use field access instead!")]] bool& dyn_m_Completed();
     // public System.Void .ctor()
-    // Offset: 0x1E9BC54
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1EEA18C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetBundleResource* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssetBundleResource*, creationType>()));
     }
+    // UnityEngine.Networking.UnityWebRequest CreateWebRequest(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation loc)
+    // Offset: 0x1EEA920
+    ::UnityEngine::Networking::UnityWebRequest* CreateWebRequest(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);
+    // private System.Single PercentComplete()
+    // Offset: 0x1EEAAF4
+    float PercentComplete();
+    // private UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus GetDownloadStatus()
+    // Offset: 0x1EEAB0C
+    ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus();
+    // public UnityEngine.AssetBundle GetAssetBundle()
+    // Offset: 0x1EEACC8
+    ::UnityEngine::AssetBundle* GetAssetBundle();
+    // System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle provideHandle)
+    // Offset: 0x1EEA194
+    void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
+    // private System.Boolean WaitForCompletionHandler()
+    // Offset: 0x1EEB478
+    bool WaitForCompletionHandler();
+    // private System.Void BeginOperation()
+    // Offset: 0x1EEB154
+    void BeginOperation();
+    // private System.Void LocalRequestOperationCompleted(UnityEngine.AsyncOperation op)
+    // Offset: 0x1EEB5CC
+    void LocalRequestOperationCompleted(::UnityEngine::AsyncOperation* op);
+    // private System.Void WebRequestOperationCompleted(UnityEngine.AsyncOperation op)
+    // Offset: 0x1EEB7AC
+    void WebRequestOperationCompleted(::UnityEngine::AsyncOperation* op);
+    // public System.Void Unload()
+    // Offset: 0x1EEA598
+    void Unload();
+    // private System.Void <BeginOperation>b__16_0(UnityEngine.Networking.UnityWebRequestAsyncOperation asyncOp)
+    // Offset: 0x1EEBF90
+    void $BeginOperation$b__16_0(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
   }; // UnityEngine.ResourceManagement.ResourceProviders.AssetBundleResource
   #pragma pack(pop)
   static check_size<sizeof(AssetBundleResource), 104 + sizeof(bool)> __UnityEngine_ResourceManagement_ResourceProviders_AssetBundleResourceSizeCheck;
   static_assert(sizeof(AssetBundleResource) == 0x69);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::CreateWebRequest
 // Il2CppName: CreateWebRequest
 template<>
@@ -304,7 +298,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource*), "<BeginOperation>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncOp});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

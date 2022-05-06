@@ -81,15 +81,7 @@ namespace GlobalNamespace {
     class $StartFireworksAfterDelay$d__28;
     // Nested type: ::GlobalNamespace::MissionResultsViewController::$$c__DisplayClass29_0
     class $$c__DisplayClass29_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.GameObject _failedBannerGo
     // Size: 0x8
     // Offset: 0x70
@@ -168,21 +160,21 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Button* retryButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125C1BC
+    // [SpaceAttribute] Offset: 0x10E0DA0
     // private UnityEngine.AudioClip _levelClearedAudioClip
     // Size: 0x8
     // Offset: 0xE8
     ::UnityEngine::AudioClip* levelClearedAudioClip;
     // Field size check
     static_assert(sizeof(::UnityEngine::AudioClip*) == 0x8);
-    // [InjectAttribute] Offset: 0x125C1F4
+    // [InjectAttribute] Offset: 0x10E0DD8
     // private readonly FireworksController _fireworksController
     // Size: 0x8
     // Offset: 0xF0
     ::GlobalNamespace::FireworksController* fireworksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FireworksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x125C204
+    // [InjectAttribute] Offset: 0x10E0DE8
     // private readonly SongPreviewPlayer _songPreviewPlayer
     // Size: 0x8
     // Offset: 0xF8
@@ -221,95 +213,88 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Coroutine*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.GameObject _failedBannerGo
-    ::UnityEngine::GameObject*& dyn__failedBannerGo();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__failedBannerGo();
     // Get instance field reference: private UnityEngine.GameObject _clearedBannerGo
-    ::UnityEngine::GameObject*& dyn__clearedBannerGo();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__clearedBannerGo();
     // Get instance field reference: private TMPro.TextMeshProUGUI _missionNameText
-    ::TMPro::TextMeshProUGUI*& dyn__missionNameText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__missionNameText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _songNameText
-    ::TMPro::TextMeshProUGUI*& dyn__songNameText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__songNameText();
     // Get instance field reference: private UnityEngine.Sprite _successIcon
-    ::UnityEngine::Sprite*& dyn__successIcon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__successIcon();
     // Get instance field reference: private UnityEngine.Sprite _successIconGlow
-    ::UnityEngine::Sprite*& dyn__successIconGlow();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__successIconGlow();
     // Get instance field reference: private UnityEngine.Color _successColor
-    ::UnityEngine::Color& dyn__successColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__successColor();
     // Get instance field reference: private UnityEngine.Sprite _failIcon
-    ::UnityEngine::Sprite*& dyn__failIcon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__failIcon();
     // Get instance field reference: private UnityEngine.Sprite _failIconGlow
-    ::UnityEngine::Sprite*& dyn__failIconGlow();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__failIconGlow();
     // Get instance field reference: private UnityEngine.Color _failColor
-    ::UnityEngine::Color& dyn__failColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__failColor();
     // Get instance field reference: private ResultObjectiveListItemsList _resultObjectiveListItemList
-    ::GlobalNamespace::ResultObjectiveListItemsList*& dyn__resultObjectiveListItemList();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ResultObjectiveListItemsList*& dyn__resultObjectiveListItemList();
     // Get instance field reference: private UnityEngine.UI.Button _continueButton
-    ::UnityEngine::UI::Button*& dyn__continueButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__continueButton();
     // Get instance field reference: private UnityEngine.UI.Button _retryButton
-    ::UnityEngine::UI::Button*& dyn__retryButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__retryButton();
     // Get instance field reference: private UnityEngine.AudioClip _levelClearedAudioClip
-    ::UnityEngine::AudioClip*& dyn__levelClearedAudioClip();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioClip*& dyn__levelClearedAudioClip();
     // Get instance field reference: private readonly FireworksController _fireworksController
-    ::GlobalNamespace::FireworksController*& dyn__fireworksController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::FireworksController*& dyn__fireworksController();
     // Get instance field reference: private readonly SongPreviewPlayer _songPreviewPlayer
-    ::GlobalNamespace::SongPreviewPlayer*& dyn__songPreviewPlayer();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongPreviewPlayer*& dyn__songPreviewPlayer();
     // Get instance field reference: private System.Action`1<MissionResultsViewController> continueButtonPressedEvent
-    ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*& dyn_continueButtonPressedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*& dyn_continueButtonPressedEvent();
     // Get instance field reference: private System.Action`1<MissionResultsViewController> retryButtonPressedEvent
-    ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*& dyn_retryButtonPressedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*& dyn_retryButtonPressedEvent();
     // Get instance field reference: private MissionNode _missionNode
-    ::GlobalNamespace::MissionNode*& dyn__missionNode();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionNode*& dyn__missionNode();
     // Get instance field reference: private MissionCompletionResults _missionCompletionResults
-    ::GlobalNamespace::MissionCompletionResults*& dyn__missionCompletionResults();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionCompletionResults*& dyn__missionCompletionResults();
     // Get instance field reference: private UnityEngine.Coroutine _startFireworksAfterDelayCoroutine
-    ::UnityEngine::Coroutine*& dyn__startFireworksAfterDelayCoroutine();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Coroutine*& dyn__startFireworksAfterDelayCoroutine();
     // public System.Void add_continueButtonPressedEvent(System.Action`1<MissionResultsViewController> value)
-    // Offset: 0x130C628
+    // Offset: 0x1308B00
     void add_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value);
     // public System.Void remove_continueButtonPressedEvent(System.Action`1<MissionResultsViewController> value)
-    // Offset: 0x130C6D0
+    // Offset: 0x1308BA8
     void remove_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value);
     // public System.Void add_retryButtonPressedEvent(System.Action`1<MissionResultsViewController> value)
-    // Offset: 0x130C778
+    // Offset: 0x1308C50
     void add_retryButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value);
     // public System.Void remove_retryButtonPressedEvent(System.Action`1<MissionResultsViewController> value)
-    // Offset: 0x130C820
+    // Offset: 0x1308CF8
     void remove_retryButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value);
-    // public System.Void Init(MissionNode missionNode, MissionCompletionResults missionCompletionResults)
-    // Offset: 0x130C8C8
-    void Init(::GlobalNamespace::MissionNode* missionNode, ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
-    // private System.Collections.IEnumerator StartFireworksAfterDelay(System.Single delay)
-    // Offset: 0x130CC8C
-    ::System::Collections::IEnumerator* StartFireworksAfterDelay(float delay);
-    // private System.Void SetDataToUI()
-    // Offset: 0x130CA4C
-    void SetDataToUI();
-    // private System.Void ContinueButtonPressed()
-    // Offset: 0x130CD54
-    void ContinueButtonPressed();
-    // private System.Void RetryButtonPressed()
-    // Offset: 0x130CDB8
-    void RetryButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0x130CE1C
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13092F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionResultsViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionResultsViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionResultsViewController*, creationType>()));
     }
+    // public System.Void Init(MissionNode missionNode, MissionCompletionResults missionCompletionResults)
+    // Offset: 0x1308DA0
+    void Init(::GlobalNamespace::MissionNode* missionNode, ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
+    // private System.Collections.IEnumerator StartFireworksAfterDelay(System.Single delay)
+    // Offset: 0x1309164
+    ::System::Collections::IEnumerator* StartFireworksAfterDelay(float delay);
+    // private System.Void SetDataToUI()
+    // Offset: 0x1308F24
+    void SetDataToUI();
+    // private System.Void ContinueButtonPressed()
+    // Offset: 0x130922C
+    void ContinueButtonPressed();
+    // private System.Void RetryButtonPressed()
+    // Offset: 0x1309290
+    void RetryButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x130C8D0
+    // Offset: 0x1308DA8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x130CD0C
+    // Offset: 0x13091E4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
@@ -355,6 +340,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionResultsViewController*), "remove_retryButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::Init
 // Il2CppName: Init
 template<>
@@ -398,10 +387,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionResultsViewController*), "RetryButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

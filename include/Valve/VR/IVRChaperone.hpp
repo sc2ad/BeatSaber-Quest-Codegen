@@ -101,21 +101,21 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: Valve.VR.IVRChaperone/Valve.VR._GetCalibrationState GetCalibrationState
-    ::Valve::VR::IVRChaperone::_GetCalibrationState*& dyn_GetCalibrationState();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperone::_GetCalibrationState*& dyn_GetCalibrationState();
     // Get instance field reference: Valve.VR.IVRChaperone/Valve.VR._GetPlayAreaSize GetPlayAreaSize
-    ::Valve::VR::IVRChaperone::_GetPlayAreaSize*& dyn_GetPlayAreaSize();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperone::_GetPlayAreaSize*& dyn_GetPlayAreaSize();
     // Get instance field reference: Valve.VR.IVRChaperone/Valve.VR._GetPlayAreaRect GetPlayAreaRect
-    ::Valve::VR::IVRChaperone::_GetPlayAreaRect*& dyn_GetPlayAreaRect();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperone::_GetPlayAreaRect*& dyn_GetPlayAreaRect();
     // Get instance field reference: Valve.VR.IVRChaperone/Valve.VR._ReloadInfo ReloadInfo
-    ::Valve::VR::IVRChaperone::_ReloadInfo*& dyn_ReloadInfo();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperone::_ReloadInfo*& dyn_ReloadInfo();
     // Get instance field reference: Valve.VR.IVRChaperone/Valve.VR._SetSceneColor SetSceneColor
-    ::Valve::VR::IVRChaperone::_SetSceneColor*& dyn_SetSceneColor();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperone::_SetSceneColor*& dyn_SetSceneColor();
     // Get instance field reference: Valve.VR.IVRChaperone/Valve.VR._GetBoundsColor GetBoundsColor
-    ::Valve::VR::IVRChaperone::_GetBoundsColor*& dyn_GetBoundsColor();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperone::_GetBoundsColor*& dyn_GetBoundsColor();
     // Get instance field reference: Valve.VR.IVRChaperone/Valve.VR._AreBoundsVisible AreBoundsVisible
-    ::Valve::VR::IVRChaperone::_AreBoundsVisible*& dyn_AreBoundsVisible();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperone::_AreBoundsVisible*& dyn_AreBoundsVisible();
     // Get instance field reference: Valve.VR.IVRChaperone/Valve.VR._ForceBoundsVisible ForceBoundsVisible
-    ::Valve::VR::IVRChaperone::_ForceBoundsVisible*& dyn_ForceBoundsVisible();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperone::_ForceBoundsVisible*& dyn_ForceBoundsVisible();
   }; // Valve.VR.IVRChaperone
   #pragma pack(pop)
   static check_size<sizeof(IVRChaperone), 56 + sizeof(::Valve::VR::IVRChaperone::_ForceBoundsVisible*)> __Valve_VR_IVRChaperoneSizeCheck;

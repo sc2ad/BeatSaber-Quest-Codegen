@@ -38,15 +38,7 @@ namespace System::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class TripleDESTransform : public ::Mono::Security::Cryptography::SymmetricTransform {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Security.Cryptography.DESTransform E1
     // Size: 0x8
     // Offset: 0x58
@@ -85,29 +77,29 @@ namespace System::Security::Cryptography {
     static_assert(sizeof(::System::Security::Cryptography::DESTransform*) == 0x8);
     public:
     // Get instance field reference: private System.Security.Cryptography.DESTransform E1
-    ::System::Security::Cryptography::DESTransform*& dyn_E1();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::DESTransform*& dyn_E1();
     // Get instance field reference: private System.Security.Cryptography.DESTransform D2
-    ::System::Security::Cryptography::DESTransform*& dyn_D2();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::DESTransform*& dyn_D2();
     // Get instance field reference: private System.Security.Cryptography.DESTransform E3
-    ::System::Security::Cryptography::DESTransform*& dyn_E3();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::DESTransform*& dyn_E3();
     // Get instance field reference: private System.Security.Cryptography.DESTransform D1
-    ::System::Security::Cryptography::DESTransform*& dyn_D1();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::DESTransform*& dyn_D1();
     // Get instance field reference: private System.Security.Cryptography.DESTransform E2
-    ::System::Security::Cryptography::DESTransform*& dyn_E2();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::DESTransform*& dyn_E2();
     // Get instance field reference: private System.Security.Cryptography.DESTransform D3
-    ::System::Security::Cryptography::DESTransform*& dyn_D3();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::DESTransform*& dyn_D3();
     // public System.Void .ctor(System.Security.Cryptography.TripleDES algo, System.Boolean encryption, System.Byte[] key, System.Byte[] iv)
-    // Offset: 0x208686C
+    // Offset: 0x20D00E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TripleDESTransform* New_ctor(::System::Security::Cryptography::TripleDES* algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::TripleDESTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TripleDESTransform*, creationType>(algo, encryption, key, iv)));
     }
     // static System.Byte[] GetStrongKey()
-    // Offset: 0x2086DDC
+    // Offset: 0x20D0650
     static ::ArrayW<uint8_t> GetStrongKey();
     // protected override System.Void ECB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x2086E94
+    // Offset: 0x20D0708
     // Implemented from: Mono.Security.Cryptography.SymmetricTransform
     // Base method: System.Void SymmetricTransform::ECB(System.Byte[] input, System.Byte[] output)
     void ECB(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output);

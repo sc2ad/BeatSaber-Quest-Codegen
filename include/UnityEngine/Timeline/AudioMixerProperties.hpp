@@ -37,30 +37,22 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class AudioMixerProperties : public ::UnityEngine::Playables::PlayableBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [RangeAttribute] Offset: 0x120C8DC
+    // [RangeAttribute] Offset: 0x10922F4
     // public System.Single volume
     // Size: 0x4
     // Offset: 0x10
     float volume;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x120C8F4
+    // [RangeAttribute] Offset: 0x109230C
     // public System.Single stereoPan
     // Size: 0x4
     // Offset: 0x14
     float stereoPan;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x120C90C
+    // [RangeAttribute] Offset: 0x1092324
     // public System.Single spatialBlend
     // Size: 0x4
     // Offset: 0x18
@@ -69,23 +61,20 @@ namespace UnityEngine::Timeline {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public System.Single volume
-    float& dyn_volume();
+    [[deprecated("Use field access instead!")]] float& dyn_volume();
     // Get instance field reference: public System.Single stereoPan
-    float& dyn_stereoPan();
+    [[deprecated("Use field access instead!")]] float& dyn_stereoPan();
     // Get instance field reference: public System.Single spatialBlend
-    float& dyn_spatialBlend();
+    [[deprecated("Use field access instead!")]] float& dyn_spatialBlend();
     // public System.Void .ctor()
-    // Offset: 0x1D770E0
-    // Implemented from: UnityEngine.Playables.PlayableBehaviour
-    // Base method: System.Void PlayableBehaviour::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1DB2638
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioMixerProperties* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::AudioMixerProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioMixerProperties*, creationType>()));
     }
     // public override System.Void PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x1D76EC4
+    // Offset: 0x1DB241C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);

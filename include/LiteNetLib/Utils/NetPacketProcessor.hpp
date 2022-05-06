@@ -100,15 +100,7 @@ namespace LiteNetLib::Utils {
     // Nested type: ::LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass32_0_1<T>
     template<typename T>
     class $$c__DisplayClass32_0_1;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly LiteNetLib.Utils.NetSerializer _netSerializer
     // Size: 0x8
     // Offset: 0x10
@@ -129,13 +121,20 @@ namespace LiteNetLib::Utils {
     static_assert(sizeof(::LiteNetLib::Utils::NetDataWriter*) == 0x8);
     public:
     // Get instance field reference: private readonly LiteNetLib.Utils.NetSerializer _netSerializer
-    ::LiteNetLib::Utils::NetSerializer*& dyn__netSerializer();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::Utils::NetSerializer*& dyn__netSerializer();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.UInt64,LiteNetLib.Utils.NetPacketProcessor/LiteNetLib.Utils.SubscribeDelegate> _callbacks
-    ::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate*>*& dyn__callbacks();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate*>*& dyn__callbacks();
     // Get instance field reference: private readonly LiteNetLib.Utils.NetDataWriter _netDataWriter
-    ::LiteNetLib::Utils::NetDataWriter*& dyn__netDataWriter();
+    [[deprecated("Use field access instead!")]] ::LiteNetLib::Utils::NetDataWriter*& dyn__netDataWriter();
+    // public System.Void .ctor()
+    // Offset: 0x2ADE0A0
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static NetPacketProcessor* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<NetPacketProcessor*, creationType>()));
+    }
     // public System.Void .ctor(System.Int32 maxStringLength)
-    // Offset: 0x2A88410
+    // Offset: 0x2ADE15C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPacketProcessor* New_ctor(int maxStringLength) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::.ctor");
@@ -151,7 +150,7 @@ namespace LiteNetLib::Utils {
       return ::il2cpp_utils::RunMethodRethrow<uint64_t, false>(this, ___generic__method);
     }
     // protected LiteNetLib.Utils.NetPacketProcessor/LiteNetLib.Utils.SubscribeDelegate GetCallbackFromData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2A88554
+    // Offset: 0x2ADE2A0
     ::LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate* GetCallbackFromData(::LiteNetLib::Utils::NetDataReader* reader);
     // protected System.Void WriteHash(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -192,13 +191,13 @@ namespace LiteNetLib::Utils {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, constructor);
     }
     // public System.Void ReadAllPackets(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2A88694
+    // Offset: 0x2ADE3E0
     void ReadAllPackets(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void ReadAllPackets(LiteNetLib.Utils.NetDataReader reader, System.Object userData)
-    // Offset: 0x2A886EC
+    // Offset: 0x2ADE438
     void ReadAllPackets(::LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData);
     // public System.Void ReadPacket(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2A886E4
+    // Offset: 0x2ADE430
     void ReadPacket(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Send(LiteNetLib.NetPeer peer, T packet, LiteNetLib.DeliveryMethod options)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -277,7 +276,7 @@ namespace LiteNetLib::Utils {
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<uint8_t>, false>(this, ___generic__method, packet);
     }
     // public System.Void ReadPacket(LiteNetLib.Utils.NetDataReader reader, System.Object userData)
-    // Offset: 0x2A88748
+    // Offset: 0x2ADE494
     void ReadPacket(::LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData);
     // public System.Void Subscribe(System.Action`1<T> onReceive, System.Func`1<T> packetConstructor)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -364,21 +363,16 @@ namespace LiteNetLib::Utils {
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___generic__method);
     }
-    // public System.Void .ctor()
-    // Offset: 0x2A88354
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NetPacketProcessor* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<NetPacketProcessor*, creationType>()));
-    }
   }; // LiteNetLib.Utils.NetPacketProcessor
   #pragma pack(pop)
   static check_size<sizeof(NetPacketProcessor), 32 + sizeof(::LiteNetLib::Utils::NetDataWriter*)> __LiteNetLib_Utils_NetPacketProcessorSizeCheck;
   static_assert(sizeof(NetPacketProcessor) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetPacketProcessor::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetPacketProcessor::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -496,7 +490,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetPacketProcessor::RemoveSubscription
 // Il2CppName: RemoveSubscription
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: LiteNetLib::Utils::NetPacketProcessor::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

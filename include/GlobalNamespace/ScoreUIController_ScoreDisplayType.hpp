@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Set static field: static public ScoreUIController/ScoreDisplayType ModifiedScore
     static void _set_ModifiedScore(::GlobalNamespace::ScoreUIController::ScoreDisplayType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // ScoreUIController/ScoreDisplayType
   #pragma pack(pop)
   static check_size<sizeof(ScoreUIController::ScoreDisplayType), 0 + sizeof(int)> __GlobalNamespace_ScoreUIController_ScoreDisplayTypeSizeCheck;

@@ -25,15 +25,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultEnvironmentEvents::LightGroupEvent : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _groupId
     // Size: 0x4
     // Offset: 0x10
@@ -66,34 +58,32 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private System.Int32 _groupId
-    int& dyn__groupId();
+    [[deprecated("Use field access instead!")]] int& dyn__groupId();
     // Get instance field reference: private EnvironmentColorType _environmentColorType
-    ::GlobalNamespace::EnvironmentColorType& dyn__environmentColorType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentColorType& dyn__environmentColorType();
     // Get instance field reference: private System.Single _brightness
-    float& dyn__brightness();
+    [[deprecated("Use field access instead!")]] float& dyn__brightness();
     // Get instance field reference: private System.Single _rotationX
-    float& dyn__rotationX();
+    [[deprecated("Use field access instead!")]] float& dyn__rotationX();
     // Get instance field reference: private System.Single _rotationY
-    float& dyn__rotationY();
+    [[deprecated("Use field access instead!")]] float& dyn__rotationY();
     // public System.Int32 get_groupId()
-    // Offset: 0x140E498
+    // Offset: 0x142E244
     int get_groupId();
     // public EnvironmentColorType get_environmentColorType()
-    // Offset: 0x140E4A0
+    // Offset: 0x142E24C
     ::GlobalNamespace::EnvironmentColorType get_environmentColorType();
     // public System.Single get_brightness()
-    // Offset: 0x140E4A8
+    // Offset: 0x142E254
     float get_brightness();
     // public System.Single get_rotationX()
-    // Offset: 0x140E4B0
+    // Offset: 0x142E25C
     float get_rotationX();
     // public System.Single get_rotationY()
-    // Offset: 0x140E4B8
+    // Offset: 0x142E264
     float get_rotationY();
     // public System.Void .ctor()
-    // Offset: 0x140E4C0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x142E26C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultEnvironmentEvents::LightGroupEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DefaultEnvironmentEvents::LightGroupEvent::.ctor");

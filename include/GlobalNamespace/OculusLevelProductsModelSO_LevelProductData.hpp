@@ -24,15 +24,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OculusLevelProductsModelSO::LevelProductData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _levelId
     // Size: 0x8
     // Offset: 0x10
@@ -53,24 +45,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String _levelId
-    ::StringW& dyn__levelId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__levelId();
     // Get instance field reference: private System.String _sku
-    ::StringW& dyn__sku();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__sku();
     // Get instance field reference: private System.String _assetFile
-    ::StringW& dyn__assetFile();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__assetFile();
     // public System.String get_sku()
-    // Offset: 0x150FBD8
+    // Offset: 0x15474E0
     ::StringW get_sku();
     // public System.String get_levelId()
-    // Offset: 0x150FBE0
+    // Offset: 0x15474E8
     ::StringW get_levelId();
     // public System.String get_assetFile()
-    // Offset: 0x150FBE8
+    // Offset: 0x15474F0
     ::StringW get_assetFile();
     // public System.Void .ctor()
-    // Offset: 0x150FBF0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x15474F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusLevelProductsModelSO::LevelProductData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusLevelProductsModelSO::LevelProductData::.ctor");

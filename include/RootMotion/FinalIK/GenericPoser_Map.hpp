@@ -34,15 +34,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class GenericPoser::Map : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Transform bone
     // Size: 0x8
     // Offset: 0x10
@@ -69,28 +61,28 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     public:
     // Get instance field reference: public UnityEngine.Transform bone
-    ::UnityEngine::Transform*& dyn_bone();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_bone();
     // Get instance field reference: public UnityEngine.Transform target
-    ::UnityEngine::Transform*& dyn_target();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_target();
     // Get instance field reference: private UnityEngine.Vector3 defaultLocalPosition
-    ::UnityEngine::Vector3& dyn_defaultLocalPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_defaultLocalPosition();
     // Get instance field reference: private UnityEngine.Quaternion defaultLocalRotation
-    ::UnityEngine::Quaternion& dyn_defaultLocalRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_defaultLocalRotation();
     // public System.Void .ctor(UnityEngine.Transform bone, UnityEngine.Transform target)
-    // Offset: 0x21C8C8C
+    // Offset: 0x2216500
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericPoser::Map* New_ctor(::UnityEngine::Transform* bone, ::UnityEngine::Transform* target) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::GenericPoser::Map::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericPoser::Map*, creationType>(bone, target)));
     }
     // public System.Void StoreDefaultState()
-    // Offset: 0x21C9090
+    // Offset: 0x2216904
     void StoreDefaultState();
     // public System.Void FixTransform()
-    // Offset: 0x21C9044
+    // Offset: 0x22168B8
     void FixTransform();
     // public System.Void Update(System.Single localRotationWeight, System.Single localPositionWeight)
-    // Offset: 0x21C8E3C
+    // Offset: 0x22166B0
     void Update(float localRotationWeight, float localPositionWeight);
   }; // RootMotion.FinalIK.GenericPoser/RootMotion.FinalIK.Map
   #pragma pack(pop)

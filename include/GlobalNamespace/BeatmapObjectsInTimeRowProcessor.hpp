@@ -60,15 +60,7 @@ namespace GlobalNamespace {
     class $$c__DisplayClass17_0;
     // Nested type: ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<NoteData> _currentTimeSliceColorNotes
     // Size: 0x8
     // Offset: 0x10
@@ -119,53 +111,53 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMaxNotesAlignmentAngle
     static void _set_kMaxNotesAlignmentAngle(float value);
     // Get instance field reference: private readonly BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<NoteData> _currentTimeSliceColorNotes
-    ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<::GlobalNamespace::NoteData*>*& dyn__currentTimeSliceColorNotes();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<::GlobalNamespace::NoteData*>*& dyn__currentTimeSliceColorNotes();
     // Get instance field reference: private readonly BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<BeatmapDataItem> _currentTimeSliceAllNotesAndSliders
-    ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<::GlobalNamespace::BeatmapDataItem*>*& dyn__currentTimeSliceAllNotesAndSliders();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<::GlobalNamespace::BeatmapDataItem*>*& dyn__currentTimeSliceAllNotesAndSliders();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<ColorType,BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<NoteData>> _currentTimeSliceNotesByColorType
-    ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ColorType, ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<::GlobalNamespace::NoteData*>*>*& dyn__currentTimeSliceNotesByColorType();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ColorType, ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<::GlobalNamespace::NoteData*>*>*& dyn__currentTimeSliceNotesByColorType();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<SliderData> _unprocessedSliderTails
-    ::System::Collections::Generic::List_1<::GlobalNamespace::SliderData*>*& dyn__unprocessedSliderTails();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::SliderData*>*& dyn__unprocessedSliderTails();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<NoteData>[] _notesInColumnsReusableProcessingListOfLists
-    ::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*>& dyn__notesInColumnsReusableProcessingListOfLists();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*>& dyn__notesInColumnsReusableProcessingListOfLists();
     // Get instance field reference: private readonly System.Int32 _numberOfLines
-    int& dyn__numberOfLines();
+    [[deprecated("Use field access instead!")]] int& dyn__numberOfLines();
     // public System.Void .ctor(System.Int32 numberOfLines)
-    // Offset: 0x2816364
+    // Offset: 0x2868924
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectsInTimeRowProcessor* New_ctor(int numberOfLines) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectsInTimeRowProcessor*, creationType>(numberOfLines)));
     }
     // public System.Void ProcessNote(NoteData noteData)
-    // Offset: 0x2816808
+    // Offset: 0x2868DC8
     void ProcessNote(::GlobalNamespace::NoteData* noteData);
     // public System.Void ProcessSlider(SliderData sliderData)
-    // Offset: 0x28168DC
+    // Offset: 0x2868E9C
     void ProcessSlider(::GlobalNamespace::SliderData* sliderData);
     // public System.Void ProcessAllRemainingData()
-    // Offset: 0x28169E4
+    // Offset: 0x2868FA4
     void ProcessAllRemainingData();
     // private System.Void HandleCurrentTimeSliceColorNotesDidAddItem(BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<NoteData> timeSliceContainer, NoteData noteData)
-    // Offset: 0x2816B50
+    // Offset: 0x2869110
     void HandleCurrentTimeSliceColorNotesDidAddItem(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<::GlobalNamespace::NoteData*>* timeSliceContainer, ::GlobalNamespace::NoteData* noteData);
     // private System.Void HandleCurrentNewTimeSliceAllNotesAndSlidersDidStartNewTimeSlice(BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<BeatmapDataItem> allObjectsTimeSlice)
-    // Offset: 0x2816BC0
+    // Offset: 0x2869180
     void HandleCurrentNewTimeSliceAllNotesAndSlidersDidStartNewTimeSlice(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<::GlobalNamespace::BeatmapDataItem*>* allObjectsTimeSlice);
     // private System.Void HandleCurrentTimeSliceAllNotesAndSlidersDidFinishTimeSlice(BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<BeatmapDataItem> allObjectsTimeSlice, System.Single nextTimeSliceTime)
-    // Offset: 0x2816DB4
+    // Offset: 0x2869374
     void HandleCurrentTimeSliceAllNotesAndSlidersDidFinishTimeSlice(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<::GlobalNamespace::BeatmapDataItem*>* allObjectsTimeSlice, float nextTimeSliceTime);
     // private System.Void HandleCurrentTimeSliceColorNotesDidFinishTimeSlice(BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<NoteData> currentTimeSlice, System.Single nextTimeSliceTime)
-    // Offset: 0x2817FA4
+    // Offset: 0x286A564
     void HandleCurrentTimeSliceColorNotesDidFinishTimeSlice(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<::GlobalNamespace::NoteData*>* currentTimeSlice, float nextTimeSliceTime);
     // private System.Void HandlePerColorTypeTimeSliceContainerDidFinishTimeSlice(BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<NoteData> timeSliceContainer, System.Single nextTimeSliceTime)
-    // Offset: 0x28185E0
+    // Offset: 0x286ABA0
     void HandlePerColorTypeTimeSliceContainerDidFinishTimeSlice(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<::GlobalNamespace::NoteData*>* timeSliceContainer, float nextTimeSliceTime);
     // static private System.Boolean SliderHeadPositionOverlapsWithNote(SliderData slider, NoteData note)
-    // Offset: 0x2817D60
+    // Offset: 0x286A320
     static bool SliderHeadPositionOverlapsWithNote(::GlobalNamespace::SliderData* slider, ::GlobalNamespace::NoteData* note);
     // static private System.Boolean SliderTailPositionOverlapsWithNote(SliderData slider, NoteData note)
-    // Offset: 0x2817F40
+    // Offset: 0x286A500
     static bool SliderTailPositionOverlapsWithNote(::GlobalNamespace::SliderData* slider, ::GlobalNamespace::NoteData* note);
   }; // BeatmapObjectsInTimeRowProcessor
   #pragma pack(pop)

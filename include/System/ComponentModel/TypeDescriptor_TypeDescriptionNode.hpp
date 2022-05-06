@@ -46,15 +46,7 @@ namespace System::ComponentModel {
     struct DefaultExtendedTypeDescriptor;
     // Nested type: ::System::ComponentModel::TypeDescriptor::TypeDescriptionNode::DefaultTypeDescriptor
     struct DefaultTypeDescriptor;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.ComponentModel.TypeDescriptor/System.ComponentModel.TypeDescriptionNode Next
     // Size: 0x8
     // Offset: 0x20
@@ -69,33 +61,33 @@ namespace System::ComponentModel {
     static_assert(sizeof(::System::ComponentModel::TypeDescriptionProvider*) == 0x8);
     public:
     // Get instance field reference: System.ComponentModel.TypeDescriptor/System.ComponentModel.TypeDescriptionNode Next
-    ::System::ComponentModel::TypeDescriptor::TypeDescriptionNode*& dyn_Next();
+    [[deprecated("Use field access instead!")]] ::System::ComponentModel::TypeDescriptor::TypeDescriptionNode*& dyn_Next();
     // Get instance field reference: System.ComponentModel.TypeDescriptionProvider Provider
-    ::System::ComponentModel::TypeDescriptionProvider*& dyn_Provider();
+    [[deprecated("Use field access instead!")]] ::System::ComponentModel::TypeDescriptionProvider*& dyn_Provider();
     // System.Void .ctor(System.ComponentModel.TypeDescriptionProvider provider)
-    // Offset: 0x1CA44AC
+    // Offset: 0x1CE0A04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeDescriptor::TypeDescriptionNode* New_ctor(::System::ComponentModel::TypeDescriptionProvider* provider) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::TypeDescriptor::TypeDescriptionNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeDescriptor::TypeDescriptionNode*, creationType>(provider)));
     }
     // public override System.Collections.IDictionary GetCache(System.Object instance)
-    // Offset: 0x1CA44D8
+    // Offset: 0x1CE0A30
     // Implemented from: System.ComponentModel.TypeDescriptionProvider
     // Base method: System.Collections.IDictionary TypeDescriptionProvider::GetCache(System.Object instance)
     ::System::Collections::IDictionary* GetCache(::Il2CppObject* instance);
     // public override System.ComponentModel.ICustomTypeDescriptor GetExtendedTypeDescriptor(System.Object instance)
-    // Offset: 0x1CA457C
+    // Offset: 0x1CE0AD4
     // Implemented from: System.ComponentModel.TypeDescriptionProvider
     // Base method: System.ComponentModel.ICustomTypeDescriptor TypeDescriptionProvider::GetExtendedTypeDescriptor(System.Object instance)
     ::System::ComponentModel::ICustomTypeDescriptor* GetExtendedTypeDescriptor(::Il2CppObject* instance);
     // public override System.Type GetReflectionType(System.Type objectType, System.Object instance)
-    // Offset: 0x1CA4630
+    // Offset: 0x1CE0B88
     // Implemented from: System.ComponentModel.TypeDescriptionProvider
     // Base method: System.Type TypeDescriptionProvider::GetReflectionType(System.Type objectType, System.Object instance)
     ::System::Type* GetReflectionType(::System::Type* objectType, ::Il2CppObject* instance);
     // public override System.ComponentModel.ICustomTypeDescriptor GetTypeDescriptor(System.Type objectType, System.Object instance)
-    // Offset: 0x1CA470C
+    // Offset: 0x1CE0C64
     // Implemented from: System.ComponentModel.TypeDescriptionProvider
     // Base method: System.ComponentModel.ICustomTypeDescriptor TypeDescriptionProvider::GetTypeDescriptor(System.Type objectType, System.Object instance)
     ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::System::Type* objectType, ::Il2CppObject* instance);

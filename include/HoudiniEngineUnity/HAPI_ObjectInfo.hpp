@@ -94,25 +94,25 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 nameSH
-    int& dyn_nameSH();
+    [[deprecated("Use field access instead!")]] int& dyn_nameSH();
     // Get instance field reference: public System.Int32 objectInstancePathSH
-    int& dyn_objectInstancePathSH();
+    [[deprecated("Use field access instead!")]] int& dyn_objectInstancePathSH();
     // Get instance field reference: public System.Boolean hasTransformChanged
-    bool& dyn_hasTransformChanged();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasTransformChanged();
     // Get instance field reference: public System.Boolean haveGeosChanged
-    bool& dyn_haveGeosChanged();
+    [[deprecated("Use field access instead!")]] bool& dyn_haveGeosChanged();
     // Get instance field reference: public System.Boolean isVisible
-    bool& dyn_isVisible();
+    [[deprecated("Use field access instead!")]] bool& dyn_isVisible();
     // Get instance field reference: public System.Boolean isInstancer
-    bool& dyn_isInstancer();
+    [[deprecated("Use field access instead!")]] bool& dyn_isInstancer();
     // Get instance field reference: public System.Boolean isInstanced
-    bool& dyn_isInstanced();
+    [[deprecated("Use field access instead!")]] bool& dyn_isInstanced();
     // Get instance field reference: public System.Int32 geoCount
-    int& dyn_geoCount();
+    [[deprecated("Use field access instead!")]] int& dyn_geoCount();
     // Get instance field reference: public System.Int32 nodeId
-    int& dyn_nodeId();
+    [[deprecated("Use field access instead!")]] int& dyn_nodeId();
     // Get instance field reference: public System.Int32 objectToInstanceId
-    int& dyn_objectToInstanceId();
+    [[deprecated("Use field access instead!")]] int& dyn_objectToInstanceId();
   }; // HoudiniEngineUnity.HAPI_ObjectInfo
   #pragma pack(pop)
   static check_size<sizeof(HAPI_ObjectInfo), 24 + sizeof(int)> __HoudiniEngineUnity_HAPI_ObjectInfoSizeCheck;

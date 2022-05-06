@@ -63,7 +63,7 @@ namespace UnityEngine::UI {
     // Set static field: static public UnityEngine.UI.Image/UnityEngine.UI.Origin90 BottomRight
     static void _set_BottomRight(::UnityEngine::UI::Image::Origin90 value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.UI.Image/UnityEngine.UI.Origin90
   #pragma pack(pop)
   static check_size<sizeof(Image::Origin90), 0 + sizeof(int)> __UnityEngine_UI_Image_Origin90SizeCheck;

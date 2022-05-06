@@ -30,15 +30,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MenuEnvironmentManager::MenuEnvironmentObjects : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MenuEnvironmentManager/MenuEnvironmentType _menuEnvironmentType
     // Size: 0x4
     // Offset: 0x10
@@ -55,19 +47,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
     public:
     // Get instance field reference: private MenuEnvironmentManager/MenuEnvironmentType _menuEnvironmentType
-    ::GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType& dyn__menuEnvironmentType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType& dyn__menuEnvironmentType();
     // Get instance field reference: private UnityEngine.GameObject _wrapper
-    ::UnityEngine::GameObject*& dyn__wrapper();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__wrapper();
     // public MenuEnvironmentManager/MenuEnvironmentType get_menuEnvironmentType()
-    // Offset: 0x12FEB58
+    // Offset: 0x12FB030
     ::GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType get_menuEnvironmentType();
     // public UnityEngine.GameObject get_wrapper()
-    // Offset: 0x12FEB60
+    // Offset: 0x12FB038
     ::UnityEngine::GameObject* get_wrapper();
     // public System.Void .ctor()
-    // Offset: 0x12FEB68
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x12FB040
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuEnvironmentManager::MenuEnvironmentObjects* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects::.ctor");

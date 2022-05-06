@@ -38,51 +38,43 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionObject::AnimatorEvent : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x1277B98
+    // [TooltipAttribute] Offset: 0x10FC850
     // public UnityEngine.Animator animator
     // Size: 0x8
     // Offset: 0x10
     ::UnityEngine::Animator* animator;
     // Field size check
     static_assert(sizeof(::UnityEngine::Animator*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1277BD0
+    // [TooltipAttribute] Offset: 0x10FC888
     // public UnityEngine.Animation animation
     // Size: 0x8
     // Offset: 0x18
     ::UnityEngine::Animation* animation;
     // Field size check
     static_assert(sizeof(::UnityEngine::Animation*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1277C08
+    // [TooltipAttribute] Offset: 0x10FC8C0
     // public System.String animationState
     // Size: 0x8
     // Offset: 0x20
     ::StringW animationState;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [TooltipAttribute] Offset: 0x1277C40
+    // [TooltipAttribute] Offset: 0x10FC8F8
     // public System.Single crossfadeTime
     // Size: 0x4
     // Offset: 0x28
     float crossfadeTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1277C78
+    // [TooltipAttribute] Offset: 0x10FC930
     // public System.Int32 layer
     // Size: 0x4
     // Offset: 0x2C
     int layer;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TooltipAttribute] Offset: 0x1277CB0
+    // [TooltipAttribute] Offset: 0x10FC968
     // public System.Boolean resetNormalizedTime
     // Size: 0x1
     // Offset: 0x30
@@ -97,41 +89,43 @@ namespace RootMotion::FinalIK {
     // Set static field: static private System.String empty
     static void _set_empty(::StringW value);
     // Get instance field reference: public UnityEngine.Animator animator
-    ::UnityEngine::Animator*& dyn_animator();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Animator*& dyn_animator();
     // Get instance field reference: public UnityEngine.Animation animation
-    ::UnityEngine::Animation*& dyn_animation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Animation*& dyn_animation();
     // Get instance field reference: public System.String animationState
-    ::StringW& dyn_animationState();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_animationState();
     // Get instance field reference: public System.Single crossfadeTime
-    float& dyn_crossfadeTime();
+    [[deprecated("Use field access instead!")]] float& dyn_crossfadeTime();
     // Get instance field reference: public System.Int32 layer
-    int& dyn_layer();
+    [[deprecated("Use field access instead!")]] int& dyn_layer();
     // Get instance field reference: public System.Boolean resetNormalizedTime
-    bool& dyn_resetNormalizedTime();
-    // public System.Void Activate(System.Boolean pickUp)
-    // Offset: 0x2357044
-    void Activate(bool pickUp);
-    // private System.Void Activate(UnityEngine.Animator animator)
-    // Offset: 0x2357138
-    void Activate(::UnityEngine::Animator* animator);
-    // private System.Void Activate(UnityEngine.Animation animation)
-    // Offset: 0x23571F0
-    void Activate(::UnityEngine::Animation* animation);
+    [[deprecated("Use field access instead!")]] bool& dyn_resetNormalizedTime();
     // public System.Void .ctor()
-    // Offset: 0x23572D0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x23A0B44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionObject::AnimatorEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionObject::AnimatorEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionObject::AnimatorEvent*, creationType>()));
     }
+    // public System.Void Activate(System.Boolean pickUp)
+    // Offset: 0x23A08B8
+    void Activate(bool pickUp);
+    // private System.Void Activate(UnityEngine.Animator animator)
+    // Offset: 0x23A09AC
+    void Activate(::UnityEngine::Animator* animator);
+    // private System.Void Activate(UnityEngine.Animation animation)
+    // Offset: 0x23A0A64
+    void Activate(::UnityEngine::Animation* animation);
   }; // RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.AnimatorEvent
   #pragma pack(pop)
   static check_size<sizeof(InteractionObject::AnimatorEvent), 48 + sizeof(bool)> __RootMotion_FinalIK_InteractionObject_AnimatorEventSizeCheck;
   static_assert(sizeof(InteractionObject::AnimatorEvent) == 0x31);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::AnimatorEvent::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::AnimatorEvent::Activate
 // Il2CppName: Activate
 template<>
@@ -159,7 +153,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject::AnimatorEvent*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{animation});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::AnimatorEvent::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

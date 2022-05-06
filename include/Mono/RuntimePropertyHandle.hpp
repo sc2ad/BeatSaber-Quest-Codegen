@@ -47,20 +47,20 @@ namespace Mono {
       return value;
     }
     // Get instance field reference: private System.IntPtr value
-    ::System::IntPtr& dyn_value();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_value();
     // public System.IntPtr get_Value()
-    // Offset: 0x1F06128
+    // Offset: 0x1F53660
     ::System::IntPtr get_Value();
     // System.Void .ctor(System.IntPtr v)
-    // Offset: 0x1F06120
+    // Offset: 0x1F53658
     // ABORTED: conflicts with another method.  RuntimePropertyHandle(::System::IntPtr v);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1F06130
+    // Offset: 0x1F53668
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1F06248
+    // Offset: 0x1F53780
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

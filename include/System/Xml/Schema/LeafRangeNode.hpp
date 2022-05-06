@@ -33,15 +33,7 @@ namespace System::Xml::Schema {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeafRangeNode : public ::System::Xml::Schema::LeafNode {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Decimal min
     // Size: 0x10
     // Offset: 0x14
@@ -66,22 +58,22 @@ namespace System::Xml::Schema {
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
     // Get instance field reference: private System.Decimal min
-    ::System::Decimal& dyn_min();
+    [[deprecated("Use field access instead!")]] ::System::Decimal& dyn_min();
     // Get instance field reference: private System.Decimal max
-    ::System::Decimal& dyn_max();
+    [[deprecated("Use field access instead!")]] ::System::Decimal& dyn_max();
     // Get instance field reference: private System.Xml.Schema.BitSet nextIteration
-    ::System::Xml::Schema::BitSet*& dyn_nextIteration();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::BitSet*& dyn_nextIteration();
     // public System.Decimal get_Max()
-    // Offset: 0x1C23C24
+    // Offset: 0x1C5E20C
     ::System::Decimal get_Max();
     // public System.Decimal get_Min()
-    // Offset: 0x1C23C34
+    // Offset: 0x1C5E21C
     ::System::Decimal get_Min();
     // public System.Xml.Schema.BitSet get_NextIteration()
-    // Offset: 0x1C23C44
+    // Offset: 0x1C5E22C
     ::System::Xml::Schema::BitSet* get_NextIteration();
     // public System.Void set_NextIteration(System.Xml.Schema.BitSet value)
-    // Offset: 0x1C23C4C
+    // Offset: 0x1C5E234
     void set_NextIteration(::System::Xml::Schema::BitSet* value);
   }; // System.Xml.Schema.LeafRangeNode
   #pragma pack(pop)

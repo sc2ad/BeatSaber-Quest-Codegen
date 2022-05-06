@@ -35,15 +35,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_Transform : public ::Il2CppObject/*, public ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Transform*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Transform self
     // Size: 0x8
     // Offset: 0x10
@@ -60,19 +52,19 @@ namespace HoudiniEngineUnity {
       return self;
     }
     // Get instance field reference: public UnityEngine.Transform self
-    ::UnityEngine::Transform*& dyn_self();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_self();
     // public System.Void .ctor(UnityEngine.Transform self)
-    // Offset: 0x2A40E48
+    // Offset: 0x2A98230
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_Transform* New_ctor(::UnityEngine::Transform* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_Transform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_Transform*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x2A40E74
+    // Offset: 0x2A9825C
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_Transform other)
-    // Offset: 0x2A40EE4
+    // Offset: 0x2A982CC
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_Transform* other);
   }; // HoudiniEngineUnity.Test_Transform
   #pragma pack(pop)

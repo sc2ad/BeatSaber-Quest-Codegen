@@ -48,15 +48,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetworkPlayerTableCell : public ::HMUI::TableCell {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _playerNameText
     // Size: 0x8
     // Offset: 0x58
@@ -125,65 +117,56 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private TMPro.TextMeshProUGUI _playerNameText
-    ::TMPro::TextMeshProUGUI*& dyn__playerNameText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__playerNameText();
     // Get instance field reference: private UnityEngine.GameObject _separator
-    ::UnityEngine::GameObject*& dyn__separator();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__separator();
     // Get instance field reference: private UnityEngine.UI.Image _privateIcon
-    ::UnityEngine::UI::Image*& dyn__privateIcon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__privateIcon();
     // Get instance field reference: private UnityEngine.UI.Image _spectateIcon
-    ::UnityEngine::UI::Image*& dyn__spectateIcon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__spectateIcon();
     // Get instance field reference: private UnityEngine.UI.Image _partyLeaderIcon
-    ::UnityEngine::UI::Image*& dyn__partyLeaderIcon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__partyLeaderIcon();
     // Get instance field reference: private UnityEngine.UI.Image _bgImage
-    ::UnityEngine::UI::Image*& dyn__bgImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__bgImage();
     // Get instance field reference: private UnityEngine.UI.Image _highlightImage
-    ::UnityEngine::UI::Image*& dyn__highlightImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__highlightImage();
     // Get instance field reference: private UnityEngine.Color _textColorNormal
-    ::UnityEngine::Color& dyn__textColorNormal();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__textColorNormal();
     // Get instance field reference: private UnityEngine.Color _textColorMe
-    ::UnityEngine::Color& dyn__textColorMe();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__textColorMe();
     // Get instance field reference: private UnityEngine.Color _textColorSelected
-    ::UnityEngine::Color& dyn__textColorSelected();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__textColorSelected();
     // Get instance field reference: private System.Boolean _isMe
-    bool& dyn__isMe();
+    [[deprecated("Use field access instead!")]] bool& dyn__isMe();
     // public System.Boolean get_showSeparator()
-    // Offset: 0x14700A0
+    // Offset: 0x14A6888
     bool get_showSeparator();
     // public System.Void set_showSeparator(System.Boolean value)
-    // Offset: 0x14700BC
+    // Offset: 0x14A68A4
     void set_showSeparator(bool value);
     // private UnityEngine.Color get_activeColor()
-    // Offset: 0x14703BC
+    // Offset: 0x14A6BA4
     ::UnityEngine::Color get_activeColor();
-    // public System.Void SetData(System.String userName, System.Boolean isOpenParty, System.Boolean wantsToPlayNextLevel, System.Boolean isMyPartyOwner, System.Boolean isMe)
-    // Offset: 0x1470314
-    void SetData(::StringW userName, bool isOpenParty, bool wantsToPlayNextLevel, bool isMyPartyOwner, bool isMe);
-    // private System.Void RefreshVisuals()
-    // Offset: 0x14700F4
-    void RefreshVisuals();
     // public System.Void .ctor()
-    // Offset: 0x1470418
-    // Implemented from: HMUI.TableCell
-    // Base method: System.Void TableCell::.ctor()
-    // Base method: System.Void SelectableCell::.ctor()
-    // Base method: System.Void Interactable::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14A6C00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkPlayerTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkPlayerTableCell*, creationType>()));
     }
+    // public System.Void SetData(System.String userName, System.Boolean isOpenParty, System.Boolean wantsToPlayNextLevel, System.Boolean isMyPartyOwner, System.Boolean isMe)
+    // Offset: 0x14A6AFC
+    void SetData(::StringW userName, bool isOpenParty, bool wantsToPlayNextLevel, bool isMyPartyOwner, bool isMe);
+    // private System.Void RefreshVisuals()
+    // Offset: 0x14A68DC
+    void RefreshVisuals();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x14703B4
+    // Offset: 0x14A6B9C
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(::HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x14703B8
+    // Offset: 0x14A6BA0
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(::HMUI::SelectableCell::TransitionType transitionType);
@@ -218,6 +201,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerTableCell*), "get_activeColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerTableCell::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerTableCell::SetData
 // Il2CppName: SetData
 template<>
@@ -239,10 +226,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerTableCell*), "RefreshVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerTableCell::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerTableCell::SelectionDidChange
 // Il2CppName: SelectionDidChange
 template<>

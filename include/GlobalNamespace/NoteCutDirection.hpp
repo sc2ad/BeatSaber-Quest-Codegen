@@ -102,7 +102,7 @@ namespace GlobalNamespace {
     // Set static field: static public NoteCutDirection None
     static void _set_None(::GlobalNamespace::NoteCutDirection value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // NoteCutDirection
   #pragma pack(pop)
   static check_size<sizeof(NoteCutDirection), 0 + sizeof(int)> __GlobalNamespace_NoteCutDirectionSizeCheck;

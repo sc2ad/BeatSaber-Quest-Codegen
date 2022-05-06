@@ -53,15 +53,7 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class ResolveProvider : public ::Il2CppObject/*, public ::Zenject::IProvider*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Object _identifier
     // Size: 0x8
     // Offset: 0x10
@@ -106,38 +98,38 @@ namespace Zenject {
       return *reinterpret_cast<::Zenject::IProvider*>(this);
     }
     // Get instance field reference: private readonly System.Object _identifier
-    ::Il2CppObject*& dyn__identifier();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__identifier();
     // Get instance field reference: private readonly Zenject.DiContainer _container
-    ::Zenject::DiContainer*& dyn__container();
+    [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn__container();
     // Get instance field reference: private readonly System.Type _contractType
-    ::System::Type*& dyn__contractType();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn__contractType();
     // Get instance field reference: private readonly System.Boolean _isOptional
-    bool& dyn__isOptional();
+    [[deprecated("Use field access instead!")]] bool& dyn__isOptional();
     // Get instance field reference: private readonly Zenject.InjectSources _source
-    ::Zenject::InjectSources& dyn__source();
+    [[deprecated("Use field access instead!")]] ::Zenject::InjectSources& dyn__source();
     // Get instance field reference: private readonly System.Boolean _matchAll
-    bool& dyn__matchAll();
+    [[deprecated("Use field access instead!")]] bool& dyn__matchAll();
     // public System.Boolean get_IsCached()
-    // Offset: 0x1BE3E20
+    // Offset: 0x1C1E408
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x1BE3E28
+    // Offset: 0x1C1E410
     bool get_TypeVariesBasedOnMemberType();
     // public System.Void .ctor(System.Type contractType, Zenject.DiContainer container, System.Object identifier, System.Boolean isOptional, Zenject.InjectSources source, System.Boolean matchAll)
-    // Offset: 0x1BE3DB0
+    // Offset: 0x1C1E398
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResolveProvider* New_ctor(::System::Type* contractType, ::Zenject::DiContainer* container, ::Il2CppObject* identifier, bool isOptional, ::Zenject::InjectSources source, bool matchAll) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ResolveProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResolveProvider*, creationType>(contractType, container, identifier, isOptional, source, matchAll)));
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x1BE3E30
+    // Offset: 0x1C1E418
     ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x1BE3E38
+    // Offset: 0x1C1E420
     void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
     // private Zenject.InjectContext GetSubContext(Zenject.InjectContext parent)
-    // Offset: 0x1BE3F78
+    // Offset: 0x1C1E560
     ::Zenject::InjectContext* GetSubContext(::Zenject::InjectContext* parent);
   }; // Zenject.ResolveProvider
   #pragma pack(pop)

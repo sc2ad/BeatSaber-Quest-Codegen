@@ -37,16 +37,8 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x12533F4
+    // [InjectAttribute] Offset: 0x10D7FD8
     // private readonly ComboController _comboController
     // Size: 0x8
     // Offset: 0x48
@@ -55,30 +47,25 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::ComboController*) == 0x8);
     public:
     // Get instance field reference: private readonly ComboController _comboController
-    ::GlobalNamespace::ComboController*& dyn__comboController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ComboController*& dyn__comboController();
     // protected System.Void OnDestroy()
-    // Offset: 0x1404888
+    // Offset: 0x1424634
     void OnDestroy();
     // private System.Void HandleComboDidChange(System.Int32 combo)
-    // Offset: 0x1404960
+    // Offset: 0x142470C
     void HandleComboDidChange(int combo);
     // public System.Void .ctor()
-    // Offset: 0x140499C
+    // Offset: 0x1424748
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ComboMissionObjectiveChecker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ComboMissionObjectiveChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ComboMissionObjectiveChecker*, creationType>()));
     }
     // protected override System.Void Init()
-    // Offset: 0x1404790
+    // Offset: 0x142453C
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();

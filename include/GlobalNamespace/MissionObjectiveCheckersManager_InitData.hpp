@@ -31,15 +31,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionObjectiveCheckersManager::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly MissionObjective[] missionObjectives
     // Size: 0x8
     // Offset: 0x10
@@ -52,9 +44,9 @@ namespace GlobalNamespace {
       return missionObjectives;
     }
     // Get instance field reference: public readonly MissionObjective[] missionObjectives
-    ::ArrayW<::GlobalNamespace::MissionObjective*>& dyn_missionObjectives();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MissionObjective*>& dyn_missionObjectives();
     // public System.Void .ctor(MissionObjective[] missionObjectives)
-    // Offset: 0x13052B8
+    // Offset: 0x1301790
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionObjectiveCheckersManager::InitData* New_ctor(::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionObjectiveCheckersManager::InitData::.ctor");

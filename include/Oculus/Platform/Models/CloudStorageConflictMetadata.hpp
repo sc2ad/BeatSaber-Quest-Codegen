@@ -35,15 +35,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class CloudStorageConflictMetadata : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly Oculus.Platform.Models.CloudStorageMetadata Local
     // Size: 0x8
     // Offset: 0x10
@@ -58,11 +50,11 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Oculus::Platform::Models::CloudStorageMetadata*) == 0x8);
     public:
     // Get instance field reference: public readonly Oculus.Platform.Models.CloudStorageMetadata Local
-    ::Oculus::Platform::Models::CloudStorageMetadata*& dyn_Local();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::CloudStorageMetadata*& dyn_Local();
     // Get instance field reference: public readonly Oculus.Platform.Models.CloudStorageMetadata Remote
-    ::Oculus::Platform::Models::CloudStorageMetadata*& dyn_Remote();
+    [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::CloudStorageMetadata*& dyn_Remote();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19AC0D0
+    // Offset: 0x19E56B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CloudStorageConflictMetadata* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::CloudStorageConflictMetadata::.ctor");

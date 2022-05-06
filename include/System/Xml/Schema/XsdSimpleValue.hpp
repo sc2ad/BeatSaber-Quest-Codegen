@@ -29,15 +29,7 @@ namespace System::Xml::Schema {
   // [TokenAttribute] Offset: FFFFFFFF
   class XsdSimpleValue : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Xml.Schema.XmlSchemaSimpleType xmlType
     // Size: 0x8
     // Offset: 0x10
@@ -52,14 +44,14 @@ namespace System::Xml::Schema {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: private System.Xml.Schema.XmlSchemaSimpleType xmlType
-    ::System::Xml::Schema::XmlSchemaSimpleType*& dyn_xmlType();
+    [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaSimpleType*& dyn_xmlType();
     // Get instance field reference: private System.Object typedValue
-    ::Il2CppObject*& dyn_typedValue();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_typedValue();
     // public System.Xml.Schema.XmlSchemaSimpleType get_XmlType()
-    // Offset: 0x201D7BC
+    // Offset: 0x2067030
     ::System::Xml::Schema::XmlSchemaSimpleType* get_XmlType();
     // public System.Object get_TypedValue()
-    // Offset: 0x201D7C4
+    // Offset: 0x2067038
     ::Il2CppObject* get_TypedValue();
   }; // System.Xml.Schema.XsdSimpleValue
   #pragma pack(pop)

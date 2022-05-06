@@ -49,15 +49,7 @@ namespace HMUI {
     public:
     // Nested type: ::HMUI::ScrollViewItemsVisibilityController::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.RectTransform _viewport
     // Size: 0x8
     // Offset: 0x18
@@ -130,58 +122,56 @@ namespace HMUI {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.RectTransform _viewport
-    ::UnityEngine::RectTransform*& dyn__viewport();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__viewport();
     // Get instance field reference: private UnityEngine.RectTransform _contentRectTransform
-    ::UnityEngine::RectTransform*& dyn__contentRectTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__contentRectTransform();
     // Get instance field reference: private HMUI.ScrollViewItemForVisibilityController[] _items
-    ::ArrayW<::HMUI::ScrollViewItemForVisibilityController*>& dyn__items();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::HMUI::ScrollViewItemForVisibilityController*>& dyn__items();
     // Get instance field reference: private System.Single _lastContentAnchoredPositionY
-    float& dyn__lastContentAnchoredPositionY();
+    [[deprecated("Use field access instead!")]] float& dyn__lastContentAnchoredPositionY();
     // Get instance field reference: private UnityEngine.Vector3[] _viewportWorldCorners
-    ::ArrayW<::UnityEngine::Vector3>& dyn__viewportWorldCorners();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn__viewportWorldCorners();
     // Get instance field reference: private System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single>[] _upperItemsCornes
-    ::ArrayW<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float>*>& dyn__upperItemsCornes();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float>*>& dyn__upperItemsCornes();
     // Get instance field reference: private System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single>[] _lowerItemsCornes
-    ::ArrayW<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float>*>& dyn__lowerItemsCornes();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float>*>& dyn__lowerItemsCornes();
     // Get instance field reference: private System.Int32 _lowerLastVisibleIndex
-    int& dyn__lowerLastVisibleIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__lowerLastVisibleIndex();
     // Get instance field reference: private System.Int32 _upperLastVisibleIndex
-    int& dyn__upperLastVisibleIndex();
+    [[deprecated("Use field access instead!")]] int& dyn__upperLastVisibleIndex();
     // Get instance field reference: private System.Single _contentMaxY
-    float& dyn__contentMaxY();
+    [[deprecated("Use field access instead!")]] float& dyn__contentMaxY();
     // Get instance field reference: private System.Single _contentMinY
-    float& dyn__contentMinY();
-    // protected System.Void Start()
-    // Offset: 0x168A72C
-    void Start();
-    // protected System.Void Update()
-    // Offset: 0x168ADBC
-    void Update();
-    // private System.Void UpdateVisibilityUpDirection(System.Single newContentAnchoredPositionY)
-    // Offset: 0x168AC04
-    void UpdateVisibilityUpDirection(float newContentAnchoredPositionY);
-    // private System.Void UpdateVisibilityDownDirection(System.Single newContentAnchoredPositionY)
-    // Offset: 0x168AEAC
-    void UpdateVisibilityDownDirection(float newContentAnchoredPositionY);
+    [[deprecated("Use field access instead!")]] float& dyn__contentMinY();
     // public System.Void .ctor()
-    // Offset: 0x168B050
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x16C1960
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScrollViewItemsVisibilityController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ScrollViewItemsVisibilityController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScrollViewItemsVisibilityController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x16C103C
+    void Start();
+    // protected System.Void Update()
+    // Offset: 0x16C16CC
+    void Update();
+    // private System.Void UpdateVisibilityUpDirection(System.Single newContentAnchoredPositionY)
+    // Offset: 0x16C1514
+    void UpdateVisibilityUpDirection(float newContentAnchoredPositionY);
+    // private System.Void UpdateVisibilityDownDirection(System.Single newContentAnchoredPositionY)
+    // Offset: 0x16C17BC
+    void UpdateVisibilityDownDirection(float newContentAnchoredPositionY);
   }; // HMUI.ScrollViewItemsVisibilityController
   #pragma pack(pop)
   static check_size<sizeof(ScrollViewItemsVisibilityController), 92 + sizeof(float)> __HMUI_ScrollViewItemsVisibilityControllerSizeCheck;
   static_assert(sizeof(ScrollViewItemsVisibilityController) == 0x60);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HMUI::ScrollViewItemsVisibilityController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::ScrollViewItemsVisibilityController::Start
 // Il2CppName: Start
 template<>
@@ -216,7 +206,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollViewItemsVisibilityController*), "UpdateVisibilityDownDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newContentAnchoredPositionY});
   }
 };
-// Writing MetadataGetter for method: HMUI::ScrollViewItemsVisibilityController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

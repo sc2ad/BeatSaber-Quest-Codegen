@@ -42,15 +42,7 @@ namespace UnityEngine::Timeline {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ControlPlayableAsset::$GetControlableScripts$d__39 : public ::Il2CppObject/*, public ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>, public ::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -107,46 +99,46 @@ namespace UnityEngine::Timeline {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private UnityEngine.MonoBehaviour <>2__current
-    ::UnityEngine::MonoBehaviour*& dyn_$$2__current();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MonoBehaviour*& dyn_$$2__current();
     // Get instance field reference: private System.Int32 <>l__initialThreadId
-    int& dyn_$$l__initialThreadId();
+    [[deprecated("Use field access instead!")]] int& dyn_$$l__initialThreadId();
     // Get instance field reference: private UnityEngine.GameObject root
-    ::UnityEngine::GameObject*& dyn_root();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_root();
     // Get instance field reference: public UnityEngine.GameObject <>3__root
-    ::UnityEngine::GameObject*& dyn_$$3__root();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_$$3__root();
     // Get instance field reference: private UnityEngine.MonoBehaviour[] <>7__wrap1
-    ::ArrayW<::UnityEngine::MonoBehaviour*>& dyn_$$7__wrap1();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::MonoBehaviour*>& dyn_$$7__wrap1();
     // Get instance field reference: private System.Int32 <>7__wrap2
-    int& dyn_$$7__wrap2();
+    [[deprecated("Use field access instead!")]] int& dyn_$$7__wrap2();
     // private UnityEngine.MonoBehaviour System.Collections.Generic.IEnumerator<UnityEngine.MonoBehaviour>.get_Current()
-    // Offset: 0x1D7C24C
+    // Offset: 0x1DB77A4
     ::UnityEngine::MonoBehaviour* System_Collections_Generic_IEnumerator$UnityEngine_MonoBehaviour$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1D7C2B4
+    // Offset: 0x1DB780C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1D7A808
+    // Offset: 0x1DB5D60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ControlPlayableAsset::$GetControlableScripts$d__39* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ControlPlayableAsset::$GetControlableScripts$d__39*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1D7C0F4
+    // Offset: 0x1DB764C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1D7C0F8
+    // Offset: 0x1DB7650
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1D7C254
+    // Offset: 0x1DB77AC
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<UnityEngine.MonoBehaviour> System.Collections.Generic.IEnumerable<UnityEngine.MonoBehaviour>.GetEnumerator()
-    // Offset: 0x1D7C2BC
+    // Offset: 0x1DB7814
     ::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>* System_Collections_Generic_IEnumerable$UnityEngine_MonoBehaviour$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1D7C368
+    // Offset: 0x1DB78C0
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.Timeline.ControlPlayableAsset/UnityEngine.Timeline.<GetControlableScripts>d__39
   #pragma pack(pop)

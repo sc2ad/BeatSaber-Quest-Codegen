@@ -63,7 +63,7 @@ namespace UnityEngine::Timeline {
     // Set static field: static public UnityEngine.Timeline.TrackAsset/UnityEngine.Timeline.Versions AnimatedTrackProperties
     static void _set_AnimatedTrackProperties(::UnityEngine::Timeline::TrackAsset::Versions value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.Timeline.TrackAsset/UnityEngine.Timeline.Versions
   #pragma pack(pop)
   static check_size<sizeof(TrackAsset::Versions), 0 + sizeof(int)> __UnityEngine_Timeline_TrackAsset_VersionsSizeCheck;

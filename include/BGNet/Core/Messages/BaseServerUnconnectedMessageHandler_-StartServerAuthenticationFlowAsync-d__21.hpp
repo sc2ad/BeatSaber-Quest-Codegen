@@ -155,44 +155,44 @@ namespace BGNet::Core::Messages {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
-    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public BGNet.Core.Messages.BaseServerUnconnectedMessageHandler <>4__this
-    ::BGNet::Core::Messages::BaseServerUnconnectedMessageHandler*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::BGNet::Core::Messages::BaseServerUnconnectedMessageHandler*& dyn_$$4__this();
     // Get instance field reference: public System.Byte[] clientRandom
-    ::ArrayW<uint8_t>& dyn_clientRandom();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_clientRandom();
     // Get instance field reference: public System.UInt32 protocolVersion
-    uint& dyn_protocolVersion();
+    [[deprecated("Use field access instead!")]] uint& dyn_protocolVersion();
     // Get instance field reference: public System.Net.IPEndPoint endPoint
-    ::System::Net::IPEndPoint*& dyn_endPoint();
+    [[deprecated("Use field access instead!")]] ::System::Net::IPEndPoint*& dyn_endPoint();
     // Get instance field reference: public System.UInt32 certificateResponseId
-    uint& dyn_certificateResponseId();
+    [[deprecated("Use field access instead!")]] uint& dyn_certificateResponseId();
     // Get instance field reference: public System.UInt32 requestId
-    uint& dyn_requestId();
+    [[deprecated("Use field access instead!")]] uint& dyn_requestId();
     // Get instance field reference: private System.Byte[] <serverRandom>5__2
-    ::ArrayW<uint8_t>& dyn_$serverRandom$5__2();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_$serverRandom$5__2();
     // Get instance field reference: private IDiffieHellmanKeyPair <serverKeys>5__3
-    ::GlobalNamespace::IDiffieHellmanKeyPair*& dyn_$serverKeys$5__3();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IDiffieHellmanKeyPair*& dyn_$serverKeys$5__3();
     // Get instance field reference: private System.UInt32 <responseId>5__4
-    uint& dyn_$responseId$5__4();
+    [[deprecated("Use field access instead!")]] uint& dyn_$responseId$5__4();
     // Get instance field reference: private EncryptionUtility/IEncryptionState <encryptionState>5__5
-    ::GlobalNamespace::EncryptionUtility::IEncryptionState*& dyn_$encryptionState$5__5();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EncryptionUtility::IEncryptionState*& dyn_$encryptionState$5__5();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>>& dyn_$$u__1();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<BGNet.Core.Messages.ClientKeyExchangeRequest> <>u__2
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::Messages::ClientKeyExchangeRequest*>& dyn_$$u__2();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::Messages::ClientKeyExchangeRequest*>& dyn_$$u__2();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<EncryptionUtility/IEncryptionState> <>u__3
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EncryptionUtility::IEncryptionState*>& dyn_$$u__3();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EncryptionUtility::IEncryptionState*>& dyn_$$u__3();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<BGNet.Core.Messages.IUnconnectedAuthenticateRequest> <>u__4
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::Messages::IUnconnectedAuthenticateRequest*>& dyn_$$u__4();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::Messages::IUnconnectedAuthenticateRequest*>& dyn_$$u__4();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__5
-    ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__5();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__5();
     // private System.Void MoveNext()
-    // Offset: 0x14FCB34
+    // Offset: 0x153443C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x14FD9D0
+    // Offset: 0x15352D8
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BGNet.Core.Messages.BaseServerUnconnectedMessageHandler/BGNet.Core.Messages.<StartServerAuthenticationFlowAsync>d__21
   // WARNING Not writing size check since size may be invalid!

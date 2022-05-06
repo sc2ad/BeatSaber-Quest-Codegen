@@ -78,15 +78,7 @@ namespace GlobalNamespace {
     class $$c__DisplayClass6_0;
     // Nested type: ::GlobalNamespace::BeatmapDataSO::$RunTaskAndLogException$d__6
     struct $RunTaskAndLogException$d__6;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String _jsonData
     // Size: 0x8
     // Offset: 0x18
@@ -103,42 +95,41 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.String _jsonData
-    ::StringW& dyn__jsonData();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__jsonData();
     // Get instance field reference: private IBeatmapDataBasicInfo _beatmapDataBasic
-    ::GlobalNamespace::IBeatmapDataBasicInfo*& dyn__beatmapDataBasic();
-    // public System.Threading.Tasks.Task`1<IBeatmapDataBasicInfo> GetBeatmapDataBasicInfoAsync()
-    // Offset: 0x136CEA0
-    ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapDataBasicInfo*>* GetBeatmapDataBasicInfoAsync();
-    // public System.Threading.Tasks.Task`1<IReadonlyBeatmapData> GetBeatmapDataAsync(BeatmapDifficulty beatmapDifficulty, System.Single beatsPerMinute, System.Boolean loadingForDesignatedEnvironment, EnvironmentInfoSO environmentInfo, PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0x136CFA0
-    ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* GetBeatmapDataAsync(::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, float beatsPerMinute, bool loadingForDesignatedEnvironment, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
-    // public System.Void SetJsonData(System.String jsonData)
-    // Offset: 0x136D0EC
-    void SetJsonData(::StringW jsonData);
-    // private System.Threading.Tasks.Task`1<BeatmapSaveDataVersion3.BeatmapSaveData> LoadBeatmapSaveDataAsync()
-    // Offset: 0x136D0F4
-    ::System::Threading::Tasks::Task_1<::BeatmapSaveDataVersion3::BeatmapSaveData*>* LoadBeatmapSaveDataAsync();
-    // private System.Threading.Tasks.Task RunTaskAndLogException(System.Action action)
-    // Offset: 0x136D214
-    ::System::Threading::Tasks::Task* RunTaskAndLogException(::System::Action* action);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatmapDataBasicInfo*& dyn__beatmapDataBasic();
     // public System.Void .ctor()
-    // Offset: 0x136D304
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1355590
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataSO*, creationType>()));
     }
+    // public System.Threading.Tasks.Task`1<IBeatmapDataBasicInfo> GetBeatmapDataBasicInfoAsync()
+    // Offset: 0x135512C
+    ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapDataBasicInfo*>* GetBeatmapDataBasicInfoAsync();
+    // public System.Threading.Tasks.Task`1<IReadonlyBeatmapData> GetBeatmapDataAsync(BeatmapDifficulty beatmapDifficulty, System.Single beatsPerMinute, System.Boolean loadingForDesignatedEnvironment, EnvironmentInfoSO environmentInfo, PlayerSpecificSettings playerSpecificSettings)
+    // Offset: 0x135522C
+    ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* GetBeatmapDataAsync(::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, float beatsPerMinute, bool loadingForDesignatedEnvironment, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
+    // public System.Void SetJsonData(System.String jsonData)
+    // Offset: 0x1355378
+    void SetJsonData(::StringW jsonData);
+    // private System.Threading.Tasks.Task`1<BeatmapSaveDataVersion3.BeatmapSaveData> LoadBeatmapSaveDataAsync()
+    // Offset: 0x1355380
+    ::System::Threading::Tasks::Task_1<::BeatmapSaveDataVersion3::BeatmapSaveData*>* LoadBeatmapSaveDataAsync();
+    // private System.Threading.Tasks.Task RunTaskAndLogException(System.Action action)
+    // Offset: 0x13554A0
+    ::System::Threading::Tasks::Task* RunTaskAndLogException(::System::Action* action);
   }; // BeatmapDataSO
   #pragma pack(pop)
   static check_size<sizeof(BeatmapDataSO), 32 + sizeof(::GlobalNamespace::IBeatmapDataBasicInfo*)> __GlobalNamespace_BeatmapDataSOSizeCheck;
   static_assert(sizeof(BeatmapDataSO) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataSO::GetBeatmapDataBasicInfoAsync
 // Il2CppName: GetBeatmapDataBasicInfoAsync
 template<>
@@ -186,7 +177,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataSO*), "RunTaskAndLogException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

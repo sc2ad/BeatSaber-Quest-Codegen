@@ -99,7 +99,7 @@ namespace RootMotion::FinalIK {
       // Set static field: static public RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.BendModifier Goal
       static void _set_Goal(::RootMotion::FinalIK::IKSolverLimb::BendModifier value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.BendModifier
     #pragma pack(pop)
     static check_size<sizeof(IKSolverLimb::BendModifier), 0 + sizeof(int)> __RootMotion_FinalIK_IKSolverLimb_BendModifierSizeCheck;
@@ -138,27 +138,19 @@ namespace RootMotion::FinalIK {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public UnityEngine.Vector3 direction
-      ::UnityEngine::Vector3& dyn_direction();
+      [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_direction();
       // Get instance field reference: public UnityEngine.Vector3 axis
-      ::UnityEngine::Vector3& dyn_axis();
+      [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_axis();
       // Get instance field reference: public System.Single dot
-      float& dyn_dot();
+      [[deprecated("Use field access instead!")]] float& dyn_dot();
       // public System.Void .ctor(UnityEngine.Vector3 direction, UnityEngine.Vector3 axis)
-      // Offset: 0x21A8EFC
+      // Offset: 0x21F5770
       AxisDirection(::UnityEngine::Vector3 direction, ::UnityEngine::Vector3 axis);
     }; // RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection
     #pragma pack(pop)
     static check_size<sizeof(IKSolverLimb::AxisDirection), 24 + sizeof(float)> __RootMotion_FinalIK_IKSolverLimb_AxisDirectionSizeCheck;
     static_assert(sizeof(IKSolverLimb::AxisDirection) == 0x1C);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.AvatarIKGoal goal
     // Size: 0x4
     // Offset: 0xA8
@@ -171,14 +163,14 @@ namespace RootMotion::FinalIK {
     ::RootMotion::FinalIK::IKSolverLimb::BendModifier bendModifier;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::IKSolverLimb::BendModifier) == 0x4);
-    // [RangeAttribute] Offset: 0x127464C
+    // [RangeAttribute] Offset: 0x10F9304
     // public System.Single maintainRotationWeight
     // Size: 0x4
     // Offset: 0xB0
     float maintainRotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x1274664
+    // [RangeAttribute] Offset: 0x10F931C
     // public System.Single bendModifierWeight
     // Size: 0x4
     // Offset: 0xB4
@@ -263,82 +255,81 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::IKSolverLimb::AxisDirection>) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.AvatarIKGoal goal
-    ::UnityEngine::AvatarIKGoal& dyn_goal();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AvatarIKGoal& dyn_goal();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.BendModifier bendModifier
-    ::RootMotion::FinalIK::IKSolverLimb::BendModifier& dyn_bendModifier();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKSolverLimb::BendModifier& dyn_bendModifier();
     // Get instance field reference: public System.Single maintainRotationWeight
-    float& dyn_maintainRotationWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_maintainRotationWeight();
     // Get instance field reference: public System.Single bendModifierWeight
-    float& dyn_bendModifierWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_bendModifierWeight();
     // Get instance field reference: public UnityEngine.Transform bendGoal
-    ::UnityEngine::Transform*& dyn_bendGoal();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_bendGoal();
     // Get instance field reference: private System.Boolean maintainBendFor1Frame
-    bool& dyn_maintainBendFor1Frame();
+    [[deprecated("Use field access instead!")]] bool& dyn_maintainBendFor1Frame();
     // Get instance field reference: private System.Boolean maintainRotationFor1Frame
-    bool& dyn_maintainRotationFor1Frame();
+    [[deprecated("Use field access instead!")]] bool& dyn_maintainRotationFor1Frame();
     // Get instance field reference: private UnityEngine.Quaternion defaultRootRotation
-    ::UnityEngine::Quaternion& dyn_defaultRootRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_defaultRootRotation();
     // Get instance field reference: private UnityEngine.Quaternion parentDefaultRotation
-    ::UnityEngine::Quaternion& dyn_parentDefaultRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_parentDefaultRotation();
     // Get instance field reference: private UnityEngine.Quaternion bone3RotationBeforeSolve
-    ::UnityEngine::Quaternion& dyn_bone3RotationBeforeSolve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_bone3RotationBeforeSolve();
     // Get instance field reference: private UnityEngine.Quaternion maintainRotation
-    ::UnityEngine::Quaternion& dyn_maintainRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_maintainRotation();
     // Get instance field reference: private UnityEngine.Quaternion bone3DefaultRotation
-    ::UnityEngine::Quaternion& dyn_bone3DefaultRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_bone3DefaultRotation();
     // Get instance field reference: private UnityEngine.Vector3 _bendNormal
-    ::UnityEngine::Vector3& dyn__bendNormal();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__bendNormal();
     // Get instance field reference: private UnityEngine.Vector3 animationNormal
-    ::UnityEngine::Vector3& dyn_animationNormal();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_animationNormal();
     // Get instance field reference: private RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection[] axisDirectionsLeft
-    ::ArrayW<::RootMotion::FinalIK::IKSolverLimb::AxisDirection>& dyn_axisDirectionsLeft();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::IKSolverLimb::AxisDirection>& dyn_axisDirectionsLeft();
     // Get instance field reference: private RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection[] axisDirectionsRight
-    ::ArrayW<::RootMotion::FinalIK::IKSolverLimb::AxisDirection>& dyn_axisDirectionsRight();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::IKSolverLimb::AxisDirection>& dyn_axisDirectionsRight();
     // private RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection[] get_axisDirections()
-    // Offset: 0x21A8EE0
+    // Offset: 0x21F5754
     ::ArrayW<::RootMotion::FinalIK::IKSolverLimb::AxisDirection> get_axisDirections();
     // public System.Void .ctor(UnityEngine.AvatarIKGoal goal)
-    // Offset: 0x21A8E58
+    // Offset: 0x21F56CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolverLimb* New_ctor(::UnityEngine::AvatarIKGoal goal) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolverLimb::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverLimb*, creationType>(goal)));
     }
     // public System.Void MaintainRotation()
-    // Offset: 0x21A77DC
+    // Offset: 0x21F4050
     void MaintainRotation();
     // public System.Void MaintainBend()
-    // Offset: 0x21A782C
+    // Offset: 0x21F40A0
     void MaintainBend();
     // private System.Void StoreAxisDirections(ref RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection[] axisDirections)
-    // Offset: 0x21A7CBC
+    // Offset: 0x21F4530
     void StoreAxisDirections(ByRef<::ArrayW<::RootMotion::FinalIK::IKSolverLimb::AxisDirection>> axisDirections);
     // private UnityEngine.Vector3 GetModifiedBendNormal()
-    // Offset: 0x21A80DC
+    // Offset: 0x21F4950
     ::UnityEngine::Vector3 GetModifiedBendNormal();
     // public System.Void .ctor()
-    // Offset: 0x21A8CD4
+    // Offset: 0x21F5548
     // Implemented from: RootMotion.FinalIK.IKSolverTrigonometric
     // Base method: System.Void IKSolverTrigonometric::.ctor()
     // Base method: System.Void IKSolver::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolverLimb* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolverLimb::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverLimb*, creationType>()));
     }
     // protected override System.Void OnInitiateVirtual()
-    // Offset: 0x21A7940
+    // Offset: 0x21F41B4
     // Implemented from: RootMotion.FinalIK.IKSolverTrigonometric
     // Base method: System.Void IKSolverTrigonometric::OnInitiateVirtual()
     void OnInitiateVirtual();
     // protected override System.Void OnUpdateVirtual()
-    // Offset: 0x21A7FB0
+    // Offset: 0x21F4824
     // Implemented from: RootMotion.FinalIK.IKSolverTrigonometric
     // Base method: System.Void IKSolverTrigonometric::OnUpdateVirtual()
     void OnUpdateVirtual();
     // protected override System.Void OnPostSolveVirtual()
-    // Offset: 0x21A8B8C
+    // Offset: 0x21F5400
     // Implemented from: RootMotion.FinalIK.IKSolverTrigonometric
     // Base method: System.Void IKSolverTrigonometric::OnPostSolveVirtual()
     void OnPostSolveVirtual();

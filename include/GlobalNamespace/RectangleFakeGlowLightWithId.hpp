@@ -42,15 +42,7 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x29 to desired offset: 0x2C
     char ___base_padding[0x3] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _minAlpha
     // Size: 0x4
     // Offset: 0x2C
@@ -73,30 +65,23 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::RectangleFakeGlow*) == 0x8);
     public:
     // Get instance field reference: private System.Single _minAlpha
-    float& dyn__minAlpha();
+    [[deprecated("Use field access instead!")]] float& dyn__minAlpha();
     // Get instance field reference: private System.Single _alphaMul
-    float& dyn__alphaMul();
+    [[deprecated("Use field access instead!")]] float& dyn__alphaMul();
     // Get instance field reference: private RectangleFakeGlow _rectangleFakeGlow
-    ::GlobalNamespace::RectangleFakeGlow*& dyn__rectangleFakeGlow();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::RectangleFakeGlow*& dyn__rectangleFakeGlow();
     // public UnityEngine.Color get_color()
-    // Offset: 0x137D128
+    // Offset: 0x1454F7C
     ::UnityEngine::Color get_color();
     // public System.Void .ctor()
-    // Offset: 0x137D174
-    // Implemented from: LightWithIdMonoBehaviour
-    // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1454FC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RectangleFakeGlowLightWithId* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RectangleFakeGlowLightWithId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RectangleFakeGlowLightWithId*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x137D148
+    // Offset: 0x1454F9C
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);

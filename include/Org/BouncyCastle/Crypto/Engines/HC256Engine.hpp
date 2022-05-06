@@ -37,15 +37,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class HC256Engine : public ::Il2CppObject/*, public ::Org::BouncyCastle::Crypto::IStreamCipher*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.UInt32[] p
     // Size: 0x8
     // Offset: 0x10
@@ -104,54 +96,52 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IStreamCipher*>(this);
     }
     // Get instance field reference: private System.UInt32[] p
-    ::ArrayW<uint>& dyn_p();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_p();
     // Get instance field reference: private System.UInt32[] q
-    ::ArrayW<uint>& dyn_q();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_q();
     // Get instance field reference: private System.UInt32 cnt
-    uint& dyn_cnt();
+    [[deprecated("Use field access instead!")]] uint& dyn_cnt();
     // Get instance field reference: private System.Byte[] key
-    ::ArrayW<uint8_t>& dyn_key();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_key();
     // Get instance field reference: private System.Byte[] iv
-    ::ArrayW<uint8_t>& dyn_iv();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_iv();
     // Get instance field reference: private System.Boolean initialised
-    bool& dyn_initialised();
+    [[deprecated("Use field access instead!")]] bool& dyn_initialised();
     // Get instance field reference: private System.Byte[] buf
-    ::ArrayW<uint8_t>& dyn_buf();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_buf();
     // Get instance field reference: private System.Int32 idx
-    int& dyn_idx();
+    [[deprecated("Use field access instead!")]] int& dyn_idx();
     // public System.String get_AlgorithmName()
-    // Offset: 0x232BDC4
+    // Offset: 0x2375638
     ::StringW get_AlgorithmName();
-    // private System.UInt32 Step()
-    // Offset: 0x232B7D4
-    uint Step();
-    // private System.Void Init()
-    // Offset: 0x232BA44
-    void Init();
-    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x232BE0C
-    void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-    // private System.Byte GetByte()
-    // Offset: 0x232BFDC
-    uint8_t GetByte();
-    // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x232C05C
-    void ProcessBytes(::ArrayW<uint8_t> input, int inOff, int len, ::ArrayW<uint8_t> output, int outOff);
-    // public System.Void Reset()
-    // Offset: 0x232C1FC
-    void Reset();
-    // static private System.UInt32 RotateRight(System.UInt32 x, System.Int32 bits)
-    // Offset: 0x232BA3C
-    static uint RotateRight(uint x, int bits);
     // public System.Void .ctor()
-    // Offset: 0x232C200
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2375A74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HC256Engine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::HC256Engine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HC256Engine*, creationType>()));
     }
+    // private System.UInt32 Step()
+    // Offset: 0x2375048
+    uint Step();
+    // private System.Void Init()
+    // Offset: 0x23752B8
+    void Init();
+    // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
+    // Offset: 0x2375680
+    void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    // private System.Byte GetByte()
+    // Offset: 0x2375850
+    uint8_t GetByte();
+    // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
+    // Offset: 0x23758D0
+    void ProcessBytes(::ArrayW<uint8_t> input, int inOff, int len, ::ArrayW<uint8_t> output, int outOff);
+    // public System.Void Reset()
+    // Offset: 0x2375A70
+    void Reset();
+    // static private System.UInt32 RotateRight(System.UInt32 x, System.Int32 bits)
+    // Offset: 0x23752B0
+    static uint RotateRight(uint x, int bits);
   }; // Org.BouncyCastle.Crypto.Engines.HC256Engine
   #pragma pack(pop)
   static check_size<sizeof(HC256Engine), 72 + sizeof(int)> __Org_BouncyCastle_Crypto_Engines_HC256EngineSizeCheck;
@@ -166,6 +156,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::HC256Engine*), "get_AlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::HC256Engine::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::HC256Engine::Step
 // Il2CppName: Step
 template<>
@@ -231,7 +225,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(ui
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::HC256Engine*), "RotateRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, bits});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::HC256Engine::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

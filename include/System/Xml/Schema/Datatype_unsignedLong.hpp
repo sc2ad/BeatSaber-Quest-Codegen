@@ -65,27 +65,27 @@ namespace System::Xml::Schema {
     // Set static field: static private readonly System.Xml.Schema.FacetsChecker numeric10FacetsChecker
     static void _set_numeric10FacetsChecker(::System::Xml::Schema::FacetsChecker* value);
     // override System.Xml.Schema.FacetsChecker get_FacetsChecker()
-    // Offset: 0x1C212B8
+    // Offset: 0x1C5B8A0
     // Implemented from: System.Xml.Schema.Datatype_nonNegativeInteger
     // Base method: System.Xml.Schema.FacetsChecker Datatype_nonNegativeInteger::get_FacetsChecker()
     ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1C21320
+    // Offset: 0x1C5B908
     // Implemented from: System.Xml.Schema.Datatype_nonNegativeInteger
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_nonNegativeInteger::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // public override System.Type get_ValueType()
-    // Offset: 0x1C213C4
+    // Offset: 0x1C5B9AC
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Type Datatype_decimal::get_ValueType()
     ::System::Type* get_ValueType();
     // override System.Type get_ListValueType()
-    // Offset: 0x1C2142C
+    // Offset: 0x1C5BA14
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Type Datatype_decimal::get_ListValueType()
     ::System::Type* get_ListValueType();
     // public System.Void .ctor()
-    // Offset: 0x1C21120
+    // Offset: 0x1C5B708
     // Implemented from: System.Xml.Schema.Datatype_nonNegativeInteger
     // Base method: System.Void Datatype_nonNegativeInteger::.ctor()
     // Base method: System.Void Datatype_integer::.ctor()
@@ -93,14 +93,13 @@ namespace System::Xml::Schema {
     // Base method: System.Void Datatype_anySimpleType::.ctor()
     // Base method: System.Void DatatypeImplementation::.ctor()
     // Base method: System.Void XmlSchemaDatatype::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Datatype_unsignedLong* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::Datatype_unsignedLong::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Datatype_unsignedLong*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1C21620
+    // Offset: 0x1C5BC08
     // Implemented from: System.Xml.Schema.Datatype_nonNegativeInteger
     // Base method: System.Void Datatype_nonNegativeInteger::.cctor()
     // Base method: System.Void Datatype_decimal::.cctor()
@@ -108,12 +107,12 @@ namespace System::Xml::Schema {
     // Base method: System.Void DatatypeImplementation::.cctor()
     static void _cctor();
     // override System.Int32 Compare(System.Object value1, System.Object value2)
-    // Offset: 0x1C21328
+    // Offset: 0x1C5B910
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Int32 Datatype_decimal::Compare(System.Object value1, System.Object value2)
     int Compare(::Il2CppObject* value1, ::Il2CppObject* value2);
     // override System.Exception TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
-    // Offset: 0x1C21494
+    // Offset: 0x1C5BA7C
     // Implemented from: System.Xml.Schema.Datatype_integer
     // Base method: System.Exception Datatype_integer::TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
     ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::Il2CppObject*> typedValue);

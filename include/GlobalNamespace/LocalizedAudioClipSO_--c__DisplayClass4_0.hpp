@@ -26,15 +26,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class LocalizedAudioClipSO::$$c__DisplayClass4_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Polyglot.Language language
     // Size: 0x4
     // Offset: 0x10
@@ -47,25 +39,27 @@ namespace GlobalNamespace {
       return language;
     }
     // Get instance field reference: public Polyglot.Language language
-    ::Polyglot::Language& dyn_language();
-    // System.Boolean <get_localizedAudioClip>b__0(LocalizedAudioClipSO/LocalizedAudioClipInfo t)
-    // Offset: 0x152F6FC
-    bool $get_localizedAudioClip$b__0(::GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo* t);
+    [[deprecated("Use field access instead!")]] ::Polyglot::Language& dyn_language();
     // public System.Void .ctor()
-    // Offset: 0x152F6EC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1566FF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizedAudioClipSO::$$c__DisplayClass4_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalizedAudioClipSO::$$c__DisplayClass4_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalizedAudioClipSO::$$c__DisplayClass4_0*, creationType>()));
     }
+    // System.Boolean <get_localizedAudioClip>b__0(LocalizedAudioClipSO/LocalizedAudioClipInfo t)
+    // Offset: 0x1567004
+    bool $get_localizedAudioClip$b__0(::GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo* t);
   }; // LocalizedAudioClipSO/<>c__DisplayClass4_0
   #pragma pack(pop)
   static check_size<sizeof(LocalizedAudioClipSO::$$c__DisplayClass4_0), 16 + sizeof(::Polyglot::Language)> __GlobalNamespace_LocalizedAudioClipSO_$$c__DisplayClass4_0SizeCheck;
   static_assert(sizeof(LocalizedAudioClipSO::$$c__DisplayClass4_0) == 0x14);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::LocalizedAudioClipSO::$$c__DisplayClass4_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedAudioClipSO::$$c__DisplayClass4_0::$get_localizedAudioClip$b__0
 // Il2CppName: <get_localizedAudioClip>b__0
 template<>
@@ -75,7 +69,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedAudioClipSO::$$c__DisplayClass4_0*), "<get_localizedAudioClip>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LocalizedAudioClipSO::$$c__DisplayClass4_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

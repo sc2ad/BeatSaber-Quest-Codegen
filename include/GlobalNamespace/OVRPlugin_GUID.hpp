@@ -24,15 +24,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRPlugin::GUID : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 a
     // Size: 0x4
     // Offset: 0x10
@@ -101,31 +93,29 @@ namespace GlobalNamespace {
     static_assert(sizeof(uint8_t) == 0x1);
     public:
     // Get instance field reference: public System.Int32 a
-    int& dyn_a();
+    [[deprecated("Use field access instead!")]] int& dyn_a();
     // Get instance field reference: public System.Int16 b
-    int16_t& dyn_b();
+    [[deprecated("Use field access instead!")]] int16_t& dyn_b();
     // Get instance field reference: public System.Int16 c
-    int16_t& dyn_c();
+    [[deprecated("Use field access instead!")]] int16_t& dyn_c();
     // Get instance field reference: public System.Byte d0
-    uint8_t& dyn_d0();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_d0();
     // Get instance field reference: public System.Byte d1
-    uint8_t& dyn_d1();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_d1();
     // Get instance field reference: public System.Byte d2
-    uint8_t& dyn_d2();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_d2();
     // Get instance field reference: public System.Byte d3
-    uint8_t& dyn_d3();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_d3();
     // Get instance field reference: public System.Byte d4
-    uint8_t& dyn_d4();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_d4();
     // Get instance field reference: public System.Byte d5
-    uint8_t& dyn_d5();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_d5();
     // Get instance field reference: public System.Byte d6
-    uint8_t& dyn_d6();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_d6();
     // Get instance field reference: public System.Byte d7
-    uint8_t& dyn_d7();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_d7();
     // public System.Void .ctor()
-    // Offset: 0x1AD79C8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1B11FB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRPlugin::GUID* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRPlugin::GUID::.ctor");

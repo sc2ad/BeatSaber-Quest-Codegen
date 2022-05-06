@@ -63,16 +63,8 @@ namespace UnityEngine::EventSystems {
     public:
     // Nested type: ::UnityEngine::EventSystems::OVRInputModule::InputMode
     struct InputMode;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x12055CC
+    // [TooltipAttribute] Offset: 0x108AFE4
     // public UnityEngine.Transform rayTransform
     // Size: 0x8
     // Offset: 0x58
@@ -85,30 +77,30 @@ namespace UnityEngine::EventSystems {
     ::GlobalNamespace::OVRCursor* m_Cursor;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::OVRCursor*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1205604
+    // [TooltipAttribute] Offset: 0x108B01C
     // public OVRInput/Button joyPadClickButton
     // Size: 0x4
     // Offset: 0x68
     ::GlobalNamespace::OVRInput::Button joyPadClickButton;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::OVRInput::Button) == 0x4);
-    // [TooltipAttribute] Offset: 0x120563C
+    // [TooltipAttribute] Offset: 0x108B054
     // public UnityEngine.KeyCode gazeClickKey
     // Size: 0x4
     // Offset: 0x6C
     ::UnityEngine::KeyCode gazeClickKey;
     // Field size check
     static_assert(sizeof(::UnityEngine::KeyCode) == 0x4);
-    // [HeaderAttribute] Offset: 0x1205674
-    // [TooltipAttribute] Offset: 0x1205674
+    // [HeaderAttribute] Offset: 0x108B08C
+    // [TooltipAttribute] Offset: 0x108B08C
     // public System.Boolean performSphereCastForGazepointer
     // Size: 0x1
     // Offset: 0x70
     bool performSphereCastForGazepointer;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [HeaderAttribute] Offset: 0x12056D4
-    // [TooltipAttribute] Offset: 0x12056D4
+    // [HeaderAttribute] Offset: 0x108B0EC
+    // [TooltipAttribute] Offset: 0x108B0EC
     // public System.Boolean useRightStickScroll
     // Size: 0x1
     // Offset: 0x71
@@ -117,15 +109,15 @@ namespace UnityEngine::EventSystems {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useRightStickScroll and: rightStickDeadZone
     char __padding5[0x2] = {};
-    // [TooltipAttribute] Offset: 0x1205734
+    // [TooltipAttribute] Offset: 0x108B14C
     // public System.Single rightStickDeadZone
     // Size: 0x4
     // Offset: 0x74
     float rightStickDeadZone;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x120576C
-    // [TooltipAttribute] Offset: 0x120576C
+    // [HeaderAttribute] Offset: 0x108B184
+    // [TooltipAttribute] Offset: 0x108B184
     // public System.Boolean useSwipeScroll
     // Size: 0x1
     // Offset: 0x78
@@ -134,21 +126,21 @@ namespace UnityEngine::EventSystems {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useSwipeScroll and: swipeDragThreshold
     char __padding7[0x3] = {};
-    // [TooltipAttribute] Offset: 0x12057CC
+    // [TooltipAttribute] Offset: 0x108B1E4
     // public System.Single swipeDragThreshold
     // Size: 0x4
     // Offset: 0x7C
     float swipeDragThreshold;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1205804
+    // [TooltipAttribute] Offset: 0x108B21C
     // public System.Single swipeDragScale
     // Size: 0x4
     // Offset: 0x80
     float swipeDragScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x120583C
+    // [TooltipAttribute] Offset: 0x108B254
     // public System.Boolean InvertSwipeXAxis
     // Size: 0x1
     // Offset: 0x84
@@ -163,8 +155,8 @@ namespace UnityEngine::EventSystems {
     ::GlobalNamespace::OVRRaycaster* activeGraphicRaycaster;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::OVRRaycaster*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1205874
-    // [TooltipAttribute] Offset: 0x1205874
+    // [HeaderAttribute] Offset: 0x108B28C
+    // [TooltipAttribute] Offset: 0x108B28C
     // public System.Single angleDragThreshold
     // Size: 0x4
     // Offset: 0x90
@@ -197,7 +189,7 @@ namespace UnityEngine::EventSystems {
     static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
     // Padding between fields: m_MousePosition and: m_HorizontalAxis
     char __padding16[0x4] = {};
-    // [HeaderAttribute] Offset: 0x12058E4
+    // [HeaderAttribute] Offset: 0x108B2FC
     // private System.String m_HorizontalAxis
     // Size: 0x8
     // Offset: 0xB0
@@ -250,206 +242,193 @@ namespace UnityEngine::EventSystems {
     static_assert(sizeof(::UnityEngine::EventSystems::PointerInputModule::MouseState*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.Transform rayTransform
-    ::UnityEngine::Transform*& dyn_rayTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_rayTransform();
     // Get instance field reference: public OVRCursor m_Cursor
-    ::GlobalNamespace::OVRCursor*& dyn_m_Cursor();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRCursor*& dyn_m_Cursor();
     // Get instance field reference: public OVRInput/Button joyPadClickButton
-    ::GlobalNamespace::OVRInput::Button& dyn_joyPadClickButton();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRInput::Button& dyn_joyPadClickButton();
     // Get instance field reference: public UnityEngine.KeyCode gazeClickKey
-    ::UnityEngine::KeyCode& dyn_gazeClickKey();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::KeyCode& dyn_gazeClickKey();
     // Get instance field reference: public System.Boolean performSphereCastForGazepointer
-    bool& dyn_performSphereCastForGazepointer();
+    [[deprecated("Use field access instead!")]] bool& dyn_performSphereCastForGazepointer();
     // Get instance field reference: public System.Boolean useRightStickScroll
-    bool& dyn_useRightStickScroll();
+    [[deprecated("Use field access instead!")]] bool& dyn_useRightStickScroll();
     // Get instance field reference: public System.Single rightStickDeadZone
-    float& dyn_rightStickDeadZone();
+    [[deprecated("Use field access instead!")]] float& dyn_rightStickDeadZone();
     // Get instance field reference: public System.Boolean useSwipeScroll
-    bool& dyn_useSwipeScroll();
+    [[deprecated("Use field access instead!")]] bool& dyn_useSwipeScroll();
     // Get instance field reference: public System.Single swipeDragThreshold
-    float& dyn_swipeDragThreshold();
+    [[deprecated("Use field access instead!")]] float& dyn_swipeDragThreshold();
     // Get instance field reference: public System.Single swipeDragScale
-    float& dyn_swipeDragScale();
+    [[deprecated("Use field access instead!")]] float& dyn_swipeDragScale();
     // Get instance field reference: public System.Boolean InvertSwipeXAxis
-    bool& dyn_InvertSwipeXAxis();
+    [[deprecated("Use field access instead!")]] bool& dyn_InvertSwipeXAxis();
     // Get instance field reference: public OVRRaycaster activeGraphicRaycaster
-    ::GlobalNamespace::OVRRaycaster*& dyn_activeGraphicRaycaster();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRRaycaster*& dyn_activeGraphicRaycaster();
     // Get instance field reference: public System.Single angleDragThreshold
-    float& dyn_angleDragThreshold();
+    [[deprecated("Use field access instead!")]] float& dyn_angleDragThreshold();
     // Get instance field reference: private System.Single m_SpherecastRadius
-    float& dyn_m_SpherecastRadius();
+    [[deprecated("Use field access instead!")]] float& dyn_m_SpherecastRadius();
     // Get instance field reference: private System.Single m_NextAction
-    float& dyn_m_NextAction();
+    [[deprecated("Use field access instead!")]] float& dyn_m_NextAction();
     // Get instance field reference: private UnityEngine.Vector2 m_LastMousePosition
-    ::UnityEngine::Vector2& dyn_m_LastMousePosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_m_LastMousePosition();
     // Get instance field reference: private UnityEngine.Vector2 m_MousePosition
-    ::UnityEngine::Vector2& dyn_m_MousePosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_m_MousePosition();
     // Get instance field reference: private System.String m_HorizontalAxis
-    ::StringW& dyn_m_HorizontalAxis();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_HorizontalAxis();
     // Get instance field reference: private System.String m_VerticalAxis
-    ::StringW& dyn_m_VerticalAxis();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_VerticalAxis();
     // Get instance field reference: private System.String m_SubmitButton
-    ::StringW& dyn_m_SubmitButton();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_SubmitButton();
     // Get instance field reference: private System.String m_CancelButton
-    ::StringW& dyn_m_CancelButton();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_m_CancelButton();
     // Get instance field reference: private System.Single m_InputActionsPerSecond
-    float& dyn_m_InputActionsPerSecond();
+    [[deprecated("Use field access instead!")]] float& dyn_m_InputActionsPerSecond();
     // Get instance field reference: private System.Boolean m_AllowActivationOnMobileDevice
-    bool& dyn_m_AllowActivationOnMobileDevice();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_AllowActivationOnMobileDevice();
     // Get instance field reference: protected System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.OVRPointerEventData> m_VRRayPointerData
-    ::System::Collections::Generic::Dictionary_2<int, ::UnityEngine::EventSystems::OVRPointerEventData*>*& dyn_m_VRRayPointerData();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::UnityEngine::EventSystems::OVRPointerEventData*>*& dyn_m_VRRayPointerData();
     // Get instance field reference: private readonly UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseState m_MouseState
-    ::UnityEngine::EventSystems::PointerInputModule::MouseState*& dyn_m_MouseState();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::EventSystems::PointerInputModule::MouseState*& dyn_m_MouseState();
     // public UnityEngine.EventSystems.OVRInputModule/UnityEngine.EventSystems.InputMode get_inputMode()
-    // Offset: 0x245B948
+    // Offset: 0x24A540C
     ::UnityEngine::EventSystems::OVRInputModule::InputMode get_inputMode();
     // public System.Boolean get_allowActivationOnMobileDevice()
-    // Offset: 0x245B950
+    // Offset: 0x24A5414
     bool get_allowActivationOnMobileDevice();
     // public System.Void set_allowActivationOnMobileDevice(System.Boolean value)
-    // Offset: 0x245B958
+    // Offset: 0x24A541C
     void set_allowActivationOnMobileDevice(bool value);
     // public System.Single get_inputActionsPerSecond()
-    // Offset: 0x245B964
+    // Offset: 0x24A5428
     float get_inputActionsPerSecond();
     // public System.Void set_inputActionsPerSecond(System.Single value)
-    // Offset: 0x245B96C
+    // Offset: 0x24A5430
     void set_inputActionsPerSecond(float value);
     // public System.String get_horizontalAxis()
-    // Offset: 0x245B974
+    // Offset: 0x24A5438
     ::StringW get_horizontalAxis();
     // public System.Void set_horizontalAxis(System.String value)
-    // Offset: 0x245B97C
+    // Offset: 0x24A5440
     void set_horizontalAxis(::StringW value);
     // public System.String get_verticalAxis()
-    // Offset: 0x245B984
+    // Offset: 0x24A5448
     ::StringW get_verticalAxis();
     // public System.Void set_verticalAxis(System.String value)
-    // Offset: 0x245B98C
+    // Offset: 0x24A5450
     void set_verticalAxis(::StringW value);
     // public System.String get_submitButton()
-    // Offset: 0x245B994
+    // Offset: 0x24A5458
     ::StringW get_submitButton();
     // public System.Void set_submitButton(System.String value)
-    // Offset: 0x245B99C
+    // Offset: 0x24A5460
     void set_submitButton(::StringW value);
     // public System.String get_cancelButton()
-    // Offset: 0x245B9A4
+    // Offset: 0x24A5468
     ::StringW get_cancelButton();
     // public System.Void set_cancelButton(System.String value)
-    // Offset: 0x245B9AC
+    // Offset: 0x24A5470
     void set_cancelButton(::StringW value);
-    // private System.Boolean SendSubmitEventToSelectedObject()
-    // Offset: 0x245BF74
-    bool SendSubmitEventToSelectedObject();
-    // private System.Boolean AllowMoveEventProcessing(System.Single time)
-    // Offset: 0x245C184
-    bool AllowMoveEventProcessing(float time);
-    // private UnityEngine.Vector2 GetRawMoveVector()
-    // Offset: 0x245C1E4
-    ::UnityEngine::Vector2 GetRawMoveVector();
-    // private System.Boolean SendMoveEventToSelectedObject()
-    // Offset: 0x245C2CC
-    bool SendMoveEventToSelectedObject();
-    // private System.Boolean SendUpdateEventToSelectedObject()
-    // Offset: 0x245C4C4
-    bool SendUpdateEventToSelectedObject();
-    // private System.Void ProcessMousePress(UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseButtonEventData data)
-    // Offset: 0x245C618
-    void ProcessMousePress(::UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* data);
-    // private System.Void ProcessMouseEvent(UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseState mouseData)
-    // Offset: 0x245CE34
-    void ProcessMouseEvent(::UnityEngine::EventSystems::PointerInputModule::MouseState* mouseData);
-    // static private System.Boolean UseMouse(System.Boolean pressed, System.Boolean released, UnityEngine.EventSystems.PointerEventData pointerData)
-    // Offset: 0x245D0D4
-    static bool UseMouse(bool pressed, bool released, ::UnityEngine::EventSystems::PointerEventData* pointerData);
-    // protected System.Void CopyFromTo(UnityEngine.EventSystems.OVRPointerEventData from, UnityEngine.EventSystems.OVRPointerEventData to)
-    // Offset: 0x245D1D8
-    void CopyFromTo(::UnityEngine::EventSystems::OVRPointerEventData* from, ::UnityEngine::EventSystems::OVRPointerEventData* to);
-    // protected System.Boolean GetPointerData(System.Int32 id, out UnityEngine.EventSystems.OVRPointerEventData data, System.Boolean create)
-    // Offset: 0x245D2A0
-    bool GetPointerData(int id, ByRef<::UnityEngine::EventSystems::OVRPointerEventData*> data, bool create);
-    // static private UnityEngine.Vector3 GetRectTransformNormal(UnityEngine.RectTransform rectTransform)
-    // Offset: 0x245D38C
-    static ::UnityEngine::Vector3 GetRectTransformNormal(::UnityEngine::RectTransform* rectTransform);
-    // protected UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseState GetGazePointerData()
-    // Offset: 0x245D50C
-    ::UnityEngine::EventSystems::PointerInputModule::MouseState* GetGazePointerData();
-    // protected UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseState GetCanvasPointerData()
-    // Offset: 0x245E068
-    ::UnityEngine::EventSystems::PointerInputModule::MouseState* GetCanvasPointerData();
-    // private System.Boolean ShouldStartDrag(UnityEngine.EventSystems.PointerEventData pointerEvent)
-    // Offset: 0x245E448
-    bool ShouldStartDrag(::UnityEngine::EventSystems::PointerEventData* pointerEvent);
-    // static private System.Boolean IsPointerMoving(UnityEngine.EventSystems.PointerEventData pointerEvent)
-    // Offset: 0x245D194
-    static bool IsPointerMoving(::UnityEngine::EventSystems::PointerEventData* pointerEvent);
-    // protected UnityEngine.Vector2 SwipeAdjustedPosition(UnityEngine.Vector2 originalPosition, UnityEngine.EventSystems.PointerEventData pointerEvent)
-    // Offset: 0x245E7CC
-    ::UnityEngine::Vector2 SwipeAdjustedPosition(::UnityEngine::Vector2 originalPosition, ::UnityEngine::EventSystems::PointerEventData* pointerEvent);
-    // protected UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.FramePressState GetGazeButtonState()
-    // Offset: 0x245EC58
-    ::UnityEngine::EventSystems::PointerEventData::FramePressState GetGazeButtonState();
-    // protected UnityEngine.Vector2 GetExtraScrollDelta()
-    // Offset: 0x245DB10
-    ::UnityEngine::Vector2 GetExtraScrollDelta();
     // protected System.Void .ctor()
-    // Offset: 0x245B838
-    // Implemented from: UnityEngine.EventSystems.PointerInputModule
-    // Base method: System.Void PointerInputModule::.ctor()
-    // Base method: System.Void BaseInputModule::.ctor()
-    // Base method: System.Void UIBehaviour::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x24A52FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRInputModule* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::OVRInputModule::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRInputModule*, creationType>()));
     }
+    // private System.Boolean SendSubmitEventToSelectedObject()
+    // Offset: 0x24A5A38
+    bool SendSubmitEventToSelectedObject();
+    // private System.Boolean AllowMoveEventProcessing(System.Single time)
+    // Offset: 0x24A5C48
+    bool AllowMoveEventProcessing(float time);
+    // private UnityEngine.Vector2 GetRawMoveVector()
+    // Offset: 0x24A5CA8
+    ::UnityEngine::Vector2 GetRawMoveVector();
+    // private System.Boolean SendMoveEventToSelectedObject()
+    // Offset: 0x24A5D90
+    bool SendMoveEventToSelectedObject();
+    // private System.Boolean SendUpdateEventToSelectedObject()
+    // Offset: 0x24A5F88
+    bool SendUpdateEventToSelectedObject();
+    // private System.Void ProcessMousePress(UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseButtonEventData data)
+    // Offset: 0x24A60DC
+    void ProcessMousePress(::UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* data);
+    // private System.Void ProcessMouseEvent(UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseState mouseData)
+    // Offset: 0x24A68F8
+    void ProcessMouseEvent(::UnityEngine::EventSystems::PointerInputModule::MouseState* mouseData);
+    // static private System.Boolean UseMouse(System.Boolean pressed, System.Boolean released, UnityEngine.EventSystems.PointerEventData pointerData)
+    // Offset: 0x24A6B98
+    static bool UseMouse(bool pressed, bool released, ::UnityEngine::EventSystems::PointerEventData* pointerData);
+    // protected System.Void CopyFromTo(UnityEngine.EventSystems.OVRPointerEventData from, UnityEngine.EventSystems.OVRPointerEventData to)
+    // Offset: 0x24A6C9C
+    void CopyFromTo(::UnityEngine::EventSystems::OVRPointerEventData* from, ::UnityEngine::EventSystems::OVRPointerEventData* to);
+    // protected System.Void CopyFromTo(UnityEngine.EventSystems.PointerEventData from, UnityEngine.EventSystems.PointerEventData to)
+    // Offset: 0x24A6D08
+    void CopyFromTo(::UnityEngine::EventSystems::PointerEventData* from, ::UnityEngine::EventSystems::PointerEventData* to);
+    // protected System.Boolean GetPointerData(System.Int32 id, out UnityEngine.EventSystems.OVRPointerEventData data, System.Boolean create)
+    // Offset: 0x24A6D64
+    bool GetPointerData(int id, ByRef<::UnityEngine::EventSystems::OVRPointerEventData*> data, bool create);
+    // protected System.Void ClearSelection()
+    // Offset: 0x24A582C
+    void ClearSelection();
+    // static private UnityEngine.Vector3 GetRectTransformNormal(UnityEngine.RectTransform rectTransform)
+    // Offset: 0x24A6E50
+    static ::UnityEngine::Vector3 GetRectTransformNormal(::UnityEngine::RectTransform* rectTransform);
+    // protected UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseState GetGazePointerData()
+    // Offset: 0x24A6FD0
+    ::UnityEngine::EventSystems::PointerInputModule::MouseState* GetGazePointerData();
+    // protected UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseState GetCanvasPointerData()
+    // Offset: 0x24A7B2C
+    ::UnityEngine::EventSystems::PointerInputModule::MouseState* GetCanvasPointerData();
+    // private System.Boolean ShouldStartDrag(UnityEngine.EventSystems.PointerEventData pointerEvent)
+    // Offset: 0x24A7F0C
+    bool ShouldStartDrag(::UnityEngine::EventSystems::PointerEventData* pointerEvent);
+    // static private System.Boolean IsPointerMoving(UnityEngine.EventSystems.PointerEventData pointerEvent)
+    // Offset: 0x24A6C58
+    static bool IsPointerMoving(::UnityEngine::EventSystems::PointerEventData* pointerEvent);
+    // protected UnityEngine.Vector2 SwipeAdjustedPosition(UnityEngine.Vector2 originalPosition, UnityEngine.EventSystems.PointerEventData pointerEvent)
+    // Offset: 0x24A8290
+    ::UnityEngine::Vector2 SwipeAdjustedPosition(::UnityEngine::Vector2 originalPosition, ::UnityEngine::EventSystems::PointerEventData* pointerEvent);
+    // protected UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.FramePressState GetGazeButtonState()
+    // Offset: 0x24A871C
+    ::UnityEngine::EventSystems::PointerEventData::FramePressState GetGazeButtonState();
+    // protected UnityEngine.Vector2 GetExtraScrollDelta()
+    // Offset: 0x24A75D4
+    ::UnityEngine::Vector2 GetExtraScrollDelta();
     // public override System.Void UpdateModule()
-    // Offset: 0x245B9B4
+    // Offset: 0x24A5478
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::UpdateModule()
     void UpdateModule();
     // public override System.Boolean IsModuleSupported()
-    // Offset: 0x245BA58
+    // Offset: 0x24A551C
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Boolean BaseInputModule::IsModuleSupported()
     bool IsModuleSupported();
     // public override System.Boolean ShouldActivateModule()
-    // Offset: 0x245BA70
+    // Offset: 0x24A5534
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Boolean BaseInputModule::ShouldActivateModule()
     bool ShouldActivateModule();
     // public override System.Void ActivateModule()
-    // Offset: 0x245BC04
+    // Offset: 0x24A56C8
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::ActivateModule()
     void ActivateModule();
     // public override System.Void DeactivateModule()
-    // Offset: 0x245BD40
+    // Offset: 0x24A5804
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::DeactivateModule()
     void DeactivateModule();
     // public override System.Void Process()
-    // Offset: 0x245D124
+    // Offset: 0x24A6BE8
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::Process()
     void Process();
-    // protected System.Void CopyFromTo(UnityEngine.EventSystems.PointerEventData from, UnityEngine.EventSystems.PointerEventData to)
-    // Offset: 0x245D244
-    // Implemented from: UnityEngine.EventSystems.PointerInputModule
-    // Base method: System.Void PointerInputModule::CopyFromTo(UnityEngine.EventSystems.PointerEventData from, UnityEngine.EventSystems.PointerEventData to)
-    void CopyFromTo(::UnityEngine::EventSystems::PointerEventData* from, ::UnityEngine::EventSystems::PointerEventData* to);
-    // protected System.Void ClearSelection()
-    // Offset: 0x245BD68
-    // Implemented from: UnityEngine.EventSystems.PointerInputModule
-    // Base method: System.Void PointerInputModule::ClearSelection()
-    void ClearSelection();
     // protected override System.Void ProcessDrag(UnityEngine.EventSystems.PointerEventData pointerEvent)
-    // Offset: 0x245E91C
+    // Offset: 0x24A83E0
     // Implemented from: UnityEngine.EventSystems.PointerInputModule
     // Base method: System.Void PointerInputModule::ProcessDrag(UnityEngine.EventSystems.PointerEventData pointerEvent)
     void ProcessDrag(::UnityEngine::EventSystems::PointerEventData* pointerEvent);
@@ -569,6 +548,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "set_cancelButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::SendSubmitEventToSelectedObject
 // Il2CppName: SendSubmitEventToSelectedObject
 template<>
@@ -649,6 +632,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "CopyFromTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{from, to});
   }
 };
+// Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::CopyFromTo
+// Il2CppName: CopyFromTo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(::UnityEngine::EventSystems::PointerEventData*, ::UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::OVRInputModule::CopyFromTo)> {
+  static const MethodInfo* get() {
+    static auto* from = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
+    static auto* to = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "CopyFromTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{from, to});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::GetPointerData
 // Il2CppName: GetPointerData
 template<>
@@ -658,6 +651,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     static auto* data = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "OVRPointerEventData")->this_arg;
     static auto* create = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "GetPointerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id, data, create});
+  }
+};
+// Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::ClearSelection
+// Il2CppName: ClearSelection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::ClearSelection)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "ClearSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::GetRectTransformNormal
@@ -729,10 +730,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "GetExtraScrollDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::UpdateModule
 // Il2CppName: UpdateModule
 template<>
@@ -779,24 +776,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::Process)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "Process", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::CopyFromTo
-// Il2CppName: CopyFromTo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(::UnityEngine::EventSystems::PointerEventData*, ::UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::OVRInputModule::CopyFromTo)> {
-  static const MethodInfo* get() {
-    static auto* from = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
-    static auto* to = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "CopyFromTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{from, to});
-  }
-};
-// Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::ClearSelection
-// Il2CppName: ClearSelection
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::ClearSelection)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "ClearSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::ProcessDrag

@@ -26,15 +26,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   // [TokenAttribute] Offset: FFFFFFFF
   class RemoteTestResultSender::QueueData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Guid <id>k__BackingField
     // Size: 0x10
     // Offset: 0x10
@@ -49,25 +41,23 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     public:
     // Get instance field reference: private System.Guid <id>k__BackingField
-    ::System::Guid& dyn_$id$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Guid& dyn_$id$k__BackingField();
     // Get instance field reference: private System.Byte[] <data>k__BackingField
-    ::ArrayW<uint8_t>& dyn_$data$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_$data$k__BackingField();
     // public System.Guid get_id()
-    // Offset: 0x194F818
+    // Offset: 0x19871E8
     ::System::Guid get_id();
     // public System.Void set_id(System.Guid value)
-    // Offset: 0x194F824
+    // Offset: 0x19871F4
     void set_id(::System::Guid value);
     // public System.Byte[] get_data()
-    // Offset: 0x194F82C
+    // Offset: 0x19871FC
     ::ArrayW<uint8_t> get_data();
     // public System.Void set_data(System.Byte[] value)
-    // Offset: 0x194F834
+    // Offset: 0x1987204
     void set_data(::ArrayW<uint8_t> value);
     // public System.Void .ctor()
-    // Offset: 0x194ED90
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1986760
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteTestResultSender::QueueData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData::.ctor");

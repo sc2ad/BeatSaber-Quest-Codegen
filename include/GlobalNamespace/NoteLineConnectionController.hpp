@@ -56,36 +56,28 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::NoteLineConnectionController::Pool
     class Pool;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.LineRenderer _lineRenderer
     // Size: 0x8
     // Offset: 0x18
     ::UnityEngine::LineRenderer* lineRenderer;
     // Field size check
     static_assert(sizeof(::UnityEngine::LineRenderer*) == 0x8);
-    // [InjectAttribute] Offset: 0x124F518
+    // [InjectAttribute] Offset: 0x10D404C
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0x124F528
+    // [InjectAttribute] Offset: 0x10D405C
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0x124F538
+    // [InjectAttribute] Offset: 0x10D406C
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x30
@@ -150,59 +142,53 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.LineRenderer _lineRenderer
-    ::UnityEngine::LineRenderer*& dyn__lineRenderer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::LineRenderer*& dyn__lineRenderer();
     // Get instance field reference: private readonly PlayerTransforms _playerTransforms
-    ::GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
     // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
-    ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // Get instance field reference: private readonly ColorManager _colorManager
-    ::GlobalNamespace::ColorManager*& dyn__colorManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorManager*& dyn__colorManager();
     // Get instance field reference: private System.Action`1<NoteLineConnectionController> didFinishEvent
-    ::System::Action_1<::GlobalNamespace::NoteLineConnectionController*>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::NoteLineConnectionController*>*& dyn_didFinishEvent();
     // Get instance field reference: private NoteController _noteController0
-    ::GlobalNamespace::NoteController*& dyn__noteController0();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteController*& dyn__noteController0();
     // Get instance field reference: private NoteController _noteController1
-    ::GlobalNamespace::NoteController*& dyn__noteController1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteController*& dyn__noteController1();
     // Get instance field reference: private UnityEngine.Color _color0
-    ::UnityEngine::Color& dyn__color0();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color0();
     // Get instance field reference: private UnityEngine.Color _color1
-    ::UnityEngine::Color& dyn__color1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color1();
     // Get instance field reference: private System.Single _fadeOutStartDistance
-    float& dyn__fadeOutStartDistance();
+    [[deprecated("Use field access instead!")]] float& dyn__fadeOutStartDistance();
     // Get instance field reference: private System.Single _fadeOutEndDistance
-    float& dyn__fadeOutEndDistance();
+    [[deprecated("Use field access instead!")]] float& dyn__fadeOutEndDistance();
     // Get instance field reference: private System.Single _noteTime
-    float& dyn__noteTime();
+    [[deprecated("Use field access instead!")]] float& dyn__noteTime();
     // Get instance field reference: private System.Boolean _didFinish
-    bool& dyn__didFinish();
+    [[deprecated("Use field access instead!")]] bool& dyn__didFinish();
     // public System.Void add_didFinishEvent(System.Action`1<NoteLineConnectionController> value)
-    // Offset: 0x147C14C
+    // Offset: 0x14B2934
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::NoteLineConnectionController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<NoteLineConnectionController> value)
-    // Offset: 0x147C1F0
+    // Offset: 0x14B29D8
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::NoteLineConnectionController*>* value);
-    // public System.Void Setup(NoteController noteController0, NoteController noteController1, System.Single fadeOutStartDistance, System.Single fadeOutEndDistance, System.Single noteTime)
-    // Offset: 0x147C294
-    void Setup(::GlobalNamespace::NoteController* noteController0, ::GlobalNamespace::NoteController* noteController1, float fadeOutStartDistance, float fadeOutEndDistance, float noteTime);
-    // protected System.Void Update()
-    // Offset: 0x147C528
-    void Update();
-    // private System.Void UpdatePositionsAndColors()
-    // Offset: 0x147C33C
-    void UpdatePositionsAndColors();
     // public System.Void .ctor()
-    // Offset: 0x147C5C0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14B2DA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteLineConnectionController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteLineConnectionController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteLineConnectionController*, creationType>()));
     }
+    // public System.Void Setup(NoteController noteController0, NoteController noteController1, System.Single fadeOutStartDistance, System.Single fadeOutEndDistance, System.Single noteTime)
+    // Offset: 0x14B2A7C
+    void Setup(::GlobalNamespace::NoteController* noteController0, ::GlobalNamespace::NoteController* noteController1, float fadeOutStartDistance, float fadeOutEndDistance, float noteTime);
+    // protected System.Void Update()
+    // Offset: 0x14B2D10
+    void Update();
+    // private System.Void UpdatePositionsAndColors()
+    // Offset: 0x14B2B24
+    void UpdatePositionsAndColors();
   }; // NoteLineConnectionController
   #pragma pack(pop)
   static check_size<sizeof(NoteLineConnectionController), 124 + sizeof(bool)> __GlobalNamespace_NoteLineConnectionControllerSizeCheck;
@@ -227,6 +213,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteLineConnectionController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::NoteLineConnectionController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NoteLineConnectionController::Setup
 // Il2CppName: Setup
 template<>
@@ -256,7 +246,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteLineConnectionController*), "UpdatePositionsAndColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NoteLineConnectionController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

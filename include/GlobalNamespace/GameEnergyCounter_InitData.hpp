@@ -25,15 +25,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameEnergyCounter::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly GameplayModifiers/EnergyType energyType
     // Size: 0x4
     // Offset: 0x10
@@ -60,15 +52,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public readonly GameplayModifiers/EnergyType energyType
-    ::GlobalNamespace::GameplayModifiers::EnergyType& dyn_energyType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers::EnergyType& dyn_energyType();
     // Get instance field reference: public readonly System.Boolean noFail
-    bool& dyn_noFail();
+    [[deprecated("Use field access instead!")]] bool& dyn_noFail();
     // Get instance field reference: public readonly System.Boolean instaFail
-    bool& dyn_instaFail();
+    [[deprecated("Use field access instead!")]] bool& dyn_instaFail();
     // Get instance field reference: public readonly System.Boolean failOnSaberClash
-    bool& dyn_failOnSaberClash();
+    [[deprecated("Use field access instead!")]] bool& dyn_failOnSaberClash();
     // public System.Void .ctor(GameplayModifiers/EnergyType energyType, System.Boolean noFail, System.Boolean instaFail, System.Boolean failOnSaberClash)
-    // Offset: 0x1394C6C
+    // Offset: 0x137C780
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameEnergyCounter::InitData* New_ctor(::GlobalNamespace::GameplayModifiers::EnergyType energyType, bool noFail, bool instaFail, bool failOnSaberClash) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameEnergyCounter::InitData::.ctor");

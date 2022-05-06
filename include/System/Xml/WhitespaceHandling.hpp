@@ -60,7 +60,7 @@ namespace System::Xml {
     // Set static field: static public System.Xml.WhitespaceHandling None
     static void _set_None(::System::Xml::WhitespaceHandling value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Xml.WhitespaceHandling
   #pragma pack(pop)
   static check_size<sizeof(WhitespaceHandling), 0 + sizeof(int)> __System_Xml_WhitespaceHandlingSizeCheck;

@@ -33,15 +33,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class Bevel::$$c__DisplayClass0_1 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.ProBuilder.EdgeLookup lup
     // Size: 0x10
     // Offset: 0x10
@@ -54,25 +46,27 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return lup;
     }
     // Get instance field reference: public UnityEngine.ProBuilder.EdgeLookup lup
-    ::UnityEngine::ProBuilder::EdgeLookup& dyn_lup();
-    // System.Boolean <BevelEdges>b__4(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x19E7404
-    bool $BevelEdges$b__4(::UnityEngine::ProBuilder::WingedEdge* x);
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::EdgeLookup& dyn_lup();
     // public System.Void .ctor()
-    // Offset: 0x19E663C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1A1FC24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Bevel::$$c__DisplayClass0_1* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Bevel::$$c__DisplayClass0_1*, creationType>()));
     }
+    // System.Boolean <BevelEdges>b__4(UnityEngine.ProBuilder.WingedEdge x)
+    // Offset: 0x1A209EC
+    bool $BevelEdges$b__4(::UnityEngine::ProBuilder::WingedEdge* x);
   }; // UnityEngine.ProBuilder.MeshOperations.Bevel/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass0_1
   #pragma pack(pop)
   static check_size<sizeof(Bevel::$$c__DisplayClass0_1), 16 + sizeof(::UnityEngine::ProBuilder::EdgeLookup)> __UnityEngine_ProBuilder_MeshOperations_Bevel_$$c__DisplayClass0_1SizeCheck;
   static_assert(sizeof(Bevel::$$c__DisplayClass0_1) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_1::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_1::$BevelEdges$b__4
 // Il2CppName: <BevelEdges>b__4
 template<>
@@ -82,7 +76,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_1*), "<BevelEdges>b__4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
-// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_1::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

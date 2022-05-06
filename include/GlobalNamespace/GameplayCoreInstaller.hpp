@@ -58,15 +58,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameplayCoreInstaller : public ::Zenject::MonoInstaller {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BeatLineManager _beatLineManagerPrefab
     // Size: 0x8
     // Offset: 0x20
@@ -79,7 +71,7 @@ namespace GlobalNamespace {
     ::Tweening::SongTimeTweeningManager* songTimeTweeningManager;
     // Field size check
     static_assert(sizeof(::Tweening::SongTimeTweeningManager*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1257260
+    // [SpaceAttribute] Offset: 0x10DBE44
     // private AudioManagerSO _audioManager
     // Size: 0x8
     // Offset: 0x30
@@ -110,28 +102,28 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MissedNoteEffectSpawner* missedNoteEffectSpawnerPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissedNoteEffectSpawner*) == 0x8);
-    // [SpaceAttribute] Offset: 0x12572D8
+    // [SpaceAttribute] Offset: 0x10DBEBC
     // private EffectPoolsManualInstaller _effectPoolsManualInstaller
     // Size: 0x8
     // Offset: 0x58
     ::GlobalNamespace::EffectPoolsManualInstaller* effectPoolsManualInstaller;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EffectPoolsManualInstaller*) == 0x8);
-    // [InjectAttribute] Offset: 0x1257310
+    // [InjectAttribute] Offset: 0x10DBEF4
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x60
     ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1257320
+    // [InjectAttribute] Offset: 0x10DBF04
     // private readonly PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
     // Size: 0x8
     // Offset: 0x68
     ::GlobalNamespace::PerceivedLoudnessPerLevelModel* perceivedLoudnessPerLevelModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PerceivedLoudnessPerLevelModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x1257330
+    // [InjectAttribute] Offset: 0x10DBF14
     // private readonly RelativeSfxVolumePerLevelModel _relativeSfxVolumePerLevelModel
     // Size: 0x8
     // Offset: 0x70
@@ -140,44 +132,36 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::RelativeSfxVolumePerLevelModel*) == 0x8);
     public:
     // Get instance field reference: private BeatLineManager _beatLineManagerPrefab
-    ::GlobalNamespace::BeatLineManager*& dyn__beatLineManagerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatLineManager*& dyn__beatLineManagerPrefab();
     // Get instance field reference: private Tweening.SongTimeTweeningManager _songTimeTweeningManager
-    ::Tweening::SongTimeTweeningManager*& dyn__songTimeTweeningManager();
+    [[deprecated("Use field access instead!")]] ::Tweening::SongTimeTweeningManager*& dyn__songTimeTweeningManager();
     // Get instance field reference: private AudioManagerSO _audioManager
-    ::GlobalNamespace::AudioManagerSO*& dyn__audioManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioManagerSO*& dyn__audioManager();
     // Get instance field reference: private PlayerHeightDetector _playerHeightDetectorPrefab
-    ::GlobalNamespace::PlayerHeightDetector*& dyn__playerHeightDetectorPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerHeightDetector*& dyn__playerHeightDetectorPrefab();
     // Get instance field reference: private NoteCutScoreSpawner _noteCutScoreSpawnerPrefab
-    ::GlobalNamespace::NoteCutScoreSpawner*& dyn__noteCutScoreSpawnerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutScoreSpawner*& dyn__noteCutScoreSpawnerPrefab();
     // Get instance field reference: private BadNoteCutEffectSpawner _badNoteCutEffectSpawnerPrefab
-    ::GlobalNamespace::BadNoteCutEffectSpawner*& dyn__badNoteCutEffectSpawnerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BadNoteCutEffectSpawner*& dyn__badNoteCutEffectSpawnerPrefab();
     // Get instance field reference: private MissedNoteEffectSpawner _missedNoteEffectSpawnerPrefab
-    ::GlobalNamespace::MissedNoteEffectSpawner*& dyn__missedNoteEffectSpawnerPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissedNoteEffectSpawner*& dyn__missedNoteEffectSpawnerPrefab();
     // Get instance field reference: private EffectPoolsManualInstaller _effectPoolsManualInstaller
-    ::GlobalNamespace::EffectPoolsManualInstaller*& dyn__effectPoolsManualInstaller();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::EffectPoolsManualInstaller*& dyn__effectPoolsManualInstaller();
     // Get instance field reference: private readonly GameplayCoreSceneSetupData _sceneSetupData
-    ::GlobalNamespace::GameplayCoreSceneSetupData*& dyn__sceneSetupData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayCoreSceneSetupData*& dyn__sceneSetupData();
     // Get instance field reference: private readonly PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
-    ::GlobalNamespace::PerceivedLoudnessPerLevelModel*& dyn__perceivedLoudnessPerLevelModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PerceivedLoudnessPerLevelModel*& dyn__perceivedLoudnessPerLevelModel();
     // Get instance field reference: private readonly RelativeSfxVolumePerLevelModel _relativeSfxVolumePerLevelModel
-    ::GlobalNamespace::RelativeSfxVolumePerLevelModel*& dyn__relativeSfxVolumePerLevelModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::RelativeSfxVolumePerLevelModel*& dyn__relativeSfxVolumePerLevelModel();
     // public System.Void .ctor()
-    // Offset: 0x13E462C
-    // Implemented from: Zenject.MonoInstaller
-    // Base method: System.Void MonoInstaller::.ctor()
-    // Base method: System.Void MonoInstallerBase::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13F10CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayCoreInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayCoreInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayCoreInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x13E2F48
+    // Offset: 0x13EF9E8
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

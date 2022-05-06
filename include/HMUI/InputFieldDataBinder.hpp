@@ -77,15 +77,7 @@ namespace HMUI {
     // Nested type: ::HMUI::InputFieldDataBinder::$$c__3_1<T>
     template<typename T>
     class $$c__3_1;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.List`1<System.Tuple`4<UnityEngine.UI.InputField,IObservableChange,UnityEngine.Events.UnityAction`1<System.String>,System.Action>> _bindings
     // Size: 0x8
     // Offset: 0x10
@@ -98,7 +90,14 @@ namespace HMUI {
       return bindings;
     }
     // Get instance field reference: private System.Collections.Generic.List`1<System.Tuple`4<UnityEngine.UI.InputField,IObservableChange,UnityEngine.Events.UnityAction`1<System.String>,System.Action>> _bindings
-    ::System::Collections::Generic::List_1<::System::Tuple_4<::UnityEngine::UI::InputField*, ::GlobalNamespace::IObservableChange*, ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>*& dyn__bindings();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Tuple_4<::UnityEngine::UI::InputField*, ::GlobalNamespace::IObservableChange*, ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>*& dyn__bindings();
+    // public System.Void .ctor()
+    // Offset: 0x16B7C54
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static InputFieldDataBinder* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::InputFieldDataBinder::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<InputFieldDataBinder*, creationType>()));
+    }
     // public System.Void AddBindings(System.Collections.Generic.List`1<System.Tuple`4<UnityEngine.UI.InputField,T0,System.Func`2<System.String,T1>,System.Func`2<T1,System.String>>> bindingData)
     // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T0, class T1>
@@ -120,23 +119,18 @@ namespace HMUI {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, bindingData);
     }
     // public System.Void ClearBindings()
-    // Offset: 0x16813B8
+    // Offset: 0x16B7CC8
     void ClearBindings();
-    // public System.Void .ctor()
-    // Offset: 0x1681344
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static InputFieldDataBinder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::InputFieldDataBinder::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<InputFieldDataBinder*, creationType>()));
-    }
   }; // HMUI.InputFieldDataBinder
   #pragma pack(pop)
   static check_size<sizeof(InputFieldDataBinder), 16 + sizeof(::System::Collections::Generic::List_1<::System::Tuple_4<::UnityEngine::UI::InputField*, ::GlobalNamespace::IObservableChange*, ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>*)> __HMUI_InputFieldDataBinderSizeCheck;
   static_assert(sizeof(InputFieldDataBinder) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HMUI::InputFieldDataBinder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::InputFieldDataBinder::AddBindings
 // Il2CppName: AddBindings
 // Cannot write MetadataGetter for generic methods!
@@ -151,7 +145,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldDataBinder*), "ClearBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HMUI::InputFieldDataBinder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

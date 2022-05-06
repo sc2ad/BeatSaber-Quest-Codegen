@@ -103,7 +103,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.RenderTextureCreationFlags BindMS
     static void _set_BindMS(::UnityEngine::RenderTextureCreationFlags value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.RenderTextureCreationFlags
   #pragma pack(pop)
   static check_size<sizeof(RenderTextureCreationFlags), 0 + sizeof(int)> __UnityEngine_RenderTextureCreationFlagsSizeCheck;

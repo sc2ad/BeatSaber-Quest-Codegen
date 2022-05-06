@@ -28,15 +28,7 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ButtonSpriteSwapToggle : public ::HMUI::ButtonSpriteSwap {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean _resetToggleOnEnable
     // Size: 0x1
     // Offset: 0x49
@@ -57,38 +49,33 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Boolean _resetToggleOnEnable
-    bool& dyn__resetToggleOnEnable();
+    [[deprecated("Use field access instead!")]] bool& dyn__resetToggleOnEnable();
     // Get instance field reference: private System.Boolean _ignoreHighlight
-    bool& dyn__ignoreHighlight();
+    [[deprecated("Use field access instead!")]] bool& dyn__ignoreHighlight();
     // Get instance field reference: private System.Boolean _isToggled
-    bool& dyn__isToggled();
+    [[deprecated("Use field access instead!")]] bool& dyn__isToggled();
     // public System.Boolean get_isToggled()
-    // Offset: 0x16DFA94
+    // Offset: 0x17173A4
     bool get_isToggled();
     // public System.Void set_isToggled(System.Boolean value)
-    // Offset: 0x16DFA9C
+    // Offset: 0x17173AC
     void set_isToggled(bool value);
     // public System.Void .ctor()
-    // Offset: 0x16DFC64
+    // Offset: 0x1717574
     // Implemented from: HMUI.ButtonSpriteSwap
     // Base method: System.Void ButtonSpriteSwap::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ButtonSpriteSwapToggle* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ButtonSpriteSwapToggle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ButtonSpriteSwapToggle*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x16DFAE0
+    // Offset: 0x17173F0
     // Implemented from: HMUI.ButtonSpriteSwap
     // Base method: System.Void ButtonSpriteSwap::OnEnable()
     void OnEnable();
     // protected override System.Void HandleButtonSelectionStateDidChange(HMUI.NoTransitionsButton/HMUI.SelectionState state)
-    // Offset: 0x16DFB10
+    // Offset: 0x1717420
     // Implemented from: HMUI.ButtonSpriteSwap
     // Base method: System.Void ButtonSpriteSwap::HandleButtonSelectionStateDidChange(HMUI.NoTransitionsButton/HMUI.SelectionState state)
     void HandleButtonSelectionStateDidChange(::HMUI::NoTransitionsButton::SelectionState state);

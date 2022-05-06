@@ -78,7 +78,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRScreenshotError ScreenshotAlreadyInProgress
     static void _set_ScreenshotAlreadyInProgress(::OVR::OpenVR::EVRScreenshotError value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVR.OpenVR.EVRScreenshotError
   #pragma pack(pop)
   static check_size<sizeof(EVRScreenshotError), 0 + sizeof(int)> __OVR_OpenVR_EVRScreenshotErrorSizeCheck;

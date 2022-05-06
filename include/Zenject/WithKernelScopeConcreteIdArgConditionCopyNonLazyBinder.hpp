@@ -40,15 +40,7 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Zenject.SubContainerCreatorBindInfo _subContainerBindInfo
     // Size: 0x8
     // Offset: 0x20
@@ -57,16 +49,16 @@ namespace Zenject {
     static_assert(sizeof(::Zenject::SubContainerCreatorBindInfo*) == 0x8);
     public:
     // Get instance field reference: private Zenject.SubContainerCreatorBindInfo _subContainerBindInfo
-    ::Zenject::SubContainerCreatorBindInfo*& dyn__subContainerBindInfo();
+    [[deprecated("Use field access instead!")]] ::Zenject::SubContainerCreatorBindInfo*& dyn__subContainerBindInfo();
     // public System.Void .ctor(Zenject.SubContainerCreatorBindInfo subContainerBindInfo, Zenject.BindInfo bindInfo)
-    // Offset: 0x1CEEB98
+    // Offset: 0x1D2A0F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder*, creationType>(subContainerBindInfo, bindInfo)));
     }
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder WithKernel()
-    // Offset: 0x1CEEBC8
+    // Offset: 0x1D2A120
     ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder WithKernel()
     // Offset: 0xFFFFFFFFFFFFFFFF

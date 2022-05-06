@@ -36,26 +36,25 @@ namespace Zenject {
   class SignalBusInstaller : public ::Zenject::Installer_1<::Zenject::SignalBusInstaller*> {
     public:
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1CDFDDC
+    // Offset: 0x1D1B334
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // public System.Void .ctor()
-    // Offset: 0x1CDFD8C
+    // Offset: 0x1D1B2E4
     // Implemented from: Zenject.Installer`1
     // Base method: System.Void Installer_1::.ctor()
     // Base method: System.Void InstallerBase::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalBusInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalBusInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalBusInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1CDFC5C
+    // Offset: 0x1D1B1B4
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CDFE34
+    // Offset: 0x1D1B38C
     // Implemented from: Zenject.Installer`1
     // Base method: Zenject.InjectTypeInfo Installer_1::__zenCreateInjectTypeInfo()
     // Base method: Zenject.InjectTypeInfo InstallerBase::__zenCreateInjectTypeInfo()

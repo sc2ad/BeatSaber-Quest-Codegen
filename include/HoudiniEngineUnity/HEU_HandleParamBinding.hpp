@@ -77,20 +77,12 @@ namespace HoudiniEngineUnity {
       // Set static field: static public HoudiniEngineUnity.HEU_HandleParamBinding/HoudiniEngineUnity.HEU_HandleParamType SCALE
       static void _set_SCALE(::HoudiniEngineUnity::HEU_HandleParamBinding::HEU_HandleParamType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // HoudiniEngineUnity.HEU_HandleParamBinding/HoudiniEngineUnity.HEU_HandleParamType
     #pragma pack(pop)
     static check_size<sizeof(HEU_HandleParamBinding::HEU_HandleParamType), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_HandleParamBinding_HEU_HandleParamTypeSizeCheck;
     static_assert(sizeof(HEU_HandleParamBinding::HEU_HandleParamType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public HoudiniEngineUnity.HEU_HandleParamBinding/HoudiniEngineUnity.HEU_HandleParamType _paramType
     // Size: 0x4
     // Offset: 0x10
@@ -129,27 +121,25 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>*>(this);
     }
     // Get instance field reference: public HoudiniEngineUnity.HEU_HandleParamBinding/HoudiniEngineUnity.HEU_HandleParamType _paramType
-    ::HoudiniEngineUnity::HEU_HandleParamBinding::HEU_HandleParamType& dyn__paramType();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_HandleParamBinding::HEU_HandleParamType& dyn__paramType();
     // Get instance field reference: public System.Int32 _parmID
-    int& dyn__parmID();
+    [[deprecated("Use field access instead!")]] int& dyn__parmID();
     // Get instance field reference: public System.String _paramName
-    ::StringW& dyn__paramName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__paramName();
     // Get instance field reference: public System.Boolean _bDisabled
-    bool& dyn__bDisabled();
+    [[deprecated("Use field access instead!")]] bool& dyn__bDisabled();
     // Get instance field reference: public System.Boolean[] _boundChannels
-    ::ArrayW<bool>& dyn__boundChannels();
-    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_HandleParamBinding other)
-    // Offset: 0x18E2944
-    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_HandleParamBinding* other);
+    [[deprecated("Use field access instead!")]] ::ArrayW<bool>& dyn__boundChannels();
     // public System.Void .ctor()
-    // Offset: 0x18E185C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x191A16C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_HandleParamBinding* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_HandleParamBinding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_HandleParamBinding*, creationType>()));
     }
+    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_HandleParamBinding other)
+    // Offset: 0x191B254
+    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_HandleParamBinding* other);
   }; // HoudiniEngineUnity.HEU_HandleParamBinding
   #pragma pack(pop)
   static check_size<sizeof(HEU_HandleParamBinding), 40 + sizeof(::ArrayW<bool>)> __HoudiniEngineUnity_HEU_HandleParamBindingSizeCheck;
@@ -158,6 +148,10 @@ namespace HoudiniEngineUnity {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_HandleParamBinding::HEU_HandleParamType, "HoudiniEngineUnity", "HEU_HandleParamBinding/HEU_HandleParamType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HandleParamBinding::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HandleParamBinding::IsEquivalentTo
 // Il2CppName: IsEquivalentTo
 template<>
@@ -167,7 +161,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HandleParamBinding*), "IsEquivalentTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HandleParamBinding::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

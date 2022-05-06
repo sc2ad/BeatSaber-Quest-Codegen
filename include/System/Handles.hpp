@@ -60,7 +60,7 @@ namespace System {
     // Set static field: static public System.Handles STD_ERROR
     static void _set_STD_ERROR(::System::Handles value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Handles
   #pragma pack(pop)
   static check_size<sizeof(Handles), 0 + sizeof(int)> __System_HandlesSizeCheck;

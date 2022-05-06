@@ -53,9 +53,9 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: Valve.VR.IVRDriverManager/Valve.VR._GetDriverCount GetDriverCount
-    ::Valve::VR::IVRDriverManager::_GetDriverCount*& dyn_GetDriverCount();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRDriverManager::_GetDriverCount*& dyn_GetDriverCount();
     // Get instance field reference: Valve.VR.IVRDriverManager/Valve.VR._GetDriverName GetDriverName
-    ::Valve::VR::IVRDriverManager::_GetDriverName*& dyn_GetDriverName();
+    [[deprecated("Use field access instead!")]] ::Valve::VR::IVRDriverManager::_GetDriverName*& dyn_GetDriverName();
   }; // Valve.VR.IVRDriverManager
   #pragma pack(pop)
   static check_size<sizeof(IVRDriverManager), 8 + sizeof(::Valve::VR::IVRDriverManager::_GetDriverName*)> __Valve_VR_IVRDriverManagerSizeCheck;

@@ -42,15 +42,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ObstacleScaleUp : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _fullScalePart
     // Size: 0x4
     // Offset: 0x18
@@ -59,7 +51,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: fullScalePart and: targetTransform
     char __padding0[0x4] = {};
-    // [SpaceAttribute] Offset: 0x124F7E8
+    // [SpaceAttribute] Offset: 0x10D431C
     // private UnityEngine.Transform _targetTransform
     // Size: 0x8
     // Offset: 0x20
@@ -76,45 +68,43 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _fullScalePart
-    float& dyn__fullScalePart();
+    [[deprecated("Use field access instead!")]] float& dyn__fullScalePart();
     // Get instance field reference: private UnityEngine.Transform _targetTransform
-    ::UnityEngine::Transform*& dyn__targetTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__targetTransform();
     // Get instance field reference: private ObstacleController _obstacleController
-    ::GlobalNamespace::ObstacleController*& dyn__obstacleController();
-    // protected System.Void Awake()
-    // Offset: 0x1480B68
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x1480D4C
-    void OnDestroy();
-    // private System.Void UpdateScale(System.Single progress)
-    // Offset: 0x1480C04
-    void UpdateScale(float progress);
-    // private System.Void HandleObstacleControllerDidUpdateProgress(ObstacleController obstacleController, System.Single time)
-    // Offset: 0x1480E6C
-    void HandleObstacleControllerDidUpdateProgress(::GlobalNamespace::ObstacleController* obstacleController, float time);
-    // private System.Void HandleObstacleControllerDidInit(ObstacleControllerBase obstacleController)
-    // Offset: 0x1480F10
-    void HandleObstacleControllerDidInit(::GlobalNamespace::ObstacleControllerBase* obstacleController);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ObstacleController*& dyn__obstacleController();
     // public System.Void .ctor()
-    // Offset: 0x1480FE4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14B7864
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleScaleUp* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObstacleScaleUp::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleScaleUp*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x14B73E8
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x14B75CC
+    void OnDestroy();
+    // private System.Void UpdateScale(System.Single progress)
+    // Offset: 0x14B7484
+    void UpdateScale(float progress);
+    // private System.Void HandleObstacleControllerDidUpdateProgress(ObstacleController obstacleController, System.Single time)
+    // Offset: 0x14B76EC
+    void HandleObstacleControllerDidUpdateProgress(::GlobalNamespace::ObstacleController* obstacleController, float time);
+    // private System.Void HandleObstacleControllerDidInit(ObstacleControllerBase obstacleController)
+    // Offset: 0x14B7790
+    void HandleObstacleControllerDidInit(::GlobalNamespace::ObstacleControllerBase* obstacleController);
   }; // ObstacleScaleUp
   #pragma pack(pop)
   static check_size<sizeof(ObstacleScaleUp), 40 + sizeof(::GlobalNamespace::ObstacleController*)> __GlobalNamespace_ObstacleScaleUpSizeCheck;
   static_assert(sizeof(ObstacleScaleUp) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleScaleUp::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleScaleUp::Awake
 // Il2CppName: Awake
 template<>
@@ -159,7 +149,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleScaleUp*), "HandleObstacleControllerDidInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obstacleController});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ObstacleScaleUp::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

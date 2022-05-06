@@ -117,7 +117,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/Node Count
     static void _set_Count(::GlobalNamespace::OVRPlugin::Node value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // OVRPlugin/Node
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Node), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_NodeSizeCheck;

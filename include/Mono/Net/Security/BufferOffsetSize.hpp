@@ -28,15 +28,7 @@ namespace Mono::Net::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class BufferOffsetSize : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Byte[] Buffer
     // Size: 0x8
     // Offset: 0x10
@@ -69,30 +61,30 @@ namespace Mono::Net::Security {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.Byte[] Buffer
-    ::ArrayW<uint8_t>& dyn_Buffer();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_Buffer();
     // Get instance field reference: public System.Int32 Offset
-    int& dyn_Offset();
+    [[deprecated("Use field access instead!")]] int& dyn_Offset();
     // Get instance field reference: public System.Int32 Size
-    int& dyn_Size();
+    [[deprecated("Use field access instead!")]] int& dyn_Size();
     // Get instance field reference: public System.Int32 TotalBytes
-    int& dyn_TotalBytes();
+    [[deprecated("Use field access instead!")]] int& dyn_TotalBytes();
     // Get instance field reference: public System.Boolean Complete
-    bool& dyn_Complete();
+    [[deprecated("Use field access instead!")]] bool& dyn_Complete();
     // public System.Int32 get_EndOffset()
-    // Offset: 0x1A9D614
+    // Offset: 0x1AD7BFC
     int get_EndOffset();
     // public System.Int32 get_Remaining()
-    // Offset: 0x1A9D620
+    // Offset: 0x1AD7C08
     int get_Remaining();
     // public System.Void .ctor(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x1A9D1A0
+    // Offset: 0x1AD7788
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BufferOffsetSize* New_ctor(::ArrayW<uint8_t> buffer, int offset, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::Security::BufferOffsetSize::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BufferOffsetSize*, creationType>(buffer, offset, size)));
     }
     // public override System.String ToString()
-    // Offset: 0x1A9D648
+    // Offset: 0x1AD7C30
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

@@ -48,15 +48,7 @@ namespace Newtonsoft::Json::Converters {
   // [TokenAttribute] Offset: FFFFFFFF
   class XElementWrapper : public ::Newtonsoft::Json::Converters::XContainerWrapper/*, public ::Newtonsoft::Json::Converters::IXmlElement*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> _attributes
     // Size: 0x8
     // Offset: 0x20
@@ -69,48 +61,48 @@ namespace Newtonsoft::Json::Converters {
       return *reinterpret_cast<::Newtonsoft::Json::Converters::IXmlElement*>(this);
     }
     // Get instance field reference: private System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> _attributes
-    ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*& dyn__attributes();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*& dyn__attributes();
     // private System.Xml.Linq.XElement get_Element()
-    // Offset: 0x177FFE0
+    // Offset: 0x17B98F0
     ::System::Xml::Linq::XElement* get_Element();
     // public System.Boolean get_IsEmpty()
-    // Offset: 0x17808CC
+    // Offset: 0x17BA1DC
     bool get_IsEmpty();
     // public System.Void .ctor(System.Xml.Linq.XElement element)
-    // Offset: 0x177F1C4
+    // Offset: 0x17B8AD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XElementWrapper* New_ctor(::System::Xml::Linq::XElement* element) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XElementWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XElementWrapper*, creationType>(element)));
     }
     // public System.Void SetAttributeNode(Newtonsoft.Json.Converters.IXmlNode attribute)
-    // Offset: 0x1780060
+    // Offset: 0x17B9970
     void SetAttributeNode(::Newtonsoft::Json::Converters::IXmlNode* attribute);
     // public System.String GetPrefixOfNamespace(System.String namespaceUri)
-    // Offset: 0x17807F4
+    // Offset: 0x17BA104
     ::StringW GetPrefixOfNamespace(::StringW namespaceUri);
     // public override System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> get_Attributes()
-    // Offset: 0x1780118
+    // Offset: 0x17B9A28
     // Implemented from: Newtonsoft.Json.Converters.XObjectWrapper
     // Base method: System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> XObjectWrapper::get_Attributes()
     ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_Attributes();
     // public override System.String get_Value()
-    // Offset: 0x178085C
+    // Offset: 0x17BA16C
     // Implemented from: Newtonsoft.Json.Converters.XObjectWrapper
     // Base method: System.String XObjectWrapper::get_Value()
     ::StringW get_Value();
     // public override System.String get_LocalName()
-    // Offset: 0x178087C
+    // Offset: 0x17BA18C
     // Implemented from: Newtonsoft.Json.Converters.XObjectWrapper
     // Base method: System.String XObjectWrapper::get_LocalName()
     ::StringW get_LocalName();
     // public override System.String get_NamespaceUri()
-    // Offset: 0x17808A4
+    // Offset: 0x17BA1B4
     // Implemented from: Newtonsoft.Json.Converters.XObjectWrapper
     // Base method: System.String XObjectWrapper::get_NamespaceUri()
     ::StringW get_NamespaceUri();
     // public override Newtonsoft.Json.Converters.IXmlNode AppendChild(Newtonsoft.Json.Converters.IXmlNode newChild)
-    // Offset: 0x1780838
+    // Offset: 0x17BA148
     // Implemented from: Newtonsoft.Json.Converters.XContainerWrapper
     // Base method: Newtonsoft.Json.Converters.IXmlNode XContainerWrapper::AppendChild(Newtonsoft.Json.Converters.IXmlNode newChild)
     ::Newtonsoft::Json::Converters::IXmlNode* AppendChild(::Newtonsoft::Json::Converters::IXmlNode* newChild);

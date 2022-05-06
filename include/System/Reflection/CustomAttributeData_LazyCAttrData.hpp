@@ -32,15 +32,7 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   class CustomAttributeData::LazyCAttrData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Reflection.Assembly assembly
     // Size: 0x8
     // Offset: 0x10
@@ -61,13 +53,13 @@ namespace System::Reflection {
     static_assert(sizeof(uint) == 0x4);
     public:
     // Get instance field reference: System.Reflection.Assembly assembly
-    ::System::Reflection::Assembly*& dyn_assembly();
+    [[deprecated("Use field access instead!")]] ::System::Reflection::Assembly*& dyn_assembly();
     // Get instance field reference: System.IntPtr data
-    ::System::IntPtr& dyn_data();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_data();
     // Get instance field reference: System.UInt32 data_length
-    uint& dyn_data_length();
+    [[deprecated("Use field access instead!")]] uint& dyn_data_length();
     // public System.Void .ctor()
-    // Offset: 0x21BDFE4
+    // Offset: 0x220B858
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

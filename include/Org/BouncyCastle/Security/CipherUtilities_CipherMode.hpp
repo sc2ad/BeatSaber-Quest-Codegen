@@ -123,7 +123,7 @@ namespace Org::BouncyCastle::Security {
     // Set static field: static public Org.BouncyCastle.Security.CipherUtilities/Org.BouncyCastle.Security.CipherMode SIC
     static void _set_SIC(::Org::BouncyCastle::Security::CipherUtilities::CipherMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Org.BouncyCastle.Security.CipherUtilities/Org.BouncyCastle.Security.CipherMode
   #pragma pack(pop)
   static check_size<sizeof(CipherUtilities::CipherMode), 0 + sizeof(int)> __Org_BouncyCastle_Security_CipherUtilities_CipherModeSizeCheck;

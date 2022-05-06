@@ -109,20 +109,12 @@ namespace GlobalNamespace {
       // Set static field: static public TimelineArrayReference/ArrayTypes DirectionalLight
       static void _set_DirectionalLight(::GlobalNamespace::TimelineArrayReference::ArrayTypes value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // TimelineArrayReference/ArrayTypes
     #pragma pack(pop)
     static check_size<sizeof(TimelineArrayReference::ArrayTypes), 0 + sizeof(int)> __GlobalNamespace_TimelineArrayReference_ArrayTypesSizeCheck;
     static_assert(sizeof(TimelineArrayReference::ArrayTypes) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TimelineArrayReference/ArrayTypes arrayType
     // Size: 0x4
     // Offset: 0x18
@@ -165,25 +157,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TimelineArrayReference/ArrayTypes arrayType
-    ::GlobalNamespace::TimelineArrayReference::ArrayTypes& dyn_arrayType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TimelineArrayReference::ArrayTypes& dyn_arrayType();
     // Get instance field reference: public TubeBloomPrePassLight[] _tubeLightArray
-    ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*>& dyn__tubeLightArray();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*>& dyn__tubeLightArray();
     // Get instance field reference: public UnityEngine.CanvasGroup[] _canvasGroupArray
-    ::ArrayW<::UnityEngine::CanvasGroup*>& dyn__canvasGroupArray();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::CanvasGroup*>& dyn__canvasGroupArray();
     // Get instance field reference: public TMPro.TextMeshPro[] _tmproArray
-    ::ArrayW<::TMPro::TextMeshPro*>& dyn__tmproArray();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::TMPro::TextMeshPro*>& dyn__tmproArray();
     // Get instance field reference: public UnityEngine.Transform[] _transformArray
-    ::ArrayW<::UnityEngine::Transform*>& dyn__transformArray();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Transform*>& dyn__transformArray();
     // Get instance field reference: public DirectionalLight[] _directionalLights
-    ::ArrayW<::GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
     // public System.Void .ctor()
-    // Offset: 0x133E210
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1420140
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimelineArrayReference* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TimelineArrayReference::.ctor");

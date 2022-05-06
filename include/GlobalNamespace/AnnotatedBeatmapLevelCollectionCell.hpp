@@ -65,15 +65,7 @@ namespace GlobalNamespace {
     char ___base_padding[0x6] = {};
     // Nested type: ::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::$RefreshAvailabilityAsync$d__23
     struct $RefreshAvailabilityAsync$d__23;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _infoText
     // Size: 0x8
     // Offset: 0x48
@@ -104,7 +96,7 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* downloadIconObject;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1257B10
+    // [SpaceAttribute] Offset: 0x10DC6F4
     // private UnityEngine.Color _selectedColor0
     // Size: 0x10
     // Offset: 0x70
@@ -151,83 +143,75 @@ namespace GlobalNamespace {
     static_assert(sizeof(::System::Threading::CancellationTokenSource*) == 0x8);
     public:
     // Get instance field reference: private TMPro.TextMeshProUGUI _infoText
-    ::TMPro::TextMeshProUGUI*& dyn__infoText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__infoText();
     // Get instance field reference: private HMUI.ImageView _coverImage
-    ::HMUI::ImageView*& dyn__coverImage();
+    [[deprecated("Use field access instead!")]] ::HMUI::ImageView*& dyn__coverImage();
     // Get instance field reference: private HMUI.ImageView _selectionImage
-    ::HMUI::ImageView*& dyn__selectionImage();
+    [[deprecated("Use field access instead!")]] ::HMUI::ImageView*& dyn__selectionImage();
     // Get instance field reference: private UnityEngine.GameObject[] _newPromoRibbonObjects
-    ::ArrayW<::UnityEngine::GameObject*>& dyn__newPromoRibbonObjects();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::GameObject*>& dyn__newPromoRibbonObjects();
     // Get instance field reference: private UnityEngine.GameObject _downloadIconObject
-    ::UnityEngine::GameObject*& dyn__downloadIconObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__downloadIconObject();
     // Get instance field reference: private UnityEngine.Color _selectedColor0
-    ::UnityEngine::Color& dyn__selectedColor0();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__selectedColor0();
     // Get instance field reference: private UnityEngine.Color _selectedColor1
-    ::UnityEngine::Color& dyn__selectedColor1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__selectedColor1();
     // Get instance field reference: private UnityEngine.Color _highlightedColor0
-    ::UnityEngine::Color& dyn__highlightedColor0();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__highlightedColor0();
     // Get instance field reference: private UnityEngine.Color _highlightedColor1
-    ::UnityEngine::Color& dyn__highlightedColor1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__highlightedColor1();
     // Get instance field reference: private System.Int32 <cellIndex>k__BackingField
-    int& dyn_$cellIndex$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$cellIndex$k__BackingField();
     // Get instance field reference: private IAnnotatedBeatmapLevelCollection _annotatedBeatmapLevelCollection
-    ::GlobalNamespace::IAnnotatedBeatmapLevelCollection*& dyn__annotatedBeatmapLevelCollection();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAnnotatedBeatmapLevelCollection*& dyn__annotatedBeatmapLevelCollection();
     // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    ::System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
+    [[deprecated("Use field access instead!")]] ::System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // public System.Int32 get_cellIndex()
-    // Offset: 0x14B1E5C
+    // Offset: 0x14E9714
     int get_cellIndex();
     // public System.Void set_cellIndex(System.Int32 value)
-    // Offset: 0x14B1E64
+    // Offset: 0x14E971C
     void set_cellIndex(int value);
     // public System.Void set_showNewRibbon(System.Boolean value)
-    // Offset: 0x14B1E6C
+    // Offset: 0x14E9724
     void set_showNewRibbon(bool value);
-    // public System.Void SetData(IAnnotatedBeatmapLevelCollection annotatedBeatmapLevelCollection)
-    // Offset: 0x14B1EE8
-    void SetData(::GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection);
-    // private System.Void RefreshVisuals()
-    // Offset: 0x14B22FC
-    void RefreshVisuals();
-    // private System.String GetInfoText(System.String name, System.Int32 songs, System.Int32 purchased)
-    // Offset: 0x14B21A4
-    ::StringW GetInfoText(::StringW name, int songs, int purchased);
-    // public System.Void RefreshAvailabilityAsync(AdditionalContentModel contentModel)
-    // Offset: 0x14B23FC
-    void RefreshAvailabilityAsync(::GlobalNamespace::AdditionalContentModel* contentModel);
-    // private System.Void SetDownloadIconVisible(System.Boolean visible)
-    // Offset: 0x14B228C
-    void SetDownloadIconVisible(bool visible);
-    // public System.Void CancelAsyncOperations()
-    // Offset: 0x14B24C0
-    void CancelAsyncOperations();
     // public System.Void .ctor()
-    // Offset: 0x14B24D4
-    // Implemented from: HMUI.SelectableCell
-    // Base method: System.Void SelectableCell::.ctor()
-    // Base method: System.Void Interactable::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14E9D8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnnotatedBeatmapLevelCollectionCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnnotatedBeatmapLevelCollectionCell*, creationType>()));
     }
+    // public System.Void SetData(IAnnotatedBeatmapLevelCollection annotatedBeatmapLevelCollection)
+    // Offset: 0x14E97A0
+    void SetData(::GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection);
+    // private System.Void RefreshVisuals()
+    // Offset: 0x14E9BB4
+    void RefreshVisuals();
+    // private System.String GetInfoText(System.String name, System.Int32 songs, System.Int32 purchased)
+    // Offset: 0x14E9A5C
+    ::StringW GetInfoText(::StringW name, int songs, int purchased);
+    // public System.Void RefreshAvailabilityAsync(AdditionalContentModel contentModel)
+    // Offset: 0x14E9CB4
+    void RefreshAvailabilityAsync(::GlobalNamespace::AdditionalContentModel* contentModel);
+    // private System.Void SetDownloadIconVisible(System.Boolean visible)
+    // Offset: 0x14E9B44
+    void SetDownloadIconVisible(bool visible);
+    // public System.Void CancelAsyncOperations()
+    // Offset: 0x14E9D78
+    void CancelAsyncOperations();
     // protected override System.Void InternalToggle()
-    // Offset: 0x14B22D4
+    // Offset: 0x14E9B8C
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::InternalToggle()
     void InternalToggle();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x14B22F8
+    // Offset: 0x14E9BB0
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(::HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x14B23F8
+    // Offset: 0x14E9CB0
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(::HMUI::SelectableCell::TransitionType transitionType);
@@ -263,6 +247,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*), "set_showNewRibbon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::SetData
 // Il2CppName: SetData
 template<>
@@ -317,10 +305,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*), "CancelAsyncOperations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::InternalToggle
 // Il2CppName: InternalToggle
 template<>

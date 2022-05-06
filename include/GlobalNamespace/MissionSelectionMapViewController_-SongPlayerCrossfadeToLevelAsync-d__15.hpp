@@ -90,24 +90,24 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public MissionSelectionMapViewController <>4__this
-    ::GlobalNamespace::MissionSelectionMapViewController*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionSelectionMapViewController*& dyn_$$4__this();
     // Get instance field reference: public IPreviewBeatmapLevel level
-    ::GlobalNamespace::IPreviewBeatmapLevel*& dyn_level();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPreviewBeatmapLevel*& dyn_level();
     // Get instance field reference: private MissionSelectionMapViewController/<>c__DisplayClass15_0 <>8__1
-    ::GlobalNamespace::MissionSelectionMapViewController::$$c__DisplayClass15_0*& dyn_$$8__1();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionSelectionMapViewController::$$c__DisplayClass15_0*& dyn_$$8__1();
     // Get instance field reference: private System.Single <musicVolume>5__2
-    float& dyn_$musicVolume$5__2();
+    [[deprecated("Use field access instead!")]] float& dyn_$musicVolume$5__2();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<UnityEngine.AudioClip> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AudioClip*>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AudioClip*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x13C22B8
+    // Offset: 0x13BE764
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x13C2734
+    // Offset: 0x13BEBE0
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MissionSelectionMapViewController/<SongPlayerCrossfadeToLevelAsync>d__15
   // WARNING Not writing size check since size may be invalid!

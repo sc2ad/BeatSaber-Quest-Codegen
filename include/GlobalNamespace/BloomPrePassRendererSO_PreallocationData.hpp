@@ -30,15 +30,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassRendererSO::PreallocationData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public BloomPrePassLightTypeSO lightType
     // Size: 0x8
     // Offset: 0x10
@@ -53,13 +45,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public BloomPrePassLightTypeSO lightType
-    ::GlobalNamespace::BloomPrePassLightTypeSO*& dyn_lightType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassLightTypeSO*& dyn_lightType();
     // Get instance field reference: public System.Int32 preallocateCount
-    int& dyn_preallocateCount();
+    [[deprecated("Use field access instead!")]] int& dyn_preallocateCount();
     // public System.Void .ctor()
-    // Offset: 0x2ACEFB4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E7837C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassRendererSO::PreallocationData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassRendererSO::PreallocationData::.ctor");

@@ -52,15 +52,7 @@ namespace System::Net {
     public:
     // Nested type: ::System::Net::ServerCertValidationCallback::CallbackContext
     class CallbackContext;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Net.Security.RemoteCertificateValidationCallback m_ValidationCallback
     // Size: 0x8
     // Offset: 0x10
@@ -75,21 +67,21 @@ namespace System::Net {
     static_assert(sizeof(::System::Threading::ExecutionContext*) == 0x8);
     public:
     // Get instance field reference: private readonly System.Net.Security.RemoteCertificateValidationCallback m_ValidationCallback
-    ::System::Net::Security::RemoteCertificateValidationCallback*& dyn_m_ValidationCallback();
+    [[deprecated("Use field access instead!")]] ::System::Net::Security::RemoteCertificateValidationCallback*& dyn_m_ValidationCallback();
     // Get instance field reference: private readonly System.Threading.ExecutionContext m_Context
-    ::System::Threading::ExecutionContext*& dyn_m_Context();
+    [[deprecated("Use field access instead!")]] ::System::Threading::ExecutionContext*& dyn_m_Context();
     // System.Void .ctor(System.Net.Security.RemoteCertificateValidationCallback validationCallback)
-    // Offset: 0x1B31FA8
+    // Offset: 0x1B6C590
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerCertValidationCallback* New_ctor(::System::Net::Security::RemoteCertificateValidationCallback* validationCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::ServerCertValidationCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerCertValidationCallback*, creationType>(validationCallback)));
     }
     // System.Void Callback(System.Object state)
-    // Offset: 0x1B32030
+    // Offset: 0x1B6C618
     void Callback(::Il2CppObject* state);
     // System.Boolean Invoke(System.Object request, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, System.Net.Security.SslPolicyErrors sslPolicyErrors)
-    // Offset: 0x1B320E0
+    // Offset: 0x1B6C6C8
     bool Invoke(::Il2CppObject* request, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain, ::System::Net::Security::SslPolicyErrors sslPolicyErrors);
   }; // System.Net.ServerCertValidationCallback
   #pragma pack(pop)

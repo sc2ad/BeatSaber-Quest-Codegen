@@ -39,16 +39,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerHeightToJumpOffsetYProvider : public ::Il2CppObject/*, public ::System::IDisposable, public ::Zenject::IInitializable, public ::GlobalNamespace::IJumpOffsetYProvider*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x1255B48
+    // [InjectAttribute] Offset: 0x10DA72C
     // private readonly PlayerHeightDetector _playerHeightDetector
     // Size: 0x8
     // Offset: 0x10
@@ -75,33 +67,31 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IJumpOffsetYProvider*>(this);
     }
     // Get instance field reference: private readonly PlayerHeightDetector _playerHeightDetector
-    ::GlobalNamespace::PlayerHeightDetector*& dyn__playerHeightDetector();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerHeightDetector*& dyn__playerHeightDetector();
     // Get instance field reference: private System.Single _jumpOffsetY
-    float& dyn__jumpOffsetY();
+    [[deprecated("Use field access instead!")]] float& dyn__jumpOffsetY();
     // public System.Single get_jumpOffsetY()
-    // Offset: 0x1370668
+    // Offset: 0x13D8038
     float get_jumpOffsetY();
-    // public System.Void Initialize()
-    // Offset: 0x1370670
-    void Initialize();
-    // public System.Void Dispose()
-    // Offset: 0x13707E0
-    void Dispose();
-    // private System.Void HandlePlayerHeightDidChange(System.Single playerHeight)
-    // Offset: 0x13707BC
-    void HandlePlayerHeightDidChange(float playerHeight);
-    // static public System.Single JumpOffsetYForPlayerHeight(System.Single playerHeight)
-    // Offset: 0x137072C
-    static float JumpOffsetYForPlayerHeight(float playerHeight);
     // public System.Void .ctor()
-    // Offset: 0x13708B8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13D8288
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerHeightToJumpOffsetYProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerHeightToJumpOffsetYProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerHeightToJumpOffsetYProvider*, creationType>()));
     }
+    // public System.Void Initialize()
+    // Offset: 0x13D8040
+    void Initialize();
+    // public System.Void Dispose()
+    // Offset: 0x13D81B0
+    void Dispose();
+    // private System.Void HandlePlayerHeightDidChange(System.Single playerHeight)
+    // Offset: 0x13D818C
+    void HandlePlayerHeightDidChange(float playerHeight);
+    // static public System.Single JumpOffsetYForPlayerHeight(System.Single playerHeight)
+    // Offset: 0x13D80FC
+    static float JumpOffsetYForPlayerHeight(float playerHeight);
   }; // PlayerHeightToJumpOffsetYProvider
   #pragma pack(pop)
   static check_size<sizeof(PlayerHeightToJumpOffsetYProvider), 24 + sizeof(float)> __GlobalNamespace_PlayerHeightToJumpOffsetYProviderSizeCheck;
@@ -116,6 +106,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeightToJumpOffsetYProvider*), "get_jumpOffsetY", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PlayerHeightToJumpOffsetYProvider::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerHeightToJumpOffsetYProvider::Initialize
 // Il2CppName: Initialize
 template<>
@@ -150,7 +144,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeightToJumpOffsetYProvider*), "JumpOffsetYForPlayerHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playerHeight});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PlayerHeightToJumpOffsetYProvider::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

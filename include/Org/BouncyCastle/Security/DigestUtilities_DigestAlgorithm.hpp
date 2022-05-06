@@ -297,7 +297,7 @@ namespace Org::BouncyCastle::Security {
     // Set static field: static public Org.BouncyCastle.Security.DigestUtilities/Org.BouncyCastle.Security.DigestAlgorithm WHIRLPOOL
     static void _set_WHIRLPOOL(::Org::BouncyCastle::Security::DigestUtilities::DigestAlgorithm value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // Org.BouncyCastle.Security.DigestUtilities/Org.BouncyCastle.Security.DigestAlgorithm
   #pragma pack(pop)
   static check_size<sizeof(DigestUtilities::DigestAlgorithm), 0 + sizeof(int)> __Org_BouncyCastle_Security_DigestUtilities_DigestAlgorithmSizeCheck;

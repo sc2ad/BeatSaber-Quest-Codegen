@@ -43,16 +43,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassBloomTextureEffectSO : public ::GlobalNamespace::BloomPrePassEffectSO {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [SpaceAttribute] Offset: 0x124298C
+    // [SpaceAttribute] Offset: 0x10C7474
     // private System.Single _radius
     // Size: 0x4
     // Offset: 0x2C
@@ -121,7 +113,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::PyramidBloomRendererSO::Pass finalUpsamplePass;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PyramidBloomRendererSO::Pass) == 0x4);
-    // [SpaceAttribute] Offset: 0x1242A64
+    // [SpaceAttribute] Offset: 0x10C754C
     // private PyramidBloomRendererSO _bloomRenderer
     // Size: 0x8
     // Offset: 0x58
@@ -130,50 +122,43 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::PyramidBloomRendererSO*) == 0x8);
     public:
     // Get instance field reference: private System.Single _radius
-    float& dyn__radius();
+    [[deprecated("Use field access instead!")]] float& dyn__radius();
     // Get instance field reference: private System.Single _intensity
-    float& dyn__intensity();
+    [[deprecated("Use field access instead!")]] float& dyn__intensity();
     // Get instance field reference: private System.Single _downBloomIntensityOffset
-    float& dyn__downBloomIntensityOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__downBloomIntensityOffset();
     // Get instance field reference: private System.Boolean _uniformPyramidWeights
-    bool& dyn__uniformPyramidWeights();
+    [[deprecated("Use field access instead!")]] bool& dyn__uniformPyramidWeights();
     // Get instance field reference: private System.Single _pyramidWeightsParam
-    float& dyn__pyramidWeightsParam();
+    [[deprecated("Use field access instead!")]] float& dyn__pyramidWeightsParam();
     // Get instance field reference: private System.Single _firstUpsampleBrightness
-    float& dyn__firstUpsampleBrightness();
+    [[deprecated("Use field access instead!")]] float& dyn__firstUpsampleBrightness();
     // Get instance field reference: private System.Single _finalUpsampleBrightness
-    float& dyn__finalUpsampleBrightness();
+    [[deprecated("Use field access instead!")]] float& dyn__finalUpsampleBrightness();
     // Get instance field reference: private PyramidBloomRendererSO/Pass _prefilterPass
-    ::GlobalNamespace::PyramidBloomRendererSO::Pass& dyn__prefilterPass();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PyramidBloomRendererSO::Pass& dyn__prefilterPass();
     // Get instance field reference: private PyramidBloomRendererSO/Pass _downsamplePass
-    ::GlobalNamespace::PyramidBloomRendererSO::Pass& dyn__downsamplePass();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PyramidBloomRendererSO::Pass& dyn__downsamplePass();
     // Get instance field reference: private PyramidBloomRendererSO/Pass _upsamplePass
-    ::GlobalNamespace::PyramidBloomRendererSO::Pass& dyn__upsamplePass();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PyramidBloomRendererSO::Pass& dyn__upsamplePass();
     // Get instance field reference: private PyramidBloomRendererSO/Pass _finalUpsamplePass
-    ::GlobalNamespace::PyramidBloomRendererSO::Pass& dyn__finalUpsamplePass();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PyramidBloomRendererSO::Pass& dyn__finalUpsamplePass();
     // Get instance field reference: private PyramidBloomRendererSO _bloomRenderer
-    ::GlobalNamespace::PyramidBloomRendererSO*& dyn__bloomRenderer();
-    // public override ToneMapping get_toneMapping()
-    // Offset: 0x29E6514
-    // Implemented from: BloomPrePassEffectSO
-    // Base method: ToneMapping BloomPrePassEffectSO::get_toneMapping()
-    ::GlobalNamespace::ToneMapping get_toneMapping();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PyramidBloomRendererSO*& dyn__bloomRenderer();
     // public System.Void .ctor()
-    // Offset: 0x29E657C
-    // Implemented from: BloomPrePassEffectSO
-    // Base method: System.Void BloomPrePassEffectSO::.ctor()
-    // Base method: System.Void TextureEffectSO::.ctor()
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A3CE70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassBloomTextureEffectSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassBloomTextureEffectSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBloomTextureEffectSO*, creationType>()));
     }
+    // public override ToneMapping get_toneMapping()
+    // Offset: 0x2A3CE08
+    // Implemented from: BloomPrePassEffectSO
+    // Base method: ToneMapping BloomPrePassEffectSO::get_toneMapping()
+    ::GlobalNamespace::ToneMapping get_toneMapping();
     // public override System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x29E6524
+    // Offset: 0x2A3CE18
     // Implemented from: TextureEffectSO
     // Base method: System.Void TextureEffectSO::Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
     void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
@@ -183,6 +168,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassBloomTextureEffectSO) == 0x60);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBloomTextureEffectSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBloomTextureEffectSO::get_toneMapping
 // Il2CppName: get_toneMapping
 template<>
@@ -191,10 +180,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassBloomTextureEffectSO*), "get_toneMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBloomTextureEffectSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBloomTextureEffectSO::Render
 // Il2CppName: Render
 template<>

@@ -88,27 +88,19 @@ namespace GlobalNamespace {
       // Set static field: static public TextFadeTransitions/State FadingIn
       static void _set_FadingIn(::GlobalNamespace::TextFadeTransitions::State value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // TextFadeTransitions/State
     #pragma pack(pop)
     static check_size<sizeof(TextFadeTransitions::State), 0 + sizeof(int)> __GlobalNamespace_TextFadeTransitions_StateSizeCheck;
     static_assert(sizeof(TextFadeTransitions::State) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _textLabel
     // Size: 0x8
     // Offset: 0x18
     ::TMPro::TextMeshProUGUI* textLabel;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1256474
+    // [TooltipAttribute] Offset: 0x10DB058
     // private UnityEngine.CanvasGroup _canvasGroup
     // Size: 0x8
     // Offset: 0x20
@@ -143,45 +135,39 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _textLabel
-    ::TMPro::TextMeshProUGUI*& dyn__textLabel();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__textLabel();
     // Get instance field reference: private UnityEngine.CanvasGroup _canvasGroup
-    ::UnityEngine::CanvasGroup*& dyn__canvasGroup();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::CanvasGroup*& dyn__canvasGroup();
     // Get instance field reference: private System.Single _fadeDuration
-    float& dyn__fadeDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__fadeDuration();
     // Get instance field reference: private TextFadeTransitions/State _state
-    ::GlobalNamespace::TextFadeTransitions::State& dyn__state();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::TextFadeTransitions::State& dyn__state();
     // Get instance field reference: private System.String _nextText
-    ::StringW& dyn__nextText();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__nextText();
     // Get instance field reference: private System.Single _fade
-    float& dyn__fade();
-    // protected System.Void Awake()
-    // Offset: 0x133DD20
-    void Awake();
-    // protected System.Void Update()
-    // Offset: 0x133DE84
-    void Update();
-    // private System.Void RefreshState()
-    // Offset: 0x133DE88
-    void RefreshState();
-    // private System.Void RefreshTextAlpha()
-    // Offset: 0x133DD9C
-    void RefreshTextAlpha();
-    // public System.Void ShowText(System.String text)
-    // Offset: 0x133E014
-    void ShowText(::StringW text);
+    [[deprecated("Use field access instead!")]] float& dyn__fade();
     // public System.Void .ctor()
-    // Offset: 0x133E080
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x141FFB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextFadeTransitions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TextFadeTransitions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextFadeTransitions*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x141FC50
+    void Awake();
+    // protected System.Void Update()
+    // Offset: 0x141FDB4
+    void Update();
+    // private System.Void RefreshState()
+    // Offset: 0x141FDB8
+    void RefreshState();
+    // private System.Void RefreshTextAlpha()
+    // Offset: 0x141FCCC
+    void RefreshTextAlpha();
+    // public System.Void ShowText(System.String text)
+    // Offset: 0x141FF44
+    void ShowText(::StringW text);
   }; // TextFadeTransitions
   #pragma pack(pop)
   static check_size<sizeof(TextFadeTransitions), 56 + sizeof(float)> __GlobalNamespace_TextFadeTransitionsSizeCheck;
@@ -190,6 +176,10 @@ namespace GlobalNamespace {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TextFadeTransitions::State, "", "TextFadeTransitions/State");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::TextFadeTransitions::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TextFadeTransitions::Awake
 // Il2CppName: Awake
 template<>
@@ -231,7 +221,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TextFadeTransitions*), "ShowText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TextFadeTransitions::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

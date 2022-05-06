@@ -39,22 +39,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CuttingManager : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1255C78
+    // [InjectAttribute] Offset: 0x10DA85C
     // private readonly NoteCutter _noteCutter
     // Size: 0x8
     // Offset: 0x20
@@ -65,37 +57,35 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private SaberManager _saberManager
-    ::GlobalNamespace::SaberManager*& dyn__saberManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberManager*& dyn__saberManager();
     // Get instance field reference: private readonly NoteCutter _noteCutter
-    ::GlobalNamespace::NoteCutter*& dyn__noteCutter();
-    // protected System.Void OnEnable()
-    // Offset: 0x140CD3C
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x140CDD0
-    void OnDisable();
-    // private System.Void HandleSaberManagerDidUpdateSaberPositions(Saber leftSaber, Saber rightSaber)
-    // Offset: 0x140CE64
-    void HandleSaberManagerDidUpdateSaberPositions(::GlobalNamespace::Saber* leftSaber, ::GlobalNamespace::Saber* rightSaber);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutter*& dyn__noteCutter();
     // public System.Void .ctor()
-    // Offset: 0x140CEB4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x142CC60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CuttingManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CuttingManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CuttingManager*, creationType>()));
     }
+    // protected System.Void OnEnable()
+    // Offset: 0x142CAE8
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x142CB7C
+    void OnDisable();
+    // private System.Void HandleSaberManagerDidUpdateSaberPositions(Saber leftSaber, Saber rightSaber)
+    // Offset: 0x142CC10
+    void HandleSaberManagerDidUpdateSaberPositions(::GlobalNamespace::Saber* leftSaber, ::GlobalNamespace::Saber* rightSaber);
   }; // CuttingManager
   #pragma pack(pop)
   static check_size<sizeof(CuttingManager), 32 + sizeof(::GlobalNamespace::NoteCutter*)> __GlobalNamespace_CuttingManagerSizeCheck;
   static_assert(sizeof(CuttingManager) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::CuttingManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CuttingManager::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -122,7 +112,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CuttingManager*), "HandleSaberManagerDidUpdateSaberPositions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leftSaber, rightSaber});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CuttingManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

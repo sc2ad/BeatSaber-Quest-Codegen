@@ -26,15 +26,7 @@ namespace Priority_Queue {
   // [TokenAttribute] Offset: FFFFFFFF
   class FastPriorityQueueNode : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single <Priority>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -49,25 +41,23 @@ namespace Priority_Queue {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Single <Priority>k__BackingField
-    float& dyn_$Priority$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$Priority$k__BackingField();
     // Get instance field reference: private System.Int32 <QueueIndex>k__BackingField
-    int& dyn_$QueueIndex$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$QueueIndex$k__BackingField();
     // public System.Single get_Priority()
-    // Offset: 0x13799F4
+    // Offset: 0x13E0D30
     float get_Priority();
     // protected internal System.Void set_Priority(System.Single value)
-    // Offset: 0x13799FC
+    // Offset: 0x13E0D38
     void set_Priority(float value);
     // public System.Int32 get_QueueIndex()
-    // Offset: 0x1379A04
+    // Offset: 0x13E0D40
     int get_QueueIndex();
     // System.Void set_QueueIndex(System.Int32 value)
-    // Offset: 0x1379A0C
+    // Offset: 0x13E0D48
     void set_QueueIndex(int value);
     // public System.Void .ctor()
-    // Offset: 0x1379A14
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13E0D50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FastPriorityQueueNode* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Priority_Queue::FastPriorityQueueNode::.ctor");

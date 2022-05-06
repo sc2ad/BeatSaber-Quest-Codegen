@@ -39,15 +39,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::BookmarksFoldersModel::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String[] myFolders
     // Size: 0x8
     // Offset: 0x18
@@ -64,19 +56,14 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String[] myFolders
-    ::ArrayW<::StringW>& dyn_myFolders();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_myFolders();
     // Get instance field reference: private FileBrowserItem[] _bookmarksFolders
-    ::ArrayW<::GlobalNamespace::FileBrowserItem*>& dyn__bookmarksFolders();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::FileBrowserItem*>& dyn__bookmarksFolders();
     // public FileBrowserItem[] get_bookmarksFolders()
-    // Offset: 0x134D050
+    // Offset: 0x1336298
     ::ArrayW<::GlobalNamespace::FileBrowserItem*> get_bookmarksFolders();
     // public System.Void .ctor()
-    // Offset: 0x134D428
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1336670
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BookmarksFoldersModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BookmarksFoldersModel::.ctor");

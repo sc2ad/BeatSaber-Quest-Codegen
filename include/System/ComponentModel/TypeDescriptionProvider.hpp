@@ -45,15 +45,7 @@ namespace System::ComponentModel {
     public:
     // Nested type: ::System::ComponentModel::TypeDescriptionProvider::EmptyCustomTypeDescriptor
     class EmptyCustomTypeDescriptor;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.ComponentModel.TypeDescriptionProvider _parent
     // Size: 0x8
     // Offset: 0x10
@@ -68,45 +60,47 @@ namespace System::ComponentModel {
     static_assert(sizeof(::System::ComponentModel::TypeDescriptionProvider::EmptyCustomTypeDescriptor*) == 0x8);
     public:
     // Get instance field reference: private System.ComponentModel.TypeDescriptionProvider _parent
-    ::System::ComponentModel::TypeDescriptionProvider*& dyn__parent();
+    [[deprecated("Use field access instead!")]] ::System::ComponentModel::TypeDescriptionProvider*& dyn__parent();
     // Get instance field reference: private System.ComponentModel.TypeDescriptionProvider/System.ComponentModel.EmptyCustomTypeDescriptor _emptyDescriptor
-    ::System::ComponentModel::TypeDescriptionProvider::EmptyCustomTypeDescriptor*& dyn__emptyDescriptor();
-    // public System.Collections.IDictionary GetCache(System.Object instance)
-    // Offset: 0x1D6A214
-    ::System::Collections::IDictionary* GetCache(::Il2CppObject* instance);
-    // public System.ComponentModel.ICustomTypeDescriptor GetExtendedTypeDescriptor(System.Object instance)
-    // Offset: 0x1D6A22C
-    ::System::ComponentModel::ICustomTypeDescriptor* GetExtendedTypeDescriptor(::Il2CppObject* instance);
-    // public System.Type GetReflectionType(System.Type objectType)
-    // Offset: 0x1D6A2D0
-    ::System::Type* GetReflectionType(::System::Type* objectType);
-    // public System.Type GetReflectionType(System.Type objectType, System.Object instance)
-    // Offset: 0x1D6A2E0
-    ::System::Type* GetReflectionType(::System::Type* objectType, ::Il2CppObject* instance);
-    // public System.ComponentModel.ICustomTypeDescriptor GetTypeDescriptor(System.Type objectType)
-    // Offset: 0x1D6A2FC
-    ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::System::Type* objectType);
-    // public System.ComponentModel.ICustomTypeDescriptor GetTypeDescriptor(System.Object instance)
-    // Offset: 0x1D6A30C
-    ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::Il2CppObject* instance);
-    // public System.ComponentModel.ICustomTypeDescriptor GetTypeDescriptor(System.Type objectType, System.Object instance)
-    // Offset: 0x1D6A3B8
-    ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::System::Type* objectType, ::Il2CppObject* instance);
+    [[deprecated("Use field access instead!")]] ::System::ComponentModel::TypeDescriptionProvider::EmptyCustomTypeDescriptor*& dyn__emptyDescriptor();
     // protected System.Void .ctor()
-    // Offset: 0x1D5C0CC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1D97624
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeDescriptionProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::TypeDescriptionProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeDescriptionProvider*, creationType>()));
     }
+    // public System.Collections.IDictionary GetCache(System.Object instance)
+    // Offset: 0x1DA576C
+    ::System::Collections::IDictionary* GetCache(::Il2CppObject* instance);
+    // public System.ComponentModel.ICustomTypeDescriptor GetExtendedTypeDescriptor(System.Object instance)
+    // Offset: 0x1DA5784
+    ::System::ComponentModel::ICustomTypeDescriptor* GetExtendedTypeDescriptor(::Il2CppObject* instance);
+    // public System.Type GetReflectionType(System.Type objectType)
+    // Offset: 0x1DA5828
+    ::System::Type* GetReflectionType(::System::Type* objectType);
+    // public System.Type GetReflectionType(System.Type objectType, System.Object instance)
+    // Offset: 0x1DA5838
+    ::System::Type* GetReflectionType(::System::Type* objectType, ::Il2CppObject* instance);
+    // public System.ComponentModel.ICustomTypeDescriptor GetTypeDescriptor(System.Type objectType)
+    // Offset: 0x1DA5854
+    ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::System::Type* objectType);
+    // public System.ComponentModel.ICustomTypeDescriptor GetTypeDescriptor(System.Object instance)
+    // Offset: 0x1DA5864
+    ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::Il2CppObject* instance);
+    // public System.ComponentModel.ICustomTypeDescriptor GetTypeDescriptor(System.Type objectType, System.Object instance)
+    // Offset: 0x1DA5910
+    ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::System::Type* objectType, ::Il2CppObject* instance);
   }; // System.ComponentModel.TypeDescriptionProvider
   #pragma pack(pop)
   static check_size<sizeof(TypeDescriptionProvider), 24 + sizeof(::System::ComponentModel::TypeDescriptionProvider::EmptyCustomTypeDescriptor*)> __System_ComponentModel_TypeDescriptionProviderSizeCheck;
   static_assert(sizeof(TypeDescriptionProvider) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::ComponentModel::TypeDescriptionProvider::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::ComponentModel::TypeDescriptionProvider::GetCache
 // Il2CppName: GetCache
 template<>
@@ -172,7 +166,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeDescriptionProvider*), "GetTypeDescriptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objectType, instance});
   }
 };
-// Writing MetadataGetter for method: System::ComponentModel::TypeDescriptionProvider::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

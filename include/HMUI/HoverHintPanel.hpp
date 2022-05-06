@@ -45,15 +45,7 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class HoverHintPanel : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private TMPro.TextMeshProUGUI _text
     // Size: 0x8
     // Offset: 0x18
@@ -94,48 +86,42 @@ namespace HMUI {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
-    ::TMPro::TextMeshProUGUI*& dyn__text();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__text();
     // Get instance field reference: private UnityEngine.Vector2 _padding
-    ::UnityEngine::Vector2& dyn__padding();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn__padding();
     // Get instance field reference: private UnityEngine.Vector2 _containerPadding
-    ::UnityEngine::Vector2& dyn__containerPadding();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn__containerPadding();
     // Get instance field reference: private System.Single _separator
-    float& dyn__separator();
+    [[deprecated("Use field access instead!")]] float& dyn__separator();
     // Get instance field reference: private System.Single _zOffset
-    float& dyn__zOffset();
+    [[deprecated("Use field access instead!")]] float& dyn__zOffset();
     // Get instance field reference: private System.Boolean <isShown>k__BackingField
-    bool& dyn_$isShown$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$isShown$k__BackingField();
     // public System.Boolean get_isShown()
-    // Offset: 0x16ECE44
+    // Offset: 0x1724754
     bool get_isShown();
     // private System.Void set_isShown(System.Boolean value)
-    // Offset: 0x16ECE4C
+    // Offset: 0x172475C
     void set_isShown(bool value);
-    // protected System.Void Awake()
-    // Offset: 0x16ECE58
-    void Awake();
-    // public System.Void Show(System.String text, UnityEngine.Transform parent, UnityEngine.Vector2 containerSize, UnityEngine.Rect spawnRect)
-    // Offset: 0x16EC8F8
-    void Show(::StringW text, ::UnityEngine::Transform* parent, ::UnityEngine::Vector2 containerSize, ::UnityEngine::Rect spawnRect);
-    // public System.Void Hide()
-    // Offset: 0x16EC430
-    void Hide();
-    // private UnityEngine.Vector2 CalculatePanelPosition(UnityEngine.Vector2 containerSize, UnityEngine.Rect spawnRect, UnityEngine.Vector2 panelSize)
-    // Offset: 0x16ECF60
-    ::UnityEngine::Vector2 CalculatePanelPosition(::UnityEngine::Vector2 containerSize, ::UnityEngine::Rect spawnRect, ::UnityEngine::Vector2 panelSize);
     // public System.Void .ctor()
-    // Offset: 0x16ED08C
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x172499C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HoverHintPanel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::HoverHintPanel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HoverHintPanel*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x1724768
+    void Awake();
+    // public System.Void Show(System.String text, UnityEngine.Transform parent, UnityEngine.Vector2 containerSize, UnityEngine.Rect spawnRect)
+    // Offset: 0x1724208
+    void Show(::StringW text, ::UnityEngine::Transform* parent, ::UnityEngine::Vector2 containerSize, ::UnityEngine::Rect spawnRect);
+    // public System.Void Hide()
+    // Offset: 0x1723D40
+    void Hide();
+    // private UnityEngine.Vector2 CalculatePanelPosition(UnityEngine.Vector2 containerSize, UnityEngine.Rect spawnRect, UnityEngine.Vector2 panelSize)
+    // Offset: 0x1724870
+    ::UnityEngine::Vector2 CalculatePanelPosition(::UnityEngine::Vector2 containerSize, ::UnityEngine::Rect spawnRect, ::UnityEngine::Vector2 panelSize);
   }; // HMUI.HoverHintPanel
   #pragma pack(pop)
   static check_size<sizeof(HoverHintPanel), 56 + sizeof(bool)> __HMUI_HoverHintPanelSizeCheck;
@@ -159,6 +145,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHintPanel*), "set_isShown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: HMUI::HoverHintPanel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::HoverHintPanel::Awake
 // Il2CppName: Awake
 template<>
@@ -198,7 +188,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHintPanel*), "CalculatePanelPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{containerSize, spawnRect, panelSize});
   }
 };
-// Writing MetadataGetter for method: HMUI::HoverHintPanel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

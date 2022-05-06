@@ -101,7 +101,7 @@ namespace GlobalNamespace {
       // Set static field: static public GameplayModifiers/EnabledObstacleType NoObstacles
       static void _set_NoObstacles(::GlobalNamespace::GameplayModifiers::EnabledObstacleType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // GameplayModifiers/EnabledObstacleType
     #pragma pack(pop)
     static check_size<sizeof(GameplayModifiers::EnabledObstacleType), 0 + sizeof(int)> __GlobalNamespace_GameplayModifiers_EnabledObstacleTypeSizeCheck;
@@ -143,7 +143,7 @@ namespace GlobalNamespace {
       // Set static field: static public GameplayModifiers/EnergyType Battery
       static void _set_Battery(::GlobalNamespace::GameplayModifiers::EnergyType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // GameplayModifiers/EnergyType
     #pragma pack(pop)
     static check_size<sizeof(GameplayModifiers::EnergyType), 0 + sizeof(int)> __GlobalNamespace_GameplayModifiers_EnergyTypeSizeCheck;
@@ -197,20 +197,12 @@ namespace GlobalNamespace {
       // Set static field: static public GameplayModifiers/SongSpeed SuperFast
       static void _set_SuperFast(::GlobalNamespace::GameplayModifiers::SongSpeed value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // GameplayModifiers/SongSpeed
     #pragma pack(pop)
     static check_size<sizeof(GameplayModifiers::SongSpeed), 0 + sizeof(int)> __GlobalNamespace_GameplayModifiers_SongSpeedSizeCheck;
     static_assert(sizeof(GameplayModifiers::SongSpeed) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private GameplayModifiers/EnergyType _energyType
     // Size: 0x4
     // Offset: 0x10
@@ -310,129 +302,127 @@ namespace GlobalNamespace {
     operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>*>(this);
     }
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x122F6A4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B30FC
     // Get static field: static public readonly GameplayModifiers noModifiers
     static ::GlobalNamespace::GameplayModifiers* _get_noModifiers();
     // Set static field: static public readonly GameplayModifiers noModifiers
     static void _set_noModifiers(::GlobalNamespace::GameplayModifiers* value);
     // Get instance field reference: private GameplayModifiers/EnergyType _energyType
-    ::GlobalNamespace::GameplayModifiers::EnergyType& dyn__energyType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers::EnergyType& dyn__energyType();
     // Get instance field reference: private System.Boolean _noFailOn0Energy
-    bool& dyn__noFailOn0Energy();
+    [[deprecated("Use field access instead!")]] bool& dyn__noFailOn0Energy();
     // Get instance field reference: private System.Boolean _instaFail
-    bool& dyn__instaFail();
+    [[deprecated("Use field access instead!")]] bool& dyn__instaFail();
     // Get instance field reference: private System.Boolean _failOnSaberClash
-    bool& dyn__failOnSaberClash();
+    [[deprecated("Use field access instead!")]] bool& dyn__failOnSaberClash();
     // Get instance field reference: private GameplayModifiers/EnabledObstacleType _enabledObstacleType
-    ::GlobalNamespace::GameplayModifiers::EnabledObstacleType& dyn__enabledObstacleType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers::EnabledObstacleType& dyn__enabledObstacleType();
     // Get instance field reference: private System.Boolean _fastNotes
-    bool& dyn__fastNotes();
+    [[deprecated("Use field access instead!")]] bool& dyn__fastNotes();
     // Get instance field reference: private System.Boolean _strictAngles
-    bool& dyn__strictAngles();
+    [[deprecated("Use field access instead!")]] bool& dyn__strictAngles();
     // Get instance field reference: private System.Boolean _disappearingArrows
-    bool& dyn__disappearingArrows();
+    [[deprecated("Use field access instead!")]] bool& dyn__disappearingArrows();
     // Get instance field reference: private System.Boolean _ghostNotes
-    bool& dyn__ghostNotes();
+    [[deprecated("Use field access instead!")]] bool& dyn__ghostNotes();
     // Get instance field reference: private System.Boolean _noBombs
-    bool& dyn__noBombs();
+    [[deprecated("Use field access instead!")]] bool& dyn__noBombs();
     // Get instance field reference: private GameplayModifiers/SongSpeed _songSpeed
-    ::GlobalNamespace::GameplayModifiers::SongSpeed& dyn__songSpeed();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers::SongSpeed& dyn__songSpeed();
     // Get instance field reference: private System.Boolean _noArrows
-    bool& dyn__noArrows();
+    [[deprecated("Use field access instead!")]] bool& dyn__noArrows();
     // Get instance field reference: private System.Boolean _proMode
-    bool& dyn__proMode();
+    [[deprecated("Use field access instead!")]] bool& dyn__proMode();
     // Get instance field reference: private System.Boolean _zenMode
-    bool& dyn__zenMode();
+    [[deprecated("Use field access instead!")]] bool& dyn__zenMode();
     // Get instance field reference: private System.Boolean _smallCubes
-    bool& dyn__smallCubes();
+    [[deprecated("Use field access instead!")]] bool& dyn__smallCubes();
     // public GameplayModifiers/EnergyType get_energyType()
-    // Offset: 0x29BE7CC
+    // Offset: 0x2A00B40
     ::GlobalNamespace::GameplayModifiers::EnergyType get_energyType();
     // public System.Boolean get_noFailOn0Energy()
-    // Offset: 0x29BE7D4
+    // Offset: 0x2A00B48
     bool get_noFailOn0Energy();
     // public System.Boolean get_instaFail()
-    // Offset: 0x29BE7DC
+    // Offset: 0x2A00B50
     bool get_instaFail();
     // public System.Boolean get_failOnSaberClash()
-    // Offset: 0x29BE7E4
+    // Offset: 0x2A00B58
     bool get_failOnSaberClash();
     // public GameplayModifiers/EnabledObstacleType get_enabledObstacleType()
-    // Offset: 0x29BE7EC
+    // Offset: 0x2A00B60
     ::GlobalNamespace::GameplayModifiers::EnabledObstacleType get_enabledObstacleType();
     // public System.Boolean get_fastNotes()
-    // Offset: 0x29BE7F4
+    // Offset: 0x2A00B68
     bool get_fastNotes();
     // public System.Boolean get_strictAngles()
-    // Offset: 0x29BE7FC
+    // Offset: 0x2A00B70
     bool get_strictAngles();
     // public System.Boolean get_disappearingArrows()
-    // Offset: 0x29BE804
+    // Offset: 0x2A00B78
     bool get_disappearingArrows();
     // public System.Boolean get_ghostNotes()
-    // Offset: 0x29BE80C
+    // Offset: 0x2A00B80
     bool get_ghostNotes();
     // public System.Boolean get_noBombs()
-    // Offset: 0x29BE814
+    // Offset: 0x2A00B88
     bool get_noBombs();
     // public GameplayModifiers/SongSpeed get_songSpeed()
-    // Offset: 0x29BE81C
+    // Offset: 0x2A00B90
     ::GlobalNamespace::GameplayModifiers::SongSpeed get_songSpeed();
     // public System.Boolean get_noArrows()
-    // Offset: 0x29BE824
+    // Offset: 0x2A00B98
     bool get_noArrows();
     // public System.Boolean get_proMode()
-    // Offset: 0x29BE82C
+    // Offset: 0x2A00BA0
     bool get_proMode();
     // public System.Boolean get_zenMode()
-    // Offset: 0x29BE834
+    // Offset: 0x2A00BA8
     bool get_zenMode();
     // public System.Boolean get_smallCubes()
-    // Offset: 0x29BE83C
+    // Offset: 0x2A00BB0
     bool get_smallCubes();
     // public System.Single get_songSpeedMul()
-    // Offset: 0x29BE844
+    // Offset: 0x2A00BB8
     float get_songSpeedMul();
     // public System.Single get_cutAngleTolerance()
-    // Offset: 0x29BE868
+    // Offset: 0x2A00BDC
     float get_cutAngleTolerance();
     // public System.Single get_notesUniformScale()
-    // Offset: 0x29BE884
+    // Offset: 0x2A00BF8
     float get_notesUniformScale();
+    // public System.Void .ctor()
+    // Offset: 0x2A00C10
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static GameplayModifiers* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayModifiers::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<GameplayModifiers*, creationType>()));
+    }
     // public System.Void .ctor(GameplayModifiers/EnergyType energyType, System.Boolean noFailOn0Energy, System.Boolean instaFail, System.Boolean failOnSaberClash, GameplayModifiers/EnabledObstacleType enabledObstacleType, System.Boolean noBombs, System.Boolean fastNotes, System.Boolean strictAngles, System.Boolean disappearingArrows, GameplayModifiers/SongSpeed songSpeed, System.Boolean noArrows, System.Boolean ghostNotes, System.Boolean proMode, System.Boolean zenMode, System.Boolean smallCubes)
-    // Offset: 0x29BE588
+    // Offset: 0x2A008FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayModifiers* New_ctor(::GlobalNamespace::GameplayModifiers::EnergyType energyType, bool noFailOn0Energy, bool instaFail, bool failOnSaberClash, ::GlobalNamespace::GameplayModifiers::EnabledObstacleType enabledObstacleType, bool noBombs, bool fastNotes, bool strictAngles, bool disappearingArrows, ::GlobalNamespace::GameplayModifiers::SongSpeed songSpeed, bool noArrows, bool ghostNotes, bool proMode, bool zenMode, bool smallCubes) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayModifiers::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifiers*, creationType>(energyType, noFailOn0Energy, instaFail, failOnSaberClash, enabledObstacleType, noBombs, fastNotes, strictAngles, disappearingArrows, songSpeed, noArrows, ghostNotes, proMode, zenMode, smallCubes)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x29BEE2C
+    // Offset: 0x2A011A0
     static void _cctor();
     // public GameplayModifiers CopyWith(System.Nullable`1<GameplayModifiers/EnergyType> energyType, System.Nullable`1<System.Boolean> noFailOn0Energy, System.Nullable`1<System.Boolean> instaFail, System.Nullable`1<System.Boolean> failOnSaberClash, System.Nullable`1<GameplayModifiers/EnabledObstacleType> enabledObstacleType, System.Nullable`1<System.Boolean> noBombs, System.Nullable`1<System.Boolean> fastNotes, System.Nullable`1<System.Boolean> strictAngles, System.Nullable`1<System.Boolean> disappearingArrows, System.Nullable`1<GameplayModifiers/SongSpeed> songSpeed, System.Nullable`1<System.Boolean> noArrows, System.Nullable`1<System.Boolean> ghostNotes, System.Nullable`1<System.Boolean> proMode, System.Nullable`1<System.Boolean> zenMode, System.Nullable`1<System.Boolean> smallCubes)
-    // Offset: 0x29BE8D8
+    // Offset: 0x2A00C4C
     ::GlobalNamespace::GameplayModifiers* CopyWith(::System::Nullable_1<::GlobalNamespace::GameplayModifiers::EnergyType> energyType, ::System::Nullable_1<bool> noFailOn0Energy, ::System::Nullable_1<bool> instaFail, ::System::Nullable_1<bool> failOnSaberClash, ::System::Nullable_1<::GlobalNamespace::GameplayModifiers::EnabledObstacleType> enabledObstacleType, ::System::Nullable_1<bool> noBombs, ::System::Nullable_1<bool> fastNotes, ::System::Nullable_1<bool> strictAngles, ::System::Nullable_1<bool> disappearingArrows, ::System::Nullable_1<::GlobalNamespace::GameplayModifiers::SongSpeed> songSpeed, ::System::Nullable_1<bool> noArrows, ::System::Nullable_1<bool> ghostNotes, ::System::Nullable_1<bool> proMode, ::System::Nullable_1<bool> zenMode, ::System::Nullable_1<bool> smallCubes);
     // public System.Boolean IsWithoutModifiers()
-    // Offset: 0x29BEB14
+    // Offset: 0x2A00E88
     bool IsWithoutModifiers();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x29BEB9C
+    // Offset: 0x2A00F10
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // private GameplayModifiers LiteNetLib.Utils.INetImmutableSerializable<GameplayModifiers>.CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29BECC4
+    // Offset: 0x2A01038
     ::GlobalNamespace::GameplayModifiers* LiteNetLib_Utils_INetImmutableSerializable$GameplayModifiers$_CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
     // static public GameplayModifiers CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29BED28
+    // Offset: 0x2A0109C
     static ::GlobalNamespace::GameplayModifiers* CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
-    // public System.Void .ctor()
-    // Offset: 0x29BE89C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GameplayModifiers* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayModifiers::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<GameplayModifiers*, creationType>()));
-    }
   }; // GameplayModifiers
   #pragma pack(pop)
   static check_size<sizeof(GameplayModifiers), 43 + sizeof(bool)> __GlobalNamespace_GameplayModifiersSizeCheck;
@@ -593,6 +583,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiers::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiers::_cctor
 // Il2CppName: .cctor
 template<>
@@ -659,7 +653,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiers*), "CreateFromSerializedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiers::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

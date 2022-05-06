@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LevelGameplaySetupData : public ::Il2CppObject/*, public ::GlobalNamespace::ILevelGameplaySetupData*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private PreviewDifficultyBeatmap _beatmapLevel
     // Size: 0x8
     // Offset: 0x10
@@ -64,40 +56,38 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::ILevelGameplaySetupData*>(this);
     }
     // Get instance field reference: private PreviewDifficultyBeatmap _beatmapLevel
-    ::GlobalNamespace::PreviewDifficultyBeatmap*& dyn__beatmapLevel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PreviewDifficultyBeatmap*& dyn__beatmapLevel();
     // Get instance field reference: private GameplayModifiers _gameplayModifiers
-    ::GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // public PreviewDifficultyBeatmap get_beatmapLevel()
-    // Offset: 0x1483D30
+    // Offset: 0x14BA5B0
     ::GlobalNamespace::PreviewDifficultyBeatmap* get_beatmapLevel();
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x1483D38
+    // Offset: 0x14BA5B8
     ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
+    // public System.Void .ctor()
+    // Offset: 0x14BA5C0
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static LevelGameplaySetupData* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelGameplaySetupData::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<LevelGameplaySetupData*, creationType>()));
+    }
     // public System.Void .ctor(PreviewDifficultyBeatmap beatmapLevel, GameplayModifiers gameplayModifiers)
-    // Offset: 0x1483DB8
+    // Offset: 0x14BA638
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelGameplaySetupData* New_ctor(::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelGameplaySetupData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelGameplaySetupData*, creationType>(beatmapLevel, gameplayModifiers)));
     }
     // public System.Void ClearGameplaySetupData()
-    // Offset: 0x1483E74
+    // Offset: 0x14BA6F4
     void ClearGameplaySetupData();
     // public System.Void SetBeatmapLevel(PreviewDifficultyBeatmap beatmapLevel)
-    // Offset: 0x1483EE8
+    // Offset: 0x14BA768
     void SetBeatmapLevel(::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel);
     // public System.Void SetGameplayModifiers(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1483EF0
+    // Offset: 0x14BA770
     void SetGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
-    // public System.Void .ctor()
-    // Offset: 0x1483D40
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LevelGameplaySetupData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelGameplaySetupData::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<LevelGameplaySetupData*, creationType>()));
-    }
   }; // LevelGameplaySetupData
   #pragma pack(pop)
   static check_size<sizeof(LevelGameplaySetupData), 24 + sizeof(::GlobalNamespace::GameplayModifiers*)> __GlobalNamespace_LevelGameplaySetupDataSizeCheck;
@@ -120,6 +110,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelGameplaySetupData*), "get_gameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LevelGameplaySetupData::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LevelGameplaySetupData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -150,7 +144,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelGameplaySetupData*), "SetGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LevelGameplaySetupData::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

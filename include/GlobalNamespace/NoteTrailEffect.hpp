@@ -37,15 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoteTrailEffect : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _particlesPerFrame
     // Size: 0x4
     // Offset: 0x18
@@ -64,7 +56,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::NoteMovement* noteMovement;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::NoteMovement*) == 0x8);
-    // [InjectAttribute] Offset: 0x1251764
+    // [InjectAttribute] Offset: 0x10D62F0
     // private NoteTrailParticleSystem _noteTrailParticleSystem
     // Size: 0x8
     // Offset: 0x28
@@ -75,47 +67,45 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _particlesPerFrame
-    int& dyn__particlesPerFrame();
+    [[deprecated("Use field access instead!")]] int& dyn__particlesPerFrame();
     // Get instance field reference: private System.Single _maxSpawnDistance
-    float& dyn__maxSpawnDistance();
+    [[deprecated("Use field access instead!")]] float& dyn__maxSpawnDistance();
     // Get instance field reference: private NoteMovement _noteMovement
-    ::GlobalNamespace::NoteMovement*& dyn__noteMovement();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteMovement*& dyn__noteMovement();
     // Get instance field reference: private NoteTrailParticleSystem _noteTrailParticleSystem
-    ::GlobalNamespace::NoteTrailParticleSystem*& dyn__noteTrailParticleSystem();
-    // protected System.Void Awake()
-    // Offset: 0x147CEF0
-    void Awake();
-    // protected System.Void OnDestroy()
-    // Offset: 0x147CFD0
-    void OnDestroy();
-    // protected System.Void Update()
-    // Offset: 0x147D0D8
-    void Update();
-    // private System.Void HandleNoteMovementDidInit()
-    // Offset: 0x147D294
-    void HandleNoteMovementDidInit();
-    // private System.Void HandleNoteDidStartJump()
-    // Offset: 0x147D2A0
-    void HandleNoteDidStartJump();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteTrailParticleSystem*& dyn__noteTrailParticleSystem();
     // public System.Void .ctor()
-    // Offset: 0x147D2AC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14B3A94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteTrailEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteTrailEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteTrailEffect*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x14B36D8
+    void Awake();
+    // protected System.Void OnDestroy()
+    // Offset: 0x14B37B8
+    void OnDestroy();
+    // protected System.Void Update()
+    // Offset: 0x14B38C0
+    void Update();
+    // private System.Void HandleNoteMovementDidInit()
+    // Offset: 0x14B3A7C
+    void HandleNoteMovementDidInit();
+    // private System.Void HandleNoteDidStartJump()
+    // Offset: 0x14B3A88
+    void HandleNoteDidStartJump();
   }; // NoteTrailEffect
   #pragma pack(pop)
   static check_size<sizeof(NoteTrailEffect), 40 + sizeof(::GlobalNamespace::NoteTrailParticleSystem*)> __GlobalNamespace_NoteTrailEffectSizeCheck;
   static_assert(sizeof(NoteTrailEffect) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::NoteTrailEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NoteTrailEffect::Awake
 // Il2CppName: Awake
 template<>
@@ -156,7 +146,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteTrailEffect*), "HandleNoteDidStartJump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NoteTrailEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

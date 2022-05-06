@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRControllersRecorderSaveData::PositionAndRotation : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single posX
     // Size: 0x4
     // Offset: 0x10
@@ -76,23 +68,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public System.Single posX
-    float& dyn_posX();
+    [[deprecated("Use field access instead!")]] float& dyn_posX();
     // Get instance field reference: public System.Single posY
-    float& dyn_posY();
+    [[deprecated("Use field access instead!")]] float& dyn_posY();
     // Get instance field reference: public System.Single posZ
-    float& dyn_posZ();
+    [[deprecated("Use field access instead!")]] float& dyn_posZ();
     // Get instance field reference: public System.Single rotX
-    float& dyn_rotX();
+    [[deprecated("Use field access instead!")]] float& dyn_rotX();
     // Get instance field reference: public System.Single rotY
-    float& dyn_rotY();
+    [[deprecated("Use field access instead!")]] float& dyn_rotY();
     // Get instance field reference: public System.Single rotZ
-    float& dyn_rotZ();
+    [[deprecated("Use field access instead!")]] float& dyn_rotZ();
     // Get instance field reference: public System.Single rotW
-    float& dyn_rotW();
+    [[deprecated("Use field access instead!")]] float& dyn_rotW();
     // public System.Void .ctor()
-    // Offset: 0x2AC04AC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x149FA04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorderSaveData::PositionAndRotation* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation::.ctor");

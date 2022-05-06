@@ -42,15 +42,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class BinaryMethodCall : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String methodName
     // Size: 0x8
     // Offset: 0x10
@@ -97,27 +89,27 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::MessageEnum) == 0x4);
     public:
     // Get instance field reference: private System.String methodName
-    ::StringW& dyn_methodName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_methodName();
     // Get instance field reference: private System.String typeName
-    ::StringW& dyn_typeName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_typeName();
     // Get instance field reference: private System.Object[] args
-    ::ArrayW<::Il2CppObject*>& dyn_args();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppObject*>& dyn_args();
     // Get instance field reference: private System.Object callContext
-    ::Il2CppObject*& dyn_callContext();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_callContext();
     // Get instance field reference: private System.Type[] argTypes
-    ::ArrayW<::System::Type*>& dyn_argTypes();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::System::Type*>& dyn_argTypes();
     // Get instance field reference: private System.Boolean bArgsPrimitive
-    bool& dyn_bArgsPrimitive();
+    [[deprecated("Use field access instead!")]] bool& dyn_bArgsPrimitive();
     // Get instance field reference: private System.Runtime.Serialization.Formatters.Binary.MessageEnum messageEnum
-    ::System::Runtime::Serialization::Formatters::Binary::MessageEnum& dyn_messageEnum();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::Formatters::Binary::MessageEnum& dyn_messageEnum();
     // System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x18BA730
+    // Offset: 0x18F4040
     void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // System.Void Dump()
-    // Offset: 0x18BAA08
+    // Offset: 0x18F4318
     void Dump();
     // public System.Void .ctor()
-    // Offset: 0x18BAA0C
+    // Offset: 0x18F431C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

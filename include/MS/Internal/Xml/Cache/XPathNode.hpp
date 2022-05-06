@@ -95,60 +95,60 @@ namespace MS::Internal::Xml::Cache {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private MS.Internal.Xml.Cache.XPathNodeInfoAtom info
-    ::MS::Internal::Xml::Cache::XPathNodeInfoAtom*& dyn_info();
+    [[deprecated("Use field access instead!")]] ::MS::Internal::Xml::Cache::XPathNodeInfoAtom*& dyn_info();
     // Get instance field reference: private System.UInt16 idxSibling
-    uint16_t& dyn_idxSibling();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_idxSibling();
     // Get instance field reference: private System.UInt16 idxParent
-    uint16_t& dyn_idxParent();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_idxParent();
     // Get instance field reference: private System.UInt16 idxSimilar
-    uint16_t& dyn_idxSimilar();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_idxSimilar();
     // Get instance field reference: private System.UInt16 posOffset
-    uint16_t& dyn_posOffset();
+    [[deprecated("Use field access instead!")]] uint16_t& dyn_posOffset();
     // Get instance field reference: private System.UInt32 props
-    uint& dyn_props();
+    [[deprecated("Use field access instead!")]] uint& dyn_props();
     // Get instance field reference: private System.String value
-    ::StringW& dyn_value();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_value();
     // public System.Xml.XPath.XPathNodeType get_NodeType()
-    // Offset: 0x1A7EBF0
+    // Offset: 0x1AB91D8
     ::System::Xml::XPath::XPathNodeType get_NodeType();
     // public System.String get_Prefix()
-    // Offset: 0x1A7ED0C
+    // Offset: 0x1AB92F4
     ::StringW get_Prefix();
     // public System.String get_LocalName()
-    // Offset: 0x1A7EC44
+    // Offset: 0x1AB922C
     ::StringW get_LocalName();
     // public System.String get_NamespaceUri()
-    // Offset: 0x1A7ECA8
+    // Offset: 0x1AB9290
     ::StringW get_NamespaceUri();
     // public System.Xml.XPath.XPathDocument get_Document()
-    // Offset: 0x1A7ED78
+    // Offset: 0x1AB9360
     ::System::Xml::XPath::XPathDocument* get_Document();
     // public MS.Internal.Xml.Cache.XPathNodePageInfo get_PageInfo()
-    // Offset: 0x1A7F31C
+    // Offset: 0x1AB9904
     ::MS::Internal::Xml::Cache::XPathNodePageInfo* get_PageInfo();
     // public System.Boolean get_IsXmlNamespaceNode()
-    // Offset: 0x1A7EFC8
+    // Offset: 0x1AB95B0
     bool get_IsXmlNamespaceNode();
     // public System.Boolean get_HasSibling()
-    // Offset: 0x1A7F338
+    // Offset: 0x1AB9920
     bool get_HasSibling();
     // public System.Boolean get_HasCollapsedText()
-    // Offset: 0x1A7F348
+    // Offset: 0x1AB9930
     bool get_HasCollapsedText();
     // public System.Boolean get_IsText()
-    // Offset: 0x1A7F354
+    // Offset: 0x1AB993C
     bool get_IsText();
     // public System.Boolean get_HasNamespaceDecls()
-    // Offset: 0x1A7F3C4
+    // Offset: 0x1AB99AC
     bool get_HasNamespaceDecls();
     // public System.String get_Value()
-    // Offset: 0x1A7F3D0
+    // Offset: 0x1AB99B8
     ::StringW get_Value();
     // public System.Int32 GetParent(out MS.Internal.Xml.Cache.XPathNode[] pageNode)
-    // Offset: 0x1A7F190
+    // Offset: 0x1AB9778
     int GetParent(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageNode);
     // public System.Int32 GetSibling(out MS.Internal.Xml.Cache.XPathNode[] pageNode)
-    // Offset: 0x1A7F058
+    // Offset: 0x1AB9640
     int GetSibling(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageNode);
   }; // MS.Internal.Xml.Cache.XPathNode
   #pragma pack(pop)

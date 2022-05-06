@@ -57,15 +57,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SongProgressUIController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Slider _slider
     // Size: 0x8
     // Offset: 0x18
@@ -102,7 +94,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* progressSecondsText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252774
+    // [InjectAttribute] Offset: 0x10D7358
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x48
@@ -137,52 +129,50 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Slider _slider
-    ::UnityEngine::UI::Slider*& dyn__slider();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Slider*& dyn__slider();
     // Get instance field reference: private UnityEngine.UI.Image _progressImage
-    ::UnityEngine::UI::Image*& dyn__progressImage();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__progressImage();
     // Get instance field reference: private TMPro.TextMeshProUGUI _durationMinutesText
-    ::TMPro::TextMeshProUGUI*& dyn__durationMinutesText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__durationMinutesText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _durationSecondsText
-    ::TMPro::TextMeshProUGUI*& dyn__durationSecondsText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__durationSecondsText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _progressMinutesText
-    ::TMPro::TextMeshProUGUI*& dyn__progressMinutesText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__progressMinutesText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _progressSecondsText
-    ::TMPro::TextMeshProUGUI*& dyn__progressSecondsText();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__progressSecondsText();
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
-    ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // Get instance field reference: private System.Int32 _prevMinutes
-    int& dyn__prevMinutes();
+    [[deprecated("Use field access instead!")]] int& dyn__prevMinutes();
     // Get instance field reference: private System.Int32 _prevSeconds
-    int& dyn__prevSeconds();
+    [[deprecated("Use field access instead!")]] int& dyn__prevSeconds();
     // Get instance field reference: private System.Text.StringBuilder _stringBuilder
-    ::System::Text::StringBuilder*& dyn__stringBuilder();
+    [[deprecated("Use field access instead!")]] ::System::Text::StringBuilder*& dyn__stringBuilder();
     // Get instance field reference: private UnityEngine.RectTransform _progressImageRectTransform
-    ::UnityEngine::RectTransform*& dyn__progressImageRectTransform();
-    // protected System.Void Start()
-    // Offset: 0x2AA8360
-    void Start();
-    // protected System.Void Update()
-    // Offset: 0x2AA84DC
-    void Update();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__progressImageRectTransform();
     // public System.Void .ctor()
-    // Offset: 0x2AA87E8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x138F40C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongProgressUIController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongProgressUIController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongProgressUIController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x138EF84
+    void Start();
+    // protected System.Void Update()
+    // Offset: 0x138F100
+    void Update();
   }; // SongProgressUIController
   #pragma pack(pop)
   static check_size<sizeof(SongProgressUIController), 96 + sizeof(::UnityEngine::RectTransform*)> __GlobalNamespace_SongProgressUIControllerSizeCheck;
   static_assert(sizeof(SongProgressUIController) == 0x68);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SongProgressUIController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SongProgressUIController::Start
 // Il2CppName: Start
 template<>
@@ -199,7 +189,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongProgressUIController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SongProgressUIController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

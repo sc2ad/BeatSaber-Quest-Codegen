@@ -37,23 +37,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameplayModifierParamsSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [LocalizationKeyAttribute] Offset: 0x124BCE8
+    // [LocalizationKeyAttribute] Offset: 0x10D07E0
     // private System.String _modifierNameLocalizationKey
     // Size: 0x8
     // Offset: 0x18
     ::StringW modifierNameLocalizationKey;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0x124BD20
+    // [LocalizationKeyAttribute] Offset: 0x10D0818
     // private System.String _descriptionLocalizationKey
     // Size: 0x8
     // Offset: 0x20
@@ -108,57 +100,52 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _modifierNameLocalizationKey
-    ::StringW& dyn__modifierNameLocalizationKey();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__modifierNameLocalizationKey();
     // Get instance field reference: private System.String _descriptionLocalizationKey
-    ::StringW& dyn__descriptionLocalizationKey();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__descriptionLocalizationKey();
     // Get instance field reference: private System.Single _multiplier
-    float& dyn__multiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__multiplier();
     // Get instance field reference: private System.Boolean _multiplierConditionallyValid
-    bool& dyn__multiplierConditionallyValid();
+    [[deprecated("Use field access instead!")]] bool& dyn__multiplierConditionallyValid();
     // Get instance field reference: private UnityEngine.Sprite _icon
-    ::UnityEngine::Sprite*& dyn__icon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__icon();
     // Get instance field reference: private GameplayModifierParamsSO[] _mutuallyExclusives
-    ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*>& dyn__mutuallyExclusives();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*>& dyn__mutuallyExclusives();
     // Get instance field reference: private GameplayModifierParamsSO[] _requires
-    ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*>& dyn__requires();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*>& dyn__requires();
     // Get instance field reference: private GameplayModifierParamsSO[] _requiredBy
-    ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*>& dyn__requiredBy();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*>& dyn__requiredBy();
     // Get instance field reference: private System.Boolean _isInBeta
-    bool& dyn__isInBeta();
+    [[deprecated("Use field access instead!")]] bool& dyn__isInBeta();
     // public System.String get_modifierNameLocalizationKey()
-    // Offset: 0x13E52CC
+    // Offset: 0x13F1D6C
     ::StringW get_modifierNameLocalizationKey();
     // public System.String get_descriptionLocalizationKey()
-    // Offset: 0x13E52D4
+    // Offset: 0x13F1D74
     ::StringW get_descriptionLocalizationKey();
     // public System.Single get_multiplier()
-    // Offset: 0x13E52DC
+    // Offset: 0x13F1D7C
     float get_multiplier();
     // public System.Boolean get_multiplierConditionallyValid()
-    // Offset: 0x13E52E4
+    // Offset: 0x13F1D84
     bool get_multiplierConditionallyValid();
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x13E52EC
+    // Offset: 0x13F1D8C
     ::UnityEngine::Sprite* get_icon();
     // public GameplayModifierParamsSO[] get_mutuallyExclusives()
-    // Offset: 0x13E52F4
+    // Offset: 0x13F1D94
     ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*> get_mutuallyExclusives();
     // public GameplayModifierParamsSO[] get_requires()
-    // Offset: 0x13E52FC
+    // Offset: 0x13F1D9C
     ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*> get_requires();
     // public GameplayModifierParamsSO[] get_requiredBy()
-    // Offset: 0x13E5304
+    // Offset: 0x13F1DA4
     ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*> get_requiredBy();
     // public System.Boolean get_isInBeta()
-    // Offset: 0x13E530C
+    // Offset: 0x13F1DAC
     bool get_isInBeta();
     // public System.Void .ctor()
-    // Offset: 0x13E5314
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13F1DB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayModifierParamsSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayModifierParamsSO::.ctor");

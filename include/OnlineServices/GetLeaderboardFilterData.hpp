@@ -77,17 +77,17 @@ namespace OnlineServices {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public readonly IDifficultyBeatmap beatmap
-    ::GlobalNamespace::IDifficultyBeatmap*& dyn_beatmap();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IDifficultyBeatmap*& dyn_beatmap();
     // Get instance field reference: public readonly System.Int32 count
-    int& dyn_count();
+    [[deprecated("Use field access instead!")]] int& dyn_count();
     // Get instance field reference: public readonly System.Int32 fromRank
-    int& dyn_fromRank();
+    [[deprecated("Use field access instead!")]] int& dyn_fromRank();
     // Get instance field reference: public readonly OnlineServices.ScoresScope scope
-    ::OnlineServices::ScoresScope& dyn_scope();
+    [[deprecated("Use field access instead!")]] ::OnlineServices::ScoresScope& dyn_scope();
     // Get instance field reference: public readonly GameplayModifiers gameplayModifiers
-    ::GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
     // public System.Void .ctor(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, OnlineServices.ScoresScope scope, GameplayModifiers gameplayModifiers)
-    // Offset: 0x12E61C8
+    // Offset: 0x1357168
     // ABORTED: conflicts with another method.  GetLeaderboardFilterData(::GlobalNamespace::IDifficultyBeatmap* beatmap, int count, int fromRank, ::OnlineServices::ScoresScope scope, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
   }; // OnlineServices.GetLeaderboardFilterData
   #pragma pack(pop)

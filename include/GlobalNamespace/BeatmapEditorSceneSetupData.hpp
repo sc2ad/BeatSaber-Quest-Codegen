@@ -29,15 +29,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapEditorSceneSetupData : public ::GlobalNamespace::SceneSetupData {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _levelDirPath
     // Size: 0x8
     // Offset: 0x10
@@ -52,17 +44,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String _levelDirPath
-    ::StringW& dyn__levelDirPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__levelDirPath();
     // Get instance field reference: private System.String _levelAssetPath
-    ::StringW& dyn__levelAssetPath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__levelAssetPath();
     // public System.String get_levelDirPath()
-    // Offset: 0x14C6B60
+    // Offset: 0x14FE468
     ::StringW get_levelDirPath();
     // public System.String get_levelAssetPath()
-    // Offset: 0x14C6B68
+    // Offset: 0x14FE470
     ::StringW get_levelAssetPath();
     // public System.Void .ctor(System.String levelDirPath, System.String levelAssetPath)
-    // Offset: 0x14C6B70
+    // Offset: 0x14FE478
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEditorSceneSetupData* New_ctor(::StringW levelDirPath, ::StringW levelAssetPath) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEditorSceneSetupData::.ctor");

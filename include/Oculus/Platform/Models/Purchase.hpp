@@ -31,15 +31,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class Purchase : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.DateTime ExpirationTime
     // Size: 0x8
     // Offset: 0x10
@@ -66,15 +58,15 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly System.DateTime ExpirationTime
-    ::System::DateTime& dyn_ExpirationTime();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_ExpirationTime();
     // Get instance field reference: public readonly System.DateTime GrantTime
-    ::System::DateTime& dyn_GrantTime();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_GrantTime();
     // Get instance field reference: public readonly System.String ID
-    ::StringW& dyn_ID();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_ID();
     // Get instance field reference: public readonly System.String Sku
-    ::StringW& dyn_Sku();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Sku();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19B1FB0
+    // Offset: 0x19EB598
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Purchase* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::Purchase::.ctor");

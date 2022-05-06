@@ -60,7 +60,7 @@ namespace System::Collections::Generic {
     // Set static field: static public System.Collections.Generic.InsertionBehavior ThrowOnExisting
     static void _set_ThrowOnExisting(::System::Collections::Generic::InsertionBehavior value);
     // Get instance field reference: public System.Byte value__
-    uint8_t& dyn_value__();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_value__();
   }; // System.Collections.Generic.InsertionBehavior
   #pragma pack(pop)
   static check_size<sizeof(InsertionBehavior), 0 + sizeof(uint8_t)> __System_Collections_Generic_InsertionBehaviorSizeCheck;

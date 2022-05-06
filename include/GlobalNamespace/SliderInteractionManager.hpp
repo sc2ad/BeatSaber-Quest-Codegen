@@ -53,15 +53,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SliderInteractionManager : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private ColorType _colorType
     // Size: 0x4
     // Offset: 0x18
@@ -70,7 +62,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::ColorType) == 0x4);
     // Padding between fields: colorType and: beatmapObjectManager
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0x124FC68
+    // [InjectAttribute] Offset: 0x10D479C
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
@@ -107,72 +99,66 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ColorType _colorType
-    ::GlobalNamespace::ColorType& dyn__colorType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorType& dyn__colorType();
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
-    ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // Get instance field reference: private System.Single <saberInteractionParam>k__BackingField
-    float& dyn_$saberInteractionParam$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$saberInteractionParam$k__BackingField();
     // Get instance field reference: private System.Action`1<System.Single> sliderWasAddedToActiveSlidersEvent
-    ::System::Action_1<float>*& dyn_sliderWasAddedToActiveSlidersEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<float>*& dyn_sliderWasAddedToActiveSlidersEvent();
     // Get instance field reference: private System.Action allSliderWereRemovedFromActiveSlidersEvent
-    ::System::Action*& dyn_allSliderWereRemovedFromActiveSlidersEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_allSliderWereRemovedFromActiveSlidersEvent();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<SliderController> _activeSliders
-    ::System::Collections::Generic::List_1<::GlobalNamespace::SliderController*>*& dyn__activeSliders();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::SliderController*>*& dyn__activeSliders();
     // public ColorType get_colorType()
-    // Offset: 0x2AA189C
+    // Offset: 0x13884C0
     ::GlobalNamespace::ColorType get_colorType();
     // public System.Single get_saberInteractionParam()
-    // Offset: 0x2AA18A4
+    // Offset: 0x13884C8
     float get_saberInteractionParam();
     // private System.Void set_saberInteractionParam(System.Single value)
-    // Offset: 0x2AA18AC
+    // Offset: 0x13884D0
     void set_saberInteractionParam(float value);
     // public System.Void add_sliderWasAddedToActiveSlidersEvent(System.Action`1<System.Single> value)
-    // Offset: 0x2AA1524
+    // Offset: 0x1388148
     void add_sliderWasAddedToActiveSlidersEvent(::System::Action_1<float>* value);
     // public System.Void remove_sliderWasAddedToActiveSlidersEvent(System.Action`1<System.Single> value)
-    // Offset: 0x2AA173C
+    // Offset: 0x1388360
     void remove_sliderWasAddedToActiveSlidersEvent(::System::Action_1<float>* value);
     // public System.Void add_allSliderWereRemovedFromActiveSlidersEvent(System.Action value)
-    // Offset: 0x2AA15C8
+    // Offset: 0x13881EC
     void add_allSliderWereRemovedFromActiveSlidersEvent(::System::Action* value);
     // public System.Void remove_allSliderWereRemovedFromActiveSlidersEvent(System.Action value)
-    // Offset: 0x2AA17E0
+    // Offset: 0x1388404
     void remove_allSliderWereRemovedFromActiveSlidersEvent(::System::Action* value);
-    // protected System.Void Start()
-    // Offset: 0x2AA18B4
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x2AA198C
-    void OnDestroy();
-    // protected System.Void Update()
-    // Offset: 0x2AA1A78
-    void Update();
-    // private System.Void AddActiveSlider(SliderController newSliderController)
-    // Offset: 0x2AA1BE0
-    void AddActiveSlider(::GlobalNamespace::SliderController* newSliderController);
-    // private System.Void RemoveActiveSlider(SliderController sliderController)
-    // Offset: 0x2AA1DA4
-    void RemoveActiveSlider(::GlobalNamespace::SliderController* sliderController);
-    // private System.Void HandleSliderWasSpawned(SliderController sliderController)
-    // Offset: 0x2AA1E3C
-    void HandleSliderWasSpawned(::GlobalNamespace::SliderController* sliderController);
-    // private System.Void HandleSliderWasDespawned(SliderController sliderController)
-    // Offset: 0x2AA1E74
-    void HandleSliderWasDespawned(::GlobalNamespace::SliderController* sliderController);
     // public System.Void .ctor()
-    // Offset: 0x2AA1EAC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1388AD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderInteractionManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderInteractionManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderInteractionManager*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x13884D8
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13885B0
+    void OnDestroy();
+    // protected System.Void Update()
+    // Offset: 0x138869C
+    void Update();
+    // private System.Void AddActiveSlider(SliderController newSliderController)
+    // Offset: 0x1388804
+    void AddActiveSlider(::GlobalNamespace::SliderController* newSliderController);
+    // private System.Void RemoveActiveSlider(SliderController sliderController)
+    // Offset: 0x13889C8
+    void RemoveActiveSlider(::GlobalNamespace::SliderController* sliderController);
+    // private System.Void HandleSliderWasSpawned(SliderController sliderController)
+    // Offset: 0x1388A60
+    void HandleSliderWasSpawned(::GlobalNamespace::SliderController* sliderController);
+    // private System.Void HandleSliderWasDespawned(SliderController sliderController)
+    // Offset: 0x1388A98
+    void HandleSliderWasDespawned(::GlobalNamespace::SliderController* sliderController);
   }; // SliderInteractionManager
   #pragma pack(pop)
   static check_size<sizeof(SliderInteractionManager), 64 + sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::SliderController*>*)> __GlobalNamespace_SliderInteractionManagerSizeCheck;
@@ -240,6 +226,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SliderInteractionManager*), "remove_allSliderWereRemovedFromActiveSlidersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SliderInteractionManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SliderInteractionManager::Start
 // Il2CppName: Start
 template<>
@@ -300,7 +290,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SliderInteractionManager*), "HandleSliderWasDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sliderController});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SliderInteractionManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

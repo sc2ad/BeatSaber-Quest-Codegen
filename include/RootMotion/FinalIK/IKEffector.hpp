@@ -46,15 +46,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKEffector : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Transform bone
     // Size: 0x8
     // Offset: 0x10
@@ -67,14 +59,14 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Transform* target;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [RangeAttribute] Offset: 0x12743D0
+    // [RangeAttribute] Offset: 0x10F9088
     // public System.Single positionWeight
     // Size: 0x4
     // Offset: 0x20
     float positionWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x12743E8
+    // [RangeAttribute] Offset: 0x10F90A0
     // public System.Single rotationWeight
     // Size: 0x4
     // Offset: 0x24
@@ -113,7 +105,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: effectChildNodes and: maintainRelativePositionWeight
     char __padding8[0x2] = {};
-    // [RangeAttribute] Offset: 0x1274410
+    // [RangeAttribute] Offset: 0x10F90C8
     // public System.Single maintainRelativePositionWeight
     // Size: 0x4
     // Offset: 0x54
@@ -260,124 +252,122 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::ArrayW<int>) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.Transform bone
-    ::UnityEngine::Transform*& dyn_bone();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_bone();
     // Get instance field reference: public UnityEngine.Transform target
-    ::UnityEngine::Transform*& dyn_target();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_target();
     // Get instance field reference: public System.Single positionWeight
-    float& dyn_positionWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_positionWeight();
     // Get instance field reference: public System.Single rotationWeight
-    float& dyn_rotationWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_rotationWeight();
     // Get instance field reference: public UnityEngine.Vector3 position
-    ::UnityEngine::Vector3& dyn_position();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_position();
     // Get instance field reference: public UnityEngine.Quaternion rotation
-    ::UnityEngine::Quaternion& dyn_rotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_rotation();
     // Get instance field reference: public UnityEngine.Vector3 positionOffset
-    ::UnityEngine::Vector3& dyn_positionOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_positionOffset();
     // Get instance field reference: private System.Boolean <isEndEffector>k__BackingField
-    bool& dyn_$isEndEffector$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$isEndEffector$k__BackingField();
     // Get instance field reference: public System.Boolean effectChildNodes
-    bool& dyn_effectChildNodes();
+    [[deprecated("Use field access instead!")]] bool& dyn_effectChildNodes();
     // Get instance field reference: public System.Single maintainRelativePositionWeight
-    float& dyn_maintainRelativePositionWeight();
+    [[deprecated("Use field access instead!")]] float& dyn_maintainRelativePositionWeight();
     // Get instance field reference: public UnityEngine.Transform[] childBones
-    ::ArrayW<::UnityEngine::Transform*>& dyn_childBones();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Transform*>& dyn_childBones();
     // Get instance field reference: public UnityEngine.Transform planeBone1
-    ::UnityEngine::Transform*& dyn_planeBone1();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_planeBone1();
     // Get instance field reference: public UnityEngine.Transform planeBone2
-    ::UnityEngine::Transform*& dyn_planeBone2();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_planeBone2();
     // Get instance field reference: public UnityEngine.Transform planeBone3
-    ::UnityEngine::Transform*& dyn_planeBone3();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_planeBone3();
     // Get instance field reference: public UnityEngine.Quaternion planeRotationOffset
-    ::UnityEngine::Quaternion& dyn_planeRotationOffset();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_planeRotationOffset();
     // Get instance field reference: private System.Single posW
-    float& dyn_posW();
+    [[deprecated("Use field access instead!")]] float& dyn_posW();
     // Get instance field reference: private System.Single rotW
-    float& dyn_rotW();
+    [[deprecated("Use field access instead!")]] float& dyn_rotW();
     // Get instance field reference: private UnityEngine.Vector3[] localPositions
-    ::ArrayW<::UnityEngine::Vector3>& dyn_localPositions();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn_localPositions();
     // Get instance field reference: private System.Boolean usePlaneNodes
-    bool& dyn_usePlaneNodes();
+    [[deprecated("Use field access instead!")]] bool& dyn_usePlaneNodes();
     // Get instance field reference: private UnityEngine.Quaternion animatedPlaneRotation
-    ::UnityEngine::Quaternion& dyn_animatedPlaneRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_animatedPlaneRotation();
     // Get instance field reference: private UnityEngine.Vector3 animatedPosition
-    ::UnityEngine::Vector3& dyn_animatedPosition();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_animatedPosition();
     // Get instance field reference: private System.Boolean firstUpdate
-    bool& dyn_firstUpdate();
+    [[deprecated("Use field access instead!")]] bool& dyn_firstUpdate();
     // Get instance field reference: private System.Int32 chainIndex
-    int& dyn_chainIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_chainIndex();
     // Get instance field reference: private System.Int32 nodeIndex
-    int& dyn_nodeIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_nodeIndex();
     // Get instance field reference: private System.Int32 plane1ChainIndex
-    int& dyn_plane1ChainIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_plane1ChainIndex();
     // Get instance field reference: private System.Int32 plane1NodeIndex
-    int& dyn_plane1NodeIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_plane1NodeIndex();
     // Get instance field reference: private System.Int32 plane2ChainIndex
-    int& dyn_plane2ChainIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_plane2ChainIndex();
     // Get instance field reference: private System.Int32 plane2NodeIndex
-    int& dyn_plane2NodeIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_plane2NodeIndex();
     // Get instance field reference: private System.Int32 plane3ChainIndex
-    int& dyn_plane3ChainIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_plane3ChainIndex();
     // Get instance field reference: private System.Int32 plane3NodeIndex
-    int& dyn_plane3NodeIndex();
+    [[deprecated("Use field access instead!")]] int& dyn_plane3NodeIndex();
     // Get instance field reference: private System.Int32[] childChainIndexes
-    ::ArrayW<int>& dyn_childChainIndexes();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_childChainIndexes();
     // Get instance field reference: private System.Int32[] childNodeIndexes
-    ::ArrayW<int>& dyn_childNodeIndexes();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_childNodeIndexes();
     // public System.Boolean get_isEndEffector()
-    // Offset: 0x21D741C
+    // Offset: 0x2224C90
     bool get_isEndEffector();
     // private System.Void set_isEndEffector(System.Boolean value)
-    // Offset: 0x21D7424
+    // Offset: 0x2224C98
     void set_isEndEffector(bool value);
+    // public System.Void .ctor()
+    // Offset: 0x2224D78
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static IKEffector* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKEffector::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<IKEffector*, creationType>()));
+    }
     // public System.Void .ctor(UnityEngine.Transform bone, UnityEngine.Transform[] childBones)
-    // Offset: 0x21D7640
+    // Offset: 0x2224EB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKEffector* New_ctor(::UnityEngine::Transform* bone, ::ArrayW<::UnityEngine::Transform*> childBones) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKEffector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKEffector*, creationType>(bone, childBones)));
     }
     // public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Node GetNode(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x21D73B4
+    // Offset: 0x2224C28
     ::RootMotion::FinalIK::IKSolver::Node* GetNode(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void PinToBone(System.Single positionWeight, System.Single rotationWeight)
-    // Offset: 0x21D7430
+    // Offset: 0x2224CA4
     void PinToBone(float positionWeight, float rotationWeight);
     // public System.Boolean IsValid(RootMotion.FinalIK.IKSolver solver, ref System.String message)
-    // Offset: 0x21D7798
+    // Offset: 0x222500C
     bool IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message);
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x21D7A88
+    // Offset: 0x22252FC
     void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void ResetOffset(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x21D7D28
+    // Offset: 0x222559C
     void ResetOffset(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void SetToTarget()
-    // Offset: 0x21D7E68
+    // Offset: 0x22256DC
     void SetToTarget();
     // public System.Void OnPreSolve(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x21D7F14
+    // Offset: 0x2225788
     void OnPreSolve(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void OnPostWrite()
-    // Offset: 0x21D8568
+    // Offset: 0x2225DDC
     void OnPostWrite();
     // private UnityEngine.Quaternion GetPlaneRotation(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x21D85D8
+    // Offset: 0x2225E4C
     ::UnityEngine::Quaternion GetPlaneRotation(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void Update(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x21D87F0
+    // Offset: 0x2226064
     void Update(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // private UnityEngine.Vector3 GetPosition(RootMotion.FinalIK.IKSolverFullBody solver, out UnityEngine.Quaternion planeRotationOffset)
-    // Offset: 0x21D8B38
+    // Offset: 0x22263AC
     ::UnityEngine::Vector3 GetPosition(::RootMotion::FinalIK::IKSolverFullBody* solver, ByRef<::UnityEngine::Quaternion> planeRotationOffset);
-    // public System.Void .ctor()
-    // Offset: 0x21D7504
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static IKEffector* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKEffector::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<IKEffector*, creationType>()));
-    }
   }; // RootMotion.FinalIK.IKEffector
   #pragma pack(pop)
   static check_size<sizeof(IKEffector), 232 + sizeof(::ArrayW<int>)> __RootMotion_FinalIK_IKEffectorSizeCheck;
@@ -401,6 +391,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKEffector*), "set_isEndEffector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKEffector::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKEffector::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -505,7 +499,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKEffector*), "GetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver, planeRotationOffset});
   }
 };
-// Writing MetadataGetter for method: RootMotion::FinalIK::IKEffector::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

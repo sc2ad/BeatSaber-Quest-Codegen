@@ -78,15 +78,7 @@ namespace NUnit::Framework::Internal {
     public:
     // Nested type: ::NUnit::Framework::Internal::TestExecutionContext::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private NUnit.Framework.Internal.TestExecutionContext _priorContext
     // Size: 0x8
     // Offset: 0x18
@@ -131,28 +123,28 @@ namespace NUnit::Framework::Internal {
     ::System::Security::Principal::IPrincipal* currentPrincipal;
     // Field size check
     static_assert(sizeof(::System::Security::Principal::IPrincipal*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1244DC0
+    // [DebuggerBrowsableAttribute] Offset: 0x10C98A8
     // private NUnit.Framework.Internal.Test <CurrentTest>k__BackingField
     // Size: 0x8
     // Offset: 0x50
     ::NUnit::Framework::Internal::Test* CurrentTest;
     // Field size check
     static_assert(sizeof(::NUnit::Framework::Internal::Test*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1244DFC
+    // [DebuggerBrowsableAttribute] Offset: 0x10C98E4
     // private System.IO.TextWriter <OutWriter>k__BackingField
     // Size: 0x8
     // Offset: 0x58
     ::System::IO::TextWriter* OutWriter;
     // Field size check
     static_assert(sizeof(::System::IO::TextWriter*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1244E38
+    // [DebuggerBrowsableAttribute] Offset: 0x10C9920
     // private System.Object <TestObject>k__BackingField
     // Size: 0x8
     // Offset: 0x60
     ::Il2CppObject* TestObject;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1244E74
+    // [DebuggerBrowsableAttribute] Offset: 0x10C995C
     // private System.Int32 <TestCaseTimeout>k__BackingField
     // Size: 0x4
     // Offset: 0x68
@@ -161,21 +153,21 @@ namespace NUnit::Framework::Internal {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: TestCaseTimeout and: UpstreamActions
     char __padding10[0x4] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0x1244EB0
+    // [DebuggerBrowsableAttribute] Offset: 0x10C9998
     // private System.Collections.Generic.List`1<NUnit.Framework.ITestAction> <UpstreamActions>k__BackingField
     // Size: 0x8
     // Offset: 0x70
     ::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>* UpstreamActions;
     // Field size check
     static_assert(sizeof(::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1244EEC
+    // [DebuggerBrowsableAttribute] Offset: 0x10C99D4
     // private NUnit.Framework.Constraints.ValueFormatter <CurrentValueFormatter>k__BackingField
     // Size: 0x8
     // Offset: 0x78
     ::NUnit::Framework::Constraints::ValueFormatter* CurrentValueFormatter;
     // Field size check
     static_assert(sizeof(::NUnit::Framework::Constraints::ValueFormatter*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1244F28
+    // [DebuggerBrowsableAttribute] Offset: 0x10C9A10
     // private System.Boolean <IsSingleThreaded>k__BackingField
     // Size: 0x1
     // Offset: 0x80
@@ -194,100 +186,98 @@ namespace NUnit::Framework::Internal {
     // Set static field: static private readonly System.String CONTEXT_KEY
     static void _set_CONTEXT_KEY(::StringW value);
     // Get instance field reference: private NUnit.Framework.Internal.TestExecutionContext _priorContext
-    ::NUnit::Framework::Internal::TestExecutionContext*& dyn__priorContext();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::TestExecutionContext*& dyn__priorContext();
     // Get instance field reference: private NUnit.Framework.Interfaces.ITestListener _listener
-    ::NUnit::Framework::Interfaces::ITestListener*& dyn__listener();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Interfaces::ITestListener*& dyn__listener();
     // Get instance field reference: private System.Int32 _assertCount
-    int& dyn__assertCount();
+    [[deprecated("Use field access instead!")]] int& dyn__assertCount();
     // Get instance field reference: private System.Globalization.CultureInfo _currentCulture
-    ::System::Globalization::CultureInfo*& dyn__currentCulture();
+    [[deprecated("Use field access instead!")]] ::System::Globalization::CultureInfo*& dyn__currentCulture();
     // Get instance field reference: private System.Globalization.CultureInfo _currentUICulture
-    ::System::Globalization::CultureInfo*& dyn__currentUICulture();
+    [[deprecated("Use field access instead!")]] ::System::Globalization::CultureInfo*& dyn__currentUICulture();
     // Get instance field reference: private NUnit.Framework.Internal.TestResult _currentResult
-    ::NUnit::Framework::Internal::TestResult*& dyn__currentResult();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::TestResult*& dyn__currentResult();
     // Get instance field reference: private System.Security.Principal.IPrincipal _currentPrincipal
-    ::System::Security::Principal::IPrincipal*& dyn__currentPrincipal();
+    [[deprecated("Use field access instead!")]] ::System::Security::Principal::IPrincipal*& dyn__currentPrincipal();
     // Get instance field reference: private NUnit.Framework.Internal.Test <CurrentTest>k__BackingField
-    ::NUnit::Framework::Internal::Test*& dyn_$CurrentTest$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::Test*& dyn_$CurrentTest$k__BackingField();
     // Get instance field reference: private System.IO.TextWriter <OutWriter>k__BackingField
-    ::System::IO::TextWriter*& dyn_$OutWriter$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::IO::TextWriter*& dyn_$OutWriter$k__BackingField();
     // Get instance field reference: private System.Object <TestObject>k__BackingField
-    ::Il2CppObject*& dyn_$TestObject$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_$TestObject$k__BackingField();
     // Get instance field reference: private System.Int32 <TestCaseTimeout>k__BackingField
-    int& dyn_$TestCaseTimeout$k__BackingField();
+    [[deprecated("Use field access instead!")]] int& dyn_$TestCaseTimeout$k__BackingField();
     // Get instance field reference: private System.Collections.Generic.List`1<NUnit.Framework.ITestAction> <UpstreamActions>k__BackingField
-    ::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>*& dyn_$UpstreamActions$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>*& dyn_$UpstreamActions$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Constraints.ValueFormatter <CurrentValueFormatter>k__BackingField
-    ::NUnit::Framework::Constraints::ValueFormatter*& dyn_$CurrentValueFormatter$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Constraints::ValueFormatter*& dyn_$CurrentValueFormatter$k__BackingField();
     // Get instance field reference: private System.Boolean <IsSingleThreaded>k__BackingField
-    bool& dyn_$IsSingleThreaded$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$IsSingleThreaded$k__BackingField();
     // static public NUnit.Framework.Internal.ITestExecutionContext get_CurrentContext()
-    // Offset: 0x29B137C
+    // Offset: 0x2A0D374
     static ::NUnit::Framework::Internal::ITestExecutionContext* get_CurrentContext();
     // public NUnit.Framework.Internal.Test get_CurrentTest()
-    // Offset: 0x29B14D0
+    // Offset: 0x2A0D4C8
     ::NUnit::Framework::Internal::Test* get_CurrentTest();
     // public NUnit.Framework.Internal.TestResult get_CurrentResult()
-    // Offset: 0x29B14D8
+    // Offset: 0x2A0D4D0
     ::NUnit::Framework::Internal::TestResult* get_CurrentResult();
     // public System.Void set_CurrentResult(NUnit.Framework.Internal.TestResult value)
-    // Offset: 0x29B14E0
+    // Offset: 0x2A0D4D8
     void set_CurrentResult(::NUnit::Framework::Internal::TestResult* value);
     // public System.IO.TextWriter get_OutWriter()
-    // Offset: 0x29B14F4
+    // Offset: 0x2A0D4EC
     ::System::IO::TextWriter* get_OutWriter();
     // private System.Void set_OutWriter(System.IO.TextWriter value)
-    // Offset: 0x29B14FC
+    // Offset: 0x2A0D4F4
     void set_OutWriter(::System::IO::TextWriter* value);
     // public System.Object get_TestObject()
-    // Offset: 0x29B1504
+    // Offset: 0x2A0D4FC
     ::Il2CppObject* get_TestObject();
     // public System.Void set_TestObject(System.Object value)
-    // Offset: 0x29B150C
+    // Offset: 0x2A0D504
     void set_TestObject(::Il2CppObject* value);
     // NUnit.Framework.Interfaces.ITestListener get_Listener()
-    // Offset: 0x29B1514
+    // Offset: 0x2A0D50C
     ::NUnit::Framework::Interfaces::ITestListener* get_Listener();
     // public System.Int32 get_TestCaseTimeout()
-    // Offset: 0x29B151C
+    // Offset: 0x2A0D514
     int get_TestCaseTimeout();
     // public System.Void set_TestCaseTimeout(System.Int32 value)
-    // Offset: 0x29B1524
+    // Offset: 0x2A0D51C
     void set_TestCaseTimeout(int value);
     // private System.Void set_UpstreamActions(System.Collections.Generic.List`1<NUnit.Framework.ITestAction> value)
-    // Offset: 0x29B152C
+    // Offset: 0x2A0D524
     void set_UpstreamActions(::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>* value);
     // public NUnit.Framework.Constraints.ValueFormatter get_CurrentValueFormatter()
-    // Offset: 0x29B1534
+    // Offset: 0x2A0D52C
     ::NUnit::Framework::Constraints::ValueFormatter* get_CurrentValueFormatter();
     // private System.Void set_CurrentValueFormatter(NUnit.Framework.Constraints.ValueFormatter value)
-    // Offset: 0x29B153C
+    // Offset: 0x2A0D534
     void set_CurrentValueFormatter(::NUnit::Framework::Constraints::ValueFormatter* value);
     // public System.Void set_IsSingleThreaded(System.Boolean value)
-    // Offset: 0x29B1544
+    // Offset: 0x2A0D53C
     void set_IsSingleThreaded(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x29B1564
+    // Offset: 0x2A0D55C
     static void _cctor();
     // static public NUnit.Framework.Internal.TestExecutionContext GetTestExecutionContext()
-    // Offset: 0x29B1428
+    // Offset: 0x2A0D420
     static ::NUnit::Framework::Internal::TestExecutionContext* GetTestExecutionContext();
     // public System.Void IncrementAssertCount()
-    // Offset: 0x29B1550
+    // Offset: 0x2A0D548
     void IncrementAssertCount();
     // public System.Void .ctor()
-    // Offset: 0x29B11C0
+    // Offset: 0x2A0D1B8
     // Implemented from: NUnit.Compatibility.LongLivedMarshalByRefObject
     // Base method: System.Void LongLivedMarshalByRefObject::.ctor()
-    // Base method: System.Void MarshalByRefObject::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestExecutionContext* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestExecutionContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestExecutionContext*, creationType>()));
     }
     // public override System.Object InitializeLifetimeService()
-    // Offset: 0x29B155C
+    // Offset: 0x2A0D554
     // Implemented from: NUnit.Compatibility.LongLivedMarshalByRefObject
     // Base method: System.Object LongLivedMarshalByRefObject::InitializeLifetimeService()
     ::Il2CppObject* InitializeLifetimeService();

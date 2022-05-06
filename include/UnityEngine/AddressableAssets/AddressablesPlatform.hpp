@@ -108,7 +108,7 @@ namespace UnityEngine::AddressableAssets {
     // Set static field: static public UnityEngine.AddressableAssets.AddressablesPlatform WindowsUniversal
     static void _set_WindowsUniversal(::UnityEngine::AddressableAssets::AddressablesPlatform value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.AddressableAssets.AddressablesPlatform
   #pragma pack(pop)
   static check_size<sizeof(AddressablesPlatform), 0 + sizeof(int)> __UnityEngine_AddressableAssets_AddressablesPlatformSizeCheck;

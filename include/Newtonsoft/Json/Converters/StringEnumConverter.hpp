@@ -45,15 +45,7 @@ namespace Newtonsoft::Json::Converters {
   // [PreserveAttribute] Offset: FFFFFFFF
   class StringEnumConverter : public ::Newtonsoft::Json::JsonConverter {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean <CamelCaseText>k__BackingField
     // Size: 0x1
     // Offset: 0x10
@@ -68,40 +60,39 @@ namespace Newtonsoft::Json::Converters {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Boolean <CamelCaseText>k__BackingField
-    bool& dyn_$CamelCaseText$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$CamelCaseText$k__BackingField();
     // Get instance field reference: private System.Boolean <AllowIntegerValues>k__BackingField
-    bool& dyn_$AllowIntegerValues$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$AllowIntegerValues$k__BackingField();
     // public System.Boolean get_CamelCaseText()
-    // Offset: 0x177D004
+    // Offset: 0x17B6914
     bool get_CamelCaseText();
     // public System.Boolean get_AllowIntegerValues()
-    // Offset: 0x177D00C
+    // Offset: 0x17B691C
     bool get_AllowIntegerValues();
     // public System.Void set_AllowIntegerValues(System.Boolean value)
-    // Offset: 0x177D014
+    // Offset: 0x17B6924
     void set_AllowIntegerValues(bool value);
     // public System.Void .ctor()
-    // Offset: 0x177D020
+    // Offset: 0x17B6930
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Void JsonConverter::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringEnumConverter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::StringEnumConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringEnumConverter*, creationType>()));
     }
     // public override System.Void WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
-    // Offset: 0x177D04C
+    // Offset: 0x17B695C
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Void JsonConverter::WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
     void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, ::Newtonsoft::Json::JsonSerializer* serializer);
     // public override System.Object ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
-    // Offset: 0x177D214
+    // Offset: 0x17B6B24
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Object JsonConverter::ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
     ::Il2CppObject* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::Il2CppObject* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
     // public override System.Boolean CanConvert(System.Type objectType)
-    // Offset: 0x177D710
+    // Offset: 0x17B7020
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Boolean JsonConverter::CanConvert(System.Type objectType)
     bool CanConvert(::System::Type* objectType);

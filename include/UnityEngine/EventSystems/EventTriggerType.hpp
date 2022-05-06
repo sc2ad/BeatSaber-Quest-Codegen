@@ -144,7 +144,7 @@ namespace UnityEngine::EventSystems {
     // Set static field: static public UnityEngine.EventSystems.EventTriggerType Cancel
     static void _set_Cancel(::UnityEngine::EventSystems::EventTriggerType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.EventSystems.EventTriggerType
   #pragma pack(pop)
   static check_size<sizeof(EventTriggerType), 0 + sizeof(int)> __UnityEngine_EventSystems_EventTriggerTypeSizeCheck;

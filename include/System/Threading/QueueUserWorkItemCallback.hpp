@@ -43,15 +43,7 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class QueueUserWorkItemCallback : public ::Il2CppObject/*, public ::System::Threading::IThreadPoolWorkItem*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Threading.WaitCallback callback
     // Size: 0x8
     // Offset: 0x10
@@ -80,29 +72,29 @@ namespace System::Threading {
     // Set static field: static System.Threading.ContextCallback ccb
     static void _set_ccb(::System::Threading::ContextCallback* value);
     // Get instance field reference: private System.Threading.WaitCallback callback
-    ::System::Threading::WaitCallback*& dyn_callback();
+    [[deprecated("Use field access instead!")]] ::System::Threading::WaitCallback*& dyn_callback();
     // Get instance field reference: private System.Threading.ExecutionContext context
-    ::System::Threading::ExecutionContext*& dyn_context();
+    [[deprecated("Use field access instead!")]] ::System::Threading::ExecutionContext*& dyn_context();
     // Get instance field reference: private System.Object state
-    ::Il2CppObject*& dyn_state();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_state();
     // static private System.Void .cctor()
-    // Offset: 0x1DCD1B8
+    // Offset: 0x1DCED1C
     static void _cctor();
     // System.Void .ctor(System.Threading.WaitCallback waitCallback, System.Object stateObj, System.Boolean compressStack, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1DCD230
+    // Offset: 0x1DCED94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static QueueUserWorkItemCallback* New_ctor(::System::Threading::WaitCallback* waitCallback, ::Il2CppObject* stateObj, bool compressStack, ByRef<::System::Threading::StackCrawlMark> stackMark) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::QueueUserWorkItemCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<QueueUserWorkItemCallback*, creationType>(waitCallback, stateObj, compressStack, byref(stackMark))));
     }
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
-    // Offset: 0x1DCD2F0
+    // Offset: 0x1DCEE54
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // private System.Void System.Threading.IThreadPoolWorkItem.MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x1DCD3C8
+    // Offset: 0x1DCEF2C
     void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* tae);
     // static private System.Void WaitCallback_Context(System.Object state)
-    // Offset: 0x1DCD3CC
+    // Offset: 0x1DCEF30
     static void WaitCallback_Context(::Il2CppObject* state);
   }; // System.Threading.QueueUserWorkItemCallback
   #pragma pack(pop)

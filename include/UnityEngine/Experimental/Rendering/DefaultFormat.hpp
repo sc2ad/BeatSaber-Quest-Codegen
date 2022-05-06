@@ -54,7 +54,7 @@ namespace UnityEngine::Experimental::Rendering {
     // Set static field: static public UnityEngine.Experimental.Rendering.DefaultFormat HDR
     static void _set_HDR(::UnityEngine::Experimental::Rendering::DefaultFormat value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.Experimental.Rendering.DefaultFormat
   #pragma pack(pop)
   static check_size<sizeof(DefaultFormat), 0 + sizeof(int)> __UnityEngine_Experimental_Rendering_DefaultFormatSizeCheck;

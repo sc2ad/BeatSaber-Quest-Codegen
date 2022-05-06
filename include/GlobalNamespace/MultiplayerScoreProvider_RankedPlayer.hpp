@@ -36,15 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerScoreProvider::RankedPlayer : public ::Il2CppObject/*, public ::System::IComparable_1<::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly MultiplayerSyncState`3<StandardScoreSyncState,StandardScoreSyncState/Score,System.Int32> _multiplayerSyncState
     // Size: 0x8
     // Offset: 0x10
@@ -63,48 +55,48 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::IComparable_1<::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*>(this);
     }
     // Get instance field reference: private readonly MultiplayerSyncState`3<StandardScoreSyncState,StandardScoreSyncState/Score,System.Int32> _multiplayerSyncState
-    ::GlobalNamespace::MultiplayerSyncState_3<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::StandardScoreSyncState_Score, int>*& dyn__multiplayerSyncState();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerSyncState_3<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::StandardScoreSyncState_Score, int>*& dyn__multiplayerSyncState();
     // Get instance field reference: private readonly MultiplayerScoreProvider _scoreSyncManager
-    ::GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreSyncManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreSyncManager();
     // public System.Single get_offsetSyncTime()
-    // Offset: 0x13A9008
+    // Offset: 0x13A54B4
     float get_offsetSyncTime();
     // public System.Single get_lastScoreTime()
-    // Offset: 0x13A92A8
+    // Offset: 0x13A5754
     float get_lastScoreTime();
     // public System.Int32 get_score()
-    // Offset: 0x139F920
+    // Offset: 0x139BDCC
     int get_score();
     // public System.Boolean get_isConnected()
-    // Offset: 0x13A8EDC
+    // Offset: 0x13A5388
     bool get_isConnected();
     // public System.Boolean get_isActiveOrFinished()
-    // Offset: 0x13A9300
+    // Offset: 0x13A57AC
     bool get_isActiveOrFinished();
     // public System.Boolean get_isFailed()
-    // Offset: 0x139FA18
+    // Offset: 0x139BEC4
     bool get_isFailed();
     // public System.Boolean get_wasActiveAtLevelStart()
-    // Offset: 0x13A8FA4
+    // Offset: 0x13A5450
     bool get_wasActiveAtLevelStart();
     // public System.Boolean get_isMe()
-    // Offset: 0x139F954
+    // Offset: 0x139BE00
     bool get_isMe();
     // public System.String get_userId()
-    // Offset: 0x139FA44
+    // Offset: 0x139BEF0
     ::StringW get_userId();
     // public System.String get_userName()
-    // Offset: 0x13A932C
+    // Offset: 0x13A57D8
     ::StringW get_userName();
     // public System.Void .ctor(MultiplayerSyncState`3<StandardScoreSyncState,StandardScoreSyncState/Score,System.Int32> multiplayerSyncState, MultiplayerScoreProvider scoreSyncManager)
-    // Offset: 0x13A8FD0
+    // Offset: 0x13A547C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerScoreProvider::RankedPlayer* New_ctor(::GlobalNamespace::MultiplayerSyncState_3<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::StandardScoreSyncState_Score, int>* multiplayerSyncState, ::GlobalNamespace::MultiplayerScoreProvider* scoreSyncManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerScoreProvider::RankedPlayer*, creationType>(multiplayerSyncState, scoreSyncManager)));
     }
     // public System.Int32 CompareTo(MultiplayerScoreProvider/RankedPlayer other)
-    // Offset: 0x13A93F4
+    // Offset: 0x13A58A0
     int CompareTo(::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* other);
   }; // MultiplayerScoreProvider/RankedPlayer
   #pragma pack(pop)

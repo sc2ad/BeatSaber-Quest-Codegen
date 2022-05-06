@@ -31,15 +31,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage
     class LocalizedMessage;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public MultiplayerStatusData/UserMessage/LocalizedMessage[] localizations
     // Size: 0x8
     // Offset: 0x10
@@ -52,11 +44,9 @@ namespace GlobalNamespace {
       return localizations;
     }
     // Get instance field reference: public MultiplayerStatusData/UserMessage/LocalizedMessage[] localizations
-    ::ArrayW<::GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage*>& dyn_localizations();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage*>& dyn_localizations();
     // public System.Void .ctor()
-    // Offset: 0x13ACBC0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13A906C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerStatusData::UserMessage* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerStatusData::UserMessage::.ctor");

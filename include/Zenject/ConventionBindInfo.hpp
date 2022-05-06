@@ -62,15 +62,7 @@ namespace Zenject {
     class $$c__DisplayClass6_0;
     // Nested type: ::Zenject::ConventionBindInfo::$$c__DisplayClass7_0
     class $$c__DisplayClass7_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Collections.Generic.List`1<System.Func`2<System.Type,System.Boolean>> _typeFilters
     // Size: 0x8
     // Offset: 0x10
@@ -89,51 +81,53 @@ namespace Zenject {
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Reflection.Assembly,System.Type[]> _assemblyTypeCache
     static void _set__assemblyTypeCache(::System::Collections::Generic::Dictionary_2<::System::Reflection::Assembly*, ::ArrayW<::System::Type*>>* value);
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Func`2<System.Type,System.Boolean>> _typeFilters
-    ::System::Collections::Generic::List_1<::System::Func_2<::System::Type*, bool>*>*& dyn__typeFilters();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Func_2<::System::Type*, bool>*>*& dyn__typeFilters();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Func`2<System.Reflection.Assembly,System.Boolean>> _assemblyFilters
-    ::System::Collections::Generic::List_1<::System::Func_2<::System::Reflection::Assembly*, bool>*>*& dyn__assemblyFilters();
-    // static private System.Void .cctor()
-    // Offset: 0x1739AC8
-    static void _cctor();
-    // public System.Void AddAssemblyFilter(System.Func`2<System.Reflection.Assembly,System.Boolean> predicate)
-    // Offset: 0x17392C4
-    void AddAssemblyFilter(::System::Func_2<::System::Reflection::Assembly*, bool>* predicate);
-    // public System.Void AddTypeFilter(System.Func`2<System.Type,System.Boolean> predicate)
-    // Offset: 0x17397AC
-    void AddTypeFilter(::System::Func_2<::System::Type*, bool>* predicate);
-    // private System.Collections.Generic.IEnumerable`1<System.Reflection.Assembly> GetAllAssemblies()
-    // Offset: 0x1739814
-    ::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>* GetAllAssemblies();
-    // private System.Boolean ShouldIncludeAssembly(System.Reflection.Assembly assembly)
-    // Offset: 0x1739838
-    bool ShouldIncludeAssembly(::System::Reflection::Assembly* assembly);
-    // private System.Boolean ShouldIncludeType(System.Type type)
-    // Offset: 0x1739900
-    bool ShouldIncludeType(::System::Type* type);
-    // private System.Type[] GetTypes(System.Reflection.Assembly assembly)
-    // Offset: 0x17399C8
-    ::ArrayW<::System::Type*> GetTypes(::System::Reflection::Assembly* assembly);
-    // public System.Collections.Generic.List`1<System.Type> ResolveTypes()
-    // Offset: 0x1736598
-    ::System::Collections::Generic::List_1<::System::Type*>* ResolveTypes();
-    // private System.Collections.Generic.IEnumerable`1<System.Type> <ResolveTypes>b__9_0(System.Reflection.Assembly assembly)
-    // Offset: 0x1739B3C
-    ::System::Collections::Generic::IEnumerable_1<::System::Type*>* $ResolveTypes$b__9_0(::System::Reflection::Assembly* assembly);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Func_2<::System::Reflection::Assembly*, bool>*>*& dyn__assemblyFilters();
     // public System.Void .ctor()
-    // Offset: 0x17364D4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x176EDE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConventionBindInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ConventionBindInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConventionBindInfo*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x17723D8
+    static void _cctor();
+    // public System.Void AddAssemblyFilter(System.Func`2<System.Reflection.Assembly,System.Boolean> predicate)
+    // Offset: 0x1771BD4
+    void AddAssemblyFilter(::System::Func_2<::System::Reflection::Assembly*, bool>* predicate);
+    // public System.Void AddTypeFilter(System.Func`2<System.Type,System.Boolean> predicate)
+    // Offset: 0x17720BC
+    void AddTypeFilter(::System::Func_2<::System::Type*, bool>* predicate);
+    // private System.Collections.Generic.IEnumerable`1<System.Reflection.Assembly> GetAllAssemblies()
+    // Offset: 0x1772124
+    ::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>* GetAllAssemblies();
+    // private System.Boolean ShouldIncludeAssembly(System.Reflection.Assembly assembly)
+    // Offset: 0x1772148
+    bool ShouldIncludeAssembly(::System::Reflection::Assembly* assembly);
+    // private System.Boolean ShouldIncludeType(System.Type type)
+    // Offset: 0x1772210
+    bool ShouldIncludeType(::System::Type* type);
+    // private System.Type[] GetTypes(System.Reflection.Assembly assembly)
+    // Offset: 0x17722D8
+    ::ArrayW<::System::Type*> GetTypes(::System::Reflection::Assembly* assembly);
+    // public System.Collections.Generic.List`1<System.Type> ResolveTypes()
+    // Offset: 0x176EEA8
+    ::System::Collections::Generic::List_1<::System::Type*>* ResolveTypes();
+    // private System.Collections.Generic.IEnumerable`1<System.Type> <ResolveTypes>b__9_0(System.Reflection.Assembly assembly)
+    // Offset: 0x177244C
+    ::System::Collections::Generic::IEnumerable_1<::System::Type*>* $ResolveTypes$b__9_0(::System::Reflection::Assembly* assembly);
   }; // Zenject.ConventionBindInfo
   #pragma pack(pop)
   static check_size<sizeof(ConventionBindInfo), 24 + sizeof(::System::Collections::Generic::List_1<::System::Func_2<::System::Reflection::Assembly*, bool>*>*)> __Zenject_ConventionBindInfoSizeCheck;
   static_assert(sizeof(ConventionBindInfo) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::ConventionBindInfo::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::ConventionBindInfo::_cctor
 // Il2CppName: .cctor
 template<>
@@ -212,7 +206,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionBindInfo*), "<ResolveTypes>b__9_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assembly});
   }
 };
-// Writing MetadataGetter for method: Zenject::ConventionBindInfo::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

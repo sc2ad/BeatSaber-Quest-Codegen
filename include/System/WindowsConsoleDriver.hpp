@@ -43,15 +43,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class WindowsConsoleDriver : public ::Il2CppObject/*, public ::System::IConsoleDriver*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.IntPtr inputHandle
     // Size: 0x8
     // Offset: 0x10
@@ -76,28 +68,28 @@ namespace System {
       return *reinterpret_cast<::System::IConsoleDriver*>(this);
     }
     // Get instance field reference: private System.IntPtr inputHandle
-    ::System::IntPtr& dyn_inputHandle();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_inputHandle();
     // Get instance field reference: private System.IntPtr outputHandle
-    ::System::IntPtr& dyn_outputHandle();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_outputHandle();
     // Get instance field reference: private System.Int16 defaultAttribute
-    int16_t& dyn_defaultAttribute();
+    [[deprecated("Use field access instead!")]] int16_t& dyn_defaultAttribute();
     // public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
-    // Offset: 0x298B120
+    // Offset: 0x29DB6E0
     ::System::ConsoleKeyInfo ReadKey(bool intercept);
     // static private System.Boolean IsModifierKey(System.Int16 virtualKeyCode)
-    // Offset: 0x298B388
+    // Offset: 0x29DB948
     static bool IsModifierKey(int16_t virtualKeyCode);
     // static private System.IntPtr GetStdHandle(System.Handles handle)
-    // Offset: 0x298AFF8
+    // Offset: 0x29DB5B8
     static ::System::IntPtr GetStdHandle(::System::Handles handle);
     // static private System.Boolean GetConsoleScreenBufferInfo(System.IntPtr handle, out System.ConsoleScreenBufferInfo info)
-    // Offset: 0x298B080
+    // Offset: 0x29DB640
     static bool GetConsoleScreenBufferInfo(::System::IntPtr handle, ByRef<::System::ConsoleScreenBufferInfo> info);
     // static private System.Boolean ReadConsoleInput(System.IntPtr handle, out System.InputRecord record, System.Int32 length, out System.Int32 nread)
-    // Offset: 0x298B298
+    // Offset: 0x29DB858
     static bool ReadConsoleInput(::System::IntPtr handle, ByRef<::System::InputRecord> record, int length, ByRef<int> nread);
     // public System.Void .ctor()
-    // Offset: 0x298AF98
+    // Offset: 0x29DB558
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

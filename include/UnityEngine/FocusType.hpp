@@ -41,7 +41,7 @@ namespace UnityEngine {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [ObsoleteAttribute] Offset: 0x11DEFC0
+    // [ObsoleteAttribute] Offset: 0x10649D8
     // static field const value: static public UnityEngine.FocusType Native
     static constexpr const int Native = 0;
     // Get static field: static public UnityEngine.FocusType Native
@@ -61,7 +61,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.FocusType Passive
     static void _set_Passive(::UnityEngine::FocusType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.FocusType
   #pragma pack(pop)
   static check_size<sizeof(FocusType), 0 + sizeof(int)> __UnityEngine_FocusTypeSizeCheck;

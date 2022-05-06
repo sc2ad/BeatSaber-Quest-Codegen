@@ -25,15 +25,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class DtdParser::ParseElementOnlyContent_LocalFrame : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 startParenEntityId
     // Size: 0x4
     // Offset: 0x10
@@ -48,11 +40,11 @@ namespace System::Xml {
     static_assert(sizeof(::System::Xml::DtdParser::Token) == 0x4);
     public:
     // Get instance field reference: public System.Int32 startParenEntityId
-    int& dyn_startParenEntityId();
+    [[deprecated("Use field access instead!")]] int& dyn_startParenEntityId();
     // Get instance field reference: public System.Xml.DtdParser/System.Xml.Token parsingSchema
-    ::System::Xml::DtdParser::Token& dyn_parsingSchema();
+    [[deprecated("Use field access instead!")]] ::System::Xml::DtdParser::Token& dyn_parsingSchema();
     // public System.Void .ctor(System.Int32 startParentEntityIdParam)
-    // Offset: 0x1A86824
+    // Offset: 0x1AC0E0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DtdParser::ParseElementOnlyContent_LocalFrame* New_ctor(int startParentEntityIdParam) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::DtdParser::ParseElementOnlyContent_LocalFrame::.ctor");

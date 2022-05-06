@@ -49,22 +49,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PageControl : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.RectTransform _content
     // Size: 0x8
     // Offset: 0x18
     ::UnityEngine::RectTransform* content;
     // Field size check
     static_assert(sizeof(::UnityEngine::RectTransform*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125E71C
+    // [SpaceAttribute] Offset: 0x10E3300
     // private System.Single _spacing
     // Size: 0x4
     // Offset: 0x20
@@ -73,7 +65,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: spacing and: elementPrefab
     char __padding1[0x4] = {};
-    // [SpaceAttribute] Offset: 0x125E754
+    // [SpaceAttribute] Offset: 0x10E3338
     // private PageControlElement _elementPrefab
     // Size: 0x8
     // Offset: 0x28
@@ -108,47 +100,45 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.RectTransform _content
-    ::UnityEngine::RectTransform*& dyn__content();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__content();
     // Get instance field reference: private System.Single _spacing
-    float& dyn__spacing();
+    [[deprecated("Use field access instead!")]] float& dyn__spacing();
     // Get instance field reference: private PageControlElement _elementPrefab
-    ::GlobalNamespace::PageControlElement*& dyn__elementPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PageControlElement*& dyn__elementPrefab();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<PageControlElement> _activeElements
-    ::System::Collections::Generic::List_1<::GlobalNamespace::PageControlElement*>*& dyn__activeElements();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::PageControlElement*>*& dyn__activeElements();
     // Get instance field reference: private readonly System.Collections.Generic.Queue`1<PageControlElement> _inactiveElements
-    ::System::Collections::Generic::Queue_1<::GlobalNamespace::PageControlElement*>*& dyn__inactiveElements();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Queue_1<::GlobalNamespace::PageControlElement*>*& dyn__inactiveElements();
     // Get instance field reference: private System.Int32 _selectedPage
-    int& dyn__selectedPage();
+    [[deprecated("Use field access instead!")]] int& dyn__selectedPage();
     // Get instance field reference: private System.Int32 _pagesCount
-    int& dyn__pagesCount();
-    // public System.Void SetPagesCount(System.Int32 pagesCount)
-    // Offset: 0x12EB724
-    void SetPagesCount(int pagesCount);
-    // public System.Void SetSelectedPageIndex(System.Int32 page)
-    // Offset: 0x12EBA9C
-    void SetSelectedPageIndex(int page);
-    // public System.Void SetVisible(System.Boolean isVisible)
-    // Offset: 0x12EBB8C
-    void SetVisible(bool isVisible);
+    [[deprecated("Use field access instead!")]] int& dyn__pagesCount();
     // public System.Void .ctor()
-    // Offset: 0x12EBBC8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x135CB80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PageControl* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PageControl::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PageControl*, creationType>()));
     }
+    // public System.Void SetPagesCount(System.Int32 pagesCount)
+    // Offset: 0x135C6DC
+    void SetPagesCount(int pagesCount);
+    // public System.Void SetSelectedPageIndex(System.Int32 page)
+    // Offset: 0x135CA54
+    void SetSelectedPageIndex(int page);
+    // public System.Void SetVisible(System.Boolean isVisible)
+    // Offset: 0x135CB44
+    void SetVisible(bool isVisible);
   }; // PageControl
   #pragma pack(pop)
   static check_size<sizeof(PageControl), 68 + sizeof(int)> __GlobalNamespace_PageControlSizeCheck;
   static_assert(sizeof(PageControl) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::PageControl::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PageControl::SetPagesCount
 // Il2CppName: SetPagesCount
 template<>
@@ -176,7 +166,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PageControl*), "SetVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isVisible});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PageControl::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -29,15 +29,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class InstalledApplication : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.String ApplicationId
     // Size: 0x8
     // Offset: 0x10
@@ -72,17 +64,17 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly System.String ApplicationId
-    ::StringW& dyn_ApplicationId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_ApplicationId();
     // Get instance field reference: public readonly System.String PackageName
-    ::StringW& dyn_PackageName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_PackageName();
     // Get instance field reference: public readonly System.String Status
-    ::StringW& dyn_Status();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_Status();
     // Get instance field reference: public readonly System.Int32 VersionCode
-    int& dyn_VersionCode();
+    [[deprecated("Use field access instead!")]] int& dyn_VersionCode();
     // Get instance field reference: public readonly System.String VersionName
-    ::StringW& dyn_VersionName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_VersionName();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19B41BC
+    // Offset: 0x19ED7A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InstalledApplication* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::InstalledApplication::.ctor");

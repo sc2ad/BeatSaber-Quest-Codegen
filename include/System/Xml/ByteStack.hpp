@@ -27,15 +27,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class ByteStack : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Byte[] stack
     // Size: 0x8
     // Offset: 0x10
@@ -62,25 +54,25 @@ namespace System::Xml {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Byte[] stack
-    ::ArrayW<uint8_t>& dyn_stack();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_stack();
     // Get instance field reference: private System.Int32 growthRate
-    int& dyn_growthRate();
+    [[deprecated("Use field access instead!")]] int& dyn_growthRate();
     // Get instance field reference: private System.Int32 top
-    int& dyn_top();
+    [[deprecated("Use field access instead!")]] int& dyn_top();
     // Get instance field reference: private System.Int32 size
-    int& dyn_size();
+    [[deprecated("Use field access instead!")]] int& dyn_size();
     // public System.Void .ctor(System.Int32 growthRate)
-    // Offset: 0x1A80A24
+    // Offset: 0x1ABB00C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ByteStack* New_ctor(int growthRate) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::ByteStack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ByteStack*, creationType>(growthRate)));
     }
     // public System.Void Push(System.Byte data)
-    // Offset: 0x1A80A9C
+    // Offset: 0x1ABB084
     void Push(uint8_t data);
     // public System.Byte Pop()
-    // Offset: 0x1A80B84
+    // Offset: 0x1ABB16C
     uint8_t Pop();
   }; // System.Xml.ByteStack
   #pragma pack(pop)

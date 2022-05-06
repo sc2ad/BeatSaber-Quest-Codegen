@@ -40,15 +40,7 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ConventionBindInfo::$$c__DisplayClass7_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Type type
     // Size: 0x8
     // Offset: 0x10
@@ -61,31 +53,33 @@ namespace Zenject {
       return type;
     }
     // Get instance field reference: public System.Type type
-    ::System::Type*& dyn_type();
-    // System.Boolean <ShouldIncludeType>b__0(System.Func`2<System.Type,System.Boolean> predicate)
-    // Offset: 0x1739D64
-    bool $ShouldIncludeType$b__0(::System::Func_2<::System::Type*, bool>* predicate);
-    // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1739DCC
-    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
-    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1739E28
-    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_type();
     // public System.Void .ctor()
-    // Offset: 0x17399C0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x17722D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConventionBindInfo::$$c__DisplayClass7_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ConventionBindInfo::$$c__DisplayClass7_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConventionBindInfo::$$c__DisplayClass7_0*, creationType>()));
     }
+    // System.Boolean <ShouldIncludeType>b__0(System.Func`2<System.Type,System.Boolean> predicate)
+    // Offset: 0x1772674
+    bool $ShouldIncludeType$b__0(::System::Func_2<::System::Type*, bool>* predicate);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x17726DC
+    static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1772738
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.ConventionBindInfo/Zenject.<>c__DisplayClass7_0
   #pragma pack(pop)
   static check_size<sizeof(ConventionBindInfo::$$c__DisplayClass7_0), 16 + sizeof(::System::Type*)> __Zenject_ConventionBindInfo_$$c__DisplayClass7_0SizeCheck;
   static_assert(sizeof(ConventionBindInfo::$$c__DisplayClass7_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::ConventionBindInfo::$$c__DisplayClass7_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::ConventionBindInfo::$$c__DisplayClass7_0::$ShouldIncludeType$b__0
 // Il2CppName: <ShouldIncludeType>b__0
 template<>
@@ -112,7 +106,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionBindInfo::$$c__DisplayClass7_0*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Zenject::ConventionBindInfo::$$c__DisplayClass7_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

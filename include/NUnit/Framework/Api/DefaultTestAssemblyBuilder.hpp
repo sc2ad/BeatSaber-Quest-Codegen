@@ -69,15 +69,7 @@ namespace NUnit::Framework::Api {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultTestAssemblyBuilder : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private NUnit.Framework.Interfaces.ISuiteBuilder _defaultSuiteBuilder
     // Size: 0x8
     // Offset: 0x10
@@ -94,40 +86,42 @@ namespace NUnit::Framework::Api {
     // Set static field: static private NUnit.Framework.Internal.Logger log
     static void _set_log(::NUnit::Framework::Internal::Logger* value);
     // Get instance field reference: private NUnit.Framework.Interfaces.ISuiteBuilder _defaultSuiteBuilder
-    ::NUnit::Framework::Interfaces::ISuiteBuilder*& dyn__defaultSuiteBuilder();
-    // static private System.Void .cctor()
-    // Offset: 0x1C39CBC
-    static void _cctor();
-    // public NUnit.Framework.Interfaces.ITest Build(System.Reflection.Assembly assembly, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
-    // Offset: 0x1C381C4
-    ::NUnit::Framework::Interfaces::ITest* Build(::System::Reflection::Assembly* assembly, ::System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>* options);
-    // private NUnit.Framework.Internal.TestSuite Build(System.Reflection.Assembly assembly, System.String assemblyPath, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
-    // Offset: 0x1C3838C
-    ::NUnit::Framework::Internal::TestSuite* Build(::System::Reflection::Assembly* assembly, ::StringW assemblyPath, ::System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>* options);
-    // private System.Collections.Generic.IList`1<NUnit.Framework.Internal.Test> GetFixtures(System.Reflection.Assembly assembly, System.Collections.IList names)
-    // Offset: 0x1C38A64
-    ::System::Collections::Generic::IList_1<::NUnit::Framework::Internal::Test*>* GetFixtures(::System::Reflection::Assembly* assembly, ::System::Collections::IList* names);
-    // private System.Collections.Generic.IList`1<System.Type> GetCandidateFixtureTypes(System.Reflection.Assembly assembly, System.Collections.IList names)
-    // Offset: 0x1C3951C
-    ::System::Collections::Generic::IList_1<::System::Type*>* GetCandidateFixtureTypes(::System::Reflection::Assembly* assembly, ::System::Collections::IList* names);
-    // private NUnit.Framework.Internal.TestSuite BuildTestAssembly(System.Reflection.Assembly assembly, System.String assemblyName, System.Collections.Generic.IList`1<NUnit.Framework.Internal.Test> fixtures)
-    // Offset: 0x1C391E0
-    ::NUnit::Framework::Internal::TestSuite* BuildTestAssembly(::System::Reflection::Assembly* assembly, ::StringW assemblyName, ::System::Collections::Generic::IList_1<::NUnit::Framework::Internal::Test*>* fixtures);
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Interfaces::ISuiteBuilder*& dyn__defaultSuiteBuilder();
     // public System.Void .ctor()
-    // Offset: 0x1C380F8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1C9066C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultTestAssemblyBuilder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Api::DefaultTestAssemblyBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultTestAssemblyBuilder*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1C92230
+    static void _cctor();
+    // public NUnit.Framework.Interfaces.ITest Build(System.Reflection.Assembly assembly, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
+    // Offset: 0x1C90738
+    ::NUnit::Framework::Interfaces::ITest* Build(::System::Reflection::Assembly* assembly, ::System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>* options);
+    // private NUnit.Framework.Internal.TestSuite Build(System.Reflection.Assembly assembly, System.String assemblyPath, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
+    // Offset: 0x1C90900
+    ::NUnit::Framework::Internal::TestSuite* Build(::System::Reflection::Assembly* assembly, ::StringW assemblyPath, ::System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>* options);
+    // private System.Collections.Generic.IList`1<NUnit.Framework.Internal.Test> GetFixtures(System.Reflection.Assembly assembly, System.Collections.IList names)
+    // Offset: 0x1C90FD8
+    ::System::Collections::Generic::IList_1<::NUnit::Framework::Internal::Test*>* GetFixtures(::System::Reflection::Assembly* assembly, ::System::Collections::IList* names);
+    // private System.Collections.Generic.IList`1<System.Type> GetCandidateFixtureTypes(System.Reflection.Assembly assembly, System.Collections.IList names)
+    // Offset: 0x1C91A90
+    ::System::Collections::Generic::IList_1<::System::Type*>* GetCandidateFixtureTypes(::System::Reflection::Assembly* assembly, ::System::Collections::IList* names);
+    // private NUnit.Framework.Internal.TestSuite BuildTestAssembly(System.Reflection.Assembly assembly, System.String assemblyName, System.Collections.Generic.IList`1<NUnit.Framework.Internal.Test> fixtures)
+    // Offset: 0x1C91754
+    ::NUnit::Framework::Internal::TestSuite* BuildTestAssembly(::System::Reflection::Assembly* assembly, ::StringW assemblyName, ::System::Collections::Generic::IList_1<::NUnit::Framework::Internal::Test*>* fixtures);
   }; // NUnit.Framework.Api.DefaultTestAssemblyBuilder
   #pragma pack(pop)
   static check_size<sizeof(DefaultTestAssemblyBuilder), 16 + sizeof(::NUnit::Framework::Interfaces::ISuiteBuilder*)> __NUnit_Framework_Api_DefaultTestAssemblyBuilderSizeCheck;
   static_assert(sizeof(DefaultTestAssemblyBuilder) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::Api::DefaultTestAssemblyBuilder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Api::DefaultTestAssemblyBuilder::_cctor
 // Il2CppName: .cctor
 template<>
@@ -188,7 +182,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Fr
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Api::DefaultTestAssemblyBuilder*), "BuildTestAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assembly, assemblyName, fixtures});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Api::DefaultTestAssemblyBuilder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

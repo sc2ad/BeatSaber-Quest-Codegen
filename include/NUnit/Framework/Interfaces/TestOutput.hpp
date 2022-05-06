@@ -27,30 +27,22 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestOutput : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [DebuggerBrowsableAttribute] Offset: 0x12453D8
+    // [DebuggerBrowsableAttribute] Offset: 0x10C9EC0
     // private System.String <Text>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::StringW Text;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1245414
+    // [DebuggerBrowsableAttribute] Offset: 0x10C9EFC
     // private System.String <Stream>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::StringW Stream;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1245450
+    // [DebuggerBrowsableAttribute] Offset: 0x10C9F38
     // private System.String <TestName>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -59,35 +51,35 @@ namespace NUnit::Framework::Interfaces {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String <Text>k__BackingField
-    ::StringW& dyn_$Text$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$Text$k__BackingField();
     // Get instance field reference: private System.String <Stream>k__BackingField
-    ::StringW& dyn_$Stream$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$Stream$k__BackingField();
     // Get instance field reference: private System.String <TestName>k__BackingField
-    ::StringW& dyn_$TestName$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$TestName$k__BackingField();
     // public System.String get_Text()
-    // Offset: 0x1C478B0
+    // Offset: 0x1C9FE48
     ::StringW get_Text();
     // private System.Void set_Text(System.String value)
-    // Offset: 0x1C478B8
+    // Offset: 0x1C9FE50
     void set_Text(::StringW value);
     // public System.String get_Stream()
-    // Offset: 0x1C478C0
+    // Offset: 0x1C9FE58
     ::StringW get_Stream();
     // private System.Void set_Stream(System.String value)
-    // Offset: 0x1C478C8
+    // Offset: 0x1C9FE60
     void set_Stream(::StringW value);
     // private System.Void set_TestName(System.String value)
-    // Offset: 0x1C478D0
+    // Offset: 0x1C9FE68
     void set_TestName(::StringW value);
     // public System.Void .ctor(System.String text, System.String stream, System.String testName)
-    // Offset: 0x1C4781C
+    // Offset: 0x1C9FDB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestOutput* New_ctor(::StringW text, ::StringW stream, ::StringW testName) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Interfaces::TestOutput::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestOutput*, creationType>(text, stream, testName)));
     }
     // public override System.String ToString()
-    // Offset: 0x1C4785C
+    // Offset: 0x1C9FDF4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

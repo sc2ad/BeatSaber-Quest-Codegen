@@ -41,15 +41,7 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class TextSegmentedControlCell : public ::HMUI::SegmentedControlCell {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected TMPro.TextMeshProUGUI _text
     // Size: 0x8
     // Offset: 0x50
@@ -64,38 +56,33 @@ namespace HMUI {
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
     public:
     // Get instance field reference: protected TMPro.TextMeshProUGUI _text
-    ::TMPro::TextMeshProUGUI*& dyn__text();
+    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__text();
     // Get instance field reference: private UnityEngine.GameObject _backgroundGameObject
-    ::UnityEngine::GameObject*& dyn__backgroundGameObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__backgroundGameObject();
     // public System.String get_text()
-    // Offset: 0x1692AF4
+    // Offset: 0x16C9404
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x1692A80
+    // Offset: 0x16C9390
     void set_text(::StringW value);
     // public System.Single get_fontSize()
-    // Offset: 0x1692B10
+    // Offset: 0x16C9420
     float get_fontSize();
     // public System.Void set_fontSize(System.Single value)
-    // Offset: 0x1692A64
+    // Offset: 0x16C9374
     void set_fontSize(float value);
     // public System.Void set_hideBackgroundImage(System.Boolean value)
-    // Offset: 0x1692A9C
+    // Offset: 0x16C93AC
     void set_hideBackgroundImage(bool value);
     // public System.Single get_preferredWidth()
-    // Offset: 0x1692AC0
+    // Offset: 0x16C93D0
     float get_preferredWidth();
     // public System.Void .ctor()
-    // Offset: 0x1692B2C
+    // Offset: 0x16C943C
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()
     // Base method: System.Void Interactable::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextSegmentedControlCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::TextSegmentedControlCell::.ctor");

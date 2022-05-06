@@ -41,15 +41,7 @@ namespace HoudiniEngineUnity {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class HEU_Curve::$$c__DisplayClass38_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Collections.Generic.List`1<UnityEngine.Vector3> positions
     // Size: 0x8
     // Offset: 0x10
@@ -70,35 +62,37 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*) == 0x8);
     public:
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector3> positions
-    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn_positions();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn_positions();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Quaternion> rotations
-    ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*& dyn_rotations();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*& dyn_rotations();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector3> scales
-    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn_scales();
-    // System.Void <UpdateCurveInputForCustomAttributes>b__0(HoudiniEngineUnity.CurveNodeData data)
-    // Offset: 0x1748B70
-    void $UpdateCurveInputForCustomAttributes$b__0(::HoudiniEngineUnity::CurveNodeData* data);
-    // System.Void <UpdateCurveInputForCustomAttributes>b__1(System.Int32 nIndex1, System.Int32 nIndex2, System.Single fCoeff, System.Int32 nInsertIndex)
-    // Offset: 0x1748C20
-    void $UpdateCurveInputForCustomAttributes$b__1(int nIndex1, int nIndex2, float fCoeff, int nInsertIndex);
-    // System.Void <UpdateCurveInputForCustomAttributes>b__2(System.Int32 nIndex, System.Int32 nInsertIndex)
-    // Offset: 0x1748FB4
-    void $UpdateCurveInputForCustomAttributes$b__2(int nIndex, int nInsertIndex);
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn_scales();
     // public System.Void .ctor()
-    // Offset: 0x1748B68
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1781478
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_Curve::$$c__DisplayClass38_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass38_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_Curve::$$c__DisplayClass38_0*, creationType>()));
     }
+    // System.Void <UpdateCurveInputForCustomAttributes>b__0(HoudiniEngineUnity.CurveNodeData data)
+    // Offset: 0x1781480
+    void $UpdateCurveInputForCustomAttributes$b__0(::HoudiniEngineUnity::CurveNodeData* data);
+    // System.Void <UpdateCurveInputForCustomAttributes>b__1(System.Int32 nIndex1, System.Int32 nIndex2, System.Single fCoeff, System.Int32 nInsertIndex)
+    // Offset: 0x1781530
+    void $UpdateCurveInputForCustomAttributes$b__1(int nIndex1, int nIndex2, float fCoeff, int nInsertIndex);
+    // System.Void <UpdateCurveInputForCustomAttributes>b__2(System.Int32 nIndex, System.Int32 nInsertIndex)
+    // Offset: 0x17818C4
+    void $UpdateCurveInputForCustomAttributes$b__2(int nIndex, int nInsertIndex);
   }; // HoudiniEngineUnity.HEU_Curve/HoudiniEngineUnity.<>c__DisplayClass38_0
   #pragma pack(pop)
   static check_size<sizeof(HEU_Curve::$$c__DisplayClass38_0), 32 + sizeof(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*)> __HoudiniEngineUnity_HEU_Curve_$$c__DisplayClass38_0SizeCheck;
   static_assert(sizeof(HEU_Curve::$$c__DisplayClass38_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass38_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass38_0::$UpdateCurveInputForCustomAttributes$b__0
 // Il2CppName: <UpdateCurveInputForCustomAttributes>b__0
 template<>
@@ -130,7 +124,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass38_0*), "<UpdateCurveInputForCustomAttributes>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nIndex, nInsertIndex});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass38_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

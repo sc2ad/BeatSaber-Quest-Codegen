@@ -47,15 +47,7 @@ namespace GlobalNamespace {
   // [SelectionBaseAttribute] Offset: FFFFFFFF
   class MissionNode : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MissionDataSO _missionDataSO
     // Size: 0x8
     // Offset: 0x18
@@ -88,7 +80,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MissionNodeVisualController* missionNodeVisualController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissionNodeVisualController*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1259BC4
+    // [SpaceAttribute] Offset: 0x10DE7A8
     // private MissionNode[] _childNodes
     // Size: 0x8
     // Offset: 0x40
@@ -99,52 +91,46 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionDataSO _missionDataSO
-    ::GlobalNamespace::MissionDataSO*& dyn__missionDataSO();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionDataSO*& dyn__missionDataSO();
     // Get instance field reference: private System.String _letterPartName
-    ::StringW& dyn__letterPartName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__letterPartName();
     // Get instance field reference: private System.Int32 _numberPartName
-    int& dyn__numberPartName();
+    [[deprecated("Use field access instead!")]] int& dyn__numberPartName();
     // Get instance field reference: private UnityEngine.RectTransform _rectTransform
-    ::UnityEngine::RectTransform*& dyn__rectTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__rectTransform();
     // Get instance field reference: private MissionNodeVisualController _missionNodeVisualController
-    ::GlobalNamespace::MissionNodeVisualController*& dyn__missionNodeVisualController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionNodeVisualController*& dyn__missionNodeVisualController();
     // Get instance field reference: private MissionNode[] _childNodes
-    ::ArrayW<::GlobalNamespace::MissionNode*>& dyn__childNodes();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MissionNode*>& dyn__childNodes();
     // public MissionDataSO get_missionData()
-    // Offset: 0x1309204
+    // Offset: 0x13056DC
     ::GlobalNamespace::MissionDataSO* get_missionData();
     // public MissionNode[] get_childNodes()
-    // Offset: 0x130920C
+    // Offset: 0x13056E4
     ::ArrayW<::GlobalNamespace::MissionNode*> get_childNodes();
     // public MissionNodeVisualController get_missionNodeVisualController()
-    // Offset: 0x1309214
+    // Offset: 0x13056EC
     ::GlobalNamespace::MissionNodeVisualController* get_missionNodeVisualController();
     // public System.String get_letterPartName()
-    // Offset: 0x130921C
+    // Offset: 0x13056F4
     ::StringW get_letterPartName();
     // public System.Int32 get_numberPartName()
-    // Offset: 0x1309224
+    // Offset: 0x13056FC
     int get_numberPartName();
     // public System.String get_missionId()
-    // Offset: 0x1304D90
+    // Offset: 0x1301268
     ::StringW get_missionId();
     // public System.String get_formattedMissionNodeName()
-    // Offset: 0x130922C
+    // Offset: 0x1305704
     ::StringW get_formattedMissionNodeName();
     // public UnityEngine.Vector2 get_position()
-    // Offset: 0x13085B4
+    // Offset: 0x1304A8C
     ::UnityEngine::Vector2 get_position();
     // public System.Single get_radius()
-    // Offset: 0x13092B0
+    // Offset: 0x1305788
     float get_radius();
     // public System.Void .ctor()
-    // Offset: 0x13092F4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13057CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionNode* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionNode::.ctor");

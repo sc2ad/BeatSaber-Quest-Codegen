@@ -46,22 +46,14 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::ClothRandomFluctuation::SineLayer
     class SineLayer;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Cloth _cloth
     // Size: 0x8
     // Offset: 0x18
     ::UnityEngine::Cloth* cloth;
     // Field size check
     static_assert(sizeof(::UnityEngine::Cloth*) == 0x8);
-    // [HeaderAttribute] Offset: 0x124999C
+    // [HeaderAttribute] Offset: 0x10CE494
     // private System.Boolean _useLocalExternalFluctuations
     // Size: 0x1
     // Offset: 0x20
@@ -76,7 +68,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Vector3 externalFluctuations;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [HeaderAttribute] Offset: 0x12499F8
+    // [HeaderAttribute] Offset: 0x10CE4F0
     // private System.Boolean _useLocalRandomFluctuations
     // Size: 0x1
     // Offset: 0x30
@@ -115,49 +107,47 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Cloth _cloth
-    ::UnityEngine::Cloth*& dyn__cloth();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Cloth*& dyn__cloth();
     // Get instance field reference: private System.Boolean _useLocalExternalFluctuations
-    bool& dyn__useLocalExternalFluctuations();
+    [[deprecated("Use field access instead!")]] bool& dyn__useLocalExternalFluctuations();
     // Get instance field reference: private UnityEngine.Vector3 _externalFluctuations
-    ::UnityEngine::Vector3& dyn__externalFluctuations();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__externalFluctuations();
     // Get instance field reference: private System.Boolean _useLocalRandomFluctuations
-    bool& dyn__useLocalRandomFluctuations();
+    [[deprecated("Use field access instead!")]] bool& dyn__useLocalRandomFluctuations();
     // Get instance field reference: private UnityEngine.Vector3 _minFluctuations
-    ::UnityEngine::Vector3& dyn__minFluctuations();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__minFluctuations();
     // Get instance field reference: private UnityEngine.Vector3 _maxFluctuations
-    ::UnityEngine::Vector3& dyn__maxFluctuations();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__maxFluctuations();
     // Get instance field reference: private System.Collections.Generic.List`1<ClothRandomFluctuation/SineLayer> _compoundSins
-    ::System::Collections::Generic::List_1<::GlobalNamespace::ClothRandomFluctuation::SineLayer*>*& dyn__compoundSins();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::ClothRandomFluctuation::SineLayer*>*& dyn__compoundSins();
     // Get instance field reference: private System.Single _speed
-    float& dyn__speed();
-    // protected System.Void Update()
-    // Offset: 0x1354D30
-    void Update();
-    // private System.Void FluctuateCloth(UnityEngine.Cloth cloth)
-    // Offset: 0x1354D38
-    void FluctuateCloth(::UnityEngine::Cloth* cloth);
-    // private System.Single GetNoise(System.Single time, System.Single offset)
-    // Offset: 0x1354F54
-    float GetNoise(float time, float offset);
+    [[deprecated("Use field access instead!")]] float& dyn__speed();
     // public System.Void .ctor()
-    // Offset: 0x13550A0
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x133E2E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClothRandomFluctuation* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ClothRandomFluctuation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClothRandomFluctuation*, creationType>()));
     }
+    // protected System.Void Update()
+    // Offset: 0x133DF78
+    void Update();
+    // private System.Void FluctuateCloth(UnityEngine.Cloth cloth)
+    // Offset: 0x133DF80
+    void FluctuateCloth(::UnityEngine::Cloth* cloth);
+    // private System.Single GetNoise(System.Single time, System.Single offset)
+    // Offset: 0x133E19C
+    float GetNoise(float time, float offset);
   }; // ClothRandomFluctuation
   #pragma pack(pop)
   static check_size<sizeof(ClothRandomFluctuation), 88 + sizeof(float)> __GlobalNamespace_ClothRandomFluctuationSizeCheck;
   static_assert(sizeof(ClothRandomFluctuation) == 0x5C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ClothRandomFluctuation::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ClothRandomFluctuation::Update
 // Il2CppName: Update
 template<>
@@ -185,7 +175,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClothRandomFluctuation*), "GetNoise", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time, offset});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ClothRandomFluctuation::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

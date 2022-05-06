@@ -80,16 +80,16 @@ namespace System::Runtime::CompilerServices {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private System.Threading.SynchronizationContext m_synchronizationContext
-    ::System::Threading::SynchronizationContext*& dyn_m_synchronizationContext();
+    [[deprecated("Use field access instead!")]] ::System::Threading::SynchronizationContext*& dyn_m_synchronizationContext();
     // Get instance field reference: private System.Runtime.CompilerServices.AsyncMethodBuilderCore m_coreState
-    ::System::Runtime::CompilerServices::AsyncMethodBuilderCore& dyn_m_coreState();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncMethodBuilderCore& dyn_m_coreState();
     // Get instance field reference: private System.Threading.Tasks.Task m_task
-    ::System::Threading::Tasks::Task*& dyn_m_task();
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::Task*& dyn_m_task();
     // private System.Threading.Tasks.Task get_Task()
-    // Offset: 0x1D48DE4
+    // Offset: 0x1D8433C
     ::System::Threading::Tasks::Task* get_Task();
     // static public System.Runtime.CompilerServices.AsyncVoidMethodBuilder Create()
-    // Offset: 0x1D48D2C
+    // Offset: 0x1D84284
     static ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder Create();
     // public System.Void Start(ref TStateMachine stateMachine)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -102,7 +102,7 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, byref(stateMachine));
     }
     // public System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1D48D70
+    // Offset: 0x1D842C8
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
     // public System.Void AwaitUnsafeOnCompleted(ref TAwaiter awaiter, ref TStateMachine stateMachine)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -116,13 +116,13 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, byref(awaiter), byref(stateMachine));
     }
     // public System.Void SetResult()
-    // Offset: 0x1D48D78
+    // Offset: 0x1D842D0
     void SetResult();
     // public System.Void SetException(System.Exception exception)
-    // Offset: 0x1D48F28
+    // Offset: 0x1D84480
     void SetException(::System::Exception* exception);
     // private System.Void NotifySynchronizationContextOfCompletion()
-    // Offset: 0x1D48E50
+    // Offset: 0x1D843A8
     void NotifySynchronizationContextOfCompletion();
   }; // System.Runtime.CompilerServices.AsyncVoidMethodBuilder
   #pragma pack(pop)

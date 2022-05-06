@@ -27,15 +27,7 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
   // [TokenAttribute] Offset: FFFFFFFF
   class PemHeader : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String name
     // Size: 0x8
     // Offset: 0x10
@@ -50,32 +42,32 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String name
-    ::StringW& dyn_name();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_name();
     // Get instance field reference: private System.String val
-    ::StringW& dyn_val();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_val();
     // public System.String get_Name()
-    // Offset: 0x25A4C0C
+    // Offset: 0x25F023C
     ::StringW get_Name();
     // public System.String get_Value()
-    // Offset: 0x25A4C14
+    // Offset: 0x25F0244
     ::StringW get_Value();
     // public System.Void .ctor(System.String name, System.String val)
-    // Offset: 0x25A4BD4
+    // Offset: 0x25F0204
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PemHeader* New_ctor(::StringW name, ::StringW val) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PemHeader*, creationType>(name, val)));
     }
     // private System.Int32 GetHashCode(System.String s)
-    // Offset: 0x25A4C78
+    // Offset: 0x25F02A8
     int GetHashCode(::StringW s);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x25A4C1C
+    // Offset: 0x25F024C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x25A4C90
+    // Offset: 0x25F02C0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

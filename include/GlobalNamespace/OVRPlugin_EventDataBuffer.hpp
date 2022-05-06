@@ -47,9 +47,9 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public OVRPlugin/EventType EventType
-    ::GlobalNamespace::OVRPlugin::EventType& dyn_EventType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::EventType& dyn_EventType();
     // Get instance field reference: public System.Byte[] EventData
-    ::ArrayW<uint8_t>& dyn_EventData();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_EventData();
   }; // OVRPlugin/EventDataBuffer
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::EventDataBuffer), 8 + sizeof(::ArrayW<uint8_t>)> __GlobalNamespace_OVRPlugin_EventDataBufferSizeCheck;

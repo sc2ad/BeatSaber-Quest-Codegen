@@ -29,22 +29,24 @@ namespace BGNet::Core::Messages {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
-    // public System.Void Dispose()
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    void Dispose();
     // protected System.Void .ctor()
-    // Offset: 0x15028D8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x153A1E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnconnectedMessageHandler::RequestWaiter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnconnectedMessageHandler::RequestWaiter*, creationType>()));
     }
+    // public System.Void Dispose()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    void Dispose();
   }; // BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.RequestWaiter
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiter::Dispose
 // Il2CppName: Dispose
 template<>
@@ -53,7 +55,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BGNet
     return ::il2cpp_utils::FindMethod(classof(BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiter*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

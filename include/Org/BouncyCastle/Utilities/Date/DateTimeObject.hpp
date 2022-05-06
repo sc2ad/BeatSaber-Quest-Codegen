@@ -29,15 +29,7 @@ namespace Org::BouncyCastle::Utilities::Date {
   // [TokenAttribute] Offset: FFFFFFFF
   class DateTimeObject : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.DateTime dt
     // Size: 0x8
     // Offset: 0x10
@@ -50,16 +42,16 @@ namespace Org::BouncyCastle::Utilities::Date {
       return dt;
     }
     // Get instance field reference: private readonly System.DateTime dt
-    ::System::DateTime& dyn_dt();
+    [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_dt();
     // public System.Void .ctor(System.DateTime dt)
-    // Offset: 0x25A307C
+    // Offset: 0x25EE6AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DateTimeObject* New_ctor(::System::DateTime dt) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::Date::DateTimeObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DateTimeObject*, creationType>(dt)));
     }
     // public override System.String ToString()
-    // Offset: 0x25A30A8
+    // Offset: 0x25EE6D8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

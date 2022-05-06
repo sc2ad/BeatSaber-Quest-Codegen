@@ -38,22 +38,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLeaderboardPanelController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MultiplayerLeaderboardPanelItem[] _items
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<::GlobalNamespace::MultiplayerLeaderboardPanelItem*> items;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::MultiplayerLeaderboardPanelItem*>) == 0x8);
-    // [InjectAttribute] Offset: 0x1252534
+    // [InjectAttribute] Offset: 0x10D70C0
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x20
@@ -64,34 +56,32 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MultiplayerLeaderboardPanelItem[] _items
-    ::ArrayW<::GlobalNamespace::MultiplayerLeaderboardPanelItem*>& dyn__items();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MultiplayerLeaderboardPanelItem*>& dyn__items();
     // Get instance field reference: private readonly MultiplayerScoreProvider _scoreProvider
-    ::GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreProvider();
-    // protected System.Void Start()
-    // Offset: 0x13F5AE0
-    void Start();
-    // protected System.Void Update()
-    // Offset: 0x13F5B84
-    void Update();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreProvider();
     // public System.Void .ctor()
-    // Offset: 0x13F6118
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1402BB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLeaderboardPanelController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLeaderboardPanelController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLeaderboardPanelController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x1402580
+    void Start();
+    // protected System.Void Update()
+    // Offset: 0x1402624
+    void Update();
   }; // MultiplayerLeaderboardPanelController
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLeaderboardPanelController), 32 + sizeof(::GlobalNamespace::MultiplayerScoreProvider*)> __GlobalNamespace_MultiplayerLeaderboardPanelControllerSizeCheck;
   static_assert(sizeof(MultiplayerLeaderboardPanelController) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLeaderboardPanelController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLeaderboardPanelController::Start
 // Il2CppName: Start
 template<>
@@ -108,7 +98,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLeaderboardPanelController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLeaderboardPanelController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

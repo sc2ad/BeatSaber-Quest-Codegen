@@ -24,15 +24,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PS4LevelProductsModelSO::LevelProductData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String _entitlementLabel
     // Size: 0x8
     // Offset: 0x10
@@ -53,24 +45,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String _entitlementLabel
-    ::StringW& dyn__entitlementLabel();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__entitlementLabel();
     // Get instance field reference: private System.String _productLabel
-    ::StringW& dyn__productLabel();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__productLabel();
     // Get instance field reference: private System.String _levelId
-    ::StringW& dyn__levelId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__levelId();
     // public System.String get_entitlementLabel()
-    // Offset: 0x12EB134
+    // Offset: 0x135C0EC
     ::StringW get_entitlementLabel();
     // public System.String get_productLabel()
-    // Offset: 0x12EB13C
+    // Offset: 0x135C0F4
     ::StringW get_productLabel();
     // public System.String get_levelId()
-    // Offset: 0x12EB144
+    // Offset: 0x135C0FC
     ::StringW get_levelId();
     // public System.Void .ctor()
-    // Offset: 0x12EB14C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x135C104
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4LevelProductsModelSO::LevelProductData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PS4LevelProductsModelSO::LevelProductData::.ctor");

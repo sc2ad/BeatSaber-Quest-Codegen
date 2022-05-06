@@ -62,23 +62,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LobbyStateDataModel : public ::Il2CppObject/*, public ::System::IDisposable, public ::GlobalNamespace::ILobbyStateDataModel*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [InjectAttribute] Offset: 0x124D754
+    // [InjectAttribute] Offset: 0x10D224C
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x124D764
+    // [InjectAttribute] Offset: 0x10D225C
     // private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
     // Size: 0x8
     // Offset: 0x18
@@ -125,73 +117,71 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::ILobbyStateDataModel*>(this);
     }
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // Get instance field reference: private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
-    ::GlobalNamespace::IUnifiedNetworkPlayerModel*& dyn__unifiedNetworkPlayerModel();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IUnifiedNetworkPlayerModel*& dyn__unifiedNetworkPlayerModel();
     // Get instance field reference: private System.Collections.Generic.List`1<IConnectedPlayer> _connectedPlayers
-    ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>*& dyn__connectedPlayers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>*& dyn__connectedPlayers();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,IConnectedPlayer> _connectedPlayersById
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::IConnectedPlayer*>*& dyn__connectedPlayersById();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::IConnectedPlayer*>*& dyn__connectedPlayersById();
     // Get instance field reference: private GameplayServerConfiguration _configuration
-    ::GlobalNamespace::GameplayServerConfiguration& dyn__configuration();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayServerConfiguration& dyn__configuration();
     // Get instance field reference: private System.Action`1<IConnectedPlayer> playerConnectedEvent
-    ::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*& dyn_playerConnectedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*& dyn_playerConnectedEvent();
     // Get instance field reference: private System.Action`1<IConnectedPlayer> playerDisconnectedEvent
-    ::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*& dyn_playerDisconnectedEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*& dyn_playerDisconnectedEvent();
     // public System.Boolean get_isConnected()
-    // Offset: 0x1524FD4
+    // Offset: 0x155C8DC
     bool get_isConnected();
     // public IConnectedPlayer get_localPlayer()
-    // Offset: 0x1525088
+    // Offset: 0x155C990
     ::GlobalNamespace::IConnectedPlayer* get_localPlayer();
     // public System.Collections.Generic.List`1<IConnectedPlayer> get_connectedPlayers()
-    // Offset: 0x1525138
+    // Offset: 0x155CA40
     ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* get_connectedPlayers();
     // public System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> get_rawConnectedPlayers()
-    // Offset: 0x1525140
+    // Offset: 0x155CA48
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* get_rawConnectedPlayers();
     // public GameplayServerConfiguration get_configuration()
-    // Offset: 0x15251F4
+    // Offset: 0x155CAFC
     ::GlobalNamespace::GameplayServerConfiguration get_configuration();
     // public System.Void add_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x1524D44
+    // Offset: 0x155C64C
     void add_playerConnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x1524DE8
+    // Offset: 0x155C6F0
     void remove_playerConnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void add_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x1524E8C
+    // Offset: 0x155C794
     void add_playerDisconnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x1524F30
+    // Offset: 0x155C838
     void remove_playerDisconnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
-    // public System.Void Activate()
-    // Offset: 0x1525208
-    void Activate();
-    // public System.Void Deactivate()
-    // Offset: 0x1525880
-    void Deactivate();
-    // public System.Void Dispose()
-    // Offset: 0x1525A10
-    void Dispose();
-    // public IConnectedPlayer GetPlayerById(System.String userId)
-    // Offset: 0x1525A14
-    ::GlobalNamespace::IConnectedPlayer* GetPlayerById(::StringW userId);
-    // private System.Void HandleMultiplayerSessionManagerPlayerConnected(IConnectedPlayer player)
-    // Offset: 0x1525AA4
-    void HandleMultiplayerSessionManagerPlayerConnected(::GlobalNamespace::IConnectedPlayer* player);
-    // private System.Void HandleMultiplayerSessionManagerPlayerDisconnected(IConnectedPlayer player)
-    // Offset: 0x1525BCC
-    void HandleMultiplayerSessionManagerPlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player);
     // public System.Void .ctor()
-    // Offset: 0x1525CF0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x155D5F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LobbyStateDataModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LobbyStateDataModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LobbyStateDataModel*, creationType>()));
     }
+    // public System.Void Activate()
+    // Offset: 0x155CB10
+    void Activate();
+    // public System.Void Deactivate()
+    // Offset: 0x155D188
+    void Deactivate();
+    // public System.Void Dispose()
+    // Offset: 0x155D318
+    void Dispose();
+    // public IConnectedPlayer GetPlayerById(System.String userId)
+    // Offset: 0x155D31C
+    ::GlobalNamespace::IConnectedPlayer* GetPlayerById(::StringW userId);
+    // private System.Void HandleMultiplayerSessionManagerPlayerConnected(IConnectedPlayer player)
+    // Offset: 0x155D3AC
+    void HandleMultiplayerSessionManagerPlayerConnected(::GlobalNamespace::IConnectedPlayer* player);
+    // private System.Void HandleMultiplayerSessionManagerPlayerDisconnected(IConnectedPlayer player)
+    // Offset: 0x155D4D4
+    void HandleMultiplayerSessionManagerPlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player);
   }; // LobbyStateDataModel
   #pragma pack(pop)
   static check_size<sizeof(LobbyStateDataModel), 80 + sizeof(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*)> __GlobalNamespace_LobbyStateDataModelSizeCheck;
@@ -274,6 +264,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyStateDataModel*), "remove_playerDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LobbyStateDataModel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LobbyStateDataModel::Activate
 // Il2CppName: Activate
 template<>
@@ -325,7 +319,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyStateDataModel*), "HandleMultiplayerSessionManagerPlayerDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{player});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LobbyStateDataModel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

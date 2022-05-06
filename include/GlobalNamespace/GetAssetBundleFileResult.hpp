@@ -47,11 +47,11 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public readonly System.Boolean isError
-    bool& dyn_isError();
+    [[deprecated("Use field access instead!")]] bool& dyn_isError();
     // Get instance field reference: public readonly System.String assetBundlePath
-    ::StringW& dyn_assetBundlePath();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_assetBundlePath();
     // public System.Void .ctor(System.Boolean isError, System.String assetBundlePath)
-    // Offset: 0x13E9168
+    // Offset: 0x13F5C08
     // ABORTED: conflicts with another method.  GetAssetBundleFileResult(bool isError, ::StringW assetBundlePath);
   }; // GetAssetBundleFileResult
   #pragma pack(pop)

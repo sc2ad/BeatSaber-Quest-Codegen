@@ -27,15 +27,7 @@ namespace BeatmapSaveDataVersion3 {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapSaveData::LightColorBaseData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single b
     // Size: 0x4
     // Offset: 0x10
@@ -68,32 +60,32 @@ namespace BeatmapSaveDataVersion3 {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Single b
-    float& dyn_b();
+    [[deprecated("Use field access instead!")]] float& dyn_b();
     // Get instance field reference: private BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.TransitionType i
-    ::BeatmapSaveDataVersion3::BeatmapSaveData::TransitionType& dyn_i();
+    [[deprecated("Use field access instead!")]] ::BeatmapSaveDataVersion3::BeatmapSaveData::TransitionType& dyn_i();
     // Get instance field reference: private BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EnvironmentColorType c
-    ::BeatmapSaveDataVersion3::BeatmapSaveData::EnvironmentColorType& dyn_c();
+    [[deprecated("Use field access instead!")]] ::BeatmapSaveDataVersion3::BeatmapSaveData::EnvironmentColorType& dyn_c();
     // Get instance field reference: private System.Single s
-    float& dyn_s();
+    [[deprecated("Use field access instead!")]] float& dyn_s();
     // Get instance field reference: private System.Int32 f
-    int& dyn_f();
+    [[deprecated("Use field access instead!")]] int& dyn_f();
     // public System.Single get_beat()
-    // Offset: 0x281B600
+    // Offset: 0x286DBC0
     float get_beat();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.TransitionType get_transitionType()
-    // Offset: 0x281B608
+    // Offset: 0x286DBC8
     ::BeatmapSaveDataVersion3::BeatmapSaveData::TransitionType get_transitionType();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EnvironmentColorType get_colorType()
-    // Offset: 0x281B610
+    // Offset: 0x286DBD0
     ::BeatmapSaveDataVersion3::BeatmapSaveData::EnvironmentColorType get_colorType();
     // public System.Single get_brightness()
-    // Offset: 0x281B618
+    // Offset: 0x286DBD8
     float get_brightness();
     // public System.Int32 get_strobeBeatFrequency()
-    // Offset: 0x281B620
+    // Offset: 0x286DBE0
     int get_strobeBeatFrequency();
     // public System.Void .ctor(System.Single beat, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.TransitionType transitionType, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EnvironmentColorType colorType, System.Single brightness, System.Int32 strobeFrequency)
-    // Offset: 0x281B628
+    // Offset: 0x286DBE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::LightColorBaseData* New_ctor(float beat, ::BeatmapSaveDataVersion3::BeatmapSaveData::TransitionType transitionType, ::BeatmapSaveDataVersion3::BeatmapSaveData::EnvironmentColorType colorType, float brightness, int strobeFrequency) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::LightColorBaseData::.ctor");

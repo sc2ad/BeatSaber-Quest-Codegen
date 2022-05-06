@@ -38,15 +38,7 @@ namespace GlobalNamespace {
   // [ZenjectAllowDuringValidationAttribute] Offset: FFFFFFFF
   class PatternFightSceneSetupData : public ::GlobalNamespace::SceneSetupData {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly PlayerSpecificSettings playerSpecificSettings
     // Size: 0x8
     // Offset: 0x10
@@ -61,11 +53,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::ColorScheme*) == 0x8);
     public:
     // Get instance field reference: public readonly PlayerSpecificSettings playerSpecificSettings
-    ::GlobalNamespace::PlayerSpecificSettings*& dyn_playerSpecificSettings();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSpecificSettings*& dyn_playerSpecificSettings();
     // Get instance field reference: public readonly ColorScheme colorScheme
-    ::GlobalNamespace::ColorScheme*& dyn_colorScheme();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorScheme*& dyn_colorScheme();
     // public System.Void .ctor(PlayerSpecificSettings playerSpecificSettings, ColorScheme colorScheme)
-    // Offset: 0x12EDEA4
+    // Offset: 0x135EE5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PatternFightSceneSetupData* New_ctor(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::ColorScheme* colorScheme) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PatternFightSceneSetupData::.ctor");

@@ -71,24 +71,16 @@ namespace GlobalNamespace {
     class Pool;
     // Nested type: ::GlobalNamespace::FireworkItemController::$FireCoroutine$d__29
     class $FireCoroutine$d__29;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [HeaderAttribute] Offset: 0x1250588
-    // [NullAllowed] Offset: 0x1250588
+    // [HeaderAttribute] Offset: 0x10D50BC
+    // [NullAllowed] Offset: 0x10D50BC
     // private FireworkItemController/FireworkItemParticleSystem[] _particleSystems
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<::GlobalNamespace::FireworkItemController::FireworkItemParticleSystem*> particleSystems;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::FireworkItemController::FireworkItemParticleSystem*>) == 0x8);
-    // [HeaderAttribute] Offset: 0x12505E4
+    // [HeaderAttribute] Offset: 0x10D5118
     // private TubeBloomPrePassLight[] _lights
     // Size: 0x8
     // Offset: 0x20
@@ -101,7 +93,7 @@ namespace GlobalNamespace {
     ::UnityEngine::AudioSource* audioSource;
     // Field size check
     static_assert(sizeof(::UnityEngine::AudioSource*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1250640
+    // [SpaceAttribute] Offset: 0x10D5174
     // private System.Single _lightFlashDuration
     // Size: 0x4
     // Offset: 0x30
@@ -122,7 +114,7 @@ namespace GlobalNamespace {
     float lightIntensityMultiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x1250698
+    // [HeaderAttribute] Offset: 0x10D51CC
     // private System.Boolean _randomizeColor
     // Size: 0x1
     // Offset: 0x44
@@ -131,21 +123,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: randomizeColor and: lightsColor
     char __padding6[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x12506E4
+    // [DrawIfAttribute] Offset: 0x10D5218
     // private UnityEngine.Color _lightsColor
     // Size: 0x10
     // Offset: 0x48
     ::UnityEngine::Color lightsColor;
     // Field size check
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
-    // [DrawIfAttribute] Offset: 0x1250788
+    // [DrawIfAttribute] Offset: 0x10D52BC
     // private UnityEngine.Gradient _lightsColorGradient
     // Size: 0x8
     // Offset: 0x58
     ::UnityEngine::Gradient* lightsColorGradient;
     // Field size check
     static_assert(sizeof(::UnityEngine::Gradient*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1250830
+    // [SpaceAttribute] Offset: 0x10D5364
     // private System.Boolean _randomizeSpeed
     // Size: 0x1
     // Offset: 0x60
@@ -154,14 +146,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: randomizeSpeed and: minSpeedMultiplier
     char __padding9[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x1250868
+    // [DrawIfAttribute] Offset: 0x10D539C
     // private System.Single _minSpeedMultiplier
     // Size: 0x4
     // Offset: 0x64
     float minSpeedMultiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0x1250910
+    // [DrawIfAttribute] Offset: 0x10D5444
     // private System.Single _maxSpeedMultiplier
     // Size: 0x4
     // Offset: 0x68
@@ -212,87 +204,81 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FireworkItemController/FireworkItemParticleSystem[] _particleSystems
-    ::ArrayW<::GlobalNamespace::FireworkItemController::FireworkItemParticleSystem*>& dyn__particleSystems();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::FireworkItemController::FireworkItemParticleSystem*>& dyn__particleSystems();
     // Get instance field reference: private TubeBloomPrePassLight[] _lights
-    ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*>& dyn__lights();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*>& dyn__lights();
     // Get instance field reference: private UnityEngine.AudioSource _audioSource
-    ::UnityEngine::AudioSource*& dyn__audioSource();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AudioSource*& dyn__audioSource();
     // Get instance field reference: private System.Single _lightFlashDuration
-    float& dyn__lightFlashDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__lightFlashDuration();
     // Get instance field reference: private UnityEngine.AnimationCurve _lightIntensityCurve
-    ::UnityEngine::AnimationCurve*& dyn__lightIntensityCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__lightIntensityCurve();
     // Get instance field reference: private System.Single _lightIntensityMultiplier
-    float& dyn__lightIntensityMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__lightIntensityMultiplier();
     // Get instance field reference: private System.Boolean _randomizeColor
-    bool& dyn__randomizeColor();
+    [[deprecated("Use field access instead!")]] bool& dyn__randomizeColor();
     // Get instance field reference: private UnityEngine.Color _lightsColor
-    ::UnityEngine::Color& dyn__lightsColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__lightsColor();
     // Get instance field reference: private UnityEngine.Gradient _lightsColorGradient
-    ::UnityEngine::Gradient*& dyn__lightsColorGradient();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Gradient*& dyn__lightsColorGradient();
     // Get instance field reference: private System.Boolean _randomizeSpeed
-    bool& dyn__randomizeSpeed();
+    [[deprecated("Use field access instead!")]] bool& dyn__randomizeSpeed();
     // Get instance field reference: private System.Single _minSpeedMultiplier
-    float& dyn__minSpeedMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__minSpeedMultiplier();
     // Get instance field reference: private System.Single _maxSpeedMultiplier
-    float& dyn__maxSpeedMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn__maxSpeedMultiplier();
     // Get instance field reference: private UnityEngine.AudioClip[] _explosionClips
-    ::ArrayW<::UnityEngine::AudioClip*>& dyn__explosionClips();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::AudioClip*>& dyn__explosionClips();
     // Get instance field reference: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomAudioPicker
-    ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*& dyn__randomAudioPicker();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*& dyn__randomAudioPicker();
     // Get instance field reference: private DirectionalLight _directionalLight
-    ::GlobalNamespace::DirectionalLight*& dyn__directionalLight();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DirectionalLight*& dyn__directionalLight();
     // Get instance field reference: private System.Single _directionalLightIntensity
-    float& dyn__directionalLightIntensity();
+    [[deprecated("Use field access instead!")]] float& dyn__directionalLightIntensity();
     // Get instance field reference: private System.Boolean _initialized
-    bool& dyn__initialized();
+    [[deprecated("Use field access instead!")]] bool& dyn__initialized();
     // Get instance field reference: private System.Action`1<FireworkItemController> didFinishEvent
-    ::System::Action_1<::GlobalNamespace::FireworkItemController*>*& dyn_didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::FireworkItemController*>*& dyn_didFinishEvent();
     // public System.Void set_directionalLight(DirectionalLight value)
-    // Offset: 0x138DDA0
+    // Offset: 0x13758B4
     void set_directionalLight(::GlobalNamespace::DirectionalLight* value);
     // public System.Void set_directionalLightIntensity(System.Single value)
-    // Offset: 0x138DDA8
+    // Offset: 0x13758BC
     void set_directionalLightIntensity(float value);
     // public System.Void add_didFinishEvent(System.Action`1<FireworkItemController> value)
-    // Offset: 0x138DDB0
+    // Offset: 0x13758C4
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::FireworkItemController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<FireworkItemController> value)
-    // Offset: 0x138DE54
+    // Offset: 0x1375968
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::FireworkItemController*>* value);
-    // protected System.Void Awake()
-    // Offset: 0x138DEF8
-    void Awake();
-    // protected System.Void OnDisable()
-    // Offset: 0x138DF78
-    void OnDisable();
-    // public System.Void Fire()
-    // Offset: 0x138E11C
-    void Fire();
-    // private System.Collections.IEnumerator FireCoroutine()
-    // Offset: 0x138E148
-    ::System::Collections::IEnumerator* FireCoroutine();
-    // private System.Void SetLightsColor(System.Single intensity)
-    // Offset: 0x138E004
-    void SetLightsColor(float intensity);
-    // private System.Void PlayExplosionSound()
-    // Offset: 0x138E1E4
-    void PlayExplosionSound();
-    // private System.Void InitializeParticleSystem()
-    // Offset: 0x138E2D0
-    void InitializeParticleSystem();
     // public System.Void .ctor()
-    // Offset: 0x138E5DC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13760F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FireworkItemController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FireworkItemController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FireworkItemController*, creationType>()));
     }
+    // protected System.Void Awake()
+    // Offset: 0x1375A0C
+    void Awake();
+    // protected System.Void OnDisable()
+    // Offset: 0x1375A8C
+    void OnDisable();
+    // public System.Void Fire()
+    // Offset: 0x1375C30
+    void Fire();
+    // private System.Collections.IEnumerator FireCoroutine()
+    // Offset: 0x1375C5C
+    ::System::Collections::IEnumerator* FireCoroutine();
+    // private System.Void SetLightsColor(System.Single intensity)
+    // Offset: 0x1375B18
+    void SetLightsColor(float intensity);
+    // private System.Void PlayExplosionSound()
+    // Offset: 0x1375CF8
+    void PlayExplosionSound();
+    // private System.Void InitializeParticleSystem()
+    // Offset: 0x1375DE4
+    void InitializeParticleSystem();
   }; // FireworkItemController
   #pragma pack(pop)
   static check_size<sizeof(FireworkItemController), 144 + sizeof(::System::Action_1<::GlobalNamespace::FireworkItemController*>*)> __GlobalNamespace_FireworkItemControllerSizeCheck;
@@ -335,6 +321,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FireworkItemController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::FireworkItemController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FireworkItemController::Awake
 // Il2CppName: Awake
 template<>
@@ -392,7 +382,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FireworkItemController*), "InitializeParticleSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FireworkItemController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

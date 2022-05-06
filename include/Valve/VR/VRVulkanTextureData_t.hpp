@@ -95,25 +95,25 @@ namespace Valve::VR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.UInt64 m_nImage
-    uint64_t& dyn_m_nImage();
+    [[deprecated("Use field access instead!")]] uint64_t& dyn_m_nImage();
     // Get instance field reference: public System.IntPtr m_pDevice
-    ::System::IntPtr& dyn_m_pDevice();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_pDevice();
     // Get instance field reference: public System.IntPtr m_pPhysicalDevice
-    ::System::IntPtr& dyn_m_pPhysicalDevice();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_pPhysicalDevice();
     // Get instance field reference: public System.IntPtr m_pInstance
-    ::System::IntPtr& dyn_m_pInstance();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_pInstance();
     // Get instance field reference: public System.IntPtr m_pQueue
-    ::System::IntPtr& dyn_m_pQueue();
+    [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_pQueue();
     // Get instance field reference: public System.UInt32 m_nQueueFamilyIndex
-    uint& dyn_m_nQueueFamilyIndex();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nQueueFamilyIndex();
     // Get instance field reference: public System.UInt32 m_nWidth
-    uint& dyn_m_nWidth();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nWidth();
     // Get instance field reference: public System.UInt32 m_nHeight
-    uint& dyn_m_nHeight();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nHeight();
     // Get instance field reference: public System.UInt32 m_nFormat
-    uint& dyn_m_nFormat();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nFormat();
     // Get instance field reference: public System.UInt32 m_nSampleCount
-    uint& dyn_m_nSampleCount();
+    [[deprecated("Use field access instead!")]] uint& dyn_m_nSampleCount();
   }; // Valve.VR.VRVulkanTextureData_t
   #pragma pack(pop)
   static check_size<sizeof(VRVulkanTextureData_t), 56 + sizeof(uint)> __Valve_VR_VRVulkanTextureData_tSizeCheck;

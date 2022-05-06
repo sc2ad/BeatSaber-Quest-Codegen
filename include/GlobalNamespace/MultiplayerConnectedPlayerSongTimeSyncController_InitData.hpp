@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerConnectedPlayerSongTimeSyncController::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Single startSongTime
     // Size: 0x4
     // Offset: 0x10
@@ -52,13 +44,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public readonly System.Single startSongTime
-    float& dyn_startSongTime();
+    [[deprecated("Use field access instead!")]] float& dyn_startSongTime();
     // Get instance field reference: public readonly System.Single songTimeOffset
-    float& dyn_songTimeOffset();
+    [[deprecated("Use field access instead!")]] float& dyn_songTimeOffset();
     // Get instance field reference: public readonly System.Single timeScale
-    float& dyn_timeScale();
+    [[deprecated("Use field access instead!")]] float& dyn_timeScale();
     // public System.Void .ctor(System.Single startSongTime, System.Single songTimeOffset, System.Single timeScale)
-    // Offset: 0x13EC5D0
+    // Offset: 0x13F9070
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerSongTimeSyncController::InitData* New_ctor(float startSongTime, float songTimeOffset, float timeScale) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData::.ctor");

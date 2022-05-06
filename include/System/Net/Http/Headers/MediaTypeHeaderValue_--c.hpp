@@ -46,20 +46,18 @@ namespace System::Net::Http::Headers {
     // Set static field: static public System.Predicate`1<System.Net.Http.Headers.NameValueHeaderValue> <>9__6_0
     static void _set_$$9__6_0(::System::Predicate_1<::System::Net::Http::Headers::NameValueHeaderValue*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x195CB88
+    // Offset: 0x1995170
     static void _cctor();
-    // System.Boolean <get_CharSet>b__6_0(System.Net.Http.Headers.NameValueHeaderValue l)
-    // Offset: 0x195CBF4
-    bool $get_CharSet$b__6_0(::System::Net::Http::Headers::NameValueHeaderValue* l);
     // public System.Void .ctor()
-    // Offset: 0x195CBEC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x19951D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MediaTypeHeaderValue::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::MediaTypeHeaderValue::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MediaTypeHeaderValue::$$c*, creationType>()));
     }
+    // System.Boolean <get_CharSet>b__6_0(System.Net.Http.Headers.NameValueHeaderValue l)
+    // Offset: 0x19951DC
+    bool $get_CharSet$b__6_0(::System::Net::Http::Headers::NameValueHeaderValue* l);
   }; // System.Net.Http.Headers.MediaTypeHeaderValue/System.Net.Http.Headers.<>c
   #pragma pack(pop)
 }
@@ -72,6 +70,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::MediaTypeHeaderValue::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Net::Http::Headers::MediaTypeHeaderValue::$$c::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::MediaTypeHeaderValue::$$c::$get_CharSet$b__6_0
 // Il2CppName: <get_CharSet>b__6_0
 template<>
@@ -81,7 +83,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::MediaTypeHeaderValue::$$c*), "<get_CharSet>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{l});
   }
 };
-// Writing MetadataGetter for method: System::Net::Http::Headers::MediaTypeHeaderValue::$$c::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

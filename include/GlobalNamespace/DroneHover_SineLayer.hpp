@@ -23,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DroneHover::SineLayer : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single multiplier
     // Size: 0x4
     // Offset: 0x10
@@ -46,13 +38,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public System.Single multiplier
-    float& dyn_multiplier();
+    [[deprecated("Use field access instead!")]] float& dyn_multiplier();
     // Get instance field reference: public System.Single offset
-    float& dyn_offset();
+    [[deprecated("Use field access instead!")]] float& dyn_offset();
     // public System.Void .ctor()
-    // Offset: 0x1411700
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14314AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DroneHover::SineLayer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DroneHover::SineLayer::.ctor");

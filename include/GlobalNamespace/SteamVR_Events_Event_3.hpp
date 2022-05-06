@@ -32,6 +32,13 @@ namespace GlobalNamespace {
   template<typename T0, typename T1, typename T2>
   class SteamVR_Events::Event_3 : public ::UnityEngine::Events::UnityEvent_3<T0, T1, T2> {
     public:
+    // public System.Void .ctor()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static SteamVR_Events::Event_3<T0, T1, T2>* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Events::Event_3::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Events::Event_3<T0, T1, T2>*, creationType>()));
+    }
     // public System.Void Listen(UnityEngine.Events.UnityAction`3<T0,T1,T2> action)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Listen(::UnityEngine::Events::UnityAction_3<T0, T1, T2>* action) {
@@ -52,17 +59,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Events::Event_3::Send");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Send", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg0), ::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, arg0, arg1, arg2);
-    }
-    // public System.Void .ctor()
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    // Implemented from: UnityEngine.Events.UnityEvent`3
-    // Base method: System.Void UnityEvent_3::.ctor()
-    // Base method: System.Void UnityEventBase::.ctor()
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SteamVR_Events::Event_3<T0, T1, T2>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Events::Event_3::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Events::Event_3<T0, T1, T2>*, creationType>()));
     }
   }; // SteamVR_Events/Event`3
   // Could not write size check! Type: SteamVR_Events/Event`3 is generic, or has no fields that are valid for size checks!

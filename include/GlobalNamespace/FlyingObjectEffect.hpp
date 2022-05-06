@@ -46,15 +46,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FlyingObjectEffect : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.AnimationCurve _moveAnimationCurve
     // Size: 0x8
     // Offset: 0x18
@@ -141,56 +133,50 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AnimationCurve _moveAnimationCurve
-    ::UnityEngine::AnimationCurve*& dyn__moveAnimationCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__moveAnimationCurve();
     // Get instance field reference: private System.Single _shakeFrequency
-    float& dyn__shakeFrequency();
+    [[deprecated("Use field access instead!")]] float& dyn__shakeFrequency();
     // Get instance field reference: private System.Single _shakeStrength
-    float& dyn__shakeStrength();
+    [[deprecated("Use field access instead!")]] float& dyn__shakeStrength();
     // Get instance field reference: private UnityEngine.AnimationCurve _shakeStrengthAnimationCurve
-    ::UnityEngine::AnimationCurve*& dyn__shakeStrengthAnimationCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__shakeStrengthAnimationCurve();
     // Get instance field reference: private System.Boolean _initialized
-    bool& dyn__initialized();
+    [[deprecated("Use field access instead!")]] bool& dyn__initialized();
     // Get instance field reference: private UnityEngine.Quaternion _shakeRotation
-    ::UnityEngine::Quaternion& dyn__shakeRotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__shakeRotation();
     // Get instance field reference: private UnityEngine.Quaternion _rotation
-    ::UnityEngine::Quaternion& dyn__rotation();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__rotation();
     // Get instance field reference: private System.Single _elapsedTime
-    float& dyn__elapsedTime();
+    [[deprecated("Use field access instead!")]] float& dyn__elapsedTime();
     // Get instance field reference: private UnityEngine.Vector3 _startPos
-    ::UnityEngine::Vector3& dyn__startPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__startPos();
     // Get instance field reference: private UnityEngine.Vector3 _targetPos
-    ::UnityEngine::Vector3& dyn__targetPos();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__targetPos();
     // Get instance field reference: private System.Single _duration
-    float& dyn__duration();
+    [[deprecated("Use field access instead!")]] float& dyn__duration();
     // Get instance field reference: private System.Boolean _shake
-    bool& dyn__shake();
+    [[deprecated("Use field access instead!")]] bool& dyn__shake();
     // Get instance field reference: private readonly LazyCopyHashSet`1<IFlyingObjectEffectDidFinishEvent> _didFinishEvent
-    ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>*& dyn__didFinishEvent();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>*& dyn__didFinishEvent();
     // public ILazyCopyHashSet`1<IFlyingObjectEffectDidFinishEvent> get_didFinishEvent()
-    // Offset: 0x13907C8
+    // Offset: 0x13782DC
     ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* get_didFinishEvent();
-    // public System.Void InitAndPresent(System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, System.Boolean shake)
-    // Offset: 0x13907D0
-    void InitAndPresent(float duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, bool shake);
-    // protected System.Void Update()
-    // Offset: 0x13908BC
-    void Update();
-    // protected System.Void ManualUpdate(System.Single t)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    void ManualUpdate(float t);
     // protected System.Void .ctor()
-    // Offset: 0x1390C50
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1378764
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlyingObjectEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FlyingObjectEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlyingObjectEffect*, creationType>()));
     }
+    // public System.Void InitAndPresent(System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, System.Boolean shake)
+    // Offset: 0x13782E4
+    void InitAndPresent(float duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, bool shake);
+    // protected System.Void Update()
+    // Offset: 0x13783D0
+    void Update();
+    // protected System.Void ManualUpdate(System.Single t)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    void ManualUpdate(float t);
   }; // FlyingObjectEffect
   #pragma pack(pop)
   static check_size<sizeof(FlyingObjectEffect), 120 + sizeof(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>*)> __GlobalNamespace_FlyingObjectEffectSizeCheck;
@@ -205,6 +191,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingObjectEffect*), "get_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::FlyingObjectEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FlyingObjectEffect::InitAndPresent
 // Il2CppName: InitAndPresent
 template<>
@@ -234,7 +224,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingObjectEffect*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FlyingObjectEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

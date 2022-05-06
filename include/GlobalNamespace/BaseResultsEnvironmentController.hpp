@@ -35,32 +35,30 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseResultsEnvironmentController : public ::UnityEngine::MonoBehaviour {
     public:
-    // public System.Void Activate(System.Boolean immediately)
-    // Offset: 0x1360840
-    void Activate(bool immediately);
-    // public System.Void Deactivate(System.Boolean immediately)
-    // Offset: 0x1360868
-    void Deactivate(bool immediately);
-    // public System.Void Setup(IReadonlyBeatmapData beatmapData)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    void Setup(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
     // protected System.Void .ctor()
-    // Offset: 0x1360890
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1348B10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseResultsEnvironmentController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BaseResultsEnvironmentController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseResultsEnvironmentController*, creationType>()));
     }
+    // public System.Void Activate(System.Boolean immediately)
+    // Offset: 0x1348AC0
+    void Activate(bool immediately);
+    // public System.Void Deactivate(System.Boolean immediately)
+    // Offset: 0x1348AE8
+    void Deactivate(bool immediately);
+    // public System.Void Setup(IReadonlyBeatmapData beatmapData)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    void Setup(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
   }; // BaseResultsEnvironmentController
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BaseResultsEnvironmentController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BaseResultsEnvironmentController::Activate
 // Il2CppName: Activate
 template<>
@@ -88,7 +86,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseResultsEnvironmentController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapData});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BaseResultsEnvironmentController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

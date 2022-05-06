@@ -24,15 +24,7 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class SortVersion : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 m_NlsVersion
     // Size: 0x4
     // Offset: 0x10
@@ -47,9 +39,9 @@ namespace System::Globalization {
     static_assert(sizeof(::System::Guid) == 0x10);
     public:
     // Get instance field reference: private System.Int32 m_NlsVersion
-    int& dyn_m_NlsVersion();
+    [[deprecated("Use field access instead!")]] int& dyn_m_NlsVersion();
     // Get instance field reference: private System.Guid m_SortId
-    ::System::Guid& dyn_m_SortId();
+    [[deprecated("Use field access instead!")]] ::System::Guid& dyn_m_SortId();
   }; // System.Globalization.SortVersion
   #pragma pack(pop)
   static check_size<sizeof(SortVersion), 20 + sizeof(::System::Guid)> __System_Globalization_SortVersionSizeCheck;

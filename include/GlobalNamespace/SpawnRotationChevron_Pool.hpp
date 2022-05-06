@@ -25,12 +25,7 @@ namespace GlobalNamespace {
   class SpawnRotationChevron::Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::SpawnRotationChevron*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2AAA424
-    // Implemented from: Zenject.MonoMemoryPool`1
-    // Base method: System.Void MonoMemoryPool_1::.ctor()
-    // Base method: System.Void MemoryPool_1::.ctor()
-    // Base method: System.Void MemoryPoolBase_1::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1391048
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SpawnRotationChevron::Pool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SpawnRotationChevron::Pool::.ctor");

@@ -44,15 +44,7 @@ namespace Newtonsoft::Json::Serialization {
   // [PreserveAttribute] Offset: FFFFFFFF
   class DiagnosticsTraceWriter : public ::Il2CppObject/*, public ::Newtonsoft::Json::Serialization::ITraceWriter*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Diagnostics.TraceLevel <LevelFilter>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -69,25 +61,23 @@ namespace Newtonsoft::Json::Serialization {
       return LevelFilter;
     }
     // Get instance field reference: private System.Diagnostics.TraceLevel <LevelFilter>k__BackingField
-    ::System::Diagnostics::TraceLevel& dyn_$LevelFilter$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Diagnostics::TraceLevel& dyn_$LevelFilter$k__BackingField();
     // public System.Diagnostics.TraceLevel get_LevelFilter()
-    // Offset: 0x1D2201C
+    // Offset: 0x1D5E574
     ::System::Diagnostics::TraceLevel get_LevelFilter();
-    // private System.Diagnostics.TraceEventType GetTraceEventType(System.Diagnostics.TraceLevel level)
-    // Offset: 0x1D22024
-    ::System::Diagnostics::TraceEventType GetTraceEventType(::System::Diagnostics::TraceLevel level);
-    // public System.Void Trace(System.Diagnostics.TraceLevel level, System.String message, System.Exception ex)
-    // Offset: 0x1D220B8
-    void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex);
     // public System.Void .ctor()
-    // Offset: 0x1D2249C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1D5E9F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiagnosticsTraceWriter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiagnosticsTraceWriter*, creationType>()));
     }
+    // private System.Diagnostics.TraceEventType GetTraceEventType(System.Diagnostics.TraceLevel level)
+    // Offset: 0x1D5E57C
+    ::System::Diagnostics::TraceEventType GetTraceEventType(::System::Diagnostics::TraceLevel level);
+    // public System.Void Trace(System.Diagnostics.TraceLevel level, System.String message, System.Exception ex)
+    // Offset: 0x1D5E610
+    void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex);
   }; // Newtonsoft.Json.Serialization.DiagnosticsTraceWriter
   #pragma pack(pop)
   static check_size<sizeof(DiagnosticsTraceWriter), 16 + sizeof(::System::Diagnostics::TraceLevel)> __Newtonsoft_Json_Serialization_DiagnosticsTraceWriterSizeCheck;
@@ -102,6 +92,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::D
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::DiagnosticsTraceWriter*), "get_LevelFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::GetTraceEventType
 // Il2CppName: GetTraceEventType
 template<>
@@ -122,7 +116,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::DiagnosticsTraceWriter*), "Trace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{level, message, ex});
   }
 };
-// Writing MetadataGetter for method: Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

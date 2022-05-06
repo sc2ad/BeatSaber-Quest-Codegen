@@ -54,15 +54,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::LightRotationGroupEffect::InitData
     class InitData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly UnityEngine.Transform _transform
     // Size: 0x8
     // Offset: 0x10
@@ -109,37 +101,37 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::BeatmapDataCallbackWrapper*) == 0x8);
     public:
     // Get instance field reference: private readonly UnityEngine.Transform _transform
-    ::UnityEngine::Transform*& dyn__transform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // Get instance field reference: private readonly LightRotationBeatmapEventData/Axis _axis
-    ::GlobalNamespace::LightRotationBeatmapEventData::Axis& dyn__axis();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightRotationBeatmapEventData::Axis& dyn__axis();
     // Get instance field reference: private readonly System.Boolean _mirrored
-    bool& dyn__mirrored();
+    [[deprecated("Use field access instead!")]] bool& dyn__mirrored();
     // Get instance field reference: private readonly Tweening.SongTimeTweeningManager _tweeningManager
-    ::Tweening::SongTimeTweeningManager*& dyn__tweeningManager();
+    [[deprecated("Use field access instead!")]] ::Tweening::SongTimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
-    ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
     // Get instance field reference: private readonly Tweening.FloatTween _rotationTween
-    ::Tweening::FloatTween*& dyn__rotationTween();
+    [[deprecated("Use field access instead!")]] ::Tweening::FloatTween*& dyn__rotationTween();
     // Get instance field reference: private readonly BeatmapDataCallbackWrapper _lightRotationBeatmapEventCallbackWrapper
-    ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__lightRotationBeatmapEventCallbackWrapper();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__lightRotationBeatmapEventCallbackWrapper();
     // public System.Void .ctor(LightRotationGroupEffect/InitData initData, Tweening.SongTimeTweeningManager tweeningManager, BeatmapCallbacksController beatmapCallbacksController)
-    // Offset: 0x148F038
+    // Offset: 0x14C58C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightRotationGroupEffect* New_ctor(::GlobalNamespace::LightRotationGroupEffect::InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightRotationGroupEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightRotationGroupEffect*, creationType>(initData, tweeningManager, beatmapCallbacksController)));
     }
     // public System.Void Cleanup()
-    // Offset: 0x148F220
+    // Offset: 0x14C5AA8
     void Cleanup();
     // private System.Void HandleRotationChangeBeatmapEvent(LightRotationBeatmapEventData currentEventData)
-    // Offset: 0x148F2CC
+    // Offset: 0x14C5B54
     void HandleRotationChangeBeatmapEvent(::GlobalNamespace::LightRotationBeatmapEventData* currentEventData);
     // private System.Void SetRotation(System.Single rotation)
-    // Offset: 0x148F484
+    // Offset: 0x14C5D0C
     void SetRotation(float rotation);
     // static public System.Single ComputeTargetAngle(System.Single startAngle, System.Single targetAngle, System.Int32 loopCount, LightRotationDirection rotationOrientation)
-    // Offset: 0x148F588
+    // Offset: 0x14C5E10
     static float ComputeTargetAngle(float startAngle, float targetAngle, int loopCount, ::GlobalNamespace::LightRotationDirection rotationOrientation);
   }; // LightRotationGroupEffect
   #pragma pack(pop)

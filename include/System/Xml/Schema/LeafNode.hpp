@@ -42,15 +42,7 @@ namespace System::Xml::Schema {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeafNode : public ::System::Xml::Schema::SyntaxTreeNode {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 pos
     // Size: 0x4
     // Offset: 0x10
@@ -63,32 +55,32 @@ namespace System::Xml::Schema {
       return pos;
     }
     // Get instance field reference: private System.Int32 pos
-    int& dyn_pos();
+    [[deprecated("Use field access instead!")]] int& dyn_pos();
     // public System.Int32 get_Pos()
-    // Offset: 0x1C23BBC
+    // Offset: 0x1C5E1A4
     int get_Pos();
     // public System.Void set_Pos(System.Int32 value)
-    // Offset: 0x1C23BC4
+    // Offset: 0x1C5E1AC
     void set_Pos(int value);
     // public System.Void .ctor(System.Int32 pos)
-    // Offset: 0x1C23B90
+    // Offset: 0x1C5E178
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeafNode* New_ctor(int pos) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::LeafNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeafNode*, creationType>(pos)));
     }
     // public override System.Boolean get_IsNullable()
-    // Offset: 0x1C23C1C
+    // Offset: 0x1C5E204
     // Implemented from: System.Xml.Schema.SyntaxTreeNode
     // Base method: System.Boolean SyntaxTreeNode::get_IsNullable()
     bool get_IsNullable();
     // public override System.Void ExpandTree(System.Xml.Schema.InteriorNode parent, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.Positions positions)
-    // Offset: 0x1C23BCC
+    // Offset: 0x1C5E1B4
     // Implemented from: System.Xml.Schema.SyntaxTreeNode
     // Base method: System.Void SyntaxTreeNode::ExpandTree(System.Xml.Schema.InteriorNode parent, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.Positions positions)
     void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
     // public override System.Void ConstructPos(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet lastpos, System.Xml.Schema.BitSet[] followpos)
-    // Offset: 0x1C23BD0
+    // Offset: 0x1C5E1B8
     // Implemented from: System.Xml.Schema.SyntaxTreeNode
     // Base method: System.Void SyntaxTreeNode::ConstructPos(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet lastpos, System.Xml.Schema.BitSet[] followpos)
     void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos);

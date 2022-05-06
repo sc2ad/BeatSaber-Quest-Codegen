@@ -39,15 +39,7 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class LightManager : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly UnityEngine.Vector4[] _directionalLightDirections
     // Size: 0x8
     // Offset: 0x18
@@ -93,89 +85,93 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x123821C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BCCD4
     // Get static field: static private readonly System.Int32 _directionalLightDirectionsID
     static int _get__directionalLightDirectionsID();
     // Set static field: static private readonly System.Int32 _directionalLightDirectionsID
     static void _set__directionalLightDirectionsID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x123822C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BCCE4
     // Get static field: static private readonly System.Int32 _directionalLightPositionID
     static int _get__directionalLightPositionID();
     // Set static field: static private readonly System.Int32 _directionalLightPositionID
     static void _set__directionalLightPositionID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x123823C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BCCF4
     // Get static field: static private readonly System.Int32 _directionalLightRadiiID
     static int _get__directionalLightRadiiID();
     // Set static field: static private readonly System.Int32 _directionalLightRadiiID
     static void _set__directionalLightRadiiID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x123824C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BCD04
     // Get static field: static private readonly System.Int32 _directionalLightColorsID
     static int _get__directionalLightColorsID();
     // Set static field: static private readonly System.Int32 _directionalLightColorsID
     static void _set__directionalLightColorsID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x123825C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BCD14
     // Get static field: static private readonly System.Int32 _pointLightPositionsID
     static int _get__pointLightPositionsID();
     // Set static field: static private readonly System.Int32 _pointLightPositionsID
     static void _set__pointLightPositionsID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x123826C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BCD24
     // Get static field: static private readonly System.Int32 _pointLightColorsID
     static int _get__pointLightColorsID();
     // Set static field: static private readonly System.Int32 _pointLightColorsID
     static void _set__pointLightColorsID(int value);
     // Get instance field reference: private readonly UnityEngine.Vector4[] _directionalLightDirections
-    ::ArrayW<::UnityEngine::Vector4>& dyn__directionalLightDirections();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector4>& dyn__directionalLightDirections();
     // Get instance field reference: private readonly UnityEngine.Vector4[] _directionalLightColors
-    ::ArrayW<::UnityEngine::Vector4>& dyn__directionalLightColors();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector4>& dyn__directionalLightColors();
     // Get instance field reference: private readonly UnityEngine.Vector4[] _directionalLightPositions
-    ::ArrayW<::UnityEngine::Vector4>& dyn__directionalLightPositions();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector4>& dyn__directionalLightPositions();
     // Get instance field reference: private readonly System.Single[] _directionalLightRadii
-    ::ArrayW<float>& dyn__directionalLightRadii();
+    [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn__directionalLightRadii();
     // Get instance field reference: private readonly UnityEngine.Vector4[] _pointLightPositions
-    ::ArrayW<::UnityEngine::Vector4>& dyn__pointLightPositions();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector4>& dyn__pointLightPositions();
     // Get instance field reference: private readonly UnityEngine.Vector4[] _pointLightColors
-    ::ArrayW<::UnityEngine::Vector4>& dyn__pointLightColors();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector4>& dyn__pointLightColors();
     // Get instance field reference: private System.Int32 lastRefreshFrameNum
-    int& dyn_lastRefreshFrameNum();
-    // protected System.Void OnEnable()
-    // Offset: 0x2AD1B00
-    void OnEnable();
-    // protected System.Void OnDisable()
-    // Offset: 0x2AD1BC4
-    void OnDisable();
-    // private System.Void OnCameraPreRender(UnityEngine.Camera camera)
-    // Offset: 0x2AD1C88
-    void OnCameraPreRender(::UnityEngine::Camera* camera);
-    // protected System.Void OnDestroy()
-    // Offset: 0x2AD22B4
-    void OnDestroy();
-    // private System.Void ResetColors()
-    // Offset: 0x2AD22B8
-    void ResetColors();
+    [[deprecated("Use field access instead!")]] int& dyn_lastRefreshFrameNum();
     // public System.Void .ctor()
-    // Offset: 0x2AD2434
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E7B7FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightManager*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2AD24F4
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x1E7B8BC
     static void _cctor();
+    // protected System.Void OnEnable()
+    // Offset: 0x1E7AEC8
+    void OnEnable();
+    // protected System.Void OnDisable()
+    // Offset: 0x1E7AF8C
+    void OnDisable();
+    // private System.Void OnCameraPreRender(UnityEngine.Camera camera)
+    // Offset: 0x1E7B050
+    void OnCameraPreRender(::UnityEngine::Camera* camera);
+    // protected System.Void OnDestroy()
+    // Offset: 0x1E7B67C
+    void OnDestroy();
+    // private System.Void ResetColors()
+    // Offset: 0x1E7B680
+    void ResetColors();
   }; // LightManager
   #pragma pack(pop)
   static check_size<sizeof(LightManager), 72 + sizeof(int)> __GlobalNamespace_LightManagerSizeCheck;
   static_assert(sizeof(LightManager) == 0x4C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::LightManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::LightManager::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::LightManager::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightManager::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -215,17 +211,5 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightManager::*)()>(&GlobalNamespace::LightManager::ResetColors)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightManager*), "ResetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::LightManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::LightManager::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::LightManager::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

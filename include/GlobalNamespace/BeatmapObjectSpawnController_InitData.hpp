@@ -25,15 +25,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapObjectSpawnController::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Single beatsPerMinute
     // Size: 0x4
     // Offset: 0x10
@@ -66,17 +58,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public readonly System.Single beatsPerMinute
-    float& dyn_beatsPerMinute();
+    [[deprecated("Use field access instead!")]] float& dyn_beatsPerMinute();
     // Get instance field reference: public readonly System.Int32 noteLinesCount
-    int& dyn_noteLinesCount();
+    [[deprecated("Use field access instead!")]] int& dyn_noteLinesCount();
     // Get instance field reference: public readonly System.Single noteJumpMovementSpeed
-    float& dyn_noteJumpMovementSpeed();
+    [[deprecated("Use field access instead!")]] float& dyn_noteJumpMovementSpeed();
     // Get instance field reference: public readonly BeatmapObjectSpawnMovementData/NoteJumpValueType noteJumpValueType
-    ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpValueType& dyn_noteJumpValueType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpValueType& dyn_noteJumpValueType();
     // Get instance field reference: public readonly System.Single noteJumpValue
-    float& dyn_noteJumpValue();
+    [[deprecated("Use field access instead!")]] float& dyn_noteJumpValue();
     // public System.Void .ctor(System.Single beatsPerMinute, System.Int32 noteLinesCount, System.Single noteJumpMovementSpeed, BeatmapObjectSpawnMovementData/NoteJumpValueType noteJumpValueType, System.Single noteJumpValue)
-    // Offset: 0x14D9D38
+    // Offset: 0x1511640
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectSpawnController::InitData* New_ctor(float beatsPerMinute, int noteLinesCount, float noteJumpMovementSpeed, ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpValueType noteJumpValueType, float noteJumpValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectSpawnController::InitData::.ctor");

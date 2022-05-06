@@ -40,15 +40,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_ThreadedTaskLoadGeo::HEU_LoadObject : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 _objectNodeID
     // Size: 0x4
     // Offset: 0x10
@@ -81,19 +73,17 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>*) == 0x8);
     public:
     // Get instance field reference: public System.Int32 _objectNodeID
-    int& dyn__objectNodeID();
+    [[deprecated("Use field access instead!")]] int& dyn__objectNodeID();
     // Get instance field reference: public System.Int32 _displayNodeID
-    int& dyn__displayNodeID();
+    [[deprecated("Use field access instead!")]] int& dyn__displayNodeID();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_LoadBufferVolume> _terrainBuffers
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>*& dyn__terrainBuffers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>*& dyn__terrainBuffers();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_LoadBufferMesh> _meshBuffers
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferMesh*>*& dyn__meshBuffers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferMesh*>*& dyn__meshBuffers();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_LoadBufferInstancer> _instancerBuffers
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>*& dyn__instancerBuffers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>*& dyn__instancerBuffers();
     // public System.Void .ctor()
-    // Offset: 0x19D0F6C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1A0A554
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ThreadedTaskLoadGeo::HEU_LoadObject* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadObject::.ctor");

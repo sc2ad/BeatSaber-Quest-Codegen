@@ -51,15 +51,7 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class GameObjectCreationParameters : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String <Name>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -98,85 +90,83 @@ namespace Zenject {
     // Set static field: static public readonly Zenject.GameObjectCreationParameters Default
     static void _set_Default(::Zenject::GameObjectCreationParameters* value);
     // Get instance field reference: private System.String <Name>k__BackingField
-    ::StringW& dyn_$Name$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$Name$k__BackingField();
     // Get instance field reference: private System.String <GroupName>k__BackingField
-    ::StringW& dyn_$GroupName$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_$GroupName$k__BackingField();
     // Get instance field reference: private UnityEngine.Transform <ParentTransform>k__BackingField
-    ::UnityEngine::Transform*& dyn_$ParentTransform$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_$ParentTransform$k__BackingField();
     // Get instance field reference: private System.Func`2<Zenject.InjectContext,UnityEngine.Transform> <ParentTransformGetter>k__BackingField
-    ::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>*& dyn_$ParentTransformGetter$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>*& dyn_$ParentTransformGetter$k__BackingField();
     // Get instance field reference: private System.Nullable`1<UnityEngine.Vector3> <Position>k__BackingField
-    ::System::Nullable_1<::UnityEngine::Vector3>& dyn_$Position$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Nullable_1<::UnityEngine::Vector3>& dyn_$Position$k__BackingField();
     // Get instance field reference: private System.Nullable`1<UnityEngine.Quaternion> <Rotation>k__BackingField
-    ::System::Nullable_1<::UnityEngine::Quaternion>& dyn_$Rotation$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::System::Nullable_1<::UnityEngine::Quaternion>& dyn_$Rotation$k__BackingField();
     // public System.String get_Name()
-    // Offset: 0x1DEB750
+    // Offset: 0x1E2601C
     ::StringW get_Name();
     // public System.Void set_Name(System.String value)
-    // Offset: 0x1DEB758
+    // Offset: 0x1E26024
     void set_Name(::StringW value);
     // public System.String get_GroupName()
-    // Offset: 0x1DEB760
+    // Offset: 0x1E2602C
     ::StringW get_GroupName();
     // public System.Void set_GroupName(System.String value)
-    // Offset: 0x1DEB768
+    // Offset: 0x1E26034
     void set_GroupName(::StringW value);
     // public UnityEngine.Transform get_ParentTransform()
-    // Offset: 0x1DEB770
+    // Offset: 0x1E2603C
     ::UnityEngine::Transform* get_ParentTransform();
     // public System.Void set_ParentTransform(UnityEngine.Transform value)
-    // Offset: 0x1DEB778
+    // Offset: 0x1E26044
     void set_ParentTransform(::UnityEngine::Transform* value);
     // public System.Func`2<Zenject.InjectContext,UnityEngine.Transform> get_ParentTransformGetter()
-    // Offset: 0x1DEB780
+    // Offset: 0x1E2604C
     ::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>* get_ParentTransformGetter();
     // public System.Void set_ParentTransformGetter(System.Func`2<Zenject.InjectContext,UnityEngine.Transform> value)
-    // Offset: 0x1DEB788
+    // Offset: 0x1E26054
     void set_ParentTransformGetter(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>* value);
     // public System.Nullable`1<UnityEngine.Vector3> get_Position()
-    // Offset: 0x1DEB790
+    // Offset: 0x1E2605C
     ::System::Nullable_1<::UnityEngine::Vector3> get_Position();
     // public System.Void set_Position(System.Nullable`1<UnityEngine.Vector3> value)
-    // Offset: 0x1DEB79C
+    // Offset: 0x1E26068
     void set_Position(::System::Nullable_1<::UnityEngine::Vector3> value);
     // public System.Nullable`1<UnityEngine.Quaternion> get_Rotation()
-    // Offset: 0x1DEB7A4
+    // Offset: 0x1E26070
     ::System::Nullable_1<::UnityEngine::Quaternion> get_Rotation();
     // public System.Void set_Rotation(System.Nullable`1<UnityEngine.Quaternion> value)
-    // Offset: 0x1DEB7B8
+    // Offset: 0x1E26084
     void set_Rotation(::System::Nullable_1<::UnityEngine::Quaternion> value);
-    // static private System.Void .cctor()
-    // Offset: 0x1DEBB98
-    static void _cctor();
-    // public System.Boolean Equals(Zenject.GameObjectCreationParameters that)
-    // Offset: 0x1DEBB00
-    bool Equals(::Zenject::GameObjectCreationParameters* that);
     // public System.Void .ctor()
-    // Offset: 0x1DDDFC8
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1E18894
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameObjectCreationParameters* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GameObjectCreationParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameObjectCreationParameters*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1E26464
+    static void _cctor();
+    // public System.Boolean Equals(Zenject.GameObjectCreationParameters that)
+    // Offset: 0x1E263CC
+    bool Equals(::Zenject::GameObjectCreationParameters* that);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1DEB7CC
+    // Offset: 0x1E26098
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0x1DEB9B8
+    // Offset: 0x1E26284
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
   }; // Zenject.GameObjectCreationParameters
   // WARNING Not writing size check since size may be invalid!
   // static public System.Boolean op_Equality(Zenject.GameObjectCreationParameters left, Zenject.GameObjectCreationParameters right)
-  // Offset: 0x1DEBAA4
+  // Offset: 0x1E26370
   bool operator ==(::Zenject::GameObjectCreationParameters* left, ::Zenject::GameObjectCreationParameters& right);
   // static public System.Boolean op_Inequality(Zenject.GameObjectCreationParameters left, Zenject.GameObjectCreationParameters right)
-  // Offset: 0x1DEBB74
+  // Offset: 0x1E26440
   bool operator !=(::Zenject::GameObjectCreationParameters* left, ::Zenject::GameObjectCreationParameters& right);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -282,6 +272,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
     return ::il2cpp_utils::FindMethod(classof(Zenject::GameObjectCreationParameters*), "set_Rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: Zenject::GameObjectCreationParameters::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::GameObjectCreationParameters::_cctor
 // Il2CppName: .cctor
 template<>
@@ -299,10 +293,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
     return ::il2cpp_utils::FindMethod(classof(Zenject::GameObjectCreationParameters*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{that});
   }
 };
-// Writing MetadataGetter for method: Zenject::GameObjectCreationParameters::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::GameObjectCreationParameters::GetHashCode
 // Il2CppName: GetHashCode
 template<>

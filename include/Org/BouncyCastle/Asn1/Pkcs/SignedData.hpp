@@ -46,15 +46,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   // [TokenAttribute] Offset: FFFFFFFF
   class SignedData : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly Org.BouncyCastle.Asn1.DerInteger version
     // Size: 0x8
     // Offset: 0x10
@@ -93,35 +85,35 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     static_assert(sizeof(::Org::BouncyCastle::Asn1::Asn1Set*) == 0x8);
     public:
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger version
-    ::Org::BouncyCastle::Asn1::DerInteger*& dyn_version();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerInteger*& dyn_version();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Set digestAlgorithms
-    ::Org::BouncyCastle::Asn1::Asn1Set*& dyn_digestAlgorithms();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1Set*& dyn_digestAlgorithms();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Pkcs.ContentInfo contentInfo
-    ::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*& dyn_contentInfo();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*& dyn_contentInfo();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Set certificates
-    ::Org::BouncyCastle::Asn1::Asn1Set*& dyn_certificates();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1Set*& dyn_certificates();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Set crls
-    ::Org::BouncyCastle::Asn1::Asn1Set*& dyn_crls();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1Set*& dyn_crls();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Set signerInfos
-    ::Org::BouncyCastle::Asn1::Asn1Set*& dyn_signerInfos();
+    [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1Set*& dyn_signerInfos();
     // public Org.BouncyCastle.Asn1.Asn1Set get_Certificates()
-    // Offset: 0x1C95304
+    // Offset: 0x1CD185C
     ::Org::BouncyCastle::Asn1::Asn1Set* get_Certificates();
     // public Org.BouncyCastle.Asn1.Asn1Set get_Crls()
-    // Offset: 0x1C9530C
+    // Offset: 0x1CD1864
     ::Org::BouncyCastle::Asn1::Asn1Set* get_Crls();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1C94D78
+    // Offset: 0x1CD12D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Pkcs::SignedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignedData*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.Pkcs.SignedData GetInstance(System.Object obj)
-    // Offset: 0x1C94CD4
+    // Offset: 0x1CD122C
     static ::Org::BouncyCastle::Asn1::Pkcs::SignedData* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1C95314
+    // Offset: 0x1CD186C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

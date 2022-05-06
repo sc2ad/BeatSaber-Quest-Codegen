@@ -36,15 +36,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MultiplayerIntroCountdown::$$c__DisplayClass25_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public MultiplayerIntroCountdownTextController textController
     // Size: 0x8
     // Offset: 0x10
@@ -59,39 +51,41 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::MultiplayerIntroCountdown*) == 0x8);
     public:
     // Get instance field reference: public MultiplayerIntroCountdownTextController textController
-    ::GlobalNamespace::MultiplayerIntroCountdownTextController*& dyn_textController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerIntroCountdownTextController*& dyn_textController();
     // Get instance field reference: public MultiplayerIntroCountdown <>4__this
-    ::GlobalNamespace::MultiplayerIntroCountdown*& dyn_$$4__this();
-    // System.Void <PhaseRoutine>b__0(System.Single val)
-    // Offset: 0x13F458C
-    void $PhaseRoutine$b__0(float val);
-    // System.Void <PhaseRoutine>b__1(System.Single val)
-    // Offset: 0x13F4620
-    void $PhaseRoutine$b__1(float val);
-    // System.Void <PhaseRoutine>b__2(UnityEngine.Vector3 pos)
-    // Offset: 0x13F4714
-    void $PhaseRoutine$b__2(::UnityEngine::Vector3 pos);
-    // System.Void <PhaseRoutine>b__3(System.Single f)
-    // Offset: 0x13F4768
-    void $PhaseRoutine$b__3(float f);
-    // System.Void <PhaseRoutine>b__4(System.Single val)
-    // Offset: 0x13F485C
-    void $PhaseRoutine$b__4(float val);
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerIntroCountdown*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x13F4584
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1401024
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerIntroCountdown::$$c__DisplayClass25_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerIntroCountdown::$$c__DisplayClass25_0*, creationType>()));
     }
+    // System.Void <PhaseRoutine>b__0(System.Single val)
+    // Offset: 0x140102C
+    void $PhaseRoutine$b__0(float val);
+    // System.Void <PhaseRoutine>b__1(System.Single val)
+    // Offset: 0x14010C0
+    void $PhaseRoutine$b__1(float val);
+    // System.Void <PhaseRoutine>b__2(UnityEngine.Vector3 pos)
+    // Offset: 0x14011B4
+    void $PhaseRoutine$b__2(::UnityEngine::Vector3 pos);
+    // System.Void <PhaseRoutine>b__3(System.Single f)
+    // Offset: 0x1401208
+    void $PhaseRoutine$b__3(float f);
+    // System.Void <PhaseRoutine>b__4(System.Single val)
+    // Offset: 0x14012FC
+    void $PhaseRoutine$b__4(float val);
   }; // MultiplayerIntroCountdown/<>c__DisplayClass25_0
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerIntroCountdown::$$c__DisplayClass25_0), 24 + sizeof(::GlobalNamespace::MultiplayerIntroCountdown*)> __GlobalNamespace_MultiplayerIntroCountdown_$$c__DisplayClass25_0SizeCheck;
   static_assert(sizeof(MultiplayerIntroCountdown::$$c__DisplayClass25_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::$PhaseRoutine$b__0
 // Il2CppName: <PhaseRoutine>b__0
 template<>
@@ -137,7 +131,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0*), "<PhaseRoutine>b__4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

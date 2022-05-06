@@ -42,15 +42,7 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x29 to desired offset: 0x30
     char ___base_padding[0x7] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.ParticleSystem _particleSystem
     // Size: 0x8
     // Offset: 0x30
@@ -71,14 +63,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: setColorOnly and: intensity
     char __padding2[0x2] = {};
-    // [DrawIfAttribute] Offset: 0x1238EE8
+    // [DrawIfAttribute] Offset: 0x10BD9B0
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x3C
     float intensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0x1238F8C
+    // [DrawIfAttribute] Offset: 0x10BDA54
     // private System.Single _minAlpha
     // Size: 0x4
     // Offset: 0x40
@@ -101,41 +93,36 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<::UnityEngine::ParticleSystem::Particle>) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.ParticleSystem _particleSystem
-    ::UnityEngine::ParticleSystem*& dyn__particleSystem();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn__particleSystem();
     // Get instance field reference: private System.Boolean setOnlyOnce
-    bool& dyn_setOnlyOnce();
+    [[deprecated("Use field access instead!")]] bool& dyn_setOnlyOnce();
     // Get instance field reference: private System.Boolean _setColorOnly
-    bool& dyn__setColorOnly();
+    [[deprecated("Use field access instead!")]] bool& dyn__setColorOnly();
     // Get instance field reference: private System.Single _intensity
-    float& dyn__intensity();
+    [[deprecated("Use field access instead!")]] float& dyn__intensity();
     // Get instance field reference: private System.Single _minAlpha
-    float& dyn__minAlpha();
+    [[deprecated("Use field access instead!")]] float& dyn__minAlpha();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.MainModule _mainModule
-    ::UnityEngine::ParticleSystem::MainModule& dyn__mainModule();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::MainModule& dyn__mainModule();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.Particle[] _particles
-    ::ArrayW<::UnityEngine::ParticleSystem::Particle>& dyn__particles();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::ParticleSystem::Particle>& dyn__particles();
     // public UnityEngine.Color get_color()
-    // Offset: 0x2AD7F98
+    // Offset: 0x1E813A8
     ::UnityEngine::Color get_color();
     // protected System.Void Awake()
-    // Offset: 0x2AD7FF8
+    // Offset: 0x1E81408
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x2AD82D0
+    // Offset: 0x1E816E0
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParticleSystemLightWithId* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ParticleSystemLightWithId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParticleSystemLightWithId*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x2AD8078
+    // Offset: 0x1E81488
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);

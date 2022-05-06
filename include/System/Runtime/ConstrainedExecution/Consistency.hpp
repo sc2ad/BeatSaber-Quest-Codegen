@@ -66,7 +66,7 @@ namespace System::Runtime::ConstrainedExecution {
     // Set static field: static public System.Runtime.ConstrainedExecution.Consistency WillNotCorruptState
     static void _set_WillNotCorruptState(::System::Runtime::ConstrainedExecution::Consistency value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Runtime.ConstrainedExecution.Consistency
   #pragma pack(pop)
   static check_size<sizeof(Consistency), 0 + sizeof(int)> __System_Runtime_ConstrainedExecution_ConsistencySizeCheck;

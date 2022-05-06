@@ -39,22 +39,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerSpectatingSpotPickerViewController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private StepValuePicker _stepValuePicker
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::StepValuePicker* stepValuePicker;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::StepValuePicker*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252F1C
+    // [InjectAttribute] Offset: 0x10D7B00
     // private readonly MultiplayerSpectatorController _spectatorController
     // Size: 0x8
     // Offset: 0x20
@@ -65,46 +57,44 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private StepValuePicker _stepValuePicker
-    ::GlobalNamespace::StepValuePicker*& dyn__stepValuePicker();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::StepValuePicker*& dyn__stepValuePicker();
     // Get instance field reference: private readonly MultiplayerSpectatorController _spectatorController
-    ::GlobalNamespace::MultiplayerSpectatorController*& dyn__spectatorController();
-    // protected System.Void Start()
-    // Offset: 0x13ABDDC
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13AC098
-    void OnDestroy();
-    // private System.Void HandleSpectatingSpotDidChangeEvent(IMultiplayerSpectatingSpot spectatingSpot)
-    // Offset: 0x13AC2C4
-    void HandleSpectatingSpotDidChangeEvent(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
-    // private System.Void RefreshSpectatingSpotName()
-    // Offset: 0x13ABEF4
-    void RefreshSpectatingSpotName();
-    // private System.Void HandleIncButtonWasPressed()
-    // Offset: 0x13AC2C8
-    void HandleIncButtonWasPressed();
-    // private System.Void HandleDecButtonWasPressed()
-    // Offset: 0x13AC32C
-    void HandleDecButtonWasPressed();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerSpectatorController*& dyn__spectatorController();
     // public System.Void .ctor()
-    // Offset: 0x13AC390
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13A883C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerSpectatingSpotPickerViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerSpectatingSpotPickerViewController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x13A8288
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13A8544
+    void OnDestroy();
+    // private System.Void HandleSpectatingSpotDidChangeEvent(IMultiplayerSpectatingSpot spectatingSpot)
+    // Offset: 0x13A8770
+    void HandleSpectatingSpotDidChangeEvent(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
+    // private System.Void RefreshSpectatingSpotName()
+    // Offset: 0x13A83A0
+    void RefreshSpectatingSpotName();
+    // private System.Void HandleIncButtonWasPressed()
+    // Offset: 0x13A8774
+    void HandleIncButtonWasPressed();
+    // private System.Void HandleDecButtonWasPressed()
+    // Offset: 0x13A87D8
+    void HandleDecButtonWasPressed();
   }; // MultiplayerSpectatingSpotPickerViewController
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerSpectatingSpotPickerViewController), 32 + sizeof(::GlobalNamespace::MultiplayerSpectatorController*)> __GlobalNamespace_MultiplayerSpectatingSpotPickerViewControllerSizeCheck;
   static_assert(sizeof(MultiplayerSpectatingSpotPickerViewController) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::Start
 // Il2CppName: Start
 template<>
@@ -154,7 +144,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatingSpotPickerViewController*), "HandleDecButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

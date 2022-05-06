@@ -60,15 +60,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::DisconnectPromptView::$$c__DisplayClass12_0
     class $$c__DisplayClass12_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HMUI.PanelAnimationSO _presentPanelAnimation
     // Size: 0x8
     // Offset: 0x18
@@ -81,7 +73,7 @@ namespace GlobalNamespace {
     ::HMUI::PanelAnimationSO* dismissPanelAnimation;
     // Field size check
     static_assert(sizeof(::HMUI::PanelAnimationSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x125D868
+    // [SpaceAttribute] Offset: 0x10E244C
     // private UnityEngine.GameObject _promptGameObject
     // Size: 0x8
     // Offset: 0x28
@@ -116,56 +108,50 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.PanelAnimationSO _presentPanelAnimation
-    ::HMUI::PanelAnimationSO*& dyn__presentPanelAnimation();
+    [[deprecated("Use field access instead!")]] ::HMUI::PanelAnimationSO*& dyn__presentPanelAnimation();
     // Get instance field reference: private HMUI.PanelAnimationSO _dismissPanelAnimation
-    ::HMUI::PanelAnimationSO*& dyn__dismissPanelAnimation();
+    [[deprecated("Use field access instead!")]] ::HMUI::PanelAnimationSO*& dyn__dismissPanelAnimation();
     // Get instance field reference: private UnityEngine.GameObject _promptGameObject
-    ::UnityEngine::GameObject*& dyn__promptGameObject();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__promptGameObject();
     // Get instance field reference: private UnityEngine.UI.Button _okButton
-    ::UnityEngine::UI::Button*& dyn__okButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__okButton();
     // Get instance field reference: private UnityEngine.UI.Button _cancelButton
-    ::UnityEngine::UI::Button*& dyn__cancelButton();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__cancelButton();
     // Get instance field reference: private System.Action`1<System.Boolean> didViewFinishEvent
-    ::System::Action_1<bool>*& dyn_didViewFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<bool>*& dyn_didViewFinishEvent();
     // Get instance field reference: private readonly HMUI.ButtonBinder _buttonBinder
-    ::HMUI::ButtonBinder*& dyn__buttonBinder();
+    [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // public System.Void add_didViewFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x140F98C
+    // Offset: 0x142F738
     void add_didViewFinishEvent(::System::Action_1<bool>* value);
     // public System.Void remove_didViewFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x140FA30
+    // Offset: 0x142F7DC
     void remove_didViewFinishEvent(::System::Action_1<bool>* value);
-    // private System.Void OnEnable()
-    // Offset: 0x140FAD4
-    void OnEnable();
-    // private System.Void OnDisable()
-    // Offset: 0x140FBB4
-    void OnDisable();
-    // public System.Void Show()
-    // Offset: 0x140FBD0
-    void Show();
-    // public System.Void Hide(System.Action finishedCallback)
-    // Offset: 0x140FC14
-    void Hide(::System::Action* finishedCallback);
-    // private System.Void <OnEnable>b__9_0()
-    // Offset: 0x140FD3C
-    void $OnEnable$b__9_0();
-    // private System.Void <OnEnable>b__9_1()
-    // Offset: 0x140FDA0
-    void $OnEnable$b__9_1();
     // public System.Void .ctor()
-    // Offset: 0x140FCD4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x142FA80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisconnectPromptView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DisconnectPromptView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisconnectPromptView*, creationType>()));
     }
+    // private System.Void OnEnable()
+    // Offset: 0x142F880
+    void OnEnable();
+    // private System.Void OnDisable()
+    // Offset: 0x142F960
+    void OnDisable();
+    // public System.Void Show()
+    // Offset: 0x142F97C
+    void Show();
+    // public System.Void Hide(System.Action finishedCallback)
+    // Offset: 0x142F9C0
+    void Hide(::System::Action* finishedCallback);
+    // private System.Void <OnEnable>b__9_0()
+    // Offset: 0x142FAE8
+    void $OnEnable$b__9_0();
+    // private System.Void <OnEnable>b__9_1()
+    // Offset: 0x142FB4C
+    void $OnEnable$b__9_1();
   }; // DisconnectPromptView
   #pragma pack(pop)
   static check_size<sizeof(DisconnectPromptView), 72 + sizeof(::HMUI::ButtonBinder*)> __GlobalNamespace_DisconnectPromptViewSizeCheck;
@@ -190,6 +176,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectPromptView*), "remove_didViewFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::DisconnectPromptView::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::DisconnectPromptView::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -239,7 +229,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectPromptView*), "<OnEnable>b__9_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::DisconnectPromptView::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -27,15 +27,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class TypeInformation : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String fullTypeName
     // Size: 0x8
     // Offset: 0x10
@@ -56,22 +48,22 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.String fullTypeName
-    ::StringW& dyn_fullTypeName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_fullTypeName();
     // Get instance field reference: private System.String assemblyString
-    ::StringW& dyn_assemblyString();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_assemblyString();
     // Get instance field reference: private System.Boolean hasTypeForwardedFrom
-    bool& dyn_hasTypeForwardedFrom();
+    [[deprecated("Use field access instead!")]] bool& dyn_hasTypeForwardedFrom();
     // System.String get_FullTypeName()
-    // Offset: 0x15F8844
+    // Offset: 0x162E154
     ::StringW get_FullTypeName();
     // System.String get_AssemblyString()
-    // Offset: 0x15F884C
+    // Offset: 0x162E15C
     ::StringW get_AssemblyString();
     // System.Boolean get_HasTypeForwardedFrom()
-    // Offset: 0x15F8854
+    // Offset: 0x162E164
     bool get_HasTypeForwardedFrom();
     // System.Void .ctor(System.String fullTypeName, System.String assemblyString, System.Boolean hasTypeForwardedFrom)
-    // Offset: 0x15F885C
+    // Offset: 0x162E16C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeInformation* New_ctor(::StringW fullTypeName, ::StringW assemblyString, bool hasTypeForwardedFrom) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::TypeInformation::.ctor");

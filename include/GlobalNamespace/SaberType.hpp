@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Set static field: static public SaberType SaberB
     static void _set_SaberB(::GlobalNamespace::SaberType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // SaberType
   #pragma pack(pop)
   static check_size<sizeof(SaberType), 0 + sizeof(int)> __GlobalNamespace_SaberTypeSizeCheck;

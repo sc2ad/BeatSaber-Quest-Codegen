@@ -33,23 +33,15 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionTrigger::Range::Interaction : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [TooltipAttribute] Offset: 0x12791F4
+    // [TooltipAttribute] Offset: 0x10FDEAC
     // public RootMotion.FinalIK.InteractionObject interactionObject
     // Size: 0x8
     // Offset: 0x10
     ::RootMotion::FinalIK::InteractionObject* interactionObject;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::InteractionObject*) == 0x8);
-    // [TooltipAttribute] Offset: 0x127922C
+    // [TooltipAttribute] Offset: 0x10FDEE4
     // public RootMotion.FinalIK.FullBodyBipedEffector[] effectors
     // Size: 0x8
     // Offset: 0x18
@@ -58,13 +50,11 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::FullBodyBipedEffector>) == 0x8);
     public:
     // Get instance field reference: public RootMotion.FinalIK.InteractionObject interactionObject
-    ::RootMotion::FinalIK::InteractionObject*& dyn_interactionObject();
+    [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::InteractionObject*& dyn_interactionObject();
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector[] effectors
-    ::ArrayW<::RootMotion::FinalIK::FullBodyBipedEffector>& dyn_effectors();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::FullBodyBipedEffector>& dyn_effectors();
     // public System.Void .ctor()
-    // Offset: 0x1F6E730
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1FBAFA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionTrigger::Range::Interaction* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionTrigger::Range::Interaction::.ctor");

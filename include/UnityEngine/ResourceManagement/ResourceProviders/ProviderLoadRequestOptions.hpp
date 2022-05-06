@@ -26,15 +26,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   class ProviderLoadRequestOptions : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean m_IgnoreFailures
     // Size: 0x1
     // Offset: 0x10
@@ -47,17 +39,15 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
       return m_IgnoreFailures;
     }
     // Get instance field reference: private System.Boolean m_IgnoreFailures
-    bool& dyn_m_IgnoreFailures();
+    [[deprecated("Use field access instead!")]] bool& dyn_m_IgnoreFailures();
     // System.Boolean get_IgnoreFailures()
-    // Offset: 0x1E9FE7C
+    // Offset: 0x1EEE3B4
     bool get_IgnoreFailures();
     // System.Void set_IgnoreFailures(System.Boolean value)
-    // Offset: 0x1E9FE84
+    // Offset: 0x1EEE3BC
     void set_IgnoreFailures(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1E9FE90
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1EEE3C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProviderLoadRequestOptions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::.ctor");

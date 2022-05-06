@@ -46,15 +46,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::TrailerGameplayManager::$Start$d__4
     class $Start$d__4;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean _disableMainCamera
     // Size: 0x1
     // Offset: 0x18
@@ -63,21 +55,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: disableMainCamera and: gameScenesManager
     char __padding0[0x7] = {};
-    // [InjectAttribute] Offset: 0x1252944
+    // [InjectAttribute] Offset: 0x10D7528
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252954
+    // [InjectAttribute] Offset: 0x10D7538
     // private GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1252964
+    // [InjectAttribute] Offset: 0x10D7548
     // private MainCamera _mainCamera
     // Size: 0x8
     // Offset: 0x30
@@ -88,35 +80,33 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean _disableMainCamera
-    bool& dyn__disableMainCamera();
+    [[deprecated("Use field access instead!")]] bool& dyn__disableMainCamera();
     // Get instance field reference: private GameScenesManager _gameScenesManager
-    ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // Get instance field reference: private GameSongController _gameSongController
-    ::GlobalNamespace::GameSongController*& dyn__gameSongController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameSongController*& dyn__gameSongController();
     // Get instance field reference: private MainCamera _mainCamera
-    ::GlobalNamespace::MainCamera*& dyn__mainCamera();
-    // private System.Collections.IEnumerator Start()
-    // Offset: 0x1340060
-    ::System::Collections::IEnumerator* Start();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainCamera*& dyn__mainCamera();
     // public System.Void .ctor()
-    // Offset: 0x13400FC
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x142202C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrailerGameplayManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TrailerGameplayManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrailerGameplayManager*, creationType>()));
     }
+    // private System.Collections.IEnumerator Start()
+    // Offset: 0x1421F90
+    ::System::Collections::IEnumerator* Start();
   }; // TrailerGameplayManager
   #pragma pack(pop)
   static check_size<sizeof(TrailerGameplayManager), 48 + sizeof(::GlobalNamespace::MainCamera*)> __GlobalNamespace_TrailerGameplayManagerSizeCheck;
   static_assert(sizeof(TrailerGameplayManager) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::TrailerGameplayManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TrailerGameplayManager::Start
 // Il2CppName: Start
 template<>
@@ -125,7 +115,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailerGameplayManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TrailerGameplayManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

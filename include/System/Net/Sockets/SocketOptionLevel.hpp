@@ -72,7 +72,7 @@ namespace System::Net::Sockets {
     // Set static field: static public System.Net.Sockets.SocketOptionLevel Udp
     static void _set_Udp(::System::Net::Sockets::SocketOptionLevel value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Net.Sockets.SocketOptionLevel
   #pragma pack(pop)
   static check_size<sizeof(SocketOptionLevel), 0 + sizeof(int)> __System_Net_Sockets_SocketOptionLevelSizeCheck;

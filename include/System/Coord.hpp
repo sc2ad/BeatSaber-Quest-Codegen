@@ -45,9 +45,9 @@ namespace System {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int16 X
-    int16_t& dyn_X();
+    [[deprecated("Use field access instead!")]] int16_t& dyn_X();
     // Get instance field reference: public System.Int16 Y
-    int16_t& dyn_Y();
+    [[deprecated("Use field access instead!")]] int16_t& dyn_Y();
   }; // System.Coord
   #pragma pack(pop)
   static check_size<sizeof(Coord), 2 + sizeof(int16_t)> __System_CoordSizeCheck;

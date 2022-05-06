@@ -43,15 +43,7 @@ namespace System::Xml {
     public:
     // Writing base type padding for base size: 0x11 to desired offset: 0x18
     char ___base_padding[0x7] = {};
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Xml.CharEntityEncoderFallbackBuffer fallbackBuffer
     // Size: 0x8
     // Offset: 0x18
@@ -86,41 +78,38 @@ namespace System::Xml {
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get instance field reference: private System.Xml.CharEntityEncoderFallbackBuffer fallbackBuffer
-    ::System::Xml::CharEntityEncoderFallbackBuffer*& dyn_fallbackBuffer();
+    [[deprecated("Use field access instead!")]] ::System::Xml::CharEntityEncoderFallbackBuffer*& dyn_fallbackBuffer();
     // Get instance field reference: private System.Int32[] textContentMarks
-    ::ArrayW<int>& dyn_textContentMarks();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_textContentMarks();
     // Get instance field reference: private System.Int32 endMarkPos
-    int& dyn_endMarkPos();
+    [[deprecated("Use field access instead!")]] int& dyn_endMarkPos();
     // Get instance field reference: private System.Int32 curMarkPos
-    int& dyn_curMarkPos();
+    [[deprecated("Use field access instead!")]] int& dyn_curMarkPos();
     // Get instance field reference: private System.Int32 startOffset
-    int& dyn_startOffset();
+    [[deprecated("Use field access instead!")]] int& dyn_startOffset();
     // System.Void set_StartOffset(System.Int32 value)
-    // Offset: 0x1A80CD0
+    // Offset: 0x1ABB2B8
     void set_StartOffset(int value);
-    // System.Void Reset(System.Int32[] textContentMarks, System.Int32 endMarkPos)
-    // Offset: 0x1A80CD8
-    void Reset(::ArrayW<int> textContentMarks, int endMarkPos);
-    // System.Boolean CanReplaceAt(System.Int32 index)
-    // Offset: 0x1A80CE4
-    bool CanReplaceAt(int index);
-    // public override System.Int32 get_MaxCharCount()
-    // Offset: 0x1A80CC8
-    // Implemented from: System.Text.EncoderFallback
-    // Base method: System.Int32 EncoderFallback::get_MaxCharCount()
-    int get_MaxCharCount();
     // System.Void .ctor()
-    // Offset: 0x1A80BD8
-    // Implemented from: System.Text.EncoderFallback
-    // Base method: System.Void EncoderFallback::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1ABB1C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CharEntityEncoderFallback* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::CharEntityEncoderFallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CharEntityEncoderFallback*, creationType>()));
     }
+    // System.Void Reset(System.Int32[] textContentMarks, System.Int32 endMarkPos)
+    // Offset: 0x1ABB2C0
+    void Reset(::ArrayW<int> textContentMarks, int endMarkPos);
+    // System.Boolean CanReplaceAt(System.Int32 index)
+    // Offset: 0x1ABB2CC
+    bool CanReplaceAt(int index);
+    // public override System.Int32 get_MaxCharCount()
+    // Offset: 0x1ABB2B0
+    // Implemented from: System.Text.EncoderFallback
+    // Base method: System.Int32 EncoderFallback::get_MaxCharCount()
+    int get_MaxCharCount();
     // public override System.Text.EncoderFallbackBuffer CreateFallbackBuffer()
-    // Offset: 0x1A80BE0
+    // Offset: 0x1ABB1C8
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Text.EncoderFallbackBuffer EncoderFallback::CreateFallbackBuffer()
     ::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
@@ -139,6 +128,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Xml::CharEntityEncoderFallback*), "set_StartOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: System::Xml::CharEntityEncoderFallback::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::CharEntityEncoderFallback::Reset
 // Il2CppName: Reset
 template<>
@@ -166,10 +159,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
     return ::il2cpp_utils::FindMethod(classof(System::Xml::CharEntityEncoderFallback*), "get_MaxCharCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Xml::CharEntityEncoderFallback::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::CharEntityEncoderFallback::CreateFallbackBuffer
 // Il2CppName: CreateFallbackBuffer
 template<>

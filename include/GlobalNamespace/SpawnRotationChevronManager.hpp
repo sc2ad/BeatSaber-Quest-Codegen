@@ -66,15 +66,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::SpawnRotationChevronManager::DirectionData
     class DirectionData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single _fadeInTime
     // Size: 0x4
     // Offset: 0x18
@@ -111,28 +103,28 @@ namespace GlobalNamespace {
     ::UnityEngine::AnimationCurve* fadeOutLightAmountCurve;
     // Field size check
     static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
-    // [InjectAttribute] Offset: 0x1251F40
+    // [InjectAttribute] Offset: 0x10D6ACC
     // private readonly SpawnRotationChevron/Pool _chevronPool
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::SpawnRotationChevron::Pool* chevronPool;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SpawnRotationChevron::Pool*) == 0x8);
-    // [InjectAttribute] Offset: 0x1251F50
+    // [InjectAttribute] Offset: 0x10D6ADC
     // private readonly IAudioTimeSource _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::IAudioTimeSource* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0x1251F60
+    // [InjectAttribute] Offset: 0x10D6AEC
     // private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1251F70
+    // [InjectAttribute] Offset: 0x10D6AFC
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x50
@@ -191,81 +183,79 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _fadeInTime
-    float& dyn__fadeInTime();
+    [[deprecated("Use field access instead!")]] float& dyn__fadeInTime();
     // Get instance field reference: private System.Single _fadeOutTime
-    float& dyn__fadeOutTime();
+    [[deprecated("Use field access instead!")]] float& dyn__fadeOutTime();
     // Get instance field reference: private System.Single _jumpStartOffsetTime
-    float& dyn__jumpStartOffsetTime();
+    [[deprecated("Use field access instead!")]] float& dyn__jumpStartOffsetTime();
     // Get instance field reference: private System.Single _cutOffsetTime
-    float& dyn__cutOffsetTime();
+    [[deprecated("Use field access instead!")]] float& dyn__cutOffsetTime();
     // Get instance field reference: private UnityEngine.AnimationCurve _fadeInLightAmountCurve
-    ::UnityEngine::AnimationCurve*& dyn__fadeInLightAmountCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__fadeInLightAmountCurve();
     // Get instance field reference: private UnityEngine.AnimationCurve _fadeOutLightAmountCurve
-    ::UnityEngine::AnimationCurve*& dyn__fadeOutLightAmountCurve();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__fadeOutLightAmountCurve();
     // Get instance field reference: private readonly SpawnRotationChevron/Pool _chevronPool
-    ::GlobalNamespace::SpawnRotationChevron::Pool*& dyn__chevronPool();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SpawnRotationChevron::Pool*& dyn__chevronPool();
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSyncController
-    ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSyncController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSyncController();
     // Get instance field reference: private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
-    ::GlobalNamespace::BeatmapObjectSpawnController*& dyn__beatmapObjectSpawnController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectSpawnController*& dyn__beatmapObjectSpawnController();
     // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
-    ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
     // Get instance field reference: private BeatmapDataCallbackWrapper _spawnRotationDataCallbackWrapper
-    ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__spawnRotationDataCallbackWrapper();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__spawnRotationDataCallbackWrapper();
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapObjectDataCallbackWrapper
-    ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapObjectDataCallbackWrapper();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapObjectDataCallbackWrapper();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,SpawnRotationChevronManager/DirectionData> _directionToDataDictionary
-    ::System::Collections::Generic::Dictionary_2<int, ::GlobalNamespace::SpawnRotationChevronManager::DirectionData*>*& dyn__directionToDataDictionary();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::GlobalNamespace::SpawnRotationChevronManager::DirectionData*>*& dyn__directionToDataDictionary();
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.Int32> _activeDirections
-    ::System::Collections::Generic::HashSet_1<int>*& dyn__activeDirections();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<int>*& dyn__activeDirections();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Int32> _reusableDirectionsList
-    ::System::Collections::Generic::List_1<int>*& dyn__reusableDirectionsList();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<int>*& dyn__reusableDirectionsList();
     // Get instance field reference: private System.Single _moveDuration
-    float& dyn__moveDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__moveDuration();
     // Get instance field reference: private System.Single _halfJumpDuration
-    float& dyn__halfJumpDuration();
+    [[deprecated("Use field access instead!")]] float& dyn__halfJumpDuration();
     // Get instance field reference: private System.Single _currentSpawnRotation
-    float& dyn__currentSpawnRotation();
-    // protected System.Void Start()
-    // Offset: 0x2AAA474
-    void Start();
-    // protected System.Void Update()
-    // Offset: 0x2AAA6AC
-    void Update();
-    // protected System.Void OnDestroy()
-    // Offset: 0x2AAB08C
-    void OnDestroy();
-    // private System.Void HandleBeatmapObjectCallback(BeatmapObjectData beatmapObjectData)
-    // Offset: 0x2AAB188
-    void HandleBeatmapObjectCallback(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
-    // private System.Void HandleSpawnRotationBeatmapEvent(SpawnRotationBeatmapEventData beatmapEventData)
-    // Offset: 0x2AAB450
-    void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::SpawnRotationBeatmapEventData* beatmapEventData);
-    // private System.Void HandleBeatmapObjectSpawnControllerDidInit()
-    // Offset: 0x2AAA594
-    void HandleBeatmapObjectSpawnControllerDidInit();
-    // private System.Single ComputeAheadTime()
-    // Offset: 0x2AAB46C
-    float ComputeAheadTime();
+    [[deprecated("Use field access instead!")]] float& dyn__currentSpawnRotation();
     // public System.Void .ctor()
-    // Offset: 0x2AAB4D4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13920F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SpawnRotationChevronManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SpawnRotationChevronManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SpawnRotationChevronManager*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x1391098
+    void Start();
+    // protected System.Void Update()
+    // Offset: 0x13912D0
+    void Update();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1391CB0
+    void OnDestroy();
+    // private System.Void HandleBeatmapObjectCallback(BeatmapObjectData beatmapObjectData)
+    // Offset: 0x1391DAC
+    void HandleBeatmapObjectCallback(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
+    // private System.Void HandleSpawnRotationBeatmapEvent(SpawnRotationBeatmapEventData beatmapEventData)
+    // Offset: 0x1392074
+    void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::SpawnRotationBeatmapEventData* beatmapEventData);
+    // private System.Void HandleBeatmapObjectSpawnControllerDidInit()
+    // Offset: 0x13911B8
+    void HandleBeatmapObjectSpawnControllerDidInit();
+    // private System.Single ComputeAheadTime()
+    // Offset: 0x1392090
+    float ComputeAheadTime();
   }; // SpawnRotationChevronManager
   #pragma pack(pop)
   static check_size<sizeof(SpawnRotationChevronManager), 136 + sizeof(float)> __GlobalNamespace_SpawnRotationChevronManagerSizeCheck;
   static_assert(sizeof(SpawnRotationChevronManager) == 0x8C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SpawnRotationChevronManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SpawnRotationChevronManager::Start
 // Il2CppName: Start
 template<>
@@ -324,7 +314,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpawnRotationChevronManager*), "ComputeAheadTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SpawnRotationChevronManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Set static field: static public ScoreMultiplierCounter/MultiplierEventType Negative
     static void _set_Negative(::GlobalNamespace::ScoreMultiplierCounter::MultiplierEventType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // ScoreMultiplierCounter/MultiplierEventType
   #pragma pack(pop)
   static check_size<sizeof(ScoreMultiplierCounter::MultiplierEventType), 0 + sizeof(int)> __GlobalNamespace_ScoreMultiplierCounter_MultiplierEventTypeSizeCheck;

@@ -86,22 +86,22 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
-    int& dyn_$$1__state();
+    [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public AudioClipAsyncLoader <>4__this
-    ::GlobalNamespace::AudioClipAsyncLoader*& dyn_$$4__this();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioClipAsyncLoader*& dyn_$$4__this();
     // Get instance field reference: public System.Int32 cacheKey
-    int& dyn_cacheKey();
+    [[deprecated("Use field access instead!")]] int& dyn_cacheKey();
     // Get instance field reference: public System.Action`1<UnityEngine.AudioClip> onDelete
-    ::System::Action_1<::UnityEngine::AudioClip*>*& dyn_onDelete();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::UnityEngine::AudioClip*>*& dyn_onDelete();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<UnityEngine.AudioClip> <>u__1
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AudioClip*>& dyn_$$u__1();
+    [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AudioClip*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x14B83B8
+    // Offset: 0x14EFC70
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x14B8740
+    // Offset: 0x14EFFF8
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // AudioClipAsyncLoader/<Unload>d__21
   // WARNING Not writing size check since size may be invalid!

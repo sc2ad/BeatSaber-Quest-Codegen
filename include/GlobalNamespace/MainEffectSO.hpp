@@ -36,29 +36,24 @@ namespace GlobalNamespace {
   class MainEffectSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
     // public System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x29E8CCC
+    // Offset: 0x2A3F5C8
     bool get_hasPostProcessEffect();
-    // public System.Void PreRender()
-    // Offset: 0x29E8CC0
-    void PreRender();
-    // public System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
-    // Offset: 0x29E8CC4
-    void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float fade);
-    // public System.Void PostRender(System.Single fade)
-    // Offset: 0x29E8CC8
-    void PostRender(float fade);
     // public System.Void .ctor()
-    // Offset: 0x29E8374
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A3EC70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainEffectSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainEffectSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainEffectSO*, creationType>()));
     }
+    // public System.Void PreRender()
+    // Offset: 0x2A3F5BC
+    void PreRender();
+    // public System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
+    // Offset: 0x2A3F5C0
+    void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float fade);
+    // public System.Void PostRender(System.Single fade)
+    // Offset: 0x2A3F5C4
+    void PostRender(float fade);
   }; // MainEffectSO
   #pragma pack(pop)
 }
@@ -71,6 +66,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectSO*), "get_hasPostProcessEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MainEffectSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectSO::PreRender
 // Il2CppName: PreRender
 template<>
@@ -99,7 +98,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectSO*), "PostRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fade});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MainEffectSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

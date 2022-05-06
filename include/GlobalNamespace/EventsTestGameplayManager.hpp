@@ -64,15 +64,7 @@ namespace GlobalNamespace {
     class $$c__DisplayClass19_0;
     // Nested type: ::GlobalNamespace::EventsTestGameplayManager::$$c__DisplayClass20_0
     class $$c__DisplayClass20_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean _moveTime
     // Size: 0x1
     // Offset: 0x18
@@ -87,21 +79,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: spawnTestBox and: beatmapCallbacksController
     char __padding1[0x6] = {};
-    // [InjectAttribute] Offset: 0x12527A4
+    // [InjectAttribute] Offset: 0x10D7388
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x12527B4
+    // [InjectAttribute] Offset: 0x10D7398
     // private readonly BeatmapData _beatmapData
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::BeatmapData* beatmapData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapData*) == 0x8);
-    // [InjectAttribute] Offset: 0x12527C4
+    // [InjectAttribute] Offset: 0x10D73A8
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x30
@@ -172,70 +164,68 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kNumberOfLightGroups
     static void _set_kNumberOfLightGroups(int value);
     // Get instance field reference: private System.Boolean _moveTime
-    bool& dyn__moveTime();
+    [[deprecated("Use field access instead!")]] bool& dyn__moveTime();
     // Get instance field reference: private System.Boolean _spawnTestBox
-    bool& dyn__spawnTestBox();
+    [[deprecated("Use field access instead!")]] bool& dyn__spawnTestBox();
     // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
-    ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
     // Get instance field reference: private readonly BeatmapData _beatmapData
-    ::GlobalNamespace::BeatmapData*& dyn__beatmapData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapData*& dyn__beatmapData();
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
-    ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // Get instance field reference: private BasicBeatmapEventType _basicBeatmapEventType
-    ::GlobalNamespace::BasicBeatmapEventType& dyn__basicBeatmapEventType();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BasicBeatmapEventType& dyn__basicBeatmapEventType();
     // Get instance field reference: private System.Single _floatValue
-    float& dyn__floatValue();
+    [[deprecated("Use field access instead!")]] float& dyn__floatValue();
     // Get instance field reference: private readonly BeatmapEventDataBoxGroupList[] _beatmapEventDataBoxGroupLists
-    ::ArrayW<::GlobalNamespace::BeatmapEventDataBoxGroupList*>& dyn__beatmapEventDataBoxGroupLists();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::BeatmapEventDataBoxGroupList*>& dyn__beatmapEventDataBoxGroupLists();
     // Get instance field reference: private System.Boolean[] groupState
-    ::ArrayW<bool>& dyn_groupState();
+    [[deprecated("Use field access instead!")]] ::ArrayW<bool>& dyn_groupState();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<UnityEngine.KeyCode,BasicBeatmapEventType> _beatmapEventTypeBindings
-    ::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, ::GlobalNamespace::BasicBeatmapEventType>*& dyn__beatmapEventTypeBindings();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, ::GlobalNamespace::BasicBeatmapEventType>*& dyn__beatmapEventTypeBindings();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<UnityEngine.KeyCode,System.Int32> _intBindings
-    ::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int>*& dyn__intBindings();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int>*& dyn__intBindings();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<UnityEngine.KeyCode,System.Int32> _beatmapValuesBindings
-    ::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int>*& dyn__beatmapValuesBindings();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int>*& dyn__beatmapValuesBindings();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<UnityEngine.KeyCode,System.Single> _floatValuesBindings
-    ::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, float>*& dyn__floatValuesBindings();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, float>*& dyn__floatValuesBindings();
     // Get instance field reference: private System.Boolean _rotatingLasers
-    bool& dyn__rotatingLasers();
-    // protected System.Void Start()
-    // Offset: 0x1386CA0
-    void Start();
-    // protected System.Void Update()
-    // Offset: 0x1386DEC
-    void Update();
-    // private System.Void AddEventsForLightGroup(System.Int32 lightGroupId)
-    // Offset: 0x13875E8
-    void AddEventsForLightGroup(int lightGroupId);
-    // private System.Void AddInstantToggleEventsForLightGroup(System.Int32 lightGroupId)
-    // Offset: 0x1388298
-    void AddInstantToggleEventsForLightGroup(int lightGroupId);
-    // private System.Void AddToggleEventsForLightGroup(System.Int32 lightGroupId, EnvironmentColorType color)
-    // Offset: 0x1387DB8
-    void AddToggleEventsForLightGroup(int lightGroupId, ::GlobalNamespace::EnvironmentColorType color);
-    // private System.Void AddTestBox()
-    // Offset: 0x1388638
-    void AddTestBox();
+    [[deprecated("Use field access instead!")]] bool& dyn__rotatingLasers();
     // public System.Void .ctor()
-    // Offset: 0x1388EE4
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1370ABC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventsTestGameplayManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EventsTestGameplayManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventsTestGameplayManager*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x136E87C
+    void Start();
+    // protected System.Void Update()
+    // Offset: 0x136E9C8
+    void Update();
+    // private System.Void AddEventsForLightGroup(System.Int32 lightGroupId)
+    // Offset: 0x136F1C4
+    void AddEventsForLightGroup(int lightGroupId);
+    // private System.Void AddInstantToggleEventsForLightGroup(System.Int32 lightGroupId)
+    // Offset: 0x136FE70
+    void AddInstantToggleEventsForLightGroup(int lightGroupId);
+    // private System.Void AddToggleEventsForLightGroup(System.Int32 lightGroupId, EnvironmentColorType color)
+    // Offset: 0x136F990
+    void AddToggleEventsForLightGroup(int lightGroupId, ::GlobalNamespace::EnvironmentColorType color);
+    // private System.Void AddTestBox()
+    // Offset: 0x1370210
+    void AddTestBox();
   }; // EventsTestGameplayManager
   #pragma pack(pop)
   static check_size<sizeof(EventsTestGameplayManager), 112 + sizeof(bool)> __GlobalNamespace_EventsTestGameplayManagerSizeCheck;
   static_assert(sizeof(EventsTestGameplayManager) == 0x71);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::EventsTestGameplayManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EventsTestGameplayManager::Start
 // Il2CppName: Start
 template<>
@@ -288,7 +278,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EventsTestGameplayManager*), "AddTestBox", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::EventsTestGameplayManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

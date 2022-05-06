@@ -98,20 +98,12 @@ namespace HoudiniEngineUnity {
       // Set static field: static public HoudiniEngineUnity.HEU_GenerateGeoCache/HoudiniEngineUnity.HEU_ColliderInfo/HoudiniEngineUnity.ColliderType SIMPLE_CAPSULE
       static void _set_SIMPLE_CAPSULE(::HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo::ColliderType value);
       // Get instance field reference: public System.Int32 value__
-      int& dyn_value__();
+      [[deprecated("Use field access instead!")]] int& dyn_value__();
     }; // HoudiniEngineUnity.HEU_GenerateGeoCache/HoudiniEngineUnity.HEU_ColliderInfo/HoudiniEngineUnity.ColliderType
     #pragma pack(pop)
     static check_size<sizeof(HEU_GenerateGeoCache::HEU_ColliderInfo::ColliderType), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_GenerateGeoCache_HEU_ColliderInfo_ColliderTypeSizeCheck;
     static_assert(sizeof(HEU_GenerateGeoCache::HEU_ColliderInfo::ColliderType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public HoudiniEngineUnity.HEU_GenerateGeoCache/HoudiniEngineUnity.HEU_ColliderInfo/HoudiniEngineUnity.ColliderType _colliderType
     // Size: 0x4
     // Offset: 0x10
@@ -176,29 +168,27 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public HoudiniEngineUnity.HEU_GenerateGeoCache/HoudiniEngineUnity.HEU_ColliderInfo/HoudiniEngineUnity.ColliderType _colliderType
-    ::HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo::ColliderType& dyn__colliderType();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo::ColliderType& dyn__colliderType();
     // Get instance field reference: public UnityEngine.Vector3 _colliderCenter
-    ::UnityEngine::Vector3& dyn__colliderCenter();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__colliderCenter();
     // Get instance field reference: public UnityEngine.Vector3 _colliderSize
-    ::UnityEngine::Vector3& dyn__colliderSize();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__colliderSize();
     // Get instance field reference: public System.Single _colliderRadius
-    float& dyn__colliderRadius();
+    [[deprecated("Use field access instead!")]] float& dyn__colliderRadius();
     // Get instance field reference: public System.Boolean _convexCollider
-    bool& dyn__convexCollider();
+    [[deprecated("Use field access instead!")]] bool& dyn__convexCollider();
     // Get instance field reference: public System.String _collisionGroupName
-    ::StringW& dyn__collisionGroupName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__collisionGroupName();
     // Get instance field reference: public UnityEngine.Vector3[] _collisionVertices
-    ::ArrayW<::UnityEngine::Vector3>& dyn__collisionVertices();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn__collisionVertices();
     // Get instance field reference: public System.Int32[] _collisionIndices
-    ::ArrayW<int>& dyn__collisionIndices();
+    [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__collisionIndices();
     // Get instance field reference: public UnityEngine.MeshTopology _meshTopology
-    ::UnityEngine::MeshTopology& dyn__meshTopology();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MeshTopology& dyn__meshTopology();
     // Get instance field reference: public System.Boolean _isTrigger
-    bool& dyn__isTrigger();
+    [[deprecated("Use field access instead!")]] bool& dyn__isTrigger();
     // public System.Void .ctor()
-    // Offset: 0x1758664
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1790F74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_GenerateGeoCache::HEU_ColliderInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo::.ctor");

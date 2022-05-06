@@ -36,15 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionCompletionResults : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly LevelCompletionResults levelCompletionResults
     // Size: 0x8
     // Offset: 0x10
@@ -59,14 +51,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<::GlobalNamespace::MissionObjectiveResult*>) == 0x8);
     public:
     // Get instance field reference: public readonly LevelCompletionResults levelCompletionResults
-    ::GlobalNamespace::LevelCompletionResults*& dyn_levelCompletionResults();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelCompletionResults*& dyn_levelCompletionResults();
     // Get instance field reference: public readonly MissionObjectiveResult[] missionObjectiveResults
-    ::ArrayW<::GlobalNamespace::MissionObjectiveResult*>& dyn_missionObjectiveResults();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MissionObjectiveResult*>& dyn_missionObjectiveResults();
     // public System.Boolean get_IsMissionComplete()
-    // Offset: 0x13045FC
+    // Offset: 0x1300AD4
     bool get_IsMissionComplete();
     // public System.Void .ctor(LevelCompletionResults levelCompletionResults, MissionObjectiveResult[] missionObjectiveResults)
-    // Offset: 0x130467C
+    // Offset: 0x1300B54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionCompletionResults* New_ctor(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::ArrayW<::GlobalNamespace::MissionObjectiveResult*> missionObjectiveResults) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionCompletionResults::.ctor");

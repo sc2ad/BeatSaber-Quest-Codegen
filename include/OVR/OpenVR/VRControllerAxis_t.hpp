@@ -44,9 +44,9 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single x
-    float& dyn_x();
+    [[deprecated("Use field access instead!")]] float& dyn_x();
     // Get instance field reference: public System.Single y
-    float& dyn_y();
+    [[deprecated("Use field access instead!")]] float& dyn_y();
   }; // OVR.OpenVR.VRControllerAxis_t
   #pragma pack(pop)
   static check_size<sizeof(VRControllerAxis_t), 4 + sizeof(float)> __OVR_OpenVR_VRControllerAxis_tSizeCheck;

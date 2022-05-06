@@ -27,15 +27,7 @@ namespace BeatmapSaveDataVersion3 {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapSaveData::SliderData : public ::BeatmapSaveDataVersion3::BeatmapSaveData::BaseSliderData {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Single mu
     // Size: 0x4
     // Offset: 0x30
@@ -62,27 +54,27 @@ namespace BeatmapSaveDataVersion3 {
     static_assert(sizeof(::GlobalNamespace::SliderMidAnchorMode) == 0x4);
     public:
     // Get instance field reference: private System.Single mu
-    float& dyn_mu();
+    [[deprecated("Use field access instead!")]] float& dyn_mu();
     // Get instance field reference: private System.Single tmu
-    float& dyn_tmu();
+    [[deprecated("Use field access instead!")]] float& dyn_tmu();
     // Get instance field reference: private NoteCutDirection tc
-    ::GlobalNamespace::NoteCutDirection& dyn_tc();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutDirection& dyn_tc();
     // Get instance field reference: private SliderMidAnchorMode m
-    ::GlobalNamespace::SliderMidAnchorMode& dyn_m();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SliderMidAnchorMode& dyn_m();
     // public System.Single get_headControlPointLengthMultiplier()
-    // Offset: 0x281BB18
+    // Offset: 0x286E0D8
     float get_headControlPointLengthMultiplier();
     // public System.Single get_tailControlPointLengthMultiplier()
-    // Offset: 0x281BB20
+    // Offset: 0x286E0E0
     float get_tailControlPointLengthMultiplier();
     // public NoteCutDirection get_tailCutDirection()
-    // Offset: 0x281BB28
+    // Offset: 0x286E0E8
     ::GlobalNamespace::NoteCutDirection get_tailCutDirection();
     // public SliderMidAnchorMode get_sliderMidAnchorMode()
-    // Offset: 0x281BB30
+    // Offset: 0x286E0F0
     ::GlobalNamespace::SliderMidAnchorMode get_sliderMidAnchorMode();
     // public System.Void .ctor(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.NoteColorType colorType, System.Single headBeat, System.Int32 headLine, System.Int32 headLayer, System.Single headControlPointLengthMultiplier, NoteCutDirection headCutDirection, System.Single tailBeat, System.Int32 tailLine, System.Int32 tailLayer, System.Single tailControlPointLengthMultiplier, NoteCutDirection tailCutDirection, SliderMidAnchorMode sliderMidAnchorMode)
-    // Offset: 0x281ACC8
+    // Offset: 0x286D288
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::SliderData* New_ctor(::BeatmapSaveDataVersion3::BeatmapSaveData::NoteColorType colorType, float headBeat, int headLine, int headLayer, float headControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection headCutDirection, float tailBeat, int tailLine, int tailLayer, float tailControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection tailCutDirection, ::GlobalNamespace::SliderMidAnchorMode sliderMidAnchorMode) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::SliderData::.ctor");

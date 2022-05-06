@@ -27,15 +27,7 @@ namespace BeatSaberAPI::DataTransferObjects {
   // [TokenAttribute] Offset: FFFFFFFF
   class UserInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String platformUserId
     // Size: 0x8
     // Offset: 0x10
@@ -50,13 +42,11 @@ namespace BeatSaberAPI::DataTransferObjects {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String platformUserId
-    ::StringW& dyn_platformUserId();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_platformUserId();
     // Get instance field reference: public System.String publicPlatformDisplayName
-    ::StringW& dyn_publicPlatformDisplayName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_publicPlatformDisplayName();
     // public System.Void .ctor()
-    // Offset: 0x1363A78
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x134BCF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatSaberAPI::DataTransferObjects::UserInfo::.ctor");

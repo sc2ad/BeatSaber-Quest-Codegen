@@ -36,16 +36,8 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::ShaderVariantsSO::ShaderVariant
     class ShaderVariant;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
-    // [ReorderableAttribute] Offset: 0x1242954
+    // [ReorderableAttribute] Offset: 0x10C743C
     // private ShaderVariantsSO/ShaderVariant[] _shaderVariants
     // Size: 0x8
     // Offset: 0x18
@@ -56,25 +48,20 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ShaderVariantsSO/ShaderVariant[] _shaderVariants
-    ::ArrayW<::GlobalNamespace::ShaderVariantsSO::ShaderVariant*>& dyn__shaderVariants();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::ShaderVariantsSO::ShaderVariant*>& dyn__shaderVariants();
     // public ShaderVariantsSO/ShaderVariant[] get_shaderVariants()
-    // Offset: 0x29EC2A0
+    // Offset: 0x2A42B9C
     ::ArrayW<::GlobalNamespace::ShaderVariantsSO::ShaderVariant*> get_shaderVariants();
-    // public System.Void Init(ShaderVariantsSO/ShaderVariant[] shaderVariants)
-    // Offset: 0x29EC2A8
-    void Init(::ArrayW<::GlobalNamespace::ShaderVariantsSO::ShaderVariant*> shaderVariants);
     // public System.Void .ctor()
-    // Offset: 0x29EC2B0
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2A42BAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShaderVariantsSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ShaderVariantsSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShaderVariantsSO*, creationType>()));
     }
+    // public System.Void Init(ShaderVariantsSO/ShaderVariant[] shaderVariants)
+    // Offset: 0x2A42BA4
+    void Init(::ArrayW<::GlobalNamespace::ShaderVariantsSO::ShaderVariant*> shaderVariants);
   }; // ShaderVariantsSO
   #pragma pack(pop)
   static check_size<sizeof(ShaderVariantsSO), 24 + sizeof(::ArrayW<::GlobalNamespace::ShaderVariantsSO::ShaderVariant*>)> __GlobalNamespace_ShaderVariantsSOSizeCheck;
@@ -89,6 +76,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShaderVariantsSO*), "get_shaderVariants", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ShaderVariantsSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ShaderVariantsSO::Init
 // Il2CppName: Init
 template<>
@@ -98,7 +89,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShaderVariantsSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{shaderVariants});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ShaderVariantsSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

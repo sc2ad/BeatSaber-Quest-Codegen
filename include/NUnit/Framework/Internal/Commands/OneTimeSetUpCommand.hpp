@@ -58,15 +58,7 @@ namespace NUnit::Framework::Internal::Commands {
   // [TokenAttribute] Offset: FFFFFFFF
   class OneTimeSetUpCommand : public ::NUnit::Framework::Internal::Commands::TestCommand {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly NUnit.Framework.Internal.TestSuite _suite
     // Size: 0x8
     // Offset: 0x18
@@ -101,24 +93,24 @@ namespace NUnit::Framework::Internal::Commands {
     // Deleting conversion operator: operator ::NUnit::Framework::Internal::Test*
     constexpr operator ::NUnit::Framework::Internal::Test*() const noexcept = delete;
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestSuite _suite
-    ::NUnit::Framework::Internal::TestSuite*& dyn__suite();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::TestSuite*& dyn__suite();
     // Get instance field reference: private readonly NUnit.Framework.Interfaces.ITypeInfo _typeInfo
-    ::NUnit::Framework::Interfaces::ITypeInfo*& dyn__typeInfo();
+    [[deprecated("Use field access instead!")]] ::NUnit::Framework::Interfaces::ITypeInfo*& dyn__typeInfo();
     // Get instance field reference: private readonly System.Object[] _arguments
-    ::ArrayW<::Il2CppObject*>& dyn__arguments();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppObject*>& dyn__arguments();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> _setUpTearDown
-    ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::Commands::SetUpTearDownItem*>*& dyn__setUpTearDown();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::Commands::SetUpTearDownItem*>*& dyn__setUpTearDown();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.TestActionItem> _actions
-    ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::Commands::TestActionItem*>*& dyn__actions();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::Commands::TestActionItem*>*& dyn__actions();
     // public System.Void .ctor(NUnit.Framework.Internal.TestSuite suite, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> setUpTearDown, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.TestActionItem> actions)
-    // Offset: 0x1C4D8F0
+    // Offset: 0x1CA5E88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OneTimeSetUpCommand* New_ctor(::NUnit::Framework::Internal::TestSuite* suite, ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* setUpTearDown, ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::Commands::TestActionItem*>* actions) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Commands::OneTimeSetUpCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OneTimeSetUpCommand*, creationType>(suite, setUpTearDown, actions)));
     }
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x1C4D948
+    // Offset: 0x1CA5EE0
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     ::NUnit::Framework::Internal::TestResult* Execute(::NUnit::Framework::Internal::ITestExecutionContext* context);

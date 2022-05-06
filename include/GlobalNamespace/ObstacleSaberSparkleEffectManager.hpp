@@ -67,15 +67,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ObstacleSaberSparkleEffectManager : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private ObstacleSaberSparkleEffect _obstacleSaberSparkleEffectPrefab
     // Size: 0x8
     // Offset: 0x18
@@ -88,28 +80,28 @@ namespace GlobalNamespace {
     ::Libraries::HM::HMLib::VR::HapticPresetSO* rumblePreset;
     // Field size check
     static_assert(sizeof(::Libraries::HM::HMLib::VR::HapticPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x1250398
+    // [InjectAttribute] Offset: 0x10D4ECC
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x12503A8
+    // [InjectAttribute] Offset: 0x10D4EDC
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x12503B8
+    // [InjectAttribute] Offset: 0x10D4EEC
     // private readonly HapticFeedbackController _hapticFeedbackController
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::HapticFeedbackController* hapticFeedbackController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::HapticFeedbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0x12503C8
+    // [InjectAttribute] Offset: 0x10D4EFC
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x40
@@ -168,76 +160,70 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ObstacleSaberSparkleEffect _obstacleSaberSparkleEffectPrefab
-    ::GlobalNamespace::ObstacleSaberSparkleEffect*& dyn__obstacleSaberSparkleEffectPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ObstacleSaberSparkleEffect*& dyn__obstacleSaberSparkleEffectPrefab();
     // Get instance field reference: private Libraries.HM.HMLib.VR.HapticPresetSO _rumblePreset
-    ::Libraries::HM::HMLib::VR::HapticPresetSO*& dyn__rumblePreset();
+    [[deprecated("Use field access instead!")]] ::Libraries::HM::HMLib::VR::HapticPresetSO*& dyn__rumblePreset();
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
-    ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // Get instance field reference: private readonly SaberManager _saberManager
-    ::GlobalNamespace::SaberManager*& dyn__saberManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberManager*& dyn__saberManager();
     // Get instance field reference: private readonly HapticFeedbackController _hapticFeedbackController
-    ::GlobalNamespace::HapticFeedbackController*& dyn__hapticFeedbackController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::HapticFeedbackController*& dyn__hapticFeedbackController();
     // Get instance field reference: private readonly ColorManager _colorManager
-    ::GlobalNamespace::ColorManager*& dyn__colorManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorManager*& dyn__colorManager();
     // Get instance field reference: private System.Action`1<SaberType> sparkleEffectDidStartEvent
-    ::System::Action_1<::GlobalNamespace::SaberType>*& dyn_sparkleEffectDidStartEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::SaberType>*& dyn_sparkleEffectDidStartEvent();
     // Get instance field reference: private System.Action`1<SaberType> sparkleEffectDidEndEvent
-    ::System::Action_1<::GlobalNamespace::SaberType>*& dyn_sparkleEffectDidEndEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::SaberType>*& dyn_sparkleEffectDidEndEvent();
     // Get instance field reference: private Saber[] _sabers
-    ::ArrayW<::GlobalNamespace::Saber*>& dyn__sabers();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::Saber*>& dyn__sabers();
     // Get instance field reference: private ObstacleSaberSparkleEffect[] _effects
-    ::ArrayW<::GlobalNamespace::ObstacleSaberSparkleEffect*>& dyn__effects();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::ObstacleSaberSparkleEffect*>& dyn__effects();
     // Get instance field reference: private UnityEngine.Transform[] _effectsTransforms
-    ::ArrayW<::UnityEngine::Transform*>& dyn__effectsTransforms();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Transform*>& dyn__effectsTransforms();
     // Get instance field reference: private System.Boolean[] _isSystemActive
-    ::ArrayW<bool>& dyn__isSystemActive();
+    [[deprecated("Use field access instead!")]] ::ArrayW<bool>& dyn__isSystemActive();
     // Get instance field reference: private System.Boolean[] _wasSystemActive
-    ::ArrayW<bool>& dyn__wasSystemActive();
+    [[deprecated("Use field access instead!")]] ::ArrayW<bool>& dyn__wasSystemActive();
     // Get instance field reference: private UnityEngine.Vector3[] _burnMarkPositions
-    ::ArrayW<::UnityEngine::Vector3>& dyn__burnMarkPositions();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn__burnMarkPositions();
     // public System.Void add_sparkleEffectDidStartEvent(System.Action`1<SaberType> value)
-    // Offset: 0x147F40C
+    // Offset: 0x14B5C8C
     void add_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
     // public System.Void remove_sparkleEffectDidStartEvent(System.Action`1<SaberType> value)
-    // Offset: 0x147F670
+    // Offset: 0x14B5EF0
     void remove_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
     // public System.Void add_sparkleEffectDidEndEvent(System.Action`1<SaberType> value)
-    // Offset: 0x147F4B0
+    // Offset: 0x14B5D30
     void add_sparkleEffectDidEndEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
     // public System.Void remove_sparkleEffectDidEndEvent(System.Action`1<SaberType> value)
-    // Offset: 0x147F714
+    // Offset: 0x14B5F94
     void remove_sparkleEffectDidEndEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
-    // protected System.Void Start()
-    // Offset: 0x147FDA4
-    void Start();
-    // protected System.Void OnDisable()
-    // Offset: 0x1480030
-    void OnDisable();
-    // protected System.Void Update()
-    // Offset: 0x14800EC
-    void Update();
-    // private UnityEngine.Quaternion GetEffectRotation(UnityEngine.Vector3 pos, UnityEngine.Transform transform, UnityEngine.Bounds bounds)
-    // Offset: 0x14809A8
-    ::UnityEngine::Quaternion GetEffectRotation(::UnityEngine::Vector3 pos, ::UnityEngine::Transform* transform, ::UnityEngine::Bounds bounds);
-    // public UnityEngine.Vector3 BurnMarkPosForSaberType(SaberType saberType)
-    // Offset: 0x147F8FC
-    ::UnityEngine::Vector3 BurnMarkPosForSaberType(::GlobalNamespace::SaberType saberType);
-    // private System.Boolean GetBurnMarkPos(UnityEngine.Bounds bounds, UnityEngine.Transform transform, UnityEngine.Vector3 bladeBottomPos, UnityEngine.Vector3 bladeTopPos, out UnityEngine.Vector3 burnMarkPos)
-    // Offset: 0x1480750
-    bool GetBurnMarkPos(::UnityEngine::Bounds bounds, ::UnityEngine::Transform* transform, ::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos, ByRef<::UnityEngine::Vector3> burnMarkPos);
     // public System.Void .ctor()
-    // Offset: 0x1480B60
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14B73E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleSaberSparkleEffectManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObstacleSaberSparkleEffectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleSaberSparkleEffectManager*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x14B6624
+    void Start();
+    // protected System.Void OnDisable()
+    // Offset: 0x14B68B0
+    void OnDisable();
+    // protected System.Void Update()
+    // Offset: 0x14B696C
+    void Update();
+    // private UnityEngine.Quaternion GetEffectRotation(UnityEngine.Vector3 pos, UnityEngine.Transform transform, UnityEngine.Bounds bounds)
+    // Offset: 0x14B7228
+    ::UnityEngine::Quaternion GetEffectRotation(::UnityEngine::Vector3 pos, ::UnityEngine::Transform* transform, ::UnityEngine::Bounds bounds);
+    // public UnityEngine.Vector3 BurnMarkPosForSaberType(SaberType saberType)
+    // Offset: 0x14B617C
+    ::UnityEngine::Vector3 BurnMarkPosForSaberType(::GlobalNamespace::SaberType saberType);
+    // private System.Boolean GetBurnMarkPos(UnityEngine.Bounds bounds, UnityEngine.Transform transform, UnityEngine.Vector3 bladeBottomPos, UnityEngine.Vector3 bladeTopPos, out UnityEngine.Vector3 burnMarkPos)
+    // Offset: 0x14B6FD0
+    bool GetBurnMarkPos(::UnityEngine::Bounds bounds, ::UnityEngine::Transform* transform, ::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos, ByRef<::UnityEngine::Vector3> burnMarkPos);
   }; // ObstacleSaberSparkleEffectManager
   #pragma pack(pop)
   static check_size<sizeof(ObstacleSaberSparkleEffectManager), 128 + sizeof(::ArrayW<::UnityEngine::Vector3>)> __GlobalNamespace_ObstacleSaberSparkleEffectManagerSizeCheck;
@@ -280,6 +266,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffectManager*), "remove_sparkleEffectDidEndEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::Start
 // Il2CppName: Start
 template<>
@@ -337,7 +327,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffectManager*), "GetBurnMarkPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bounds, transform, bladeBottomPos, bladeTopPos, burnMarkPos});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

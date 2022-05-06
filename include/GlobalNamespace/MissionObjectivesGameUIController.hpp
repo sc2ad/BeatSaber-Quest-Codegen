@@ -43,15 +43,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionObjectivesGameUIController : public ::UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private MissionObjectiveGameUIView _missionObjectiveGameUIViewPrefab
     // Size: 0x8
     // Offset: 0x18
@@ -70,7 +62,7 @@ namespace GlobalNamespace {
     float elementWidth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x1252514
+    // [InjectAttribute] Offset: 0x10D70A0
     // private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
     // Size: 0x8
     // Offset: 0x28
@@ -87,46 +79,44 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionObjectiveGameUIView _missionObjectiveGameUIViewPrefab
-    ::GlobalNamespace::MissionObjectiveGameUIView*& dyn__missionObjectiveGameUIViewPrefab();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionObjectiveGameUIView*& dyn__missionObjectiveGameUIViewPrefab();
     // Get instance field reference: private System.Single _separator
-    float& dyn__separator();
+    [[deprecated("Use field access instead!")]] float& dyn__separator();
     // Get instance field reference: private System.Single _elementWidth
-    float& dyn__elementWidth();
+    [[deprecated("Use field access instead!")]] float& dyn__elementWidth();
     // Get instance field reference: private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
-    ::GlobalNamespace::MissionObjectiveCheckersManager*& dyn__missionObjectiveCheckersManager();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionObjectiveCheckersManager*& dyn__missionObjectiveCheckersManager();
     // Get instance field reference: private System.Collections.Generic.List`1<MissionObjectiveGameUIView> _missionObjectiveGameUIViews
-    ::System::Collections::Generic::List_1<::GlobalNamespace::MissionObjectiveGameUIView*>*& dyn__missionObjectiveGameUIViews();
-    // protected System.Void Start()
-    // Offset: 0x130C178
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x130C544
-    void OnDestroy();
-    // private System.Void HandleMissionObjectiveCheckersManagerObjectivesListDidChange()
-    // Offset: 0x130C614
-    void HandleMissionObjectiveCheckersManagerObjectivesListDidChange();
-    // private System.Void CreateUIElements()
-    // Offset: 0x130C208
-    void CreateUIElements();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::MissionObjectiveGameUIView*>*& dyn__missionObjectiveGameUIViews();
     // public System.Void .ctor()
-    // Offset: 0x130C618
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1308AF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionObjectivesGameUIController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionObjectivesGameUIController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionObjectivesGameUIController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x1308650
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x1308A1C
+    void OnDestroy();
+    // private System.Void HandleMissionObjectiveCheckersManagerObjectivesListDidChange()
+    // Offset: 0x1308AEC
+    void HandleMissionObjectiveCheckersManagerObjectivesListDidChange();
+    // private System.Void CreateUIElements()
+    // Offset: 0x13086E0
+    void CreateUIElements();
   }; // MissionObjectivesGameUIController
   #pragma pack(pop)
   static check_size<sizeof(MissionObjectivesGameUIController), 48 + sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::MissionObjectiveGameUIView*>*)> __GlobalNamespace_MissionObjectivesGameUIControllerSizeCheck;
   static_assert(sizeof(MissionObjectivesGameUIController) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MissionObjectivesGameUIController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectivesGameUIController::Start
 // Il2CppName: Start
 template<>
@@ -159,7 +149,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectivesGameUIController*), "CreateUIElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MissionObjectivesGameUIController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

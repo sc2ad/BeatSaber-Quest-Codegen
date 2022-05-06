@@ -42,15 +42,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CustomBeatmapLevel : public ::GlobalNamespace::CustomPreviewBeatmapLevel/*, public ::GlobalNamespace::IBeatmapLevel, public ::GlobalNamespace::IFilePathSongAudioClipProvider*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private BeatmapLevelData _beatmapLevelData
     // Size: 0x8
     // Offset: 0x98
@@ -71,22 +63,22 @@ namespace GlobalNamespace {
       return beatmapLevelData;
     }
     // Get instance field reference: private BeatmapLevelData _beatmapLevelData
-    ::GlobalNamespace::BeatmapLevelData*& dyn__beatmapLevelData();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelData*& dyn__beatmapLevelData();
     // public IBeatmapLevelData get_beatmapLevelData()
-    // Offset: 0x14096AC
+    // Offset: 0x1429458
     ::GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
     // public System.String get_songAudioClipPath()
-    // Offset: 0x14096B4
+    // Offset: 0x1429460
     ::StringW get_songAudioClipPath();
     // public System.Void .ctor(CustomPreviewBeatmapLevel customPreviewBeatmapLevel)
-    // Offset: 0x1409738
+    // Offset: 0x14294E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomBeatmapLevel* New_ctor(::GlobalNamespace::CustomPreviewBeatmapLevel* customPreviewBeatmapLevel) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CustomBeatmapLevel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomBeatmapLevel*, creationType>(customPreviewBeatmapLevel)));
     }
     // public System.Void SetBeatmapLevelData(BeatmapLevelData beatmapLevelData)
-    // Offset: 0x14098D8
+    // Offset: 0x1429684
     void SetBeatmapLevelData(::GlobalNamespace::BeatmapLevelData* beatmapLevelData);
   }; // CustomBeatmapLevel
   #pragma pack(pop)

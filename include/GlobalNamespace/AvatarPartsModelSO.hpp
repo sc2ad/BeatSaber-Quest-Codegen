@@ -38,15 +38,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AvatarPartsModelSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private AvatarMeshPartSO[] _headTops
     // Size: 0x8
     // Offset: 0x18
@@ -93,47 +85,42 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private AvatarMeshPartSO[] _headTops
-    ::ArrayW<::GlobalNamespace::AvatarMeshPartSO*>& dyn__headTops();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::AvatarMeshPartSO*>& dyn__headTops();
     // Get instance field reference: private AvatarSpritePartSO[] _eyes
-    ::ArrayW<::GlobalNamespace::AvatarSpritePartSO*>& dyn__eyes();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::AvatarSpritePartSO*>& dyn__eyes();
     // Get instance field reference: private AvatarSpritePartSO[] _mouths
-    ::ArrayW<::GlobalNamespace::AvatarSpritePartSO*>& dyn__mouths();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::AvatarSpritePartSO*>& dyn__mouths();
     // Get instance field reference: private AvatarMeshPartSO[] _glasses
-    ::ArrayW<::GlobalNamespace::AvatarMeshPartSO*>& dyn__glasses();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::AvatarMeshPartSO*>& dyn__glasses();
     // Get instance field reference: private AvatarMeshPartSO[] _facialHair
-    ::ArrayW<::GlobalNamespace::AvatarMeshPartSO*>& dyn__facialHair();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::AvatarMeshPartSO*>& dyn__facialHair();
     // Get instance field reference: private AvatarMeshPartSO[] _hands
-    ::ArrayW<::GlobalNamespace::AvatarMeshPartSO*>& dyn__hands();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::AvatarMeshPartSO*>& dyn__hands();
     // Get instance field reference: private AvatarMeshPartSO[] _clothes
-    ::ArrayW<::GlobalNamespace::AvatarMeshPartSO*>& dyn__clothes();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::AvatarMeshPartSO*>& dyn__clothes();
     // public AvatarMeshPartSO[] get_headTops()
-    // Offset: 0x14BD4AC
+    // Offset: 0x14F4D64
     ::ArrayW<::GlobalNamespace::AvatarMeshPartSO*> get_headTops();
     // public AvatarSpritePartSO[] get_Eyes()
-    // Offset: 0x14BD4B4
+    // Offset: 0x14F4D6C
     ::ArrayW<::GlobalNamespace::AvatarSpritePartSO*> get_Eyes();
     // public AvatarSpritePartSO[] get_Mouths()
-    // Offset: 0x14BD4BC
+    // Offset: 0x14F4D74
     ::ArrayW<::GlobalNamespace::AvatarSpritePartSO*> get_Mouths();
     // public AvatarMeshPartSO[] get_Glasses()
-    // Offset: 0x14BD4C4
+    // Offset: 0x14F4D7C
     ::ArrayW<::GlobalNamespace::AvatarMeshPartSO*> get_Glasses();
     // public AvatarMeshPartSO[] get_FacialHair()
-    // Offset: 0x14BD4CC
+    // Offset: 0x14F4D84
     ::ArrayW<::GlobalNamespace::AvatarMeshPartSO*> get_FacialHair();
     // public AvatarMeshPartSO[] get_Hands()
-    // Offset: 0x14BD4D4
+    // Offset: 0x14F4D8C
     ::ArrayW<::GlobalNamespace::AvatarMeshPartSO*> get_Hands();
     // public AvatarMeshPartSO[] get_Clothes()
-    // Offset: 0x14BD4DC
+    // Offset: 0x14F4D94
     ::ArrayW<::GlobalNamespace::AvatarMeshPartSO*> get_Clothes();
     // public System.Void .ctor()
-    // Offset: 0x14BD4E4
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::.ctor()
-    // Base method: System.Void ScriptableObject::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x14F4D9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarPartsModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarPartsModelSO::.ctor");

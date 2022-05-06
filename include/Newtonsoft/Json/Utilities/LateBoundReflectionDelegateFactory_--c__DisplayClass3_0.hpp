@@ -34,15 +34,7 @@ namespace Newtonsoft::Json::Utilities {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Reflection.ConstructorInfo c
     // Size: 0x8
     // Offset: 0x10
@@ -57,30 +49,32 @@ namespace Newtonsoft::Json::Utilities {
     static_assert(sizeof(::System::Reflection::MethodBase*) == 0x8);
     public:
     // Get instance field reference: public System.Reflection.ConstructorInfo c
-    ::System::Reflection::ConstructorInfo*& dyn_c();
+    [[deprecated("Use field access instead!")]] ::System::Reflection::ConstructorInfo*& dyn_c();
     // Get instance field reference: public System.Reflection.MethodBase method
-    ::System::Reflection::MethodBase*& dyn_method();
-    // System.Object <CreateParameterizedConstructor>b__0(System.Object[] a)
-    // Offset: 0x2048D6C
-    ::Il2CppObject* $CreateParameterizedConstructor$b__0(::ArrayW<::Il2CppObject*> a);
-    // System.Object <CreateParameterizedConstructor>b__1(System.Object[] a)
-    // Offset: 0x2048D88
-    ::Il2CppObject* $CreateParameterizedConstructor$b__1(::ArrayW<::Il2CppObject*> a);
+    [[deprecated("Use field access instead!")]] ::System::Reflection::MethodBase*& dyn_method();
     // public System.Void .ctor()
-    // Offset: 0x2048CF0
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x2092564
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0*, creationType>()));
     }
+    // System.Object <CreateParameterizedConstructor>b__0(System.Object[] a)
+    // Offset: 0x20925E0
+    ::Il2CppObject* $CreateParameterizedConstructor$b__0(::ArrayW<::Il2CppObject*> a);
+    // System.Object <CreateParameterizedConstructor>b__1(System.Object[] a)
+    // Offset: 0x20925FC
+    ::Il2CppObject* $CreateParameterizedConstructor$b__1(::ArrayW<::Il2CppObject*> a);
   }; // Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory/Newtonsoft.Json.Utilities.<>c__DisplayClass3_0
   #pragma pack(pop)
   static check_size<sizeof(LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0), 24 + sizeof(::System::Reflection::MethodBase*)> __Newtonsoft_Json_Utilities_LateBoundReflectionDelegateFactory_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0::$CreateParameterizedConstructor$b__0
 // Il2CppName: <CreateParameterizedConstructor>b__0
 template<>
@@ -99,7 +93,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0*), "<CreateParameterizedConstructor>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a});
   }
 };
-// Writing MetadataGetter for method: Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

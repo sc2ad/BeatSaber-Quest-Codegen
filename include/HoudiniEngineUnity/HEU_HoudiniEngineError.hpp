@@ -29,15 +29,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_HoudiniEngineError : public ::System::Exception {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // protected System.String _errorMsg
     // Size: 0x8
     // Offset: 0x88
@@ -50,28 +42,23 @@ namespace HoudiniEngineUnity {
       return errorMsg;
     }
     // Get instance field reference: protected System.String _errorMsg
-    ::StringW& dyn__errorMsg();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__errorMsg();
     // public System.Void .ctor()
-    // Offset: 0x184D504
-    // Implemented from: System.Exception
-    // Base method: System.Void Exception::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1886E14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_HoudiniEngineError* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_HoudiniEngineError::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_HoudiniEngineError*, creationType>()));
     }
     // public System.Void .ctor(System.String errorMsg)
-    // Offset: 0x184D57C
-    // Implemented from: System.Exception
-    // Base method: System.Void Exception::.ctor(System.String errorMsg)
+    // Offset: 0x1886E8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_HoudiniEngineError* New_ctor(::StringW errorMsg) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_HoudiniEngineError::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_HoudiniEngineError*, creationType>(errorMsg)));
     }
     // public override System.String ToString()
-    // Offset: 0x184D608
+    // Offset: 0x1886F18
     // Implemented from: System.Exception
     // Base method: System.String Exception::ToString()
     ::StringW ToString();

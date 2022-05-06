@@ -66,7 +66,7 @@ namespace LiteNetLib {
     // Set static field: static public LiteNetLib.NetLogLevel Info
     static void _set_Info(::LiteNetLib::NetLogLevel value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // LiteNetLib.NetLogLevel
   #pragma pack(pop)
   static check_size<sizeof(NetLogLevel), 0 + sizeof(int)> __LiteNetLib_NetLogLevelSizeCheck;

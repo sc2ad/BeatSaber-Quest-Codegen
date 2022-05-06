@@ -48,11 +48,11 @@ namespace Mono::Unity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_read_callback read
-    ::Mono::Unity::UnityTls::unitytls_tlsctx_read_callback*& dyn_read();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_tlsctx_read_callback*& dyn_read();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_write_callback write
-    ::Mono::Unity::UnityTls::unitytls_tlsctx_write_callback*& dyn_write();
+    [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_tlsctx_write_callback*& dyn_write();
     // Get instance field reference: public System.Void* data
-    void*& dyn_data();
+    [[deprecated("Use field access instead!")]] void*& dyn_data();
   }; // Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_callbacks
   #pragma pack(pop)
   static check_size<sizeof(UnityTls::unitytls_tlsctx_callbacks), 16 + sizeof(void*)> __Mono_Unity_UnityTls_unitytls_tlsctx_callbacksSizeCheck;

@@ -41,22 +41,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRGazePointer : public ::GlobalNamespace::OVRCursor {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Transform gazeIcon
     // Size: 0x8
     // Offset: 0x18
     ::UnityEngine::Transform* gazeIcon;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1204CD4
+    // [TooltipAttribute] Offset: 0x108A6EC
     // public System.Boolean hideByDefault
     // Size: 0x1
     // Offset: 0x20
@@ -65,21 +57,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hideByDefault and: showTimeoutPeriod
     char __padding1[0x3] = {};
-    // [TooltipAttribute] Offset: 0x1204D0C
+    // [TooltipAttribute] Offset: 0x108A724
     // public System.Single showTimeoutPeriod
     // Size: 0x4
     // Offset: 0x24
     float showTimeoutPeriod;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1204D44
+    // [TooltipAttribute] Offset: 0x108A75C
     // public System.Single hideTimeoutPeriod
     // Size: 0x4
     // Offset: 0x28
     float hideTimeoutPeriod;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1204D7C
+    // [TooltipAttribute] Offset: 0x108A794
     // public System.Boolean dimOnHideRequest
     // Size: 0x1
     // Offset: 0x2C
@@ -88,7 +80,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: dimOnHideRequest and: depthScaleMultiplier
     char __padding4[0x3] = {};
-    // [TooltipAttribute] Offset: 0x1204DB4
+    // [TooltipAttribute] Offset: 0x108A7CC
     // public System.Single depthScaleMultiplier
     // Size: 0x4
     // Offset: 0x30
@@ -169,103 +161,98 @@ namespace GlobalNamespace {
     // Set static field: static private OVRGazePointer _instance
     static void _set__instance(::GlobalNamespace::OVRGazePointer* value);
     // Get instance field reference: private UnityEngine.Transform gazeIcon
-    ::UnityEngine::Transform*& dyn_gazeIcon();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_gazeIcon();
     // Get instance field reference: public System.Boolean hideByDefault
-    bool& dyn_hideByDefault();
+    [[deprecated("Use field access instead!")]] bool& dyn_hideByDefault();
     // Get instance field reference: public System.Single showTimeoutPeriod
-    float& dyn_showTimeoutPeriod();
+    [[deprecated("Use field access instead!")]] float& dyn_showTimeoutPeriod();
     // Get instance field reference: public System.Single hideTimeoutPeriod
-    float& dyn_hideTimeoutPeriod();
+    [[deprecated("Use field access instead!")]] float& dyn_hideTimeoutPeriod();
     // Get instance field reference: public System.Boolean dimOnHideRequest
-    bool& dyn_dimOnHideRequest();
+    [[deprecated("Use field access instead!")]] bool& dyn_dimOnHideRequest();
     // Get instance field reference: public System.Single depthScaleMultiplier
-    float& dyn_depthScaleMultiplier();
+    [[deprecated("Use field access instead!")]] float& dyn_depthScaleMultiplier();
     // Get instance field reference: public System.Boolean matchNormalOnPhysicsColliders
-    bool& dyn_matchNormalOnPhysicsColliders();
+    [[deprecated("Use field access instead!")]] bool& dyn_matchNormalOnPhysicsColliders();
     // Get instance field reference: public UnityEngine.Transform rayTransform
-    ::UnityEngine::Transform*& dyn_rayTransform();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_rayTransform();
     // Get instance field reference: private System.Boolean <hidden>k__BackingField
-    bool& dyn_$hidden$k__BackingField();
+    [[deprecated("Use field access instead!")]] bool& dyn_$hidden$k__BackingField();
     // Get instance field reference: private System.Single <currentScale>k__BackingField
-    float& dyn_$currentScale$k__BackingField();
+    [[deprecated("Use field access instead!")]] float& dyn_$currentScale$k__BackingField();
     // Get instance field reference: private System.Single depth
-    float& dyn_depth();
+    [[deprecated("Use field access instead!")]] float& dyn_depth();
     // Get instance field reference: private System.Single hideUntilTime
-    float& dyn_hideUntilTime();
+    [[deprecated("Use field access instead!")]] float& dyn_hideUntilTime();
     // Get instance field reference: private System.Int32 positionSetsThisFrame
-    int& dyn_positionSetsThisFrame();
+    [[deprecated("Use field access instead!")]] int& dyn_positionSetsThisFrame();
     // Get instance field reference: private System.Single lastShowRequestTime
-    float& dyn_lastShowRequestTime();
+    [[deprecated("Use field access instead!")]] float& dyn_lastShowRequestTime();
     // Get instance field reference: private System.Single lastHideRequestTime
-    float& dyn_lastHideRequestTime();
+    [[deprecated("Use field access instead!")]] float& dyn_lastHideRequestTime();
     // Get instance field reference: private OVRProgressIndicator progressIndicator
-    ::GlobalNamespace::OVRProgressIndicator*& dyn_progressIndicator();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRProgressIndicator*& dyn_progressIndicator();
     // public System.Boolean get_hidden()
-    // Offset: 0x162A160
+    // Offset: 0x165FA70
     bool get_hidden();
     // private System.Void set_hidden(System.Boolean value)
-    // Offset: 0x162A168
+    // Offset: 0x165FA78
     void set_hidden(bool value);
     // public System.Single get_currentScale()
-    // Offset: 0x162A174
+    // Offset: 0x165FA84
     float get_currentScale();
     // private System.Void set_currentScale(System.Single value)
-    // Offset: 0x162A17C
+    // Offset: 0x165FA8C
     void set_currentScale(float value);
     // static public OVRGazePointer get_instance()
-    // Offset: 0x162A184
+    // Offset: 0x165FA94
     static ::GlobalNamespace::OVRGazePointer* get_instance();
     // public System.Single get_visibilityStrength()
-    // Offset: 0x162A358
+    // Offset: 0x165FC68
     float get_visibilityStrength();
     // public System.Single get_SelectionProgress()
-    // Offset: 0x162A468
+    // Offset: 0x165FD78
     float get_SelectionProgress();
     // public System.Void set_SelectionProgress(System.Single value)
-    // Offset: 0x162A4F0
+    // Offset: 0x165FE00
     void set_SelectionProgress(float value);
     // public System.Void Awake()
-    // Offset: 0x162A580
+    // Offset: 0x165FE90
     void Awake();
     // private System.Void Update()
-    // Offset: 0x162A6EC
+    // Offset: 0x165FFFC
     void Update();
     // private System.Void LateUpdate()
-    // Offset: 0x162B108
+    // Offset: 0x1660A18
     void LateUpdate();
     // public System.Void RequestHide()
-    // Offset: 0x162B2CC
+    // Offset: 0x1660BDC
     void RequestHide();
     // public System.Void RequestShow()
-    // Offset: 0x162B0D8
+    // Offset: 0x16609E8
     void RequestShow();
     // private System.Void Hide()
-    // Offset: 0x162A914
+    // Offset: 0x1660224
     void Hide();
     // private System.Void Show()
-    // Offset: 0x162ABE4
+    // Offset: 0x16604F4
     void Show();
     // public System.Void .ctor()
-    // Offset: 0x162B304
+    // Offset: 0x1660C14
     // Implemented from: OVRCursor
     // Base method: System.Void OVRCursor::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRGazePointer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRGazePointer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRGazePointer*, creationType>()));
     }
     // public override System.Void SetCursorStartDest(UnityEngine.Vector3 _, UnityEngine.Vector3 pos, UnityEngine.Vector3 normal)
-    // Offset: 0x162AEB0
+    // Offset: 0x16607C0
     // Implemented from: OVRCursor
     // Base method: System.Void OVRCursor::SetCursorStartDest(UnityEngine.Vector3 _, UnityEngine.Vector3 pos, UnityEngine.Vector3 normal)
     void SetCursorStartDest(::UnityEngine::Vector3 _, ::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal);
     // public override System.Void SetCursorRay(UnityEngine.Transform ray)
-    // Offset: 0x162B104
+    // Offset: 0x1660A14
     // Implemented from: OVRCursor
     // Base method: System.Void OVRCursor::SetCursorRay(UnityEngine.Transform ray)
     void SetCursorRay(::UnityEngine::Transform* ray);

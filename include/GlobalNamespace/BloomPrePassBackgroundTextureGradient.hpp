@@ -60,15 +60,7 @@ namespace GlobalNamespace {
   // [ExecuteAlways] Offset: FFFFFFFF
   class BloomPrePassBackgroundTextureGradient : public ::GlobalNamespace::BloomPrePassNonLightPass {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Color _tintColor
     // Size: 0x10
     // Offset: 0x20
@@ -88,22 +80,22 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::UnityEngine::Material*) == 0x8);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12378E8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BC340
     // Get static field: static private readonly System.Int32 _gradientTexID
     static int _get__gradientTexID();
     // Set static field: static private readonly System.Int32 _gradientTexID
     static void _set__gradientTexID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12378F8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BC350
     // Get static field: static private readonly System.Int32 _inverseProjectionMatrixID
     static int _get__inverseProjectionMatrixID();
     // Set static field: static private readonly System.Int32 _inverseProjectionMatrixID
     static void _set__inverseProjectionMatrixID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1237908
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BC360
     // Get static field: static private readonly System.Int32 _cameraToWorldMatrixID
     static int _get__cameraToWorldMatrixID();
     // Set static field: static private readonly System.Int32 _cameraToWorldMatrixID
     static void _set__cameraToWorldMatrixID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1237918
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BC370
     // Get static field: static private readonly System.Int32 _colorID
     static int _get__colorID();
     // Set static field: static private readonly System.Int32 _colorID
@@ -127,59 +119,53 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kTextureWidth
     static void _set_kTextureWidth(int value);
     // Get instance field reference: private UnityEngine.Color _tintColor
-    ::UnityEngine::Color& dyn__tintColor();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__tintColor();
     // Get instance field reference: private UnityEngine.Texture2D _texture
-    ::UnityEngine::Texture2D*& dyn__texture();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Texture2D*& dyn__texture();
     // Get instance field reference: private UnityEngine.Material _material
-    ::UnityEngine::Material*& dyn__material();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__material();
     // public UnityEngine.Color get_tintColor()
-    // Offset: 0x2ACCFD4
+    // Offset: 0x1E7639C
     ::UnityEngine::Color get_tintColor();
     // public System.Void set_tintColor(UnityEngine.Color value)
-    // Offset: 0x2ACCFE0
+    // Offset: 0x1E763A8
     void set_tintColor(::UnityEngine::Color value);
     // private System.Void InitIfNeeded()
-    // Offset: 0x2ACCFEC
+    // Offset: 0x1E763B4
     void InitIfNeeded();
     // protected System.Void Start()
-    // Offset: 0x2ACD1F0
+    // Offset: 0x1E765B8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2ACD1F4
+    // Offset: 0x1E765BC
     void OnDestroy();
     // protected System.Void UpdatePixels(Unity.Collections.NativeArray`1<UnityEngine.Color32> pixels, System.Int32 numberOfPixels)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void UpdatePixels(::Unity::Collections::NativeArray_1<::UnityEngine::Color32> pixels, int numberOfPixels);
     // public System.Void UpdateGradientTexture()
-    // Offset: 0x2ACB76C
+    // Offset: 0x1E74B34
     void UpdateGradientTexture();
     // protected System.Void .ctor()
-    // Offset: 0x2ACB59C
+    // Offset: 0x1E74964
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::.ctor()
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassBackgroundTextureGradient* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassBackgroundTextureGradient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundTextureGradient*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2ACD408
+    // Offset: 0x1E767D0
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::.cctor()
-    // Base method: System.Void Object::.cctor()
     static void _cctor();
     // protected override System.Void OnValidate()
-    // Offset: 0x2ACD224
+    // Offset: 0x1E765EC
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::OnValidate()
     void OnValidate();
     // public override System.Void Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
-    // Offset: 0x2ACD284
+    // Offset: 0x1E7664C
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
     void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);

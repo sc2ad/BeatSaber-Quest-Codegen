@@ -45,15 +45,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_VolumeLayer : public ::Il2CppObject/*, public ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String _layerName
     // Size: 0x8
     // Offset: 0x10
@@ -132,45 +124,47 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*>(this);
     }
     // Get instance field reference: public System.String _layerName
-    ::StringW& dyn__layerName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__layerName();
     // Get instance field reference: public HoudiniEngineUnity.HEU_PartData _part
-    ::HoudiniEngineUnity::HEU_PartData*& dyn__part();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_PartData*& dyn__part();
     // Get instance field reference: public System.Single _strength
-    float& dyn__strength();
+    [[deprecated("Use field access instead!")]] float& dyn__strength();
     // Get instance field reference: public System.Boolean _uiExpanded
-    bool& dyn__uiExpanded();
+    [[deprecated("Use field access instead!")]] bool& dyn__uiExpanded();
     // Get instance field reference: public System.Int32 _tile
-    int& dyn__tile();
+    [[deprecated("Use field access instead!")]] int& dyn__tile();
     // Get instance field reference: public System.Int32 _xLength
-    int& dyn__xLength();
+    [[deprecated("Use field access instead!")]] int& dyn__xLength();
     // Get instance field reference: public System.Int32 _yLength
-    int& dyn__yLength();
+    [[deprecated("Use field access instead!")]] int& dyn__yLength();
     // Get instance field reference: public System.Boolean _hasLayerAttributes
-    bool& dyn__hasLayerAttributes();
+    [[deprecated("Use field access instead!")]] bool& dyn__hasLayerAttributes();
     // Get instance field reference: public UnityEngine.TerrainLayer _terrainLayer
-    ::UnityEngine::TerrainLayer*& dyn__terrainLayer();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TerrainLayer*& dyn__terrainLayer();
     // Get instance field reference: public HoudiniEngineUnity.HFLayerType _layerType
-    ::HoudiniEngineUnity::HFLayerType& dyn__layerType();
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HFLayerType& dyn__layerType();
     // Get instance field reference: public HoudiniEngineUnity.HEU_DetailPrototype _detailPrototype
-    ::HoudiniEngineUnity::HEU_DetailPrototype*& dyn__detailPrototype();
-    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_VolumeLayer other)
-    // Offset: 0x19D9394
-    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeLayer* other);
+    [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_DetailPrototype*& dyn__detailPrototype();
     // public System.Void .ctor()
-    // Offset: 0x19D6568
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1A0FB50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_VolumeLayer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_VolumeLayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_VolumeLayer*, creationType>()));
     }
+    // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_VolumeLayer other)
+    // Offset: 0x1A1297C
+    bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeLayer* other);
   }; // HoudiniEngineUnity.HEU_VolumeLayer
   #pragma pack(pop)
   static check_size<sizeof(HEU_VolumeLayer), 72 + sizeof(::HoudiniEngineUnity::HEU_DetailPrototype*)> __HoudiniEngineUnity_HEU_VolumeLayerSizeCheck;
   static_assert(sizeof(HEU_VolumeLayer) == 0x50);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_VolumeLayer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_VolumeLayer::IsEquivalentTo
 // Il2CppName: IsEquivalentTo
 template<>
@@ -180,7 +174,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_VolumeLayer*), "IsEquivalentTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
-// Writing MetadataGetter for method: HoudiniEngineUnity::HEU_VolumeLayer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

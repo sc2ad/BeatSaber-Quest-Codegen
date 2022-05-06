@@ -53,11 +53,11 @@ namespace System {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: System.TimeZoneInfo/System.TIME_ZONE_INFORMATION TZI
-    ::System::TimeZoneInfo::TIME_ZONE_INFORMATION& dyn_TZI();
+    [[deprecated("Use field access instead!")]] ::System::TimeZoneInfo::TIME_ZONE_INFORMATION& dyn_TZI();
     // Get instance field reference: System.String TimeZoneKeyName
-    ::StringW& dyn_TimeZoneKeyName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_TimeZoneKeyName();
     // Get instance field reference: System.Byte DynamicDaylightTimeDisabled
-    uint8_t& dyn_DynamicDaylightTimeDisabled();
+    [[deprecated("Use field access instead!")]] uint8_t& dyn_DynamicDaylightTimeDisabled();
   }; // System.TimeZoneInfo/System.DYNAMIC_TIME_ZONE_INFORMATION
   #pragma pack(pop)
   static check_size<sizeof(TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION), 80 + sizeof(uint8_t)> __System_TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATIONSizeCheck;

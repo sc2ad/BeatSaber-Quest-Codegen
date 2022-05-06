@@ -181,41 +181,41 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: OVR.OpenVR.IVRInput/OVR.OpenVR._SetActionManifestPath SetActionManifestPath
-    ::OVR::OpenVR::IVRInput::_SetActionManifestPath*& dyn_SetActionManifestPath();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRInput::_SetActionManifestPath*& dyn_SetActionManifestPath();
     // Get instance field reference: OVR.OpenVR.IVRInput/OVR.OpenVR._GetActionSetHandle GetActionSetHandle
-    ::OVR::OpenVR::IVRInput::_GetActionSetHandle*& dyn_GetActionSetHandle();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRInput::_GetActionSetHandle*& dyn_GetActionSetHandle();
     // Get instance field reference: OVR.OpenVR.IVRInput/OVR.OpenVR._GetActionHandle GetActionHandle
-    ::OVR::OpenVR::IVRInput::_GetActionHandle*& dyn_GetActionHandle();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRInput::_GetActionHandle*& dyn_GetActionHandle();
     // Get instance field reference: OVR.OpenVR.IVRInput/OVR.OpenVR._GetInputSourceHandle GetInputSourceHandle
-    ::OVR::OpenVR::IVRInput::_GetInputSourceHandle*& dyn_GetInputSourceHandle();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRInput::_GetInputSourceHandle*& dyn_GetInputSourceHandle();
     // Get instance field reference: OVR.OpenVR.IVRInput/OVR.OpenVR._UpdateActionState UpdateActionState
-    ::OVR::OpenVR::IVRInput::_UpdateActionState*& dyn_UpdateActionState();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRInput::_UpdateActionState*& dyn_UpdateActionState();
     // Get instance field reference: OVR.OpenVR.IVRInput/OVR.OpenVR._GetDigitalActionData GetDigitalActionData
-    ::OVR::OpenVR::IVRInput::_GetDigitalActionData*& dyn_GetDigitalActionData();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRInput::_GetDigitalActionData*& dyn_GetDigitalActionData();
     // Get instance field reference: OVR.OpenVR.IVRInput/OVR.OpenVR._GetAnalogActionData GetAnalogActionData
-    ::OVR::OpenVR::IVRInput::_GetAnalogActionData*& dyn_GetAnalogActionData();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRInput::_GetAnalogActionData*& dyn_GetAnalogActionData();
     // Get instance field reference: OVR.OpenVR.IVRInput/OVR.OpenVR._GetPoseActionData GetPoseActionData
-    ::OVR::OpenVR::IVRInput::_GetPoseActionData*& dyn_GetPoseActionData();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRInput::_GetPoseActionData*& dyn_GetPoseActionData();
     // Get instance field reference: OVR.OpenVR.IVRInput/OVR.OpenVR._GetSkeletalActionData GetSkeletalActionData
-    ::OVR::OpenVR::IVRInput::_GetSkeletalActionData*& dyn_GetSkeletalActionData();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRInput::_GetSkeletalActionData*& dyn_GetSkeletalActionData();
     // Get instance field reference: OVR.OpenVR.IVRInput/OVR.OpenVR._GetSkeletalBoneData GetSkeletalBoneData
-    ::OVR::OpenVR::IVRInput::_GetSkeletalBoneData*& dyn_GetSkeletalBoneData();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRInput::_GetSkeletalBoneData*& dyn_GetSkeletalBoneData();
     // Get instance field reference: OVR.OpenVR.IVRInput/OVR.OpenVR._GetSkeletalBoneDataCompressed GetSkeletalBoneDataCompressed
-    ::OVR::OpenVR::IVRInput::_GetSkeletalBoneDataCompressed*& dyn_GetSkeletalBoneDataCompressed();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRInput::_GetSkeletalBoneDataCompressed*& dyn_GetSkeletalBoneDataCompressed();
     // Get instance field reference: OVR.OpenVR.IVRInput/OVR.OpenVR._DecompressSkeletalBoneData DecompressSkeletalBoneData
-    ::OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData*& dyn_DecompressSkeletalBoneData();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData*& dyn_DecompressSkeletalBoneData();
     // Get instance field reference: OVR.OpenVR.IVRInput/OVR.OpenVR._TriggerHapticVibrationAction TriggerHapticVibrationAction
-    ::OVR::OpenVR::IVRInput::_TriggerHapticVibrationAction*& dyn_TriggerHapticVibrationAction();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRInput::_TriggerHapticVibrationAction*& dyn_TriggerHapticVibrationAction();
     // Get instance field reference: OVR.OpenVR.IVRInput/OVR.OpenVR._GetActionOrigins GetActionOrigins
-    ::OVR::OpenVR::IVRInput::_GetActionOrigins*& dyn_GetActionOrigins();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRInput::_GetActionOrigins*& dyn_GetActionOrigins();
     // Get instance field reference: OVR.OpenVR.IVRInput/OVR.OpenVR._GetOriginLocalizedName GetOriginLocalizedName
-    ::OVR::OpenVR::IVRInput::_GetOriginLocalizedName*& dyn_GetOriginLocalizedName();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRInput::_GetOriginLocalizedName*& dyn_GetOriginLocalizedName();
     // Get instance field reference: OVR.OpenVR.IVRInput/OVR.OpenVR._GetOriginTrackedDeviceInfo GetOriginTrackedDeviceInfo
-    ::OVR::OpenVR::IVRInput::_GetOriginTrackedDeviceInfo*& dyn_GetOriginTrackedDeviceInfo();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRInput::_GetOriginTrackedDeviceInfo*& dyn_GetOriginTrackedDeviceInfo();
     // Get instance field reference: OVR.OpenVR.IVRInput/OVR.OpenVR._ShowActionOrigins ShowActionOrigins
-    ::OVR::OpenVR::IVRInput::_ShowActionOrigins*& dyn_ShowActionOrigins();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRInput::_ShowActionOrigins*& dyn_ShowActionOrigins();
     // Get instance field reference: OVR.OpenVR.IVRInput/OVR.OpenVR._ShowBindingsForActionSet ShowBindingsForActionSet
-    ::OVR::OpenVR::IVRInput::_ShowBindingsForActionSet*& dyn_ShowBindingsForActionSet();
+    [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRInput::_ShowBindingsForActionSet*& dyn_ShowBindingsForActionSet();
   }; // OVR.OpenVR.IVRInput
   #pragma pack(pop)
   static check_size<sizeof(IVRInput), 136 + sizeof(::OVR::OpenVR::IVRInput::_ShowBindingsForActionSet*)> __OVR_OpenVR_IVRInputSizeCheck;

@@ -69,15 +69,15 @@ namespace TMPro {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public UnityEngine.Vector3 position
-    ::UnityEngine::Vector3& dyn_position();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_position();
     // Get instance field reference: public UnityEngine.Vector2 uv
-    ::UnityEngine::Vector2& dyn_uv();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_uv();
     // Get instance field reference: public UnityEngine.Vector2 uv2
-    ::UnityEngine::Vector2& dyn_uv2();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_uv2();
     // Get instance field reference: public UnityEngine.Vector2 uv4
-    ::UnityEngine::Vector2& dyn_uv4();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_uv4();
     // Get instance field reference: public UnityEngine.Color32 color
-    ::UnityEngine::Color32& dyn_color();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color32& dyn_color();
   }; // TMPro.TMP_Vertex
   #pragma pack(pop)
   static check_size<sizeof(TMP_Vertex), 36 + sizeof(::UnityEngine::Color32)> __TMPro_TMP_VertexSizeCheck;

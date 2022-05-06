@@ -81,19 +81,19 @@ namespace TMPro::SpriteAssetUtilities {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.String filename
-    ::StringW& dyn_filename();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_filename();
     // Get instance field reference: public TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteFrame frame
-    ::TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame& dyn_frame();
+    [[deprecated("Use field access instead!")]] ::TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame& dyn_frame();
     // Get instance field reference: public System.Boolean rotated
-    bool& dyn_rotated();
+    [[deprecated("Use field access instead!")]] bool& dyn_rotated();
     // Get instance field reference: public System.Boolean trimmed
-    bool& dyn_trimmed();
+    [[deprecated("Use field access instead!")]] bool& dyn_trimmed();
     // Get instance field reference: public TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteFrame spriteSourceSize
-    ::TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame& dyn_spriteSourceSize();
+    [[deprecated("Use field access instead!")]] ::TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame& dyn_spriteSourceSize();
     // Get instance field reference: public TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteSize sourceSize
-    ::TMPro::SpriteAssetUtilities::TexturePacker::SpriteSize& dyn_sourceSize();
+    [[deprecated("Use field access instead!")]] ::TMPro::SpriteAssetUtilities::TexturePacker::SpriteSize& dyn_sourceSize();
     // Get instance field reference: public UnityEngine.Vector2 pivot
-    ::UnityEngine::Vector2& dyn_pivot();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_pivot();
   }; // TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteData
   #pragma pack(pop)
   static check_size<sizeof(TexturePacker::SpriteData), 52 + sizeof(::UnityEngine::Vector2)> __TMPro_SpriteAssetUtilities_TexturePacker_SpriteDataSizeCheck;

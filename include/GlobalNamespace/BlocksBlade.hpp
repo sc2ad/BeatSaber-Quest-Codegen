@@ -59,15 +59,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::BlocksBlade::Element
     class Element;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Mesh _elementMesh
     // Size: 0x8
     // Offset: 0x18
@@ -179,98 +171,90 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1255C08
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10DA7EC
     // Get static field: static private readonly System.Int32 _positionPropertyID
     static int _get__positionPropertyID();
     // Set static field: static private readonly System.Int32 _positionPropertyID
     static void _set__positionPropertyID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1255C18
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10DA7FC
     // Get static field: static private readonly System.Int32 _sizePropertyID
     static int _get__sizePropertyID();
     // Set static field: static private readonly System.Int32 _sizePropertyID
     static void _set__sizePropertyID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1255C28
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10DA80C
     // Get static field: static private readonly System.Int32 _colorPropertyID
     static int _get__colorPropertyID();
     // Set static field: static private readonly System.Int32 _colorPropertyID
     static void _set__colorPropertyID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1255C38
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10DA81C
     // Get static field: static private readonly System.Int32 _zClipPropertyID
     static int _get__zClipPropertyID();
     // Set static field: static private readonly System.Int32 _zClipPropertyID
     static void _set__zClipPropertyID(int value);
     // Get instance field reference: private UnityEngine.Mesh _elementMesh
-    ::UnityEngine::Mesh*& dyn__elementMesh();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Mesh*& dyn__elementMesh();
     // Get instance field reference: private UnityEngine.Material _material
-    ::UnityEngine::Material*& dyn__material();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__material();
     // Get instance field reference: private System.Int32 _numberOfElements
-    int& dyn__numberOfElements();
+    [[deprecated("Use field access instead!")]] int& dyn__numberOfElements();
     // Get instance field reference: private System.Single _radius
-    float& dyn__radius();
+    [[deprecated("Use field access instead!")]] float& dyn__radius();
     // Get instance field reference: private System.Single _length
-    float& dyn__length();
+    [[deprecated("Use field access instead!")]] float& dyn__length();
     // Get instance field reference: private System.Single _minVelocity
-    float& dyn__minVelocity();
+    [[deprecated("Use field access instead!")]] float& dyn__minVelocity();
     // Get instance field reference: private System.Single _maxVelocity
-    float& dyn__maxVelocity();
+    [[deprecated("Use field access instead!")]] float& dyn__maxVelocity();
     // Get instance field reference: private System.Single _elementWidth
-    float& dyn__elementWidth();
+    [[deprecated("Use field access instead!")]] float& dyn__elementWidth();
     // Get instance field reference: private System.Single _minElementLength
-    float& dyn__minElementLength();
+    [[deprecated("Use field access instead!")]] float& dyn__minElementLength();
     // Get instance field reference: private System.Single _maxElementLength
-    float& dyn__maxElementLength();
+    [[deprecated("Use field access instead!")]] float& dyn__maxElementLength();
     // Get instance field reference: private UnityEngine.Color <color>k__BackingField
-    ::UnityEngine::Color& dyn_$color$k__BackingField();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_$color$k__BackingField();
     // Get instance field reference: private System.Collections.Generic.List`1<BlocksBlade/Element> _elements
-    ::System::Collections::Generic::List_1<::GlobalNamespace::BlocksBlade::Element*>*& dyn__elements();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::BlocksBlade::Element*>*& dyn__elements();
     // Get instance field reference: private UnityEngine.Vector4[] _positions
-    ::ArrayW<::UnityEngine::Vector4>& dyn__positions();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector4>& dyn__positions();
     // Get instance field reference: private UnityEngine.Vector4[] _sizes
-    ::ArrayW<::UnityEngine::Vector4>& dyn__sizes();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector4>& dyn__sizes();
     // Get instance field reference: private UnityEngine.Vector4[] _colors
-    ::ArrayW<::UnityEngine::Vector4>& dyn__colors();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector4>& dyn__colors();
     // Get instance field reference: private UnityEngine.Matrix4x4[] _matrices
-    ::ArrayW<::UnityEngine::Matrix4x4>& dyn__matrices();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Matrix4x4>& dyn__matrices();
     // Get instance field reference: private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
-    ::UnityEngine::MaterialPropertyBlock*& dyn__materialPropertyBlock();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::MaterialPropertyBlock*& dyn__materialPropertyBlock();
     // Get instance field reference: private System.Int32 _layer
-    int& dyn__layer();
+    [[deprecated("Use field access instead!")]] int& dyn__layer();
     // public UnityEngine.Color get_color()
-    // Offset: 0x134A6CC
+    // Offset: 0x1333914
     ::UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x134A6D8
+    // Offset: 0x1333920
     void set_color(::UnityEngine::Color value);
-    // protected System.Void Start()
-    // Offset: 0x134A6E4
-    void Start();
-    // protected System.Void Update()
-    // Offset: 0x134AA7C
-    void Update();
-    // private System.Void SetUpElement(BlocksBlade/Element element, System.Single velocity, UnityEngine.Color color)
-    // Offset: 0x134A89C
-    void SetUpElement(::GlobalNamespace::BlocksBlade::Element* element, float velocity, ::UnityEngine::Color color);
-    // private UnityEngine.Vector2 RandomPointOnCircle(System.Single radius)
-    // Offset: 0x134AE68
-    ::UnityEngine::Vector2 RandomPointOnCircle(float radius);
     // public System.Void .ctor()
-    // Offset: 0x134AF28
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1334170
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BlocksBlade* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BlocksBlade::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BlocksBlade*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x134AF60
-    // Implemented from: UnityEngine.Object
-    // Base method: System.Void Object::.cctor()
+    // Offset: 0x13341A8
     static void _cctor();
+    // protected System.Void Start()
+    // Offset: 0x133392C
+    void Start();
+    // protected System.Void Update()
+    // Offset: 0x1333CC4
+    void Update();
+    // private System.Void SetUpElement(BlocksBlade/Element element, System.Single velocity, UnityEngine.Color color)
+    // Offset: 0x1333AE4
+    void SetUpElement(::GlobalNamespace::BlocksBlade::Element* element, float velocity, ::UnityEngine::Color color);
+    // private UnityEngine.Vector2 RandomPointOnCircle(System.Single radius)
+    // Offset: 0x13340B0
+    ::UnityEngine::Vector2 RandomPointOnCircle(float radius);
   }; // BlocksBlade
   #pragma pack(pop)
   static check_size<sizeof(BlocksBlade), 136 + sizeof(int)> __GlobalNamespace_BlocksBladeSizeCheck;
@@ -292,6 +276,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlocksBlade*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BlocksBlade::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::BlocksBlade::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BlocksBlade::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlocksBlade*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BlocksBlade::Start
@@ -328,17 +324,5 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
   static const MethodInfo* get() {
     static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlocksBlade*), "RandomPointOnCircle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{radius});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::BlocksBlade::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::BlocksBlade::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BlocksBlade::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlocksBlade*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

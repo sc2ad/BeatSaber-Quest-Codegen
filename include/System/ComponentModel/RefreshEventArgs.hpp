@@ -35,15 +35,7 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class RefreshEventArgs : public ::System::EventArgs {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Type typeChanged
     // Size: 0x8
     // Offset: 0x10
@@ -56,9 +48,9 @@ namespace System::ComponentModel {
       return typeChanged;
     }
     // Get instance field reference: private System.Type typeChanged
-    ::System::Type*& dyn_typeChanged();
+    [[deprecated("Use field access instead!")]] ::System::Type*& dyn_typeChanged();
     // public System.Void .ctor(System.Type typeChanged)
-    // Offset: 0x1D67E28
+    // Offset: 0x1DA3380
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RefreshEventArgs* New_ctor(::System::Type* typeChanged) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::RefreshEventArgs::.ctor");

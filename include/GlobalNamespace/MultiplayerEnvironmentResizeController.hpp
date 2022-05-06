@@ -52,15 +52,7 @@ namespace GlobalNamespace {
     struct ResizeType;
     // Nested type: ::GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData
     class ResizeData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Transform _platformEnd
     // Size: 0x8
     // Offset: 0x18
@@ -73,14 +65,14 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*> resizeData;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*>) == 0x8);
-    // [InjectAttribute] Offset: 0x12546F4
+    // [InjectAttribute] Offset: 0x10D92D8
     // private readonly MultiplayerCenterResizeController _centerResizeController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::MultiplayerCenterResizeController* centerResizeController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerCenterResizeController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1254704
+    // [InjectAttribute] Offset: 0x10D92E8
     // private readonly BeatmapObjectSpawnCenter _beatmapObjectSpawnCenter
     // Size: 0x8
     // Offset: 0x30
@@ -115,61 +107,55 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform _platformEnd
-    ::UnityEngine::Transform*& dyn__platformEnd();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__platformEnd();
     // Get instance field reference: private MultiplayerEnvironmentResizeController/ResizeData[] _resizeData
-    ::ArrayW<::GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*>& dyn__resizeData();
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*>& dyn__resizeData();
     // Get instance field reference: private readonly MultiplayerCenterResizeController _centerResizeController
-    ::GlobalNamespace::MultiplayerCenterResizeController*& dyn__centerResizeController();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerCenterResizeController*& dyn__centerResizeController();
     // Get instance field reference: private readonly BeatmapObjectSpawnCenter _beatmapObjectSpawnCenter
-    ::GlobalNamespace::BeatmapObjectSpawnCenter*& dyn__beatmapObjectSpawnCenter();
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectSpawnCenter*& dyn__beatmapObjectSpawnCenter();
     // Get instance field reference: private System.Action resizingDidFinishEvent
-    ::System::Action*& dyn_resizingDidFinishEvent();
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_resizingDidFinishEvent();
     // Get instance field reference: private System.Boolean _isResizingFinished
-    bool& dyn__isResizingFinished();
+    [[deprecated("Use field access instead!")]] bool& dyn__isResizingFinished();
     // Get instance field reference: private System.Boolean _edgeDistanceFromCenterFound
-    bool& dyn__edgeDistanceFromCenterFound();
+    [[deprecated("Use field access instead!")]] bool& dyn__edgeDistanceFromCenterFound();
     // Get instance field reference: private System.Boolean _spawnCenterDistanceFound
-    bool& dyn__spawnCenterDistanceFound();
+    [[deprecated("Use field access instead!")]] bool& dyn__spawnCenterDistanceFound();
     // public System.Boolean get_isResizingFinished()
-    // Offset: 0x13F18D0
+    // Offset: 0x13FE370
     bool get_isResizingFinished();
     // public System.Void add_resizingDidFinishEvent(System.Action value)
-    // Offset: 0x13F18D8
+    // Offset: 0x13FE378
     void add_resizingDidFinishEvent(::System::Action* value);
     // public System.Void remove_resizingDidFinishEvent(System.Action value)
-    // Offset: 0x13F197C
+    // Offset: 0x13FE41C
     void remove_resizingDidFinishEvent(::System::Action* value);
-    // protected System.Void Start()
-    // Offset: 0x13F1A20
-    void Start();
-    // protected System.Void OnDestroy()
-    // Offset: 0x13F1B90
-    void OnDestroy();
-    // private System.Void HandleEdgeDistanceFromCenterWasCalculated(System.Single edgeDistanceFromCenter)
-    // Offset: 0x13F1B60
-    void HandleEdgeDistanceFromCenterWasCalculated(float edgeDistanceFromCenter);
-    // private System.Void HandleSpawnCenterDistanceWasFound(System.Single distance)
-    // Offset: 0x13F1B78
-    void HandleSpawnCenterDistanceWasFound(float distance);
-    // private System.Void TryResize()
-    // Offset: 0x13F1CE8
-    void TryResize();
-    // private System.Void Resize()
-    // Offset: 0x13F1D00
-    void Resize();
     // public System.Void .ctor()
-    // Offset: 0x13F1FF8
-    // Implemented from: UnityEngine.MonoBehaviour
-    // Base method: System.Void MonoBehaviour::.ctor()
-    // Base method: System.Void Behaviour::.ctor()
-    // Base method: System.Void Component::.ctor()
-    // Base method: System.Void Object::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x13FEA98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerEnvironmentResizeController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerEnvironmentResizeController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerEnvironmentResizeController*, creationType>()));
     }
+    // protected System.Void Start()
+    // Offset: 0x13FE4C0
+    void Start();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13FE630
+    void OnDestroy();
+    // private System.Void HandleEdgeDistanceFromCenterWasCalculated(System.Single edgeDistanceFromCenter)
+    // Offset: 0x13FE600
+    void HandleEdgeDistanceFromCenterWasCalculated(float edgeDistanceFromCenter);
+    // private System.Void HandleSpawnCenterDistanceWasFound(System.Single distance)
+    // Offset: 0x13FE618
+    void HandleSpawnCenterDistanceWasFound(float distance);
+    // private System.Void TryResize()
+    // Offset: 0x13FE788
+    void TryResize();
+    // private System.Void Resize()
+    // Offset: 0x13FE7A0
+    void Resize();
   }; // MultiplayerEnvironmentResizeController
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerEnvironmentResizeController), 66 + sizeof(bool)> __GlobalNamespace_MultiplayerEnvironmentResizeControllerSizeCheck;
@@ -202,6 +188,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerEnvironmentResizeController*), "remove_resizingDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerEnvironmentResizeController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerEnvironmentResizeController::Start
 // Il2CppName: Start
 template<>
@@ -252,7 +242,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerEnvironmentResizeController*), "Resize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerEnvironmentResizeController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

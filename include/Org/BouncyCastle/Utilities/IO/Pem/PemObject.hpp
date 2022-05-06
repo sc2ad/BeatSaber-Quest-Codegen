@@ -35,15 +35,7 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
   // [TokenAttribute] Offset: FFFFFFFF
   class PemObject : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String type
     // Size: 0x8
     // Offset: 0x10
@@ -64,22 +56,22 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     public:
     // Get instance field reference: private System.String type
-    ::StringW& dyn_type();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_type();
     // Get instance field reference: private System.Collections.IList headers
-    ::System::Collections::IList*& dyn_headers();
+    [[deprecated("Use field access instead!")]] ::System::Collections::IList*& dyn_headers();
     // Get instance field reference: private System.Byte[] content
-    ::ArrayW<uint8_t>& dyn_content();
+    [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_content();
     // public System.String get_Type()
-    // Offset: 0x25A4E54
+    // Offset: 0x25F0484
     ::StringW get_Type();
     // public System.Collections.IList get_Headers()
-    // Offset: 0x25A4E5C
+    // Offset: 0x25F048C
     ::System::Collections::IList* get_Headers();
     // public System.Byte[] get_Content()
-    // Offset: 0x25A4E64
+    // Offset: 0x25F0494
     ::ArrayW<uint8_t> get_Content();
     // public System.Void .ctor(System.String type, System.Collections.IList headers, System.Byte[] content)
-    // Offset: 0x25A4D58
+    // Offset: 0x25F0388
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PemObject* New_ctor(::StringW type, ::System::Collections::IList* headers, ::ArrayW<uint8_t> content) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::IO::Pem::PemObject::.ctor");

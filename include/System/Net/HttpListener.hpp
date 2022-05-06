@@ -91,15 +91,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpListener : public ::Il2CppObject/*, public ::System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private Mono.Security.Interface.MonoTlsProvider tlsProvider
     // Size: 0x8
     // Offset: 0x10
@@ -212,120 +204,118 @@ namespace System::Net {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get instance field reference: private Mono.Security.Interface.MonoTlsProvider tlsProvider
-    ::Mono::Security::Interface::MonoTlsProvider*& dyn_tlsProvider();
+    [[deprecated("Use field access instead!")]] ::Mono::Security::Interface::MonoTlsProvider*& dyn_tlsProvider();
     // Get instance field reference: private Mono.Security.Interface.MonoTlsSettings tlsSettings
-    ::Mono::Security::Interface::MonoTlsSettings*& dyn_tlsSettings();
+    [[deprecated("Use field access instead!")]] ::Mono::Security::Interface::MonoTlsSettings*& dyn_tlsSettings();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate certificate
-    ::System::Security::Cryptography::X509Certificates::X509Certificate*& dyn_certificate();
+    [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::X509Certificates::X509Certificate*& dyn_certificate();
     // Get instance field reference: private System.Net.AuthenticationSchemes auth_schemes
-    ::System::Net::AuthenticationSchemes& dyn_auth_schemes();
+    [[deprecated("Use field access instead!")]] ::System::Net::AuthenticationSchemes& dyn_auth_schemes();
     // Get instance field reference: private System.Net.HttpListenerPrefixCollection prefixes
-    ::System::Net::HttpListenerPrefixCollection*& dyn_prefixes();
+    [[deprecated("Use field access instead!")]] ::System::Net::HttpListenerPrefixCollection*& dyn_prefixes();
     // Get instance field reference: private System.Net.AuthenticationSchemeSelector auth_selector
-    ::System::Net::AuthenticationSchemeSelector*& dyn_auth_selector();
+    [[deprecated("Use field access instead!")]] ::System::Net::AuthenticationSchemeSelector*& dyn_auth_selector();
     // Get instance field reference: private System.String realm
-    ::StringW& dyn_realm();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_realm();
     // Get instance field reference: private System.Boolean ignore_write_exceptions
-    bool& dyn_ignore_write_exceptions();
+    [[deprecated("Use field access instead!")]] bool& dyn_ignore_write_exceptions();
     // Get instance field reference: private System.Boolean listening
-    bool& dyn_listening();
+    [[deprecated("Use field access instead!")]] bool& dyn_listening();
     // Get instance field reference: private System.Boolean disposed
-    bool& dyn_disposed();
+    [[deprecated("Use field access instead!")]] bool& dyn_disposed();
     // Get instance field reference: private readonly System.Object _internalLock
-    ::Il2CppObject*& dyn__internalLock();
+    [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__internalLock();
     // Get instance field reference: private System.Collections.Hashtable registry
-    ::System::Collections::Hashtable*& dyn_registry();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn_registry();
     // Get instance field reference: private System.Collections.ArrayList ctx_queue
-    ::System::Collections::ArrayList*& dyn_ctx_queue();
+    [[deprecated("Use field access instead!")]] ::System::Collections::ArrayList*& dyn_ctx_queue();
     // Get instance field reference: private System.Collections.ArrayList wait_queue
-    ::System::Collections::ArrayList*& dyn_wait_queue();
+    [[deprecated("Use field access instead!")]] ::System::Collections::ArrayList*& dyn_wait_queue();
     // Get instance field reference: private System.Collections.Hashtable connections
-    ::System::Collections::Hashtable*& dyn_connections();
+    [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn_connections();
     // Get instance field reference: private System.Net.ServiceNameStore defaultServiceNames
-    ::System::Net::ServiceNameStore*& dyn_defaultServiceNames();
+    [[deprecated("Use field access instead!")]] ::System::Net::ServiceNameStore*& dyn_defaultServiceNames();
     // Get instance field reference: private System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy extendedProtectionPolicy
-    ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy*& dyn_extendedProtectionPolicy();
+    [[deprecated("Use field access instead!")]] ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy*& dyn_extendedProtectionPolicy();
     // public System.Net.AuthenticationSchemes get_AuthenticationSchemes()
-    // Offset: 0x1A69EDC
+    // Offset: 0x1AA44C4
     ::System::Net::AuthenticationSchemes get_AuthenticationSchemes();
     // public System.Net.AuthenticationSchemeSelector get_AuthenticationSchemeSelectorDelegate()
-    // Offset: 0x1A69EE4
+    // Offset: 0x1AA44CC
     ::System::Net::AuthenticationSchemeSelector* get_AuthenticationSchemeSelectorDelegate();
     // public System.Boolean get_IgnoreWriteExceptions()
-    // Offset: 0x1A69EEC
+    // Offset: 0x1AA44D4
     bool get_IgnoreWriteExceptions();
     // public System.Boolean get_IsListening()
-    // Offset: 0x1A69EF4
+    // Offset: 0x1AA44DC
     bool get_IsListening();
     // public System.Net.HttpListenerPrefixCollection get_Prefixes()
-    // Offset: 0x1A69EFC
+    // Offset: 0x1AA44E4
     ::System::Net::HttpListenerPrefixCollection* get_Prefixes();
     // public System.String get_Realm()
-    // Offset: 0x1A69FC8
+    // Offset: 0x1AA45B0
     ::StringW get_Realm();
-    // System.Security.Cryptography.X509Certificates.X509Certificate LoadCertificateAndKey(System.Net.IPAddress addr, System.Int32 port)
-    // Offset: 0x1A699E4
-    ::System::Security::Cryptography::X509Certificates::X509Certificate* LoadCertificateAndKey(::System::Net::IPAddress* addr, int port);
-    // System.Net.Security.SslStream CreateSslStream(System.IO.Stream innerStream, System.Boolean ownsStream, System.Net.Security.RemoteCertificateValidationCallback callback)
-    // Offset: 0x1A65F38
-    ::System::Net::Security::SslStream* CreateSslStream(::System::IO::Stream* innerStream, bool ownsStream, ::System::Net::Security::RemoteCertificateValidationCallback* callback);
-    // public System.Void Close()
-    // Offset: 0x1A69FD0
-    void Close();
-    // private System.Void Close(System.Boolean force)
-    // Offset: 0x1A6A014
-    void Close(bool force);
-    // private System.Void Cleanup(System.Boolean close_existing)
-    // Offset: 0x1A6A09C
-    void Cleanup(bool close_existing);
-    // public System.IAsyncResult BeginGetContext(System.AsyncCallback callback, System.Object state)
-    // Offset: 0x1A6ABE8
-    ::System::IAsyncResult* BeginGetContext(::System::AsyncCallback* callback, ::Il2CppObject* state);
-    // public System.Net.HttpListenerContext EndGetContext(System.IAsyncResult asyncResult)
-    // Offset: 0x1A6B564
-    ::System::Net::HttpListenerContext* EndGetContext(::System::IAsyncResult* asyncResult);
-    // System.Net.AuthenticationSchemes SelectAuthenticationScheme(System.Net.HttpListenerContext context)
-    // Offset: 0x1A6B9D0
-    ::System::Net::AuthenticationSchemes SelectAuthenticationScheme(::System::Net::HttpListenerContext* context);
-    // public System.Net.HttpListenerContext GetContext()
-    // Offset: 0x1A6BB20
-    ::System::Net::HttpListenerContext* GetContext();
-    // public System.Void Start()
-    // Offset: 0x1A6BC64
-    void Start();
-    // public System.Void Stop()
-    // Offset: 0x1A6BCE8
-    void Stop();
-    // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1A6BD14
-    void System_IDisposable_Dispose();
-    // System.Void CheckDisposed()
-    // Offset: 0x1A69F20
-    void CheckDisposed();
-    // private System.Net.HttpListenerContext GetContextFromQueue()
-    // Offset: 0x1A6AEEC
-    ::System::Net::HttpListenerContext* GetContextFromQueue();
-    // System.Void RegisterContext(System.Net.HttpListenerContext context)
-    // Offset: 0x1A67A3C
-    void RegisterContext(::System::Net::HttpListenerContext* context);
-    // System.Void UnregisterContext(System.Net.HttpListenerContext context)
-    // Offset: 0x1A6BD54
-    void UnregisterContext(::System::Net::HttpListenerContext* context);
-    // System.Void AddConnection(System.Net.HttpConnection cnc)
-    // Offset: 0x1A67A14
-    void AddConnection(::System::Net::HttpConnection* cnc);
-    // System.Void RemoveConnection(System.Net.HttpConnection cnc)
-    // Offset: 0x1A67D4C
-    void RemoveConnection(::System::Net::HttpConnection* cnc);
     // public System.Void .ctor()
-    // Offset: 0x1A69CFC
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // Offset: 0x1AA42E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListener* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::HttpListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListener*, creationType>()));
     }
+    // System.Security.Cryptography.X509Certificates.X509Certificate LoadCertificateAndKey(System.Net.IPAddress addr, System.Int32 port)
+    // Offset: 0x1AA3FCC
+    ::System::Security::Cryptography::X509Certificates::X509Certificate* LoadCertificateAndKey(::System::Net::IPAddress* addr, int port);
+    // System.Net.Security.SslStream CreateSslStream(System.IO.Stream innerStream, System.Boolean ownsStream, System.Net.Security.RemoteCertificateValidationCallback callback)
+    // Offset: 0x1AA0520
+    ::System::Net::Security::SslStream* CreateSslStream(::System::IO::Stream* innerStream, bool ownsStream, ::System::Net::Security::RemoteCertificateValidationCallback* callback);
+    // public System.Void Close()
+    // Offset: 0x1AA45B8
+    void Close();
+    // private System.Void Close(System.Boolean force)
+    // Offset: 0x1AA45FC
+    void Close(bool force);
+    // private System.Void Cleanup(System.Boolean close_existing)
+    // Offset: 0x1AA4684
+    void Cleanup(bool close_existing);
+    // public System.IAsyncResult BeginGetContext(System.AsyncCallback callback, System.Object state)
+    // Offset: 0x1AA51D0
+    ::System::IAsyncResult* BeginGetContext(::System::AsyncCallback* callback, ::Il2CppObject* state);
+    // public System.Net.HttpListenerContext EndGetContext(System.IAsyncResult asyncResult)
+    // Offset: 0x1AA5B4C
+    ::System::Net::HttpListenerContext* EndGetContext(::System::IAsyncResult* asyncResult);
+    // System.Net.AuthenticationSchemes SelectAuthenticationScheme(System.Net.HttpListenerContext context)
+    // Offset: 0x1AA5FB8
+    ::System::Net::AuthenticationSchemes SelectAuthenticationScheme(::System::Net::HttpListenerContext* context);
+    // public System.Net.HttpListenerContext GetContext()
+    // Offset: 0x1AA6108
+    ::System::Net::HttpListenerContext* GetContext();
+    // public System.Void Start()
+    // Offset: 0x1AA624C
+    void Start();
+    // public System.Void Stop()
+    // Offset: 0x1AA62D0
+    void Stop();
+    // private System.Void System.IDisposable.Dispose()
+    // Offset: 0x1AA62FC
+    void System_IDisposable_Dispose();
+    // System.Void CheckDisposed()
+    // Offset: 0x1AA4508
+    void CheckDisposed();
+    // private System.Net.HttpListenerContext GetContextFromQueue()
+    // Offset: 0x1AA54D4
+    ::System::Net::HttpListenerContext* GetContextFromQueue();
+    // System.Void RegisterContext(System.Net.HttpListenerContext context)
+    // Offset: 0x1AA2024
+    void RegisterContext(::System::Net::HttpListenerContext* context);
+    // System.Void UnregisterContext(System.Net.HttpListenerContext context)
+    // Offset: 0x1AA633C
+    void UnregisterContext(::System::Net::HttpListenerContext* context);
+    // System.Void AddConnection(System.Net.HttpConnection cnc)
+    // Offset: 0x1AA1FFC
+    void AddConnection(::System::Net::HttpConnection* cnc);
+    // System.Void RemoveConnection(System.Net.HttpConnection cnc)
+    // Offset: 0x1AA2334
+    void RemoveConnection(::System::Net::HttpConnection* cnc);
   }; // System.Net.HttpListener
   #pragma pack(pop)
   static check_size<sizeof(HttpListener), 128 + sizeof(::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy*)> __System_Net_HttpListenerSizeCheck;
@@ -380,6 +370,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "get_Realm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Net::HttpListener::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::HttpListener::LoadCertificateAndKey
 // Il2CppName: LoadCertificateAndKey
 template<>
@@ -539,7 +533,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "RemoveConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cnc});
   }
 };
-// Writing MetadataGetter for method: System::Net::HttpListener::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

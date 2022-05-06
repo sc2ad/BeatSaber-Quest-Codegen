@@ -72,7 +72,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.ParticleSystemGradientMode RandomColor
     static void _set_RandomColor(::UnityEngine::ParticleSystemGradientMode value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // UnityEngine.ParticleSystemGradientMode
   #pragma pack(pop)
   static check_size<sizeof(ParticleSystemGradientMode), 0 + sizeof(int)> __UnityEngine_ParticleSystemGradientModeSizeCheck;

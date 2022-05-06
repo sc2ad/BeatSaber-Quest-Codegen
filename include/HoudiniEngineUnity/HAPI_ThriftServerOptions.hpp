@@ -46,9 +46,9 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Boolean autoClose
-    bool& dyn_autoClose();
+    [[deprecated("Use field access instead!")]] bool& dyn_autoClose();
     // Get instance field reference: public System.Single timeoutMs
-    float& dyn_timeoutMs();
+    [[deprecated("Use field access instead!")]] float& dyn_timeoutMs();
   }; // HoudiniEngineUnity.HAPI_ThriftServerOptions
   #pragma pack(pop)
   static check_size<sizeof(HAPI_ThriftServerOptions), 4 + sizeof(float)> __HoudiniEngineUnity_HAPI_ThriftServerOptionsSizeCheck;

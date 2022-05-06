@@ -90,28 +90,28 @@ namespace LIV::SDK::Unity {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public LIV.SDK.Unity.FEATURES supportedFeatures
-    ::LIV::SDK::Unity::FEATURES& dyn_supportedFeatures();
+    [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::FEATURES& dyn_supportedFeatures();
     // Get instance field reference: public System.String engineName
-    ::StringW& dyn_engineName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_engineName();
     // Get instance field reference: public System.String engineVersion
-    ::StringW& dyn_engineVersion();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_engineVersion();
     // Get instance field reference: public System.String applicationName
-    ::StringW& dyn_applicationName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_applicationName();
     // Get instance field reference: public System.String applicationVersion
-    ::StringW& dyn_applicationVersion();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_applicationVersion();
     // Get instance field reference: public System.String xrDeviceName
-    ::StringW& dyn_xrDeviceName();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_xrDeviceName();
     // Get instance field reference: public System.String graphicsAPI
-    ::StringW& dyn_graphicsAPI();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_graphicsAPI();
     // Get instance field reference: public System.String sdkID
-    ::StringW& dyn_sdkID();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_sdkID();
     // Get instance field reference: public System.String sdkVersion
-    ::StringW& dyn_sdkVersion();
+    [[deprecated("Use field access instead!")]] ::StringW& dyn_sdkVersion();
     // static public LIV.SDK.Unity.SDKApplicationOutput get_empty()
-    // Offset: 0x29FA104
+    // Offset: 0x2A50B74
     static ::LIV::SDK::Unity::SDKApplicationOutput get_empty();
     // public override System.String ToString()
-    // Offset: 0x29FA6CC
+    // Offset: 0x2A5113C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

@@ -54,7 +54,7 @@ namespace LIV::SDK::Unity {
     // Set static field: static public LIV.SDK.Unity.PRIORITY GAME
     static void _set_GAME(::LIV::SDK::Unity::PRIORITY value);
     // Get instance field reference: public System.SByte value__
-    int8_t& dyn_value__();
+    [[deprecated("Use field access instead!")]] int8_t& dyn_value__();
   }; // LIV.SDK.Unity.PRIORITY
   #pragma pack(pop)
   static check_size<sizeof(PRIORITY), 0 + sizeof(int8_t)> __LIV_SDK_Unity_PRIORITYSizeCheck;

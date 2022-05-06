@@ -35,15 +35,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_TerrainLayer : public ::Il2CppObject/*, public ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_TerrainLayer*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.TerrainLayer self
     // Size: 0x8
     // Offset: 0x10
@@ -60,19 +52,19 @@ namespace HoudiniEngineUnity {
       return self;
     }
     // Get instance field reference: public UnityEngine.TerrainLayer self
-    ::UnityEngine::TerrainLayer*& dyn_self();
+    [[deprecated("Use field access instead!")]] ::UnityEngine::TerrainLayer*& dyn_self();
     // public System.Void .ctor(UnityEngine.TerrainLayer self)
-    // Offset: 0x2A3FED0
+    // Offset: 0x2A972B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_TerrainLayer* New_ctor(::UnityEngine::TerrainLayer* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_TerrainLayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_TerrainLayer*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x2A3FEFC
+    // Offset: 0x2A972E4
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_TerrainLayer other)
-    // Offset: 0x2A3FF6C
+    // Offset: 0x2A97354
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_TerrainLayer* other);
   }; // HoudiniEngineUnity.Test_TerrainLayer
   #pragma pack(pop)

@@ -150,7 +150,7 @@ namespace System::Xml {
     // Set static field: static public System.Xml.XmlNodeType XmlDeclaration
     static void _set_XmlDeclaration(::System::Xml::XmlNodeType value);
     // Get instance field reference: public System.Int32 value__
-    int& dyn_value__();
+    [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // System.Xml.XmlNodeType
   #pragma pack(pop)
   static check_size<sizeof(XmlNodeType), 0 + sizeof(int)> __System_Xml_XmlNodeTypeSizeCheck;
